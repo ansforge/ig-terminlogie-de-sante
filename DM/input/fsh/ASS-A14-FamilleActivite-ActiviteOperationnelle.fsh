@@ -1,3 +1,5 @@
+Alias: $usage-context-type = http://terminology.hl7.org/CodeSystem/usage-context-type
+
 Instance: ASS-A14-FamilleActivite-ActiviteOperationnelle
 InstanceOf: ConceptMap
 Usage: #definition
