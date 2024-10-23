@@ -1,0 +1,84 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<https://interop.esante.gouv.fr/ig/terminologie/ConceptMap/ASS-A14-FamilleActivite-ActiviteOperationnelle> a fhir:ConceptMap ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "ASS-A14-FamilleActivite-ActiviteOperationnelle"] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ConceptMap ASS-A14-FamilleActivite-ActiviteOperationnelle</b></p><a name=\"ASS-A14-FamilleActivite-ActiviteOperationnelle\"> </a><a name=\"hcASS-A14-FamilleActivite-ActiviteOperationnelle\"> </a><a name=\"ASS-A14-FamilleActivite-ActiviteOperationnelle-fr-FR\"> </a><p>Mapping from (not specified) to (not specified)</p><br/><p><b>Group 1 </b>Mapping from <a href=\"CodeSystem-TRE-R266-FamilleActiviteOperationnelleHorsSerafin.html\">TRE_R266_FamilleActiviteOperationnelleHorsSerafin</a> to <a href=\"CodeSystem-TRE-R211-ActiviteOperationnelle.html\">TRE_R211_ActiviteOperationnelle</a></p><table class=\"grid\"><tr><td><b>Source Code</b></td><td><b>Relationship</b></td><td><b>Target Code</b></td></tr><tr><td>01 (Accompagnement des aidants)</td><td><a href=\"http://hl7.org/fhir/extensions/5.1.0/CodeSystem-concept-map-equivalence.html#narrower\" title=\"narrower\">narrower</a></td><td>325 (Soutien et aide aux aidants et/ou à la famille/entourage)</td></tr></table><hr/><p><b>Group 2 </b>Mapping from <a href=\"CodeSystem-terminologie-SERAFINPH.html\">Nomenclature des besoins et des prestations</a> to <a href=\"CodeSystem-TRE-R211-ActiviteOperationnelle.html\">TRE_R211_ActiviteOperationnelle</a></p><table class=\"grid\"><tr><td><b>Source Code</b></td><td><b>Relationship</b></td><td><b>Target Code</b></td></tr><tr><td>2.1.1.1 (Soins médicaux à visée préventive, curative et palliative)</td><td><a href=\"http://hl7.org/fhir/extensions/5.1.0/CodeSystem-concept-map-equivalence.html#narrower\" title=\"narrower\">narrower</a></td><td>135 (Sexologie médicale)</td></tr></table></div>"
+  ] ; # 
+  fhir:extension ( [
+     fhir:url [ fhir:v "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod"^^xsd:anyURI ] ;
+     fhir:value [
+       a fhir:Period ;
+       fhir:start [ fhir:v "2018-05-31T12:00:00+01:00"^^xsd:dateTime ]
+     ]
+  ] [
+     fhir:url [ fhir:v "http://hl7.org/fhir/StructureDefinition/concept-bidirectional"^^xsd:anyURI ] ;
+     fhir:value [ fhir:v "false"^^xsd:boolean ]
+  ] ) ; # 
+  fhir:url [ fhir:v "https://mos.esante.gouv.fr/NOS/ASS_A14-FamilleActivite-ActiviteOperationnelle/FHIR/ASS-A14-FamilleActivite-ActiviteOperationnelle"^^xsd:anyURI] ; # 
+  fhir:identifier [
+     fhir:value [ fhir:v "urn:oid:1.2.250.1.213.3.3.63" ]
+  ] ; # 
+  fhir:version [ fhir:v "20240531120000"] ; # 
+  fhir:name [ fhir:v "ASS_A14_FamilleActivite_ActiviteOperationnelle"] ; # 
+  fhir:title [ fhir:v "ASS_A14_FamilleActivite_ActiviteOperationnelle"] ; # 
+  fhir:status [ fhir:v "active"] ; # 
+  fhir:experimental [ fhir:v "false"^^xsd:boolean] ; # 
+  fhir:date [ fhir:v "2024-05-31T12:00:00+01:00"^^xsd:dateTime] ; # 
+  fhir:publisher [ fhir:v "ANS"] ; # 
+  fhir:contact ( [
+     fhir:name [ fhir:v "ANS" ] ;
+     fhir:telecom ( [
+       fhir:system [ fhir:v "url" ] ;
+       fhir:value [ fhir:v "https://esante.gouv.fr" ]
+     ] )
+  ] ) ; # 
+  fhir:description [ fhir:v "Association  pour deduire la famille opérationnelle  depuis l'activité activité"] ; # 
+  fhir:useContext ( [
+     fhir:code [
+       fhir:system [ fhir:v "http://terminology.hl7.org/CodeSystem/usage-context-type"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "task" ]
+     ] ;
+     fhir:value [
+       a fhir:CodeableConcept ;
+       fhir:text [ fhir:v "Definir" ]
+     ]
+  ] ) ; # 
+  fhir:jurisdiction ( [
+     fhir:coding ( [
+       fhir:system [ fhir:v "urn:iso:std:iso:3166"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "FR" ] ;
+       fhir:display [ fhir:v "France" ]
+     ] )
+  ] ) ; # 
+  fhir:group ( [
+     fhir:source [ fhir:v "https://mos.esante.gouv.fr/NOS/TRE_R266-FamilleActiviteOperationnelleHorsSerafin/FHIR/TRE-R266-FamilleActiviteOperationnelleHorsSerafin"^^xsd:anyURI ] ;
+     fhir:target [ fhir:v "https://mos.esante.gouv.fr/NOS/TRE_R211-ActiviteOperationnelle/FHIR/TRE-R211-ActiviteOperationnelle"^^xsd:anyURI ] ;
+     fhir:element ( [
+       fhir:code [ fhir:v "01" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "325" ] ;
+         fhir:equivalence [ fhir:v "narrower" ]
+       ] )
+     ] )
+  ] [
+     fhir:source [ fhir:v "https://smt.esante.gouv.fr/terminologie-SERAFINPH"^^xsd:anyURI ] ;
+     fhir:target [ fhir:v "https://mos.esante.gouv.fr/NOS/TRE_R211-ActiviteOperationnelle/FHIR/TRE-R211-ActiviteOperationnelle"^^xsd:anyURI ] ;
+     fhir:element ( [
+       fhir:code [ fhir:v "2.1.1.1" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "135" ] ;
+         fhir:equivalence [ fhir:v "narrower" ]
+       ] )
+     ] )
+  ] ) . # 
+
+# -------------------------------------------------------------------------------------
+

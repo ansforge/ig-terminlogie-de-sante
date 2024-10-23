@@ -1,0 +1,75 @@
+{
+  "resourceType" : "ConceptMap",
+  "id" : "ASS-A14-FamilleActivite-ActiviteOperationnelle",
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ConceptMap ASS-A14-FamilleActivite-ActiviteOperationnelle</b></p><a name=\"ASS-A14-FamilleActivite-ActiviteOperationnelle\"> </a><a name=\"hcASS-A14-FamilleActivite-ActiviteOperationnelle\"> </a><a name=\"ASS-A14-FamilleActivite-ActiviteOperationnelle-fr-FR\"> </a><p>Mapping from (not specified) to (not specified)</p><br/><p><b>Group 1 </b>Mapping from <a href=\"CodeSystem-TRE-R266-FamilleActiviteOperationnelleHorsSerafin.html\">TRE_R266_FamilleActiviteOperationnelleHorsSerafin</a> to <a href=\"CodeSystem-TRE-R211-ActiviteOperationnelle.html\">TRE_R211_ActiviteOperationnelle</a></p><table class=\"grid\"><tr><td><b>Source Code</b></td><td><b>Relationship</b></td><td><b>Target Code</b></td></tr><tr><td>01 (Accompagnement des aidants)</td><td><a href=\"http://hl7.org/fhir/extensions/5.1.0/CodeSystem-concept-map-equivalence.html#narrower\" title=\"narrower\">narrower</a></td><td>325 (Soutien et aide aux aidants et/ou à la famille/entourage)</td></tr></table><hr/><p><b>Group 2 </b>Mapping from <a href=\"CodeSystem-terminologie-SERAFINPH.html\">Nomenclature des besoins et des prestations</a> to <a href=\"CodeSystem-TRE-R211-ActiviteOperationnelle.html\">TRE_R211_ActiviteOperationnelle</a></p><table class=\"grid\"><tr><td><b>Source Code</b></td><td><b>Relationship</b></td><td><b>Target Code</b></td></tr><tr><td>2.1.1.1 (Soins médicaux à visée préventive, curative et palliative)</td><td><a href=\"http://hl7.org/fhir/extensions/5.1.0/CodeSystem-concept-map-equivalence.html#narrower\" title=\"narrower\">narrower</a></td><td>135 (Sexologie médicale)</td></tr></table></div>"
+  },
+  "extension" : [{
+    "url" : "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod",
+    "valuePeriod" : {
+      "start" : "2018-05-31T12:00:00+01:00"
+    }
+  },
+  {
+    "url" : "http://hl7.org/fhir/StructureDefinition/concept-bidirectional",
+    "valueBoolean" : false
+  }],
+  "url" : "https://mos.esante.gouv.fr/NOS/ASS_A14-FamilleActivite-ActiviteOperationnelle/FHIR/ASS-A14-FamilleActivite-ActiviteOperationnelle",
+  "identifier" : {
+    "value" : "urn:oid:1.2.250.1.213.3.3.63"
+  },
+  "version" : "20240531120000",
+  "name" : "ASS_A14_FamilleActivite_ActiviteOperationnelle",
+  "title" : "ASS_A14_FamilleActivite_ActiviteOperationnelle",
+  "status" : "active",
+  "experimental" : false,
+  "date" : "2024-05-31T12:00:00+01:00",
+  "publisher" : "ANS",
+  "contact" : [{
+    "name" : "ANS",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "https://esante.gouv.fr"
+    }]
+  }],
+  "description" : "Association  pour deduire la famille opérationnelle  depuis l'activité activité",
+  "useContext" : [{
+    "code" : {
+      "system" : "http://terminology.hl7.org/CodeSystem/usage-context-type",
+      "code" : "task"
+    },
+    "valueCodeableConcept" : {
+      "text" : "Definir"
+    }
+  }],
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "FR",
+      "display" : "France"
+    }]
+  }],
+  "group" : [{
+    "source" : "https://mos.esante.gouv.fr/NOS/TRE_R266-FamilleActiviteOperationnelleHorsSerafin/FHIR/TRE-R266-FamilleActiviteOperationnelleHorsSerafin",
+    "target" : "https://mos.esante.gouv.fr/NOS/TRE_R211-ActiviteOperationnelle/FHIR/TRE-R211-ActiviteOperationnelle",
+    "element" : [{
+      "code" : "01",
+      "target" : [{
+        "code" : "325",
+        "equivalence" : "narrower"
+      }]
+    }]
+  },
+  {
+    "source" : "https://smt.esante.gouv.fr/terminologie-SERAFINPH",
+    "target" : "https://mos.esante.gouv.fr/NOS/TRE_R211-ActiviteOperationnelle/FHIR/TRE-R211-ActiviteOperationnelle",
+    "element" : [{
+      "code" : "2.1.1.1",
+      "target" : [{
+        "code" : "135",
+        "equivalence" : "narrower"
+      }]
+    }]
+  }]
+}
