@@ -14,3 +14,5 @@ Usage: #definition
 * contact.telecom.system = #url
 * contact.telecom.value = "https://esante.gouv.fr"
 * jurisdiction = urn:iso:std:iso:3166#FR "France"
+* description = "Association d'agrégats des catégories d'établissements : Sert à donner la structure de catégorie des établissments sur les 3 niveaux"
+
