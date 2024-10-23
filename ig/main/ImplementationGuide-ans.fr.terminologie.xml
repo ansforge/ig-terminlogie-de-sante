@@ -90,6 +90,30 @@
     </extension>
     <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
       <extension url="code">
+        <valueString value="no-validate"/>
+      </extension>
+      <extension url="value">
+        <valueString value="CodeSystem/TRE-R13-Commune"/>
+      </extension>
+    </extension>
+    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
+      <extension url="code">
+        <valueString value="no-validate"/>
+      </extension>
+      <extension url="value">
+        <valueString value="ValueSet/JDV-J120-CommuneHistorisee"/>
+      </extension>
+    </extension>
+    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
+      <extension url="code">
+        <valueString value="no-validate"/>
+      </extension>
+      <extension url="value">
+        <valueString value="ConceptMap/ASS-X12-CommuneDeptRegionOM"/>
+      </extension>
+    </extension>
+    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
+      <extension url="code">
         <valueString value="special-url-base"/>
       </extension>
       <extension url="value">
@@ -8513,6 +8537,30 @@
       </extension>
       <extension url="value">
         <valueString value="true"/>
+      </extension>
+    </extension>
+    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
+      <extension url="code">
+        <valueCode value="no-validate"/>
+      </extension>
+      <extension url="value">
+        <valueString value="CodeSystem/TRE-R13-Commune"/>
+      </extension>
+    </extension>
+    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
+      <extension url="code">
+        <valueCode value="no-validate"/>
+      </extension>
+      <extension url="value">
+        <valueString value="ValueSet/JDV-J120-CommuneHistorisee"/>
+      </extension>
+    </extension>
+    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
+      <extension url="code">
+        <valueCode value="no-validate"/>
+      </extension>
+      <extension url="value">
+        <valueString value="ConceptMap/ASS-X12-CommuneDeptRegionOM"/>
       </extension>
     </extension>
     <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">

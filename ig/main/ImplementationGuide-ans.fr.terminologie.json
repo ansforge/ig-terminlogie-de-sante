@@ -109,6 +109,39 @@
     {
       "extension" : [{
         "url" : "code",
+        "valueString" : "no-validate"
+      },
+      {
+        "url" : "value",
+        "valueString" : "CodeSystem/TRE-R13-Commune"
+      }],
+      "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
+    },
+    {
+      "extension" : [{
+        "url" : "code",
+        "valueString" : "no-validate"
+      },
+      {
+        "url" : "value",
+        "valueString" : "ValueSet/JDV-J120-CommuneHistorisee"
+      }],
+      "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
+    },
+    {
+      "extension" : [{
+        "url" : "code",
+        "valueString" : "no-validate"
+      },
+      {
+        "url" : "value",
+        "valueString" : "ConceptMap/ASS-X12-CommuneDeptRegionOM"
+      }],
+      "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
+    },
+    {
+      "extension" : [{
+        "url" : "code",
         "valueString" : "special-url-base"
       },
       {
@@ -11690,6 +11723,39 @@
       {
         "url" : "value",
         "valueString" : "true"
+      }],
+      "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
+    },
+    {
+      "extension" : [{
+        "url" : "code",
+        "valueCode" : "no-validate"
+      },
+      {
+        "url" : "value",
+        "valueString" : "CodeSystem/TRE-R13-Commune"
+      }],
+      "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
+    },
+    {
+      "extension" : [{
+        "url" : "code",
+        "valueCode" : "no-validate"
+      },
+      {
+        "url" : "value",
+        "valueString" : "ValueSet/JDV-J120-CommuneHistorisee"
+      }],
+      "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
+    },
+    {
+      "extension" : [{
+        "url" : "code",
+        "valueCode" : "no-validate"
+      },
+      {
+        "url" : "value",
+        "valueString" : "ConceptMap/ASS-X12-CommuneDeptRegionOM"
       }],
       "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
     },
