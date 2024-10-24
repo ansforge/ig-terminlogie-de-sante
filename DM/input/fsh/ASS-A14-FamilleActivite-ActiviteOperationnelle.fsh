@@ -23,12 +23,375 @@ Usage: #definition
 * group[=].target = "https://mos.esante.gouv.fr/NOS/TRE_R211-ActiviteOperationnelle/FHIR/TRE-R211-ActiviteOperationnelle"
 * group[=].element[0].code = #01
 * group[=].element[=].target.code = #325
-* group[=].element[=].target.equivalence = #narrower
+* group[=].element[=].target.equivalence = #narrower 
 * group[=].element[=].target.comment = ""
+
+* group[=].element[0].code = #01
+* group[=].element[=].target.code = #326
+* group[=].element[=].target.equivalence = #narrower 
+* group[=].element[=].target.comment = ""
+
+* group[=].element[0].code = #02
+* group[=].element[=].target.code = #330
+* group[=].element[=].target.equivalence = #narrower 
+* group[=].element[=].target.comment = ""
+
+* group[=].element[0].code = #02
+* group[=].element[=].target.code = #334
+* group[=].element[=].target.equivalence = #narrower 
+* group[=].element[=].target.comment = ""
+
+* group[=].element[0].code = #02
+* group[=].element[=].target.code = #336
+* group[=].element[=].target.equivalence = #narrower 
+* group[=].element[=].target.comment = ""
+
+* group[=].element[0].code = #03
+* group[=].element[=].target.code = #512
+* group[=].element[=].target.equivalence = #narrower 
+* group[=].element[=].target.comment = ""
+
+* group[=].element[0].code = #04
+* group[=].element[=].target.code = #511
+* group[=].element[=].target.equivalence = #narrower 
+* group[=].element[=].target.comment = ""
+
+* group[=].element[0].code = #04
+* group[=].element[=].target.code = #547
+* group[=].element[=].target.equivalence = #narrower 
+* group[=].element[=].target.comment = ""
+
+
+
+
+
+
+
 
 * group[1].source = "https://smt.esante.gouv.fr/terminologie-SERAFINPH"
 * group[=].target = "https://mos.esante.gouv.fr/NOS/TRE_R211-ActiviteOperationnelle/FHIR/TRE-R211-ActiviteOperationnelle"
 * group[=].element[0].code = #2.1.1.1
 * group[=].element[=].target.code = #135
-* group[=].element[=].target.equivalence = #narrower
+* group[=].element[=].target.equivalence = #narrower 
 * group[=].element[=].target.comment = ""
+
+* group[=].element[0].code = #2.1.1.1
+* group[=].element[=].target.code = #170
+* group[=].element[=].target.equivalence = #narrower 
+* group[=].element[=].target.comment = ""
+
+* group[=].element[0].code = #2.1.1.1
+* group[=].element[=].target.code = #285
+* group[=].element[=].target.equivalence = #narrower 
+* group[=].element[=].target.comment = ""
+
+* group[=].element[0].code = #2.1.1.1
+* group[=].element[=].target.code = #392
+* group[=].element[=].target.equivalence = #narrower 
+* group[=].element[=].target.comment = ""
+
+* group[=].element[0].code = #2.1.1.1
+* group[=].element[=].target.code = #393
+* group[=].element[=].target.equivalence = #narrower 
+* group[=].element[=].target.comment = ""
+
+* group[=].element[0].code = #2.1.1.1
+* group[=].element[=].target.code = #448
+* group[=].element[=].target.equivalence = #narrower 
+* group[=].element[=].target.comment = ""
+
+* group[=].element[0].code = #2.1.1.1
+* group[=].element[=].target.code = #449
+* group[=].element[=].target.equivalence = #narrower 
+* group[=].element[=].target.comment = ""
+
+* group[=].element[0].code = #2.1.1.1
+* group[=].element[=].target.code = #493
+* group[=].element[=].target.equivalence = #narrower 
+* group[=].element[=].target.comment = ""
+
+* group[=].element[0].code = #2.1.1.2
+* group[=].element[=].target.code = #287
+* group[=].element[=].target.equivalence = #narrower 
+* group[=].element[=].target.comment = ""
+
+* group[=].element[0].code = #2.1.1.2
+* group[=].element[=].target.code = #288
+* group[=].element[=].target.equivalence = #narrower 
+* group[=].element[=].target.comment = ""
+
+* group[=].element[0].code = #2.1.1.2
+* group[=].element[=].target.code = #407
+* group[=].element[=].target.equivalence = #narrower 
+* group[=].element[=].target.comment = ""
+
+* group[=].element[0].code = #2.1.1.3
+* group[=].element[=].target.code = #289
+* group[=].element[=].target.equivalence = #narrower 
+* group[=].element[=].target.comment = ""
+
+* group[=].element[0].code = #2.1.1.4
+* group[=].element[=].target.code = #397
+* group[=].element[=].target.equivalence = #narrower 
+* group[=].element[=].target.comment = ""
+
+* group[=].element[0].code = #2.1.2.1
+* group[=].element[=].target.code = #290
+* group[=].element[=].target.equivalence = #narrower 
+* group[=].element[=].target.comment = ""
+
+* group[=].element[0].code = #2.1.2.1
+* group[=].element[=].target.code = #291
+* group[=].element[=].target.equivalence = #narrower 
+* group[=].element[=].target.comment = ""
+
+* group[=].element[0].code = #2.1.2.1
+* group[=].element[=].target.code = #292
+* group[=].element[=].target.equivalence = #narrower 
+* group[=].element[=].target.comment = ""
+
+* group[=].element[0].code = #2.2.1.1
+* group[=].element[=].target.code = #293
+* group[=].element[=].target.equivalence = #narrower 
+* group[=].element[=].target.comment = ""
+
+* group[=].element[0].code = #2.2.1.1
+* group[=].element[=].target.code = #394
+* group[=].element[=].target.equivalence = #narrower 
+* group[=].element[=].target.comment = ""
+
+* group[=].element[0].code = #2.2.1.2
+* group[=].element[=].target.code = #294
+* group[=].element[=].target.equivalence = #narrower 
+* group[=].element[=].target.comment = ""
+
+* group[=].element[0].code = #2.2.1.2
+* group[=].element[=].target.code = #295
+* group[=].element[=].target.equivalence = #narrower 
+* group[=].element[=].target.comment = ""
+
+* group[=].element[0].code = #2.2.1.3
+* group[=].element[=].target.code = #296
+* group[=].element[=].target.equivalence = #narrower 
+* group[=].element[=].target.comment = ""
+
+* group[=].element[0].code = #2.2.1.3
+* group[=].element[=].target.code = #297
+* group[=].element[=].target.equivalence = #narrower 
+* group[=].element[=].target.comment = ""
+
+* group[=].element[0].code = #2.3.1
+* group[=].element[=].target.code = #434
+* group[=].element[=].target.equivalence = #narrower 
+* group[=].element[=].target.comment = ""
+
+* group[=].element[0].code = #2.3.2.1
+* group[=].element[=].target.code = #298
+* group[=].element[=].target.equivalence = #narrower 
+* group[=].element[=].target.comment = ""
+
+* group[=].element[0].code = #2.3.2.1
+* group[=].element[=].target.code = #401
+* group[=].element[=].target.equivalence = #narrower 
+* group[=].element[=].target.comment = ""
+
+* group[=].element[0].code = #2.3.2.2
+* group[=].element[=].target.code = #299
+* group[=].element[=].target.equivalence = #narrower 
+* group[=].element[=].target.comment = ""
+
+* group[=].element[0].code = #2.3.3.1
+* group[=].element[=].target.code = #300
+* group[=].element[=].target.equivalence = #narrower 
+* group[=].element[=].target.comment = ""
+
+* group[=].element[0].code = #2.3.3.1
+* group[=].element[=].target.code = #301
+* group[=].element[=].target.equivalence = #narrower 
+* group[=].element[=].target.comment = ""
+
+* group[=].element[0].code = #2.3.3.2
+* group[=].element[=].target.code = #302
+* group[=].element[=].target.equivalence = #narrower 
+* group[=].element[=].target.comment = ""
+
+* group[=].element[0].code = #2.3.3.3
+* group[=].element[=].target.code = #303
+* group[=].element[=].target.equivalence = #narrower 
+* group[=].element[=].target.comment = ""
+
+* group[=].element[0].code = #2.3.3.3
+* group[=].element[=].target.code = #304
+* group[=].element[=].target.equivalence = #narrower 
+* group[=].element[=].target.comment = ""
+
+* group[=].element[0].code = #2.3.3.3
+* group[=].element[=].target.code = #305
+* group[=].element[=].target.equivalence = #narrower 
+* group[=].element[=].target.comment = ""
+
+* group[=].element[0].code = #2.3.3.4
+* group[=].element[=].target.code = #306
+* group[=].element[=].target.equivalence = #narrower 
+* group[=].element[=].target.comment = ""
+
+* group[=].element[0].code = #2.3.3.4
+* group[=].element[=].target.code = #307
+* group[=].element[=].target.equivalence = #narrower 
+* group[=].element[=].target.comment = ""
+
+* group[=].element[0].code = #2.3.3.5
+* group[=].element[=].target.code = #308
+* group[=].element[=].target.equivalence = #narrower 
+* group[=].element[=].target.comment = ""
+
+* group[=].element[0].code = #2.3.3.5
+* group[=].element[=].target.code = #309
+* group[=].element[=].target.equivalence = #narrower 
+* group[=].element[=].target.comment = ""
+
+* group[=].element[0].code = #2.3.3.5
+* group[=].element[=].target.code = #342
+* group[=].element[=].target.equivalence = #narrower 
+* group[=].element[=].target.comment = ""
+
+* group[=].element[0].code = #2.3.3.6
+* group[=].element[=].target.code = #310
+* group[=].element[=].target.equivalence = #narrower 
+* group[=].element[=].target.comment = ""
+
+* group[=].element[0].code = #2.3.3.6
+* group[=].element[=].target.code = #311
+* group[=].element[=].target.equivalence = #narrower 
+* group[=].element[=].target.comment = ""
+
+* group[=].element[0].code = #2.3.4.1
+* group[=].element[=].target.code = #312
+* group[=].element[=].target.equivalence = #narrower 
+* group[=].element[=].target.comment = ""
+
+* group[=].element[0].code = #2.3.4.2
+* group[=].element[=].target.code = #313
+* group[=].element[=].target.equivalence = #narrower 
+* group[=].element[=].target.comment = ""
+
+* group[=].element[0].code = #2.3.4.2
+* group[=].element[=].target.code = #314
+* group[=].element[=].target.equivalence = #narrower 
+* group[=].element[=].target.comment = ""
+
+* group[=].element[0].code = #2.3.4.2
+* group[=].element[=].target.code = #315
+* group[=].element[=].target.equivalence = #narrower 
+* group[=].element[=].target.comment = ""
+
+* group[=].element[0].code = #2.3.4.3
+* group[=].element[=].target.code = #316
+* group[=].element[=].target.equivalence = #narrower 
+* group[=].element[=].target.comment = ""
+
+* group[=].element[0].code = #2.3.4.3
+* group[=].element[=].target.code = #324
+* group[=].element[=].target.equivalence = #narrower 
+* group[=].element[=].target.comment = ""
+
+* group[=].element[0].code = #2.3.4.3
+* group[=].element[=].target.code = #402
+* group[=].element[=].target.equivalence = #narrower 
+* group[=].element[=].target.comment = ""
+
+* group[=].element[0].code = #2.3.4.3
+* group[=].element[=].target.code = #403
+* group[=].element[=].target.equivalence = #narrower 
+* group[=].element[=].target.comment = ""
+
+* group[=].element[0].code = #2.3.4.3
+* group[=].element[=].target.code = #404
+* group[=].element[=].target.equivalence = #narrower 
+* group[=].element[=].target.comment = ""
+
+* group[=].element[0].code = #2.3.5.1
+* group[=].element[=].target.code = #317
+* group[=].element[=].target.equivalence = #narrower 
+* group[=].element[=].target.comment = ""
+
+* group[=].element[0].code = #2.3.5.2
+* group[=].element[=].target.code = #318
+* group[=].element[=].target.equivalence = #narrower 
+* group[=].element[=].target.comment = ""
+
+* group[=].element[0].code = #2.3.5.3
+* group[=].element[=].target.code = #319
+* group[=].element[=].target.equivalence = #narrower 
+* group[=].element[=].target.comment = ""
+
+* group[=].element[0].code = #2.3.5.3
+* group[=].element[=].target.code = #320
+* group[=].element[=].target.equivalence = #narrower 
+* group[=].element[=].target.comment = ""
+
+* group[=].element[0].code = #2.4
+* group[=].element[=].target.code = #335
+* group[=].element[=].target.equivalence = #narrower 
+* group[=].element[=].target.comment = ""
+
+* group[=].element[0].code = #2.4
+* group[=].element[=].target.code = #340
+* group[=].element[=].target.equivalence = #narrower 
+* group[=].element[=].target.comment = ""
+
+* group[=].element[0].code = #2.4
+* group[=].element[=].target.code = #341
+* group[=].element[=].target.equivalence = #narrower 
+* group[=].element[=].target.comment = ""
+
+* group[=].element[0].code = #2.4
+* group[=].element[=].target.code = #471
+* group[=].element[=].target.equivalence = #narrower 
+* group[=].element[=].target.comment = ""
+
+* group[=].element[0].code = #2.4
+* group[=].element[=].target.code = #475
+* group[=].element[=].target.equivalence = #narrower 
+* group[=].element[=].target.comment = ""
+
+* group[=].element[0].code = #3.1.5
+* group[=].element[=].target.code = #321
+* group[=].element[=].target.equivalence = #narrower 
+* group[=].element[=].target.comment = ""
+
+* group[=].element[0].code = #3.2.1
+* group[=].element[=].target.code = #408
+* group[=].element[=].target.equivalence = #narrower 
+* group[=].element[=].target.comment = ""
+
+* group[=].element[0].code = #3.2.2.1
+* group[=].element[=].target.code = #322
+* group[=].element[=].target.equivalence = #narrower 
+* group[=].element[=].target.comment = ""
+
+* group[=].element[0].code = #3.2.3.1
+* group[=].element[=].target.code = #323
+* group[=].element[=].target.equivalence = #narrower 
+* group[=].element[=].target.comment = ""
+
+* group[=].element[0].code = #2.3.3.2
+* group[=].element[=].target.code = #526
+* group[=].element[=].target.equivalence = #narrower 
+* group[=].element[=].target.comment = ""
+
+* group[=].element[0].code = #2.3.2.1
+* group[=].element[=].target.code = #533
+* group[=].element[=].target.equivalence = #narrower 
+* group[=].element[=].target.comment = ""
+
+* group[=].element[0].code = #2.3.3.5
+* group[=].element[=].target.code = #535
+* group[=].element[=].target.equivalence = #narrower 
+* group[=].element[=].target.comment = ""
+
+* group[=].element[0].code = #2.4
+* group[=].element[=].target.code = #548
+* group[=].element[=].target.equivalence = #narrower 
+* group[=].element[=].target.comment = ""
+
