@@ -200,6 +200,8 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
 
 <p>Vous trouverez ci-dessous la liste des sources :</p>
 <ul>
+  <li><a href="Strategie_NOS_SMT_v1.9.pdf">Recommandations et stratégies pour la gestion des objets FHIR® du NOS en vue  de leur intégration au  FHIR Terminology  Service du SMT</a></li>
+  <li>https://interop.esante.gouv.fr/ig/documentation/bonnes_pratiques_modeler.html</li>
   <li>https://confluence.hl7.org/pages/viewpage.action?pageId=35718826#GuidetoDesigningResources-NamingRules&amp;Guidelines</li>
 </ul>
 
@@ -215,7 +217,7 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
   </thead>
   <tbody>
     <tr>
-      <td style="text-align: left">id</td>
+      <td style="text-align: left">id (*) </td>
       <td style="text-align: left">Kebab Case sans  prefix de type 'JDV' ni suffix de type 'CI-SIS' </td>
       <td>Exemple : xds-author-specialty</td>
     </tr>
@@ -228,12 +230,12 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
     } </code></td>
     </tr>    
     <tr>
-      <td style="text-align: left">meta.profile</td>
+      <td style="text-align: left">meta.profile (*)</td>
       <td style="text-align: left"></td>
       <td>http://hl7.org/fhir/StructureDefinition/shareablevalueset</td>
     </tr>
     <tr>
-      <td style="text-align: left">meta</td>
+      <td style="text-align: left">meta (*)</td>
       <td style="text-align: left">Gestion des permissions</td>
       <td>Exemple : <code> {
                 "system": http://ontoserver.csiro.au/CodeSystem/ontoserver-permissions,
@@ -241,52 +243,68 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
             }</code></td>
     </tr>
     <tr>
-      <td style="text-align: left">language</td>
+      <td style="text-align: left">language </td>
       <td style="text-align: left"></td>
       <td>fr-FR</td>
     </tr>
     <tr>
-      <td style="text-align: left">url</td>
+      <td style="text-align: left">url (*)</td>
       <td style="text-align: left"></td>
       <td>https://smt.esante.gouv.fr/fhir/ValueSet/{id}</td>
     </tr>
     <tr>
-      <td style="text-align: left">date.value</td>
+      <td style="text-align: left">date.value (*)</td>
       <td style="text-align: left">Date de la dernière mise à jour</td>
       <td></td>
     </tr>    
     <tr>
-      <td style="text-align: left">extension.valuePeriod.start</td>
+      <td style="text-align: left">extension.valuePeriod.start (*)</td>
       <td style="text-align: left">Date de creation du JDV</td>
       <td></td>
     </tr>        
     <tr>
-      <td style="text-align: left">version</td>
+      <td style="text-align: left">version (*)</td>
       <td style="text-align: left">Version au format date</td>
       <td>YYYYMMDDhhmmss</td>
     </tr>
     <tr>
-      <td style="text-align: left">status</td>
+      <td style="text-align: left">status (*)</td>
       <td style="text-align: left">statut : draft | active | retired | unknown</td>
       <td></td>
     </tr>
     <tr>
-      <td style="text-align: left">description</td>
-      <td style="text-align: left">obligatoire</td>
+      <td style="text-align: left">description (*)</td>
+      <td style="text-align: left">Descripption </td>
       <td></td>
     </tr>     
     <tr>
-      <td style="text-align: left">name</td>
+      <td style="text-align: left">name (*)</td>
       <td style="text-align: left">UpperLowerCase</td>
       <td>Exemple XdsAuthorSpecialty</td>
     </tr>    
     <tr>
-      <td style="text-align: left">title</td>
+      <td style="text-align: left">title (*)</td>
       <td style="text-align: left">Title Case</td>
       <td>Exemple : Xds Author Specialty</td>
     </tr>    
   </tbody>
 </table>
+
+<h4 id="jeux-de-valeur-représentant-lensemble-de-la-terminologie">jeux de valeur représentant l’ensemble de la terminologie</h4>
+<ul>
+  <li>id =&gt; {id-termino}-all</li>
+  <li>url =&gt; {url-termino}?vs
+On retrouve l’url du valuset dans la terminologie d’origine :</li>
+  <li>CodeSytem.valueSet =&gt;  url
+    <h4 id="to-do">TO DO</h4>
+  </li>
+</ul>
+
+<h4 id="comment-indiquer-le-porteur-de-la-terminologie">Comment Indiquer le porteur de la terminologie</h4>
+
+<p>Preadoption de CodeSystem.endorser de R5  et R6 ?</p>
+<h4 id="comment-indiquer-quelle-est-lentité-qui-soccupe-la-maintenance-et-publication--de-la-terminologie">Comment Indiquer quelle est l’entité qui s’occupe la maintenance et publication  de la terminologie</h4>
+<p>Preadoption de CodeSystem.author de R5  et R6 ?</p>
 
 <h3 id="règles-pour-les-terminologies-codesystem">Règles pour les terminologies (CodeSystem)</h3>
 
@@ -300,7 +318,7 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
   </thead>
   <tbody>
     <tr>
-      <td style="text-align: left">id</td>
+      <td style="text-align: left">id (*)</td>
       <td style="text-align: left">Kebab Case sans  prefix de type 'TRE' ni suffix de type 'CI-SIS' </td>
       <td>Exemple : mode-exercice</td>
     </tr>
@@ -313,7 +331,7 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
     } </code></td>
     </tr>    
     <tr>
-      <td style="text-align: left">meta.profile</td>
+      <td style="text-align: left">meta.profile (*)</td>
       <td style="text-align: left"></td>
       <td>http://hl7.org/fhir/StructureDefinition/shareablecodesystem</td>
     </tr>
@@ -326,7 +344,7 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
             }</code></td>
     </tr>
     <tr>
-      <td style="text-align: left">url</td>
+      <td style="text-align: left">url (*)</td>
       <td style="text-align: left"></td>
       <td>https://smt.esante.gouv.fr/fhir/CodeSystem/{id}</td>
     </tr>
@@ -341,32 +359,40 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
       <td></td>
     </tr>        
     <tr>
-      <td style="text-align: left">version</td>
+      <td style="text-align: left">version (*)</td>
       <td style="text-align: left">Version au format date</td>
       <td>YYYYMMDDhhmmss</td>
     </tr>
     <tr>
-      <td style="text-align: left">status</td>
+      <td style="text-align: left">status (*)</td>
       <td style="text-align: left">statut : draft | active | retired | unknown</td>
       <td></td>
     </tr>
     <tr>
+      <td style="text-align: left">description (*)</td>
       <td style="text-align: left">description</td>
-      <td style="text-align: left">obligatoire</td>
       <td></td>
     </tr>     
     <tr>
-      <td style="text-align: left">name</td>
+      <td style="text-align: left">name (*)</td>
       <td style="text-align: left">UpperLowerCase</td>
       <td>Exemple :  ModeExercice</td>
     </tr>    
     <tr>
-      <td style="text-align: left">title</td>
+      <td style="text-align: left">title (*)</td>
       <td style="text-align: left">Title Case</td>
       <td>Exemple : Mode Exercice</td>
     </tr>    
   </tbody>
 </table>
+
+<h4 id="to-do-1">TO DO</h4>
+
+<h4 id="comment-indiquer-le-porteur-du-jeux-de-valeur">Comment Indiquer le porteur du jeux de valeur</h4>
+
+<p>Preadoption de ValueSet.endorser de R5  et R6 ?</p>
+<h4 id="comment-indiquer-quelle-est-lentité-qui-soccupe-la-maintenance-et-publication--du-jeux-de-valeur">Comment Indiquer quelle est l’entité qui s’occupe la maintenance et publication  du jeux de valeur</h4>
+<p>Preadoption de ValueSet.author de R5  et R6 ?</p>
 
 <h3 id="règles-pour-les-associations-conceptmap">Règles pour les associations (ConceptMap)</h3>
 
@@ -380,12 +406,12 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
   </thead>
   <tbody>
     <tr>
-      <td style="text-align: left">id</td>
+      <td style="text-align: left">id (*)</td>
       <td style="text-align: left">Kebab Case sans  prefix de type 'ASS' ni suffix de type 'CI-SIS' </td>
       <td>Exemple : model-document-cda-to-xds-format-code</td>
     </tr>
     <tr>
-      <td style="text-align: left">meta</td>
+      <td style="text-align: left">meta (*)</td>
       <td style="text-align: left">Gestion des permissions</td>
       <td>Exemple : <code> {
                 "system": http://ontoserver.csiro.au/CodeSystem/ontoserver-permissions,
@@ -403,40 +429,35 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
       <td></td>
     </tr>    
     <tr>
-      <td style="text-align: left">extension.valuePeriod.start</td>
+      <td style="text-align: left">extension.valuePeriod.start (*)</td>
       <td style="text-align: left">Date de creation du JDV</td>
       <td></td>
     </tr>        
     <tr>
-      <td style="text-align: left">version</td>
+      <td style="text-align: left">version (*)</td>
       <td style="text-align: left">Version au format date</td>
       <td>YYYYMMDDhhmmss</td>
     </tr>
     <tr>
-      <td style="text-align: left">status</td>
+      <td style="text-align: left">status (*)</td>
       <td style="text-align: left">statut : draft | active | retired | unknown</td>
       <td></td>
     </tr>
     <tr>
+      <td style="text-align: left">description (*)</td>
       <td style="text-align: left">description</td>
-      <td style="text-align: left">obligatoire</td>
       <td></td>
     </tr>     
     <tr>
-      <td style="text-align: left">name</td>
+      <td style="text-align: left">name (*)</td>
       <td style="text-align: left">UpperLowerCase</td>
       <td>Exemple :  ModelDocumentCdaToXdsFormatCode</td>
     </tr>    
     <tr>
-      <td style="text-align: left">title</td>
+      <td style="text-align: left">title (*)</td>
       <td style="text-align: left">Title Case</td>
       <td>Exemple : Model Document Cda To Xds Format Code</td>
     </tr>   
-    <tr>
-      <td style="text-align: left">title</td>
-      <td style="text-align: left">Title Case</td>
-      <td>Exemple : Model Document Cda To Xds Format Code</td>
-    </tr>    
     <tr>
       <td style="text-align: left">sourceUri</td>
       <td style="text-align: left">Obligatoire</td>
@@ -506,7 +527,7 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
 
 <div class="inner-wrapper">
   <p>
-    IG &#169; 2020+ <a style="color:var(--footer-hyperlink-text-color)" href="https://esante.gouv.fr">ANS</a>.  Package ans.fr.terminologie#1.1.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Sat, Oct 26, 2024 10:09+0000">2024-10-26</span>
+    IG &#169; 2020+ <a style="color:var(--footer-hyperlink-text-color)" href="https://esante.gouv.fr">ANS</a>.  Package ans.fr.terminologie#1.1.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Sat, Oct 26, 2024 12:22+0000">2024-10-26</span>
     <br/>
     <span style="color: var(--footer-highlight-text-color)"></span>
       Liens: <a style="color: var(--footer-hyperlink-text-color)" href="toc.html">Table des matières </a> |
