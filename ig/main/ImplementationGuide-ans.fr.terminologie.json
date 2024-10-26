@@ -157,7 +157,7 @@
       },
       {
         "url" : "value",
-        "valueString" : "../../input/sql/sql-add-info.json"
+        "valueString" : "input/sql/sql-add-info.json"
       }],
       "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
     },
@@ -11843,7 +11843,7 @@
       },
       {
         "url" : "value",
-        "valueString" : "../../input/sql/sql-add-info.json"
+        "valueString" : "input/sql/sql-add-info.json"
       }],
       "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
     },
@@ -23428,6 +23428,18 @@
         "reference" : "ConceptMap/alignement-bdpm-cipucd"
       },
       "name" : "Aligner les codes de présentation de la BDPM avec les codes CIP du référentiel CIP-UCD",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      }],
+      "reference" : {
+        "reference" : "ValueSet/allergie"
+      },
+      "name" : "allergie",
+      "description" : "JDV des allergies en CIM 11",
       "exampleBoolean" : false
     },
     {

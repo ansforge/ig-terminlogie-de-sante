@@ -125,7 +125,7 @@
         <valueString value="viewDefinition"/>
       </extension>
       <extension url="value">
-        <valueString value="../../input/sql/sql-add-info.json"/>
+        <valueString value="input/sql/sql-add-info.json"/>
       </extension>
     </extension>
     <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
@@ -8624,7 +8624,7 @@
         <valueCode value="viewDefinition"/>
       </extension>
       <extension url="value">
-        <valueString value="../../input/sql/sql-add-info.json"/>
+        <valueString value="input/sql/sql-add-info.json"/>
       </extension>
     </extension>
     <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
@@ -17051,6 +17051,17 @@
         <reference value="ConceptMap/alignement-bdpm-cipucd"/>
       </reference>
       <name value="Aligner les codes de présentation de la BDPM avec les codes CIP du référentiel CIP-UCD"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/allergie"/>
+      </reference>
+      <name value="allergie"/>
+      <description value="JDV des allergies en CIM 11"/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>

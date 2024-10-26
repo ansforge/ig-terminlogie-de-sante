@@ -1,10 +1,10 @@
 Terminologie : Validation Results
 =========================================
 
-err = 537, warn = 1647, info = 857
+err = 539, warn = 1648, info = 857
 IG Publisher Version: 1.7.1
-Generated Sat Oct 26 15:59:17 UTC 2024. FHIR version 4.0.1 for ans.fr.terminologie#1.1.0 (canonical = https://interop.esante.gouv.fr/ig/terminologie)
- Build Errors : 931 / 23 / 0
+Generated Sat Oct 26 17:03:35 UTC 2024. FHIR version 4.0.1 for ans.fr.terminologie#1.1.0 (canonical = https://interop.esante.gouv.fr/ig/terminologie)
+ Build Errors : 930 / 23 / 0
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/DM/fsh-generated/resources/ConceptMap-ASS-A11-CorresModeleCDA-XdsFormatCode-CISIS : 0 / 0 / 1
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/DM/fsh-generated/resources/ConceptMap-ASS-A12-CorresMediaTypeCDANonStructure-XdsFormatCode-CISIS : 0 / 0 / 1
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/DM/fsh-generated/resources/ConceptMap-ASS-A13-TypeEvenement-FluxStandardise : 0 / 0 / 1
@@ -38,6 +38,7 @@ Generated Sat Oct 26 15:59:17 UTC 2024. FHIR version 4.0.1 for ans.fr.terminolog
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/DM/fsh-generated/resources/ValueSet-JDV-ModeleDocumentCDA : 0 / 0 / 1
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/DM/fsh-generated/resources/ValueSet-JDV-TRE-R221-ModeleDocumentCDANonStructure-all : 0 / 0 / 1
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/DM/fsh-generated/resources/ValueSet-TRE-R222-MediaTypeCorpsCDANonStructure-all : 0 / 0 / 1
+ /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/DM/fsh-generated/resources/ValueSet-allergie : 3 / 1 / 1
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/fsh-generated/resources/ImplementationGuide-ans.fr.terminologie : 0 / 0 / 1
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/ASS/Alignement_Codes_Presenttaion_BDPM_CIPUCD : 1 / 19 / 2
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/BDPM Value Set : 2 / 6 / 1
@@ -1017,7 +1018,6 @@ Generated Sat Oct 26 15:59:17 UTC 2024. FHIR version 4.0.1 for ans.fr.terminolog
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/TRE/TRE_R97_DroitExerciceCompl : 0 / 1 / 4
 </table>
 == n/a ==
-ERROR: ../../input/sql/sql-add-info.json: Error Processing ViewDefinition: Computed path does not start with first element: /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource, ../../input/sql/sql-add-info.json
 WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource CodeSystem/terminologie-atc.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
 WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource CodeSystem/terminologie-bdpm.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
 WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource CodeSystem/terminologie-ccam.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
@@ -2604,6 +2604,11 @@ ERROR: ConceptMap/ASS-X16-CorrespondanceType-Classe-DMP: ConceptMap.group[0].ele
 == DM/fsh-generated/resources/ValueSet-JDV-ModeleDocumentCDA.json ==
 == DM/fsh-generated/resources/ValueSet-JDV-TRE-R221-ModeleDocumentCDANonStructure-all.json ==
 == DM/fsh-generated/resources/ValueSet-TRE-R222-MediaTypeCorpsCDANonStructure-all.json ==
+== DM/fsh-generated/resources/ValueSet-allergie.json ==
+ERROR: ValueSet.where(url = 'https://smt.esante.gouv.fr/fhir/ValueSet/allergie'): Conformance resource /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/DM/fsh-generated/resources/ValueSet-allergie.json - the canonical URL (https://interop.esante.gouv.fr/ig/terminologie/ValueSet/allergie) does not match the URL (https://smt.esante.gouv.fr/fhir/ValueSet/allergie)
+ERROR: ValueSet/allergie: ValueSet.compose.include[0].filter[0]: The value for a filter based on property 'concept' must be a valid code from the system 'http://id.who.int/icd/release/11/2024-01/mms', and 'http://id.who.int/icd/release/11/2024-01/mms/21927667' is not (A definition for CodeSystem 'http://id.who.int/icd/release/11/2024-01/mms' could not be found, so the code cannot be validated)
+WARNING: ValueSet.where(id = 'allergie'): Error from http://tx.fhir.org/r4: Unable to provide support for code system http://id.who.int/icd/release/11/2024-01/mms
+ERROR: /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/DM/fsh-generated/resources/ValueSet-allergie: URL Mismatch https://interop.esante.gouv.fr/ig/terminologie/ValueSet/allergie vs https://smt.esante.gouv.fr/fhir/ValueSet/allergie
 == fsh-generated/resources/ImplementationGuide-ans.fr.terminologie.json ==
 == input/ontoserver/ASS/Alignement_Codes_Presenttaion_BDPM_CIPUCD.json ==
 WARNING: ConceptMap/alignement-bdpm-cipucd: ConceptMap.useContext[0].value.ofType(CodeableConcept).coding[0]: A definition for CodeSystem 'https://smt.esante.gouv.fr/terminologie-ncit' could not be found, so the code cannot be validated
