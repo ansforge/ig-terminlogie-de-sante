@@ -1,39 +1,39 @@
-<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE HTML>
 <html xml:lang="en" xmlns="http://www.w3.org/1999/xhtml" lang="en">
   <head>
-    <meta content="text/html;charset=utf-8" http-equiv="Content-Type"/>
+    <meta http-equiv="Content-Type" content="text/html;charset=utf-8"/>
     <title>Terminologies   du NOS - Terminologies  de Santé (Publiées par l'ANS) v1.1.0</title>
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <meta name="author" content="http://hl7.org/fhir"/>
 
-    <link href="fhir.css" rel="stylesheet"/>
+    <link rel="stylesheet" href="fhir.css"/>
 
-    <!-- Bootstrap core CSS -->
-    <link href="assets/css/bootstrap-fhir.css" rel="stylesheet"/>
+      <!-- Bootstrap core CSS -->
+    <link rel="stylesheet" href="assets/css/bootstrap-fhir.css"/>
 
-    <!-- Project extras -->
-    <link href="assets/css/project.css" rel="stylesheet"/>
-    <link href="assets/css/pygments-manni.css" rel="stylesheet"/>
-    <link href="assets/css/jquery-ui.css" rel="stylesheet"/>
-  	<link href="assets/css/prism.css" rel="stylesheet" />
+      <!-- Project extras -->
+    <link rel="stylesheet" href="assets/css/project.css"/>
+    <link rel="stylesheet" href="assets/css/pygments-manni.css"/>
+    <link rel="stylesheet" href="assets/css/jquery-ui.css"/>
+  	<link rel="stylesheet" href="assets/css/prism.css"/>
     <link rel="stylesheet" href="assets/css/style-ans.css"/>
     <link rel="stylesheet" href="assets/css/style-add-ans.css"/>
-    <!-- Placeholder for child template CSS declarations -->
+      <!-- Placeholder for child template CSS declarations -->
 
-    <script type="text/javascript" src="fhir-table-scripts.js"> </script>
+    <script src="fhir-table-scripts.js" type="text/javascript"> </script>
 
-    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
-    <!--[if lt IE 9]>
+      <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+      <!-- [if lt IE 9]>
     <script src="assets/js/html5shiv.js"></script>
     <script src="assets/js/respond.min.js"></script>
-    <![endif]-->
+    <![endif] -->
 
-    <!-- Favicons -->
-    <link rel="fhir-logo" sizes="144x144" href="assets/ico/icon-fhir-144.png"/>
-    <link rel="fhir-logo" sizes="114x114" href="assets/ico/icon-fhir-114.png"/>
-    <link rel="fhir-logo" sizes="72x72" href="assets/ico/icon-fhir-72.png"/>
+      <!-- Favicons -->
+    <link sizes="144x144" rel="fhir-logo" href="assets/ico/icon-fhir-144.png"/>
+    <link sizes="114x114" rel="fhir-logo" href="assets/ico/icon-fhir-114.png"/>
+    <link sizes="72x72" rel="fhir-logo" href="assets/ico/icon-fhir-72.png"/>
     <link rel="fhir-logo" href="assets/ico/icon-fhir-57.png"/>
     <link rel="shortcut icon" href="assets/ico/favicon.png"/>
   </head>
@@ -43,50 +43,50 @@
 
     <style type="text/css">h2{--heading-prefix:"2.2"}
     h3,h4,h5,h6{--heading-prefix:"2.2"}</style>
-    <div id="segment-header" class="segment">  <!-- segment-header -->
-      <div class="container">  <!-- container -->
-        <!-- Placeholder for child template header declarations -->
+    <div id="segment-header" class="segment">    <!-- segment-header -->
+      <div class="container">    <!-- container -->
+          <!-- Placeholder for child template header declarations -->
 <div id="family-nav">
-    <a id="hl7-search-lnk" no-external="true" href="http://hl7.org/fhir"><img height="50" alt="Visit the FHIR website" src="assets/images/fhir-logo-www.png"/> </a>
+    <a no-external="true" id="hl7-search-lnk" href="http://hl7.org/fhir"><img src="assets/images/fhir-logo-www.png" alt="Visit the FHIR website" height="50"/> </a>
   </div>
-  <div id="ans-nav" style="line-height: 50px; float: left; margin-top: 4px; margin-bottom: 8px; color: #808080; ">
-    <a id="hl7-logo" no-external="true" href="https://esante.gouv.fr/"><img height="50" alt="ANS Logo" src="assets/images/logo-ANS.svg"/></a>
+  <div style="line-height: 50px; float: left; margin-top: 4px; margin-bottom: 8px; color: #808080; " id="ans-nav">
+    <a no-external="true" id="hl7-logo" href="https://esante.gouv.fr/"><img src="assets/images/logo-ANS.svg" alt="ANS Logo" height="50"/></a>
   </div>
 
         <div id="ig-status">
-          <p><span style="font-size:12pt;font-weight:bold">Terminologies  de Santé (Publiées par l&#39;ANS)</span>
+          <p><span style="font-size:12pt;font-weight:bold">Terminologies  de Santé (Publiées par l'ANS)</span>
             <br/>
             <span style="display:inline-block;">1.1.0 - ci-build
 
 
 
-  <img alt="France flag" src="assets/images/fra.svg" height="16" title="France"/>
+  <img src="assets/images/fra.svg" alt="France flag" title="France" height="16"/>
 
 
             </span>
           </p>
         </div>
-      </div> <!-- /container -->
-    </div>  <!-- /segment-header -->
+      </div>   <!-- /container -->
+    </div>    <!-- /segment-header -->
 
-    <div id="segment-navbar" class="segment">  <!-- segment-navbar -->
+    <div id="segment-navbar" class="segment">    <!-- segment-navbar -->
       <div id="stripe"> </div>
-      <div class="container">  <!-- container -->
-        <!-- HEADER CONTENT -->
+      <div class="container">    <!-- container -->
+          <!-- HEADER CONTENT -->
 
         <nav class="navbar navbar-inverse">
-          <!--status-bar-->
+            <!-- status-bar -->
           <div class="container">
-            <button data-target=".navbar-inverse-collapse" class="navbar-toggle" data-toggle="collapse" type="button">
+            <button data-target=".navbar-inverse-collapse" data-toggle="collapse" type="button" class="navbar-toggle">
               <span class="icon-bar"> </span>
               <span class="icon-bar"> </span>
               <span class="icon-bar"> </span>
             </button>
-            <a class="navbar-brand hidden" href="http://hl7.org/fhir/R4/index.html">FHIR</a>
+            <a href="http://hl7.org/fhir/R4/index.html" class="navbar-brand hidden">FHIR</a>
             <div class="nav-collapse collapse navbar-inverse-collapse">
-              <!-- menu.xml  -->
+                <!-- menu.xml -->
 
-<ul xmlns="http://www.w3.org/1999/xhtml" class="nav navbar-nav">
+<ul class="nav navbar-nav">
   <li>
     <a href="index.html">Accueil</a>
   </li>
@@ -120,10 +120,10 @@
         <a href="downloads.html">Téléchargements et usage</a>
       </li>
       <li>
-        <a target="_blank" href="http://hl7.org/fhir/R4/index.html">Spécifications FHIR </a>
+        <a href="http://hl7.org/fhir/R4/index.html" target="_blank">Spécifications FHIR </a>
       </li>
       <li>
-        <a target="_blank" href="https://esante.gouv.fr/">Site de l&apos;ANS </a>
+        <a href="https://esante.gouv.fr/" target="_blank">Site de l'ANS </a>
       </li>
     </ul>
   </li>
@@ -131,18 +131,18 @@
     <a href="about.html">A propos de ce guide</a>
   </li>
 </ul>
-            </div>  <!-- /.nav-collapse -->
-          </div>  <!-- /.container -->
-        </nav>  <!-- /.navbar -->
-      <!-- /HEADER CONTENT -->
-      </div>  <!-- /container -->
-    </div>  <!-- /segment-navbar -->
-    <!--status-bar-->
+            </div>    <!-- /.nav-collapse -->
+          </div>    <!-- /.container -->
+        </nav>    <!-- /.navbar -->
+        <!-- /HEADER CONTENT -->
+      </div>    <!-- /container -->
+    </div>    <!-- /segment-navbar -->
+      <!-- status-bar -->
 
-    <div id="segment-breadcrumb" class="segment">  <!-- segment-breadcrumb -->
-      <div class="container">  <!-- container -->
+    <div id="segment-breadcrumb" class="segment">    <!-- segment-breadcrumb -->
+      <div class="container">    <!-- container -->
         <ul class="breadcrumb">
-          <li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='tre.html'><b>Terminologies</b></a></li><li><b>Terminologies   du NOS</b></li>
+          <li><a href="toc.html"><b>Table of Contents</b></a></li><li><a href="tre.html"><b>Terminologies</b></a></li><li><b>Terminologies   du NOS</b></li>
 
           <span style="float:right;">
 
@@ -155,12 +155,12 @@
           </span>
 
         </ul>
-      </div>  <!-- /container -->
-    </div>  <!-- /segment-breadcrumb -->
+      </div>    <!-- /container -->
+    </div>    <!-- /segment-breadcrumb -->
 
     <a name="top"> </a>
-    <div id="segment-content" class="segment">  <!-- segment-content -->
-      <div class="container">  <!-- container -->
+    <div id="segment-content" class="segment">    <!-- segment-content -->
+      <div class="container">    <!-- container -->
         <div class="row">
           <div class="inner-wrapper">
 <style type="text/css">
@@ -171,12 +171,12 @@ h5:before{color:silver;counter-increment:detail;content:var(--heading-prefix) ".
 h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefix) "." counter(sub-section) "." counter(composite) "." counter(detail) "." counter(more-detail)" ";}
 </style>
 <div class="col-12">
-  <!--ReleaseHeader--><p id="publish-box">Terminologies  de Santé (Publiées par l'ANS) - Local Development build (v1.1.0) built by the FHIR (HL7® FHIR® Standard) Build Tools. See the <a href="https://interop.esante.gouv.fr/ig/terminologie/history.html">Directory of published versions</a></p><!--EndReleaseHeader-->
+    <!-- ReleaseHeader --><p id="publish-box">Terminologies  de Santé (Publiées par l'ANS) - Local Development build (v1.1.0) built by the FHIR (HL7&reg; FHIR&reg; Standard) Build Tools. See the <a href="https://interop.esante.gouv.fr/ig/terminologie/history.html">Directory of published versions</a></p>  <!-- EndReleaseHeader -->
   <h2>Terminologies   du NOS</h2>
   
   
   
-  <div xmlns="http://www.w3.org/1999/xhtml">
+  <div>
 
 
  Vous touverez ici la liste des terminologies du NOS.
@@ -191,28 +191,281 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
   </ul>
     <br/>
     <div id="orig">
-        <span style="color: maroon">Error processing SQL: [SQLITE_ERROR] SQL error or missing database (near &quot;fmt&quot;: syntax error)</span>
+
+       <table class="codes"><tr><td style="background-color: #eeeeee">Name</td><td style="background-color: #eeeeee">Description</td></tr><tr><td><a name="l364">​</a><a href="TRE_A00_ProducteurDocNonPS">TRE_A00_ProducteurDocNonPS</a></td><td><div><p>Producteur de document non PS</p>
+</div></td></tr><tr><td><a name="l373">​</a><a href="TRE_A01_CadreExercice">TRE_A01_CadreExercice</a></td><td><div><p>Cadre d'exercice</p>
+</div></td></tr><tr><td><a name="l382">​</a><a href="TRE_A02_ProfessionSavFaire_CISIS">TRE_A02_ProfessionSavFaire_CISIS</a></td><td><div><p>Profession et savoir-faire CI-SIS</p>
+</div></td></tr><tr><td><a name="l391">​</a><a href="TRE_A03_ClasseDocument">TRE_A03_ClasseDocument</a></td><td><div><p>Classe de document</p>
+</div></td></tr><tr><td><a name="l400">​</a><a href="TRE_A05_TypeDocComplementaire">TRE_A05_TypeDocComplementaire</a></td><td><div><p>Type de document en complément des nomenclatures internationales</p>
+</div></td></tr><tr><td><a name="l409">​</a><a href="TRE_A06_FormatCodeComplementaire">TRE_A06_FormatCodeComplementaire</a></td><td><div><p>formatCode en complément des nomenclatures internationales</p>
+</div></td></tr><tr><td><a name="l418">​</a><a href="TRE_A07_StatutVisibiliteDocument">TRE_A07_StatutVisibiliteDocument</a></td><td><div><p>Restriction d'audience applicable aux objets référencés</p>
+</div></td></tr><tr><td><a name="l427">​</a><a href="TRE_A08_HL7Confidentiality">TRE_A08_HL7Confidentiality</a></td><td><div><p>HL7 confidentiality</p>
+</div></td></tr><tr><td><a name="l436">​</a><a href="TRE_A09_DICOMuidRegistry">TRE_A09_DICOMuidRegistry</a></td><td><div><p>DICOM UID Registry</p>
+</div></td></tr><tr><td><a name="l445">​</a><a href="TRE_A10_NomenclatureURN">TRE_A10_NomenclatureURN</a></td><td><div><p>Nomenclature identifiée par URN</p>
+</div></td></tr><tr><td><a name="l454">​</a><a href="TRE_A11_IheFormatCode">TRE_A11_IheFormatCode</a></td><td><div><p>IHE formatCode</p>
+</div></td></tr><tr><td><a name="l463">​</a><a href="TRE_A12_NomenclatureASTM">TRE_A12_NomenclatureASTM</a></td><td><div><p>Nomenclature identifiée par ASTM</p>
+</div></td></tr><tr><td><a name="l472">​</a><a href="TRE_A13_HL7ParticipationType">TRE_A13_HL7ParticipationType</a></td><td><div><p>HL7 Type de participation</p>
+</div></td></tr><tr><td><a name="l481">​</a><a href="TRE_G00_Langue">TRE_G00_Langue</a></td><td><div><p>Langue</p>
+</div></td></tr><tr><td><a name="l490">​</a><a href="TRE_G01_CategorieProduit">TRE_G01_CategorieProduit</a></td><td><div><p>Catégorie de produit</p>
+</div></td></tr><tr><td><a name="l499">​</a><a href="TRE_G02_TypeProduit">TRE_G02_TypeProduit</a></td><td><div><p>Type de produit</p>
+</div></td></tr><tr><td><a name="l508">​</a><a href="TRE_G03_CiviliteCPx">TRE_G03_CiviliteCPx</a></td><td><div><p>Civilité (CPx)</p>
+</div></td></tr><tr><td><a name="l517">​</a><a href="TRE_G04_NiveauResponsabiliteCPx">TRE_G04_NiveauResponsabiliteCPx</a></td><td><div><p>Niveau de responsabilité (CPx)</p>
+</div></td></tr><tr><td><a name="l526">​</a><a href="TRE_G05_SousSectionTableauCNOP">TRE_G05_SousSectionTableauCNOP</a></td><td><div><p>Sous-Section du tableau de l'Ordre des Pharmaciens</p>
+</div></td></tr><tr><td><a name="l535">​</a><a href="TRE_G07_TypeIdentifiantStructure">TRE_G07_TypeIdentifiantStructure</a></td><td><div><p>Type d'identifiant de structure</p>
+</div></td></tr><tr><td><a name="l544">​</a><a href="TRE_G08_TypeIdentifiantPersonne">TRE_G08_TypeIdentifiantPersonne</a></td><td><div><p>Type d'identifiant de personne</p>
+</div></td></tr><tr><td><a name="l553">​</a><a href="TRE_G09_DepartementOM">TRE_G09_DepartementOM</a></td><td><div><p>Référentiel des codes départements et collectivités d’outre-mer provenant du COG INSEE + Monaco</p>
+</div></td></tr><tr><td><a name="l562">​</a><a href="TRE_G11_NatureQualificationADELI">TRE_G11_NatureQualificationADELI</a></td><td><div><p>Nature de qualification ADELI</p>
+</div></td></tr><tr><td><a name="l571">​</a><a href="TRE_G12_SpecialiteADELI">TRE_G12_SpecialiteADELI</a></td><td><div><p>Spécialité ADELI</p>
+</div></td></tr><tr><td><a name="l580">​</a><a href="TRE_G13_OrientationParticuliere">TRE_G13_OrientationParticuliere</a></td><td><div><p>Orientation particulière</p>
+</div></td></tr><tr><td><a name="l589">​</a><a href="TRE_G15_ProfessionSante">TRE_G15_ProfessionSante</a></td><td><div><p>Professions de santé définies par le code de la santé publique</p>
+</div></td></tr><tr><td><a name="l598">​</a><a href="TRE_G16_ProfessionFormation">TRE_G16_ProfessionFormation</a></td><td><div><p>Professions en formation (carte CPF)</p>
+</div></td></tr><tr><td><a name="l607">​</a><a href="TRE_G17_ModeExerciceCPx">TRE_G17_ModeExerciceCPx</a></td><td><div><p>Mode d'exercice (CPx)</p>
+</div></td></tr><tr><td><a name="l616">​</a><a href="TRE_G18_AttributionParticuliereADELI">TRE_G18_AttributionParticuliereADELI</a></td><td><div><p>Attribution particulière ADELI</p>
+</div></td></tr><tr><td><a name="l625">​</a><a href="TRE_G19_SecteurActiviteADELI">TRE_G19_SecteurActiviteADELI</a></td><td><div><p>Secteur d'activité ADELI</p>
+</div></td></tr><tr><td><a name="l634">​</a><a href="TRE_G20_Specialisation">TRE_G20_Specialisation</a></td><td><div><p>Spécialisation</p>
+</div></td></tr><tr><td><a name="l643">​</a><a href="TRE_G100_Specialite_AM">TRE_G100_Specialite_AM</a></td><td><div><p>Spécialité Assurance Maladie</p>
+</div></td></tr><tr><td><a name="l652">​</a><a href="TRE_R01_EnsembleSavoirFaire_CISIS">TRE_R01_EnsembleSavoirFaire_CISIS</a></td><td><div><p>Ensemble Savoir-faire CI-SIS (TRE provisoire)</p>
+</div></td></tr><tr><td><a name="l661">​</a><a href="TRE_R02_SecteurActivite">TRE_R02_SecteurActivite</a></td><td><div><p>Le secteur d'activité de santé est une donnée RPPS et correspond au type de service fourni par une structure. Il sert principalement à déterminer les propriétés de facturation des professionnels de ces structures vis-à-vis de l'assurance maladie</p>
+</div></td></tr><tr><td><a name="l670">​</a><a href="TRE_R03_AttributionParticuliere">TRE_R03_AttributionParticuliere</a></td><td><div><p>Attribution particulière</p>
+</div></td></tr><tr><td><a name="l679">​</a><a href="TRE_R04_TypeSavoirFaire">TRE_R04_TypeSavoirFaire</a></td><td><div><p>Type de savoir-faire</p>
+</div></td></tr><tr><td><a name="l688">​</a><a href="TRE_R06_SectionTableauCNOP">TRE_R06_SectionTableauCNOP</a></td><td><div><p>Section du tableau de l'Ordre des Pharmaciens</p>
+</div></td></tr><tr><td><a name="l697">​</a><a href="TRE_R09_CategorieProfessionnelle">TRE_R09_CategorieProfessionnelle</a></td><td><div><p>Catégorie professionnelle</p>
+</div></td></tr><tr><td><a name="l706">​</a><a href="TRE_R10_SexeAdministratif">TRE_R10_SexeAdministratif</a></td><td><div><p>Sexe administratif</p>
+</div></td></tr><tr><td><a name="l715">​</a><a href="TRE_R11_CiviliteExercice">TRE_R11_CiviliteExercice</a></td><td><div><p>Civilité d'exercice</p>
+</div></td></tr><tr><td><a name="l724">​</a><a href="TRE_R13_Commune">TRE_R13_Commune</a></td><td></td></tr><tr><td><a name="l729">​</a><a href="TRE_R14_TypeDiplome">TRE_R14_TypeDiplome</a></td><td><div><p>Type de diplôme</p>
+</div></td></tr><tr><td><a name="l738">​</a><a href="TRE_R16_LieuFormation">TRE_R16_LieuFormation</a></td><td><div><p>Lieu de formation</p>
+</div></td></tr><tr><td><a name="l747">​</a><a href="TRE_R17_TypeAutorisation">TRE_R17_TypeAutorisation</a></td><td><div><p>Type d'autorisation</p>
+</div></td></tr><tr><td><a name="l756">​</a><a href="TRE_R18_DisciplineAutorisation">TRE_R18_DisciplineAutorisation</a></td><td><div><p>Discipline d'autorisation</p>
+</div></td></tr><tr><td><a name="l765">​</a><a href="TRE_R20_Pays">TRE_R20_Pays</a></td><td><div><p>Référentiel des codes pays provenant du COG INSEE</p>
+</div></td></tr><tr><td><a name="l774">​</a><a href="TRE_R21_Fonction">TRE_R21_Fonction</a></td><td><div><p>Fonction</p>
+</div></td></tr><tr><td><a name="l783">​</a><a href="TRE_R22_GenreActivite">TRE_R22_GenreActivite</a></td><td><div><p>Genre d'activité</p>
+</div></td></tr><tr><td><a name="l792">​</a><a href="TRE_R23_ModeExercice">TRE_R23_ModeExercice</a></td><td><div><p>Mode d'exercice</p>
+</div></td></tr><tr><td><a name="l801">​</a><a href="TRE_R24_TypeActiviteLiberale">TRE_R24_TypeActiviteLiberale</a></td><td><div><p>Type d'activité libérale</p>
+</div></td></tr><tr><td><a name="l810">​</a><a href="TRE_R25_MotifFinActivite">TRE_R25_MotifFinActivite</a></td><td><div><p>Motif de fin d'activité</p>
+</div></td></tr><tr><td><a name="l819">​</a><a href="TRE_R30_RegionOM">TRE_R30_RegionOM</a></td><td><div><p>Référentiel des codes régions et collectivités d'outre-mer provenant du COG INSEE + Monaco</p>
+</div></td></tr><tr><td><a name="l828">​</a><a href="TRE_R31_StatutEtatCivil">TRE_R31_StatutEtatCivil</a></td><td><div><p>Status de l'état civil</p>
+</div></td></tr><tr><td><a name="l837">​</a><a href="TRE_R32_StatutHospitalier">TRE_R32_StatutHospitalier</a></td><td><div><p>Statut hospitalier</p>
+</div></td></tr><tr><td><a name="l846">​</a><a href="TRE_R33_StatutInscription">TRE_R33_StatutInscription</a></td><td><div><p>Statut de l'inscription</p>
+</div></td></tr><tr><td><a name="l855">​</a><a href="TRE_R34_StatutProfessionnelSSA">TRE_R34_StatutProfessionnelSSA</a></td><td><div><p>Statut du professionnel au SSA</p>
+</div></td></tr><tr><td><a name="l864">​</a><a href="TRE_R35_TypeVoie">TRE_R35_TypeVoie</a></td><td><div><p>Type de voie</p>
+</div></td></tr><tr><td><a name="l873">​</a><a href="TRE_R36_AutreDiplomeObtenu">TRE_R36_AutreDiplomeObtenu</a></td><td><div><p>Autre diplôme obtenu</p>
+</div></td></tr><tr><td><a name="l882">​</a><a href="TRE_R37_TypeProfessionFonction">TRE_R37_TypeProfessionFonction</a></td><td><div><p>Type des professions et des fonctions</p>
+</div></td></tr><tr><td><a name="l891">​</a><a href="TRE_R38_SpecialiteOrdinale">TRE_R38_SpecialiteOrdinale</a></td><td><div><p>Spécialité ordinale</p>
+</div></td></tr><tr><td><a name="l900">​</a><a href="TRE_R39_Competence">TRE_R39_Competence</a></td><td><div><p>Compétence</p>
+</div></td></tr><tr><td><a name="l909">​</a><a href="TRE_R40_CompetenceExclusive">TRE_R40_CompetenceExclusive</a></td><td><div><p>Compétence exclusive</p>
+</div></td></tr><tr><td><a name="l918">​</a><a href="TRE_R42_DESCnonQualifiant">TRE_R42_DESCnonQualifiant</a></td><td><div><p>Savoir-faire liés aux DESC du groupe 1 non qualifiants</p>
+</div></td></tr><tr><td><a name="l927">​</a><a href="TRE_R43_CapaciteSavoirFaire">TRE_R43_CapaciteSavoirFaire</a></td><td><div><p>Capacité (savoir-faire)</p>
+</div></td></tr><tr><td><a name="l936">​</a><a href="TRE_R44_QualificationPAC">TRE_R44_QualificationPAC</a></td><td><div><p>Qualification de praticien adjoint contractuel</p>
+</div></td></tr><tr><td><a name="l945">​</a><a href="TRE_R45_FonctionQualifiee">TRE_R45_FonctionQualifiee</a></td><td><div><p>Fonction qualifiée</p>
+</div></td></tr><tr><td><a name="l954">​</a><a href="TRE_R46_SpecialiteConcoursHospitalier">TRE_R46_SpecialiteConcoursHospitalier</a></td><td><div><p>Spécialité de concours hospitalier</p>
+</div></td></tr><tr><td><a name="l963">​</a><a href="TRE_R48_DiplomeEtatFrancais">TRE_R48_DiplomeEtatFrancais</a></td><td><div><p>Diplôme de l'Etat français</p>
+</div></td></tr><tr><td><a name="l972">​</a><a href="TRE_R49_DiplomeEtudeSpecialisee">TRE_R49_DiplomeEtudeSpecialisee</a></td><td><div><p>Diplôme d'Etudes Spécialisées</p>
+</div></td></tr><tr><td><a name="l981">​</a><a href="TRE_R50_DESCGroupe1Diplome">TRE_R50_DESCGroupe1Diplome</a></td><td><div><p>DESC Groupe 1 (diplôme)</p>
+</div></td></tr><tr><td><a name="l990">​</a><a href="TRE_R51_DESCGroupe2Diplome">TRE_R51_DESCGroupe2Diplome</a></td><td><div><p>DESC Groupe 2 (diplôme)</p>
+</div></td></tr><tr><td><a name="l999">​</a><a href="TRE_R52_CapaciteDiplome">TRE_R52_CapaciteDiplome</a></td><td><div><p>Capacité (diplôme)</p>
+</div></td></tr><tr><td><a name="l1008">​</a><a href="TRE_R53_DiplomePaysEEE">TRE_R53_DiplomePaysEEE</a></td><td><div><p>Diplôme d'un pays de l'EEE</p>
+</div></td></tr><tr><td><a name="l1017">​</a><a href="TRE_R54_DiplomeUniversiteInterUniversitaire">TRE_R54_DiplomeUniversiteInterUniversitaire</a></td><td><div><p>Diplôme d'Université ou Inter-Universitaire</p>
+</div></td></tr><tr><td><a name="l1026">​</a><a href="TRE_R55_CertificatEtudeSpeciale">TRE_R55_CertificatEtudeSpeciale</a></td><td><div><p>Certificat d'Etude Spéciale</p>
+</div></td></tr><tr><td><a name="l1035">​</a><a href="TRE_R56_Attestation">TRE_R56_Attestation</a></td><td><div><p>Attestation</p>
+</div></td></tr><tr><td><a name="l1044">​</a><a href="TRE_R57_DiplomeEuropeenEtudeSpecialisee">TRE_R57_DiplomeEuropeenEtudeSpecialisee</a></td><td><div><p>Diplôme Européen d'Etudes Spécialisées</p>
+</div></td></tr><tr><td><a name="l1053">​</a><a href="TRE_R58_AutreTypeDiplome">TRE_R58_AutreTypeDiplome</a></td><td><div><p>Autre type de diplôme</p>
+</div></td></tr><tr><td><a name="l1062">​</a><a href="TRE_R60_AutoriteEnregistrement">TRE_R60_AutoriteEnregistrement</a></td><td><div><p>Autorité d'enregistrement</p>
+</div></td></tr><tr><td><a name="l1071">​</a><a href="TRE_R62_Domaine">TRE_R62_Domaine</a></td><td><div><p>Domaine</p>
+</div></td></tr><tr><td><a name="l1080">​</a><a href="TRE_R63_AgregatCategorieEtablissementNiv1">TRE_R63_AgregatCategorieEtablissementNiv1</a></td><td><div><p>Agrégats de catégories d'établissements niveau 1</p>
+</div></td></tr><tr><td><a name="l1089">​</a><a href="TRE_R64_AgregatCategorieEtablissementNiv2">TRE_R64_AgregatCategorieEtablissementNiv2</a></td><td><div><p>Agrégats de catégories d'établissements niveau 2</p>
+</div></td></tr><tr><td><a name="l1098">​</a><a href="TRE_R65_AgregatCategorieEtablissement">TRE_R65_AgregatCategorieEtablissement</a></td><td><div><p>Agrégat de catégories d'établissements</p>
+</div></td></tr><tr><td><a name="l1107">​</a><a href="TRE_R66_CategorieEtablissement">TRE_R66_CategorieEtablissement</a></td><td><div><p>Catégorie d'établissements</p>
+</div></td></tr><tr><td><a name="l1116">​</a><a href="TRE_R67_TypeStructure_EJ_EG">TRE_R67_TypeStructure_EJ_EG</a></td><td><div><p>Type de structure</p>
+</div></td></tr><tr><td><a name="l1125">​</a><a href="TRE_R68_FinessAgregatStatutJuridiqueNiv1">TRE_R68_FinessAgregatStatutJuridiqueNiv1</a></td><td><div><p>Agrégats de statuts juridiques FINESS niveau 1</p>
+</div></td></tr><tr><td><a name="l1134">​</a><a href="TRE_R69_FinessAgregatStatutJuridiqueNiv2">TRE_R69_FinessAgregatStatutJuridiqueNiv2</a></td><td><div><p>Agrégats de statuts juridiques FINESS niveau 2</p>
+</div></td></tr><tr><td><a name="l1143">​</a><a href="TRE_R70_FinessAgregatStatutJuridique">TRE_R70_FinessAgregatStatutJuridique</a></td><td><div><p>Agrégat de statuts juridiques FINESS</p>
+</div></td></tr><tr><td><a name="l1152">​</a><a href="TRE_R72_FinessStatutJuridique">TRE_R72_FinessStatutJuridique</a></td><td><div><p>Statuts juridiques provenant de FINESS, excepté pour les codes 000 et 100 à 110 qui ont été ajoutés pour les besoins du RPPS en 2017.</p>
+</div></td></tr><tr><td><a name="l1161">​</a><a href="TRE_R73_ESPIC">TRE_R73_ESPIC</a></td><td><div><p>Etablissement de santé privé d'intérêt collectif</p>
+</div></td></tr><tr><td><a name="l1170">​</a><a href="TRE_R74_ModeFixationTarifaire">TRE_R74_ModeFixationTarifaire</a></td><td><div><p>Mode de fixation tarifaire</p>
+</div></td></tr><tr><td><a name="l1179">​</a><a href="TRE_R75_InseeNAFrev2Niveau5">TRE_R75_InseeNAFrev2Niveau5</a></td><td><div><p>Sous-classes de la Nomenclature d'Activités Française - INSEE</p>
+</div></td></tr><tr><td><a name="l1188">​</a><a href="TRE_R78_ProfilAccesReferentiel">TRE_R78_ProfilAccesReferentiel</a></td><td><div><p>Profil d'accès aux référentiels</p>
+</div></td></tr><tr><td><a name="l1197">​</a><a href="TRE_R81_Civilite">TRE_R81_Civilite</a></td><td><div><p>Civilité</p>
+</div></td></tr><tr><td><a name="l1206">​</a><a href="TRE_R82_Ordre">TRE_R82_Ordre</a></td><td><div><p>Ordre</p>
+</div></td></tr><tr><td><a name="l1215">​</a><a href="TRE_R84_ProfilAccesAnnuaire_MSSante">TRE_R84_ProfilAccesAnnuaire_MSSante</a></td><td><div><p>Profil d'accès à l'annuaire MSSante</p>
+</div></td></tr><tr><td><a name="l1224">​</a><a href="TRE_R85_RolePriseCharge">TRE_R85_RolePriseCharge</a></td><td><div><p>Rôle dans la prise en charge des patients ou des usagers</p>
+</div></td></tr><tr><td><a name="l1233">​</a><a href="TRE_R86_ProfilVIHF">TRE_R86_ProfilVIHF</a></td><td><div><p>Profil VIHF d'accès</p>
+</div></td></tr><tr><td><a name="l1242">​</a><a href="TRE_R87_TypeCarte">TRE_R87_TypeCarte</a></td><td><div><p>Type de carte</p>
+</div></td></tr><tr><td><a name="l1251">​</a><a href="TRE_R88_TerritoireSante">TRE_R88_TerritoireSante</a></td><td><div><p>Territoire de Santé (au sens ARS) en France</p>
+</div></td></tr><tr><td><a name="l1260">​</a><a href="TRE_R89_RegroupementPays">TRE_R89_RegroupementPays</a></td><td><div><p>Regroupement de pays</p>
+</div></td></tr><tr><td><a name="l1269">​</a><a href="TRE_R90_TypeAE">TRE_R90_TypeAE</a></td><td><div><p>Type Autorité d'enregistrement</p>
+</div></td></tr><tr><td><a name="l1278">​</a><a href="TRE_R94_ProfessionSocial">TRE_R94_ProfessionSocial</a></td><td><div><p>Profession du social</p>
+</div></td></tr><tr><td><a name="l1287">​</a><a href="TRE_R95_UsagerTitre">TRE_R95_UsagerTitre</a></td><td><div><p>Usager de titre professionnel</p>
+</div></td></tr><tr><td><a name="l1296">​</a><a href="TRE_R96_AutreFonctionSanitaire">TRE_R96_AutreFonctionSanitaire</a></td><td><div><p>Autres fonctions du domaine sanitaire</p>
+</div></td></tr><tr><td><a name="l1305">​</a><a href="TRE_R97_DroitExerciceCompl">TRE_R97_DroitExerciceCompl</a></td><td><div><p>Droit d'exercice complémentaire</p>
+</div></td></tr><tr><td><a name="l1314">​</a><a href="TRE_R200_CanalCommunication">TRE_R200_CanalCommunication</a></td><td><div><p>Canal de communication</p>
+</div></td></tr><tr><td><a name="l1323">​</a><a href="TRE_R201_TypeDivisionTerritoriale">TRE_R201_TypeDivisionTerritoriale</a></td><td><div><p>Type de division territoriale</p>
+</div></td></tr><tr><td><a name="l1332">​</a><a href="TRE_R202_AccessibiliteLieu">TRE_R202_AccessibiliteLieu</a></td><td><div><p>Niveaux d'accessibilité d'un établissement recevant du public (ERP)</p>
+</div></td></tr><tr><td><a name="l1341">​</a><a href="TRE_R203_StatutLieu">TRE_R203_StatutLieu</a></td><td><div><p>Statut lieu</p>
+</div></td></tr><tr><td><a name="l1350">​</a><a href="TRE_R204_DirectionLongitude">TRE_R204_DirectionLongitude</a></td><td><div><p>Direction longitude</p>
+</div></td></tr><tr><td><a name="l1359">​</a><a href="TRE_R205_DirectionLatitude">TRE_R205_DirectionLatitude</a></td><td><div><p>Direction latitude</p>
+</div></td></tr><tr><td><a name="l1368">​</a><a href="TRE_R206_TypeContact">TRE_R206_TypeContact</a></td><td><div><p>Type de contact</p>
+</div></td></tr><tr><td><a name="l1377">​</a><a href="TRE_R207_TypeOrganisationInterne">TRE_R207_TypeOrganisationInterne</a></td><td><div><p>Type organisation interne</p>
+</div></td></tr><tr><td><a name="l1386">​</a><a href="TRE_R208_ClasseAge">TRE_R208_ClasseAge</a></td><td><div><p>Classe d'âge</p>
+</div></td></tr><tr><td><a name="l1395">​</a><a href="TRE_R209_TypeActivite">TRE_R209_TypeActivite</a></td><td><div><p>Type d'activité</p>
+</div></td></tr><tr><td><a name="l1404">​</a><a href="TRE_R210_ActeSpecifique">TRE_R210_ActeSpecifique</a></td><td><div><p>Action menée par un ou plusieurs acteur(s) de santé dans le cadre d'une activité. Cet acte peut correspondre à une technique spécialisée ou traduire une expertise discriminante dans le parcours de santé.</p>
+</div></td></tr><tr><td><a name="l1413">​</a><a href="TRE_R211_ActiviteOperationnelle">TRE_R211_ActiviteOperationnelle</a></td><td><div><p>Activite Operationnelle</p>
+</div></td></tr><tr><td><a name="l1422">​</a><a href="TRE_R212_Equipement">TRE_R212_Equipement</a></td><td><div><p>Equipement</p>
+</div></td></tr><tr><td><a name="l1431">​</a><a href="TRE_R213_ModePriseEnCharge">TRE_R213_ModePriseEnCharge</a></td><td><div><p>Mode de la prise en charge</p>
+</div></td></tr><tr><td><a name="l1440">​</a><a href="TRE_R214_SpecialiteUnite">TRE_R214_SpecialiteUnite</a></td><td><div><p>Spécialité d'unité</p>
+</div></td></tr><tr><td><a name="l1449">​</a><a href="TRE_R215_UniteTemps">TRE_R215_UniteTemps</a></td><td><div><p>Unité de temps</p>
+</div></td></tr><tr><td><a name="l1458">​</a><a href="TRE_R216_HL7RoleCode">TRE_R216_HL7RoleCode</a></td><td><div><p>HL7 roleCode</p>
+</div></td></tr><tr><td><a name="l1467">​</a><a href="TRE_R217_ProtectionJuridique">TRE_R217_ProtectionJuridique</a></td><td><div><p>Protection juridique</p>
+</div></td></tr><tr><td><a name="l1476">​</a><a href="TRE_R218_ModeAuthentification">TRE_R218_ModeAuthentification</a></td><td><div><p>Mode d'authentification</p>
+</div></td></tr><tr><td><a name="l1485">​</a><a href="TRE_R219_AutreResponsableConsent">TRE_R219_AutreResponsableConsent</a></td><td><div><p>Autre responsable consentement</p>
+</div></td></tr><tr><td><a name="l1494">​</a><a href="TRE_R220_ModeleDocumentCDAStructure">TRE_R220_ModeleDocumentCDAStructure</a></td><td><div><p>Identifiant des modèles de CDA structurés</p>
+</div></td></tr><tr><td><a name="l1503">​</a><a href="TRE_R221_ModeleDocumentCDANonStructure">TRE_R221_ModeleDocumentCDANonStructure</a></td><td><div><p>Identifiant des modèles de CDA non structurés</p>
+</div></td></tr><tr><td><a name="l1512">​</a><a href="TRE_R222_MediaTypeCorpsCDANonStructure">TRE_R222_MediaTypeCorpsCDANonStructure</a></td><td><div><p>Identifiant des modèles de CDA non structurés</p>
+</div></td></tr><tr><td><a name="l1521">​</a><a href="TRE_R223_NatCycleForm">TRE_R223_NatCycleForm</a></td><td><div><p>Nature du cycle de formation des étudiants</p>
+</div></td></tr><tr><td><a name="l1530">​</a><a href="TRE_R224_NiveauFormAcquis">TRE_R224_NiveauFormAcquis</a></td><td><div><p>Niveaux de formation acquis dans le cycle de formation des étudiants</p>
+</div></td></tr><tr><td><a name="l1539">​</a><a href="TRE_R225_AnneeUniversitaire">TRE_R225_AnneeUniversitaire</a></td><td><div><p>Année universitaire</p>
+</div></td></tr><tr><td><a name="l1548">​</a><a href="TRE_R226_Dip2iemeCycleNQ">TRE_R226_Dip2iemeCycleNQ</a></td><td><div><p>Diplôme de 2ième cycle non qualifiant</p>
+</div></td></tr><tr><td><a name="l1557">​</a><a href="TRE_R227_ChampActivite">TRE_R227_ChampActivite</a></td><td><div><p>Champ d'activité</p>
+</div></td></tr><tr><td><a name="l1566">​</a><a href="TRE_R228_UnitePrix">TRE_R228_UnitePrix</a></td><td><div><p>Unité de prix</p>
+</div></td></tr><tr><td><a name="l1575">​</a><a href="TRE_R230_Devise">TRE_R230_Devise</a></td><td><div><p>Devise</p>
+</div></td></tr><tr><td><a name="l1584">​</a><a href="TRE_R231_PalierAuthentification">TRE_R231_PalierAuthentification</a></td><td><div><p>Paliers des référentiels d'authentification de la PGSSI-S</p>
+</div></td></tr><tr><td><a name="l1593">​</a><a href="TRE_R232_TypeFermetureEJ">TRE_R232_TypeFermetureEJ</a></td><td><div><p>Type de fermeture de l'entité juridique FINESS</p>
+</div></td></tr><tr><td><a name="l1602">​</a><a href="TRE_R233_TypeFermetureEG">TRE_R233_TypeFermetureEG</a></td><td><div><p>Type de fermeture de l'entité géographique FINESS</p>
+</div></td></tr><tr><td><a name="l1611">​</a><a href="TRE_R234_TypeNote">TRE_R234_TypeNote</a></td><td><div><p>Type de note</p>
+</div></td></tr><tr><td><a name="l1620">​</a><a href="TRE_R236_ModeGestion">TRE_R236_ModeGestion</a></td><td><div><p>Mode gestion</p>
+</div></td></tr><tr><td><a name="l1629">​</a><a href="TRE_R237_GroupeTarifaireDependance">TRE_R237_GroupeTarifaireDependance</a></td><td><div><p>Niveau de dépendance associé à un tarif</p>
+</div></td></tr><tr><td><a name="l1638">​</a><a href="TRE_R238_OuvertureAnnuelle">TRE_R238_OuvertureAnnuelle</a></td><td><div><p>Ouverture annuelle</p>
+</div></td></tr><tr><td><a name="l1647">​</a><a href="TRE_R239_PublicPrisEnCharge">TRE_R239_PublicPrisEnCharge</a></td><td><div><p>Public pris en charge</p>
+</div></td></tr><tr><td><a name="l1656">​</a><a href="TRE_R240_TemporaliteAccueil">TRE_R240_TemporaliteAccueil</a></td><td><div><p>Temporalité accueil</p>
+</div></td></tr><tr><td><a name="l1665">​</a><a href="TRE_R241_AideFinanciere">TRE_R241_AideFinanciere</a></td><td><div><p>Habilit. de l'EG permettant aux pers. accueillies d'avoir des aides financières</p>
+</div></td></tr><tr><td><a name="l1674">​</a><a href="TRE_R242_TypeHabitation">TRE_R242_TypeHabitation</a></td><td><div><p>Type habitation</p>
+</div></td></tr><tr><td><a name="l1683">​</a><a href="TRE_R243_CompetenceSpecifique">TRE_R243_CompetenceSpecifique</a></td><td><div><p>Compétence spécifique</p>
+</div></td></tr><tr><td><a name="l1692">​</a><a href="TRE_R244_CategorieOrganisation">TRE_R244_CategorieOrganisation</a></td><td><div><p>Catégorie d'organisation</p>
+</div></td></tr><tr><td><a name="l1701">​</a><a href="TRE_R245_SpecialisationDePriseEnCharge">TRE_R245_SpecialisationDePriseEnCharge</a></td><td><div><p>Spécialisation de prise en charge</p>
+</div></td></tr><tr><td><a name="l1710">​</a><a href="TRE_R246_TypeTarif">TRE_R246_TypeTarif</a></td><td><div><p>Type tarif</p>
+</div></td></tr><tr><td><a name="l1719">​</a><a href="TRE_R248_ModeAcces">TRE_R248_ModeAcces</a></td><td><div><p>Mode d'accès pour accéder à un SI santé avec données patients</p>
+</div></td></tr><tr><td><a name="l1728">​</a><a href="TRE_R249_Sexe">TRE_R249_Sexe</a></td><td><div><p>Sexe</p>
+</div></td></tr><tr><td><a name="l1737">​</a><a href="TRE_R250_ConditionTarifaire">TRE_R250_ConditionTarifaire</a></td><td><div><p>Les conditions d'accès à un tarif modulé</p>
+</div></td></tr><tr><td><a name="l1746">​</a><a href="TRE_R251_FonctionContact">TRE_R251_FonctionContact</a></td><td><div><p>Un titre, une position, une fonction de la personne contact dans l'organisation</p>
+</div></td></tr><tr><td><a name="l1755">​</a><a href="TRE_R252_TypeHoraire">TRE_R252_TypeHoraire</a></td><td><div><p>Type horaire</p>
+</div></td></tr><tr><td><a name="l1764">​</a><a href="TRE_R253_TypeMaternite">TRE_R253_TypeMaternite</a></td><td><div><p>Type de maternité</p>
+</div></td></tr><tr><td><a name="l1773">​</a><a href="TRE_R254_TypeEvenement">TRE_R254_TypeEvenement</a></td><td><div><p>Liste de types d'évènement</p>
+</div></td></tr><tr><td><a name="l1782">​</a><a href="TRE_R255_FluxStandardise">TRE_R255_FluxStandardise</a></td><td><div><p>Liste de flux standardisés</p>
+</div></td></tr><tr><td><a name="l1791">​</a><a href="TRE_R256_TypeMessagerie">TRE_R256_TypeMessagerie</a></td><td><div><p>Type de messagerie électronique</p>
+</div></td></tr><tr><td><a name="l1800">​</a><a href="TRE_R257_TypeBAL">TRE_R257_TypeBAL</a></td><td><div><p>Type de boîte aux lettres</p>
+</div></td></tr><tr><td><a name="l1809">​</a><a href="TRE_R258_RelationPriseCharge">TRE_R258_RelationPriseCharge</a></td><td><div><p>Relation dans la prise en charge du patient</p>
+</div></td></tr><tr><td><a name="l1818">​</a><a href="TRE_R259_HL7ParticipationFunction">TRE_R259_HL7ParticipationFunction</a></td><td><div><p>Rôles fonctionnels HL7</p>
+</div></td></tr><tr><td><a name="l1827">​</a><a href="TRE_R260_HL7RoleClass">TRE_R260_HL7RoleClass</a></td><td><div><p>Rôle de la personne point de contact auprès d'une autre personne repris de la terminologie HL7 v3 RoleClass (https://www.hl7.org/fhir/v3/RoleClass/cs.html)</p>
+</div></td></tr><tr><td><a name="l1836">​</a><a href="TRE_R261_AutreSalarieStructureSante">TRE_R261_AutreSalarieStructureSante</a></td><td><div><p>Autre salariés d'une structure de santé</p>
+</div></td></tr><tr><td><a name="l1845">​</a><a href="TRE_R262_CategorieSocioProfessionnelle">TRE_R262_CategorieSocioProfessionnelle</a></td><td><div><p>Catégories socio-professionnelles</p>
+</div></td></tr><tr><td><a name="l1854">​</a><a href="TRE_R263_TypeNumeroIdentification">TRE_R263_TypeNumeroIdentification</a></td><td><div><p>Type de numéro d'identification</p>
+</div></td></tr><tr><td><a name="l1863">​</a><a href="TRE_R264_PrestationNonObligatoireIncluse">TRE_R264_PrestationNonObligatoireIncluse</a></td><td><div><p>Prestations non obligatoire incluses</p>
+</div></td></tr><tr><td><a name="l1872">​</a><a href="TRE_R266_FamilleActiviteOperationnelleHorsSerafin">TRE_R266_FamilleActiviteOperationnelleHorsSerafin</a></td><td><div><p>Familles activités opérationnelles hors Serafin</p>
+</div></td></tr><tr><td><a name="l1881">​</a><a href="TRE_R267_SexeProvenanceISO">TRE_R267_SexeProvenanceISO</a></td><td><div><p>Codes de représentation des sexes humains provenant de la norme ISO 5218</p>
+</div></td></tr><tr><td><a name="l1890">​</a><a href="TRE_R268_PaysProvenanceISO">TRE_R268_PaysProvenanceISO</a></td><td><div><p>Référentiel des pays provenant de la norme ISO 3166</p>
+</div></td></tr><tr><td><a name="l1899">​</a><a href="TRE_R269_AvailabilityStatusProvenanceOasis">TRE_R269_AvailabilityStatusProvenanceOasis</a></td><td><div><p>Statut de l'objet provenant de la norme Oasis</p>
+</div></td></tr><tr><td><a name="l1908">​</a><a href="TRE_R270_AvailabilityStatus">TRE_R270_AvailabilityStatus</a></td><td><div><p>Statut de l'objet</p>
+</div></td></tr><tr><td><a name="l1917">​</a><a href="TRE_R271_TypeRequete">TRE_R271_TypeRequete</a></td><td><div><p>Code de type requêtes</p>
+</div></td></tr><tr><td><a name="l1926">​</a><a href="TRE_R272_EquipementMaterielLourd">TRE_R272_EquipementMaterielLourd</a></td><td><div><p>Equipements Matériels Lourds</p>
+</div></td></tr><tr><td><a name="l1935">​</a><a href="TRE_R274_ActiviteSanitaireRegulee">TRE_R274_ActiviteSanitaireRegulee</a></td><td><div><p>Activités sanitaires soumises à une régulation de la part de l'ARS</p>
+</div></td></tr><tr><td><a name="l1944">​</a><a href="TRE_R275_ModaliteActivite">TRE_R275_ModaliteActivite</a></td><td><div><p>Mode d'application ou type de soins encadrant une activité</p>
+</div></td></tr><tr><td><a name="l1953">​</a><a href="TRE_R276_FormeActivite">TRE_R276_FormeActivite</a></td><td><div><p>Type d'organisation de prise en charge</p>
+</div></td></tr><tr><td><a name="l1962">​</a><a href="TRE_R277_CategorieActiviteSanitaireRegulee">TRE_R277_CategorieActiviteSanitaireRegulee</a></td><td><div><p>Types d'activités autorisées</p>
+</div></td></tr><tr><td><a name="l1971">​</a><a href="TRE_R278_FinessConvention">TRE_R278_FinessConvention</a></td><td><div><p>Convention du domaine social FINESS</p>
+</div></td></tr><tr><td><a name="l1980">​</a><a href="TRE_R279_Clientele">TRE_R279_Clientele</a></td><td><div><p>Clientèles</p>
+</div></td></tr><tr><td><a name="l1989">​</a><a href="TRE_R280_DisciplineEquipementSocial">TRE_R280_DisciplineEquipementSocial</a></td><td><div><p>Disciplines d'équipement pour le social</p>
+</div></td></tr><tr><td><a name="l1998">​</a><a href="TRE_R281_DisciplineEnseignement">TRE_R281_DisciplineEnseignement</a></td><td><div><p>Disciplines pour l'enseignement</p>
+</div></td></tr><tr><td><a name="l2007">​</a><a href="TRE_R282_CNAMAmeliSecteurConventionnement">TRE_R282_CNAMAmeliSecteurConventionnement</a></td><td><div><p>Secteur de conventionnement du professionnel libéral par la CNAM extracts ameli</p>
+</div></td></tr><tr><td><a name="l2016">​</a><a href="TRE_R283_NiveauConfidentialite">TRE_R283_NiveauConfidentialite</a></td><td><div><p>Niveau de restriction d'accès</p>
+</div></td></tr><tr><td><a name="l2025">​</a><a href="TRE_R284_NiveauRecoursORSAN">TRE_R284_NiveauRecoursORSAN</a></td><td><div><p>Hiérarchisation fonctionnelle des Éts pour accueil patients après le SAMU</p>
+</div></td></tr><tr><td><a name="l2034">​</a><a href="TRE_R285_TraitementDocument">TRE_R285_TraitementDocument</a></td><td><div><p>Traitement du document</p>
+</div></td></tr><tr><td><a name="l2043">​</a><a href="TRE_R286_TypeFermeture">TRE_R286_TypeFermeture</a></td><td><div><p>Type de fermeture, codes provenant du FINESS pour les EJ et EG</p>
+</div></td></tr><tr><td><a name="l2052">​</a><a href="TRE_R287_NatureContact">TRE_R287_NatureContact</a></td><td><div><p>Un service ou un guichet assurant le contact au sein de l'organisation</p>
+</div></td></tr><tr><td><a name="l2061">​</a><a href="TRE_R288_TypeProfession">TRE_R288_TypeProfession</a></td><td><div><p>Type de profession</p>
+</div></td></tr><tr><td><a name="l2070">​</a><a href="TRE_R289_TypeFonction">TRE_R289_TypeFonction</a></td><td><div><p>Type de fonction</p>
+</div></td></tr><tr><td><a name="l2079">​</a><a href="TRE_R290_RoleAdmTechSanitaireSocial">TRE_R290_RoleAdmTechSanitaireSocial</a></td><td><div><p>Rôle administratif et-ou technique des domaines sanitaire et social</p>
+</div></td></tr><tr><td><a name="l2088">​</a><a href="TRE_R291_AutreProfession">TRE_R291_AutreProfession</a></td><td><div><p>Liste de professionnels non membres d'une profession réglementée</p>
+</div></td></tr><tr><td><a name="l2097">​</a><a href="TRE_R292_INSEECategorieSocioProfessionnelleAgrNiv1">TRE_R292_INSEECategorieSocioProfessionnelleAgrNiv1</a></td><td><div><p>Codes de niveau 1 des catégories socio-professionnelles de l'INSEE</p>
+</div></td></tr><tr><td><a name="l2106">​</a><a href="TRE_R293_AgregatClienteleNiv2">TRE_R293_AgregatClienteleNiv2</a></td><td><div><p>Agrégats de clientèle niveau 2</p>
+</div></td></tr><tr><td><a name="l2115">​</a><a href="TRE_R294_AgregatClienteleNiv3">TRE_R294_AgregatClienteleNiv3</a></td><td><div><p>Agrégats de clientèle niveau 3</p>
+</div></td></tr><tr><td><a name="l2124">​</a><a href="TRE_R295_AgregatDisciplineEnseignNiv1">TRE_R295_AgregatDisciplineEnseignNiv1</a></td><td><div><p>Agrégats de disciplines pour l'enseignement niveau 1</p>
+</div></td></tr><tr><td><a name="l2133">​</a><a href="TRE_R296_AgregatDisciplineEnseignNiv2">TRE_R296_AgregatDisciplineEnseignNiv2</a></td><td><div><p>Agrégats de disciplines pour l'enseignement niveau 2</p>
+</div></td></tr><tr><td><a name="l2142">​</a><a href="TRE_R297_AgregatDisciplineEnseignNiv3">TRE_R297_AgregatDisciplineEnseignNiv3</a></td><td><div><p>Agrégats de disciplines pour l'enseignement niveau 3</p>
+</div></td></tr><tr><td><a name="l2151">​</a><a href="TRE_R298_AgregatDisciplineEquipSocNiv1">TRE_R298_AgregatDisciplineEquipSocNiv1</a></td><td><div><p>Agrégats de disciplines d'équipement pour le social niveau 1</p>
+</div></td></tr><tr><td><a name="l2160">​</a><a href="TRE_R299_AgregatDisciplineEquipSocNiv2">TRE_R299_AgregatDisciplineEquipSocNiv2</a></td><td><div><p>Agrégats de disciplines d'équipement pour le social niveau 2</p>
+</div></td></tr><tr><td><a name="l2169">​</a><a href="TRE_R300_AgregatDisciplineEquipSocNiv3">TRE_R300_AgregatDisciplineEquipSocNiv3</a></td><td><div><p>Agrégats de disciplines d'équipement pour le social niveau 3</p>
+</div></td></tr><tr><td><a name="l2178">​</a><a href="TRE_R301_SourceInformationInstallation">TRE_R301_SourceInformationInstallation</a></td><td><div><p>Sources d'information possible concernant l'installation de l'activité sociale</p>
+</div></td></tr><tr><td><a name="l2187">​</a><a href="TRE_R302_ContexteCodeComplementaire">TRE_R302_ContexteCodeComplementaire</a></td><td><div><p>Liste des codes complémentaires utilisables dans un contexte particulier</p>
+</div></td></tr><tr><td><a name="l2196">​</a><a href="TRE_R303_HL7v3AdministrativeGender">TRE_R303_HL7v3AdministrativeGender</a></td><td><div><p>Sexe d'une personne utilisée à des fins administratives (par opposition au sexe clinique) repris de la terminologie HL7 v3 AdministrativeGender (https://www.hl7.org/fhir/v3/AdministrativeGender/cs.html)</p>
+</div></td></tr><tr><td><a name="l2205">​</a><a href="TRE_R304_HL7v3ActCode">TRE_R304_HL7v3ActCode</a></td><td><div><p>Type de prise en charge repris de la terminologie HL7 v3 ActCode (https://www.hl7.org/fhir/v3/ActCode/cs.html)</p>
+</div></td></tr><tr><td><a name="l2214">​</a><a href="TRE_R305_TypeRencontre">TRE_R305_TypeRencontre</a></td><td><div><p>Type de rencontre</p>
+</div></td></tr><tr><td><a name="l2223">​</a><a href="TRE_R314_TypeCreneau">TRE_R314_TypeCreneau</a></td><td><div><p>Type de créneaux de soins définis par un professionnel de santé ou son délégataire dans son logiciel de prise de RDV selon la visibilité associée</p>
+</div></td></tr><tr><td><a name="l2232">​</a><a href="TRE_R316_AutreCategorieEtablissement">TRE_R316_AutreCategorieEtablissement</a></td><td><div><p>Cette table de référence permet d'identifier des catégories d'établissements qui ne sont pas présentes dans la TRE R66 qui est une table de référence ne listant que les catégories d'établissements présentes dans le FINESS</p>
+</div></td></tr><tr><td><a name="l2241">​</a><a href="TRE_R317_SituationVieQuotidienne">TRE_R317_SituationVieQuotidienne</a></td><td><div><p>Caractérise la situation de vie de la personne : vit seule ou avec d'autres personnes</p>
+</div></td></tr><tr><td><a name="l2250">​</a><a href="TRE_R318_BesoinAideMobilite">TRE_R318_BesoinAideMobilite</a></td><td><div><p>Caractérise les besoins d'aide de la personne en matière de mobilité</p>
+</div></td></tr><tr><td><a name="l2259">​</a><a href="TRE_R319_BesoinAideVieSociale">TRE_R319_BesoinAideVieSociale</a></td><td><div><p>Caractérise les besoins d'aide de la personne en matière de vie sociale</p>
+</div></td></tr><tr><td><a name="l2268">​</a><a href="TRE_R320_BesoinCommunication">TRE_R320_BesoinCommunication</a></td><td><div><p>Caractérise les besoins d'aide de la personne en matière de scolarité, en lien avec la communication</p>
+</div></td></tr><tr><td><a name="l2277">​</a><a href="TRE_R321_BesoinEntretienPersonnel">TRE_R321_BesoinEntretienPersonnel</a></td><td><div><p>Caractérise les besoins d'aide de la personne en matière de scolarité, en lien avec l'entretien personnel</p>
+</div></td></tr><tr><td><a name="l2286">​</a><a href="TRE_R322_BesoinMobilite">TRE_R322_BesoinMobilite</a></td><td><div><p>Caractérise les besoins d'aide de la personne en matière de scolarité, en lien avec la mobilité</p>
+</div></td></tr><tr><td><a name="l2295">​</a><a href="TRE_R323_BesoinScolarite">TRE_R323_BesoinScolarite</a></td><td><div><p>Caractérise les besoins d'aide de la personne en matière de scolarité, en lien avec les apprentissages</p>
+</div></td></tr><tr><td><a name="l2304">​</a><a href="TRE_R324_BesoinSoutienProjetProfessionnel">TRE_R324_BesoinSoutienProjetProfessionnel</a></td><td><div><p>Cette nomenclature permet de préciser le besoin du demandeur quant à l'établissement de son ou ses projet(s) professionnel(s)</p>
+</div></td></tr><tr><td><a name="l2313">​</a><a href="TRE_R325_SituationProfessionnelle">TRE_R325_SituationProfessionnelle</a></td><td><div><p>Caractérise la situation professionnelle de la personne</p>
+</div></td></tr><tr><td><a name="l2322">​</a><a href="TRE_R326_SituationSansEmploi">TRE_R326_SituationSansEmploi</a></td><td><div><p>Caractérise la situation de la personne lorsqu'elle est sans emploi</p>
+</div></td></tr><tr><td><a name="l2331">​</a><a href="TRE_R327_TypeDecision">TRE_R327_TypeDecision</a></td><td><div><p>Caractérise le type de décision prise par la CDAPH en réponse à une demande de compensation d'un usager (individu ou représentant légal), à une demande de révision par un tiers ou à un recours administratif préalable obligatoire (RAPO) d'un usager</p>
+</div></td></tr><tr><td><a name="l2340">​</a><a href="TRE_R328_TypeScolarisation">TRE_R328_TypeScolarisation</a></td><td><div><p>Caractérise la situation scolaire de la personne</p>
+</div></td></tr><tr><td><a name="l2349">​</a><a href="TRE_R329_NatureCapacite">TRE_R329_NatureCapacite</a></td><td><div><p>Permet d'indiquer si la capacité est exprimée en lits ou en places</p>
+</div></td></tr><tr><td><a name="l2358">​</a><a href="TRE_R330_TypeStatutCapacite">TRE_R330_TypeStatutCapacite</a></td><td><div><p>Permet de préciser le statut des lits décrits</p>
+</div></td></tr><tr><td><a name="l2367">​</a><a href="TRE_R331_TemporaliteCapacite">TRE_R331_TemporaliteCapacite</a></td><td><div><p>Sert à indiquer le moment où une capacité sera effective. Il est ainsi possible de décrire la situation immédiate ou de fournir une information prospective de capacités, prenant notamment en compte les entrées et sorties déjà identifiés de patients</p>
+</div></td></tr><tr><td><a name="l2376">​</a><a href="TRE_R332_GenreCapacite">TRE_R332_GenreCapacite</a></td><td><div><p>Permet d'indiquer le genre des patients qui peuvent être installés dans des lits disponibles</p>
+</div></td></tr><tr><td><a name="l2385">​</a><a href="TRE_R333_TypeFermetureCapacite">TRE_R333_TypeFermetureCapacite</a></td><td><div><p>Permet d'indiquer le statut de lits fermés, afin d'identifier le nombre de lits fermés qui peuvent être réactivés en cas de besoin et le nombre de ceux qui ne peuvent pas l'être</p>
+</div></td></tr><tr><td><a name="l2394">​</a><a href="TRE_R334_TypeLitSupplementaire">TRE_R334_TypeLitSupplementaire</a></td><td><div><p>Permet d'indiquer le statut de lits supplémentaires, pour identifier le nombre de lits supplémentaires déjà mobilisés et, par typologie de mobilisation possible, le nombre de lits qui ne le sont pas encore</p>
+</div></td></tr><tr><td><a name="l2403">​</a><a href="TRE_R335_TypeSourceCapacite">TRE_R335_TypeSourceCapacite</a></td><td><div><p>Permet d'indiquer quel type de source est à l'origine de l'information de capacité</p>
+</div></td></tr><tr><td><a name="l2412">​</a><a href="TRE_R336_TypeCrise">TRE_R336_TypeCrise</a></td><td><div><p>Permet d'indiquer le type de crise qui permet de mobiliser le nombre de lits supplémentaires décrits</p>
+</div></td></tr><tr><td><a name="l2421">​</a><a href="TRE_R337_AffectationTemporaire">TRE_R337_AffectationTemporaire</a></td><td><div><p>Permet d'indiquer la réservation de tout ou partie des lits d'une zone d'hébergement pour des patients selon qu'ils soient -ou non- concernés par une pathologie (Covid+, Covid-, …) ou un évènement (catastrophe naturelle, attentat, …)</p>
+</div></td></tr><tr><td><a name="l2430">​</a><a href="TRE_R338_ModaliteAccueil">TRE_R338_ModaliteAccueil</a></td><td><div><p>Modalités d'accueil</p>
+</div></td></tr><tr><td><a name="l2439">​</a><a href="TRE_R340_TypeCaracteristiqueEquipement">TRE_R340_TypeCaracteristiqueEquipement</a></td><td><div><p>Type de caractéristique de l'équipement</p>
+</div></td></tr><tr><td><a name="l2448">​</a><a href="TRE_R341_StatutCommunication">TRE_R341_StatutCommunication</a></td><td><div><p>Permet de donner une indication pour savoir une action doit être menée ou de son résultat lorsqu'elle a été menée</p>
+</div></td></tr><tr><td><a name="l2457">​</a><a href="TRE_R342_XdsTypesIdentifiantsReferenceId">TRE_R342_XdsTypesIdentifiantsReferenceId</a></td><td><div><p>Types d'identifiants utilisés dans la métadonnée XDS referenceIdList de la fiche du document. Ces types d'identifiants sont spécifiés dans une terminologie incluse dans le profil XDS dans le Cadre Technique d'IHE IT Infrastructure.</p>
+</div></td></tr><tr><td><a name="l2466">​</a><a href="TRE_R343_FonctionLieu">TRE_R343_FonctionLieu</a></td><td><div><p>Destination d'usage du lieu</p>
+</div></td></tr><tr><td><a name="l2475">​</a><a href="TRE_R344_NiveauExpertise">TRE_R344_NiveauExpertise</a></td><td><div><p>Le niveau d'expertise atteste du niveau de ressources humaines et matérielles engagées dans la réalisation de l'offre et défini dans un cahier des charges officiel.</p>
+</div></td></tr><tr><td><a name="l2484">​</a><a href="TRE_R345_TypeIdentifiantAutre">TRE_R345_TypeIdentifiantAutre</a></td><td><div><p>Autre Type d'identifiant</p>
+</div></td></tr><tr><td><a name="l2493">​</a><a href="TRE_R348_FormationSpecialiseeTransversale">TRE_R348_FormationSpecialiseeTransversale</a></td><td><div><p>Formation Spécialisée Transversale (FST)</p>
+</div></td></tr><tr><td><a name="l2502">​</a><a href="TRE_R349_ActionAnomalie">TRE_R349_ActionAnomalie</a></td><td><div><p>Action attendue dans le cadre de la gestion d'une anomalie</p>
+</div></td></tr><tr><td><a name="l2511">​</a><a href="TRE_R350_ThematiqueAnomalie">TRE_R350_ThematiqueAnomalie</a></td><td><div><p>Thématique caractérisant une anomalie</p>
+</div></td></tr><tr><td><a name="l2520">​</a><a href="TRE_R352_StatutMetierAnomalie">TRE_R352_StatutMetierAnomalie</a></td><td><div><p>Statut métier des anomalies</p>
+</div></td></tr><tr><td><a name="l2529">​</a><a href="TRE_R354_TypeIdentifiantRessourceOperationnelle">TRE_R354_TypeIdentifiantRessourceOperationnelle</a></td><td><div><p>Type d'identifiant des ressources opérationnelles</p>
+</div></td></tr><tr><td><a name="l2538">​</a><a href="TRE_R355_TypeIdentifiantOffre">TRE_R355_TypeIdentifiantOffre</a></td><td><div><p>Type d'identifiant de l'offre</p>
+</div></td></tr><tr><td><a name="l2547">​</a><a href="TRE_R356_ProfessionRessource">TRE_R356_ProfessionRessource</a></td><td><div><p>Profession Ressource</p>
+</div></td></tr><tr><td><a name="l2556">​</a><a href="TRE_R357_StatutPersonnePriseCharge">TRE_R357_StatutPersonnePriseCharge</a></td><td><div><p>Statut de la personne prise en charge.</p>
+</div></td></tr><tr><td><a name="l2565">​</a><a href="TRE_R358_MotifStatutPersonnePriseCharge">TRE_R358_MotifStatutPersonnePriseCharge</a></td><td><div><p>Motif du statut de la personne prise en charge</p>
+</div></td></tr><tr><td><a name="l2574">​</a><a href="TRE_R359_SurspecialiteTransversale">TRE_R359_SurspecialiteTransversale</a></td><td><div><p>Surspécialité (compétence) acquise par l'interne à l'issue d'une Formation Spécialisée Transversale (FST)</p>
+</div></td></tr><tr><td><a name="l2583">​</a><a href="TRE_R368_StatutRessource">TRE_R368_StatutRessource</a></td><td><div><p>Caractérise le statut du processus d'évaluation de l'autonomie de l'usager par un professionnel de santé ou par lui-même lors d'une auto évaluation</p>
+</div></td></tr><tr><td><a name="l2592">​</a><a href="TRE_R369_ProfilUtilisateurReferentielNational">TRE_R369_ProfilUtilisateurReferentielNational</a></td><td><div><p>Profils utilisateur d'un référentiel national</p>
+</div></td></tr></table>    
+    
+    
+    
+    
     </div>
   </div>
 </div>
-</div>  <!-- /inner-wrapper -->
-</div>  <!-- /row -->
-</div>  <!-- /container -->
-</div>  <!-- /segment-content -->
+</div>    <!-- /inner-wrapper -->
+</div>    <!-- /row -->
+</div>    <!-- /container -->
+</div>    <!-- /segment-content -->
 
-<script type="text/javascript" src="assets/js/jquery.js"> </script>     <!-- note keep space here, otherwise it will be transformed to empty tag -> fails -->
-<script type="text/javascript" src="assets/js/jquery-ui.min.js"> </script>
+<script src="assets/js/jquery.js" type="text/javascript"> </script>       <!-- note keep space here, otherwise it will be transformed to empty tag -> fails -->
+<script src="assets/js/jquery-ui.min.js" type="text/javascript"> </script>
 
-<script type="text/javascript" src="assets/js/window-hash.js"> </script>
+<script src="assets/js/window-hash.js" type="text/javascript"> </script>
 <a name="bottom"> </a>
-<div id="segment-footer" igtool="footer" class="segment">  <!-- segment-footer -->
-<div class="container">  <!-- container -->
+<div igtool="footer" id="segment-footer" class="segment">    <!-- segment-footer -->
+<div class="container">    <!-- container -->
 
 <div style="background-color:var(--footer-nav-bg-color)">
   <table style="width:100%">
     <tbody>
       <tr>
-        <td style="text-align:left">&#xA0;
+        <td style="text-align:left">&nbsp;
 
           <a href="tre-smt.html">&lt;prev</a>
 
@@ -220,7 +473,7 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
         <td style="text-align:center">
           <a href="#top">top</a>
         </td>
-        <td style="text-align:right">&#xA0;
+        <td style="text-align:right">&nbsp;
 
           <a href="tre-deprecated.html">next&gt;</a>
 
@@ -232,50 +485,50 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
 
 <div class="inner-wrapper">
   <p>
-    IG &#169; 2020+ <a style="color:var(--footer-hyperlink-text-color)" href="https://esante.gouv.fr">ANS</a>.  Package ans.fr.terminologie#1.1.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Sat, Oct 26, 2024 04:29+0000">2024-10-26</span>
+    IG &copy; 2020+ <a style="color:var(--footer-hyperlink-text-color)" href="https://esante.gouv.fr">ANS</a>.  Package ans.fr.terminologie#1.1.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Sat, Oct 26, 2024 08:59+0000">2024-10-26</span>
     <br/>
     <span style="color: var(--footer-highlight-text-color)"></span>
       Liens: <a style="color: var(--footer-hyperlink-text-color)" href="toc.html">Table des matières </a> |
 <a style="color: var(--footer-hyperlink-text-color)" href="qa.html">QA </a> |
-<a style="color: var(--footer-hyperlink-text-color)" target="_blank" href="https://interop.esante.gouv.fr/ig/terminologie/history.html">Historique des versions </a>
- | <a style="color: var(--footer-hyperlink-text-color)" target="_blank" href="https://github.com/ansforge/IG-terminologie-de-sante/issues/new/choose">New Issue</a>
-    </span>
+<a style="color: var(--footer-hyperlink-text-color)" href="https://interop.esante.gouv.fr/ig/terminologie/history.html" target="_blank">Historique des versions </a>
+ | <a style="color: var(--footer-hyperlink-text-color)" href="https://github.com/ansforge/IG-terminologie-de-sante/issues/new/choose" target="_blank">New Issue</a>
+    
   </p>
-</div>  <!-- /inner-wrapper -->
-</div>  <!-- /container -->
-</div>  <!-- /segment-footer -->
+</div>    <!-- /inner-wrapper -->
+</div>    <!-- /container -->
+</div>    <!-- /segment-footer -->
 
-<div id="segment-post-footer" class="segment hidden">  <!-- segment-post-footer -->
-<div class="container">  <!-- container -->
-</div>  <!-- /container -->
-</div>  <!-- /segment-post-footer -->
+<div id="segment-post-footer" class="segment hidden">    <!-- segment-post-footer -->
+<div class="container">    <!-- container -->
+</div>    <!-- /container -->
+</div>    <!-- /segment-post-footer -->
 
-<!-- JS and analytics only. -->
-<!-- Bootstrap core JavaScript
+  <!-- JS and analytics only. -->
+  <!-- Bootstrap core JavaScript
 ================================================== -->
-<!-- Placed at the end of the document so the pages load faster -->
-<script type="text/javascript" src="assets/js/bootstrap.min.js"> </script>
-<script type="text/javascript" src="assets/js/respond.min.js"> </script>
-<script type="text/javascript" src="assets/js/anchor.min.js"> </script>
-<script type="text/javascript" src="assets/js/clipboard.min.js"> </script>
-<script type="text/javascript" src="assets/js/clipboard-btn.js"> </script>
+  <!-- Placed at the end of the document so the pages load faster -->
+<script src="assets/js/bootstrap.min.js" type="text/javascript"> </script>
+<script src="assets/js/respond.min.js" type="text/javascript"> </script>
+<script src="assets/js/anchor.min.js" type="text/javascript"> </script>
+<script src="assets/js/clipboard.min.js" type="text/javascript"> </script>
+<script src="assets/js/clipboard-btn.js" type="text/javascript"> </script>
 
-<!-- Ajout ANS -->
+  <!-- Ajout ANS -->
 <script src="assets/js/app.js" type="text/javascript"> </script>
 <script src="assets/js/vendor.js" type="text/javascript"> </script>
-<script type="text/javascript" src="assets/js/addOnto.js"> </script>
-<!-- Fin ajout ANS -->
+<script src="assets/js/addOnto.js" type="text/javascript"> </script>
+  <!-- Fin ajout ANS -->
 
-<script type="text/javascript" src="assets/js/anchor-hover.js"> </script>
+<script src="assets/js/anchor-hover.js" type="text/javascript"> </script>
 
 
-<!-- Analytics Below
+  <!-- Analytics Below
 ================================================== -->
 
 
-<!-- AJOUT ANS -->
+  <!-- AJOUT ANS -->
 
-<footer class="footer footer-principal" role="contentinfo">
+<footer role="contentinfo" class="footer footer-principal">
 <div class="footer__region1">
 <div class="container">
 <div class="row">
@@ -283,17 +536,17 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
   <div class="col-md-6 col-lg-4 text-center text-md-left">
     <div class="logos">        
       <div class="logo logo--0">
-        <a href="https://solidarites-sante.gouv.fr" title="Ministère des Solidarités et de la Santé (nouvelle fenêtre)" target="_blank" rel="nofollow">
+        <a rel="nofollow" href="https://solidarites-sante.gouv.fr" title="Ministère des Solidarités et de la Santé (nouvelle fenêtre)" target="_blank">
           
-          <img src="assets/images/logo-ministere.svg" alt="Ministère des Solidarités et de la Santé" width="133" height="77" loading="lazy" />
+          <img src="assets/images/logo-ministere.svg" alt="Ministère des Solidarités et de la Santé" width="133" loading="lazy" height="77"/>
           
         </a>
       </div>
   
       <div class="logo logo--1">
-        <a href="https://esante.gouv.fr/" title="Agence du numérique en santé (nouvelle fenêtre)" target="_blank" rel="nofollow">
+        <a rel="nofollow" href="https://esante.gouv.fr/" title="Agence du numérique en santé (nouvelle fenêtre)" target="_blank">
           
-          <img src="assets/images/logo-ANS-footer.svg" alt="Agence du numérique en santé" width="106" height="74" loading="lazy" />
+          <img src="assets/images/logo-ANS-footer.svg" alt="Agence du numérique en santé" width="106" loading="lazy" height="74"/>
         </a>
       </div>
     </div>
@@ -303,7 +556,7 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
     <p class="footer__title">Agence du Numérique en Santé</p>
     <p>2-10 Rue d'Oradour-sur-Glane 75015 Paris</p>
 
-    <!-- <div class="m-social">
+      <!-- <div class="m-social">
       <ul class="m-social__list">        
         <li class="m-social__item">
           <a class="m-social__link" href="https://www.linkedin.com/company/agence-du-numerique-en-sante/" target="_blank" rel="nofollow">
@@ -345,12 +598,11 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
     <ul class="footer-list">
       <li class="footer-list__item footer-list__item--hasIcon">
         <a href="mailto:ci-sis@esante.gouv.fr" class="mailto-link">
-          <svg class="svg-icon svg-angle-right" aria-hidden="true" focusable="false"><use href="assets/images/icon-sprite.svg#angle-right"></use></svg>Contact</a>
+          <svg aria-hidden="true" focusable="false" class="svg-icon svg-angle-right"><use href="assets/images/icon-sprite.svg#angle-right"></use></svg>Contact</a>
         </li>
-        <!-- <li class="footer-list__item">
+          <!-- <li class="footer-list__item">
           <a href="https://interop-pprod.esante.gouv.fr/ci-sis-specifications/wp-content/uploads/CGU_espace_de_tests_v1.1.pdf" class="file-link">Mentions légales</a>
-        </li>
-         -->
+        </li> -->
       </ul>
     </div>
 
@@ -358,7 +610,7 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
 </div>
 </div>
 
-<!-- <div class="footer__region2">
+  <!-- <div class="footer__region2">
 <div class="container">
   <div class="footer-contentinfo">
     <ul class="footer-list footer-list--inline">
