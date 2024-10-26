@@ -2043,8 +2043,6 @@ Generic: line 0, col 0, Error - The link 'JDV_J248_DepartementOM_ROR' for "JDV_J
 Generic: line 0, col 0, Error - The link 'JDV_J74_Pays_RASS' for "JDV_J74_Pays_RASS" cannot be resolved (NOTFOUND)
 Generic: line 0, col 0, Error - The link 'JDV_J84_DepartementOM_RASS' for "JDV_J84_DepartementOM_RASS" cannot be resolved (NOTFOUND)
 Generic: line 0, col 0, Error - The link 'JDV_J93_RegionOM_RASS' for "JDV_J93_RegionOM_RASS" cannot be resolved (NOTFOUND)
-Generic: line 0, col 0, Error - The link 'BDPM Value Set' for "BDPM Value Set" cannot be resolved (NOTFOUND)
-Generic: line 0, col 0, Error - The link 'DesignationUse' for "DesignationUse" cannot be resolved (NOTFOUND)
 Generic: line 0, col 0, Error - The link 'Correspondances%20RessourcesFHIR-NOS_0.pdf' for "Correspondance entre les ressources FHIR et les NOS (PDF)" cannot be resolved (NOTFOUND)
 Generic: line 0, col 0, Error - The link 'TRE_A00_ProducteurDocNonPS' for "TRE_A00_ProducteurDocNonPS" cannot be resolved (NOTFOUND)
 Generic: line 0, col 0, Error - The link 'TRE_A01_CadreExercice' for "TRE_A01_CadreExercice" cannot be resolved (NOTFOUND)

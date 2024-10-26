@@ -3,8 +3,8 @@ Terminologie : Validation Results
 
 err = 541, warn = 1650, info = 861
 IG Publisher Version: 1.7.1
-Generated Sat Oct 26 09:46:19 UTC 2024. FHIR version 4.0.1 for ans.fr.terminologie#1.1.0 (canonical = https://interop.esante.gouv.fr/ig/terminologie)
- Build Errors : 1961 / 23 / 0
+Generated Sat Oct 26 10:26:46 UTC 2024. FHIR version 4.0.1 for ans.fr.terminologie#1.1.0 (canonical = https://interop.esante.gouv.fr/ig/terminologie)
+ Build Errors : 1959 / 23 / 0
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/DM/fsh-generated/resources/CodeSystem-900000000000207008-20240301 : 2 / 3 / 4
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/DM/fsh-generated/resources/CodeSystem-v3-loinc : 3 / 0 / 2
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/DM/fsh-generated/resources/ConceptMap-ASS-A11-CorresModeleCDA-XdsFormatCode-CISIS : 0 / 0 / 1
@@ -3061,8 +3061,6 @@ ERROR: /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSou
 ERROR: /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/output/jdv-retired.html#/html/body/div/div/div/div/div/div/div/table/tr/td/a at Line 205, column 26: The link 'JDV_J74_Pays_RASS' for "JDV_J74_Pays_RASS" cannot be resolved
 ERROR: /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/output/jdv-retired.html#/html/body/div/div/div/div/div/div/div/table/tr/td/a at Line 206, column 26: The link 'JDV_J84_DepartementOM_RASS' for "JDV_J84_DepartementOM_RASS" cannot be resolved
 ERROR: /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/output/jdv-retired.html#/html/body/div/div/div/div/div/div/div/table/tr/td/a at Line 207, column 26: The link 'JDV_J93_RegionOM_RASS' for "JDV_J93_RegionOM_RASS" cannot be resolved
-ERROR: /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/output/jdv-smt.html#/html/body/div/div/div/div/div/div/div/table/tr/td/a at Line 197, column 148: The link 'BDPM Value Set' for "BDPM Value Set" cannot be resolved
-ERROR: /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/output/jdv-smt.html#/html/body/div/div/div/div/div/div/div/table/tr/td/a at Line 198, column 26: The link 'DesignationUse' for "DesignationUse" cannot be resolved
 ERROR: /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/output/telechargementNos.html#/html/body/div/div/div/div/div/ul/li/a at Line 203, column 8: The link 'Correspondances%20RessourcesFHIR-NOS_0.pdf' for "Correspondance entre les ressources FHIR et les NOS (PDF)" cannot be resolved
 ERROR: /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/output/tre-nos.html#/html/body/div/div/div/div/div/div/div/table/tr/td/a at Line 195, column 148: The link 'TRE_A00_ProducteurDocNonPS' for "TRE_A00_ProducteurDocNonPS" cannot be resolved
 ERROR: /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/output/tre-nos.html#/html/body/div/div/div/div/div/div/div/table/tr/td/a at Line 196, column 26: The link 'TRE_A01_CadreExercice' for "TRE_A01_CadreExercice" cannot be resolved
