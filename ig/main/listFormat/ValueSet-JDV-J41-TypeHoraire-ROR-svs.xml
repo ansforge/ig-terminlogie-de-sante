@@ -2,7 +2,7 @@
 <RetrieveValueSetResponse xmlns="urn:ihe:iti:svs:2008"
                           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
    <ValueSet dateFin=""
-             dateMaj="20240628120000"
+             dateMaj="20241025120000"
              dateValid="20180126120000"
              description="Type horaire"
              displayName="JDV_J41_TypeHoraire_ROR"
@@ -24,7 +24,7 @@
                   displayName="Horaire d'ouverture du secrétariat"/>
          <concept code="05"
                   codeSystem="1.2.250.1.213.3.3.50"
-                  displayName="Horaire de visite d'un acteur de santé"/>
+                  displayName="Horaire de visite à domicile"/>
          <concept code="06"
                   codeSystem="1.2.250.1.213.3.3.50"
                   displayName="Horaire de consultation sans RDV"/>
@@ -37,6 +37,12 @@
          <concept code="09"
                   codeSystem="1.2.250.1.213.3.3.50"
                   displayName="Horaire à préciser"/>
+         <concept code="10"
+                  codeSystem="1.2.250.1.213.3.3.50"
+                  displayName="Horaire de téléconsultation"/>
+         <concept code="11"
+                  codeSystem="1.2.250.1.213.3.3.50"
+                  displayName="Horaire mixte : consultation ou téléconsultation"/>
       </ConceptList>
    </ValueSet>
 </RetrieveValueSetResponse>

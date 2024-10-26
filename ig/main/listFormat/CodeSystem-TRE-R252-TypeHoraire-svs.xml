@@ -2,7 +2,7 @@
 <RetrieveValueSetResponse xmlns="urn:ihe:iti:svs:2008"
                           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
    <ValueSet dateFin=""
-             dateMaj="20240628120000"
+             dateMaj="20241025120000"
              dateValid="20180126120000"
              description="Type horaire"
              displayName="TRE_R252_TypeHoraire"
@@ -49,12 +49,12 @@
          <concept code="05"
                   codeSystem="1.2.250.1.213.3.3.50"
                   dateFin=""
-                  dateMaj="20180427120000"
+                  dateMaj="20241025120000"
                   dateValid="20180427120000"
-                  displayName="Horaire de visite d'un acteur de santé"
-                  longDesignation="Horaire de visite d'un acteur de santé"
+                  displayName="Horaire de visite à domicile"
+                  longDesignation="Horaire de visite à domicile"
                   shortDesignation="Horaire visite"
-                  descriptionMetier=""/>
+                  descriptionMetier="Horaire d'intervention d'un professionnel de santé au domicile d'un patient ou d'un usager pour assurer une continuité des soins et/ou de la prise en charge, de l'accompagnement"/>
          <concept code="06"
                   codeSystem="1.2.250.1.213.3.3.50"
                   dateFin=""
@@ -90,6 +90,24 @@
                   displayName="Horaire à préciser"
                   longDesignation="Horaire à préciser"
                   shortDesignation="Horaire à préciser"
+                  descriptionMetier=""/>
+         <concept code="10"
+                  codeSystem="1.2.250.1.213.3.3.50"
+                  dateFin=""
+                  dateMaj="20241025120000"
+                  dateValid="20241025120000"
+                  displayName="Horaire de téléconsultation"
+                  longDesignation="Horaire de téléconsultation"
+                  shortDesignation="Horaire de téléconsultation"
+                  descriptionMetier=""/>
+         <concept code="11"
+                  codeSystem="1.2.250.1.213.3.3.50"
+                  dateFin=""
+                  dateMaj="20241025120000"
+                  dateValid="20241025120000"
+                  displayName="Horaire mixte : consultation ou téléconsultation"
+                  longDesignation="Horaire mixte : consultation ou téléconsultation"
+                  shortDesignation="Horaire mixte"
                   descriptionMetier=""/>
       </ConceptList>
    </ValueSet>

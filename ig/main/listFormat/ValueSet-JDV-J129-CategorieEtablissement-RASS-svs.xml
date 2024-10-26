@@ -2,7 +2,7 @@
 <RetrieveValueSetResponse xmlns="urn:ihe:iti:svs:2008"
                           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
    <ValueSet dateFin=""
-             dateMaj="20240927120000"
+             dateMaj="20241025120000"
              dateValid="20201127120000"
              description="Catégorie d'établissement du RASS"
              displayName="JDV_J129_CategorieEtablissement_RASS"
@@ -310,7 +310,10 @@
                   displayName="Centre d'Accueil Familial Spécialisé"/>
          <concept code="241"
                   codeSystem="1.2.250.1.213.1.6.1.8"
-                  displayName="Foyer d'Action Educative (F.A.E.)"/>
+                  displayName="Établissement de Placement"/>
+         <concept code="242"
+                  codeSystem="1.2.250.1.213.1.6.1.8"
+                  displayName="Service d'Activité de Jour"/>
          <concept code="246"
                   codeSystem="1.2.250.1.213.1.6.1.8"
                   displayName="Etablissement et Service d'Aide par le Travail (E.S.A.T.)"/>
@@ -680,9 +683,6 @@
          <concept code="415"
                   codeSystem="1.2.250.1.213.1.6.1.8"
                   displayName="Service Médico-Psychologique Régional (S.M.P.R.)"/>
-         <concept code="418"
-                  codeSystem="1.2.250.1.213.1.6.1.8"
-                  displayName="Service d'Enquêtes Sociales (S.E.S.)"/>
          <concept code="419"
                   codeSystem="1.2.250.1.213.1.6.1.8"
                   displayName="Centre d'Accueil Toxicomanes"/>
@@ -704,9 +704,6 @@
          <concept code="426"
                   codeSystem="1.2.250.1.213.1.6.1.8"
                   displayName="Syndicat Inter Hospitalier (S.I.H.)"/>
-         <concept code="427"
-                  codeSystem="1.2.250.1.213.1.6.1.8"
-                  displayName="Service Educatif Auprès des Tribunaux (S.E.A.T.)"/>
          <concept code="430"
                   codeSystem="1.2.250.1.213.1.6.1.8"
                   displayName="Centre Postcure Malades Mentaux"/>
@@ -739,10 +736,10 @@
                   displayName="Centre Santé Polyvalent"/>
          <concept code="440"
                   codeSystem="1.2.250.1.213.1.6.1.8"
-                  displayName="Service Investigation Orientation Educative (S.I.O.E.)"/>
+                  displayName="Service d'Investigation Educative"/>
          <concept code="441"
                   codeSystem="1.2.250.1.213.1.6.1.8"
-                  displayName="Centre d'Action Educative (C.A.E.)"/>
+                  displayName="Service d'Intervention Educative en Milieu Ouvert"/>
          <concept code="442"
                   codeSystem="1.2.250.1.213.1.6.1.8"
                   displayName="Centre Provisoire Hébergement (C.P.H.)"/>
@@ -776,9 +773,6 @@
          <concept code="452"
                   codeSystem="1.2.250.1.213.1.6.1.8"
                   displayName="Régie de Quartier"/>
-         <concept code="453"
-                  codeSystem="1.2.250.1.213.1.6.1.8"
-                  displayName="Service de Réparation Pénale"/>
          <concept code="460"
                   codeSystem="1.2.250.1.213.1.6.1.8"
                   displayName="Service autonomie aide (SAA)"/>
@@ -787,7 +781,7 @@
                   displayName="Centres de Ressources S.A.I. (Sans Aucune Indication)"/>
          <concept code="462"
                   codeSystem="1.2.250.1.213.1.6.1.8"
-                  displayName="Lieux de vie"/>
+                  displayName="Lieux de Vie et d'Accueil"/>
          <concept code="463"
                   codeSystem="1.2.250.1.213.1.6.1.8"
                   displayName="Centres Locaux Information Coordination P.A.(C.L.I.C.)"/>
@@ -919,10 +913,13 @@
                   displayName="Centre de Vaccination"/>
          <concept code="646"
                   codeSystem="1.2.250.1.213.1.6.1.8"
-                  displayName="Centre de Vaccination International"/>
+                  displayName="Centre de Vaccination Internationale"/>
          <concept code="647"
                   codeSystem="1.2.250.1.213.1.6.1.8"
                   displayName="Equipe de Soins Spécialisés"/>
+         <concept code="648"
+                  codeSystem="1.2.250.1.213.1.6.1.8"
+                  displayName="Structure qui contribue au Service d'Accès aux Soins"/>
          <concept code="695"
                   codeSystem="1.2.250.1.213.1.6.1.8"
                   displayName="Groupement de coopération sanitaire de moyens - Exploitant"/>

@@ -2,7 +2,7 @@
 <RetrieveValueSetResponse xmlns="urn:ihe:iti:svs:2008"
                           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
    <ValueSet dateFin=""
-             dateMaj="20240927120000"
+             dateMaj="20241025120000"
              dateValid="20160901000000"
              description="Activité Operationnelle - ROR"
              displayName="JDV_J17_ActiviteOperationnelle_ROR"
@@ -751,7 +751,7 @@
                   displayName="Activité professionnelle adaptée"/>
          <concept code="305"
                   codeSystem="1.2.250.1.213.3.3.12"
-                  displayName="Accompagnements dans l'activité professionnelle"/>
+                  displayName="Accompagnements pour mener sa vie professionnelle"/>
          <concept code="306"
                   codeSystem="1.2.250.1.213.3.3.12"
                   displayName="Activités visant la stimulation cognitivo-comportementale"/>
@@ -799,7 +799,7 @@
                   displayName="Mettre en oeuvre les mesures de protection juridiques"/>
          <concept code="322"
                   codeSystem="1.2.250.1.213.3.3.12"
-                  displayName="Prestation de restauration (dont portage de repas)"/>
+                  displayName="Prestation de restauration (dont portage de repas à domicile)"/>
          <concept code="323"
                   codeSystem="1.2.250.1.213.3.3.12"
                   displayName="Entretien du linge par l'établissement"/>
@@ -1373,9 +1373,6 @@
          <concept code="533"
                   codeSystem="1.2.250.1.213.3.3.12"
                   displayName="Accession à un logement individuel"/>
-         <concept code="534"
-                  codeSystem="1.2.250.1.213.3.3.12"
-                  displayName="Accompagnement infirmier pour téléconsultation médicale"/>
          <concept code="535"
                   codeSystem="1.2.250.1.213.3.3.12"
                   displayName="Sexologie clinique"/>
