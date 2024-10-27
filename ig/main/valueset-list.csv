@@ -710,5 +710,4 @@ https://smt.esante.gouv.fr/fhir/ValueSet/2.16.840.1.113883.4.642.3.129,202201010
 https://smt.esante.gouv.fr/fhir/ValueSet/2.16.840.1.113883.4.642.3.1372,20220101000000,active,"2.16.840.1.113883.4.642.3.1372",JDV_HL7_allergyintolerance_clinical_CISIS,JDV_HL7_allergyintolerance_clinical_CISIS,"JDV_HL7_allergyintolerance_clinical_CISIS",,"Other"
 https://smt.esante.gouv.fr/fhir/ValueSet/2.16.840.1.113883.4.642.3.164,20220101000000,active,"2.16.840.1.113883.4.642.3.164",JDV_HL7_ConditionClinical_CISIS,JDV_HL7_ConditionClinical_CISIS,"JDV_HL7_ConditionClinical_CISIS",,"Other"
 https://smt.esante.gouv.fr/fhir/ValueSet/2.16.840.1.113883.4.642.3.166,20240606000000,active,"2.16.840.1.113883.4.642.3.166",JDV_HL7_condition_ver_status_CISIS,JDV_HL7_condition_ver_status_CISIS,"JDV_HL7_condition_ver_status_CISIS",,"Other"
-https://smt.esante.gouv.fr/fhir/ValueSet/allergie,1.1.0,active,,Allergie,allergie,"JDV des allergies en CIM 11",,"Other"
 https://smt.esante.gouv.fr/terminologie-bdpm?vs,null,active,,BDPM Value Set,,"Ce jeu de valeurs inclut tous les codes de la terminologie BDPM",,"Internal"

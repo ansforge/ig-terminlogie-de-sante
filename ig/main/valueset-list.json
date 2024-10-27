@@ -9151,15 +9151,6 @@
       "sources" : ["2.16.840.1.113883.4.642.3.166"]
     },
     {
-      "url" : "https://smt.esante.gouv.fr/fhir/ValueSet/allergie",
-      "version" : "1.1.0",
-      "status" : "active",
-      "name" : "Allergie",
-      "title" : "allergie",
-      "description" : "JDV des allergies en CIM 11",
-      "systems" : ["http://id.who.int/icd/release/11/2024-01/mms"]
-    },
-    {
       "url" : "https://smt.esante.gouv.fr/terminologie-bdpm?vs",
       "version" : null,
       "status" : "active",
