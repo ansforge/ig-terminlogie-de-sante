@@ -150,32 +150,32 @@ Usage: #definition
 * group[=].element[=].target.equivalence = #narrower 
 * group[=].element[=].target.comment = ""
 
-* group[=].element[+].code = #2.2.1.1
+* group[=].element[+].code = #2.2.1
 * group[=].element[=].target.code = #293
 * group[=].element[=].target.equivalence = #narrower 
 * group[=].element[=].target.comment = ""
 
-* group[=].element[+].code = #2.2.1.1
+* group[=].element[+].code = #2.2.1
 * group[=].element[=].target.code = #394
 * group[=].element[=].target.equivalence = #narrower 
 * group[=].element[=].target.comment = ""
 
-* group[=].element[+].code = #2.2.1.2
+* group[=].element[+].code = #2.2.2
 * group[=].element[=].target.code = #294
 * group[=].element[=].target.equivalence = #narrower 
 * group[=].element[=].target.comment = ""
 
-* group[=].element[+].code = #2.2.1.2
+* group[=].element[+].code = #2.2.2
 * group[=].element[=].target.code = #295
 * group[=].element[=].target.equivalence = #narrower 
 * group[=].element[=].target.comment = ""
 
-* group[=].element[+].code = #2.2.1.3
+* group[=].element[+].code = #2.2.3
 * group[=].element[=].target.code = #296
 * group[=].element[=].target.equivalence = #narrower 
 * group[=].element[=].target.comment = ""
 
-* group[=].element[+].code = #2.2.1.3
+* group[=].element[+].code = #2.2.3
 * group[=].element[=].target.code = #297
 * group[=].element[=].target.equivalence = #narrower 
 * group[=].element[=].target.comment = ""
