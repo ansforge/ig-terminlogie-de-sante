@@ -518,7 +518,7 @@
     },
     {
       "url" : "https://mos.esante.gouv.fr/NOS/JDV_J121-RolePriseCharge-ENREG/FHIR/JDV-J121-RolePriseCharge-ENREG",
-      "version" : "20240329120000",
+      "version" : "20241025120000",
       "status" : "active",
       "name" : "JDV_J121_RolePriseCharge_ENREG",
       "title" : null,
@@ -624,7 +624,7 @@
     },
     {
       "url" : "https://mos.esante.gouv.fr/NOS/JDV_J129-CategorieEtablissement-RASS/FHIR/JDV-J129-CategorieEtablissement-RASS",
-      "version" : "20240927120000",
+      "version" : "20241025120000",
       "status" : "active",
       "name" : "JDV_J129_CategorieEtablissement_RASS",
       "title" : null,
@@ -1066,7 +1066,7 @@
     },
     {
       "url" : "https://mos.esante.gouv.fr/NOS/JDV_J16-ActeSpecifique-ROR/FHIR/JDV-J16-ActeSpecifique-ROR",
-      "version" : "20240927120000",
+      "version" : "20241025120000",
       "status" : "active",
       "name" : "JDV_J16_ActeSpecifique_ROR",
       "title" : null,
@@ -1197,7 +1197,7 @@
     },
     {
       "url" : "https://mos.esante.gouv.fr/NOS/JDV_J17-ActiviteOperationnelle-ROR/FHIR/JDV-J17-ActiviteOperationnelle-ROR",
-      "version" : "20240927120000",
+      "version" : "20241025120000",
       "status" : "active",
       "name" : "JDV_J17_ActiviteOperationnelle_ROR",
       "title" : null,
@@ -1324,7 +1324,7 @@
     },
     {
       "url" : "https://mos.esante.gouv.fr/NOS/JDV_J18-EquipementSpecifique-ROR/FHIR/JDV-J18-EquipementSpecifique-ROR",
-      "version" : "20240927120000",
+      "version" : "20241025120000",
       "status" : "active",
       "name" : "JDV_J18_EquipementSpecifique_ROR",
       "title" : null,
@@ -2154,7 +2154,7 @@
     },
     {
       "url" : "https://mos.esante.gouv.fr/NOS/JDV_J238-TypeOffre-ROR/FHIR/JDV-J238-TypeOffre-ROR",
-      "version" : "20240927120000",
+      "version" : "20241025120000",
       "status" : "active",
       "name" : "JDV_J238_TypeOffre_ROR",
       "title" : null,
@@ -2352,11 +2352,11 @@
     },
     {
       "url" : "https://mos.esante.gouv.fr/NOS/JDV_J254-CategorieEtablissementESSMSPH/FHIR/JDV-J254-CategorieEtablissementESSMSPH",
-      "version" : "20231215120000",
+      "version" : "20241025120000",
       "status" : "active",
       "name" : "JDV_J254_CategorieEtablissementESSMSPH",
       "title" : null,
-      "description" : "Liste les catégories d’établissements ESSMS (Etablissement ou Service Social ou Médico-Social) pour les personnes porteurs d’handicap",
+      "description" : "Liste les catégories d'établissements ESSMS (Etablissement ou Service Social ou Médico-Social) pour les personnes porteurs d'handicap",
       "systems" : [
         "https://mos.esante.gouv.fr/NOS/TRE_R66-CategorieEtablissement/FHIR/TRE-R66-CategorieEtablissement"
       ],
@@ -2602,6 +2602,63 @@
       "sources" : ["1.2.250.1.213.3.4.219"]
     },
     {
+      "url" : "https://mos.esante.gouv.fr/NOS/JDV_J282-TransportsLiesAuProjetIndividuel_SERAFIN/FHIR/JDV-J282-TransportsLiesAuProjetIndividuel-SERAFIN",
+      "version" : "20241025120000",
+      "status" : "active",
+      "name" : "JDV_J282_TransportsLiesAuProjetIndividuel_SERAFIN",
+      "title" : null,
+      "description" : "Liste les natures des transports liés au projet individuel provenant de la terminologie SERAFIN",
+      "systems" : ["https://smt.esante.gouv.fr/terminologie-SERAFINPH/"],
+      "oids" : ["1.2.250.1.213.3.3.251"],
+      "sources" : ["1.2.250.1.213.3.3.251"]
+    },
+    {
+      "url" : "https://mos.esante.gouv.fr/NOS/JDV_J283-PrestationsIndirects_SERAFIN/FHIR/JDV-J283-PrestationsIndirects-SERAFIN",
+      "version" : "20241025120000",
+      "status" : "active",
+      "name" : "JDV_J283_PrestationsIndirects_SERAFIN",
+      "title" : null,
+      "description" : "Liste des prestations indirects provenant de la terminologie SERAFIN",
+      "systems" : ["https://smt.esante.gouv.fr/terminologie-SERAFINPH/"],
+      "oids" : ["1.2.250.1.213.3.3.252"],
+      "sources" : ["1.2.250.1.213.3.3.252"]
+    },
+    {
+      "url" : "https://mos.esante.gouv.fr/NOS/JDV_J284-PrestationsDirects_SERAFIN/FHIR/JDV-J284-PrestationsDirects-SERAFIN",
+      "version" : "20241025120000",
+      "status" : "active",
+      "name" : "JDV_J284_PrestationsDirects_SERAFIN",
+      "title" : null,
+      "description" : "Liste des prestations directs provenant de la terminologie SERAFIN",
+      "systems" : ["https://smt.esante.gouv.fr/terminologie-SERAFINPH/"],
+      "oids" : ["1.2.250.1.213.3.3.253"],
+      "sources" : ["1.2.250.1.213.3.3.253"]
+    },
+    {
+      "url" : "https://mos.esante.gouv.fr/NOS/JDV_J285-Besoins_SERAFIN/FHIR/JDV-J285-Besoins-SERAFIN",
+      "version" : "20241025120000",
+      "status" : "active",
+      "name" : "JDV_J285_Besoins_SERAFIN",
+      "title" : null,
+      "description" : "Liste des besoins provenant de la terminologie SERAFIN",
+      "systems" : ["https://smt.esante.gouv.fr/terminologie-SERAFINPH/"],
+      "oids" : ["1.2.250.1.213.3.3.254"],
+      "sources" : ["1.2.250.1.213.3.3.254"]
+    },
+    {
+      "url" : "https://mos.esante.gouv.fr/NOS/JDV_J286_ProfilUtilisateurReferentielNational_ROR/FHIR/JDV-J286-ProfilUtilisateurReferentielNational-ROR",
+      "version" : "20241025120000",
+      "status" : "active",
+      "name" : "JDV_J286_ProfilUtilisateurReferentielNational_ROR",
+      "title" : null,
+      "description" : "Profils utilisateurs du ROR National",
+      "systems" : [
+        "https://mos.esante.gouv.fr/NOS/TRE_R369-ProfilUtilisateurReferentielNational/FHIR/TRE_R369-ProfilUtilisateurReferentielNational"
+      ],
+      "oids" : ["1.2.250.1.213.3.3.256"],
+      "sources" : ["1.2.250.1.213.3.3.256"]
+    },
+    {
       "url" : "https://mos.esante.gouv.fr/NOS/JDV_J29-PublicPrisEnCharge-ROR/FHIR/JDV-J29-PublicPrisEnCharge-ROR",
       "version" : "20240426120000",
       "status" : "active",
@@ -2668,7 +2725,7 @@
     },
     {
       "url" : "https://mos.esante.gouv.fr/NOS/JDV_J34-CategorieOrganisation-ROR/FHIR/JDV-J34-CategorieOrganisation-ROR",
-      "version" : "20240927120000",
+      "version" : "20241025120000",
       "status" : "active",
       "name" : "JDV_J34_CategorieOrganisation_ROR",
       "title" : null,
@@ -2681,13 +2738,14 @@
     },
     {
       "url" : "https://mos.esante.gouv.fr/NOS/JDV_J35-SpecialisationDePriseEnCharge-ROR/FHIR/JDV-J35-SpecialisationDePriseEnCharge-ROR",
-      "version" : "20240628120000",
+      "version" : "20241025120000",
       "status" : "active",
       "name" : "JDV_J35_SpecialisationDePriseEnCharge_ROR",
       "title" : null,
       "description" : "Spécialisation de prise en charge - ROR",
       "systems" : [
-        "https://mos.esante.gouv.fr/NOS/TRE_R245-SpecialisationDePriseEnCharge/FHIR/TRE-R245-SpecialisationDePriseEnCharge"
+        "https://mos.esante.gouv.fr/NOS/TRE_R245-SpecialisationDePriseEnCharge/FHIR/TRE-R245-SpecialisationDePriseEnCharge",
+        "https://mos.esante.gouv.fr/NOS/TRE_R211-ActiviteOperationnelle/FHIR/TRE-R211-ActiviteOperationnelle"
       ],
       "oids" : ["1.2.250.1.213.3.3.42"],
       "sources" : ["1.2.250.1.213.3.3.42"]
@@ -2744,7 +2802,7 @@
     },
     {
       "url" : "https://mos.esante.gouv.fr/NOS/JDV_J41-TypeHoraire-ROR/FHIR/JDV-J41-TypeHoraire-ROR",
-      "version" : "20240628120000",
+      "version" : "20241025120000",
       "status" : "active",
       "name" : "JDV_J41_TypeHoraire_ROR",
       "title" : null,
@@ -2899,7 +2957,7 @@
     },
     {
       "url" : "https://mos.esante.gouv.fr/NOS/JDV_J55-CategorieEG-ROR/FHIR/JDV-J55-CategorieEG-ROR",
-      "version" : "20240927120000",
+      "version" : "20241025120000",
       "status" : "active",
       "name" : "JDV_J55_CategorieEG_ROR",
       "title" : null,

@@ -2,7 +2,7 @@
 <RetrieveValueSetResponse xmlns="urn:ihe:iti:svs:2008"
                           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
    <ValueSet dateFin=""
-             dateMaj="20240927120000"
+             dateMaj="20241025120000"
              dateValid="20160901000000"
              description="Acte spécifique - ROR"
              displayName="JDV_J16_ActeSpecifique_ROR"
@@ -271,9 +271,6 @@
          <concept code="0148"
                   codeSystem="1.2.250.1.213.3.3.11"
                   displayName="Test de marche 6 minutes"/>
-         <concept code="0149"
-                  codeSystem="1.2.250.1.213.3.3.11"
-                  displayName="Cystographie pédiatrique"/>
          <concept code="0150"
                   codeSystem="1.2.250.1.213.3.3.11"
                   displayName="Dacryoscanner"/>
@@ -1290,7 +1287,7 @@
                   displayName="Echographie de contraste vasculaire (dont endoprothèse, …)"/>
          <concept code="0709"
                   codeSystem="1.2.250.1.213.3.3.11"
-                  displayName="Entéro-IRM"/>
+                  displayName="Colo-IRM et entéro-IRM"/>
          <concept code="0710"
                   codeSystem="1.2.250.1.213.3.3.11"
                   displayName="Scanner dentaire"/>
@@ -2370,7 +2367,7 @@
                   displayName="Chirurgie ouverte et endovasculaire des artères digestives et rénales"/>
          <concept code="1119"
                   codeSystem="1.2.250.1.213.3.3.11"
-                  displayName="Chirurgie du défilé cervico-thoracique"/>
+                  displayName="Chirurgie du défilé cervico thoraco brachial"/>
          <concept code="1120"
                   codeSystem="1.2.250.1.213.3.3.11"
                   displayName="Chirurgie vasculaire abdominale sous laparoscopie"/>
@@ -2466,7 +2463,7 @@
                   displayName="Chimiothérapie intrapéritonéale Pressurisée par Aérosols (PIPAC)"/>
          <concept code="1151"
                   codeSystem="1.2.250.1.213.3.3.11"
-                  displayName="Chirurgie oncologique de l'oesophage ou de la jonction gastro-oesophagienne"/>
+                  displayName="Chirurgie carcinologique de l'oesophage ou de la jonction gastro-oesophagienne"/>
          <concept code="1152"
                   codeSystem="1.2.250.1.213.3.3.11"
                   displayName="Chirurgie de l'endométriose"/>
@@ -2509,9 +2506,6 @@
          <concept code="1165"
                   codeSystem="1.2.250.1.213.3.3.11"
                   displayName="Chirurgie proctologique"/>
-         <concept code="1166"
-                  codeSystem="1.2.250.1.213.3.3.11"
-                  displayName="Colo-IRM et entéro-IRM"/>
          <concept code="1167"
                   codeSystem="1.2.250.1.213.3.3.11"
                   displayName="Contention souple d'articulation"/>
@@ -2563,9 +2557,6 @@
          <concept code="1183"
                   codeSystem="1.2.250.1.213.3.3.11"
                   displayName="Drainage organes profonds abdominaux"/>
-         <concept code="1184"
-                  codeSystem="1.2.250.1.213.3.3.11"
-                  displayName="Echodoppler artériel / veineux"/>
          <concept code="1185"
                   codeSystem="1.2.250.1.213.3.3.11"
                   displayName="Echo-doppler artériel de l'aorte"/>
@@ -2847,7 +2838,7 @@
                   displayName="Suivi conventionnel de stimulateurs/défibrillateurs cardiaques"/>
          <concept code="1279"
                   codeSystem="1.2.250.1.213.3.3.11"
-                  displayName="Télésurveillance des prothèses rythmiques"/>
+                  displayName="Télésurveillance médicale de l'arythmie cardiaque"/>
          <concept code="1280"
                   codeSystem="1.2.250.1.213.3.3.11"
                   displayName="Programme d'ETP labellisée - Addictologie"/>
@@ -3226,15 +3217,9 @@
          <concept code="1409"
                   codeSystem="1.2.250.1.213.3.3.11"
                   displayName="Centre labellisé Covid-Long"/>
-         <concept code="1410"
-                  codeSystem="1.2.250.1.213.3.3.11"
-                  displayName="Chirurgie carcinologique de l'oesophage"/>
          <concept code="1411"
                   codeSystem="1.2.250.1.213.3.3.11"
                   displayName="Chirurgie des déformations thoraciques (pectum excavatum)"/>
-         <concept code="1412"
-                  codeSystem="1.2.250.1.213.3.3.11"
-                  displayName="Chirurgie du syndrome du défilé thoraco brachial"/>
          <concept code="1413"
                   codeSystem="1.2.250.1.213.3.3.11"
                   displayName="Chirurgie fonctionnelle de l'oesophage"/>
@@ -3366,10 +3351,10 @@
                   displayName="Unité neuro-vasculaire (UNV) de recours"/>
          <concept code="1464"
                   codeSystem="1.2.250.1.213.3.3.11"
-                  displayName="Certificats médicaux pour le sport de haut niveau (SHN)"/>
+                  displayName="Délivrance de certificats médicaux pour le sport de haut niveau (SHN)"/>
          <concept code="1465"
                   codeSystem="1.2.250.1.213.3.3.11"
-                  displayName="Certificats spécifiques pour les sportifs en situation de Handicap"/>
+                  displayName="Délivrance de certificats spécifiques pour les sportifs en situation de Handicap"/>
          <concept code="1466"
                   codeSystem="1.2.250.1.213.3.3.11"
                   displayName="Dépistage et prise en charge du dopage"/>
@@ -3421,6 +3406,21 @@
          <concept code="1482"
                   codeSystem="1.2.250.1.213.3.3.11"
                   displayName="Cryothérapie compressive"/>
+         <concept code="1483"
+                  codeSystem="1.2.250.1.213.3.3.11"
+                  displayName="Télésurveillance médicale de l'insuffisance cardiaque"/>
+         <concept code="1484"
+                  codeSystem="1.2.250.1.213.3.3.11"
+                  displayName="Télésurveillance médicale de l'insuffisance rénale"/>
+         <concept code="1485"
+                  codeSystem="1.2.250.1.213.3.3.11"
+                  displayName="Télésurveillance médicale de l'insuffisance respiratoire"/>
+         <concept code="1486"
+                  codeSystem="1.2.250.1.213.3.3.11"
+                  displayName="Télésurveillance médicale du diabète"/>
+         <concept code="1487"
+                  codeSystem="1.2.250.1.213.3.3.11"
+                  displayName="Télésurveillance médicale en oncologie"/>
       </ConceptList>
    </ValueSet>
 </RetrieveValueSetResponse>

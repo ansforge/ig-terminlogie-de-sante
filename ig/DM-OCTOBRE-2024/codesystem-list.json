@@ -227,7 +227,7 @@
     },
     {
       "url" : "https://mos.esante.gouv.fr/NOS/TRE_G100-Specialite-AM/FHIR/TRE-G100-Specialite-AM",
-      "version" : "20231215120000",
+      "version" : "20241025120000",
       "status" : "active",
       "name" : "TRE_G100_Specialite_AM",
       "title" : null,
@@ -542,7 +542,7 @@
     },
     {
       "url" : "https://mos.esante.gouv.fr/NOS/TRE_R210-ActeSpecifique/FHIR/TRE-R210-ActeSpecifique",
-      "version" : "20240927120000",
+      "version" : "20241025120000",
       "status" : "active",
       "name" : "TRE_R210_ActeSpecifique",
       "title" : null,
@@ -551,7 +551,7 @@
     },
     {
       "url" : "https://mos.esante.gouv.fr/NOS/TRE_R211-ActiviteOperationnelle/FHIR/TRE-R211-ActiviteOperationnelle",
-      "version" : "20240927120000",
+      "version" : "20241025120000",
       "status" : "active",
       "name" : "TRE_R211_ActiviteOperationnelle",
       "title" : null,
@@ -560,7 +560,7 @@
     },
     {
       "url" : "https://mos.esante.gouv.fr/NOS/TRE_R212-Equipement/FHIR/TRE-R212-Equipement",
-      "version" : "20240927120000",
+      "version" : "20241025120000",
       "status" : "active",
       "name" : "TRE_R212_Equipement",
       "title" : null,
@@ -578,8 +578,8 @@
     },
     {
       "url" : "https://mos.esante.gouv.fr/NOS/TRE_R214-SpecialiteUnite/FHIR/TRE-R214-SpecialiteUnite",
-      "version" : "20231215120000",
-      "status" : "active",
+      "version" : "20241025120000",
+      "status" : "retired",
       "name" : "TRE_R214_SpecialiteUnite",
       "title" : null,
       "description" : "Spécialité d'unité",
@@ -857,7 +857,7 @@
     },
     {
       "url" : "https://mos.esante.gouv.fr/NOS/TRE_R244-CategorieOrganisation/FHIR/TRE-R244-CategorieOrganisation",
-      "version" : "20240927120000",
+      "version" : "20241025120000",
       "status" : "active",
       "name" : "TRE_R244_CategorieOrganisation",
       "title" : null,
@@ -866,7 +866,7 @@
     },
     {
       "url" : "https://mos.esante.gouv.fr/NOS/TRE_R245-SpecialisationDePriseEnCharge/FHIR/TRE-R245-SpecialisationDePriseEnCharge",
-      "version" : "20240628120000",
+      "version" : "20241025120000",
       "status" : "active",
       "name" : "TRE_R245_SpecialisationDePriseEnCharge",
       "title" : null,
@@ -929,7 +929,7 @@
     },
     {
       "url" : "https://mos.esante.gouv.fr/NOS/TRE_R252-TypeHoraire/FHIR/TRE-R252-TypeHoraire",
-      "version" : "20240628120000",
+      "version" : "20241025120000",
       "status" : "active",
       "name" : "TRE_R252_TypeHoraire",
       "title" : null,
@@ -1828,6 +1828,15 @@
       "oids" : ["1.2.250.1.213.3.3.250"]
     },
     {
+      "url" : "https://mos.esante.gouv.fr/NOS/TRE_R369_ProfilUtilisateurReferentielNational/FHIR/TRE-R369-ProfilUtilisateurReferentielNational",
+      "version" : "20241025120000",
+      "status" : "active",
+      "name" : "TRE_R369_ProfilUtilisateurReferentielNational",
+      "title" : null,
+      "description" : "Profils utilisateur d'un référentiel national",
+      "oids" : ["1.2.250.1.213.3.3.255"]
+    },
+    {
       "url" : "https://mos.esante.gouv.fr/NOS/TRE_R37-TypeProfessionFonction/FHIR/TRE-R37-TypeProfessionFonction",
       "version" : "20231215120000",
       "status" : "active",
@@ -2054,7 +2063,7 @@
     },
     {
       "url" : "https://mos.esante.gouv.fr/NOS/TRE_R66-CategorieEtablissement/FHIR/TRE-R66-CategorieEtablissement",
-      "version" : "20240927120000",
+      "version" : "20241025120000",
       "status" : "active",
       "name" : "TRE_R66_CategorieEtablissement",
       "title" : null,
@@ -2171,7 +2180,7 @@
     },
     {
       "url" : "https://mos.esante.gouv.fr/NOS/TRE_R85-RolePriseCharge/FHIR/TRE-R85-RolePriseCharge",
-      "version" : "20240329120000",
+      "version" : "20241025120000",
       "status" : "active",
       "name" : "TRE_R85_RolePriseCharge",
       "title" : null,

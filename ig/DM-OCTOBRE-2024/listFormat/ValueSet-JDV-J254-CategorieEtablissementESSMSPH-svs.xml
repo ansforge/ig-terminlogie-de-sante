@@ -2,9 +2,9 @@
 <RetrieveValueSetResponse xmlns="urn:ihe:iti:svs:2008"
                           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
    <ValueSet dateFin=""
-             dateMaj="20231215120000"
+             dateMaj="20241025120000"
              dateValid="20231215120000"
-             description="Liste les catégories d’établissements ESSMS (Etablissement ou Service Social ou Médico-Social) pour les personnes porteurs d’handicap"
+             description="Liste les catégories d'établissements ESSMS (Etablissement ou Service Social ou Médico-Social) pour les personnes porteurs d'handicap"
              displayName="JDV_J254_CategorieEtablissementESSMSPH"
              id="1.2.250.1.213.3.4.218"
              typeFichier="JDV"
@@ -46,6 +46,9 @@
          <concept code="238"
                   codeSystem="1.2.250.1.213.1.6.1.8"
                   displayName="Centre d'Accueil Familial Spécialisé"/>
+         <concept code="242"
+                  codeSystem="1.2.250.1.213.1.6.1.8"
+                  displayName="Service d'Activité de Jour"/>
          <concept code="255"
                   codeSystem="1.2.250.1.213.1.6.1.8"
                   displayName="Maison d'Accueil Spécialisée (M.A.S.)"/>
@@ -78,7 +81,7 @@
                   displayName="Service autonomie aide (SAA)"/>
          <concept code="640"
                   codeSystem="1.2.250.1.213.1.6.1.8"
-                  displayName="Service d’aide et d’accompagnement à domicile aux familles (SAADF)"/>
+                  displayName="Service d'aide et d'accompagnement à domicile aux familles (SAADF)"/>
       </ConceptList>
    </ValueSet>
 </RetrieveValueSetResponse>

@@ -2,7 +2,7 @@
 <RetrieveValueSetResponse xmlns="urn:ihe:iti:svs:2008"
                           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
    <ValueSet dateFin=""
-             dateMaj="20240628120000"
+             dateMaj="20241025120000"
              dateValid="20171013120000"
              description="Spécialisation de prise en charge"
              displayName="TRE_R245_SpecialisationDePriseEnCharge"
@@ -612,6 +612,15 @@
                   displayName="Trouble psychotraumatique (dont Troubles Stress Post-Traumatique)"
                   longDesignation="Trouble psychotraumatique (dont Troubles Stress Post-Traumatique)"
                   shortDesignation="Trouble psychotraumatique (dont Troubles Stress Post-Traumatique)"
+                  descriptionMetier=""/>
+         <concept code="68"
+                  codeSystem="1.2.250.1.213.3.3.41"
+                  dateFin=""
+                  dateMaj="20241025120000"
+                  dateValid="20241025120000"
+                  displayName="Troubles cognitifs dus à une lésion cérébrale acquise"
+                  longDesignation="Troubles cognitifs ou du comportement et de la relation affective dus à une lésion cérébrale acquise"
+                  shortDesignation="Troubles cognitifs dus à une lésion cérébrale acquise"
                   descriptionMetier=""/>
       </ConceptList>
    </ValueSet>

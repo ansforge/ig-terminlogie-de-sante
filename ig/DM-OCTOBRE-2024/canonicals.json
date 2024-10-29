@@ -511,7 +511,7 @@
     "id" : "JDV-J121-RolePriseCharge-ENREG",
     "type" : "ValueSet",
     "url" : "https://mos.esante.gouv.fr/NOS/JDV_J121-RolePriseCharge-ENREG/FHIR/JDV-J121-RolePriseCharge-ENREG",
-    "version" : "20240329120000",
+    "version" : "20241025120000",
     "name" : "JDV_J121_RolePriseCharge_ENREG",
     "oids" : ["1.2.250.1.213.1.6.1.200"]
   },
@@ -575,7 +575,7 @@
     "id" : "JDV-J129-CategorieEtablissement-RASS",
     "type" : "ValueSet",
     "url" : "https://mos.esante.gouv.fr/NOS/JDV_J129-CategorieEtablissement-RASS/FHIR/JDV-J129-CategorieEtablissement-RASS",
-    "version" : "20240927120000",
+    "version" : "20241025120000",
     "name" : "JDV_J129_CategorieEtablissement_RASS",
     "oids" : ["1.2.250.1.213.1.6.1.215"]
   },
@@ -847,7 +847,7 @@
     "id" : "JDV-J16-ActeSpecifique-ROR",
     "type" : "ValueSet",
     "url" : "https://mos.esante.gouv.fr/NOS/JDV_J16-ActeSpecifique-ROR/FHIR/JDV-J16-ActeSpecifique-ROR",
-    "version" : "20240927120000",
+    "version" : "20241025120000",
     "name" : "JDV_J16_ActeSpecifique_ROR",
     "oids" : ["1.2.250.1.213.3.4.4"]
   },
@@ -927,7 +927,7 @@
     "id" : "JDV-J17-ActiviteOperationnelle-ROR",
     "type" : "ValueSet",
     "url" : "https://mos.esante.gouv.fr/NOS/JDV_J17-ActiviteOperationnelle-ROR/FHIR/JDV-J17-ActiviteOperationnelle-ROR",
-    "version" : "20240927120000",
+    "version" : "20241025120000",
     "name" : "JDV_J17_ActiviteOperationnelle_ROR",
     "oids" : ["1.2.250.1.213.3.4.5"]
   },
@@ -999,7 +999,7 @@
     "id" : "JDV-J18-EquipementSpecifique-ROR",
     "type" : "ValueSet",
     "url" : "https://mos.esante.gouv.fr/NOS/JDV_J18-EquipementSpecifique-ROR/FHIR/JDV-J18-EquipementSpecifique-ROR",
-    "version" : "20240927120000",
+    "version" : "20241025120000",
     "name" : "JDV_J18_EquipementSpecifique_ROR",
     "oids" : ["1.2.250.1.213.3.4.6"]
   },
@@ -1495,7 +1495,7 @@
     "id" : "JDV-J238-TypeOffre-ROR",
     "type" : "ValueSet",
     "url" : "https://mos.esante.gouv.fr/NOS/JDV_J238-TypeOffre-ROR/FHIR/JDV-J238-TypeOffre-ROR",
-    "version" : "20240927120000",
+    "version" : "20241025120000",
     "name" : "JDV_J238_TypeOffre_ROR",
     "oids" : ["1.2.250.1.213.3.4.65"]
   },
@@ -1615,7 +1615,7 @@
     "id" : "JDV-J254-CategorieEtablissementESSMSPH",
     "type" : "ValueSet",
     "url" : "https://mos.esante.gouv.fr/NOS/JDV_J254-CategorieEtablissementESSMSPH/FHIR/JDV-J254-CategorieEtablissementESSMSPH",
-    "version" : "20231215120000",
+    "version" : "20241025120000",
     "name" : "JDV_J254_CategorieEtablissementESSMSPH",
     "oids" : ["1.2.250.1.213.3.4.218"]
   },
@@ -1764,6 +1764,46 @@
     "oids" : ["1.2.250.1.213.3.4.219"]
   },
   {
+    "id" : "JDV-J282-TransportsLiesAuProjetIndividuel-SERAFIN",
+    "type" : "ValueSet",
+    "url" : "https://mos.esante.gouv.fr/NOS/JDV_J282-TransportsLiesAuProjetIndividuel_SERAFIN/FHIR/JDV-J282-TransportsLiesAuProjetIndividuel-SERAFIN",
+    "version" : "20241025120000",
+    "name" : "JDV_J282_TransportsLiesAuProjetIndividuel_SERAFIN",
+    "oids" : ["1.2.250.1.213.3.3.251"]
+  },
+  {
+    "id" : "JDV-J283-PrestationsIndirects-SERAFIN",
+    "type" : "ValueSet",
+    "url" : "https://mos.esante.gouv.fr/NOS/JDV_J283-PrestationsIndirects_SERAFIN/FHIR/JDV-J283-PrestationsIndirects-SERAFIN",
+    "version" : "20241025120000",
+    "name" : "JDV_J283_PrestationsIndirects_SERAFIN",
+    "oids" : ["1.2.250.1.213.3.3.252"]
+  },
+  {
+    "id" : "JDV-J284-PrestationsDirects-SERAFIN",
+    "type" : "ValueSet",
+    "url" : "https://mos.esante.gouv.fr/NOS/JDV_J284-PrestationsDirects_SERAFIN/FHIR/JDV-J284-PrestationsDirects-SERAFIN",
+    "version" : "20241025120000",
+    "name" : "JDV_J284_PrestationsDirects_SERAFIN",
+    "oids" : ["1.2.250.1.213.3.3.253"]
+  },
+  {
+    "id" : "JDV-J285-Besoins-SERAFIN",
+    "type" : "ValueSet",
+    "url" : "https://mos.esante.gouv.fr/NOS/JDV_J285-Besoins_SERAFIN/FHIR/JDV-J285-Besoins-SERAFIN",
+    "version" : "20241025120000",
+    "name" : "JDV_J285_Besoins_SERAFIN",
+    "oids" : ["1.2.250.1.213.3.3.254"]
+  },
+  {
+    "id" : "JDV-J286-ProfilUtilisateurReferentielNational-ROR",
+    "type" : "ValueSet",
+    "url" : "https://mos.esante.gouv.fr/NOS/JDV_J286_ProfilUtilisateurReferentielNational_ROR/FHIR/JDV-J286-ProfilUtilisateurReferentielNational-ROR",
+    "version" : "20241025120000",
+    "name" : "JDV_J286_ProfilUtilisateurReferentielNational_ROR",
+    "oids" : ["1.2.250.1.213.3.3.256"]
+  },
+  {
     "id" : "JDV-J29-PublicPrisEnCharge-ROR",
     "type" : "ValueSet",
     "url" : "https://mos.esante.gouv.fr/NOS/JDV_J29-PublicPrisEnCharge-ROR/FHIR/JDV-J29-PublicPrisEnCharge-ROR",
@@ -1807,7 +1847,7 @@
     "id" : "JDV-J34-CategorieOrganisation-ROR",
     "type" : "ValueSet",
     "url" : "https://mos.esante.gouv.fr/NOS/JDV_J34-CategorieOrganisation-ROR/FHIR/JDV-J34-CategorieOrganisation-ROR",
-    "version" : "20240927120000",
+    "version" : "20241025120000",
     "name" : "JDV_J34_CategorieOrganisation_ROR",
     "oids" : ["1.2.250.1.213.3.3.40"]
   },
@@ -1815,7 +1855,7 @@
     "id" : "JDV-J35-SpecialisationDePriseEnCharge-ROR",
     "type" : "ValueSet",
     "url" : "https://mos.esante.gouv.fr/NOS/JDV_J35-SpecialisationDePriseEnCharge-ROR/FHIR/JDV-J35-SpecialisationDePriseEnCharge-ROR",
-    "version" : "20240628120000",
+    "version" : "20241025120000",
     "name" : "JDV_J35_SpecialisationDePriseEnCharge_ROR",
     "oids" : ["1.2.250.1.213.3.3.42"]
   },
@@ -1855,7 +1895,7 @@
     "id" : "JDV-J41-TypeHoraire-ROR",
     "type" : "ValueSet",
     "url" : "https://mos.esante.gouv.fr/NOS/JDV_J41-TypeHoraire-ROR/FHIR/JDV-J41-TypeHoraire-ROR",
-    "version" : "20240628120000",
+    "version" : "20241025120000",
     "name" : "JDV_J41_TypeHoraire_ROR",
     "oids" : ["1.2.250.1.213.3.3.51"]
   },
@@ -1943,7 +1983,7 @@
     "id" : "JDV-J55-CategorieEG-ROR",
     "type" : "ValueSet",
     "url" : "https://mos.esante.gouv.fr/NOS/JDV_J55-CategorieEG-ROR/FHIR/JDV-J55-CategorieEG-ROR",
-    "version" : "20240927120000",
+    "version" : "20241025120000",
     "name" : "JDV_J55_CategorieEG_ROR",
     "oids" : ["1.2.250.1.213.3.3.65"]
   },
@@ -2471,7 +2511,7 @@
     "id" : "TRE-G100-Specialite-AM",
     "type" : "CodeSystem",
     "url" : "https://mos.esante.gouv.fr/NOS/TRE_G100-Specialite-AM/FHIR/TRE-G100-Specialite-AM",
-    "version" : "20231215120000",
+    "version" : "20241025120000",
     "name" : "TRE_G100_Specialite_AM",
     "oids" : ["1.2.250.1.71.1.2.38"]
   },
@@ -2751,7 +2791,7 @@
     "id" : "TRE-R210-ActeSpecifique",
     "type" : "CodeSystem",
     "url" : "https://mos.esante.gouv.fr/NOS/TRE_R210-ActeSpecifique/FHIR/TRE-R210-ActeSpecifique",
-    "version" : "20240927120000",
+    "version" : "20241025120000",
     "name" : "TRE_R210_ActeSpecifique",
     "oids" : ["1.2.250.1.213.3.3.11"]
   },
@@ -2759,7 +2799,7 @@
     "id" : "TRE-R211-ActiviteOperationnelle",
     "type" : "CodeSystem",
     "url" : "https://mos.esante.gouv.fr/NOS/TRE_R211-ActiviteOperationnelle/FHIR/TRE-R211-ActiviteOperationnelle",
-    "version" : "20240927120000",
+    "version" : "20241025120000",
     "name" : "TRE_R211_ActiviteOperationnelle",
     "oids" : ["1.2.250.1.213.3.3.12"]
   },
@@ -2767,7 +2807,7 @@
     "id" : "TRE-R212-Equipement",
     "type" : "CodeSystem",
     "url" : "https://mos.esante.gouv.fr/NOS/TRE_R212-Equipement/FHIR/TRE-R212-Equipement",
-    "version" : "20240927120000",
+    "version" : "20241025120000",
     "name" : "TRE_R212_Equipement",
     "oids" : ["1.2.250.1.213.3.3.10"]
   },
@@ -2783,7 +2823,7 @@
     "id" : "TRE-R214-SpecialiteUnite",
     "type" : "CodeSystem",
     "url" : "https://mos.esante.gouv.fr/NOS/TRE_R214-SpecialiteUnite/FHIR/TRE-R214-SpecialiteUnite",
-    "version" : "20231215120000",
+    "version" : "20241025120000",
     "name" : "TRE_R214_SpecialiteUnite",
     "oids" : ["1.2.250.1.213.3.3.14"]
   },
@@ -3038,7 +3078,7 @@
     "id" : "TRE-R244-CategorieOrganisation",
     "type" : "CodeSystem",
     "url" : "https://mos.esante.gouv.fr/NOS/TRE_R244-CategorieOrganisation/FHIR/TRE-R244-CategorieOrganisation",
-    "version" : "20240927120000",
+    "version" : "20241025120000",
     "name" : "TRE_R244_CategorieOrganisation",
     "oids" : ["1.2.250.1.213.3.3.39"]
   },
@@ -3046,7 +3086,7 @@
     "id" : "TRE-R245-SpecialisationDePriseEnCharge",
     "type" : "CodeSystem",
     "url" : "https://mos.esante.gouv.fr/NOS/TRE_R245-SpecialisationDePriseEnCharge/FHIR/TRE-R245-SpecialisationDePriseEnCharge",
-    "version" : "20240628120000",
+    "version" : "20241025120000",
     "name" : "TRE_R245_SpecialisationDePriseEnCharge",
     "oids" : ["1.2.250.1.213.3.3.41"]
   },
@@ -3102,7 +3142,7 @@
     "id" : "TRE-R252-TypeHoraire",
     "type" : "CodeSystem",
     "url" : "https://mos.esante.gouv.fr/NOS/TRE_R252-TypeHoraire/FHIR/TRE-R252-TypeHoraire",
-    "version" : "20240628120000",
+    "version" : "20241025120000",
     "name" : "TRE_R252_TypeHoraire",
     "oids" : ["1.2.250.1.213.3.3.50"]
   },
@@ -3899,6 +3939,14 @@
     "oids" : ["1.2.250.1.213.3.3.250"]
   },
   {
+    "id" : "TRE-R369-ProfilUtilisateurReferentielNational",
+    "type" : "CodeSystem",
+    "url" : "https://mos.esante.gouv.fr/NOS/TRE_R369_ProfilUtilisateurReferentielNational/FHIR/TRE-R369-ProfilUtilisateurReferentielNational",
+    "version" : "20241025120000",
+    "name" : "TRE_R369_ProfilUtilisateurReferentielNational",
+    "oids" : ["1.2.250.1.213.3.3.255"]
+  },
+  {
     "id" : "TRE-R37-TypeProfessionFonction",
     "type" : "CodeSystem",
     "url" : "https://mos.esante.gouv.fr/NOS/TRE_R37-TypeProfessionFonction/FHIR/TRE-R37-TypeProfessionFonction",
@@ -4102,7 +4150,7 @@
     "id" : "TRE-R66-CategorieEtablissement",
     "type" : "CodeSystem",
     "url" : "https://mos.esante.gouv.fr/NOS/TRE_R66-CategorieEtablissement/FHIR/TRE-R66-CategorieEtablissement",
-    "version" : "20240927120000",
+    "version" : "20241025120000",
     "name" : "TRE_R66_CategorieEtablissement",
     "oids" : ["1.2.250.1.213.1.6.1.8"]
   },
@@ -4206,7 +4254,7 @@
     "id" : "TRE-R85-RolePriseCharge",
     "type" : "CodeSystem",
     "url" : "https://mos.esante.gouv.fr/NOS/TRE_R85-RolePriseCharge/FHIR/TRE-R85-RolePriseCharge",
-    "version" : "20240329120000",
+    "version" : "20241025120000",
     "name" : "TRE_R85_RolePriseCharge",
     "oids" : ["1.2.250.1.213.1.6.1.107"]
   },
