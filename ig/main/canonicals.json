@@ -7926,7 +7926,8 @@
     "type" : "CodeSystem",
     "url" : "https://smt.esante.gouv.fr/terminologie-atc",
     "version" : "2024-02",
-    "name" : "ATC"
+    "name" : "ATC",
+    "oids" : ["2.16.840.1.113883.6.73"]
   },
   {
     "id" : "terminologie-bdpm",
@@ -7946,7 +7947,8 @@
     "type" : "CodeSystem",
     "url" : "https://smt.esante.gouv.fr/terminologie-ccam",
     "version" : "v76",
-    "name" : "CCAM"
+    "name" : "CCAM",
+    "oids" : ["1.2.250.1.213.2.5"]
   },
   {
     "id" : "terminologie-cim-10",
@@ -7967,7 +7969,8 @@
     "type" : "CodeSystem",
     "url" : "https://smt.esante.gouv.fr/terminologie-cisp",
     "version" : "2019-05",
-    "name" : "CISP_2"
+    "name" : "CISP_2",
+    "oids" : ["2.16.840.1.113883.6.139"]
   },
   {
     "id" : "terminologie-cladimed",
@@ -7997,14 +8000,16 @@
     "type" : "CodeSystem",
     "url" : "https://smt.esante.gouv.fr/terminologie-nabm",
     "version" : "V93",
-    "name" : "NABM"
+    "name" : "NABM",
+    "oids" : ["1.2.250.1.215.300.2"]
   },
   {
     "id" : "terminologie-nuva",
     "type" : "CodeSystem",
     "url" : "https://smt.esante.gouv.fr/terminologie-nuva",
     "version" : "1.0.787",
-    "name" : "NUVA"
+    "name" : "NUVA",
+    "oids" : ["1.3.6.1.4.1.48601.1"]
   },
   {
     "id" : "terminologie-sms",
@@ -8018,7 +8023,8 @@
     "type" : "CodeSystem",
     "url" : "https://smt.esante.gouv.fr/terminologie-standardterms",
     "version" : "2024-06-20",
-    "name" : "EDQM___Standard_Terms"
+    "name" : "EDQM___Standard_Terms",
+    "oids" : ["0.4.0.127.0.16.1.1.2.1"]
   },
   {
     "id" : "alignement-bdpm-cipucd",
