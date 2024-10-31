@@ -375,7 +375,7 @@
     "id" : "JDV-J107-EnsembleSavoirFaire-RASS",
     "type" : "ValueSet",
     "url" : "https://mos.esante.gouv.fr/NOS/JDV_J107-EnsembleSavoirFaire-RASS/FHIR/JDV-J107-EnsembleSavoirFaire-RASS",
-    "version" : "20240329120000",
+    "version" : "20241025120000",
     "name" : "JDV_J107_EnsembleSavoirFaire_RASS",
     "oids" : ["1.2.250.1.213.1.6.1.175"]
   },
@@ -727,7 +727,7 @@
     "id" : "JDV-J148-ReferenceRangeAppliesTo-CISIS",
     "type" : "ValueSet",
     "url" : "https://mos.esante.gouv.fr/NOS/JDV_J148-ReferenceRangeAppliesTo-CISIS/FHIR/JDV-J148-ReferenceRangeAppliesTo-CISIS",
-    "version" : "20230331120000",
+    "version" : "20240927120000",
     "name" : "JDV_J148_ReferenceRangeAppliesTo_CISIS",
     "oids" : ["1.2.250.1.213.1.1.5.603"]
   },
@@ -735,7 +735,7 @@
     "id" : "JDV-J149-BodySiteBP-ENS",
     "type" : "ValueSet",
     "url" : "https://mos.esante.gouv.fr/NOS/JDV_J149-BodySiteBP-ENS/FHIR/JDV-J149-BodySiteBP-ENS",
-    "version" : "20230922120000",
+    "version" : "20240927120000",
     "name" : "JDV_J149_BodySiteBP_ENS",
     "oids" : ["1.2.250.1.213.1.1.5.604"]
   },
@@ -759,7 +759,7 @@
     "id" : "JDV-J151-BodySiteBodyTemperature-ENS",
     "type" : "ValueSet",
     "url" : "https://mos.esante.gouv.fr/NOS/JDV_J151-BodySiteBodyTemperature-ENS/FHIR/JDV-J151-BodySiteBodyTemperature-ENS",
-    "version" : "20230922120000",
+    "version" : "20240927120000",
     "name" : "JDV_J151_BodySiteBodyTemperature_ENS",
     "oids" : ["1.2.250.1.213.1.1.5.606"]
   },

@@ -203,7 +203,7 @@
          <concept code="67"
                   codeSystem="1.2.250.1.213.3.3.41"
                   displayName="Trouble psychotraumatique (dont Troubles Stress Post-Traumatique)"/>
-         <concept code="68"
+         <concept code="068"
                   codeSystem="1.2.250.1.213.3.3.12"
                   displayName="Troubles cognitifs ou du comportement et de la relation affective dus à une lésion cérébrale acquise"/>
       </ConceptList>
