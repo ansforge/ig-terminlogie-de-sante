@@ -285,10 +285,7 @@ Preadoption de ValueSet.author de R5  et R6 ?
       "valueCodeableConcept" : {
         "text" : "Pour la constitution des metadata XDS"
       } </code></td>
-    </tr>        
+    </tr>
 
-    
   </tbody>
-
-  
 </table>
