@@ -26,6 +26,21 @@
       "sources" : ["2.16.840.1.113883.4.642.3.264"]
     },
     {
+      "url" : "http://hl7.org/fhir/us/example/ValueSet/ans-permissions-vs",
+      "version" : null,
+      "status" : "draft",
+      "name" : "ANSPermissionsVS",
+      "title" : "ANS Permissions",
+      "description" : "Permissions des artifacts terminologiques",
+      "systems" : [
+        "http://hl7.org/fhir/us/example/CodeSystem/ans-permissions-cs"
+      ],
+      "uses" : {
+      },
+      "StructureDefinition-ans-shareable-valueset.html" : "ANS Shareable ValueSet",
+      "StructureDefinition-ans-shareable-codesystem.html" : "ANS Shareable CodeSystem"
+    },
+    {
       "url" : "https://mos.esante.gouv.fr/NOS/JDV-MediaTypeCorpsCDANonStructure?vs",
       "version" : "1.1.0",
       "status" : "active",
@@ -73,15 +88,14 @@
     },
     {
       "url" : "https://mos.esante.gouv.fr/NOS/JDV_J02-XdsHealthcareFacilityTypeCode-CISIS/FHIR/JDV-J02-XdsHealthcareFacilityTypeCode-CISIS",
-      "version" : "20240927120000",
+      "version" : "20240726120000",
       "status" : "active",
       "name" : "JDV_J02_XdsHealthcareFacilityTypeCode_CISIS",
       "title" : null,
       "description" : "XDS healthcareFacilityTypeCode CI-SIS",
       "systems" : [
         "https://mos.esante.gouv.fr/NOS/TRE_A00-ProducteurDocNonPS/FHIR/TRE-A00-ProducteurDocNonPS",
-        "https://mos.esante.gouv.fr/NOS/TRE_R02-SecteurActivite/FHIR/TRE-R02-SecteurActivite",
-        "https://mos.esante.gouv.fr/NOS/TRE_R66-CategorieEtablissement/FHIR/TRE-R66-CategorieEtablissement"
+        "https://mos.esante.gouv.fr/NOS/TRE_R02-SecteurActivite/FHIR/TRE-R02-SecteurActivite"
       ],
       "oids" : ["1.2.250.1.213.1.1.5.466"],
       "sources" : ["1.2.250.1.213.1.1.5.466"]
@@ -205,8 +219,8 @@
       "sources" : ["1.2.250.1.213.1.1.5.465"],
       "uses" : {
       },
-      "ConceptMap-ASS-A11-CorresModeleCDA-XdsFormatCode-CISIS.html" : "ASS_A11-CorresModeleCDA-XdsFormatCode-CISIS",
-      "ConceptMap-ASS-A12-CorresMediaTypeCDANonStructure-XdsFormatCode-CISIS.html" : "ASS_12_CorresMediaTypeCDANonStructure-XdsFormatCode-CISIS"
+      "ConceptMap-ASS-A12-CorresMediaTypeCDANonStructure-XdsFormatCode-CISIS.html" : "ASS_12_CorresMediaTypeCDANonStructure-XdsFormatCode-CISIS",
+      "ConceptMap-ASS-A11-CorresModeleCDA-XdsFormatCode-CISIS.html" : "ASS_A11-CorresModeleCDA-XdsFormatCode-CISIS"
     },
     {
       "url" : "https://mos.esante.gouv.fr/NOS/JDV_J100-FinessStatutJuridique-RASS/FHIR/JDV-J100-FinessStatutJuridique-RASS",
@@ -304,13 +318,14 @@
     },
     {
       "url" : "https://mos.esante.gouv.fr/NOS/JDV_J107-EnsembleSavoirFaire-RASS/FHIR/JDV-J107-EnsembleSavoirFaire-RASS",
-      "version" : "20240329120000",
+      "version" : "20241025120000",
       "status" : "active",
       "name" : "JDV_J107_EnsembleSavoirFaire_RASS",
       "title" : null,
       "description" : "Ensemble des savoir-faire et compétences du RASS",
       "systems" : [
         "https://mos.esante.gouv.fr/NOS/TRE_R42-DESCnonQualifiant/FHIR/TRE-R42-DESCnonQualifiant",
+        "https://mos.esante.gouv.fr/NOS/TRE_R359-SurspecialiteTransversale/FHIR/TRE-R359-SurspecialiteTransversale",
         "https://mos.esante.gouv.fr/NOS/TRE_R40-CompetenceExclusive/FHIR/TRE-R40-CompetenceExclusive",
         "https://mos.esante.gouv.fr/NOS/TRE_R38-SpecialiteOrdinale/FHIR/TRE-R38-SpecialiteOrdinale",
         "https://mos.esante.gouv.fr/NOS/TRE_R39-Competence/FHIR/TRE-R39-Competence",
@@ -905,7 +920,7 @@
     },
     {
       "url" : "https://mos.esante.gouv.fr/NOS/JDV_J148-ReferenceRangeAppliesTo-CISIS/FHIR/JDV-J148-ReferenceRangeAppliesTo-CISIS",
-      "version" : "20230331120000",
+      "version" : "20240927120000",
       "status" : "active",
       "name" : "JDV_J148_ReferenceRangeAppliesTo_CISIS",
       "title" : null,
@@ -919,7 +934,7 @@
     },
     {
       "url" : "https://mos.esante.gouv.fr/NOS/JDV_J149-BodySiteBP-ENS/FHIR/JDV-J149-BodySiteBP-ENS",
-      "version" : "20230922120000",
+      "version" : "20240927120000",
       "status" : "active",
       "name" : "JDV_J149_BodySiteBP_ENS",
       "title" : null,
@@ -954,7 +969,7 @@
     },
     {
       "url" : "https://mos.esante.gouv.fr/NOS/JDV_J151-BodySiteBodyTemperature-ENS/FHIR/JDV-J151-BodySiteBodyTemperature-ENS",
-      "version" : "20230922120000",
+      "version" : "20240927120000",
       "status" : "active",
       "name" : "JDV_J151_BodySiteBodyTemperature_ENS",
       "title" : null,
@@ -2653,7 +2668,7 @@
       "title" : null,
       "description" : "Profils utilisateurs du ROR National",
       "systems" : [
-        "https://mos.esante.gouv.fr/NOS/TRE_R369-ProfilUtilisateurReferentielNational/FHIR/TRE_R369-ProfilUtilisateurReferentielNational"
+        "https://mos.esante.gouv.fr/NOS/TRE_R369_ProfilUtilisateurReferentielNational/FHIR/TRE-R369-ProfilUtilisateurReferentielNational"
       ],
       "oids" : ["1.2.250.1.213.3.3.256"],
       "sources" : ["1.2.250.1.213.3.3.256"]
@@ -9226,25 +9241,25 @@
       "sources" : ["2.16.840.1.113883.4.642.3.166"]
     },
     {
-      "url" : "https://smt.esante.gouv.fr/fhir/ValueSet/allergie",
-      "version" : "1.1.0",
-      "status" : "active",
-      "name" : "Allergie",
-      "title" : "allergie",
-      "description" : "JDV des allergies en CIM 11",
-      "systems" : ["https://smt.esante.gouv.fr/terminologie-cim11-mms"]
-    },
-    {
       "url" : "https://smt.esante.gouv.fr/terminologie-bdpm?vs",
-      "version" : null,
+      "version" : "20241106120000",
       "status" : "active",
-      "name" : "BDPM Value Set",
+      "name" : "ValueSet_BDPM_All",
       "title" : null,
       "description" : "Ce jeu de valeurs inclut tous les codes de la terminologie BDPM",
       "systems" : ["https://smt.esante.gouv.fr/terminologie-bdpm"],
       "uses" : {
       },
       "ConceptMap-alignement-bdpm-cipucd.html" : "Aligner les codes de présentation de la BDPM avec les codes CIP du référentiel CIP-UCD"
+    },
+    {
+      "url" : "https://smt.esante.gouv.fr/terminologie-nuva?vs",
+      "version" : "20241106120000",
+      "status" : "active",
+      "name" : "ValueSet_NUVA_All",
+      "title" : null,
+      "description" : "Ce jeu de valeurs inclut tous les codes concepts de la terminologie NUVA",
+      "systems" : ["https://smt.esante.gouv.fr/terminologie-nuva"]
     }
   ]
 }

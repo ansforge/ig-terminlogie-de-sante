@@ -1,0 +1,53 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<https://interop.esante.gouv.fr/ig/terminologie/CodeSystem/ans-permissions-cs> a fhir:CodeSystem ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "ans-permissions-cs"] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: CodeSystem ans-permissions-cs</b></p><a name=\"ans-permissions-cs\"> </a><a name=\"hcans-permissions-cs\"> </a><a name=\"ans-permissions-cs-fr-FR\"> </a><p>This  code system <code>http://hl7.org/fhir/us/example/CodeSystem/ans-permissions-cs</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style=\"white-space:nowrap\">nos.write<a name=\"ans-permissions-cs-nos.46write\"> </a></td><td>Droit d'écriture de l'équipe NOS</td><td>Droit d'écriture de l'équipe NOS</td></tr><tr><td style=\"white-space:nowrap\">tec.write<a name=\"ans-permissions-cs-tec.46write\"> </a></td><td>Droit d'écriture de l'équipe technique</td><td>Droit d'écriture de l'équipe technique</td></tr><tr><td style=\"white-space:nowrap\">metier.write<a name=\"ans-permissions-cs-metier.46write\"> </a></td><td>Droit d'écriture de l'équipe métier</td><td>Droit d'écriture de l'équipe métier</td></tr></table></div>"
+  ] ; # 
+  fhir:url [ fhir:v "http://hl7.org/fhir/us/example/CodeSystem/ans-permissions-cs"^^xsd:anyURI] ; # 
+  fhir:name [ fhir:v "ANSPermissionsCS"] ; # 
+  fhir:title [ fhir:v "ANS Permissions"] ; # 
+  fhir:status [ fhir:v "draft"] ; # 
+  fhir:date [ fhir:v "2024-11-06T15:55:45+00:00"^^xsd:dateTime] ; # 
+  fhir:publisher [ fhir:v "ANS"] ; # 
+  fhir:contact ( [
+     fhir:name [ fhir:v "ANS" ] ;
+     fhir:telecom ( [
+       fhir:system [ fhir:v "url" ] ;
+       fhir:value [ fhir:v "https://esante.gouv.fr" ]
+     ] )
+  ] ) ; # 
+  fhir:description [ fhir:v "Permissions des artifacts terminologiques"] ; # 
+  fhir:jurisdiction ( [
+     fhir:coding ( [
+       fhir:system [ fhir:v "urn:iso:std:iso:3166"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "FR" ] ;
+       fhir:display [ fhir:v "France" ]
+     ] )
+  ] ) ; # 
+  fhir:content [ fhir:v "complete"] ; # 
+  fhir:count [ fhir:v "3"^^xsd:nonNegativeInteger] ; # 
+  fhir:concept ( [
+     fhir:code [ fhir:v "nos.write" ] ;
+     fhir:display [ fhir:v "Droit d'écriture de l'équipe NOS" ] ;
+     fhir:definition [ fhir:v "Droit d'écriture de l'équipe NOS" ]
+  ] [
+     fhir:code [ fhir:v "tec.write" ] ;
+     fhir:display [ fhir:v "Droit d'écriture de l'équipe technique" ] ;
+     fhir:definition [ fhir:v "Droit d'écriture de l'équipe technique" ]
+  ] [
+     fhir:code [ fhir:v "metier.write" ] ;
+     fhir:display [ fhir:v "Droit d'écriture de l'équipe métier" ] ;
+     fhir:definition [ fhir:v "Droit d'écriture de l'équipe métier" ]
+  ] ) . # 
+
+# -------------------------------------------------------------------------------------
+

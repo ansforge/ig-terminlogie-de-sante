@@ -19197,18 +19197,6 @@
      ] [
        fhir:extension ( [
          fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
-         fhir:value [ fhir:v "ValueSet" ]
-       ] ) ;
-       fhir:reference [
-         fhir:link <https://interop.esante.gouv.fr/ig/terminologie/ValueSet/allergie> ;
-         fhir:reference [ fhir:v "ValueSet/allergie" ]
-       ] ;
-       fhir:name [ fhir:v "allergie" ] ;
-       fhir:description [ fhir:v "JDV des allergies en CIM 11" ] ;
-       fhir:example [ fhir:v "false"^^xsd:boolean ]
-     ] [
-       fhir:extension ( [
-         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
          fhir:value [ fhir:v "CodeSystem" ]
        ] ) ;
        fhir:reference [
@@ -19216,6 +19204,102 @@
          fhir:reference [ fhir:v "CodeSystem/terminologie-atc" ]
        ] ;
        fhir:name [ fhir:v "Anatomique, Thérapeutique et Chimique" ] ;
+       fhir:example [ fhir:v "false"^^xsd:boolean ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "CodeSystem" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <https://interop.esante.gouv.fr/ig/terminologie/CodeSystem/ans-permissions-cs> ;
+         fhir:reference [ fhir:v "CodeSystem/ans-permissions-cs" ]
+       ] ;
+       fhir:name [ fhir:v "ANS Permissions" ] ;
+       fhir:description [ fhir:v "Permissions des artifacts terminologiques" ] ;
+       fhir:example [ fhir:v "false"^^xsd:boolean ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "ValueSet" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <https://interop.esante.gouv.fr/ig/terminologie/ValueSet/ans-permissions-vs> ;
+         fhir:reference [ fhir:v "ValueSet/ans-permissions-vs" ]
+       ] ;
+       fhir:name [ fhir:v "ANS Permissions" ] ;
+       fhir:description [ fhir:v "Permissions des artifacts terminologiques" ] ;
+       fhir:example [ fhir:v "false"^^xsd:boolean ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "StructureDefinition:resource" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <https://interop.esante.gouv.fr/ig/terminologie/StructureDefinition/ans-shareable-codesystem> ;
+         fhir:reference [ fhir:v "StructureDefinition/ans-shareable-codesystem" ]
+       ] ;
+       fhir:name [ fhir:v "ANS Shareable CodeSystem" ] ;
+       fhir:description [ fhir:v "ANS Shareable CodeSystem" ] ;
+       fhir:example [ fhir:v "false"^^xsd:boolean ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "StructureDefinition:resource" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <https://interop.esante.gouv.fr/ig/terminologie/StructureDefinition/ans-shareable-valueset> ;
+         fhir:reference [ fhir:v "StructureDefinition/ans-shareable-valueset" ]
+       ] ;
+       fhir:name [ fhir:v "ANS Shareable ValueSet" ] ;
+       fhir:description [ fhir:v "ANS Shareable ValueSet" ] ;
+       fhir:example [ fhir:v "false"^^xsd:boolean ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "StructureDefinition:extension" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <https://interop.esante.gouv.fr/ig/terminologie/StructureDefinition/ans-codesystem-author-r5> ;
+         fhir:reference [ fhir:v "StructureDefinition/ans-codesystem-author-r5" ]
+       ] ;
+       fhir:name [ fhir:v "ANSCodeSystemAuthorR5" ] ;
+       fhir:description [ fhir:v "Extension pour représenter l'auteur d'un artifact terminologique. Cette extension implemente l'élément author de R5." ] ;
+       fhir:example [ fhir:v "false"^^xsd:boolean ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "StructureDefinition:extension" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <https://interop.esante.gouv.fr/ig/terminologie/StructureDefinition/ans-codesystem-endorser-r5> ;
+         fhir:reference [ fhir:v "StructureDefinition/ans-codesystem-endorser-r5" ]
+       ] ;
+       fhir:name [ fhir:v "ANSCodeSystemEndorserR5" ] ;
+       fhir:description [ fhir:v "Extension pour représenter le responsable d'un artifact terminologique. Cette extension implemente l'élément endorser de R5." ] ;
+       fhir:example [ fhir:v "false"^^xsd:boolean ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "StructureDefinition:extension" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <https://interop.esante.gouv.fr/ig/terminologie/StructureDefinition/ans-valueset-author-r5> ;
+         fhir:reference [ fhir:v "StructureDefinition/ans-valueset-author-r5" ]
+       ] ;
+       fhir:name [ fhir:v "ANSValueSetAuthorR5" ] ;
+       fhir:description [ fhir:v "Extension pour représenter l'auteur d'un artifact terminologique. Cette extension implemente l'élément author de R5." ] ;
+       fhir:example [ fhir:v "false"^^xsd:boolean ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "StructureDefinition:extension" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <https://interop.esante.gouv.fr/ig/terminologie/StructureDefinition/ans-valueset-endorser-r5> ;
+         fhir:reference [ fhir:v "StructureDefinition/ans-valueset-endorser-r5" ]
+       ] ;
+       fhir:name [ fhir:v "ANSValueSetEndorserR5" ] ;
+       fhir:description [ fhir:v "Extension pour représenter le responsable d'un artifact terminologique. Cette extension implemente l'élément endorser de R5." ] ;
        fhir:example [ fhir:v "false"^^xsd:boolean ]
      ] [
        fhir:extension ( [
@@ -19506,18 +19590,6 @@
          fhir:value [ fhir:v "ConceptMap" ]
        ] ) ;
        fhir:reference [
-         fhir:link <https://interop.esante.gouv.fr/ig/terminologie/ConceptMap/ASS-X12-CommuneDeptRegionOM> ;
-         fhir:reference [ fhir:v "ConceptMap/ASS-X12-CommuneDeptRegionOM" ]
-       ] ;
-       fhir:name [ fhir:v "ASS_X12-CommuneDeptRegionOM" ] ;
-       fhir:description [ fhir:v "Association communes - départements - régions (outre-mer et Monaco inclus)" ] ;
-       fhir:example [ fhir:v "false"^^xsd:boolean ]
-     ] [
-       fhir:extension ( [
-         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
-         fhir:value [ fhir:v "ConceptMap" ]
-       ] ) ;
-       fhir:reference [
          fhir:link <https://interop.esante.gouv.fr/ig/terminologie/ConceptMap/ASS-X13-AgregatClientele> ;
          fhir:reference [ fhir:v "ConceptMap/ASS-X13-AgregatClientele" ]
        ] ;
@@ -19568,18 +19640,6 @@
          fhir:reference [ fhir:v "CodeSystem/terminologie-bdpm" ]
        ] ;
        fhir:name [ fhir:v "Base de données publique du médicament - BDPM" ] ;
-       fhir:example [ fhir:v "false"^^xsd:boolean ]
-     ] [
-       fhir:extension ( [
-         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
-         fhir:value [ fhir:v "ValueSet" ]
-       ] ) ;
-       fhir:reference [
-         fhir:link <https://interop.esante.gouv.fr/ig/terminologie/ValueSet/JDV-bdpm-all> ;
-         fhir:reference [ fhir:v "ValueSet/JDV-bdpm-all" ]
-       ] ;
-       fhir:name [ fhir:v "BDPM Value Set" ] ;
-       fhir:description [ fhir:v "Ce jeu de valeurs inclut tous les codes de la terminologie BDPM" ] ;
        fhir:example [ fhir:v "false"^^xsd:boolean ]
      ] [
        fhir:extension ( [
@@ -31280,6 +31340,30 @@
        fhir:name [ fhir:v "TRE_R97_DroitExerciceCompl" ] ;
        fhir:description [ fhir:v "Droit d'exercice complémentaire" ] ;
        fhir:example [ fhir:v "false"^^xsd:boolean ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "ValueSet" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <https://interop.esante.gouv.fr/ig/terminologie/ValueSet/vs-bdpm-all> ;
+         fhir:reference [ fhir:v "ValueSet/vs-bdpm-all" ]
+       ] ;
+       fhir:name [ fhir:v "ValueSet_BDPM_All" ] ;
+       fhir:description [ fhir:v "Ce jeu de valeurs inclut tous les codes de la terminologie BDPM" ] ;
+       fhir:example [ fhir:v "false"^^xsd:boolean ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "ValueSet" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <https://interop.esante.gouv.fr/ig/terminologie/ValueSet/vs-nuva-all> ;
+         fhir:reference [ fhir:v "ValueSet/vs-nuva-all" ]
+       ] ;
+       fhir:name [ fhir:v "ValueSet_NUVA_All" ] ;
+       fhir:description [ fhir:v "Ce jeu de valeurs inclut tous les codes concepts de la terminologie NUVA" ] ;
+       fhir:example [ fhir:v "false"^^xsd:boolean ]
      ] ) ;
      fhir:page [
        fhir:extension ( [
@@ -31437,14 +31521,6 @@
          fhir:title [ fhir:v "Autres Ressources" ] ;
          fhir:generation [ fhir:v "markdown" ] ;
          fhir:page ( [
-           fhir:extension ( [
-             fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name"^^xsd:anyURI ] ;
-             fhir:value [ fhir:v "convention.html"^^xsd:anyURI ]
-           ] ) ;
-           fhir:name [ fhir:v "convention.html"^^xsd:anyURI ] ;
-           fhir:title [ fhir:v "Convention" ] ;
-           fhir:generation [ fhir:v "markdown" ]
-         ] [
            fhir:extension ( [
              fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name"^^xsd:anyURI ] ;
              fhir:value [ fhir:v "telechargementNos.html"^^xsd:anyURI ]

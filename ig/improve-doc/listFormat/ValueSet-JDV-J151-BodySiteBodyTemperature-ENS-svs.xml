@@ -2,7 +2,7 @@
 <RetrieveValueSetResponse xmlns="urn:ihe:iti:svs:2008"
                           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
    <ValueSet dateFin=""
-             dateMaj="20230922120000"
+             dateMaj="20240927120000"
              dateValid="20210430120000"
              description="JDV de localisation de la mesure de la température"
              displayName="JDV_J151_BodySiteBodyTemperature_ENS"

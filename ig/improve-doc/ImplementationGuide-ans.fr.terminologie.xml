@@ -17055,13 +17055,12 @@
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="ValueSet"/>
+        <valueString value="CodeSystem"/>
       </extension>
       <reference>
-        <reference value="ValueSet/allergie"/>
+        <reference value="CodeSystem/terminologie-atc"/>
       </reference>
-      <name value="allergie"/>
-      <description value="JDV des allergies en CIM 11"/>
+      <name value="Anatomique, Thérapeutique et Chimique"/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -17069,9 +17068,87 @@
         <valueString value="CodeSystem"/>
       </extension>
       <reference>
-        <reference value="CodeSystem/terminologie-atc"/>
+        <reference value="CodeSystem/ans-permissions-cs"/>
       </reference>
-      <name value="Anatomique, Thérapeutique et Chimique"/>
+      <name value="ANS Permissions"/>
+      <description value="Permissions des artifacts terminologiques"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/ans-permissions-vs"/>
+      </reference>
+      <name value="ANS Permissions"/>
+      <description value="Permissions des artifacts terminologiques"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/ans-shareable-codesystem"/>
+      </reference>
+      <name value="ANS Shareable CodeSystem"/>
+      <description value="ANS Shareable CodeSystem"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/ans-shareable-valueset"/>
+      </reference>
+      <name value="ANS Shareable ValueSet"/>
+      <description value="ANS Shareable ValueSet"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:extension"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/ans-codesystem-author-r5"/>
+      </reference>
+      <name value="ANSCodeSystemAuthorR5"/>
+      <description value="Extension pour représenter l'auteur d'un artifact terminologique. Cette extension implemente l'élément author de R5."/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:extension"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/ans-codesystem-endorser-r5"/>
+      </reference>
+      <name value="ANSCodeSystemEndorserR5"/>
+      <description value="Extension pour représenter le responsable d'un artifact terminologique. Cette extension implemente l'élément endorser de R5."/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:extension"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/ans-valueset-author-r5"/>
+      </reference>
+      <name value="ANSValueSetAuthorR5"/>
+      <description value="Extension pour représenter l'auteur d'un artifact terminologique. Cette extension implemente l'élément author de R5."/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:extension"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/ans-valueset-endorser-r5"/>
+      </reference>
+      <name value="ANSValueSetEndorserR5"/>
+      <description value="Extension pour représenter le responsable d'un artifact terminologique. Cette extension implemente l'élément endorser de R5."/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -17338,17 +17415,6 @@
         <valueString value="ConceptMap"/>
       </extension>
       <reference>
-        <reference value="ConceptMap/ASS-X12-CommuneDeptRegionOM"/>
-      </reference>
-      <name value="ASS_X12-CommuneDeptRegionOM"/>
-      <description value="Association communes - départements - régions (outre-mer et Monaco inclus)"/>
-      <exampleBoolean value="false"/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="ConceptMap"/>
-      </extension>
-      <reference>
         <reference value="ConceptMap/ASS-X13-AgregatClientele"/>
       </reference>
       <name value="ASS_X13_AgregatClientele"/>
@@ -17394,17 +17460,6 @@
         <reference value="CodeSystem/terminologie-bdpm"/>
       </reference>
       <name value="Base de données publique du médicament - BDPM"/>
-      <exampleBoolean value="false"/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="ValueSet"/>
-      </extension>
-      <reference>
-        <reference value="ValueSet/JDV-bdpm-all"/>
-      </reference>
-      <name value="BDPM Value Set"/>
-      <description value="Ce jeu de valeurs inclut tous les codes de la terminologie BDPM"/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -28130,6 +28185,28 @@
       <description value="Droit d'exercice complémentaire"/>
       <exampleBoolean value="false"/>
     </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/vs-bdpm-all"/>
+      </reference>
+      <name value="ValueSet_BDPM_All"/>
+      <description value="Ce jeu de valeurs inclut tous les codes de la terminologie BDPM"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/vs-nuva-all"/>
+      </reference>
+      <name value="ValueSet_NUVA_All"/>
+      <description value="Ce jeu de valeurs inclut tous les codes concepts de la terminologie NUVA"/>
+      <exampleBoolean value="false"/>
+    </resource>
     <page>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-page-name">
         <valueUrl value="toc.html"/>
@@ -28280,14 +28357,6 @@
         <nameUrl value="autres_ressources.html"/>
         <title value="Autres Ressources"/>
         <generation value="markdown"/>
-        <page>
-          <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-page-name">
-            <valueUrl value="convention.html"/>
-          </extension>
-          <nameUrl value="convention.html"/>
-          <title value="Convention"/>
-          <generation value="markdown"/>
-        </page>
         <page>
           <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-page-name">
             <valueUrl value="telechargementNos.html"/>

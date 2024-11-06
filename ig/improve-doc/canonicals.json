@@ -1,11 +1,59 @@
 [
   {
+    "id" : "ans-codesystem-author-r5",
+    "type" : "StructureDefinition",
+    "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-CodeSystem.author",
+    "name" : "ANSCodeSystemAuthorR5"
+  },
+  {
+    "id" : "ans-codesystem-endorser-r5",
+    "type" : "StructureDefinition",
+    "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-CodeSystem.endorser",
+    "name" : "ANSCodeSystemEndorserR5"
+  },
+  {
+    "id" : "ans-valueset-author-r5",
+    "type" : "StructureDefinition",
+    "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ValueSet.author",
+    "name" : "ANSValueSetAuthorR5"
+  },
+  {
+    "id" : "ans-valueset-endorser-r5",
+    "type" : "StructureDefinition",
+    "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ValueSet.endorser",
+    "name" : "ANSValueSetEndorserR5"
+  },
+  {
     "id" : "designation-use",
     "type" : "ValueSet",
     "url" : "http://hl7.org/fhir/ValueSet/designation-use",
     "version" : "4.0.1",
     "name" : "DesignationUse",
     "oids" : ["2.16.840.1.113883.4.642.3.264"]
+  },
+  {
+    "id" : "ans-permissions-cs",
+    "type" : "CodeSystem",
+    "url" : "http://hl7.org/fhir/us/example/CodeSystem/ans-permissions-cs",
+    "name" : "ANSPermissionsCS"
+  },
+  {
+    "id" : "ans-shareable-codesystem",
+    "type" : "StructureDefinition",
+    "url" : "http://hl7.org/fhir/us/example/StructureDefinition/ans-shareable-codesystem",
+    "name" : "ANSShareableCodeSystem"
+  },
+  {
+    "id" : "ans-shareable-valueset",
+    "type" : "StructureDefinition",
+    "url" : "http://hl7.org/fhir/us/example/StructureDefinition/ans-shareable-valueset",
+    "name" : "ANSShareableValueSet"
+  },
+  {
+    "id" : "ans-permissions-vs",
+    "type" : "ValueSet",
+    "url" : "http://hl7.org/fhir/us/example/ValueSet/ans-permissions-vs",
+    "name" : "ANSPermissionsVS"
   },
   {
     "id" : "service-type",
@@ -203,13 +251,6 @@
     "name" : "ASS_X10_AgregatCategorieEtablissement"
   },
   {
-    "id" : "ASS-X12-CommuneDeptRegionOM",
-    "type" : "ConceptMap",
-    "url" : "https://mos.esante.gouv.fr/NOS/ASS_X12-CommuneDeptRegionOM/FHIR/ASS-X12-CommuneDeptRegionOM",
-    "version" : "20200424120000",
-    "name" : "ASS_X12-CommuneDeptRegionOM"
-  },
-  {
     "id" : "ASS-X13-AgregatClientele",
     "type" : "ConceptMap",
     "url" : "https://mos.esante.gouv.fr/NOS/ASS_X13-AgregatClientele/FHIR/ASS-X13-AgregatClientele",
@@ -263,7 +304,7 @@
     "id" : "JDV-J02-XdsHealthcareFacilityTypeCode-CISIS",
     "type" : "ValueSet",
     "url" : "https://mos.esante.gouv.fr/NOS/JDV_J02-XdsHealthcareFacilityTypeCode-CISIS/FHIR/JDV-J02-XdsHealthcareFacilityTypeCode-CISIS",
-    "version" : "20240927120000",
+    "version" : "20240726120000",
     "name" : "JDV_J02_XdsHealthcareFacilityTypeCode_CISIS",
     "oids" : ["1.2.250.1.213.1.1.5.466"]
   },
@@ -375,7 +416,7 @@
     "id" : "JDV-J107-EnsembleSavoirFaire-RASS",
     "type" : "ValueSet",
     "url" : "https://mos.esante.gouv.fr/NOS/JDV_J107-EnsembleSavoirFaire-RASS/FHIR/JDV-J107-EnsembleSavoirFaire-RASS",
-    "version" : "20240329120000",
+    "version" : "20241025120000",
     "name" : "JDV_J107_EnsembleSavoirFaire_RASS",
     "oids" : ["1.2.250.1.213.1.6.1.175"]
   },
@@ -727,7 +768,7 @@
     "id" : "JDV-J148-ReferenceRangeAppliesTo-CISIS",
     "type" : "ValueSet",
     "url" : "https://mos.esante.gouv.fr/NOS/JDV_J148-ReferenceRangeAppliesTo-CISIS/FHIR/JDV-J148-ReferenceRangeAppliesTo-CISIS",
-    "version" : "20230331120000",
+    "version" : "20240927120000",
     "name" : "JDV_J148_ReferenceRangeAppliesTo_CISIS",
     "oids" : ["1.2.250.1.213.1.1.5.603"]
   },
@@ -735,7 +776,7 @@
     "id" : "JDV-J149-BodySiteBP-ENS",
     "type" : "ValueSet",
     "url" : "https://mos.esante.gouv.fr/NOS/JDV_J149-BodySiteBP-ENS/FHIR/JDV-J149-BodySiteBP-ENS",
-    "version" : "20230922120000",
+    "version" : "20240927120000",
     "name" : "JDV_J149_BodySiteBP_ENS",
     "oids" : ["1.2.250.1.213.1.1.5.604"]
   },
@@ -759,7 +800,7 @@
     "id" : "JDV-J151-BodySiteBodyTemperature-ENS",
     "type" : "ValueSet",
     "url" : "https://mos.esante.gouv.fr/NOS/JDV_J151-BodySiteBodyTemperature-ENS/FHIR/JDV-J151-BodySiteBodyTemperature-ENS",
-    "version" : "20230922120000",
+    "version" : "20240927120000",
     "name" : "JDV_J151_BodySiteBodyTemperature_ENS",
     "oids" : ["1.2.250.1.213.1.1.5.606"]
   },
@@ -7915,13 +7956,6 @@
     "oids" : ["2.16.840.1.113883.4.642.3.166"]
   },
   {
-    "id" : "allergie",
-    "type" : "ValueSet",
-    "url" : "https://smt.esante.gouv.fr/fhir/ValueSet/allergie",
-    "version" : "1.1.0",
-    "name" : "Allergie"
-  },
-  {
     "id" : "terminologie-SERAFINPH",
     "type" : "CodeSystem",
     "url" : "https://smt.esante.gouv.fr/terminologie-SERAFINPH",
@@ -7933,27 +7967,30 @@
     "type" : "CodeSystem",
     "url" : "https://smt.esante.gouv.fr/terminologie-atc",
     "version" : "2024-02",
-    "name" : "ATC"
+    "name" : "ATC",
+    "oids" : ["2.16.840.1.113883.6.73"]
   },
   {
     "id" : "terminologie-bdpm",
     "type" : "CodeSystem",
     "url" : "https://smt.esante.gouv.fr/terminologie-bdpm",
-    "version" : "2024-10-01",
+    "version" : "2024-11-05",
     "name" : "Base_de_donn_es_publique_du_m_dicament___BDPM"
   },
   {
-    "id" : "JDV-bdpm-all",
+    "id" : "vs-bdpm-all",
     "type" : "ValueSet",
     "url" : "https://smt.esante.gouv.fr/terminologie-bdpm?vs",
-    "name" : "BDPM Value Set"
+    "version" : "20241106120000",
+    "name" : "ValueSet_BDPM_All"
   },
   {
     "id" : "terminologie-ccam",
     "type" : "CodeSystem",
     "url" : "https://smt.esante.gouv.fr/terminologie-ccam",
     "version" : "v76",
-    "name" : "CCAM"
+    "name" : "CCAM",
+    "oids" : ["1.2.250.1.213.2.5"]
   },
   {
     "id" : "terminologie-cim-10",
@@ -7974,7 +8011,8 @@
     "type" : "CodeSystem",
     "url" : "https://smt.esante.gouv.fr/terminologie-cisp",
     "version" : "2019-05",
-    "name" : "CISP_2"
+    "name" : "CISP_2",
+    "oids" : ["2.16.840.1.113883.6.139"]
   },
   {
     "id" : "terminologie-cladimed",
@@ -8004,14 +8042,23 @@
     "type" : "CodeSystem",
     "url" : "https://smt.esante.gouv.fr/terminologie-nabm",
     "version" : "V93",
-    "name" : "NABM"
+    "name" : "NABM",
+    "oids" : ["1.2.250.1.215.300.2"]
   },
   {
     "id" : "terminologie-nuva",
     "type" : "CodeSystem",
     "url" : "https://smt.esante.gouv.fr/terminologie-nuva",
     "version" : "1.0.787",
-    "name" : "NUVA"
+    "name" : "NUVA",
+    "oids" : ["1.3.6.1.4.1.48601.1"]
+  },
+  {
+    "id" : "vs-nuva-all",
+    "type" : "ValueSet",
+    "url" : "https://smt.esante.gouv.fr/terminologie-nuva?vs",
+    "version" : "20241106120000",
+    "name" : "ValueSet_NUVA_All"
   },
   {
     "id" : "terminologie-sms",
@@ -8025,7 +8072,8 @@
     "type" : "CodeSystem",
     "url" : "https://smt.esante.gouv.fr/terminologie-standardterms",
     "version" : "2024-06-20",
-    "name" : "EDQM___Standard_Terms"
+    "name" : "EDQM___Standard_Terms",
+    "oids" : ["0.4.0.127.0.16.1.1.2.1"]
   },
   {
     "id" : "alignement-bdpm-cipucd",
