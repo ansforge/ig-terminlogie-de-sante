@@ -33,6 +33,9 @@ jobs:
         
       - name: Suppression des fichiers FSH
         run: rm ./igSource/DM/input/fsh/*.fsh
+      
+      - name: Suppression des fichiers FSH
+        run: rm ./igSource/DM/input/fsh/Profils/*.fsh
         
       - name: Get From ontoserver      
         run: |
