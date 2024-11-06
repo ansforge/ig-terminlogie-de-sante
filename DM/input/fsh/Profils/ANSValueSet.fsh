@@ -19,9 +19,9 @@ Id: ans-shareable-valueset
 * extension[effective-period].valuePeriod.start ^short = "Date de création du JDV"
 
 
-* extension contains ans-endorser-r5 named endorser 0..1 MS 
+* extension contains ans-valueset-endorser-r5 named endorser 0..1 MS 
 * extension[endorser] ^short = "Contact du responsable de l'artifact terminologique (ex : équipe RASS)"
-* extension contains ans-author-r5 named author 0..1 MS 
+* extension contains ans-valueset-author-r5 named author 0..1 MS 
 * extension[author] ^short = "Contact de l'auteur responsable de la maintenance de l'artifact terminologique (ex : équipe NOS)"
 
 * url ^short = "L'ANS est autorité sur les URLs de type https://mos.esante.gouv.fr/fhir/ValueSet/* et https://smt.esante.gouv.fr/fhir/ValueSet/*"
