@@ -1,6 +1,8 @@
 Profile: ANSShareableValueSet
 Parent: http://hl7.org/fhir/StructureDefinition/shareablevalueset
 Id: ans-shareable-valueset
+Title: "ANS Shareable ValueSet"
+Description: "ANS Shareable ValueSet"
 * id ^short = "Kebab Case sans préfixe de type 'JDV' ni suffixe de type 'CI-SIS', qui respecte l'expression régulière imposée par FHIR : https://www.hl7.org/fhir/R4/datatypes.html#id"
 * id 1.. 
 * id obeys ans-id-regex
