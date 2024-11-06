@@ -7933,7 +7933,7 @@
     "id" : "terminologie-bdpm",
     "type" : "CodeSystem",
     "url" : "https://smt.esante.gouv.fr/terminologie-bdpm",
-    "version" : "2024-10-01",
+    "version" : "2024-11-05",
     "name" : "Base_de_donn_es_publique_du_m_dicament___BDPM"
   },
   {
