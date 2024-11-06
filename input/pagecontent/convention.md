@@ -141,7 +141,7 @@ Preadoption de CodeSystem.author de R5  et R6 ?
       <td>http://hl7.org/fhir/StructureDefinition/shareablecodesystem</td>
     </tr>
     <tr>
-      <td style="text-align: left">meta</td>
+      <td style="text-align: left">meta.security</td>
       <td style="text-align: left">Gestion des permissions</td>
       <td>Exemple : <code> {
                 "system": http://ontoserver.csiro.au/CodeSystem/ontoserver-permissions,
