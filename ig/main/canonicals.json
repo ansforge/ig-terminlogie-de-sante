@@ -7937,10 +7937,11 @@
     "name" : "Base_de_donn_es_publique_du_m_dicament___BDPM"
   },
   {
-    "id" : "JDV-bdpm-all",
+    "id" : "vs-bdpm-all",
     "type" : "ValueSet",
     "url" : "https://smt.esante.gouv.fr/terminologie-bdpm?vs",
-    "name" : "BDPM Value Set"
+    "version" : "20241106120000",
+    "name" : "ValueSet_BDPM_All"
   },
   {
     "id" : "terminologie-ccam",
@@ -8010,6 +8011,13 @@
     "version" : "1.0.787",
     "name" : "NUVA",
     "oids" : ["1.3.6.1.4.1.48601.1"]
+  },
+  {
+    "id" : "vs-nuva-all",
+    "type" : "ValueSet",
+    "url" : "https://smt.esante.gouv.fr/terminologie-nuva?vs",
+    "version" : "20241106120000",
+    "name" : "ValueSet_NUVA_All"
   },
   {
     "id" : "terminologie-sms",

@@ -17387,17 +17387,6 @@
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="ValueSet"/>
-      </extension>
-      <reference>
-        <reference value="ValueSet/JDV-bdpm-all"/>
-      </reference>
-      <name value="BDPM Value Set"/>
-      <description value="Ce jeu de valeurs inclut tous les codes de la terminologie BDPM"/>
-      <exampleBoolean value="false"/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
         <valueString value="CodeSystem"/>
       </extension>
       <reference>
@@ -28117,6 +28106,28 @@
       </reference>
       <name value="TRE_R97_DroitExerciceCompl"/>
       <description value="Droit d'exercice complémentaire"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/vs-bdpm-all"/>
+      </reference>
+      <name value="ValueSet_BDPM_All"/>
+      <description value="Ce jeu de valeurs inclut tous les codes de la terminologie BDPM"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/vs-nuva-all"/>
+      </reference>
+      <name value="ValueSet_NUVA_All"/>
+      <description value="Ce jeu de valeurs inclut tous les codes concepts de la terminologie NUVA"/>
       <exampleBoolean value="false"/>
     </resource>
     <page>

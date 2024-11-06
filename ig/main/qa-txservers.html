@@ -11,7 +11,7 @@
 </head>
 <body style="margin: 20px; background-color: #ffffff">
  <h1>Terminology Server Report for Terminologie</h1>
- <p>Generated Wed Nov 06 10:46:49 UTC 2024, FHIR version 4.0.1 for ans.fr.terminologie#1.1.0 (canonical = <a href="https://interop.esante.gouv.fr/ig/terminologie">https://interop.esante.gouv.fr/ig/terminologie</a> (<a href="https://interop.esante.gouv.fr/ig/terminologie/history.html">history</a>))</p>
+ <p>Generated Wed Nov 06 15:45:00 UTC 2024, FHIR version 4.0.1 for ans.fr.terminologie#1.1.0 (canonical = <a href="https://interop.esante.gouv.fr/ig/terminologie">https://interop.esante.gouv.fr/ig/terminologie</a> (<a href="https://interop.esante.gouv.fr/ig/terminologie/history.html">history</a>))</p>
 <p>This page provides a report on which terminology servers were used while publishing this IG. Note that terminology caching reduces the server hit count - this page only reports content that wasn't cached</p>
 <h2>Terminology Parameters</h2>
 <ul>
@@ -7313,20 +7313,6 @@
     <td>auth = , candidates=http://tx.fhir.org/r4|https://tx.ontoserver.csiro.au/fhir</td>
   </tr>
   <tr>
-    <td>Found authoritative server https://smt.esante.gouv.fr/fhir</td>
-    <td>https://smt.esante.gouv.fr/fhir</td>
-    <td></td>
-    <td>https://smt.esante.gouv.fr/terminologie-bdpm</td>
-    <td>auth = https://smt.esante.gouv.fr/fhir, candidates=</td>
-  </tr>
-  <tr>
-    <td>Found authoritative server https://smt.esante.gouv.fr/fhir</td>
-    <td>https://smt.esante.gouv.fr/fhir</td>
-    <td>https://smt.esante.gouv.fr/terminologie-bdpm?vs</td>
-    <td>https://smt.esante.gouv.fr/terminologie-bdpm</td>
-    <td>auth = https://smt.esante.gouv.fr/fhir, candidates=</td>
-  </tr>
-  <tr>
     <td>Found candidate server http://tx.fhir.org/r4</td>
     <td>http://tx.fhir.org/r4</td>
     <td></td>
@@ -11786,6 +11772,34 @@
     <td>auth = , candidates=</td>
   </tr>
   <tr>
+    <td>Found authoritative server https://smt.esante.gouv.fr/fhir</td>
+    <td>https://smt.esante.gouv.fr/fhir</td>
+    <td></td>
+    <td>https://smt.esante.gouv.fr/terminologie-bdpm</td>
+    <td>auth = https://smt.esante.gouv.fr/fhir, candidates=</td>
+  </tr>
+  <tr>
+    <td>Found authoritative server https://smt.esante.gouv.fr/fhir</td>
+    <td>https://smt.esante.gouv.fr/fhir</td>
+    <td>https://smt.esante.gouv.fr/terminologie-bdpm?vs|20241106120000</td>
+    <td>https://smt.esante.gouv.fr/terminologie-bdpm</td>
+    <td>auth = https://smt.esante.gouv.fr/fhir, candidates=</td>
+  </tr>
+  <tr>
+    <td>Found authoritative server https://smt.esante.gouv.fr/fhir</td>
+    <td>https://smt.esante.gouv.fr/fhir</td>
+    <td></td>
+    <td>https://smt.esante.gouv.fr/terminologie-nuva</td>
+    <td>auth = https://smt.esante.gouv.fr/fhir, candidates=</td>
+  </tr>
+  <tr>
+    <td>Found authoritative server https://smt.esante.gouv.fr/fhir</td>
+    <td>https://smt.esante.gouv.fr/fhir</td>
+    <td>https://smt.esante.gouv.fr/terminologie-nuva?vs|20241106120000</td>
+    <td>https://smt.esante.gouv.fr/terminologie-nuva</td>
+    <td>auth = https://smt.esante.gouv.fr/fhir, candidates=</td>
+  </tr>
+  <tr>
     <td>Found candidate server http://tx.fhir.org/r4</td>
     <td>http://tx.fhir.org/r4</td>
     <td>http://hl7.org/fhir/ValueSet/jurisdiction|4.0.1</td>
@@ -12180,7 +12194,7 @@
 </table>
 <h2>Server: https://smt.esante.gouv.fr/fhir</h2>
 <a href="https://smt.esante.gouv.fr/fhir"></a>
-<p>Use Count: 123. Code Systems used: </p>
+<p>Use Count: 125. Code Systems used: </p>
 <table class="grid">
   <tr>
     <th>
@@ -12218,6 +12232,14 @@
     <td>29</td>
     <td>
       <a href="CodeSystem-terminologie-emdn.html">EMDN</a>
+    </td>
+  </tr>
+  <tr>
+    <td>https://smt.esante.gouv.fr/terminologie-nuva</td>
+    <td>2</td>
+    <td>0</td>
+    <td>
+      <a href="CodeSystem-terminologie-nuva.html">La Nomenclature Unifiée des Vaccins (NUVA)</a>
     </td>
   </tr>
   <tr>

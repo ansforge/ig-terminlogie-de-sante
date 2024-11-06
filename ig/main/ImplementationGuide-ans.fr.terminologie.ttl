@@ -19560,18 +19560,6 @@
      ] [
        fhir:extension ( [
          fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
-         fhir:value [ fhir:v "ValueSet" ]
-       ] ) ;
-       fhir:reference [
-         fhir:link <https://interop.esante.gouv.fr/ig/terminologie/ValueSet/JDV-bdpm-all> ;
-         fhir:reference [ fhir:v "ValueSet/JDV-bdpm-all" ]
-       ] ;
-       fhir:name [ fhir:v "BDPM Value Set" ] ;
-       fhir:description [ fhir:v "Ce jeu de valeurs inclut tous les codes de la terminologie BDPM" ] ;
-       fhir:example [ fhir:v "false"^^xsd:boolean ]
-     ] [
-       fhir:extension ( [
-         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
          fhir:value [ fhir:v "CodeSystem" ]
        ] ) ;
        fhir:reference [
@@ -31267,6 +31255,30 @@
        ] ;
        fhir:name [ fhir:v "TRE_R97_DroitExerciceCompl" ] ;
        fhir:description [ fhir:v "Droit d'exercice complémentaire" ] ;
+       fhir:example [ fhir:v "false"^^xsd:boolean ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "ValueSet" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <https://interop.esante.gouv.fr/ig/terminologie/ValueSet/vs-bdpm-all> ;
+         fhir:reference [ fhir:v "ValueSet/vs-bdpm-all" ]
+       ] ;
+       fhir:name [ fhir:v "ValueSet_BDPM_All" ] ;
+       fhir:description [ fhir:v "Ce jeu de valeurs inclut tous les codes de la terminologie BDPM" ] ;
+       fhir:example [ fhir:v "false"^^xsd:boolean ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "ValueSet" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <https://interop.esante.gouv.fr/ig/terminologie/ValueSet/vs-nuva-all> ;
+         fhir:reference [ fhir:v "ValueSet/vs-nuva-all" ]
+       ] ;
+       fhir:name [ fhir:v "ValueSet_NUVA_All" ] ;
+       fhir:description [ fhir:v "Ce jeu de valeurs inclut tous les codes concepts de la terminologie NUVA" ] ;
        fhir:example [ fhir:v "false"^^xsd:boolean ]
      ] ) ;
      fhir:page [

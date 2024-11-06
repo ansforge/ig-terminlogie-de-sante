@@ -1,7 +1,7 @@
 Terminologie : Validation Results
 =========================================
 
-err = 550, warn = 1455, info = 855
+err = 551, warn = 1454, info = 855
 $--
 Generated $--. FHIR version $-- for ans.fr.terminologie#$-- (canonical = https://interop.esante.gouv.fr/ig/terminologie)
  Build Errors : 905 / 23 / 0
@@ -40,7 +40,6 @@ Generated $--. FHIR version $-- for ans.fr.terminologie#$-- (canonical = https:/
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/DM/fsh-generated/resources/ValueSet-TRE-R222-MediaTypeCorpsCDANonStructure-all : 0 / 0 / 1
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/fsh-generated/resources/ImplementationGuide-ans.fr.terminologie : 0 / 0 / 1
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/ASS/Alignement_Codes_Presenttaion_BDPM_CIPUCD : 1 / 19 / 2
- /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/BDPM Value Set : 3 / 5 / 1
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/DesignationUse : 0 / 5 / 1
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_AbordVeineuxCentral_CISIS : 0 / 2 / 1
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_AbordVeineuxPeripherique_CISIS : 0 / 2 / 1
@@ -748,6 +747,8 @@ Generated $--. FHIR version $-- for ans.fr.terminologie#$-- (canonical = https:/
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_VaccinCSE9_CISIS : 0 / 2 / 1
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_VieEnCollectivite_CISIS : 0 / 0 / 1
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_VoieAbord_CISIS : 0 / 0 / 1
+ /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/ValueSet_BDPM_All : 1 / 2 / 1
+ /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/ValueSet_NUVA_All : 3 / 2 / 1
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/NamingSystem/LOINC : 1 / 0 / 2
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/NamingSystem/Snomed_CT_core_900000000000207008 : 1 / 0 / 2
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/TRE/ATC : 3 / 2 / 6
@@ -2575,15 +2576,6 @@ WARNING: ConceptMap/alignement-bdpm-cipucd: ConceptMap.group[0]: No Source Code 
 WARNING: ConceptMap/alignement-bdpm-cipucd: ConceptMap.group[0]: No Target Code System, so the target codes cannot be checked
 WARNING: ConceptMap/alignement-bdpm-cipucd: ConceptMap: Published concept maps SHOULD conform to the ShareableConceptMap profile, which says that the element ConceptMap.experimental is mandatory, but it is not present
 WARNING: ConceptMap/alignement-bdpm-cipucd: ConceptMap: Published concept maps SHOULD conform to the ShareableConceptMap profile, which says that the element ConceptMap.description is mandatory, but it is not present
-== input/ontoserver/JDV/BDPM Value Set.json ==
-ERROR: ValueSet/JDV-bdpm-all: ValueSet: ValueSet.version: minimum required = 1, but only found 0 (from http://hl7.org/fhir/StructureDefinition/shareablevalueset|4.0.1)
-ERROR: ValueSet/JDV-bdpm-all: ValueSet: ValueSet.experimental: minimum required = 1, but only found 0 (from http://hl7.org/fhir/StructureDefinition/shareablevalueset|4.0.1)
-WARNING: ValueSet/JDV-bdpm-all: ValueSet: Constraint failed: vsd-0: 'Name should be usable as an identifier for the module by machine processing applications such as code generation' (defined in http://hl7.org/fhir/StructureDefinition/ValueSet)
-WARNING: ValueSet/JDV-bdpm-all: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.version is mandatory, but it is not present
-WARNING: ValueSet/JDV-bdpm-all: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.title is mandatory, but it is not present
-WARNING: ValueSet/JDV-bdpm-all: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.experimental is mandatory, but it is not present
-WARNING: ValueSet/JDV-bdpm-all: ValueSet: Resource has a language, but the XHTML does not have an lang or an xml:lang tag (needs both - see https://www.w3.org/TR/i18n-html-tech-lang/#langvalues)
-ERROR: ValueSet.where(id = 'JDV-bdpm-all'): Error from https://smt.esante.gouv.fr/fhir: Unparseable HTML
 == input/ontoserver/JDV/DesignationUse.json ==
 WARNING: ValueSet/designation-use: ValueSet: The nominated WG 'vocab' means that the publisher should be either 'HL7 International / Terminology Infrastructure'or 'HL7 International / Vocabulary' but 'ANS' was found
 WARNING: ValueSet/designation-use: ValueSet: The nominated WG 'vocab' means that the contact url should be 'http://www.hl7.org/Special/committees/Vocab' but it was not found
@@ -4694,6 +4686,16 @@ WARNING: ValueSet/1.2.250.1.213.1.1.5.106: ValueSet.compose.include[0]: Unknown 
 WARNING: ValueSet.where(id = '1.2.250.1.213.1.1.5.106'): Error from http://tx.fhir.org/r4: Unable to provide support for code system urn:oid:2.16.840.1.113883.6.73
 == input/ontoserver/JDV/JDV_VieEnCollectivite_CISIS.json ==
 == input/ontoserver/JDV/JDV_VoieAbord_CISIS.json ==
+== input/ontoserver/JDV/ValueSet_BDPM_All.json ==
+WARNING: ValueSet/vs-bdpm-all: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.title is mandatory, but it is not present
+WARNING: ValueSet/vs-bdpm-all: ValueSet: Resource has a language, but the XHTML does not have an lang or an xml:lang tag (needs both - see https://www.w3.org/TR/i18n-html-tech-lang/#langvalues)
+ERROR: ValueSet.where(id = 'vs-bdpm-all'): Error from https://smt.esante.gouv.fr/fhir: Unparseable HTML
+== input/ontoserver/JDV/ValueSet_NUVA_All.json ==
+ERROR: ValueSet.where(url = 'https://smt.esante.gouv.fr/terminologie-nuva?vs'): Conformance resource /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/ValueSet_NUVA_All.json - the canonical URL (https://interop.esante.gouv.fr/ig/terminologie/ValueSet/vs-nuva-all) does not match the URL (https://smt.esante.gouv.fr/terminologie-nuva?vs)
+WARNING: ValueSet/vs-nuva-all: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.title is mandatory, but it is not present
+WARNING: ValueSet/vs-nuva-all: ValueSet: Resource has a language, but the XHTML does not have an lang or an xml:lang tag (needs both - see https://www.w3.org/TR/i18n-html-tech-lang/#langvalues)
+ERROR: ValueSet.where(id = 'vs-nuva-all'): Error from https://smt.esante.gouv.fr/fhir: Unparseable HTML
+ERROR: /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/ValueSet_NUVA_All: URL Mismatch https://interop.esante.gouv.fr/ig/terminologie/ValueSet/vs-nuva-all vs https://smt.esante.gouv.fr/terminologie-nuva?vs
 == input/ontoserver/NamingSystem/LOINC.json ==
 INFORMATION: NamingSystem/v3-loinc: NamingSystem.meta.tag[0]: Reference to draft CodeSystem http://terminology.hl7.org/CodeSystem/v3-ObservationValue|3.1.0
 ERROR: NamingSystem/v3-loinc: NamingSystem.meta.tag[0].display: Wrong Display Name 'Resource encoded in summary mode' for http://terminology.hl7.org/CodeSystem/v3-ObservationValue#SUBSETTED. Valid display is 'subsetted' (en) (for the language(s) 'en')

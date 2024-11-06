@@ -9227,15 +9227,24 @@
     },
     {
       "url" : "https://smt.esante.gouv.fr/terminologie-bdpm?vs",
-      "version" : null,
+      "version" : "20241106120000",
       "status" : "active",
-      "name" : "BDPM Value Set",
+      "name" : "ValueSet_BDPM_All",
       "title" : null,
       "description" : "Ce jeu de valeurs inclut tous les codes de la terminologie BDPM",
       "systems" : ["https://smt.esante.gouv.fr/terminologie-bdpm"],
       "uses" : {
       },
       "ConceptMap-alignement-bdpm-cipucd.html" : "Aligner les codes de présentation de la BDPM avec les codes CIP du référentiel CIP-UCD"
+    },
+    {
+      "url" : "https://smt.esante.gouv.fr/terminologie-nuva?vs",
+      "version" : "20241106120000",
+      "status" : "active",
+      "name" : "ValueSet_NUVA_All",
+      "title" : null,
+      "description" : "Ce jeu de valeurs inclut tous les codes concepts de la terminologie NUVA",
+      "systems" : ["https://smt.esante.gouv.fr/terminologie-nuva"]
     }
   ]
 }
