@@ -25,6 +25,8 @@ Les workflows associés à ce repository (.github/workflows) permettent :
 * De faire les tests avec le validator_cli
 * De publier les pages : https://ansforge.github.io/{nom du repo}/ig/{nom de la branche}
 
+Exemple : https://ansforge.github.io/IG-terminologie-de-sante/ig/main
+
 # Notes
 Ce repo  a été créé à partir du repo "sample-ig" de l'organisation GitHub FHIR : https://github.com/FHIR/sample-ig.
 
