@@ -1,4 +1,7 @@
 Alias: $TRE-R95-UsagerTitre = https://mos.esante.gouv.fr/NOS/TRE_R95-UsagerTitre/FHIR/TRE_R95-UsagerTitre
+Alias: $TRE-R94-ProfessionSocial = https://mos.esante.gouv.fr/NOS/TRE_R94-ProfessionSocial/FHIR/TRE-R94-ProfessionSocial
+Alias: $TRE-R85-RolePriseCharge = https://mos.esante.gouv.fr/NOS/TRE_R85-RolePriseCharge/FHIR/TRE-R85-RolePriseCharge
+
 
 ValueSet: dco_JDV-J48-ProfessionNonPS-CISIS
 Id: dco-JDV-J48-ProfessionNonPS-CISIS
@@ -8,7 +11,7 @@ Description: "Jeux de Valeurs des professions/spécialités des Non Ps"
 * ^extension.url = "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod"
 * ^extension.valuePeriod.start = "2018-03-30T12:00:00+01:00"
 * ^extension.valuePeriod.end = "2024-12-12T12:00:00+01:00"
-* ^url = "https://mos.esante.gouv.fr/NOS/TRE_R95-UsagerTitre/FHIR/TRE-R95-UsagerTitre?vs"
+* ^url = "https://mos.esante.gouv.fr/NOS/JDV_J48-ProfessionNonPS-CISIS/FHIR/JDV-J48-ProfessionNonPS-CISIS?vs"
 * ^version = "1.1.0"
 * ^status = #active
 * ^experimental = false
@@ -17,4 +20,7 @@ Description: "Jeux de Valeurs des professions/spécialités des Non Ps"
 * ^contact.telecom.system = #url
 * ^contact.telecom.value = "https://esante.gouv.fr"
 * ^jurisdiction = urn:iso:std:iso:3166#FR "France"
-* include codes from system $TRE-R221-ModeleDocumentCDANonStructure
+* include codes from system $TRE-R95-UsagerTitre 
+* include codes from system $TRE-R94-ProfessionSocial
+* include codes from system $TRE-R85-RolePriseCharge
+
