@@ -20,7 +20,57 @@ Description: "Jeux de Valeurs des professions/spécialités des Non Ps"
 * ^contact.telecom.system = #url
 * ^contact.telecom.value = "https://esante.gouv.fr"
 * ^jurisdiction = urn:iso:std:iso:3166#FR "France"
-* include codes from system $TRE-R95-UsagerTitre 
-* include codes from system $TRE-R94-ProfessionSocial
-* include codes from system $TRE-R85-RolePriseCharge
-
+* $TRE-R95-UsagerTitre#71
+* $TRE-R95-UsagerTitre#72
+* $TRE-R95-UsagerTitre#73
+* $TRE-R95-UsagerTitre#93
+* $TRE-R95-UsagerTitre#97
+* $TRE-R94-ProfessionSocial#41
+* $TRE-R94-ProfessionSocial#42
+* $TRE-R94-ProfessionSocial#43
+* $TRE-R94-ProfessionSocial#44
+* $TRE-R94-ProfessionSocial#45
+* $TRE-R94-ProfessionSocial#46
+* $TRE-R94-ProfessionSocial#47
+* $TRE-R94-ProfessionSocial#48
+* $TRE-R94-ProfessionSocial#49
+* $TRE-R94-ProfessionSocial#51
+* $TRE-R94-ProfessionSocial#52
+* $TRE-R94-ProfessionSocial#53
+* $TRE-R85-RolePriseEnCharge#300
+* $TRE-R85-RolePriseEnCharge#301
+* $TRE-R85-RolePriseEnCharge#302
+* $TRE-R85-RolePriseEnCharge#303
+* $TRE-R85-RolePriseEnCharge#304
+* $TRE-R85-RolePriseEnCharge#305
+* $TRE-R85-RolePriseEnCharge#306
+* $TRE-R85-RolePriseEnCharge#307
+* $TRE-R85-RolePriseEnCharge#308
+* $TRE-R85-RolePriseEnCharge#309
+* $TRE-R85-RolePriseEnCharge#310
+* $TRE-R85-RolePriseEnCharge#311
+* $TRE-R85-RolePriseEnCharge#312
+* $TRE-R85-RolePriseEnCharge#313
+* $TRE-R85-RolePriseEnCharge#314
+* $TRE-R85-RolePriseEnCharge#315
+* $TRE-R85-RolePriseEnCharge#316
+* $TRE-R85-RolePriseEnCharge#317
+* $TRE-R85-RolePriseEnCharge#318
+* $TRE-R85-RolePriseEnCharge#319
+* $TRE-R85-RolePriseEnCharge#320
+* $TRE-R85-RolePriseEnCharge#321
+* $TRE-R85-RolePriseEnCharge#322
+* $TRE-R85-RolePriseEnCharge#323
+* $TRE-R85-RolePriseEnCharge#324
+* $TRE-R85-RolePriseEnCharge#325
+* $TRE-R85-RolePriseEnCharge#326
+* $TRE-R85-RolePriseEnCharge#327
+* $TRE-R85-RolePriseEnCharge#328
+* $TRE-R85-RolePriseEnCharge#329
+* $TRE-R85-RolePriseEnCharge#331
+* $TRE-R85-RolePriseEnCharge#332
+* $TRE-R85-RolePriseEnCharge#333
+* $TRE-R85-RolePriseEnCharge#334
+* $TRE-R85-RolePriseEnCharge#335
+* $TRE-R85-RolePriseEnCharge#350
+* $TRE-R85-RolePriseEnCharge#351
