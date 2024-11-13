@@ -11735,7 +11735,7 @@
     },
     {
       "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-internal-dependency",
-      "valueCode" : "hl7.fhir.uv.tools#0.2.0"
+      "valueCode" : "hl7.fhir.uv.tools.r4#0.3.0"
     },
     {
       "extension" : [{
@@ -32411,6 +32411,18 @@
       },
       "name" : "JDV_VoieAbord_CISIS",
       "description" : "JDV_VoieAbord_CISIS",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "CodeSystem"
+      }],
+      "reference" : {
+        "reference" : "CodeSystem/cim-10-terminologie-fr"
+      },
+      "name" : "La Classification Internationale des Maladies (CIM)",
+      "description" : "La Classification Internationale des Maladies (CIM) à usage experimentale",
       "exampleBoolean" : false
     },
     {

@@ -1,7 +1,7 @@
 Terminologie : Validation Results
 =========================================
 
-err = 551, warn = 1454, info = 855
+err = 553, warn = 1454, info = 856
 $--
 Generated $--. FHIR version $-- for ans.fr.terminologie#$-- (canonical = https://interop.esante.gouv.fr/ig/terminologie)
  Build Errors : 905 / 23 / 0
@@ -754,6 +754,7 @@ Generated $--. FHIR version $-- for ans.fr.terminologie#$-- (canonical = https:/
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/TRE/ATC : 3 / 2 / 6
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/TRE/Base_de_donn_es_publique_du_m_dicament___BDPM : 3 / 2 / 6
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/TRE/CCAM : 3 / 3 / 6
+ /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/TRE/CIM10_Terminologie_Fr : 2 / 0 / 2
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/TRE/CIM11_MMS : 3 / 2 / 6
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/TRE/CIM_10 : 3 / 3 / 6
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/TRE/CISP_2 : 3 / 2 / 6
@@ -4736,6 +4737,10 @@ WARNING: CodeSystem/terminologie-ccam: CodeSystem: Published code systems SHOULD
 WARNING: CodeSystem/terminologie-ccam: CodeSystem: Published code systems SHOULD conform to the ShareableCodeSystem profile, which says that the element CodeSystem.caseSensitive is mandatory, but it is not present
 INFORMATION: CodeSystem/terminologie-ccam: CodeSystem.property[28]: This property has only a code ('imported') and not a URI, so it has no clearly defined meaning in the terminology ecosystem
 INFORMATION: CodeSystem/terminologie-ccam: CodeSystem.property[29]: This property has only a code ('root') and not a URI, so it has no clearly defined meaning in the terminology ecosystem
+== input/ontoserver/TRE/CIM10_Terminologie_Fr.json ==
+ERROR: CodeSystem.where(url = 'http://hl7.org/fhir/sid/icd-10-cm'): Conformance resource /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/TRE/CIM10_Terminologie_Fr.json - the canonical URL (https://interop.esante.gouv.fr/ig/terminologie/CodeSystem/cim-10-terminologie-fr) does not match the URL (http://hl7.org/fhir/sid/icd-10-cm)
+INFORMATION: CodeSystem/cim-10-terminologie-fr: CodeSystem: Most code systems defined in HL7 IGs will need to move to THO later during the process. Consider giving this code system a THO URL now (See https://confluence.hl7.org/display/TSMG/Terminology+Play+Book, and/or talk to TSMG)
+ERROR: /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/TRE/CIM10_Terminologie_Fr: URL Mismatch https://interop.esante.gouv.fr/ig/terminologie/CodeSystem/cim-10-terminologie-fr vs http://hl7.org/fhir/sid/icd-10-cm
 == input/ontoserver/TRE/CIM11_MMS.json ==
 ERROR: CodeSystem/terminologie-cim11-mms: CodeSystem: CodeSystem.description: minimum required = 1, but only found 0 (from http://hl7.org/fhir/StructureDefinition/shareablecodesystem|4.0.1)
 ERROR: CodeSystem/terminologie-cim11-mms: CodeSystem: CodeSystem.concept: minimum required = 1, but only found 0 (from http://hl7.org/fhir/StructureDefinition/shareablecodesystem|4.0.1)

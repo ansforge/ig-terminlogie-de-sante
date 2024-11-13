@@ -1,4 +1,5 @@
 URL,Version,Status,OIDs,Name,Title,Description,Used
+http://hl7.org/fhir/sid/icd-10-cm,2024-01-01,draft,,CIM10_Terminologie_Fr,La Classification Internationale des Maladies (CIM),"La Classification Internationale des Maladies (CIM) à usage experimentale",
 http://terminology.hl7.org/CodeSystem/service-type,1.1.0,draft,"2.16.840.1.113883.4.642.1.1145",ServiceType,Service type,"This value set defines an example set of codes of service-types.",
 https://mos.esante.gouv.fr/NOS/TRE_A00-ProducteurDocNonPS/FHIR/TRE-A00-ProducteurDocNonPS,20240329120000,active,"1.2.250.1.213.1.1.4.6",TRE_A00_ProducteurDocNonPS,,"Producteur de document non PS",
 https://mos.esante.gouv.fr/NOS/TRE_A01-CadreExercice/FHIR/TRE-A01-CadreExercice,20240927120000,active,"1.2.250.1.213.1.1.4.9",TRE_A01_CadreExercice,,"Cadre d'exercice",

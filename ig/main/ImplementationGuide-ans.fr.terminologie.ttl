@@ -9623,7 +9623,7 @@
        fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"^^xsd:anyURI ]
      ] [
        fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/ig-internal-dependency"^^xsd:anyURI ] ;
-       fhir:value [ fhir:v "hl7.fhir.uv.tools#0.2.0" ]
+       fhir:value [ fhir:v "hl7.fhir.uv.tools.r4#0.3.0" ]
      ] [
        fhir:extension ( [
          fhir:url [ fhir:v "code"^^xsd:anyURI ] ;
@@ -28176,6 +28176,18 @@
        ] ;
        fhir:name [ fhir:v "JDV_VoieAbord_CISIS" ] ;
        fhir:description [ fhir:v "JDV_VoieAbord_CISIS" ] ;
+       fhir:example [ fhir:v "false"^^xsd:boolean ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "CodeSystem" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <https://interop.esante.gouv.fr/ig/terminologie/CodeSystem/cim-10-terminologie-fr> ;
+         fhir:reference [ fhir:v "CodeSystem/cim-10-terminologie-fr" ]
+       ] ;
+       fhir:name [ fhir:v "La Classification Internationale des Maladies (CIM)" ] ;
+       fhir:description [ fhir:v "La Classification Internationale des Maladies (CIM) à usage experimentale" ] ;
        fhir:example [ fhir:v "false"^^xsd:boolean ]
      ] [
        fhir:extension ( [
