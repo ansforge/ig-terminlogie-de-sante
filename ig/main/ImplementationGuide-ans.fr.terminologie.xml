@@ -17451,16 +17451,6 @@
         <valueString value="CodeSystem"/>
       </extension>
       <reference>
-        <reference value="CodeSystem/terminologie-sms"/>
-      </reference>
-      <name value="Dictionnaire_des_substances_m_dicamenteuses__SMS_"/>
-      <exampleBoolean value="false"/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="CodeSystem"/>
-      </extension>
-      <reference>
         <reference value="CodeSystem/terminologie-standardterms"/>
       </reference>
       <name value="EDQM___Standard_Terms"/>
@@ -28124,10 +28114,32 @@
         <valueString value="ValueSet"/>
       </extension>
       <reference>
+        <reference value="ValueSet/vs-atc-all"/>
+      </reference>
+      <name value="ValueSet_ATC_All"/>
+      <description value="Ce jeu de valeurs inclut tous les codes concepts de la terminologie ATC"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
         <reference value="ValueSet/vs-bdpm-all"/>
       </reference>
       <name value="ValueSet_BDPM_All"/>
       <description value="Ce jeu de valeurs inclut tous les codes de la terminologie BDPM"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/vs-cipucd-all"/>
+      </reference>
+      <name value="ValueSet_CIPUCD_All"/>
+      <description value="Ce jeu de valeurs inclut tous les codes concepts de la terminologie CIP-UCD"/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>

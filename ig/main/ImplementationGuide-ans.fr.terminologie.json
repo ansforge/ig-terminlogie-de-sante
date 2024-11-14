@@ -23866,17 +23866,6 @@
         "valueString" : "CodeSystem"
       }],
       "reference" : {
-        "reference" : "CodeSystem/terminologie-sms"
-      },
-      "name" : "Dictionnaire_des_substances_m_dicamenteuses__SMS_",
-      "exampleBoolean" : false
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "CodeSystem"
-      }],
-      "reference" : {
         "reference" : "CodeSystem/terminologie-standardterms"
       },
       "name" : "EDQM___Standard_Terms",
@@ -35510,10 +35499,34 @@
         "valueString" : "ValueSet"
       }],
       "reference" : {
+        "reference" : "ValueSet/vs-atc-all"
+      },
+      "name" : "ValueSet_ATC_All",
+      "description" : "Ce jeu de valeurs inclut tous les codes concepts de la terminologie ATC",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      }],
+      "reference" : {
         "reference" : "ValueSet/vs-bdpm-all"
       },
       "name" : "ValueSet_BDPM_All",
       "description" : "Ce jeu de valeurs inclut tous les codes de la terminologie BDPM",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      }],
+      "reference" : {
+        "reference" : "ValueSet/vs-cipucd-all"
+      },
+      "name" : "ValueSet_CIPUCD_All",
+      "description" : "Ce jeu de valeurs inclut tous les codes concepts de la terminologie CIP-UCD",
       "exampleBoolean" : false
     },
     {

@@ -7937,6 +7937,13 @@
     "oids" : ["2.16.840.1.113883.6.73"]
   },
   {
+    "id" : "vs-atc-all",
+    "type" : "ValueSet",
+    "url" : "https://smt.esante.gouv.fr/terminologie-atc?vs",
+    "version" : "20241114120000",
+    "name" : "ValueSet_ATC_All"
+  },
+  {
     "id" : "terminologie-bdpm",
     "type" : "CodeSystem",
     "url" : "https://smt.esante.gouv.fr/terminologie-bdpm",
@@ -7971,6 +7978,13 @@
     "url" : "https://smt.esante.gouv.fr/terminologie-cim11-mms",
     "version" : "2024-01",
     "name" : "CIM11_MMS"
+  },
+  {
+    "id" : "vs-cipucd-all",
+    "type" : "ValueSet",
+    "url" : "https://smt.esante.gouv.fr/terminologie-cip_ucd?vs",
+    "version" : "20241114120000",
+    "name" : "ValueSet_CIPUCD_All"
   },
   {
     "id" : "terminologie-cisp",
@@ -8025,13 +8039,6 @@
     "url" : "https://smt.esante.gouv.fr/terminologie-nuva?vs",
     "version" : "20241106120000",
     "name" : "ValueSet_NUVA_All"
-  },
-  {
-    "id" : "terminologie-sms",
-    "type" : "CodeSystem",
-    "url" : "https://smt.esante.gouv.fr/terminologie-sms",
-    "version" : "2024-10",
-    "name" : "Dictionnaire_des_substances_m_dicamenteuses__SMS_"
   },
   {
     "id" : "terminologie-standardterms",

@@ -2,12 +2,12 @@
 <RetrieveValueSetResponse xmlns="urn:ihe:iti:svs:2008"
                           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
    <ValueSet dateFin=""
-             dateMaj="20241015093000"
+             dateMaj="20241114102705"
              dateValid=""
-             description=""
-             displayName="Dictionnaire_des_substances_m_dicamenteuses__SMS_"
+             description="Ce jeu de valeurs inclut tous les codes concepts de la terminologie CIP-UCD"
+             displayName="ValueSet_CIPUCD_All"
              id=""
-             typeFichier="TRE"
+             typeFichier="JDV"
              urlFichier="">
       <ConceptList/>
    </ValueSet>

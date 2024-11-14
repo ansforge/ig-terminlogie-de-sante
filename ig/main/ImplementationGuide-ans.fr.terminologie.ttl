@@ -19630,17 +19630,6 @@
          fhir:value [ fhir:v "CodeSystem" ]
        ] ) ;
        fhir:reference [
-         fhir:link <https://interop.esante.gouv.fr/ig/terminologie/CodeSystem/terminologie-sms> ;
-         fhir:reference [ fhir:v "CodeSystem/terminologie-sms" ]
-       ] ;
-       fhir:name [ fhir:v "Dictionnaire_des_substances_m_dicamenteuses__SMS_" ] ;
-       fhir:example [ fhir:v "false"^^xsd:boolean ]
-     ] [
-       fhir:extension ( [
-         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
-         fhir:value [ fhir:v "CodeSystem" ]
-       ] ) ;
-       fhir:reference [
          fhir:link <https://interop.esante.gouv.fr/ig/terminologie/CodeSystem/terminologie-standardterms> ;
          fhir:reference [ fhir:v "CodeSystem/terminologie-standardterms" ]
        ] ;
@@ -31274,11 +31263,35 @@
          fhir:value [ fhir:v "ValueSet" ]
        ] ) ;
        fhir:reference [
+         fhir:link <https://interop.esante.gouv.fr/ig/terminologie/ValueSet/vs-atc-all> ;
+         fhir:reference [ fhir:v "ValueSet/vs-atc-all" ]
+       ] ;
+       fhir:name [ fhir:v "ValueSet_ATC_All" ] ;
+       fhir:description [ fhir:v "Ce jeu de valeurs inclut tous les codes concepts de la terminologie ATC" ] ;
+       fhir:example [ fhir:v "false"^^xsd:boolean ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "ValueSet" ]
+       ] ) ;
+       fhir:reference [
          fhir:link <https://interop.esante.gouv.fr/ig/terminologie/ValueSet/vs-bdpm-all> ;
          fhir:reference [ fhir:v "ValueSet/vs-bdpm-all" ]
        ] ;
        fhir:name [ fhir:v "ValueSet_BDPM_All" ] ;
        fhir:description [ fhir:v "Ce jeu de valeurs inclut tous les codes de la terminologie BDPM" ] ;
+       fhir:example [ fhir:v "false"^^xsd:boolean ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "ValueSet" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <https://interop.esante.gouv.fr/ig/terminologie/ValueSet/vs-cipucd-all> ;
+         fhir:reference [ fhir:v "ValueSet/vs-cipucd-all" ]
+       ] ;
+       fhir:name [ fhir:v "ValueSet_CIPUCD_All" ] ;
+       fhir:description [ fhir:v "Ce jeu de valeurs inclut tous les codes concepts de la terminologie CIP-UCD" ] ;
        fhir:example [ fhir:v "false"^^xsd:boolean ]
      ] [
        fhir:extension ( [
