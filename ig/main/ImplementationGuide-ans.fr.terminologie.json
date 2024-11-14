@@ -23866,6 +23866,17 @@
         "valueString" : "CodeSystem"
       }],
       "reference" : {
+        "reference" : "CodeSystem/terminologie-sms"
+      },
+      "name" : "Dictionnaire_des_substances_m_dicamenteuses__SMS_",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "CodeSystem"
+      }],
+      "reference" : {
         "reference" : "CodeSystem/terminologie-standardterms"
       },
       "name" : "EDQM___Standard_Terms",
@@ -32408,18 +32419,6 @@
         "valueString" : "CodeSystem"
       }],
       "reference" : {
-        "reference" : "CodeSystem/cim-10-terminologie-fr"
-      },
-      "name" : "La Classification Internationale des Maladies (CIM)",
-      "description" : "La Classification Internationale des Maladies (CIM) à usage experimentale",
-      "exampleBoolean" : false
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "CodeSystem"
-      }],
-      "reference" : {
         "reference" : "CodeSystem/terminologie-nuva"
       },
       "name" : "La Nomenclature Unifiée des Vaccins (NUVA)",
@@ -35535,10 +35534,34 @@
         "valueString" : "ValueSet"
       }],
       "reference" : {
+        "reference" : "ValueSet/vs-edqm-all"
+      },
+      "name" : "ValueSet_EDQM_All",
+      "description" : "Ce jeu de valeurs inclut tous les codes de la terminologie EDQM",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      }],
+      "reference" : {
         "reference" : "ValueSet/vs-nuva-all"
       },
       "name" : "ValueSet_NUVA_All",
       "description" : "Ce jeu de valeurs inclut tous les codes concepts de la terminologie NUVA",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      }],
+      "reference" : {
+        "reference" : "ValueSet/vs-sms-all"
+      },
+      "name" : "ValueSet_SMS_All",
+      "description" : "Ce jeu de valeurs inclut tous les codes de la terminologie SMS, Dictionnaire des substances médicamenteuses",
       "exampleBoolean" : false
     }],
     "page" : {

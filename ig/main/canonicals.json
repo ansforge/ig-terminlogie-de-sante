@@ -8,13 +8,6 @@
     "oids" : ["2.16.840.1.113883.4.642.3.264"]
   },
   {
-    "id" : "cim-10-terminologie-fr",
-    "type" : "CodeSystem",
-    "url" : "http://hl7.org/fhir/sid/icd-10-cm",
-    "version" : "2024-01-01",
-    "name" : "CIM10_Terminologie_Fr"
-  },
-  {
     "id" : "service-type",
     "type" : "CodeSystem",
     "url" : "http://terminology.hl7.org/CodeSystem/service-type",
@@ -8041,12 +8034,33 @@
     "name" : "ValueSet_NUVA_All"
   },
   {
+    "id" : "terminologie-sms",
+    "type" : "CodeSystem",
+    "url" : "https://smt.esante.gouv.fr/terminologie-sms",
+    "version" : "2024-11",
+    "name" : "Dictionnaire_des_substances_m_dicamenteuses__SMS_"
+  },
+  {
+    "id" : "vs-sms-all",
+    "type" : "ValueSet",
+    "url" : "https://smt.esante.gouv.fr/terminologie-sms?vs",
+    "version" : "20241114120000",
+    "name" : "ValueSet_SMS_All"
+  },
+  {
     "id" : "terminologie-standardterms",
     "type" : "CodeSystem",
     "url" : "https://smt.esante.gouv.fr/terminologie-standardterms",
     "version" : "2024-06-20",
     "name" : "EDQM___Standard_Terms",
     "oids" : ["0.4.0.127.0.16.1.1.2.1"]
+  },
+  {
+    "id" : "vs-edqm-all",
+    "type" : "ValueSet",
+    "url" : "https://smt.esante.gouv.fr/terminologie-standardterms?vs",
+    "version" : "20241114120000",
+    "name" : "ValueSet_EDQM_All"
   },
   {
     "id" : "alignement-bdpm-cipucd",

@@ -17451,6 +17451,16 @@
         <valueString value="CodeSystem"/>
       </extension>
       <reference>
+        <reference value="CodeSystem/terminologie-sms"/>
+      </reference>
+      <name value="Dictionnaire_des_substances_m_dicamenteuses__SMS_"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="CodeSystem"/>
+      </extension>
+      <reference>
         <reference value="CodeSystem/terminologie-standardterms"/>
       </reference>
       <name value="EDQM___Standard_Terms"/>
@@ -25281,17 +25291,6 @@
         <valueString value="CodeSystem"/>
       </extension>
       <reference>
-        <reference value="CodeSystem/cim-10-terminologie-fr"/>
-      </reference>
-      <name value="La Classification Internationale des Maladies (CIM)"/>
-      <description value="La Classification Internationale des Maladies (CIM) à usage experimentale"/>
-      <exampleBoolean value="false"/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="CodeSystem"/>
-      </extension>
-      <reference>
         <reference value="CodeSystem/terminologie-nuva"/>
       </reference>
       <name value="La Nomenclature Unifiée des Vaccins (NUVA)"/>
@@ -28147,10 +28146,32 @@
         <valueString value="ValueSet"/>
       </extension>
       <reference>
+        <reference value="ValueSet/vs-edqm-all"/>
+      </reference>
+      <name value="ValueSet_EDQM_All"/>
+      <description value="Ce jeu de valeurs inclut tous les codes de la terminologie EDQM"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
         <reference value="ValueSet/vs-nuva-all"/>
       </reference>
       <name value="ValueSet_NUVA_All"/>
       <description value="Ce jeu de valeurs inclut tous les codes concepts de la terminologie NUVA"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/vs-sms-all"/>
+      </reference>
+      <name value="ValueSet_SMS_All"/>
+      <description value="Ce jeu de valeurs inclut tous les codes de la terminologie SMS, Dictionnaire des substances médicamenteuses"/>
       <exampleBoolean value="false"/>
     </resource>
     <page>
