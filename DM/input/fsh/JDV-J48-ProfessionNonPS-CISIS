@@ -3,15 +3,15 @@ Alias: $TRE-R94-ProfessionSocial = https://mos.esante.gouv.fr/NOS/TRE_R94-Profes
 Alias: $TRE-R85-RolePriseCharge = https://mos.esante.gouv.fr/NOS/TRE_R85-RolePriseCharge/FHIR/TRE-R85-RolePriseCharge
 
 
-ValueSet: dco_JDV-J48-ProfessionNonPS-CISIS
-Id: DCO-JDV-J48-ProfessionNonPS-CISIS
-Title: "DCO_JDV-J48-ProfessionNonPS-CISIS"
+ValueSet: JDV-J48-ProfessionNonPS-CISIS
+Id: JDV-J48-ProfessionNonPS-CISIS
+Title: "JDV-J48-ProfessionNonPS-CISIS"
 Description: "Jeux de Valeurs des professions/spécialités des Non Ps"
 * ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablevalueset"
 * ^extension.url = "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod"
 * ^extension.valuePeriod.start = "2018-03-30T12:00:00+01:00"
 * ^extension.valuePeriod.end = "2024-12-12T12:00:00+01:00"
-* ^url = "https://mos.esante.gouv.fr/NOS/DCO_JDV_J48-ProfessionNonPS-CISIS/FHIR/DCO_JDV-J48-ProfessionNonPS-CISIS?vs"
+* ^url = "https://mos.esante.gouv.fr/NOS/JDV_J48-ProfessionNonPS-CISIS/FHIR/JDV-J48-ProfessionNonPS-CISIS?vs"
 * ^version = "1.1.0"
 * ^status = #active
 * ^experimental = false
