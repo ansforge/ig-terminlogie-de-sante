@@ -17400,16 +17400,6 @@
         <valueString value="CodeSystem"/>
       </extension>
       <reference>
-        <reference value="CodeSystem/terminologie-cim-10"/>
-      </reference>
-      <name value="CIM_10"/>
-      <exampleBoolean value="false"/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="CodeSystem"/>
-      </extension>
-      <reference>
         <reference value="CodeSystem/terminologie-cladimed"/>
       </reference>
       <name value="CLADIMED"/>
@@ -17420,9 +17410,19 @@
         <valueString value="CodeSystem"/>
       </extension>
       <reference>
+        <reference value="CodeSystem/terminologie-cim-10"/>
+      </reference>
+      <name value="Classification internationale des maladies (10eme révision). Version française à usage PMSI"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="CodeSystem"/>
+      </extension>
+      <reference>
         <reference value="CodeSystem/terminologie-cim11-mms"/>
       </reference>
-      <name value="Classification Internationale des Maladies 11ème révision pour les statistiques de mortalité et de morbidité"/>
+      <name value="Classification internationale des maladies (11eme révision). Linéarisation pour les statistiques de morbi-mortalité"/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>

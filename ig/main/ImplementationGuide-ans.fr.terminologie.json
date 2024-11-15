@@ -23810,17 +23810,6 @@
         "valueString" : "CodeSystem"
       }],
       "reference" : {
-        "reference" : "CodeSystem/terminologie-cim-10"
-      },
-      "name" : "CIM_10",
-      "exampleBoolean" : false
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "CodeSystem"
-      }],
-      "reference" : {
         "reference" : "CodeSystem/terminologie-cladimed"
       },
       "name" : "CLADIMED",
@@ -23832,9 +23821,20 @@
         "valueString" : "CodeSystem"
       }],
       "reference" : {
+        "reference" : "CodeSystem/terminologie-cim-10"
+      },
+      "name" : "Classification internationale des maladies (10eme révision). Version française à usage PMSI",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "CodeSystem"
+      }],
+      "reference" : {
         "reference" : "CodeSystem/terminologie-cim11-mms"
       },
-      "name" : "Classification Internationale des Maladies 11ème révision pour les statistiques de mortalité et de morbidité",
+      "name" : "Classification internationale des maladies (11eme révision). Linéarisation pour les statistiques de morbi-mortalité",
       "exampleBoolean" : false
     },
     {

@@ -1,7 +1,7 @@
 Terminologie : Validation Results
 =========================================
 
-err = 562, warn = 1463, info = 855
+err = 562, warn = 1462, info = 855
 $--
 Generated $--. FHIR version $-- for ans.fr.terminologie#$-- (canonical = https://interop.esante.gouv.fr/ig/terminologie)
  Build Errors : 905 / 23 / 0
@@ -759,7 +759,7 @@ Generated $--. FHIR version $-- for ans.fr.terminologie#$-- (canonical = https:/
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/TRE/Base_de_donn_es_publique_du_m_dicament___BDPM : 3 / 2 / 6
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/TRE/CCAM : 3 / 3 / 6
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/TRE/CIM11_MMS : 3 / 2 / 6
- /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/TRE/CIM_10 : 3 / 3 / 6
+ /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/TRE/CIM_10 : 3 / 2 / 6
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/TRE/CISP_2 : 3 / 2 / 6
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/TRE/CLADIMED : 3 / 3 / 6
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/TRE/Dictionnaire_des_substances_m_dicamenteuses__SMS_ : 3 / 3 / 6
@@ -1027,10 +1027,10 @@ ERROR: input/sql/sql-add-info.json$.select[0].column[0]: Column from path 'descr
 WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource CodeSystem/terminologie-atc.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
 WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource CodeSystem/terminologie-bdpm.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
 WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource CodeSystem/terminologie-ccam.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
-WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource CodeSystem/terminologie-cim-10.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
 WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource CodeSystem/terminologie-cladimed.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
-WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource CodeSystem/terminologie-cim11-mms.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
 WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource CodeSystem/terminologie-cisp.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource CodeSystem/terminologie-cim-10.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource CodeSystem/terminologie-cim11-mms.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
 WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource CodeSystem/terminologie-sms.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
 WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource CodeSystem/terminologie-standardterms.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
 WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource CodeSystem/terminologie-emdn.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
@@ -4782,7 +4782,6 @@ INFORMATION: CodeSystem/terminologie-cim-10: CodeSystem.meta.tag[0]: Reference t
 ERROR: CodeSystem/terminologie-cim-10: CodeSystem.meta.tag[0].display: Wrong Display Name 'Resource encoded in summary mode' for http://terminology.hl7.org/CodeSystem/v3-ObservationValue#SUBSETTED. Valid display is 'subsetted' (en) (for the language(s) 'en')
 INFORMATION: CodeSystem/terminologie-cim-10: CodeSystem: CodeSystems SHOULD have a stated value for the caseSensitive element so that users know the status and meaning of the code system clearly
 INFORMATION: CodeSystem/terminologie-cim-10: CodeSystem: Review the All Codes Value Set - incomplete CodeSystems generally should not have an all codes value set specified
-WARNING: CodeSystem/terminologie-cim-10: CodeSystem: Published code systems SHOULD conform to the ShareableCodeSystem profile, which says that the element CodeSystem.title is mandatory, but it is not present
 WARNING: CodeSystem/terminologie-cim-10: CodeSystem: Published code systems SHOULD conform to the ShareableCodeSystem profile, which says that the element CodeSystem.description is mandatory, but it is not present
 WARNING: CodeSystem/terminologie-cim-10: CodeSystem: Published code systems SHOULD conform to the ShareableCodeSystem profile, which says that the element CodeSystem.caseSensitive is mandatory, but it is not present
 INFORMATION: CodeSystem/terminologie-cim-10: CodeSystem.property[11]: This property has only a code ('imported') and not a URI, so it has no clearly defined meaning in the terminology ecosystem

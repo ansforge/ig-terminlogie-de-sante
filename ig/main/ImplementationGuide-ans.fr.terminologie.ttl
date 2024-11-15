@@ -19574,17 +19574,6 @@
          fhir:value [ fhir:v "CodeSystem" ]
        ] ) ;
        fhir:reference [
-         fhir:link <https://interop.esante.gouv.fr/ig/terminologie/CodeSystem/terminologie-cim-10> ;
-         fhir:reference [ fhir:v "CodeSystem/terminologie-cim-10" ]
-       ] ;
-       fhir:name [ fhir:v "CIM_10" ] ;
-       fhir:example [ fhir:v "false"^^xsd:boolean ]
-     ] [
-       fhir:extension ( [
-         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
-         fhir:value [ fhir:v "CodeSystem" ]
-       ] ) ;
-       fhir:reference [
          fhir:link <https://interop.esante.gouv.fr/ig/terminologie/CodeSystem/terminologie-cladimed> ;
          fhir:reference [ fhir:v "CodeSystem/terminologie-cladimed" ]
        ] ;
@@ -19596,10 +19585,21 @@
          fhir:value [ fhir:v "CodeSystem" ]
        ] ) ;
        fhir:reference [
+         fhir:link <https://interop.esante.gouv.fr/ig/terminologie/CodeSystem/terminologie-cim-10> ;
+         fhir:reference [ fhir:v "CodeSystem/terminologie-cim-10" ]
+       ] ;
+       fhir:name [ fhir:v "Classification internationale des maladies (10eme révision). Version française à usage PMSI" ] ;
+       fhir:example [ fhir:v "false"^^xsd:boolean ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "CodeSystem" ]
+       ] ) ;
+       fhir:reference [
          fhir:link <https://interop.esante.gouv.fr/ig/terminologie/CodeSystem/terminologie-cim11-mms> ;
          fhir:reference [ fhir:v "CodeSystem/terminologie-cim11-mms" ]
        ] ;
-       fhir:name [ fhir:v "Classification Internationale des Maladies 11ème révision pour les statistiques de mortalité et de morbidité" ] ;
+       fhir:name [ fhir:v "Classification internationale des maladies (11eme révision). Linéarisation pour les statistiques de morbi-mortalité" ] ;
        fhir:example [ fhir:v "false"^^xsd:boolean ]
      ] [
        fhir:extension ( [

@@ -2298,7 +2298,7 @@
       "version" : "2024-01-01",
       "status" : "active",
       "name" : "CIM_10",
-      "title" : null,
+      "title" : "Classification internationale des maladies (10eme révision). Version française à usage PMSI",
       "description" : null
     },
     {
@@ -2306,7 +2306,7 @@
       "version" : "2024-01",
       "status" : "active",
       "name" : "CIM11_MMS",
-      "title" : "Classification Internationale des Maladies 11ème révision pour les statistiques de mortalité et de morbidité",
+      "title" : "Classification internationale des maladies (11eme révision). Linéarisation pour les statistiques de morbi-mortalité",
       "description" : null
     },
     {
