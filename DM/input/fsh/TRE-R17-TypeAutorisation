@@ -446,6 +446,15 @@ Description: "Type d'autorisation"
 * #AM41 ^property[=].valueDateTime = "2024-03-29T12:00:00+01:00"
 * #AM41 ^property[+].code = #dateMaj
 * #AM41 ^property[=].valueDateTime = "2024-03-29T12:00:00+01:00"
+* #AM42 "Autorisation d'user du titre de Psychothérapeute" "Article 16 du Décret n° 2010-534 du 20 mai 2010 relatif à l'usage du titre de psychothérapeute"
+* #AM42 ^designation[0].language = #fr-FR
+* #AM42 ^designation[=].use.system = "http://snomed.info/sct"
+* #AM42 ^designation[=].use = $sct#900000000000013009
+* #AM42 ^designation[=].value = "Autor titre Psychothérapeute"
+* #AM42 ^property[0].code = #dateValid
+* #AM42 ^property[=].valueDateTime = "2024-11-18T12:00:00+01:00"
+* #AM42 ^property[+].code = #dateMaj
+* #AM42 ^property[=].valueDateTime = "2024-11-18T12:00:00+01:00"
 * #AMGP "En cours de validation au Guichet principal"
 * #AMGP ^designation[0].language = #fr-FR
 * #AMGP ^designation[=].use = $sct#900000000000013009
