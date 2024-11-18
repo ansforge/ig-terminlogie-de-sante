@@ -2,11 +2,11 @@
 <RetrieveValueSetResponse xmlns="urn:ihe:iti:svs:2008"
                           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
    <ValueSet dateFin=""
-             dateMaj="20241118042923"
+             dateMaj="20241118102813"
              dateValid=""
              description=""
              displayName="CIM11_MMS"
-             id=""
+             id="2.16.840.1.113883.6.347"
              typeFichier="TRE"
              urlFichier="">
       <ConceptList/>

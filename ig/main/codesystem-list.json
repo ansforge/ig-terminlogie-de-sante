@@ -2307,7 +2307,8 @@
       "status" : "active",
       "name" : "CIM11_MMS",
       "title" : "Classification internationale des maladies (11eme révision). Linéarisation pour les statistiques de morbi-mortalité",
-      "description" : null
+      "description" : null,
+      "oids" : ["2.16.840.1.113883.6.347"]
     },
     {
       "url" : "https://smt.esante.gouv.fr/terminologie-cisp",
@@ -2355,12 +2356,11 @@
     },
     {
       "url" : "https://smt.esante.gouv.fr/terminologie-nuva",
-      "version" : "1.0.787",
+      "version" : "1.0.799",
       "status" : "active",
       "name" : "NUVA",
       "title" : "La Nomenclature Unifiée des Vaccins (NUVA)",
-      "description" : null,
-      "oids" : ["1.3.6.1.4.1.48601.1"]
+      "description" : null
     },
     {
       "url" : "https://smt.esante.gouv.fr/terminologie-sms",
