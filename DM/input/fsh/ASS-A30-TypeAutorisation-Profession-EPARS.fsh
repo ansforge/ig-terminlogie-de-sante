@@ -7,12 +7,12 @@ Usage: #definition
 * extension[=].valueBoolean = false
 * url = "https://mos.esante.gouv.fr/NOS/ASS_A30-TypeAutorisation-Profession-EPARS/FHIR/ASS-A30-TypeAutorisation-Profession-EPARS"
 * identifier.value = "urn:oid:1.2.250.1.213.1.6.1.252"
-* version = "20240628120000"
+* version = "20241118120000"
 * name = "ASS_A30_TypeAutorisation_Profession_EPARS"
 * title = "ASS_A30_TypeAutorisation_Profession_EPARS"
 * experimental = false
 * status = #active
-* date = "2024-06-28T12:00:00+01:00"
+* date = "2024-11-18T12:00:00+01:00"
 * description = "Table d'association entre les types d'autorisations et les professions de santé, médico-sociales ou sociales"
 * sourceUri = "https://mos.esante.gouv.fr/NOS/JDV_J171-TypeAutorisation-EPARS/FHIR/JDV-J171-TypeAutorisation-EPARS"
 * targetUri = "https://mos.esante.gouv.fr/NOS/JDV_J166-Profession-EPARS/FHIR/JDV-J166-Profession-EPARS"
