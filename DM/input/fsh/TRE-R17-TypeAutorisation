@@ -4,17 +4,17 @@ CodeSystem: TRE_R17_TypeAutorisation
 Id: TRE-R17-TypeAutorisation
 Description: "Type d'autorisation"
 * ^meta.versionId = "3"
-* ^meta.lastUpdated = "2024-08-28T05:12:09.902+00:00"
+* ^meta.lastUpdated = "2024-11-18T05:12:09.902+00:00"
 * ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablecodesystem"
 * ^extension.url = "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod"
 * ^extension.valuePeriod.start = "2013-06-28T00:00:00+01:00"
 * ^url = "https://mos.esante.gouv.fr/NOS/TRE_R17-TypeAutorisation/FHIR/TRE-R17-TypeAutorisation"
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value = "urn:oid:1.2.250.1.213.1.6.1.14"
-* ^version = "20240426120000"
+* ^version = "20241118120000"
 * ^status = #active
 * ^experimental = false
-* ^date = "2024-04-26T12:00:00+01:00"
+* ^date = "2024-11-18T12:00:00+01:00"
 * ^publisher = "ANS"
 * ^contact.name = "ANS"
 * ^contact.telecom.system = #url
