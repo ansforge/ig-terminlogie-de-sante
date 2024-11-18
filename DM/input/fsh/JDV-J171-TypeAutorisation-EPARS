@@ -73,3 +73,6 @@ Description: "Types d'autorisation d'exercice pour EPARS"
 * $TRE-R17-TypeAutorisation#AM41 "Agrément de radiophysicien avant le 28/11/2004"
 * $TRE-R17-TypeAutorisation#AM41 ^designation.use.code = #OID
 * $TRE-R17-TypeAutorisation#AM41 ^designation.value = "urn:oid:1.2.250.1.213.1.6.1.14"
+* $TRE-R17-TypeAutorisation#AM42 "Autorisation d'user du titre de Psychothérapeute"
+* $TRE-R17-TypeAutorisation#AM42 ^designation.use.code = #OID
+* $TRE-R17-TypeAutorisation#AM42 ^designation.value = "urn:oid:1.2.250.1.213.1.6.1.14"
