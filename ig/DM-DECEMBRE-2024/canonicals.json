@@ -927,7 +927,7 @@
     "id" : "JDV-J171-TypeAutorisation-EPARS",
     "type" : "ValueSet",
     "url" : "https://mos.esante.gouv.fr/NOS/JDV_J171-TypeAutorisation-EPARS/FHIR/JDV-J171-TypeAutorisation-EPARS",
-    "version" : "20240329120000",
+    "version" : "20241118120000",
     "name" : "JDV_J171_TypeAutorisation_EPARS",
     "oids" : ["1.2.250.1.213.1.6.1.232"]
   },
