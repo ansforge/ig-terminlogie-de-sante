@@ -37,7 +37,7 @@
     </extension>
     <uri value="http://terminology.hl7.org/ImplementationGuide/hl7.terminology"/>
     <packageId value="hl7.terminology.r4"/>
-    <version value="6.0.2"/>
+    <version value="6.1.0"/>
   </dependsOn>
   <dependsOn id="hl7ext">
     <extension url="http://hl7.org/fhir/tools/StructureDefinition/implementationguide-dependency-comment">
@@ -17401,16 +17401,6 @@
         <valueString value="CodeSystem"/>
       </extension>
       <reference>
-        <reference value="CodeSystem/terminologie-cim-10"/>
-      </reference>
-      <name value="CIM_10"/>
-      <exampleBoolean value="false"/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="CodeSystem"/>
-      </extension>
-      <reference>
         <reference value="CodeSystem/terminologie-cladimed"/>
       </reference>
       <name value="CLADIMED"/>
@@ -17421,9 +17411,19 @@
         <valueString value="CodeSystem"/>
       </extension>
       <reference>
+        <reference value="CodeSystem/terminologie-cim-10"/>
+      </reference>
+      <name value="Classification internationale des maladies (10eme révision). Version française à usage PMSI"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="CodeSystem"/>
+      </extension>
+      <reference>
         <reference value="CodeSystem/terminologie-cim11-mms"/>
       </reference>
-      <name value="Classification Internationale des Maladies 11ème révision pour les statistiques de mortalité et de morbidité"/>
+      <name value="Classification internationale des maladies (11eme révision). Linéarisation pour les statistiques de morbi-mortalité"/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -25292,17 +25292,6 @@
         <valueString value="CodeSystem"/>
       </extension>
       <reference>
-        <reference value="CodeSystem/cim-10-terminologie-fr"/>
-      </reference>
-      <name value="La Classification Internationale des Maladies (CIM)"/>
-      <description value="La Classification Internationale des Maladies (CIM) à usage experimentale"/>
-      <exampleBoolean value="false"/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="CodeSystem"/>
-      </extension>
-      <reference>
         <reference value="CodeSystem/terminologie-nuva"/>
       </reference>
       <name value="La Nomenclature Unifiée des Vaccins (NUVA)"/>
@@ -28125,6 +28114,17 @@
         <valueString value="ValueSet"/>
       </extension>
       <reference>
+        <reference value="ValueSet/vs-atc-all"/>
+      </reference>
+      <name value="ValueSet_ATC_All"/>
+      <description value="Ce jeu de valeurs inclut tous les codes concepts de la terminologie ATC"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
         <reference value="ValueSet/vs-bdpm-all"/>
       </reference>
       <name value="ValueSet_BDPM_All"/>
@@ -28136,10 +28136,43 @@
         <valueString value="ValueSet"/>
       </extension>
       <reference>
+        <reference value="ValueSet/vs-cipucd-all"/>
+      </reference>
+      <name value="ValueSet_CIPUCD_All"/>
+      <description value="Ce jeu de valeurs inclut tous les codes concepts de la terminologie CIP-UCD"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/vs-edqm-all"/>
+      </reference>
+      <name value="ValueSet_EDQM_All"/>
+      <description value="Ce jeu de valeurs inclut tous les codes de la terminologie EDQM"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
         <reference value="ValueSet/vs-nuva-all"/>
       </reference>
       <name value="ValueSet_NUVA_All"/>
       <description value="Ce jeu de valeurs inclut tous les codes concepts de la terminologie NUVA"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/vs-sms-all"/>
+      </reference>
+      <name value="ValueSet_SMS_All"/>
+      <description value="Ce jeu de valeurs inclut tous les codes de la terminologie SMS, Dictionnaire des substances médicamenteuses"/>
       <exampleBoolean value="false"/>
     </resource>
     <page>

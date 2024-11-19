@@ -48,7 +48,7 @@
        fhir:link <http://terminology.hl7.org/ImplementationGuide/hl7.terminology>
      ] ;
      fhir:packageId [ fhir:v "hl7.terminology.r4" ] ;
-     fhir:version [ fhir:v "6.0.2" ]
+     fhir:version [ fhir:v "6.1.0" ]
   ] [
      fhir:id [ fhir:v "hl7ext" ] ;
      fhir:extension ( [
@@ -19575,17 +19575,6 @@
          fhir:value [ fhir:v "CodeSystem" ]
        ] ) ;
        fhir:reference [
-         fhir:link <https://interop.esante.gouv.fr/ig/terminologie/CodeSystem/terminologie-cim-10> ;
-         fhir:reference [ fhir:v "CodeSystem/terminologie-cim-10" ]
-       ] ;
-       fhir:name [ fhir:v "CIM_10" ] ;
-       fhir:example [ fhir:v "false"^^xsd:boolean ]
-     ] [
-       fhir:extension ( [
-         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
-         fhir:value [ fhir:v "CodeSystem" ]
-       ] ) ;
-       fhir:reference [
          fhir:link <https://interop.esante.gouv.fr/ig/terminologie/CodeSystem/terminologie-cladimed> ;
          fhir:reference [ fhir:v "CodeSystem/terminologie-cladimed" ]
        ] ;
@@ -19597,10 +19586,21 @@
          fhir:value [ fhir:v "CodeSystem" ]
        ] ) ;
        fhir:reference [
+         fhir:link <https://interop.esante.gouv.fr/ig/terminologie/CodeSystem/terminologie-cim-10> ;
+         fhir:reference [ fhir:v "CodeSystem/terminologie-cim-10" ]
+       ] ;
+       fhir:name [ fhir:v "Classification internationale des maladies (10eme révision). Version française à usage PMSI" ] ;
+       fhir:example [ fhir:v "false"^^xsd:boolean ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "CodeSystem" ]
+       ] ) ;
+       fhir:reference [
          fhir:link <https://interop.esante.gouv.fr/ig/terminologie/CodeSystem/terminologie-cim11-mms> ;
          fhir:reference [ fhir:v "CodeSystem/terminologie-cim11-mms" ]
        ] ;
-       fhir:name [ fhir:v "Classification Internationale des Maladies 11ème révision pour les statistiques de mortalité et de morbidité" ] ;
+       fhir:name [ fhir:v "Classification internationale des maladies (11eme révision). Linéarisation pour les statistiques de morbi-mortalité" ] ;
        fhir:example [ fhir:v "false"^^xsd:boolean ]
      ] [
        fhir:extension ( [
@@ -28184,18 +28184,6 @@
          fhir:value [ fhir:v "CodeSystem" ]
        ] ) ;
        fhir:reference [
-         fhir:link <https://interop.esante.gouv.fr/ig/terminologie/CodeSystem/cim-10-terminologie-fr> ;
-         fhir:reference [ fhir:v "CodeSystem/cim-10-terminologie-fr" ]
-       ] ;
-       fhir:name [ fhir:v "La Classification Internationale des Maladies (CIM)" ] ;
-       fhir:description [ fhir:v "La Classification Internationale des Maladies (CIM) à usage experimentale" ] ;
-       fhir:example [ fhir:v "false"^^xsd:boolean ]
-     ] [
-       fhir:extension ( [
-         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
-         fhir:value [ fhir:v "CodeSystem" ]
-       ] ) ;
-       fhir:reference [
          fhir:link <https://interop.esante.gouv.fr/ig/terminologie/CodeSystem/terminologie-nuva> ;
          fhir:reference [ fhir:v "CodeSystem/terminologie-nuva" ]
        ] ;
@@ -31275,6 +31263,18 @@
          fhir:value [ fhir:v "ValueSet" ]
        ] ) ;
        fhir:reference [
+         fhir:link <https://interop.esante.gouv.fr/ig/terminologie/ValueSet/vs-atc-all> ;
+         fhir:reference [ fhir:v "ValueSet/vs-atc-all" ]
+       ] ;
+       fhir:name [ fhir:v "ValueSet_ATC_All" ] ;
+       fhir:description [ fhir:v "Ce jeu de valeurs inclut tous les codes concepts de la terminologie ATC" ] ;
+       fhir:example [ fhir:v "false"^^xsd:boolean ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "ValueSet" ]
+       ] ) ;
+       fhir:reference [
          fhir:link <https://interop.esante.gouv.fr/ig/terminologie/ValueSet/vs-bdpm-all> ;
          fhir:reference [ fhir:v "ValueSet/vs-bdpm-all" ]
        ] ;
@@ -31287,11 +31287,47 @@
          fhir:value [ fhir:v "ValueSet" ]
        ] ) ;
        fhir:reference [
+         fhir:link <https://interop.esante.gouv.fr/ig/terminologie/ValueSet/vs-cipucd-all> ;
+         fhir:reference [ fhir:v "ValueSet/vs-cipucd-all" ]
+       ] ;
+       fhir:name [ fhir:v "ValueSet_CIPUCD_All" ] ;
+       fhir:description [ fhir:v "Ce jeu de valeurs inclut tous les codes concepts de la terminologie CIP-UCD" ] ;
+       fhir:example [ fhir:v "false"^^xsd:boolean ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "ValueSet" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <https://interop.esante.gouv.fr/ig/terminologie/ValueSet/vs-edqm-all> ;
+         fhir:reference [ fhir:v "ValueSet/vs-edqm-all" ]
+       ] ;
+       fhir:name [ fhir:v "ValueSet_EDQM_All" ] ;
+       fhir:description [ fhir:v "Ce jeu de valeurs inclut tous les codes de la terminologie EDQM" ] ;
+       fhir:example [ fhir:v "false"^^xsd:boolean ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "ValueSet" ]
+       ] ) ;
+       fhir:reference [
          fhir:link <https://interop.esante.gouv.fr/ig/terminologie/ValueSet/vs-nuva-all> ;
          fhir:reference [ fhir:v "ValueSet/vs-nuva-all" ]
        ] ;
        fhir:name [ fhir:v "ValueSet_NUVA_All" ] ;
        fhir:description [ fhir:v "Ce jeu de valeurs inclut tous les codes concepts de la terminologie NUVA" ] ;
+       fhir:example [ fhir:v "false"^^xsd:boolean ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "ValueSet" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <https://interop.esante.gouv.fr/ig/terminologie/ValueSet/vs-sms-all> ;
+         fhir:reference [ fhir:v "ValueSet/vs-sms-all" ]
+       ] ;
+       fhir:name [ fhir:v "ValueSet_SMS_All" ] ;
+       fhir:description [ fhir:v "Ce jeu de valeurs inclut tous les codes de la terminologie SMS, Dictionnaire des substances médicamenteuses" ] ;
        fhir:example [ fhir:v "false"^^xsd:boolean ]
      ] ) ;
      fhir:page [
