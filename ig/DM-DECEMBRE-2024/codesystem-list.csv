@@ -43,7 +43,7 @@ https://mos.esante.gouv.fr/NOS/TRE_R11-CiviliteExercice/FHIR/TRE-R11-CiviliteExe
 https://mos.esante.gouv.fr/NOS/TRE_R13-Commune/FHIR/TRE-R13-Commune,20231030120000,active,"1.2.250.1.213.2.23",TRE_R13_Commune,,"",
 https://mos.esante.gouv.fr/NOS/TRE_R14-TypeDiplome/FHIR/TRE-R14-TypeDiplome,20240329120000,active,"1.2.250.1.213.1.6.1.36",TRE_R14_TypeDiplome,,"Type de diplôme",
 https://mos.esante.gouv.fr/NOS/TRE_R16-LieuFormation/FHIR/TRE-R16-LieuFormation,20240927120000,active,"1.2.250.1.213.1.6.1.35",TRE_R16_LieuFormation,,"Lieu de formation",
-https://mos.esante.gouv.fr/NOS/TRE_R17-TypeAutorisation/FHIR/TRE-R17-TypeAutorisation,20240426120000,active,"1.2.250.1.213.1.6.1.14",TRE_R17_TypeAutorisation,,"Type d'autorisation",
+https://mos.esante.gouv.fr/NOS/TRE_R17-TypeAutorisation/FHIR/TRE-R17-TypeAutorisation,20241118120000,active,"1.2.250.1.213.1.6.1.14",TRE_R17_TypeAutorisation,,"Type d'autorisation",
 https://mos.esante.gouv.fr/NOS/TRE_R18-DisciplineAutorisation/FHIR/TRE-R18-DisciplineAutorisation,20231215120000,active,"1.2.250.1.213.1.6.1.67",TRE_R18_DisciplineAutorisation,,"Discipline d'autorisation",
 https://mos.esante.gouv.fr/NOS/TRE_R20-Pays/FHIR/TRE-R20-Pays,20240628120000,active,"1.2.250.1.213.2.24",TRE_R20_Pays,,"Référentiel des codes pays provenant du COG INSEE",
 https://mos.esante.gouv.fr/NOS/TRE_R200-CanalCommunication/FHIR/TRE-R200-CanalCommunication,20231215120000,active,"1.2.250.1.213.3.3.1",TRE_R200_CanalCommunication,,"Canal de communication",

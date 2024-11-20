@@ -2663,7 +2663,7 @@
     "id" : "TRE-R17-TypeAutorisation",
     "type" : "CodeSystem",
     "url" : "https://mos.esante.gouv.fr/NOS/TRE_R17-TypeAutorisation/FHIR/TRE-R17-TypeAutorisation",
-    "version" : "20240426120000",
+    "version" : "20241118120000",
     "name" : "TRE_R17_TypeAutorisation",
     "oids" : ["1.2.250.1.213.1.6.1.14"]
   },
