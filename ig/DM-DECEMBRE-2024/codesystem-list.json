@@ -2162,7 +2162,7 @@
     },
     {
       "url" : "https://mos.esante.gouv.fr/NOS/TRE_R85-RolePriseCharge/FHIR/TRE-R85-RolePriseCharge",
-      "version" : "20241025120000",
+      "version" : "20241120120000",
       "status" : "active",
       "name" : "TRE_R85_RolePriseCharge",
       "title" : null,

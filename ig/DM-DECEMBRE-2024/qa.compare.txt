@@ -1,11 +1,12 @@
 Terminologie : Validation Results
 =========================================
 
-err = 540, warn = 1460, info = 841
+err = 521, warn = 1439, info = 819
 $--
 Generated $--. FHIR version $-- for ans.fr.terminologie#$-- (canonical = https://interop.esante.gouv.fr/ig/terminologie)
  Build Errors : 907 / 22 / 0
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/DM/fsh-generated/resources/CodeSystem-TRE-R17-TypeAutorisation : 0 / 1 / 4
+ /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/DM/fsh-generated/resources/CodeSystem-TRE-R85-RolePriseCharge : 0 / 1 / 4
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/DM/fsh-generated/resources/ConceptMap-ASS-A11-CorresModeleCDA-XdsFormatCode-CISIS : 0 / 0 / 1
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/DM/fsh-generated/resources/ConceptMap-ASS-A12-CorresMediaTypeCDANonStructure-XdsFormatCode-CISIS : 0 / 0 / 1
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/DM/fsh-generated/resources/ConceptMap-ASS-A13-TypeEvenement-FluxStandardise : 0 / 0 / 1
@@ -35,8 +36,15 @@ Generated $--. FHIR version $-- for ans.fr.terminologie#$-- (canonical = https:/
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/DM/fsh-generated/resources/ConceptMap-ASS-X14-AgregatDisciplineEquipementSocial : 0 / 1 / 1
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/DM/fsh-generated/resources/ConceptMap-ASS-X15-AgregatDisciplineEnseignement : 0 / 1 / 1
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/DM/fsh-generated/resources/ConceptMap-ASS-X16-CorrespondanceType-Classe-DMP : 1 / 0 / 2
+ /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/DM/fsh-generated/resources/ValueSet-JDV-J01-XdsAuthorSpecialty-CISIS : 0 / 1 / 1
+ /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/DM/fsh-generated/resources/ValueSet-JDV-J05-SubjectRole-CISIS : 0 / 1 / 1
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/DM/fsh-generated/resources/ValueSet-JDV-J10-XdsFormatCode-CISIS : 0 / 0 / 1
+ /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/DM/fsh-generated/resources/ValueSet-JDV-J105-EnsembleDiplome-RASS : 0 / 1 / 1
+ /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/DM/fsh-generated/resources/ValueSet-JDV-J108-EnsembleFonction-RASS : 0 / 1 / 1
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/DM/fsh-generated/resources/ValueSet-JDV-J171-TypeAutorisation-EPARS : 10 / 1 / 1
+ /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/DM/fsh-generated/resources/ValueSet-JDV-J47-FunctionCode-CISIS : 0 / 1 / 1
+ /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/DM/fsh-generated/resources/ValueSet-JDV-J48-ProfessionNonPS-CISIS : 0 / 1 / 1
+ /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/DM/fsh-generated/resources/ValueSet-JDV-J75-TypeAutorisation-RASS : 0 / 1 / 1
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/DM/fsh-generated/resources/ValueSet-JDV-ModeleDocumentCDA : 0 / 0 / 1
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/DM/fsh-generated/resources/ValueSet-JDV-TRE-R221-ModeleDocumentCDANonStructure-all : 0 / 0 / 1
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/DM/fsh-generated/resources/ValueSet-TRE-R222-MediaTypeCorpsCDANonStructure-all : 0 / 0 / 1
@@ -158,7 +166,7 @@ Generated $--. FHIR version $-- for ans.fr.terminologie#$-- (canonical = https:/
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_FacteursDeRisqueSociaux_CISIS : 0 / 2 / 1
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_FamilleFemmes_CISIS : 0 / 0 / 1
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_FamilleID_CISIS : 2 / 2 / 1
- /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_FluideRouteCodes_CISIS : 1 / 1 / 2
+ /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_FluideRouteCodes_CISIS : 0 / 0 / 1
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_FonctionEtudieeScintigraphie_CISIS : 0 / 0 / 1
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_FonctionEtudieeTEP_CISIS : 0 / 0 / 1
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_GIR_CISIS : 0 / 0 / 1
@@ -202,7 +210,7 @@ Generated $--. FHIR version $-- for ans.fr.terminologie#$-- (canonical = https:/
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_HumanSubstanceAdministrationSite_CISIS : 0 / 2 / 1
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_ImagerieObjectifsReference_CISIS : 0 / 2 / 1
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_ImmunizationApproachSiteCode_CISIS : 0 / 2 / 1
- /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_ImmunizationRouteCodes_CISIS : 1 / 1 / 2
+ /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_ImmunizationRouteCodes_CISIS : 0 / 0 / 1
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_ImpactMutation_CISIS : 0 / 2 / 1
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_Importance_clinique_CISIS : 0 / 2 / 1
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_Imputabilite_CISIS : 0 / 2 / 1
@@ -216,11 +224,9 @@ Generated $--. FHIR version $-- for ans.fr.terminologie#$-- (canonical = https:/
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_InvestigationsRealiseesSUNV_CISIS : 0 / 2 / 1
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_InvestigationsRealisees_CISIS : 0 / 2 / 1
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_IssueGrossesse_CISIS : 0 / 3 / 1
- /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_J01_XdsAuthorSpecialty_CISIS : 0 / 1 / 1
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_J02_XdsHealthcareFacilityTypeCode_CISIS : 0 / 1 / 1
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_J03_XdsContentTypeCode_CISIS : 0 / 1 / 1
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_J04_XdsPracticeSettingCode_CISIS : 0 / 1 / 1
- /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_J05_SubjectRole_CISIS : 0 / 1 / 1
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_J06_XdsClassCode_CISIS : 0 / 1 / 1
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_J07_XdsTypeCode_CISIS : 0 / 1 / 1
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_J08_XdsConfidentialityCode_CISIS : 2 / 1 / 1
@@ -228,10 +234,8 @@ Generated $--. FHIR version $-- for ans.fr.terminologie#$-- (canonical = https:/
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_J101_SecteurActivite_RASS : 0 / 1 / 1
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_J103_TypeVoie_RASS : 0 / 1 / 1
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_J104_TypeIdentifiantStructure_RASS : 0 / 1 / 1
- /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_J105_EnsembleDiplome_RASS : 0 / 1 / 1
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_J106_EnsembleProfession_RASS : 0 / 1 / 1
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_J107_EnsembleSavoirFaire_RASS : 0 / 1 / 1
- /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_J108_EnsembleFonction_RASS : 0 / 1 / 1
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_J110_StatutVisibiliteDocument_CISIS : 0 / 1 / 1
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_J111_StatutEtatCivil_ENREG : 0 / 1 / 1
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_J112_SexeAdministratif_ENREG : 0 / 1 / 1
@@ -270,21 +274,21 @@ Generated $--. FHIR version $-- for ans.fr.terminologie#$-- (canonical = https:/
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_J142_TypeRencontre_CISIS : 0 / 1 / 1
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_J143_AdministrativeGender_CISIS : 0 / 1 / 1
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_J144_ParticipationType_CISIS : 0 / 1 / 1
- /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_J145_MethodBodyWeight_ENS : 0 / 2 / 2
- /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_J146_MethodBodyHeight_ENS : 1 / 4 / 2
- /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_J147_MethodHeartrate_ENS : 1 / 4 / 2
+ /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_J145_MethodBodyWeight_ENS : 0 / 1 / 1
+ /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_J146_MethodBodyHeight_ENS : 0 / 3 / 1
+ /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_J147_MethodHeartrate_ENS : 0 / 3 / 1
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_J148_ReferenceRangeAppliesTo_CISIS : 0 / 3 / 1
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_J149_BodySiteBP_ENS : 0 / 3 / 1
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_J14_QualiteRepresentantLegal_CISIS : 0 / 1 / 1
- /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_J150_MethodBP_ENS : 1 / 2 / 2
+ /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_J150_MethodBP_ENS : 0 / 1 / 1
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_J151_BodySiteBodyTemperature_ENS : 0 / 3 / 1
- /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_J152_MethodBodyTemperature_ENS : 1 / 2 / 2
+ /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_J152_MethodBodyTemperature_ENS : 0 / 1 / 1
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_J153_TypeDiabete_ENS : 0 / 5 / 1
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_J154_TypeGlucose_ENS : 0 / 1 / 1
- /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_J155_MethodGlucoseSanguin_ENS : 0 / 4 / 2
- /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_J156_MethodGlucoseInterstitiel_ENS : 0 / 2 / 2
+ /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_J155_MethodGlucoseSanguin_ENS : 0 / 3 / 1
+ /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_J156_MethodGlucoseInterstitiel_ENS : 0 / 1 / 1
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_J157_MomentGlucose_ENS : 0 / 1 / 1
- /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_J158_MethodStepsByDay_ENS : 1 / 2 / 2
+ /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_J158_MethodStepsByDay_ENS : 0 / 1 / 1
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_J159_MethodPainSeverity_ENS : 0 / 3 / 1
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_J15_ClasseAge_ROR : 0 / 1 / 1
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_J161_Lateralite_CISIS : 0 / 3 / 1
@@ -394,7 +398,7 @@ Generated $--. FHIR version $-- for ans.fr.terminologie#$-- (canonical = https:/
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_J264_ModeEtCentreDePriseEnCharge_MDPH : 0 / 1 / 1
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_J265_RoleMembreCercleDeSoins_CISIS : 0 / 1 / 1
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_J26_ModeGestion_ROR : 0 / 1 / 1
- /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_J275_EMDN_UPNOS : 1 / 2 / 2
+ /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_J275_EMDN_UPNOS : 0 / 1 / 1
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_J277_NCIT_CISIS : 0 / 3 / 1
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_J278_UcumUniteMesure_UPNOS : 0 / 1 / 1
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_J279_Loinc_UPNOS : 0 / 1 / 1
@@ -420,8 +424,6 @@ Generated $--. FHIR version $-- for ans.fr.terminologie#$-- (canonical = https:/
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_J41_TypeHoraire_ROR : 0 / 1 / 1
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_J42_TypeMaternite_ROR : 0 / 1 / 1
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_J46_TypeEvenementNotification_CISIS : 0 / 1 / 1
- /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_J47_FunctionCode_CISIS : 0 / 1 / 1
- /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_J48_ProfessionNonPS_CISIS : 0 / 1 / 1
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_J49_UcumUniteLongueur : 0 / 1 / 1
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_J50_AccessibiliteLieu_ROR : 0 / 1 / 1
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_J51_FamilleActiviteOperationnelle_ROR : 0 / 3 / 1
@@ -447,7 +449,6 @@ Generated $--. FHIR version $-- for ans.fr.terminologie#$-- (canonical = https:/
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_J72_TypeProfessionFonction_MSSante : 0 / 1 / 1
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_J73_MetierPharmacien_RASS : 0 / 1 / 1
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_J74_Pays_RASS : 0 / 1 / 1
- /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_J75_TypeAutorisation_RASS : 0 / 1 / 1
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_J76_DisciplineAutorisation_RASS : 0 / 1 / 1
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_J77_TypeIdentifiantPersonne_RASS : 0 / 1 / 1
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_J78_Civilite_RASS : 0 / 1 / 1
@@ -508,7 +509,7 @@ Generated $--. FHIR version $-- for ans.fr.terminologie#$-- (canonical = https:/
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_ModaliteSortie_CISIS : 0 / 2 / 1
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_Modalite_demandeActeImagerie_CISIS : 0 / 5 / 1
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_ModeAccouchement_CISIS : 0 / 2 / 1
- /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_ModeAdministration_CISIS : 1 / 1 / 2
+ /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_ModeAdministration_CISIS : 0 / 0 / 1
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_ModeDeTransport_CISIS : 0 / 0 / 1
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_ModeDeVie_CISIS : 0 / 2 / 1
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_ModeDebutTravail_CISIS : 0 / 2 / 1
@@ -577,7 +578,7 @@ Generated $--. FHIR version $-- for ans.fr.terminologie#$-- (canonical = https:/
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_Profession_CISIS : 0 / 2 / 1
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_ProfessionsExposees_CISIS : 0 / 0 / 1
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_ProgressionCancer_CISIS : 0 / 0 / 1
- /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_ProtheseObjetPersonnel_CISIS : 1 / 1 / 2
+ /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_ProtheseObjetPersonnel_CISIS : 0 / 0 / 1
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_QualificationFraction_CISIS : 0 / 0 / 1
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_QuantiteExpositionRayonnements_CISIS : 0 / 2 / 1
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_QuantiteLA_CISIS : 0 / 3 / 1
@@ -615,7 +616,7 @@ Generated $--. FHIR version $-- for ans.fr.terminologie#$-- (canonical = https:/
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_ResultatRechercheHPVCCU_CISIS : 0 / 2 / 1
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_RisquePourEntourage_CISIS : 0 / 0 / 1
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_RisquePourUsager_CISIS : 0 / 0 / 1
- /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_RouteofAdministration_CISIS : 1 / 1 / 2
+ /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_RouteofAdministration_CISIS : 0 / 1 / 1
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_SOPClass_CISIS : 47 / 47 / 2
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_ScoreASA_CISIS : 0 / 0 / 1
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_ScoreBradenActivite_CISIS : 0 / 0 / 1
@@ -718,7 +719,7 @@ Generated $--. FHIR version $-- for ans.fr.terminologie#$-- (canonical = https:/
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_TypeRencontre_OBP_CISIS : 0 / 0 / 1
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_TypeResultat_CISIS : 0 / 0 / 1
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_TypeService_CISIS : 0 / 3 / 1
- /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_TypeSondeGastrique_CISIS : 1 / 1 / 2
+ /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_TypeSondeGastrique_CISIS : 0 / 0 / 1
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_TypeTraitementIV_CISIS : 0 / 2 / 1
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_TypeTraitementPPS_CISIS : 0 / 4 / 1
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_TypeTraitement_FRCP_CISIS : 0 / 5 / 1
@@ -730,19 +731,19 @@ Generated $--. FHIR version $-- for ans.fr.terminologie#$-- (canonical = https:/
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_UFCV_EffetINR_CISIS : 0 / 2 / 1
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_UFCV_Impl_CISIS : 0 / 3 / 1
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_UFCV_Lat_CISIS : 0 / 2 / 1
- /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_UFCV_MatImpl_CISIS : 1 / 1 / 2
+ /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_UFCV_MatImpl_CISIS : 0 / 0 / 1
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_UFCV_MotImplEndoC_CISIS : 0 / 0 / 1
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_UFCV_MotImpl_CISIS : 0 / 2 / 1
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_UFCV_NYHA_CISIS : 0 / 2 / 1
- /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_UFCV_PolarSnd_CISIS : 1 / 1 / 2
- /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_UFCV_ProtValv_CISIS : 1 / 1 / 2
+ /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_UFCV_PolarSnd_CISIS : 0 / 0 / 1
+ /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_UFCV_ProtValv_CISIS : 0 / 0 / 1
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_UFCV_SiteImp_CISIS : 0 / 2 / 1
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_UFCV_TypEndoC_CISIS : 0 / 0 / 1
- /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_UFCV_TypEndoPt_CISIS : 1 / 1 / 2
- /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_UFCV_TypVal_CISIS : 1 / 1 / 2
- /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_UFCV_TypeDMCard_CISIS : 1 / 1 / 2
+ /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_UFCV_TypEndoPt_CISIS : 0 / 0 / 1
+ /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_UFCV_TypVal_CISIS : 0 / 0 / 1
+ /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_UFCV_TypeDMCard_CISIS : 0 / 0 / 1
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_UFCV_VoieAbord_CISIS : 0 / 2 / 1
- /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_UsageDrogues_CISIS : 1 / 1 / 2
+ /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_UsageDrogues_CISIS : 0 / 0 / 1
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_VaccinCSE24_CISIS : 0 / 2 / 1
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_VaccinCSE8_CISIS : 0 / 2 / 1
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_VaccinCSE9_CISIS : 0 / 2 / 1
@@ -1010,7 +1011,6 @@ Generated $--. FHIR version $-- for ans.fr.terminologie#$-- (canonical = https:/
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/TRE/TRE_R81_Civilite : 0 / 1 / 4
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/TRE/TRE_R82_Ordre : 0 / 1 / 4
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/TRE/TRE_R84_ProfilAccesAnnuaire_MSSante : 0 / 1 / 4
- /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/TRE/TRE_R85_RolePriseCharge : 0 / 1 / 4
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/TRE/TRE_R86_ProfilVIHF : 0 / 1 / 4
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/TRE/TRE_R87_TypeCarte : 0 / 1 / 4
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/TRE/TRE_R88_TerritoireSante : 0 / 1 / 4
@@ -2264,6 +2264,11 @@ WARNING: CodeSystem/TRE-R17-TypeAutorisation: CodeSystem: Published code systems
 INFORMATION: CodeSystem/TRE-R17-TypeAutorisation: CodeSystem.property[0]: This property has only a code ('dateValid') and not a URI, so it has no clearly defined meaning in the terminology ecosystem
 INFORMATION: CodeSystem/TRE-R17-TypeAutorisation: CodeSystem.property[1]: This property has only a code ('dateMaj') and not a URI, so it has no clearly defined meaning in the terminology ecosystem
 INFORMATION: CodeSystem/TRE-R17-TypeAutorisation: CodeSystem.property[2]: This property has only a code ('dateFin') and not a URI, so it has no clearly defined meaning in the terminology ecosystem
+== DM/fsh-generated/resources/CodeSystem-TRE-R85-RolePriseCharge.json ==
+WARNING: CodeSystem/TRE-R85-RolePriseCharge: CodeSystem: Published code systems SHOULD conform to the ShareableCodeSystem profile, which says that the element CodeSystem.title is mandatory, but it is not present
+INFORMATION: CodeSystem/TRE-R85-RolePriseCharge: CodeSystem.property[0]: This property has only a code ('dateValid') and not a URI, so it has no clearly defined meaning in the terminology ecosystem
+INFORMATION: CodeSystem/TRE-R85-RolePriseCharge: CodeSystem.property[1]: This property has only a code ('dateMaj') and not a URI, so it has no clearly defined meaning in the terminology ecosystem
+INFORMATION: CodeSystem/TRE-R85-RolePriseCharge: CodeSystem.property[2]: This property has only a code ('dateFin') and not a URI, so it has no clearly defined meaning in the terminology ecosystem
 == DM/fsh-generated/resources/ConceptMap-ASS-A11-CorresModeleCDA-XdsFormatCode-CISIS.json ==
 == DM/fsh-generated/resources/ConceptMap-ASS-A12-CorresMediaTypeCDANonStructure-XdsFormatCode-CISIS.json ==
 == DM/fsh-generated/resources/ConceptMap-ASS-A13-TypeEvenement-FluxStandardise.json ==
@@ -2559,7 +2564,15 @@ WARNING: ConceptMap/ASS-X15-AgregatDisciplineEnseignement: ConceptMap: Published
 == DM/fsh-generated/resources/ConceptMap-ASS-X16-CorrespondanceType-Classe-DMP.json ==
 INFORMATION: ConceptMap/ASS-X16-CorrespondanceType-Classe-DMP: ConceptMap.group[0].source: Source Code System http://loinc.org is only supported on the terminology server, so the source codes are not validated for performance reasons
 ERROR: ConceptMap/ASS-X16-CorrespondanceType-Classe-DMP: ConceptMap.group[0].element[6].code: The code '11526-1' in the system http://loinc.org is not valid in the value set 'https://mos.esante.gouv.fr/NOS/JDV_J66-TypeCode-DMP/FHIR/JDV-J66-TypeCode-DMP'
+== DM/fsh-generated/resources/ValueSet-JDV-J01-XdsAuthorSpecialty-CISIS.json ==
+WARNING: ValueSet/JDV-J01-XdsAuthorSpecialty-CISIS: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.title is mandatory, but it is not present
+== DM/fsh-generated/resources/ValueSet-JDV-J05-SubjectRole-CISIS.json ==
+WARNING: ValueSet/JDV-J05-SubjectRole-CISIS: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.title is mandatory, but it is not present
 == DM/fsh-generated/resources/ValueSet-JDV-J10-XdsFormatCode-CISIS.json ==
+== DM/fsh-generated/resources/ValueSet-JDV-J105-EnsembleDiplome-RASS.json ==
+WARNING: ValueSet/JDV-J105-EnsembleDiplome-RASS: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.title is mandatory, but it is not present
+== DM/fsh-generated/resources/ValueSet-JDV-J108-EnsembleFonction-RASS.json ==
+WARNING: ValueSet/JDV-J108-EnsembleFonction-RASS: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.title is mandatory, but it is not present
 == DM/fsh-generated/resources/ValueSet-JDV-J171-TypeAutorisation-EPARS.json ==
 WARNING: ValueSet/JDV-J171-TypeAutorisation-EPARS: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.title is mandatory, but it is not present
 ERROR: ValueSet.text.div: Hyperlink 'CodeSystem-TRE-G15-ProfessionSante.html#TRE-G15-ProfessionSante-41' at 'div/ul/li/table/tr/td/a' for '41' does not resolve
@@ -2572,6 +2585,12 @@ ERROR: ValueSet.text.div: Hyperlink 'CodeSystem-TRE-G15-ProfessionSante.html#TRE
 ERROR: ValueSet.text.div: Hyperlink 'CodeSystem-TRE-G15-ProfessionSante.html#TRE-G15-ProfessionSante-73' at 'div/ul/li/table/tr/td/a' for '73' does not resolve
 ERROR: ValueSet.text.div: Hyperlink 'CodeSystem-TRE-G15-ProfessionSante.html#TRE-G15-ProfessionSante-72' at 'div/ul/li/table/tr/td/a' for '72' does not resolve
 ERROR: ValueSet.text.div: Hyperlink 'CodeSystem-TRE-G15-ProfessionSante.html#TRE-G15-ProfessionSante-72' at 'div/ul/li/table/tr/td/a' for '72' does not resolve
+== DM/fsh-generated/resources/ValueSet-JDV-J47-FunctionCode-CISIS.json ==
+WARNING: ValueSet/JDV-J47-FunctionCode-CISIS: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.title is mandatory, but it is not present
+== DM/fsh-generated/resources/ValueSet-JDV-J48-ProfessionNonPS-CISIS.json ==
+WARNING: ValueSet/JDV-J48-ProfessionNonPS-CISIS: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.title is mandatory, but it is not present
+== DM/fsh-generated/resources/ValueSet-JDV-J75-TypeAutorisation-RASS.json ==
+WARNING: ValueSet/JDV-J75-TypeAutorisation-RASS: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.title is mandatory, but it is not present
 == DM/fsh-generated/resources/ValueSet-JDV-ModeleDocumentCDA.json ==
 == DM/fsh-generated/resources/ValueSet-JDV-TRE-R221-ModeleDocumentCDANonStructure-all.json ==
 == DM/fsh-generated/resources/ValueSet-TRE-R222-MediaTypeCorpsCDANonStructure-all.json ==
@@ -2926,9 +2945,6 @@ WARNING: ValueSet/1.2.250.1.213.1.1.5.89: ValueSet.compose.include[0].concept[2]
 ERROR: ValueSet.text.div: Hyperlink 'CodeSystem-TRE-R216-HL7RoleCode.html#TRE-R216-HL7RoleCode-PGRMTH' at 'div/ul/li/table/tr/td/a' for 'PGRMTH' does not resolve
 ERROR: ValueSet.text.div: Hyperlink 'CodeSystem-TRE-R216-HL7RoleCode.html#TRE-R216-HL7RoleCode-MGRMTH' at 'div/ul/li/table/tr/td/a' for 'MGRMTH' does not resolve
 == input/ontoserver/JDV/JDV_FluideRouteCodes_CISIS.json ==
-WARNING: ValueSet/1.2.250.1.213.1.1.5.684: ValueSet.compose.include[0].concept[0]: The code '20045000' is not valid in the system https://smt.esante.gouv.fr/terminologie-standardterms (Error from https://smt.esante.gouv.fr/fhir: Unparseable HTML)
-INFORMATION: ValueSet/1.2.250.1.213.1.1.5.684: ValueSet.compose.include[0].concept[0]: Error from https://smt.esante.gouv.fr/fhir: Unparseable HTML
-ERROR: ValueSet/1.2.250.1.213.1.1.5.684: ValueSet.compose.include[0].concept[1]: Error from https://smt.esante.gouv.fr/fhir: Unparseable HTML
 == input/ontoserver/JDV/JDV_FonctionEtudieeScintigraphie_CISIS.json ==
 == input/ontoserver/JDV/JDV_FonctionEtudieeTEP_CISIS.json ==
 == input/ontoserver/JDV/JDV_GIR_CISIS.json ==
@@ -3177,9 +3193,6 @@ WARNING: ValueSet.where(id = '1.2.250.1.213.1.1.5.672'): Error from http://tx.fh
 WARNING: ValueSet/1.2.250.1.213.1.1.5.621: ValueSet.compose.include[0]: Unknown System 'urn:oid:2.16.840.1.113883.6.96' specified, so Concepts and Filters can't be checked (Details: A definition for CodeSystem 'urn:oid:2.16.840.1.113883.6.96' could not be found, so the code cannot be validated)
 WARNING: ValueSet.where(id = '1.2.250.1.213.1.1.5.621'): Error from http://tx.fhir.org/r4: Unable to provide support for code system urn:oid:2.16.840.1.113883.6.96
 == input/ontoserver/JDV/JDV_ImmunizationRouteCodes_CISIS.json ==
-WARNING: ValueSet/1.2.250.1.213.1.1.5.676: ValueSet.compose.include[0].concept[0]: The code '20035000' is not valid in the system https://smt.esante.gouv.fr/terminologie-standardterms (Error from https://smt.esante.gouv.fr/fhir: Unparseable HTML)
-INFORMATION: ValueSet/1.2.250.1.213.1.1.5.676: ValueSet.compose.include[0].concept[0]: Error from https://smt.esante.gouv.fr/fhir: Unparseable HTML
-ERROR: ValueSet/1.2.250.1.213.1.1.5.676: ValueSet.compose.include[0].concept[1]: Error from https://smt.esante.gouv.fr/fhir: Unparseable HTML
 == input/ontoserver/JDV/JDV_ImpactMutation_CISIS.json ==
 WARNING: ValueSet/1.2.250.1.213.1.1.5.142: ValueSet.compose.include[0]: Unknown System 'urn:oid:2.16.840.1.113883.6.96' specified, so Concepts and Filters can't be checked (Details: A definition for CodeSystem 'urn:oid:2.16.840.1.113883.6.96' could not be found, so the code cannot be validated)
 WARNING: ValueSet.where(id = '1.2.250.1.213.1.1.5.142'): Error from http://tx.fhir.org/r4: Unable to provide support for code system urn:oid:2.16.840.1.113883.6.96
@@ -3219,16 +3232,12 @@ WARNING: ValueSet.where(id = '1.2.250.1.213.1.1.5.47'): Error from http://tx.fhi
 WARNING: ValueSet/1.2.250.1.213.1.1.5.731: ValueSet.compose.include[0]: Unknown System 'urn:oid:2.16.840.1.113883.6.96' specified, so Concepts and Filters can't be checked (Details: A definition for CodeSystem 'urn:oid:2.16.840.1.113883.6.96' could not be found, so the code cannot be validated)
 WARNING: ValueSet/1.2.250.1.213.1.1.5.731: ValueSet.compose.include[1]: Unknown System 'urn:oid:2.16.840.1.113883.6.3' specified, so Concepts and Filters can't be checked (Details: A definition for CodeSystem 'urn:oid:2.16.840.1.113883.6.3' could not be found, so the code cannot be validated)
 WARNING: ValueSet.where(id = '1.2.250.1.213.1.1.5.731'): Error from http://tx.fhir.org/r4: Unable to provide support for code system urn:oid:2.16.840.1.113883.6.96
-== input/ontoserver/JDV/JDV_J01_XdsAuthorSpecialty_CISIS.json ==
-WARNING: ValueSet/JDV-J01-XdsAuthorSpecialty-CISIS: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.title is mandatory, but it is not present
 == input/ontoserver/JDV/JDV_J02_XdsHealthcareFacilityTypeCode_CISIS.json ==
 WARNING: ValueSet/JDV-J02-XdsHealthcareFacilityTypeCode-CISIS: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.title is mandatory, but it is not present
 == input/ontoserver/JDV/JDV_J03_XdsContentTypeCode_CISIS.json ==
 WARNING: ValueSet/JDV-J03-XdsContentTypeCode-CISIS: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.title is mandatory, but it is not present
 == input/ontoserver/JDV/JDV_J04_XdsPracticeSettingCode_CISIS.json ==
 WARNING: ValueSet/JDV-J04-XdsPracticeSettingCode-CISIS: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.title is mandatory, but it is not present
-== input/ontoserver/JDV/JDV_J05_SubjectRole_CISIS.json ==
-WARNING: ValueSet/JDV-J05-SubjectRole-CISIS: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.title is mandatory, but it is not present
 == input/ontoserver/JDV/JDV_J06_XdsClassCode_CISIS.json ==
 WARNING: ValueSet/JDV-J06-XdsClassCode-CISIS: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.title is mandatory, but it is not present
 == input/ontoserver/JDV/JDV_J07_XdsTypeCode_CISIS.json ==
@@ -3245,14 +3254,10 @@ WARNING: ValueSet/JDV-J101-SecteurActivite-RASS: ValueSet: Published value sets 
 WARNING: ValueSet/JDV-J103-TypeVoie-RASS: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.title is mandatory, but it is not present
 == input/ontoserver/JDV/JDV_J104_TypeIdentifiantStructure_RASS.json ==
 WARNING: ValueSet/JDV-J104-TypeIdentifiantStructure-RASS: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.title is mandatory, but it is not present
-== input/ontoserver/JDV/JDV_J105_EnsembleDiplome_RASS.json ==
-WARNING: ValueSet/JDV-J105-EnsembleDiplome-RASS: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.title is mandatory, but it is not present
 == input/ontoserver/JDV/JDV_J106_EnsembleProfession_RASS.json ==
 WARNING: ValueSet/JDV-J106-EnsembleProfession-RASS: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.title is mandatory, but it is not present
 == input/ontoserver/JDV/JDV_J107_EnsembleSavoirFaire_RASS.json ==
 WARNING: ValueSet/JDV-J107-EnsembleSavoirFaire-RASS: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.title is mandatory, but it is not present
-== input/ontoserver/JDV/JDV_J108_EnsembleFonction_RASS.json ==
-WARNING: ValueSet/JDV-J108-EnsembleFonction-RASS: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.title is mandatory, but it is not present
 == input/ontoserver/JDV/JDV_J110_StatutVisibiliteDocument_CISIS.json ==
 WARNING: ValueSet/JDV-J110-StatutVisibiliteDocument-CISIS: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.title is mandatory, but it is not present
 == input/ontoserver/JDV/JDV_J111_StatutEtatCivil_ENREG.json ==
@@ -3332,20 +3337,12 @@ WARNING: ValueSet/JDV-J143-AdministrativeGender-CISIS: ValueSet: Published value
 == input/ontoserver/JDV/JDV_J144_ParticipationType_CISIS.json ==
 WARNING: ValueSet/JDV-J144-ParticipationType-CISIS: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.title is mandatory, but it is not present
 == input/ontoserver/JDV/JDV_J145_MethodBodyWeight_ENS.json ==
-WARNING: ValueSet/JDV-J145-MethodBodyWeight-ENS: ValueSet.compose.include[0].concept[0]: The code 'V030210' is not valid in the system https://smt.esante.gouv.fr/terminologie-emdn (Error from https://smt.esante.gouv.fr/fhir: Unparseable HTML)
-INFORMATION: ValueSet/JDV-J145-MethodBodyWeight-ENS: ValueSet.compose.include[0].concept[0]: Error from https://smt.esante.gouv.fr/fhir: Unparseable HTML
 WARNING: ValueSet/JDV-J145-MethodBodyWeight-ENS: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.title is mandatory, but it is not present
 == input/ontoserver/JDV/JDV_J146_MethodBodyHeight_ENS.json ==
 WARNING: ValueSet/JDV-J146-MethodBodyHeight-ENS: ValueSet.compose.include[0]: Unknown System 'https://smt.esante.gouv.fr/terminologie-ncit' specified, so Concepts and Filters can't be checked (Details: A definition for CodeSystem 'https://smt.esante.gouv.fr/terminologie-ncit' could not be found, so the code cannot be validated)
-WARNING: ValueSet/JDV-J146-MethodBodyHeight-ENS: ValueSet.compose.include[1].concept[0]: The code 'V030201' is not valid in the system https://smt.esante.gouv.fr/terminologie-emdn (Error from https://smt.esante.gouv.fr/fhir: Unparseable HTML)
-INFORMATION: ValueSet/JDV-J146-MethodBodyHeight-ENS: ValueSet.compose.include[1].concept[0]: Error from https://smt.esante.gouv.fr/fhir: Unparseable HTML
-ERROR: ValueSet/JDV-J146-MethodBodyHeight-ENS: ValueSet.compose.include[1].concept[1]: Error from https://smt.esante.gouv.fr/fhir: Unparseable HTML
 WARNING: ValueSet/JDV-J146-MethodBodyHeight-ENS: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.title is mandatory, but it is not present
 WARNING: ValueSet.where(id = 'JDV-J146-MethodBodyHeight-ENS'): Error from http://tx.fhir.org/r4: Unable to provide support for code system https://smt.esante.gouv.fr/terminologie-ncit
 == input/ontoserver/JDV/JDV_J147_MethodHeartrate_ENS.json ==
-WARNING: ValueSet/JDV-J147-MethodHeartrate-ENS: ValueSet.compose.include[0].concept[0]: The code 'C0205' is not valid in the system https://smt.esante.gouv.fr/terminologie-emdn (Error from https://smt.esante.gouv.fr/fhir: Unparseable HTML)
-INFORMATION: ValueSet/JDV-J147-MethodHeartrate-ENS: ValueSet.compose.include[0].concept[0]: Error from https://smt.esante.gouv.fr/fhir: Unparseable HTML
-ERROR: ValueSet/JDV-J147-MethodHeartrate-ENS: ValueSet.compose.include[0].concept[1]: Error from https://smt.esante.gouv.fr/fhir: Unparseable HTML
 WARNING: ValueSet/JDV-J147-MethodHeartrate-ENS: ValueSet.compose.include[1]: Unknown System 'http://snomed.info/sct' specified, so Concepts and Filters can't be checked (Details: A definition for CodeSystem 'http://snomed.info/sct' version 'http://snomed.info/sct/11000315107' could not be found, so the code cannot be validated. Valid versions: [])
 WARNING: ValueSet/JDV-J147-MethodHeartrate-ENS: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.title is mandatory, but it is not present
 WARNING: ValueSet.where(id = 'JDV-J147-MethodHeartrate-ENS'): Error from http://tx.fhir.org/r4: Unable to provide support for code system https://smt.esante.gouv.fr/terminologie-emdn
@@ -3360,18 +3357,12 @@ WARNING: ValueSet.where(id = 'JDV-J149-BodySiteBP-ENS'): Error from http://tx.fh
 == input/ontoserver/JDV/JDV_J14_QualiteRepresentantLegal_CISIS.json ==
 WARNING: ValueSet/JDV-J14-QualiteRepresentantLegal-CISIS: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.title is mandatory, but it is not present
 == input/ontoserver/JDV/JDV_J150_MethodBP_ENS.json ==
-WARNING: ValueSet/JDV-J150-MethodBP-ENS: ValueSet.compose.include[0].concept[0]: The code 'Y210905' is not valid in the system https://smt.esante.gouv.fr/terminologie-emdn (Error from https://smt.esante.gouv.fr/fhir: Unparseable HTML)
-INFORMATION: ValueSet/JDV-J150-MethodBP-ENS: ValueSet.compose.include[0].concept[0]: Error from https://smt.esante.gouv.fr/fhir: Unparseable HTML
-ERROR: ValueSet/JDV-J150-MethodBP-ENS: ValueSet.compose.include[0].concept[1]: Error from https://smt.esante.gouv.fr/fhir: Unparseable HTML
 WARNING: ValueSet/JDV-J150-MethodBP-ENS: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.title is mandatory, but it is not present
 == input/ontoserver/JDV/JDV_J151_BodySiteBodyTemperature_ENS.json ==
 WARNING: ValueSet/JDV-J151-BodySiteBodyTemperature-ENS: ValueSet.compose.include[0]: Unknown System 'http://snomed.info/sct' specified, so Concepts and Filters can't be checked (Details: A definition for CodeSystem 'http://snomed.info/sct' version 'http://snomed.info/sct/11000315107' could not be found, so the code cannot be validated. Valid versions: [])
 WARNING: ValueSet/JDV-J151-BodySiteBodyTemperature-ENS: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.title is mandatory, but it is not present
 WARNING: ValueSet.where(id = 'JDV-J151-BodySiteBodyTemperature-ENS'): Error from http://tx.fhir.org/r4: Unable to provide support for code system http://snomed.info/sct
 == input/ontoserver/JDV/JDV_J152_MethodBodyTemperature_ENS.json ==
-WARNING: ValueSet/JDV-J152-MethodBodyTemperature-ENS: ValueSet.compose.include[0].concept[0]: The code 'V03010102' is not valid in the system https://smt.esante.gouv.fr/terminologie-emdn (Error from https://smt.esante.gouv.fr/fhir: Unparseable HTML)
-INFORMATION: ValueSet/JDV-J152-MethodBodyTemperature-ENS: ValueSet.compose.include[0].concept[0]: Error from https://smt.esante.gouv.fr/fhir: Unparseable HTML
-ERROR: ValueSet/JDV-J152-MethodBodyTemperature-ENS: ValueSet.compose.include[0].concept[1]: Error from https://smt.esante.gouv.fr/fhir: Unparseable HTML
 WARNING: ValueSet/JDV-J152-MethodBodyTemperature-ENS: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.title is mandatory, but it is not present
 == input/ontoserver/JDV/JDV_J153_TypeDiabete_ENS.json ==
 WARNING: ValueSet/JDV-J153-TypeDiabete-ENS: ValueSet.compose.include[0]: Unknown System 'https://mos.esante.gouv.fr/NOS/TRE_R311-RegroupementSurCIM10ATIH/FHIR/TRE-R311-RegroupementSurCIM10ATIH' specified, so Concepts and Filters can't be checked (Details: A definition for CodeSystem 'https://mos.esante.gouv.fr/NOS/TRE_R311-RegroupementSurCIM10ATIH/FHIR/TRE-R311-RegroupementSurCIM10ATIH' could not be found, so the code cannot be validated)
@@ -3382,21 +3373,14 @@ WARNING: ValueSet.where(id = 'JDV-J153-TypeDiabete-ENS'): Error from http://tx.f
 == input/ontoserver/JDV/JDV_J154_TypeGlucose_ENS.json ==
 WARNING: ValueSet/JDV-J154-TypeGlucose-ENS: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.title is mandatory, but it is not present
 == input/ontoserver/JDV/JDV_J155_MethodGlucoseSanguin_ENS.json ==
-WARNING: ValueSet/JDV-J155-MethodGlucoseSanguin-ENS: ValueSet.compose.include[0].concept[0]: The code 'Z1204011501' is not valid in the system https://smt.esante.gouv.fr/terminologie-emdn (Error from https://smt.esante.gouv.fr/fhir: Unparseable HTML)
-INFORMATION: ValueSet/JDV-J155-MethodGlucoseSanguin-ENS: ValueSet.compose.include[0].concept[0]: Error from https://smt.esante.gouv.fr/fhir: Unparseable HTML
 WARNING: ValueSet/JDV-J155-MethodGlucoseSanguin-ENS: ValueSet.compose.include[1]: Unknown System 'http://snomed.info/sct' specified, so Concepts and Filters can't be checked (Details: A definition for CodeSystem 'http://snomed.info/sct' version 'http://snomed.info/sct/11000315107' could not be found, so the code cannot be validated. Valid versions: [])
 WARNING: ValueSet/JDV-J155-MethodGlucoseSanguin-ENS: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.title is mandatory, but it is not present
 WARNING: ValueSet.where(id = 'JDV-J155-MethodGlucoseSanguin-ENS'): Error from http://tx.fhir.org/r4: Unable to provide support for code system https://smt.esante.gouv.fr/terminologie-emdn
 == input/ontoserver/JDV/JDV_J156_MethodGlucoseInterstitiel_ENS.json ==
-WARNING: ValueSet/JDV-J156-MethodGlucoseInterstitiel-ENS: ValueSet.compose.include[0].concept[0]: The code 'J0601' is not valid in the system https://smt.esante.gouv.fr/terminologie-emdn (Error from https://smt.esante.gouv.fr/fhir: Unparseable HTML)
-INFORMATION: ValueSet/JDV-J156-MethodGlucoseInterstitiel-ENS: ValueSet.compose.include[0].concept[0]: Error from https://smt.esante.gouv.fr/fhir: Unparseable HTML
 WARNING: ValueSet/JDV-J156-MethodGlucoseInterstitiel-ENS: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.title is mandatory, but it is not present
 == input/ontoserver/JDV/JDV_J157_MomentGlucose_ENS.json ==
 WARNING: ValueSet/JDV-J157-MomentGlucose-ENS: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.title is mandatory, but it is not present
 == input/ontoserver/JDV/JDV_J158_MethodStepsByDay_ENS.json ==
-WARNING: ValueSet/JDV-J158-MethodStepsByDay-ENS: ValueSet.compose.include[0].concept[0]: The code 'Y210905' is not valid in the system https://smt.esante.gouv.fr/terminologie-emdn (Error from https://smt.esante.gouv.fr/fhir: Unparseable HTML)
-INFORMATION: ValueSet/JDV-J158-MethodStepsByDay-ENS: ValueSet.compose.include[0].concept[0]: Error from https://smt.esante.gouv.fr/fhir: Unparseable HTML
-ERROR: ValueSet/JDV-J158-MethodStepsByDay-ENS: ValueSet.compose.include[0].concept[1]: Error from https://smt.esante.gouv.fr/fhir: Unparseable HTML
 WARNING: ValueSet/JDV-J158-MethodStepsByDay-ENS: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.title is mandatory, but it is not present
 == input/ontoserver/JDV/JDV_J159_MethodPainSeverity_ENS.json ==
 WARNING: ValueSet/JDV-J159-MethodPainSeverity-ENS: ValueSet.compose.include[0]: Unknown System 'https://smt.esante.gouv.fr/terminologie-ncit' specified, so Concepts and Filters can't be checked (Details: A definition for CodeSystem 'https://smt.esante.gouv.fr/terminologie-ncit' could not be found, so the code cannot be validated)
@@ -3681,9 +3665,6 @@ WARNING: ValueSet/JDV-J265-RoleMembreCercleDeSoins-CISIS: ValueSet: Published va
 == input/ontoserver/JDV/JDV_J26_ModeGestion_ROR.json ==
 WARNING: ValueSet/JDV-J26-ModeGestion-ROR: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.title is mandatory, but it is not present
 == input/ontoserver/JDV/JDV_J275_EMDN_UPNOS.json ==
-WARNING: ValueSet/JDV-J275-EMDN-UPNOS: ValueSet.compose.include[0].concept[0]: The code 'V030201' is not valid in the system https://smt.esante.gouv.fr/terminologie-emdn (Error from https://smt.esante.gouv.fr/fhir: Unparseable HTML)
-INFORMATION: ValueSet/JDV-J275-EMDN-UPNOS: ValueSet.compose.include[0].concept[0]: Error from https://smt.esante.gouv.fr/fhir: Unparseable HTML
-ERROR: ValueSet/JDV-J275-EMDN-UPNOS: ValueSet.compose.include[0].concept[1]: Error from https://smt.esante.gouv.fr/fhir: Unparseable HTML
 WARNING: ValueSet/JDV-J275-EMDN-UPNOS: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.title is mandatory, but it is not present
 == input/ontoserver/JDV/JDV_J277_NCIT_CISIS.json ==
 WARNING: ValueSet/JDV-J277-NCIT-CISIS: ValueSet.compose.include[0]: Unknown System 'https://smt.esante.gouv.fr/terminologie-ncit' specified, so Concepts and Filters can't be checked (Details: A definition for CodeSystem 'https://smt.esante.gouv.fr/terminologie-ncit' could not be found, so the code cannot be validated)
@@ -3755,10 +3736,6 @@ WARNING: ValueSet/JDV-J41-TypeHoraire-ROR: ValueSet: Published value sets SHOULD
 WARNING: ValueSet/JDV-J42-TypeMaternite-ROR: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.title is mandatory, but it is not present
 == input/ontoserver/JDV/JDV_J46_TypeEvenementNotification_CISIS.json ==
 WARNING: ValueSet/JDV-J46-TypeEvenementNotification-CISIS: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.title is mandatory, but it is not present
-== input/ontoserver/JDV/JDV_J47_FunctionCode_CISIS.json ==
-WARNING: ValueSet/JDV-J47-FunctionCode-CISIS: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.title is mandatory, but it is not present
-== input/ontoserver/JDV/JDV_J48_ProfessionNonPS_CISIS.json ==
-WARNING: ValueSet/JDV-J48-ProfessionNonPS-CISIS: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.title is mandatory, but it is not present
 == input/ontoserver/JDV/JDV_J49_UcumUniteLongueur.json ==
 WARNING: ValueSet/JDV-J49-UcumUniteLongueur: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.title is mandatory, but it is not present
 == input/ontoserver/JDV/JDV_J50_AccessibiliteLieu_ROR.json ==
@@ -3811,8 +3788,6 @@ WARNING: ValueSet/JDV-J72-TypeProfessionFonction-MSSante: ValueSet: Published va
 WARNING: ValueSet/JDV-J73-MetierPharmacien-RASS: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.title is mandatory, but it is not present
 == input/ontoserver/JDV/JDV_J74_Pays_RASS.json ==
 WARNING: ValueSet/JDV-J74-Pays-RASS: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.title is mandatory, but it is not present
-== input/ontoserver/JDV/JDV_J75_TypeAutorisation_RASS.json ==
-WARNING: ValueSet/JDV-J75-TypeAutorisation-RASS: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.title is mandatory, but it is not present
 == input/ontoserver/JDV/JDV_J76_DisciplineAutorisation_RASS.json ==
 WARNING: ValueSet/JDV-J76-DisciplineAutorisation-RASS: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.title is mandatory, but it is not present
 == input/ontoserver/JDV/JDV_J77_TypeIdentifiantPersonne_RASS.json ==
@@ -3977,9 +3952,6 @@ WARNING: ValueSet.where(id = '1.2.250.1.213.1.1.5.660'): Error from http://tx.fh
 WARNING: ValueSet/1.2.250.1.213.1.1.5.735: ValueSet.compose.include[1]: Unknown System 'urn:oid:2.16.840.1.113883.6.96' specified, so Concepts and Filters can't be checked (Details: A definition for CodeSystem 'urn:oid:2.16.840.1.113883.6.96' could not be found, so the code cannot be validated)
 WARNING: ValueSet.where(id = '1.2.250.1.213.1.1.5.735'): Error from http://tx.fhir.org/r4: Unable to provide support for code system urn:oid:2.16.840.1.113883.6.96
 == input/ontoserver/JDV/JDV_ModeAdministration_CISIS.json ==
-WARNING: ValueSet/1.2.250.1.213.1.1.5.75: ValueSet.compose.include[0].concept[0]: The code '20035000' is not valid in the system https://smt.esante.gouv.fr/terminologie-standardterms (Error from https://smt.esante.gouv.fr/fhir: Unparseable HTML)
-INFORMATION: ValueSet/1.2.250.1.213.1.1.5.75: ValueSet.compose.include[0].concept[0]: Error from https://smt.esante.gouv.fr/fhir: Unparseable HTML
-ERROR: ValueSet/1.2.250.1.213.1.1.5.75: ValueSet.compose.include[0].concept[1]: Error from https://smt.esante.gouv.fr/fhir: Unparseable HTML
 == input/ontoserver/JDV/JDV_ModeDeTransport_CISIS.json ==
 == input/ontoserver/JDV/JDV_ModeDeVie_CISIS.json ==
 WARNING: ValueSet/1.2.250.1.213.1.1.5.156: ValueSet.compose.include[0]: Unknown System 'urn:oid:2.16.840.1.113883.6.96' specified, so Concepts and Filters can't be checked (Details: A definition for CodeSystem 'urn:oid:2.16.840.1.113883.6.96' could not be found, so the code cannot be validated)
@@ -4150,9 +4122,6 @@ WARNING: ValueSet.where(id = '1.2.250.1.213.1.1.5.109'): Error from http://tx.fh
 == input/ontoserver/JDV/JDV_ProfessionsExposees_CISIS.json ==
 == input/ontoserver/JDV/JDV_ProgressionCancer_CISIS.json ==
 == input/ontoserver/JDV/JDV_ProtheseObjetPersonnel_CISIS.json ==
-WARNING: ValueSet/1.2.250.1.213.1.1.5.515: ValueSet.compose.include[0].concept[0]: The code 'Q021003' is not valid in the system https://smt.esante.gouv.fr/terminologie-emdn (Error from https://smt.esante.gouv.fr/fhir: Unparseable HTML)
-INFORMATION: ValueSet/1.2.250.1.213.1.1.5.515: ValueSet.compose.include[0].concept[0]: Error from https://smt.esante.gouv.fr/fhir: Unparseable HTML
-ERROR: ValueSet/1.2.250.1.213.1.1.5.515: ValueSet.compose.include[0].concept[1]: Error from https://smt.esante.gouv.fr/fhir: Unparseable HTML
 == input/ontoserver/JDV/JDV_QualificationFraction_CISIS.json ==
 == input/ontoserver/JDV/JDV_QuantiteExpositionRayonnements_CISIS.json ==
 WARNING: ValueSet/1.2.250.1.213.1.1.5.620: ValueSet.compose.include[0]: Unknown System 'urn:oid:1.2.840.10008.2.16.4' specified, so Concepts and Filters can't be checked (Details: A definition for CodeSystem 'urn:oid:1.2.840.10008.2.16.4' could not be found, so the code cannot be validated)
@@ -4254,9 +4223,7 @@ WARNING: ValueSet.where(id = '1.2.250.1.213.1.1.5.720'): Error from http://tx.fh
 == input/ontoserver/JDV/JDV_RisquePourEntourage_CISIS.json ==
 == input/ontoserver/JDV/JDV_RisquePourUsager_CISIS.json ==
 == input/ontoserver/JDV/JDV_RouteofAdministration_CISIS.json ==
-WARNING: ValueSet/1.2.250.1.213.1.1.5.677: ValueSet.compose.include[0].concept[0]: The code '20001000' is not valid in the system https://smt.esante.gouv.fr/terminologie-standardterms (Error from https://smt.esante.gouv.fr/fhir: Unparseable HTML)
-INFORMATION: ValueSet/1.2.250.1.213.1.1.5.677: ValueSet.compose.include[0].concept[0]: Error from https://smt.esante.gouv.fr/fhir: Unparseable HTML
-ERROR: ValueSet/1.2.250.1.213.1.1.5.677: ValueSet.compose.include[0].concept[1]: Error from https://smt.esante.gouv.fr/fhir: Unparseable HTML
+WARNING: ValueSet/1.2.250.1.213.1.1.5.677: ValueSet.compose.include[0].concept[81]: The code '420287000' is not valid in the system https://smt.esante.gouv.fr/terminologie-standardterms (Unknown code '420287000' in the CodeSystem 'https://smt.esante.gouv.fr/terminologie-standardterms' version '2024-06-20')
 == input/ontoserver/JDV/JDV_SOPClass_CISIS.json ==
 WARNING: ValueSet/1.2.250.1.213.1.1.5.689: ValueSet.compose.include[0].concept[0]: The code '1.2.840.10008.5.1.4.1.1.1' is not valid in the system https://mos.esante.gouv.fr/NOS/TRE_A09-DICOMuidRegistry/FHIR/TRE-A09-DICOMuidRegistry (Unknown code '1.2.840.10008.5.1.4.1.1.1' in the CodeSystem 'https://mos.esante.gouv.fr/NOS/TRE_A09-DICOMuidRegistry/FHIR/TRE-A09-DICOMuidRegistry' version '20231215120000')
 INFORMATION: ValueSet/1.2.250.1.213.1.1.5.689: ValueSet.compose.include[0].concept[0]: Unknown code '1.2.840.10008.5.1.4.1.1.1' in the CodeSystem 'https://mos.esante.gouv.fr/NOS/TRE_A09-DICOMuidRegistry/FHIR/TRE-A09-DICOMuidRegistry' version '20231215120000'
@@ -4585,9 +4552,6 @@ WARNING: ValueSet/1.2.250.1.213.1.1.5.127: ValueSet.compose.include[0]: Unknown 
 WARNING: ValueSet/1.2.250.1.213.1.1.5.127: ValueSet.compose.include[2]: Unknown System 'urn:oid:2.16.840.1.113883.6.96' specified, so Concepts and Filters can't be checked (Details: A definition for CodeSystem 'urn:oid:2.16.840.1.113883.6.96' could not be found, so the code cannot be validated)
 WARNING: ValueSet.where(id = '1.2.250.1.213.1.1.5.127'): Error from http://tx.fhir.org/r4: Unable to provide support for code system urn:oid:2.16.840.1.113883.6.96
 == input/ontoserver/JDV/JDV_TypeSondeGastrique_CISIS.json ==
-WARNING: ValueSet/1.2.250.1.213.1.1.5.593: ValueSet.compose.include[0].concept[0]: The code 'G020299' is not valid in the system https://smt.esante.gouv.fr/terminologie-emdn (Error from https://smt.esante.gouv.fr/fhir: Unparseable HTML)
-INFORMATION: ValueSet/1.2.250.1.213.1.1.5.593: ValueSet.compose.include[0].concept[0]: Error from https://smt.esante.gouv.fr/fhir: Unparseable HTML
-ERROR: ValueSet/1.2.250.1.213.1.1.5.593: ValueSet.compose.include[0].concept[1]: Error from https://smt.esante.gouv.fr/fhir: Unparseable HTML
 == input/ontoserver/JDV/JDV_TypeTraitementIV_CISIS.json ==
 WARNING: ValueSet/1.2.250.1.213.1.1.5.173: ValueSet.compose.include[0]: Unknown System 'urn:oid:2.16.840.1.113883.6.96' specified, so Concepts and Filters can't be checked (Details: A definition for CodeSystem 'urn:oid:2.16.840.1.113883.6.96' could not be found, so the code cannot be validated)
 WARNING: ValueSet.where(id = '1.2.250.1.213.1.1.5.173'): Error from http://tx.fhir.org/r4: Unable to provide support for code system urn:oid:2.16.840.1.113883.6.96
@@ -4626,9 +4590,6 @@ WARNING: ValueSet.where(id = '1.2.250.1.213.1.1.4.2.15'): Error from http://tx.f
 WARNING: ValueSet/1.2.250.1.213.1.1.4.2.4: ValueSet.compose.include[0]: Unknown System 'urn:oid:2.16.840.1.113883.6.96' specified, so Concepts and Filters can't be checked (Details: A definition for CodeSystem 'urn:oid:2.16.840.1.113883.6.96' could not be found, so the code cannot be validated)
 WARNING: ValueSet.where(id = '1.2.250.1.213.1.1.4.2.4'): Error from http://tx.fhir.org/r4: Unable to provide support for code system urn:oid:2.16.840.1.113883.6.96
 == input/ontoserver/JDV/JDV_UFCV_MatImpl_CISIS.json ==
-WARNING: ValueSet/1.2.250.1.213.1.1.4.2.1: ValueSet.compose.include[0].concept[0]: The code 'J0105' is not valid in the system https://smt.esante.gouv.fr/terminologie-emdn (Error from https://smt.esante.gouv.fr/fhir: Unparseable HTML)
-INFORMATION: ValueSet/1.2.250.1.213.1.1.4.2.1: ValueSet.compose.include[0].concept[0]: Error from https://smt.esante.gouv.fr/fhir: Unparseable HTML
-ERROR: ValueSet/1.2.250.1.213.1.1.4.2.1: ValueSet.compose.include[0].concept[1]: Error from https://smt.esante.gouv.fr/fhir: Unparseable HTML
 == input/ontoserver/JDV/JDV_UFCV_MotImplEndoC_CISIS.json ==
 == input/ontoserver/JDV/JDV_UFCV_MotImpl_CISIS.json ==
 WARNING: ValueSet/1.2.250.1.213.1.1.4.2.13: ValueSet.compose.include[1]: Unknown System 'urn:oid:2.16.840.1.113883.6.3' specified, so Concepts and Filters can't be checked (Details: A definition for CodeSystem 'urn:oid:2.16.840.1.113883.6.3' could not be found, so the code cannot be validated)
@@ -4637,36 +4598,18 @@ WARNING: ValueSet.where(id = '1.2.250.1.213.1.1.4.2.13'): Error from http://tx.f
 WARNING: ValueSet/1.2.250.1.213.1.1.4.2.6: ValueSet.compose.include[0]: Unknown System 'urn:oid:2.16.840.1.113883.6.96' specified, so Concepts and Filters can't be checked (Details: A definition for CodeSystem 'urn:oid:2.16.840.1.113883.6.96' could not be found, so the code cannot be validated)
 WARNING: ValueSet.where(id = '1.2.250.1.213.1.1.4.2.6'): Error from http://tx.fhir.org/r4: Unable to provide support for code system urn:oid:2.16.840.1.113883.6.96
 == input/ontoserver/JDV/JDV_UFCV_PolarSnd_CISIS.json ==
-WARNING: ValueSet/1.2.250.1.213.1.1.4.2.7: ValueSet.compose.include[0].concept[0]: The code 'J0190010101' is not valid in the system https://smt.esante.gouv.fr/terminologie-emdn (Error from https://smt.esante.gouv.fr/fhir: Unparseable HTML)
-INFORMATION: ValueSet/1.2.250.1.213.1.1.4.2.7: ValueSet.compose.include[0].concept[0]: Error from https://smt.esante.gouv.fr/fhir: Unparseable HTML
-ERROR: ValueSet/1.2.250.1.213.1.1.4.2.7: ValueSet.compose.include[0].concept[1]: Error from https://smt.esante.gouv.fr/fhir: Unparseable HTML
 == input/ontoserver/JDV/JDV_UFCV_ProtValv_CISIS.json ==
-WARNING: ValueSet/1.2.250.1.213.1.1.4.2.9: ValueSet.compose.include[0].concept[0]: The code 'P070302' is not valid in the system https://smt.esante.gouv.fr/terminologie-emdn (Error from https://smt.esante.gouv.fr/fhir: Unparseable HTML)
-INFORMATION: ValueSet/1.2.250.1.213.1.1.4.2.9: ValueSet.compose.include[0].concept[0]: Error from https://smt.esante.gouv.fr/fhir: Unparseable HTML
-ERROR: ValueSet/1.2.250.1.213.1.1.4.2.9: ValueSet.compose.include[0].concept[1]: Error from https://smt.esante.gouv.fr/fhir: Unparseable HTML
 == input/ontoserver/JDV/JDV_UFCV_SiteImp_CISIS.json ==
 WARNING: ValueSet/1.2.250.1.213.1.1.4.2.2: ValueSet.compose.include[0]: Unknown System 'urn:oid:2.16.840.1.113883.6.96' specified, so Concepts and Filters can't be checked (Details: A definition for CodeSystem 'urn:oid:2.16.840.1.113883.6.96' could not be found, so the code cannot be validated)
 WARNING: ValueSet.where(id = '1.2.250.1.213.1.1.4.2.2'): Error from http://tx.fhir.org/r4: Unable to provide support for code system urn:oid:2.16.840.1.113883.6.96
 == input/ontoserver/JDV/JDV_UFCV_TypEndoC_CISIS.json ==
 == input/ontoserver/JDV/JDV_UFCV_TypEndoPt_CISIS.json ==
-WARNING: ValueSet/1.2.250.1.213.1.1.4.2.20: ValueSet.compose.include[0].concept[0]: The code 'P07040201' is not valid in the system https://smt.esante.gouv.fr/terminologie-emdn (Error from https://smt.esante.gouv.fr/fhir: Unparseable HTML)
-INFORMATION: ValueSet/1.2.250.1.213.1.1.4.2.20: ValueSet.compose.include[0].concept[0]: Error from https://smt.esante.gouv.fr/fhir: Unparseable HTML
-ERROR: ValueSet/1.2.250.1.213.1.1.4.2.20: ValueSet.compose.include[0].concept[1]: Error from https://smt.esante.gouv.fr/fhir: Unparseable HTML
 == input/ontoserver/JDV/JDV_UFCV_TypVal_CISIS.json ==
-WARNING: ValueSet/1.2.250.1.213.1.1.4.2.16: ValueSet.compose.include[0].concept[0]: The code 'P070301030101' is not valid in the system https://smt.esante.gouv.fr/terminologie-emdn (Error from https://smt.esante.gouv.fr/fhir: Unparseable HTML)
-INFORMATION: ValueSet/1.2.250.1.213.1.1.4.2.16: ValueSet.compose.include[0].concept[0]: Error from https://smt.esante.gouv.fr/fhir: Unparseable HTML
-ERROR: ValueSet/1.2.250.1.213.1.1.4.2.16: ValueSet.compose.include[0].concept[1]: Error from https://smt.esante.gouv.fr/fhir: Unparseable HTML
 == input/ontoserver/JDV/JDV_UFCV_TypeDMCard_CISIS.json ==
-WARNING: ValueSet/1.2.250.1.213.1.1.4.2.11: ValueSet.compose.include[0].concept[0]: The code 'J010101' is not valid in the system https://smt.esante.gouv.fr/terminologie-emdn (Error from https://smt.esante.gouv.fr/fhir: Unparseable HTML)
-INFORMATION: ValueSet/1.2.250.1.213.1.1.4.2.11: ValueSet.compose.include[0].concept[0]: Error from https://smt.esante.gouv.fr/fhir: Unparseable HTML
-ERROR: ValueSet/1.2.250.1.213.1.1.4.2.11: ValueSet.compose.include[0].concept[1]: Error from https://smt.esante.gouv.fr/fhir: Unparseable HTML
 == input/ontoserver/JDV/JDV_UFCV_VoieAbord_CISIS.json ==
 WARNING: ValueSet/1.2.250.1.213.1.1.4.2.8: ValueSet.compose.include[0]: Unknown System 'urn:oid:2.16.840.1.113883.6.96' specified, so Concepts and Filters can't be checked (Details: A definition for CodeSystem 'urn:oid:2.16.840.1.113883.6.96' could not be found, so the code cannot be validated)
 WARNING: ValueSet.where(id = '1.2.250.1.213.1.1.4.2.8'): Error from http://tx.fhir.org/r4: Unable to provide support for code system urn:oid:2.16.840.1.113883.6.96
 == input/ontoserver/JDV/JDV_UsageDrogues_CISIS.json ==
-WARNING: ValueSet/1.2.250.1.213.1.1.5.94: ValueSet.compose.include[0].concept[0]: The code '20045000' is not valid in the system https://smt.esante.gouv.fr/terminologie-standardterms (Error from https://smt.esante.gouv.fr/fhir: Unparseable HTML)
-INFORMATION: ValueSet/1.2.250.1.213.1.1.5.94: ValueSet.compose.include[0].concept[0]: Error from https://smt.esante.gouv.fr/fhir: Unparseable HTML
-ERROR: ValueSet/1.2.250.1.213.1.1.5.94: ValueSet.compose.include[0].concept[1]: Error from https://smt.esante.gouv.fr/fhir: Unparseable HTML
 == input/ontoserver/JDV/JDV_VaccinCSE24_CISIS.json ==
 WARNING: ValueSet/1.2.250.1.213.1.1.5.107: ValueSet.compose.include[0]: Unknown System 'urn:oid:2.16.840.1.113883.6.73' specified, so Concepts and Filters can't be checked (Details: A definition for CodeSystem 'urn:oid:2.16.840.1.113883.6.73' could not be found, so the code cannot be validated)
 WARNING: ValueSet.where(id = '1.2.250.1.213.1.1.5.107'): Error from http://tx.fhir.org/r4: Unable to provide support for code system urn:oid:2.16.840.1.113883.6.73
@@ -6041,11 +5984,6 @@ WARNING: CodeSystem/TRE-R84-ProfilAccesAnnuaire-MSSante: CodeSystem: Published c
 INFORMATION: CodeSystem/TRE-R84-ProfilAccesAnnuaire-MSSante: CodeSystem.property[0]: This property has only a code ('dateValid') and not a URI, so it has no clearly defined meaning in the terminology ecosystem
 INFORMATION: CodeSystem/TRE-R84-ProfilAccesAnnuaire-MSSante: CodeSystem.property[1]: This property has only a code ('dateMaj') and not a URI, so it has no clearly defined meaning in the terminology ecosystem
 INFORMATION: CodeSystem/TRE-R84-ProfilAccesAnnuaire-MSSante: CodeSystem.property[2]: This property has only a code ('dateFin') and not a URI, so it has no clearly defined meaning in the terminology ecosystem
-== input/ontoserver/TRE/TRE_R85_RolePriseCharge.json ==
-WARNING: CodeSystem/TRE-R85-RolePriseCharge: CodeSystem: Published code systems SHOULD conform to the ShareableCodeSystem profile, which says that the element CodeSystem.title is mandatory, but it is not present
-INFORMATION: CodeSystem/TRE-R85-RolePriseCharge: CodeSystem.property[0]: This property has only a code ('dateValid') and not a URI, so it has no clearly defined meaning in the terminology ecosystem
-INFORMATION: CodeSystem/TRE-R85-RolePriseCharge: CodeSystem.property[1]: This property has only a code ('dateMaj') and not a URI, so it has no clearly defined meaning in the terminology ecosystem
-INFORMATION: CodeSystem/TRE-R85-RolePriseCharge: CodeSystem.property[2]: This property has only a code ('dateFin') and not a URI, so it has no clearly defined meaning in the terminology ecosystem
 == input/ontoserver/TRE/TRE_R86_ProfilVIHF.json ==
 WARNING: CodeSystem/TRE-R86-ProfilVIHF: CodeSystem: Published code systems SHOULD conform to the ShareableCodeSystem profile, which says that the element CodeSystem.title is mandatory, but it is not present
 INFORMATION: CodeSystem/TRE-R86-ProfilVIHF: CodeSystem.property[0]: This property has only a code ('dateValid') and not a URI, so it has no clearly defined meaning in the terminology ecosystem

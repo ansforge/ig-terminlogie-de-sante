@@ -130,6 +130,9 @@
          <concept code="AM41"
                   codeSystem="1.2.250.1.213.1.6.1.14"
                   displayName="Agrément de radiophysicien avant le 28/11/2004"/>
+         <concept code="AM42"
+                  codeSystem="1.2.250.1.213.1.6.1.14"
+                  displayName="Autorisation d'user du titre de Psychothérapeute"/>
       </ConceptList>
    </ValueSet>
 </RetrieveValueSetResponse>

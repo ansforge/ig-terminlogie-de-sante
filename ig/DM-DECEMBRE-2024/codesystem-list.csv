@@ -239,7 +239,7 @@ https://mos.esante.gouv.fr/NOS/TRE_R78-ProfilAccesReferentiel/FHIR/TRE-R78-Profi
 https://mos.esante.gouv.fr/NOS/TRE_R81-Civilite/FHIR/TRE-R81-Civilite,20231215120000,active,"1.2.250.1.213.1.6.1.69",TRE_R81_Civilite,,"Civilité",
 https://mos.esante.gouv.fr/NOS/TRE_R82-Ordre/FHIR/TRE-R82-Ordre,20231215120000,active,"1.2.250.1.213.1.6.1.70",TRE_R82_Ordre,,"Ordre",
 https://mos.esante.gouv.fr/NOS/TRE_R84-ProfilAccesAnnuaire-MSSante/FHIR/TRE-R84-ProfilAccesAnnuaire-MSSante,20231215120000,active,"1.2.250.1.213.1.9.1.1",TRE_R84_ProfilAccesAnnuaire_MSSante,,"Profil d'accès à l'annuaire MSSante",
-https://mos.esante.gouv.fr/NOS/TRE_R85-RolePriseCharge/FHIR/TRE-R85-RolePriseCharge,20241025120000,active,"1.2.250.1.213.1.6.1.107",TRE_R85_RolePriseCharge,,"Rôle dans la prise en charge des patients ou des usagers",
+https://mos.esante.gouv.fr/NOS/TRE_R85-RolePriseCharge/FHIR/TRE-R85-RolePriseCharge,20241120120000,active,"1.2.250.1.213.1.6.1.107",TRE_R85_RolePriseCharge,,"Rôle dans la prise en charge des patients ou des usagers",
 https://mos.esante.gouv.fr/NOS/TRE_R86-ProfilVIHF/FHIR/TRE-R86-ProfilVIHF,20231215120000,active,"1.2.250.1.213.1.1.4.312",TRE_R86_ProfilVIHF,,"Profil VIHF d'accès",
 https://mos.esante.gouv.fr/NOS/TRE_R87-TypeCarte/FHIR/TRE-R87-TypeCarte,20231215120000,active,"1.2.250.1.213.1.6.1.106",TRE_R87_TypeCarte,,"Type de carte",
 https://mos.esante.gouv.fr/NOS/TRE_R88-TerritoireSante/FHIR/TRE-R88-TerritoireSante,20231215120000,active,"1.2.250.1.213.1.6.1.104",TRE_R88_TerritoireSante,,"Territoire de Santé (au sens ARS) en France",
