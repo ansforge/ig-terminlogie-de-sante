@@ -115,7 +115,7 @@
     "id" : "ASS-A25-PaysProvenanceISO-PaysProvenanceCOG",
     "type" : "ConceptMap",
     "url" : "https://mos.esante.gouv.fr/NOS/ASS_A25-PaysProvenanceISO-PaysProvenanceCOG/FHIR/ASS-A25-PaysProvenanceISO-PaysProvenanceCOG",
-    "version" : "20240126120000",
+    "version" : "20241122120000",
     "name" : "ASS_A25_PaysProvenanceISO_PaysProvenanceCOG"
   },
   {
@@ -136,7 +136,7 @@
     "id" : "ASS-A30-TypeAutorisation-Profession-EPARS",
     "type" : "ConceptMap",
     "url" : "https://mos.esante.gouv.fr/NOS/ASS_A30-TypeAutorisation-Profession-EPARS/FHIR/ASS-A30-TypeAutorisation-Profession-EPARS",
-    "version" : "20241118120000",
+    "version" : "20241121120000",
     "name" : "ASS_A30_TypeAutorisation_Profession_EPARS"
   },
   {
@@ -655,7 +655,7 @@
     "id" : "JDV-J14-QualiteRepresentantLegal-CISIS",
     "type" : "ValueSet",
     "url" : "https://mos.esante.gouv.fr/NOS/JDV_J14-QualiteRepresentantLegal-CISIS/FHIR/JDV-J14-QualiteRepresentantLegal-CISIS",
-    "version" : "20240126120000",
+    "version" : "20241121120000",
     "name" : "JDV_J14_QualiteRepresentantLegal_CISIS",
     "oids" : ["1.2.250.1.213.1.1.5.468"]
   },
@@ -1615,7 +1615,7 @@
     "id" : "JDV-J256-Pays",
     "type" : "ValueSet",
     "url" : "https://mos.esante.gouv.fr/NOS/JDV_J256-Pays/FHIR/JDV-J256-Pays",
-    "version" : "20240628120000",
+    "version" : "20241122120000",
     "name" : "JDV_J256_Pays",
     "oids" : ["1.2.250.1.213.1.1.5.762"]
   },
@@ -1863,9 +1863,9 @@
     "id" : "JDV-J38-ModeAcces-CISIS",
     "type" : "ValueSet",
     "url" : "https://mos.esante.gouv.fr/NOS/JDV_J38_ModeAcces-CISIS/FHIR/JDV-J38-ModeAcces-CISIS",
-    "version" : "20200424120000",
+    "version" : "20241122120000",
     "name" : "JDV_J38_ModeAcces_CISIS",
-    "oids" : ["1.2.250.1.213.1.1.4.248"]
+    "oids" : ["1.2.250.1.213.1.1.4.336"]
   },
   {
     "id" : "JDV-J39-ConditionTarifaire-ROR",
@@ -2679,7 +2679,7 @@
     "id" : "TRE-R20-Pays",
     "type" : "CodeSystem",
     "url" : "https://mos.esante.gouv.fr/NOS/TRE_R20-Pays/FHIR/TRE-R20-Pays",
-    "version" : "20240628120000",
+    "version" : "20241122120000",
     "name" : "TRE_R20_Pays",
     "oids" : ["1.2.250.1.213.2.24"]
   },
@@ -3086,9 +3086,9 @@
     "id" : "TRE-R248-ModeAcces",
     "type" : "CodeSystem",
     "url" : "https://mos.esante.gouv.fr/NOS/TRE_R248_ModeAcces/FHIR/TRE-R248-ModeAcces",
-    "version" : "20231215120000",
+    "version" : "20241122120000",
     "name" : "TRE_R248_ModeAcces",
-    "oids" : ["1.2.250.1.213.1.1.4.336"]
+    "oids" : ["1.2.250.1.213.1.1.4.248"]
   },
   {
     "id" : "TRE-R249-Sexe",

@@ -2,7 +2,7 @@
 <RetrieveValueSetResponse xmlns="urn:ihe:iti:svs:2008"
                           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
    <ValueSet dateFin=""
-             dateMaj="20240628120000"
+             dateMaj="20241122120000"
              dateValid="20240126120000"
              description="Tous les codes actifs de la nomenclature du COG INSEE pays auquel on ajoute le code applicatif &#34;non renseigné&#34;"
              displayName="JDV_J256_Pays"
@@ -55,6 +55,9 @@
          <concept code="99132"
                   codeSystem="1.2.250.1.213.2.24"
                   displayName="Royaume-Uni"/>
+         <concept code="99133"
+                  codeSystem="1.2.250.1.213.2.24"
+                  displayName="Territoires britanniques en Méditerranée"/>
          <concept code="99134" codeSystem="1.2.250.1.213.2.24" displayName="Espagne"/>
          <concept code="99135" codeSystem="1.2.250.1.213.2.24" displayName="Pays-Bas"/>
          <concept code="99136" codeSystem="1.2.250.1.213.2.24" displayName="Irlande"/>
@@ -107,9 +110,13 @@
                   displayName="Singapour"/>
          <concept code="99227" codeSystem="1.2.250.1.213.2.24" displayName="Malaisie"/>
          <concept code="99229" codeSystem="1.2.250.1.213.2.24" displayName="Maldives"/>
+         <concept code="99230"
+                  codeSystem="1.2.250.1.213.2.24"
+                  displayName="Hong Kong"/>
          <concept code="99231"
                   codeSystem="1.2.250.1.213.2.24"
                   displayName="Indonésie"/>
+         <concept code="99232" codeSystem="1.2.250.1.213.2.24" displayName="Macao"/>
          <concept code="99234" codeSystem="1.2.250.1.213.2.24" displayName="Cambodge"/>
          <concept code="99235"
                   codeSystem="1.2.250.1.213.2.24"
@@ -168,12 +175,19 @@
                   codeSystem="1.2.250.1.213.2.24"
                   displayName="Afrique du Sud"/>
          <concept code="99304" codeSystem="1.2.250.1.213.2.24" displayName="Gambie"/>
+         <concept code="99306"
+                  codeSystem="1.2.250.1.213.2.24"
+                  displayName="Territoires britanniques de l'océan Atlantique"/>
+         <concept code="99308" codeSystem="1.2.250.1.213.2.24" displayName="Chagos"/>
          <concept code="99309" codeSystem="1.2.250.1.213.2.24" displayName="Tanzanie"/>
          <concept code="99310" codeSystem="1.2.250.1.213.2.24" displayName="Zimbabwe"/>
          <concept code="99311" codeSystem="1.2.250.1.213.2.24" displayName="Namibie"/>
          <concept code="99312"
                   codeSystem="1.2.250.1.213.2.24"
                   displayName="République démocratique du Congo"/>
+         <concept code="99313"
+                  codeSystem="1.2.250.1.213.2.24"
+                  displayName="Territoires espagnols en Afrique du Nord"/>
          <concept code="99314"
                   codeSystem="1.2.250.1.213.2.24"
                   displayName="Guinée équatoriale"/>
@@ -181,6 +195,9 @@
          <concept code="99316" codeSystem="1.2.250.1.213.2.24" displayName="Libye"/>
          <concept code="99317" codeSystem="1.2.250.1.213.2.24" displayName="Érythrée"/>
          <concept code="99318" codeSystem="1.2.250.1.213.2.24" displayName="Somalie"/>
+         <concept code="99319"
+                  codeSystem="1.2.250.1.213.2.24"
+                  displayName="Territoires portugais de l'océan Atlantique"/>
          <concept code="99321" codeSystem="1.2.250.1.213.2.24" displayName="Burundi"/>
          <concept code="99322" codeSystem="1.2.250.1.213.2.24" displayName="Cameroun"/>
          <concept code="99323"
@@ -283,9 +300,22 @@
          <concept code="99424"
                   codeSystem="1.2.250.1.213.2.24"
                   displayName="Vénézuéla"/>
+         <concept code="99425"
+                  codeSystem="1.2.250.1.213.2.24"
+                  displayName="Territoires britanniques dans les Antilles et Bermudes"/>
          <concept code="99426" codeSystem="1.2.250.1.213.2.24" displayName="Jamaïque"/>
+         <concept code="99427"
+                  codeSystem="1.2.250.1.213.2.24"
+                  displayName="Territoires britanniques dans l'océan Atlantique Sud"/>
          <concept code="99428" codeSystem="1.2.250.1.213.2.24" displayName="Guyana"/>
          <concept code="99429" codeSystem="1.2.250.1.213.2.24" displayName="Bélize"/>
+         <concept code="99430"
+                  codeSystem="1.2.250.1.213.2.24"
+                  displayName="Groenland"/>
+         <concept code="99431" codeSystem="1.2.250.1.213.2.24" displayName="Aruba"/>
+         <concept code="99432"
+                  codeSystem="1.2.250.1.213.2.24"
+                  displayName="Territoires des États-Unis en Amérique"/>
          <concept code="99433"
                   codeSystem="1.2.250.1.213.2.24"
                   displayName="Trinité-et-Tobago"/>
@@ -308,12 +338,23 @@
          <concept code="99442"
                   codeSystem="1.2.250.1.213.2.24"
                   displayName="Saint-Christophe-et-Niévès"/>
+         <concept code="99443"
+                  codeSystem="1.2.250.1.213.2.24"
+                  displayName="Bonaire, Saint-Eustache, Saba"/>
+         <concept code="99444" codeSystem="1.2.250.1.213.2.24" displayName="Curaçao"/>
+         <concept code="99445"
+                  codeSystem="1.2.250.1.213.2.24"
+                  displayName="Saint-Martin (partie néerlandaise)"/>
          <concept code="99501"
                   codeSystem="1.2.250.1.213.2.24"
                   displayName="Australie"/>
          <concept code="99502"
                   codeSystem="1.2.250.1.213.2.24"
                   displayName="Nouvelle-Zélande"/>
+         <concept code="99503" codeSystem="1.2.250.1.213.2.24" displayName="Pitcairn"/>
+         <concept code="99505"
+                  codeSystem="1.2.250.1.213.2.24"
+                  displayName="Territoires des États-Unis en Océanie"/>
          <concept code="99506" codeSystem="1.2.250.1.213.2.24" displayName="Samoa"/>
          <concept code="99507" codeSystem="1.2.250.1.213.2.24" displayName="Nauru"/>
          <concept code="99508" codeSystem="1.2.250.1.213.2.24" displayName="Fidji"/>
