@@ -23,22 +23,7 @@
   <status value="active"/>
   <experimental value="false"/>
   <date value="2024-03-29T12:00:00+01:00"/>
-  <publisher value="ANS"/>
-  <contact>
-    <name value="ANS"/>
-    <telecom>
-      <system value="url"/>
-      <value value="https://esante.gouv.fr"/>
-    </telecom>
-  </contact>
   <description value="Triplet activité modalité forme pour les Activités de Soins (AS)"/>
-  <jurisdiction>
-    <coding>
-      <system value="urn:iso:std:iso:3166"/>
-      <code value="FR"/>
-      <display value="France"/>
-    </coding>
-  </jurisdiction>
   <group>
     <source value="https://mos.esante.gouv.fr/NOS/TRE_R274-ActiviteSanitaireRegulee/FHIR/TRE-R274-ActiviteSanitaireRegulee"/>
     <target value="https://mos.esante.gouv.fr/NOS/TRE_R275-ModaliteActivite/FHIR/TRE-R275-ModaliteActivite"/>

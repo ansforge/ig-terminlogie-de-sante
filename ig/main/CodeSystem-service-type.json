@@ -29,22 +29,18 @@
   "status" : "draft",
   "experimental" : false,
   "date" : "2024-03-09T11:11:30-07:00",
-  "publisher" : "ANS",
+  "publisher" : "Health Level Seven International",
   "contact" : [{
-    "name" : "ANS",
     "telecom" : [{
       "system" : "url",
-      "value" : "https://esante.gouv.fr"
+      "value" : "http://hl7.org"
+    },
+    {
+      "system" : "email",
+      "value" : "hq@HL7.org"
     }]
   }],
   "description" : "This value set defines an example set of codes of service-types.",
-  "jurisdiction" : [{
-    "coding" : [{
-      "system" : "urn:iso:std:iso:3166",
-      "code" : "FR",
-      "display" : "France"
-    }]
-  }],
   "copyright" : "This material derives from the HL7 Terminology (THO). THO is copyright ©1989+ Health Level Seven International and is made available under the CC0 designation. For more licensing information see: https://terminology.hl7.org/license",
   "caseSensitive" : true,
   "valueSet" : "http://terminology.hl7.org/ValueSet/service-type",

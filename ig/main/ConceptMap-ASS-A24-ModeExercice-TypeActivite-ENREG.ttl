@@ -32,22 +32,7 @@
   fhir:status [ fhir:v "active"] ; # 
   fhir:experimental [ fhir:v "false"^^xsd:boolean] ; # 
   fhir:date [ fhir:v "2021-09-24T12:00:00+01:00"^^xsd:dateTime] ; # 
-  fhir:publisher [ fhir:v "ANS"] ; # 
-  fhir:contact ( [
-     fhir:name [ fhir:v "ANS" ] ;
-     fhir:telecom ( [
-       fhir:system [ fhir:v "url" ] ;
-       fhir:value [ fhir:v "https://esante.gouv.fr" ]
-     ] )
-  ] ) ; # 
   fhir:description [ fhir:v "Table d'association Mode d'exercice / Type d'activité pour permettre la saisie automatique du type d'activité"] ; # 
-  fhir:jurisdiction ( [
-     fhir:coding ( [
-       fhir:system [ fhir:v "urn:iso:std:iso:3166"^^xsd:anyURI ] ;
-       fhir:code [ fhir:v "FR" ] ;
-       fhir:display [ fhir:v "France" ]
-     ] )
-  ] ) ; # 
   fhir:source [ fhir:v "https://mos.esante.gouv.fr/NOS/JDV_J117-ModeExercice-ENREG/FHIR/JDV-J117-ModeExercice-ENREG"^^xsd:anyURI] ; # 
   fhir:target [ fhir:v "https://mos.esante.gouv.fr/NOS/JDV_J119-TypeActiviteLiberale-ENREG/FHIR/JDV-J119-TypeActiviteLiberale-ENREG"^^xsd:anyURI] ; # 
   fhir:group ( [

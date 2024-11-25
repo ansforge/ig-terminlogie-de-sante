@@ -21,22 +21,8 @@
   "status" : "active",
   "experimental" : false,
   "date" : "2024-10-09T00:00:00+00:00",
-  "publisher" : "ANS",
-  "contact" : [{
-    "name" : "ANS",
-    "telecom" : [{
-      "system" : "url",
-      "value" : "https://esante.gouv.fr"
-    }]
-  }],
+  "publisher" : "Agence du numérique en santé",
   "description" : "La liste des actes innovants hors nomenclature (LAHN), a été mise en place par la direction générale de l’offre de soins (DGOS) en 2024, dans le cadre du développement de l’innovation en santé,  en remplacement du dispositif RIHN plus liste complémentaire. La LAHN en est la fusion.  L’objectif est de soutenir l’innovation et de la dynamiser par une prise en charge et une évaluation rapide des actes innovant.\nLa LAHN contient une liste d’actes innovants (biologie et anatomocytopathologie) pris en charge à titre transitoire moyennant un recueil de données pour leur évaluation.",
-  "jurisdiction" : [{
-    "coding" : [{
-      "system" : "urn:iso:std:iso:3166",
-      "code" : "FR",
-      "display" : "France"
-    }]
-  }],
   "copyright" : "[LOv2](https://github.com/etalab/licence-ouverte/blob/master/LO.md)",
   "valueSet" : "https://smt.esante.gouv.fr/terminologie-lahn?vs",
   "content" : "complete",

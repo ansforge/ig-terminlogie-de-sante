@@ -25,22 +25,7 @@
   "status" : "active",
   "experimental" : false,
   "date" : "2024-07-26T12:00:00+01:00",
-  "publisher" : "ANS",
-  "contact" : [{
-    "name" : "ANS",
-    "telecom" : [{
-      "system" : "url",
-      "value" : "https://esante.gouv.fr"
-    }]
-  }],
   "description" : "Transco Secteur d'activité ADELI vers Secteur d'activité",
-  "jurisdiction" : [{
-    "coding" : [{
-      "system" : "urn:iso:std:iso:3166",
-      "code" : "FR",
-      "display" : "France"
-    }]
-  }],
   "group" : [{
     "source" : "https://mos.esante.gouv.fr/NOS/TRE_G19-SecteurActiviteADELI/FHIR/TRE-G19-SecteurActiviteADELI",
     "target" : "https://mos.esante.gouv.fr/NOS/TRE_R02-SecteurActivite/FHIR/TRE-R02-SecteurActivite",

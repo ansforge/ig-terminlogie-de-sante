@@ -41,22 +41,18 @@
   "status" : "active",
   "experimental" : false,
   "date" : "2019-11-01T09:29:23+11:00",
-  "publisher" : "ANS",
+  "publisher" : "FHIR Project",
   "contact" : [{
-    "name" : "ANS",
     "telecom" : [{
       "system" : "url",
-      "value" : "https://esante.gouv.fr"
+      "value" : "http://hl7.org/fhir"
+    },
+    {
+      "system" : "email",
+      "value" : "fhir@lists.hl7.org"
     }]
   }],
   "description" : "Details of how a designation would be used",
-  "jurisdiction" : [{
-    "coding" : [{
-      "system" : "urn:iso:std:iso:3166",
-      "code" : "FR",
-      "display" : "France"
-    }]
-  }],
   "copyright" : "This resource includes content from SNOMED Clinical Terms® (SNOMED CT®) which is copyright of the International Health Terminology Standards Development Organisation (IHTSDO). Implementers of these specifications must have the appropriate SNOMED CT Affiliate license - for more information contact http://www.snomed.org/snomed-ct/get-snomed-ct or info@snomed.org",
   "compose" : {
     "include" : [{

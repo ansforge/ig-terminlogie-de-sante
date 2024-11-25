@@ -36,21 +36,7 @@
   fhir:status [ fhir:v "active"] ; # 
   fhir:experimental [ fhir:v "false"^^xsd:boolean] ; # 
   fhir:date [ fhir:v "2023-12-20T00:00:00+00:00"^^xsd:dateTime] ; # 
-  fhir:publisher [ fhir:v "ANS"] ; # 
-  fhir:contact ( [
-     fhir:name [ fhir:v "ANS" ] ;
-     fhir:telecom ( [
-       fhir:system [ fhir:v "url" ] ;
-       fhir:value [ fhir:v "https://esante.gouv.fr" ]
-     ] )
-  ] ) ; # 
-  fhir:jurisdiction ( [
-     fhir:coding ( [
-       fhir:system [ fhir:v "urn:iso:std:iso:3166"^^xsd:anyURI ] ;
-       fhir:code [ fhir:v "FR" ] ;
-       fhir:display [ fhir:v "France" ]
-     ] )
-  ] ) ; # 
+  fhir:publisher [ fhir:v "Agence du numérique en santé"] ; # 
   fhir:valueSet [
      fhir:v "https://smt.esante.gouv.fr/terminologie-cim-10?vs"^^xsd:anyURI ;
      fhir:link <https://smt.esante.gouv.fr/terminologie-cim-10?vs>

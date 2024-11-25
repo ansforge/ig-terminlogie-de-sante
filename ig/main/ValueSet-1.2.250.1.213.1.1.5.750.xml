@@ -26,22 +26,8 @@
   <status value="active"/>
   <experimental value="false"/>
   <date value="2023-08-03T01:00:00+02:00"/>
-  <publisher value="ANS"/>
-  <contact>
-    <name value="ANS"/>
-    <telecom>
-      <system value="url"/>
-      <value value="https://esante.gouv.fr"/>
-    </telecom>
-  </contact>
+  <publisher value="Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris"/>
   <description value="JDV_TypeInterventionVoieBasse_CISIS"/>
-  <jurisdiction>
-    <coding>
-      <system value="urn:iso:std:iso:3166"/>
-      <code value="FR"/>
-      <display value="France"/>
-    </coding>
-  </jurisdiction>
   <compose>
     <include>
       <system value="https://smt.esante.gouv.fr/fhir/CodeSystem/1.2.250.1.213.1.1.4.322"/>

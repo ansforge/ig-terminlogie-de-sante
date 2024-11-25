@@ -26,22 +26,8 @@
   "status" : "active",
   "experimental" : false,
   "date" : "2024-03-29T12:00:00+01:00",
-  "publisher" : "ANS",
-  "contact" : [{
-    "name" : "ANS",
-    "telecom" : [{
-      "system" : "url",
-      "value" : "https://esante.gouv.fr"
-    }]
-  }],
+  "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "description" : "Caractérise les besoins d'aide de la personne en matière de scolarité, en lien avec l'entretien personnel",
-  "jurisdiction" : [{
-    "coding" : [{
-      "system" : "urn:iso:std:iso:3166",
-      "code" : "FR",
-      "display" : "France"
-    }]
-  }],
   "caseSensitive" : false,
   "content" : "complete",
   "property" : [{

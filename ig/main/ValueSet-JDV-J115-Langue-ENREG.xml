@@ -25,22 +25,8 @@
   <status value="active"/>
   <experimental value="false"/>
   <date value="2024-09-27T12:00:00+01:00"/>
-  <publisher value="ANS"/>
-  <contact>
-    <name value="ANS"/>
-    <telecom>
-      <system value="url"/>
-      <value value="https://esante.gouv.fr"/>
-    </telecom>
-  </contact>
+  <publisher value="Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris"/>
   <description value="Langue pour ENREG"/>
-  <jurisdiction>
-    <coding>
-      <system value="urn:iso:std:iso:3166"/>
-      <code value="FR"/>
-      <display value="France"/>
-    </coding>
-  </jurisdiction>
   <compose>
     <include>
       <system value="https://mos.esante.gouv.fr/NOS/TRE_G00-Langue/FHIR/TRE-G00-Langue"/>

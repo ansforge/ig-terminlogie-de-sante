@@ -26,22 +26,8 @@
   "status" : "active",
   "experimental" : false,
   "date" : "2023-12-15T12:00:00+01:00",
-  "publisher" : "ANS",
-  "contact" : [{
-    "name" : "ANS",
-    "telecom" : [{
-      "system" : "url",
-      "value" : "https://esante.gouv.fr"
-    }]
-  }],
+  "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "description" : "Type de messagerie électronique",
-  "jurisdiction" : [{
-    "coding" : [{
-      "system" : "urn:iso:std:iso:3166",
-      "code" : "FR",
-      "display" : "France"
-    }]
-  }],
   "caseSensitive" : false,
   "content" : "complete",
   "property" : [{

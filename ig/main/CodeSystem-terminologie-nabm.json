@@ -26,21 +26,7 @@
   "status" : "active",
   "experimental" : false,
   "date" : "2024-10-11T00:00:00+00:00",
-  "publisher" : "ANS",
-  "contact" : [{
-    "name" : "ANS",
-    "telecom" : [{
-      "system" : "url",
-      "value" : "https://esante.gouv.fr"
-    }]
-  }],
-  "jurisdiction" : [{
-    "coding" : [{
-      "system" : "urn:iso:std:iso:3166",
-      "code" : "FR",
-      "display" : "France"
-    }]
-  }],
+  "publisher" : "Agence du numérique en santé",
   "valueSet" : "https://smt.esante.gouv.fr/terminologie-nabm?vs",
   "content" : "not-present",
   "count" : 1043,

@@ -23,22 +23,7 @@
   <status value="active"/>
   <experimental value="false"/>
   <date value="2024-07-26T12:00:00+01:00"/>
-  <publisher value="ANS"/>
-  <contact>
-    <name value="ANS"/>
-    <telecom>
-      <system value="url"/>
-      <value value="https://esante.gouv.fr"/>
-    </telecom>
-  </contact>
   <description value="Table d'association entre les types de diplômes, les diplômes et les professions de santé, médico-sociales ou sociales"/>
-  <jurisdiction>
-    <coding>
-      <system value="urn:iso:std:iso:3166"/>
-      <code value="FR"/>
-      <display value="France"/>
-    </coding>
-  </jurisdiction>
   <sourceUri value="https://mos.esante.gouv.fr/NOS/JDV_J233-TypeDiplome-EPARS/FHIR/JDV-J233-TypeDiplome-EPARS"/>
   <targetUri value="https://mos.esante.gouv.fr/NOS/JDV_J183-Diplome-EPARS/FHIR/JDV-J183-Diplome-EPARS"/>
   <group>

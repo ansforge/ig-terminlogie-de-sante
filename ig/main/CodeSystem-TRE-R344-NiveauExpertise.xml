@@ -25,22 +25,8 @@
   <status value="active"/>
   <experimental value="false"/>
   <date value="2024-07-26T12:00:00+01:00"/>
-  <publisher value="ANS"/>
-  <contact>
-    <name value="ANS"/>
-    <telecom>
-      <system value="url"/>
-      <value value="https://esante.gouv.fr"/>
-    </telecom>
-  </contact>
+  <publisher value="Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris"/>
   <description value="Le niveau d'expertise atteste du niveau de ressources humaines et matérielles engagées dans la réalisation de l'offre et défini dans un cahier des charges officiel."/>
-  <jurisdiction>
-    <coding>
-      <system value="urn:iso:std:iso:3166"/>
-      <code value="FR"/>
-      <display value="France"/>
-    </coding>
-  </jurisdiction>
   <caseSensitive value="false"/>
   <content value="complete"/>
   <property>

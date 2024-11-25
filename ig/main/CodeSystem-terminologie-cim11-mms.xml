@@ -25,22 +25,8 @@
   <title value="Classification internationale des maladies (11eme révision). Linéarisation pour les statistiques de morbi-mortalité"/>
   <status value="active"/>
   <experimental value="false"/>
-  <date value="2024-11-25T15:27:45+00:00"/>
-  <publisher value="ANS"/>
-  <contact>
-    <name value="ANS"/>
-    <telecom>
-      <system value="url"/>
-      <value value="https://esante.gouv.fr"/>
-    </telecom>
-  </contact>
-  <jurisdiction>
-    <coding>
-      <system value="urn:iso:std:iso:3166"/>
-      <code value="FR"/>
-      <display value="France"/>
-    </coding>
-  </jurisdiction>
+  <date value="2024-11-25T18:21:59+00:00"/>
+  <publisher value="Agence du numérique en santé"/>
   <valueSet value="https://smt.esante.gouv.fr/terminologie-cim11-mms?vs"/>
   <content value="not-present"/>
   <count value="35417"/>

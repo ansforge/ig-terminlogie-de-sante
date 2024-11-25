@@ -25,22 +25,7 @@
   "status" : "active",
   "experimental" : false,
   "date" : "2024-01-26T12:00:00+01:00",
-  "publisher" : "ANS",
-  "contact" : [{
-    "name" : "ANS",
-    "telecom" : [{
-      "system" : "url",
-      "value" : "https://esante.gouv.fr"
-    }]
-  }],
   "description" : "Table d'association Département- AE responsable pour détermination de l'autorité d'enregistrement",
-  "jurisdiction" : [{
-    "coding" : [{
-      "system" : "urn:iso:std:iso:3166",
-      "code" : "FR",
-      "display" : "France"
-    }]
-  }],
   "sourceUri" : "https://mos.esante.gouv.fr/NOS/JDV_J258-Departement/FHIR/JDV-J258-Departement",
   "targetUri" : "https://mos.esante.gouv.fr/NOS/JDV_J170-AutoriteEnregistrement-EPARS/FHIR/JDV-J170-AutoriteEnregistrement-EPARS",
   "group" : [{

@@ -23,22 +23,7 @@
   <status value="active"/>
   <experimental value="false"/>
   <date value="2024-03-29T12:00:00+01:00"/>
-  <publisher value="ANS"/>
-  <contact>
-    <name value="ANS"/>
-    <telecom>
-      <system value="url"/>
-      <value value="https://esante.gouv.fr"/>
-    </telecom>
-  </contact>
   <description value="Correspondance entre le JDV sexe du NOS et le JDV administrative gender de FHIR pour simplifier l'adaptation du MOS à FHIR."/>
-  <jurisdiction>
-    <coding>
-      <system value="urn:iso:std:iso:3166"/>
-      <code value="FR"/>
-      <display value="France"/>
-    </coding>
-  </jurisdiction>
   <sourceUri value="https://mos.esante.gouv.fr/NOS/JDV_J262-Sexe/FHIR/JDV-J262-Sexe"/>
   <targetUri value="http://hl7.org/fhir/ValueSet/administrative-gender"/>
   <group>

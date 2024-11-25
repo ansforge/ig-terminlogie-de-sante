@@ -27,22 +27,8 @@
   "status" : "active",
   "experimental" : false,
   "date" : "2019-01-01T00:00:00+01:00",
-  "publisher" : "ANS",
-  "contact" : [{
-    "name" : "ANS",
-    "telecom" : [{
-      "system" : "url",
-      "value" : "https://esante.gouv.fr"
-    }]
-  }],
+  "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "description" : "JDV_HL7_WorkSchedule_CISIS",
-  "jurisdiction" : [{
-    "coding" : [{
-      "system" : "urn:iso:std:iso:3166",
-      "code" : "FR",
-      "display" : "France"
-    }]
-  }],
   "compose" : {
     "include" : [{
       "system" : "urn:oid:2.16.840.1.113883.5.1063",

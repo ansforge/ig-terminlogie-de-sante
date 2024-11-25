@@ -15,23 +15,9 @@
   <name value="ValueSet_EDQM_All"/>
   <status value="active"/>
   <experimental value="false"/>
-  <date value="2024-11-25T15:27:45+00:00"/>
-  <publisher value="ANS"/>
-  <contact>
-    <name value="ANS"/>
-    <telecom>
-      <system value="url"/>
-      <value value="https://esante.gouv.fr"/>
-    </telecom>
-  </contact>
+  <date value="2024-11-25T18:21:59+00:00"/>
+  <publisher value="Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris"/>
   <description value="Ce jeu de valeurs inclut tous les codes de la terminologie EDQM"/>
-  <jurisdiction>
-    <coding>
-      <system value="urn:iso:std:iso:3166"/>
-      <code value="FR"/>
-      <display value="France"/>
-    </coding>
-  </jurisdiction>
   <compose>
     <include>
       <system value="https://smt.esante.gouv.fr/terminologie-standardterms"/>

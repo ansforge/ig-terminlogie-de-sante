@@ -25,21 +25,7 @@
   <status value="active"/>
   <experimental value="false"/>
   <date value="2024-08-29T00:00:00+00:00"/>
-  <publisher value="ANS"/>
-  <contact>
-    <name value="ANS"/>
-    <telecom>
-      <system value="url"/>
-      <value value="https://esante.gouv.fr"/>
-    </telecom>
-  </contact>
-  <jurisdiction>
-    <coding>
-      <system value="urn:iso:std:iso:3166"/>
-      <code value="FR"/>
-      <display value="France"/>
-    </coding>
-  </jurisdiction>
+  <publisher value="Agence du numérique en santé"/>
   <valueSet value="https://smt.esante.gouv.fr/terminologie-standardterms?vs"/>
   <content value="not-present"/>
   <count value="1287"/>
