@@ -6,19 +6,18 @@ ValueSet: JDV_J48_ProfessionNonPS_CISIS
 Id: JDV-J48-ProfessionNonPS-CISIS
 Description: "Jeux de Valeurs des professions/spécialités des Non Ps"
 * ^meta.versionId = "4"
-* ^meta.lastUpdated = "2024-11-20T05:07:49.683+00:00"
+* ^meta.lastUpdated = "2024-04-27T05:07:49.683+00:00"
 * ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablevalueset"
-* ^language = #fr-FR
 * ^extension.url = "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod"
 * ^extension.valuePeriod.start = "2018-03-30T12:00:00+01:00"
-* ^extension.valuePeriod.end = "2024-11-20T12:00:00+01:00"
+* ^extension.valuePeriod.end = "2024-12-12T12:00:00+01:00"
 * ^url = "https://mos.esante.gouv.fr/NOS/JDV_J48-ProfessionNonPS-CISIS/FHIR/JDV-J48-ProfessionNonPS-CISIS"
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value = "urn:oid:1.2.250.1.213.1.1.5.123"
-* ^version = "20241120120000"
-* ^status = #retired
+* ^version = "20240426120000"
+* ^status = #active
 * ^experimental = false
-* ^date = "2024-11-20T12:00:00+01:00"
+* ^date = "2024-04-26T12:00:00+01:00"
 * ^publisher = "ANS"
 * ^contact.name = "ANS"
 * ^contact.telecom.system = #url
