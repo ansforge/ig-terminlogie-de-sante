@@ -17705,6 +17705,17 @@
         <valueString value="ValueSet"/>
       </extension>
       <reference>
+        <reference value="ValueSet/TRE-R222-MediaTypeCorpsCDANonStructure-all"/>
+      </reference>
+      <name value="JDV-MediaTypeCorpsCDANonStructure"/>
+      <description value="JDV avec l'ensemble des codes actifs de la TRE_R222_MediaTypeCorpsCDANonStructure"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
         <reference value="ValueSet/1.2.250.1.213.1.1.5.496"/>
       </reference>
       <name value="JDV_AbordVeineuxCentral_CISIS"/>

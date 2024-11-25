@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <RetrieveValueSetResponse xmlns="urn:ihe:iti:svs:2008"
                           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-   <ValueSet dateFin=""
+   <ValueSet dateFin="20241212120000"
              dateMaj="20240426120000"
              dateValid="20180330120000"
              description="Jeux de Valeurs des professions/spécialités des Non Ps"

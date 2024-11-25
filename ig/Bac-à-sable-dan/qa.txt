@@ -3,8 +3,8 @@ Terminologie : Validation Results
 
 err = 517, warn = 1434, info = 819
 IG Publisher Version: 1.7.5
-Generated Mon Nov 25 10:43:14 UTC 2024. FHIR version 4.0.1 for ans.fr.terminologie#1.1.0 (canonical = https://interop.esante.gouv.fr/ig/terminologie)
- Build Errors : 817 / 23 / 0
+Generated Mon Nov 25 16:31:37 UTC 2024. FHIR version 4.0.1 for ans.fr.terminologie#1.1.0 (canonical = https://interop.esante.gouv.fr/ig/terminologie)
+ Build Errors : 822 / 23 / 0
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/DM/fsh-generated/resources/ConceptMap-ASS-A11-CorresModeleCDA-XdsFormatCode-CISIS : 26 / 0 / 1
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/DM/fsh-generated/resources/ConceptMap-ASS-A12-CorresMediaTypeCDANonStructure-XdsFormatCode-CISIS : 0 / 0 / 1
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/DM/fsh-generated/resources/ConceptMap-ASS-A13-TypeEvenement-FluxStandardise : 0 / 0 / 1
@@ -38,6 +38,8 @@ Generated Mon Nov 25 10:43:14 UTC 2024. FHIR version 4.0.1 for ans.fr.terminolog
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/DM/fsh-generated/resources/ValueSet-JDV-J283-PrestationsIndirects-SERAFIN : 0 / 1 / 1
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/DM/fsh-generated/resources/ValueSet-JDV-J284-PrestationsDirects-SERAFIN : 0 / 1 / 1
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/DM/fsh-generated/resources/ValueSet-JDV-J285-Besoins-SERAFIN : 0 / 1 / 1
+ /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/DM/fsh-generated/resources/ValueSet-JDV-J48-ProfessionNonPS-CISIS : 0 / 1 / 1
+ /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/DM/fsh-generated/resources/ValueSet-TRE-R222-MediaTypeCorpsCDANonStructure-all : 0 / 0 / 1
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/fsh-generated/resources/ImplementationGuide-ans.fr.terminologie : 0 / 0 / 1
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/ASS/Alignement_Codes_Presenttaion_BDPM_CIPUCD : 1 / 19 / 2
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/DesignationUse : 0 / 5 / 1
@@ -417,7 +419,6 @@ Generated Mon Nov 25 10:43:14 UTC 2024. FHIR version 4.0.1 for ans.fr.terminolog
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_J42_TypeMaternite_ROR : 0 / 1 / 1
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_J46_TypeEvenementNotification_CISIS : 0 / 1 / 1
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_J47_FunctionCode_CISIS : 0 / 1 / 1
- /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_J48_ProfessionNonPS_CISIS : 0 / 1 / 1
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_J49_UcumUniteLongueur : 0 / 1 / 1
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_J50_AccessibiliteLieu_ROR : 0 / 1 / 1
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_J51_FamilleActiviteOperationnelle_ROR : 0 / 3 / 1
@@ -2166,6 +2167,11 @@ ERROR: /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSou
 	-tre_a03_classedocument, bottom, hl7-logo, hcTRE-A03-ClasseDocument, family-nav, ig-status, orig, TRE-A03-ClasseDocument-11, TRE-A03-ClasseDocument-99, TRE-A03-ClasseDocument-10, segment-navbar, TRE-A03-ClasseDocument-31, TRE-A03-ClasseDocument-und, TRE-A03-ClasseDocument-52, segment-breadcrumb, TRE-A03-ClasseDocument, TRE-A03-ClasseDocument-95])
 ERROR: /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/output/ValueSet-JDV-J66-TypeCode-DMP.html#/html/body/div/div/div/div/div/div/div/input/div/div/table/tr/td/a at Line 605, column 27854: The link 'CodeSystem-TRE-A10-NomenclatureURN.html#TRE-A10-NomenclatureURN-ValueSet-JDV-J57-ClassCode-DMP.46html' for "ValueSet-JDV-J57-ClassCode-DMP.html" cannot be resolved (valid targets: [ans-nav, TRE-A10-NomenclatureURN, segment-header, publish-box, bottom, hl7-logo, TRE-A10-NomenclatureURN-und, segment-post-footer, hl7-search-lnk, codesystem-	
 	-tre_a10_nomenclatureurn, family-nav, ig-status, hcTRE-A10-NomenclatureURN, top, orig, root, stripe, TRE-A10-NomenclatureURN-http.58.47.47www.46w3.46org.472000.4709.47xmldsig.35, segment-footer, segment-navbar, segment-content, segment-breadcrumb, TRE-A10-NomenclatureURN-urn.58oid.581.463.466.461.464.461.4619376.461.462.461.461.461])
+ERROR: /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/output/ValueSet-TRE-R222-MediaTypeCorpsCDANonStructure-all.html#/html/body/div/div/div/div/div/div/div/input/div/div/table/tr/td/a at Line 350, column 1214: The link 'CodeSystem-TRE-A11-IheFormatCode.html#TRE-A11-IheFormatCode-ValueSet-JDV-J10-XdsFormatCode-CISIS.46html' for "ValueSet-JDV-J10-XdsFormatCode-CISIS.html" cannot be resolved (valid targets: 59 targets)
+ERROR: /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/output/ValueSet-TRE-R222-MediaTypeCorpsCDANonStructure-all.html#/html/body/div/div/div/div/div/div/div/input/div/div/table/tr/td/a at Line 350, column 1914: The link 'CodeSystem-TRE-A11-IheFormatCode.html#TRE-A11-IheFormatCode-ValueSet-JDV-J10-XdsFormatCode-CISIS.46html' for "ValueSet-JDV-J10-XdsFormatCode-CISIS.html" cannot be resolved (valid targets: 59 targets)
+ERROR: /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/output/ValueSet-TRE-R222-MediaTypeCorpsCDANonStructure-all.html#/html/body/div/div/div/div/div/div/div/input/div/div/table/tr/td/a at Line 350, column 2608: The link 'CodeSystem-TRE-A11-IheFormatCode.html#TRE-A11-IheFormatCode-ValueSet-JDV-J10-XdsFormatCode-CISIS.46html' for "ValueSet-JDV-J10-XdsFormatCode-CISIS.html" cannot be resolved (valid targets: 59 targets)
+ERROR: /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/output/ValueSet-TRE-R222-MediaTypeCorpsCDANonStructure-all.html#/html/body/div/div/div/div/div/div/div/input/div/div/table/tr/td/a at Line 350, column 3309: The link 'CodeSystem-TRE-A11-IheFormatCode.html#TRE-A11-IheFormatCode-ValueSet-JDV-J10-XdsFormatCode-CISIS.46html' for "ValueSet-JDV-J10-XdsFormatCode-CISIS.html" cannot be resolved (valid targets: 59 targets)
+ERROR: /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/output/ValueSet-TRE-R222-MediaTypeCorpsCDANonStructure-all.html#/html/body/div/div/div/div/div/div/div/input/div/div/table/tr/td/a at Line 350, column 4010: The link 'CodeSystem-TRE-A11-IheFormatCode.html#TRE-A11-IheFormatCode-ValueSet-JDV-J10-XdsFormatCode-CISIS.46html' for "ValueSet-JDV-J10-XdsFormatCode-CISIS.html" cannot be resolved (valid targets: 59 targets)
 ERROR: /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/output/telechargementNos.html#/html/body/div/div/div/div/div/ul/li/a at Line 200, column 8: The link 'Correspondances%20RessourcesFHIR-NOS_0.pdf' for "Correspondance entre les ressources FHIR et les NOS (PDF)" cannot be resolved
 == DM/fsh-generated/resources/ConceptMap-ASS-A11-CorresModeleCDA-XdsFormatCode-CISIS.json ==
 ERROR: ConceptMap/ASS-A11-CorresModeleCDA-XdsFormatCode-CISIS: ConceptMap.group[0].element[6].target[0].code: The target code 'urn:asip:ci-sis:cva:2017' is not valid in the value set https://mos.esante.gouv.fr/NOS/JDV_J10-XdsFormatCode-CISIS/FHIR/JDV-J10-XdsFormatCode-CISIS|20240726120000
@@ -2496,6 +2502,9 @@ WARNING: ValueSet/JDV-J283-PrestationsIndirects-SERAFIN: ValueSet: Published val
 WARNING: ValueSet/JDV-J284-PrestationsDirects-SERAFIN: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.title is mandatory, but it is not present
 == DM/fsh-generated/resources/ValueSet-JDV-J285-Besoins-SERAFIN.json ==
 WARNING: ValueSet/JDV-J285-Besoins-SERAFIN: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.title is mandatory, but it is not present
+== DM/fsh-generated/resources/ValueSet-JDV-J48-ProfessionNonPS-CISIS.json ==
+WARNING: ValueSet/JDV-J48-ProfessionNonPS-CISIS: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.title is mandatory, but it is not present
+== DM/fsh-generated/resources/ValueSet-TRE-R222-MediaTypeCorpsCDANonStructure-all.json ==
 == fsh-generated/resources/ImplementationGuide-ans.fr.terminologie.json ==
 == input/ontoserver/ASS/Alignement_Codes_Presenttaion_BDPM_CIPUCD.json ==
 WARNING: ConceptMap/alignement-bdpm-cipucd: ConceptMap.useContext[0].value.ofType(CodeableConcept).coding[0]: A definition for CodeSystem 'https://smt.esante.gouv.fr/terminologie-ncit' could not be found, so the code cannot be validated
@@ -3633,8 +3642,6 @@ WARNING: ValueSet/JDV-J42-TypeMaternite-ROR: ValueSet: Published value sets SHOU
 WARNING: ValueSet/JDV-J46-TypeEvenementNotification-CISIS: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.title is mandatory, but it is not present
 == input/ontoserver/JDV/JDV_J47_FunctionCode_CISIS.json ==
 WARNING: ValueSet/JDV-J47-FunctionCode-CISIS: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.title is mandatory, but it is not present
-== input/ontoserver/JDV/JDV_J48_ProfessionNonPS_CISIS.json ==
-WARNING: ValueSet/JDV-J48-ProfessionNonPS-CISIS: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.title is mandatory, but it is not present
 == input/ontoserver/JDV/JDV_J49_UcumUniteLongueur.json ==
 WARNING: ValueSet/JDV-J49-UcumUniteLongueur: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.title is mandatory, but it is not present
 == input/ontoserver/JDV/JDV_J50_AccessibiliteLieu_ROR.json ==
