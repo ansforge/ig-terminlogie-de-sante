@@ -2542,7 +2542,7 @@
       "name" : "JDV_J282_TransportsLiesAuProjetIndividuel_SERAFIN",
       "title" : null,
       "description" : "Liste les natures des transports liés au projet individuel provenant de la terminologie SERAFIN",
-      "systems" : ["https://smt.esante.gouv.fr/terminologie-SERAFINPH/"],
+      "systems" : ["https://smt.esante.gouv.fr/terminologie-SERAFINPH"],
       "oids" : ["1.2.250.1.213.3.3.251"],
       "sources" : ["1.2.250.1.213.3.3.251"]
     },
@@ -2553,7 +2553,7 @@
       "name" : "JDV_J283_PrestationsIndirects_SERAFIN",
       "title" : null,
       "description" : "Liste des prestations indirects provenant de la terminologie SERAFIN",
-      "systems" : ["https://smt.esante.gouv.fr/terminologie-SERAFINPH/"],
+      "systems" : ["https://smt.esante.gouv.fr/terminologie-SERAFINPH"],
       "oids" : ["1.2.250.1.213.3.3.252"],
       "sources" : ["1.2.250.1.213.3.3.252"]
     },
@@ -2564,7 +2564,7 @@
       "name" : "JDV_J284_PrestationsDirects_SERAFIN",
       "title" : null,
       "description" : "Liste des prestations directs provenant de la terminologie SERAFIN",
-      "systems" : ["https://smt.esante.gouv.fr/terminologie-SERAFINPH/"],
+      "systems" : ["https://smt.esante.gouv.fr/terminologie-SERAFINPH"],
       "oids" : ["1.2.250.1.213.3.3.253"],
       "sources" : ["1.2.250.1.213.3.3.253"]
     },
@@ -2575,7 +2575,7 @@
       "name" : "JDV_J285_Besoins_SERAFIN",
       "title" : null,
       "description" : "Liste des besoins provenant de la terminologie SERAFIN",
-      "systems" : ["https://smt.esante.gouv.fr/terminologie-SERAFINPH/"],
+      "systems" : ["https://smt.esante.gouv.fr/terminologie-SERAFINPH"],
       "oids" : ["1.2.250.1.213.3.3.254"],
       "sources" : ["1.2.250.1.213.3.3.254"]
     },
@@ -2790,8 +2790,8 @@
     },
     {
       "url" : "https://mos.esante.gouv.fr/NOS/JDV_J48-ProfessionNonPS-CISIS/FHIR/JDV-J48-ProfessionNonPS-CISIS",
-      "version" : "20241120120000",
-      "status" : "retired",
+      "version" : "20240426120000",
+      "status" : "active",
       "name" : "JDV_J48_ProfessionNonPS_CISIS",
       "title" : null,
       "description" : "Jeux de Valeurs des professions/spécialités des Non Ps",

@@ -1911,7 +1911,7 @@
     "id" : "JDV-J48-ProfessionNonPS-CISIS",
     "type" : "ValueSet",
     "url" : "https://mos.esante.gouv.fr/NOS/JDV_J48-ProfessionNonPS-CISIS/FHIR/JDV-J48-ProfessionNonPS-CISIS",
-    "version" : "20241120120000",
+    "version" : "20240426120000",
     "name" : "JDV_J48_ProfessionNonPS_CISIS",
     "oids" : ["1.2.250.1.213.1.1.5.123"]
   },
