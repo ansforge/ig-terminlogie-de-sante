@@ -16,7 +16,7 @@
   fhir:name [ fhir:v "ANSPermissionsVS"] ; # 
   fhir:title [ fhir:v "ANS Permissions"] ; # 
   fhir:status [ fhir:v "draft"] ; # 
-  fhir:date [ fhir:v "2024-11-26T12:51:17+00:00"^^xsd:dateTime] ; # 
+  fhir:date [ fhir:v "2024-11-26T14:12:54+00:00"^^xsd:dateTime] ; # 
   fhir:publisher [ fhir:v "ANS"] ; # 
   fhir:contact ( [
      fhir:name [ fhir:v "ANS" ] ;
