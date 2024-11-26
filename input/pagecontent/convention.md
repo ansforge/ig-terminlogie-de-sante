@@ -94,22 +94,44 @@ Vous trouverez ci-dessous la liste des sources :
 
 #### jeux de valeur représentant l'ensemble de la terminologie
 
-- id => {id-termino}-all
-- url => {url-termino}?vs
 
-On retrouve l'url du valuset dans la terminologie d'origine :
+<table class="table table-bordered">
+  <thead>
+    <tr>
+      <th style="text-align: left">Element</th>
+      <th style="text-align: left">Commentaire</th>
+      <th>Convention</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: left">id (*) </td>
+      <td style="text-align: left"> </td>
+      <td> {id-termino}-all</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">url (*) </td>
+      <td style="text-align: left"> l'url est indiqué dans la proriété valueSet de la terminologie d'origine ( CodeSytem.valueSet) </td>
+      <td> {url-termino}?vs</td>
+    </tr>
+    
+</tbody></table>
 
--   CodeSytem.valueSet =>  url 
 
-####  TO DO
 
-#### Comment Indiquer le porteur de la terminologie
+#### Permettre d'indiquer le le porteur de la terminologie
 
-Preadoption de CodeSystem.endorser de R5  et R6 ?
+Preadoption de CodeSystem.endorser de R5  et R6 
 
-#### Comment Indiquer quelle est l'entité qui s'occupe la maintenance et publication  de la terminologie
+#### Permettre d'indiquer  l'entité qui s'occupe la maintenance et publication  de la terminologie
 
-Preadoption de CodeSystem.author de R5  et R6 ?
+Preadoption de CodeSystem.author de R5  et R6
+
+
+
+
+
+
 
 ### Règles pour les terminologies (CodeSystem)
 
@@ -191,15 +213,24 @@ Preadoption de CodeSystem.author de R5  et R6 ?
   </tbody>
 </table>
 
-####  TO DO
 
-#### Comment Indiquer le porteur du jeux de valeur
+#### Permettre d'indiquer le le porteur de la terminologie
 
-Preadoption de ValueSet.endorser de R5  et R6 ?
+Preadoption de CodeSystem.endorser de R5  et R6 
 
-#### Comment Indiquer quelle est l'entité qui s'occupe la maintenance et publication  du jeux de valeur
+#### Permettre d'indiquer  l'entité qui s'occupe la maintenance et publication  de la terminologie
 
-Preadoption de ValueSet.author de R5  et R6 ?
+Preadoption de CodeSystem.author de R5  et R6
+
+#### Permettre d'indiquer  quand le synonyme  est libellé court ou libellé long
+
+Preadoption de CodeSystem.concept.designation.additionalUse de R5  et R6
+
+
+
+
+
+
 
 ### Règles pour les associations (ConceptMap)
 
