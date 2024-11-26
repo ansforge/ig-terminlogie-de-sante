@@ -7971,6 +7971,13 @@
     "oids" : ["2.16.840.1.113883.6.73"]
   },
   {
+    "id" : "vs-atc-all",
+    "type" : "ValueSet",
+    "url" : "https://smt.esante.gouv.fr/terminologie-atc?vs",
+    "version" : "20241114120000",
+    "name" : "ValueSet_ATC_All"
+  },
+  {
     "id" : "terminologie-bdpm",
     "type" : "CodeSystem",
     "url" : "https://smt.esante.gouv.fr/terminologie-bdpm",
@@ -8004,7 +8011,15 @@
     "type" : "CodeSystem",
     "url" : "https://smt.esante.gouv.fr/terminologie-cim11-mms",
     "version" : "2024-01",
-    "name" : "CIM11_MMS"
+    "name" : "CIM11_MMS",
+    "oids" : ["2.16.840.1.113883.6.347"]
+  },
+  {
+    "id" : "vs-cipucd-all",
+    "type" : "ValueSet",
+    "url" : "https://smt.esante.gouv.fr/terminologie-cip_ucd?vs",
+    "version" : "20241114120000",
+    "name" : "ValueSet_CIPUCD_All"
   },
   {
     "id" : "terminologie-cisp",
@@ -8049,9 +8064,8 @@
     "id" : "terminologie-nuva",
     "type" : "CodeSystem",
     "url" : "https://smt.esante.gouv.fr/terminologie-nuva",
-    "version" : "1.0.787",
-    "name" : "NUVA",
-    "oids" : ["1.3.6.1.4.1.48601.1"]
+    "version" : "1.0.799",
+    "name" : "NUVA"
   },
   {
     "id" : "vs-nuva-all",
@@ -8064,8 +8078,15 @@
     "id" : "terminologie-sms",
     "type" : "CodeSystem",
     "url" : "https://smt.esante.gouv.fr/terminologie-sms",
-    "version" : "2024-10",
+    "version" : "2024-11",
     "name" : "Dictionnaire_des_substances_m_dicamenteuses__SMS_"
+  },
+  {
+    "id" : "vs-sms-all",
+    "type" : "ValueSet",
+    "url" : "https://smt.esante.gouv.fr/terminologie-sms?vs",
+    "version" : "20241114120000",
+    "name" : "ValueSet_SMS_All"
   },
   {
     "id" : "terminologie-standardterms",
@@ -8074,6 +8095,13 @@
     "version" : "2024-06-20",
     "name" : "EDQM___Standard_Terms",
     "oids" : ["0.4.0.127.0.16.1.1.2.1"]
+  },
+  {
+    "id" : "vs-edqm-all",
+    "type" : "ValueSet",
+    "url" : "https://smt.esante.gouv.fr/terminologie-standardterms?vs",
+    "version" : "20241114120000",
+    "name" : "ValueSet_EDQM_All"
   },
   {
     "id" : "alignement-bdpm-cipucd",

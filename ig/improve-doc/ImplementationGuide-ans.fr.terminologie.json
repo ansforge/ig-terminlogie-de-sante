@@ -38,7 +38,7 @@
     }],
     "uri" : "http://terminology.hl7.org/ImplementationGuide/hl7.terminology",
     "packageId" : "hl7.terminology.r4",
-    "version" : "6.0.2"
+    "version" : "6.1.0"
   },
   {
     "id" : "hl7ext",
@@ -11735,7 +11735,7 @@
     },
     {
       "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-internal-dependency",
-      "valueCode" : "hl7.fhir.uv.tools#0.2.0"
+      "valueCode" : "hl7.fhir.uv.tools.r4#0.3.0"
     },
     {
       "extension" : [{
@@ -23894,17 +23894,6 @@
         "valueString" : "CodeSystem"
       }],
       "reference" : {
-        "reference" : "CodeSystem/terminologie-cim-10"
-      },
-      "name" : "CIM_10",
-      "exampleBoolean" : false
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "CodeSystem"
-      }],
-      "reference" : {
         "reference" : "CodeSystem/terminologie-cladimed"
       },
       "name" : "CLADIMED",
@@ -23916,9 +23905,20 @@
         "valueString" : "CodeSystem"
       }],
       "reference" : {
+        "reference" : "CodeSystem/terminologie-cim-10"
+      },
+      "name" : "Classification internationale des maladies (10eme révision). Version française à usage PMSI",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "CodeSystem"
+      }],
+      "reference" : {
         "reference" : "CodeSystem/terminologie-cim11-mms"
       },
-      "name" : "Classification Internationale des Maladies 11ème révision pour les statistiques de mortalité et de morbidité",
+      "name" : "Classification internationale des maladies (11eme révision). Linéarisation pour les statistiques de morbi-mortalité",
       "exampleBoolean" : false
     },
     {
@@ -35582,6 +35582,18 @@
         "valueString" : "ValueSet"
       }],
       "reference" : {
+        "reference" : "ValueSet/vs-atc-all"
+      },
+      "name" : "ValueSet_ATC_All",
+      "description" : "Ce jeu de valeurs inclut tous les codes concepts de la terminologie ATC",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      }],
+      "reference" : {
         "reference" : "ValueSet/vs-bdpm-all"
       },
       "name" : "ValueSet_BDPM_All",
@@ -35594,10 +35606,46 @@
         "valueString" : "ValueSet"
       }],
       "reference" : {
+        "reference" : "ValueSet/vs-cipucd-all"
+      },
+      "name" : "ValueSet_CIPUCD_All",
+      "description" : "Ce jeu de valeurs inclut tous les codes concepts de la terminologie CIP-UCD",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      }],
+      "reference" : {
+        "reference" : "ValueSet/vs-edqm-all"
+      },
+      "name" : "ValueSet_EDQM_All",
+      "description" : "Ce jeu de valeurs inclut tous les codes de la terminologie EDQM",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      }],
+      "reference" : {
         "reference" : "ValueSet/vs-nuva-all"
       },
       "name" : "ValueSet_NUVA_All",
       "description" : "Ce jeu de valeurs inclut tous les codes concepts de la terminologie NUVA",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      }],
+      "reference" : {
+        "reference" : "ValueSet/vs-sms-all"
+      },
+      "name" : "ValueSet_SMS_All",
+      "description" : "Ce jeu de valeurs inclut tous les codes de la terminologie SMS, Dictionnaire des substances médicamenteuses",
       "exampleBoolean" : false
     }],
     "page" : {
@@ -35770,6 +35818,15 @@
         "title" : "Autres Ressources",
         "generation" : "markdown",
         "page" : [{
+          "extension" : [{
+            "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name",
+            "valueUrl" : "convention.html"
+          }],
+          "nameUrl" : "convention.html",
+          "title" : "Proposition",
+          "generation" : "markdown"
+        },
+        {
           "extension" : [{
             "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name",
             "valueUrl" : "telechargementNos.html"

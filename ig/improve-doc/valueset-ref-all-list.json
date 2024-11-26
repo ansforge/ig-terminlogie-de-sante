@@ -9387,6 +9387,15 @@
       "sources" : ["2.16.840.1.113883.4.642.3.166"]
     },
     {
+      "url" : "https://smt.esante.gouv.fr/terminologie-atc?vs",
+      "version" : "20241114120000",
+      "status" : "active",
+      "name" : "ValueSet_ATC_All",
+      "title" : null,
+      "description" : "Ce jeu de valeurs inclut tous les codes concepts de la terminologie ATC",
+      "systems" : ["https://smt.esante.gouv.fr/terminologie-atc"]
+    },
+    {
       "url" : "https://smt.esante.gouv.fr/terminologie-bdpm?vs",
       "version" : "20241106120000",
       "status" : "active",
@@ -9399,6 +9408,18 @@
       "ConceptMap-alignement-bdpm-cipucd.html" : "Aligner les codes de présentation de la BDPM avec les codes CIP du référentiel CIP-UCD"
     },
     {
+      "url" : "https://smt.esante.gouv.fr/terminologie-cip_ucd?vs",
+      "version" : "20241114120000",
+      "status" : "active",
+      "name" : "ValueSet_CIPUCD_All",
+      "title" : null,
+      "description" : "Ce jeu de valeurs inclut tous les codes concepts de la terminologie CIP-UCD",
+      "systems" : ["https://smt.esante.gouv.fr/terminologie-cip_ucd"],
+      "uses" : {
+      },
+      "ConceptMap-alignement-bdpm-cipucd.html" : "Aligner les codes de présentation de la BDPM avec les codes CIP du référentiel CIP-UCD"
+    },
+    {
       "url" : "https://smt.esante.gouv.fr/terminologie-nuva?vs",
       "version" : "20241106120000",
       "status" : "active",
@@ -9406,6 +9427,24 @@
       "title" : null,
       "description" : "Ce jeu de valeurs inclut tous les codes concepts de la terminologie NUVA",
       "systems" : ["https://smt.esante.gouv.fr/terminologie-nuva"]
+    },
+    {
+      "url" : "https://smt.esante.gouv.fr/terminologie-sms?vs",
+      "version" : "20241114120000",
+      "status" : "active",
+      "name" : "ValueSet_SMS_All",
+      "title" : null,
+      "description" : "Ce jeu de valeurs inclut tous les codes de la terminologie SMS, Dictionnaire des substances médicamenteuses",
+      "systems" : ["https://smt.esante.gouv.fr/terminologie-sms"]
+    },
+    {
+      "url" : "https://smt.esante.gouv.fr/terminologie-standardterms?vs",
+      "version" : "20241114120000",
+      "status" : "active",
+      "name" : "ValueSet_EDQM_All",
+      "title" : null,
+      "description" : "Ce jeu de valeurs inclut tous les codes de la terminologie EDQM",
+      "systems" : ["https://smt.esante.gouv.fr/terminologie-standardterms"]
     }
   ]
 }
