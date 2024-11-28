@@ -2859,8 +2859,8 @@
     },
     {
       "url" : "https://mos.esante.gouv.fr/NOS/JDV_J48-ProfessionNonPS-CISIS/FHIR/JDV-J48-ProfessionNonPS-CISIS",
-      "version" : "20240426120000",
-      "status" : "active",
+      "version" : "draft",
+      "status" : "retired",
       "name" : "JDV_J48_ProfessionNonPS_CISIS",
       "title" : null,
       "description" : "Jeux de Valeurs des professions/spécialités des Non Ps",
