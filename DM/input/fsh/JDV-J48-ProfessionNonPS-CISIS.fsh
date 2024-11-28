@@ -14,10 +14,10 @@ Description: "Jeux de Valeurs des professions/spécialités des Non Ps"
 * ^url = "https://mos.esante.gouv.fr/NOS/JDV_J48-ProfessionNonPS-CISIS/FHIR/JDV-J48-ProfessionNonPS-CISIS"
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value = "urn:oid:1.2.250.1.213.1.1.5.123"
-* ^version = "20240426120000"
-* ^status = #active
+* ^version = "draft"
+* ^status = #retired
 * ^experimental = false
-* ^date = "2024-04-26T12:00:00+01:00"
+* ^date = "2024-11-28T12:00:00+01:00"
 * ^publisher = "ANS"
 * ^contact.name = "ANS"
 * ^contact.telecom.system = #url
