@@ -7,8 +7,8 @@
   "status" : "active",
   "package-id" : "ans.fr.terminologie",
   "ig-ver" : "1.1.0",
-  "date" : "Thu, 28 Nov, 2024 04:31:12 +0000",
-  "dateISO8601" : "2024-11-28T04:31:12+00:00",
+  "date" : "Thu, 28 Nov, 2024 10:28:47 +0000",
+  "dateISO8601" : "2024-11-28T10:28:47+00:00",
   "errs" : 491,
   "warnings" : 1426,
   "hints" : 819,
@@ -16,5 +16,5 @@
   "suppressed-warnings" : 0,
   "version" : "4.0.1",
   "tool" : "5.0.0 (3)",
-  "maxMemory" : 9579354320
+  "maxMemory" : 10538728216
 }
