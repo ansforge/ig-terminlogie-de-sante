@@ -54,8 +54,8 @@
       "sources" : ["2.16.840.1.113883.4.642.3.79"],
       "uses" : {
       },
-      "StructureDefinition-ans-shareable-codesystem.html" : "ANS Shareable CodeSystem",
-      "StructureDefinition-ans-shareable-valueset.html" : "ANS Shareable ValueSet"
+      "StructureDefinition-ans-shareable-valueset.html" : "ANS Shareable ValueSet",
+      "StructureDefinition-ans-shareable-codesystem.html" : "ANS Shareable CodeSystem"
     },
     {
       "url" : "http://hl7.org/fhir/ValueSet/concept-property-type",
@@ -83,8 +83,8 @@
       "sources" : ["2.16.840.1.113883.4.642.3.264"],
       "uses" : {
       },
-      "StructureDefinition-ans-shareable-codesystem.html" : "ANS Shareable CodeSystem",
-      "StructureDefinition-ans-shareable-valueset.html" : "ANS Shareable ValueSet"
+      "StructureDefinition-ans-shareable-valueset.html" : "ANS Shareable ValueSet",
+      "StructureDefinition-ans-shareable-codesystem.html" : "ANS Shareable CodeSystem"
     },
     {
       "url" : "http://hl7.org/fhir/ValueSet/filter-operator",
@@ -98,8 +98,8 @@
       "sources" : ["2.16.840.1.113883.4.642.3.478"],
       "uses" : {
       },
-      "StructureDefinition-ans-shareable-codesystem.html" : "ANS Shareable CodeSystem",
-      "StructureDefinition-ans-shareable-valueset.html" : "ANS Shareable ValueSet"
+      "StructureDefinition-ans-shareable-valueset.html" : "ANS Shareable ValueSet",
+      "StructureDefinition-ans-shareable-codesystem.html" : "ANS Shareable CodeSystem"
     },
     {
       "url" : "http://hl7.org/fhir/ValueSet/jurisdiction",
@@ -117,8 +117,8 @@
       "sources" : ["2.16.840.1.113883.4.642.3.48"],
       "uses" : {
       },
-      "StructureDefinition-ans-shareable-codesystem.html" : "ANS Shareable CodeSystem",
-      "StructureDefinition-ans-shareable-valueset.html" : "ANS Shareable ValueSet"
+      "StructureDefinition-ans-shareable-valueset.html" : "ANS Shareable ValueSet",
+      "StructureDefinition-ans-shareable-codesystem.html" : "ANS Shareable CodeSystem"
     },
     {
       "url" : "http://hl7.org/fhir/ValueSet/languages",
@@ -132,8 +132,8 @@
       "sources" : ["2.16.840.1.113883.4.642.3.20"],
       "uses" : {
       },
-      "StructureDefinition-ans-shareable-codesystem.html" : "ANS Shareable CodeSystem",
-      "StructureDefinition-ans-shareable-valueset.html" : "ANS Shareable ValueSet"
+      "StructureDefinition-ans-shareable-valueset.html" : "ANS Shareable ValueSet",
+      "StructureDefinition-ans-shareable-codesystem.html" : "ANS Shareable CodeSystem"
     },
     {
       "url" : "http://hl7.org/fhir/ValueSet/publication-status",
@@ -147,8 +147,8 @@
       "sources" : ["2.16.840.1.113883.4.642.3.3"],
       "uses" : {
       },
-      "StructureDefinition-ans-shareable-codesystem.html" : "ANS Shareable CodeSystem",
-      "StructureDefinition-ans-shareable-valueset.html" : "ANS Shareable ValueSet"
+      "StructureDefinition-ans-shareable-valueset.html" : "ANS Shareable ValueSet",
+      "StructureDefinition-ans-shareable-codesystem.html" : "ANS Shareable CodeSystem"
     },
     {
       "url" : "http://hl7.org/fhir/ValueSet/security-labels",
@@ -168,8 +168,8 @@
       "sources" : ["2.16.840.1.113883.4.642.3.47"],
       "uses" : {
       },
-      "StructureDefinition-ans-shareable-codesystem.html" : "ANS Shareable CodeSystem",
-      "StructureDefinition-ans-shareable-valueset.html" : "ANS Shareable ValueSet"
+      "StructureDefinition-ans-shareable-valueset.html" : "ANS Shareable ValueSet",
+      "StructureDefinition-ans-shareable-codesystem.html" : "ANS Shareable CodeSystem"
     },
     {
       "url" : "http://hl7.org/fhir/us/example/ValueSet/ans-permissions-vs",
@@ -183,8 +183,8 @@
       ],
       "uses" : {
       },
-      "StructureDefinition-ans-shareable-codesystem.html" : "ANS Shareable CodeSystem",
-      "StructureDefinition-ans-shareable-valueset.html" : "ANS Shareable ValueSet"
+      "StructureDefinition-ans-shareable-valueset.html" : "ANS Shareable ValueSet",
+      "StructureDefinition-ans-shareable-codesystem.html" : "ANS Shareable CodeSystem"
     },
     {
       "url" : "https://mos.esante.gouv.fr/NOS/JDV-MediaTypeCorpsCDANonStructure?vs",

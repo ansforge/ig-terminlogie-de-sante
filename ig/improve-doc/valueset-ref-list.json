@@ -37,8 +37,8 @@
       ],
       "uses" : {
       },
-      "StructureDefinition-ans-shareable-codesystem.html" : "ANS Shareable CodeSystem",
-      "StructureDefinition-ans-shareable-valueset.html" : "ANS Shareable ValueSet"
+      "StructureDefinition-ans-shareable-valueset.html" : "ANS Shareable ValueSet",
+      "StructureDefinition-ans-shareable-codesystem.html" : "ANS Shareable CodeSystem"
     },
     {
       "url" : "https://mos.esante.gouv.fr/NOS/JDV-MediaTypeCorpsCDANonStructure?vs",

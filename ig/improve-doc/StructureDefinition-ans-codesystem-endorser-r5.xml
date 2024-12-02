@@ -12,7 +12,7 @@
   <url value="http://hl7.org/fhir/5.0/StructureDefinition/extension-CodeSystem.endorser"/>
   <name value="ANSCodeSystemEndorserR5"/>
   <status value="draft"/>
-  <date value="2024-11-26T14:12:54+00:00"/>
+  <date value="2024-12-02T10:46:43+00:00"/>
   <publisher value="ANS"/>
   <contact>
     <name value="ANS"/>
