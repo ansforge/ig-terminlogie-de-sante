@@ -26,7 +26,8 @@ Description: "ANS Shareable ValueSet"
 * extension contains ans-valueset-author-r5 named author 0..1 MS 
 * extension[author] ^short = "Contact de l'auteur responsable de la maintenance de l'artifact terminologique (ex : équipe NOS)"
 
-* url ^short = "L'ANS est autorité sur les URLs de type https://mos.esante.gouv.fr/fhir/ValueSet/* et https://smt.esante.gouv.fr/fhir/ValueSet/*"
+* url ^short = "URL au format https://smt.esante.gouv.fr/fhir/ValueSet/*"
+* url obeys ans-vs-url-regex
 
 * date 1..
 

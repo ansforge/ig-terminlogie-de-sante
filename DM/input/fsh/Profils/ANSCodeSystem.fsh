@@ -26,7 +26,9 @@ Description: "ANS Shareable CodeSystem"
 * extension contains ans-codesystem-author-r5 named author 0..1 MS 
 * extension[author] ^short = "Contact de l'auteur responsable de la maintenance de l'artifact terminologique (ex : équipe NOS)"
 
-* url ^short = "L'ANS est autorité sur les URLs de type https://mos.esante.gouv.fr/fhir/CodeSystem/* et https://smt.esante.gouv.fr/fhir/CodeSystem/*"
+* url ^short = "L'URL doit être de type https://smt.esante.gouv.fr/fhir/CodeSystem/*"
+
+* url obeys ans-cs-url-regex
 
 * date 1..
 
