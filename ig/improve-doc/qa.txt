@@ -1,9 +1,9 @@
 Terminologie : Validation Results
 =========================================
 
-err = 548, warn = 1454, info = 824
+err = 551, warn = 1453, info = 824
 IG Publisher Version: 1.7.5
-Generated Mon Dec 02 11:03:44 UTC 2024. FHIR version 4.0.1 for ans.fr.terminologie#1.1.0 (canonical = https://interop.esante.gouv.fr/ig/terminologie)
+Generated Mon Dec 02 17:02:30 UTC 2024. FHIR version 4.0.1 for ans.fr.terminologie#1.1.0 (canonical = https://interop.esante.gouv.fr/ig/terminologie)
  Build Errors : 905 / 23 / 0
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/DM/fsh-generated/resources/CodeSystem-ans-permissions-cs : 6 / 1 / 2
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/DM/fsh-generated/resources/ConceptMap-ASS-A11-CorresModeleCDA-XdsFormatCode-CISIS : 0 / 0 / 1
@@ -37,13 +37,13 @@ Generated Mon Dec 02 11:03:44 UTC 2024. FHIR version 4.0.1 for ans.fr.terminolog
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/DM/fsh-generated/resources/StructureDefinition-ans-codesystem-author-r5 : 3 / 2 / 1
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/DM/fsh-generated/resources/StructureDefinition-ans-codesystem-endorser-r5 : 3 / 2 / 1
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/DM/fsh-generated/resources/StructureDefinition-ans-shareable-codesystem : 3 / 2 / 3
- /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/DM/fsh-generated/resources/StructureDefinition-ans-shareable-valueset : 3 / 2 / 3
+ /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/DM/fsh-generated/resources/StructureDefinition-ans-shareable-valueset : 3 / 1 / 3
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/DM/fsh-generated/resources/StructureDefinition-ans-valueset-author-r5 : 3 / 2 / 1
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/DM/fsh-generated/resources/StructureDefinition-ans-valueset-endorser-r5 : 3 / 2 / 1
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/DM/fsh-generated/resources/ValueSet-JDV-J10-XdsFormatCode-CISIS : 0 / 0 / 1
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/DM/fsh-generated/resources/ValueSet-JDV-ModeleDocumentCDA : 0 / 0 / 1
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/DM/fsh-generated/resources/ValueSet-JDV-TRE-R221-ModeleDocumentCDANonStructure-all : 0 / 0 / 1
- /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/DM/fsh-generated/resources/ValueSet-TRE-R222-MediaTypeCorpsCDANonStructure-all : 0 / 0 / 1
+ /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/DM/fsh-generated/resources/ValueSet-TRE-R222-MediaTypeCorpsCDANonStructure-all : 3 / 0 / 1
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/DM/fsh-generated/resources/ValueSet-ans-permissions-vs : 5 / 0 / 1
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/fsh-generated/resources/ImplementationGuide-ans.fr.terminologie : 0 / 0 / 1
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/ASS/Alignement_Codes_Presenttaion_BDPM_CIPUCD : 1 / 19 / 2
@@ -2594,7 +2594,6 @@ ERROR: StructureDefinition/ans-shareable-valueset: StructureDefinition: When HL7
 INFORMATION: StructureDefinition/ans-shareable-valueset: StructureDefinition.differential.element[2].slicing.discriminator[0]: The discriminator type 'pattern' is deprecated in R5+. For future compatibility, you could consider using type=value with a pattern[x] instead (if this is not an inherited slicing)
 INFORMATION: StructureDefinition/ans-shareable-valueset: StructureDefinition.snapshot.element[9].slicing.discriminator[0]: The discriminator type 'pattern' is deprecated in R5+. For future compatibility, you could consider using type=value with a pattern[x] instead (if this is not an inherited slicing)
 WARNING: http://hl7.org/fhir/us/example/StructureDefinition/ans-shareable-valueset: Profiles SHOULD state their own version
-WARNING: StructureDefinition.where(url = 'http://hl7.org/fhir/us/example/StructureDefinition/ans-shareable-valueset'): The Implementation Guide contains no examples for this profile
 ERROR: /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/DM/fsh-generated/resources/StructureDefinition-ans-shareable-valueset: URL Mismatch https://interop.esante.gouv.fr/ig/terminologie/StructureDefinition/ans-shareable-valueset vs http://hl7.org/fhir/us/example/StructureDefinition/ans-shareable-valueset
 == DM/fsh-generated/resources/StructureDefinition-ans-valueset-author-r5.json ==
 ERROR: StructureDefinition.where(url = 'http://hl7.org/fhir/5.0/StructureDefinition/extension-ValueSet.author'): Conformance resource /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/DM/fsh-generated/resources/StructureDefinition-ans-valueset-author-r5.json - the canonical URL (https://interop.esante.gouv.fr/ig/terminologie/StructureDefinition/ans-valueset-author-r5) does not match the URL (http://hl7.org/fhir/5.0/StructureDefinition/extension-ValueSet.author)
@@ -2612,6 +2611,9 @@ ERROR: /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSou
 == DM/fsh-generated/resources/ValueSet-JDV-ModeleDocumentCDA.json ==
 == DM/fsh-generated/resources/ValueSet-JDV-TRE-R221-ModeleDocumentCDANonStructure-all.json ==
 == DM/fsh-generated/resources/ValueSet-TRE-R222-MediaTypeCorpsCDANonStructure-all.json ==
+ERROR: ValueSet/TRE-R222-MediaTypeCorpsCDANonStructure-all: ValueSet.meta: ValueSet.meta.security: minimum required = 1, but only found 0 (from http://hl7.org/fhir/us/example/StructureDefinition/ans-shareable-valueset)
+ERROR: ValueSet/TRE-R222-MediaTypeCorpsCDANonStructure-all: ValueSet.meta: Slice 'ValueSet.meta.security:ans-authorization': a matching slice is required, but not found (from http://hl7.org/fhir/us/example/StructureDefinition/ans-shareable-valueset). Note that other slices are allowed in addition to this required slice
+ERROR: ValueSet/TRE-R222-MediaTypeCorpsCDANonStructure-all: ValueSet.url: Constraint failed: ans-vs-url-regex: 'url matches smt regex' (defined in http://hl7.org/fhir/us/example/StructureDefinition/ans-shareable-valueset)
 == DM/fsh-generated/resources/ValueSet-ans-permissions-vs.json ==
 ERROR: ValueSet.where(url = 'http://hl7.org/fhir/us/example/ValueSet/ans-permissions-vs'): Conformance resource /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/DM/fsh-generated/resources/ValueSet-ans-permissions-vs.json - the canonical URL (https://interop.esante.gouv.fr/ig/terminologie/ValueSet/ans-permissions-vs) does not match the URL (http://hl7.org/fhir/us/example/ValueSet/ans-permissions-vs)
 ERROR: ValueSet/ans-permissions-vs: ValueSet: When HL7 is publishing a resource, the owning committee must be stated using the http://hl7.org/fhir/StructureDefinition/structuredefinition-wg extension

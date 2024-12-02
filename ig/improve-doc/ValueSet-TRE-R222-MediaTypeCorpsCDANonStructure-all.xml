@@ -3,7 +3,7 @@
 <ValueSet xmlns="http://hl7.org/fhir">
   <id value="TRE-R222-MediaTypeCorpsCDANonStructure-all"/>
   <meta>
-    <profile value="http://hl7.org/fhir/StructureDefinition/shareablevalueset"/>
+    <profile value="http://hl7.org/fhir/us/example/StructureDefinition/ans-shareable-valueset"/>
   </meta>
   <text>
     <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: ValueSet TRE-R222-MediaTypeCorpsCDANonStructure-all</b></p><a name="TRE-R222-MediaTypeCorpsCDANonStructure-all"> </a><a name="hcTRE-R222-MediaTypeCorpsCDANonStructure-all"> </a><a name="TRE-R222-MediaTypeCorpsCDANonStructure-all-fr-FR"> </a><ul><li>Include all codes defined in <a href="CodeSystem-TRE-R222-MediaTypeCorpsCDANonStructure.html"><code>https://mos.esante.gouv.fr/NOS/TRE_R222-MediaTypeCorpsCDANonStructure/FHIR/TRE-R222-MediaTypeCorpsCDANonStructure</code></a></li></ul></div>
@@ -19,7 +19,7 @@
   <title value="JDV-MediaTypeCorpsCDANonStructure"/>
   <status value="active"/>
   <experimental value="false"/>
-  <date value="2024-12-02T10:46:43+00:00"/>
+  <date value="2024-12-02T16:50:25+00:00"/>
   <publisher value="ANS"/>
   <contact>
     <name value="ANS"/>

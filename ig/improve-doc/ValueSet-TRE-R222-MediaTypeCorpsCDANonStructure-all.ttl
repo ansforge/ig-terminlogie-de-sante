@@ -10,8 +10,8 @@
   fhir:id [ fhir:v "TRE-R222-MediaTypeCorpsCDANonStructure-all"] ; # 
   fhir:meta [
      fhir:profile ( [
-       fhir:v "http://hl7.org/fhir/StructureDefinition/shareablevalueset"^^xsd:anyURI ;
-       fhir:link <http://hl7.org/fhir/StructureDefinition/shareablevalueset>
+       fhir:v "http://hl7.org/fhir/us/example/StructureDefinition/ans-shareable-valueset"^^xsd:anyURI ;
+       fhir:link <http://hl7.org/fhir/us/example/StructureDefinition/ans-shareable-valueset>
      ] )
   ] ; # 
   fhir:text [
@@ -31,7 +31,7 @@
   fhir:title [ fhir:v "JDV-MediaTypeCorpsCDANonStructure"] ; # 
   fhir:status [ fhir:v "active"] ; # 
   fhir:experimental [ fhir:v "false"^^xsd:boolean] ; # 
-  fhir:date [ fhir:v "2024-12-02T10:46:43+00:00"^^xsd:dateTime] ; # 
+  fhir:date [ fhir:v "2024-12-02T16:50:25+00:00"^^xsd:dateTime] ; # 
   fhir:publisher [ fhir:v "ANS"] ; # 
   fhir:contact ( [
      fhir:name [ fhir:v "ANS" ] ;
