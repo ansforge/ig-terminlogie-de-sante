@@ -119,7 +119,7 @@ Vous trouverez ci-dessous la liste des sources :
 
 
 
-#### Permettre d'indiquer le le porteur de la terminologie
+#### Permettre d'indiquer le porteur de la terminologie
 
 Preadoption de CodeSystem.endorser de R5  et R6 
 
