@@ -15,7 +15,7 @@
   fhir:url [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-CodeSystem.endorser"^^xsd:anyURI] ; # 
   fhir:name [ fhir:v "ANSCodeSystemEndorserR5"] ; # 
   fhir:status [ fhir:v "draft"] ; # 
-  fhir:date [ fhir:v "2024-12-02T16:50:25+00:00"^^xsd:dateTime] ; # 
+  fhir:date [ fhir:v "2024-12-04T07:44:27+00:00"^^xsd:dateTime] ; # 
   fhir:publisher [ fhir:v "ANS"] ; # 
   fhir:contact ( [
      fhir:name [ fhir:v "ANS" ] ;
