@@ -238,6 +238,11 @@ Description: "HL7 roleCode"
 * #BROINLAW ^property[=].valueDateTime = "2020-01-31T12:00:00+01:00"
 * #BROINLAW ^property[+].code = #dateMaj
 * #BROINLAW ^property[=].valueDateTime = "2020-01-31T12:00:00+01:00"
+* #C "Spécimen utilisé pour les paramètres d'étalonnage initiaux d'un instrument"
+* #C ^property[0].code = #dateValid
+* #C ^property[=].valueDateTime = "2024-12-12T12:00:00+01:00"
+* #C ^property[+].code = #dateMaj
+* #C ^property[=].valueDateTime = "2024-12-12T12:00:00+01:00"
 * #CHILD "Enfant"
 * #CHILD ^property[0].code = #dateValid
 * #CHILD ^property[=].valueDateTime = "2020-01-31T12:00:00+01:00"
@@ -291,6 +296,11 @@ Description: "HL7 roleCode"
 * #DAUINLAW ^property[=].valueDateTime = "2020-01-31T12:00:00+01:00"
 * #DAUINLAW ^property[+].code = #dateMaj
 * #DAUINLAW ^property[=].valueDateTime = "2020-01-31T12:00:00+01:00"
+* #FAMDEP "Couverture familiale"
+* #FAMDEP ^property[0].code = #dateValid
+* #FAMDEP ^property[=].valueDateTime = "2024-12-12T12:00:00+01:00"
+* #FAMDEP ^property[+].code = #dateMaj
+* #FAMDEP ^property[=].valueDateTime = "2024-12-12T12:00:00+01:00"
 * #FMRSPS "Ancien époux ou ancienne épouse"
 * #FMRSPS ^designation.language = #fr-FR
 * #FMRSPS ^designation.use.system = "http://snomed.info/sct"
@@ -314,6 +324,26 @@ Description: "HL7 roleCode"
 * #FTHINLAW ^property[=].valueDateTime = "2020-01-31T12:00:00+01:00"
 * #FTHINLAW ^property[+].code = #dateMaj
 * #FTHINLAW ^property[=].valueDateTime = "2020-01-31T12:00:00+01:00"
+* #FTWIN "Jumeau ou jumelle dizygote"
+* #FTWIN ^property[0].code = #dateValid
+* #FTWIN ^property[=].valueDateTime = "2024-12-12T12:00:00+01:00"
+* #FTWIN ^property[+].code = #dateMaj
+* #FTWIN ^property[=].valueDateTime = "2024-12-12T12:00:00+01:00"
+* #FTWINBRO "Jumeau dizygote"
+* #FTWINBRO ^property[0].code = #dateValid
+* #FTWINBRO ^property[=].valueDateTime = "2024-12-12T12:00:00+01:00"
+* #FTWINBRO ^property[+].code = #dateMaj
+* #FTWINBRO ^property[=].valueDateTime = "2024-12-12T12:00:00+01:00"
+* #FTWINSIS "Jumelle dizygot"
+* #FTWINSIS ^property[0].code = #dateValid
+* #FTWINSIS ^property[=].valueDateTime = "2024-12-12T12:00:00+01:00"
+* #FTWINSIS ^property[+].code = #dateMaj
+* #FTWINSIS ^property[=].valueDateTime = "2024-12-12T12:00:00+01:00"
+* #G "Ensemble d'échantillons de patients dans lequel les individus du groupe peuvent ou non être identifiés."
+* #G ^property[0].code = #dateValid
+* #G ^property[=].valueDateTime = "2024-12-12T12:00:00+01:00"
+* #G ^property[+].code = #dateMaj
+* #G ^property[=].valueDateTime = "2024-12-12T12:00:00+01:00"
 * #GESTM "Mère porteuse"
 * #GESTM ^property[0].code = #dateValid
 * #GESTM ^property[=].valueDateTime = "2020-01-31T12:00:00+01:00"
@@ -324,11 +354,11 @@ Description: "HL7 roleCode"
 * #GGRPRN ^property[=].valueDateTime = "2020-01-31T12:00:00+01:00"
 * #GGRPRN ^property[+].code = #dateMaj
 * #GGRPRN ^property[=].valueDateTime = "2020-01-31T12:00:00+01:00"
-* #GRNDCHILD "Petit-enfant"
-* #GRNDCHILD ^property[0].code = #dateValid
-* #GRNDCHILD ^property[=].valueDateTime = "2020-01-31T12:00:00+01:00"
-* #GRNDCHILD ^property[+].code = #dateMaj
-* #GRNDCHILD ^property[=].valueDateTime = "2020-01-31T12:00:00+01:00"
+* #GRNDSON "Petit-fils"
+* #GRNDSON ^property[0].code = #dateValid
+* #GRNDSON ^property[=].valueDateTime = "2024-12-12T12:00:00+01:00"
+* #GRNDSON ^property[+].code = #dateMaj
+* #GRNDSON ^property[=].valueDateTime = "2024-12-12T12:00:00+01:00"
 * #GRPRN "Grand-parent"
 * #GRPRN ^property[0].code = #dateValid
 * #GRPRN ^property[=].valueDateTime = "2020-01-31T12:00:00+01:00"
@@ -339,6 +369,61 @@ Description: "HL7 roleCode"
 * #HSIB ^property[=].valueDateTime = "2020-01-31T12:00:00+01:00"
 * #HSIB ^property[+].code = #dateMaj
 * #HSIB ^property[=].valueDateTime = "2020-01-31T12:00:00+01:00"
+* #ITWINBRO "Jumeau monozygote"
+* #ITWINBRO ^property[0].code = #dateValid
+* #ITWINBRO ^property[=].valueDateTime = "2024-12-12T12:00:00+01:00"
+* #ITWINBRO ^property[+].code = #dateMaj
+* #ITWINBRO ^property[=].valueDateTime = "2024-12-12T12:00:00+01:00"
+* #ITWINSIS "Jumelle monozygote"
+* #ITWINSIS ^property[0].code = #dateValid
+* #ITWINSIS ^property[=].valueDateTime = "2024-12-12T12:00:00+01:00"
+* #ITWINSIS ^property[+].code = #dateMaj
+* #ITWINSIS ^property[=].valueDateTime = "2024-12-12T12:00:00+01:00"
+* #L "Aliquot d'échantillons individuels combinés pour former un seul spécimen représentant tous les individus inclus"
+* #L ^property[0].code = #dateValid
+* #L ^property[=].valueDateTime = "2024-12-12T12:00:00+01:00"
+* #L ^property[+].code = #dateMaj
+* #L ^property[=].valueDateTime = "2024-12-12T12:00:00+01:00"
+* #MAUNT "Tante maternelle"
+* #MAUNT ^property[0].code = #dateValid
+* #MAUNT ^property[=].valueDateTime = "2024-12-12T12:00:00+01:00"
+* #MAUNT ^property[+].code = #dateMaj
+* #MAUNT ^property[=].valueDateTime = "2024-12-12T12:00:00+01:00"
+* #MCOUSN "Cousin (maternel)"
+* #MCOUSN ^property[0].code = #dateValid
+* #MCOUSN ^property[=].valueDateTime = "2024-12-12T12:00:00+01:00"
+* #MCOUSN ^property[+].code = #dateMaj
+* #MCOUSN ^property[=].valueDateTime = "2024-12-12T12:00:00+01:00"
+* #MGGRFTH "Arrière-grand-père maternel"
+* #MGGRFTH ^property[0].code = #dateValid
+* #MGGRFTH ^property[=].valueDateTime = "2024-12-12T12:00:00+01:00"
+* #MGGRFTH ^property[+].code = #dateMaj
+* #MGGRFTH ^property[=].valueDateTime = "2024-12-12T12:00:00+01:00"
+* #MGGRMTH "Arrière-grand-mère maternelle"
+* #MGGRMTH ^property[0].code = #dateValid
+* #MGGRMTH ^property[=].valueDateTime = "2024-12-12T12:00:00+01:00"
+* #MGGRMTH ^property[+].code = #dateMaj
+* #MGGRMTH ^property[=].valueDateTime = "2024-12-12T12:00:00+01:00"
+* #MGGRPRN "Arrière grand parent maternel"
+* #MGGRPRN ^property[0].code = #dateValid
+* #MGGRPRN ^property[=].valueDateTime = "2024-12-12T12:00:00+01:00"
+* #MGGRPRN ^property[+].code = #dateMaj
+* #MGGRPRN ^property[=].valueDateTime = "2024-12-12T12:00:00+01:00"
+* #MGRFTH "Grand-père maternel"
+* #MGRFTH ^property[0].code = #dateValid
+* #MGRFTH ^property[=].valueDateTime = "2024-12-12T12:00:00+01:00"
+* #MGRFTH ^property[+].code = #dateMaj
+* #MGRFTH ^property[=].valueDateTime = "2024-12-12T12:00:00+01:00"
+* #MGRMTH "Grand-mère maternelle"
+* #MGRMTH ^property[0].code = #dateValid
+* #MGRMTH ^property[=].valueDateTime = "2024-12-12T12:00:00+01:00"
+* #MGRMTH ^property[+].code = #dateMaj
+* #MGRMTH ^property[=].valueDateTime = "2024-12-12T12:00:00+01:00"
+* #MGRPRN "Grand parent maternel"
+* #MGRPRN ^property[0].code = #dateValid
+* #MGRPRN ^property[=].valueDateTime = "2024-12-12T12:00:00+01:00"
+* #MGRPRN ^property[+].code = #dateMaj
+* #MGRPRN ^property[=].valueDateTime = "2024-12-12T12:00:00+01:00"
 * #MTHFOST "Assistante familiale - Famille d'accueil"
 * #MTHFOST ^designation.language = #fr-FR
 * #MTHFOST ^designation.use.system = "http://snomed.info/sct"
@@ -353,16 +438,36 @@ Description: "HL7 roleCode"
 * #MTHINLAW ^property[=].valueDateTime = "2020-01-31T12:00:00+01:00"
 * #MTHINLAW ^property[+].code = #dateMaj
 * #MTHINLAW ^property[=].valueDateTime = "2020-01-31T12:00:00+01:00"
+* #MUNCLE "Oncle maternel"
+* #MUNCLE ^property[0].code = #dateValid
+* #MUNCLE ^property[=].valueDateTime = "2024-12-12T12:00:00+01:00"
+* #MUNCLE ^property[+].code = #dateMaj
+* #MUNCLE ^property[=].valueDateTime = "2024-12-12T12:00:00+01:00"
 * #NBRO "Frère biologique"
 * #NBRO ^property[0].code = #dateValid
 * #NBRO ^property[=].valueDateTime = "2020-01-31T12:00:00+01:00"
 * #NBRO ^property[+].code = #dateMaj
 * #NBRO ^property[=].valueDateTime = "2020-01-31T12:00:00+01:00"
-* #NIENEPH "Neveu ou nièce"
-* #NIENEPH ^property[0].code = #dateValid
-* #NIENEPH ^property[=].valueDateTime = "2020-01-31T12:00:00+01:00"
-* #NIENEPH ^property[+].code = #dateMaj
-* #NIENEPH ^property[=].valueDateTime = "2020-01-31T12:00:00+01:00"
+* #MUNCLE "Oncle maternel"
+* #MUNCLE ^property[0].code = #dateValid
+* #MUNCLE ^property[=].valueDateTime = "2024-12-12T12:00:00+01:00"
+* #MUNCLE ^property[+].code = #dateMaj
+* #MUNCLE ^property[=].valueDateTime = "2024-12-12T12:00:00+01:00"
+* #NCHILD "Enfant biologique"
+* #NCHILD ^property[0].code = #dateValid
+* #NCHILD ^property[=].valueDateTime = "2024-12-12T12:00:00+01:00"
+* #NCHILD ^property[+].code = #dateMaj
+* #NCHILD ^property[=].valueDateTime = "2024-12-12T12:00:00+01:00"
+* #NFTHF "Père biologique du fœtus"
+* #NFTHF ^property[0].code = #dateValid
+* #NFTHF ^property[=].valueDateTime = "2024-12-12T12:00:00+01:00"
+* #NFTHF ^property[+].code = #dateMaj
+* #NFTHF ^property[=].valueDateTime = "2024-12-12T12:00:00+01:00"
+* #NMTHF "Mère biologique du fœtus"
+* #NMTHF ^property[0].code = #dateValid
+* #NMTHF ^property[=].valueDateTime = "2024-12-12T12:00:00+01:00"
+* #NMTHF ^property[+].code = #dateMaj
+* #NMTHF ^property[=].valueDateTime = "2024-12-12T12:00:00+01:00"
 * #NPRN "Parent biologique, au sens père ou mère"
 * #NPRN ^designation.language = #fr-FR
 * #NPRN ^designation.use.system = "http://snomed.info/sct"
@@ -382,16 +487,75 @@ Description: "HL7 roleCode"
 * #NSIS ^property[=].valueDateTime = "2020-01-31T12:00:00+01:00"
 * #NSIS ^property[+].code = #dateMaj
 * #NSIS ^property[=].valueDateTime = "2020-01-31T12:00:00+01:00"
+* #P "Spécimen prélevé sur un patient"
+* #P ^property[0].code = #dateValid
+* #P ^property[=].valueDateTime = "2024-12-12T12:00:00+01:00"
+* #P ^property[+].code = #dateMaj
+* #P ^property[=].valueDateTime = "2024-12-12T12:00:00+01:00"
+* #PAUNT "Tante paternelle"
+* #PAUNT ^property[0].code = #dateValid
+* #PAUNT ^property[=].valueDateTime = "2024-12-12T12:00:00+01:00"
+* #PAUNT ^property[+].code = #dateMaj
+* #PAUNT ^property[=].valueDateTime = "2024-12-12T12:00:00+01:00"
+* #PCOUSN "Cousin (paternel)"
+* #PCOUSN ^property[0].code = #dateValid
+* #PCOUSN ^property[=].valueDateTime = "2024-12-12T12:00:00+01:00"
+* #PCOUSN ^property[+].code = #dateMaj
+* #PCOUSN ^property[=].valueDateTime = "2024-12-12T12:00:00+01:00"
+* #PGGRFTH "Arrière-grand-père paternel"
+* #PGGRFTH ^property[0].code = #dateValid
+* #PGGRFTH ^property[=].valueDateTime = "2024-12-12T12:00:00+01:00"
+* #PGGRFTH ^property[+].code = #dateMaj
+* #PGGRFTH ^property[=].valueDateTime = "2024-12-12T12:00:00+01:00"
+* #PGGRMTH "Arrière-grand-mère paternelle"
+* #PGGRMTH ^property[0].code = #dateValid
+* #PGGRMTH ^property[=].valueDateTime = "2024-12-12T12:00:00+01:00"
+* #PGGRMTH ^property[+].code = #dateMaj
+* #PGGRMTH ^property[=].valueDateTime = "2024-12-12T12:00:00+01:00"
+* #PGGRPRN "Arrière grand parent paternel"
+* #PGGRPRN ^property[0].code = #dateValid
+* #PGGRPRN ^property[=].valueDateTime = "2024-12-12T12:00:00+01:00"
+* #PGGRPRN ^property[+].code = #dateMaj
+* #PGGRPRN ^property[=].valueDateTime = "2024-12-12T12:00:00+01:00"
+* #PGRFTH "Grand-père paternel"
+* #PGRFTH ^property[0].code = #dateValid
+* #PGRFTH ^property[=].valueDateTime = "2024-12-12T12:00:00+01:00"
+* #PGRFTH ^property[+].code = #dateMaj
+* #PGRFTH ^property[=].valueDateTime = "2024-12-12T12:00:00+01:00"
+* #PGRMTH "Grand-mère paternelle"
+* #PGRMTH ^property[0].code = #dateValid
+* #PGRMTH ^property[=].valueDateTime = "2024-12-12T12:00:00+01:00"
+* #PGRMTH ^property[+].code = #dateMaj
+* #PGRMTH ^property[=].valueDateTime = "2024-12-12T12:00:00+01:00"
+* #PGRPRN "Grand parent paternel"
+* #PGRPRN ^property[0].code = #dateValid
+* #PGRPRN ^property[=].valueDateTime = "2024-12-12T12:00:00+01:00"
+* #PGRPRN ^property[+].code = #dateMaj
+* #PGRPRN ^property[=].valueDateTime = "2024-12-12T12:00:00+01:00"
 * #PRN "Parent, au sens père ou mère"
 * #PRN ^property[0].code = #dateValid
 * #PRN ^property[=].valueDateTime = "2020-01-31T12:00:00+01:00"
 * #PRN ^property[+].code = #dateMaj
 * #PRN ^property[=].valueDateTime = "2020-01-31T12:00:00+01:00"
+* #PRNFOST "Parent, au sens famille d'accueil"
+* #PRNFOST ^property[0].code = #dateValid
+* #PRNFOST ^property[=].valueDateTime = "2024-12-12T12:00:00+01:00"
+* #PRNFOST ^property[+].code = #dateMaj
+* #PRNFOST ^property[=].valueDateTime = "2024-12-12T12:00:00+01:00"
 * #PRNINLAW "Beau-père ou belle-mère"
 * #PRNINLAW ^property[0].code = #dateValid
 * #PRNINLAW ^property[=].valueDateTime = "2020-01-31T12:00:00+01:00"
 * #PRNINLAW ^property[+].code = #dateMaj
 * #PRNINLAW ^property[=].valueDateTime = "2020-01-31T12:00:00+01:00"
+* #PUNCLE "Oncle paternel"
+* #PUNCLE ^property[0].code = #dateValid
+* #PUNCLE ^property[=].valueDateTime = "2024-12-12T12:00:00+01:00"
+* #PUNCLE ^property[+].code = #dateMaj
+* #SELF "Couverture personnelle"
+* #SELF ^property[0].code = #dateValid
+* #SELF ^property[=].valueDateTime = "2024-12-12T12:00:00+01:00"
+* #SELF ^property[+].code = #dateMaj
+* #SELF ^property[=].valueDateTime = "2024-12-12T12:00:00+01:00"
 * #SIB "Frère ou soeur"
 * #SIB ^property[0].code = #dateValid
 * #SIB ^property[=].valueDateTime = "2020-01-31T12:00:00+01:00"
@@ -498,6 +662,11 @@ Description: "HL7 roleCode"
 * #STPSON ^property[=].valueDateTime = "2020-01-31T12:00:00+01:00"
 * #STPSON ^property[+].code = #dateMaj
 * #STPSON ^property[=].valueDateTime = "2020-01-31T12:00:00+01:00"
+* #STUD "Couverture étudiante"
+* #STUD ^property[0].code = #dateValid
+* #STUD ^property[=].valueDateTime = "2024-12-12T12:00:00+01:00"
+* #STUD ^property[+].code = #dateMaj
+* #STUD ^property[=].valueDateTime = "2024-12-12T12:00:00+01:00"
 * #TWIN "Frère jumeau ou soeur jumelle"
 * #TWIN ^property[0].code = #dateValid
 * #TWIN ^property[=].valueDateTime = "2020-01-31T12:00:00+01:00"
