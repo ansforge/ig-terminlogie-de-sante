@@ -4,7 +4,7 @@ CodeSystem: TRE_R216_HL7RoleCode
 Id: TRE-R216-HL7RoleCode
 Description: "HL7 roleCode"
 * ^meta.versionId = "5"
-* ^meta.lastUpdated = "2024-08-28T05:12:27.899+00:00"
+* ^meta.lastUpdated = "2024-12-05T05:12:27.899+00:00"
 * ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablecodesystem"
 * ^extension.url = "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod"
 * ^extension.valuePeriod.start = "2016-09-01T00:00:00+01:00"
@@ -438,11 +438,6 @@ Description: "HL7 roleCode"
 * #MTHINLAW ^property[=].valueDateTime = "2020-01-31T12:00:00+01:00"
 * #MTHINLAW ^property[+].code = #dateMaj
 * #MTHINLAW ^property[=].valueDateTime = "2020-01-31T12:00:00+01:00"
-* #MUNCLE "Oncle maternel"
-* #MUNCLE ^property[0].code = #dateValid
-* #MUNCLE ^property[=].valueDateTime = "2024-12-12T12:00:00+01:00"
-* #MUNCLE ^property[+].code = #dateMaj
-* #MUNCLE ^property[=].valueDateTime = "2024-12-12T12:00:00+01:00"
 * #NBRO "Frère biologique"
 * #NBRO ^property[0].code = #dateValid
 * #NBRO ^property[=].valueDateTime = "2020-01-31T12:00:00+01:00"
