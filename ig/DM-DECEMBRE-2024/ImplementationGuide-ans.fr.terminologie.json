@@ -23639,7 +23639,8 @@
       "reference" : {
         "reference" : "ConceptMap/ASS-A32-StatutMotifPersonnePriseCharge"
       },
-      "name" : "ASS_A32_StatutMotifPersonnePriseCharge",
+      "name" : "ASS_A32-StatutMotifPersonnePriseCharge",
+      "description" : "Association du motif au statut de la personne prise en charge",
       "exampleBoolean" : false
     },
     {

@@ -1,10 +1,10 @@
 Terminologie : Validation Results
 =========================================
 
-err = 495, warn = 1431, info = 819
+err = 498, warn = 1432, info = 819
 $--
 Generated $--. FHIR version $-- for ans.fr.terminologie#$-- (canonical = https://interop.esante.gouv.fr/ig/terminologie)
- Build Errors : 898 / 22 / 0
+ Build Errors : 898 / 21 / 0
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/DM/fsh-generated/resources/CodeSystem-TRE-R17-TypeAutorisation : 0 / 1 / 4
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/DM/fsh-generated/resources/CodeSystem-TRE-R20-Pays : 0 / 1 / 4
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/DM/fsh-generated/resources/CodeSystem-TRE-R248-ModeAcces : 0 / 1 / 4
@@ -24,7 +24,7 @@ Generated $--. FHIR version $-- for ans.fr.terminologie#$-- (canonical = https:/
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/DM/fsh-generated/resources/ConceptMap-ASS-A29-Departement-AE : 0 / 1 / 1
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/DM/fsh-generated/resources/ConceptMap-ASS-A30-TypeAutorisation-Profession-EPARS : 11 / 0 / 1
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/DM/fsh-generated/resources/ConceptMap-ASS-A31-CorresDiabete-RegroupementDiabete : 0 / 2 / 1
- /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/DM/fsh-generated/resources/ConceptMap-ASS-A32-StatutMotifPersonnePriseCharge : 0 / 1 / 1
+ /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/DM/fsh-generated/resources/ConceptMap-ASS-A32-StatutMotifPersonnePriseCharge : 3 / 3 / 1
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/DM/fsh-generated/resources/ConceptMap-ASS-A33-AdministrativeGender-Sexe : 0 / 0 / 1
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/DM/fsh-generated/resources/ConceptMap-ASS-X01-TranscoSavFaireADELI-SavFaireR01 : 0 / 1 / 1
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/DM/fsh-generated/resources/ConceptMap-ASS-X02-TranscoSectActADELI-SectAct : 0 / 0 / 1
@@ -1041,7 +1041,6 @@ WARNING: Unable to find ImplementationGuide.definition.resource.description for 
 WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource NamingSystem/Snomed-CT-core.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
 WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource ConceptMap/ASS-X11-FinessAgregatStatutJuridique.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
 WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource ConceptMap/ASS-A31-CorresDiabete-RegroupementDiabete.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
-WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource ConceptMap/ASS-A32-StatutMotifPersonnePriseCharge.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
 WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource ConceptMap/ASS-X01-TranscoSavFaireADELI-SavFaireR01.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
 WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource ConceptMap/ASS-X14-AgregatDisciplineEquipementSocial.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
 WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource ConceptMap/ASS-X15-AgregatDisciplineEnseignement.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
@@ -2375,7 +2374,12 @@ ERROR: ConceptMap/ASS-A30-TypeAutorisation-Profession-EPARS: ConceptMap.group[0]
 WARNING: ConceptMap/ASS-A31-CorresDiabete-RegroupementDiabete: ConceptMap: Constraint failed: cmd-0: 'Name should be usable as an identifier for the module by machine processing applications such as code generation'
 WARNING: ConceptMap/ASS-A31-CorresDiabete-RegroupementDiabete: ConceptMap: Published concept maps SHOULD conform to the ShareableConceptMap profile, which says that the element ConceptMap.description is mandatory, but it is not present
 == DM/fsh-generated/resources/ConceptMap-ASS-A32-StatutMotifPersonnePriseCharge.json ==
-WARNING: ConceptMap/ASS-A32-StatutMotifPersonnePriseCharge: ConceptMap: Published concept maps SHOULD conform to the ShareableConceptMap profile, which says that the element ConceptMap.description is mandatory, but it is not present
+ERROR: ConceptMap.where(url = 'https://mos.esante.gouv.fr/NOS/ASS_A32-StatutMotifPersonnePriseCharge/FHIR/ASS-A32-StatutMotifPersonnePriseCharge'): Conformance resource /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/DM/fsh-generated/resources/ConceptMap-ASS-A32-StatutMotifPersonnePriseCharge.json - the canonical URL (https://interop.esante.gouv.fr/ig/terminologie/ConceptMap/ASS-A32-StatutMotifPersonnePriseCharge) does not match the URL (https://mos.esante.gouv.fr/NOS/ASS_A32-StatutMotifPersonnePriseCharge/FHIR/ASS-A32-StatutMotifPersonnePriseCharge)
+ERROR: ConceptMap.where(url = 'https://mos.esante.gouv.fr/NOS/ASS_A32-StatutMotifPersonnePriseCharge/FHIR/ASS-A32-StatutMotifPersonnePriseCharge'): Conformance resource /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/DM/fsh-generated/resources/ConceptMap-ASS-A32-StatutMotifPersonnePriseCharge.json - the canonical URL (https://interop.esante.gouv.fr/ig/terminologie/ConceptMap/ASS-A32-StatutMotifPersonnePriseCharge) does not match the URL (https://mos.esante.gouv.fr/NOS/ASS_A32-StatutMotifPersonnePriseCharge/FHIR/ASS-A32-StatutMotifPersonnePriseCharge)
+WARNING: ConceptMap/ASS-A32-StatutMotifPersonnePriseCharge: ConceptMap: Constraint failed: cmd-0: 'Name should be usable as an identifier for the module by machine processing applications such as code generation'
+WARNING: ConceptMap/ASS-A32-StatutMotifPersonnePriseCharge: ConceptMap: Published concept maps SHOULD conform to the ShareableConceptMap profile, which says that the element ConceptMap.title is mandatory, but it is not present
+WARNING: ConceptMap/ASS-A32-StatutMotifPersonnePriseCharge: ConceptMap: Published concept maps SHOULD conform to the ShareableConceptMap profile, which says that the element ConceptMap.experimental is mandatory, but it is not present
+ERROR: /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/DM/fsh-generated/resources/ConceptMap-ASS-A32-StatutMotifPersonnePriseCharge: URL Mismatch https://interop.esante.gouv.fr/ig/terminologie/ConceptMap/ASS-A32-StatutMotifPersonnePriseCharge vs https://mos.esante.gouv.fr/NOS/ASS_A32-StatutMotifPersonnePriseCharge/FHIR/ASS-A32-StatutMotifPersonnePriseCharge
 == DM/fsh-generated/resources/ConceptMap-ASS-A33-AdministrativeGender-Sexe.json ==
 == DM/fsh-generated/resources/ConceptMap-ASS-X01-TranscoSavFaireADELI-SavFaireR01.json ==
 WARNING: ConceptMap/ASS-X01-TranscoSavFaireADELI-SavFaireR01: ConceptMap: Published concept maps SHOULD conform to the ShareableConceptMap profile, which says that the element ConceptMap.description is mandatory, but it is not present

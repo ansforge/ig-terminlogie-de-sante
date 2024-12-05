@@ -17244,7 +17244,8 @@
       <reference>
         <reference value="ConceptMap/ASS-A32-StatutMotifPersonnePriseCharge"/>
       </reference>
-      <name value="ASS_A32_StatutMotifPersonnePriseCharge"/>
+      <name value="ASS_A32-StatutMotifPersonnePriseCharge"/>
+      <description value="Association du motif au statut de la personne prise en charge"/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>

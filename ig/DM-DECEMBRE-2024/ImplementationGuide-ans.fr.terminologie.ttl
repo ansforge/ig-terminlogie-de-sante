@@ -19404,7 +19404,8 @@
          fhir:link <https://interop.esante.gouv.fr/ig/terminologie/ConceptMap/ASS-A32-StatutMotifPersonnePriseCharge> ;
          fhir:reference [ fhir:v "ConceptMap/ASS-A32-StatutMotifPersonnePriseCharge" ]
        ] ;
-       fhir:name [ fhir:v "ASS_A32_StatutMotifPersonnePriseCharge" ] ;
+       fhir:name [ fhir:v "ASS_A32-StatutMotifPersonnePriseCharge" ] ;
+       fhir:description [ fhir:v "Association du motif au statut de la personne prise en charge" ] ;
        fhir:example [ fhir:v "false"^^xsd:boolean ]
      ] [
        fhir:extension ( [
