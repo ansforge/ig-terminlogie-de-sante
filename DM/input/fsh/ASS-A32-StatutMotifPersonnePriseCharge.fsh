@@ -1,16 +1,184 @@
-Alias: $usage-context-type = http://terminology.hl7.org/CodeSystem/usage-context-type
-
 Instance: ASS-A32-StatutMotifPersonnePriseCharge
 InstanceOf: ConceptMap
 Usage: #definition
-* url = "https://mos.esante.gouv.fr/NOS/ASS_A32_StatutMotifPersonnePriseCharge"
-* version = "5.0.0"
-* name = "ASS_A32_StatutMotifPersonnePriseCharge"
-* title = "ASS_A32_StatutMotifPersonnePriseCharge"
+* extension[0].url = "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod"
+* extension[=].valuePeriod.start = "2023-09-22T12:00:00+01:00"
+* extension[+].url = "http://hl7.org/fhir/StructureDefinition/concept-bidirectional"
+* extension[=].valueBoolean = false
+* url = "https://mos.esante.gouv.fr/NOS/ASS_A32-StatutMotifPersonnePriseCharge/FHIR/ASS-A32-StatutMotifPersonnePriseCharge"
+* identifier.value = "urn:oid:1.2.250.1.213.3.4.217"
+* version = "20240726120000"
+* name = "ASS_A32-StatutMotifPersonnePriseCharge"
 * status = #active
-* experimental = false
-* publisher = "ANS"
-* contact.name = "ANS"
-* contact.telecom.system = #url
-* contact.telecom.value = "https://esante.gouv.fr"
-* jurisdiction = urn:iso:std:iso:3166#FR "France"
+* date = "2024-07-26T12:00:00+01:00"
+* description = "Association du motif au statut de la personne prise en charge"
+* group.source = "https://mos.esante.gouv.fr/NOS/TRE_R357-StatutPersonnePriseCharge/FHIR/TRE-R357-StatutPersonnePriseCharge"
+* group.target = "https://mos.esante.gouv.fr/NOS/TRE_R358-MotifStatutPersonnePriseCharge/FHIR/TRE-R358-MotifStatutPersonnePriseCharge"
+* group.element[0].code = #181
+* group.element[=].target.code = #84
+* group.element[=].target.equivalence = #related to
+* group.element[+].code = #181
+* group.element[=].target.code = #85
+* group.element[=].target.equivalence = #related to
+* group.element[+].code = #45
+* group.element[=].target.code = #86
+* group.element[=].target.equivalence = #related to
+* group.element[+].code = #188
+* group.element[=].target.code = #87
+* group.element[=].target.equivalence = #related to
+* group.element[+].code = #188
+* group.element[=].target.code = #88
+* group.element[=].target.equivalence = #related to
+* group.element[+].code = #188
+* group.element[=].target.code = #89
+* group.element[=].target.equivalence = #related to
+* group.element[+].code = #188
+* group.element[=].target.code = #124
+* group.element[=].target.equivalence = #related to
+* group.element[+].code = #188
+* group.element[=].target.code = #91
+* group.element[=].target.equivalence = #related to
+* group.element[+].code = #187
+* group.element[=].target.code = #92
+* group.element[=].target.equivalence = #related to
+* group.element[+].code = #187
+* group.element[=].target.code = #93
+* group.element[=].target.equivalence = #related to
+* group.element[+].code = #180
+* group.element[=].target.code = #95
+* group.element[=].target.equivalence = #related to
+* group.element[+].code = #180
+* group.element[=].target.code = #124
+* group.element[=].target.equivalence = #related to
+* group.element[+].code = #180
+* group.element[=].target.code = #109
+* group.element[=].target.equivalence = #related to
+* group.element[+].code = #180
+* group.element[=].target.code = #98
+* group.element[=].target.equivalence = #related to
+* group.element[+].code = #180
+* group.element[=].target.code = #100
+* group.element[=].target.equivalence = #related to
+* group.element[+].code = #180
+* group.element[=].target.code = #112
+* group.element[=].target.equivalence = #related to
+* group.element[+].code = #37
+* group.element[=].target.code = #112
+* group.element[=].target.equivalence = #related to
+* group.element[+].code = #37
+* group.element[=].target.code = #124
+* group.element[=].target.equivalence = #related to
+* group.element[+].code = #54
+* group.element[=].target.code = #109
+* group.element[=].target.equivalence = #related to
+* group.element[+].code = #54
+* group.element[=].target.code = #112
+* group.element[=].target.equivalence = #related to
+* group.element[+].code = #45
+* group.element[=].target.code = #113
+* group.element[=].target.equivalence = #related to
+* group.element[+].code = #45
+* group.element[=].target.code = #114
+* group.element[=].target.equivalence = #related to
+* group.element[+].code = #45
+* group.element[=].target.code = #115
+* group.element[=].target.equivalence = #related to
+* group.element[+].code = #45
+* group.element[=].target.code = #116
+* group.element[=].target.equivalence = #related to
+* group.element[+].code = #45
+* group.element[=].target.code = #117
+* group.element[=].target.equivalence = #related to
+* group.element[+].code = #45
+* group.element[=].target.code = #118
+* group.element[=].target.equivalence = #related to
+* group.element[+].code = #45
+* group.element[=].target.code = #119
+* group.element[=].target.equivalence = #related to
+* group.element[+].code = #45
+* group.element[=].target.code = #120
+* group.element[=].target.equivalence = #related to
+* group.element[+].code = #45
+* group.element[=].target.code = #121
+* group.element[=].target.equivalence = #related to
+* group.element[+].code = #45
+* group.element[=].target.code = #122
+* group.element[=].target.equivalence = #related to
+* group.element[+].code = #45
+* group.element[=].target.code = #127
+* group.element[=].target.equivalence = #related to
+* group.element[+].code = #45
+* group.element[=].target.code = #124
+* group.element[=].target.equivalence = #related to
+* group.element[+].code = #188
+* group.element[=].target.code = #125
+* group.element[=].target.equivalence = #related to
+* group.element[+].code = #188
+* group.element[=].target.code = #126
+* group.element[=].target.equivalence = #related to
+* group.element[+].code = #188
+* group.element[=].target.code = #127
+* group.element[=].target.equivalence = #related to
+* group.element[+].code = #188
+* group.element[=].target.code = #128
+* group.element[=].target.equivalence = #related to
+* group.element[+].code = #188
+* group.element[=].target.code = #135
+* group.element[=].target.equivalence = #related to
+* group.element[+].code = #188
+* group.element[=].target.code = #136
+* group.element[=].target.equivalence = #related to
+* group.element[+].code = #188
+* group.element[=].target.code = #146
+* group.element[=].target.equivalence = #related to
+* group.element[+].code = #188
+* group.element[=].target.code = #147
+* group.element[=].target.equivalence = #related to
+* group.element[+].code = #45
+* group.element[=].target.code = #148
+* group.element[=].target.equivalence = #related to
+* group.element[+].code = #41
+* group.element[=].target.code = #150
+* group.element[=].target.equivalence = #related to
+* group.element[+].code = #41
+* group.element[=].target.code = #151
+* group.element[=].target.equivalence = #related to
+* group.element[+].code = #41
+* group.element[=].target.code = #152
+* group.element[=].target.equivalence = #related to
+* group.element[+].code = #41
+* group.element[=].target.code = #153
+* group.element[=].target.equivalence = #related to
+* group.element[+].code = #188
+* group.element[=].target.code = #157
+* group.element[=].target.equivalence = #related to
+* group.element[+].code = #188
+* group.element[=].target.code = #158
+* group.element[=].target.equivalence = #related to
+* group.element[+].code = #188
+* group.element[=].target.code = #159
+* group.element[=].target.equivalence = #related to
+* group.element[+].code = #54
+* group.element[=].target.code = #168
+* group.element[=].target.equivalence = #related to
+* group.element[+].code = #54
+* group.element[=].target.code = #170
+* group.element[=].target.equivalence = #related to
+* group.element[+].code = #187
+* group.element[=].target.code = #172
+* group.element[=].target.equivalence = #related to
+* group.element[+].code = #37
+* group.element[=].target.code = #173
+* group.element[=].target.equivalence = #related to
+* group.element[+].code = #37
+* group.element[=].target.code = #174
+* group.element[=].target.equivalence = #related to
+* group.element[+].code = #188
+* group.element[=].target.code = #184
+* group.element[=].target.equivalence = #related to
+* group.element[+].code = #188
+* group.element[=].target.code = #204
+* group.element[=].target.equivalence = #related to
+* group.element[+].code = #188
+* group.element[=].target.code = #253
+* group.element[=].target.equivalence = #related to
