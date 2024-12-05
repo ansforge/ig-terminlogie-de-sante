@@ -16,169 +16,169 @@ Usage: #definition
 * group.target = "https://mos.esante.gouv.fr/NOS/TRE_R358-MotifStatutPersonnePriseCharge/FHIR/TRE-R358-MotifStatutPersonnePriseCharge"
 * group.element[0].code = #181
 * group.element[=].target.code = #84
-* group.element[=].target.equivalence = #related to
+* group.element[=].target.equivalence = #"related to"
 * group.element[+].code = #181
 * group.element[=].target.code = #85
-* group.element[=].target.equivalence = #related to
+* group.element[=].target.equivalence = #"related to"
 * group.element[+].code = #45
 * group.element[=].target.code = #86
-* group.element[=].target.equivalence = #related to
+* group.element[=].target.equivalence = #"related to"
 * group.element[+].code = #188
 * group.element[=].target.code = #87
-* group.element[=].target.equivalence = #related to
+* group.element[=].target.equivalence = #"related to"
 * group.element[+].code = #188
 * group.element[=].target.code = #88
-* group.element[=].target.equivalence = #related to
+* group.element[=].target.equivalence = #"related to"
 * group.element[+].code = #188
 * group.element[=].target.code = #89
-* group.element[=].target.equivalence = #related to
+* group.element[=].target.equivalence = #"related to"
 * group.element[+].code = #188
 * group.element[=].target.code = #124
 * group.element[=].target.equivalence = #related to
 * group.element[+].code = #188
 * group.element[=].target.code = #91
-* group.element[=].target.equivalence = #related to
+* group.element[=].target.equivalence = #"related to"
 * group.element[+].code = #187
 * group.element[=].target.code = #92
-* group.element[=].target.equivalence = #related to
+* group.element[=].target.equivalence = #"related to"
 * group.element[+].code = #187
 * group.element[=].target.code = #93
-* group.element[=].target.equivalence = #related to
+* group.element[=].target.equivalence = #"related to"
 * group.element[+].code = #180
 * group.element[=].target.code = #95
-* group.element[=].target.equivalence = #related to
+* group.element[=].target.equivalence = #"related to"
 * group.element[+].code = #180
 * group.element[=].target.code = #124
-* group.element[=].target.equivalence = #related to
+* group.element[=].target.equivalence = #"related to"
 * group.element[+].code = #180
 * group.element[=].target.code = #109
-* group.element[=].target.equivalence = #related to
+* group.element[=].target.equivalence = #"related to"
 * group.element[+].code = #180
 * group.element[=].target.code = #98
-* group.element[=].target.equivalence = #related to
+* group.element[=].target.equivalence = #"related to"
 * group.element[+].code = #180
 * group.element[=].target.code = #100
-* group.element[=].target.equivalence = #related to
+* group.element[=].target.equivalence = #"related to"
 * group.element[+].code = #180
 * group.element[=].target.code = #112
-* group.element[=].target.equivalence = #related to
+* group.element[=].target.equivalence = #"related to"
 * group.element[+].code = #37
 * group.element[=].target.code = #112
-* group.element[=].target.equivalence = #related to
+* group.element[=].target.equivalence = #"related to"
 * group.element[+].code = #37
 * group.element[=].target.code = #124
-* group.element[=].target.equivalence = #related to
+* group.element[=].target.equivalence = #"related to"
 * group.element[+].code = #54
 * group.element[=].target.code = #109
-* group.element[=].target.equivalence = #related to
+* group.element[=].target.equivalence = #"related to"
 * group.element[+].code = #54
 * group.element[=].target.code = #112
-* group.element[=].target.equivalence = #related to
+* group.element[=].target.equivalence = #"related to"
 * group.element[+].code = #45
 * group.element[=].target.code = #113
-* group.element[=].target.equivalence = #related to
+* group.element[=].target.equivalence = #"related to"
 * group.element[+].code = #45
 * group.element[=].target.code = #114
-* group.element[=].target.equivalence = #related to
+* group.element[=].target.equivalence = #"related to"
 * group.element[+].code = #45
 * group.element[=].target.code = #115
-* group.element[=].target.equivalence = #related to
+* group.element[=].target.equivalence = #"related to"
 * group.element[+].code = #45
 * group.element[=].target.code = #116
-* group.element[=].target.equivalence = #related to
+* group.element[=].target.equivalence = #"related to"
 * group.element[+].code = #45
 * group.element[=].target.code = #117
-* group.element[=].target.equivalence = #related to
+* group.element[=].target.equivalence = #"related to"
 * group.element[+].code = #45
 * group.element[=].target.code = #118
-* group.element[=].target.equivalence = #related to
+* group.element[=].target.equivalence = #"related to"
 * group.element[+].code = #45
 * group.element[=].target.code = #119
-* group.element[=].target.equivalence = #related to
+* group.element[=].target.equivalence = #"related to"
 * group.element[+].code = #45
 * group.element[=].target.code = #120
-* group.element[=].target.equivalence = #related to
+* group.element[=].target.equivalence = #"related to"
 * group.element[+].code = #45
 * group.element[=].target.code = #121
-* group.element[=].target.equivalence = #related to
+* group.element[=].target.equivalence = #"related to"
 * group.element[+].code = #45
 * group.element[=].target.code = #122
-* group.element[=].target.equivalence = #related to
+* group.element[=].target.equivalence = #"related to"
 * group.element[+].code = #45
 * group.element[=].target.code = #127
-* group.element[=].target.equivalence = #related to
+* group.element[=].target.equivalence = #"related to"
 * group.element[+].code = #45
 * group.element[=].target.code = #124
-* group.element[=].target.equivalence = #related to
+* group.element[=].target.equivalence = #"related to"
 * group.element[+].code = #188
 * group.element[=].target.code = #125
-* group.element[=].target.equivalence = #related to
+* group.element[=].target.equivalence = #"related to"
 * group.element[+].code = #188
 * group.element[=].target.code = #126
-* group.element[=].target.equivalence = #related to
+* group.element[=].target.equivalence = #"related to"
 * group.element[+].code = #188
 * group.element[=].target.code = #127
-* group.element[=].target.equivalence = #related to
+* group.element[=].target.equivalence = #"related to"
 * group.element[+].code = #188
 * group.element[=].target.code = #128
-* group.element[=].target.equivalence = #related to
+* group.element[=].target.equivalence = #"related to"
 * group.element[+].code = #188
 * group.element[=].target.code = #135
-* group.element[=].target.equivalence = #related to
+* group.element[=].target.equivalence = #"related to"
 * group.element[+].code = #188
 * group.element[=].target.code = #136
-* group.element[=].target.equivalence = #related to
+* group.element[=].target.equivalence = #"related to"
 * group.element[+].code = #188
 * group.element[=].target.code = #146
-* group.element[=].target.equivalence = #related to
+* group.element[=].target.equivalence = #"related to"
 * group.element[+].code = #188
 * group.element[=].target.code = #147
-* group.element[=].target.equivalence = #related to
+* group.element[=].target.equivalence = #"related to"
 * group.element[+].code = #45
 * group.element[=].target.code = #148
-* group.element[=].target.equivalence = #related to
+* group.element[=].target.equivalence = #"related to"
 * group.element[+].code = #41
 * group.element[=].target.code = #150
-* group.element[=].target.equivalence = #related to
+* group.element[=].target.equivalence = #"related to"
 * group.element[+].code = #41
 * group.element[=].target.code = #151
-* group.element[=].target.equivalence = #related to
+* group.element[=].target.equivalence = #"related to"
 * group.element[+].code = #41
 * group.element[=].target.code = #152
-* group.element[=].target.equivalence = #related to
+* group.element[=].target.equivalence = #"related to"
 * group.element[+].code = #41
 * group.element[=].target.code = #153
-* group.element[=].target.equivalence = #related to
+* group.element[=].target.equivalence = #"related to"
 * group.element[+].code = #188
 * group.element[=].target.code = #157
-* group.element[=].target.equivalence = #related to
+* group.element[=].target.equivalence = #"related to"
 * group.element[+].code = #188
 * group.element[=].target.code = #158
-* group.element[=].target.equivalence = #related to
+* group.element[=].target.equivalence = #"related to"
 * group.element[+].code = #188
 * group.element[=].target.code = #159
-* group.element[=].target.equivalence = #related to
+* group.element[=].target.equivalence = #"related to"
 * group.element[+].code = #54
 * group.element[=].target.code = #168
-* group.element[=].target.equivalence = #related to
+* group.element[=].target.equivalence = #"related to"
 * group.element[+].code = #54
 * group.element[=].target.code = #170
-* group.element[=].target.equivalence = #related to
+* group.element[=].target.equivalence = #"related to"
 * group.element[+].code = #187
 * group.element[=].target.code = #172
-* group.element[=].target.equivalence = #related to
+* group.element[=].target.equivalence = #"related to"
 * group.element[+].code = #37
 * group.element[=].target.code = #173
-* group.element[=].target.equivalence = #related to
+* group.element[=].target.equivalence = #"related to"
 * group.element[+].code = #37
 * group.element[=].target.code = #174
-* group.element[=].target.equivalence = #related to
+* group.element[=].target.equivalence = #"related to"
 * group.element[+].code = #188
 * group.element[=].target.code = #184
-* group.element[=].target.equivalence = #related to
+* group.element[=].target.equivalence = #"related to"
 * group.element[+].code = #188
 * group.element[=].target.code = #204
-* group.element[=].target.equivalence = #related to
+* group.element[=].target.equivalence = #"related to"
 * group.element[+].code = #188
 * group.element[=].target.code = #253
-* group.element[=].target.equivalence = #related to
+* group.element[=].target.equivalence = #"related to"
