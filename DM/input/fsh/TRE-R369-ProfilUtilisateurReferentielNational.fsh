@@ -9,10 +9,10 @@ Description: "Profils utilisateur d'un référentiel national"
 * ^url = "https://mos.esante.gouv.fr/NOS/TRE_R369_ProfilUtilisateurReferentielNational/FHIR/TRE-R369-ProfilUtilisateurReferentielNational"
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value = "urn:oid:1.2.250.1.213.3.3.255"
-* ^version = "20241025120000"
+* ^version = "20241209120000"
 * ^status = #active
 * ^experimental = false
-* ^date = "2024-10-25T12:00:00+01:00"
+* ^date = "2024-12-09T12:00:00+01:00"
 * ^publisher = "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris"
 * ^caseSensitive = false
 * ^content = #complete
@@ -60,3 +60,18 @@ Description: "Profils utilisateur d'un référentiel national"
 * #PSL ^property[=].valueDateTime = "2024-10-25T12:00:00+01:00"
 * #PSL ^property[+].code = #dateMaj
 * #PSL ^property[=].valueDateTime = "2024-10-25T12:00:00+01:00"
+* #ADMIN_METIER "Administrateur Métier"
+* #ADMIN_METIER ^property[0].code = #dateValid
+* #ADMIN_METIER ^property[=].valueDateTime = "2024-12-09T12:00:00+01:00"
+* #ADMIN_METIER ^property[+].code = #dateMaj
+* #ADMIN_METIER ^property[=].valueDateTime = "2024-12-09T12:00:00+01:00"
+* #SUPPORT "Support"
+* #SUPPORT ^property[0].code = #dateValid
+* #SUPPORT ^property[=].valueDateTime = "2024-12-09T12:00:00+01:00"
+* #SUPPORT ^property[+].code = #dateMaj
+* #SUPPORT ^property[=].valueDateTime = "2024-12-09T12:00:00+01:00"
+* #REF_MSP "Référent Maison de Santé Pluriprofessionnelle"
+* #REF_MSP ^property[0].code = #dateValid
+* #REF_MSP ^property[=].valueDateTime = "2024-12-09T12:00:00+01:00"
+* #REF_MSP ^property[+].code = #dateMaj
+* #REF_MSP ^property[=].valueDateTime = "2024-12-09T12:00:00+01:00"
