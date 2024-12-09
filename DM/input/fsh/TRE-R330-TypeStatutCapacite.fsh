@@ -9,10 +9,10 @@ Description: "Permet de préciser le statut des lits décrits"
 * ^url = "https://mos.esante.gouv.fr/NOS/TRE_R330-TypeStatutCapacite/FHIR/TRE-R330-TypeStatutCapacite"
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value = "urn:oid:1.2.250.1.213.3.3.213"
-* ^version = "20231215120000"
+* ^version = "20241209120000"
 * ^status = #active
 * ^experimental = false
-* ^date = "2023-12-15T12:00:00+01:00"
+* ^date = "2024-12-09T12:00:00+01:00"
 * ^publisher = "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris"
 * ^caseSensitive = false
 * ^content = #complete
@@ -55,3 +55,8 @@ Description: "Permet de préciser le statut des lits décrits"
 * #06 ^property[=].valueDateTime = "2022-05-27T12:00:00+01:00"
 * #06 ^property[+].code = #dateMaj
 * #06 ^property[=].valueDateTime = "2022-05-27T12:00:00+01:00"
+* #07 "Opérationnel"
+* #07 ^property[0].code = #dateValid
+* #07 ^property[=].valueDateTime = "2024-12-09T12:00:00+01:00"
+* #07 ^property[+].code = #dateMaj
+* #07 ^property[=].valueDateTime = "2024-12-09T12:00:00+01:00"
