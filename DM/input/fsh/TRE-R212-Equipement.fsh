@@ -11,10 +11,10 @@ Description: "Equipement"
 * ^url = "https://mos.esante.gouv.fr/NOS/TRE_R212-Equipement/FHIR/TRE-R212-Equipement"
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value = "urn:oid:1.2.250.1.213.3.3.10"
-* ^version = "20241025120000"
+* ^version = "20241209120000"
 * ^status = #active
 * ^experimental = false
-* ^date = "2024-10-25T12:00:00+01:00"
+* ^date = "2024-12-09T12:00:00+01:00"
 * ^publisher = "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris"
 * ^caseSensitive = false
 * ^content = #complete
@@ -601,20 +601,20 @@ Description: "Equipement"
 * #082 ^property[=].valueDateTime = "2019-03-29T12:00:00+01:00"
 * #082 ^property[+].code = #dateMaj
 * #082 ^property[=].valueDateTime = "2019-03-29T12:00:00+01:00"
-* #083 "Table de radiologie obésité (poids entre 150 et 250 kg) - bariatrique"
+* #083 "Table de radiologie interventionnelle obésité (poids entre 150 et 250 kg) – bariatrique"
 * #083 ^property[0].code = #dateValid
 * #083 ^property[=].valueDateTime = "2016-11-02T00:00:00+01:00"
 * #083 ^property[+].code = #dateMaj
-* #083 ^property[=].valueDateTime = "2017-10-13T12:00:00+01:00"
+* #083 ^property[=].valueDateTime = "2024-12-09T12:00:00+01:00"
 * #084 "Table de radiologie obésité (poids > 250 kg) - bariatrique"
 * #084 ^designation.language = #fr-FR
 * #084 ^designation.use.system = "http://snomed.info/sct"
 * #084 ^designation.use = $sct#900000000000013009
-* #084 ^designation.value = "Table de radiologie obésité (poids supérieur à 250 kg) - bariatrique"
+* #084 ^designation.value = "Table de radiologie interventionnelle obésité (poids supérieur à 250 kg) – bariatrique"
 * #084 ^property[0].code = #dateValid
 * #084 ^property[=].valueDateTime = "2016-11-02T00:00:00+01:00"
 * #084 ^property[+].code = #dateMaj
-* #084 ^property[=].valueDateTime = "2017-10-13T12:00:00+01:00"
+* #084 ^property[=].valueDateTime = "2024-12-09T12:00:00+01:00"
 * #085 "Scanner (TDM) obésité diamètre de 80 cm - bariatrique"
 * #085 ^property[0].code = #dateValid
 * #085 ^property[=].valueDateTime = "2016-11-02T00:00:00+01:00"
@@ -745,11 +745,11 @@ Description: "Equipement"
 * #108 ^property[=].valueDateTime = "2024-06-28T12:00:00+01:00"
 * #108 ^property[+].code = #dateMaj
 * #108 ^property[=].valueDateTime = "2024-06-28T12:00:00+01:00"
-* #109 "Equipement de rééducation adapté à l'obésité"
+* #109 "Equipement de réadaptation pour obésité massive"
 * #109 ^property[0].code = #dateValid
 * #109 ^property[=].valueDateTime = "2017-07-07T10:00:00+01:00"
 * #109 ^property[+].code = #dateMaj
-* #109 ^property[=].valueDateTime = "2024-10-25T12:00:00+01:00"
+* #109 ^property[=].valueDateTime = "2024-12-09T12:00:00+01:00"
 * #110 "Studio pré-greffe et post-greffe"
 * #110 ^property[0].code = #dateValid
 * #110 ^property[=].valueDateTime = "2017-07-07T10:00:00+01:00"
