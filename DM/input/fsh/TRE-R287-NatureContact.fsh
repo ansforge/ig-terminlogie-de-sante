@@ -11,10 +11,10 @@ Description: "Un service ou un guichet assurant le contact au sein de l'organisa
 * ^url = "https://mos.esante.gouv.fr/NOS/TRE_R287-NatureContact/FHIR/TRE-R287-NatureContact"
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value = "urn:oid:1.2.250.1.213.3.3.67"
-* ^version = "20240426120000"
+* ^version = "20241209120000"
 * ^status = #active
 * ^experimental = false
-* ^date = "2024-04-26T12:00:00+01:00"
+* ^date = "2024-12-09T12:00:00+01:00"
 * ^publisher = "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris"
 * ^caseSensitive = false
 * ^content = #complete
@@ -114,3 +114,8 @@ Description: "Un service ou un guichet assurant le contact au sein de l'organisa
 * #16 ^property[=].valueDateTime = "2024-04-26T12:00:00+01:00"
 * #16 ^property[+].code = #dateMaj
 * #16 ^property[=].valueDateTime = "2024-04-26T12:00:00+01:00"
+* #17 "Télésoin"
+* #17 ^property[0].code = #dateValid
+* #17 ^property[=].valueDateTime = "2024-12-09T12:00:00+01:00"
+* #17 ^property[+].code = #dateMaj
+* #17 ^property[=].valueDateTime = "2024-12-09T12:00:00+01:00"
