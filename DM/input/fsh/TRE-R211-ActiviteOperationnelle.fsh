@@ -11,10 +11,10 @@ Description: "Activite Operationnelle"
 * ^url = "https://mos.esante.gouv.fr/NOS/TRE_R211-ActiviteOperationnelle/FHIR/TRE-R211-ActiviteOperationnelle"
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value = "urn:oid:1.2.250.1.213.3.3.12"
-* ^version = "20241025120000"
+* ^version = "20241209120000"
 * ^status = #active
 * ^experimental = false
-* ^date = "2024-10-25T12:00:00+01:00"
+* ^date = "2024-12-09T12:00:00+01:00"
 * ^publisher = "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris"
 * ^caseSensitive = false
 * ^content = #complete
@@ -1123,11 +1123,11 @@ Description: "Activite Operationnelle"
 * #126 ^property[=].valueDateTime = "2015-04-08T00:00:00+01:00"
 * #126 ^property[+].code = #dateMaj
 * #126 ^property[=].valueDateTime = "2015-04-08T00:00:00+01:00"
-* #127 "Réanimation médico-chirurgicale (polyvalente)"
+* #127 "Réanimation polyvalente"
 * #127 ^property[0].code = #dateValid
 * #127 ^property[=].valueDateTime = "2015-04-08T00:00:00+01:00"
 * #127 ^property[+].code = #dateMaj
-* #127 ^property[=].valueDateTime = "2015-04-08T00:00:00+01:00"
+* #127 ^property[=].valueDateTime = "2024-12-09T00:00:00+01:00"
 * #128 "Réanimation spécialisée néonatale"
 * #128 ^property[0].code = #dateValid
 * #128 ^property[=].valueDateTime = "2015-04-08T00:00:00+01:00"
@@ -2425,11 +2425,11 @@ Description: "Activite Operationnelle"
 * #350 ^property[=].valueDateTime = "2019-03-29T12:00:00+01:00"
 * #350 ^property[+].code = #dateMaj
 * #350 ^property[=].valueDateTime = "2019-03-29T12:00:00+01:00"
-* #351 "Soins intensifs médico-chirurgicaux (polyvalent)"
+* #351 "Soins intensifs polyvalents"
 * #351 ^property[0].code = #dateValid
 * #351 ^property[=].valueDateTime = "2019-03-29T12:00:00+01:00"
 * #351 ^property[+].code = #dateMaj
-* #351 ^property[=].valueDateTime = "2019-03-29T12:00:00+01:00"
+* #351 ^property[=].valueDateTime = "2024-12-09T12:00:00+01:00"
 * #352 "Soins intensifs chirurgicaux"
 * #352 ^property[0].code = #dateValid
 * #352 ^property[=].valueDateTime = "2019-03-29T12:00:00+01:00"
@@ -2537,11 +2537,11 @@ Description: "Activite Operationnelle"
 * #372 ^property[=].valueDateTime = "2019-03-29T12:00:00+01:00"
 * #372 ^property[+].code = #dateMaj
 * #372 ^property[=].valueDateTime = "2019-03-29T12:00:00+01:00"
-* #373 "Surveillance continue médico-chirurgicale (polyvalente)"
+* #373 "Surveillance continue polyvalente"
 * #373 ^property[0].code = #dateValid
 * #373 ^property[=].valueDateTime = "2019-03-29T12:00:00+01:00"
 * #373 ^property[+].code = #dateMaj
-* #373 ^property[=].valueDateTime = "2019-03-29T12:00:00+01:00"
+* #373 ^property[=].valueDateTime = "2024-12-09T12:00:00+01:00"
 * #374 "Surveillance continue chirurgicale"
 * #374 ^property[0].code = #dateValid
 * #374 ^property[=].valueDateTime = "2019-03-29T12:00:00+01:00"
@@ -2816,11 +2816,11 @@ Description: "Activite Operationnelle"
 * #425 ^property[=].valueDateTime = "2020-02-28T12:00:00+01:00"
 * #425 ^property[+].code = #dateMaj
 * #425 ^property[=].valueDateTime = "2024-09-27T12:00:00+01:00"
-* #426 "Kinésithérapie orientation Lésions cutanées et cicatrices (dermatologie)"
+* #426 "Kinésithérapie orientation Lésions cutanées et cicatrices (dermatologie, brûlés)"
 * #426 ^property[0].code = #dateValid
 * #426 ^property[=].valueDateTime = "2020-02-28T12:00:00+01:00"
 * #426 ^property[+].code = #dateMaj
-* #426 ^property[=].valueDateTime = "2024-09-27T12:00:00+01:00"
+* #426 ^property[=].valueDateTime = "2024-12-09T12:00:00+01:00"
 * #427 "Kinésithérapie orientation Sport"
 * #427 ^property[0].code = #dateValid
 * #427 ^property[=].valueDateTime = "2020-02-28T12:00:00+01:00"
