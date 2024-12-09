@@ -11,10 +11,10 @@ Description: "Un service ou un guichet assurant le contact au sein de l'organisa
 * ^url = "https://mos.esante.gouv.fr/NOS/JDV_J221-NatureContact-ROR/FHIR/JDV-J221-NatureContact-ROR"
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value = "urn:oid:1.2.250.1.213.3.4.53"
-* ^version = "20240426120000"
+* ^version = "20241209120000"
 * ^status = #active
 * ^experimental = false
-* ^date = "2024-04-26T12:00:00+01:00"
+* ^date = "2024-12-09T12:00:00+01:00"
 * ^publisher = "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris"
 * $TRE-R287-NatureContact#01 "Accueil"
 * $TRE-R287-NatureContact#02 "Prise de rendez-vous"
@@ -32,3 +32,4 @@ Description: "Un service ou un guichet assurant le contact au sein de l'organisa
 * $TRE-R287-NatureContact#14 "Garde ou astreinte"
 * $TRE-R287-NatureContact#15 "Téléexpertise"
 * $TRE-R287-NatureContact#16 "Cellule opérationnelle de Bed Management"
+* $TRE-R287-NatureContact#17 "Télésoin"
