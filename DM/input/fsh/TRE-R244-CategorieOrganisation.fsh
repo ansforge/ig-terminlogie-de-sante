@@ -11,10 +11,10 @@ Description: "Catégorie d'organisation"
 * ^url = "https://mos.esante.gouv.fr/NOS/TRE_R244-CategorieOrganisation/FHIR/TRE-R244-CategorieOrganisation"
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value = "urn:oid:1.2.250.1.213.3.3.39"
-* ^version = "20241025120000"
+* ^version = "20241209120000"
 * ^status = #active
 * ^experimental = false
-* ^date = "2024-10-25T12:00:00+01:00"
+* ^date = "2024-12-09T12:00:00+01:00"
 * ^publisher = "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris"
 * ^caseSensitive = false
 * ^content = #complete
@@ -1528,3 +1528,11 @@ Description: "Catégorie d'organisation"
 * #175 ^property[=].valueDateTime = "2024-10-25T12:00:00+01:00"
 * #175 ^property[+].code = #dateMaj
 * #175 ^property[=].valueDateTime = "2024-10-25T12:00:00+01:00"
+* #176 "Unité hospitalière de médecine interne"
+* #176 ^designation[0].language = #fr-FR
+* #176 ^designation[=].use = $sct#900000000000013009
+* #176 ^designation[=].value = "Unité de médecine interne"
+* #176 ^property[0].code = #dateValid
+* #176 ^property[=].valueDateTime = "2024-12-09T12:00:00+01:00"
+* #176 ^property[+].code = #dateMaj
+* #176 ^property[=].valueDateTime = "2024-12-09T12:00:00+01:00"
