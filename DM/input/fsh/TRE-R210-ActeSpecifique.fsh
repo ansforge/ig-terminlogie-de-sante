@@ -11,10 +11,10 @@ Description: "Action menée par un ou plusieurs acteur(s) de santé dans le cadr
 * ^url = "https://mos.esante.gouv.fr/NOS/TRE_R210-ActeSpecifique/FHIR/TRE-R210-ActeSpecifique"
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value = "urn:oid:1.2.250.1.213.3.3.11"
-* ^version = "20241025120000"
+* ^version = "20241209120000"
 * ^status = #active
 * ^experimental = false
-* ^date = "2024-10-25T12:00:00+01:00"
+* ^date = "2024-12-09T12:00:00+01:00"
 * ^publisher = "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris"
 * ^caseSensitive = false
 * ^content = #complete
@@ -5392,8 +5392,10 @@ Description: "Action menée par un ou plusieurs acteur(s) de santé dans le cadr
 * #0535 ^designation[=].value = "535"
 * #0535 ^property[0].code = #dateValid
 * #0535 ^property[=].valueDateTime = "2016-11-02T00:00:00+01:00"
+* #0535 ^property[+].code = #dateFin
+* #0535 ^property[=].valueDateTime = "2024-12-09T12:00:00+01:00"
 * #0535 ^property[+].code = #dateMaj
-* #0535 ^property[=].valueDateTime = "2016-11-02T00:00:00+01:00"
+* #0535 ^property[=].valueDateTime = "2024-12-09T00:00:00+01:00"
 * #0536 "Prise en charge de l'obésité sévère"
 * #0536 ^designation[0].language = #fr-FR
 * #0536 ^designation[=].use.system = "http://snomed.info/sct"
@@ -5401,6 +5403,8 @@ Description: "Action menée par un ou plusieurs acteur(s) de santé dans le cadr
 * #0536 ^designation[=].value = "536"
 * #0536 ^property[0].code = #dateValid
 * #0536 ^property[=].valueDateTime = "2016-11-02T00:00:00+01:00"
+* #0536 ^property[+].code = #dateFin
+* #0536 ^property[=].valueDateTime = "2024-12-09T12:00:00+01:00"
 * #0536 ^property[+].code = #dateMaj
 * #0536 ^property[=].valueDateTime = "2016-11-02T00:00:00+01:00"
 * #0537 "Prise en charge de l'obésité morbide"
@@ -5410,6 +5414,8 @@ Description: "Action menée par un ou plusieurs acteur(s) de santé dans le cadr
 * #0537 ^designation[=].value = "537"
 * #0537 ^property[0].code = #dateValid
 * #0537 ^property[=].valueDateTime = "2016-11-02T00:00:00+01:00"
+* #0537 ^property[+].code = #dateFin
+* #0537 ^property[=].valueDateTime = "2024-12-09T12:00:00+01:00"
 * #0537 ^property[+].code = #dateMaj
 * #0537 ^property[=].valueDateTime = "2016-11-02T00:00:00+01:00"
 * #0538 "Thérapie de groupe ou atelier à médiation orale et-ou écrite"
@@ -7520,8 +7526,10 @@ Description: "Action menée par un ou plusieurs acteur(s) de santé dans le cadr
 * #0745 ^designation[=].value = "745"
 * #0745 ^property[0].code = #dateValid
 * #0745 ^property[=].valueDateTime = "2018-03-30T12:00:00+01:00"
+* #0745 ^property[+].code = #dateFin
+* #0745 ^property[=].valueDateTime = "2024-12-09T12:00:00+01:00"
 * #0745 ^property[+].code = #dateMaj
-* #0745 ^property[=].valueDateTime = "2024-09-27T12:00:00+01:00"
+* #0745 ^property[=].valueDateTime = "2024-12-09T12:00:00+01:00"
 * #0746 "Evaluation et prise en charge des séquelles de brûlures"
 * #0746 ^designation[0].language = #fr-FR
 * #0746 ^designation[=].use.system = "http://snomed.info/sct"
@@ -10478,8 +10486,10 @@ Description: "Action menée par un ou plusieurs acteur(s) de santé dans le cadr
 * #1106 "Réadaptation des affections médullaires"
 * #1106 ^property[0].code = #dateValid
 * #1106 ^property[=].valueDateTime = "2022-06-24T12:00:00+01:00"
+* #1106 ^property[+].code = #dateFin
+* #1106 ^property[=].valueDateTime = "2024-12-09T12:00:00+01:00"
 * #1106 ^property[+].code = #dateMaj
-* #1106 ^property[=].valueDateTime = "2022-06-24T12:00:00+01:00"
+* #1106 ^property[=].valueDateTime = "2022-12-09T12:00:00+01:00"
 * #1107 "Réadaptation des lésions cérébrales acquises"
 * #1107 ^property[0].code = #dateValid
 * #1107 ^property[=].valueDateTime = "2022-06-24T12:00:00+01:00"
@@ -10893,11 +10903,11 @@ Description: "Action menée par un ou plusieurs acteur(s) de santé dans le cadr
 * #1185 ^property[=].valueDateTime = "2022-10-28T12:00:00+01:00"
 * #1185 ^property[+].code = #dateMaj
 * #1185 ^property[=].valueDateTime = "2022-10-28T12:00:00+01:00"
-* #1186 "Echographie clinique ciblée"
+* #1186 "Echographie clinique ciblée" "Technique d'imagerie par échographie de manière ciblée  (en anglais "Point-of-Care Ultrasound" ou POCUS) pour répondre à des questions cliniques spécifiques et urgentes, plutôt que pour effectuer une évaluation complète comme le ferait un radiologue,  elle se distingue par sa rapidité, sa précision pour des questions spécifiques, et son utilisation directement par les professionnels de santé impliqués dans les soins immédiats du patient."
 * #1186 ^property[0].code = #dateValid
 * #1186 ^property[=].valueDateTime = "2022-10-28T12:00:00+01:00"
 * #1186 ^property[+].code = #dateMaj
-* #1186 ^property[=].valueDateTime = "2024-10-25T12:00:00+01:00"
+* #1186 ^property[=].valueDateTime = "2024-12-09T12:00:00+01:00"
 * #1187 "Échographie pelvienne pour PMA (compte folliculaire)" "Examen échographique qui explore successivement l'utérus et les ovaires, l'examen consistera à compter le nombre de follicules antraux sur chacun des deux ovaires, il est réalisé entre le 2ème et le 5ème jour des règles."
 * #1187 ^designation[0].language = #fr-FR
 * #1187 ^designation[=].use.system = "http://snomed.info/sct"
@@ -12348,21 +12358,21 @@ Description: "Action menée par un ou plusieurs acteur(s) de santé dans le cadr
 * #1454 ^designation[0].language = #fr-FR
 * #1454 ^designation[=].use.system = "http://snomed.info/sct"
 * #1454 ^designation[=].use = $sct#900000000000013009
-* #1454 ^designation[=].value = "Evaluation et suivi standardisé clinique et paraclinique des commotions cérébrales"
+* #1454 ^designation[=].value = "Evaluation et suivi standardisé clinique et paraclinique des commotions cérébrales (Traumatisme Crânien Léger - TCL)"
 * #1454 ^property[0].code = #dateValid
 * #1454 ^property[=].valueDateTime = "2024-06-28T12:00:00+01:00"
 * #1454 ^property[+].code = #dateMaj
-* #1454 ^property[=].valueDateTime = "2024-09-27T12:00:00+01:00"
+* #1454 ^property[=].valueDateTime = "2024-12-09T12:00:00+01:00"
 * #1455 "Soins et surveillance d'administration de traitement hémophilique"
 * #1455 ^property[0].code = #dateValid
 * #1455 ^property[=].valueDateTime = "2024-06-28T12:00:00+01:00"
 * #1455 ^property[+].code = #dateMaj
 * #1455 ^property[=].valueDateTime = "2024-09-27T12:00:00+01:00"
-* #1456 "Soins et surveillance de remplissage de pompe à morphine"
+* #1456 "Soins et surveillance de remplissage de pompe à antalgique (dont morphine)"
 * #1456 ^property[0].code = #dateValid
 * #1456 ^property[=].valueDateTime = "2024-06-28T12:00:00+01:00"
 * #1456 ^property[+].code = #dateMaj
-* #1456 ^property[=].valueDateTime = "2024-09-27T12:00:00+01:00"
+* #1456 ^property[=].valueDateTime = "2024-12-09T12:00:00+01:00"
 * #1457 "Visite à domicile infirmière puéricultrice post-natale"
 * #1457 ^property[0].code = #dateValid
 * #1457 ^property[=].valueDateTime = "2024-06-28T12:00:00+01:00"
@@ -12452,11 +12462,11 @@ Description: "Action menée par un ou plusieurs acteur(s) de santé dans le cadr
 * #1473 ^property[=].valueDateTime = "2024-09-27T12:00:00+01:00"
 * #1473 ^property[+].code = #dateMaj
 * #1473 ^property[=].valueDateTime = "2024-09-27T12:00:00+01:00"
-* #1474 "Télésoin"
+* #1474 "Télésoin" "Le télésoin est une forme de pratique de soins à distance utilisant les technologies de l'information et de la communication. Il met en rapport un patient avec un ou plusieurs pharmaciens ou auxiliaires médicaux dans l'exercice de leurs compétences"
 * #1474 ^property[0].code = #dateValid
 * #1474 ^property[=].valueDateTime = "2024-09-27T12:00:00+01:00"
 * #1474 ^property[+].code = #dateMaj
-* #1474 ^property[=].valueDateTime = "2024-09-27T12:00:00+01:00"
+* #1474 ^property[=].valueDateTime = "2024-12-09T12:00:00+01:00"
 * #1475 "Analyse tridimensionnelle du mouvement, de la marche"
 * #1475 ^property[0].code = #dateValid
 * #1475 ^property[=].valueDateTime = "2024-09-27T12:00:00+01:00"
@@ -12525,3 +12535,23 @@ Description: "Action menée par un ou plusieurs acteur(s) de santé dans le cadr
 * #1487 ^property[=].valueDateTime = "2024-10-25T12:00:00+01:00"
 * #1487 ^property[+].code = #dateMaj
 * #1487 ^property[=].valueDateTime = "2024-10-25T12:00:00+01:00"
+* #1488 "Electrostimulation fonctionnelle urologique"
+* #1488 ^property[0].code = #dateValid
+* #1488 ^property[=].valueDateTime = "2024-12-09T12:00:00+01:00"
+* #1488 ^property[+].code = #dateMaj
+* #1488 ^property[=].valueDateTime = "2024-12-09T12:00:00+01:00"
+* #1489 "Filière Obésité – Niveau 1 (Conventionné CSO)"
+* #1489 ^property[0].code = #dateValid
+* #1489 ^property[=].valueDateTime = "2024-12-09T12:00:00+01:00"
+* #1489 ^property[+].code = #dateMaj
+* #1489 ^property[=].valueDateTime = "2024-12-09T12:00:00+01:00"
+* #1490 "Filière Obésité – Niveau 2 (Conventionné CSO)"
+* #1490 ^property[0].code = #dateValid
+* #1490 ^property[=].valueDateTime = "2024-12-09T12:00:00+01:00"
+* #1490 ^property[+].code = #dateMaj
+* #1490 ^property[=].valueDateTime = "2024-12-09T12:00:00+01:00"
+* #1491 "Filière Obésité – Niveau 3 (Conventionné CSO)"
+* #1491 ^property[0].code = #dateValid
+* #1491 ^property[=].valueDateTime = "2024-12-09T12:00:00+01:00"
+* #1491 ^property[+].code = #dateMaj
+* #1491 ^property[=].valueDateTime = "2024-12-09T12:00:00+01:00"
