@@ -1,551 +1,88 @@
-Alias: $sct = http://snomed.info/sct
+Alias: $TRE-A00-ProducteurDocNonPS = https://mos.esante.gouv.fr/NOS/TRE_A00-ProducteurDocNonPS/FHIR/TRE-A00-ProducteurDocNonPS
+Alias: $TRE-R02-SecteurActivite = https://mos.esante.gouv.fr/NOS/TRE_R02-SecteurActivite/FHIR/TRE-R02-SecteurActivite
 
-CodeSystem: TRE_G19_SecteurActiviteADELI
-Id: TRE-G19-SecteurActiviteADELI
-Description: "Secteur d'activité ADELI"
-* ^meta.versionId = "8"
-* ^meta.lastUpdated = "2024-08-28T05:10:56.177+00:00"
-* ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablecodesystem"
+ValueSet: JDV_J02_XdsHealthcareFacilityTypeCode_CISIS
+Id: JDV-J02-XdsHealthcareFacilityTypeCode-CISIS
+Description: "XDS healthcareFacilityTypeCode CI-SIS"
+* ^meta.versionId = "9"
+* ^meta.lastUpdated = "2024-10-31T18:01:31.880+00:00"
+* ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablevalueset"
 * ^extension.url = "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod"
-* ^extension.valuePeriod.start = "2007-07-25T15:04:44+01:00"
-* ^url = "https://mos.esante.gouv.fr/NOS/TRE_G19-SecteurActiviteADELI/FHIR/TRE-G19-SecteurActiviteADELI"
+* ^extension.valuePeriod.start = "2014-10-08T00:00:00+01:00"
+* ^url = "https://mos.esante.gouv.fr/NOS/JDV_J02-XdsHealthcareFacilityTypeCode-CISIS/FHIR/JDV-J02-XdsHealthcareFacilityTypeCode-CISIS"
 * ^identifier.system = "urn:ietf:rfc:3986"
-* ^identifier.value = "urn:oid:1.2.250.1.71.1.2.23"
+* ^identifier.value = "urn:oid:1.2.250.1.213.1.1.5.466"
 * ^version = "20241209120000"
 * ^status = #active
 * ^experimental = false
 * ^date = "2024-12-09T12:00:00+01:00"
 * ^publisher = "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris"
-* ^caseSensitive = false
-* ^content = #complete
-* ^property[0].code = #dateValid
-* ^property[=].description = "date de validité d'un code concept"
-* ^property[=].type = #dateTime
-* ^property[+].code = #dateMaj
-* ^property[=].description = "Date de mise à jour d'un code concept"
-* ^property[=].type = #dateTime
-* ^property[+].code = #dateFin
-* ^property[=].description = "Date de fin d'exploitation d'un code concept"
-* ^property[=].type = #dateTime
-* #10 "Etablissement public de santé"
-* #10 ^property[0].code = #dateValid
-* #10 ^property[=].valueDateTime = "2007-07-25T15:04:44+01:00"
-* #10 ^property[+].code = #dateMaj
-* #10 ^property[=].valueDateTime = "2016-09-01T00:00:00+01:00"
-* #11 "Hôpital militaire du Service de santé des armées"
-* #11 ^designation[0].language = #fr-FR
-* #11 ^designation[=].use.system = "http://snomed.info/sct"
-* #11 ^designation[=].use = $sct#900000000000013009
-* #11 ^designation[=].value = "Hôpital militaire SSA"
-* #11 ^property[0].code = #dateValid
-* #11 ^property[=].valueDateTime = "2007-07-25T15:04:44+01:00"
-* #11 ^property[+].code = #dateMaj
-* #11 ^property[=].valueDateTime = "2016-09-01T00:00:00+01:00"
-* #16 "Etablissement privé PSPH"
-* #16 ^designation[0].language = #fr-FR
-* #16 ^designation[=].use.system = "http://snomed.info/sct"
-* #16 ^designation[=].use = $sct#900000000000013009
-* #16 ^designation[=].value = "Etab privé PSPH"
-* #16 ^property[0].code = #dateValid
-* #16 ^property[=].valueDateTime = "2007-07-25T15:04:44+01:00"
-* #16 ^property[+].code = #dateMaj
-* #16 ^property[=].valueDateTime = "2016-09-01T00:00:00+01:00"
-* #17 "Etablissement privé non PSPH"
-* #17 ^designation[0].language = #fr-FR
-* #17 ^designation[=].use.system = "http://snomed.info/sct"
-* #17 ^designation[=].use = $sct#900000000000013009
-* #17 ^designation[=].value = "Etab privé non PSPH"
-* #17 ^property[0].code = #dateValid
-* #17 ^property[=].valueDateTime = "2007-07-25T15:04:44+01:00"
-* #17 ^property[+].code = #dateMaj
-* #17 ^property[=].valueDateTime = "2016-09-01T00:00:00+01:00"
-* #25 "Centre de santé"
-* #25 ^property[0].code = #dateValid
-* #25 ^property[=].valueDateTime = "2007-07-25T15:04:44+01:00"
-* #25 ^property[+].code = #dateMaj
-* #25 ^property[=].valueDateTime = "2008-02-28T00:00:00+01:00"
-* #26 "Autre structure du Service de santé des armées"
-* #26 ^designation[0].language = #fr-FR
-* #26 ^designation[=].use.system = "http://snomed.info/sct"
-* #26 ^designation[=].use = $sct#900000000000013009
-* #26 ^designation[=].value = "Autre structure SSA"
-* #26 ^property[0].code = #dateValid
-* #26 ^property[=].valueDateTime = "2007-07-25T15:04:44+01:00"
-* #26 ^property[+].code = #dateMaj
-* #26 ^property[=].valueDateTime = "2016-09-01T00:00:00+01:00"
-* #31 "Cabinet individuel"
-* #31 ^property[0].code = #dateValid
-* #31 ^property[=].valueDateTime = "2007-07-25T15:04:44+01:00"
-* #31 ^property[+].code = #dateMaj
-* #31 ^property[=].valueDateTime = "2008-02-28T00:00:00+01:00"
-* #32 "Cabinet de groupe"
-* #32 ^property[0].code = #dateValid
-* #32 ^property[=].valueDateTime = "2007-07-25T15:04:44+01:00"
-* #32 ^property[+].code = #dateMaj
-* #32 ^property[=].valueDateTime = "2008-02-28T00:00:00+01:00"
-* #33 "Exercice en société"
-* #33 ^property[0].code = #dateValid
-* #33 ^property[=].valueDateTime = "2007-07-25T15:04:44+01:00"
-* #33 ^property[+].code = #dateMaj
-* #33 ^property[=].valueDateTime = "2016-09-01T00:00:00+01:00"
-* #34 "Secteur privé, praticien hospitalier temps plein"
-* #34 ^designation[0].language = #fr-FR
-* #34 ^designation[=].use.system = "http://snomed.info/sct"
-* #34 ^designation[=].use = $sct#900000000000013009
-* #34 ^designation[=].value = "Secteur privé, PH TP"
-* #34 ^property[0].code = #dateValid
-* #34 ^property[=].valueDateTime = "2007-07-25T15:04:44+01:00"
-* #34 ^property[+].code = #dateMaj
-* #34 ^property[=].valueDateTime = "2016-09-01T00:00:00+01:00"
-* #35 "Transporteur sanitaire"
-* #35 ^designation[0].language = #fr-FR
-* #35 ^designation[=].use.system = "http://snomed.info/sct"
-* #35 ^designation[=].use = $sct#900000000000013009
-* #35 ^designation[=].value = "Transport sanitaire"
-* #35 ^property[0].code = #dateValid
-* #35 ^property[=].valueDateTime = "2007-07-25T15:04:44+01:00"
-* #35 ^property[+].code = #dateMaj
-* #35 ^property[=].valueDateTime = "2016-09-01T00:00:00+01:00"
-* #37 "Entreprise d'intérim"
-* #37 ^property[0].code = #dateValid
-* #37 ^property[=].valueDateTime = "2007-07-25T15:04:44+01:00"
-* #37 ^property[+].code = #dateFin
-* #37 ^property[=].valueDateTime = "2020-06-26T12:00:00+01:00"
-* #37 ^property[+].code = #dateMaj
-* #37 ^property[=].valueDateTime = "2020-06-26T12:00:00+01:00"
-* #41 "Etablissement de soins et prévention"
-* #41 ^designation[0].language = #fr-FR
-* #41 ^designation[=].use.system = "http://snomed.info/sct"
-* #41 ^designation[=].use = $sct#900000000000013009
-* #41 ^designation[=].value = "Etab de soins et prévention"
-* #41 ^property[0].code = #dateValid
-* #41 ^property[=].valueDateTime = "2007-07-25T15:04:44+01:00"
-* #41 ^property[+].code = #dateMaj
-* #41 ^property[=].valueDateTime = "2016-09-01T00:00:00+01:00"
-* #42 "Prévention et soins en entreprise"
-* #42 ^designation[0].language = #fr-FR
-* #42 ^designation[=].use.system = "http://snomed.info/sct"
-* #42 ^designation[=].use = $sct#900000000000013009
-* #42 ^designation[=].value = "Prévent, soins en entreprise"
-* #42 ^property[0].code = #dateValid
-* #42 ^property[=].valueDateTime = "2007-07-25T15:04:44+01:00"
-* #42 ^property[+].code = #dateMaj
-* #42 ^property[=].valueDateTime = "2016-09-01T00:00:00+01:00"
-* #43 "Etablissement scolaire ou universitaire"
-* #43 ^designation[0].language = #fr-FR
-* #43 ^designation[=].use.system = "http://snomed.info/sct"
-* #43 ^designation[=].use = $sct#900000000000013009
-* #43 ^designation[=].value = "Etab scolaire ou universitaire"
-* #43 ^property[0].code = #dateValid
-* #43 ^property[=].valueDateTime = "2007-07-25T15:04:44+01:00"
-* #43 ^property[+].code = #dateMaj
-* #43 ^property[=].valueDateTime = "2016-09-01T00:00:00+01:00"
-* #44 "Recrutement ou Gestion RH"
-* #44 ^designation[0].language = #fr-FR
-* #44 ^designation[=].use.system = "http://snomed.info/sct"
-* #44 ^designation[=].use = $sct#900000000000013009
-* #44 ^designation[=].value = "Recrutement, Gestion RH"
-* #44 ^property[0].code = #dateValid
-* #44 ^property[=].valueDateTime = "2007-07-25T15:04:44+01:00"
-* #44 ^property[+].code = #dateMaj
-* #44 ^property[=].valueDateTime = "2016-09-01T00:00:00+01:00"
-* #45 "PMI et Planification familiale"
-* #45 ^designation[0].language = #fr-FR
-* #45 ^designation[=].use.system = "http://snomed.info/sct"
-* #45 ^designation[=].use = $sct#900000000000013009
-* #45 ^designation[=].value = "PMI, Planification familiale"
-* #45 ^property[0].code = #dateValid
-* #45 ^property[=].valueDateTime = "2007-07-25T15:04:44+01:00"
-* #45 ^property[+].code = #dateMaj
-* #45 ^property[=].valueDateTime = "2016-09-01T00:00:00+01:00"
-* #51 "Etablissement pour personnes handicapées"
-* #51 ^designation[0].language = #fr-FR
-* #51 ^designation[=].use.system = "http://snomed.info/sct"
-* #51 ^designation[=].use = $sct#900000000000013009
-* #51 ^designation[=].value = "Etab pour handicapés"
-* #51 ^property[0].code = #dateValid
-* #51 ^property[=].valueDateTime = "2007-07-25T15:04:44+01:00"
-* #51 ^property[+].code = #dateMaj
-* #51 ^property[=].valueDateTime = "2016-09-01T00:00:00+01:00"
-* #52 "Communication, Marketing, Consulting, Média"
-* #52 ^designation[0].language = #fr-FR
-* #52 ^designation[=].use.system = "http://snomed.info/sct"
-* #52 ^designation[=].use = $sct#900000000000013009
-* #52 ^designation[=].value = "Commun, Mark, Consult, Média"
-* #52 ^property[0].code = #dateValid
-* #52 ^property[=].valueDateTime = "2007-07-25T15:04:44+01:00"
-* #52 ^property[+].code = #dateMaj
-* #52 ^property[=].valueDateTime = "2016-09-01T00:00:00+01:00"
-* #53 "Etablissement pour personnes âgées"
-* #53 ^designation[0].language = #fr-FR
-* #53 ^designation[=].use.system = "http://snomed.info/sct"
-* #53 ^designation[=].use = $sct#900000000000013009
-* #53 ^designation[=].value = "Etab pour personnes âgées"
-* #53 ^property[0].code = #dateValid
-* #53 ^property[=].valueDateTime = "2007-07-25T15:04:44+01:00"
-* #53 ^property[+].code = #dateMaj
-* #53 ^property[=].valueDateTime = "2016-09-01T00:00:00+01:00"
-* #54 "Etablissement aide à la famille"
-* #54 ^designation[0].language = #fr-FR
-* #54 ^designation[=].use.system = "http://snomed.info/sct"
-* #54 ^designation[=].use = $sct#900000000000013009
-* #54 ^designation[=].value = "Etab aide à la famille"
-* #54 ^property[0].code = #dateValid
-* #54 ^property[=].valueDateTime = "2007-07-25T15:04:44+01:00"
-* #54 ^property[+].code = #dateMaj
-* #54 ^property[=].valueDateTime = "2016-09-01T00:00:00+01:00"
-* #55 "Etablissement d'enseignement"
-* #55 ^designation[0].language = #fr-FR
-* #55 ^designation[=].use.system = "http://snomed.info/sct"
-* #55 ^designation[=].use = $sct#900000000000013009
-* #55 ^designation[=].value = "Etab d'enseignement"
-* #55 ^property[0].code = #dateValid
-* #55 ^property[=].valueDateTime = "2007-07-25T15:04:44+01:00"
-* #55 ^property[+].code = #dateMaj
-* #55 ^property[=].valueDateTime = "2016-09-01T00:00:00+01:00"
-* #56 "Etablissement pour la protection de l'enfance"
-* #56 ^designation[0].language = #fr-FR
-* #56 ^designation[=].use.system = "http://snomed.info/sct"
-* #56 ^designation[=].use = $sct#900000000000013009
-* #56 ^designation[=].value = "Etab pour protection enfance"
-* #56 ^property[0].code = #dateValid
-* #56 ^property[=].valueDateTime = "2007-07-25T15:04:44+01:00"
-* #56 ^property[+].code = #dateMaj
-* #56 ^property[=].valueDateTime = "2016-09-01T00:00:00+01:00"
-* #57 "Etablissement d'hébergement et de réadaptation"
-* #57 ^designation[0].language = #fr-FR
-* #57 ^designation[=].use.system = "http://snomed.info/sct"
-* #57 ^designation[=].use = $sct#900000000000013009
-* #57 ^designation[=].value = "Etab hébergement, réadaptation"
-* #57 ^property[0].code = #dateValid
-* #57 ^property[=].valueDateTime = "2007-07-25T15:04:44+01:00"
-* #57 ^property[+].code = #dateMaj
-* #57 ^property[=].valueDateTime = "2016-09-01T00:00:00+01:00"
-* #58 "Recherche"
-* #58 ^property[0].code = #dateValid
-* #58 ^property[=].valueDateTime = "2007-07-25T15:04:44+01:00"
-* #58 ^property[+].code = #dateMaj
-* #58 ^property[=].valueDateTime = "2010-11-18T00:00:00+01:00"
-* #61 "Assurance privée"
-* #61 ^property[0].code = #dateValid
-* #61 ^property[=].valueDateTime = "2007-07-25T15:04:44+01:00"
-* #61 ^property[+].code = #dateMaj
-* #61 ^property[=].valueDateTime = "2016-09-01T00:00:00+01:00"
-* #62 "Organisme de sécurité sociale"
-* #62 ^property[0].code = #dateValid
-* #62 ^property[=].valueDateTime = "2007-07-25T15:04:44+01:00"
-* #62 ^property[+].code = #dateMaj
-* #62 ^property[=].valueDateTime = "2016-09-01T00:00:00+01:00"
-* #65 "Ministère ou Service déconcentré"
-* #65 ^designation[0].language = #fr-FR
-* #65 ^designation[=].use.system = "http://snomed.info/sct"
-* #65 ^designation[=].use = $sct#900000000000013009
-* #65 ^designation[=].value = "Ministère, Service déconcentré"
-* #65 ^property[0].code = #dateValid
-* #65 ^property[=].valueDateTime = "2007-07-27T16:46:43+01:00"
-* #65 ^property[+].code = #dateMaj
-* #65 ^property[=].valueDateTime = "2016-09-01T00:00:00+01:00"
-* #66 "Collectivité territoriale"
-* #66 ^property[0].code = #dateValid
-* #66 ^property[=].valueDateTime = "2007-07-25T15:04:44+01:00"
-* #66 ^property[+].code = #dateMaj
-* #66 ^property[=].valueDateTime = "2016-09-01T00:00:00+01:00"
-* #68 "Association ou organisme humanitaire"
-* #68 ^designation[0].language = #fr-FR
-* #68 ^designation[=].use.system = "http://snomed.info/sct"
-* #68 ^designation[=].use = $sct#900000000000013009
-* #68 ^designation[=].value = "Asso ou organisme humanitaire"
-* #68 ^property[0].code = #dateValid
-* #68 ^property[=].valueDateTime = "2007-07-25T15:04:44+01:00"
-* #68 ^property[+].code = #dateMaj
-* #68 ^property[=].valueDateTime = "2016-09-01T00:00:00+01:00"
-* #71 "Laboratoire (d'analyse et) de biologie médicale"
-* #71 ^designation[0].language = #fr-FR
-* #71 ^designation[=].use.system = "http://snomed.info/sct"
-* #71 ^designation[=].use = $sct#900000000000013009
-* #71 ^designation[=].value = "LBM ou LABM"
-* #71 ^designation[+].language = #fr-FR
-* #71 ^designation[=].use.system = "http://snomed.info/sct"
-* #71 ^designation[=].use = $sct#900000000000013009
-* #71 ^designation[=].value = "Laboratoire (d'analyse et) de biologie médicale (LBM ou LABM)"
-* #71 ^property[0].code = #dateValid
-* #71 ^property[=].valueDateTime = "2007-07-25T15:04:44+01:00"
-* #71 ^property[+].code = #dateMaj
-* #71 ^property[=].valueDateTime = "2016-09-01T00:00:00+01:00"
-* #75 "Autre établissement sanitaire"
-* #75 ^property[0].code = #dateValid
-* #75 ^property[=].valueDateTime = "2007-07-25T15:04:44+01:00"
-* #75 ^property[+].code = #dateMaj
-* #75 ^property[=].valueDateTime = "2016-09-01T00:00:00+01:00"
-* #81 "Répartition et Distribution de médicaments et dispositifs médicaux"
-* #81 ^designation[0].language = #fr-FR
-* #81 ^designation[=].use.system = "http://snomed.info/sct"
-* #81 ^designation[=].use = $sct#900000000000013009
-* #81 ^designation[=].value = "Répart, Distrib médic et DM"
-* #81 ^property[0].code = #dateValid
-* #81 ^property[=].valueDateTime = "2007-07-25T00:00:00+01:00"
-* #81 ^property[+].code = #dateMaj
-* #81 ^property[=].valueDateTime = "2016-09-01T00:00:00+01:00"
-* #85 "Appareillage médical"
-* #85 ^property[0].code = #dateValid
-* #85 ^property[=].valueDateTime = "2007-07-25T15:04:44+01:00"
-* #85 ^property[+].code = #dateMaj
-* #85 ^property[=].valueDateTime = "2008-02-28T00:00:00+01:00"
-* #86 "Pharmacie d'officine"
-* #86 ^property[0].code = #dateValid
-* #86 ^property[=].valueDateTime = "2007-07-25T15:04:44+01:00"
-* #86 ^property[+].code = #dateMaj
-* #86 ^property[=].valueDateTime = "2016-09-01T00:00:00+01:00"
-* #87 "Centre de dialyse"
-* #87 ^property[0].code = #dateValid
-* #87 ^property[=].valueDateTime = "2007-07-25T15:04:44+01:00"
-* #87 ^property[+].code = #dateMaj
-* #87 ^property[=].valueDateTime = "2008-02-28T00:00:00+01:00"
-* #88 "Para-pharmacie"
-* #88 ^property[0].code = #dateValid
-* #88 ^property[=].valueDateTime = "2007-07-25T15:04:44+01:00"
-* #88 ^property[+].code = #dateMaj
-* #88 ^property[=].valueDateTime = "2008-02-28T00:00:00+01:00"
-* #91 "Autre établissement du domaine social ou médico-social"
-* #91 ^designation[0].language = #fr-FR
-* #91 ^designation[=].use.system = "http://snomed.info/sct"
-* #91 ^designation[=].use = $sct#900000000000013009
-* #91 ^designation[=].value = "Autre étab dom (médico-)social"
-* #91 ^property[0].code = #dateValid
-* #91 ^property[=].valueDateTime = "2007-07-25T15:04:44+01:00"
-* #91 ^property[+].code = #dateMaj
-* #91 ^property[=].valueDateTime = "2016-12-22T12:00:00+01:00"
-* #92 "Secteur non défini"
-* #92 ^property[0].code = #dateValid
-* #92 ^property[=].valueDateTime = "2007-07-25T00:00:00+01:00"
-* #92 ^property[+].code = #dateMaj
-* #92 ^property[=].valueDateTime = "2008-02-28T00:00:00+01:00"
-* #93 "Centre anti-cancer"
-* #93 ^property[0].code = #dateValid
-* #93 ^property[=].valueDateTime = "2007-07-25T00:00:00+01:00"
-* #93 ^property[+].code = #dateMaj
-* #93 ^property[=].valueDateTime = "2009-08-24T00:00:00+01:00"
-* #94 "Centre de transfusion sanguine"
-* #94 ^designation[0].language = #fr-FR
-* #94 ^designation[=].use.system = "http://snomed.info/sct"
-* #94 ^designation[=].use = $sct#900000000000013009
-* #94 ^designation[=].value = "Centre transfusion sanguine"
-* #94 ^property[0].code = #dateValid
-* #94 ^property[=].valueDateTime = "2007-07-25T15:04:44+01:00"
-* #94 ^property[+].code = #dateMaj
-* #94 ^property[=].valueDateTime = "2008-02-28T00:00:00+01:00"
-* #95 "Fab, Exploit, Import, Répart, Distrib médicaments et dispo médicaux"
-* #95 ^designation[0].language = #fr-FR
-* #95 ^designation[=].use.system = "http://snomed.info/sct"
-* #95 ^designation[=].use = $sct#900000000000013009
-* #95 ^designation[=].value = "Fab,Expl,Imp,Rép,Dis méd et DM"
-* #95 ^designation[+].language = #fr-FR
-* #95 ^designation[=].use.system = "http://snomed.info/sct"
-* #95 ^designation[=].use = $sct#900000000000013009
-* #95 ^designation[=].value = "Fabrication, Exploitation, Importation, Répartition, Distribution médicaments et dispositifs médicaux"
-* #95 ^property[0].code = #dateValid
-* #95 ^property[=].valueDateTime = "2007-07-25T15:04:44+01:00"
-* #95 ^property[+].code = #dateMaj
-* #95 ^property[=].valueDateTime = "2016-09-01T00:00:00+01:00"
-* #96 "Incendie et secours"
-* #96 ^property[0].code = #dateValid
-* #96 ^property[=].valueDateTime = "2007-07-25T15:04:44+01:00"
-* #96 ^property[+].code = #dateMaj
-* #96 ^property[=].valueDateTime = "2016-09-01T00:00:00+01:00"
-* #97 "Entreprise indus et tertiaire hors pharmaceutique"
-* #97 ^designation[0].language = #fr-FR
-* #97 ^designation[=].use.system = "http://snomed.info/sct"
-* #97 ^designation[=].use = $sct#900000000000013009
-* #97 ^designation[=].value = "Ent industrielle et tertiaire"
-* #97 ^designation[+].language = #fr-FR
-* #97 ^designation[=].use.system = "http://snomed.info/sct"
-* #97 ^designation[=].use = $sct#900000000000013009
-* #97 ^designation[=].value = "Entreprise industrielle et tertiaire hors industrie pharmaceutique"
-* #97 ^property[0].code = #dateValid
-* #97 ^property[=].valueDateTime = "2007-07-25T15:04:44+01:00"
-* #97 ^property[+].code = #dateMaj
-* #97 ^property[=].valueDateTime = "2016-09-01T00:00:00+01:00"
-* #98 "Entité Outre-Mer"
-* #98 ^property[0].code = #dateValid
-* #98 ^property[=].valueDateTime = "2007-07-25T15:04:44+01:00"
-* #98 ^property[+].code = #dateMaj
-* #98 ^property[=].valueDateTime = "2016-09-01T00:00:00+01:00"
-* #99 "Fabrication, Exploitation et Importation de médicaments et dispositifs médicaux"
-* #99 ^designation[0].language = #fr-FR
-* #99 ^designation[=].use.system = "http://snomed.info/sct"
-* #99 ^designation[=].use = $sct#900000000000013009
-* #99 ^designation[=].value = "Fab, Expl, Import médic et DM"
-* #99 ^property[0].code = #dateValid
-* #99 ^property[=].valueDateTime = "2007-07-25T15:04:44+01:00"
-* #99 ^property[+].code = #dateMaj
-* #99 ^property[=].valueDateTime = "2016-09-01T00:00:00+01:00"
-* #100 "Structure d'urgence hors établissement hospitalier"
-* #100 ^designation[0].language = #fr-FR
-* #100 ^designation[=].use.system = "http://snomed.info/sct"
-* #100 ^designation[=].use = $sct#900000000000013009
-* #100 ^designation[=].value = "Structure d'urgence hors hôp"
-* #100 ^property[0].code = #dateValid
-* #100 ^property[=].valueDateTime = "2007-07-25T00:00:00+01:00"
-* #100 ^property[+].code = #dateMaj
-* #100 ^property[=].valueDateTime = "2016-09-01T00:00:00+01:00"
-* #101 "Structure de coop avec autorisation de soins"
-* #101 ^designation[0].language = #fr-FR
-* #101 ^designation[=].use.system = "http://snomed.info/sct"
-* #101 ^designation[=].use = $sct#900000000000013009
-* #101 ^designation[=].value = "Struct coop avec auto soins"
-* #101 ^designation[+].language = #fr-FR
-* #101 ^designation[=].use.system = "http://snomed.info/sct"
-* #101 ^designation[=].use = $sct#900000000000013009
-* #101 ^designation[=].value = "Structure de coopération avec autorisation de soins"
-* #101 ^property[0].code = #dateValid
-* #101 ^property[=].valueDateTime = "2007-07-25T00:00:00+01:00"
-* #101 ^property[+].code = #dateMaj
-* #101 ^property[=].valueDateTime = "2016-09-01T00:00:00+01:00"
-* #102 "Maison de santé ou Pôle de santé"
-* #102 ^designation[0].language = #fr-FR
-* #102 ^designation[=].use.system = "http://snomed.info/sct"
-* #102 ^designation[=].use = $sct#900000000000013009
-* #102 ^designation[=].value = "Maison de santé, Pôle de santé"
-* #102 ^property[0].code = #dateValid
-* #102 ^property[=].valueDateTime = "2007-07-25T00:00:00+01:00"
-* #102 ^property[+].code = #dateMaj
-* #102 ^property[=].valueDateTime = "2016-09-01T00:00:00+01:00"
-* #103 "Siège administratif d'un établissement de santé"
-* #103 ^designation[0].language = #fr-FR
-* #103 ^designation[=].use.system = "http://snomed.info/sct"
-* #103 ^designation[=].use = $sct#900000000000013009
-* #103 ^designation[=].value = "Siège administratif étab santé"
-* #103 ^property[0].code = #dateValid
-* #103 ^property[=].valueDateTime = "2007-07-25T00:00:00+01:00"
-* #103 ^property[+].code = #dateMaj
-* #103 ^property[=].valueDateTime = "2016-09-01T00:00:00+01:00"
-* #104 "Centre de dépistage et de prévention"
-* #104 ^designation[0].language = #fr-FR
-* #104 ^designation[=].use.system = "http://snomed.info/sct"
-* #104 ^designation[=].use = $sct#900000000000013009
-* #104 ^designation[=].value = "Centre dépistage et prévention"
-* #104 ^property[0].code = #dateValid
-* #104 ^property[=].valueDateTime = "2014-09-30T00:00:00+01:00"
-* #104 ^property[+].code = #dateMaj
-* #104 ^property[=].valueDateTime = "2016-09-01T00:00:00+01:00"
-* #105 "Laboratoire pharmaceutique préparant délivrant allergènes"
-* #105 ^designation[0].language = #fr-FR
-* #105 ^designation[=].use.system = "http://snomed.info/sct"
-* #105 ^designation[=].use = $sct#900000000000013009
-* #105 ^designation[=].value = "Labo pharmaceutique allergènes"
-* #105 ^designation[+].language = #fr-FR
-* #105 ^designation[=].use.system = "http://snomed.info/sct"
-* #105 ^designation[=].use = $sct#900000000000013009
-* #105 ^designation[=].value = "Laboratoire pharmaceutique préparant et délivrant des allergènes"
-* #105 ^property[0].code = #dateValid
-* #105 ^property[=].valueDateTime = "2007-07-25T00:00:00+01:00"
-* #105 ^property[+].code = #dateMaj
-* #105 ^property[=].valueDateTime = "2016-12-22T12:00:00+01:00"
-* #106 "Propharmacie"
-* #106 ^property[0].code = #dateValid
-* #106 ^property[=].valueDateTime = "2007-07-25T00:00:00+01:00"
-* #106 ^property[+].code = #dateMaj
-* #106 ^property[=].valueDateTime = "2013-01-23T00:00:00+01:00"
-* #107 "Structure de coop avec mission coordination soins"
-* #107 ^designation[0].language = #fr-FR
-* #107 ^designation[=].use.system = "http://snomed.info/sct"
-* #107 ^designation[=].use = $sct#900000000000013009
-* #107 ^designation[=].value = "Struct coop mission coor soins"
-* #107 ^designation[+].language = #fr-FR
-* #107 ^designation[=].use.system = "http://snomed.info/sct"
-* #107 ^designation[=].use = $sct#900000000000013009
-* #107 ^designation[=].value = "Structure de coopération avec mission de coordination de soins"
-* #107 ^property[0].code = #dateValid
-* #107 ^property[=].valueDateTime = "2007-07-25T00:00:00+01:00"
-* #107 ^property[+].code = #dateMaj
-* #107 ^property[=].valueDateTime = "2016-09-01T00:00:00+01:00"
-* #108 "Entreprise de taxis"
-* #108 ^property[0].code = #dateValid
-* #108 ^property[=].valueDateTime = "2014-05-28T00:00:00+01:00"
-* #108 ^property[+].code = #dateMaj
-* #108 ^property[=].valueDateTime = "2014-05-28T00:00:00+01:00"
-* #109 "Labo de biologie médicale hors catégorie standard"
-* #109 ^designation[0].language = #fr-FR
-* #109 ^designation[=].use.system = "http://snomed.info/sct"
-* #109 ^designation[=].use = $sct#900000000000013009
-* #109 ^designation[=].value = "LBM hors catégorie stand"
-* #109 ^designation[+].language = #fr-FR
-* #109 ^designation[=].use.system = "http://snomed.info/sct"
-* #109 ^designation[=].use = $sct#900000000000013009
-* #109 ^designation[=].value = "Laboratoire de biologie médicale hors catégorie standard"
-* #109 ^property[0].code = #dateValid
-* #109 ^property[=].valueDateTime = "2015-12-21T00:00:00+01:00"
-* #109 ^property[+].code = #dateMaj
-* #109 ^property[=].valueDateTime = "2016-09-01T00:00:00+01:00"
-* #110 "Centres médicaux SNCF"
-* #110 ^property[0].code = #dateValid
-* #110 ^property[=].valueDateTime = "2016-12-22T12:00:00+01:00"
-* #110 ^property[+].code = #dateMaj
-* #110 ^property[=].valueDateTime = "2016-12-22T12:00:00+01:00"
-* #111 "Structure Dispensatrice à domicile d'Oxygène à usage médical"
-* #111 ^designation[0].language = #fr-FR
-* #111 ^designation[=].use.system = "http://snomed.info/sct"
-* #111 ^designation[=].use = $sct#900000000000013009
-* #111 ^designation[=].value = "Struct dispen oxygène domicile"
-* #111 ^property[0].code = #dateValid
-* #111 ^property[=].valueDateTime = "2017-10-13T12:00:00+01:00"
-* #111 ^property[+].code = #dateMaj
-* #111 ^property[=].valueDateTime = "2017-10-13T12:00:00+01:00"
-* #112 "Ordre professionnel de santé"
-* #112 ^property[0].code = #dateValid
-* #112 ^property[=].valueDateTime = "2019-12-13T12:00:00+01:00"
-* #112 ^property[+].code = #dateMaj
-* #112 ^property[=].valueDateTime = "2019-12-13T12:00:00+01:00"
-* #113 "Communauté professionnelle territoriale de santé et équipe de soins spécialisés" "Les communautés professionnelles territoriales de santé (CPTS) ont été créées par la loi de modernisation de notre système de santé du 26 janvier 2016. Les équipes de soins spécialisés (ESS) ont été créées à la suite de la loi n°2019-774 du 24 juillet 2019 relative à l'organisation et à la transformation du système de santé. Les CPTS et les ESS ne sont pas des structures effectrices de soins mais des espaces d’organisation et de coordination entre professionnels de santé."
-* #113 ^designation[0].language = #fr-FR
-* #113 ^designation[=].use.system = "http://snomed.info/sct"
-* #113 ^designation[=].use = $sct#900000000000013009
-* #113 ^designation[=].value = "CPTS et ESS"
-* #113 ^property[0].code = #dateValid
-* #113 ^property[=].valueDateTime = "2020-02-28T12:00:00+01:00"
-* #113 ^property[+].code = #dateMaj
-* #113 ^property[=].valueDateTime = "2024-12-09T12:00:00+01:00"
-* #114 "Société de téléconsultation"
-* #114 ^property[0].code = #dateValid
-* #114 ^property[=].valueDateTime = "2024-06-28T12:00:00+01:00"
-* #114 ^property[+].code = #dateMaj
-* #114 ^property[=].valueDateTime = "2024-06-28T12:00:00+01:00"
-* #115 "Antenne de pharmacie"
-* #115 ^property[0].code = #dateValid
-* #115 ^property[=].valueDateTime = "2024-06-28T12:00:00+01:00"
-* #115 ^property[+].code = #dateMaj
-* #115 ^property[=].valueDateTime = "2024-06-28T12:00:00+01:00"
-* #116 "Services de Prévention et de Santé au Travail (SPST)"
-* #116 ^designation[0].language = #fr-FR
-* #116 ^designation[=].use.system = "http://snomed.info/sct"
-* #116 ^designation[=].use = $sct#900000000000013009
-* #116 ^designation[=].value = "SPST"
-* #116 ^property[0].code = #dateValid
-* #116 ^property[=].valueDateTime = "2024-05-31T12:00:00+01:00"
-* #116 ^property[+].code = #dateMaj
-* #116 ^property[=].valueDateTime = "2024-05-31T12:00:00+01:00"
-* #117 "Maisons médicales de garde (MMG)"
-* #117 ^designation[0].language = #fr-FR
-* #117 ^designation[=].use.system = "http://snomed.info/sct"
-* #117 ^designation[=].use = $sct#900000000000013009
-* #117 ^designation[=].value = "MMG"
-* #117 ^property[0].code = #dateValid
-* #117 ^property[=].valueDateTime = "2024-05-31T12:00:00+01:00"
-* #117 ^property[+].code = #dateMaj
-* #117 ^property[=].valueDateTime = "2024-05-31T12:00:00+01:00"
-* #118 "Services départementaux d'incendie et de secours (SDIS)"
-* #118 ^designation[0].language = #fr-FR
-* #118 ^designation[=].use = $sct#900000000000013009
-* #118 ^designation[=].value = "SDIS"
-* #118 ^designation[+].language = #fr-FR
-* #118 ^designation[=].use = $sct#900000000000013009
-* #118 ^designation[=].value = "Services départementaux d'incendie et de secours"
-* #118 ^property[0].code = #dateValid
-* #118 ^property[=].valueDateTime = "2024-07-26T12:00:00+01:00"
-* #118 ^property[+].code = #dateMaj
-* #118 ^property[=].valueDateTime = "2024-07-26T12:00:00+01:00"
-* #119 "Maisons de naissance"
-* #119 ^property[0].code = #dateValid
-* #119 ^property[=].valueDateTime = "2024-07-26T12:00:00+01:00"
-* #119 ^property[+].code = #dateMaj
-* #119 ^property[=].valueDateTime = "2024-07-26T12:00:00+01:00"
+* $TRE-A00-ProducteurDocNonPS#EXP_PATIENT "Expression personnelle du patient"
+* $TRE-A00-ProducteurDocNonPS#SNR "Service numérique référencé"
+* $TRE-R02-SecteurActivite#SA01 "Etablissement public de santé"
+* $TRE-R02-SecteurActivite#SA02 "Hôpital militaire du Service de santé des armées"
+* $TRE-R02-SecteurActivite#SA03 "Etablissement privé PSPH"
+* $TRE-R02-SecteurActivite#SA04 "Etablissement privé non PSPH"
+* $TRE-R02-SecteurActivite#SA05 "Centre de santé"
+* $TRE-R02-SecteurActivite#SA06 "Autre structure du Service de santé des armées"
+* $TRE-R02-SecteurActivite#SA07 "Cabinet individuel"
+* $TRE-R02-SecteurActivite#SA08 "Cabinet de groupe"
+* $TRE-R02-SecteurActivite#SA09 "Exercice en société"
+* $TRE-R02-SecteurActivite#SA10 "Transporteur sanitaire"
+* $TRE-R02-SecteurActivite#SA12 "Etablissement de soins et prévention"
+* $TRE-R02-SecteurActivite#SA13 "Prévention et soins en entreprise"
+* $TRE-R02-SecteurActivite#SA14 "Etablissements scolaires, universitaires et de formation hors champ FINESS"
+* $TRE-R02-SecteurActivite#SA15 "PMI et Planification familiale"
+* $TRE-R02-SecteurActivite#SA16 "Etablissement pour personnes handicapées"
+* $TRE-R02-SecteurActivite#SA17 "Etablissement pour personnes âgées"
+* $TRE-R02-SecteurActivite#SA18 "Etablissement aide à la famille"
+* $TRE-R02-SecteurActivite#SA19 "Etablissements FINESS de formation aux professions sanitaires et sociales"
+* $TRE-R02-SecteurActivite#SA20 "Etablissement pour la protection de l'enfance"
+* $TRE-R02-SecteurActivite#SA21 "Etablissement d'hébergement et de réadaptation"
+* $TRE-R02-SecteurActivite#SA22 "Recherche"
+* $TRE-R02-SecteurActivite#SA23 "Assurance privée"
+* $TRE-R02-SecteurActivite#SA24 "Organisme de sécurité sociale"
+* $TRE-R02-SecteurActivite#SA25 "Laboratoire de biologie médicale"
+* $TRE-R02-SecteurActivite#SA26 "Ministère ou Service déconcentré"
+* $TRE-R02-SecteurActivite#SA27 "Collectivité territoriale"
+* $TRE-R02-SecteurActivite#SA28 "Association ou organisme humanitaire"
+* $TRE-R02-SecteurActivite#SA29 "Laboratoire d'analyses et de biologie médicale"
+* $TRE-R02-SecteurActivite#SA30 "Autre établissement sanitaire"
+* $TRE-R02-SecteurActivite#SA31 "Répartition et Distribution de médicaments et dispositifs médicaux"
+* $TRE-R02-SecteurActivite#SA32 "Fabrication, Exploitation et Importation de médicaments et dispositifs médicaux"
+* $TRE-R02-SecteurActivite#SA33 "Pharmacie d'officine"
+* $TRE-R02-SecteurActivite#SA34 "Centre de dialyse"
+* $TRE-R02-SecteurActivite#SA35 "Para-pharmacie"
+* $TRE-R02-SecteurActivite#SA36 "Centre anti-cancer"
+* $TRE-R02-SecteurActivite#SA37 "Centre de transfusion sanguine"
+* $TRE-R02-SecteurActivite#SA38 "Pharmacie minière"
+* $TRE-R02-SecteurActivite#SA39 "Pharmacie mutualiste"
+* $TRE-R02-SecteurActivite#SA40 "Secteur privé, praticien hospitalier temps plein"
+* $TRE-R02-SecteurActivite#SA41 "Autre établissement du domaine social ou médico-social"
+* $TRE-R02-SecteurActivite#SA42 "Appareillage médical"
+* $TRE-R02-SecteurActivite#SA43 "Secteur non défini"
+* $TRE-R02-SecteurActivite#SA44 "Recrutement ou Gestion RH"
+* $TRE-R02-SecteurActivite#SA45 "Communication, Marketing, Consulting, Média"
+* $TRE-R02-SecteurActivite#SA46 "Fabrication, Exploitation, Importation, Répartition, Distribution médicaments et dispositifs médicaux"
+* $TRE-R02-SecteurActivite#SA47 "Incendie et secours"
+* $TRE-R02-SecteurActivite#SA48 "Entreprise industrielle et tertiaire hors industrie pharmaceutique"
+* $TRE-R02-SecteurActivite#SA49 "Entité Outre-Mer"
+* $TRE-R02-SecteurActivite#SA50 "Permanence des soins ambulatoires hors cabinet"
+* $TRE-R02-SecteurActivite#SA51 "Structure de coopération avec autorisation de soins"
+* $TRE-R02-SecteurActivite#SA52 "Maison de santé ou Pôle de santé"
+* $TRE-R02-SecteurActivite#SA53 "Siège administratif d'un établissement de santé"
+* $TRE-R02-SecteurActivite#SA54 "Centre de dépistage et de prévention"
+* $TRE-R02-SecteurActivite#SA55 "Laboratoire pharmaceutique préparant et délivrant des allergènes"
+* $TRE-R02-SecteurActivite#SA56 "Propharmacie"
+* $TRE-R02-SecteurActivite#SA57 "Structure de coopération avec mission de coordination de soins"
+* $TRE-R02-SecteurActivite#SA58 "Entreprise de taxis"
+* $TRE-R02-SecteurActivite#SA59 "Laboratoire de biologie médicale hors catégorie standard"
+* $TRE-R02-SecteurActivite#SA60 "Centres médicaux SNCF"
+* $TRE-R02-SecteurActivite#SA61 "Structure Dispensatrice à domicile d'Oxygène à usage médical"
+* $TRE-R02-SecteurActivite#SA63 "Communauté professionnelle territoriale de santé et équipe de soins spécialisés"
+* $TRE-R02-SecteurActivite#SA64 "Société de téléconsultation"
+* $TRE-R02-SecteurActivite#SA65 "Antenne de pharmacie"
+* $TRE-R02-SecteurActivite#SA66 "Services de Prévention et de Santé au Travail (SPST)"
+* $TRE-R02-SecteurActivite#SA67 "Maisons médicales de garde (MMG)"
+* $TRE-R02-SecteurActivite#SA68 "Services départementaux d'incendie et de secours"
+* $TRE-R02-SecteurActivite#SA69 "Maisons de naissance"
