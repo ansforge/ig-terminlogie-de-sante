@@ -12,10 +12,10 @@ Description: "Niveau de ressources humaines et matérielles utiles pour la réal
 * ^url = "https://mos.esante.gouv.fr/NOS/JDV_J227-NiveauExpertise-ROR/FHIR/JDV-J227-NiveauExpertise-ROR"
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value = "urn:oid:1.2.250.1.213.3.4.59"
-* ^version = "20240726120000"
+* ^version = "20241209120000"
 * ^status = #active
 * ^experimental = false
-* ^date = "2024-07-26T12:00:00+01:00"
+* ^date = "2024-12-09T12:00:00+01:00"
 * ^publisher = "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris"
 * $TRE-R253-TypeMaternite#01 "Maternité de type 1"
 * $TRE-R253-TypeMaternite#02 "Maternité de type 2A"
@@ -50,3 +50,7 @@ Description: "Niveau de ressources humaines et matérielles utiles pour la réal
 * $TRE-R344-NiveauExpertise#36 "Centre de réhabilitation psychosociale - Centre de proximité labellisé"
 * $TRE-R344-NiveauExpertise#37 "Unité neuro-vasculaire (UNV) de territoire"
 * $TRE-R344-NiveauExpertise#38 "Unité neuro-vasculaire (UNV) de recours"
+* $TRE-R344-NiveauExpertise#39 "Filière Obésité – Niveau 1 (Conventionné CSO)"
+* $TRE-R344-NiveauExpertise#40 "Filière Obésité – Niveau 2 (Conventionné CSO)"
+* $TRE-R344-NiveauExpertise#41 "Filière Obésité – Niveau 3 (Conventionné CSO)"
+* $TRE-R344-NiveauExpertise#42 "Filière Obésité – Niveau 3 (Centre Spécialisé Obésité)"
