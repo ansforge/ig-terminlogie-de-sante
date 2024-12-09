@@ -11,10 +11,10 @@ Description: "Secteur d'activité ADELI"
 * ^url = "https://mos.esante.gouv.fr/NOS/TRE_G19-SecteurActiviteADELI/FHIR/TRE-G19-SecteurActiviteADELI"
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value = "urn:oid:1.2.250.1.71.1.2.23"
-* ^version = "20240726120000"
+* ^version = "20241209120000"
 * ^status = #active
 * ^experimental = false
-* ^date = "2024-07-26T12:00:00+01:00"
+* ^date = "2024-12-09T12:00:00+01:00"
 * ^publisher = "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris"
 * ^caseSensitive = false
 * ^content = #complete
@@ -496,15 +496,15 @@ Description: "Secteur d'activité ADELI"
 * #112 ^property[=].valueDateTime = "2019-12-13T12:00:00+01:00"
 * #112 ^property[+].code = #dateMaj
 * #112 ^property[=].valueDateTime = "2019-12-13T12:00:00+01:00"
-* #113 "Communauté Professionnelle Territoriale de Santé" "Les Communautés Professionnelles Territoriales de Santé (CPTS) ont été créées par la loi de modernisation de notre système de santé du 26 janvier 2016 (cf. articles Article L1434-12 et Article L1434-13 du code de la Santé Publique). Leur enregistrement est régi par l'instruction DGOS/DIR/DREES/DMSI/2020/12. Les CPTS sont un espace d'organisation et de coordination entre professionnels de santé et non pas des structures de soins : elles regroupent les professionnels de santé d'un même territoire qui souhaitent s'organiser - à leur initiative - autour d'un projet de santé pour répondre aux besoins de santé de la population. Les CPTS sont constituées entre des professionnels de santé, le cas échéant de maisons de santé, de centres de santé, de réseaux de santé, d'établissements de santé, d'établissements et de services médico-sociaux, des groupements de coopération sanitaire, et des groupements de coopération sociale et médicosociale. Grâce à l'accord conventionnel interprofessionnel (ACI) intervenu en 2019, les CPTS dont le projet de santé est validé par l'ARS sont enregistrés dans FINESS et peuvent bénéficier de financement de l'assurance maladie  Ne sont enregistrés dans FINESS que l'Entité Juridique et le siège social. Les établissements et professionnels constitutif d'une CPTS ne sont pas enregistrés dans FINESS."
+* #113 "Communauté professionnelle territoriale de santé et équipe de soins spécialisés" "Les communautés professionnelles territoriales de santé (CPTS) ont été créées par la loi de modernisation de notre système de santé du 26 janvier 2016. Les équipes de soins spécialisés (ESS) ont été créées à la suite de la loi n°2019-774 du 24 juillet 2019 relative à l'organisation et à la transformation du système de santé. Les CPTS et les ESS ne sont pas des structures effectrices de soins mais des espaces d’organisation et de coordination entre professionnels de santé."
 * #113 ^designation[0].language = #fr-FR
 * #113 ^designation[=].use.system = "http://snomed.info/sct"
 * #113 ^designation[=].use = $sct#900000000000013009
-* #113 ^designation[=].value = "CPTS"
+* #113 ^designation[=].value = "CPTS et ESS"
 * #113 ^property[0].code = #dateValid
 * #113 ^property[=].valueDateTime = "2020-02-28T12:00:00+01:00"
 * #113 ^property[+].code = #dateMaj
-* #113 ^property[=].valueDateTime = "2020-02-28T12:00:00+01:00"
+* #113 ^property[=].valueDateTime = "2024-12-09T12:00:00+01:00"
 * #114 "Société de téléconsultation"
 * #114 ^property[0].code = #dateValid
 * #114 ^property[=].valueDateTime = "2024-06-28T12:00:00+01:00"
