@@ -11,10 +11,10 @@ Description: "Le niveau d'expertise atteste du niveau de ressources humaines et 
 * ^url = "https://mos.esante.gouv.fr/NOS/TRE_R344-NiveauExpertise/FHIR/TRE-R344-NiveauExpertise"
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value = "urn:oid:1.2.250.1.213.3.3.228"
-* ^version = "20240726120000"
+* ^version = "20241209120000"
 * ^status = #active
 * ^experimental = false
-* ^date = "2024-07-26T12:00:00+01:00"
+* ^date = "2024-12-09T12:00:00+01:00"
 * ^publisher = "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris"
 * ^caseSensitive = false
 * ^content = #complete
@@ -306,3 +306,35 @@ Description: "Le niveau d'expertise atteste du niveau de ressources humaines et 
 * #38 ^property[=].valueDateTime = "2024-07-26T12:00:00+01:00"
 * #38 ^property[+].code = #dateMaj
 * #38 ^property[=].valueDateTime = "2024-07-26T12:00:00+01:00"
+* #39 "Filière Obésité – Niveau 1 (Conventionné CSO)"
+* #39 ^designation[0].language = #fr-FR
+* #39 ^designation[=].use = $sct#900000000000013009
+* #39 ^designation[=].value = "Obésité niveau 1"
+* #39 ^property[0].code = #dateValid
+* #39 ^property[=].valueDateTime = "2024-12-09T12:00:00+01:00"
+* #39 ^property[+].code = #dateMaj
+* #39 ^property[=].valueDateTime = "2024-12-09T12:00:00+01:00"
+* #40 "Filière Obésité – Niveau 2 (Conventionné CSO)"
+* #40 ^designation[0].language = #fr-FR
+* #40 ^designation[=].use = $sct#900000000000013009
+* #40 ^designation[=].value = "Obésité niveau 2"
+* #40 ^property[0].code = #dateValid
+* #40 ^property[=].valueDateTime = "2024-12-09T12:00:00+01:00"
+* #40 ^property[+].code = #dateMaj
+* #40 ^property[=].valueDateTime = "2024-12-09T12:00:00+01:00"
+* #41 "Filière Obésité – Niveau 3 (Conventionné CSO)"
+* #41 ^designation[0].language = #fr-FR
+* #41 ^designation[=].use = $sct#900000000000013009
+* #41 ^designation[=].value = "Obésité niveau 3"
+* #41 ^property[0].code = #dateValid
+* #41 ^property[=].valueDateTime = "2024-12-09T12:00:00+01:00"
+* #41 ^property[+].code = #dateMaj
+* #41 ^property[=].valueDateTime = "2024-12-09T12:00:00+01:00"
+* #42 "Filière Obésité – Niveau 3 (Centre Spécialisé Obésité)"
+* #42 ^designation[0].language = #fr-FR
+* #42 ^designation[=].use = $sct#900000000000013009
+* #42 ^designation[=].value = "Obésité niveau 3 (CSO)"
+* #42 ^property[0].code = #dateValid
+* #42 ^property[=].valueDateTime = "2024-12-09T12:00:00+01:00"
+* #42 ^property[+].code = #dateMaj
+* #42 ^property[=].valueDateTime = "2024-12-09T12:00:00+01:00"
