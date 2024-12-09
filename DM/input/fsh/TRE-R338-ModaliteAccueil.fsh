@@ -11,10 +11,10 @@ Description: "Modalités d'accueil"
 * ^url = "https://mos.esante.gouv.fr/NOS/TRE_R338-ModaliteAccueil/FHIR/TRE-R338-ModaliteAccueil"
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value = "urn:oid:1.2.250.1.213.3.3.221"
-* ^version = "20231215120000"
+* ^version = "20241209120000"
 * ^status = #active
 * ^experimental = false
-* ^date = "2023-12-15T12:00:00+01:00"
+* ^date = "2024-12-09T12:00:00+01:00"
 * ^publisher = "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris"
 * ^caseSensitive = false
 * ^content = #complete
@@ -106,3 +106,16 @@ Description: "Modalités d'accueil"
 * #12 ^property[=].valueDateTime = "2023-02-17T12:00:00+01:00"
 * #12 ^property[+].code = #dateMaj
 * #12 ^property[=].valueDateTime = "2023-02-17T12:00:00+01:00"
+* #13 "Admission directe non programmée – personne âgée (PA)"
+* #13 ^designation.language = #fr-FR
+* #13 ^designation.use = $sct#900000000000013009
+* #13 ^designation.value = "Admission directe np – PA"
+* #13 ^property[0].code = #dateValid
+* #13 ^property[=].valueDateTime = "2024-12-09T12:00:00+01:00"
+* #13 ^property[+].code = #dateMaj
+* #13 ^property[=].valueDateTime = "2024-12-09T12:00:00+01:00"
+* #14 "Télésoin"
+* #14 ^property[0].code = #dateValid
+* #14 ^property[=].valueDateTime = "2024-12-09T12:00:00+01:00"
+* #14 ^property[+].code = #dateMaj
+* #14 ^property[=].valueDateTime = "2024-12-09T12:00:00+01:00"
