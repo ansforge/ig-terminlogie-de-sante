@@ -12555,3 +12555,8 @@ Description: "Action menée par un ou plusieurs acteur(s) de santé dans le cadr
 * #1491 ^property[=].valueDateTime = "2024-12-09T12:00:00+01:00"
 * #1491 ^property[+].code = #dateMaj
 * #1491 ^property[=].valueDateTime = "2024-12-09T12:00:00+01:00"
+* #1492 "Filière Obésité – Niveau 3 (Centre Spécialisé Obésité)"
+* #1492 ^property[0].code = #dateValid
+* #1492 ^property[=].valueDateTime = "2024-12-09T12:00:00+01:00"
+* #1492 ^property[+].code = #dateMaj
+* #1492 ^property[=].valueDateTime = "2024-12-09T12:00:00+01:00"
