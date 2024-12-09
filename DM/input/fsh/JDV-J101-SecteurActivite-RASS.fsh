@@ -11,10 +11,10 @@ Description: "Secteurs d'activité des établissements avec la même activité d
 * ^url = "https://mos.esante.gouv.fr/NOS/JDV_J101-SecteurActivite-RASS/FHIR/JDV-J101-SecteurActivite-RASS"
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value = "urn:oid:1.2.250.1.213.1.6.1.169"
-* ^version = "20240726120000"
+* ^version = "20241209120000"
 * ^status = #active
 * ^experimental = false
-* ^date = "2024-07-26T12:00:00+01:00"
+* ^date = "2024-12-09T12:00:00+01:00"
 * ^publisher = "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris"
 * $TRE-R02-SecteurActivite#SA01 "Etablissement public de santé"
 * $TRE-R02-SecteurActivite#SA02 "Hôpital militaire du Service de santé des armées"
@@ -77,7 +77,7 @@ Description: "Secteurs d'activité des établissements avec la même activité d
 * $TRE-R02-SecteurActivite#SA60 "Centres médicaux SNCF"
 * $TRE-R02-SecteurActivite#SA61 "Structure Dispensatrice à domicile d'Oxygène à usage médical"
 * $TRE-R02-SecteurActivite#SA62 "Ordre professionnel de santé"
-* $TRE-R02-SecteurActivite#SA63 "Communauté Professionnelle Territoriale de Santé"
+* $TRE-R02-SecteurActivite#SA63 "Communauté professionnelle territoriale de santé et équipe de soins spécialisés"
 * $TRE-R02-SecteurActivite#SA64 "Société de téléconsultation"
 * $TRE-R02-SecteurActivite#SA65 "Antenne de pharmacie"
 * $TRE-R02-SecteurActivite#SA68 "Services départementaux d'incendie et de secours"
