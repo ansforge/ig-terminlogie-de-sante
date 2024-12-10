@@ -1006,6 +1006,8 @@ Description: "Ensemble Savoir-faire CI-SIS (TRE provisoire)"
 * #SCH01 ^designation[=].value = "Anatomie, Cytologie pathologiq"
 * #SCH01 ^property[0].code = #dateValid
 * #SCH01 ^property[=].valueDateTime = "2012-04-12T00:00:00+01:00"
+* #SCH01 ^property[+].code = #dateFin
+* #SCH01 ^property[=].valueDateTime = "2024-12-10T12:00:00+01:00"
 * #SCH01 ^property[+].code = #dateMaj
 * #SCH01 ^property[=].valueDateTime = "2016-09-01T00:00:00+01:00"
 * #SCH02 "Anesthésie-réanimation (SCH)"
@@ -1015,6 +1017,8 @@ Description: "Ensemble Savoir-faire CI-SIS (TRE provisoire)"
 * #SCH02 ^designation[=].value = "Anesthésie-réanimation"
 * #SCH02 ^property[0].code = #dateValid
 * #SCH02 ^property[=].valueDateTime = "2012-04-12T00:00:00+01:00"
+* #SCH02 ^property[+].code = #dateFin
+* #SCH02 ^property[=].valueDateTime = "2024-12-10T12:00:00+01:00"
 * #SCH02 ^property[+].code = #dateMaj
 * #SCH02 ^property[=].valueDateTime = "2016-09-01T00:00:00+01:00"
 * #SCH03 "Bactériologie-virologie, Hygiène hospitalière (SCH)"
@@ -1024,6 +1028,8 @@ Description: "Ensemble Savoir-faire CI-SIS (TRE provisoire)"
 * #SCH03 ^designation[=].value = "Bactériologie-virol, Hyg hosp"
 * #SCH03 ^property[0].code = #dateValid
 * #SCH03 ^property[=].valueDateTime = "2012-04-12T00:00:00+01:00"
+* #SCH03 ^property[+].code = #dateFin
+* #SCH03 ^property[=].valueDateTime = "2024-12-10T12:00:00+01:00"
 * #SCH03 ^property[+].code = #dateMaj
 * #SCH03 ^property[=].valueDateTime = "2016-09-01T00:00:00+01:00"
 * #SCH04 "Biochimie (SCH)"
@@ -1033,6 +1039,8 @@ Description: "Ensemble Savoir-faire CI-SIS (TRE provisoire)"
 * #SCH04 ^designation[=].value = "Biochimie"
 * #SCH04 ^property[0].code = #dateValid
 * #SCH04 ^property[=].valueDateTime = "2012-04-12T00:00:00+01:00"
+* #SCH04 ^property[+].code = #dateFin
+* #SCH04 ^property[=].valueDateTime = "2024-12-10T12:00:00+01:00"
 * #SCH04 ^property[+].code = #dateMaj
 * #SCH04 ^property[=].valueDateTime = "2016-09-01T00:00:00+01:00"
 * #SCH05 "Biologie cellulaire, histologie, Biologie du développement (SCH)"
@@ -1042,6 +1050,8 @@ Description: "Ensemble Savoir-faire CI-SIS (TRE provisoire)"
 * #SCH05 ^designation[=].value = "Bio cell, histo, Bio dévt"
 * #SCH05 ^property[0].code = #dateValid
 * #SCH05 ^property[=].valueDateTime = "2012-04-12T00:00:00+01:00"
+* #SCH05 ^property[+].code = #dateFin
+* #SCH05 ^property[=].valueDateTime = "2024-12-10T12:00:00+01:00"
 * #SCH05 ^property[+].code = #dateMaj
 * #SCH05 ^property[=].valueDateTime = "2016-09-01T00:00:00+01:00"
 * #SCH06 "Biologie médicale (SCH)"
@@ -1051,6 +1061,8 @@ Description: "Ensemble Savoir-faire CI-SIS (TRE provisoire)"
 * #SCH06 ^designation[=].value = "Biologie médicale"
 * #SCH06 ^property[0].code = #dateValid
 * #SCH06 ^property[=].valueDateTime = "2012-04-12T00:00:00+01:00"
+* #SCH06 ^property[+].code = #dateFin
+* #SCH06 ^property[=].valueDateTime = "2024-12-10T12:00:00+01:00"
 * #SCH06 ^property[+].code = #dateMaj
 * #SCH06 ^property[=].valueDateTime = "2016-09-01T00:00:00+01:00"
 * #SCH07 "Biophysique (SCH)"
@@ -1060,6 +1072,8 @@ Description: "Ensemble Savoir-faire CI-SIS (TRE provisoire)"
 * #SCH07 ^designation[=].value = "Biophysique"
 * #SCH07 ^property[0].code = #dateValid
 * #SCH07 ^property[=].valueDateTime = "2012-04-12T00:00:00+01:00"
+* #SCH07 ^property[+].code = #dateFin
+* #SCH07 ^property[=].valueDateTime = "2024-12-10T12:00:00+01:00"
 * #SCH07 ^property[+].code = #dateMaj
 * #SCH07 ^property[=].valueDateTime = "2016-09-01T00:00:00+01:00"
 * #SCH08 "Oncologie médicale (SCH)"
@@ -1069,6 +1083,8 @@ Description: "Ensemble Savoir-faire CI-SIS (TRE provisoire)"
 * #SCH08 ^designation[=].value = "Oncologie médicale"
 * #SCH08 ^property[0].code = #dateValid
 * #SCH08 ^property[=].valueDateTime = "2012-04-12T00:00:00+01:00"
+* #SCH08 ^property[+].code = #dateFin
+* #SCH08 ^property[=].valueDateTime = "2024-12-10T12:00:00+01:00"
 * #SCH08 ^property[+].code = #dateMaj
 * #SCH08 ^property[=].valueDateTime = "2016-09-01T00:00:00+01:00"
 * #SCH09 "Cardiologie et Maladies vasculaires (SCH)"
@@ -1078,6 +1094,8 @@ Description: "Ensemble Savoir-faire CI-SIS (TRE provisoire)"
 * #SCH09 ^designation[=].value = "Cardio, Maladies vasculaires"
 * #SCH09 ^property[0].code = #dateValid
 * #SCH09 ^property[=].valueDateTime = "2012-04-12T00:00:00+01:00"
+* #SCH09 ^property[+].code = #dateFin
+* #SCH09 ^property[=].valueDateTime = "2024-12-10T12:00:00+01:00"
 * #SCH09 ^property[+].code = #dateMaj
 * #SCH09 ^property[=].valueDateTime = "2016-09-01T00:00:00+01:00"
 * #SCH10 "Chirurgie générale (SCH)"
@@ -1087,6 +1105,8 @@ Description: "Ensemble Savoir-faire CI-SIS (TRE provisoire)"
 * #SCH10 ^designation[=].value = "Chirurgie générale"
 * #SCH10 ^property[0].code = #dateValid
 * #SCH10 ^property[=].valueDateTime = "2012-04-12T00:00:00+01:00"
+* #SCH10 ^property[+].code = #dateFin
+* #SCH10 ^property[=].valueDateTime = "2024-12-10T12:00:00+01:00"
 * #SCH10 ^property[+].code = #dateMaj
 * #SCH10 ^property[=].valueDateTime = "2016-09-01T00:00:00+01:00"
 * #SCH11 "Chirurgie viscérale et digestive (SCH)"
@@ -1096,6 +1116,8 @@ Description: "Ensemble Savoir-faire CI-SIS (TRE provisoire)"
 * #SCH11 ^designation[=].value = "Chir viscérale et digestive"
 * #SCH11 ^property[0].code = #dateValid
 * #SCH11 ^property[=].valueDateTime = "2012-04-12T00:00:00+01:00"
+* #SCH11 ^property[+].code = #dateFin
+* #SCH11 ^property[=].valueDateTime = "2024-12-10T12:00:00+01:00"
 * #SCH11 ^property[+].code = #dateMaj
 * #SCH11 ^property[=].valueDateTime = "2016-09-01T00:00:00+01:00"
 * #SCH12 "Chirurgie infantile (SCH)"
@@ -1105,6 +1127,8 @@ Description: "Ensemble Savoir-faire CI-SIS (TRE provisoire)"
 * #SCH12 ^designation[=].value = "Chirurgie infantile"
 * #SCH12 ^property[0].code = #dateValid
 * #SCH12 ^property[=].valueDateTime = "2012-04-12T00:00:00+01:00"
+* #SCH12 ^property[+].code = #dateFin
+* #SCH12 ^property[=].valueDateTime = "2024-12-10T12:00:00+01:00"
 * #SCH12 ^property[+].code = #dateMaj
 * #SCH12 ^property[=].valueDateTime = "2016-09-01T00:00:00+01:00"
 * #SCH13 "Chirurgie maxillo-faciale (SCH)"
@@ -1114,6 +1138,8 @@ Description: "Ensemble Savoir-faire CI-SIS (TRE provisoire)"
 * #SCH13 ^designation[=].value = "Chirurgie maxillo-faciale"
 * #SCH13 ^property[0].code = #dateValid
 * #SCH13 ^property[=].valueDateTime = "2012-04-12T00:00:00+01:00"
+* #SCH13 ^property[+].code = #dateFin
+* #SCH13 ^property[=].valueDateTime = "2024-12-10T12:00:00+01:00"
 * #SCH13 ^property[+].code = #dateMaj
 * #SCH13 ^property[=].valueDateTime = "2016-09-01T00:00:00+01:00"
 * #SCH14 "Chirurgie orthopédique et Traumatologique (SCH)"
@@ -1123,6 +1149,8 @@ Description: "Ensemble Savoir-faire CI-SIS (TRE provisoire)"
 * #SCH14 ^designation[=].value = "Chir orthopédique, Trauma"
 * #SCH14 ^property[0].code = #dateValid
 * #SCH14 ^property[=].valueDateTime = "2012-04-12T00:00:00+01:00"
+* #SCH14 ^property[+].code = #dateFin
+* #SCH14 ^property[=].valueDateTime = "2024-12-10T12:00:00+01:00"
 * #SCH14 ^property[+].code = #dateMaj
 * #SCH14 ^property[=].valueDateTime = "2016-09-01T00:00:00+01:00"
 * #SCH15 "Chirurgie plastique reconstructrice et esthétique (SCH)"
@@ -1132,6 +1160,8 @@ Description: "Ensemble Savoir-faire CI-SIS (TRE provisoire)"
 * #SCH15 ^designation[=].value = "Chir plast reconstr, esthétiq"
 * #SCH15 ^property[0].code = #dateValid
 * #SCH15 ^property[=].valueDateTime = "2012-04-12T00:00:00+01:00"
+* #SCH15 ^property[+].code = #dateFin
+* #SCH15 ^property[=].valueDateTime = "2024-12-10T12:00:00+01:00"
 * #SCH15 ^property[+].code = #dateMaj
 * #SCH15 ^property[=].valueDateTime = "2016-09-01T00:00:00+01:00"
 * #SCH16 "Chirurgie thoracique et cardio-vasculaire (SCH)"
@@ -1141,6 +1171,8 @@ Description: "Ensemble Savoir-faire CI-SIS (TRE provisoire)"
 * #SCH16 ^designation[=].value = "Chir thoraciq, cardio-vascul"
 * #SCH16 ^property[0].code = #dateValid
 * #SCH16 ^property[=].valueDateTime = "2012-04-12T00:00:00+01:00"
+* #SCH16 ^property[+].code = #dateFin
+* #SCH16 ^property[=].valueDateTime = "2024-12-10T12:00:00+01:00"
 * #SCH16 ^property[+].code = #dateMaj
 * #SCH16 ^property[=].valueDateTime = "2016-09-01T00:00:00+01:00"
 * #SCH17 "Chirurgie urologique (SCH)"
@@ -1150,6 +1182,8 @@ Description: "Ensemble Savoir-faire CI-SIS (TRE provisoire)"
 * #SCH17 ^designation[=].value = "Chirurgie urologique"
 * #SCH17 ^property[0].code = #dateValid
 * #SCH17 ^property[=].valueDateTime = "2012-04-12T00:00:00+01:00"
+* #SCH17 ^property[+].code = #dateFin
+* #SCH17 ^property[=].valueDateTime = "2024-12-10T12:00:00+01:00"
 * #SCH17 ^property[+].code = #dateMaj
 * #SCH17 ^property[=].valueDateTime = "2016-09-01T00:00:00+01:00"
 * #SCH18 "Chirurgie vasculaire (SCH)"
@@ -1159,6 +1193,8 @@ Description: "Ensemble Savoir-faire CI-SIS (TRE provisoire)"
 * #SCH18 ^designation[=].value = "Chirurgie vasculaire"
 * #SCH18 ^property[0].code = #dateValid
 * #SCH18 ^property[=].valueDateTime = "2012-04-12T00:00:00+01:00"
+* #SCH18 ^property[+].code = #dateFin
+* #SCH18 ^property[=].valueDateTime = "2024-12-10T12:00:00+01:00"
 * #SCH18 ^property[+].code = #dateMaj
 * #SCH18 ^property[=].valueDateTime = "2016-09-01T00:00:00+01:00"
 * #SCH19 "Dermatologie et Vénéréologie (SCH)"
@@ -1168,6 +1204,8 @@ Description: "Ensemble Savoir-faire CI-SIS (TRE provisoire)"
 * #SCH19 ^designation[=].value = "Dermatologie, Vénéréologie"
 * #SCH19 ^property[0].code = #dateValid
 * #SCH19 ^property[=].valueDateTime = "2012-04-12T00:00:00+01:00"
+* #SCH19 ^property[+].code = #dateFin
+* #SCH19 ^property[=].valueDateTime = "2024-12-10T12:00:00+01:00"
 * #SCH19 ^property[+].code = #dateMaj
 * #SCH19 ^property[=].valueDateTime = "2016-09-01T00:00:00+01:00"
 * #SCH20 "Endocrinologie et Métabolisme (SCH)"
@@ -1177,6 +1215,8 @@ Description: "Ensemble Savoir-faire CI-SIS (TRE provisoire)"
 * #SCH20 ^designation[=].value = "Endocrino, Métabolisme"
 * #SCH20 ^property[0].code = #dateValid
 * #SCH20 ^property[=].valueDateTime = "2012-04-12T00:00:00+01:00"
+* #SCH20 ^property[+].code = #dateFin
+* #SCH20 ^property[=].valueDateTime = "2024-12-10T12:00:00+01:00"
 * #SCH20 ^property[+].code = #dateMaj
 * #SCH20 ^property[=].valueDateTime = "2016-09-01T00:00:00+01:00"
 * #SCH21 "Santé publique (SCH)"
@@ -1186,6 +1226,8 @@ Description: "Ensemble Savoir-faire CI-SIS (TRE provisoire)"
 * #SCH21 ^designation[=].value = "Santé publique"
 * #SCH21 ^property[0].code = #dateValid
 * #SCH21 ^property[=].valueDateTime = "2012-04-12T00:00:00+01:00"
+* #SCH21 ^property[+].code = #dateFin
+* #SCH21 ^property[=].valueDateTime = "2024-12-10T12:00:00+01:00"
 * #SCH21 ^property[+].code = #dateMaj
 * #SCH21 ^property[=].valueDateTime = "2016-09-01T00:00:00+01:00"
 * #SCH22 "Explorations fonctionnelles (SCH)"
@@ -1195,6 +1237,8 @@ Description: "Ensemble Savoir-faire CI-SIS (TRE provisoire)"
 * #SCH22 ^designation[=].value = "Explorations fonctionnelles"
 * #SCH22 ^property[0].code = #dateValid
 * #SCH22 ^property[=].valueDateTime = "2012-04-12T00:00:00+01:00"
+* #SCH22 ^property[+].code = #dateFin
+* #SCH22 ^property[=].valueDateTime = "2024-12-10T12:00:00+01:00"
 * #SCH22 ^property[+].code = #dateMaj
 * #SCH22 ^property[=].valueDateTime = "2016-09-01T00:00:00+01:00"
 * #SCH23 "Gastro-entérologie et Hépatologie (SCH)"
@@ -1204,6 +1248,8 @@ Description: "Ensemble Savoir-faire CI-SIS (TRE provisoire)"
 * #SCH23 ^designation[=].value = "Gastro-entéro, Hépatologie"
 * #SCH23 ^property[0].code = #dateValid
 * #SCH23 ^property[=].valueDateTime = "2012-04-12T00:00:00+01:00"
+* #SCH23 ^property[+].code = #dateFin
+* #SCH23 ^property[=].valueDateTime = "2024-12-10T12:00:00+01:00"
 * #SCH23 ^property[+].code = #dateMaj
 * #SCH23 ^property[=].valueDateTime = "2016-09-01T00:00:00+01:00"
 * #SCH24 "Génétique (SCH)"
@@ -1213,6 +1259,8 @@ Description: "Ensemble Savoir-faire CI-SIS (TRE provisoire)"
 * #SCH24 ^designation[=].value = "Génétique"
 * #SCH24 ^property[0].code = #dateValid
 * #SCH24 ^property[=].valueDateTime = "2012-04-12T00:00:00+01:00"
+* #SCH24 ^property[+].code = #dateFin
+* #SCH24 ^property[=].valueDateTime = "2024-12-10T12:00:00+01:00"
 * #SCH24 ^property[+].code = #dateMaj
 * #SCH24 ^property[=].valueDateTime = "2016-09-01T00:00:00+01:00"
 * #SCH25 "Génétique médicale (SCH)"
@@ -1222,6 +1270,8 @@ Description: "Ensemble Savoir-faire CI-SIS (TRE provisoire)"
 * #SCH25 ^designation[=].value = "Génétique médicale"
 * #SCH25 ^property[0].code = #dateValid
 * #SCH25 ^property[=].valueDateTime = "2012-04-12T00:00:00+01:00"
+* #SCH25 ^property[+].code = #dateFin
+* #SCH25 ^property[=].valueDateTime = "2024-12-10T12:00:00+01:00"
 * #SCH25 ^property[+].code = #dateMaj
 * #SCH25 ^property[=].valueDateTime = "2016-09-01T00:00:00+01:00"
 * #SCH26 "Gynécologie et Obstétrique (SCH)"
@@ -1231,6 +1281,8 @@ Description: "Ensemble Savoir-faire CI-SIS (TRE provisoire)"
 * #SCH26 ^designation[=].value = "Gynécologie, Obstétrique"
 * #SCH26 ^property[0].code = #dateValid
 * #SCH26 ^property[=].valueDateTime = "2012-04-12T00:00:00+01:00"
+* #SCH26 ^property[+].code = #dateFin
+* #SCH26 ^property[=].valueDateTime = "2024-12-10T12:00:00+01:00"
 * #SCH26 ^property[+].code = #dateMaj
 * #SCH26 ^property[=].valueDateTime = "2016-09-01T00:00:00+01:00"
 * #SCH27 "Hématologie biologique (SCH)"
@@ -1240,6 +1292,8 @@ Description: "Ensemble Savoir-faire CI-SIS (TRE provisoire)"
 * #SCH27 ^designation[=].value = "Hématologie biologique"
 * #SCH27 ^property[0].code = #dateValid
 * #SCH27 ^property[=].valueDateTime = "2012-04-12T00:00:00+01:00"
+* #SCH27 ^property[+].code = #dateFin
+* #SCH27 ^property[=].valueDateTime = "2024-12-10T12:00:00+01:00"
 * #SCH27 ^property[+].code = #dateMaj
 * #SCH27 ^property[=].valueDateTime = "2016-09-01T00:00:00+01:00"
 * #SCH28 "Hématologie clinique (SCH)"
@@ -1249,6 +1303,8 @@ Description: "Ensemble Savoir-faire CI-SIS (TRE provisoire)"
 * #SCH28 ^designation[=].value = "Hématologie clinique"
 * #SCH28 ^property[0].code = #dateValid
 * #SCH28 ^property[=].valueDateTime = "2012-04-12T00:00:00+01:00"
+* #SCH28 ^property[+].code = #dateFin
+* #SCH28 ^property[=].valueDateTime = "2024-12-10T12:00:00+01:00"
 * #SCH28 ^property[+].code = #dateMaj
 * #SCH28 ^property[=].valueDateTime = "2016-09-01T00:00:00+01:00"
 * #SCH29 "Hémobiologie-transfusion (SCH)"
@@ -1258,6 +1314,8 @@ Description: "Ensemble Savoir-faire CI-SIS (TRE provisoire)"
 * #SCH29 ^designation[=].value = "Hémobiologie-transfusion"
 * #SCH29 ^property[0].code = #dateValid
 * #SCH29 ^property[=].valueDateTime = "2012-04-12T00:00:00+01:00"
+* #SCH29 ^property[+].code = #dateFin
+* #SCH29 ^property[=].valueDateTime = "2024-12-10T12:00:00+01:00"
 * #SCH29 ^property[+].code = #dateMaj
 * #SCH29 ^property[=].valueDateTime = "2016-09-01T00:00:00+01:00"
 * #SCH30 "Hygiène hospitalière (SCH)"
@@ -1267,6 +1325,8 @@ Description: "Ensemble Savoir-faire CI-SIS (TRE provisoire)"
 * #SCH30 ^designation[=].value = "Hygiène hospitalière"
 * #SCH30 ^property[0].code = #dateValid
 * #SCH30 ^property[=].valueDateTime = "2012-04-12T00:00:00+01:00"
+* #SCH30 ^property[+].code = #dateFin
+* #SCH30 ^property[=].valueDateTime = "2024-12-10T12:00:00+01:00"
 * #SCH30 ^property[+].code = #dateMaj
 * #SCH30 ^property[=].valueDateTime = "2016-09-01T00:00:00+01:00"
 * #SCH31 "Immunologie biologique (SCH)"
@@ -1276,6 +1336,8 @@ Description: "Ensemble Savoir-faire CI-SIS (TRE provisoire)"
 * #SCH31 ^designation[=].value = "Immunologie biologique"
 * #SCH31 ^property[0].code = #dateValid
 * #SCH31 ^property[=].valueDateTime = "2012-04-12T00:00:00+01:00"
+* #SCH31 ^property[+].code = #dateFin
+* #SCH31 ^property[=].valueDateTime = "2024-12-10T12:00:00+01:00"
 * #SCH31 ^property[+].code = #dateMaj
 * #SCH31 ^property[=].valueDateTime = "2016-09-01T00:00:00+01:00"
 * #SCH32 "Immunologie clinique (SCH)"
@@ -1285,6 +1347,8 @@ Description: "Ensemble Savoir-faire CI-SIS (TRE provisoire)"
 * #SCH32 ^designation[=].value = "Immunologie clinique"
 * #SCH32 ^property[0].code = #dateValid
 * #SCH32 ^property[=].valueDateTime = "2012-04-12T00:00:00+01:00"
+* #SCH32 ^property[+].code = #dateFin
+* #SCH32 ^property[=].valueDateTime = "2024-12-10T12:00:00+01:00"
 * #SCH32 ^property[+].code = #dateMaj
 * #SCH32 ^property[=].valueDateTime = "2016-09-01T00:00:00+01:00"
 * #SCH33 "Maladies infectieuses, maladies tropicales (SCH)"
@@ -1294,6 +1358,8 @@ Description: "Ensemble Savoir-faire CI-SIS (TRE provisoire)"
 * #SCH33 ^designation[=].value = "Maladies infect, tropicales"
 * #SCH33 ^property[0].code = #dateValid
 * #SCH33 ^property[=].valueDateTime = "2012-04-12T00:00:00+01:00"
+* #SCH33 ^property[+].code = #dateFin
+* #SCH33 ^property[=].valueDateTime = "2024-12-10T12:00:00+01:00"
 * #SCH33 ^property[+].code = #dateMaj
 * #SCH33 ^property[=].valueDateTime = "2016-09-01T00:00:00+01:00"
 * #SCH34 "Médecine de la reproduction et Gynécologie médicale (SCH)"
@@ -1303,6 +1369,8 @@ Description: "Ensemble Savoir-faire CI-SIS (TRE provisoire)"
 * #SCH34 ^designation[=].value = "Médecine reproduction, Gyn-méd"
 * #SCH34 ^property[0].code = #dateValid
 * #SCH34 ^property[=].valueDateTime = "2012-04-12T00:00:00+01:00"
+* #SCH34 ^property[+].code = #dateFin
+* #SCH34 ^property[=].valueDateTime = "2024-12-10T12:00:00+01:00"
 * #SCH34 ^property[+].code = #dateMaj
 * #SCH34 ^property[=].valueDateTime = "2016-09-01T00:00:00+01:00"
 * #SCH35 "Médecine du travail (SCH)"
@@ -1312,6 +1380,8 @@ Description: "Ensemble Savoir-faire CI-SIS (TRE provisoire)"
 * #SCH35 ^designation[=].value = "Médecine du travail"
 * #SCH35 ^property[0].code = #dateValid
 * #SCH35 ^property[=].valueDateTime = "2012-04-12T00:00:00+01:00"
+* #SCH35 ^property[+].code = #dateFin
+* #SCH35 ^property[=].valueDateTime = "2024-12-10T12:00:00+01:00"
 * #SCH35 ^property[+].code = #dateMaj
 * #SCH35 ^property[=].valueDateTime = "2016-09-01T00:00:00+01:00"
 * #SCH36 "Médecine d'urgence (SCH)"
@@ -1321,6 +1391,8 @@ Description: "Ensemble Savoir-faire CI-SIS (TRE provisoire)"
 * #SCH36 ^designation[=].value = "Médecine d'urgence"
 * #SCH36 ^property[0].code = #dateValid
 * #SCH36 ^property[=].valueDateTime = "2012-04-12T00:00:00+01:00"
+* #SCH36 ^property[+].code = #dateFin
+* #SCH36 ^property[=].valueDateTime = "2024-12-10T12:00:00+01:00"
 * #SCH36 ^property[+].code = #dateMaj
 * #SCH36 ^property[=].valueDateTime = "2016-09-01T00:00:00+01:00"
 * #SCH37 "Médecine générale (SCH)"
@@ -1330,6 +1402,8 @@ Description: "Ensemble Savoir-faire CI-SIS (TRE provisoire)"
 * #SCH37 ^designation[=].value = "Médecine générale"
 * #SCH37 ^property[0].code = #dateValid
 * #SCH37 ^property[=].valueDateTime = "2012-04-12T00:00:00+01:00"
+* #SCH37 ^property[+].code = #dateFin
+* #SCH37 ^property[=].valueDateTime = "2024-12-10T12:00:00+01:00"
 * #SCH37 ^property[+].code = #dateMaj
 * #SCH37 ^property[=].valueDateTime = "2016-09-01T00:00:00+01:00"
 * #SCH38 "Gériatrie (SCH)"
@@ -1339,6 +1413,8 @@ Description: "Ensemble Savoir-faire CI-SIS (TRE provisoire)"
 * #SCH38 ^designation[=].value = "Gériatrie"
 * #SCH38 ^property[0].code = #dateValid
 * #SCH38 ^property[=].valueDateTime = "2012-04-12T00:00:00+01:00"
+* #SCH38 ^property[+].code = #dateFin
+* #SCH38 ^property[=].valueDateTime = "2024-12-10T12:00:00+01:00"
 * #SCH38 ^property[+].code = #dateMaj
 * #SCH38 ^property[=].valueDateTime = "2016-09-01T00:00:00+01:00"
 * #SCH39 "Médecine interne (SCH)"
@@ -1348,6 +1424,8 @@ Description: "Ensemble Savoir-faire CI-SIS (TRE provisoire)"
 * #SCH39 ^designation[=].value = "Médecine interne"
 * #SCH39 ^property[0].code = #dateValid
 * #SCH39 ^property[=].valueDateTime = "2012-04-12T00:00:00+01:00"
+* #SCH39 ^property[+].code = #dateFin
+* #SCH39 ^property[=].valueDateTime = "2024-12-10T12:00:00+01:00"
 * #SCH39 ^property[+].code = #dateMaj
 * #SCH39 ^property[=].valueDateTime = "2016-09-01T00:00:00+01:00"
 * #SCH40 "Médecine légale (SCH)"
@@ -1357,6 +1435,8 @@ Description: "Ensemble Savoir-faire CI-SIS (TRE provisoire)"
 * #SCH40 ^designation[=].value = "Médecine légale"
 * #SCH40 ^property[0].code = #dateValid
 * #SCH40 ^property[=].valueDateTime = "2012-04-12T00:00:00+01:00"
+* #SCH40 ^property[+].code = #dateFin
+* #SCH40 ^property[=].valueDateTime = "2024-12-10T12:00:00+01:00"
 * #SCH40 ^property[+].code = #dateMaj
 * #SCH40 ^property[=].valueDateTime = "2016-09-01T00:00:00+01:00"
 * #SCH41 "Médecine nucléaire (SCH)"
@@ -1366,6 +1446,8 @@ Description: "Ensemble Savoir-faire CI-SIS (TRE provisoire)"
 * #SCH41 ^designation[=].value = "Médecine nucléaire"
 * #SCH41 ^property[0].code = #dateValid
 * #SCH41 ^property[=].valueDateTime = "2012-04-12T00:00:00+01:00"
+* #SCH41 ^property[+].code = #dateFin
+* #SCH41 ^property[=].valueDateTime = "2024-12-10T12:00:00+01:00"
 * #SCH41 ^property[+].code = #dateMaj
 * #SCH41 ^property[=].valueDateTime = "2016-09-01T00:00:00+01:00"
 * #SCH42 "Médecine physique et de réadaptation (SCH)"
@@ -1375,6 +1457,8 @@ Description: "Ensemble Savoir-faire CI-SIS (TRE provisoire)"
 * #SCH42 ^designation[=].value = "Médecine physique, réadapt"
 * #SCH42 ^property[0].code = #dateValid
 * #SCH42 ^property[=].valueDateTime = "2012-04-12T00:00:00+01:00"
+* #SCH42 ^property[+].code = #dateFin
+* #SCH42 ^property[=].valueDateTime = "2024-12-10T12:00:00+01:00"
 * #SCH42 ^property[+].code = #dateMaj
 * #SCH42 ^property[=].valueDateTime = "2016-09-01T00:00:00+01:00"
 * #SCH43 "Néphrologie (SCH)"
@@ -1384,6 +1468,8 @@ Description: "Ensemble Savoir-faire CI-SIS (TRE provisoire)"
 * #SCH43 ^designation[=].value = "Néphrologie"
 * #SCH43 ^property[0].code = #dateValid
 * #SCH43 ^property[=].valueDateTime = "2012-04-12T00:00:00+01:00"
+* #SCH43 ^property[+].code = #dateFin
+* #SCH43 ^property[=].valueDateTime = "2024-12-10T12:00:00+01:00"
 * #SCH43 ^property[+].code = #dateMaj
 * #SCH43 ^property[=].valueDateTime = "2016-09-01T00:00:00+01:00"
 * #SCH44 "Neuro-chirurgie (SCH)"
@@ -1393,6 +1479,8 @@ Description: "Ensemble Savoir-faire CI-SIS (TRE provisoire)"
 * #SCH44 ^designation[=].value = "Neuro-chirurgie"
 * #SCH44 ^property[0].code = #dateValid
 * #SCH44 ^property[=].valueDateTime = "2012-04-12T00:00:00+01:00"
+* #SCH44 ^property[+].code = #dateFin
+* #SCH44 ^property[=].valueDateTime = "2024-12-10T12:00:00+01:00"
 * #SCH44 ^property[+].code = #dateMaj
 * #SCH44 ^property[=].valueDateTime = "2016-09-01T00:00:00+01:00"
 * #SCH45 "Neurologie (SCH)"
@@ -1402,6 +1490,8 @@ Description: "Ensemble Savoir-faire CI-SIS (TRE provisoire)"
 * #SCH45 ^designation[=].value = "Neurologie"
 * #SCH45 ^property[0].code = #dateValid
 * #SCH45 ^property[=].valueDateTime = "2012-04-12T00:00:00+01:00"
+* #SCH45 ^property[+].code = #dateFin
+* #SCH45 ^property[=].valueDateTime = "2024-12-10T12:00:00+01:00"
 * #SCH45 ^property[+].code = #dateMaj
 * #SCH45 ^property[=].valueDateTime = "2016-09-01T00:00:00+01:00"
 * #SCH46 "Odontologie polyvalente (SCH)"
@@ -1411,6 +1501,8 @@ Description: "Ensemble Savoir-faire CI-SIS (TRE provisoire)"
 * #SCH46 ^designation[=].value = "Odontologie polyvalente"
 * #SCH46 ^property[0].code = #dateValid
 * #SCH46 ^property[=].valueDateTime = "2012-04-12T00:00:00+01:00"
+* #SCH46 ^property[+].code = #dateFin
+* #SCH46 ^property[=].valueDateTime = "2024-12-10T12:00:00+01:00"
 * #SCH46 ^property[+].code = #dateMaj
 * #SCH46 ^property[=].valueDateTime = "2016-09-01T00:00:00+01:00"
 * #SCH47 "Ophtalmologie (SCH)"
@@ -1420,6 +1512,8 @@ Description: "Ensemble Savoir-faire CI-SIS (TRE provisoire)"
 * #SCH47 ^designation[=].value = "Ophtalmologie"
 * #SCH47 ^property[0].code = #dateValid
 * #SCH47 ^property[=].valueDateTime = "2012-04-12T00:00:00+01:00"
+* #SCH47 ^property[+].code = #dateFin
+* #SCH47 ^property[=].valueDateTime = "2024-12-10T12:00:00+01:00"
 * #SCH47 ^property[+].code = #dateMaj
 * #SCH47 ^property[=].valueDateTime = "2016-09-01T00:00:00+01:00"
 * #SCH48 "Oto-rhino-laryngologie (SCH)"
@@ -1429,6 +1523,8 @@ Description: "Ensemble Savoir-faire CI-SIS (TRE provisoire)"
 * #SCH48 ^designation[=].value = "ORL"
 * #SCH48 ^property[0].code = #dateValid
 * #SCH48 ^property[=].valueDateTime = "2012-04-12T00:00:00+01:00"
+* #SCH48 ^property[+].code = #dateFin
+* #SCH48 ^property[=].valueDateTime = "2024-12-10T12:00:00+01:00"
 * #SCH48 ^property[+].code = #dateMaj
 * #SCH48 ^property[=].valueDateTime = "2016-09-01T00:00:00+01:00"
 * #SCH49 "Parasitologie (SCH)"
@@ -1438,6 +1534,8 @@ Description: "Ensemble Savoir-faire CI-SIS (TRE provisoire)"
 * #SCH49 ^designation[=].value = "Parasitologie"
 * #SCH49 ^property[0].code = #dateValid
 * #SCH49 ^property[=].valueDateTime = "2012-04-12T00:00:00+01:00"
+* #SCH49 ^property[+].code = #dateFin
+* #SCH49 ^property[=].valueDateTime = "2024-12-10T12:00:00+01:00"
 * #SCH49 ^property[+].code = #dateMaj
 * #SCH49 ^property[=].valueDateTime = "2016-09-01T00:00:00+01:00"
 * #SCH50 "Pédiatrie (SCH)"
@@ -1447,6 +1545,8 @@ Description: "Ensemble Savoir-faire CI-SIS (TRE provisoire)"
 * #SCH50 ^designation[=].value = "Pédiatrie"
 * #SCH50 ^property[0].code = #dateValid
 * #SCH50 ^property[=].valueDateTime = "2012-04-12T00:00:00+01:00"
+* #SCH50 ^property[+].code = #dateFin
+* #SCH50 ^property[=].valueDateTime = "2024-12-10T12:00:00+01:00"
 * #SCH50 ^property[+].code = #dateMaj
 * #SCH50 ^property[=].valueDateTime = "2016-09-01T00:00:00+01:00"
 * #SCH51 "Pharmacie polyvalente et Pharmacie hospitalière (SCH)"
@@ -1456,6 +1556,8 @@ Description: "Ensemble Savoir-faire CI-SIS (TRE provisoire)"
 * #SCH51 ^designation[=].value = "Pharmacie poly, Pharmacie hosp"
 * #SCH51 ^property[0].code = #dateValid
 * #SCH51 ^property[=].valueDateTime = "2012-04-12T00:00:00+01:00"
+* #SCH51 ^property[+].code = #dateFin
+* #SCH51 ^property[=].valueDateTime = "2024-12-10T12:00:00+01:00"
 * #SCH51 ^property[+].code = #dateMaj
 * #SCH51 ^property[=].valueDateTime = "2016-09-01T00:00:00+01:00"
 * #SCH52 "Pharmacologie clinique et Toxicologie (SCH)"
@@ -1465,6 +1567,8 @@ Description: "Ensemble Savoir-faire CI-SIS (TRE provisoire)"
 * #SCH52 ^designation[=].value = "Pharmacol cliniq, Toxicologie"
 * #SCH52 ^property[0].code = #dateValid
 * #SCH52 ^property[=].valueDateTime = "2012-04-12T00:00:00+01:00"
+* #SCH52 ^property[+].code = #dateFin
+* #SCH52 ^property[=].valueDateTime = "2024-12-10T12:00:00+01:00"
 * #SCH52 ^property[+].code = #dateMaj
 * #SCH52 ^property[=].valueDateTime = "2016-09-01T00:00:00+01:00"
 * #SCH53 "Pneumologie (SCH)"
@@ -1474,6 +1578,8 @@ Description: "Ensemble Savoir-faire CI-SIS (TRE provisoire)"
 * #SCH53 ^designation[=].value = "Pneumologie"
 * #SCH53 ^property[0].code = #dateValid
 * #SCH53 ^property[=].valueDateTime = "2012-04-12T00:00:00+01:00"
+* #SCH53 ^property[+].code = #dateFin
+* #SCH53 ^property[=].valueDateTime = "2024-12-10T12:00:00+01:00"
 * #SCH53 ^property[+].code = #dateMaj
 * #SCH53 ^property[=].valueDateTime = "2016-09-01T00:00:00+01:00"
 * #SCH54 "Psychiatrie polyvalente (SCH)"
@@ -1483,6 +1589,8 @@ Description: "Ensemble Savoir-faire CI-SIS (TRE provisoire)"
 * #SCH54 ^designation[=].value = "Psychiatrie polyvalente"
 * #SCH54 ^property[0].code = #dateValid
 * #SCH54 ^property[=].valueDateTime = "2012-04-12T00:00:00+01:00"
+* #SCH54 ^property[+].code = #dateFin
+* #SCH54 ^property[=].valueDateTime = "2024-12-10T12:00:00+01:00"
 * #SCH54 ^property[+].code = #dateMaj
 * #SCH54 ^property[=].valueDateTime = "2016-09-01T00:00:00+01:00"
 * #SCH55 "Radiologie (SCH)"
@@ -1492,6 +1600,8 @@ Description: "Ensemble Savoir-faire CI-SIS (TRE provisoire)"
 * #SCH55 ^designation[=].value = "Radiologie"
 * #SCH55 ^property[0].code = #dateValid
 * #SCH55 ^property[=].valueDateTime = "2012-04-12T00:00:00+01:00"
+* #SCH55 ^property[+].code = #dateFin
+* #SCH55 ^property[=].valueDateTime = "2024-12-10T12:00:00+01:00"
 * #SCH55 ^property[+].code = #dateMaj
 * #SCH55 ^property[=].valueDateTime = "2016-09-01T00:00:00+01:00"
 * #SCH56 "Oncologie radiothérapique (SCH)"
@@ -1501,6 +1611,8 @@ Description: "Ensemble Savoir-faire CI-SIS (TRE provisoire)"
 * #SCH56 ^designation[=].value = "Oncologie radiothérapique"
 * #SCH56 ^property[0].code = #dateValid
 * #SCH56 ^property[=].valueDateTime = "2012-04-12T00:00:00+01:00"
+* #SCH56 ^property[+].code = #dateFin
+* #SCH56 ^property[=].valueDateTime = "2024-12-10T12:00:00+01:00"
 * #SCH56 ^property[+].code = #dateMaj
 * #SCH56 ^property[=].valueDateTime = "2016-09-01T00:00:00+01:00"
 * #SCH57 "Réanimation médicale (SCH)"
@@ -1510,6 +1622,8 @@ Description: "Ensemble Savoir-faire CI-SIS (TRE provisoire)"
 * #SCH57 ^designation[=].value = "Réanimation médicale"
 * #SCH57 ^property[0].code = #dateValid
 * #SCH57 ^property[=].valueDateTime = "2012-04-12T00:00:00+01:00"
+* #SCH57 ^property[+].code = #dateFin
+* #SCH57 ^property[=].valueDateTime = "2024-12-10T12:00:00+01:00"
 * #SCH57 ^property[+].code = #dateMaj
 * #SCH57 ^property[=].valueDateTime = "2016-09-01T00:00:00+01:00"
 * #SCH58 "Rhumatologie (SCH)"
@@ -1519,6 +1633,8 @@ Description: "Ensemble Savoir-faire CI-SIS (TRE provisoire)"
 * #SCH58 ^designation[=].value = "Rhumatologie"
 * #SCH58 ^property[0].code = #dateValid
 * #SCH58 ^property[=].valueDateTime = "2012-04-12T00:00:00+01:00"
+* #SCH58 ^property[+].code = #dateFin
+* #SCH58 ^property[=].valueDateTime = "2024-12-10T12:00:00+01:00"
 * #SCH58 ^property[+].code = #dateMaj
 * #SCH58 ^property[=].valueDateTime = "2016-09-01T00:00:00+01:00"
 * #SCH59 "Stomatologie (SCH)"
@@ -1528,6 +1644,8 @@ Description: "Ensemble Savoir-faire CI-SIS (TRE provisoire)"
 * #SCH59 ^designation[=].value = "Stomatologie"
 * #SCH59 ^property[0].code = #dateValid
 * #SCH59 ^property[=].valueDateTime = "2012-04-12T00:00:00+01:00"
+* #SCH59 ^property[+].code = #dateFin
+* #SCH59 ^property[=].valueDateTime = "2024-12-10T12:00:00+01:00"
 * #SCH59 ^property[+].code = #dateMaj
 * #SCH59 ^property[=].valueDateTime = "2016-09-01T00:00:00+01:00"
 * #SCH60 "Toxicologie et Pharmacologie (SCH)"
@@ -1537,6 +1655,8 @@ Description: "Ensemble Savoir-faire CI-SIS (TRE provisoire)"
 * #SCH60 ^designation[=].value = "Toxicologie et Pharmacologie"
 * #SCH60 ^property[0].code = #dateValid
 * #SCH60 ^property[=].valueDateTime = "2012-04-12T00:00:00+01:00"
+* #SCH60 ^property[+].code = #dateFin
+* #SCH60 ^property[=].valueDateTime = "2024-12-10T12:00:00+01:00"
 * #SCH60 ^property[+].code = #dateMaj
 * #SCH60 ^property[=].valueDateTime = "2016-09-01T00:00:00+01:00"
 * #SI01 "Exercice infirmier en pratique avancée pathologies chroniques stabilisées (SI)"
@@ -1557,7 +1677,7 @@ Description: "Ensemble Savoir-faire CI-SIS (TRE provisoire)"
 * #SI02 ^property[=].valueDateTime = "2019-10-25T12:00:00+01:00"
 * #SI02 ^property[+].code = #dateMaj
 * #SI02 ^property[=].valueDateTime = "2019-10-25T12:00:00+01:00"
-* #SI03 "Exercice infirmier en pratique avancée maladie rénale chronique (SI)"
+* #SI03 "Exerc. infirmier pratique avancée maladie rénale chroniq.,dialyse,transp. rénale (SI)"
 * #SI03 ^designation[0].language = #fr-FR
 * #SI03 ^designation[=].use.system = "http://snomed.info/sct"
 * #SI03 ^designation[=].use = $sct#900000000000013009
@@ -1569,7 +1689,7 @@ Description: "Ensemble Savoir-faire CI-SIS (TRE provisoire)"
 * #SI03 ^property[0].code = #dateValid
 * #SI03 ^property[=].valueDateTime = "2019-10-25T12:00:00+01:00"
 * #SI03 ^property[+].code = #dateMaj
-* #SI03 ^property[=].valueDateTime = "2019-10-25T12:00:00+01:00"
+* #SI03 ^property[=].valueDateTime = "2024-12-10T12:00:00+01:00"
 * #SI04 "Exercice infirmier en pratique avancée santé mentale (SI)"
 * #SI04 ^designation[0].language = #fr-FR
 * #SI04 ^designation[=].use.system = "http://snomed.info/sct"
@@ -2493,3 +2613,459 @@ Description: "Ensemble Savoir-faire CI-SIS (TRE provisoire)"
 * #SM95 ^property[=].valueDateTime = "2023-10-30T12:00:00+01:00"
 * #SM95 ^property[+].code = #dateMaj
 * #SM95 ^property[=].valueDateTime = "2024-05-31T12:00:00+01:00"
+* #80 "Homéopathie (OP)"
+* #80 ^designation[0].language = #fr-FR
+* #80 ^designation[=].use = $sct#900000000000013009
+* #80 ^designation[=].value = "Homéopathie"
+* #80 ^property[0].code = #dateValid
+* #80 ^property[=].valueDateTime = "2023-10-30T12:00:00+01:00"
+* #80 ^property[+].code = #dateMaj
+* #80 ^property[=].valueDateTime = "2024-05-31T12:00:00+01:00"
+* #81 "Acupuncture (OP)"
+* #81 ^designation[0].language = #fr-FR
+* #81 ^designation[=].use = $sct#900000000000013009
+* #81 ^designation[=].value = "Acupuncture"
+* #81 ^property[0].code = #dateValid
+* #81 ^property[=].valueDateTime = "2024-12-10T12:00:00+01:00"
+* #81 ^property[+].code = #dateMaj
+* #81 ^property[=].valueDateTime = "2024-12-10T12:00:00+01:00"
+* #DEC01 "Addictologie (DEC)"
+* #DEC01 ^designation[0].language = #fr-FR
+* #DEC01 ^designation[=].use = $sct#900000000000013009
+* #DEC01 ^designation[=].value = "Addictologie"
+* #DEC01 ^property[0].code = #dateValid
+* #DEC01 ^property[=].valueDateTime = "2024-12-10T12:00:00+01:00"
+* #DEC01 ^property[+].code = #dateMaj
+* #DEC01 ^property[=].valueDateTime = "2024-12-10T12:00:00+01:00"
+* #DEC02 "Allergologie et immunologie clinique (DEC)"
+* #DEC02 ^designation[0].language = #fr-FR
+* #DEC02 ^designation[=].use = $sct#900000000000013009
+* #DEC02 ^designation[=].value = "Allergologie et immunologie clinique"
+* #DEC02 ^property[0].code = #dateValid
+* #DEC02 ^property[=].valueDateTime = "2024-12-10T12:00:00+01:00"
+* #DEC02 ^property[+].code = #dateMaj
+* #DEC02 ^property[=].valueDateTime = "2024-12-10T12:00:00+01:00"
+* #DEC03 "Andrologie (DEC)"
+* #DEC03 ^designation[0].language = #fr-FR
+* #DEC03 ^designation[=].use = $sct#900000000000013009
+* #DEC03 ^designation[=].value = "Andrologie"
+* #DEC03 ^property[0].code = #dateValid
+* #DEC03 ^property[=].valueDateTime = "2024-12-10T12:00:00+01:00"
+* #DEC03 ^property[+].code = #dateMaj
+* #DEC03 ^property[=].valueDateTime = "2024-12-10T12:00:00+01:00"
+* #DEC04 "Cancérologie option traitements médicaux des cancers (DEC)"
+* #DEC04 ^designation[0].language = #fr-FR
+* #DEC04 ^designation[=].use = $sct#900000000000013009
+* #DEC04 ^designation[=].value = "Cancérologie option traitements médicaux des cancers"
+* #DEC04 ^property[0].code = #dateValid
+* #DEC04 ^property[=].valueDateTime = "2024-12-10T12:00:00+01:00"
+* #DEC04 ^property[+].code = #dateMaj
+* #DEC04 ^property[=].valueDateTime = "2024-12-10T12:00:00+01:00"
+* #DEC05 "Cancérologie option chiruggie cancérologique (DEC)"
+* #DEC05 ^designation[0].language = #fr-FR
+* #DEC05 ^designation[=].use = $sct#900000000000013009
+* #DEC05 ^designation[=].value = "Cancérologie option chiruggie cancérologique"
+* #DEC05 ^property[0].code = #dateValid
+* #DEC05 ^property[=].valueDateTime = "2024-12-10T12:00:00+01:00"
+* #DEC05 ^property[+].code = #dateMaj
+* #DEC05 ^property[=].valueDateTime = "2024-12-10T12:00:00+01:00"
+* #DEC06 "Cancérologie option réseaux de cancérologie (DEC)"
+* #DEC06 ^designation[0].language = #fr-FR
+* #DEC06 ^designation[=].use = $sct#900000000000013009
+* #DEC06 ^designation[=].value = "Cancérologie option réseaux de cancérologie"
+* #DEC06 ^property[0].code = #dateValid
+* #DEC06 ^property[=].valueDateTime = "2024-12-10T12:00:00+01:00"
+* #DEC06 ^property[+].code = #dateMaj
+* #DEC06 ^property[=].valueDateTime = "2024-12-10T12:00:00+01:00"
+* #DEC07 "Cancérologie option biologie en cancérologie (DEC)"
+* #DEC07 ^designation[0].language = #fr-FR
+* #DEC07 ^designation[=].use = $sct#900000000000013009
+* #DEC07 ^designation[=].value = "Cancérologie option biologie en cancérologie"
+* #DEC07 ^property[0].code = #dateValid
+* #DEC07 ^property[=].valueDateTime = "2024-12-10T12:00:00+01:00"
+* #DEC07 ^property[+].code = #dateMaj
+* #DEC07 ^property[=].valueDateTime = "2024-12-10T12:00:00+01:00"
+* #DEC08 "Cancérologie option imagerie en cancérologie (DEC)"
+* #DEC08 ^designation[0].language = #fr-FR
+* #DEC08 ^designation[=].use = $sct#900000000000013009
+* #DEC08 ^designation[=].value = "Cancérologie option imagerie en cancérologie"
+* #DEC08 ^property[0].code = #dateValid
+* #DEC08 ^property[=].valueDateTime = "2024-12-10T12:00:00+01:00"
+* #DEC08 ^property[+].code = #dateMaj
+* #DEC08 ^property[=].valueDateTime = "2024-12-10T12:00:00+01:00"
+* #DEC09 "Dermatopathologie (DEC)"
+* #DEC09 ^designation[0].language = #fr-FR
+* #DEC09 ^designation[=].use = $sct#900000000000013009
+* #DEC09 ^designation[=].value = "Dermatopathologie"
+* #DEC09 ^property[0].code = #dateValid
+* #DEC09 ^property[=].valueDateTime = "2024-12-10T12:00:00+01:00"
+* #DEC09 ^property[+].code = #dateMaj
+* #DEC09 ^property[=].valueDateTime = "2024-12-10T12:00:00+01:00"
+* #DEC10 "Foetopathologie (DEC)"
+* #DEC10 ^designation[0].language = #fr-FR
+* #DEC10 ^designation[=].use = $sct#900000000000013009
+* #DEC10 ^designation[=].value = "Foetopathologie (DEC)"
+* #DEC10 ^property[0].code = #dateValid
+* #DEC10 ^property[=].valueDateTime = "2024-12-10T12:00:00+01:00"
+* #DEC10 ^property[+].code = #dateMaj
+* #DEC10 ^property[=].valueDateTime = "2024-12-10T12:00:00+01:00"
+* #DEC11 "Hémobiologie - tranfusion (DEC)"
+* #DEC11 ^designation[0].language = #fr-FR
+* #DEC11 ^designation[=].use = $sct#900000000000013009
+* #DEC11 ^designation[=].value = "Hémobiologie - tranfusion"
+* #DEC11 ^property[0].code = #dateValid
+* #DEC11 ^property[=].valueDateTime = "2024-12-10T12:00:00+01:00"
+* #DEC11 ^property[+].code = #dateMaj
+* #DEC11 ^property[=].valueDateTime = "2024-12-10T12:00:00+01:00"
+* #DEC12 "Médecine de la douleur et médecine palliative (DEC)"
+* #DEC12 ^designation[0].language = #fr-FR
+* #DEC12 ^designation[=].use = $sct#900000000000013009
+* #DEC12 ^designation[=].value = "Médecine de la douleur et médecine palliative"
+* #DEC12 ^property[0].code = #dateValid
+* #DEC12 ^property[=].valueDateTime = "2024-12-10T12:00:00+01:00"
+* #DEC12 ^property[+].code = #dateMaj
+* #DEC12 ^property[=].valueDateTime = "2024-12-10T12:00:00+01:00"
+* #DEC13 "Médecine de la reproduction (DEC)"
+* #DEC13 ^designation[0].language = #fr-FR
+* #DEC13 ^designation[=].use = $sct#900000000000013009
+* #DEC13 ^designation[=].value = "Médecine de la reproduction"
+* #DEC13 ^property[0].code = #dateValid
+* #DEC13 ^property[=].valueDateTime = "2024-12-10T12:00:00+01:00"
+* #DEC13 ^property[+].code = #dateMaj
+* #DEC13 ^property[=].valueDateTime = "2024-12-10T12:00:00+01:00"
+* #DEC14 "Médecine d'urgence (DEC)"
+* #DEC14 ^designation[0].language = #fr-FR
+* #DEC14 ^designation[=].use = $sct#900000000000013009
+* #DEC14 ^designation[=].value = "Médecine d'urgence"
+* #DEC14 ^property[0].code = #dateValid
+* #DEC14 ^property[=].valueDateTime = "2024-12-10T12:00:00+01:00"
+* #DEC14 ^property[+].code = #dateMaj
+* #DEC14 ^property[=].valueDateTime = "2024-12-10T12:00:00+01:00"
+* #DEC15 "Médecine du sport (DEC)"
+* #DEC15 ^designation[0].language = #fr-FR
+* #DEC15 ^designation[=].use = $sct#900000000000013009
+* #DEC15 ^designation[=].value = "Médecine du sport"
+* #DEC15 ^property[0].code = #dateValid
+* #DEC15 ^property[=].valueDateTime = "2024-12-10T12:00:00+01:00"
+* #DEC15 ^property[+].code = #dateMaj
+* #DEC15 ^property[=].valueDateTime = "2024-12-10T12:00:00+01:00"
+* #DEC16 "Médecine légale et expertises médicales (DEC)"
+* #DEC16 ^designation[0].language = #fr-FR
+* #DEC16 ^designation[=].use = $sct#900000000000013009
+* #DEC16 ^designation[=].value = "Médecine légale et expertises médicales"
+* #DEC16 ^property[0].code = #dateValid
+* #DEC16 ^property[=].valueDateTime = "2024-12-10T12:00:00+01:00"
+* #DEC16 ^property[+].code = #dateMaj
+* #DEC16 ^property[=].valueDateTime = "2024-12-10T12:00:00+01:00"
+* #DEC17 "Médecine vasculaire (DEC)"
+* #DEC17 ^designation[0].language = #fr-FR
+* #DEC17 ^designation[=].use = $sct#900000000000013009
+* #DEC17 ^designation[=].value = "Médecine vasculaire"
+* #DEC17 ^property[0].code = #dateValid
+* #DEC17 ^property[=].valueDateTime = "2024-12-10T12:00:00+01:00"
+* #DEC17 ^property[+].code = #dateMaj
+* #DEC17 ^property[=].valueDateTime = "2024-12-10T12:00:00+01:00"
+* #DEC18 "Néonatologie (DEC)"
+* #DEC18 ^designation[0].language = #fr-FR
+* #DEC18 ^designation[=].use = $sct#900000000000013009
+* #DEC18 ^designation[=].value = "Néonatologie"
+* #DEC18 ^property[0].code = #dateValid
+* #DEC18 ^property[=].valueDateTime = "2024-12-10T12:00:00+01:00"
+* #DEC18 ^property[+].code = #dateMaj
+* #DEC18 ^property[=].valueDateTime = "2024-12-10T12:00:00+01:00"
+* #DEC19 "Neuropathologie (DEC)"
+* #DEC19 ^designation[0].language = #fr-FR
+* #DEC19 ^designation[=].use = $sct#900000000000013009
+* #DEC19 ^designation[=].value = "Neuropathologie"
+* #DEC19 ^property[0].code = #dateValid
+* #DEC19 ^property[=].valueDateTime = "2024-12-10T12:00:00+01:00"
+* #DEC19 ^property[+].code = #dateMaj
+* #DEC19 ^property[=].valueDateTime = "2024-12-10T12:00:00+01:00"
+* #DEC20 "Nutrition (DEC)"
+* #DEC20 ^designation[0].language = #fr-FR
+* #DEC20 ^designation[=].use = $sct#900000000000013009
+* #DEC20 ^designation[=].value = "Nutrition"
+* #DEC20 ^property[0].code = #dateValid
+* #DEC20 ^property[=].valueDateTime = "2024-12-10T12:00:00+01:00"
+* #DEC20 ^property[+].code = #dateMaj
+* #DEC20 ^property[=].valueDateTime = "2024-12-10T12:00:00+01:00"
+* #DEC21 "Orthopédie dento-maxillo-faciale (DEC)"
+* #DEC21 ^designation[0].language = #fr-FR
+* #DEC21 ^designation[=].use = $sct#900000000000013009
+* #DEC21 ^designation[=].value = "Orthopédie dento-maxillo-faciale"
+* #DEC21 ^property[0].code = #dateValid
+* #DEC21 ^property[=].valueDateTime = "2024-12-10T12:00:00+01:00"
+* #DEC21 ^property[+].code = #dateMaj
+* #DEC21 ^property[=].valueDateTime = "2024-12-10T12:00:00+01:00"
+* #DEC22 "Pathologie infectieuse et tropicale, clinique et biologique (DEC)"
+* #DEC22 ^designation[0].language = #fr-FR
+* #DEC22 ^designation[=].use = $sct#900000000000013009
+* #DEC22 ^designation[=].value = "Pathologie infectieuse et tropicale, clinique et biologique"
+* #DEC22 ^property[0].code = #dateValid
+* #DEC22 ^property[=].valueDateTime = "2024-12-10T12:00:00+01:00"
+* #DEC22 ^property[+].code = #dateMaj
+* #DEC22 ^property[=].valueDateTime = "2024-12-10T12:00:00+01:00"
+* #DEC23 "Pharmacologie clinique et évaluation des thérapeutiques (DEC)"
+* #DEC23 ^designation[0].language = #fr-FR
+* #DEC23 ^designation[=].use = $sct#900000000000013009
+* #DEC23 ^designation[=].value = "Pharmacologie clinique et évaluation des thérapeutiques"
+* #DEC23 ^property[0].code = #dateValid
+* #DEC23 ^property[=].valueDateTime = "2024-12-10T12:00:00+01:00"
+* #DEC23 ^property[+].code = #dateMaj
+* #DEC23 ^property[=].valueDateTime = "2024-12-10T12:00:00+01:00"
+* #DEC24 "Psychiatrie de l'enfant et de l'adolescent (DEC)"
+* #DEC24 ^designation[0].language = #fr-FR
+* #DEC24 ^designation[=].use = $sct#900000000000013009
+* #DEC24 ^designation[=].value = "Psychiatrie de l'enfant et de l'adolescent"
+* #DEC24 ^property[0].code = #dateValid
+* #DEC24 ^property[=].valueDateTime = "2024-12-10T12:00:00+01:00"
+* #DEC24 ^property[+].code = #dateMaj
+* #DEC24 ^property[=].valueDateTime = "2024-12-10T12:00:00+01:00"
+* #FQ01 "Expérience prat. art. R.5124-16 du CSP Fabricant (FQ)"
+* #FQ01 ^designation[0].language = #fr-FR
+* #FQ01 ^designation[=].use = $sct#900000000000013009
+* #FQ01 ^designation[=].value = "Expérience prat. art. R.5124-16 du CSP Fabricant"
+* #FQ01 ^property[0].code = #dateValid
+* #FQ01 ^property[=].valueDateTime = "2024-12-10T12:00:00+01:00"
+* #FQ01 ^property[+].code = #dateMaj
+* #FQ01 ^property[=].valueDateTime = "2024-12-10T12:00:00+01:00"
+* #FQ02 "Expérience prat. art. R.5124-16 du CSP Exploitant (FQ)"
+* #FQ02 ^designation[0].language = #fr-FR
+* #FQ02 ^designation[=].use = $sct#900000000000013009
+* #FQ02 ^designation[=].value = "Expérience prat. art. R.5124-16 du CSP Exploitant"
+* #FQ02 ^property[0].code = #dateValid
+* #FQ02 ^property[=].valueDateTime = "2024-12-10T12:00:00+01:00"
+* #FQ02 ^property[+].code = #dateMaj
+* #FQ02 ^property[=].valueDateTime = "2024-12-10T12:00:00+01:00"
+* #FQ03 "Exp. prat. art. R.5124-16 du CSP Thérapie Cellulaire (FQ)"
+* #FQ03 ^designation[0].language = #fr-FR
+* #FQ03 ^designation[=].use = $sct#900000000000013009
+* #FQ03 ^designation[=].value = "Exp. prat. art. R.5124-16 du CSP Thérapie Cellulaire"
+* #FQ03 ^property[0].code = #dateValid
+* #FQ03 ^property[=].valueDateTime = "2024-12-10T12:00:00+01:00"
+* #FQ03 ^property[+].code = #dateMaj
+* #FQ03 ^property[=].valueDateTime = "2024-12-10T12:00:00+01:00"
+* #FQ04 "Expérience pratique article R.5124-18 du CSP (FQ)"
+* #FQ04 ^designation[0].language = #fr-FR
+* #FQ04 ^designation[=].use = $sct#900000000000013009
+* #FQ04 ^designation[=].value = "Expérience pratique article R.5124-18 du CSP"
+* #FQ04 ^property[0].code = #dateValid
+* #FQ04 ^property[=].valueDateTime = "2024-12-10T12:00:00+01:00"
+* #FQ04 ^property[+].code = #dateMaj
+* #FQ04 ^property[=].valueDateTime = "2024-12-10T12:00:00+01:00"
+* #FQ05 "Expérience pratique article R.5141-129 du CSP (FQ)"
+* #FQ05 ^designation[0].language = #fr-FR
+* #FQ05 ^designation[=].use = $sct#900000000000013009
+* #FQ05 ^designation[=].value = "Expérience pratique article R.5141-129 du CSP"
+* #FQ05 ^property[0].code = #dateValid
+* #FQ05 ^property[=].valueDateTime = "2024-12-10T12:00:00+01:00"
+* #FQ05 ^property[+].code = #dateMaj
+* #FQ05 ^property[=].valueDateTime = "2024-12-10T12:00:00+01:00"
+* #SST01 "Addictologie (SST)"
+* #SST01 ^designation[0].language = #fr-FR
+* #SST01 ^designation[=].use = $sct#900000000000013009
+* #SST01 ^designation[=].value = "Addictologie"
+* #SST01 ^property[0].code = #dateValid
+* #SST01 ^property[=].valueDateTime = "2024-12-10T12:00:00+01:00"
+* #SST01 ^property[+].code = #dateMaj
+* #SST01 ^property[=].valueDateTime = "2024-12-10T12:00:00+01:00"
+* #SST02 "Bio-informatique médicale (SST)"
+* #SST02 ^designation[0].language = #fr-FR
+* #SST02 ^designation[=].use = $sct#900000000000013009
+* #SST02 ^designation[=].value = "Bio-informatique médicale"
+* #SST02 ^property[0].code = #dateValid
+* #SST02 ^property[=].valueDateTime = "2024-12-10T12:00:00+01:00"
+* #SST02 ^property[+].code = #dateMaj
+* #SST02 ^property[=].valueDateTime = "2024-12-10T12:00:00+01:00"
+* #SST03 "Cancérologie déc. hémato-cancérologie pédiatrique (SST)"
+* #SST03 ^designation[0].language = #fr-FR
+* #SST03 ^designation[=].use = $sct#900000000000013009
+* #SST03 ^designation[=].value = "Cancérologie déc. hémato-cancérologie pédiatrique"
+* #SST03 ^property[0].code = #dateValid
+* #SST03 ^property[=].valueDateTime = "2024-12-10T12:00:00+01:00"
+* #SST03 ^property[+].code = #dateMaj
+* #SST03 ^property[=].valueDateTime = "2024-12-10T12:00:00+01:00"
+* #SST04 "Cancérologie traitements médicaux des cancers (SST)"
+* #SST04 ^designation[0].language = #fr-FR
+* #SST04 ^designation[=].use = $sct#900000000000013009
+* #SST04 ^designation[=].value = "Cancérologie traitements médicaux des cancers"
+* #SST04 ^property[0].code = #dateValid
+* #SST04 ^property[=].valueDateTime = "2024-12-10T12:00:00+01:00"
+* #SST04 ^property[+].code = #dateMaj
+* #SST04 ^property[=].valueDateTime = "2024-12-10T12:00:00+01:00"
+* #SST05 "Cardiologie pédiatrique et congénitale (SST)"
+* #SST05 ^designation[0].language = #fr-FR
+* #SST05 ^designation[=].use = $sct#900000000000013009
+* #SST05 ^designation[=].value = "Cardiologie pédiatrique et congénitale"
+* #SST05 ^property[0].code = #dateValid
+* #SST05 ^property[=].valueDateTime = "2024-12-10T12:00:00+01:00"
+* #SST05 ^property[+].code = #dateMaj
+* #SST05 ^property[=].valueDateTime = "2024-12-10T12:00:00+01:00"
+* #SST06 "Chirurgie de la main (SST)"
+* #SST06 ^designation[0].language = #fr-FR
+* #SST06 ^designation[=].use = $sct#900000000000013009
+* #SST06 ^designation[=].value = "Chirurgie de la main"
+* #SST06 ^property[0].code = #dateValid
+* #SST06 ^property[=].valueDateTime = "2024-12-10T12:00:00+01:00"
+* #SST06 ^property[+].code = #dateMaj
+* #SST06 ^property[=].valueDateTime = "2024-12-10T12:00:00+01:00"
+* #SST07 "Chirurgie en situation de guerre ou de catastrophe (SST)"
+* #SST07 ^designation[0].language = #fr-FR
+* #SST07 ^designation[=].use = $sct#900000000000013009
+* #SST07 ^designation[=].value = "Chirurgie en situation de guerre ou de catastrophe"
+* #SST07 ^property[0].code = #dateValid
+* #SST07 ^property[=].valueDateTime = "2024-12-10T12:00:00+01:00"
+* #SST07 ^property[+].code = #dateMaj
+* #SST07 ^property[=].valueDateTime = "2024-12-10T12:00:00+01:00"
+* #SST08 "Chirurgie orbito-palpébro-lacrymale (SST)"
+* #SST08 ^designation[0].language = #fr-FR
+* #SST08 ^designation[=].use = $sct#900000000000013009
+* #SST08 ^designation[=].value = "Chirurgie orbito-palpébro-lacrymale"
+* #SST08 ^property[0].code = #dateValid
+* #SST08 ^property[=].valueDateTime = "2024-12-10T12:00:00+01:00"
+* #SST08 ^property[+].code = #dateMaj
+* #SST08 ^property[=].valueDateTime = "2024-12-10T12:00:00+01:00"
+* #SST09 "Douleur (SST)"
+* #SST09 ^designation[0].language = #fr-FR
+* #SST09 ^designation[=].use = $sct#900000000000013009
+* #SST09 ^designation[=].value = "Douleur"
+* #SST09 ^property[0].code = #dateValid
+* #SST09 ^property[=].valueDateTime = "2024-12-10T12:00:00+01:00"
+* #SST09 ^property[+].code = #dateMaj
+* #SST09 ^property[=].valueDateTime = "2024-12-10T12:00:00+01:00"
+* #SST10 "Expertise médicale-préjudice corporel (SST)"
+* #SST10 ^designation[0].language = #fr-FR
+* #SST10 ^designation[=].use = $sct#900000000000013009
+* #SST10 ^designation[=].value = "Expertise médicale-préjudice corporel"
+* #SST10 ^property[0].code = #dateValid
+* #SST10 ^property[=].valueDateTime = "2024-12-10T12:00:00+01:00"
+* #SST10 ^property[+].code = #dateMaj
+* #SST10 ^property[=].valueDateTime = "2024-12-10T12:00:00+01:00"
+* #SST11 "Foetopathologie (SST)"
+* #SST11 ^designation[0].language = #fr-FR
+* #SST11 ^designation[=].use = $sct#900000000000013009
+* #SST11 ^designation[=].value = "Foetopathologie"
+* #SST11 ^property[0].code = #dateValid
+* #SST11 ^property[=].valueDateTime = "2024-12-10T12:00:00+01:00"
+* #SST11 ^property[+].code = #dateMaj
+* #SST11 ^property[=].valueDateTime = "2024-12-10T12:00:00+01:00"
+* #SST12 "Génétique et médecine moléculaire bioclinique (SST)"
+* #SST12 ^designation[0].language = #fr-FR
+* #SST12 ^designation[=].use = $sct#900000000000013009
+* #SST12 ^designation[=].value = "Génétique et médecine moléculaire bioclinique"
+* #SST12 ^property[0].code = #dateValid
+* #SST12 ^property[=].valueDateTime = "2024-12-10T12:00:00+01:00"
+* #SST12 ^property[+].code = #dateMaj
+* #SST12 ^property[=].valueDateTime = "2024-12-10T12:00:00+01:00"
+* #SST13 "Hématologie bioclinique (SST)"
+* #SST13 ^designation[0].language = #fr-FR
+* #SST13 ^designation[=].use = $sct#900000000000013009
+* #SST13 ^designation[=].value = "Hématologie bioclinique"
+* #SST13 ^property[0].code = #dateValid
+* #SST13 ^property[=].valueDateTime = "2024-12-10T12:00:00+01:00"
+* #SST13 ^property[+].code = #dateMaj
+* #SST13 ^property[=].valueDateTime = "2024-12-10T12:00:00+01:00"
+* #SST14 "Hygiène-prévention de l'infection, résistances (SST)"
+* #SST14 ^designation[0].language = #fr-FR
+* #SST14 ^designation[=].use = $sct#900000000000013009
+* #SST14 ^designation[=].value = "Hygiène-prévention de l'infection, résistances"
+* #SST14 ^property[0].code = #dateValid
+* #SST14 ^property[=].valueDateTime = "2024-12-10T12:00:00+01:00"
+* #SST14 ^property[+].code = #dateMaj
+* #SST14 ^property[=].valueDateTime = "2024-12-10T12:00:00+01:00"
+* #SST15 "Maladies allergiques (SST)"
+* #SST15 ^designation[0].language = #fr-FR
+* #SST15 ^designation[=].use = $sct#900000000000013009
+* #SST15 ^designation[=].value = "Maladies allergiques"
+* #SST15 ^property[0].code = #dateValid
+* #SST15 ^property[=].valueDateTime = "2024-12-10T12:00:00+01:00"
+* #SST15 ^property[+].code = #dateMaj
+* #SST15 ^property[=].valueDateTime = "2024-12-10T12:00:00+01:00"
+* #SST16 "Médecine hospitalière polyvalente (SST)"
+* #SST16 ^designation[0].language = #fr-FR
+* #SST16 ^designation[=].use = $sct#900000000000013009
+* #SST16 ^designation[=].value = "Médecine hospitalière polyvalente"
+* #SST16 ^property[0].code = #dateValid
+* #SST16 ^property[=].valueDateTime = "2024-12-10T12:00:00+01:00"
+* #SST16 ^property[+].code = #dateMaj
+* #SST16 ^property[=].valueDateTime = "2024-12-10T12:00:00+01:00"
+* #SST17 "Médecine palliative (SST)"
+* #SST17 ^designation[0].language = #fr-FR
+* #SST17 ^designation[=].use = $sct#900000000000013009
+* #SST17 ^designation[=].value = "Médecine palliative"
+* #SST17 ^property[0].code = #dateValid
+* #SST17 ^property[=].valueDateTime = "2024-12-10T12:00:00+01:00"
+* #SST17 ^property[+].code = #dateMaj
+* #SST17 ^property[=].valueDateTime = "2024-12-10T12:00:00+01:00"
+* #SST18 "Médecine scolaire (SST)"
+* #SST18 ^designation[0].language = #fr-FR
+* #SST18 ^designation[=].use = $sct#900000000000013009
+* #SST18 ^designation[=].value = "Médecine scolaire"
+* #SST18 ^property[0].code = #dateValid
+* #SST18 ^property[=].valueDateTime = "2024-12-10T12:00:00+01:00"
+* #SST18 ^property[+].code = #dateMaj
+* #SST18 ^property[=].valueDateTime = "2024-12-10T12:00:00+01:00"
+* #SST19 "Médecine en situation de guerre ou en SSE (SST)"
+* #SST19 ^designation[0].language = #fr-FR
+* #SST19 ^designation[=].use = $sct#900000000000013009
+* #SST19 ^designation[=].value = "Médecine en situation de guerre ou en SSE"
+* #SST19 ^property[0].code = #dateValid
+* #SST19 ^property[=].valueDateTime = "2024-12-10T12:00:00+01:00"
+* #SST19 ^property[+].code = #dateMaj
+* #SST19 ^property[=].valueDateTime = "2024-12-10T12:00:00+01:00"
+* #SST20 "Médecine et biologie de la reproduction-andrologie (SST)"
+* #SST20 ^designation[0].language = #fr-FR
+* #SST20 ^designation[=].use = $sct#900000000000013009
+* #SST20 ^designation[=].value = "Médecine et biologie de la reproduction-andrologie"
+* #SST20 ^property[0].code = #dateValid
+* #SST20 ^property[=].valueDateTime = "2024-12-10T12:00:00+01:00"
+* #SST20 ^property[+].code = #dateMaj
+* #SST20 ^property[=].valueDateTime = "2024-12-10T12:00:00+01:00"
+* #SST21 "Médecine du sport (SST)"
+* #SST21 ^designation[0].language = #fr-FR
+* #SST21 ^designation[=].use = $sct#900000000000013009
+* #SST21 ^designation[=].value = "Médecine du sport"
+* #SST21 ^property[0].code = #dateValid
+* #SST21 ^property[=].valueDateTime = "2024-12-10T12:00:00+01:00"
+* #SST21 ^property[+].code = #dateMaj
+* #SST21 ^property[=].valueDateTime = "2024-12-10T12:00:00+01:00"
+* #SST22 "Nutrition appliquée (SST)"
+* #SST22 ^designation[0].language = #fr-FR
+* #SST22 ^designation[=].use = $sct#900000000000013009
+* #SST22 ^designation[=].value = "Nutrition appliquée"
+* #SST22 ^property[0].code = #dateValid
+* #SST22 ^property[=].valueDateTime = "2024-12-10T12:00:00+01:00"
+* #SST22 ^property[+].code = #dateMaj
+* #SST22 ^property[=].valueDateTime = "2024-12-10T12:00:00+01:00"
+* #SST23 "Pharmacologie médicale/thérapeutique (SST)"
+* #SST23 ^designation[0].language = #fr-FR
+* #SST23 ^designation[=].use = $sct#900000000000013009
+* #SST23 ^designation[=].value = "Pharmacologie médicale/thérapeutique"
+* #SST23 ^property[0].code = #dateValid
+* #SST23 ^property[=].valueDateTime = "2024-12-10T12:00:00+01:00"
+* #SST23 ^property[+].code = #dateMaj
+* #SST23 ^property[=].valueDateTime = "2024-12-10T12:00:00+01:00"
+* #SST24 "Sommeil (SST)"
+* #SST24 ^designation[0].language = #fr-FR
+* #SST24 ^designation[=].use = $sct#900000000000013009
+* #SST24 ^designation[=].value = "Sommeil"
+* #SST24 ^property[0].code = #dateValid
+* #SST24 ^property[=].valueDateTime = "2024-12-10T12:00:00+01:00"
+* #SST24 ^property[+].code = #dateMaj
+* #SST24 ^property[=].valueDateTime = "2024-12-10T12:00:00+01:00"
+* #SST25 "Thérapie cellulaire/transfusion (SST)"
+* #SST25 ^designation[0].language = #fr-FR
+* #SST25 ^designation[=].use = $sct#900000000000013009
+* #SST25 ^designation[=].value = "Thérapie cellulaire/transfusion"
+* #SST25 ^property[0].code = #dateValid
+* #SST25 ^property[=].valueDateTime = "2024-12-10T12:00:00+01:00"
+* #SST25 ^property[+].code = #dateMaj
+* #SST25 ^property[=].valueDateTime = "2024-12-10T12:00:00+01:00"
+* #SST26 "Urgences pédiatriques (SST)"
+* #SST26 ^designation[0].language = #fr-FR
+* #SST26 ^designation[=].use = $sct#900000000000013009
+* #SST26 ^designation[=].value = "Urgences pédiatriques"
+* #SST26 ^property[0].code = #dateValid
+* #SST26 ^property[=].valueDateTime = "2024-12-10T12:00:00+01:00"
+* #SST26 ^property[+].code = #dateMaj
+* #SST26 ^property[=].valueDateTime = "2024-12-10T12:00:00+01:00"
