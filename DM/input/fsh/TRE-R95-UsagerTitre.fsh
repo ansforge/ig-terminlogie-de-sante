@@ -9,10 +9,10 @@ Description: "Usager de titre professionnel"
 * ^url = "https://mos.esante.gouv.fr/NOS/TRE_R95-UsagerTitre/FHIR/TRE-R95-UsagerTitre"
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value = "urn:oid:1.2.250.1.213.1.6.1.109"
-* ^version = "20231215120000"
+* ^version = "20241210120000"
 * ^status = #active
 * ^experimental = false
-* ^date = "2023-12-15T12:00:00+01:00"
+* ^date = "2024-12-10T12:00:00+01:00"
 * ^publisher = "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris"
 * ^caseSensitive = false
 * ^content = #complete
@@ -83,5 +83,7 @@ Description: "Usager de titre professionnel"
 * #97 "Conseiller en génétique"
 * #97 ^property[0].code = #dateValid
 * #97 ^property[=].valueDateTime = "2020-05-29T12:00:00+01:00"
+* #97 ^property[+].code = #dateFin
+* #97 ^property[=].valueDateTime = "2024-12-10T12:00:00+01:00"
 * #97 ^property[+].code = #dateMaj
 * #97 ^property[=].valueDateTime = "2020-05-29T12:00:00+01:00"
