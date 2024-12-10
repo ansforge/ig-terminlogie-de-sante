@@ -1,13 +1,23 @@
 Terminologie : Validation Results
 =========================================
 
-err = 498, warn = 1432, info = 819
-IG Publisher Version: 1.7.5
-Generated Thu Dec 05 17:12:48 UTC 2024. FHIR version 4.0.1 for ans.fr.terminologie#1.1.0 (canonical = https://interop.esante.gouv.fr/ig/terminologie)
+err = 498, warn = 1433, info = 819
+IG Publisher Version: 1.8.1
+Generated Tue Dec 10 08:26:20 UTC 2024. FHIR version 4.0.1 for ans.fr.terminologie#1.1.0 (canonical = https://interop.esante.gouv.fr/ig/terminologie)
  Build Errors : 898 / 21 / 0
+ /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/DM/fsh-generated/resources/CodeSystem-TRE-G19-SecteurActiviteADELI : 0 / 1 / 4
+ /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/DM/fsh-generated/resources/CodeSystem-TRE-R02-SecteurActivite : 0 / 1 / 4
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/DM/fsh-generated/resources/CodeSystem-TRE-R17-TypeAutorisation : 0 / 1 / 4
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/DM/fsh-generated/resources/CodeSystem-TRE-R20-Pays : 0 / 1 / 4
+ /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/DM/fsh-generated/resources/CodeSystem-TRE-R211-ActiviteOperationnelle : 0 / 1 / 4
+ /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/DM/fsh-generated/resources/CodeSystem-TRE-R212-Equipement : 0 / 1 / 4
+ /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/DM/fsh-generated/resources/CodeSystem-TRE-R244-CategorieOrganisation : 0 / 1 / 4
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/DM/fsh-generated/resources/CodeSystem-TRE-R248-ModeAcces : 0 / 1 / 4
+ /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/DM/fsh-generated/resources/CodeSystem-TRE-R287-NatureContact : 0 / 1 / 4
+ /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/DM/fsh-generated/resources/CodeSystem-TRE-R330-TypeStatutCapacite : 0 / 1 / 4
+ /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/DM/fsh-generated/resources/CodeSystem-TRE-R338-ModaliteAccueil : 0 / 1 / 4
+ /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/DM/fsh-generated/resources/CodeSystem-TRE-R344-NiveauExpertise : 0 / 1 / 4
+ /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/DM/fsh-generated/resources/CodeSystem-TRE-R369-ProfilUtilisateurReferentielNational : 2 / 1 / 4
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/DM/fsh-generated/resources/CodeSystem-TRE-R85-RolePriseCharge : 0 / 1 / 4
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/DM/fsh-generated/resources/ConceptMap-ASS-A11-CorresModeleCDA-XdsFormatCode-CISIS : 0 / 0 / 1
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/DM/fsh-generated/resources/ConceptMap-ASS-A12-CorresMediaTypeCDANonStructure-XdsFormatCode-CISIS : 0 / 0 / 1
@@ -39,17 +49,30 @@ Generated Thu Dec 05 17:12:48 UTC 2024. FHIR version 4.0.1 for ans.fr.terminolog
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/DM/fsh-generated/resources/ConceptMap-ASS-X15-AgregatDisciplineEnseignement : 0 / 1 / 1
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/DM/fsh-generated/resources/ConceptMap-ASS-X16-CorrespondanceType-Classe-DMP : 1 / 0 / 2
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/DM/fsh-generated/resources/ValueSet-JDV-J01-XdsAuthorSpecialty-CISIS : 0 / 1 / 1
+ /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/DM/fsh-generated/resources/ValueSet-JDV-J02-XdsHealthcareFacilityTypeCode-CISIS : 0 / 1 / 1
+ /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/DM/fsh-generated/resources/ValueSet-JDV-J03-XdsContentTypeCode-CISIS : 0 / 1 / 1
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/DM/fsh-generated/resources/ValueSet-JDV-J05-SubjectRole-CISIS : 0 / 1 / 1
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/DM/fsh-generated/resources/ValueSet-JDV-J10-XdsFormatCode-CISIS : 0 / 0 / 1
+ /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/DM/fsh-generated/resources/ValueSet-JDV-J101-SecteurActivite-RASS : 0 / 1 / 1
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/DM/fsh-generated/resources/ValueSet-JDV-J105-EnsembleDiplome-RASS : 0 / 1 / 1
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/DM/fsh-generated/resources/ValueSet-JDV-J108-EnsembleFonction-RASS : 0 / 1 / 1
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/DM/fsh-generated/resources/ValueSet-JDV-J14-QualiteRepresentantLegal-CISIS : 0 / 1 / 1
+ /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/DM/fsh-generated/resources/ValueSet-JDV-J17-ActiviteOperationnelle-ROR : 0 / 1 / 1
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/DM/fsh-generated/resources/ValueSet-JDV-J171-TypeAutorisation-EPARS : 9 / 1 / 1
+ /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/DM/fsh-generated/resources/ValueSet-JDV-J172-SecteurActivite-EPARS : 0 / 1 / 1
+ /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/DM/fsh-generated/resources/ValueSet-JDV-J18-EquipementSpecifique-ROR : 0 / 2 / 1
+ /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/DM/fsh-generated/resources/ValueSet-JDV-J188-TypeStatutCapacite-ROR : 0 / 1 / 1
+ /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/DM/fsh-generated/resources/ValueSet-JDV-J221-NatureContact-ROR : 0 / 1 / 1
+ /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/DM/fsh-generated/resources/ValueSet-JDV-J226-ModaliteAccueil-ROR : 0 / 1 / 1
+ /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/DM/fsh-generated/resources/ValueSet-JDV-J227-NiveauExpertise-ROR : 0 / 1 / 1
+ /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/DM/fsh-generated/resources/ValueSet-JDV-J238-TypeOffre-ROR : 0 / 1 / 1
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/DM/fsh-generated/resources/ValueSet-JDV-J256-Pays : 0 / 1 / 1
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/DM/fsh-generated/resources/ValueSet-JDV-J282-TransportsLiesAuProjetIndividuel-SERAFIN : 2 / 1 / 1
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/DM/fsh-generated/resources/ValueSet-JDV-J283-PrestationsIndirects-SERAFIN : 2 / 1 / 1
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/DM/fsh-generated/resources/ValueSet-JDV-J284-PrestationsDirects-SERAFIN : 2 / 1 / 1
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/DM/fsh-generated/resources/ValueSet-JDV-J285-Besoins-SERAFIN : 2 / 1 / 1
+ /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/DM/fsh-generated/resources/ValueSet-JDV-J286-ProfilUtilisateurReferentielNational-ROR : 2 / 1 / 1
+ /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/DM/fsh-generated/resources/ValueSet-JDV-J34-CategorieOrganisation-ROR : 0 / 1 / 1
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/DM/fsh-generated/resources/ValueSet-JDV-J38-ModeAcces-CISIS : 0 / 1 / 1
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/DM/fsh-generated/resources/ValueSet-JDV-J47-FunctionCode-CISIS : 0 / 1 / 1
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/DM/fsh-generated/resources/ValueSet-JDV-J48-ProfessionNonPS-CISIS : 0 / 1 / 1
@@ -233,14 +256,11 @@ Generated Thu Dec 05 17:12:48 UTC 2024. FHIR version 4.0.1 for ans.fr.terminolog
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_InvestigationsRealiseesSUNV_CISIS : 0 / 2 / 1
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_InvestigationsRealisees_CISIS : 0 / 2 / 1
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_IssueGrossesse_CISIS : 0 / 3 / 1
- /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_J02_XdsHealthcareFacilityTypeCode_CISIS : 0 / 1 / 1
- /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_J03_XdsContentTypeCode_CISIS : 0 / 1 / 1
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_J04_XdsPracticeSettingCode_CISIS : 0 / 1 / 1
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_J06_XdsClassCode_CISIS : 0 / 1 / 1
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_J07_XdsTypeCode_CISIS : 0 / 1 / 1
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_J08_XdsConfidentialityCode_CISIS : 2 / 1 / 1
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_J100_FinessStatutJuridique_RASS : 0 / 1 / 1
- /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_J101_SecteurActivite_RASS : 0 / 1 / 1
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_J103_TypeVoie_RASS : 0 / 1 / 1
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_J104_TypeIdentifiantStructure_RASS : 0 / 1 / 1
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_J106_EnsembleProfession_RASS : 0 / 1 / 1
@@ -310,13 +330,11 @@ Generated Thu Dec 05 17:12:48 UTC 2024. FHIR version 4.0.1 for ans.fr.terminolog
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_J169_MotifFinActivite_EPARS : 0 / 1 / 1
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_J16_ActeSpecifique_ROR : 0 / 1 / 3
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_J170_AutoriteEnregistrement_EPARS : 0 / 1 / 1
- /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_J172_SecteurActivite_EPARS : 0 / 1 / 1
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_J173_FinessStatutJuridique_EPARS : 0 / 1 / 1
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_J176_SituationVieQuotidienne_MDPH : 0 / 1 / 1
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_J177_BesoinAideMobilite_MDPH : 0 / 1 / 1
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_J178_BesoinAideVieSociale_MDPH : 0 / 1 / 1
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_J179_BesoinCommunication_MDPH : 0 / 1 / 1
- /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_J17_ActiviteOperationnelle_ROR : 0 / 1 / 1
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_J180_BesoinEntretienPersonnel_MDPH : 0 / 1 / 1
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_J181_BesoinMobilite_MDPH : 0 / 1 / 1
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_J182_BesoinScolarite_MDPH : 0 / 1 / 1
@@ -324,9 +342,7 @@ Generated Thu Dec 05 17:12:48 UTC 2024. FHIR version 4.0.1 for ans.fr.terminolog
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_J185_TypeFermeture_ROR : 0 / 1 / 1
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_J186_ProfessionRessource_ROR : 0 / 1 / 1
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_J187_NatureCapacite_ROR : 0 / 1 / 1
- /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_J188_TypeStatutCapacite_ROR : 0 / 1 / 1
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_J189_TemporaliteCapacite_ROR : 0 / 1 / 1
- /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_J18_EquipementSpecifique_ROR : 0 / 1 / 1
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_J190_GenreCapacite_ROR : 0 / 1 / 1
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_J191_TypeFermetureCapacite_ROR : 0 / 1 / 1
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_J192_TypeLitSupplementaire_ROR : 0 / 1 / 1
@@ -361,13 +377,10 @@ Generated Thu Dec 05 17:12:48 UTC 2024. FHIR version 4.0.1 for ans.fr.terminolog
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_J219_TypeVoie_ROR : 0 / 1 / 1
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_J21_PalierAuthentificationActeurPP : 0 / 1 / 1
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_J220_FonctionContact_ROR : 0 / 1 / 1
- /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_J221_NatureContact_ROR : 0 / 1 / 1
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_J222_NiveauConfidentialite_ROR : 0 / 1 / 1
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_J223_TypeDivisionTerritoriale_ROR : 0 / 1 / 1
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_J224_StatutLieu_ROR : 0 / 1 / 1
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_J225_CanalCommunication_ROR : 0 / 1 / 1
- /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_J226_ModaliteAccueil_ROR : 0 / 1 / 1
- /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_J227_NiveauExpertise_ROR : 0 / 1 / 1
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_J228_TypeCaracteristiqueEquipement_ROR : 0 / 1 / 1
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_J229_ProfessionSante_ROR : 0 / 1 / 1
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_J22_RestrictionAudienceVIHF_CISIS : 0 / 1 / 1
@@ -378,7 +391,6 @@ Generated Thu Dec 05 17:12:48 UTC 2024. FHIR version 4.0.1 for ans.fr.terminolog
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_J235_LieuFormation_EPARS : 0 / 1 / 1
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_J236_TypeIdentifiant_ROR : 0 / 1 / 1
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_J237_RegionOM_ROR : 0 / 1 / 1
- /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_J238_TypeOffre_ROR : 0 / 1 / 1
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_J239_SpecialitesSNP_SAS : 0 / 1 / 1
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_J23_TypeNoteCahierLiaison_CISIS : 0 / 1 / 1
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_J241_ThematiqueAnomalie_ROR : 0 / 1 / 1
@@ -411,14 +423,12 @@ Generated Thu Dec 05 17:12:48 UTC 2024. FHIR version 4.0.1 for ans.fr.terminolog
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_J279_Loinc_UPNOS : 0 / 1 / 1
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_J27_GroupeTarifaireDependance_ROR : 0 / 1 / 1
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_J281_StatutsRessourcesMS : 0 / 1 / 1
- /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_J286_ProfilUtilisateurReferentielNational_ROR : 2 / 1 / 1
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_J28_OuvertureAnnuelle_ROR : 0 / 1 / 1
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_J29_PublicPrisEnCharge_ROR : 0 / 1 / 1
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_J30_TemporaliteAccueil_ROR : 0 / 1 / 1
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_J31_AideFinanciere_ROR : 0 / 1 / 1
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_J32_TypeHabitation_ROR : 0 / 1 / 1
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_J33_CompetenceSpecifique_ROR : 0 / 1 / 1
- /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_J34_CategorieOrganisation_ROR : 0 / 1 / 1
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_J35_SpecialisationDePriseEnCharge_ROR : 0 / 1 / 1
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_J36_TypeTarif_ROR : 0 / 1 / 1
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_J37_UcumUniteTemps : 0 / 1 / 1
@@ -804,10 +814,8 @@ Generated Thu Dec 05 17:12:48 UTC 2024. FHIR version 4.0.1 for ans.fr.terminolog
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/TRE/TRE_G16_ProfessionFormation : 0 / 1 / 4
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/TRE/TRE_G17_ModeExerciceCPx : 0 / 1 / 4
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/TRE/TRE_G18_AttributionParticuliereADELI : 0 / 1 / 4
- /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/TRE/TRE_G19_SecteurActiviteADELI : 0 / 1 / 4
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/TRE/TRE_G20_Specialisation : 0 / 1 / 4
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/TRE/TRE_R01_EnsembleSavoirFaire_CISIS : 0 / 1 / 4
- /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/TRE/TRE_R02_SecteurActivite : 0 / 1 / 4
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/TRE/TRE_R03_AttributionParticuliere : 0 / 1 / 4
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/TRE/TRE_R04_TypeSavoirFaire : 0 / 1 / 4
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/TRE/TRE_R06_SectionTableauCNOP : 0 / 1 / 4
@@ -829,8 +837,6 @@ Generated Thu Dec 05 17:12:48 UTC 2024. FHIR version 4.0.1 for ans.fr.terminolog
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/TRE/TRE_R208_ClasseAge : 0 / 1 / 4
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/TRE/TRE_R209_TypeActivite : 0 / 1 / 4
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/TRE/TRE_R210_ActeSpecifique : 0 / 1 / 4
- /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/TRE/TRE_R211_ActiviteOperationnelle : 0 / 1 / 4
- /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/TRE/TRE_R212_Equipement : 0 / 1 / 4
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/TRE/TRE_R213_ModePriseEnCharge : 0 / 1 / 4
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/TRE/TRE_R214_SpecialiteUnite : 0 / 1 / 4
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/TRE/TRE_R215_UniteTemps : 0 / 1 / 4
@@ -863,7 +869,6 @@ Generated Thu Dec 05 17:12:48 UTC 2024. FHIR version 4.0.1 for ans.fr.terminolog
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/TRE/TRE_R241_AideFinanciere : 0 / 1 / 4
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/TRE/TRE_R242_TypeHabitation : 0 / 1 / 4
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/TRE/TRE_R243_CompetenceSpecifique : 0 / 1 / 4
- /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/TRE/TRE_R244_CategorieOrganisation : 0 / 1 / 4
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/TRE/TRE_R245_SpecialisationDePriseEnCharge : 0 / 1 / 4
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/TRE/TRE_R246_TypeTarif : 0 / 1 / 4
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/TRE/TRE_R249_Sexe : 0 / 1 / 4
@@ -904,7 +909,6 @@ Generated Thu Dec 05 17:12:48 UTC 2024. FHIR version 4.0.1 for ans.fr.terminolog
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/TRE/TRE_R284_NiveauRecoursORSAN : 0 / 1 / 4
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/TRE/TRE_R285_TraitementDocument : 0 / 1 / 4
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/TRE/TRE_R286_TypeFermeture : 0 / 1 / 4
- /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/TRE/TRE_R287_NatureContact : 0 / 1 / 4
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/TRE/TRE_R288_TypeProfession : 0 / 1 / 4
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/TRE/TRE_R289_TypeFonction : 0 / 1 / 4
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/TRE/TRE_R290_RoleAdmTechSanitaireSocial : 0 / 1 / 4
@@ -942,7 +946,6 @@ Generated Thu Dec 05 17:12:48 UTC 2024. FHIR version 4.0.1 for ans.fr.terminolog
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/TRE/TRE_R328_TypeScolarisation : 0 / 1 / 4
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/TRE/TRE_R329_NatureCapacite : 0 / 1 / 4
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/TRE/TRE_R32_StatutHospitalier : 0 / 1 / 4
- /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/TRE/TRE_R330_TypeStatutCapacite : 0 / 1 / 4
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/TRE/TRE_R331_TemporaliteCapacite : 0 / 1 / 4
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/TRE/TRE_R332_GenreCapacite : 0 / 1 / 4
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/TRE/TRE_R333_TypeFermetureCapacite : 0 / 1 / 4
@@ -950,13 +953,11 @@ Generated Thu Dec 05 17:12:48 UTC 2024. FHIR version 4.0.1 for ans.fr.terminolog
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/TRE/TRE_R335_TypeSourceCapacite : 0 / 1 / 4
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/TRE/TRE_R336_TypeCrise : 0 / 1 / 4
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/TRE/TRE_R337_AffectationTemporaire : 0 / 1 / 4
- /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/TRE/TRE_R338_ModaliteAccueil : 0 / 1 / 4
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/TRE/TRE_R33_StatutInscription : 0 / 1 / 4
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/TRE/TRE_R340_TypeCaracteristiqueEquipement : 0 / 1 / 4
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/TRE/TRE_R341_StatutCommunication : 0 / 1 / 4
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/TRE/TRE_R342_XdsTypesIdentifiantsReferenceId : 0 / 1 / 4
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/TRE/TRE_R343_FonctionLieu : 0 / 1 / 4
- /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/TRE/TRE_R344_NiveauExpertise : 0 / 1 / 4
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/TRE/TRE_R345_TypeIdentifiantAutre : 0 / 1 / 4
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/TRE/TRE_R348_FormationSpecialiseeTransversale : 0 / 1 / 4
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/TRE/TRE_R349_ActionAnomalie : 0 / 1 / 4
@@ -971,7 +972,6 @@ Generated Thu Dec 05 17:12:48 UTC 2024. FHIR version 4.0.1 for ans.fr.terminolog
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/TRE/TRE_R359_SurspecialiteTransversale : 0 / 1 / 4
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/TRE/TRE_R35_TypeVoie : 0 / 1 / 4
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/TRE/TRE_R368_StatutRessource : 2 / 1 / 4
- /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/TRE/TRE_R369_ProfilUtilisateurReferentielNational : 2 / 1 / 4
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/TRE/TRE_R36_AutreDiplomeObtenu : 0 / 1 / 4
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/TRE/TRE_R37_TypeProfessionFonction : 0 / 1 / 4
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/TRE/TRE_R38_SpecialiteOrdinale : 0 / 1 / 4
@@ -2249,6 +2249,16 @@ ERROR: /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSou
 ERROR: /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/output/ValueSet-TRE-R222-MediaTypeCorpsCDANonStructure-all.html#/html/body/div/div/div/div/div/div/div/input/div/div/table/tr/td/a at Line 350, column 3309: The link 'CodeSystem-TRE-A11-IheFormatCode.html#TRE-A11-IheFormatCode-ValueSet-JDV-J10-XdsFormatCode-CISIS.46html' for "ValueSet-JDV-J10-XdsFormatCode-CISIS.html" cannot be resolved (valid targets: 59 targets)
 ERROR: /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/output/ValueSet-TRE-R222-MediaTypeCorpsCDANonStructure-all.html#/html/body/div/div/div/div/div/div/div/input/div/div/table/tr/td/a at Line 350, column 4010: The link 'CodeSystem-TRE-A11-IheFormatCode.html#TRE-A11-IheFormatCode-ValueSet-JDV-J10-XdsFormatCode-CISIS.46html' for "ValueSet-JDV-J10-XdsFormatCode-CISIS.html" cannot be resolved (valid targets: 59 targets)
 ERROR: /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/output/telechargementNos.html#/html/body/div/div/div/div/div/ul/li/a at Line 200, column 8: The link 'Correspondances%20RessourcesFHIR-NOS_0.pdf' for "Correspondance entre les ressources FHIR et les NOS (PDF)" cannot be resolved
+== DM/fsh-generated/resources/CodeSystem-TRE-G19-SecteurActiviteADELI.json ==
+WARNING: CodeSystem/TRE-G19-SecteurActiviteADELI: CodeSystem: Published code systems SHOULD conform to the ShareableCodeSystem profile, which says that the element CodeSystem.title is mandatory, but it is not present
+INFORMATION: CodeSystem/TRE-G19-SecteurActiviteADELI: CodeSystem.property[0]: This property has only a code ('dateValid') and not a URI, so it has no clearly defined meaning in the terminology ecosystem
+INFORMATION: CodeSystem/TRE-G19-SecteurActiviteADELI: CodeSystem.property[1]: This property has only a code ('dateMaj') and not a URI, so it has no clearly defined meaning in the terminology ecosystem
+INFORMATION: CodeSystem/TRE-G19-SecteurActiviteADELI: CodeSystem.property[2]: This property has only a code ('dateFin') and not a URI, so it has no clearly defined meaning in the terminology ecosystem
+== DM/fsh-generated/resources/CodeSystem-TRE-R02-SecteurActivite.json ==
+WARNING: CodeSystem/TRE-R02-SecteurActivite: CodeSystem: Published code systems SHOULD conform to the ShareableCodeSystem profile, which says that the element CodeSystem.title is mandatory, but it is not present
+INFORMATION: CodeSystem/TRE-R02-SecteurActivite: CodeSystem.property[0]: This property has only a code ('dateValid') and not a URI, so it has no clearly defined meaning in the terminology ecosystem
+INFORMATION: CodeSystem/TRE-R02-SecteurActivite: CodeSystem.property[1]: This property has only a code ('dateMaj') and not a URI, so it has no clearly defined meaning in the terminology ecosystem
+INFORMATION: CodeSystem/TRE-R02-SecteurActivite: CodeSystem.property[2]: This property has only a code ('dateFin') and not a URI, so it has no clearly defined meaning in the terminology ecosystem
 == DM/fsh-generated/resources/CodeSystem-TRE-R17-TypeAutorisation.json ==
 WARNING: CodeSystem/TRE-R17-TypeAutorisation: CodeSystem: Published code systems SHOULD conform to the ShareableCodeSystem profile, which says that the element CodeSystem.title is mandatory, but it is not present
 INFORMATION: CodeSystem/TRE-R17-TypeAutorisation: CodeSystem.property[0]: This property has only a code ('dateValid') and not a URI, so it has no clearly defined meaning in the terminology ecosystem
@@ -2259,11 +2269,53 @@ WARNING: CodeSystem/TRE-R20-Pays: CodeSystem: Published code systems SHOULD conf
 INFORMATION: CodeSystem/TRE-R20-Pays: CodeSystem.property[0]: This property has only a code ('dateValid') and not a URI, so it has no clearly defined meaning in the terminology ecosystem
 INFORMATION: CodeSystem/TRE-R20-Pays: CodeSystem.property[1]: This property has only a code ('dateMaj') and not a URI, so it has no clearly defined meaning in the terminology ecosystem
 INFORMATION: CodeSystem/TRE-R20-Pays: CodeSystem.property[2]: This property has only a code ('dateFin') and not a URI, so it has no clearly defined meaning in the terminology ecosystem
+== DM/fsh-generated/resources/CodeSystem-TRE-R211-ActiviteOperationnelle.json ==
+WARNING: CodeSystem/TRE-R211-ActiviteOperationnelle: CodeSystem: Published code systems SHOULD conform to the ShareableCodeSystem profile, which says that the element CodeSystem.title is mandatory, but it is not present
+INFORMATION: CodeSystem/TRE-R211-ActiviteOperationnelle: CodeSystem.property[0]: This property has only a code ('dateValid') and not a URI, so it has no clearly defined meaning in the terminology ecosystem
+INFORMATION: CodeSystem/TRE-R211-ActiviteOperationnelle: CodeSystem.property[1]: This property has only a code ('dateMaj') and not a URI, so it has no clearly defined meaning in the terminology ecosystem
+INFORMATION: CodeSystem/TRE-R211-ActiviteOperationnelle: CodeSystem.property[2]: This property has only a code ('dateFin') and not a URI, so it has no clearly defined meaning in the terminology ecosystem
+== DM/fsh-generated/resources/CodeSystem-TRE-R212-Equipement.json ==
+WARNING: CodeSystem/TRE-R212-Equipement: CodeSystem: Published code systems SHOULD conform to the ShareableCodeSystem profile, which says that the element CodeSystem.title is mandatory, but it is not present
+INFORMATION: CodeSystem/TRE-R212-Equipement: CodeSystem.property[0]: This property has only a code ('dateValid') and not a URI, so it has no clearly defined meaning in the terminology ecosystem
+INFORMATION: CodeSystem/TRE-R212-Equipement: CodeSystem.property[1]: This property has only a code ('dateMaj') and not a URI, so it has no clearly defined meaning in the terminology ecosystem
+INFORMATION: CodeSystem/TRE-R212-Equipement: CodeSystem.property[2]: This property has only a code ('dateFin') and not a URI, so it has no clearly defined meaning in the terminology ecosystem
+== DM/fsh-generated/resources/CodeSystem-TRE-R244-CategorieOrganisation.json ==
+WARNING: CodeSystem/TRE-R244-CategorieOrganisation: CodeSystem: Published code systems SHOULD conform to the ShareableCodeSystem profile, which says that the element CodeSystem.title is mandatory, but it is not present
+INFORMATION: CodeSystem/TRE-R244-CategorieOrganisation: CodeSystem.property[0]: This property has only a code ('dateValid') and not a URI, so it has no clearly defined meaning in the terminology ecosystem
+INFORMATION: CodeSystem/TRE-R244-CategorieOrganisation: CodeSystem.property[1]: This property has only a code ('dateMaj') and not a URI, so it has no clearly defined meaning in the terminology ecosystem
+INFORMATION: CodeSystem/TRE-R244-CategorieOrganisation: CodeSystem.property[2]: This property has only a code ('dateFin') and not a URI, so it has no clearly defined meaning in the terminology ecosystem
 == DM/fsh-generated/resources/CodeSystem-TRE-R248-ModeAcces.json ==
 WARNING: CodeSystem/TRE-R248-ModeAcces: CodeSystem: Published code systems SHOULD conform to the ShareableCodeSystem profile, which says that the element CodeSystem.title is mandatory, but it is not present
 INFORMATION: CodeSystem/TRE-R248-ModeAcces: CodeSystem.property[0]: This property has only a code ('dateValid') and not a URI, so it has no clearly defined meaning in the terminology ecosystem
 INFORMATION: CodeSystem/TRE-R248-ModeAcces: CodeSystem.property[1]: This property has only a code ('dateMaj') and not a URI, so it has no clearly defined meaning in the terminology ecosystem
 INFORMATION: CodeSystem/TRE-R248-ModeAcces: CodeSystem.property[2]: This property has only a code ('dateFin') and not a URI, so it has no clearly defined meaning in the terminology ecosystem
+== DM/fsh-generated/resources/CodeSystem-TRE-R287-NatureContact.json ==
+WARNING: CodeSystem/TRE-R287-NatureContact: CodeSystem: Published code systems SHOULD conform to the ShareableCodeSystem profile, which says that the element CodeSystem.title is mandatory, but it is not present
+INFORMATION: CodeSystem/TRE-R287-NatureContact: CodeSystem.property[0]: This property has only a code ('dateValid') and not a URI, so it has no clearly defined meaning in the terminology ecosystem
+INFORMATION: CodeSystem/TRE-R287-NatureContact: CodeSystem.property[1]: This property has only a code ('dateMaj') and not a URI, so it has no clearly defined meaning in the terminology ecosystem
+INFORMATION: CodeSystem/TRE-R287-NatureContact: CodeSystem.property[2]: This property has only a code ('dateFin') and not a URI, so it has no clearly defined meaning in the terminology ecosystem
+== DM/fsh-generated/resources/CodeSystem-TRE-R330-TypeStatutCapacite.json ==
+WARNING: CodeSystem/TRE-R330-TypeStatutCapacite: CodeSystem: Published code systems SHOULD conform to the ShareableCodeSystem profile, which says that the element CodeSystem.title is mandatory, but it is not present
+INFORMATION: CodeSystem/TRE-R330-TypeStatutCapacite: CodeSystem.property[0]: This property has only a code ('dateValid') and not a URI, so it has no clearly defined meaning in the terminology ecosystem
+INFORMATION: CodeSystem/TRE-R330-TypeStatutCapacite: CodeSystem.property[1]: This property has only a code ('dateMaj') and not a URI, so it has no clearly defined meaning in the terminology ecosystem
+INFORMATION: CodeSystem/TRE-R330-TypeStatutCapacite: CodeSystem.property[2]: This property has only a code ('dateFin') and not a URI, so it has no clearly defined meaning in the terminology ecosystem
+== DM/fsh-generated/resources/CodeSystem-TRE-R338-ModaliteAccueil.json ==
+WARNING: CodeSystem/TRE-R338-ModaliteAccueil: CodeSystem: Published code systems SHOULD conform to the ShareableCodeSystem profile, which says that the element CodeSystem.title is mandatory, but it is not present
+INFORMATION: CodeSystem/TRE-R338-ModaliteAccueil: CodeSystem.property[0]: This property has only a code ('dateValid') and not a URI, so it has no clearly defined meaning in the terminology ecosystem
+INFORMATION: CodeSystem/TRE-R338-ModaliteAccueil: CodeSystem.property[1]: This property has only a code ('dateMaj') and not a URI, so it has no clearly defined meaning in the terminology ecosystem
+INFORMATION: CodeSystem/TRE-R338-ModaliteAccueil: CodeSystem.property[2]: This property has only a code ('dateFin') and not a URI, so it has no clearly defined meaning in the terminology ecosystem
+== DM/fsh-generated/resources/CodeSystem-TRE-R344-NiveauExpertise.json ==
+WARNING: CodeSystem/TRE-R344-NiveauExpertise: CodeSystem: Published code systems SHOULD conform to the ShareableCodeSystem profile, which says that the element CodeSystem.title is mandatory, but it is not present
+INFORMATION: CodeSystem/TRE-R344-NiveauExpertise: CodeSystem.property[0]: This property has only a code ('dateValid') and not a URI, so it has no clearly defined meaning in the terminology ecosystem
+INFORMATION: CodeSystem/TRE-R344-NiveauExpertise: CodeSystem.property[1]: This property has only a code ('dateMaj') and not a URI, so it has no clearly defined meaning in the terminology ecosystem
+INFORMATION: CodeSystem/TRE-R344-NiveauExpertise: CodeSystem.property[2]: This property has only a code ('dateFin') and not a URI, so it has no clearly defined meaning in the terminology ecosystem
+== DM/fsh-generated/resources/CodeSystem-TRE-R369-ProfilUtilisateurReferentielNational.json ==
+ERROR: CodeSystem.where(url = 'https://mos.esante.gouv.fr/NOS/TRE_R369_ProfilUtilisateurReferentielNational/FHIR/TRE-R369-ProfilUtilisateurReferentielNational'): Conformance resource /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/DM/fsh-generated/resources/CodeSystem-TRE-R369-ProfilUtilisateurReferentielNational.json - the canonical URL (https://interop.esante.gouv.fr/ig/terminologie/CodeSystem/TRE-R369-ProfilUtilisateurReferentielNational) does not match the URL (https://mos.esante.gouv.fr/NOS/TRE_R369_ProfilUtilisateurReferentielNational/FHIR/TRE-R369-ProfilUtilisateurReferentielNational)
+WARNING: CodeSystem/TRE-R369-ProfilUtilisateurReferentielNational: CodeSystem: Published code systems SHOULD conform to the ShareableCodeSystem profile, which says that the element CodeSystem.title is mandatory, but it is not present
+INFORMATION: CodeSystem/TRE-R369-ProfilUtilisateurReferentielNational: CodeSystem.property[0]: This property has only a code ('dateValid') and not a URI, so it has no clearly defined meaning in the terminology ecosystem
+INFORMATION: CodeSystem/TRE-R369-ProfilUtilisateurReferentielNational: CodeSystem.property[1]: This property has only a code ('dateMaj') and not a URI, so it has no clearly defined meaning in the terminology ecosystem
+INFORMATION: CodeSystem/TRE-R369-ProfilUtilisateurReferentielNational: CodeSystem.property[2]: This property has only a code ('dateFin') and not a URI, so it has no clearly defined meaning in the terminology ecosystem
+ERROR: /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/DM/fsh-generated/resources/CodeSystem-TRE-R369-ProfilUtilisateurReferentielNational: URL Mismatch https://interop.esante.gouv.fr/ig/terminologie/CodeSystem/TRE-R369-ProfilUtilisateurReferentielNational vs https://mos.esante.gouv.fr/NOS/TRE_R369_ProfilUtilisateurReferentielNational/FHIR/TRE-R369-ProfilUtilisateurReferentielNational
 == DM/fsh-generated/resources/CodeSystem-TRE-R85-RolePriseCharge.json ==
 WARNING: CodeSystem/TRE-R85-RolePriseCharge: CodeSystem: Published code systems SHOULD conform to the ShareableCodeSystem profile, which says that the element CodeSystem.title is mandatory, but it is not present
 INFORMATION: CodeSystem/TRE-R85-RolePriseCharge: CodeSystem.property[0]: This property has only a code ('dateValid') and not a URI, so it has no clearly defined meaning in the terminology ecosystem
@@ -2546,15 +2598,23 @@ INFORMATION: ConceptMap/ASS-X16-CorrespondanceType-Classe-DMP: ConceptMap.group[
 ERROR: ConceptMap/ASS-X16-CorrespondanceType-Classe-DMP: ConceptMap.group[0].element[6].code: The code '11526-1' in the system http://loinc.org is not valid in the value set 'https://mos.esante.gouv.fr/NOS/JDV_J66-TypeCode-DMP/FHIR/JDV-J66-TypeCode-DMP'
 == DM/fsh-generated/resources/ValueSet-JDV-J01-XdsAuthorSpecialty-CISIS.json ==
 WARNING: ValueSet/JDV-J01-XdsAuthorSpecialty-CISIS: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.title is mandatory, but it is not present
+== DM/fsh-generated/resources/ValueSet-JDV-J02-XdsHealthcareFacilityTypeCode-CISIS.json ==
+WARNING: ValueSet/JDV-J02-XdsHealthcareFacilityTypeCode-CISIS: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.title is mandatory, but it is not present
+== DM/fsh-generated/resources/ValueSet-JDV-J03-XdsContentTypeCode-CISIS.json ==
+WARNING: ValueSet/JDV-J03-XdsContentTypeCode-CISIS: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.title is mandatory, but it is not present
 == DM/fsh-generated/resources/ValueSet-JDV-J05-SubjectRole-CISIS.json ==
 WARNING: ValueSet/JDV-J05-SubjectRole-CISIS: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.title is mandatory, but it is not present
 == DM/fsh-generated/resources/ValueSet-JDV-J10-XdsFormatCode-CISIS.json ==
+== DM/fsh-generated/resources/ValueSet-JDV-J101-SecteurActivite-RASS.json ==
+WARNING: ValueSet/JDV-J101-SecteurActivite-RASS: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.title is mandatory, but it is not present
 == DM/fsh-generated/resources/ValueSet-JDV-J105-EnsembleDiplome-RASS.json ==
 WARNING: ValueSet/JDV-J105-EnsembleDiplome-RASS: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.title is mandatory, but it is not present
 == DM/fsh-generated/resources/ValueSet-JDV-J108-EnsembleFonction-RASS.json ==
 WARNING: ValueSet/JDV-J108-EnsembleFonction-RASS: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.title is mandatory, but it is not present
 == DM/fsh-generated/resources/ValueSet-JDV-J14-QualiteRepresentantLegal-CISIS.json ==
 WARNING: ValueSet/JDV-J14-QualiteRepresentantLegal-CISIS: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.title is mandatory, but it is not present
+== DM/fsh-generated/resources/ValueSet-JDV-J17-ActiviteOperationnelle-ROR.json ==
+WARNING: ValueSet/JDV-J17-ActiviteOperationnelle-ROR: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.title is mandatory, but it is not present
 == DM/fsh-generated/resources/ValueSet-JDV-J171-TypeAutorisation-EPARS.json ==
 WARNING: ValueSet/JDV-J171-TypeAutorisation-EPARS: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.title is mandatory, but it is not present
 ERROR: ValueSet.text.div: Hyperlink 'CodeSystem-TRE-G15-ProfessionSante.html#TRE-G15-ProfessionSante-41' at 'div/ul/li/table/tr/td/a' for '41' does not resolve
@@ -2566,6 +2626,21 @@ ERROR: ValueSet.text.div: Hyperlink 'CodeSystem-TRE-G15-ProfessionSante.html#TRE
 ERROR: ValueSet.text.div: Hyperlink 'CodeSystem-TRE-G15-ProfessionSante.html#TRE-G15-ProfessionSante-72' at 'div/ul/li/table/tr/td/a' for '72' does not resolve
 ERROR: ValueSet.text.div: Hyperlink 'CodeSystem-TRE-G15-ProfessionSante.html#TRE-G15-ProfessionSante-73' at 'div/ul/li/table/tr/td/a' for '73' does not resolve
 ERROR: ValueSet.text.div: Hyperlink 'CodeSystem-TRE-G15-ProfessionSante.html#TRE-G15-ProfessionSante-72' at 'div/ul/li/table/tr/td/a' for '72' does not resolve
+== DM/fsh-generated/resources/ValueSet-JDV-J172-SecteurActivite-EPARS.json ==
+WARNING: ValueSet/JDV-J172-SecteurActivite-EPARS: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.title is mandatory, but it is not present
+== DM/fsh-generated/resources/ValueSet-JDV-J18-EquipementSpecifique-ROR.json ==
+WARNING: ValueSet/JDV-J18-EquipementSpecifique-ROR: ValueSet.compose.include[0].concept[41].display: value should not start or finish with whitespace 'Equipement de réadaptation pour obésité massive '
+WARNING: ValueSet/JDV-J18-EquipementSpecifique-ROR: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.title is mandatory, but it is not present
+== DM/fsh-generated/resources/ValueSet-JDV-J188-TypeStatutCapacite-ROR.json ==
+WARNING: ValueSet/JDV-J188-TypeStatutCapacite-ROR: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.title is mandatory, but it is not present
+== DM/fsh-generated/resources/ValueSet-JDV-J221-NatureContact-ROR.json ==
+WARNING: ValueSet/JDV-J221-NatureContact-ROR: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.title is mandatory, but it is not present
+== DM/fsh-generated/resources/ValueSet-JDV-J226-ModaliteAccueil-ROR.json ==
+WARNING: ValueSet/JDV-J226-ModaliteAccueil-ROR: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.title is mandatory, but it is not present
+== DM/fsh-generated/resources/ValueSet-JDV-J227-NiveauExpertise-ROR.json ==
+WARNING: ValueSet/JDV-J227-NiveauExpertise-ROR: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.title is mandatory, but it is not present
+== DM/fsh-generated/resources/ValueSet-JDV-J238-TypeOffre-ROR.json ==
+WARNING: ValueSet/JDV-J238-TypeOffre-ROR: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.title is mandatory, but it is not present
 == DM/fsh-generated/resources/ValueSet-JDV-J256-Pays.json ==
 WARNING: ValueSet/JDV-J256-Pays: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.title is mandatory, but it is not present
 == DM/fsh-generated/resources/ValueSet-JDV-J282-TransportsLiesAuProjetIndividuel-SERAFIN.json ==
@@ -2584,6 +2659,12 @@ ERROR: /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSou
 ERROR: ValueSet.where(url = 'https://mos.esante.gouv.fr/NOS/JDV_J285-Besoins_SERAFIN/FHIR/JDV-J285-Besoins-SERAFIN'): Conformance resource /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/DM/fsh-generated/resources/ValueSet-JDV-J285-Besoins-SERAFIN.json - the canonical URL (https://interop.esante.gouv.fr/ig/terminologie/ValueSet/JDV-J285-Besoins-SERAFIN) does not match the URL (https://mos.esante.gouv.fr/NOS/JDV_J285-Besoins_SERAFIN/FHIR/JDV-J285-Besoins-SERAFIN)
 WARNING: ValueSet/JDV-J285-Besoins-SERAFIN: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.title is mandatory, but it is not present
 ERROR: /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/DM/fsh-generated/resources/ValueSet-JDV-J285-Besoins-SERAFIN: URL Mismatch https://interop.esante.gouv.fr/ig/terminologie/ValueSet/JDV-J285-Besoins-SERAFIN vs https://mos.esante.gouv.fr/NOS/JDV_J285-Besoins_SERAFIN/FHIR/JDV-J285-Besoins-SERAFIN
+== DM/fsh-generated/resources/ValueSet-JDV-J286-ProfilUtilisateurReferentielNational-ROR.json ==
+ERROR: ValueSet.where(url = 'https://mos.esante.gouv.fr/NOS/JDV_J286_ProfilUtilisateurReferentielNational_ROR/FHIR/JDV-J286-ProfilUtilisateurReferentielNational-ROR'): Conformance resource /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/DM/fsh-generated/resources/ValueSet-JDV-J286-ProfilUtilisateurReferentielNational-ROR.json - the canonical URL (https://interop.esante.gouv.fr/ig/terminologie/ValueSet/JDV-J286-ProfilUtilisateurReferentielNational-ROR) does not match the URL (https://mos.esante.gouv.fr/NOS/JDV_J286_ProfilUtilisateurReferentielNational_ROR/FHIR/JDV-J286-ProfilUtilisateurReferentielNational-ROR)
+WARNING: ValueSet/JDV-J286-ProfilUtilisateurReferentielNational-ROR: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.title is mandatory, but it is not present
+ERROR: /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/DM/fsh-generated/resources/ValueSet-JDV-J286-ProfilUtilisateurReferentielNational-ROR: URL Mismatch https://interop.esante.gouv.fr/ig/terminologie/ValueSet/JDV-J286-ProfilUtilisateurReferentielNational-ROR vs https://mos.esante.gouv.fr/NOS/JDV_J286_ProfilUtilisateurReferentielNational_ROR/FHIR/JDV-J286-ProfilUtilisateurReferentielNational-ROR
+== DM/fsh-generated/resources/ValueSet-JDV-J34-CategorieOrganisation-ROR.json ==
+WARNING: ValueSet/JDV-J34-CategorieOrganisation-ROR: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.title is mandatory, but it is not present
 == DM/fsh-generated/resources/ValueSet-JDV-J38-ModeAcces-CISIS.json ==
 WARNING: ValueSet/JDV-J38-ModeAcces-CISIS: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.title is mandatory, but it is not present
 == DM/fsh-generated/resources/ValueSet-JDV-J47-FunctionCode-CISIS.json ==
@@ -3233,10 +3314,6 @@ WARNING: ValueSet.where(id = '1.2.250.1.213.1.1.5.47'): Error from http://tx.fhi
 WARNING: ValueSet/1.2.250.1.213.1.1.5.731: ValueSet.compose.include[0]: Unknown System 'urn:oid:2.16.840.1.113883.6.96' specified, so Concepts and Filters can't be checked (Details: A definition for CodeSystem 'urn:oid:2.16.840.1.113883.6.96' could not be found, so the code cannot be validated)
 WARNING: ValueSet/1.2.250.1.213.1.1.5.731: ValueSet.compose.include[1]: Unknown System 'urn:oid:2.16.840.1.113883.6.3' specified, so Concepts and Filters can't be checked (Details: A definition for CodeSystem 'urn:oid:2.16.840.1.113883.6.3' could not be found, so the code cannot be validated)
 WARNING: ValueSet.where(id = '1.2.250.1.213.1.1.5.731'): Error from http://tx.fhir.org/r4: Unable to provide support for code system urn:oid:2.16.840.1.113883.6.96
-== input/ontoserver/JDV/JDV_J02_XdsHealthcareFacilityTypeCode_CISIS.json ==
-WARNING: ValueSet/JDV-J02-XdsHealthcareFacilityTypeCode-CISIS: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.title is mandatory, but it is not present
-== input/ontoserver/JDV/JDV_J03_XdsContentTypeCode_CISIS.json ==
-WARNING: ValueSet/JDV-J03-XdsContentTypeCode-CISIS: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.title is mandatory, but it is not present
 == input/ontoserver/JDV/JDV_J04_XdsPracticeSettingCode_CISIS.json ==
 WARNING: ValueSet/JDV-J04-XdsPracticeSettingCode-CISIS: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.title is mandatory, but it is not present
 == input/ontoserver/JDV/JDV_J06_XdsClassCode_CISIS.json ==
@@ -3249,8 +3326,6 @@ WARNING: ValueSet/JDV-J08-XdsConfidentialityCode-CISIS: ValueSet: Published valu
 ERROR: /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_J08_XdsConfidentialityCode_CISIS: URL Mismatch https://interop.esante.gouv.fr/ig/terminologie/ValueSet/JDV-J08-XdsConfidentialityCode-CISIS vs https://mos.esante.gouv.fr/NOS/JDV_J08-XdsConfidentialityCode-CISIS/FHIR/JDV-J08-XdsConfidentialityCode-CISIS
 == input/ontoserver/JDV/JDV_J100_FinessStatutJuridique_RASS.json ==
 WARNING: ValueSet/JDV-J100-FinessStatutJuridique-RASS: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.title is mandatory, but it is not present
-== input/ontoserver/JDV/JDV_J101_SecteurActivite_RASS.json ==
-WARNING: ValueSet/JDV-J101-SecteurActivite-RASS: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.title is mandatory, but it is not present
 == input/ontoserver/JDV/JDV_J103_TypeVoie_RASS.json ==
 WARNING: ValueSet/JDV-J103-TypeVoie-RASS: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.title is mandatory, but it is not present
 == input/ontoserver/JDV/JDV_J104_TypeIdentifiantStructure_RASS.json ==
@@ -3415,8 +3490,6 @@ WARNING: ValueSet/JDV-J16-ActeSpecifique-ROR: ValueSet: Published value sets SHO
 INFORMATION: ValueSet.where(id = 'JDV-J16-ActeSpecifique-ROR'): The value set expansion is too large, and only a subset has been displayed
 == input/ontoserver/JDV/JDV_J170_AutoriteEnregistrement_EPARS.json ==
 WARNING: ValueSet/JDV-J170-AutoriteEnregistrement-EPARS: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.title is mandatory, but it is not present
-== input/ontoserver/JDV/JDV_J172_SecteurActivite_EPARS.json ==
-WARNING: ValueSet/JDV-J172-SecteurActivite-EPARS: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.title is mandatory, but it is not present
 == input/ontoserver/JDV/JDV_J173_FinessStatutJuridique_EPARS.json ==
 WARNING: ValueSet/JDV-J173-FinessStatutJuridique-EPARS: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.title is mandatory, but it is not present
 == input/ontoserver/JDV/JDV_J176_SituationVieQuotidienne_MDPH.json ==
@@ -3427,8 +3500,6 @@ WARNING: ValueSet/JDV-J177-BesoinAideMobilite-MDPH: ValueSet: Published value se
 WARNING: ValueSet/JDV-J178-BesoinAideVieSociale-MDPH: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.title is mandatory, but it is not present
 == input/ontoserver/JDV/JDV_J179_BesoinCommunication_MDPH.json ==
 WARNING: ValueSet/JDV-J179-BesoinCommunication-MDPH: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.title is mandatory, but it is not present
-== input/ontoserver/JDV/JDV_J17_ActiviteOperationnelle_ROR.json ==
-WARNING: ValueSet/JDV-J17-ActiviteOperationnelle-ROR: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.title is mandatory, but it is not present
 == input/ontoserver/JDV/JDV_J180_BesoinEntretienPersonnel_MDPH.json ==
 WARNING: ValueSet/JDV-J180-BesoinEntretienPersonnel-MDPH: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.title is mandatory, but it is not present
 == input/ontoserver/JDV/JDV_J181_BesoinMobilite_MDPH.json ==
@@ -3443,12 +3514,8 @@ WARNING: ValueSet/JDV-J185-TypeFermeture-ROR: ValueSet: Published value sets SHO
 WARNING: ValueSet/JDV-J186-ProfessionRessource-ROR: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.title is mandatory, but it is not present
 == input/ontoserver/JDV/JDV_J187_NatureCapacite_ROR.json ==
 WARNING: ValueSet/JDV-J187-NatureCapacite-ROR: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.title is mandatory, but it is not present
-== input/ontoserver/JDV/JDV_J188_TypeStatutCapacite_ROR.json ==
-WARNING: ValueSet/JDV-J188-TypeStatutCapacite-ROR: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.title is mandatory, but it is not present
 == input/ontoserver/JDV/JDV_J189_TemporaliteCapacite_ROR.json ==
 WARNING: ValueSet/JDV-J189-TemporaliteCapacite-ROR: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.title is mandatory, but it is not present
-== input/ontoserver/JDV/JDV_J18_EquipementSpecifique_ROR.json ==
-WARNING: ValueSet/JDV-J18-EquipementSpecifique-ROR: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.title is mandatory, but it is not present
 == input/ontoserver/JDV/JDV_J190_GenreCapacite_ROR.json ==
 WARNING: ValueSet/JDV-J190-GenreCapacite-ROR: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.title is mandatory, but it is not present
 == input/ontoserver/JDV/JDV_J191_TypeFermetureCapacite_ROR.json ==
@@ -3517,8 +3584,6 @@ WARNING: ValueSet/JDV-J219-TypeVoie-ROR: ValueSet: Published value sets SHOULD c
 WARNING: ValueSet/JDV-J21-PalierAuthentificationActeurPP: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.title is mandatory, but it is not present
 == input/ontoserver/JDV/JDV_J220_FonctionContact_ROR.json ==
 WARNING: ValueSet/JDV-J220-FonctionContact-ROR: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.title is mandatory, but it is not present
-== input/ontoserver/JDV/JDV_J221_NatureContact_ROR.json ==
-WARNING: ValueSet/JDV-J221-NatureContact-ROR: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.title is mandatory, but it is not present
 == input/ontoserver/JDV/JDV_J222_NiveauConfidentialite_ROR.json ==
 WARNING: ValueSet/JDV-J222-NiveauConfidentialite-ROR: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.title is mandatory, but it is not present
 == input/ontoserver/JDV/JDV_J223_TypeDivisionTerritoriale_ROR.json ==
@@ -3527,10 +3592,6 @@ WARNING: ValueSet/JDV-J223-TypeDivisionTerritoriale-ROR: ValueSet: Published val
 WARNING: ValueSet/JDV-J224-StatutLieu-ROR: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.title is mandatory, but it is not present
 == input/ontoserver/JDV/JDV_J225_CanalCommunication_ROR.json ==
 WARNING: ValueSet/JDV-J225-CanalCommunication-ROR: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.title is mandatory, but it is not present
-== input/ontoserver/JDV/JDV_J226_ModaliteAccueil_ROR.json ==
-WARNING: ValueSet/JDV-J226-ModaliteAccueil-ROR: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.title is mandatory, but it is not present
-== input/ontoserver/JDV/JDV_J227_NiveauExpertise_ROR.json ==
-WARNING: ValueSet/JDV-J227-NiveauExpertise-ROR: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.title is mandatory, but it is not present
 == input/ontoserver/JDV/JDV_J228_TypeCaracteristiqueEquipement_ROR.json ==
 WARNING: ValueSet/JDV-J228-TypeCaracteristiqueEquipement-ROR: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.title is mandatory, but it is not present
 == input/ontoserver/JDV/JDV_J229_ProfessionSante_ROR.json ==
@@ -3607,8 +3668,6 @@ WARNING: ValueSet/JDV-J235-LieuFormation-EPARS: ValueSet: Published value sets S
 WARNING: ValueSet/JDV-J236-TypeIdentifiant-ROR: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.title is mandatory, but it is not present
 == input/ontoserver/JDV/JDV_J237_RegionOM_ROR.json ==
 WARNING: ValueSet/JDV-J237-RegionOM-ROR: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.title is mandatory, but it is not present
-== input/ontoserver/JDV/JDV_J238_TypeOffre_ROR.json ==
-WARNING: ValueSet/JDV-J238-TypeOffre-ROR: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.title is mandatory, but it is not present
 == input/ontoserver/JDV/JDV_J239_SpecialitesSNP_SAS.json ==
 WARNING: ValueSet/JDV-J239-SpecialitesSNP-SAS: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.title is mandatory, but it is not present
 == input/ontoserver/JDV/JDV_J23_TypeNoteCahierLiaison_CISIS.json ==
@@ -3675,10 +3734,6 @@ WARNING: ValueSet/JDV-J279-Loinc-UPNOS: ValueSet: Published value sets SHOULD co
 WARNING: ValueSet/JDV-J27-GroupeTarifaireDependance-ROR: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.title is mandatory, but it is not present
 == input/ontoserver/JDV/JDV_J281_StatutsRessourcesMS.json ==
 WARNING: ValueSet/JDV-J281-StatutsRessourcesMS: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.title is mandatory, but it is not present
-== input/ontoserver/JDV/JDV_J286_ProfilUtilisateurReferentielNational_ROR.json ==
-ERROR: ValueSet.where(url = 'https://mos.esante.gouv.fr/NOS/JDV_J286_ProfilUtilisateurReferentielNational_ROR/FHIR/JDV-J286-ProfilUtilisateurReferentielNational-ROR'): Conformance resource /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_J286_ProfilUtilisateurReferentielNational_ROR.json - the canonical URL (https://interop.esante.gouv.fr/ig/terminologie/ValueSet/JDV-J286-ProfilUtilisateurReferentielNational-ROR) does not match the URL (https://mos.esante.gouv.fr/NOS/JDV_J286_ProfilUtilisateurReferentielNational_ROR/FHIR/JDV-J286-ProfilUtilisateurReferentielNational-ROR)
-WARNING: ValueSet/JDV-J286-ProfilUtilisateurReferentielNational-ROR: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.title is mandatory, but it is not present
-ERROR: /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_J286_ProfilUtilisateurReferentielNational_ROR: URL Mismatch https://interop.esante.gouv.fr/ig/terminologie/ValueSet/JDV-J286-ProfilUtilisateurReferentielNational-ROR vs https://mos.esante.gouv.fr/NOS/JDV_J286_ProfilUtilisateurReferentielNational_ROR/FHIR/JDV-J286-ProfilUtilisateurReferentielNational-ROR
 == input/ontoserver/JDV/JDV_J28_OuvertureAnnuelle_ROR.json ==
 WARNING: ValueSet/JDV-J28-OuvertureAnnuelle-ROR: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.title is mandatory, but it is not present
 == input/ontoserver/JDV/JDV_J29_PublicPrisEnCharge_ROR.json ==
@@ -3691,8 +3746,6 @@ WARNING: ValueSet/JDV-J31-AideFinanciere-ROR: ValueSet: Published value sets SHO
 WARNING: ValueSet/JDV-J32-TypeHabitation-ROR: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.title is mandatory, but it is not present
 == input/ontoserver/JDV/JDV_J33_CompetenceSpecifique_ROR.json ==
 WARNING: ValueSet/JDV-J33-CompetenceSpecifique-ROR: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.title is mandatory, but it is not present
-== input/ontoserver/JDV/JDV_J34_CategorieOrganisation_ROR.json ==
-WARNING: ValueSet/JDV-J34-CategorieOrganisation-ROR: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.title is mandatory, but it is not present
 == input/ontoserver/JDV/JDV_J35_SpecialisationDePriseEnCharge_ROR.json ==
 WARNING: ValueSet/JDV-J35-SpecialisationDePriseEnCharge-ROR: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.title is mandatory, but it is not present
 == input/ontoserver/JDV/JDV_J36_TypeTarif_ROR.json ==
@@ -4913,11 +4966,6 @@ WARNING: CodeSystem/TRE-G18-AttributionParticuliereADELI: CodeSystem: Published 
 INFORMATION: CodeSystem/TRE-G18-AttributionParticuliereADELI: CodeSystem.property[0]: This property has only a code ('dateValid') and not a URI, so it has no clearly defined meaning in the terminology ecosystem
 INFORMATION: CodeSystem/TRE-G18-AttributionParticuliereADELI: CodeSystem.property[1]: This property has only a code ('dateMaj') and not a URI, so it has no clearly defined meaning in the terminology ecosystem
 INFORMATION: CodeSystem/TRE-G18-AttributionParticuliereADELI: CodeSystem.property[2]: This property has only a code ('dateFin') and not a URI, so it has no clearly defined meaning in the terminology ecosystem
-== input/ontoserver/TRE/TRE_G19_SecteurActiviteADELI.json ==
-WARNING: CodeSystem/TRE-G19-SecteurActiviteADELI: CodeSystem: Published code systems SHOULD conform to the ShareableCodeSystem profile, which says that the element CodeSystem.title is mandatory, but it is not present
-INFORMATION: CodeSystem/TRE-G19-SecteurActiviteADELI: CodeSystem.property[0]: This property has only a code ('dateValid') and not a URI, so it has no clearly defined meaning in the terminology ecosystem
-INFORMATION: CodeSystem/TRE-G19-SecteurActiviteADELI: CodeSystem.property[1]: This property has only a code ('dateMaj') and not a URI, so it has no clearly defined meaning in the terminology ecosystem
-INFORMATION: CodeSystem/TRE-G19-SecteurActiviteADELI: CodeSystem.property[2]: This property has only a code ('dateFin') and not a URI, so it has no clearly defined meaning in the terminology ecosystem
 == input/ontoserver/TRE/TRE_G20_Specialisation.json ==
 WARNING: CodeSystem/TRE-G20-Specialisation: CodeSystem: Published code systems SHOULD conform to the ShareableCodeSystem profile, which says that the element CodeSystem.title is mandatory, but it is not present
 INFORMATION: CodeSystem/TRE-G20-Specialisation: CodeSystem.property[0]: This property has only a code ('dateValid') and not a URI, so it has no clearly defined meaning in the terminology ecosystem
@@ -4928,11 +4976,6 @@ WARNING: CodeSystem/TRE-R01-EnsembleSavoirFaire-CISIS: CodeSystem: Published cod
 INFORMATION: CodeSystem/TRE-R01-EnsembleSavoirFaire-CISIS: CodeSystem.property[0]: This property has only a code ('dateValid') and not a URI, so it has no clearly defined meaning in the terminology ecosystem
 INFORMATION: CodeSystem/TRE-R01-EnsembleSavoirFaire-CISIS: CodeSystem.property[1]: This property has only a code ('dateMaj') and not a URI, so it has no clearly defined meaning in the terminology ecosystem
 INFORMATION: CodeSystem/TRE-R01-EnsembleSavoirFaire-CISIS: CodeSystem.property[2]: This property has only a code ('dateFin') and not a URI, so it has no clearly defined meaning in the terminology ecosystem
-== input/ontoserver/TRE/TRE_R02_SecteurActivite.json ==
-WARNING: CodeSystem/TRE-R02-SecteurActivite: CodeSystem: Published code systems SHOULD conform to the ShareableCodeSystem profile, which says that the element CodeSystem.title is mandatory, but it is not present
-INFORMATION: CodeSystem/TRE-R02-SecteurActivite: CodeSystem.property[0]: This property has only a code ('dateValid') and not a URI, so it has no clearly defined meaning in the terminology ecosystem
-INFORMATION: CodeSystem/TRE-R02-SecteurActivite: CodeSystem.property[1]: This property has only a code ('dateMaj') and not a URI, so it has no clearly defined meaning in the terminology ecosystem
-INFORMATION: CodeSystem/TRE-R02-SecteurActivite: CodeSystem.property[2]: This property has only a code ('dateFin') and not a URI, so it has no clearly defined meaning in the terminology ecosystem
 == input/ontoserver/TRE/TRE_R03_AttributionParticuliere.json ==
 WARNING: CodeSystem/TRE-R03-AttributionParticuliere: CodeSystem: Published code systems SHOULD conform to the ShareableCodeSystem profile, which says that the element CodeSystem.title is mandatory, but it is not present
 INFORMATION: CodeSystem/TRE-R03-AttributionParticuliere: CodeSystem.property[0]: This property has only a code ('dateValid') and not a URI, so it has no clearly defined meaning in the terminology ecosystem
@@ -5034,16 +5077,6 @@ WARNING: CodeSystem/TRE-R210-ActeSpecifique: CodeSystem: Published code systems 
 INFORMATION: CodeSystem/TRE-R210-ActeSpecifique: CodeSystem.property[0]: This property has only a code ('dateValid') and not a URI, so it has no clearly defined meaning in the terminology ecosystem
 INFORMATION: CodeSystem/TRE-R210-ActeSpecifique: CodeSystem.property[1]: This property has only a code ('dateMaj') and not a URI, so it has no clearly defined meaning in the terminology ecosystem
 INFORMATION: CodeSystem/TRE-R210-ActeSpecifique: CodeSystem.property[2]: This property has only a code ('dateFin') and not a URI, so it has no clearly defined meaning in the terminology ecosystem
-== input/ontoserver/TRE/TRE_R211_ActiviteOperationnelle.json ==
-WARNING: CodeSystem/TRE-R211-ActiviteOperationnelle: CodeSystem: Published code systems SHOULD conform to the ShareableCodeSystem profile, which says that the element CodeSystem.title is mandatory, but it is not present
-INFORMATION: CodeSystem/TRE-R211-ActiviteOperationnelle: CodeSystem.property[0]: This property has only a code ('dateValid') and not a URI, so it has no clearly defined meaning in the terminology ecosystem
-INFORMATION: CodeSystem/TRE-R211-ActiviteOperationnelle: CodeSystem.property[1]: This property has only a code ('dateMaj') and not a URI, so it has no clearly defined meaning in the terminology ecosystem
-INFORMATION: CodeSystem/TRE-R211-ActiviteOperationnelle: CodeSystem.property[2]: This property has only a code ('dateFin') and not a URI, so it has no clearly defined meaning in the terminology ecosystem
-== input/ontoserver/TRE/TRE_R212_Equipement.json ==
-WARNING: CodeSystem/TRE-R212-Equipement: CodeSystem: Published code systems SHOULD conform to the ShareableCodeSystem profile, which says that the element CodeSystem.title is mandatory, but it is not present
-INFORMATION: CodeSystem/TRE-R212-Equipement: CodeSystem.property[0]: This property has only a code ('dateValid') and not a URI, so it has no clearly defined meaning in the terminology ecosystem
-INFORMATION: CodeSystem/TRE-R212-Equipement: CodeSystem.property[1]: This property has only a code ('dateMaj') and not a URI, so it has no clearly defined meaning in the terminology ecosystem
-INFORMATION: CodeSystem/TRE-R212-Equipement: CodeSystem.property[2]: This property has only a code ('dateFin') and not a URI, so it has no clearly defined meaning in the terminology ecosystem
 == input/ontoserver/TRE/TRE_R213_ModePriseEnCharge.json ==
 WARNING: CodeSystem/TRE-R213-ModePriseEnCharge: CodeSystem: Published code systems SHOULD conform to the ShareableCodeSystem profile, which says that the element CodeSystem.title is mandatory, but it is not present
 INFORMATION: CodeSystem/TRE-R213-ModePriseEnCharge: CodeSystem.property[0]: This property has only a code ('dateValid') and not a URI, so it has no clearly defined meaning in the terminology ecosystem
@@ -5204,11 +5237,6 @@ WARNING: CodeSystem/TRE-R243-CompetenceSpecifique: CodeSystem: Published code sy
 INFORMATION: CodeSystem/TRE-R243-CompetenceSpecifique: CodeSystem.property[0]: This property has only a code ('dateValid') and not a URI, so it has no clearly defined meaning in the terminology ecosystem
 INFORMATION: CodeSystem/TRE-R243-CompetenceSpecifique: CodeSystem.property[1]: This property has only a code ('dateMaj') and not a URI, so it has no clearly defined meaning in the terminology ecosystem
 INFORMATION: CodeSystem/TRE-R243-CompetenceSpecifique: CodeSystem.property[2]: This property has only a code ('dateFin') and not a URI, so it has no clearly defined meaning in the terminology ecosystem
-== input/ontoserver/TRE/TRE_R244_CategorieOrganisation.json ==
-WARNING: CodeSystem/TRE-R244-CategorieOrganisation: CodeSystem: Published code systems SHOULD conform to the ShareableCodeSystem profile, which says that the element CodeSystem.title is mandatory, but it is not present
-INFORMATION: CodeSystem/TRE-R244-CategorieOrganisation: CodeSystem.property[0]: This property has only a code ('dateValid') and not a URI, so it has no clearly defined meaning in the terminology ecosystem
-INFORMATION: CodeSystem/TRE-R244-CategorieOrganisation: CodeSystem.property[1]: This property has only a code ('dateMaj') and not a URI, so it has no clearly defined meaning in the terminology ecosystem
-INFORMATION: CodeSystem/TRE-R244-CategorieOrganisation: CodeSystem.property[2]: This property has only a code ('dateFin') and not a URI, so it has no clearly defined meaning in the terminology ecosystem
 == input/ontoserver/TRE/TRE_R245_SpecialisationDePriseEnCharge.json ==
 WARNING: CodeSystem/TRE-R245-SpecialisationDePriseEnCharge: CodeSystem: Published code systems SHOULD conform to the ShareableCodeSystem profile, which says that the element CodeSystem.title is mandatory, but it is not present
 INFORMATION: CodeSystem/TRE-R245-SpecialisationDePriseEnCharge: CodeSystem.property[0]: This property has only a code ('dateValid') and not a URI, so it has no clearly defined meaning in the terminology ecosystem
@@ -5409,11 +5437,6 @@ WARNING: CodeSystem/TRE-R286-TypeFermeture: CodeSystem: Published code systems S
 INFORMATION: CodeSystem/TRE-R286-TypeFermeture: CodeSystem.property[0]: This property has only a code ('dateValid') and not a URI, so it has no clearly defined meaning in the terminology ecosystem
 INFORMATION: CodeSystem/TRE-R286-TypeFermeture: CodeSystem.property[1]: This property has only a code ('dateMaj') and not a URI, so it has no clearly defined meaning in the terminology ecosystem
 INFORMATION: CodeSystem/TRE-R286-TypeFermeture: CodeSystem.property[2]: This property has only a code ('dateFin') and not a URI, so it has no clearly defined meaning in the terminology ecosystem
-== input/ontoserver/TRE/TRE_R287_NatureContact.json ==
-WARNING: CodeSystem/TRE-R287-NatureContact: CodeSystem: Published code systems SHOULD conform to the ShareableCodeSystem profile, which says that the element CodeSystem.title is mandatory, but it is not present
-INFORMATION: CodeSystem/TRE-R287-NatureContact: CodeSystem.property[0]: This property has only a code ('dateValid') and not a URI, so it has no clearly defined meaning in the terminology ecosystem
-INFORMATION: CodeSystem/TRE-R287-NatureContact: CodeSystem.property[1]: This property has only a code ('dateMaj') and not a URI, so it has no clearly defined meaning in the terminology ecosystem
-INFORMATION: CodeSystem/TRE-R287-NatureContact: CodeSystem.property[2]: This property has only a code ('dateFin') and not a URI, so it has no clearly defined meaning in the terminology ecosystem
 == input/ontoserver/TRE/TRE_R288_TypeProfession.json ==
 WARNING: CodeSystem/TRE-R288-TypeProfession: CodeSystem: Published code systems SHOULD conform to the ShareableCodeSystem profile, which says that the element CodeSystem.title is mandatory, but it is not present
 INFORMATION: CodeSystem/TRE-R288-TypeProfession: CodeSystem.property[0]: This property has only a code ('dateValid') and not a URI, so it has no clearly defined meaning in the terminology ecosystem
@@ -5596,11 +5619,6 @@ WARNING: CodeSystem/TRE-R32-StatutHospitalier: CodeSystem: Published code system
 INFORMATION: CodeSystem/TRE-R32-StatutHospitalier: CodeSystem.property[0]: This property has only a code ('dateValid') and not a URI, so it has no clearly defined meaning in the terminology ecosystem
 INFORMATION: CodeSystem/TRE-R32-StatutHospitalier: CodeSystem.property[1]: This property has only a code ('dateMaj') and not a URI, so it has no clearly defined meaning in the terminology ecosystem
 INFORMATION: CodeSystem/TRE-R32-StatutHospitalier: CodeSystem.property[2]: This property has only a code ('dateFin') and not a URI, so it has no clearly defined meaning in the terminology ecosystem
-== input/ontoserver/TRE/TRE_R330_TypeStatutCapacite.json ==
-WARNING: CodeSystem/TRE-R330-TypeStatutCapacite: CodeSystem: Published code systems SHOULD conform to the ShareableCodeSystem profile, which says that the element CodeSystem.title is mandatory, but it is not present
-INFORMATION: CodeSystem/TRE-R330-TypeStatutCapacite: CodeSystem.property[0]: This property has only a code ('dateValid') and not a URI, so it has no clearly defined meaning in the terminology ecosystem
-INFORMATION: CodeSystem/TRE-R330-TypeStatutCapacite: CodeSystem.property[1]: This property has only a code ('dateMaj') and not a URI, so it has no clearly defined meaning in the terminology ecosystem
-INFORMATION: CodeSystem/TRE-R330-TypeStatutCapacite: CodeSystem.property[2]: This property has only a code ('dateFin') and not a URI, so it has no clearly defined meaning in the terminology ecosystem
 == input/ontoserver/TRE/TRE_R331_TemporaliteCapacite.json ==
 WARNING: CodeSystem/TRE-R331-TemporaliteCapacite: CodeSystem: Published code systems SHOULD conform to the ShareableCodeSystem profile, which says that the element CodeSystem.title is mandatory, but it is not present
 INFORMATION: CodeSystem/TRE-R331-TemporaliteCapacite: CodeSystem.property[0]: This property has only a code ('dateValid') and not a URI, so it has no clearly defined meaning in the terminology ecosystem
@@ -5636,11 +5654,6 @@ WARNING: CodeSystem/TRE-R337-AffectationTemporaire: CodeSystem: Published code s
 INFORMATION: CodeSystem/TRE-R337-AffectationTemporaire: CodeSystem.property[0]: This property has only a code ('dateValid') and not a URI, so it has no clearly defined meaning in the terminology ecosystem
 INFORMATION: CodeSystem/TRE-R337-AffectationTemporaire: CodeSystem.property[1]: This property has only a code ('dateMaj') and not a URI, so it has no clearly defined meaning in the terminology ecosystem
 INFORMATION: CodeSystem/TRE-R337-AffectationTemporaire: CodeSystem.property[2]: This property has only a code ('dateFin') and not a URI, so it has no clearly defined meaning in the terminology ecosystem
-== input/ontoserver/TRE/TRE_R338_ModaliteAccueil.json ==
-WARNING: CodeSystem/TRE-R338-ModaliteAccueil: CodeSystem: Published code systems SHOULD conform to the ShareableCodeSystem profile, which says that the element CodeSystem.title is mandatory, but it is not present
-INFORMATION: CodeSystem/TRE-R338-ModaliteAccueil: CodeSystem.property[0]: This property has only a code ('dateValid') and not a URI, so it has no clearly defined meaning in the terminology ecosystem
-INFORMATION: CodeSystem/TRE-R338-ModaliteAccueil: CodeSystem.property[1]: This property has only a code ('dateMaj') and not a URI, so it has no clearly defined meaning in the terminology ecosystem
-INFORMATION: CodeSystem/TRE-R338-ModaliteAccueil: CodeSystem.property[2]: This property has only a code ('dateFin') and not a URI, so it has no clearly defined meaning in the terminology ecosystem
 == input/ontoserver/TRE/TRE_R33_StatutInscription.json ==
 WARNING: CodeSystem/TRE-R33-StatutInscription: CodeSystem: Published code systems SHOULD conform to the ShareableCodeSystem profile, which says that the element CodeSystem.title is mandatory, but it is not present
 INFORMATION: CodeSystem/TRE-R33-StatutInscription: CodeSystem.property[0]: This property has only a code ('dateValid') and not a URI, so it has no clearly defined meaning in the terminology ecosystem
@@ -5666,11 +5679,6 @@ WARNING: CodeSystem/TRE-R343-FonctionLieu: CodeSystem: Published code systems SH
 INFORMATION: CodeSystem/TRE-R343-FonctionLieu: CodeSystem.property[0]: This property has only a code ('dateValid') and not a URI, so it has no clearly defined meaning in the terminology ecosystem
 INFORMATION: CodeSystem/TRE-R343-FonctionLieu: CodeSystem.property[1]: This property has only a code ('dateMaj') and not a URI, so it has no clearly defined meaning in the terminology ecosystem
 INFORMATION: CodeSystem/TRE-R343-FonctionLieu: CodeSystem.property[2]: This property has only a code ('dateFin') and not a URI, so it has no clearly defined meaning in the terminology ecosystem
-== input/ontoserver/TRE/TRE_R344_NiveauExpertise.json ==
-WARNING: CodeSystem/TRE-R344-NiveauExpertise: CodeSystem: Published code systems SHOULD conform to the ShareableCodeSystem profile, which says that the element CodeSystem.title is mandatory, but it is not present
-INFORMATION: CodeSystem/TRE-R344-NiveauExpertise: CodeSystem.property[0]: This property has only a code ('dateValid') and not a URI, so it has no clearly defined meaning in the terminology ecosystem
-INFORMATION: CodeSystem/TRE-R344-NiveauExpertise: CodeSystem.property[1]: This property has only a code ('dateMaj') and not a URI, so it has no clearly defined meaning in the terminology ecosystem
-INFORMATION: CodeSystem/TRE-R344-NiveauExpertise: CodeSystem.property[2]: This property has only a code ('dateFin') and not a URI, so it has no clearly defined meaning in the terminology ecosystem
 == input/ontoserver/TRE/TRE_R345_TypeIdentifiantAutre.json ==
 WARNING: CodeSystem/TRE-R345-TypeIdentifiantAutre: CodeSystem: Published code systems SHOULD conform to the ShareableCodeSystem profile, which says that the element CodeSystem.title is mandatory, but it is not present
 INFORMATION: CodeSystem/TRE-R345-TypeIdentifiantAutre: CodeSystem.property[0]: This property has only a code ('dateValid') and not a URI, so it has no clearly defined meaning in the terminology ecosystem
@@ -5743,13 +5751,6 @@ INFORMATION: CodeSystem/TRE-R368-StatutRessource: CodeSystem.property[0]: This p
 INFORMATION: CodeSystem/TRE-R368-StatutRessource: CodeSystem.property[1]: This property has only a code ('dateMaj') and not a URI, so it has no clearly defined meaning in the terminology ecosystem
 INFORMATION: CodeSystem/TRE-R368-StatutRessource: CodeSystem.property[2]: This property has only a code ('dateFin') and not a URI, so it has no clearly defined meaning in the terminology ecosystem
 ERROR: /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/TRE/TRE_R368_StatutRessource: URL Mismatch https://interop.esante.gouv.fr/ig/terminologie/CodeSystem/TRE-R368-StatutRessource vs https://mos.esante.gouv.fr/NOS/TRE_R368-StatutRessource/FHIR/TRE-R368-StatutRessource
-== input/ontoserver/TRE/TRE_R369_ProfilUtilisateurReferentielNational.json ==
-ERROR: CodeSystem.where(url = 'https://mos.esante.gouv.fr/NOS/TRE_R369_ProfilUtilisateurReferentielNational/FHIR/TRE-R369-ProfilUtilisateurReferentielNational'): Conformance resource /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/TRE/TRE_R369_ProfilUtilisateurReferentielNational.json - the canonical URL (https://interop.esante.gouv.fr/ig/terminologie/CodeSystem/TRE-R369-ProfilUtilisateurReferentielNational) does not match the URL (https://mos.esante.gouv.fr/NOS/TRE_R369_ProfilUtilisateurReferentielNational/FHIR/TRE-R369-ProfilUtilisateurReferentielNational)
-WARNING: CodeSystem/TRE-R369-ProfilUtilisateurReferentielNational: CodeSystem: Published code systems SHOULD conform to the ShareableCodeSystem profile, which says that the element CodeSystem.title is mandatory, but it is not present
-INFORMATION: CodeSystem/TRE-R369-ProfilUtilisateurReferentielNational: CodeSystem.property[0]: This property has only a code ('dateValid') and not a URI, so it has no clearly defined meaning in the terminology ecosystem
-INFORMATION: CodeSystem/TRE-R369-ProfilUtilisateurReferentielNational: CodeSystem.property[1]: This property has only a code ('dateMaj') and not a URI, so it has no clearly defined meaning in the terminology ecosystem
-INFORMATION: CodeSystem/TRE-R369-ProfilUtilisateurReferentielNational: CodeSystem.property[2]: This property has only a code ('dateFin') and not a URI, so it has no clearly defined meaning in the terminology ecosystem
-ERROR: /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/TRE/TRE_R369_ProfilUtilisateurReferentielNational: URL Mismatch https://interop.esante.gouv.fr/ig/terminologie/CodeSystem/TRE-R369-ProfilUtilisateurReferentielNational vs https://mos.esante.gouv.fr/NOS/TRE_R369_ProfilUtilisateurReferentielNational/FHIR/TRE-R369-ProfilUtilisateurReferentielNational
 == input/ontoserver/TRE/TRE_R36_AutreDiplomeObtenu.json ==
 WARNING: CodeSystem/TRE-R36-AutreDiplomeObtenu: CodeSystem: Published code systems SHOULD conform to the ShareableCodeSystem profile, which says that the element CodeSystem.title is mandatory, but it is not present
 INFORMATION: CodeSystem/TRE-R36-AutreDiplomeObtenu: CodeSystem.property[0]: This property has only a code ('dateValid') and not a URI, so it has no clearly defined meaning in the terminology ecosystem

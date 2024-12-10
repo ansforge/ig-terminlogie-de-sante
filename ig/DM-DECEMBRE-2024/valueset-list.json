@@ -53,7 +53,7 @@
     },
     {
       "url" : "https://mos.esante.gouv.fr/NOS/JDV_J02-XdsHealthcareFacilityTypeCode-CISIS/FHIR/JDV-J02-XdsHealthcareFacilityTypeCode-CISIS",
-      "version" : "20240726120000",
+      "version" : "20241209120000",
       "status" : "active",
       "name" : "JDV_J02_XdsHealthcareFacilityTypeCode_CISIS",
       "title" : null,
@@ -67,7 +67,7 @@
     },
     {
       "url" : "https://mos.esante.gouv.fr/NOS/JDV_J03-XdsContentTypeCode-CISIS/FHIR/JDV-J03-XdsContentTypeCode-CISIS",
-      "version" : "20240726120000",
+      "version" : "20241209120000",
       "status" : "active",
       "name" : "JDV_J03_XdsContentTypeCode_CISIS",
       "title" : null,
@@ -192,7 +192,7 @@
     },
     {
       "url" : "https://mos.esante.gouv.fr/NOS/JDV_J101-SecteurActivite-RASS/FHIR/JDV-J101-SecteurActivite-RASS",
-      "version" : "20240726120000",
+      "version" : "20241209120000",
       "status" : "active",
       "name" : "JDV_J101_SecteurActivite_RASS",
       "title" : null,
@@ -1152,7 +1152,7 @@
     },
     {
       "url" : "https://mos.esante.gouv.fr/NOS/JDV_J17-ActiviteOperationnelle-ROR/FHIR/JDV-J17-ActiviteOperationnelle-ROR",
-      "version" : "20241025120000",
+      "version" : "20241209120000",
       "status" : "active",
       "name" : "JDV_J17_ActiviteOperationnelle_ROR",
       "title" : null,
@@ -1191,7 +1191,7 @@
     },
     {
       "url" : "https://mos.esante.gouv.fr/NOS/JDV_J172-SecteurActivite-EPARS/FHIR/JDV-J172-SecteurActivite-EPARS",
-      "version" : "20240726120000",
+      "version" : "20241209120000",
       "status" : "active",
       "name" : "JDV_J172_SecteurActivite_EPARS",
       "title" : null,
@@ -1273,7 +1273,7 @@
     },
     {
       "url" : "https://mos.esante.gouv.fr/NOS/JDV_J18-EquipementSpecifique-ROR/FHIR/JDV-J18-EquipementSpecifique-ROR",
-      "version" : "20241025120000",
+      "version" : "20241209120000",
       "status" : "active",
       "name" : "JDV_J18_EquipementSpecifique_ROR",
       "title" : null,
@@ -1389,7 +1389,7 @@
     },
     {
       "url" : "https://mos.esante.gouv.fr/NOS/JDV_J188-TypeStatutCapacite-ROR/FHIR/JDV-J188-TypeStatutCapacite-ROR",
-      "version" : "20220527120000",
+      "version" : "20241209120000",
       "status" : "active",
       "name" : "JDV_J188_TypeStatutCapacite_ROR",
       "title" : null,
@@ -1871,7 +1871,7 @@
     },
     {
       "url" : "https://mos.esante.gouv.fr/NOS/JDV_J221-NatureContact-ROR/FHIR/JDV-J221-NatureContact-ROR",
-      "version" : "20240426120000",
+      "version" : "20241209120000",
       "status" : "active",
       "name" : "JDV_J221_NatureContact_ROR",
       "title" : null,
@@ -1936,7 +1936,7 @@
     },
     {
       "url" : "https://mos.esante.gouv.fr/NOS/JDV_J226-ModaliteAccueil-ROR/FHIR/JDV-J226-ModaliteAccueil-ROR",
-      "version" : "20230217120000",
+      "version" : "20241209120000",
       "status" : "active",
       "name" : "JDV_J226_ModaliteAccueil_ROR",
       "title" : null,
@@ -1949,7 +1949,7 @@
     },
     {
       "url" : "https://mos.esante.gouv.fr/NOS/JDV_J227-NiveauExpertise-ROR/FHIR/JDV-J227-NiveauExpertise-ROR",
-      "version" : "20240726120000",
+      "version" : "20241209120000",
       "status" : "active",
       "name" : "JDV_J227_NiveauExpertise_ROR",
       "title" : null,
@@ -2097,7 +2097,7 @@
     },
     {
       "url" : "https://mos.esante.gouv.fr/NOS/JDV_J238-TypeOffre-ROR/FHIR/JDV-J238-TypeOffre-ROR",
-      "version" : "20241025120000",
+      "version" : "20241209120000",
       "status" : "active",
       "name" : "JDV_J238_TypeOffre_ROR",
       "title" : null,
@@ -2581,7 +2581,7 @@
     },
     {
       "url" : "https://mos.esante.gouv.fr/NOS/JDV_J286_ProfilUtilisateurReferentielNational_ROR/FHIR/JDV-J286-ProfilUtilisateurReferentielNational-ROR",
-      "version" : "20241025120000",
+      "version" : "20241209120000",
       "status" : "active",
       "name" : "JDV_J286_ProfilUtilisateurReferentielNational_ROR",
       "title" : null,
@@ -2659,7 +2659,7 @@
     },
     {
       "url" : "https://mos.esante.gouv.fr/NOS/JDV_J34-CategorieOrganisation-ROR/FHIR/JDV-J34-CategorieOrganisation-ROR",
-      "version" : "20241025120000",
+      "version" : "20241209120000",
       "status" : "active",
       "name" : "JDV_J34_CategorieOrganisation_ROR",
       "title" : null,

@@ -2,7 +2,7 @@
 <RetrieveValueSetResponse xmlns="urn:ihe:iti:svs:2008"
                           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
    <ValueSet dateFin=""
-             dateMaj="20240726120000"
+             dateMaj="20241209120000"
              dateValid="20220826120000"
              description="Niveau de ressources humaines et matérielles utiles pour la réalisation de l'offre"
              displayName="JDV_J227_NiveauExpertise_ROR"
@@ -109,6 +109,18 @@
          <concept code="38"
                   codeSystem="1.2.250.1.213.3.3.228"
                   displayName="Unité neuro-vasculaire (UNV) de recours"/>
+         <concept code="39"
+                  codeSystem="1.2.250.1.213.3.3.228"
+                  displayName="Filière Obésité – Niveau 1 (Conventionné CSO)"/>
+         <concept code="40"
+                  codeSystem="1.2.250.1.213.3.3.228"
+                  displayName="Filière Obésité – Niveau 2 (Conventionné CSO)"/>
+         <concept code="41"
+                  codeSystem="1.2.250.1.213.3.3.228"
+                  displayName="Filière Obésité – Niveau 3 (Conventionné CSO)"/>
+         <concept code="42"
+                  codeSystem="1.2.250.1.213.3.3.228"
+                  displayName="Filière Obésité – Niveau 3 (Centre Spécialisé Obésité)"/>
       </ConceptList>
    </ValueSet>
 </RetrieveValueSetResponse>

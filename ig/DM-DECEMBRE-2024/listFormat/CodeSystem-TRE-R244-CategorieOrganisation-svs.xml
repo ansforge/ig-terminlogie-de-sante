@@ -2,7 +2,7 @@
 <RetrieveValueSetResponse xmlns="urn:ihe:iti:svs:2008"
                           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
    <ValueSet dateFin=""
-             dateMaj="20241025120000"
+             dateMaj="20241209120000"
              dateValid="20171013120000"
              description="Catégorie d'organisation"
              displayName="TRE_R244_CategorieOrganisation"
@@ -1584,6 +1584,15 @@
                   displayName="Unités de soins palliatifs"
                   longDesignation="Unités de soins palliatifs"
                   shortDesignation="Unités de soins palliatifs"
+                  descriptionMetier=""/>
+         <concept code="176"
+                  codeSystem="1.2.250.1.213.3.3.39"
+                  dateFin=""
+                  dateMaj="20241209120000"
+                  dateValid="20241209120000"
+                  displayName="Unité hospitalière de médecine interne"
+                  longDesignation="Unité hospitalière de médecine interne"
+                  shortDesignation="Unité de médecine interne"
                   descriptionMetier=""/>
       </ConceptList>
    </ValueSet>

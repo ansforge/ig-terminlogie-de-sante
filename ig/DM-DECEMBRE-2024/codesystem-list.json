@@ -281,7 +281,7 @@
     },
     {
       "url" : "https://mos.esante.gouv.fr/NOS/TRE_G19-SecteurActiviteADELI/FHIR/TRE-G19-SecteurActiviteADELI",
-      "version" : "20240726120000",
+      "version" : "20241209120000",
       "status" : "active",
       "name" : "TRE_G19_SecteurActiviteADELI",
       "title" : null,
@@ -308,7 +308,7 @@
     },
     {
       "url" : "https://mos.esante.gouv.fr/NOS/TRE_R02-SecteurActivite/FHIR/TRE-R02-SecteurActivite",
-      "version" : "20240726120000",
+      "version" : "20241209120000",
       "status" : "active",
       "name" : "TRE_R02_SecteurActivite",
       "title" : null,
@@ -533,7 +533,7 @@
     },
     {
       "url" : "https://mos.esante.gouv.fr/NOS/TRE_R211-ActiviteOperationnelle/FHIR/TRE-R211-ActiviteOperationnelle",
-      "version" : "20241025120000",
+      "version" : "20241209120000",
       "status" : "active",
       "name" : "TRE_R211_ActiviteOperationnelle",
       "title" : null,
@@ -542,7 +542,7 @@
     },
     {
       "url" : "https://mos.esante.gouv.fr/NOS/TRE_R212-Equipement/FHIR/TRE-R212-Equipement",
-      "version" : "20241025120000",
+      "version" : "20241209120000",
       "status" : "active",
       "name" : "TRE_R212_Equipement",
       "title" : null,
@@ -839,7 +839,7 @@
     },
     {
       "url" : "https://mos.esante.gouv.fr/NOS/TRE_R244-CategorieOrganisation/FHIR/TRE-R244-CategorieOrganisation",
-      "version" : "20241025120000",
+      "version" : "20241209120000",
       "status" : "active",
       "name" : "TRE_R244_CategorieOrganisation",
       "title" : null,
@@ -1208,7 +1208,7 @@
     },
     {
       "url" : "https://mos.esante.gouv.fr/NOS/TRE_R287-NatureContact/FHIR/TRE-R287-NatureContact",
-      "version" : "20240426120000",
+      "version" : "20241209120000",
       "status" : "active",
       "name" : "TRE_R287_NatureContact",
       "title" : null,
@@ -1550,7 +1550,7 @@
     },
     {
       "url" : "https://mos.esante.gouv.fr/NOS/TRE_R330-TypeStatutCapacite/FHIR/TRE-R330-TypeStatutCapacite",
-      "version" : "20231215120000",
+      "version" : "20241209120000",
       "status" : "active",
       "name" : "TRE_R330_TypeStatutCapacite",
       "title" : null,
@@ -1622,7 +1622,7 @@
     },
     {
       "url" : "https://mos.esante.gouv.fr/NOS/TRE_R338-ModaliteAccueil/FHIR/TRE-R338-ModaliteAccueil",
-      "version" : "20231215120000",
+      "version" : "20241209120000",
       "status" : "active",
       "name" : "TRE_R338_ModaliteAccueil",
       "title" : null,
@@ -1676,7 +1676,7 @@
     },
     {
       "url" : "https://mos.esante.gouv.fr/NOS/TRE_R344-NiveauExpertise/FHIR/TRE-R344-NiveauExpertise",
-      "version" : "20240726120000",
+      "version" : "20241209120000",
       "status" : "active",
       "name" : "TRE_R344_NiveauExpertise",
       "title" : null,
@@ -1811,7 +1811,7 @@
     },
     {
       "url" : "https://mos.esante.gouv.fr/NOS/TRE_R369_ProfilUtilisateurReferentielNational/FHIR/TRE-R369-ProfilUtilisateurReferentielNational",
-      "version" : "20241025120000",
+      "version" : "20241209120000",
       "status" : "active",
       "name" : "TRE_R369_ProfilUtilisateurReferentielNational",
       "title" : null,
@@ -2356,7 +2356,7 @@
     },
     {
       "url" : "https://smt.esante.gouv.fr/terminologie-nuva",
-      "version" : "1.0.799",
+      "version" : "1.0.818",
       "status" : "active",
       "name" : "NUVA",
       "title" : "La Nomenclature Unifiée des Vaccins (NUVA)",
@@ -2364,7 +2364,7 @@
     },
     {
       "url" : "https://smt.esante.gouv.fr/terminologie-sms",
-      "version" : "2024-11",
+      "version" : "2024-12",
       "status" : "active",
       "name" : "Dictionnaire_des_substances_m_dicamenteuses__SMS_",
       "title" : null,

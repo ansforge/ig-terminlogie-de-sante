@@ -2,7 +2,7 @@
 <RetrieveValueSetResponse xmlns="urn:ihe:iti:svs:2008"
                           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
    <ValueSet dateFin=""
-             dateMaj="20240426120000"
+             dateMaj="20241209120000"
              dateValid="20220826120000"
              description="Un service ou un guichet assurant le contact au sein de l'organisation"
              displayName="JDV_J221_NatureContact_ROR"
@@ -46,6 +46,7 @@
          <concept code="16"
                   codeSystem="1.2.250.1.213.3.3.67"
                   displayName="Cellule opérationnelle de Bed Management"/>
+         <concept code="17" codeSystem="1.2.250.1.213.3.3.67" displayName="Télésoin"/>
       </ConceptList>
    </ValueSet>
 </RetrieveValueSetResponse>
