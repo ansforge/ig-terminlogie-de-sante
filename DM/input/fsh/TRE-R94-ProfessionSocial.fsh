@@ -11,10 +11,10 @@ Description: "Profession du social"
 * ^url = "https://mos.esante.gouv.fr/NOS/TRE_R94-ProfessionSocial/FHIR/TRE-R94-ProfessionSocial"
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value = "urn:oid:1.2.250.1.213.1.6.1.4"
-* ^version = "20231215120000"
+* ^version = "20241210120000"
 * ^status = #active
 * ^experimental = false
-* ^date = "2023-12-15T12:00:00+01:00"
+* ^date = "2024-12-10T12:00:00+01:00"
 * ^publisher = "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris"
 * ^caseSensitive = false
 * ^content = #complete
@@ -153,6 +153,8 @@ Description: "Profession du social"
 * #42 "Auxiliaire de vie sociale"
 * #42 ^property[0].code = #dateValid
 * #42 ^property[=].valueDateTime = "2017-10-13T12:00:00+01:00"
+* #42 ^property[+].code = #dateFin
+* #42 ^property[=].valueDateTime = "2024-12-10T12:00:00+01:00"
 * #42 ^property[+].code = #dateMaj
 * #42 ^property[=].valueDateTime = "2020-05-29T12:00:00+01:00"
 * #43 "Technicien de l'intervention sociale et familiale"
@@ -162,6 +164,8 @@ Description: "Profession du social"
 * #43 ^designation[=].value = "Technicien ISF"
 * #43 ^property[0].code = #dateValid
 * #43 ^property[=].valueDateTime = "2017-10-13T12:00:00+01:00"
+* #43 ^property[+].code = #dateFin
+* #43 ^property[=].valueDateTime = "2024-12-10T12:00:00+01:00"
 * #43 ^property[+].code = #dateMaj
 * #43 ^property[=].valueDateTime = "2020-05-29T12:00:00+01:00"
 * #44 "Conseiller en économie sociale et familiale"
@@ -171,16 +175,22 @@ Description: "Profession du social"
 * #44 ^designation[=].value = "Conseiller ESF"
 * #44 ^property[0].code = #dateValid
 * #44 ^property[=].valueDateTime = "2017-10-13T12:00:00+01:00"
+* #44 ^property[+].code = #dateFin
+* #44 ^property[=].valueDateTime = "2024-12-10T12:00:00+01:00"
 * #44 ^property[+].code = #dateMaj
 * #44 ^property[=].valueDateTime = "2020-05-29T12:00:00+01:00"
 * #45 "Médiateur familial"
 * #45 ^property[0].code = #dateValid
 * #45 ^property[=].valueDateTime = "2017-10-13T12:00:00+01:00"
+* #45 ^property[+].code = #dateFin
+* #45 ^property[=].valueDateTime = "2024-12-10T12:00:00+01:00"
 * #45 ^property[+].code = #dateMaj
 * #45 ^property[=].valueDateTime = "2020-05-29T12:00:00+01:00"
 * #46 "Assistant familial"
 * #46 ^property[0].code = #dateValid
 * #46 ^property[=].valueDateTime = "2017-10-13T12:00:00+01:00"
+* #46 ^property[+].code = #dateFin
+* #46 ^property[=].valueDateTime = "2024-12-10T12:00:00+01:00"
 * #46 ^property[+].code = #dateMaj
 * #46 ^property[=].valueDateTime = "2020-05-29T12:00:00+01:00"
 * #47 "Aide médico-psychologique"
@@ -193,26 +203,36 @@ Description: "Profession du social"
 * #47 ^designation[=].value = "Aide médico-psychologique (AMP)"
 * #47 ^property[0].code = #dateValid
 * #47 ^property[=].valueDateTime = "2017-10-13T12:00:00+01:00"
+* #47 ^property[+].code = #dateFin
+* #47 ^property[=].valueDateTime = "2024-12-10T12:00:00+01:00"
 * #47 ^property[+].code = #dateMaj
 * #47 ^property[=].valueDateTime = "2020-05-29T12:00:00+01:00"
 * #48 "Moniteur éducateur"
 * #48 ^property[0].code = #dateValid
 * #48 ^property[=].valueDateTime = "2017-10-13T12:00:00+01:00"
+* #48 ^property[+].code = #dateFin
+* #48 ^property[=].valueDateTime = "2024-12-10T12:00:00+01:00"
 * #48 ^property[+].code = #dateMaj
 * #48 ^property[=].valueDateTime = "2020-05-29T12:00:00+01:00"
 * #49 "Educateur de jeunes enfants"
 * #49 ^property[0].code = #dateValid
 * #49 ^property[=].valueDateTime = "2017-10-13T12:00:00+01:00"
+* #49 ^property[+].code = #dateFin
+* #49 ^property[=].valueDateTime = "2024-12-10T12:00:00+01:00"
 * #49 ^property[+].code = #dateMaj
 * #49 ^property[=].valueDateTime = "2020-05-29T12:00:00+01:00"
 * #51 "Educateur spécialisé"
 * #51 ^property[0].code = #dateValid
 * #51 ^property[=].valueDateTime = "2017-10-13T12:00:00+01:00"
+* #51 ^property[+].code = #dateFin
+* #51 ^property[=].valueDateTime = "2024-12-10T12:00:00+01:00"
 * #51 ^property[+].code = #dateMaj
 * #51 ^property[=].valueDateTime = "2020-05-29T12:00:00+01:00"
 * #52 "Educateur technique spécialisé"
 * #52 ^property[0].code = #dateValid
 * #52 ^property[=].valueDateTime = "2017-10-13T12:00:00+01:00"
+* #52 ^property[+].code = #dateFin
+* #52 ^property[=].valueDateTime = "2024-12-10T12:00:00+01:00"
 * #52 ^property[+].code = #dateMaj
 * #52 ^property[=].valueDateTime = "2020-05-29T12:00:00+01:00"
 * #53 "Accompagnant éducatif et social"
@@ -221,5 +241,7 @@ Description: "Profession du social"
 * #53 ^designation[=].value = "Accompagnant éducatif social"
 * #53 ^property[0].code = #dateValid
 * #53 ^property[=].valueDateTime = "2019-03-29T12:00:00+01:00"
+* #53 ^property[+].code = #dateFin
+* #53 ^property[=].valueDateTime = "2024-12-10T12:00:00+01:00"
 * #53 ^property[+].code = #dateMaj
 * #53 ^property[=].valueDateTime = "2020-05-29T12:00:00+01:00"
