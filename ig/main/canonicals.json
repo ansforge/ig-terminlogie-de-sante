@@ -8037,7 +8037,7 @@
     "id" : "terminologie-sms",
     "type" : "CodeSystem",
     "url" : "https://smt.esante.gouv.fr/terminologie-sms",
-    "version" : "2024-11",
+    "version" : "2024-12",
     "name" : "Dictionnaire_des_substances_m_dicamenteuses__SMS_"
   },
   {
