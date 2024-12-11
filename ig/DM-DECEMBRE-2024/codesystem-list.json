@@ -578,7 +578,7 @@
     },
     {
       "url" : "https://mos.esante.gouv.fr/NOS/TRE_R216-HL7RoleCode/FHIR/TRE-R216-HL7RoleCode",
-      "version" : "20240126120000",
+      "version" : "20241211120000",
       "status" : "active",
       "name" : "TRE_R216_HL7RoleCode",
       "title" : null,

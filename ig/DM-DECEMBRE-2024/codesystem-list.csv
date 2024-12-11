@@ -63,7 +63,7 @@ https://mos.esante.gouv.fr/NOS/TRE_R212-Equipement/FHIR/TRE-R212-Equipement,2024
 https://mos.esante.gouv.fr/NOS/TRE_R213-ModePriseEnCharge/FHIR/TRE-R213-ModePriseEnCharge,20240329120000,active,"1.2.250.1.213.3.3.13",TRE_R213_ModePriseEnCharge,,"Mode de la prise en charge",
 https://mos.esante.gouv.fr/NOS/TRE_R214-SpecialiteUnite/FHIR/TRE-R214-SpecialiteUnite,20241025120000,retired,"1.2.250.1.213.3.3.14",TRE_R214_SpecialiteUnite,,"Spécialité d'unité",
 https://mos.esante.gouv.fr/NOS/TRE_R215-UniteTemps/FHIR/TRE-R215-UniteTemps,20231215120000,retired,"1.2.250.1.213.3.3.15",TRE_R215_UniteTemps,,"Unité de temps",
-https://mos.esante.gouv.fr/NOS/TRE_R216-HL7RoleCode/FHIR/TRE-R216-HL7RoleCode,20240126120000,active,"2.16.840.1.113883.5.111",TRE_R216_HL7RoleCode,,"HL7 roleCode",
+https://mos.esante.gouv.fr/NOS/TRE_R216-HL7RoleCode/FHIR/TRE-R216-HL7RoleCode,20241211120000,active,"2.16.840.1.113883.5.111",TRE_R216_HL7RoleCode,,"HL7 roleCode",
 https://mos.esante.gouv.fr/NOS/TRE_R217-ProtectionJuridique/FHIR/TRE-R217-ProtectionJuridique,20231215120000,active,"1.2.250.1.213.1.1.4.327",TRE_R217_ProtectionJuridique,,"Protection juridique",
 https://mos.esante.gouv.fr/NOS/TRE_R218-ModeAuthentification/FHIR/TRE-R218-ModeAuthentification,20231215120000,active,"1.2.250.1.213.1.1.4.323",TRE_R218_ModeAuthentification,,"Mode d'authentification",
 https://mos.esante.gouv.fr/NOS/TRE_R219-AutreResponsableConsent/FHIR/TRE-R219-AutreResponsableConsent,20231215120000,active,"1.2.250.1.213.1.1.4.320",TRE_R219_AutreResponsableConsent,,"Autre responsable consentement",

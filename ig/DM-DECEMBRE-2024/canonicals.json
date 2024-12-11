@@ -2823,7 +2823,7 @@
     "id" : "TRE-R216-HL7RoleCode",
     "type" : "CodeSystem",
     "url" : "https://mos.esante.gouv.fr/NOS/TRE_R216-HL7RoleCode/FHIR/TRE-R216-HL7RoleCode",
-    "version" : "20240126120000",
+    "version" : "20241211120000",
     "name" : "TRE_R216_HL7RoleCode",
     "oids" : ["2.16.840.1.113883.5.111"]
   },
