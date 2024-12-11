@@ -356,7 +356,6 @@ Description: "Profession et savoir-faire CI-SIS"
 * #G15_10/SM64 ^designation.language = #fr-FR
 * #G15_10/SM64 ^designation.use.system = "http://snomed.info/sct"
 * #G15_10/SM64 ^designation.use = $sct#900000000000013009
-* #G15_10/SM64 ^designation.value = "Médecin - Biologie médicale option médecine moléculaire, génétique et pharmacologie (SM)"
 * #G15_10/SM64 ^property[0].code = #dateValid
 * #G15_10/SM64 ^property[=].valueDateTime = "2019-02-22T12:00:00+01:00"
 * #G15_10/SM64 ^property[+].code = #dateMaj
@@ -410,7 +409,6 @@ Description: "Profession et savoir-faire CI-SIS"
 * #G15_10/SM74 ^designation.language = #fr-FR
 * #G15_10/SM74 ^designation.use.system = "http://snomed.info/sct"
 * #G15_10/SM74 ^designation.use = $sct#900000000000013009
-* #G15_10/SM74 ^designation.value = "Médecin - Radiologie et imagerie médicale (SM)"
 * #G15_10/SM74 ^property[0].code = #dateValid
 * #G15_10/SM74 ^property[=].valueDateTime = "2023-10-30T12:00:00+01:00"
 * #G15_10/SM74 ^property[+].code = #dateMaj
@@ -424,7 +422,6 @@ Description: "Profession et savoir-faire CI-SIS"
 * #G15_10/SM76 ^designation.language = #fr-FR
 * #G15_10/SM76 ^designation.use.system = "http://snomed.info/sct"
 * #G15_10/SM76 ^designation.use = $sct#900000000000013009
-* #G15_10/SM76 ^designation.value = "Médecin - Anesthésie-réanimation option anesthésie-pédiatrique (SM)"
 * #G15_10/SM76 ^property[0].code = #dateValid
 * #G15_10/SM76 ^property[=].valueDateTime = "2023-10-30T12:00:00+01:00"
 * #G15_10/SM76 ^property[+].code = #dateMaj
@@ -433,7 +430,6 @@ Description: "Profession et savoir-faire CI-SIS"
 * #G15_10/SM77 ^designation.language = #fr-FR
 * #G15_10/SM77 ^designation.use.system = "http://snomed.info/sct"
 * #G15_10/SM77 ^designation.use = $sct#900000000000013009
-* #G15_10/SM77 ^designation.value = "Médecin - Chirurgie maxillo-faciale option orthodontie des dysmorphies maxillo-faciales (SM)"
 * #G15_10/SM77 ^property[0].code = #dateValid
 * #G15_10/SM77 ^property[=].valueDateTime = "2023-10-30T12:00:00+01:00"
 * #G15_10/SM77 ^property[+].code = #dateMaj
@@ -442,7 +438,6 @@ Description: "Profession et savoir-faire CI-SIS"
 * #G15_10/SM78 ^designation.language = #fr-FR
 * #G15_10/SM78 ^designation.use.system = "http://snomed.info/sct"
 * #G15_10/SM78 ^designation.use = $sct#900000000000013009
-* #G15_10/SM78 ^designation.value = "Médecin - Chirurgie viscérale et digestive option endoscopie chirurgicale (SM)"
 * #G15_10/SM78 ^property[0].code = #dateValid
 * #G15_10/SM78 ^property[=].valueDateTime = "2023-10-30T12:00:00+01:00"
 * #G15_10/SM78 ^property[+].code = #dateMaj
@@ -451,7 +446,6 @@ Description: "Profession et savoir-faire CI-SIS"
 * #G15_10/SM79 ^designation.language = #fr-FR
 * #G15_10/SM79 ^designation.use.system = "http://snomed.info/sct"
 * #G15_10/SM79 ^designation.use = $sct#900000000000013009
-* #G15_10/SM79 ^designation.value = "Médecin - Médecine cardiovasculaire option cardiologie interventionnelle (SM)"
 * #G15_10/SM79 ^property[0].code = #dateValid
 * #G15_10/SM79 ^property[=].valueDateTime = "2023-10-30T12:00:00+01:00"
 * #G15_10/SM79 ^property[+].code = #dateMaj
@@ -460,7 +454,6 @@ Description: "Profession et savoir-faire CI-SIS"
 * #G15_10/SM80 ^designation.language = #fr-FR
 * #G15_10/SM80 ^designation.use.system = "http://snomed.info/sct"
 * #G15_10/SM80 ^designation.use = $sct#900000000000013009
-* #G15_10/SM80 ^designation.value = "Médecin - Médecine cardiovasculaire option imagerie cardio d'expert (SM)"
 * #G15_10/SM80 ^property[0].code = #dateValid
 * #G15_10/SM80 ^property[=].valueDateTime = "2023-10-30T12:00:00+01:00"
 * #G15_10/SM80 ^property[+].code = #dateMaj
@@ -469,7 +462,6 @@ Description: "Profession et savoir-faire CI-SIS"
 * #G15_10/SM81 ^designation.language = #fr-FR
 * #G15_10/SM81 ^designation.use.system = "http://snomed.info/sct"
 * #G15_10/SM81 ^designation.use = $sct#900000000000013009
-* #G15_10/SM81 ^designation.value = "Médecin - Médecine cardiovasculaire option rythmologie interventionnelle et stimulation cardiaque (SM)"
 * #G15_10/SM81 ^property[0].code = #dateValid
 * #G15_10/SM81 ^property[=].valueDateTime = "2023-10-30T12:00:00+01:00"
 * #G15_10/SM81 ^property[+].code = #dateMaj
@@ -478,7 +470,6 @@ Description: "Profession et savoir-faire CI-SIS"
 * #G15_10/SM82 ^designation.language = #fr-FR
 * #G15_10/SM82 ^designation.use.system = "http://snomed.info/sct"
 * #G15_10/SM82 ^designation.use = $sct#900000000000013009
-* #G15_10/SM82 ^designation.value = "Médecin - Médecine intensive-réanimation option réanimation pédiatrique (SM)"
 * #G15_10/SM82 ^property[0].code = #dateValid
 * #G15_10/SM82 ^property[=].valueDateTime = "2023-10-30T12:00:00+01:00"
 * #G15_10/SM82 ^property[+].code = #dateMaj
@@ -492,7 +483,6 @@ Description: "Profession et savoir-faire CI-SIS"
 * #G15_10/SM84 ^designation.language = #fr-FR
 * #G15_10/SM84 ^designation.use.system = "http://snomed.info/sct"
 * #G15_10/SM84 ^designation.use = $sct#900000000000013009
-* #G15_10/SM84 ^designation.value = "Médecin - Neurologie option traitement interventionnel de l'ischémie cérébrale aigüe (SM)"
 * #G15_10/SM84 ^property[0].code = #dateValid
 * #G15_10/SM84 ^property[=].valueDateTime = "2023-10-30T12:00:00+01:00"
 * #G15_10/SM84 ^property[+].code = #dateMaj
@@ -501,7 +491,6 @@ Description: "Profession et savoir-faire CI-SIS"
 * #G15_10/SM85 ^designation.language = #fr-FR
 * #G15_10/SM85 ^designation.use.system = "http://snomed.info/sct"
 * #G15_10/SM85 ^designation.use = $sct#900000000000013009
-* #G15_10/SM85 ^designation.value = "Médecin - Ophtalmo option chirurgie ophtalmopédiatrique et strabologique (SM)"
 * #G15_10/SM85 ^property[0].code = #dateValid
 * #G15_10/SM85 ^property[=].valueDateTime = "2023-10-30T12:00:00+01:00"
 * #G15_10/SM85 ^property[+].code = #dateMaj
@@ -510,7 +499,6 @@ Description: "Profession et savoir-faire CI-SIS"
 * #G15_10/SM86 ^designation.language = #fr-FR
 * #G15_10/SM86 ^designation.use.system = "http://snomed.info/sct"
 * #G15_10/SM86 ^designation.use = $sct#900000000000013009
-* #G15_10/SM86 ^designation.value = "Médecin - ORL et chirurgie cervico-faciale option audiophonologie (SM)"
 * #G15_10/SM86 ^property[0].code = #dateValid
 * #G15_10/SM86 ^property[=].valueDateTime = "2023-10-30T12:00:00+01:00"
 * #G15_10/SM86 ^property[+].code = #dateMaj
@@ -549,7 +537,6 @@ Description: "Profession et savoir-faire CI-SIS"
 * #G15_10/SM93 ^designation.language = #fr-FR
 * #G15_10/SM93 ^designation.use.system = "http://snomed.info/sct"
 * #G15_10/SM93 ^designation.use = $sct#900000000000013009
-* #G15_10/SM93 ^designation.value = "Médecin - Psychiatrie option psychiatrie personne âgée (SM)"
 * #G15_10/SM93 ^property[0].code = #dateValid
 * #G15_10/SM93 ^property[=].valueDateTime = "2023-10-30T12:00:00+01:00"
 * #G15_10/SM93 ^property[+].code = #dateMaj
@@ -558,7 +545,6 @@ Description: "Profession et savoir-faire CI-SIS"
 * #G15_10/SM94 ^designation.language = #fr-FR
 * #G15_10/SM94 ^designation.use.system = "http://snomed.info/sct"
 * #G15_10/SM94 ^designation.use = $sct#900000000000013009
-* #G15_10/SM94 ^designation.value = "Médecin - Radiologie imagerie médicale option radiologie interventionnelle avancée (SM)"
 * #G15_10/SM94 ^property[0].code = #dateValid
 * #G15_10/SM94 ^property[=].valueDateTime = "2023-10-30T12:00:00+01:00"
 * #G15_10/SM94 ^property[+].code = #dateMaj
@@ -759,8 +745,8 @@ Description: "Profession et savoir-faire CI-SIS"
 * #G15_10/SCH25 "Médecin - Génétique médicale (SCH)"
 * #G15_10/SCH25 ^property[0].code = #dateValid
 * #G15_10/SCH25 ^property[=].valueDateTime = "2012-10-06T00:00:00+01:00"
-* #G15_10/SCH23 ^property[+].code = #dateFin
-* #G15_10/SCH23 ^property[=].valueDateTime = "2024-12-11T12:00:00+01:00"
+* #G15_10/SCH25 ^property[+].code = #dateFin
+* #G15_10/SCH25 ^property[=].valueDateTime = "2024-12-11T12:00:00+01:00"
 * #G15_10/SCH25 ^property[+].code = #dateMaj
 * #G15_10/SCH25 ^property[=].valueDateTime = "2024-12-11T12:00:00+01:00"
 * #G15_10/SCH26 "Médecin - Gynécologie et Obstétrique (SCH)"
@@ -1538,7 +1524,7 @@ Description: "Profession et savoir-faire CI-SIS"
 * #G15_10/DEC04 ^property[=].valueDateTime = "2024-12-11T00:00:00+01:00"
 * #G15_10/DEC04 ^property[+].code = #dateMaj
 * #G15_10/DEC04 ^property[=].valueDateTime = "2024-12-11T12:00:00+01:00"
-* #G15_10/DEC05 "Médecin - Cancérologie option chiruggie cancérologique (DEC)"
+* #G15_10/DEC05 "Médecin - Cancérologie option chirurgie cancérologique (DEC)"
 * #G15_10/DEC05 ^property[0].code = #dateValid
 * #G15_10/DEC05 ^property[=].valueDateTime = "2024-12-11T00:00:00+01:00"
 * #G15_10/DEC05 ^property[+].code = #dateMaj
@@ -1937,7 +1923,6 @@ Description: "Profession et savoir-faire CI-SIS"
 * #G15_39 ^designation.language = #fr-FR
 * #G15_39 ^designation.use.system = "http://snomed.info/sct"
 * #G15_39 ^designation.use = $sct#900000000000013009
-* #G15_39 ^designation.value = "Préparateur en pharmacie (officine)"
 * #G15_39 ^property[0].code = #dateValid
 * #G15_39 ^property[=].valueDateTime = "2018-10-26T12:00:00+01:00"
 * #G15_39 ^property[+].code = #dateFin
@@ -1978,7 +1963,6 @@ Description: "Profession et savoir-faire CI-SIS"
 * #G15_60/SI01 ^designation.language = #fr-FR
 * #G15_60/SI01 ^designation.use.system = "http://snomed.info/sct"
 * #G15_60/SI01 ^designation.use = $sct#900000000000013009
-* #G15_60/SI01 ^designation.value = "Infirmier - Exercice infirmier en pratique avancée pathologies chroniques stabilisées (SI)"
 * #G15_60/SI01 ^property[0].code = #dateValid
 * #G15_60/SI01 ^property[=].valueDateTime = "2019-10-25T12:00:00+01:00"
 * #G15_60/SI01 ^property[+].code = #dateMaj
@@ -1987,7 +1971,6 @@ Description: "Profession et savoir-faire CI-SIS"
 * #G15_60/SI02 ^designation.language = #fr-FR
 * #G15_60/SI02 ^designation.use.system = "http://snomed.info/sct"
 * #G15_60/SI02 ^designation.use = $sct#900000000000013009
-* #G15_60/SI02 ^designation.value = "Infirmier - Exercice infirmier en pratique avancée oncologie et hémato-oncologie (SI)"
 * #G15_60/SI02 ^property[0].code = #dateValid
 * #G15_60/SI02 ^property[=].valueDateTime = "2019-10-25T12:00:00+01:00"
 * #G15_60/SI02 ^property[+].code = #dateMaj
@@ -1996,7 +1979,6 @@ Description: "Profession et savoir-faire CI-SIS"
 * #G15_60/SI03 ^designation.language = #fr-FR
 * #G15_60/SI03 ^designation.use.system = "http://snomed.info/sct"
 * #G15_60/SI03 ^designation.use = $sct#900000000000013009
-* #G15_60/SI03 ^designation.value = "Infirmier - Exercice infirmier en pratique avancée maladie rénale chronique, dialyse et transplantation rénale (SI)"
 * #G15_60/SI03 ^property[0].code = #dateValid
 * #G15_60/SI03 ^property[=].valueDateTime = "2019-10-25T12:00:00+01:00"
 * #G15_60/SI03 ^property[+].code = #dateMaj
@@ -2005,7 +1987,6 @@ Description: "Profession et savoir-faire CI-SIS"
 * #G15_60/SI04 ^designation.language = #fr-FR
 * #G15_60/SI04 ^designation.use.system = "http://snomed.info/sct"
 * #G15_60/SI04 ^designation.use = $sct#900000000000013009
-* #G15_60/SI04 ^designation.value = "Infirmier - Exercice infirmier en pratique avancée santé mentale (SI)"
 * #G15_60/SI04 ^property[0].code = #dateValid
 * #G15_60/SI04 ^property[=].valueDateTime = "2019-10-25T12:00:00+01:00"
 * #G15_60/SI04 ^property[+].code = #dateMaj
@@ -2014,7 +1995,6 @@ Description: "Profession et savoir-faire CI-SIS"
 * #G15_60/SI05 ^designation.language = #fr-FR
 * #G15_60/SI05 ^designation.use.system = "http://snomed.info/sct"
 * #G15_60/SI05 ^designation.use = $sct#900000000000013009
-* #G15_60/SI05 ^designation.value = "Infirmier - Exercice infirmier en pratique avancée urgences (SI)"
 * #G15_60/SI05 ^property[0].code = #dateValid
 * #G15_60/SI05 ^property[=].valueDateTime = "2022-08-26T12:00:00+01:00"
 * #G15_60/SI05 ^property[+].code = #dateMaj
@@ -2059,14 +2039,13 @@ Description: "Profession et savoir-faire CI-SIS"
 * #G15_85 ^property[=].valueDateTime = "2012-10-06T00:00:00+01:00"
 * #G15_85 ^property[+].code = #dateMaj
 * #G15_85 ^property[=].valueDateTime = "2012-10-06T00:00:00+01:00"
-* #G15_86 "Technicien de labo médical"
+* #G15_86 "Technicien de laboratoire  médical"
 * #G15_86 ^designation.language = #fr-FR
 * #G15_86 ^designation.use = $sct#900000000000013009
-* #G15_86 ^designation.value = "Technicien de laboratoire médical"
 * #G15_86 ^property[0].code = #dateValid
 * #G15_86 ^property[=].valueDateTime = "2012-10-06T00:00:00+01:00"
 * #G15_86 ^property[+].code = #dateMaj
-* #G15_86 ^property[=].valueDateTime = "2016-09-01T00:00:00+01:00"
+* #G15_86 ^property[=].valueDateTime = "2024-12-11T00:00:00+01:00"
 * #G15_91 "Orthophoniste"
 * #G15_91 ^property[0].code = #dateValid
 * #G15_91 ^property[=].valueDateTime = "2012-10-06T00:00:00+01:00"
