@@ -33,7 +33,6 @@
 1.2.250.1.213.1.6.1.109;71;Ostéopathe
 1.2.250.1.213.1.6.1.109;72;Psychothérapeute
 1.2.250.1.213.1.6.1.109;73;Chiropracteur
-1.2.250.1.213.1.6.1.109;93;Psychologue
 1.2.250.1.213.1.6.1.4;41;Assistant de service social
 1.2.250.1.213.1.6.1.140;99;Acteur participant au système de santé caractérisé par rôle
 1.2.250.1.71.1.2.8;10;Médecin en formation
@@ -340,8 +339,6 @@
 1.2.250.1.213.1.6.1.17;FON-05;Adjoint
 1.2.250.1.213.1.6.1.17;FON-07;Gérant après incapacité ou décès
 1.2.250.1.213.1.6.1.17;FON-09;Responsable d'établissement
-1.2.250.1.213.1.6.1.17;FON-15;Directeur de laboratoire
-1.2.250.1.213.1.6.1.17;FON-16;Directeur-adjoint de laboratoire
 1.2.250.1.213.1.6.1.17;FON-17;Collaborateur
 1.2.250.1.213.1.6.1.17;FON-18;Assistant
 1.2.250.1.213.1.6.1.17;FON-19;Praticien Conseil
@@ -427,7 +424,6 @@
 1.2.250.1.213.1.6.1.107;349;Etudiant - masseur-kinésithérapeute
 1.2.250.1.213.1.6.1.107;350;Aide à domicile
 1.2.250.1.213.1.6.1.107;351;Assistant(e) maternel(le)
-1.2.250.1.213.1.6.1.107;352;Autre salarié de la structure sociale
 1.2.250.1.213.1.6.1.107;353;Membre de l'équipe de soins
 1.2.250.1.213.1.6.1.107;354;Externe en médecine
 1.2.250.1.213.1.6.1.107;355;Externe en odontologie

@@ -654,7 +654,7 @@
                   displayName="Médecin - Cancérologie option traitements médicaux des cancers (DEC)"/>
          <concept code="G15_10/DEC05"
                   codeSystem="1.2.250.1.213.1.1.4.5"
-                  displayName="Médecin - Cancérologie option chiruggie cancérologique (DEC)"/>
+                  displayName="Médecin - Cancérologie option chirurgie cancérologique (DEC)"/>
          <concept code="G15_10/DEC06"
                   codeSystem="1.2.250.1.213.1.1.4.5"
                   displayName="Médecin - Cancérologie option réseaux de cancérologie (DEC)"/>

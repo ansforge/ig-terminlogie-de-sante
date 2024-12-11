@@ -90,9 +90,6 @@
          <concept code="73"
                   codeSystem="1.2.250.1.213.1.6.1.109"
                   displayName="Chiropracteur"/>
-         <concept code="93"
-                  codeSystem="1.2.250.1.213.1.6.1.109"
-                  displayName="Psychologue"/>
          <concept code="41"
                   codeSystem="1.2.250.1.213.1.6.1.4"
                   displayName="Assistant de service social"/>
@@ -1011,12 +1008,6 @@
          <concept code="FON-09"
                   codeSystem="1.2.250.1.213.1.6.1.17"
                   displayName="Responsable d'établissement"/>
-         <concept code="FON-15"
-                  codeSystem="1.2.250.1.213.1.6.1.17"
-                  displayName="Directeur de laboratoire"/>
-         <concept code="FON-16"
-                  codeSystem="1.2.250.1.213.1.6.1.17"
-                  displayName="Directeur-adjoint de laboratoire"/>
          <concept code="FON-17"
                   codeSystem="1.2.250.1.213.1.6.1.17"
                   displayName="Collaborateur"/>
@@ -1272,9 +1263,6 @@
          <concept code="351"
                   codeSystem="1.2.250.1.213.1.6.1.107"
                   displayName="Assistant(e) maternel(le)"/>
-         <concept code="352"
-                  codeSystem="1.2.250.1.213.1.6.1.107"
-                  displayName="Autre salarié de la structure sociale"/>
          <concept code="353"
                   codeSystem="1.2.250.1.213.1.6.1.107"
                   displayName="Membre de l'équipe de soins"/>

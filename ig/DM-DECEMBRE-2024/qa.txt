@@ -1,11 +1,11 @@
 Terminologie : Validation Results
 =========================================
 
-err = 463, warn = 1396, info = 817
+err = 484, warn = 1396, info = 817
 IG Publisher Version: 1.8.1
-Generated Wed Dec 11 15:23:10 UTC 2024. FHIR version 4.0.1 for ans.fr.terminologie#1.1.0 (canonical = https://interop.esante.gouv.fr/ig/terminologie)
+Generated Wed Dec 11 17:21:49 UTC 2024. FHIR version 4.0.1 for ans.fr.terminologie#1.1.0 (canonical = https://interop.esante.gouv.fr/ig/terminologie)
  Build Errors : 863 / 21 / 0
- /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/DM/fsh-generated/resources/CodeSystem-TRE-A02-ProfessionSavFaire-CISIS : 0 / 1 / 4
+ /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/DM/fsh-generated/resources/CodeSystem-TRE-A02-ProfessionSavFaire-CISIS : 21 / 1 / 4
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/DM/fsh-generated/resources/CodeSystem-TRE-G15-ProfessionSante : 0 / 1 / 4
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/DM/fsh-generated/resources/CodeSystem-TRE-G19-SecteurActiviteADELI : 0 / 1 / 4
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/DM/fsh-generated/resources/CodeSystem-TRE-R01-EnsembleSavoirFaire-CISIS : 0 / 1 / 4
@@ -2215,6 +2215,27 @@ ERROR: /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSou
 ERROR: /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/output/ValueSet-TRE-R222-MediaTypeCorpsCDANonStructure-all.html#/html/body/div/div/div/div/div/div/div/input/div/div/table/tr/td/a at Line 350, column 4010: The link 'CodeSystem-TRE-A11-IheFormatCode.html#TRE-A11-IheFormatCode-ValueSet-JDV-J10-XdsFormatCode-CISIS.46html' for "ValueSet-JDV-J10-XdsFormatCode-CISIS.html" cannot be resolved (valid targets: 59 targets)
 ERROR: /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/output/telechargementNos.html#/html/body/div/div/div/div/div/ul/li/a at Line 200, column 8: The link 'Correspondances%20RessourcesFHIR-NOS_0.pdf' for "Correspondance entre les ressources FHIR et les NOS (PDF)" cannot be resolved
 == DM/fsh-generated/resources/CodeSystem-TRE-A02-ProfessionSavFaire-CISIS.json ==
+ERROR: CodeSystem/TRE-A02-ProfessionSavFaire-CISIS: CodeSystem.concept[65].designation[0]: CodeSystem.concept.designation.value: minimum required = 1, but only found 0 (from http://hl7.org/fhir/StructureDefinition/shareablecodesystem|4.0.1)
+ERROR: CodeSystem/TRE-A02-ProfessionSavFaire-CISIS: CodeSystem.concept[75].designation[0]: CodeSystem.concept.designation.value: minimum required = 1, but only found 0 (from http://hl7.org/fhir/StructureDefinition/shareablecodesystem|4.0.1)
+ERROR: CodeSystem/TRE-A02-ProfessionSavFaire-CISIS: CodeSystem.concept[77].designation[0]: CodeSystem.concept.designation.value: minimum required = 1, but only found 0 (from http://hl7.org/fhir/StructureDefinition/shareablecodesystem|4.0.1)
+ERROR: CodeSystem/TRE-A02-ProfessionSavFaire-CISIS: CodeSystem.concept[78].designation[0]: CodeSystem.concept.designation.value: minimum required = 1, but only found 0 (from http://hl7.org/fhir/StructureDefinition/shareablecodesystem|4.0.1)
+ERROR: CodeSystem/TRE-A02-ProfessionSavFaire-CISIS: CodeSystem.concept[79].designation[0]: CodeSystem.concept.designation.value: minimum required = 1, but only found 0 (from http://hl7.org/fhir/StructureDefinition/shareablecodesystem|4.0.1)
+ERROR: CodeSystem/TRE-A02-ProfessionSavFaire-CISIS: CodeSystem.concept[80].designation[0]: CodeSystem.concept.designation.value: minimum required = 1, but only found 0 (from http://hl7.org/fhir/StructureDefinition/shareablecodesystem|4.0.1)
+ERROR: CodeSystem/TRE-A02-ProfessionSavFaire-CISIS: CodeSystem.concept[81].designation[0]: CodeSystem.concept.designation.value: minimum required = 1, but only found 0 (from http://hl7.org/fhir/StructureDefinition/shareablecodesystem|4.0.1)
+ERROR: CodeSystem/TRE-A02-ProfessionSavFaire-CISIS: CodeSystem.concept[82].designation[0]: CodeSystem.concept.designation.value: minimum required = 1, but only found 0 (from http://hl7.org/fhir/StructureDefinition/shareablecodesystem|4.0.1)
+ERROR: CodeSystem/TRE-A02-ProfessionSavFaire-CISIS: CodeSystem.concept[83].designation[0]: CodeSystem.concept.designation.value: minimum required = 1, but only found 0 (from http://hl7.org/fhir/StructureDefinition/shareablecodesystem|4.0.1)
+ERROR: CodeSystem/TRE-A02-ProfessionSavFaire-CISIS: CodeSystem.concept[85].designation[0]: CodeSystem.concept.designation.value: minimum required = 1, but only found 0 (from http://hl7.org/fhir/StructureDefinition/shareablecodesystem|4.0.1)
+ERROR: CodeSystem/TRE-A02-ProfessionSavFaire-CISIS: CodeSystem.concept[86].designation[0]: CodeSystem.concept.designation.value: minimum required = 1, but only found 0 (from http://hl7.org/fhir/StructureDefinition/shareablecodesystem|4.0.1)
+ERROR: CodeSystem/TRE-A02-ProfessionSavFaire-CISIS: CodeSystem.concept[87].designation[0]: CodeSystem.concept.designation.value: minimum required = 1, but only found 0 (from http://hl7.org/fhir/StructureDefinition/shareablecodesystem|4.0.1)
+ERROR: CodeSystem/TRE-A02-ProfessionSavFaire-CISIS: CodeSystem.concept[94].designation[0]: CodeSystem.concept.designation.value: minimum required = 1, but only found 0 (from http://hl7.org/fhir/StructureDefinition/shareablecodesystem|4.0.1)
+ERROR: CodeSystem/TRE-A02-ProfessionSavFaire-CISIS: CodeSystem.concept[95].designation[0]: CodeSystem.concept.designation.value: minimum required = 1, but only found 0 (from http://hl7.org/fhir/StructureDefinition/shareablecodesystem|4.0.1)
+ERROR: CodeSystem/TRE-A02-ProfessionSavFaire-CISIS: CodeSystem.concept[344].designation[0]: CodeSystem.concept.designation.value: minimum required = 1, but only found 0 (from http://hl7.org/fhir/StructureDefinition/shareablecodesystem|4.0.1)
+ERROR: CodeSystem/TRE-A02-ProfessionSavFaire-CISIS: CodeSystem.concept[351].designation[0]: CodeSystem.concept.designation.value: minimum required = 1, but only found 0 (from http://hl7.org/fhir/StructureDefinition/shareablecodesystem|4.0.1)
+ERROR: CodeSystem/TRE-A02-ProfessionSavFaire-CISIS: CodeSystem.concept[352].designation[0]: CodeSystem.concept.designation.value: minimum required = 1, but only found 0 (from http://hl7.org/fhir/StructureDefinition/shareablecodesystem|4.0.1)
+ERROR: CodeSystem/TRE-A02-ProfessionSavFaire-CISIS: CodeSystem.concept[353].designation[0]: CodeSystem.concept.designation.value: minimum required = 1, but only found 0 (from http://hl7.org/fhir/StructureDefinition/shareablecodesystem|4.0.1)
+ERROR: CodeSystem/TRE-A02-ProfessionSavFaire-CISIS: CodeSystem.concept[354].designation[0]: CodeSystem.concept.designation.value: minimum required = 1, but only found 0 (from http://hl7.org/fhir/StructureDefinition/shareablecodesystem|4.0.1)
+ERROR: CodeSystem/TRE-A02-ProfessionSavFaire-CISIS: CodeSystem.concept[355].designation[0]: CodeSystem.concept.designation.value: minimum required = 1, but only found 0 (from http://hl7.org/fhir/StructureDefinition/shareablecodesystem|4.0.1)
+ERROR: CodeSystem/TRE-A02-ProfessionSavFaire-CISIS: CodeSystem.concept[364].designation[0]: CodeSystem.concept.designation.value: minimum required = 1, but only found 0 (from http://hl7.org/fhir/StructureDefinition/shareablecodesystem|4.0.1)
 WARNING: CodeSystem/TRE-A02-ProfessionSavFaire-CISIS: CodeSystem: Published code systems SHOULD conform to the ShareableCodeSystem profile, which says that the element CodeSystem.title is mandatory, but it is not present
 INFORMATION: CodeSystem/TRE-A02-ProfessionSavFaire-CISIS: CodeSystem.property[0]: This property has only a code ('dateValid') and not a URI, so it has no clearly defined meaning in the terminology ecosystem
 INFORMATION: CodeSystem/TRE-A02-ProfessionSavFaire-CISIS: CodeSystem.property[1]: This property has only a code ('dateMaj') and not a URI, so it has no clearly defined meaning in the terminology ecosystem
