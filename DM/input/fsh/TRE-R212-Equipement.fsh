@@ -606,7 +606,7 @@ Description: "Equipement"
 * #083 ^property[=].valueDateTime = "2016-11-02T00:00:00+01:00"
 * #083 ^property[+].code = #dateMaj
 * #083 ^property[=].valueDateTime = "2024-12-09T12:00:00+01:00"
-* #084 "Table de radiologie obésité (poids > 250 kg) - bariatrique"
+* #084 "Table de radiologie interventionnelle obésité (poids > 250 kg) - bariatrique"
 * #084 ^designation.language = #fr-FR
 * #084 ^designation.use.system = "http://snomed.info/sct"
 * #084 ^designation.use = $sct#900000000000013009
