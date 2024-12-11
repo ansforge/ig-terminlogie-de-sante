@@ -1771,27 +1771,27 @@ Description: "Profession et savoir-faire CI-SIS"
 * #G15_21/FQ01 "Pharmacien - Expérience prat. art. R.5124-16 du CSP Fabricant (FQ)"
 * #G15_21/FQ01 ^property[0].code = #dateValid
 * #G15_21/FQ01 ^property[=].valueDateTime = "2024-12-11T00:00:00+01:00"
-* #G15_21/FQ01^property[+].code = #dateMaj
+* #G15_21/FQ01 ^property[+].code = #dateMaj
 * #G15_21/FQ01 ^property[=].valueDateTime = "2024-12-11T12:00:00+01:00"
 * #G15_21/FQ02 "Pharmacien - Expérience prat. art. R.5124-16 du CSP Exploitant (FQ)"
 * #G15_21/FQ02 ^property[0].code = #dateValid
 * #G15_21/FQ02 ^property[=].valueDateTime = "2024-12-11T00:00:00+01:00"
-* #G15_21/FQ02^property[+].code = #dateMaj
+* #G15_21/FQ02 ^property[+].code = #dateMaj
 * #G15_21/FQ02 ^property[=].valueDateTime = "2024-12-11T12:00:00+01:00"
 * #G15_21/FQ03 "Pharmacien - Exp. prat. art. R.5124-16 du CSP Thérapie Cellulaire (FQ)"
 * #G15_21/FQ03 ^property[0].code = #dateValid
 * #G15_21/FQ03 ^property[=].valueDateTime = "2024-12-11T00:00:00+01:00"
-* #G15_21/FQ03^property[+].code = #dateMaj
+* #G15_21/FQ03 ^property[+].code = #dateMaj
 * #G15_21/FQ03 ^property[=].valueDateTime = "2024-12-11T12:00:00+01:00"
 * #G15_21/FQ04 "Pharmacien - Expérience pratique article R.5124-18 du CSP (FQ)"
 * #G15_21/FQ04 ^property[0].code = #dateValid
 * #G15_21/FQ04 ^property[=].valueDateTime = "2024-12-11T00:00:00+01:00"
-* #G15_21/FQ04^property[+].code = #dateMaj
+* #G15_21/FQ04 ^property[+].code = #dateMaj
 * #G15_21/FQ04 ^property[=].valueDateTime = "2024-12-11T12:00:00+01:00"
 * #G15_21/FQ05 "Pharmacien - Expérience pratique article R.5141-129 du CSP (FQ)"
 * #G15_21/FQ05 ^property[0].code = #dateValid
 * #G15_21/FQ05 ^property[=].valueDateTime = "2024-12-11T00:00:00+01:00"
-* #G15_21/FQ05^property[+].code = #dateMaj
+* #G15_21/FQ05 ^property[+].code = #dateMaj
 * #G15_21/FQ05 ^property[=].valueDateTime = "2024-12-11T12:00:00+01:00"
 * #G15_21 "Pharmacien"
 * #G15_21 ^property[0].code = #dateValid
