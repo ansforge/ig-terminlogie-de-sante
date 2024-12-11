@@ -10903,7 +10903,7 @@ Description: "Action menée par un ou plusieurs acteur(s) de santé dans le cadr
 * #1185 ^property[=].valueDateTime = "2022-10-28T12:00:00+01:00"
 * #1185 ^property[+].code = #dateMaj
 * #1185 ^property[=].valueDateTime = "2022-10-28T12:00:00+01:00"
-* #1186 "Echographie clinique ciblée" "Technique d'imagerie par échographie de manière ciblée  (en anglais "Point-of-Care Ultrasound" ou POCUS) pour répondre à des questions cliniques spécifiques et urgentes, plutôt que pour effectuer une évaluation complète comme le ferait un radiologue,  elle se distingue par sa rapidité, sa précision pour des questions spécifiques, et son utilisation directement par les professionnels de santé impliqués dans les soins immédiats du patient."
+* #1186 "Echographie clinique ciblée" "Technique d'imagerie par échographie de manière ciblée  (en anglais Point-of-Care Ultrasound ou POCUS) pour répondre à des questions cliniques spécifiques et urgentes, plutôt que pour effectuer une évaluation complète comme le ferait un radiologue,  elle se distingue par sa rapidité, sa précision pour des questions spécifiques, et son utilisation directement par les professionnels de santé impliqués dans les soins immédiats du patient."
 * #1186 ^property[0].code = #dateValid
 * #1186 ^property[=].valueDateTime = "2022-10-28T12:00:00+01:00"
 * #1186 ^property[+].code = #dateMaj
