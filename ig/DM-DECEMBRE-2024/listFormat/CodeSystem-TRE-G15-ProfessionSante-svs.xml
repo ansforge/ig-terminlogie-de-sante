@@ -2,7 +2,7 @@
 <RetrieveValueSetResponse xmlns="urn:ihe:iti:svs:2008"
                           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
    <ValueSet dateFin=""
-             dateMaj="20240329120000"
+             dateMaj="20241210120000"
              dateValid="20120618000000"
              description="Professions de santé définies par le code de la santé publique"
              displayName="TRE_G15_ProfessionSante"
@@ -66,7 +66,7 @@
                   descriptionMetier=""/>
          <concept code="35"
                   codeSystem="1.2.250.1.71.1.2.7"
-                  dateFin=""
+                  dateFin="20241210120000"
                   dateMaj="20181026120000"
                   dateValid="20181026120000"
                   displayName="Aide-soignant"
@@ -75,7 +75,7 @@
                   descriptionMetier=""/>
          <concept code="36"
                   codeSystem="1.2.250.1.71.1.2.7"
-                  dateFin=""
+                  dateFin="20241210120000"
                   dateMaj="20181026120000"
                   dateValid="20181026120000"
                   displayName="Ambulancier"
@@ -84,7 +84,7 @@
                   descriptionMetier=""/>
          <concept code="37"
                   codeSystem="1.2.250.1.71.1.2.7"
-                  dateFin=""
+                  dateFin="20241210120000"
                   dateMaj="20181026120000"
                   dateValid="20181026120000"
                   displayName="Auxiliaire de puériculture"
@@ -93,7 +93,7 @@
                   descriptionMetier=""/>
          <concept code="38"
                   codeSystem="1.2.250.1.71.1.2.7"
-                  dateFin=""
+                  dateFin="20241210120000"
                   dateMaj="20181026120000"
                   dateValid="20181026120000"
                   displayName="Préparateur en pharmacie hospitalière"
@@ -102,7 +102,7 @@
                   descriptionMetier=""/>
          <concept code="39"
                   codeSystem="1.2.250.1.71.1.2.7"
-                  dateFin=""
+                  dateFin="20241210120000"
                   dateMaj="20181026120000"
                   dateValid="20181026120000"
                   displayName="Préparateur en pharmacie"

@@ -3,12 +3,16 @@ Terminologie : Validation Results
 
 err = 498, warn = 1433, info = 819
 IG Publisher Version: 1.8.1
-Generated Tue Dec 10 08:26:20 UTC 2024. FHIR version 4.0.1 for ans.fr.terminologie#1.1.0 (canonical = https://interop.esante.gouv.fr/ig/terminologie)
+Generated Wed Dec 11 08:20:07 UTC 2024. FHIR version 4.0.1 for ans.fr.terminologie#1.1.0 (canonical = https://interop.esante.gouv.fr/ig/terminologie)
  Build Errors : 898 / 21 / 0
+ /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/DM/fsh-generated/resources/CodeSystem-TRE-A02-ProfessionSavFaire-CISIS : 0 / 1 / 4
+ /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/DM/fsh-generated/resources/CodeSystem-TRE-G15-ProfessionSante : 0 / 1 / 4
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/DM/fsh-generated/resources/CodeSystem-TRE-G19-SecteurActiviteADELI : 0 / 1 / 4
+ /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/DM/fsh-generated/resources/CodeSystem-TRE-R01-EnsembleSavoirFaire-CISIS : 0 / 1 / 4
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/DM/fsh-generated/resources/CodeSystem-TRE-R02-SecteurActivite : 0 / 1 / 4
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/DM/fsh-generated/resources/CodeSystem-TRE-R17-TypeAutorisation : 0 / 1 / 4
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/DM/fsh-generated/resources/CodeSystem-TRE-R20-Pays : 0 / 1 / 4
+ /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/DM/fsh-generated/resources/CodeSystem-TRE-R210-ActeSpecifique : 0 / 1 / 4
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/DM/fsh-generated/resources/CodeSystem-TRE-R211-ActiviteOperationnelle : 0 / 1 / 4
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/DM/fsh-generated/resources/CodeSystem-TRE-R212-Equipement : 0 / 1 / 4
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/DM/fsh-generated/resources/CodeSystem-TRE-R244-CategorieOrganisation : 0 / 1 / 4
@@ -19,6 +23,8 @@ Generated Tue Dec 10 08:26:20 UTC 2024. FHIR version 4.0.1 for ans.fr.terminolog
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/DM/fsh-generated/resources/CodeSystem-TRE-R344-NiveauExpertise : 0 / 1 / 4
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/DM/fsh-generated/resources/CodeSystem-TRE-R369-ProfilUtilisateurReferentielNational : 2 / 1 / 4
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/DM/fsh-generated/resources/CodeSystem-TRE-R85-RolePriseCharge : 0 / 1 / 4
+ /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/DM/fsh-generated/resources/CodeSystem-TRE-R94-ProfessionSocial : 0 / 1 / 4
+ /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/DM/fsh-generated/resources/CodeSystem-TRE-R95-UsagerTitre : 0 / 1 / 4
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/DM/fsh-generated/resources/ConceptMap-ASS-A11-CorresModeleCDA-XdsFormatCode-CISIS : 0 / 0 / 1
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/DM/fsh-generated/resources/ConceptMap-ASS-A12-CorresMediaTypeCDANonStructure-XdsFormatCode-CISIS : 0 / 0 / 1
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/DM/fsh-generated/resources/ConceptMap-ASS-A13-TypeEvenement-FluxStandardise : 0 / 0 / 1
@@ -786,7 +792,6 @@ Generated Tue Dec 10 08:26:20 UTC 2024. FHIR version 4.0.1 for ans.fr.terminolog
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/TRE/ServiceType : 0 / 0 / 1
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/TRE/TRE_A00_ProducteurDocNonPS : 0 / 1 / 4
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/TRE/TRE_A01_CadreExercice : 0 / 1 / 4
- /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/TRE/TRE_A02_ProfessionSavFaire_CISIS : 0 / 1 / 4
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/TRE/TRE_A03_ClasseDocument : 0 / 1 / 4
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/TRE/TRE_A05_TypeDocComplementaire : 0 / 1 / 4
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/TRE/TRE_A06_FormatCodeComplementaire : 0 / 1 / 4
@@ -810,12 +815,10 @@ Generated Tue Dec 10 08:26:20 UTC 2024. FHIR version 4.0.1 for ans.fr.terminolog
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/TRE/TRE_G11_NatureQualificationADELI : 0 / 1 / 4
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/TRE/TRE_G12_SpecialiteADELI : 0 / 1 / 4
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/TRE/TRE_G13_OrientationParticuliere : 0 / 1 / 4
- /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/TRE/TRE_G15_ProfessionSante : 0 / 1 / 4
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/TRE/TRE_G16_ProfessionFormation : 0 / 1 / 4
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/TRE/TRE_G17_ModeExerciceCPx : 0 / 1 / 4
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/TRE/TRE_G18_AttributionParticuliereADELI : 0 / 1 / 4
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/TRE/TRE_G20_Specialisation : 0 / 1 / 4
- /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/TRE/TRE_R01_EnsembleSavoirFaire_CISIS : 0 / 1 / 4
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/TRE/TRE_R03_AttributionParticuliere : 0 / 1 / 4
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/TRE/TRE_R04_TypeSavoirFaire : 0 / 1 / 4
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/TRE/TRE_R06_SectionTableauCNOP : 0 / 1 / 4
@@ -836,7 +839,6 @@ Generated Tue Dec 10 08:26:20 UTC 2024. FHIR version 4.0.1 for ans.fr.terminolog
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/TRE/TRE_R207_TypeOrganisationInterne : 0 / 1 / 4
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/TRE/TRE_R208_ClasseAge : 0 / 1 / 4
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/TRE/TRE_R209_TypeActivite : 0 / 1 / 4
- /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/TRE/TRE_R210_ActeSpecifique : 0 / 1 / 4
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/TRE/TRE_R213_ModePriseEnCharge : 0 / 1 / 4
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/TRE/TRE_R214_SpecialiteUnite : 0 / 1 / 4
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/TRE/TRE_R215_UniteTemps : 0 / 1 / 4
@@ -1016,8 +1018,6 @@ Generated Tue Dec 10 08:26:20 UTC 2024. FHIR version 4.0.1 for ans.fr.terminolog
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/TRE/TRE_R88_TerritoireSante : 0 / 1 / 4
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/TRE/TRE_R89_RegroupementPays : 0 / 1 / 4
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/TRE/TRE_R90_TypeAE : 0 / 1 / 4
- /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/TRE/TRE_R94_ProfessionSocial : 0 / 1 / 4
- /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/TRE/TRE_R95_UsagerTitre : 0 / 1 / 4
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/TRE/TRE_R96_AutreFonctionSanitaire : 0 / 1 / 4
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/TRE/TRE_R97_DroitExerciceCompl : 0 / 1 / 4
 </table>
@@ -2249,11 +2249,26 @@ ERROR: /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSou
 ERROR: /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/output/ValueSet-TRE-R222-MediaTypeCorpsCDANonStructure-all.html#/html/body/div/div/div/div/div/div/div/input/div/div/table/tr/td/a at Line 350, column 3309: The link 'CodeSystem-TRE-A11-IheFormatCode.html#TRE-A11-IheFormatCode-ValueSet-JDV-J10-XdsFormatCode-CISIS.46html' for "ValueSet-JDV-J10-XdsFormatCode-CISIS.html" cannot be resolved (valid targets: 59 targets)
 ERROR: /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/output/ValueSet-TRE-R222-MediaTypeCorpsCDANonStructure-all.html#/html/body/div/div/div/div/div/div/div/input/div/div/table/tr/td/a at Line 350, column 4010: The link 'CodeSystem-TRE-A11-IheFormatCode.html#TRE-A11-IheFormatCode-ValueSet-JDV-J10-XdsFormatCode-CISIS.46html' for "ValueSet-JDV-J10-XdsFormatCode-CISIS.html" cannot be resolved (valid targets: 59 targets)
 ERROR: /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/output/telechargementNos.html#/html/body/div/div/div/div/div/ul/li/a at Line 200, column 8: The link 'Correspondances%20RessourcesFHIR-NOS_0.pdf' for "Correspondance entre les ressources FHIR et les NOS (PDF)" cannot be resolved
+== DM/fsh-generated/resources/CodeSystem-TRE-A02-ProfessionSavFaire-CISIS.json ==
+WARNING: CodeSystem/TRE-A02-ProfessionSavFaire-CISIS: CodeSystem: Published code systems SHOULD conform to the ShareableCodeSystem profile, which says that the element CodeSystem.title is mandatory, but it is not present
+INFORMATION: CodeSystem/TRE-A02-ProfessionSavFaire-CISIS: CodeSystem.property[0]: This property has only a code ('dateValid') and not a URI, so it has no clearly defined meaning in the terminology ecosystem
+INFORMATION: CodeSystem/TRE-A02-ProfessionSavFaire-CISIS: CodeSystem.property[1]: This property has only a code ('dateMaj') and not a URI, so it has no clearly defined meaning in the terminology ecosystem
+INFORMATION: CodeSystem/TRE-A02-ProfessionSavFaire-CISIS: CodeSystem.property[2]: This property has only a code ('dateFin') and not a URI, so it has no clearly defined meaning in the terminology ecosystem
+== DM/fsh-generated/resources/CodeSystem-TRE-G15-ProfessionSante.json ==
+WARNING: CodeSystem/TRE-G15-ProfessionSante: CodeSystem: Published code systems SHOULD conform to the ShareableCodeSystem profile, which says that the element CodeSystem.title is mandatory, but it is not present
+INFORMATION: CodeSystem/TRE-G15-ProfessionSante: CodeSystem.property[0]: This property has only a code ('dateValid') and not a URI, so it has no clearly defined meaning in the terminology ecosystem
+INFORMATION: CodeSystem/TRE-G15-ProfessionSante: CodeSystem.property[1]: This property has only a code ('dateMaj') and not a URI, so it has no clearly defined meaning in the terminology ecosystem
+INFORMATION: CodeSystem/TRE-G15-ProfessionSante: CodeSystem.property[2]: This property has only a code ('dateFin') and not a URI, so it has no clearly defined meaning in the terminology ecosystem
 == DM/fsh-generated/resources/CodeSystem-TRE-G19-SecteurActiviteADELI.json ==
 WARNING: CodeSystem/TRE-G19-SecteurActiviteADELI: CodeSystem: Published code systems SHOULD conform to the ShareableCodeSystem profile, which says that the element CodeSystem.title is mandatory, but it is not present
 INFORMATION: CodeSystem/TRE-G19-SecteurActiviteADELI: CodeSystem.property[0]: This property has only a code ('dateValid') and not a URI, so it has no clearly defined meaning in the terminology ecosystem
 INFORMATION: CodeSystem/TRE-G19-SecteurActiviteADELI: CodeSystem.property[1]: This property has only a code ('dateMaj') and not a URI, so it has no clearly defined meaning in the terminology ecosystem
 INFORMATION: CodeSystem/TRE-G19-SecteurActiviteADELI: CodeSystem.property[2]: This property has only a code ('dateFin') and not a URI, so it has no clearly defined meaning in the terminology ecosystem
+== DM/fsh-generated/resources/CodeSystem-TRE-R01-EnsembleSavoirFaire-CISIS.json ==
+WARNING: CodeSystem/TRE-R01-EnsembleSavoirFaire-CISIS: CodeSystem: Published code systems SHOULD conform to the ShareableCodeSystem profile, which says that the element CodeSystem.title is mandatory, but it is not present
+INFORMATION: CodeSystem/TRE-R01-EnsembleSavoirFaire-CISIS: CodeSystem.property[0]: This property has only a code ('dateValid') and not a URI, so it has no clearly defined meaning in the terminology ecosystem
+INFORMATION: CodeSystem/TRE-R01-EnsembleSavoirFaire-CISIS: CodeSystem.property[1]: This property has only a code ('dateMaj') and not a URI, so it has no clearly defined meaning in the terminology ecosystem
+INFORMATION: CodeSystem/TRE-R01-EnsembleSavoirFaire-CISIS: CodeSystem.property[2]: This property has only a code ('dateFin') and not a URI, so it has no clearly defined meaning in the terminology ecosystem
 == DM/fsh-generated/resources/CodeSystem-TRE-R02-SecteurActivite.json ==
 WARNING: CodeSystem/TRE-R02-SecteurActivite: CodeSystem: Published code systems SHOULD conform to the ShareableCodeSystem profile, which says that the element CodeSystem.title is mandatory, but it is not present
 INFORMATION: CodeSystem/TRE-R02-SecteurActivite: CodeSystem.property[0]: This property has only a code ('dateValid') and not a URI, so it has no clearly defined meaning in the terminology ecosystem
@@ -2269,6 +2284,11 @@ WARNING: CodeSystem/TRE-R20-Pays: CodeSystem: Published code systems SHOULD conf
 INFORMATION: CodeSystem/TRE-R20-Pays: CodeSystem.property[0]: This property has only a code ('dateValid') and not a URI, so it has no clearly defined meaning in the terminology ecosystem
 INFORMATION: CodeSystem/TRE-R20-Pays: CodeSystem.property[1]: This property has only a code ('dateMaj') and not a URI, so it has no clearly defined meaning in the terminology ecosystem
 INFORMATION: CodeSystem/TRE-R20-Pays: CodeSystem.property[2]: This property has only a code ('dateFin') and not a URI, so it has no clearly defined meaning in the terminology ecosystem
+== DM/fsh-generated/resources/CodeSystem-TRE-R210-ActeSpecifique.json ==
+WARNING: CodeSystem/TRE-R210-ActeSpecifique: CodeSystem: Published code systems SHOULD conform to the ShareableCodeSystem profile, which says that the element CodeSystem.title is mandatory, but it is not present
+INFORMATION: CodeSystem/TRE-R210-ActeSpecifique: CodeSystem.property[0]: This property has only a code ('dateValid') and not a URI, so it has no clearly defined meaning in the terminology ecosystem
+INFORMATION: CodeSystem/TRE-R210-ActeSpecifique: CodeSystem.property[1]: This property has only a code ('dateMaj') and not a URI, so it has no clearly defined meaning in the terminology ecosystem
+INFORMATION: CodeSystem/TRE-R210-ActeSpecifique: CodeSystem.property[2]: This property has only a code ('dateFin') and not a URI, so it has no clearly defined meaning in the terminology ecosystem
 == DM/fsh-generated/resources/CodeSystem-TRE-R211-ActiviteOperationnelle.json ==
 WARNING: CodeSystem/TRE-R211-ActiviteOperationnelle: CodeSystem: Published code systems SHOULD conform to the ShareableCodeSystem profile, which says that the element CodeSystem.title is mandatory, but it is not present
 INFORMATION: CodeSystem/TRE-R211-ActiviteOperationnelle: CodeSystem.property[0]: This property has only a code ('dateValid') and not a URI, so it has no clearly defined meaning in the terminology ecosystem
@@ -2321,6 +2341,16 @@ WARNING: CodeSystem/TRE-R85-RolePriseCharge: CodeSystem: Published code systems 
 INFORMATION: CodeSystem/TRE-R85-RolePriseCharge: CodeSystem.property[0]: This property has only a code ('dateValid') and not a URI, so it has no clearly defined meaning in the terminology ecosystem
 INFORMATION: CodeSystem/TRE-R85-RolePriseCharge: CodeSystem.property[1]: This property has only a code ('dateMaj') and not a URI, so it has no clearly defined meaning in the terminology ecosystem
 INFORMATION: CodeSystem/TRE-R85-RolePriseCharge: CodeSystem.property[2]: This property has only a code ('dateFin') and not a URI, so it has no clearly defined meaning in the terminology ecosystem
+== DM/fsh-generated/resources/CodeSystem-TRE-R94-ProfessionSocial.json ==
+WARNING: CodeSystem/TRE-R94-ProfessionSocial: CodeSystem: Published code systems SHOULD conform to the ShareableCodeSystem profile, which says that the element CodeSystem.title is mandatory, but it is not present
+INFORMATION: CodeSystem/TRE-R94-ProfessionSocial: CodeSystem.property[0]: This property has only a code ('dateValid') and not a URI, so it has no clearly defined meaning in the terminology ecosystem
+INFORMATION: CodeSystem/TRE-R94-ProfessionSocial: CodeSystem.property[1]: This property has only a code ('dateMaj') and not a URI, so it has no clearly defined meaning in the terminology ecosystem
+INFORMATION: CodeSystem/TRE-R94-ProfessionSocial: CodeSystem.property[2]: This property has only a code ('dateFin') and not a URI, so it has no clearly defined meaning in the terminology ecosystem
+== DM/fsh-generated/resources/CodeSystem-TRE-R95-UsagerTitre.json ==
+WARNING: CodeSystem/TRE-R95-UsagerTitre: CodeSystem: Published code systems SHOULD conform to the ShareableCodeSystem profile, which says that the element CodeSystem.title is mandatory, but it is not present
+INFORMATION: CodeSystem/TRE-R95-UsagerTitre: CodeSystem.property[0]: This property has only a code ('dateValid') and not a URI, so it has no clearly defined meaning in the terminology ecosystem
+INFORMATION: CodeSystem/TRE-R95-UsagerTitre: CodeSystem.property[1]: This property has only a code ('dateMaj') and not a URI, so it has no clearly defined meaning in the terminology ecosystem
+INFORMATION: CodeSystem/TRE-R95-UsagerTitre: CodeSystem.property[2]: This property has only a code ('dateFin') and not a URI, so it has no clearly defined meaning in the terminology ecosystem
 == DM/fsh-generated/resources/ConceptMap-ASS-A11-CorresModeleCDA-XdsFormatCode-CISIS.json ==
 == DM/fsh-generated/resources/ConceptMap-ASS-A12-CorresMediaTypeCDANonStructure-XdsFormatCode-CISIS.json ==
 == DM/fsh-generated/resources/ConceptMap-ASS-A13-TypeEvenement-FluxStandardise.json ==
@@ -2411,17 +2441,17 @@ ERROR: ConceptMap/ASS-A28-TypeDiplome-Diplome-Profession-EPARS: ConceptMap.group
 == DM/fsh-generated/resources/ConceptMap-ASS-A29-Departement-AE.json ==
 WARNING: ConceptMap/ASS-A29-Departement-AE: ConceptMap: Constraint failed: cmd-0: 'Name should be usable as an identifier for the module by machine processing applications such as code generation'
 == DM/fsh-generated/resources/ConceptMap-ASS-A30-TypeAutorisation-Profession-EPARS.json ==
-ERROR: ConceptMap/ASS-A30-TypeAutorisation-Profession-EPARS: ConceptMap.group[0].element[8].target[0].code: The target code '41' is not valid in the code system https://mos.esante.gouv.fr/NOS/TRE_G15-ProfessionSante/FHIR/TRE-G15-ProfessionSante|20240329120000
-ERROR: ConceptMap/ASS-A30-TypeAutorisation-Profession-EPARS: ConceptMap.group[0].element[30].target[0].code: The target code '41' is not valid in the code system https://mos.esante.gouv.fr/NOS/TRE_G15-ProfessionSante/FHIR/TRE-G15-ProfessionSante|20240329120000
-ERROR: ConceptMap/ASS-A30-TypeAutorisation-Profession-EPARS: ConceptMap.group[0].element[41].target[0].code: The target code '71' is not valid in the code system https://mos.esante.gouv.fr/NOS/TRE_G15-ProfessionSante/FHIR/TRE-G15-ProfessionSante|20240329120000
-ERROR: ConceptMap/ASS-A30-TypeAutorisation-Profession-EPARS: ConceptMap.group[0].element[42].target[0].code: The target code '72' is not valid in the code system https://mos.esante.gouv.fr/NOS/TRE_G15-ProfessionSante/FHIR/TRE-G15-ProfessionSante|20240329120000
-ERROR: ConceptMap/ASS-A30-TypeAutorisation-Profession-EPARS: ConceptMap.group[0].element[43].target[0].code: The target code '73' is not valid in the code system https://mos.esante.gouv.fr/NOS/TRE_G15-ProfessionSante/FHIR/TRE-G15-ProfessionSante|20240329120000
-ERROR: ConceptMap/ASS-A30-TypeAutorisation-Profession-EPARS: ConceptMap.group[0].element[49].target[0].code: The target code '71' is not valid in the code system https://mos.esante.gouv.fr/NOS/TRE_G15-ProfessionSante/FHIR/TRE-G15-ProfessionSante|20240329120000
+ERROR: ConceptMap/ASS-A30-TypeAutorisation-Profession-EPARS: ConceptMap.group[0].element[8].target[0].code: The target code '41' is not valid in the code system https://mos.esante.gouv.fr/NOS/TRE_G15-ProfessionSante/FHIR/TRE-G15-ProfessionSante|20241210120000
+ERROR: ConceptMap/ASS-A30-TypeAutorisation-Profession-EPARS: ConceptMap.group[0].element[30].target[0].code: The target code '41' is not valid in the code system https://mos.esante.gouv.fr/NOS/TRE_G15-ProfessionSante/FHIR/TRE-G15-ProfessionSante|20241210120000
+ERROR: ConceptMap/ASS-A30-TypeAutorisation-Profession-EPARS: ConceptMap.group[0].element[41].target[0].code: The target code '71' is not valid in the code system https://mos.esante.gouv.fr/NOS/TRE_G15-ProfessionSante/FHIR/TRE-G15-ProfessionSante|20241210120000
+ERROR: ConceptMap/ASS-A30-TypeAutorisation-Profession-EPARS: ConceptMap.group[0].element[42].target[0].code: The target code '72' is not valid in the code system https://mos.esante.gouv.fr/NOS/TRE_G15-ProfessionSante/FHIR/TRE-G15-ProfessionSante|20241210120000
+ERROR: ConceptMap/ASS-A30-TypeAutorisation-Profession-EPARS: ConceptMap.group[0].element[43].target[0].code: The target code '73' is not valid in the code system https://mos.esante.gouv.fr/NOS/TRE_G15-ProfessionSante/FHIR/TRE-G15-ProfessionSante|20241210120000
+ERROR: ConceptMap/ASS-A30-TypeAutorisation-Profession-EPARS: ConceptMap.group[0].element[49].target[0].code: The target code '71' is not valid in the code system https://mos.esante.gouv.fr/NOS/TRE_G15-ProfessionSante/FHIR/TRE-G15-ProfessionSante|20241210120000
 ERROR: ConceptMap/ASS-A30-TypeAutorisation-Profession-EPARS: ConceptMap.group[0].element[52].target[0].code: The target code '93' is not valid in the value set https://mos.esante.gouv.fr/NOS/JDV_J166-Profession-EPARS/FHIR/JDV-J166-Profession-EPARS|20240329120000
 ERROR: ConceptMap/ASS-A30-TypeAutorisation-Profession-EPARS: ConceptMap.group[0].element[53].target[0].code: The target code '93' is not valid in the value set https://mos.esante.gouv.fr/NOS/JDV_J166-Profession-EPARS/FHIR/JDV-J166-Profession-EPARS|20240329120000
-ERROR: ConceptMap/ASS-A30-TypeAutorisation-Profession-EPARS: ConceptMap.group[0].element[54].target[0].code: The target code '72' is not valid in the code system https://mos.esante.gouv.fr/NOS/TRE_G15-ProfessionSante/FHIR/TRE-G15-ProfessionSante|20240329120000
-ERROR: ConceptMap/ASS-A30-TypeAutorisation-Profession-EPARS: ConceptMap.group[0].element[56].target[0].code: The target code '73' is not valid in the code system https://mos.esante.gouv.fr/NOS/TRE_G15-ProfessionSante/FHIR/TRE-G15-ProfessionSante|20240329120000
-ERROR: ConceptMap/ASS-A30-TypeAutorisation-Profession-EPARS: ConceptMap.group[0].element[60].target[0].code: The target code '72' is not valid in the code system https://mos.esante.gouv.fr/NOS/TRE_G15-ProfessionSante/FHIR/TRE-G15-ProfessionSante|20240329120000
+ERROR: ConceptMap/ASS-A30-TypeAutorisation-Profession-EPARS: ConceptMap.group[0].element[54].target[0].code: The target code '72' is not valid in the code system https://mos.esante.gouv.fr/NOS/TRE_G15-ProfessionSante/FHIR/TRE-G15-ProfessionSante|20241210120000
+ERROR: ConceptMap/ASS-A30-TypeAutorisation-Profession-EPARS: ConceptMap.group[0].element[56].target[0].code: The target code '73' is not valid in the code system https://mos.esante.gouv.fr/NOS/TRE_G15-ProfessionSante/FHIR/TRE-G15-ProfessionSante|20241210120000
+ERROR: ConceptMap/ASS-A30-TypeAutorisation-Profession-EPARS: ConceptMap.group[0].element[60].target[0].code: The target code '72' is not valid in the code system https://mos.esante.gouv.fr/NOS/TRE_G15-ProfessionSante/FHIR/TRE-G15-ProfessionSante|20241210120000
 == DM/fsh-generated/resources/ConceptMap-ASS-A31-CorresDiabete-RegroupementDiabete.json ==
 WARNING: ConceptMap/ASS-A31-CorresDiabete-RegroupementDiabete: ConceptMap: Constraint failed: cmd-0: 'Name should be usable as an identifier for the module by machine processing applications such as code generation'
 WARNING: ConceptMap/ASS-A31-CorresDiabete-RegroupementDiabete: ConceptMap: Published concept maps SHOULD conform to the ShareableConceptMap profile, which says that the element ConceptMap.description is mandatory, but it is not present
@@ -4826,11 +4856,6 @@ WARNING: CodeSystem/TRE-A01-CadreExercice: CodeSystem: Published code systems SH
 INFORMATION: CodeSystem/TRE-A01-CadreExercice: CodeSystem.property[0]: This property has only a code ('dateValid') and not a URI, so it has no clearly defined meaning in the terminology ecosystem
 INFORMATION: CodeSystem/TRE-A01-CadreExercice: CodeSystem.property[1]: This property has only a code ('dateMaj') and not a URI, so it has no clearly defined meaning in the terminology ecosystem
 INFORMATION: CodeSystem/TRE-A01-CadreExercice: CodeSystem.property[2]: This property has only a code ('dateFin') and not a URI, so it has no clearly defined meaning in the terminology ecosystem
-== input/ontoserver/TRE/TRE_A02_ProfessionSavFaire_CISIS.json ==
-WARNING: CodeSystem/TRE-A02-ProfessionSavFaire-CISIS: CodeSystem: Published code systems SHOULD conform to the ShareableCodeSystem profile, which says that the element CodeSystem.title is mandatory, but it is not present
-INFORMATION: CodeSystem/TRE-A02-ProfessionSavFaire-CISIS: CodeSystem.property[0]: This property has only a code ('dateValid') and not a URI, so it has no clearly defined meaning in the terminology ecosystem
-INFORMATION: CodeSystem/TRE-A02-ProfessionSavFaire-CISIS: CodeSystem.property[1]: This property has only a code ('dateMaj') and not a URI, so it has no clearly defined meaning in the terminology ecosystem
-INFORMATION: CodeSystem/TRE-A02-ProfessionSavFaire-CISIS: CodeSystem.property[2]: This property has only a code ('dateFin') and not a URI, so it has no clearly defined meaning in the terminology ecosystem
 == input/ontoserver/TRE/TRE_A03_ClasseDocument.json ==
 WARNING: CodeSystem/TRE-A03-ClasseDocument: CodeSystem: Published code systems SHOULD conform to the ShareableCodeSystem profile, which says that the element CodeSystem.title is mandatory, but it is not present
 INFORMATION: CodeSystem/TRE-A03-ClasseDocument: CodeSystem.property[0]: This property has only a code ('dateValid') and not a URI, so it has no clearly defined meaning in the terminology ecosystem
@@ -4946,11 +4971,6 @@ WARNING: CodeSystem/TRE-G13-OrientationParticuliere: CodeSystem: Published code 
 INFORMATION: CodeSystem/TRE-G13-OrientationParticuliere: CodeSystem.property[0]: This property has only a code ('dateValid') and not a URI, so it has no clearly defined meaning in the terminology ecosystem
 INFORMATION: CodeSystem/TRE-G13-OrientationParticuliere: CodeSystem.property[1]: This property has only a code ('dateMaj') and not a URI, so it has no clearly defined meaning in the terminology ecosystem
 INFORMATION: CodeSystem/TRE-G13-OrientationParticuliere: CodeSystem.property[2]: This property has only a code ('dateFin') and not a URI, so it has no clearly defined meaning in the terminology ecosystem
-== input/ontoserver/TRE/TRE_G15_ProfessionSante.json ==
-WARNING: CodeSystem/TRE-G15-ProfessionSante: CodeSystem: Published code systems SHOULD conform to the ShareableCodeSystem profile, which says that the element CodeSystem.title is mandatory, but it is not present
-INFORMATION: CodeSystem/TRE-G15-ProfessionSante: CodeSystem.property[0]: This property has only a code ('dateValid') and not a URI, so it has no clearly defined meaning in the terminology ecosystem
-INFORMATION: CodeSystem/TRE-G15-ProfessionSante: CodeSystem.property[1]: This property has only a code ('dateMaj') and not a URI, so it has no clearly defined meaning in the terminology ecosystem
-INFORMATION: CodeSystem/TRE-G15-ProfessionSante: CodeSystem.property[2]: This property has only a code ('dateFin') and not a URI, so it has no clearly defined meaning in the terminology ecosystem
 == input/ontoserver/TRE/TRE_G16_ProfessionFormation.json ==
 WARNING: CodeSystem/TRE-G16-ProfessionFormation: CodeSystem: Published code systems SHOULD conform to the ShareableCodeSystem profile, which says that the element CodeSystem.title is mandatory, but it is not present
 INFORMATION: CodeSystem/TRE-G16-ProfessionFormation: CodeSystem.property[0]: This property has only a code ('dateValid') and not a URI, so it has no clearly defined meaning in the terminology ecosystem
@@ -4971,11 +4991,6 @@ WARNING: CodeSystem/TRE-G20-Specialisation: CodeSystem: Published code systems S
 INFORMATION: CodeSystem/TRE-G20-Specialisation: CodeSystem.property[0]: This property has only a code ('dateValid') and not a URI, so it has no clearly defined meaning in the terminology ecosystem
 INFORMATION: CodeSystem/TRE-G20-Specialisation: CodeSystem.property[1]: This property has only a code ('dateMaj') and not a URI, so it has no clearly defined meaning in the terminology ecosystem
 INFORMATION: CodeSystem/TRE-G20-Specialisation: CodeSystem.property[2]: This property has only a code ('dateFin') and not a URI, so it has no clearly defined meaning in the terminology ecosystem
-== input/ontoserver/TRE/TRE_R01_EnsembleSavoirFaire_CISIS.json ==
-WARNING: CodeSystem/TRE-R01-EnsembleSavoirFaire-CISIS: CodeSystem: Published code systems SHOULD conform to the ShareableCodeSystem profile, which says that the element CodeSystem.title is mandatory, but it is not present
-INFORMATION: CodeSystem/TRE-R01-EnsembleSavoirFaire-CISIS: CodeSystem.property[0]: This property has only a code ('dateValid') and not a URI, so it has no clearly defined meaning in the terminology ecosystem
-INFORMATION: CodeSystem/TRE-R01-EnsembleSavoirFaire-CISIS: CodeSystem.property[1]: This property has only a code ('dateMaj') and not a URI, so it has no clearly defined meaning in the terminology ecosystem
-INFORMATION: CodeSystem/TRE-R01-EnsembleSavoirFaire-CISIS: CodeSystem.property[2]: This property has only a code ('dateFin') and not a URI, so it has no clearly defined meaning in the terminology ecosystem
 == input/ontoserver/TRE/TRE_R03_AttributionParticuliere.json ==
 WARNING: CodeSystem/TRE-R03-AttributionParticuliere: CodeSystem: Published code systems SHOULD conform to the ShareableCodeSystem profile, which says that the element CodeSystem.title is mandatory, but it is not present
 INFORMATION: CodeSystem/TRE-R03-AttributionParticuliere: CodeSystem.property[0]: This property has only a code ('dateValid') and not a URI, so it has no clearly defined meaning in the terminology ecosystem
@@ -5072,11 +5087,6 @@ WARNING: CodeSystem/TRE-R209-TypeActivite: CodeSystem: Published code systems SH
 INFORMATION: CodeSystem/TRE-R209-TypeActivite: CodeSystem.property[0]: This property has only a code ('dateValid') and not a URI, so it has no clearly defined meaning in the terminology ecosystem
 INFORMATION: CodeSystem/TRE-R209-TypeActivite: CodeSystem.property[1]: This property has only a code ('dateMaj') and not a URI, so it has no clearly defined meaning in the terminology ecosystem
 INFORMATION: CodeSystem/TRE-R209-TypeActivite: CodeSystem.property[2]: This property has only a code ('dateFin') and not a URI, so it has no clearly defined meaning in the terminology ecosystem
-== input/ontoserver/TRE/TRE_R210_ActeSpecifique.json ==
-WARNING: CodeSystem/TRE-R210-ActeSpecifique: CodeSystem: Published code systems SHOULD conform to the ShareableCodeSystem profile, which says that the element CodeSystem.title is mandatory, but it is not present
-INFORMATION: CodeSystem/TRE-R210-ActeSpecifique: CodeSystem.property[0]: This property has only a code ('dateValid') and not a URI, so it has no clearly defined meaning in the terminology ecosystem
-INFORMATION: CodeSystem/TRE-R210-ActeSpecifique: CodeSystem.property[1]: This property has only a code ('dateMaj') and not a URI, so it has no clearly defined meaning in the terminology ecosystem
-INFORMATION: CodeSystem/TRE-R210-ActeSpecifique: CodeSystem.property[2]: This property has only a code ('dateFin') and not a URI, so it has no clearly defined meaning in the terminology ecosystem
 == input/ontoserver/TRE/TRE_R213_ModePriseEnCharge.json ==
 WARNING: CodeSystem/TRE-R213-ModePriseEnCharge: CodeSystem: Published code systems SHOULD conform to the ShareableCodeSystem profile, which says that the element CodeSystem.title is mandatory, but it is not present
 INFORMATION: CodeSystem/TRE-R213-ModePriseEnCharge: CodeSystem.property[0]: This property has only a code ('dateValid') and not a URI, so it has no clearly defined meaning in the terminology ecosystem
@@ -5971,16 +5981,6 @@ WARNING: CodeSystem/TRE-R90-TypeAE: CodeSystem: Published code systems SHOULD co
 INFORMATION: CodeSystem/TRE-R90-TypeAE: CodeSystem.property[0]: This property has only a code ('dateValid') and not a URI, so it has no clearly defined meaning in the terminology ecosystem
 INFORMATION: CodeSystem/TRE-R90-TypeAE: CodeSystem.property[1]: This property has only a code ('dateMaj') and not a URI, so it has no clearly defined meaning in the terminology ecosystem
 INFORMATION: CodeSystem/TRE-R90-TypeAE: CodeSystem.property[2]: This property has only a code ('dateFin') and not a URI, so it has no clearly defined meaning in the terminology ecosystem
-== input/ontoserver/TRE/TRE_R94_ProfessionSocial.json ==
-WARNING: CodeSystem/TRE-R94-ProfessionSocial: CodeSystem: Published code systems SHOULD conform to the ShareableCodeSystem profile, which says that the element CodeSystem.title is mandatory, but it is not present
-INFORMATION: CodeSystem/TRE-R94-ProfessionSocial: CodeSystem.property[0]: This property has only a code ('dateValid') and not a URI, so it has no clearly defined meaning in the terminology ecosystem
-INFORMATION: CodeSystem/TRE-R94-ProfessionSocial: CodeSystem.property[1]: This property has only a code ('dateMaj') and not a URI, so it has no clearly defined meaning in the terminology ecosystem
-INFORMATION: CodeSystem/TRE-R94-ProfessionSocial: CodeSystem.property[2]: This property has only a code ('dateFin') and not a URI, so it has no clearly defined meaning in the terminology ecosystem
-== input/ontoserver/TRE/TRE_R95_UsagerTitre.json ==
-WARNING: CodeSystem/TRE-R95-UsagerTitre: CodeSystem: Published code systems SHOULD conform to the ShareableCodeSystem profile, which says that the element CodeSystem.title is mandatory, but it is not present
-INFORMATION: CodeSystem/TRE-R95-UsagerTitre: CodeSystem.property[0]: This property has only a code ('dateValid') and not a URI, so it has no clearly defined meaning in the terminology ecosystem
-INFORMATION: CodeSystem/TRE-R95-UsagerTitre: CodeSystem.property[1]: This property has only a code ('dateMaj') and not a URI, so it has no clearly defined meaning in the terminology ecosystem
-INFORMATION: CodeSystem/TRE-R95-UsagerTitre: CodeSystem.property[2]: This property has only a code ('dateFin') and not a URI, so it has no clearly defined meaning in the terminology ecosystem
 == input/ontoserver/TRE/TRE_R96_AutreFonctionSanitaire.json ==
 WARNING: CodeSystem/TRE-R96-AutreFonctionSanitaire: CodeSystem: Published code systems SHOULD conform to the ShareableCodeSystem profile, which says that the element CodeSystem.title is mandatory, but it is not present
 INFORMATION: CodeSystem/TRE-R96-AutreFonctionSanitaire: CodeSystem.property[0]: This property has only a code ('dateValid') and not a URI, so it has no clearly defined meaning in the terminology ecosystem

@@ -26,7 +26,7 @@
   fhir:name [ fhir:v "ValueSet_NUVA_All"] ; # 
   fhir:status [ fhir:v "active"] ; # 
   fhir:experimental [ fhir:v "false"^^xsd:boolean] ; # 
-  fhir:date [ fhir:v "2024-12-10T08:10:26+00:00"^^xsd:dateTime] ; # 
+  fhir:date [ fhir:v "2024-12-11T08:03:58+00:00"^^xsd:dateTime] ; # 
   fhir:publisher [ fhir:v "ANS"] ; # 
   fhir:contact ( [
      fhir:name [ fhir:v "ANS" ] ;

@@ -1,5 +1,5 @@
 <OID>;<Type fichier>;<Nom fichier>;<Description>;<URL fichier>;<Date valid>;<Date fin>;<Date MAJ>
-1.2.250.1.213.1.1.4.5;TRE;TRE_A02_ProfessionSavFaire_CISIS.tabs;Profession et savoir-faire CI-SIS;https://mos.esante.gouv.fr/NOS/TRE_A02-ProfessionSavFaire-CISIS;20121006000000;;20231215120000
+1.2.250.1.213.1.1.4.5;TRE;TRE_A02_ProfessionSavFaire_CISIS.tabs;Profession et savoir-faire CI-SIS;https://mos.esante.gouv.fr/NOS/TRE_A02-ProfessionSavFaire-CISIS;20121006000000;;20241210120000
 <OID>;<Code>;<Libellé adapté>;<Libellé court>;<Libellé long>;<Date valid>;<Date fin>;<Date MAJ> 
 1.2.250.1.213.1.1.4.5;G15_10;Médecin;Médecin;Médecin;20121006000000;;20121006000000
 1.2.250.1.213.1.1.4.5;G15_10/PAC00;Médecin - Qualification Praticien adjoint contractuel (PAC);Médecin - Qualification Praticien adjoint contractuel (PAC);Médecin - Qualification Praticien adjoint contractuel (PAC);20121006000000;;20190830120000
@@ -284,11 +284,11 @@
 1.2.250.1.213.1.1.4.5;G15_28;Opticien-Lunetier;Opticien-Lunetier;Opticien-Lunetier;20121006000000;;20121006000000
 1.2.250.1.213.1.1.4.5;G15_31;Assistant dentaire;Assistant dentaire;Assistant dentaire;20181026120000;;20181026120000
 1.2.250.1.213.1.1.4.5;G15_32;Physicien médical;Physicien médical;Physicien médical;20190426120000;;20190426120000
-1.2.250.1.213.1.1.4.5;G15_35;Aide-soignant;Aide-soignant;Aide-soignant;20181026120000;;20181026120000
-1.2.250.1.213.1.1.4.5;G15_36;Ambulancier;Ambulancier;Ambulancier;20181026120000;;20181026120000
-1.2.250.1.213.1.1.4.5;G15_37;Auxiliaire de puériculture;Auxiliaire de puériculture;Auxiliaire de puériculture;20181026120000;;20181026120000
-1.2.250.1.213.1.1.4.5;G15_38;Préparateur en pharmacie hospitalière;Préparateur en pharmacie hospitalière;Préparateur en pharmacie hospitalière;20181026120000;;20181026120000
-1.2.250.1.213.1.1.4.5;G15_39;Préparateur en pharmacie;Préparateur en pharmacie;Préparateur en pharmacie (officine);20181026120000;;20181026120000
+1.2.250.1.213.1.1.4.5;G15_35;Aide-soignant;Aide-soignant;Aide-soignant;20181026120000;20241210120000;20181026120000
+1.2.250.1.213.1.1.4.5;G15_36;Ambulancier;Ambulancier;Ambulancier;20181026120000;20241210120000;20181026120000
+1.2.250.1.213.1.1.4.5;G15_37;Auxiliaire de puériculture;Auxiliaire de puériculture;Auxiliaire de puériculture;20181026120000;20241210120000;20181026120000
+1.2.250.1.213.1.1.4.5;G15_38;Préparateur en pharmacie hospitalière;Préparateur en pharmacie hospitalière;Préparateur en pharmacie hospitalière;20181026120000;20241210120000;20181026120000
+1.2.250.1.213.1.1.4.5;G15_39;Préparateur en pharmacie;Préparateur en pharmacie;Préparateur en pharmacie (officine);20181026120000;20241210120000;20181026120000
 1.2.250.1.213.1.1.4.5;G15_40;Chirurgien-Dentiste;Chirurgien-Dentiste;Chirurgien-Dentiste;20121006000000;;20121006000000
 1.2.250.1.213.1.1.4.5;G15_40/SCD01;Chirurgien-Dentiste - Orthopédie dento-faciale (SCD);Chirurgien-Dentiste - Orthopédie dento-faciale (SCD);Chirurgien-Dentiste - Orthopédie dento-faciale (SCD);20160901000000;;20190830120000
 1.2.250.1.213.1.1.4.5;G15_40/SCD02;Chirurgien-Dentiste - Chirurgie orale (SCD);Chirurgien-Dentiste - Chirurgie orale (SCD);Chirurgien-Dentiste - Chirurgie orale (SCD);20160901000000;;20190830120000

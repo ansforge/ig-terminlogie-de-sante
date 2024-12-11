@@ -2,7 +2,7 @@
 <RetrieveValueSetResponse xmlns="urn:ihe:iti:svs:2008"
                           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
    <ValueSet dateFin=""
-             dateMaj="20231215120000"
+             dateMaj="20241210120000"
              dateValid="20171013120000"
              description="Usager de titre professionnel"
              displayName="TRE_R95_UsagerTitre"
@@ -93,7 +93,7 @@
                   descriptionMetier=""/>
          <concept code="97"
                   codeSystem="1.2.250.1.213.1.6.1.109"
-                  dateFin=""
+                  dateFin="20241210120000"
                   dateMaj="20200529120000"
                   dateValid="20200529120000"
                   displayName="Conseiller en génétique"
