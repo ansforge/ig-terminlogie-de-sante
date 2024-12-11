@@ -11,10 +11,10 @@ Description: "Profession et savoir-faire CI-SIS"
 * ^url = "https://mos.esante.gouv.fr/NOS/TRE_A02-ProfessionSavFaire-CISIS/FHIR/TRE-A02-ProfessionSavFaire-CISIS"
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value = "urn:oid:1.2.250.1.213.1.1.4.5"
-* ^version = "20241210120000"
+* ^version = "20241211120000"
 * ^status = #active
 * ^experimental = false
-* ^date = "2024-12-10T12:00:00+01:00"
+* ^date = "2024-12-11T12:00:00+01:00"
 * ^publisher = "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris"
 * ^caseSensitive = false
 * ^content = #complete
@@ -591,303 +591,423 @@ Description: "Profession et savoir-faire CI-SIS"
 * #G15_10/SCH01 "Médecin - Anatomie et cytologie pathologiques (SCH)"
 * #G15_10/SCH01 ^property[0].code = #dateValid
 * #G15_10/SCH01 ^property[=].valueDateTime = "2012-10-06T00:00:00+01:00"
+* #G15_10/SCH01 ^property[+].code = #dateFin
+* #G15_10/SCH01 ^property[=].valueDateTime = "2024-12-11T12:00:00+01:00"
 * #G15_10/SCH01 ^property[+].code = #dateMaj
-* #G15_10/SCH01 ^property[=].valueDateTime = "2019-08-30T12:00:00+01:00"
+* #G15_10/SCH01 ^property[=].valueDateTime = "2024-12-11T12:00:00+01:00"
 * #G15_10/SCH02 "Médecin - Anesthésie-réanimation (SCH)"
 * #G15_10/SCH02 ^property[0].code = #dateValid
 * #G15_10/SCH02 ^property[=].valueDateTime = "2012-10-06T00:00:00+01:00"
+* #G15_10/SCH02 ^property[+].code = #dateFin
+* #G15_10/SCH02 ^property[=].valueDateTime = "2024-12-11T12:00:00+01:00"
 * #G15_10/SCH02 ^property[+].code = #dateMaj
-* #G15_10/SCH02 ^property[=].valueDateTime = "2019-08-30T12:00:00+01:00"
+* #G15_10/SCH02 ^property[=].valueDateTime = "2024-12-11T12:00:00+01:00"
 * #G15_10/SCH03 "Médecin - Bactériologie-virologie, hygiène hosp (SCH)"
 * #G15_10/SCH03 ^property[0].code = #dateValid
 * #G15_10/SCH03 ^property[=].valueDateTime = "2012-10-06T00:00:00+01:00"
+* #G15_10/SCH03 ^property[+].code = #dateFin
+* #G15_10/SCH03 ^property[=].valueDateTime = "2024-12-11T12:00:00+01:00"
 * #G15_10/SCH03 ^property[+].code = #dateMaj
-* #G15_10/SCH03 ^property[=].valueDateTime = "2019-08-30T12:00:00+01:00"
+* #G15_10/SCH03 ^property[=].valueDateTime = "2024-12-11T12:00:00+01:00"
 * #G15_10/SCH04 "Médecin - Biochimie (SCH)"
 * #G15_10/SCH04 ^property[0].code = #dateValid
 * #G15_10/SCH04 ^property[=].valueDateTime = "2012-10-06T00:00:00+01:00"
+* #G15_10/SCH04 ^property[+].code = #dateFin
+* #G15_10/SCH04 ^property[=].valueDateTime = "2024-12-11T12:00:00+01:00"
 * #G15_10/SCH04 ^property[+].code = #dateMaj
-* #G15_10/SCH04 ^property[=].valueDateTime = "2019-08-30T12:00:00+01:00"
+* #G15_10/SCH04 ^property[=].valueDateTime = "2024-12-11T12:00:00+01:00"
 * #G15_10/SCH05 "Médecin - Biologie cellulaire, histologie, bio du dév (SCH)"
 * #G15_10/SCH05 ^property[0].code = #dateValid
 * #G15_10/SCH05 ^property[=].valueDateTime = "2012-10-06T00:00:00+01:00"
+* #G15_10/SCH05 ^property[+].code = #dateFin
+* #G15_10/SCH05 ^property[=].valueDateTime = "2024-12-11T12:00:00+01:00"
 * #G15_10/SCH05 ^property[+].code = #dateMaj
-* #G15_10/SCH05 ^property[=].valueDateTime = "2019-08-30T12:00:00+01:00"
+* #G15_10/SCH05 ^property[=].valueDateTime = "2024-12-11T12:00:00+01:00"
 * #G15_10/SCH06 "Médecin - Biologie médicale (SCH)"
 * #G15_10/SCH06 ^property[0].code = #dateValid
 * #G15_10/SCH06 ^property[=].valueDateTime = "2012-10-06T00:00:00+01:00"
+* #G15_10/SCH06 ^property[+].code = #dateFin
+* #G15_10/SCH06 ^property[=].valueDateTime = "2024-12-11T12:00:00+01:00"
 * #G15_10/SCH06 ^property[+].code = #dateMaj
-* #G15_10/SCH06 ^property[=].valueDateTime = "2019-08-30T12:00:00+01:00"
+* #G15_10/SCH06 ^property[=].valueDateTime = "2024-12-11T12:00:00+01:00"
 * #G15_10/SCH07 "Médecin - Biophysique (SCH)"
 * #G15_10/SCH07 ^property[0].code = #dateValid
 * #G15_10/SCH07 ^property[=].valueDateTime = "2012-10-06T00:00:00+01:00"
+* #G15_10/SCH07 ^property[+].code = #dateFin
+* #G15_10/SCH07 ^property[=].valueDateTime = "2024-12-11T12:00:00+01:00"
 * #G15_10/SCH07 ^property[+].code = #dateMaj
-* #G15_10/SCH07 ^property[=].valueDateTime = "2019-08-30T12:00:00+01:00"
+* #G15_10/SCH07 ^property[=].valueDateTime = "2024-12-11T12:00:00+01:00"
 * #G15_10/SCH08 "Médecin - Oncologie médicale (SCH)"
 * #G15_10/SCH08 ^property[0].code = #dateValid
 * #G15_10/SCH08 ^property[=].valueDateTime = "2012-10-06T00:00:00+01:00"
+* #G15_10/SCH08 ^property[+].code = #dateFin
+* #G15_10/SCH08 ^property[=].valueDateTime = "2024-12-11T12:00:00+01:00"
 * #G15_10/SCH08 ^property[+].code = #dateMaj
-* #G15_10/SCH08 ^property[=].valueDateTime = "2019-08-30T12:00:00+01:00"
+* #G15_10/SCH08 ^property[=].valueDateTime = "2024-12-11T12:00:00+01:00"
 * #G15_10/SCH09 "Médecin - Cardiologie et maladies vasculaires (SCH)"
 * #G15_10/SCH09 ^property[0].code = #dateValid
 * #G15_10/SCH09 ^property[=].valueDateTime = "2012-10-06T00:00:00+01:00"
+* #G15_10/SCH09 ^property[+].code = #dateFin
+* #G15_10/SCH09 ^property[=].valueDateTime = "2024-12-11T12:00:00+01:00"
 * #G15_10/SCH09 ^property[+].code = #dateMaj
-* #G15_10/SCH09 ^property[=].valueDateTime = "2019-08-30T12:00:00+01:00"
+* #G15_10/SCH09 ^property[=].valueDateTime = "2024-12-11T12:00:00+01:00"
 * #G15_10/SCH10 "Médecin - Chirurgie générale (SCH)"
 * #G15_10/SCH10 ^property[0].code = #dateValid
 * #G15_10/SCH10 ^property[=].valueDateTime = "2012-10-06T00:00:00+01:00"
+* #G15_10/SCH10 ^property[+].code = #dateFin
+* #G15_10/SCH10 ^property[=].valueDateTime = "2024-12-11T12:00:00+01:00"
 * #G15_10/SCH10 ^property[+].code = #dateMaj
-* #G15_10/SCH10 ^property[=].valueDateTime = "2019-08-30T12:00:00+01:00"
+* #G15_10/SCH10 ^property[=].valueDateTime = "2024-12-11T12:00:00+01:00"
 * #G15_10/SCH11 "Médecin - Chirurgie viscérale et digestive (SCH)"
 * #G15_10/SCH11 ^property[0].code = #dateValid
 * #G15_10/SCH11 ^property[=].valueDateTime = "2012-10-06T00:00:00+01:00"
+* #G15_10/SCH11 ^property[+].code = #dateFin
+* #G15_10/SCH11 ^property[=].valueDateTime = "2024-12-11T12:00:00+01:00"
 * #G15_10/SCH11 ^property[+].code = #dateMaj
-* #G15_10/SCH11 ^property[=].valueDateTime = "2019-08-30T12:00:00+01:00"
+* #G15_10/SCH11 ^property[=].valueDateTime = "2024-12-11T12:00:00+01:00"
 * #G15_10/SCH12 "Médecin - Chirurgie infantile (SCH)"
 * #G15_10/SCH12 ^property[0].code = #dateValid
 * #G15_10/SCH12 ^property[=].valueDateTime = "2012-10-06T00:00:00+01:00"
+* #G15_10/SCH12 ^property[+].code = #dateFin
+* #G15_10/SCH12 ^property[=].valueDateTime = "2024-12-11T12:00:00+01:00"
 * #G15_10/SCH12 ^property[+].code = #dateMaj
-* #G15_10/SCH12 ^property[=].valueDateTime = "2019-08-30T12:00:00+01:00"
+* #G15_10/SCH12 ^property[=].valueDateTime = "2024-12-11T12:00:00+01:00"
 * #G15_10/SCH13 "Médecin - Chirurgie maxillo-faciale (SCH)"
 * #G15_10/SCH13 ^property[0].code = #dateValid
 * #G15_10/SCH13 ^property[=].valueDateTime = "2012-10-06T00:00:00+01:00"
+* #G15_10/SCH13 ^property[+].code = #dateFin
+* #G15_10/SCH13 ^property[=].valueDateTime = "2024-12-11T12:00:00+01:00"
 * #G15_10/SCH13 ^property[+].code = #dateMaj
-* #G15_10/SCH13 ^property[=].valueDateTime = "2019-08-30T12:00:00+01:00"
+* #G15_10/SCH13 ^property[=].valueDateTime = "2024-12-11T12:00:00+01:00"
 * #G15_10/SCH14 "Médecin - Chirurgie orthopédique et Traumatologique (SCH)"
 * #G15_10/SCH14 ^property[0].code = #dateValid
 * #G15_10/SCH14 ^property[=].valueDateTime = "2012-10-06T00:00:00+01:00"
+* #G15_10/SCH14 ^property[+].code = #dateFin
+* #G15_10/SCH14 ^property[=].valueDateTime = "2024-12-11T12:00:00+01:00"
 * #G15_10/SCH14 ^property[+].code = #dateMaj
-* #G15_10/SCH14 ^property[=].valueDateTime = "2019-08-30T12:00:00+01:00"
+* #G15_10/SCH14 ^property[=].valueDateTime = "2024-12-11T12:00:00+01:00"
 * #G15_10/SCH15 "Médecin - Chirurgie plast reconstruct, esthétique (SCH)"
 * #G15_10/SCH15 ^property[0].code = #dateValid
 * #G15_10/SCH15 ^property[=].valueDateTime = "2012-10-06T00:00:00+01:00"
+* #G15_10/SCH15 ^property[+].code = #dateFin
+* #G15_10/SCH15 ^property[=].valueDateTime = "2024-12-11T12:00:00+01:00"
 * #G15_10/SCH15 ^property[+].code = #dateMaj
-* #G15_10/SCH15 ^property[=].valueDateTime = "2019-08-30T12:00:00+01:00"
+* #G15_10/SCH15 ^property[=].valueDateTime = "2024-12-11T12:00:00+01:00"
 * #G15_10/SCH16 "Médecin - Chirurgie thoracique et cardio-vasculaire (SCH)"
 * #G15_10/SCH16 ^property[0].code = #dateValid
 * #G15_10/SCH16 ^property[=].valueDateTime = "2012-10-06T00:00:00+01:00"
+* #G15_10/SCH16 ^property[+].code = #dateFin
+* #G15_10/SCH16 ^property[=].valueDateTime = "2024-12-11T12:00:00+01:00"
 * #G15_10/SCH16 ^property[+].code = #dateMaj
-* #G15_10/SCH16 ^property[=].valueDateTime = "2019-08-30T12:00:00+01:00"
+* #G15_10/SCH16 ^property[=].valueDateTime = "2024-12-11T12:00:00+01:00"
 * #G15_10/SCH17 "Médecin - Chirurgie urologique (SCH)"
 * #G15_10/SCH17 ^property[0].code = #dateValid
 * #G15_10/SCH17 ^property[=].valueDateTime = "2012-10-06T00:00:00+01:00"
+* #G15_10/SCH17 ^property[+].code = #dateFin
+* #G15_10/SCH17 ^property[=].valueDateTime = "2024-12-11T12:00:00+01:00"
 * #G15_10/SCH17 ^property[+].code = #dateMaj
-* #G15_10/SCH17 ^property[=].valueDateTime = "2019-08-30T12:00:00+01:00"
+* #G15_10/SCH17 ^property[=].valueDateTime = "2024-12-11T12:00:00+01:00"
 * #G15_10/SCH18 "Médecin - Chirurgie vasculaire (SCH)"
 * #G15_10/SCH18 ^property[0].code = #dateValid
 * #G15_10/SCH18 ^property[=].valueDateTime = "2012-10-06T00:00:00+01:00"
+* #G15_10/SCH18 ^property[+].code = #dateFin
+* #G15_10/SCH18 ^property[=].valueDateTime = "2024-12-11T12:00:00+01:00"
 * #G15_10/SCH18 ^property[+].code = #dateMaj
-* #G15_10/SCH18 ^property[=].valueDateTime = "2019-08-30T12:00:00+01:00"
+* #G15_10/SCH18 ^property[=].valueDateTime = "2024-12-11T12:00:00+01:00"
 * #G15_10/SCH19 "Médecin - Dermatologie et Vénéréologie (SCH)"
 * #G15_10/SCH19 ^property[0].code = #dateValid
 * #G15_10/SCH19 ^property[=].valueDateTime = "2012-10-06T00:00:00+01:00"
+* #G15_10/SCH19 ^property[+].code = #dateFin
+* #G15_10/SCH19 ^property[=].valueDateTime = "2024-12-11T12:00:00+01:00"
 * #G15_10/SCH19 ^property[+].code = #dateMaj
-* #G15_10/SCH19 ^property[=].valueDateTime = "2019-08-30T12:00:00+01:00"
+* #G15_10/SCH19 ^property[=].valueDateTime = "2024-12-11T12:00:00+01:00"
 * #G15_10/SCH20 "Médecin - Endocrinologie et Métabolisme (SCH)"
 * #G15_10/SCH20 ^property[0].code = #dateValid
 * #G15_10/SCH20 ^property[=].valueDateTime = "2012-10-06T00:00:00+01:00"
+* #G15_10/SCH20 ^property[+].code = #dateFin
+* #G15_10/SCH20 ^property[=].valueDateTime = "2024-12-11T12:00:00+01:00"
 * #G15_10/SCH20 ^property[+].code = #dateMaj
-* #G15_10/SCH20 ^property[=].valueDateTime = "2019-08-30T12:00:00+01:00"
+* #G15_10/SCH20 ^property[=].valueDateTime = "2024-12-11T12:00:00+01:00"
 * #G15_10/SCH21 "Médecin - Santé publique (SCH)"
 * #G15_10/SCH21 ^property[0].code = #dateValid
 * #G15_10/SCH21 ^property[=].valueDateTime = "2012-10-06T00:00:00+01:00"
+* #G15_10/SCH21 ^property[+].code = #dateFin
+* #G15_10/SCH21 ^property[=].valueDateTime = "2024-12-11T12:00:00+01:00"
 * #G15_10/SCH21 ^property[+].code = #dateMaj
-* #G15_10/SCH21 ^property[=].valueDateTime = "2019-08-30T12:00:00+01:00"
+* #G15_10/SCH21 ^property[=].valueDateTime = "2024-12-11T12:00:00+01:00"
 * #G15_10/SCH22 "Médecin - Explorations fonctionnelles (SCH)"
 * #G15_10/SCH22 ^property[0].code = #dateValid
 * #G15_10/SCH22 ^property[=].valueDateTime = "2012-10-06T00:00:00+01:00"
+* #G15_10/SCH22 ^property[+].code = #dateFin
+* #G15_10/SCH22 ^property[=].valueDateTime = "2024-12-11T12:00:00+01:00"
 * #G15_10/SCH22 ^property[+].code = #dateMaj
-* #G15_10/SCH22 ^property[=].valueDateTime = "2019-08-30T12:00:00+01:00"
+* #G15_10/SCH22 ^property[=].valueDateTime = "2024-12-11T12:00:00+01:00"
 * #G15_10/SCH23 "Médecin - Gastro-entérologie et Hépatologie (SCH)"
 * #G15_10/SCH23 ^property[0].code = #dateValid
 * #G15_10/SCH23 ^property[=].valueDateTime = "2012-10-06T00:00:00+01:00"
+* #G15_10/SCH23 ^property[+].code = #dateFin
+* #G15_10/SCH23 ^property[=].valueDateTime = "2024-12-11T12:00:00+01:00"
 * #G15_10/SCH23 ^property[+].code = #dateMaj
-* #G15_10/SCH23 ^property[=].valueDateTime = "2019-08-30T12:00:00+01:00"
+* #G15_10/SCH23 ^property[=].valueDateTime = "2024-12-11T12:00:00+01:00"
 * #G15_10/SCH24 "Médecin - Génétique (SCH)"
 * #G15_10/SCH24 ^property[0].code = #dateValid
 * #G15_10/SCH24 ^property[=].valueDateTime = "2012-10-06T00:00:00+01:00"
+* #G15_10/SCH24 ^property[+].code = #dateFin
+* #G15_10/SCH24 ^property[=].valueDateTime = "2024-12-11T12:00:00+01:00"
 * #G15_10/SCH24 ^property[+].code = #dateMaj
-* #G15_10/SCH24 ^property[=].valueDateTime = "2019-08-30T12:00:00+01:00"
+* #G15_10/SCH24 ^property[=].valueDateTime = "2024-12-11T12:00:00+01:00"
 * #G15_10/SCH25 "Médecin - Génétique médicale (SCH)"
 * #G15_10/SCH25 ^property[0].code = #dateValid
 * #G15_10/SCH25 ^property[=].valueDateTime = "2012-10-06T00:00:00+01:00"
+* #G15_10/SCH23 ^property[+].code = #dateFin
+* #G15_10/SCH23 ^property[=].valueDateTime = "2024-12-11T12:00:00+01:00"
 * #G15_10/SCH25 ^property[+].code = #dateMaj
-* #G15_10/SCH25 ^property[=].valueDateTime = "2019-08-30T12:00:00+01:00"
+* #G15_10/SCH25 ^property[=].valueDateTime = "2024-12-11T12:00:00+01:00"
 * #G15_10/SCH26 "Médecin - Gynécologie et Obstétrique (SCH)"
 * #G15_10/SCH26 ^property[0].code = #dateValid
 * #G15_10/SCH26 ^property[=].valueDateTime = "2012-10-06T00:00:00+01:00"
+* #G15_10/SCH26 ^property[+].code = #dateFin
+* #G15_10/SCH26 ^property[=].valueDateTime = "2024-12-11T12:00:00+01:00"
 * #G15_10/SCH26 ^property[+].code = #dateMaj
-* #G15_10/SCH26 ^property[=].valueDateTime = "2019-08-30T12:00:00+01:00"
+* #G15_10/SCH26 ^property[=].valueDateTime = "2024-12-11T12:00:00+01:00"
 * #G15_10/SCH27 "Médecin - Hématologie biologique (SCH)"
 * #G15_10/SCH27 ^property[0].code = #dateValid
 * #G15_10/SCH27 ^property[=].valueDateTime = "2012-10-06T00:00:00+01:00"
+* #G15_10/SCH27 ^property[+].code = #dateFin
+* #G15_10/SCH27 ^property[=].valueDateTime = "2024-12-11T12:00:00+01:00"
 * #G15_10/SCH27 ^property[+].code = #dateMaj
-* #G15_10/SCH27 ^property[=].valueDateTime = "2019-08-30T12:00:00+01:00"
+* #G15_10/SCH27 ^property[=].valueDateTime = "2024-12-11T12:00:00+01:00"
 * #G15_10/SCH28 "Médecin - Hématologie clinique (SCH)"
 * #G15_10/SCH28 ^property[0].code = #dateValid
 * #G15_10/SCH28 ^property[=].valueDateTime = "2012-10-06T00:00:00+01:00"
+* #G15_10/SCH28 ^property[+].code = #dateFin
+* #G15_10/SCH28 ^property[=].valueDateTime = "2024-12-11T12:00:00+01:00"
 * #G15_10/SCH28 ^property[+].code = #dateMaj
-* #G15_10/SCH28 ^property[=].valueDateTime = "2019-08-30T12:00:00+01:00"
+* #G15_10/SCH28 ^property[=].valueDateTime = "2024-12-11T12:00:00+01:00"
 * #G15_10/SCH29 "Médecin - Hémobiologie-transfusion (SCH)"
 * #G15_10/SCH29 ^property[0].code = #dateValid
 * #G15_10/SCH29 ^property[=].valueDateTime = "2012-10-06T00:00:00+01:00"
+* #G15_10/SCH29 ^property[+].code = #dateFin
+* #G15_10/SCH29 ^property[=].valueDateTime = "2024-12-11T12:00:00+01:00"
 * #G15_10/SCH29 ^property[+].code = #dateMaj
-* #G15_10/SCH29 ^property[=].valueDateTime = "2019-08-30T12:00:00+01:00"
+* #G15_10/SCH29 ^property[=].valueDateTime = "2024-12-11T12:00:00+01:00"
 * #G15_10/SCH30 "Médecin - Hygiène hospitalière (SCH)"
 * #G15_10/SCH30 ^property[0].code = #dateValid
 * #G15_10/SCH30 ^property[=].valueDateTime = "2012-10-06T00:00:00+01:00"
+* #G15_10/SCH30 ^property[+].code = #dateFin
+* #G15_10/SCH30 ^property[=].valueDateTime = "2024-12-11T12:00:00+01:00"
 * #G15_10/SCH30 ^property[+].code = #dateMaj
-* #G15_10/SCH30 ^property[=].valueDateTime = "2019-08-30T12:00:00+01:00"
+* #G15_10/SCH30 ^property[=].valueDateTime = "2024-12-11T12:00:00+01:00"
 * #G15_10/SCH31 "Médecin - Immunologie biologique (SCH)"
 * #G15_10/SCH31 ^property[0].code = #dateValid
 * #G15_10/SCH31 ^property[=].valueDateTime = "2012-10-06T00:00:00+01:00"
+* #G15_10/SCH31 ^property[+].code = #dateFin
+* #G15_10/SCH31 ^property[=].valueDateTime = "2024-12-11T12:00:00+01:00"
 * #G15_10/SCH31 ^property[+].code = #dateMaj
-* #G15_10/SCH31 ^property[=].valueDateTime = "2019-08-30T12:00:00+01:00"
+* #G15_10/SCH31 ^property[=].valueDateTime = "2024-12-11T12:00:00+01:00"
 * #G15_10/SCH32 "Médecin - Immunologie clinique (SCH)"
 * #G15_10/SCH32 ^property[0].code = #dateValid
 * #G15_10/SCH32 ^property[=].valueDateTime = "2012-10-06T00:00:00+01:00"
+* #G15_10/SCH32 ^property[+].code = #dateFin
+* #G15_10/SCH32 ^property[=].valueDateTime = "2024-12-11T12:00:00+01:00"
 * #G15_10/SCH32 ^property[+].code = #dateMaj
-* #G15_10/SCH32 ^property[=].valueDateTime = "2019-08-30T12:00:00+01:00"
+* #G15_10/SCH32 ^property[=].valueDateTime = "2024-12-11T12:00:00+01:00"
 * #G15_10/SCH33 "Médecin - Maladies infectieuses, maladies tropicales (SCH)"
 * #G15_10/SCH33 ^property[0].code = #dateValid
 * #G15_10/SCH33 ^property[=].valueDateTime = "2012-10-06T00:00:00+01:00"
+* #G15_10/SCH33 ^property[+].code = #dateFin
+* #G15_10/SCH33 ^property[=].valueDateTime = "2024-12-11T12:00:00+01:00"
 * #G15_10/SCH33 ^property[+].code = #dateMaj
-* #G15_10/SCH33 ^property[=].valueDateTime = "2019-08-30T12:00:00+01:00"
+* #G15_10/SCH33 ^property[=].valueDateTime = "2024-12-11T12:00:00+01:00"
 * #G15_10/SCH34 "Médecin - Médecine de la repro et Gynécologie médicale (SCH)"
 * #G15_10/SCH34 ^property[0].code = #dateValid
 * #G15_10/SCH34 ^property[=].valueDateTime = "2012-10-06T00:00:00+01:00"
+* #G15_10/SCH34 ^property[+].code = #dateFin
+* #G15_10/SCH34 ^property[=].valueDateTime = "2024-12-11T12:00:00+01:00"
 * #G15_10/SCH34 ^property[+].code = #dateMaj
-* #G15_10/SCH34 ^property[=].valueDateTime = "2019-08-30T12:00:00+01:00"
+* #G15_10/SCH34 ^property[=].valueDateTime = "2024-12-11T12:00:00+01:00"
 * #G15_10/SCH35 "Médecin - Médecine du travail (SCH)"
 * #G15_10/SCH35 ^property[0].code = #dateValid
 * #G15_10/SCH35 ^property[=].valueDateTime = "2012-10-06T00:00:00+01:00"
+* #G15_10/SCH35 ^property[+].code = #dateFin
+* #G15_10/SCH35 ^property[=].valueDateTime = "2024-12-11T12:00:00+01:00"
 * #G15_10/SCH35 ^property[+].code = #dateMaj
-* #G15_10/SCH35 ^property[=].valueDateTime = "2019-08-30T12:00:00+01:00"
+* #G15_10/SCH35 ^property[=].valueDateTime = "2024-12-11T12:00:00+01:00"
 * #G15_10/SCH36 "Médecin - Médecine d'urgence (SCH)"
 * #G15_10/SCH36 ^property[0].code = #dateValid
 * #G15_10/SCH36 ^property[=].valueDateTime = "2012-10-06T00:00:00+01:00"
+* #G15_10/SCH36 ^property[+].code = #dateFin
+* #G15_10/SCH36 ^property[=].valueDateTime = "2024-12-11T12:00:00+01:00"
 * #G15_10/SCH36 ^property[+].code = #dateMaj
-* #G15_10/SCH36 ^property[=].valueDateTime = "2019-08-30T12:00:00+01:00"
+* #G15_10/SCH36 ^property[=].valueDateTime = "2024-12-11T12:00:00+01:00"
 * #G15_10/SCH37 "Médecin - Médecine générale (SCH)"
 * #G15_10/SCH37 ^property[0].code = #dateValid
 * #G15_10/SCH37 ^property[=].valueDateTime = "2012-10-06T00:00:00+01:00"
+* #G15_10/SCH37 ^property[+].code = #dateFin
+* #G15_10/SCH37 ^property[=].valueDateTime = "2024-12-11T12:00:00+01:00"
 * #G15_10/SCH37 ^property[+].code = #dateMaj
-* #G15_10/SCH37 ^property[=].valueDateTime = "2019-08-30T12:00:00+01:00"
+* #G15_10/SCH37 ^property[=].valueDateTime = "2024-12-11T12:00:00+01:00"
 * #G15_10/SCH38 "Médecin - Gériatrie (SCH)"
 * #G15_10/SCH38 ^property[0].code = #dateValid
 * #G15_10/SCH38 ^property[=].valueDateTime = "2012-10-06T00:00:00+01:00"
+* #G15_10/SCH38 ^property[+].code = #dateFin
+* #G15_10/SCH38 ^property[=].valueDateTime = "2024-12-11T12:00:00+01:00"
 * #G15_10/SCH38 ^property[+].code = #dateMaj
-* #G15_10/SCH38 ^property[=].valueDateTime = "2019-08-30T12:00:00+01:00"
+* #G15_10/SCH38 ^property[=].valueDateTime = "2024-12-11T12:00:00+01:00"
 * #G15_10/SCH39 "Médecin - Médecine interne (SCH)"
 * #G15_10/SCH39 ^property[0].code = #dateValid
 * #G15_10/SCH39 ^property[=].valueDateTime = "2012-10-06T00:00:00+01:00"
+* #G15_10/SCH39 ^property[+].code = #dateFin
+* #G15_10/SCH39 ^property[=].valueDateTime = "2024-12-11T12:00:00+01:00"
 * #G15_10/SCH39 ^property[+].code = #dateMaj
-* #G15_10/SCH39 ^property[=].valueDateTime = "2019-08-30T12:00:00+01:00"
+* #G15_10/SCH39 ^property[=].valueDateTime = "2024-12-11T12:00:00+01:00"
 * #G15_10/SCH40 "Médecin - Médecine légale (SCH)"
 * #G15_10/SCH40 ^property[0].code = #dateValid
 * #G15_10/SCH40 ^property[=].valueDateTime = "2012-10-06T00:00:00+01:00"
+* #G15_10/SCH40 ^property[+].code = #dateFin
+* #G15_10/SCH40 ^property[=].valueDateTime = "2024-12-11T12:00:00+01:00"
 * #G15_10/SCH40 ^property[+].code = #dateMaj
-* #G15_10/SCH40 ^property[=].valueDateTime = "2019-08-30T12:00:00+01:00"
+* #G15_10/SCH40 ^property[=].valueDateTime = "2024-12-11T12:00:00+01:00"
 * #G15_10/SCH41 "Médecin - Médecine nucléaire (SCH)"
 * #G15_10/SCH41 ^property[0].code = #dateValid
 * #G15_10/SCH41 ^property[=].valueDateTime = "2012-10-06T00:00:00+01:00"
+* #G15_10/SCH41 ^property[+].code = #dateFin
+* #G15_10/SCH41 ^property[=].valueDateTime = "2024-12-11T12:00:00+01:00"
 * #G15_10/SCH41 ^property[+].code = #dateMaj
-* #G15_10/SCH41 ^property[=].valueDateTime = "2019-08-30T12:00:00+01:00"
+* #G15_10/SCH41 ^property[=].valueDateTime = "2024-12-11T12:00:00+01:00"
 * #G15_10/SCH42 "Médecin - Médecine physique et de réadaptation (SCH)"
 * #G15_10/SCH42 ^property[0].code = #dateValid
 * #G15_10/SCH42 ^property[=].valueDateTime = "2012-10-06T00:00:00+01:00"
+* #G15_10/SCH42 ^property[+].code = #dateFin
+* #G15_10/SCH42 ^property[=].valueDateTime = "2024-12-11T12:00:00+01:00"
 * #G15_10/SCH42 ^property[+].code = #dateMaj
-* #G15_10/SCH42 ^property[=].valueDateTime = "2019-08-30T12:00:00+01:00"
+* #G15_10/SCH42 ^property[=].valueDateTime = "2024-12-11T12:00:00+01:00"
 * #G15_10/SCH43 "Médecin - Néphrologie (SCH)"
 * #G15_10/SCH43 ^property[0].code = #dateValid
 * #G15_10/SCH43 ^property[=].valueDateTime = "2012-10-06T00:00:00+01:00"
+* #G15_10/SCH43 ^property[+].code = #dateFin
+* #G15_10/SCH43 ^property[=].valueDateTime = "2024-12-11T12:00:00+01:00"
 * #G15_10/SCH43 ^property[+].code = #dateMaj
-* #G15_10/SCH43 ^property[=].valueDateTime = "2019-08-30T12:00:00+01:00"
+* #G15_10/SCH43 ^property[=].valueDateTime = "2024-12-11T12:00:00+01:00"
 * #G15_10/SCH44 "Médecin - neuro-chirurgie (SCH)"
 * #G15_10/SCH44 ^property[0].code = #dateValid
 * #G15_10/SCH44 ^property[=].valueDateTime = "2012-10-06T00:00:00+01:00"
+* #G15_10/SCH44 ^property[+].code = #dateFin
+* #G15_10/SCH44 ^property[=].valueDateTime = "2024-12-11T12:00:00+01:00"
 * #G15_10/SCH44 ^property[+].code = #dateMaj
-* #G15_10/SCH44 ^property[=].valueDateTime = "2019-08-30T12:00:00+01:00"
+* #G15_10/SCH44 ^property[=].valueDateTime = "2024-12-11T12:00:00+01:00"
 * #G15_10/SCH45 "Médecin - Neurologie (SCH)"
 * #G15_10/SCH45 ^property[0].code = #dateValid
 * #G15_10/SCH45 ^property[=].valueDateTime = "2012-10-06T00:00:00+01:00"
+* #G15_10/SCH45 ^property[+].code = #dateFin
+* #G15_10/SCH45 ^property[=].valueDateTime = "2024-12-11T12:00:00+01:00"
 * #G15_10/SCH45 ^property[+].code = #dateMaj
-* #G15_10/SCH45 ^property[=].valueDateTime = "2019-08-30T12:00:00+01:00"
+* #G15_10/SCH45 ^property[=].valueDateTime = "2024-12-11T12:00:00+01:00"
 * #G15_10/SCH46 "Médecin - Odontologie polyvalente (SCH)"
 * #G15_10/SCH46 ^property[0].code = #dateValid
 * #G15_10/SCH46 ^property[=].valueDateTime = "2012-10-06T00:00:00+01:00"
+* #G15_10/SCH46 ^property[+].code = #dateFin
+* #G15_10/SCH46 ^property[=].valueDateTime = "2024-12-11T12:00:00+01:00"
 * #G15_10/SCH46 ^property[+].code = #dateMaj
-* #G15_10/SCH46 ^property[=].valueDateTime = "2019-08-30T12:00:00+01:00"
+* #G15_10/SCH46 ^property[=].valueDateTime = "2024-12-11T12:00:00+01:00"
 * #G15_10/SCH47 "Médecin - Ophtalmologie (SCH)"
 * #G15_10/SCH47 ^property[0].code = #dateValid
 * #G15_10/SCH47 ^property[=].valueDateTime = "2012-10-06T00:00:00+01:00"
+* #G15_10/SCH47 ^property[+].code = #dateFin
+* #G15_10/SCH47 ^property[=].valueDateTime = "2024-12-11T12:00:00+01:00"
 * #G15_10/SCH47 ^property[+].code = #dateMaj
-* #G15_10/SCH47 ^property[=].valueDateTime = "2019-08-30T12:00:00+01:00"
+* #G15_10/SCH47 ^property[=].valueDateTime = "2024-12-11T12:00:00+01:00"
 * #G15_10/SCH48 "Médecin - Oto-rhino-laryngologie (SCH)"
 * #G15_10/SCH48 ^property[0].code = #dateValid
 * #G15_10/SCH48 ^property[=].valueDateTime = "2012-10-06T00:00:00+01:00"
+* #G15_10/SCH48 ^property[+].code = #dateFin
+* #G15_10/SCH48 ^property[=].valueDateTime = "2024-12-11T12:00:00+01:00"
 * #G15_10/SCH48 ^property[+].code = #dateMaj
-* #G15_10/SCH48 ^property[=].valueDateTime = "2019-08-30T12:00:00+01:00"
+* #G15_10/SCH48 ^property[=].valueDateTime = "2024-12-11T12:00:00+01:00"
 * #G15_10/SCH49 "Médecin - Parasitologie (SCH)"
 * #G15_10/SCH49 ^property[0].code = #dateValid
 * #G15_10/SCH49 ^property[=].valueDateTime = "2012-10-06T00:00:00+01:00"
+* #G15_10/SCH49 ^property[+].code = #dateFin
+* #G15_10/SCH49 ^property[=].valueDateTime = "2024-12-11T12:00:00+01:00"
 * #G15_10/SCH49 ^property[+].code = #dateMaj
-* #G15_10/SCH49 ^property[=].valueDateTime = "2019-08-30T12:00:00+01:00"
+* #G15_10/SCH49 ^property[=].valueDateTime = "2024-12-11T12:00:00+01:00"
 * #G15_10/SCH50 "Médecin - Pédiatrie (SCH)"
 * #G15_10/SCH50 ^property[0].code = #dateValid
 * #G15_10/SCH50 ^property[=].valueDateTime = "2012-10-06T00:00:00+01:00"
+* #G15_10/SCH50 ^property[+].code = #dateFin
+* #G15_10/SCH50 ^property[=].valueDateTime = "2024-12-11T12:00:00+01:00"
 * #G15_10/SCH50 ^property[+].code = #dateMaj
-* #G15_10/SCH50 ^property[=].valueDateTime = "2019-08-30T12:00:00+01:00"
+* #G15_10/SCH50 ^property[=].valueDateTime = "2024-12-11T12:00:00+01:00"
 * #G15_10/SCH51 "Médecin - Pharmacie polyvalente et Pharmacie hosp (SCH)"
 * #G15_10/SCH51 ^property[0].code = #dateValid
 * #G15_10/SCH51 ^property[=].valueDateTime = "2012-10-06T00:00:00+01:00"
+* #G15_10/SCH51 ^property[+].code = #dateFin
+* #G15_10/SCH51 ^property[=].valueDateTime = "2024-12-11T12:00:00+01:00"
 * #G15_10/SCH51 ^property[+].code = #dateMaj
-* #G15_10/SCH51 ^property[=].valueDateTime = "2019-08-30T12:00:00+01:00"
+* #G15_10/SCH51 ^property[=].valueDateTime = "2024-12-11T12:00:00+01:00"
 * #G15_10/SCH52 "Médecin - Pharmacologie clinique et Toxicologie (SCH)"
 * #G15_10/SCH52 ^property[0].code = #dateValid
 * #G15_10/SCH52 ^property[=].valueDateTime = "2012-10-06T00:00:00+01:00"
+* #G15_10/SCH52 ^property[+].code = #dateFin
+* #G15_10/SCH52 ^property[=].valueDateTime = "2024-12-11T12:00:00+01:00"
 * #G15_10/SCH52 ^property[+].code = #dateMaj
-* #G15_10/SCH52 ^property[=].valueDateTime = "2019-08-30T12:00:00+01:00"
+* #G15_10/SCH52 ^property[=].valueDateTime = "2024-12-11T12:00:00+01:00"
 * #G15_10/SCH53 "Médecin - Pneumologie (SCH)"
 * #G15_10/SCH53 ^property[0].code = #dateValid
 * #G15_10/SCH53 ^property[=].valueDateTime = "2012-10-06T00:00:00+01:00"
+* #G15_10/SCH53 ^property[+].code = #dateFin
+* #G15_10/SCH53 ^property[=].valueDateTime = "2024-12-11T12:00:00+01:00"
 * #G15_10/SCH53 ^property[+].code = #dateMaj
-* #G15_10/SCH53 ^property[=].valueDateTime = "2019-08-30T12:00:00+01:00"
+* #G15_10/SCH53 ^property[=].valueDateTime = "2024-12-11T12:00:00+01:00"
 * #G15_10/SCH54 "Médecin - Psychiatrie polyvalente (SCH)"
 * #G15_10/SCH54 ^property[0].code = #dateValid
 * #G15_10/SCH54 ^property[=].valueDateTime = "2012-10-06T00:00:00+01:00"
+* #G15_10/SCH54 ^property[+].code = #dateFin
+* #G15_10/SCH54 ^property[=].valueDateTime = "2024-12-11T12:00:00+01:00"
 * #G15_10/SCH54 ^property[+].code = #dateMaj
-* #G15_10/SCH54 ^property[=].valueDateTime = "2019-08-30T12:00:00+01:00"
+* #G15_10/SCH54 ^property[=].valueDateTime = "2024-12-11T12:00:00+01:00"
 * #G15_10/SCH55 "Médecin - Radiologie (SCH)"
 * #G15_10/SCH55 ^property[0].code = #dateValid
 * #G15_10/SCH55 ^property[=].valueDateTime = "2012-10-06T00:00:00+01:00"
+* #G15_10/SCH55 ^property[+].code = #dateFin
+* #G15_10/SCH55 ^property[=].valueDateTime = "2024-12-11T12:00:00+01:00"
 * #G15_10/SCH55 ^property[+].code = #dateMaj
-* #G15_10/SCH55 ^property[=].valueDateTime = "2019-08-30T12:00:00+01:00"
+* #G15_10/SCH55 ^property[=].valueDateTime = "2024-12-11T12:00:00+01:00"
 * #G15_10/SCH56 "Médecin - Oncologie radiothérapique (SCH)"
 * #G15_10/SCH56 ^property[0].code = #dateValid
 * #G15_10/SCH56 ^property[=].valueDateTime = "2012-10-06T00:00:00+01:00"
+* #G15_10/SCH56 ^property[+].code = #dateFin
+* #G15_10/SCH56 ^property[=].valueDateTime = "2024-12-11T12:00:00+01:00"
 * #G15_10/SCH56 ^property[+].code = #dateMaj
-* #G15_10/SCH56 ^property[=].valueDateTime = "2019-08-30T12:00:00+01:00"
+* #G15_10/SCH56 ^property[=].valueDateTime = "2024-12-11T12:00:00+01:00"
 * #G15_10/SCH57 "Médecin - Réanimation médicale (SCH)"
 * #G15_10/SCH57 ^property[0].code = #dateValid
 * #G15_10/SCH57 ^property[=].valueDateTime = "2012-10-06T00:00:00+01:00"
+* #G15_10/SCH57 ^property[+].code = #dateFin
+* #G15_10/SCH57 ^property[=].valueDateTime = "2024-12-11T12:00:00+01:00"
 * #G15_10/SCH57 ^property[+].code = #dateMaj
-* #G15_10/SCH57 ^property[=].valueDateTime = "2019-08-30T12:00:00+01:00"
+* #G15_10/SCH57 ^property[=].valueDateTime = "2024-12-11T12:00:00+01:00"
 * #G15_10/SCH58 "Médecin - Rhumatologie (SCH)"
 * #G15_10/SCH58 ^property[0].code = #dateValid
 * #G15_10/SCH58 ^property[=].valueDateTime = "2012-10-06T00:00:00+01:00"
+* #G15_10/SCH58 ^property[+].code = #dateFin
+* #G15_10/SCH58 ^property[=].valueDateTime = "2024-12-11T12:00:00+01:00"
 * #G15_10/SCH58 ^property[+].code = #dateMaj
-* #G15_10/SCH58 ^property[=].valueDateTime = "2019-08-30T12:00:00+01:00"
+* #G15_10/SCH58 ^property[=].valueDateTime = "2024-12-11T12:00:00+01:00"
 * #G15_10/SCH59 "Médecin - Stomatologie (SCH)"
 * #G15_10/SCH59 ^property[0].code = #dateValid
 * #G15_10/SCH59 ^property[=].valueDateTime = "2012-10-06T00:00:00+01:00"
+* #G15_10/SCH59 ^property[+].code = #dateFin
+* #G15_10/SCH59 ^property[=].valueDateTime = "2024-12-11T12:00:00+01:00"
 * #G15_10/SCH59 ^property[+].code = #dateMaj
-* #G15_10/SCH59 ^property[=].valueDateTime = "2019-08-30T12:00:00+01:00"
+* #G15_10/SCH59 ^property[=].valueDateTime = "2024-12-11T12:00:00+01:00"
 * #G15_10/SCH60 "Médecin - Toxicologie et Pharmacologie (SCH)"
 * #G15_10/SCH60 ^property[0].code = #dateValid
 * #G15_10/SCH60 ^property[=].valueDateTime = "2012-10-06T00:00:00+01:00"
+* #G15_10/SCH60 ^property[+].code = #dateFin
+* #G15_10/SCH60 ^property[=].valueDateTime = "2024-12-11T12:00:00+01:00"
 * #G15_10/SCH60 ^property[+].code = #dateMaj
-* #G15_10/SCH60 ^property[=].valueDateTime = "2019-08-30T12:00:00+01:00"
+* #G15_10/SCH60 ^property[=].valueDateTime = "2024-12-11T12:00:00+01:00"
 * #G15_10/C01 "Médecin - Anatomie et Cytologie pathologiques humaines (C)"
 * #G15_10/C01 ^property[0].code = #dateValid
 * #G15_10/C01 ^property[=].valueDateTime = "2012-10-06T00:00:00+01:00"
@@ -1388,6 +1508,291 @@ Description: "Profession et savoir-faire CI-SIS"
 * #G15_10/DSM240 ^property[=].valueDateTime = "2016-09-01T00:00:00+01:00"
 * #G15_10/DSM240 ^property[+].code = #dateMaj
 * #G15_10/DSM240 ^property[=].valueDateTime = "2019-08-30T12:00:00+01:00"
+* #G15_10/80 "Médecin - Homéopathie (OP)"
+* #G15_10/80 ^property[0].code = #dateValid
+* #G15_10/80 ^property[=].valueDateTime = "2024-12-11T00:00:00+01:00"
+* #G15_10/80 ^property[+].code = #dateMaj
+* #G15_10/80 ^property[=].valueDateTime = "2024-12-11T12:00:00+01:00"
+* #G15_10/81 "Médecin - Acupuncture (OP)"
+* #G15_10/81 ^property[0].code = #dateValid
+* #G15_10/81 ^property[=].valueDateTime = "2024-12-11T00:00:00+01:00"
+* #G15_10/81 ^property[+].code = #dateMaj
+* #G15_10/81 ^property[=].valueDateTime = "2024-12-11T12:00:00+01:00"
+* #G15_10/DEC01 "Médecin - Addictologie (DEC)"
+* #G15_10/DEC01 ^property[0].code = #dateValid
+* #G15_10/DEC01 ^property[=].valueDateTime = "2024-12-11T00:00:00+01:00"
+* #G15_10/DEC01 ^property[+].code = #dateMaj
+* #G15_10/DEC01 ^property[=].valueDateTime = "2024-12-11T12:00:00+01:00"
+* #G15_10/DEC02 "Médecin - Allergologie et immunologie clinique (DEC)"
+* #G15_10/DEC02 ^property[0].code = #dateValid
+* #G15_10/DEC02 ^property[=].valueDateTime = "2024-12-11T00:00:00+01:00"
+* #G15_10/DEC02 ^property[+].code = #dateMaj
+* #G15_10/DEC02 ^property[=].valueDateTime = "2024-12-11T12:00:00+01:00"
+* #G15_10/DEC03 "Médecin - Andrologie (DEC)"
+* #G15_10/DEC03 ^property[0].code = #dateValid
+* #G15_10/DEC03 ^property[=].valueDateTime = "2024-12-11T00:00:00+01:00"
+* #G15_10/DEC03 ^property[+].code = #dateMaj
+* #G15_10/DEC03 ^property[=].valueDateTime = "2024-12-11T12:00:00+01:00"
+* #G15_10/DEC04 "Médecin - Cancérologie option traitements médicaux des cancers (DEC)"
+* #G15_10/DEC04 ^property[0].code = #dateValid
+* #G15_10/DEC04 ^property[=].valueDateTime = "2024-12-11T00:00:00+01:00"
+* #G15_10/DEC04 ^property[+].code = #dateMaj
+* #G15_10/DEC04 ^property[=].valueDateTime = "2024-12-11T12:00:00+01:00"
+* #G15_10/DEC05 "Médecin - Cancérologie option chiruggie cancérologique (DEC)"
+* #G15_10/DEC05 ^property[0].code = #dateValid
+* #G15_10/DEC05 ^property[=].valueDateTime = "2024-12-11T00:00:00+01:00"
+* #G15_10/DEC05 ^property[+].code = #dateMaj
+* #G15_10/DEC05 ^property[=].valueDateTime = "2024-12-11T12:00:00+01:00"
+* #G15_10/DEC06 "Médecin - Cancérologie option réseaux de cancérologie (DEC)"
+* #G15_10/DEC06 ^property[0].code = #dateValid
+* #G15_10/DEC06 ^property[=].valueDateTime = "2024-12-11T00:00:00+01:00"
+* #G15_10/DEC06 ^property[+].code = #dateMaj
+* #G15_10/DEC06 ^property[=].valueDateTime = "2024-12-11T12:00:00+01:00"
+* #G15_10/DEC07 "Médecin - Cancérologie option biologie en cancérologie (DEC)"
+* #G15_10/DEC07 ^property[0].code = #dateValid
+* #G15_10/DEC07 ^property[=].valueDateTime = "2024-12-11T00:00:00+01:00"
+* #G15_10/DEC07 ^property[+].code = #dateMaj
+* #G15_10/DEC07 ^property[=].valueDateTime = "2024-12-11T12:00:00+01:00"
+* #G15_10/DEC08 "Médecin - Cancérologie option imagerie en cancérologie (DEC)"
+* #G15_10/DEC08 ^property[0].code = #dateValid
+* #G15_10/DEC08 ^property[=].valueDateTime = "2024-12-11T00:00:00+01:00"
+* #G15_10/DEC08 ^property[+].code = #dateMaj
+* #G15_10/DEC08 ^property[=].valueDateTime = "2024-12-11T12:00:00+01:00"
+* #G15_10/DEC09 "Médecin - Dermatopathologie (DEC)"
+* #G15_10/DEC09 ^property[0].code = #dateValid
+* #G15_10/DEC09 ^property[=].valueDateTime = "2024-12-11T00:00:00+01:00"
+* #G15_10/DEC09 ^property[+].code = #dateMaj
+* #G15_10/DEC09 ^property[=].valueDateTime = "2024-12-11T12:00:00+01:00"
+* #G15_10/DEC10 "Médecin - Foetopathologie (DEC)"
+* #G15_10/DEC10 ^property[0].code = #dateValid
+* #G15_10/DEC10 ^property[=].valueDateTime = "2024-12-11T00:00:00+01:00"
+* #G15_10/DEC10 ^property[+].code = #dateMaj
+* #G15_10/DEC10 ^property[=].valueDateTime = "2024-12-11T12:00:00+01:00"
+* #G15_10/DEC11 "Médecin - Hémobiologie - tranfusion (DEC)"
+* #G15_10/DEC11 ^property[0].code = #dateValid
+* #G15_10/DEC11 ^property[=].valueDateTime = "2024-12-11T00:00:00+01:00"
+* #G15_10/DEC11 ^property[+].code = #dateMaj
+* #G15_10/DEC11 ^property[=].valueDateTime = "2024-12-11T12:00:00+01:00"
+* #G15_10/DEC12 "Médecin - Médecine de la douleur et médecine palliative (DEC)"
+* #G15_10/DEC12 ^property[0].code = #dateValid
+* #G15_10/DEC12 ^property[=].valueDateTime = "2024-12-11T00:00:00+01:00"
+* #G15_10/DEC12 ^property[+].code = #dateMaj
+* #G15_10/DEC12 ^property[=].valueDateTime = "2024-12-11T12:00:00+01:00"
+* #G15_10/DEC13 "Médecin - Médecine de la reproduction (DEC)"
+* #G15_10/DEC13 ^property[0].code = #dateValid
+* #G15_10/DEC13 ^property[=].valueDateTime = "2024-12-11T00:00:00+01:00"
+* #G15_10/DEC13 ^property[+].code = #dateMaj
+* #G15_10/DEC13 ^property[=].valueDateTime = "2024-12-11T12:00:00+01:00"
+* #G15_10/DEC14 "Médecin - Médecine d'urgence (DEC)"
+* #G15_10/DEC14 ^property[0].code = #dateValid
+* #G15_10/DEC14 ^property[=].valueDateTime = "2024-12-11T00:00:00+01:00"
+* #G15_10/DEC14 ^property[+].code = #dateMaj
+* #G15_10/DEC14 ^property[=].valueDateTime = "2024-12-11T12:00:00+01:00"
+* #G15_10/DEC15 "Médecin - Médecine du sport (DEC)"
+* #G15_10/DEC15 ^property[0].code = #dateValid
+* #G15_10/DEC15 ^property[=].valueDateTime = "2024-12-11T00:00:00+01:00"
+* #G15_10/DEC15 ^property[+].code = #dateMaj
+* #G15_10/DEC15 ^property[=].valueDateTime = "2024-12-11T12:00:00+01:00"
+* #G15_10/DEC16 "Médecin - Médecine légale et expertises médicales (DEC)"
+* #G15_10/DEC16 ^property[0].code = #dateValid
+* #G15_10/DEC16 ^property[=].valueDateTime = "2024-12-11T00:00:00+01:00"
+* #G15_10/DEC16 ^property[+].code = #dateMaj
+* #G15_10/DEC16 ^property[=].valueDateTime = "2024-12-11T12:00:00+01:00"
+* #G15_10/DEC17 "Médecin - Médecine vasculaire (DEC)"
+* #G15_10/DEC17 ^property[0].code = #dateValid
+* #G15_10/DEC17 ^property[=].valueDateTime = "2024-12-11T00:00:00+01:00"
+* #G15_10/DEC17 ^property[+].code = #dateMaj
+* #G15_10/DEC17 ^property[=].valueDateTime = "2024-12-11T12:00:00+01:00"
+* #G15_10/DEC18 "Médecin - Néonatologie (DEC)"
+* #G15_10/DEC18 ^property[0].code = #dateValid
+* #G15_10/DEC18 ^property[=].valueDateTime = "2024-12-11T00:00:00+01:00"
+* #G15_10/DEC18 ^property[+].code = #dateMaj
+* #G15_10/DEC18 ^property[=].valueDateTime = "2024-12-11T12:00:00+01:00"
+* #G15_10/DEC19 "Médecin - Neuropathologie (DEC)"
+* #G15_10/DEC19 ^property[0].code = #dateValid
+* #G15_10/DEC19 ^property[=].valueDateTime = "2024-12-11T00:00:00+01:00"
+* #G15_10/DEC19 ^property[+].code = #dateMaj
+* #G15_10/DEC19 ^property[=].valueDateTime = "2024-12-11T12:00:00+01:00"
+* #G15_10/DEC20 "Médecin - Nutrition (DEC)"
+* #G15_10/DEC20 ^property[0].code = #dateValid
+* #G15_10/DEC20 ^property[=].valueDateTime = "2024-12-11T00:00:00+01:00"
+* #G15_10/DEC20 ^property[+].code = #dateMaj
+* #G15_10/DEC20 ^property[=].valueDateTime = "2024-12-11T12:00:00+01:00"
+* #G15_10/DEC21 "Médecin - Orthopédie dento-maxillo-faciale (DEC)"
+* #G15_10/DEC21 ^property[0].code = #dateValid
+* #G15_10/DEC21 ^property[=].valueDateTime = "2024-12-11T00:00:00+01:00"
+* #G15_10/DEC21 ^property[+].code = #dateMaj
+* #G15_10/DEC21 ^property[=].valueDateTime = "2024-12-11T12:00:00+01:00"
+* #G15_10/DEC22 "Médecin - Pathologie infectieuse et tropicale, clinique et biologique (DEC)"
+* #G15_10/DEC22 ^property[0].code = #dateValid
+* #G15_10/DEC22 ^property[=].valueDateTime = "2024-12-11T00:00:00+01:00"
+* #G15_10/DEC22 ^property[+].code = #dateMaj
+* #G15_10/DEC22 ^property[=].valueDateTime = "2024-12-11T12:00:00+01:00"
+* #G15_10/DEC23 "Médecin - Pharmacologie clinique et évaluation des thérapeutiques (DEC)"
+* #G15_10/DEC23 ^property[0].code = #dateValid
+* #G15_10/DEC23 ^property[=].valueDateTime = "2024-12-11T00:00:00+01:00"
+* #G15_10/DEC23 ^property[+].code = #dateMaj
+* #G15_10/DEC23 ^property[=].valueDateTime = "2024-12-11T12:00:00+01:00"
+* #G15_10/DEC24 "Médecin - Psychiatrie de l'enfant et de l'adolescent (DEC)"
+* #G15_10/DEC24 ^property[0].code = #dateValid
+* #G15_10/DEC24 ^property[=].valueDateTime = "2024-12-11T00:00:00+01:00"
+* #G15_10/DEC24 ^property[+].code = #dateMaj
+* #G15_10/DEC24 ^property[=].valueDateTime = "2024-12-11T12:00:00+01:00"
+* #G15_10/SST01 "Médecin - Addictologie (SST)"
+* #G15_10/SST01 ^property[0].code = #dateValid
+* #G15_10/SST01 ^property[=].valueDateTime = "2024-12-11T00:00:00+01:00"
+* #G15_10/SST01 ^property[+].code = #dateMaj
+* #G15_10/SST01 ^property[=].valueDateTime = "2024-12-11T12:00:00+01:00"
+* #G15_10/SST02 "Médecin - Bio-informatique médicale (SST)"
+* #G15_10/SST02 ^property[0].code = #dateValid
+* #G15_10/SST02 ^property[=].valueDateTime = "2024-12-11T00:00:00+01:00"
+* #G15_10/SST02 ^property[+].code = #dateMaj
+* #G15_10/SST02 ^property[=].valueDateTime = "2024-12-11T12:00:00+01:00"
+* #G15_10/SST03 "Médecin - Cancérologie déc. hémato-cancérologie pédiatrique (SST)"
+* #G15_10/SST03 ^property[0].code = #dateValid
+* #G15_10/SST03 ^property[=].valueDateTime = "2024-12-11T00:00:00+01:00"
+* #G15_10/SST03 ^property[+].code = #dateMaj
+* #G15_10/SST03 ^property[=].valueDateTime = "2024-12-11T12:00:00+01:00"
+* #G15_10/SST04 "Médecin - Cancérologie traitements médicaux des cancers (SST)"
+* #G15_10/SST04 ^property[0].code = #dateValid
+* #G15_10/SST04 ^property[=].valueDateTime = "2024-12-11T00:00:00+01:00"
+* #G15_10/SST04 ^property[+].code = #dateMaj
+* #G15_10/SST04 ^property[=].valueDateTime = "2024-12-11T12:00:00+01:00"
+* #G15_10/SST05 "Médecin - Cardiologie pédiatrique et congénitale (SST)"
+* #G15_10/SST05 ^property[0].code = #dateValid
+* #G15_10/SST05 ^property[=].valueDateTime = "2024-12-11T00:00:00+01:00"
+* #G15_10/SST05 ^property[+].code = #dateMaj
+* #G15_10/SST05 ^property[=].valueDateTime = "2024-12-11T12:00:00+01:00"
+* #G15_10/SST06 "Médecin - Chirurgie de la main (SST)"
+* #G15_10/SST06 ^property[0].code = #dateValid
+* #G15_10/SST06 ^property[=].valueDateTime = "2024-12-11T00:00:00+01:00"
+* #G15_10/SST06 ^property[+].code = #dateMaj
+* #G15_10/SST06 ^property[=].valueDateTime = "2024-12-11T12:00:00+01:00"
+* #G15_10/SST07 "Médecin - Chirurgie en situation de guerre ou de catastrophe (SST)"
+* #G15_10/SST07 ^property[0].code = #dateValid
+* #G15_10/SST07 ^property[=].valueDateTime = "2024-12-11T00:00:00+01:00"
+* #G15_10/SST07 ^property[+].code = #dateMaj
+* #G15_10/SST07 ^property[=].valueDateTime = "2024-12-11T12:00:00+01:00"
+* #G15_10/SST08 "Médecin - Chirurgie orbito-palpébro-lacrymale (SST)"
+* #G15_10/SST08 ^property[0].code = #dateValid
+* #G15_10/SST08 ^property[=].valueDateTime = "2024-12-11T00:00:00+01:00"
+* #G15_10/SST08 ^property[+].code = #dateMaj
+* #G15_10/SST08 ^property[=].valueDateTime = "2024-12-11T12:00:00+01:00"
+* #G15_10/SST09 "Médecin - Douleur (SST)"
+* #G15_10/SST09 ^property[0].code = #dateValid
+* #G15_10/SST09 ^property[=].valueDateTime = "2024-12-11T00:00:00+01:00"
+* #G15_10/SST09 ^property[+].code = #dateMaj
+* #G15_10/SST09 ^property[=].valueDateTime = "2024-12-11T12:00:00+01:00"
+* #G15_10/SST10 "Médecin - Expertise médicale-préjudice corporel (SST)"
+* #G15_10/SST10 ^property[0].code = #dateValid
+* #G15_10/SST10 ^property[=].valueDateTime = "2024-12-11T00:00:00+01:00"
+* #G15_10/SST10 ^property[+].code = #dateMaj
+* #G15_10/SST10 ^property[=].valueDateTime = "2024-12-11T12:00:00+01:00"
+* #G15_10/SST11 "Médecin - Foetopathologie (SST)"
+* #G15_10/SST11 ^property[0].code = #dateValid
+* #G15_10/SST11 ^property[=].valueDateTime = "2024-12-11T00:00:00+01:00"
+* #G15_10/SST11 ^property[+].code = #dateMaj
+* #G15_10/SST11 ^property[=].valueDateTime = "2024-12-11T12:00:00+01:00"
+* #G15_10/SST12 "Médecin - Génétique et médecine moléculaire bioclinique (SST)"
+* #G15_10/SST12 ^property[0].code = #dateValid
+* #G15_10/SST12 ^property[=].valueDateTime = "2024-12-11T00:00:00+01:00"
+* #G15_10/SST12 ^property[+].code = #dateMaj
+* #G15_10/SST12 ^property[=].valueDateTime = "2024-12-11T12:00:00+01:00"
+* #G15_10/SST13 "Médecin - Hématologie bioclinique (SST)"
+* #G15_10/SST13 ^property[0].code = #dateValid
+* #G15_10/SST13 ^property[=].valueDateTime = "2024-12-11T00:00:00+01:00"
+* #G15_10/SST13 ^property[+].code = #dateMaj
+* #G15_10/SST13 ^property[=].valueDateTime = "2024-12-11T12:00:00+01:00"
+* #G15_10/SST14 "Médecin - Hygiène-prévention de l'infection, résistances (SST)"
+* #G15_10/SST14 ^property[0].code = #dateValid
+* #G15_10/SST14 ^property[=].valueDateTime = "2024-12-11T00:00:00+01:00"
+* #G15_10/SST14 ^property[+].code = #dateMaj
+* #G15_10/SST14 ^property[=].valueDateTime = "2024-12-11T12:00:00+01:00"
+* #G15_10/SST15 "Médecin - Maladies allergiques (SST)"
+* #G15_10/SST15 ^property[0].code = #dateValid
+* #G15_10/SST15 ^property[=].valueDateTime = "2024-12-11T00:00:00+01:00"
+* #G15_10/SST15 ^property[+].code = #dateMaj
+* #G15_10/SST15 ^property[=].valueDateTime = "2024-12-11T12:00:00+01:00"
+* #G15_10/SST16 "Médecin - Médecine hospitalière polyvalente (SST)"
+* #G15_10/SST16 ^property[0].code = #dateValid
+* #G15_10/SST16 ^property[=].valueDateTime = "2024-12-11T00:00:00+01:00"
+* #G15_10/SST16 ^property[+].code = #dateMaj
+* #G15_10/SST16 ^property[=].valueDateTime = "2024-12-11T12:00:00+01:00"
+* #G15_10/SST17 "Médecin - Médecine palliative (SST)"
+* #G15_10/SST17 ^property[0].code = #dateValid
+* #G15_10/SST17 ^property[=].valueDateTime = "2024-12-11T00:00:00+01:00"
+* #G15_10/SST17 ^property[+].code = #dateMaj
+* #G15_10/SST17 ^property[=].valueDateTime = "2024-12-11T12:00:00+01:00"
+* #G15_10/SST18 "Médecin - Médecine scolaire (SST)"
+* #G15_10/SST18 ^property[0].code = #dateValid
+* #G15_10/SST18 ^property[=].valueDateTime = "2024-12-11T00:00:00+01:00"
+* #G15_10/SST18 ^property[+].code = #dateMaj
+* #G15_10/SST18 ^property[=].valueDateTime = "2024-12-11T12:00:00+01:00"
+* #G15_10/SST19 "Médecin - Médecine en situation de guerre ou en SSE (SST)"
+* #G15_10/SST19 ^property[0].code = #dateValid
+* #G15_10/SST19 ^property[=].valueDateTime = "2024-12-11T00:00:00+01:00"
+* #G15_10/SST19 ^property[+].code = #dateMaj
+* #G15_10/SST19 ^property[=].valueDateTime = "2024-12-11T12:00:00+01:00"
+* #G15_10/SST20 "Médecin - Médecine et biologie de la reproduction-andrologie (SST)"
+* #G15_10/SST20 ^property[0].code = #dateValid
+* #G15_10/SST20 ^property[=].valueDateTime = "2024-12-11T00:00:00+01:00"
+* #G15_10/SST20 ^property[+].code = #dateMaj
+* #G15_10/SST20 ^property[=].valueDateTime = "2024-12-11T12:00:00+01:00"
+* #G15_10/SST21 "Médecin - Médecine du sport (SST)"
+* #G15_10/SST21 ^property[0].code = #dateValid
+* #G15_10/SST21 ^property[=].valueDateTime = "2024-12-11T00:00:00+01:00"
+* #G15_10/SST21 ^property[+].code = #dateMaj
+* #G15_10/SST21 ^property[=].valueDateTime = "2024-12-11T12:00:00+01:00"
+* #G15_10/SST22 "Médecin - Nutrition appliquée (SST)"
+* #G15_10/SST22 ^property[0].code = #dateValid
+* #G15_10/SST22 ^property[=].valueDateTime = "2024-12-11T00:00:00+01:00"
+* #G15_10/SST22 ^property[+].code = #dateMaj
+* #G15_10/SST22 ^property[=].valueDateTime = "2024-12-11T12:00:00+01:00"
+* #G15_10/SST23 "Médecin - Pharmacologie médicale/thérapeutique (SST)"
+* #G15_10/SST23 ^property[0].code = #dateValid
+* #G15_10/SST23 ^property[=].valueDateTime = "2024-12-11T00:00:00+01:00"
+* #G15_10/SST23 ^property[+].code = #dateMaj
+* #G15_10/SST23 ^property[=].valueDateTime = "2024-12-11T12:00:00+01:00"
+* #G15_10/SST24 "Médecin - Sommeil (SST)"
+* #G15_10/SST24 ^property[0].code = #dateValid
+* #G15_10/SST24 ^property[=].valueDateTime = "2024-12-11T00:00:00+01:00"
+* #G15_10/SST24 ^property[+].code = #dateMaj
+* #G15_10/SST24 ^property[=].valueDateTime = "2024-12-11T12:00:00+01:00"
+* #G15_10/SST25 "Médecin - Thérapie cellulaire/transfusion (SST)"
+* #G15_10/SST25 ^property[0].code = #dateValid
+* #G15_10/SST25 ^property[=].valueDateTime = "2024-12-11T00:00:00+01:00"
+* #G15_10/SST25 ^property[+].code = #dateMaj
+* #G15_10/SST25 ^property[=].valueDateTime = "2024-12-11T12:00:00+01:00"
+* #G15_10/SST26 "Médecin - Urgences pédiatriques (SST)"
+* #G15_10/SST26 ^property[0].code = #dateValid
+* #G15_10/SST26 ^property[=].valueDateTime = "2024-12-11T00:00:00+01:00"
+* #G15_10/SST26 ^property[+].code = #dateMaj
+* #G15_10/SST26 ^property[=].valueDateTime = "2024-12-11T12:00:00+01:00"
+* #G15_21/FQ01 "Pharmacien - Expérience prat. art. R.5124-16 du CSP Fabricant (FQ)"
+* #G15_21/FQ01 ^property[0].code = #dateValid
+* #G15_21/FQ01 ^property[=].valueDateTime = "2024-12-11T00:00:00+01:00"
+* #G15_21/FQ01^property[+].code = #dateMaj
+* #G15_21/FQ01 ^property[=].valueDateTime = "2024-12-11T12:00:00+01:00"
+* #G15_21/FQ02 "Pharmacien - Expérience prat. art. R.5124-16 du CSP Exploitant (FQ)"
+* #G15_21/FQ02 ^property[0].code = #dateValid
+* #G15_21/FQ02 ^property[=].valueDateTime = "2024-12-11T00:00:00+01:00"
+* #G15_21/FQ02^property[+].code = #dateMaj
+* #G15_21/FQ02 ^property[=].valueDateTime = "2024-12-11T12:00:00+01:00"
+* #G15_21/FQ03 "Pharmacien - Exp. prat. art. R.5124-16 du CSP Thérapie Cellulaire (FQ)"
+* #G15_21/FQ03 ^property[0].code = #dateValid
+* #G15_21/FQ03 ^property[=].valueDateTime = "2024-12-11T00:00:00+01:00"
+* #G15_21/FQ03^property[+].code = #dateMaj
+* #G15_21/FQ03 ^property[=].valueDateTime = "2024-12-11T12:00:00+01:00"
+* #G15_21/FQ04 "Pharmacien - Expérience pratique article R.5124-18 du CSP (FQ)"
+* #G15_21/FQ04 ^property[0].code = #dateValid
+* #G15_21/FQ04 ^property[=].valueDateTime = "2024-12-11T00:00:00+01:00"
+* #G15_21/FQ04^property[+].code = #dateMaj
+* #G15_21/FQ04 ^property[=].valueDateTime = "2024-12-11T12:00:00+01:00"
+* #G15_21/FQ05 "Pharmacien - Expérience pratique article R.5141-129 du CSP (FQ)"
+* #G15_21/FQ05 ^property[0].code = #dateValid
+* #G15_21/FQ05 ^property[=].valueDateTime = "2024-12-11T00:00:00+01:00"
+* #G15_21/FQ05^property[+].code = #dateMaj
+* #G15_21/FQ05 ^property[=].valueDateTime = "2024-12-11T12:00:00+01:00"
 * #G15_21 "Pharmacien"
 * #G15_21 ^property[0].code = #dateValid
 * #G15_21 ^property[=].valueDateTime = "2012-10-06T00:00:00+01:00"
@@ -1506,29 +1911,29 @@ Description: "Profession et savoir-faire CI-SIS"
 * #G15_35 ^property[+].code = #dateFin
 * #G15_35 ^property[=].valueDateTime = "2024-12-10T12:00:00+01:00"
 * #G15_35 ^property[+].code = #dateMaj
-* #G15_35 ^property[=].valueDateTime = "2018-10-26T12:00:00+01:00"
+* #G15_35 ^property[=].valueDateTime = "2024-12-10T12:00:00+01:00"
 * #G15_36 "Ambulancier"
 * #G15_36 ^property[0].code = #dateValid
 * #G15_36 ^property[=].valueDateTime = "2018-10-26T12:00:00+01:00"
 * #G15_36 ^property[+].code = #dateFin
 * #G15_36 ^property[=].valueDateTime = "2024-12-10T12:00:00+01:00"
 * #G15_36 ^property[+].code = #dateMaj
-* #G15_36 ^property[=].valueDateTime = "2018-10-26T12:00:00+01:00"
+* #G15_36 ^property[=].valueDateTime = "2024-12-10T12:00:00+01:00"
 * #G15_37 "Auxiliaire de puériculture"
 * #G15_37 ^property[0].code = #dateValid
 * #G15_37 ^property[=].valueDateTime = "2018-10-26T12:00:00+01:00"
 * #G15_37 ^property[+].code = #dateFin
 * #G15_37 ^property[=].valueDateTime = "2024-12-10T12:00:00+01:00"
 * #G15_37 ^property[+].code = #dateMaj
-* #G15_37 ^property[=].valueDateTime = "2018-10-26T12:00:00+01:00"
+* #G15_37 ^property[=].valueDateTime = "2024-12-10T12:00:00+01:00"
 * #G15_38 "Préparateur en pharmacie hospitalière"
 * #G15_38 ^property[0].code = #dateValid
 * #G15_38 ^property[=].valueDateTime = "2018-10-26T12:00:00+01:00"
 * #G15_38 ^property[+].code = #dateFin
 * #G15_38 ^property[=].valueDateTime = "2024-12-10T12:00:00+01:00"
 * #G15_38 ^property[+].code = #dateMaj
-* #G15_38 ^property[=].valueDateTime = "2018-10-26T12:00:00+01:00"
-* #G15_39 "Préparateur en pharmacie"
+* #G15_38 ^property[=].valueDateTime = "2024-12-10T12:00:00+01:00"
+* #G15_39 "Préparateur en pharmacie (officine)"
 * #G15_39 ^designation.language = #fr-FR
 * #G15_39 ^designation.use.system = "http://snomed.info/sct"
 * #G15_39 ^designation.use = $sct#900000000000013009
@@ -1538,7 +1943,7 @@ Description: "Profession et savoir-faire CI-SIS"
 * #G15_39 ^property[+].code = #dateFin
 * #G15_39 ^property[=].valueDateTime = "2024-12-10T12:00:00+01:00"
 * #G15_39 ^property[+].code = #dateMaj
-* #G15_39 ^property[=].valueDateTime = "2018-10-26T12:00:00+01:00"
+* #G15_39 ^property[=].valueDateTime = "2024-12-11T12:00:00+01:00"
 * #G15_40 "Chirurgien-Dentiste"
 * #G15_40 ^property[0].code = #dateValid
 * #G15_40 ^property[=].valueDateTime = "2012-10-06T00:00:00+01:00"
@@ -1569,7 +1974,7 @@ Description: "Profession et savoir-faire CI-SIS"
 * #G15_60 ^property[=].valueDateTime = "2012-10-06T00:00:00+01:00"
 * #G15_60 ^property[+].code = #dateMaj
 * #G15_60 ^property[=].valueDateTime = "2012-10-06T00:00:00+01:00"
-* #G15_60/SI01 "Infirmier - pratique avancée pathologies chroniques stabilisées (SI)"
+* #G15_60/SI01 "Infirmier - Exercice infirmier en pratique avancée pathologies chroniques stabilisées (SI)"
 * #G15_60/SI01 ^designation.language = #fr-FR
 * #G15_60/SI01 ^designation.use.system = "http://snomed.info/sct"
 * #G15_60/SI01 ^designation.use = $sct#900000000000013009
@@ -1577,8 +1982,8 @@ Description: "Profession et savoir-faire CI-SIS"
 * #G15_60/SI01 ^property[0].code = #dateValid
 * #G15_60/SI01 ^property[=].valueDateTime = "2019-10-25T12:00:00+01:00"
 * #G15_60/SI01 ^property[+].code = #dateMaj
-* #G15_60/SI01 ^property[=].valueDateTime = "2019-10-25T12:00:00+01:00"
-* #G15_60/SI02 "Infirmier - pratique avancée oncologie et hémato-oncologie (SI)"
+* #G15_60/SI01 ^property[=].valueDateTime = "2024-12-11T12:00:00+01:00"
+* #G15_60/SI02 "Infirmier - Exercice infirmier en pratique avancée oncologie et hémato-oncologie (SI)"
 * #G15_60/SI02 ^designation.language = #fr-FR
 * #G15_60/SI02 ^designation.use.system = "http://snomed.info/sct"
 * #G15_60/SI02 ^designation.use = $sct#900000000000013009
@@ -1586,8 +1991,8 @@ Description: "Profession et savoir-faire CI-SIS"
 * #G15_60/SI02 ^property[0].code = #dateValid
 * #G15_60/SI02 ^property[=].valueDateTime = "2019-10-25T12:00:00+01:00"
 * #G15_60/SI02 ^property[+].code = #dateMaj
-* #G15_60/SI02 ^property[=].valueDateTime = "2019-10-25T12:00:00+01:00"
-* #G15_60/SI03 "Infirmier - pratique avancée maladie rénale chronique/dialyse/greffe (SI)"
+* #G15_60/SI02 ^property[=].valueDateTime = "2024-12-11T12:00:00+01:00"
+* #G15_60/SI03 "Infirmier - Exerc. infirmier pratique avancée maladie rénale chroniq.,dialyse,transp. rénale (SI)"
 * #G15_60/SI03 ^designation.language = #fr-FR
 * #G15_60/SI03 ^designation.use.system = "http://snomed.info/sct"
 * #G15_60/SI03 ^designation.use = $sct#900000000000013009
@@ -1595,8 +2000,8 @@ Description: "Profession et savoir-faire CI-SIS"
 * #G15_60/SI03 ^property[0].code = #dateValid
 * #G15_60/SI03 ^property[=].valueDateTime = "2019-10-25T12:00:00+01:00"
 * #G15_60/SI03 ^property[+].code = #dateMaj
-* #G15_60/SI03 ^property[=].valueDateTime = "2019-10-25T12:00:00+01:00"
-* #G15_60/SI04 "Infirmier - pratique avancée santé mentale (SI)"
+* #G15_60/SI03 ^property[=].valueDateTime = "2024-12-11T12:00:00+01:00"
+* #G15_60/SI04 "Infirmier - Exercice infirmier en pratique avancée santé mentale (SI)"
 * #G15_60/SI04 ^designation.language = #fr-FR
 * #G15_60/SI04 ^designation.use.system = "http://snomed.info/sct"
 * #G15_60/SI04 ^designation.use = $sct#900000000000013009
@@ -1604,8 +2009,8 @@ Description: "Profession et savoir-faire CI-SIS"
 * #G15_60/SI04 ^property[0].code = #dateValid
 * #G15_60/SI04 ^property[=].valueDateTime = "2019-10-25T12:00:00+01:00"
 * #G15_60/SI04 ^property[+].code = #dateMaj
-* #G15_60/SI04 ^property[=].valueDateTime = "2019-10-25T12:00:00+01:00"
-* #G15_60/SI05 "Infirmier - pratique avancée urgences (SI)"
+* #G15_60/SI04 ^property[=].valueDateTime = "2024-12-11T12:00:00+01:00"
+* #G15_60/SI05 "Infirmier - Exercice infirmier en pratique avancée urgences (SI)"
 * #G15_60/SI05 ^designation.language = #fr-FR
 * #G15_60/SI05 ^designation.use.system = "http://snomed.info/sct"
 * #G15_60/SI05 ^designation.use = $sct#900000000000013009
@@ -1613,7 +2018,7 @@ Description: "Profession et savoir-faire CI-SIS"
 * #G15_60/SI05 ^property[0].code = #dateValid
 * #G15_60/SI05 ^property[=].valueDateTime = "2022-08-26T12:00:00+01:00"
 * #G15_60/SI05 ^property[+].code = #dateMaj
-* #G15_60/SI05 ^property[=].valueDateTime = "2023-10-30T12:00:00+01:00"
+* #G15_60/SI05 ^property[=].valueDateTime = "2024-12-11T12:00:00+01:00"
 * #G15_69 "Infirmier psychiatrique"
 * #G15_69 ^property[0].code = #dateValid
 * #G15_69 ^property[=].valueDateTime = "2012-10-06T00:00:00+01:00"
