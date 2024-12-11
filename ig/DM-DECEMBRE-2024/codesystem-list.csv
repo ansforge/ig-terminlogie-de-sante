@@ -2,7 +2,7 @@ URL,Version,Status,OIDs,Name,Title,Description,Used
 http://terminology.hl7.org/CodeSystem/service-type,1.1.0,draft,"2.16.840.1.113883.4.642.1.1145",ServiceType,Service type,"This value set defines an example set of codes of service-types.",
 https://mos.esante.gouv.fr/NOS/TRE_A00-ProducteurDocNonPS/FHIR/TRE-A00-ProducteurDocNonPS,20240329120000,active,"1.2.250.1.213.1.1.4.6",TRE_A00_ProducteurDocNonPS,,"Producteur de document non PS",
 https://mos.esante.gouv.fr/NOS/TRE_A01-CadreExercice/FHIR/TRE-A01-CadreExercice,20240927120000,active,"1.2.250.1.213.1.1.4.9",TRE_A01_CadreExercice,,"Cadre d'exercice",
-https://mos.esante.gouv.fr/NOS/TRE_A02-ProfessionSavFaire-CISIS/FHIR/TRE-A02-ProfessionSavFaire-CISIS,20241210120000,active,"1.2.250.1.213.1.1.4.5",TRE_A02_ProfessionSavFaire_CISIS,,"Profession et savoir-faire CI-SIS",
+https://mos.esante.gouv.fr/NOS/TRE_A02-ProfessionSavFaire-CISIS/FHIR/TRE-A02-ProfessionSavFaire-CISIS,20241211120000,active,"1.2.250.1.213.1.1.4.5",TRE_A02_ProfessionSavFaire_CISIS,,"Profession et savoir-faire CI-SIS",
 https://mos.esante.gouv.fr/NOS/TRE_A03-ClasseDocument/FHIR/TRE-A03-ClasseDocument,20231215120000,active,"1.2.250.1.213.1.1.4.1",TRE_A03_ClasseDocument,,"Classe de document",
 https://mos.esante.gouv.fr/NOS/TRE_A05-TypeDocComplementaire/FHIR/TRE-A05-TypeDocComplementaire,20240329120000,active,"1.2.250.1.213.1.1.4.12",TRE_A05_TypeDocComplementaire,,"Type de document en complément des nomenclatures internationales",
 https://mos.esante.gouv.fr/NOS/TRE_A06-FormatCodeComplementaire/FHIR/TRE-A06-FormatCodeComplementaire,20240726120000,active,"1.2.250.1.213.1.1.4.2.282",TRE_A06_FormatCodeComplementaire,,"formatCode en complément des nomenclatures internationales",

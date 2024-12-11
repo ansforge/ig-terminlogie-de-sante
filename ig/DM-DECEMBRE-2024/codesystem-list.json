@@ -29,7 +29,7 @@
     },
     {
       "url" : "https://mos.esante.gouv.fr/NOS/TRE_A02-ProfessionSavFaire-CISIS/FHIR/TRE-A02-ProfessionSavFaire-CISIS",
-      "version" : "20241210120000",
+      "version" : "20241211120000",
       "status" : "active",
       "name" : "TRE_A02_ProfessionSavFaire_CISIS",
       "title" : null,

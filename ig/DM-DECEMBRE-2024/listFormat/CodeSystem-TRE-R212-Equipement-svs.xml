@@ -762,9 +762,9 @@
                   dateFin=""
                   dateMaj="20241209120000"
                   dateValid="20161102000000"
-                  displayName="Table de radiologie obésité (poids &gt; 250 kg) - bariatrique"
+                  displayName="Table de radiologie interventionnelle obésité (poids &gt; 250 kg) - bariatrique"
                   longDesignation="Table de radiologie interventionnelle obésité (poids supérieur à 250 kg) – bariatrique"
-                  shortDesignation="Table de radiologie obésité (poids &gt; 250 kg) - bariatrique"
+                  shortDesignation="Table de radiologie interventionnelle obésité (poids &gt; 250 kg) - bariatrique"
                   descriptionMetier=""/>
          <concept code="085"
                   codeSystem="1.2.250.1.213.3.3.10"

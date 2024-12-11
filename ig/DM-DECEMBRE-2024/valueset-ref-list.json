@@ -56,7 +56,7 @@
     },
     {
       "url" : "https://mos.esante.gouv.fr/NOS/JDV_J01-XdsAuthorSpecialty-CISIS/FHIR/JDV-J01-XdsAuthorSpecialty-CISIS",
-      "version" : "20241210120000",
+      "version" : "20241211120000",
       "status" : "active",
       "name" : "JDV_J01_XdsAuthorSpecialty_CISIS",
       "title" : null,
@@ -117,7 +117,7 @@
     },
     {
       "url" : "https://mos.esante.gouv.fr/NOS/JDV_J05-SubjectRole-CISIS/FHIR/JDV-J05-SubjectRole-CISIS",
-      "version" : "20241210120000",
+      "version" : "20241211120000",
       "status" : "active",
       "name" : "JDV_J05_SubjectRole_CISIS",
       "title" : null,
@@ -1066,7 +1066,7 @@
     },
     {
       "url" : "https://mos.esante.gouv.fr/NOS/JDV_J16-ActeSpecifique-ROR/FHIR/JDV-J16-ActeSpecifique-ROR",
-      "version" : "20241025120000",
+      "version" : "20241209120000",
       "status" : "active",
       "name" : "JDV_J16_ActeSpecifique_ROR",
       "title" : null,

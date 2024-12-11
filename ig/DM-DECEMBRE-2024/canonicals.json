@@ -255,7 +255,7 @@
     "id" : "JDV-J01-XdsAuthorSpecialty-CISIS",
     "type" : "ValueSet",
     "url" : "https://mos.esante.gouv.fr/NOS/JDV_J01-XdsAuthorSpecialty-CISIS/FHIR/JDV-J01-XdsAuthorSpecialty-CISIS",
-    "version" : "20241210120000",
+    "version" : "20241211120000",
     "name" : "JDV_J01_XdsAuthorSpecialty_CISIS",
     "oids" : ["1.2.250.1.213.1.1.5.461"]
   },
@@ -287,7 +287,7 @@
     "id" : "JDV-J05-SubjectRole-CISIS",
     "type" : "ValueSet",
     "url" : "https://mos.esante.gouv.fr/NOS/JDV_J05-SubjectRole-CISIS/FHIR/JDV-J05-SubjectRole-CISIS",
-    "version" : "20241210120000",
+    "version" : "20241211120000",
     "name" : "JDV_J05_SubjectRole_CISIS",
     "oids" : ["1.2.250.1.213.1.1.5.470"]
   },
@@ -831,7 +831,7 @@
     "id" : "JDV-J16-ActeSpecifique-ROR",
     "type" : "ValueSet",
     "url" : "https://mos.esante.gouv.fr/NOS/JDV_J16-ActeSpecifique-ROR/FHIR/JDV-J16-ActeSpecifique-ROR",
-    "version" : "20241025120000",
+    "version" : "20241209120000",
     "name" : "JDV_J16_ActeSpecifique_ROR",
     "oids" : ["1.2.250.1.213.3.4.4"]
   },
@@ -2335,7 +2335,7 @@
     "id" : "TRE-A02-ProfessionSavFaire-CISIS",
     "type" : "CodeSystem",
     "url" : "https://mos.esante.gouv.fr/NOS/TRE_A02-ProfessionSavFaire-CISIS/FHIR/TRE-A02-ProfessionSavFaire-CISIS",
-    "version" : "20241210120000",
+    "version" : "20241211120000",
     "name" : "TRE_A02_ProfessionSavFaire_CISIS",
     "oids" : ["1.2.250.1.213.1.1.4.5"]
   },
