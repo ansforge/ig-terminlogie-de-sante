@@ -23733,9 +23733,46 @@
         "valueString" : "ConceptMap"
       }],
       "reference" : {
+        "reference" : "ConceptMap/alignement-nuva-atc"
+      },
+      "name" : "Aligner les codes ATC de NUVA avec les codes ATC",
+      "description" : "Source des données SYADEM",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ConceptMap"
+      }],
+      "reference" : {
+        "reference" : "ConceptMap/alignement-nuva-cipucd"
+      },
+      "name" : "Aligner les codes CIP de NUVA avec les codes CIP du CIP_UCD",
+      "description" : "Source des données SYADEM",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ConceptMap"
+      }],
+      "reference" : {
+        "reference" : "ConceptMap/alignement-nuva-bdpm"
+      },
+      "name" : "Aligner les codes CIS et CIP de NUVA avec les codes CIS et CIP du BDPM",
+      "description" : "Source des données SYADEM",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ConceptMap"
+      }],
+      "reference" : {
         "reference" : "ConceptMap/alignement-bdpm-cipucd"
       },
       "name" : "Aligner les codes de présentation de la BDPM avec les codes CIP du référentiel CIP-UCD",
+      "description" : "Source des données ANS",
       "exampleBoolean" : false
     },
     {

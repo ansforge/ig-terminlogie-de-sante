@@ -11,7 +11,7 @@
 </head>
 <body style="margin: 20px; background-color: #ffffff">
  <h1>Terminology Server Report for Terminologie</h1>
- <p>Generated Thu Dec 12 10:45:43 UTC 2024, FHIR version 4.0.1 for ans.fr.terminologie#1.1.0 (canonical = <a href="https://interop.esante.gouv.fr/ig/terminologie">https://interop.esante.gouv.fr/ig/terminologie</a> (<a href="https://interop.esante.gouv.fr/ig/terminologie/history.html">history</a>))</p>
+ <p>Generated Thu Dec 12 15:51:34 UTC 2024, FHIR version 4.0.1 for ans.fr.terminologie#1.1.0 (canonical = <a href="https://interop.esante.gouv.fr/ig/terminologie">https://interop.esante.gouv.fr/ig/terminologie</a> (<a href="https://interop.esante.gouv.fr/ig/terminologie/history.html">history</a>))</p>
 <p>This page provides a report on which terminology servers were used while publishing this IG. Note that terminology caching reduces the server hit count - this page only reports content that wasn't cached</p>
 <h2>Terminology Parameters</h2>
 <ul>
@@ -7078,6 +7078,20 @@
     <td>auth = , candidates=http://tx.fhir.org/r4|https://tx.ontoserver.csiro.au/fhir</td>
   </tr>
   <tr>
+    <td>Found authoritative server https://smt.esante.gouv.fr/fhir</td>
+    <td>https://smt.esante.gouv.fr/fhir</td>
+    <td>null</td>
+    <td>[https://smt.esante.gouv.fr/terminologie-nuva, https://smt.esante.gouv.fr/terminologie-atc]</td>
+    <td>[auth = https://smt.esante.gouv.fr/fhir, candidates=, auth = https://smt.esante.gouv.fr/fhir, candidates=]</td>
+  </tr>
+  <tr>
+    <td>Found authoritative server https://smt.esante.gouv.fr/fhir</td>
+    <td>https://smt.esante.gouv.fr/fhir</td>
+    <td>null</td>
+    <td>[https://smt.esante.gouv.fr/terminologie-nuva, https://smt.esante.gouv.fr/terminologie-bdpm]</td>
+    <td>[auth = https://smt.esante.gouv.fr/fhir, candidates=, auth = https://smt.esante.gouv.fr/fhir, candidates=]</td>
+  </tr>
+  <tr>
     <td>Found candidate server http://tx.fhir.org/r4</td>
     <td>http://tx.fhir.org/r4</td>
     <td></td>
@@ -11818,7 +11832,7 @@
 </table>
 <h2>Server: https://smt.esante.gouv.fr/fhir</h2>
 <a href="https://smt.esante.gouv.fr/fhir"></a>
-<p>Use Count: 81. Code Systems used: </p>
+<p>Use Count: 83. Code Systems used: </p>
 <table class="grid">
   <tr>
     <th>
@@ -11837,7 +11851,7 @@
   <tr>
     <td>https://smt.esante.gouv.fr/terminologie-atc</td>
     <td>1</td>
-    <td>0</td>
+    <td>1</td>
     <td>
       <a href="CodeSystem-terminologie-atc.html">Anatomique, Thérapeutique et Chimique</a>
     </td>
@@ -11845,7 +11859,7 @@
   <tr>
     <td>https://smt.esante.gouv.fr/terminologie-bdpm</td>
     <td>1</td>
-    <td>0</td>
+    <td>1</td>
     <td>
       <a href="CodeSystem-terminologie-bdpm.html">Base de données publique du médicament - BDPM</a>
     </td>
@@ -11861,7 +11875,7 @@
   <tr>
     <td>https://smt.esante.gouv.fr/terminologie-nuva</td>
     <td>1</td>
-    <td>0</td>
+    <td>2</td>
     <td>
       <a href="CodeSystem-terminologie-nuva.html">La Nomenclature Unifiée des Vaccins (NUVA)</a>
     </td>

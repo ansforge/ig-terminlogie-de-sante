@@ -4331,6 +4331,34 @@
     "oids" : ["1.2.250.1.213.1.1.4.322"]
   },
   {
+    "id" : "alignement-bdpm-cipucd",
+    "type" : "ConceptMap",
+    "url" : "https://smt.esante.gouv.fr/fhir/ConceptMap/alignement-bdpm-cipucd",
+    "version" : "2024-12",
+    "name" : "Alignement_Codes_Presenttaion_BDPM_CIPUCD"
+  },
+  {
+    "id" : "alignement-nuva-atc",
+    "type" : "ConceptMap",
+    "url" : "https://smt.esante.gouv.fr/fhir/ConceptMap/alignement-nuva-atc",
+    "version" : "1.0.818",
+    "name" : "Alignement_Codes_ATC_NUVA_ATC"
+  },
+  {
+    "id" : "alignement-nuva-bdpm",
+    "type" : "ConceptMap",
+    "url" : "https://smt.esante.gouv.fr/fhir/ConceptMap/alignement-nuva-bdpm",
+    "version" : "1.0.818",
+    "name" : "Alignement_Codes_CIP_CIS_NUVA_BDPM"
+  },
+  {
+    "id" : "alignement-nuva-cipucd",
+    "type" : "ConceptMap",
+    "url" : "https://smt.esante.gouv.fr/fhir/ConceptMap/alignement-nuva-cipucd",
+    "version" : "1.0.818",
+    "name" : "Alignement_Codes_CIP_NUVA_CIPUCD"
+  },
+  {
     "id" : "1.2.250.1.213.1.1.4.2.1",
     "type" : "ValueSet",
     "url" : "https://smt.esante.gouv.fr/fhir/ValueSet/1.2.250.1.213.1.1.4.2.1",
@@ -8069,12 +8097,5 @@
     "url" : "https://smt.esante.gouv.fr/terminologie-standardterms?vs",
     "version" : "20241114120000",
     "name" : "ValueSet_EDQM_All"
-  },
-  {
-    "id" : "alignement-bdpm-cipucd",
-    "type" : "ConceptMap",
-    "url" : "urn:x-evn-master:alignement-bdpm-cipucd",
-    "version" : "2024-02",
-    "name" : "Alignement_Codes_Presenttaion_BDPM_CIPUCD"
   }
 ]

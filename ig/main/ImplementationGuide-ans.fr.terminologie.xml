@@ -17272,9 +17272,43 @@
         <valueString value="ConceptMap"/>
       </extension>
       <reference>
+        <reference value="ConceptMap/alignement-nuva-atc"/>
+      </reference>
+      <name value="Aligner les codes ATC de NUVA avec les codes ATC"/>
+      <description value="Source des données SYADEM"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ConceptMap"/>
+      </extension>
+      <reference>
+        <reference value="ConceptMap/alignement-nuva-cipucd"/>
+      </reference>
+      <name value="Aligner les codes CIP de NUVA avec les codes CIP du CIP_UCD"/>
+      <description value="Source des données SYADEM"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ConceptMap"/>
+      </extension>
+      <reference>
+        <reference value="ConceptMap/alignement-nuva-bdpm"/>
+      </reference>
+      <name value="Aligner les codes CIS et CIP de NUVA avec les codes CIS et CIP du BDPM"/>
+      <description value="Source des données SYADEM"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ConceptMap"/>
+      </extension>
+      <reference>
         <reference value="ConceptMap/alignement-bdpm-cipucd"/>
       </reference>
       <name value="Aligner les codes de présentation de la BDPM avec les codes CIP du référentiel CIP-UCD"/>
+      <description value="Source des données ANS"/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>

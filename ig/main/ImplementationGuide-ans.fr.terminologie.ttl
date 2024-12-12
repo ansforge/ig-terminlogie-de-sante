@@ -19441,10 +19441,47 @@
          fhir:value [ fhir:v "ConceptMap" ]
        ] ) ;
        fhir:reference [
+         fhir:link <https://interop.esante.gouv.fr/ig/terminologie/ConceptMap/alignement-nuva-atc> ;
+         fhir:reference [ fhir:v "ConceptMap/alignement-nuva-atc" ]
+       ] ;
+       fhir:name [ fhir:v "Aligner les codes ATC de NUVA avec les codes ATC" ] ;
+       fhir:description [ fhir:v "Source des données SYADEM" ] ;
+       fhir:example [ fhir:v "false"^^xsd:boolean ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "ConceptMap" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <https://interop.esante.gouv.fr/ig/terminologie/ConceptMap/alignement-nuva-cipucd> ;
+         fhir:reference [ fhir:v "ConceptMap/alignement-nuva-cipucd" ]
+       ] ;
+       fhir:name [ fhir:v "Aligner les codes CIP de NUVA avec les codes CIP du CIP_UCD" ] ;
+       fhir:description [ fhir:v "Source des données SYADEM" ] ;
+       fhir:example [ fhir:v "false"^^xsd:boolean ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "ConceptMap" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <https://interop.esante.gouv.fr/ig/terminologie/ConceptMap/alignement-nuva-bdpm> ;
+         fhir:reference [ fhir:v "ConceptMap/alignement-nuva-bdpm" ]
+       ] ;
+       fhir:name [ fhir:v "Aligner les codes CIS et CIP de NUVA avec les codes CIS et CIP du BDPM" ] ;
+       fhir:description [ fhir:v "Source des données SYADEM" ] ;
+       fhir:example [ fhir:v "false"^^xsd:boolean ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "ConceptMap" ]
+       ] ) ;
+       fhir:reference [
          fhir:link <https://interop.esante.gouv.fr/ig/terminologie/ConceptMap/alignement-bdpm-cipucd> ;
          fhir:reference [ fhir:v "ConceptMap/alignement-bdpm-cipucd" ]
        ] ;
        fhir:name [ fhir:v "Aligner les codes de présentation de la BDPM avec les codes CIP du référentiel CIP-UCD" ] ;
+       fhir:description [ fhir:v "Source des données ANS" ] ;
        fhir:example [ fhir:v "false"^^xsd:boolean ]
      ] [
        fhir:extension ( [
