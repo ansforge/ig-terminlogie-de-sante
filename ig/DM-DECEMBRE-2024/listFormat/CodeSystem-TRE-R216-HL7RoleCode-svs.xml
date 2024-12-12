@@ -775,6 +775,15 @@
                   longDesignation="Petit-fils"
                   shortDesignation="Petit-fils"
                   descriptionMetier=""/>
+         <concept code="ITWIN"
+                  codeSystem="2.16.840.1.113883.5.111"
+                  dateFin=""
+                  dateMaj="20241211120000"
+                  dateValid="20241211120000"
+                  displayName="Jumeau ou jumelle monozygote"
+                  longDesignation="Jumeau ou jumelle monozygote"
+                  shortDesignation="Jumeau ou jumelle monozygote"
+                  descriptionMetier=""/>
          <concept code="ITWINBRO"
                   codeSystem="2.16.840.1.113883.5.111"
                   dateFin=""

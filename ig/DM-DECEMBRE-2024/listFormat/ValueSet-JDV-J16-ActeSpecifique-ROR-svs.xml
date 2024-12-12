@@ -892,6 +892,12 @@
          <concept code="0533"
                   codeSystem="1.2.250.1.213.3.3.11"
                   displayName="Bypass gastrique"/>
+         <concept code="0536"
+                  codeSystem="1.2.250.1.213.3.3.11"
+                  displayName="Prise en charge de l'obésité sévère"/>
+         <concept code="0537"
+                  codeSystem="1.2.250.1.213.3.3.11"
+                  displayName="Prise en charge de l'obésité morbide"/>
          <concept code="0538"
                   codeSystem="1.2.250.1.213.3.3.11"
                   displayName="Thérapie de groupe ou atelier à médiation orale et-ou écrite (groupe de parole, d'écriture)"/>

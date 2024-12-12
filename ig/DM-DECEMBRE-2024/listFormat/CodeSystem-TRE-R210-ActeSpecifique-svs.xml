@@ -4827,7 +4827,7 @@
                   descriptionMetier=""/>
          <concept code="0536"
                   codeSystem="1.2.250.1.213.3.3.11"
-                  dateFin="20241209120000"
+                  dateFin=""
                   dateMaj="20161102000000"
                   dateValid="20161102000000"
                   displayName="Prise en charge de l'obésité sévère"
@@ -4836,7 +4836,7 @@
                   descriptionMetier=""/>
          <concept code="0537"
                   codeSystem="1.2.250.1.213.3.3.11"
-                  dateFin="20241209120000"
+                  dateFin=""
                   dateMaj="20161102000000"
                   dateValid="20161102000000"
                   displayName="Prise en charge de l'obésité morbide"

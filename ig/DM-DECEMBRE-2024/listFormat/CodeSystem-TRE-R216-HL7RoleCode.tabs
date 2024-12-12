@@ -86,6 +86,7 @@
 2.16.840.1.113883.5.111;FTWINBRO;Jumeau dizygote;Jumeau dizygote;Jumeau dizygote;20241211120000;;20241211120000
 2.16.840.1.113883.5.111;FTWINSIS;Jumelle dizygot;Jumelle dizygot;Jumelle dizygot;20241211120000;;20241211120000
 2.16.840.1.113883.5.111;GRNDSON;Petit-fils;Petit-fils;Petit-fils;20241211120000;;20241211120000
+2.16.840.1.113883.5.111;ITWIN;Jumeau ou jumelle monozygote;Jumeau ou jumelle monozygote;Jumeau ou jumelle monozygote;20241211120000;;20241211120000
 2.16.840.1.113883.5.111;ITWINBRO;Jumeau monozygote;Jumeau monozygote;Jumeau monozygote;20241211120000;;20241211120000
 2.16.840.1.113883.5.111;ITWINSIS;Jumelle monozygote;Jumelle monozygote;Jumelle monozygote;20241211120000;;20241211120000
 2.16.840.1.113883.5.111;MAUNT;Tante maternelle;Tante maternelle;Tante maternelle;20241211120000;;20241211120000
