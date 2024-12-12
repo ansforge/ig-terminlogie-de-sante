@@ -533,6 +533,11 @@ Description: "HL7 roleCode"
 * #GRNDSON ^property[=].valueDateTime = "2024-12-11T12:00:00+01:00"
 * #GRNDSON ^property[+].code = #dateMaj
 * #GRNDSON ^property[=].valueDateTime = "2024-12-11T12:00:00+01:00"
+* #ITWIN "Jumeau ou jumelle monozygote"
+* #ITWIN ^property[0].code = #dateValid
+* #ITWIN ^property[=].valueDateTime = "2024-12-11T12:00:00+01:00"
+* #ITWIN ^property[+].code = #dateMaj
+* #ITWIN ^property[=].valueDateTime = "2024-12-11T12:00:00+01:00"
 * #ITWINBRO "Jumeau monozygote"
 * #ITWINBRO ^property[0].code = #dateValid
 * #ITWINBRO ^property[=].valueDateTime = "2024-12-11T12:00:00+01:00"
