@@ -5403,8 +5403,6 @@ Description: "Action menée par un ou plusieurs acteur(s) de santé dans le cadr
 * #0536 ^designation[=].value = "536"
 * #0536 ^property[0].code = #dateValid
 * #0536 ^property[=].valueDateTime = "2016-11-02T00:00:00+01:00"
-* #0536 ^property[+].code = #dateFin
-* #0536 ^property[=].valueDateTime = "2024-12-09T12:00:00+01:00"
 * #0536 ^property[+].code = #dateMaj
 * #0536 ^property[=].valueDateTime = "2016-11-02T00:00:00+01:00"
 * #0537 "Prise en charge de l'obésité morbide"
@@ -5414,8 +5412,6 @@ Description: "Action menée par un ou plusieurs acteur(s) de santé dans le cadr
 * #0537 ^designation[=].value = "537"
 * #0537 ^property[0].code = #dateValid
 * #0537 ^property[=].valueDateTime = "2016-11-02T00:00:00+01:00"
-* #0537 ^property[+].code = #dateFin
-* #0537 ^property[=].valueDateTime = "2024-12-09T12:00:00+01:00"
 * #0537 ^property[+].code = #dateMaj
 * #0537 ^property[=].valueDateTime = "2016-11-02T00:00:00+01:00"
 * #0538 "Thérapie de groupe ou atelier à médiation orale et-ou écrite"
