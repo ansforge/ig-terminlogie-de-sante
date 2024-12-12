@@ -34,7 +34,7 @@ Description: "Ensemble Savoir-faire CI-SIS (TRE provisoire)"
 * #C01 ^property[0].code = #dateValid
 * #C01 ^property[=].valueDateTime = "2012-04-12T00:00:00+01:00"
 * #C01 ^property[+].code = #dateMaj
-* #C01 ^property[=].valueDateTime = "2016-09-01T00:00:00+01:00"
+* #C01 ^property[=].valueDateTime = "2024-12-13T00:00:00+01:00"
 * #C03 "Anesthésie-réanimation (C)"
 * #C03 ^designation[0].language = #fr-FR
 * #C03 ^designation[=].use.system = "http://snomed.info/sct"
@@ -42,7 +42,7 @@ Description: "Ensemble Savoir-faire CI-SIS (TRE provisoire)"
 * #C03 ^property[0].code = #dateValid
 * #C03 ^property[=].valueDateTime = "2012-04-12T00:00:00+01:00"
 * #C03 ^property[+].code = #dateMaj
-* #C03 ^property[=].valueDateTime = "2016-09-01T00:00:00+01:00"
+* #C03 ^property[=].valueDateTime = "2024-12-13T00:00:00+01:00"
 * #C05 "Médecine appliquée aux sports (C)"
 * #C05 ^designation[0].language = #fr-FR
 * #C05 ^designation[=].use.system = "http://snomed.info/sct"
@@ -50,7 +50,7 @@ Description: "Ensemble Savoir-faire CI-SIS (TRE provisoire)"
 * #C05 ^property[0].code = #dateValid
 * #C05 ^property[=].valueDateTime = "2012-04-12T00:00:00+01:00"
 * #C05 ^property[+].code = #dateMaj
-* #C05 ^property[=].valueDateTime = "2016-09-01T00:00:00+01:00"
+* #C05 ^property[=].valueDateTime = "2024-12-13T00:00:00+01:00"
 * #C07 "Cardiologie (C)"
 * #C07 ^designation[0].language = #fr-FR
 * #C07 ^designation[=].use.system = "http://snomed.info/sct"
@@ -58,7 +58,7 @@ Description: "Ensemble Savoir-faire CI-SIS (TRE provisoire)"
 * #C07 ^property[0].code = #dateValid
 * #C07 ^property[=].valueDateTime = "2012-04-12T00:00:00+01:00"
 * #C07 ^property[+].code = #dateMaj
-* #C07 ^property[=].valueDateTime = "2016-09-01T00:00:00+01:00"
+* #C07 ^property[=].valueDateTime = "2024-12-13T00:00:00+01:00"
 * #C09 "Chirurgie plastique, reconstructrice et esthétique (C)"
 * #C09 ^designation[0].language = #fr-FR
 * #C09 ^designation[=].use.system = "http://snomed.info/sct"
@@ -66,7 +66,7 @@ Description: "Ensemble Savoir-faire CI-SIS (TRE provisoire)"
 * #C09 ^property[0].code = #dateValid
 * #C09 ^property[=].valueDateTime = "2012-04-12T00:00:00+01:00"
 * #C09 ^property[+].code = #dateMaj
-* #C09 ^property[=].valueDateTime = "2016-09-01T00:00:00+01:00"
+* #C09 ^property[=].valueDateTime = "2024-12-13T00:00:00+01:00"
 * #C10 "Chirurgie maxillo-faciale (C)"
 * #C10 ^designation[0].language = #fr-FR
 * #C10 ^designation[=].use.system = "http://snomed.info/sct"
@@ -74,7 +74,7 @@ Description: "Ensemble Savoir-faire CI-SIS (TRE provisoire)"
 * #C10 ^property[0].code = #dateValid
 * #C10 ^property[=].valueDateTime = "2012-04-12T00:00:00+01:00"
 * #C10 ^property[+].code = #dateMaj
-* #C10 ^property[=].valueDateTime = "2024-06-28T12:00:00+01:00"
+* #C10 ^property[=].valueDateTime = "2024-12-13T12:00:00+01:00"
 * #C11 "Chirurgie thoracique (C)"
 * #C11 ^designation[0].language = #fr-FR
 * #C11 ^designation[=].use.system = "http://snomed.info/sct"
@@ -82,7 +82,7 @@ Description: "Ensemble Savoir-faire CI-SIS (TRE provisoire)"
 * #C11 ^property[0].code = #dateValid
 * #C11 ^property[=].valueDateTime = "2012-04-12T00:00:00+01:00"
 * #C11 ^property[+].code = #dateMaj
-* #C11 ^property[=].valueDateTime = "2016-09-01T00:00:00+01:00"
+* #C11 ^property[=].valueDateTime = "2024-12-13T00:00:00+01:00"
 * #C12 "Chirurgie orthopédique (C)"
 * #C12 ^designation[0].language = #fr-FR
 * #C12 ^designation[=].use.system = "http://snomed.info/sct"
@@ -90,7 +90,7 @@ Description: "Ensemble Savoir-faire CI-SIS (TRE provisoire)"
 * #C12 ^property[0].code = #dateValid
 * #C12 ^property[=].valueDateTime = "2012-04-12T00:00:00+01:00"
 * #C12 ^property[+].code = #dateMaj
-* #C12 ^property[=].valueDateTime = "2016-09-01T00:00:00+01:00"
+* #C12 ^property[=].valueDateTime = "2024-12-13T00:00:00+01:00"
 * #C13 "Urologie (C)"
 * #C13 ^designation[0].language = #fr-FR
 * #C13 ^designation[=].use.system = "http://snomed.info/sct"
@@ -98,7 +98,7 @@ Description: "Ensemble Savoir-faire CI-SIS (TRE provisoire)"
 * #C13 ^property[0].code = #dateValid
 * #C13 ^property[=].valueDateTime = "2012-04-12T00:00:00+01:00"
 * #C13 ^property[+].code = #dateMaj
-* #C13 ^property[=].valueDateTime = "2016-09-01T00:00:00+01:00"
+* #C13 ^property[=].valueDateTime = "2024-12-13T00:00:00+01:00"
 * #C15 "Dermato-vénéréologie (C)"
 * #C15 ^designation[0].language = #fr-FR
 * #C15 ^designation[=].use.system = "http://snomed.info/sct"
@@ -106,7 +106,7 @@ Description: "Ensemble Savoir-faire CI-SIS (TRE provisoire)"
 * #C15 ^property[0].code = #dateValid
 * #C15 ^property[=].valueDateTime = "2012-04-12T00:00:00+01:00"
 * #C15 ^property[+].code = #dateMaj
-* #C15 ^property[=].valueDateTime = "2016-09-01T00:00:00+01:00"
+* #C15 ^property[=].valueDateTime = "2024-12-13T00:00:00+01:00"
 * #C20 "Hémobiologie (C)"
 * #C20 ^designation[0].language = #fr-FR
 * #C20 ^designation[=].use.system = "http://snomed.info/sct"
@@ -114,7 +114,7 @@ Description: "Ensemble Savoir-faire CI-SIS (TRE provisoire)"
 * #C20 ^property[0].code = #dateValid
 * #C20 ^property[=].valueDateTime = "2012-04-12T00:00:00+01:00"
 * #C20 ^property[+].code = #dateMaj
-* #C20 ^property[=].valueDateTime = "2016-09-01T00:00:00+01:00"
+* #C20 ^property[=].valueDateTime = "2024-12-13T00:00:00+01:00"
 * #C23 "Gynécologie médicale et Obstétrique (C)"
 * #C23 ^designation[0].language = #fr-FR
 * #C23 ^designation[=].use.system = "http://snomed.info/sct"
@@ -122,7 +122,7 @@ Description: "Ensemble Savoir-faire CI-SIS (TRE provisoire)"
 * #C23 ^property[0].code = #dateValid
 * #C23 ^property[=].valueDateTime = "2012-04-12T00:00:00+01:00"
 * #C23 ^property[+].code = #dateMaj
-* #C23 ^property[=].valueDateTime = "2016-09-01T00:00:00+01:00"
+* #C23 ^property[=].valueDateTime = "2024-12-13T00:00:00+01:00"
 * #C25 "Gynécologie médicale (C)"
 * #C25 ^designation[0].language = #fr-FR
 * #C25 ^designation[=].use.system = "http://snomed.info/sct"
@@ -130,7 +130,7 @@ Description: "Ensemble Savoir-faire CI-SIS (TRE provisoire)"
 * #C25 ^property[0].code = #dateValid
 * #C25 ^property[=].valueDateTime = "2012-04-12T00:00:00+01:00"
 * #C25 ^property[+].code = #dateMaj
-* #C25 ^property[=].valueDateTime = "2016-09-01T00:00:00+01:00"
+* #C25 ^property[=].valueDateTime = "2024-12-13T00:00:00+01:00"
 * #C27 "Obstétrique (C)"
 * #C27 ^designation[0].language = #fr-FR
 * #C27 ^designation[=].use.system = "http://snomed.info/sct"
@@ -138,7 +138,7 @@ Description: "Ensemble Savoir-faire CI-SIS (TRE provisoire)"
 * #C27 ^property[0].code = #dateValid
 * #C27 ^property[=].valueDateTime = "2012-04-12T00:00:00+01:00"
 * #C27 ^property[+].code = #dateMaj
-* #C27 ^property[=].valueDateTime = "2016-09-01T00:00:00+01:00"
+* #C27 ^property[=].valueDateTime = "2024-12-13T00:00:00+01:00"
 * #C29 "Maladies de l'appareil digestif (C)"
 * #C29 ^designation[0].language = #fr-FR
 * #C29 ^designation[=].use.system = "http://snomed.info/sct"
@@ -146,7 +146,7 @@ Description: "Ensemble Savoir-faire CI-SIS (TRE provisoire)"
 * #C29 ^property[0].code = #dateValid
 * #C29 ^property[=].valueDateTime = "2012-04-12T00:00:00+01:00"
 * #C29 ^property[+].code = #dateMaj
-* #C29 ^property[=].valueDateTime = "2016-09-01T00:00:00+01:00"
+* #C29 ^property[=].valueDateTime = "2024-12-13T00:00:00+01:00"
 * #C30 "Néphrologie (C)"
 * #C30 ^designation[0].language = #fr-FR
 * #C30 ^designation[=].use.system = "http://snomed.info/sct"
@@ -154,7 +154,7 @@ Description: "Ensemble Savoir-faire CI-SIS (TRE provisoire)"
 * #C30 ^property[0].code = #dateValid
 * #C30 ^property[=].valueDateTime = "2012-04-12T00:00:00+01:00"
 * #C30 ^property[+].code = #dateMaj
-* #C30 ^property[=].valueDateTime = "2016-09-01T00:00:00+01:00"
+* #C30 ^property[=].valueDateTime = "2024-12-13T00:00:00+01:00"
 * #C31 "Médecine exotique (C)"
 * #C31 ^designation[0].language = #fr-FR
 * #C31 ^designation[=].use.system = "http://snomed.info/sct"
@@ -162,7 +162,7 @@ Description: "Ensemble Savoir-faire CI-SIS (TRE provisoire)"
 * #C31 ^property[0].code = #dateValid
 * #C31 ^property[=].valueDateTime = "2012-04-12T00:00:00+01:00"
 * #C31 ^property[+].code = #dateMaj
-* #C31 ^property[=].valueDateTime = "2016-09-01T00:00:00+01:00"
+* #C31 ^property[=].valueDateTime = "2024-12-13T00:00:00+01:00"
 * #C33 "Allergologie (C)"
 * #C33 ^designation[0].language = #fr-FR
 * #C33 ^designation[=].use.system = "http://snomed.info/sct"
@@ -170,7 +170,7 @@ Description: "Ensemble Savoir-faire CI-SIS (TRE provisoire)"
 * #C33 ^property[0].code = #dateValid
 * #C33 ^property[=].valueDateTime = "2012-04-12T00:00:00+01:00"
 * #C33 ^property[+].code = #dateMaj
-* #C33 ^property[=].valueDateTime = "2016-09-01T00:00:00+01:00"
+* #C33 ^property[=].valueDateTime = "2024-12-13T00:00:00+01:00"
 * #C34 "Angéiologie (C)"
 * #C34 ^designation[0].language = #fr-FR
 * #C34 ^designation[=].use.system = "http://snomed.info/sct"
@@ -178,7 +178,7 @@ Description: "Ensemble Savoir-faire CI-SIS (TRE provisoire)"
 * #C34 ^property[0].code = #dateValid
 * #C34 ^property[=].valueDateTime = "2012-04-12T00:00:00+01:00"
 * #C34 ^property[+].code = #dateMaj
-* #C34 ^property[=].valueDateTime = "2016-09-01T00:00:00+01:00"
+* #C34 ^property[=].valueDateTime = "2024-12-13T00:00:00+01:00"
 * #C35 "Cancérologie (C)"
 * #C35 ^designation[0].language = #fr-FR
 * #C35 ^designation[=].use.system = "http://snomed.info/sct"
@@ -186,7 +186,7 @@ Description: "Ensemble Savoir-faire CI-SIS (TRE provisoire)"
 * #C35 ^property[0].code = #dateValid
 * #C35 ^property[=].valueDateTime = "2012-04-12T00:00:00+01:00"
 * #C35 ^property[+].code = #dateMaj
-* #C35 ^property[=].valueDateTime = "2016-09-01T00:00:00+01:00"
+* #C35 ^property[=].valueDateTime = "2024-12-13T00:00:00+01:00"
 * #C36 "Diabétologie-nutrition (C)"
 * #C36 ^designation[0].language = #fr-FR
 * #C36 ^designation[=].use.system = "http://snomed.info/sct"
@@ -194,7 +194,7 @@ Description: "Ensemble Savoir-faire CI-SIS (TRE provisoire)"
 * #C36 ^property[0].code = #dateValid
 * #C36 ^property[=].valueDateTime = "2012-04-12T00:00:00+01:00"
 * #C36 ^property[+].code = #dateMaj
-* #C36 ^property[=].valueDateTime = "2016-09-01T00:00:00+01:00"
+* #C36 ^property[=].valueDateTime = "2024-12-13T00:00:00+01:00"
 * #C37 "Endocrinologie (C)"
 * #C37 ^designation[0].language = #fr-FR
 * #C37 ^designation[=].use.system = "http://snomed.info/sct"
@@ -202,7 +202,7 @@ Description: "Ensemble Savoir-faire CI-SIS (TRE provisoire)"
 * #C37 ^property[0].code = #dateValid
 * #C37 ^property[=].valueDateTime = "2012-04-12T00:00:00+01:00"
 * #C37 ^property[+].code = #dateMaj
-* #C37 ^property[=].valueDateTime = "2016-09-01T00:00:00+01:00"
+* #C37 ^property[=].valueDateTime = "2024-12-13T00:00:00+01:00"
 * #C38 "Maladies du sang (C)"
 * #C38 ^designation[0].language = #fr-FR
 * #C38 ^designation[=].use.system = "http://snomed.info/sct"
@@ -210,7 +210,7 @@ Description: "Ensemble Savoir-faire CI-SIS (TRE provisoire)"
 * #C38 ^property[0].code = #dateValid
 * #C38 ^property[=].valueDateTime = "2012-04-12T00:00:00+01:00"
 * #C38 ^property[+].code = #dateMaj
-* #C38 ^property[=].valueDateTime = "2016-09-01T00:00:00+01:00"
+* #C38 ^property[=].valueDateTime = "2024-12-13T00:00:00+01:00"
 * #C39 "Réanimation (C)"
 * #C39 ^designation[0].language = #fr-FR
 * #C39 ^designation[=].use.system = "http://snomed.info/sct"
@@ -218,7 +218,7 @@ Description: "Ensemble Savoir-faire CI-SIS (TRE provisoire)"
 * #C39 ^property[0].code = #dateValid
 * #C39 ^property[=].valueDateTime = "2012-04-12T00:00:00+01:00"
 * #C39 ^property[+].code = #dateMaj
-* #C39 ^property[=].valueDateTime = "2016-09-01T00:00:00+01:00"
+* #C39 ^property[=].valueDateTime = "2024-12-13T00:00:00+01:00"
 * #C40 "Médecine légale (C)"
 * #C40 ^designation[0].language = #fr-FR
 * #C40 ^designation[=].use.system = "http://snomed.info/sct"
@@ -226,7 +226,7 @@ Description: "Ensemble Savoir-faire CI-SIS (TRE provisoire)"
 * #C40 ^property[0].code = #dateValid
 * #C40 ^property[=].valueDateTime = "2012-04-12T00:00:00+01:00"
 * #C40 ^property[+].code = #dateMaj
-* #C40 ^property[=].valueDateTime = "2016-09-01T00:00:00+01:00"
+* #C40 ^property[=].valueDateTime = "2024-12-13T00:00:00+01:00"
 * #C41 "Médecine du travail (C)"
 * #C41 ^designation[0].language = #fr-FR
 * #C41 ^designation[=].use.system = "http://snomed.info/sct"
@@ -234,7 +234,7 @@ Description: "Ensemble Savoir-faire CI-SIS (TRE provisoire)"
 * #C41 ^property[0].code = #dateValid
 * #C41 ^property[=].valueDateTime = "2012-04-12T00:00:00+01:00"
 * #C41 ^property[+].code = #dateMaj
-* #C41 ^property[=].valueDateTime = "2016-09-01T00:00:00+01:00"
+* #C41 ^property[=].valueDateTime = "2024-12-13T00:00:00+01:00"
 * #C43 "Neurologie (C)"
 * #C43 ^designation[0].language = #fr-FR
 * #C43 ^designation[=].use.system = "http://snomed.info/sct"
@@ -242,7 +242,7 @@ Description: "Ensemble Savoir-faire CI-SIS (TRE provisoire)"
 * #C43 ^property[0].code = #dateValid
 * #C43 ^property[=].valueDateTime = "2012-04-12T00:00:00+01:00"
 * #C43 ^property[+].code = #dateMaj
-* #C43 ^property[=].valueDateTime = "2016-09-01T00:00:00+01:00"
+* #C43 ^property[=].valueDateTime = "2024-12-13T00:00:00+01:00"
 * #C45 "Neuro-chirurgie (C)"
 * #C45 ^designation[0].language = #fr-FR
 * #C45 ^designation[=].use.system = "http://snomed.info/sct"
@@ -250,7 +250,7 @@ Description: "Ensemble Savoir-faire CI-SIS (TRE provisoire)"
 * #C45 ^property[0].code = #dateValid
 * #C45 ^property[=].valueDateTime = "2012-04-12T00:00:00+01:00"
 * #C45 ^property[+].code = #dateMaj
-* #C45 ^property[=].valueDateTime = "2016-09-01T00:00:00+01:00"
+* #C45 ^property[=].valueDateTime = "2024-12-13T00:00:00+01:00"
 * #C47 "Neuro-psychiatrie (C)"
 * #C47 ^designation[0].language = #fr-FR
 * #C47 ^designation[=].use.system = "http://snomed.info/sct"
@@ -258,7 +258,7 @@ Description: "Ensemble Savoir-faire CI-SIS (TRE provisoire)"
 * #C47 ^property[0].code = #dateValid
 * #C47 ^property[=].valueDateTime = "2012-04-12T00:00:00+01:00"
 * #C47 ^property[+].code = #dateMaj
-* #C47 ^property[=].valueDateTime = "2016-09-01T00:00:00+01:00"
+* #C47 ^property[=].valueDateTime = "2024-12-13T00:00:00+01:00"
 * #C51 "Pédiatrie (C)"
 * #C51 ^designation[0].language = #fr-FR
 * #C51 ^designation[=].use.system = "http://snomed.info/sct"
@@ -266,7 +266,7 @@ Description: "Ensemble Savoir-faire CI-SIS (TRE provisoire)"
 * #C51 ^property[0].code = #dateValid
 * #C51 ^property[=].valueDateTime = "2012-04-12T00:00:00+01:00"
 * #C51 ^property[+].code = #dateMaj
-* #C51 ^property[=].valueDateTime = "2016-09-01T00:00:00+01:00"
+* #C51 ^property[=].valueDateTime = "2024-12-13T00:00:00+01:00"
 * #C52 "Phoniatrie (C)"
 * #C52 ^designation[0].language = #fr-FR
 * #C52 ^designation[=].use.system = "http://snomed.info/sct"
@@ -274,7 +274,7 @@ Description: "Ensemble Savoir-faire CI-SIS (TRE provisoire)"
 * #C52 ^property[0].code = #dateValid
 * #C52 ^property[=].valueDateTime = "2012-04-12T00:00:00+01:00"
 * #C52 ^property[+].code = #dateMaj
-* #C52 ^property[=].valueDateTime = "2016-09-01T00:00:00+01:00"
+* #C52 ^property[=].valueDateTime = "2024-12-13T00:00:00+01:00"
 * #C54 "Pneumologie (C)"
 * #C54 ^designation[0].language = #fr-FR
 * #C54 ^designation[=].use.system = "http://snomed.info/sct"
@@ -282,7 +282,7 @@ Description: "Ensemble Savoir-faire CI-SIS (TRE provisoire)"
 * #C54 ^property[0].code = #dateValid
 * #C54 ^property[=].valueDateTime = "2012-04-12T00:00:00+01:00"
 * #C54 ^property[+].code = #dateMaj
-* #C54 ^property[=].valueDateTime = "2016-09-01T00:00:00+01:00"
+* #C54 ^property[=].valueDateTime = "2024-12-13T00:00:00+01:00"
 * #C57 "Psychiatrie (C)"
 * #C57 ^designation[0].language = #fr-FR
 * #C57 ^designation[=].use.system = "http://snomed.info/sct"
@@ -290,7 +290,7 @@ Description: "Ensemble Savoir-faire CI-SIS (TRE provisoire)"
 * #C57 ^property[0].code = #dateValid
 * #C57 ^property[=].valueDateTime = "2012-04-12T00:00:00+01:00"
 * #C57 ^property[+].code = #dateMaj
-* #C57 ^property[=].valueDateTime = "2016-09-01T00:00:00+01:00"
+* #C57 ^property[=].valueDateTime = "2024-12-13T00:00:00+01:00"
 * #C58 "Psychiatrie, option enfant et adolescent (C)"
 * #C58 ^designation[0].language = #fr-FR
 * #C58 ^designation[=].use.system = "http://snomed.info/sct"
@@ -298,7 +298,7 @@ Description: "Ensemble Savoir-faire CI-SIS (TRE provisoire)"
 * #C58 ^property[0].code = #dateValid
 * #C58 ^property[=].valueDateTime = "2012-04-12T00:00:00+01:00"
 * #C58 ^property[+].code = #dateMaj
-* #C58 ^property[=].valueDateTime = "2016-09-01T00:00:00+01:00"
+* #C58 ^property[=].valueDateTime = "2024-12-13T00:00:00+01:00"
 * #C60 "Médecine physique et réadaptation (C)"
 * #C60 ^designation[0].language = #fr-FR
 * #C60 ^designation[=].use.system = "http://snomed.info/sct"
@@ -306,7 +306,7 @@ Description: "Ensemble Savoir-faire CI-SIS (TRE provisoire)"
 * #C60 ^property[0].code = #dateValid
 * #C60 ^property[=].valueDateTime = "2012-04-12T00:00:00+01:00"
 * #C60 ^property[+].code = #dateMaj
-* #C60 ^property[=].valueDateTime = "2016-09-01T00:00:00+01:00"
+* #C60 ^property[=].valueDateTime = "2024-12-13T00:00:00+01:00"
 * #C62 "Rhumatologie (C)"
 * #C62 ^designation[0].language = #fr-FR
 * #C62 ^designation[=].use.system = "http://snomed.info/sct"
@@ -314,7 +314,7 @@ Description: "Ensemble Savoir-faire CI-SIS (TRE provisoire)"
 * #C62 ^property[0].code = #dateValid
 * #C62 ^property[=].valueDateTime = "2012-04-12T00:00:00+01:00"
 * #C62 ^property[+].code = #dateMaj
-* #C62 ^property[=].valueDateTime = "2016-09-01T00:00:00+01:00"
+* #C62 ^property[=].valueDateTime = "2024-12-13T00:00:00+01:00"
 * #C68 "Chirurgie pédiatrique (C)"
 * #C68 ^designation[0].language = #fr-FR
 * #C68 ^designation[=].use.system = "http://snomed.info/sct"
@@ -322,7 +322,7 @@ Description: "Ensemble Savoir-faire CI-SIS (TRE provisoire)"
 * #C68 ^property[0].code = #dateValid
 * #C68 ^property[=].valueDateTime = "2012-04-12T00:00:00+01:00"
 * #C68 ^property[+].code = #dateMaj
-* #C68 ^property[=].valueDateTime = "2016-09-01T00:00:00+01:00"
+* #C68 ^property[=].valueDateTime = "2024-12-13T00:00:00+01:00"
 * #C69 "Médecine nucléaire (C)"
 * #C69 ^designation[0].language = #fr-FR
 * #C69 ^designation[=].use.system = "http://snomed.info/sct"
@@ -330,7 +330,7 @@ Description: "Ensemble Savoir-faire CI-SIS (TRE provisoire)"
 * #C69 ^property[0].code = #dateValid
 * #C69 ^property[=].valueDateTime = "2012-04-12T00:00:00+01:00"
 * #C69 ^property[+].code = #dateMaj
-* #C69 ^property[=].valueDateTime = "2016-09-01T00:00:00+01:00"
+* #C69 ^property[=].valueDateTime = "2024-12-13T00:00:00+01:00"
 * #C71 "Médecine thermale (C)"
 * #C71 ^designation[0].language = #fr-FR
 * #C71 ^designation[=].use.system = "http://snomed.info/sct"
@@ -338,7 +338,7 @@ Description: "Ensemble Savoir-faire CI-SIS (TRE provisoire)"
 * #C71 ^property[0].code = #dateValid
 * #C71 ^property[=].valueDateTime = "2012-04-12T00:00:00+01:00"
 * #C71 ^property[+].code = #dateMaj
-* #C71 ^property[=].valueDateTime = "2016-09-01T00:00:00+01:00"
+* #C71 ^property[=].valueDateTime = "2024-12-13T00:00:00+01:00"
 * #C72 "Génétique médicale (C)"
 * #C72 ^designation[0].language = #fr-FR
 * #C72 ^designation[=].use.system = "http://snomed.info/sct"
@@ -346,7 +346,7 @@ Description: "Ensemble Savoir-faire CI-SIS (TRE provisoire)"
 * #C72 ^property[0].code = #dateValid
 * #C72 ^property[=].valueDateTime = "2012-04-12T00:00:00+01:00"
 * #C72 ^property[+].code = #dateMaj
-* #C72 ^property[=].valueDateTime = "2016-09-01T00:00:00+01:00"
+* #C72 ^property[=].valueDateTime = "2024-12-13T00:00:00+01:00"
 * #C75 "Endocrinologie et Maladies métaboliques (C)"
 * #C75 ^designation[0].language = #fr-FR
 * #C75 ^designation[=].use.system = "http://snomed.info/sct"
@@ -354,7 +354,7 @@ Description: "Ensemble Savoir-faire CI-SIS (TRE provisoire)"
 * #C75 ^property[0].code = #dateValid
 * #C75 ^property[=].valueDateTime = "2012-04-12T00:00:00+01:00"
 * #C75 ^property[+].code = #dateMaj
-* #C75 ^property[=].valueDateTime = "2016-09-01T00:00:00+01:00"
+* #C75 ^property[=].valueDateTime = "2024-12-13T00:00:00+01:00"
 * #C76 "Orthopédie dento-maxillo-faciale (C)"
 * #C76 ^designation[0].language = #fr-FR
 * #C76 ^designation[=].use.system = "http://snomed.info/sct"
@@ -362,7 +362,7 @@ Description: "Ensemble Savoir-faire CI-SIS (TRE provisoire)"
 * #C76 ^property[0].code = #dateValid
 * #C76 ^property[=].valueDateTime = "2012-04-12T00:00:00+01:00"
 * #C76 ^property[+].code = #dateMaj
-* #C76 ^property[=].valueDateTime = "2016-09-01T00:00:00+01:00"
+* #C76 ^property[=].valueDateTime = "2024-12-13T00:00:00+01:00"
 * #C83 "Chirurgie face et cou (C)"
 * #C83 ^designation[0].language = #fr-FR
 * #C83 ^designation[=].use.system = "http://snomed.info/sct"
@@ -370,7 +370,7 @@ Description: "Ensemble Savoir-faire CI-SIS (TRE provisoire)"
 * #C83 ^property[0].code = #dateValid
 * #C83 ^property[=].valueDateTime = "2012-04-12T00:00:00+01:00"
 * #C83 ^property[+].code = #dateMaj
-* #C83 ^property[=].valueDateTime = "2016-09-01T00:00:00+01:00"
+* #C83 ^property[=].valueDateTime = "2024-12-13T00:00:00+01:00"
 * #CAPA01 "Addictologie clinique (CAPA)"
 * #CAPA01 ^designation[0].language = #fr-FR
 * #CAPA01 ^designation[=].use.system = "http://snomed.info/sct"
@@ -378,7 +378,7 @@ Description: "Ensemble Savoir-faire CI-SIS (TRE provisoire)"
 * #CAPA01 ^property[0].code = #dateValid
 * #CAPA01 ^property[=].valueDateTime = "2012-04-12T00:00:00+01:00"
 * #CAPA01 ^property[+].code = #dateMaj
-* #CAPA01 ^property[=].valueDateTime = "2016-09-01T00:00:00+01:00"
+* #CAPA01 ^property[=].valueDateTime = "2024-12-13T00:00:00+01:00"
 * #CAPA02 "Aide médicale urgente (CAPA)"
 * #CAPA02 ^designation[0].language = #fr-FR
 * #CAPA02 ^designation[=].use.system = "http://snomed.info/sct"
@@ -386,7 +386,7 @@ Description: "Ensemble Savoir-faire CI-SIS (TRE provisoire)"
 * #CAPA02 ^property[0].code = #dateValid
 * #CAPA02 ^property[=].valueDateTime = "2012-04-12T00:00:00+01:00"
 * #CAPA02 ^property[+].code = #dateMaj
-* #CAPA02 ^property[=].valueDateTime = "2016-09-01T00:00:00+01:00"
+* #CAPA02 ^property[=].valueDateTime = "2024-12-13T00:00:00+01:00"
 * #CAPA03 "Allergologie (CAPA)"
 * #CAPA03 ^designation[0].language = #fr-FR
 * #CAPA03 ^designation[=].use.system = "http://snomed.info/sct"
@@ -394,7 +394,7 @@ Description: "Ensemble Savoir-faire CI-SIS (TRE provisoire)"
 * #CAPA03 ^property[0].code = #dateValid
 * #CAPA03 ^property[=].valueDateTime = "2012-04-12T00:00:00+01:00"
 * #CAPA03 ^property[+].code = #dateMaj
-* #CAPA03 ^property[=].valueDateTime = "2016-09-01T00:00:00+01:00"
+* #CAPA03 ^property[=].valueDateTime = "2024-12-13T00:00:00+01:00"
 * #CAPA04 "Angéiologie (CAPA)"
 * #CAPA04 ^designation[0].language = #fr-FR
 * #CAPA04 ^designation[=].use.system = "http://snomed.info/sct"
@@ -402,7 +402,7 @@ Description: "Ensemble Savoir-faire CI-SIS (TRE provisoire)"
 * #CAPA04 ^property[0].code = #dateValid
 * #CAPA04 ^property[=].valueDateTime = "2012-04-12T00:00:00+01:00"
 * #CAPA04 ^property[+].code = #dateMaj
-* #CAPA04 ^property[=].valueDateTime = "2016-09-01T00:00:00+01:00"
+* #CAPA04 ^property[=].valueDateTime = "2024-12-13T00:00:00+01:00"
 * #CAPA05 "Evaluation et Traitement de la douleur (CAPA)"
 * #CAPA05 ^designation[0].language = #fr-FR
 * #CAPA05 ^designation[=].use.system = "http://snomed.info/sct"
@@ -410,7 +410,7 @@ Description: "Ensemble Savoir-faire CI-SIS (TRE provisoire)"
 * #CAPA05 ^property[0].code = #dateValid
 * #CAPA05 ^property[=].valueDateTime = "2012-04-12T00:00:00+01:00"
 * #CAPA05 ^property[+].code = #dateMaj
-* #CAPA05 ^property[=].valueDateTime = "2016-09-01T00:00:00+01:00"
+* #CAPA05 ^property[=].valueDateTime = "2024-12-13T00:00:00+01:00"
 * #CAPA06 "Gérontologie (CAPA)"
 * #CAPA06 ^designation[0].language = #fr-FR
 * #CAPA06 ^designation[=].use.system = "http://snomed.info/sct"
@@ -418,7 +418,7 @@ Description: "Ensemble Savoir-faire CI-SIS (TRE provisoire)"
 * #CAPA06 ^property[0].code = #dateValid
 * #CAPA06 ^property[=].valueDateTime = "2012-04-12T00:00:00+01:00"
 * #CAPA06 ^property[+].code = #dateMaj
-* #CAPA06 ^property[=].valueDateTime = "2016-09-01T00:00:00+01:00"
+* #CAPA06 ^property[=].valueDateTime = "2024-12-13T00:00:00+01:00"
 * #CAPA07 "Hydrologie et Climatologie médicales (CAPA)"
 * #CAPA07 ^designation[0].language = #fr-FR
 * #CAPA07 ^designation[=].use.system = "http://snomed.info/sct"
@@ -426,7 +426,7 @@ Description: "Ensemble Savoir-faire CI-SIS (TRE provisoire)"
 * #CAPA07 ^property[0].code = #dateValid
 * #CAPA07 ^property[=].valueDateTime = "2012-04-12T00:00:00+01:00"
 * #CAPA07 ^property[+].code = #dateMaj
-* #CAPA07 ^property[=].valueDateTime = "2016-09-01T00:00:00+01:00"
+* #CAPA07 ^property[=].valueDateTime = "2024-12-13T00:00:00+01:00"
 * #CAPA08 "Médecine aérospatiale (CAPA)"
 * #CAPA08 ^designation[0].language = #fr-FR
 * #CAPA08 ^designation[=].use.system = "http://snomed.info/sct"
@@ -434,7 +434,7 @@ Description: "Ensemble Savoir-faire CI-SIS (TRE provisoire)"
 * #CAPA08 ^property[0].code = #dateValid
 * #CAPA08 ^property[=].valueDateTime = "2012-04-12T00:00:00+01:00"
 * #CAPA08 ^property[+].code = #dateMaj
-* #CAPA08 ^property[=].valueDateTime = "2016-09-01T00:00:00+01:00"
+* #CAPA08 ^property[=].valueDateTime = "2024-12-13T00:00:00+01:00"
 * #CAPA09 "Médecine de catastrophe (CAPA)"
 * #CAPA09 ^designation[0].language = #fr-FR
 * #CAPA09 ^designation[=].use.system = "http://snomed.info/sct"
@@ -442,7 +442,7 @@ Description: "Ensemble Savoir-faire CI-SIS (TRE provisoire)"
 * #CAPA09 ^property[0].code = #dateValid
 * #CAPA09 ^property[=].valueDateTime = "2012-04-12T00:00:00+01:00"
 * #CAPA09 ^property[+].code = #dateMaj
-* #CAPA09 ^property[=].valueDateTime = "2016-09-01T00:00:00+01:00"
+* #CAPA09 ^property[=].valueDateTime = "2024-12-13T00:00:00+01:00"
 * #CAPA10 "Médecine et Biologie du sport (CAPA)"
 * #CAPA10 ^designation[0].language = #fr-FR
 * #CAPA10 ^designation[=].use.system = "http://snomed.info/sct"
@@ -450,7 +450,7 @@ Description: "Ensemble Savoir-faire CI-SIS (TRE provisoire)"
 * #CAPA10 ^property[0].code = #dateValid
 * #CAPA10 ^property[=].valueDateTime = "2012-04-12T00:00:00+01:00"
 * #CAPA10 ^property[+].code = #dateMaj
-* #CAPA10 ^property[=].valueDateTime = "2016-09-01T00:00:00+01:00"
+* #CAPA10 ^property[=].valueDateTime = "2024-12-13T00:00:00+01:00"
 * #CAPA11 "Médecine de santé au travail et Prévention des risques professionnels (CAPA)"
 * #CAPA11 ^designation[0].language = #fr-FR
 * #CAPA11 ^designation[=].use.system = "http://snomed.info/sct"
@@ -458,7 +458,7 @@ Description: "Ensemble Savoir-faire CI-SIS (TRE provisoire)"
 * #CAPA11 ^property[0].code = #dateValid
 * #CAPA11 ^property[=].valueDateTime = "2012-04-12T00:00:00+01:00"
 * #CAPA11 ^property[+].code = #dateMaj
-* #CAPA11 ^property[=].valueDateTime = "2016-09-01T00:00:00+01:00"
+* #CAPA11 ^property[=].valueDateTime = "2024-12-13T00:00:00+01:00"
 * #CAPA12 "Médecine pénitentiaire (CAPA)"
 * #CAPA12 ^designation[0].language = #fr-FR
 * #CAPA12 ^designation[=].use.system = "http://snomed.info/sct"
@@ -466,7 +466,7 @@ Description: "Ensemble Savoir-faire CI-SIS (TRE provisoire)"
 * #CAPA12 ^property[0].code = #dateValid
 * #CAPA12 ^property[=].valueDateTime = "2012-04-12T00:00:00+01:00"
 * #CAPA12 ^property[+].code = #dateMaj
-* #CAPA12 ^property[=].valueDateTime = "2016-09-01T00:00:00+01:00"
+* #CAPA12 ^property[=].valueDateTime = "2024-12-13T00:00:00+01:00"
 * #CAPA13 "Médecine tropicale (CAPA)"
 * #CAPA13 ^designation[0].language = #fr-FR
 * #CAPA13 ^designation[=].use.system = "http://snomed.info/sct"
@@ -474,7 +474,7 @@ Description: "Ensemble Savoir-faire CI-SIS (TRE provisoire)"
 * #CAPA13 ^property[0].code = #dateValid
 * #CAPA13 ^property[=].valueDateTime = "2012-04-12T00:00:00+01:00"
 * #CAPA13 ^property[+].code = #dateMaj
-* #CAPA13 ^property[=].valueDateTime = "2016-09-01T00:00:00+01:00"
+* #CAPA13 ^property[=].valueDateTime = "2024-12-13T00:00:00+01:00"
 * #CAPA14 "Pratiques médico-judiciaires (CAPA)"
 * #CAPA14 ^designation[0].language = #fr-FR
 * #CAPA14 ^designation[=].use.system = "http://snomed.info/sct"
@@ -482,7 +482,7 @@ Description: "Ensemble Savoir-faire CI-SIS (TRE provisoire)"
 * #CAPA14 ^property[0].code = #dateValid
 * #CAPA14 ^property[=].valueDateTime = "2012-04-12T00:00:00+01:00"
 * #CAPA14 ^property[+].code = #dateMaj
-* #CAPA14 ^property[=].valueDateTime = "2016-09-01T00:00:00+01:00"
+* #CAPA14 ^property[=].valueDateTime = "2024-12-13T00:00:00+01:00"
 * #CAPA15 "Technologie transfusionnelle (CAPA)"
 * #CAPA15 ^designation[0].language = #fr-FR
 * #CAPA15 ^designation[=].use.system = "http://snomed.info/sct"
@@ -490,7 +490,7 @@ Description: "Ensemble Savoir-faire CI-SIS (TRE provisoire)"
 * #CAPA15 ^property[0].code = #dateValid
 * #CAPA15 ^property[=].valueDateTime = "2012-04-12T00:00:00+01:00"
 * #CAPA15 ^property[+].code = #dateMaj
-* #CAPA15 ^property[=].valueDateTime = "2016-09-01T00:00:00+01:00"
+* #CAPA15 ^property[=].valueDateTime = "2024-12-13T00:00:00+01:00"
 * #CAPA16 "Toxicomanies et Alcoologies (CAPA)"
 * #CAPA16 ^designation[0].language = #fr-FR
 * #CAPA16 ^designation[=].use.system = "http://snomed.info/sct"
@@ -498,7 +498,7 @@ Description: "Ensemble Savoir-faire CI-SIS (TRE provisoire)"
 * #CAPA16 ^property[0].code = #dateValid
 * #CAPA16 ^property[=].valueDateTime = "2012-04-12T00:00:00+01:00"
 * #CAPA16 ^property[+].code = #dateMaj
-* #CAPA16 ^property[=].valueDateTime = "2016-09-01T00:00:00+01:00"
+* #CAPA16 ^property[=].valueDateTime = "2024-12-13T00:00:00+01:00"
 * #CEX22 "Gynécologie médicale et obstétrique (CEX)"
 * #CEX22 ^designation[0].language = #fr-FR
 * #CEX22 ^designation[=].use.system = "http://snomed.info/sct"
@@ -506,7 +506,7 @@ Description: "Ensemble Savoir-faire CI-SIS (TRE provisoire)"
 * #CEX22 ^property[0].code = #dateValid
 * #CEX22 ^property[=].valueDateTime = "2012-04-12T00:00:00+01:00"
 * #CEX22 ^property[+].code = #dateMaj
-* #CEX22 ^property[=].valueDateTime = "2016-09-01T00:00:00+01:00"
+* #CEX22 ^property[=].valueDateTime = "2024-12-13T00:00:00+01:00"
 * #CEX24 "Gynécologie médicale (CEX)"
 * #CEX24 ^designation[0].language = #fr-FR
 * #CEX24 ^designation[=].use.system = "http://snomed.info/sct"
@@ -514,7 +514,7 @@ Description: "Ensemble Savoir-faire CI-SIS (TRE provisoire)"
 * #CEX24 ^property[0].code = #dateValid
 * #CEX24 ^property[=].valueDateTime = "2012-04-12T00:00:00+01:00"
 * #CEX24 ^property[+].code = #dateMaj
-* #CEX24 ^property[=].valueDateTime = "2016-09-01T00:00:00+01:00"
+* #CEX24 ^property[=].valueDateTime = "2024-12-13T00:00:00+01:00"
 * #CEX26 "Obstétrique (CEX)"
 * #CEX26 ^designation[0].language = #fr-FR
 * #CEX26 ^designation[=].use.system = "http://snomed.info/sct"
@@ -522,7 +522,7 @@ Description: "Ensemble Savoir-faire CI-SIS (TRE provisoire)"
 * #CEX26 ^property[0].code = #dateValid
 * #CEX26 ^property[=].valueDateTime = "2012-04-12T00:00:00+01:00"
 * #CEX26 ^property[+].code = #dateMaj
-* #CEX26 ^property[=].valueDateTime = "2016-09-01T00:00:00+01:00"
+* #CEX26 ^property[=].valueDateTime = "2024-12-13T00:00:00+01:00"
 * #CEX64 "Urologie (CEX)"
 * #CEX64 ^designation[0].language = #fr-FR
 * #CEX64 ^designation[=].use.system = "http://snomed.info/sct"
@@ -530,7 +530,7 @@ Description: "Ensemble Savoir-faire CI-SIS (TRE provisoire)"
 * #CEX64 ^property[0].code = #dateValid
 * #CEX64 ^property[=].valueDateTime = "2012-04-12T00:00:00+01:00"
 * #CEX64 ^property[+].code = #dateMaj
-* #CEX64 ^property[=].valueDateTime = "2016-09-01T00:00:00+01:00"
+* #CEX64 ^property[=].valueDateTime = "2024-12-13T00:00:00+01:00"
 * #DSM200 "Addictologie (DNQ)"
 * #DSM200 ^designation[0].language = #fr-FR
 * #DSM200 ^designation[=].use.system = "http://snomed.info/sct"
@@ -538,7 +538,7 @@ Description: "Ensemble Savoir-faire CI-SIS (TRE provisoire)"
 * #DSM200 ^property[0].code = #dateValid
 * #DSM200 ^property[=].valueDateTime = "2012-04-12T00:00:00+01:00"
 * #DSM200 ^property[+].code = #dateMaj
-* #DSM200 ^property[=].valueDateTime = "2016-09-01T00:00:00+01:00"
+* #DSM200 ^property[=].valueDateTime = "2024-12-13T00:00:00+01:00"
 * #DSM201 "Allergologie et Immunologie clinique (DNQ)"
 * #DSM201 ^designation[0].language = #fr-FR
 * #DSM201 ^designation[=].use.system = "http://snomed.info/sct"
@@ -546,7 +546,7 @@ Description: "Ensemble Savoir-faire CI-SIS (TRE provisoire)"
 * #DSM201 ^property[0].code = #dateValid
 * #DSM201 ^property[=].valueDateTime = "2012-04-12T00:00:00+01:00"
 * #DSM201 ^property[+].code = #dateMaj
-* #DSM201 ^property[=].valueDateTime = "2016-09-01T00:00:00+01:00"
+* #DSM201 ^property[=].valueDateTime = "2024-12-13T00:00:00+01:00"
 * #DSM202 "Andrologie (DNQ)"
 * #DSM202 ^designation[0].language = #fr-FR
 * #DSM202 ^designation[=].use.system = "http://snomed.info/sct"
@@ -554,7 +554,7 @@ Description: "Ensemble Savoir-faire CI-SIS (TRE provisoire)"
 * #DSM202 ^property[0].code = #dateValid
 * #DSM202 ^property[=].valueDateTime = "2012-04-12T00:00:00+01:00"
 * #DSM202 ^property[+].code = #dateMaj
-* #DSM202 ^property[=].valueDateTime = "2016-09-01T00:00:00+01:00"
+* #DSM202 ^property[=].valueDateTime = "2024-12-13T00:00:00+01:00"
 * #DSM203 "Biochimie hormonale et métabolique (DNQ)"
 * #DSM203 ^designation[0].language = #fr-FR
 * #DSM203 ^designation[=].use.system = "http://snomed.info/sct"
@@ -562,7 +562,7 @@ Description: "Ensemble Savoir-faire CI-SIS (TRE provisoire)"
 * #DSM203 ^property[0].code = #dateValid
 * #DSM203 ^property[=].valueDateTime = "2012-04-12T00:00:00+01:00"
 * #DSM203 ^property[+].code = #dateMaj
-* #DSM203 ^property[=].valueDateTime = "2016-09-01T00:00:00+01:00"
+* #DSM203 ^property[=].valueDateTime = "2024-12-13T00:00:00+01:00"
 * #DSM204 "Biologie des agents infectieux (DNQ)"
 * #DSM204 ^designation[0].language = #fr-FR
 * #DSM204 ^designation[=].use.system = "http://snomed.info/sct"
@@ -570,7 +570,7 @@ Description: "Ensemble Savoir-faire CI-SIS (TRE provisoire)"
 * #DSM204 ^property[0].code = #dateValid
 * #DSM204 ^property[=].valueDateTime = "2012-04-12T00:00:00+01:00"
 * #DSM204 ^property[+].code = #dateMaj
-* #DSM204 ^property[=].valueDateTime = "2016-09-01T00:00:00+01:00"
+* #DSM204 ^property[=].valueDateTime = "2024-12-13T00:00:00+01:00"
 * #DSM205 "Biologie moléculaire (DNQ)"
 * #DSM205 ^designation[0].language = #fr-FR
 * #DSM205 ^designation[=].use.system = "http://snomed.info/sct"
@@ -578,7 +578,7 @@ Description: "Ensemble Savoir-faire CI-SIS (TRE provisoire)"
 * #DSM205 ^property[0].code = #dateValid
 * #DSM205 ^property[=].valueDateTime = "2012-04-12T00:00:00+01:00"
 * #DSM205 ^property[+].code = #dateMaj
-* #DSM205 ^property[=].valueDateTime = "2016-09-01T00:00:00+01:00"
+* #DSM205 ^property[=].valueDateTime = "2024-12-13T00:00:00+01:00"
 * #DSM206 "Cancérologie (DNQ)"
 * #DSM206 ^designation[0].language = #fr-FR
 * #DSM206 ^designation[=].use.system = "http://snomed.info/sct"
@@ -586,7 +586,7 @@ Description: "Ensemble Savoir-faire CI-SIS (TRE provisoire)"
 * #DSM206 ^property[0].code = #dateValid
 * #DSM206 ^property[=].valueDateTime = "2012-04-12T00:00:00+01:00"
 * #DSM206 ^property[+].code = #dateMaj
-* #DSM206 ^property[=].valueDateTime = "2016-09-01T00:00:00+01:00"
+* #DSM206 ^property[=].valueDateTime = "2024-12-13T00:00:00+01:00"
 * #DSM207 "Chirurgie de la face et du cou (DNQ)"
 * #DSM207 ^designation[0].language = #fr-FR
 * #DSM207 ^designation[=].use.system = "http://snomed.info/sct"
@@ -594,7 +594,7 @@ Description: "Ensemble Savoir-faire CI-SIS (TRE provisoire)"
 * #DSM207 ^property[0].code = #dateValid
 * #DSM207 ^property[=].valueDateTime = "2012-04-12T00:00:00+01:00"
 * #DSM207 ^property[+].code = #dateMaj
-* #DSM207 ^property[=].valueDateTime = "2016-09-01T00:00:00+01:00"
+* #DSM207 ^property[=].valueDateTime = "2024-12-13T00:00:00+01:00"
 * #DSM208 "Chirurgie plastique et reconstructrice (DNQ)"
 * #DSM208 ^designation[0].language = #fr-FR
 * #DSM208 ^designation[=].use.system = "http://snomed.info/sct"
@@ -602,7 +602,7 @@ Description: "Ensemble Savoir-faire CI-SIS (TRE provisoire)"
 * #DSM208 ^property[0].code = #dateValid
 * #DSM208 ^property[=].valueDateTime = "2012-04-12T00:00:00+01:00"
 * #DSM208 ^property[+].code = #dateMaj
-* #DSM208 ^property[=].valueDateTime = "2016-09-01T00:00:00+01:00"
+* #DSM208 ^property[=].valueDateTime = "2024-12-13T00:00:00+01:00"
 * #DSM209 "Chirurgie vasculaire (DNQ)"
 * #DSM209 ^designation[0].language = #fr-FR
 * #DSM209 ^designation[=].use.system = "http://snomed.info/sct"
@@ -610,7 +610,7 @@ Description: "Ensemble Savoir-faire CI-SIS (TRE provisoire)"
 * #DSM209 ^property[0].code = #dateValid
 * #DSM209 ^property[=].valueDateTime = "2012-04-12T00:00:00+01:00"
 * #DSM209 ^property[+].code = #dateMaj
-* #DSM209 ^property[=].valueDateTime = "2016-09-01T00:00:00+01:00"
+* #DSM209 ^property[=].valueDateTime = "2024-12-13T00:00:00+01:00"
 * #DSM210 "Cytogénétique humaine (DNQ)"
 * #DSM210 ^designation[0].language = #fr-FR
 * #DSM210 ^designation[=].use.system = "http://snomed.info/sct"
@@ -618,7 +618,7 @@ Description: "Ensemble Savoir-faire CI-SIS (TRE provisoire)"
 * #DSM210 ^property[0].code = #dateValid
 * #DSM210 ^property[=].valueDateTime = "2012-04-12T00:00:00+01:00"
 * #DSM210 ^property[+].code = #dateMaj
-* #DSM210 ^property[=].valueDateTime = "2016-09-01T00:00:00+01:00"
+* #DSM210 ^property[=].valueDateTime = "2024-12-13T00:00:00+01:00"
 * #DSM211 "Dermatopathologie (DNQ)"
 * #DSM211 ^designation[0].language = #fr-FR
 * #DSM211 ^designation[=].use.system = "http://snomed.info/sct"
@@ -626,7 +626,7 @@ Description: "Ensemble Savoir-faire CI-SIS (TRE provisoire)"
 * #DSM211 ^property[0].code = #dateValid
 * #DSM211 ^property[=].valueDateTime = "2012-04-12T00:00:00+01:00"
 * #DSM211 ^property[+].code = #dateMaj
-* #DSM211 ^property[=].valueDateTime = "2016-09-01T00:00:00+01:00"
+* #DSM211 ^property[=].valueDateTime = "2024-12-13T00:00:00+01:00"
 * #DSM212 "Foetopathologie (DNQ)"
 * #DSM212 ^designation[0].language = #fr-FR
 * #DSM212 ^designation[=].use.system = "http://snomed.info/sct"
@@ -634,7 +634,7 @@ Description: "Ensemble Savoir-faire CI-SIS (TRE provisoire)"
 * #DSM212 ^property[0].code = #dateValid
 * #DSM212 ^property[=].valueDateTime = "2012-04-12T00:00:00+01:00"
 * #DSM212 ^property[+].code = #dateMaj
-* #DSM212 ^property[=].valueDateTime = "2016-09-01T00:00:00+01:00"
+* #DSM212 ^property[=].valueDateTime = "2024-12-13T00:00:00+01:00"
 * #DSM213 "Gériatrie (DNQ)"
 * #DSM213 ^designation[0].language = #fr-FR
 * #DSM213 ^designation[=].use.system = "http://snomed.info/sct"
@@ -642,7 +642,7 @@ Description: "Ensemble Savoir-faire CI-SIS (TRE provisoire)"
 * #DSM213 ^property[0].code = #dateValid
 * #DSM213 ^property[=].valueDateTime = "2012-04-12T00:00:00+01:00"
 * #DSM213 ^property[+].code = #dateMaj
-* #DSM213 ^property[=].valueDateTime = "2016-09-01T00:00:00+01:00"
+* #DSM213 ^property[=].valueDateTime = "2024-12-13T00:00:00+01:00"
 * #DSM214 "Hématologie biologique (DNQ)"
 * #DSM214 ^designation[0].language = #fr-FR
 * #DSM214 ^designation[=].use.system = "http://snomed.info/sct"
@@ -650,7 +650,7 @@ Description: "Ensemble Savoir-faire CI-SIS (TRE provisoire)"
 * #DSM214 ^property[0].code = #dateValid
 * #DSM214 ^property[=].valueDateTime = "2012-04-12T00:00:00+01:00"
 * #DSM214 ^property[+].code = #dateMaj
-* #DSM214 ^property[=].valueDateTime = "2016-09-01T00:00:00+01:00"
+* #DSM214 ^property[=].valueDateTime = "2024-12-13T00:00:00+01:00"
 * #DSM215 "Hématologie maladies du sang (DNQ)"
 * #DSM215 ^designation[0].language = #fr-FR
 * #DSM215 ^designation[=].use.system = "http://snomed.info/sct"
@@ -658,7 +658,7 @@ Description: "Ensemble Savoir-faire CI-SIS (TRE provisoire)"
 * #DSM215 ^property[0].code = #dateValid
 * #DSM215 ^property[=].valueDateTime = "2012-04-12T00:00:00+01:00"
 * #DSM215 ^property[+].code = #dateMaj
-* #DSM215 ^property[=].valueDateTime = "2016-09-01T00:00:00+01:00"
+* #DSM215 ^property[=].valueDateTime = "2024-12-13T00:00:00+01:00"
 * #DSM216 "Hémobiologie-transfusion (DNQ)"
 * #DSM216 ^designation[0].language = #fr-FR
 * #DSM216 ^designation[=].use.system = "http://snomed.info/sct"
@@ -666,7 +666,7 @@ Description: "Ensemble Savoir-faire CI-SIS (TRE provisoire)"
 * #DSM216 ^property[0].code = #dateValid
 * #DSM216 ^property[=].valueDateTime = "2012-04-12T00:00:00+01:00"
 * #DSM216 ^property[+].code = #dateMaj
-* #DSM216 ^property[=].valueDateTime = "2016-09-01T00:00:00+01:00"
+* #DSM216 ^property[=].valueDateTime = "2024-12-13T00:00:00+01:00"
 * #DSM217 "Immunologie et Immunopathologie (DNQ)"
 * #DSM217 ^designation[0].language = #fr-FR
 * #DSM217 ^designation[=].use.system = "http://snomed.info/sct"
@@ -674,7 +674,7 @@ Description: "Ensemble Savoir-faire CI-SIS (TRE provisoire)"
 * #DSM217 ^property[0].code = #dateValid
 * #DSM217 ^property[=].valueDateTime = "2012-04-12T00:00:00+01:00"
 * #DSM217 ^property[+].code = #dateMaj
-* #DSM217 ^property[=].valueDateTime = "2016-09-01T00:00:00+01:00"
+* #DSM217 ^property[=].valueDateTime = "2024-12-13T00:00:00+01:00"
 * #DSM218 "Médecine de la reproduction (DNQ)"
 * #DSM218 ^designation[0].language = #fr-FR
 * #DSM218 ^designation[=].use.system = "http://snomed.info/sct"
@@ -682,7 +682,7 @@ Description: "Ensemble Savoir-faire CI-SIS (TRE provisoire)"
 * #DSM218 ^property[0].code = #dateValid
 * #DSM218 ^property[=].valueDateTime = "2012-04-12T00:00:00+01:00"
 * #DSM218 ^property[+].code = #dateMaj
-* #DSM218 ^property[=].valueDateTime = "2016-09-01T00:00:00+01:00"
+* #DSM218 ^property[=].valueDateTime = "2024-12-13T00:00:00+01:00"
 * #DSM219 "Médecine du sport (DNQ)"
 * #DSM219 ^designation[0].language = #fr-FR
 * #DSM219 ^designation[=].use.system = "http://snomed.info/sct"
@@ -690,7 +690,7 @@ Description: "Ensemble Savoir-faire CI-SIS (TRE provisoire)"
 * #DSM219 ^property[0].code = #dateValid
 * #DSM219 ^property[=].valueDateTime = "2012-04-12T00:00:00+01:00"
 * #DSM219 ^property[+].code = #dateMaj
-* #DSM219 ^property[=].valueDateTime = "2016-09-01T00:00:00+01:00"
+* #DSM219 ^property[=].valueDateTime = "2024-12-13T00:00:00+01:00"
 * #DSM220 "Médecine d'urgence (DNQ)"
 * #DSM220 ^designation[0].language = #fr-FR
 * #DSM220 ^designation[=].use.system = "http://snomed.info/sct"
@@ -698,7 +698,7 @@ Description: "Ensemble Savoir-faire CI-SIS (TRE provisoire)"
 * #DSM220 ^property[0].code = #dateValid
 * #DSM220 ^property[=].valueDateTime = "2012-04-12T00:00:00+01:00"
 * #DSM220 ^property[+].code = #dateMaj
-* #DSM220 ^property[=].valueDateTime = "2016-09-01T00:00:00+01:00"
+* #DSM220 ^property[=].valueDateTime = "2024-12-13T00:00:00+01:00"
 * #DSM221 "Médecine légale et Expertises médicales (DNQ)"
 * #DSM221 ^designation[0].language = #fr-FR
 * #DSM221 ^designation[=].use.system = "http://snomed.info/sct"
@@ -706,7 +706,7 @@ Description: "Ensemble Savoir-faire CI-SIS (TRE provisoire)"
 * #DSM221 ^property[0].code = #dateValid
 * #DSM221 ^property[=].valueDateTime = "2012-04-12T00:00:00+01:00"
 * #DSM221 ^property[+].code = #dateMaj
-* #DSM221 ^property[=].valueDateTime = "2016-09-01T00:00:00+01:00"
+* #DSM221 ^property[=].valueDateTime = "2024-12-13T00:00:00+01:00"
 * #DSM222 "Médecine nucléaire (DNQ)"
 * #DSM222 ^designation[0].language = #fr-FR
 * #DSM222 ^designation[=].use.system = "http://snomed.info/sct"
@@ -714,7 +714,7 @@ Description: "Ensemble Savoir-faire CI-SIS (TRE provisoire)"
 * #DSM222 ^property[0].code = #dateValid
 * #DSM222 ^property[=].valueDateTime = "2012-04-12T00:00:00+01:00"
 * #DSM222 ^property[+].code = #dateMaj
-* #DSM222 ^property[=].valueDateTime = "2016-09-01T00:00:00+01:00"
+* #DSM222 ^property[=].valueDateTime = "2024-12-13T00:00:00+01:00"
 * #DSM223 "Médecine vasculaire (DNQ)"
 * #DSM223 ^designation[0].language = #fr-FR
 * #DSM223 ^designation[=].use.system = "http://snomed.info/sct"
@@ -722,7 +722,7 @@ Description: "Ensemble Savoir-faire CI-SIS (TRE provisoire)"
 * #DSM223 ^property[0].code = #dateValid
 * #DSM223 ^property[=].valueDateTime = "2012-04-12T00:00:00+01:00"
 * #DSM223 ^property[+].code = #dateMaj
-* #DSM223 ^property[=].valueDateTime = "2016-09-01T00:00:00+01:00"
+* #DSM223 ^property[=].valueDateTime = "2024-12-13T00:00:00+01:00"
 * #DSM224 "Néonatalogie (DNQ)"
 * #DSM224 ^designation[0].language = #fr-FR
 * #DSM224 ^designation[=].use.system = "http://snomed.info/sct"
@@ -730,7 +730,7 @@ Description: "Ensemble Savoir-faire CI-SIS (TRE provisoire)"
 * #DSM224 ^property[0].code = #dateValid
 * #DSM224 ^property[=].valueDateTime = "2012-04-12T00:00:00+01:00"
 * #DSM224 ^property[+].code = #dateMaj
-* #DSM224 ^property[=].valueDateTime = "2016-09-01T00:00:00+01:00"
+* #DSM224 ^property[=].valueDateTime = "2024-12-13T00:00:00+01:00"
 * #DSM225 "Neuropathologie (DNQ)"
 * #DSM225 ^designation[0].language = #fr-FR
 * #DSM225 ^designation[=].use.system = "http://snomed.info/sct"
@@ -738,7 +738,7 @@ Description: "Ensemble Savoir-faire CI-SIS (TRE provisoire)"
 * #DSM225 ^property[0].code = #dateValid
 * #DSM225 ^property[=].valueDateTime = "2012-04-12T00:00:00+01:00"
 * #DSM225 ^property[+].code = #dateMaj
-* #DSM225 ^property[=].valueDateTime = "2016-09-01T00:00:00+01:00"
+* #DSM225 ^property[=].valueDateTime = "2024-12-13T00:00:00+01:00"
 * #DSM226 "Nutrition (DNQ)"
 * #DSM226 ^designation[0].language = #fr-FR
 * #DSM226 ^designation[=].use.system = "http://snomed.info/sct"
@@ -746,7 +746,7 @@ Description: "Ensemble Savoir-faire CI-SIS (TRE provisoire)"
 * #DSM226 ^property[0].code = #dateValid
 * #DSM226 ^property[=].valueDateTime = "2012-04-12T00:00:00+01:00"
 * #DSM226 ^property[+].code = #dateMaj
-* #DSM226 ^property[=].valueDateTime = "2016-09-01T00:00:00+01:00"
+* #DSM226 ^property[=].valueDateTime = "2024-12-13T00:00:00+01:00"
 * #DSM227 "Orthopédie dento-maxillo-faciale (DNQ)"
 * #DSM227 ^designation[0].language = #fr-FR
 * #DSM227 ^designation[=].use.system = "http://snomed.info/sct"
@@ -754,7 +754,7 @@ Description: "Ensemble Savoir-faire CI-SIS (TRE provisoire)"
 * #DSM227 ^property[0].code = #dateValid
 * #DSM227 ^property[=].valueDateTime = "2012-04-12T00:00:00+01:00"
 * #DSM227 ^property[+].code = #dateMaj
-* #DSM227 ^property[=].valueDateTime = "2016-09-01T00:00:00+01:00"
+* #DSM227 ^property[=].valueDateTime = "2024-12-13T00:00:00+01:00"
 * #DSM228 "Pathologie infectieuse et tropicale, clinique et biologique (DNQ)"
 * #DSM228 ^designation[0].language = #fr-FR
 * #DSM228 ^designation[=].use.system = "http://snomed.info/sct"
@@ -762,7 +762,7 @@ Description: "Ensemble Savoir-faire CI-SIS (TRE provisoire)"
 * #DSM228 ^property[0].code = #dateValid
 * #DSM228 ^property[=].valueDateTime = "2012-04-12T00:00:00+01:00"
 * #DSM228 ^property[+].code = #dateMaj
-* #DSM228 ^property[=].valueDateTime = "2016-09-01T00:00:00+01:00"
+* #DSM228 ^property[=].valueDateTime = "2024-12-13T00:00:00+01:00"
 * #DSM229 "Pharmacocinétique et Métabolisme des médicaments (DNQ)"
 * #DSM229 ^designation[0].language = #fr-FR
 * #DSM229 ^designation[=].use.system = "http://snomed.info/sct"
@@ -770,7 +770,7 @@ Description: "Ensemble Savoir-faire CI-SIS (TRE provisoire)"
 * #DSM229 ^property[0].code = #dateValid
 * #DSM229 ^property[=].valueDateTime = "2012-04-12T00:00:00+01:00"
 * #DSM229 ^property[+].code = #dateMaj
-* #DSM229 ^property[=].valueDateTime = "2016-09-01T00:00:00+01:00"
+* #DSM229 ^property[=].valueDateTime = "2024-12-13T00:00:00+01:00"
 * #DSM230 "Pharmacologie clinique et Evaluation des thérapeutiques (DNQ)"
 * #DSM230 ^designation[0].language = #fr-FR
 * #DSM230 ^designation[=].use.system = "http://snomed.info/sct"
@@ -778,7 +778,7 @@ Description: "Ensemble Savoir-faire CI-SIS (TRE provisoire)"
 * #DSM230 ^property[0].code = #dateValid
 * #DSM230 ^property[=].valueDateTime = "2012-04-12T00:00:00+01:00"
 * #DSM230 ^property[+].code = #dateMaj
-* #DSM230 ^property[=].valueDateTime = "2016-09-01T00:00:00+01:00"
+* #DSM230 ^property[=].valueDateTime = "2024-12-13T00:00:00+01:00"
 * #DSM231 "Psychiatrie de l'enfant et de l'adolescent (DNQ)"
 * #DSM231 ^designation[0].language = #fr-FR
 * #DSM231 ^designation[=].use.system = "http://snomed.info/sct"
@@ -786,7 +786,7 @@ Description: "Ensemble Savoir-faire CI-SIS (TRE provisoire)"
 * #DSM231 ^property[0].code = #dateValid
 * #DSM231 ^property[=].valueDateTime = "2012-04-12T00:00:00+01:00"
 * #DSM231 ^property[+].code = #dateMaj
-* #DSM231 ^property[=].valueDateTime = "2016-09-01T00:00:00+01:00"
+* #DSM231 ^property[=].valueDateTime = "2024-12-13T00:00:00+01:00"
 * #DSM232 "Radiopharmacie et radiobiologie (DNQ)"
 * #DSM232 ^designation[0].language = #fr-FR
 * #DSM232 ^designation[=].use.system = "http://snomed.info/sct"
@@ -794,7 +794,7 @@ Description: "Ensemble Savoir-faire CI-SIS (TRE provisoire)"
 * #DSM232 ^property[0].code = #dateValid
 * #DSM232 ^property[=].valueDateTime = "2012-04-12T00:00:00+01:00"
 * #DSM232 ^property[+].code = #dateMaj
-* #DSM232 ^property[=].valueDateTime = "2016-09-01T00:00:00+01:00"
+* #DSM232 ^property[=].valueDateTime = "2024-12-13T00:00:00+01:00"
 * #DSM233 "Réanimation médicale (DNQ)"
 * #DSM233 ^designation[0].language = #fr-FR
 * #DSM233 ^designation[=].use.system = "http://snomed.info/sct"
@@ -802,7 +802,7 @@ Description: "Ensemble Savoir-faire CI-SIS (TRE provisoire)"
 * #DSM233 ^property[0].code = #dateValid
 * #DSM233 ^property[=].valueDateTime = "2012-04-12T00:00:00+01:00"
 * #DSM233 ^property[+].code = #dateMaj
-* #DSM233 ^property[=].valueDateTime = "2016-09-01T00:00:00+01:00"
+* #DSM233 ^property[=].valueDateTime = "2024-12-13T00:00:00+01:00"
 * #DSM234 "Toxicologie biologique (DNQ)"
 * #DSM234 ^designation[0].language = #fr-FR
 * #DSM234 ^designation[=].use.system = "http://snomed.info/sct"
@@ -810,7 +810,7 @@ Description: "Ensemble Savoir-faire CI-SIS (TRE provisoire)"
 * #DSM234 ^property[0].code = #dateValid
 * #DSM234 ^property[=].valueDateTime = "2012-04-12T00:00:00+01:00"
 * #DSM234 ^property[+].code = #dateMaj
-* #DSM234 ^property[=].valueDateTime = "2016-09-01T00:00:00+01:00"
+* #DSM234 ^property[=].valueDateTime = "2024-12-13T00:00:00+01:00"
 * #DSM235 "Médecine de la douleur et Médecine palliative (DNQ)"
 * #DSM235 ^designation[0].language = #fr-FR
 * #DSM235 ^designation[=].use.system = "http://snomed.info/sct"
@@ -818,7 +818,7 @@ Description: "Ensemble Savoir-faire CI-SIS (TRE provisoire)"
 * #DSM235 ^property[0].code = #dateValid
 * #DSM235 ^property[=].valueDateTime = "2016-09-01T00:00:00+01:00"
 * #DSM235 ^property[+].code = #dateMaj
-* #DSM235 ^property[=].valueDateTime = "2016-09-01T00:00:00+01:00"
+* #DSM235 ^property[=].valueDateTime = "2024-12-13T00:00:00+01:00"
 * #DSM236 "Cancérologie, option Traitements médicaux des cancers (DNQ)"
 * #DSM236 ^designation[0].language = #fr-FR
 * #DSM236 ^designation[=].use.system = "http://snomed.info/sct"
@@ -826,7 +826,7 @@ Description: "Ensemble Savoir-faire CI-SIS (TRE provisoire)"
 * #DSM236 ^property[0].code = #dateValid
 * #DSM236 ^property[=].valueDateTime = "2016-09-01T00:00:00+01:00"
 * #DSM236 ^property[+].code = #dateMaj
-* #DSM236 ^property[=].valueDateTime = "2016-09-01T00:00:00+01:00"
+* #DSM236 ^property[=].valueDateTime = "2024-12-13T00:00:00+01:00"
 * #DSM237 "Cancérologie, option Chirurgie cancérologique (DNQ)"
 * #DSM237 ^designation[0].language = #fr-FR
 * #DSM237 ^designation[=].use.system = "http://snomed.info/sct"
@@ -834,7 +834,7 @@ Description: "Ensemble Savoir-faire CI-SIS (TRE provisoire)"
 * #DSM237 ^property[0].code = #dateValid
 * #DSM237 ^property[=].valueDateTime = "2016-09-01T00:00:00+01:00"
 * #DSM237 ^property[+].code = #dateMaj
-* #DSM237 ^property[=].valueDateTime = "2016-09-01T00:00:00+01:00"
+* #DSM237 ^property[=].valueDateTime = "2024-12-13T00:00:00+01:00"
 * #DSM238 "Cancérologie, option Réseaux de cancérologie (DNQ)"
 * #DSM238 ^designation[0].language = #fr-FR
 * #DSM238 ^designation[=].use.system = "http://snomed.info/sct"
@@ -842,7 +842,7 @@ Description: "Ensemble Savoir-faire CI-SIS (TRE provisoire)"
 * #DSM238 ^property[0].code = #dateValid
 * #DSM238 ^property[=].valueDateTime = "2016-09-01T00:00:00+01:00"
 * #DSM238 ^property[+].code = #dateMaj
-* #DSM238 ^property[=].valueDateTime = "2016-09-01T00:00:00+01:00"
+* #DSM238 ^property[=].valueDateTime = "2024-12-13T00:00:00+01:00"
 * #DSM239 "Cancérologie, option Biologie cancérologie (DNQ)"
 * #DSM239 ^designation[0].language = #fr-FR
 * #DSM239 ^designation[=].use.system = "http://snomed.info/sct"
@@ -850,7 +850,7 @@ Description: "Ensemble Savoir-faire CI-SIS (TRE provisoire)"
 * #DSM239 ^property[0].code = #dateValid
 * #DSM239 ^property[=].valueDateTime = "2016-09-01T00:00:00+01:00"
 * #DSM239 ^property[+].code = #dateMaj
-* #DSM239 ^property[=].valueDateTime = "2016-09-01T00:00:00+01:00"
+* #DSM239 ^property[=].valueDateTime = "2024-12-13T00:00:00+01:00"
 * #DSM240 "Cancérologie, option Imagerie cancérologie (DNQ)"
 * #DSM240 ^designation[0].language = #fr-FR
 * #DSM240 ^designation[=].use.system = "http://snomed.info/sct"
@@ -858,7 +858,7 @@ Description: "Ensemble Savoir-faire CI-SIS (TRE provisoire)"
 * #DSM240 ^property[0].code = #dateValid
 * #DSM240 ^property[=].valueDateTime = "2016-09-01T00:00:00+01:00"
 * #DSM240 ^property[+].code = #dateMaj
-* #DSM240 ^property[=].valueDateTime = "2016-09-01T00:00:00+01:00"
+* #DSM240 ^property[=].valueDateTime = "2024-12-13T00:00:00+01:00"
 * #PAC00 "Qualification Praticien adjoint contractuel (PAC)"
 * #PAC00 ^designation[0].language = #fr-FR
 * #PAC00 ^designation[=].use.system = "http://snomed.info/sct"
@@ -866,7 +866,7 @@ Description: "Ensemble Savoir-faire CI-SIS (TRE provisoire)"
 * #PAC00 ^property[0].code = #dateValid
 * #PAC00 ^property[=].valueDateTime = "2012-04-12T00:00:00+01:00"
 * #PAC00 ^property[+].code = #dateMaj
-* #PAC00 ^property[=].valueDateTime = "2016-09-01T00:00:00+01:00"
+* #PAC00 ^property[=].valueDateTime = "2024-12-13T00:00:00+01:00"
 * #SCD01 "Orthopédie dento-faciale (SCD)"
 * #SCD01 ^designation[0].language = #fr-FR
 * #SCD01 ^designation[=].use.system = "http://snomed.info/sct"
@@ -874,7 +874,7 @@ Description: "Ensemble Savoir-faire CI-SIS (TRE provisoire)"
 * #SCD01 ^property[0].code = #dateValid
 * #SCD01 ^property[=].valueDateTime = "2012-04-12T00:00:00+01:00"
 * #SCD01 ^property[+].code = #dateMaj
-* #SCD01 ^property[=].valueDateTime = "2016-09-01T00:00:00+01:00"
+* #SCD01 ^property[=].valueDateTime = "2024-12-13T00:00:00+01:00"
 * #SCD02 "Chirurgie orale (SCD)"
 * #SCD02 ^designation[0].language = #fr-FR
 * #SCD02 ^designation[=].use.system = "http://snomed.info/sct"
@@ -882,7 +882,7 @@ Description: "Ensemble Savoir-faire CI-SIS (TRE provisoire)"
 * #SCD02 ^property[0].code = #dateValid
 * #SCD02 ^property[=].valueDateTime = "2012-04-12T00:00:00+01:00"
 * #SCD02 ^property[+].code = #dateMaj
-* #SCD02 ^property[=].valueDateTime = "2016-09-01T00:00:00+01:00"
+* #SCD02 ^property[=].valueDateTime = "2024-12-13T00:00:00+01:00"
 * #SCD03 "Médecine bucco-dentaire (SCD)"
 * #SCD03 ^designation[0].language = #fr-FR
 * #SCD03 ^designation[=].use.system = "http://snomed.info/sct"
@@ -890,7 +890,7 @@ Description: "Ensemble Savoir-faire CI-SIS (TRE provisoire)"
 * #SCD03 ^property[0].code = #dateValid
 * #SCD03 ^property[=].valueDateTime = "2012-04-12T00:00:00+01:00"
 * #SCD03 ^property[+].code = #dateMaj
-* #SCD03 ^property[=].valueDateTime = "2016-09-01T00:00:00+01:00"
+* #SCD03 ^property[=].valueDateTime = "2024-12-13T00:00:00+01:00"
 * #SCH01 "Anatomie et Cytologie pathologiques (SCH)"
 * #SCH01 ^designation[0].language = #fr-FR
 * #SCH01 ^designation[=].use.system = "http://snomed.info/sct"
