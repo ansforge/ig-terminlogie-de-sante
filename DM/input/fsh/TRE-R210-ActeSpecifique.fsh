@@ -12350,11 +12350,11 @@ Description: "Action menée par un ou plusieurs acteur(s) de santé dans le cadr
 * #1453 ^property[=].valueDateTime = "2024-06-28T12:00:00+01:00"
 * #1453 ^property[+].code = #dateMaj
 * #1453 ^property[=].valueDateTime = "2024-06-28T12:00:00+01:00"
-* #1454 "Evaluation et suivi standardisé des commotions cérébrales"
+* #1454 "Evaluation et suivi standardisé clinique et paraclinique des commotions cérébrales (Traumatisme Crânien Léger - TCL)"
 * #1454 ^designation[0].language = #fr-FR
 * #1454 ^designation[=].use.system = "http://snomed.info/sct"
 * #1454 ^designation[=].use = $sct#900000000000013009
-* #1454 ^designation[=].value = "Evaluation et suivi standardisé clinique et paraclinique des commotions cérébrales (Traumatisme Crânien Léger - TCL)"
+* #1454 ^designation[=].value = "Evaluation et suivi standardisé des commotions cérébrales"
 * #1454 ^property[0].code = #dateValid
 * #1454 ^property[=].valueDateTime = "2024-06-28T12:00:00+01:00"
 * #1454 ^property[+].code = #dateMaj
