@@ -13083,9 +13083,9 @@
                   dateFin=""
                   dateMaj="20241209120000"
                   dateValid="20240628120000"
-                  displayName="Evaluation et suivi standardisé des commotions cérébrales"
-                  longDesignation="Evaluation et suivi standardisé clinique et paraclinique des commotions cérébrales (Traumatisme Crânien Léger - TCL)"
-                  shortDesignation="Evaluation et suivi standardisé des commotions cérébrales"
+                  displayName="Evaluation et suivi standardisé clinique et paraclinique des commotions cérébrales (Traumatisme Crânien Léger - TCL)"
+                  longDesignation="Evaluation et suivi standardisé des commotions cérébrales"
+                  shortDesignation="Evaluation et suivi standardisé clinique et paraclinique des commotions cérébrales (Traumatisme Crânien Léger - TCL)"
                   descriptionMetier=""/>
          <concept code="1455"
                   codeSystem="1.2.250.1.213.3.3.11"
