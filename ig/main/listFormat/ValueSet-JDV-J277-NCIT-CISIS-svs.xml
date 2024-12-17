@@ -2,13 +2,13 @@
 <RetrieveValueSetResponse xmlns="urn:ihe:iti:svs:2008"
                           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
    <ValueSet dateFin=""
-             dateMaj="20240927120000"
+             dateMaj="20241213120000"
              dateValid="20240927120000"
              description="Termes NCIT utilisés"
              displayName="JDV_J277_NCIT_CISIS"
              id="1.2.250.1.213.1.1.5.796"
              typeFichier="JDV"
-             urlFichier="https://mos.esante.gouv.fr/NOS/JDV_J270-NCIT-CISIS">
+             urlFichier="https://mos.esante.gouv.fr/NOS/JDV_J277-NCIT-CISIS">
       <ConceptList>
          <concept code="C81261" codeSystem="" displayName="ruban à mesurer"/>
          <concept code="C21082"

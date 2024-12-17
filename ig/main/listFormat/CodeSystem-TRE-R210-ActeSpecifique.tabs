@@ -1,5 +1,5 @@
 <OID>;<Type fichier>;<Nom fichier>;<Description>;<URL fichier>;<Date valid>;<Date fin>;<Date MAJ>
-1.2.250.1.213.3.3.11;TRE;TRE_R210_ActeSpecifique.tabs;Action menée par un ou plusieurs acteur(s) de santé dans le cadre d'une activité. Cet acte peut correspondre à une technique spécialisée ou traduire une expertise discriminante dans le parcours de santé.;https://mos.esante.gouv.fr/NOS/TRE_R210-ActeSpecifique;20150408000000;;20241025120000
+1.2.250.1.213.3.3.11;TRE;TRE_R210_ActeSpecifique.tabs;Action menée par un ou plusieurs acteur(s) de santé dans le cadre d'une activité. Cet acte peut correspondre à une technique spécialisée ou traduire une expertise discriminante dans le parcours de santé.;https://mos.esante.gouv.fr/NOS/TRE_R210-ActeSpecifique;20150408000000;;20241213120000
 <OID>;<Code>;<Libellé adapté>;<Libellé court>;<Libellé long>;<Date valid>;<Date fin>;<Date MAJ> 
 1.2.250.1.213.3.3.11;0001;Ablation par radiofréquence de trouble du rythme et de conduction;1;Ablation par radiofréquence de trouble du rythme et de conduction;20150408000000;;20150408000000
 1.2.250.1.213.3.3.11;0002;Accident vasculaire cérébral aigu (AVC);2;Accident vasculaire cérébral aigu (AVC);20150408000000;20180126120000;20180126120000
@@ -535,7 +535,7 @@
 1.2.250.1.213.3.3.11;0532;Sleeve gastrectomie;532;Sleeve gastrectomie;20161102000000;20221028120000;20221028120000
 1.2.250.1.213.3.3.11;0533;Bypass gastrique;533;Bypass gastrique;20161102000000;;20161102000000
 1.2.250.1.213.3.3.11;0534;Chirurgie plastique, esthétique de reconstruction (abdominoplastie);534;Chirurgie plastique, esthétique de reconstruction (abdominoplastie);20161102000000;20180126120000;20180126120000
-1.2.250.1.213.3.3.11;0535;Prise en charge de l'obésité modérée;535;Prise en charge de l'obésité modérée;20161102000000;;20161102000000
+1.2.250.1.213.3.3.11;0535;Prise en charge de l'obésité modérée;535;Prise en charge de l'obésité modérée;20161102000000;20241213120000;20241213120000
 1.2.250.1.213.3.3.11;0536;Prise en charge de l'obésité sévère;536;Prise en charge de l'obésité sévère;20161102000000;;20161102000000
 1.2.250.1.213.3.3.11;0537;Prise en charge de l'obésité morbide;537;Prise en charge de l'obésité morbide;20161102000000;;20161102000000
 1.2.250.1.213.3.3.11;0538;Thérapie de groupe ou atelier à médiation orale et-ou écrite;538;Thérapie de groupe ou atelier à médiation orale et-ou écrite (groupe de parole, d'écriture);20161102000000;;20170707100000
@@ -745,7 +745,7 @@
 1.2.250.1.213.3.3.11;0742;Actions de prévention primaire;742;Actions de prévention primaire (pour éviter la survenue d'un problème de santé);20180330120000;;20180330120000
 1.2.250.1.213.3.3.11;0743;Actions de prévention secondaire;743;Actions de prévention secondaire (pour atténuer ou supprimer un problème de santé);20180330120000;;20180330120000
 1.2.250.1.213.3.3.11;0744;Actions de prévention tertiaire;744;Actions de prévention tertiaire (pour éviter l'aggravation ou la chronicisation d'un problème de santé);20180330120000;;20180330120000
-1.2.250.1.213.3.3.11;0745;Réadaptation des séquelles de brûlures;745;Réadaptation des séquelles de brûlures;20180330120000;;20240927120000
+1.2.250.1.213.3.3.11;0745;Réadaptation des séquelles de brûlures;745;Réadaptation des séquelles de brûlures;20180330120000;20241213120000;20241213120000
 1.2.250.1.213.3.3.11;0746;Evaluation et prise en charge des séquelles de brûlures;746;Evaluation et prise en charge des séquelles de brûlures;20180330120000;;20180330120000
 1.2.250.1.213.3.3.11;0747;Bilan de la mastication et/ou de la déglutition;747;Bilan de la mastication et/ou de la déglutition;20180330120000;20180629120000;20180629120000
 1.2.250.1.213.3.3.11;0748;Suivi diététique individualisé;748;Suivi diététique individualisé;20180330120000;;20180330120000
@@ -1106,7 +1106,7 @@
 1.2.250.1.213.3.3.11;1103;Infiltration articulaire, péri-tendineuse et péri-nerveuse sans guidage imagerie;Infiltration articulaire, péri-tendineuse et péri-nerveuse sans guidage imagerie;Infiltration articulaire, péri-tendineuse et péri-nerveuse sans guidage par imagerie;20220624120000;;20230127120000
 1.2.250.1.213.3.3.11;1104;Infiltration du Hiatus sacro-coccygien;Infiltration du Hiatus sacro-coccygien;Infiltration du Hiatus sacro-coccygien;20220624120000;;20221028120000
 1.2.250.1.213.3.3.11;1105;Réadaptation des affections malformatives du système musculo-squelettique;Réadaptation des affections malformatives du système musculo-squelettique;Réadaptation des affections malformatives du système musculo-squelettique;20220624120000;;20220624120000
-1.2.250.1.213.3.3.11;1106;Réadaptation des affections médullaires;Réadaptation des affections médullaires;Réadaptation des affections médullaires;20220624120000;;20220624120000
+1.2.250.1.213.3.3.11;1106;Réadaptation des affections médullaires;Réadaptation des affections médullaires;Réadaptation des affections médullaires;20220624120000;20241213120000;20241213120000
 1.2.250.1.213.3.3.11;1107;Réadaptation des lésions cérébrales acquises;Réadaptation des lésions cérébrales acquises;Réadaptation des lésions cérébrales acquises;20220624120000;;20220624120000
 1.2.250.1.213.3.3.11;1108;Réadaptation des paralysies cérébrales et polyhandicaps;Réadaptation des paralysies cérébrales et polyhandicaps;Réadaptation des paralysies cérébrales et polyhandicaps;20220624120000;;20220624120000
 1.2.250.1.213.3.3.11;1109;Réadaptation des troubles neuro-développementaux;Réadaptation des troubles neuro-développementaux;Réadaptation des troubles neuro-développementaux;20220624120000;;20220624120000
@@ -1186,7 +1186,7 @@
 1.2.250.1.213.3.3.11;1183;Drainage organes profonds abdominaux;Drainage organes profonds abdominaux;Drainage organes profonds abdominaux;20221028120000;;20221028120000
 1.2.250.1.213.3.3.11;1184;Echodoppler artériel / veineux;Echodoppler artériel / veineux;Echodoppler artériel / veineux;20221028120000;20241025120000;20241025120000
 1.2.250.1.213.3.3.11;1185;Echo-doppler artériel de l'aorte;Echo-doppler artériel de l'aorte;Echo-doppler artériel de l'aorte;20221028120000;;20221028120000
-1.2.250.1.213.3.3.11;1186;Echographie clinique ciblée;Echographie clinique ciblée;Echographie clinique ciblée;20221028120000;;20241025120000
+1.2.250.1.213.3.3.11;1186;Echographie clinique ciblée;Echographie clinique ciblée;Echographie clinique ciblée;20221028120000;;20241213120000
 1.2.250.1.213.3.3.11;1187;Échographie pelvienne pour PMA (compte folliculaire);Échographie pelvienne pour PMA (compte folliculaire);Échographie pelvienne pour procréation médicalement assistée (PMA) (compte folliculaire);20221028120000;;20230526120000
 1.2.250.1.213.3.3.11;1188;Echographie thyroïdienne;Echographie thyroïdienne;Echographie thyroïdienne;20221028120000;;20221028120000
 1.2.250.1.213.3.3.11;1189;Elasto-IRM hépatique;Elasto-IRM hépatique;Elasto-IRM hépatique;20221028120000;;20221028120000
@@ -1453,9 +1453,9 @@
 1.2.250.1.213.3.3.11;1451;Accompagnement infirmier au changement;Accompagnement infirmier au changement;Accompagnement infirmier au changement (état de santé, étapes de vie, environnement, deuil);20240628120000;;20240927120000
 1.2.250.1.213.3.3.11;1452;Soins infirmiers d'hémodialyse;Soins infirmiers d'hémodialyse;Soins infirmiers d'hémodialyse;20240628120000;;20240628120000
 1.2.250.1.213.3.3.11;1453;Repérage, accompagnement des troubles (neuro)développementaux et comportementaux;Repérage, accompagnement des troubles (neuro)développementaux et comportementaux;Suivi, repérage précoce et accompagnement du développement psychomoteur, des troubles de comportement et des Troubles Neuro Développementaux;20240628120000;;20240628120000
-1.2.250.1.213.3.3.11;1454;Evaluation et suivi standardisé des commotions cérébrales;Evaluation et suivi standardisé des commotions cérébrales;Evaluation et suivi standardisé clinique et paraclinique des commotions cérébrales;20240628120000;;20240927120000
+1.2.250.1.213.3.3.11;1454;Evaluation et suivi standardisé des commotions cérébrales;Evaluation et suivi standardisé des commotions cérébrales;Evaluation et suivi standardisé clinique et paraclinique des commotions cérébrales (Traumatisme Crânien Léger - TCL);20240628120000;;20241213120000
 1.2.250.1.213.3.3.11;1455;Soins et surveillance d'administration de traitement hémophilique;Soins et surveillance d'administration de traitement hémophilique;Soins et surveillance d'administration de traitement hémophilique;20240628120000;;20240927120000
-1.2.250.1.213.3.3.11;1456;Soins et surveillance de remplissage de pompe à morphine;Soins et surveillance de remplissage de pompe à morphine;Soins et surveillance de remplissage de pompe à morphine;20240628120000;;20240927120000
+1.2.250.1.213.3.3.11;1456;Soins et surveillance de remplissage de pompe à antalgique (dont morphine);Soins et surveillance de remplissage de pompe à antalgique (dont morphine);Soins et surveillance de remplissage de pompe à antalgique (dont morphine);20240628120000;;20241213120000
 1.2.250.1.213.3.3.11;1457;Visite à domicile infirmière puéricultrice post-natale;Visite à domicile infirmière puéricultrice post-natale;Visite à domicile infirmière puéricultrice post-natale;20240628120000;;20240628120000
 1.2.250.1.213.3.3.11;1458;Exploration vasculaire d'effort maximum chez le sportif;Exploration vasculaire d'effort maximum chez le sportif;Exploration vasculaire d'effort maximum chez le sportif;20240628120000;;20240628120000
 1.2.250.1.213.3.3.11;1459;Laximétrie dynamique automatisée du genou (LDA);Laximétrie dynamique automatisée du genou (LDA);Laximétrie dynamique automatisée du genou (LDA);20240628120000;;20240628120000
@@ -1473,7 +1473,7 @@
 1.2.250.1.213.3.3.11;1471;Test de provocation à l'asthme d'effort;Test de provocation à l'asthme d'effort;Test de provocation à l'asthme d'effort;20240927120000;;20240927120000
 1.2.250.1.213.3.3.11;1472;Soins et surveillance des cathéters centraux (picc-line);Soins et surveillance des cathéters centraux (picc-line);Soins et surveillance des cathéters centraux par insertion périphérique (picc-line);20240927120000;;20240927120000
 1.2.250.1.213.3.3.11;1473;Soins et surveillance des cathéters périnerveux;Soins et surveillance des cathéters périnerveux;Soins et surveillance des cathéters périnerveux;20240927120000;;20240927120000
-1.2.250.1.213.3.3.11;1474;Télésoin;Télésoin;Télésoin;20240927120000;;20240927120000
+1.2.250.1.213.3.3.11;1474;Télésoin;Télésoin;Télésoin;20240927120000;;20241213120000
 1.2.250.1.213.3.3.11;1475;Analyse tridimensionnelle du mouvement, de la marche;Analyse tridimensionnelle du mouvement, de la marche;Analyse tridimensionnelle du mouvement, de la marche;20240927120000;;20240927120000
 1.2.250.1.213.3.3.11;1476;Accès direct IPA, kinésithérapeute, orthophoniste;Accès direct IPA, kinésithérapeute, orthophoniste;Accès direct Infirmier en Pratique Avancée (IPA), kinésithérapeute, orthophoniste;20240927120000;;20240927120000
 1.2.250.1.213.3.3.11;1477;Prise en charge de la bronchiolite du nourrisson;Prise en charge de la bronchiolite du nourrisson;Prise en charge de la bronchiolite du nourrisson;20240927120000;;20240927120000
@@ -1487,3 +1487,8 @@
 1.2.250.1.213.3.3.11;1485;Télésurveillance médicale de l'insuffisance respiratoire;Télésurveillance médicale de l'insuffisance respiratoire;Télésurveillance médicale de l'insuffisance respiratoire;20241025120000;;20241025120000
 1.2.250.1.213.3.3.11;1486;Télésurveillance médicale du diabète;Télésurveillance médicale du diabète;Télésurveillance médicale du diabète;20241025120000;;20241025120000
 1.2.250.1.213.3.3.11;1487;Télésurveillance médicale en oncologie;Télésurveillance médicale en oncologie;Télésurveillance médicale en oncologie;20241025120000;;20241025120000
+1.2.250.1.213.3.3.11;1488;Electrostimulation fonctionnelle urologique;Electrostimulation fonctionnelle urologique;Electrostimulation fonctionnelle urologique;20241213120000;;20241213120000
+1.2.250.1.213.3.3.11;1489;Filière Obésité - Niveau 1 (Conventionné CSO);Filière Obésité - Niveau 1 (Conventionné CSO);Filière Obésité - Niveau 1 (Conventionné CSO);20241213120000;;20241213120000
+1.2.250.1.213.3.3.11;1490;Filière Obésité - Niveau 2 (Conventionné CSO);Filière Obésité - Niveau 2 (Conventionné CSO);Filière Obésité - Niveau 2 (Conventionné CSO);20241213120000;;20241213120000
+1.2.250.1.213.3.3.11;1491;Filière Obésité - Niveau 3 (Conventionné CSO);Filière Obésité - Niveau 3 (Conventionné CSO);Filière Obésité - Niveau 3 (Conventionné CSO);20241213120000;;20241213120000
+1.2.250.1.213.3.3.11;1492;Filière Obésité - Niveau 3 (Centre Spécialisé Obésité);Filière Obésité - Niveau 3 (Centre Spécialisé Obésité);Filière Obésité - Niveau 3 (Centre Spécialisé Obésité);20241213120000;;20241213120000

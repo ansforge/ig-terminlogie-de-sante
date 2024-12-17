@@ -35,7 +35,7 @@
   fhir:title [ fhir:v "Classification internationale des maladies (11eme révision). Linéarisation pour les statistiques de morbi-mortalité"] ; # 
   fhir:status [ fhir:v "active"] ; # 
   fhir:experimental [ fhir:v "false"^^xsd:boolean] ; # 
-  fhir:date [ fhir:v "2024-12-16T15:27:51+00:00"^^xsd:dateTime] ; # 
+  fhir:date [ fhir:v "2024-12-17T04:29:38+00:00"^^xsd:dateTime] ; # 
   fhir:publisher [ fhir:v "Agence du numérique en santé"] ; # 
   fhir:valueSet [
      fhir:v "https://smt.esante.gouv.fr/terminologie-cim11-mms?vs"^^xsd:anyURI ;

@@ -2,7 +2,7 @@
 <RetrieveValueSetResponse xmlns="urn:ihe:iti:svs:2008"
                           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
    <ValueSet dateFin=""
-             dateMaj="20241025120000"
+             dateMaj="20241213120000"
              dateValid="20160901000000"
              description="Acte spécifique - ROR"
              displayName="JDV_J16_ActeSpecifique_ROR"
@@ -892,9 +892,6 @@
          <concept code="0533"
                   codeSystem="1.2.250.1.213.3.3.11"
                   displayName="Bypass gastrique"/>
-         <concept code="0535"
-                  codeSystem="1.2.250.1.213.3.3.11"
-                  displayName="Prise en charge de l'obésité modérée"/>
          <concept code="0536"
                   codeSystem="1.2.250.1.213.3.3.11"
                   displayName="Prise en charge de l'obésité sévère"/>
@@ -1387,9 +1384,6 @@
          <concept code="0744"
                   codeSystem="1.2.250.1.213.3.3.11"
                   displayName="Actions de prévention tertiaire (pour éviter l'aggravation ou la chronicisation d'un problème de santé)"/>
-         <concept code="0745"
-                  codeSystem="1.2.250.1.213.3.3.11"
-                  displayName="Réadaptation des séquelles de brûlures"/>
          <concept code="0746"
                   codeSystem="1.2.250.1.213.3.3.11"
                   displayName="Evaluation et prise en charge des séquelles de brûlures"/>
@@ -2329,9 +2323,6 @@
          <concept code="1105"
                   codeSystem="1.2.250.1.213.3.3.11"
                   displayName="Réadaptation des affections malformatives du système musculo-squelettique"/>
-         <concept code="1106"
-                  codeSystem="1.2.250.1.213.3.3.11"
-                  displayName="Réadaptation des affections médullaires"/>
          <concept code="1107"
                   codeSystem="1.2.250.1.213.3.3.11"
                   displayName="Réadaptation des lésions cérébrales acquises"/>
@@ -3321,13 +3312,13 @@
                   displayName="Suivi, repérage précoce et accompagnement du développement psychomoteur, des troubles de comportement et des Troubles Neuro Développementaux"/>
          <concept code="1454"
                   codeSystem="1.2.250.1.213.3.3.11"
-                  displayName="Evaluation et suivi standardisé clinique et paraclinique des commotions cérébrales"/>
+                  displayName="Evaluation et suivi standardisé clinique et paraclinique des commotions cérébrales (Traumatisme Crânien Léger - TCL)"/>
          <concept code="1455"
                   codeSystem="1.2.250.1.213.3.3.11"
                   displayName="Soins et surveillance d'administration de traitement hémophilique"/>
          <concept code="1456"
                   codeSystem="1.2.250.1.213.3.3.11"
-                  displayName="Soins et surveillance de remplissage de pompe à morphine"/>
+                  displayName="Soins et surveillance de remplissage de pompe à antalgique (dont morphine)"/>
          <concept code="1457"
                   codeSystem="1.2.250.1.213.3.3.11"
                   displayName="Visite à domicile infirmière puéricultrice post-natale"/>
@@ -3421,6 +3412,21 @@
          <concept code="1487"
                   codeSystem="1.2.250.1.213.3.3.11"
                   displayName="Télésurveillance médicale en oncologie"/>
+         <concept code="1488"
+                  codeSystem="1.2.250.1.213.3.3.11"
+                  displayName="Electrostimulation fonctionnelle urologique"/>
+         <concept code="1489"
+                  codeSystem="1.2.250.1.213.3.3.11"
+                  displayName="Filière Obésité - Niveau 1 (Conventionné CSO)"/>
+         <concept code="1490"
+                  codeSystem="1.2.250.1.213.3.3.11"
+                  displayName="Filière Obésité - Niveau 2 (Conventionné CSO)"/>
+         <concept code="1491"
+                  codeSystem="1.2.250.1.213.3.3.11"
+                  displayName="Filière Obésité - Niveau 3 (Conventionné CSO)"/>
+         <concept code="1492"
+                  codeSystem="1.2.250.1.213.3.3.11"
+                  displayName="Filière Obésité - Niveau 3 (Centre Spécialisé Obésité)"/>
       </ConceptList>
    </ValueSet>
 </RetrieveValueSetResponse>

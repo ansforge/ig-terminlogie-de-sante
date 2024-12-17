@@ -2,7 +2,7 @@
 <RetrieveValueSetResponse xmlns="urn:ihe:iti:svs:2008"
                           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
    <ValueSet dateFin=""
-             dateMaj="20241025120000"
+             dateMaj="20241213120000"
              dateValid="20160901000000"
              description="Activité Operationnelle - ROR"
              displayName="JDV_J17_ActiviteOperationnelle_ROR"
@@ -283,7 +283,7 @@
                   displayName="Réanimation médicale"/>
          <concept code="127"
                   codeSystem="1.2.250.1.213.3.3.12"
-                  displayName="Réanimation médico-chirurgicale (polyvalente)"/>
+                  displayName="Réanimation polyvalente"/>
          <concept code="128"
                   codeSystem="1.2.250.1.213.3.3.12"
                   displayName="Réanimation spécialisée néonatale"/>
@@ -874,7 +874,7 @@
                   displayName="Exploration fonctionnelle ophtalmologique"/>
          <concept code="351"
                   codeSystem="1.2.250.1.213.3.3.12"
-                  displayName="Soins intensifs médico-chirurgicaux (polyvalent)"/>
+                  displayName="Soins intensifs polyvalents"/>
          <concept code="352"
                   codeSystem="1.2.250.1.213.3.3.12"
                   displayName="Soins intensifs chirurgicaux"/>
@@ -937,7 +937,7 @@
                   displayName="Soins intensifs spécialisés neurochirurgicaux"/>
          <concept code="373"
                   codeSystem="1.2.250.1.213.3.3.12"
-                  displayName="Surveillance continue médico-chirurgicale (polyvalente)"/>
+                  displayName="Surveillance continue polyvalente"/>
          <concept code="374"
                   codeSystem="1.2.250.1.213.3.3.12"
                   displayName="Surveillance continue chirurgicale"/>
@@ -1081,7 +1081,7 @@
                   displayName="Kinésithérapie orientation Système musculo-squelettique (traumatologie, orthopédie)"/>
          <concept code="426"
                   codeSystem="1.2.250.1.213.3.3.12"
-                  displayName="Kinésithérapie orientation Lésions cutanées et cicatrices (dermatologie)"/>
+                  displayName="Kinésithérapie orientation Lésions cutanées et cicatrices (dermatologie, brûlés)"/>
          <concept code="427"
                   codeSystem="1.2.250.1.213.3.3.12"
                   displayName="Kinésithérapie orientation Sport"/>

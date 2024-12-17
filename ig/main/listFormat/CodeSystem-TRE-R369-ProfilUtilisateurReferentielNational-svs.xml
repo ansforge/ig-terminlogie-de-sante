@@ -2,7 +2,7 @@
 <RetrieveValueSetResponse xmlns="urn:ihe:iti:svs:2008"
                           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
    <ValueSet dateFin=""
-             dateMaj="20241025120000"
+             dateMaj="20241213120000"
              dateValid="20241025120000"
              description="Profils utilisateur d'un référentiel national"
              displayName="TRE_R369_ProfilUtilisateurReferentielNational"
@@ -72,6 +72,33 @@
                   displayName="Professionnel de Santé Libéral (PSL)"
                   longDesignation="Professionnel de Santé Libéral (PSL)"
                   shortDesignation="Professionnel de Santé Libéral (PSL)"
+                  descriptionMetier=""/>
+         <concept code="ADMIN_METIER"
+                  codeSystem="1.2.250.1.213.3.3.255"
+                  dateFin=""
+                  dateMaj="20241213120000"
+                  dateValid="20241213120000"
+                  displayName="Administrateur Métier"
+                  longDesignation="Administrateur Métier"
+                  shortDesignation="Administrateur Métier"
+                  descriptionMetier=""/>
+         <concept code="SUPPORT"
+                  codeSystem="1.2.250.1.213.3.3.255"
+                  dateFin=""
+                  dateMaj="20241213120000"
+                  dateValid="20241213120000"
+                  displayName="Support"
+                  longDesignation="Support"
+                  shortDesignation="Support"
+                  descriptionMetier=""/>
+         <concept code="REF_MSP"
+                  codeSystem="1.2.250.1.213.3.3.255"
+                  dateFin=""
+                  dateMaj="20241213120000"
+                  dateValid="20241213120000"
+                  displayName="Référent Maison de Santé Pluriprofessionnelle"
+                  longDesignation="Référent Maison de Santé Pluriprofessionnelle"
+                  shortDesignation="Référent Maison de Santé Pluriprofessionnelle"
                   descriptionMetier=""/>
       </ConceptList>
    </ValueSet>

@@ -2,7 +2,7 @@
 <RetrieveValueSetResponse xmlns="urn:ihe:iti:svs:2008"
                           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
    <ValueSet dateFin=""
-             dateMaj="20240426120000"
+             dateMaj="20241213120000"
              dateValid="20190222120000"
              description="Un service ou un guichet assurant le contact au sein de l'organisation"
              displayName="TRE_R287_NatureContact"
@@ -153,6 +153,15 @@
                   displayName="Cellule opérationnelle de Bed Management"
                   longDesignation="Cellule opérationnelle de Bed Management"
                   shortDesignation="Cellule Bed Management"
+                  descriptionMetier=""/>
+         <concept code="17"
+                  codeSystem="1.2.250.1.213.3.3.67"
+                  dateFin=""
+                  dateMaj="20241213120000"
+                  dateValid="20241213120000"
+                  displayName="Télésoin"
+                  longDesignation="Télésoin"
+                  shortDesignation="Télésoin"
                   descriptionMetier=""/>
       </ConceptList>
    </ValueSet>

@@ -2,7 +2,7 @@
 <RetrieveValueSetResponse xmlns="urn:ihe:iti:svs:2008"
                           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
    <ValueSet dateFin=""
-             dateMaj="20231215120000"
+             dateMaj="20241213120000"
              dateValid="20220930120000"
              description="Modalités d'accueil"
              displayName="TRE_R338_ModaliteAccueil"
@@ -117,6 +117,24 @@
                   displayName="Téléexpertise en plus de 7 jours"
                   longDesignation="Téléexpertise en plus de 7 jours"
                   shortDesignation="Téléexpertise + de 7 jours"
+                  descriptionMetier=""/>
+         <concept code="13"
+                  codeSystem="1.2.250.1.213.3.3.221"
+                  dateFin=""
+                  dateMaj="20241213120000"
+                  dateValid="20241213120000"
+                  displayName="Admission directe non programmée - personne âgée (PA)"
+                  longDesignation="Admission directe non programmée - personne âgée (PA)"
+                  shortDesignation="Admission directe np - PA"
+                  descriptionMetier=""/>
+         <concept code="14"
+                  codeSystem="1.2.250.1.213.3.3.221"
+                  dateFin=""
+                  dateMaj="20241213120000"
+                  dateValid="20241213120000"
+                  displayName="Télésoin"
+                  longDesignation="Télésoin"
+                  shortDesignation="Télésoin"
                   descriptionMetier=""/>
       </ConceptList>
    </ValueSet>

@@ -2,7 +2,7 @@
 <RetrieveValueSetResponse xmlns="urn:ihe:iti:svs:2008"
                           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
    <ValueSet dateFin=""
-             dateMaj="20241025120000"
+             dateMaj="20241213120000"
              dateValid="20150101000000"
              description="Rôle dans la prise en charge des patients ou des usagers"
              displayName="TRE_R85_RolePriseCharge"
@@ -282,8 +282,8 @@
                   descriptionMetier="CASF Articles D451-88 à D451-93 https://www.insee.fr/fr/metadonnees/pcsese2017/rubriqueRegroupee/422e?champRecherche=true"/>
          <concept code="330"
                   codeSystem="1.2.250.1.213.1.6.1.107"
-                  dateFin="20220624120000"
-                  dateMaj="20220624120000"
+                  dateFin=""
+                  dateMaj="20241213120000"
                   dateValid="20211029120000"
                   displayName="Coordonnateur de parcours"
                   longDesignation="Coordonnateur de parcours"

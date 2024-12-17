@@ -9,8 +9,8 @@
   fhir:nodeRole fhir:treeRoot ;
   fhir:id [ fhir:v "JDV-J221-NatureContact-ROR"] ; # 
   fhir:meta [
-     fhir:versionId [ fhir:v "3" ] ;
-     fhir:lastUpdated [ fhir:v "2024-04-27T05:07:24.602+00:00"^^xsd:dateTime ] ;
+     fhir:versionId [ fhir:v "4" ] ;
+     fhir:lastUpdated [ fhir:v "2024-12-16T18:02:14.599+00:00"^^xsd:dateTime ] ;
      fhir:profile ( [
        fhir:v "http://hl7.org/fhir/StructureDefinition/shareablevalueset"^^xsd:anyURI ;
        fhir:link <http://hl7.org/fhir/StructureDefinition/shareablevalueset>
@@ -18,7 +18,7 @@
   ] ; # 
   fhir:text [
      fhir:status [ fhir:v "extensions" ] ;
-     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ValueSet JDV-J221-NatureContact-ROR</b></p><a name=\"JDV-J221-NatureContact-ROR\"> </a><a name=\"hcJDV-J221-NatureContact-ROR\"> </a><a name=\"JDV-J221-NatureContact-ROR-fr-FR\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">version: 3; Last updated: 2024-04-27 05:07:24+0000</p><p style=\"margin-bottom: 0px\">Profile: <a href=\"http://hl7.org/fhir/R4/shareablevalueset.html\">Shareable ValueSet</a></p></div><ul><li>Include these codes as defined in <a href=\"CodeSystem-TRE-R287-NatureContact.html\"><code>https://mos.esante.gouv.fr/NOS/TRE_R287-NatureContact/FHIR/TRE-R287-NatureContact</code></a><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td><a href=\"CodeSystem-TRE-R287-NatureContact.html#TRE-R287-NatureContact-01\">01</a></td><td>Accueil</td><td/></tr><tr><td><a href=\"CodeSystem-TRE-R287-NatureContact.html#TRE-R287-NatureContact-02\">02</a></td><td>Prise de rendez-vous</td><td/></tr><tr><td><a href=\"CodeSystem-TRE-R287-NatureContact.html#TRE-R287-NatureContact-03\">03</a></td><td>Admission</td><td/></tr><tr><td><a href=\"CodeSystem-TRE-R287-NatureContact.html#TRE-R287-NatureContact-04\">04</a></td><td>Médical</td><td/></tr><tr><td><a href=\"CodeSystem-TRE-R287-NatureContact.html#TRE-R287-NatureContact-05\">05</a></td><td>Soignant</td><td/></tr><tr><td><a href=\"CodeSystem-TRE-R287-NatureContact.html#TRE-R287-NatureContact-06\">06</a></td><td>Standard</td><td/></tr><tr><td><a href=\"CodeSystem-TRE-R287-NatureContact.html#TRE-R287-NatureContact-07\">07</a></td><td>Secrétariat</td><td/></tr><tr><td><a href=\"CodeSystem-TRE-R287-NatureContact.html#TRE-R287-NatureContact-08\">08</a></td><td>Alerte-Tension-SSE</td><td/></tr><tr><td><a href=\"CodeSystem-TRE-R287-NatureContact.html#TRE-R287-NatureContact-09\">09</a></td><td>Téléconsultation</td><td/></tr><tr><td><a href=\"CodeSystem-TRE-R287-NatureContact.html#TRE-R287-NatureContact-10\">10</a></td><td>Direction</td><td/></tr><tr><td><a href=\"CodeSystem-TRE-R287-NatureContact.html#TRE-R287-NatureContact-11\">11</a></td><td>Alerte heures ouvrées</td><td/></tr><tr><td><a href=\"CodeSystem-TRE-R287-NatureContact.html#TRE-R287-NatureContact-12\">12</a></td><td>Alerte heures non ouvrées</td><td/></tr><tr><td><a href=\"CodeSystem-TRE-R287-NatureContact.html#TRE-R287-NatureContact-13\">13</a></td><td>Alerte H24</td><td/></tr><tr><td><a href=\"CodeSystem-TRE-R287-NatureContact.html#TRE-R287-NatureContact-14\">14</a></td><td>Garde ou astreinte</td><td/></tr><tr><td><a href=\"CodeSystem-TRE-R287-NatureContact.html#TRE-R287-NatureContact-15\">15</a></td><td>Téléexpertise</td><td>Permet l'enregistrement  du lien vers une plateforme de téléexpertise</td></tr><tr><td><a href=\"CodeSystem-TRE-R287-NatureContact.html#TRE-R287-NatureContact-16\">16</a></td><td>Cellule opérationnelle de Bed Management</td><td/></tr></table></li></ul></div>"
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ValueSet JDV-J221-NatureContact-ROR</b></p><a name=\"JDV-J221-NatureContact-ROR\"> </a><a name=\"hcJDV-J221-NatureContact-ROR\"> </a><a name=\"JDV-J221-NatureContact-ROR-fr-FR\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">version: 4; Last updated: 2024-12-16 18:02:14+0000</p><p style=\"margin-bottom: 0px\">Profile: <a href=\"http://hl7.org/fhir/R4/shareablevalueset.html\">Shareable ValueSet</a></p></div><ul><li>Include these codes as defined in <a href=\"CodeSystem-TRE-R287-NatureContact.html\"><code>https://mos.esante.gouv.fr/NOS/TRE_R287-NatureContact/FHIR/TRE-R287-NatureContact</code></a><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td><a href=\"CodeSystem-TRE-R287-NatureContact.html#TRE-R287-NatureContact-01\">01</a></td><td>Accueil</td><td/></tr><tr><td><a href=\"CodeSystem-TRE-R287-NatureContact.html#TRE-R287-NatureContact-02\">02</a></td><td>Prise de rendez-vous</td><td/></tr><tr><td><a href=\"CodeSystem-TRE-R287-NatureContact.html#TRE-R287-NatureContact-03\">03</a></td><td>Admission</td><td/></tr><tr><td><a href=\"CodeSystem-TRE-R287-NatureContact.html#TRE-R287-NatureContact-04\">04</a></td><td>Médical</td><td/></tr><tr><td><a href=\"CodeSystem-TRE-R287-NatureContact.html#TRE-R287-NatureContact-05\">05</a></td><td>Soignant</td><td/></tr><tr><td><a href=\"CodeSystem-TRE-R287-NatureContact.html#TRE-R287-NatureContact-06\">06</a></td><td>Standard</td><td/></tr><tr><td><a href=\"CodeSystem-TRE-R287-NatureContact.html#TRE-R287-NatureContact-07\">07</a></td><td>Secrétariat</td><td/></tr><tr><td><a href=\"CodeSystem-TRE-R287-NatureContact.html#TRE-R287-NatureContact-08\">08</a></td><td>Alerte-Tension-SSE</td><td/></tr><tr><td><a href=\"CodeSystem-TRE-R287-NatureContact.html#TRE-R287-NatureContact-09\">09</a></td><td>Téléconsultation</td><td/></tr><tr><td><a href=\"CodeSystem-TRE-R287-NatureContact.html#TRE-R287-NatureContact-10\">10</a></td><td>Direction</td><td/></tr><tr><td><a href=\"CodeSystem-TRE-R287-NatureContact.html#TRE-R287-NatureContact-11\">11</a></td><td>Alerte heures ouvrées</td><td/></tr><tr><td><a href=\"CodeSystem-TRE-R287-NatureContact.html#TRE-R287-NatureContact-12\">12</a></td><td>Alerte heures non ouvrées</td><td/></tr><tr><td><a href=\"CodeSystem-TRE-R287-NatureContact.html#TRE-R287-NatureContact-13\">13</a></td><td>Alerte H24</td><td/></tr><tr><td><a href=\"CodeSystem-TRE-R287-NatureContact.html#TRE-R287-NatureContact-14\">14</a></td><td>Garde ou astreinte</td><td/></tr><tr><td><a href=\"CodeSystem-TRE-R287-NatureContact.html#TRE-R287-NatureContact-15\">15</a></td><td>Téléexpertise</td><td>Permet l'enregistrement  du lien vers une plateforme de téléexpertise</td></tr><tr><td><a href=\"CodeSystem-TRE-R287-NatureContact.html#TRE-R287-NatureContact-16\">16</a></td><td>Cellule opérationnelle de Bed Management</td><td/></tr><tr><td><a href=\"CodeSystem-TRE-R287-NatureContact.html#TRE-R287-NatureContact-17\">17</a></td><td>Télésoin</td><td/></tr></table></li></ul></div>"
   ] ; # 
   fhir:extension ( [
      fhir:url [ fhir:v "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod"^^xsd:anyURI ] ;
@@ -32,11 +32,11 @@
      fhir:system [ fhir:v "urn:ietf:rfc:3986"^^xsd:anyURI ] ;
      fhir:value [ fhir:v "urn:oid:1.2.250.1.213.3.4.53" ]
   ] ) ; # 
-  fhir:version [ fhir:v "20240426120000"] ; # 
+  fhir:version [ fhir:v "20241213120000"] ; # 
   fhir:name [ fhir:v "JDV_J221_NatureContact_ROR"] ; # 
   fhir:status [ fhir:v "active"] ; # 
   fhir:experimental [ fhir:v "false"^^xsd:boolean] ; # 
-  fhir:date [ fhir:v "2024-04-26T12:00:00+01:00"^^xsd:dateTime] ; # 
+  fhir:date [ fhir:v "2024-12-13T12:00:00+01:00"^^xsd:dateTime] ; # 
   fhir:publisher [ fhir:v "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris"] ; # 
   fhir:description [ fhir:v "Un service ou un guichet assurant le contact au sein de l'organisation"] ; # 
   fhir:compose [
@@ -90,6 +90,9 @@
        ] [
          fhir:code [ fhir:v "16" ] ;
          fhir:display [ fhir:v "Cellule opérationnelle de Bed Management" ]
+       ] [
+         fhir:code [ fhir:v "17" ] ;
+         fhir:display [ fhir:v "Télésoin" ]
        ] )
      ] )
   ] . # 

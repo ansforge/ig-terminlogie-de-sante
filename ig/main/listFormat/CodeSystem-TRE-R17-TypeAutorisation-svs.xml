@@ -2,7 +2,7 @@
 <RetrieveValueSetResponse xmlns="urn:ihe:iti:svs:2008"
                           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
    <ValueSet dateFin=""
-             dateMaj="20240426120000"
+             dateMaj="20241213120000"
              dateValid="20130628000000"
              description="Type d'autorisation"
              displayName="TRE_R17_TypeAutorisation"
@@ -388,6 +388,15 @@
                   longDesignation="Agrément de radiophysicien avant le 28/11/2004"
                   shortDesignation="Agrément Radiophysicien"
                   descriptionMetier="Agrément de radiophysicien associé au DEA de physique radiologique et médicale délivré par l'Université Paul Sabatier (jusqu'en 1995)"/>
+         <concept code="AM42"
+                  codeSystem="1.2.250.1.213.1.6.1.14"
+                  dateFin=""
+                  dateMaj="20241213120000"
+                  dateValid="20241213120000"
+                  displayName="Autorisation d'user du titre de Psychothérapeute"
+                  longDesignation="Autorisation d'user du titre de Psychothérapeute"
+                  shortDesignation="Autor titre Psychothérapeute"
+                  descriptionMetier="Article 16 du Décret n° 2010-534 du 20 mai 2010 relatif à l'usage du titre de psychothérapeute"/>
          <concept code="AMGP"
                   codeSystem="1.2.250.1.213.1.6.1.14"
                   dateFin=""

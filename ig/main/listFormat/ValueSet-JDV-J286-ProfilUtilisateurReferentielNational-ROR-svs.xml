@@ -2,7 +2,7 @@
 <RetrieveValueSetResponse xmlns="urn:ihe:iti:svs:2008"
                           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
    <ValueSet dateFin=""
-             dateMaj="20241025120000"
+             dateMaj="20241213120000"
              dateValid="20241025120000"
              description="Profils utilisateurs du ROR National"
              displayName="JDV_J286_ProfilUtilisateurReferentielNational_ROR"
@@ -31,6 +31,15 @@
          <concept code="PSL"
                   codeSystem="1.2.250.1.213.3.3.255"
                   displayName="Professionnel de Santé Libéral (PSL)"/>
+         <concept code="ADMIN_METIER"
+                  codeSystem="1.2.250.1.213.3.3.255"
+                  displayName="Administrateur Métier"/>
+         <concept code="SUPPORT"
+                  codeSystem="1.2.250.1.213.3.3.255"
+                  displayName="Support"/>
+         <concept code="REF_MSP"
+                  codeSystem="1.2.250.1.213.3.3.255"
+                  displayName="Référent Maison de Santé Pluriprofessionnelle"/>
       </ConceptList>
    </ValueSet>
 </RetrieveValueSetResponse>
