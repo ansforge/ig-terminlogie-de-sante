@@ -8,14 +8,6 @@
     "oids" : ["2.16.840.1.113883.4.642.3.264"]
   },
   {
-    "id" : "snomed-CT",
-    "type" : "CodeSystem",
-    "url" : "http://snomed.info/sct",
-    "version" : "3.2.1",
-    "name" : "SNOMED_CT_INT",
-    "oids" : ["2.16.840.1.113883.6.96"]
-  },
-  {
     "id" : "service-type",
     "type" : "CodeSystem",
     "url" : "http://terminology.hl7.org/CodeSystem/service-type",

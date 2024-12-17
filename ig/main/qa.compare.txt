@@ -1,11 +1,10 @@
 Terminologie : Validation Results
 =========================================
 
-err = 1019, warn = 1383, info = 819
+err = 1017, warn = 1383, info = 819
 $--
 Generated $--. FHIR version $-- for ans.fr.terminologie#$-- (canonical = https://interop.esante.gouv.fr/ig/terminologie)
  Build Errors : 798 / 22 / 0
- /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/DM/fsh-generated/resources/CodeSystem-snomed-CT : 2 / 0 / 1
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/DM/fsh-generated/resources/ConceptMap-ASS-A11-CorresModeleCDA-XdsFormatCode-CISIS : 0 / 0 / 1
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/DM/fsh-generated/resources/ConceptMap-ASS-A12-CorresMediaTypeCDANonStructure-XdsFormatCode-CISIS : 0 / 0 / 1
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/DM/fsh-generated/resources/ConceptMap-ASS-A13-TypeEvenement-FluxStandardise : 0 / 0 / 1
@@ -2154,9 +2153,6 @@ ERROR: /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSou
 ERROR: /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/output/ValueSet-TRE-R222-MediaTypeCorpsCDANonStructure-all.html#/html/body/div/div/div/div/div/div/div/input/div/div/table/tr/td/a at Line 350, column 3309: The link 'CodeSystem-TRE-A11-IheFormatCode.html#TRE-A11-IheFormatCode-ValueSet-JDV-J10-XdsFormatCode-CISIS.46html' for "ValueSet-JDV-J10-XdsFormatCode-CISIS.html" cannot be resolved (valid targets: 59 targets)
 ERROR: /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/output/ValueSet-TRE-R222-MediaTypeCorpsCDANonStructure-all.html#/html/body/div/div/div/div/div/div/div/input/div/div/table/tr/td/a at Line 350, column 4010: The link 'CodeSystem-TRE-A11-IheFormatCode.html#TRE-A11-IheFormatCode-ValueSet-JDV-J10-XdsFormatCode-CISIS.46html' for "ValueSet-JDV-J10-XdsFormatCode-CISIS.html" cannot be resolved (valid targets: 59 targets)
 ERROR: /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/output/telechargementNos.html#/html/body/div/div/div/div/div/ul/li/a at Line 200, column 8: The link 'Correspondances%20RessourcesFHIR-NOS_0.pdf' for "Correspondance entre les ressources FHIR et les NOS (PDF)" cannot be resolved
-== DM/fsh-generated/resources/CodeSystem-snomed-CT.json ==
-ERROR: CodeSystem.where(url = 'http://snomed.info/sct'): Conformance resource /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/DM/fsh-generated/resources/CodeSystem-snomed-CT.json - the canonical URL (https://interop.esante.gouv.fr/ig/terminologie/CodeSystem/snomed-CT) does not match the URL (http://snomed.info/sct)
-ERROR: /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/DM/fsh-generated/resources/CodeSystem-snomed-CT: URL Mismatch https://interop.esante.gouv.fr/ig/terminologie/CodeSystem/snomed-CT vs http://snomed.info/sct
 == DM/fsh-generated/resources/ConceptMap-ASS-A11-CorresModeleCDA-XdsFormatCode-CISIS.json ==
 == DM/fsh-generated/resources/ConceptMap-ASS-A12-CorresMediaTypeCDANonStructure-XdsFormatCode-CISIS.json ==
 == DM/fsh-generated/resources/ConceptMap-ASS-A13-TypeEvenement-FluxStandardise.json ==
@@ -3047,7 +3043,7 @@ ERROR: /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSou
 == input/ontoserver/JDV/DesignationUse.json ==
 WARNING: ValueSet/designation-use: ValueSet: The nominated WG 'vocab' means that the publisher should be either 'HL7 International / Terminology Infrastructure'or 'HL7 International / Vocabulary' but 'FHIR Project' was found
 WARNING: ValueSet/designation-use: ValueSet: The nominated WG 'vocab' means that the contact url should be 'http://www.hl7.org/Special/committees/Vocab' but it was not found
-WARNING: ValueSet/designation-use: ValueSet.compose.include[0]: Unknown System 'http://snomed.info/sct' specified, so Concepts and Filters can't be checked (Details: A definition for CodeSystem 'http://snomed.info/sct' version 'http://snomed.info/sct/11000315107' could not be found, so the code cannot be validated. Valid versions: [3.2.1])
+WARNING: ValueSet/designation-use: ValueSet.compose.include[0]: Unknown System 'http://snomed.info/sct' specified, so Concepts and Filters can't be checked (Details: A definition for CodeSystem 'http://snomed.info/sct' version 'http://snomed.info/sct/11000315107' could not be found, so the code cannot be validated. Valid versions: [])
 WARNING: ValueSet.where(id = 'designation-use'): Error from http://tx.fhir.org/r4: Unable to provide support for code system http://snomed.info/sct
 == input/ontoserver/JDV/JDV_AbordVeineuxCentral_CISIS.json ==
 WARNING: ValueSet/1.2.250.1.213.1.1.5.496: ValueSet.compose.include[0]: Unknown System 'urn:oid:2.16.840.1.113883.6.96' specified, so Concepts and Filters can't be checked (Details: A definition for CodeSystem 'urn:oid:2.16.840.1.113883.6.96' could not be found, so the code cannot be validated)
@@ -3704,15 +3700,15 @@ WARNING: ValueSet/JDV-J146-MethodBodyHeight-ENS: ValueSet.compose.include[0]: Un
 WARNING: ValueSet/JDV-J146-MethodBodyHeight-ENS: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.title is mandatory, but it is not present
 WARNING: ValueSet.where(id = 'JDV-J146-MethodBodyHeight-ENS'): Error from http://tx.fhir.org/r4: Unable to provide support for code system https://smt.esante.gouv.fr/terminologie-ncit
 == input/ontoserver/JDV/JDV_J147_MethodHeartrate_ENS.json ==
-WARNING: ValueSet/JDV-J147-MethodHeartrate-ENS: ValueSet.compose.include[1]: Unknown System 'http://snomed.info/sct' specified, so Concepts and Filters can't be checked (Details: A definition for CodeSystem 'http://snomed.info/sct' version 'http://snomed.info/sct/11000315107' could not be found, so the code cannot be validated. Valid versions: [3.2.1])
+WARNING: ValueSet/JDV-J147-MethodHeartrate-ENS: ValueSet.compose.include[1]: Unknown System 'http://snomed.info/sct' specified, so Concepts and Filters can't be checked (Details: A definition for CodeSystem 'http://snomed.info/sct' version 'http://snomed.info/sct/11000315107' could not be found, so the code cannot be validated. Valid versions: [])
 WARNING: ValueSet/JDV-J147-MethodHeartrate-ENS: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.title is mandatory, but it is not present
 WARNING: ValueSet.where(id = 'JDV-J147-MethodHeartrate-ENS'): Error from http://tx.fhir.org/r4: Unable to provide support for code system https://smt.esante.gouv.fr/terminologie-emdn
 == input/ontoserver/JDV/JDV_J148_ReferenceRangeAppliesTo_CISIS.json ==
-WARNING: ValueSet/JDV-J148-ReferenceRangeAppliesTo-CISIS: ValueSet.compose.include[1]: Unknown System 'http://snomed.info/sct' specified, so Concepts and Filters can't be checked (Details: A definition for CodeSystem 'http://snomed.info/sct' version 'http://snomed.info/sct/11000315107' could not be found, so the code cannot be validated. Valid versions: [3.2.1])
+WARNING: ValueSet/JDV-J148-ReferenceRangeAppliesTo-CISIS: ValueSet.compose.include[1]: Unknown System 'http://snomed.info/sct' specified, so Concepts and Filters can't be checked (Details: A definition for CodeSystem 'http://snomed.info/sct' version 'http://snomed.info/sct/11000315107' could not be found, so the code cannot be validated. Valid versions: [])
 WARNING: ValueSet/JDV-J148-ReferenceRangeAppliesTo-CISIS: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.title is mandatory, but it is not present
 WARNING: ValueSet.where(id = 'JDV-J148-ReferenceRangeAppliesTo-CISIS'): Error from http://tx.fhir.org/r4: Unable to provide support for code system http://snomed.info/sct
 == input/ontoserver/JDV/JDV_J149_BodySiteBP_ENS.json ==
-WARNING: ValueSet/JDV-J149-BodySiteBP-ENS: ValueSet.compose.include[0]: Unknown System 'http://snomed.info/sct' specified, so Concepts and Filters can't be checked (Details: A definition for CodeSystem 'http://snomed.info/sct' version 'http://snomed.info/sct/11000315107' could not be found, so the code cannot be validated. Valid versions: [3.2.1])
+WARNING: ValueSet/JDV-J149-BodySiteBP-ENS: ValueSet.compose.include[0]: Unknown System 'http://snomed.info/sct' specified, so Concepts and Filters can't be checked (Details: A definition for CodeSystem 'http://snomed.info/sct' version 'http://snomed.info/sct/11000315107' could not be found, so the code cannot be validated. Valid versions: [])
 WARNING: ValueSet/JDV-J149-BodySiteBP-ENS: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.title is mandatory, but it is not present
 WARNING: ValueSet.where(id = 'JDV-J149-BodySiteBP-ENS'): Error from http://tx.fhir.org/r4: Unable to provide support for code system http://snomed.info/sct
 == input/ontoserver/JDV/JDV_J14_QualiteRepresentantLegal_CISIS.json ==
@@ -3720,7 +3716,7 @@ WARNING: ValueSet/JDV-J14-QualiteRepresentantLegal-CISIS: ValueSet: Published va
 == input/ontoserver/JDV/JDV_J150_MethodBP_ENS.json ==
 WARNING: ValueSet/JDV-J150-MethodBP-ENS: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.title is mandatory, but it is not present
 == input/ontoserver/JDV/JDV_J151_BodySiteBodyTemperature_ENS.json ==
-WARNING: ValueSet/JDV-J151-BodySiteBodyTemperature-ENS: ValueSet.compose.include[0]: Unknown System 'http://snomed.info/sct' specified, so Concepts and Filters can't be checked (Details: A definition for CodeSystem 'http://snomed.info/sct' version 'http://snomed.info/sct/11000315107' could not be found, so the code cannot be validated. Valid versions: [3.2.1])
+WARNING: ValueSet/JDV-J151-BodySiteBodyTemperature-ENS: ValueSet.compose.include[0]: Unknown System 'http://snomed.info/sct' specified, so Concepts and Filters can't be checked (Details: A definition for CodeSystem 'http://snomed.info/sct' version 'http://snomed.info/sct/11000315107' could not be found, so the code cannot be validated. Valid versions: [])
 WARNING: ValueSet/JDV-J151-BodySiteBodyTemperature-ENS: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.title is mandatory, but it is not present
 WARNING: ValueSet.where(id = 'JDV-J151-BodySiteBodyTemperature-ENS'): Error from http://tx.fhir.org/r4: Unable to provide support for code system http://snomed.info/sct
 == input/ontoserver/JDV/JDV_J152_MethodBodyTemperature_ENS.json ==
@@ -3734,7 +3730,7 @@ WARNING: ValueSet.where(id = 'JDV-J153-TypeDiabete-ENS'): Error from http://tx.f
 == input/ontoserver/JDV/JDV_J154_TypeGlucose_ENS.json ==
 WARNING: ValueSet/JDV-J154-TypeGlucose-ENS: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.title is mandatory, but it is not present
 == input/ontoserver/JDV/JDV_J155_MethodGlucoseSanguin_ENS.json ==
-WARNING: ValueSet/JDV-J155-MethodGlucoseSanguin-ENS: ValueSet.compose.include[1]: Unknown System 'http://snomed.info/sct' specified, so Concepts and Filters can't be checked (Details: A definition for CodeSystem 'http://snomed.info/sct' version 'http://snomed.info/sct/11000315107' could not be found, so the code cannot be validated. Valid versions: [3.2.1])
+WARNING: ValueSet/JDV-J155-MethodGlucoseSanguin-ENS: ValueSet.compose.include[1]: Unknown System 'http://snomed.info/sct' specified, so Concepts and Filters can't be checked (Details: A definition for CodeSystem 'http://snomed.info/sct' version 'http://snomed.info/sct/11000315107' could not be found, so the code cannot be validated. Valid versions: [])
 WARNING: ValueSet/JDV-J155-MethodGlucoseSanguin-ENS: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.title is mandatory, but it is not present
 WARNING: ValueSet.where(id = 'JDV-J155-MethodGlucoseSanguin-ENS'): Error from http://tx.fhir.org/r4: Unable to provide support for code system https://smt.esante.gouv.fr/terminologie-emdn
 == input/ontoserver/JDV/JDV_J156_MethodGlucoseInterstitiel_ENS.json ==
@@ -3750,7 +3746,7 @@ WARNING: ValueSet.where(id = 'JDV-J159-MethodPainSeverity-ENS'): Error from http
 == input/ontoserver/JDV/JDV_J15_ClasseAge_ROR.json ==
 WARNING: ValueSet/JDV-J15-ClasseAge-ROR: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.title is mandatory, but it is not present
 == input/ontoserver/JDV/JDV_J161_Lateralite_CISIS.json ==
-WARNING: ValueSet/JDV-J161-Lateralite-CISIS: ValueSet.compose.include[0]: Unknown System 'http://snomed.info/sct' specified, so Concepts and Filters can't be checked (Details: A definition for CodeSystem 'http://snomed.info/sct' version 'http://snomed.info/sct/11000315107' could not be found, so the code cannot be validated. Valid versions: [3.2.1])
+WARNING: ValueSet/JDV-J161-Lateralite-CISIS: ValueSet.compose.include[0]: Unknown System 'http://snomed.info/sct' specified, so Concepts and Filters can't be checked (Details: A definition for CodeSystem 'http://snomed.info/sct' version 'http://snomed.info/sct/11000315107' could not be found, so the code cannot be validated. Valid versions: [])
 WARNING: ValueSet/JDV-J161-Lateralite-CISIS: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.title is mandatory, but it is not present
 WARNING: ValueSet.where(id = 'JDV-J161-Lateralite-CISIS'): Error from http://tx.fhir.org/r4: Unable to provide support for code system http://snomed.info/sct
 == input/ontoserver/JDV/JDV_J162_ESPIC_RASS.json ==

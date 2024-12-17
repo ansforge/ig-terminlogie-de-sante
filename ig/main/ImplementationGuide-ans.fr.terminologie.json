@@ -32844,18 +32844,6 @@
         "valueString" : "CodeSystem"
       }],
       "reference" : {
-        "reference" : "CodeSystem/snomed-CT"
-      },
-      "name" : "SNOMED\u00a0CT International Edition",
-      "description" : "SNOMED CT is a core clinical healthcare terminology that contains concepts with unique meanings and formal logic based definitions organized into hierarchies.",
-      "exampleBoolean" : false
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "CodeSystem"
-      }],
-      "reference" : {
         "reference" : "CodeSystem/TRE-A00-ProducteurDocNonPS"
       },
       "name" : "TRE_A00_ProducteurDocNonPS",
