@@ -2,7 +2,7 @@
 <RetrieveValueSetResponse xmlns="urn:ihe:iti:svs:2008"
                           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
    <ValueSet dateFin=""
-             dateMaj="20210511010000"
+             dateMaj="20210511000000"
              dateValid="20210315000000"
              description="JDV_Type_Limites_Laterales_Envahies_Melanome_CISIS"
              displayName="JDV_Type_Limites_Laterales_Envahies_Melanome_CISIS"

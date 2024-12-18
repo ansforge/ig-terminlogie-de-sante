@@ -2,7 +2,7 @@
 <RetrieveValueSetResponse xmlns="urn:ihe:iti:svs:2008"
                           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
    <ValueSet dateFin=""
-             dateMaj="20100101000000"
+             dateMaj="20240806000000"
              dateValid="20210315000000"
              description="JDV_ObjectifActivite_CISIS"
              displayName="JDV_ObjectifActivite_CISIS"
@@ -43,6 +43,9 @@
          <concept code="ORG-123"
                   codeSystem="1.2.250.1.213.1.1.4.322"
                   displayName="Consultation de transition enfant/adulte"/>
+         <concept code="MED-1289"
+                  codeSystem="1.2.250.1.213.1.1.4.322"
+                  displayName="Rendu de résultat diagnostic génétique"/>
       </ConceptList>
    </ValueSet>
 </RetrieveValueSetResponse>

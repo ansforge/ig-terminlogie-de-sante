@@ -2,7 +2,7 @@
 <RetrieveValueSetResponse xmlns="urn:ihe:iti:svs:2008"
                           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
    <ValueSet dateFin=""
-             dateMaj="20221003010000"
+             dateMaj="20241126000000"
              dateValid="20210315000000"
              description="JDV_Actes_CS8_CISIS"
              displayName="JDV_Actes_CS8_CISIS"
@@ -13,9 +13,9 @@
          <concept code="MED-174"
                   codeSystem="1.2.250.1.213.1.1.4.322"
                   displayName="Gestes techniques spécialisés"/>
-         <concept code="GEN-085"
+         <concept code="MED-1304"
                   codeSystem="1.2.250.1.213.1.1.4.322"
-                  displayName="Dépistage néonatal"/>
+                  displayName="Dépistage de la surdité"/>
       </ConceptList>
    </ValueSet>
 </RetrieveValueSetResponse>

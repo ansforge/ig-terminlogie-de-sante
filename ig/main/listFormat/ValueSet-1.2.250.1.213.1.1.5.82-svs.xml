@@ -13,21 +13,12 @@
          <concept code="ORG-107"
                   codeSystem="1.2.250.1.213.1.1.4.322"
                   displayName="Service de médecine du travail"/>
-         <concept code="220"
-                  codeSystem="1.2.250.1.213.1.6.1.8"
-                  displayName="Centre Social"/>
          <concept code="ORG-109"
                   codeSystem="1.2.250.1.213.1.1.4.322"
                   displayName="Caisse d'assurance de retraite et santé au travail (CARSAT)"/>
          <concept code="ORG-110"
                   codeSystem="1.2.250.1.213.1.1.4.322"
                   displayName="Service d'appui au maintien dans l'emploi des travailleurs handicapés (SAMETH)"/>
-         <concept code="609"
-                  codeSystem="1.2.250.1.213.1.6.1.8"
-                  displayName="Maison Départementale pour Personnes Handicapées (MDPH)"/>
-         <concept code="463"
-                  codeSystem="1.2.250.1.213.1.6.1.8"
-                  displayName="Centres Locaux Information Coordination P.A.(C.L.I.C.)"/>
          <concept code="ORG-054"
                   codeSystem="1.2.250.1.213.1.1.4.322"
                   displayName="Établissement de santé de référence"/>
@@ -55,6 +46,15 @@
          <concept code="GEN-092.06.01"
                   codeSystem="1.2.250.1.213.1.1.4.322"
                   displayName="Autre établissement de santé"/>
+         <concept code="220"
+                  codeSystem="1.2.250.1.213.1.6.1.8"
+                  displayName="Centre Social"/>
+         <concept code="609"
+                  codeSystem="1.2.250.1.213.1.6.1.8"
+                  displayName="Maison Départementale pour Personnes Handicapées (MDPH)"/>
+         <concept code="463"
+                  codeSystem="1.2.250.1.213.1.6.1.8"
+                  displayName="Centres Locaux Information Coordination P.A.(C.L.I.C.)"/>
       </ConceptList>
    </ValueSet>
 </RetrieveValueSetResponse>

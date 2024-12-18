@@ -2,7 +2,7 @@
 <RetrieveValueSetResponse xmlns="urn:ihe:iti:svs:2008"
                           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
    <ValueSet dateFin=""
-             dateMaj="20200507010000"
+             dateMaj="20200507000000"
              dateValid="20210315000000"
              description="JDV_ScoreASA_CISIS"
              displayName="JDV_ScoreASA_CISIS"

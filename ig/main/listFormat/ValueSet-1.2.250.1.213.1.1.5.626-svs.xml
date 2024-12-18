@@ -2,7 +2,7 @@
 <RetrieveValueSetResponse xmlns="urn:ihe:iti:svs:2008"
                           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
    <ValueSet dateFin=""
-             dateMaj="20210507010000"
+             dateMaj="20240902000000"
              dateValid="20210315000000"
              description="JDV_TypeDeLentilles_CISIS"
              displayName="JDV_TypeDeLentilles_CISIS"
@@ -10,15 +10,15 @@
              typeFichier="JDV"
              urlFichier="">
       <ConceptList>
-         <concept code="GEN-267"
+         <concept code="MED-1218"
                   codeSystem="1.2.250.1.213.1.1.4.322"
-                  displayName="Souple"/>
-         <concept code="GEN-268"
+                  displayName="Lentille souple"/>
+         <concept code="MED-1219"
                   codeSystem="1.2.250.1.213.1.1.4.322"
-                  displayName="Rigide"/>
-         <concept code="GEN-269"
+                  displayName="Lentille rigide"/>
+         <concept code="MED-1220"
                   codeSystem="1.2.250.1.213.1.1.4.322"
-                  displayName="Hybride"/>
+                  displayName="Lentille hybride"/>
       </ConceptList>
    </ValueSet>
 </RetrieveValueSetResponse>

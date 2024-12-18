@@ -1,5 +1,5 @@
 <OID>;<Type fichier>;<Nom fichier>;<Description>;<URL fichier>;<Date valid>;<Date fin>;<Date MAJ>  
-1.2.250.1.213.1.1.5.730;JDV;JDV_ExamenEnfantObligatoire_CISIS;JDV_ExamenEnfantObligatoire_CISIS;;20210315000000;;20230718010000
+1.2.250.1.213.1.1.5.730;JDV;JDV_ExamenEnfantObligatoire_CISIS;JDV_ExamenEnfantObligatoire_CISIS;;20210315000000;;20241212000000
 <system>;<Code>;<Libellé> 
 1.2.250.1.213.1.1.4.322;MED-1224;CSE - Examen médical obligatoire dans les huit jours qui suivent la naissance
 1.2.250.1.213.1.1.4.322;MED-1225;CSE - Examen médical obligatoire au cours de la 2ème semaine
@@ -18,6 +18,7 @@
 1.2.250.1.213.1.1.4.322;MED-1238;CSE - Examen médical obligatoire au cours de la 4ème année
 1.2.250.1.213.1.1.4.322;MED-1239;CSE - Examen médical obligatoire au cours de la 5ème année
 1.2.250.1.213.1.1.4.322;MED-1240;CSE - Examen médical obligatoire au cours de la 6ème année
+1.2.250.1.213.1.1.4.322;MED-1306;CSE - Examen médical obligatoire au cours de la 7ème année
 1.2.250.1.213.1.1.4.322;MED-1241;CSE - Examen médical obligatoire entre 8 et 9 ans
 1.2.250.1.213.1.1.4.322;MED-1242;CSE - Examen médical obligatoire entre 11 et 13 ans
 1.2.250.1.213.1.1.4.322;MED-1243;CSE - Examen médical obligatoire entre 15 et 16 ans

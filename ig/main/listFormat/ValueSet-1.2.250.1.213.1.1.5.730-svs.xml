@@ -2,7 +2,7 @@
 <RetrieveValueSetResponse xmlns="urn:ihe:iti:svs:2008"
                           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
    <ValueSet dateFin=""
-             dateMaj="20230718010000"
+             dateMaj="20241212000000"
              dateValid="20210315000000"
              description="JDV_ExamenEnfantObligatoire_CISIS"
              displayName="JDV_ExamenEnfantObligatoire_CISIS"
@@ -61,6 +61,9 @@
          <concept code="MED-1240"
                   codeSystem="1.2.250.1.213.1.1.4.322"
                   displayName="CSE - Examen médical obligatoire au cours de la 6ème année"/>
+         <concept code="MED-1306"
+                  codeSystem="1.2.250.1.213.1.1.4.322"
+                  displayName="CSE - Examen médical obligatoire au cours de la 7ème année"/>
          <concept code="MED-1241"
                   codeSystem="1.2.250.1.213.1.1.4.322"
                   displayName="CSE - Examen médical obligatoire entre 8 et 9 ans"/>

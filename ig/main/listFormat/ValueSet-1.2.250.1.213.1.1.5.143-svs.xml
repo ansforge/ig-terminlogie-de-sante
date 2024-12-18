@@ -10,21 +10,23 @@
              typeFichier="JDV"
              urlFichier="">
       <ConceptList>
-         <concept code="L01XX" codeSystem="" displayName="autres antinéoplasiques"/>
+         <concept code="L01XX"
+                  codeSystem="2.16.840.1.113883.6.73"
+                  displayName="autres antinéoplasiques"/>
          <concept code="L01E"
-                  codeSystem=""
+                  codeSystem="2.16.840.1.113883.6.73"
                   displayName="inhibiteurs de protéines kinases"/>
          <concept code="L01EE"
-                  codeSystem=""
+                  codeSystem="2.16.840.1.113883.6.73"
                   displayName="inhibiteurs de protéine kinase activée par un mitogène (MEK)"/>
          <concept code="L01EX"
-                  codeSystem=""
+                  codeSystem="2.16.840.1.113883.6.73"
                   displayName="autres inhibiteurs de protéines kinases"/>
          <concept code="L01F"
-                  codeSystem=""
+                  codeSystem="2.16.840.1.113883.6.73"
                   displayName="anticorps monoclonaux et conjugués anticorps-médicaments"/>
          <concept code="L01FX"
-                  codeSystem=""
+                  codeSystem="2.16.840.1.113883.6.73"
                   displayName="autres anticorps monoclonaux et conjugués anticorps-médicaments"/>
       </ConceptList>
    </ValueSet>

@@ -12,10 +12,10 @@
       <ConceptList>
          <concept code="G15_10/C23"
                   codeSystem="1.2.250.1.213.1.1.4.5"
-                  displayName="Médecin - Gynécologie médicale et Obstétrique ©"/>
+                  displayName="Médecin - Gynécologie médicale et Obstétrique (C)"/>
          <concept code="G15_10/C72"
                   codeSystem="1.2.250.1.213.1.1.4.5"
-                  displayName="Médecin - Génétique médicale ©"/>
+                  displayName="Médecin - Génétique médicale (C)"/>
          <concept code="G15_10/SM54"
                   codeSystem="1.2.250.1.213.1.1.4.5"
                   displayName="Médecin - Médecine Générale (SM)"/>

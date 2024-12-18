@@ -2,7 +2,7 @@
 <RetrieveValueSetResponse xmlns="urn:ihe:iti:svs:2008"
                           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
    <ValueSet dateFin=""
-             dateMaj="20230202000000"
+             dateMaj="20241018000000"
              dateValid="20210315000000"
              description="JDV_ProfessionPersonnelActivite_CISIS"
              displayName="JDV_ProfessionPersonnelActivite_CISIS"
@@ -31,21 +31,21 @@
          <concept code="G15_96"
                   codeSystem="1.2.250.1.213.1.1.4.5"
                   displayName="Psychomotricien"/>
-         <concept code="GEN-092.05.03"
-                  codeSystem="1.2.250.1.213.1.1.4.322"
-                  displayName="Autre professionnel(le)"/>
-         <concept code="41"
-                  codeSystem="1.2.250.1.213.1.6.1.4"
-                  displayName="Assistant de service social"/>
          <concept code="93"
                   codeSystem="1.2.250.1.213.1.6.1.109"
                   displayName="Psychologue"/>
          <concept code="97"
                   codeSystem="1.2.250.1.213.1.6.1.109"
                   displayName="Conseiller en génétique"/>
+         <concept code="41"
+                  codeSystem="1.2.250.1.213.1.6.1.4"
+                  displayName="Assistant de service social"/>
          <concept code="51"
                   codeSystem="1.2.250.1.213.1.6.1.4"
                   displayName="Educateur spécialisé"/>
+         <concept code="312"
+                  codeSystem="1.2.250.1.213.1.6.1.107"
+                  displayName="Autre professionnel"/>
       </ConceptList>
    </ValueSet>
 </RetrieveValueSetResponse>

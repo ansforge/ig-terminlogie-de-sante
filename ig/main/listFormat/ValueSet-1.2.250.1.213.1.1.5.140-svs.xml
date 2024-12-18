@@ -2,7 +2,7 @@
 <RetrieveValueSetResponse xmlns="urn:ihe:iti:svs:2008"
                           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
    <ValueSet dateFin=""
-             dateMaj="20240719010000"
+             dateMaj="20240902000000"
              dateValid="20210315000000"
              description="JDV_ModeDeTransport_CISIS"
              displayName="JDV_ModeDeTransport_CISIS"
@@ -37,6 +37,18 @@
          <concept code="ORG-160"
                   codeSystem="1.2.250.1.213.1.1.4.322"
                   displayName="VSL"/>
+         <concept code="ORG-202"
+                  codeSystem="1.2.250.1.213.1.1.4.322"
+                  displayName="Véhicule individuel"/>
+         <concept code="ORG-203"
+                  codeSystem="1.2.250.1.213.1.1.4.322"
+                  displayName="Véhicule collectif"/>
+         <concept code="ORG-204"
+                  codeSystem="1.2.250.1.213.1.1.4.322"
+                  displayName="Transport en commun"/>
+         <concept code="ORG-205"
+                  codeSystem="1.2.250.1.213.1.1.4.322"
+                  displayName="Modes doux"/>
          <concept code="GEN-092.06.08"
                   codeSystem="1.2.250.1.213.1.1.4.322"
                   displayName="Autre mode de transport"/>
