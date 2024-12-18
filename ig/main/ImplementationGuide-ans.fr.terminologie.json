@@ -32844,6 +32844,18 @@
         "valueString" : "CodeSystem"
       }],
       "reference" : {
+        "reference" : "CodeSystem/1.2.250.1.213.1.1.4.322"
+      },
+      "name" : "TA_ASIP",
+      "description" : "TA_ASIP",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "CodeSystem"
+      }],
+      "reference" : {
         "reference" : "CodeSystem/TRE-A00-ProducteurDocNonPS"
       },
       "name" : "TRE_A00_ProducteurDocNonPS",
@@ -34659,18 +34671,6 @@
       },
       "name" : "TRE_R305_TypeRencontre",
       "description" : "Type de rencontre",
-      "exampleBoolean" : false
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "CodeSystem"
-      }],
-      "reference" : {
-        "reference" : "CodeSystem/1.2.250.1.213.1.1.4.322"
-      },
-      "name" : "TRE_R308_TAASIP",
-      "description" : "TA_ASIP",
       "exampleBoolean" : false
     },
     {

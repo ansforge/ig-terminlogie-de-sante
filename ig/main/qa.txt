@@ -1,10 +1,10 @@
 Terminologie : Validation Results
 =========================================
 
-err = 1017, warn = 1383, info = 819
-IG Publisher Version: 1.8.1
-Generated Tue Dec 17 15:42:46 UTC 2024. FHIR version 4.0.1 for ans.fr.terminologie#1.1.0 (canonical = https://interop.esante.gouv.fr/ig/terminologie)
- Build Errors : 798 / 22 / 0
+err = 1025, warn = 1391, info = 823
+IG Publisher Version: 1.8.3
+Generated Wed Dec 18 04:47:34 UTC 2024. FHIR version 4.0.1 for ans.fr.terminologie#1.1.0 (canonical = https://interop.esante.gouv.fr/ig/terminologie)
+ Build Errors : 806 / 22 / 0
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/DM/fsh-generated/resources/ConceptMap-ASS-A11-CorresModeleCDA-XdsFormatCode-CISIS : 0 / 0 / 1
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/DM/fsh-generated/resources/ConceptMap-ASS-A12-CorresMediaTypeCDANonStructure-XdsFormatCode-CISIS : 0 / 0 / 1
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/DM/fsh-generated/resources/ConceptMap-ASS-A13-TypeEvenement-FluxStandardise : 0 / 0 / 1
@@ -59,7 +59,7 @@ Generated Tue Dec 17 15:42:46 UTC 2024. FHIR version 4.0.1 for ans.fr.terminolog
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_AccesArtere_CISIS : 0 / 2 / 1
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_ActeOBP_CISIS : 0 / 4 / 1
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_Acte_CSE_CISIS : 0 / 0 / 1
- /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_Actes_CS8_CISIS : 0 / 0 / 1
+ /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_Actes_CS8_CISIS : 1 / 1 / 1
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_Activite_CISIS : 0 / 0 / 1
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_Addictions_CISIS : 0 / 2 / 1
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_AdditionGrandeur_CISIS : 0 / 2 / 1
@@ -160,7 +160,7 @@ Generated Tue Dec 17 15:42:46 UTC 2024. FHIR version 4.0.1 for ans.fr.terminolog
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_ExamensRealises_CISIS : 0 / 2 / 1
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_FacteursDeRiquesAVC_CISIS : 0 / 2 / 1
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_FacteursDeRisqueProfessionnels_CISIS : 0 / 2 / 1
- /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_FacteursDeRisqueSociaux_CISIS : 0 / 2 / 1
+ /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_FacteursDeRisqueSociaux_CISIS : 2 / 4 / 2
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_FamilleFemmes_CISIS : 0 / 0 / 1
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_FamilleID_CISIS : 0 / 0 / 1
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_FluideRouteCodes_CISIS : 0 / 0 / 1
@@ -482,8 +482,8 @@ Generated Tue Dec 17 15:42:46 UTC 2024. FHIR version 4.0.1 for ans.fr.terminolog
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_Lateralite_CISIS : 0 / 2 / 1
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_LesionTraumatiqueObstetricale_CISIS : 0 / 2 / 1
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_Lien_Assure_Beneficiaire_CISIS : 0 / 0 / 1
- /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_LieuAccouchement_CISIS : 0 / 0 / 1
- /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_LieudeVie_CISIS : 0 / 0 / 1
+ /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_LieuAccouchement_CISIS : 1 / 1 / 1
+ /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_LieudeVie_CISIS : 1 / 1 / 2
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_LocaThromboseVeineuse_CISIS : 0 / 2 / 1
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_LocalisationAnatomique_CISIS : 0 / 2 / 1
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_LocalisationAnesthesie_CISIS : 0 / 2 / 1
@@ -575,7 +575,7 @@ Generated Tue Dec 17 15:42:46 UTC 2024. FHIR version 4.0.1 for ans.fr.terminolog
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_ProblemCodes_CISIS : 0 / 2 / 1
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_ProblemePPSPAERPA_CISIS : 0 / 0 / 1
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_Procedure_CISIS : 0 / 2 / 1
- /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_ProfessionPersonnelActivite_CISIS : 0 / 0 / 1
+ /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_ProfessionPersonnelActivite_CISIS : 1 / 1 / 2
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_Profession_CISIS : 0 / 2 / 1
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_ProfessionsExposees_CISIS : 0 / 0 / 1
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_ProgressionCancer_CISIS : 0 / 0 / 1
@@ -702,7 +702,7 @@ Generated Tue Dec 17 15:42:46 UTC 2024. FHIR version 4.0.1 for ans.fr.terminolog
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_TypeDispositifOcculaire_CISIS : 0 / 2 / 1
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_TypeDossier_CISIS : 0 / 0 / 1
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_TypeEvenementIndesirablePrevisible_CISIS : 0 / 2 / 1
- /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_TypeGarde_CISIS : 0 / 0 / 1
+ /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_TypeGarde_CISIS : 1 / 1 / 1
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_TypeHisto_EtatTumoral_CISIS : 0 / 2 / 1
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_TypeInterventionVoieBasse_CISIS : 0 / 3 / 1
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_TypeIntervention_CISIS : 0 / 2 / 1
@@ -730,7 +730,7 @@ Generated Tue Dec 17 15:42:46 UTC 2024. FHIR version 4.0.1 for ans.fr.terminolog
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_UFCV_CompProt_CISIS : 0 / 0 / 1
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_UFCV_Connx_CISIS : 0 / 0 / 1
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_UFCV_EffetINR_CISIS : 0 / 2 / 1
- /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_UFCV_Impl_CISIS : 0 / 3 / 1
+ /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_UFCV_Impl_CISIS : 1 / 4 / 2
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_UFCV_Lat_CISIS : 0 / 2 / 1
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_UFCV_MatImpl_CISIS : 0 / 0 / 1
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_UFCV_MotImplEndoC_CISIS : 0 / 0 / 1
@@ -773,6 +773,7 @@ Generated Tue Dec 17 15:42:46 UTC 2024. FHIR version 4.0.1 for ans.fr.terminolog
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/TRE/NUVA : 3 / 2 / 5
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/TRE/SERAFIN_PH : 0 / 1 / 4
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/TRE/ServiceType : 0 / 0 / 1
+ /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/TRE/TA_ASIP : 0 / 1 / 1
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/TRE/TRE_A00_ProducteurDocNonPS : 0 / 1 / 4
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/TRE/TRE_A01_CadreExercice : 0 / 1 / 4
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/TRE/TRE_A02_ProfessionSavFaire_CISIS : 0 / 1 / 4
@@ -925,7 +926,6 @@ Generated Tue Dec 17 15:42:46 UTC 2024. FHIR version 4.0.1 for ans.fr.terminolog
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/TRE/TRE_R303_HL7v3AdministrativeGender : 0 / 1 / 4
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/TRE/TRE_R304_HL7v3ActCode : 0 / 1 / 4
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/TRE/TRE_R305_TypeRencontre : 0 / 1 / 4
- /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/TRE/TRE_R308_TAASIP : 0 / 1 / 1
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/TRE/TRE_R30_RegionOM : 0 / 1 / 4
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/TRE/TRE_R314_TypeCreneau : 0 / 1 / 4
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/TRE/TRE_R316_AutreCategorieEtablissement : 0 / 1 / 4
@@ -1049,13 +1049,19 @@ WARNING: Unable to find ImplementationGuide.definition.resource.description for 
 WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource ConceptMap/ASS-X10-AgregatCategorieEtablissement.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
 WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource ConceptMap/ASS-X14-AgregatDisciplineEquipementSocial.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
 WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource ConceptMap/ASS-X15-AgregatDisciplineEnseignement.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+ERROR: /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/output/ValueSet-1.2.250.1.213.1.1.4.2.15.html#/html/body/div/div/div/div/div/div/div/input/div/div/div/ul/li/table/tr/td/a at Line 360, column 11: The link 'CodeSystem-1.2.250.1.213.1.1.4.322.html#1.2.250.1.213.1.1.4.322-D0009-6' for "D0009-6" cannot be resolved (valid targets: 1749 targets)
+ERROR: /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/output/ValueSet-1.2.250.1.213.1.1.5.128.html#/html/body/div/div/div/div/div/div/div/input/div/div/div/ul/li/table/tr/td/a at Line 357, column 563: The link 'CodeSystem-1.2.250.1.213.1.1.4.322.html#1.2.250.1.213.1.1.4.322-GEN-117' for "GEN-117" cannot be resolved (valid targets: 1749 targets)
 ERROR: /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/output/ValueSet-1.2.250.1.213.1.1.5.18.html#/html/body/div/div/div/div/div/div/div/input/div/div/div/ul/li/table/tr/td/a at Line 357, column 1040: The link 'CodeSystem-TRE-R304-HL7v3ActCode.html#TRE-R304-HL7v3ActCode-SS' for "SS" cannot be resolved (valid targets: [publish-box, segment-post-footer, hl7-search-lnk, TRE-R304-HL7v3ActCode, TRE-R304-HL7v3ActCode-und, codesystem-	
 	-tre_r304_hl7v3actcode, hcTRE-R304-HL7v3ActCode, TRE-R304-HL7v3ActCode-EMER, top, TRE-R304-HL7v3ActCode-IMP, root, stripe, segment-footer, TRE-R304-HL7v3ActCode-VR, segment-content, TRE-R304-HL7v3ActCode-HH, ans-nav, segment-header, bottom, hl7-logo, TRE-R304-HL7v3ActCode-FLD, family-nav, ig-status, orig, segment-navbar, segment-breadcrumb, TRE-R304-HL7v3ActCode-AMB])
-ERROR: /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/output/ValueSet-1.2.250.1.213.1.1.5.624.html#/html/body/div/div/div/div/div/div/div/input/div/div/div/ul/li/table/tr/td/a at Line 357, column 285: The link 'CodeSystem-1.2.250.1.213.1.1.4.322.html#1.2.250.1.213.1.1.4.322-GEN-266' for "GEN-266" cannot be resolved (valid targets: 1736 targets)
-ERROR: /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/output/ValueSet-1.2.250.1.213.1.1.5.624.html#/html/body/div/div/div/div/div/div/div/input/div/div/div/ul/li/table/tr/td/a at Line 357, column 412: The link 'CodeSystem-1.2.250.1.213.1.1.4.322.html#1.2.250.1.213.1.1.4.322-GEN-267' for "GEN-267" cannot be resolved (valid targets: 1736 targets)
-ERROR: /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/output/ValueSet-1.2.250.1.213.1.1.5.626.html#/html/body/div/div/div/div/div/div/div/input/div/div/div/ul/li/table/tr/td/a at Line 357, column 285: The link 'CodeSystem-1.2.250.1.213.1.1.4.322.html#1.2.250.1.213.1.1.4.322-GEN-267' for "GEN-267" cannot be resolved (valid targets: 1736 targets)
-ERROR: /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/output/ValueSet-1.2.250.1.213.1.1.5.626.html#/html/body/div/div/div/div/div/div/div/input/div/div/div/ul/li/table/tr/td/a at Line 357, column 411: The link 'CodeSystem-1.2.250.1.213.1.1.4.322.html#1.2.250.1.213.1.1.4.322-GEN-268' for "GEN-268" cannot be resolved (valid targets: 1736 targets)
-ERROR: /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/output/ValueSet-1.2.250.1.213.1.1.5.626.html#/html/body/div/div/div/div/div/div/div/input/div/div/div/ul/li/table/tr/td/a at Line 357, column 537: The link 'CodeSystem-1.2.250.1.213.1.1.4.322.html#1.2.250.1.213.1.1.4.322-GEN-269' for "GEN-269" cannot be resolved (valid targets: 1736 targets)
+ERROR: /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/output/ValueSet-1.2.250.1.213.1.1.5.42.html#/html/body/div/div/div/div/div/div/div/input/div/div/div/ul/li/table/tr/td/a at Line 360, column 11: The link 'CodeSystem-1.2.250.1.213.1.1.4.322.html#1.2.250.1.213.1.1.4.322-GEN-092.4605.4603' for "GEN-092.05.03" cannot be resolved (valid targets: 1749 targets)
+ERROR: /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/output/ValueSet-1.2.250.1.213.1.1.5.488.html#/html/body/div/div/div/div/div/div/div/input/div/div/div/ul/li/table/tr/td/a at Line 360, column 11: The link 'CodeSystem-1.2.250.1.213.1.1.4.322.html#1.2.250.1.213.1.1.4.322-GEN-189' for "GEN-189" cannot be resolved (valid targets: 1749 targets)
+ERROR: /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/output/ValueSet-1.2.250.1.213.1.1.5.488.html#/html/body/div/div/div/div/div/div/div/input/div/div/div/ul/li/table/tr/td/a at Line 362, column 11: The link 'CodeSystem-1.2.250.1.213.1.1.4.322.html#1.2.250.1.213.1.1.4.322-GEN-190' for "GEN-190" cannot be resolved (valid targets: 1749 targets)
+ERROR: /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/output/ValueSet-1.2.250.1.213.1.1.5.624.html#/html/body/div/div/div/div/div/div/div/input/div/div/div/ul/li/table/tr/td/a at Line 357, column 285: The link 'CodeSystem-1.2.250.1.213.1.1.4.322.html#1.2.250.1.213.1.1.4.322-GEN-266' for "GEN-266" cannot be resolved (valid targets: 1749 targets)
+ERROR: /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/output/ValueSet-1.2.250.1.213.1.1.5.624.html#/html/body/div/div/div/div/div/div/div/input/div/div/div/ul/li/table/tr/td/a at Line 357, column 412: The link 'CodeSystem-1.2.250.1.213.1.1.4.322.html#1.2.250.1.213.1.1.4.322-GEN-267' for "GEN-267" cannot be resolved (valid targets: 1749 targets)
+ERROR: /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/output/ValueSet-1.2.250.1.213.1.1.5.626.html#/html/body/div/div/div/div/div/div/div/input/div/div/div/ul/li/table/tr/td/a at Line 357, column 285: The link 'CodeSystem-1.2.250.1.213.1.1.4.322.html#1.2.250.1.213.1.1.4.322-GEN-267' for "GEN-267" cannot be resolved (valid targets: 1749 targets)
+ERROR: /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/output/ValueSet-1.2.250.1.213.1.1.5.626.html#/html/body/div/div/div/div/div/div/div/input/div/div/div/ul/li/table/tr/td/a at Line 357, column 411: The link 'CodeSystem-1.2.250.1.213.1.1.4.322.html#1.2.250.1.213.1.1.4.322-GEN-268' for "GEN-268" cannot be resolved (valid targets: 1749 targets)
+ERROR: /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/output/ValueSet-1.2.250.1.213.1.1.5.626.html#/html/body/div/div/div/div/div/div/div/input/div/div/div/ul/li/table/tr/td/a at Line 357, column 537: The link 'CodeSystem-1.2.250.1.213.1.1.4.322.html#1.2.250.1.213.1.1.4.322-GEN-269' for "GEN-269" cannot be resolved (valid targets: 1749 targets)
+ERROR: /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/output/ValueSet-1.2.250.1.213.1.1.5.64.html#/html/body/div/div/div/div/div/div/div/input/div/div/div/ul/li/table/tr/td/a at Line 360, column 11: The link 'CodeSystem-1.2.250.1.213.1.1.4.322.html#1.2.250.1.213.1.1.4.322-GEN-117' for "GEN-117" cannot be resolved (valid targets: 1749 targets)
 ERROR: /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/output/ValueSet-1.2.250.1.213.1.1.5.689.html#/html/body/div/div/div/div/div/div/div/input/div/div/div/ul/li/table/tr/td/a at Line 357, column 305: The link 'CodeSystem-TRE-A09-DICOMuidRegistry.html#TRE-A09-DICOMuidRegistry-1.462.46840.4610008.465.461.464.461.461.461' for "1.2.840.10008.5.1.4.1.1.1" cannot be resolved (valid targets: [ans-nav, segment-header, publish-box, bottom, hl7-logo, TRE-A09-DICOMuidRegistry-1.462.46840.4610008.465.461.464.461.461.4688.4659, hcTRE-A09-DICOMuidRegistry, segment-post-footer, hl7-search-lnk, TRE-A09-DICOMuidRegistry-und, family-nav, ig-status, top, orig, TRE-A09-DICOMuidRegistry-urn.58ihe.58rad.581.462.46840.4610008.465.461.464.461.461.4688.4659, root, stripe, segment-footer, codesystem-	
 	-tre_a09_dicomuidregistry, segment-navbar, segment-content, TRE-A09-DICOMuidRegistry, segment-breadcrumb])
 ERROR: /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/output/ValueSet-1.2.250.1.213.1.1.5.689.html#/html/body/div/div/div/div/div/div/div/input/div/div/div/ul/li/table/tr/td/a at Line 357, column 515: The link 'CodeSystem-TRE-A09-DICOMuidRegistry.html#TRE-A09-DICOMuidRegistry-1.462.46840.4610008.465.461.464.461.461.461.461' for "1.2.840.10008.5.1.4.1.1.1.1" cannot be resolved (valid targets: [ans-nav, segment-header, publish-box, bottom, hl7-logo, TRE-A09-DICOMuidRegistry-1.462.46840.4610008.465.461.464.461.461.4688.4659, hcTRE-A09-DICOMuidRegistry, segment-post-footer, hl7-search-lnk, TRE-A09-DICOMuidRegistry-und, family-nav, ig-status, top, orig, TRE-A09-DICOMuidRegistry-urn.58ihe.58rad.581.462.46840.4610008.465.461.464.461.461.4688.4659, root, stripe, segment-footer, codesystem-	
@@ -1150,6 +1156,8 @@ ERROR: /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSou
 	-tre_a09_dicomuidregistry, segment-navbar, segment-content, TRE-A09-DICOMuidRegistry, segment-breadcrumb])
 ERROR: /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/output/ValueSet-1.2.250.1.213.1.1.5.689.html#/html/body/div/div/div/div/div/div/div/input/div/div/div/ul/li/table/tr/td/a at Line 357, column 10455: The link 'CodeSystem-TRE-A09-DICOMuidRegistry.html#TRE-A09-DICOMuidRegistry-1.462.46840.4610008.465.461.464.461.461.4668.462' for "1.2.840.10008.5.1.4.1.1.68.2" cannot be resolved (valid targets: [ans-nav, segment-header, publish-box, bottom, hl7-logo, TRE-A09-DICOMuidRegistry-1.462.46840.4610008.465.461.464.461.461.4688.4659, hcTRE-A09-DICOMuidRegistry, segment-post-footer, hl7-search-lnk, TRE-A09-DICOMuidRegistry-und, family-nav, ig-status, top, orig, TRE-A09-DICOMuidRegistry-urn.58ihe.58rad.581.462.46840.4610008.465.461.464.461.461.4688.4659, root, stripe, segment-footer, codesystem-	
 	-tre_a09_dicomuidregistry, segment-navbar, segment-content, TRE-A09-DICOMuidRegistry, segment-breadcrumb])
+ERROR: /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/output/ValueSet-1.2.250.1.213.1.1.5.705.html#/html/body/div/div/div/div/div/div/div/input/div/div/div/ul/li/table/tr/td/a at Line 357, column 434: The link 'CodeSystem-1.2.250.1.213.1.1.4.322.html#1.2.250.1.213.1.1.4.322-GEN-085' for "GEN-085" cannot be resolved (valid targets: 1749 targets)
+ERROR: /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/output/ValueSet-1.2.250.1.213.1.1.5.743.html#/html/body/div/div/div/div/div/div/div/input/div/div/div/ul/li/table/tr/td/a at Line 357, column 414: The link 'CodeSystem-1.2.250.1.213.1.1.4.322.html#1.2.250.1.213.1.1.4.322-GEN-117' for "GEN-117" cannot be resolved (valid targets: 1749 targets)
 ERROR: /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/output/ValueSet-1.2.250.1.213.1.1.5.765.html#/html/body/div/div/div/div/div/div/div/input/div/div/div/ul/li/table/tr/td/a at Line 357, column 296: The link 'CodeSystem-TRE-R304-HL7v3ActCode.html#TRE-R304-HL7v3ActCode-FFC' for "FFC" cannot be resolved (valid targets: [publish-box, segment-post-footer, hl7-search-lnk, TRE-R304-HL7v3ActCode, TRE-R304-HL7v3ActCode-und, codesystem-	
 	-tre_r304_hl7v3actcode, hcTRE-R304-HL7v3ActCode, TRE-R304-HL7v3ActCode-EMER, top, TRE-R304-HL7v3ActCode-IMP, root, stripe, segment-footer, TRE-R304-HL7v3ActCode-VR, segment-content, TRE-R304-HL7v3ActCode-HH, ans-nav, segment-header, bottom, hl7-logo, TRE-R304-HL7v3ActCode-FLD, family-nav, ig-status, orig, segment-navbar, segment-breadcrumb, TRE-R304-HL7v3ActCode-AMB])
 ERROR: /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/output/ValueSet-1.2.250.1.213.1.1.5.765.html#/html/body/div/div/div/div/div/div/div/input/div/div/div/ul/li/table/tr/td/a at Line 357, column 436: The link 'CodeSystem-TRE-R304-HL7v3ActCode.html#TRE-R304-HL7v3ActCode-FFP' for "FFP" cannot be resolved (valid targets: [publish-box, segment-post-footer, hl7-search-lnk, TRE-R304-HL7v3ActCode, TRE-R304-HL7v3ActCode-und, codesystem-	
@@ -3079,6 +3087,8 @@ WARNING: ValueSet/1.2.250.1.213.1.1.5.757: ValueSet.compose.include[3]: Unknown 
 WARNING: ValueSet.where(id = '1.2.250.1.213.1.1.5.757'): Error from http://tx.fhir.org/r4: Unable to provide support for code system urn:oid:2.16.840.1.113883.6.1
 == input/ontoserver/JDV/JDV_Acte_CSE_CISIS.json ==
 == input/ontoserver/JDV/JDV_Actes_CS8_CISIS.json ==
+WARNING: ValueSet/1.2.250.1.213.1.1.5.705: ValueSet.compose.include[0].concept[1]: The code 'GEN-085' is not valid in the system https://smt.esante.gouv.fr/fhir/CodeSystem/1.2.250.1.213.1.1.4.322 (Unknown code 'GEN-085' in the CodeSystem 'https://smt.esante.gouv.fr/fhir/CodeSystem/1.2.250.1.213.1.1.4.322' version '20241217000000')
+ERROR: ValueSet.text.div: Hyperlink 'CodeSystem-1.2.250.1.213.1.1.4.322.html#1.2.250.1.213.1.1.4.322-GEN-085' at 'div/ul/li/table/tr/td/a' for 'GEN-085' does not resolve
 == input/ontoserver/JDV/JDV_Activite_CISIS.json ==
 == input/ontoserver/JDV/JDV_Addictions_CISIS.json ==
 WARNING: ValueSet/1.2.250.1.213.1.1.5.80: ValueSet.compose.include[0]: Unknown System 'urn:oid:2.16.840.1.113883.6.1' specified, so Concepts and Filters can't be checked (Details: A definition for CodeSystem 'urn:oid:2.16.840.1.113883.6.1' could not be found, so the code cannot be validated)
@@ -3196,7 +3206,7 @@ WARNING: ValueSet.where(id = '1.2.250.1.213.1.1.5.143'): Error from http://tx.fh
 == input/ontoserver/JDV/JDV_Classification_ACR_Echographie_CISIS.json ==
 == input/ontoserver/JDV/JDV_ClicheTechniquementInsuffisant_CISIS.json ==
 == input/ontoserver/JDV/JDV_CodesDocumentImagerie_CISIS.json ==
-INFORMATION: ValueSet/1.2.250.1.213.1.1.5.687: ValueSet.compose.include[0]: The value set include has too many codes to validate (0), so each individual code has not been checked
+INFORMATION: ValueSet/1.2.250.1.213.1.1.5.687: ValueSet.compose.include[0]: The value set include has too many codes to validate (6,307), so each individual code has not been checked
 WARNING: ValueSet.where(id = '1.2.250.1.213.1.1.5.687'): Error from http://tx.fhir.org/r4: Unable to provide support for code system urn:oid:2.16.840.1.113883.6.1
 == input/ontoserver/JDV/JDV_CompletudeDispensation_CISIS.json ==
 WARNING: ValueSet/1.2.250.1.213.1.1.5.765: ValueSet.compose.include[0].concept[0]: The code 'FFC' is not valid in the system https://mos.esante.gouv.fr/NOS/TRE_R304-HL7v3ActCode/FHIR/TRE-R304-HL7v3ActCode (Unknown code 'FFC' in the CodeSystem 'https://mos.esante.gouv.fr/NOS/TRE_R304-HL7v3ActCode/FHIR/TRE-R304-HL7v3ActCode' version '20231215120000')
@@ -3359,7 +3369,12 @@ WARNING: ValueSet/1.2.250.1.213.1.1.5.490: ValueSet.compose.include[0]: Unknown 
 WARNING: ValueSet.where(id = '1.2.250.1.213.1.1.5.490'): Error from http://tx.fhir.org/r4: Unable to provide support for code system urn:oid:2.16.840.1.113883.6.96
 == input/ontoserver/JDV/JDV_FacteursDeRisqueSociaux_CISIS.json ==
 WARNING: ValueSet/1.2.250.1.213.1.1.5.488: ValueSet.compose.include[0]: Unknown System 'urn:oid:2.16.840.1.113883.6.96' specified, so Concepts and Filters can't be checked (Details: A definition for CodeSystem 'urn:oid:2.16.840.1.113883.6.96' could not be found, so the code cannot be validated)
+WARNING: ValueSet/1.2.250.1.213.1.1.5.488: ValueSet.compose.include[1].concept[0]: The code 'GEN-189' is not valid in the system https://smt.esante.gouv.fr/fhir/CodeSystem/1.2.250.1.213.1.1.4.322 (Unknown code 'GEN-189' in the CodeSystem 'https://smt.esante.gouv.fr/fhir/CodeSystem/1.2.250.1.213.1.1.4.322' version '20241217000000')
+INFORMATION: ValueSet/1.2.250.1.213.1.1.5.488: ValueSet.compose.include[1].concept[0]: Unknown code 'GEN-189' in the CodeSystem 'https://smt.esante.gouv.fr/fhir/CodeSystem/1.2.250.1.213.1.1.4.322' version '20241217000000'
+WARNING: ValueSet/1.2.250.1.213.1.1.5.488: ValueSet.compose.include[1].concept[1]: The code 'GEN-190' is not valid in the system https://smt.esante.gouv.fr/fhir/CodeSystem/1.2.250.1.213.1.1.4.322 (Unknown code 'GEN-190' in the CodeSystem 'https://smt.esante.gouv.fr/fhir/CodeSystem/1.2.250.1.213.1.1.4.322' version '20241217000000')
 WARNING: ValueSet.where(id = '1.2.250.1.213.1.1.5.488'): Error from http://tx.fhir.org/r4: Unable to provide support for code system urn:oid:2.16.840.1.113883.6.96
+ERROR: ValueSet.text.div: Hyperlink 'CodeSystem-1.2.250.1.213.1.1.4.322.html#1.2.250.1.213.1.1.4.322-GEN-189' at 'div/ul/li/table/tr/td/a' for 'GEN-189' does not resolve
+ERROR: ValueSet.text.div: Hyperlink 'CodeSystem-1.2.250.1.213.1.1.4.322.html#1.2.250.1.213.1.1.4.322-GEN-190' at 'div/ul/li/table/tr/td/a' for 'GEN-190' does not resolve
 == input/ontoserver/JDV/JDV_FamilleFemmes_CISIS.json ==
 == input/ontoserver/JDV/JDV_FamilleID_CISIS.json ==
 == input/ontoserver/JDV/JDV_FluideRouteCodes_CISIS.json ==
@@ -3646,7 +3661,7 @@ WARNING: ValueSet/JDV-J122-Profession-ENREG: ValueSet: Published value sets SHOU
 == input/ontoserver/JDV/JDV_J123_Pays_MDPH.json ==
 WARNING: ValueSet/JDV-J123-Pays-MDPH: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.title is mandatory, but it is not present
 == input/ontoserver/JDV/JDV_J124_Commune.json ==
-INFORMATION: ValueSet/JDV-J124-Commune: ValueSet.compose.include[0]: The value set include has too many codes to validate (0), so each individual code has not been checked
+INFORMATION: ValueSet/JDV-J124-Commune: ValueSet.compose.include[0]: The value set include has too many codes to validate (35,030), so each individual code has not been checked
 WARNING: ValueSet/JDV-J124-Commune: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.title is mandatory, but it is not present
 WARNING: ValueSet.where(id = 'JDV-J124-Commune'): Error from http://tx.fhir.org/r4: Unable to provide support for code system https://mos.esante.gouv.fr/NOS/TRE_R13-CommuneOM/FHIR/TRE-R13-CommuneOM
 == input/ontoserver/JDV/JDV_J125_MotifRejet_ENREG.json ==
@@ -3766,7 +3781,7 @@ WARNING: ValueSet/JDV-J168-Pays-EPARS: ValueSet: Published value sets SHOULD con
 == input/ontoserver/JDV/JDV_J169_MotifFinActivite_EPARS.json ==
 WARNING: ValueSet/JDV-J169-MotifFinActivite-EPARS: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.title is mandatory, but it is not present
 == input/ontoserver/JDV/JDV_J16_ActeSpecifique_ROR.json ==
-INFORMATION: ValueSet/JDV-J16-ActeSpecifique-ROR: ValueSet.compose.include[0]: The value set include has too many codes to validate (0), so each individual code has not been checked
+INFORMATION: ValueSet/JDV-J16-ActeSpecifique-ROR: ValueSet.compose.include[0]: The value set include has too many codes to validate (1,139), so each individual code has not been checked
 WARNING: ValueSet/JDV-J16-ActeSpecifique-ROR: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.title is mandatory, but it is not present
 INFORMATION: ValueSet.where(id = 'JDV-J16-ActeSpecifique-ROR'): The value set expansion is too large, and only a subset has been displayed
 == input/ontoserver/JDV/JDV_J170_AutoriteEnregistrement_EPARS.json ==
@@ -4211,7 +4226,12 @@ WARNING: ValueSet/1.2.250.1.213.1.1.5.751: ValueSet.compose.include[0]: Unknown 
 WARNING: ValueSet.where(id = '1.2.250.1.213.1.1.5.751'): Error from http://tx.fhir.org/r4: Unable to provide support for code system urn:oid:2.16.840.1.113883.6.3
 == input/ontoserver/JDV/JDV_Lien_Assure_Beneficiaire_CISIS.json ==
 == input/ontoserver/JDV/JDV_LieuAccouchement_CISIS.json ==
+WARNING: ValueSet/1.2.250.1.213.1.1.5.743: ValueSet.compose.include[0].concept[1]: The code 'GEN-117' is not valid in the system https://smt.esante.gouv.fr/fhir/CodeSystem/1.2.250.1.213.1.1.4.322 (Unknown code 'GEN-117' in the CodeSystem 'https://smt.esante.gouv.fr/fhir/CodeSystem/1.2.250.1.213.1.1.4.322' version '20241217000000')
+ERROR: ValueSet.text.div: Hyperlink 'CodeSystem-1.2.250.1.213.1.1.4.322.html#1.2.250.1.213.1.1.4.322-GEN-117' at 'div/ul/li/table/tr/td/a' for 'GEN-117' does not resolve
 == input/ontoserver/JDV/JDV_LieudeVie_CISIS.json ==
+WARNING: ValueSet/1.2.250.1.213.1.1.5.64: ValueSet.compose.include[1].concept[0]: The code 'GEN-117' is not valid in the system https://smt.esante.gouv.fr/fhir/CodeSystem/1.2.250.1.213.1.1.4.322 (Unknown code 'GEN-117' in the CodeSystem 'https://smt.esante.gouv.fr/fhir/CodeSystem/1.2.250.1.213.1.1.4.322' version '20241217000000')
+INFORMATION: ValueSet/1.2.250.1.213.1.1.5.64: ValueSet.compose.include[1].concept[0]: Unknown code 'GEN-117' in the CodeSystem 'https://smt.esante.gouv.fr/fhir/CodeSystem/1.2.250.1.213.1.1.4.322' version '20241217000000'
+ERROR: ValueSet.text.div: Hyperlink 'CodeSystem-1.2.250.1.213.1.1.4.322.html#1.2.250.1.213.1.1.4.322-GEN-117' at 'div/ul/li/table/tr/td/a' for 'GEN-117' does not resolve
 == input/ontoserver/JDV/JDV_LocaThromboseVeineuse_CISIS.json ==
 WARNING: ValueSet/1.2.250.1.213.1.1.5.215: ValueSet.compose.include[1]: Unknown System 'urn:oid:2.16.840.1.113883.6.96' specified, so Concepts and Filters can't be checked (Details: A definition for CodeSystem 'urn:oid:2.16.840.1.113883.6.96' could not be found, so the code cannot be validated)
 WARNING: ValueSet.where(id = '1.2.250.1.213.1.1.5.215'): Error from http://tx.fhir.org/r4: Unable to provide support for code system urn:oid:2.16.840.1.113883.6.96
@@ -4332,7 +4352,7 @@ WARNING: ValueSet.where(id = '1.2.250.1.213.1.1.5.698'): Error from http://tx.fh
 WARNING: ValueSet/1.2.250.1.213.1.1.5.688: ValueSet.compose.include[0]: Unknown System 'urn:oid:2.16.840.1.113883.6.96' specified, so Concepts and Filters can't be checked (Details: A definition for CodeSystem 'urn:oid:2.16.840.1.113883.6.96' could not be found, so the code cannot be validated)
 WARNING: ValueSet.where(id = '1.2.250.1.213.1.1.5.688'): Error from http://tx.fhir.org/r4: Unable to provide support for code system urn:oid:2.16.840.1.113883.6.96
 == input/ontoserver/JDV/JDV_Morphologie_CISIS.json ==
-INFORMATION: ValueSet/1.2.250.1.213.1.1.5.585: ValueSet.compose.include[0]: The value set include has too many codes to validate (0), so each individual code has not been checked
+INFORMATION: ValueSet/1.2.250.1.213.1.1.5.585: ValueSet.compose.include[0]: The value set include has too many codes to validate (1,032), so each individual code has not been checked
 WARNING: ValueSet.where(id = '1.2.250.1.213.1.1.5.585'): Error from http://tx.fhir.org/r4: Unable to provide support for code system urn:oid:2.16.840.1.113883.6.43.1
 == input/ontoserver/JDV/JDV_MotifConsultationOphtalmologique_CISIS.json ==
 == input/ontoserver/JDV/JDV_MotifDeclenchementTravail_CISIS.json ==
@@ -4463,6 +4483,9 @@ WARNING: ValueSet.where(id = '1.2.250.1.213.1.1.5.172'): Error from http://tx.fh
 WARNING: ValueSet/1.2.250.1.213.1.1.5.673: ValueSet.compose.include[0]: Unknown System 'urn:oid:2.16.840.1.113883.6.96' specified, so Concepts and Filters can't be checked (Details: A definition for CodeSystem 'urn:oid:2.16.840.1.113883.6.96' could not be found, so the code cannot be validated)
 WARNING: ValueSet.where(id = '1.2.250.1.213.1.1.5.673'): Error from http://tx.fhir.org/r4: Unable to provide support for code system urn:oid:2.16.840.1.113883.6.96
 == input/ontoserver/JDV/JDV_ProfessionPersonnelActivite_CISIS.json ==
+WARNING: ValueSet/1.2.250.1.213.1.1.5.42: ValueSet.compose.include[1].concept[0]: The code 'GEN-092.05.03' is not valid in the system https://smt.esante.gouv.fr/fhir/CodeSystem/1.2.250.1.213.1.1.4.322 (Unknown code 'GEN-092.05.03' in the CodeSystem 'https://smt.esante.gouv.fr/fhir/CodeSystem/1.2.250.1.213.1.1.4.322' version '20241217000000')
+INFORMATION: ValueSet/1.2.250.1.213.1.1.5.42: ValueSet.compose.include[1].concept[0]: Unknown code 'GEN-092.05.03' in the CodeSystem 'https://smt.esante.gouv.fr/fhir/CodeSystem/1.2.250.1.213.1.1.4.322' version '20241217000000'
+ERROR: ValueSet.text.div: Hyperlink 'CodeSystem-1.2.250.1.213.1.1.4.322.html#1.2.250.1.213.1.1.4.322-GEN-092.4605.4603' at 'div/ul/li/table/tr/td/a' for 'GEN-092.05.03' does not resolve
 == input/ontoserver/JDV/JDV_Profession_CISIS.json ==
 WARNING: ValueSet/1.2.250.1.213.1.1.5.109: ValueSet.compose.include[0]: Unknown System 'urn:oid:1.2.250.1.213.2.13' specified, so Concepts and Filters can't be checked (Details: A definition for CodeSystem 'urn:oid:1.2.250.1.213.2.13' could not be found, so the code cannot be validated)
 WARNING: ValueSet.where(id = '1.2.250.1.213.1.1.5.109'): Error from http://tx.fhir.org/r4: Unable to provide support for code system urn:oid:1.2.250.1.213.2.13
@@ -4815,10 +4838,10 @@ WARNING: ValueSet.where(id = '1.2.250.1.213.1.1.5.492'): Error from http://tx.fh
 == input/ontoserver/JDV/JDV_TypeConclusion_CISIS.json ==
 == input/ontoserver/JDV/JDV_TypeDeDistanceDeVisualisation_CISIS.json ==
 == input/ontoserver/JDV/JDV_TypeDeLentilles_CISIS.json ==
-WARNING: ValueSet/1.2.250.1.213.1.1.5.626: ValueSet.compose.include[0].concept[0]: The code 'GEN-267' is not valid in the system https://smt.esante.gouv.fr/fhir/CodeSystem/1.2.250.1.213.1.1.4.322 (Unknown code 'GEN-267' in the CodeSystem 'https://smt.esante.gouv.fr/fhir/CodeSystem/1.2.250.1.213.1.1.4.322' version 'V1')
-INFORMATION: ValueSet/1.2.250.1.213.1.1.5.626: ValueSet.compose.include[0].concept[0]: Unknown code 'GEN-267' in the CodeSystem 'https://smt.esante.gouv.fr/fhir/CodeSystem/1.2.250.1.213.1.1.4.322' version 'V1'
-WARNING: ValueSet/1.2.250.1.213.1.1.5.626: ValueSet.compose.include[0].concept[1]: The code 'GEN-268' is not valid in the system https://smt.esante.gouv.fr/fhir/CodeSystem/1.2.250.1.213.1.1.4.322 (Unknown code 'GEN-268' in the CodeSystem 'https://smt.esante.gouv.fr/fhir/CodeSystem/1.2.250.1.213.1.1.4.322' version 'V1')
-WARNING: ValueSet/1.2.250.1.213.1.1.5.626: ValueSet.compose.include[0].concept[2]: The code 'GEN-269' is not valid in the system https://smt.esante.gouv.fr/fhir/CodeSystem/1.2.250.1.213.1.1.4.322 (Unknown code 'GEN-269' in the CodeSystem 'https://smt.esante.gouv.fr/fhir/CodeSystem/1.2.250.1.213.1.1.4.322' version 'V1')
+WARNING: ValueSet/1.2.250.1.213.1.1.5.626: ValueSet.compose.include[0].concept[0]: The code 'GEN-267' is not valid in the system https://smt.esante.gouv.fr/fhir/CodeSystem/1.2.250.1.213.1.1.4.322 (Unknown code 'GEN-267' in the CodeSystem 'https://smt.esante.gouv.fr/fhir/CodeSystem/1.2.250.1.213.1.1.4.322' version '20241217000000')
+INFORMATION: ValueSet/1.2.250.1.213.1.1.5.626: ValueSet.compose.include[0].concept[0]: Unknown code 'GEN-267' in the CodeSystem 'https://smt.esante.gouv.fr/fhir/CodeSystem/1.2.250.1.213.1.1.4.322' version '20241217000000'
+WARNING: ValueSet/1.2.250.1.213.1.1.5.626: ValueSet.compose.include[0].concept[1]: The code 'GEN-268' is not valid in the system https://smt.esante.gouv.fr/fhir/CodeSystem/1.2.250.1.213.1.1.4.322 (Unknown code 'GEN-268' in the CodeSystem 'https://smt.esante.gouv.fr/fhir/CodeSystem/1.2.250.1.213.1.1.4.322' version '20241217000000')
+WARNING: ValueSet/1.2.250.1.213.1.1.5.626: ValueSet.compose.include[0].concept[2]: The code 'GEN-269' is not valid in the system https://smt.esante.gouv.fr/fhir/CodeSystem/1.2.250.1.213.1.1.4.322 (Unknown code 'GEN-269' in the CodeSystem 'https://smt.esante.gouv.fr/fhir/CodeSystem/1.2.250.1.213.1.1.4.322' version '20241217000000')
 ERROR: ValueSet.text.div: Hyperlink 'CodeSystem-1.2.250.1.213.1.1.4.322.html#1.2.250.1.213.1.1.4.322-GEN-267' at 'div/ul/li/table/tr/td/a' for 'GEN-267' does not resolve
 ERROR: ValueSet.text.div: Hyperlink 'CodeSystem-1.2.250.1.213.1.1.4.322.html#1.2.250.1.213.1.1.4.322-GEN-268' at 'div/ul/li/table/tr/td/a' for 'GEN-268' does not resolve
 ERROR: ValueSet.text.div: Hyperlink 'CodeSystem-1.2.250.1.213.1.1.4.322.html#1.2.250.1.213.1.1.4.322-GEN-269' at 'div/ul/li/table/tr/td/a' for 'GEN-269' does not resolve
@@ -4834,9 +4857,9 @@ WARNING: ValueSet/1.2.250.1.213.1.1.5.643: ValueSet.compose.include[1]: Unknown 
 WARNING: ValueSet/1.2.250.1.213.1.1.5.643: ValueSet.compose.include[3]: Unknown System 'urn:oid:2.16.840.1.113883.6.1' specified, so Concepts and Filters can't be checked (Details: A definition for CodeSystem 'urn:oid:2.16.840.1.113883.6.1' could not be found, so the code cannot be validated)
 WARNING: ValueSet.where(id = '1.2.250.1.213.1.1.5.643'): Error from http://tx.fhir.org/r4: Unable to provide support for code system urn:oid:2.16.840.1.113883.6.1
 == input/ontoserver/JDV/JDV_TypeDePrisme_CISIS.json ==
-WARNING: ValueSet/1.2.250.1.213.1.1.5.624: ValueSet.compose.include[0].concept[0]: The code 'GEN-266' is not valid in the system https://smt.esante.gouv.fr/fhir/CodeSystem/1.2.250.1.213.1.1.4.322 (Unknown code 'GEN-266' in the CodeSystem 'https://smt.esante.gouv.fr/fhir/CodeSystem/1.2.250.1.213.1.1.4.322' version 'V1')
-INFORMATION: ValueSet/1.2.250.1.213.1.1.5.624: ValueSet.compose.include[0].concept[0]: Unknown code 'GEN-266' in the CodeSystem 'https://smt.esante.gouv.fr/fhir/CodeSystem/1.2.250.1.213.1.1.4.322' version 'V1'
-WARNING: ValueSet/1.2.250.1.213.1.1.5.624: ValueSet.compose.include[0].concept[1]: The code 'GEN-267' is not valid in the system https://smt.esante.gouv.fr/fhir/CodeSystem/1.2.250.1.213.1.1.4.322 (Unknown code 'GEN-267' in the CodeSystem 'https://smt.esante.gouv.fr/fhir/CodeSystem/1.2.250.1.213.1.1.4.322' version 'V1')
+WARNING: ValueSet/1.2.250.1.213.1.1.5.624: ValueSet.compose.include[0].concept[0]: The code 'GEN-266' is not valid in the system https://smt.esante.gouv.fr/fhir/CodeSystem/1.2.250.1.213.1.1.4.322 (Unknown code 'GEN-266' in the CodeSystem 'https://smt.esante.gouv.fr/fhir/CodeSystem/1.2.250.1.213.1.1.4.322' version '20241217000000')
+INFORMATION: ValueSet/1.2.250.1.213.1.1.5.624: ValueSet.compose.include[0].concept[0]: Unknown code 'GEN-266' in the CodeSystem 'https://smt.esante.gouv.fr/fhir/CodeSystem/1.2.250.1.213.1.1.4.322' version '20241217000000'
+WARNING: ValueSet/1.2.250.1.213.1.1.5.624: ValueSet.compose.include[0].concept[1]: The code 'GEN-267' is not valid in the system https://smt.esante.gouv.fr/fhir/CodeSystem/1.2.250.1.213.1.1.4.322 (Unknown code 'GEN-267' in the CodeSystem 'https://smt.esante.gouv.fr/fhir/CodeSystem/1.2.250.1.213.1.1.4.322' version '20241217000000')
 ERROR: ValueSet.text.div: Hyperlink 'CodeSystem-1.2.250.1.213.1.1.4.322.html#1.2.250.1.213.1.1.4.322-GEN-266' at 'div/ul/li/table/tr/td/a' for 'GEN-266' does not resolve
 ERROR: ValueSet.text.div: Hyperlink 'CodeSystem-1.2.250.1.213.1.1.4.322.html#1.2.250.1.213.1.1.4.322-GEN-267' at 'div/ul/li/table/tr/td/a' for 'GEN-267' does not resolve
 == input/ontoserver/JDV/JDV_TypeDeSuivi_CISIS.json ==
@@ -4861,6 +4884,8 @@ WARNING: ValueSet.where(id = '1.2.250.1.213.1.1.5.716'): Error from http://tx.fh
 WARNING: ValueSet/1.2.250.1.213.1.1.5.794: ValueSet.compose.include[0]: Unknown System 'urn:oid:2.16.840.1.113883.6.96' specified, so Concepts and Filters can't be checked (Details: A definition for CodeSystem 'urn:oid:2.16.840.1.113883.6.96' could not be found, so the code cannot be validated)
 WARNING: ValueSet.where(id = '1.2.250.1.213.1.1.5.794'): Error from http://tx.fhir.org/r4: Unable to provide support for code system urn:oid:2.16.840.1.113883.6.96
 == input/ontoserver/JDV/JDV_TypeGarde_CISIS.json ==
+WARNING: ValueSet/1.2.250.1.213.1.1.5.128: ValueSet.compose.include[0].concept[2]: The code 'GEN-117' is not valid in the system https://smt.esante.gouv.fr/fhir/CodeSystem/1.2.250.1.213.1.1.4.322 (Unknown code 'GEN-117' in the CodeSystem 'https://smt.esante.gouv.fr/fhir/CodeSystem/1.2.250.1.213.1.1.4.322' version '20241217000000')
+ERROR: ValueSet.text.div: Hyperlink 'CodeSystem-1.2.250.1.213.1.1.4.322.html#1.2.250.1.213.1.1.4.322-GEN-117' at 'div/ul/li/table/tr/td/a' for 'GEN-117' does not resolve
 == input/ontoserver/JDV/JDV_TypeHisto_EtatTumoral_CISIS.json ==
 WARNING: ValueSet/1.2.250.1.213.1.1.5.39: ValueSet.compose.include[0]: Unknown System 'urn:oid:1.2.250.1.213.2.11' specified, so Concepts and Filters can't be checked (Details: A definition for CodeSystem 'urn:oid:1.2.250.1.213.2.11' could not be found, so the code cannot be validated)
 WARNING: ValueSet.where(id = '1.2.250.1.213.1.1.5.39'): Error from http://tx.fhir.org/r4: Unable to provide support for code system urn:oid:1.2.250.1.213.2.11
@@ -4931,8 +4956,11 @@ WARNING: ValueSet/1.2.250.1.213.1.1.4.2.18: ValueSet.compose.include[0]: Unknown
 WARNING: ValueSet.where(id = '1.2.250.1.213.1.1.4.2.18'): Error from http://tx.fhir.org/r4: Unable to provide support for code system urn:oid:2.16.840.1.113883.6.163
 == input/ontoserver/JDV/JDV_UFCV_Impl_CISIS.json ==
 WARNING: ValueSet/1.2.250.1.213.1.1.4.2.15: ValueSet.compose.include[0]: Unknown System 'urn:oid:2.16.840.1.113883.6.96' specified, so Concepts and Filters can't be checked (Details: A definition for CodeSystem 'urn:oid:2.16.840.1.113883.6.96' could not be found, so the code cannot be validated)
+WARNING: ValueSet/1.2.250.1.213.1.1.4.2.15: ValueSet.compose.include[1].concept[0]: The code 'D0009-6' is not valid in the system https://smt.esante.gouv.fr/fhir/CodeSystem/1.2.250.1.213.1.1.4.322 (Unknown code 'D0009-6' in the CodeSystem 'https://smt.esante.gouv.fr/fhir/CodeSystem/1.2.250.1.213.1.1.4.322' version '20241217000000')
+INFORMATION: ValueSet/1.2.250.1.213.1.1.4.2.15: ValueSet.compose.include[1].concept[0]: Unknown code 'D0009-6' in the CodeSystem 'https://smt.esante.gouv.fr/fhir/CodeSystem/1.2.250.1.213.1.1.4.322' version '20241217000000'
 WARNING: ValueSet/1.2.250.1.213.1.1.4.2.15: ValueSet.compose.include[2]: Unknown System 'urn:oid:2.16.840.1.113883.6.96' specified, so Concepts and Filters can't be checked (Details: A definition for CodeSystem 'urn:oid:2.16.840.1.113883.6.96' could not be found, so the code cannot be validated)
 WARNING: ValueSet.where(id = '1.2.250.1.213.1.1.4.2.15'): Error from http://tx.fhir.org/r4: Unable to provide support for code system urn:oid:2.16.840.1.113883.6.96
+ERROR: ValueSet.text.div: Hyperlink 'CodeSystem-1.2.250.1.213.1.1.4.322.html#1.2.250.1.213.1.1.4.322-D0009-6' at 'div/ul/li/table/tr/td/a' for 'D0009-6' does not resolve
 == input/ontoserver/JDV/JDV_UFCV_Lat_CISIS.json ==
 WARNING: ValueSet/1.2.250.1.213.1.1.4.2.4: ValueSet.compose.include[0]: Unknown System 'urn:oid:2.16.840.1.113883.6.96' specified, so Concepts and Filters can't be checked (Details: A definition for CodeSystem 'urn:oid:2.16.840.1.113883.6.96' could not be found, so the code cannot be validated)
 WARNING: ValueSet.where(id = '1.2.250.1.213.1.1.4.2.4'): Error from http://tx.fhir.org/r4: Unable to provide support for code system urn:oid:2.16.840.1.113883.6.96
@@ -5121,6 +5149,8 @@ WARNING: CodeSystem/terminologie-SERAFINPH: CodeSystem: Published code systems S
 INFORMATION: CodeSystem/terminologie-SERAFINPH: CodeSystem.property[8]: This property has only a code ('imported') and not a URI, so it has no clearly defined meaning in the terminology ecosystem
 INFORMATION: CodeSystem/terminologie-SERAFINPH: CodeSystem.property[9]: This property has only a code ('root') and not a URI, so it has no clearly defined meaning in the terminology ecosystem
 == input/ontoserver/TRE/ServiceType.json ==
+== input/ontoserver/TRE/TA_ASIP.json ==
+WARNING: CodeSystem/1.2.250.1.213.1.1.4.322: CodeSystem: Published code systems SHOULD conform to the ShareableCodeSystem profile, which says that the element CodeSystem.title is mandatory, but it is not present
 == input/ontoserver/TRE/TRE_A00_ProducteurDocNonPS.json ==
 WARNING: CodeSystem/TRE-A00-ProducteurDocNonPS: CodeSystem: Published code systems SHOULD conform to the ShareableCodeSystem profile, which says that the element CodeSystem.title is mandatory, but it is not present
 INFORMATION: CodeSystem/TRE-A00-ProducteurDocNonPS: CodeSystem.property[0]: This property has only a code ('dateValid') and not a URI, so it has no clearly defined meaning in the terminology ecosystem
@@ -5879,8 +5909,6 @@ WARNING: CodeSystem/TRE-R305-TypeRencontre: CodeSystem: Published code systems S
 INFORMATION: CodeSystem/TRE-R305-TypeRencontre: CodeSystem.property[0]: This property has only a code ('dateValid') and not a URI, so it has no clearly defined meaning in the terminology ecosystem
 INFORMATION: CodeSystem/TRE-R305-TypeRencontre: CodeSystem.property[1]: This property has only a code ('dateMaj') and not a URI, so it has no clearly defined meaning in the terminology ecosystem
 INFORMATION: CodeSystem/TRE-R305-TypeRencontre: CodeSystem.property[2]: This property has only a code ('dateFin') and not a URI, so it has no clearly defined meaning in the terminology ecosystem
-== input/ontoserver/TRE/TRE_R308_TAASIP.json ==
-WARNING: CodeSystem/1.2.250.1.213.1.1.4.322: CodeSystem: Published code systems SHOULD conform to the ShareableCodeSystem profile, which says that the element CodeSystem.title is mandatory, but it is not present
 == input/ontoserver/TRE/TRE_R30_RegionOM.json ==
 WARNING: CodeSystem/TRE-R30-RegionOM: CodeSystem: Published code systems SHOULD conform to the ShareableCodeSystem profile, which says that the element CodeSystem.title is mandatory, but it is not present
 INFORMATION: CodeSystem/TRE-R30-RegionOM: CodeSystem.property[0]: This property has only a code ('dateValid') and not a URI, so it has no clearly defined meaning in the terminology ecosystem

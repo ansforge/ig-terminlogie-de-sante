@@ -1,7 +1,6 @@
 <OID>;<Type fichier>;<Nom fichier>;<Description>;<URL fichier>;<Date valid>;<Date fin>;<Date MAJ>
-1.2.250.1.213.1.1.4.322;TRE;TRE_R308_TAASIP.tabs;TA_ASIP;;20010101120000;;20241008141350
+1.2.250.1.213.1.1.4.322;TRE;TA_ASIP.tabs;TA_ASIP;;20010101120000;;20241217134459
 <OID>;<Code>;<Libellé adapté>;<Libellé court>;<Libellé long>;<Date valid>;<Date fin>;<Date MAJ> 
-1.2.250.1.213.1.1.4.322;D0009-6;Paroi Libre de l’OD;Paroi Libre de l’OD;Paroi Libre de l’OD;;;
 1.2.250.1.213.1.1.4.322;D0009-7;Plancher VD;Plancher VD;Plancher VD;;;
 1.2.250.1.213.1.1.4.322;D0009-9;Veine cardiaque latérale gauche;Veine cardiaque latérale gauche;Veine cardiaque latérale gauche;;;
 1.2.250.1.213.1.1.4.322;D0012-1;Homogreffe;Homogreffe;Homogreffe;;;
@@ -25,7 +24,6 @@
 1.2.250.1.213.1.1.4.322;DLU_002;Conscient et éveillé;Conscient et éveillé;Conscient et éveillé;;;
 1.2.250.1.213.1.1.4.322;DLU_003;Eveillable;Eveillable;Eveillable;;;
 1.2.250.1.213.1.1.4.322;DLU_004;Non éveillable;Non éveillable;Non éveillable;;;
-1.2.250.1.213.1.1.4.322;DLU_005;Douleur récente;Douleur récente;Douleur récente;;;
 1.2.250.1.213.1.1.4.322;DLU_006;Attestation de la carte vitale;Attestation de la carte vitale;Attestation de la carte vitale;;;
 1.2.250.1.213.1.1.4.322;DLU_007;Attestation de mutuelle;Attestation de mutuelle;Attestation de mutuelle;;;
 1.2.250.1.213.1.1.4.322;DLU_008;Photocopie de la carte d’identité;Photocopie de la carte d’identité;Photocopie de la carte d’identité;;;
@@ -88,7 +86,6 @@
 1.2.250.1.213.1.1.4.322;GEN-078;Dépistage de la trisomie 21;Dépistage de la trisomie 21;Dépistage de la trisomie 21;;;
 1.2.250.1.213.1.1.4.322;GEN-079;Entretien prénatal précoce;Entretien prénatal précoce;Entretien prénatal précoce;;;
 1.2.250.1.213.1.1.4.322;GEN-084;Sollicite un adulte/une autre personne;Sollicite un adulte/une autre personne;Sollicite un adulte/une autre personne;;;
-1.2.250.1.213.1.1.4.322;GEN-085;Dépistage néonatal;Dépistage néonatal;Dépistage néonatal;;;
 1.2.250.1.213.1.1.4.322;GEN-086;Vie en collectivité;Vie en collectivité;Vie en collectivité;;;
 1.2.250.1.213.1.1.4.322;GEN-087;Vaccin de rappel;Vaccin de rappel;Vaccin de rappel;;;
 1.2.250.1.213.1.1.4.322;GEN-088;Facteurs;Facteurs;Facteurs;;;
@@ -117,8 +114,10 @@
 1.2.250.1.213.1.1.4.322;GEN-092.01.20;Autre contre-indication connue;Autre contre-indication connue;Autre contre-indication connue;;;
 1.2.250.1.213.1.1.4.322;GEN-092.01.21;Autre présentation foetale;Autre présentation foetale;Autre présentation foetale;;;
 1.2.250.1.213.1.1.4.322;GEN-092.01.22;Autre situation médicale grave;Autre situation médicale grave;Autre situation médicale grave;;;
+1.2.250.1.213.1.1.4.322;GEN-092.01.23;Autre handicap / déficit;Autre handicap / déficit;Autre handicap / déficit;;;
+1.2.250.1.213.1.1.4.322;GEN-092.01.24;Autre risque;Autre risque;Autre risque;;;
 1.2.250.1.213.1.1.4.322;GEN-092.02;Autre dispositif médical - Ne pas utiliser;Autre dispositif médical - Ne pas utiliser;Autre dispositif médical - Ne pas utiliser;;;
-1.2.250.1.213.1.1.4.322;GEN-092.02.01;Autre prothèse et objet personnel;Autre prothèse et objet personnel;Autre prothèse et objet personnel;;;
+1.2.250.1.213.1.1.4.322;GEN-092.02.01;Autre dispositif ou objet personnel;Autre dispositif ou objet personnel;Autre dispositif ou objet personnel;;;
 1.2.250.1.213.1.1.4.322;GEN-092.02.02;Autre dispositif médical;Autre dispositif médical;Autre dispositif médical;;;
 1.2.250.1.213.1.1.4.322;GEN-092.03;Autre traitement / produit - Ne pas utiliser;Autre traitement / produit - Ne pas utiliser;Autre traitement / produit - Ne pas utiliser;;;
 1.2.250.1.213.1.1.4.322;GEN-092.03.01;Autre(s) traitement(s);Autre(s) traitement(s);Autre(s) traitement(s);;;
@@ -157,7 +156,6 @@
 1.2.250.1.213.1.1.4.322;GEN-092.05;Autre profession / activité - Ne pas utiliser;Autre profession / activité - Ne pas utiliser;Autre profession / activité - Ne pas utiliser;;;
 1.2.250.1.213.1.1.4.322;GEN-092.05.01;Autre personne;Autre personne;Autre personne;;;
 1.2.250.1.213.1.1.4.322;GEN-092.05.02;Autre spécialiste;Autre spécialiste;Autre spécialiste;;;
-1.2.250.1.213.1.1.4.322;GEN-092.05.03;Autre professionnel(le);Autre professionnel(le);Autre professionnel(le);;;
 1.2.250.1.213.1.1.4.322;GEN-092.05.04;Autre contexte;Autre contexte;Autre contexte;;;
 1.2.250.1.213.1.1.4.322;GEN-092.05.05;Autre activité;Autre activité;Autre activité;;;
 1.2.250.1.213.1.1.4.322;GEN-092.05.06;Autre inactif;Autre inactif;Autre inactif;;;
@@ -182,6 +180,7 @@
 1.2.250.1.213.1.1.4.322;GEN-092.08.05;Autre(s) nombre de jours;Autre(s) nombre de jours;Autre(s) nombre de jours;;;
 1.2.250.1.213.1.1.4.322;GEN-092.08.06;Autre trousse;Autre trousse;Autre trousse;;;
 1.2.250.1.213.1.1.4.322;GEN-092.08.07;Autre milieu;Autre milieu;Autre milieu;;;
+1.2.250.1.213.1.1.4.322;GEN-092.08.08;Autre document;Autre document;Autre document;;;
 1.2.250.1.213.1.1.4.322;GEN-092.09;Autre rencontre - Ne pas utiliser;Autre rencontre - Ne pas utiliser;Autre rencontre - Ne pas utiliser;;;
 1.2.250.1.213.1.1.4.322;GEN-092.09.01;Autre type de rencontre;Autre type de rencontre;Autre type de rencontre;;;
 1.2.250.1.213.1.1.4.322;GEN-093;Si réponse autre;Si réponse autre;Si réponse autre;;;
@@ -202,7 +201,6 @@
 1.2.250.1.213.1.1.4.322;GEN-113;Nom du professionnel ayant utilisé le DM;Nom du professionnel ayant utilisé le DM;Nom du professionnel ayant utilisé le DM;;;
 1.2.250.1.213.1.1.4.322;GEN-115;Dispositif médical;Dispositif médical;Dispositif médical;;;
 1.2.250.1.213.1.1.4.322;GEN-116;Consolidé;Consolidé;Consolidé;;;
-1.2.250.1.213.1.1.4.322;GEN-117;Domicile;Domicile;Domicile;;;
 1.2.250.1.213.1.1.4.322;GEN-118;Fait;Fait;Fait;;;
 1.2.250.1.213.1.1.4.322;GEN-119;A faire/ A refaire;A faire/ A refaire;A faire/ A refaire;;;
 1.2.250.1.213.1.1.4.322;GEN-120;Mesures de protection juridique;Mesures de protection juridique;Mesures de protection juridique;;;
@@ -257,11 +255,8 @@
 1.2.250.1.213.1.1.4.322;GEN-182;Pas d'activité sportive;Pas d'activité sportive;Pas d'activité sportive;;;
 1.2.250.1.213.1.1.4.322;GEN-183;Peu d'activité sportive;Peu d'activité sportive;Peu d'activité sportive;;;
 1.2.250.1.213.1.1.4.322;GEN-185;Sportif de haut niveau;Sportif de haut niveau;Sportif de haut niveau;;;
-1.2.250.1.213.1.1.4.322;GEN-189;SDF;SDF;SDF;;;
-1.2.250.1.213.1.1.4.322;GEN-190;Revenus insuffisants;Revenus insuffisants;Revenus insuffisants;;;
 1.2.250.1.213.1.1.4.322;GEN-191;Précision;Précision;Précision;;;
 1.2.250.1.213.1.1.4.322;GEN-192;Marche normale;Marche normale;Marche normale;;;
-1.2.250.1.213.1.1.4.322;GEN-196;*;*;*;;;
 1.2.250.1.213.1.1.4.322;GEN-197;Pas de dépendance;Pas de dépendance;Pas de dépendance;;;
 1.2.250.1.213.1.1.4.322;GEN-198;Dépendance faible;Dépendance faible;Dépendance faible;;;
 1.2.250.1.213.1.1.4.322;GEN-199;Dépendance moyenne;Dépendance moyenne;Dépendance moyenne;;;
@@ -356,7 +351,7 @@
 1.2.250.1.213.1.1.4.322;GEN-312;< 1 fois/semaine;< 1 fois/semaine;< 1 fois/semaine;;;
 1.2.250.1.213.1.1.4.322;GEN-313;≥ 1 fois/semaine;≥ 1 fois/semaine;≥ 1 fois/semaine;;;
 1.2.250.1.213.1.1.4.322;GEN-314;Type de rencontre;Type de rencontre;Type de rencontre;;;
-1.2.250.1.213.1.1.4.322;GEN-315;Le patient (ou son représentant légal) s'oppose à la réutilisation de ses données pour la recherche;Le patient (ou son représentant légal) s'oppose à la réutilisation de ses données pour la recherche;Le patient (ou son représentant légal) s'oppose à la réutilisation de ses données pour la recherche;;;
+1.2.250.1.213.1.1.4.322;GEN-315;Le patient (ou son représentant légal) s'oppose à la réutilisation de ses données dans l’entrepôt de données de santé BNDMR.;Le patient (ou son représentant légal) s'oppose à la réutilisation de ses données dans l’entrepôt de données de santé BNDMR.;Le patient (ou son représentant légal) s'oppose à la réutilisation de ses données dans l’entrepôt de données de santé BNDMR.;;;
 1.2.250.1.213.1.1.4.322;GEN-316;Date d'opposition du patient à l'utilisation de ses données dans le cadre d'analyses de santé publique;Date d'opposition du patient à l'utilisation de ses données dans le cadre d'analyses de santé publique;Date d'opposition du patient à l'utilisation de ses données dans le cadre d'analyses de santé publique;;;
 1.2.250.1.213.1.1.4.322;GEN-318;Imputabilité;Imputabilité;Imputabilité;;;
 1.2.250.1.213.1.1.4.322;GEN-319;Evolution de l'effet indésirable;Evolution de l'effet indésirable;Evolution de l'effet indésirable;;;
@@ -407,6 +402,12 @@
 1.2.250.1.213.1.1.4.322;GEN-364;Réforme SSIAD;Réforme SSIAD;Réforme SSIAD;;;
 1.2.250.1.213.1.1.4.322;GEN-365;Aucun de ces motifs;Aucun de ces motifs;Aucun de ces motifs;;;
 1.2.250.1.213.1.1.4.322;GEN-366;Le patient (ou son représentant légal) a donné son consentement pour la réalisation du test.;Le patient (ou son représentant légal) a donné son consentement pour la réalisation du test.;Le patient (ou son représentant légal) a donné son consentement pour la réalisation du test.;;;
+1.2.250.1.213.1.1.4.322;GEN-367;Agenda de l'usager;Agenda de l'usager;Agenda de l'usager;;;
+1.2.250.1.213.1.1.4.322;GEN-368;Prise en charge en dehors de la labellisation du site maladie rare;Prise en charge en dehors de la labellisation du site maladie rare;Prise en charge en dehors de la labellisation du site maladie rare;;;
+1.2.250.1.213.1.1.4.322;GEN-369;Recherche;Recherche;Recherche;;;
+1.2.250.1.213.1.1.4.322;GEN-370;Date et heure de la dernière prise du traitement habituel;Date et heure de la dernière prise du traitement habituel;Date et heure de la dernière prise du traitement habituel;;;
+1.2.250.1.213.1.1.4.322;GEN-371;Ordonnance de sortie;Ordonnance de sortie;Ordonnance de sortie;;;
+1.2.250.1.213.1.1.4.322;GEN-372;Copie du résumé du passage aux urgences;Copie du résumé du passage aux urgences;Copie du résumé du passage aux urgences;;;
 1.2.250.1.213.1.1.4.322;image/bm;image bm;image bm;image bm;;;
 1.2.250.1.213.1.1.4.322;image/gif;image gif;image gif;image gif;;;
 1.2.250.1.213.1.1.4.322;image/jpeg;image jpeg;image jpeg;image jpeg;;;
@@ -1142,7 +1143,6 @@
 1.2.250.1.213.1.1.4.322;MED-869;Epaisseur;Epaisseur;Epaisseur;;;
 1.2.250.1.213.1.1.4.322;MED-870;Tissu congelé disponible;Tissu congelé disponible;Tissu congelé disponible;;;
 1.2.250.1.213.1.1.4.322;MED-871;Identification de bloc(s) d'intérêt;Identification de bloc(s) d'intérêt;Identification de bloc(s) d'intérêt;;;
-1.2.250.1.213.1.1.4.322;MED-874;Non diabétique;Non diabétique;Non diabétique;;;
 1.2.250.1.213.1.1.4.322;MED-876;Pose d'une sonde nasogastrique;Pose d'une sonde nasogastrique;Pose d'une sonde nasogastrique;;;
 1.2.250.1.213.1.1.4.322;MED-877;Pose d'une sonde orogastrique;Pose d'une sonde orogastrique;Pose d'une sonde orogastrique;;;
 1.2.250.1.213.1.1.4.322;MED-880;Accès veineux périphérique;Accès veineux périphérique;Accès veineux périphérique;;;
@@ -1428,8 +1428,6 @@
 1.2.250.1.213.1.1.4.322;MED-1218;Lentille souple;Lentille souple;Lentille souple;;;
 1.2.250.1.213.1.1.4.322;MED-1219;Lentille rigide;Lentille rigide;Lentille rigide;;;
 1.2.250.1.213.1.1.4.322;MED-1220;Lentille hybride;Lentille hybride;Lentille hybride;;;
-1.2.250.1.213.1.1.4.322;MED-1221;*;*;*;;;
-1.2.250.1.213.1.1.4.322;MED-1222;*;*;*;;;
 1.2.250.1.213.1.1.4.322;MED-1223;Présentation fœtale;Présentation fœtale;Présentation fœtale;;;
 1.2.250.1.213.1.1.4.322;MED-1224;CSE - Examen médical obligatoire dans les huit jours qui suivent la naissance;CSE - Examen médical obligatoire dans les huit jours qui suivent la naissance;CSE - Examen médical obligatoire dans les huit jours qui suivent la naissance;;;
 1.2.250.1.213.1.1.4.322;MED-1225;CSE - Examen médical obligatoire au cours de la 2ème semaine;CSE - Examen médical obligatoire au cours de la 2ème semaine;CSE - Examen médical obligatoire au cours de la 2ème semaine;;;
@@ -1481,7 +1479,7 @@
 1.2.250.1.213.1.1.4.322;MED-1272;Cause materno-fœtale;Cause materno-fœtale;Cause materno-fœtale;;;
 1.2.250.1.213.1.1.4.322;MED-1273;Césarienne programmée;Césarienne programmée;Césarienne programmée;;;
 1.2.250.1.213.1.1.4.322;MED-1274;Repérage troubles du neurodéveloppement;Repérage troubles du neurodéveloppement;Repérage troubles du neurodéveloppement;;;
-1.2.250.1.213.1.1.4.322;MED-1275;L’enfant est-il exposé aux écrans sans interaction avec un adulte;L’enfant est-il exposé aux écrans sans interaction avec un adulte;L’enfant est-il exposé aux écrans sans interaction avec un adulte;;;
+1.2.250.1.213.1.1.4.322;MED-1275;Exposition aux écrans;Exposition aux écrans;Exposition aux écrans;;;
 1.2.250.1.213.1.1.4.322;MED-1276;Certificat médical accident de travail / maladie professionnelle;Certificat médical accident de travail / maladie professionnelle;Certificat médical accident de travail / maladie professionnelle;;;
 1.2.250.1.213.1.1.4.322;MED-1277;Protocole de soins ALD 'patient';Protocole de soins ALD 'patient';Protocole de soins ALD 'patient';;;
 1.2.250.1.213.1.1.4.322;MED-1278;Lors d'un malaise;Lors d'un malaise;Lors d'un malaise;;;
@@ -1505,6 +1503,13 @@
 1.2.250.1.213.1.1.4.322;MED-1297;Intervention d'un infirmier libéral;Intervention d'un infirmier libéral;Intervention d'un infirmier libéral;;;
 1.2.250.1.213.1.1.4.322;MED-1298;Intervention d'un infirmer salarié;Intervention d'un infirmer salarié;Intervention d'un infirmer salarié;;;
 1.2.250.1.213.1.1.4.322;MED-1299;Intervention conjointe;Intervention conjointe;Intervention conjointe;;;
+1.2.250.1.213.1.1.4.322;MED-1300;Evaluation AGGIR;Evaluation AGGIR;Evaluation AGGIR;;;
+1.2.250.1.213.1.1.4.322;MED-1301;Conscient et éveillé;Conscient et éveillé;Conscient et éveillé;;;
+1.2.250.1.213.1.1.4.322;MED-1302;Eveillable;Eveillable;Eveillable;;;
+1.2.250.1.213.1.1.4.322;MED-1303;Non éveillable;Non éveillable;Non éveillable;;;
+1.2.250.1.213.1.1.4.322;MED-1304;Dépistage de la surdité;Dépistage de la surdité;Dépistage de la surdité;;;
+1.2.250.1.213.1.1.4.322;MED-1305;Résultat du dépistage de la surdité;Résultat du dépistage de la surdité;Résultat du dépistage de la surdité;;;
+1.2.250.1.213.1.1.4.322;MED-1306;CSE - Examen médical obligatoire au cours de la 7ème année;CSE - Examen médical obligatoire au cours de la 7ème année;CSE - Examen médical obligatoire au cours de la 7ème année;;;
 1.2.250.1.213.1.1.4.322;ORG-001;Prise en charge spécifique en oncogériatrie;Prise en charge spécifique en oncogériatrie;Prise en charge spécifique en oncogériatrie;;;
 1.2.250.1.213.1.1.4.322;ORG-002;Suivi après traitement;Suivi après traitement;Suivi après traitement;;;
 1.2.250.1.213.1.1.4.322;ORG-003;Type de suivi;Type de suivi;Type de suivi;;;
@@ -1663,6 +1668,14 @@
 1.2.250.1.213.1.1.4.322;ORG-209;Matériel pédagogique;Matériel pédagogique;Matériel pédagogique;;;
 1.2.250.1.213.1.1.4.322;ORG-210;Salle;Salle;Salle;;;
 1.2.250.1.213.1.1.4.322;ORG-211;Chambre;Chambre;Chambre;;;
+1.2.250.1.213.1.1.4.322;ORG-212;Séjour;Séjour;Séjour;;;
+1.2.250.1.213.1.1.4.322;ORG-213;Personnes et structures informées;Personnes et structures informées;Personnes et structures informées;;;
+1.2.250.1.213.1.1.4.322;ORG-214;Centre 15;Centre 15;Centre 15;;;
+1.2.250.1.213.1.1.4.322;ORG-215;Intervenant à domicile;Intervenant à domicile;Intervenant à domicile;;;
+1.2.250.1.213.1.1.4.322;ORG-216;Retour vers l'EHPAD;Retour vers l'EHPAD;Retour vers l'EHPAD;;;
+1.2.250.1.213.1.1.4.322;ORG-217;Vérification de la possibilité du retour à domicile immédiat;Vérification de la possibilité du retour à domicile immédiat;Vérification de la possibilité du retour à domicile immédiat;;;
+1.2.250.1.213.1.1.4.322;ORG-218;Transfert vers une structure plus adaptée;Transfert vers une structure plus adaptée;Transfert vers une structure plus adaptée;;;
+1.2.250.1.213.1.1.4.322;ORG-219;Retour au domicile;Retour au domicile;Retour au domicile;;;
 1.2.250.1.213.1.1.4.322;PAT-001;Caisse de retraite;Caisse de retraite;Caisse de retraite;;;
 1.2.250.1.213.1.1.4.322;PAT-002;Mutuelle;Mutuelle;Mutuelle;;;
 1.2.250.1.213.1.1.4.322;PAT-003;Pension;Pension;Pension;;;
@@ -1675,7 +1688,7 @@
 1.2.250.1.213.1.1.4.322;PAT-010;Consentement à l'échange d'informations;Consentement à l'échange d'informations;Consentement à l'échange d'informations;;;
 1.2.250.1.213.1.1.4.322;PAT-011;Accès aux informations;Accès aux informations;Accès aux informations;;;
 1.2.250.1.213.1.1.4.322;PAT-012;Accord du patient pour contact protocole;Accord du patient pour contact protocole;Accord du patient pour contact protocole;;;
-1.2.250.1.213.1.1.4.322;PAT-013;Période des premiers signes;Période des premiers signes;Période des premiers signes;;;
+1.2.250.1.213.1.1.4.322;PAT-013;Age aux premiers signes;Age aux premiers signes;Age aux premiers signes;;;
 1.2.250.1.213.1.1.4.322;PAT-014;Précision de l'âge aux premiers signes;Précision de l'âge aux premiers signes;Précision de l'âge aux premiers signes;;;
 1.2.250.1.213.1.1.4.322;PAT-015;Age au diagnostic;Age au diagnostic;Age au diagnostic;;;
 1.2.250.1.213.1.1.4.322;PAT-016;Précision de l'âge au diagnostic;Précision de l'âge au diagnostic;Précision de l'âge au diagnostic;;;
@@ -1712,7 +1725,7 @@
 1.2.250.1.213.1.1.4.322;PAT-059;Durée de l'alimentation au lait maternel exclusif (à partir de la naissance);Durée de l'alimentation au lait maternel exclusif (à partir de la naissance);Durée de l'alimentation au lait maternel exclusif (à partir de la naissance);;;
 1.2.250.1.213.1.1.4.322;PAT-060;Durée de l'alimentation mixte (à partir de la naissance);Durée de l'alimentation mixte (à partir de la naissance);Durée de l'alimentation mixte (à partir de la naissance);;;
 1.2.250.1.213.1.1.4.322;PAT-061;Patient perdu de vue;Patient perdu de vue;Patient perdu de vue;;;
-1.2.250.1.213.1.1.4.322;PAT-062;Période du diagnostic clinique;Période du diagnostic clinique;Période du diagnostic clinique;;;
+1.2.250.1.213.1.1.4.322;PAT-062;Age au diagnostic clinique;Age au diagnostic clinique;Age au diagnostic clinique;;;
 1.2.250.1.213.1.1.4.322;PAT-063;Précision de l'âge au diagnostic clinique;Précision de l'âge au diagnostic clinique;Précision de l'âge au diagnostic clinique;;;
-1.2.250.1.213.1.1.4.322;PAT-064;Période du diagnostic génétique;Période du diagnostic génétique;Période du diagnostic génétique;;;
+1.2.250.1.213.1.1.4.322;PAT-064;Age au diagnostic génétique;Age au diagnostic génétique;Age au diagnostic génétique;;;
 1.2.250.1.213.1.1.4.322;PAT-065;Précision de l'âge au diagnostic génétique;Précision de l'âge au diagnostic génétique;Précision de l'âge au diagnostic génétique;;;

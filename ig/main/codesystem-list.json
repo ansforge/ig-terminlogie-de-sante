@@ -2252,9 +2252,9 @@
     },
     {
       "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/1.2.250.1.213.1.1.4.322",
-      "version" : "V1",
+      "version" : "20241217000000",
       "status" : "active",
-      "name" : "TRE_R308_TAASIP",
+      "name" : "TA_ASIP",
       "title" : null,
       "description" : "TA_ASIP",
       "oids" : ["1.2.250.1.213.1.1.4.322"]

@@ -25622,6 +25622,17 @@
         <valueString value="CodeSystem"/>
       </extension>
       <reference>
+        <reference value="CodeSystem/1.2.250.1.213.1.1.4.322"/>
+      </reference>
+      <name value="TA_ASIP"/>
+      <description value="TA_ASIP"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="CodeSystem"/>
+      </extension>
+      <reference>
         <reference value="CodeSystem/TRE-A00-ProducteurDocNonPS"/>
       </reference>
       <name value="TRE_A00_ProducteurDocNonPS"/>
@@ -27286,17 +27297,6 @@
       </reference>
       <name value="TRE_R305_TypeRencontre"/>
       <description value="Type de rencontre"/>
-      <exampleBoolean value="false"/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="CodeSystem"/>
-      </extension>
-      <reference>
-        <reference value="CodeSystem/1.2.250.1.213.1.1.4.322"/>
-      </reference>
-      <name value="TRE_R308_TAASIP"/>
-      <description value="TA_ASIP"/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
