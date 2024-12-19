@@ -2252,7 +2252,7 @@
     },
     {
       "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/1.2.250.1.213.1.1.4.322",
-      "version" : "20241217000000",
+      "version" : "202412180000",
       "status" : "active",
       "name" : "TA_ASIP",
       "title" : null,

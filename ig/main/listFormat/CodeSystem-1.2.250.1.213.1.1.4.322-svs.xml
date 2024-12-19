@@ -2,7 +2,7 @@
 <RetrieveValueSetResponse xmlns="urn:ihe:iti:svs:2008"
                           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
    <ValueSet dateFin=""
-             dateMaj="20241217134459"
+             dateMaj="20241218174828"
              dateValid="20010101120000"
              description="TA_ASIP"
              displayName="TA_ASIP"
@@ -10,6 +10,15 @@
              typeFichier="TRE"
              urlFichier="">
       <ConceptList>
+         <concept code="D0009-6"
+                  codeSystem="1.2.250.1.213.1.1.4.322"
+                  dateFin=""
+                  dateMaj=""
+                  dateValid=""
+                  displayName="Paroi Libre de l’OD"
+                  longDesignation="Paroi Libre de l’OD"
+                  shortDesignation="Paroi Libre de l’OD"
+                  descriptionMetier=""/>
          <concept code="D0009-7"
                   codeSystem="1.2.250.1.213.1.1.4.322"
                   dateFin=""
