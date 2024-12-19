@@ -2,7 +2,7 @@
 <RetrieveValueSetResponse xmlns="urn:ihe:iti:svs:2008"
                           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
    <ValueSet dateFin=""
-             dateMaj="20230828010000"
+             dateMaj="20230828000000"
              dateValid="20210315000000"
              description="JDV_OBP_TestAudition_CISIS"
              displayName="JDV_OBP_TestAudition_CISIS"

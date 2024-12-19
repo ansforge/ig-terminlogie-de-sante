@@ -4,8 +4,8 @@
    <ValueSet dateFin=""
              dateMaj="20190101000000"
              dateValid="20210315000000"
-             description="JDV_HL7_employmentStatus_CISIS"
-             displayName="JDV_HL7_employmentStatus_CISIS"
+             description="JDV_HL7_employmentStatusODH_CISIS"
+             displayName="JDV_HL7_employmentStatusODH_CISIS"
              id="2.16.840.1.113883.1.11.20562"
              typeFichier="JDV"
              urlFichier="">

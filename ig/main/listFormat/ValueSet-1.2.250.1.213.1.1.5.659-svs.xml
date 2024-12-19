@@ -2,7 +2,7 @@
 <RetrieveValueSetResponse xmlns="urn:ihe:iti:svs:2008"
                           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
    <ValueSet dateFin=""
-             dateMaj="20230428010000"
+             dateMaj="20230428000000"
              dateValid="20210315000000"
              description="JDV_Contre_indications_CISIS"
              displayName="JDV_Contre_indications_CISIS"
@@ -10,14 +10,15 @@
              typeFichier="JDV"
              urlFichier="">
       <ConceptList>
-         <concept code="77386006" codeSystem="" displayName="Enceinte"/>
-         <concept code="1260078007" codeSystem="" displayName="Allaitement"/>
-         <concept code="MED-1105"
-                  codeSystem="1.2.250.1.213.1.1.4.322"
-                  displayName="Hypersensibilité au PDC iodé"/>
          <concept code="N18.9"
                   codeSystem=""
                   displayName="Maladie rénale chronique, sans précision"/>
+         <concept code="I50.9"
+                  codeSystem=""
+                  displayName="Insuffisance cardiaque, sans précision"/>
+         <concept code="MED-1105"
+                  codeSystem="1.2.250.1.213.1.1.4.322"
+                  displayName="Hypersensibilité au PDC iodé"/>
          <concept code="MED-1106"
                   codeSystem="1.2.250.1.213.1.1.4.322"
                   displayName="Hyperthyroidie non traitée"/>
@@ -27,9 +28,6 @@
          <concept code="MED-1108"
                   codeSystem="1.2.250.1.213.1.1.4.322"
                   displayName="Hypersensibilité au PDC ultrasonore"/>
-         <concept code="I50.9"
-                  codeSystem=""
-                  displayName="Insuffisance cardiaque, sans précision"/>
          <concept code="MED-1109"
                   codeSystem="1.2.250.1.213.1.1.4.322"
                   displayName="Patient claustrophobe"/>
@@ -72,6 +70,8 @@
          <concept code="GEN-092.01.20"
                   codeSystem="1.2.250.1.213.1.1.4.322"
                   displayName="Autre contre-indication connue"/>
+         <concept code="77386006" codeSystem="" displayName="enceinte"/>
+         <concept code="1260078007" codeSystem="" displayName="Allaitement"/>
       </ConceptList>
    </ValueSet>
 </RetrieveValueSetResponse>

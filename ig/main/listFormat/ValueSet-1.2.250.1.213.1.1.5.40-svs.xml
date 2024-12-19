@@ -2,7 +2,7 @@
 <RetrieveValueSetResponse xmlns="urn:ihe:iti:svs:2008"
                           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
    <ValueSet dateFin=""
-             dateMaj="20231114000000"
+             dateMaj="20241011000000"
              dateValid="20210315000000"
              description="JDV_ContexteActivite_CISIS"
              displayName="JDV_ContexteActivite_CISIS"
@@ -19,13 +19,9 @@
          <concept code="MED-096"
                   codeSystem="1.2.250.1.213.1.1.4.322"
                   displayName="Téléconsultation"/>
-         <concept code="29"
-                  codeSystem="1.2.250.1.213.3.3.13"
-                  displayName="Hospitalisation de jour (HJ)"/>
          <concept code="ORG-045"
                   codeSystem="1.2.250.1.213.1.1.4.322"
                   displayName="Hospitalisation traditionnelle"/>
-         <concept code="11429006" codeSystem="" displayName="Consultation"/>
          <concept code="ORG-028"
                   codeSystem="1.2.250.1.213.1.1.4.322"
                   displayName="Consultation pluridisciplinaire"/>
@@ -35,9 +31,16 @@
          <concept code="ORG-030"
                   codeSystem="1.2.250.1.213.1.1.4.322"
                   displayName="Avis en salle"/>
-         <concept code="39"
+         <concept code="ORG-198"
+                  codeSystem="1.2.250.1.213.1.1.4.322"
+                  displayName="RCP régionale ou locale - centre organisateur"/>
+         <concept code="ORG-199"
+                  codeSystem="1.2.250.1.213.1.1.4.322"
+                  displayName="RCP nationale ou européenne - centre participatif"/>
+         <concept code="29"
                   codeSystem="1.2.250.1.213.3.3.13"
-                  displayName="Réunion de Concertation Pluridisciplinaire (RCP)"/>
+                  displayName="Hospitalisation de jour (HJ)"/>
+         <concept code="11429006" codeSystem="" displayName="Consultation"/>
       </ConceptList>
    </ValueSet>
 </RetrieveValueSetResponse>

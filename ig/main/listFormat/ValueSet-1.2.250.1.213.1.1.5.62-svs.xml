@@ -10,8 +10,6 @@
              typeFichier="JDV"
              urlFichier="">
       <ConceptList>
-         <concept code="44695005" codeSystem="" displayName="paralysie"/>
-         <concept code="33653009" codeSystem="" displayName="absence de sensation"/>
          <concept code="R47.02"
                   codeSystem=""
                   displayName="Aphasie, autre et sans précision"/>
@@ -36,6 +34,8 @@
          <concept code="MED-335"
                   codeSystem="1.2.250.1.213.1.1.4.322"
                   displayName="Trouble de la sexualité"/>
+         <concept code="44695005" codeSystem="" displayName="paralysie"/>
+         <concept code="33653009" codeSystem="" displayName="absence de sensation"/>
       </ConceptList>
    </ValueSet>
 </RetrieveValueSetResponse>

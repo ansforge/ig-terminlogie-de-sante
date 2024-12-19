@@ -10,19 +10,6 @@
              typeFichier="JDV"
              urlFichier="">
       <ConceptList>
-         <concept code="45537-8"
-                  codeSystem=""
-                  displayName="Se déplacer en fauteuil roulant seul"/>
-         <concept code="45588-1" codeSystem="" displayName="Se lever seul"/>
-         <concept code="45590-7" codeSystem="" displayName="Faire ses transferts"/>
-         <concept code="45592-3"
-                  codeSystem=""
-                  displayName="Marcher seul à l'intérieur"/>
-         <concept code="45602-0"
-                  codeSystem=""
-                  displayName="Manger un repas préparé seul"/>
-         <concept code="45604-6" codeSystem="" displayName="Utiliser les wc seul"/>
-         <concept code="45606-1" codeSystem="" displayName="Faire sa toilette seul"/>
          <concept code="GEN-144"
                   codeSystem="1.2.250.1.213.1.1.4.322"
                   displayName="Risque de chute"/>
@@ -47,6 +34,19 @@
          <concept code="GEN-151"
                   codeSystem="1.2.250.1.213.1.1.4.322"
                   displayName="Le patient bénéficie-t-il d’une aide humaine ?"/>
+         <concept code="45537-8"
+                  codeSystem=""
+                  displayName="Se déplacer en fauteuil roulant seul"/>
+         <concept code="45588-1" codeSystem="" displayName="Se lever seul"/>
+         <concept code="45590-7" codeSystem="" displayName="Faire ses transferts"/>
+         <concept code="45592-3"
+                  codeSystem=""
+                  displayName="Marcher seul à l'intérieur"/>
+         <concept code="45602-0"
+                  codeSystem=""
+                  displayName="Manger un repas préparé seul"/>
+         <concept code="45604-6" codeSystem="" displayName="Utiliser les wc seul"/>
+         <concept code="45606-1" codeSystem="" displayName="Faire sa toilette seul"/>
       </ConceptList>
    </ValueSet>
 </RetrieveValueSetResponse>

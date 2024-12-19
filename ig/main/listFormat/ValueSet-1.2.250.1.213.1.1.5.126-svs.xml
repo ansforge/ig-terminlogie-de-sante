@@ -10,15 +10,9 @@
              typeFichier="JDV"
              urlFichier="">
       <ConceptList>
-         <concept code="FAMDEP"
-                  codeSystem="2.16.840.1.113883.5.111"
-                  displayName="Couverture familiale"/>
-         <concept code="STUD"
-                  codeSystem="2.16.840.1.113883.5.111"
-                  displayName="Couverture étudiante"/>
-         <concept code="SELF"
-                  codeSystem="2.16.840.1.113883.5.111"
-                  displayName="Couverture personnelle"/>
+         <concept code="FAMDEP" codeSystem="" displayName="Couverture familiale"/>
+         <concept code="STUD" codeSystem="" displayName="Couverture étudiante"/>
+         <concept code="SELF" codeSystem="" displayName="Couverture personnelle"/>
       </ConceptList>
    </ValueSet>
 </RetrieveValueSetResponse>

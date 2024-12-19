@@ -2,7 +2,7 @@
 <RetrieveValueSetResponse xmlns="urn:ihe:iti:svs:2008"
                           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
    <ValueSet dateFin=""
-             dateMaj="20220805010000"
+             dateMaj="20240731000000"
              dateValid="20210315000000"
              description="JDV_CodesDocumentImagerie_CISIS"
              displayName="JDV_CodesDocumentImagerie_CISIS"
@@ -20,9 +20,6 @@
          <concept code="18753-4"
                   codeSystem=""
                   displayName="étude par un sigmoïdoscope flexible"/>
-         <concept code="18756-7"
-                  codeSystem=""
-                  displayName="RM rachis.XXX ; compte rendu"/>
          <concept code="24531-6"
                   codeSystem=""
                   displayName="échographie du rétropéritoine"/>
@@ -2145,6 +2142,15 @@
          <concept code="26402-8"
                   codeSystem=""
                   displayName="RX hanche - droite ; incidence unique"/>
+         <concept code="28012-3" codeSystem="" displayName="étude oesophagoscopique"/>
+         <concept code="28018-0" codeSystem="" displayName="étude entéroscopique"/>
+         <concept code="28020-6"
+                  codeSystem=""
+                  displayName="entéroscopie à  travers une stomie"/>
+         <concept code="28028-9" codeSystem="" displayName="étude anuscopique"/>
+         <concept code="28033-9"
+                  codeSystem=""
+                  displayName="étude colonoscopique à  travers une stomie"/>
          <concept code="28561-9" codeSystem="" displayName="RX pelvis ; incidences"/>
          <concept code="28564-3" codeSystem="" displayName="RX crâne ; incidences"/>
          <concept code="28565-0" codeSystem="" displayName="RX genou ; incidences"/>
@@ -17953,6 +17959,98 @@
          <concept code="98366-8"
                   codeSystem=""
                   displayName="RX rachis dorsal ; incidence avec flexion"/>
+         <concept code="98897-2"
+                  codeSystem=""
+                  displayName="RX pelvis et hanche - abduction gauche et rotation interne"/>
+         <concept code="98898-0"
+                  codeSystem=""
+                  displayName="RX pelvis et hanche - droite"/>
+         <concept code="98899-8"
+                  codeSystem=""
+                  displayName="RX poignet - droit incidence 3/4 en pronation"/>
+         <concept code="98900-4"
+                  codeSystem=""
+                  displayName="RX poignet - gauche incidence 3/4 en pronation"/>
+         <concept code="99505-0"
+                  codeSystem=""
+                  displayName="RX poignet - incidence postéroantérieure gauche"/>
+         <concept code="99506-8"
+                  codeSystem=""
+                  displayName="RX poignet - incidence postéroantérieure droit"/>
+         <concept code="99507-6"
+                  codeSystem=""
+                  displayName="RX de la hanche droite 3/4 externe de Judet"/>
+         <concept code="99508-4"
+                  codeSystem=""
+                  displayName="RX de la hanche gauche 3/4 externe de Judet"/>
+         <concept code="99509-2"
+                  codeSystem=""
+                  displayName="RX de la hanche gauche 3/4 interne de Judet"/>
+         <concept code="99510-0"
+                  codeSystem=""
+                  displayName="RX de la hanche droite 3/4 interne de Judet"/>
+         <concept code="99511-8"
+                  codeSystem=""
+                  displayName="RX.radiographie collimatée en fente incidences moelle spinale"/>
+         <concept code="99605-8"
+                  codeSystem=""
+                  displayName="échographie.doppler vaisseaux du membre inférieur - gauche pour cartographie veineuse"/>
+         <concept code="99606-6"
+                  codeSystem=""
+                  displayName="échographie.doppler vaisseaux du membre inférieur - droit pour cartographie veineuse"/>
+         <concept code="99607-4"
+                  codeSystem=""
+                  displayName="échographie.doppler vaisseaux du membre inférieur - bilatéral pour cartographie veineuse"/>
+         <concept code="99608-2"
+                  codeSystem=""
+                  displayName="angioIRM des vaisseaux sousclaviers - bilatéral sans et avec contraste IV"/>
+         <concept code="99609-0"
+                  codeSystem=""
+                  displayName="angioIRM de l'aorte thoracique avec contraste IV"/>
+         <concept code="99610-8"
+                  codeSystem=""
+                  displayName="CT Abdomen et Pelvis avec contraste per os"/>
+         <concept code="99611-6"
+                  codeSystem=""
+                  displayName="angioIRM des vaisseaux abdominaux et vaisseaux du pelvis sans contraste"/>
+         <concept code="99612-4"
+                  codeSystem=""
+                  displayName="scanner coeur sans contraste"/>
+         <concept code="99613-2"
+                  codeSystem=""
+                  displayName="scanner du coeur sans et avec contraste IV"/>
+         <concept code="99628-0"
+                  codeSystem=""
+                  displayName="scanner Cou+Thorax+Abdomen+Pelvis"/>
+         <concept code="99629-8"
+                  codeSystem=""
+                  displayName="scanner Cou+Thorax+Abdomen+Pelvis sans contraste"/>
+         <concept code="99630-6"
+                  codeSystem=""
+                  displayName="scanner Cou+Thorax+Abdomen+Pelvis sans et avec contraste IV"/>
+         <concept code="99631-4"
+                  codeSystem=""
+                  displayName="CT cone beam articulation temporomandibulaire - bilatérale"/>
+         <concept code="99632-2"
+                  codeSystem=""
+                  displayName="CT cone beam articulation temporomandibulaire sans et avec contraste IV"/>
+         <concept code="99633-0" codeSystem="" displayName="CT Cone beam des dents"/>
+         <concept code="99702-3"
+                  codeSystem=""
+                  displayName="tractographie par résonnance magnétique du cerveau"/>
+         <concept code="99703-1"
+                  codeSystem=""
+                  displayName="résonnance magnétique de perfusion du cerveau"/>
+         <concept code="99704-9"
+                  codeSystem=""
+                  displayName="résonnance magnétique du cerveau pour cartographie d'accident vasculaire cérébral"/>
+         <concept code="99705-6"
+                  codeSystem=""
+                  displayName="résonnance magnétique du cerveau pour cartographie de crises comitiales"/>
+         <concept code="99826-0" codeSystem="" displayName="échographie.A-scan oeil"/>
+         <concept code="99827-8"
+                  codeSystem=""
+                  displayName="échographie.élastographie du sein"/>
       </ConceptList>
    </ValueSet>
 </RetrieveValueSetResponse>

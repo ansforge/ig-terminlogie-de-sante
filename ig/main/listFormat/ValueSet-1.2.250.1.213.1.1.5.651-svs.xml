@@ -2,7 +2,7 @@
 <RetrieveValueSetResponse xmlns="urn:ihe:iti:svs:2008"
                           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
    <ValueSet dateFin=""
-             dateMaj="20230330010000"
+             dateMaj="20230330000000"
              dateValid="20210315000000"
              description="JDV_MesureVerrePrescrit_CISIS"
              displayName="JDV_MesureVerrePrescrit_CISIS"
@@ -16,7 +16,6 @@
          <concept code="MED-1182"
                   codeSystem="1.2.250.1.213.1.1.4.322"
                   displayName="Date de fin d'adapation de la prescription"/>
-         <concept code="74712-1" codeSystem="" displayName="Date de fin de validité"/>
          <concept code="MED-1071"
                   codeSystem="1.2.250.1.213.1.1.4.322"
                   displayName="Puissance de la sphère - verre prescrit"/>
@@ -38,6 +37,7 @@
          <concept code="MED-1075"
                   codeSystem="1.2.250.1.213.1.1.4.322"
                   displayName="Prisme - axe en degrés - verre prescrit"/>
+         <concept code="74712-1" codeSystem="" displayName="Date de fin de validité"/>
          <concept code="95324-0" codeSystem="" displayName="Type de prisme"/>
       </ConceptList>
    </ValueSet>

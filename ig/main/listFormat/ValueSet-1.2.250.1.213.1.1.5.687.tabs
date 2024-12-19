@@ -1,5 +1,5 @@
 <OID>;<Type fichier>;<Nom fichier>;<Description>;<URL fichier>;<Date valid>;<Date fin>;<Date MAJ>  
-1.2.250.1.213.1.1.5.687;JDV;JDV_CodesDocumentImagerie_CISIS;JDV_CodesDocumentImagerie_CISIS;;20210315000000;;20220805010000
+1.2.250.1.213.1.1.5.687;JDV;JDV_CodesDocumentImagerie_CISIS;JDV_CodesDocumentImagerie_CISIS;;20210315000000;;20240731000000
 <system>;<Code>;<Libellé> 
 ;11525-3;échographie pour la grossesse
 ;18742-7;étude en arthroscopie
@@ -7,7 +7,6 @@
 ;18746-8;étude colonoscopique
 ;18751-8;étude endoscopique
 ;18753-4;étude par un sigmoïdoscope flexible
-;18756-7;RM rachis.XXX ; compte rendu
 ;24531-6;échographie du rétropéritoine
 ;24532-4;échographie quadrant supérieur droit de l'abdomen
 ;24533-2;angioIRM vaisseaux abdominaux avec contraste IV
@@ -800,6 +799,11 @@
 ;26400-2;RX hanche - bilatérale ; incidence unique
 ;26401-0;RX hanche - gauche ; incidence unique
 ;26402-8;RX hanche - droite ; incidence unique
+;28012-3;étude oesophagoscopique
+;28018-0;étude entéroscopique
+;28020-6;entéroscopie à  travers une stomie
+;28028-9;étude anuscopique
+;28033-9;étude colonoscopique à  travers une stomie
 ;28561-9;RX pelvis ; incidences
 ;28564-3;RX crâne ; incidences
 ;28565-0;RX genou ; incidences
@@ -6308,3 +6312,35 @@
 ;98364-3;RX articulation sacro-iliaque - droite ; incidences antéropostérieures et oblique
 ;98365-0;RX rachis dorsal ; incidence avec extension
 ;98366-8;RX rachis dorsal ; incidence avec flexion
+;98897-2;RX pelvis et hanche - abduction gauche et rotation interne
+;98898-0;RX pelvis et hanche - droite
+;98899-8;RX poignet - droit incidence 3/4 en pronation
+;98900-4;RX poignet - gauche incidence 3/4 en pronation
+;99505-0;RX poignet - incidence postéroantérieure gauche
+;99506-8;RX poignet - incidence postéroantérieure droit
+;99507-6;RX de la hanche droite 3/4 externe de Judet
+;99508-4;RX de la hanche gauche 3/4 externe de Judet
+;99509-2;RX de la hanche gauche 3/4 interne de Judet
+;99510-0;RX de la hanche droite 3/4 interne de Judet
+;99511-8;RX.radiographie collimatée en fente incidences moelle spinale
+;99605-8;échographie.doppler vaisseaux du membre inférieur - gauche pour cartographie veineuse
+;99606-6;échographie.doppler vaisseaux du membre inférieur - droit pour cartographie veineuse
+;99607-4;échographie.doppler vaisseaux du membre inférieur - bilatéral pour cartographie veineuse
+;99608-2;angioIRM des vaisseaux sousclaviers - bilatéral sans et avec contraste IV
+;99609-0;angioIRM de l'aorte thoracique avec contraste IV
+;99610-8;CT Abdomen et Pelvis avec contraste per os
+;99611-6;angioIRM des vaisseaux abdominaux et vaisseaux du pelvis sans contraste
+;99612-4;scanner coeur sans contraste
+;99613-2;scanner du coeur sans et avec contraste IV
+;99628-0;scanner Cou+Thorax+Abdomen+Pelvis
+;99629-8;scanner Cou+Thorax+Abdomen+Pelvis sans contraste
+;99630-6;scanner Cou+Thorax+Abdomen+Pelvis sans et avec contraste IV
+;99631-4;CT cone beam articulation temporomandibulaire - bilatérale
+;99632-2;CT cone beam articulation temporomandibulaire sans et avec contraste IV
+;99633-0;CT Cone beam des dents
+;99702-3;tractographie par résonnance magnétique du cerveau
+;99703-1;résonnance magnétique de perfusion du cerveau
+;99704-9;résonnance magnétique du cerveau pour cartographie d'accident vasculaire cérébral
+;99705-6;résonnance magnétique du cerveau pour cartographie de crises comitiales
+;99826-0;échographie.A-scan oeil
+;99827-8;échographie.élastographie du sein

@@ -19,12 +19,12 @@
          <concept code="ORG-080"
                   codeSystem="1.2.250.1.213.1.1.4.322"
                   displayName="Echographie morphologique"/>
-         <concept code="51659-1"
-                  codeSystem=""
-                  displayName="Hépatite B virus surface Ag:Présence/Seuil:Ponctuel:Liquide biologique:Qualitatif:"/>
          <concept code="GEN-079"
                   codeSystem="1.2.250.1.213.1.1.4.322"
                   displayName="Entretien prénatal précoce"/>
+         <concept code="51659-1"
+                  codeSystem=""
+                  displayName="Hépatite B virus surface Ag:Présence/Seuil:Ponctuel:Liquide biologique:Qualitatif:"/>
       </ConceptList>
    </ValueSet>
 </RetrieveValueSetResponse>

@@ -40,13 +40,13 @@
          <concept code="I48"
                   codeSystem=""
                   displayName="Fibrillation et flutter auriculaires"/>
-         <concept code="MED-533"
-                  codeSystem="1.2.250.1.213.1.1.4.322"
-                  displayName="Comorbidité"/>
          <concept code="F03" codeSystem="" displayName="Démence, sans précision"/>
          <concept code="C80"
                   codeSystem=""
                   displayName="Tumeur maligne de siège non précisé"/>
+         <concept code="MED-533"
+                  codeSystem="1.2.250.1.213.1.1.4.322"
+                  displayName="Comorbidité"/>
       </ConceptList>
    </ValueSet>
 </RetrieveValueSetResponse>

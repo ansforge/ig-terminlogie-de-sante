@@ -2,7 +2,7 @@
 <RetrieveValueSetResponse xmlns="urn:ihe:iti:svs:2008"
                           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
    <ValueSet dateFin=""
-             dateMaj="20231025010000"
+             dateMaj="20231025000000"
              dateValid="20210315000000"
              description="JDV_TrousseCCU_CISIS"
              displayName="JDV_TrousseCCU_CISIS"
@@ -10,6 +10,9 @@
              typeFichier="JDV"
              urlFichier="">
       <ConceptList>
+         <concept code="GEN-092.08.06"
+                  codeSystem="1.2.250.1.213.1.1.4.322"
+                  displayName="Autre trousse"/>
          <concept code="VHEDA1GUR01LX"
                   codeSystem=""
                   displayName="ABBOTT - Alinity m HR HPV AMP Kit (09N15-090)"/>
@@ -61,9 +64,6 @@
          <concept code="code à fournir"
                   codeSystem=""
                   displayName="AB ANALITICA Realquality RQ-HPV Screen - libellé tableau CNRP"/>
-         <concept code="GEN-092.08.06"
-                  codeSystem="1.2.250.1.213.1.1.4.322"
-                  displayName="Autre trousse"/>
       </ConceptList>
    </ValueSet>
 </RetrieveValueSetResponse>

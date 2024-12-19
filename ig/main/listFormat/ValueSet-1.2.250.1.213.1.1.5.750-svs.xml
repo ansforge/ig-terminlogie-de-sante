@@ -2,7 +2,7 @@
 <RetrieveValueSetResponse xmlns="urn:ihe:iti:svs:2008"
                           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
    <ValueSet dateFin=""
-             dateMaj="20230803010000"
+             dateMaj="20230803000000"
              dateValid="20210315000000"
              description="JDV_TypeInterventionVoieBasse_CISIS"
              displayName="JDV_TypeInterventionVoieBasse_CISIS"
@@ -16,12 +16,12 @@
          <concept code="GEN-092.04.21"
                   codeSystem="1.2.250.1.213.1.1.4.322"
                   displayName="Autre manœuvre siège"/>
-         <concept code="237008007"
-                  codeSystem=""
-                  displayName="manœuvres pour accoucher une dystocie des épaules"/>
          <concept code="GEN-092.04.22"
                   codeSystem="1.2.250.1.213.1.1.4.322"
                   displayName="Autre manœuvre voie basse"/>
+         <concept code="237008007"
+                  codeSystem=""
+                  displayName="manœuvres pour accoucher une dystocie des épaules"/>
          <concept code="416055001"
                   codeSystem=""
                   displayName="grande extraction du siège"/>

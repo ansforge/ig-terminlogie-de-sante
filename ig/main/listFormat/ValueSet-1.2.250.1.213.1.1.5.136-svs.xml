@@ -2,7 +2,7 @@
 <RetrieveValueSetResponse xmlns="urn:ihe:iti:svs:2008"
                           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
    <ValueSet dateFin=""
-             dateMaj="20230803010000"
+             dateMaj="20230803000000"
              dateValid="20210315000000"
              description="JDV_TypeDirectiveAnticipee_CISIS"
              displayName="JDV_TypeDirectiveAnticipee_CISIS"
@@ -10,9 +10,6 @@
              typeFichier="JDV"
              urlFichier="">
       <ConceptList>
-         <concept code="387713003"
-                  codeSystem=""
-                  displayName="intervention chirurgicale"/>
          <concept code="MED-295"
                   codeSystem="1.2.250.1.213.1.1.4.322"
                   displayName="Dialyse rénale"/>
@@ -31,6 +28,9 @@
                   codeSystem=""
                   displayName="Alimentation et hydratation artificielles"/>
          <concept code="75793-0" codeSystem="" displayName="Autre directive"/>
+         <concept code="387713003"
+                  codeSystem=""
+                  displayName="intervention chirurgicale"/>
       </ConceptList>
    </ValueSet>
 </RetrieveValueSetResponse>

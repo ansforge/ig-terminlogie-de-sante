@@ -2,7 +2,7 @@
 <RetrieveValueSetResponse xmlns="urn:ihe:iti:svs:2008"
                           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
    <ValueSet dateFin=""
-             dateMaj="20240719010000"
+             dateMaj="20240719000000"
              dateValid="20210315000000"
              description="JDV_TypeActeEUVN_CISIS"
              displayName="JDV_TypeActeEUVN_CISIS"
@@ -10,6 +10,9 @@
              typeFichier="JDV"
              urlFichier="">
       <ConceptList>
+         <concept code="MED-512"
+                  codeSystem="1.2.250.1.213.1.1.4.322"
+                  displayName="Pose d'une valve / d'une dérivation externe"/>
          <concept code="392031002" codeSystem="" displayName="endartériectomie"/>
          <concept code="2119009"
                   codeSystem=""
@@ -18,9 +21,6 @@
          <concept code="10458001"
                   codeSystem=""
                   displayName="évacuation d'un hématome intracérébral"/>
-         <concept code="MED-512"
-                  codeSystem="1.2.250.1.213.1.1.4.322"
-                  displayName="Pose d'une valve / d'une dérivation externe"/>
       </ConceptList>
    </ValueSet>
 </RetrieveValueSetResponse>

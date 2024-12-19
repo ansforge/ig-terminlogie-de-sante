@@ -4,8 +4,8 @@
    <ValueSet dateFin=""
              dateMaj="20231114000000"
              dateValid="20210315000000"
-             description="JDV_Handicap_Deficit_CISIS"
-             displayName="JDV_Handicap_Deficit_CISIS"
+             description="JDV_HandicapDeficitDLUEHPAD_CISIS"
+             displayName="JDV_HandicapDeficitDLUEHPAD_CISIS"
              id="1.2.250.1.213.1.1.5.791"
              typeFichier="JDV"
              urlFichier="">

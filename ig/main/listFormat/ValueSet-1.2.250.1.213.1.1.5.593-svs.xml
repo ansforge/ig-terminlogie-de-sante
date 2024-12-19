@@ -2,7 +2,7 @@
 <RetrieveValueSetResponse xmlns="urn:ihe:iti:svs:2008"
                           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
    <ValueSet dateFin=""
-             dateMaj="20230427010000"
+             dateMaj="20230427000000"
              dateValid="20210315000000"
              description="JDV_TypeSondeGastrique_CISIS"
              displayName="JDV_TypeSondeGastrique_CISIS"
@@ -11,11 +11,9 @@
              urlFichier="">
       <ConceptList>
          <concept code="G020299"
-                  codeSystem="1.2.250.1.213.2.68"
+                  codeSystem=""
                   displayName="SONDES DE NUTRITION/ASPIRATION GASTRO-INTESTINALES - AUTRES"/>
-         <concept code="G02020101"
-                  codeSystem="1.2.250.1.213.2.68"
-                  displayName="SONDES NASO-GASTRIQUES"/>
+         <concept code="G02020101" codeSystem="" displayName="SONDES NASO-GASTRIQUES"/>
       </ConceptList>
    </ValueSet>
 </RetrieveValueSetResponse>

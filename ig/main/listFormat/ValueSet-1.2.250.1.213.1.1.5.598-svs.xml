@@ -10,13 +10,10 @@
              typeFichier="JDV"
              urlFichier="">
       <ConceptList>
-         <concept code="57171008"
-                  codeSystem=""
-                  displayName="structure du système hématopoïétique"/>
-         <concept code="C3211" codeSystem="" displayName="lymphome non hodgkinien"/>
          <concept code="C88"
                   codeSystem=""
                   displayName="Maladies immunoprolifératives malignes"/>
+         <concept code="C3211" codeSystem="" displayName="lymphome non hodgkinien"/>
          <concept code="C9357" codeSystem="" displayName="Lymphome de Hodgkin"/>
          <concept code="C3483" codeSystem="" displayName="leucémie chronique"/>
          <concept code="C3163"
@@ -32,27 +29,32 @@
                   displayName="leucémie myéloïde chronique BCR-ABL positive"/>
          <concept code="C4861" codeSystem="" displayName="leucémie monocytaire aiguë"/>
          <concept code="C9300" codeSystem="" displayName="leucémie aiguë"/>
-         <concept code="119253004"
-                  codeSystem=""
-                  displayName="voie aérodigestive supérieure"/>
-         <concept code="MED-237"
-                  codeSystem="1.2.250.1.213.1.1.4.322"
-                  displayName="Fosses nasales, sinus, oreille moy/int"/>
-         <concept code="MED-251"
-                  codeSystem="1.2.250.1.213.1.1.4.322"
-                  displayName="Colon-Rectum-Anus"/>
-         <concept code="303270005"
-                  codeSystem=""
-                  displayName="foie et/ou voies biliaires"/>
          <concept code="C27262"
                   codeSystem=""
                   displayName="maladies myélodysplasiques-myéloprolifératives"/>
          <concept code="C3242"
                   codeSystem=""
                   displayName="myélome à cellules plasmatiques"/>
+         <concept code="C94529" codeSystem="" displayName="Vulve et vagin"/>
+         <concept code="C12664" codeSystem="" displayName="Péritoine-rétropéritoine"/>
+         <concept code="MED-237"
+                  codeSystem="1.2.250.1.213.1.1.4.322"
+                  displayName="Fosses nasales, sinus, oreille moy/int"/>
+         <concept code="MED-251"
+                  codeSystem="1.2.250.1.213.1.1.4.322"
+                  displayName="Colon-Rectum-Anus"/>
          <concept code="MED-255"
                   codeSystem="1.2.250.1.213.1.1.4.322"
                   displayName="Trachée, Bronches, Poumon"/>
+         <concept code="57171008"
+                  codeSystem=""
+                  displayName="structure du système hématopoïétique"/>
+         <concept code="119253004"
+                  codeSystem=""
+                  displayName="voie aérodigestive supérieure"/>
+         <concept code="303270005"
+                  codeSystem=""
+                  displayName="foie et/ou voies biliaires"/>
          <concept code="39937001" codeSystem="" displayName="peau"/>
          <concept code="76752008" codeSystem="" displayName="sein"/>
          <concept code="306721000" codeSystem="" displayName="os et/ou articulation"/>
@@ -81,7 +83,6 @@
          <concept code="53065001"
                   codeSystem=""
                   displayName="appareil génital féminin"/>
-         <concept code="C94529" codeSystem="" displayName="Vulve et vagin"/>
          <concept code="23952005" codeSystem="" displayName="corps de l'utérus"/>
          <concept code="71252005" codeSystem="" displayName="col utérin"/>
          <concept code="15497006" codeSystem="" displayName="ovaire"/>
@@ -98,7 +99,6 @@
          <concept code="23451007" codeSystem="" displayName="glande surrénale"/>
          <concept code="69748006" codeSystem="" displayName="glande thyroïde"/>
          <concept code="72410000" codeSystem="" displayName="médiastin"/>
-         <concept code="C12664" codeSystem="" displayName="Péritoine-rétropéritoine"/>
       </ConceptList>
    </ValueSet>
 </RetrieveValueSetResponse>

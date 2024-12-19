@@ -2,7 +2,7 @@
 <RetrieveValueSetResponse xmlns="urn:ihe:iti:svs:2008"
                           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
    <ValueSet dateFin=""
-             dateMaj="20240513010000"
+             dateMaj="20240513000000"
              dateValid="20210315000000"
              description="JDV_FacteursDeRiquesAVC_CISIS"
              displayName="JDV_FacteursDeRiquesAVC_CISIS"
@@ -10,9 +10,6 @@
              typeFichier="JDV"
              urlFichier="">
       <ConceptList>
-         <concept code="MED-325"
-                  codeSystem="1.2.250.1.213.1.1.4.322"
-                  displayName="Risque de récidive"/>
          <concept code="I10"
                   codeSystem=""
                   displayName="Hypertension essentielle (primitive)"/>
@@ -26,6 +23,9 @@
          <concept code="E78"
                   codeSystem=""
                   displayName="Anomalies du métabolisme des lipoprotéines et autres lipidémies"/>
+         <concept code="MED-325"
+                  codeSystem="1.2.250.1.213.1.1.4.322"
+                  displayName="Risque de récidive"/>
       </ConceptList>
    </ValueSet>
 </RetrieveValueSetResponse>

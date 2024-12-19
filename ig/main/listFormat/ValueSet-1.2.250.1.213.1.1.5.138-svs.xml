@@ -11,20 +11,16 @@
              urlFichier="">
       <ConceptList>
          <concept code="DEV"
-                  codeSystem="2.16.840.1.113883.5.90"
+                  codeSystem=""
                   displayName="Dispositif automatique impliqué dans la production des résultats"/>
          <concept code="AUTHEN"
-                  codeSystem="2.16.840.1.113883.5.90"
+                  codeSystem=""
                   displayName="Valideur des résultats (ex : un biologiste ou un système expert)"/>
-         <concept code="RESP"
-                  codeSystem="2.16.840.1.113883.5.90"
-                  displayName="Responsable de l'acte"/>
+         <concept code="RESP" codeSystem="" displayName="Responsable de l'acte"/>
          <concept code="ENT"
-                  codeSystem="2.16.840.1.113883.5.90"
+                  codeSystem=""
                   displayName="Transcripteur du contenu à partir d'une autre forme"/>
-         <concept code="PRF"
-                  codeSystem="2.16.840.1.113883.5.90"
-                  displayName="Exécutant"/>
+         <concept code="PRF" codeSystem="" displayName="Exécutant"/>
       </ConceptList>
    </ValueSet>
 </RetrieveValueSetResponse>

@@ -2,7 +2,7 @@
 <RetrieveValueSetResponse xmlns="urn:ihe:iti:svs:2008"
                           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
    <ValueSet dateFin=""
-             dateMaj="20230803010000"
+             dateMaj="20230803000000"
              dateValid="20210315000000"
              description="JDV_PresentationFoetale_CISIS"
              displayName="JDV_PresentationFoetale_CISIS"
@@ -10,6 +10,12 @@
              typeFichier="JDV"
              urlFichier="">
       <ConceptList>
+         <concept code="MED-1245"
+                  codeSystem="1.2.250.1.213.1.1.4.322"
+                  displayName="Occipito-pubien"/>
+         <concept code="MED-1246"
+                  codeSystem="1.2.250.1.213.1.1.4.322"
+                  displayName="Occipito-sacré"/>
          <concept code="70028003" codeSystem="" displayName="présentation du sommet"/>
          <concept code="289366006"
                   codeSystem=""
@@ -29,12 +35,6 @@
          <concept code="249082000"
                   codeSystem=""
                   displayName="présentation par la grande fontanelle"/>
-         <concept code="MED-1245"
-                  codeSystem="1.2.250.1.213.1.1.4.322"
-                  displayName="Occipito-pubien"/>
-         <concept code="MED-1246"
-                  codeSystem="1.2.250.1.213.1.1.4.322"
-                  displayName="Occipito-sacré"/>
       </ConceptList>
    </ValueSet>
 </RetrieveValueSetResponse>

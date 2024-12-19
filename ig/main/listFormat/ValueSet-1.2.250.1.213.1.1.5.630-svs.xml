@@ -10,11 +10,11 @@
              typeFichier="JDV"
              urlFichier="">
       <ConceptList>
-         <concept code="260415000" codeSystem="" displayName="non dépisté"/>
-         <concept code="52101004" codeSystem="" displayName="présent"/>
          <concept code="MED-659"
                   codeSystem="1.2.250.1.213.1.1.4.322"
                   displayName="Non évaluable"/>
+         <concept code="260415000" codeSystem="" displayName="non dépisté"/>
+         <concept code="52101004" codeSystem="" displayName="présent"/>
       </ConceptList>
    </ValueSet>
 </RetrieveValueSetResponse>

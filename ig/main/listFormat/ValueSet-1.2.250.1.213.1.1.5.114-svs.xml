@@ -13,15 +13,15 @@
          <concept code="MED-168"
                   codeSystem="1.2.250.1.213.1.1.4.322"
                   displayName="Analgésie au cours du travail"/>
-         <concept code="50697003" codeSystem="" displayName="anesthésie générale"/>
-         <concept code="231249005" codeSystem="" displayName="anesthésie rachidienne"/>
-         <concept code="18946005" codeSystem="" displayName="anesthésie épidurale"/>
          <concept code="MED-222"
                   codeSystem="1.2.250.1.213.1.1.4.322"
                   displayName="Pas d'anesthésie"/>
          <concept code="GEN-092.03.04"
                   codeSystem="1.2.250.1.213.1.1.4.322"
                   displayName="Autre anesthésie"/>
+         <concept code="50697003" codeSystem="" displayName="anesthésie générale"/>
+         <concept code="231249005" codeSystem="" displayName="anesthésie rachidienne"/>
+         <concept code="18946005" codeSystem="" displayName="anesthésie épidurale"/>
       </ConceptList>
    </ValueSet>
 </RetrieveValueSetResponse>

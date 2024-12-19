@@ -2,7 +2,7 @@
 <RetrieveValueSetResponse xmlns="urn:ihe:iti:svs:2008"
                           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
    <ValueSet dateFin=""
-             dateMaj="20230330010000"
+             dateMaj="20230330000000"
              dateValid="20210315000000"
              description="JDV_TypeDeMesureAcuiteVisuelle_CISIS"
              displayName="JDV_TypeDeMesureAcuiteVisuelle_CISIS"
@@ -10,6 +10,18 @@
              typeFichier="JDV"
              urlFichier="">
       <ConceptList>
+         <concept code="MED-886"
+                  codeSystem="1.2.250.1.213.1.1.4.322"
+                  displayName="Addition"/>
+         <concept code="MED-990"
+                  codeSystem="1.2.250.1.213.1.1.4.322"
+                  displayName="Prisme – puissance – acuité visuelle"/>
+         <concept code="MED-887"
+                  codeSystem="1.2.250.1.213.1.1.4.322"
+                  displayName="Prisme - orientation base – acuité visuelle"/>
+         <concept code="MED-1047"
+                  codeSystem="1.2.250.1.213.1.1.4.322"
+                  displayName="Prisme - axe en degrés – acuité visuelle"/>
          <concept code="28711-0"
                   codeSystem=""
                   displayName="Acuité visuelle - vision de loin"/>
@@ -26,18 +38,6 @@
          <concept code="95321-6"
                   codeSystem=""
                   displayName="Axe en degrés – acuité visuelle"/>
-         <concept code="MED-886"
-                  codeSystem="1.2.250.1.213.1.1.4.322"
-                  displayName="Addition"/>
-         <concept code="MED-990"
-                  codeSystem="1.2.250.1.213.1.1.4.322"
-                  displayName="Prisme – puissance – acuité visuelle"/>
-         <concept code="MED-887"
-                  codeSystem="1.2.250.1.213.1.1.4.322"
-                  displayName="Prisme - orientation base – acuité visuelle"/>
-         <concept code="MED-1047"
-                  codeSystem="1.2.250.1.213.1.1.4.322"
-                  displayName="Prisme - axe en degrés – acuité visuelle"/>
       </ConceptList>
    </ValueSet>
 </RetrieveValueSetResponse>

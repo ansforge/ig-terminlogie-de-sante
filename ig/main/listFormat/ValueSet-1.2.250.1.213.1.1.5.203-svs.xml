@@ -10,12 +10,6 @@
              typeFichier="JDV"
              urlFichier="">
       <ConceptList>
-         <concept code="MED-467"
-                  codeSystem="1.2.250.1.213.1.1.4.322"
-                  displayName="Hémorragie ancienne"/>
-         <concept code="MED-468"
-                  codeSystem="1.2.250.1.213.1.1.4.322"
-                  displayName="Microsaignements"/>
          <concept code="I60.9"
                   codeSystem=""
                   displayName="Hémorragie sousarachnoïdienne, sans précision"/>
@@ -28,6 +22,12 @@
          <concept code="I63.6"
                   codeSystem=""
                   displayName="Infarctus cérébral dû à une thrombose veineuse cérébrale, non pyogène"/>
+         <concept code="MED-467"
+                  codeSystem="1.2.250.1.213.1.1.4.322"
+                  displayName="Hémorragie ancienne"/>
+         <concept code="MED-468"
+                  codeSystem="1.2.250.1.213.1.1.4.322"
+                  displayName="Microsaignements"/>
       </ConceptList>
    </ValueSet>
 </RetrieveValueSetResponse>

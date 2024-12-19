@@ -2,7 +2,7 @@
 <RetrieveValueSetResponse xmlns="urn:ihe:iti:svs:2008"
                           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
    <ValueSet dateFin=""
-             dateMaj="20240716010000"
+             dateMaj="20240716000000"
              dateValid="20210315000000"
              description="JDV_UFCV_CodEntree_CISIS"
              displayName="JDV_UFCV_CodEntree_CISIS"
@@ -14,10 +14,6 @@
                   codeSystem="1.2.250.1.213.1.1.4.322"
                   displayName="Tension de pile (IRE)"/>
          <concept code="L0003" codeSystem="1.2.250.1.213.1.1.4.322" displayName="IRE"/>
-         <concept code="99686-8"
-                  codeSystem=""
-                  displayName="Type de stimulateur cardiaque"/>
-         <concept code="20228-3" codeSystem="" displayName="Latéralité"/>
          <concept code="L0006"
                   codeSystem="1.2.250.1.213.1.1.4.322"
                   displayName="Asserv"/>
@@ -33,9 +29,6 @@
          <concept code="L0010"
                   codeSystem="1.2.250.1.213.1.1.4.322"
                   displayName="FEVG"/>
-         <concept code="85734-2"
-                  codeSystem=""
-                  displayName="Date de la dernière évaluation"/>
          <concept code="L0013"
                   codeSystem="1.2.250.1.213.1.1.4.322"
                   displayName="Mode programmé"/>
@@ -54,7 +47,6 @@
          <concept code="L0018"
                   codeSystem="1.2.250.1.213.1.1.4.322"
                   displayName="Adaptateur"/>
-         <concept code="21938-6" codeSystem="" displayName="Voie d'abord"/>
          <concept code="L0021"
                   codeSystem="1.2.250.1.213.1.1.4.322"
                   displayName="Courant"/>
@@ -97,22 +89,18 @@
          <concept code="L0037"
                   codeSystem="1.2.250.1.213.1.1.4.322"
                   displayName="Fréquence sans aimant"/>
-         <concept code="74720-4" codeSystem="" displayName="Nom du dispositif"/>
          <concept code="L0050"
                   codeSystem="1.2.250.1.213.1.1.4.322"
                   displayName="Marque"/>
-         <concept code="67716-1" codeSystem="" displayName="Modèle"/>
          <concept code="L0053"
                   codeSystem="1.2.250.1.213.1.1.4.322"
                   displayName="Polarité"/>
-         <concept code="39111-0" codeSystem="" displayName="Localisation"/>
          <concept code="L0055"
                   codeSystem="1.2.250.1.213.1.1.4.322"
                   displayName="Date d’implantation"/>
          <concept code="L0056"
                   codeSystem="1.2.250.1.213.1.1.4.322"
                   displayName="Dispositif"/>
-         <concept code="74715-4" codeSystem="" displayName="Numéro de Série"/>
          <concept code="L0060"
                   codeSystem="1.2.250.1.213.1.1.4.322"
                   displayName="Fréq. s/s aimant"/>
@@ -140,6 +128,18 @@
          <concept code="L0047"
                   codeSystem="1.2.250.1.213.1.1.4.322"
                   displayName="Remise Carnet de surveillance AVK"/>
+         <concept code="99686-8"
+                  codeSystem=""
+                  displayName="Type de stimulateur cardiaque"/>
+         <concept code="20228-3" codeSystem="" displayName="Latéralité"/>
+         <concept code="85734-2"
+                  codeSystem=""
+                  displayName="Date de la dernière évaluation"/>
+         <concept code="21938-6" codeSystem="" displayName="Voie d'abord"/>
+         <concept code="74720-4" codeSystem="" displayName="Nom du dispositif"/>
+         <concept code="67716-1" codeSystem="" displayName="Modèle"/>
+         <concept code="39111-0" codeSystem="" displayName="Localisation"/>
+         <concept code="74715-4" codeSystem="" displayName="Numéro de Série"/>
       </ConceptList>
    </ValueSet>
 </RetrieveValueSetResponse>

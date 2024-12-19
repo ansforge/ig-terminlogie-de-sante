@@ -10,7 +10,12 @@
              typeFichier="JDV"
              urlFichier="">
       <ConceptList>
-         <concept code="160849004" codeSystem="" displayName="retour au domicile"/>
+         <concept code="GEN-092.06.01"
+                  codeSystem="1.2.250.1.213.1.1.4.322"
+                  displayName="Autre établissement de santé"/>
+         <concept code="GEN-092.06.03"
+                  codeSystem="1.2.250.1.213.1.1.4.322"
+                  displayName="Autre destination"/>
          <concept code="109"
                   codeSystem="1.2.250.1.213.1.6.1.8"
                   displayName="Etablissement de santé privé autorisé en SSR"/>
@@ -20,12 +25,7 @@
          <concept code="500"
                   codeSystem="1.2.250.1.213.1.6.1.8"
                   displayName="Etablissement d'hébergement pour personnes âgées dépendantes"/>
-         <concept code="GEN-092.06.01"
-                  codeSystem="1.2.250.1.213.1.1.4.322"
-                  displayName="Autre établissement de santé"/>
-         <concept code="GEN-092.06.03"
-                  codeSystem="1.2.250.1.213.1.1.4.322"
-                  displayName="Autre destination"/>
+         <concept code="160849004" codeSystem="" displayName="retour au domicile"/>
       </ConceptList>
    </ValueSet>
 </RetrieveValueSetResponse>

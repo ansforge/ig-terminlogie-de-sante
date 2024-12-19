@@ -2,7 +2,7 @@
 <RetrieveValueSetResponse xmlns="urn:ihe:iti:svs:2008"
                           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
    <ValueSet dateFin=""
-             dateMaj="20231114000000"
+             dateMaj="20241010000000"
              dateValid="20210315000000"
              description="JDV_FacteursDeRisqueSociaux_CISIS"
              displayName="JDV_FacteursDeRisqueSociaux_CISIS"
@@ -11,12 +11,8 @@
              urlFichier="">
       <ConceptList>
          <concept code="422650009" codeSystem="" displayName="isolement social"/>
-         <concept code="GEN-189"
-                  codeSystem="1.2.250.1.213.1.1.4.322"
-                  displayName="SDF"/>
-         <concept code="GEN-190"
-                  codeSystem="1.2.250.1.213.1.1.4.322"
-                  displayName="Revenus insuffisants"/>
+         <concept code="224226001" codeSystem="" displayName="sans domicile fixe"/>
+         <concept code="424860001" codeSystem="" displayName="faible revenu"/>
       </ConceptList>
    </ValueSet>
 </RetrieveValueSetResponse>

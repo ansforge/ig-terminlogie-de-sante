@@ -2,7 +2,7 @@
 <RetrieveValueSetResponse xmlns="urn:ihe:iti:svs:2008"
                           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
    <ValueSet dateFin=""
-             dateMaj="20240718010000"
+             dateMaj="20240718000000"
              dateValid="20210315000000"
              description="JDV_TypeDeSuivi_CISIS"
              displayName="JDV_TypeDeSuivi_CISIS"
@@ -16,10 +16,10 @@
          <concept code="MED-092"
                   codeSystem="1.2.250.1.213.1.1.4.322"
                   displayName="Examen d’imagerie médicale"/>
-         <concept code="11429006" codeSystem="" displayName="Consultation"/>
          <concept code="GEN-092.04.06"
                   codeSystem="1.2.250.1.213.1.1.4.322"
                   displayName="Autre type de suivi"/>
+         <concept code="11429006" codeSystem="" displayName="Consultation"/>
       </ConceptList>
    </ValueSet>
 </RetrieveValueSetResponse>

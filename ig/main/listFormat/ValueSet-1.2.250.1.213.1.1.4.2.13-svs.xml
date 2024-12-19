@@ -10,9 +10,6 @@
              typeFichier="JDV"
              urlFichier="">
       <ConceptList>
-         <concept code="D0016-6"
-                  codeSystem="1.2.250.1.213.1.1.4.322"
-                  displayName="Prévention primaire d'un sujet à haut risque"/>
          <concept code="G45.9"
                   codeSystem=""
                   displayName="Accident ischémique cérébral transitoire, sans précision"/>
@@ -29,12 +26,15 @@
          <concept code="I74.4"
                   codeSystem=""
                   displayName="Embolie et thrombose des artères distales, sans précision"/>
-         <concept code="K55.0"
+         <concept code="K55"
                   codeSystem=""
-                  displayName="Infarctus mésentérique (artère) (veine)"/>
+                  displayName="Troubles vasculaires de l'intestin"/>
          <concept code="N28.0"
                   codeSystem=""
                   displayName="Ischémie et infarctus du rein"/>
+         <concept code="D0016-6"
+                  codeSystem="1.2.250.1.213.1.1.4.322"
+                  displayName="Prévention primaire d'un sujet à haut risque"/>
       </ConceptList>
    </ValueSet>
 </RetrieveValueSetResponse>

@@ -10,7 +10,6 @@
              typeFichier="JDV"
              urlFichier="">
       <ConceptList>
-         <concept code="263855007" codeSystem="" displayName="rechute"/>
          <concept code="MED-103"
                   codeSystem="1.2.250.1.213.1.1.4.322"
                   displayName="Non réponse ou évolution sous traitement"/>
@@ -38,6 +37,7 @@
          <concept code="GEN-092.08.02"
                   codeSystem="1.2.250.1.213.1.1.4.322"
                   displayName="Autre motif de mise à jour"/>
+         <concept code="263855007" codeSystem="" displayName="rechute"/>
       </ConceptList>
    </ValueSet>
 </RetrieveValueSetResponse>

@@ -2,7 +2,7 @@
 <RetrieveValueSetResponse xmlns="urn:ihe:iti:svs:2008"
                           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
    <ValueSet dateFin=""
-             dateMaj="20230427010000"
+             dateMaj="20230427000000"
              dateValid="20210315000000"
              description="JDV_UFCV_TypVal_CISIS"
              displayName="JDV_UFCV_TypVal_CISIS"
@@ -11,16 +11,16 @@
              urlFichier="">
       <ConceptList>
          <concept code="P070301030101"
-                  codeSystem="1.2.250.1.213.2.68"
+                  codeSystem=""
                   displayName="VALVES AORTIQUES BIOLOGIQUES AVEC ARMATURE PAR VOIE PERCUTANÉE AVEC SUPPORT - VALVE D'ORIGINE ANIMALE"/>
          <concept code="P070301030102"
-                  codeSystem="1.2.250.1.213.2.68"
+                  codeSystem=""
                   displayName="VALVES MITRALES BIOLOGIQUES AVEC ARMATURE PAR VOIE PERCUTANÉE AVEC SUPPORT - VALVE D'ORIGINE ANIMALE"/>
          <concept code="P070301030103"
-                  codeSystem="1.2.250.1.213.2.68"
+                  codeSystem=""
                   displayName="VALVES PULMONAIRES BIOLOGIQUES AVEC ARMATURE PAR VOIE PERCUTANÉE AVEC SUPPORT - VALVE D'ORIGINE ANIMALE"/>
          <concept code="P070301030104"
-                  codeSystem="1.2.250.1.213.2.68"
+                  codeSystem=""
                   displayName="VALVES TRICUSPIDES BIOLOGIQUES AVEC ARMATURE PAR VOIE PERCUTANÉE AVEC SUPPORT - VALVE D'ORIGINE ANIMALE"/>
       </ConceptList>
    </ValueSet>

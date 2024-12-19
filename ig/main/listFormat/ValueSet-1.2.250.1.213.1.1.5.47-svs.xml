@@ -10,6 +10,9 @@
              typeFichier="JDV"
              urlFichier="">
       <ConceptList>
+         <concept code="GEN-092.04.03"
+                  codeSystem="1.2.250.1.213.1.1.4.322"
+                  displayName="Autres investigations"/>
          <concept code="58147004" codeSystem="" displayName="clinique"/>
          <concept code="12893009" codeSystem="" displayName="biologique"/>
          <concept code="80534008" codeSystem="" displayName="biochimique"/>
@@ -24,9 +27,6 @@
          <concept code="108257001"
                   codeSystem=""
                   displayName="intervention en anatomopathologie"/>
-         <concept code="GEN-092.04.03"
-                  codeSystem="1.2.250.1.213.1.1.4.322"
-                  displayName="Autres investigations"/>
       </ConceptList>
    </ValueSet>
 </RetrieveValueSetResponse>

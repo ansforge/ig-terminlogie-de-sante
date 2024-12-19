@@ -10,9 +10,6 @@
              typeFichier="JDV"
              urlFichier="">
       <ConceptList>
-         <concept code="MED-348"
-                  codeSystem="1.2.250.1.213.1.1.4.322"
-                  displayName="Troubles visuels bilatéraux"/>
          <concept code="H53.2" codeSystem="" displayName="Diplopie"/>
          <concept code="H53.4" codeSystem="" displayName="Anomalies du champ visuel"/>
          <concept code="H54.5"
@@ -24,6 +21,9 @@
          <concept code="H53.9"
                   codeSystem=""
                   displayName="Trouble de la vision, sans précision"/>
+         <concept code="MED-348"
+                  codeSystem="1.2.250.1.213.1.1.4.322"
+                  displayName="Troubles visuels bilatéraux"/>
       </ConceptList>
    </ValueSet>
 </RetrieveValueSetResponse>

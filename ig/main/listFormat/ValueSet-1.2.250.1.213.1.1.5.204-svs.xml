@@ -10,13 +10,6 @@
              typeFichier="JDV"
              urlFichier="">
       <ConceptList>
-         <concept code="160849004" codeSystem="" displayName="retour au domicile"/>
-         <concept code="127"
-                  codeSystem="1.2.250.1.213.1.6.1.8"
-                  displayName="Hospitalisation à Domicile"/>
-         <concept code="500"
-                  codeSystem="1.2.250.1.213.1.6.1.8"
-                  displayName="Etablissement d'hébergement pour personnes âgées dépendantes"/>
          <concept code="ORG-102"
                   codeSystem="1.2.250.1.213.1.1.4.322"
                   displayName="SSR spécialisé neuro"/>
@@ -35,6 +28,13 @@
          <concept code="GEN-092.06.03"
                   codeSystem="1.2.250.1.213.1.1.4.322"
                   displayName="Autre destination"/>
+         <concept code="127"
+                  codeSystem="1.2.250.1.213.1.6.1.8"
+                  displayName="Hospitalisation à Domicile"/>
+         <concept code="500"
+                  codeSystem="1.2.250.1.213.1.6.1.8"
+                  displayName="Etablissement d'hébergement pour personnes âgées dépendantes"/>
+         <concept code="160849004" codeSystem="" displayName="retour au domicile"/>
          <concept code="419620001" codeSystem="" displayName="mort"/>
       </ConceptList>
    </ValueSet>

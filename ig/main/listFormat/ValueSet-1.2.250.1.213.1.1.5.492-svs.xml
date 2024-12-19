@@ -2,7 +2,7 @@
 <RetrieveValueSetResponse xmlns="urn:ihe:iti:svs:2008"
                           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
    <ValueSet dateFin=""
-             dateMaj="20230803010000"
+             dateMaj="20230803000000"
              dateValid="20210315000000"
              description="JDV_TypeAnesthesie_CISIS"
              displayName="JDV_TypeAnesthesie_CISIS"
@@ -10,7 +10,6 @@
              typeFichier="JDV"
              urlFichier="">
       <ConceptList>
-         <concept code="50697003" codeSystem="" displayName="anesthésie générale"/>
          <concept code="MED-582"
                   codeSystem="1.2.250.1.213.1.1.4.322"
                   displayName="Anesthésie locorégionale péridurale ou épidurale"/>
@@ -32,6 +31,7 @@
          <concept code="MED-588"
                   codeSystem="1.2.250.1.213.1.1.4.322"
                   displayName="Surveillance simple"/>
+         <concept code="50697003" codeSystem="" displayName="anesthésie générale"/>
       </ConceptList>
    </ValueSet>
 </RetrieveValueSetResponse>

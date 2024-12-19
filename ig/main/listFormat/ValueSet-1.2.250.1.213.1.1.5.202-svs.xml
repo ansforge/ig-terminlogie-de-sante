@@ -10,6 +10,9 @@
              typeFichier="JDV"
              urlFichier="">
       <ConceptList>
+         <concept code="Q27.9"
+                  codeSystem=""
+                  displayName="Malformation congénitale de l'appareil circulatoire périphérique, sans précision"/>
          <concept code="MED-473"
                   codeSystem="1.2.250.1.213.1.1.4.322"
                   displayName="Maladie petites artères"/>
@@ -19,9 +22,6 @@
          <concept code="MED-475"
                   codeSystem="1.2.250.1.213.1.1.4.322"
                   displayName="Angiopathie amyloïde"/>
-         <concept code="Q27.9"
-                  codeSystem=""
-                  displayName="Malformation congénitale de l'appareil circulatoire périphérique, sans précision"/>
          <concept code="GEN-092.01.10"
                   codeSystem="1.2.250.1.213.1.1.4.322"
                   displayName="Autre étiologie de l'hémorragie"/>

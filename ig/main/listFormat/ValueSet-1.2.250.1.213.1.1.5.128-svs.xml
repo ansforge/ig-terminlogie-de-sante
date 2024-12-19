@@ -2,7 +2,7 @@
 <RetrieveValueSetResponse xmlns="urn:ihe:iti:svs:2008"
                           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
    <ValueSet dateFin=""
-             dateMaj="20231025010000"
+             dateMaj="20241010000000"
              dateValid="20210315000000"
              description="JDV_TypeGarde_CISIS"
              displayName="JDV_TypeGarde_CISIS"
@@ -16,9 +16,9 @@
          <concept code="PAT-051"
                   codeSystem="1.2.250.1.213.1.1.4.322"
                   displayName="Assistance maternelle"/>
-         <concept code="GEN-117"
-                  codeSystem="1.2.250.1.213.1.1.4.322"
-                  displayName="Domicile"/>
+         <concept code="312385000"
+                  codeSystem=""
+                  displayName="service de garde d'enfants à domicile"/>
       </ConceptList>
    </ValueSet>
 </RetrieveValueSetResponse>

@@ -17635,6 +17635,413 @@
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/1.2.250.1.213.1.1.4.321.13"/>
+      </reference>
+      <name value="AVC_artereAnt"/>
+      <description value="AVC_artereAnt"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/1.2.250.1.213.1.1.4.321.16"/>
+      </reference>
+      <name value="AVC_artereCervelet"/>
+      <description value="AVC_artereCervelet"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/1.2.250.1.213.1.1.4.321.15"/>
+      </reference>
+      <name value="AVC_arterePost"/>
+      <description value="AVC_arterePost"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/1.2.250.1.213.1.1.4.321.20"/>
+      </reference>
+      <name value="AVC_artereTronc"/>
+      <description value="AVC_artereTronc"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/1.2.250.1.213.1.1.4.321.11"/>
+      </reference>
+      <name value="AVC_autreSymptomeExNeuro"/>
+      <description value="AVC_autreSymptomeExNeuro"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/1.2.250.1.213.1.1.4.321.6"/>
+      </reference>
+      <name value="AVC_autreSymptomesNeuro"/>
+      <description value="AVC_autreSymptomesNeuro"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/1.2.250.1.213.1.1.4.321.40"/>
+      </reference>
+      <name value="AVC_causesAggravationNeuro"/>
+      <description value="AVC_causesAggravationNeuro"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/1.2.250.1.213.1.1.4.321.10"/>
+      </reference>
+      <name value="AVC_CddFA"/>
+      <description value="AVC_CddFA"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/1.2.250.1.213.1.1.4.321.19"/>
+      </reference>
+      <name value="AVC_cerveletLoc"/>
+      <description value="AVC_cerveletLoc"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/1.2.250.1.213.1.1.4.321.43"/>
+      </reference>
+      <name value="AVC_etiologieHemorragie"/>
+      <description value="AVC_etiologieHemorragie"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/1.2.250.1.213.1.1.4.321.41"/>
+      </reference>
+      <name value="AVC_etiologieInfarctus"/>
+      <description value="AVC_etiologieInfarctus"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/1.2.250.1.213.1.1.4.321.18"/>
+      </reference>
+      <name value="AVC_hemisphereLobaire"/>
+      <description value="AVC_hemisphereLobaire"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/1.2.250.1.213.1.1.4.321.17"/>
+      </reference>
+      <name value="AVC_hemisphereProfond"/>
+      <description value="AVC_hemisphereProfond"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/1.2.250.1.213.1.1.4.321.36"/>
+      </reference>
+      <name value="AVC_interpretationECG"/>
+      <description value="AVC_interpretationECG"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/1.2.250.1.213.1.1.4.321.46"/>
+      </reference>
+      <name value="AVC_InterpretationScoreFisher"/>
+      <description value="AVC_InterpretationScoreFisher"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/1.2.250.1.213.1.1.4.321.21"/>
+      </reference>
+      <name value="AVC_locaThromboseVeineuse"/>
+      <description value="AVC_locaThromboseVeineuse"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/1.2.250.1.213.1.1.4.321.31"/>
+      </reference>
+      <name value="AVC_NIHSSAtaxInt"/>
+      <description value="AVC_NIHSSAtaxInt"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/1.2.250.1.213.1.1.4.321.23"/>
+      </reference>
+      <name value="AVC_NIHSSConsInt"/>
+      <description value="AVC_NIHSSConsInt"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/1.2.250.1.213.1.1.4.321.27"/>
+      </reference>
+      <name value="AVC_NIHSSCvInt"/>
+      <description value="AVC_NIHSSCvInt"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/1.2.250.1.213.1.1.4.321.35"/>
+      </reference>
+      <name value="AVC_NIHSSDysInt"/>
+      <description value="AVC_NIHSSDysInt"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/1.2.250.1.213.1.1.4.321.32"/>
+      </reference>
+      <name value="AVC_NIHSSLangInt"/>
+      <description value="AVC_NIHSSLangInt"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/1.2.250.1.213.1.1.4.321.25"/>
+      </reference>
+      <name value="AVC_NIHSSLoccInt"/>
+      <description value="AVC_NIHSSLoccInt"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/1.2.250.1.213.1.1.4.321.24"/>
+      </reference>
+      <name value="AVC_NIHSSLocqInt"/>
+      <description value="AVC_NIHSSLocqInt"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/1.2.250.1.213.1.1.4.321.30"/>
+      </reference>
+      <name value="AVC_NIHSSMiInt"/>
+      <description value="AVC_NIHSSMiInt"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/1.2.250.1.213.1.1.4.321.29"/>
+      </reference>
+      <name value="AVC_NIHSSMsInt"/>
+      <description value="AVC_NIHSSMsInt"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/1.2.250.1.213.1.1.4.321.26"/>
+      </reference>
+      <name value="AVC_NIHSSOculInt"/>
+      <description value="AVC_NIHSSOculInt"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/1.2.250.1.213.1.1.4.321.28"/>
+      </reference>
+      <name value="AVC_NIHSSPfInt"/>
+      <description value="AVC_NIHSSPfInt"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/1.2.250.1.213.1.1.4.321.34"/>
+      </reference>
+      <name value="AVC_NIHSSSensInt"/>
+      <description value="AVC_NIHSSSensInt"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/1.2.250.1.213.1.1.4.321.42"/>
+      </reference>
+      <name value="AVC_raisonAbsenceEtiologie"/>
+      <description value="AVC_raisonAbsenceEtiologie"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/1.2.250.1.213.1.1.4.321.9"/>
+      </reference>
+      <name value="AVC_siteIntervention"/>
+      <description value="AVC_siteIntervention"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/1.2.250.1.213.1.1.4.321.22"/>
+      </reference>
+      <name value="AVC_statutEvt"/>
+      <description value="AVC_statutEvt"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/1.2.250.1.213.1.1.4.321.37"/>
+      </reference>
+      <name value="AVC_territoireInfarctus"/>
+      <description value="AVC_territoireInfarctus"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/1.2.250.1.213.1.1.4.321.39"/>
+      </reference>
+      <name value="AVC_typeAdminstrationRt"/>
+      <description value="AVC_typeAdminstrationRt"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/1.2.250.1.213.1.1.4.321.8"/>
+      </reference>
+      <name value="AVC_typeMigraine"/>
+      <description value="AVC_typeMigraine"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/1.2.250.1.213.1.1.4.321.38"/>
+      </reference>
+      <name value="AVC_typeTraitementRt_PA"/>
+      <description value="AVC_typeTraitementRt_PA"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/1.2.250.1.213.1.1.4.321.5"/>
+      </reference>
+      <name value="AVC_TypeTroubleVisuel"/>
+      <description value="AVC_TypeTroubleVisuel"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/1.2.250.1.213.1.1.4.321.44"/>
+      </reference>
+      <name value="AVC_typLesionImagerie"/>
+      <description value="AVC_typLesionImagerie"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
         <valueString value="CodeSystem"/>
       </extension>
       <reference>
@@ -17716,6 +18123,39 @@
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/1.2.250.1.213.1.1.4.2.285.3"/>
+      </reference>
+      <name value="EDAPDeclK"/>
+      <description value="EDAPDeclK"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/1.2.250.1.213.1.1.4.2.285.1"/>
+      </reference>
+      <name value="EDAPTypeCodes"/>
+      <description value="EDAPTypeCodes"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/1.2.250.1.213.1.1.4.2.285.2"/>
+      </reference>
+      <name value="EDAPTypeProc"/>
+      <description value="EDAPTypeProc"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
         <valueString value="CodeSystem"/>
       </extension>
       <reference>
@@ -17787,17 +18227,6 @@
       </reference>
       <name value="JDV_AbordVeineuxPeripherique_CISIS"/>
       <description value="JDV_AbordVeineuxPeripherique_CISIS"/>
-      <exampleBoolean value="false"/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="ValueSet"/>
-      </extension>
-      <reference>
-        <reference value="ValueSet/1.2.250.1.213.1.1.5.661"/>
-      </reference>
-      <name value="JDV_AbsentOrUnknownAllergy_CISIS"/>
-      <description value="JDV_AbsentOrUnknownAllergy_CISIS"/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -17970,6 +18399,17 @@
         <valueString value="ValueSet"/>
       </extension>
       <reference>
+        <reference value="ValueSet/1.2.250.1.213.1.1.5.674"/>
+      </reference>
+      <name value="JDV_AllergieReaction_CISIS"/>
+      <description value="JDV_AllergieReaction_CISIS"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
         <reference value="ValueSet/1.2.250.1.213.1.1.5.100"/>
       </reference>
       <name value="JDV_AllergiesVaccins_CISIS"/>
@@ -17992,6 +18432,28 @@
         <valueString value="ValueSet"/>
       </extension>
       <reference>
+        <reference value="ValueSet/1.2.250.1.213.1.1.4.2.281.24"/>
+      </reference>
+      <name value="JDV_ANRCPOrgane_CISIS"/>
+      <description value="JDV_ANRCPOrgane_CISIS"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/1.2.250.1.213.1.1.4.2.281.25"/>
+      </reference>
+      <name value="JDV_ANRCPTumeur_CISIS"/>
+      <description value="JDV_ANRCPTumeur_CISIS"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
         <reference value="ValueSet/1.2.250.1.213.1.1.5.163"/>
       </reference>
       <name value="JDV_AntecedantsMedicaux_CISIS"/>
@@ -18007,17 +18469,6 @@
       </reference>
       <name value="JDV_AntecedentsCSE24_CISIS"/>
       <description value="JDV_AntecedentsCSE24_CISIS"/>
-      <exampleBoolean value="false"/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="ValueSet"/>
-      </extension>
-      <reference>
-        <reference value="ValueSet/1.2.250.1.213.1.1.5.103"/>
-      </reference>
-      <name value="JDV_AntecedentsCSE9_CISIS"/>
-      <description value="JDV_AntecedentsCSE9_CISIS"/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -18124,10 +18575,10 @@
         <valueString value="ValueSet"/>
       </extension>
       <reference>
-        <reference value="ValueSet/1.2.250.1.213.1.1.5.159"/>
+        <reference value="ValueSet/1.2.250.1.213.1.1.5.793"/>
       </reference>
-      <name value="JDV_AutresSymptomesAVC_CISIS"/>
-      <description value="JDV_AutresSymptomesAVC_CISIS"/>
+      <name value="JDV_AutreRisque_CISIS"/>
+      <description value="JDV_AutreRisque_CISIS"/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -18139,17 +18590,6 @@
       </reference>
       <name value="JDV_AutreSymptomeExNeuro_CISIS"/>
       <description value="JDV_AutreSymptomeExNeuro_CISIS"/>
-      <exampleBoolean value="false"/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="ValueSet"/>
-      </extension>
-      <reference>
-        <reference value="ValueSet/1.2.250.1.213.1.1.5.793"/>
-      </reference>
-      <name value="JDV_Autre_Risque_CISIS"/>
-      <description value="JDV_Autre_Risque_CISIS"/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -18201,6 +18641,28 @@
         <valueString value="ValueSet"/>
       </extension>
       <reference>
+        <reference value="ValueSet/1.2.250.1.213.1.1.5.92"/>
+      </reference>
+      <name value="JDV_BIO_Interpretation_CISIS"/>
+      <description value="JDV_BIO_Interpretation_CISIS"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/1.2.250.1.213.1.1.5.480"/>
+      </reference>
+      <name value="JDV_BIO_SousChapitres_CISIS"/>
+      <description value="JDV_BIO_SousChapitres_CISIS"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
         <reference value="ValueSet/1.2.250.1.213.1.1.5.46"/>
       </reference>
       <name value="JDV_CasSporadiqueFamilial_CISIS"/>
@@ -18245,6 +18707,17 @@
         <valueString value="ValueSet"/>
       </extension>
       <reference>
+        <reference value="ValueSet/1.2.250.1.213.1.1.5.119"/>
+      </reference>
+      <name value="JDV_CertitudeDiagnostic_CISIS"/>
+      <description value="JDV_CertitudeDiagnostic_CISIS"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
         <reference value="ValueSet/1.2.250.1.213.1.1.5.213"/>
       </reference>
       <name value="JDV_CerveletLoc_CISIS"/>
@@ -18271,17 +18744,6 @@
       </reference>
       <name value="JDV_ChecklistFLUDR_CISIS"/>
       <description value="JDV_ChecklistFLUDR_CISIS"/>
-      <exampleBoolean value="false"/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="ValueSet"/>
-      </extension>
-      <reference>
-        <reference value="ValueSet/1.2.250.1.213.1.1.5.741"/>
-      </reference>
-      <name value="JDV_CirconstancesDeces_CISIS"/>
-      <description value="JDV_CirconstancesDeces_CISIS"/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -18366,10 +18828,296 @@
         <valueString value="ValueSet"/>
       </extension>
       <reference>
+        <reference value="ValueSet/1.2.250.1.213.1.1.4.2.283.2"/>
+      </reference>
+      <name value="JDV_ClinicalStatusCodes_CISIS"/>
+      <description value="JDV_ClinicalStatusCodes_CISIS"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/1.2.250.1.213.1.1.5.30"/>
+      </reference>
+      <name value="JDV_CodeNoMedication_CISIS"/>
+      <description value="JDV_CodeNoMedication_CISIS"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
         <reference value="ValueSet/1.2.250.1.213.1.1.5.687"/>
       </reference>
       <name value="JDV_CodesDocumentImagerie_CISIS"/>
       <description value="JDV_CodesDocumentImagerie_CISIS"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/1.2.250.1.213.1.1.5.250"/>
+      </reference>
+      <name value="JDV_Colon_Extension_tumeur_CISIS"/>
+      <description value="JDV_Colon_Extension_tumeur_CISIS"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/1.2.250.1.213.1.1.5.252"/>
+      </reference>
+      <name value="JDV_Colon_Localisation_limites_resection_CISIS"/>
+      <description value="JDV_Colon_Localisation_limites_resection_CISIS"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/1.2.250.1.213.1.1.5.251"/>
+      </reference>
+      <name value="JDV_Colon_Localisation_tumeur_CISIS"/>
+      <description value="JDV_Colon_Localisation_tumeur_CISIS"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/1.2.250.1.213.1.1.5.253"/>
+      </reference>
+      <name value="JDV_Colon_Observation_anatomie_pathologique_CISIS"/>
+      <description value="JDV_Colon_Observation_anatomie_pathologique_CISIS"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/1.2.250.1.213.1.1.5.256"/>
+      </reference>
+      <name value="JDV_Colon_Procedure_prelevement_CISIS"/>
+      <description value="JDV_Colon_Procedure_prelevement_CISIS"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/1.2.250.1.213.1.1.5.257"/>
+      </reference>
+      <name value="JDV_Colon_pT_CISIS_CISIS"/>
+      <description value="JDV_Colon_pT_CISIS_CISIS"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/1.2.250.1.213.1.1.5.258"/>
+      </reference>
+      <name value="JDV_Colon_Type_histologique_lesion_neoplasique_maligne_invasive_CISIS"/>
+      <description value="JDV_Colon_Type_histologique_lesion_neoplasique_maligne_invasive_CISIS"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/1.2.250.1.213.1.1.5.233"/>
+      </reference>
+      <name value="JDV_Col_Uterus_Extension_tumeur_CISIS"/>
+      <description value="JDV_Col_Uterus_Extension_tumeur_CISIS"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/1.2.250.1.213.1.1.5.234"/>
+      </reference>
+      <name value="JDV_Col_Uterus_Grade_histologique_CISIS"/>
+      <description value="JDV_Col_Uterus_Grade_histologique_CISIS"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/1.2.250.1.213.1.1.5.235"/>
+      </reference>
+      <name value="JDV_Col_Uterus_Identification_micro_organisme_CISIS"/>
+      <description value="JDV_Col_Uterus_Identification_micro_organisme_CISIS"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/1.2.250.1.213.1.1.5.237"/>
+      </reference>
+      <name value="JDV_Col_Uterus_Localisation_ganglions_CISIS"/>
+      <description value="JDV_Col_Uterus_Localisation_ganglions_CISIS"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/1.2.250.1.213.1.1.5.236"/>
+      </reference>
+      <name value="JDV_Col_Uterus_Localisation_tumeur_CISIS"/>
+      <description value="JDV_Col_Uterus_Localisation_tumeur_CISIS"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/1.2.250.1.213.1.1.5.238"/>
+      </reference>
+      <name value="JDV_Col_Uterus_Observation_anatomie_pathologique_CISIS"/>
+      <description value="JDV_Col_Uterus_Observation_anatomie_pathologique_CISIS"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/1.2.250.1.213.1.1.5.239"/>
+      </reference>
+      <name value="JDV_Col_Uterus_Organe_region_prelevement_CISIS"/>
+      <description value="JDV_Col_Uterus_Organe_region_prelevement_CISIS"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/1.2.250.1.213.1.1.5.240"/>
+      </reference>
+      <name value="JDV_Col_Uterus_pN_CISIS_CISIS"/>
+      <description value="JDV_Col_Uterus_pN_CISIS_CISIS"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/1.2.250.1.213.1.1.5.241"/>
+      </reference>
+      <name value="JDV_Col_Uterus_Procedure_prelevement_CISIS"/>
+      <description value="JDV_Col_Uterus_Procedure_prelevement_CISIS"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/1.2.250.1.213.1.1.5.242"/>
+      </reference>
+      <name value="JDV_Col_Uterus_pT_CISIS_CISIS"/>
+      <description value="JDV_Col_Uterus_pT_CISIS_CISIS"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/1.2.250.1.213.1.1.5.243"/>
+      </reference>
+      <name value="JDV_Col_Uterus_Type_cyto_lesion_neoplasique_in_situ_CISIS"/>
+      <description value="JDV_Col_Uterus_Type_cyto_lesion_neoplasique_in_situ_CISIS"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/1.2.250.1.213.1.1.5.244"/>
+      </reference>
+      <name value="JDV_Col_Uterus_Type_cyto_lesion_neoplasique_maligne_invasive_CISIS"/>
+      <description value="JDV_Col_Uterus_Type_cyto_lesion_neoplasique_maligne_invasive_CISIS"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/1.2.250.1.213.1.1.5.245"/>
+      </reference>
+      <name value="JDV_Col_Uterus_Type_histologique_lesion_CISIS"/>
+      <description value="JDV_Col_Uterus_Type_histologique_lesion_CISIS"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/1.2.250.1.213.1.1.5.246"/>
+      </reference>
+      <name value="JDV_Col_Uterus_Type_histologique_lesion_neoplasique_in_situ_CISIS"/>
+      <description value="JDV_Col_Uterus_Type_histologique_lesion_neoplasique_in_situ_CISIS"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/1.2.250.1.213.1.1.5.247"/>
+      </reference>
+      <name value="JDV_Col_Uterus_Type_histologique_lesion_neoplasique_maligne_invasive_CISIS"/>
+      <description value="JDV_Col_Uterus_Type_histologique_lesion_neoplasique_maligne_invasive_CISIS"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/1.2.250.1.213.1.1.5.249"/>
+      </reference>
+      <name value="JDV_Col_Uterus_Type_histologique_non_lesionnel_CISIS"/>
+      <description value="JDV_Col_Uterus_Type_histologique_non_lesionnel_CISIS"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/1.2.250.1.213.1.1.5.248"/>
+      </reference>
+      <name value="JDV_Col_Uterus_Type_histologique_tumeur_benigne_CISIS"/>
+      <description value="JDV_Col_Uterus_Type_histologique_tumeur_benigne_CISIS"/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -18425,17 +19173,6 @@
       </reference>
       <name value="JDV_ComplicationPulmonaire_CISIS"/>
       <description value="JDV_ComplicationPulmonaire_CISIS"/>
-      <exampleBoolean value="false"/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="ValueSet"/>
-      </extension>
-      <reference>
-        <reference value="ValueSet/1.2.250.1.213.1.1.5.220"/>
-      </reference>
-      <name value="JDV_ComplicationThromboembolique_CISIS"/>
-      <description value="JDV_ComplicationThromboembolique_CISIS"/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -18542,10 +19279,10 @@
         <valueString value="ValueSet"/>
       </extension>
       <reference>
-        <reference value="ValueSet/1.2.250.1.213.1.1.5.170"/>
+        <reference value="ValueSet/1.2.250.1.213.1.1.5.659"/>
       </reference>
-      <name value="JDV_ContreIndicThrombolyse_CISIS"/>
-      <description value="JDV_ContreIndicThrombolyse_CISIS"/>
+      <name value="JDV_Contre_indications_CISIS"/>
+      <description value="JDV_Contre_indications_CISIS"/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -18553,10 +19290,76 @@
         <valueString value="ValueSet"/>
       </extension>
       <reference>
-        <reference value="ValueSet/1.2.250.1.213.1.1.5.659"/>
+        <reference value="ValueSet/1.2.250.1.213.1.1.5.259"/>
       </reference>
-      <name value="JDV_Contre_indications_CISIS"/>
-      <description value="JDV_Contre_indications_CISIS"/>
+      <name value="JDV_Corps_uterin_Extension_microscopique_macroscopique_tumeur_CISIS"/>
+      <description value="JDV_Corps_uterin_Extension_microscopique_macroscopique_tumeur_CISIS"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/1.2.250.1.213.1.1.5.260"/>
+      </reference>
+      <name value="JDV_Corps_uterin_Grade_histologique_CISIS"/>
+      <description value="JDV_Corps_uterin_Grade_histologique_CISIS"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/1.2.250.1.213.1.1.5.263"/>
+      </reference>
+      <name value="JDV_Corps_uterin_Observation_anatomie_pathologique_CISIS"/>
+      <description value="JDV_Corps_uterin_Observation_anatomie_pathologique_CISIS"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/1.2.250.1.213.1.1.5.264"/>
+      </reference>
+      <name value="JDV_Corps_uterin_Organe_region_prelevement_CISIS"/>
+      <description value="JDV_Corps_uterin_Organe_region_prelevement_CISIS"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/1.2.250.1.213.1.1.5.265"/>
+      </reference>
+      <name value="JDV_Corps_uterin_pN_CISIS"/>
+      <description value="JDV_Corps_uterin_pN_CISIS"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/1.2.250.1.213.1.1.5.266"/>
+      </reference>
+      <name value="JDV_Corps_uterin_Procedure_prelevement_CISIS"/>
+      <description value="JDV_Corps_uterin_Procedure_prelevement_CISIS"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/1.2.250.1.213.1.1.5.267"/>
+      </reference>
+      <name value="JDV_Corps_uterin_pT_CISIS"/>
+      <description value="JDV_Corps_uterin_pT_CISIS"/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -18718,17 +19521,6 @@
         <valueString value="ValueSet"/>
       </extension>
       <reference>
-        <reference value="ValueSet/1.2.250.1.213.1.1.5.634"/>
-      </reference>
-      <name value="JDV_Diagnostic_Etat_Ganglions_Melanome_CISIS"/>
-      <description value="JDV_Diagnostic_Etat_Ganglions_Melanome_CISIS"/>
-      <exampleBoolean value="false"/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="ValueSet"/>
-      </extension>
-      <reference>
         <reference value="ValueSet/1.2.250.1.213.1.1.5.494"/>
       </reference>
       <name value="JDV_Difficulte_CISIS"/>
@@ -18795,6 +19587,105 @@
         <valueString value="ValueSet"/>
       </extension>
       <reference>
+        <reference value="ValueSet/1.2.250.1.213.1.1.5.269"/>
+      </reference>
+      <name value="JDV_Estomac_Extension_microscopique_macroscopique_tumeur_CISIS"/>
+      <description value="JDV_Estomac_Extension_microscopique_macroscopique_tumeur_CISIS"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/1.2.250.1.213.1.1.5.271"/>
+      </reference>
+      <name value="JDV_Estomac_Localisation_limites_resection_CISIS"/>
+      <description value="JDV_Estomac_Localisation_limites_resection_CISIS"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/1.2.250.1.213.1.1.5.270"/>
+      </reference>
+      <name value="JDV_Estomac_Localisation_tumeur_CISIS"/>
+      <description value="JDV_Estomac_Localisation_tumeur_CISIS"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/1.2.250.1.213.1.1.5.272"/>
+      </reference>
+      <name value="JDV_Estomac_Observation_anatomie_pathologique_CISIS"/>
+      <description value="JDV_Estomac_Observation_anatomie_pathologique_CISIS"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/1.2.250.1.213.1.1.5.273"/>
+      </reference>
+      <name value="JDV_Estomac_Organe_region_prelevement_CISIS"/>
+      <description value="JDV_Estomac_Organe_region_prelevement_CISIS"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/1.2.250.1.213.1.1.5.274"/>
+      </reference>
+      <name value="JDV_Estomac_pN_CISIS"/>
+      <description value="JDV_Estomac_pN_CISIS"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/1.2.250.1.213.1.1.5.275"/>
+      </reference>
+      <name value="JDV_Estomac_Procedure_prelevement_CISIS"/>
+      <description value="JDV_Estomac_Procedure_prelevement_CISIS"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/1.2.250.1.213.1.1.5.276"/>
+      </reference>
+      <name value="JDV_Estomac_pT_CISIS"/>
+      <description value="JDV_Estomac_pT_CISIS"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/1.2.250.1.213.1.1.5.277"/>
+      </reference>
+      <name value="JDV_Estomac_Type_histologique_lesion_neoplasique_maligne_invasive_CISIS"/>
+      <description value="JDV_Estomac_Type_histologique_lesion_neoplasique_maligne_invasive_CISIS"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
         <reference value="ValueSet/1.2.250.1.213.1.1.5.736"/>
       </reference>
       <name value="JDV_EtatNaissance_CISIS"/>
@@ -18843,6 +19734,17 @@
       </reference>
       <name value="JDV_EtiologieInfarctus_CISIS"/>
       <description value="JDV_EtiologieInfarctus_CISIS"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/1.2.250.1.213.1.1.5.806"/>
+      </reference>
+      <name value="JDV_EvaluationAGGIRPA_CISIS"/>
+      <description value="JDV_EvaluationAGGIRPA_CISIS"/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -18909,17 +19811,6 @@
       </reference>
       <name value="JDV_EvenementsAccouchement_CISIS"/>
       <description value="JDV_EvenementsAccouchement_CISIS"/>
-      <exampleBoolean value="false"/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="ValueSet"/>
-      </extension>
-      <reference>
-        <reference value="ValueSet/1.2.250.1.213.1.1.5.788"/>
-      </reference>
-      <name value="JDV_Evolution_CISIS"/>
-      <description value="JDV_Evolution_CISIS"/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -19048,6 +19939,17 @@
         <valueString value="ValueSet"/>
       </extension>
       <reference>
+        <reference value="ValueSet/1.2.250.1.213.1.1.5.536"/>
+      </reference>
+      <name value="JDV_ExamenMacroscopieLocalisationTumeurRectale_CISIS"/>
+      <description value="JDV_ExamenMacroscopieLocalisationTumeurRectale_CISIS"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
         <reference value="ValueSet/1.2.250.1.213.1.1.5.555"/>
       </reference>
       <name value="JDV_ExamenMacroscopieLocalisationZoneInteretRectale_CISIS"/>
@@ -19059,10 +19961,10 @@
         <valueString value="ValueSet"/>
       </extension>
       <reference>
-        <reference value="ValueSet/1.2.250.1.213.1.1.5.538"/>
+        <reference value="ValueSet/1.2.250.1.213.1.1.5.539"/>
       </reference>
-      <name value="JDV_ExamenMacroscopiePeritoine_CISIS"/>
-      <description value="JDV_ExamenMacroscopiePeritoine_CISIS"/>
+      <name value="JDV_ExamenMacroscopieTumeurIntegriteMesocolon_CISIS"/>
+      <description value="JDV_ExamenMacroscopieTumeurIntegriteMesocolon_CISIS"/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -19070,10 +19972,10 @@
         <valueString value="ValueSet"/>
       </extension>
       <reference>
-        <reference value="ValueSet/1.2.250.1.213.1.1.5.556"/>
+        <reference value="ValueSet/1.2.250.1.213.1.1.5.557"/>
       </reference>
-      <name value="JDV_ExamenMacroscopieZoneInteretPerforation_CISIS"/>
-      <description value="JDV_ExamenMacroscopieZoneInteretPerforation_CISIS"/>
+      <name value="JDV_ExamenMacroscopieZoneInteretIntegriteMesocolon_CISIS"/>
+      <description value="JDV_ExamenMacroscopieZoneInteretIntegriteMesocolon_CISIS"/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -19081,10 +19983,32 @@
         <valueString value="ValueSet"/>
       </extension>
       <reference>
-        <reference value="ValueSet/1.2.250.1.213.1.1.5.545"/>
+        <reference value="ValueSet/1.2.250.1.213.1.1.5.542"/>
       </reference>
-      <name value="JDV_ExamenMicroscopiqueTumeurCategorie_CISIS"/>
-      <description value="JDV_ExamenMicroscopiqueTumeurCategorie_CISIS"/>
+      <name value="JDV_ExamenMicroscopiqueGradeHistologique_CISIS"/>
+      <description value="JDV_ExamenMicroscopiqueGradeHistologique_CISIS"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/1.2.250.1.213.1.1.5.544"/>
+      </reference>
+      <name value="JDV_ExamenMicroscopiqueTumeurBourgeonnementTumoral_CISIS"/>
+      <description value="JDV_ExamenMicroscopiqueTumeurBourgeonnementTumoral_CISIS"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/1.2.250.1.213.1.1.5.547"/>
+      </reference>
+      <name value="JDV_ExamenMicroscopiqueTumeurInvasionPerinerveuse_CISIS"/>
+      <description value="JDV_ExamenMicroscopiqueTumeurInvasionPerinerveuse_CISIS"/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -19114,10 +20038,32 @@
         <valueString value="ValueSet"/>
       </extension>
       <reference>
+        <reference value="ValueSet/1.2.250.1.213.1.1.5.543"/>
+      </reference>
+      <name value="JDV_ExamenMicroscopiqueTumeurNiveauInfiltration_CISIS"/>
+      <description value="JDV_ExamenMicroscopiqueTumeurNiveauInfiltration_CISIS"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
         <reference value="ValueSet/1.2.250.1.213.1.1.5.550"/>
       </reference>
       <name value="JDV_ExamenMicroscopiqueTumeurReponseTraitementPreOperatoire_CISIS"/>
       <description value="JDV_ExamenMicroscopiqueTumeurReponseTraitementPreOperatoire_CISIS"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/1.2.250.1.213.1.1.5.541"/>
+      </reference>
+      <name value="JDV_ExamenMicroscopiqueTumeurTypeHistologique_CISIS"/>
+      <description value="JDV_ExamenMicroscopiqueTumeurTypeHistologique_CISIS"/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -19213,6 +20159,17 @@
         <valueString value="ValueSet"/>
       </extension>
       <reference>
+        <reference value="ValueSet/1.2.250.1.213.1.1.5.560"/>
+      </reference>
+      <name value="JDV_ExamenMicroscopiqueZoneInteretTypeHistologique_CISIS"/>
+      <description value="JDV_ExamenMicroscopiqueZoneInteretTypeHistologique_CISIS"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
         <reference value="ValueSet/1.2.250.1.213.1.1.5.31"/>
       </reference>
       <name value="JDV_ExamensRealises_CISIS"/>
@@ -19228,17 +20185,6 @@
       </reference>
       <name value="JDV_ExamenZoneInteretDemandeTechniqueComplementaire_CISIS"/>
       <description value="JDV_ExamenZoneInteretDemandeTechniqueComplementaire_CISIS"/>
-      <exampleBoolean value="false"/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="ValueSet"/>
-      </extension>
-      <reference>
-        <reference value="ValueSet/1.2.250.1.213.1.1.5.573"/>
-      </reference>
-      <name value="JDV_Examen_AutreConstatation_ExamenMicroscopique_CISIS"/>
-      <description value="JDV_Examen_AutreConstatation_ExamenMicroscopique_CISIS"/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -19345,10 +20291,10 @@
         <valueString value="ValueSet"/>
       </extension>
       <reference>
-        <reference value="ValueSet/1.2.250.1.213.1.1.5.684"/>
+        <reference value="ValueSet/1.2.250.1.213.1.1.5.278"/>
       </reference>
-      <name value="JDV_FluideRouteCodes_CISIS"/>
-      <description value="JDV_FluideRouteCodes_CISIS"/>
+      <name value="JDV_Foie_Extension_microscopique_macroscopique_tumeur_CISIS"/>
+      <description value="JDV_Foie_Extension_microscopique_macroscopique_tumeur_CISIS"/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -19356,10 +20302,10 @@
         <valueString value="ValueSet"/>
       </extension>
       <reference>
-        <reference value="ValueSet/1.2.250.1.213.1.1.5.669"/>
+        <reference value="ValueSet/1.2.250.1.213.1.1.5.280"/>
       </reference>
-      <name value="JDV_FonctionEtudieeScintigraphie_CISIS"/>
-      <description value="JDV_FonctionEtudieeScintigraphie_CISIS"/>
+      <name value="JDV_Foie_Localisation_limites_resection_CISIS"/>
+      <description value="JDV_Foie_Localisation_limites_resection_CISIS"/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -19367,10 +20313,263 @@
         <valueString value="ValueSet"/>
       </extension>
       <reference>
-        <reference value="ValueSet/1.2.250.1.213.1.1.5.668"/>
+        <reference value="ValueSet/1.2.250.1.213.1.1.5.279"/>
       </reference>
-      <name value="JDV_FonctionEtudieeTEP_CISIS"/>
-      <description value="JDV_FonctionEtudieeTEP_CISIS"/>
+      <name value="JDV_Foie_Localisation_tumeur_CISIS"/>
+      <description value="JDV_Foie_Localisation_tumeur_CISIS"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/1.2.250.1.213.1.1.5.281"/>
+      </reference>
+      <name value="JDV_Foie_Observation_anatomie_pathologique_CISIS"/>
+      <description value="JDV_Foie_Observation_anatomie_pathologique_CISIS"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/1.2.250.1.213.1.1.5.282"/>
+      </reference>
+      <name value="JDV_Foie_Organe_region_prelevement_CISIS"/>
+      <description value="JDV_Foie_Organe_region_prelevement_CISIS"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/1.2.250.1.213.1.1.5.283"/>
+      </reference>
+      <name value="JDV_Foie_pN_CISIS"/>
+      <description value="JDV_Foie_pN_CISIS"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/1.2.250.1.213.1.1.5.284"/>
+      </reference>
+      <name value="JDV_Foie_Procedure_prelevement_CISIS"/>
+      <description value="JDV_Foie_Procedure_prelevement_CISIS"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/1.2.250.1.213.1.1.5.285"/>
+      </reference>
+      <name value="JDV_Foie_pT_CISIS"/>
+      <description value="JDV_Foie_pT_CISIS"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/1.2.250.1.213.1.1.5.286"/>
+      </reference>
+      <name value="JDV_Foie_Type_histologique_lesion_neoplasique_maligne_invasive_CISIS"/>
+      <description value="JDV_Foie_Type_histologique_lesion_neoplasique_maligne_invasive_CISIS"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/1.2.250.1.213.1.1.5.287"/>
+      </reference>
+      <name value="JDV_Generique_Caractere_unique_multiple_lesion_CISIS"/>
+      <description value="JDV_Generique_Caractere_unique_multiple_lesion_CISIS"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/1.2.250.1.213.1.1.5.288"/>
+      </reference>
+      <name value="JDV_Generique_Caractere_unique_multiple_tumeur_CISIS"/>
+      <description value="JDV_Generique_Caractere_unique_multiple_tumeur_CISIS"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/1.2.250.1.213.1.1.5.289"/>
+      </reference>
+      <name value="JDV_Generique_Extension_microscopique_macroscopique_lesion_CISIS"/>
+      <description value="JDV_Generique_Extension_microscopique_macroscopique_lesion_CISIS"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/1.2.250.1.213.1.1.5.290"/>
+      </reference>
+      <name value="JDV_Generique_Grade_histologique_2_classes_CISIS"/>
+      <description value="JDV_Generique_Grade_histologique_2_classes_CISIS"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/1.2.250.1.213.1.1.5.291"/>
+      </reference>
+      <name value="JDV_Generique_Grade_histologique_WHO_CISIS"/>
+      <description value="JDV_Generique_Grade_histologique_WHO_CISIS"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/1.2.250.1.213.1.1.5.294"/>
+      </reference>
+      <name value="JDV_Generique_Localisation_ganglions_CISIS"/>
+      <description value="JDV_Generique_Localisation_ganglions_CISIS"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/1.2.250.1.213.1.1.5.292"/>
+      </reference>
+      <name value="JDV_Generique_Localisation_lesion_CISIS"/>
+      <description value="JDV_Generique_Localisation_lesion_CISIS"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/1.2.250.1.213.1.1.5.293"/>
+      </reference>
+      <name value="JDV_Generique_Localisation_tumeur_CISIS"/>
+      <description value="JDV_Generique_Localisation_tumeur_CISIS"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/1.2.250.1.213.1.1.5.295"/>
+      </reference>
+      <name value="JDV_Generique_Observation_anatomie_pathologique_CISIS"/>
+      <description value="JDV_Generique_Observation_anatomie_pathologique_CISIS"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/1.2.250.1.213.1.1.5.296"/>
+      </reference>
+      <name value="JDV_Generique_Organe_region_prelevement_CISIS"/>
+      <description value="JDV_Generique_Organe_region_prelevement_CISIS"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/1.2.250.1.213.1.1.5.297"/>
+      </reference>
+      <name value="JDV_Generique_pM_CISIS"/>
+      <description value="JDV_Generique_pM_CISIS"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/1.2.250.1.213.1.1.5.300"/>
+      </reference>
+      <name value="JDV_Generique_pT_CISIS"/>
+      <description value="JDV_Generique_pT_CISIS"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/1.2.250.1.213.1.1.5.301"/>
+      </reference>
+      <name value="JDV_Generique_Qualite_prelevement_CISIS"/>
+      <description value="JDV_Generique_Qualite_prelevement_CISIS"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/1.2.250.1.213.1.1.5.302"/>
+      </reference>
+      <name value="JDV_Generique_Reponse_histologique_traitement_neoadjuvant_CISIS"/>
+      <description value="JDV_Generique_Reponse_histologique_traitement_neoadjuvant_CISIS"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/1.2.250.1.213.1.1.5.303"/>
+      </reference>
+      <name value="JDV_Generique_Type_histologique_lesion_CISIS"/>
+      <description value="JDV_Generique_Type_histologique_lesion_CISIS"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/1.2.250.1.213.1.1.5.304"/>
+      </reference>
+      <name value="JDV_Generique_Type_histologique_lesion_neoplasique_maligne_invasive_CISIS"/>
+      <description value="JDV_Generique_Type_histologique_lesion_neoplasique_maligne_invasive_CISIS"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/1.2.250.1.213.1.1.5.305"/>
+      </reference>
+      <name value="JDV_Generique_Type_macroscopique_invasif_CISIS"/>
+      <description value="JDV_Generique_Type_macroscopique_invasif_CISIS"/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -19422,6 +20621,72 @@
         <valueString value="ValueSet"/>
       </extension>
       <reference>
+        <reference value="ValueSet/1.2.250.1.213.1.1.5.306"/>
+      </reference>
+      <name value="JDV_Glande_salivaire_Extension_microscopique_macroscopique_tumeur_CISIS"/>
+      <description value="JDV_Glande_salivaire_Extension_microscopique_macroscopique_tumeur_CISIS"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/1.2.250.1.213.1.1.5.307"/>
+      </reference>
+      <name value="JDV_Glande_salivaire_Localisation_ganglions_CISIS"/>
+      <description value="JDV_Glande_salivaire_Localisation_ganglions_CISIS"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/1.2.250.1.213.1.1.5.308"/>
+      </reference>
+      <name value="JDV_Glande_salivaire_Observation_anatomie_pathologique_CISIS"/>
+      <description value="JDV_Glande_salivaire_Observation_anatomie_pathologique_CISIS"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/1.2.250.1.213.1.1.5.309"/>
+      </reference>
+      <name value="JDV_Glande_salivaire_Organe_region_prelevement_CISIS"/>
+      <description value="JDV_Glande_salivaire_Organe_region_prelevement_CISIS"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/1.2.250.1.213.1.1.5.311"/>
+      </reference>
+      <name value="JDV_Glande_salivaire_Procedure_prelevement_CISIS"/>
+      <description value="JDV_Glande_salivaire_Procedure_prelevement_CISIS"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/1.2.250.1.213.1.1.5.313"/>
+      </reference>
+      <name value="JDV_Glande_salivaire_Type_histologique_lesion_neoplasique_maligne_invasive_CISIS"/>
+      <description value="JDV_Glande_salivaire_Type_histologique_lesion_neoplasique_maligne_invasive_CISIS"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
         <reference value="ValueSet/1.2.250.1.213.1.1.5.787"/>
       </reference>
       <name value="JDV_Gravite_CISIS"/>
@@ -19444,10 +20709,21 @@
         <valueString value="ValueSet"/>
       </extension>
       <reference>
+        <reference value="ValueSet/1.2.250.1.213.1.1.5.812"/>
+      </reference>
+      <name value="JDV_HandicapDeficitDLUDOM_CISIS"/>
+      <description value="JDV_HandicapDeficitDLUDOM_CISIS"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
         <reference value="ValueSet/1.2.250.1.213.1.1.5.791"/>
       </reference>
-      <name value="JDV_Handicap_Deficit_CISIS"/>
-      <description value="JDV_Handicap_Deficit_CISIS"/>
+      <name value="JDV_HandicapDeficitDLUEHPAD_CISIS"/>
+      <description value="JDV_HandicapDeficitDLUEHPAD_CISIS"/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -19488,10 +20764,10 @@
         <valueString value="ValueSet"/>
       </extension>
       <reference>
-        <reference value="ValueSet/2.16.840.1.113883.1.11.13955"/>
+        <reference value="ValueSet/2.16.840.1.113883.1.11.10199"/>
       </reference>
-      <name value="JDV_HL7_ActEncounterCode_CISIS"/>
-      <description value="JDV_HL7_ActEncounterCode_CISIS"/>
+      <name value="JDV_HL7_ActMoodIntent_CISIS"/>
+      <description value="JDV_HL7_ActMoodIntent_CISIS"/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -19499,10 +20775,10 @@
         <valueString value="ValueSet"/>
       </extension>
       <reference>
-        <reference value="ValueSet/2.16.840.1.113883.1.11.10199"/>
+        <reference value="ValueSet/2.16.840.1.113883.1.11.10196"/>
       </reference>
-      <name value="JDV_HL7_ActMoodIntent_CISIS"/>
-      <description value="JDV_HL7_ActMoodIntent_CISIS"/>
+      <name value="JDV_HL7_ActMood_CISIS"/>
+      <description value="JDV_HL7_ActMood_CISIS"/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -19609,17 +20885,6 @@
         <valueString value="ValueSet"/>
       </extension>
       <reference>
-        <reference value="ValueSet/2.16.840.1.113883.4.642.3.164"/>
-      </reference>
-      <name value="JDV_HL7_ConditionClinical_CISIS"/>
-      <description value="JDV_HL7_ConditionClinical_CISIS"/>
-      <exampleBoolean value="false"/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="ValueSet"/>
-      </extension>
-      <reference>
         <reference value="ValueSet/2.16.840.1.113883.4.642.3.166"/>
       </reference>
       <name value="JDV_HL7_condition_ver_status_CISIS"/>
@@ -19644,8 +20909,41 @@
       <reference>
         <reference value="ValueSet/2.16.840.1.113883.1.11.20562"/>
       </reference>
+      <name value="JDV_HL7_employmentStatusODH_CISIS"/>
+      <description value="JDV_HL7_employmentStatusODH_CISIS"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/2.16.840.1.113883.21.29"/>
+      </reference>
       <name value="JDV_HL7_employmentStatus_CISIS"/>
       <description value="JDV_HL7_employmentStatus_CISIS"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/2.16.840.1.113883.1.11.19724"/>
+      </reference>
+      <name value="JDV_HL7_HumanSubstanceAdministrationSite_CISIS"/>
+      <description value="JDV_HL7_HumanSubstanceAdministrationSite_CISIS"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/2.16.840.1.113883.5.4.642.3.289"/>
+      </reference>
+      <name value="JDV_HL7_ImmunizationRouteCodes_CISIS"/>
+      <description value="JDV_HL7_ImmunizationRouteCodes_CISIS"/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -19657,17 +20955,6 @@
       </reference>
       <name value="JDV_HL7_ObservationInterpretation_CISIS"/>
       <description value="JDV_HL7_ObservationInterpretation_CISIS"/>
-      <exampleBoolean value="false"/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="ValueSet"/>
-      </extension>
-      <reference>
-        <reference value="ValueSet/2.16.840.1.113883.1.11.19700"/>
-      </reference>
-      <name value="JDV_HL7_ObservationIntoleranceType_CISIS"/>
-      <description value="JDV_HL7_ObservationIntoleranceType_CISIS"/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -19741,10 +21028,32 @@
         <valueString value="ValueSet"/>
       </extension>
       <reference>
+        <reference value="ValueSet/2.16.840.1.113883.5.112"/>
+      </reference>
+      <name value="JDV_HL7_RouteOfAdministration_CISIS"/>
+      <description value="JDV_HL7_RouteOfAdministration_CISIS"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
         <reference value="ValueSet/2.16.840.1.113883.1.11.20386"/>
       </reference>
       <name value="JDV_HL7_SeverityObservationCode_CISIS"/>
       <description value="JDV_HL7_SeverityObservationCode_CISIS"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/2.16.840.1.113883.1.11.16643"/>
+      </reference>
+      <name value="JDV_HL7_SeverityObservation_CISIS"/>
+      <description value="JDV_HL7_SeverityObservation_CISIS"/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -19767,6 +21076,17 @@
       </reference>
       <name value="JDV_HL7_SpecimenRoleType_CISIS"/>
       <description value="JDV_HL7_SpecimenRoleType_CISIS"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/2.16.840.1.113883.21.327"/>
+      </reference>
+      <name value="JDV_HL7_SpecimenType_CISIS"/>
+      <description value="JDV_HL7_SpecimenType_CISIS"/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -19917,17 +21237,6 @@
         <valueString value="ValueSet"/>
       </extension>
       <reference>
-        <reference value="ValueSet/1.2.250.1.213.1.1.5.670"/>
-      </reference>
-      <name value="JDV_InjectionPDC_TEP_CISIS"/>
-      <description value="JDV_InjectionPDC_TEP_CISIS"/>
-      <exampleBoolean value="false"/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="ValueSet"/>
-      </extension>
-      <reference>
         <reference value="ValueSet/1.2.250.1.213.1.1.5.197"/>
       </reference>
       <name value="JDV_InterpretationECG_CISIS"/>
@@ -19961,17 +21270,6 @@
         <valueString value="ValueSet"/>
       </extension>
       <reference>
-        <reference value="ValueSet/1.2.250.1.213.1.1.5.229"/>
-      </reference>
-      <name value="JDV_InvestigationsRealiseesSUNV_CISIS"/>
-      <description value="JDV_InvestigationsRealiseesSUNV_CISIS"/>
-      <exampleBoolean value="false"/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="ValueSet"/>
-      </extension>
-      <reference>
         <reference value="ValueSet/1.2.250.1.213.1.1.5.47"/>
       </reference>
       <name value="JDV_InvestigationsRealisees_CISIS"/>
@@ -19983,7 +21281,7 @@
         <valueString value="ValueSet"/>
       </extension>
       <reference>
-        <reference value="ValueSet/1.2.250.1.213.1.1.5.731"/>
+        <reference value="ValueSet/1.2.250.1.213.1.1.4.2.289.1"/>
       </reference>
       <name value="JDV_IssueGrossesse_CISIS"/>
       <description value="JDV_IssueGrossesse_CISIS"/>
@@ -19998,17 +21296,6 @@
       </reference>
       <name value="JDV_J01_XdsAuthorSpecialty_CISIS"/>
       <description value="XDS authorSpecialty CI-SIS"/>
-      <exampleBoolean value="false"/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="ValueSet"/>
-      </extension>
-      <reference>
-        <reference value="ValueSet/JDV-J02-XdsHealthcareFacilityTypeCode-CISIS"/>
-      </reference>
-      <name value="JDV_J02_XdsHealthcareFacilityTypeCode_CISIS"/>
-      <description value="XDS healthcareFacilityTypeCode CI-SIS"/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -20082,32 +21369,10 @@
         <valueString value="ValueSet"/>
       </extension>
       <reference>
-        <reference value="ValueSet/JDV-J100-FinessStatutJuridique-RASS"/>
-      </reference>
-      <name value="JDV_J100_FinessStatutJuridique_RASS"/>
-      <description value="Statut juridique FINESS dans le RASS"/>
-      <exampleBoolean value="false"/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="ValueSet"/>
-      </extension>
-      <reference>
         <reference value="ValueSet/JDV-J101-SecteurActivite-RASS"/>
       </reference>
       <name value="JDV_J101_SecteurActivite_RASS"/>
       <description value="Secteurs d'activité des établissements avec la même activité dans le RASS"/>
-      <exampleBoolean value="false"/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="ValueSet"/>
-      </extension>
-      <reference>
-        <reference value="ValueSet/JDV-J103-TypeVoie-RASS"/>
-      </reference>
-      <name value="JDV_J103_TypeVoie_RASS"/>
-      <description value="Type de voie du professionnel du RASS"/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -20207,17 +21472,6 @@
       </reference>
       <name value="JDV_J112_SexeAdministratif_ENREG"/>
       <description value="Sexe administratif pour ENREG"/>
-      <exampleBoolean value="false"/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="ValueSet"/>
-      </extension>
-      <reference>
-        <reference value="ValueSet/JDV-J113-Civilite-ENREG"/>
-      </reference>
-      <name value="JDV_J113_Civilite_ENREG"/>
-      <description value="Civilité pour ENREG"/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -20357,17 +21611,6 @@
         <valueString value="ValueSet"/>
       </extension>
       <reference>
-        <reference value="ValueSet/JDV-J125-MotifRejet-ENREG"/>
-      </reference>
-      <name value="JDV_J125_MotifRejet_ENREG"/>
-      <description value="Code des motifs de refus d'une demande d'enregistrement pour l'application ENREG"/>
-      <exampleBoolean value="false"/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="ValueSet"/>
-      </extension>
-      <reference>
         <reference value="ValueSet/JDV-J126-SecteurActivite-ENREG"/>
       </reference>
       <name value="JDV_J126_SecteurActivite_ENREG"/>
@@ -20416,17 +21659,6 @@
       </reference>
       <name value="JDV_J12_CiviliteTitre_CISIS"/>
       <description value="Titre civilité - CI-SIS"/>
-      <exampleBoolean value="false"/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="ValueSet"/>
-      </extension>
-      <reference>
-        <reference value="ValueSet/JDV-J130-CNAMAmeliSecteurConventionnement-RASS"/>
-      </reference>
-      <name value="JDV_J130_CNAMAmeliSecteurConventionnement_RASS"/>
-      <description value="Secteur de conventionnement du professionnel libéral"/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -20592,17 +21824,6 @@
       </reference>
       <name value="JDV_J144_ParticipationType_CISIS"/>
       <description value="Type de participation CI-SIS"/>
-      <exampleBoolean value="false"/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="ValueSet"/>
-      </extension>
-      <reference>
-        <reference value="ValueSet/JDV-J145-MethodBodyWeight-ENS"/>
-      </reference>
-      <name value="JDV_J145_MethodBodyWeight_ENS"/>
-      <description value="JDV pour la méthode de mesure du poids"/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -20819,32 +22040,10 @@
         <valueString value="ValueSet"/>
       </extension>
       <reference>
-        <reference value="ValueSet/1.2.250.1.213.1.1.5.640"/>
+        <reference value="ValueSet/JDV-J164-GlucoseNumberOfDays-ENS"/>
       </reference>
       <name value="JDV_J164_GlucoseNumberOfDays_ENS"/>
-      <description value="JDV_J164_GlucoseNumberOfDays_ENS"/>
-      <exampleBoolean value="false"/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="ValueSet"/>
-      </extension>
-      <reference>
-        <reference value="ValueSet/JDV-J165-TypeCreneau-SAS"/>
-      </reference>
-      <name value="JDV_J165_TypeCreneau_SAS"/>
-      <description value="Type de créneaux de soins définis par un professionnel de santé ou son délégataire dans son logiciel de prise de RDV selon la visibilité associée"/>
-      <exampleBoolean value="false"/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="ValueSet"/>
-      </extension>
-      <reference>
-        <reference value="ValueSet/JDV-J166-Profession-EPARS"/>
-      </reference>
-      <name value="JDV_J166_Profession_EPARS"/>
-      <description value="Profession pour EPARS"/>
+      <description value="Liste fermée des codes utilisables pour la mesure du taux de glucose interstitiel et de l'index de gestion de glycémie (IGG) avec le profil ENS_ObservationGlucose"/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -21087,17 +22286,6 @@
       </reference>
       <name value="JDV_J189_TemporaliteCapacite_ROR"/>
       <description value="Sert à indiquer le moment où une capacité sera effective. Il est ainsi possible de décrire la situation immédiate ou de fournir une information prospective de capacités, prenant notamment en compte les entrées et sorties déjà identifiés de patients"/>
-      <exampleBoolean value="false"/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="ValueSet"/>
-      </extension>
-      <reference>
-        <reference value="ValueSet/JDV-J18-EquipementSpecifique-ROR"/>
-      </reference>
-      <name value="JDV_J18_EquipementSpecifique_ROR"/>
-      <description value="Equipement spécifique - ROR"/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -21435,17 +22623,6 @@
         <valueString value="ValueSet"/>
       </extension>
       <reference>
-        <reference value="ValueSet/JDV-J218-CNAMAmeliSecteurConventionnement-ROR"/>
-      </reference>
-      <name value="JDV_J218_CNAMAmeliSecteurConventionnement_ROR"/>
-      <description value="Secteur de conventionnement du professionnel libéral par la CNAM extracts ameli"/>
-      <exampleBoolean value="false"/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="ValueSet"/>
-      </extension>
-      <reference>
         <reference value="ValueSet/JDV-J219-TypeVoie-ROR"/>
       </reference>
       <name value="JDV_J219_TypeVoie_ROR"/>
@@ -21494,17 +22671,6 @@
       </reference>
       <name value="JDV_J222_NiveauConfidentialite_ROR"/>
       <description value="Niveau de restriction d'accès"/>
-      <exampleBoolean value="false"/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="ValueSet"/>
-      </extension>
-      <reference>
-        <reference value="ValueSet/JDV-J223-TypeDivisionTerritoriale-ROR"/>
-      </reference>
-      <name value="JDV_J223_TypeDivisionTerritoriale_ROR"/>
-      <description value="Type de division territoriale"/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -21633,17 +22799,6 @@
         <valueString value="ValueSet"/>
       </extension>
       <reference>
-        <reference value="ValueSet/JDV-J235-LieuFormation-EPARS"/>
-      </reference>
-      <name value="JDV_J235_LieuFormation_EPARS"/>
-      <description value="Lieu de formation pour EPARS"/>
-      <exampleBoolean value="false"/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="ValueSet"/>
-      </extension>
-      <reference>
         <reference value="ValueSet/JDV-J236-TypeIdentifiant-ROR"/>
       </reference>
       <name value="JDV_J236_TypeIdentifiant_ROR"/>
@@ -21681,28 +22836,6 @@
       </reference>
       <name value="JDV_J239_SpecialitesSNP_SAS"/>
       <description value="Professions de santé participant au Service d'Accès aux Soins"/>
-      <exampleBoolean value="false"/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="ValueSet"/>
-      </extension>
-      <reference>
-        <reference value="ValueSet/JDV-J23-TypeNoteCahierLiaison-CISIS"/>
-      </reference>
-      <name value="JDV_J23_TypeNoteCahierLiaison_CISIS"/>
-      <description value="Type de note du cahier de liaison - CI-SIS"/>
-      <exampleBoolean value="false"/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="ValueSet"/>
-      </extension>
-      <reference>
-        <reference value="ValueSet/JDV-J241-ThematiqueAnomalie-ROR"/>
-      </reference>
-      <name value="JDV_J241_ThematiqueAnomalie_ROR"/>
-      <description value="Thématique caractérisant une anomalie de donnée ROR"/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -21754,17 +22887,6 @@
         <valueString value="ValueSet"/>
       </extension>
       <reference>
-        <reference value="ValueSet/JDV-J247-Pays-ROR"/>
-      </reference>
-      <name value="JDV_J247_Pays_ROR"/>
-      <description value="Référentiel des codes pays provenant du COG INSEE - ROR"/>
-      <exampleBoolean value="false"/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="ValueSet"/>
-      </extension>
-      <reference>
         <reference value="ValueSet/JDV-J248-DepartementOM-ROR"/>
       </reference>
       <name value="JDV_J248_DepartementOM_ROR"/>
@@ -21809,32 +22931,10 @@
         <valueString value="ValueSet"/>
       </extension>
       <reference>
-        <reference value="ValueSet/JDV-J251-MotifStatutPersonnePriseChargeESMS"/>
-      </reference>
-      <name value="JDV_J251_MotifStatutPersonnePriseChargeESMS"/>
-      <description value="Motif du statut de la personne prise en charge au sein d'un ESMS"/>
-      <exampleBoolean value="false"/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="ValueSet"/>
-      </extension>
-      <reference>
         <reference value="ValueSet/JDV-J252-StatutPersonnePriseChargeESMS"/>
       </reference>
       <name value="JDV_J252_StatutPersonnePriseChargeESMS"/>
       <description value="Statut de la personne prise en charge au sein d'un ESMS"/>
-      <exampleBoolean value="false"/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="ValueSet"/>
-      </extension>
-      <reference>
-        <reference value="ValueSet/JDV-J253-StatutPersonnePriseChargeUnite"/>
-      </reference>
-      <name value="JDV_J253_StatutPersonnePriseChargeUnite"/>
-      <description value="Statut de la personne prise en charge au sein d'une unité"/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -21952,17 +23052,6 @@
         <valueString value="ValueSet"/>
       </extension>
       <reference>
-        <reference value="ValueSet/JDV-J265-RoleMembreCercleDeSoins-CISIS"/>
-      </reference>
-      <name value="JDV_J265_RoleMembreCercleDeSoins_CISIS"/>
-      <description value="Rôles des membres d'un cercle de soins"/>
-      <exampleBoolean value="false"/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="ValueSet"/>
-      </extension>
-      <reference>
         <reference value="ValueSet/JDV-J26-ModeGestion-ROR"/>
       </reference>
       <name value="JDV_J26_ModeGestion_ROR"/>
@@ -22022,17 +23111,6 @@
       </reference>
       <name value="JDV_J27_GroupeTarifaireDependance_ROR"/>
       <description value="Niveau de dépendance associé à un tarif d'un ESMS - ROR"/>
-      <exampleBoolean value="false"/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="ValueSet"/>
-      </extension>
-      <reference>
-        <reference value="ValueSet/JDV-J281-StatutsRessourcesMS"/>
-      </reference>
-      <name value="JDV_J281_StatutsRessourcesMS"/>
-      <description value="Statut de l'évaluation et des événements"/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -22205,17 +23283,6 @@
         <valueString value="ValueSet"/>
       </extension>
       <reference>
-        <reference value="ValueSet/JDV-J38-ModeAcces-CISIS"/>
-      </reference>
-      <name value="JDV_J38_ModeAcces_CISIS"/>
-      <description value="Mode d'accès pour accéder à un SI santé avec données patients - CI-SIS"/>
-      <exampleBoolean value="false"/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="ValueSet"/>
-      </extension>
-      <reference>
         <reference value="ValueSet/JDV-J39-ConditionTarifaire-ROR"/>
       </reference>
       <name value="JDV_J39_ConditionTarifaire_ROR"/>
@@ -22319,17 +23386,6 @@
       </reference>
       <name value="JDV_J52_AvailabilityStatus_CISIS"/>
       <description value="Statut du document CI-SIS"/>
-      <exampleBoolean value="false"/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="ValueSet"/>
-      </extension>
-      <reference>
-        <reference value="ValueSet/JDV-J53-TypeRequeteGestionDossier-CISIS"/>
-      </reference>
-      <name value="JDV_J53_TypeRequeteGestionDossier_CISIS"/>
-      <description value="Code de requêtes de gestion de dossier CI-SIS"/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -22550,17 +23606,6 @@
       </reference>
       <name value="JDV_J74_Pays_RASS"/>
       <description value="Pays (codes INSEE) du RASS"/>
-      <exampleBoolean value="false"/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="ValueSet"/>
-      </extension>
-      <reference>
-        <reference value="ValueSet/JDV-J75-TypeAutorisation-RASS"/>
-      </reference>
-      <name value="JDV_J75_TypeAutorisation_RASS"/>
-      <description value="Type d'autorisation d'exercice pour accès à l'exercice de la profession du RASS"/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -22832,10 +23877,10 @@
         <valueString value="ValueSet"/>
       </extension>
       <reference>
-        <reference value="ValueSet/1.2.250.1.213.1.1.5.77"/>
+        <reference value="ValueSet/1.2.250.1.213.1.1.5.56"/>
       </reference>
-      <name value="JDV_JoursSemaine_CISIS"/>
-      <description value="JDV_JoursSemaine_CISIS"/>
+      <name value="JDV_Juridique_CISIS"/>
+      <description value="JDV_Juridique_CISIS"/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -22843,10 +23888,120 @@
         <valueString value="ValueSet"/>
       </extension>
       <reference>
-        <reference value="ValueSet/1.2.250.1.213.1.1.5.56"/>
+        <reference value="ValueSet/1.2.250.1.213.1.1.5.316"/>
       </reference>
-      <name value="JDV_Juridique_CISIS"/>
-      <description value="JDV_Juridique_CISIS"/>
+      <name value="JDV_Larynx_Localisation_ganglions_CISIS"/>
+      <description value="JDV_Larynx_Localisation_ganglions_CISIS"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/1.2.250.1.213.1.1.5.315"/>
+      </reference>
+      <name value="JDV_Larynx_Localisation_tumeur_CISIS"/>
+      <description value="JDV_Larynx_Localisation_tumeur_CISIS"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/1.2.250.1.213.1.1.5.317"/>
+      </reference>
+      <name value="JDV_Larynx_Observation_anatomie_pathologique_CISIS"/>
+      <description value="JDV_Larynx_Observation_anatomie_pathologique_CISIS"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/1.2.250.1.213.1.1.5.318"/>
+      </reference>
+      <name value="JDV_Larynx_Organe_region_prelevement_CISIS"/>
+      <description value="JDV_Larynx_Organe_region_prelevement_CISIS"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/1.2.250.1.213.1.1.5.319"/>
+      </reference>
+      <name value="JDV_Larynx_pN_carcinome_sauf_melanome_muqueux_malin_CISIS"/>
+      <description value="JDV_Larynx_pN_carcinome_sauf_melanome_muqueux_malin_CISIS"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/1.2.250.1.213.1.1.5.320"/>
+      </reference>
+      <name value="JDV_Larynx_pN_melanome_muqueux_malin_CISIS"/>
+      <description value="JDV_Larynx_pN_melanome_muqueux_malin_CISIS"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/1.2.250.1.213.1.1.5.321"/>
+      </reference>
+      <name value="JDV_Larynx_Procedure_prelevement_CISIS"/>
+      <description value="JDV_Larynx_Procedure_prelevement_CISIS"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/1.2.250.1.213.1.1.5.323"/>
+      </reference>
+      <name value="JDV_Larynx_pT_carcinome_sous_glottique_sauf_melanome_muqueux_malin_CISIS"/>
+      <description value="JDV_Larynx_pT_carcinome_sous_glottique_sauf_melanome_muqueux_malin_CISIS"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/1.2.250.1.213.1.1.5.322"/>
+      </reference>
+      <name value="JDV_Larynx_pT_carcinom_glotte_sauf_melanome_muqueux_malin_CISIS"/>
+      <description value="JDV_Larynx_pT_carcinom_glotte_sauf_melanome_muqueux_malin_CISIS"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/1.2.250.1.213.1.1.5.324"/>
+      </reference>
+      <name value="JDV_Larynx_pT_melanome_muqueux_malin_CISIS"/>
+      <description value="JDV_Larynx_pT_melanome_muqueux_malin_CISIS"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/1.2.250.1.213.1.1.5.325"/>
+      </reference>
+      <name value="JDV_Larynx_Type_histologique_lesion_neoplasique_maligne_invasive_CISIS"/>
+      <description value="JDV_Larynx_Type_histologique_lesion_neoplasique_maligne_invasive_CISIS"/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -22865,10 +24020,32 @@
         <valueString value="ValueSet"/>
       </extension>
       <reference>
+        <reference value="ValueSet/1.2.250.1.213.1.1.4.321.2"/>
+      </reference>
+      <name value="JDV_lateraliteManuelle_CISIS"/>
+      <description value="JDV_lateraliteManuelle_CISIS"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
         <reference value="ValueSet/1.2.250.1.213.1.1.5.586"/>
       </reference>
       <name value="JDV_LateraliteNCIT_CISIS"/>
       <description value="JDV_LateraliteNCIT_CISIS"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/1.2.250.1.213.1.1.5.482"/>
+      </reference>
+      <name value="JDV_Lateralites_CISIS"/>
+      <description value="JDV_Lateralites_CISIS"/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -22898,10 +24075,120 @@
         <valueString value="ValueSet"/>
       </extension>
       <reference>
+        <reference value="ValueSet/1.2.250.1.213.1.1.4.321.4"/>
+      </reference>
+      <name value="JDV_lateralite_CISIS"/>
+      <description value="JDV_lateralite_CISIS"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
         <reference value="ValueSet/1.2.250.1.213.1.1.5.751"/>
       </reference>
       <name value="JDV_LesionTraumatiqueObstetricale_CISIS"/>
       <description value="JDV_LesionTraumatiqueObstetricale_CISIS"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/1.2.250.1.213.1.1.5.326"/>
+      </reference>
+      <name value="JDV_Levres_cavite_buccale_Extension_microscopique_macroscopique_tumeur_CISIS"/>
+      <description value="JDV_Levres_cavite_buccale_Extension_microscopique_macroscopique_tumeur_CISIS"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/1.2.250.1.213.1.1.5.327"/>
+      </reference>
+      <name value="JDV_Levres_cavite_buccale_Localisation_ganglions_CISIS"/>
+      <description value="JDV_Levres_cavite_buccale_Localisation_ganglions_CISIS"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/1.2.250.1.213.1.1.5.328"/>
+      </reference>
+      <name value="JDV_Levres_cavite_buccale_Observation_anatomie_pathologique_CISIS"/>
+      <description value="JDV_Levres_cavite_buccale_Observation_anatomie_pathologique_CISIS"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/1.2.250.1.213.1.1.5.329"/>
+      </reference>
+      <name value="JDV_Levres_cavite_buccale_Organe_region_prelevement_CISIS"/>
+      <description value="JDV_Levres_cavite_buccale_Organe_region_prelevement_CISIS"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/1.2.250.1.213.1.1.5.330"/>
+      </reference>
+      <name value="JDV_Levres_cavite_buccale_pN_CISIS"/>
+      <description value="JDV_Levres_cavite_buccale_pN_CISIS"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/1.2.250.1.213.1.1.5.331"/>
+      </reference>
+      <name value="JDV_Levres_cavite_buccale_Procedure_prelevement_CISIS"/>
+      <description value="JDV_Levres_cavite_buccale_Procedure_prelevement_CISIS"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/1.2.250.1.213.1.1.5.332"/>
+      </reference>
+      <name value="JDV_Levres_cavite_buccale_pT_carcinome_sauf_melanome_muqueux_malin_CISIS"/>
+      <description value="JDV_Levres_cavite_buccale_pT_carcinome_sauf_melanome_muqueux_malin_CISIS"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/1.2.250.1.213.1.1.5.333"/>
+      </reference>
+      <name value="JDV_Levres_cavite_buccale_pT_melanome_muqueux_malin_CISIS"/>
+      <description value="JDV_Levres_cavite_buccale_pT_melanome_muqueux_malin_CISIS"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/1.2.250.1.213.1.1.5.334"/>
+      </reference>
+      <name value="JDV_Levres_cavite_buccale_Type_histologique_lesion_neoplasique_maligne_invasive_CISIS"/>
+      <description value="JDV_Levres_cavite_buccale_Type_histologique_lesion_neoplasique_maligne_invasive_CISIS"/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -22997,6 +24284,17 @@
         <valueString value="ValueSet"/>
       </extension>
       <reference>
+        <reference value="ValueSet/1.2.250.1.213.1.1.5.581"/>
+      </reference>
+      <name value="JDV_Localisation_Region_Melanome_CISIS"/>
+      <description value="JDV_Localisation_Region_Melanome_CISIS"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
         <reference value="ValueSet/1.2.250.1.213.1.1.5.215"/>
       </reference>
       <name value="JDV_LocaThromboseVeineuse_CISIS"/>
@@ -23023,17 +24321,6 @@
       </reference>
       <name value="JDV_MediaType_ObservationMedia_CISIS"/>
       <description value="JDV_MediaType_ObservationMedia_CISIS"/>
-      <exampleBoolean value="false"/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="ValueSet"/>
-      </extension>
-      <reference>
-        <reference value="ValueSet/1.2.250.1.213.1.1.5.656"/>
-      </reference>
-      <name value="JDV_MesureLentilleDelivree_CISIS"/>
-      <description value="JDV_MesureLentilleDelivree_CISIS"/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -23122,17 +24409,6 @@
       </reference>
       <name value="JDV_MethodeAccouchement_CISIS"/>
       <description value="JDV_MethodeAccouchement_CISIS"/>
-      <exampleBoolean value="false"/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="ValueSet"/>
-      </extension>
-      <reference>
-        <reference value="ValueSet/1.2.250.1.213.1.1.5.715"/>
-      </reference>
-      <name value="JDV_MethodeDeMesureAcuiteVisuelle_CISIS"/>
-      <description value="JDV_MethodeDeMesureAcuiteVisuelle_CISIS"/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -23294,17 +24570,6 @@
         <valueString value="ValueSet"/>
       </extension>
       <reference>
-        <reference value="ValueSet/1.2.250.1.213.1.1.5.700"/>
-      </reference>
-      <name value="JDV_ModeSortie_OBP_SCM_CISIS"/>
-      <description value="JDV_ModeSortie_OBP_SCM_CISIS"/>
-      <exampleBoolean value="false"/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="ValueSet"/>
-      </extension>
-      <reference>
         <reference value="ValueSet/1.2.250.1.213.1.1.5.701"/>
       </reference>
       <name value="JDV_ModeSortie_OBP_SEM_CISIS"/>
@@ -23382,17 +24647,6 @@
         <valueString value="ValueSet"/>
       </extension>
       <reference>
-        <reference value="ValueSet/1.2.250.1.213.1.1.5.35"/>
-      </reference>
-      <name value="JDV_MotifDiagnostic_CISIS"/>
-      <description value="JDV_MotifDiagnostic_CISIS"/>
-      <exampleBoolean value="false"/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="ValueSet"/>
-      </extension>
-      <reference>
         <reference value="ValueSet/1.2.250.1.213.1.1.5.88"/>
       </reference>
       <name value="JDV_MotifEchographie_CISIS"/>
@@ -23430,28 +24684,6 @@
       </reference>
       <name value="JDV_MotifNonRealisationEvenement_CISIS"/>
       <description value="JDV_MotifNonRealisationEvenement_CISIS"/>
-      <exampleBoolean value="false"/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="ValueSet"/>
-      </extension>
-      <reference>
-        <reference value="ValueSet/1.2.250.1.213.1.1.4.2.281.8"/>
-      </reference>
-      <name value="JDV_NatureDiscussion_CISIS"/>
-      <description value="JDV_NatureDiscussion_CISIS"/>
-      <exampleBoolean value="false"/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="ValueSet"/>
-      </extension>
-      <reference>
-        <reference value="ValueSet/1.2.250.1.213.1.1.5.146"/>
-      </reference>
-      <name value="JDV_NatureFraction_CISIS"/>
-      <description value="JDV_NatureFraction_CISIS"/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -23558,17 +24790,6 @@
         <valueString value="ValueSet"/>
       </extension>
       <reference>
-        <reference value="ValueSet/1.2.250.1.213.1.1.5.180"/>
-      </reference>
-      <name value="JDV_NIHSSLocqInt_CISIS"/>
-      <description value="JDV_NIHSSLocqInt_CISIS"/>
-      <exampleBoolean value="false"/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="ValueSet"/>
-      </extension>
-      <reference>
         <reference value="ValueSet/1.2.250.1.213.1.1.5.186"/>
       </reference>
       <name value="JDV_NIHSSMiInt_CISIS"/>
@@ -23595,17 +24816,6 @@
       </reference>
       <name value="JDV_NIHSSNeglInt_CISIS"/>
       <description value="JDV_NIHSSNeglInt_CISIS"/>
-      <exampleBoolean value="false"/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="ValueSet"/>
-      </extension>
-      <reference>
-        <reference value="ValueSet/1.2.250.1.213.1.1.5.182"/>
-      </reference>
-      <name value="JDV_NIHSSOculInt_CISIS"/>
-      <description value="JDV_NIHSSOculInt_CISIS"/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -23646,10 +24856,10 @@
         <valueString value="ValueSet"/>
       </extension>
       <reference>
-        <reference value="ValueSet/1.2.250.1.213.1.1.5.108"/>
+        <reference value="ValueSet/1.2.250.1.213.1.1.5.578"/>
       </reference>
-      <name value="JDV_NiveauEtude_CISIS"/>
-      <description value="JDV_NiveauEtude_CISIS"/>
+      <name value="JDV_Niveau_Invasion_Clark_Melanome_CISIS"/>
+      <description value="JDV_Niveau_Invasion_Clark_Melanome_CISIS"/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -23690,6 +24900,160 @@
         <valueString value="ValueSet"/>
       </extension>
       <reference>
+        <reference value="ValueSet/1.2.250.1.213.1.1.4.2.289.49"/>
+      </reference>
+      <name value="JDV_OBP_Acte_CISIS"/>
+      <description value="JDV_OBP_Acte_CISIS"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/1.2.250.1.213.1.1.4.2.289.16"/>
+      </reference>
+      <name value="JDV_OBP_AnomalieConstitutionnelle_CISIS"/>
+      <description value="JDV_OBP_AnomalieConstitutionnelle_CISIS"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/1.2.250.1.213.1.1.4.2.289.15"/>
+      </reference>
+      <name value="JDV_OBP_AnomalieCroissance_CISIS"/>
+      <description value="JDV_OBP_AnomalieCroissance_CISIS"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/1.2.250.1.213.1.1.4.2.289.19"/>
+      </reference>
+      <name value="JDV_OBP_CirconstancesDeces_CISIS"/>
+      <description value="JDV_OBP_CirconstancesDeces_CISIS"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/1.2.250.1.213.1.1.4.2.289.20"/>
+      </reference>
+      <name value="JDV_OBP_ComplicationsAnesthesie_CISIS"/>
+      <description value="JDV_OBP_ComplicationsAnesthesie_CISIS"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/1.2.250.1.213.1.1.4.2.289.12"/>
+      </reference>
+      <name value="JDV_OBP_DiabeteGrossesse_CISIS"/>
+      <description value="JDV_OBP_DiabeteGrossesse_CISIS"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/1.2.250.1.213.1.1.4.2.289.43"/>
+      </reference>
+      <name value="JDV_OBP_GesteReanimationNN_CISIS"/>
+      <description value="JDV_OBP_GesteReanimationNN_CISIS"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/1.2.250.1.213.1.1.4.2.289.11"/>
+      </reference>
+      <name value="JDV_OBP_HTAGravidique_CISIS"/>
+      <description value="JDV_OBP_HTAGravidique_CISIS"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/1.2.250.1.213.1.1.4.2.289.14"/>
+      </reference>
+      <name value="JDV_OBP_InfectCervicoVaginale_CISIS"/>
+      <description value="JDV_OBP_InfectCervicoVaginale_CISIS"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/1.2.250.1.213.1.1.4.2.289.13"/>
+      </reference>
+      <name value="JDV_OBP_InfectUrinaire_CISIS"/>
+      <description value="JDV_OBP_InfectUrinaire_CISIS"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/1.2.250.1.213.1.1.4.2.289.38"/>
+      </reference>
+      <name value="JDV_OBP_LesionTraumatiqueObstetricale_CISIS"/>
+      <description value="JDV_OBP_LesionTraumatiqueObstetricale_CISIS"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/1.2.250.1.213.1.1.4.2.289.22"/>
+      </reference>
+      <name value="JDV_OBP_ModeDebutTravail_CISIS"/>
+      <description value="JDV_OBP_ModeDebutTravail_CISIS"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/1.2.250.1.213.1.1.4.2.289.23"/>
+      </reference>
+      <name value="JDV_OBP_ModeNaissance_CISIS"/>
+      <description value="JDV_OBP_ModeNaissance_CISIS"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/1.2.250.1.213.1.1.4.2.289.26"/>
+      </reference>
+      <name value="JDV_OBP_QuantiteLA_CISIS"/>
+      <description value="JDV_OBP_QuantiteLA_CISIS"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
         <reference value="ValueSet/1.2.250.1.213.1.1.5.724"/>
       </reference>
       <name value="JDV_OBP_Result_Evenement_CISIS"/>
@@ -23701,10 +25065,98 @@
         <valueString value="ValueSet"/>
       </extension>
       <reference>
+        <reference value="ValueSet/1.2.250.1.213.1.1.4.2.289.46"/>
+      </reference>
+      <name value="JDV_OBP_StaticSAPActiveProblem_CISIS"/>
+      <description value="JDV_OBP_StaticSAPActiveProblem_CISIS"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/1.2.250.1.213.1.1.4.2.289.47"/>
+      </reference>
+      <name value="JDV_OBP_StaticSCEprocedures_CISIS"/>
+      <description value="JDV_OBP_StaticSCEprocedures_CISIS"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
         <reference value="ValueSet/1.2.250.1.213.1.1.5.725"/>
       </reference>
       <name value="JDV_OBP_TestAudition_CISIS"/>
       <description value="JDV_OBP_TestAudition_CISIS"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/1.2.250.1.213.1.1.4.2.289.48"/>
+      </reference>
+      <name value="JDV_OBP_TrimestreGrossesse_CISIS"/>
+      <description value="JDV_OBP_TrimestreGrossesse_CISIS"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/1.2.250.1.213.1.1.4.2.289.27"/>
+      </reference>
+      <name value="JDV_OBP_TypeAnesthesieApresNaissance_CISIS"/>
+      <description value="JDV_OBP_TypeAnesthesieApresNaissance_CISIS"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/1.2.250.1.213.1.1.4.2.289.28"/>
+      </reference>
+      <name value="JDV_OBP_TypeAnesthesieAvantNaissance_CISIS"/>
+      <description value="JDV_OBP_TypeAnesthesieAvantNaissance_CISIS"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/1.2.250.1.213.1.1.4.2.289.30"/>
+      </reference>
+      <name value="JDV_OBP_TypeEtablissement_CISIS"/>
+      <description value="JDV_OBP_TypeEtablissement_CISIS"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/1.2.250.1.213.1.1.4.2.289.40"/>
+      </reference>
+      <name value="JDV_OBP_TypeInfectionNN_CISIS"/>
+      <description value="JDV_OBP_TypeInfectionNN_CISIS"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/1.2.250.1.213.1.1.4.2.289.39"/>
+      </reference>
+      <name value="JDV_OBP_TypePortageAgentInfectieux_CISIS"/>
+      <description value="JDV_OBP_TypePortageAgentInfectieux_CISIS"/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -23767,6 +25219,83 @@
         <valueString value="ValueSet"/>
       </extension>
       <reference>
+        <reference value="ValueSet/1.2.250.1.213.1.1.5.337"/>
+      </reference>
+      <name value="JDV_Oesophage_Localisation_limites_resection_CISIS"/>
+      <description value="JDV_Oesophage_Localisation_limites_resection_CISIS"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/1.2.250.1.213.1.1.5.336"/>
+      </reference>
+      <name value="JDV_Oesophage_Localisation_tumeur_CISIS"/>
+      <description value="JDV_Oesophage_Localisation_tumeur_CISIS"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/1.2.250.1.213.1.1.5.339"/>
+      </reference>
+      <name value="JDV_Oesophage_Organe_region_prelevement_CISIS"/>
+      <description value="JDV_Oesophage_Organe_region_prelevement_CISIS"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/1.2.250.1.213.1.1.5.340"/>
+      </reference>
+      <name value="JDV_Oesophage_pN_CISIS"/>
+      <description value="JDV_Oesophage_pN_CISIS"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/1.2.250.1.213.1.1.5.341"/>
+      </reference>
+      <name value="JDV_Oesophage_Procedure_prelevement_CISIS"/>
+      <description value="JDV_Oesophage_Procedure_prelevement_CISIS"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/1.2.250.1.213.1.1.5.342"/>
+      </reference>
+      <name value="JDV_Oesophage_pT_CISIS"/>
+      <description value="JDV_Oesophage_pT_CISIS"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/1.2.250.1.213.1.1.5.343"/>
+      </reference>
+      <name value="JDV_Oesophage_Type_histologique_lesion_neoplasique_maligne_invasive_CISIS"/>
+      <description value="JDV_Oesophage_Type_histologique_lesion_neoplasique_maligne_invasive_CISIS"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
         <reference value="ValueSet/1.2.250.1.213.1.1.4.2.281.1"/>
       </reference>
       <name value="JDV_OMSEchPerf_CISIS"/>
@@ -23782,6 +25311,17 @@
       </reference>
       <name value="JDV_OMSInterpret_CISIS"/>
       <description value="JDV_OMSInterpret_CISIS"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/1.2.250.1.213.1.1.5.479"/>
+      </reference>
+      <name value="JDV_Organe_CISIS"/>
+      <description value="JDV_Organe_CISIS"/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -23811,6 +25351,204 @@
         <valueString value="ValueSet"/>
       </extension>
       <reference>
+        <reference value="ValueSet/1.2.250.1.213.1.1.5.344"/>
+      </reference>
+      <name value="JDV_Ovaire_Extension_microscopique_macroscopique_tumeur_CISIS"/>
+      <description value="JDV_Ovaire_Extension_microscopique_macroscopique_tumeur_CISIS"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/1.2.250.1.213.1.1.5.345"/>
+      </reference>
+      <name value="JDV_Ovaire_Grade_histologique_carcinome_mucineux_ovaire_CISIS"/>
+      <description value="JDV_Ovaire_Grade_histologique_carcinome_mucineux_ovaire_CISIS"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/1.2.250.1.213.1.1.5.346"/>
+      </reference>
+      <name value="JDV_Ovaire_Grade_histologique_CISIS"/>
+      <description value="JDV_Ovaire_Grade_histologique_CISIS"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/1.2.250.1.213.1.1.5.347"/>
+      </reference>
+      <name value="JDV_Ovaire_Grade_histologique_Teratome_immature_CISIS"/>
+      <description value="JDV_Ovaire_Grade_histologique_Teratome_immature_CISIS"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/1.2.250.1.213.1.1.5.348"/>
+      </reference>
+      <name value="JDV_Ovaire_Localisation_ganglions_CISIS"/>
+      <description value="JDV_Ovaire_Localisation_ganglions_CISIS"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/1.2.250.1.213.1.1.5.349"/>
+      </reference>
+      <name value="JDV_Ovaire_Observation_anatomie_pathologique_CISIS"/>
+      <description value="JDV_Ovaire_Observation_anatomie_pathologique_CISIS"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/1.2.250.1.213.1.1.5.350"/>
+      </reference>
+      <name value="JDV_Ovaire_Organe_region_prelevement_CISIS"/>
+      <description value="JDV_Ovaire_Organe_region_prelevement_CISIS"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/1.2.250.1.213.1.1.5.352"/>
+      </reference>
+      <name value="JDV_Ovaire_Procedure_prelevement_CISIS"/>
+      <description value="JDV_Ovaire_Procedure_prelevement_CISIS"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/1.2.250.1.213.1.1.5.353"/>
+      </reference>
+      <name value="JDV_Ovaire_pT_CISIS"/>
+      <description value="JDV_Ovaire_pT_CISIS"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/1.2.250.1.213.1.1.5.354"/>
+      </reference>
+      <name value="JDV_Ovaire_Type_histologique_lesion_neoplasique_maligne_invasive_CISIS"/>
+      <description value="JDV_Ovaire_Type_histologique_lesion_neoplasique_maligne_invasive_CISIS"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/1.2.250.1.213.1.1.5.355"/>
+      </reference>
+      <name value="JDV_Pancreas_Extension_microscopique_macroscopique_tumeur_CISIS"/>
+      <description value="JDV_Pancreas_Extension_microscopique_macroscopique_tumeur_CISIS"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/1.2.250.1.213.1.1.5.357"/>
+      </reference>
+      <name value="JDV_Pancreas_Localisation_limites_resection_CISIS"/>
+      <description value="JDV_Pancreas_Localisation_limites_resection_CISIS"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/1.2.250.1.213.1.1.5.356"/>
+      </reference>
+      <name value="JDV_Pancreas_Localisation_tumeur_CISIS"/>
+      <description value="JDV_Pancreas_Localisation_tumeur_CISIS"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/1.2.250.1.213.1.1.5.359"/>
+      </reference>
+      <name value="JDV_Pancreas_Organe_region_prelevement_CISIS"/>
+      <description value="JDV_Pancreas_Organe_region_prelevement_CISIS"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/1.2.250.1.213.1.1.5.360"/>
+      </reference>
+      <name value="JDV_Pancreas_pN_CISIS"/>
+      <description value="JDV_Pancreas_pN_CISIS"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/1.2.250.1.213.1.1.5.361"/>
+      </reference>
+      <name value="JDV_Pancreas_Procedure_prelevement_CISIS"/>
+      <description value="JDV_Pancreas_Procedure_prelevement_CISIS"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/1.2.250.1.213.1.1.5.362"/>
+      </reference>
+      <name value="JDV_Pancreas_pT_CISIS"/>
+      <description value="JDV_Pancreas_pT_CISIS"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/1.2.250.1.213.1.1.5.363"/>
+      </reference>
+      <name value="JDV_Pancreas_Type_histologique_lesion_neoplasique_maligne_invasive_CISIS"/>
+      <description value="JDV_Pancreas_Type_histologique_lesion_neoplasique_maligne_invasive_CISIS"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
         <reference value="ValueSet/1.2.250.1.213.1.1.5.138"/>
       </reference>
       <name value="JDV_ParticipantAdditionnelResultat_CISIS"/>
@@ -23833,6 +25571,17 @@
         <valueString value="ValueSet"/>
       </extension>
       <reference>
+        <reference value="ValueSet/1.2.250.1.213.1.1.5.713"/>
+      </reference>
+      <name value="JDV_pathologie_foetale_CISIS"/>
+      <description value="JDV_pathologie_foetale_CISIS"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
         <reference value="ValueSet/1.2.250.1.213.1.1.5.704"/>
       </reference>
       <name value="JDV_Patho_1ere_semaine_CS8_CISIS"/>
@@ -23844,10 +25593,208 @@
         <valueString value="ValueSet"/>
       </extension>
       <reference>
-        <reference value="ValueSet/1.2.250.1.213.1.1.5.38"/>
+        <reference value="ValueSet/1.2.250.1.213.1.1.5.364"/>
       </reference>
-      <name value="JDV_PatientAdressePar_CISIS"/>
-      <description value="JDV_PatientAdressePar_CISIS"/>
+      <name value="JDV_Peau_melanome_Grade_histologique_Clark_CISIS"/>
+      <description value="JDV_Peau_melanome_Grade_histologique_Clark_CISIS"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/1.2.250.1.213.1.1.5.366"/>
+      </reference>
+      <name value="JDV_Peau_melanome_Localisation_limites_resection_CISIS"/>
+      <description value="JDV_Peau_melanome_Localisation_limites_resection_CISIS"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/1.2.250.1.213.1.1.5.365"/>
+      </reference>
+      <name value="JDV_Peau_melanome_Localisation_tumeur_CISIS"/>
+      <description value="JDV_Peau_melanome_Localisation_tumeur_CISIS"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/1.2.250.1.213.1.1.5.367"/>
+      </reference>
+      <name value="JDV_Peau_melanome_Observation_anatomie_pathologique_CISIS"/>
+      <description value="JDV_Peau_melanome_Observation_anatomie_pathologique_CISIS"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/1.2.250.1.213.1.1.5.368"/>
+      </reference>
+      <name value="JDV_Peau_melanome_Organe_region_prelevement_CISIS"/>
+      <description value="JDV_Peau_melanome_Organe_region_prelevement_CISIS"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/1.2.250.1.213.1.1.5.369"/>
+      </reference>
+      <name value="JDV_Peau_melanome_pN_CISIS"/>
+      <description value="JDV_Peau_melanome_pN_CISIS"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/1.2.250.1.213.1.1.5.370"/>
+      </reference>
+      <name value="JDV_Peau_melanome_Procedure_prelevement_CISIS"/>
+      <description value="JDV_Peau_melanome_Procedure_prelevement_CISIS"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/1.2.250.1.213.1.1.5.371"/>
+      </reference>
+      <name value="JDV_Peau_melanome_pT_CISIS"/>
+      <description value="JDV_Peau_melanome_pT_CISIS"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/1.2.250.1.213.1.1.5.372"/>
+      </reference>
+      <name value="JDV_Peau_melanome_Type_histologique_lesion_neoplasique_maligne_invasive_CISIS"/>
+      <description value="JDV_Peau_melanome_Type_histologique_lesion_neoplasique_maligne_invasive_CISIS"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/1.2.250.1.213.1.1.5.375"/>
+      </reference>
+      <name value="JDV_Pharynx_Localisation_ganglions_CISIS"/>
+      <description value="JDV_Pharynx_Localisation_ganglions_CISIS"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/1.2.250.1.213.1.1.5.374"/>
+      </reference>
+      <name value="JDV_Pharynx_Localisation_tumeur_CISIS"/>
+      <description value="JDV_Pharynx_Localisation_tumeur_CISIS"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/1.2.250.1.213.1.1.5.377"/>
+      </reference>
+      <name value="JDV_Pharynx_Organe_region_prelevement_CISIS"/>
+      <description value="JDV_Pharynx_Organe_region_prelevement_CISIS"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/1.2.250.1.213.1.1.5.378"/>
+      </reference>
+      <name value="JDV_Pharynx_pN_carcinome_hypoPharynx_CISIS"/>
+      <description value="JDV_Pharynx_pN_carcinome_hypoPharynx_CISIS"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/1.2.250.1.213.1.1.5.379"/>
+      </reference>
+      <name value="JDV_Pharynx_pN_carcinome_nasoPharynx_CISIS"/>
+      <description value="JDV_Pharynx_pN_carcinome_nasoPharynx_CISIS"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/1.2.250.1.213.1.1.5.380"/>
+      </reference>
+      <name value="JDV_Pharynx_pN_melanome_muqueux_malin_CISIS"/>
+      <description value="JDV_Pharynx_pN_melanome_muqueux_malin_CISIS"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/1.2.250.1.213.1.1.5.381"/>
+      </reference>
+      <name value="JDV_Pharynx_Procedure_prelevement_CISIS"/>
+      <description value="JDV_Pharynx_Procedure_prelevement_CISIS"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/1.2.250.1.213.1.1.5.382"/>
+      </reference>
+      <name value="JDV_Pharynx_pT_carcinome_hypoPharynx_CISIS"/>
+      <description value="JDV_Pharynx_pT_carcinome_hypoPharynx_CISIS"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/1.2.250.1.213.1.1.5.383"/>
+      </reference>
+      <name value="JDV_Pharynx_pT_carcinome_nasoPharynx_CISIS"/>
+      <description value="JDV_Pharynx_pT_carcinome_nasoPharynx_CISIS"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/1.2.250.1.213.1.1.5.385"/>
+      </reference>
+      <name value="JDV_Pharynx_Type_histologique_lesion_neoplasique_maligne_invasive_CISIS"/>
+      <description value="JDV_Pharynx_Type_histologique_lesion_neoplasique_maligne_invasive_CISIS"/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -23888,10 +25835,98 @@
         <valueString value="ValueSet"/>
       </extension>
       <reference>
-        <reference value="ValueSet/1.2.250.1.213.1.1.5.680"/>
+        <reference value="ValueSet/1.2.250.1.213.1.1.5.386"/>
       </reference>
-      <name value="JDV_PolypathologiesAVC_CISIS"/>
-      <description value="JDV_PolypathologiesAVC_CISIS"/>
+      <name value="JDV_Poumon_Extension_microscopique_macroscopique_tumeur_CISIS"/>
+      <description value="JDV_Poumon_Extension_microscopique_macroscopique_tumeur_CISIS"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/1.2.250.1.213.1.1.5.387"/>
+      </reference>
+      <name value="JDV_Poumon_Localisation_ganglions_CISIS"/>
+      <description value="JDV_Poumon_Localisation_ganglions_CISIS"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/1.2.250.1.213.1.1.5.388"/>
+      </reference>
+      <name value="JDV_Poumon_Localisation_limites_resection_CISIS"/>
+      <description value="JDV_Poumon_Localisation_limites_resection_CISIS"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/1.2.250.1.213.1.1.5.389"/>
+      </reference>
+      <name value="JDV_Poumon_Observation_anatomie_pathologique_CISIS"/>
+      <description value="JDV_Poumon_Observation_anatomie_pathologique_CISIS"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/1.2.250.1.213.1.1.5.391"/>
+      </reference>
+      <name value="JDV_Poumon_pN_CISIS"/>
+      <description value="JDV_Poumon_pN_CISIS"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/1.2.250.1.213.1.1.5.393"/>
+      </reference>
+      <name value="JDV_Poumon_pT_CISIS"/>
+      <description value="JDV_Poumon_pT_CISIS"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/1.2.250.1.213.1.1.5.394"/>
+      </reference>
+      <name value="JDV_Poumon_Type_histologique_lesion_neoplasique_maligne_invasive_CISIS"/>
+      <description value="JDV_Poumon_Type_histologique_lesion_neoplasique_maligne_invasive_CISIS"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/1.2.250.1.213.1.1.5.530"/>
+      </reference>
+      <name value="JDV_PrelevementAppendice_CISIS"/>
+      <description value="JDV_PrelevementAppendice_CISIS"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/1.2.250.1.213.1.1.5.531"/>
+      </reference>
+      <name value="JDV_PrelevementEtatPiece_CISIS"/>
+      <description value="JDV_PrelevementEtatPiece_CISIS"/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -23910,6 +25945,17 @@
         <valueString value="ValueSet"/>
       </extension>
       <reference>
+        <reference value="ValueSet/1.2.250.1.213.1.1.4.2.281.4"/>
+      </reference>
+      <name value="JDV_PrimSecTumeur_CISIS"/>
+      <description value="JDV_PrimSecTumeur_CISIS"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
         <reference value="ValueSet/1.2.250.1.213.1.1.5.232"/>
       </reference>
       <name value="JDV_PriseEnChargeReguliere_CISIS"/>
@@ -23921,18 +25967,7 @@
         <valueString value="ValueSet"/>
       </extension>
       <reference>
-        <reference value="ValueSet/1.2.250.1.213.1.1.5.139"/>
-      </reference>
-      <name value="JDV_PriseEnChargeSpecifique_CISIS"/>
-      <description value="JDV_PriseEnChargeSpecifique_CISIS"/>
-      <exampleBoolean value="false"/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="ValueSet"/>
-      </extension>
-      <reference>
-        <reference value="ValueSet/1.2.250.1.213.1.1.5.172"/>
+        <reference value="ValueSet/1.2.250.1.213.1.1.4.2.283.3"/>
       </reference>
       <name value="JDV_ProblemCodes_CISIS"/>
       <description value="JDV_ProblemCodes_CISIS"/>
@@ -23998,10 +26033,109 @@
         <valueString value="ValueSet"/>
       </extension>
       <reference>
-        <reference value="ValueSet/1.2.250.1.213.1.1.5.486"/>
+        <reference value="ValueSet/1.2.250.1.213.1.1.5.395"/>
       </reference>
-      <name value="JDV_ProgressionCancer_CISIS"/>
-      <description value="JDV_ProgressionCancer_CISIS"/>
+      <name value="JDV_Prostate_Extension_microscopique_macroscopique_tumeur_CISIS"/>
+      <description value="JDV_Prostate_Extension_microscopique_macroscopique_tumeur_CISIS"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/1.2.250.1.213.1.1.5.396"/>
+      </reference>
+      <name value="JDV_Prostate_Grade_histologique_Gleason_3e_composante_CISIS"/>
+      <description value="JDV_Prostate_Grade_histologique_Gleason_3e_composante_CISIS"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/1.2.250.1.213.1.1.5.397"/>
+      </reference>
+      <name value="JDV_Prostate_Grade_histologique_Gleason_Composante_plus_pejorative_CISIS"/>
+      <description value="JDV_Prostate_Grade_histologique_Gleason_Composante_plus_pejorative_CISIS"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/1.2.250.1.213.1.1.5.398"/>
+      </reference>
+      <name value="JDV_Prostate_Grade_histologique_Gleason_Composante_predominante_CISIS"/>
+      <description value="JDV_Prostate_Grade_histologique_Gleason_Composante_predominante_CISIS"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/1.2.250.1.213.1.1.5.400"/>
+      </reference>
+      <name value="JDV_Prostate_Localisation_tumeur_CISIS"/>
+      <description value="JDV_Prostate_Localisation_tumeur_CISIS"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/1.2.250.1.213.1.1.5.401"/>
+      </reference>
+      <name value="JDV_Prostate_Observation_anatomie_pathologique_CISIS"/>
+      <description value="JDV_Prostate_Observation_anatomie_pathologique_CISIS"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/1.2.250.1.213.1.1.5.402"/>
+      </reference>
+      <name value="JDV_Prostate_Organe_region_prelevement_CISIS"/>
+      <description value="JDV_Prostate_Organe_region_prelevement_CISIS"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/1.2.250.1.213.1.1.5.403"/>
+      </reference>
+      <name value="JDV_Prostate_pN_CISIS"/>
+      <description value="JDV_Prostate_pN_CISIS"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/1.2.250.1.213.1.1.5.404"/>
+      </reference>
+      <name value="JDV_Prostate_Procedure_prelevement_CISIS"/>
+      <description value="JDV_Prostate_Procedure_prelevement_CISIS"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/1.2.250.1.213.1.1.5.405"/>
+      </reference>
+      <name value="JDV_Prostate_pT_CISIS"/>
+      <description value="JDV_Prostate_pT_CISIS"/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -24042,28 +26176,6 @@
         <valueString value="ValueSet"/>
       </extension>
       <reference>
-        <reference value="ValueSet/1.2.250.1.213.1.1.5.620"/>
-      </reference>
-      <name value="JDV_QuantiteExpositionRayonnements_CISIS"/>
-      <description value="JDV_QuantiteExpositionRayonnements_CISIS"/>
-      <exampleBoolean value="false"/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="ValueSet"/>
-      </extension>
-      <reference>
-        <reference value="ValueSet/1.2.250.1.213.1.1.5.747"/>
-      </reference>
-      <name value="JDV_QuantiteLA_CISIS"/>
-      <description value="JDV_QuantiteLA_CISIS"/>
-      <exampleBoolean value="false"/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="ValueSet"/>
-      </extension>
-      <reference>
         <reference value="ValueSet/1.2.250.1.213.1.1.5.201"/>
       </reference>
       <name value="JDV_RaisonAbsenceEtiologie_CISIS"/>
@@ -24086,32 +26198,10 @@
         <valueString value="ValueSet"/>
       </extension>
       <reference>
-        <reference value="ValueSet/1.2.250.1.213.1.1.5.597"/>
-      </reference>
-      <name value="JDV_RCP_Appareil_CISIS"/>
-      <description value="JDV_RCP_Appareil_CISIS"/>
-      <exampleBoolean value="false"/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="ValueSet"/>
-      </extension>
-      <reference>
         <reference value="ValueSet/1.2.250.1.213.1.1.5.598"/>
       </reference>
       <name value="JDV_RCP_Organe_CISIS"/>
       <description value="JDV_RCP_Organe_CISIS"/>
-      <exampleBoolean value="false"/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="ValueSet"/>
-      </extension>
-      <reference>
-        <reference value="ValueSet/1.2.250.1.213.1.1.5.66"/>
-      </reference>
-      <name value="JDV_Readaptation_CISIS"/>
-      <description value="JDV_Readaptation_CISIS"/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -24141,32 +26231,10 @@
         <valueString value="ValueSet"/>
       </extension>
       <reference>
-        <reference value="ValueSet/1.2.250.1.213.1.1.5.517"/>
-      </reference>
-      <name value="JDV_ReferenceRangeAppliesTo_CISIS"/>
-      <description value="JDV_ReferenceRangeAppliesTo_CISIS"/>
-      <exampleBoolean value="false"/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="ValueSet"/>
-      </extension>
-      <reference>
         <reference value="ValueSet/1.2.250.1.213.1.1.5.695"/>
       </reference>
       <name value="JDV_RegionAnatomique_CISIS"/>
       <description value="JDV_RegionAnatomique_CISIS"/>
-      <exampleBoolean value="false"/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="ValueSet"/>
-      </extension>
-      <reference>
-        <reference value="ValueSet/1.2.250.1.213.1.1.5.799"/>
-      </reference>
-      <name value="JDV_RegistresERN_CISIS"/>
-      <description value="JDV_RegistresERN_CISIS"/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -24185,10 +26253,98 @@
         <valueString value="ValueSet"/>
       </extension>
       <reference>
-        <reference value="ValueSet/1.2.250.1.213.1.1.5.759"/>
+        <reference value="ValueSet/1.2.250.1.213.1.1.5.407"/>
       </reference>
-      <name value="JDV_Rencontre_CS9_CS24_CISIS"/>
-      <description value="JDV_Rencontre_CS9_CS24_CISIS"/>
+      <name value="JDV_Rein_Extension_microscopique_macroscopique_tumeur_CISIS"/>
+      <description value="JDV_Rein_Extension_microscopique_macroscopique_tumeur_CISIS"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/1.2.250.1.213.1.1.5.408"/>
+      </reference>
+      <name value="JDV_Rein_Grade_histologique_Fuhrman_CISIS"/>
+      <description value="JDV_Rein_Grade_histologique_Fuhrman_CISIS"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/1.2.250.1.213.1.1.5.410"/>
+      </reference>
+      <name value="JDV_Rein_Localisation_limites_resection_CISIS"/>
+      <description value="JDV_Rein_Localisation_limites_resection_CISIS"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/1.2.250.1.213.1.1.5.409"/>
+      </reference>
+      <name value="JDV_Rein_Localisation_tumeur_CISIS"/>
+      <description value="JDV_Rein_Localisation_tumeur_CISIS"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/1.2.250.1.213.1.1.5.412"/>
+      </reference>
+      <name value="JDV_Rein_Organe_region_prelevement_CISIS"/>
+      <description value="JDV_Rein_Organe_region_prelevement_CISIS"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/1.2.250.1.213.1.1.5.413"/>
+      </reference>
+      <name value="JDV_Rein_pN_CISIS"/>
+      <description value="JDV_Rein_pN_CISIS"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/1.2.250.1.213.1.1.5.414"/>
+      </reference>
+      <name value="JDV_Rein_Procedure_prelevement_CISIS"/>
+      <description value="JDV_Rein_Procedure_prelevement_CISIS"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/1.2.250.1.213.1.1.5.415"/>
+      </reference>
+      <name value="JDV_Rein_pT_CISIS"/>
+      <description value="JDV_Rein_pT_CISIS"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/1.2.250.1.213.1.1.5.416"/>
+      </reference>
+      <name value="JDV_Rein_Type_histologique_lesion_neoplasique_maligne_invasive_CISIS"/>
+      <description value="JDV_Rein_Type_histologique_lesion_neoplasique_maligne_invasive_CISIS"/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -24207,17 +26363,6 @@
         <valueString value="ValueSet"/>
       </extension>
       <reference>
-        <reference value="ValueSet/1.2.250.1.213.1.1.5.758"/>
-      </reference>
-      <name value="JDV_ReperageTroubleNeurodeveloppement_CISIS"/>
-      <description value="JDV_ReperageTroubleNeurodeveloppement_CISIS"/>
-      <exampleBoolean value="false"/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="ValueSet"/>
-      </extension>
-      <reference>
         <reference value="ValueSet/1.2.250.1.213.1.1.5.154"/>
       </reference>
       <name value="JDV_RepriseProfessionnelle_CISIS"/>
@@ -24229,10 +26374,10 @@
         <valueString value="ValueSet"/>
       </extension>
       <reference>
-        <reference value="ValueSet/1.2.250.1.213.1.1.5.649"/>
+        <reference value="ValueSet/1.2.250.1.213.1.1.5.807"/>
       </reference>
-      <name value="JDV_ResultatComparaison_CISIS"/>
-      <description value="JDV_ResultatComparaison_CISIS"/>
+      <name value="JDV_RessourceUtilisee_CISIS"/>
+      <description value="JDV_RessourceUtilisee_CISIS"/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -24240,10 +26385,10 @@
         <valueString value="ValueSet"/>
       </extension>
       <reference>
-        <reference value="ValueSet/1.2.250.1.213.1.1.5.783"/>
+        <reference value="ValueSet/1.2.250.1.213.1.1.5.649"/>
       </reference>
-      <name value="JDV_ResultatDepistageAcideAscorbique_CISIS"/>
-      <description value="JDV_ResultatDepistageAcideAscorbique_CISIS"/>
+      <name value="JDV_ResultatComparaison_CISIS"/>
+      <description value="JDV_ResultatComparaison_CISIS"/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -24339,17 +26484,6 @@
         <valueString value="ValueSet"/>
       </extension>
       <reference>
-        <reference value="ValueSet/1.2.250.1.213.1.1.5.781"/>
-      </reference>
-      <name value="JDV_ResultatDepistageHematurie_CISIS"/>
-      <description value="JDV_ResultatDepistageHematurie_CISIS"/>
-      <exampleBoolean value="false"/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="ValueSet"/>
-      </extension>
-      <reference>
         <reference value="ValueSet/1.2.250.1.213.1.1.5.782"/>
       </reference>
       <name value="JDV_ResultatDepistageLeucocyturie_CISIS"/>
@@ -24405,6 +26539,17 @@
         <valueString value="ValueSet"/>
       </extension>
       <reference>
+        <reference value="ValueSet/1.2.250.1.213.1.1.5.774"/>
+      </reference>
+      <name value="JDV_ResultatDepistageTcPO2_CISIS"/>
+      <description value="JDV_ResultatDepistageTcPO2_CISIS"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
         <reference value="ValueSet/1.2.250.1.213.1.1.5.779"/>
       </reference>
       <name value="JDV_ResultatDepistageUrobilinogenurie_CISIS"/>
@@ -24431,17 +26576,6 @@
       </reference>
       <name value="JDV_ResultatExamenCytologiqueCCU_CISIS"/>
       <description value="JDV_ResultatExamenCytologiqueCCU_CISIS"/>
-      <exampleBoolean value="false"/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="ValueSet"/>
-      </extension>
-      <reference>
-        <reference value="ValueSet/1.2.250.1.213.1.1.5.720"/>
-      </reference>
-      <name value="JDV_ResultatRechercheHPVCCU_CISIS"/>
-      <description value="JDV_ResultatRechercheHPVCCU_CISIS"/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -24530,17 +26664,6 @@
       </reference>
       <name value="JDV_ScoreBradenHumidite_CISIS"/>
       <description value="JDV_ScoreBradenHumidite_CISIS"/>
-      <exampleBoolean value="false"/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="ValueSet"/>
-      </extension>
-      <reference>
-        <reference value="ValueSet/1.2.250.1.213.1.1.5.508"/>
-      </reference>
-      <name value="JDV_ScoreBradenMobilite_CISIS"/>
-      <description value="JDV_ScoreBradenMobilite_CISIS"/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -24680,10 +26803,219 @@
         <valueString value="ValueSet"/>
       </extension>
       <reference>
+        <reference value="ValueSet/1.2.250.1.213.1.1.5.417"/>
+      </reference>
+      <name value="JDV_Sein_Grade_histologique_CCIS_CISIS"/>
+      <description value="JDV_Sein_Grade_histologique_CCIS_CISIS"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/1.2.250.1.213.1.1.5.418"/>
+      </reference>
+      <name value="JDV_Sein_Grade_histologique_Nottingham_SBR_Differenciation_glandulaire_CISIS"/>
+      <description value="JDV_Sein_Grade_histologique_Nottingham_SBR_Differenciation_glandulaire_CISIS"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/1.2.250.1.213.1.1.5.419"/>
+      </reference>
+      <name value="JDV_Sein_Grade_histologique_Nottingham_SBR_Mitoses_CISIS"/>
+      <description value="JDV_Sein_Grade_histologique_Nottingham_SBR_Mitoses_CISIS"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/1.2.250.1.213.1.1.5.420"/>
+      </reference>
+      <name value="JDV_Sein_Grade_histologique_Nottingham_SBR_Pleomorphisme_nucleaire_CISIS"/>
+      <description value="JDV_Sein_Grade_histologique_Nottingham_SBR_Pleomorphisme_nucleaire_CISIS"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/1.2.250.1.213.1.1.5.421"/>
+      </reference>
+      <name value="JDV_Sein_Grade_histologique_Nottingham_SBR_Score_total_CISIS"/>
+      <description value="JDV_Sein_Grade_histologique_Nottingham_SBR_Score_total_CISIS"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/1.2.250.1.213.1.1.5.423"/>
+      </reference>
+      <name value="JDV_Sein_Localisation_ganglions_CISIS"/>
+      <description value="JDV_Sein_Localisation_ganglions_CISIS"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/1.2.250.1.213.1.1.5.424"/>
+      </reference>
+      <name value="JDV_Sein_Localisation_limites_resection_CISIS"/>
+      <description value="JDV_Sein_Localisation_limites_resection_CISIS"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/1.2.250.1.213.1.1.5.422"/>
+      </reference>
+      <name value="JDV_Sein_Localisation_tumeur_CISIS"/>
+      <description value="JDV_Sein_Localisation_tumeur_CISIS"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/1.2.250.1.213.1.1.5.426"/>
+      </reference>
+      <name value="JDV_Sein_Organe_region_prelevement_CISIS"/>
+      <description value="JDV_Sein_Organe_region_prelevement_CISIS"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/1.2.250.1.213.1.1.5.427"/>
+      </reference>
+      <name value="JDV_Sein_pN_CISIS"/>
+      <description value="JDV_Sein_pN_CISIS"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/1.2.250.1.213.1.1.5.428"/>
+      </reference>
+      <name value="JDV_Sein_Procedure_prelevement_CISIS"/>
+      <description value="JDV_Sein_Procedure_prelevement_CISIS"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/1.2.250.1.213.1.1.5.429"/>
+      </reference>
+      <name value="JDV_Sein_pT_CISIS"/>
+      <description value="JDV_Sein_pT_CISIS"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/1.2.250.1.213.1.1.5.432"/>
+      </reference>
+      <name value="JDV_Sein_Statut_HER_2_FISH_CISIS"/>
+      <description value="JDV_Sein_Statut_HER_2_FISH_CISIS"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/1.2.250.1.213.1.1.5.433"/>
+      </reference>
+      <name value="JDV_Sein_Statut_HER_2_immonuperoxidase_CISIS"/>
+      <description value="JDV_Sein_Statut_HER_2_immonuperoxidase_CISIS"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/1.2.250.1.213.1.1.5.431"/>
+      </reference>
+      <name value="JDV_Sein_Statut_recepteurs_a_oestrogene_CISIS"/>
+      <description value="JDV_Sein_Statut_recepteurs_a_oestrogene_CISIS"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/1.2.250.1.213.1.1.5.430"/>
+      </reference>
+      <name value="JDV_Sein_Statut_recepteurs_a_progesterone_CISIS"/>
+      <description value="JDV_Sein_Statut_recepteurs_a_progesterone_CISIS"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/1.2.250.1.213.1.1.5.434"/>
+      </reference>
+      <name value="JDV_Sein_Type_histologique_lesion_neoplasique_in_situ_CISIS"/>
+      <description value="JDV_Sein_Type_histologique_lesion_neoplasique_in_situ_CISIS"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/1.2.250.1.213.1.1.5.435"/>
+      </reference>
+      <name value="JDV_Sein_Type_histologique_lesion_neoplasique_maligne_invasive_CISIS"/>
+      <description value="JDV_Sein_Type_histologique_lesion_neoplasique_maligne_invasive_CISIS"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
         <reference value="ValueSet/1.2.250.1.213.1.1.5.675"/>
       </reference>
       <name value="JDV_SeveriteObservation_CISIS"/>
       <description value="JDV_SeveriteObservation_CISIS"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/1.2.250.1.213.1.1.5.36"/>
+      </reference>
+      <name value="JDV_SexePatient_CISIS"/>
+      <description value="JDV_SexePatient_CISIS"/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -24706,17 +27038,6 @@
       </reference>
       <name value="JDV_SignesVitaux_CS24_CISIS"/>
       <description value="JDV_SignesVitaux_CS24_CISIS"/>
-      <exampleBoolean value="false"/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="ValueSet"/>
-      </extension>
-      <reference>
-        <reference value="ValueSet/1.2.250.1.213.1.1.5.703"/>
-      </reference>
-      <name value="JDV_SignesVitaux_CS8_CISIS"/>
-      <description value="JDV_SignesVitaux_CS8_CISIS"/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -24900,17 +27221,6 @@
         <valueString value="ValueSet"/>
       </extension>
       <reference>
-        <reference value="ValueSet/1.2.250.1.213.1.1.5.727"/>
-      </reference>
-      <name value="JDV_StatutVaccinal_CISIS"/>
-      <description value="JDV_StatutVaccinal_CISIS"/>
-      <exampleBoolean value="false"/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="ValueSet"/>
-      </extension>
-      <reference>
         <reference value="ValueSet/1.2.250.1.213.1.1.5.82"/>
       </reference>
       <name value="JDV_StructuresDeSoins_CISIS"/>
@@ -24955,6 +27265,17 @@
         <valueString value="ValueSet"/>
       </extension>
       <reference>
+        <reference value="ValueSet/1.2.250.1.213.1.1.5.789"/>
+      </reference>
+      <name value="JDV_TechniqueBiologie_CISIS"/>
+      <description value="JDV_TechniqueBiologie_CISIS"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
         <reference value="ValueSet/1.2.250.1.213.1.1.5.48"/>
       </reference>
       <name value="JDV_TechniquesDiagnostic_CISIS"/>
@@ -24981,6 +27302,182 @@
       </reference>
       <name value="JDV_TerritoireInfarctus_CISIS"/>
       <description value="JDV_TerritoireInfarctus_CISIS"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/1.2.250.1.213.1.1.5.436"/>
+      </reference>
+      <name value="JDV_Testicule_Extension_microscopique_macroscopique_tumeur_CISIS"/>
+      <description value="JDV_Testicule_Extension_microscopique_macroscopique_tumeur_CISIS"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/1.2.250.1.213.1.1.5.437"/>
+      </reference>
+      <name value="JDV_Testicule_Localisation_limites_resection_CISIS"/>
+      <description value="JDV_Testicule_Localisation_limites_resection_CISIS"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/1.2.250.1.213.1.1.5.438"/>
+      </reference>
+      <name value="JDV_Testicule_Observation_anatomie_pathologique_CISIS"/>
+      <description value="JDV_Testicule_Observation_anatomie_pathologique_CISIS"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/1.2.250.1.213.1.1.5.439"/>
+      </reference>
+      <name value="JDV_Testicule_Organe_region_prelevement_CISIS"/>
+      <description value="JDV_Testicule_Organe_region_prelevement_CISIS"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/1.2.250.1.213.1.1.5.440"/>
+      </reference>
+      <name value="JDV_Testicule_pN_CISIS"/>
+      <description value="JDV_Testicule_pN_CISIS"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/1.2.250.1.213.1.1.5.441"/>
+      </reference>
+      <name value="JDV_Testicule_Procedure_prelevement_CISIS"/>
+      <description value="JDV_Testicule_Procedure_prelevement_CISIS"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/1.2.250.1.213.1.1.5.442"/>
+      </reference>
+      <name value="JDV_Testicule_pT_CISIS"/>
+      <description value="JDV_Testicule_pT_CISIS"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/1.2.250.1.213.1.1.5.443"/>
+      </reference>
+      <name value="JDV_Testicule_Type_histologique_lesion_neoplasique_maligne_invasive_CISIS"/>
+      <description value="JDV_Testicule_Type_histologique_lesion_neoplasique_maligne_invasive_CISIS"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/1.2.250.1.213.1.1.5.444"/>
+      </reference>
+      <name value="JDV_Thyroide_Extension_microscopique_macroscopique_tumeur_CISIS"/>
+      <description value="JDV_Thyroide_Extension_microscopique_macroscopique_tumeur_CISIS"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/1.2.250.1.213.1.1.5.445"/>
+      </reference>
+      <name value="JDV_Thyroide_Localisation_tumeur_CISIS"/>
+      <description value="JDV_Thyroide_Localisation_tumeur_CISIS"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/1.2.250.1.213.1.1.5.446"/>
+      </reference>
+      <name value="JDV_Thyroide_Observation_anatomie_pathologique_CISIS"/>
+      <description value="JDV_Thyroide_Observation_anatomie_pathologique_CISIS"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/1.2.250.1.213.1.1.5.447"/>
+      </reference>
+      <name value="JDV_Thyroide_Organe_region_prelevement_CISIS"/>
+      <description value="JDV_Thyroide_Organe_region_prelevement_CISIS"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/1.2.250.1.213.1.1.5.448"/>
+      </reference>
+      <name value="JDV_Thyroide_pN_CISIS"/>
+      <description value="JDV_Thyroide_pN_CISIS"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/1.2.250.1.213.1.1.5.450"/>
+      </reference>
+      <name value="JDV_Thyroide_pT_carcinome_anaplasique_CISIS"/>
+      <description value="JDV_Thyroide_pT_carcinome_anaplasique_CISIS"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/1.2.250.1.213.1.1.5.451"/>
+      </reference>
+      <name value="JDV_Thyroide_pT_sauf_carcinome_anaplasique_CISIS"/>
+      <description value="JDV_Thyroide_pT_sauf_carcinome_anaplasique_CISIS"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/1.2.250.1.213.1.1.5.452"/>
+      </reference>
+      <name value="JDV_Thyroide_Type_histologique_lesion_neoplasique_maligne_invasive_CISIS"/>
+      <description value="JDV_Thyroide_Type_histologique_lesion_neoplasique_maligne_invasive_CISIS"/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -25065,17 +27562,6 @@
         <valueString value="ValueSet"/>
       </extension>
       <reference>
-        <reference value="ValueSet/1.2.250.1.213.1.1.5.523"/>
-      </reference>
-      <name value="JDV_TNM_pTNM_pT_3_CISIS"/>
-      <description value="JDV_TNM_pTNM_pT_3_CISIS"/>
-      <exampleBoolean value="false"/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="ValueSet"/>
-      </extension>
-      <reference>
         <reference value="ValueSet/1.2.250.1.213.1.1.5.572"/>
       </reference>
       <name value="JDV_TNM_pTNM_pT_CISIS"/>
@@ -25087,7 +27573,7 @@
         <valueString value="ValueSet"/>
       </extension>
       <reference>
-        <reference value="ValueSet/1.2.250.1.213.1.1.5.162"/>
+        <reference value="ValueSet/1.2.250.1.213.1.1.4.321.3"/>
       </reference>
       <name value="JDV_TopoTrouble_CISIS"/>
       <description value="JDV_TopoTrouble_CISIS"/>
@@ -25318,17 +27804,6 @@
         <valueString value="ValueSet"/>
       </extension>
       <reference>
-        <reference value="ValueSet/1.2.250.1.213.1.1.5.641"/>
-      </reference>
-      <name value="JDV_TypeDeMesureDeRefraction_CISIS"/>
-      <description value="JDV_TypeDeMesureDeRefraction_CISIS"/>
-      <exampleBoolean value="false"/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="ValueSet"/>
-      </extension>
-      <reference>
         <reference value="ValueSet/1.2.250.1.213.1.1.5.643"/>
       </reference>
       <name value="JDV_TypeDeMesureDispositifOculaire_CISIS"/>
@@ -25487,6 +27962,17 @@
       </reference>
       <name value="JDV_TypeHisto_EtatTumoral_CISIS"/>
       <description value="JDV_TypeHisto_EtatTumoral_CISIS"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/1.2.250.1.213.1.1.5.752"/>
+      </reference>
+      <name value="JDV_TypeInfectionNouveauNe_CISIS"/>
+      <description value="JDV_TypeInfectionNouveauNe_CISIS"/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -25659,17 +28145,6 @@
         <valueString value="ValueSet"/>
       </extension>
       <reference>
-        <reference value="ValueSet/1.2.250.1.213.1.1.5.697"/>
-      </reference>
-      <name value="JDV_TypeRencontre_OBP_CISIS"/>
-      <description value="JDV_TypeRencontre_OBP_CISIS"/>
-      <exampleBoolean value="false"/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="ValueSet"/>
-      </extension>
-      <reference>
         <reference value="ValueSet/1.2.250.1.213.1.1.5.147"/>
       </reference>
       <name value="JDV_TypeResultat_CISIS"/>
@@ -25714,10 +28189,10 @@
         <valueString value="ValueSet"/>
       </extension>
       <reference>
-        <reference value="ValueSet/1.2.250.1.213.1.1.5.478"/>
+        <reference value="ValueSet/1.2.250.1.213.1.1.5.595"/>
       </reference>
-      <name value="JDV_TypeTraitementPPS_CISIS"/>
-      <description value="JDV_TypeTraitementPPS_CISIS"/>
+      <name value="JDV_TypeTraitement_FRCP_CISIS"/>
+      <description value="JDV_TypeTraitement_FRCP_CISIS"/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -25725,10 +28200,10 @@
         <valueString value="ValueSet"/>
       </extension>
       <reference>
-        <reference value="ValueSet/1.2.250.1.213.1.1.5.595"/>
+        <reference value="ValueSet/1.2.250.1.213.1.1.5.118"/>
       </reference>
-      <name value="JDV_TypeTraitement_FRCP_CISIS"/>
-      <description value="JDV_TypeTraitement_FRCP_CISIS"/>
+      <name value="JDV_TypeTransfert_CISIS"/>
+      <description value="JDV_TypeTransfert_CISIS"/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -25795,17 +28270,6 @@
       </reference>
       <name value="JDV_UFCV_EffetINR_CISIS"/>
       <description value="JDV_UFCV_EffetINR_CISIS"/>
-      <exampleBoolean value="false"/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="ValueSet"/>
-      </extension>
-      <reference>
-        <reference value="ValueSet/1.2.250.1.213.1.1.4.2.15"/>
-      </reference>
-      <name value="JDV_UFCV_Impl_CISIS"/>
-      <description value="JDV_UFCV_Impl_CISIS"/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -26004,6 +28468,94 @@
       </reference>
       <name value="JDV_VaccinCSE9_CISIS"/>
       <description value="JDV_VaccinCSE9_CISIS"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/1.2.250.1.213.1.1.5.453"/>
+      </reference>
+      <name value="JDV_Vessie_Extension_microscopique_macroscopique_tumeur_CISIS"/>
+      <description value="JDV_Vessie_Extension_microscopique_macroscopique_tumeur_CISIS"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/1.2.250.1.213.1.1.5.454"/>
+      </reference>
+      <name value="JDV_Vessie_Grade_histologique_WHO_2004_carcinome_urothelial_CISIS"/>
+      <description value="JDV_Vessie_Grade_histologique_WHO_2004_carcinome_urothelial_CISIS"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/1.2.250.1.213.1.1.5.455"/>
+      </reference>
+      <name value="JDV_Vessie_Localisation_tumeur_CISIS"/>
+      <description value="JDV_Vessie_Localisation_tumeur_CISIS"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/1.2.250.1.213.1.1.5.457"/>
+      </reference>
+      <name value="JDV_Vessie_Observation_anatomie_pathologique_CISIS"/>
+      <description value="JDV_Vessie_Observation_anatomie_pathologique_CISIS"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/1.2.250.1.213.1.1.5.459"/>
+      </reference>
+      <name value="JDV_Vessie_pN_CISIS"/>
+      <description value="JDV_Vessie_pN_CISIS"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/1.2.250.1.213.1.1.5.472"/>
+      </reference>
+      <name value="JDV_Vessie_Procedure_prelevement_CISIS"/>
+      <description value="JDV_Vessie_Procedure_prelevement_CISIS"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/1.2.250.1.213.1.1.5.473"/>
+      </reference>
+      <name value="JDV_Vessie_pT_CISIS"/>
+      <description value="JDV_Vessie_pT_CISIS"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/1.2.250.1.213.1.1.5.474"/>
+      </reference>
+      <name value="JDV_Vessie_Type_histologique_lesion_neoplasique_maligne_invasive_CISIS"/>
+      <description value="JDV_Vessie_Type_histologique_lesion_neoplasique_maligne_invasive_CISIS"/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>

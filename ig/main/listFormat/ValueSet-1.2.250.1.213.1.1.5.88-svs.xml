@@ -16,12 +16,12 @@
          <concept code="MED-107"
                   codeSystem="1.2.250.1.213.1.1.4.322"
                   displayName="Implant"/>
-         <concept code="161615003"
-                  codeSystem=""
-                  displayName="antécédents d'intervention chirurgicale"/>
          <concept code="GEN-092.01.07"
                   codeSystem="1.2.250.1.213.1.1.4.322"
                   displayName="Autre motif d'échographie"/>
+         <concept code="161615003"
+                  codeSystem=""
+                  displayName="antécédents d'intervention chirurgicale"/>
       </ConceptList>
    </ValueSet>
 </RetrieveValueSetResponse>

@@ -10,12 +10,18 @@
              typeFichier="JDV"
              urlFichier="">
       <ConceptList>
-         <concept code="MED-503"
-                  codeSystem="1.2.250.1.213.1.1.4.322"
-                  displayName="Aggravation neurologique"/>
          <concept code="R56.8"
                   codeSystem=""
                   displayName="Convulsions, autres et non précisées"/>
+         <concept code="I50.9"
+                  codeSystem=""
+                  displayName="Insuffisance cardiaque, sans précision"/>
+         <concept code="B99"
+                  codeSystem=""
+                  displayName="Maladies infectieuses, autres et non précisées"/>
+         <concept code="MED-503"
+                  codeSystem="1.2.250.1.213.1.1.4.322"
+                  displayName="Aggravation neurologique"/>
          <concept code="MED-504"
                   codeSystem="1.2.250.1.213.1.1.4.322"
                   displayName="Troubles de la déglution justifiant une gastrostomie"/>
@@ -34,12 +40,6 @@
          <concept code="MED-522"
                   codeSystem="1.2.250.1.213.1.1.4.322"
                   displayName="Complication neuropsychiatrique"/>
-         <concept code="I50.9"
-                  codeSystem=""
-                  displayName="Insuffisance cardiaque, sans précision"/>
-         <concept code="B99"
-                  codeSystem=""
-                  displayName="Maladies infectieuses, autres et non précisées"/>
          <concept code="GEN-092.01.01"
                   codeSystem="1.2.250.1.213.1.1.4.322"
                   displayName="Autre problème"/>

@@ -4,10 +4,10 @@
 1.2.250.1.213.1.1.4.322;MED-495;Aspirine dans les 24h d'hospitalisation
 1.2.250.1.213.1.1.4.322;MED-496;Posologie aspirine entre 160 et 300 mg
 1.2.250.1.213.1.1.4.322;MED-497;Contre-indication aspirine
-;B01AC04;clopidogrel
-;B01AB01;héparine
 1.2.250.1.213.1.1.4.322;MED-500;Inclusion dans protocole
 1.2.250.1.213.1.1.4.322;MED-501;Date de consentement au protocole
 1.2.250.1.213.1.1.4.322;MED-502;Nom du protocole
 ;233428003;thrombolyse d'une veine
 ;43810009;thrombectomie
+2.16.840.1.113883.6.73;B01AC04;clopidogrel
+2.16.840.1.113883.6.73;B01AB01;héparine

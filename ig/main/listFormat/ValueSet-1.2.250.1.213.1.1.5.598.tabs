@@ -1,9 +1,8 @@
 <OID>;<Type fichier>;<Nom fichier>;<Description>;<URL fichier>;<Date valid>;<Date fin>;<Date MAJ>  
 1.2.250.1.213.1.1.5.598;JDV;JDV_RCP_Organe_CISIS;JDV_RCP_Organe_CISIS;;20210315000000;;20231114000000
 <system>;<Code>;<Libellé> 
-;57171008;structure du système hématopoïétique
-;C3211;lymphome non hodgkinien
 ;C88;Maladies immunoprolifératives malignes
+;C3211;lymphome non hodgkinien
 ;C9357;Lymphome de Hodgkin
 ;C3483;leucémie chronique
 ;C3163;Leucémie lymphocytique chronique
@@ -13,13 +12,16 @@
 ;C3174;leucémie myéloïde chronique BCR-ABL positive
 ;C4861;leucémie monocytaire aiguë
 ;C9300;leucémie aiguë
-;119253004;voie aérodigestive supérieure
-1.2.250.1.213.1.1.4.322;MED-237;Fosses nasales, sinus, oreille moy/int
-1.2.250.1.213.1.1.4.322;MED-251;Colon-Rectum-Anus
-;303270005;foie et/ou voies biliaires
 ;C27262;maladies myélodysplasiques-myéloprolifératives
 ;C3242;myélome à cellules plasmatiques
+;C94529;Vulve et vagin
+;C12664;Péritoine-rétropéritoine
+1.2.250.1.213.1.1.4.322;MED-237;Fosses nasales, sinus, oreille moy/int
+1.2.250.1.213.1.1.4.322;MED-251;Colon-Rectum-Anus
 1.2.250.1.213.1.1.4.322;MED-255;Trachée, Bronches, Poumon
+;57171008;structure du système hématopoïétique
+;119253004;voie aérodigestive supérieure
+;303270005;foie et/ou voies biliaires
 ;39937001;peau
 ;76752008;sein
 ;306721000;os et/ou articulation
@@ -42,7 +44,6 @@
 ;64033007;rein
 ;89837001;vessie
 ;53065001;appareil génital féminin
-;C94529;Vulve et vagin
 ;23952005;corps de l'utérus
 ;71252005;col utérin
 ;15497006;ovaire
@@ -57,4 +58,3 @@
 ;23451007;glande surrénale
 ;69748006;glande thyroïde
 ;72410000;médiastin
-;C12664;Péritoine-rétropéritoine

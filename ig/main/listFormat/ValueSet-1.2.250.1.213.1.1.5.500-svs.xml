@@ -2,7 +2,7 @@
 <RetrieveValueSetResponse xmlns="urn:ihe:iti:svs:2008"
                           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
    <ValueSet dateFin=""
-             dateMaj="20240408010000"
+             dateMaj="20240408000000"
              dateValid="20210315000000"
              description="JDV_ObservationGrossesse_CISIS"
              displayName="JDV_ObservationGrossesse_CISIS"
@@ -10,6 +10,18 @@
              typeFichier="JDV"
              urlFichier="">
       <ConceptList>
+         <concept code="MED-1184"
+                  codeSystem="1.2.250.1.213.1.1.4.322"
+                  displayName="Nombre d'enfants nés vivants et décédés avant 28 jours"/>
+         <concept code="MED-1185"
+                  codeSystem="1.2.250.1.213.1.1.4.322"
+                  displayName="Grossesse extra-utérine"/>
+         <concept code="ORG-173"
+                  codeSystem="1.2.250.1.213.1.1.4.322"
+                  displayName="Projet de grossesse"/>
+         <concept code="MED-280"
+                  codeSystem="1.2.250.1.213.1.1.4.322"
+                  displayName="Accouchement récent"/>
          <concept code="8339-4" codeSystem="" displayName="Poids à la naissance"/>
          <concept code="8665-2" codeSystem="" displayName="Date des dernières règles"/>
          <concept code="8678-5"
@@ -25,9 +37,6 @@
          <concept code="11614-5"
                   codeSystem=""
                   displayName="Nombre d'interruptions involontaires de grossesse"/>
-         <concept code="MED-1184"
-                  codeSystem="1.2.250.1.213.1.1.4.322"
-                  displayName="Nombre d'enfants nés vivants et décédés avant 28 jours"/>
          <concept code="11636-8"
                   codeSystem=""
                   displayName="Nombre d'enfants nés vivants"/>
@@ -69,9 +78,6 @@
          <concept code="33065-4"
                   codeSystem=""
                   displayName="Nombre de grossesses extra-utérines"/>
-         <concept code="MED-1185"
-                  codeSystem="1.2.250.1.213.1.1.4.322"
-                  displayName="Grossesse extra-utérine"/>
          <concept code="45371-2" codeSystem="" displayName="Grossesse multiple"/>
          <concept code="49051-6"
                   codeSystem=""
@@ -80,12 +86,6 @@
                   codeSystem=""
                   displayName="Nombre d'enfants mort-nés"/>
          <concept code="63895-7" codeSystem="" displayName="Allaitement"/>
-         <concept code="ORG-173"
-                  codeSystem="1.2.250.1.213.1.1.4.322"
-                  displayName="Projet de grossesse"/>
-         <concept code="MED-280"
-                  codeSystem="1.2.250.1.213.1.1.4.322"
-                  displayName="Accouchement récent"/>
          <concept code="42797-1"
                   codeSystem=""
                   displayName="Age à la première grossesse"/>

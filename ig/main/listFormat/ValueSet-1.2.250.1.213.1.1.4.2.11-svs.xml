@@ -2,7 +2,7 @@
 <RetrieveValueSetResponse xmlns="urn:ihe:iti:svs:2008"
                           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
    <ValueSet dateFin=""
-             dateMaj="20230427010000"
+             dateMaj="20230427000000"
              dateValid="20210315000000"
              description="JDV_UFCV_TypeDMCard_CISIS"
              displayName="JDV_UFCV_TypeDMCard_CISIS"
@@ -11,13 +11,13 @@
              urlFichier="">
       <ConceptList>
          <concept code="J010101"
-                  codeSystem="1.2.250.1.213.2.68"
+                  codeSystem=""
                   displayName="STIMULATEURS CARDIAQUES IMPLANTABLES SIMPLE CHAMBRE"/>
          <concept code="J010103"
-                  codeSystem="1.2.250.1.213.2.68"
+                  codeSystem=""
                   displayName="STIMULATEURS CARDIAQUES IMPLANTABLES DOUBLE CHAMBRE"/>
          <concept code="J010104"
-                  codeSystem="1.2.250.1.213.2.68"
+                  codeSystem=""
                   displayName="STIMULATEURS CARDIAQUES IMPLANTABLES TRIPLE CHAMBRE"/>
       </ConceptList>
    </ValueSet>

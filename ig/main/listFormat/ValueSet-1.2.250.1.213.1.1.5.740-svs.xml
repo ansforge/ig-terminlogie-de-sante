@@ -2,7 +2,7 @@
 <RetrieveValueSetResponse xmlns="urn:ihe:iti:svs:2008"
                           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
    <ValueSet dateFin=""
-             dateMaj="20230803010000"
+             dateMaj="20230803000000"
              dateValid="20210315000000"
              description="JDV_AspectLA_CISIS"
              displayName="JDV_AspectLA_CISIS"
@@ -10,6 +10,9 @@
              typeFichier="JDV"
              urlFichier="">
       <ConceptList>
+         <concept code="GEN-092.01.05"
+                  codeSystem="1.2.250.1.213.1.1.4.322"
+                  displayName="Autre aspect du liquide amniotique"/>
          <concept code="408781009"
                   codeSystem=""
                   displayName="liquide amniotique de couleur jaune paille"/>
@@ -22,9 +25,6 @@
          <concept code="249134008"
                   codeSystem=""
                   displayName="liquide amniotique sanglant"/>
-         <concept code="GEN-092.01.05"
-                  codeSystem="1.2.250.1.213.1.1.4.322"
-                  displayName="Autre aspect du liquide amniotique"/>
       </ConceptList>
    </ValueSet>
 </RetrieveValueSetResponse>

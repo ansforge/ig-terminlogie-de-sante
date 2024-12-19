@@ -10,12 +10,6 @@
              typeFichier="JDV"
              urlFichier="">
       <ConceptList>
-         <concept code="MED-380"
-                  codeSystem="1.2.250.1.213.1.1.4.322"
-                  displayName="Déficit moteur de la main"/>
-         <concept code="MED-484"
-                  codeSystem="1.2.250.1.213.1.1.4.322"
-                  displayName="Latéropulsion"/>
          <concept code="G52.3"
                   codeSystem=""
                   displayName="Affections du nerf grand hypoglosse"/>
@@ -50,6 +44,12 @@
          <concept code="K13.7"
                   codeSystem=""
                   displayName="Paralysie du voile du palais"/>
+         <concept code="MED-380"
+                  codeSystem="1.2.250.1.213.1.1.4.322"
+                  displayName="Déficit moteur de la main"/>
+         <concept code="MED-484"
+                  codeSystem="1.2.250.1.213.1.1.4.322"
+                  displayName="Latéropulsion"/>
       </ConceptList>
    </ValueSet>
 </RetrieveValueSetResponse>
