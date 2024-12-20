@@ -28132,6 +28132,18 @@
         "valueString" : "ValueSet"
       }],
       "reference" : {
+        "reference" : "ValueSet/JDV-J02-XdsHealthcareFacilityTypeCode-CISIS"
+      },
+      "name" : "JDV_J02_XdsHealthcareFacilityTypeCode_CISIS",
+      "description" : "XDS healthcareFacilityTypeCode CI-SIS",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      }],
+      "reference" : {
         "reference" : "ValueSet/JDV-J03-XdsContentTypeCode-CISIS"
       },
       "name" : "JDV_J03_XdsContentTypeCode_CISIS",
@@ -28220,18 +28232,6 @@
       },
       "name" : "JDV_J104_TypeIdentifiantStructure_RASS",
       "description" : "Type d'identifiant national de structure dans le RASS",
-      "exampleBoolean" : false
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "ValueSet"
-      }],
-      "reference" : {
-        "reference" : "ValueSet/JDV-J105-EnsembleDiplome-RASS"
-      },
-      "name" : "JDV_J105_EnsembleDiplome_RASS",
-      "description" : "Ensemble des diplômes et qualifications du RASS",
       "exampleBoolean" : false
     },
     {
@@ -29204,6 +29204,18 @@
       },
       "name" : "JDV_J189_TemporaliteCapacite_ROR",
       "description" : "Sert à indiquer le moment où une capacité sera effective. Il est ainsi possible de décrire la situation immédiate ou de fournir une information prospective de capacités, prenant notamment en compte les entrées et sorties déjà identifiés de patients",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      }],
+      "reference" : {
+        "reference" : "ValueSet/JDV-J18-EquipementSpecifique-ROR"
+      },
+      "name" : "JDV_J18_EquipementSpecifique_ROR",
+      "description" : "Equipement spécifique - ROR",
       "exampleBoolean" : false
     },
     {
@@ -30280,10 +30292,10 @@
         "valueString" : "ValueSet"
       }],
       "reference" : {
-        "reference" : "ValueSet/JDV-J37-UcumUniteTemps"
+        "reference" : "ValueSet/JDV-J38-ModeAcces-CISIS"
       },
-      "name" : "JDV_J37_UcumUniteTemps",
-      "description" : "UCUM - Unité de temps",
+      "name" : "JDV_J38_ModeAcces_CISIS",
+      "description" : "Mode d'accès pour accéder à un SI santé avec données patients - CI-SIS",
       "exampleBoolean" : false
     },
     {
@@ -30644,6 +30656,18 @@
       },
       "name" : "JDV_J74_Pays_RASS",
       "description" : "Pays (codes INSEE) du RASS",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      }],
+      "reference" : {
+        "reference" : "ValueSet/JDV-J75-TypeAutorisation-RASS"
+      },
+      "name" : "JDV_J75_TypeAutorisation_RASS",
+      "description" : "Type d'autorisation d'exercice pour accès à l'exercice de la profession du RASS",
       "exampleBoolean" : false
     },
     {
@@ -32740,18 +32764,6 @@
         "valueString" : "ValueSet"
       }],
       "reference" : {
-        "reference" : "ValueSet/1.2.250.1.213.1.1.5.362"
-      },
-      "name" : "JDV_Pancreas_pT_CISIS",
-      "description" : "JDV_Pancreas_pT_CISIS",
-      "exampleBoolean" : false
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "ValueSet"
-      }],
-      "reference" : {
         "reference" : "ValueSet/1.2.250.1.213.1.1.5.363"
       },
       "name" : "JDV_Pancreas_Type_histologique_lesion_neoplasique_maligne_invasive_CISIS",
@@ -34700,18 +34712,6 @@
       },
       "name" : "JDV_Testicule_Localisation_limites_resection_CISIS",
       "description" : "JDV_Testicule_Localisation_limites_resection_CISIS",
-      "exampleBoolean" : false
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "ValueSet"
-      }],
-      "reference" : {
-        "reference" : "ValueSet/1.2.250.1.213.1.1.5.438"
-      },
-      "name" : "JDV_Testicule_Observation_anatomie_pathologique_CISIS",
-      "description" : "JDV_Testicule_Observation_anatomie_pathologique_CISIS",
       "exampleBoolean" : false
     },
     {

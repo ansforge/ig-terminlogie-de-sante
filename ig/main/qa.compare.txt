@@ -1,7 +1,7 @@
 Terminologie : Validation Results
 =========================================
 
-err = 2063, warn = 1532, info = 825
+err = 2058, warn = 1533, info = 825
 $--
 Generated $--. FHIR version $-- for ans.fr.terminologie#$-- (canonical = https://interop.esante.gouv.fr/ig/terminologie)
  Build Errors : 821 / 22 / 0
@@ -369,6 +369,7 @@ Generated $--. FHIR version $-- for ans.fr.terminologie#$-- (canonical = https:/
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_InvestigationsRealisees_CISIS : 0 / 2 / 1
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_IssueGrossesse_CISIS : 4 / 4 / 1
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_J01_XdsAuthorSpecialty_CISIS : 0 / 1 / 1
+ /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_J02_XdsHealthcareFacilityTypeCode_CISIS : 0 / 1 / 1
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_J03_XdsContentTypeCode_CISIS : 0 / 1 / 1
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_J04_XdsPracticeSettingCode_CISIS : 0 / 1 / 1
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_J05_SubjectRole_CISIS : 0 / 1 / 1
@@ -377,7 +378,6 @@ Generated $--. FHIR version $-- for ans.fr.terminologie#$-- (canonical = https:/
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_J08_XdsConfidentialityCode_CISIS : 0 / 1 / 1
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_J101_SecteurActivite_RASS : 0 / 1 / 1
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_J104_TypeIdentifiantStructure_RASS : 0 / 1 / 1
- /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_J105_EnsembleDiplome_RASS : 0 / 1 / 1
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_J106_EnsembleProfession_RASS : 0 / 1 / 1
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_J107_EnsembleSavoirFaire_RASS : 0 / 1 / 1
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_J108_EnsembleFonction_RASS : 0 / 1 / 1
@@ -458,6 +458,7 @@ Generated $--. FHIR version $-- for ans.fr.terminologie#$-- (canonical = https:/
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_J187_NatureCapacite_ROR : 0 / 1 / 1
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_J188_TypeStatutCapacite_ROR : 0 / 1 / 1
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_J189_TemporaliteCapacite_ROR : 0 / 1 / 1
+ /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_J18_EquipementSpecifique_ROR : 0 / 1 / 1
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_J190_GenreCapacite_ROR : 0 / 1 / 1
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_J191_TypeFermetureCapacite_ROR : 0 / 1 / 1
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_J192_TypeLitSupplementaire_ROR : 0 / 1 / 1
@@ -543,7 +544,7 @@ Generated $--. FHIR version $-- for ans.fr.terminologie#$-- (canonical = https:/
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_J34_CategorieOrganisation_ROR : 0 / 1 / 1
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_J35_SpecialisationDePriseEnCharge_ROR : 0 / 1 / 1
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_J36_TypeTarif_ROR : 0 / 1 / 1
- /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_J37_UcumUniteTemps : 0 / 1 / 1
+ /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_J38_ModeAcces_CISIS : 0 / 1 / 1
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_J39_ConditionTarifaire_ROR : 0 / 1 / 1
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_J41_TypeHoraire_ROR : 0 / 1 / 1
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_J42_TypeMaternite_ROR : 0 / 1 / 1
@@ -574,6 +575,7 @@ Generated $--. FHIR version $-- for ans.fr.terminologie#$-- (canonical = https:/
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_J72_TypeProfessionFonction_MSSante : 0 / 1 / 1
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_J73_MetierPharmacien_RASS : 0 / 1 / 1
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_J74_Pays_RASS : 0 / 1 / 1
+ /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_J75_TypeAutorisation_RASS : 1 / 2 / 1
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_J76_DisciplineAutorisation_RASS : 0 / 1 / 1
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_J77_TypeIdentifiantPersonne_RASS : 0 / 1 / 1
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_J78_Civilite_RASS : 0 / 1 / 1
@@ -750,7 +752,6 @@ Generated $--. FHIR version $-- for ans.fr.terminologie#$-- (canonical = https:/
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_Pancreas_Procedure_prelevement_CISIS : 3 / 1 / 1
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_Pancreas_Type_histologique_lesion_neoplasique_maligne_invasive_CISIS : 3 / 1 / 1
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_Pancreas_pN_CISIS : 3 / 1 / 1
- /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_Pancreas_pT_CISIS : 3 / 1 / 1
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_ParticipantAdditionnelResultat_CISIS : 0 / 0 / 1
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_ParticipantResultat_CISIS : 0 / 0 / 1
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_Patho_1ere_semaine_CS8_CISIS : 0 / 2 / 1
@@ -917,7 +918,6 @@ Generated $--. FHIR version $-- for ans.fr.terminologie#$-- (canonical = https:/
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_TerritoireInfarctus_CISIS : 0 / 0 / 1
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_Testicule_Extension_microscopique_macroscopique_tumeur_CISIS : 3 / 1 / 1
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_Testicule_Localisation_limites_resection_CISIS : 3 / 1 / 1
- /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_Testicule_Observation_anatomie_pathologique_CISIS : 3 / 1 / 1
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_Testicule_Organe_region_prelevement_CISIS : 3 / 1 / 1
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_Testicule_Procedure_prelevement_CISIS : 3 / 1 / 1
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_Testicule_Type_histologique_lesion_neoplasique_maligne_invasive_CISIS : 3 / 1 / 1
@@ -4566,6 +4566,8 @@ WARNING: ValueSet/1.2.250.1.213.1.1.4.2.289.1: ValueSet.compose.include[3]: Unkn
 ERROR: /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_IssueGrossesse_CISIS: URL Mismatch https://interop.esante.gouv.fr/ig/terminologie/ValueSet/1.2.250.1.213.1.1.4.2.289.1 vs https://smt.esante.gouv.fr/fhir/ValueSet/1.2.250.1.213.1.1.4.2.289.1
 == input/ontoserver/JDV/JDV_J01_XdsAuthorSpecialty_CISIS.json ==
 WARNING: ValueSet/JDV-J01-XdsAuthorSpecialty-CISIS: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.title is mandatory, but it is not present
+== input/ontoserver/JDV/JDV_J02_XdsHealthcareFacilityTypeCode_CISIS.json ==
+WARNING: ValueSet/JDV-J02-XdsHealthcareFacilityTypeCode-CISIS: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.title is mandatory, but it is not present
 == input/ontoserver/JDV/JDV_J03_XdsContentTypeCode_CISIS.json ==
 WARNING: ValueSet/JDV-J03-XdsContentTypeCode-CISIS: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.title is mandatory, but it is not present
 == input/ontoserver/JDV/JDV_J04_XdsPracticeSettingCode_CISIS.json ==
@@ -4582,8 +4584,6 @@ WARNING: ValueSet/JDV-J08-XdsConfidentialityCode-CISIS: ValueSet: Published valu
 WARNING: ValueSet/JDV-J101-SecteurActivite-RASS: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.title is mandatory, but it is not present
 == input/ontoserver/JDV/JDV_J104_TypeIdentifiantStructure_RASS.json ==
 WARNING: ValueSet/JDV-J104-TypeIdentifiantStructure-RASS: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.title is mandatory, but it is not present
-== input/ontoserver/JDV/JDV_J105_EnsembleDiplome_RASS.json ==
-WARNING: ValueSet/JDV-J105-EnsembleDiplome-RASS: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.title is mandatory, but it is not present
 == input/ontoserver/JDV/JDV_J106_EnsembleProfession_RASS.json ==
 WARNING: ValueSet/JDV-J106-EnsembleProfession-RASS: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.title is mandatory, but it is not present
 == input/ontoserver/JDV/JDV_J107_EnsembleSavoirFaire_RASS.json ==
@@ -4779,6 +4779,8 @@ WARNING: ValueSet/JDV-J187-NatureCapacite-ROR: ValueSet: Published value sets SH
 WARNING: ValueSet/JDV-J188-TypeStatutCapacite-ROR: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.title is mandatory, but it is not present
 == input/ontoserver/JDV/JDV_J189_TemporaliteCapacite_ROR.json ==
 WARNING: ValueSet/JDV-J189-TemporaliteCapacite-ROR: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.title is mandatory, but it is not present
+== input/ontoserver/JDV/JDV_J18_EquipementSpecifique_ROR.json ==
+WARNING: ValueSet/JDV-J18-EquipementSpecifique-ROR: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.title is mandatory, but it is not present
 == input/ontoserver/JDV/JDV_J190_GenreCapacite_ROR.json ==
 WARNING: ValueSet/JDV-J190-GenreCapacite-ROR: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.title is mandatory, but it is not present
 == input/ontoserver/JDV/JDV_J191_TypeFermetureCapacite_ROR.json ==
@@ -5009,8 +5011,8 @@ WARNING: ValueSet/JDV-J34-CategorieOrganisation-ROR: ValueSet: Published value s
 WARNING: ValueSet/JDV-J35-SpecialisationDePriseEnCharge-ROR: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.title is mandatory, but it is not present
 == input/ontoserver/JDV/JDV_J36_TypeTarif_ROR.json ==
 WARNING: ValueSet/JDV-J36-TypeTarif-ROR: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.title is mandatory, but it is not present
-== input/ontoserver/JDV/JDV_J37_UcumUniteTemps.json ==
-WARNING: ValueSet/JDV-J37-UcumUniteTemps: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.title is mandatory, but it is not present
+== input/ontoserver/JDV/JDV_J38_ModeAcces_CISIS.json ==
+WARNING: ValueSet/JDV-J38-ModeAcces-CISIS: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.title is mandatory, but it is not present
 == input/ontoserver/JDV/JDV_J39_ConditionTarifaire_ROR.json ==
 WARNING: ValueSet/JDV-J39-ConditionTarifaire-ROR: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.title is mandatory, but it is not present
 == input/ontoserver/JDV/JDV_J41_TypeHoraire_ROR.json ==
@@ -5073,6 +5075,10 @@ WARNING: ValueSet/JDV-J72-TypeProfessionFonction-MSSante: ValueSet: Published va
 WARNING: ValueSet/JDV-J73-MetierPharmacien-RASS: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.title is mandatory, but it is not present
 == input/ontoserver/JDV/JDV_J74_Pays_RASS.json ==
 WARNING: ValueSet/JDV-J74-Pays-RASS: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.title is mandatory, but it is not present
+== input/ontoserver/JDV/JDV_J75_TypeAutorisation_RASS.json ==
+WARNING: ValueSet/JDV-J75-TypeAutorisation-RASS: ValueSet.compose.include[1]: Unknown System 'https://mos.esante.gouv.fr/NOS/JDV_J171-TypeAutorisation-EPARS/FHIR/JDV-J171-TypeAutorisation-EPARS' specified, so Concepts and Filters can't be checked (Details: A definition for CodeSystem 'https://mos.esante.gouv.fr/NOS/JDV_J171-TypeAutorisation-EPARS/FHIR/JDV-J171-TypeAutorisation-EPARS' could not be found, so the code cannot be validated)
+WARNING: ValueSet/JDV-J75-TypeAutorisation-RASS: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.title is mandatory, but it is not present
+ERROR: ValueSet.where(id = 'JDV-J75-TypeAutorisation-RASS'): Error from http://tx.fhir.org/r4: Attempt to reference https://mos.esante.gouv.fr/NOS/JDV_J171-TypeAutorisation-EPARS/FHIR/JDV-J171-TypeAutorisation-EPARS as a CodeSystem when it's a ValueSet
 == input/ontoserver/JDV/JDV_J76_DisciplineAutorisation_RASS.json ==
 WARNING: ValueSet/JDV-J76-DisciplineAutorisation-RASS: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.title is mandatory, but it is not present
 == input/ontoserver/JDV/JDV_J77_TypeIdentifiantPersonne_RASS.json ==
@@ -5724,11 +5730,6 @@ ERROR: ValueSet.where(url = 'https://smt.esante.gouv.fr/fhir/ValueSet/1.2.250.1.
 ERROR: ValueSet/1.2.250.1.213.1.1.5.360: ValueSet.compose.include[0]: URI values in ValueSet.compose.include.system must be absolute
 WARNING: ValueSet/1.2.250.1.213.1.1.5.360: ValueSet.compose.include[0]: Unknown System '1.3.6.1.4.1.19376.1.8.2.1' specified, so Concepts and Filters can't be checked (Details: A definition for CodeSystem '1.3.6.1.4.1.19376.1.8.2.1' could not be found, so the code cannot be validated)
 ERROR: /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_Pancreas_pN_CISIS: URL Mismatch https://interop.esante.gouv.fr/ig/terminologie/ValueSet/1.2.250.1.213.1.1.5.360 vs https://smt.esante.gouv.fr/fhir/ValueSet/1.2.250.1.213.1.1.5.360
-== input/ontoserver/JDV/JDV_Pancreas_pT_CISIS.json ==
-ERROR: ValueSet.where(url = 'https://smt.esante.gouv.fr/fhir/ValueSet/1.2.250.1.213.1.1.5.362'): Conformance resource /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_Pancreas_pT_CISIS.json - the canonical URL (https://interop.esante.gouv.fr/ig/terminologie/ValueSet/1.2.250.1.213.1.1.5.362) does not match the URL (https://smt.esante.gouv.fr/fhir/ValueSet/1.2.250.1.213.1.1.5.362)
-ERROR: ValueSet/1.2.250.1.213.1.1.5.362: ValueSet.compose.include[0]: URI values in ValueSet.compose.include.system must be absolute
-WARNING: ValueSet/1.2.250.1.213.1.1.5.362: ValueSet.compose.include[0]: Unknown System '1.3.6.1.4.1.19376.1.8.2.1' specified, so Concepts and Filters can't be checked (Details: A definition for CodeSystem '1.3.6.1.4.1.19376.1.8.2.1' could not be found, so the code cannot be validated)
-ERROR: /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_Pancreas_pT_CISIS: URL Mismatch https://interop.esante.gouv.fr/ig/terminologie/ValueSet/1.2.250.1.213.1.1.5.362 vs https://smt.esante.gouv.fr/fhir/ValueSet/1.2.250.1.213.1.1.5.362
 == input/ontoserver/JDV/JDV_ParticipantAdditionnelResultat_CISIS.json ==
 == input/ontoserver/JDV/JDV_ParticipantResultat_CISIS.json ==
 == input/ontoserver/JDV/JDV_Patho_1ere_semaine_CS8_CISIS.json ==
@@ -6387,11 +6388,6 @@ ERROR: ValueSet.where(url = 'https://smt.esante.gouv.fr/fhir/ValueSet/1.2.250.1.
 ERROR: ValueSet/1.2.250.1.213.1.1.5.437: ValueSet.compose.include[0]: URI values in ValueSet.compose.include.system must be absolute
 WARNING: ValueSet/1.2.250.1.213.1.1.5.437: ValueSet.compose.include[0]: Unknown System '1.3.6.1.4.1.19376.1.8.2.1' specified, so Concepts and Filters can't be checked (Details: A definition for CodeSystem '1.3.6.1.4.1.19376.1.8.2.1' could not be found, so the code cannot be validated)
 ERROR: /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_Testicule_Localisation_limites_resection_CISIS: URL Mismatch https://interop.esante.gouv.fr/ig/terminologie/ValueSet/1.2.250.1.213.1.1.5.437 vs https://smt.esante.gouv.fr/fhir/ValueSet/1.2.250.1.213.1.1.5.437
-== input/ontoserver/JDV/JDV_Testicule_Observation_anatomie_pathologique_CISIS.json ==
-ERROR: ValueSet.where(url = 'https://smt.esante.gouv.fr/fhir/ValueSet/1.2.250.1.213.1.1.5.438'): Conformance resource /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_Testicule_Observation_anatomie_pathologique_CISIS.json - the canonical URL (https://interop.esante.gouv.fr/ig/terminologie/ValueSet/1.2.250.1.213.1.1.5.438) does not match the URL (https://smt.esante.gouv.fr/fhir/ValueSet/1.2.250.1.213.1.1.5.438)
-ERROR: ValueSet/1.2.250.1.213.1.1.5.438: ValueSet.compose.include[0]: URI values in ValueSet.compose.include.system must be absolute
-WARNING: ValueSet/1.2.250.1.213.1.1.5.438: ValueSet.compose.include[0]: Unknown System '1.3.6.1.4.1.19376.1.8.2.1' specified, so Concepts and Filters can't be checked (Details: A definition for CodeSystem '1.3.6.1.4.1.19376.1.8.2.1' could not be found, so the code cannot be validated)
-ERROR: /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_Testicule_Observation_anatomie_pathologique_CISIS: URL Mismatch https://interop.esante.gouv.fr/ig/terminologie/ValueSet/1.2.250.1.213.1.1.5.438 vs https://smt.esante.gouv.fr/fhir/ValueSet/1.2.250.1.213.1.1.5.438
 == input/ontoserver/JDV/JDV_Testicule_Organe_region_prelevement_CISIS.json ==
 ERROR: ValueSet.where(url = 'https://smt.esante.gouv.fr/fhir/ValueSet/1.2.250.1.213.1.1.5.439'): Conformance resource /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_Testicule_Organe_region_prelevement_CISIS.json - the canonical URL (https://interop.esante.gouv.fr/ig/terminologie/ValueSet/1.2.250.1.213.1.1.5.439) does not match the URL (https://smt.esante.gouv.fr/fhir/ValueSet/1.2.250.1.213.1.1.5.439)
 ERROR: ValueSet/1.2.250.1.213.1.1.5.439: ValueSet.compose.include[0]: URI values in ValueSet.compose.include.system must be absolute

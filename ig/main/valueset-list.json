@@ -52,6 +52,20 @@
       "sources" : ["1.2.250.1.213.1.1.5.461"]
     },
     {
+      "url" : "https://mos.esante.gouv.fr/NOS/JDV_J02-XdsHealthcareFacilityTypeCode-CISIS/FHIR/JDV-J02-XdsHealthcareFacilityTypeCode-CISIS",
+      "version" : "20241213120000",
+      "status" : "active",
+      "name" : "JDV_J02_XdsHealthcareFacilityTypeCode_CISIS",
+      "title" : null,
+      "description" : "XDS healthcareFacilityTypeCode CI-SIS",
+      "systems" : [
+        "https://mos.esante.gouv.fr/NOS/TRE_A00-ProducteurDocNonPS/FHIR/TRE-A00-ProducteurDocNonPS",
+        "https://mos.esante.gouv.fr/NOS/TRE_R02-SecteurActivite/FHIR/TRE-R02-SecteurActivite"
+      ],
+      "oids" : ["1.2.250.1.213.1.1.5.466"],
+      "sources" : ["1.2.250.1.213.1.1.5.466"]
+    },
+    {
       "url" : "https://mos.esante.gouv.fr/NOS/JDV_J03-XdsContentTypeCode-CISIS/FHIR/JDV-J03-XdsContentTypeCode-CISIS",
       "version" : "20241213120000",
       "status" : "active",
@@ -188,32 +202,6 @@
       ],
       "oids" : ["1.2.250.1.213.1.6.1.172"],
       "sources" : ["1.2.250.1.213.1.6.1.172"]
-    },
-    {
-      "url" : "https://mos.esante.gouv.fr/NOS/JDV_J105-EnsembleDiplome-RASS/FHIR/JDV-J105-EnsembleDiplome-RASS",
-      "version" : "20241213120000",
-      "status" : "active",
-      "name" : "JDV_J105_EnsembleDiplome_RASS",
-      "title" : null,
-      "description" : "Ensemble des diplômes et qualifications du RASS",
-      "systems" : [
-        "https://mos.esante.gouv.fr/NOS/TRE_R48-DiplomeEtatFrancais/FHIR/TRE-R48-DiplomeEtatFrancais",
-        "https://mos.esante.gouv.fr/NOS/TRE_R55-CertificatEtudeSpeciale/FHIR/TRE-R55-CertificatEtudeSpeciale",
-        "https://mos.esante.gouv.fr/NOS/TRE_R54-DiplomeUniversiteInterUniversitaire/FHIR/TRE-R54-DiplomeUniversiteInterUniversitaire",
-        "https://mos.esante.gouv.fr/NOS/TRE_R50-DESCGroupe1Diplome/FHIR/TRE-R50-DESCGroupe1Diplome",
-        "https://mos.esante.gouv.fr/NOS/TRE_R226-Dip2iemeCycleNQ/FHIR/TRE-R226-Dip2iemeCycleNQ",
-        "https://mos.esante.gouv.fr/NOS/TRE_R49-DiplomeEtudeSpecialisee/FHIR/TRE-R49-DiplomeEtudeSpecialisee",
-        "https://mos.esante.gouv.fr/NOS/TRE_R52-CapaciteDiplome/FHIR/TRE-R52-CapaciteDiplome",
-        "https://mos.esante.gouv.fr/NOS/TRE_R51-DESCGroupe2Diplome/FHIR/TRE-R51-DESCGroupe2Diplome",
-        "https://mos.esante.gouv.fr/NOS/TRE_R36-AutreDiplomeObtenu/FHIR/TRE-R36-AutreDiplomeObtenu",
-        "https://mos.esante.gouv.fr/NOS/TRE_R58-AutreTypeDiplome/FHIR/TRE-R58-AutreTypeDiplome",
-        "https://mos.esante.gouv.fr/NOS/TRE_R348-FormationSpecialiseeTransversale/FHIR/TRE-R348-FormationSpecialiseeTransversale",
-        "https://mos.esante.gouv.fr/NOS/TRE_R56-Attestation/FHIR/TRE-R56-Attestation",
-        "https://mos.esante.gouv.fr/NOS/TRE_R53-DiplomePaysEEE/FHIR/TRE-R53-DiplomePaysEEE",
-        "https://mos.esante.gouv.fr/NOS/TRE_R57-DiplomeEuropeenEtudeSpecialisee/FHIR/TRE-R57-DiplomeEuropeenEtudeSpecialisee"
-      ],
-      "oids" : ["1.2.250.1.213.1.6.1.173"],
-      "sources" : ["1.2.250.1.213.1.6.1.173"]
     },
     {
       "url" : "https://mos.esante.gouv.fr/NOS/JDV_J106-EnsembleProfession-RASS/FHIR/JDV-J106-EnsembleProfession-RASS",
@@ -1153,6 +1141,19 @@
       ],
       "oids" : ["1.2.250.1.213.3.4.14"],
       "sources" : ["1.2.250.1.213.3.4.14"]
+    },
+    {
+      "url" : "https://mos.esante.gouv.fr/NOS/JDV_J18-EquipementSpecifique-ROR/FHIR/JDV-J18-EquipementSpecifique-ROR",
+      "version" : "20241213120000",
+      "status" : "active",
+      "name" : "JDV_J18_EquipementSpecifique_ROR",
+      "title" : null,
+      "description" : "Equipement spécifique - ROR",
+      "systems" : [
+        "https://mos.esante.gouv.fr/NOS/TRE_R212-Equipement/FHIR/TRE-R212-Equipement"
+      ],
+      "oids" : ["1.2.250.1.213.3.4.6"],
+      "sources" : ["1.2.250.1.213.3.4.6"]
     },
     {
       "url" : "https://mos.esante.gouv.fr/NOS/JDV_J180-BesoinEntretienPersonnel-MDPH/FHIR/JDV-J180-BesoinEntretienPersonnel-MDPH",
@@ -2436,15 +2437,17 @@
       "sources" : ["1.2.250.1.213.3.3.44"]
     },
     {
-      "url" : "https://mos.esante.gouv.fr/NOS/JDV_J37-UcumUniteTemps/FHIR/JDV-J37-UcumUniteTemps",
-      "version" : "20240927120000",
+      "url" : "https://mos.esante.gouv.fr/NOS/JDV_J38_ModeAcces-CISIS/FHIR/JDV-J38-ModeAcces-CISIS",
+      "version" : "20241213120000",
       "status" : "active",
-      "name" : "JDV_J37_UcumUniteTemps",
+      "name" : "JDV_J38_ModeAcces_CISIS",
       "title" : null,
-      "description" : "UCUM - Unité de temps",
-      "systems" : ["http://unitsofmeasure.org"],
-      "oids" : ["1.2.250.1.213.3.3.45"],
-      "sources" : ["1.2.250.1.213.3.3.45"]
+      "description" : "Mode d'accès pour accéder à un SI santé avec données patients - CI-SIS",
+      "systems" : [
+        "https://mos.esante.gouv.fr/NOS/TRE_R248-ModeAcces/FHIR/TRE-R248-ModeAcces"
+      ],
+      "oids" : ["1.2.250.1.213.1.1.4.336"],
+      "sources" : ["1.2.250.1.213.1.1.4.336"]
     },
     {
       "url" : "https://mos.esante.gouv.fr/NOS/JDV_J39-ConditionTarifaire-ROR/FHIR/JDV-J39-ConditionTarifaire-ROR",
@@ -2874,6 +2877,20 @@
       ],
       "oids" : ["1.2.250.1.213.1.6.1.142"],
       "sources" : ["1.2.250.1.213.1.6.1.142"]
+    },
+    {
+      "url" : "https://mos.esante.gouv.fr/NOS/JDV_J75-TypeAutorisation-RASS/FHIR/JDV-J75-TypeAutorisation-RASS",
+      "version" : "20241213120000",
+      "status" : "active",
+      "name" : "JDV_J75_TypeAutorisation_RASS",
+      "title" : null,
+      "description" : "Type d'autorisation d'exercice pour accès à l'exercice de la profession du RASS",
+      "systems" : [
+        "https://mos.esante.gouv.fr/NOS/JDV_J171-TypeAutorisation-EPARS/FHIR/JDV-J171-TypeAutorisation-EPARS",
+        "https://mos.esante.gouv.fr/NOS/TRE_R17-TypeAutorisation/FHIR/TRE-R17-TypeAutorisation"
+      ],
+      "oids" : ["1.2.250.1.213.1.6.1.143"],
+      "sources" : ["1.2.250.1.213.1.6.1.143"]
     },
     {
       "url" : "https://mos.esante.gouv.fr/NOS/JDV_J76-DisciplineAutorisation-RASS/FHIR/JDV-J76-DisciplineAutorisation-RASS",
@@ -7257,17 +7274,6 @@
       "sources" : ["1.2.250.1.213.1.1.5.361"]
     },
     {
-      "url" : "https://smt.esante.gouv.fr/fhir/ValueSet/1.2.250.1.213.1.1.5.362",
-      "version" : "20230404000000",
-      "status" : "retired",
-      "name" : "JDV_Pancreas_pT_CISIS",
-      "title" : "JDV_Pancreas_pT_CISIS",
-      "description" : "JDV_Pancreas_pT_CISIS",
-      "systems" : ["1.3.6.1.4.1.19376.1.8.2.1"],
-      "oids" : ["1.2.250.1.213.1.1.5.362"],
-      "sources" : ["1.2.250.1.213.1.1.5.362"]
-    },
-    {
       "url" : "https://smt.esante.gouv.fr/fhir/ValueSet/1.2.250.1.213.1.1.5.363",
       "version" : "20230404000000",
       "status" : "retired",
@@ -8071,17 +8077,6 @@
       "systems" : ["1.3.6.1.4.1.19376.1.8.2.1"],
       "oids" : ["1.2.250.1.213.1.1.5.437"],
       "sources" : ["1.2.250.1.213.1.1.5.437"]
-    },
-    {
-      "url" : "https://smt.esante.gouv.fr/fhir/ValueSet/1.2.250.1.213.1.1.5.438",
-      "version" : "20230404000000",
-      "status" : "retired",
-      "name" : "JDV_Testicule_Observation_anatomie_pathologique_CISIS",
-      "title" : "JDV_Testicule_Observation_anatomie_pathologique_CISIS",
-      "description" : "JDV_Testicule_Observation_anatomie_pathologique_CISIS",
-      "systems" : ["1.3.6.1.4.1.19376.1.8.2.1"],
-      "oids" : ["1.2.250.1.213.1.1.5.438"],
-      "sources" : ["1.2.250.1.213.1.1.5.438"]
     },
     {
       "url" : "https://smt.esante.gouv.fr/fhir/ValueSet/1.2.250.1.213.1.1.5.439",

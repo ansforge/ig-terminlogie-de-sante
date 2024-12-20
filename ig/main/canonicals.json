@@ -260,6 +260,14 @@
     "oids" : ["1.2.250.1.213.1.1.5.461"]
   },
   {
+    "id" : "JDV-J02-XdsHealthcareFacilityTypeCode-CISIS",
+    "type" : "ValueSet",
+    "url" : "https://mos.esante.gouv.fr/NOS/JDV_J02-XdsHealthcareFacilityTypeCode-CISIS/FHIR/JDV-J02-XdsHealthcareFacilityTypeCode-CISIS",
+    "version" : "20241213120000",
+    "name" : "JDV_J02_XdsHealthcareFacilityTypeCode_CISIS",
+    "oids" : ["1.2.250.1.213.1.1.5.466"]
+  },
+  {
     "id" : "JDV-J03-XdsContentTypeCode-CISIS",
     "type" : "ValueSet",
     "url" : "https://mos.esante.gouv.fr/NOS/JDV_J03-XdsContentTypeCode-CISIS/FHIR/JDV-J03-XdsContentTypeCode-CISIS",
@@ -330,14 +338,6 @@
     "version" : "20200424120000",
     "name" : "JDV_J104_TypeIdentifiantStructure_RASS",
     "oids" : ["1.2.250.1.213.1.6.1.172"]
-  },
-  {
-    "id" : "JDV-J105-EnsembleDiplome-RASS",
-    "type" : "ValueSet",
-    "url" : "https://mos.esante.gouv.fr/NOS/JDV_J105-EnsembleDiplome-RASS/FHIR/JDV-J105-EnsembleDiplome-RASS",
-    "version" : "20241213120000",
-    "name" : "JDV_J105_EnsembleDiplome_RASS",
-    "oids" : ["1.2.250.1.213.1.6.1.173"]
   },
   {
     "id" : "JDV-J106-EnsembleProfession-RASS",
@@ -906,6 +906,14 @@
     "version" : "20210924120000",
     "name" : "JDV_J179_BesoinCommunication_MDPH",
     "oids" : ["1.2.250.1.213.3.4.14"]
+  },
+  {
+    "id" : "JDV-J18-EquipementSpecifique-ROR",
+    "type" : "ValueSet",
+    "url" : "https://mos.esante.gouv.fr/NOS/JDV_J18-EquipementSpecifique-ROR/FHIR/JDV-J18-EquipementSpecifique-ROR",
+    "version" : "20241213120000",
+    "name" : "JDV_J18_EquipementSpecifique_ROR",
+    "oids" : ["1.2.250.1.213.3.4.6"]
   },
   {
     "id" : "JDV-J180-BesoinEntretienPersonnel-MDPH",
@@ -1692,12 +1700,12 @@
     "oids" : ["1.2.250.1.213.3.3.44"]
   },
   {
-    "id" : "JDV-J37-UcumUniteTemps",
+    "id" : "JDV-J38-ModeAcces-CISIS",
     "type" : "ValueSet",
-    "url" : "https://mos.esante.gouv.fr/NOS/JDV_J37-UcumUniteTemps/FHIR/JDV-J37-UcumUniteTemps",
-    "version" : "20240927120000",
-    "name" : "JDV_J37_UcumUniteTemps",
-    "oids" : ["1.2.250.1.213.3.3.45"]
+    "url" : "https://mos.esante.gouv.fr/NOS/JDV_J38_ModeAcces-CISIS/FHIR/JDV-J38-ModeAcces-CISIS",
+    "version" : "20241213120000",
+    "name" : "JDV_J38_ModeAcces_CISIS",
+    "oids" : ["1.2.250.1.213.1.1.4.336"]
   },
   {
     "id" : "JDV-J39-ConditionTarifaire-ROR",
@@ -1938,6 +1946,14 @@
     "version" : "20240126120000",
     "name" : "JDV_J74_Pays_RASS",
     "oids" : ["1.2.250.1.213.1.6.1.142"]
+  },
+  {
+    "id" : "JDV-J75-TypeAutorisation-RASS",
+    "type" : "ValueSet",
+    "url" : "https://mos.esante.gouv.fr/NOS/JDV_J75-TypeAutorisation-RASS/FHIR/JDV-J75-TypeAutorisation-RASS",
+    "version" : "20241213120000",
+    "name" : "JDV_J75_TypeAutorisation_RASS",
+    "oids" : ["1.2.250.1.213.1.6.1.143"]
   },
   {
     "id" : "JDV-J76-DisciplineAutorisation-RASS",
@@ -6879,14 +6895,6 @@
     "oids" : ["1.2.250.1.213.1.1.5.361"]
   },
   {
-    "id" : "1.2.250.1.213.1.1.5.362",
-    "type" : "ValueSet",
-    "url" : "https://smt.esante.gouv.fr/fhir/ValueSet/1.2.250.1.213.1.1.5.362",
-    "version" : "20230404000000",
-    "name" : "JDV_Pancreas_pT_CISIS",
-    "oids" : ["1.2.250.1.213.1.1.5.362"]
-  },
-  {
     "id" : "1.2.250.1.213.1.1.5.363",
     "type" : "ValueSet",
     "url" : "https://smt.esante.gouv.fr/fhir/ValueSet/1.2.250.1.213.1.1.5.363",
@@ -7461,14 +7469,6 @@
     "version" : "20230404000000",
     "name" : "JDV_Testicule_Localisation_limites_resection_CISIS",
     "oids" : ["1.2.250.1.213.1.1.5.437"]
-  },
-  {
-    "id" : "1.2.250.1.213.1.1.5.438",
-    "type" : "ValueSet",
-    "url" : "https://smt.esante.gouv.fr/fhir/ValueSet/1.2.250.1.213.1.1.5.438",
-    "version" : "20230404000000",
-    "name" : "JDV_Testicule_Observation_anatomie_pathologique_CISIS",
-    "oids" : ["1.2.250.1.213.1.1.5.438"]
   },
   {
     "id" : "1.2.250.1.213.1.1.5.439",

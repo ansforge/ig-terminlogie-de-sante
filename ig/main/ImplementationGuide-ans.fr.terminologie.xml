@@ -21303,6 +21303,17 @@
         <valueString value="ValueSet"/>
       </extension>
       <reference>
+        <reference value="ValueSet/JDV-J02-XdsHealthcareFacilityTypeCode-CISIS"/>
+      </reference>
+      <name value="JDV_J02_XdsHealthcareFacilityTypeCode_CISIS"/>
+      <description value="XDS healthcareFacilityTypeCode CI-SIS"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
         <reference value="ValueSet/JDV-J03-XdsContentTypeCode-CISIS"/>
       </reference>
       <name value="JDV_J03_XdsContentTypeCode_CISIS"/>
@@ -21384,17 +21395,6 @@
       </reference>
       <name value="JDV_J104_TypeIdentifiantStructure_RASS"/>
       <description value="Type d'identifiant national de structure dans le RASS"/>
-      <exampleBoolean value="false"/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="ValueSet"/>
-      </extension>
-      <reference>
-        <reference value="ValueSet/JDV-J105-EnsembleDiplome-RASS"/>
-      </reference>
-      <name value="JDV_J105_EnsembleDiplome_RASS"/>
-      <description value="Ensemble des diplômes et qualifications du RASS"/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -22286,6 +22286,17 @@
       </reference>
       <name value="JDV_J189_TemporaliteCapacite_ROR"/>
       <description value="Sert à indiquer le moment où une capacité sera effective. Il est ainsi possible de décrire la situation immédiate ou de fournir une information prospective de capacités, prenant notamment en compte les entrées et sorties déjà identifiés de patients"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/JDV-J18-EquipementSpecifique-ROR"/>
+      </reference>
+      <name value="JDV_J18_EquipementSpecifique_ROR"/>
+      <description value="Equipement spécifique - ROR"/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -23272,10 +23283,10 @@
         <valueString value="ValueSet"/>
       </extension>
       <reference>
-        <reference value="ValueSet/JDV-J37-UcumUniteTemps"/>
+        <reference value="ValueSet/JDV-J38-ModeAcces-CISIS"/>
       </reference>
-      <name value="JDV_J37_UcumUniteTemps"/>
-      <description value="UCUM - Unité de temps"/>
+      <name value="JDV_J38_ModeAcces_CISIS"/>
+      <description value="Mode d'accès pour accéder à un SI santé avec données patients - CI-SIS"/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -23606,6 +23617,17 @@
       </reference>
       <name value="JDV_J74_Pays_RASS"/>
       <description value="Pays (codes INSEE) du RASS"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/JDV-J75-TypeAutorisation-RASS"/>
+      </reference>
+      <name value="JDV_J75_TypeAutorisation_RASS"/>
+      <description value="Type d'autorisation d'exercice pour accès à l'exercice de la profession du RASS"/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -25527,17 +25549,6 @@
         <valueString value="ValueSet"/>
       </extension>
       <reference>
-        <reference value="ValueSet/1.2.250.1.213.1.1.5.362"/>
-      </reference>
-      <name value="JDV_Pancreas_pT_CISIS"/>
-      <description value="JDV_Pancreas_pT_CISIS"/>
-      <exampleBoolean value="false"/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="ValueSet"/>
-      </extension>
-      <reference>
         <reference value="ValueSet/1.2.250.1.213.1.1.5.363"/>
       </reference>
       <name value="JDV_Pancreas_Type_histologique_lesion_neoplasique_maligne_invasive_CISIS"/>
@@ -27324,17 +27335,6 @@
       </reference>
       <name value="JDV_Testicule_Localisation_limites_resection_CISIS"/>
       <description value="JDV_Testicule_Localisation_limites_resection_CISIS"/>
-      <exampleBoolean value="false"/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="ValueSet"/>
-      </extension>
-      <reference>
-        <reference value="ValueSet/1.2.250.1.213.1.1.5.438"/>
-      </reference>
-      <name value="JDV_Testicule_Observation_anatomie_pathologique_CISIS"/>
-      <description value="JDV_Testicule_Observation_anatomie_pathologique_CISIS"/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
