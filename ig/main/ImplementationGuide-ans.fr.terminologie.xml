@@ -23140,17 +23140,6 @@
         <valueString value="ValueSet"/>
       </extension>
       <reference>
-        <reference value="ValueSet/JDV-J283-PrestationsIndirects-SERAFIN"/>
-      </reference>
-      <name value="JDV_J283_PrestationsIndirects_SERAFIN"/>
-      <description value="Liste des prestations indirects provenant de la terminologie SERAFIN"/>
-      <exampleBoolean value="false"/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="ValueSet"/>
-      </extension>
-      <reference>
         <reference value="ValueSet/JDV-J284-PrestationsDirects-SERAFIN"/>
       </reference>
       <name value="JDV_J284_PrestationsDirects_SERAFIN"/>
@@ -28651,6 +28640,17 @@
         <reference value="NamingSystem/Snomed-CT-core"/>
       </reference>
       <name value="Snomed_CT_core_900000000000207008"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="CodeSystem"/>
+      </extension>
+      <reference>
+        <reference value="CodeSystem/snomed-CT"/>
+      </reference>
+      <name value="SNOMED CT International Edition"/>
+      <description value="SNOMED CT is a core clinical healthcare terminology that contains concepts with unique meanings and formal logic based definitions organized into hierarchies."/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>

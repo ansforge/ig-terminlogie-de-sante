@@ -8,6 +8,14 @@
     "oids" : ["2.16.840.1.113883.4.642.3.264"]
   },
   {
+    "id" : "snomed-CT",
+    "type" : "CodeSystem",
+    "url" : "http://snomed.info/sct",
+    "version" : "3.2.1",
+    "name" : "SNOMED_CT_INT",
+    "oids" : ["2.16.840.1.113883.6.96"]
+  },
+  {
     "id" : "service-type",
     "type" : "CodeSystem",
     "url" : "http://terminology.hl7.org/CodeSystem/service-type",
@@ -115,7 +123,7 @@
     "id" : "ASS-A25-PaysProvenanceISO-PaysProvenanceCOG",
     "type" : "ConceptMap",
     "url" : "https://mos.esante.gouv.fr/NOS/ASS_A25-PaysProvenanceISO-PaysProvenanceCOG/FHIR/ASS-A25-PaysProvenanceISO-PaysProvenanceCOG",
-    "version" : "20240126120000",
+    "version" : "20241122120000",
     "name" : "ASS_A25_PaysProvenanceISO_PaysProvenanceCOG"
   },
   {
@@ -136,7 +144,7 @@
     "id" : "ASS-A30-TypeAutorisation-Profession-EPARS",
     "type" : "ConceptMap",
     "url" : "https://mos.esante.gouv.fr/NOS/ASS_A30-TypeAutorisation-Profession-EPARS/FHIR/ASS-A30-TypeAutorisation-Profession-EPARS",
-    "version" : "20240628120000",
+    "version" : "20241121120000",
     "name" : "ASS_A30_TypeAutorisation_Profession_EPARS"
   },
   {
@@ -1602,14 +1610,6 @@
     "version" : "20241025120000",
     "name" : "JDV_J282_TransportsLiesAuProjetIndividuel_SERAFIN",
     "oids" : ["1.2.250.1.213.3.3.251"]
-  },
-  {
-    "id" : "JDV-J283-PrestationsIndirects-SERAFIN",
-    "type" : "ValueSet",
-    "url" : "https://mos.esante.gouv.fr/NOS/JDV_J283-PrestationsIndirects_SERAFIN/FHIR/JDV-J283-PrestationsIndirects-SERAFIN",
-    "version" : "20241025120000",
-    "name" : "JDV_J283_PrestationsIndirects_SERAFIN",
-    "oids" : ["1.2.250.1.213.3.3.252"]
   },
   {
     "id" : "JDV-J284-PrestationsDirects-SERAFIN",

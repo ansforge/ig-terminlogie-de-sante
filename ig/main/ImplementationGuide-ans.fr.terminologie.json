@@ -30136,18 +30136,6 @@
         "valueString" : "ValueSet"
       }],
       "reference" : {
-        "reference" : "ValueSet/JDV-J283-PrestationsIndirects-SERAFIN"
-      },
-      "name" : "JDV_J283_PrestationsIndirects_SERAFIN",
-      "description" : "Liste des prestations indirects provenant de la terminologie SERAFIN",
-      "exampleBoolean" : false
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "ValueSet"
-      }],
-      "reference" : {
         "reference" : "ValueSet/JDV-J284-PrestationsDirects-SERAFIN"
       },
       "name" : "JDV_J284_PrestationsDirects_SERAFIN",
@@ -36148,6 +36136,18 @@
         "reference" : "NamingSystem/Snomed-CT-core"
       },
       "name" : "Snomed_CT_core_900000000000207008",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "CodeSystem"
+      }],
+      "reference" : {
+        "reference" : "CodeSystem/snomed-CT"
+      },
+      "name" : "SNOMED\u00a0CT International Edition",
+      "description" : "SNOMED CT is a core clinical healthcare terminology that contains concepts with unique meanings and formal logic based definitions organized into hierarchies.",
       "exampleBoolean" : false
     },
     {

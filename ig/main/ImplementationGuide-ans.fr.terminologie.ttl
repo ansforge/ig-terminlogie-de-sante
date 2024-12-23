@@ -25844,18 +25844,6 @@
          fhir:value [ fhir:v "ValueSet" ]
        ] ) ;
        fhir:reference [
-         fhir:link <https://interop.esante.gouv.fr/ig/terminologie/ValueSet/JDV-J283-PrestationsIndirects-SERAFIN> ;
-         fhir:reference [ fhir:v "ValueSet/JDV-J283-PrestationsIndirects-SERAFIN" ]
-       ] ;
-       fhir:name [ fhir:v "JDV_J283_PrestationsIndirects_SERAFIN" ] ;
-       fhir:description [ fhir:v "Liste des prestations indirects provenant de la terminologie SERAFIN" ] ;
-       fhir:example [ fhir:v "false"^^xsd:boolean ]
-     ] [
-       fhir:extension ( [
-         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
-         fhir:value [ fhir:v "ValueSet" ]
-       ] ) ;
-       fhir:reference [
          fhir:link <https://interop.esante.gouv.fr/ig/terminologie/ValueSet/JDV-J284-PrestationsDirects-SERAFIN> ;
          fhir:reference [ fhir:v "ValueSet/JDV-J284-PrestationsDirects-SERAFIN" ]
        ] ;
@@ -31857,6 +31845,18 @@
          fhir:reference [ fhir:v "NamingSystem/Snomed-CT-core" ]
        ] ;
        fhir:name [ fhir:v "Snomed_CT_core_900000000000207008" ] ;
+       fhir:example [ fhir:v "false"^^xsd:boolean ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "CodeSystem" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <https://interop.esante.gouv.fr/ig/terminologie/CodeSystem/snomed-CT> ;
+         fhir:reference [ fhir:v "CodeSystem/snomed-CT" ]
+       ] ;
+       fhir:name [ fhir:v "SNOMED CT International Edition" ] ;
+       fhir:description [ fhir:v "SNOMED CT is a core clinical healthcare terminology that contains concepts with unique meanings and formal logic based definitions organized into hierarchies." ] ;
        fhir:example [ fhir:v "false"^^xsd:boolean ]
      ] [
        fhir:extension ( [

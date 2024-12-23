@@ -2367,17 +2367,6 @@
       "sources" : ["1.2.250.1.213.3.3.251"]
     },
     {
-      "url" : "https://mos.esante.gouv.fr/NOS/JDV_J283-PrestationsIndirects_SERAFIN/FHIR/JDV-J283-PrestationsIndirects-SERAFIN",
-      "version" : "20241025120000",
-      "status" : "active",
-      "name" : "JDV_J283_PrestationsIndirects_SERAFIN",
-      "title" : null,
-      "description" : "Liste des prestations indirects provenant de la terminologie SERAFIN",
-      "systems" : ["https://smt.esante.gouv.fr/terminologie-SERAFINPH"],
-      "oids" : ["1.2.250.1.213.3.3.252"],
-      "sources" : ["1.2.250.1.213.3.3.252"]
-    },
-    {
       "url" : "https://mos.esante.gouv.fr/NOS/JDV_J284-PrestationsDirects_SERAFIN/FHIR/JDV-J284-PrestationsDirects-SERAFIN",
       "version" : "20241025120000",
       "status" : "active",
