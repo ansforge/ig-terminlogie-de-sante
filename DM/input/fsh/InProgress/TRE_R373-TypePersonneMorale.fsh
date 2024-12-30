@@ -1,3 +1,5 @@
+Alias: $sct = http://snomed.info/sct
+
 CodeSystem: TRE_R373_TypePersonneMorale
 Id: TRE-R373-TypePersonneMorale
 Description: "Nomenclature des types de PM-SMSSE (Personne Morale du champ Sanitaire, Médico-social, Social et Enseignement sur les professions de ces  champs)"
