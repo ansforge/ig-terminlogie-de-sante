@@ -6,7 +6,7 @@ Description: "Nomenclature des types de PM-SMSSE (Personne Morale du champ Sanit
 * ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablecodesystem"
 * ^extension.url = "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod"
 * ^extension.valuePeriod.start = "2024-12-30T12:00:00+01:00"
-* ^url = "https://mos.esante.gouv.fr/NOS/TRE_R368-StatutRessource/FHIR/TRE-R373-TypePersonneMorale"
+* ^url = "https://mos.esante.gouv.fr/NOS/TRE_R373-TypePersonneMorale/FHIR/TRE-R373-TypePersonneMorale"
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value = "urn:oid:1.2.250.1.213.1.6.1.253"
 * ^version = "20241230120000"
