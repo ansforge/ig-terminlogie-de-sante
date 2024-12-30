@@ -18001,6 +18001,17 @@
         <valueString value="ValueSet"/>
       </extension>
       <reference>
+        <reference value="ValueSet/1.2.250.1.213.1.1.4.321.7"/>
+      </reference>
+      <name value="AVC_typeDiabète"/>
+      <description value="AVC_typeDiabète"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
         <reference value="ValueSet/1.2.250.1.213.1.1.4.321.8"/>
       </reference>
       <name value="AVC_typeMigraine"/>
@@ -18172,6 +18183,28 @@
         <reference value="CodeSystem/terminologie-emdn"/>
       </reference>
       <name value="EMDN"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/1.2.250.1.213.1.1.4.321.48"/>
+      </reference>
+      <name value="interpretationScoreGlasgow"/>
+      <description value="interpretationScoreGlasgow"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/1.2.250.1.213.1.1.4.321.47"/>
+      </reference>
+      <name value="interpretationScoreRankin"/>
+      <description value="interpretationScoreRankin"/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -18377,10 +18410,10 @@
         <valueString value="ValueSet"/>
       </extension>
       <reference>
-        <reference value="ValueSet/1.2.250.1.213.1.1.5.43"/>
+        <reference value="ValueSet/1.2.250.1.213.1.1.5.489"/>
       </reference>
-      <name value="JDV_Age_CISIS"/>
-      <description value="JDV_Age_CISIS"/>
+      <name value="JDV_AideAuDeplacement_CISIS"/>
+      <description value="JDV_AideAuDeplacement_CISIS"/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -18388,10 +18421,10 @@
         <valueString value="ValueSet"/>
       </extension>
       <reference>
-        <reference value="ValueSet/1.2.250.1.213.1.1.5.489"/>
+        <reference value="ValueSet/1.2.250.1.213.1.1.5.683"/>
       </reference>
-      <name value="JDV_AideAuDeplacement_CISIS"/>
-      <description value="JDV_AideAuDeplacement_CISIS"/>
+      <name value="JDV_AllergenNoDrug_CISIS"/>
+      <description value="JDV_AllergenNoDrug_CISIS"/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -18476,18 +18509,7 @@
         <valueString value="ValueSet"/>
       </extension>
       <reference>
-        <reference value="ValueSet/1.2.250.1.213.1.1.5.122"/>
-      </reference>
-      <name value="JDV_AntecedentsObstetricaux_CISIS"/>
-      <description value="JDV_AntecedentsObstetricaux_CISIS"/>
-      <exampleBoolean value="false"/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="ValueSet"/>
-      </extension>
-      <reference>
-        <reference value="ValueSet/1.2.250.1.213.1.1.5.732"/>
+        <reference value="ValueSet/1.2.250.1.213.1.1.4.2.289.2"/>
       </reference>
       <name value="JDV_AntecedentsObstetricaux_OBP_CISIS"/>
       <description value="JDV_AntecedentsObstetricaux_OBP_CISIS"/>
@@ -18744,17 +18766,6 @@
       </reference>
       <name value="JDV_ChecklistFLUDR_CISIS"/>
       <description value="JDV_ChecklistFLUDR_CISIS"/>
-      <exampleBoolean value="false"/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="ValueSet"/>
-      </extension>
-      <reference>
-        <reference value="ValueSet/1.2.250.1.213.1.1.5.143"/>
-      </reference>
-      <name value="JDV_ClasseTherapie_CISIS"/>
-      <description value="JDV_ClasseTherapie_CISIS"/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -19422,17 +19433,6 @@
         <valueString value="ValueSet"/>
       </extension>
       <reference>
-        <reference value="ValueSet/1.2.250.1.213.1.1.5.28"/>
-      </reference>
-      <name value="JDV_DensiteMammaire_CISIS"/>
-      <description value="JDV_DensiteMammaire_CISIS"/>
-      <exampleBoolean value="false"/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="ValueSet"/>
-      </extension>
-      <reference>
         <reference value="ValueSet/1.2.250.1.213.1.1.5.792"/>
       </reference>
       <name value="JDV_Deplacement_CISIS"/>
@@ -19708,6 +19708,17 @@
         <valueString value="ValueSet"/>
       </extension>
       <reference>
+        <reference value="ValueSet/1.2.250.1.213.1.1.5.790"/>
+      </reference>
+      <name value="JDV_EtatPsychique_CISIS"/>
+      <description value="JDV_EtatPsychique_CISIS"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
         <reference value="ValueSet/1.2.250.1.213.1.1.5.679"/>
       </reference>
       <name value="JDV_EtiologieAVC_CISIS"/>
@@ -19917,6 +19928,28 @@
         <valueString value="ValueSet"/>
       </extension>
       <reference>
+        <reference value="ValueSet/1.2.250.1.213.1.1.5.534"/>
+      </reference>
+      <name value="JDV_ExamenMacroscopieAspectTumeur_CISIS"/>
+      <description value="JDV_ExamenMacroscopieAspectTumeur_CISIS"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/1.2.250.1.213.1.1.5.553"/>
+      </reference>
+      <name value="JDV_ExamenMacroscopieAspectZoneInteret_CISIS"/>
+      <description value="JDV_ExamenMacroscopieAspectZoneInteret_CISIS"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
         <reference value="ValueSet/1.2.250.1.213.1.1.5.535"/>
       </reference>
       <name value="JDV_ExamenMacroscopieCirconferenceTumeur_CISIS"/>
@@ -19950,6 +19983,17 @@
         <valueString value="ValueSet"/>
       </extension>
       <reference>
+        <reference value="ValueSet/1.2.250.1.213.1.1.5.533"/>
+      </reference>
+      <name value="JDV_ExamenMacroscopieLocalisationTumeur_CISIS"/>
+      <description value="JDV_ExamenMacroscopieLocalisationTumeur_CISIS"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
         <reference value="ValueSet/1.2.250.1.213.1.1.5.555"/>
       </reference>
       <name value="JDV_ExamenMacroscopieLocalisationZoneInteretRectale_CISIS"/>
@@ -19961,10 +20005,10 @@
         <valueString value="ValueSet"/>
       </extension>
       <reference>
-        <reference value="ValueSet/1.2.250.1.213.1.1.5.539"/>
+        <reference value="ValueSet/1.2.250.1.213.1.1.5.552"/>
       </reference>
-      <name value="JDV_ExamenMacroscopieTumeurIntegriteMesocolon_CISIS"/>
-      <description value="JDV_ExamenMacroscopieTumeurIntegriteMesocolon_CISIS"/>
+      <name value="JDV_ExamenMacroscopieLocalisationZoneInteret_CISIS"/>
+      <description value="JDV_ExamenMacroscopieLocalisationZoneInteret_CISIS"/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -19972,10 +20016,10 @@
         <valueString value="ValueSet"/>
       </extension>
       <reference>
-        <reference value="ValueSet/1.2.250.1.213.1.1.5.557"/>
+        <reference value="ValueSet/1.2.250.1.213.1.1.5.539"/>
       </reference>
-      <name value="JDV_ExamenMacroscopieZoneInteretIntegriteMesocolon_CISIS"/>
-      <description value="JDV_ExamenMacroscopieZoneInteretIntegriteMesocolon_CISIS"/>
+      <name value="JDV_ExamenMacroscopieTumeurIntegriteMesocolon_CISIS"/>
+      <description value="JDV_ExamenMacroscopieTumeurIntegriteMesocolon_CISIS"/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -20119,17 +20163,6 @@
       </reference>
       <name value="JDV_ExamenMicroscopiqueZoneInteretMargeCirconferentielle_CISIS"/>
       <description value="JDV_ExamenMicroscopiqueZoneInteretMargeCirconferentielle_CISIS"/>
-      <exampleBoolean value="false"/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="ValueSet"/>
-      </extension>
-      <reference>
-        <reference value="ValueSet/1.2.250.1.213.1.1.5.568"/>
-      </reference>
-      <name value="JDV_ExamenMicroscopiqueZoneInteretMargelongitudinale_CISIS"/>
-      <description value="JDV_ExamenMicroscopiqueZoneInteretMargelongitudinale_CISIS"/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -21259,17 +21292,6 @@
         <valueString value="ValueSet"/>
       </extension>
       <reference>
-        <reference value="ValueSet/1.2.250.1.213.1.1.5.227"/>
-      </reference>
-      <name value="JDV_InvestigationsRealiseesEUNV_CISIS"/>
-      <description value="JDV_InvestigationsRealiseesEUNV_CISIS"/>
-      <exampleBoolean value="false"/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="ValueSet"/>
-      </extension>
-      <reference>
         <reference value="ValueSet/1.2.250.1.213.1.1.5.47"/>
       </reference>
       <name value="JDV_InvestigationsRealisees_CISIS"/>
@@ -21395,17 +21417,6 @@
       </reference>
       <name value="JDV_J104_TypeIdentifiantStructure_RASS"/>
       <description value="Type d'identifiant national de structure dans le RASS"/>
-      <exampleBoolean value="false"/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="ValueSet"/>
-      </extension>
-      <reference>
-        <reference value="ValueSet/JDV-J106-EnsembleProfession-RASS"/>
-      </reference>
-      <name value="JDV_J106_EnsembleProfession_RASS"/>
-      <description value="Ensemble des professions du RASS"/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -22044,17 +22055,6 @@
       </reference>
       <name value="JDV_J164_GlucoseNumberOfDays_ENS"/>
       <description value="Liste fermée des codes utilisables pour la mesure du taux de glucose interstitiel et de l'index de gestion de glycémie (IGG) avec le profil ENS_ObservationGlucose"/>
-      <exampleBoolean value="false"/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="ValueSet"/>
-      </extension>
-      <reference>
-        <reference value="ValueSet/JDV-J167-DepartementOM-EPARS"/>
-      </reference>
-      <name value="JDV_J167_DepartementOM_EPARS"/>
-      <description value="Département pour saisie dans EPARS"/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -23349,17 +23349,6 @@
         <valueString value="ValueSet"/>
       </extension>
       <reference>
-        <reference value="ValueSet/JDV-J49-UcumUniteLongueur"/>
-      </reference>
-      <name value="JDV_J49_UcumUniteLongueur"/>
-      <description value="Unités de longueurs utilisées et référencées dans UCUM"/>
-      <exampleBoolean value="false"/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="ValueSet"/>
-      </extension>
-      <reference>
         <reference value="ValueSet/JDV-J50-AccessibiliteLieu-ROR"/>
       </reference>
       <name value="JDV_J50_AccessibiliteLieu_ROR"/>
@@ -23419,17 +23408,6 @@
       </reference>
       <name value="JDV_J56_AuthorSpecialty_DMP"/>
       <description value="Jeu de valeurs pour authorSpecialty"/>
-      <exampleBoolean value="false"/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="ValueSet"/>
-      </extension>
-      <reference>
-        <reference value="ValueSet/JDV-J57-ClassCode-DMP"/>
-      </reference>
-      <name value="JDV_J57_ClassCode_DMP"/>
-      <description value="Jeu de valeurs pour métadonnée classCode"/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -23672,17 +23650,6 @@
       </reference>
       <name value="JDV_J80_Sexe_RASS"/>
       <description value="Sexe des professionnels du RASS"/>
-      <exampleBoolean value="false"/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="ValueSet"/>
-      </extension>
-      <reference>
-        <reference value="ValueSet/JDV-J81-TypeDiplome-RASS"/>
-      </reference>
-      <name value="JDV_J81_TypeDiplome_RASS"/>
-      <description value="Types de diplôme du RASS"/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -24306,7 +24273,7 @@
         <valueString value="ValueSet"/>
       </extension>
       <reference>
-        <reference value="ValueSet/1.2.250.1.213.1.1.5.215"/>
+        <reference value="ValueSet/1.2.250.1.213.1.1.5.207"/>
       </reference>
       <name value="JDV_LocaThromboseVeineuse_CISIS"/>
       <description value="JDV_LocaThromboseVeineuse_CISIS"/>
@@ -24944,6 +24911,17 @@
         <valueString value="ValueSet"/>
       </extension>
       <reference>
+        <reference value="ValueSet/1.2.250.1.213.1.1.4.2.289.18"/>
+      </reference>
+      <name value="JDV_OBP_AspectLA_CISIS"/>
+      <description value="JDV_OBP_AspectLA_CISIS"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
         <reference value="ValueSet/1.2.250.1.213.1.1.4.2.289.19"/>
       </reference>
       <name value="JDV_OBP_CirconstancesDeces_CISIS"/>
@@ -25032,6 +25010,17 @@
         <valueString value="ValueSet"/>
       </extension>
       <reference>
+        <reference value="ValueSet/1.2.250.1.213.1.1.4.2.289.21"/>
+      </reference>
+      <name value="JDV_OBP_LieuAccouchement_CISIS"/>
+      <description value="JDV_OBP_LieuAccouchement_CISIS"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
         <reference value="ValueSet/1.2.250.1.213.1.1.4.2.289.22"/>
       </reference>
       <name value="JDV_OBP_ModeDebutTravail_CISIS"/>
@@ -25047,6 +25036,17 @@
       </reference>
       <name value="JDV_OBP_ModeNaissance_CISIS"/>
       <description value="JDV_OBP_ModeNaissance_CISIS"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/1.2.250.1.213.1.1.4.2.289.41"/>
+      </reference>
+      <name value="JDV_OBP_ModeSortie_CISIS"/>
+      <description value="JDV_OBP_ModeSortie_CISIS"/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -25120,6 +25120,17 @@
         <valueString value="ValueSet"/>
       </extension>
       <reference>
+        <reference value="ValueSet/1.2.250.1.213.1.1.4.2.289.17"/>
+      </reference>
+      <name value="JDV_OBP_TypeActePostPartum_CISIS"/>
+      <description value="JDV_OBP_TypeActePostPartum_CISIS"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
         <reference value="ValueSet/1.2.250.1.213.1.1.4.2.289.27"/>
       </reference>
       <name value="JDV_OBP_TypeAnesthesieApresNaissance_CISIS"/>
@@ -25179,6 +25190,17 @@
       </reference>
       <name value="JDV_ObservationEnfant_CISIS"/>
       <description value="JDV_ObservationEnfant_CISIS"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/1.2.250.1.213.1.1.4.2.289.3"/>
+      </reference>
+      <name value="JDV_ObservationEnfant_OBP_CISIS"/>
+      <description value="JDV_ObservationEnfant_OBP_CISIS"/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -25454,17 +25476,6 @@
       </reference>
       <name value="JDV_Ovaire_pT_CISIS"/>
       <description value="JDV_Ovaire_pT_CISIS"/>
-      <exampleBoolean value="false"/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="ValueSet"/>
-      </extension>
-      <reference>
-        <reference value="ValueSet/1.2.250.1.213.1.1.5.354"/>
-      </reference>
-      <name value="JDV_Ovaire_Type_histologique_lesion_neoplasique_maligne_invasive_CISIS"/>
-      <description value="JDV_Ovaire_Type_histologique_lesion_neoplasique_maligne_invasive_CISIS"/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -25934,6 +25945,17 @@
         <valueString value="ValueSet"/>
       </extension>
       <reference>
+        <reference value="ValueSet/1.2.250.1.213.1.1.5.532"/>
+      </reference>
+      <name value="JDV_PrelevementFixateur_CISIS"/>
+      <description value="JDV_PrelevementFixateur_CISIS"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
         <reference value="ValueSet/1.2.250.1.213.1.1.5.746"/>
       </reference>
       <name value="JDV_PresentationFoetale_CISIS"/>
@@ -25978,17 +26000,6 @@
         <valueString value="ValueSet"/>
       </extension>
       <reference>
-        <reference value="ValueSet/1.2.250.1.213.1.1.5.37"/>
-      </reference>
-      <name value="JDV_ProblemePPSPAERPA_CISIS"/>
-      <description value="JDV_ProblemePPSPAERPA_CISIS"/>
-      <exampleBoolean value="false"/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="ValueSet"/>
-      </extension>
-      <reference>
         <reference value="ValueSet/1.2.250.1.213.1.1.5.673"/>
       </reference>
       <name value="JDV_Procedure_CISIS"/>
@@ -26015,17 +26026,6 @@
       </reference>
       <name value="JDV_ProfessionsExposees_CISIS"/>
       <description value="JDV_ProfessionsExposees_CISIS"/>
-      <exampleBoolean value="false"/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="ValueSet"/>
-      </extension>
-      <reference>
-        <reference value="ValueSet/1.2.250.1.213.1.1.5.109"/>
-      </reference>
-      <name value="JDV_Profession_CISIS"/>
-      <description value="JDV_Profession_CISIS"/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -26176,6 +26176,17 @@
         <valueString value="ValueSet"/>
       </extension>
       <reference>
+        <reference value="ValueSet/1.2.250.1.213.1.1.5.690"/>
+      </reference>
+      <name value="JDV_Radiopharmaceutique_CISIS"/>
+      <description value="JDV_Radiopharmaceutique_CISIS"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
         <reference value="ValueSet/1.2.250.1.213.1.1.5.201"/>
       </reference>
       <name value="JDV_RaisonAbsenceEtiologie_CISIS"/>
@@ -26224,17 +26235,6 @@
       </reference>
       <name value="JDV_RechAgHbS_CISIS"/>
       <description value="JDV_RechAgHbS_CISIS"/>
-      <exampleBoolean value="false"/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="ValueSet"/>
-      </extension>
-      <reference>
-        <reference value="ValueSet/1.2.250.1.213.1.1.5.695"/>
-      </reference>
-      <name value="JDV_RegionAnatomique_CISIS"/>
-      <description value="JDV_RegionAnatomique_CISIS"/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -26354,8 +26354,8 @@
       <reference>
         <reference value="ValueSet/1.2.250.1.213.1.1.5.708"/>
       </reference>
-      <name value="JDV_Rencontre_CSE_CISIS"/>
-      <description value="JDV_Rencontre_CSE_CISIS"/>
+      <name value="JDV_Rencontre_CS8_CISIS"/>
+      <description value="JDV_Rencontre_CS8_CISIS"/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -26642,17 +26642,6 @@
       </reference>
       <name value="JDV_ScoreBradenComponent_CISIS"/>
       <description value="JDV_ScoreBradenComponent_CISIS"/>
-      <exampleBoolean value="false"/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="ValueSet"/>
-      </extension>
-      <reference>
-        <reference value="ValueSet/1.2.250.1.213.1.1.5.510"/>
-      </reference>
-      <name value="JDV_ScoreBradenFrictionCisaillement_CISIS"/>
-      <description value="JDV_ScoreBradenFrictionCisaillement_CISIS"/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -27584,6 +27573,17 @@
         <valueString value="ValueSet"/>
       </extension>
       <reference>
+        <reference value="ValueSet/1.2.250.1.213.1.1.4.2.281.18"/>
+      </reference>
+      <name value="JDV_TraitementSoinsRCP_CISIS"/>
+      <description value="JDV_TraitementSoinsRCP_CISIS"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
         <reference value="ValueSet/1.2.250.1.213.1.1.5.596"/>
       </reference>
       <name value="JDV_TraitementSoins_FRCP_CISIS"/>
@@ -28057,6 +28057,17 @@
         <valueString value="ValueSet"/>
       </extension>
       <reference>
+        <reference value="ValueSet/1.2.250.1.213.1.1.5.529"/>
+      </reference>
+      <name value="JDV_TypePrelevement_CISIS"/>
+      <description value="JDV_TypePrelevement_CISIS"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
         <reference value="ValueSet/1.2.250.1.213.1.1.5.580"/>
       </reference>
       <name value="JDV_TypePrelevement_Melanome_CISIS"/>
@@ -28178,6 +28189,17 @@
         <valueString value="ValueSet"/>
       </extension>
       <reference>
+        <reference value="ValueSet/1.2.250.1.213.1.1.4.2.281.9"/>
+      </reference>
+      <name value="JDV_TypeTraitement_CISIS"/>
+      <description value="JDV_TypeTraitement_CISIS"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
         <reference value="ValueSet/1.2.250.1.213.1.1.5.595"/>
       </reference>
       <name value="JDV_TypeTraitement_FRCP_CISIS"/>
@@ -28193,6 +28215,17 @@
       </reference>
       <name value="JDV_TypeTransfert_CISIS"/>
       <description value="JDV_TypeTransfert_CISIS"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/1.2.250.1.213.1.1.5.582"/>
+      </reference>
+      <name value="JDV_Type_histologique_Melanome_CISIS"/>
+      <description value="JDV_Type_histologique_Melanome_CISIS"/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -28259,28 +28292,6 @@
       </reference>
       <name value="JDV_UFCV_EffetINR_CISIS"/>
       <description value="JDV_UFCV_EffetINR_CISIS"/>
-      <exampleBoolean value="false"/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="ValueSet"/>
-      </extension>
-      <reference>
-        <reference value="ValueSet/1.2.250.1.213.1.1.4.2.4"/>
-      </reference>
-      <name value="JDV_UFCV_Lat_CISIS"/>
-      <description value="JDV_UFCV_Lat_CISIS"/>
-      <exampleBoolean value="false"/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="ValueSet"/>
-      </extension>
-      <reference>
-        <reference value="ValueSet/1.2.250.1.213.1.1.4.2.1"/>
-      </reference>
-      <name value="JDV_UFCV_MatImpl_CISIS"/>
-      <description value="JDV_UFCV_MatImpl_CISIS"/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -28598,6 +28609,17 @@
         <reference value="NamingSystem/v3-loinc"/>
       </reference>
       <name value="LOINC"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/1.2.250.1.213.1.1.4.321.45"/>
+      </reference>
+      <name value="modeSortie"/>
+      <description value="modeSortie"/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
