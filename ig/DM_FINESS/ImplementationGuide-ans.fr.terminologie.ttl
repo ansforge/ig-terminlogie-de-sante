@@ -34311,6 +34311,42 @@
          fhir:value [ fhir:v "CodeSystem" ]
        ] ) ;
        fhir:reference [
+         fhir:link <https://interop.esante.gouv.fr/ig/terminologie/CodeSystem/TRE-R370-RoleRelationEGE> ;
+         fhir:reference [ fhir:v "CodeSystem/TRE-R370-RoleRelationEGE" ]
+       ] ;
+       fhir:name [ fhir:v "TRE_R370_RoleRelationEGE" ] ;
+       fhir:description [ fhir:v "Nomenclature des types de rôle existant entre les Entités Géographiques d'Exercice (EGE) au sein d'une PM-SMSSE" ] ;
+       fhir:example [ fhir:v "false"^^xsd:boolean ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "CodeSystem" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <https://interop.esante.gouv.fr/ig/terminologie/CodeSystem/TRE-R371-TypeGroupeGCC> ;
+         fhir:reference [ fhir:v "CodeSystem/TRE-R371-TypeGroupeGCC" ]
+       ] ;
+       fhir:name [ fhir:v "TRE_R371_TypeGroupeGCC" ] ;
+       fhir:description [ fhir:v "Nomenclature des types de Groupement de Coopération conventionnelle (GCC)" ] ;
+       fhir:example [ fhir:v "false"^^xsd:boolean ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "CodeSystem" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <https://interop.esante.gouv.fr/ig/terminologie/CodeSystem/TRE-R372-TypeGroupeGCO> ;
+         fhir:reference [ fhir:v "CodeSystem/TRE-R372-TypeGroupeGCO" ]
+       ] ;
+       fhir:name [ fhir:v "TRE_R372_TypeGroupeGCO" ] ;
+       fhir:description [ fhir:v "Nomenclature des types de Groupement de Coopération Organique (GCO)" ] ;
+       fhir:example [ fhir:v "false"^^xsd:boolean ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "CodeSystem" ]
+       ] ) ;
+       fhir:reference [
          fhir:link <https://interop.esante.gouv.fr/ig/terminologie/CodeSystem/TRE-R373-TypePersonneMorale> ;
          fhir:reference [ fhir:v "CodeSystem/TRE-R373-TypePersonneMorale" ]
        ] ;

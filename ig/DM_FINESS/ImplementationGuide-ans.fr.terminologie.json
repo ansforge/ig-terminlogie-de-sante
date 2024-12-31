@@ -38603,6 +38603,42 @@
         "valueString" : "CodeSystem"
       }],
       "reference" : {
+        "reference" : "CodeSystem/TRE-R370-RoleRelationEGE"
+      },
+      "name" : "TRE_R370_RoleRelationEGE",
+      "description" : "Nomenclature des types de rôle existant entre les Entités Géographiques d'Exercice (EGE) au sein d'une PM-SMSSE",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "CodeSystem"
+      }],
+      "reference" : {
+        "reference" : "CodeSystem/TRE-R371-TypeGroupeGCC"
+      },
+      "name" : "TRE_R371_TypeGroupeGCC",
+      "description" : "Nomenclature des types de Groupement de Coopération conventionnelle (GCC)",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "CodeSystem"
+      }],
+      "reference" : {
+        "reference" : "CodeSystem/TRE-R372-TypeGroupeGCO"
+      },
+      "name" : "TRE_R372_TypeGroupeGCO",
+      "description" : "Nomenclature des types de Groupement de Coopération Organique (GCO)",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "CodeSystem"
+      }],
+      "reference" : {
         "reference" : "CodeSystem/TRE-R373-TypePersonneMorale"
       },
       "name" : "TRE_R373_TypePersonneMorale",

@@ -1837,6 +1837,33 @@
       "oids" : ["1.2.250.1.213.1.6.1.3"]
     },
     {
+      "url" : "https://mos.esante.gouv.fr/NOS/TRE_R370-RoleRelationEGE/FHIR/TRE-R370-RoleRelationEGE",
+      "version" : "20241230120000",
+      "status" : "active",
+      "name" : "TRE_R370_RoleRelationEGE",
+      "title" : null,
+      "description" : "Nomenclature des types de rôle existant entre les Entités Géographiques d'Exercice (EGE) au sein d'une PM-SMSSE",
+      "oids" : ["1.2.250.1.213.1.6.1.286"]
+    },
+    {
+      "url" : "https://mos.esante.gouv.fr/NOS/TRE_R371-TypeGroupeGCC/FHIR/TRE-R371-TypeGroupeGCC",
+      "version" : "20241230120000",
+      "status" : "active",
+      "name" : "TRE_R371_TypeGroupeGCC",
+      "title" : null,
+      "description" : "Nomenclature des types de Groupement de Coopération conventionnelle (GCC)",
+      "oids" : ["1.2.250.1.213.1.6.1.287"]
+    },
+    {
+      "url" : "https://mos.esante.gouv.fr/NOS/TRE_R372-TypeGroupeGCO/FHIR/TRE-R372-TypeGroupeGCO",
+      "version" : "20241230120000",
+      "status" : "active",
+      "name" : "TRE_R372_TypeGroupeGCO",
+      "title" : null,
+      "description" : "Nomenclature des types de Groupement de Coopération Organique (GCO)",
+      "oids" : ["1.2.250.1.213.1.6.1.288"]
+    },
+    {
       "url" : "https://mos.esante.gouv.fr/NOS/TRE_R373-TypePersonneMorale/FHIR/TRE-R373-TypePersonneMorale",
       "version" : "20241230120000",
       "status" : "active",

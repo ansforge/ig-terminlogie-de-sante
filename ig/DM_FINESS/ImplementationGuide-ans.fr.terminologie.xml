@@ -30901,6 +30901,39 @@
         <valueString value="CodeSystem"/>
       </extension>
       <reference>
+        <reference value="CodeSystem/TRE-R370-RoleRelationEGE"/>
+      </reference>
+      <name value="TRE_R370_RoleRelationEGE"/>
+      <description value="Nomenclature des types de rôle existant entre les Entités Géographiques d'Exercice (EGE) au sein d'une PM-SMSSE"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="CodeSystem"/>
+      </extension>
+      <reference>
+        <reference value="CodeSystem/TRE-R371-TypeGroupeGCC"/>
+      </reference>
+      <name value="TRE_R371_TypeGroupeGCC"/>
+      <description value="Nomenclature des types de Groupement de Coopération conventionnelle (GCC)"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="CodeSystem"/>
+      </extension>
+      <reference>
+        <reference value="CodeSystem/TRE-R372-TypeGroupeGCO"/>
+      </reference>
+      <name value="TRE_R372_TypeGroupeGCO"/>
+      <description value="Nomenclature des types de Groupement de Coopération Organique (GCO)"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="CodeSystem"/>
+      </extension>
+      <reference>
         <reference value="CodeSystem/TRE-R373-TypePersonneMorale"/>
       </reference>
       <name value="TRE_R373_TypePersonneMorale"/>

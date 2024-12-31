@@ -1,10 +1,13 @@
 Terminologie : Validation Results
 =========================================
 
-err = 2162, warn = 1584, info = 844
+err = 2168, warn = 1587, info = 853
 IG Publisher Version: 1.8.4
-Generated Mon Dec 30 16:24:57 UTC 2024. FHIR version 4.0.1 for ans.fr.terminologie#1.1.0 (canonical = https://interop.esante.gouv.fr/ig/terminologie)
+Generated Tue Dec 31 13:07:23 UTC 2024. FHIR version 4.0.1 for ans.fr.terminologie#1.1.0 (canonical = https://interop.esante.gouv.fr/ig/terminologie)
  Build Errors : 862 / 22 / 0
+ /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/DM/fsh-generated/resources/CodeSystem-TRE-R370-RoleRelationEGE : 2 / 1 / 4
+ /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/DM/fsh-generated/resources/CodeSystem-TRE-R371-TypeGroupeGCC : 2 / 1 / 4
+ /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/DM/fsh-generated/resources/CodeSystem-TRE-R372-TypeGroupeGCO : 2 / 1 / 4
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/DM/fsh-generated/resources/CodeSystem-TRE-R373-TypePersonneMorale : 2 / 1 / 4
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/DM/fsh-generated/resources/CodeSystem-snomed-CT : 2 / 0 / 1
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/DM/fsh-generated/resources/ConceptMap-ASS-A11-CorresModeleCDA-XdsFormatCode-CISIS : 0 / 0 / 1
@@ -2485,6 +2488,27 @@ ERROR: /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSou
 ERROR: /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/output/ValueSet-TRE-R222-MediaTypeCorpsCDANonStructure-all.html#/html/body/div/div/div/div/div/div/div/input/div/div/table/tr/td/a at Line 350, column 3309: The link 'CodeSystem-TRE-A11-IheFormatCode.html#TRE-A11-IheFormatCode-ValueSet-JDV-J10-XdsFormatCode-CISIS.46html' for "ValueSet-JDV-J10-XdsFormatCode-CISIS.html" cannot be resolved (valid targets: 59 targets)
 ERROR: /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/output/ValueSet-TRE-R222-MediaTypeCorpsCDANonStructure-all.html#/html/body/div/div/div/div/div/div/div/input/div/div/table/tr/td/a at Line 350, column 4010: The link 'CodeSystem-TRE-A11-IheFormatCode.html#TRE-A11-IheFormatCode-ValueSet-JDV-J10-XdsFormatCode-CISIS.46html' for "ValueSet-JDV-J10-XdsFormatCode-CISIS.html" cannot be resolved (valid targets: 59 targets)
 ERROR: /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/output/telechargementNos.html#/html/body/div/div/div/div/div/ul/li/a at Line 200, column 8: The link 'Correspondances%20RessourcesFHIR-NOS_0.pdf' for "Correspondance entre les ressources FHIR et les NOS (PDF)" cannot be resolved
+== DM/fsh-generated/resources/CodeSystem-TRE-R370-RoleRelationEGE.json ==
+ERROR: CodeSystem.where(url = 'https://mos.esante.gouv.fr/NOS/TRE_R370-RoleRelationEGE/FHIR/TRE-R370-RoleRelationEGE'): Conformance resource /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/DM/fsh-generated/resources/CodeSystem-TRE-R370-RoleRelationEGE.json - the canonical URL (https://interop.esante.gouv.fr/ig/terminologie/CodeSystem/TRE-R370-RoleRelationEGE) does not match the URL (https://mos.esante.gouv.fr/NOS/TRE_R370-RoleRelationEGE/FHIR/TRE-R370-RoleRelationEGE)
+WARNING: CodeSystem/TRE-R370-RoleRelationEGE: CodeSystem: Published code systems SHOULD conform to the ShareableCodeSystem profile, which says that the element CodeSystem.title is mandatory, but it is not present
+INFORMATION: CodeSystem/TRE-R370-RoleRelationEGE: CodeSystem.property[0]: This property has only a code ('dateValid') and not a URI, so it has no clearly defined meaning in the terminology ecosystem
+INFORMATION: CodeSystem/TRE-R370-RoleRelationEGE: CodeSystem.property[1]: This property has only a code ('dateMaj') and not a URI, so it has no clearly defined meaning in the terminology ecosystem
+INFORMATION: CodeSystem/TRE-R370-RoleRelationEGE: CodeSystem.property[2]: This property has only a code ('dateFin') and not a URI, so it has no clearly defined meaning in the terminology ecosystem
+ERROR: /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/DM/fsh-generated/resources/CodeSystem-TRE-R370-RoleRelationEGE: URL Mismatch https://interop.esante.gouv.fr/ig/terminologie/CodeSystem/TRE-R370-RoleRelationEGE vs https://mos.esante.gouv.fr/NOS/TRE_R370-RoleRelationEGE/FHIR/TRE-R370-RoleRelationEGE
+== DM/fsh-generated/resources/CodeSystem-TRE-R371-TypeGroupeGCC.json ==
+ERROR: CodeSystem.where(url = 'https://mos.esante.gouv.fr/NOS/TRE_R371-TypeGroupeGCC/FHIR/TRE-R371-TypeGroupeGCC'): Conformance resource /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/DM/fsh-generated/resources/CodeSystem-TRE-R371-TypeGroupeGCC.json - the canonical URL (https://interop.esante.gouv.fr/ig/terminologie/CodeSystem/TRE-R371-TypeGroupeGCC) does not match the URL (https://mos.esante.gouv.fr/NOS/TRE_R371-TypeGroupeGCC/FHIR/TRE-R371-TypeGroupeGCC)
+WARNING: CodeSystem/TRE-R371-TypeGroupeGCC: CodeSystem: Published code systems SHOULD conform to the ShareableCodeSystem profile, which says that the element CodeSystem.title is mandatory, but it is not present
+INFORMATION: CodeSystem/TRE-R371-TypeGroupeGCC: CodeSystem.property[0]: This property has only a code ('dateValid') and not a URI, so it has no clearly defined meaning in the terminology ecosystem
+INFORMATION: CodeSystem/TRE-R371-TypeGroupeGCC: CodeSystem.property[1]: This property has only a code ('dateMaj') and not a URI, so it has no clearly defined meaning in the terminology ecosystem
+INFORMATION: CodeSystem/TRE-R371-TypeGroupeGCC: CodeSystem.property[2]: This property has only a code ('dateFin') and not a URI, so it has no clearly defined meaning in the terminology ecosystem
+ERROR: /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/DM/fsh-generated/resources/CodeSystem-TRE-R371-TypeGroupeGCC: URL Mismatch https://interop.esante.gouv.fr/ig/terminologie/CodeSystem/TRE-R371-TypeGroupeGCC vs https://mos.esante.gouv.fr/NOS/TRE_R371-TypeGroupeGCC/FHIR/TRE-R371-TypeGroupeGCC
+== DM/fsh-generated/resources/CodeSystem-TRE-R372-TypeGroupeGCO.json ==
+ERROR: CodeSystem.where(url = 'https://mos.esante.gouv.fr/NOS/TRE_R372-TypeGroupeGCO/FHIR/TRE-R372-TypeGroupeGCO'): Conformance resource /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/DM/fsh-generated/resources/CodeSystem-TRE-R372-TypeGroupeGCO.json - the canonical URL (https://interop.esante.gouv.fr/ig/terminologie/CodeSystem/TRE-R372-TypeGroupeGCO) does not match the URL (https://mos.esante.gouv.fr/NOS/TRE_R372-TypeGroupeGCO/FHIR/TRE-R372-TypeGroupeGCO)
+WARNING: CodeSystem/TRE-R372-TypeGroupeGCO: CodeSystem: Published code systems SHOULD conform to the ShareableCodeSystem profile, which says that the element CodeSystem.title is mandatory, but it is not present
+INFORMATION: CodeSystem/TRE-R372-TypeGroupeGCO: CodeSystem.property[0]: This property has only a code ('dateValid') and not a URI, so it has no clearly defined meaning in the terminology ecosystem
+INFORMATION: CodeSystem/TRE-R372-TypeGroupeGCO: CodeSystem.property[1]: This property has only a code ('dateMaj') and not a URI, so it has no clearly defined meaning in the terminology ecosystem
+INFORMATION: CodeSystem/TRE-R372-TypeGroupeGCO: CodeSystem.property[2]: This property has only a code ('dateFin') and not a URI, so it has no clearly defined meaning in the terminology ecosystem
+ERROR: /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/DM/fsh-generated/resources/CodeSystem-TRE-R372-TypeGroupeGCO: URL Mismatch https://interop.esante.gouv.fr/ig/terminologie/CodeSystem/TRE-R372-TypeGroupeGCO vs https://mos.esante.gouv.fr/NOS/TRE_R372-TypeGroupeGCO/FHIR/TRE-R372-TypeGroupeGCO
 == DM/fsh-generated/resources/CodeSystem-TRE-R373-TypePersonneMorale.json ==
 ERROR: CodeSystem.where(url = 'https://mos.esante.gouv.fr/NOS/TRE_R373-TypePersonneMorale/FHIR/TRE-R373-TypePersonneMorale'): Conformance resource /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/DM/fsh-generated/resources/CodeSystem-TRE-R373-TypePersonneMorale.json - the canonical URL (https://interop.esante.gouv.fr/ig/terminologie/CodeSystem/TRE-R373-TypePersonneMorale) does not match the URL (https://mos.esante.gouv.fr/NOS/TRE_R373-TypePersonneMorale/FHIR/TRE-R373-TypePersonneMorale)
 WARNING: CodeSystem/TRE-R373-TypePersonneMorale: CodeSystem: Published code systems SHOULD conform to the ShareableCodeSystem profile, which says that the element CodeSystem.title is mandatory, but it is not present
