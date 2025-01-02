@@ -3,7 +3,7 @@ Terminologie : Validation Results
 
 err = 2160, warn = 1583, info = 841
 IG Publisher Version: 1.8.4
-Generated Thu Jan 02 04:53:15 UTC 2025. FHIR version 4.0.1 for ans.fr.terminologie#1.1.0 (canonical = https://interop.esante.gouv.fr/ig/terminologie)
+Generated Thu Jan 02 10:48:51 UTC 2025. FHIR version 4.0.1 for ans.fr.terminologie#1.1.0 (canonical = https://interop.esante.gouv.fr/ig/terminologie)
  Build Errors : 862 / 22 / 0
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/DM/fsh-generated/resources/CodeSystem-snomed-CT : 2 / 0 / 1
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/DM/fsh-generated/resources/ConceptMap-ASS-A11-CorresModeleCDA-XdsFormatCode-CISIS : 0 / 0 / 1

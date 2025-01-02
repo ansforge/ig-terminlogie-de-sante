@@ -2295,12 +2295,11 @@
     },
     {
       "url" : "https://smt.esante.gouv.fr/terminologie-ccam",
-      "version" : "v76",
+      "version" : "v77",
       "status" : "active",
       "name" : "CCAM",
       "title" : null,
-      "description" : null,
-      "oids" : ["1.2.250.1.213.2.5"]
+      "description" : null
     },
     {
       "url" : "https://smt.esante.gouv.fr/terminologie-cim-10",
