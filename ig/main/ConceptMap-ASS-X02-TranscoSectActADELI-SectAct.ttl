@@ -5,7 +5,7 @@
 
 # - resource -------------------------------------------------------------------
 
-<https://interop.esante.gouv.fr/ig/terminologie/ConceptMap/ASS-X02-TranscoSectActADELI-SectAct> a fhir:ConceptMap ;
+<https://interop.esante.gouv.fr/terminologie/ConceptMap/ASS-X02-TranscoSectActADELI-SectAct> a fhir:ConceptMap ;
   fhir:nodeRole fhir:treeRoot ;
   fhir:id [ fhir:v "ASS-X02-TranscoSectActADELI-SectAct"] ; # 
   fhir:text [

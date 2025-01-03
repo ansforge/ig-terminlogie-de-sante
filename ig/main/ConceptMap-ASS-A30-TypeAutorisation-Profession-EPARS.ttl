@@ -5,7 +5,7 @@
 
 # - resource -------------------------------------------------------------------
 
-<https://interop.esante.gouv.fr/ig/terminologie/ConceptMap/ASS-A30-TypeAutorisation-Profession-EPARS> a fhir:ConceptMap ;
+<https://interop.esante.gouv.fr/terminologie/ConceptMap/ASS-A30-TypeAutorisation-Profession-EPARS> a fhir:ConceptMap ;
   fhir:nodeRole fhir:treeRoot ;
   fhir:id [ fhir:v "ASS-A30-TypeAutorisation-Profession-EPARS"] ; # 
   fhir:text [

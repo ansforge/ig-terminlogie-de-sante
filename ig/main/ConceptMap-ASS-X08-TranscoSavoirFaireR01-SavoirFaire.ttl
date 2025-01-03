@@ -5,7 +5,7 @@
 
 # - resource -------------------------------------------------------------------
 
-<https://interop.esante.gouv.fr/ig/terminologie/ConceptMap/ASS-X08-TranscoSavoirFaireR01-SavoirFaire> a fhir:ConceptMap ;
+<https://interop.esante.gouv.fr/terminologie/ConceptMap/ASS-X08-TranscoSavoirFaireR01-SavoirFaire> a fhir:ConceptMap ;
   fhir:nodeRole fhir:treeRoot ;
   fhir:id [ fhir:v "ASS-X08-TranscoSavoirFaireR01-SavoirFaire"] ; # 
   fhir:text [

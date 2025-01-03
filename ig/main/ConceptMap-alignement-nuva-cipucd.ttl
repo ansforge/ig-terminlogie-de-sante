@@ -5,7 +5,7 @@
 
 # - resource -------------------------------------------------------------------
 
-<https://interop.esante.gouv.fr/ig/terminologie/ConceptMap/alignement-nuva-cipucd> a fhir:ConceptMap ;
+<https://interop.esante.gouv.fr/terminologie/ConceptMap/alignement-nuva-cipucd> a fhir:ConceptMap ;
   fhir:nodeRole fhir:treeRoot ;
   fhir:id [ fhir:v "alignement-nuva-cipucd"] ; # 
   fhir:meta [

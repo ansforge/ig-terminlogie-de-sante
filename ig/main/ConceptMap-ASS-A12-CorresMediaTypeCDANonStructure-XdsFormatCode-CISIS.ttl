@@ -5,7 +5,7 @@
 
 # - resource -------------------------------------------------------------------
 
-<https://interop.esante.gouv.fr/ig/terminologie/ConceptMap/ASS-A12-CorresMediaTypeCDANonStructure-XdsFormatCode-CISIS> a fhir:ConceptMap ;
+<https://interop.esante.gouv.fr/terminologie/ConceptMap/ASS-A12-CorresMediaTypeCDANonStructure-XdsFormatCode-CISIS> a fhir:ConceptMap ;
   fhir:nodeRole fhir:treeRoot ;
   fhir:id [ fhir:v "ASS-A12-CorresMediaTypeCDANonStructure-XdsFormatCode-CISIS"] ; # 
   fhir:text [
@@ -18,7 +18,7 @@
   fhir:title [ fhir:v "ASS_12_CorresMediaTypeCDANonStructure-XdsFormatCode-CISIS"] ; # 
   fhir:status [ fhir:v "active"] ; # 
   fhir:experimental [ fhir:v "false"^^xsd:boolean] ; # 
-  fhir:date [ fhir:v "2025-01-02T15:28:39+00:00"^^xsd:dateTime] ; # 
+  fhir:date [ fhir:v "2025-01-03T04:31:50+00:00"^^xsd:dateTime] ; # 
   fhir:publisher [ fhir:v "ANS"] ; # 
   fhir:contact ( [
      fhir:name [ fhir:v "ANS" ] ;

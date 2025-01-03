@@ -5,7 +5,7 @@
 
 # - resource -------------------------------------------------------------------
 
-<https://interop.esante.gouv.fr/ig/terminologie/ValueSet/2.16.840.1.113883.4.642.3.1372> a fhir:ValueSet ;
+<https://interop.esante.gouv.fr/terminologie/ValueSet/2.16.840.1.113883.4.642.3.1372> a fhir:ValueSet ;
   fhir:nodeRole fhir:treeRoot ;
   fhir:id [ fhir:v "2.16.840.1.113883.4.642.3.1372"] ; # 
   fhir:meta [
