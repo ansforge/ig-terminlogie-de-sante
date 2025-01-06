@@ -1,9 +1,9 @@
 Terminologie : Validation Results
 =========================================
 
-err = 1402, warn = 1572, info = 841
+err = 1410, warn = 1565, info = 841
 IG Publisher Version: 1.8.6
-Generated Mon Jan 06 15:09:39 UTC 2025. FHIR version 4.0.1 for ans.fr.terminologie#1.1.0 (canonical = https://interop.esante.gouv.fr/terminologie)
+Generated Mon Jan 06 17:01:51 UTC 2025. FHIR version 4.0.1 for ans.fr.terminologie#1.1.0 (canonical = https://interop.esante.gouv.fr/terminologie)
  Build Errors : 854 / 22 / 0
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/DM/fsh-generated/resources/CodeSystem-snomed-CT : 0 / 0 / 1
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/DM/fsh-generated/resources/ConceptMap-ASS-A11-CorresModeleCDA-XdsFormatCode-CISIS : 0 / 0 / 1
@@ -90,17 +90,17 @@ Generated Mon Jan 06 15:09:39 UTC 2025. FHIR version 4.0.1 for ans.fr.terminolog
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_ANRCPTumeur_CISIS : 0 / 1 / 1
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_AbordVeineuxCentral_CISIS : 0 / 2 / 1
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_AbordVeineuxPeripherique_CISIS : 0 / 2 / 1
- /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_AbsentOrUnknownDevices_CISIS : 1 / 2 / 1
- /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_AbsentOrUnknownImmunization_CISIS : 1 / 2 / 1
- /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_AbsentOrUnknownMedication_CISIS : 1 / 2 / 1
- /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_AbsentOrUnknownProblem_CISIS : 1 / 2 / 1
- /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_AbsentOrUnknownProcedure_CISIS : 1 / 2 / 1
- /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_AccesArtere_CISIS : 0 / 2 / 1
- /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_ActeOBP_CISIS : 0 / 2 / 1
+ /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_AbsentOrUnknownDevices_CISIS : 2 / 1 / 1
+ /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_AbsentOrUnknownImmunization_CISIS : 2 / 1 / 1
+ /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_AbsentOrUnknownMedication_CISIS : 2 / 1 / 1
+ /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_AbsentOrUnknownProblem_CISIS : 2 / 1 / 1
+ /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_AbsentOrUnknownProcedure_CISIS : 2 / 1 / 1
+ /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_AccesArtere_CISIS : 1 / 1 / 1
+ /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_ActeOBP_CISIS : 1 / 1 / 1
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_Acte_CSE_CISIS : 0 / 0 / 1
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_Actes_CS8_CISIS : 0 / 0 / 1
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_Activite_CISIS : 0 / 0 / 1
- /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_Addictions_CISIS : 0 / 0 / 1
+ /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_Addictions_CISIS : 1 / 0 / 1
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_AdditionGrandeur_CISIS : 0 / 2 / 1
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_AgeDeSurvenue_CISIS : 0 / 0 / 1
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_AideAuDeplacement_CISIS : 0 / 2 / 1
@@ -3524,33 +3524,34 @@ WARNING: ValueSet.where(id = '1.2.250.1.213.1.1.5.495'): Error from http://tx.fh
 == input/ontoserver/JDV/JDV_AbsentOrUnknownDevices_CISIS.json ==
 ERROR: ValueSet/1.2.250.1.213.1.1.5.663: ValueSet.compose.include[0].system: URL value 'http://hl7.org/fhir/uv/ips/CodeSystem/absent-unknown-uv-ips' does not resolve
 WARNING: ValueSet/1.2.250.1.213.1.1.5.663: ValueSet.compose.include[0]: Unknown System 'http://hl7.org/fhir/uv/ips/CodeSystem/absent-unknown-uv-ips' specified, so Concepts and Filters can't be checked (Details: A definition for CodeSystem 'http://hl7.org/fhir/uv/ips/CodeSystem/absent-unknown-uv-ips' could not be found, so the code cannot be validated)
-WARNING: ValueSet.where(id = '1.2.250.1.213.1.1.5.663'): Error from http://tx.fhir.org/r4: Unable to provide support for code system http://hl7.org/fhir/uv/ips/CodeSystem/absent-unknown-uv-ips
+ERROR: ValueSet.where(id = '1.2.250.1.213.1.1.5.663'): Error from http://tx.fhir.org/r4: Error html { color-scheme: light dark; } body { width: 35em; margin: 0 auto; font-family: Tahoma, Verdana, Arial, sans-serif; } An error occurred. Sorry, the page you are looking for is currently unavailable. Please try again later. If you are the system administrator of this resource then you should check the error log for details. Faithfully yours, nginx.
 == input/ontoserver/JDV/JDV_AbsentOrUnknownImmunization_CISIS.json ==
 ERROR: ValueSet/1.2.250.1.213.1.1.5.666: ValueSet.compose.include[0].system: URL value 'http://hl7.org/fhir/uv/ips/CodeSystem/absent-unknown-uv-ips' does not resolve
 WARNING: ValueSet/1.2.250.1.213.1.1.5.666: ValueSet.compose.include[0]: Unknown System 'http://hl7.org/fhir/uv/ips/CodeSystem/absent-unknown-uv-ips' specified, so Concepts and Filters can't be checked (Details: A definition for CodeSystem 'http://hl7.org/fhir/uv/ips/CodeSystem/absent-unknown-uv-ips' could not be found, so the code cannot be validated)
-WARNING: ValueSet.where(id = '1.2.250.1.213.1.1.5.666'): Error from http://tx.fhir.org/r4: Unable to provide support for code system http://hl7.org/fhir/uv/ips/CodeSystem/absent-unknown-uv-ips
+ERROR: ValueSet.where(id = '1.2.250.1.213.1.1.5.666'): Error from http://tx.fhir.org/r4: Error html { color-scheme: light dark; } body { width: 35em; margin: 0 auto; font-family: Tahoma, Verdana, Arial, sans-serif; } An error occurred. Sorry, the page you are looking for is currently unavailable. Please try again later. If you are the system administrator of this resource then you should check the error log for details. Faithfully yours, nginx.
 == input/ontoserver/JDV/JDV_AbsentOrUnknownMedication_CISIS.json ==
 ERROR: ValueSet/1.2.250.1.213.1.1.5.664: ValueSet.compose.include[0].system: URL value 'http://hl7.org/fhir/uv/ips/CodeSystem/absent-unknown-uv-ips' does not resolve
 WARNING: ValueSet/1.2.250.1.213.1.1.5.664: ValueSet.compose.include[0]: Unknown System 'http://hl7.org/fhir/uv/ips/CodeSystem/absent-unknown-uv-ips' specified, so Concepts and Filters can't be checked (Details: A definition for CodeSystem 'http://hl7.org/fhir/uv/ips/CodeSystem/absent-unknown-uv-ips' could not be found, so the code cannot be validated)
-WARNING: ValueSet.where(id = '1.2.250.1.213.1.1.5.664'): Error from http://tx.fhir.org/r4: Unable to provide support for code system http://hl7.org/fhir/uv/ips/CodeSystem/absent-unknown-uv-ips
+ERROR: ValueSet.where(id = '1.2.250.1.213.1.1.5.664'): Error from http://tx.fhir.org/r4: Error html { color-scheme: light dark; } body { width: 35em; margin: 0 auto; font-family: Tahoma, Verdana, Arial, sans-serif; } An error occurred. Sorry, the page you are looking for is currently unavailable. Please try again later. If you are the system administrator of this resource then you should check the error log for details. Faithfully yours, nginx.
 == input/ontoserver/JDV/JDV_AbsentOrUnknownProblem_CISIS.json ==
 ERROR: ValueSet/1.2.250.1.213.1.1.5.662: ValueSet.compose.include[0].system: URL value 'http://hl7.org/fhir/uv/ips/CodeSystem/absent-unknown-uv-ips' does not resolve
 WARNING: ValueSet/1.2.250.1.213.1.1.5.662: ValueSet.compose.include[0]: Unknown System 'http://hl7.org/fhir/uv/ips/CodeSystem/absent-unknown-uv-ips' specified, so Concepts and Filters can't be checked (Details: A definition for CodeSystem 'http://hl7.org/fhir/uv/ips/CodeSystem/absent-unknown-uv-ips' could not be found, so the code cannot be validated)
-WARNING: ValueSet.where(id = '1.2.250.1.213.1.1.5.662'): Error from http://tx.fhir.org/r4: Unable to provide support for code system http://hl7.org/fhir/uv/ips/CodeSystem/absent-unknown-uv-ips
+ERROR: ValueSet.where(id = '1.2.250.1.213.1.1.5.662'): Error from http://tx.fhir.org/r4: Error html { color-scheme: light dark; } body { width: 35em; margin: 0 auto; font-family: Tahoma, Verdana, Arial, sans-serif; } An error occurred. Sorry, the page you are looking for is currently unavailable. Please try again later. If you are the system administrator of this resource then you should check the error log for details. Faithfully yours, nginx.
 == input/ontoserver/JDV/JDV_AbsentOrUnknownProcedure_CISIS.json ==
 ERROR: ValueSet/1.2.250.1.213.1.1.5.665: ValueSet.compose.include[0].system: URL value 'http://hl7.org/fhir/uv/ips/CodeSystem/absent-unknown-uv-ips' does not resolve
 WARNING: ValueSet/1.2.250.1.213.1.1.5.665: ValueSet.compose.include[0]: Unknown System 'http://hl7.org/fhir/uv/ips/CodeSystem/absent-unknown-uv-ips' specified, so Concepts and Filters can't be checked (Details: A definition for CodeSystem 'http://hl7.org/fhir/uv/ips/CodeSystem/absent-unknown-uv-ips' could not be found, so the code cannot be validated)
-WARNING: ValueSet.where(id = '1.2.250.1.213.1.1.5.665'): Error from http://tx.fhir.org/r4: Unable to provide support for code system http://hl7.org/fhir/uv/ips/CodeSystem/absent-unknown-uv-ips
+ERROR: ValueSet.where(id = '1.2.250.1.213.1.1.5.665'): Error from http://tx.fhir.org/r4: Error html { color-scheme: light dark; } body { width: 35em; margin: 0 auto; font-family: Tahoma, Verdana, Arial, sans-serif; } An error occurred. Sorry, the page you are looking for is currently unavailable. Please try again later. If you are the system administrator of this resource then you should check the error log for details. Faithfully yours, nginx.
 == input/ontoserver/JDV/JDV_AccesArtere_CISIS.json ==
 WARNING: ValueSet/1.2.250.1.213.1.1.5.516: ValueSet.compose.include[0]: Unknown System 'http://snomed.info/sct' specified, so Concepts and Filters can't be checked (Details: A definition for CodeSystem 'http://snomed.info/sct' version 'http://snomed.info/sct/11000315107' could not be found, so the code cannot be validated. Valid versions: [3.2.1])
-WARNING: ValueSet.where(id = '1.2.250.1.213.1.1.5.516'): Error from http://tx.fhir.org/r4: Unable to provide support for code system http://snomed.info/sct
+ERROR: ValueSet.where(id = '1.2.250.1.213.1.1.5.516'): Error from http://tx.fhir.org/r4: Error html { color-scheme: light dark; } body { width: 35em; margin: 0 auto; font-family: Tahoma, Verdana, Arial, sans-serif; } An error occurred. Sorry, the page you are looking for is currently unavailable. Please try again later. If you are the system administrator of this resource then you should check the error log for details. Faithfully yours, nginx.
 == input/ontoserver/JDV/JDV_ActeOBP_CISIS.json ==
 WARNING: ValueSet/1.2.250.1.213.1.1.5.757: ValueSet.compose.include[2]: Unknown System 'http://snomed.info/sct' specified, so Concepts and Filters can't be checked (Details: A definition for CodeSystem 'http://snomed.info/sct' version 'http://snomed.info/sct/11000315107' could not be found, so the code cannot be validated. Valid versions: [3.2.1])
-WARNING: ValueSet.where(id = '1.2.250.1.213.1.1.5.757'): Error from http://tx.fhir.org/r4: Unable to provide support for code system http://snomed.info/sct
+ERROR: ValueSet.where(id = '1.2.250.1.213.1.1.5.757'): Error from http://tx.fhir.org/r4: Error html { color-scheme: light dark; } body { width: 35em; margin: 0 auto; font-family: Tahoma, Verdana, Arial, sans-serif; } An error occurred. Sorry, the page you are looking for is currently unavailable. Please try again later. If you are the system administrator of this resource then you should check the error log for details. Faithfully yours, nginx.
 == input/ontoserver/JDV/JDV_Acte_CSE_CISIS.json ==
 == input/ontoserver/JDV/JDV_Actes_CS8_CISIS.json ==
 == input/ontoserver/JDV/JDV_Activite_CISIS.json ==
 == input/ontoserver/JDV/JDV_Addictions_CISIS.json ==
+ERROR: ValueSet.where(id = '1.2.250.1.213.1.1.5.80'): Error from http://tx.fhir.org/r4: Error html { color-scheme: light dark; } body { width: 35em; margin: 0 auto; font-family: Tahoma, Verdana, Arial, sans-serif; } An error occurred. Sorry, the page you are looking for is currently unavailable. Please try again later. If you are the system administrator of this resource then you should check the error log for details. Faithfully yours, nginx.
 == input/ontoserver/JDV/JDV_AdditionGrandeur_CISIS.json ==
 WARNING: ValueSet/1.2.250.1.213.1.1.5.628: ValueSet.compose.include[0]: Unknown System 'http://snomed.info/sct' specified, so Concepts and Filters can't be checked (Details: A definition for CodeSystem 'http://snomed.info/sct' version 'http://snomed.info/sct/11000315107' could not be found, so the code cannot be validated. Valid versions: [3.2.1])
 WARNING: ValueSet.where(id = '1.2.250.1.213.1.1.5.628'): Error from http://tx.fhir.org/r4: Unable to provide support for code system http://snomed.info/sct
