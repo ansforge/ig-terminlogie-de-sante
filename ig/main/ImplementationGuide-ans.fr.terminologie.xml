@@ -24196,6 +24196,28 @@
         <valueString value="ValueSet"/>
       </extension>
       <reference>
+        <reference value="ValueSet/JDV-J12-CiviliteTitre-CISIS"/>
+      </reference>
+      <name value="JDV J12 CiviliteTitre CISIS"/>
+      <description value="Titre civilité - CI-SIS"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/JDV-J70-Equipement-Santefr"/>
+      </reference>
+      <name value="JDV J70 Equipement Santefr"/>
+      <description value="Equipements Santé.fr"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
         <reference value="ValueSet/TRE-R222-MediaTypeCorpsCDANonStructure-all"/>
       </reference>
       <name value="JDV-MediaTypeCorpsCDANonStructure"/>
@@ -27650,17 +27672,6 @@
         <valueString value="ValueSet"/>
       </extension>
       <reference>
-        <reference value="ValueSet/JDV-J12-CiviliteTitre-CISIS"/>
-      </reference>
-      <name value="JDV_J12_CiviliteTitre_CISIS"/>
-      <description value="Titre civilité - CI-SIS"/>
-      <exampleBoolean value="false"/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="ValueSet"/>
-      </extension>
-      <reference>
         <reference value="ValueSet/JDV-J131-CategorieActiviteSanitaireRegulee-RASS"/>
       </reference>
       <name value="JDV_J131_CategorieActiviteSanitaireRegulee_RASS"/>
@@ -29509,28 +29520,6 @@
         <valueString value="ValueSet"/>
       </extension>
       <reference>
-        <reference value="ValueSet/JDV-J69-ActiviteOperationnelle-Santefr"/>
-      </reference>
-      <name value="JDV_J69_ActiviteOperationnelle_Santefr"/>
-      <description value="Activités opérationnelles de Santé.fr"/>
-      <exampleBoolean value="false"/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="ValueSet"/>
-      </extension>
-      <reference>
-        <reference value="ValueSet/JDV-J70-Equipement-Santefr"/>
-      </reference>
-      <name value="JDV_J70_Equipement_Santefr"/>
-      <description value="Equipements Santé.fr"/>
-      <exampleBoolean value="false"/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="ValueSet"/>
-      </extension>
-      <reference>
         <reference value="ValueSet/JDV-J71-ProfessionFonction-MSSante"/>
       </reference>
       <name value="JDV_J71_ProfessionFonction_MSSante"/>
@@ -30257,7 +30246,7 @@
         <valueString value="ValueSet"/>
       </extension>
       <reference>
-        <reference value="ValueSet/1.2.250.1.213.1.1.5.207"/>
+        <reference value="ValueSet/1.2.250.1.213.1.1.5.215"/>
       </reference>
       <name value="JDV_LocaThromboseVeineuse_CISIS"/>
       <description value="JDV_LocaThromboseVeineuse_CISIS"/>

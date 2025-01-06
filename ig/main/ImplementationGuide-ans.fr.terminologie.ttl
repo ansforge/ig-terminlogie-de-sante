@@ -27200,6 +27200,30 @@
          fhir:value [ fhir:v "ValueSet" ]
        ] ) ;
        fhir:reference [
+         fhir:link <https://interop.esante.gouv.fr/terminologie/ValueSet/JDV-J12-CiviliteTitre-CISIS> ;
+         fhir:reference [ fhir:v "ValueSet/JDV-J12-CiviliteTitre-CISIS" ]
+       ] ;
+       fhir:name [ fhir:v "JDV J12 CiviliteTitre CISIS" ] ;
+       fhir:description [ fhir:v "Titre civilité - CI-SIS" ] ;
+       fhir:example [ fhir:v "false"^^xsd:boolean ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "ValueSet" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <https://interop.esante.gouv.fr/terminologie/ValueSet/JDV-J70-Equipement-Santefr> ;
+         fhir:reference [ fhir:v "ValueSet/JDV-J70-Equipement-Santefr" ]
+       ] ;
+       fhir:name [ fhir:v "JDV J70 Equipement Santefr" ] ;
+       fhir:description [ fhir:v "Equipements Santé.fr" ] ;
+       fhir:example [ fhir:v "false"^^xsd:boolean ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "ValueSet" ]
+       ] ) ;
+       fhir:reference [
          fhir:link <https://interop.esante.gouv.fr/terminologie/ValueSet/TRE-R222-MediaTypeCorpsCDANonStructure-all> ;
          fhir:reference [ fhir:v "ValueSet/TRE-R222-MediaTypeCorpsCDANonStructure-all" ]
        ] ;
@@ -30968,18 +30992,6 @@
          fhir:value [ fhir:v "ValueSet" ]
        ] ) ;
        fhir:reference [
-         fhir:link <https://interop.esante.gouv.fr/terminologie/ValueSet/JDV-J12-CiviliteTitre-CISIS> ;
-         fhir:reference [ fhir:v "ValueSet/JDV-J12-CiviliteTitre-CISIS" ]
-       ] ;
-       fhir:name [ fhir:v "JDV_J12_CiviliteTitre_CISIS" ] ;
-       fhir:description [ fhir:v "Titre civilité - CI-SIS" ] ;
-       fhir:example [ fhir:v "false"^^xsd:boolean ]
-     ] [
-       fhir:extension ( [
-         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
-         fhir:value [ fhir:v "ValueSet" ]
-       ] ) ;
-       fhir:reference [
          fhir:link <https://interop.esante.gouv.fr/terminologie/ValueSet/JDV-J131-CategorieActiviteSanitaireRegulee-RASS> ;
          fhir:reference [ fhir:v "ValueSet/JDV-J131-CategorieActiviteSanitaireRegulee-RASS" ]
        ] ;
@@ -32996,30 +33008,6 @@
          fhir:value [ fhir:v "ValueSet" ]
        ] ) ;
        fhir:reference [
-         fhir:link <https://interop.esante.gouv.fr/terminologie/ValueSet/JDV-J69-ActiviteOperationnelle-Santefr> ;
-         fhir:reference [ fhir:v "ValueSet/JDV-J69-ActiviteOperationnelle-Santefr" ]
-       ] ;
-       fhir:name [ fhir:v "JDV_J69_ActiviteOperationnelle_Santefr" ] ;
-       fhir:description [ fhir:v "Activités opérationnelles de Santé.fr" ] ;
-       fhir:example [ fhir:v "false"^^xsd:boolean ]
-     ] [
-       fhir:extension ( [
-         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
-         fhir:value [ fhir:v "ValueSet" ]
-       ] ) ;
-       fhir:reference [
-         fhir:link <https://interop.esante.gouv.fr/terminologie/ValueSet/JDV-J70-Equipement-Santefr> ;
-         fhir:reference [ fhir:v "ValueSet/JDV-J70-Equipement-Santefr" ]
-       ] ;
-       fhir:name [ fhir:v "JDV_J70_Equipement_Santefr" ] ;
-       fhir:description [ fhir:v "Equipements Santé.fr" ] ;
-       fhir:example [ fhir:v "false"^^xsd:boolean ]
-     ] [
-       fhir:extension ( [
-         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
-         fhir:value [ fhir:v "ValueSet" ]
-       ] ) ;
-       fhir:reference [
          fhir:link <https://interop.esante.gouv.fr/terminologie/ValueSet/JDV-J71-ProfessionFonction-MSSante> ;
          fhir:reference [ fhir:v "ValueSet/JDV-J71-ProfessionFonction-MSSante" ]
        ] ;
@@ -33812,8 +33800,8 @@
          fhir:value [ fhir:v "ValueSet" ]
        ] ) ;
        fhir:reference [
-         fhir:link <https://interop.esante.gouv.fr/terminologie/ValueSet/1.2.250.1.213.1.1.5.207> ;
-         fhir:reference [ fhir:v "ValueSet/1.2.250.1.213.1.1.5.207" ]
+         fhir:link <https://interop.esante.gouv.fr/terminologie/ValueSet/1.2.250.1.213.1.1.5.215> ;
+         fhir:reference [ fhir:v "ValueSet/1.2.250.1.213.1.1.5.215" ]
        ] ;
        fhir:name [ fhir:v "JDV_LocaThromboseVeineuse_CISIS" ] ;
        fhir:description [ fhir:v "JDV_LocaThromboseVeineuse_CISIS" ] ;

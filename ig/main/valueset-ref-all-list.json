@@ -189,10 +189,10 @@
     },
     {
       "url" : "https://mos.esante.gouv.fr/NOS/JDV_J10-XdsFormatCode-CISIS/FHIR/JDV-J10-XdsFormatCode-CISIS",
-      "version" : "1.1.0",
+      "version" : "20240726120000",
       "status" : "active",
       "name" : "JDV_J10_XdsFormatCode_CISIS",
-      "title" : "JDV_J10_XdsFormatCode_CISIS",
+      "title" : null,
       "description" : "XDS formatCode documents CI-SIS",
       "systems" : [
         "https://mos.esante.gouv.fr/NOS/TRE_A10-NomenclatureURN/FHIR/TRE-A10-NomenclatureURN",
@@ -410,9 +410,9 @@
     {
       "url" : "https://mos.esante.gouv.fr/NOS/JDV_J12-CiviliteTitre-CISIS/FHIR/JDV-J12-CiviliteTitre-CISIS",
       "version" : "20200424120000",
-      "status" : "active",
+      "status" : "retired",
       "name" : "JDV_J12_CiviliteTitre_CISIS",
-      "title" : null,
+      "title" : "JDV J12 CiviliteTitre CISIS",
       "description" : "Titre civilité - CI-SIS",
       "systems" : [
         "https://mos.esante.gouv.fr/NOS/TRE_R11-CiviliteExercice/FHIR/TRE-R11-CiviliteExercice",
@@ -2837,25 +2837,11 @@
       "sources" : ["1.2.250.1.213.3.3.66"]
     },
     {
-      "url" : "https://mos.esante.gouv.fr/NOS/JDV_J69-ActiviteOperationnelle-Santefr/FHIR/JDV-J69-ActiviteOperationnelle-Santefr",
-      "version" : "20240531120000",
-      "status" : "active",
-      "name" : "JDV_J69_ActiviteOperationnelle_Santefr",
-      "title" : null,
-      "description" : "Activités opérationnelles de Santé.fr",
-      "systems" : [
-        "https://mos.esante.gouv.fr/NOS/TRE_R210-ActeSpecifique/FHIR/TRE-R210-ActeSpecifique",
-        "https://mos.esante.gouv.fr/NOS/TRE_R211-ActiviteOperationnelle/FHIR/TRE-R211-ActiviteOperationnelle"
-      ],
-      "oids" : ["1.2.250.1.213.3.3.68"],
-      "sources" : ["1.2.250.1.213.3.3.68"]
-    },
-    {
       "url" : "https://mos.esante.gouv.fr/NOS/JDV_J70-Equipement-Santefr/FHIR/JDV-J70-Equipement-Santefr",
       "version" : "20240426120000",
-      "status" : "active",
+      "status" : "retired",
       "name" : "JDV_J70_Equipement_Santefr",
-      "title" : null,
+      "title" : "JDV J70 Equipement Santefr",
       "description" : "Equipements Santé.fr",
       "systems" : [
         "https://mos.esante.gouv.fr/NOS/TRE_R212-Equipement/FHIR/TRE-R212-Equipement"
@@ -5706,21 +5692,6 @@
       "sources" : ["1.2.250.1.213.1.1.5.206"]
     },
     {
-      "url" : "https://smt.esante.gouv.fr/fhir/ValueSet/1.2.250.1.213.1.1.5.207",
-      "version" : "20230606000000",
-      "status" : "retired",
-      "name" : "JDV_LocaThromboseVeineuse_CISIS",
-      "title" : "JDV_LocaThromboseVeineuse_CISIS",
-      "description" : "JDV_LocaThromboseVeineuse_CISIS",
-      "systems" : [
-        "https://smt.esante.gouv.fr/fhir/CodeSystem/1.2.250.1.213.1.1.4.322",
-        "1.2.250.1.213.2.12",
-        "http://snomed.info/sct"
-      ],
-      "oids" : ["1.2.250.1.213.1.1.5.207"],
-      "sources" : ["1.2.250.1.213.1.1.5.207"]
-    },
-    {
       "url" : "https://smt.esante.gouv.fr/fhir/ValueSet/1.2.250.1.213.1.1.5.208",
       "version" : "20230707000000",
       "status" : "active",
@@ -5811,6 +5782,20 @@
       "systems" : ["http://snomed.info/sct"],
       "oids" : ["1.2.250.1.213.1.1.5.214"],
       "sources" : ["1.2.250.1.213.1.1.5.214"]
+    },
+    {
+      "url" : "https://smt.esante.gouv.fr/fhir/ValueSet/1.2.250.1.213.1.1.5.215",
+      "version" : "20231114000000",
+      "status" : "active",
+      "name" : "JDV_LocaThromboseVeineuse_CISIS",
+      "title" : "JDV_LocaThromboseVeineuse_CISIS",
+      "description" : "JDV_LocaThromboseVeineuse_CISIS",
+      "systems" : [
+        "https://smt.esante.gouv.fr/fhir/CodeSystem/1.2.250.1.213.1.1.4.322",
+        "urn:oid:2.16.840.1.113883.6.96"
+      ],
+      "oids" : ["1.2.250.1.213.1.1.5.215"],
+      "sources" : ["1.2.250.1.213.1.1.5.215"]
     },
     {
       "url" : "https://smt.esante.gouv.fr/fhir/ValueSet/1.2.250.1.213.1.1.5.216",
@@ -12452,8 +12437,8 @@
       "systems" : ["https://smt.esante.gouv.fr/terminologie-bdpm"],
       "uses" : {
       },
-      "ConceptMap-alignement-bdpm-cipucd.html" : "Aligner les codes de présentation de la BDPM avec les codes CIP du référentiel CIP-UCD",
-      "ConceptMap-alignement-nuva-bdpm.html" : "Aligner les codes CIS et CIP de NUVA avec les codes CIS et CIP du BDPM"
+      "ConceptMap-alignement-nuva-bdpm.html" : "Aligner les codes CIS et CIP de NUVA avec les codes CIS et CIP du BDPM",
+      "ConceptMap-alignement-bdpm-cipucd.html" : "Aligner les codes de présentation de la BDPM avec les codes CIP du référentiel CIP-UCD"
     },
     {
       "url" : "https://smt.esante.gouv.fr/terminologie-cip_ucd?vs",

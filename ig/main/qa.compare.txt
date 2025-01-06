@@ -1,12 +1,12 @@
 Terminologie : Validation Results
 =========================================
 
-err = 1411, warn = 1583, info = 841
+err = 1428, warn = 1573, info = 841
 $--
 Generated $--. FHIR version $-- for ans.fr.terminologie#$-- (canonical = https://interop.esante.gouv.fr/terminologie)
- Build Errors : 862 / 22 / 0
+ Build Errors : 854 / 22 / 0
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/DM/fsh-generated/resources/CodeSystem-snomed-CT : 0 / 0 / 1
- /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/DM/fsh-generated/resources/ConceptMap-ASS-A11-CorresModeleCDA-XdsFormatCode-CISIS : 0 / 0 / 1
+ /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/DM/fsh-generated/resources/ConceptMap-ASS-A11-CorresModeleCDA-XdsFormatCode-CISIS : 26 / 0 / 1
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/DM/fsh-generated/resources/ConceptMap-ASS-A12-CorresMediaTypeCDANonStructure-XdsFormatCode-CISIS : 0 / 0 / 1
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/DM/fsh-generated/resources/ConceptMap-ASS-A13-TypeEvenement-FluxStandardise : 0 / 0 / 1
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/DM/fsh-generated/resources/ConceptMap-ASS-A14-FamilleActivite-ActiviteOperationnelle : 0 / 1 / 1
@@ -35,7 +35,6 @@ Generated $--. FHIR version $-- for ans.fr.terminologie#$-- (canonical = https:/
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/DM/fsh-generated/resources/ConceptMap-ASS-X14-AgregatDisciplineEquipementSocial : 0 / 1 / 1
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/DM/fsh-generated/resources/ConceptMap-ASS-X15-AgregatDisciplineEnseignement : 0 / 1 / 1
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/DM/fsh-generated/resources/ConceptMap-ASS-X16-CorrespondanceType-Classe-DMP : 1 / 0 / 2
- /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/DM/fsh-generated/resources/ValueSet-JDV-J10-XdsFormatCode-CISIS : 0 / 0 / 1
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/DM/fsh-generated/resources/ValueSet-JDV-ModeleDocumentCDA : 0 / 0 / 1
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/DM/fsh-generated/resources/ValueSet-JDV-TRE-R221-ModeleDocumentCDANonStructure-all : 0 / 0 / 1
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/DM/fsh-generated/resources/ValueSet-TRE-R222-MediaTypeCorpsCDANonStructure-all : 0 / 0 / 1
@@ -377,6 +376,7 @@ Generated $--. FHIR version $-- for ans.fr.terminologie#$-- (canonical = https:/
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_J104_TypeIdentifiantStructure_RASS : 0 / 1 / 1
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_J107_EnsembleSavoirFaire_RASS : 0 / 1 / 1
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_J108_EnsembleFonction_RASS : 0 / 1 / 1
+ /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_J10_XdsFormatCode_CISIS : 0 / 1 / 1
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_J110_StatutVisibiliteDocument_CISIS : 0 / 1 / 1
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_J111_StatutEtatCivil_ENREG : 0 / 1 / 1
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_J112_SexeAdministratif_ENREG : 0 / 1 / 1
@@ -396,7 +396,7 @@ Generated $--. FHIR version $-- for ans.fr.terminologie#$-- (canonical = https:/
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_J127_StatutJuridique_ENREG : 0 / 1 / 1
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_J128_TypeCarte_RASS : 0 / 1 / 1
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_J129_CategorieEtablissement_RASS : 0 / 1 / 1
- /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_J12_CiviliteTitre_CISIS : 0 / 1 / 1
+ /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_J12_CiviliteTitre_CISIS : 0 / 0 / 1
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_J131_CategorieActiviteSanitaireRegulee_RASS : 0 / 1 / 1
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_J132_ModaliteActivite_RASS : 0 / 1 / 1
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_J133_ActiviteSanitaireRegulee_RASS : 0 / 1 / 1
@@ -565,8 +565,7 @@ Generated $--. FHIR version $-- for ans.fr.terminologie#$-- (canonical = https:/
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_J66_TypeCode_DMP : 0 / 1 / 1
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_J67_TraitementDocument_CISIS : 0 / 1 / 1
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_J68_ProfilAccesReferentiel_ROR : 0 / 1 / 1
- /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_J69_ActiviteOperationnelle_Santefr : 0 / 1 / 1
- /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_J70_Equipement_Santefr : 0 / 1 / 1
+ /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_J70_Equipement_Santefr : 0 / 0 / 1
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_J71_ProfessionFonction_MSSante : 0 / 1 / 1
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_J72_TypeProfessionFonction_MSSante : 0 / 1 / 1
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_J73_MetierPharmacien_RASS : 0 / 1 / 1
@@ -625,7 +624,7 @@ Generated $--. FHIR version $-- for ans.fr.terminologie#$-- (canonical = https:/
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_Lien_Assure_Beneficiaire_CISIS : 0 / 0 / 1
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_LieuAccouchement_CISIS : 0 / 2 / 1
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_LieudeVie_CISIS : 0 / 2 / 1
- /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_LocaThromboseVeineuse_CISIS : 9 / 10 / 1
+ /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_LocaThromboseVeineuse_CISIS : 0 / 2 / 1
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_LocalisationAnatomique_CISIS : 0 / 2 / 1
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_LocalisationAnesthesie_CISIS : 0 / 2 / 1
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_LocalisationHemorragieCerebrale_CISIS : 0 / 2 / 1
@@ -1360,14 +1359,6 @@ ERROR: /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSou
 ERROR: /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/output/ValueSet-1.2.250.1.213.1.1.5.120.html#/html/body/div/div/div/div/div/div/div/input/div/div/div/ul/li/table/tr/td/a at Line 357, column 435: The link 'CodeSystem-1.2.250.1.213.1.1.4.322.html#1.2.250.1.213.1.1.4.322-ORG-084' for "ORG-084" cannot be resolved (valid targets: 1750 targets)
 ERROR: /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/output/ValueSet-1.2.250.1.213.1.1.5.18.html#/html/body/div/div/div/div/div/div/div/input/div/div/div/ul/li/table/tr/td/a at Line 357, column 1040: The link 'CodeSystem-TRE-R304-HL7v3ActCode.html#TRE-R304-HL7v3ActCode-SS' for "SS" cannot be resolved (valid targets: [publish-box, segment-post-footer, hl7-search-lnk, TRE-R304-HL7v3ActCode, TRE-R304-HL7v3ActCode-und, codesystem-	
 	-tre_r304_hl7v3actcode, hcTRE-R304-HL7v3ActCode, TRE-R304-HL7v3ActCode-EMER, top, TRE-R304-HL7v3ActCode-IMP, root, stripe, segment-footer, TRE-R304-HL7v3ActCode-VR, segment-content, TRE-R304-HL7v3ActCode-HH, ans-nav, segment-header, bottom, hl7-logo, TRE-R304-HL7v3ActCode-FLD, family-nav, ig-status, orig, segment-navbar, segment-breadcrumb, TRE-R304-HL7v3ActCode-AMB])
-ERROR: /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/output/ValueSet-1.2.250.1.213.1.1.5.207.html#/html/body/div/div/div/div/div/div/div/input/div/div/div/ul/li/table/tr/td/a at Line 357, column 441: The link 'CodeSystem-1.2.250.1.213.1.1.4.322.html#1.2.250.1.213.1.1.4.322-MED-451' for "MED-451" cannot be resolved (valid targets: 1750 targets)
-ERROR: /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/output/ValueSet-1.2.250.1.213.1.1.5.207.html#/html/body/div/div/div/div/div/div/div/input/div/div/div/ul/li/table/tr/td/a at Line 357, column 595: The link 'CodeSystem-1.2.250.1.213.1.1.4.322.html#1.2.250.1.213.1.1.4.322-MED-452' for "MED-452" cannot be resolved (valid targets: 1750 targets)
-ERROR: /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/output/ValueSet-1.2.250.1.213.1.1.5.207.html#/html/body/div/div/div/div/div/div/div/input/div/div/div/ul/li/table/tr/td/a at Line 357, column 734: The link 'CodeSystem-1.2.250.1.213.1.1.4.322.html#1.2.250.1.213.1.1.4.322-MED-453' for "MED-453" cannot be resolved (valid targets: 1750 targets)
-ERROR: /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/output/ValueSet-1.2.250.1.213.1.1.5.207.html#/html/body/div/div/div/div/div/div/div/input/div/div/div/ul/li/table/tr/td/a at Line 357, column 874: The link 'CodeSystem-1.2.250.1.213.1.1.4.322.html#1.2.250.1.213.1.1.4.322-MED-454' for "MED-454" cannot be resolved (valid targets: 1750 targets)
-ERROR: /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/output/ValueSet-1.2.250.1.213.1.1.5.207.html#/html/body/div/div/div/div/div/div/div/input/div/div/div/ul/li/table/tr/td/a at Line 357, column 1005: The link 'CodeSystem-1.2.250.1.213.1.1.4.322.html#1.2.250.1.213.1.1.4.322-MED-455' for "MED-455" cannot be resolved (valid targets: 1750 targets)
-ERROR: /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/output/ValueSet-1.2.250.1.213.1.1.5.207.html#/html/body/div/div/div/div/div/div/div/input/div/div/div/ul/li/table/tr/td/a at Line 357, column 1142: The link 'CodeSystem-1.2.250.1.213.1.1.4.322.html#1.2.250.1.213.1.1.4.322-MED-456' for "MED-456" cannot be resolved (valid targets: 1750 targets)
-ERROR: /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/output/ValueSet-1.2.250.1.213.1.1.5.207.html#/html/body/div/div/div/div/div/div/div/input/div/div/div/ul/li/table/tr/td/a at Line 357, column 1286: The link 'CodeSystem-1.2.250.1.213.1.1.4.322.html#1.2.250.1.213.1.1.4.322-MED-457' for "MED-457" cannot be resolved (valid targets: 1750 targets)
-ERROR: /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/output/ValueSet-1.2.250.1.213.1.1.5.207.html#/html/body/div/div/div/div/div/div/div/input/div/div/div/ul/li/table/tr/td/a at Line 357, column 1430: The link 'CodeSystem-1.2.250.1.213.1.1.4.322.html#1.2.250.1.213.1.1.4.322-MED-458' for "MED-458" cannot be resolved (valid targets: 1750 targets)
 ERROR: /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/output/ValueSet-1.2.250.1.213.1.1.5.529.html#/html/body/div/div/div/div/div/div/div/input/div/div/div/ul/li/table/tr/td/a at Line 374, column 11: The link 'CodeSystem-1.2.250.1.213.1.1.4.322.html#1.2.250.1.213.1.1.4.322-GEN-092' for "GEN-092" cannot be resolved (valid targets: 1750 targets)
 ERROR: /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/output/ValueSet-1.2.250.1.213.1.1.5.532.html#/html/body/div/div/div/div/div/div/div/input/div/div/div/ul/li/table/tr/td/a at Line 360, column 11: The link 'CodeSystem-1.2.250.1.213.1.1.4.322.html#1.2.250.1.213.1.1.4.322-GEN-092' for "GEN-092" cannot be resolved (valid targets: 1750 targets)
 ERROR: /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/output/ValueSet-1.2.250.1.213.1.1.5.533.html#/html/body/div/div/div/div/div/div/div/input/div/div/div/ul/li/table/tr/td/a at Line 360, column 11: The link 'CodeSystem-1.2.250.1.213.1.1.4.322.html#1.2.250.1.213.1.1.4.322-GEN-021' for "GEN-021" cannot be resolved (valid targets: 1750 targets)
@@ -2486,6 +2477,32 @@ ERROR: /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSou
 ERROR: /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/output/telechargementNos.html#/html/body/div/div/div/div/div/ul/li/a at Line 200, column 8: The link 'Correspondances%20RessourcesFHIR-NOS_0.pdf' for "Correspondance entre les ressources FHIR et les NOS (PDF)" cannot be resolved
 == DM/fsh-generated/resources/CodeSystem-snomed-CT.json ==
 == DM/fsh-generated/resources/ConceptMap-ASS-A11-CorresModeleCDA-XdsFormatCode-CISIS.json ==
+ERROR: ConceptMap/ASS-A11-CorresModeleCDA-XdsFormatCode-CISIS: ConceptMap.group[0].element[6].target[0].code: The target code 'urn:asip:ci-sis:cva:2017' is not valid in the value set https://mos.esante.gouv.fr/NOS/JDV_J10-XdsFormatCode-CISIS/FHIR/JDV-J10-XdsFormatCode-CISIS|20240726120000
+ERROR: ConceptMap/ASS-A11-CorresModeleCDA-XdsFormatCode-CISIS: ConceptMap.group[0].element[41].target[0].code: The target code 'urn:asip:ci-sis:dlu-dlu-dom:2022' is not valid in the value set https://mos.esante.gouv.fr/NOS/JDV_J10-XdsFormatCode-CISIS/FHIR/JDV-J10-XdsFormatCode-CISIS|20240726120000
+ERROR: ConceptMap/ASS-A11-CorresModeleCDA-XdsFormatCode-CISIS: ConceptMap.group[0].element[42].target[0].code: The target code 'urn:asip:ci-sis:dlu-fludt-dom:2022' is not valid in the value set https://mos.esante.gouv.fr/NOS/JDV_J10-XdsFormatCode-CISIS/FHIR/JDV-J10-XdsFormatCode-CISIS|20240726120000
+ERROR: ConceptMap/ASS-A11-CorresModeleCDA-XdsFormatCode-CISIS: ConceptMap.group[0].element[43].target[0].code: The target code 'urn:asip:ci-sis:dlu-fludr-dom:2022' is not valid in the value set https://mos.esante.gouv.fr/NOS/JDV_J10-XdsFormatCode-CISIS/FHIR/JDV-J10-XdsFormatCode-CISIS|20240726120000
+ERROR: ConceptMap/ASS-A11-CorresModeleCDA-XdsFormatCode-CISIS: ConceptMap.group[0].element[45].target[0].code: The target code 'urn:asip:ci-sis:export-dui:2023' is not valid in the value set https://mos.esante.gouv.fr/NOS/JDV_J10-XdsFormatCode-CISIS/FHIR/JDV-J10-XdsFormatCode-CISIS|20240726120000
+ERROR: ConceptMap/ASS-A11-CorresModeleCDA-XdsFormatCode-CISIS: ConceptMap.group[1].element[10].target[0].code: The target code 'urn:ihe:pat:apsr:all:2010' is not valid in the value set https://mos.esante.gouv.fr/NOS/JDV_J10-XdsFormatCode-CISIS/FHIR/JDV-J10-XdsFormatCode-CISIS|20240726120000
+ERROR: ConceptMap/ASS-A11-CorresModeleCDA-XdsFormatCode-CISIS: ConceptMap.group[1].element[11].target[0].code: The target code 'urn:ihe:pat:apsr:breast:2010' is not valid in the value set https://mos.esante.gouv.fr/NOS/JDV_J10-XdsFormatCode-CISIS/FHIR/JDV-J10-XdsFormatCode-CISIS|20240726120000
+ERROR: ConceptMap/ASS-A11-CorresModeleCDA-XdsFormatCode-CISIS: ConceptMap.group[1].element[12].target[0].code: The target code 'urn:ihe:pat:apsr:colon:2010' is not valid in the value set https://mos.esante.gouv.fr/NOS/JDV_J10-XdsFormatCode-CISIS/FHIR/JDV-J10-XdsFormatCode-CISIS|20240726120000
+ERROR: ConceptMap/ASS-A11-CorresModeleCDA-XdsFormatCode-CISIS: ConceptMap.group[1].element[13].target[0].code: The target code 'urn:ihe:pat:apsr:prostate:2010' is not valid in the value set https://mos.esante.gouv.fr/NOS/JDV_J10-XdsFormatCode-CISIS/FHIR/JDV-J10-XdsFormatCode-CISIS|20240726120000
+ERROR: ConceptMap/ASS-A11-CorresModeleCDA-XdsFormatCode-CISIS: ConceptMap.group[1].element[14].target[0].code: The target code 'urn:ihe:pat:apsr:thyroid:2010' is not valid in the value set https://mos.esante.gouv.fr/NOS/JDV_J10-XdsFormatCode-CISIS/FHIR/JDV-J10-XdsFormatCode-CISIS|20240726120000
+ERROR: ConceptMap/ASS-A11-CorresModeleCDA-XdsFormatCode-CISIS: ConceptMap.group[1].element[15].target[0].code: The target code 'urn:ihe:pat:apsr:lung:2010' is not valid in the value set https://mos.esante.gouv.fr/NOS/JDV_J10-XdsFormatCode-CISIS/FHIR/JDV-J10-XdsFormatCode-CISIS|20240726120000
+ERROR: ConceptMap/ASS-A11-CorresModeleCDA-XdsFormatCode-CISIS: ConceptMap.group[1].element[16].target[0].code: The target code 'urn:ihe:pat:apsr:skin:2010' is not valid in the value set https://mos.esante.gouv.fr/NOS/JDV_J10-XdsFormatCode-CISIS/FHIR/JDV-J10-XdsFormatCode-CISIS|20240726120000
+ERROR: ConceptMap/ASS-A11-CorresModeleCDA-XdsFormatCode-CISIS: ConceptMap.group[1].element[17].target[0].code: The target code 'urn:ihe:pat:apsr:kidney:2010' is not valid in the value set https://mos.esante.gouv.fr/NOS/JDV_J10-XdsFormatCode-CISIS/FHIR/JDV-J10-XdsFormatCode-CISIS|20240726120000
+ERROR: ConceptMap/ASS-A11-CorresModeleCDA-XdsFormatCode-CISIS: ConceptMap.group[1].element[18].target[0].code: The target code 'urn:ihe:pat:apsr:cervix:2010' is not valid in the value set https://mos.esante.gouv.fr/NOS/JDV_J10-XdsFormatCode-CISIS/FHIR/JDV-J10-XdsFormatCode-CISIS|20240726120000
+ERROR: ConceptMap/ASS-A11-CorresModeleCDA-XdsFormatCode-CISIS: ConceptMap.group[1].element[19].target[0].code: The target code 'urn:ihe:pat:apsr:endometrium:2010' is not valid in the value set https://mos.esante.gouv.fr/NOS/JDV_J10-XdsFormatCode-CISIS/FHIR/JDV-J10-XdsFormatCode-CISIS|20240726120000
+ERROR: ConceptMap/ASS-A11-CorresModeleCDA-XdsFormatCode-CISIS: ConceptMap.group[1].element[20].target[0].code: The target code 'urn:ihe:pat:apsr:ovary:2010' is not valid in the value set https://mos.esante.gouv.fr/NOS/JDV_J10-XdsFormatCode-CISIS/FHIR/JDV-J10-XdsFormatCode-CISIS|20240726120000
+ERROR: ConceptMap/ASS-A11-CorresModeleCDA-XdsFormatCode-CISIS: ConceptMap.group[1].element[21].target[0].code: The target code 'urn:ihe:pat:apsr:esophagus:2010' is not valid in the value set https://mos.esante.gouv.fr/NOS/JDV_J10-XdsFormatCode-CISIS/FHIR/JDV-J10-XdsFormatCode-CISIS|20240726120000
+ERROR: ConceptMap/ASS-A11-CorresModeleCDA-XdsFormatCode-CISIS: ConceptMap.group[1].element[22].target[0].code: The target code 'urn:ihe:pat:apsr:stomach:2010' is not valid in the value set https://mos.esante.gouv.fr/NOS/JDV_J10-XdsFormatCode-CISIS/FHIR/JDV-J10-XdsFormatCode-CISIS|20240726120000
+ERROR: ConceptMap/ASS-A11-CorresModeleCDA-XdsFormatCode-CISIS: ConceptMap.group[1].element[23].target[0].code: The target code 'urn:ihe:pat:apsr:liver:2010' is not valid in the value set https://mos.esante.gouv.fr/NOS/JDV_J10-XdsFormatCode-CISIS/FHIR/JDV-J10-XdsFormatCode-CISIS|20240726120000
+ERROR: ConceptMap/ASS-A11-CorresModeleCDA-XdsFormatCode-CISIS: ConceptMap.group[1].element[24].target[0].code: The target code 'urn:ihe:pat:apsr:pancreas:2010' is not valid in the value set https://mos.esante.gouv.fr/NOS/JDV_J10-XdsFormatCode-CISIS/FHIR/JDV-J10-XdsFormatCode-CISIS|20240726120000
+ERROR: ConceptMap/ASS-A11-CorresModeleCDA-XdsFormatCode-CISIS: ConceptMap.group[1].element[25].target[0].code: The target code 'urn:ihe:pat:apsr:testis:2010' is not valid in the value set https://mos.esante.gouv.fr/NOS/JDV_J10-XdsFormatCode-CISIS/FHIR/JDV-J10-XdsFormatCode-CISIS|20240726120000
+ERROR: ConceptMap/ASS-A11-CorresModeleCDA-XdsFormatCode-CISIS: ConceptMap.group[1].element[26].target[0].code: The target code 'urn:ihe:pat:apsr:urinary_bladder:2010' is not valid in the value set https://mos.esante.gouv.fr/NOS/JDV_J10-XdsFormatCode-CISIS/FHIR/JDV-J10-XdsFormatCode-CISIS|20240726120000
+ERROR: ConceptMap/ASS-A11-CorresModeleCDA-XdsFormatCode-CISIS: ConceptMap.group[1].element[27].target[0].code: The target code 'urn:ihe:pat:apsr:lip_oral_cavity:2010' is not valid in the value set https://mos.esante.gouv.fr/NOS/JDV_J10-XdsFormatCode-CISIS/FHIR/JDV-J10-XdsFormatCode-CISIS|20240726120000
+ERROR: ConceptMap/ASS-A11-CorresModeleCDA-XdsFormatCode-CISIS: ConceptMap.group[1].element[28].target[0].code: The target code 'urn:ihe:pat:apsr:pharynx:2010' is not valid in the value set https://mos.esante.gouv.fr/NOS/JDV_J10-XdsFormatCode-CISIS/FHIR/JDV-J10-XdsFormatCode-CISIS|20240726120000
+ERROR: ConceptMap/ASS-A11-CorresModeleCDA-XdsFormatCode-CISIS: ConceptMap.group[1].element[29].target[0].code: The target code 'urn:ihe:pat:apsr:salivary_gland:2010' is not valid in the value set https://mos.esante.gouv.fr/NOS/JDV_J10-XdsFormatCode-CISIS/FHIR/JDV-J10-XdsFormatCode-CISIS|20240726120000
+ERROR: ConceptMap/ASS-A11-CorresModeleCDA-XdsFormatCode-CISIS: ConceptMap.group[1].element[30].target[0].code: The target code 'urn:ihe:pat:apsr:larynx:2010' is not valid in the value set https://mos.esante.gouv.fr/NOS/JDV_J10-XdsFormatCode-CISIS/FHIR/JDV-J10-XdsFormatCode-CISIS|20240726120000
 == DM/fsh-generated/resources/ConceptMap-ASS-A12-CorresMediaTypeCDANonStructure-XdsFormatCode-CISIS.json ==
 == DM/fsh-generated/resources/ConceptMap-ASS-A13-TypeEvenement-FluxStandardise.json ==
 == DM/fsh-generated/resources/ConceptMap-ASS-A14-FamilleActivite-ActiviteOperationnelle.json ==
@@ -2758,7 +2775,6 @@ WARNING: ConceptMap/ASS-X15-AgregatDisciplineEnseignement: ConceptMap: Published
 == DM/fsh-generated/resources/ConceptMap-ASS-X16-CorrespondanceType-Classe-DMP.json ==
 INFORMATION: ConceptMap/ASS-X16-CorrespondanceType-Classe-DMP: ConceptMap.group[0].source: Source Code System http://loinc.org is only supported on the terminology server, so the source codes are not validated for performance reasons
 ERROR: ConceptMap/ASS-X16-CorrespondanceType-Classe-DMP: ConceptMap.group[0].element[6].code: The code '11526-1' in the system http://loinc.org is not valid in the value set 'https://mos.esante.gouv.fr/NOS/JDV_J66-TypeCode-DMP/FHIR/JDV-J66-TypeCode-DMP'
-== DM/fsh-generated/resources/ValueSet-JDV-J10-XdsFormatCode-CISIS.json ==
 == DM/fsh-generated/resources/ValueSet-JDV-ModeleDocumentCDA.json ==
 == DM/fsh-generated/resources/ValueSet-JDV-TRE-R221-ModeleDocumentCDANonStructure-all.json ==
 == DM/fsh-generated/resources/ValueSet-TRE-R222-MediaTypeCorpsCDANonStructure-all.json ==
@@ -4306,6 +4322,8 @@ WARNING: ValueSet/JDV-J104-TypeIdentifiantStructure-RASS: ValueSet: Published va
 WARNING: ValueSet/JDV-J107-EnsembleSavoirFaire-RASS: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.title is mandatory, but it is not present
 == input/ontoserver/JDV/JDV_J108_EnsembleFonction_RASS.json ==
 WARNING: ValueSet/JDV-J108-EnsembleFonction-RASS: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.title is mandatory, but it is not present
+== input/ontoserver/JDV/JDV_J10_XdsFormatCode_CISIS.json ==
+WARNING: ValueSet/JDV-J10-XdsFormatCode-CISIS: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.title is mandatory, but it is not present
 == input/ontoserver/JDV/JDV_J110_StatutVisibiliteDocument_CISIS.json ==
 WARNING: ValueSet/JDV-J110-StatutVisibiliteDocument-CISIS: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.title is mandatory, but it is not present
 == input/ontoserver/JDV/JDV_J111_StatutEtatCivil_ENREG.json ==
@@ -4347,7 +4365,6 @@ WARNING: ValueSet/JDV-J128-TypeCarte-RASS: ValueSet: Published value sets SHOULD
 == input/ontoserver/JDV/JDV_J129_CategorieEtablissement_RASS.json ==
 WARNING: ValueSet/JDV-J129-CategorieEtablissement-RASS: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.title is mandatory, but it is not present
 == input/ontoserver/JDV/JDV_J12_CiviliteTitre_CISIS.json ==
-WARNING: ValueSet/JDV-J12-CiviliteTitre-CISIS: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.title is mandatory, but it is not present
 == input/ontoserver/JDV/JDV_J131_CategorieActiviteSanitaireRegulee_RASS.json ==
 WARNING: ValueSet/JDV-J131-CategorieActiviteSanitaireRegulee-RASS: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.title is mandatory, but it is not present
 == input/ontoserver/JDV/JDV_J132_ModaliteActivite_RASS.json ==
@@ -4778,10 +4795,7 @@ WARNING: ValueSet/JDV-J66-TypeCode-DMP: ValueSet: Published value sets SHOULD co
 WARNING: ValueSet/JDV-J67-TraitementDocument-CISIS: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.title is mandatory, but it is not present
 == input/ontoserver/JDV/JDV_J68_ProfilAccesReferentiel_ROR.json ==
 WARNING: ValueSet/JDV-J68-ProfilAccesReferentiel-ROR: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.title is mandatory, but it is not present
-== input/ontoserver/JDV/JDV_J69_ActiviteOperationnelle_Santefr.json ==
-WARNING: ValueSet/JDV-J69-ActiviteOperationnelle-Santefr: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.title is mandatory, but it is not present
 == input/ontoserver/JDV/JDV_J70_Equipement_Santefr.json ==
-WARNING: ValueSet/JDV-J70-Equipement-Santefr: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.title is mandatory, but it is not present
 == input/ontoserver/JDV/JDV_J71_ProfessionFonction_MSSante.json ==
 WARNING: ValueSet/JDV-J71-ProfessionFonction-MSSante: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.title is mandatory, but it is not present
 == input/ontoserver/JDV/JDV_J72_TypeProfessionFonction_MSSante.json ==
@@ -4925,25 +4939,8 @@ WARNING: ValueSet.where(id = '1.2.250.1.213.1.1.5.743'): Error from http://tx.fh
 WARNING: ValueSet/1.2.250.1.213.1.1.5.64: ValueSet.compose.include[1]: Unknown System 'http://snomed.info/sct' specified, so Concepts and Filters can't be checked (Details: A definition for CodeSystem 'http://snomed.info/sct' version 'http://snomed.info/sct/11000315107' could not be found, so the code cannot be validated. Valid versions: [3.2.1])
 WARNING: ValueSet.where(id = '1.2.250.1.213.1.1.5.64'): Error from http://tx.fhir.org/r4: Unable to provide support for code system http://snomed.info/sct
 == input/ontoserver/JDV/JDV_LocaThromboseVeineuse_CISIS.json ==
-WARNING: ValueSet/1.2.250.1.213.1.1.5.207: ValueSet.compose.include[0].concept[1]: The code 'MED-451' is not valid in the system https://smt.esante.gouv.fr/fhir/CodeSystem/1.2.250.1.213.1.1.4.322 (Unknown code 'MED-451' in the CodeSystem 'https://smt.esante.gouv.fr/fhir/CodeSystem/1.2.250.1.213.1.1.4.322' version '202412180000')
-WARNING: ValueSet/1.2.250.1.213.1.1.5.207: ValueSet.compose.include[0].concept[2]: The code 'MED-452' is not valid in the system https://smt.esante.gouv.fr/fhir/CodeSystem/1.2.250.1.213.1.1.4.322 (Unknown code 'MED-452' in the CodeSystem 'https://smt.esante.gouv.fr/fhir/CodeSystem/1.2.250.1.213.1.1.4.322' version '202412180000')
-WARNING: ValueSet/1.2.250.1.213.1.1.5.207: ValueSet.compose.include[0].concept[3]: The code 'MED-453' is not valid in the system https://smt.esante.gouv.fr/fhir/CodeSystem/1.2.250.1.213.1.1.4.322 (Unknown code 'MED-453' in the CodeSystem 'https://smt.esante.gouv.fr/fhir/CodeSystem/1.2.250.1.213.1.1.4.322' version '202412180000')
-WARNING: ValueSet/1.2.250.1.213.1.1.5.207: ValueSet.compose.include[0].concept[4]: The code 'MED-454' is not valid in the system https://smt.esante.gouv.fr/fhir/CodeSystem/1.2.250.1.213.1.1.4.322 (Unknown code 'MED-454' in the CodeSystem 'https://smt.esante.gouv.fr/fhir/CodeSystem/1.2.250.1.213.1.1.4.322' version '202412180000')
-WARNING: ValueSet/1.2.250.1.213.1.1.5.207: ValueSet.compose.include[0].concept[5]: The code 'MED-455' is not valid in the system https://smt.esante.gouv.fr/fhir/CodeSystem/1.2.250.1.213.1.1.4.322 (Unknown code 'MED-455' in the CodeSystem 'https://smt.esante.gouv.fr/fhir/CodeSystem/1.2.250.1.213.1.1.4.322' version '202412180000')
-WARNING: ValueSet/1.2.250.1.213.1.1.5.207: ValueSet.compose.include[0].concept[6]: The code 'MED-456' is not valid in the system https://smt.esante.gouv.fr/fhir/CodeSystem/1.2.250.1.213.1.1.4.322 (Unknown code 'MED-456' in the CodeSystem 'https://smt.esante.gouv.fr/fhir/CodeSystem/1.2.250.1.213.1.1.4.322' version '202412180000')
-WARNING: ValueSet/1.2.250.1.213.1.1.5.207: ValueSet.compose.include[0].concept[7]: The code 'MED-457' is not valid in the system https://smt.esante.gouv.fr/fhir/CodeSystem/1.2.250.1.213.1.1.4.322 (Unknown code 'MED-457' in the CodeSystem 'https://smt.esante.gouv.fr/fhir/CodeSystem/1.2.250.1.213.1.1.4.322' version '202412180000')
-WARNING: ValueSet/1.2.250.1.213.1.1.5.207: ValueSet.compose.include[0].concept[8]: The code 'MED-458' is not valid in the system https://smt.esante.gouv.fr/fhir/CodeSystem/1.2.250.1.213.1.1.4.322 (Unknown code 'MED-458' in the CodeSystem 'https://smt.esante.gouv.fr/fhir/CodeSystem/1.2.250.1.213.1.1.4.322' version '202412180000')
-ERROR: ValueSet/1.2.250.1.213.1.1.5.207: ValueSet.compose.include[1]: URI values in ValueSet.compose.include.system must be absolute
-WARNING: ValueSet/1.2.250.1.213.1.1.5.207: ValueSet.compose.include[1]: Unknown System '1.2.250.1.213.2.12' specified, so Concepts and Filters can't be checked (Details: A definition for CodeSystem '1.2.250.1.213.2.12' could not be found, so the code cannot be validated)
-WARNING: ValueSet/1.2.250.1.213.1.1.5.207: ValueSet.compose.include[2]: Unknown System 'http://snomed.info/sct' specified, so Concepts and Filters can't be checked (Details: A definition for CodeSystem 'http://snomed.info/sct' version 'http://snomed.info/sct/11000315107' could not be found, so the code cannot be validated. Valid versions: [3.2.1])
-ERROR: ValueSet.text.div: Hyperlink 'CodeSystem-1.2.250.1.213.1.1.4.322.html#1.2.250.1.213.1.1.4.322-MED-451' at 'div/ul/li/table/tr/td/a' for 'MED-451' does not resolve
-ERROR: ValueSet.text.div: Hyperlink 'CodeSystem-1.2.250.1.213.1.1.4.322.html#1.2.250.1.213.1.1.4.322-MED-452' at 'div/ul/li/table/tr/td/a' for 'MED-452' does not resolve
-ERROR: ValueSet.text.div: Hyperlink 'CodeSystem-1.2.250.1.213.1.1.4.322.html#1.2.250.1.213.1.1.4.322-MED-453' at 'div/ul/li/table/tr/td/a' for 'MED-453' does not resolve
-ERROR: ValueSet.text.div: Hyperlink 'CodeSystem-1.2.250.1.213.1.1.4.322.html#1.2.250.1.213.1.1.4.322-MED-454' at 'div/ul/li/table/tr/td/a' for 'MED-454' does not resolve
-ERROR: ValueSet.text.div: Hyperlink 'CodeSystem-1.2.250.1.213.1.1.4.322.html#1.2.250.1.213.1.1.4.322-MED-455' at 'div/ul/li/table/tr/td/a' for 'MED-455' does not resolve
-ERROR: ValueSet.text.div: Hyperlink 'CodeSystem-1.2.250.1.213.1.1.4.322.html#1.2.250.1.213.1.1.4.322-MED-456' at 'div/ul/li/table/tr/td/a' for 'MED-456' does not resolve
-ERROR: ValueSet.text.div: Hyperlink 'CodeSystem-1.2.250.1.213.1.1.4.322.html#1.2.250.1.213.1.1.4.322-MED-457' at 'div/ul/li/table/tr/td/a' for 'MED-457' does not resolve
-ERROR: ValueSet.text.div: Hyperlink 'CodeSystem-1.2.250.1.213.1.1.4.322.html#1.2.250.1.213.1.1.4.322-MED-458' at 'div/ul/li/table/tr/td/a' for 'MED-458' does not resolve
+WARNING: ValueSet/1.2.250.1.213.1.1.5.215: ValueSet.compose.include[1]: Unknown System 'urn:oid:2.16.840.1.113883.6.96' specified, so Concepts and Filters can't be checked (Details: A definition for CodeSystem 'urn:oid:2.16.840.1.113883.6.96' could not be found, so the code cannot be validated)
+WARNING: ValueSet.where(id = '1.2.250.1.213.1.1.5.215'): Error from http://tx.fhir.org/r4: Unable to provide support for code system urn:oid:2.16.840.1.113883.6.96
 == input/ontoserver/JDV/JDV_LocalisationAnatomique_CISIS.json ==
 WARNING: ValueSet/1.2.250.1.213.1.1.5.694: ValueSet.compose.include[0]: Unknown System 'http://snomed.info/sct' specified, so Concepts and Filters can't be checked (Details: A definition for CodeSystem 'http://snomed.info/sct' version 'http://snomed.info/sct/11000315107' could not be found, so the code cannot be validated. Valid versions: [3.2.1])
 WARNING: ValueSet.where(id = '1.2.250.1.213.1.1.5.694'): Error from http://tx.fhir.org/r4: Unable to provide support for code system http://snomed.info/sct

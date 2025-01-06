@@ -32988,6 +32988,30 @@
         "valueString" : "ValueSet"
       }],
       "reference" : {
+        "reference" : "ValueSet/JDV-J12-CiviliteTitre-CISIS"
+      },
+      "name" : "JDV J12 CiviliteTitre CISIS",
+      "description" : "Titre civilité - CI-SIS",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      }],
+      "reference" : {
+        "reference" : "ValueSet/JDV-J70-Equipement-Santefr"
+      },
+      "name" : "JDV J70 Equipement Santefr",
+      "description" : "Equipements Santé.fr",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      }],
+      "reference" : {
         "reference" : "ValueSet/TRE-R222-MediaTypeCorpsCDANonStructure-all"
       },
       "name" : "JDV-MediaTypeCorpsCDANonStructure",
@@ -36756,18 +36780,6 @@
         "valueString" : "ValueSet"
       }],
       "reference" : {
-        "reference" : "ValueSet/JDV-J12-CiviliteTitre-CISIS"
-      },
-      "name" : "JDV_J12_CiviliteTitre_CISIS",
-      "description" : "Titre civilité - CI-SIS",
-      "exampleBoolean" : false
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "ValueSet"
-      }],
-      "reference" : {
         "reference" : "ValueSet/JDV-J131-CategorieActiviteSanitaireRegulee-RASS"
       },
       "name" : "JDV_J131_CategorieActiviteSanitaireRegulee_RASS",
@@ -38784,30 +38796,6 @@
         "valueString" : "ValueSet"
       }],
       "reference" : {
-        "reference" : "ValueSet/JDV-J69-ActiviteOperationnelle-Santefr"
-      },
-      "name" : "JDV_J69_ActiviteOperationnelle_Santefr",
-      "description" : "Activités opérationnelles de Santé.fr",
-      "exampleBoolean" : false
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "ValueSet"
-      }],
-      "reference" : {
-        "reference" : "ValueSet/JDV-J70-Equipement-Santefr"
-      },
-      "name" : "JDV_J70_Equipement_Santefr",
-      "description" : "Equipements Santé.fr",
-      "exampleBoolean" : false
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "ValueSet"
-      }],
-      "reference" : {
         "reference" : "ValueSet/JDV-J71-ProfessionFonction-MSSante"
       },
       "name" : "JDV_J71_ProfessionFonction_MSSante",
@@ -39600,7 +39588,7 @@
         "valueString" : "ValueSet"
       }],
       "reference" : {
-        "reference" : "ValueSet/1.2.250.1.213.1.1.5.207"
+        "reference" : "ValueSet/1.2.250.1.213.1.1.5.215"
       },
       "name" : "JDV_LocaThromboseVeineuse_CISIS",
       "description" : "JDV_LocaThromboseVeineuse_CISIS",

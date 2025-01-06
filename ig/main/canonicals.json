@@ -327,7 +327,7 @@
     "id" : "JDV-J10-XdsFormatCode-CISIS",
     "type" : "ValueSet",
     "url" : "https://mos.esante.gouv.fr/NOS/JDV_J10-XdsFormatCode-CISIS/FHIR/JDV-J10-XdsFormatCode-CISIS",
-    "version" : "1.1.0",
+    "version" : "20240726120000",
     "name" : "JDV_J10_XdsFormatCode_CISIS",
     "oids" : ["1.2.250.1.213.1.1.5.465"]
   },
@@ -1866,14 +1866,6 @@
     "version" : "20230127120000",
     "name" : "JDV_J68_ProfilAccesReferentiel_ROR",
     "oids" : ["1.2.250.1.213.3.3.66"]
-  },
-  {
-    "id" : "JDV-J69-ActiviteOperationnelle-Santefr",
-    "type" : "ValueSet",
-    "url" : "https://mos.esante.gouv.fr/NOS/JDV_J69-ActiviteOperationnelle-Santefr/FHIR/JDV-J69-ActiviteOperationnelle-Santefr",
-    "version" : "20240531120000",
-    "name" : "JDV_J69_ActiviteOperationnelle_Santefr",
-    "oids" : ["1.2.250.1.213.3.3.68"]
   },
   {
     "id" : "JDV-J70-Equipement-Santefr",
@@ -5719,14 +5711,6 @@
     "oids" : ["1.2.250.1.213.1.1.5.206"]
   },
   {
-    "id" : "1.2.250.1.213.1.1.5.207",
-    "type" : "ValueSet",
-    "url" : "https://smt.esante.gouv.fr/fhir/ValueSet/1.2.250.1.213.1.1.5.207",
-    "version" : "20230606000000",
-    "name" : "JDV_LocaThromboseVeineuse_CISIS",
-    "oids" : ["1.2.250.1.213.1.1.5.207"]
-  },
-  {
     "id" : "1.2.250.1.213.1.1.5.208",
     "type" : "ValueSet",
     "url" : "https://smt.esante.gouv.fr/fhir/ValueSet/1.2.250.1.213.1.1.5.208",
@@ -5781,6 +5765,14 @@
     "version" : "20230707000000",
     "name" : "JDV_ArtereTronc_CISIS",
     "oids" : ["1.2.250.1.213.1.1.5.214"]
+  },
+  {
+    "id" : "1.2.250.1.213.1.1.5.215",
+    "type" : "ValueSet",
+    "url" : "https://smt.esante.gouv.fr/fhir/ValueSet/1.2.250.1.213.1.1.5.215",
+    "version" : "20231114000000",
+    "name" : "JDV_LocaThromboseVeineuse_CISIS",
+    "oids" : ["1.2.250.1.213.1.1.5.215"]
   },
   {
     "id" : "1.2.250.1.213.1.1.5.216",
