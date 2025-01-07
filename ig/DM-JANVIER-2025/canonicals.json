@@ -144,7 +144,7 @@
     "id" : "ASS-A30-TypeAutorisation-Profession-EPARS",
     "type" : "ConceptMap",
     "url" : "https://mos.esante.gouv.fr/NOS/ASS_A30-TypeAutorisation-Profession-EPARS/FHIR/ASS-A30-TypeAutorisation-Profession-EPARS",
-    "version" : "20241121120000",
+    "version" : "20250106120000",
     "name" : "ASS_A30_TypeAutorisation_Profession_EPARS"
   },
   {
