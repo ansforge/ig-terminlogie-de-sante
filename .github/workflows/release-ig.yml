@@ -103,6 +103,11 @@ jobs:
       - name: 🏃‍♂️ Run  Publisher to release
         run :   java -Xmx16344m  -Dfile.encoding=UTF-8 -jar publisher.jar -go-publish -source igSource  -web  ./IG-terminology-website-release/www/ -registry ./IG-terminology-website-release/ig-registry/fhir-ig-list.json -history ./IG-terminology-website-release/fhir-ig-history-template -templates ./IG-terminology-website-release/templates    -temp      /home/runner/work/publication/temp 
 
+
+      - name: Liste des fichiers de www
+        run: |
+              cd  ./IG-terminology-website-release/www
+              ls -lR
                
       - name: Run script python
         run: |
