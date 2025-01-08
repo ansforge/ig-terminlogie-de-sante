@@ -1,5 +1,5 @@
 {
-  "package": "ans.fr.terminologie",
+  "package": "ans.fr.terminologies",
   "version": "1.1.0",
   "fhirVersion": "4.0.1",
   "jurisdiction": "FR",

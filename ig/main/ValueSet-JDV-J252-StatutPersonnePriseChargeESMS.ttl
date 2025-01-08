@@ -5,7 +5,7 @@
 
 # - resource -------------------------------------------------------------------
 
-<https://interop.esante.gouv.fr/terminologie/ValueSet/JDV-J252-StatutPersonnePriseChargeESMS> a fhir:ValueSet ;
+<https://interop.esante.gouv.fr/terminologies/ValueSet/JDV-J252-StatutPersonnePriseChargeESMS> a fhir:ValueSet ;
   fhir:nodeRole fhir:treeRoot ;
   fhir:id [ fhir:v "JDV-J252-StatutPersonnePriseChargeESMS"] ; # 
   fhir:meta [

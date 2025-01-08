@@ -5,7 +5,7 @@
 
 # - resource -------------------------------------------------------------------
 
-<https://interop.esante.gouv.fr/terminologie/ConceptMap/ASS-A14-FamilleActivite-ActiviteOperationnelle> a fhir:ConceptMap ;
+<https://interop.esante.gouv.fr/terminologies/ConceptMap/ASS-A14-FamilleActivite-ActiviteOperationnelle> a fhir:ConceptMap ;
   fhir:nodeRole fhir:treeRoot ;
   fhir:id [ fhir:v "ASS-A14-FamilleActivite-ActiviteOperationnelle"] ; # 
   fhir:text [

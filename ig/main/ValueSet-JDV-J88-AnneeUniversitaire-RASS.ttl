@@ -5,7 +5,7 @@
 
 # - resource -------------------------------------------------------------------
 
-<https://interop.esante.gouv.fr/terminologie/ValueSet/JDV-J88-AnneeUniversitaire-RASS> a fhir:ValueSet ;
+<https://interop.esante.gouv.fr/terminologies/ValueSet/JDV-J88-AnneeUniversitaire-RASS> a fhir:ValueSet ;
   fhir:nodeRole fhir:treeRoot ;
   fhir:id [ fhir:v "JDV-J88-AnneeUniversitaire-RASS"] ; # 
   fhir:meta [

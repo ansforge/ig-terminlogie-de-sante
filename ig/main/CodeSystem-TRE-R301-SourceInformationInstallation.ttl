@@ -5,7 +5,7 @@
 
 # - resource -------------------------------------------------------------------
 
-<https://interop.esante.gouv.fr/terminologie/CodeSystem/TRE-R301-SourceInformationInstallation> a fhir:CodeSystem ;
+<https://interop.esante.gouv.fr/terminologies/CodeSystem/TRE-R301-SourceInformationInstallation> a fhir:CodeSystem ;
   fhir:nodeRole fhir:treeRoot ;
   fhir:id [ fhir:v "TRE-R301-SourceInformationInstallation"] ; # 
   fhir:meta [

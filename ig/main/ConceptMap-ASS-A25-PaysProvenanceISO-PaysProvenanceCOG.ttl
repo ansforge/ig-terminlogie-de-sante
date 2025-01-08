@@ -5,7 +5,7 @@
 
 # - resource -------------------------------------------------------------------
 
-<https://interop.esante.gouv.fr/terminologie/ConceptMap/ASS-A25-PaysProvenanceISO-PaysProvenanceCOG> a fhir:ConceptMap ;
+<https://interop.esante.gouv.fr/terminologies/ConceptMap/ASS-A25-PaysProvenanceISO-PaysProvenanceCOG> a fhir:ConceptMap ;
   fhir:nodeRole fhir:treeRoot ;
   fhir:id [ fhir:v "ASS-A25-PaysProvenanceISO-PaysProvenanceCOG"] ; # 
   fhir:text [

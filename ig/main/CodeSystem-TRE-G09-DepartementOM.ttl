@@ -6,7 +6,7 @@
 
 # - resource -------------------------------------------------------------------
 
-<https://interop.esante.gouv.fr/terminologie/CodeSystem/TRE-G09-DepartementOM> a fhir:CodeSystem ;
+<https://interop.esante.gouv.fr/terminologies/CodeSystem/TRE-G09-DepartementOM> a fhir:CodeSystem ;
   fhir:nodeRole fhir:treeRoot ;
   fhir:id [ fhir:v "TRE-G09-DepartementOM"] ; # 
   fhir:meta [

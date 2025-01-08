@@ -1,9 +1,9 @@
-Terminologie : Validation Results
+Terminologies : Validation Results
 =========================================
 
 err = 1428, warn = 1573, info = 841
 IG Publisher Version: 1.8.6
-Generated Tue Jan 07 10:52:55 UTC 2025. FHIR version 4.0.1 for ans.fr.terminologie#1.1.0 (canonical = https://interop.esante.gouv.fr/terminologie)
+Generated Wed Jan 08 04:51:27 UTC 2025. FHIR version 4.0.1 for ans.fr.terminologies#1.1.0 (canonical = https://interop.esante.gouv.fr/terminologies)
  Build Errors : 854 / 22 / 0
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/DM/fsh-generated/resources/CodeSystem-snomed-CT : 0 / 0 / 1
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/DM/fsh-generated/resources/ConceptMap-ASS-A11-CorresModeleCDA-XdsFormatCode-CISIS : 26 / 0 / 1
@@ -38,7 +38,7 @@ Generated Tue Jan 07 10:52:55 UTC 2025. FHIR version 4.0.1 for ans.fr.terminolog
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/DM/fsh-generated/resources/ValueSet-JDV-ModeleDocumentCDA : 0 / 0 / 1
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/DM/fsh-generated/resources/ValueSet-JDV-TRE-R221-ModeleDocumentCDANonStructure-all : 0 / 0 / 1
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/DM/fsh-generated/resources/ValueSet-TRE-R222-MediaTypeCorpsCDANonStructure-all : 0 / 0 / 1
- /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/fsh-generated/resources/ImplementationGuide-ans.fr.terminologie : 0 / 0 / 1
+ /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/fsh-generated/resources/ImplementationGuide-ans.fr.terminologies : 0 / 0 / 1
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/ASS/Alignement_Codes_ATC_NUVA_ATC : 195 / 4 / 1
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/ASS/Alignement_Codes_CIP_CIS_NUVA_BDPM : 378 / 4 / 1
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/ASS/Alignement_Codes_CIP_NUVA_CIPUCD : 0 / 3 / 2
@@ -2778,10 +2778,10 @@ ERROR: ConceptMap/ASS-X16-CorrespondanceType-Classe-DMP: ConceptMap.group[0].ele
 == DM/fsh-generated/resources/ValueSet-JDV-ModeleDocumentCDA.json ==
 == DM/fsh-generated/resources/ValueSet-JDV-TRE-R221-ModeleDocumentCDANonStructure-all.json ==
 == DM/fsh-generated/resources/ValueSet-TRE-R222-MediaTypeCorpsCDANonStructure-all.json ==
-== fsh-generated/resources/ImplementationGuide-ans.fr.terminologie.json ==
+== fsh-generated/resources/ImplementationGuide-ans.fr.terminologies.json ==
 == input/ontoserver/ASS/Alignement_Codes_ATC_NUVA_ATC.json ==
-ERROR: ConceptMap.where(url = 'https://smt.esante.gouv.fr/fhir/ConceptMap/alignement-nuva-atc'): Conformance resource /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/ASS/Alignement_Codes_ATC_NUVA_ATC.json - the canonical URL (https://interop.esante.gouv.fr/terminologie/ConceptMap/alignement-nuva-atc) does not match the URL (https://smt.esante.gouv.fr/fhir/ConceptMap/alignement-nuva-atc)
-ERROR: ConceptMap.where(url = 'https://smt.esante.gouv.fr/fhir/ConceptMap/alignement-nuva-atc'): Conformance resource /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/ASS/Alignement_Codes_ATC_NUVA_ATC.json - the canonical URL (https://interop.esante.gouv.fr/terminologie/ConceptMap/alignement-nuva-atc) does not match the URL (https://smt.esante.gouv.fr/fhir/ConceptMap/alignement-nuva-atc)
+ERROR: ConceptMap.where(url = 'https://smt.esante.gouv.fr/fhir/ConceptMap/alignement-nuva-atc'): Conformance resource /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/ASS/Alignement_Codes_ATC_NUVA_ATC.json - the canonical URL (https://interop.esante.gouv.fr/terminologies/ConceptMap/alignement-nuva-atc) does not match the URL (https://smt.esante.gouv.fr/fhir/ConceptMap/alignement-nuva-atc)
+ERROR: ConceptMap.where(url = 'https://smt.esante.gouv.fr/fhir/ConceptMap/alignement-nuva-atc'): Conformance resource /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/ASS/Alignement_Codes_ATC_NUVA_ATC.json - the canonical URL (https://interop.esante.gouv.fr/terminologies/ConceptMap/alignement-nuva-atc) does not match the URL (https://smt.esante.gouv.fr/fhir/ConceptMap/alignement-nuva-atc)
 WARNING: ConceptMap/alignement-nuva-atc: ConceptMap.useContext[0].value.ofType(CodeableConcept).coding[0]: A definition for CodeSystem 'https://smt.esante.gouv.fr/terminologie-ncit' could not be found, so the code cannot be validated
 WARNING: ConceptMap/alignement-nuva-atc: ConceptMap.group[0].source: Source Code System https://smt.esante.gouv.fr/terminologie-nuva doesn't have all content (content = not-present), so the source codes cannot be checked
 WARNING: ConceptMap/alignement-nuva-atc: ConceptMap.group[0].target: Target Code System https://smt.esante.gouv.fr/terminologie-atc doesn't have all content (content = not-present), so the target codes cannot be checked
@@ -2978,7 +2978,7 @@ ERROR: ConceptMap/alignement-nuva-atc: ConceptMap.group[0].element[94].code: The
 ERROR: ConceptMap/alignement-nuva-atc: ConceptMap.group[0].element[94].target[0].code: The code 'J07AM01' in the system https://smt.esante.gouv.fr/terminologie-atc is not valid in the value set 'https://smt.esante.gouv.fr/terminologie-atc?vs'
 ERROR: ConceptMap/alignement-nuva-atc: ConceptMap.group[0].element[95].code: The code 'VAC0600' in the system https://smt.esante.gouv.fr/terminologie-nuva is not valid in the value set 'https://smt.esante.gouv.fr/terminologie-nuva?vs'
 ERROR: ConceptMap/alignement-nuva-atc: ConceptMap.group[0].element[95].target[0].code: The code 'J07BF04' in the system https://smt.esante.gouv.fr/terminologie-atc is not valid in the value set 'https://smt.esante.gouv.fr/terminologie-atc?vs'
-ERROR: /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/ASS/Alignement_Codes_ATC_NUVA_ATC: URL Mismatch https://interop.esante.gouv.fr/terminologie/ConceptMap/alignement-nuva-atc vs https://smt.esante.gouv.fr/fhir/ConceptMap/alignement-nuva-atc
+ERROR: /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/ASS/Alignement_Codes_ATC_NUVA_ATC: URL Mismatch https://interop.esante.gouv.fr/terminologies/ConceptMap/alignement-nuva-atc vs https://smt.esante.gouv.fr/fhir/ConceptMap/alignement-nuva-atc
 == input/ontoserver/ASS/Alignement_Codes_CIP_CIS_NUVA_BDPM.json ==
 WARNING: ConceptMap/alignement-nuva-bdpm: ConceptMap.useContext[0].value.ofType(CodeableConcept).coding[0]: A definition for CodeSystem 'https://smt.esante.gouv.fr/terminologie-ncit' could not be found, so the code cannot be validated
 WARNING: ConceptMap/alignement-nuva-bdpm: ConceptMap.group[0].source: Source Code System https://smt.esante.gouv.fr/terminologie-nuva doesn't have all content (content = not-present), so the source codes cannot be checked

@@ -5,7 +5,7 @@
 
 # - resource -------------------------------------------------------------------
 
-<https://interop.esante.gouv.fr/terminologie/ConceptMap/ASS-X04-CorrespondanceType-Classe-CISIS> a fhir:ConceptMap ;
+<https://interop.esante.gouv.fr/terminologies/ConceptMap/ASS-X04-CorrespondanceType-Classe-CISIS> a fhir:ConceptMap ;
   fhir:nodeRole fhir:treeRoot ;
   fhir:id [ fhir:v "ASS-X04-CorrespondanceType-Classe-CISIS"] ; # 
   fhir:text [

@@ -24,22 +24,22 @@
     "oids" : ["2.16.840.1.113883.4.642.1.1145"]
   },
   {
-    "id" : "ans.fr.terminologie",
+    "id" : "ans.fr.terminologies",
     "type" : "ImplementationGuide",
-    "url" : "https://interop.esante.gouv.fr/terminologie/ImplementationGuide/ans.fr.terminologie",
+    "url" : "https://interop.esante.gouv.fr/terminologies/ImplementationGuide/ans.fr.terminologies",
     "version" : "1.1.0",
-    "name" : "Terminologie"
+    "name" : "Terminologies"
   },
   {
     "id" : "Snomed-CT-core",
     "type" : "NamingSystem",
-    "url" : "https://interop.esante.gouv.fr/terminologie/NamingSystem/Snomed-CT-core",
+    "url" : "https://interop.esante.gouv.fr/terminologies/NamingSystem/Snomed-CT-core",
     "name" : "Snomed_CT_core_900000000000207008"
   },
   {
     "id" : "v3-loinc",
     "type" : "NamingSystem",
-    "url" : "https://interop.esante.gouv.fr/terminologie/NamingSystem/v3-loinc",
+    "url" : "https://interop.esante.gouv.fr/terminologies/NamingSystem/v3-loinc",
     "name" : "LOINC"
   },
   {
