@@ -37,6 +37,8 @@ jobs:
       - name: Suppression des fichiers FSH
         run: | 
           rm ./igSource/DM/input/fsh/Done/GitHub/*.fsh
+          rm ./igSource/DM/input/fsh/InProgress/*.fsh
+          rm ./igSource/DM/input/fsh/Done/Ontoserver/*.fsh
 
           
       - name: Get From ontoserver      
