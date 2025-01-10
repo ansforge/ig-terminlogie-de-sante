@@ -13,7 +13,7 @@ Dans le fichier **build-ig.yml** contenu dans le dossier **.github/workflows**, 
 * **rm ./igSource/DM/input/fsh/InProgress/*.fsh**
 * **rm ./igSource/DM/input/fsh/Done/Ontoserver/*.fsh**
 
-Les 2 lignes ci-dessus permettront lors d'un build de la branche en cours, de visualiser les FSH des NOS contenus dans les dossiers **Inprogress** et **Ontoserver**.
+Les 2 lignes ci-dessus permettront lors d'un build de la branche en cours, de visualiser les FSH des NOS contenus dans les dossiers **Inprogress** et **Ontoserver** (ces lignes sont à ajouter uniquement si des FSH ont été ajoutés dans les 2 dossiers ci-dessus). 
 
 ### Publication des NOS créées/modifiées durant le mois en cours
 
