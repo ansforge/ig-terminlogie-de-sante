@@ -1,9 +1,9 @@
 Terminologie : Validation Results
 =========================================
 
-err = 1380, warn = 1572, info = 841
-IG Publisher Version: 1.8.6
-Generated Tue Jan 07 12:25:54 UTC 2025. FHIR version 4.0.1 for ans.fr.terminologie#1.1.0 (canonical = https://interop.esante.gouv.fr/terminologie)
+err = 1382, warn = 1670, info = 974
+IG Publisher Version: 1.8.7
+Generated Fri Jan 10 10:03:26 UTC 2025. FHIR version 4.0.1 for ans.fr.terminologie#1.1.0 (canonical = https://interop.esante.gouv.fr/terminologie)
  Build Errors : 844 / 22 / 0
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/DM/fsh-generated/resources/CodeSystem-snomed-CT : 0 / 0 / 1
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/DM/fsh-generated/resources/ConceptMap-ASS-A11-CorresModeleCDA-XdsFormatCode-CISIS : 0 / 0 / 1
@@ -436,7 +436,7 @@ Generated Tue Jan 07 12:25:54 UTC 2025. FHIR version 4.0.1 for ans.fr.terminolog
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_J169_MotifFinActivite_EPARS : 0 / 1 / 1
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_J16_ActeSpecifique_ROR : 0 / 1 / 3
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_J170_AutoriteEnregistrement_EPARS : 0 / 1 / 1
- /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_J171_TypeAutorisation_EPARS : 1 / 2 / 1
+ /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_J171_TypeAutorisation_EPARS : 2 / 1 / 1
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_J172_SecteurActivite_EPARS : 0 / 1 / 1
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_J173_FinessStatutJuridique_EPARS : 0 / 1 / 1
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_J176_SituationVieQuotidienne_MDPH : 0 / 1 / 1
@@ -570,7 +570,7 @@ Generated Tue Jan 07 12:25:54 UTC 2025. FHIR version 4.0.1 for ans.fr.terminolog
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_J72_TypeProfessionFonction_MSSante : 0 / 1 / 1
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_J73_MetierPharmacien_RASS : 0 / 1 / 1
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_J74_Pays_RASS : 0 / 1 / 1
- /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_J75_TypeAutorisation_RASS : 1 / 2 / 1
+ /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_J75_TypeAutorisation_RASS : 2 / 1 / 1
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_J76_DisciplineAutorisation_RASS : 0 / 1 / 1
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_J77_TypeIdentifiantPersonne_RASS : 0 / 1 / 1
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_J78_Civilite_RASS : 0 / 1 / 1
@@ -1035,20 +1035,20 @@ Generated Tue Jan 07 12:25:54 UTC 2025. FHIR version 4.0.1 for ans.fr.terminolog
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/modeSortie : 4 / 5 / 3
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/NamingSystem/LOINC : 1 / 0 / 1
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/NamingSystem/Snomed_CT_core_900000000000207008 : 1 / 0 / 1
- /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/TRE/ATC : 3 / 2 / 5
- /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/TRE/Base_de_donn_es_publique_du_m_dicament___BDPM : 3 / 2 / 5
- /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/TRE/CCAM : 3 / 3 / 5
- /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/TRE/CIM11_MMS : 3 / 2 / 5
- /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/TRE/CIM_10 : 3 / 2 / 5
- /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/TRE/CISP_2 : 3 / 2 / 5
- /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/TRE/CLADIMED : 3 / 3 / 5
- /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/TRE/Dictionnaire_des_substances_m_dicamenteuses__SMS_ : 3 / 3 / 5
- /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/TRE/EDQM___Standard_Terms : 3 / 3 / 5
- /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/TRE/EMDN : 3 / 3 / 5
- /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/TRE/LAHN : 0 / 1 / 4
- /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/TRE/NABM : 3 / 2 / 5
- /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/TRE/NUVA : 3 / 2 / 5
- /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/TRE/SERAFIN_PH : 0 / 1 / 4
+ /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/TRE/ATC : 3 / 6 / 9
+ /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/TRE/Base_de_donn_es_publique_du_m_dicament___BDPM : 3 / 11 / 27
+ /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/TRE/CCAM : 3 / 25 / 26
+ /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/TRE/CIM11_MMS : 3 / 13 / 20
+ /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/TRE/CIM_10 : 3 / 10 / 10
+ /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/TRE/CISP_2 : 3 / 8 / 10
+ /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/TRE/CLADIMED : 3 / 4 / 6
+ /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/TRE/Dictionnaire_des_substances_m_dicamenteuses__SMS_ : 3 / 5 / 14
+ /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/TRE/EDQM___Standard_Terms : 3 / 25 / 27
+ /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/TRE/EMDN : 3 / 3 / 6
+ /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/TRE/LAHN : 0 / 3 / 8
+ /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/TRE/NABM : 3 / 5 / 20
+ /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/TRE/NUVA : 3 / 9 / 11
+ /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/TRE/SERAFIN_PH : 0 / 4 / 7
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/TRE/ServiceType : 0 / 0 / 1
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/TRE/TA_ASIP : 0 / 1 / 1
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/TRE/TRE_A00_ProducteurDocNonPS : 0 / 1 / 4
@@ -4417,7 +4417,7 @@ INFORMATION: ValueSet.where(id = 'JDV-J16-ActeSpecifique-ROR'): The value set ex
 == input/ontoserver/JDV/JDV_J170_AutoriteEnregistrement_EPARS.json ==
 WARNING: ValueSet/JDV-J170-AutoriteEnregistrement-EPARS: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.title is mandatory, but it is not present
 == input/ontoserver/JDV/JDV_J171_TypeAutorisation_EPARS.json ==
-WARNING: ValueSet/JDV-J171-TypeAutorisation-EPARS: ValueSet.compose.include[1]: Unknown System 'https://mos.esante.gouv.fr/NOS/JDV_J171-TypeAutorisation-EPARS/FHIR/JDV-J171-TypeAutorisation-EPARS' specified, so Concepts and Filters can't be checked (Details: The Coding references a value set, not a code system ('https://mos.esante.gouv.fr/NOS/JDV_J171-TypeAutorisation-EPARS/FHIR/JDV-J171-TypeAutorisation-EPARS'))
+ERROR: ValueSet/JDV-J171-TypeAutorisation-EPARS: ValueSet.compose.include[1]: The system 'https://mos.esante.gouv.fr/NOS/JDV_J171-TypeAutorisation-EPARS/FHIR/JDV-J171-TypeAutorisation-EPARS' is actually a value set, which itself refers to the systems https://mos.esante.gouv.fr/NOS/JDV_J171-TypeAutorisation-EPARS/FHIR/JDV-J171-TypeAutorisation-EPARS, https://mos.esante.gouv.fr/NOS/TRE_R17-TypeAutorisation/FHIR/TRE-R17-TypeAutorisation
 WARNING: ValueSet/JDV-J171-TypeAutorisation-EPARS: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.title is mandatory, but it is not present
 ERROR: ValueSet.where(id = 'JDV-J171-TypeAutorisation-EPARS'): Error from http://tx.fhir.org/r4: Attempt to reference https://mos.esante.gouv.fr/NOS/JDV_J171-TypeAutorisation-EPARS/FHIR/JDV-J171-TypeAutorisation-EPARS as a CodeSystem when it's a ValueSet
 == input/ontoserver/JDV/JDV_J172_SecteurActivite_EPARS.json ==
@@ -4746,7 +4746,7 @@ WARNING: ValueSet/JDV-J73-MetierPharmacien-RASS: ValueSet: Published value sets 
 == input/ontoserver/JDV/JDV_J74_Pays_RASS.json ==
 WARNING: ValueSet/JDV-J74-Pays-RASS: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.title is mandatory, but it is not present
 == input/ontoserver/JDV/JDV_J75_TypeAutorisation_RASS.json ==
-WARNING: ValueSet/JDV-J75-TypeAutorisation-RASS: ValueSet.compose.include[1]: Unknown System 'https://mos.esante.gouv.fr/NOS/JDV_J171-TypeAutorisation-EPARS/FHIR/JDV-J171-TypeAutorisation-EPARS' specified, so Concepts and Filters can't be checked (Details: A definition for CodeSystem 'https://mos.esante.gouv.fr/NOS/JDV_J171-TypeAutorisation-EPARS/FHIR/JDV-J171-TypeAutorisation-EPARS' could not be found, so the code cannot be validated)
+ERROR: ValueSet/JDV-J75-TypeAutorisation-RASS: ValueSet.compose.include[1]: The system 'https://mos.esante.gouv.fr/NOS/JDV_J171-TypeAutorisation-EPARS/FHIR/JDV-J171-TypeAutorisation-EPARS' is actually a value set, which itself refers to the systems https://mos.esante.gouv.fr/NOS/JDV_J171-TypeAutorisation-EPARS/FHIR/JDV-J171-TypeAutorisation-EPARS, https://mos.esante.gouv.fr/NOS/TRE_R17-TypeAutorisation/FHIR/TRE-R17-TypeAutorisation
 WARNING: ValueSet/JDV-J75-TypeAutorisation-RASS: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.title is mandatory, but it is not present
 ERROR: ValueSet.where(id = 'JDV-J75-TypeAutorisation-RASS'): Error from http://tx.fhir.org/r4: Attempt to reference https://mos.esante.gouv.fr/NOS/JDV_J171-TypeAutorisation-EPARS/FHIR/JDV-J171-TypeAutorisation-EPARS as a CodeSystem when it's a ValueSet
 == input/ontoserver/JDV/JDV_J76_DisciplineAutorisation_RASS.json ==
@@ -6158,6 +6158,14 @@ INFORMATION: CodeSystem/terminologie-atc: CodeSystem: CodeSystems SHOULD have a 
 INFORMATION: CodeSystem/terminologie-atc: CodeSystem: Review the All Codes Value Set - incomplete CodeSystems generally should not have an all codes value set specified
 WARNING: CodeSystem/terminologie-atc: CodeSystem: Published code systems SHOULD conform to the ShareableCodeSystem profile, which says that the element CodeSystem.description is mandatory, but it is not present
 WARNING: CodeSystem/terminologie-atc: CodeSystem: Published code systems SHOULD conform to the ShareableCodeSystem profile, which says that the element CodeSystem.caseSensitive is mandatory, but it is not present
+INFORMATION: CodeSystem/terminologie-atc: CodeSystem.property[0]: The property uri 'http://purl.org/dc/terms/created' is not known, so the property values can not be validated fully
+WARNING: CodeSystem/terminologie-atc: CodeSystem.property[1]: The base property uri 'http://www.w3.org/ns/adms' is not known for the property 'status', so the property values can not be validated fully
+INFORMATION: CodeSystem/terminologie-atc: CodeSystem.property[2]: The property uri 'http://purl.org/dc/elements/1.1/type' is not known, so the property values can not be validated fully
+WARNING: CodeSystem/terminologie-atc: CodeSystem.property[3]: The base property uri 'http://www.w3.org/2000/01/rdf-schema' is not known for the property 'comment', so the property values can not be validated fully
+INFORMATION: CodeSystem/terminologie-atc: CodeSystem.property[4]: The property uri 'http://purl.org/dc/terms/modified' is not known, so the property values can not be validated fully
+WARNING: CodeSystem/terminologie-atc: CodeSystem.property[5]: The base property uri 'http://www.w3.org/2002/07/owl' is not known for the property 'deprecated', so the property values can not be validated fully
+WARNING: CodeSystem/terminologie-atc: CodeSystem.property[6]: The property uri 'http://purl.org/dc/terms/isReplacedBy' is not known, so the property values can not be validated fully; unless specified elsewhere, codes will be treated as internal references
+INFORMATION: CodeSystem/terminologie-atc: CodeSystem.property[6]: The type of property 'code' is 'code', but no ValueSet information was found, so the codes will be validated as internal codes
 INFORMATION: CodeSystem/terminologie-atc: CodeSystem.property[9]: This property has only a code ('imported') and not a URI, so it has no clearly defined meaning in the terminology ecosystem
 INFORMATION: CodeSystem/terminologie-atc: CodeSystem.property[10]: This property has only a code ('root') and not a URI, so it has no clearly defined meaning in the terminology ecosystem
 == input/ontoserver/TRE/Base_de_donn_es_publique_du_m_dicament___BDPM.json ==
@@ -6168,6 +6176,37 @@ INFORMATION: CodeSystem/terminologie-bdpm: CodeSystem: CodeSystems SHOULD have a
 INFORMATION: CodeSystem/terminologie-bdpm: CodeSystem: Review the All Codes Value Set - incomplete CodeSystems generally should not have an all codes value set specified
 WARNING: CodeSystem/terminologie-bdpm: CodeSystem: Published code systems SHOULD conform to the ShareableCodeSystem profile, which says that the element CodeSystem.description is mandatory, but it is not present
 WARNING: CodeSystem/terminologie-bdpm: CodeSystem: Published code systems SHOULD conform to the ShareableCodeSystem profile, which says that the element CodeSystem.caseSensitive is mandatory, but it is not present
+WARNING: CodeSystem/terminologie-bdpm: CodeSystem.property[0]: The base property uri 'http://www.w3.org/2004/02/skos/core' is not known for the property 'broader', so the property values can not be validated fully
+INFORMATION: CodeSystem/terminologie-bdpm: CodeSystem.property[0]: The type of property 'code' is 'code', but no ValueSet information was found, so the codes will be validated as internal codes
+WARNING: CodeSystem/terminologie-bdpm: CodeSystem.property[1]: The property uri 'http://www.data.esante.gouv.fr/ANSM/BDPM-core-ontology/etat_commercialisation' is not known, so the property values can not be validated fully; unless specified elsewhere, codes will be treated as internal references
+INFORMATION: CodeSystem/terminologie-bdpm: CodeSystem.property[1]: The type of property 'code' is 'code', but no ValueSet information was found, so the codes will be validated as internal codes
+WARNING: CodeSystem/terminologie-bdpm: CodeSystem.property[2]: The property uri 'http://www.data.esante.gouv.fr/ANSM/BDPM-core-ontology/statut_CIP' is not known, so the property values can not be validated fully; unless specified elsewhere, codes will be treated as internal references
+INFORMATION: CodeSystem/terminologie-bdpm: CodeSystem.property[2]: The type of property 'code' is 'code', but no ValueSet information was found, so the codes will be validated as internal codes
+INFORMATION: CodeSystem/terminologie-bdpm: CodeSystem.property[3]: The property uri 'http://www.data.esante.gouv.fr/ANSM/BDPM-core-ontology/date_commercialisation' is not known, so the property values can not be validated fully
+INFORMATION: CodeSystem/terminologie-bdpm: CodeSystem.property[4]: The property uri 'http://www.data.esante.gouv.fr/ANSM/BDPM-core-ontology/taux_remboursement' is not known, so the property values can not be validated fully
+INFORMATION: CodeSystem/terminologie-bdpm: CodeSystem.property[5]: The property uri 'http://www.data.esante.gouv.fr/ANSM/BDPM-core-ontology/prix_total' is not known, so the property values can not be validated fully
+INFORMATION: CodeSystem/terminologie-bdpm: CodeSystem.property[6]: The property uri 'http://www.data.esante.gouv.fr/ANSM/BDPM-core-ontology/tarif_dispensation' is not known, so the property values can not be validated fully
+INFORMATION: CodeSystem/terminologie-bdpm: CodeSystem.property[7]: The property uri 'http://www.data.esante.gouv.fr/ANSM/BDPM-core-ontology/prix_CIP' is not known, so the property values can not be validated fully
+INFORMATION: CodeSystem/terminologie-bdpm: CodeSystem.property[8]: The property uri 'http://www.data.esante.gouv.fr/ANSM/BDPM-core-ontology/agrément_collectivité' is not known, so the property values can not be validated fully
+WARNING: CodeSystem/terminologie-bdpm: CodeSystem.property[9]: The base property uri 'http://www.w3.org/2004/02/skos/core' is not known for the property 'narrower', so the property values can not be validated fully
+INFORMATION: CodeSystem/terminologie-bdpm: CodeSystem.property[9]: The type of property 'code' is 'code', but no ValueSet information was found, so the codes will be validated as internal codes
+WARNING: CodeSystem/terminologie-bdpm: CodeSystem.property[10]: The property uri 'http://www.data.esante.gouv.fr/ANSM/BDPM-core-ontology/substanceActive' is not known, so the property values can not be validated fully; unless specified elsewhere, codes will be treated as internal references
+INFORMATION: CodeSystem/terminologie-bdpm: CodeSystem.property[10]: The type of property 'code' is 'code', but no ValueSet information was found, so the codes will be validated as internal codes
+INFORMATION: CodeSystem/terminologie-bdpm: CodeSystem.property[11]: The property uri 'http://www.data.esante.gouv.fr/ANSM/BDPM-core-ontology/composition_pharmaceutique' is not known, so the property values can not be validated fully
+WARNING: CodeSystem/terminologie-bdpm: CodeSystem.property[12]: The property uri 'http://www.data.esante.gouv.fr/ANSM/BDPM-core-ontology/voieAdministration' is not known, so the property values can not be validated fully; unless specified elsewhere, codes will be treated as internal references
+INFORMATION: CodeSystem/terminologie-bdpm: CodeSystem.property[12]: The type of property 'code' is 'code', but no ValueSet information was found, so the codes will be validated as internal codes
+INFORMATION: CodeSystem/terminologie-bdpm: CodeSystem.property[13]: The property uri 'http://www.data.esante.gouv.fr/ANSM/BDPM-core-ontology/date_AMM' is not known, so the property values can not be validated fully
+INFORMATION: CodeSystem/terminologie-bdpm: CodeSystem.property[14]: The property uri 'http://www.data.esante.gouv.fr/ANSM/BDPM-core-ontology/titulaire' is not known, so the property values can not be validated fully
+INFORMATION: CodeSystem/terminologie-bdpm: CodeSystem.property[15]: The property uri 'http://www.data.esante.gouv.fr/ANSM/BDPM-core-ontology/estCommercialisée' is not known, so the property values can not be validated fully
+WARNING: CodeSystem/terminologie-bdpm: CodeSystem.property[16]: The property uri 'http://www.data.esante.gouv.fr/ANSM/BDPM-core-ontology/formePharmaceutique' is not known, so the property values can not be validated fully; unless specified elsewhere, codes will be treated as internal references
+INFORMATION: CodeSystem/terminologie-bdpm: CodeSystem.property[16]: The type of property 'code' is 'code', but no ValueSet information was found, so the codes will be validated as internal codes
+INFORMATION: CodeSystem/terminologie-bdpm: CodeSystem.property[17]: The property uri 'http://www.data.esante.gouv.fr/ANSM/BDPM-core-ontology/suveillanceRenforcée' is not known, so the property values can not be validated fully
+WARNING: CodeSystem/terminologie-bdpm: CodeSystem.property[18]: The property uri 'http://www.data.esante.gouv.fr/ANSM/BDPM-core-ontology/AMM_TypedeProcédure' is not known, so the property values can not be validated fully; unless specified elsewhere, codes will be treated as internal references
+INFORMATION: CodeSystem/terminologie-bdpm: CodeSystem.property[18]: The type of property 'code' is 'code', but no ValueSet information was found, so the codes will be validated as internal codes
+WARNING: CodeSystem/terminologie-bdpm: CodeSystem.property[19]: The property uri 'http://www.data.esante.gouv.fr/ANSM/BDPM-core-ontology/AMM_Status' is not known, so the property values can not be validated fully; unless specified elsewhere, codes will be treated as internal references
+INFORMATION: CodeSystem/terminologie-bdpm: CodeSystem.property[19]: The type of property 'code' is 'code', but no ValueSet information was found, so the codes will be validated as internal codes
+INFORMATION: CodeSystem/terminologie-bdpm: CodeSystem.property[20]: The property uri 'http://www.data.esante.gouv.fr/ANSM/BDPM-core-ontology/indication_Remboursement' is not known, so the property values can not be validated fully
+INFORMATION: CodeSystem/terminologie-bdpm: CodeSystem.property[21]: The property uri 'http://www.data.esante.gouv.fr/ANSM/BDPM-core-ontology/numero_AutorisationEuropéenne' is not known, so the property values can not be validated fully
 INFORMATION: CodeSystem/terminologie-bdpm: CodeSystem.property[24]: This property has only a code ('imported') and not a URI, so it has no clearly defined meaning in the terminology ecosystem
 INFORMATION: CodeSystem/terminologie-bdpm: CodeSystem.property[25]: This property has only a code ('root') and not a URI, so it has no clearly defined meaning in the terminology ecosystem
 == input/ontoserver/TRE/CCAM.json ==
@@ -6179,6 +6218,49 @@ INFORMATION: CodeSystem/terminologie-ccam: CodeSystem: Review the All Codes Valu
 WARNING: CodeSystem/terminologie-ccam: CodeSystem: Published code systems SHOULD conform to the ShareableCodeSystem profile, which says that the element CodeSystem.title is mandatory, but it is not present
 WARNING: CodeSystem/terminologie-ccam: CodeSystem: Published code systems SHOULD conform to the ShareableCodeSystem profile, which says that the element CodeSystem.description is mandatory, but it is not present
 WARNING: CodeSystem/terminologie-ccam: CodeSystem: Published code systems SHOULD conform to the ShareableCodeSystem profile, which says that the element CodeSystem.caseSensitive is mandatory, but it is not present
+WARNING: CodeSystem/terminologie-ccam: CodeSystem.property[0]: The property uri 'http://data.esante.gouv.fr/cnam/ccam/activite' is not known, so the property values can not be validated fully; unless specified elsewhere, codes will be treated as internal references
+INFORMATION: CodeSystem/terminologie-ccam: CodeSystem.property[0]: The type of property 'code' is 'code', but no ValueSet information was found, so the codes will be validated as internal codes
+WARNING: CodeSystem/terminologie-ccam: CodeSystem.property[1]: The property uri 'http://data.esante.gouv.fr/cnam/ccam/acte' is not known, so the property values can not be validated fully; unless specified elsewhere, codes will be treated as internal references
+INFORMATION: CodeSystem/terminologie-ccam: CodeSystem.property[1]: The type of property 'code' is 'code', but no ValueSet information was found, so the codes will be validated as internal codes
+WARNING: CodeSystem/terminologie-ccam: CodeSystem.property[2]: The property uri 'http://data.esante.gouv.fr/cnam/ccam/modificateur' is not known, so the property values can not be validated fully; unless specified elsewhere, codes will be treated as internal references
+INFORMATION: CodeSystem/terminologie-ccam: CodeSystem.property[2]: The type of property 'code' is 'code', but no ValueSet information was found, so the codes will be validated as internal codes
+WARNING: CodeSystem/terminologie-ccam: CodeSystem.property[3]: The property uri 'http://data.esante.gouv.fr/cnam/ccam/acteActivitePhase' is not known, so the property values can not be validated fully; unless specified elsewhere, codes will be treated as internal references
+INFORMATION: CodeSystem/terminologie-ccam: CodeSystem.property[3]: The type of property 'code' is 'code', but no ValueSet information was found, so the codes will be validated as internal codes
+WARNING: CodeSystem/terminologie-ccam: CodeSystem.property[4]: The property uri 'http://data.esante.gouv.fr/cnam/ccam/phase' is not known, so the property values can not be validated fully; unless specified elsewhere, codes will be treated as internal references
+INFORMATION: CodeSystem/terminologie-ccam: CodeSystem.property[4]: The type of property 'code' is 'code', but no ValueSet information was found, so the codes will be validated as internal codes
+WARNING: CodeSystem/terminologie-ccam: CodeSystem.property[5]: The property uri 'http://data.esante.gouv.fr/cnam/ccam/acteActivite' is not known, so the property values can not be validated fully; unless specified elsewhere, codes will be treated as internal references
+INFORMATION: CodeSystem/terminologie-ccam: CodeSystem.property[5]: The type of property 'code' is 'code', but no ValueSet information was found, so the codes will be validated as internal codes
+INFORMATION: CodeSystem/terminologie-ccam: CodeSystem.property[6]: The property uri 'http://purl.org/dc/terms/created' is not known, so the property values can not be validated fully
+WARNING: CodeSystem/terminologie-ccam: CodeSystem.property[7]: The base property uri 'http://www.w3.org/2002/07/owl' is not known for the property 'disjointWith', so the property values can not be validated fully
+INFORMATION: CodeSystem/terminologie-ccam: CodeSystem.property[7]: The type of property 'code' is 'code', but no ValueSet information was found, so the codes will be validated as internal codes
+WARNING: CodeSystem/terminologie-ccam: CodeSystem.property[8]: The base property uri 'http://rdf-vocabulary.ddialliance.org/xkos' is not known for the property 'exclusionNote', so the property values can not be validated fully
+WARNING: CodeSystem/terminologie-ccam: CodeSystem.property[9]: The base property uri 'http://www.w3.org/2004/02/skos/core' is not known for the property 'scopeNote', so the property values can not be validated fully
+WARNING: CodeSystem/terminologie-ccam: CodeSystem.property[10]: The property uri 'http://data.esante.gouv.fr/cnam/ccam/modeAcces' is not known, so the property values can not be validated fully; unless specified elsewhere, codes will be treated as internal references
+INFORMATION: CodeSystem/terminologie-ccam: CodeSystem.property[10]: The type of property 'code' is 'code', but no ValueSet information was found, so the codes will be validated as internal codes
+WARNING: CodeSystem/terminologie-ccam: CodeSystem.property[11]: The property uri 'http://data.esante.gouv.fr/cnam/ccam/topographie' is not known, so the property values can not be validated fully; unless specified elsewhere, codes will be treated as internal references
+INFORMATION: CodeSystem/terminologie-ccam: CodeSystem.property[11]: The type of property 'code' is 'code', but no ValueSet information was found, so the codes will be validated as internal codes
+WARNING: CodeSystem/terminologie-ccam: CodeSystem.property[12]: The property uri 'http://data.esante.gouv.fr/cnam/ccam/action' is not known, so the property values can not be validated fully; unless specified elsewhere, codes will be treated as internal references
+INFORMATION: CodeSystem/terminologie-ccam: CodeSystem.property[12]: The type of property 'code' is 'code', but no ValueSet information was found, so the codes will be validated as internal codes
+INFORMATION: CodeSystem/terminologie-ccam: CodeSystem.property[13]: The property uri 'http://data.esante.gouv.fr/cnam/ccam/facturation' is not known, so the property values can not be validated fully
+WARNING: CodeSystem/terminologie-ccam: CodeSystem.property[14]: The property uri 'http://data.esante.gouv.fr/cnam/ccam/typeActe' is not known, so the property values can not be validated fully; unless specified elsewhere, codes will be treated as internal references
+INFORMATION: CodeSystem/terminologie-ccam: CodeSystem.property[14]: The type of property 'code' is 'code', but no ValueSet information was found, so the codes will be validated as internal codes
+INFORMATION: CodeSystem/terminologie-ccam: CodeSystem.property[15]: The property uri 'http://purl.org/dc/terms/temporal' is not known, so the property values can not be validated fully
+WARNING: CodeSystem/terminologie-ccam: CodeSystem.property[16]: The property uri 'http://data.esante.gouv.fr/cnam/ccam/acteExclus' is not known, so the property values can not be validated fully; unless specified elsewhere, codes will be treated as internal references
+INFORMATION: CodeSystem/terminologie-ccam: CodeSystem.property[16]: The type of property 'code' is 'code', but no ValueSet information was found, so the codes will be validated as internal codes
+WARNING: CodeSystem/terminologie-ccam: CodeSystem.property[17]: The property uri 'http://data.esante.gouv.fr/cnam/ccam/procedure' is not known, so the property values can not be validated fully; unless specified elsewhere, codes will be treated as internal references
+INFORMATION: CodeSystem/terminologie-ccam: CodeSystem.property[17]: The type of property 'code' is 'code', but no ValueSet information was found, so the codes will be validated as internal codes
+WARNING: CodeSystem/terminologie-ccam: CodeSystem.property[18]: The property uri 'http://data.esante.gouv.fr/cnam/ccam/acteAssocie' is not known, so the property values can not be validated fully; unless specified elsewhere, codes will be treated as internal references
+INFORMATION: CodeSystem/terminologie-ccam: CodeSystem.property[18]: The type of property 'code' is 'code', but no ValueSet information was found, so the codes will be validated as internal codes
+WARNING: CodeSystem/terminologie-ccam: CodeSystem.property[19]: The base property uri 'http://www.w3.org/2004/02/skos/core' is not known for the property 'note', so the property values can not be validated fully
+WARNING: CodeSystem/terminologie-ccam: CodeSystem.property[20]: The base property uri 'http://rdf-vocabulary.ddialliance.org/xkos' is not known for the property 'inclusionNote', so the property values can not be validated fully
+WARNING: CodeSystem/terminologie-ccam: CodeSystem.property[21]: The property uri 'http://data.esante.gouv.fr/cnam/ccam/dentIncompatible' is not known, so the property values can not be validated fully; unless specified elsewhere, codes will be treated as internal references
+INFORMATION: CodeSystem/terminologie-ccam: CodeSystem.property[21]: The type of property 'code' is 'code', but no ValueSet information was found, so the codes will be validated as internal codes
+INFORMATION: CodeSystem/terminologie-ccam: CodeSystem.property[22]: The property uri 'http://data.esante.gouv.fr/cnam/ccam/receuilProspectifDeDonnees' is not known, so the property values can not be validated fully
+WARNING: CodeSystem/terminologie-ccam: CodeSystem.property[23]: The property uri 'http://data.esante.gouv.fr/cnam/ccam/acteDeLaProcedure' is not known, so the property values can not be validated fully; unless specified elsewhere, codes will be treated as internal references
+INFORMATION: CodeSystem/terminologie-ccam: CodeSystem.property[23]: The type of property 'code' is 'code', but no ValueSet information was found, so the codes will be validated as internal codes
+WARNING: CodeSystem/terminologie-ccam: CodeSystem.property[24]: The base property uri 'http://www.w3.org/2004/02/skos/core' is not known for the property 'example', so the property values can not be validated fully
+WARNING: CodeSystem/terminologie-ccam: CodeSystem.property[25]: The property uri 'http://data.esante.gouv.fr/cnam/ccam/verbeAction' is not known, so the property values can not be validated fully; unless specified elsewhere, codes will be treated as internal references
+INFORMATION: CodeSystem/terminologie-ccam: CodeSystem.property[25]: The type of property 'code' is 'code', but no ValueSet information was found, so the codes will be validated as internal codes
 INFORMATION: CodeSystem/terminologie-ccam: CodeSystem.property[28]: This property has only a code ('imported') and not a URI, so it has no clearly defined meaning in the terminology ecosystem
 INFORMATION: CodeSystem/terminologie-ccam: CodeSystem.property[29]: This property has only a code ('root') and not a URI, so it has no clearly defined meaning in the terminology ecosystem
 == input/ontoserver/TRE/CIM11_MMS.json ==
@@ -6189,6 +6271,32 @@ INFORMATION: CodeSystem/terminologie-cim11-mms: CodeSystem: CodeSystems SHOULD h
 INFORMATION: CodeSystem/terminologie-cim11-mms: CodeSystem: Review the All Codes Value Set - incomplete CodeSystems generally should not have an all codes value set specified
 WARNING: CodeSystem/terminologie-cim11-mms: CodeSystem: Published code systems SHOULD conform to the ShareableCodeSystem profile, which says that the element CodeSystem.description is mandatory, but it is not present
 WARNING: CodeSystem/terminologie-cim11-mms: CodeSystem: Published code systems SHOULD conform to the ShareableCodeSystem profile, which says that the element CodeSystem.caseSensitive is mandatory, but it is not present
+INFORMATION: CodeSystem/terminologie-cim11-mms: CodeSystem.property[0]: The property uri 'http://purl.org/dc/elements/1.1/type' is not known, so the property values can not be validated fully
+WARNING: CodeSystem/terminologie-cim11-mms: CodeSystem.property[1]: The property uri 'http://id.who.int/icd/schema/browserUrl' is not known, so the property values can not be validated fully; unless specified elsewhere, codes will be treated as internal references
+INFORMATION: CodeSystem/terminologie-cim11-mms: CodeSystem.property[1]: The type of property 'code' is 'code', but no ValueSet information was found, so the codes will be validated as internal codes
+WARNING: CodeSystem/terminologie-cim11-mms: CodeSystem.property[2]: The property uri 'http://id.who.int/icd/schema/source' is not known, so the property values can not be validated fully; unless specified elsewhere, codes will be treated as internal references
+INFORMATION: CodeSystem/terminologie-cim11-mms: CodeSystem.property[2]: The type of property 'code' is 'code', but no ValueSet information was found, so the codes will be validated as internal codes
+WARNING: CodeSystem/terminologie-cim11-mms: CodeSystem.property[3]: The property uri 'http://id.who.int/icd/schema/release' is not known, so the property values can not be validated fully; unless specified elsewhere, codes will be treated as internal references
+INFORMATION: CodeSystem/terminologie-cim11-mms: CodeSystem.property[3]: The type of property 'code' is 'code', but no ValueSet information was found, so the codes will be validated as internal codes
+INFORMATION: CodeSystem/terminologie-cim11-mms: CodeSystem.property[4]: The property uri 'http://id.who.int/icd/schema/classKind' is not known, so the property values can not be validated fully
+WARNING: CodeSystem/terminologie-cim11-mms: CodeSystem.property[5]: The base property uri 'http://data.esante.gouv.fr/ans-icd11' is not known for the property 'icd10', so the property values can not be validated fully
+INFORMATION: CodeSystem/terminologie-cim11-mms: CodeSystem.property[5]: The type of property 'code' is 'code', but no ValueSet information was found, so the codes will be validated as internal codes
+INFORMATION: CodeSystem/terminologie-cim11-mms: CodeSystem.property[6]: The property uri 'http://id.who.int/icd/schema/code' is not known, so the property values can not be validated fully
+WARNING: CodeSystem/terminologie-cim11-mms: CodeSystem.property[7]: The property uri 'http://id.who.int/icd/schema/postcoordinationScale' is not known, so the property values can not be validated fully; unless specified elsewhere, codes will be treated as internal references
+INFORMATION: CodeSystem/terminologie-cim11-mms: CodeSystem.property[7]: The type of property 'code' is 'code', but no ValueSet information was found, so the codes will be validated as internal codes
+WARNING: CodeSystem/terminologie-cim11-mms: CodeSystem.property[8]: The base property uri 'http://data.esante.gouv.fr/ans-icd11' is not known for the property 'indexTerm', so the property values can not be validated fully
+WARNING: CodeSystem/terminologie-cim11-mms: CodeSystem.property[9]: The base property uri 'http://rdf-vocabulary.ddialliance.org/xkos' is not known for the property 'inclusionNote', so the property values can not be validated fully
+WARNING: CodeSystem/terminologie-cim11-mms: CodeSystem.property[10]: The base property uri 'http://data.esante.gouv.fr/ans-icd11' is not known for the property 'inclusion', so the property values can not be validated fully
+WARNING: CodeSystem/terminologie-cim11-mms: CodeSystem.property[11]: The base property uri 'http://data.esante.gouv.fr/ans-icd11' is not known for the property 'foundationChild', so the property values can not be validated fully
+INFORMATION: CodeSystem/terminologie-cim11-mms: CodeSystem.property[11]: The type of property 'code' is 'code', but no ValueSet information was found, so the codes will be validated as internal codes
+INFORMATION: CodeSystem/terminologie-cim11-mms: CodeSystem.property[12]: The property uri 'http://id.who.int/icd/schema/codingRange' is not known, so the property values can not be validated fully
+INFORMATION: CodeSystem/terminologie-cim11-mms: CodeSystem.property[13]: The property uri 'http://id.who.int/icd/schema/blockId' is not known, so the property values can not be validated fully
+WARNING: CodeSystem/terminologie-cim11-mms: CodeSystem.property[14]: The base property uri 'http://rdf-vocabulary.ddialliance.org/xkos' is not known for the property 'exclusionNote', so the property values can not be validated fully
+WARNING: CodeSystem/terminologie-cim11-mms: CodeSystem.property[15]: The base property uri 'http://data.esante.gouv.fr/ans-icd11' is not known for the property 'exclusion', so the property values can not be validated fully
+INFORMATION: CodeSystem/terminologie-cim11-mms: CodeSystem.property[15]: The type of property 'code' is 'code', but no ValueSet information was found, so the codes will be validated as internal codes
+INFORMATION: CodeSystem/terminologie-cim11-mms: CodeSystem.property[16]: The property uri 'http://id.who.int/icd/schema/longDefinition' is not known, so the property values can not be validated fully
+INFORMATION: CodeSystem/terminologie-cim11-mms: CodeSystem.property[17]: The property uri 'http://id.who.int/icd/schema/codingNote' is not known, so the property values can not be validated fully
+INFORMATION: CodeSystem/terminologie-cim11-mms: CodeSystem.property[18]: The property uri 'http://id.who.int/icd/schema/fullySpecifiedName' is not known, so the property values can not be validated fully
 INFORMATION: CodeSystem/terminologie-cim11-mms: CodeSystem.property[21]: This property has only a code ('imported') and not a URI, so it has no clearly defined meaning in the terminology ecosystem
 INFORMATION: CodeSystem/terminologie-cim11-mms: CodeSystem.property[22]: This property has only a code ('root') and not a URI, so it has no clearly defined meaning in the terminology ecosystem
 == input/ontoserver/TRE/CIM_10.json ==
@@ -6199,6 +6307,19 @@ INFORMATION: CodeSystem/terminologie-cim-10: CodeSystem: CodeSystems SHOULD have
 INFORMATION: CodeSystem/terminologie-cim-10: CodeSystem: Review the All Codes Value Set - incomplete CodeSystems generally should not have an all codes value set specified
 WARNING: CodeSystem/terminologie-cim-10: CodeSystem: Published code systems SHOULD conform to the ShareableCodeSystem profile, which says that the element CodeSystem.description is mandatory, but it is not present
 WARNING: CodeSystem/terminologie-cim-10: CodeSystem: Published code systems SHOULD conform to the ShareableCodeSystem profile, which says that the element CodeSystem.caseSensitive is mandatory, but it is not present
+INFORMATION: CodeSystem/terminologie-cim-10: CodeSystem.property[0]: The property uri 'http://purl.org/dc/elements/1.1/type' is not known, so the property values can not be validated fully
+WARNING: CodeSystem/terminologie-cim-10: CodeSystem.property[1]: The base property uri 'http://data.esante.gouv.fr/atih-cim10' is not known for the property 'hasCausality', so the property values can not be validated fully
+INFORMATION: CodeSystem/terminologie-cim-10: CodeSystem.property[1]: The type of property 'code' is 'code', but no ValueSet information was found, so the codes will be validated as internal codes
+WARNING: CodeSystem/terminologie-cim-10: CodeSystem.property[2]: The base property uri 'http://rdf-vocabulary.ddialliance.org/xkos' is not known for the property 'inclusionNote', so the property values can not be validated fully
+WARNING: CodeSystem/terminologie-cim-10: CodeSystem.property[3]: The property uri 'http://purl.org/dc/terms/creator' is not known, so the property values can not be validated fully; unless specified elsewhere, codes will be treated as internal references
+INFORMATION: CodeSystem/terminologie-cim-10: CodeSystem.property[3]: The type of property 'code' is 'code', but no ValueSet information was found, so the codes will be validated as internal codes
+WARNING: CodeSystem/terminologie-cim-10: CodeSystem.property[4]: The base property uri 'http://rdf-vocabulary.ddialliance.org/xkos' is not known for the property 'exclusionNote', so the property values can not be validated fully
+WARNING: CodeSystem/terminologie-cim-10: CodeSystem.property[5]: The base property uri 'http://data.esante.gouv.fr/atih-cim10' is not known for the property 'exclusion', so the property values can not be validated fully
+INFORMATION: CodeSystem/terminologie-cim-10: CodeSystem.property[5]: The type of property 'code' is 'code', but no ValueSet information was found, so the codes will be validated as internal codes
+WARNING: CodeSystem/terminologie-cim-10: CodeSystem.property[6]: The base property uri 'http://data.esante.gouv.fr/atih-cim10' is not known for the property 'hasManifestation', so the property values can not be validated fully
+INFORMATION: CodeSystem/terminologie-cim-10: CodeSystem.property[6]: The type of property 'code' is 'code', but no ValueSet information was found, so the codes will be validated as internal codes
+WARNING: CodeSystem/terminologie-cim-10: CodeSystem.property[7]: The base property uri 'http://www.w3.org/2004/02/skos/core' is not known for the property 'note', so the property values can not be validated fully
+WARNING: CodeSystem/terminologie-cim-10: CodeSystem.property[8]: The base property uri 'http://www.w3.org/2004/02/skos/core' is not known for the property 'scopeNote', so the property values can not be validated fully
 INFORMATION: CodeSystem/terminologie-cim-10: CodeSystem.property[11]: This property has only a code ('imported') and not a URI, so it has no clearly defined meaning in the terminology ecosystem
 INFORMATION: CodeSystem/terminologie-cim-10: CodeSystem.property[12]: This property has only a code ('root') and not a URI, so it has no clearly defined meaning in the terminology ecosystem
 == input/ontoserver/TRE/CISP_2.json ==
@@ -6209,6 +6330,17 @@ INFORMATION: CodeSystem/terminologie-cisp: CodeSystem: CodeSystems SHOULD have a
 INFORMATION: CodeSystem/terminologie-cisp: CodeSystem: Review the All Codes Value Set - incomplete CodeSystems generally should not have an all codes value set specified
 WARNING: CodeSystem/terminologie-cisp: CodeSystem: Published code systems SHOULD conform to the ShareableCodeSystem profile, which says that the element CodeSystem.description is mandatory, but it is not present
 WARNING: CodeSystem/terminologie-cisp: CodeSystem: Published code systems SHOULD conform to the ShareableCodeSystem profile, which says that the element CodeSystem.caseSensitive is mandatory, but it is not present
+WARNING: CodeSystem/terminologie-cisp: CodeSystem.property[0]: The base property uri 'http://www.w3.org/2000/01/rdf-schema' is not known for the property 'comment', so the property values can not be validated fully
+INFORMATION: CodeSystem/terminologie-cisp: CodeSystem.property[1]: The property uri 'http://purl.org/dc/terms/title' is not known, so the property values can not be validated fully
+INFORMATION: CodeSystem/terminologie-cisp: CodeSystem.property[2]: The property uri 'http://id.who.int/icd/schema/inclusion' is not known, so the property values can not be validated fully
+WARNING: CodeSystem/terminologie-cisp: CodeSystem.property[3]: The base property uri 'https://data.esante.gouv.fr/terminologies/cisp' is not known for the property 'consider', so the property values can not be validated fully
+INFORMATION: CodeSystem/terminologie-cisp: CodeSystem.property[3]: The type of property 'code' is 'code', but no ValueSet information was found, so the codes will be validated as internal codes
+WARNING: CodeSystem/terminologie-cisp: CodeSystem.property[4]: The property uri 'http://id.who.int/icd/schema/icd10Code' is not known, so the property values can not be validated fully; unless specified elsewhere, codes will be treated as internal references
+INFORMATION: CodeSystem/terminologie-cisp: CodeSystem.property[4]: The type of property 'code' is 'code', but no ValueSet information was found, so the codes will be validated as internal codes
+WARNING: CodeSystem/terminologie-cisp: CodeSystem.property[5]: The property uri 'http://id.who.int/icd/schema/exclusion' is not known, so the property values can not be validated fully; unless specified elsewhere, codes will be treated as internal references
+INFORMATION: CodeSystem/terminologie-cisp: CodeSystem.property[5]: The type of property 'code' is 'code', but no ValueSet information was found, so the codes will be validated as internal codes
+WARNING: CodeSystem/terminologie-cisp: CodeSystem.property[6]: The base property uri 'http://www.w3.org/2004/02/skos/core' is not known for the property 'note', so the property values can not be validated fully
+WARNING: CodeSystem/terminologie-cisp: CodeSystem.property[7]: The base property uri 'https://data.esante.gouv.fr/terminologies/cisp' is not known for the property 'criteria', so the property values can not be validated fully
 INFORMATION: CodeSystem/terminologie-cisp: CodeSystem.property[10]: This property has only a code ('imported') and not a URI, so it has no clearly defined meaning in the terminology ecosystem
 INFORMATION: CodeSystem/terminologie-cisp: CodeSystem.property[11]: This property has only a code ('root') and not a URI, so it has no clearly defined meaning in the terminology ecosystem
 == input/ontoserver/TRE/CLADIMED.json ==
@@ -6220,6 +6352,8 @@ INFORMATION: CodeSystem/terminologie-cladimed: CodeSystem: Review the All Codes 
 WARNING: CodeSystem/terminologie-cladimed: CodeSystem: Published code systems SHOULD conform to the ShareableCodeSystem profile, which says that the element CodeSystem.title is mandatory, but it is not present
 WARNING: CodeSystem/terminologie-cladimed: CodeSystem: Published code systems SHOULD conform to the ShareableCodeSystem profile, which says that the element CodeSystem.description is mandatory, but it is not present
 WARNING: CodeSystem/terminologie-cladimed: CodeSystem: Published code systems SHOULD conform to the ShareableCodeSystem profile, which says that the element CodeSystem.caseSensitive is mandatory, but it is not present
+INFORMATION: CodeSystem/terminologie-cladimed: CodeSystem.property[0]: The property uri 'http://purl.org/dc/elements/1.1/type' is not known, so the property values can not be validated fully
+WARNING: CodeSystem/terminologie-cladimed: CodeSystem.property[1]: The base property uri 'http://www.w3.org/2000/01/rdf-schema' is not known for the property 'comment', so the property values can not be validated fully
 INFORMATION: CodeSystem/terminologie-cladimed: CodeSystem.property[4]: This property has only a code ('imported') and not a URI, so it has no clearly defined meaning in the terminology ecosystem
 INFORMATION: CodeSystem/terminologie-cladimed: CodeSystem.property[5]: This property has only a code ('root') and not a URI, so it has no clearly defined meaning in the terminology ecosystem
 == input/ontoserver/TRE/Dictionnaire_des_substances_m_dicamenteuses__SMS_.json ==
@@ -6231,6 +6365,17 @@ INFORMATION: CodeSystem/terminologie-sms: CodeSystem: Review the All Codes Value
 WARNING: CodeSystem/terminologie-sms: CodeSystem: Published code systems SHOULD conform to the ShareableCodeSystem profile, which says that the element CodeSystem.title is mandatory, but it is not present
 WARNING: CodeSystem/terminologie-sms: CodeSystem: Published code systems SHOULD conform to the ShareableCodeSystem profile, which says that the element CodeSystem.description is mandatory, but it is not present
 WARNING: CodeSystem/terminologie-sms: CodeSystem: Published code systems SHOULD conform to the ShareableCodeSystem profile, which says that the element CodeSystem.caseSensitive is mandatory, but it is not present
+INFORMATION: CodeSystem/terminologie-sms: CodeSystem.property[0]: The property uri 'http://purl.org/dc/terms/created' is not known, so the property values can not be validated fully
+WARNING: CodeSystem/terminologie-sms: CodeSystem.property[1]: The base property uri 'http://www.w3.org/ns/adms' is not known for the property 'status', so the property values can not be validated fully
+INFORMATION: CodeSystem/terminologie-sms: CodeSystem.property[2]: The property uri 'http://purl.org/dc/terms/modified' is not known, so the property values can not be validated fully
+INFORMATION: CodeSystem/terminologie-sms: CodeSystem.property[3]: The property uri 'http://purl.org/dc/elements/1.1/type' is not known, so the property values can not be validated fully
+INFORMATION: CodeSystem/terminologie-sms: CodeSystem.property[4]: The property uri 'http://data.esante.gouv.fr/ema/sms/domain' is not known, so the property values can not be validated fully
+INFORMATION: CodeSystem/terminologie-sms: CodeSystem.property[5]: The property uri 'http://data.esante.gouv.fr/ema/sms/nameSource' is not known, so the property values can not be validated fully
+INFORMATION: CodeSystem/terminologie-sms: CodeSystem.property[6]: The property uri 'http://data.esante.gouv.fr/ema/sms/extarnalCodeXEVMPD' is not known, so the property values can not be validated fully
+INFORMATION: CodeSystem/terminologie-sms: CodeSystem.property[7]: The property uri 'http://data.esante.gouv.fr/ema/sms/inchikey' is not known, so the property values can not be validated fully
+INFORMATION: CodeSystem/terminologie-sms: CodeSystem.property[8]: The property uri 'http://data.esante.gouv.fr/ema/sms/molecularFormula' is not known, so the property values can not be validated fully
+INFORMATION: CodeSystem/terminologie-sms: CodeSystem.property[9]: The property uri 'http://data.esante.gouv.fr/ema/sms/molecularWeight' is not known, so the property values can not be validated fully
+WARNING: CodeSystem/terminologie-sms: CodeSystem.property[10]: The base property uri 'http://www.w3.org/2000/01/rdf-schema' is not known for the property 'comment', so the property values can not be validated fully
 INFORMATION: CodeSystem/terminologie-sms: CodeSystem.property[13]: This property has only a code ('imported') and not a URI, so it has no clearly defined meaning in the terminology ecosystem
 INFORMATION: CodeSystem/terminologie-sms: CodeSystem.property[14]: This property has only a code ('root') and not a URI, so it has no clearly defined meaning in the terminology ecosystem
 == input/ontoserver/TRE/EDQM___Standard_Terms.json ==
@@ -6242,6 +6387,50 @@ INFORMATION: CodeSystem/terminologie-standardterms: CodeSystem: Review the All C
 WARNING: CodeSystem/terminologie-standardterms: CodeSystem: Published code systems SHOULD conform to the ShareableCodeSystem profile, which says that the element CodeSystem.title is mandatory, but it is not present
 WARNING: CodeSystem/terminologie-standardterms: CodeSystem: Published code systems SHOULD conform to the ShareableCodeSystem profile, which says that the element CodeSystem.description is mandatory, but it is not present
 WARNING: CodeSystem/terminologie-standardterms: CodeSystem: Published code systems SHOULD conform to the ShareableCodeSystem profile, which says that the element CodeSystem.caseSensitive is mandatory, but it is not present
+WARNING: CodeSystem/terminologie-standardterms: CodeSystem.property[0]: The base property uri 'http://www.w3.org/2000/01/rdf-schema' is not known for the property 'comment', so the property values can not be validated fully
+INFORMATION: CodeSystem/terminologie-standardterms: CodeSystem.property[1]: The property uri 'http://purl.org/dc/terms/issued' is not known, so the property values can not be validated fully
+WARNING: CodeSystem/terminologie-standardterms: CodeSystem.property[2]: The base property uri 'http://www.w3.org/2002/07/owl' is not known for the property 'versionInfo', so the property values can not be validated fully
+WARNING: CodeSystem/terminologie-standardterms: CodeSystem.property[3]: The base property uri 'http://www.w3.org/ns/adms' is not known for the property 'status', so the property values can not be validated fully
+INFORMATION: CodeSystem/terminologie-standardterms: CodeSystem.property[4]: The property uri 'http://purl.org/dc/terms/modified' is not known, so the property values can not be validated fully
+INFORMATION: CodeSystem/terminologie-standardterms: CodeSystem.property[5]: The property uri 'http://purl.org/dc/elements/1.1/type' is not known, so the property values can not be validated fully
+WARNING: CodeSystem/terminologie-standardterms: CodeSystem.property[6]: The base property uri 'http://data.esante.gouv.fr/coe/standardterms' is not known for the property 'domain', so the property values can not be validated fully
+INFORMATION: CodeSystem/terminologie-standardterms: CodeSystem.property[6]: The type of property 'code' is 'code', but no ValueSet information was found, so the codes will be validated as internal codes
+WARNING: CodeSystem/terminologie-standardterms: CodeSystem.property[7]: The base property uri 'http://data.esante.gouv.fr/coe/standardterms' is not known for the property 'class', so the property values can not be validated fully
+INFORMATION: CodeSystem/terminologie-standardterms: CodeSystem.property[7]: The type of property 'code' is 'code', but no ValueSet information was found, so the codes will be validated as internal codes
+WARNING: CodeSystem/terminologie-standardterms: CodeSystem.property[8]: The base property uri 'http://data.esante.gouv.fr/coe/standardterms' is not known for the property 'Linked_Pharmaceutical_Dose_Forms', so the property values can not be validated fully
+INFORMATION: CodeSystem/terminologie-standardterms: CodeSystem.property[8]: The type of property 'code' is 'code', but no ValueSet information was found, so the codes will be validated as internal codes
+WARNING: CodeSystem/terminologie-standardterms: CodeSystem.property[9]: The base property uri 'http://data.esante.gouv.fr/coe/standardterms' is not known for the property 'Has_Pharmaceutical_Transformation', so the property values can not be validated fully
+INFORMATION: CodeSystem/terminologie-standardterms: CodeSystem.property[9]: The type of property 'code' is 'code', but no ValueSet information was found, so the codes will be validated as internal codes
+WARNING: CodeSystem/terminologie-standardterms: CodeSystem.property[10]: The base property uri 'http://data.esante.gouv.fr/coe/standardterms' is not known for the property 'Has_Pharmaceutical_Release_Characteristics', so the property values can not be validated fully
+INFORMATION: CodeSystem/terminologie-standardterms: CodeSystem.property[10]: The type of property 'code' is 'code', but no ValueSet information was found, so the codes will be validated as internal codes
+WARNING: CodeSystem/terminologie-standardterms: CodeSystem.property[11]: The base property uri 'http://data.esante.gouv.fr/coe/standardterms' is not known for the property 'Has_Pharmaceutical_Basic_Dose_Form', so the property values can not be validated fully
+INFORMATION: CodeSystem/terminologie-standardterms: CodeSystem.property[11]: The type of property 'code' is 'code', but no ValueSet information was found, so the codes will be validated as internal codes
+WARNING: CodeSystem/terminologie-standardterms: CodeSystem.property[12]: The base property uri 'http://data.esante.gouv.fr/coe/standardterms' is not known for the property 'Has_Pharmaceutical_Administration_Method', so the property values can not be validated fully
+INFORMATION: CodeSystem/terminologie-standardterms: CodeSystem.property[12]: The type of property 'code' is 'code', but no ValueSet information was found, so the codes will be validated as internal codes
+WARNING: CodeSystem/terminologie-standardterms: CodeSystem.property[13]: The base property uri 'http://data.esante.gouv.fr/coe/standardterms' is not known for the property 'Has_Pharmaceutical_State_Of_Matter', so the property values can not be validated fully
+INFORMATION: CodeSystem/terminologie-standardterms: CodeSystem.property[13]: The type of property 'code' is 'code', but no ValueSet information was found, so the codes will be validated as internal codes
+WARNING: CodeSystem/terminologie-standardterms: CodeSystem.property[14]: The base property uri 'http://data.esante.gouv.fr/coe/standardterms' is not known for the property 'Has_Pharmaceutical_Intended_Site', so the property values can not be validated fully
+INFORMATION: CodeSystem/terminologie-standardterms: CodeSystem.property[14]: The type of property 'code' is 'code', but no ValueSet information was found, so the codes will be validated as internal codes
+WARNING: CodeSystem/terminologie-standardterms: CodeSystem.property[15]: The base property uri 'http://data.esante.gouv.fr/coe/standardterms' is not known for the property 'Linked_Patient_Friendly_Terms', so the property values can not be validated fully
+INFORMATION: CodeSystem/terminologie-standardterms: CodeSystem.property[15]: The type of property 'code' is 'code', but no ValueSet information was found, so the codes will be validated as internal codes
+WARNING: CodeSystem/terminologie-standardterms: CodeSystem.property[16]: The base property uri 'http://data.esante.gouv.fr/coe/standardterms' is not known for the property 'Linked_Combination_Pack', so the property values can not be validated fully
+INFORMATION: CodeSystem/terminologie-standardterms: CodeSystem.property[16]: The type of property 'code' is 'code', but no ValueSet information was found, so the codes will be validated as internal codes
+WARNING: CodeSystem/terminologie-standardterms: CodeSystem.property[17]: The base property uri 'http://data.esante.gouv.fr/coe/standardterms' is not known for the property 'replacement', so the property values can not be validated fully
+INFORMATION: CodeSystem/terminologie-standardterms: CodeSystem.property[17]: The type of property 'code' is 'code', but no ValueSet information was found, so the codes will be validated as internal codes
+WARNING: CodeSystem/terminologie-standardterms: CodeSystem.property[18]: The base property uri 'http://data.esante.gouv.fr/coe/standardterms' is not known for the property 'Linked_Packaging_Category', so the property values can not be validated fully
+INFORMATION: CodeSystem/terminologie-standardterms: CodeSystem.property[18]: The type of property 'code' is 'code', but no ValueSet information was found, so the codes will be validated as internal codes
+WARNING: CodeSystem/terminologie-standardterms: CodeSystem.property[19]: The base property uri 'http://data.esante.gouv.fr/coe/standardterms' is not known for the property 'mapping', so the property values can not be validated fully
+INFORMATION: CodeSystem/terminologie-standardterms: CodeSystem.property[19]: The type of property 'code' is 'code', but no ValueSet information was found, so the codes will be validated as internal codes
+WARNING: CodeSystem/terminologie-standardterms: CodeSystem.property[20]: The base property uri 'http://data.esante.gouv.fr/coe/standardterms' is not known for the property 'Linked_Combined_Pharmaceutical_Dose_Form', so the property values can not be validated fully
+INFORMATION: CodeSystem/terminologie-standardterms: CodeSystem.property[20]: The type of property 'code' is 'code', but no ValueSet information was found, so the codes will be validated as internal codes
+WARNING: CodeSystem/terminologie-standardterms: CodeSystem.property[21]: The base property uri 'http://data.esante.gouv.fr/coe/standardterms' is not known for the property 'Linked_Container', so the property values can not be validated fully
+INFORMATION: CodeSystem/terminologie-standardterms: CodeSystem.property[21]: The type of property 'code' is 'code', but no ValueSet information was found, so the codes will be validated as internal codes
+WARNING: CodeSystem/terminologie-standardterms: CodeSystem.property[22]: The base property uri 'http://data.esante.gouv.fr/coe/standardterms' is not known for the property 'Linked_Combined_Term', so the property values can not be validated fully
+INFORMATION: CodeSystem/terminologie-standardterms: CodeSystem.property[22]: The type of property 'code' is 'code', but no ValueSet information was found, so the codes will be validated as internal codes
+WARNING: CodeSystem/terminologie-standardterms: CodeSystem.property[23]: The base property uri 'http://data.esante.gouv.fr/coe/standardterms' is not known for the property 'Linked_Administration_Device', so the property values can not be validated fully
+INFORMATION: CodeSystem/terminologie-standardterms: CodeSystem.property[23]: The type of property 'code' is 'code', but no ValueSet information was found, so the codes will be validated as internal codes
+WARNING: CodeSystem/terminologie-standardterms: CodeSystem.property[24]: The base property uri 'http://data.esante.gouv.fr/coe/standardterms' is not known for the property 'Linked_Closure', so the property values can not be validated fully
+INFORMATION: CodeSystem/terminologie-standardterms: CodeSystem.property[24]: The type of property 'code' is 'code', but no ValueSet information was found, so the codes will be validated as internal codes
 INFORMATION: CodeSystem/terminologie-standardterms: CodeSystem.property[27]: This property has only a code ('imported') and not a URI, so it has no clearly defined meaning in the terminology ecosystem
 INFORMATION: CodeSystem/terminologie-standardterms: CodeSystem.property[28]: This property has only a code ('root') and not a URI, so it has no clearly defined meaning in the terminology ecosystem
 == input/ontoserver/TRE/EMDN.json ==
@@ -6253,11 +6442,18 @@ INFORMATION: CodeSystem/terminologie-emdn: CodeSystem: Review the All Codes Valu
 WARNING: CodeSystem/terminologie-emdn: CodeSystem: Published code systems SHOULD conform to the ShareableCodeSystem profile, which says that the element CodeSystem.title is mandatory, but it is not present
 WARNING: CodeSystem/terminologie-emdn: CodeSystem: Published code systems SHOULD conform to the ShareableCodeSystem profile, which says that the element CodeSystem.description is mandatory, but it is not present
 WARNING: CodeSystem/terminologie-emdn: CodeSystem: Published code systems SHOULD conform to the ShareableCodeSystem profile, which says that the element CodeSystem.caseSensitive is mandatory, but it is not present
+INFORMATION: CodeSystem/terminologie-emdn: CodeSystem.property[0]: The property uri 'http://purl.org/dc/elements/1.1/type' is not known, so the property values can not be validated fully
 INFORMATION: CodeSystem/terminologie-emdn: CodeSystem.property[3]: This property has only a code ('imported') and not a URI, so it has no clearly defined meaning in the terminology ecosystem
 INFORMATION: CodeSystem/terminologie-emdn: CodeSystem.property[4]: This property has only a code ('root') and not a URI, so it has no clearly defined meaning in the terminology ecosystem
 == input/ontoserver/TRE/LAHN.json ==
 INFORMATION: CodeSystem/terminologie-lahn: CodeSystem: CodeSystems SHOULD have a stated value for the caseSensitive element so that users know the status and meaning of the code system clearly
 WARNING: CodeSystem/terminologie-lahn: CodeSystem: Published code systems SHOULD conform to the ShareableCodeSystem profile, which says that the element CodeSystem.caseSensitive is mandatory, but it is not present
+INFORMATION: CodeSystem/terminologie-lahn: CodeSystem.property[0]: The property uri 'http://purl.org/dc/terms/created' is not known, so the property values can not be validated fully
+INFORMATION: CodeSystem/terminologie-lahn: CodeSystem.property[1]: The property uri 'http://purl.org/dc/elements/1.1/type' is not known, so the property values can not be validated fully
+WARNING: CodeSystem/terminologie-lahn: CodeSystem.property[2]: The base property uri 'http://www.w3.org/2004/02/skos/core' is not known for the property 'note', so the property values can not be validated fully
+INFORMATION: CodeSystem/terminologie-lahn: CodeSystem.property[3]: The property uri 'http://www.data.esante.gouv.fr/DGOS/LAHN/prixMaximal' is not known, so the property values can not be validated fully
+INFORMATION: CodeSystem/terminologie-lahn: CodeSystem.property[4]: The property uri 'http://purl.org/dc/terms/modified' is not known, so the property values can not be validated fully
+WARNING: CodeSystem/terminologie-lahn: CodeSystem.property[5]: The base property uri 'http://www.w3.org/2002/07/owl' is not known for the property 'deprecated', so the property values can not be validated fully
 INFORMATION: CodeSystem/terminologie-lahn: CodeSystem.property[8]: This property has only a code ('imported') and not a URI, so it has no clearly defined meaning in the terminology ecosystem
 INFORMATION: CodeSystem/terminologie-lahn: CodeSystem.property[9]: This property has only a code ('root') and not a URI, so it has no clearly defined meaning in the terminology ecosystem
 == input/ontoserver/TRE/NABM.json ==
@@ -6268,6 +6464,24 @@ INFORMATION: CodeSystem/terminologie-nabm: CodeSystem: CodeSystems SHOULD have a
 INFORMATION: CodeSystem/terminologie-nabm: CodeSystem: Review the All Codes Value Set - incomplete CodeSystems generally should not have an all codes value set specified
 WARNING: CodeSystem/terminologie-nabm: CodeSystem: Published code systems SHOULD conform to the ShareableCodeSystem profile, which says that the element CodeSystem.description is mandatory, but it is not present
 WARNING: CodeSystem/terminologie-nabm: CodeSystem: Published code systems SHOULD conform to the ShareableCodeSystem profile, which says that the element CodeSystem.caseSensitive is mandatory, but it is not present
+INFORMATION: CodeSystem/terminologie-nabm: CodeSystem.property[0]: The property uri 'http://purl.org/dc/terms/created' is not known, so the property values can not be validated fully
+INFORMATION: CodeSystem/terminologie-nabm: CodeSystem.property[1]: The property uri 'http://purl.org/dc/terms/modified' is not known, so the property values can not be validated fully
+INFORMATION: CodeSystem/terminologie-nabm: CodeSystem.property[2]: The property uri 'http://purl.org/dc/elements/1.1/type' is not known, so the property values can not be validated fully
+INFORMATION: CodeSystem/terminologie-nabm: CodeSystem.property[3]: The property uri 'https://www.data.esante.gouv.fr/DGOS/NABM/initativeBiologistePossible' is not known, so the property values can not be validated fully
+INFORMATION: CodeSystem/terminologie-nabm: CodeSystem.property[4]: The property uri 'https://www.data.esante.gouv.fr/DGOS/NABM/indicationMédicale' is not known, so the property values can not be validated fully
+INFORMATION: CodeSystem/terminologie-nabm: CodeSystem.property[5]: The property uri 'https://www.data.esante.gouv.fr/DGOS/NABM/remboursementTotal' is not known, so the property values can not be validated fully
+INFORMATION: CodeSystem/terminologie-nabm: CodeSystem.property[6]: The property uri 'https://www.data.esante.gouv.fr/DGOS/NABM/ententePréalable' is not known, so the property values can not be validated fully
+WARNING: CodeSystem/terminologie-nabm: CodeSystem.property[7]: The property uri 'https://www.data.esante.gouv.fr/DGOS/NABM/aPourContingenceTechnique' is not known, so the property values can not be validated fully; unless specified elsewhere, codes will be treated as internal references
+INFORMATION: CodeSystem/terminologie-nabm: CodeSystem.property[7]: The type of property 'code' is 'code', but no ValueSet information was found, so the codes will be validated as internal codes
+INFORMATION: CodeSystem/terminologie-nabm: CodeSystem.property[8]: The property uri 'https://www.data.esante.gouv.fr/DGOS/NABM/coeffB' is not known, so the property values can not be validated fully
+INFORMATION: CodeSystem/terminologie-nabm: CodeSystem.property[9]: The property uri 'https://www.data.esante.gouv.fr/DGOS/NABM/acteReserve' is not known, so the property values can not be validated fully
+INFORMATION: CodeSystem/terminologie-nabm: CodeSystem.property[10]: The property uri 'https://www.data.esante.gouv.fr/DGOS/NABM/rmo' is not known, so the property values can not be validated fully
+INFORMATION: CodeSystem/terminologie-nabm: CodeSystem.property[11]: The property uri 'https://www.data.esante.gouv.fr/DGOS/NABM/examenSanguin' is not known, so the property values can not be validated fully
+INFORMATION: CodeSystem/terminologie-nabm: CodeSystem.property[12]: The property uri 'https://www.data.esante.gouv.fr/DGOS/NABM/nombreMaximumParFacturation' is not known, so the property values can not be validated fully
+WARNING: CodeSystem/terminologie-nabm: CodeSystem.property[13]: The property uri 'https://www.data.esante.gouv.fr/DGOS/NABM/codeIncompatible' is not known, so the property values can not be validated fully; unless specified elsewhere, codes will be treated as internal references
+INFORMATION: CodeSystem/terminologie-nabm: CodeSystem.property[13]: The type of property 'code' is 'code', but no ValueSet information was found, so the codes will be validated as internal codes
+WARNING: CodeSystem/terminologie-nabm: CodeSystem.property[14]: The property uri 'https://www.data.esante.gouv.fr/DGOS/NABM/règleApplicable' is not known, so the property values can not be validated fully; unless specified elsewhere, codes will be treated as internal references
+INFORMATION: CodeSystem/terminologie-nabm: CodeSystem.property[14]: The type of property 'code' is 'code', but no ValueSet information was found, so the codes will be validated as internal codes
 INFORMATION: CodeSystem/terminologie-nabm: CodeSystem.property[17]: This property has only a code ('imported') and not a URI, so it has no clearly defined meaning in the terminology ecosystem
 INFORMATION: CodeSystem/terminologie-nabm: CodeSystem.property[18]: This property has only a code ('root') and not a URI, so it has no clearly defined meaning in the terminology ecosystem
 == input/ontoserver/TRE/NUVA.json ==
@@ -6278,11 +6492,30 @@ INFORMATION: CodeSystem/terminologie-nuva: CodeSystem: CodeSystems SHOULD have a
 INFORMATION: CodeSystem/terminologie-nuva: CodeSystem: Review the All Codes Value Set - incomplete CodeSystems generally should not have an all codes value set specified
 WARNING: CodeSystem/terminologie-nuva: CodeSystem: Published code systems SHOULD conform to the ShareableCodeSystem profile, which says that the element CodeSystem.description is mandatory, but it is not present
 WARNING: CodeSystem/terminologie-nuva: CodeSystem: Published code systems SHOULD conform to the ShareableCodeSystem profile, which says that the element CodeSystem.caseSensitive is mandatory, but it is not present
+WARNING: CodeSystem/terminologie-nuva: CodeSystem.property[0]: The base property uri 'http://www.w3.org/1999/02/22-rdf-syntax-ns' is not known for the property 'type', so the property values can not be validated fully
+INFORMATION: CodeSystem/terminologie-nuva: CodeSystem.property[0]: The type of property 'code' is 'code', but no ValueSet information was found, so the codes will be validated as internal codes
+INFORMATION: CodeSystem/terminologie-nuva: CodeSystem.property[1]: The property uri 'http://purl.org/dc/terms/created' is not known, so the property values can not be validated fully
+INFORMATION: CodeSystem/terminologie-nuva: CodeSystem.property[2]: The property uri 'http://purl.org/dc/terms/modified' is not known, so the property values can not be validated fully
+WARNING: CodeSystem/terminologie-nuva: CodeSystem.property[3]: The base property uri 'http://data.esante.gouv.fr/NUVA/nuvs' is not known for the property 'containedInVaccine', so the property values can not be validated fully
+INFORMATION: CodeSystem/terminologie-nuva: CodeSystem.property[3]: The type of property 'code' is 'code', but no ValueSet information was found, so the codes will be validated as internal codes
+WARNING: CodeSystem/terminologie-nuva: CodeSystem.property[4]: The base property uri 'http://data.esante.gouv.fr/NUVA/nuvs' is not known for the property 'prevents', so the property values can not be validated fully
+INFORMATION: CodeSystem/terminologie-nuva: CodeSystem.property[4]: The type of property 'code' is 'code', but no ValueSet information was found, so the codes will be validated as internal codes
+WARNING: CodeSystem/terminologie-nuva: CodeSystem.property[5]: The base property uri 'http://www.w3.org/2000/01/rdf-schema' is not known for the property 'comment', so the property values can not be validated fully
+WARNING: CodeSystem/terminologie-nuva: CodeSystem.property[6]: The base property uri 'http://data.esante.gouv.fr/NUVA/nuvs' is not known for the property 'containsValence', so the property values can not be validated fully
+INFORMATION: CodeSystem/terminologie-nuva: CodeSystem.property[6]: The type of property 'code' is 'code', but no ValueSet information was found, so the codes will be validated as internal codes
+WARNING: CodeSystem/terminologie-nuva: CodeSystem.property[7]: The base property uri 'http://data.esante.gouv.fr/NUVA/nuvs' is not known for the property 'isAbstract', so the property values can not be validated fully
+WARNING: CodeSystem/terminologie-nuva: CodeSystem.property[8]: The base property uri 'http://www.w3.org/2004/02/skos/core' is not known for the property 'hiddenLabel', so the property values can not be validated fully
 INFORMATION: CodeSystem/terminologie-nuva: CodeSystem.property[11]: This property has only a code ('imported') and not a URI, so it has no clearly defined meaning in the terminology ecosystem
 INFORMATION: CodeSystem/terminologie-nuva: CodeSystem.property[12]: This property has only a code ('root') and not a URI, so it has no clearly defined meaning in the terminology ecosystem
 == input/ontoserver/TRE/SERAFIN_PH.json ==
 INFORMATION: CodeSystem/terminologie-SERAFINPH: CodeSystem: CodeSystems SHOULD have a stated value for the caseSensitive element so that users know the status and meaning of the code system clearly
 WARNING: CodeSystem/terminologie-SERAFINPH: CodeSystem: Published code systems SHOULD conform to the ShareableCodeSystem profile, which says that the element CodeSystem.caseSensitive is mandatory, but it is not present
+INFORMATION: CodeSystem/terminologie-SERAFINPH: CodeSystem.property[0]: The property uri 'http://purl.org/dc/terms/created' is not known, so the property values can not be validated fully
+INFORMATION: CodeSystem/terminologie-SERAFINPH: CodeSystem.property[1]: The property uri 'http://purl.org/dc/elements/1.1/type' is not known, so the property values can not be validated fully
+WARNING: CodeSystem/terminologie-SERAFINPH: CodeSystem.property[2]: The base property uri 'http://www.w3.org/2004/02/skos/core' is not known for the property 'note', so the property values can not be validated fully
+WARNING: CodeSystem/terminologie-SERAFINPH: CodeSystem.property[3]: The base property uri 'http://www.w3.org/2002/07/owl' is not known for the property 'versionInfo', so the property values can not be validated fully
+INFORMATION: CodeSystem/terminologie-SERAFINPH: CodeSystem.property[4]: The property uri 'http://purl.org/dc/terms/modified' is not known, so the property values can not be validated fully
+WARNING: CodeSystem/terminologie-SERAFINPH: CodeSystem.property[5]: The base property uri 'http://www.w3.org/2002/07/owl' is not known for the property 'deprecated', so the property values can not be validated fully
 INFORMATION: CodeSystem/terminologie-SERAFINPH: CodeSystem.property[8]: This property has only a code ('imported') and not a URI, so it has no clearly defined meaning in the terminology ecosystem
 INFORMATION: CodeSystem/terminologie-SERAFINPH: CodeSystem.property[9]: This property has only a code ('root') and not a URI, so it has no clearly defined meaning in the terminology ecosystem
 == input/ontoserver/TRE/ServiceType.json ==
