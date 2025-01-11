@@ -30,7 +30,11 @@ jobs:
       - name: Install gofsh
         run: npm install -g gofsh
 
-
+      - name: Suppression des anciens FSH    
+        run: |
+          rm  -rf ./igSource/input/DM/input/fsh/Template/ontoserver/TRE/*.fsh
+          rm  -rf ./igSource/input/DM/input/fsh/Template/ontoserver/JDV/*.fsh
+          
       - name: Get From ontoserver      
         run: |
           mkdir ./igSource/input/ontoserver
@@ -41,11 +45,7 @@ jobs:
           cd ./igSource/tools
           python ./upload.py 
 
-      - name: Suppression des anciens FSH    
-        run: |
-          rm ./igSource/input/DM/input/fsh/Template/ontoserver/TRE/*.fsh
-          rm ./igSource/input/DM/input/fsh/Template/ontoserver/JDV/*.fsh
-          
+
       - name: Generation des FSH    
         run: |
           gofsh   ./igSource/input/ontoserver/TRE -o ./igSource/input/DM/input/fsh/Template/ontoserver/TRE
