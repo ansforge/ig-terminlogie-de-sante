@@ -29,8 +29,11 @@ jobs:
         run: npm install -g fsh-sushi
 
       - name: Suppression des fichiers templates
-        run : rm ./igSource/DM/input/fsh/Template/*.fsh    
-        
+        run : |
+          rm  -rf ./igSource/DM/input/fsh/Template/*.fsh    
+          rm  -rf ./igSource/input/DM/input/fsh/Template/ontoserver/TRE/*.fsh
+          rm  -rf ./igSource/input/DM/input/fsh/Template/ontoserver/JDV/*.fsh
+          
       - name: Run sushi pour les DM
         run: sushi ./igSource/DM
         
