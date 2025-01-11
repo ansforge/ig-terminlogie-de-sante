@@ -41,22 +41,23 @@ async def main():
     list_codeSystems = await resources.fetch()  
     for e_codeSystem in list_codeSystems :
         print (e_codeSystem["name"])
-        CodeSystem = await client.reference('CodeSystem', e_codeSystem["id"]).to_resource()
-        f = open('../input/ontoserver/TRE/'+ e_codeSystem["name"] + ".json", "w", encoding="utf-8") 
-        try:
-            if(( CodeSystem["count"] > 1000) or (e_codeSystem["name"] == "TRE_R13_CommuneOM"))   :
-                e_codeSystem["content"] = "not-present"
-                f.write(json.dumps(e_codeSystem))  
-            else :
-                f.write(json.dumps(CodeSystem))                   
-        except :
-                print ("Exception " + e_codeSystem["name"])
-                if((e_codeSystem["name"] == "TRE_R13_CommuneOM"))   :
+        if(not os.path.isfile('../DM/fsh-generated/resources/CodeSystem-'+ e_codeSystem["id"] + ".json")) :
+            CodeSystem = await client.reference('CodeSystem', e_codeSystem["id"]).to_resource()
+            f = open('../input/ontoserver/TRE/'+ e_codeSystem["name"] + ".json", "w", encoding="utf-8") 
+            try:
+                if(( CodeSystem["count"] > 1000) or (e_codeSystem["name"] == "TRE_R13_CommuneOM"))   :
                     e_codeSystem["content"] = "not-present"
                     f.write(json.dumps(e_codeSystem))  
-                    print (json.dumps(e_codeSystem))
                 else :
-                    f.write(json.dumps(CodeSystem))         
+                    f.write(json.dumps(CodeSystem))                   
+            except :
+                    print ("Exception " + e_codeSystem["name"])
+                    if((e_codeSystem["name"] == "TRE_R13_CommuneOM"))   :
+                        e_codeSystem["content"] = "not-present"
+                        f.write(json.dumps(e_codeSystem))  
+                        print (json.dumps(e_codeSystem))
+                    else :
+                        f.write(json.dumps(CodeSystem))         
    
 
      # Search for NamingSystem
