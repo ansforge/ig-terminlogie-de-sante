@@ -29,6 +29,14 @@ jobs:
       - uses: actions/checkout@v4
         with:      
           path: igSource
+
+      - run: |
+          echo 'PACKAGE_JSON<<EOF' >> $GITHUB_ENV
+          cat ./igSource/publication-request.json >> $GITHUB_ENV
+          echo 'EOF' >> $GITHUB_ENV
+      - run: |
+          echo '${{ fromJson(env.PACKAGE_JSON).version }}'
+          echo '${{ fromJson(env.PACKAGE_JSON).desc }}'
       
       - name: Install fhirpy
         run :  pip install fhirpy
@@ -143,6 +151,24 @@ jobs:
               zip -FSrj ./IG-terminology-website-release/www/terminologies/listFormat/NOS-Fichiers_Publics.zip ./output/listFormat/ValueSet*.tabs   ./IG-terminology-website-release/www/terminologies/listFormat/CodeSystem*.tabs   
               zip -FSrj ./IG-terminology-website-release/www/terminologies/listFormat/NOS-Jeux_de_Valeurs_CI-SIS.zip ./IG-terminology-website-release/www/terminologies/listFormat/*CISIS*.tabs               
        
+
+
+
+      - name: Create release
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          tag: ${{ github.ref_name }}
+        run: |
+          gh release create "${{ fromJson(env.PACKAGE_JSON).version }}" -t "${{ fromJson(env.PACKAGE_JSON).desc}}"  --generate-notes  --repo="$GITHUB_REPOSITORY" 
+          
+          regex='^https?:\/\/[A-Za-z0-9:.]*([\/]{1}.*\/?)$'
+          [[ ${{ fromJson(env.PACKAGE_JSON).path }} =~ $regex ]]
+          file_path=${BASH_REMATCH[1]}
+          
+          gh release upload "${{ fromJson(env.PACKAGE_JSON).version }}" ./IG-terminology-website-release/www/${file_path}/full-ig.zip  --repo="$GITHUB_REPOSITORY" 
+          gh release upload "${{ fromJson(env.PACKAGE_JSON).version }}" ./IG-terminology-website-release/www/${file_path}/package.db --repo="$GITHUB_REPOSITORY" 
+        
+  
 
       - name: Commit change on IG-terminology-website-release
         run: |
