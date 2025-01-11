@@ -48,8 +48,8 @@ jobs:
 
       - name: Generation des FSH    
         run: |
-          gofsh   ./igSource/input/ontoserver/TRE -o ./igSource/input/DM/input/fsh/Template/ontoserver/TRE
-          gofsh   ./igSource/input/ontoserver/JDV -o ./igSource/input/DM/input/fsh/Template/ontoserver/JDV
+          gofsh   ./igSource/input/ontoserver/TRE -o ./igSource/DM/input/fsh/Template/ontoserver/TRE
+          gofsh   ./igSource/input/ontoserver/JDV -o ./igSource/DM/input/fsh/Template/ontoserver/JDV
           
       - name: Commit change on IG-terminology-website-release
         run: |
@@ -57,8 +57,8 @@ jobs:
           git config http.postBuffer 524288000
           git config --local user.email "github-actions[bot]@users.noreply.github.com"
           git config --local user.name "github-actions[bot]"
-          git add ./input/DM/input/fsh/Template/ontoserver/**/*.fsh
-          git commit -m "Ajout des fsh de eontoserver "         
+          git add ./DM/input/fsh/Template/ontoserver/**/*.fsh
+          git commit -m "Ajout des fsh de ontoserver "         
           git push
 
  
