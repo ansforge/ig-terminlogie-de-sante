@@ -43,6 +43,6 @@ jobs:
           
       - name: Generation des FSH    
         run: |
-          goFSH  ./igSource/input/ontoserver/TRE -o ./igSource/input/DM/input/fsh/Template/ontoserver/TRE
+          gofsh   ./igSource/input/ontoserver/TRE -o ./igSource/input/DM/input/fsh/Template/ontoserver/TRE
 
  
