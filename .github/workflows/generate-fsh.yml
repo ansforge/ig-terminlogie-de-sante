@@ -48,6 +48,8 @@ jobs:
 
       - name: Generation des FSH    
         run: |
+          mkdir ./DM/input/fsh/Template/ontoserver/JDV
+          mkdir ./DM/input/fsh/Template/ontoserver/TRE              
           gofsh   ./igSource/input/ontoserver/TRE -o ./DM/input/fsh/Template/ontoserver/TRE
           gofsh   ./igSource/input/ontoserver/JDV -o ./DM/input/fsh/Template/ontoserver/JDV
           cp ./DM/input/fsh/Template/ontoserver/JDV/*.fsh ./igSource/DM/input/fsh/Template/ontoserver/JDV
