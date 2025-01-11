@@ -53,11 +53,12 @@ jobs:
           
       - name: Commit change on IG-terminology-website-release
         run: |
-          cd  ./igSource/DM/input/fsh/Template/ontoserver
           git config http.postBuffer 524288000
           git config --local user.email "github-actions[bot]@users.noreply.github.com"
           git config --local user.name "github-actions[bot]"
-          git add -A 
+          git add ./igSource/input/DM/input/fsh/Template/ontoserver/TRE/*.fsh
+          git add ./igSource/input/DM/input/fsh/Template/ontoserver/JDV/*.fsh
+          
           git commit -m updated          
 
  
