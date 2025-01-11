@@ -40,11 +40,17 @@ jobs:
           mkdir ./igSource/input/ontoserver/NamingSystem
           cd ./igSource/tools
           python ./upload.py 
+
+      - name: Suppression des anciens FSH    
+        run: |
+          rm ./igSource/input/DM/input/fsh/Template/ontoserver/TRE/*.fsh
+          rm ./igSource/input/DM/input/fsh/Template/ontoserver/JDV/*.fsh
           
       - name: Generation des FSH    
         run: |
           gofsh   ./igSource/input/ontoserver/TRE -o ./igSource/input/DM/input/fsh/Template/ontoserver/TRE
-
+          gofsh   ./igSource/input/ontoserver/TRE -o ./igSource/input/DM/input/fsh/Template/ontoserver/JDV
+          
       - name: Commit change on IG-terminology-website-release
         run: |
           cd  ./igSource/DM/input/fsh/Template/ontoserver
