@@ -1,0 +1,44 @@
+name: Generate FSH
+
+on:
+  schedule:
+  workflow_call:
+  workflow_dispatch:
+
+
+
+
+# The following jobs are equal for all IGs and can be moved to a common composite-action if 'uses'-support is added, see:
+# https://github.com/actions/runner/blob/main/docs/adrs/1144-composite-actions.md
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:      
+          path: igSource
+      
+
+          
+      - name: Install modules
+        run: npm install -g fsh-sushi
+
+      - name: Install gofsh
+        run: npm install -g gofsh
+
+
+      - name: Get From ontoserver      
+        run: |
+          mkdir ./igSource/input/ontoserver
+          mkdir ./igSource/input/ontoserver/JDV
+          mkdir ./igSource/input/ontoserver/TRE
+          mkdir ./igSource/input/ontoserver/ASS
+          mkdir ./igSource/input/ontoserver/NamingSystem
+          cd ./igSource/tools
+          python ./upload.py 
+          
+      - name: Generation des FSH    
+        run: |
+          goFSH  ./igSource/input/ontoserver/TRE -o ./igSource/input/DM/Template/ontoserver/TRE
+
+ 
