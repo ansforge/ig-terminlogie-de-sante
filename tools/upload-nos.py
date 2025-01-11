@@ -42,6 +42,7 @@ async def main():
     for e_codeSystem in list_codeSystems :
         print (e_codeSystem["name"])
         if("https://mos.esante.gouv.fr" in e_codeSystem["url"]) :
+            print ("------------> OK")
             CodeSystem = await client.reference('CodeSystem', e_codeSystem["id"]).to_resource()
             f = open('../input/ontoserver/TRE/'+ e_codeSystem["name"] + ".json", "w", encoding="utf-8") 
             try:
@@ -51,7 +52,6 @@ async def main():
                 else :
                     f.write(json.dumps(CodeSystem))                   
             except :
-                    print ("Exception " + e_codeSystem["name"])
                     if((e_codeSystem["name"] == "TRE_R13_CommuneOM"))   :
                         e_codeSystem["content"] = "not-present"
                         f.write(json.dumps(e_codeSystem))  
@@ -67,6 +67,7 @@ async def main():
     for e_valueSet in list_valueSets :
         print (e_valueSet["name"])
         if("https://mos.esante.gouv.fr" in e_valueSet["url"]) :
+            print ("------------> OK")
             ValueSet = await client.reference('ValueSet', e_valueSet["id"]).to_resource()
             #ValueSet["language"] = "fr-FR"
             with open('../input/ontoserver/JDV/'+ e_valueSet["name"] + ".json", "w", encoding="utf-8") as f:
