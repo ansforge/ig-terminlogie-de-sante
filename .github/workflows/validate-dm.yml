@@ -1,0 +1,30 @@
+name: Validate DM
+
+on:
+  workflow_call:
+  workflow_dispatch:
+
+
+
+
+# The following jobs are equal for all IGs and can be moved to a common composite-action if 'uses'-support is added, see:
+# https://github.com/actions/runner/blob/main/docs/adrs/1144-composite-actions.md
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:      
+          path: igSource
+      
+
+      - name: Install modules
+        run: npm install -g fsh-sushi
+
+      - name: Suppression des fichiers templates
+        run : rm ./igSource/DM/input/fsh/Template/*.fsh    
+        
+      - name: Run sushi pour les DM
+        run: sushi ./igSource/DM
+        
+     
