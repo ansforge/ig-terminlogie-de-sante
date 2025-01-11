@@ -48,9 +48,11 @@ jobs:
 
       - name: Generation des FSH    
         run: |
-          gofsh   ./igSource/input/ontoserver/TRE -o ./igSource/DM/input/fsh/Template/ontoserver/TRE
-          gofsh   ./igSource/input/ontoserver/JDV -o ./igSource/DM/input/fsh/Template/ontoserver/JDV
-          
+          gofsh   ./igSource/input/ontoserver/TRE -o ./DM/input/fsh/Template/ontoserver/TRE
+          gofsh   ./igSource/input/ontoserver/JDV -o ./DM/input/fsh/Template/ontoserver/JDV
+          cp ./DM/input/fsh/Template/ontoserver/JDV/*.fsh ./igSource/DM/input/fsh/Template/ontoserver/JDV
+          cp ./DM/input/fsh/Template/ontoserver/TRE/*.fsh ./igSource/DM/input/fsh/Template/ontoserver/TRE
+    
       - name: Commit change on IG-terminology-website-release
         run: |
           cd ./igSource
@@ -59,6 +61,6 @@ jobs:
           git config --local user.name "github-actions[bot]"
           git add ./DM/input/fsh/Template/ontoserver/**/*.fsh
           git commit -m "Ajout des fsh de ontoserver "         
-          git push
+          # git push
 
  
