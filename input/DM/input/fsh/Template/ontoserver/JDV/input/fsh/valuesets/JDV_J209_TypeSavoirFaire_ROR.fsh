@@ -1,0 +1,27 @@
+ValueSet: JDV_J209_TypeSavoirFaire_ROR
+Id: JDV-J209-TypeSavoirFaire-ROR
+Description: "Type de savoir-faire"
+* ^meta.versionId = "3"
+* ^meta.lastUpdated = "2024-04-27T05:07:18.607+00:00"
+* ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablevalueset"
+* ^extension.url = "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod"
+* ^extension.valuePeriod.start = "2022-08-26T12:00:00+01:00"
+* ^url = "https://mos.esante.gouv.fr/NOS/JDV_J209-TypeSavoirFaire-ROR/FHIR/JDV-J209-TypeSavoirFaire-ROR"
+* ^identifier.system = "urn:ietf:rfc:3986"
+* ^identifier.value = "urn:oid:1.2.250.1.213.3.4.41"
+* ^version = "20231030120000"
+* ^status = #active
+* ^experimental = false
+* ^date = "2023-10-30T12:00:00+01:00"
+* ^publisher = "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris"
+* $TRE-R04-TypeSavoirFaire#C "Compétence"
+* $TRE-R04-TypeSavoirFaire#CAPA "Capacité"
+* $TRE-R04-TypeSavoirFaire#CEX "Compétence exclusive"
+* $TRE-R04-TypeSavoirFaire#DEC "Droit d'exercice complémentaire"
+* $TRE-R04-TypeSavoirFaire#DNQ "DESC non qualifiant"
+* $TRE-R04-TypeSavoirFaire#FQ "Fonction qualifiée"
+* $TRE-R04-TypeSavoirFaire#OP "Orientation particulière"
+* $TRE-R04-TypeSavoirFaire#PAC "Qualification Praticien adjoint contractuel (PAC)"
+* $TRE-R04-TypeSavoirFaire#S "Spécialité ordinale"
+* $TRE-R04-TypeSavoirFaire#SH "Spécialité de concours hospitalier"
+* $TRE-R04-TypeSavoirFaire#SST "Surspécialité acquise à l'issue d'une Formation Spécialisée Transversale (FST)"
