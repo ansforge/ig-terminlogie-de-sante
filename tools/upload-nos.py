@@ -41,32 +41,24 @@ async def main():
     list_codeSystems = await resources.fetch()  
     for e_codeSystem in list_codeSystems :
         print (e_codeSystem["name"])
-        CodeSystem = await client.reference('CodeSystem', e_codeSystem["id"]).to_resource()
-        f = open('../input/ontoserver/TRE/'+ e_codeSystem["name"] + ".json", "w", encoding="utf-8") 
-        try:
-            if(( CodeSystem["count"] > 1000) or (e_codeSystem["name"] == "TRE_R13_CommuneOM"))   :
-                e_codeSystem["content"] = "not-present"
-                f.write(json.dumps(e_codeSystem))  
-            else :
-                f.write(json.dumps(CodeSystem))                   
-        except :
-                print ("Exception " + e_codeSystem["name"])
-                if((e_codeSystem["name"] == "TRE_R13_CommuneOM"))   :
+        if("https://mos.esante.gouv.fr" in e_codeSystem["url"]) :
+            CodeSystem = await client.reference('CodeSystem', e_codeSystem["id"]).to_resource()
+            f = open('../input/ontoserver/TRE/'+ e_codeSystem["name"] + ".json", "w", encoding="utf-8") 
+            try:
+                if(( CodeSystem["count"] > 1000) or (e_codeSystem["name"] == "TRE_R13_CommuneOM"))   :
                     e_codeSystem["content"] = "not-present"
                     f.write(json.dumps(e_codeSystem))  
-                    print (json.dumps(e_codeSystem))
                 else :
-                    f.write(json.dumps(CodeSystem))         
+                    f.write(json.dumps(CodeSystem))                   
+            except :
+                    print ("Exception " + e_codeSystem["name"])
+                    if((e_codeSystem["name"] == "TRE_R13_CommuneOM"))   :
+                        e_codeSystem["content"] = "not-present"
+                        f.write(json.dumps(e_codeSystem))  
+                        print (json.dumps(e_codeSystem))
+                    else :
+                        f.write(json.dumps(CodeSystem))         
    
-
-     # Search for NamingSystem
-    resources = client.resources('NamingSystem')  # Return lazy search set
-    list_namingSystem = await resources.fetch()  
-    for e_namingSystem in list_namingSystem :
-        print (e_namingSystem["name"])
-        CodeSystem = await client.reference('NamingSystem', e_namingSystem["id"]).to_resource()
-        f = open('../input/ontoserver/NamingSystem/'+ e_namingSystem["name"] + ".json", "w", encoding="utf-8") 
-        f.write(json.dumps(e_namingSystem)) 
 
 
     # Search for valueSet
@@ -74,7 +66,7 @@ async def main():
     list_valueSets = await resources.fetch()  
     for e_valueSet in list_valueSets :
         print (e_valueSet["name"])
-        if(not os.path.isfile('../DM/fsh-generated/resources/ValueSet-'+ e_valueSet["id"] + ".json")) :
+        if("https://mos.esante.gouv.fr" in e_valueSet["url"]) :
             ValueSet = await client.reference('ValueSet', e_valueSet["id"]).to_resource()
             #ValueSet["language"] = "fr-FR"
             with open('../input/ontoserver/JDV/'+ e_valueSet["name"] + ".json", "w", encoding="utf-8") as f:
@@ -86,7 +78,7 @@ async def main():
     list_conceptMaps = await resources.fetch()  
     for e_conceptMaps in list_conceptMaps :
         print (e_conceptMaps["name"])
-        if(not os.path.isfile('../DM/fsh-generated/resources/ConceptMap-'+ e_valueSet["id"] + ".json")) :
+        if("https://mos.esante.gouv.fr" in e_conceptMaps["url"]) :
             ConceptMap = await client.reference('ConceptMap', e_conceptMaps ["id"]).to_resource()
             with open('../input/ontoserver/ASS/'+ e_conceptMaps["name"] + ".json", "w", encoding="utf-8") as f:
                 f.write(json.dumps(ConceptMap))      
