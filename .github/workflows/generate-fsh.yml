@@ -1,7 +1,6 @@
 name: Generate FSH
 
 on:
-  schedule:
   workflow_call:
   workflow_dispatch:
 
