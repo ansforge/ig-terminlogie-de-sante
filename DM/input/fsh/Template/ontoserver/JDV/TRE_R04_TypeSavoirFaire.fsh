@@ -1,0 +1,100 @@
+CodeSystem: TRE_R04_TypeSavoirFaire
+Id: TRE-R04-TypeSavoirFaire
+Description: "Type de savoir-faire"
+* ^meta.versionId = "4"
+* ^meta.lastUpdated = "2024-08-28T05:11:00.253+00:00"
+* ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablecodesystem"
+* ^extension.url = "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod"
+* ^extension.valuePeriod.start = "2013-06-28T00:00:00+01:00"
+* ^url = "https://mos.esante.gouv.fr/NOS/TRE_R04-TypeSavoirFaire/FHIR/TRE-R04-TypeSavoirFaire"
+* ^identifier.system = "urn:ietf:rfc:3986"
+* ^identifier.value = "urn:oid:1.2.250.1.213.1.6.1.16"
+* ^version = "20231215120000"
+* ^status = #active
+* ^experimental = false
+* ^date = "2023-12-15T12:00:00+01:00"
+* ^publisher = "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris"
+* ^caseSensitive = false
+* ^content = #complete
+* ^property[0].code = #dateValid
+* ^property[=].description = "date de validité d'un code concept"
+* ^property[=].type = #dateTime
+* ^property[+].code = #dateMaj
+* ^property[=].description = "Date de mise à jour d'un code concept"
+* ^property[=].type = #dateTime
+* ^property[+].code = #dateFin
+* ^property[=].description = "Date de fin d'exploitation d'un code concept"
+* ^property[=].type = #dateTime
+* #C "Compétence"
+* #C ^property[0].code = #dateValid
+* #C ^property[=].valueDateTime = "2007-07-25T15:04:43+01:00"
+* #C ^property[+].code = #dateMaj
+* #C ^property[=].valueDateTime = "2007-07-25T15:04:43+01:00"
+* #CAPA "Capacité"
+* #CAPA ^property[0].code = #dateValid
+* #CAPA ^property[=].valueDateTime = "2007-07-25T15:04:43+01:00"
+* #CAPA ^property[+].code = #dateMaj
+* #CAPA ^property[=].valueDateTime = "2007-07-25T15:04:43+01:00"
+* #CEX "Compétence exclusive"
+* #CEX ^property[0].code = #dateValid
+* #CEX ^property[=].valueDateTime = "2007-07-25T15:04:43+01:00"
+* #CEX ^property[+].code = #dateMaj
+* #CEX ^property[=].valueDateTime = "2007-07-25T15:04:43+01:00"
+* #DEC "Droit d'exercice complémentaire"
+* #DEC ^designation[0].language = #fr-FR
+* #DEC ^designation[=].use.system = "http://snomed.info/sct"
+* #DEC ^designation[=].use = $sct#900000000000013009
+* #DEC ^designation[=].value = "Droit d'exercice complément"
+* #DEC ^property[0].code = #dateValid
+* #DEC ^property[=].valueDateTime = "2016-09-01T00:00:00+01:00"
+* #DEC ^property[+].code = #dateMaj
+* #DEC ^property[=].valueDateTime = "2016-09-01T00:00:00+01:00"
+* #DNQ "DESC non qualifiant"
+* #DNQ ^property[0].code = #dateValid
+* #DNQ ^property[=].valueDateTime = "2007-07-25T15:04:43+01:00"
+* #DNQ ^property[+].code = #dateMaj
+* #DNQ ^property[=].valueDateTime = "2007-07-25T15:04:43+01:00"
+* #FQ "Fonction qualifiée"
+* #FQ ^property[0].code = #dateValid
+* #FQ ^property[=].valueDateTime = "2007-07-25T00:00:00+01:00"
+* #FQ ^property[+].code = #dateMaj
+* #FQ ^property[=].valueDateTime = "2007-07-25T00:00:00+01:00"
+* #OP "Orientation particulière"
+* #OP ^property[0].code = #dateValid
+* #OP ^property[=].valueDateTime = "2007-07-25T15:04:43+01:00"
+* #OP ^property[+].code = #dateMaj
+* #OP ^property[=].valueDateTime = "2016-09-01T00:00:00+01:00"
+* #PAC "Qualification PAC"
+* #PAC ^designation[0].language = #fr-FR
+* #PAC ^designation[=].use.system = "http://snomed.info/sct"
+* #PAC ^designation[=].use = $sct#900000000000013009
+* #PAC ^designation[=].value = "Qualification Praticien adjoint contractuel (PAC)"
+* #PAC ^property[0].code = #dateValid
+* #PAC ^property[=].valueDateTime = "2007-07-25T00:00:00+01:00"
+* #PAC ^property[+].code = #dateMaj
+* #PAC ^property[=].valueDateTime = "2007-07-25T00:00:00+01:00"
+* #S "Spécialité ordinale"
+* #S ^property[0].code = #dateValid
+* #S ^property[=].valueDateTime = "2007-07-25T15:04:43+01:00"
+* #S ^property[+].code = #dateMaj
+* #S ^property[=].valueDateTime = "2016-09-01T00:00:00+01:00"
+* #SH "Spécialité de concours hospitalier"
+* #SH ^designation[0].language = #fr-FR
+* #SH ^designation[=].use.system = "http://snomed.info/sct"
+* #SH ^designation[=].use = $sct#900000000000013009
+* #SH ^designation[=].value = "Spéc de concours hospitalier"
+* #SH ^property[0].code = #dateValid
+* #SH ^property[=].valueDateTime = "2007-07-25T15:04:43+01:00"
+* #SH ^property[+].code = #dateMaj
+* #SH ^property[=].valueDateTime = "2016-09-01T00:00:00+01:00"
+* #SST "Surspécialité de Formation Spécialisée Transversale (FST)"
+* #SST ^designation[0].language = #fr-FR
+* #SST ^designation[=].use = $sct#900000000000013009
+* #SST ^designation[=].value = "Surspécialité transversale"
+* #SST ^designation[+].language = #fr-FR
+* #SST ^designation[=].use = $sct#900000000000013009
+* #SST ^designation[=].value = "Surspécialité acquise à l'issue d'une Formation Spécialisée Transversale (FST)"
+* #SST ^property[0].code = #dateValid
+* #SST ^property[=].valueDateTime = "2023-10-30T12:00:00+01:00"
+* #SST ^property[+].code = #dateMaj
+* #SST ^property[=].valueDateTime = "2023-10-30T12:00:00+01:00"
