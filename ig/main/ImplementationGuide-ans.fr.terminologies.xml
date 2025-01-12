@@ -7,7 +7,7 @@
 </div></div>
   </text>
   <url value="https://interop.esante.gouv.fr/terminologies/ImplementationGuide/ans.fr.terminologies"/>
-  <version value="1.1.0"/>
+  <version value="0.1.0"/>
   <name value="Terminologies"/>
   <title value="Terminologies  de Santé (Publiées par l'ANS)"/>
   <status value="active"/>
@@ -35104,9 +35104,9 @@
         <valueString value="CodeSystem"/>
       </extension>
       <reference>
-        <reference value="CodeSystem/TRE-R13-Commune"/>
+        <reference value="CodeSystem/TRE-R13-CommuneOM"/>
       </reference>
-      <name value="TRE_R13_Commune"/>
+      <name value="TRE_R13_CommuneOM"/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>

@@ -27,7 +27,7 @@
     "id" : "ans.fr.terminologies",
     "type" : "ImplementationGuide",
     "url" : "https://interop.esante.gouv.fr/terminologies/ImplementationGuide/ans.fr.terminologies",
-    "version" : "1.1.0",
+    "version" : "0.1.0",
     "name" : "Terminologies"
   },
   {
@@ -2420,11 +2420,11 @@
     "oids" : ["1.2.250.1.213.1.6.1.11"]
   },
   {
-    "id" : "TRE-R13-Commune",
+    "id" : "TRE-R13-CommuneOM",
     "type" : "CodeSystem",
-    "url" : "https://mos.esante.gouv.fr/NOS/TRE_R13-Commune/FHIR/TRE-R13-Commune",
-    "version" : "20231030120000",
-    "name" : "TRE_R13_Commune",
+    "url" : "https://mos.esante.gouv.fr/NOS/TRE_R13-CommuneOM/FHIR/TRE-R13-CommuneOM",
+    "version" : "20240628120000",
+    "name" : "TRE_R13_CommuneOM",
     "oids" : ["1.2.250.1.213.2.23"]
   },
   {
@@ -10258,9 +10258,8 @@
     "id" : "terminologie-nabm",
     "type" : "CodeSystem",
     "url" : "https://smt.esante.gouv.fr/terminologie-nabm",
-    "version" : "V93",
-    "name" : "NABM",
-    "oids" : ["1.2.250.1.215.300.2"]
+    "version" : "V94",
+    "name" : "NABM"
   },
   {
     "id" : "terminologie-nuva",
@@ -10280,7 +10279,7 @@
     "id" : "terminologie-sms",
     "type" : "CodeSystem",
     "url" : "https://smt.esante.gouv.fr/terminologie-sms",
-    "version" : "2024-12",
+    "version" : "2025-01",
     "name" : "Dictionnaire_des_substances_m_dicamenteuses__SMS_"
   },
   {

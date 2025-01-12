@@ -1,9 +1,9 @@
 Terminologies : Validation Results
 =========================================
 
-err = 1430, warn = 1671, info = 974
+err = 1435, warn = 1671, info = 979
 IG Publisher Version: 1.8.7
-Generated Fri Jan 10 04:53:09 UTC 2025. FHIR version 4.0.1 for ans.fr.terminologies#1.1.0 (canonical = https://interop.esante.gouv.fr/terminologies)
+Generated Sun Jan 12 11:32:20 UTC 2025. FHIR version 4.0.1 for ans.fr.terminologies#0.1.0 (canonical = https://interop.esante.gouv.fr/terminologies)
  Build Errors : 854 / 22 / 0
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/DM/fsh-generated/resources/CodeSystem-snomed-CT : 0 / 0 / 1
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/DM/fsh-generated/resources/ConceptMap-ASS-A11-CorresModeleCDA-XdsFormatCode-CISIS : 26 / 0 / 1
@@ -387,11 +387,11 @@ Generated Fri Jan 10 04:53:09 UTC 2025. FHIR version 4.0.1 for ans.fr.terminolog
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_J118_CategorieProfessionnelle_ENREG : 0 / 1 / 1
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_J119_TypeActiviteLiberale_ENREG : 0 / 1 / 1
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_J11_RelationPatient_CISIS : 0 / 1 / 1
- /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_J120_CommuneHistorisee : 0 / 1 / 0
+ /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_J120_CommuneHistorisee : 0 / 0 / 1
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_J121_RolePriseCharge_ENREG : 0 / 1 / 1
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_J122_Profession_ENREG : 0 / 1 / 1
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_J123_Pays_MDPH : 0 / 1 / 1
- /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_J124_Commune : 0 / 2 / 2
+ /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_J124_Commune : 0 / 1 / 3
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_J126_SecteurActivite_ENREG : 0 / 1 / 1
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_J127_StatutJuridique_ENREG : 0 / 1 / 1
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_J128_TypeCarte_RASS : 0 / 1 / 1
@@ -1091,7 +1091,7 @@ Generated Fri Jan 10 04:53:09 UTC 2025. FHIR version 4.0.1 for ans.fr.terminolog
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/TRE/TRE_R09_CategorieProfessionnelle : 0 / 1 / 4
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/TRE/TRE_R10_SexeAdministratif : 0 / 1 / 4
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/TRE/TRE_R11_CiviliteExercice : 0 / 1 / 4
- /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/TRE/TRE_R13_Commune : 0 / 0 / 0
+ /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/TRE/TRE_R13_CommuneOM : 5 / 2 / 4
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/TRE/TRE_R14_TypeDiplome : 0 / 1 / 4
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/TRE/TRE_R16_LieuFormation : 0 / 1 / 4
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/TRE/TRE_R17_TypeAutorisation : 0 / 1 / 4
@@ -1316,7 +1316,7 @@ WARNING: Unable to find ImplementationGuide.definition.resource.description for 
 WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource CodeSystem/terminologie-emdn.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
 WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource CodeSystem/terminologie-nuva.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
 WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource CodeSystem/terminologie-nabm.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
-WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource CodeSystem/TRE-R13-Commune.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource CodeSystem/TRE-R13-CommuneOM.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
 WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource NamingSystem/v3-loinc.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
 WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource NamingSystem/Snomed-CT-core.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
 WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource ConceptMap/ASS-X11-FinessAgregatStatutJuridique.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
@@ -4345,7 +4345,7 @@ WARNING: ValueSet/JDV-J119-TypeActiviteLiberale-ENREG: ValueSet: Published value
 == input/ontoserver/JDV/JDV_J11_RelationPatient_CISIS.json ==
 WARNING: ValueSet/JDV-J11-RelationPatient-CISIS: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.title is mandatory, but it is not present
 == input/ontoserver/JDV/JDV_J120_CommuneHistorisee.json ==
-WARNING: ValueSet.where(id = 'JDV-J120-CommuneHistorisee'): Error from http://tx.fhir.org/r4: Unable to provide support for code system https://mos.esante.gouv.fr/NOS/TRE_R13-CommuneOM/FHIR/TRE-R13-CommuneOM
+INFORMATION: ValueSet.where(id = 'JDV-J120-CommuneHistorisee'): The value set expansion is too large, and only a subset has been displayed
 == input/ontoserver/JDV/JDV_J121_RolePriseCharge_ENREG.json ==
 WARNING: ValueSet/JDV-J121-RolePriseCharge-ENREG: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.title is mandatory, but it is not present
 == input/ontoserver/JDV/JDV_J122_Profession_ENREG.json ==
@@ -4355,7 +4355,7 @@ WARNING: ValueSet/JDV-J123-Pays-MDPH: ValueSet: Published value sets SHOULD conf
 == input/ontoserver/JDV/JDV_J124_Commune.json ==
 INFORMATION: ValueSet/JDV-J124-Commune: ValueSet.compose.include[0]: The value set include has too many codes to validate (35,030), so each individual code has not been checked
 WARNING: ValueSet/JDV-J124-Commune: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.title is mandatory, but it is not present
-WARNING: ValueSet.where(id = 'JDV-J124-Commune'): Error from http://tx.fhir.org/r4: Unable to provide support for code system https://mos.esante.gouv.fr/NOS/TRE_R13-CommuneOM/FHIR/TRE-R13-CommuneOM
+INFORMATION: ValueSet.where(id = 'JDV-J124-Commune'): The value set expansion is too large, and only a subset has been displayed
 == input/ontoserver/JDV/JDV_J126_SecteurActivite_ENREG.json ==
 WARNING: ValueSet/JDV-J126-SecteurActivite-ENREG: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.title is mandatory, but it is not present
 == input/ontoserver/JDV/JDV_J127_StatutJuridique_ENREG.json ==
@@ -6780,7 +6780,17 @@ WARNING: CodeSystem/TRE-R11-CiviliteExercice: CodeSystem: Published code systems
 INFORMATION: CodeSystem/TRE-R11-CiviliteExercice: CodeSystem.property[0]: This property has only a code ('dateValid') and not a URI, so it has no clearly defined meaning in the terminology ecosystem
 INFORMATION: CodeSystem/TRE-R11-CiviliteExercice: CodeSystem.property[1]: This property has only a code ('dateMaj') and not a URI, so it has no clearly defined meaning in the terminology ecosystem
 INFORMATION: CodeSystem/TRE-R11-CiviliteExercice: CodeSystem.property[2]: This property has only a code ('dateFin') and not a URI, so it has no clearly defined meaning in the terminology ecosystem
-== input/ontoserver/TRE/TRE_R13_Commune.json ==
+== input/ontoserver/TRE/TRE_R13_CommuneOM.json ==
+ERROR: CodeSystem.where(url = 'https://mos.esante.gouv.fr/NOS/TRE_R13-CommuneOM/FHIR/TRE-R13-CommuneOM'): Conformance resource /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/TRE/TRE_R13_CommuneOM.json - the canonical URL (https://interop.esante.gouv.fr/terminologies/CodeSystem/TRE-R13-CommuneOM) does not match the URL (https://mos.esante.gouv.fr/NOS/TRE_R13-CommuneOM/FHIR/TRE-R13-CommuneOM)
+ERROR: CodeSystem/TRE-R13-CommuneOM: CodeSystem: CodeSystem.description: minimum required = 1, but only found 0 (from http://hl7.org/fhir/StructureDefinition/shareablecodesystem|4.0.1)
+ERROR: CodeSystem/TRE-R13-CommuneOM: CodeSystem: CodeSystem.concept: minimum required = 1, but only found 0 (from http://hl7.org/fhir/StructureDefinition/shareablecodesystem|4.0.1)
+ERROR: CodeSystem/TRE-R13-CommuneOM: CodeSystem.meta.tag[0].display: Wrong Display Name 'Resource encoded in summary mode' for http://terminology.hl7.org/CodeSystem/v3-ObservationValue#SUBSETTED. Valid display is 'subsetted' (en) (for the language(s) 'en')
+WARNING: CodeSystem/TRE-R13-CommuneOM: CodeSystem: Published code systems SHOULD conform to the ShareableCodeSystem profile, which says that the element CodeSystem.title is mandatory, but it is not present
+WARNING: CodeSystem/TRE-R13-CommuneOM: CodeSystem: Published code systems SHOULD conform to the ShareableCodeSystem profile, which says that the element CodeSystem.description is mandatory, but it is not present
+INFORMATION: CodeSystem/TRE-R13-CommuneOM: CodeSystem.property[0]: This property has only a code ('dateValid') and not a URI, so it has no clearly defined meaning in the terminology ecosystem
+INFORMATION: CodeSystem/TRE-R13-CommuneOM: CodeSystem.property[1]: This property has only a code ('dateMaj') and not a URI, so it has no clearly defined meaning in the terminology ecosystem
+INFORMATION: CodeSystem/TRE-R13-CommuneOM: CodeSystem.property[2]: This property has only a code ('dateFin') and not a URI, so it has no clearly defined meaning in the terminology ecosystem
+ERROR: /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/TRE/TRE_R13_CommuneOM: URL Mismatch https://interop.esante.gouv.fr/terminologies/CodeSystem/TRE-R13-CommuneOM vs https://mos.esante.gouv.fr/NOS/TRE_R13-CommuneOM/FHIR/TRE-R13-CommuneOM
 == input/ontoserver/TRE/TRE_R14_TypeDiplome.json ==
 WARNING: CodeSystem/TRE-R14-TypeDiplome: CodeSystem: Published code systems SHOULD conform to the ShareableCodeSystem profile, which says that the element CodeSystem.title is mandatory, but it is not present
 INFORMATION: CodeSystem/TRE-R14-TypeDiplome: CodeSystem.property[0]: This property has only a code ('dateValid') and not a URI, so it has no clearly defined meaning in the terminology ecosystem
