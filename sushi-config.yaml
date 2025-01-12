@@ -40,6 +40,7 @@ parameters:
     no-validate:
       - 'CodeSystem/TRE-R13-Commune'
       - 'ValueSet/JDV-J120-CommuneHistorisee'
+      - 'ValueSet/JDV-J124-Commune'
       - 'ConceptMap/ASS-X12-CommuneDeptRegionOM'
     path-resource:
         - DM/fsh-generated/resources
