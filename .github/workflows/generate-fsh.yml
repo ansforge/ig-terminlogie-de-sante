@@ -52,9 +52,9 @@ jobs:
           mkdir   -p ./DM/input/fsh/Template/ontoserver/TRE              
           gofsh   ./igSource/input/ontoserver/TRE -o ./DM/input/fsh/Template/ontoserver/TRE
           sudo cp cp ./DM/input/fsh/Template/ontoserver/TRE/*.fsh ./igSource/DM/input/fsh/Template/ontoserver/TRE
-          mkdir  -p ./DM/input/fsh/Template/ontoserver/JDV
-          gofsh   ./igSource/input/ontoserver/JDV -o ./DM/input/fsh/Template/ontoserver/JDV       
-          sudo cp cp ./DM/input/fsh/Template/ontoserver/JDV/*.fsh ./igSource/DM/input/fsh/Template/ontoserver/JDV
+          # mkdir  -p ./DM/input/fsh/Template/ontoserver/JDV
+          # gofsh   ./igSource/input/ontoserver/JDV -o ./DM/input/fsh/Template/ontoserver/JDV       
+          # sudo cp cp ./DM/input/fsh/Template/ontoserver/JDV/*.fsh ./igSource/DM/input/fsh/Template/ontoserver/JDV
 
     
       - name: Commit change on IG-terminology-website-release
