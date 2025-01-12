@@ -54,7 +54,7 @@ jobs:
           find ./DM/input/fsh/Template/ontoserver/TRE -name '*.fsh'  -exec cp  {} ./igSource/DM/input/fsh/Template/ontoserver/TRE/ \; 
           
           mkdir   -p ./DM/input/fsh/Template/ontoserver/JDV              
-          gofsh   ./igSource/input/ontoserver/TRE -o ./DM/input/fsh/Template/ontoserver/JDV
+          gofsh   ./igSource/input/ontoserver/JDV -o ./DM/input/fsh/Template/ontoserver/JDV
           find ./DM/input/fsh/Template/ontoserver/JDV -name '*.fsh'  -exec cp  {} ./igSource/DM/input/fsh/Template/ontoserver/JDV/ \; 
     
       - name: Commit change on IG-terminology-website-release
