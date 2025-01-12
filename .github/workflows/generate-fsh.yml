@@ -52,6 +52,8 @@ jobs:
           mkdir   -p ./DM/input/fsh/Template/ontoserver/TRE              
           gofsh   ./igSource/input/ontoserver/TRE -o ./DM/input/fsh/Template/ontoserver/TRE
           gofsh   ./igSource/input/ontoserver/JDV -o ./DM/input/fsh/Template/ontoserver/JDV
+          cd  ./DM/input/fsh/Template/ontoserver/JDV
+          ls -lR          
           cp ./DM/input/fsh/Template/ontoserver/JDV/*.fsh ./igSource/DM/input/fsh/Template/ontoserver/JDV
           cp ./DM/input/fsh/Template/ontoserver/TRE/*.fsh ./igSource/DM/input/fsh/Template/ontoserver/TRE
     
