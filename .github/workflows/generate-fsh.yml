@@ -32,8 +32,8 @@ jobs:
 
       - name: Suppression des anciens FSH    
         run: |
-          rm  -rf ./igSource/input/DM/input/fsh/Template/ontoserver/TRE/*.fsh
-          rm  -rf ./igSource/input/DM/input/fsh/Template/ontoserver/JDV/*.fsh
+          rm  -rf ./igSource/DM/input/fsh/Template/ontoserver/TRE/*.fsh
+          rm  -rf ./igSource/DM/input/fsh/Template/ontoserver/JDV/*.fsh
           
       - name: Get From ontoserver      
         run: |
