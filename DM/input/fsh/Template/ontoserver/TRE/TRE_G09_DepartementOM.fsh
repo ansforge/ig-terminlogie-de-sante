@@ -1,0 +1,1284 @@
+CodeSystem: TRE_G09_DepartementOM
+Id: TRE-G09-DepartementOM
+Description: "Référentiel des codes départements et collectivités d’outre-mer provenant du COG INSEE + Monaco"
+* ^meta.versionId = "6"
+* ^meta.lastUpdated = "2024-08-28T05:10:50.197+00:00"
+* ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablecodesystem"
+* ^extension.url = "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod"
+* ^extension.valuePeriod.start = "2015-12-30T00:00:00+01:00"
+* ^url = "https://mos.esante.gouv.fr/NOS/TRE_G09-DepartementOM/FHIR/TRE-G09-DepartementOM"
+* ^identifier.system = "urn:ietf:rfc:3986"
+* ^identifier.value = "urn:oid:1.2.250.1.71.1.2.16"
+* ^version = "20240628120000"
+* ^status = #active
+* ^experimental = false
+* ^date = "2024-06-28T12:00:00+01:00"
+* ^publisher = "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris"
+* ^caseSensitive = false
+* ^content = #complete
+* ^property[0].code = #dateValid
+* ^property[=].description = "date de validité d'un code concept"
+* ^property[=].type = #dateTime
+* ^property[+].code = #dateMaj
+* ^property[=].description = "Date de mise à jour d'un code concept"
+* ^property[=].type = #dateTime
+* ^property[+].code = #dateFin
+* ^property[=].description = "Date de fin d'exploitation d'un code concept"
+* ^property[=].type = #dateTime
+* #01 "Ain"
+* #01 ^designation[0].language = #fr-FR
+* #01 ^designation[=].use.system = "http://snomed.info/sct"
+* #01 ^designation[=].use = $sct#900000000000013009
+* #01 ^designation[=].value = "Ain (01)"
+* #01 ^property[0].code = #dateValid
+* #01 ^property[=].valueDateTime = "2007-07-25T15:04:36+01:00"
+* #01 ^property[+].code = #dateMaj
+* #01 ^property[=].valueDateTime = "2024-01-26T12:00:00+01:00"
+* #02 "Aisne"
+* #02 ^designation[0].language = #fr-FR
+* #02 ^designation[=].use.system = "http://snomed.info/sct"
+* #02 ^designation[=].use = $sct#900000000000013009
+* #02 ^designation[=].value = "Aisne (02)"
+* #02 ^property[0].code = #dateValid
+* #02 ^property[=].valueDateTime = "2007-07-25T15:04:36+01:00"
+* #02 ^property[+].code = #dateMaj
+* #02 ^property[=].valueDateTime = "2024-01-26T12:00:00+01:00"
+* #03 "Allier"
+* #03 ^designation[0].language = #fr-FR
+* #03 ^designation[=].use.system = "http://snomed.info/sct"
+* #03 ^designation[=].use = $sct#900000000000013009
+* #03 ^designation[=].value = "Allier (03)"
+* #03 ^property[0].code = #dateValid
+* #03 ^property[=].valueDateTime = "2007-07-25T15:04:36+01:00"
+* #03 ^property[+].code = #dateMaj
+* #03 ^property[=].valueDateTime = "2024-01-26T12:00:00+01:00"
+* #04 "Alpes-de-Haute-Provence"
+* #04 ^designation[0].language = #fr-FR
+* #04 ^designation[=].use.system = "http://snomed.info/sct"
+* #04 ^designation[=].use = $sct#900000000000013009
+* #04 ^designation[=].value = "ALPES DE HAUTE PROVENCE"
+* #04 ^designation[+].language = #fr-FR
+* #04 ^designation[=].use.system = "http://snomed.info/sct"
+* #04 ^designation[=].use = $sct#900000000000013009
+* #04 ^designation[=].value = "Alpes-de-Haute-Provence (04)"
+* #04 ^property[0].code = #dateValid
+* #04 ^property[=].valueDateTime = "2007-07-25T15:04:36+01:00"
+* #04 ^property[+].code = #dateMaj
+* #04 ^property[=].valueDateTime = "2024-01-26T12:00:00+01:00"
+* #05 "Hautes-Alpes"
+* #05 ^designation[0].language = #fr-FR
+* #05 ^designation[=].use.system = "http://snomed.info/sct"
+* #05 ^designation[=].use = $sct#900000000000013009
+* #05 ^designation[=].value = "HAUTES ALPES"
+* #05 ^designation[+].language = #fr-FR
+* #05 ^designation[=].use.system = "http://snomed.info/sct"
+* #05 ^designation[=].use = $sct#900000000000013009
+* #05 ^designation[=].value = "Hautes-Alpes (05)"
+* #05 ^property[0].code = #dateValid
+* #05 ^property[=].valueDateTime = "2007-07-25T15:04:36+01:00"
+* #05 ^property[+].code = #dateMaj
+* #05 ^property[=].valueDateTime = "2024-01-26T12:00:00+01:00"
+* #06 "Alpes-Maritimes"
+* #06 ^designation[0].language = #fr-FR
+* #06 ^designation[=].use.system = "http://snomed.info/sct"
+* #06 ^designation[=].use = $sct#900000000000013009
+* #06 ^designation[=].value = "ALPES MARITIMES"
+* #06 ^designation[+].language = #fr-FR
+* #06 ^designation[=].use.system = "http://snomed.info/sct"
+* #06 ^designation[=].use = $sct#900000000000013009
+* #06 ^designation[=].value = "Alpes-Maritimes (06)"
+* #06 ^property[0].code = #dateValid
+* #06 ^property[=].valueDateTime = "2007-07-25T15:04:36+01:00"
+* #06 ^property[+].code = #dateMaj
+* #06 ^property[=].valueDateTime = "2024-01-26T12:00:00+01:00"
+* #07 "Ardèche"
+* #07 ^designation[0].language = #fr-FR
+* #07 ^designation[=].use.system = "http://snomed.info/sct"
+* #07 ^designation[=].use = $sct#900000000000013009
+* #07 ^designation[=].value = "ARDECHE"
+* #07 ^designation[+].language = #fr-FR
+* #07 ^designation[=].use.system = "http://snomed.info/sct"
+* #07 ^designation[=].use = $sct#900000000000013009
+* #07 ^designation[=].value = "Ardèche (07)"
+* #07 ^property[0].code = #dateValid
+* #07 ^property[=].valueDateTime = "2007-07-25T15:04:36+01:00"
+* #07 ^property[+].code = #dateMaj
+* #07 ^property[=].valueDateTime = "2024-01-26T12:00:00+01:00"
+* #08 "Ardennes"
+* #08 ^designation[0].language = #fr-FR
+* #08 ^designation[=].use.system = "http://snomed.info/sct"
+* #08 ^designation[=].use = $sct#900000000000013009
+* #08 ^designation[=].value = "Ardennes (08)"
+* #08 ^property[0].code = #dateValid
+* #08 ^property[=].valueDateTime = "2007-07-25T15:04:36+01:00"
+* #08 ^property[+].code = #dateMaj
+* #08 ^property[=].valueDateTime = "2024-01-26T12:00:00+01:00"
+* #09 "Ariège"
+* #09 ^designation[0].language = #fr-FR
+* #09 ^designation[=].use.system = "http://snomed.info/sct"
+* #09 ^designation[=].use = $sct#900000000000013009
+* #09 ^designation[=].value = "ARIEGE"
+* #09 ^designation[+].language = #fr-FR
+* #09 ^designation[=].use.system = "http://snomed.info/sct"
+* #09 ^designation[=].use = $sct#900000000000013009
+* #09 ^designation[=].value = "Ariège (09)"
+* #09 ^property[0].code = #dateValid
+* #09 ^property[=].valueDateTime = "2007-07-25T15:04:36+01:00"
+* #09 ^property[+].code = #dateMaj
+* #09 ^property[=].valueDateTime = "2024-01-26T12:00:00+01:00"
+* #10 "Aube"
+* #10 ^designation[0].language = #fr-FR
+* #10 ^designation[=].use.system = "http://snomed.info/sct"
+* #10 ^designation[=].use = $sct#900000000000013009
+* #10 ^designation[=].value = "Aube (10)"
+* #10 ^property[0].code = #dateValid
+* #10 ^property[=].valueDateTime = "2007-07-25T15:04:36+01:00"
+* #10 ^property[+].code = #dateMaj
+* #10 ^property[=].valueDateTime = "2024-01-26T12:00:00+01:00"
+* #11 "Aude"
+* #11 ^designation[0].language = #fr-FR
+* #11 ^designation[=].use.system = "http://snomed.info/sct"
+* #11 ^designation[=].use = $sct#900000000000013009
+* #11 ^designation[=].value = "Aude (11)"
+* #11 ^property[0].code = #dateValid
+* #11 ^property[=].valueDateTime = "2007-07-25T15:04:36+01:00"
+* #11 ^property[+].code = #dateMaj
+* #11 ^property[=].valueDateTime = "2024-01-26T12:00:00+01:00"
+* #12 "Aveyron"
+* #12 ^designation[0].language = #fr-FR
+* #12 ^designation[=].use.system = "http://snomed.info/sct"
+* #12 ^designation[=].use = $sct#900000000000013009
+* #12 ^designation[=].value = "Aveyron (12)"
+* #12 ^property[0].code = #dateValid
+* #12 ^property[=].valueDateTime = "2007-07-25T15:04:36+01:00"
+* #12 ^property[+].code = #dateMaj
+* #12 ^property[=].valueDateTime = "2024-01-26T12:00:00+01:00"
+* #13 "Bouches-du-Rhône"
+* #13 ^designation[0].language = #fr-FR
+* #13 ^designation[=].use.system = "http://snomed.info/sct"
+* #13 ^designation[=].use = $sct#900000000000013009
+* #13 ^designation[=].value = "BOUCHES DU RHONE"
+* #13 ^designation[+].language = #fr-FR
+* #13 ^designation[=].use.system = "http://snomed.info/sct"
+* #13 ^designation[=].use = $sct#900000000000013009
+* #13 ^designation[=].value = "Bouches-du-Rhône (13)"
+* #13 ^property[0].code = #dateValid
+* #13 ^property[=].valueDateTime = "2007-07-25T15:04:36+01:00"
+* #13 ^property[+].code = #dateMaj
+* #13 ^property[=].valueDateTime = "2024-01-26T12:00:00+01:00"
+* #14 "Calvados"
+* #14 ^designation[0].language = #fr-FR
+* #14 ^designation[=].use.system = "http://snomed.info/sct"
+* #14 ^designation[=].use = $sct#900000000000013009
+* #14 ^designation[=].value = "Calvados (14)"
+* #14 ^property[0].code = #dateValid
+* #14 ^property[=].valueDateTime = "2007-07-25T15:04:36+01:00"
+* #14 ^property[+].code = #dateMaj
+* #14 ^property[=].valueDateTime = "2024-01-26T12:00:00+01:00"
+* #15 "Cantal"
+* #15 ^designation[0].language = #fr-FR
+* #15 ^designation[=].use.system = "http://snomed.info/sct"
+* #15 ^designation[=].use = $sct#900000000000013009
+* #15 ^designation[=].value = "Cantal (15)"
+* #15 ^property[0].code = #dateValid
+* #15 ^property[=].valueDateTime = "2007-07-25T15:04:36+01:00"
+* #15 ^property[+].code = #dateMaj
+* #15 ^property[=].valueDateTime = "2024-01-26T12:00:00+01:00"
+* #16 "Charente"
+* #16 ^designation[0].language = #fr-FR
+* #16 ^designation[=].use.system = "http://snomed.info/sct"
+* #16 ^designation[=].use = $sct#900000000000013009
+* #16 ^designation[=].value = "Charente (16)"
+* #16 ^property[0].code = #dateValid
+* #16 ^property[=].valueDateTime = "2007-07-25T15:04:36+01:00"
+* #16 ^property[+].code = #dateMaj
+* #16 ^property[=].valueDateTime = "2024-01-26T12:00:00+01:00"
+* #17 "Charente-Maritime"
+* #17 ^designation[0].language = #fr-FR
+* #17 ^designation[=].use.system = "http://snomed.info/sct"
+* #17 ^designation[=].use = $sct#900000000000013009
+* #17 ^designation[=].value = "CHARENTE MARITIME"
+* #17 ^designation[+].language = #fr-FR
+* #17 ^designation[=].use.system = "http://snomed.info/sct"
+* #17 ^designation[=].use = $sct#900000000000013009
+* #17 ^designation[=].value = "Charente-Maritime (17)"
+* #17 ^property[0].code = #dateValid
+* #17 ^property[=].valueDateTime = "2007-07-25T15:04:36+01:00"
+* #17 ^property[+].code = #dateMaj
+* #17 ^property[=].valueDateTime = "2024-01-26T12:00:00+01:00"
+* #18 "Cher"
+* #18 ^designation[0].language = #fr-FR
+* #18 ^designation[=].use.system = "http://snomed.info/sct"
+* #18 ^designation[=].use = $sct#900000000000013009
+* #18 ^designation[=].value = "Cher (18)"
+* #18 ^property[0].code = #dateValid
+* #18 ^property[=].valueDateTime = "2007-07-25T15:04:36+01:00"
+* #18 ^property[+].code = #dateMaj
+* #18 ^property[=].valueDateTime = "2024-01-26T12:00:00+01:00"
+* #19 "Corrèze"
+* #19 ^designation[0].language = #fr-FR
+* #19 ^designation[=].use.system = "http://snomed.info/sct"
+* #19 ^designation[=].use = $sct#900000000000013009
+* #19 ^designation[=].value = "CORREZE"
+* #19 ^designation[+].language = #fr-FR
+* #19 ^designation[=].use.system = "http://snomed.info/sct"
+* #19 ^designation[=].use = $sct#900000000000013009
+* #19 ^designation[=].value = "Corrèze (19)"
+* #19 ^property[0].code = #dateValid
+* #19 ^property[=].valueDateTime = "2007-07-25T15:04:36+01:00"
+* #19 ^property[+].code = #dateMaj
+* #19 ^property[=].valueDateTime = "2024-01-26T12:00:00+01:00"
+* #20 "Corse (Ancien Code)"
+* #20 ^designation[0].language = #fr-FR
+* #20 ^designation[=].use.system = "http://snomed.info/sct"
+* #20 ^designation[=].use = $sct#900000000000013009
+* #20 ^designation[=].value = "Corse (20 - Ancien Code)"
+* #20 ^property[0].code = #dateValid
+* #20 ^property[=].valueDateTime = "2017-07-07T10:00:00+01:00"
+* #20 ^property[+].code = #dateFin
+* #20 ^property[=].valueDateTime = "2017-07-07T10:00:00+01:00"
+* #20 ^property[+].code = #dateMaj
+* #20 ^property[=].valueDateTime = "2017-07-07T10:00:00+01:00"
+* #2A "Corse-du-Sud"
+* #2A ^designation[0].language = #fr-FR
+* #2A ^designation[=].use.system = "http://snomed.info/sct"
+* #2A ^designation[=].use = $sct#900000000000013009
+* #2A ^designation[=].value = "CORSE DU SUD"
+* #2A ^designation[+].language = #fr-FR
+* #2A ^designation[=].use.system = "http://snomed.info/sct"
+* #2A ^designation[=].use = $sct#900000000000013009
+* #2A ^designation[=].value = "Corse-du-Sud (2A)"
+* #2A ^property[0].code = #dateValid
+* #2A ^property[=].valueDateTime = "2007-07-25T15:04:36+01:00"
+* #2A ^property[+].code = #dateMaj
+* #2A ^property[=].valueDateTime = "2024-01-26T12:00:00+01:00"
+* #2B "Haute-Corse"
+* #2B ^designation[0].language = #fr-FR
+* #2B ^designation[=].use.system = "http://snomed.info/sct"
+* #2B ^designation[=].use = $sct#900000000000013009
+* #2B ^designation[=].value = "HAUTE CORSE"
+* #2B ^designation[+].language = #fr-FR
+* #2B ^designation[=].use.system = "http://snomed.info/sct"
+* #2B ^designation[=].use = $sct#900000000000013009
+* #2B ^designation[=].value = "Haute-Corse (2B)"
+* #2B ^property[0].code = #dateValid
+* #2B ^property[=].valueDateTime = "2007-07-25T15:04:36+01:00"
+* #2B ^property[+].code = #dateMaj
+* #2B ^property[=].valueDateTime = "2024-01-26T12:00:00+01:00"
+* #21 "Côte-d'Or"
+* #21 ^designation[0].language = #fr-FR
+* #21 ^designation[=].use.system = "http://snomed.info/sct"
+* #21 ^designation[=].use = $sct#900000000000013009
+* #21 ^designation[=].value = "COTE D OR"
+* #21 ^designation[+].language = #fr-FR
+* #21 ^designation[=].use.system = "http://snomed.info/sct"
+* #21 ^designation[=].use = $sct#900000000000013009
+* #21 ^designation[=].value = "Côte-d'Or (21)"
+* #21 ^property[0].code = #dateValid
+* #21 ^property[=].valueDateTime = "2007-07-25T15:04:36+01:00"
+* #21 ^property[+].code = #dateMaj
+* #21 ^property[=].valueDateTime = "2024-01-26T12:00:00+01:00"
+* #22 "Côtes-d'Armor"
+* #22 ^designation[0].language = #fr-FR
+* #22 ^designation[=].use.system = "http://snomed.info/sct"
+* #22 ^designation[=].use = $sct#900000000000013009
+* #22 ^designation[=].value = "COTES D ARMOR"
+* #22 ^designation[+].language = #fr-FR
+* #22 ^designation[=].use.system = "http://snomed.info/sct"
+* #22 ^designation[=].use = $sct#900000000000013009
+* #22 ^designation[=].value = "Côtes-d'Armor (22)"
+* #22 ^property[0].code = #dateValid
+* #22 ^property[=].valueDateTime = "2007-07-25T15:04:36+01:00"
+* #22 ^property[+].code = #dateMaj
+* #22 ^property[=].valueDateTime = "2024-01-26T12:00:00+01:00"
+* #23 "Creuse"
+* #23 ^designation[0].language = #fr-FR
+* #23 ^designation[=].use.system = "http://snomed.info/sct"
+* #23 ^designation[=].use = $sct#900000000000013009
+* #23 ^designation[=].value = "Creuse (23)"
+* #23 ^property[0].code = #dateValid
+* #23 ^property[=].valueDateTime = "2007-07-25T15:04:36+01:00"
+* #23 ^property[+].code = #dateMaj
+* #23 ^property[=].valueDateTime = "2024-01-26T12:00:00+01:00"
+* #24 "Dordogne"
+* #24 ^designation[0].language = #fr-FR
+* #24 ^designation[=].use.system = "http://snomed.info/sct"
+* #24 ^designation[=].use = $sct#900000000000013009
+* #24 ^designation[=].value = "Dordogne (24)"
+* #24 ^property[0].code = #dateValid
+* #24 ^property[=].valueDateTime = "2007-07-25T15:04:36+01:00"
+* #24 ^property[+].code = #dateMaj
+* #24 ^property[=].valueDateTime = "2024-01-26T12:00:00+01:00"
+* #25 "Doubs"
+* #25 ^designation[0].language = #fr-FR
+* #25 ^designation[=].use.system = "http://snomed.info/sct"
+* #25 ^designation[=].use = $sct#900000000000013009
+* #25 ^designation[=].value = "Doubs (25)"
+* #25 ^property[0].code = #dateValid
+* #25 ^property[=].valueDateTime = "2007-07-25T15:04:36+01:00"
+* #25 ^property[+].code = #dateMaj
+* #25 ^property[=].valueDateTime = "2024-01-26T12:00:00+01:00"
+* #26 "Drôme"
+* #26 ^designation[0].language = #fr-FR
+* #26 ^designation[=].use.system = "http://snomed.info/sct"
+* #26 ^designation[=].use = $sct#900000000000013009
+* #26 ^designation[=].value = "DROME"
+* #26 ^designation[+].language = #fr-FR
+* #26 ^designation[=].use.system = "http://snomed.info/sct"
+* #26 ^designation[=].use = $sct#900000000000013009
+* #26 ^designation[=].value = "Drôme (26)"
+* #26 ^property[0].code = #dateValid
+* #26 ^property[=].valueDateTime = "2007-07-25T15:04:36+01:00"
+* #26 ^property[+].code = #dateMaj
+* #26 ^property[=].valueDateTime = "2024-01-26T12:00:00+01:00"
+* #27 "Eure"
+* #27 ^designation[0].language = #fr-FR
+* #27 ^designation[=].use.system = "http://snomed.info/sct"
+* #27 ^designation[=].use = $sct#900000000000013009
+* #27 ^designation[=].value = "Eure (27)"
+* #27 ^property[0].code = #dateValid
+* #27 ^property[=].valueDateTime = "2007-07-25T15:04:36+01:00"
+* #27 ^property[+].code = #dateMaj
+* #27 ^property[=].valueDateTime = "2024-01-26T12:00:00+01:00"
+* #28 "Eure-et-Loir"
+* #28 ^designation[0].language = #fr-FR
+* #28 ^designation[=].use.system = "http://snomed.info/sct"
+* #28 ^designation[=].use = $sct#900000000000013009
+* #28 ^designation[=].value = "EURE ET LOIR"
+* #28 ^designation[+].language = #fr-FR
+* #28 ^designation[=].use.system = "http://snomed.info/sct"
+* #28 ^designation[=].use = $sct#900000000000013009
+* #28 ^designation[=].value = "Eure-et-Loir (28)"
+* #28 ^property[0].code = #dateValid
+* #28 ^property[=].valueDateTime = "2007-07-25T15:04:36+01:00"
+* #28 ^property[+].code = #dateMaj
+* #28 ^property[=].valueDateTime = "2024-01-26T12:00:00+01:00"
+* #29 "Finistère"
+* #29 ^designation[0].language = #fr-FR
+* #29 ^designation[=].use.system = "http://snomed.info/sct"
+* #29 ^designation[=].use = $sct#900000000000013009
+* #29 ^designation[=].value = "FINISTERE"
+* #29 ^designation[+].language = #fr-FR
+* #29 ^designation[=].use.system = "http://snomed.info/sct"
+* #29 ^designation[=].use = $sct#900000000000013009
+* #29 ^designation[=].value = "Finistère (29)"
+* #29 ^property[0].code = #dateValid
+* #29 ^property[=].valueDateTime = "2007-07-25T15:04:36+01:00"
+* #29 ^property[+].code = #dateMaj
+* #29 ^property[=].valueDateTime = "2024-01-26T12:00:00+01:00"
+* #30 "Gard"
+* #30 ^designation[0].language = #fr-FR
+* #30 ^designation[=].use.system = "http://snomed.info/sct"
+* #30 ^designation[=].use = $sct#900000000000013009
+* #30 ^designation[=].value = "Gard (30)"
+* #30 ^property[0].code = #dateValid
+* #30 ^property[=].valueDateTime = "2007-07-25T15:04:36+01:00"
+* #30 ^property[+].code = #dateMaj
+* #30 ^property[=].valueDateTime = "2024-01-26T12:00:00+01:00"
+* #31 "Haute-Garonne"
+* #31 ^designation[0].language = #fr-FR
+* #31 ^designation[=].use.system = "http://snomed.info/sct"
+* #31 ^designation[=].use = $sct#900000000000013009
+* #31 ^designation[=].value = "HAUTE GARONNE"
+* #31 ^designation[+].language = #fr-FR
+* #31 ^designation[=].use.system = "http://snomed.info/sct"
+* #31 ^designation[=].use = $sct#900000000000013009
+* #31 ^designation[=].value = "Haute-Garonne (31)"
+* #31 ^property[0].code = #dateValid
+* #31 ^property[=].valueDateTime = "2007-07-25T15:04:36+01:00"
+* #31 ^property[+].code = #dateMaj
+* #31 ^property[=].valueDateTime = "2024-01-26T12:00:00+01:00"
+* #32 "Gers"
+* #32 ^designation[0].language = #fr-FR
+* #32 ^designation[=].use.system = "http://snomed.info/sct"
+* #32 ^designation[=].use = $sct#900000000000013009
+* #32 ^designation[=].value = "Gers (32)"
+* #32 ^property[0].code = #dateValid
+* #32 ^property[=].valueDateTime = "2007-07-25T15:04:36+01:00"
+* #32 ^property[+].code = #dateMaj
+* #32 ^property[=].valueDateTime = "2024-01-26T12:00:00+01:00"
+* #33 "Gironde"
+* #33 ^designation[0].language = #fr-FR
+* #33 ^designation[=].use.system = "http://snomed.info/sct"
+* #33 ^designation[=].use = $sct#900000000000013009
+* #33 ^designation[=].value = "Gironde (33)"
+* #33 ^property[0].code = #dateValid
+* #33 ^property[=].valueDateTime = "2007-07-25T15:04:36+01:00"
+* #33 ^property[+].code = #dateMaj
+* #33 ^property[=].valueDateTime = "2024-01-26T12:00:00+01:00"
+* #34 "Hérault"
+* #34 ^designation[0].language = #fr-FR
+* #34 ^designation[=].use.system = "http://snomed.info/sct"
+* #34 ^designation[=].use = $sct#900000000000013009
+* #34 ^designation[=].value = "HERAULT"
+* #34 ^designation[+].language = #fr-FR
+* #34 ^designation[=].use.system = "http://snomed.info/sct"
+* #34 ^designation[=].use = $sct#900000000000013009
+* #34 ^designation[=].value = "Hérault (34)"
+* #34 ^property[0].code = #dateValid
+* #34 ^property[=].valueDateTime = "2007-07-25T15:04:36+01:00"
+* #34 ^property[+].code = #dateMaj
+* #34 ^property[=].valueDateTime = "2024-01-26T12:00:00+01:00"
+* #35 "Ille-et-Vilaine"
+* #35 ^designation[0].language = #fr-FR
+* #35 ^designation[=].use.system = "http://snomed.info/sct"
+* #35 ^designation[=].use = $sct#900000000000013009
+* #35 ^designation[=].value = "ILLE ET VILAINE"
+* #35 ^designation[+].language = #fr-FR
+* #35 ^designation[=].use.system = "http://snomed.info/sct"
+* #35 ^designation[=].use = $sct#900000000000013009
+* #35 ^designation[=].value = "Ille-et-Vilaine (35)"
+* #35 ^property[0].code = #dateValid
+* #35 ^property[=].valueDateTime = "2007-07-25T15:04:36+01:00"
+* #35 ^property[+].code = #dateMaj
+* #35 ^property[=].valueDateTime = "2024-01-26T12:00:00+01:00"
+* #36 "Indre"
+* #36 ^designation[0].language = #fr-FR
+* #36 ^designation[=].use.system = "http://snomed.info/sct"
+* #36 ^designation[=].use = $sct#900000000000013009
+* #36 ^designation[=].value = "Indre (36)"
+* #36 ^property[0].code = #dateValid
+* #36 ^property[=].valueDateTime = "2007-07-25T15:04:36+01:00"
+* #36 ^property[+].code = #dateMaj
+* #36 ^property[=].valueDateTime = "2024-01-26T12:00:00+01:00"
+* #37 "Indre-et-Loire"
+* #37 ^designation[0].language = #fr-FR
+* #37 ^designation[=].use.system = "http://snomed.info/sct"
+* #37 ^designation[=].use = $sct#900000000000013009
+* #37 ^designation[=].value = "INDRE ET LOIRE"
+* #37 ^designation[+].language = #fr-FR
+* #37 ^designation[=].use.system = "http://snomed.info/sct"
+* #37 ^designation[=].use = $sct#900000000000013009
+* #37 ^designation[=].value = "Indre-et-Loire (37)"
+* #37 ^property[0].code = #dateValid
+* #37 ^property[=].valueDateTime = "2007-07-25T15:04:36+01:00"
+* #37 ^property[+].code = #dateMaj
+* #37 ^property[=].valueDateTime = "2024-01-26T12:00:00+01:00"
+* #38 "Isère"
+* #38 ^designation[0].language = #fr-FR
+* #38 ^designation[=].use.system = "http://snomed.info/sct"
+* #38 ^designation[=].use = $sct#900000000000013009
+* #38 ^designation[=].value = "ISERE"
+* #38 ^designation[+].language = #fr-FR
+* #38 ^designation[=].use.system = "http://snomed.info/sct"
+* #38 ^designation[=].use = $sct#900000000000013009
+* #38 ^designation[=].value = "Isère (38)"
+* #38 ^property[0].code = #dateValid
+* #38 ^property[=].valueDateTime = "2007-07-25T15:04:36+01:00"
+* #38 ^property[+].code = #dateMaj
+* #38 ^property[=].valueDateTime = "2024-01-26T12:00:00+01:00"
+* #39 "Jura"
+* #39 ^designation[0].language = #fr-FR
+* #39 ^designation[=].use.system = "http://snomed.info/sct"
+* #39 ^designation[=].use = $sct#900000000000013009
+* #39 ^designation[=].value = "Jura (39)"
+* #39 ^property[0].code = #dateValid
+* #39 ^property[=].valueDateTime = "2007-07-25T15:04:36+01:00"
+* #39 ^property[+].code = #dateMaj
+* #39 ^property[=].valueDateTime = "2024-01-26T12:00:00+01:00"
+* #40 "Landes"
+* #40 ^designation[0].language = #fr-FR
+* #40 ^designation[=].use.system = "http://snomed.info/sct"
+* #40 ^designation[=].use = $sct#900000000000013009
+* #40 ^designation[=].value = "Landes (40)"
+* #40 ^property[0].code = #dateValid
+* #40 ^property[=].valueDateTime = "2007-07-25T15:04:36+01:00"
+* #40 ^property[+].code = #dateMaj
+* #40 ^property[=].valueDateTime = "2024-01-26T12:00:00+01:00"
+* #41 "Loir-et-Cher"
+* #41 ^designation[0].language = #fr-FR
+* #41 ^designation[=].use.system = "http://snomed.info/sct"
+* #41 ^designation[=].use = $sct#900000000000013009
+* #41 ^designation[=].value = "LOIR ET CHER"
+* #41 ^designation[+].language = #fr-FR
+* #41 ^designation[=].use.system = "http://snomed.info/sct"
+* #41 ^designation[=].use = $sct#900000000000013009
+* #41 ^designation[=].value = "Loir-et-Cher (41)"
+* #41 ^property[0].code = #dateValid
+* #41 ^property[=].valueDateTime = "2007-07-25T15:04:36+01:00"
+* #41 ^property[+].code = #dateMaj
+* #41 ^property[=].valueDateTime = "2024-01-26T12:00:00+01:00"
+* #42 "Loire"
+* #42 ^designation[0].language = #fr-FR
+* #42 ^designation[=].use.system = "http://snomed.info/sct"
+* #42 ^designation[=].use = $sct#900000000000013009
+* #42 ^designation[=].value = "Loire (42)"
+* #42 ^property[0].code = #dateValid
+* #42 ^property[=].valueDateTime = "2007-07-25T15:04:36+01:00"
+* #42 ^property[+].code = #dateMaj
+* #42 ^property[=].valueDateTime = "2024-01-26T12:00:00+01:00"
+* #43 "Haute-Loire"
+* #43 ^designation[0].language = #fr-FR
+* #43 ^designation[=].use.system = "http://snomed.info/sct"
+* #43 ^designation[=].use = $sct#900000000000013009
+* #43 ^designation[=].value = "HAUTE LOIRE"
+* #43 ^designation[+].language = #fr-FR
+* #43 ^designation[=].use.system = "http://snomed.info/sct"
+* #43 ^designation[=].use = $sct#900000000000013009
+* #43 ^designation[=].value = "Haute-Loire (43)"
+* #43 ^property[0].code = #dateValid
+* #43 ^property[=].valueDateTime = "2007-07-25T15:04:36+01:00"
+* #43 ^property[+].code = #dateMaj
+* #43 ^property[=].valueDateTime = "2024-01-26T12:00:00+01:00"
+* #44 "Loire-Atlantique"
+* #44 ^designation[0].language = #fr-FR
+* #44 ^designation[=].use.system = "http://snomed.info/sct"
+* #44 ^designation[=].use = $sct#900000000000013009
+* #44 ^designation[=].value = "LOIRE ATLANTIQUE"
+* #44 ^designation[+].language = #fr-FR
+* #44 ^designation[=].use.system = "http://snomed.info/sct"
+* #44 ^designation[=].use = $sct#900000000000013009
+* #44 ^designation[=].value = "Loire-Atlantique (44)"
+* #44 ^property[0].code = #dateValid
+* #44 ^property[=].valueDateTime = "2007-07-25T15:04:36+01:00"
+* #44 ^property[+].code = #dateMaj
+* #44 ^property[=].valueDateTime = "2024-01-26T12:00:00+01:00"
+* #45 "Loiret"
+* #45 ^designation[0].language = #fr-FR
+* #45 ^designation[=].use.system = "http://snomed.info/sct"
+* #45 ^designation[=].use = $sct#900000000000013009
+* #45 ^designation[=].value = "Loiret (45)"
+* #45 ^property[0].code = #dateValid
+* #45 ^property[=].valueDateTime = "2007-07-25T15:04:36+01:00"
+* #45 ^property[+].code = #dateMaj
+* #45 ^property[=].valueDateTime = "2024-01-26T12:00:00+01:00"
+* #46 "Lot"
+* #46 ^designation[0].language = #fr-FR
+* #46 ^designation[=].use.system = "http://snomed.info/sct"
+* #46 ^designation[=].use = $sct#900000000000013009
+* #46 ^designation[=].value = "Lot (46)"
+* #46 ^property[0].code = #dateValid
+* #46 ^property[=].valueDateTime = "2007-07-25T15:04:36+01:00"
+* #46 ^property[+].code = #dateMaj
+* #46 ^property[=].valueDateTime = "2024-01-26T12:00:00+01:00"
+* #47 "Lot-et-Garonne"
+* #47 ^designation[0].language = #fr-FR
+* #47 ^designation[=].use.system = "http://snomed.info/sct"
+* #47 ^designation[=].use = $sct#900000000000013009
+* #47 ^designation[=].value = "LOT ET GARONNE"
+* #47 ^designation[+].language = #fr-FR
+* #47 ^designation[=].use.system = "http://snomed.info/sct"
+* #47 ^designation[=].use = $sct#900000000000013009
+* #47 ^designation[=].value = "Lot-et-Garonne (47)"
+* #47 ^property[0].code = #dateValid
+* #47 ^property[=].valueDateTime = "2007-07-25T15:04:36+01:00"
+* #47 ^property[+].code = #dateMaj
+* #47 ^property[=].valueDateTime = "2024-01-26T12:00:00+01:00"
+* #48 "Lozère"
+* #48 ^designation[0].language = #fr-FR
+* #48 ^designation[=].use.system = "http://snomed.info/sct"
+* #48 ^designation[=].use = $sct#900000000000013009
+* #48 ^designation[=].value = "LOZERE"
+* #48 ^designation[+].language = #fr-FR
+* #48 ^designation[=].use.system = "http://snomed.info/sct"
+* #48 ^designation[=].use = $sct#900000000000013009
+* #48 ^designation[=].value = "Lozère (48)"
+* #48 ^property[0].code = #dateValid
+* #48 ^property[=].valueDateTime = "2007-07-25T15:04:36+01:00"
+* #48 ^property[+].code = #dateMaj
+* #48 ^property[=].valueDateTime = "2024-01-26T12:00:00+01:00"
+* #49 "Maine-et-Loire"
+* #49 ^designation[0].language = #fr-FR
+* #49 ^designation[=].use.system = "http://snomed.info/sct"
+* #49 ^designation[=].use = $sct#900000000000013009
+* #49 ^designation[=].value = "MAINE ET LOIRE"
+* #49 ^designation[+].language = #fr-FR
+* #49 ^designation[=].use.system = "http://snomed.info/sct"
+* #49 ^designation[=].use = $sct#900000000000013009
+* #49 ^designation[=].value = "Maine-et-Loire (49)"
+* #49 ^property[0].code = #dateValid
+* #49 ^property[=].valueDateTime = "2007-07-25T15:04:36+01:00"
+* #49 ^property[+].code = #dateMaj
+* #49 ^property[=].valueDateTime = "2024-01-26T12:00:00+01:00"
+* #50 "Manche"
+* #50 ^designation[0].language = #fr-FR
+* #50 ^designation[=].use.system = "http://snomed.info/sct"
+* #50 ^designation[=].use = $sct#900000000000013009
+* #50 ^designation[=].value = "Manche (50)"
+* #50 ^property[0].code = #dateValid
+* #50 ^property[=].valueDateTime = "2007-07-25T15:04:36+01:00"
+* #50 ^property[+].code = #dateMaj
+* #50 ^property[=].valueDateTime = "2024-01-26T12:00:00+01:00"
+* #51 "Marne"
+* #51 ^designation[0].language = #fr-FR
+* #51 ^designation[=].use.system = "http://snomed.info/sct"
+* #51 ^designation[=].use = $sct#900000000000013009
+* #51 ^designation[=].value = "Marne (51)"
+* #51 ^property[0].code = #dateValid
+* #51 ^property[=].valueDateTime = "2007-07-25T15:04:36+01:00"
+* #51 ^property[+].code = #dateMaj
+* #51 ^property[=].valueDateTime = "2024-01-26T12:00:00+01:00"
+* #52 "Haute-Marne"
+* #52 ^designation[0].language = #fr-FR
+* #52 ^designation[=].use.system = "http://snomed.info/sct"
+* #52 ^designation[=].use = $sct#900000000000013009
+* #52 ^designation[=].value = "HAUTE MARNE"
+* #52 ^designation[+].language = #fr-FR
+* #52 ^designation[=].use.system = "http://snomed.info/sct"
+* #52 ^designation[=].use = $sct#900000000000013009
+* #52 ^designation[=].value = "Haute-Marne (52)"
+* #52 ^property[0].code = #dateValid
+* #52 ^property[=].valueDateTime = "2007-07-25T15:04:36+01:00"
+* #52 ^property[+].code = #dateMaj
+* #52 ^property[=].valueDateTime = "2024-01-26T12:00:00+01:00"
+* #53 "Mayenne"
+* #53 ^designation[0].language = #fr-FR
+* #53 ^designation[=].use.system = "http://snomed.info/sct"
+* #53 ^designation[=].use = $sct#900000000000013009
+* #53 ^designation[=].value = "Mayenne (53)"
+* #53 ^property[0].code = #dateValid
+* #53 ^property[=].valueDateTime = "2007-07-25T15:04:36+01:00"
+* #53 ^property[+].code = #dateMaj
+* #53 ^property[=].valueDateTime = "2024-01-26T12:00:00+01:00"
+* #54 "Meurthe-et-Moselle"
+* #54 ^designation[0].language = #fr-FR
+* #54 ^designation[=].use.system = "http://snomed.info/sct"
+* #54 ^designation[=].use = $sct#900000000000013009
+* #54 ^designation[=].value = "MEURTHE ET MOSELLE"
+* #54 ^designation[+].language = #fr-FR
+* #54 ^designation[=].use.system = "http://snomed.info/sct"
+* #54 ^designation[=].use = $sct#900000000000013009
+* #54 ^designation[=].value = "Meurthe-et-Moselle (54)"
+* #54 ^property[0].code = #dateValid
+* #54 ^property[=].valueDateTime = "2007-07-25T15:04:36+01:00"
+* #54 ^property[+].code = #dateMaj
+* #54 ^property[=].valueDateTime = "2024-01-26T12:00:00+01:00"
+* #55 "Meuse"
+* #55 ^designation[0].language = #fr-FR
+* #55 ^designation[=].use.system = "http://snomed.info/sct"
+* #55 ^designation[=].use = $sct#900000000000013009
+* #55 ^designation[=].value = "Meuse (55)"
+* #55 ^property[0].code = #dateValid
+* #55 ^property[=].valueDateTime = "2007-07-25T15:04:36+01:00"
+* #55 ^property[+].code = #dateMaj
+* #55 ^property[=].valueDateTime = "2024-01-26T12:00:00+01:00"
+* #56 "Morbihan"
+* #56 ^designation[0].language = #fr-FR
+* #56 ^designation[=].use.system = "http://snomed.info/sct"
+* #56 ^designation[=].use = $sct#900000000000013009
+* #56 ^designation[=].value = "Morbihan (56)"
+* #56 ^property[0].code = #dateValid
+* #56 ^property[=].valueDateTime = "2007-07-25T15:04:36+01:00"
+* #56 ^property[+].code = #dateMaj
+* #56 ^property[=].valueDateTime = "2024-01-26T12:00:00+01:00"
+* #57 "Moselle"
+* #57 ^designation[0].language = #fr-FR
+* #57 ^designation[=].use.system = "http://snomed.info/sct"
+* #57 ^designation[=].use = $sct#900000000000013009
+* #57 ^designation[=].value = "Moselle (57)"
+* #57 ^property[0].code = #dateValid
+* #57 ^property[=].valueDateTime = "2007-07-25T15:04:36+01:00"
+* #57 ^property[+].code = #dateMaj
+* #57 ^property[=].valueDateTime = "2024-01-26T12:00:00+01:00"
+* #58 "Nièvre"
+* #58 ^designation[0].language = #fr-FR
+* #58 ^designation[=].use.system = "http://snomed.info/sct"
+* #58 ^designation[=].use = $sct#900000000000013009
+* #58 ^designation[=].value = "NIEVRE"
+* #58 ^designation[+].language = #fr-FR
+* #58 ^designation[=].use.system = "http://snomed.info/sct"
+* #58 ^designation[=].use = $sct#900000000000013009
+* #58 ^designation[=].value = "Nièvre (58)"
+* #58 ^property[0].code = #dateValid
+* #58 ^property[=].valueDateTime = "2007-07-25T15:04:36+01:00"
+* #58 ^property[+].code = #dateMaj
+* #58 ^property[=].valueDateTime = "2024-01-26T12:00:00+01:00"
+* #59 "Nord"
+* #59 ^designation[0].language = #fr-FR
+* #59 ^designation[=].use.system = "http://snomed.info/sct"
+* #59 ^designation[=].use = $sct#900000000000013009
+* #59 ^designation[=].value = "Nord (59)"
+* #59 ^property[0].code = #dateValid
+* #59 ^property[=].valueDateTime = "2007-07-25T15:04:36+01:00"
+* #59 ^property[+].code = #dateMaj
+* #59 ^property[=].valueDateTime = "2024-01-26T12:00:00+01:00"
+* #60 "Oise"
+* #60 ^designation[0].language = #fr-FR
+* #60 ^designation[=].use.system = "http://snomed.info/sct"
+* #60 ^designation[=].use = $sct#900000000000013009
+* #60 ^designation[=].value = "Oise (60)"
+* #60 ^property[0].code = #dateValid
+* #60 ^property[=].valueDateTime = "2007-07-25T15:04:36+01:00"
+* #60 ^property[+].code = #dateMaj
+* #60 ^property[=].valueDateTime = "2024-01-26T12:00:00+01:00"
+* #61 "Orne"
+* #61 ^designation[0].language = #fr-FR
+* #61 ^designation[=].use.system = "http://snomed.info/sct"
+* #61 ^designation[=].use = $sct#900000000000013009
+* #61 ^designation[=].value = "Orne (61)"
+* #61 ^property[0].code = #dateValid
+* #61 ^property[=].valueDateTime = "2007-07-25T15:04:36+01:00"
+* #61 ^property[+].code = #dateMaj
+* #61 ^property[=].valueDateTime = "2024-01-26T12:00:00+01:00"
+* #62 "Pas-de-Calais"
+* #62 ^designation[0].language = #fr-FR
+* #62 ^designation[=].use.system = "http://snomed.info/sct"
+* #62 ^designation[=].use = $sct#900000000000013009
+* #62 ^designation[=].value = "PAS DE CALAIS"
+* #62 ^designation[+].language = #fr-FR
+* #62 ^designation[=].use.system = "http://snomed.info/sct"
+* #62 ^designation[=].use = $sct#900000000000013009
+* #62 ^designation[=].value = "Pas-de-Calais (62)"
+* #62 ^property[0].code = #dateValid
+* #62 ^property[=].valueDateTime = "2007-07-25T15:04:36+01:00"
+* #62 ^property[+].code = #dateMaj
+* #62 ^property[=].valueDateTime = "2024-01-26T12:00:00+01:00"
+* #63 "Puy-de-Dôme"
+* #63 ^designation[0].language = #fr-FR
+* #63 ^designation[=].use.system = "http://snomed.info/sct"
+* #63 ^designation[=].use = $sct#900000000000013009
+* #63 ^designation[=].value = "PUY DE DOME"
+* #63 ^designation[+].language = #fr-FR
+* #63 ^designation[=].use.system = "http://snomed.info/sct"
+* #63 ^designation[=].use = $sct#900000000000013009
+* #63 ^designation[=].value = "Puy-de-Dôme (63)"
+* #63 ^property[0].code = #dateValid
+* #63 ^property[=].valueDateTime = "2007-07-25T15:04:36+01:00"
+* #63 ^property[+].code = #dateMaj
+* #63 ^property[=].valueDateTime = "2024-01-26T12:00:00+01:00"
+* #64 "Pyrénées-Atlantiques"
+* #64 ^designation[0].language = #fr-FR
+* #64 ^designation[=].use.system = "http://snomed.info/sct"
+* #64 ^designation[=].use = $sct#900000000000013009
+* #64 ^designation[=].value = "PYRENEES ATLANTIQUES"
+* #64 ^designation[+].language = #fr-FR
+* #64 ^designation[=].use.system = "http://snomed.info/sct"
+* #64 ^designation[=].use = $sct#900000000000013009
+* #64 ^designation[=].value = "Pyrénées-Atlantiques (64)"
+* #64 ^property[0].code = #dateValid
+* #64 ^property[=].valueDateTime = "2007-07-25T15:04:36+01:00"
+* #64 ^property[+].code = #dateMaj
+* #64 ^property[=].valueDateTime = "2024-01-26T12:00:00+01:00"
+* #65 "Hautes-Pyrénées"
+* #65 ^designation[0].language = #fr-FR
+* #65 ^designation[=].use.system = "http://snomed.info/sct"
+* #65 ^designation[=].use = $sct#900000000000013009
+* #65 ^designation[=].value = "HAUTES PYRENEES"
+* #65 ^designation[+].language = #fr-FR
+* #65 ^designation[=].use.system = "http://snomed.info/sct"
+* #65 ^designation[=].use = $sct#900000000000013009
+* #65 ^designation[=].value = "Hautes-Pyrénées (65)"
+* #65 ^property[0].code = #dateValid
+* #65 ^property[=].valueDateTime = "2007-07-25T15:04:36+01:00"
+* #65 ^property[+].code = #dateMaj
+* #65 ^property[=].valueDateTime = "2024-01-26T12:00:00+01:00"
+* #66 "Pyrénées-Orientales"
+* #66 ^designation[0].language = #fr-FR
+* #66 ^designation[=].use.system = "http://snomed.info/sct"
+* #66 ^designation[=].use = $sct#900000000000013009
+* #66 ^designation[=].value = "PYRENEES ORIENTALES"
+* #66 ^designation[+].language = #fr-FR
+* #66 ^designation[=].use.system = "http://snomed.info/sct"
+* #66 ^designation[=].use = $sct#900000000000013009
+* #66 ^designation[=].value = "Pyrénées-Orientales (66)"
+* #66 ^property[0].code = #dateValid
+* #66 ^property[=].valueDateTime = "2007-07-25T15:04:36+01:00"
+* #66 ^property[+].code = #dateMaj
+* #66 ^property[=].valueDateTime = "2024-01-26T12:00:00+01:00"
+* #67 "Bas-Rhin"
+* #67 ^designation[0].language = #fr-FR
+* #67 ^designation[=].use.system = "http://snomed.info/sct"
+* #67 ^designation[=].use = $sct#900000000000013009
+* #67 ^designation[=].value = "BAS RHIN"
+* #67 ^designation[+].language = #fr-FR
+* #67 ^designation[=].use.system = "http://snomed.info/sct"
+* #67 ^designation[=].use = $sct#900000000000013009
+* #67 ^designation[=].value = "Bas-Rhin (67)"
+* #67 ^property[0].code = #dateValid
+* #67 ^property[=].valueDateTime = "2007-07-25T15:04:36+01:00"
+* #67 ^property[+].code = #dateMaj
+* #67 ^property[=].valueDateTime = "2024-01-26T12:00:00+01:00"
+* #68 "Haut-Rhin"
+* #68 ^designation[0].language = #fr-FR
+* #68 ^designation[=].use.system = "http://snomed.info/sct"
+* #68 ^designation[=].use = $sct#900000000000013009
+* #68 ^designation[=].value = "HAUT RHIN"
+* #68 ^designation[+].language = #fr-FR
+* #68 ^designation[=].use.system = "http://snomed.info/sct"
+* #68 ^designation[=].use = $sct#900000000000013009
+* #68 ^designation[=].value = "Haut-Rhin (68)"
+* #68 ^property[0].code = #dateValid
+* #68 ^property[=].valueDateTime = "2007-07-25T15:04:36+01:00"
+* #68 ^property[+].code = #dateMaj
+* #68 ^property[=].valueDateTime = "2024-01-26T12:00:00+01:00"
+* #69 "Rhône"
+* #69 ^designation[0].language = #fr-FR
+* #69 ^designation[=].use.system = "http://snomed.info/sct"
+* #69 ^designation[=].use = $sct#900000000000013009
+* #69 ^designation[=].value = "RHONE"
+* #69 ^designation[+].language = #fr-FR
+* #69 ^designation[=].use.system = "http://snomed.info/sct"
+* #69 ^designation[=].use = $sct#900000000000013009
+* #69 ^designation[=].value = "Rhône (69)"
+* #69 ^property[0].code = #dateValid
+* #69 ^property[=].valueDateTime = "2007-07-25T15:04:36+01:00"
+* #69 ^property[+].code = #dateMaj
+* #69 ^property[=].valueDateTime = "2024-01-26T12:00:00+01:00"
+* #70 "Haute-Saône"
+* #70 ^designation[0].language = #fr-FR
+* #70 ^designation[=].use.system = "http://snomed.info/sct"
+* #70 ^designation[=].use = $sct#900000000000013009
+* #70 ^designation[=].value = "HAUTE SAONE"
+* #70 ^designation[+].language = #fr-FR
+* #70 ^designation[=].use.system = "http://snomed.info/sct"
+* #70 ^designation[=].use = $sct#900000000000013009
+* #70 ^designation[=].value = "Haute-Saône (70)"
+* #70 ^property[0].code = #dateValid
+* #70 ^property[=].valueDateTime = "2007-07-25T15:04:36+01:00"
+* #70 ^property[+].code = #dateMaj
+* #70 ^property[=].valueDateTime = "2024-01-26T12:00:00+01:00"
+* #71 "Saône-et-Loire"
+* #71 ^designation[0].language = #fr-FR
+* #71 ^designation[=].use.system = "http://snomed.info/sct"
+* #71 ^designation[=].use = $sct#900000000000013009
+* #71 ^designation[=].value = "SAONE ET LOIRE"
+* #71 ^designation[+].language = #fr-FR
+* #71 ^designation[=].use.system = "http://snomed.info/sct"
+* #71 ^designation[=].use = $sct#900000000000013009
+* #71 ^designation[=].value = "Saône-et-Loire (71)"
+* #71 ^property[0].code = #dateValid
+* #71 ^property[=].valueDateTime = "2007-07-25T15:04:36+01:00"
+* #71 ^property[+].code = #dateMaj
+* #71 ^property[=].valueDateTime = "2024-01-26T12:00:00+01:00"
+* #72 "Sarthe"
+* #72 ^designation[0].language = #fr-FR
+* #72 ^designation[=].use.system = "http://snomed.info/sct"
+* #72 ^designation[=].use = $sct#900000000000013009
+* #72 ^designation[=].value = "Sarthe (72)"
+* #72 ^property[0].code = #dateValid
+* #72 ^property[=].valueDateTime = "2007-07-25T15:04:36+01:00"
+* #72 ^property[+].code = #dateMaj
+* #72 ^property[=].valueDateTime = "2024-01-26T12:00:00+01:00"
+* #73 "Savoie"
+* #73 ^designation[0].language = #fr-FR
+* #73 ^designation[=].use.system = "http://snomed.info/sct"
+* #73 ^designation[=].use = $sct#900000000000013009
+* #73 ^designation[=].value = "Savoie (73)"
+* #73 ^property[0].code = #dateValid
+* #73 ^property[=].valueDateTime = "2007-07-25T15:04:36+01:00"
+* #73 ^property[+].code = #dateMaj
+* #73 ^property[=].valueDateTime = "2024-01-26T12:00:00+01:00"
+* #74 "Haute-Savoie"
+* #74 ^designation[0].language = #fr-FR
+* #74 ^designation[=].use.system = "http://snomed.info/sct"
+* #74 ^designation[=].use = $sct#900000000000013009
+* #74 ^designation[=].value = "HAUTE SAVOIE"
+* #74 ^designation[+].language = #fr-FR
+* #74 ^designation[=].use.system = "http://snomed.info/sct"
+* #74 ^designation[=].use = $sct#900000000000013009
+* #74 ^designation[=].value = "Haute-Savoie (74)"
+* #74 ^property[0].code = #dateValid
+* #74 ^property[=].valueDateTime = "2007-07-25T15:04:36+01:00"
+* #74 ^property[+].code = #dateMaj
+* #74 ^property[=].valueDateTime = "2024-01-26T12:00:00+01:00"
+* #75 "Paris"
+* #75 ^designation[0].language = #fr-FR
+* #75 ^designation[=].use.system = "http://snomed.info/sct"
+* #75 ^designation[=].use = $sct#900000000000013009
+* #75 ^designation[=].value = "Paris (75)"
+* #75 ^property[0].code = #dateValid
+* #75 ^property[=].valueDateTime = "2007-07-25T15:04:36+01:00"
+* #75 ^property[+].code = #dateMaj
+* #75 ^property[=].valueDateTime = "2024-01-26T12:00:00+01:00"
+* #76 "Seine-Maritime"
+* #76 ^designation[0].language = #fr-FR
+* #76 ^designation[=].use.system = "http://snomed.info/sct"
+* #76 ^designation[=].use = $sct#900000000000013009
+* #76 ^designation[=].value = "SEINE MARITIME"
+* #76 ^designation[+].language = #fr-FR
+* #76 ^designation[=].use.system = "http://snomed.info/sct"
+* #76 ^designation[=].use = $sct#900000000000013009
+* #76 ^designation[=].value = "Seine-Maritime (76)"
+* #76 ^property[0].code = #dateValid
+* #76 ^property[=].valueDateTime = "2007-07-25T15:04:36+01:00"
+* #76 ^property[+].code = #dateMaj
+* #76 ^property[=].valueDateTime = "2024-01-26T12:00:00+01:00"
+* #77 "Seine-et-Marne"
+* #77 ^designation[0].language = #fr-FR
+* #77 ^designation[=].use.system = "http://snomed.info/sct"
+* #77 ^designation[=].use = $sct#900000000000013009
+* #77 ^designation[=].value = "SEINE ET MARNE"
+* #77 ^designation[+].language = #fr-FR
+* #77 ^designation[=].use.system = "http://snomed.info/sct"
+* #77 ^designation[=].use = $sct#900000000000013009
+* #77 ^designation[=].value = "Seine-et-Marne (77)"
+* #77 ^property[0].code = #dateValid
+* #77 ^property[=].valueDateTime = "2007-07-25T15:04:36+01:00"
+* #77 ^property[+].code = #dateMaj
+* #77 ^property[=].valueDateTime = "2024-01-26T12:00:00+01:00"
+* #78 "Yvelines"
+* #78 ^designation[0].language = #fr-FR
+* #78 ^designation[=].use.system = "http://snomed.info/sct"
+* #78 ^designation[=].use = $sct#900000000000013009
+* #78 ^designation[=].value = "Yvelines (78)"
+* #78 ^property[0].code = #dateValid
+* #78 ^property[=].valueDateTime = "2007-07-25T15:04:36+01:00"
+* #78 ^property[+].code = #dateMaj
+* #78 ^property[=].valueDateTime = "2024-01-26T12:00:00+01:00"
+* #79 "Deux-Sèvres"
+* #79 ^designation[0].language = #fr-FR
+* #79 ^designation[=].use.system = "http://snomed.info/sct"
+* #79 ^designation[=].use = $sct#900000000000013009
+* #79 ^designation[=].value = "DEUX SEVRES"
+* #79 ^designation[+].language = #fr-FR
+* #79 ^designation[=].use.system = "http://snomed.info/sct"
+* #79 ^designation[=].use = $sct#900000000000013009
+* #79 ^designation[=].value = "Deux-Sèvres (79)"
+* #79 ^property[0].code = #dateValid
+* #79 ^property[=].valueDateTime = "2007-07-25T15:04:36+01:00"
+* #79 ^property[+].code = #dateMaj
+* #79 ^property[=].valueDateTime = "2024-01-26T12:00:00+01:00"
+* #80 "Somme"
+* #80 ^designation[0].language = #fr-FR
+* #80 ^designation[=].use.system = "http://snomed.info/sct"
+* #80 ^designation[=].use = $sct#900000000000013009
+* #80 ^designation[=].value = "Somme (80)"
+* #80 ^property[0].code = #dateValid
+* #80 ^property[=].valueDateTime = "2007-07-25T15:04:36+01:00"
+* #80 ^property[+].code = #dateMaj
+* #80 ^property[=].valueDateTime = "2024-01-26T12:00:00+01:00"
+* #81 "Tarn"
+* #81 ^designation[0].language = #fr-FR
+* #81 ^designation[=].use.system = "http://snomed.info/sct"
+* #81 ^designation[=].use = $sct#900000000000013009
+* #81 ^designation[=].value = "Tarn (81)"
+* #81 ^property[0].code = #dateValid
+* #81 ^property[=].valueDateTime = "2007-07-25T15:04:36+01:00"
+* #81 ^property[+].code = #dateMaj
+* #81 ^property[=].valueDateTime = "2024-01-26T12:00:00+01:00"
+* #82 "Tarn-et-Garonne"
+* #82 ^designation[0].language = #fr-FR
+* #82 ^designation[=].use.system = "http://snomed.info/sct"
+* #82 ^designation[=].use = $sct#900000000000013009
+* #82 ^designation[=].value = "TARN ET GARONNE"
+* #82 ^designation[+].language = #fr-FR
+* #82 ^designation[=].use.system = "http://snomed.info/sct"
+* #82 ^designation[=].use = $sct#900000000000013009
+* #82 ^designation[=].value = "Tarn-et-Garonne (82)"
+* #82 ^property[0].code = #dateValid
+* #82 ^property[=].valueDateTime = "2007-07-25T15:04:36+01:00"
+* #82 ^property[+].code = #dateMaj
+* #82 ^property[=].valueDateTime = "2024-01-26T12:00:00+01:00"
+* #83 "Var"
+* #83 ^designation[0].language = #fr-FR
+* #83 ^designation[=].use.system = "http://snomed.info/sct"
+* #83 ^designation[=].use = $sct#900000000000013009
+* #83 ^designation[=].value = "Var (83)"
+* #83 ^property[0].code = #dateValid
+* #83 ^property[=].valueDateTime = "2007-07-25T15:04:36+01:00"
+* #83 ^property[+].code = #dateMaj
+* #83 ^property[=].valueDateTime = "2024-01-26T12:00:00+01:00"
+* #84 "Vaucluse"
+* #84 ^designation[0].language = #fr-FR
+* #84 ^designation[=].use.system = "http://snomed.info/sct"
+* #84 ^designation[=].use = $sct#900000000000013009
+* #84 ^designation[=].value = "Vaucluse (84)"
+* #84 ^property[0].code = #dateValid
+* #84 ^property[=].valueDateTime = "2007-07-25T15:04:36+01:00"
+* #84 ^property[+].code = #dateMaj
+* #84 ^property[=].valueDateTime = "2024-01-26T12:00:00+01:00"
+* #85 "Vendée"
+* #85 ^designation[0].language = #fr-FR
+* #85 ^designation[=].use.system = "http://snomed.info/sct"
+* #85 ^designation[=].use = $sct#900000000000013009
+* #85 ^designation[=].value = "VENDEE"
+* #85 ^designation[+].language = #fr-FR
+* #85 ^designation[=].use.system = "http://snomed.info/sct"
+* #85 ^designation[=].use = $sct#900000000000013009
+* #85 ^designation[=].value = "Vendée (85)"
+* #85 ^property[0].code = #dateValid
+* #85 ^property[=].valueDateTime = "2007-07-25T15:04:36+01:00"
+* #85 ^property[+].code = #dateMaj
+* #85 ^property[=].valueDateTime = "2024-01-26T12:00:00+01:00"
+* #86 "Vienne"
+* #86 ^designation[0].language = #fr-FR
+* #86 ^designation[=].use.system = "http://snomed.info/sct"
+* #86 ^designation[=].use = $sct#900000000000013009
+* #86 ^designation[=].value = "Vienne (86)"
+* #86 ^property[0].code = #dateValid
+* #86 ^property[=].valueDateTime = "2007-07-25T15:04:36+01:00"
+* #86 ^property[+].code = #dateMaj
+* #86 ^property[=].valueDateTime = "2024-01-26T12:00:00+01:00"
+* #87 "Haute-Vienne"
+* #87 ^designation[0].language = #fr-FR
+* #87 ^designation[=].use.system = "http://snomed.info/sct"
+* #87 ^designation[=].use = $sct#900000000000013009
+* #87 ^designation[=].value = "HAUTE VIENNE"
+* #87 ^designation[+].language = #fr-FR
+* #87 ^designation[=].use.system = "http://snomed.info/sct"
+* #87 ^designation[=].use = $sct#900000000000013009
+* #87 ^designation[=].value = "Haute-Vienne (87)"
+* #87 ^property[0].code = #dateValid
+* #87 ^property[=].valueDateTime = "2007-07-25T15:04:36+01:00"
+* #87 ^property[+].code = #dateMaj
+* #87 ^property[=].valueDateTime = "2024-01-26T12:00:00+01:00"
+* #88 "Vosges"
+* #88 ^designation[0].language = #fr-FR
+* #88 ^designation[=].use.system = "http://snomed.info/sct"
+* #88 ^designation[=].use = $sct#900000000000013009
+* #88 ^designation[=].value = "Vosges (88)"
+* #88 ^property[0].code = #dateValid
+* #88 ^property[=].valueDateTime = "2007-07-25T15:04:36+01:00"
+* #88 ^property[+].code = #dateMaj
+* #88 ^property[=].valueDateTime = "2024-01-26T12:00:00+01:00"
+* #89 "Yonne"
+* #89 ^designation[0].language = #fr-FR
+* #89 ^designation[=].use.system = "http://snomed.info/sct"
+* #89 ^designation[=].use = $sct#900000000000013009
+* #89 ^designation[=].value = "Yonne (89)"
+* #89 ^property[0].code = #dateValid
+* #89 ^property[=].valueDateTime = "2007-07-25T15:04:36+01:00"
+* #89 ^property[+].code = #dateMaj
+* #89 ^property[=].valueDateTime = "2024-01-26T12:00:00+01:00"
+* #90 "Territoire de Belfort"
+* #90 ^designation[0].language = #fr-FR
+* #90 ^designation[=].use.system = "http://snomed.info/sct"
+* #90 ^designation[=].use = $sct#900000000000013009
+* #90 ^designation[=].value = "Territoire de Belfort (90)"
+* #90 ^property[0].code = #dateValid
+* #90 ^property[=].valueDateTime = "2007-07-25T15:04:36+01:00"
+* #90 ^property[+].code = #dateMaj
+* #90 ^property[=].valueDateTime = "2024-01-26T12:00:00+01:00"
+* #91 "Essonne"
+* #91 ^designation[0].language = #fr-FR
+* #91 ^designation[=].use.system = "http://snomed.info/sct"
+* #91 ^designation[=].use = $sct#900000000000013009
+* #91 ^designation[=].value = "Essonne (91)"
+* #91 ^property[0].code = #dateValid
+* #91 ^property[=].valueDateTime = "2007-07-25T15:04:36+01:00"
+* #91 ^property[+].code = #dateMaj
+* #91 ^property[=].valueDateTime = "2024-01-26T12:00:00+01:00"
+* #92 "Hauts-de-Seine"
+* #92 ^designation[0].language = #fr-FR
+* #92 ^designation[=].use.system = "http://snomed.info/sct"
+* #92 ^designation[=].use = $sct#900000000000013009
+* #92 ^designation[=].value = "HAUTS DE SEINE"
+* #92 ^designation[+].language = #fr-FR
+* #92 ^designation[=].use.system = "http://snomed.info/sct"
+* #92 ^designation[=].use = $sct#900000000000013009
+* #92 ^designation[=].value = "Hauts-de-Seine (92)"
+* #92 ^property[0].code = #dateValid
+* #92 ^property[=].valueDateTime = "2007-07-25T15:04:36+01:00"
+* #92 ^property[+].code = #dateMaj
+* #92 ^property[=].valueDateTime = "2024-01-26T12:00:00+01:00"
+* #93 "Seine-Saint-Denis"
+* #93 ^designation[0].language = #fr-FR
+* #93 ^designation[=].use.system = "http://snomed.info/sct"
+* #93 ^designation[=].use = $sct#900000000000013009
+* #93 ^designation[=].value = "SEINE SAINT DENIS"
+* #93 ^designation[+].language = #fr-FR
+* #93 ^designation[=].use.system = "http://snomed.info/sct"
+* #93 ^designation[=].use = $sct#900000000000013009
+* #93 ^designation[=].value = "Seine-Saint-Denis (93)"
+* #93 ^property[0].code = #dateValid
+* #93 ^property[=].valueDateTime = "2007-07-25T15:04:36+01:00"
+* #93 ^property[+].code = #dateMaj
+* #93 ^property[=].valueDateTime = "2024-01-26T12:00:00+01:00"
+* #94 "Val-de-Marne"
+* #94 ^designation[0].language = #fr-FR
+* #94 ^designation[=].use.system = "http://snomed.info/sct"
+* #94 ^designation[=].use = $sct#900000000000013009
+* #94 ^designation[=].value = "VAL DE MARNE"
+* #94 ^designation[+].language = #fr-FR
+* #94 ^designation[=].use.system = "http://snomed.info/sct"
+* #94 ^designation[=].use = $sct#900000000000013009
+* #94 ^designation[=].value = "Val-de-Marne (94)"
+* #94 ^property[0].code = #dateValid
+* #94 ^property[=].valueDateTime = "2007-07-25T15:04:36+01:00"
+* #94 ^property[+].code = #dateMaj
+* #94 ^property[=].valueDateTime = "2024-01-26T12:00:00+01:00"
+* #95 "Val-d'Oise"
+* #95 ^designation[0].language = #fr-FR
+* #95 ^designation[=].use.system = "http://snomed.info/sct"
+* #95 ^designation[=].use = $sct#900000000000013009
+* #95 ^designation[=].value = "VAL D OISE"
+* #95 ^designation[+].language = #fr-FR
+* #95 ^designation[=].use.system = "http://snomed.info/sct"
+* #95 ^designation[=].use = $sct#900000000000013009
+* #95 ^designation[=].value = "Val-d'Oise (95)"
+* #95 ^property[0].code = #dateValid
+* #95 ^property[=].valueDateTime = "2007-07-25T15:04:36+01:00"
+* #95 ^property[+].code = #dateMaj
+* #95 ^property[=].valueDateTime = "2024-06-28T12:00:00+01:00"
+* #971 "Guadeloupe"
+* #971 ^designation[0].language = #fr-FR
+* #971 ^designation[=].use.system = "http://snomed.info/sct"
+* #971 ^designation[=].use = $sct#900000000000013009
+* #971 ^designation[=].value = "Guadeloupe (971)"
+* #971 ^property[0].code = #dateValid
+* #971 ^property[=].valueDateTime = "2007-07-25T15:04:36+01:00"
+* #971 ^property[+].code = #dateMaj
+* #971 ^property[=].valueDateTime = "2024-01-26T12:00:00+01:00"
+* #972 "Martinique"
+* #972 ^designation[0].language = #fr-FR
+* #972 ^designation[=].use.system = "http://snomed.info/sct"
+* #972 ^designation[=].use = $sct#900000000000013009
+* #972 ^designation[=].value = "Martinique (972)"
+* #972 ^property[0].code = #dateValid
+* #972 ^property[=].valueDateTime = "2007-07-25T15:04:36+01:00"
+* #972 ^property[+].code = #dateMaj
+* #972 ^property[=].valueDateTime = "2024-01-26T12:00:00+01:00"
+* #973 "Guyane"
+* #973 ^designation[0].language = #fr-FR
+* #973 ^designation[=].use.system = "http://snomed.info/sct"
+* #973 ^designation[=].use = $sct#900000000000013009
+* #973 ^designation[=].value = "Guyane (973)"
+* #973 ^property[0].code = #dateValid
+* #973 ^property[=].valueDateTime = "2007-07-25T15:04:36+01:00"
+* #973 ^property[+].code = #dateMaj
+* #973 ^property[=].valueDateTime = "2024-01-26T12:00:00+01:00"
+* #974 "La Réunion"
+* #974 ^designation[0].language = #fr-FR
+* #974 ^designation[=].use.system = "http://snomed.info/sct"
+* #974 ^designation[=].use = $sct#900000000000013009
+* #974 ^designation[=].value = "LA REUNION"
+* #974 ^designation[+].language = #fr-FR
+* #974 ^designation[=].use.system = "http://snomed.info/sct"
+* #974 ^designation[=].use = $sct#900000000000013009
+* #974 ^designation[=].value = "La Réunion (974)"
+* #974 ^property[0].code = #dateValid
+* #974 ^property[=].valueDateTime = "2007-07-25T15:04:36+01:00"
+* #974 ^property[+].code = #dateMaj
+* #974 ^property[=].valueDateTime = "2024-06-28T12:00:00+01:00"
+* #975 "Saint-Pierre-et-Miquelon"
+* #975 ^designation[0].language = #fr-FR
+* #975 ^designation[=].use.system = "http://snomed.info/sct"
+* #975 ^designation[=].use = $sct#900000000000013009
+* #975 ^designation[=].value = "Saint-Pierre-et-Miquelon (975)"
+* #975 ^property[0].code = #dateValid
+* #975 ^property[=].valueDateTime = "2007-07-25T15:04:36+01:00"
+* #975 ^property[+].code = #dateMaj
+* #975 ^property[=].valueDateTime = "2024-06-28T12:00:00+01:00"
+* #976 "Mayotte"
+* #976 ^designation[0].language = #fr-FR
+* #976 ^designation[=].use.system = "http://snomed.info/sct"
+* #976 ^designation[=].use = $sct#900000000000013009
+* #976 ^designation[=].value = "Mayotte (976)"
+* #976 ^property[0].code = #dateValid
+* #976 ^property[=].valueDateTime = "2008-01-01T00:00:00+01:00"
+* #976 ^property[+].code = #dateMaj
+* #976 ^property[=].valueDateTime = "2024-01-26T12:00:00+01:00"
+* #977 "Saint-Barthélemy"
+* #977 ^designation[0].language = #fr-FR
+* #977 ^designation[=].use.system = "http://snomed.info/sct"
+* #977 ^designation[=].use = $sct#900000000000013009
+* #977 ^designation[=].value = "SAINT BARTHELEMY"
+* #977 ^designation[+].language = #fr-FR
+* #977 ^designation[=].use.system = "http://snomed.info/sct"
+* #977 ^designation[=].use = $sct#900000000000013009
+* #977 ^designation[=].value = "Saint-Barthélemy (977)"
+* #977 ^property[0].code = #dateValid
+* #977 ^property[=].valueDateTime = "2008-01-01T00:00:00+01:00"
+* #977 ^property[+].code = #dateMaj
+* #977 ^property[=].valueDateTime = "2024-01-26T12:00:00+01:00"
+* #978 "Saint-Martin"
+* #978 ^designation[0].language = #fr-FR
+* #978 ^designation[=].use.system = "http://snomed.info/sct"
+* #978 ^designation[=].use = $sct#900000000000013009
+* #978 ^designation[=].value = "SAINT MARTIN"
+* #978 ^designation[+].language = #fr-FR
+* #978 ^designation[=].use.system = "http://snomed.info/sct"
+* #978 ^designation[=].use = $sct#900000000000013009
+* #978 ^designation[=].value = "Saint-Martin (978)"
+* #978 ^property[0].code = #dateValid
+* #978 ^property[=].valueDateTime = "2008-01-01T00:00:00+01:00"
+* #978 ^property[+].code = #dateMaj
+* #978 ^property[=].valueDateTime = "2024-01-26T12:00:00+01:00"
+* #98000 "Monaco"
+* #98000 ^designation[0].language = #fr-FR
+* #98000 ^designation[=].use.system = "http://snomed.info/sct"
+* #98000 ^designation[=].use = $sct#900000000000013009
+* #98000 ^designation[=].value = "Monaco (98000)"
+* #98000 ^property[0].code = #dateValid
+* #98000 ^property[=].valueDateTime = "2007-07-25T15:04:36+01:00"
+* #98000 ^property[+].code = #dateFin
+* #98000 ^property[=].valueDateTime = "2016-02-05T00:00:00+01:00"
+* #98000 ^property[+].code = #dateMaj
+* #98000 ^property[=].valueDateTime = "2016-02-05T00:00:00+01:00"
+* #99138 "Principauté de Monaco"
+* #99138 ^designation[0].language = #fr-FR
+* #99138 ^designation[=].use.system = "http://snomed.info/sct"
+* #99138 ^designation[=].use = $sct#900000000000013009
+* #99138 ^designation[=].value = "MONACO"
+* #99138 ^designation[+].language = #fr-FR
+* #99138 ^designation[=].use.system = "http://snomed.info/sct"
+* #99138 ^designation[=].use = $sct#900000000000013009
+* #99138 ^designation[=].value = "Monaco (99138)"
+* #99138 ^property[0].code = #dateValid
+* #99138 ^property[=].valueDateTime = "2007-07-25T15:04:36+01:00"
+* #99138 ^property[+].code = #dateMaj
+* #99138 ^property[=].valueDateTime = "2024-06-28T12:00:00+01:00"
+* #984 "Terres australes et antarctiques françaises"
+* #984 ^designation[0].language = #fr-FR
+* #984 ^designation[=].use.system = "http://snomed.info/sct"
+* #984 ^designation[=].use = $sct#900000000000013009
+* #984 ^designation[=].value = "TERRE AUSTRALE ANTARCTIQUE FR"
+* #984 ^designation[+].language = #fr-FR
+* #984 ^designation[=].use.system = "http://snomed.info/sct"
+* #984 ^designation[=].use = $sct#900000000000013009
+* #984 ^designation[=].value = "Terres australes et antarctiques françaises (984)"
+* #984 ^property[0].code = #dateValid
+* #984 ^property[=].valueDateTime = "2007-07-25T15:04:36+01:00"
+* #984 ^property[+].code = #dateMaj
+* #984 ^property[=].valueDateTime = "2024-01-26T12:00:00+01:00"
+* #985 "Mayotte (Ancien Code)"
+* #985 ^designation[0].language = #fr-FR
+* #985 ^designation[=].use.system = "http://snomed.info/sct"
+* #985 ^designation[=].use = $sct#900000000000013009
+* #985 ^designation[=].value = "Mayotte (985 - Ancien Code)"
+* #985 ^property[0].code = #dateValid
+* #985 ^property[=].valueDateTime = "2007-05-01T00:00:00+01:00"
+* #985 ^property[+].code = #dateFin
+* #985 ^property[=].valueDateTime = "2009-10-23T00:00:00+01:00"
+* #985 ^property[+].code = #dateMaj
+* #985 ^property[=].valueDateTime = "2009-10-23T00:00:00+01:00"
+* #986 "Wallis-et-Futuna"
+* #986 ^designation[0].language = #fr-FR
+* #986 ^designation[=].use.system = "http://snomed.info/sct"
+* #986 ^designation[=].use = $sct#900000000000013009
+* #986 ^designation[=].value = "WALLIS ET FUTUNA"
+* #986 ^designation[+].language = #fr-FR
+* #986 ^designation[=].use.system = "http://snomed.info/sct"
+* #986 ^designation[=].use = $sct#900000000000013009
+* #986 ^designation[=].value = "Wallis-et-Futuna (986)"
+* #986 ^property[0].code = #dateValid
+* #986 ^property[=].valueDateTime = "2007-07-25T15:04:36+01:00"
+* #986 ^property[+].code = #dateMaj
+* #986 ^property[=].valueDateTime = "2024-01-26T12:00:00+01:00"
+* #987 "Polynésie française"
+* #987 ^designation[0].language = #fr-FR
+* #987 ^designation[=].use.system = "http://snomed.info/sct"
+* #987 ^designation[=].use = $sct#900000000000013009
+* #987 ^designation[=].value = "POLYNESIE FRANCAISE"
+* #987 ^designation[+].language = #fr-FR
+* #987 ^designation[=].use.system = "http://snomed.info/sct"
+* #987 ^designation[=].use = $sct#900000000000013009
+* #987 ^designation[=].value = "Polynésie française (987)"
+* #987 ^property[0].code = #dateValid
+* #987 ^property[=].valueDateTime = "2007-07-25T15:04:36+01:00"
+* #987 ^property[+].code = #dateMaj
+* #987 ^property[=].valueDateTime = "2024-01-26T12:00:00+01:00"
+* #988 "Nouvelle-Calédonie"
+* #988 ^designation[0].language = #fr-FR
+* #988 ^designation[=].use.system = "http://snomed.info/sct"
+* #988 ^designation[=].use = $sct#900000000000013009
+* #988 ^designation[=].value = "NOUVELLE CALEDONIE"
+* #988 ^designation[+].language = #fr-FR
+* #988 ^designation[=].use.system = "http://snomed.info/sct"
+* #988 ^designation[=].use = $sct#900000000000013009
+* #988 ^designation[=].value = "Nouvelle-Calédonie (988)"
+* #988 ^property[0].code = #dateValid
+* #988 ^property[=].valueDateTime = "2007-07-25T15:04:36+01:00"
+* #988 ^property[+].code = #dateMaj
+* #988 ^property[=].valueDateTime = "2024-01-26T12:00:00+01:00"
+* #989 "La Passion-Clipperton"
+* #989 ^designation[0].language = #fr-FR
+* #989 ^designation[=].use = $sct#900000000000013009
+* #989 ^designation[=].value = "LA PASSION CLIPPERTON"
+* #989 ^designation[+].language = #fr-FR
+* #989 ^designation[=].use = $sct#900000000000013009
+* #989 ^designation[=].value = "La Passion-Clipperton (989)"
+* #989 ^property[0].code = #dateValid
+* #989 ^property[=].valueDateTime = "2008-01-01T00:00:00+01:00"
+* #989 ^property[+].code = #dateMaj
+* #989 ^property[=].valueDateTime = "2024-01-26T12:00:00+01:00"
