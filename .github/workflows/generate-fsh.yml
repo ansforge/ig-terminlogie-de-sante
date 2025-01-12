@@ -55,7 +55,7 @@ jobs:
           sudo  cp /input/fsh/Template/ontoserver/TRE/*.fsh ../igSource/DM/input/fsh/Template/ontoserver/TRE
           # mkdir  -p ./DM/input/fsh/Template/ontoserver/JDV
           # gofsh   ./igSource/input/ontoserver/JDV -o ./DM/input/fsh/Template/ontoserver/JDV       
-          # sudo cp cp ./DM/input/fsh/Template/ontoserver/JDV/*.fsh ./igSource/DM/input/fsh/Template/ontoserver/JDV
+          # sudo  cp ./DM/input/fsh/Template/ontoserver/JDV/*.fsh ./igSource/DM/input/fsh/Template/ontoserver/JDV
 
     
       - name: Commit change on IG-terminology-website-release
