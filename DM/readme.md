@@ -47,13 +47,13 @@ Ce workflow permet de créer la release du guide d'implementation
 # Process
 ```mermaid
 gitGraph
-        commit
-        branch DM-XXXX
-        checkout DM-XXXX
-        commit "sdsd"
+        commit 
+        branch DM-MOIS-XXX
+        commit id: "gestion DM XXX"
+        commit id: "gestion DM XXXX"
+        commit id: "gestion DM ..."
         checkout main
-        merge DM-XXXX
-        commit
+        merge DM-MOIS-XXX
         commit
  ```
 
