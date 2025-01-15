@@ -1,14 +1,14 @@
 Alias: $sct = http://snomed.info/sct
 
 CodeSystem: TRE_R366_TypeObjet
-Id: TRE_R366_TypeObjet
+Id: TRE-R366-TypeObjet
 Description: "Nomenclature des types d'objet enregsitrés et manipulés dans FINESS+"
 * ^meta.versionId = "1"
 * ^meta.lastUpdated = "2024-12-30T12:00:00+01:00"
 * ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablecodesystem"
 * ^extension.url = "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod"
 * ^extension.valuePeriod.start = "2024-12-30T12:00:00+01:00"
-* ^url = "https://mos.esante.gouv.fr/NOS/TRE_R366_TypeObjet/FHIR/TRE_R366_TypeObjet"
+* ^url = "https://mos.esante.gouv.fr/NOS/TRE_R366-TypeObjet/FHIR/TRE-R366-TypeObjet"
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value = "urn:oid:1.2.250.1.213.1.6.1.260"
 * ^version = "20241230120000"
