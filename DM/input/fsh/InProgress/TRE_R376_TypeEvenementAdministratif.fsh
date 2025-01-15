@@ -1,5 +1,5 @@
 CodeSystem: TRE_R376_TypeEvenementAdministratif
-Id: TRE_R376_TypeEvenementAdministratif
+Id: TRE-R376-TypeEvenementAdministratif
 Description: "Nomenclature des événements affectant le cycle de vie des entités et activités enrgeistrées dans FINESS+"
 * ^meta.versionId = "1"
 * ^meta.lastUpdated = "2024-12-30T12:00:00+01:00"
