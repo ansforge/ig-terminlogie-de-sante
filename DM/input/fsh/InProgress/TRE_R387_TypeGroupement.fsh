@@ -10,7 +10,7 @@ Description: "Nomenclature des types de groupement utilisables dans FINESS. Grou
 * ^extension.valuePeriod.start = "2024-12-30T12:00:00+01:00"
 * ^url = "https://mos.esante.gouv.fr/NOS/TRE_R387-TypeGroupement/FHIR/TRE-R387-TypeGroupement"
 * ^identifier.system = "urn:ietf:rfc:3986"
-* ^identifier.value = "urn:oid:"
+* ^identifier.value = "urn:oid:1.2.250.1.213.1.6.1.302"
 * ^version = "20241230120000"
 * ^status = #active
 * ^experimental = false
