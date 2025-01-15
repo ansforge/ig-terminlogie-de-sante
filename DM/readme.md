@@ -15,6 +15,15 @@
     
 # Workflows
 
+```mermaid
+flowchart TB
+    A[Start] --> B(genrate-fsh)
+    B --> C[Gestion  des DM]
+    C --> D[Validate-DM]
+    D -- OK --> E[Build IG]
+    D -- NOK --> C
+    E --> F[Release IG]
+ ```
 ## generate-fsh
 
 Ce workflow permet  à partir de la branche selectionné: 
@@ -31,11 +40,22 @@ Ce workflow permet de valider les DM en cours à partir de la branche selectionn
 
 Ce workflow permet de générer le guide d'implémentation à partir de la branche selectionné
 
-## Relase IG
+## Release IG
 
 Ce workflow permet de créer la release du guide d'implementation
 
 # Process
+```mermaid
+gitGraph
+        commit
+        branch DM-XXXX
+        checkout DM-XXXX
+        commit "sdsd"
+        checkout main
+        merge DM-XXXX
+        commit
+        commit
+ ```
 
 ### 1.  Creation d'une branche à partir de la branche principal
 
