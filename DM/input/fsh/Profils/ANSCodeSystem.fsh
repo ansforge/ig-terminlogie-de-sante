@@ -38,3 +38,7 @@ Description: "ANS Shareable CodeSystem"
 
 * title ^short = "Title Case (Exemple : Xds Author Specialty)"
 * title 1..
+
+
+* concept.designation.extension contains ans-codesystem-additional-use-r5 named additionalUse 0..1 MS 
+* concept.designation.extension[additionalUse] ^short = "Additional ways how this designation would be used"
