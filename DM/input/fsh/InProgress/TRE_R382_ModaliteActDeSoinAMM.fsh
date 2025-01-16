@@ -175,12 +175,12 @@ Description: "Nomenclature des modalités pour les activités de soin AMM"
 * #MO032 ^property[=].valueDateTime = "2024-12-30T00:00:00+01:00"
 * #MO032 ^property[+].code = #dateMaj
 * #MO032 ^property[=].valueDateTime = "2024-12-30T00:00:00+01:00"										
-* #MO047 "AMP CLI -  Prélèvement d'ovocytes en vue d'une AMP "
+* #MO047 "AMP CLI -  Prélèvement d'ovocytes en vue d'une AMP"
 * #MO047 ^property[0].code = #dateValid
 * #MO047 ^property[=].valueDateTime = "2024-12-30T00:00:00+01:00"
 * #MO047 ^property[+].code = #dateMaj
 * #MO047 ^property[=].valueDateTime = "2024-12-30T00:00:00+01:00"										
-* #MO048 "AMP CLI - Prélèvement d'ovocytes en vue d'un don "
+* #MO048 "AMP CLI - Prélèvement d'ovocytes en vue d'un don"
 * #MO048 ^property[0].code = #dateValid
 * #MO048 ^property[=].valueDateTime = "2024-12-30T00:00:00+01:00"
 * #MO048 ^property[+].code = #dateMaj
@@ -195,7 +195,7 @@ Description: "Nomenclature des modalités pour les activités de soin AMM"
 * #MO050 ^property[=].valueDateTime = "2024-12-30T00:00:00+01:00"
 * #MO050 ^property[+].code = #dateMaj
 * #MO050 ^property[=].valueDateTime = "2024-12-30T00:00:00+01:00"										
-* #MO051 "AMP BIO - Préparation et conservation du sperme en vue d'une insémination artificielle "
+* #MO051 "AMP BIO - Préparation et conservation du sperme en vue d'une insémination artificielle"
 * #MO051 ^property[0].code = #dateValid
 * #MO051 ^property[=].valueDateTime = "2024-12-30T00:00:00+01:00"
 * #MO051 ^property[+].code = #dateMaj
@@ -205,12 +205,12 @@ Description: "Nomenclature des modalités pour les activités de soin AMM"
 * #MO052 ^property[=].valueDateTime = "2024-12-30T00:00:00+01:00"
 * #MO052 ^property[+].code = #dateMaj
 * #MO052 ^property[=].valueDateTime = "2024-12-30T00:00:00+01:00"										
-* #MO054 "AMP BIO - Préparation, conservation et mise à disposition d'ovocytes en vue d'un don "
+* #MO054 "AMP BIO - Préparation, conservation et mise à disposition d'ovocytes en vue d'un don"
 * #MO054 ^property[0].code = #dateValid
 * #MO054 ^property[=].valueDateTime = "2024-12-30T00:00:00+01:00"
 * #MO054 ^property[+].code = #dateMaj
 * #MO054 ^property[=].valueDateTime = "2024-12-30T00:00:00+01:00"										
-* #MO059 "AMP BIO -  Conservation des embryons en vue de leur accueil et mise en œuvre de celui-ci "
+* #MO059 "AMP BIO -  Conservation des embryons en vue de leur accueil et mise en œuvre de celui-ci"
 * #MO059 ^property[0].code = #dateValid
 * #MO059 ^property[=].valueDateTime = "2024-12-30T00:00:00+01:00"
 * #MO059 ^property[+].code = #dateMaj
