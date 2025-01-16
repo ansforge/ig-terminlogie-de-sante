@@ -71,7 +71,7 @@ Description: "Nomenclature des états élémentaires que peuvent porter les enti
 * #012 ^property[=].valueDateTime = "2024-12-30T00:00:00+01:00"
 * #012 ^property[+].code = #dateMaj
 * #012 ^property[=].valueDateTime = "2024-12-30T00:00:00+01:00"										
-* #013 "Activité fermée "
+* #013 "Activité fermée"
 * #013 ^property[0].code = #dateValid
 * #013 ^property[=].valueDateTime = "2024-12-30T00:00:00+01:00"
 * #013 ^property[+].code = #dateMaj
