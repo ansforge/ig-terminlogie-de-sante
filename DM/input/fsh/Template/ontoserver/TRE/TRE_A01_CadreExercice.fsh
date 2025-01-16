@@ -1,0 +1,88 @@
+CodeSystem: TRE_A01_CadreExercice
+Id: TRE-A01-CadreExercice
+Description: "Cadre d'exercice"
+* ^meta.versionId = "5"
+* ^meta.lastUpdated = "2024-09-29T18:11:12.633+00:00"
+* ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablecodesystem"
+* ^extension.url = "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod"
+* ^extension.valuePeriod.start = "2016-05-19T00:00:00+01:00"
+* ^url = "https://mos.esante.gouv.fr/NOS/TRE_A01-CadreExercice/FHIR/TRE-A01-CadreExercice"
+* ^identifier.system = "urn:ietf:rfc:3986"
+* ^identifier.value = "urn:oid:1.2.250.1.213.1.1.4.9"
+* ^version = "20240927120000"
+* ^status = #active
+* ^experimental = false
+* ^date = "2024-09-27T12:00:00+01:00"
+* ^publisher = "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris"
+* ^caseSensitive = false
+* ^content = #complete
+* ^property[0].code = #dateValid
+* ^property[=].description = "date de validité d'un code concept"
+* ^property[=].type = #dateTime
+* ^property[+].code = #dateMaj
+* ^property[=].description = "Date de mise à jour d'un code concept"
+* ^property[=].type = #dateTime
+* ^property[+].code = #dateFin
+* ^property[=].description = "Date de fin d'exploitation d'un code concept"
+* ^property[=].type = #dateTime
+* #AMBULATOIRE "Ambulatoire"
+* #AMBULATOIRE ^property[0].code = #dateValid
+* #AMBULATOIRE ^property[=].valueDateTime = "2016-05-19T00:00:00+01:00"
+* #AMBULATOIRE ^property[+].code = #dateMaj
+* #AMBULATOIRE ^property[=].valueDateTime = "2016-05-19T00:00:00+01:00"
+* #AMO "Organisme d'assurance maladie obligatoire"
+* #AMO ^designation.language = #fr-FR
+* #AMO ^designation.use.system = "http://snomed.info/sct"
+* #AMO ^designation.use = $sct#900000000000013009
+* #AMO ^designation.value = "Organisme AMO"
+* #AMO ^property[0].code = #dateValid
+* #AMO ^property[=].valueDateTime = "2016-05-19T00:00:00+01:00"
+* #AMO ^property[+].code = #dateMaj
+* #AMO ^property[=].valueDateTime = "2016-05-19T00:00:00+01:00"
+* #DEPISTAGE "Dépistage"
+* #DEPISTAGE ^property[0].code = #dateValid
+* #DEPISTAGE ^property[=].valueDateTime = "2016-05-19T00:00:00+01:00"
+* #DEPISTAGE ^property[+].code = #dateMaj
+* #DEPISTAGE ^property[=].valueDateTime = "2016-05-19T00:00:00+01:00"
+* #ESSMS "Etablissement ou Service Social ou Médico-Social"
+* #ESSMS ^property[0].code = #dateValid
+* #ESSMS ^property[=].valueDateTime = "2024-09-27T12:00:00+01:00"
+* #ESSMS ^property[+].code = #dateMaj
+* #ESSMS ^property[=].valueDateTime = "2024-09-27T12:00:00+01:00"
+* #ETABLISSEMENT "Etablissement de santé"
+* #ETABLISSEMENT ^designation.language = #fr-FR
+* #ETABLISSEMENT ^designation.use.system = "http://snomed.info/sct"
+* #ETABLISSEMENT ^designation.use = $sct#900000000000013009
+* #ETABLISSEMENT ^designation.value = "Etab de santé"
+* #ETABLISSEMENT ^property[0].code = #dateValid
+* #ETABLISSEMENT ^property[=].valueDateTime = "2016-05-19T00:00:00+01:00"
+* #ETABLISSEMENT ^property[+].code = #dateMaj
+* #ETABLISSEMENT ^property[=].valueDateTime = "2016-05-19T00:00:00+01:00"
+* #HAD "Hospitalisation à domicile"
+* #HAD ^designation.language = #fr-FR
+* #HAD ^designation.use = $sct#900000000000013009
+* #HAD ^designation.value = "Hosp à domicile"
+* #HAD ^property[0].code = #dateValid
+* #HAD ^property[=].valueDateTime = "2016-05-19T00:00:00+01:00"
+* #HAD ^property[+].code = #dateMaj
+* #HAD ^property[=].valueDateTime = "2016-05-19T00:00:00+01:00"
+* #MAD "Maintien à domicile"
+* #MAD ^property[0].code = #dateValid
+* #MAD ^property[=].valueDateTime = "2016-05-19T00:00:00+01:00"
+* #MAD ^property[+].code = #dateMaj
+* #MAD ^property[=].valueDateTime = "2016-05-19T00:00:00+01:00"
+* #PALLIATIF "Soins palliatifs"
+* #PALLIATIF ^property[0].code = #dateValid
+* #PALLIATIF ^property[=].valueDateTime = "2016-05-19T00:00:00+01:00"
+* #PALLIATIF ^property[+].code = #dateMaj
+* #PALLIATIF ^property[=].valueDateTime = "2016-05-19T00:00:00+01:00"
+* #SAD "Soins à domicile"
+* #SAD ^property[0].code = #dateValid
+* #SAD ^property[=].valueDateTime = "2016-05-19T00:00:00+01:00"
+* #SAD ^property[+].code = #dateMaj
+* #SAD ^property[=].valueDateTime = "2016-05-19T00:00:00+01:00"
+* #SAMU_SMUR "SAMU/SMUR"
+* #SAMU_SMUR ^property[0].code = #dateValid
+* #SAMU_SMUR ^property[=].valueDateTime = "2016-05-19T00:00:00+01:00"
+* #SAMU_SMUR ^property[+].code = #dateMaj
+* #SAMU_SMUR ^property[=].valueDateTime = "2016-05-19T00:00:00+01:00"

@@ -1,0 +1,193 @@
+name: Release IG
+
+on:
+  workflow_call:
+  workflow_dispatch:
+
+
+
+
+# The following jobs are equal for all IGs and can be moved to a common composite-action if 'uses'-support is added, see:
+# https://github.com/actions/runner/blob/main/docs/adrs/1144-composite-actions.md
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    steps:
+
+      - name: Get IG-terminology-website-release
+        uses: actions/checkout@main
+        with:
+          persist-credentials: false
+          repository: ansforge/IG-terminology-website-release
+          path: IG-terminology-website-release
+
+      - name: Init        
+        run: |
+          cd  IG-terminology-website-release
+          git submodule update --init --recursive
+          
+      - uses: actions/checkout@v4
+        with:      
+          path: igSource
+
+      - run: |
+          echo 'PACKAGE_JSON<<EOF' >> $GITHUB_ENV
+          cat ./igSource/publication-request.json >> $GITHUB_ENV
+          echo 'EOF' >> $GITHUB_ENV
+      - run: |
+          echo '${{ fromJson(env.PACKAGE_JSON).version }}'
+          echo '${{ fromJson(env.PACKAGE_JSON).desc }}'
+      
+      - name: Install fhirpy
+        run :  pip install fhirpy
+
+      - name: Install typing-extensions
+        run :  pip install typing-extensions
+        
+      - name: Install modules
+        run: npm install -g fsh-sushi
+
+      - name: Suppression des fichiers templates
+        run : |
+          rm  -rf ./igSource/DM/input/fsh/Template/*.fsh    
+          rm  -rf ./igSource/DM/input/fsh/Template/ontoserver/TRE/*.fsh
+          rm  -rf ./igSource/DM/input/fsh/Template/ontoserver/JDV/*.fsh
+            
+        
+      - name: Run sushi pour les DM
+        run: sushi ./igSource/DM
+        
+      - name: Suppression des fichiers FSH
+        run: | 
+          rm ./igSource/DM/input/fsh/Done/GitHub/*.fsh
+
+          
+      - name: Get From ontoserver      
+        run: |
+          mkdir ./igSource/input/ontoserver
+          mkdir ./igSource/input/ontoserver/JDV
+          mkdir ./igSource/input/ontoserver/TRE
+          mkdir ./igSource/input/ontoserver/ASS
+          mkdir ./igSource/input/ontoserver/NamingSystem
+          cd ./igSource/tools
+          python ./upload.py 
+          
+      - name: List des repertoires
+        run: ls -R ./igSource/input
+        
+      # Downloads the newest version of the IG Publisher, this could probable be cached.
+      - name: 📥 Download IG Publisher
+        run: wget -q https://github.com/HL7/fhir-ig-publisher/releases/download/1.8.6/publisher.jar
+
+
+
+      - name: Build and test with Rake        
+        run: |
+          sudo apt-get install ruby-full
+          sudo gem install jekyll
+
+      - name: Run sushi 
+        run: sushi ./igSource
+        
+      # Builds the HTML page for the IG.
+      - name: 🏃‍♂️ Run IG Publisher
+        run : |
+              cd  ./igSource
+              java -Xmx16344m -jar ../publisher.jar   -ig .  
+     
+
+          
+      - name: Setup Python # Set Python version
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.10' 
+
+      - name: Install saxon
+        run : pip install saxonche
+        
+
+
+
+      # Builds the HTML page for the IG.
+      - name: 🏃‍♂️ Generate package registry
+        run : java -Dfile.encoding=UTF-8 -jar publisher.jar -generate-package-registry ./IG-terminology-website-release
+        
+      - name: 🏃‍♂️ Run  Publisher to release
+        run :   java -Xmx16344m  -Dfile.encoding=UTF-8 -jar publisher.jar -go-publish -source igSource  -web  ./IG-terminology-website-release/www/ -registry ./IG-terminology-website-release/ig-registry/fhir-ig-list.json -history ./IG-terminology-website-release/fhir-ig-history-template -templates ./IG-terminology-website-release/templates    -temp      /home/runner/work/publication/temp 
+
+               
+      - name: Liste des fichiers de www
+        run: |
+              cd  ./IG-terminology-website-release/www
+              ls -lR
+               
+      - name: Run script python
+        run: |
+              cd  ./igSource
+              python ./tools/transform.py '../IG-terminology-website-release/www/terminologies' './tools/xsl'
+
+        
+      - name:  1 ZIP des fichiers 
+        run :  |
+             #cd  ./igSource
+              zip -rj ./IG-terminology-website-release/www/terminologies/listFormat/jdv-svs.zip ./IG-terminology-website-release/www/terminologies/listFormat/ValueSet*-svs.xml  -x "*FHIR*" 
+              zip -rj ./IG-terminology-website-release/www/terminologies/listFormat/jdv-fhir-json.zip ./IG-terminology-website-release/www/terminologies/ValueSet*.json 
+              zip -rj ./IG-terminology-website-release/www/terminologies/listFormat/jdv-fhir-xml.zip ./IG-terminology-website-release/www/terminologies/ValueSet*.xml 
+              zip -rj ./IG-terminology-website-release/www/terminologies/listFormat/jdv-tabs.zip ./IG-terminology-website-release/www/terminologies/listFormat/ValueSet*.tabs   
+              zip -rj ./IG-terminology-website-release/www/terminologies/listFormat/tre-svs.zip ./IG-terminology-website-release/www/terminologies/listFormat/CodeSystem*-svs.xml  -x "*FHIR*"   
+              zip -rj ./IG-terminology-website-release/www/terminologies/listFormat/tre-fhir-json.zip ./IG-terminology-website-release/www/terminologies/CodeSystem*.json     
+              zip -rj ./IG-terminology-website-release/www/terminologies/listFormat/tre-fhir-xml.zip ./IG-terminology-website-release/www/terminologies/CodeSystem*.xml         
+              zip -rj ./IG-terminology-website-release/www/terminologies/listFormat/tre-tabs.zip ./IG-terminology-website-release/www/terminologies/listFormat/CodeSystem*.tabs
+        
+
+      - name:  1 ZIP des NOS 
+        run :  |
+              #cd  ./igSource
+              rm ./IG-terminology-website-release/www/terminologies/listFormat/NOS-Fichiers_Publics-Versions_xml_svs.zip
+              rm ./IG-terminology-website-release/www/terminologies/listFormat/NOS-Fichiers_Publics-Versions_json_fhir.zip
+              rm ./IG-terminology-website-release/www/terminologies/listFormat/Nos-fichiers_publics-versions_xml_fhir.zip
+              rm ./IG-terminology-website-release/www/terminologies/listFormat/NOS-Fichiers_Publics.zip
+              rm ./IG-terminology-website-release/www/terminologies/listFormat/NOS-Jeux_de_Valeurs_CI-SIS.zip
+              
+              zip -rj ./IG-terminology-website-release/www/terminologies/listFormat/NOS-Fichiers_Publics-Versions_xml_svs.zip ./IG-terminology-website-release/www/terminologies/listFormat/ValueSet*-svs.xml  ./IG-terminology-website-release/www/terminologies/CodeSystem*-svs.xml  -x "*FHIR*" 
+              zip -FSrj ./IG-terminology-website-release/www/terminologies/listFormat/NOS-Fichiers_Publics-Versions_json_fhir.zip ./output/ValueSet*.json  ./IG-terminology-website-release/www/terminologies/CodeSystem*.json 
+              zip -FSrj ./IG-terminology-website-release/www/terminologies/listFormat/Nos-fichiers_publics-versions_xml_fhir.zip ./output/ValueSet*.xml ./IG-terminology-website-release/www/terminologies/CodeSystem*.xml 
+              zip -FSrj ./IG-terminology-website-release/www/terminologies/listFormat/NOS-Fichiers_Publics.zip ./output/listFormat/ValueSet*.tabs   ./IG-terminology-website-release/www/terminologies/listFormat/CodeSystem*.tabs   
+              zip -FSrj ./IG-terminology-website-release/www/terminologies/listFormat/NOS-Jeux_de_Valeurs_CI-SIS.zip ./IG-terminology-website-release/www/terminologies/listFormat/*CISIS*.tabs               
+       
+
+
+
+      - name: Create release
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          tag: ${{ github.ref_name }}
+        run: |
+          gh release create "${{ fromJson(env.PACKAGE_JSON).version }}" -t "Release : ${{  fromJson(env.PACKAGE_JSON).version }}"  --generate-notes  --repo="$GITHUB_REPOSITORY" 
+          
+          regex='^https?:\/\/[A-Za-z0-9:.]*([\/]{1}.*\/?)$'
+          [[ ${{ fromJson(env.PACKAGE_JSON).path }} =~ $regex ]]
+          file_path=${BASH_REMATCH[1]}
+          
+          gh release upload "${{ fromJson(env.PACKAGE_JSON).version }}" ./IG-terminology-website-release/www/${file_path}/full-ig.zip  --repo="$GITHUB_REPOSITORY" 
+          gh release upload "${{ fromJson(env.PACKAGE_JSON).version }}" ./IG-terminology-website-release/www/${file_path}/package.tgz --repo="$GITHUB_REPOSITORY" 
+          gh release upload "${{ fromJson(env.PACKAGE_JSON).version }}" ./IG-terminology-website-release/www/${file_path}/package.db --repo="$GITHUB_REPOSITORY" 
+        
+  
+
+      - name: Commit change on IG-terminology-website-release
+        run: |
+          cd  IG-terminology-website-release
+          git config http.postBuffer 524288000
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
+          git add -A 
+          git commit -m updated
+          
+      - name: Push changes on IG-website-release
+        uses: ad-m/github-push-action@master
+        with:
+          github_token: ${{ secrets.ANS_IG_API_TOKEN }}
+          directory:  IG-terminology-website-release
+          repository : ansforge/IG-terminology-website-release
+          force : true

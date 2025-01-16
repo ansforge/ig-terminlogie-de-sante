@@ -1,0 +1,70 @@
+name: Generate FSH
+
+on:
+  workflow_call:
+  workflow_dispatch:
+
+
+
+
+# The following jobs are equal for all IGs and can be moved to a common composite-action if 'uses'-support is added, see:
+# https://github.com/actions/runner/blob/main/docs/adrs/1144-composite-actions.md
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:      
+          path: igSource
+      
+
+      - name: Install fhirpy
+        run :  pip install fhirpy
+
+      - name: Install typing-extensions
+        run :  pip install typing-extensions
+        
+      - name: Install modules
+        run: npm install -g fsh-sushi
+
+      - name: Install gofsh
+        run: npm install -g gofsh
+
+      - name: Suppression des anciens FSH    
+        run: |
+          rm  -rf ./igSource/DM/input/fsh/Template/ontoserver/TRE/*.fsh
+          rm  -rf ./igSource/DM/input/fsh/Template/ontoserver/JDV/*.fsh
+          
+      - name: Get From ontoserver      
+        run: |
+          mkdir ./igSource/input/ontoserver
+          mkdir ./igSource/input/ontoserver/JDV
+          mkdir ./igSource/input/ontoserver/TRE
+          mkdir ./igSource/input/ontoserver/ASS
+          mkdir ./igSource/input/ontoserver/NamingSystem
+          cd ./igSource/tools
+          python ./upload-nos.py 
+
+
+      - name: Generation des FSH    
+        run: |
+
+          mkdir   -p ./DM/input/fsh/Template/ontoserver/TRE              
+          gofsh   ./igSource/input/ontoserver/TRE -o ./DM/input/fsh/Template/ontoserver/TRE
+          find ./DM/input/fsh/Template/ontoserver/TRE -name '*.fsh'  -exec cp  {} ./igSource/DM/input/fsh/Template/ontoserver/TRE/ \; 
+          
+          mkdir   -p ./DM/input/fsh/Template/ontoserver/JDV              
+          gofsh   ./igSource/input/ontoserver/JDV -o ./DM/input/fsh/Template/ontoserver/JDV
+          find ./DM/input/fsh/Template/ontoserver/JDV -name '*.fsh'  -exec cp  {} ./igSource/DM/input/fsh/Template/ontoserver/JDV/ \; 
+    
+      - name: Commit change on IG-terminology-website-release
+        run: |
+          cd ./igSource
+          git config http.postBuffer 524288000
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
+          git add ./DM/input/fsh/Template/ontoserver/**/*.fsh
+          git commit -am "Ajout des fsh de ontoserver "         
+          git push
+
+ 
