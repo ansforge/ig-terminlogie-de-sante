@@ -72,7 +72,7 @@ Description: "Nomenclature des types d'objet enregsitrés et manipulés dans FIN
 * #PM ^designation.language = #fr-FR
 * #PM ^designation.use.system = "http://snomed.info/sct"
 * #PM ^designation.use = $sct#900000000000013009
-* #PM ^designation.value = "Personne morale "
+* #PM ^designation.value = "Personne morale"
 * #PM ^property[0].code = #dateValid
 * #PM ^property[=].valueDateTime = "2024-12-30T00:00:00+01:00"
 * #PM ^property[+].code = #dateMaj
