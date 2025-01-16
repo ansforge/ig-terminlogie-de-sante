@@ -232,7 +232,7 @@ Description: "Nomenclature des états élémentaires que peuvent porter les enti
 * #103 ^designation.language = #fr-FR
 * #103 ^designation.use.system = "http://snomed.info/sct"
 * #103 ^designation.use = $sct#900000000000013009
-* #103 ^designation.value = "Sorie provisoirement"
+* #103 ^designation.value = "Sortie provisoirement"
 * #103 ^property[0].code = #dateValid
 * #103 ^property[=].valueDateTime = "2024-12-30T00:00:00+01:00"
 * #103 ^property[+].code = #dateMaj
