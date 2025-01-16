@@ -1,7 +1,7 @@
 Alias: $TRE-R222-MediaTypeCorpsCDANonStructure = https://mos.esante.gouv.fr/NOS/TRE_R222-MediaTypeCorpsCDANonStructure/FHIR/TRE-R222-MediaTypeCorpsCDANonStructure
 
 ValueSet: JDV_TRE_R222_MediaTypeCorpsCDANonStructure
-Id: TRE-R222-MediaTypeCorpsCDANonStructure-all
+Id: JDV-TRE-R222-MediaTypeCorpsCDANonStructure-all
 Title: "JDV-MediaTypeCorpsCDANonStructure"
 Description: "JDV avec l'ensemble des codes actifs de la TRE_R222_MediaTypeCorpsCDANonStructure"
 * ^meta.profile = Canonical(ANSShareableValueSet)
