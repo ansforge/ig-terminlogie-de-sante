@@ -33946,18 +33946,6 @@
         "valueString" : "ValueSet"
       }],
       "reference" : {
-        "reference" : "ValueSet/1.2.250.1.213.1.1.5.242"
-      },
-      "name" : "JDV_Col_Uterus_pT_CISIS_CISIS",
-      "description" : "JDV_Col_Uterus_pT_CISIS_CISIS",
-      "exampleBoolean" : false
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "ValueSet"
-      }],
-      "reference" : {
         "reference" : "ValueSet/1.2.250.1.213.1.1.5.243"
       },
       "name" : "JDV_Col_Uterus_Type_cyto_lesion_neoplasique_in_situ_CISIS",
@@ -34154,18 +34142,6 @@
       },
       "name" : "JDV_ConduiteATenir_1_CISIS",
       "description" : "JDV_ConduiteATenir_1_CISIS",
-      "exampleBoolean" : false
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "ValueSet"
-      }],
-      "reference" : {
-        "reference" : "ValueSet/1.2.250.1.213.1.1.5.86"
-      },
-      "name" : "JDV_ConduiteATenir_2_CISIS",
-      "description" : "JDV_ConduiteATenir_2_CISIS",
       "exampleBoolean" : false
     },
     {
@@ -36338,6 +36314,18 @@
       },
       "name" : "JDV_IndicateurAnormalite_CISIS",
       "description" : "JDV_IndicateurAnormalite_CISIS",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      }],
+      "reference" : {
+        "reference" : "ValueSet/1.2.250.1.213.1.1.5.818"
+      },
+      "name" : "JDV_IndicePerformanceECOG_CISIS",
+      "description" : "JDV_IndicePerformanceECOG_CISIS",
       "exampleBoolean" : false
     },
     {
@@ -39610,7 +39598,7 @@
         "valueString" : "ValueSet"
       }],
       "reference" : {
-        "reference" : "ValueSet/1.2.250.1.213.1.1.5.215"
+        "reference" : "ValueSet/1.2.250.1.213.1.1.5.207"
       },
       "name" : "JDV_LocaThromboseVeineuse_CISIS",
       "description" : "JDV_LocaThromboseVeineuse_CISIS",
@@ -41494,6 +41482,18 @@
         "valueString" : "ValueSet"
       }],
       "reference" : {
+        "reference" : "ValueSet/1.2.250.1.213.1.1.5.37"
+      },
+      "name" : "JDV_ProblemePPSPAERPA_CISIS",
+      "description" : "JDV_ProblemePPSPAERPA_CISIS",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      }],
+      "reference" : {
         "reference" : "ValueSet/1.2.250.1.213.1.1.5.673"
       },
       "name" : "JDV_Procedure_CISIS",
@@ -41880,8 +41880,8 @@
       "reference" : {
         "reference" : "ValueSet/1.2.250.1.213.1.1.5.708"
       },
-      "name" : "JDV_Rencontre_CS8_CISIS",
-      "description" : "JDV_Rencontre_CS8_CISIS",
+      "name" : "JDV_Rencontre_CSE_CISIS",
+      "description" : "JDV_Rencontre_CSE_CISIS",
       "exampleBoolean" : false
     },
     {
@@ -42118,10 +42118,34 @@
         "valueString" : "ValueSet"
       }],
       "reference" : {
+        "reference" : "ValueSet/1.2.250.1.213.1.1.5.816"
+      },
+      "name" : "JDV_ResultatEvaluation_CISIS",
+      "description" : "JDV_ResultatEvaluation_CISIS",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      }],
+      "reference" : {
         "reference" : "ValueSet/1.2.250.1.213.1.1.5.721"
       },
       "name" : "JDV_ResultatExamenCytologiqueCCU_CISIS",
       "description" : "JDV_ResultatExamenCytologiqueCCU_CISIS",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      }],
+      "reference" : {
+        "reference" : "ValueSet/1.2.250.1.213.1.1.5.817"
+      },
+      "name" : "JDV_ResultatQuestionEvaluation_CISIS",
+      "description" : "JDV_ResultatQuestionEvaluation_CISIS",
       "exampleBoolean" : false
     },
     {
@@ -42314,18 +42338,6 @@
       },
       "name" : "JDV_ScorePerformanceECOG_CISIS",
       "description" : "JDV_ScorePerformanceECOG_CISIS",
-      "exampleBoolean" : false
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "ValueSet"
-      }],
-      "reference" : {
-        "reference" : "ValueSet/1.2.250.1.213.1.1.5.176"
-      },
-      "name" : "JDV_ScoreRankin_CISIS",
-      "description" : "JDV_ScoreRankin_CISIS",
       "exampleBoolean" : false
     },
     {
@@ -44421,7 +44433,7 @@
         "reference" : "CodeSystem/1.2.250.1.213.1.1.4.322"
       },
       "name" : "TA_ASIP",
-      "description" : "TA_ASIP",
+      "description" : "TA_ASIP Version 1.98",
       "exampleBoolean" : false
     },
     {

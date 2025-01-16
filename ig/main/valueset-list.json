@@ -5254,19 +5254,6 @@
       "sources" : ["1.2.250.1.213.1.1.5.175"]
     },
     {
-      "url" : "https://smt.esante.gouv.fr/fhir/ValueSet/1.2.250.1.213.1.1.5.176",
-      "version" : "20100101000000",
-      "status" : "active",
-      "name" : "JDV_ScoreRankin_CISIS",
-      "title" : "JDV_ScoreRankin_CISIS",
-      "description" : "JDV_ScoreRankin_CISIS",
-      "systems" : [
-        "https://smt.esante.gouv.fr/fhir/CodeSystem/1.2.250.1.213.1.1.4.322"
-      ],
-      "oids" : ["1.2.250.1.213.1.1.5.176"],
-      "sources" : ["1.2.250.1.213.1.1.5.176"]
-    },
-    {
       "url" : "https://smt.esante.gouv.fr/fhir/ValueSet/1.2.250.1.213.1.1.5.177",
       "version" : "20100101000000",
       "status" : "active",
@@ -5588,6 +5575,21 @@
       "sources" : ["1.2.250.1.213.1.1.5.206"]
     },
     {
+      "url" : "https://smt.esante.gouv.fr/fhir/ValueSet/1.2.250.1.213.1.1.5.207",
+      "version" : "20230606000000",
+      "status" : "retired",
+      "name" : "JDV_LocaThromboseVeineuse_CISIS",
+      "title" : "JDV_LocaThromboseVeineuse_CISIS",
+      "description" : "JDV_LocaThromboseVeineuse_CISIS",
+      "systems" : [
+        "https://smt.esante.gouv.fr/fhir/CodeSystem/1.2.250.1.213.1.1.4.322",
+        "1.2.250.1.213.2.12",
+        "http://snomed.info/sct"
+      ],
+      "oids" : ["1.2.250.1.213.1.1.5.207"],
+      "sources" : ["1.2.250.1.213.1.1.5.207"]
+    },
+    {
       "url" : "https://smt.esante.gouv.fr/fhir/ValueSet/1.2.250.1.213.1.1.5.208",
       "version" : "20230707000000",
       "status" : "active",
@@ -5678,20 +5680,6 @@
       "systems" : ["http://snomed.info/sct"],
       "oids" : ["1.2.250.1.213.1.1.5.214"],
       "sources" : ["1.2.250.1.213.1.1.5.214"]
-    },
-    {
-      "url" : "https://smt.esante.gouv.fr/fhir/ValueSet/1.2.250.1.213.1.1.5.215",
-      "version" : "20231114000000",
-      "status" : "active",
-      "name" : "JDV_LocaThromboseVeineuse_CISIS",
-      "title" : "JDV_LocaThromboseVeineuse_CISIS",
-      "description" : "JDV_LocaThromboseVeineuse_CISIS",
-      "systems" : [
-        "https://smt.esante.gouv.fr/fhir/CodeSystem/1.2.250.1.213.1.1.4.322",
-        "urn:oid:2.16.840.1.113883.6.96"
-      ],
-      "oids" : ["1.2.250.1.213.1.1.5.215"],
-      "sources" : ["1.2.250.1.213.1.1.5.215"]
     },
     {
       "url" : "https://smt.esante.gouv.fr/fhir/ValueSet/1.2.250.1.213.1.1.5.216",
@@ -5980,17 +5968,6 @@
       "sources" : ["1.2.250.1.213.1.1.5.241"]
     },
     {
-      "url" : "https://smt.esante.gouv.fr/fhir/ValueSet/1.2.250.1.213.1.1.5.242",
-      "version" : "20230404000000",
-      "status" : "retired",
-      "name" : "JDV_Col_Uterus_pT_CISIS_CISIS",
-      "title" : "JDV_Col_Uterus_pT_CISIS_CISIS",
-      "description" : "JDV_Col_Uterus_pT_CISIS_CISIS",
-      "systems" : ["1.3.6.1.4.1.19376.1.8.2.1"],
-      "oids" : ["1.2.250.1.213.1.1.5.242"],
-      "sources" : ["1.2.250.1.213.1.1.5.242"]
-    },
-    {
       "url" : "https://smt.esante.gouv.fr/fhir/ValueSet/1.2.250.1.213.1.1.5.243",
       "version" : "20230404000000",
       "status" : "retired",
@@ -6069,8 +6046,8 @@
     },
     {
       "url" : "https://smt.esante.gouv.fr/fhir/ValueSet/1.2.250.1.213.1.1.5.25",
-      "version" : "20100101000000",
-      "status" : "active",
+      "version" : "20241230000000",
+      "status" : "retired",
       "name" : "JDV_TypePriseEnChargePPSPAERPA_CISIS",
       "title" : "JDV_TypePriseEnChargePPSPAERPA_CISIS",
       "description" : "JDV_TypePriseEnChargePPSPAERPA_CISIS",
@@ -7342,6 +7319,19 @@
       "sources" : ["1.2.250.1.213.1.1.5.369"]
     },
     {
+      "url" : "https://smt.esante.gouv.fr/fhir/ValueSet/1.2.250.1.213.1.1.5.37",
+      "version" : "20241230000000",
+      "status" : "retired",
+      "name" : "JDV_ProblemePPSPAERPA_CISIS",
+      "title" : "JDV_ProblemePPSPAERPA_CISIS",
+      "description" : "JDV_ProblemePPSPAERPA_CISIS",
+      "systems" : [
+        "https://smt.esante.gouv.fr/fhir/CodeSystem/1.2.250.1.213.1.1.4.322"
+      ],
+      "oids" : ["1.2.250.1.213.1.1.5.37"],
+      "sources" : ["1.2.250.1.213.1.1.5.37"]
+    },
+    {
       "url" : "https://smt.esante.gouv.fr/fhir/ValueSet/1.2.250.1.213.1.1.5.370",
       "version" : "20230404000000",
       "status" : "retired",
@@ -7844,7 +7834,7 @@
     },
     {
       "url" : "https://smt.esante.gouv.fr/fhir/ValueSet/1.2.250.1.213.1.1.5.42",
-      "version" : "20241018000000",
+      "version" : "20241230000000",
       "status" : "active",
       "name" : "JDV_ProfessionPersonnelActivite_CISIS",
       "title" : "JDV_ProfessionPersonnelActivite_CISIS",
@@ -10678,11 +10668,11 @@
     },
     {
       "url" : "https://smt.esante.gouv.fr/fhir/ValueSet/1.2.250.1.213.1.1.5.708",
-      "version" : "20241126000000",
-      "status" : "active",
-      "name" : "JDV_Rencontre_CS8_CISIS",
-      "title" : "JDV_Rencontre_CS8_CISIS",
-      "description" : "JDV_Rencontre_CS8_CISIS",
+      "version" : "20231121000000",
+      "status" : "retired",
+      "name" : "JDV_Rencontre_CSE_CISIS",
+      "title" : "JDV_Rencontre_CSE_CISIS",
+      "description" : "JDV_Rencontre_CSE_CISIS",
       "systems" : [
         "https://smt.esante.gouv.fr/fhir/CodeSystem/1.2.250.1.213.1.1.4.322"
       ],
@@ -11758,6 +11748,41 @@
       "sources" : ["1.2.250.1.213.1.1.5.814"]
     },
     {
+      "url" : "https://smt.esante.gouv.fr/fhir/ValueSet/1.2.250.1.213.1.1.5.816",
+      "version" : "20241219000000",
+      "status" : "active",
+      "name" : "JDV_ResultatEvaluation_CISIS",
+      "title" : "JDV_ResultatEvaluation_CISIS",
+      "description" : "JDV_ResultatEvaluation_CISIS",
+      "systems" : ["2.16.840.1.113883.6.254"],
+      "oids" : ["1.2.250.1.213.1.1.5.816"],
+      "sources" : ["1.2.250.1.213.1.1.5.816"]
+    },
+    {
+      "url" : "https://smt.esante.gouv.fr/fhir/ValueSet/1.2.250.1.213.1.1.5.817",
+      "version" : "20241219000000",
+      "status" : "active",
+      "name" : "JDV_ResultatQuestionEvaluation_CISIS",
+      "title" : "JDV_ResultatQuestionEvaluation_CISIS",
+      "description" : "JDV_ResultatQuestionEvaluation_CISIS",
+      "systems" : [
+        "https://smt.esante.gouv.fr/fhir/CodeSystem/1.2.250.1.213.1.1.4.322"
+      ],
+      "oids" : ["1.2.250.1.213.1.1.5.817"],
+      "sources" : ["1.2.250.1.213.1.1.5.817"]
+    },
+    {
+      "url" : "https://smt.esante.gouv.fr/fhir/ValueSet/1.2.250.1.213.1.1.5.818",
+      "version" : "20241230000000",
+      "status" : "active",
+      "name" : "JDV_IndicePerformanceECOG_CISIS",
+      "title" : "JDV_IndicePerformanceECOG_CISIS",
+      "description" : "JDV_IndicePerformanceECOG_CISIS",
+      "systems" : ["http://loinc.org"],
+      "oids" : ["1.2.250.1.213.1.1.5.818"],
+      "sources" : ["1.2.250.1.213.1.1.5.818"]
+    },
+    {
       "url" : "https://smt.esante.gouv.fr/fhir/ValueSet/1.2.250.1.213.1.1.5.82",
       "version" : "20231114000000",
       "status" : "active",
@@ -11812,19 +11837,6 @@
       ],
       "oids" : ["1.2.250.1.213.1.1.5.85"],
       "sources" : ["1.2.250.1.213.1.1.5.85"]
-    },
-    {
-      "url" : "https://smt.esante.gouv.fr/fhir/ValueSet/1.2.250.1.213.1.1.5.86",
-      "version" : "20100101000000",
-      "status" : "active",
-      "name" : "JDV_ConduiteATenir_2_CISIS",
-      "title" : "JDV_ConduiteATenir_2_CISIS",
-      "description" : "JDV_ConduiteATenir_2_CISIS",
-      "systems" : [
-        "https://smt.esante.gouv.fr/fhir/CodeSystem/1.2.250.1.213.1.1.4.322"
-      ],
-      "oids" : ["1.2.250.1.213.1.1.5.86"],
-      "sources" : ["1.2.250.1.213.1.1.5.86"]
     },
     {
       "url" : "https://smt.esante.gouv.fr/fhir/ValueSet/1.2.250.1.213.1.1.5.87",
