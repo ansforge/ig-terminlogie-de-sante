@@ -72,7 +72,7 @@ async def main():
 
     # Search for valueSet
     resources = client.resources('ValueSet')  # Return lazy search set
-    list_valueSets = await resources.fetch()  
+    list_valueSets = await resources.limit(1500).fetch()  
     for e_valueSet in list_valueSets :
         print (e_valueSet["name"])
         if(not os.path.isfile('../DM/fsh-generated/resources/ValueSet-'+ e_valueSet["id"] + ".json")) :
