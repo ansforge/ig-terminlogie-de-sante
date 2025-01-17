@@ -1,13 +1,12 @@
 ### Source 
 
-Vous trouverez ci-dessous la liste des sources : 
+Vous trouverez ci-dessous la liste des sources :
+
 - [Recommandations et stratégies pour la gestion des objets FHIR® du NOS en vue  de leur intégration au  FHIR Terminology  Service du SMT](Strategie_NOS_SMT_v1.9.pdf)
-- https://interop.esante.gouv.fr/ig/documentation/bonnes_pratiques_modeler.html
-- https://confluence.hl7.org/pages/viewpage.action?pageId=35718826#GuidetoDesigningResources-NamingRules&Guidelines
+- [https://interop.esante.gouv.fr/ig/documentation/bonnes_pratiques_modeler.html]
+- [https://confluence.hl7.org/pages/viewpage.action?pageId=35718826#GuidetoDesigningResources-NamingRules&Guidelines]
 
-
-### Règles pour les   jeux de valeur  (ValueSet)
-
+### Conventions de nommage pour les jeux de valeurs (ValueSet)
 
 <table class="table table-bordered">
   <thead>
@@ -20,20 +19,20 @@ Vous trouverez ci-dessous la liste des sources :
   <tbody>
     <tr>
       <td style="text-align: left">id (*) </td>
-      <td style="text-align: left">Kebab Case sans  prefix de type 'JDV' ni suffix de type 'CI-SIS' </td>
+      <td style="text-align: left">Kebab Case sans préfixe de type 'JDV' ni suffixe de type 'CI-SIS', qui respecte l'expression régulière imposée par FHIR : https://www.hl7.org/fhir/R4/datatypes.html#id </td>
       <td>Exemple : xds-author-specialty</td>
     </tr>
     <tr>
       <td style="text-align: left">identifier</td>
-      <td style="text-align: left">Permet d'identiquer  l'OID </td>
+      <td style="text-align: left">Permet d'indiquer les identifiants du JDV, comme par exemple l'OID </td>
       <td>Exemple : <code>    {
       "system" : "urn:ietf:rfc:3986",
       "value" : "urn:oid:1.2.250.1.213.1.1.5.461"
     } </code></td>
-    </tr>    
+    </tr>
     <tr>
       <td style="text-align: left">meta.profile (*)</td>
-      <td style="text-align: left"></td>
+      <td style="text-align: left">Les ValueSets doivent respecter le profil international ShareableValueSet</td>
       <td>http://hl7.org/fhir/StructureDefinition/shareablevalueset</td>
     </tr>
     <tr>
@@ -76,7 +75,7 @@ Vous trouverez ci-dessous la liste des sources :
     </tr>
     <tr>
       <td style="text-align: left">description (*)</td>
-      <td style="text-align: left">Descripption </td>
+      <td style="text-align: left">Description du jeu de valeur </td>
       <td></td>
     </tr>     
     <tr>
@@ -94,19 +93,6 @@ Vous trouverez ci-dessous la liste des sources :
 
 
 #### jeux de valeur représentant l'ensemble de la terminologie
-- id => {id-termino}-all
-- url => {url-termino}?vs
-On retrouve l'url du valuset dans la terminologie d'origine :
--   CodeSytem.valueSet =>  url 
-####  TO DO
-
-#### Comment Indiquer le porteur de la terminologie
-
-Preadoption de CodeSystem.endorser de R5  et R6 ?
-#### Comment Indiquer quelle est l'entité qui s'occupe la maintenance et publication  de la terminologie
-Preadoption de CodeSystem.author de R5  et R6 ?
-
-### Règles pour les terminologies (CodeSystem) 
 
 
 <table class="table table-bordered">
@@ -119,13 +105,53 @@ Preadoption de CodeSystem.author de R5  et R6 ?
   </thead>
   <tbody>
     <tr>
+      <td style="text-align: left">id (*) </td>
+      <td style="text-align: left"> </td>
+      <td> {id-termino}-all</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">url (*) </td>
+      <td style="text-align: left"> l'url est indiqué dans la proriété valueSet de la terminologie d'origine ( CodeSytem.valueSet) </td>
+      <td> {url-termino}?vs</td>
+    </tr>
+    
+</tbody></table>
+
+
+
+#### Permettre d'indiquer le porteur de la terminologie
+
+Preadoption de CodeSystem.endorser de R5  et R6 
+
+#### Permettre d'indiquer  l'entité qui s'occupe la maintenance et publication  de la terminologie
+
+Preadoption de CodeSystem.author de R5  et R6
+
+
+
+
+
+
+
+### Règles pour les terminologies (CodeSystem)
+
+<table class="table table-bordered">
+  <thead>
+    <tr>
+      <th style="text-align: left">Element</th>
+      <th style="text-align: left">Commentaire</th>
+      <th>Convention</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
       <td style="text-align: left">id (*)</td>
-      <td style="text-align: left">Kebab Case sans  prefix de type 'TRE' ni suffix de type 'CI-SIS' </td>
+      <td style="text-align: left">Kebab Case sans préfixe de type 'TRE' ni suffixe de type 'CI-SIS' </td>
       <td>Exemple : mode-exercice</td>
     </tr>
     <tr>
       <td style="text-align: left">identifier</td>
-      <td style="text-align: left">Permet d'identiquer  l'OID </td>
+      <td style="text-align: left">Permet d'indiquer les identifiants du JDV, comme par exemple l'OID </td>
       <td>Exemple : <code>    {
       "system" : "urn:ietf:rfc:3986",
       "value" : "urn:oid:1.2.250.1.213.1.6.1.18"
@@ -133,11 +159,11 @@ Preadoption de CodeSystem.author de R5  et R6 ?
     </tr>    
     <tr>
       <td style="text-align: left">meta.profile (*)</td>
-      <td style="text-align: left"></td>
+      <td style="text-align: left">Les CodeSystems doivent respecter le profil international ShareableCodeSystem</td>
       <td>http://hl7.org/fhir/StructureDefinition/shareablecodesystem</td>
     </tr>
     <tr>
-      <td style="text-align: left">meta</td>
+      <td style="text-align: left">meta.security</td>
       <td style="text-align: left">Gestion des permissions</td>
       <td>Exemple : <code> {
                 "system": http://ontoserver.csiro.au/CodeSystem/ontoserver-permissions,
@@ -187,17 +213,26 @@ Preadoption de CodeSystem.author de R5  et R6 ?
   </tbody>
 </table>
 
-####  TO DO
 
-#### Comment Indiquer le porteur du jeux de valeur
+#### Permettre d'indiquer le le porteur de la terminologie
 
-Preadoption de ValueSet.endorser de R5  et R6 ?
-#### Comment Indiquer quelle est l'entité qui s'occupe la maintenance et publication  du jeux de valeur
-Preadoption de ValueSet.author de R5  et R6 ?
+Preadoption de CodeSystem.endorser de R5  et R6 
+
+#### Permettre d'indiquer  l'entité qui s'occupe la maintenance et publication  de la terminologie
+
+Preadoption de CodeSystem.author de R5  et R6
+
+#### Permettre d'indiquer  quand le synonyme  est libellé court ou libellé long
+
+Preadoption de CodeSystem.concept.designation.additionalUse de R5  et R6
 
 
-### Règles pour les associations (ConceptMap) 
 
+
+
+
+
+### Règles pour les associations (ConceptMap)
 
 <table class="table table-bordered">
   <thead>
@@ -210,7 +245,7 @@ Preadoption de ValueSet.author de R5  et R6 ?
   <tbody>
     <tr>
       <td style="text-align: left">id (*)</td>
-      <td style="text-align: left">Kebab Case sans  prefix de type 'ASS' ni suffix de type 'CI-SIS' </td>
+      <td style="text-align: left">Kebab Case sans préfixe de type 'ASS' ni suffixe de type 'CI-SIS' </td>
       <td>Exemple : model-document-cda-to-xds-format-code</td>
     </tr>
     <tr>
@@ -281,15 +316,7 @@ Preadoption de ValueSet.author de R5  et R6 ?
       "valueCodeableConcept" : {
         "text" : "Pour la constitution des metadata XDS"
       } </code></td>
-    </tr>        
+    </tr>
 
-    
   </tbody>
-
-  
 </table>
-
-
-
-
-
