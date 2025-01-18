@@ -103,7 +103,8 @@ jobs:
               zip -rj ./output/listFormat/tre-fhir-json.zip ./output/CodeSystem*.json     
               zip -rj ./output/listFormat/tre-fhir-xml.zip ./output/CodeSystem*.xml         
               zip -rj ./output/listFormat/tre-tabs.zip ./output/listFormat/CodeSystem*.tabs
-        
+              zip -rj ./output/listFormat/ass-fhir-json.zip ./output/ConceptMap*.json 
+              zip -rj ./output/listFormat/ass-fhir-xml.zip ./output/ConceptMap*.xml         
 
       - name:  1 ZIP des NOS 
         run :  |
