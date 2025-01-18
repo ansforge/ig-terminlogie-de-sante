@@ -7,6 +7,7 @@ Usage: #definition
 * version = "5.0.0"
 * name = "ASS_X01_TranscoSavFaireADELI_SavFaireR01"
 * title = "ASS_X01_TranscoSavFaireADELI_SavFaireR01"
+* description = "ASS_X01_TranscoSavFaireADELI_SavFaireR01"
 * status = #active
 * experimental = false
 * publisher = "ANS"
