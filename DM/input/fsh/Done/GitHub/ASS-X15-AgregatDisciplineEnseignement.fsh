@@ -7,6 +7,7 @@ Usage: #definition
 * version = "5.0.0"
 * name = "ASS_X15_AgregatDisciplineEnseignement"
 * title = "ASS_X15_AgregatDisciplineEnseignement"
+* description = "ASS_X15_AgregatDisciplineEnseignement"
 * status = #active
 * experimental = false
 * publisher = "ANS"
