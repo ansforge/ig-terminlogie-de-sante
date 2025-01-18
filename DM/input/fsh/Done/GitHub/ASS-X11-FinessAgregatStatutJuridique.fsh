@@ -5,8 +5,9 @@ InstanceOf: ConceptMap
 Usage: #definition
 * url = "https://mos.esante.gouv.fr/NOS/ASS-X11-FinessAgregatStatutJuridique"
 * version = "5.0.0"
-* name = "ASS-X11-FinessAgregatStatutJuridique"
-* title = "ASS-X11-FinessAgregatStatutJuridique"
+* name = "ASS_X11_FinessAgregatStatutJuridique"
+* title = "ASS_X11_FinessAgregatStatutJuridique"
+* description = "ASS_X11_FinessAgregatStatutJuridique"
 * status = #active
 * experimental = false
 * publisher = "ANS"
