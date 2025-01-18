@@ -474,8 +474,7 @@
       "title" : null,
       "description" : "Toute la nomenclature des codes communes auquel on ajoute le code applicatif \"Non renseigné\"",
       "systems" : [
-        "https://mos.esante.gouv.fr/NOS/TRE_R13-CommuneOM/FHIR/TRE-R13-CommuneOM",
-        "https://mos.esante.gouv.fr/NOS/TRE_R302-ContexteCodeComplementaire/FHIR/TRE-R302-ContexteCodeComplementaire"
+        "https://mos.esante.gouv.fr/NOS/TRE_R13-CommuneOM/FHIR/TRE-R13-CommuneOM"
       ],
       "oids" : ["1.2.250.1.213.1.6.1.191"],
       "sources" : ["1.2.250.1.213.1.6.1.191"]
@@ -528,8 +527,7 @@
       "title" : null,
       "description" : "Toute la nomenclature des codes actuels communes auquel on ajoute le code applicatif \"Non renseigné\"",
       "systems" : [
-        "https://mos.esante.gouv.fr/NOS/TRE_R13-CommuneOM/FHIR/TRE-R13-CommuneOM",
-        "https://mos.esante.gouv.fr/NOS/TRE_R302-ContexteCodeComplementaire/FHIR/TRE-R302-ContexteCodeComplementaire"
+        "https://mos.esante.gouv.fr/NOS/TRE_R13-CommuneOM/FHIR/TRE-R13-CommuneOM"
       ],
       "oids" : ["1.2.250.1.213.3.4.9"],
       "sources" : ["1.2.250.1.213.3.4.9"]

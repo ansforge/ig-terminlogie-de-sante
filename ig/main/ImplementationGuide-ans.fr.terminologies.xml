@@ -23326,16 +23326,6 @@
         <valueString value="ConceptMap"/>
       </extension>
       <reference>
-        <reference value="ConceptMap/ASS-X11-FinessAgregatStatutJuridique"/>
-      </reference>
-      <name value="ASS-X11-FinessAgregatStatutJuridique"/>
-      <exampleBoolean value="false"/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="ConceptMap"/>
-      </extension>
-      <reference>
         <reference value="ConceptMap/ASS-A12-CorresMediaTypeCDANonStructure-XdsFormatCode-CISIS"/>
       </reference>
       <name value="ASS_12_CorresMediaTypeCDANonStructure-XdsFormatCode-CISIS"/>
@@ -23492,7 +23482,8 @@
       <reference>
         <reference value="ConceptMap/ASS-A31-CorresDiabete-RegroupementDiabete"/>
       </reference>
-      <name value="ASS_A31_CorresDiabete-RegroupementDiabete"/>
+      <name value="ASS_A31_CorresDiabete_RegroupementDiabete"/>
+      <description value="ASS_A31_CorresDiabete_RegroupementDiabete"/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -23503,6 +23494,7 @@
         <reference value="ConceptMap/ASS-A32-StatutMotifPersonnePriseCharge"/>
       </reference>
       <name value="ASS_A32_StatutMotifPersonnePriseCharge"/>
+      <description value="ASS_A32_StatutMotifPersonnePriseCharg"/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -23524,6 +23516,7 @@
         <reference value="ConceptMap/ASS-X01-TranscoSavFaireADELI-SavFaireR01"/>
       </reference>
       <name value="ASS_X01_TranscoSavFaireADELI_SavFaireR01"/>
+      <description value="ASS_X01_TranscoSavFaireADELI_SavFaireR01"/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -23578,6 +23571,18 @@
         <reference value="ConceptMap/ASS-X10-AgregatCategorieEtablissement"/>
       </reference>
       <name value="ASS_X10_AgregatCategorieEtablissement"/>
+      <description value="ASS_X10_AgregatCategorieEtablissement"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ConceptMap"/>
+      </extension>
+      <reference>
+        <reference value="ConceptMap/ASS-X11-FinessAgregatStatutJuridique"/>
+      </reference>
+      <name value="ASS_X11_FinessAgregatStatutJuridique"/>
+      <description value="ASS_X11_FinessAgregatStatutJuridique"/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -23610,6 +23615,7 @@
         <reference value="ConceptMap/ASS-X14-AgregatDisciplineEquipementSocial"/>
       </reference>
       <name value="ASS_X14_AgregatDisciplineEquipementSocial"/>
+      <description value="ASS_X14_AgregatDisciplineEquipementSocial"/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -23620,6 +23626,7 @@
         <reference value="ConceptMap/ASS-X15-AgregatDisciplineEnseignement"/>
       </reference>
       <name value="ASS_X15_AgregatDisciplineEnseignement"/>
+      <description value="ASS_X15_AgregatDisciplineEnseignement"/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>

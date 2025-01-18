@@ -26250,17 +26250,6 @@
          fhir:value [ fhir:v "ConceptMap" ]
        ] ) ;
        fhir:reference [
-         fhir:link <https://interop.esante.gouv.fr/terminologies/ConceptMap/ASS-X11-FinessAgregatStatutJuridique> ;
-         fhir:reference [ fhir:v "ConceptMap/ASS-X11-FinessAgregatStatutJuridique" ]
-       ] ;
-       fhir:name [ fhir:v "ASS-X11-FinessAgregatStatutJuridique" ] ;
-       fhir:example [ fhir:v "false"^^xsd:boolean ]
-     ] [
-       fhir:extension ( [
-         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
-         fhir:value [ fhir:v "ConceptMap" ]
-       ] ) ;
-       fhir:reference [
          fhir:link <https://interop.esante.gouv.fr/terminologies/ConceptMap/ASS-A12-CorresMediaTypeCDANonStructure-XdsFormatCode-CISIS> ;
          fhir:reference [ fhir:v "ConceptMap/ASS-A12-CorresMediaTypeCDANonStructure-XdsFormatCode-CISIS" ]
        ] ;
@@ -26432,7 +26421,8 @@
          fhir:link <https://interop.esante.gouv.fr/terminologies/ConceptMap/ASS-A31-CorresDiabete-RegroupementDiabete> ;
          fhir:reference [ fhir:v "ConceptMap/ASS-A31-CorresDiabete-RegroupementDiabete" ]
        ] ;
-       fhir:name [ fhir:v "ASS_A31_CorresDiabete-RegroupementDiabete" ] ;
+       fhir:name [ fhir:v "ASS_A31_CorresDiabete_RegroupementDiabete" ] ;
+       fhir:description [ fhir:v "ASS_A31_CorresDiabete_RegroupementDiabete" ] ;
        fhir:example [ fhir:v "false"^^xsd:boolean ]
      ] [
        fhir:extension ( [
@@ -26444,6 +26434,7 @@
          fhir:reference [ fhir:v "ConceptMap/ASS-A32-StatutMotifPersonnePriseCharge" ]
        ] ;
        fhir:name [ fhir:v "ASS_A32_StatutMotifPersonnePriseCharge" ] ;
+       fhir:description [ fhir:v "ASS_A32_StatutMotifPersonnePriseCharg" ] ;
        fhir:example [ fhir:v "false"^^xsd:boolean ]
      ] [
        fhir:extension ( [
@@ -26467,6 +26458,7 @@
          fhir:reference [ fhir:v "ConceptMap/ASS-X01-TranscoSavFaireADELI-SavFaireR01" ]
        ] ;
        fhir:name [ fhir:v "ASS_X01_TranscoSavFaireADELI_SavFaireR01" ] ;
+       fhir:description [ fhir:v "ASS_X01_TranscoSavFaireADELI_SavFaireR01" ] ;
        fhir:example [ fhir:v "false"^^xsd:boolean ]
      ] [
        fhir:extension ( [
@@ -26526,6 +26518,19 @@
          fhir:reference [ fhir:v "ConceptMap/ASS-X10-AgregatCategorieEtablissement" ]
        ] ;
        fhir:name [ fhir:v "ASS_X10_AgregatCategorieEtablissement" ] ;
+       fhir:description [ fhir:v "ASS_X10_AgregatCategorieEtablissement" ] ;
+       fhir:example [ fhir:v "false"^^xsd:boolean ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "ConceptMap" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <https://interop.esante.gouv.fr/terminologies/ConceptMap/ASS-X11-FinessAgregatStatutJuridique> ;
+         fhir:reference [ fhir:v "ConceptMap/ASS-X11-FinessAgregatStatutJuridique" ]
+       ] ;
+       fhir:name [ fhir:v "ASS_X11_FinessAgregatStatutJuridique" ] ;
+       fhir:description [ fhir:v "ASS_X11_FinessAgregatStatutJuridique" ] ;
        fhir:example [ fhir:v "false"^^xsd:boolean ]
      ] [
        fhir:extension ( [
@@ -26561,6 +26566,7 @@
          fhir:reference [ fhir:v "ConceptMap/ASS-X14-AgregatDisciplineEquipementSocial" ]
        ] ;
        fhir:name [ fhir:v "ASS_X14_AgregatDisciplineEquipementSocial" ] ;
+       fhir:description [ fhir:v "ASS_X14_AgregatDisciplineEquipementSocial" ] ;
        fhir:example [ fhir:v "false"^^xsd:boolean ]
      ] [
        fhir:extension ( [
@@ -26572,6 +26578,7 @@
          fhir:reference [ fhir:v "ConceptMap/ASS-X15-AgregatDisciplineEnseignement" ]
        ] ;
        fhir:name [ fhir:v "ASS_X15_AgregatDisciplineEnseignement" ] ;
+       fhir:description [ fhir:v "ASS_X15_AgregatDisciplineEnseignement" ] ;
        fhir:example [ fhir:v "false"^^xsd:boolean ]
      ] [
        fhir:extension ( [

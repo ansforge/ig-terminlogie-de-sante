@@ -47,7 +47,7 @@
     "type" : "ConceptMap",
     "url" : "https://mos.esante.gouv.fr/NOS/ASS-X11-FinessAgregatStatutJuridique",
     "version" : "5.0.0",
-    "name" : "ASS-X11-FinessAgregatStatutJuridique"
+    "name" : "ASS_X11_FinessAgregatStatutJuridique"
   },
   {
     "id" : "ASS-A12-CorresMediaTypeCDANonStructure-XdsFormatCode-CISIS",
@@ -152,7 +152,7 @@
     "type" : "ConceptMap",
     "url" : "https://mos.esante.gouv.fr/NOS/ASS_A31_CorresDiabete-RegroupementDiabete",
     "version" : "5.0.0",
-    "name" : "ASS_A31_CorresDiabete-RegroupementDiabete"
+    "name" : "ASS_A31_CorresDiabete_RegroupementDiabete"
   },
   {
     "id" : "ASS-A32-StatutMotifPersonnePriseCharge",

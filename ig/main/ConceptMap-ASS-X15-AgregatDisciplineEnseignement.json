@@ -11,7 +11,7 @@
   "title" : "ASS_X15_AgregatDisciplineEnseignement",
   "status" : "active",
   "experimental" : false,
-  "date" : "2025-01-18T08:06:33+00:00",
+  "date" : "2025-01-18T11:23:04+00:00",
   "publisher" : "ANS",
   "contact" : [{
     "name" : "ANS",
@@ -20,6 +20,7 @@
       "value" : "https://esante.gouv.fr"
     }]
   }],
+  "description" : "ASS_X15_AgregatDisciplineEnseignement",
   "jurisdiction" : [{
     "coding" : [{
       "system" : "urn:iso:std:iso:3166",
