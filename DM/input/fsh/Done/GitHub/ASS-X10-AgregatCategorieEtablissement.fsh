@@ -7,7 +7,7 @@ Usage: #definition
 * version = "5.0.0"
 * name = "ASS_X10_AgregatCategorieEtablissement"
 * title = "ASS_X10_AgregatCategorieEtablissement"
-* desciption = "ASS_X10_AgregatCategorieEtablissement"
+* description = "ASS_X10_AgregatCategorieEtablissement"
 * status = #active
 * experimental = false
 * publisher = "ANS"
