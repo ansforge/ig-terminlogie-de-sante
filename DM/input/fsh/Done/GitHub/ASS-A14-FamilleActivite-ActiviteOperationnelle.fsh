@@ -14,7 +14,7 @@ Usage: #definition
 * experimental = false
 * date = "2024-05-31T12:00:00+01:00"
 * description = "Association Famille activité - Activité opérationnelle"
-* group.source = "https://mos.esante.gouv.fr/NOS/TRE_R265-PrestationPilotageSerafin/FHIR/TRE-R265-PrestationPilotageSerafin"
+* group.source = "https://smt.esante.gouv.fr/terminologie-SERAFINPH"
 * group.target = "https://mos.esante.gouv.fr/NOS/TRE_R211-ActiviteOperationnelle/FHIR/TRE-R211-ActiviteOperationnelle"
 * group.element[0].code = #004
 * group.element[=].target.code = #135
