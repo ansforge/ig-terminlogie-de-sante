@@ -7,6 +7,7 @@ Usage: #definition
 * version = "5.0.0"
 * name = "ASS_A32_StatutMotifPersonnePriseCharge"
 * title = "ASS_A32_StatutMotifPersonnePriseCharge"
+* description = "ASS_A32_StatutMotifPersonnePriseCharg"
 * status = #active
 * experimental = false
 * publisher = "ANS"
