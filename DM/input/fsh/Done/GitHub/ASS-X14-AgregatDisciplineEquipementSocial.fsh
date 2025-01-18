@@ -7,6 +7,7 @@ Usage: #definition
 * version = "5.0.0"
 * name = "ASS_X14_AgregatDisciplineEquipementSocial"
 * title = "ASS_X14_AgregatDisciplineEquipementSocial"
+* description = "ASS_X14_AgregatDisciplineEquipementSocial"
 * status = #active
 * experimental = false
 * publisher = "ANS"
