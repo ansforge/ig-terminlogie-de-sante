@@ -5,8 +5,9 @@ InstanceOf: ConceptMap
 Usage: #definition
 * url = "https://mos.esante.gouv.fr/NOS/ASS_A31_CorresDiabete-RegroupementDiabete"
 * version = "5.0.0"
-* name = "ASS_A31_CorresDiabete-RegroupementDiabete"
-* title = "ASS_A31_CorresDiabete-RegroupementDiabete"
+* name = "ASS_A31_CorresDiabete_RegroupementDiabete"
+* title = "ASS_A31_CorresDiabete_RegroupementDiabete"
+* description = "ASS_A31_CorresDiabete_RegroupementDiabete"
 * status = #active
 * experimental = false
 * publisher = "ANS"
