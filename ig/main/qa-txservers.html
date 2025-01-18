@@ -11,7 +11,7 @@
 </head>
 <body style="margin: 20px; background-color: #ffffff">
  <h1>Terminology Server Report for Terminologies</h1>
- <p>Generated Fri Jan 17 15:37:49 UTC 2025, FHIR version 4.0.1 for ans.fr.terminologies#0.1.0 (canonical = <a href="https://interop.esante.gouv.fr/terminologies">https://interop.esante.gouv.fr/terminologies</a> (<a href="https://interop.esante.gouv.fr/terminologies/history.html">history</a>))</p>
+ <p>Generated Sat Jan 18 06:01:16 UTC 2025, FHIR version 4.0.1 for ans.fr.terminologies#0.1.0 (canonical = <a href="https://interop.esante.gouv.fr/terminologies">https://interop.esante.gouv.fr/terminologies</a> (<a href="https://interop.esante.gouv.fr/terminologies/history.html">history</a>))</p>
 <p>This page provides a report on which terminology servers were used while publishing this IG. Note that terminology caching reduces the server hit count - this page only reports content that wasn't cached</p>
 <h2>Terminology Parameters</h2>
 <ul>
@@ -13868,11 +13868,11 @@
     <td>[auth = https://smt.esante.gouv.fr/fhir, candidates=, auth = , candidates=]</td>
   </tr>
   <tr>
-    <td>System not handled by any servers. Using primary server</td>
+    <td>Found candidate server http://tx.fhir.org/r4</td>
     <td>http://tx.fhir.org/r4</td>
     <td></td>
     <td>http://terminology.hl7.org/CodeSystem/icd10</td>
-    <td>auth = , candidates=</td>
+    <td>auth = , candidates=http://tx.fhir.org/r4</td>
   </tr>
   <tr>
     <td>Systems handled by multiple servers. Using primary server</td>
@@ -17618,6 +17618,25 @@
     <td></td>
     <td>urn:iso:std:iso:3166:-2</td>
     <td>auth = , candidates=http://tx.fhir.org/r4</td>
+  </tr>
+</table>
+<p>
+  <b>Errors</b>
+</p>
+<table class="grid">
+  <tr>
+    <td>
+      <b>URL</b>
+    </td>
+    <td>
+      <b>Message</b>
+    </td>
+  </tr>
+  <tr>
+    <td>http://terminology.hl7.org/CodeSystem/icd10</td>
+    <td style="background-color: #ffe3e3">
+      <span title="http://tx.fhir.org/tx-reg/resolve?fhirVersion=4.0&amp;url=http%3A%2F%2Fterminology.hl7.org%2FCodeSystem%2Ficd10&amp;usage=publication">Error resolving system http://terminology.hl7.org/CodeSystem/icd10: Connect timed out</span>
+    </td>
   </tr>
 </table>
 <h2>Primary Server: http://tx.fhir.org/r4</h2>
