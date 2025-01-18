@@ -10,7 +10,6 @@ Usage: #definition
 * version = "20240329120000"
 * name = "ASS_A33_AdministrativeGender_Sexe"
 * title = "ASS_A33_AdministrativeGender_Sexe"
-* description = "ASS_A33_AdministrativeGender_Sexe"
 * experimental = false
 * status = #active
 * date = "2024-03-29T12:00:00+01:00"
