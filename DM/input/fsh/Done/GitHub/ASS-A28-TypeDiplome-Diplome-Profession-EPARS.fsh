@@ -50,7 +50,7 @@ Usage: #definition
 * group.element[=].target.dependsOn.value = "94"
 * group.source = "https://mos.esante.gouv.fr/NOS/TRE_R14-TypeDiplome/FHIR/TRE-R14-TypeDiplome"
 * group.target = "https://mos.esante.gouv.fr/NOS/TRE_R54-DiplomeUniversiteInterUniversitaire/FHIR/TRE-R54-DiplomeUniversiteInterUniversitaire"
-* group.element[+].code = #AU
+* group.element[0].code = #AU
 * group.element[=].target.code = #DIP331
 * group.element[=].target.equivalence = #equivalent
 * group.element[=].target.dependsOn.property = "https://mos.esante.gouv.fr/NOS/JDV_J166-Profession-EPARS/FHIR/JDV-J166-Profession-EPARS"
