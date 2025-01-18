@@ -14,7 +14,7 @@ Usage: #definition
 * status = #active
 * date = "2024-04-26T12:00:00+01:00"
 * description = "Correspondance entre types et classes de documents CI-SIS"
-* sourceUri = "https://mos.esante.gouv.fr/NOS/JDV_J07-XdsTypeCode-CISIS/FHIR/JDV-J07-XdsTypeCode-CISIS"
+// * sourceUri = "https://mos.esante.gouv.fr/NOS/JDV_J07-XdsTypeCode-CISIS/FHIR/JDV-J07-XdsTypeCode-CISIS"
 * targetUri = "https://mos.esante.gouv.fr/NOS/JDV_J06-XdsClassCode-CISIS/FHIR/JDV-J06-XdsClassCode-CISIS"
 * group[0].source = "http://loinc.org"
 * group[=].target = "https://mos.esante.gouv.fr/NOS/TRE_A03-ClasseDocument/FHIR/TRE-A03-ClasseDocument"
