@@ -138,7 +138,7 @@
     "type" : "ConceptMap",
     "url" : "https://mos.esante.gouv.fr/NOS/ASS_A29-Département-AE/FHIR/ASS-A29-Département-AE",
     "version" : "20240126120000",
-    "name" : "ASS_A29_Département_AE"
+    "name" : "ASS_A29_Departement_AE"
   },
   {
     "id" : "ASS-A30-TypeAutorisation-Profession-EPARS",

@@ -26397,7 +26397,7 @@
          fhir:link <https://interop.esante.gouv.fr/terminologies/ConceptMap/ASS-A29-Departement-AE> ;
          fhir:reference [ fhir:v "ConceptMap/ASS-A29-Departement-AE" ]
        ] ;
-       fhir:name [ fhir:v "ASS_A29_Département_AE" ] ;
+       fhir:name [ fhir:v "ASS_A29_Departement_AE" ] ;
        fhir:description [ fhir:v "Table d'association Département- AE responsable pour détermination de l'autorité d'enregistrement" ] ;
        fhir:example [ fhir:v "false"^^xsd:boolean ]
      ] [

@@ -23460,7 +23460,7 @@
       <reference>
         <reference value="ConceptMap/ASS-A29-Departement-AE"/>
       </reference>
-      <name value="ASS_A29_Département_AE"/>
+      <name value="ASS_A29_Departement_AE"/>
       <description value="Table d'association Département- AE responsable pour détermination de l'autorité d'enregistrement"/>
       <exampleBoolean value="false"/>
     </resource>

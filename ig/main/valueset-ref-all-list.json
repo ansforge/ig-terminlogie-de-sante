@@ -1216,7 +1216,7 @@
       "sources" : ["1.2.250.1.213.1.6.1.231"],
       "uses" : {
       },
-      "ConceptMap-ASS-A29-Departement-AE.html" : "ASS_A29_Département_AE"
+      "ConceptMap-ASS-A29-Departement-AE.html" : "ASS_A29_Departement_AE"
     },
     {
       "url" : "https://mos.esante.gouv.fr/NOS/JDV_J171-TypeAutorisation-EPARS/FHIR/JDV-J171-TypeAutorisation-EPARS",
@@ -2415,7 +2415,7 @@
       "sources" : ["1.2.250.1.213.1.1.5.764"],
       "uses" : {
       },
-      "ConceptMap-ASS-A29-Departement-AE.html" : "ASS_A29_Département_AE"
+      "ConceptMap-ASS-A29-Departement-AE.html" : "ASS_A29_Departement_AE"
     },
     {
       "url" : "https://mos.esante.gouv.fr/NOS/JDV_J259-ModeFixationTarifaire-RASS/FHIR/JDV-J259-ModeFixationTarifaire-RASS",
@@ -14261,8 +14261,8 @@
       "systems" : ["https://smt.esante.gouv.fr/terminologie-bdpm"],
       "uses" : {
       },
-      "ConceptMap-alignement-bdpm-cipucd.html" : "Aligner les codes de présentation de la BDPM avec les codes CIP du référentiel CIP-UCD",
-      "ConceptMap-alignement-nuva-bdpm.html" : "Aligner les codes CIS et CIP de NUVA avec les codes CIS et CIP du BDPM"
+      "ConceptMap-alignement-nuva-bdpm.html" : "Aligner les codes CIS et CIP de NUVA avec les codes CIS et CIP du BDPM",
+      "ConceptMap-alignement-bdpm-cipucd.html" : "Aligner les codes de présentation de la BDPM avec les codes CIP du référentiel CIP-UCD"
     },
     {
       "url" : "https://smt.esante.gouv.fr/terminologie-cip_ucd?vs",
