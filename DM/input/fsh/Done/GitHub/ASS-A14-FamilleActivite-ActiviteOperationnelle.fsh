@@ -100,7 +100,7 @@ Usage: #definition
 * group.element[+].code = #2.3.3.1
 * group.element[=].target.code = #301
 * group.element[=].target.equivalence = #equivalent
-* group.element[+].code = #	2.3.3.2
+* group.element[+].code = #2.3.3.2
 * group.element[=].target.code = #302
 * group.element[=].target.equivalence = #equivalent
 * group.element[+].code = #2.3.3.3
