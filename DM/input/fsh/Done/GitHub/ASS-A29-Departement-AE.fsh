@@ -8,8 +8,8 @@ Usage: #definition
 * url = "https://mos.esante.gouv.fr/NOS/ASS_A29-Département-AE/FHIR/ASS-A29-Département-AE"
 * identifier.value = "urn:oid:1.2.250.1.213.1.6.1.242"
 * version = "20240126120000"
-* name = "ASS_A29_Département_AE"
-* title = "ASS_A29_Département_AE"
+* name = "ASS_A29_Departement_AE"
+* title = "ASS_A29_Departement_AE"
 * experimental = false
 * status = #active
 * date = "2024-01-26T12:00:00+01:00"
