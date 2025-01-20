@@ -2,11 +2,11 @@
 <RetrieveValueSetResponse xmlns="urn:ihe:iti:svs:2008"
                           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
    <ValueSet dateFin=""
-             dateMaj="20241011000000"
+             dateMaj="20250110000000"
              dateValid=""
              description=""
              displayName="NABM"
-             id="1.2.250.1.215.300.2"
+             id=""
              typeFichier="TRE"
              urlFichier="">
       <ConceptList/>

@@ -11,7 +11,7 @@
   <title value="ASS_X15_AgregatDisciplineEnseignement"/>
   <status value="active"/>
   <experimental value="false"/>
-  <date value="2025-01-10T09:39:42+00:00"/>
+  <date value="2025-01-20T10:44:30+00:00"/>
   <publisher value="ANS"/>
   <contact>
     <name value="ANS"/>
@@ -20,6 +20,7 @@
       <value value="https://esante.gouv.fr"/>
     </telecom>
   </contact>
+  <description value="ASS_X15_AgregatDisciplineEnseignement"/>
   <jurisdiction>
     <coding>
       <system value="urn:iso:std:iso:3166"/>

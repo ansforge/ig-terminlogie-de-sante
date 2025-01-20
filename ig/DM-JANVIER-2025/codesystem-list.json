@@ -379,10 +379,10 @@
       "oids" : ["1.2.250.1.213.1.6.1.11"]
     },
     {
-      "url" : "https://mos.esante.gouv.fr/NOS/TRE_R13-Commune/FHIR/TRE-R13-Commune",
-      "version" : "20231030120000",
+      "url" : "https://mos.esante.gouv.fr/NOS/TRE_R13-CommuneOM/FHIR/TRE-R13-CommuneOM",
+      "version" : "20240628120000",
       "status" : "active",
-      "name" : "TRE_R13_Commune",
+      "name" : "TRE_R13_CommuneOM",
       "title" : null,
       "description" : null,
       "oids" : ["1.2.250.1.213.2.23"]
@@ -2261,11 +2261,11 @@
     },
     {
       "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/1.2.250.1.213.1.1.4.322",
-      "version" : "202412180000",
+      "version" : "202501130000",
       "status" : "active",
       "name" : "TA_ASIP",
       "title" : null,
-      "description" : "TA_ASIP",
+      "description" : "TA_ASIP Version 1.98",
       "oids" : ["1.2.250.1.213.1.1.4.322"]
     },
     {
@@ -2355,12 +2355,11 @@
     },
     {
       "url" : "https://smt.esante.gouv.fr/terminologie-nabm",
-      "version" : "V93",
+      "version" : "V94",
       "status" : "active",
       "name" : "NABM",
       "title" : "Nomenclature des actes de biologie médicale",
-      "description" : null,
-      "oids" : ["1.2.250.1.215.300.2"]
+      "description" : null
     },
     {
       "url" : "https://smt.esante.gouv.fr/terminologie-nuva",
@@ -2372,7 +2371,7 @@
     },
     {
       "url" : "https://smt.esante.gouv.fr/terminologie-sms",
-      "version" : "2024-12",
+      "version" : "2025-01",
       "status" : "active",
       "name" : "Dictionnaire_des_substances_m_dicamenteuses__SMS_",
       "title" : null,

@@ -3,7 +3,7 @@
 <ConceptMap xmlns="http://hl7.org/fhir">
   <id value="ASS-X13-AgregatClientele"/>
   <text>
-    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: ConceptMap ASS-X13-AgregatClientele</b></p><a name="ASS-X13-AgregatClientele"> </a><a name="hcASS-X13-AgregatClientele"> </a><a name="ASS-X13-AgregatClientele-fr-FR"> </a><p>Mapping from (not specified) to (not specified)</p><br/><p><b>Group 1 </b>Mapping from <a href="CodeSystem-TRE-R293-AgregatClienteleNiv2.html">TRE_R293_AgregatClienteleNiv2</a> to <a href="CodeSystem-TRE-R294-AgregatClienteleNiv3.html">TRE_R294_AgregatClienteleNiv3</a></p><table class="grid"><tr><td colspan="3"><b>Source Concept Details</b></td><td><b>Relationship</b></td><td colspan="2"><b>Target Concept Details</b></td><td colspan="2"><b>Properties</b></td></tr><tr><td colspan="2"><b>Codes</b> from <a href="CodeSystem-TRE-R293-AgregatClienteleNiv2.html" title="https://mos.esante.gouv.fr/NOS/TRE_R293-AgregatClienteleNiv2/FHIR/TRE-R293-AgregatClienteleNiv2">TRE_R293_AgregatClienteleNiv2</a></td><td><b>TRER279Clientele</b></td><td/><td colspan="2"><b>Codes</b> from <a href="CodeSystem-TRE-R294-AgregatClienteleNiv3.html" title="https://mos.esante.gouv.fr/NOS/TRE_R294-AgregatClienteleNiv3/FHIR/TRE-R294-AgregatClienteleNiv3">TRE_R294_AgregatClienteleNiv3</a></td></tr><tr><td style="border-right-width: 0px">1000</td><td style="border-left-width: 0px">Personnes Handicapées</td><td>010</td><td><a href="http://hl7.org/fhir/extensions/5.1.0/CodeSystem-concept-map-equivalence.html#narrower" title="narrower">narrower</a></td><td style="border-right-width: 0px">1100</td><td style="border-left-width: 0px"></td></tr><tr><td style="border-right-width: 0px">1000</td><td style="border-left-width: 0px">Personnes Handicapées</td><td>011</td><td><a href="http://hl7.org/fhir/extensions/5.1.0/CodeSystem-concept-map-equivalence.html#narrower" title="narrower">narrower</a></td><td style="border-right-width: 0px">1100</td><td style="border-left-width: 0px"></td></tr><tr><td style="border-right-width: 0px">1000</td><td style="border-left-width: 0px">Personnes Handicapées</td><td>020</td><td><a href="http://hl7.org/fhir/extensions/5.1.0/CodeSystem-concept-map-equivalence.html#narrower" title="narrower">narrower</a></td><td style="border-right-width: 0px">1100</td><td style="border-left-width: 0px"></td></tr><tr><td style="border-right-width: 0px">1000</td><td style="border-left-width: 0px">Personnes Handicapées</td><td>030</td><td><a href="http://hl7.org/fhir/extensions/5.1.0/CodeSystem-concept-map-equivalence.html#narrower" title="narrower">narrower</a></td><td style="border-right-width: 0px">1100</td><td style="border-left-width: 0px"></td></tr><tr><td style="border-right-width: 0px">1000</td><td style="border-left-width: 0px">Personnes Handicapées</td><td>437</td><td><a href="http://hl7.org/fhir/extensions/5.1.0/CodeSystem-concept-map-equivalence.html#narrower" title="narrower">narrower</a></td><td style="border-right-width: 0px">1100</td><td style="border-left-width: 0px"></td></tr><tr><td style="border-right-width: 0px">1000</td><td style="border-left-width: 0px">Personnes Handicapées</td><td>438</td><td><a href="http://hl7.org/fhir/extensions/5.1.0/CodeSystem-concept-map-equivalence.html#narrower" title="narrower">narrower</a></td><td style="border-right-width: 0px">1100</td><td style="border-left-width: 0px"></td></tr><tr><td style="border-right-width: 0px">1000</td><td style="border-left-width: 0px">Personnes Handicapées</td><td>441</td><td><a href="http://hl7.org/fhir/extensions/5.1.0/CodeSystem-concept-map-equivalence.html#narrower" title="narrower">narrower</a></td><td style="border-right-width: 0px">1100</td><td style="border-left-width: 0px"></td></tr><tr><td style="border-right-width: 0px">1000</td><td style="border-left-width: 0px">Personnes Handicapées</td><td>999</td><td><a href="http://hl7.org/fhir/extensions/5.1.0/CodeSystem-concept-map-equivalence.html#narrower" title="narrower">narrower</a></td><td style="border-right-width: 0px">1100</td><td style="border-left-width: 0px"></td></tr><tr><td style="border-right-width: 0px">1000</td><td style="border-left-width: 0px">Personnes Handicapées</td><td>110</td><td><a href="http://hl7.org/fhir/extensions/5.1.0/CodeSystem-concept-map-equivalence.html#narrower" title="narrower">narrower</a></td><td style="border-right-width: 0px">1200</td><td style="border-left-width: 0px"></td></tr><tr><td style="border-right-width: 0px">1000</td><td style="border-left-width: 0px">Personnes Handicapées</td><td>111</td><td><a href="http://hl7.org/fhir/extensions/5.1.0/CodeSystem-concept-map-equivalence.html#narrower" title="narrower">narrower</a></td><td style="border-right-width: 0px">1200</td><td style="border-left-width: 0px"></td></tr><tr><td style="border-right-width: 0px">1000</td><td style="border-left-width: 0px">Personnes Handicapées</td><td>112</td><td><a href="http://hl7.org/fhir/extensions/5.1.0/CodeSystem-concept-map-equivalence.html#narrower" title="narrower">narrower</a></td><td style="border-right-width: 0px">1200</td><td style="border-left-width: 0px"></td></tr><tr><td style="border-right-width: 0px">1000</td><td style="border-left-width: 0px">Personnes Handicapées</td><td>113</td><td><a href="http://hl7.org/fhir/extensions/5.1.0/CodeSystem-concept-map-equivalence.html#narrower" title="narrower">narrower</a></td><td style="border-right-width: 0px">1200</td><td style="border-left-width: 0px"></td></tr><tr><td style="border-right-width: 0px">1000</td><td style="border-left-width: 0px">Personnes Handicapées</td><td>114</td><td><a href="http://hl7.org/fhir/extensions/5.1.0/CodeSystem-concept-map-equivalence.html#narrower" title="narrower">narrower</a></td><td style="border-right-width: 0px">1200</td><td style="border-left-width: 0px"></td></tr><tr><td style="border-right-width: 0px">1000</td><td style="border-left-width: 0px">Personnes Handicapées</td><td>115</td><td><a href="http://hl7.org/fhir/extensions/5.1.0/CodeSystem-concept-map-equivalence.html#narrower" title="narrower">narrower</a></td><td style="border-right-width: 0px">1200</td><td style="border-left-width: 0px"></td></tr><tr><td style="border-right-width: 0px">1000</td><td style="border-left-width: 0px">Personnes Handicapées</td><td>116</td><td><a href="http://hl7.org/fhir/extensions/5.1.0/CodeSystem-concept-map-equivalence.html#narrower" title="narrower">narrower</a></td><td style="border-right-width: 0px">1200</td><td style="border-left-width: 0px"></td></tr><tr><td style="border-right-width: 0px">1000</td><td style="border-left-width: 0px">Personnes Handicapées</td><td>117</td><td><a href="http://hl7.org/fhir/extensions/5.1.0/CodeSystem-concept-map-equivalence.html#narrower" title="narrower">narrower</a></td><td style="border-right-width: 0px">1200</td><td style="border-left-width: 0px"></td></tr><tr><td style="border-right-width: 0px">1000</td><td style="border-left-width: 0px">Personnes Handicapées</td><td>118</td><td><a href="http://hl7.org/fhir/extensions/5.1.0/CodeSystem-concept-map-equivalence.html#narrower" title="narrower">narrower</a></td><td style="border-right-width: 0px">1200</td><td style="border-left-width: 0px"></td></tr><tr><td style="border-right-width: 0px">1000</td><td style="border-left-width: 0px">Personnes Handicapées</td><td>120</td><td><a href="http://hl7.org/fhir/extensions/5.1.0/CodeSystem-concept-map-equivalence.html#narrower" title="narrower">narrower</a></td><td style="border-right-width: 0px">1200</td><td style="border-left-width: 0px"></td></tr><tr><td style="border-right-width: 0px">1000</td><td style="border-left-width: 0px">Personnes Handicapées</td><td>121</td><td><a href="http://hl7.org/fhir/extensions/5.1.0/CodeSystem-concept-map-equivalence.html#narrower" title="narrower">narrower</a></td><td style="border-right-width: 0px">1200</td><td style="border-left-width: 0px"></td></tr><tr><td style="border-right-width: 0px">1000</td><td style="border-left-width: 0px">Personnes Handicapées</td><td>125</td><td><a href="http://hl7.org/fhir/extensions/5.1.0/CodeSystem-concept-map-equivalence.html#narrower" title="narrower">narrower</a></td><td style="border-right-width: 0px">1200</td><td style="border-left-width: 0px"></td></tr><tr><td style="border-right-width: 0px">1000</td><td style="border-left-width: 0px">Personnes Handicapées</td><td>128</td><td><a href="http://hl7.org/fhir/extensions/5.1.0/CodeSystem-concept-map-equivalence.html#narrower" title="narrower">narrower</a></td><td style="border-right-width: 0px">1200</td><td style="border-left-width: 0px"></td></tr><tr><td style="border-right-width: 0px">1000</td><td style="border-left-width: 0px">Personnes Handicapées</td><td>200</td><td><a href="http://hl7.org/fhir/extensions/5.1.0/CodeSystem-concept-map-equivalence.html#narrower" title="narrower">narrower</a></td><td style="border-right-width: 0px">1300</td><td style="border-left-width: 0px"></td></tr><tr><td style="border-right-width: 0px">1000</td><td style="border-left-width: 0px">Personnes Handicapées</td><td>201</td><td><a href="http://hl7.org/fhir/extensions/5.1.0/CodeSystem-concept-map-equivalence.html#narrower" title="narrower">narrower</a></td><td style="border-right-width: 0px">1300</td><td style="border-left-width: 0px"></td></tr><tr><td style="border-right-width: 0px">1000</td><td style="border-left-width: 0px">Personnes Handicapées</td><td>202</td><td><a href="http://hl7.org/fhir/extensions/5.1.0/CodeSystem-concept-map-equivalence.html#narrower" title="narrower">narrower</a></td><td style="border-right-width: 0px">1300</td><td style="border-left-width: 0px"></td></tr><tr><td style="border-right-width: 0px">1000</td><td style="border-left-width: 0px">Personnes Handicapées</td><td>203</td><td><a href="http://hl7.org/fhir/extensions/5.1.0/CodeSystem-concept-map-equivalence.html#narrower" title="narrower">narrower</a></td><td style="border-right-width: 0px">1300</td><td style="border-left-width: 0px"></td></tr><tr><td style="border-right-width: 0px">1000</td><td style="border-left-width: 0px">Personnes Handicapées</td><td>204</td><td><a href="http://hl7.org/fhir/extensions/5.1.0/CodeSystem-concept-map-equivalence.html#narrower" title="narrower">narrower</a></td><td style="border-right-width: 0px">1300</td><td style="border-left-width: 0px"></td></tr><tr><td style="border-right-width: 0px">1000</td><td style="border-left-width: 0px">Personnes Handicapées</td><td>205</td><td><a href="http://hl7.org/fhir/extensions/5.1.0/CodeSystem-concept-map-equivalence.html#narrower" title="narrower">narrower</a></td><td style="border-right-width: 0px">1300</td><td style="border-left-width: 0px"></td></tr><tr><td style="border-right-width: 0px">1000</td><td style="border-left-width: 0px">Personnes Handicapées</td><td>206</td><td><a href="http://hl7.org/fhir/extensions/5.1.0/CodeSystem-concept-map-equivalence.html#narrower" title="narrower">narrower</a></td><td style="border-right-width: 0px">1300</td><td style="border-left-width: 0px"></td></tr><tr><td style="border-right-width: 0px">1000</td><td style="border-left-width: 0px">Personnes Handicapées</td><td>207</td><td><a href="http://hl7.org/fhir/extensions/5.1.0/CodeSystem-concept-map-equivalence.html#narrower" title="narrower">narrower</a></td><td style="border-right-width: 0px">1300</td><td style="border-left-width: 0px"></td></tr><tr><td style="border-right-width: 0px">1000</td><td style="border-left-width: 0px">Personnes Handicapées</td><td>410</td><td><a href="http://hl7.org/fhir/extensions/5.1.0/CodeSystem-concept-map-equivalence.html#narrower" title="narrower">narrower</a></td><td style="border-right-width: 0px">1500</td><td style="border-left-width: 0px"></td></tr><tr><td style="border-right-width: 0px">1000</td><td style="border-left-width: 0px">Personnes Handicapées</td><td>411</td><td><a href="http://hl7.org/fhir/extensions/5.1.0/CodeSystem-concept-map-equivalence.html#narrower" title="narrower">narrower</a></td><td style="border-right-width: 0px">1500</td><td style="border-left-width: 0px"></td></tr><tr><td style="border-right-width: 0px">1000</td><td style="border-left-width: 0px">Personnes Handicapées</td><td>412</td><td><a href="http://hl7.org/fhir/extensions/5.1.0/CodeSystem-concept-map-equivalence.html#narrower" title="narrower">narrower</a></td><td style="border-right-width: 0px">1500</td><td style="border-left-width: 0px"></td></tr><tr><td style="border-right-width: 0px">1000</td><td style="border-left-width: 0px">Personnes Handicapées</td><td>413</td><td><a href="http://hl7.org/fhir/extensions/5.1.0/CodeSystem-concept-map-equivalence.html#narrower" title="narrower">narrower</a></td><td style="border-right-width: 0px">1500</td><td style="border-left-width: 0px"></td></tr><tr><td style="border-right-width: 0px">1000</td><td style="border-left-width: 0px">Personnes Handicapées</td><td>414</td><td><a href="http://hl7.org/fhir/extensions/5.1.0/CodeSystem-concept-map-equivalence.html#narrower" title="narrower">narrower</a></td><td style="border-right-width: 0px">1500</td><td style="border-left-width: 0px"></td></tr><tr><td style="border-right-width: 0px">1000</td><td style="border-left-width: 0px">Personnes Handicapées</td><td>420</td><td><a href="http://hl7.org/fhir/extensions/5.1.0/CodeSystem-concept-map-equivalence.html#narrower" title="narrower">narrower</a></td><td style="border-right-width: 0px">1500</td><td style="border-left-width: 0px"></td></tr><tr><td style="border-right-width: 0px">1000</td><td style="border-left-width: 0px">Personnes Handicapées</td><td>500</td><td><a href="http://hl7.org/fhir/extensions/5.1.0/CodeSystem-concept-map-equivalence.html#narrower" title="narrower">narrower</a></td><td style="border-right-width: 0px">1600</td><td style="border-left-width: 0px"></td></tr><tr><td style="border-right-width: 0px">1000</td><td style="border-left-width: 0px">Personnes Handicapées</td><td>501</td><td><a href="http://hl7.org/fhir/extensions/5.1.0/CodeSystem-concept-map-equivalence.html#narrower" title="narrower">narrower</a></td><td style="border-right-width: 0px">1600</td><td style="border-left-width: 0px"></td></tr><tr><td style="border-right-width: 0px">1000</td><td style="border-left-width: 0px">Personnes Handicapées</td><td>502</td><td><a href="http://hl7.org/fhir/extensions/5.1.0/CodeSystem-concept-map-equivalence.html#narrower" title="narrower">narrower</a></td><td style="border-right-width: 0px">1600</td><td style="border-left-width: 0px"></td></tr><tr><td style="border-right-width: 0px">1000</td><td style="border-left-width: 0px">Personnes Handicapées</td><td>503</td><td><a href="http://hl7.org/fhir/extensions/5.1.0/CodeSystem-concept-map-equivalence.html#narrower" title="narrower">narrower</a></td><td style="border-right-width: 0px">1600</td><td style="border-left-width: 0px"></td></tr><tr><td style="border-right-width: 0px">1000</td><td style="border-left-width: 0px">Personnes Handicapées</td><td>506</td><td><a href="http://hl7.org/fhir/extensions/5.1.0/CodeSystem-concept-map-equivalence.html#narrower" title="narrower">narrower</a></td><td style="border-right-width: 0px">1600</td><td style="border-left-width: 0px"></td></tr><tr><td style="border-right-width: 0px">1000</td><td style="border-left-width: 0px">Personnes Handicapées</td><td>310</td><td><a href="http://hl7.org/fhir/extensions/5.1.0/CodeSystem-concept-map-equivalence.html#narrower" title="narrower">narrower</a></td><td style="border-right-width: 0px">1700</td><td style="border-left-width: 0px"></td></tr><tr><td style="border-right-width: 0px">1000</td><td style="border-left-width: 0px">Personnes Handicapées</td><td>311</td><td><a href="http://hl7.org/fhir/extensions/5.1.0/CodeSystem-concept-map-equivalence.html#narrower" title="narrower">narrower</a></td><td style="border-right-width: 0px">1700</td><td style="border-left-width: 0px"></td></tr><tr><td style="border-right-width: 0px">1000</td><td style="border-left-width: 0px">Personnes Handicapées</td><td>312</td><td><a href="http://hl7.org/fhir/extensions/5.1.0/CodeSystem-concept-map-equivalence.html#narrower" title="narrower">narrower</a></td><td style="border-right-width: 0px">1700</td><td style="border-left-width: 0px"></td></tr><tr><td style="border-right-width: 0px">1000</td><td style="border-left-width: 0px">Personnes Handicapées</td><td>313</td><td><a href="http://hl7.org/fhir/extensions/5.1.0/CodeSystem-concept-map-equivalence.html#narrower" title="narrower">narrower</a></td><td style="border-right-width: 0px">1700</td><td style="border-left-width: 0px"></td></tr><tr><td style="border-right-width: 0px">1000</td><td style="border-left-width: 0px">Personnes Handicapées</td><td>317</td><td><a href="http://hl7.org/fhir/extensions/5.1.0/CodeSystem-concept-map-equivalence.html#narrower" title="narrower">narrower</a></td><td style="border-right-width: 0px">1700</td><td style="border-left-width: 0px"></td></tr><tr><td style="border-right-width: 0px">1000</td><td style="border-left-width: 0px">Personnes Handicapées</td><td>318</td><td><a href="http://hl7.org/fhir/extensions/5.1.0/CodeSystem-concept-map-equivalence.html#narrower" title="narrower">narrower</a></td><td style="border-right-width: 0px">1700</td><td style="border-left-width: 0px"></td></tr><tr><td style="border-right-width: 0px">1000</td><td style="border-left-width: 0px">Personnes Handicapées</td><td>320</td><td><a href="http://hl7.org/fhir/extensions/5.1.0/CodeSystem-concept-map-equivalence.html#narrower" title="narrower">narrower</a></td><td style="border-right-width: 0px">1800</td><td style="border-left-width: 0px"></td></tr><tr><td style="border-right-width: 0px">1000</td><td style="border-left-width: 0px">Personnes Handicapées</td><td>321</td><td><a href="http://hl7.org/fhir/extensions/5.1.0/CodeSystem-concept-map-equivalence.html#narrower" title="narrower">narrower</a></td><td style="border-right-width: 0px">1800</td><td style="border-left-width: 0px"></td></tr><tr><td style="border-right-width: 0px">1000</td><td style="border-left-width: 0px">Personnes Handicapées</td><td>322</td><td><a href="http://hl7.org/fhir/extensions/5.1.0/CodeSystem-concept-map-equivalence.html#narrower" title="narrower">narrower</a></td><td style="border-right-width: 0px">1800</td><td style="border-left-width: 0px"></td></tr><tr><td style="border-right-width: 0px">1000</td><td style="border-left-width: 0px">Personnes Handicapées</td><td>323</td><td><a href="http://hl7.org/fhir/extensions/5.1.0/CodeSystem-concept-map-equivalence.html#narrower" title="narrower">narrower</a></td><td style="border-right-width: 0px">1800</td><td style="border-left-width: 0px"></td></tr><tr><td style="border-right-width: 0px">1000</td><td style="border-left-width: 0px">Personnes Handicapées</td><td>324</td><td><a href="http://hl7.org/fhir/extensions/5.1.0/CodeSystem-concept-map-equivalence.html#narrower" title="narrower">narrower</a></td><td style="border-right-width: 0px">1800</td><td style="border-left-width: 0px"></td></tr><tr><td style="border-right-width: 0px">1000</td><td style="border-left-width: 0px">Personnes Handicapées</td><td>327</td><td><a href="http://hl7.org/fhir/extensions/5.1.0/CodeSystem-concept-map-equivalence.html#narrower" title="narrower">narrower</a></td><td style="border-right-width: 0px">1800</td><td style="border-left-width: 0px"></td></tr><tr><td style="border-right-width: 0px">1000</td><td style="border-left-width: 0px">Personnes Handicapées</td><td>510</td><td><a href="http://hl7.org/fhir/extensions/5.1.0/CodeSystem-concept-map-equivalence.html#narrower" title="narrower">narrower</a></td><td style="border-right-width: 0px">1900</td><td style="border-left-width: 0px"></td></tr><tr><td style="border-right-width: 0px">1000</td><td style="border-left-width: 0px">Personnes Handicapées</td><td>511</td><td><a href="http://hl7.org/fhir/extensions/5.1.0/CodeSystem-concept-map-equivalence.html#narrower" title="narrower">narrower</a></td><td style="border-right-width: 0px">1900</td><td style="border-left-width: 0px"></td></tr><tr><td style="border-right-width: 0px">1000</td><td style="border-left-width: 0px">Personnes Handicapées</td><td>512</td><td><a href="http://hl7.org/fhir/extensions/5.1.0/CodeSystem-concept-map-equivalence.html#narrower" title="narrower">narrower</a></td><td style="border-right-width: 0px">1900</td><td style="border-left-width: 0px"></td></tr><tr><td style="border-right-width: 0px">2000</td><td style="border-left-width: 0px">Personnes Agées</td><td>700</td><td><a href="http://hl7.org/fhir/extensions/5.1.0/CodeSystem-concept-map-equivalence.html#narrower" title="narrower">narrower</a></td><td style="border-right-width: 0px">2100</td><td style="border-left-width: 0px"></td></tr><tr><td style="border-right-width: 0px">2000</td><td style="border-left-width: 0px">Personnes Agées</td><td>701</td><td><a href="http://hl7.org/fhir/extensions/5.1.0/CodeSystem-concept-map-equivalence.html#narrower" title="narrower">narrower</a></td><td style="border-right-width: 0px">2100</td><td style="border-left-width: 0px"></td></tr><tr><td style="border-right-width: 0px">2000</td><td style="border-left-width: 0px">Personnes Agées</td><td>702</td><td><a href="http://hl7.org/fhir/extensions/5.1.0/CodeSystem-concept-map-equivalence.html#narrower" title="narrower">narrower</a></td><td style="border-right-width: 0px">2100</td><td style="border-left-width: 0px"></td></tr><tr><td style="border-right-width: 0px">2000</td><td style="border-left-width: 0px">Personnes Agées</td><td>703</td><td><a href="http://hl7.org/fhir/extensions/5.1.0/CodeSystem-concept-map-equivalence.html#narrower" title="narrower">narrower</a></td><td style="border-right-width: 0px">2100</td><td style="border-left-width: 0px"></td></tr><tr><td style="border-right-width: 0px">2000</td><td style="border-left-width: 0px">Personnes Agées</td><td>704</td><td><a href="http://hl7.org/fhir/extensions/5.1.0/CodeSystem-concept-map-equivalence.html#narrower" title="narrower">narrower</a></td><td style="border-right-width: 0px">2100</td><td style="border-left-width: 0px"></td></tr><tr><td style="border-right-width: 0px">2000</td><td style="border-left-width: 0px">Personnes Agées</td><td>707</td><td><a href="http://hl7.org/fhir/extensions/5.1.0/CodeSystem-concept-map-equivalence.html#narrower" title="narrower">narrower</a></td><td style="border-right-width: 0px">2100</td><td style="border-left-width: 0px"></td></tr><tr><td style="border-right-width: 0px">2000</td><td style="border-left-width: 0px">Personnes Agées</td><td>710</td><td><a href="http://hl7.org/fhir/extensions/5.1.0/CodeSystem-concept-map-equivalence.html#narrower" title="narrower">narrower</a></td><td style="border-right-width: 0px">2100</td><td style="border-left-width: 0px"></td></tr><tr><td style="border-right-width: 0px">2000</td><td style="border-left-width: 0px">Personnes Agées</td><td>711</td><td><a href="http://hl7.org/fhir/extensions/5.1.0/CodeSystem-concept-map-equivalence.html#narrower" title="narrower">narrower</a></td><td style="border-right-width: 0px">2100</td><td style="border-left-width: 0px"></td></tr><tr><td style="border-right-width: 0px">3000</td><td style="border-left-width: 0px">Enfants et Adolescents (Aide Soc Just)</td><td>800</td><td><a href="http://hl7.org/fhir/extensions/5.1.0/CodeSystem-concept-map-equivalence.html#narrower" title="narrower">narrower</a></td><td style="border-right-width: 0px">3100</td><td style="border-left-width: 0px"></td></tr><tr><td style="border-right-width: 0px">3000</td><td style="border-left-width: 0px">Enfants et Adolescents (Aide Soc Just)</td><td>801</td><td><a href="http://hl7.org/fhir/extensions/5.1.0/CodeSystem-concept-map-equivalence.html#narrower" title="narrower">narrower</a></td><td style="border-right-width: 0px">3100</td><td style="border-left-width: 0px"></td></tr><tr><td style="border-right-width: 0px">3000</td><td style="border-left-width: 0px">Enfants et Adolescents (Aide Soc Just)</td><td>802</td><td><a href="http://hl7.org/fhir/extensions/5.1.0/CodeSystem-concept-map-equivalence.html#narrower" title="narrower">narrower</a></td><td style="border-right-width: 0px">3100</td><td style="border-left-width: 0px"></td></tr><tr><td style="border-right-width: 0px">3000</td><td style="border-left-width: 0px">Enfants et Adolescents (Aide Soc Just)</td><td>803</td><td><a href="http://hl7.org/fhir/extensions/5.1.0/CodeSystem-concept-map-equivalence.html#narrower" title="narrower">narrower</a></td><td style="border-right-width: 0px">3100</td><td style="border-left-width: 0px"></td></tr><tr><td style="border-right-width: 0px">3000</td><td style="border-left-width: 0px">Enfants et Adolescents (Aide Soc Just)</td><td>804</td><td><a href="http://hl7.org/fhir/extensions/5.1.0/CodeSystem-concept-map-equivalence.html#narrower" title="narrower">narrower</a></td><td style="border-right-width: 0px">3100</td><td style="border-left-width: 0px"></td></tr><tr><td style="border-right-width: 0px">3000</td><td style="border-left-width: 0px">Enfants et Adolescents (Aide Soc Just)</td><td>805</td><td><a href="http://hl7.org/fhir/extensions/5.1.0/CodeSystem-concept-map-equivalence.html#narrower" title="narrower">narrower</a></td><td style="border-right-width: 0px">3100</td><td style="border-left-width: 0px"></td></tr><tr><td style="border-right-width: 0px">3000</td><td style="border-left-width: 0px">Enfants et Adolescents (Aide Soc Just)</td><td>806</td><td><a href="http://hl7.org/fhir/extensions/5.1.0/CodeSystem-concept-map-equivalence.html#narrower" title="narrower">narrower</a></td><td style="border-right-width: 0px">3100</td><td style="border-left-width: 0px"></td></tr><tr><td style="border-right-width: 0px">4000</td><td style="border-left-width: 0px">Autres Enfants</td><td>808</td><td><a href="http://hl7.org/fhir/extensions/5.1.0/CodeSystem-concept-map-equivalence.html#narrower" title="narrower">narrower</a></td><td style="border-right-width: 0px">4100</td><td style="border-left-width: 0px"></td></tr><tr><td style="border-right-width: 0px">4000</td><td style="border-left-width: 0px">Autres Enfants</td><td>809</td><td><a href="http://hl7.org/fhir/extensions/5.1.0/CodeSystem-concept-map-equivalence.html#narrower" title="narrower">narrower</a></td><td style="border-right-width: 0px">4100</td><td style="border-left-width: 0px"></td></tr><tr><td style="border-right-width: 0px">5000</td><td style="border-left-width: 0px">Personnes et Familles en Difficulté</td><td>810</td><td><a href="http://hl7.org/fhir/extensions/5.1.0/CodeSystem-concept-map-equivalence.html#narrower" title="narrower">narrower</a></td><td style="border-right-width: 0px">5100</td><td style="border-left-width: 0px"></td></tr><tr><td style="border-right-width: 0px">5000</td><td style="border-left-width: 0px">Personnes et Familles en Difficulté</td><td>811</td><td><a href="http://hl7.org/fhir/extensions/5.1.0/CodeSystem-concept-map-equivalence.html#narrower" title="narrower">narrower</a></td><td style="border-right-width: 0px">5100</td><td style="border-left-width: 0px"></td></tr><tr><td style="border-right-width: 0px">5000</td><td style="border-left-width: 0px">Personnes et Familles en Difficulté</td><td>812</td><td><a href="http://hl7.org/fhir/extensions/5.1.0/CodeSystem-concept-map-equivalence.html#narrower" title="narrower">narrower</a></td><td style="border-right-width: 0px">5100</td><td style="border-left-width: 0px"></td></tr><tr><td style="border-right-width: 0px">5000</td><td style="border-left-width: 0px">Personnes et Familles en Difficulté</td><td>815</td><td><a href="http://hl7.org/fhir/extensions/5.1.0/CodeSystem-concept-map-equivalence.html#narrower" title="narrower">narrower</a></td><td style="border-right-width: 0px">5100</td><td style="border-left-width: 0px"></td></tr><tr><td style="border-right-width: 0px">5000</td><td style="border-left-width: 0px">Personnes et Familles en Difficulté</td><td>816</td><td><a href="http://hl7.org/fhir/extensions/5.1.0/CodeSystem-concept-map-equivalence.html#narrower" title="narrower">narrower</a></td><td style="border-right-width: 0px">5100</td><td style="border-left-width: 0px"></td></tr><tr><td style="border-right-width: 0px">5000</td><td style="border-left-width: 0px">Personnes et Familles en Difficulté</td><td>817</td><td><a href="http://hl7.org/fhir/extensions/5.1.0/CodeSystem-concept-map-equivalence.html#narrower" title="narrower">narrower</a></td><td style="border-right-width: 0px">5100</td><td style="border-left-width: 0px"></td></tr><tr><td style="border-right-width: 0px">5000</td><td style="border-left-width: 0px">Personnes et Familles en Difficulté</td><td>818</td><td><a href="http://hl7.org/fhir/extensions/5.1.0/CodeSystem-concept-map-equivalence.html#narrower" title="narrower">narrower</a></td><td style="border-right-width: 0px">5100</td><td style="border-left-width: 0px"></td></tr><tr><td style="border-right-width: 0px">5000</td><td style="border-left-width: 0px">Personnes et Familles en Difficulté</td><td>819</td><td><a href="http://hl7.org/fhir/extensions/5.1.0/CodeSystem-concept-map-equivalence.html#narrower" title="narrower">narrower</a></td><td style="border-right-width: 0px">5100</td><td style="border-left-width: 0px"></td></tr><tr><td style="border-right-width: 0px">5000</td><td style="border-left-width: 0px">Personnes et Familles en Difficulté</td><td>820</td><td><a href="http://hl7.org/fhir/extensions/5.1.0/CodeSystem-concept-map-equivalence.html#narrower" title="narrower">narrower</a></td><td style="border-right-width: 0px">5100</td><td style="border-left-width: 0px"></td></tr><tr><td style="border-right-width: 0px">5000</td><td style="border-left-width: 0px">Personnes et Familles en Difficulté</td><td>831</td><td><a href="http://hl7.org/fhir/extensions/5.1.0/CodeSystem-concept-map-equivalence.html#narrower" title="narrower">narrower</a></td><td style="border-right-width: 0px">5100</td><td style="border-left-width: 0px"></td></tr><tr><td style="border-right-width: 0px">5000</td><td style="border-left-width: 0px">Personnes et Familles en Difficulté</td><td>832</td><td><a href="http://hl7.org/fhir/extensions/5.1.0/CodeSystem-concept-map-equivalence.html#narrower" title="narrower">narrower</a></td><td style="border-right-width: 0px">5100</td><td style="border-left-width: 0px"></td></tr><tr><td style="border-right-width: 0px">5000</td><td style="border-left-width: 0px">Personnes et Familles en Difficulté</td><td>836</td><td><a href="http://hl7.org/fhir/extensions/5.1.0/CodeSystem-concept-map-equivalence.html#narrower" title="narrower">narrower</a></td><td style="border-right-width: 0px">5100</td><td style="border-left-width: 0px"></td></tr><tr><td style="border-right-width: 0px">5000</td><td style="border-left-width: 0px">Personnes et Familles en Difficulté</td><td>840</td><td><a href="http://hl7.org/fhir/extensions/5.1.0/CodeSystem-concept-map-equivalence.html#narrower" title="narrower">narrower</a></td><td style="border-right-width: 0px">5100</td><td style="border-left-width: 0px"></td></tr><tr><td style="border-right-width: 0px">5000</td><td style="border-left-width: 0px">Personnes et Familles en Difficulté</td><td>899</td><td><a href="http://hl7.org/fhir/extensions/5.1.0/CodeSystem-concept-map-equivalence.html#narrower" title="narrower">narrower</a></td><td style="border-right-width: 0px">5100</td><td style="border-left-width: 0px"></td></tr><tr><td style="border-right-width: 0px">5000</td><td style="border-left-width: 0px">Personnes et Familles en Difficulté</td><td>821</td><td><a href="http://hl7.org/fhir/extensions/5.1.0/CodeSystem-concept-map-equivalence.html#narrower" title="narrower">narrower</a></td><td style="border-right-width: 0px">5200</td><td style="border-left-width: 0px"></td></tr><tr><td style="border-right-width: 0px">5000</td><td style="border-left-width: 0px">Personnes et Familles en Difficulté</td><td>822</td><td><a href="http://hl7.org/fhir/extensions/5.1.0/CodeSystem-concept-map-equivalence.html#narrower" title="narrower">narrower</a></td><td style="border-right-width: 0px">5200</td><td style="border-left-width: 0px"></td></tr><tr><td style="border-right-width: 0px">5000</td><td style="border-left-width: 0px">Personnes et Familles en Difficulté</td><td>824</td><td><a href="http://hl7.org/fhir/extensions/5.1.0/CodeSystem-concept-map-equivalence.html#narrower" title="narrower">narrower</a></td><td style="border-right-width: 0px">5200</td><td style="border-left-width: 0px"></td></tr><tr><td style="border-right-width: 0px">5000</td><td style="border-left-width: 0px">Personnes et Familles en Difficulté</td><td>827</td><td><a href="http://hl7.org/fhir/extensions/5.1.0/CodeSystem-concept-map-equivalence.html#narrower" title="narrower">narrower</a></td><td style="border-right-width: 0px">5200</td><td style="border-left-width: 0px"></td></tr><tr><td style="border-right-width: 0px">5000</td><td style="border-left-width: 0px">Personnes et Familles en Difficulté</td><td>829</td><td><a href="http://hl7.org/fhir/extensions/5.1.0/CodeSystem-concept-map-equivalence.html#narrower" title="narrower">narrower</a></td><td style="border-right-width: 0px">5200</td><td style="border-left-width: 0px"></td></tr><tr><td style="border-right-width: 0px">5000</td><td style="border-left-width: 0px">Personnes et Familles en Difficulté</td><td>830</td><td><a href="http://hl7.org/fhir/extensions/5.1.0/CodeSystem-concept-map-equivalence.html#narrower" title="narrower">narrower</a></td><td style="border-right-width: 0px">5200</td><td style="border-left-width: 0px"></td></tr><tr><td style="border-right-width: 0px">5000</td><td style="border-left-width: 0px">Personnes et Familles en Difficulté</td><td>835</td><td><a href="http://hl7.org/fhir/extensions/5.1.0/CodeSystem-concept-map-equivalence.html#narrower" title="narrower">narrower</a></td><td style="border-right-width: 0px">5200</td><td style="border-left-width: 0px"></td></tr><tr><td style="border-right-width: 0px">5000</td><td style="border-left-width: 0px">Personnes et Familles en Difficulté</td><td>807</td><td><a href="http://hl7.org/fhir/extensions/5.1.0/CodeSystem-concept-map-equivalence.html#narrower" title="narrower">narrower</a></td><td style="border-right-width: 0px">5300</td><td style="border-left-width: 0px"></td></tr><tr><td style="border-right-width: 0px">5000</td><td style="border-left-width: 0px">Personnes et Familles en Difficulté</td><td>860</td><td><a href="http://hl7.org/fhir/extensions/5.1.0/CodeSystem-concept-map-equivalence.html#narrower" title="narrower">narrower</a></td><td style="border-right-width: 0px">5300</td><td style="border-left-width: 0px"></td></tr><tr><td style="border-right-width: 0px">5000</td><td style="border-left-width: 0px">Personnes et Familles en Difficulté</td><td>861</td><td><a href="http://hl7.org/fhir/extensions/5.1.0/CodeSystem-concept-map-equivalence.html#narrower" title="narrower">narrower</a></td><td style="border-right-width: 0px">5300</td><td style="border-left-width: 0px"></td></tr><tr><td style="border-right-width: 0px">5000</td><td style="border-left-width: 0px">Personnes et Familles en Difficulté</td><td>862</td><td><a href="http://hl7.org/fhir/extensions/5.1.0/CodeSystem-concept-map-equivalence.html#narrower" title="narrower">narrower</a></td><td style="border-right-width: 0px">5300</td><td style="border-left-width: 0px"></td></tr><tr><td style="border-right-width: 0px">6000</td><td style="border-left-width: 0px">Autres Catégories de Clientèles</td><td>823</td><td><a href="http://hl7.org/fhir/extensions/5.1.0/CodeSystem-concept-map-equivalence.html#narrower" title="narrower">narrower</a></td><td style="border-right-width: 0px">6100</td><td style="border-left-width: 0px"></td></tr><tr><td style="border-right-width: 0px">6000</td><td style="border-left-width: 0px">Autres Catégories de Clientèles</td><td>825</td><td><a href="http://hl7.org/fhir/extensions/5.1.0/CodeSystem-concept-map-equivalence.html#narrower" title="narrower">narrower</a></td><td style="border-right-width: 0px">6100</td><td style="border-left-width: 0px"></td></tr><tr><td style="border-right-width: 0px">6000</td><td style="border-left-width: 0px">Autres Catégories de Clientèles</td><td>826</td><td><a href="http://hl7.org/fhir/extensions/5.1.0/CodeSystem-concept-map-equivalence.html#narrower" title="narrower">narrower</a></td><td style="border-right-width: 0px">6100</td><td style="border-left-width: 0px"></td></tr><tr><td style="border-right-width: 0px">6000</td><td style="border-left-width: 0px">Autres Catégories de Clientèles</td><td>828</td><td><a href="http://hl7.org/fhir/extensions/5.1.0/CodeSystem-concept-map-equivalence.html#narrower" title="narrower">narrower</a></td><td style="border-right-width: 0px">6100</td><td style="border-left-width: 0px"></td></tr><tr><td style="border-right-width: 0px">6000</td><td style="border-left-width: 0px">Autres Catégories de Clientèles</td><td>833</td><td><a href="http://hl7.org/fhir/extensions/5.1.0/CodeSystem-concept-map-equivalence.html#narrower" title="narrower">narrower</a></td><td style="border-right-width: 0px">6100</td><td style="border-left-width: 0px"></td></tr><tr><td style="border-right-width: 0px">6000</td><td style="border-left-width: 0px">Autres Catégories de Clientèles</td><td>834</td><td><a href="http://hl7.org/fhir/extensions/5.1.0/CodeSystem-concept-map-equivalence.html#narrower" title="narrower">narrower</a></td><td style="border-right-width: 0px">6100</td><td style="border-left-width: 0px"></td></tr><tr><td style="border-right-width: 0px">6000</td><td style="border-left-width: 0px">Autres Catégories de Clientèles</td><td>040</td><td><a href="http://hl7.org/fhir/extensions/5.1.0/CodeSystem-concept-map-equivalence.html#narrower" title="narrower">narrower</a></td><td style="border-right-width: 0px">6200</td><td style="border-left-width: 0px"></td></tr><tr><td style="border-right-width: 0px">6000</td><td style="border-left-width: 0px">Autres Catégories de Clientèles</td><td>041</td><td><a href="http://hl7.org/fhir/extensions/5.1.0/CodeSystem-concept-map-equivalence.html#narrower" title="narrower">narrower</a></td><td style="border-right-width: 0px">6200</td><td style="border-left-width: 0px"></td></tr><tr><td style="border-right-width: 0px">6000</td><td style="border-left-width: 0px">Autres Catégories de Clientèles</td><td>042</td><td><a href="http://hl7.org/fhir/extensions/5.1.0/CodeSystem-concept-map-equivalence.html#narrower" title="narrower">narrower</a></td><td style="border-right-width: 0px">6200</td><td style="border-left-width: 0px"></td></tr><tr><td style="border-right-width: 0px">6000</td><td style="border-left-width: 0px">Autres Catégories de Clientèles</td><td>043</td><td><a href="http://hl7.org/fhir/extensions/5.1.0/CodeSystem-concept-map-equivalence.html#narrower" title="narrower">narrower</a></td><td style="border-right-width: 0px">6200</td><td style="border-left-width: 0px"></td></tr><tr><td style="border-right-width: 0px">7000</td><td style="border-left-width: 0px">Toute Population</td><td>990</td><td><a href="http://hl7.org/fhir/extensions/5.1.0/CodeSystem-concept-map-equivalence.html#narrower" title="narrower">narrower</a></td><td style="border-right-width: 0px">7100</td><td style="border-left-width: 0px"></td></tr><tr><td style="border-right-width: 0px">8000</td><td style="border-left-width: 0px">Personnes ayant des pathologies ou difficultés spécifiques</td><td>600</td><td><a href="http://hl7.org/fhir/extensions/5.1.0/CodeSystem-concept-map-equivalence.html#narrower" title="narrower">narrower</a></td><td style="border-right-width: 0px">8100</td><td style="border-left-width: 0px"></td></tr><tr><td style="border-right-width: 0px">8000</td><td style="border-left-width: 0px">Personnes ayant des pathologies ou difficultés spécifiques</td><td>601</td><td><a href="http://hl7.org/fhir/extensions/5.1.0/CodeSystem-concept-map-equivalence.html#narrower" title="narrower">narrower</a></td><td style="border-right-width: 0px">8100</td><td style="border-left-width: 0px"></td></tr><tr><td style="border-right-width: 0px">8000</td><td style="border-left-width: 0px">Personnes ayant des pathologies ou difficultés spécifiques</td><td>602</td><td><a href="http://hl7.org/fhir/extensions/5.1.0/CodeSystem-concept-map-equivalence.html#narrower" title="narrower">narrower</a></td><td style="border-right-width: 0px">8100</td><td style="border-left-width: 0px"></td></tr><tr><td style="border-right-width: 0px">8000</td><td style="border-left-width: 0px">Personnes ayant des pathologies ou difficultés spécifiques</td><td>620</td><td><a href="http://hl7.org/fhir/extensions/5.1.0/CodeSystem-concept-map-equivalence.html#narrower" title="narrower">narrower</a></td><td style="border-right-width: 0px">8200</td><td style="border-left-width: 0px"></td></tr><tr><td style="border-right-width: 0px">8000</td><td style="border-left-width: 0px">Personnes ayant des pathologies ou difficultés spécifiques</td><td>430</td><td><a href="http://hl7.org/fhir/extensions/5.1.0/CodeSystem-concept-map-equivalence.html#narrower" title="narrower">narrower</a></td><td style="border-right-width: 0px">8300</td><td style="border-left-width: 0px"></td></tr><tr><td style="border-right-width: 0px">8000</td><td style="border-left-width: 0px">Personnes ayant des pathologies ou difficultés spécifiques</td><td>431</td><td><a href="http://hl7.org/fhir/extensions/5.1.0/CodeSystem-concept-map-equivalence.html#narrower" title="narrower">narrower</a></td><td style="border-right-width: 0px">8300</td><td style="border-left-width: 0px"></td></tr><tr><td style="border-right-width: 0px">8000</td><td style="border-left-width: 0px">Personnes ayant des pathologies ou difficultés spécifiques</td><td>432</td><td><a href="http://hl7.org/fhir/extensions/5.1.0/CodeSystem-concept-map-equivalence.html#narrower" title="narrower">narrower</a></td><td style="border-right-width: 0px">8300</td><td style="border-left-width: 0px"></td></tr><tr><td style="border-right-width: 0px">8000</td><td style="border-left-width: 0px">Personnes ayant des pathologies ou difficultés spécifiques</td><td>433</td><td><a href="http://hl7.org/fhir/extensions/5.1.0/CodeSystem-concept-map-equivalence.html#narrower" title="narrower">narrower</a></td><td style="border-right-width: 0px">8300</td><td style="border-left-width: 0px"></td></tr><tr><td style="border-right-width: 0px">8000</td><td style="border-left-width: 0px">Personnes ayant des pathologies ou difficultés spécifiques</td><td>434</td><td><a href="http://hl7.org/fhir/extensions/5.1.0/CodeSystem-concept-map-equivalence.html#narrower" title="narrower">narrower</a></td><td style="border-right-width: 0px">8300</td><td style="border-left-width: 0px"></td></tr><tr><td style="border-right-width: 0px">8000</td><td style="border-left-width: 0px">Personnes ayant des pathologies ou difficultés spécifiques</td><td>435</td><td><a href="http://hl7.org/fhir/extensions/5.1.0/CodeSystem-concept-map-equivalence.html#narrower" title="narrower">narrower</a></td><td style="border-right-width: 0px">8300</td><td style="border-left-width: 0px"></td></tr><tr><td style="border-right-width: 0px">8000</td><td style="border-left-width: 0px">Personnes ayant des pathologies ou difficultés spécifiques</td><td>436</td><td><a href="http://hl7.org/fhir/extensions/5.1.0/CodeSystem-concept-map-equivalence.html#narrower" title="narrower">narrower</a></td><td style="border-right-width: 0px">8300</td><td style="border-left-width: 0px"></td></tr><tr><td style="border-right-width: 0px">8000</td><td style="border-left-width: 0px">Personnes ayant des pathologies ou difficultés spécifiques</td><td>439</td><td><a href="http://hl7.org/fhir/extensions/5.1.0/CodeSystem-concept-map-equivalence.html#narrower" title="narrower">narrower</a></td><td style="border-right-width: 0px">8300</td><td style="border-left-width: 0px"></td></tr><tr><td style="border-right-width: 0px">8000</td><td style="border-left-width: 0px">Personnes ayant des pathologies ou difficultés spécifiques</td><td>440</td><td><a href="http://hl7.org/fhir/extensions/5.1.0/CodeSystem-concept-map-equivalence.html#narrower" title="narrower">narrower</a></td><td style="border-right-width: 0px">8300</td><td style="border-left-width: 0px"></td></tr><tr><td style="border-right-width: 0px">8000</td><td style="border-left-width: 0px">Personnes ayant des pathologies ou difficultés spécifiques</td><td>813</td><td><a href="http://hl7.org/fhir/extensions/5.1.0/CodeSystem-concept-map-equivalence.html#narrower" title="narrower">narrower</a></td><td style="border-right-width: 0px">8400</td><td style="border-left-width: 0px"></td></tr><tr><td style="border-right-width: 0px">8000</td><td style="border-left-width: 0px">Personnes ayant des pathologies ou difficultés spécifiques</td><td>814</td><td><a href="http://hl7.org/fhir/extensions/5.1.0/CodeSystem-concept-map-equivalence.html#narrower" title="narrower">narrower</a></td><td style="border-right-width: 0px">8400</td><td style="border-left-width: 0px"></td></tr><tr><td style="border-right-width: 0px">8000</td><td style="border-left-width: 0px">Personnes ayant des pathologies ou difficultés spécifiques</td><td>850</td><td><a href="http://hl7.org/fhir/extensions/5.1.0/CodeSystem-concept-map-equivalence.html#narrower" title="narrower">narrower</a></td><td style="border-right-width: 0px">8400</td><td style="border-left-width: 0px"></td></tr><tr><td style="border-right-width: 0px">8000</td><td style="border-left-width: 0px">Personnes ayant des pathologies ou difficultés spécifiques</td><td>851</td><td><a href="http://hl7.org/fhir/extensions/5.1.0/CodeSystem-concept-map-equivalence.html#narrower" title="narrower">narrower</a></td><td style="border-right-width: 0px">8400</td><td style="border-left-width: 0px"></td></tr><tr><td style="border-right-width: 0px">8000</td><td style="border-left-width: 0px">Personnes ayant des pathologies ou difficultés spécifiques</td><td>852</td><td><a href="http://hl7.org/fhir/extensions/5.1.0/CodeSystem-concept-map-equivalence.html#narrower" title="narrower">narrower</a></td><td style="border-right-width: 0px">8400</td><td style="border-left-width: 0px"></td></tr><tr><td style="border-right-width: 0px">8000</td><td style="border-left-width: 0px">Personnes ayant des pathologies ou difficultés spécifiques</td><td>853</td><td><a href="http://hl7.org/fhir/extensions/5.1.0/CodeSystem-concept-map-equivalence.html#narrower" title="narrower">narrower</a></td><td style="border-right-width: 0px">8400</td><td style="border-left-width: 0px"></td></tr></table></div>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: ConceptMap ASS-X13-AgregatClientele</b></p><a name="ASS-X13-AgregatClientele"> </a><a name="hcASS-X13-AgregatClientele"> </a><a name="ASS-X13-AgregatClientele-fr-FR"> </a><p>Mapping from (not specified) to (not specified)</p><br/><p><b>Group 1 </b>Mapping from <a href="CodeSystem-TRE-R293-AgregatClienteleNiv2.html">TRE_R293_AgregatClienteleNiv2</a> to <a href="CodeSystem-TRE-R294-AgregatClienteleNiv3.html">TRE_R294_AgregatClienteleNiv3</a></p><table class="grid"><tr><td colspan="3"><b>Source Concept Details</b></td><td><b>Relationship</b></td><td colspan="2"><b>Target Concept Details</b></td><td><b>Comment</b></td><td colspan="2"><b>Properties</b></td></tr><tr><td colspan="2"><b>Codes</b> from <a href="CodeSystem-TRE-R293-AgregatClienteleNiv2.html" title="https://mos.esante.gouv.fr/NOS/TRE_R293-AgregatClienteleNiv2/FHIR/TRE-R293-AgregatClienteleNiv2">TRE_R293_AgregatClienteleNiv2</a></td><td><b>TRER279Clientele</b></td><td/><td colspan="2"><b>Codes</b> from <a href="CodeSystem-TRE-R294-AgregatClienteleNiv3.html" title="https://mos.esante.gouv.fr/NOS/TRE_R294-AgregatClienteleNiv3/FHIR/TRE-R294-AgregatClienteleNiv3">TRE_R294_AgregatClienteleNiv3</a></td><td/></tr><tr><td style="border-right-width: 0px">1000</td><td style="border-left-width: 0px">Personnes Handicapées</td><td>010</td><td><a href="http://hl7.org/fhir/extensions/5.1.0/CodeSystem-concept-map-equivalence.html#narrower" title="narrower">narrower</a></td><td style="border-right-width: 0px">1100</td><td style="border-left-width: 0px"></td><td>TO DO</td></tr><tr><td style="border-right-width: 0px">1000</td><td style="border-left-width: 0px">Personnes Handicapées</td><td>011</td><td><a href="http://hl7.org/fhir/extensions/5.1.0/CodeSystem-concept-map-equivalence.html#narrower" title="narrower">narrower</a></td><td style="border-right-width: 0px">1100</td><td style="border-left-width: 0px"></td><td>TO DO</td></tr><tr><td style="border-right-width: 0px">1000</td><td style="border-left-width: 0px">Personnes Handicapées</td><td>020</td><td><a href="http://hl7.org/fhir/extensions/5.1.0/CodeSystem-concept-map-equivalence.html#narrower" title="narrower">narrower</a></td><td style="border-right-width: 0px">1100</td><td style="border-left-width: 0px"></td><td>TO DO</td></tr><tr><td style="border-right-width: 0px">1000</td><td style="border-left-width: 0px">Personnes Handicapées</td><td>030</td><td><a href="http://hl7.org/fhir/extensions/5.1.0/CodeSystem-concept-map-equivalence.html#narrower" title="narrower">narrower</a></td><td style="border-right-width: 0px">1100</td><td style="border-left-width: 0px"></td><td>TO DO</td></tr><tr><td style="border-right-width: 0px">1000</td><td style="border-left-width: 0px">Personnes Handicapées</td><td>437</td><td><a href="http://hl7.org/fhir/extensions/5.1.0/CodeSystem-concept-map-equivalence.html#narrower" title="narrower">narrower</a></td><td style="border-right-width: 0px">1100</td><td style="border-left-width: 0px"></td><td>TO DO</td></tr><tr><td style="border-right-width: 0px">1000</td><td style="border-left-width: 0px">Personnes Handicapées</td><td>438</td><td><a href="http://hl7.org/fhir/extensions/5.1.0/CodeSystem-concept-map-equivalence.html#narrower" title="narrower">narrower</a></td><td style="border-right-width: 0px">1100</td><td style="border-left-width: 0px"></td><td>TO DO</td></tr><tr><td style="border-right-width: 0px">1000</td><td style="border-left-width: 0px">Personnes Handicapées</td><td>441</td><td><a href="http://hl7.org/fhir/extensions/5.1.0/CodeSystem-concept-map-equivalence.html#narrower" title="narrower">narrower</a></td><td style="border-right-width: 0px">1100</td><td style="border-left-width: 0px"></td><td>TO DO</td></tr><tr><td style="border-right-width: 0px">1000</td><td style="border-left-width: 0px">Personnes Handicapées</td><td>999</td><td><a href="http://hl7.org/fhir/extensions/5.1.0/CodeSystem-concept-map-equivalence.html#narrower" title="narrower">narrower</a></td><td style="border-right-width: 0px">1100</td><td style="border-left-width: 0px"></td><td>TO DO</td></tr><tr><td style="border-right-width: 0px">1000</td><td style="border-left-width: 0px">Personnes Handicapées</td><td>110</td><td><a href="http://hl7.org/fhir/extensions/5.1.0/CodeSystem-concept-map-equivalence.html#narrower" title="narrower">narrower</a></td><td style="border-right-width: 0px">1200</td><td style="border-left-width: 0px"></td><td>TO DO</td></tr><tr><td style="border-right-width: 0px">1000</td><td style="border-left-width: 0px">Personnes Handicapées</td><td>111</td><td><a href="http://hl7.org/fhir/extensions/5.1.0/CodeSystem-concept-map-equivalence.html#narrower" title="narrower">narrower</a></td><td style="border-right-width: 0px">1200</td><td style="border-left-width: 0px"></td><td>TO DO</td></tr><tr><td style="border-right-width: 0px">1000</td><td style="border-left-width: 0px">Personnes Handicapées</td><td>112</td><td><a href="http://hl7.org/fhir/extensions/5.1.0/CodeSystem-concept-map-equivalence.html#narrower" title="narrower">narrower</a></td><td style="border-right-width: 0px">1200</td><td style="border-left-width: 0px"></td><td>TO DO</td></tr><tr><td style="border-right-width: 0px">1000</td><td style="border-left-width: 0px">Personnes Handicapées</td><td>113</td><td><a href="http://hl7.org/fhir/extensions/5.1.0/CodeSystem-concept-map-equivalence.html#narrower" title="narrower">narrower</a></td><td style="border-right-width: 0px">1200</td><td style="border-left-width: 0px"></td><td>TO DO</td></tr><tr><td style="border-right-width: 0px">1000</td><td style="border-left-width: 0px">Personnes Handicapées</td><td>114</td><td><a href="http://hl7.org/fhir/extensions/5.1.0/CodeSystem-concept-map-equivalence.html#narrower" title="narrower">narrower</a></td><td style="border-right-width: 0px">1200</td><td style="border-left-width: 0px"></td><td>TO DO</td></tr><tr><td style="border-right-width: 0px">1000</td><td style="border-left-width: 0px">Personnes Handicapées</td><td>115</td><td><a href="http://hl7.org/fhir/extensions/5.1.0/CodeSystem-concept-map-equivalence.html#narrower" title="narrower">narrower</a></td><td style="border-right-width: 0px">1200</td><td style="border-left-width: 0px"></td><td>TO DO</td></tr><tr><td style="border-right-width: 0px">1000</td><td style="border-left-width: 0px">Personnes Handicapées</td><td>116</td><td><a href="http://hl7.org/fhir/extensions/5.1.0/CodeSystem-concept-map-equivalence.html#narrower" title="narrower">narrower</a></td><td style="border-right-width: 0px">1200</td><td style="border-left-width: 0px"></td><td>TO DO</td></tr><tr><td style="border-right-width: 0px">1000</td><td style="border-left-width: 0px">Personnes Handicapées</td><td>117</td><td><a href="http://hl7.org/fhir/extensions/5.1.0/CodeSystem-concept-map-equivalence.html#narrower" title="narrower">narrower</a></td><td style="border-right-width: 0px">1200</td><td style="border-left-width: 0px"></td><td>TO DO</td></tr><tr><td style="border-right-width: 0px">1000</td><td style="border-left-width: 0px">Personnes Handicapées</td><td>118</td><td><a href="http://hl7.org/fhir/extensions/5.1.0/CodeSystem-concept-map-equivalence.html#narrower" title="narrower">narrower</a></td><td style="border-right-width: 0px">1200</td><td style="border-left-width: 0px"></td><td>TO DO</td></tr><tr><td style="border-right-width: 0px">1000</td><td style="border-left-width: 0px">Personnes Handicapées</td><td>120</td><td><a href="http://hl7.org/fhir/extensions/5.1.0/CodeSystem-concept-map-equivalence.html#narrower" title="narrower">narrower</a></td><td style="border-right-width: 0px">1200</td><td style="border-left-width: 0px"></td><td>TO DO</td></tr><tr><td style="border-right-width: 0px">1000</td><td style="border-left-width: 0px">Personnes Handicapées</td><td>121</td><td><a href="http://hl7.org/fhir/extensions/5.1.0/CodeSystem-concept-map-equivalence.html#narrower" title="narrower">narrower</a></td><td style="border-right-width: 0px">1200</td><td style="border-left-width: 0px"></td><td>TO DO</td></tr><tr><td style="border-right-width: 0px">1000</td><td style="border-left-width: 0px">Personnes Handicapées</td><td>125</td><td><a href="http://hl7.org/fhir/extensions/5.1.0/CodeSystem-concept-map-equivalence.html#narrower" title="narrower">narrower</a></td><td style="border-right-width: 0px">1200</td><td style="border-left-width: 0px"></td><td>TO DO</td></tr><tr><td style="border-right-width: 0px">1000</td><td style="border-left-width: 0px">Personnes Handicapées</td><td>128</td><td><a href="http://hl7.org/fhir/extensions/5.1.0/CodeSystem-concept-map-equivalence.html#narrower" title="narrower">narrower</a></td><td style="border-right-width: 0px">1200</td><td style="border-left-width: 0px"></td><td>TO DO</td></tr><tr><td style="border-right-width: 0px">1000</td><td style="border-left-width: 0px">Personnes Handicapées</td><td>200</td><td><a href="http://hl7.org/fhir/extensions/5.1.0/CodeSystem-concept-map-equivalence.html#narrower" title="narrower">narrower</a></td><td style="border-right-width: 0px">1300</td><td style="border-left-width: 0px"></td><td>TO DO</td></tr><tr><td style="border-right-width: 0px">1000</td><td style="border-left-width: 0px">Personnes Handicapées</td><td>201</td><td><a href="http://hl7.org/fhir/extensions/5.1.0/CodeSystem-concept-map-equivalence.html#narrower" title="narrower">narrower</a></td><td style="border-right-width: 0px">1300</td><td style="border-left-width: 0px"></td><td>TO DO</td></tr><tr><td style="border-right-width: 0px">1000</td><td style="border-left-width: 0px">Personnes Handicapées</td><td>202</td><td><a href="http://hl7.org/fhir/extensions/5.1.0/CodeSystem-concept-map-equivalence.html#narrower" title="narrower">narrower</a></td><td style="border-right-width: 0px">1300</td><td style="border-left-width: 0px"></td><td>TO DO</td></tr><tr><td style="border-right-width: 0px">1000</td><td style="border-left-width: 0px">Personnes Handicapées</td><td>203</td><td><a href="http://hl7.org/fhir/extensions/5.1.0/CodeSystem-concept-map-equivalence.html#narrower" title="narrower">narrower</a></td><td style="border-right-width: 0px">1300</td><td style="border-left-width: 0px"></td><td>TO DO</td></tr><tr><td style="border-right-width: 0px">1000</td><td style="border-left-width: 0px">Personnes Handicapées</td><td>204</td><td><a href="http://hl7.org/fhir/extensions/5.1.0/CodeSystem-concept-map-equivalence.html#narrower" title="narrower">narrower</a></td><td style="border-right-width: 0px">1300</td><td style="border-left-width: 0px"></td><td>TO DO</td></tr><tr><td style="border-right-width: 0px">1000</td><td style="border-left-width: 0px">Personnes Handicapées</td><td>205</td><td><a href="http://hl7.org/fhir/extensions/5.1.0/CodeSystem-concept-map-equivalence.html#narrower" title="narrower">narrower</a></td><td style="border-right-width: 0px">1300</td><td style="border-left-width: 0px"></td><td>TO DO</td></tr><tr><td style="border-right-width: 0px">1000</td><td style="border-left-width: 0px">Personnes Handicapées</td><td>206</td><td><a href="http://hl7.org/fhir/extensions/5.1.0/CodeSystem-concept-map-equivalence.html#narrower" title="narrower">narrower</a></td><td style="border-right-width: 0px">1300</td><td style="border-left-width: 0px"></td><td>TO DO</td></tr><tr><td style="border-right-width: 0px">1000</td><td style="border-left-width: 0px">Personnes Handicapées</td><td>207</td><td><a href="http://hl7.org/fhir/extensions/5.1.0/CodeSystem-concept-map-equivalence.html#narrower" title="narrower">narrower</a></td><td style="border-right-width: 0px">1300</td><td style="border-left-width: 0px"></td><td>TO DO</td></tr><tr><td style="border-right-width: 0px">1000</td><td style="border-left-width: 0px">Personnes Handicapées</td><td>410</td><td><a href="http://hl7.org/fhir/extensions/5.1.0/CodeSystem-concept-map-equivalence.html#narrower" title="narrower">narrower</a></td><td style="border-right-width: 0px">1500</td><td style="border-left-width: 0px"></td><td>TO DO</td></tr><tr><td style="border-right-width: 0px">1000</td><td style="border-left-width: 0px">Personnes Handicapées</td><td>411</td><td><a href="http://hl7.org/fhir/extensions/5.1.0/CodeSystem-concept-map-equivalence.html#narrower" title="narrower">narrower</a></td><td style="border-right-width: 0px">1500</td><td style="border-left-width: 0px"></td><td>TO DO</td></tr><tr><td style="border-right-width: 0px">1000</td><td style="border-left-width: 0px">Personnes Handicapées</td><td>412</td><td><a href="http://hl7.org/fhir/extensions/5.1.0/CodeSystem-concept-map-equivalence.html#narrower" title="narrower">narrower</a></td><td style="border-right-width: 0px">1500</td><td style="border-left-width: 0px"></td><td>TO DO</td></tr><tr><td style="border-right-width: 0px">1000</td><td style="border-left-width: 0px">Personnes Handicapées</td><td>413</td><td><a href="http://hl7.org/fhir/extensions/5.1.0/CodeSystem-concept-map-equivalence.html#narrower" title="narrower">narrower</a></td><td style="border-right-width: 0px">1500</td><td style="border-left-width: 0px"></td><td>TO DO</td></tr><tr><td style="border-right-width: 0px">1000</td><td style="border-left-width: 0px">Personnes Handicapées</td><td>414</td><td><a href="http://hl7.org/fhir/extensions/5.1.0/CodeSystem-concept-map-equivalence.html#narrower" title="narrower">narrower</a></td><td style="border-right-width: 0px">1500</td><td style="border-left-width: 0px"></td><td>TO DO</td></tr><tr><td style="border-right-width: 0px">1000</td><td style="border-left-width: 0px">Personnes Handicapées</td><td>420</td><td><a href="http://hl7.org/fhir/extensions/5.1.0/CodeSystem-concept-map-equivalence.html#narrower" title="narrower">narrower</a></td><td style="border-right-width: 0px">1500</td><td style="border-left-width: 0px"></td><td>TO DO</td></tr><tr><td style="border-right-width: 0px">1000</td><td style="border-left-width: 0px">Personnes Handicapées</td><td>500</td><td><a href="http://hl7.org/fhir/extensions/5.1.0/CodeSystem-concept-map-equivalence.html#narrower" title="narrower">narrower</a></td><td style="border-right-width: 0px">1600</td><td style="border-left-width: 0px"></td><td>TO DO</td></tr><tr><td style="border-right-width: 0px">1000</td><td style="border-left-width: 0px">Personnes Handicapées</td><td>501</td><td><a href="http://hl7.org/fhir/extensions/5.1.0/CodeSystem-concept-map-equivalence.html#narrower" title="narrower">narrower</a></td><td style="border-right-width: 0px">1600</td><td style="border-left-width: 0px"></td><td>TO DO</td></tr><tr><td style="border-right-width: 0px">1000</td><td style="border-left-width: 0px">Personnes Handicapées</td><td>502</td><td><a href="http://hl7.org/fhir/extensions/5.1.0/CodeSystem-concept-map-equivalence.html#narrower" title="narrower">narrower</a></td><td style="border-right-width: 0px">1600</td><td style="border-left-width: 0px"></td><td>TO DO</td></tr><tr><td style="border-right-width: 0px">1000</td><td style="border-left-width: 0px">Personnes Handicapées</td><td>503</td><td><a href="http://hl7.org/fhir/extensions/5.1.0/CodeSystem-concept-map-equivalence.html#narrower" title="narrower">narrower</a></td><td style="border-right-width: 0px">1600</td><td style="border-left-width: 0px"></td><td>TO DO</td></tr><tr><td style="border-right-width: 0px">1000</td><td style="border-left-width: 0px">Personnes Handicapées</td><td>506</td><td><a href="http://hl7.org/fhir/extensions/5.1.0/CodeSystem-concept-map-equivalence.html#narrower" title="narrower">narrower</a></td><td style="border-right-width: 0px">1600</td><td style="border-left-width: 0px"></td><td>TO DO</td></tr><tr><td style="border-right-width: 0px">1000</td><td style="border-left-width: 0px">Personnes Handicapées</td><td>310</td><td><a href="http://hl7.org/fhir/extensions/5.1.0/CodeSystem-concept-map-equivalence.html#narrower" title="narrower">narrower</a></td><td style="border-right-width: 0px">1700</td><td style="border-left-width: 0px"></td><td>TO DO</td></tr><tr><td style="border-right-width: 0px">1000</td><td style="border-left-width: 0px">Personnes Handicapées</td><td>311</td><td><a href="http://hl7.org/fhir/extensions/5.1.0/CodeSystem-concept-map-equivalence.html#narrower" title="narrower">narrower</a></td><td style="border-right-width: 0px">1700</td><td style="border-left-width: 0px"></td><td>TO DO</td></tr><tr><td style="border-right-width: 0px">1000</td><td style="border-left-width: 0px">Personnes Handicapées</td><td>312</td><td><a href="http://hl7.org/fhir/extensions/5.1.0/CodeSystem-concept-map-equivalence.html#narrower" title="narrower">narrower</a></td><td style="border-right-width: 0px">1700</td><td style="border-left-width: 0px"></td><td>TO DO</td></tr><tr><td style="border-right-width: 0px">1000</td><td style="border-left-width: 0px">Personnes Handicapées</td><td>313</td><td><a href="http://hl7.org/fhir/extensions/5.1.0/CodeSystem-concept-map-equivalence.html#narrower" title="narrower">narrower</a></td><td style="border-right-width: 0px">1700</td><td style="border-left-width: 0px"></td><td>TO DO</td></tr><tr><td style="border-right-width: 0px">1000</td><td style="border-left-width: 0px">Personnes Handicapées</td><td>317</td><td><a href="http://hl7.org/fhir/extensions/5.1.0/CodeSystem-concept-map-equivalence.html#narrower" title="narrower">narrower</a></td><td style="border-right-width: 0px">1700</td><td style="border-left-width: 0px"></td><td>TO DO</td></tr><tr><td style="border-right-width: 0px">1000</td><td style="border-left-width: 0px">Personnes Handicapées</td><td>318</td><td><a href="http://hl7.org/fhir/extensions/5.1.0/CodeSystem-concept-map-equivalence.html#narrower" title="narrower">narrower</a></td><td style="border-right-width: 0px">1700</td><td style="border-left-width: 0px"></td><td>TO DO</td></tr><tr><td style="border-right-width: 0px">1000</td><td style="border-left-width: 0px">Personnes Handicapées</td><td>320</td><td><a href="http://hl7.org/fhir/extensions/5.1.0/CodeSystem-concept-map-equivalence.html#narrower" title="narrower">narrower</a></td><td style="border-right-width: 0px">1800</td><td style="border-left-width: 0px"></td><td>TO DO</td></tr><tr><td style="border-right-width: 0px">1000</td><td style="border-left-width: 0px">Personnes Handicapées</td><td>321</td><td><a href="http://hl7.org/fhir/extensions/5.1.0/CodeSystem-concept-map-equivalence.html#narrower" title="narrower">narrower</a></td><td style="border-right-width: 0px">1800</td><td style="border-left-width: 0px"></td><td>TO DO</td></tr><tr><td style="border-right-width: 0px">1000</td><td style="border-left-width: 0px">Personnes Handicapées</td><td>322</td><td><a href="http://hl7.org/fhir/extensions/5.1.0/CodeSystem-concept-map-equivalence.html#narrower" title="narrower">narrower</a></td><td style="border-right-width: 0px">1800</td><td style="border-left-width: 0px"></td><td>TO DO</td></tr><tr><td style="border-right-width: 0px">1000</td><td style="border-left-width: 0px">Personnes Handicapées</td><td>323</td><td><a href="http://hl7.org/fhir/extensions/5.1.0/CodeSystem-concept-map-equivalence.html#narrower" title="narrower">narrower</a></td><td style="border-right-width: 0px">1800</td><td style="border-left-width: 0px"></td><td>TO DO</td></tr><tr><td style="border-right-width: 0px">1000</td><td style="border-left-width: 0px">Personnes Handicapées</td><td>324</td><td><a href="http://hl7.org/fhir/extensions/5.1.0/CodeSystem-concept-map-equivalence.html#narrower" title="narrower">narrower</a></td><td style="border-right-width: 0px">1800</td><td style="border-left-width: 0px"></td><td>TO DO</td></tr><tr><td style="border-right-width: 0px">1000</td><td style="border-left-width: 0px">Personnes Handicapées</td><td>327</td><td><a href="http://hl7.org/fhir/extensions/5.1.0/CodeSystem-concept-map-equivalence.html#narrower" title="narrower">narrower</a></td><td style="border-right-width: 0px">1800</td><td style="border-left-width: 0px"></td><td>TO DO</td></tr><tr><td style="border-right-width: 0px">1000</td><td style="border-left-width: 0px">Personnes Handicapées</td><td>510</td><td><a href="http://hl7.org/fhir/extensions/5.1.0/CodeSystem-concept-map-equivalence.html#narrower" title="narrower">narrower</a></td><td style="border-right-width: 0px">1900</td><td style="border-left-width: 0px"></td><td>TO DO</td></tr><tr><td style="border-right-width: 0px">1000</td><td style="border-left-width: 0px">Personnes Handicapées</td><td>511</td><td><a href="http://hl7.org/fhir/extensions/5.1.0/CodeSystem-concept-map-equivalence.html#narrower" title="narrower">narrower</a></td><td style="border-right-width: 0px">1900</td><td style="border-left-width: 0px"></td><td>TO DO</td></tr><tr><td style="border-right-width: 0px">1000</td><td style="border-left-width: 0px">Personnes Handicapées</td><td>512</td><td><a href="http://hl7.org/fhir/extensions/5.1.0/CodeSystem-concept-map-equivalence.html#narrower" title="narrower">narrower</a></td><td style="border-right-width: 0px">1900</td><td style="border-left-width: 0px"></td><td>TO DO</td></tr><tr><td style="border-right-width: 0px">2000</td><td style="border-left-width: 0px">Personnes Agées</td><td>700</td><td><a href="http://hl7.org/fhir/extensions/5.1.0/CodeSystem-concept-map-equivalence.html#narrower" title="narrower">narrower</a></td><td style="border-right-width: 0px">2100</td><td style="border-left-width: 0px"></td><td>TO DO</td></tr><tr><td style="border-right-width: 0px">2000</td><td style="border-left-width: 0px">Personnes Agées</td><td>701</td><td><a href="http://hl7.org/fhir/extensions/5.1.0/CodeSystem-concept-map-equivalence.html#narrower" title="narrower">narrower</a></td><td style="border-right-width: 0px">2100</td><td style="border-left-width: 0px"></td><td>TO DO</td></tr><tr><td style="border-right-width: 0px">2000</td><td style="border-left-width: 0px">Personnes Agées</td><td>702</td><td><a href="http://hl7.org/fhir/extensions/5.1.0/CodeSystem-concept-map-equivalence.html#narrower" title="narrower">narrower</a></td><td style="border-right-width: 0px">2100</td><td style="border-left-width: 0px"></td><td>TO DO</td></tr><tr><td style="border-right-width: 0px">2000</td><td style="border-left-width: 0px">Personnes Agées</td><td>703</td><td><a href="http://hl7.org/fhir/extensions/5.1.0/CodeSystem-concept-map-equivalence.html#narrower" title="narrower">narrower</a></td><td style="border-right-width: 0px">2100</td><td style="border-left-width: 0px"></td><td>TO DO</td></tr><tr><td style="border-right-width: 0px">2000</td><td style="border-left-width: 0px">Personnes Agées</td><td>704</td><td><a href="http://hl7.org/fhir/extensions/5.1.0/CodeSystem-concept-map-equivalence.html#narrower" title="narrower">narrower</a></td><td style="border-right-width: 0px">2100</td><td style="border-left-width: 0px"></td><td>TO DO</td></tr><tr><td style="border-right-width: 0px">2000</td><td style="border-left-width: 0px">Personnes Agées</td><td>707</td><td><a href="http://hl7.org/fhir/extensions/5.1.0/CodeSystem-concept-map-equivalence.html#narrower" title="narrower">narrower</a></td><td style="border-right-width: 0px">2100</td><td style="border-left-width: 0px"></td><td>TO DO</td></tr><tr><td style="border-right-width: 0px">2000</td><td style="border-left-width: 0px">Personnes Agées</td><td>710</td><td><a href="http://hl7.org/fhir/extensions/5.1.0/CodeSystem-concept-map-equivalence.html#narrower" title="narrower">narrower</a></td><td style="border-right-width: 0px">2100</td><td style="border-left-width: 0px"></td><td>TO DO</td></tr><tr><td style="border-right-width: 0px">2000</td><td style="border-left-width: 0px">Personnes Agées</td><td>711</td><td><a href="http://hl7.org/fhir/extensions/5.1.0/CodeSystem-concept-map-equivalence.html#narrower" title="narrower">narrower</a></td><td style="border-right-width: 0px">2100</td><td style="border-left-width: 0px"></td><td>TO DO</td></tr><tr><td style="border-right-width: 0px">3000</td><td style="border-left-width: 0px">Enfants et Adolescents (Aide Soc Just)</td><td>800</td><td><a href="http://hl7.org/fhir/extensions/5.1.0/CodeSystem-concept-map-equivalence.html#narrower" title="narrower">narrower</a></td><td style="border-right-width: 0px">3100</td><td style="border-left-width: 0px"></td><td>TO DO</td></tr><tr><td style="border-right-width: 0px">3000</td><td style="border-left-width: 0px">Enfants et Adolescents (Aide Soc Just)</td><td>801</td><td><a href="http://hl7.org/fhir/extensions/5.1.0/CodeSystem-concept-map-equivalence.html#narrower" title="narrower">narrower</a></td><td style="border-right-width: 0px">3100</td><td style="border-left-width: 0px"></td><td>TO DO</td></tr><tr><td style="border-right-width: 0px">3000</td><td style="border-left-width: 0px">Enfants et Adolescents (Aide Soc Just)</td><td>802</td><td><a href="http://hl7.org/fhir/extensions/5.1.0/CodeSystem-concept-map-equivalence.html#narrower" title="narrower">narrower</a></td><td style="border-right-width: 0px">3100</td><td style="border-left-width: 0px"></td><td>TO DO</td></tr><tr><td style="border-right-width: 0px">3000</td><td style="border-left-width: 0px">Enfants et Adolescents (Aide Soc Just)</td><td>803</td><td><a href="http://hl7.org/fhir/extensions/5.1.0/CodeSystem-concept-map-equivalence.html#narrower" title="narrower">narrower</a></td><td style="border-right-width: 0px">3100</td><td style="border-left-width: 0px"></td><td>TO DO</td></tr><tr><td style="border-right-width: 0px">3000</td><td style="border-left-width: 0px">Enfants et Adolescents (Aide Soc Just)</td><td>804</td><td><a href="http://hl7.org/fhir/extensions/5.1.0/CodeSystem-concept-map-equivalence.html#narrower" title="narrower">narrower</a></td><td style="border-right-width: 0px">3100</td><td style="border-left-width: 0px"></td><td>TO DO</td></tr><tr><td style="border-right-width: 0px">3000</td><td style="border-left-width: 0px">Enfants et Adolescents (Aide Soc Just)</td><td>805</td><td><a href="http://hl7.org/fhir/extensions/5.1.0/CodeSystem-concept-map-equivalence.html#narrower" title="narrower">narrower</a></td><td style="border-right-width: 0px">3100</td><td style="border-left-width: 0px"></td><td>TO DO</td></tr><tr><td style="border-right-width: 0px">3000</td><td style="border-left-width: 0px">Enfants et Adolescents (Aide Soc Just)</td><td>806</td><td><a href="http://hl7.org/fhir/extensions/5.1.0/CodeSystem-concept-map-equivalence.html#narrower" title="narrower">narrower</a></td><td style="border-right-width: 0px">3100</td><td style="border-left-width: 0px"></td><td>TO DO</td></tr><tr><td style="border-right-width: 0px">4000</td><td style="border-left-width: 0px">Autres Enfants</td><td>808</td><td><a href="http://hl7.org/fhir/extensions/5.1.0/CodeSystem-concept-map-equivalence.html#narrower" title="narrower">narrower</a></td><td style="border-right-width: 0px">4100</td><td style="border-left-width: 0px"></td><td>TO DO</td></tr><tr><td style="border-right-width: 0px">4000</td><td style="border-left-width: 0px">Autres Enfants</td><td>809</td><td><a href="http://hl7.org/fhir/extensions/5.1.0/CodeSystem-concept-map-equivalence.html#narrower" title="narrower">narrower</a></td><td style="border-right-width: 0px">4100</td><td style="border-left-width: 0px"></td><td>TO DO</td></tr><tr><td style="border-right-width: 0px">5000</td><td style="border-left-width: 0px">Personnes et Familles en Difficulté</td><td>810</td><td><a href="http://hl7.org/fhir/extensions/5.1.0/CodeSystem-concept-map-equivalence.html#narrower" title="narrower">narrower</a></td><td style="border-right-width: 0px">5100</td><td style="border-left-width: 0px"></td><td>TO DO</td></tr><tr><td style="border-right-width: 0px">5000</td><td style="border-left-width: 0px">Personnes et Familles en Difficulté</td><td>811</td><td><a href="http://hl7.org/fhir/extensions/5.1.0/CodeSystem-concept-map-equivalence.html#narrower" title="narrower">narrower</a></td><td style="border-right-width: 0px">5100</td><td style="border-left-width: 0px"></td><td>TO DO</td></tr><tr><td style="border-right-width: 0px">5000</td><td style="border-left-width: 0px">Personnes et Familles en Difficulté</td><td>812</td><td><a href="http://hl7.org/fhir/extensions/5.1.0/CodeSystem-concept-map-equivalence.html#narrower" title="narrower">narrower</a></td><td style="border-right-width: 0px">5100</td><td style="border-left-width: 0px"></td><td>TO DO</td></tr><tr><td style="border-right-width: 0px">5000</td><td style="border-left-width: 0px">Personnes et Familles en Difficulté</td><td>815</td><td><a href="http://hl7.org/fhir/extensions/5.1.0/CodeSystem-concept-map-equivalence.html#narrower" title="narrower">narrower</a></td><td style="border-right-width: 0px">5100</td><td style="border-left-width: 0px"></td><td>TO DO</td></tr><tr><td style="border-right-width: 0px">5000</td><td style="border-left-width: 0px">Personnes et Familles en Difficulté</td><td>816</td><td><a href="http://hl7.org/fhir/extensions/5.1.0/CodeSystem-concept-map-equivalence.html#narrower" title="narrower">narrower</a></td><td style="border-right-width: 0px">5100</td><td style="border-left-width: 0px"></td><td>TO DO</td></tr><tr><td style="border-right-width: 0px">5000</td><td style="border-left-width: 0px">Personnes et Familles en Difficulté</td><td>817</td><td><a href="http://hl7.org/fhir/extensions/5.1.0/CodeSystem-concept-map-equivalence.html#narrower" title="narrower">narrower</a></td><td style="border-right-width: 0px">5100</td><td style="border-left-width: 0px"></td><td>TO DO</td></tr><tr><td style="border-right-width: 0px">5000</td><td style="border-left-width: 0px">Personnes et Familles en Difficulté</td><td>818</td><td><a href="http://hl7.org/fhir/extensions/5.1.0/CodeSystem-concept-map-equivalence.html#narrower" title="narrower">narrower</a></td><td style="border-right-width: 0px">5100</td><td style="border-left-width: 0px"></td><td>TO DO</td></tr><tr><td style="border-right-width: 0px">5000</td><td style="border-left-width: 0px">Personnes et Familles en Difficulté</td><td>819</td><td><a href="http://hl7.org/fhir/extensions/5.1.0/CodeSystem-concept-map-equivalence.html#narrower" title="narrower">narrower</a></td><td style="border-right-width: 0px">5100</td><td style="border-left-width: 0px"></td><td>TO DO</td></tr><tr><td style="border-right-width: 0px">5000</td><td style="border-left-width: 0px">Personnes et Familles en Difficulté</td><td>820</td><td><a href="http://hl7.org/fhir/extensions/5.1.0/CodeSystem-concept-map-equivalence.html#narrower" title="narrower">narrower</a></td><td style="border-right-width: 0px">5100</td><td style="border-left-width: 0px"></td><td>TO DO</td></tr><tr><td style="border-right-width: 0px">5000</td><td style="border-left-width: 0px">Personnes et Familles en Difficulté</td><td>831</td><td><a href="http://hl7.org/fhir/extensions/5.1.0/CodeSystem-concept-map-equivalence.html#narrower" title="narrower">narrower</a></td><td style="border-right-width: 0px">5100</td><td style="border-left-width: 0px"></td><td>TO DO</td></tr><tr><td style="border-right-width: 0px">5000</td><td style="border-left-width: 0px">Personnes et Familles en Difficulté</td><td>832</td><td><a href="http://hl7.org/fhir/extensions/5.1.0/CodeSystem-concept-map-equivalence.html#narrower" title="narrower">narrower</a></td><td style="border-right-width: 0px">5100</td><td style="border-left-width: 0px"></td><td>TO DO</td></tr><tr><td style="border-right-width: 0px">5000</td><td style="border-left-width: 0px">Personnes et Familles en Difficulté</td><td>836</td><td><a href="http://hl7.org/fhir/extensions/5.1.0/CodeSystem-concept-map-equivalence.html#narrower" title="narrower">narrower</a></td><td style="border-right-width: 0px">5100</td><td style="border-left-width: 0px"></td><td>TO DO</td></tr><tr><td style="border-right-width: 0px">5000</td><td style="border-left-width: 0px">Personnes et Familles en Difficulté</td><td>840</td><td><a href="http://hl7.org/fhir/extensions/5.1.0/CodeSystem-concept-map-equivalence.html#narrower" title="narrower">narrower</a></td><td style="border-right-width: 0px">5100</td><td style="border-left-width: 0px"></td><td>TO DO</td></tr><tr><td style="border-right-width: 0px">5000</td><td style="border-left-width: 0px">Personnes et Familles en Difficulté</td><td>899</td><td><a href="http://hl7.org/fhir/extensions/5.1.0/CodeSystem-concept-map-equivalence.html#narrower" title="narrower">narrower</a></td><td style="border-right-width: 0px">5100</td><td style="border-left-width: 0px"></td><td>TO DO</td></tr><tr><td style="border-right-width: 0px">5000</td><td style="border-left-width: 0px">Personnes et Familles en Difficulté</td><td>821</td><td><a href="http://hl7.org/fhir/extensions/5.1.0/CodeSystem-concept-map-equivalence.html#narrower" title="narrower">narrower</a></td><td style="border-right-width: 0px">5200</td><td style="border-left-width: 0px"></td><td>TO DO</td></tr><tr><td style="border-right-width: 0px">5000</td><td style="border-left-width: 0px">Personnes et Familles en Difficulté</td><td>822</td><td><a href="http://hl7.org/fhir/extensions/5.1.0/CodeSystem-concept-map-equivalence.html#narrower" title="narrower">narrower</a></td><td style="border-right-width: 0px">5200</td><td style="border-left-width: 0px"></td><td>TO DO</td></tr><tr><td style="border-right-width: 0px">5000</td><td style="border-left-width: 0px">Personnes et Familles en Difficulté</td><td>824</td><td><a href="http://hl7.org/fhir/extensions/5.1.0/CodeSystem-concept-map-equivalence.html#narrower" title="narrower">narrower</a></td><td style="border-right-width: 0px">5200</td><td style="border-left-width: 0px"></td><td>TO DO</td></tr><tr><td style="border-right-width: 0px">5000</td><td style="border-left-width: 0px">Personnes et Familles en Difficulté</td><td>827</td><td><a href="http://hl7.org/fhir/extensions/5.1.0/CodeSystem-concept-map-equivalence.html#narrower" title="narrower">narrower</a></td><td style="border-right-width: 0px">5200</td><td style="border-left-width: 0px"></td><td>TO DO</td></tr><tr><td style="border-right-width: 0px">5000</td><td style="border-left-width: 0px">Personnes et Familles en Difficulté</td><td>829</td><td><a href="http://hl7.org/fhir/extensions/5.1.0/CodeSystem-concept-map-equivalence.html#narrower" title="narrower">narrower</a></td><td style="border-right-width: 0px">5200</td><td style="border-left-width: 0px"></td><td>TO DO</td></tr><tr><td style="border-right-width: 0px">5000</td><td style="border-left-width: 0px">Personnes et Familles en Difficulté</td><td>830</td><td><a href="http://hl7.org/fhir/extensions/5.1.0/CodeSystem-concept-map-equivalence.html#narrower" title="narrower">narrower</a></td><td style="border-right-width: 0px">5200</td><td style="border-left-width: 0px"></td><td>TO DO</td></tr><tr><td style="border-right-width: 0px">5000</td><td style="border-left-width: 0px">Personnes et Familles en Difficulté</td><td>835</td><td><a href="http://hl7.org/fhir/extensions/5.1.0/CodeSystem-concept-map-equivalence.html#narrower" title="narrower">narrower</a></td><td style="border-right-width: 0px">5200</td><td style="border-left-width: 0px"></td><td>TO DO</td></tr><tr><td style="border-right-width: 0px">5000</td><td style="border-left-width: 0px">Personnes et Familles en Difficulté</td><td>807</td><td><a href="http://hl7.org/fhir/extensions/5.1.0/CodeSystem-concept-map-equivalence.html#narrower" title="narrower">narrower</a></td><td style="border-right-width: 0px">5300</td><td style="border-left-width: 0px"></td><td>TO DO</td></tr><tr><td style="border-right-width: 0px">5000</td><td style="border-left-width: 0px">Personnes et Familles en Difficulté</td><td>860</td><td><a href="http://hl7.org/fhir/extensions/5.1.0/CodeSystem-concept-map-equivalence.html#narrower" title="narrower">narrower</a></td><td style="border-right-width: 0px">5300</td><td style="border-left-width: 0px"></td><td>TO DO</td></tr><tr><td style="border-right-width: 0px">5000</td><td style="border-left-width: 0px">Personnes et Familles en Difficulté</td><td>861</td><td><a href="http://hl7.org/fhir/extensions/5.1.0/CodeSystem-concept-map-equivalence.html#narrower" title="narrower">narrower</a></td><td style="border-right-width: 0px">5300</td><td style="border-left-width: 0px"></td><td>TO DO</td></tr><tr><td style="border-right-width: 0px">5000</td><td style="border-left-width: 0px">Personnes et Familles en Difficulté</td><td>862</td><td><a href="http://hl7.org/fhir/extensions/5.1.0/CodeSystem-concept-map-equivalence.html#narrower" title="narrower">narrower</a></td><td style="border-right-width: 0px">5300</td><td style="border-left-width: 0px"></td><td>TO DO</td></tr><tr><td style="border-right-width: 0px">6000</td><td style="border-left-width: 0px">Autres Catégories de Clientèles</td><td>823</td><td><a href="http://hl7.org/fhir/extensions/5.1.0/CodeSystem-concept-map-equivalence.html#narrower" title="narrower">narrower</a></td><td style="border-right-width: 0px">6100</td><td style="border-left-width: 0px"></td><td>TO DO</td></tr><tr><td style="border-right-width: 0px">6000</td><td style="border-left-width: 0px">Autres Catégories de Clientèles</td><td>825</td><td><a href="http://hl7.org/fhir/extensions/5.1.0/CodeSystem-concept-map-equivalence.html#narrower" title="narrower">narrower</a></td><td style="border-right-width: 0px">6100</td><td style="border-left-width: 0px"></td><td>TO DO</td></tr><tr><td style="border-right-width: 0px">6000</td><td style="border-left-width: 0px">Autres Catégories de Clientèles</td><td>826</td><td><a href="http://hl7.org/fhir/extensions/5.1.0/CodeSystem-concept-map-equivalence.html#narrower" title="narrower">narrower</a></td><td style="border-right-width: 0px">6100</td><td style="border-left-width: 0px"></td><td>TO DO</td></tr><tr><td style="border-right-width: 0px">6000</td><td style="border-left-width: 0px">Autres Catégories de Clientèles</td><td>828</td><td><a href="http://hl7.org/fhir/extensions/5.1.0/CodeSystem-concept-map-equivalence.html#narrower" title="narrower">narrower</a></td><td style="border-right-width: 0px">6100</td><td style="border-left-width: 0px"></td><td>TO DO</td></tr><tr><td style="border-right-width: 0px">6000</td><td style="border-left-width: 0px">Autres Catégories de Clientèles</td><td>833</td><td><a href="http://hl7.org/fhir/extensions/5.1.0/CodeSystem-concept-map-equivalence.html#narrower" title="narrower">narrower</a></td><td style="border-right-width: 0px">6100</td><td style="border-left-width: 0px"></td><td>TO DO</td></tr><tr><td style="border-right-width: 0px">6000</td><td style="border-left-width: 0px">Autres Catégories de Clientèles</td><td>834</td><td><a href="http://hl7.org/fhir/extensions/5.1.0/CodeSystem-concept-map-equivalence.html#narrower" title="narrower">narrower</a></td><td style="border-right-width: 0px">6100</td><td style="border-left-width: 0px"></td><td>TO DO</td></tr><tr><td style="border-right-width: 0px">6000</td><td style="border-left-width: 0px">Autres Catégories de Clientèles</td><td>040</td><td><a href="http://hl7.org/fhir/extensions/5.1.0/CodeSystem-concept-map-equivalence.html#narrower" title="narrower">narrower</a></td><td style="border-right-width: 0px">6200</td><td style="border-left-width: 0px"></td><td>TO DO</td></tr><tr><td style="border-right-width: 0px">6000</td><td style="border-left-width: 0px">Autres Catégories de Clientèles</td><td>041</td><td><a href="http://hl7.org/fhir/extensions/5.1.0/CodeSystem-concept-map-equivalence.html#narrower" title="narrower">narrower</a></td><td style="border-right-width: 0px">6200</td><td style="border-left-width: 0px"></td><td>TO DO</td></tr><tr><td style="border-right-width: 0px">6000</td><td style="border-left-width: 0px">Autres Catégories de Clientèles</td><td>042</td><td><a href="http://hl7.org/fhir/extensions/5.1.0/CodeSystem-concept-map-equivalence.html#narrower" title="narrower">narrower</a></td><td style="border-right-width: 0px">6200</td><td style="border-left-width: 0px"></td><td>TO DO</td></tr><tr><td style="border-right-width: 0px">6000</td><td style="border-left-width: 0px">Autres Catégories de Clientèles</td><td>043</td><td><a href="http://hl7.org/fhir/extensions/5.1.0/CodeSystem-concept-map-equivalence.html#narrower" title="narrower">narrower</a></td><td style="border-right-width: 0px">6200</td><td style="border-left-width: 0px"></td><td>TO DO</td></tr><tr><td style="border-right-width: 0px">7000</td><td style="border-left-width: 0px">Toute Population</td><td>990</td><td><a href="http://hl7.org/fhir/extensions/5.1.0/CodeSystem-concept-map-equivalence.html#narrower" title="narrower">narrower</a></td><td style="border-right-width: 0px">7100</td><td style="border-left-width: 0px"></td><td>TO DO</td></tr><tr><td style="border-right-width: 0px">8000</td><td style="border-left-width: 0px">Personnes ayant des pathologies ou difficultés spécifiques</td><td>600</td><td><a href="http://hl7.org/fhir/extensions/5.1.0/CodeSystem-concept-map-equivalence.html#narrower" title="narrower">narrower</a></td><td style="border-right-width: 0px">8100</td><td style="border-left-width: 0px"></td><td>TO DO</td></tr><tr><td style="border-right-width: 0px">8000</td><td style="border-left-width: 0px">Personnes ayant des pathologies ou difficultés spécifiques</td><td>601</td><td><a href="http://hl7.org/fhir/extensions/5.1.0/CodeSystem-concept-map-equivalence.html#narrower" title="narrower">narrower</a></td><td style="border-right-width: 0px">8100</td><td style="border-left-width: 0px"></td><td>TO DO</td></tr><tr><td style="border-right-width: 0px">8000</td><td style="border-left-width: 0px">Personnes ayant des pathologies ou difficultés spécifiques</td><td>602</td><td><a href="http://hl7.org/fhir/extensions/5.1.0/CodeSystem-concept-map-equivalence.html#narrower" title="narrower">narrower</a></td><td style="border-right-width: 0px">8100</td><td style="border-left-width: 0px"></td><td>TO DO</td></tr><tr><td style="border-right-width: 0px">8000</td><td style="border-left-width: 0px">Personnes ayant des pathologies ou difficultés spécifiques</td><td>620</td><td><a href="http://hl7.org/fhir/extensions/5.1.0/CodeSystem-concept-map-equivalence.html#narrower" title="narrower">narrower</a></td><td style="border-right-width: 0px">8200</td><td style="border-left-width: 0px"></td><td>TO DO</td></tr><tr><td style="border-right-width: 0px">8000</td><td style="border-left-width: 0px">Personnes ayant des pathologies ou difficultés spécifiques</td><td>430</td><td><a href="http://hl7.org/fhir/extensions/5.1.0/CodeSystem-concept-map-equivalence.html#narrower" title="narrower">narrower</a></td><td style="border-right-width: 0px">8300</td><td style="border-left-width: 0px"></td><td>TO DO</td></tr><tr><td style="border-right-width: 0px">8000</td><td style="border-left-width: 0px">Personnes ayant des pathologies ou difficultés spécifiques</td><td>431</td><td><a href="http://hl7.org/fhir/extensions/5.1.0/CodeSystem-concept-map-equivalence.html#narrower" title="narrower">narrower</a></td><td style="border-right-width: 0px">8300</td><td style="border-left-width: 0px"></td><td>TO DO</td></tr><tr><td style="border-right-width: 0px">8000</td><td style="border-left-width: 0px">Personnes ayant des pathologies ou difficultés spécifiques</td><td>432</td><td><a href="http://hl7.org/fhir/extensions/5.1.0/CodeSystem-concept-map-equivalence.html#narrower" title="narrower">narrower</a></td><td style="border-right-width: 0px">8300</td><td style="border-left-width: 0px"></td><td>TO DO</td></tr><tr><td style="border-right-width: 0px">8000</td><td style="border-left-width: 0px">Personnes ayant des pathologies ou difficultés spécifiques</td><td>433</td><td><a href="http://hl7.org/fhir/extensions/5.1.0/CodeSystem-concept-map-equivalence.html#narrower" title="narrower">narrower</a></td><td style="border-right-width: 0px">8300</td><td style="border-left-width: 0px"></td><td>TO DO</td></tr><tr><td style="border-right-width: 0px">8000</td><td style="border-left-width: 0px">Personnes ayant des pathologies ou difficultés spécifiques</td><td>434</td><td><a href="http://hl7.org/fhir/extensions/5.1.0/CodeSystem-concept-map-equivalence.html#narrower" title="narrower">narrower</a></td><td style="border-right-width: 0px">8300</td><td style="border-left-width: 0px"></td><td>TO DO</td></tr><tr><td style="border-right-width: 0px">8000</td><td style="border-left-width: 0px">Personnes ayant des pathologies ou difficultés spécifiques</td><td>435</td><td><a href="http://hl7.org/fhir/extensions/5.1.0/CodeSystem-concept-map-equivalence.html#narrower" title="narrower">narrower</a></td><td style="border-right-width: 0px">8300</td><td style="border-left-width: 0px"></td><td>TO DO</td></tr><tr><td style="border-right-width: 0px">8000</td><td style="border-left-width: 0px">Personnes ayant des pathologies ou difficultés spécifiques</td><td>436</td><td><a href="http://hl7.org/fhir/extensions/5.1.0/CodeSystem-concept-map-equivalence.html#narrower" title="narrower">narrower</a></td><td style="border-right-width: 0px">8300</td><td style="border-left-width: 0px"></td><td>TO DO</td></tr><tr><td style="border-right-width: 0px">8000</td><td style="border-left-width: 0px">Personnes ayant des pathologies ou difficultés spécifiques</td><td>439</td><td><a href="http://hl7.org/fhir/extensions/5.1.0/CodeSystem-concept-map-equivalence.html#narrower" title="narrower">narrower</a></td><td style="border-right-width: 0px">8300</td><td style="border-left-width: 0px"></td><td>TO DO</td></tr><tr><td style="border-right-width: 0px">8000</td><td style="border-left-width: 0px">Personnes ayant des pathologies ou difficultés spécifiques</td><td>440</td><td><a href="http://hl7.org/fhir/extensions/5.1.0/CodeSystem-concept-map-equivalence.html#narrower" title="narrower">narrower</a></td><td style="border-right-width: 0px">8300</td><td style="border-left-width: 0px"></td><td>TO DO</td></tr><tr><td style="border-right-width: 0px">8000</td><td style="border-left-width: 0px">Personnes ayant des pathologies ou difficultés spécifiques</td><td>813</td><td><a href="http://hl7.org/fhir/extensions/5.1.0/CodeSystem-concept-map-equivalence.html#narrower" title="narrower">narrower</a></td><td style="border-right-width: 0px">8400</td><td style="border-left-width: 0px"></td><td>TO DO</td></tr><tr><td style="border-right-width: 0px">8000</td><td style="border-left-width: 0px">Personnes ayant des pathologies ou difficultés spécifiques</td><td>814</td><td><a href="http://hl7.org/fhir/extensions/5.1.0/CodeSystem-concept-map-equivalence.html#narrower" title="narrower">narrower</a></td><td style="border-right-width: 0px">8400</td><td style="border-left-width: 0px"></td><td>TO DO</td></tr><tr><td style="border-right-width: 0px">8000</td><td style="border-left-width: 0px">Personnes ayant des pathologies ou difficultés spécifiques</td><td>850</td><td><a href="http://hl7.org/fhir/extensions/5.1.0/CodeSystem-concept-map-equivalence.html#narrower" title="narrower">narrower</a></td><td style="border-right-width: 0px">8400</td><td style="border-left-width: 0px"></td><td>TO DO</td></tr><tr><td style="border-right-width: 0px">8000</td><td style="border-left-width: 0px">Personnes ayant des pathologies ou difficultés spécifiques</td><td>851</td><td><a href="http://hl7.org/fhir/extensions/5.1.0/CodeSystem-concept-map-equivalence.html#narrower" title="narrower">narrower</a></td><td style="border-right-width: 0px">8400</td><td style="border-left-width: 0px"></td><td>TO DO</td></tr><tr><td style="border-right-width: 0px">8000</td><td style="border-left-width: 0px">Personnes ayant des pathologies ou difficultés spécifiques</td><td>852</td><td><a href="http://hl7.org/fhir/extensions/5.1.0/CodeSystem-concept-map-equivalence.html#narrower" title="narrower">narrower</a></td><td style="border-right-width: 0px">8400</td><td style="border-left-width: 0px"></td><td>TO DO</td></tr><tr><td style="border-right-width: 0px">8000</td><td style="border-left-width: 0px">Personnes ayant des pathologies ou difficultés spécifiques</td><td>853</td><td><a href="http://hl7.org/fhir/extensions/5.1.0/CodeSystem-concept-map-equivalence.html#narrower" title="narrower">narrower</a></td><td style="border-right-width: 0px">8400</td><td style="border-left-width: 0px"></td><td>TO DO</td></tr></table></div>
   </text>
   <extension url="http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod">
     <valuePeriod>
@@ -32,6 +32,7 @@
       <target>
         <code value="1100"/>
         <equivalence value="narrower"/>
+        <comment value="TO DO"/>
         <dependsOn>
           <property value="https://mos.esante.gouv.fr/NOS/TRE_R279-Clientele/FHIR/TRE-R279-Clientele"/>
           <value value="010"/>
@@ -43,6 +44,7 @@
       <target>
         <code value="1100"/>
         <equivalence value="narrower"/>
+        <comment value="TO DO"/>
         <dependsOn>
           <property value="https://mos.esante.gouv.fr/NOS/TRE_R279-Clientele/FHIR/TRE-R279-Clientele"/>
           <value value="011"/>
@@ -54,6 +56,7 @@
       <target>
         <code value="1100"/>
         <equivalence value="narrower"/>
+        <comment value="TO DO"/>
         <dependsOn>
           <property value="https://mos.esante.gouv.fr/NOS/TRE_R279-Clientele/FHIR/TRE-R279-Clientele"/>
           <value value="020"/>
@@ -65,6 +68,7 @@
       <target>
         <code value="1100"/>
         <equivalence value="narrower"/>
+        <comment value="TO DO"/>
         <dependsOn>
           <property value="https://mos.esante.gouv.fr/NOS/TRE_R279-Clientele/FHIR/TRE-R279-Clientele"/>
           <value value="030"/>
@@ -76,6 +80,7 @@
       <target>
         <code value="1100"/>
         <equivalence value="narrower"/>
+        <comment value="TO DO"/>
         <dependsOn>
           <property value="https://mos.esante.gouv.fr/NOS/TRE_R279-Clientele/FHIR/TRE-R279-Clientele"/>
           <value value="437"/>
@@ -87,6 +92,7 @@
       <target>
         <code value="1100"/>
         <equivalence value="narrower"/>
+        <comment value="TO DO"/>
         <dependsOn>
           <property value="https://mos.esante.gouv.fr/NOS/TRE_R279-Clientele/FHIR/TRE-R279-Clientele"/>
           <value value="438"/>
@@ -98,6 +104,7 @@
       <target>
         <code value="1100"/>
         <equivalence value="narrower"/>
+        <comment value="TO DO"/>
         <dependsOn>
           <property value="https://mos.esante.gouv.fr/NOS/TRE_R279-Clientele/FHIR/TRE-R279-Clientele"/>
           <value value="441"/>
@@ -109,6 +116,7 @@
       <target>
         <code value="1100"/>
         <equivalence value="narrower"/>
+        <comment value="TO DO"/>
         <dependsOn>
           <property value="https://mos.esante.gouv.fr/NOS/TRE_R279-Clientele/FHIR/TRE-R279-Clientele"/>
           <value value="999"/>
@@ -120,6 +128,7 @@
       <target>
         <code value="1200"/>
         <equivalence value="narrower"/>
+        <comment value="TO DO"/>
         <dependsOn>
           <property value="https://mos.esante.gouv.fr/NOS/TRE_R279-Clientele/FHIR/TRE-R279-Clientele"/>
           <value value="110"/>
@@ -131,6 +140,7 @@
       <target>
         <code value="1200"/>
         <equivalence value="narrower"/>
+        <comment value="TO DO"/>
         <dependsOn>
           <property value="https://mos.esante.gouv.fr/NOS/TRE_R279-Clientele/FHIR/TRE-R279-Clientele"/>
           <value value="111"/>
@@ -142,6 +152,7 @@
       <target>
         <code value="1200"/>
         <equivalence value="narrower"/>
+        <comment value="TO DO"/>
         <dependsOn>
           <property value="https://mos.esante.gouv.fr/NOS/TRE_R279-Clientele/FHIR/TRE-R279-Clientele"/>
           <value value="112"/>
@@ -153,6 +164,7 @@
       <target>
         <code value="1200"/>
         <equivalence value="narrower"/>
+        <comment value="TO DO"/>
         <dependsOn>
           <property value="https://mos.esante.gouv.fr/NOS/TRE_R279-Clientele/FHIR/TRE-R279-Clientele"/>
           <value value="113"/>
@@ -164,6 +176,7 @@
       <target>
         <code value="1200"/>
         <equivalence value="narrower"/>
+        <comment value="TO DO"/>
         <dependsOn>
           <property value="https://mos.esante.gouv.fr/NOS/TRE_R279-Clientele/FHIR/TRE-R279-Clientele"/>
           <value value="114"/>
@@ -175,6 +188,7 @@
       <target>
         <code value="1200"/>
         <equivalence value="narrower"/>
+        <comment value="TO DO"/>
         <dependsOn>
           <property value="https://mos.esante.gouv.fr/NOS/TRE_R279-Clientele/FHIR/TRE-R279-Clientele"/>
           <value value="115"/>
@@ -186,6 +200,7 @@
       <target>
         <code value="1200"/>
         <equivalence value="narrower"/>
+        <comment value="TO DO"/>
         <dependsOn>
           <property value="https://mos.esante.gouv.fr/NOS/TRE_R279-Clientele/FHIR/TRE-R279-Clientele"/>
           <value value="116"/>
@@ -197,6 +212,7 @@
       <target>
         <code value="1200"/>
         <equivalence value="narrower"/>
+        <comment value="TO DO"/>
         <dependsOn>
           <property value="https://mos.esante.gouv.fr/NOS/TRE_R279-Clientele/FHIR/TRE-R279-Clientele"/>
           <value value="117"/>
@@ -208,6 +224,7 @@
       <target>
         <code value="1200"/>
         <equivalence value="narrower"/>
+        <comment value="TO DO"/>
         <dependsOn>
           <property value="https://mos.esante.gouv.fr/NOS/TRE_R279-Clientele/FHIR/TRE-R279-Clientele"/>
           <value value="118"/>
@@ -219,6 +236,7 @@
       <target>
         <code value="1200"/>
         <equivalence value="narrower"/>
+        <comment value="TO DO"/>
         <dependsOn>
           <property value="https://mos.esante.gouv.fr/NOS/TRE_R279-Clientele/FHIR/TRE-R279-Clientele"/>
           <value value="120"/>
@@ -230,6 +248,7 @@
       <target>
         <code value="1200"/>
         <equivalence value="narrower"/>
+        <comment value="TO DO"/>
         <dependsOn>
           <property value="https://mos.esante.gouv.fr/NOS/TRE_R279-Clientele/FHIR/TRE-R279-Clientele"/>
           <value value="121"/>
@@ -241,6 +260,7 @@
       <target>
         <code value="1200"/>
         <equivalence value="narrower"/>
+        <comment value="TO DO"/>
         <dependsOn>
           <property value="https://mos.esante.gouv.fr/NOS/TRE_R279-Clientele/FHIR/TRE-R279-Clientele"/>
           <value value="125"/>
@@ -252,6 +272,7 @@
       <target>
         <code value="1200"/>
         <equivalence value="narrower"/>
+        <comment value="TO DO"/>
         <dependsOn>
           <property value="https://mos.esante.gouv.fr/NOS/TRE_R279-Clientele/FHIR/TRE-R279-Clientele"/>
           <value value="128"/>
@@ -263,6 +284,7 @@
       <target>
         <code value="1300"/>
         <equivalence value="narrower"/>
+        <comment value="TO DO"/>
         <dependsOn>
           <property value="https://mos.esante.gouv.fr/NOS/TRE_R279-Clientele/FHIR/TRE-R279-Clientele"/>
           <value value="200"/>
@@ -274,6 +296,7 @@
       <target>
         <code value="1300"/>
         <equivalence value="narrower"/>
+        <comment value="TO DO"/>
         <dependsOn>
           <property value="https://mos.esante.gouv.fr/NOS/TRE_R279-Clientele/FHIR/TRE-R279-Clientele"/>
           <value value="201"/>
@@ -285,6 +308,7 @@
       <target>
         <code value="1300"/>
         <equivalence value="narrower"/>
+        <comment value="TO DO"/>
         <dependsOn>
           <property value="https://mos.esante.gouv.fr/NOS/TRE_R279-Clientele/FHIR/TRE-R279-Clientele"/>
           <value value="202"/>
@@ -296,6 +320,7 @@
       <target>
         <code value="1300"/>
         <equivalence value="narrower"/>
+        <comment value="TO DO"/>
         <dependsOn>
           <property value="https://mos.esante.gouv.fr/NOS/TRE_R279-Clientele/FHIR/TRE-R279-Clientele"/>
           <value value="203"/>
@@ -307,6 +332,7 @@
       <target>
         <code value="1300"/>
         <equivalence value="narrower"/>
+        <comment value="TO DO"/>
         <dependsOn>
           <property value="https://mos.esante.gouv.fr/NOS/TRE_R279-Clientele/FHIR/TRE-R279-Clientele"/>
           <value value="204"/>
@@ -318,6 +344,7 @@
       <target>
         <code value="1300"/>
         <equivalence value="narrower"/>
+        <comment value="TO DO"/>
         <dependsOn>
           <property value="https://mos.esante.gouv.fr/NOS/TRE_R279-Clientele/FHIR/TRE-R279-Clientele"/>
           <value value="205"/>
@@ -329,6 +356,7 @@
       <target>
         <code value="1300"/>
         <equivalence value="narrower"/>
+        <comment value="TO DO"/>
         <dependsOn>
           <property value="https://mos.esante.gouv.fr/NOS/TRE_R279-Clientele/FHIR/TRE-R279-Clientele"/>
           <value value="206"/>
@@ -340,6 +368,7 @@
       <target>
         <code value="1300"/>
         <equivalence value="narrower"/>
+        <comment value="TO DO"/>
         <dependsOn>
           <property value="https://mos.esante.gouv.fr/NOS/TRE_R279-Clientele/FHIR/TRE-R279-Clientele"/>
           <value value="207"/>
@@ -351,6 +380,7 @@
       <target>
         <code value="1500"/>
         <equivalence value="narrower"/>
+        <comment value="TO DO"/>
         <dependsOn>
           <property value="https://mos.esante.gouv.fr/NOS/TRE_R279-Clientele/FHIR/TRE-R279-Clientele"/>
           <value value="410"/>
@@ -362,6 +392,7 @@
       <target>
         <code value="1500"/>
         <equivalence value="narrower"/>
+        <comment value="TO DO"/>
         <dependsOn>
           <property value="https://mos.esante.gouv.fr/NOS/TRE_R279-Clientele/FHIR/TRE-R279-Clientele"/>
           <value value="411"/>
@@ -373,6 +404,7 @@
       <target>
         <code value="1500"/>
         <equivalence value="narrower"/>
+        <comment value="TO DO"/>
         <dependsOn>
           <property value="https://mos.esante.gouv.fr/NOS/TRE_R279-Clientele/FHIR/TRE-R279-Clientele"/>
           <value value="412"/>
@@ -384,6 +416,7 @@
       <target>
         <code value="1500"/>
         <equivalence value="narrower"/>
+        <comment value="TO DO"/>
         <dependsOn>
           <property value="https://mos.esante.gouv.fr/NOS/TRE_R279-Clientele/FHIR/TRE-R279-Clientele"/>
           <value value="413"/>
@@ -395,6 +428,7 @@
       <target>
         <code value="1500"/>
         <equivalence value="narrower"/>
+        <comment value="TO DO"/>
         <dependsOn>
           <property value="https://mos.esante.gouv.fr/NOS/TRE_R279-Clientele/FHIR/TRE-R279-Clientele"/>
           <value value="414"/>
@@ -406,6 +440,7 @@
       <target>
         <code value="1500"/>
         <equivalence value="narrower"/>
+        <comment value="TO DO"/>
         <dependsOn>
           <property value="https://mos.esante.gouv.fr/NOS/TRE_R279-Clientele/FHIR/TRE-R279-Clientele"/>
           <value value="420"/>
@@ -417,6 +452,7 @@
       <target>
         <code value="1600"/>
         <equivalence value="narrower"/>
+        <comment value="TO DO"/>
         <dependsOn>
           <property value="https://mos.esante.gouv.fr/NOS/TRE_R279-Clientele/FHIR/TRE-R279-Clientele"/>
           <value value="500"/>
@@ -428,6 +464,7 @@
       <target>
         <code value="1600"/>
         <equivalence value="narrower"/>
+        <comment value="TO DO"/>
         <dependsOn>
           <property value="https://mos.esante.gouv.fr/NOS/TRE_R279-Clientele/FHIR/TRE-R279-Clientele"/>
           <value value="501"/>
@@ -439,6 +476,7 @@
       <target>
         <code value="1600"/>
         <equivalence value="narrower"/>
+        <comment value="TO DO"/>
         <dependsOn>
           <property value="https://mos.esante.gouv.fr/NOS/TRE_R279-Clientele/FHIR/TRE-R279-Clientele"/>
           <value value="502"/>
@@ -450,6 +488,7 @@
       <target>
         <code value="1600"/>
         <equivalence value="narrower"/>
+        <comment value="TO DO"/>
         <dependsOn>
           <property value="https://mos.esante.gouv.fr/NOS/TRE_R279-Clientele/FHIR/TRE-R279-Clientele"/>
           <value value="503"/>
@@ -461,6 +500,7 @@
       <target>
         <code value="1600"/>
         <equivalence value="narrower"/>
+        <comment value="TO DO"/>
         <dependsOn>
           <property value="https://mos.esante.gouv.fr/NOS/TRE_R279-Clientele/FHIR/TRE-R279-Clientele"/>
           <value value="506"/>
@@ -472,6 +512,7 @@
       <target>
         <code value="1700"/>
         <equivalence value="narrower"/>
+        <comment value="TO DO"/>
         <dependsOn>
           <property value="https://mos.esante.gouv.fr/NOS/TRE_R279-Clientele/FHIR/TRE-R279-Clientele"/>
           <value value="310"/>
@@ -483,6 +524,7 @@
       <target>
         <code value="1700"/>
         <equivalence value="narrower"/>
+        <comment value="TO DO"/>
         <dependsOn>
           <property value="https://mos.esante.gouv.fr/NOS/TRE_R279-Clientele/FHIR/TRE-R279-Clientele"/>
           <value value="311"/>
@@ -494,6 +536,7 @@
       <target>
         <code value="1700"/>
         <equivalence value="narrower"/>
+        <comment value="TO DO"/>
         <dependsOn>
           <property value="https://mos.esante.gouv.fr/NOS/TRE_R279-Clientele/FHIR/TRE-R279-Clientele"/>
           <value value="312"/>
@@ -505,6 +548,7 @@
       <target>
         <code value="1700"/>
         <equivalence value="narrower"/>
+        <comment value="TO DO"/>
         <dependsOn>
           <property value="https://mos.esante.gouv.fr/NOS/TRE_R279-Clientele/FHIR/TRE-R279-Clientele"/>
           <value value="313"/>
@@ -516,6 +560,7 @@
       <target>
         <code value="1700"/>
         <equivalence value="narrower"/>
+        <comment value="TO DO"/>
         <dependsOn>
           <property value="https://mos.esante.gouv.fr/NOS/TRE_R279-Clientele/FHIR/TRE-R279-Clientele"/>
           <value value="317"/>
@@ -527,6 +572,7 @@
       <target>
         <code value="1700"/>
         <equivalence value="narrower"/>
+        <comment value="TO DO"/>
         <dependsOn>
           <property value="https://mos.esante.gouv.fr/NOS/TRE_R279-Clientele/FHIR/TRE-R279-Clientele"/>
           <value value="318"/>
@@ -538,6 +584,7 @@
       <target>
         <code value="1800"/>
         <equivalence value="narrower"/>
+        <comment value="TO DO"/>
         <dependsOn>
           <property value="https://mos.esante.gouv.fr/NOS/TRE_R279-Clientele/FHIR/TRE-R279-Clientele"/>
           <value value="320"/>
@@ -549,6 +596,7 @@
       <target>
         <code value="1800"/>
         <equivalence value="narrower"/>
+        <comment value="TO DO"/>
         <dependsOn>
           <property value="https://mos.esante.gouv.fr/NOS/TRE_R279-Clientele/FHIR/TRE-R279-Clientele"/>
           <value value="321"/>
@@ -560,6 +608,7 @@
       <target>
         <code value="1800"/>
         <equivalence value="narrower"/>
+        <comment value="TO DO"/>
         <dependsOn>
           <property value="https://mos.esante.gouv.fr/NOS/TRE_R279-Clientele/FHIR/TRE-R279-Clientele"/>
           <value value="322"/>
@@ -571,6 +620,7 @@
       <target>
         <code value="1800"/>
         <equivalence value="narrower"/>
+        <comment value="TO DO"/>
         <dependsOn>
           <property value="https://mos.esante.gouv.fr/NOS/TRE_R279-Clientele/FHIR/TRE-R279-Clientele"/>
           <value value="323"/>
@@ -582,6 +632,7 @@
       <target>
         <code value="1800"/>
         <equivalence value="narrower"/>
+        <comment value="TO DO"/>
         <dependsOn>
           <property value="https://mos.esante.gouv.fr/NOS/TRE_R279-Clientele/FHIR/TRE-R279-Clientele"/>
           <value value="324"/>
@@ -593,6 +644,7 @@
       <target>
         <code value="1800"/>
         <equivalence value="narrower"/>
+        <comment value="TO DO"/>
         <dependsOn>
           <property value="https://mos.esante.gouv.fr/NOS/TRE_R279-Clientele/FHIR/TRE-R279-Clientele"/>
           <value value="327"/>
@@ -604,6 +656,7 @@
       <target>
         <code value="1900"/>
         <equivalence value="narrower"/>
+        <comment value="TO DO"/>
         <dependsOn>
           <property value="https://mos.esante.gouv.fr/NOS/TRE_R279-Clientele/FHIR/TRE-R279-Clientele"/>
           <value value="510"/>
@@ -615,6 +668,7 @@
       <target>
         <code value="1900"/>
         <equivalence value="narrower"/>
+        <comment value="TO DO"/>
         <dependsOn>
           <property value="https://mos.esante.gouv.fr/NOS/TRE_R279-Clientele/FHIR/TRE-R279-Clientele"/>
           <value value="511"/>
@@ -626,6 +680,7 @@
       <target>
         <code value="1900"/>
         <equivalence value="narrower"/>
+        <comment value="TO DO"/>
         <dependsOn>
           <property value="https://mos.esante.gouv.fr/NOS/TRE_R279-Clientele/FHIR/TRE-R279-Clientele"/>
           <value value="512"/>
@@ -637,6 +692,7 @@
       <target>
         <code value="2100"/>
         <equivalence value="narrower"/>
+        <comment value="TO DO"/>
         <dependsOn>
           <property value="https://mos.esante.gouv.fr/NOS/TRE_R279-Clientele/FHIR/TRE-R279-Clientele"/>
           <value value="700"/>
@@ -648,6 +704,7 @@
       <target>
         <code value="2100"/>
         <equivalence value="narrower"/>
+        <comment value="TO DO"/>
         <dependsOn>
           <property value="https://mos.esante.gouv.fr/NOS/TRE_R279-Clientele/FHIR/TRE-R279-Clientele"/>
           <value value="701"/>
@@ -659,6 +716,7 @@
       <target>
         <code value="2100"/>
         <equivalence value="narrower"/>
+        <comment value="TO DO"/>
         <dependsOn>
           <property value="https://mos.esante.gouv.fr/NOS/TRE_R279-Clientele/FHIR/TRE-R279-Clientele"/>
           <value value="702"/>
@@ -670,6 +728,7 @@
       <target>
         <code value="2100"/>
         <equivalence value="narrower"/>
+        <comment value="TO DO"/>
         <dependsOn>
           <property value="https://mos.esante.gouv.fr/NOS/TRE_R279-Clientele/FHIR/TRE-R279-Clientele"/>
           <value value="703"/>
@@ -681,6 +740,7 @@
       <target>
         <code value="2100"/>
         <equivalence value="narrower"/>
+        <comment value="TO DO"/>
         <dependsOn>
           <property value="https://mos.esante.gouv.fr/NOS/TRE_R279-Clientele/FHIR/TRE-R279-Clientele"/>
           <value value="704"/>
@@ -692,6 +752,7 @@
       <target>
         <code value="2100"/>
         <equivalence value="narrower"/>
+        <comment value="TO DO"/>
         <dependsOn>
           <property value="https://mos.esante.gouv.fr/NOS/TRE_R279-Clientele/FHIR/TRE-R279-Clientele"/>
           <value value="707"/>
@@ -703,6 +764,7 @@
       <target>
         <code value="2100"/>
         <equivalence value="narrower"/>
+        <comment value="TO DO"/>
         <dependsOn>
           <property value="https://mos.esante.gouv.fr/NOS/TRE_R279-Clientele/FHIR/TRE-R279-Clientele"/>
           <value value="710"/>
@@ -714,6 +776,7 @@
       <target>
         <code value="2100"/>
         <equivalence value="narrower"/>
+        <comment value="TO DO"/>
         <dependsOn>
           <property value="https://mos.esante.gouv.fr/NOS/TRE_R279-Clientele/FHIR/TRE-R279-Clientele"/>
           <value value="711"/>
@@ -725,6 +788,7 @@
       <target>
         <code value="3100"/>
         <equivalence value="narrower"/>
+        <comment value="TO DO"/>
         <dependsOn>
           <property value="https://mos.esante.gouv.fr/NOS/TRE_R279-Clientele/FHIR/TRE-R279-Clientele"/>
           <value value="800"/>
@@ -736,6 +800,7 @@
       <target>
         <code value="3100"/>
         <equivalence value="narrower"/>
+        <comment value="TO DO"/>
         <dependsOn>
           <property value="https://mos.esante.gouv.fr/NOS/TRE_R279-Clientele/FHIR/TRE-R279-Clientele"/>
           <value value="801"/>
@@ -747,6 +812,7 @@
       <target>
         <code value="3100"/>
         <equivalence value="narrower"/>
+        <comment value="TO DO"/>
         <dependsOn>
           <property value="https://mos.esante.gouv.fr/NOS/TRE_R279-Clientele/FHIR/TRE-R279-Clientele"/>
           <value value="802"/>
@@ -758,6 +824,7 @@
       <target>
         <code value="3100"/>
         <equivalence value="narrower"/>
+        <comment value="TO DO"/>
         <dependsOn>
           <property value="https://mos.esante.gouv.fr/NOS/TRE_R279-Clientele/FHIR/TRE-R279-Clientele"/>
           <value value="803"/>
@@ -769,6 +836,7 @@
       <target>
         <code value="3100"/>
         <equivalence value="narrower"/>
+        <comment value="TO DO"/>
         <dependsOn>
           <property value="https://mos.esante.gouv.fr/NOS/TRE_R279-Clientele/FHIR/TRE-R279-Clientele"/>
           <value value="804"/>
@@ -780,6 +848,7 @@
       <target>
         <code value="3100"/>
         <equivalence value="narrower"/>
+        <comment value="TO DO"/>
         <dependsOn>
           <property value="https://mos.esante.gouv.fr/NOS/TRE_R279-Clientele/FHIR/TRE-R279-Clientele"/>
           <value value="805"/>
@@ -791,6 +860,7 @@
       <target>
         <code value="3100"/>
         <equivalence value="narrower"/>
+        <comment value="TO DO"/>
         <dependsOn>
           <property value="https://mos.esante.gouv.fr/NOS/TRE_R279-Clientele/FHIR/TRE-R279-Clientele"/>
           <value value="806"/>
@@ -802,6 +872,7 @@
       <target>
         <code value="4100"/>
         <equivalence value="narrower"/>
+        <comment value="TO DO"/>
         <dependsOn>
           <property value="https://mos.esante.gouv.fr/NOS/TRE_R279-Clientele/FHIR/TRE-R279-Clientele"/>
           <value value="808"/>
@@ -813,6 +884,7 @@
       <target>
         <code value="4100"/>
         <equivalence value="narrower"/>
+        <comment value="TO DO"/>
         <dependsOn>
           <property value="https://mos.esante.gouv.fr/NOS/TRE_R279-Clientele/FHIR/TRE-R279-Clientele"/>
           <value value="809"/>
@@ -824,6 +896,7 @@
       <target>
         <code value="5100"/>
         <equivalence value="narrower"/>
+        <comment value="TO DO"/>
         <dependsOn>
           <property value="https://mos.esante.gouv.fr/NOS/TRE_R279-Clientele/FHIR/TRE-R279-Clientele"/>
           <value value="810"/>
@@ -835,6 +908,7 @@
       <target>
         <code value="5100"/>
         <equivalence value="narrower"/>
+        <comment value="TO DO"/>
         <dependsOn>
           <property value="https://mos.esante.gouv.fr/NOS/TRE_R279-Clientele/FHIR/TRE-R279-Clientele"/>
           <value value="811"/>
@@ -846,6 +920,7 @@
       <target>
         <code value="5100"/>
         <equivalence value="narrower"/>
+        <comment value="TO DO"/>
         <dependsOn>
           <property value="https://mos.esante.gouv.fr/NOS/TRE_R279-Clientele/FHIR/TRE-R279-Clientele"/>
           <value value="812"/>
@@ -857,6 +932,7 @@
       <target>
         <code value="5100"/>
         <equivalence value="narrower"/>
+        <comment value="TO DO"/>
         <dependsOn>
           <property value="https://mos.esante.gouv.fr/NOS/TRE_R279-Clientele/FHIR/TRE-R279-Clientele"/>
           <value value="815"/>
@@ -868,6 +944,7 @@
       <target>
         <code value="5100"/>
         <equivalence value="narrower"/>
+        <comment value="TO DO"/>
         <dependsOn>
           <property value="https://mos.esante.gouv.fr/NOS/TRE_R279-Clientele/FHIR/TRE-R279-Clientele"/>
           <value value="816"/>
@@ -879,6 +956,7 @@
       <target>
         <code value="5100"/>
         <equivalence value="narrower"/>
+        <comment value="TO DO"/>
         <dependsOn>
           <property value="https://mos.esante.gouv.fr/NOS/TRE_R279-Clientele/FHIR/TRE-R279-Clientele"/>
           <value value="817"/>
@@ -890,6 +968,7 @@
       <target>
         <code value="5100"/>
         <equivalence value="narrower"/>
+        <comment value="TO DO"/>
         <dependsOn>
           <property value="https://mos.esante.gouv.fr/NOS/TRE_R279-Clientele/FHIR/TRE-R279-Clientele"/>
           <value value="818"/>
@@ -901,6 +980,7 @@
       <target>
         <code value="5100"/>
         <equivalence value="narrower"/>
+        <comment value="TO DO"/>
         <dependsOn>
           <property value="https://mos.esante.gouv.fr/NOS/TRE_R279-Clientele/FHIR/TRE-R279-Clientele"/>
           <value value="819"/>
@@ -912,6 +992,7 @@
       <target>
         <code value="5100"/>
         <equivalence value="narrower"/>
+        <comment value="TO DO"/>
         <dependsOn>
           <property value="https://mos.esante.gouv.fr/NOS/TRE_R279-Clientele/FHIR/TRE-R279-Clientele"/>
           <value value="820"/>
@@ -923,6 +1004,7 @@
       <target>
         <code value="5100"/>
         <equivalence value="narrower"/>
+        <comment value="TO DO"/>
         <dependsOn>
           <property value="https://mos.esante.gouv.fr/NOS/TRE_R279-Clientele/FHIR/TRE-R279-Clientele"/>
           <value value="831"/>
@@ -934,6 +1016,7 @@
       <target>
         <code value="5100"/>
         <equivalence value="narrower"/>
+        <comment value="TO DO"/>
         <dependsOn>
           <property value="https://mos.esante.gouv.fr/NOS/TRE_R279-Clientele/FHIR/TRE-R279-Clientele"/>
           <value value="832"/>
@@ -945,6 +1028,7 @@
       <target>
         <code value="5100"/>
         <equivalence value="narrower"/>
+        <comment value="TO DO"/>
         <dependsOn>
           <property value="https://mos.esante.gouv.fr/NOS/TRE_R279-Clientele/FHIR/TRE-R279-Clientele"/>
           <value value="836"/>
@@ -956,6 +1040,7 @@
       <target>
         <code value="5100"/>
         <equivalence value="narrower"/>
+        <comment value="TO DO"/>
         <dependsOn>
           <property value="https://mos.esante.gouv.fr/NOS/TRE_R279-Clientele/FHIR/TRE-R279-Clientele"/>
           <value value="840"/>
@@ -967,6 +1052,7 @@
       <target>
         <code value="5100"/>
         <equivalence value="narrower"/>
+        <comment value="TO DO"/>
         <dependsOn>
           <property value="https://mos.esante.gouv.fr/NOS/TRE_R279-Clientele/FHIR/TRE-R279-Clientele"/>
           <value value="899"/>
@@ -978,6 +1064,7 @@
       <target>
         <code value="5200"/>
         <equivalence value="narrower"/>
+        <comment value="TO DO"/>
         <dependsOn>
           <property value="https://mos.esante.gouv.fr/NOS/TRE_R279-Clientele/FHIR/TRE-R279-Clientele"/>
           <value value="821"/>
@@ -989,6 +1076,7 @@
       <target>
         <code value="5200"/>
         <equivalence value="narrower"/>
+        <comment value="TO DO"/>
         <dependsOn>
           <property value="https://mos.esante.gouv.fr/NOS/TRE_R279-Clientele/FHIR/TRE-R279-Clientele"/>
           <value value="822"/>
@@ -1000,6 +1088,7 @@
       <target>
         <code value="5200"/>
         <equivalence value="narrower"/>
+        <comment value="TO DO"/>
         <dependsOn>
           <property value="https://mos.esante.gouv.fr/NOS/TRE_R279-Clientele/FHIR/TRE-R279-Clientele"/>
           <value value="824"/>
@@ -1011,6 +1100,7 @@
       <target>
         <code value="5200"/>
         <equivalence value="narrower"/>
+        <comment value="TO DO"/>
         <dependsOn>
           <property value="https://mos.esante.gouv.fr/NOS/TRE_R279-Clientele/FHIR/TRE-R279-Clientele"/>
           <value value="827"/>
@@ -1022,6 +1112,7 @@
       <target>
         <code value="5200"/>
         <equivalence value="narrower"/>
+        <comment value="TO DO"/>
         <dependsOn>
           <property value="https://mos.esante.gouv.fr/NOS/TRE_R279-Clientele/FHIR/TRE-R279-Clientele"/>
           <value value="829"/>
@@ -1033,6 +1124,7 @@
       <target>
         <code value="5200"/>
         <equivalence value="narrower"/>
+        <comment value="TO DO"/>
         <dependsOn>
           <property value="https://mos.esante.gouv.fr/NOS/TRE_R279-Clientele/FHIR/TRE-R279-Clientele"/>
           <value value="830"/>
@@ -1044,6 +1136,7 @@
       <target>
         <code value="5200"/>
         <equivalence value="narrower"/>
+        <comment value="TO DO"/>
         <dependsOn>
           <property value="https://mos.esante.gouv.fr/NOS/TRE_R279-Clientele/FHIR/TRE-R279-Clientele"/>
           <value value="835"/>
@@ -1055,6 +1148,7 @@
       <target>
         <code value="5300"/>
         <equivalence value="narrower"/>
+        <comment value="TO DO"/>
         <dependsOn>
           <property value="https://mos.esante.gouv.fr/NOS/TRE_R279-Clientele/FHIR/TRE-R279-Clientele"/>
           <value value="807"/>
@@ -1066,6 +1160,7 @@
       <target>
         <code value="5300"/>
         <equivalence value="narrower"/>
+        <comment value="TO DO"/>
         <dependsOn>
           <property value="https://mos.esante.gouv.fr/NOS/TRE_R279-Clientele/FHIR/TRE-R279-Clientele"/>
           <value value="860"/>
@@ -1077,6 +1172,7 @@
       <target>
         <code value="5300"/>
         <equivalence value="narrower"/>
+        <comment value="TO DO"/>
         <dependsOn>
           <property value="https://mos.esante.gouv.fr/NOS/TRE_R279-Clientele/FHIR/TRE-R279-Clientele"/>
           <value value="861"/>
@@ -1088,6 +1184,7 @@
       <target>
         <code value="5300"/>
         <equivalence value="narrower"/>
+        <comment value="TO DO"/>
         <dependsOn>
           <property value="https://mos.esante.gouv.fr/NOS/TRE_R279-Clientele/FHIR/TRE-R279-Clientele"/>
           <value value="862"/>
@@ -1099,6 +1196,7 @@
       <target>
         <code value="6100"/>
         <equivalence value="narrower"/>
+        <comment value="TO DO"/>
         <dependsOn>
           <property value="https://mos.esante.gouv.fr/NOS/TRE_R279-Clientele/FHIR/TRE-R279-Clientele"/>
           <value value="823"/>
@@ -1110,6 +1208,7 @@
       <target>
         <code value="6100"/>
         <equivalence value="narrower"/>
+        <comment value="TO DO"/>
         <dependsOn>
           <property value="https://mos.esante.gouv.fr/NOS/TRE_R279-Clientele/FHIR/TRE-R279-Clientele"/>
           <value value="825"/>
@@ -1121,6 +1220,7 @@
       <target>
         <code value="6100"/>
         <equivalence value="narrower"/>
+        <comment value="TO DO"/>
         <dependsOn>
           <property value="https://mos.esante.gouv.fr/NOS/TRE_R279-Clientele/FHIR/TRE-R279-Clientele"/>
           <value value="826"/>
@@ -1132,6 +1232,7 @@
       <target>
         <code value="6100"/>
         <equivalence value="narrower"/>
+        <comment value="TO DO"/>
         <dependsOn>
           <property value="https://mos.esante.gouv.fr/NOS/TRE_R279-Clientele/FHIR/TRE-R279-Clientele"/>
           <value value="828"/>
@@ -1143,6 +1244,7 @@
       <target>
         <code value="6100"/>
         <equivalence value="narrower"/>
+        <comment value="TO DO"/>
         <dependsOn>
           <property value="https://mos.esante.gouv.fr/NOS/TRE_R279-Clientele/FHIR/TRE-R279-Clientele"/>
           <value value="833"/>
@@ -1154,6 +1256,7 @@
       <target>
         <code value="6100"/>
         <equivalence value="narrower"/>
+        <comment value="TO DO"/>
         <dependsOn>
           <property value="https://mos.esante.gouv.fr/NOS/TRE_R279-Clientele/FHIR/TRE-R279-Clientele"/>
           <value value="834"/>
@@ -1165,6 +1268,7 @@
       <target>
         <code value="6200"/>
         <equivalence value="narrower"/>
+        <comment value="TO DO"/>
         <dependsOn>
           <property value="https://mos.esante.gouv.fr/NOS/TRE_R279-Clientele/FHIR/TRE-R279-Clientele"/>
           <value value="040"/>
@@ -1176,6 +1280,7 @@
       <target>
         <code value="6200"/>
         <equivalence value="narrower"/>
+        <comment value="TO DO"/>
         <dependsOn>
           <property value="https://mos.esante.gouv.fr/NOS/TRE_R279-Clientele/FHIR/TRE-R279-Clientele"/>
           <value value="041"/>
@@ -1187,6 +1292,7 @@
       <target>
         <code value="6200"/>
         <equivalence value="narrower"/>
+        <comment value="TO DO"/>
         <dependsOn>
           <property value="https://mos.esante.gouv.fr/NOS/TRE_R279-Clientele/FHIR/TRE-R279-Clientele"/>
           <value value="042"/>
@@ -1198,6 +1304,7 @@
       <target>
         <code value="6200"/>
         <equivalence value="narrower"/>
+        <comment value="TO DO"/>
         <dependsOn>
           <property value="https://mos.esante.gouv.fr/NOS/TRE_R279-Clientele/FHIR/TRE-R279-Clientele"/>
           <value value="043"/>
@@ -1209,6 +1316,7 @@
       <target>
         <code value="7100"/>
         <equivalence value="narrower"/>
+        <comment value="TO DO"/>
         <dependsOn>
           <property value="https://mos.esante.gouv.fr/NOS/TRE_R279-Clientele/FHIR/TRE-R279-Clientele"/>
           <value value="990"/>
@@ -1220,6 +1328,7 @@
       <target>
         <code value="8100"/>
         <equivalence value="narrower"/>
+        <comment value="TO DO"/>
         <dependsOn>
           <property value="https://mos.esante.gouv.fr/NOS/TRE_R279-Clientele/FHIR/TRE-R279-Clientele"/>
           <value value="600"/>
@@ -1231,6 +1340,7 @@
       <target>
         <code value="8100"/>
         <equivalence value="narrower"/>
+        <comment value="TO DO"/>
         <dependsOn>
           <property value="https://mos.esante.gouv.fr/NOS/TRE_R279-Clientele/FHIR/TRE-R279-Clientele"/>
           <value value="601"/>
@@ -1242,6 +1352,7 @@
       <target>
         <code value="8100"/>
         <equivalence value="narrower"/>
+        <comment value="TO DO"/>
         <dependsOn>
           <property value="https://mos.esante.gouv.fr/NOS/TRE_R279-Clientele/FHIR/TRE-R279-Clientele"/>
           <value value="602"/>
@@ -1253,6 +1364,7 @@
       <target>
         <code value="8200"/>
         <equivalence value="narrower"/>
+        <comment value="TO DO"/>
         <dependsOn>
           <property value="https://mos.esante.gouv.fr/NOS/TRE_R279-Clientele/FHIR/TRE-R279-Clientele"/>
           <value value="620"/>
@@ -1264,6 +1376,7 @@
       <target>
         <code value="8300"/>
         <equivalence value="narrower"/>
+        <comment value="TO DO"/>
         <dependsOn>
           <property value="https://mos.esante.gouv.fr/NOS/TRE_R279-Clientele/FHIR/TRE-R279-Clientele"/>
           <value value="430"/>
@@ -1275,6 +1388,7 @@
       <target>
         <code value="8300"/>
         <equivalence value="narrower"/>
+        <comment value="TO DO"/>
         <dependsOn>
           <property value="https://mos.esante.gouv.fr/NOS/TRE_R279-Clientele/FHIR/TRE-R279-Clientele"/>
           <value value="431"/>
@@ -1286,6 +1400,7 @@
       <target>
         <code value="8300"/>
         <equivalence value="narrower"/>
+        <comment value="TO DO"/>
         <dependsOn>
           <property value="https://mos.esante.gouv.fr/NOS/TRE_R279-Clientele/FHIR/TRE-R279-Clientele"/>
           <value value="432"/>
@@ -1297,6 +1412,7 @@
       <target>
         <code value="8300"/>
         <equivalence value="narrower"/>
+        <comment value="TO DO"/>
         <dependsOn>
           <property value="https://mos.esante.gouv.fr/NOS/TRE_R279-Clientele/FHIR/TRE-R279-Clientele"/>
           <value value="433"/>
@@ -1308,6 +1424,7 @@
       <target>
         <code value="8300"/>
         <equivalence value="narrower"/>
+        <comment value="TO DO"/>
         <dependsOn>
           <property value="https://mos.esante.gouv.fr/NOS/TRE_R279-Clientele/FHIR/TRE-R279-Clientele"/>
           <value value="434"/>
@@ -1319,6 +1436,7 @@
       <target>
         <code value="8300"/>
         <equivalence value="narrower"/>
+        <comment value="TO DO"/>
         <dependsOn>
           <property value="https://mos.esante.gouv.fr/NOS/TRE_R279-Clientele/FHIR/TRE-R279-Clientele"/>
           <value value="435"/>
@@ -1330,6 +1448,7 @@
       <target>
         <code value="8300"/>
         <equivalence value="narrower"/>
+        <comment value="TO DO"/>
         <dependsOn>
           <property value="https://mos.esante.gouv.fr/NOS/TRE_R279-Clientele/FHIR/TRE-R279-Clientele"/>
           <value value="436"/>
@@ -1341,6 +1460,7 @@
       <target>
         <code value="8300"/>
         <equivalence value="narrower"/>
+        <comment value="TO DO"/>
         <dependsOn>
           <property value="https://mos.esante.gouv.fr/NOS/TRE_R279-Clientele/FHIR/TRE-R279-Clientele"/>
           <value value="439"/>
@@ -1352,6 +1472,7 @@
       <target>
         <code value="8300"/>
         <equivalence value="narrower"/>
+        <comment value="TO DO"/>
         <dependsOn>
           <property value="https://mos.esante.gouv.fr/NOS/TRE_R279-Clientele/FHIR/TRE-R279-Clientele"/>
           <value value="440"/>
@@ -1363,6 +1484,7 @@
       <target>
         <code value="8400"/>
         <equivalence value="narrower"/>
+        <comment value="TO DO"/>
         <dependsOn>
           <property value="https://mos.esante.gouv.fr/NOS/TRE_R279-Clientele/FHIR/TRE-R279-Clientele"/>
           <value value="813"/>
@@ -1374,6 +1496,7 @@
       <target>
         <code value="8400"/>
         <equivalence value="narrower"/>
+        <comment value="TO DO"/>
         <dependsOn>
           <property value="https://mos.esante.gouv.fr/NOS/TRE_R279-Clientele/FHIR/TRE-R279-Clientele"/>
           <value value="814"/>
@@ -1385,6 +1508,7 @@
       <target>
         <code value="8400"/>
         <equivalence value="narrower"/>
+        <comment value="TO DO"/>
         <dependsOn>
           <property value="https://mos.esante.gouv.fr/NOS/TRE_R279-Clientele/FHIR/TRE-R279-Clientele"/>
           <value value="850"/>
@@ -1396,6 +1520,7 @@
       <target>
         <code value="8400"/>
         <equivalence value="narrower"/>
+        <comment value="TO DO"/>
         <dependsOn>
           <property value="https://mos.esante.gouv.fr/NOS/TRE_R279-Clientele/FHIR/TRE-R279-Clientele"/>
           <value value="851"/>
@@ -1407,6 +1532,7 @@
       <target>
         <code value="8400"/>
         <equivalence value="narrower"/>
+        <comment value="TO DO"/>
         <dependsOn>
           <property value="https://mos.esante.gouv.fr/NOS/TRE_R279-Clientele/FHIR/TRE-R279-Clientele"/>
           <value value="852"/>
@@ -1418,6 +1544,7 @@
       <target>
         <code value="8400"/>
         <equivalence value="narrower"/>
+        <comment value="TO DO"/>
         <dependsOn>
           <property value="https://mos.esante.gouv.fr/NOS/TRE_R279-Clientele/FHIR/TRE-R279-Clientele"/>
           <value value="853"/>

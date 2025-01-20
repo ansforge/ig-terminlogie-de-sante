@@ -6,7 +6,7 @@
 
 # - resource -------------------------------------------------------------------
 
-<https://interop.esante.gouv.fr/terminologie/CodeSystem/TRE-R249-Sexe> a fhir:CodeSystem ;
+<https://interop.esante.gouv.fr/terminologies/CodeSystem/TRE-R249-Sexe> a fhir:CodeSystem ;
   fhir:nodeRole fhir:treeRoot ;
   fhir:id [ fhir:v "TRE-R249-Sexe"] ; # 
   fhir:meta [

@@ -5,7 +5,7 @@
 
 # - resource -------------------------------------------------------------------
 
-<https://interop.esante.gouv.fr/terminologie/ValueSet/JDV-J115-Langue-ENREG> a fhir:ValueSet ;
+<https://interop.esante.gouv.fr/terminologies/ValueSet/JDV-J115-Langue-ENREG> a fhir:ValueSet ;
   fhir:nodeRole fhir:treeRoot ;
   fhir:id [ fhir:v "JDV-J115-Langue-ENREG"] ; # 
   fhir:meta [

@@ -5,7 +5,7 @@
 
 # - resource -------------------------------------------------------------------
 
-<https://interop.esante.gouv.fr/terminologie/ValueSet/vs-bdpm-all> a fhir:ValueSet ;
+<https://interop.esante.gouv.fr/terminologies/ValueSet/vs-bdpm-all> a fhir:ValueSet ;
   fhir:nodeRole fhir:treeRoot ;
   fhir:id [ fhir:v "vs-bdpm-all"] ; # 
   fhir:meta [
@@ -25,7 +25,7 @@
   fhir:name [ fhir:v "ValueSet_BDPM_All"] ; # 
   fhir:status [ fhir:v "active"] ; # 
   fhir:experimental [ fhir:v "false"^^xsd:boolean] ; # 
-  fhir:date [ fhir:v "2025-01-10T09:39:42+00:00"^^xsd:dateTime] ; # 
+  fhir:date [ fhir:v "2025-01-20T10:44:30+00:00"^^xsd:dateTime] ; # 
   fhir:publisher [ fhir:v "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris"] ; # 
   fhir:description [ fhir:v "Ce jeu de valeurs inclut tous les codes de la terminologie BDPM"] ; # 
   fhir:compose [

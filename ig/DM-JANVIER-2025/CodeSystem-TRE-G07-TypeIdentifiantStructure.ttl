@@ -6,7 +6,7 @@
 
 # - resource -------------------------------------------------------------------
 
-<https://interop.esante.gouv.fr/terminologie/CodeSystem/TRE-G07-TypeIdentifiantStructure> a fhir:CodeSystem ;
+<https://interop.esante.gouv.fr/terminologies/CodeSystem/TRE-G07-TypeIdentifiantStructure> a fhir:CodeSystem ;
   fhir:nodeRole fhir:treeRoot ;
   fhir:id [ fhir:v "TRE-G07-TypeIdentifiantStructure"] ; # 
   fhir:meta [

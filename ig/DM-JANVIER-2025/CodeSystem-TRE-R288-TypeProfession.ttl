@@ -6,7 +6,7 @@
 
 # - resource -------------------------------------------------------------------
 
-<https://interop.esante.gouv.fr/terminologie/CodeSystem/TRE-R288-TypeProfession> a fhir:CodeSystem ;
+<https://interop.esante.gouv.fr/terminologies/CodeSystem/TRE-R288-TypeProfession> a fhir:CodeSystem ;
   fhir:nodeRole fhir:treeRoot ;
   fhir:id [ fhir:v "TRE-R288-TypeProfession"] ; # 
   fhir:meta [

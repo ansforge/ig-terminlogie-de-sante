@@ -5,7 +5,7 @@
 
 # - resource -------------------------------------------------------------------
 
-<https://interop.esante.gouv.fr/terminologie/ConceptMap/ASS-X09-DepartementOM-RegionOM> a fhir:ConceptMap ;
+<https://interop.esante.gouv.fr/terminologies/ConceptMap/ASS-X09-DepartementOM-RegionOM> a fhir:ConceptMap ;
   fhir:nodeRole fhir:treeRoot ;
   fhir:id [ fhir:v "ASS-X09-DepartementOM-RegionOM"] ; # 
   fhir:text [

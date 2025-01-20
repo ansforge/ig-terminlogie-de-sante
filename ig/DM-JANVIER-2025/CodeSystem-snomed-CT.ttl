@@ -5,7 +5,7 @@
 
 # - resource -------------------------------------------------------------------
 
-<https://interop.esante.gouv.fr/terminologie/CodeSystem/snomed-CT> a fhir:CodeSystem ;
+<https://interop.esante.gouv.fr/terminologies/CodeSystem/snomed-CT> a fhir:CodeSystem ;
   fhir:nodeRole fhir:treeRoot ;
   fhir:id [ fhir:v "snomed-CT"] ; # 
   fhir:language [ fhir:v "en"] ; # 

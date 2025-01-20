@@ -7,11 +7,11 @@
   },
   "url" : "https://mos.esante.gouv.fr/NOS/ASS-X11-FinessAgregatStatutJuridique",
   "version" : "5.0.0",
-  "name" : "ASS-X11-FinessAgregatStatutJuridique",
-  "title" : "ASS-X11-FinessAgregatStatutJuridique",
+  "name" : "ASS_X11_FinessAgregatStatutJuridique",
+  "title" : "ASS_X11_FinessAgregatStatutJuridique",
   "status" : "active",
   "experimental" : false,
-  "date" : "2025-01-10T09:39:42+00:00",
+  "date" : "2025-01-20T10:44:30+00:00",
   "publisher" : "ANS",
   "contact" : [{
     "name" : "ANS",
@@ -20,6 +20,7 @@
       "value" : "https://esante.gouv.fr"
     }]
   }],
+  "description" : "ASS_X11_FinessAgregatStatutJuridique",
   "jurisdiction" : [{
     "coding" : [{
       "system" : "urn:iso:std:iso:3166",

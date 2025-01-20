@@ -127,7 +127,7 @@ $(document).ready(function(){
       resultOnto      
       $.ajax({
         type: 'get',
-        url: "https://smt.esante.gouv.fr/fhir//ValueSet/$expand?_format=json&url=" + ($('i:contains("Official URL")').next()).contents().eq(0).text() + "&filter=" + $('#ontoSearch').val(),
+        url: "https://smt.esante.gouv.fr/fhir//ValueSet/" + $('#idValue').val() + "/$expand?_format=json&filter=" + $('#ontoSearch').val(),
         contentType: 'application/json',  
         dataType:"json",     
       })
@@ -148,13 +148,13 @@ $(document).ready(function(){
           console.error(err);
         })
         .always(() => {
-          $('#requeteOnto').html("GET https://smt.esante.gouv.fr/fhir//ValueSet/$expand?_format=json&url=" + ($('i:contains("Official URL")').next()).contents().eq(0).text() + "&filter=" + $('#ontoSearch').val());
+          $('#requeteOnto').html("GET https://smt.esante.gouv.fr/fhir/ValueSet/"+ $('#idValue').val()  + "/$expand?_format=json&&filter=" + $('#ontoSearch').val());
         });
     });      
     
     
     
-    $('#orig').find('table').each(function(indextable) { 
+    $('#orig').find('table').not(".grid").each(function(indextable) { 
       if($(this).find("tr").length ==1) {
         $(this).parent().hide();
     }
@@ -197,6 +197,50 @@ $(document).ready(function(){
         
     });
     
+  $('#origConceptMap').find('table').each(function(indextable) { 
+      if($(this).find("tr").length ==1) {
+        $(this).parent().hide();
+    }
+        $('<div class="form-group pull-right"> <input type="text"  style="height:auto;font-size:12px" class="search' + indextable +' form-control" placeholder="Recherche">  <span class="counter' + indextable + ' "></span></div>').insertBefore($(this));	
+        firstTr = $(this).find('tr:first').remove()
+        firstTr.find('td').contents().unwrap().wrap('<th>')
+        $(this).prepend($('<thead></thead>').append(firstTr))
+        $(this).addClass("results"+indextable); 
+          $(this).addClass("table-striped");
+    
+      $(".search"+indextable).keyup(function () {
+        var searchTerm = $(".search"+indextable).val();
+        var listItem = $('.results'+indextable +' tbody').children('tr');
+        var searchSplit = searchTerm.replace(/ /g, "'):containsi('")
+        
+      $.extend($.expr[':'], {'containsi': function(elem, i, match, array){
+            return (elem.textContent || elem.innerText || '').toLowerCase().indexOf((match[3] || "").toLowerCase()) >= 0;
+        }
+      });
+        
+      $(".results"+indextable +" tbody tr").not(":containsi('" + searchSplit + "')").each(function(e){
+        $(this).attr('visible','false');
+      });
+    
+      $(".results"+indextable +" tbody tr:containsi('" + searchSplit + "')").each(function(e){
+        $(this).attr('visible','true');
+      });
+    
+      if(searchSplit=="") {
+        $(".results"+indextable +" tbody tr").attr('visible','true');
+        $('.counter'+indextable).text("");
+      }
+    
+      var jobCount = $('.results'+indextable +' tbody tr[visible="true"]').length;
+        $('.counter'+indextable).text(jobCount + ' item');
+    
+      if(jobCount == '0') {$('.no-result').show();}
+        else {$('.no-result').hide();}
+              });
+        
+    });
+
+
     
     if($("table.codes").find('tr:eq(0) th:eq(4)').text()=='dateFin')
         $("table.codes tr td:nth-child(5):not(:empty)").parent().children().css("background-color","#E69215");     

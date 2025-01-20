@@ -5,7 +5,7 @@
 
 # - resource -------------------------------------------------------------------
 
-<https://interop.esante.gouv.fr/terminologie/CodeSystem/terminologie-nuva> a fhir:CodeSystem ;
+<https://interop.esante.gouv.fr/terminologies/CodeSystem/terminologie-nuva> a fhir:CodeSystem ;
   fhir:nodeRole fhir:treeRoot ;
   fhir:id [ fhir:v "terminologie-nuva"] ; # 
   fhir:meta [

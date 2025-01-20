@@ -5,7 +5,7 @@
 
 # - resource -------------------------------------------------------------------
 
-<https://interop.esante.gouv.fr/terminologie/CodeSystem/service-type> a fhir:CodeSystem ;
+<https://interop.esante.gouv.fr/terminologies/CodeSystem/service-type> a fhir:CodeSystem ;
   fhir:nodeRole fhir:treeRoot ;
   fhir:id [ fhir:v "service-type"] ; # 
   fhir:meta [

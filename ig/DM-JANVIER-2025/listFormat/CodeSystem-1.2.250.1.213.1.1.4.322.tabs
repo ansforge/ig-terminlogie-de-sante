@@ -1,5 +1,5 @@
 <OID>;<Type fichier>;<Nom fichier>;<Description>;<URL fichier>;<Date valid>;<Date fin>;<Date MAJ>
-1.2.250.1.213.1.1.4.322;TRE;TA_ASIP.tabs;TA_ASIP;;20010101120000;;20241218174828
+1.2.250.1.213.1.1.4.322;TRE;TA_ASIP.tabs;TA_ASIP Version 1.98;;20010101120000;;20250113100359
 <OID>;<Code>;<Libellé adapté>;<Libellé court>;<Libellé long>;<Date valid>;<Date fin>;<Date MAJ> 
 1.2.250.1.213.1.1.4.322;D0009-6;Paroi Libre de l’OD;Paroi Libre de l’OD;Paroi Libre de l’OD;;;
 1.2.250.1.213.1.1.4.322;D0009-7;Plancher VD;Plancher VD;Plancher VD;;;
@@ -505,14 +505,6 @@
 1.2.250.1.213.1.1.4.322;MED-052;Arrêt de tous les traitements actifs;Arrêt de tous les traitements actifs;Arrêt de tous les traitements actifs;;;
 1.2.250.1.213.1.1.4.322;MED-054;Proposition thérapeutique;Proposition thérapeutique;Proposition thérapeutique;;;
 1.2.250.1.213.1.1.4.322;MED-055;Sevrage de moins de 12 mois;Sevrage de moins de 12 mois;Sevrage de moins de 12 mois;;;
-1.2.250.1.213.1.1.4.322;MED-056;Problèmes liés aux médicaments;Problèmes liés aux médicaments;Problèmes liés aux médicaments;;;
-1.2.250.1.213.1.1.4.322;MED-057;Problème de mobilité;Problème de mobilité;Problème de mobilité;;;
-1.2.250.1.213.1.1.4.322;MED-058;Isolement;Isolement;Isolement;;;
-1.2.250.1.213.1.1.4.322;MED-059;Précarité;Précarité;Précarité;;;
-1.2.250.1.213.1.1.4.322;MED-060;Incapacité dans les activités de base de la vie quotidienne;Incapacité dans les activités de base de la vie quotidienne;Incapacité dans les activités de base de la vie quotidienne;;;
-1.2.250.1.213.1.1.4.322;MED-061;Troubles nutritionnels / difficulté à avoir une alimentation adaptée;Troubles nutritionnels / difficulté à avoir une alimentation adaptée;Troubles nutritionnels / difficulté à avoir une alimentation adaptée;;;
-1.2.250.1.213.1.1.4.322;MED-062;Difficulté à prendre soin de soi;Difficulté à prendre soin de soi;Difficulté à prendre soin de soi;;;
-1.2.250.1.213.1.1.4.322;MED-063;Troubles de l'humeur;Troubles de l'humeur;Troubles de l'humeur;;;
 1.2.250.1.213.1.1.4.322;MED-064;Sujet apparemment sain;Sujet apparemment sain;Sujet apparemment sain;;;
 1.2.250.1.213.1.1.4.322;MED-065;Patient ayant précédemment donné un échantillon biologique pour la recherche MR;Patient ayant précédemment donné un échantillon biologique pour la recherche MR;Patient ayant précédemment donné un échantillon biologique pour la recherche MR;;;
 1.2.250.1.213.1.1.4.322;MED-066;Patient ayant précédemment donné un échantillon biologique pour le diagnostic moléculaire;Patient ayant précédemment donné un échantillon biologique pour le diagnostic moléculaire;Patient ayant précédemment donné un échantillon biologique pour le diagnostic moléculaire;;;
@@ -611,10 +603,10 @@
 1.2.250.1.213.1.1.4.322;MED-189;Développement psychomoteur;Développement psychomoteur;Développement psychomoteur;;;
 1.2.250.1.213.1.1.4.322;MED-200;Marche acquise;Marche acquise;Marche acquise;;;
 1.2.250.1.213.1.1.4.322;MED-201;Age de la marche acquise (mois);Age de la marche acquise (mois);Age de la marche acquise (mois);;;
-1.2.250.1.213.1.1.4.322;MED-210;Cause Fœtale;Cause Fœtale;Cause Fœtale;;;
+1.2.250.1.213.1.1.4.322;MED-210;Cause fœtale;Cause fœtale;Cause fœtale;;;
 1.2.250.1.213.1.1.4.322;MED-213;Joue à coucou le voilà;Joue à coucou le voilà;Joue à coucou le voilà;;;
 1.2.250.1.213.1.1.4.322;MED-218;Rééducation en cours d'hospitalisation;Rééducation en cours d'hospitalisation;Rééducation en cours d'hospitalisation;;;
-1.2.250.1.213.1.1.4.322;MED-219;Cause Maternelle;Cause Maternelle;Cause Maternelle;;;
+1.2.250.1.213.1.1.4.322;MED-219;Cause maternelle;Cause maternelle;Cause maternelle;;;
 1.2.250.1.213.1.1.4.322;MED-220;Analgésie morphinique;Analgésie morphinique;Analgésie morphinique;;;
 1.2.250.1.213.1.1.4.322;MED-222;Pas d'anesthésie;Pas d'anesthésie;Pas d'anesthésie;;;
 1.2.250.1.213.1.1.4.322;MED-225;Naissance à terme;Naissance à terme;Naissance à terme;;;
@@ -749,12 +741,6 @@
 1.2.250.1.213.1.1.4.322;MED-378;Hémorragie intracrânienne;Hémorragie intracrânienne;Hémorragie intracrânienne;;;
 1.2.250.1.213.1.1.4.322;MED-379;Infarctus jugé sévère sur l’imagerie;Infarctus jugé sévère sur l’imagerie;Infarctus jugé sévère sur l’imagerie;;;
 1.2.250.1.213.1.1.4.322;MED-380;Déficit moteur de la main;Déficit moteur de la main;Déficit moteur de la main;;;
-1.2.250.1.213.1.1.4.322;MED-382;Absence de symptômes;Absence de symptômes;Absence de symptômes;;;
-1.2.250.1.213.1.1.4.322;MED-383;Symptômes mineurs sans retentissement sur la vie quotidienne;Symptômes mineurs sans retentissement sur la vie quotidienne;Symptômes mineurs sans retentissement sur la vie quotidienne;;;
-1.2.250.1.213.1.1.4.322;MED-384;Symptôme ou handicap mineur qui conduit à certaines restrictions dans le mode de vie, mais qui n’interfère pas avec la capacité du patient à se prendre en charge;Symptôme ou handicap mineur qui conduit à certaines restrictions dans le mode de vie, mais qui n’interfère pas avec la capacité du patient à se prendre en charge;Symptôme ou handicap mineur qui conduit à certaines restrictions dans le mode de vie, mais qui n’interfère pas avec la capacité du patient à se prendre en charge;;;
-1.2.250.1.213.1.1.4.322;MED-385;Handicap modéré qui restreint significativement le mode de vie et/ou empêche une existence totalement indépendante;Handicap modéré qui restreint significativement le mode de vie et/ou empêche une existence totalement indépendante;Handicap modéré qui restreint significativement le mode de vie et/ou empêche une existence totalement indépendante;;;
-1.2.250.1.213.1.1.4.322;MED-386;Handicap modérément sévère qui empêche clairement une existence indépendante bien que nécessitant pas une attention constante;Handicap modérément sévère qui empêche clairement une existence indépendante bien que nécessitant pas une attention constante;Handicap modérément sévère qui empêche clairement une existence indépendante bien que nécessitant pas une attention constante;;;
-1.2.250.1.213.1.1.4.322;MED-387;Handicap sévère entraînant une dépendance totale et nécessitant une attention jour et nuit;Handicap sévère entraînant une dépendance totale et nécessitant une attention jour et nuit;Handicap sévère entraînant une dépendance totale et nécessitant une attention jour et nuit;;;
 1.2.250.1.213.1.1.4.322;MED-388;Absence de sang;Absence de sang;Absence de sang;;;
 1.2.250.1.213.1.1.4.322;MED-389;Dépôts de moins de 1 mm d'épaisseur;Dépôts de moins de 1 mm d'épaisseur;Dépôts de moins de 1 mm d'épaisseur;;;
 1.2.250.1.213.1.1.4.322;MED-390;Dépôts de plus de 1 mm d'épaisseur;Dépôts de plus de 1 mm d'épaisseur;Dépôts de plus de 1 mm d'épaisseur;;;
@@ -1511,6 +1497,10 @@
 1.2.250.1.213.1.1.4.322;MED-1304;Dépistage de la surdité;Dépistage de la surdité;Dépistage de la surdité;;;
 1.2.250.1.213.1.1.4.322;MED-1305;Résultat du dépistage de la surdité;Résultat du dépistage de la surdité;Résultat du dépistage de la surdité;;;
 1.2.250.1.213.1.1.4.322;MED-1306;CSE - Examen médical obligatoire au cours de la 7ème année;CSE - Examen médical obligatoire au cours de la 7ème année;CSE - Examen médical obligatoire au cours de la 7ème année;;;
+1.2.250.1.213.1.1.4.322;MED-1307;fait spontanément;fait spontanément;fait spontanément;;;
+1.2.250.1.213.1.1.4.322;MED-1308;fait totalement;fait totalement;fait totalement;;;
+1.2.250.1.213.1.1.4.322;MED-1309;fait correctement;fait correctement;fait correctement;;;
+1.2.250.1.213.1.1.4.322;MED-1310;fait habituellement;fait habituellement;fait habituellement;;;
 1.2.250.1.213.1.1.4.322;ORG-001;Prise en charge spécifique en oncogériatrie;Prise en charge spécifique en oncogériatrie;Prise en charge spécifique en oncogériatrie;;;
 1.2.250.1.213.1.1.4.322;ORG-002;Suivi après traitement;Suivi après traitement;Suivi après traitement;;;
 1.2.250.1.213.1.1.4.322;ORG-003;Type de suivi;Type de suivi;Type de suivi;;;
@@ -1518,8 +1508,6 @@
 1.2.250.1.213.1.1.4.322;ORG-005;Type de surveillance;Type de surveillance;Type de surveillance;;;
 1.2.250.1.213.1.1.4.322;ORG-006;Mode;Mode;Mode;;;
 1.2.250.1.213.1.1.4.322;ORG-007;Prise en charge des conséquences neurocognitives et endocriniennes;Prise en charge des conséquences neurocognitives et endocriniennes;Prise en charge des conséquences neurocognitives et endocriniennes;;;
-1.2.250.1.213.1.1.4.322;ORG-009;Prise en charge médicale;Prise en charge médicale;Prise en charge médicale;;;
-1.2.250.1.213.1.1.4.322;ORG-010;Prise en charge sociale;Prise en charge sociale;Prise en charge sociale;;;
 1.2.250.1.213.1.1.4.322;ORG-011;Organisation du suivi;Organisation du suivi;Organisation du suivi;;;
 1.2.250.1.213.1.1.4.322;ORG-012;Bilan d'étape;Bilan d'étape;Bilan d'étape;;;
 1.2.250.1.213.1.1.4.322;ORG-013;Recherche d'hébergement en cours;Recherche d'hébergement en cours;Recherche d'hébergement en cours;;;
