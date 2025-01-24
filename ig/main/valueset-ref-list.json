@@ -14261,8 +14261,8 @@
       "systems" : ["https://smt.esante.gouv.fr/terminologie-bdpm"],
       "uses" : {
       },
-      "ConceptMap-alignement-nuva-bdpm.html" : "Aligner les codes CIS et CIP de NUVA avec les codes CIS et CIP du BDPM",
-      "ConceptMap-alignement-bdpm-cipucd.html" : "Aligner les codes de présentation de la BDPM avec les codes CIP du référentiel CIP-UCD"
+      "ConceptMap-alignement-bdpm-cipucd.html" : "Aligner les codes de présentation de la BDPM avec les codes CIP du référentiel CIP-UCD",
+      "ConceptMap-alignement-nuva-bdpm.html" : "Aligner les codes CIS et CIP de NUVA avec les codes CIS et CIP du BDPM"
     },
     {
       "url" : "https://smt.esante.gouv.fr/terminologie-cip_ucd?vs",
@@ -14274,8 +14274,8 @@
       "systems" : ["https://smt.esante.gouv.fr/terminologie-cip_ucd"],
       "uses" : {
       },
-      "ConceptMap-alignement-nuva-cipucd.html" : "Aligner les codes CIP de NUVA avec les codes CIP du CIP_UCD",
-      "ConceptMap-alignement-bdpm-cipucd.html" : "Aligner les codes de présentation de la BDPM avec les codes CIP du référentiel CIP-UCD"
+      "ConceptMap-alignement-bdpm-cipucd.html" : "Aligner les codes de présentation de la BDPM avec les codes CIP du référentiel CIP-UCD",
+      "ConceptMap-alignement-nuva-cipucd.html" : "Aligner les codes CIP de NUVA avec les codes CIP du CIP_UCD"
     },
     {
       "url" : "https://smt.esante.gouv.fr/terminologie-nuva?vs",
@@ -14287,9 +14287,9 @@
       "systems" : ["https://smt.esante.gouv.fr/terminologie-nuva"],
       "uses" : {
       },
-      "ConceptMap-alignement-nuva-bdpm.html" : "Aligner les codes CIS et CIP de NUVA avec les codes CIS et CIP du BDPM",
+      "ConceptMap-alignement-nuva-atc.html" : "Aligner les codes ATC de NUVA avec les codes ATC",
       "ConceptMap-alignement-nuva-cipucd.html" : "Aligner les codes CIP de NUVA avec les codes CIP du CIP_UCD",
-      "ConceptMap-alignement-nuva-atc.html" : "Aligner les codes ATC de NUVA avec les codes ATC"
+      "ConceptMap-alignement-nuva-bdpm.html" : "Aligner les codes CIS et CIP de NUVA avec les codes CIS et CIP du BDPM"
     },
     {
       "url" : "https://smt.esante.gouv.fr/terminologie-sms?vs",
