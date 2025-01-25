@@ -20,7 +20,6 @@ Usage: #definition
 * description = "Table d'association entre les types d'autorisations et les professions de santé, médico-sociales ou sociales"
 * jurisdiction = urn:iso:std:iso:3166#FR "France"
 * sourceUri = "https://mos.esante.gouv.fr/NOS/JDV_J171-TypeAutorisation-EPARS/FHIR/JDV-J171-TypeAutorisation-EPARS"
-* targetUri = "https://mos.esante.gouv.fr/NOS/JDV_J166-Profession-EPARS/FHIR/JDV-J166-Profession-EPARS"
 * group[0].source = "https://mos.esante.gouv.fr/NOS/TRE_R17-TypeAutorisation/FHIR/TRE-R17-TypeAutorisation"
 * group[=].target = "https://mos.esante.gouv.fr/NOS/TRE_G15-ProfessionSante/FHIR/TRE-G15-ProfessionSante"
 * group[=].element[0].code = #AM01
@@ -170,9 +169,6 @@ Usage: #definition
 * group[=].element[+].code = #AM34
 * group[=].element[=].target.code = #26
 * group[=].element[=].target.equivalence = #equivalent
-* group[=].element[+].code = #AM35
-* group[=].element[=].target.code = #73
-* group[=].element[=].target.equivalence = #equivalent
 * group[=].element[+].code = #AM36
 * group[=].element[=].target.code = #85
 * group[=].element[=].target.equivalence = #equivalent
@@ -214,5 +210,8 @@ Usage: #definition
 * group[=].element[=].target.code = #72
 * group[=].element[=].target.equivalence = #equivalent
 * group[=].element[+].code = #AM27
+* group[=].element[=].target.code = #73
+* group[=].element[=].target.equivalence = #equivalent
+* group[=].element[+].code = #AM35
 * group[=].element[=].target.code = #73
 * group[=].element[=].target.equivalence = #equivalent
