@@ -338,6 +338,7 @@ Usage: #definition
 
 * group[+].source  = "https://mos.esante.gouv.fr/NOS/TRE_R14-TypeDiplome/FHIR/TRE-R14-TypeDiplome"
 * group[=].target  = "https://mos.esante.gouv.fr/NOS/TRE_R56-Attestation/FHIR/TRE-R56-Attestation"
+* group[=].element[+].code = #ATT
 * group[=].element[=].target.code = #DIP370
 * group[=].element[=].target.equivalence = #equivalent
 * group[=].element[=].target.dependsOn.property = "https://mos.esante.gouv.fr/NOS/JDV_J166-Profession-EPARS/FHIR/JDV-J166-Profession-EPARS"
@@ -351,7 +352,6 @@ Usage: #definition
 * group[=].element[=].target.equivalence = #equivalent
 * group[=].element[=].target.dependsOn.property = "https://mos.esante.gouv.fr/NOS/JDV_J166-Profession-EPARS/FHIR/JDV-J166-Profession-EPARS"
 * group[=].element[=].target.dependsOn.value = "96"
-* group[=].element[+].code = #ATT
 
 
 
