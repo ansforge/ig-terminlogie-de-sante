@@ -28209,8 +28209,8 @@
          fhir:value [ fhir:v "ValueSet" ]
        ] ) ;
        fhir:reference [
-         fhir:link <https://interop.esante.gouv.fr/terminologies/ValueSet/1.2.250.1.213.1.1.5.732> ;
-         fhir:reference [ fhir:v "ValueSet/1.2.250.1.213.1.1.5.732" ]
+         fhir:link <https://interop.esante.gouv.fr/terminologies/ValueSet/1.2.250.1.213.1.1.4.2.289.2> ;
+         fhir:reference [ fhir:v "ValueSet/1.2.250.1.213.1.1.4.2.289.2" ]
        ] ;
        fhir:name [ fhir:v "JDV_AntecedentsObstetricaux_OBP_CISIS" ] ;
        fhir:description [ fhir:v "JDV_AntecedentsObstetricaux_OBP_CISIS" ] ;
@@ -29673,8 +29673,8 @@
          fhir:value [ fhir:v "ValueSet" ]
        ] ) ;
        fhir:reference [
-         fhir:link <https://interop.esante.gouv.fr/terminologies/ValueSet/1.2.250.1.213.1.1.5.736> ;
-         fhir:reference [ fhir:v "ValueSet/1.2.250.1.213.1.1.5.736" ]
+         fhir:link <https://interop.esante.gouv.fr/terminologies/ValueSet/1.2.250.1.213.1.1.4.2.289.6> ;
+         fhir:reference [ fhir:v "ValueSet/1.2.250.1.213.1.1.4.2.289.6" ]
        ] ;
        fhir:name [ fhir:v "JDV_EtatNaissance_CISIS" ] ;
        fhir:description [ fhir:v "JDV_EtatNaissance_CISIS" ] ;
@@ -29685,8 +29685,8 @@
          fhir:value [ fhir:v "ValueSet" ]
        ] ) ;
        fhir:reference [
-         fhir:link <https://interop.esante.gouv.fr/terminologies/ValueSet/1.2.250.1.213.1.1.5.734> ;
-         fhir:reference [ fhir:v "ValueSet/1.2.250.1.213.1.1.5.734" ]
+         fhir:link <https://interop.esante.gouv.fr/terminologies/ValueSet/1.2.250.1.213.1.1.4.2.289.4> ;
+         fhir:reference [ fhir:v "ValueSet/1.2.250.1.213.1.1.4.2.289.4" ]
        ] ;
        fhir:name [ fhir:v "JDV_EtatPerinee_CISIS" ] ;
        fhir:description [ fhir:v "JDV_EtatPerinee_CISIS" ] ;
@@ -32661,11 +32661,11 @@
          fhir:value [ fhir:v "ValueSet" ]
        ] ) ;
        fhir:reference [
-         fhir:link <https://interop.esante.gouv.fr/terminologies/ValueSet/JDV-J163-GlucoseUnits-ENS> ;
-         fhir:reference [ fhir:v "ValueSet/JDV-J163-GlucoseUnits-ENS" ]
+         fhir:link <https://interop.esante.gouv.fr/terminologies/ValueSet/1.2.250.1.213.1.1.5.639> ;
+         fhir:reference [ fhir:v "ValueSet/1.2.250.1.213.1.1.5.639" ]
        ] ;
        fhir:name [ fhir:v "JDV_J163_GlucoseUnits_ENS" ] ;
-       fhir:description [ fhir:v "Liste fermée des unités utilisables pour la mesure du glucose avec le profil ENS_ObservationGlucose" ] ;
+       fhir:description [ fhir:v "JDV_J163_GlucoseUnits_ENS" ] ;
        fhir:example [ fhir:v "false"^^xsd:boolean ]
      ] [
        fhir:extension ( [
@@ -35325,8 +35325,8 @@
          fhir:value [ fhir:v "ValueSet" ]
        ] ) ;
        fhir:reference [
-         fhir:link <https://interop.esante.gouv.fr/terminologies/ValueSet/1.2.250.1.213.1.1.5.215> ;
-         fhir:reference [ fhir:v "ValueSet/1.2.250.1.213.1.1.5.215" ]
+         fhir:link <https://interop.esante.gouv.fr/terminologies/ValueSet/1.2.250.1.213.1.1.5.207> ;
+         fhir:reference [ fhir:v "ValueSet/1.2.250.1.213.1.1.5.207" ]
        ] ;
        fhir:name [ fhir:v "JDV_LocaThromboseVeineuse_CISIS" ] ;
        fhir:description [ fhir:v "JDV_LocaThromboseVeineuse_CISIS" ] ;
@@ -35589,8 +35589,8 @@
          fhir:value [ fhir:v "ValueSet" ]
        ] ) ;
        fhir:reference [
-         fhir:link <https://interop.esante.gouv.fr/terminologies/ValueSet/1.2.250.1.213.1.1.5.735> ;
-         fhir:reference [ fhir:v "ValueSet/1.2.250.1.213.1.1.5.735" ]
+         fhir:link <https://interop.esante.gouv.fr/terminologies/ValueSet/1.2.250.1.213.1.1.4.2.289.5> ;
+         fhir:reference [ fhir:v "ValueSet/1.2.250.1.213.1.1.4.2.289.5" ]
        ] ;
        fhir:name [ fhir:v "JDV_ModeAccouchement_CISIS" ] ;
        fhir:description [ fhir:v "JDV_ModeAccouchement_CISIS" ] ;
@@ -39537,8 +39537,8 @@
          fhir:value [ fhir:v "ValueSet" ]
        ] ) ;
        fhir:reference [
-         fhir:link <https://interop.esante.gouv.fr/terminologies/ValueSet/1.2.250.1.213.1.1.5.525> ;
-         fhir:reference [ fhir:v "ValueSet/1.2.250.1.213.1.1.5.525" ]
+         fhir:link <https://interop.esante.gouv.fr/terminologies/ValueSet/1.2.250.1.213.1.1.5.551> ;
+         fhir:reference [ fhir:v "ValueSet/1.2.250.1.213.1.1.5.551" ]
        ] ;
        fhir:name [ fhir:v "JDV_TNM_pTNM_pN_CISIS" ] ;
        fhir:description [ fhir:v "JDV_TNM_pTNM_pN_CISIS" ] ;
@@ -39597,8 +39597,8 @@
          fhir:value [ fhir:v "ValueSet" ]
        ] ) ;
        fhir:reference [
-         fhir:link <https://interop.esante.gouv.fr/terminologies/ValueSet/1.2.250.1.213.1.1.5.162> ;
-         fhir:reference [ fhir:v "ValueSet/1.2.250.1.213.1.1.5.162" ]
+         fhir:link <https://interop.esante.gouv.fr/terminologies/ValueSet/1.2.250.1.213.1.1.4.321.3> ;
+         fhir:reference [ fhir:v "ValueSet/1.2.250.1.213.1.1.4.321.3" ]
        ] ;
        fhir:name [ fhir:v "JDV_TopoTrouble_CISIS" ] ;
        fhir:description [ fhir:v "JDV_TopoTrouble_CISIS" ] ;
@@ -39669,8 +39669,8 @@
          fhir:value [ fhir:v "ValueSet" ]
        ] ) ;
        fhir:reference [
-         fhir:link <https://interop.esante.gouv.fr/terminologies/ValueSet/1.2.250.1.213.1.1.5.737> ;
-         fhir:reference [ fhir:v "ValueSet/1.2.250.1.213.1.1.5.737" ]
+         fhir:link <https://interop.esante.gouv.fr/terminologies/ValueSet/1.2.250.1.213.1.1.4.2.289.7> ;
+         fhir:reference [ fhir:v "ValueSet/1.2.250.1.213.1.1.4.2.289.7" ]
        ] ;
        fhir:name [ fhir:v "JDV_TransfertMutation_CISIS" ] ;
        fhir:description [ fhir:v "JDV_TransfertMutation_CISIS" ] ;

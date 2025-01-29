@@ -25106,7 +25106,7 @@
         <valueString value="ValueSet"/>
       </extension>
       <reference>
-        <reference value="ValueSet/1.2.250.1.213.1.1.5.732"/>
+        <reference value="ValueSet/1.2.250.1.213.1.1.4.2.289.2"/>
       </reference>
       <name value="JDV_AntecedentsObstetricaux_OBP_CISIS"/>
       <description value="JDV_AntecedentsObstetricaux_OBP_CISIS"/>
@@ -26448,7 +26448,7 @@
         <valueString value="ValueSet"/>
       </extension>
       <reference>
-        <reference value="ValueSet/1.2.250.1.213.1.1.5.736"/>
+        <reference value="ValueSet/1.2.250.1.213.1.1.4.2.289.6"/>
       </reference>
       <name value="JDV_EtatNaissance_CISIS"/>
       <description value="JDV_EtatNaissance_CISIS"/>
@@ -26459,7 +26459,7 @@
         <valueString value="ValueSet"/>
       </extension>
       <reference>
-        <reference value="ValueSet/1.2.250.1.213.1.1.5.734"/>
+        <reference value="ValueSet/1.2.250.1.213.1.1.4.2.289.4"/>
       </reference>
       <name value="JDV_EtatPerinee_CISIS"/>
       <description value="JDV_EtatPerinee_CISIS"/>
@@ -29187,10 +29187,10 @@
         <valueString value="ValueSet"/>
       </extension>
       <reference>
-        <reference value="ValueSet/JDV-J163-GlucoseUnits-ENS"/>
+        <reference value="ValueSet/1.2.250.1.213.1.1.5.639"/>
       </reference>
       <name value="JDV_J163_GlucoseUnits_ENS"/>
-      <description value="Liste fermée des unités utilisables pour la mesure du glucose avec le profil ENS_ObservationGlucose"/>
+      <description value="JDV_J163_GlucoseUnits_ENS"/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -31629,7 +31629,7 @@
         <valueString value="ValueSet"/>
       </extension>
       <reference>
-        <reference value="ValueSet/1.2.250.1.213.1.1.5.215"/>
+        <reference value="ValueSet/1.2.250.1.213.1.1.5.207"/>
       </reference>
       <name value="JDV_LocaThromboseVeineuse_CISIS"/>
       <description value="JDV_LocaThromboseVeineuse_CISIS"/>
@@ -31871,7 +31871,7 @@
         <valueString value="ValueSet"/>
       </extension>
       <reference>
-        <reference value="ValueSet/1.2.250.1.213.1.1.5.735"/>
+        <reference value="ValueSet/1.2.250.1.213.1.1.4.2.289.5"/>
       </reference>
       <name value="JDV_ModeAccouchement_CISIS"/>
       <description value="JDV_ModeAccouchement_CISIS"/>
@@ -35490,7 +35490,7 @@
         <valueString value="ValueSet"/>
       </extension>
       <reference>
-        <reference value="ValueSet/1.2.250.1.213.1.1.5.525"/>
+        <reference value="ValueSet/1.2.250.1.213.1.1.5.551"/>
       </reference>
       <name value="JDV_TNM_pTNM_pN_CISIS"/>
       <description value="JDV_TNM_pTNM_pN_CISIS"/>
@@ -35545,7 +35545,7 @@
         <valueString value="ValueSet"/>
       </extension>
       <reference>
-        <reference value="ValueSet/1.2.250.1.213.1.1.5.162"/>
+        <reference value="ValueSet/1.2.250.1.213.1.1.4.321.3"/>
       </reference>
       <name value="JDV_TopoTrouble_CISIS"/>
       <description value="JDV_TopoTrouble_CISIS"/>
@@ -35611,7 +35611,7 @@
         <valueString value="ValueSet"/>
       </extension>
       <reference>
-        <reference value="ValueSet/1.2.250.1.213.1.1.5.737"/>
+        <reference value="ValueSet/1.2.250.1.213.1.1.4.2.289.7"/>
       </reference>
       <name value="JDV_TransfertMutation_CISIS"/>
       <description value="JDV_TransfertMutation_CISIS"/>
