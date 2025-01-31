@@ -26,12 +26,12 @@
   fhir:identifier [
      fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.6.1.252" ]
   ] ; # 
-  fhir:version [ fhir:v "20250106120000"] ; # 
+  fhir:version [ fhir:v "20250131120000"] ; # 
   fhir:name [ fhir:v "ASS_A30_TypeAutorisation_Profession_EPARS"] ; # 
   fhir:title [ fhir:v "ASS_A30_TypeAutorisation_Profession_EPARS"] ; # 
   fhir:status [ fhir:v "active"] ; # 
   fhir:experimental [ fhir:v "false"^^xsd:boolean] ; # 
-  fhir:date [ fhir:v "2025-01-06T12:00:00+01:00"^^xsd:dateTime] ; # 
+  fhir:date [ fhir:v "2025-01-31T12:00:00+01:00"^^xsd:dateTime] ; # 
   fhir:publisher [ fhir:v "ANS"] ; # 
   fhir:contact ( [
      fhir:name [ fhir:v "ANS" ] ;

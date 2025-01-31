@@ -38,7 +38,7 @@
     }],
     "uri" : "http://terminology.hl7.org/ImplementationGuide/hl7.terminology",
     "packageId" : "hl7.terminology.r4",
-    "version" : "6.1.0"
+    "version" : "6.2.0"
   },
   {
     "id" : "hl7ext",
@@ -32879,9 +32879,9 @@
         "valueString" : "CodeSystem"
       }],
       "reference" : {
-        "reference" : "CodeSystem/terminologie-cim-10"
+        "reference" : "CodeSystem/terminologie-cim11-mms"
       },
-      "name" : "Classification internationale des maladies (10eme révision). Version française à usage PMSI",
+      "name" : "Classification internationale des maladies (11eme révision). Linéarisation pour les statistiques de morbi-mortalité",
       "exampleBoolean" : false
     },
     {
@@ -32890,9 +32890,9 @@
         "valueString" : "CodeSystem"
       }],
       "reference" : {
-        "reference" : "CodeSystem/terminologie-cim11-mms"
+        "reference" : "CodeSystem/terminologie-cim-10"
       },
-      "name" : "Classification internationale des maladies (11eme révision). Linéarisation pour les statistiques de morbi-mortalité",
+      "name" : "Classification internationale des maladies 10eme révision, version française à usage PMSI (Programme Médicalisé des Systèmes d'Information)",
       "exampleBoolean" : false
     },
     {
@@ -33449,7 +33449,7 @@
         "valueString" : "ValueSet"
       }],
       "reference" : {
-        "reference" : "ValueSet/1.2.250.1.213.1.1.5.732"
+        "reference" : "ValueSet/1.2.250.1.213.1.1.4.2.289.2"
       },
       "name" : "JDV_AntecedentsObstetricaux_OBP_CISIS",
       "description" : "JDV_AntecedentsObstetricaux_OBP_CISIS",
@@ -34913,7 +34913,7 @@
         "valueString" : "ValueSet"
       }],
       "reference" : {
-        "reference" : "ValueSet/1.2.250.1.213.1.1.5.736"
+        "reference" : "ValueSet/1.2.250.1.213.1.1.4.2.289.6"
       },
       "name" : "JDV_EtatNaissance_CISIS",
       "description" : "JDV_EtatNaissance_CISIS",
@@ -34925,7 +34925,7 @@
         "valueString" : "ValueSet"
       }],
       "reference" : {
-        "reference" : "ValueSet/1.2.250.1.213.1.1.5.734"
+        "reference" : "ValueSet/1.2.250.1.213.1.1.4.2.289.4"
       },
       "name" : "JDV_EtatPerinee_CISIS",
       "description" : "JDV_EtatPerinee_CISIS",
@@ -37901,10 +37901,10 @@
         "valueString" : "ValueSet"
       }],
       "reference" : {
-        "reference" : "ValueSet/JDV-J163-GlucoseUnits-ENS"
+        "reference" : "ValueSet/1.2.250.1.213.1.1.5.639"
       },
       "name" : "JDV_J163_GlucoseUnits_ENS",
-      "description" : "Liste fermée des unités utilisables pour la mesure du glucose avec le profil ENS_ObservationGlucose",
+      "description" : "JDV_J163_GlucoseUnits_ENS",
       "exampleBoolean" : false
     },
     {
@@ -40565,7 +40565,7 @@
         "valueString" : "ValueSet"
       }],
       "reference" : {
-        "reference" : "ValueSet/1.2.250.1.213.1.1.5.215"
+        "reference" : "ValueSet/1.2.250.1.213.1.1.5.207"
       },
       "name" : "JDV_LocaThromboseVeineuse_CISIS",
       "description" : "JDV_LocaThromboseVeineuse_CISIS",
@@ -40829,7 +40829,7 @@
         "valueString" : "ValueSet"
       }],
       "reference" : {
-        "reference" : "ValueSet/1.2.250.1.213.1.1.5.735"
+        "reference" : "ValueSet/1.2.250.1.213.1.1.4.2.289.5"
       },
       "name" : "JDV_ModeAccouchement_CISIS",
       "description" : "JDV_ModeAccouchement_CISIS",
@@ -44777,7 +44777,7 @@
         "valueString" : "ValueSet"
       }],
       "reference" : {
-        "reference" : "ValueSet/1.2.250.1.213.1.1.5.525"
+        "reference" : "ValueSet/1.2.250.1.213.1.1.5.551"
       },
       "name" : "JDV_TNM_pTNM_pN_CISIS",
       "description" : "JDV_TNM_pTNM_pN_CISIS",
@@ -44837,7 +44837,7 @@
         "valueString" : "ValueSet"
       }],
       "reference" : {
-        "reference" : "ValueSet/1.2.250.1.213.1.1.5.162"
+        "reference" : "ValueSet/1.2.250.1.213.1.1.4.321.3"
       },
       "name" : "JDV_TopoTrouble_CISIS",
       "description" : "JDV_TopoTrouble_CISIS",
@@ -44909,7 +44909,7 @@
         "valueString" : "ValueSet"
       }],
       "reference" : {
-        "reference" : "ValueSet/1.2.250.1.213.1.1.5.737"
+        "reference" : "ValueSet/1.2.250.1.213.1.1.4.2.289.7"
       },
       "name" : "JDV_TransfertMutation_CISIS",
       "description" : "JDV_TransfertMutation_CISIS",
