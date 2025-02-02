@@ -1,6 +1,6 @@
 name: DM - Terminologie de référence (TRE)
 description: Nomenclatures des Objets de Santé (NOS) Demande de modification d'une terminologie de référence (TRE).
-title: "DM-TRE_RXX_Nom de la nomenclature"
+title: "DM-TRE_
 labels: ["DM-TRE"]
 body:
   - type: markdown
