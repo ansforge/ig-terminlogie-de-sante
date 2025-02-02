@@ -31,7 +31,6 @@ body:
     attributes:
       label: Terminologie de référence à modifier
       placeholder: termin
-      value: Nom ou URL de la TREsdqdsqd
     validations:
       required: true
   - type: markdown
