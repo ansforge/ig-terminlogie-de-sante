@@ -19,7 +19,6 @@ Usage: #definition
 * contact.telecom.value = "https://esante.gouv.fr"
 * description = "Table d'association entre les types d'autorisations et les professions de santé, médico-sociales ou sociales"
 * jurisdiction = urn:iso:std:iso:3166#FR "France"
-* sourceUri = "https://mos.esante.gouv.fr/NOS/JDV_J171-TypeAutorisation-EPARS/FHIR/JDV-J171-TypeAutorisation-EPARS"
 * group[0].source = "https://mos.esante.gouv.fr/NOS/TRE_R17-TypeAutorisation/FHIR/TRE-R17-TypeAutorisation"
 * group[=].target = "https://mos.esante.gouv.fr/NOS/TRE_G15-ProfessionSante/FHIR/TRE-G15-ProfessionSante"
 * group[=].element[0].code = #AM01
