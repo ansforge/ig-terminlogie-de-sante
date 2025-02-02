@@ -30,7 +30,8 @@ body:
     id: Nom
     attributes:
       label: Terminologie de référence à modifier
-      placeholder: Nom ou URL de la TRE
+      placeholder: termin
+      value: Nom ou URL de la TRE
     validations:
       required: true
   - type: markdown
