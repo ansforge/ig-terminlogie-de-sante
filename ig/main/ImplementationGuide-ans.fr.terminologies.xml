@@ -24584,9 +24584,9 @@
         <valueString value="CodeSystem"/>
       </extension>
       <reference>
-        <reference value="CodeSystem/terminologie-cim-10"/>
+        <reference value="CodeSystem/terminologie-cim11-mms"/>
       </reference>
-      <name value="Classification internationale des maladies (10eme révision). Version française à usage PMSI"/>
+      <name value="Classification internationale des maladies (11eme révision). Linéarisation pour les statistiques de morbi-mortalité"/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -24594,9 +24594,9 @@
         <valueString value="CodeSystem"/>
       </extension>
       <reference>
-        <reference value="CodeSystem/terminologie-cim11-mms"/>
+        <reference value="CodeSystem/terminologie-cim-10"/>
       </reference>
-      <name value="Classification internationale des maladies (11eme révision). Linéarisation pour les statistiques de morbi-mortalité"/>
+      <name value="Classification internationale des maladies 10eme révision, version française à usage PMSI (Programme Médicalisé des Systèmes d'Information)"/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>

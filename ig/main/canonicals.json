@@ -11389,8 +11389,9 @@
     "id" : "terminologie-cim-10",
     "type" : "CodeSystem",
     "url" : "https://smt.esante.gouv.fr/terminologie-cim-10",
-    "version" : "2024-01-01",
-    "name" : "CIM_10"
+    "version" : "2025-01-01",
+    "name" : "CIM_10_FR_PMSI",
+    "oids" : ["2.16.840.1.113883.6.3"]
   },
   {
     "id" : "terminologie-cim11-mms",

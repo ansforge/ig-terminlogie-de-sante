@@ -2303,11 +2303,12 @@
     },
     {
       "url" : "https://smt.esante.gouv.fr/terminologie-cim-10",
-      "version" : "2024-01-01",
+      "version" : "2025-01-01",
       "status" : "active",
-      "name" : "CIM_10",
-      "title" : "Classification internationale des maladies (10eme révision). Version française à usage PMSI",
-      "description" : null
+      "name" : "CIM_10_FR_PMSI",
+      "title" : "Classification internationale des maladies 10eme révision, version française à usage PMSI (Programme Médicalisé des Systèmes d'Information)",
+      "description" : null,
+      "oids" : ["2.16.840.1.113883.6.3"]
     },
     {
       "url" : "https://smt.esante.gouv.fr/terminologie-cim11-mms",
