@@ -5,7 +5,7 @@ Usage: #definition
 * extension[=].valuePeriod.start = "2022-02-25T12:00:00+01:00"
 * extension[+].url = "http://hl7.org/fhir/StructureDefinition/concept-bidirectional"
 * extension[=].valueBoolean = false
-* url = "https://mos.esante.gouv.fr/NOS/ASS_A29-Département-AE/FHIR/ASS-A29-Département-AE"
+* url = "https://mos.esante.gouv.fr/NOS/ASS_A29-Departement-AE/FHIR/ASS-A29-Departement-AE"
 * identifier.value = "urn:oid:1.2.250.1.213.1.6.1.242"
 * version = "20240126120000"
 * name = "ASS_A29_Departement_AE"
