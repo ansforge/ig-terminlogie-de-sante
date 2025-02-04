@@ -1,0 +1,6 @@
+# Note à l'intention de l'équipe NOS uniquement
+## Documentation sur le dossier "Ontoserver"
+Ce Dossier sert à stocker les FSH des ASS, JDV et TRE modifiés et validés dans le mois en cours et qui devront être poussés sur Ontoserver.
+**Attention !** Actuellement les NOS présentes sur Ontoserver sont automatiquement récupérées par un script sur la page NOS du site esante.gouv.fr. A terme, cette page sera dépubliée et un script devrait permettre, chaque mois, de récupérer automatiquement les FSH présents dans ce dossier pour les pousser sur Ontoserver. Il faudra donc bien s'assurer à chaque merge de la branche du mois en cours sur le main que ce dossier ne contient plus aucun FSH. Seul le fichier **README_Ontoserver.md** doit être laissé afin de conserver l'arborescence actuelle et éviter que ce dossier ne soit supprimé (un dossier vide est automatiquement supprimé dans un repository GIT).
+
+Voir le fichier **Readme_Traitement_NOS_FSH.md** pour les étapes à suivre lors du traitement des NOS en FSH dans un mois classique. 
