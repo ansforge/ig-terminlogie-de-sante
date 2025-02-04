@@ -1,6 +1,6 @@
 name: DM - Jeu de valeurs (JDV)
 description: Nomenclatures des Objets de Santé (NOS) Demande de modification d'un jeu de valeurs (JDV).
-title: "DM-JDV_JXX_Nom de la nomenclature"
+title: "DM-"
 labels: ["DM-JDV"]
 body:
   - type: markdown

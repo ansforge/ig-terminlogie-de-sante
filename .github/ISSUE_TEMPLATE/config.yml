@@ -1,0 +1,5 @@
+blank_issues_enabled: true
+contact_links:
+  - name: Lien vers le guide d implémentation
+    url: https://ansforge.github.io/IG-terminologie-de-sante/ig/main
+    about: Visualiser la liste des artefacts 
