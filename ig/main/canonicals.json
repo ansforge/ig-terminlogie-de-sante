@@ -144,15 +144,8 @@
     "id" : "ASS-A30-TypeAutorisation-Profession-EPARS",
     "type" : "ConceptMap",
     "url" : "https://mos.esante.gouv.fr/NOS/ASS_A30-TypeAutorisation-Profession-EPARS/FHIR/ASS-A30-TypeAutorisation-Profession-EPARS",
-    "version" : "20241121120000",
+    "version" : "20250131120000",
     "name" : "ASS_A30_TypeAutorisation_Profession_EPARS"
-  },
-  {
-    "id" : "ASS-A31-CorresDiabete-RegroupementDiabete",
-    "type" : "ConceptMap",
-    "url" : "https://mos.esante.gouv.fr/NOS/ASS_A31_CorresDiabete-RegroupementDiabete",
-    "version" : "5.0.0",
-    "name" : "ASS_A31_CorresDiabete_RegroupementDiabete"
   },
   {
     "id" : "ASS-A32-StatutMotifPersonnePriseCharge",

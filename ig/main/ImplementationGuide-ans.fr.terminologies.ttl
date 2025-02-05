@@ -26958,18 +26958,6 @@
          fhir:value [ fhir:v "ConceptMap" ]
        ] ) ;
        fhir:reference [
-         fhir:link <https://interop.esante.gouv.fr/terminologies/ConceptMap/ASS-A31-CorresDiabete-RegroupementDiabete> ;
-         fhir:reference [ fhir:v "ConceptMap/ASS-A31-CorresDiabete-RegroupementDiabete" ]
-       ] ;
-       fhir:name [ fhir:v "ASS_A31_CorresDiabete_RegroupementDiabete" ] ;
-       fhir:description [ fhir:v "ASS_A31_CorresDiabete_RegroupementDiabete" ] ;
-       fhir:example [ fhir:v "false"^^xsd:boolean ]
-     ] [
-       fhir:extension ( [
-         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
-         fhir:value [ fhir:v "ConceptMap" ]
-       ] ) ;
-       fhir:reference [
          fhir:link <https://interop.esante.gouv.fr/terminologies/ConceptMap/ASS-A32-StatutMotifPersonnePriseCharge> ;
          fhir:reference [ fhir:v "ConceptMap/ASS-A32-StatutMotifPersonnePriseCharge" ]
        ] ;

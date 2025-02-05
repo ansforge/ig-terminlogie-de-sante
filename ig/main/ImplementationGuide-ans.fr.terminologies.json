@@ -32870,18 +32870,6 @@
         "valueString" : "ConceptMap"
       }],
       "reference" : {
-        "reference" : "ConceptMap/ASS-A31-CorresDiabete-RegroupementDiabete"
-      },
-      "name" : "ASS_A31_CorresDiabete_RegroupementDiabete",
-      "description" : "ASS_A31_CorresDiabete_RegroupementDiabete",
-      "exampleBoolean" : false
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "ConceptMap"
-      }],
-      "reference" : {
         "reference" : "ConceptMap/ASS-A32-StatutMotifPersonnePriseCharge"
       },
       "name" : "ASS_A32_StatutMotifPersonnePriseCharge",

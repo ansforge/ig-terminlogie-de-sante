@@ -20,7 +20,6 @@ Generated $--. FHIR version $-- for ans.fr.terminologies#$-- (canonical = https:
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/DM/fsh-generated/resources/ConceptMap-ASS-A28-TypeDiplome-Diplome-Profession-EPARS : 5 / 0 / 1
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/DM/fsh-generated/resources/ConceptMap-ASS-A29-Departement-AE : 0 / 0 / 1
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/DM/fsh-generated/resources/ConceptMap-ASS-A30-TypeAutorisation-Profession-EPARS : 0 / 0 / 1
- /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/DM/fsh-generated/resources/ConceptMap-ASS-A31-CorresDiabete-RegroupementDiabete : 0 / 0 / 1
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/DM/fsh-generated/resources/ConceptMap-ASS-A32-StatutMotifPersonnePriseCharge : 0 / 0 / 1
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/DM/fsh-generated/resources/ConceptMap-ASS-A33-AdministrativeGender-Sexe : 0 / 0 / 1
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/DM/fsh-generated/resources/ConceptMap-ASS-X01-TranscoSavFaireADELI-SavFaireR01 : 0 / 0 / 1
@@ -2173,7 +2172,6 @@ ERROR: ConceptMap/ASS-A28-TypeDiplome-Diplome-Profession-EPARS: ConceptMap.group
 ERROR: ConceptMap/ASS-A28-TypeDiplome-Diplome-Profession-EPARS: ConceptMap.group[0].element[10].target[0].code: The target code 'DIP413' is not valid in the code system https://mos.esante.gouv.fr/NOS/TRE_R48-DiplomeEtatFrancais/FHIR/TRE-R48-DiplomeEtatFrancais|20240726120000
 == DM/fsh-generated/resources/ConceptMap-ASS-A29-Departement-AE.json ==
 == DM/fsh-generated/resources/ConceptMap-ASS-A30-TypeAutorisation-Profession-EPARS.json ==
-== DM/fsh-generated/resources/ConceptMap-ASS-A31-CorresDiabete-RegroupementDiabete.json ==
 == DM/fsh-generated/resources/ConceptMap-ASS-A32-StatutMotifPersonnePriseCharge.json ==
 == DM/fsh-generated/resources/ConceptMap-ASS-A33-AdministrativeGender-Sexe.json ==
 == DM/fsh-generated/resources/ConceptMap-ASS-X01-TranscoSavFaireADELI-SavFaireR01.json ==

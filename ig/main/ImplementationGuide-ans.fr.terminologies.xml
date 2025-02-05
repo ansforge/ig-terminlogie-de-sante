@@ -23960,17 +23960,6 @@
         <valueString value="ConceptMap"/>
       </extension>
       <reference>
-        <reference value="ConceptMap/ASS-A31-CorresDiabete-RegroupementDiabete"/>
-      </reference>
-      <name value="ASS_A31_CorresDiabete_RegroupementDiabete"/>
-      <description value="ASS_A31_CorresDiabete_RegroupementDiabete"/>
-      <exampleBoolean value="false"/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="ConceptMap"/>
-      </extension>
-      <reference>
         <reference value="ConceptMap/ASS-A32-StatutMotifPersonnePriseCharge"/>
       </reference>
       <name value="ASS_A32_StatutMotifPersonnePriseCharge"/>
