@@ -1,5 +1,6 @@
 @prefix fhir: <http://hl7.org/fhir/> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
@@ -10,7 +11,7 @@
   fhir:id [ fhir:v "ASS-X12-CommuneDeptRegionOM"] ; # 
   fhir:text [
      fhir:status [ fhir:v "generated" ] ;
-     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ConceptMap ASS-X12-CommuneDeptRegionOM</b></p><a name=\"ASS-X12-CommuneDeptRegionOM\"> </a><a name=\"hcASS-X12-CommuneDeptRegionOM\"> </a><a name=\"ASS-X12-CommuneDeptRegionOM-fr-FR\"> </a><p>Mapping from (not specified) to (not specified)</p><br/></div>"
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ConceptMap ASS-X12-CommuneDeptRegionOM</b></p><a name=\"ASS-X12-CommuneDeptRegionOM\"> </a><a name=\"hcASS-X12-CommuneDeptRegionOM\"> </a><a name=\"ASS-X12-CommuneDeptRegionOM-fr-FR\"> </a><p>Mapping from (not specified) to (not specified)</p><br/></div>"^^rdf:XMLLiteral
   ] ; # 
   fhir:extension ( [
      fhir:url [ fhir:v "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod"^^xsd:anyURI ] ;
@@ -20,7 +21,10 @@
      ]
   ] [
      fhir:url [ fhir:v "http://hl7.org/fhir/StructureDefinition/concept-bidirectional"^^xsd:anyURI ] ;
-     fhir:value [ fhir:v "false"^^xsd:boolean ]
+     fhir:value [
+       a fhir:boolean ;
+       fhir:v "false"^^xsd:boolean
+     ]
   ] ) ; # 
   fhir:url [ fhir:v "https://mos.esante.gouv.fr/NOS/ASS_X12-CommuneDeptRegionOM/FHIR/ASS-X12-CommuneDeptRegionOM"^^xsd:anyURI] ; # 
   fhir:identifier [

@@ -1,5 +1,6 @@
 @prefix fhir: <http://hl7.org/fhir/> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
@@ -18,7 +19,7 @@
   ] ; # 
   fhir:text [
      fhir:status [ fhir:v "generated" ] ;
-     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: CodeSystem TRE-R260-HL7RoleClass</b></p><a name=\"TRE-R260-HL7RoleClass\"> </a><a name=\"hcTRE-R260-HL7RoleClass\"> </a><a name=\"TRE-R260-HL7RoleClass-fr-FR\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">version: 4; Last updated: 2024-08-28 05:12:52+0000</p><p style=\"margin-bottom: 0px\">Profile: <a href=\"http://hl7.org/fhir/R4/shareablecodesystem.html\">Shareable CodeSystem</a></p></div><p><b>Properties</b></p><p><b>This code system defines the following properties for its concepts</b></p><table class=\"grid\"><tr><td><b>Name</b></td><td><b>Code</b></td><td><b>Type</b></td><td><b>Description</b></td></tr><tr><td>dateValid</td><td>dateValid</td><td>dateTime</td><td>date de validité d'un code concept</td></tr><tr><td>dateMaj</td><td>dateMaj</td><td>dateTime</td><td>Date de mise à jour d'un code concept</td></tr><tr><td>dateFin</td><td>dateFin</td><td>dateTime</td><td>Date de fin d'exploitation d'un code concept</td></tr></table><p><b>Concepts</b></p><p>This case-insensitive code system <code>https://mos.esante.gouv.fr/NOS/TRE_R260-HL7RoleClass/FHIR/TRE-R260-HL7RoleClass</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>dateValid</b></td><td><b>dateMaj</b></td><td><b>dateFin</b></td></tr><tr><td style=\"white-space:nowrap\">ECON<a name=\"TRE-R260-HL7RoleClass-ECON\"> </a></td><td>personne à prévenir en cas d'urgence</td><td>2018-03-30T12:00:00+01:00</td><td>2024-03-29T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">GUARD<a name=\"TRE-R260-HL7RoleClass-GUARD\"> </a></td><td>Responsable légal</td><td>2018-03-30T12:00:00+01:00</td><td>2018-03-30T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">QUAL<a name=\"TRE-R260-HL7RoleClass-QUAL\"> </a></td><td>Personne de confiance</td><td>2018-03-30T12:00:00+01:00</td><td>2024-03-29T12:00:00+01:00</td><td>2024-03-29T12:00:00+01:00</td></tr><tr><td style=\"white-space:nowrap\">POLHOLD<a name=\"TRE-R260-HL7RoleClass-POLHOLD\"> </a></td><td>Assuré ouvrant droit</td><td>2018-03-30T12:00:00+01:00</td><td>2018-03-30T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">CON<a name=\"TRE-R260-HL7RoleClass-CON\"> </a></td><td>Informateur</td><td>2018-03-30T12:00:00+01:00</td><td>2018-03-30T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">CAREGIVER<a name=\"TRE-R260-HL7RoleClass-CAREGIVER\"> </a></td><td>Aidant</td><td>2019-10-25T12:00:00+01:00</td><td>2019-10-25T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">PAT<a name=\"TRE-R260-HL7RoleClass-PAT\"> </a></td><td>aidé</td><td>2019-10-25T12:00:00+01:00</td><td>2024-03-29T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">PROV<a name=\"TRE-R260-HL7RoleClass-PROV\"> </a></td><td>Professionnel de santé</td><td>2021-03-26T12:00:00+01:00</td><td>2021-03-26T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">AGNT<a name=\"TRE-R260-HL7RoleClass-AGNT\"> </a></td><td>Professionnel caractérisé par son rôle</td><td>2021-03-26T12:00:00+01:00</td><td>2021-03-26T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">NOK<a name=\"TRE-R260-HL7RoleClass-NOK\"> </a></td><td>personne de confiance</td><td>2024-03-29T12:00:00+01:00</td><td>2024-03-29T12:00:00+01:00</td><td/></tr></table></div>"
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: CodeSystem TRE-R260-HL7RoleClass</b></p><a name=\"TRE-R260-HL7RoleClass\"> </a><a name=\"hcTRE-R260-HL7RoleClass\"> </a><a name=\"TRE-R260-HL7RoleClass-fr-FR\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">version: 4; Last updated: 2024-08-28 05:12:52+0000</p><p style=\"margin-bottom: 0px\">Profile: <a href=\"http://hl7.org/fhir/R4/shareablecodesystem.html\">Shareable CodeSystem</a></p></div><p><b>Properties</b></p><p><b>This code system defines the following properties for its concepts</b></p><table class=\"grid\"><tr><td><b>Name</b></td><td><b>Code</b></td><td><b>Type</b></td><td><b>Description</b></td></tr><tr><td>dateValid</td><td>dateValid</td><td>dateTime</td><td>date de validité d'un code concept</td></tr><tr><td>dateMaj</td><td>dateMaj</td><td>dateTime</td><td>Date de mise à jour d'un code concept</td></tr><tr><td>dateFin</td><td>dateFin</td><td>dateTime</td><td>Date de fin d'exploitation d'un code concept</td></tr></table><p><b>Concepts</b></p><p>This case-insensitive code system <code>https://mos.esante.gouv.fr/NOS/TRE_R260-HL7RoleClass/FHIR/TRE-R260-HL7RoleClass</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>dateValid</b></td><td><b>dateMaj</b></td><td><b>dateFin</b></td></tr><tr><td style=\"white-space:nowrap\">ECON<a name=\"TRE-R260-HL7RoleClass-ECON\"> </a></td><td>personne à prévenir en cas d'urgence</td><td>2018-03-30T12:00:00+01:00</td><td>2024-03-29T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">GUARD<a name=\"TRE-R260-HL7RoleClass-GUARD\"> </a></td><td>Responsable légal</td><td>2018-03-30T12:00:00+01:00</td><td>2018-03-30T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">QUAL<a name=\"TRE-R260-HL7RoleClass-QUAL\"> </a></td><td>Personne de confiance</td><td>2018-03-30T12:00:00+01:00</td><td>2024-03-29T12:00:00+01:00</td><td>2024-03-29T12:00:00+01:00</td></tr><tr><td style=\"white-space:nowrap\">POLHOLD<a name=\"TRE-R260-HL7RoleClass-POLHOLD\"> </a></td><td>Assuré ouvrant droit</td><td>2018-03-30T12:00:00+01:00</td><td>2018-03-30T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">CON<a name=\"TRE-R260-HL7RoleClass-CON\"> </a></td><td>Informateur</td><td>2018-03-30T12:00:00+01:00</td><td>2018-03-30T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">CAREGIVER<a name=\"TRE-R260-HL7RoleClass-CAREGIVER\"> </a></td><td>Aidant</td><td>2019-10-25T12:00:00+01:00</td><td>2019-10-25T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">PAT<a name=\"TRE-R260-HL7RoleClass-PAT\"> </a></td><td>aidé</td><td>2019-10-25T12:00:00+01:00</td><td>2024-03-29T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">PROV<a name=\"TRE-R260-HL7RoleClass-PROV\"> </a></td><td>Professionnel de santé</td><td>2021-03-26T12:00:00+01:00</td><td>2021-03-26T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">AGNT<a name=\"TRE-R260-HL7RoleClass-AGNT\"> </a></td><td>Professionnel caractérisé par son rôle</td><td>2021-03-26T12:00:00+01:00</td><td>2021-03-26T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">NOK<a name=\"TRE-R260-HL7RoleClass-NOK\"> </a></td><td>personne de confiance</td><td>2024-03-29T12:00:00+01:00</td><td>2024-03-29T12:00:00+01:00</td><td/></tr></table></div>"^^rdf:XMLLiteral
   ] ; # 
   fhir:extension ( [
      fhir:url [ fhir:v "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod"^^xsd:anyURI ] ;
@@ -59,103 +60,166 @@
      fhir:display [ fhir:v "personne à prévenir en cas d'urgence" ] ;
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
-       fhir:value [ fhir:v "2018-03-30T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2018-03-30T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
-       fhir:value [ fhir:v "2024-03-29T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2024-03-29T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "GUARD" ] ;
      fhir:display [ fhir:v "Responsable légal" ] ;
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
-       fhir:value [ fhir:v "2018-03-30T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2018-03-30T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
-       fhir:value [ fhir:v "2018-03-30T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2018-03-30T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "QUAL" ] ;
      fhir:display [ fhir:v "Personne de confiance" ] ;
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
-       fhir:value [ fhir:v "2018-03-30T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2018-03-30T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] [
        fhir:code [ fhir:v "dateFin" ] ;
-       fhir:value [ fhir:v "2024-03-29T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2024-03-29T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
-       fhir:value [ fhir:v "2024-03-29T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2024-03-29T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "POLHOLD" ] ;
      fhir:display [ fhir:v "Assuré ouvrant droit" ] ;
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
-       fhir:value [ fhir:v "2018-03-30T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2018-03-30T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
-       fhir:value [ fhir:v "2018-03-30T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2018-03-30T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "CON" ] ;
      fhir:display [ fhir:v "Informateur" ] ;
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
-       fhir:value [ fhir:v "2018-03-30T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2018-03-30T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
-       fhir:value [ fhir:v "2018-03-30T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2018-03-30T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "CAREGIVER" ] ;
      fhir:display [ fhir:v "Aidant" ] ;
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
-       fhir:value [ fhir:v "2019-10-25T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2019-10-25T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
-       fhir:value [ fhir:v "2019-10-25T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2019-10-25T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "PAT" ] ;
      fhir:display [ fhir:v "aidé" ] ;
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
-       fhir:value [ fhir:v "2019-10-25T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2019-10-25T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
-       fhir:value [ fhir:v "2024-03-29T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2024-03-29T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "PROV" ] ;
      fhir:display [ fhir:v "Professionnel de santé" ] ;
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
-       fhir:value [ fhir:v "2021-03-26T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2021-03-26T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
-       fhir:value [ fhir:v "2021-03-26T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2021-03-26T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "AGNT" ] ;
      fhir:display [ fhir:v "Professionnel caractérisé par son rôle" ] ;
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
-       fhir:value [ fhir:v "2021-03-26T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2021-03-26T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
-       fhir:value [ fhir:v "2021-03-26T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2021-03-26T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "NOK" ] ;
      fhir:display [ fhir:v "personne de confiance" ] ;
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
-       fhir:value [ fhir:v "2024-03-29T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2024-03-29T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
-       fhir:value [ fhir:v "2024-03-29T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2024-03-29T12:00:00+01:00"^^xsd:dateTime
+       ]
      ] )
   ] ) . # 
 
