@@ -45814,7 +45814,7 @@
          fhir:link <https://interop.esante.gouv.fr/terminologies/CodeSystem/terminologie-bdpm> ;
          fhir:reference [ fhir:v "CodeSystem/terminologie-bdpm" ]
        ] ;
-       fhir:name [ fhir:v "Base de données publique du médicament - BDPM" ] ;
+       fhir:name [ fhir:v "Base de données publique du médicament" ] ;
        fhir:example [
          a fhir:boolean ;
          fhir:v "false"^^xsd:boolean
@@ -55383,6 +55383,24 @@
        ] ;
        fhir:name [ fhir:v "JDV_J27_GroupeTarifaireDependance_ROR" ] ;
        fhir:description [ fhir:v "Niveau de dépendance associé à un tarif d'un ESMS - ROR" ] ;
+       fhir:example [
+         a fhir:boolean ;
+         fhir:v "false"^^xsd:boolean
+       ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [
+           a fhir:string ;
+           fhir:v "ValueSet"
+         ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <https://interop.esante.gouv.fr/terminologies/ValueSet/JDV-J280-CIM10ATIH-UPNOS> ;
+         fhir:reference [ fhir:v "ValueSet/JDV-J280-CIM10ATIH-UPNOS" ]
+       ] ;
+       fhir:name [ fhir:v "JDV_J280_CIM10ATIH_UPNOS" ] ;
+       fhir:description [ fhir:v "Termes CIM 10 utilisés" ] ;
        fhir:example [
          a fhir:boolean ;
          fhir:v "false"^^xsd:boolean

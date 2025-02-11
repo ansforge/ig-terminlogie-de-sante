@@ -2,7 +2,7 @@
 <RetrieveValueSetResponse xmlns="urn:ihe:iti:svs:2008"
                           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
    <ValueSet dateFin=""
-             dateMaj="20240329120000"
+             dateMaj="20250131120000"
              dateValid="20210625120000"
              description="Profession pour EPARS"
              displayName="JDV_J166_Profession_EPARS"
@@ -62,9 +62,6 @@
          <concept code="96"
                   codeSystem="1.2.250.1.71.1.2.7"
                   displayName="Psychomotricien"/>
-         <concept code="97"
-                  codeSystem="1.2.250.1.213.1.6.1.109"
-                  displayName="Conseiller en génétique"/>
          <concept code="98"
                   codeSystem="1.2.250.1.71.1.2.7"
                   displayName="Manipulateur ERM"/>

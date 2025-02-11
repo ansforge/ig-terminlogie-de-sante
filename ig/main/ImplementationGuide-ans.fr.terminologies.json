@@ -33508,7 +33508,7 @@
       "reference" : {
         "reference" : "CodeSystem/terminologie-bdpm"
       },
-      "name" : "Base de données publique du médicament - BDPM",
+      "name" : "Base de données publique du médicament",
       "exampleBoolean" : false
     },
     {
@@ -39885,6 +39885,18 @@
       },
       "name" : "JDV_J27_GroupeTarifaireDependance_ROR",
       "description" : "Niveau de dépendance associé à un tarif d'un ESMS - ROR",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      }],
+      "reference" : {
+        "reference" : "ValueSet/JDV-J280-CIM10ATIH-UPNOS"
+      },
+      "name" : "JDV_J280_CIM10ATIH_UPNOS",
+      "description" : "Termes CIM 10 utilisés",
       "exampleBoolean" : false
     },
     {

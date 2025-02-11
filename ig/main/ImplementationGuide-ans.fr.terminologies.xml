@@ -24545,7 +24545,7 @@
       <reference>
         <reference value="CodeSystem/terminologie-bdpm"/>
       </reference>
-      <name value="Base de données publique du médicament - BDPM"/>
+      <name value="Base de données publique du médicament"/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -30390,6 +30390,17 @@
       </reference>
       <name value="JDV_J27_GroupeTarifaireDependance_ROR"/>
       <description value="Niveau de dépendance associé à un tarif d'un ESMS - ROR"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/JDV-J280-CIM10ATIH-UPNOS"/>
+      </reference>
+      <name value="JDV_J280_CIM10ATIH_UPNOS"/>
+      <description value="Termes CIM 10 utilisés"/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>

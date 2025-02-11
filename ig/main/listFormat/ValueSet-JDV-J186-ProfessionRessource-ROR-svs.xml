@@ -2,7 +2,7 @@
 <RetrieveValueSetResponse xmlns="urn:ihe:iti:svs:2008"
                           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
    <ValueSet dateFin=""
-             dateMaj="20240426120000"
+             dateMaj="20250131120000"
              dateValid="20230331120000"
              description="Profession Ressource des offres dans le ROR"
              displayName="JDV_J186_ProfessionRessource_ROR"
@@ -121,9 +121,6 @@
          <concept code="351"
                   codeSystem="1.2.250.1.213.1.6.1.107"
                   displayName="Assistant(e) maternel(le)"/>
-         <concept code="407"
-                  codeSystem="1.2.250.1.213.1.6.1.110"
-                  displayName="Tatoueur"/>
          <concept code="408"
                   codeSystem="1.2.250.1.213.1.6.1.110"
                   displayName="Perceur corporel"/>
@@ -223,9 +220,6 @@
          <concept code="45"
                   codeSystem="1.2.250.1.213.3.3.246"
                   displayName="Assistant(e) de soins en gérontologie"/>
-         <concept code="47"
-                  codeSystem="1.2.250.1.213.3.3.246"
-                  displayName="Aide médico psychologique (AMP)"/>
          <concept code="50" codeSystem="1.2.250.1.213.3.3.246" displayName="Avéjiste"/>
          <concept code="51"
                   codeSystem="1.2.250.1.213.3.3.246"

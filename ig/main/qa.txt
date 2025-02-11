@@ -1,9 +1,9 @@
 Terminologies : Validation Results
 =========================================
 
-err = 1249, warn = 1864, info = 985
-IG Publisher Version: 1.8.11
-Generated Mon Feb 10 04:48:26 UTC 2025. FHIR version 4.0.1 for ans.fr.terminologies#0.1.0 (canonical = https://interop.esante.gouv.fr/terminologies)
+err = 1257, warn = 1864, info = 985
+IG Publisher Version: 1.8.12
+Generated Tue Feb 11 04:48:30 UTC 2025. FHIR version 4.0.1 for ans.fr.terminologies#0.1.0 (canonical = https://interop.esante.gouv.fr/terminologies)
  Build Errors : 577 / 15 / 0
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/DM/fsh-generated/resources/CodeSystem-snomed-CT : 0 / 0 / 1
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/DM/fsh-generated/resources/ConceptMap-ASS-A11-CorresModeleCDA-XdsFormatCode-CISIS : 0 / 0 / 1
@@ -18,7 +18,7 @@ Generated Mon Feb 10 04:48:26 UTC 2025. FHIR version 4.0.1 for ans.fr.terminolog
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/DM/fsh-generated/resources/ConceptMap-ASS-A24-ModeExercice-TypeActivite-ENREG : 0 / 0 / 1
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/DM/fsh-generated/resources/ConceptMap-ASS-A25-PaysProvenanceISO-PaysProvenanceCOG : 0 / 0 / 1
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/DM/fsh-generated/resources/ConceptMap-ASS-A28-TypeDiplome-Diplome-Profession-EPARS : 5 / 0 / 1
- /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/DM/fsh-generated/resources/ConceptMap-ASS-A29-Departement-AE : 0 / 0 / 1
+ /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/DM/fsh-generated/resources/ConceptMap-ASS-A29-Departement-AE : 10 / 0 / 1
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/DM/fsh-generated/resources/ConceptMap-ASS-A30-TypeAutorisation-Profession-EPARS : 0 / 0 / 1
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/DM/fsh-generated/resources/ConceptMap-ASS-A32-StatutMotifPersonnePriseCharge : 0 / 0 / 1
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/DM/fsh-generated/resources/ConceptMap-ASS-A33-AdministrativeGender-Sexe : 0 / 0 / 1
@@ -471,7 +471,7 @@ Generated Mon Feb 10 04:48:26 UTC 2025. FHIR version 4.0.1 for ans.fr.terminolog
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_J145_MethodBodyWeight_ENS : 0 / 1 / 1
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_J146_MethodBodyHeight_ENS : 0 / 3 / 1
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_J147_MethodHeartrate_ENS : 0 / 3 / 1
- /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_J148_ReferenceRangeAppliesTo_CISIS : 0 / 3 / 1
+ /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_J148_ReferenceRangeAppliesTo_CISIS : 0 / 2 / 1
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_J149_BodySiteBP_ENS : 0 / 3 / 1
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_J14_QualiteRepresentantLegal_CISIS : 0 / 1 / 1
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_J150_MethodBP_ENS : 0 / 1 / 1
@@ -496,7 +496,7 @@ Generated Mon Feb 10 04:48:26 UTC 2025. FHIR version 4.0.1 for ans.fr.terminolog
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_J169_MotifFinActivite_EPARS : 0 / 1 / 1
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_J16_ActeSpecifique_ROR : 0 / 1 / 3
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_J170_AutoriteEnregistrement_EPARS : 0 / 1 / 1
- /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_J171_TypeAutorisation_EPARS : 2 / 1 / 1
+ /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_J171_TypeAutorisation_EPARS : 0 / 1 / 1
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_J172_SecteurActivite_EPARS : 0 / 1 / 1
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_J173_FinessStatutJuridique_EPARS : 0 / 1 / 1
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_J176_SituationVieQuotidienne_MDPH : 0 / 1 / 1
@@ -598,6 +598,7 @@ Generated Mon Feb 10 04:48:26 UTC 2025. FHIR version 4.0.1 for ans.fr.terminolog
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_J278_UcumUniteMesure_UPNOS : 0 / 1 / 1
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_J279_Loinc_UPNOS : 0 / 1 / 1
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_J27_GroupeTarifaireDependance_ROR : 0 / 1 / 1
+ /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_J280_CIM10ATIH_UPNOS : 2 / 1 / 1
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_J281_StatutsRessourcesMS : 0 / 1 / 1
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_J282_TransportsLiesAuProjetIndividuel_SERAFIN : 0 / 1 / 1
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_J283_PrestationsIndirects_SERAFIN : 0 / 1 / 1
@@ -646,7 +647,7 @@ Generated Mon Feb 10 04:48:26 UTC 2025. FHIR version 4.0.1 for ans.fr.terminolog
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_J72_TypeProfessionFonction_MSSante : 0 / 1 / 1
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_J73_MetierPharmacien_RASS : 0 / 1 / 1
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_J74_Pays_RASS : 0 / 1 / 1
- /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_J75_TypeAutorisation_RASS : 2 / 1 / 1
+ /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_J75_TypeAutorisation_RASS : 0 / 1 / 1
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_J76_DisciplineAutorisation_RASS : 0 / 1 / 1
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_J77_TypeIdentifiantPersonne_RASS : 0 / 1 / 1
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_J78_Civilite_RASS : 0 / 1 / 1
@@ -1183,7 +1184,7 @@ Generated Mon Feb 10 04:48:26 UTC 2025. FHIR version 4.0.1 for ans.fr.terminolog
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/NamingSystem/LOINC : 1 / 0 / 1
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/NamingSystem/Snomed_CT_core_900000000000207008 : 1 / 0 / 1
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/TRE/ATC : 3 / 6 / 9
- /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/TRE/Base_de_donn_es_publique_du_m_dicament___BDPM : 3 / 11 / 27
+ /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/TRE/BDPM : 3 / 11 / 27
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/TRE/CCAM : 3 / 25 / 26
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/TRE/CIM11_MMS : 3 / 13 / 20
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/TRE/CIM_10_FR_PMSI : 3 / 10 / 10
@@ -2171,6 +2172,16 @@ ERROR: ConceptMap/ASS-A28-TypeDiplome-Diplome-Profession-EPARS: ConceptMap.group
 ERROR: ConceptMap/ASS-A28-TypeDiplome-Diplome-Profession-EPARS: ConceptMap.group[0].element[9].target[0].code: The target code 'DIP320' is not valid in the code system https://mos.esante.gouv.fr/NOS/TRE_R48-DiplomeEtatFrancais/FHIR/TRE-R48-DiplomeEtatFrancais|20240726120000
 ERROR: ConceptMap/ASS-A28-TypeDiplome-Diplome-Profession-EPARS: ConceptMap.group[0].element[10].target[0].code: The target code 'DIP413' is not valid in the code system https://mos.esante.gouv.fr/NOS/TRE_R48-DiplomeEtatFrancais/FHIR/TRE-R48-DiplomeEtatFrancais|20240726120000
 == DM/fsh-generated/resources/ConceptMap-ASS-A29-Departement-AE.json ==
+ERROR: ConceptMap/ASS-A29-Departement-AE: ConceptMap.group[0].element[7].target[0].code: The target code 'ARS-41' is not valid in the value set https://mos.esante.gouv.fr/NOS/JDV_J170-AutoriteEnregistrement-EPARS/FHIR/JDV-J170-AutoriteEnregistrement-EPARS|20250131120000
+ERROR: ConceptMap/ASS-A29-Departement-AE: ConceptMap.group[0].element[9].target[0].code: The target code 'ARS-41' is not valid in the value set https://mos.esante.gouv.fr/NOS/JDV_J170-AutoriteEnregistrement-EPARS/FHIR/JDV-J170-AutoriteEnregistrement-EPARS|20250131120000
+ERROR: ConceptMap/ASS-A29-Departement-AE: ConceptMap.group[0].element[51].target[0].code: The target code 'ARS-41' is not valid in the value set https://mos.esante.gouv.fr/NOS/JDV_J170-AutoriteEnregistrement-EPARS/FHIR/JDV-J170-AutoriteEnregistrement-EPARS|20250131120000
+ERROR: ConceptMap/ASS-A29-Departement-AE: ConceptMap.group[0].element[52].target[0].code: The target code 'ARS-41' is not valid in the value set https://mos.esante.gouv.fr/NOS/JDV_J170-AutoriteEnregistrement-EPARS/FHIR/JDV-J170-AutoriteEnregistrement-EPARS|20250131120000
+ERROR: ConceptMap/ASS-A29-Departement-AE: ConceptMap.group[0].element[54].target[0].code: The target code 'ARS-41' is not valid in the value set https://mos.esante.gouv.fr/NOS/JDV_J170-AutoriteEnregistrement-EPARS/FHIR/JDV-J170-AutoriteEnregistrement-EPARS|20250131120000
+ERROR: ConceptMap/ASS-A29-Departement-AE: ConceptMap.group[0].element[55].target[0].code: The target code 'ARS-41' is not valid in the value set https://mos.esante.gouv.fr/NOS/JDV_J170-AutoriteEnregistrement-EPARS/FHIR/JDV-J170-AutoriteEnregistrement-EPARS|20250131120000
+ERROR: ConceptMap/ASS-A29-Departement-AE: ConceptMap.group[0].element[57].target[0].code: The target code 'ARS-41' is not valid in the value set https://mos.esante.gouv.fr/NOS/JDV_J170-AutoriteEnregistrement-EPARS/FHIR/JDV-J170-AutoriteEnregistrement-EPARS|20250131120000
+ERROR: ConceptMap/ASS-A29-Departement-AE: ConceptMap.group[0].element[67].target[0].code: The target code 'ARS-41' is not valid in the value set https://mos.esante.gouv.fr/NOS/JDV_J170-AutoriteEnregistrement-EPARS/FHIR/JDV-J170-AutoriteEnregistrement-EPARS|20250131120000
+ERROR: ConceptMap/ASS-A29-Departement-AE: ConceptMap.group[0].element[68].target[0].code: The target code 'ARS-41' is not valid in the value set https://mos.esante.gouv.fr/NOS/JDV_J170-AutoriteEnregistrement-EPARS/FHIR/JDV-J170-AutoriteEnregistrement-EPARS|20250131120000
+ERROR: ConceptMap/ASS-A29-Departement-AE: ConceptMap.group[0].element[88].target[0].code: The target code 'ARS-41' is not valid in the value set https://mos.esante.gouv.fr/NOS/JDV_J170-AutoriteEnregistrement-EPARS/FHIR/JDV-J170-AutoriteEnregistrement-EPARS|20250131120000
 == DM/fsh-generated/resources/ConceptMap-ASS-A30-TypeAutorisation-Profession-EPARS.json ==
 == DM/fsh-generated/resources/ConceptMap-ASS-A32-StatutMotifPersonnePriseCharge.json ==
 == DM/fsh-generated/resources/ConceptMap-ASS-A33-AdministrativeGender-Sexe.json ==
@@ -3997,7 +4008,6 @@ WARNING: ValueSet.where(id = 'JDV-J147-MethodHeartrate-ENS'): Error from http://
 == input/ontoserver/JDV/JDV_J148_ReferenceRangeAppliesTo_CISIS.json ==
 WARNING: ValueSet/JDV-J148-ReferenceRangeAppliesTo-CISIS: ValueSet.compose.include[1]: Unknown System 'http://snomed.info/sct' specified, so Concepts and Filters can't be checked (Details: A definition for CodeSystem 'http://snomed.info/sct' version 'http://snomed.info/sct/11000315107' could not be found, so the code cannot be validated. Valid versions: [3.2.1])
 WARNING: ValueSet/JDV-J148-ReferenceRangeAppliesTo-CISIS: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.title is mandatory, but it is not present
-WARNING: ValueSet.where(id = 'JDV-J148-ReferenceRangeAppliesTo-CISIS'): Error from http://tx.fhir.org/r4: Unable to provide support for code system http://snomed.info/sct
 == input/ontoserver/JDV/JDV_J149_BodySiteBP_ENS.json ==
 WARNING: ValueSet/JDV-J149-BodySiteBP-ENS: ValueSet.compose.include[0]: Unknown System 'http://snomed.info/sct' specified, so Concepts and Filters can't be checked (Details: A definition for CodeSystem 'http://snomed.info/sct' version 'http://snomed.info/sct/11000315107' could not be found, so the code cannot be validated. Valid versions: [3.2.1])
 WARNING: ValueSet/JDV-J149-BodySiteBP-ENS: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.title is mandatory, but it is not present
@@ -4063,9 +4073,7 @@ INFORMATION: ValueSet.where(id = 'JDV-J16-ActeSpecifique-ROR'): The value set ex
 == input/ontoserver/JDV/JDV_J170_AutoriteEnregistrement_EPARS.json ==
 WARNING: ValueSet/JDV-J170-AutoriteEnregistrement-EPARS: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.title is mandatory, but it is not present
 == input/ontoserver/JDV/JDV_J171_TypeAutorisation_EPARS.json ==
-ERROR: ValueSet/JDV-J171-TypeAutorisation-EPARS: ValueSet.compose.include[1]: The system 'https://mos.esante.gouv.fr/NOS/JDV_J171-TypeAutorisation-EPARS/FHIR/JDV-J171-TypeAutorisation-EPARS' is actually a value set, which itself refers to the systems https://mos.esante.gouv.fr/NOS/JDV_J171-TypeAutorisation-EPARS/FHIR/JDV-J171-TypeAutorisation-EPARS, https://mos.esante.gouv.fr/NOS/TRE_R17-TypeAutorisation/FHIR/TRE-R17-TypeAutorisation
 WARNING: ValueSet/JDV-J171-TypeAutorisation-EPARS: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.title is mandatory, but it is not present
-ERROR: ValueSet.where(id = 'JDV-J171-TypeAutorisation-EPARS'): Error from http://tx.fhir.org/r4: Attempt to reference https://mos.esante.gouv.fr/NOS/JDV_J171-TypeAutorisation-EPARS/FHIR/JDV-J171-TypeAutorisation-EPARS as a CodeSystem when it's a ValueSet
 == input/ontoserver/JDV/JDV_J172_SecteurActivite_EPARS.json ==
 WARNING: ValueSet/JDV-J172-SecteurActivite-EPARS: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.title is mandatory, but it is not present
 == input/ontoserver/JDV/JDV_J173_FinessStatutJuridique_EPARS.json ==
@@ -4270,6 +4278,10 @@ WARNING: ValueSet/JDV-J278-UcumUniteMesure-UPNOS: ValueSet: Published value sets
 WARNING: ValueSet/JDV-J279-Loinc-UPNOS: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.title is mandatory, but it is not present
 == input/ontoserver/JDV/JDV_J27_GroupeTarifaireDependance_ROR.json ==
 WARNING: ValueSet/JDV-J27-GroupeTarifaireDependance-ROR: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.title is mandatory, but it is not present
+== input/ontoserver/JDV/JDV_J280_CIM10ATIH_UPNOS.json ==
+ERROR: ValueSet.where(url = 'https://mos.esante.gouv.fr/NOS/JDV_J280-CIM10ATIH-UPNOS/FHIR/JDV-J280-CIM10ATIH-UPNOS'): Conformance resource /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_J280_CIM10ATIH_UPNOS.json - the canonical URL (https://interop.esante.gouv.fr/terminologies/ValueSet/JDV-J280-CIM10ATIH-UPNOS) does not match the URL (https://mos.esante.gouv.fr/NOS/JDV_J280-CIM10ATIH-UPNOS/FHIR/JDV-J280-CIM10ATIH-UPNOS)
+WARNING: ValueSet/JDV-J280-CIM10ATIH-UPNOS: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.title is mandatory, but it is not present
+ERROR: /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_J280_CIM10ATIH_UPNOS: URL Mismatch https://interop.esante.gouv.fr/terminologies/ValueSet/JDV-J280-CIM10ATIH-UPNOS vs https://mos.esante.gouv.fr/NOS/JDV_J280-CIM10ATIH-UPNOS/FHIR/JDV-J280-CIM10ATIH-UPNOS
 == input/ontoserver/JDV/JDV_J281_StatutsRessourcesMS.json ==
 WARNING: ValueSet/JDV-J281-StatutsRessourcesMS: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.title is mandatory, but it is not present
 == input/ontoserver/JDV/JDV_J282_TransportsLiesAuProjetIndividuel_SERAFIN.json ==
@@ -4367,9 +4379,7 @@ WARNING: ValueSet/JDV-J73-MetierPharmacien-RASS: ValueSet: Published value sets 
 == input/ontoserver/JDV/JDV_J74_Pays_RASS.json ==
 WARNING: ValueSet/JDV-J74-Pays-RASS: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.title is mandatory, but it is not present
 == input/ontoserver/JDV/JDV_J75_TypeAutorisation_RASS.json ==
-ERROR: ValueSet/JDV-J75-TypeAutorisation-RASS: ValueSet.compose.include[1]: The system 'https://mos.esante.gouv.fr/NOS/JDV_J171-TypeAutorisation-EPARS/FHIR/JDV-J171-TypeAutorisation-EPARS' is actually a value set, which itself refers to the systems https://mos.esante.gouv.fr/NOS/JDV_J171-TypeAutorisation-EPARS/FHIR/JDV-J171-TypeAutorisation-EPARS, https://mos.esante.gouv.fr/NOS/TRE_R17-TypeAutorisation/FHIR/TRE-R17-TypeAutorisation
 WARNING: ValueSet/JDV-J75-TypeAutorisation-RASS: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.title is mandatory, but it is not present
-ERROR: ValueSet.where(id = 'JDV-J75-TypeAutorisation-RASS'): Error from http://tx.fhir.org/r4: Attempt to reference https://mos.esante.gouv.fr/NOS/JDV_J171-TypeAutorisation-EPARS/FHIR/JDV-J171-TypeAutorisation-EPARS as a CodeSystem when it's a ValueSet
 == input/ontoserver/JDV/JDV_J76_DisciplineAutorisation_RASS.json ==
 WARNING: ValueSet/JDV-J76-DisciplineAutorisation-RASS: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.title is mandatory, but it is not present
 == input/ontoserver/JDV/JDV_J77_TypeIdentifiantPersonne_RASS.json ==
@@ -6059,7 +6069,7 @@ WARNING: CodeSystem/terminologie-atc: CodeSystem.property[6]: The property uri '
 INFORMATION: CodeSystem/terminologie-atc: CodeSystem.property[6]: The type of property 'code' is 'code', but no ValueSet information was found, so the codes will be validated as internal codes
 INFORMATION: CodeSystem/terminologie-atc: CodeSystem.property[9]: This property has only a code ('imported') and not a URI, so it has no clearly defined meaning in the terminology ecosystem
 INFORMATION: CodeSystem/terminologie-atc: CodeSystem.property[10]: This property has only a code ('root') and not a URI, so it has no clearly defined meaning in the terminology ecosystem
-== input/ontoserver/TRE/Base_de_donn_es_publique_du_m_dicament___BDPM.json ==
+== input/ontoserver/TRE/BDPM.json ==
 ERROR: CodeSystem/terminologie-bdpm: CodeSystem: CodeSystem.description: minimum required = 1, but only found 0 (from http://hl7.org/fhir/StructureDefinition/shareablecodesystem|4.0.1)
 ERROR: CodeSystem/terminologie-bdpm: CodeSystem: CodeSystem.concept: minimum required = 1, but only found 0 (from http://hl7.org/fhir/StructureDefinition/shareablecodesystem|4.0.1)
 ERROR: CodeSystem/terminologie-bdpm: CodeSystem.meta.tag[0].display: Wrong Display Name 'Resource encoded in summary mode' for http://terminology.hl7.org/CodeSystem/v3-ObservationValue#SUBSETTED. There are no valid display names found for language(s) 'fr-FR'. Default display is 'subsetted'

@@ -2,7 +2,7 @@
 <RetrieveValueSetResponse xmlns="urn:ihe:iti:svs:2008"
                           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
    <ValueSet dateFin=""
-             dateMaj="20240329120000"
+             dateMaj="20250131120000"
              dateValid="20181026120000"
              description="Convention du domaine social FINESS"
              displayName="TRE_R278_FinessConvention"
@@ -85,12 +85,12 @@
          <concept code="DIT"
                   codeSystem="1.2.250.1.213.1.6.1.131"
                   dateFin=""
-                  dateMaj="20181026120000"
+                  dateMaj="20250131120000"
                   dateValid="20181026120000"
-                  displayName="Dispositif intégré ITEP"
-                  longDesignation="Dispositif intégré ITEP"
-                  shortDesignation="DITEP"
-                  descriptionMetier=""/>
+                  displayName="Dispositif Intégré"
+                  longDesignation="Dispositif Intégré"
+                  shortDesignation="Disp. Int."
+                  descriptionMetier="Cette convention identifie soit les ESMS ex-DITEP soit les ESMS fonctionnant en Dispositif Intégré mais n'entrant pas dans un &#34;dispositif partenarial&#34;"/>
          <concept code="EMA"
                   codeSystem="1.2.250.1.213.1.6.1.131"
                   dateFin=""
@@ -298,6 +298,24 @@
                   longDesignation="Convention SSIAD/SAAD (SAD)"
                   shortDesignation="Convention SSIAD/SAAD (SAD)"
                   descriptionMetier="Indique que l'établissement (ex-SSIAD ou ex-SAAD) a signé une convention avec un SAAS ou un SAA"/>
+         <concept code="MDI"
+                  codeSystem="1.2.250.1.213.1.6.1.131"
+                  dateFin=""
+                  dateMaj="20250131120000"
+                  dateValid="20250131120000"
+                  displayName="Membre du Dispositif Intégré"
+                  longDesignation="Membre du Dispositif Intégré"
+                  shortDesignation="Membre Disp. Int."
+                  descriptionMetier="Cette convention identifie un membre simple (non porteur) du Dispositif Intégré dans le cas d'un dispositif partenarial&#34;"/>
+         <concept code="PDI"
+                  codeSystem="1.2.250.1.213.1.6.1.131"
+                  dateFin=""
+                  dateMaj="20250131120000"
+                  dateValid="20250131120000"
+                  displayName="Porteur du Dispositif Intégré"
+                  longDesignation="Porteur du Dispositif Intégré"
+                  shortDesignation="Porteur Disp. Int."
+                  descriptionMetier="Cette convention identifie le porteur du Dispositif Intégré dans le cas d'un dispositif partenarial&#34;"/>
       </ConceptList>
    </ValueSet>
 </RetrieveValueSetResponse>

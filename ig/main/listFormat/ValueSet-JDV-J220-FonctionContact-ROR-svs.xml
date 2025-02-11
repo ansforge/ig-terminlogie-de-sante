@@ -2,7 +2,7 @@
 <RetrieveValueSetResponse xmlns="urn:ihe:iti:svs:2008"
                           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
    <ValueSet dateFin=""
-             dateMaj="20240426120000"
+             dateMaj="20250131120000"
              dateValid="20220826120000"
              description="Un titre, une position, une fonction de la personne contact dans l'organisation"
              displayName="JDV_J220_FonctionContact_ROR"
@@ -83,6 +83,9 @@
          <concept code="27"
                   codeSystem="1.2.250.1.213.3.3.48"
                   displayName="Responsable du Bed Management"/>
+         <concept code="28"
+                  codeSystem="1.2.250.1.213.3.3.48"
+                  displayName="Référent Handicap"/>
       </ConceptList>
    </ValueSet>
 </RetrieveValueSetResponse>

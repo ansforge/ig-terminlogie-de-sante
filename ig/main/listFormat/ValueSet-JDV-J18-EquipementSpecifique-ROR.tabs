@@ -1,5 +1,5 @@
 <OID>;<Type fichier>;<Nom fichier>;<Description>;<URL fichier>;<Date valid>;<Date fin>;<Date MAJ>  
-1.2.250.1.213.3.4.6;JDV;JDV_J18_EquipementSpecifique_ROR;Equipement spécifique - ROR;https://mos.esante.gouv.fr/NOS/JDV_J18-EquipementSpecifique-ROR;20160901000000;;20241213120000
+1.2.250.1.213.3.4.6;JDV;JDV_J18_EquipementSpecifique_ROR;Equipement spécifique - ROR;https://mos.esante.gouv.fr/NOS/JDV_J18-EquipementSpecifique-ROR;20160901000000;;20250131120000
 <system>;<Code>;<Libellé> 
 1.2.250.1.213.3.3.10;003;Angioscope
 1.2.250.1.213.3.3.10;005;Autotransfuseur
@@ -145,3 +145,10 @@
 1.2.250.1.213.3.3.10;218;Dispositif d'électrostimulation fonctionnelle
 1.2.250.1.213.3.3.10;219;Parcours de marche
 1.2.250.1.213.3.3.10;220;ECG portable
+1.2.250.1.213.3.3.10;221;IRM obésité - bariatrique
+1.2.250.1.213.3.3.10;222;Scanner (TDM) obésité - bariatrique
+1.2.250.1.213.3.3.10;223;Table d'accouchement obésité - bariatrique
+1.2.250.1.213.3.3.10;224;Table de coronarographie obésité - bariatrique
+1.2.250.1.213.3.3.10;225;Chambre adaptée obésité - bariatrique
+1.2.250.1.213.3.3.10;226;Table de radiologie interventionnelle obésité - bariatrique
+1.2.250.1.213.3.3.10;227;Table de bloc opératoire obésité - bariatrique

@@ -2,7 +2,7 @@
 <RetrieveValueSetResponse xmlns="urn:ihe:iti:svs:2008"
                           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
    <ValueSet dateFin=""
-             dateMaj="20240628120000"
+             dateMaj="20250131120000"
              dateValid="20210625120000"
              description="Liste des autorités d'enregistrement pour EPARS"
              displayName="JDV_J170_AutoriteEnregistrement_EPARS"
@@ -40,9 +40,6 @@
          <concept code="ARS-32"
                   codeSystem="1.2.250.1.213.1.6.1.57"
                   displayName="ARS-32 : Hauts-de-France"/>
-         <concept code="ARS-41"
-                  codeSystem="1.2.250.1.213.1.6.1.57"
-                  displayName="ARS-41 : Lorraine"/>
          <concept code="ARS-44"
                   codeSystem="1.2.250.1.213.1.6.1.57"
                   displayName="ARS-44 : Grand Est"/>

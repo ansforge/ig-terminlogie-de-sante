@@ -2,7 +2,7 @@
 <RetrieveValueSetResponse xmlns="urn:ihe:iti:svs:2008"
                           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
    <ValueSet dateFin=""
-             dateMaj="20240426120000"
+             dateMaj="20250131120000"
              dateValid="20180126120000"
              description="Un titre, une position, une fonction de la personne contact dans l'organisation"
              displayName="TRE_R251_FonctionContact"
@@ -252,6 +252,15 @@
                   displayName="Responsable du Bed Management"
                   longDesignation="Responsable du Bed Management"
                   shortDesignation="Responsable Bed Management"
+                  descriptionMetier=""/>
+         <concept code="28"
+                  codeSystem="1.2.250.1.213.3.3.48"
+                  dateFin=""
+                  dateMaj="20250131120000"
+                  dateValid="20250131120000"
+                  displayName="Référent Handicap"
+                  longDesignation="Référent Handicap"
+                  shortDesignation="Référent Handicap"
                   descriptionMetier=""/>
       </ConceptList>
    </ValueSet>

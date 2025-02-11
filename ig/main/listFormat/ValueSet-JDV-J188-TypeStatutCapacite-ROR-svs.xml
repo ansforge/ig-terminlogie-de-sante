@@ -2,7 +2,7 @@
 <RetrieveValueSetResponse xmlns="urn:ihe:iti:svs:2008"
                           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
    <ValueSet dateFin=""
-             dateMaj="20241213120000"
+             dateMaj="20250131120000"
              dateValid="20220527120000"
              description="Permet de préciser dans le ROR le statut des lits décrits"
              displayName="JDV_J188_TypeStatutCapacite_ROR"
@@ -20,9 +20,6 @@
          <concept code="06"
                   codeSystem="1.2.250.1.213.3.3.213"
                   displayName="Supplémentaire"/>
-         <concept code="07"
-                  codeSystem="1.2.250.1.213.3.3.213"
-                  displayName="Opérationnel"/>
       </ConceptList>
    </ValueSet>
 </RetrieveValueSetResponse>

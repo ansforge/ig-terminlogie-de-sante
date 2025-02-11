@@ -2,7 +2,7 @@
 <RetrieveValueSetResponse xmlns="urn:ihe:iti:svs:2008"
                           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
    <ValueSet dateFin=""
-             dateMaj="20241213120000"
+             dateMaj="20250131120000"
              dateValid="20121006000000"
              description="subjectRole CI-SIS"
              displayName="JDV_J05_SubjectRole_CISIS"
@@ -1083,9 +1083,6 @@
          <concept code="FON-52"
                   codeSystem="1.2.250.1.213.1.6.1.17"
                   displayName="Etudiant militaire"/>
-         <concept code="FON-53"
-                  codeSystem="1.2.250.1.213.1.6.1.17"
-                  displayName="Médecin assistant"/>
          <concept code="FON-54"
                   codeSystem="1.2.250.1.213.1.6.1.17"
                   displayName="Permanence des soins ambulatoires hors cabinet"/>

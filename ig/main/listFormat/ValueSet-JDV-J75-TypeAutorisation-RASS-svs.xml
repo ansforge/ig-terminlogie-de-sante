@@ -2,7 +2,7 @@
 <RetrieveValueSetResponse xmlns="urn:ihe:iti:svs:2008"
                           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
    <ValueSet dateFin=""
-             dateMaj="20241213120000"
+             dateMaj="20250131120000"
              dateValid="20190830120000"
              description="Type d'autorisation d'exercice pour accès à l'exercice de la profession du RASS"
              displayName="JDV_J75_TypeAutorisation_RASS"
@@ -105,7 +105,7 @@
                   displayName="Autorisation préfectorale d'exercice de psychologue décret 90-259"/>
          <concept code="AM33"
                   codeSystem="1.2.250.1.213.1.6.1.14"
-                  displayName="Autorisation d'exercice de psychothérapeute pour médecin spécialisé psychiatrie"/>
+                  displayName="Docteur en médecine spécialité psychiatrie"/>
          <concept code="AM34"
                   codeSystem="1.2.250.1.213.1.6.1.14"
                   displayName="Autorisation d'exercice d'audioprothésiste pour médecin"/>
@@ -123,7 +123,7 @@
                   displayName="Arrêté de Nomination de Manipulateur d'Electro-Radiologie du Secteur Public"/>
          <concept code="AM39"
                   codeSystem="1.2.250.1.213.1.6.1.14"
-                  displayName="Autorisation d'exercice de psychothérapeute pour médecin"/>
+                  displayName="Docteur en médecine + formation + stage"/>
          <concept code="AM40"
                   codeSystem="1.2.250.1.213.1.6.1.14"
                   displayName="Autorisation d'exercice temporaire Nouvelle-Calédonie (loi du pays n°2023-8)"/>
@@ -131,7 +131,7 @@
                   codeSystem="1.2.250.1.213.1.6.1.14"
                   displayName="Agrément de radiophysicien avant le 28/11/2004"/>
          <concept code="AM42"
-                  codeSystem=""
+                  codeSystem="1.2.250.1.213.1.6.1.14"
                   displayName="Autorisation d'user du titre de Psychothérapeute"/>
       </ConceptList>
    </ValueSet>

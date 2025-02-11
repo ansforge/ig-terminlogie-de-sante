@@ -1,5 +1,5 @@
 <OID>;<Type fichier>;<Nom fichier>;<Description>;<URL fichier>;<Date valid>;<Date fin>;<Date MAJ>  
-1.2.250.1.213.1.1.5.461;JDV;JDV_J01_XdsAuthorSpecialty_CISIS;XDS authorSpecialty CI-SIS;https://mos.esante.gouv.fr/NOS/JDV_J01-XdsAuthorSpecialty-CISIS;20121112000000;;20241213120000
+1.2.250.1.213.1.1.5.461;JDV;JDV_J01_XdsAuthorSpecialty_CISIS;XDS authorSpecialty CI-SIS;https://mos.esante.gouv.fr/NOS/JDV_J01-XdsAuthorSpecialty-CISIS;20121112000000;;20250131120000
 <system>;<Code>;<Libellé> 
 1.2.250.1.213.1.1.4.6;ALIM_AM;Alimentation automatique à partir du Système d'Information de l'Assurance Maladie
 1.2.250.1.213.1.1.4.6;DISPOSITIF;Dispositif médical
@@ -230,11 +230,6 @@
 1.2.250.1.213.1.1.4.5;G15_28;Opticien-Lunetier
 1.2.250.1.213.1.1.4.5;G15_31;Assistant dentaire
 1.2.250.1.213.1.1.4.5;G15_32;Physicien médical
-1.2.250.1.213.1.1.4.5;G15_35;Aide-soignant
-1.2.250.1.213.1.1.4.5;G15_36;Ambulancier
-1.2.250.1.213.1.1.4.5;G15_37;Auxiliaire de puériculture
-1.2.250.1.213.1.1.4.5;G15_38;Préparateur en pharmacie hospitalière
-1.2.250.1.213.1.1.4.5;G15_39;Préparateur en pharmacie (officine)
 1.2.250.1.213.1.1.4.5;G15_40;Chirurgien-Dentiste
 1.2.250.1.213.1.1.4.5;G15_40/SCD01;Chirurgien-Dentiste - Orthopédie dento-faciale (SCD)
 1.2.250.1.213.1.1.4.5;G15_40/SCD02;Chirurgien-Dentiste - Chirurgie orale (SCD)
