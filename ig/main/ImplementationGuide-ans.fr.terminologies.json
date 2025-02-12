@@ -48,7 +48,7 @@
     }],
     "uri" : "http://hl7.org/fhir/extensions/ImplementationGuide/hl7.fhir.uv.extensions",
     "packageId" : "hl7.fhir.uv.extensions.r4",
-    "version" : "5.1.0"
+    "version" : "5.2.0"
   }],
   "definition" : {
     "extension" : [{
@@ -33586,7 +33586,7 @@
       "reference" : {
         "reference" : "CodeSystem/terminologie-sms"
       },
-      "name" : "Dictionnaire_des_substances_m_dicamenteuses__SMS_",
+      "name" : "Dictionnaire européen multilingue des substances entrant dans la composition de médicaments",
       "exampleBoolean" : false
     },
     {
@@ -46745,17 +46745,6 @@
         "valueString" : "CodeSystem"
       }],
       "reference" : {
-        "reference" : "CodeSystem/terminologie-nuva"
-      },
-      "name" : "La Nomenclature Unifiée des Vaccins (NUVA)",
-      "exampleBoolean" : false
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "CodeSystem"
-      }],
-      "reference" : {
         "reference" : "CodeSystem/terminologie-lahn"
       },
       "name" : "Liste des Actes Inovants Hors Nomenclature",
@@ -46806,6 +46795,17 @@
       },
       "name" : "Nomenclature des besoins et des prestations",
       "description" : "Les nomenclatures des besoins et des prestations ont été élaborées par un groupe de travail issu du projet SERAFIN-PH porté par la Caisse nationale de Solidarité pour l’Autonomie (CNSA) et la Direction Générale de la Cohésion Sociale (DGCS).\nElles permettent de décrire, sur la base d’un langage commun, les besoins identifiés des personnes, et les prestations réalisées en réponse à ces besoins. Les usages locaux de ces nomenclatures montrent leur pertinence pour nouer autour des projets personnalisés d’accompagnement et de leurs déclinaisons opérationnelles un dialogue soutenu et permanent entre tous les acteurs concernés, de la personne accompagnée aux structures médico-sociales, acteurs de droit commun et jusqu’aux institutions de régulation (ARS, services déconcentrés et collectivités locales).",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "CodeSystem"
+      }],
+      "reference" : {
+        "reference" : "CodeSystem/terminologie-nuva"
+      },
+      "name" : "Nomenclature Unifiée des Vaccins",
       "exampleBoolean" : false
     },
     {

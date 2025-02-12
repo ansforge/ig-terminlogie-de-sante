@@ -2,11 +2,11 @@
 <RetrieveValueSetResponse xmlns="urn:ihe:iti:svs:2008"
                           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
    <ValueSet dateFin=""
-             dateMaj="20250110131300"
+             dateMaj="20250211140000"
              dateValid=""
              description=""
-             displayName="Dictionnaire_des_substances_m_dicamenteuses__SMS_"
-             id=""
+             displayName="Dictionnaire_SMS_Substance_Management_Services_"
+             id="2.16.840.1.113883.3.6905.2"
              typeFichier="TRE"
              urlFichier="">
       <ConceptList/>

@@ -832,7 +832,7 @@
     "id" : "JDV-J16-ActeSpecifique-ROR",
     "type" : "ValueSet",
     "url" : "https://mos.esante.gouv.fr/NOS/JDV_J16-ActeSpecifique-ROR/FHIR/JDV-J16-ActeSpecifique-ROR",
-    "version" : "20241213120000",
+    "version" : "20250131120000",
     "name" : "JDV_J16_ActeSpecifique_ROR",
     "oids" : ["1.2.250.1.213.3.4.4"]
   },
@@ -2776,7 +2776,7 @@
     "id" : "TRE-R210-ActeSpecifique",
     "type" : "CodeSystem",
     "url" : "https://mos.esante.gouv.fr/NOS/TRE_R210-ActeSpecifique/FHIR/TRE-R210-ActeSpecifique",
-    "version" : "20241213120000",
+    "version" : "20250131120000",
     "name" : "TRE_R210_ActeSpecifique",
     "oids" : ["1.2.250.1.213.3.3.11"]
   },
@@ -11451,8 +11451,9 @@
     "id" : "terminologie-nuva",
     "type" : "CodeSystem",
     "url" : "https://smt.esante.gouv.fr/terminologie-nuva",
-    "version" : "1.0.825",
-    "name" : "NUVA"
+    "version" : "1.0.854",
+    "name" : "NUVA",
+    "oids" : ["1.3.6.1.4.1.48601.1"]
   },
   {
     "id" : "vs-nuva-all",
@@ -11465,8 +11466,9 @@
     "id" : "terminologie-sms",
     "type" : "CodeSystem",
     "url" : "https://smt.esante.gouv.fr/terminologie-sms",
-    "version" : "2025-01",
-    "name" : "Dictionnaire_des_substances_m_dicamenteuses__SMS_"
+    "version" : "2025-02",
+    "name" : "Dictionnaire_SMS_Substance_Management_Services_",
+    "oids" : ["2.16.840.1.113883.3.6905.2"]
   },
   {
     "id" : "vs-sms-all",

@@ -2,7 +2,7 @@
 <RetrieveValueSetResponse xmlns="urn:ihe:iti:svs:2008"
                           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
    <ValueSet dateFin=""
-             dateMaj="20241213120000"
+             dateMaj="20250131120000"
              dateValid="20160901000000"
              description="Acte spécifique - ROR"
              displayName="JDV_J16_ActeSpecifique_ROR"
@@ -3417,16 +3417,25 @@
                   displayName="Electrostimulation fonctionnelle urologique"/>
          <concept code="1489"
                   codeSystem="1.2.250.1.213.3.3.11"
-                  displayName="Filière Obésité - Niveau 1 (Conventionné CSO)"/>
+                  displayName="Filière Obésité - Niveau 1 Conventionné Centres Spécialisés Obésité (CSO)"/>
          <concept code="1490"
                   codeSystem="1.2.250.1.213.3.3.11"
-                  displayName="Filière Obésité - Niveau 2 (Conventionné CSO)"/>
+                  displayName="Filière Obésité - Niveau 2 Conventionné Centres Spécialisés Obésité (CSO)"/>
          <concept code="1491"
                   codeSystem="1.2.250.1.213.3.3.11"
-                  displayName="Filière Obésité - Niveau 3 (Conventionné CSO)"/>
+                  displayName="Filière Obésité - Niveau 3 Conventionné Centres Spécialisés Obésité (CSO)"/>
          <concept code="1492"
                   codeSystem="1.2.250.1.213.3.3.11"
                   displayName="Filière Obésité - Niveau 3 (Centre Spécialisé Obésité)"/>
+         <concept code="1493"
+                  codeSystem="1.2.250.1.213.3.3.11"
+                  displayName="Consultation dans des locaux dédiés - personnes en situation de handicap (PH)"/>
+         <concept code="1494"
+                  codeSystem="1.2.250.1.213.3.3.11"
+                  displayName="Consultation sans locaux dédiés - personnes en situation de handicap (PH)"/>
+         <concept code="1495"
+                  codeSystem="1.2.250.1.213.3.3.11"
+                  displayName="HandiBloc"/>
       </ConceptList>
    </ValueSet>
 </RetrieveValueSetResponse>

@@ -67,7 +67,7 @@
        fhir:link <http://hl7.org/fhir/extensions/ImplementationGuide/hl7.fhir.uv.extensions>
      ] ;
      fhir:packageId [ fhir:v "hl7.fhir.uv.extensions.r4" ] ;
-     fhir:version [ fhir:v "5.1.0" ]
+     fhir:version [ fhir:v "5.2.0" ]
   ] ) ; # 
   fhir:definition [
      fhir:extension ( [
@@ -45934,7 +45934,7 @@
          fhir:link <https://interop.esante.gouv.fr/terminologies/CodeSystem/terminologie-sms> ;
          fhir:reference [ fhir:v "CodeSystem/terminologie-sms" ]
        ] ;
-       fhir:name [ fhir:v "Dictionnaire_des_substances_m_dicamenteuses__SMS_" ] ;
+       fhir:name [ fhir:v "Dictionnaire européen multilingue des substances entrant dans la composition de médicaments" ] ;
        fhir:example [
          a fhir:boolean ;
          fhir:v "false"^^xsd:boolean
@@ -65674,23 +65674,6 @@
          ]
        ] ) ;
        fhir:reference [
-         fhir:link <https://interop.esante.gouv.fr/terminologies/CodeSystem/terminologie-nuva> ;
-         fhir:reference [ fhir:v "CodeSystem/terminologie-nuva" ]
-       ] ;
-       fhir:name [ fhir:v "La Nomenclature Unifiée des Vaccins (NUVA)" ] ;
-       fhir:example [
-         a fhir:boolean ;
-         fhir:v "false"^^xsd:boolean
-       ]
-     ] [
-       fhir:extension ( [
-         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
-         fhir:value [
-           a fhir:string ;
-           fhir:v "CodeSystem"
-         ]
-       ] ) ;
-       fhir:reference [
          fhir:link <https://interop.esante.gouv.fr/terminologies/CodeSystem/terminologie-lahn> ;
          fhir:reference [ fhir:v "CodeSystem/terminologie-lahn" ]
        ] ;
@@ -65766,6 +65749,23 @@
        ] ;
        fhir:name [ fhir:v "Nomenclature des besoins et des prestations" ] ;
        fhir:description [ fhir:v "Les nomenclatures des besoins et des prestations ont été élaborées par un groupe de travail issu du projet SERAFIN-PH porté par la Caisse nationale de Solidarité pour l’Autonomie (CNSA) et la Direction Générale de la Cohésion Sociale (DGCS).\nElles permettent de décrire, sur la base d’un langage commun, les besoins identifiés des personnes, et les prestations réalisées en réponse à ces besoins. Les usages locaux de ces nomenclatures montrent leur pertinence pour nouer autour des projets personnalisés d’accompagnement et de leurs déclinaisons opérationnelles un dialogue soutenu et permanent entre tous les acteurs concernés, de la personne accompagnée aux structures médico-sociales, acteurs de droit commun et jusqu’aux institutions de régulation (ARS, services déconcentrés et collectivités locales)." ] ;
+       fhir:example [
+         a fhir:boolean ;
+         fhir:v "false"^^xsd:boolean
+       ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [
+           a fhir:string ;
+           fhir:v "CodeSystem"
+         ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <https://interop.esante.gouv.fr/terminologies/CodeSystem/terminologie-nuva> ;
+         fhir:reference [ fhir:v "CodeSystem/terminologie-nuva" ]
+       ] ;
+       fhir:name [ fhir:v "Nomenclature Unifiée des Vaccins" ] ;
        fhir:example [
          a fhir:boolean ;
          fhir:v "false"^^xsd:boolean

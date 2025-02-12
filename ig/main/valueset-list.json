@@ -1022,7 +1022,7 @@
     },
     {
       "url" : "https://mos.esante.gouv.fr/NOS/JDV_J16-ActeSpecifique-ROR/FHIR/JDV-J16-ActeSpecifique-ROR",
-      "version" : "20241213120000",
+      "version" : "20250131120000",
       "status" : "active",
       "name" : "JDV_J16_ActeSpecifique_ROR",
       "title" : null,

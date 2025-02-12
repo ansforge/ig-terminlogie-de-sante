@@ -1,5 +1,5 @@
 <OID>;<Type fichier>;<Nom fichier>;<Description>;<URL fichier>;<Date valid>;<Date fin>;<Date MAJ>  
-1.2.250.1.213.3.4.4;JDV;JDV_J16_ActeSpecifique_ROR;Acte spécifique - ROR;https://mos.esante.gouv.fr/NOS/JDV_J16-ActeSpecifique-ROR;20160901000000;;20241213120000
+1.2.250.1.213.3.4.4;JDV;JDV_J16_ActeSpecifique_ROR;Acte spécifique - ROR;https://mos.esante.gouv.fr/NOS/JDV_J16-ActeSpecifique-ROR;20160901000000;;20250131120000
 <system>;<Code>;<Libellé> 
 1.2.250.1.213.3.3.11;0001;Ablation par radiofréquence de trouble du rythme et de conduction
 1.2.250.1.213.3.3.11;0005;Accueil mort inattendue du nourrisson (MIN)
@@ -1136,7 +1136,10 @@
 1.2.250.1.213.3.3.11;1486;Télésurveillance médicale du diabète
 1.2.250.1.213.3.3.11;1487;Télésurveillance médicale en oncologie
 1.2.250.1.213.3.3.11;1488;Electrostimulation fonctionnelle urologique
-1.2.250.1.213.3.3.11;1489;Filière Obésité - Niveau 1 (Conventionné CSO)
-1.2.250.1.213.3.3.11;1490;Filière Obésité - Niveau 2 (Conventionné CSO)
-1.2.250.1.213.3.3.11;1491;Filière Obésité - Niveau 3 (Conventionné CSO)
+1.2.250.1.213.3.3.11;1489;Filière Obésité - Niveau 1 Conventionné Centres Spécialisés Obésité (CSO)
+1.2.250.1.213.3.3.11;1490;Filière Obésité - Niveau 2 Conventionné Centres Spécialisés Obésité (CSO)
+1.2.250.1.213.3.3.11;1491;Filière Obésité - Niveau 3 Conventionné Centres Spécialisés Obésité (CSO)
 1.2.250.1.213.3.3.11;1492;Filière Obésité - Niveau 3 (Centre Spécialisé Obésité)
+1.2.250.1.213.3.3.11;1493;Consultation dans des locaux dédiés - personnes en situation de handicap (PH)
+1.2.250.1.213.3.3.11;1494;Consultation sans locaux dédiés - personnes en situation de handicap (PH)
+1.2.250.1.213.3.3.11;1495;HandiBloc

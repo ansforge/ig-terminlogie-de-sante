@@ -45,7 +45,7 @@
     </extension>
     <uri value="http://hl7.org/fhir/extensions/ImplementationGuide/hl7.fhir.uv.extensions"/>
     <packageId value="hl7.fhir.uv.extensions.r4"/>
-    <version value="5.1.0"/>
+    <version value="5.2.0"/>
   </dependsOn>
   <definition>
     <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
@@ -24616,7 +24616,7 @@
       <reference>
         <reference value="CodeSystem/terminologie-sms"/>
       </reference>
-      <name value="Dictionnaire_des_substances_m_dicamenteuses__SMS_"/>
+      <name value="Dictionnaire européen multilingue des substances entrant dans la composition de médicaments"/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -36678,16 +36678,6 @@
         <valueString value="CodeSystem"/>
       </extension>
       <reference>
-        <reference value="CodeSystem/terminologie-nuva"/>
-      </reference>
-      <name value="La Nomenclature Unifiée des Vaccins (NUVA)"/>
-      <exampleBoolean value="false"/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="CodeSystem"/>
-      </extension>
-      <reference>
         <reference value="CodeSystem/terminologie-lahn"/>
       </reference>
       <name value="Liste des Actes Inovants Hors Nomenclature"/>
@@ -36734,6 +36724,16 @@
       </reference>
       <name value="Nomenclature des besoins et des prestations"/>
       <description value="Les nomenclatures des besoins et des prestations ont été élaborées par un groupe de travail issu du projet SERAFIN-PH porté par la Caisse nationale de Solidarité pour l’Autonomie (CNSA) et la Direction Générale de la Cohésion Sociale (DGCS).&#xA;Elles permettent de décrire, sur la base d’un langage commun, les besoins identifiés des personnes, et les prestations réalisées en réponse à ces besoins. Les usages locaux de ces nomenclatures montrent leur pertinence pour nouer autour des projets personnalisés d’accompagnement et de leurs déclinaisons opérationnelles un dialogue soutenu et permanent entre tous les acteurs concernés, de la personne accompagnée aux structures médico-sociales, acteurs de droit commun et jusqu’aux institutions de régulation (ARS, services déconcentrés et collectivités locales)."/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="CodeSystem"/>
+      </extension>
+      <reference>
+        <reference value="CodeSystem/terminologie-nuva"/>
+      </reference>
+      <name value="Nomenclature Unifiée des Vaccins"/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>

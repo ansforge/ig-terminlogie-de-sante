@@ -1,7 +1,7 @@
 Terminologies : Validation Results
 =========================================
 
-err = 1257, warn = 1864, info = 985
+err = 1257, warn = 1863, info = 985
 $--
 Generated $--. FHIR version $-- for ans.fr.terminologies#$-- (canonical = https://interop.esante.gouv.fr/terminologies)
  Build Errors : 577 / 15 / 0
@@ -1190,7 +1190,7 @@ Generated $--. FHIR version $-- for ans.fr.terminologies#$-- (canonical = https:
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/TRE/CIM_10_FR_PMSI : 3 / 10 / 10
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/TRE/CISP_2 : 3 / 8 / 10
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/TRE/CLADIMED : 3 / 4 / 6
- /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/TRE/Dictionnaire_des_substances_m_dicamenteuses__SMS_ : 3 / 5 / 14
+ /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/TRE/Dictionnaire_SMS_Substance_Management_Services_ : 3 / 4 / 14
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/TRE/EDQM___Standard_Terms : 3 / 25 / 27
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/TRE/EMDN : 3 / 3 / 6
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/TRE/LAHN : 0 / 3 / 8
@@ -4067,7 +4067,7 @@ WARNING: ValueSet/JDV-J168-Pays-EPARS: ValueSet: Published value sets SHOULD con
 == input/ontoserver/JDV/JDV_J169_MotifFinActivite_EPARS.json ==
 WARNING: ValueSet/JDV-J169-MotifFinActivite-EPARS: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.title is mandatory, but it is not present
 == input/ontoserver/JDV/JDV_J16_ActeSpecifique_ROR.json ==
-INFORMATION: ValueSet/JDV-J16-ActeSpecifique-ROR: ValueSet.compose.include[0]: The value set include has too many codes to validate (1,139), so each individual code has not been checked
+INFORMATION: ValueSet/JDV-J16-ActeSpecifique-ROR: ValueSet.compose.include[0]: The value set include has too many codes to validate (1,142), so each individual code has not been checked
 WARNING: ValueSet/JDV-J16-ActeSpecifique-ROR: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.title is mandatory, but it is not present
 INFORMATION: ValueSet.where(id = 'JDV-J16-ActeSpecifique-ROR'): The value set expansion is too large, and only a subset has been displayed
 == input/ontoserver/JDV/JDV_J170_AutoriteEnregistrement_EPARS.json ==
@@ -6257,13 +6257,12 @@ INFORMATION: CodeSystem/terminologie-cladimed: CodeSystem.property[0]: The prope
 WARNING: CodeSystem/terminologie-cladimed: CodeSystem.property[1]: The base property uri 'http://www.w3.org/2000/01/rdf-schema' is not known for the property 'comment', so the property values can not be validated fully
 INFORMATION: CodeSystem/terminologie-cladimed: CodeSystem.property[4]: This property has only a code ('imported') and not a URI, so it has no clearly defined meaning in the terminology ecosystem
 INFORMATION: CodeSystem/terminologie-cladimed: CodeSystem.property[5]: This property has only a code ('root') and not a URI, so it has no clearly defined meaning in the terminology ecosystem
-== input/ontoserver/TRE/Dictionnaire_des_substances_m_dicamenteuses__SMS_.json ==
+== input/ontoserver/TRE/Dictionnaire_SMS_Substance_Management_Services_.json ==
 ERROR: CodeSystem/terminologie-sms: CodeSystem: CodeSystem.description: minimum required = 1, but only found 0 (from http://hl7.org/fhir/StructureDefinition/shareablecodesystem|4.0.1)
 ERROR: CodeSystem/terminologie-sms: CodeSystem: CodeSystem.concept: minimum required = 1, but only found 0 (from http://hl7.org/fhir/StructureDefinition/shareablecodesystem|4.0.1)
 ERROR: CodeSystem/terminologie-sms: CodeSystem.meta.tag[0].display: Wrong Display Name 'Resource encoded in summary mode' for http://terminology.hl7.org/CodeSystem/v3-ObservationValue#SUBSETTED. There are no valid display names found for language(s) 'fr-FR'. Default display is 'subsetted'
 INFORMATION: CodeSystem/terminologie-sms: CodeSystem: CodeSystems SHOULD have a stated value for the caseSensitive element so that users know the status and meaning of the code system clearly
 INFORMATION: CodeSystem/terminologie-sms: CodeSystem: Review the All Codes Value Set - incomplete CodeSystems generally should not have an all codes value set specified
-WARNING: CodeSystem/terminologie-sms: CodeSystem: Published code systems SHOULD conform to the ShareableCodeSystem profile, which says that the element CodeSystem.title is mandatory, but it is not present
 WARNING: CodeSystem/terminologie-sms: CodeSystem: Published code systems SHOULD conform to the ShareableCodeSystem profile, which says that the element CodeSystem.description is mandatory, but it is not present
 WARNING: CodeSystem/terminologie-sms: CodeSystem: Published code systems SHOULD conform to the ShareableCodeSystem profile, which says that the element CodeSystem.caseSensitive is mandatory, but it is not present
 INFORMATION: CodeSystem/terminologie-sms: CodeSystem.property[0]: The property uri 'http://purl.org/dc/terms/created' is not known, so the property values can not be validated fully
