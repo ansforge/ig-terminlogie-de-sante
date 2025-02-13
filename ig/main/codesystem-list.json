@@ -2295,11 +2295,12 @@
     },
     {
       "url" : "https://smt.esante.gouv.fr/terminologie-ccam",
-      "version" : "v77",
+      "version" : "v78",
       "status" : "active",
       "name" : "CCAM",
-      "title" : null,
-      "description" : null
+      "title" : "Classification Commune des Actes Médicaux",
+      "description" : null,
+      "oids" : ["1.2.250.1.215.300.1"]
     },
     {
       "url" : "https://smt.esante.gouv.fr/terminologie-cim-10",

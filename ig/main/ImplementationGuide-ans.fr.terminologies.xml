@@ -23755,7 +23755,7 @@
         <reference value="ConceptMap/alignement-nuva-atc"/>
       </reference>
       <name value="Aligner les codes ATC de NUVA avec les codes ATC"/>
-      <description value="Source des données SYADEM"/>
+      <description value="Source des  données SYADEM"/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -24553,9 +24553,9 @@
         <valueString value="CodeSystem"/>
       </extension>
       <reference>
-        <reference value="CodeSystem/terminologie-ccam"/>
+        <reference value="CodeSystem/terminologie-cladimed"/>
       </reference>
-      <name value="CCAM"/>
+      <name value="CLADIMED"/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -24563,9 +24563,9 @@
         <valueString value="CodeSystem"/>
       </extension>
       <reference>
-        <reference value="CodeSystem/terminologie-cladimed"/>
+        <reference value="CodeSystem/terminologie-ccam"/>
       </reference>
-      <name value="CLADIMED"/>
+      <name value="Classification Commune des Actes Médicaux"/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
