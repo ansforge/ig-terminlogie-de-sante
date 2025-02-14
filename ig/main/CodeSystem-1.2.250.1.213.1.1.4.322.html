@@ -41,8 +41,8 @@
 
 	  <script src="assets/js/prism.js"></script>
 
-    <style type="text/css">h2{--heading-prefix:"8.1159"}
-    h3,h4,h5,h6{--heading-prefix:"8.1159"}</style>
+    <style type="text/css">h2{--heading-prefix:"8.1172"}
+    h3,h4,h5,h6{--heading-prefix:"8.1172"}</style>
     <div id="segment-header" class="segment">  <!-- segment-header -->
       <div class="container">  <!-- container -->
         <!-- Placeholder for child template header declarations -->
@@ -435,6 +435,7 @@
  <li><a href="ValueSet-1.2.250.1.213.1.1.5.210.html">JDV_ArtereCervelet_CISIS</a></li>
  <li><a href="ValueSet-1.2.250.1.213.1.1.5.212.html">JDV_HemisphereLobaire_CISIS</a></li>
  <li><a href="ValueSet-1.2.250.1.213.1.1.5.213.html">JDV_CerveletLoc_CISIS</a></li>
+ <li><a href="ValueSet-1.2.250.1.213.1.1.5.215.html">JDV_LocaThromboseVeineuse_CISIS</a></li>
  <li><a href="ValueSet-1.2.250.1.213.1.1.5.216.html">JDV_Dispositionpretherapeutique_CISIS</a></li>
  <li><a href="ValueSet-1.2.250.1.213.1.1.5.217.html">JDV_Complication_CISIS</a></li>
  <li><a href="ValueSet-1.2.250.1.213.1.1.5.218.html">JDV_ComplicationNeurologique_CISIS</a></li>
@@ -494,6 +495,7 @@
  <li><a href="ValueSet-1.2.250.1.213.1.1.5.522.html">JDV_TNM_pTNM_pM_2_CISIS</a></li>
  <li><a href="ValueSet-1.2.250.1.213.1.1.5.523.html">JDV_TNM_pTNM_pT_3_CISIS</a></li>
  <li><a href="ValueSet-1.2.250.1.213.1.1.5.524.html">JDV_TypeIntubation_CISIS</a></li>
+ <li><a href="ValueSet-1.2.250.1.213.1.1.5.525.html">JDV_TNM_pTNM_pN_CISIS</a></li>
  <li><a href="ValueSet-1.2.250.1.213.1.1.5.527.html">JDV_EvenementsAccouchement_CISIS</a></li>
  <li><a href="ValueSet-1.2.250.1.213.1.1.5.529.html">JDV_TypePrelevement_CISIS</a></li>
  <li><a href="ValueSet-1.2.250.1.213.1.1.5.53.html">JDV_GIR_CISIS</a></li>
@@ -568,6 +570,7 @@
  <li><a href="ValueSet-1.2.250.1.213.1.1.5.636.html">JDV_PN_Melanome_CISIS</a></li>
  <li><a href="ValueSet-1.2.250.1.213.1.1.5.637.html">JDV_PM_Melanome_CISIS</a></li>
  <li><a href="ValueSet-1.2.250.1.213.1.1.5.638.html">JDV_Type_Limite_Profonde_Envahie_Melanome_CISIS</a></li>
+ <li><a href="ValueSet-1.2.250.1.213.1.1.5.640.html">JDV_J164_GlucoseNumberOfDays_ENS</a></li>
  <li><a href="ValueSet-1.2.250.1.213.1.1.5.641.html">JDV_TypeDeMesureDeRefraction_CISIS</a></li>
  <li><a href="ValueSet-1.2.250.1.213.1.1.5.642.html">JDV_TypeDeMesureAcuiteVisuelle_CISIS</a></li>
  <li><a href="ValueSet-1.2.250.1.213.1.1.5.643.html">JDV_TypeDeMesureDispositifOculaire_CISIS</a></li>
@@ -626,6 +629,9 @@
  <li><a href="ValueSet-1.2.250.1.213.1.1.5.729.html">JDV_TrousseCCU_CISIS</a></li>
  <li><a href="ValueSet-1.2.250.1.213.1.1.5.73.html">JDV_ModaliteEntree_CISIS</a></li>
  <li><a href="ValueSet-1.2.250.1.213.1.1.5.730.html">JDV_ExamenEnfantObligatoire_CISIS</a></li>
+ <li><a href="ValueSet-1.2.250.1.213.1.1.5.732.html">JDV_AntecedentsObstetricaux_OBP_CISIS</a></li>
+ <li><a href="ValueSet-1.2.250.1.213.1.1.5.735.html">JDV_ModeAccouchement_CISIS</a></li>
+ <li><a href="ValueSet-1.2.250.1.213.1.1.5.737.html">JDV_TransfertMutation_CISIS</a></li>
  <li><a href="ValueSet-1.2.250.1.213.1.1.5.738.html">JDV_AnomalieCroissance_CISIS</a></li>
  <li><a href="ValueSet-1.2.250.1.213.1.1.5.739.html">JDV_TypeActePostPartum_CISIS</a></li>
  <li><a href="ValueSet-1.2.250.1.213.1.1.5.74.html">JDV_ModaliteSortie_CISIS</a></li>
@@ -4160,7 +4166,7 @@
 
 <div class="inner-wrapper">
   <p>
-    IG &#169; 2020+ <a style="color:var(--footer-hyperlink-text-color)" href="https://esante.gouv.fr">ANS</a>.  Package ans.fr.terminologies#0.1.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Fri, Feb 14, 2025 04:23+0000">2025-02-14</span>
+    IG &#169; 2020+ <a style="color:var(--footer-hyperlink-text-color)" href="https://esante.gouv.fr">ANS</a>.  Package ans.fr.terminologies#0.1.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Fri, Feb 14, 2025 16:54+0000">2025-02-14</span>
     <br/>
     <span style="color: var(--footer-highlight-text-color)"></span>
       Liens: <a style="color: var(--footer-hyperlink-text-color)" href="toc.html">Table des matières </a> |

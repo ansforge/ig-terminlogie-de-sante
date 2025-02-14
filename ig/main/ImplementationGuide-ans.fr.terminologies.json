@@ -34121,6 +34121,18 @@
         "valueString" : "ValueSet"
       }],
       "reference" : {
+        "reference" : "ValueSet/1.2.250.1.213.1.1.5.732"
+      },
+      "name" : "JDV_AntecedentsObstetricaux_OBP_CISIS",
+      "description" : "JDV_AntecedentsObstetricaux_OBP_CISIS",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      }],
+      "reference" : {
         "reference" : "ValueSet/1.2.250.1.213.1.1.5.34"
       },
       "name" : "JDV_AntecedentsPersonnels_CISIS",
@@ -35585,7 +35597,31 @@
         "valueString" : "ValueSet"
       }],
       "reference" : {
+        "reference" : "ValueSet/1.2.250.1.213.1.1.5.736"
+      },
+      "name" : "JDV_EtatNaissance_CISIS",
+      "description" : "JDV_EtatNaissance_CISIS",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      }],
+      "reference" : {
         "reference" : "ValueSet/1.2.250.1.213.1.1.4.2.289.4"
+      },
+      "name" : "JDV_EtatPerinee_CISIS",
+      "description" : "JDV_EtatPerinee_CISIS",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      }],
+      "reference" : {
+        "reference" : "ValueSet/1.2.250.1.213.1.1.5.734"
       },
       "name" : "JDV_EtatPerinee_CISIS",
       "description" : "JDV_EtatPerinee_CISIS",
@@ -36977,6 +37013,18 @@
         "valueString" : "ValueSet"
       }],
       "reference" : {
+        "reference" : "ValueSet/1.2.250.1.213.1.1.5.755"
+      },
+      "name" : "JDV_GroupeRhesus_CISIS",
+      "description" : "JDV_GroupeRhesus_CISIS",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      }],
+      "reference" : {
         "reference" : "ValueSet/1.2.250.1.213.1.1.5.812"
       },
       "name" : "JDV_HandicapDeficitDLUDOM_CISIS",
@@ -37674,6 +37722,18 @@
       }],
       "reference" : {
         "reference" : "ValueSet/1.2.250.1.213.1.1.4.2.289.1"
+      },
+      "name" : "JDV_IssueGrossesse_CISIS",
+      "description" : "JDV_IssueGrossesse_CISIS",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      }],
+      "reference" : {
+        "reference" : "ValueSet/1.2.250.1.213.1.1.5.731"
       },
       "name" : "JDV_IssueGrossesse_CISIS",
       "description" : "JDV_IssueGrossesse_CISIS",
@@ -38565,6 +38625,30 @@
       },
       "name" : "JDV_J163_GlucoseUnits_ENS",
       "description" : "JDV_J163_GlucoseUnits_ENS",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      }],
+      "reference" : {
+        "reference" : "ValueSet/JDV-J163-GlucoseUnits-ENS"
+      },
+      "name" : "JDV_J163_GlucoseUnits_ENS",
+      "description" : "Liste fermée des unités utilisables pour la mesure du glucose avec le profil ENS_ObservationGlucose",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      }],
+      "reference" : {
+        "reference" : "ValueSet/1.2.250.1.213.1.1.5.640"
+      },
+      "name" : "JDV_J164_GlucoseNumberOfDays_ENS",
+      "description" : "JDV_J164_GlucoseNumberOfDays_ENS",
       "exampleBoolean" : false
     },
     {
@@ -40925,10 +41009,10 @@
         "valueString" : "ValueSet"
       }],
       "reference" : {
-        "reference" : "ValueSet/1.2.250.1.213.1.1.5.161"
+        "reference" : "ValueSet/1.2.250.1.213.1.1.4.321.2"
       },
-      "name" : "JDV_LateraliteManuelle_CISIS",
-      "description" : "JDV_LateraliteManuelle_CISIS",
+      "name" : "JDV_lateraliteManuelle_CISIS",
+      "description" : "JDV_lateraliteManuelle_CISIS",
       "exampleBoolean" : false
     },
     {
@@ -40937,10 +41021,10 @@
         "valueString" : "ValueSet"
       }],
       "reference" : {
-        "reference" : "ValueSet/1.2.250.1.213.1.1.4.321.2"
+        "reference" : "ValueSet/1.2.250.1.213.1.1.5.161"
       },
-      "name" : "JDV_lateraliteManuelle_CISIS",
-      "description" : "JDV_lateraliteManuelle_CISIS",
+      "name" : "JDV_LateraliteManuelle_CISIS",
+      "description" : "JDV_LateraliteManuelle_CISIS",
       "exampleBoolean" : false
     },
     {
@@ -40985,10 +41069,10 @@
         "valueString" : "ValueSet"
       }],
       "reference" : {
-        "reference" : "ValueSet/1.2.250.1.213.1.1.5.160"
+        "reference" : "ValueSet/1.2.250.1.213.1.1.4.321.4"
       },
-      "name" : "JDV_Lateralite_CISIS",
-      "description" : "JDV_Lateralite_CISIS",
+      "name" : "JDV_lateralite_CISIS",
+      "description" : "JDV_lateralite_CISIS",
       "exampleBoolean" : false
     },
     {
@@ -40997,10 +41081,10 @@
         "valueString" : "ValueSet"
       }],
       "reference" : {
-        "reference" : "ValueSet/1.2.250.1.213.1.1.4.321.4"
+        "reference" : "ValueSet/1.2.250.1.213.1.1.5.160"
       },
-      "name" : "JDV_lateralite_CISIS",
-      "description" : "JDV_lateralite_CISIS",
+      "name" : "JDV_Lateralite_CISIS",
+      "description" : "JDV_Lateralite_CISIS",
       "exampleBoolean" : false
     },
     {
@@ -41238,6 +41322,18 @@
       }],
       "reference" : {
         "reference" : "ValueSet/1.2.250.1.213.1.1.5.207"
+      },
+      "name" : "JDV_LocaThromboseVeineuse_CISIS",
+      "description" : "JDV_LocaThromboseVeineuse_CISIS",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      }],
+      "reference" : {
+        "reference" : "ValueSet/1.2.250.1.213.1.1.5.215"
       },
       "name" : "JDV_LocaThromboseVeineuse_CISIS",
       "description" : "JDV_LocaThromboseVeineuse_CISIS",
@@ -41502,6 +41598,18 @@
       }],
       "reference" : {
         "reference" : "ValueSet/1.2.250.1.213.1.1.4.2.289.5"
+      },
+      "name" : "JDV_ModeAccouchement_CISIS",
+      "description" : "JDV_ModeAccouchement_CISIS",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      }],
+      "reference" : {
+        "reference" : "ValueSet/1.2.250.1.213.1.1.5.735"
       },
       "name" : "JDV_ModeAccouchement_CISIS",
       "description" : "JDV_ModeAccouchement_CISIS",
@@ -43481,6 +43589,18 @@
         "valueString" : "ValueSet"
       }],
       "reference" : {
+        "reference" : "ValueSet/1.2.250.1.213.1.1.5.172"
+      },
+      "name" : "JDV_ProblemCodes_CISIS",
+      "description" : "JDV_ProblemCodes_CISIS",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      }],
+      "reference" : {
         "reference" : "ValueSet/1.2.250.1.213.1.1.5.37"
       },
       "name" : "JDV_ProblemePPSPAERPA_CISIS",
@@ -45449,6 +45569,18 @@
         "valueString" : "ValueSet"
       }],
       "reference" : {
+        "reference" : "ValueSet/1.2.250.1.213.1.1.5.525"
+      },
+      "name" : "JDV_TNM_pTNM_pN_CISIS",
+      "description" : "JDV_TNM_pTNM_pN_CISIS",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      }],
+      "reference" : {
         "reference" : "ValueSet/1.2.250.1.213.1.1.5.551"
       },
       "name" : "JDV_TNM_pTNM_pN_CISIS",
@@ -45521,6 +45653,18 @@
         "valueString" : "ValueSet"
       }],
       "reference" : {
+        "reference" : "ValueSet/1.2.250.1.213.1.1.5.162"
+      },
+      "name" : "JDV_TopoTrouble_CISIS",
+      "description" : "JDV_TopoTrouble_CISIS",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      }],
+      "reference" : {
         "reference" : "ValueSet/1.2.250.1.213.1.1.5.55"
       },
       "name" : "JDV_TraitementPreventif_CISIS",
@@ -45582,6 +45726,18 @@
       }],
       "reference" : {
         "reference" : "ValueSet/1.2.250.1.213.1.1.4.2.289.7"
+      },
+      "name" : "JDV_TransfertMutation_CISIS",
+      "description" : "JDV_TransfertMutation_CISIS",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      }],
+      "reference" : {
+        "reference" : "ValueSet/1.2.250.1.213.1.1.5.737"
       },
       "name" : "JDV_TransfertMutation_CISIS",
       "description" : "JDV_TransfertMutation_CISIS",

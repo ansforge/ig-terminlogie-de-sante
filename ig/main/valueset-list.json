@@ -1058,6 +1058,17 @@
       "sources" : ["1.2.250.1.213.1.6.1.226"]
     },
     {
+      "url" : "https://mos.esante.gouv.fr/NOS/JDV_J163-GlucoseUnits-ENS/FHIR/JDV-J163-GlucoseUnits-ENS",
+      "version" : "20240927120000",
+      "status" : "active",
+      "name" : "JDV_J163_GlucoseUnits_ENS",
+      "title" : null,
+      "description" : "Liste fermée des unités utilisables pour la mesure du glucose avec le profil ENS_ObservationGlucose",
+      "systems" : ["http://unitsofmeasure.org"],
+      "oids" : ["1.2.250.1.213.1.1.5.639"],
+      "sources" : ["1.2.250.1.213.1.1.5.639"]
+    },
+    {
       "url" : "https://mos.esante.gouv.fr/NOS/JDV_J164-GlucoseNumberOfDays-ENS/FHIR/JDV-J164-GlucoseNumberOfDays-ENS",
       "version" : "20241213120000",
       "status" : "active",
@@ -5860,6 +5871,17 @@
       "sources" : ["1.2.250.1.213.1.1.5.161"]
     },
     {
+      "url" : "https://smt.esante.gouv.fr/fhir/ValueSet/1.2.250.1.213.1.1.5.162",
+      "version" : "20230707000000",
+      "status" : "active",
+      "name" : "JDV_TopoTrouble_CISIS",
+      "title" : "JDV_TopoTrouble_CISIS",
+      "description" : "JDV_TopoTrouble_CISIS",
+      "systems" : ["urn:oid:2.16.840.1.113883.6.96"],
+      "oids" : ["1.2.250.1.213.1.1.5.162"],
+      "sources" : ["1.2.250.1.213.1.1.5.162"]
+    },
+    {
       "url" : "https://smt.esante.gouv.fr/fhir/ValueSet/1.2.250.1.213.1.1.5.163",
       "version" : "20231114000000",
       "status" : "active",
@@ -5965,6 +5987,17 @@
       "systems" : ["http://loinc.org"],
       "oids" : ["1.2.250.1.213.1.1.5.171"],
       "sources" : ["1.2.250.1.213.1.1.5.171"]
+    },
+    {
+      "url" : "https://smt.esante.gouv.fr/fhir/ValueSet/1.2.250.1.213.1.1.5.172",
+      "version" : "20240604000000",
+      "status" : "active",
+      "name" : "JDV_ProblemCodes_CISIS",
+      "title" : "JDV_ProblemCodes_CISIS",
+      "description" : "JDV_ProblemCodes_CISIS",
+      "systems" : ["urn:oid:2.16.840.1.113883.6.96"],
+      "oids" : ["1.2.250.1.213.1.1.5.172"],
+      "sources" : ["1.2.250.1.213.1.1.5.172"]
     },
     {
       "url" : "https://smt.esante.gouv.fr/fhir/ValueSet/1.2.250.1.213.1.1.5.173",
@@ -6464,6 +6497,20 @@
       "systems" : ["http://snomed.info/sct"],
       "oids" : ["1.2.250.1.213.1.1.5.214"],
       "sources" : ["1.2.250.1.213.1.1.5.214"]
+    },
+    {
+      "url" : "https://smt.esante.gouv.fr/fhir/ValueSet/1.2.250.1.213.1.1.5.215",
+      "version" : "20231114000000",
+      "status" : "active",
+      "name" : "JDV_LocaThromboseVeineuse_CISIS",
+      "title" : "JDV_LocaThromboseVeineuse_CISIS",
+      "description" : "JDV_LocaThromboseVeineuse_CISIS",
+      "systems" : [
+        "https://smt.esante.gouv.fr/fhir/CodeSystem/1.2.250.1.213.1.1.4.322",
+        "urn:oid:2.16.840.1.113883.6.96"
+      ],
+      "oids" : ["1.2.250.1.213.1.1.5.215"],
+      "sources" : ["1.2.250.1.213.1.1.5.215"]
     },
     {
       "url" : "https://smt.esante.gouv.fr/fhir/ValueSet/1.2.250.1.213.1.1.5.216",
@@ -10179,6 +10226,19 @@
       "sources" : ["1.2.250.1.213.1.1.5.524"]
     },
     {
+      "url" : "https://smt.esante.gouv.fr/fhir/ValueSet/1.2.250.1.213.1.1.5.525",
+      "version" : "20210101000000",
+      "status" : "active",
+      "name" : "JDV_TNM_pTNM_pN_CISIS",
+      "title" : "JDV_TNM_pTNM_pN_CISIS",
+      "description" : "JDV_TNM_pTNM_pN_CISIS",
+      "systems" : [
+        "https://smt.esante.gouv.fr/fhir/CodeSystem/1.2.250.1.213.1.1.4.322"
+      ],
+      "oids" : ["1.2.250.1.213.1.1.5.525"],
+      "sources" : ["1.2.250.1.213.1.1.5.525"]
+    },
+    {
       "url" : "https://smt.esante.gouv.fr/fhir/ValueSet/1.2.250.1.213.1.1.5.526",
       "version" : "20240718000000",
       "status" : "active",
@@ -11443,6 +11503,19 @@
       "sources" : ["1.2.250.1.213.1.1.5.64"]
     },
     {
+      "url" : "https://smt.esante.gouv.fr/fhir/ValueSet/1.2.250.1.213.1.1.5.640",
+      "version" : "20230911000000",
+      "status" : "retired",
+      "name" : "JDV_J164_GlucoseNumberOfDays_ENS",
+      "title" : "JDV_J164_GlucoseNumberOfDays_ENS",
+      "description" : "JDV_J164_GlucoseNumberOfDays_ENS",
+      "systems" : [
+        "https://smt.esante.gouv.fr/fhir/CodeSystem/1.2.250.1.213.1.1.4.322"
+      ],
+      "oids" : ["1.2.250.1.213.1.1.5.640"],
+      "sources" : ["1.2.250.1.213.1.1.5.640"]
+    },
+    {
       "url" : "https://smt.esante.gouv.fr/fhir/ValueSet/1.2.250.1.213.1.1.5.641",
       "version" : "20220919000000",
       "status" : "active",
@@ -12642,6 +12715,35 @@
       "sources" : ["1.2.250.1.213.1.1.5.730"]
     },
     {
+      "url" : "https://smt.esante.gouv.fr/fhir/ValueSet/1.2.250.1.213.1.1.5.731",
+      "version" : "20221114000000",
+      "status" : "active",
+      "name" : "JDV_IssueGrossesse_CISIS",
+      "title" : "JDV_IssueGrossesse_CISIS",
+      "description" : "JDV_IssueGrossesse_CISIS",
+      "systems" : [
+        "urn:oid:2.16.840.1.113883.6.3",
+        "urn:oid:2.16.840.1.113883.6.96"
+      ],
+      "oids" : ["1.2.250.1.213.1.1.5.731"],
+      "sources" : ["1.2.250.1.213.1.1.5.731"]
+    },
+    {
+      "url" : "https://smt.esante.gouv.fr/fhir/ValueSet/1.2.250.1.213.1.1.5.732",
+      "version" : "20230803000000",
+      "status" : "active",
+      "name" : "JDV_AntecedentsObstetricaux_OBP_CISIS",
+      "title" : "JDV_AntecedentsObstetricaux_OBP_CISIS",
+      "description" : "JDV_AntecedentsObstetricaux_OBP_CISIS",
+      "systems" : [
+        "https://smt.esante.gouv.fr/fhir/CodeSystem/1.2.250.1.213.1.1.4.322",
+        "urn:oid:2.16.840.1.113883.6.1",
+        "urn:oid:2.16.840.1.113883.6.3"
+      ],
+      "oids" : ["1.2.250.1.213.1.1.5.732"],
+      "sources" : ["1.2.250.1.213.1.1.5.732"]
+    },
+    {
       "url" : "https://smt.esante.gouv.fr/fhir/ValueSet/1.2.250.1.213.1.1.5.733",
       "version" : "20230803000000",
       "status" : "active",
@@ -12651,6 +12753,62 @@
       "systems" : ["http://loinc.org", "http://snomed.info/sct"],
       "oids" : ["1.2.250.1.213.1.1.5.733"],
       "sources" : ["1.2.250.1.213.1.1.5.733"]
+    },
+    {
+      "url" : "https://smt.esante.gouv.fr/fhir/ValueSet/1.2.250.1.213.1.1.5.734",
+      "version" : "20230803000000",
+      "status" : "active",
+      "name" : "JDV_EtatPerinee_CISIS",
+      "title" : "JDV_EtatPerinee_CISIS",
+      "description" : "JDV_EtatPerinee_CISIS",
+      "systems" : [
+        "urn:oid:2.16.840.1.113883.6.3",
+        "urn:oid:2.16.840.1.113883.6.96"
+      ],
+      "oids" : ["1.2.250.1.213.1.1.5.734"],
+      "sources" : ["1.2.250.1.213.1.1.5.734"]
+    },
+    {
+      "url" : "https://smt.esante.gouv.fr/fhir/ValueSet/1.2.250.1.213.1.1.5.735",
+      "version" : "20240328000000",
+      "status" : "active",
+      "name" : "JDV_ModeAccouchement_CISIS",
+      "title" : "JDV_ModeAccouchement_CISIS",
+      "description" : "JDV_ModeAccouchement_CISIS",
+      "systems" : [
+        "https://smt.esante.gouv.fr/fhir/CodeSystem/1.2.250.1.213.1.1.4.322",
+        "urn:oid:2.16.840.1.113883.6.96"
+      ],
+      "oids" : ["1.2.250.1.213.1.1.5.735"],
+      "sources" : ["1.2.250.1.213.1.1.5.735"]
+    },
+    {
+      "url" : "https://smt.esante.gouv.fr/fhir/ValueSet/1.2.250.1.213.1.1.5.736",
+      "version" : "20230803000000",
+      "status" : "active",
+      "name" : "JDV_EtatNaissance_CISIS",
+      "title" : "JDV_EtatNaissance_CISIS",
+      "description" : "JDV_EtatNaissance_CISIS",
+      "systems" : [
+        "urn:oid:2.16.840.1.113883.6.3",
+        "urn:oid:2.16.840.1.113883.6.96"
+      ],
+      "oids" : ["1.2.250.1.213.1.1.5.736"],
+      "sources" : ["1.2.250.1.213.1.1.5.736"]
+    },
+    {
+      "url" : "https://smt.esante.gouv.fr/fhir/ValueSet/1.2.250.1.213.1.1.5.737",
+      "version" : "20230803000000",
+      "status" : "active",
+      "name" : "JDV_TransfertMutation_CISIS",
+      "title" : "JDV_TransfertMutation_CISIS",
+      "description" : "JDV_TransfertMutation_CISIS",
+      "systems" : [
+        "https://smt.esante.gouv.fr/fhir/CodeSystem/1.2.250.1.213.1.1.4.322",
+        "urn:oid:2.16.840.1.113883.6.96"
+      ],
+      "oids" : ["1.2.250.1.213.1.1.5.737"],
+      "sources" : ["1.2.250.1.213.1.1.5.737"]
     },
     {
       "url" : "https://smt.esante.gouv.fr/fhir/ValueSet/1.2.250.1.213.1.1.5.738",
@@ -12906,6 +13064,17 @@
       ],
       "oids" : ["1.2.250.1.213.1.1.5.754"],
       "sources" : ["1.2.250.1.213.1.1.5.754"]
+    },
+    {
+      "url" : "https://smt.esante.gouv.fr/fhir/ValueSet/1.2.250.1.213.1.1.5.755",
+      "version" : "20230131000000",
+      "status" : "active",
+      "name" : "JDV_GroupeRhesus_CISIS",
+      "title" : "JDV_GroupeRhesus_CISIS",
+      "description" : "JDV_GroupeRhesus_CISIS",
+      "systems" : ["urn:oid:2.16.840.1.113883.6.96"],
+      "oids" : ["1.2.250.1.213.1.1.5.755"],
+      "sources" : ["1.2.250.1.213.1.1.5.755"]
     },
     {
       "url" : "https://smt.esante.gouv.fr/fhir/ValueSet/1.2.250.1.213.1.1.5.756",
