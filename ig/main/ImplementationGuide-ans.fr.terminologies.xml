@@ -31420,10 +31420,10 @@
         <valueString value="ValueSet"/>
       </extension>
       <reference>
-        <reference value="ValueSet/1.2.250.1.213.1.1.4.321.2"/>
+        <reference value="ValueSet/1.2.250.1.213.1.1.5.161"/>
       </reference>
-      <name value="JDV_lateraliteManuelle_CISIS"/>
-      <description value="JDV_lateraliteManuelle_CISIS"/>
+      <name value="JDV_LateraliteManuelle_CISIS"/>
+      <description value="JDV_LateraliteManuelle_CISIS"/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -31431,10 +31431,10 @@
         <valueString value="ValueSet"/>
       </extension>
       <reference>
-        <reference value="ValueSet/1.2.250.1.213.1.1.5.161"/>
+        <reference value="ValueSet/1.2.250.1.213.1.1.4.321.2"/>
       </reference>
-      <name value="JDV_LateraliteManuelle_CISIS"/>
-      <description value="JDV_LateraliteManuelle_CISIS"/>
+      <name value="JDV_lateraliteManuelle_CISIS"/>
+      <description value="JDV_lateraliteManuelle_CISIS"/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -31475,10 +31475,10 @@
         <valueString value="ValueSet"/>
       </extension>
       <reference>
-        <reference value="ValueSet/1.2.250.1.213.1.1.4.321.4"/>
+        <reference value="ValueSet/1.2.250.1.213.1.1.5.160"/>
       </reference>
-      <name value="JDV_lateralite_CISIS"/>
-      <description value="JDV_lateralite_CISIS"/>
+      <name value="JDV_Lateralite_CISIS"/>
+      <description value="JDV_Lateralite_CISIS"/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -31486,10 +31486,10 @@
         <valueString value="ValueSet"/>
       </extension>
       <reference>
-        <reference value="ValueSet/1.2.250.1.213.1.1.5.160"/>
+        <reference value="ValueSet/1.2.250.1.213.1.1.4.321.4"/>
       </reference>
-      <name value="JDV_Lateralite_CISIS"/>
-      <description value="JDV_Lateralite_CISIS"/>
+      <name value="JDV_lateralite_CISIS"/>
+      <description value="JDV_lateralite_CISIS"/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>

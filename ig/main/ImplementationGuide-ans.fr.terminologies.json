@@ -41009,10 +41009,10 @@
         "valueString" : "ValueSet"
       }],
       "reference" : {
-        "reference" : "ValueSet/1.2.250.1.213.1.1.4.321.2"
+        "reference" : "ValueSet/1.2.250.1.213.1.1.5.161"
       },
-      "name" : "JDV_lateraliteManuelle_CISIS",
-      "description" : "JDV_lateraliteManuelle_CISIS",
+      "name" : "JDV_LateraliteManuelle_CISIS",
+      "description" : "JDV_LateraliteManuelle_CISIS",
       "exampleBoolean" : false
     },
     {
@@ -41021,10 +41021,10 @@
         "valueString" : "ValueSet"
       }],
       "reference" : {
-        "reference" : "ValueSet/1.2.250.1.213.1.1.5.161"
+        "reference" : "ValueSet/1.2.250.1.213.1.1.4.321.2"
       },
-      "name" : "JDV_LateraliteManuelle_CISIS",
-      "description" : "JDV_LateraliteManuelle_CISIS",
+      "name" : "JDV_lateraliteManuelle_CISIS",
+      "description" : "JDV_lateraliteManuelle_CISIS",
       "exampleBoolean" : false
     },
     {
@@ -41069,10 +41069,10 @@
         "valueString" : "ValueSet"
       }],
       "reference" : {
-        "reference" : "ValueSet/1.2.250.1.213.1.1.4.321.4"
+        "reference" : "ValueSet/1.2.250.1.213.1.1.5.160"
       },
-      "name" : "JDV_lateralite_CISIS",
-      "description" : "JDV_lateralite_CISIS",
+      "name" : "JDV_Lateralite_CISIS",
+      "description" : "JDV_Lateralite_CISIS",
       "exampleBoolean" : false
     },
     {
@@ -41081,10 +41081,10 @@
         "valueString" : "ValueSet"
       }],
       "reference" : {
-        "reference" : "ValueSet/1.2.250.1.213.1.1.5.160"
+        "reference" : "ValueSet/1.2.250.1.213.1.1.4.321.4"
       },
-      "name" : "JDV_Lateralite_CISIS",
-      "description" : "JDV_Lateralite_CISIS",
+      "name" : "JDV_lateralite_CISIS",
+      "description" : "JDV_lateralite_CISIS",
       "exampleBoolean" : false
     },
     {
