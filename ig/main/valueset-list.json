@@ -7008,7 +7008,7 @@
       "name" : "JDV_Colon_Procedure_prelevement_CISIS",
       "title" : "JDV_Colon_Procedure_prelevement_CISIS",
       "description" : "JDV_Colon_Procedure_prelevement_CISIS",
-      "systems" : ["1.3.6.1.4.1.19376.1.8.2.1"],
+      "systems" : ["https://bioportal.bioontology.org/ontologies/PATHLEX"],
       "oids" : ["1.2.250.1.213.1.1.5.256"],
       "sources" : ["1.2.250.1.213.1.1.5.256"]
     },

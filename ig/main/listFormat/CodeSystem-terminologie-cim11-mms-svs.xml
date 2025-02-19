@@ -2,7 +2,7 @@
 <RetrieveValueSetResponse xmlns="urn:ihe:iti:svs:2008"
                           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
    <ValueSet dateFin=""
-             dateMaj="20250218042102"
+             dateMaj="20250219042159"
              dateValid=""
              description=""
              displayName="CIM11_MMS"

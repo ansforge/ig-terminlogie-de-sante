@@ -1,7 +1,7 @@
 Terminologies : Validation Results
 =========================================
 
-err = 1261, warn = 1890, info = 985
+err = 1260, warn = 1890, info = 985
 $--
 Generated $--. FHIR version $-- for ans.fr.terminologies#$-- (canonical = https://interop.esante.gouv.fr/terminologies)
  Build Errors : 577 / 15 / 0
@@ -177,7 +177,7 @@ Generated $--. FHIR version $-- for ans.fr.terminologies#$-- (canonical = https:
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_Colon_Localisation_tumeur_CISIS_1.2.250.1.213.1.1.5.251 : 1 / 1 / 1
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_Colon_Observation_anatomie_pathologique_CISIS_1.2.250.1.213.1.1.5.253 : 1 / 1 / 1
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_Colon_Organe_region_anatomique_prelevement_CISIS_1.2.250.1.213.1.1.5.254 : 1 / 1 / 1
- /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_Colon_Procedure_prelevement_CISIS_1.2.250.1.213.1.1.5.256 : 1 / 1 / 1
+ /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_Colon_Procedure_prelevement_CISIS_1.2.250.1.213.1.1.5.256 : 0 / 1 / 1
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_Colon_Type_histologique_lesion_neoplasique_maligne_invasive_CISIS_1.2.250.1.213.1.1.5.258 : 1 / 1 / 1
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_Colon_pN_CISIS_CISIS_1.2.250.1.213.1.1.5.255 : 1 / 1 / 1
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_Colon_pT_CISIS_CISIS_1.2.250.1.213.1.1.5.257 : 1 / 1 / 1
@@ -3216,8 +3216,7 @@ WARNING: ValueSet/1.2.250.1.213.1.1.5.253: ValueSet.compose.include[0]: Unknown 
 ERROR: ValueSet/1.2.250.1.213.1.1.5.254: ValueSet.compose.include[0]: URI values in ValueSet.compose.include.system must be absolute
 WARNING: ValueSet/1.2.250.1.213.1.1.5.254: ValueSet.compose.include[0]: Unknown System '1.3.6.1.4.1.19376.1.8.2.1' specified, so Concepts and Filters can't be checked (Details: A definition for CodeSystem '1.3.6.1.4.1.19376.1.8.2.1' could not be found, so the code cannot be validated)
 == input/ontoserver/JDV/JDV_Colon_Procedure_prelevement_CISIS_1.2.250.1.213.1.1.5.256.json ==
-ERROR: ValueSet/1.2.250.1.213.1.1.5.256: ValueSet.compose.include[0]: URI values in ValueSet.compose.include.system must be absolute
-WARNING: ValueSet/1.2.250.1.213.1.1.5.256: ValueSet.compose.include[0]: Unknown System '1.3.6.1.4.1.19376.1.8.2.1' specified, so Concepts and Filters can't be checked (Details: A definition for CodeSystem '1.3.6.1.4.1.19376.1.8.2.1' could not be found, so the code cannot be validated)
+WARNING: ValueSet/1.2.250.1.213.1.1.5.256: ValueSet.compose.include[0]: Unknown System 'https://bioportal.bioontology.org/ontologies/PATHLEX' specified, so Concepts and Filters can't be checked (Details: A definition for CodeSystem 'https://bioportal.bioontology.org/ontologies/PATHLEX' could not be found, so the code cannot be validated)
 == input/ontoserver/JDV/JDV_Colon_Type_histologique_lesion_neoplasique_maligne_invasive_CISIS_1.2.250.1.213.1.1.5.258.json ==
 ERROR: ValueSet/1.2.250.1.213.1.1.5.258: ValueSet.compose.include[0]: URI values in ValueSet.compose.include.system must be absolute
 WARNING: ValueSet/1.2.250.1.213.1.1.5.258: ValueSet.compose.include[0]: Unknown System '1.3.6.1.4.1.19376.1.8.2.1' specified, so Concepts and Filters can't be checked (Details: A definition for CodeSystem '1.3.6.1.4.1.19376.1.8.2.1' could not be found, so the code cannot be validated)
