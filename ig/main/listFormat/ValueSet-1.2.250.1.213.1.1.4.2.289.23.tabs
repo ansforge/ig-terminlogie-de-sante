@@ -7,5 +7,5 @@
 ;OBS_110;Césarienne avant travail
 ;OBS_220;Voie basse spontanée
 ;OBS_221;Intervention voie basse
-;48782003;accouchement normal
-;700000006;accouchement par voie basse
+2.16.840.1.113883.6.96;48782003;accouchement normal
+2.16.840.1.113883.6.96;700000006;accouchement par voie basse

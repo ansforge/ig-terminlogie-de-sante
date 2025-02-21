@@ -10,10 +10,10 @@
 ;F-87290;Siège complet
 ;F-87310;Siège incomplet
 ;F-87400;Transverse
-;38049006;présentation de siège décomplété
-;49168004;présentation en siège complet
-;70028003;présentation du sommet
-;249082000;présentation par la grande fontanelle
-;289366006;malposition du fœtus par présentation de la face
-;289367002;malposition du fœtus par présentation du front
-;289368007;malposition du foetus par présentation de l'épaule
+2.16.840.1.113883.6.96;38049006;présentation de siège décomplété
+2.16.840.1.113883.6.96;49168004;présentation en siège complet
+2.16.840.1.113883.6.96;70028003;présentation du sommet
+2.16.840.1.113883.6.96;249082000;présentation par la grande fontanelle
+2.16.840.1.113883.6.96;289366006;malposition du fœtus par présentation de la face
+2.16.840.1.113883.6.96;289367002;malposition du fœtus par présentation du front
+2.16.840.1.113883.6.96;289368007;malposition du foetus par présentation de l'épaule

@@ -5,7 +5,7 @@
 ;D8-72200;Décédé avant travail
 ;D8-72300;Décédé pendant travail
 ;D8-78400;Décédé au décours IMG
-;1762004;mort fœtale par asphyxie et/ou par anoxie pendant le travail
-;17766007;mort fœtale par asphyxie et/ou par anoxie, pas clair si noté avant ou après le début du travaile
-;44174001;mort fœtale par asphyxie et/ou par anoxie avant le début du travail
-;67313008;mort fœtale due à une interruption de grossesse
+2.16.840.1.113883.6.96;1762004;mort fœtale par asphyxie et/ou par anoxie pendant le travail
+2.16.840.1.113883.6.96;17766007;mort fœtale par asphyxie et/ou par anoxie, pas clair si noté avant ou après le début du travaile
+2.16.840.1.113883.6.96;44174001;mort fœtale par asphyxie et/ou par anoxie avant le début du travail
+2.16.840.1.113883.6.96;67313008;mort fœtale due à une interruption de grossesse

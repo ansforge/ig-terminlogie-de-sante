@@ -10,9 +10,15 @@
              typeFichier="JDV"
              urlFichier="">
       <ConceptList>
-         <concept code="9571008" codeSystem="" displayName="approuvé"/>
-         <concept code="441889009" codeSystem="" displayName="refusé"/>
-         <concept code="33714007" codeSystem="" displayName="corrigé"/>
+         <concept code="9571008"
+                  codeSystem="2.16.840.1.113883.6.96"
+                  displayName="approuvé"/>
+         <concept code="441889009"
+                  codeSystem="2.16.840.1.113883.6.96"
+                  displayName="refusé"/>
+         <concept code="33714007"
+                  codeSystem="2.16.840.1.113883.6.96"
+                  displayName="corrigé"/>
       </ConceptList>
    </ValueSet>
 </RetrieveValueSetResponse>

@@ -24,23 +24,25 @@
          <concept code="F-87310" codeSystem="" displayName="Siège incomplet"/>
          <concept code="F-87400" codeSystem="" displayName="Transverse"/>
          <concept code="38049006"
-                  codeSystem=""
+                  codeSystem="2.16.840.1.113883.6.96"
                   displayName="présentation de siège décomplété"/>
          <concept code="49168004"
-                  codeSystem=""
+                  codeSystem="2.16.840.1.113883.6.96"
                   displayName="présentation en siège complet"/>
-         <concept code="70028003" codeSystem="" displayName="présentation du sommet"/>
+         <concept code="70028003"
+                  codeSystem="2.16.840.1.113883.6.96"
+                  displayName="présentation du sommet"/>
          <concept code="249082000"
-                  codeSystem=""
+                  codeSystem="2.16.840.1.113883.6.96"
                   displayName="présentation par la grande fontanelle"/>
          <concept code="289366006"
-                  codeSystem=""
+                  codeSystem="2.16.840.1.113883.6.96"
                   displayName="malposition du fœtus par présentation de la face"/>
          <concept code="289367002"
-                  codeSystem=""
+                  codeSystem="2.16.840.1.113883.6.96"
                   displayName="malposition du fœtus par présentation du front"/>
          <concept code="289368007"
-                  codeSystem=""
+                  codeSystem="2.16.840.1.113883.6.96"
                   displayName="malposition du foetus par présentation de l'épaule"/>
       </ConceptList>
    </ValueSet>

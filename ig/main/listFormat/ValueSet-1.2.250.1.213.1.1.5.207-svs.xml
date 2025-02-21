@@ -39,19 +39,25 @@
                   displayName="Veines profondes"/>
          <concept code="T-49840" codeSystem="" displayName="Sinus caverneux"/>
          <concept code="230722002"
-                  codeSystem=""
+                  codeSystem="2.16.840.1.113883.6.96"
                   displayName="thrombose veineuse cérébrale de la veine corticale"/>
-         <concept code="244402005" codeSystem="" displayName="sinus caverneux entier"/>
-         <concept code="279261006" codeSystem="" displayName="sinus droit entier"/>
-         <concept code="341484008" codeSystem="" displayName="veine profonde entière"/>
+         <concept code="244402005"
+                  codeSystem="2.16.840.1.113883.6.96"
+                  displayName="sinus caverneux entier"/>
+         <concept code="279261006"
+                  codeSystem="2.16.840.1.113883.6.96"
+                  displayName="sinus droit entier"/>
+         <concept code="341484008"
+                  codeSystem="2.16.840.1.113883.6.96"
+                  displayName="veine profonde entière"/>
          <concept code="362075006"
-                  codeSystem=""
+                  codeSystem="2.16.840.1.113883.6.96"
                   displayName="sinus sagittal supérieur entier"/>
          <concept code="764262009"
-                  codeSystem=""
+                  codeSystem="2.16.840.1.113883.6.96"
                   displayName="structure de la veine jugulaire gauche"/>
          <concept code="764263004"
-                  codeSystem=""
+                  codeSystem="2.16.840.1.113883.6.96"
                   displayName="structure de la veine jugulaire droite"/>
       </ConceptList>
    </ValueSet>

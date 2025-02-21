@@ -11,12 +11,14 @@
              urlFichier="">
       <ConceptList>
          <concept code="84457005"
-                  codeSystem=""
+                  codeSystem="2.16.840.1.113883.6.96"
                   displayName="déclenchement spontané du travail"/>
          <concept code="112070001"
-                  codeSystem=""
+                  codeSystem="2.16.840.1.113883.6.96"
                   displayName="déclenchement provoqué du travail"/>
-         <concept code="11466000" codeSystem="" displayName="césarienne"/>
+         <concept code="11466000"
+                  codeSystem="2.16.840.1.113883.6.96"
+                  displayName="césarienne"/>
       </ConceptList>
    </ValueSet>
 </RetrieveValueSetResponse>

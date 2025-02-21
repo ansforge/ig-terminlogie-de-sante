@@ -19,28 +19,28 @@
          <concept code="OBS_267" codeSystem="" displayName="AB Positif"/>
          <concept code="OBS_268" codeSystem="" displayName="AB Négatif"/>
          <concept code="278147001"
-                  codeSystem=""
+                  codeSystem="2.16.840.1.113883.6.96"
                   displayName="groupe sanguin O positif"/>
          <concept code="278148006"
-                  codeSystem=""
+                  codeSystem="2.16.840.1.113883.6.96"
                   displayName="groupe sanguin O négatif"/>
          <concept code="278149003"
-                  codeSystem=""
+                  codeSystem="2.16.840.1.113883.6.96"
                   displayName="groupe sanguin A positif"/>
          <concept code="278150003"
-                  codeSystem=""
+                  codeSystem="2.16.840.1.113883.6.96"
                   displayName="groupe sanguin B positif"/>
          <concept code="278151004"
-                  codeSystem=""
+                  codeSystem="2.16.840.1.113883.6.96"
                   displayName="groupe sanguin AB positif"/>
          <concept code="278152006"
-                  codeSystem=""
+                  codeSystem="2.16.840.1.113883.6.96"
                   displayName="groupe sanguin A négatif"/>
          <concept code="278153001"
-                  codeSystem=""
+                  codeSystem="2.16.840.1.113883.6.96"
                   displayName="groupe sanguin B négatif"/>
          <concept code="278154007"
-                  codeSystem=""
+                  codeSystem="2.16.840.1.113883.6.96"
                   displayName="groupe sanguin AB négatif"/>
       </ConceptList>
    </ValueSet>

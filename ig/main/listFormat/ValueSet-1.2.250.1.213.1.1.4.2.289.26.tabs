@@ -7,5 +7,5 @@
 ;OBS_215;Anamnios
 ;D8-22100;Hydramnios
 ;D8-22110;Oligoamnios
-;278092006;volume de liquide amniotique dans l'intervalle de référence
-;289297007;liquide amniotique absent
+2.16.840.1.113883.6.96;278092006;volume de liquide amniotique dans l'intervalle de référence
+2.16.840.1.113883.6.96;289297007;liquide amniotique absent

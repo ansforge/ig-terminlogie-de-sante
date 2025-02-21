@@ -8,5 +8,5 @@
 ;OBS_031;Anesthésie après la naissance
 ;OBS_033;Actes associés pratiqués en post-partum
 ;73813-8;Caractéristiques du travail
-;116859006;Transfusion de produits sanguins
-;236958009;induction du travail
+2.16.840.1.113883.6.96;116859006;Transfusion de produits sanguins
+2.16.840.1.113883.6.96;236958009;induction du travail

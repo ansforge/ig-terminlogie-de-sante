@@ -27,7 +27,7 @@
                   codeSystem=""
                   displayName="Extraction voie basse instrumentale"/>
          <concept code="302383004"
-                  codeSystem=""
+                  codeSystem="2.16.840.1.113883.6.96"
                   displayName="accouchement par forceps"/>
       </ConceptList>
    </ValueSet>

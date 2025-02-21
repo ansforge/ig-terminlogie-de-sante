@@ -7,6 +7,6 @@
 1.2.250.1.213.1.1.4.322;MED-223;Autre analgésie
 ;P1-C0010;Anesthésie générale
 ;P1-C0200;Anesthésie loco-régionale
-;27372005;anesthésie locorégionale
-;50697003;anesthésie générale
-;241717009;analgésie inhalatoire
+2.16.840.1.113883.6.96;27372005;anesthésie locorégionale
+2.16.840.1.113883.6.96;50697003;anesthésie générale
+2.16.840.1.113883.6.96;241717009;analgésie inhalatoire

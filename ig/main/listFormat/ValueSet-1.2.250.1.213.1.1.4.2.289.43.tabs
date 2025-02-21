@@ -12,9 +12,9 @@
 ;OBS_238;Intubation trachéale
 ;OBS_239;Massage cardiaque
 ;OBS_240;Injection médicamenteuse
-;5447007;transfusion
-;83099006;massage cardiaque externe manuel à thorax fermé
-;112798008;insertion d'un tube endotrachéal
-;425696007;assistance respiratoire manuelle par un ballon et un masque
-;427391006;clairance des sécrétions des voies respiratoires
-;1217591002;injection de médicament
+2.16.840.1.113883.6.96;5447007;transfusion
+2.16.840.1.113883.6.96;83099006;massage cardiaque externe manuel à thorax fermé
+2.16.840.1.113883.6.96;112798008;insertion d'un tube endotrachéal
+2.16.840.1.113883.6.96;425696007;assistance respiratoire manuelle par un ballon et un masque
+2.16.840.1.113883.6.96;427391006;clairance des sécrétions des voies respiratoires
+2.16.840.1.113883.6.96;1217591002;injection de médicament

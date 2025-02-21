@@ -10,13 +10,27 @@
              typeFichier="JDV"
              urlFichier="">
       <ConceptList>
-         <concept code="307145004" codeSystem="" displayName="lundi"/>
-         <concept code="307147007" codeSystem="" displayName="mardi"/>
-         <concept code="307148002" codeSystem="" displayName="mercredi"/>
-         <concept code="307149005" codeSystem="" displayName="jeudi"/>
-         <concept code="307150005" codeSystem="" displayName="vendredi"/>
-         <concept code="307151009" codeSystem="" displayName="samedi"/>
-         <concept code="307146003" codeSystem="" displayName="dimanche"/>
+         <concept code="307145004"
+                  codeSystem="2.16.840.1.113883.6.96"
+                  displayName="lundi"/>
+         <concept code="307147007"
+                  codeSystem="2.16.840.1.113883.6.96"
+                  displayName="mardi"/>
+         <concept code="307148002"
+                  codeSystem="2.16.840.1.113883.6.96"
+                  displayName="mercredi"/>
+         <concept code="307149005"
+                  codeSystem="2.16.840.1.113883.6.96"
+                  displayName="jeudi"/>
+         <concept code="307150005"
+                  codeSystem="2.16.840.1.113883.6.96"
+                  displayName="vendredi"/>
+         <concept code="307151009"
+                  codeSystem="2.16.840.1.113883.6.96"
+                  displayName="samedi"/>
+         <concept code="307146003"
+                  codeSystem="2.16.840.1.113883.6.96"
+                  displayName="dimanche"/>
       </ConceptList>
    </ValueSet>
 </RetrieveValueSetResponse>

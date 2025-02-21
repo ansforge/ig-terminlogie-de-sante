@@ -4,11 +4,11 @@
 1.2.250.1.213.1.1.4.322;D0009-6;Paroi Libre de l’OD
 1.2.250.1.213.1.1.4.322;D0009-7;Plancher VD
 1.2.250.1.213.1.1.4.322;D0009-9;Veine cardiaque latérale gauche
-;13383001;apex du cœur
-;49082002;petite veine cardiaque
-;5928000;grande veine cardiaque
-;589001;septum interventriculaire
-;44627009;voie efférente du ventricule droit
-;6871001;péricarde viscéral
-;68300000;appendice atrial droite
-;195416006;veine postérieure du ventricule gauche
+2.16.840.1.113883.6.96;13383001;apex du cœur
+2.16.840.1.113883.6.96;49082002;petite veine cardiaque
+2.16.840.1.113883.6.96;5928000;grande veine cardiaque
+2.16.840.1.113883.6.96;589001;septum interventriculaire
+2.16.840.1.113883.6.96;44627009;voie efférente du ventricule droit
+2.16.840.1.113883.6.96;6871001;péricarde viscéral
+2.16.840.1.113883.6.96;68300000;appendice atrial droite
+2.16.840.1.113883.6.96;195416006;veine postérieure du ventricule gauche

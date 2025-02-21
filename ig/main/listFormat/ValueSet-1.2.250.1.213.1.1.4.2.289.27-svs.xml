@@ -26,10 +26,14 @@
                   displayName="Anesthésie loco-régionale"/>
          <concept code="P1-C0400" codeSystem="" displayName="Anesthésie locale"/>
          <concept code="27372005"
-                  codeSystem=""
+                  codeSystem="2.16.840.1.113883.6.96"
                   displayName="anesthésie locorégionale"/>
-         <concept code="50697003" codeSystem="" displayName="anesthésie générale"/>
-         <concept code="386761002" codeSystem="" displayName="anesthésie locale"/>
+         <concept code="50697003"
+                  codeSystem="2.16.840.1.113883.6.96"
+                  displayName="anesthésie générale"/>
+         <concept code="386761002"
+                  codeSystem="2.16.840.1.113883.6.96"
+                  displayName="anesthésie locale"/>
       </ConceptList>
    </ValueSet>
 </RetrieveValueSetResponse>

@@ -16,9 +16,11 @@
          <concept code="MED-1253"
                   codeSystem="1.2.250.1.213.1.1.4.322"
                   displayName="Césarienne pendant travail"/>
-         <concept code="700000006" codeSystem="" displayName="voie basse spontanée"/>
+         <concept code="700000006"
+                  codeSystem="2.16.840.1.113883.6.96"
+                  displayName="voie basse spontanée"/>
          <concept code="236974004"
-                  codeSystem=""
+                  codeSystem="2.16.840.1.113883.6.96"
                   displayName="voie basse instrumentale"/>
       </ConceptList>
    </ValueSet>

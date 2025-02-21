@@ -10,12 +10,24 @@
              typeFichier="JDV"
              urlFichier="">
       <ConceptList>
-         <concept code="442452003" codeSystem="" displayName="gravité mortelle"/>
-         <concept code="24484000" codeSystem="" displayName="grave"/>
-         <concept code="371924009" codeSystem="" displayName="modéré à sévère"/>
-         <concept code="6736007" codeSystem="" displayName="modéré"/>
-         <concept code="371923003" codeSystem="" displayName="léger à modéré"/>
-         <concept code="255604002" codeSystem="" displayName="léger"/>
+         <concept code="442452003"
+                  codeSystem="2.16.840.1.113883.6.96"
+                  displayName="gravité mortelle"/>
+         <concept code="24484000"
+                  codeSystem="2.16.840.1.113883.6.96"
+                  displayName="grave"/>
+         <concept code="371924009"
+                  codeSystem="2.16.840.1.113883.6.96"
+                  displayName="modéré à sévère"/>
+         <concept code="6736007"
+                  codeSystem="2.16.840.1.113883.6.96"
+                  displayName="modéré"/>
+         <concept code="371923003"
+                  codeSystem="2.16.840.1.113883.6.96"
+                  displayName="léger à modéré"/>
+         <concept code="255604002"
+                  codeSystem="2.16.840.1.113883.6.96"
+                  displayName="léger"/>
       </ConceptList>
    </ValueSet>
 </RetrieveValueSetResponse>

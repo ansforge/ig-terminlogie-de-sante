@@ -19,7 +19,9 @@
          <concept code="GEN-092.06.10"
                   codeSystem="1.2.250.1.213.1.1.4.322"
                   displayName="Autre ressource"/>
-         <concept code="261324000" codeSystem="" displayName="véhicule"/>
+         <concept code="261324000"
+                  codeSystem="2.16.840.1.113883.6.96"
+                  displayName="véhicule"/>
       </ConceptList>
    </ValueSet>
 </RetrieveValueSetResponse>

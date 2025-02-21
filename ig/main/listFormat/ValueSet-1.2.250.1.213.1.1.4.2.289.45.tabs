@@ -9,11 +9,11 @@
 ;OBS_266;B Négatif
 ;OBS_267;AB Positif
 ;OBS_268;AB Négatif
-;278147001;groupe sanguin O positif
-;278148006;groupe sanguin O négatif
-;278149003;groupe sanguin A positif
-;278150003;groupe sanguin B positif
-;278151004;groupe sanguin AB positif
-;278152006;groupe sanguin A négatif
-;278153001;groupe sanguin B négatif
-;278154007;groupe sanguin AB négatif
+2.16.840.1.113883.6.96;278147001;groupe sanguin O positif
+2.16.840.1.113883.6.96;278148006;groupe sanguin O négatif
+2.16.840.1.113883.6.96;278149003;groupe sanguin A positif
+2.16.840.1.113883.6.96;278150003;groupe sanguin B positif
+2.16.840.1.113883.6.96;278151004;groupe sanguin AB positif
+2.16.840.1.113883.6.96;278152006;groupe sanguin A négatif
+2.16.840.1.113883.6.96;278153001;groupe sanguin B négatif
+2.16.840.1.113883.6.96;278154007;groupe sanguin AB négatif

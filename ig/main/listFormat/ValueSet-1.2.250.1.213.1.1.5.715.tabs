@@ -5,5 +5,5 @@
 ;C130175;Tableau optométrique de Jaeger
 ;C158246;Tableau des yeux de Sloan
 1.2.250.1.213.1.1.4.322;MED-1177;Réfracteur
-;252973004;échelle de Snellen
-;252872008;test du double prisme Maddox
+2.16.840.1.113883.6.96;252973004;échelle de Snellen
+2.16.840.1.113883.6.96;252872008;test du double prisme Maddox

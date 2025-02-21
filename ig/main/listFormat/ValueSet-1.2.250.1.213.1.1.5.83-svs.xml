@@ -37,7 +37,9 @@
          <concept code="GEN-092.08.02"
                   codeSystem="1.2.250.1.213.1.1.4.322"
                   displayName="Autre motif de mise à jour"/>
-         <concept code="263855007" codeSystem="" displayName="rechute"/>
+         <concept code="263855007"
+                  codeSystem="2.16.840.1.113883.6.96"
+                  displayName="rechute"/>
       </ConceptList>
    </ValueSet>
 </RetrieveValueSetResponse>

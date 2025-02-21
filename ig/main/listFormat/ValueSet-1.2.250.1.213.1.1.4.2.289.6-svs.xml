@@ -19,9 +19,15 @@
                   codeSystem=""
                   displayName="Né vivant décédé &gt;= 28 jours"/>
          <concept code="F-88450" codeSystem="" displayName="Mort-né"/>
-         <concept code="240297000" codeSystem="" displayName="mort infantile"/>
-         <concept code="281050002" codeSystem="" displayName="naissance vivante"/>
-         <concept code="391181005" codeSystem="" displayName="mort néonatale précoce"/>
+         <concept code="240297000"
+                  codeSystem="2.16.840.1.113883.6.96"
+                  displayName="mort infantile"/>
+         <concept code="281050002"
+                  codeSystem="2.16.840.1.113883.6.96"
+                  displayName="naissance vivante"/>
+         <concept code="391181005"
+                  codeSystem="2.16.840.1.113883.6.96"
+                  displayName="mort néonatale précoce"/>
       </ConceptList>
    </ValueSet>
 </RetrieveValueSetResponse>

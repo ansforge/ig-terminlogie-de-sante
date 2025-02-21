@@ -17,12 +17,14 @@
                   codeSystem=""
                   displayName="Début de travail provoqué"/>
          <concept code="P1-86310" codeSystem="" displayName="Césarienne"/>
-         <concept code="11466000" codeSystem="" displayName="césarienne"/>
+         <concept code="11466000"
+                  codeSystem="2.16.840.1.113883.6.96"
+                  displayName="césarienne"/>
          <concept code="84457005"
-                  codeSystem=""
+                  codeSystem="2.16.840.1.113883.6.96"
                   displayName="déclenchement spontané du travail"/>
          <concept code="112070001"
-                  codeSystem=""
+                  codeSystem="2.16.840.1.113883.6.96"
                   displayName="déclenchement provoqué du travail"/>
       </ConceptList>
    </ValueSet>

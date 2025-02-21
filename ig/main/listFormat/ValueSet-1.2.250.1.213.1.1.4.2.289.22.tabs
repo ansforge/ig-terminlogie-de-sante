@@ -4,6 +4,6 @@
 ;F-84580;Début de travail spontané
 ;F-84610;Début de travail provoqué
 ;P1-86310;Césarienne
-;11466000;césarienne
-;84457005;déclenchement spontané du travail
-;112070001;déclenchement provoqué du travail
+2.16.840.1.113883.6.96;11466000;césarienne
+2.16.840.1.113883.6.96;84457005;déclenchement spontané du travail
+2.16.840.1.113883.6.96;112070001;déclenchement provoqué du travail

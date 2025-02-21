@@ -46,7 +46,7 @@
                   codeSystem="1.2.250.1.213.1.1.4.322"
                   displayName="Autre(s) traitement(s) médicamenteux spécifique(s)"/>
          <concept code="387713003"
-                  codeSystem=""
+                  codeSystem="2.16.840.1.113883.6.96"
                   displayName="intervention chirurgicale"/>
       </ConceptList>
    </ValueSet>

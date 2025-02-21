@@ -22,9 +22,11 @@
          <concept code="OBS_110" codeSystem="" displayName="Césarienne avant travail"/>
          <concept code="OBS_220" codeSystem="" displayName="Voie basse spontanée"/>
          <concept code="OBS_221" codeSystem="" displayName="Intervention voie basse"/>
-         <concept code="48782003" codeSystem="" displayName="accouchement normal"/>
+         <concept code="48782003"
+                  codeSystem="2.16.840.1.113883.6.96"
+                  displayName="accouchement normal"/>
          <concept code="700000006"
-                  codeSystem=""
+                  codeSystem="2.16.840.1.113883.6.96"
                   displayName="accouchement par voie basse"/>
       </ConceptList>
    </ValueSet>

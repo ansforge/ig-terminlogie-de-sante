@@ -11,10 +11,10 @@
 1.2.250.1.213.1.1.4.322;MED-457;Veines jugulaires gauche
 1.2.250.1.213.1.1.4.322;MED-458;Veines profondes
 ;T-49840;Sinus caverneux
-;230722002;thrombose veineuse cérébrale de la veine corticale
-;244402005;sinus caverneux entier
-;279261006;sinus droit entier
-;341484008;veine profonde entière
-;362075006;sinus sagittal supérieur entier
-;764262009;structure de la veine jugulaire gauche
-;764263004;structure de la veine jugulaire droite
+2.16.840.1.113883.6.96;230722002;thrombose veineuse cérébrale de la veine corticale
+2.16.840.1.113883.6.96;244402005;sinus caverneux entier
+2.16.840.1.113883.6.96;279261006;sinus droit entier
+2.16.840.1.113883.6.96;341484008;veine profonde entière
+2.16.840.1.113883.6.96;362075006;sinus sagittal supérieur entier
+2.16.840.1.113883.6.96;764262009;structure de la veine jugulaire gauche
+2.16.840.1.113883.6.96;764263004;structure de la veine jugulaire droite

@@ -19,42 +19,42 @@
 1.2.250.1.213.1.1.4.322;MED-237;Fosses nasales, sinus, oreille moy/int
 1.2.250.1.213.1.1.4.322;MED-251;Colon-Rectum-Anus
 1.2.250.1.213.1.1.4.322;MED-255;Trachée, Bronches, Poumon
-;57171008;structure du système hématopoïétique
-;119253004;voie aérodigestive supérieure
-;303270005;foie et/ou voies biliaires
-;39937001;peau
-;76752008;sein
-;306721000;os et/ou articulation
-;87784001;tissus mous
-;312419003;appareil respiratoire et/ou cavité thoracique
-;4596009;larynx
-;3120008;plèvre
-;86762007;système digestif
-;74262004;cavité orale
-;48477009;lèvre de la bouche
-;21974007;langue
-;54066008;pharynx
-;32849002;œsophage
-;69695003;estomac
-;30315005;intestin grêle
-;385294005;glande salivaire
-;15776009;pancréas
-;122489005;système urinaire
-;431491007;voies urinaires supérieures proprement dites
-;64033007;rein
-;89837001;vessie
-;53065001;appareil génital féminin
-;23952005;corps de l'utérus
-;71252005;col utérin
-;15497006;ovaire
-;90264002;appareil génital masculin
-;18911002;pénis
-;41216001;prostate
-;40689003;testicule
-;21483005;système nerveux central
-;84782009;nerf périphérique
-;81745001;œil
-;387910009;glande endocrine
-;23451007;glande surrénale
-;69748006;glande thyroïde
-;72410000;médiastin
+2.16.840.1.113883.6.96;57171008;structure du système hématopoïétique
+2.16.840.1.113883.6.96;119253004;voie aérodigestive supérieure
+2.16.840.1.113883.6.96;303270005;foie et/ou voies biliaires
+2.16.840.1.113883.6.96;39937001;peau
+2.16.840.1.113883.6.96;76752008;sein
+2.16.840.1.113883.6.96;306721000;os et/ou articulation
+2.16.840.1.113883.6.96;87784001;tissus mous
+2.16.840.1.113883.6.96;312419003;appareil respiratoire et/ou cavité thoracique
+2.16.840.1.113883.6.96;4596009;larynx
+2.16.840.1.113883.6.96;3120008;plèvre
+2.16.840.1.113883.6.96;86762007;système digestif
+2.16.840.1.113883.6.96;74262004;cavité orale
+2.16.840.1.113883.6.96;48477009;lèvre de la bouche
+2.16.840.1.113883.6.96;21974007;langue
+2.16.840.1.113883.6.96;54066008;pharynx
+2.16.840.1.113883.6.96;32849002;œsophage
+2.16.840.1.113883.6.96;69695003;estomac
+2.16.840.1.113883.6.96;30315005;intestin grêle
+2.16.840.1.113883.6.96;385294005;glande salivaire
+2.16.840.1.113883.6.96;15776009;pancréas
+2.16.840.1.113883.6.96;122489005;système urinaire
+2.16.840.1.113883.6.96;431491007;voies urinaires supérieures proprement dites
+2.16.840.1.113883.6.96;64033007;rein
+2.16.840.1.113883.6.96;89837001;vessie
+2.16.840.1.113883.6.96;53065001;appareil génital féminin
+2.16.840.1.113883.6.96;23952005;corps de l'utérus
+2.16.840.1.113883.6.96;71252005;col utérin
+2.16.840.1.113883.6.96;15497006;ovaire
+2.16.840.1.113883.6.96;90264002;appareil génital masculin
+2.16.840.1.113883.6.96;18911002;pénis
+2.16.840.1.113883.6.96;41216001;prostate
+2.16.840.1.113883.6.96;40689003;testicule
+2.16.840.1.113883.6.96;21483005;système nerveux central
+2.16.840.1.113883.6.96;84782009;nerf périphérique
+2.16.840.1.113883.6.96;81745001;œil
+2.16.840.1.113883.6.96;387910009;glande endocrine
+2.16.840.1.113883.6.96;23451007;glande surrénale
+2.16.840.1.113883.6.96;69748006;glande thyroïde
+2.16.840.1.113883.6.96;72410000;médiastin

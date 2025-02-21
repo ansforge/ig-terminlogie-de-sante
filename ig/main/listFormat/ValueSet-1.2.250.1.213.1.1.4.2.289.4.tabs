@@ -9,5 +9,5 @@
 ;OBS_107;Déchirure périnéale simple (1er et 2ème degré)
 ;OBS_108;Déchirure sphinctérienne (périnée complet et compliqué = 3ème et 4ème degré)
 ;P1-86130;Episiotomie
-;289854007;périnée intact
-;860603002;plaie d'épisiotomie
+2.16.840.1.113883.6.96;289854007;périnée intact
+2.16.840.1.113883.6.96;860603002;plaie d'épisiotomie

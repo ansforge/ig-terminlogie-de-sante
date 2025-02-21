@@ -6,6 +6,6 @@
 ;OBS_112;Né vivant décédé < 28 jours
 ;OBS_113;Né vivant décédé >= 28 jours
 ;F-88450;Mort-né
-;240297000;mort infantile
-;281050002;naissance vivante
-;391181005;mort néonatale précoce
+2.16.840.1.113883.6.96;240297000;mort infantile
+2.16.840.1.113883.6.96;281050002;naissance vivante
+2.16.840.1.113883.6.96;391181005;mort néonatale précoce

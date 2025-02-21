@@ -4,6 +4,6 @@
 ;F-84010;Premier trimestre de la grossesse
 ;F-84020;Deuxième trimestre de la grossesse
 ;F-84030;Troisième trimestre de la grossesse
-;41587001;troisième trimestre de la grossesse
-;57630001;premier trimestre de la grossesse
-;59466002;deuxième trimestre de la grossesse
+2.16.840.1.113883.6.96;41587001;troisième trimestre de la grossesse
+2.16.840.1.113883.6.96;57630001;premier trimestre de la grossesse
+2.16.840.1.113883.6.96;59466002;deuxième trimestre de la grossesse

@@ -37,12 +37,14 @@
          <concept code="P2-47020" codeSystem="" displayName="Vaccination par le BCG"/>
          <concept code="P2-47430" codeSystem="" displayName="Vaccination Hépatite B"/>
          <concept code="68322007"
-                  codeSystem=""
+                  codeSystem="2.16.840.1.113883.6.96"
                   displayName="administration d'un antibiotique"/>
          <concept code="275977009"
-                  codeSystem=""
+                  codeSystem="2.16.840.1.113883.6.96"
                   displayName="test néonatal de 14 maladies congénitales"/>
-         <concept code="398171003" codeSystem="" displayName="examen auditif"/>
+         <concept code="398171003"
+                  codeSystem="2.16.840.1.113883.6.96"
+                  displayName="examen auditif"/>
          <concept code="J07AN"
                   codeSystem="2.16.840.1.113883.6.73"
                   displayName="Vaccin antituberculeux"/>

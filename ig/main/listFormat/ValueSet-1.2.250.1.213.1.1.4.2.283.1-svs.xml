@@ -10,13 +10,27 @@
              typeFichier="JDV"
              urlFichier="">
       <ConceptList>
-         <concept code="102499006" codeSystem="" displayName="en forme"/>
-         <concept code="27624003" codeSystem="" displayName="maladie chronique"/>
-         <concept code="271593001" codeSystem="" displayName="moribond"/>
-         <concept code="161045001" codeSystem="" displayName="incapacité : sévère"/>
-         <concept code="419620001" codeSystem="" displayName="mort"/>
-         <concept code="21134002" codeSystem="" displayName="incapacité"/>
-         <concept code="84387000" codeSystem="" displayName="asymptomatique"/>
+         <concept code="102499006"
+                  codeSystem="2.16.840.1.113883.6.96"
+                  displayName="en forme"/>
+         <concept code="27624003"
+                  codeSystem="2.16.840.1.113883.6.96"
+                  displayName="maladie chronique"/>
+         <concept code="271593001"
+                  codeSystem="2.16.840.1.113883.6.96"
+                  displayName="moribond"/>
+         <concept code="161045001"
+                  codeSystem="2.16.840.1.113883.6.96"
+                  displayName="incapacité : sévère"/>
+         <concept code="419620001"
+                  codeSystem="2.16.840.1.113883.6.96"
+                  displayName="mort"/>
+         <concept code="21134002"
+                  codeSystem="2.16.840.1.113883.6.96"
+                  displayName="incapacité"/>
+         <concept code="84387000"
+                  codeSystem="2.16.840.1.113883.6.96"
+                  displayName="asymptomatique"/>
       </ConceptList>
    </ValueSet>
 </RetrieveValueSetResponse>

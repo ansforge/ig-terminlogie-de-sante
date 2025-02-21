@@ -11,13 +11,13 @@
              urlFichier="">
       <ConceptList>
          <concept code="387713003"
-                  codeSystem=""
+                  codeSystem="2.16.840.1.113883.6.96"
                   displayName="intervention chirurgicale"/>
          <concept code="2119009"
-                  codeSystem=""
+                  codeSystem="2.16.840.1.113883.6.96"
                   displayName="réparation d'un vaisseau sanguin"/>
          <concept code="1296925008"
-                  codeSystem=""
+                  codeSystem="2.16.840.1.113883.6.96"
                   displayName="insertion d’endoprothèse"/>
       </ConceptList>
    </ValueSet>

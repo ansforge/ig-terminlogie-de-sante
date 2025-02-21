@@ -30,8 +30,12 @@
                   codeSystem=""
                   displayName="Déchirure sphinctérienne (périnée complet et compliqué = 3ème et 4ème degré)"/>
          <concept code="P1-86130" codeSystem="" displayName="Episiotomie"/>
-         <concept code="289854007" codeSystem="" displayName="périnée intact"/>
-         <concept code="860603002" codeSystem="" displayName="plaie d'épisiotomie"/>
+         <concept code="289854007"
+                  codeSystem="2.16.840.1.113883.6.96"
+                  displayName="périnée intact"/>
+         <concept code="860603002"
+                  codeSystem="2.16.840.1.113883.6.96"
+                  displayName="plaie d'épisiotomie"/>
       </ConceptList>
    </ValueSet>
 </RetrieveValueSetResponse>

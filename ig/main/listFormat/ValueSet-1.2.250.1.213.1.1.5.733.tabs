@@ -4,4 +4,4 @@
 ;8339-4;Poids à la naissance
 ;92276-5;Statut du nouveau né
 ;57071-3;Méthode d'accouchement
-;107724000;transfert du patient
+2.16.840.1.113883.6.96;107724000;transfert du patient

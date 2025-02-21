@@ -1,127 +1,127 @@
 <OID>;<Type fichier>;<Nom fichier>;<Description>;<URL fichier>;<Date valid>;<Date fin>;<Date MAJ>  
 1.2.250.1.213.1.1.5.690;JDV;JDV_Radiopharmaceutique_CISIS;JDV_Radiopharmaceutique_CISIS;;20210315000000;;20240109000000
 <system>;<Code>;<Libellé> 
-;2942001;Carbon (14-C) xylose
-;42417005;Carbon (14-C) triolein
-;70086001;Cholyl-carbon^14^ glycine
-;17069007;Chromic phosphate (32-P)
-;4693006;Chromium (51-Cr) albumin
-;6973004;Chromium (51-Cr) chloride
-;37947008;Colloidal gold Au^198^
-;24301009;Gold-198
-;30825005;Colloidal Indium^111^
-;56609000;Indium-111
-;78686003;Copper (64-Cu) acetate
-;88166005;Copper (64-Cu) versenate
-;29460005;Copper (67-Cu) caeruloplasmin
-;187006;Cyanocobalamin (57-Co)
-;5692007;Cyanocobalamin (58-Co)
-;72159005;Cyanocobalamin (60-Co)
-;17600005;Diagnostic radioisotope
-;53207004;Diiodofluorecein I^131^
-;56475001;Disodium indium^111^
-;31192007;Ferrous (59-Fe) chloride
-;87958003;Ferrous (59-Fe) citrate
-;125001;Ferrous (59-Fe) sulfate
-;71636003;Fibrinogen (123-I)
-;35321007;Fluorodeoxyglucose (18-F)
-;73065000;Gallium (67-Ga) citrate
-;446871009;Indium (111-In) capromab pendetide
-;395742005;Indium (111-In) chloride
-;446800006;Indium (111-In) pentetreotide
-;29218008;Indium (111-In) pentetate
-;81621007;Indium (111-In) labeled erythrocyte
-;78570003;Indium (111-In) transferrin
-;6516008;Indium (111-In) ferric hydroxide
-;424570009;Indium (111-In) oxine-containing product
-;90617008;Indium (113-In) bleomycin
-;21451004;Indium^113m^ chloride
-;56006008;Indium^113m^ oxoquinoline platelet label
-;56867003;Indium^113m^ oxoquinoline RBC label
-;77510008;Indium^113m^ oxoquinoline WBC label
-;42728008;Indium (113-In) pentetate
-;72015003;Iodinated (125-I) albumin
-;64488003;Iodinated (125-I) human serum albumin
-;80260008;Iodinated I^125^ levothyroxine
-;73745003;Iodinated I^125^ oleic acid and triolein
-;69839009;Povidone iodine (125-I)
-;21378001;Iodinated I^125^ Rose Bengal
-;37437001;Iodinated I^125^ sealed source
-;70154008;Sodium iodide (125-I)
-;55814006;Iodinated (131-I) aggregated albumin
-;39200002;Iodinated (131-I) albumin
-;52408003;Iodinated (131-I) gamma globulin
-;447134003;Iodofiltic acid (123-I)
-;395787009;Iobenguane (123-I)
-;395789007;Iobenguane (131-I)
-;446531006;Iodine^131 Methylnorcholestenol
-;35884005;Povidone iodine (131-I)
-;68967007;Iodocholesterol (131-I)
-;33785000;Iodine (125-I) liothyronine
-;36900006;Sodium Iodohippurate (125-I)
-;33271006;Iodohippurate (131-I) sodium
-;78481003;Iofetamine (123-I) hydrochloride
-;55673009;Sodium iothalamate (125-I)-containing product
-;60459006;Iron (59-Fe) dextran
-;61716009;Krypton-81m
-;22979004;Oleic acid (125-I)
-;29348008;Ytterbium (169-Yb) pentetate calcium trisodium
-;29348008;Yb^169^-DTPA - pentetate
-;111161000;Potassium (K-42) carbonate
-;36641004;Potassium (K-42) chloride
-;47729008;Potassium (K-43) chloride
-;111159009;Rose bengal (131-I) sodium
-;13626001;Selenium^75^ HCAT
-;395894004;Tauroselcholic acid (75-Se)
-;88473009;Selenomethionine (75-Se)
-;6257000;Sodium (22-Na) chloride
-;31527000;Sodium (24-Na) chloride
-;62517004;Sodium chromate (51-Cr)
-;129501009;Sodium fluoride (18-F)
-;67690002;Sodium iodide (123-I)
-;111160004;Sodium iodide (131-I)
-;19495007;Technetium (99m-Tc) sodium pertechnetate
-;10781003;Sodium phosphate (32-P)
-;69076006;Strontium (85-Sr) chloride
-;38424001;Strontium (87-Sr) chloride
-;8858006;Strontium (85-Sr) nitrate
-;31953001;Strontium (87-Sr) nitrate
-;55494003;Technetium (99m-Tc) albumin microspheres
-;85693008;Technetium (99m-Tc) aggregated albumin
-;16011006;Technetium Tc^99m^ albumin colloid
-;415704007;Technetium (99m-Tc) depreotide
-;3040004;Technetium (99m-Tc) disofenin
-;77313009;Technetium (99m-Tc) exametazime
-;87853006;Technetium (99m-Tc) iron ascorbate
-;7281000;Technetium (99m-Tc) lidofenin
-;4832001;Technetium (99m-Tc) mebrofenin
-;43178005;Technetium Tc^99m^ medronate
-;96390006;Technetium (99m-Tc) medronate
-;81761004;Technetium (99m-Tc) microaggregated albumin
-;87410002;Technetium (99-Tc) lidofenin
-;53951001;Technetium (99m-Tc) oxidronate
-;446535002;Technetium^99m Hydroxymethylene diphosphonate HMDP
-;32098007;Technetium Tc^99m^ pentetate
-;430276001;Technetium (99m-Tc) pentetate
-;65156006;Technetium Tc^99m^ pyro and polyphosphates
-;79610008;Technetium (99m-Tc) albumin
-;424299003;Technetium (99m-Tc) sestamibi
-;45849009;Technetium (99m-Tc) sodium glucoheptonate
-;111162007;Technetium (99m-Tc) stannous etidronate
-;24511001;Technetium (99m-Tc) succimer
-;447201007;Technetium^99m Dimercaptosuccinic Acid DMSA
-;5931004;Technetium (99m-Tc) sulfur colloid
-;89818005;Technetium (99-Tc) labeled red blood cells
-;424318009;Technetium (99m-Tc) teboroxime
-;424118002;Technetium (99m-Tc) tetrofosmin
-;446534003;Technetium (99m-Tc) galactosyl human serum albumin diethylenetriamine pentaacetic acid
-;447125008;Technetium (99m-Tc) labeled carbon
-;446536001;Technetium (99m-Tc) tiatide
-;447126009;Technetium (99m-Tc) N-pyridoxyl-5-methyltryptophan
-;447127000;Technetium (99m-Tc) phytate
-;447128005;Technetium (99m-Tc) stannous colloid
-;73685002;Thallous (201-Ti) chloride
-;439007;Therapeutic radioisotope
+2.16.840.1.113883.6.96;2942001;Carbon (14-C) xylose
+2.16.840.1.113883.6.96;42417005;Carbon (14-C) triolein
+2.16.840.1.113883.6.96;70086001;Cholyl-carbon^14^ glycine
+2.16.840.1.113883.6.96;17069007;Chromic phosphate (32-P)
+2.16.840.1.113883.6.96;4693006;Chromium (51-Cr) albumin
+2.16.840.1.113883.6.96;6973004;Chromium (51-Cr) chloride
+2.16.840.1.113883.6.96;37947008;Colloidal gold Au^198^
+2.16.840.1.113883.6.96;24301009;Gold-198
+2.16.840.1.113883.6.96;30825005;Colloidal Indium^111^
+2.16.840.1.113883.6.96;56609000;Indium-111
+2.16.840.1.113883.6.96;78686003;Copper (64-Cu) acetate
+2.16.840.1.113883.6.96;88166005;Copper (64-Cu) versenate
+2.16.840.1.113883.6.96;29460005;Copper (67-Cu) caeruloplasmin
+2.16.840.1.113883.6.96;187006;Cyanocobalamin (57-Co)
+2.16.840.1.113883.6.96;5692007;Cyanocobalamin (58-Co)
+2.16.840.1.113883.6.96;72159005;Cyanocobalamin (60-Co)
+2.16.840.1.113883.6.96;17600005;Diagnostic radioisotope
+2.16.840.1.113883.6.96;53207004;Diiodofluorecein I^131^
+2.16.840.1.113883.6.96;56475001;Disodium indium^111^
+2.16.840.1.113883.6.96;31192007;Ferrous (59-Fe) chloride
+2.16.840.1.113883.6.96;87958003;Ferrous (59-Fe) citrate
+2.16.840.1.113883.6.96;125001;Ferrous (59-Fe) sulfate
+2.16.840.1.113883.6.96;71636003;Fibrinogen (123-I)
+2.16.840.1.113883.6.96;35321007;Fluorodeoxyglucose (18-F)
+2.16.840.1.113883.6.96;73065000;Gallium (67-Ga) citrate
+2.16.840.1.113883.6.96;446871009;Indium (111-In) capromab pendetide
+2.16.840.1.113883.6.96;395742005;Indium (111-In) chloride
+2.16.840.1.113883.6.96;446800006;Indium (111-In) pentetreotide
+2.16.840.1.113883.6.96;29218008;Indium (111-In) pentetate
+2.16.840.1.113883.6.96;81621007;Indium (111-In) labeled erythrocyte
+2.16.840.1.113883.6.96;78570003;Indium (111-In) transferrin
+2.16.840.1.113883.6.96;6516008;Indium (111-In) ferric hydroxide
+2.16.840.1.113883.6.96;424570009;Indium (111-In) oxine-containing product
+2.16.840.1.113883.6.96;90617008;Indium (113-In) bleomycin
+2.16.840.1.113883.6.96;21451004;Indium^113m^ chloride
+2.16.840.1.113883.6.96;56006008;Indium^113m^ oxoquinoline platelet label
+2.16.840.1.113883.6.96;56867003;Indium^113m^ oxoquinoline RBC label
+2.16.840.1.113883.6.96;77510008;Indium^113m^ oxoquinoline WBC label
+2.16.840.1.113883.6.96;42728008;Indium (113-In) pentetate
+2.16.840.1.113883.6.96;72015003;Iodinated (125-I) albumin
+2.16.840.1.113883.6.96;64488003;Iodinated (125-I) human serum albumin
+2.16.840.1.113883.6.96;80260008;Iodinated I^125^ levothyroxine
+2.16.840.1.113883.6.96;73745003;Iodinated I^125^ oleic acid and triolein
+2.16.840.1.113883.6.96;69839009;Povidone iodine (125-I)
+2.16.840.1.113883.6.96;21378001;Iodinated I^125^ Rose Bengal
+2.16.840.1.113883.6.96;37437001;Iodinated I^125^ sealed source
+2.16.840.1.113883.6.96;70154008;Sodium iodide (125-I)
+2.16.840.1.113883.6.96;55814006;Iodinated (131-I) aggregated albumin
+2.16.840.1.113883.6.96;39200002;Iodinated (131-I) albumin
+2.16.840.1.113883.6.96;52408003;Iodinated (131-I) gamma globulin
+2.16.840.1.113883.6.96;447134003;Iodofiltic acid (123-I)
+2.16.840.1.113883.6.96;395787009;Iobenguane (123-I)
+2.16.840.1.113883.6.96;395789007;Iobenguane (131-I)
+2.16.840.1.113883.6.96;446531006;Iodine^131 Methylnorcholestenol
+2.16.840.1.113883.6.96;35884005;Povidone iodine (131-I)
+2.16.840.1.113883.6.96;68967007;Iodocholesterol (131-I)
+2.16.840.1.113883.6.96;33785000;Iodine (125-I) liothyronine
+2.16.840.1.113883.6.96;36900006;Sodium Iodohippurate (125-I)
+2.16.840.1.113883.6.96;33271006;Iodohippurate (131-I) sodium
+2.16.840.1.113883.6.96;78481003;Iofetamine (123-I) hydrochloride
+2.16.840.1.113883.6.96;55673009;Sodium iothalamate (125-I)-containing product
+2.16.840.1.113883.6.96;60459006;Iron (59-Fe) dextran
+2.16.840.1.113883.6.96;61716009;Krypton-81m
+2.16.840.1.113883.6.96;22979004;Oleic acid (125-I)
+2.16.840.1.113883.6.96;29348008;Ytterbium (169-Yb) pentetate calcium trisodium
+2.16.840.1.113883.6.96;29348008;Yb^169^-DTPA - pentetate
+2.16.840.1.113883.6.96;111161000;Potassium (K-42) carbonate
+2.16.840.1.113883.6.96;36641004;Potassium (K-42) chloride
+2.16.840.1.113883.6.96;47729008;Potassium (K-43) chloride
+2.16.840.1.113883.6.96;111159009;Rose bengal (131-I) sodium
+2.16.840.1.113883.6.96;13626001;Selenium^75^ HCAT
+2.16.840.1.113883.6.96;395894004;Tauroselcholic acid (75-Se)
+2.16.840.1.113883.6.96;88473009;Selenomethionine (75-Se)
+2.16.840.1.113883.6.96;6257000;Sodium (22-Na) chloride
+2.16.840.1.113883.6.96;31527000;Sodium (24-Na) chloride
+2.16.840.1.113883.6.96;62517004;Sodium chromate (51-Cr)
+2.16.840.1.113883.6.96;129501009;Sodium fluoride (18-F)
+2.16.840.1.113883.6.96;67690002;Sodium iodide (123-I)
+2.16.840.1.113883.6.96;111160004;Sodium iodide (131-I)
+2.16.840.1.113883.6.96;19495007;Technetium (99m-Tc) sodium pertechnetate
+2.16.840.1.113883.6.96;10781003;Sodium phosphate (32-P)
+2.16.840.1.113883.6.96;69076006;Strontium (85-Sr) chloride
+2.16.840.1.113883.6.96;38424001;Strontium (87-Sr) chloride
+2.16.840.1.113883.6.96;8858006;Strontium (85-Sr) nitrate
+2.16.840.1.113883.6.96;31953001;Strontium (87-Sr) nitrate
+2.16.840.1.113883.6.96;55494003;Technetium (99m-Tc) albumin microspheres
+2.16.840.1.113883.6.96;85693008;Technetium (99m-Tc) aggregated albumin
+2.16.840.1.113883.6.96;16011006;Technetium Tc^99m^ albumin colloid
+2.16.840.1.113883.6.96;415704007;Technetium (99m-Tc) depreotide
+2.16.840.1.113883.6.96;3040004;Technetium (99m-Tc) disofenin
+2.16.840.1.113883.6.96;77313009;Technetium (99m-Tc) exametazime
+2.16.840.1.113883.6.96;87853006;Technetium (99m-Tc) iron ascorbate
+2.16.840.1.113883.6.96;7281000;Technetium (99m-Tc) lidofenin
+2.16.840.1.113883.6.96;4832001;Technetium (99m-Tc) mebrofenin
+2.16.840.1.113883.6.96;43178005;Technetium Tc^99m^ medronate
+2.16.840.1.113883.6.96;96390006;Technetium (99m-Tc) medronate
+2.16.840.1.113883.6.96;81761004;Technetium (99m-Tc) microaggregated albumin
+2.16.840.1.113883.6.96;87410002;Technetium (99-Tc) lidofenin
+2.16.840.1.113883.6.96;53951001;Technetium (99m-Tc) oxidronate
+2.16.840.1.113883.6.96;446535002;Technetium^99m Hydroxymethylene diphosphonate HMDP
+2.16.840.1.113883.6.96;32098007;Technetium Tc^99m^ pentetate
+2.16.840.1.113883.6.96;430276001;Technetium (99m-Tc) pentetate
+2.16.840.1.113883.6.96;65156006;Technetium Tc^99m^ pyro and polyphosphates
+2.16.840.1.113883.6.96;79610008;Technetium (99m-Tc) albumin
+2.16.840.1.113883.6.96;424299003;Technetium (99m-Tc) sestamibi
+2.16.840.1.113883.6.96;45849009;Technetium (99m-Tc) sodium glucoheptonate
+2.16.840.1.113883.6.96;111162007;Technetium (99m-Tc) stannous etidronate
+2.16.840.1.113883.6.96;24511001;Technetium (99m-Tc) succimer
+2.16.840.1.113883.6.96;447201007;Technetium^99m Dimercaptosuccinic Acid DMSA
+2.16.840.1.113883.6.96;5931004;Technetium (99m-Tc) sulfur colloid
+2.16.840.1.113883.6.96;89818005;Technetium (99-Tc) labeled red blood cells
+2.16.840.1.113883.6.96;424318009;Technetium (99m-Tc) teboroxime
+2.16.840.1.113883.6.96;424118002;Technetium (99m-Tc) tetrofosmin
+2.16.840.1.113883.6.96;446534003;Technetium (99m-Tc) galactosyl human serum albumin diethylenetriamine pentaacetic acid
+2.16.840.1.113883.6.96;447125008;Technetium (99m-Tc) labeled carbon
+2.16.840.1.113883.6.96;446536001;Technetium (99m-Tc) tiatide
+2.16.840.1.113883.6.96;447126009;Technetium (99m-Tc) N-pyridoxyl-5-methyltryptophan
+2.16.840.1.113883.6.96;447127000;Technetium (99m-Tc) phytate
+2.16.840.1.113883.6.96;447128005;Technetium (99m-Tc) stannous colloid
+2.16.840.1.113883.6.96;73685002;Thallous (201-Ti) chloride
+2.16.840.1.113883.6.96;439007;Therapeutic radioisotope
 2.16.840.1.113883.6.73;V09A;système nerveux central
 2.16.840.1.113883.6.73;V09AA;composés à base de technétium (99mTc)
 2.16.840.1.113883.6.73;V09AA01;examétazime-technétium (99mTc)

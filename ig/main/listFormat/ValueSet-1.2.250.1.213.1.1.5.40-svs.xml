@@ -40,7 +40,9 @@
          <concept code="29"
                   codeSystem="1.2.250.1.213.3.3.13"
                   displayName="Hospitalisation de jour (HJ)"/>
-         <concept code="11429006" codeSystem="" displayName="Consultation"/>
+         <concept code="11429006"
+                  codeSystem="2.16.840.1.113883.6.96"
+                  displayName="Consultation"/>
       </ConceptList>
    </ValueSet>
 </RetrieveValueSetResponse>

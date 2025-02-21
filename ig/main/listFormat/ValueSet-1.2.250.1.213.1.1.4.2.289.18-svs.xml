@@ -24,16 +24,16 @@
                   displayName="Autre aspect du liquide amniotique"/>
          <concept code="G-A456" codeSystem="" displayName="Clair"/>
          <concept code="168092006"
-                  codeSystem=""
+                  codeSystem="2.16.840.1.113883.6.96"
                   displayName="coloration méconiale du liquide amniotique"/>
          <concept code="249134008"
-                  codeSystem=""
+                  codeSystem="2.16.840.1.113883.6.96"
                   displayName="liquide amniotique sanglant"/>
          <concept code="289294000"
-                  codeSystem=""
+                  codeSystem="2.16.840.1.113883.6.96"
                   displayName="liquide amniotique avec méconium épais"/>
          <concept code="408781009"
-                  codeSystem=""
+                  codeSystem="2.16.840.1.113883.6.96"
                   displayName="liquide amniotique de couleur jaune paille"/>
       </ConceptList>
    </ValueSet>

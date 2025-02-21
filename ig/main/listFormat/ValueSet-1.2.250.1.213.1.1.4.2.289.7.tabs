@@ -4,5 +4,5 @@
 1.2.250.1.213.1.1.4.322;GEN-301;Pas de transfert ni mutation
 ;G-4029;Secondaire
 ;G-A377;Immédiat
-;2603003;secondaire
-;88694003;immédiat
+2.16.840.1.113883.6.96;2603003;secondaire
+2.16.840.1.113883.6.96;88694003;immédiat

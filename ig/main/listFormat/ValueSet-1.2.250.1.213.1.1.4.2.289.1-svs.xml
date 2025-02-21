@@ -28,7 +28,9 @@
          <concept code="D8-02000" codeSystem="" displayName="GEU"/>
          <concept code="D8-04100" codeSystem="" displayName="Avortement spontané"/>
          <concept code="D8-04201" codeSystem="" displayName="IVG"/>
-         <concept code="236973005" codeSystem="" displayName="Accouchement"/>
+         <concept code="236973005"
+                  codeSystem="2.16.840.1.113883.6.96"
+                  displayName="Accouchement"/>
       </ConceptList>
    </ValueSet>
 </RetrieveValueSetResponse>

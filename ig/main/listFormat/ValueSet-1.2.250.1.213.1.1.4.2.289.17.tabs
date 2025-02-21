@@ -12,5 +12,5 @@
 ;OBS_212;Autre acte réalisé en postpartum immédiat
 ;P1-30530;Embolisation artérielle sélective
 ;P1-86EA8;Réduction manuelle d’inversion utérine
-;49149002;exploration manuelle post-partum de l'utérus
-;57238002;embolisation artérielle sélective
+2.16.840.1.113883.6.96;49149002;exploration manuelle post-partum de l'utérus
+2.16.840.1.113883.6.96;57238002;embolisation artérielle sélective

@@ -23,16 +23,16 @@
                   codeSystem="1.2.250.1.213.1.1.4.322"
                   displayName="Artère cérébrale moyenne territoire profond"/>
          <concept code="8752000"
-                  codeSystem=""
+                  codeSystem="2.16.840.1.113883.6.96"
                   displayName="portion caverneuse de l'artère carotide interne"/>
          <concept code="60176003"
-                  codeSystem=""
+                  codeSystem="2.16.840.1.113883.6.96"
                   displayName="artère cérébrale antérieure"/>
          <concept code="17232002"
-                  codeSystem=""
+                  codeSystem="2.16.840.1.113883.6.96"
                   displayName="artère cérébrale moyenne"/>
          <concept code="59920002"
-                  codeSystem=""
+                  codeSystem="2.16.840.1.113883.6.96"
                   displayName="artère choroïdienne antérieure"/>
       </ConceptList>
    </ValueSet>

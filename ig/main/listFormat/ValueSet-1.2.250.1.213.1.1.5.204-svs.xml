@@ -34,8 +34,12 @@
          <concept code="500"
                   codeSystem="1.2.250.1.213.1.6.1.8"
                   displayName="Etablissement d'hébergement pour personnes âgées dépendantes"/>
-         <concept code="160849004" codeSystem="" displayName="retour au domicile"/>
-         <concept code="419620001" codeSystem="" displayName="mort"/>
+         <concept code="160849004"
+                  codeSystem="2.16.840.1.113883.6.96"
+                  displayName="retour au domicile"/>
+         <concept code="419620001"
+                  codeSystem="2.16.840.1.113883.6.96"
+                  displayName="mort"/>
       </ConceptList>
    </ValueSet>
 </RetrieveValueSetResponse>

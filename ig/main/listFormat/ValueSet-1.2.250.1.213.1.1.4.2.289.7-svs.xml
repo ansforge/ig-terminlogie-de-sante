@@ -15,8 +15,12 @@
                   displayName="Pas de transfert ni mutation"/>
          <concept code="G-4029" codeSystem="" displayName="Secondaire"/>
          <concept code="G-A377" codeSystem="" displayName="Immédiat"/>
-         <concept code="2603003" codeSystem="" displayName="secondaire"/>
-         <concept code="88694003" codeSystem="" displayName="immédiat"/>
+         <concept code="2603003"
+                  codeSystem="2.16.840.1.113883.6.96"
+                  displayName="secondaire"/>
+         <concept code="88694003"
+                  codeSystem="2.16.840.1.113883.6.96"
+                  displayName="immédiat"/>
       </ConceptList>
    </ValueSet>
 </RetrieveValueSetResponse>

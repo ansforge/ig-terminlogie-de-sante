@@ -32,9 +32,11 @@
                   codeSystem=""
                   displayName="Caractéristiques du travail"/>
          <concept code="116859006"
-                  codeSystem=""
+                  codeSystem="2.16.840.1.113883.6.96"
                   displayName="Transfusion de produits sanguins"/>
-         <concept code="236958009" codeSystem="" displayName="induction du travail"/>
+         <concept code="236958009"
+                  codeSystem="2.16.840.1.113883.6.96"
+                  displayName="induction du travail"/>
       </ConceptList>
    </ValueSet>
 </RetrieveValueSetResponse>

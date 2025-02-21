@@ -10,44 +10,98 @@
              typeFichier="JDV"
              urlFichier="">
       <ConceptList>
-         <concept code="1985008" codeSystem="" displayName="Vomitus"/>
-         <concept code="4386001" codeSystem="" displayName="Bronchospasm"/>
-         <concept code="9826008" codeSystem="" displayName="Conjunctivitis"/>
+         <concept code="1985008"
+                  codeSystem="2.16.840.1.113883.6.96"
+                  displayName="Vomitus"/>
+         <concept code="4386001"
+                  codeSystem="2.16.840.1.113883.6.96"
+                  displayName="Bronchospasm"/>
+         <concept code="9826008"
+                  codeSystem="2.16.840.1.113883.6.96"
+                  displayName="Conjunctivitis"/>
          <concept code="23067006"
-                  codeSystem=""
+                  codeSystem="2.16.840.1.113883.6.96"
                   displayName="Toxic epidermal necrolysis"/>
-         <concept code="23924001" codeSystem="" displayName="Tight chest"/>
-         <concept code="24079001" codeSystem="" displayName="Atopic dermatitis"/>
-         <concept code="31996006" codeSystem="" displayName="Vasculitis"/>
-         <concept code="39579001" codeSystem="" displayName="Anaphylaxis"/>
-         <concept code="41291007" codeSystem="" displayName="Angio-oedema"/>
-         <concept code="43116000" codeSystem="" displayName="Eczema"/>
-         <concept code="49727002" codeSystem="" displayName="Cough"/>
-         <concept code="51599000" codeSystem="" displayName="Oedema of larynx"/>
-         <concept code="62315008" codeSystem="" displayName="Diarrhoea"/>
-         <concept code="70076002" codeSystem="" displayName="Rhinitis"/>
+         <concept code="23924001"
+                  codeSystem="2.16.840.1.113883.6.96"
+                  displayName="Tight chest"/>
+         <concept code="24079001"
+                  codeSystem="2.16.840.1.113883.6.96"
+                  displayName="Atopic dermatitis"/>
+         <concept code="31996006"
+                  codeSystem="2.16.840.1.113883.6.96"
+                  displayName="Vasculitis"/>
+         <concept code="39579001"
+                  codeSystem="2.16.840.1.113883.6.96"
+                  displayName="Anaphylaxis"/>
+         <concept code="41291007"
+                  codeSystem="2.16.840.1.113883.6.96"
+                  displayName="Angio-oedema"/>
+         <concept code="43116000"
+                  codeSystem="2.16.840.1.113883.6.96"
+                  displayName="Eczema"/>
+         <concept code="49727002"
+                  codeSystem="2.16.840.1.113883.6.96"
+                  displayName="Cough"/>
+         <concept code="51599000"
+                  codeSystem="2.16.840.1.113883.6.96"
+                  displayName="Oedema of larynx"/>
+         <concept code="62315008"
+                  codeSystem="2.16.840.1.113883.6.96"
+                  displayName="Diarrhoea"/>
+         <concept code="70076002"
+                  codeSystem="2.16.840.1.113883.6.96"
+                  displayName="Rhinitis"/>
          <concept code="73442001"
-                  codeSystem=""
+                  codeSystem="2.16.840.1.113883.6.96"
                   displayName="Stevens-Johnson syndrome"/>
-         <concept code="76067001" codeSystem="" displayName="Sneezing"/>
-         <concept code="91175000" codeSystem="" displayName="Seizure"/>
-         <concept code="126485001" codeSystem="" displayName="Urticaria"/>
-         <concept code="162290004" codeSystem="" displayName="Dry eyes"/>
-         <concept code="195967001" codeSystem="" displayName="Asthma"/>
-         <concept code="247472004" codeSystem="" displayName="Weal"/>
-         <concept code="267036007" codeSystem="" displayName="Dyspnoea"/>
-         <concept code="271757001" codeSystem="" displayName="Papular eruption"/>
-         <concept code="271759003" codeSystem="" displayName="Bullous eruption"/>
-         <concept code="271807003" codeSystem="" displayName="Eruption of skin"/>
-         <concept code="359610006" codeSystem="" displayName="Ocular hyperaemia"/>
+         <concept code="76067001"
+                  codeSystem="2.16.840.1.113883.6.96"
+                  displayName="Sneezing"/>
+         <concept code="91175000"
+                  codeSystem="2.16.840.1.113883.6.96"
+                  displayName="Seizure"/>
+         <concept code="126485001"
+                  codeSystem="2.16.840.1.113883.6.96"
+                  displayName="Urticaria"/>
+         <concept code="162290004"
+                  codeSystem="2.16.840.1.113883.6.96"
+                  displayName="Dry eyes"/>
+         <concept code="195967001"
+                  codeSystem="2.16.840.1.113883.6.96"
+                  displayName="Asthma"/>
+         <concept code="247472004"
+                  codeSystem="2.16.840.1.113883.6.96"
+                  displayName="Weal"/>
+         <concept code="267036007"
+                  codeSystem="2.16.840.1.113883.6.96"
+                  displayName="Dyspnoea"/>
+         <concept code="271757001"
+                  codeSystem="2.16.840.1.113883.6.96"
+                  displayName="Papular eruption"/>
+         <concept code="271759003"
+                  codeSystem="2.16.840.1.113883.6.96"
+                  displayName="Bullous eruption"/>
+         <concept code="271807003"
+                  codeSystem="2.16.840.1.113883.6.96"
+                  displayName="Eruption of skin"/>
+         <concept code="359610006"
+                  codeSystem="2.16.840.1.113883.6.96"
+                  displayName="Ocular hyperaemia"/>
          <concept code="410430005"
-                  codeSystem=""
+                  codeSystem="2.16.840.1.113883.6.96"
                   displayName="Cardiorespiratory arrest"/>
-         <concept code="418363000" codeSystem="" displayName="Itching of skin"/>
-         <concept code="422587007" codeSystem="" displayName="Nausea"/>
-         <concept code="698247007" codeSystem="" displayName="Cardiac arrhythmia"/>
+         <concept code="418363000"
+                  codeSystem="2.16.840.1.113883.6.96"
+                  displayName="Itching of skin"/>
+         <concept code="422587007"
+                  codeSystem="2.16.840.1.113883.6.96"
+                  displayName="Nausea"/>
+         <concept code="698247007"
+                  codeSystem="2.16.840.1.113883.6.96"
+                  displayName="Cardiac arrhythmia"/>
          <concept code="702809001"
-                  codeSystem=""
+                  codeSystem="2.16.840.1.113883.6.96"
                   displayName="Drug reaction with eosinophilia and systemic symptoms"/>
       </ConceptList>
    </ValueSet>

@@ -40,10 +40,10 @@
                   codeSystem=""
                   displayName="Réduction manuelle d’inversion utérine"/>
          <concept code="49149002"
-                  codeSystem=""
+                  codeSystem="2.16.840.1.113883.6.96"
                   displayName="exploration manuelle post-partum de l'utérus"/>
          <concept code="57238002"
-                  codeSystem=""
+                  codeSystem="2.16.840.1.113883.6.96"
                   displayName="embolisation artérielle sélective"/>
       </ConceptList>
    </ValueSet>

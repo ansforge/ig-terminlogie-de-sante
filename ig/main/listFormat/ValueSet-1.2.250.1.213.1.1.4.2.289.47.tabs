@@ -15,8 +15,8 @@
 ;P2-45012;Administration d'antibiotiques
 ;P2-47020;Vaccination par le BCG
 ;P2-47430;Vaccination Hépatite B
-;68322007;administration d'un antibiotique
-;275977009;test néonatal de 14 maladies congénitales
-;398171003;examen auditif
+2.16.840.1.113883.6.96;68322007;administration d'un antibiotique
+2.16.840.1.113883.6.96;275977009;test néonatal de 14 maladies congénitales
+2.16.840.1.113883.6.96;398171003;examen auditif
 2.16.840.1.113883.6.73;J07AN;Vaccin antituberculeux
 2.16.840.1.113883.6.73;J07BC01;Vaccin contre l'hépatite B

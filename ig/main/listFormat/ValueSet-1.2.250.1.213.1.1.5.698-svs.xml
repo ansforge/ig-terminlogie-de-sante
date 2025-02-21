@@ -13,9 +13,15 @@
          <concept code="MED-1176"
                   codeSystem="1.2.250.1.213.1.1.4.322"
                   displayName="Suites de couches"/>
-         <concept code="419620001" codeSystem="" displayName="mort"/>
-         <concept code="107724000" codeSystem="" displayName="transfert du patient"/>
-         <concept code="385432009" codeSystem="" displayName="non applicable"/>
+         <concept code="419620001"
+                  codeSystem="2.16.840.1.113883.6.96"
+                  displayName="mort"/>
+         <concept code="107724000"
+                  codeSystem="2.16.840.1.113883.6.96"
+                  displayName="transfert du patient"/>
+         <concept code="385432009"
+                  codeSystem="2.16.840.1.113883.6.96"
+                  displayName="non applicable"/>
       </ConceptList>
    </ValueSet>
 </RetrieveValueSetResponse>
