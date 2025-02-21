@@ -66084,24 +66084,6 @@
          ]
        ] ) ;
        fhir:reference [
-         fhir:link <https://interop.esante.gouv.fr/terminologies/CodeSystem/snomed-CT> ;
-         fhir:reference [ fhir:v "CodeSystem/snomed-CT" ]
-       ] ;
-       fhir:name [ fhir:v "SNOMED CT International Edition" ] ;
-       fhir:description [ fhir:v "SNOMED CT is a core clinical healthcare terminology that contains concepts with unique meanings and formal logic based definitions organized into hierarchies." ] ;
-       fhir:example [
-         a fhir:boolean ;
-         fhir:v "false"^^xsd:boolean
-       ]
-     ] [
-       fhir:extension ( [
-         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
-         fhir:value [
-           a fhir:string ;
-           fhir:v "CodeSystem"
-         ]
-       ] ) ;
-       fhir:reference [
          fhir:link <https://interop.esante.gouv.fr/terminologies/CodeSystem/1.2.250.1.213.1.1.4.322> ;
          fhir:reference [ fhir:v "CodeSystem/1.2.250.1.213.1.1.4.322" ]
        ] ;

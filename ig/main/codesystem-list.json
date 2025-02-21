@@ -2,15 +2,6 @@
   "codeSystems" : [
     {
       "url" : "http://snomed.info/sct",
-      "version" : "3.2.1",
-      "status" : "active",
-      "name" : "SNOMED_CT_INT",
-      "title" : "SNOMED CT International Edition",
-      "description" : "SNOMED CT is a core clinical healthcare terminology that contains concepts with unique meanings and formal logic based definitions organized into hierarchies.",
-      "oids" : ["2.16.840.1.113883.6.96"]
-    },
-    {
-      "url" : "http://snomed.info/sct",
       "version" : "http://snomed.info/sct/900000000000207008/version/20250201",
       "status" : "active",
       "name" : "SNOMED_CT",

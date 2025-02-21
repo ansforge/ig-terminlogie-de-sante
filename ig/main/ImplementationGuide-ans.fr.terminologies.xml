@@ -36927,17 +36927,6 @@
         <valueString value="CodeSystem"/>
       </extension>
       <reference>
-        <reference value="CodeSystem/snomed-CT"/>
-      </reference>
-      <name value="SNOMED CT International Edition"/>
-      <description value="SNOMED CT is a core clinical healthcare terminology that contains concepts with unique meanings and formal logic based definitions organized into hierarchies."/>
-      <exampleBoolean value="false"/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="CodeSystem"/>
-      </extension>
-      <reference>
         <reference value="CodeSystem/1.2.250.1.213.1.1.4.322"/>
       </reference>
       <name value="TA_ASIP"/>
