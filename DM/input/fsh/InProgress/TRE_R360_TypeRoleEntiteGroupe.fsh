@@ -1,14 +1,14 @@
 Alias: $sct = http://snomed.info/sct
 
-CodeSystem: TRE_R360_TypeRoleEntiteGroupe 
-Id: TRE-R360-TypeRoleEntiteGroupe 
+CodeSystem: TreR360TypeRoleEntiteGroupe 
+Id: tre-r360-type-role-entite-groupe 
 Description: "Nomenclature des types de rôles que peuvent exercer des entités participants à des groupements"
 * ^meta.versionId = "1"
 * ^meta.lastUpdated = "2024-12-30T12:00:00+01:00"
 * ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablecodesystem"
 * ^extension.url = "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod"
 * ^extension.valuePeriod.start = "2024-12-30T12:00:00+01:00"
-* ^url = "https://mos.esante.gouv.fr/NOS/TRE_R360-TypeRoleEntiteGroupe/FHIR/TRE-R360-TypeRoleEntiteGroupe"
+* ^url = "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r360-type-role-entite-groupe"
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value = "urn:oid:1.2.250.1.213.1.6.1.254"
 * ^version = "20241230120000"
