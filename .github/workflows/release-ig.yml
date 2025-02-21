@@ -181,7 +181,8 @@ jobs:
           git config http.postBuffer 524288000
           git config --local user.email "github-actions[bot]@users.noreply.github.com"
           git config --local user.name "github-actions[bot]"
-          git add -A 
+          git add -A -- ':!www/terminologies/full-ig.zip' ':!www/ig-build-zips/*'
+          git reset -- \*.exe
           git commit -m updated
           
       - name: Push changes on IG-website-release
