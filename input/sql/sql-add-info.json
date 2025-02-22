@@ -1,32 +1,35 @@
 {
-    "resource": "ValueSet",
-    "select": [
-        {
-            "column": [
-                { "name": "id","path": "id"},
-                { "name": "name","path": "name"},
-                { "name": "title", "path": "title"}
-            ],
-            "select": [
-                {
-                    "forEach": "compose.include",
-                    "column": [ {  "path": "system", "name": "system" } ],
-                    "select": [{
-                      "forEach": "concept",
-                      "column": [
-                          {"name": "code", "path": "code"},
-                          {"name": "display", "path": "display"}
-                          ]
-                    }]
-                    
-                }
-     
-            ]
-        }
-    ],
-    "where": [
-        {
-            "path": "ValueSet.id.exists()"
-        }
-    ]
+  "name" : "ValueSetView",
+  "resource" : "ValueSet",
+  "extension" : [{
+    "url" : "http://hl7.org/fhir/tools/StructureDefinition/view-definition-scope",
+    "valueCode" : "*"
+  }],
+  "select": [
+    {
+        "column": [
+            { "name": "id","path": "id"},
+            { "name": "name","path": "name"},
+            { "name": "title", "path": "title"}
+        ],
+        "select": [
+            {
+                "forEach": "compose.include",
+                "column": [ {  "path": "system", "name": "system" } ],
+                "select": [{
+                  "forEach": "concept",
+                  "column": [
+                      {"name": "code", "path": "code"},
+                      {"name": "display", "path": "display"}
+                      ]
+                }]
+                
+            }
+ 
+        ]
+    }
+],
+  "where"  : [{
+    "path" : "ValueSet.id.exists()"
+  }]
 }
