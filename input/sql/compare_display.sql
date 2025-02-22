@@ -1,3 +1,18 @@
+select 
+DISTINCT 
+ValueSetView.system codeSystem_url,
+ValueSetView.id   valueSet_id      ,
+ValueSetView.url   valueSet_url      ,
+ValueSetView.name valueSet_name,
+ValueSetView.code valueSet_code,
+ValueSetView.display  valueSet_display,
+fts_valueSet_code,
+fts_valueSet_display
+
+from
+ValueSetView 
+left join  
+
 (select   
         CodeSystemList.Name fts_codeSystem_name, 
         CodeSystemList.url fts_codeSystem_url, 
@@ -18,4 +33,3 @@ where   ValueSet_codes.ValueSetUri = ValueSetList.url AND
 )  fts on
 ValueSetView.system = fts.fts_codeSystem_url
 and  ValueSetView.code = fts.fts_valueSet_code
-
