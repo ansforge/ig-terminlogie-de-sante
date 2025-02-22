@@ -1,10 +1,6 @@
 {
   "name" : "ValueSetView",
   "resource" : "ValueSet",
-  "extension" : [{
-    "url" : "http://hl7.org/fhir/tools/StructureDefinition/view-definition-scope",
-    "valueCode" : "*"
-  }],
   "select": [
     {
         "column": [
@@ -30,6 +26,6 @@
     }
 ],
   "where"  : [{
-    "path" : "ValueSet.id.exists()"
+    "path" : "ValueSet.url.exists()"
   }]
 }
