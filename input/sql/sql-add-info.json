@@ -1,47 +1,32 @@
 {
-  "name" : "ValueSetView",
-  "resource" : "ValueSet",
-  "extension" : [{
-    "url" : "http://hl7.org/fhir/tools/StructureDefinition/view-definition-scope",
-    "valueCode" : "*"
-  }],
-  "select" : [{
-    "column" : [
+    "resource": "ValueSet",
+    "select": [
         {
-          "name" : "id",
-          "path" : "id"
-        },
-        {
-          "name" : "name",
-          "path" : "name"
-        },
-        {
-          "name" : "title",
-          "path" : "title"
-        },
-        {
-          "name" : "description",
-          "path" : "description"
+            "column": [
+                { "name": "id","path": "id"},
+                { "name": "name","path": "name"},
+                { "name": "title", "path": "title"}
+            ],
+            "select": [
+                {
+                    "forEach": "compose.include",
+                    "column": [ {  "path": "system", "name": "system" } ],
+                    "select": [{
+                      "forEach": "concept",
+                      "column": [
+                          {"name": "code", "path": "code"},
+                          {"name": "display", "path": "display"}
+                          ]
+                    }]
+                    
+                }
+     
+            ]
         }
     ],
-    "unionAll"  : [
-            {
-            "column" : [{
-              "path" : "$this.substring(8)",
-              "name" : "oid"
-            }],
-            "forEach" : "url.where(startsWith('urn:oid:'))"
-          },
-          {
-          "column" : [{
-            "path" : "value.substring(8)",
-            "name" : "oid"
-          }],
-          "forEach" : "identifier.where(value.startsWith('urn:oid'))"
+    "where": [
+        {
+            "path": "ValueSet.id.exists()"
         }
     ]
-  }],
-  "where"  : [{
-    "path" : "ValueSet.id.exists()"
-  }]
 }
