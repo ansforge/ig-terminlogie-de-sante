@@ -6,7 +6,8 @@
         "column": [
             { "name": "id","path": "id"},
             { "name": "name","path": "name"},
-            { "name": "title", "path": "title"}
+            { "name": "title", "path": "title"},
+            { "name": "url", "path": "url"}
         ],
         "select": [
             {
