@@ -154,6 +154,14 @@
     </extension>
     <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
       <extension url="code">
+        <valueString value="viewDefinition"/>
+      </extension>
+      <extension url="value">
+        <valueString value="input/sql/sql-add-info-codesystem.sql"/>
+      </extension>
+    </extension>
+    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
+      <extension url="code">
         <valueString value="shownav"/>
       </extension>
       <extension url="value">
@@ -12001,6 +12009,14 @@
       </extension>
       <extension url="value">
         <valueString value="input/sql/sql-add-info.json"/>
+      </extension>
+    </extension>
+    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
+      <extension url="code">
+        <valueCode value="viewDefinition"/>
+      </extension>
+      <extension url="value">
+        <valueString value="input/sql/sql-add-info-codesystem.sql"/>
       </extension>
     </extension>
     <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">

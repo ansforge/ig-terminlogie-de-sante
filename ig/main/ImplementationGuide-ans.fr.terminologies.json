@@ -197,6 +197,17 @@
     {
       "extension" : [{
         "url" : "code",
+        "valueString" : "viewDefinition"
+      },
+      {
+        "url" : "value",
+        "valueString" : "input/sql/sql-add-info-codesystem.sql"
+      }],
+      "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
+    },
+    {
+      "extension" : [{
+        "url" : "code",
         "valueString" : "shownav"
       },
       {
@@ -16486,6 +16497,17 @@
       {
         "url" : "value",
         "valueString" : "input/sql/sql-add-info.json"
+      }],
+      "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
+    },
+    {
+      "extension" : [{
+        "url" : "code",
+        "valueCode" : "viewDefinition"
+      },
+      {
+        "url" : "value",
+        "valueString" : "input/sql/sql-add-info-codesystem.sql"
       }],
       "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
     },

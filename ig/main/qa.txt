@@ -1,10 +1,10 @@
 Terminologies : Validation Results
 =========================================
 
-err = 1313, warn = 1843, info = 993
+err = 1316, warn = 1845, info = 993
 IG Publisher Version: 1.8.13
-Generated Sat Feb 22 16:04:43 UTC 2025. FHIR version 4.0.1 for ans.fr.terminologies#0.1.0 (canonical = https://interop.esante.gouv.fr/terminologies)
- Build Errors : 575 / 18 / 0
+Generated Sat Feb 22 18:22:56 UTC 2025. FHIR version 4.0.1 for ans.fr.terminologies#0.1.0 (canonical = https://interop.esante.gouv.fr/terminologies)
+ Build Errors : 578 / 20 / 0
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/DM/fsh-generated/resources/ConceptMap-ASS-A11-CorresModeleCDA-XdsFormatCode-CISIS : 0 / 0 / 1
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/DM/fsh-generated/resources/ConceptMap-ASS-A12-CorresMediaTypeCDANonStructure-XdsFormatCode-CISIS : 0 / 0 / 1
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/DM/fsh-generated/resources/ConceptMap-ASS-A13-TypeEvenement-FluxStandardise : 0 / 0 / 1
@@ -1466,6 +1466,11 @@ Generated Sat Feb 22 16:04:43 UTC 2025. FHIR version 4.0.1 for ans.fr.terminolog
 WARNING: input/sql/sql-add-info.json$.select[0].select[0].column[0]: This column is not defined as a collection, but the path statement 'system' might return multiple values for the column 'system' for some inputs
 WARNING: input/sql/sql-add-info.json$.select[0].select[0].select[0].column[0]: This column is not defined as a collection, but the path statement 'code' might return multiple values for the column 'code' for some inputs
 WARNING: input/sql/sql-add-info.json$.select[0].select[0].select[0].column[0]: This column is not defined as a collection, but the path statement 'display' might return multiple values for the column 'display' for some inputs
+ERROR: input/sql/sql-add-info-codesystem.sql: Error Processing ViewDefinition: View Definition is not valid
+WARNING: input/sql/sql-add-info-codesystem.sql$.select[0].select[0].column[0]: This column is not defined as a collection, but the path statement 'code' might return multiple values for the column 'code' for some inputs
+WARNING: input/sql/sql-add-info-codesystem.sql$.select[0].select[0].column[0]: This column is not defined as a collection, but the path statement 'display' might return multiple values for the column 'display' for some inputs
+ERROR: input/sql/sql-add-info-codesystem.sql$.select[0].select[0].column[0]: Error evaluating FHIRPath expression: The name 'valueDateTime' is not valid for any of the possible types: [http://hl7.org/fhir/StructureDefinition/CodeSystem#CodeSystem.concept.property] (@char 1)
+ERROR: input/sql/sql-add-info-codesystem.sql$.select[0].select[0]: Duplicate Column Name 'display'
 WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource CodeSystem/terminologie-atc.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
 WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource CodeSystem/terminologie-bdpm.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
 WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource CodeSystem/terminologie-cladimed.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
@@ -3029,12 +3034,12 @@ WARNING: ValueSet.where(id = '1.2.250.1.213.1.1.5.628'): Error from http://tx.fh
 == input/ontoserver/JDV/JDV_AgeDeSurvenue_CISIS_1.2.250.1.213.1.1.5.646.json ==
 == input/ontoserver/JDV/JDV_Age_CISIS_1.2.250.1.213.1.1.5.43.json ==
 WARNING: ValueSet/1.2.250.1.213.1.1.5.43: ValueSet.compose.include[1]: Unknown System 'http://snomed.info/sct' specified, so Concepts and Filters can't be checked (Details: A definition for CodeSystem 'http://snomed.info/sct' version 'http://snomed.info/sct/11000315107' could not be found, so the code cannot be validated. Valid versions: [http://snomed.info/sct/900000000000207008/version/20250201])
-ERROR: ValueSet.where(id = '1.2.250.1.213.1.1.5.43'): Error from https://smt.esante.gouv.fr/fhir: Error: [ba893f44-b271-444f-b85b-44b1dad5cb2e]: A usable code system with URL http://snomed.info/sct|http://snomed.info/sct/11000315107 could not be resolved.
-Information: X-Request-Id: a0037783-f3e4-4cce-972f-11129a1d7ff2
+ERROR: ValueSet.where(id = '1.2.250.1.213.1.1.5.43'): Error from https://smt.esante.gouv.fr/fhir: Error: [a4831f3d-2f3e-4b31-aead-7a1ef27c664f]: A usable code system with URL http://snomed.info/sct|http://snomed.info/sct/11000315107 could not be resolved.
+Information: X-Request-Id: b3a48078-cbcf-4fb8-821f-d7a25f6889f0
 == input/ontoserver/JDV/JDV_AideAuDeplacement_CISIS_1.2.250.1.213.1.1.5.489.json ==
 WARNING: ValueSet/1.2.250.1.213.1.1.5.489: ValueSet.compose.include[1]: Unknown System 'http://snomed.info/sct' specified, so Concepts and Filters can't be checked (Details: A definition for CodeSystem 'http://snomed.info/sct' version 'http://snomed.info/sct/11000315107' could not be found, so the code cannot be validated. Valid versions: [http://snomed.info/sct/900000000000207008/version/20250201])
-ERROR: ValueSet.where(id = '1.2.250.1.213.1.1.5.489'): Error from https://smt.esante.gouv.fr/fhir: Error: [cd7d4761-6f5a-4509-93c6-c44ffc71b95b]: A usable code system with URL http://snomed.info/sct|http://snomed.info/sct/11000315107 could not be resolved.
-Information: X-Request-Id: 5b4148eb-ef28-4283-a98b-5842a7273730
+ERROR: ValueSet.where(id = '1.2.250.1.213.1.1.5.489'): Error from https://smt.esante.gouv.fr/fhir: Error: [3fea9818-382c-4d8f-9b55-fe34dc245779]: A usable code system with URL http://snomed.info/sct|http://snomed.info/sct/11000315107 could not be resolved.
+Information: X-Request-Id: ec455815-58e6-4ab4-adca-7caa2c99e031
 == input/ontoserver/JDV/JDV_AllergenNoDrug_CISIS_1.2.250.1.213.1.1.5.683.json ==
 WARNING: ValueSet/1.2.250.1.213.1.1.5.683: ValueSet.compose.include[0]: Unknown System 'http://snomed.info/sct' specified, so Concepts and Filters can't be checked (Details: A definition for CodeSystem 'http://snomed.info/sct' version 'http://snomed.info/sct/11000315107' could not be found, so the code cannot be validated. Valid versions: [http://snomed.info/sct/900000000000207008/version/20250201])
 == input/ontoserver/JDV/JDV_AllergieReaction_CISIS_1.2.250.1.213.1.1.5.674.json ==
@@ -3042,7 +3047,7 @@ WARNING: ValueSet/1.2.250.1.213.1.1.5.674: ValueSet.compose.include[0]: Unknown 
 == input/ontoserver/JDV/JDV_AllergiesVaccins_CISIS_1.2.250.1.213.1.1.5.100.json ==
 WARNING: ValueSet/1.2.250.1.213.1.1.5.100: ValueSet.compose.include[0]: Unknown System 'http://snomed.info/sct' specified, so Concepts and Filters can't be checked (Details: A definition for CodeSystem 'http://snomed.info/sct' version 'http://snomed.info/sct/11000315107' could not be found, so the code cannot be validated. Valid versions: [http://snomed.info/sct/900000000000207008/version/20250201])
 ERROR: ValueSet.where(id = '1.2.250.1.213.1.1.5.100'): Error from https://smt.esante.gouv.fr/fhir: Error: [6828b108-045b-4aab-91ca-28b57cc906f0]: A usable code system with URL http://snomed.info/sct|http://snomed.info/sct/11000315107 could not be resolved.
-Information: X-Request-Id: aa7d6715-7549-4c75-8fcb-b0babbd36821
+Information: X-Request-Id: bda5df5c-86d6-4078-852e-17ba9236dbd6
 == input/ontoserver/JDV/JDV_AnomalieCroissance_CISIS_1.2.250.1.213.1.1.5.738.json ==
 WARNING: ValueSet/1.2.250.1.213.1.1.5.738: ValueSet.compose.include[0]: Unknown System 'http://terminology.hl7.org/CodeSystem/icd10' specified, so Concepts and Filters can't be checked (Details: A definition for CodeSystem 'http://terminology.hl7.org/CodeSystem/icd10' could not be found, so the code cannot be validated)
 WARNING: ValueSet.where(id = '1.2.250.1.213.1.1.5.738'): Error from http://tx.fhir.org/r4: Unable to provide support for code system http://terminology.hl7.org/CodeSystem/icd10
@@ -3079,23 +3084,23 @@ WARNING: ValueSet/1.2.250.1.213.1.1.5.44: ValueSet.compose.include[0]: Unknown S
 WARNING: ValueSet.where(id = '1.2.250.1.213.1.1.5.44'): Error from http://tx.fhir.org/r4: Unable to provide support for code system http://snomed.info/sct
 == input/ontoserver/JDV/JDV_ArtereAnt_CISIS_1.2.250.1.213.1.1.5.208.json ==
 WARNING: ValueSet/1.2.250.1.213.1.1.5.208: ValueSet.compose.include[1]: Unknown System 'http://snomed.info/sct' specified, so Concepts and Filters can't be checked (Details: A definition for CodeSystem 'http://snomed.info/sct' version 'http://snomed.info/sct/11000315107' could not be found, so the code cannot be validated. Valid versions: [http://snomed.info/sct/900000000000207008/version/20250201])
-ERROR: ValueSet.where(id = '1.2.250.1.213.1.1.5.208'): Error from https://smt.esante.gouv.fr/fhir: Error: [82a7cc3a-cfa4-4ffe-9364-05d9fd32de76]: A usable code system with URL http://snomed.info/sct|http://snomed.info/sct/11000315107 could not be resolved.
-Information: X-Request-Id: 7f434770-2787-47eb-9e94-03bc07deb2cd
+ERROR: ValueSet.where(id = '1.2.250.1.213.1.1.5.208'): Error from https://smt.esante.gouv.fr/fhir: Error: [e6bb8c76-99fb-412a-9475-ff6bed0fc5e1]: A usable code system with URL http://snomed.info/sct|http://snomed.info/sct/11000315107 could not be resolved.
+Information: X-Request-Id: 2562419f-8fe6-4fa3-98b5-6e71694582b4
 == input/ontoserver/JDV/JDV_ArtereCervelet_CISIS_1.2.250.1.213.1.1.5.210.json ==
 WARNING: ValueSet/1.2.250.1.213.1.1.5.210: ValueSet.compose.include[1]: Unknown System 'http://snomed.info/sct' specified, so Concepts and Filters can't be checked (Details: A definition for CodeSystem 'http://snomed.info/sct' version 'http://snomed.info/sct/11000315107' could not be found, so the code cannot be validated. Valid versions: [http://snomed.info/sct/900000000000207008/version/20250201])
-ERROR: ValueSet.where(id = '1.2.250.1.213.1.1.5.210'): Error from https://smt.esante.gouv.fr/fhir: Error: [663430ae-1338-4f34-8945-67361abd3c6b]: A usable code system with URL http://snomed.info/sct|http://snomed.info/sct/11000315107 could not be resolved.
-Information: X-Request-Id: be7a75f3-6762-46a9-bc32-7d5f7a5f3841
+ERROR: ValueSet.where(id = '1.2.250.1.213.1.1.5.210'): Error from https://smt.esante.gouv.fr/fhir: Error: [ddc76785-cbea-406e-8c3a-e1d8670eff46]: A usable code system with URL http://snomed.info/sct|http://snomed.info/sct/11000315107 could not be resolved.
+Information: X-Request-Id: c779733c-79e9-4f41-a0bb-5f03fb8db7f2
 == input/ontoserver/JDV/JDV_ArterePost_CISIS_1.2.250.1.213.1.1.5.209.json ==
 WARNING: ValueSet/1.2.250.1.213.1.1.5.209: ValueSet.compose.include[1]: Unknown System 'http://snomed.info/sct' specified, so Concepts and Filters can't be checked (Details: A definition for CodeSystem 'http://snomed.info/sct' version 'http://snomed.info/sct/11000315107' could not be found, so the code cannot be validated. Valid versions: [http://snomed.info/sct/900000000000207008/version/20250201])
-ERROR: ValueSet.where(id = '1.2.250.1.213.1.1.5.209'): Error from https://smt.esante.gouv.fr/fhir: Error: [69329578-bb07-4097-882a-4fc50faa4cb6]: A usable code system with URL http://snomed.info/sct|http://snomed.info/sct/11000315107 could not be resolved.
-Information: X-Request-Id: 133d607e-a42e-4d10-b1ea-30627dae7956
+ERROR: ValueSet.where(id = '1.2.250.1.213.1.1.5.209'): Error from https://smt.esante.gouv.fr/fhir: Error: [67fb3f89-e1ac-4ec9-b5eb-da21b3a154b7]: A usable code system with URL http://snomed.info/sct|http://snomed.info/sct/11000315107 could not be resolved.
+Information: X-Request-Id: 1a688f3d-bb9d-48c5-9902-db757e804fff
 == input/ontoserver/JDV/JDV_ArtereTronc_CISIS_1.2.250.1.213.1.1.5.214.json ==
 WARNING: ValueSet/1.2.250.1.213.1.1.5.214: ValueSet.compose.include[0]: Unknown System 'http://snomed.info/sct' specified, so Concepts and Filters can't be checked (Details: A definition for CodeSystem 'http://snomed.info/sct' version 'http://snomed.info/sct/11000315107' could not be found, so the code cannot be validated. Valid versions: [http://snomed.info/sct/900000000000207008/version/20250201])
 WARNING: ValueSet.where(id = '1.2.250.1.213.1.1.5.214'): Error from http://tx.fhir.org/r4: Unable to provide support for code system http://snomed.info/sct
 == input/ontoserver/JDV/JDV_AspectLA_CISIS_1.2.250.1.213.1.1.5.740.json ==
 WARNING: ValueSet/1.2.250.1.213.1.1.5.740: ValueSet.compose.include[1]: Unknown System 'http://snomed.info/sct' specified, so Concepts and Filters can't be checked (Details: A definition for CodeSystem 'http://snomed.info/sct' version 'http://snomed.info/sct/11000315107' could not be found, so the code cannot be validated. Valid versions: [http://snomed.info/sct/900000000000207008/version/20250201])
-ERROR: ValueSet.where(id = '1.2.250.1.213.1.1.5.740'): Error from https://smt.esante.gouv.fr/fhir: Error: [df7a2327-6822-4735-922d-ead434b4696f]: A usable code system with URL http://snomed.info/sct|http://snomed.info/sct/11000315107 could not be resolved.
-Information: X-Request-Id: 0a26b910-6c8e-415b-9783-390707b49206
+ERROR: ValueSet.where(id = '1.2.250.1.213.1.1.5.740'): Error from https://smt.esante.gouv.fr/fhir: Error: [8fcb188a-1866-43fa-a73d-c9428854643f]: A usable code system with URL http://snomed.info/sct|http://snomed.info/sct/11000315107 could not be resolved.
+Information: X-Request-Id: d3c50366-06ba-4935-960a-2e48af22080e
 == input/ontoserver/JDV/JDV_AutreRisque_CISIS_1.2.250.1.213.1.1.5.793.json ==
 WARNING: ValueSet/1.2.250.1.213.1.1.5.793: ValueSet.compose.include[0]: Unknown System 'http://snomed.info/sct' specified, so Concepts and Filters can't be checked (Details: A definition for CodeSystem 'http://snomed.info/sct' version 'http://snomed.info/sct/11000315107' could not be found, so the code cannot be validated. Valid versions: [http://snomed.info/sct/900000000000207008/version/20250201])
 WARNING: ValueSet.where(id = '1.2.250.1.213.1.1.5.793'): Error from http://tx.fhir.org/r4: Unable to provide support for code system http://snomed.info/sct
@@ -3127,15 +3132,15 @@ WARNING: ValueSet.where(id = '1.2.250.1.213.1.1.5.121'): Error from http://tx.fh
 == input/ontoserver/JDV/JDV_CauseCesarienne_CISIS_1.2.250.1.213.1.1.5.116.json ==
 == input/ontoserver/JDV/JDV_CddFA_CISIS_1.2.250.1.213.1.1.5.164.json ==
 WARNING: ValueSet/1.2.250.1.213.1.1.5.164: ValueSet.compose.include[1]: Unknown System 'http://snomed.info/sct' specified, so Concepts and Filters can't be checked (Details: A definition for CodeSystem 'http://snomed.info/sct' version 'http://snomed.info/sct/11000315107' could not be found, so the code cannot be validated. Valid versions: [http://snomed.info/sct/900000000000207008/version/20250201])
-ERROR: ValueSet.where(id = '1.2.250.1.213.1.1.5.164'): Error from https://smt.esante.gouv.fr/fhir: Error: [156cb3c5-e630-45da-b917-b9073f97fd6a]: A usable code system with URL http://snomed.info/sct|http://snomed.info/sct/11000315107 could not be resolved.
-Information: X-Request-Id: f5e87bea-66f0-47d9-97c2-daa2be380655
+ERROR: ValueSet.where(id = '1.2.250.1.213.1.1.5.164'): Error from https://smt.esante.gouv.fr/fhir: Error: [7ea96d08-0063-4233-bf4b-522bc2d8b913]: A usable code system with URL http://snomed.info/sct|http://snomed.info/sct/11000315107 could not be resolved.
+Information: X-Request-Id: 2ef6eae8-67c0-4dd2-a52c-68b5f8936da1
 == input/ontoserver/JDV/JDV_CertitudeDiagnostic_CISIS_1.2.250.1.213.1.1.5.119.json ==
 ERROR: ValueSet/1.2.250.1.213.1.1.5.119: ValueSet.compose.include[0]: URI values in ValueSet.compose.include.system must be absolute
 WARNING: ValueSet/1.2.250.1.213.1.1.5.119: ValueSet.compose.include[0]: Unknown System '1.2.250.1.213.2.12' specified, so Concepts and Filters can't be checked (Details: A definition for CodeSystem '1.2.250.1.213.2.12' could not be found, so the code cannot be validated)
 == input/ontoserver/JDV/JDV_CerveletLoc_CISIS_1.2.250.1.213.1.1.5.213.json ==
 WARNING: ValueSet/1.2.250.1.213.1.1.5.213: ValueSet.compose.include[1]: Unknown System 'http://snomed.info/sct' specified, so Concepts and Filters can't be checked (Details: A definition for CodeSystem 'http://snomed.info/sct' version 'http://snomed.info/sct/11000315107' could not be found, so the code cannot be validated. Valid versions: [http://snomed.info/sct/900000000000207008/version/20250201])
-ERROR: ValueSet.where(id = '1.2.250.1.213.1.1.5.213'): Error from https://smt.esante.gouv.fr/fhir: Error: [38f82edb-47c6-4952-ad76-27bb7cf0a842]: A usable code system with URL http://snomed.info/sct|http://snomed.info/sct/11000315107 could not be resolved.
-Information: X-Request-Id: a3cb1cbc-e52e-47f5-bce8-8e373c4c62ad
+ERROR: ValueSet.where(id = '1.2.250.1.213.1.1.5.213'): Error from https://smt.esante.gouv.fr/fhir: Error: [3652462f-1416-4ae4-a3e1-f236d1d98c1e]: A usable code system with URL http://snomed.info/sct|http://snomed.info/sct/11000315107 could not be resolved.
+Information: X-Request-Id: 7f951543-ee0c-42ed-8a1e-e2023f885ab8
 == input/ontoserver/JDV/JDV_ChecklistDLU_CISIS_1.2.250.1.213.1.1.5.71.json ==
 == input/ontoserver/JDV/JDV_ChecklistFLUDR_CISIS_1.2.250.1.213.1.1.5.72.json ==
 == input/ontoserver/JDV/JDV_CirconstancesDeces_CISIS_1.2.250.1.213.1.1.5.741.json ==
@@ -3280,8 +3285,8 @@ WARNING: ValueSet.where(id = '1.2.250.1.213.1.1.5.149'): Error from http://tx.fh
 == input/ontoserver/JDV/JDV_ConduiteATenir_3_CISIS_1.2.250.1.213.1.1.5.87.json ==
 == input/ontoserver/JDV/JDV_ContexteActivite_CISIS_1.2.250.1.213.1.1.5.40.json ==
 WARNING: ValueSet/1.2.250.1.213.1.1.5.40: ValueSet.compose.include[2]: Unknown System 'http://snomed.info/sct' specified, so Concepts and Filters can't be checked (Details: A definition for CodeSystem 'http://snomed.info/sct' version 'http://snomed.info/sct/11000315107' could not be found, so the code cannot be validated. Valid versions: [http://snomed.info/sct/900000000000207008/version/20250201])
-ERROR: ValueSet.where(id = '1.2.250.1.213.1.1.5.40'): Error from https://smt.esante.gouv.fr/fhir: Error: [2b4cf020-a160-467e-9286-cf8cb9c09eb1]: A usable code system with URL http://snomed.info/sct|http://snomed.info/sct/11000315107 could not be resolved.
-Information: X-Request-Id: b58ffc0e-3e28-4f21-9749-8da64f5fb61e
+ERROR: ValueSet.where(id = '1.2.250.1.213.1.1.5.40'): Error from https://smt.esante.gouv.fr/fhir: Error: [d2617601-3914-4623-aec8-d47bc80b5f2a]: A usable code system with URL http://snomed.info/sct|http://snomed.info/sct/11000315107 could not be resolved.
+Information: X-Request-Id: 5bd07d5f-9acf-457b-91a4-894786b9e35c
 == input/ontoserver/JDV/JDV_ContexteExamenCCU_CISIS_1.2.250.1.213.1.1.5.722.json ==
 == input/ontoserver/JDV/JDV_ContreIndicThrombolyse_CISIS_1.2.250.1.213.1.1.5.170.json ==
 == input/ontoserver/JDV/JDV_Contre_indications_CISIS_1.2.250.1.213.1.1.5.659.json ==
@@ -3321,8 +3326,8 @@ WARNING: ValueSet/1.2.250.1.213.1.1.5.267: ValueSet.compose.include[0]: Unknown 
 == input/ontoserver/JDV/JDV_CouvertureSociale_CISIS_1.2.250.1.213.1.1.5.125.json ==
 == input/ontoserver/JDV/JDV_DateCons_CISIS_1.2.250.1.213.1.1.5.111.json ==
 WARNING: ValueSet/1.2.250.1.213.1.1.5.111: ValueSet.compose.include[1]: Unknown System 'http://snomed.info/sct' specified, so Concepts and Filters can't be checked (Details: A definition for CodeSystem 'http://snomed.info/sct' version 'http://snomed.info/sct/11000315107' could not be found, so the code cannot be validated. Valid versions: [http://snomed.info/sct/900000000000207008/version/20250201])
-ERROR: ValueSet.where(id = '1.2.250.1.213.1.1.5.111'): Error from https://smt.esante.gouv.fr/fhir: Error: [9a4b9ef1-c5df-4d2a-96e3-9189115f414b]: A usable code system with URL http://snomed.info/sct|http://snomed.info/sct/11000315107 could not be resolved.
-Information: X-Request-Id: af915a39-d071-4b69-89ce-5243ac067bb7
+ERROR: ValueSet.where(id = '1.2.250.1.213.1.1.5.111'): Error from https://smt.esante.gouv.fr/fhir: Error: [e93cff91-51ef-4606-bcb1-81aba7e59851]: A usable code system with URL http://snomed.info/sct|http://snomed.info/sct/11000315107 could not be resolved.
+Information: X-Request-Id: 8a696044-e707-4925-a285-f5332cd2d298
 == input/ontoserver/JDV/JDV_DefaillanceMaterielle_CISIS_1.2.250.1.213.1.1.5.526.json ==
 WARNING: ValueSet/1.2.250.1.213.1.1.5.526: ValueSet.compose.include[0]: Unknown System 'https://www.imdrf.org' specified, so Concepts and Filters can't be checked (Details: A definition for CodeSystem 'https://www.imdrf.org' could not be found, so the code cannot be validated)
 WARNING: ValueSet/1.2.250.1.213.1.1.5.526: ValueSet.compose.include[1]: Unknown System 'https://smt-pprod.esante.gouv.fr/terminologie-emdn' specified, so Concepts and Filters can't be checked (Details: A definition for CodeSystem 'https://smt-pprod.esante.gouv.fr/terminologie-emdn' could not be found, so the code cannot be validated)
@@ -3344,12 +3349,12 @@ WARNING: ValueSet/1.2.250.1.213.1.1.5.792: ValueSet.compose.include[0]: Unknown 
 WARNING: ValueSet.where(id = '1.2.250.1.213.1.1.5.792'): Error from http://tx.fhir.org/r4: Unable to provide support for code system http://snomed.info/sct
 == input/ontoserver/JDV/JDV_DestinationTransfert_CISIS_1.2.250.1.213.1.1.5.70.json ==
 WARNING: ValueSet/1.2.250.1.213.1.1.5.70: ValueSet.compose.include[2]: Unknown System 'http://snomed.info/sct' specified, so Concepts and Filters can't be checked (Details: A definition for CodeSystem 'http://snomed.info/sct' version 'http://snomed.info/sct/11000315107' could not be found, so the code cannot be validated. Valid versions: [http://snomed.info/sct/900000000000207008/version/20250201])
-ERROR: ValueSet.where(id = '1.2.250.1.213.1.1.5.70'): Error from https://smt.esante.gouv.fr/fhir: Error: [d2dbd1ab-cde5-4f88-9111-5e142f759ad5]: A usable code system with URL http://snomed.info/sct|http://snomed.info/sct/11000315107 could not be resolved.
-Information: X-Request-Id: a293addd-8b22-466a-8476-a6ea1df6e57b
+ERROR: ValueSet.where(id = '1.2.250.1.213.1.1.5.70'): Error from https://smt.esante.gouv.fr/fhir: Error: [1766e6fc-5096-46a1-b9ba-7c6a9fa3c203]: A usable code system with URL http://snomed.info/sct|http://snomed.info/sct/11000315107 could not be resolved.
+Information: X-Request-Id: 2d0ff49f-b553-45b1-a80b-e94df3c743a7
 == input/ontoserver/JDV/JDV_Destination_OBP_SNE_CISIS_1.2.250.1.213.1.1.5.702.json ==
 WARNING: ValueSet/1.2.250.1.213.1.1.5.702: ValueSet.compose.include[1]: Unknown System 'http://snomed.info/sct' specified, so Concepts and Filters can't be checked (Details: A definition for CodeSystem 'http://snomed.info/sct' version 'http://snomed.info/sct/11000315107' could not be found, so the code cannot be validated. Valid versions: [http://snomed.info/sct/900000000000207008/version/20250201])
-ERROR: ValueSet.where(id = '1.2.250.1.213.1.1.5.702'): Error from https://smt.esante.gouv.fr/fhir: Error: [0028c180-5d04-4db9-b65d-2e572ec717d5]: A usable code system with URL http://snomed.info/sct|http://snomed.info/sct/11000315107 could not be resolved.
-Information: X-Request-Id: 8c367c33-0e3f-494f-91a3-ff4945bfaf8e
+ERROR: ValueSet.where(id = '1.2.250.1.213.1.1.5.702'): Error from https://smt.esante.gouv.fr/fhir: Error: [e3cccef6-0f03-40a3-892a-1e5eca4ee473]: A usable code system with URL http://snomed.info/sct|http://snomed.info/sct/11000315107 could not be resolved.
+Information: X-Request-Id: 535ca325-1b8a-4076-a0eb-4a42e88e4e0b
 == input/ontoserver/JDV/JDV_DetailMaterielSpecialise_CISIS_1.2.250.1.213.1.1.5.808.json ==
 == input/ontoserver/JDV/JDV_DetailRessourceImmobiliereUtilisee_CISIS_1.2.250.1.213.1.1.5.809.json ==
 == input/ontoserver/JDV/JDV_DeveloppementPsychomoteur_CS24_CISIS_1.2.250.1.213.1.1.5.712.json ==
@@ -3376,8 +3381,8 @@ WARNING: ValueSet/1.2.250.1.213.1.1.5.494: ValueSet.compose.include[0]: Unknown 
 WARNING: ValueSet.where(id = '1.2.250.1.213.1.1.5.494'): Error from http://tx.fhir.org/r4: Unable to provide support for code system http://snomed.info/sct
 == input/ontoserver/JDV/JDV_Dispositionpretherapeutique_CISIS_1.2.250.1.213.1.1.5.216.json ==
 WARNING: ValueSet/1.2.250.1.213.1.1.5.216: ValueSet.compose.include[1]: Unknown System 'http://snomed.info/sct' specified, so Concepts and Filters can't be checked (Details: A definition for CodeSystem 'http://snomed.info/sct' version 'http://snomed.info/sct/11000315107' could not be found, so the code cannot be validated. Valid versions: [http://snomed.info/sct/900000000000207008/version/20250201])
-ERROR: ValueSet.where(id = '1.2.250.1.213.1.1.5.216'): Error from https://smt.esante.gouv.fr/fhir: Error: [4cf789c5-65f2-48e0-a4c5-7310b4b4b0d9]: A usable code system with URL http://snomed.info/sct|http://snomed.info/sct/11000315107 could not be resolved.
-Information: X-Request-Id: 971a7282-6088-422b-93fb-3063d3139abd
+ERROR: ValueSet.where(id = '1.2.250.1.213.1.1.5.216'): Error from https://smt.esante.gouv.fr/fhir: Error: [62a7022a-0e90-42be-bd62-554618ffd176]: A usable code system with URL http://snomed.info/sct|http://snomed.info/sct/11000315107 could not be resolved.
+Information: X-Request-Id: 87b4ba85-2a41-4f43-8079-5cbc86288aa6
 == input/ontoserver/JDV/JDV_DocumentAnnexeFLUDR_CISIS_1.2.250.1.213.1.1.5.813.json ==
 == input/ontoserver/JDV/JDV_DureeAllaitement_CISIS_1.2.250.1.213.1.1.5.129.json ==
 == input/ontoserver/JDV/JDV_EncompassingEncounterCode_CISIS_1.2.250.1.213.1.1.5.18.json ==
@@ -3468,8 +3473,8 @@ WARNING: ValueSet/1.2.250.1.213.1.1.5.804: ValueSet.compose.include[0]: Unknown 
 WARNING: ValueSet.where(id = '1.2.250.1.213.1.1.5.804'): Error from http://tx.fhir.org/r4: Unable to provide support for code system http://terminology.hl7.org/CodeSystem/icd10
 == input/ontoserver/JDV/JDV_Evaluation_TILs_Melanome_CISIS_1.2.250.1.213.1.1.5.631.json ==
 WARNING: ValueSet/1.2.250.1.213.1.1.5.631: ValueSet.compose.include[1]: Unknown System 'http://snomed.info/sct' specified, so Concepts and Filters can't be checked (Details: A definition for CodeSystem 'http://snomed.info/sct' version 'http://snomed.info/sct/11000315107' could not be found, so the code cannot be validated. Valid versions: [http://snomed.info/sct/900000000000207008/version/20250201])
-ERROR: ValueSet.where(id = '1.2.250.1.213.1.1.5.631'): Error from https://smt.esante.gouv.fr/fhir: Error: [a1415956-7dd0-4d30-9513-1f2ac835c36f]: A usable code system with URL http://snomed.info/sct|http://snomed.info/sct/11000315107 could not be resolved.
-Information: X-Request-Id: e587c10d-52de-49fa-8b44-5a4e8d081485
+ERROR: ValueSet.where(id = '1.2.250.1.213.1.1.5.631'): Error from https://smt.esante.gouv.fr/fhir: Error: [ad3652ff-a765-4590-b74e-114874f5e66d]: A usable code system with URL http://snomed.info/sct|http://snomed.info/sct/11000315107 could not be resolved.
+Information: X-Request-Id: 3edb4a37-0c0d-449c-b874-06c3873b8c01
 == input/ontoserver/JDV/JDV_EvenementsAccouchement_CISIS_1.2.250.1.213.1.1.5.527.json ==
 == input/ontoserver/JDV/JDV_Evolution_CISIS_1.2.250.1.213.1.1.5.788.json ==
 WARNING: ValueSet/1.2.250.1.213.1.1.5.788: ValueSet.compose.include[0]: Unknown System 'urn:oid:2.16.840.1.113883.6.96' specified, so Concepts and Filters can't be checked (Details: A definition for CodeSystem 'urn:oid:2.16.840.1.113883.6.96' could not be found, so the code cannot be validated)
@@ -3576,8 +3581,8 @@ ERROR: ValueSet.text.div: Hyperlink 'CodeSystem-1.2.250.1.213.1.1.4.322.html#1.2
 == input/ontoserver/JDV/JDV_Examen_StatutR_CISIS_1.2.250.1.213.1.1.5.577.json ==
 == input/ontoserver/JDV/JDV_ExamensRealises_CISIS_1.2.250.1.213.1.1.5.31.json ==
 WARNING: ValueSet/1.2.250.1.213.1.1.5.31: ValueSet.compose.include[1]: Unknown System 'http://snomed.info/sct' specified, so Concepts and Filters can't be checked (Details: A definition for CodeSystem 'http://snomed.info/sct' version 'http://snomed.info/sct/11000315107' could not be found, so the code cannot be validated. Valid versions: [http://snomed.info/sct/900000000000207008/version/20250201])
-ERROR: ValueSet.where(id = '1.2.250.1.213.1.1.5.31'): Error from https://smt.esante.gouv.fr/fhir: Error: [bfdb89bd-e20f-4be7-9b16-0ad28bd96d1d]: A usable code system with URL http://snomed.info/sct|http://snomed.info/sct/11000315107 could not be resolved.
-Information: X-Request-Id: e3ef0979-1d9a-4c88-9f1f-14048d370870
+ERROR: ValueSet.where(id = '1.2.250.1.213.1.1.5.31'): Error from https://smt.esante.gouv.fr/fhir: Error: [020c6b65-edca-48b8-b959-f17982f11858]: A usable code system with URL http://snomed.info/sct|http://snomed.info/sct/11000315107 could not be resolved.
+Information: X-Request-Id: dd3e95eb-0f06-44d4-a4d5-fd77d4170034
 == input/ontoserver/JDV/JDV_FacteursDeRiquesAVC_CISIS_1.2.250.1.213.1.1.5.678.json ==
 WARNING: ValueSet/1.2.250.1.213.1.1.5.678: ValueSet.compose.include[0]: Unknown System 'http://terminology.hl7.org/CodeSystem/icd10' specified, so Concepts and Filters can't be checked (Details: A definition for CodeSystem 'http://terminology.hl7.org/CodeSystem/icd10' could not be found, so the code cannot be validated)
 WARNING: ValueSet.where(id = '1.2.250.1.213.1.1.5.678'): Error from http://tx.fhir.org/r4: Unable to provide support for code system http://terminology.hl7.org/CodeSystem/icd10
@@ -3688,8 +3693,8 @@ ERROR: ValueSet/1.2.250.1.213.1.1.5.300: ValueSet.compose.include[0]: URI values
 WARNING: ValueSet/1.2.250.1.213.1.1.5.300: ValueSet.compose.include[0]: Unknown System '1.3.6.1.4.1.19376.1.8.2.1' specified, so Concepts and Filters can't be checked (Details: A definition for CodeSystem '1.3.6.1.4.1.19376.1.8.2.1' could not be found, so the code cannot be validated)
 == input/ontoserver/JDV/JDV_GesteReanimationNouveauNe_CISIS_1.2.250.1.213.1.1.5.754.json ==
 WARNING: ValueSet/1.2.250.1.213.1.1.5.754: ValueSet.compose.include[1]: Unknown System 'http://snomed.info/sct' specified, so Concepts and Filters can't be checked (Details: A definition for CodeSystem 'http://snomed.info/sct' version 'http://snomed.info/sct/11000315107' could not be found, so the code cannot be validated. Valid versions: [http://snomed.info/sct/900000000000207008/version/20250201])
-ERROR: ValueSet.where(id = '1.2.250.1.213.1.1.5.754'): Error from https://smt.esante.gouv.fr/fhir: Error: [12e615a3-5eb8-4d21-9183-115e201ecf81]: A usable code system with URL http://snomed.info/sct|http://snomed.info/sct/11000315107 could not be resolved.
-Information: X-Request-Id: 2d360b55-9909-42b1-8479-f0020a70b2ae
+ERROR: ValueSet.where(id = '1.2.250.1.213.1.1.5.754'): Error from https://smt.esante.gouv.fr/fhir: Error: [98b52b30-07e3-4227-9a7a-c70d8c98a8ac]: A usable code system with URL http://snomed.info/sct|http://snomed.info/sct/11000315107 could not be resolved.
+Information: X-Request-Id: d14c2d71-4219-4b04-87a5-891cd3b96c6f
 == input/ontoserver/JDV/JDV_GestionEffetsSecondaires_CISIS_1.2.250.1.213.1.1.5.477.json ==
 WARNING: ValueSet/1.2.250.1.213.1.1.5.477: ValueSet.compose.include[0]: Unknown System 'https://smt.esante.gouv.fr/terminologie-ncit' specified, so Concepts and Filters can't be checked (Details: A definition for CodeSystem 'https://smt.esante.gouv.fr/terminologie-ncit' could not be found, so the code cannot be validated)
 WARNING: ValueSet.where(id = '1.2.250.1.213.1.1.5.477'): Error from http://tx.fhir.org/r4: Unable to provide support for code system https://smt.esante.gouv.fr/terminologie-ncit
@@ -3872,8 +3877,8 @@ WARNING: ValueSet.where(id = '2.16.840.1.113883.4.642.3.1372'): Error from http:
 == input/ontoserver/JDV/JDV_HL7_employmentStatus_CISIS_2.16.840.1.113883.21.29.json ==
 == input/ontoserver/JDV/JDV_HandicapDeficitDLUDOM_CISIS_1.2.250.1.213.1.1.5.812.json ==
 WARNING: ValueSet/1.2.250.1.213.1.1.5.812: ValueSet.compose.include[1]: Unknown System 'http://snomed.info/sct' specified, so Concepts and Filters can't be checked (Details: A definition for CodeSystem 'http://snomed.info/sct' version 'http://snomed.info/sct/11000315107' could not be found, so the code cannot be validated. Valid versions: [http://snomed.info/sct/900000000000207008/version/20250201])
-ERROR: ValueSet.where(id = '1.2.250.1.213.1.1.5.812'): Error from https://smt.esante.gouv.fr/fhir: Error: [74c7e897-7fe4-4002-a1c6-f9736a8b0935]: A usable code system with URL http://snomed.info/sct|http://snomed.info/sct/11000315107 could not be resolved.
-Information: X-Request-Id: 2813eb37-0e29-4684-8c56-f95f6f7241cd
+ERROR: ValueSet.where(id = '1.2.250.1.213.1.1.5.812'): Error from https://smt.esante.gouv.fr/fhir: Error: [a38bab1f-a993-4277-bd95-b4dfedb6c80c]: A usable code system with URL http://snomed.info/sct|http://snomed.info/sct/11000315107 could not be resolved.
+Information: X-Request-Id: 335bac1c-621f-446c-be7b-4220684572ba
 == input/ontoserver/JDV/JDV_HandicapDeficitDLUEHPAD_CISIS_1.2.250.1.213.1.1.5.791.json ==
 WARNING: ValueSet/1.2.250.1.213.1.1.5.791: ValueSet.compose.include[0]: Unknown System 'http://snomed.info/sct' specified, so Concepts and Filters can't be checked (Details: A definition for CodeSystem 'http://snomed.info/sct' version 'http://snomed.info/sct/11000315107' could not be found, so the code cannot be validated. Valid versions: [http://snomed.info/sct/900000000000207008/version/20250201])
 WARNING: ValueSet.where(id = '1.2.250.1.213.1.1.5.791'): Error from http://tx.fhir.org/r4: Unable to provide support for code system http://snomed.info/sct
@@ -3882,8 +3887,8 @@ WARNING: ValueSet/1.2.250.1.213.1.1.4.2.283.1: ValueSet.compose.include[0]: Unkn
 WARNING: ValueSet.where(id = '1.2.250.1.213.1.1.4.2.283.1'): Error from http://tx.fhir.org/r4: Unable to provide support for code system http://snomed.info/sct
 == input/ontoserver/JDV/JDV_HemisphereLobaire_CISIS_1.2.250.1.213.1.1.5.212.json ==
 WARNING: ValueSet/1.2.250.1.213.1.1.5.212: ValueSet.compose.include[1]: Unknown System 'http://snomed.info/sct' specified, so Concepts and Filters can't be checked (Details: A definition for CodeSystem 'http://snomed.info/sct' version 'http://snomed.info/sct/11000315107' could not be found, so the code cannot be validated. Valid versions: [http://snomed.info/sct/900000000000207008/version/20250201])
-ERROR: ValueSet.where(id = '1.2.250.1.213.1.1.5.212'): Error from https://smt.esante.gouv.fr/fhir: Error: [5f0a755d-c834-43f4-95dc-6f98b29c41dc]: A usable code system with URL http://snomed.info/sct|http://snomed.info/sct/11000315107 could not be resolved.
-Information: X-Request-Id: 89e9f53e-4dde-4984-b271-f63377440aa1
+ERROR: ValueSet.where(id = '1.2.250.1.213.1.1.5.212'): Error from https://smt.esante.gouv.fr/fhir: Error: [74d95ea2-940e-42ef-99f3-0323efdc4ed4]: A usable code system with URL http://snomed.info/sct|http://snomed.info/sct/11000315107 could not be resolved.
+Information: X-Request-Id: 7e30f1d1-e084-445c-bc8e-d1c91303cf39
 == input/ontoserver/JDV/JDV_HemisphereProfond_CISIS_1.2.250.1.213.1.1.5.211.json ==
 WARNING: ValueSet/1.2.250.1.213.1.1.5.211: ValueSet.compose.include[0]: Unknown System 'http://snomed.info/sct' specified, so Concepts and Filters can't be checked (Details: A definition for CodeSystem 'http://snomed.info/sct' version 'http://snomed.info/sct/11000315107' could not be found, so the code cannot be validated. Valid versions: [http://snomed.info/sct/900000000000207008/version/20250201])
 WARNING: ValueSet.where(id = '1.2.250.1.213.1.1.5.211'): Error from http://tx.fhir.org/r4: Unable to provide support for code system http://snomed.info/sct
@@ -3929,8 +3934,8 @@ WARNING: ValueSet.where(id = '1.2.250.1.213.1.1.5.227'): Error from http://tx.fh
 == input/ontoserver/JDV/JDV_InvestigationsRealiseesSUNV_CISIS_1.2.250.1.213.1.1.5.229.json ==
 == input/ontoserver/JDV/JDV_InvestigationsRealisees_CISIS_1.2.250.1.213.1.1.5.47.json ==
 WARNING: ValueSet/1.2.250.1.213.1.1.5.47: ValueSet.compose.include[1]: Unknown System 'http://snomed.info/sct' specified, so Concepts and Filters can't be checked (Details: A definition for CodeSystem 'http://snomed.info/sct' version 'http://snomed.info/sct/11000315107' could not be found, so the code cannot be validated. Valid versions: [http://snomed.info/sct/900000000000207008/version/20250201])
-ERROR: ValueSet.where(id = '1.2.250.1.213.1.1.5.47'): Error from https://smt.esante.gouv.fr/fhir: Error: [3981ce5a-7f47-4c8a-b2aa-ecd227e10049]: A usable code system with URL http://snomed.info/sct|http://snomed.info/sct/11000315107 could not be resolved.
-Information: X-Request-Id: 74d0a2ee-47f2-47ba-a6c0-652937817b2c
+ERROR: ValueSet.where(id = '1.2.250.1.213.1.1.5.47'): Error from https://smt.esante.gouv.fr/fhir: Error: [7c0468f3-3045-42b6-9d26-ecbf36a7fa37]: A usable code system with URL http://snomed.info/sct|http://snomed.info/sct/11000315107 could not be resolved.
+Information: X-Request-Id: 2df234d4-e23a-4828-b659-05ac70eacff2
 == input/ontoserver/JDV/JDV_IssueGrossesse_CISIS_1.2.250.1.213.1.1.4.2.289.1.json ==
 WARNING: ValueSet/1.2.250.1.213.1.1.4.2.289.1: ValueSet.compose.include[0]: Unknown System 'http://terminology.hl7.org/CodeSystem/icd10' specified, so Concepts and Filters can't be checked (Details: A definition for CodeSystem 'http://terminology.hl7.org/CodeSystem/icd10' could not be found, so the code cannot be validated)
 ERROR: ValueSet/1.2.250.1.213.1.1.4.2.289.1: ValueSet.compose.include[1]: URI values in ValueSet.compose.include.system must be absolute
@@ -4059,7 +4064,7 @@ WARNING: ValueSet.where(id = 'JDV-J146-MethodBodyHeight-ENS'): Error from http:/
 WARNING: ValueSet/JDV-J147-MethodHeartrate-ENS: ValueSet.compose.include[1]: Unknown System 'http://snomed.info/sct' specified, so Concepts and Filters can't be checked (Details: A definition for CodeSystem 'http://snomed.info/sct' version 'http://snomed.info/sct/11000315107' could not be found, so the code cannot be validated. Valid versions: [http://snomed.info/sct/900000000000207008/version/20250201])
 WARNING: ValueSet/JDV-J147-MethodHeartrate-ENS: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.title is mandatory, but it is not present
 ERROR: ValueSet.where(id = 'JDV-J147-MethodHeartrate-ENS'): Error from https://smt.esante.gouv.fr/fhir: Error: [4ea1fd13-73c6-468a-a3e1-07cb3398d28a]: A usable code system with URL http://snomed.info/sct|http://snomed.info/sct/11000315107 could not be resolved.
-Information: X-Request-Id: 5d737497-1b1e-4c09-a66f-a922da45bc3c
+Information: X-Request-Id: a7bbd709-81ba-4f72-8a3e-bd04c7ba1565
 == input/ontoserver/JDV/JDV_J148_ReferenceRangeAppliesTo_CISIS_JDV-J148-ReferenceRangeAppliesTo-CISIS.json ==
 WARNING: ValueSet/JDV-J148-ReferenceRangeAppliesTo-CISIS: ValueSet.compose.include[1]: Unknown System 'http://snomed.info/sct' specified, so Concepts and Filters can't be checked (Details: A definition for CodeSystem 'http://snomed.info/sct' version 'http://snomed.info/sct/11000315107' could not be found, so the code cannot be validated. Valid versions: [http://snomed.info/sct/900000000000207008/version/20250201])
 WARNING: ValueSet/JDV-J148-ReferenceRangeAppliesTo-CISIS: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.title is mandatory, but it is not present
@@ -4088,7 +4093,7 @@ WARNING: ValueSet/JDV-J154-TypeGlucose-ENS: ValueSet: Published value sets SHOUL
 WARNING: ValueSet/JDV-J155-MethodGlucoseSanguin-ENS: ValueSet.compose.include[1]: Unknown System 'http://snomed.info/sct' specified, so Concepts and Filters can't be checked (Details: A definition for CodeSystem 'http://snomed.info/sct' version 'http://snomed.info/sct/11000315107' could not be found, so the code cannot be validated. Valid versions: [http://snomed.info/sct/900000000000207008/version/20250201])
 WARNING: ValueSet/JDV-J155-MethodGlucoseSanguin-ENS: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.title is mandatory, but it is not present
 ERROR: ValueSet.where(id = 'JDV-J155-MethodGlucoseSanguin-ENS'): Error from https://smt.esante.gouv.fr/fhir: Error: [b8972c99-8e9f-4367-a36b-a81422cfe36d]: A usable code system with URL http://snomed.info/sct|http://snomed.info/sct/11000315107 could not be resolved.
-Information: X-Request-Id: d9e3cc30-34c3-446c-9976-56b4092740e0
+Information: X-Request-Id: 192a3477-62d1-4abd-8a9c-c134ddd81f32
 == input/ontoserver/JDV/JDV_J156_MethodGlucoseInterstitiel_ENS_JDV-J156-MethodGlucoseInterstitiel-ENS.json ==
 WARNING: ValueSet/JDV-J156-MethodGlucoseInterstitiel-ENS: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.title is mandatory, but it is not present
 == input/ontoserver/JDV/JDV_J157_MomentGlucose_ENS_JDV-J157-MomentGlucose-ENS.json ==
@@ -4575,12 +4580,12 @@ WARNING: ValueSet/1.2.250.1.213.1.1.5.333: ValueSet.compose.include[0]: Unknown 
 == input/ontoserver/JDV/JDV_Lien_Assure_Beneficiaire_CISIS_1.2.250.1.213.1.1.5.126.json ==
 == input/ontoserver/JDV/JDV_LieuAccouchement_CISIS_1.2.250.1.213.1.1.5.743.json ==
 WARNING: ValueSet/1.2.250.1.213.1.1.5.743: ValueSet.compose.include[1]: Unknown System 'http://snomed.info/sct' specified, so Concepts and Filters can't be checked (Details: A definition for CodeSystem 'http://snomed.info/sct' version 'http://snomed.info/sct/11000315107' could not be found, so the code cannot be validated. Valid versions: [http://snomed.info/sct/900000000000207008/version/20250201])
-ERROR: ValueSet.where(id = '1.2.250.1.213.1.1.5.743'): Error from https://smt.esante.gouv.fr/fhir: Error: [476a1f95-1115-486d-a186-27cb961106e2]: A usable code system with URL http://snomed.info/sct|http://snomed.info/sct/11000315107 could not be resolved.
-Information: X-Request-Id: cf81cbc6-5f30-4d9f-a87d-8711ce08ccbe
+ERROR: ValueSet.where(id = '1.2.250.1.213.1.1.5.743'): Error from https://smt.esante.gouv.fr/fhir: Error: [f9469f92-b124-4926-ae5d-3547c8901214]: A usable code system with URL http://snomed.info/sct|http://snomed.info/sct/11000315107 could not be resolved.
+Information: X-Request-Id: 5b5105c5-c32d-435c-9111-31509e2688d2
 == input/ontoserver/JDV/JDV_LieudeVie_CISIS_1.2.250.1.213.1.1.5.64.json ==
 WARNING: ValueSet/1.2.250.1.213.1.1.5.64: ValueSet.compose.include[1]: Unknown System 'http://snomed.info/sct' specified, so Concepts and Filters can't be checked (Details: A definition for CodeSystem 'http://snomed.info/sct' version 'http://snomed.info/sct/11000315107' could not be found, so the code cannot be validated. Valid versions: [http://snomed.info/sct/900000000000207008/version/20250201])
-ERROR: ValueSet.where(id = '1.2.250.1.213.1.1.5.64'): Error from https://smt.esante.gouv.fr/fhir: Error: [cb6757fa-7747-4222-bf91-580382305993]: A usable code system with URL http://snomed.info/sct|http://snomed.info/sct/11000315107 could not be resolved.
-Information: X-Request-Id: ea9a2cb5-8496-4748-80f6-45d0b5623e59
+ERROR: ValueSet.where(id = '1.2.250.1.213.1.1.5.64'): Error from https://smt.esante.gouv.fr/fhir: Error: [9d0ff632-6670-40a1-a308-33dc3b9812f1]: A usable code system with URL http://snomed.info/sct|http://snomed.info/sct/11000315107 could not be resolved.
+Information: X-Request-Id: bd3d77eb-f57d-45b7-b864-57d39677dfb0
 == input/ontoserver/JDV/JDV_LocaThromboseVeineuse_CISIS_1.2.250.1.213.1.1.5.207.json ==
 ERROR: ValueSet.where(url = 'https://smt.esante.gouv.fr/fhir/ValueSet/1.2.250.1.213.1.1.5.207'): Conformance resource /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_LocaThromboseVeineuse_CISIS_1.2.250.1.213.1.1.5.207.json - the canonical URL (https://interop.esante.gouv.fr/terminologies/ValueSet/1.2.250.1.213.1.1.5.207) does not match the URL (https://smt.esante.gouv.fr/fhir/ValueSet/1.2.250.1.213.1.1.5.207)
 WARNING: ValueSet/1.2.250.1.213.1.1.5.207: ValueSet.compose.include[0].concept[1]: The code 'MED-451' is not valid in the system https://smt.esante.gouv.fr/fhir/CodeSystem/1.2.250.1.213.1.1.4.322 (Unknown code 'MED-451' in the CodeSystem 'https://smt.esante.gouv.fr/fhir/CodeSystem/1.2.250.1.213.1.1.4.322' version '202501130000')
@@ -4614,8 +4619,8 @@ WARNING: ValueSet/1.2.250.1.213.1.1.5.594: ValueSet.compose.include[0]: Unknown 
 WARNING: ValueSet.where(id = '1.2.250.1.213.1.1.5.594'): Error from http://tx.fhir.org/r4: Unable to provide support for code system http://snomed.info/sct
 == input/ontoserver/JDV/JDV_LocalisationHemorragieCerebrale_CISIS_1.2.250.1.213.1.1.5.206.json ==
 WARNING: ValueSet/1.2.250.1.213.1.1.5.206: ValueSet.compose.include[1]: Unknown System 'http://snomed.info/sct' specified, so Concepts and Filters can't be checked (Details: A definition for CodeSystem 'http://snomed.info/sct' version 'http://snomed.info/sct/11000315107' could not be found, so the code cannot be validated. Valid versions: [http://snomed.info/sct/900000000000207008/version/20250201])
-ERROR: ValueSet.where(id = '1.2.250.1.213.1.1.5.206'): Error from https://smt.esante.gouv.fr/fhir: Error: [e04c0475-0538-4e9f-8893-1698e3b2e782]: A usable code system with URL http://snomed.info/sct|http://snomed.info/sct/11000315107 could not be resolved.
-Information: X-Request-Id: f7ef6340-b734-4543-838b-4f47f61f273b
+ERROR: ValueSet.where(id = '1.2.250.1.213.1.1.5.206'): Error from https://smt.esante.gouv.fr/fhir: Error: [2f3cc961-c24e-4170-88d1-f021c90a2cef]: A usable code system with URL http://snomed.info/sct|http://snomed.info/sct/11000315107 could not be resolved.
+Information: X-Request-Id: 670f8604-452e-47f0-b429-8d6d64e30816
 == input/ontoserver/JDV/JDV_LocalisationInfarctusCerebral_CISIS_1.2.250.1.213.1.1.5.205.json ==
 WARNING: ValueSet/1.2.250.1.213.1.1.5.205: ValueSet.compose.include[0]: Unknown System 'http://snomed.info/sct' specified, so Concepts and Filters can't be checked (Details: A definition for CodeSystem 'http://snomed.info/sct' version 'http://snomed.info/sct/11000315107' could not be found, so the code cannot be validated. Valid versions: [http://snomed.info/sct/900000000000207008/version/20250201])
 WARNING: ValueSet.where(id = '1.2.250.1.213.1.1.5.205'): Error from http://tx.fhir.org/r4: Unable to provide support for code system http://snomed.info/sct
@@ -4661,8 +4666,8 @@ WARNING: ValueSet.where(id = '1.2.250.1.213.1.1.5.652'): Error from http://tx.fh
 == input/ontoserver/JDV/JDV_MesuresProtectionConduiteAutomobile_CISIS_1.2.250.1.213.1.1.5.155.json ==
 == input/ontoserver/JDV/JDV_MethodeAccouchement_CISIS_1.2.250.1.213.1.1.5.115.json ==
 WARNING: ValueSet/1.2.250.1.213.1.1.5.115: ValueSet.compose.include[1]: Unknown System 'http://snomed.info/sct' specified, so Concepts and Filters can't be checked (Details: A definition for CodeSystem 'http://snomed.info/sct' version 'http://snomed.info/sct/11000315107' could not be found, so the code cannot be validated. Valid versions: [http://snomed.info/sct/900000000000207008/version/20250201])
-ERROR: ValueSet.where(id = '1.2.250.1.213.1.1.5.115'): Error from https://smt.esante.gouv.fr/fhir: Error: [e0b56368-4768-4ede-905e-3d90a458d7fa]: A usable code system with URL http://snomed.info/sct|http://snomed.info/sct/11000315107 could not be resolved.
-Information: X-Request-Id: 394a8f1e-0b91-4040-a48f-fe817d43dc48
+ERROR: ValueSet.where(id = '1.2.250.1.213.1.1.5.115'): Error from https://smt.esante.gouv.fr/fhir: Error: [722d3af2-1cf9-4313-9e98-7a59aa908e5e]: A usable code system with URL http://snomed.info/sct|http://snomed.info/sct/11000315107 could not be resolved.
+Information: X-Request-Id: e20da033-2463-423a-a3bd-1604678c59a4
 == input/ontoserver/JDV/JDV_MethodeDeMesureAcuiteVisuelle_CISIS_1.2.250.1.213.1.1.5.715.json ==
 WARNING: ValueSet/1.2.250.1.213.1.1.5.715: ValueSet.compose.include[0]: Unknown System 'https://smt.esante.gouv.fr/terminologie-ncit' specified, so Concepts and Filters can't be checked (Details: A definition for CodeSystem 'https://smt.esante.gouv.fr/terminologie-ncit' could not be found, so the code cannot be validated)
 WARNING: ValueSet/1.2.250.1.213.1.1.5.715: ValueSet.compose.include[2]: Unknown System 'http://snomed.info/sct' specified, so Concepts and Filters can't be checked (Details: A definition for CodeSystem 'http://snomed.info/sct' version 'http://snomed.info/sct/11000315107' could not be found, so the code cannot be validated. Valid versions: [http://snomed.info/sct/900000000000207008/version/20250201])
@@ -4670,8 +4675,8 @@ WARNING: ValueSet.where(id = '1.2.250.1.213.1.1.5.715'): Error from http://tx.fh
 == input/ontoserver/JDV/JDV_MethodePreparationEchantillon_CISIS_1.2.250.1.213.1.1.5.151.json ==
 == input/ontoserver/JDV/JDV_Microsatellite_Melanome_CISIS_1.2.250.1.213.1.1.5.629.json ==
 WARNING: ValueSet/1.2.250.1.213.1.1.5.629: ValueSet.compose.include[1]: Unknown System 'http://snomed.info/sct' specified, so Concepts and Filters can't be checked (Details: A definition for CodeSystem 'http://snomed.info/sct' version 'http://snomed.info/sct/11000315107' could not be found, so the code cannot be validated. Valid versions: [http://snomed.info/sct/900000000000207008/version/20250201])
-ERROR: ValueSet.where(id = '1.2.250.1.213.1.1.5.629'): Error from https://smt.esante.gouv.fr/fhir: Error: [70b10a5b-b156-4baf-8cc0-4b382c65a510]: A usable code system with URL http://snomed.info/sct|http://snomed.info/sct/11000315107 could not be resolved.
-Information: X-Request-Id: 8a6661d2-55fd-428b-afb1-3ef996b9e285
+ERROR: ValueSet.where(id = '1.2.250.1.213.1.1.5.629'): Error from https://smt.esante.gouv.fr/fhir: Error: [6d28af0a-7d52-475a-996f-9fb66bcda1a5]: A usable code system with URL http://snomed.info/sct|http://snomed.info/sct/11000315107 could not be resolved.
+Information: X-Request-Id: 3f6486e3-5fbf-42ed-91c7-a9b49eee2ea4
 == input/ontoserver/JDV/JDV_MilieuCytologieCCU_CISIS_1.2.250.1.213.1.1.5.723.json ==
 == input/ontoserver/JDV/JDV_ModaliteAcquisition_CISIS_1.2.250.1.213.1.1.5.618.json ==
 WARNING: ValueSet/1.2.250.1.213.1.1.5.618: ValueSet.compose.include[0].concept[7]: The code 'DMS' is not valid in the system http://dicom.nema.org/resources/ontology/DCM (Unknown code 'DMS' in the CodeSystem 'http://dicom.nema.org/resources/ontology/DCM' version '01')
@@ -4684,8 +4689,8 @@ WARNING: ValueSet/1.2.250.1.213.1.1.5.618: ValueSet.compose.include[0].concept[3
 WARNING: ValueSet/1.2.250.1.213.1.1.5.618: ValueSet.compose.include[0].concept[38]: The code 'RESP' is not valid in the system http://dicom.nema.org/resources/ontology/DCM (Unknown code 'RESP' in the CodeSystem 'http://dicom.nema.org/resources/ontology/DCM' version '01')
 == input/ontoserver/JDV/JDV_ModaliteEntree_CISIS_1.2.250.1.213.1.1.5.73.json ==
 WARNING: ValueSet/1.2.250.1.213.1.1.5.73: ValueSet.compose.include[1]: Unknown System 'http://snomed.info/sct' specified, so Concepts and Filters can't be checked (Details: A definition for CodeSystem 'http://snomed.info/sct' version 'http://snomed.info/sct/11000315107' could not be found, so the code cannot be validated. Valid versions: [http://snomed.info/sct/900000000000207008/version/20250201])
-ERROR: ValueSet.where(id = '1.2.250.1.213.1.1.5.73'): Error from https://smt.esante.gouv.fr/fhir: Error: [22b7a128-012b-4ad4-91ed-56c506c9c4bf]: A usable code system with URL http://snomed.info/sct|http://snomed.info/sct/11000315107 could not be resolved.
-Information: X-Request-Id: d7d0d1b9-6754-4848-a9b1-725aa3545c49
+ERROR: ValueSet.where(id = '1.2.250.1.213.1.1.5.73'): Error from https://smt.esante.gouv.fr/fhir: Error: [e638eb9b-0200-4c26-8e9b-8585512ac8ed]: A usable code system with URL http://snomed.info/sct|http://snomed.info/sct/11000315107 could not be resolved.
+Information: X-Request-Id: b6c8569e-4f87-4b4b-bd0f-432ae4e3071a
 == input/ontoserver/JDV/JDV_ModaliteImagerie_CISIS_1.2.250.1.213.1.1.5.619.json ==
 WARNING: ValueSet/1.2.250.1.213.1.1.5.619: ValueSet.compose.include[0].concept[1]: The code 'ASMT' is not valid in the system http://dicom.nema.org/resources/ontology/DCM (Unknown code 'ASMT' in the CodeSystem 'http://dicom.nema.org/resources/ontology/DCM' version '01')
 WARNING: ValueSet/1.2.250.1.213.1.1.5.619: ValueSet.compose.include[0].concept[8]: The code 'CTPROTOCOL' is not valid in the system http://dicom.nema.org/resources/ontology/DCM (Unknown code 'CTPROTOCOL' in the CodeSystem 'http://dicom.nema.org/resources/ontology/DCM' version '01')
@@ -4707,8 +4712,8 @@ WARNING: ValueSet/1.2.250.1.213.1.1.5.619: ValueSet.compose.include[0].concept[6
 WARNING: ValueSet/1.2.250.1.213.1.1.5.619: ValueSet.compose.include[0].concept[66]: The code 'TEXTUREMAP' is not valid in the system http://dicom.nema.org/resources/ontology/DCM (Unknown code 'TEXTUREMAP' in the CodeSystem 'http://dicom.nema.org/resources/ontology/DCM' version '01')
 == input/ontoserver/JDV/JDV_ModaliteSortie_CISIS_1.2.250.1.213.1.1.5.74.json ==
 WARNING: ValueSet/1.2.250.1.213.1.1.5.74: ValueSet.compose.include[2]: Unknown System 'http://snomed.info/sct' specified, so Concepts and Filters can't be checked (Details: A definition for CodeSystem 'http://snomed.info/sct' version 'http://snomed.info/sct/11000315107' could not be found, so the code cannot be validated. Valid versions: [http://snomed.info/sct/900000000000207008/version/20250201])
-ERROR: ValueSet.where(id = '1.2.250.1.213.1.1.5.74'): Error from https://smt.esante.gouv.fr/fhir: Error: [890d1e85-e05e-4cf1-9781-6734a8d84233]: A usable code system with URL http://snomed.info/sct|http://snomed.info/sct/11000315107 could not be resolved.
-Information: X-Request-Id: 8d05f291-490c-43ef-9b71-68abc2ceaf0e
+ERROR: ValueSet.where(id = '1.2.250.1.213.1.1.5.74'): Error from https://smt.esante.gouv.fr/fhir: Error: [437abe91-b58a-4c46-ac7e-fc9a95a811ee]: A usable code system with URL http://snomed.info/sct|http://snomed.info/sct/11000315107 could not be resolved.
+Information: X-Request-Id: 8ab829a0-8c5b-4d24-a00b-b18262fdc4fc
 == input/ontoserver/JDV/JDV_Modalite_demandeActeImagerie_CISIS_1.2.250.1.213.1.1.5.660.json ==
 WARNING: ValueSet/1.2.250.1.213.1.1.5.660: ValueSet.compose.include[0]: Unknown System 'https://smt.esante.gouv.fr/terminologie-ncit' specified, so Concepts and Filters can't be checked (Details: A definition for CodeSystem 'https://smt.esante.gouv.fr/terminologie-ncit' could not be found, so the code cannot be validated)
 WARNING: ValueSet.where(id = '1.2.250.1.213.1.1.5.660'): Error from http://tx.fhir.org/r4: Unable to provide support for code system https://smt.esante.gouv.fr/terminologie-ncit
@@ -4738,28 +4743,28 @@ WARNING: ValueSet/1.2.250.1.213.1.1.5.113: ValueSet.compose.include[0]: Unknown 
 WARNING: ValueSet.where(id = '1.2.250.1.213.1.1.5.113'): Error from http://tx.fhir.org/r4: Unable to provide support for code system http://snomed.info/sct
 == input/ontoserver/JDV/JDV_ModeNaissance_CISIS_1.2.250.1.213.1.1.5.744.json ==
 WARNING: ValueSet/1.2.250.1.213.1.1.5.744: ValueSet.compose.include[1]: Unknown System 'http://snomed.info/sct' specified, so Concepts and Filters can't be checked (Details: A definition for CodeSystem 'http://snomed.info/sct' version 'http://snomed.info/sct/11000315107' could not be found, so the code cannot be validated. Valid versions: [http://snomed.info/sct/900000000000207008/version/20250201])
-ERROR: ValueSet.where(id = '1.2.250.1.213.1.1.5.744'): Error from https://smt.esante.gouv.fr/fhir: Error: [6e56bea1-2325-4a99-a91e-2f71de3f423e]: A usable code system with URL http://snomed.info/sct|http://snomed.info/sct/11000315107 could not be resolved.
-Information: X-Request-Id: f23c8ff6-a352-4d38-8bfb-c3f093174357
+ERROR: ValueSet.where(id = '1.2.250.1.213.1.1.5.744'): Error from https://smt.esante.gouv.fr/fhir: Error: [fccd768d-2cef-4c9a-8f90-f9ad49d81e19]: A usable code system with URL http://snomed.info/sct|http://snomed.info/sct/11000315107 could not be resolved.
+Information: X-Request-Id: 1bdf7c8c-c9fb-48d9-9daa-58e1b2044559
 == input/ontoserver/JDV/JDV_ModeSortie_CISIS_1.2.250.1.213.1.1.5.204.json ==
 WARNING: ValueSet/1.2.250.1.213.1.1.5.204: ValueSet.compose.include[2]: Unknown System 'http://snomed.info/sct' specified, so Concepts and Filters can't be checked (Details: A definition for CodeSystem 'http://snomed.info/sct' version 'http://snomed.info/sct/11000315107' could not be found, so the code cannot be validated. Valid versions: [http://snomed.info/sct/900000000000207008/version/20250201])
-ERROR: ValueSet.where(id = '1.2.250.1.213.1.1.5.204'): Error from https://smt.esante.gouv.fr/fhir: Error: [35acd1db-d43e-4dc9-9667-9fd3202a9212]: A usable code system with URL http://snomed.info/sct|http://snomed.info/sct/11000315107 could not be resolved.
-Information: X-Request-Id: 91102463-d442-4583-94bd-526419b76ecb
+ERROR: ValueSet.where(id = '1.2.250.1.213.1.1.5.204'): Error from https://smt.esante.gouv.fr/fhir: Error: [07d4c776-7149-4ea2-8099-6bf0e3c7b3ac]: A usable code system with URL http://snomed.info/sct|http://snomed.info/sct/11000315107 could not be resolved.
+Information: X-Request-Id: 05043f51-52de-45f8-b89e-168cfff8dfee
 == input/ontoserver/JDV/JDV_ModeSortie_OBP_SCM_CISIS_1.2.250.1.213.1.1.5.700.json ==
 WARNING: ValueSet/1.2.250.1.213.1.1.5.700: ValueSet.compose.include[1]: Unknown System 'http://snomed.info/sct' specified, so Concepts and Filters can't be checked (Details: A definition for CodeSystem 'http://snomed.info/sct' version 'http://snomed.info/sct/11000315107' could not be found, so the code cannot be validated. Valid versions: [http://snomed.info/sct/900000000000207008/version/20250201])
-ERROR: ValueSet.where(id = '1.2.250.1.213.1.1.5.700'): Error from https://smt.esante.gouv.fr/fhir: Error: [8c1c80db-1619-4a07-8978-a55a94c8af95]: A usable code system with URL http://snomed.info/sct|http://snomed.info/sct/11000315107 could not be resolved.
-Information: X-Request-Id: adbea63b-6804-4e34-a57b-8ea85119682b
+ERROR: ValueSet.where(id = '1.2.250.1.213.1.1.5.700'): Error from https://smt.esante.gouv.fr/fhir: Error: [de244ea8-2b91-4bfb-a597-f0d276e82519]: A usable code system with URL http://snomed.info/sct|http://snomed.info/sct/11000315107 could not be resolved.
+Information: X-Request-Id: 9ac042e2-94dd-47e1-bdd4-65c13d9d2ced
 == input/ontoserver/JDV/JDV_ModeSortie_OBP_SEM_CISIS_1.2.250.1.213.1.1.5.701.json ==
 WARNING: ValueSet/1.2.250.1.213.1.1.5.701: ValueSet.compose.include[1]: Unknown System 'http://snomed.info/sct' specified, so Concepts and Filters can't be checked (Details: A definition for CodeSystem 'http://snomed.info/sct' version 'http://snomed.info/sct/11000315107' could not be found, so the code cannot be validated. Valid versions: [http://snomed.info/sct/900000000000207008/version/20250201])
-ERROR: ValueSet.where(id = '1.2.250.1.213.1.1.5.701'): Error from https://smt.esante.gouv.fr/fhir: Error: [fcbba277-7dc3-4f71-85cc-8bd06161e1e2]: A usable code system with URL http://snomed.info/sct|http://snomed.info/sct/11000315107 could not be resolved.
-Information: X-Request-Id: b93f2a71-3c00-4805-be7a-75966b7b9461
+ERROR: ValueSet.where(id = '1.2.250.1.213.1.1.5.701'): Error from https://smt.esante.gouv.fr/fhir: Error: [a69d377a-1133-4163-a07f-54e5645ac879]: A usable code system with URL http://snomed.info/sct|http://snomed.info/sct/11000315107 could not be resolved.
+Information: X-Request-Id: 88cec94c-5fd9-4e75-9218-5071b0a92314
 == input/ontoserver/JDV/JDV_ModeSortie_OBP_SNE_CISIS_1.2.250.1.213.1.1.5.699.json ==
 WARNING: ValueSet/1.2.250.1.213.1.1.5.699: ValueSet.compose.include[1]: Unknown System 'http://snomed.info/sct' specified, so Concepts and Filters can't be checked (Details: A definition for CodeSystem 'http://snomed.info/sct' version 'http://snomed.info/sct/11000315107' could not be found, so the code cannot be validated. Valid versions: [http://snomed.info/sct/900000000000207008/version/20250201])
-ERROR: ValueSet.where(id = '1.2.250.1.213.1.1.5.699'): Error from https://smt.esante.gouv.fr/fhir: Error: [c390524e-2e90-48ed-9f4a-855bb81655ed]: A usable code system with URL http://snomed.info/sct|http://snomed.info/sct/11000315107 could not be resolved.
-Information: X-Request-Id: f29c8e3d-efa2-4ae1-a936-ff6669981c96
+ERROR: ValueSet.where(id = '1.2.250.1.213.1.1.5.699'): Error from https://smt.esante.gouv.fr/fhir: Error: [4a2df865-d150-4676-83d3-c3dd5e3b9638]: A usable code system with URL http://snomed.info/sct|http://snomed.info/sct/11000315107 could not be resolved.
+Information: X-Request-Id: 393db279-d17b-44a3-b145-a24cde0497ff
 == input/ontoserver/JDV/JDV_ModeSortie_OBP_SNM_CISIS_1.2.250.1.213.1.1.5.698.json ==
 WARNING: ValueSet/1.2.250.1.213.1.1.5.698: ValueSet.compose.include[1]: Unknown System 'http://snomed.info/sct' specified, so Concepts and Filters can't be checked (Details: A definition for CodeSystem 'http://snomed.info/sct' version 'http://snomed.info/sct/11000315107' could not be found, so the code cannot be validated. Valid versions: [http://snomed.info/sct/900000000000207008/version/20250201])
-ERROR: ValueSet.where(id = '1.2.250.1.213.1.1.5.698'): Error from https://smt.esante.gouv.fr/fhir: Error: [596afd29-625f-4fd0-979d-73e72627d384]: A usable code system with URL http://snomed.info/sct|http://snomed.info/sct/11000315107 could not be resolved.
-Information: X-Request-Id: d4612454-f79d-4029-840c-54a838aa1858
+ERROR: ValueSet.where(id = '1.2.250.1.213.1.1.5.698'): Error from https://smt.esante.gouv.fr/fhir: Error: [54e7cfc6-6650-4d10-8ee4-d43041f8f500]: A usable code system with URL http://snomed.info/sct|http://snomed.info/sct/11000315107 could not be resolved.
+Information: X-Request-Id: ea9d936f-7a68-4247-bf7e-f95eccab9a70
 == input/ontoserver/JDV/JDV_ModificateurTopographique_CISIS_1.2.250.1.213.1.1.5.688.json ==
 WARNING: ValueSet/1.2.250.1.213.1.1.5.688: ValueSet.compose.include[0]: Unknown System 'urn:oid:2.16.840.1.113883.6.96' specified, so Concepts and Filters can't be checked (Details: A definition for CodeSystem 'urn:oid:2.16.840.1.113883.6.96' could not be found, so the code cannot be validated)
 WARNING: ValueSet.where(id = '1.2.250.1.213.1.1.5.688'): Error from http://tx.fhir.org/r4: Unable to provide support for code system urn:oid:2.16.840.1.113883.6.96
@@ -4772,15 +4777,15 @@ WARNING: ValueSet.where(id = '1.2.250.1.213.1.1.5.745'): Error from http://tx.fh
 == input/ontoserver/JDV/JDV_MotifDiagnostic_CISIS_1.2.250.1.213.1.1.5.35.json ==
 == input/ontoserver/JDV/JDV_MotifEchographie_CISIS_1.2.250.1.213.1.1.5.88.json ==
 WARNING: ValueSet/1.2.250.1.213.1.1.5.88: ValueSet.compose.include[1]: Unknown System 'http://snomed.info/sct' specified, so Concepts and Filters can't be checked (Details: A definition for CodeSystem 'http://snomed.info/sct' version 'http://snomed.info/sct/11000315107' could not be found, so the code cannot be validated. Valid versions: [http://snomed.info/sct/900000000000207008/version/20250201])
-ERROR: ValueSet.where(id = '1.2.250.1.213.1.1.5.88'): Error from https://smt.esante.gouv.fr/fhir: Error: [3f42617c-ab21-4c55-8e5f-b7ba3ae7ee7a]: A usable code system with URL http://snomed.info/sct|http://snomed.info/sct/11000315107 could not be resolved.
-Information: X-Request-Id: f5bf58e6-70fb-4a52-b920-364653afbd9c
+ERROR: ValueSet.where(id = '1.2.250.1.213.1.1.5.88'): Error from https://smt.esante.gouv.fr/fhir: Error: [be7c3013-4447-4eaa-91ba-1350f3202e8e]: A usable code system with URL http://snomed.info/sct|http://snomed.info/sct/11000315107 could not be resolved.
+Information: X-Request-Id: 09a068ed-e49d-4781-a995-5be3d23d2f95
 == input/ontoserver/JDV/JDV_MotifHospitalisationCSE_CISIS_1.2.250.1.213.1.1.5.681.json ==
 WARNING: ValueSet/1.2.250.1.213.1.1.5.681: ValueSet.compose.include[0]: Unknown System 'http://terminology.hl7.org/CodeSystem/icd10' specified, so Concepts and Filters can't be checked (Details: A definition for CodeSystem 'http://terminology.hl7.org/CodeSystem/icd10' could not be found, so the code cannot be validated)
 WARNING: ValueSet.where(id = '1.2.250.1.213.1.1.5.681'): Error from http://tx.fhir.org/r4: Unable to provide support for code system http://terminology.hl7.org/CodeSystem/icd10
 == input/ontoserver/JDV/JDV_MotifMiseAJour_CISIS_1.2.250.1.213.1.1.5.83.json ==
 WARNING: ValueSet/1.2.250.1.213.1.1.5.83: ValueSet.compose.include[1]: Unknown System 'http://snomed.info/sct' specified, so Concepts and Filters can't be checked (Details: A definition for CodeSystem 'http://snomed.info/sct' version 'http://snomed.info/sct/11000315107' could not be found, so the code cannot be validated. Valid versions: [http://snomed.info/sct/900000000000207008/version/20250201])
-ERROR: ValueSet.where(id = '1.2.250.1.213.1.1.5.83'): Error from https://smt.esante.gouv.fr/fhir: Error: [b4dcead7-8a4d-463f-9853-7074e80e7569]: A usable code system with URL http://snomed.info/sct|http://snomed.info/sct/11000315107 could not be resolved.
-Information: X-Request-Id: e256a868-9ad0-42d8-b493-823832ff6ad3
+ERROR: ValueSet.where(id = '1.2.250.1.213.1.1.5.83'): Error from https://smt.esante.gouv.fr/fhir: Error: [d7d109cd-ecc0-4e5b-972a-15384b00a5f2]: A usable code system with URL http://snomed.info/sct|http://snomed.info/sct/11000315107 could not be resolved.
+Information: X-Request-Id: 234586da-f97b-4b26-925b-462d6dd3b0e7
 == input/ontoserver/JDV/JDV_MotifNonRealisationEvenement_CISIS_1.2.250.1.213.1.1.5.803.json ==
 == input/ontoserver/JDV/JDV_NIHSSAtaxInt_CISIS_1.2.250.1.213.1.1.5.187.json ==
 == input/ontoserver/JDV/JDV_NIHSSConsInt_CISIS_1.2.250.1.213.1.1.5.179.json ==
@@ -4802,8 +4807,8 @@ Information: X-Request-Id: e256a868-9ad0-42d8-b493-823832ff6ad3
 == input/ontoserver/JDV/JDV_NatureMaterielEtudie_CISIS_1.2.250.1.213.1.1.5.141.json ==
 == input/ontoserver/JDV/JDV_Neurotropisme_Melanome_CISIS_1.2.250.1.213.1.1.5.630.json ==
 WARNING: ValueSet/1.2.250.1.213.1.1.5.630: ValueSet.compose.include[1]: Unknown System 'http://snomed.info/sct' specified, so Concepts and Filters can't be checked (Details: A definition for CodeSystem 'http://snomed.info/sct' version 'http://snomed.info/sct/11000315107' could not be found, so the code cannot be validated. Valid versions: [http://snomed.info/sct/900000000000207008/version/20250201])
-ERROR: ValueSet.where(id = '1.2.250.1.213.1.1.5.630'): Error from https://smt.esante.gouv.fr/fhir: Error: [7d85bf42-450d-48fa-9fe9-fcb83950053f]: A usable code system with URL http://snomed.info/sct|http://snomed.info/sct/11000315107 could not be resolved.
-Information: X-Request-Id: a5dcda2a-84d6-47f8-bd68-75e7ca8f2936
+ERROR: ValueSet.where(id = '1.2.250.1.213.1.1.5.630'): Error from https://smt.esante.gouv.fr/fhir: Error: [2cae3e93-4f63-4c81-bfb2-546a4337c4c7]: A usable code system with URL http://snomed.info/sct|http://snomed.info/sct/11000315107 could not be resolved.
+Information: X-Request-Id: ef7cbe64-af5c-4a3a-8964-fa845072f243
 == input/ontoserver/JDV/JDV_NiveauDependance_CISIS_1.2.250.1.213.1.1.5.483.json ==
 == input/ontoserver/JDV/JDV_NiveauEtude_CISIS_1.2.250.1.213.1.1.5.108.json ==
 == input/ontoserver/JDV/JDV_Niveau_Invasion_Clark_Melanome_CISIS_1.2.250.1.213.1.1.5.578.json ==
@@ -5059,8 +5064,8 @@ WARNING: ValueSet/1.2.250.1.213.1.1.5.623: ValueSet.compose.include[0]: Unknown 
 WARNING: ValueSet.where(id = '1.2.250.1.213.1.1.5.623'): Error from http://tx.fhir.org/r4: Unable to provide support for code system http://snomed.info/sct
 == input/ontoserver/JDV/JDV_OrigineEffetIndesirable_CISIS_1.2.250.1.213.1.1.5.785.json ==
 WARNING: ValueSet/1.2.250.1.213.1.1.5.785: ValueSet.compose.include[1]: Unknown System 'http://snomed.info/sct' specified, so Concepts and Filters can't be checked (Details: A definition for CodeSystem 'http://snomed.info/sct' version 'http://snomed.info/sct/11000315107' could not be found, so the code cannot be validated. Valid versions: [http://snomed.info/sct/900000000000207008/version/20250201])
-ERROR: ValueSet.where(id = '1.2.250.1.213.1.1.5.785'): Error from https://smt.esante.gouv.fr/fhir: Error: [9e54411d-e9c8-4e1d-85d2-de236cc39da8]: A usable code system with URL http://snomed.info/sct|http://snomed.info/sct/11000315107 could not be resolved.
-Information: X-Request-Id: 858d9ae1-8938-4fa6-bbe0-6e15e9ca50b2
+ERROR: ValueSet.where(id = '1.2.250.1.213.1.1.5.785'): Error from https://smt.esante.gouv.fr/fhir: Error: [e7852ec3-b449-441f-9ef4-0a8c3d6ff1e7]: A usable code system with URL http://snomed.info/sct|http://snomed.info/sct/11000315107 could not be resolved.
+Information: X-Request-Id: 2ba1cba7-f967-4c78-9ef4-658fb443bd01
 == input/ontoserver/JDV/JDV_Ovaire_Extension_microscopique_macroscopique_tumeur_CISIS_1.2.250.1.213.1.1.5.344.json ==
 ERROR: ValueSet/1.2.250.1.213.1.1.5.344: ValueSet.compose.include[0]: URI values in ValueSet.compose.include.system must be absolute
 WARNING: ValueSet/1.2.250.1.213.1.1.5.344: ValueSet.compose.include[0]: Unknown System '1.3.6.1.4.1.19376.1.8.2.1' specified, so Concepts and Filters can't be checked (Details: A definition for CodeSystem '1.3.6.1.4.1.19376.1.8.2.1' could not be found, so the code cannot be validated)
@@ -5237,8 +5242,8 @@ INFORMATION: ValueSet/1.2.250.1.213.1.1.5.532: ValueSet.compose.include[1].conce
 ERROR: ValueSet.text.div: Hyperlink 'CodeSystem-1.2.250.1.213.1.1.4.322.html#1.2.250.1.213.1.1.4.322-GEN-092' at 'div/ul/li/table/tr/td/a' for 'GEN-092' does not resolve
 == input/ontoserver/JDV/JDV_PresentationFoetale_CISIS_1.2.250.1.213.1.1.5.746.json ==
 WARNING: ValueSet/1.2.250.1.213.1.1.5.746: ValueSet.compose.include[1]: Unknown System 'http://snomed.info/sct' specified, so Concepts and Filters can't be checked (Details: A definition for CodeSystem 'http://snomed.info/sct' version 'http://snomed.info/sct/11000315107' could not be found, so the code cannot be validated. Valid versions: [http://snomed.info/sct/900000000000207008/version/20250201])
-ERROR: ValueSet.where(id = '1.2.250.1.213.1.1.5.746'): Error from https://smt.esante.gouv.fr/fhir: Error: [b991313b-574b-43b0-a32f-cb3270d12ff4]: A usable code system with URL http://snomed.info/sct|http://snomed.info/sct/11000315107 could not be resolved.
-Information: X-Request-Id: 756557e3-0f1c-483e-86be-e6bb7029bf6a
+ERROR: ValueSet.where(id = '1.2.250.1.213.1.1.5.746'): Error from https://smt.esante.gouv.fr/fhir: Error: [a8a0fa13-1d72-4cbd-a6e8-1a4be16b5e2e]: A usable code system with URL http://snomed.info/sct|http://snomed.info/sct/11000315107 could not be resolved.
+Information: X-Request-Id: cb6c5123-386d-46a4-813e-5773c8d76ae0
 == input/ontoserver/JDV/JDV_PrimSecTumeur_CISIS_1.2.250.1.213.1.1.4.2.281.4.json ==
 ERROR: ValueSet/1.2.250.1.213.1.1.4.2.281.4: ValueSet.compose.include[1]: URI values in ValueSet.compose.include.system must be absolute
 WARNING: ValueSet/1.2.250.1.213.1.1.4.2.281.4: ValueSet.compose.include[1]: Unknown System '1.2.250.1.213.2.12' specified, so Concepts and Filters can't be checked (Details: A definition for CodeSystem '1.2.250.1.213.2.12' could not be found, so the code cannot be validated)
@@ -5405,13 +5410,13 @@ ERROR: ValueSet.text.div: Hyperlink 'CodeSystem-1.2.250.1.213.1.1.4.322.html#1.2
 ERROR: ValueSet.text.div: Hyperlink 'CodeSystem-1.2.250.1.213.1.1.4.322.html#1.2.250.1.213.1.1.4.322-ORG-084' at 'div/ul/li/table/tr/td/a' for 'ORG-084' does not resolve
 == input/ontoserver/JDV/JDV_ReperageTroubleNeurodeveloppement_CISIS_1.2.250.1.213.1.1.5.758.json ==
 WARNING: ValueSet/1.2.250.1.213.1.1.5.758: ValueSet.compose.include[1]: Unknown System 'http://snomed.info/sct' specified, so Concepts and Filters can't be checked (Details: A definition for CodeSystem 'http://snomed.info/sct' version 'http://snomed.info/sct/11000315107' could not be found, so the code cannot be validated. Valid versions: [http://snomed.info/sct/900000000000207008/version/20250201])
-ERROR: ValueSet.where(id = '1.2.250.1.213.1.1.5.758'): Error from https://smt.esante.gouv.fr/fhir: Error: [2743aff3-e583-41e8-b573-85227cb0f138]: A usable code system with URL http://snomed.info/sct|http://snomed.info/sct/11000315107 could not be resolved.
-Information: X-Request-Id: b0f7f1f5-cb08-4cf7-a334-6cba1718927e
+ERROR: ValueSet.where(id = '1.2.250.1.213.1.1.5.758'): Error from https://smt.esante.gouv.fr/fhir: Error: [d10c3354-67c8-4d0f-9f5f-6e7715a6ed94]: A usable code system with URL http://snomed.info/sct|http://snomed.info/sct/11000315107 could not be resolved.
+Information: X-Request-Id: 5924edc4-6907-4613-af88-8a3d026899ab
 == input/ontoserver/JDV/JDV_RepriseProfessionnelle_CISIS_1.2.250.1.213.1.1.5.154.json ==
 == input/ontoserver/JDV/JDV_RessourceUtilisee_CISIS_1.2.250.1.213.1.1.5.807.json ==
 WARNING: ValueSet/1.2.250.1.213.1.1.5.807: ValueSet.compose.include[1]: Unknown System 'http://snomed.info/sct' specified, so Concepts and Filters can't be checked (Details: A definition for CodeSystem 'http://snomed.info/sct' version 'http://snomed.info/sct/11000315107' could not be found, so the code cannot be validated. Valid versions: [http://snomed.info/sct/900000000000207008/version/20250201])
-ERROR: ValueSet.where(id = '1.2.250.1.213.1.1.5.807'): Error from https://smt.esante.gouv.fr/fhir: Error: [1a03a599-f620-4eba-9a4b-d3208b4154c5]: A usable code system with URL http://snomed.info/sct|http://snomed.info/sct/11000315107 could not be resolved.
-Information: X-Request-Id: 5a579ca3-0675-4ac5-8e97-1b8b6e0dc076
+ERROR: ValueSet.where(id = '1.2.250.1.213.1.1.5.807'): Error from https://smt.esante.gouv.fr/fhir: Error: [efe6049f-212c-4d95-9f21-2f5f2e602a47]: A usable code system with URL http://snomed.info/sct|http://snomed.info/sct/11000315107 could not be resolved.
+Information: X-Request-Id: 397793c2-31c1-470c-b954-87851efcc246
 == input/ontoserver/JDV/JDV_ResultatComparaison_CISIS_1.2.250.1.213.1.1.5.649.json ==
 == input/ontoserver/JDV/JDV_ResultatDepistageAcideAscorbique_CISIS_1.2.250.1.213.1.1.5.783.json ==
 WARNING: ValueSet/1.2.250.1.213.1.1.5.783: ValueSet.compose.include[0]: Unknown System 'http://snomed.info/sct' specified, so Concepts and Filters can't be checked (Details: A definition for CodeSystem 'http://snomed.info/sct' version 'http://snomed.info/sct/11000315107' could not be found, so the code cannot be validated. Valid versions: [http://snomed.info/sct/900000000000207008/version/20250201])
@@ -5833,8 +5838,8 @@ WARNING: ValueSet.where(id = '1.2.250.1.213.1.1.4.2.281.21'): Error from http://
 == input/ontoserver/JDV/JDV_TypeAccompagnementSocioPro_CISIS_1.2.250.1.213.1.1.5.81.json ==
 == input/ontoserver/JDV/JDV_TypeActeEUVN_CISIS_1.2.250.1.213.1.1.5.228.json ==
 WARNING: ValueSet/1.2.250.1.213.1.1.5.228: ValueSet.compose.include[1]: Unknown System 'http://snomed.info/sct' specified, so Concepts and Filters can't be checked (Details: A definition for CodeSystem 'http://snomed.info/sct' version 'http://snomed.info/sct/11000315107' could not be found, so the code cannot be validated. Valid versions: [http://snomed.info/sct/900000000000207008/version/20250201])
-ERROR: ValueSet.where(id = '1.2.250.1.213.1.1.5.228'): Error from https://smt.esante.gouv.fr/fhir: Error: [6e40744a-ae8e-4712-895e-3faccf206d24]: A usable code system with URL http://snomed.info/sct|http://snomed.info/sct/11000315107 could not be resolved.
-Information: X-Request-Id: 8eb57b23-24da-49cc-8bcf-a173fa2784d3
+ERROR: ValueSet.where(id = '1.2.250.1.213.1.1.5.228'): Error from https://smt.esante.gouv.fr/fhir: Error: [82e11ad9-2245-4a7f-9e23-65420b2ad271]: A usable code system with URL http://snomed.info/sct|http://snomed.info/sct/11000315107 could not be resolved.
+Information: X-Request-Id: b08760ca-fa8b-4b4d-9b62-c96ec43f8d09
 == input/ontoserver/JDV/JDV_TypeActePostPartum_CISIS_1.2.250.1.213.1.1.5.739.json ==
 ERROR: ValueSet/1.2.250.1.213.1.1.5.739: ValueSet.compose.include[0]: URI values in ValueSet.compose.include.system must be absolute
 WARNING: ValueSet/1.2.250.1.213.1.1.5.739: ValueSet.compose.include[0]: Unknown System '1.2.250.1.215.300.1' specified, so Concepts and Filters can't be checked (Details: A definition for CodeSystem '1.2.250.1.215.300.1' could not be found, so the code cannot be validated)
@@ -5843,20 +5848,20 @@ WARNING: ValueSet.where(id = '1.2.250.1.213.1.1.5.739'): Error from http://tx.fh
 == input/ontoserver/JDV/JDV_TypeAllaitementNouveauNe_CISIS_1.2.250.1.213.1.1.5.753.json ==
 == input/ontoserver/JDV/JDV_TypeAnalgesie_CISIS_1.2.250.1.213.1.1.5.114.json ==
 WARNING: ValueSet/1.2.250.1.213.1.1.5.114: ValueSet.compose.include[1]: Unknown System 'http://snomed.info/sct' specified, so Concepts and Filters can't be checked (Details: A definition for CodeSystem 'http://snomed.info/sct' version 'http://snomed.info/sct/11000315107' could not be found, so the code cannot be validated. Valid versions: [http://snomed.info/sct/900000000000207008/version/20250201])
-ERROR: ValueSet.where(id = '1.2.250.1.213.1.1.5.114'): Error from https://smt.esante.gouv.fr/fhir: Error: [a7f78719-d3d4-4232-9af1-b06ea3e7c00e]: A usable code system with URL http://snomed.info/sct|http://snomed.info/sct/11000315107 could not be resolved.
-Information: X-Request-Id: 53014adb-9ace-498c-a510-73de209c13f8
+ERROR: ValueSet.where(id = '1.2.250.1.213.1.1.5.114'): Error from https://smt.esante.gouv.fr/fhir: Error: [eef18d17-898d-479a-ad3d-feef48f83c4f]: A usable code system with URL http://snomed.info/sct|http://snomed.info/sct/11000315107 could not be resolved.
+Information: X-Request-Id: 9830a1c2-2f19-4dd2-8c3a-e077ef6cc7dc
 == input/ontoserver/JDV/JDV_TypeAnesthesieApresNaissance_CISIS_1.2.250.1.213.1.1.5.749.json ==
 WARNING: ValueSet/1.2.250.1.213.1.1.5.749: ValueSet.compose.include[1]: Unknown System 'http://snomed.info/sct' specified, so Concepts and Filters can't be checked (Details: A definition for CodeSystem 'http://snomed.info/sct' version 'http://snomed.info/sct/11000315107' could not be found, so the code cannot be validated. Valid versions: [http://snomed.info/sct/900000000000207008/version/20250201])
-ERROR: ValueSet.where(id = '1.2.250.1.213.1.1.5.749'): Error from https://smt.esante.gouv.fr/fhir: Error: [de94f570-7ecb-4faf-8950-e3be025bf525]: A usable code system with URL http://snomed.info/sct|http://snomed.info/sct/11000315107 could not be resolved.
-Information: X-Request-Id: fd59d29b-ca3a-4c5a-9ef0-f8033fbdf856
+ERROR: ValueSet.where(id = '1.2.250.1.213.1.1.5.749'): Error from https://smt.esante.gouv.fr/fhir: Error: [23da0496-c6ab-4874-bfa8-2ea07d351e90]: A usable code system with URL http://snomed.info/sct|http://snomed.info/sct/11000315107 could not be resolved.
+Information: X-Request-Id: e3643c51-a7ab-49fb-82e2-928e95a620dd
 == input/ontoserver/JDV/JDV_TypeAnesthesieAvantNaissance_CISIS_1.2.250.1.213.1.1.5.748.json ==
 WARNING: ValueSet/1.2.250.1.213.1.1.5.748: ValueSet.compose.include[1]: Unknown System 'http://snomed.info/sct' specified, so Concepts and Filters can't be checked (Details: A definition for CodeSystem 'http://snomed.info/sct' version 'http://snomed.info/sct/11000315107' could not be found, so the code cannot be validated. Valid versions: [http://snomed.info/sct/900000000000207008/version/20250201])
-ERROR: ValueSet.where(id = '1.2.250.1.213.1.1.5.748'): Error from https://smt.esante.gouv.fr/fhir: Error: [64ab126f-140b-44db-a311-5cbfd97f7d5a]: A usable code system with URL http://snomed.info/sct|http://snomed.info/sct/11000315107 could not be resolved.
-Information: X-Request-Id: ae675f8a-b55f-4998-87e7-4f67ab9d1f42
+ERROR: ValueSet.where(id = '1.2.250.1.213.1.1.5.748'): Error from https://smt.esante.gouv.fr/fhir: Error: [4d9c7b4c-9932-4a47-9883-e06001b911a1]: A usable code system with URL http://snomed.info/sct|http://snomed.info/sct/11000315107 could not be resolved.
+Information: X-Request-Id: 9b15677d-af42-4e7a-b8e9-e3a5df751710
 == input/ontoserver/JDV/JDV_TypeAnesthesie_CISIS_1.2.250.1.213.1.1.5.492.json ==
 WARNING: ValueSet/1.2.250.1.213.1.1.5.492: ValueSet.compose.include[1]: Unknown System 'http://snomed.info/sct' specified, so Concepts and Filters can't be checked (Details: A definition for CodeSystem 'http://snomed.info/sct' version 'http://snomed.info/sct/11000315107' could not be found, so the code cannot be validated. Valid versions: [http://snomed.info/sct/900000000000207008/version/20250201])
-ERROR: ValueSet.where(id = '1.2.250.1.213.1.1.5.492'): Error from https://smt.esante.gouv.fr/fhir: Error: [e15f4a58-ad62-4bb8-9dbb-c37a209ac987]: A usable code system with URL http://snomed.info/sct|http://snomed.info/sct/11000315107 could not be resolved.
-Information: X-Request-Id: 5da897a7-08d2-4812-8a4e-ed3f9aaa3135
+ERROR: ValueSet.where(id = '1.2.250.1.213.1.1.5.492'): Error from https://smt.esante.gouv.fr/fhir: Error: [a2c2d171-67f9-4cfc-9dd9-0afafe4f10ff]: A usable code system with URL http://snomed.info/sct|http://snomed.info/sct/11000315107 could not be resolved.
+Information: X-Request-Id: 7860b2f6-474e-4788-9328-8a66c33ff7dd
 == input/ontoserver/JDV/JDV_TypeConclusion_CISIS_1.2.250.1.213.1.1.5.152.json ==
 == input/ontoserver/JDV/JDV_TypeDeDistanceDeVisualisation_CISIS_1.2.250.1.213.1.1.5.644.json ==
 == input/ontoserver/JDV/JDV_TypeDeLentilles_CISIS_1.2.250.1.213.1.1.5.626.json ==
@@ -5866,8 +5871,8 @@ Information: X-Request-Id: 5da897a7-08d2-4812-8a4e-ed3f9aaa3135
 == input/ontoserver/JDV/JDV_TypeDePrisme_CISIS_1.2.250.1.213.1.1.5.624.json ==
 == input/ontoserver/JDV/JDV_TypeDeSuivi_CISIS_1.2.250.1.213.1.1.5.76.json ==
 WARNING: ValueSet/1.2.250.1.213.1.1.5.76: ValueSet.compose.include[1]: Unknown System 'http://snomed.info/sct' specified, so Concepts and Filters can't be checked (Details: A definition for CodeSystem 'http://snomed.info/sct' version 'http://snomed.info/sct/11000315107' could not be found, so the code cannot be validated. Valid versions: [http://snomed.info/sct/900000000000207008/version/20250201])
-ERROR: ValueSet.where(id = '1.2.250.1.213.1.1.5.76'): Error from https://smt.esante.gouv.fr/fhir: Error: [6a16e380-aad3-4dc0-9d21-d3a9eca53f1f]: A usable code system with URL http://snomed.info/sct|http://snomed.info/sct/11000315107 could not be resolved.
-Information: X-Request-Id: a7396985-f198-4374-be3a-bad021767530
+ERROR: ValueSet.where(id = '1.2.250.1.213.1.1.5.76'): Error from https://smt.esante.gouv.fr/fhir: Error: [851efbb3-84ae-4862-abf2-8e9e60c893f7]: A usable code system with URL http://snomed.info/sct|http://snomed.info/sct/11000315107 could not be resolved.
+Information: X-Request-Id: 8e92b692-818b-4fa1-b627-7e791139ec2c
 == input/ontoserver/JDV/JDV_TypeDeTestRealiseCCU_CISIS_1.2.250.1.213.1.1.5.728.json ==
 == input/ontoserver/JDV/JDV_TypeDeVerresPrescrits_CISIS_1.2.250.1.213.1.1.5.625.json ==
 == input/ontoserver/JDV/JDV_TypeDiabete_CISIS_1.2.250.1.213.1.1.5.166.json ==
@@ -5890,8 +5895,8 @@ WARNING: ValueSet/1.2.250.1.213.1.1.4.2.281.14: ValueSet.compose.include[0].conc
 ERROR: ValueSet.text.div: Hyperlink 'CodeSystem-1.2.250.1.213.1.1.4.322.html#1.2.250.1.213.1.1.4.322-ORG-124' at 'div/ul/li/table/tr/td/a' for 'ORG-124' does not resolve
 == input/ontoserver/JDV/JDV_TypeGarde_CISIS_1.2.250.1.213.1.1.5.128.json ==
 WARNING: ValueSet/1.2.250.1.213.1.1.5.128: ValueSet.compose.include[1]: Unknown System 'http://snomed.info/sct' specified, so Concepts and Filters can't be checked (Details: A definition for CodeSystem 'http://snomed.info/sct' version 'http://snomed.info/sct/11000315107' could not be found, so the code cannot be validated. Valid versions: [http://snomed.info/sct/900000000000207008/version/20250201])
-ERROR: ValueSet.where(id = '1.2.250.1.213.1.1.5.128'): Error from https://smt.esante.gouv.fr/fhir: Error: [1ce9da2b-a18f-4d35-8cf9-e92fe394b503]: A usable code system with URL http://snomed.info/sct|http://snomed.info/sct/11000315107 could not be resolved.
-Information: X-Request-Id: dcdb3dfc-7d2f-48d4-bcc7-a2305c0280f6
+ERROR: ValueSet.where(id = '1.2.250.1.213.1.1.5.128'): Error from https://smt.esante.gouv.fr/fhir: Error: [82b44249-1fa4-4410-ae30-50102ecce089]: A usable code system with URL http://snomed.info/sct|http://snomed.info/sct/11000315107 could not be resolved.
+Information: X-Request-Id: c121ca41-a715-42af-8427-d3d1c98097cf
 == input/ontoserver/JDV/JDV_TypeHisto_EtatTumoral_CISIS_1.2.250.1.213.1.1.5.39.json ==
 ERROR: ValueSet/1.2.250.1.213.1.1.5.39: ValueSet.compose.include[0]: URI values in ValueSet.compose.include.system must be absolute
 WARNING: ValueSet/1.2.250.1.213.1.1.5.39: ValueSet.compose.include[0]: Unknown System '1.2.250.1.213.2.11' specified, so Concepts and Filters can't be checked (Details: A definition for CodeSystem '1.2.250.1.213.2.11' could not be found, so the code cannot be validated)
@@ -5900,8 +5905,8 @@ WARNING: ValueSet.where(id = '1.2.250.1.213.1.1.5.39'): Error from http://tx.fhi
 WARNING: ValueSet/1.2.250.1.213.1.1.5.752: ValueSet.compose.include[0]: Unknown System 'http://terminology.hl7.org/CodeSystem/icd10' specified, so Concepts and Filters can't be checked (Details: A definition for CodeSystem 'http://terminology.hl7.org/CodeSystem/icd10' could not be found, so the code cannot be validated)
 == input/ontoserver/JDV/JDV_TypeInterventionVoieBasse_CISIS_1.2.250.1.213.1.1.5.750.json ==
 WARNING: ValueSet/1.2.250.1.213.1.1.5.750: ValueSet.compose.include[1]: Unknown System 'http://snomed.info/sct' specified, so Concepts and Filters can't be checked (Details: A definition for CodeSystem 'http://snomed.info/sct' version 'http://snomed.info/sct/11000315107' could not be found, so the code cannot be validated. Valid versions: [http://snomed.info/sct/900000000000207008/version/20250201])
-ERROR: ValueSet.where(id = '1.2.250.1.213.1.1.5.750'): Error from https://smt.esante.gouv.fr/fhir: Error: [fc0d5a83-f616-4dd4-9fba-da9bab995b3d]: A usable code system with URL http://snomed.info/sct|http://snomed.info/sct/11000315107 could not be resolved.
-Information: X-Request-Id: 8f5adef1-c74f-4c72-863b-7d00f0ae63f7
+ERROR: ValueSet.where(id = '1.2.250.1.213.1.1.5.750'): Error from https://smt.esante.gouv.fr/fhir: Error: [ec0e16c1-ef2a-4374-a312-e1b1fc2e39b5]: A usable code system with URL http://snomed.info/sct|http://snomed.info/sct/11000315107 could not be resolved.
+Information: X-Request-Id: 30ed3929-4a27-483a-bb1e-1d0afd0f0f5d
 == input/ontoserver/JDV/JDV_TypeIntervention_CISIS_1.2.250.1.213.1.1.5.168.json ==
 WARNING: ValueSet/1.2.250.1.213.1.1.5.168: ValueSet.compose.include[0]: Unknown System 'http://snomed.info/sct' specified, so Concepts and Filters can't be checked (Details: A definition for CodeSystem 'http://snomed.info/sct' version 'http://snomed.info/sct/11000315107' could not be found, so the code cannot be validated. Valid versions: [http://snomed.info/sct/900000000000207008/version/20250201])
 WARNING: ValueSet.where(id = '1.2.250.1.213.1.1.5.168'): Error from http://tx.fhir.org/r4: Unable to provide support for code system http://snomed.info/sct
@@ -5942,8 +5947,8 @@ ERROR: ValueSet.text.div: Hyperlink 'CodeSystem-1.2.250.1.213.1.1.4.322.html#1.2
 ERROR: ValueSet.text.div: Hyperlink 'CodeSystem-1.2.250.1.213.1.1.4.322.html#1.2.250.1.213.1.1.4.322-MED-918' at 'div/ul/li/table/tr/td/a' for 'MED-918' does not resolve
 == input/ontoserver/JDV/JDV_TypePres_CISIS_1.2.250.1.213.1.1.5.117.json ==
 WARNING: ValueSet/1.2.250.1.213.1.1.5.117: ValueSet.compose.include[1]: Unknown System 'http://snomed.info/sct' specified, so Concepts and Filters can't be checked (Details: A definition for CodeSystem 'http://snomed.info/sct' version 'http://snomed.info/sct/11000315107' could not be found, so the code cannot be validated. Valid versions: [http://snomed.info/sct/900000000000207008/version/20250201])
-ERROR: ValueSet.where(id = '1.2.250.1.213.1.1.5.117'): Error from https://smt.esante.gouv.fr/fhir: Error: [fadf274c-7fe1-4798-922e-1342c2a805c2]: A usable code system with URL http://snomed.info/sct|http://snomed.info/sct/11000315107 could not be resolved.
-Information: X-Request-Id: 5fe27882-0f89-4e39-bb32-02cb0a7d9039
+ERROR: ValueSet.where(id = '1.2.250.1.213.1.1.5.117'): Error from https://smt.esante.gouv.fr/fhir: Error: [c44ba2a1-9b99-4fa1-91e2-f109ce7de06c]: A usable code system with URL http://snomed.info/sct|http://snomed.info/sct/11000315107 could not be resolved.
+Information: X-Request-Id: 201405c2-be2a-4294-96bc-2af5a33e1c2c
 == input/ontoserver/JDV/JDV_TypePriseEnChargePPSPAERPA_CISIS_1.2.250.1.213.1.1.5.25.json ==
 WARNING: ValueSet/1.2.250.1.213.1.1.5.25: ValueSet.compose.include[0].concept[0]: The code 'ORG-009' is not valid in the system https://smt.esante.gouv.fr/fhir/CodeSystem/1.2.250.1.213.1.1.4.322 (Unknown code 'ORG-009' in the CodeSystem 'https://smt.esante.gouv.fr/fhir/CodeSystem/1.2.250.1.213.1.1.4.322' version '202501130000')
 INFORMATION: ValueSet/1.2.250.1.213.1.1.5.25: ValueSet.compose.include[0].concept[0]: Unknown code 'ORG-009' in the CodeSystem 'https://smt.esante.gouv.fr/fhir/CodeSystem/1.2.250.1.213.1.1.4.322' version '202501130000'
@@ -5959,8 +5964,8 @@ WARNING: ValueSet.where(id = '1.2.250.1.213.1.1.5.592'): Error from http://tx.fh
 == input/ontoserver/JDV/JDV_TypeResultat_CISIS_1.2.250.1.213.1.1.5.147.json ==
 == input/ontoserver/JDV/JDV_TypeService_CISIS_1.2.250.1.213.1.1.5.127.json ==
 WARNING: ValueSet/1.2.250.1.213.1.1.5.127: ValueSet.compose.include[1]: Unknown System 'http://snomed.info/sct' specified, so Concepts and Filters can't be checked (Details: A definition for CodeSystem 'http://snomed.info/sct' version 'http://snomed.info/sct/11000315107' could not be found, so the code cannot be validated. Valid versions: [http://snomed.info/sct/900000000000207008/version/20250201])
-ERROR: ValueSet.where(id = '1.2.250.1.213.1.1.5.127'): Error from https://smt.esante.gouv.fr/fhir: Error: [0166850d-78ae-449f-b8fb-763d60c4eb42]: A usable code system with URL http://snomed.info/sct|http://snomed.info/sct/11000315107 could not be resolved.
-Information: X-Request-Id: 859d4c5d-17fc-4316-868b-493f229c52d8
+ERROR: ValueSet.where(id = '1.2.250.1.213.1.1.5.127'): Error from https://smt.esante.gouv.fr/fhir: Error: [6e1f2086-abdb-4f27-95de-7d00a9a4ef2c]: A usable code system with URL http://snomed.info/sct|http://snomed.info/sct/11000315107 could not be resolved.
+Information: X-Request-Id: 0fe33154-ffb6-4e11-8652-7bb8b8f9358a
 == input/ontoserver/JDV/JDV_TypeSondeGastrique_CISIS_1.2.250.1.213.1.1.5.593.json ==
 WARNING: ValueSet/1.2.250.1.213.1.1.5.593: ValueSet.compose.include[0]: Unknown System 'https://smt-pprod.esante.gouv.fr/terminologie-emdn' specified, so Concepts and Filters can't be checked (Details: A definition for CodeSystem 'https://smt-pprod.esante.gouv.fr/terminologie-emdn' could not be found, so the code cannot be validated)
 WARNING: ValueSet.where(id = '1.2.250.1.213.1.1.5.593'): Error from http://tx.fhir.org/r4: Unable to provide support for code system https://smt-pprod.esante.gouv.fr/terminologie-emdn
@@ -6027,8 +6032,8 @@ WARNING: ValueSet/1.2.250.1.213.1.1.4.2.18: ValueSet.compose.include[0].concept[
 WARNING: ValueSet.where(id = '1.2.250.1.213.1.1.4.2.18'): Error from http://tx.fhir.org/r4: Unable to provide support for code system https://www.meddra.org
 == input/ontoserver/JDV/JDV_UFCV_Impl_CISIS_1.2.250.1.213.1.1.4.2.15.json ==
 WARNING: ValueSet/1.2.250.1.213.1.1.4.2.15: ValueSet.compose.include[1]: Unknown System 'http://snomed.info/sct' specified, so Concepts and Filters can't be checked (Details: A definition for CodeSystem 'http://snomed.info/sct' version 'http://snomed.info/sct/11000315107' could not be found, so the code cannot be validated. Valid versions: [http://snomed.info/sct/900000000000207008/version/20250201])
-ERROR: ValueSet.where(id = '1.2.250.1.213.1.1.4.2.15'): Error from https://smt.esante.gouv.fr/fhir: Error: [caa90600-7ae1-4a0b-97f9-0462179c4039]: A usable code system with URL http://snomed.info/sct|http://snomed.info/sct/11000315107 could not be resolved.
-Information: X-Request-Id: b39f9d5a-9507-4e1e-8783-7a56f8411baf
+ERROR: ValueSet.where(id = '1.2.250.1.213.1.1.4.2.15'): Error from https://smt.esante.gouv.fr/fhir: Error: [31004a0e-d8c9-4776-9855-9f01fd5d3d69]: A usable code system with URL http://snomed.info/sct|http://snomed.info/sct/11000315107 could not be resolved.
+Information: X-Request-Id: 97332f2b-265a-49a5-adf4-d8d712cbd85f
 == input/ontoserver/JDV/JDV_UFCV_Lat_CISIS_1.2.250.1.213.1.1.4.2.4.json ==
 WARNING: ValueSet/1.2.250.1.213.1.1.4.2.4: ValueSet.compose.include[0]: Unknown System 'http://snomed.info/sct' specified, so Concepts and Filters can't be checked (Details: A definition for CodeSystem 'http://snomed.info/sct' version 'http://snomed.info/sct/11000315107' could not be found, so the code cannot be validated. Valid versions: [http://snomed.info/sct/900000000000207008/version/20250201])
 WARNING: ValueSet.where(id = '1.2.250.1.213.1.1.4.2.4'): Error from http://tx.fhir.org/r4: Unable to provide support for code system http://snomed.info/sct
