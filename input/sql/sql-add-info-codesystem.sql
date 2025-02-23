@@ -15,8 +15,7 @@
                 "forEach": "concept",
                 "column": [ 
                         {  "path": "code", "name": "code" },
-                        {  "path": "display", "name": "display" },
-                        {  "path": "display", "name": "display" },                     
+                        {  "path": "display", "name": "display" },                  
                         {  "path": "designation.value.join('#')", "name": "designation" }
                         
                 ]
