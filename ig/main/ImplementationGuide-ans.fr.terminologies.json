@@ -120,17 +120,6 @@
     {
       "extension" : [{
         "url" : "code",
-        "valueString" : "path-expansion-params"
-      },
-      {
-        "url" : "value",
-        "valueString" : "../../input/_resources/exp-params.json"
-      }],
-      "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
-    },
-    {
-      "extension" : [{
-        "url" : "code",
         "valueString" : "logging"
       },
       {
@@ -16420,17 +16409,6 @@
       {
         "url" : "value",
         "valueString" : "false"
-      }],
-      "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
-    },
-    {
-      "extension" : [{
-        "url" : "code",
-        "valueCode" : "path-expansion-params"
-      },
-      {
-        "url" : "value",
-        "valueString" : "../../input/_resources/exp-params.json"
       }],
       "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
     },

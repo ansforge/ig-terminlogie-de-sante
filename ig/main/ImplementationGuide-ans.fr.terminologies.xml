@@ -98,14 +98,6 @@
     </extension>
     <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
       <extension url="code">
-        <valueString value="path-expansion-params"/>
-      </extension>
-      <extension url="value">
-        <valueString value="../../input/_resources/exp-params.json"/>
-      </extension>
-    </extension>
-    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
-      <extension url="code">
         <valueString value="logging"/>
       </extension>
       <extension url="value">
@@ -11953,14 +11945,6 @@
       </extension>
       <extension url="value">
         <valueString value="false"/>
-      </extension>
-    </extension>
-    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
-      <extension url="code">
-        <valueCode value="path-expansion-params"/>
-      </extension>
-      <extension url="value">
-        <valueString value="../../input/_resources/exp-params.json"/>
       </extension>
     </extension>
     <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
