@@ -1,3 +1,5 @@
+-- SQLite
+
 select 
 DISTINCT 
 ValueSetView.system codeSystem_url,
@@ -6,11 +8,17 @@ ValueSetView.url   valueSet_url      ,
 ValueSetView.name valueSet_name,
 ValueSetView.code valueSet_code,
 ValueSetView.display  valueSet_display,
-fts_valueSet_code,
-fts_valueSet_display
 
+fts_valueSet_code,
+fts_valueSet_display,
+
+CodeSystemView.code interne_code,
+CodeSystemView.display interne_display,
+CodeSystemView.designation1 interne_designation1,
+CodeSystemView.designation2 interne_designation2,
+CodeSystemView.designation3 interne_designation3
 from
-ValueSetView 
+ValueSetView
 left join  
 
 (select   
@@ -33,3 +41,9 @@ where   ValueSet_codes.ValueSetUri = ValueSetList.url AND
 )  fts on
 ValueSetView.system = fts.fts_codeSystem_url
 and  ValueSetView.code = fts.fts_valueSet_code
+left join  CodeSystemView ON
+ValueSetView.system = CodeSystemView.url
+and ValueSetView.code = CodeSystemView.code
+
+
+order by valueSet_name,codeSystem_url
