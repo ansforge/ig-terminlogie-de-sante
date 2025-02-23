@@ -16,10 +16,7 @@
                 "column": [ 
                         {  "path": "code", "name": "code" },
                         {  "path": "display", "name": "display" },
-                        {  "path": "display", "name": "display" },
-                        {  "path": "property.where(code='dateValid').valueDateTime", "name": "dateValid" },
-                        {  "path": "property.where(code='dateMaj').valueDateTime", "name": "dateMaj" },
-                        {  "path": "property.where(code='dateFin').valueDateTime", "name": "dateFin" },                        
+                        {  "path": "display", "name": "display" },                     
                         {  "path": "designation.value.join('#')", "name": "designation" }
                         
                 ]
