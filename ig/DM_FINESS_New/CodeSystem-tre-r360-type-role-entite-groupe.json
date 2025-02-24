@@ -1,0 +1,122 @@
+{
+  "resourceType" : "CodeSystem",
+  "id" : "tre-r360-type-role-entite-groupe",
+  "meta" : {
+    "versionId" : "1",
+    "lastUpdated" : "2024-12-30T12:00:00+01:00",
+    "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablecodesystem"]
+  },
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: CodeSystem tre-r360-type-role-entite-groupe</b></p><a name=\"tre-r360-type-role-entite-groupe\"> </a><a name=\"hctre-r360-type-role-entite-groupe\"> </a><a name=\"tre-r360-type-role-entite-groupe-fr-FR\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">version: 1; Last updated: 2024-12-30 12:00:00+0100</p><p style=\"margin-bottom: 0px\">Profile: <a href=\"http://hl7.org/fhir/R4/shareablecodesystem.html\">Shareable CodeSystem</a></p></div><p><b>Properties</b></p><p><b>This code system defines the following properties for its concepts</b></p><table class=\"grid\"><tr><td><b>Name</b></td><td><b>Code</b></td><td><b>Type</b></td><td><b>Description</b></td></tr><tr><td>dateValid</td><td>dateValid</td><td>dateTime</td><td>date de validité d'un code concept</td></tr><tr><td>dateMaj</td><td>dateMaj</td><td>dateTime</td><td>Date de mise à jour d'un code concept</td></tr><tr><td>retirementDate</td><td>retirementDate</td><td>dateTime</td><td>Date de retrait du code</td></tr></table><p><b>Concepts</b></p><p>This case-insensitive code system <code>https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r360-type-role-entite-groupe</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>dateValid</b></td><td><b>dateMaj</b></td><td><b>French (France) (fr)</b></td></tr><tr><td style=\"white-space:nowrap\">S<a name=\"tre-r360-type-role-entite-groupe-S\"> </a></td><td>Entité support</td><td>2024-12-30T00:00:00+01:00</td><td>2024-12-30T00:00:00+01:00</td><td>Support</td></tr><tr><td style=\"white-space:nowrap\">M<a name=\"tre-r360-type-role-entite-groupe-M\"> </a></td><td>Membre simple</td><td>2024-12-30T00:00:00+01:00</td><td>2024-12-30T00:00:00+01:00</td><td>Membre</td></tr><tr><td style=\"white-space:nowrap\">T<a name=\"tre-r360-type-role-entite-groupe-T\"> </a></td><td>Entité tête de groupe</td><td>2024-12-30T00:00:00+01:00</td><td>2024-12-30T00:00:00+01:00</td><td>Tête de groupe</td></tr></table></div>"
+  },
+  "extension" : [{
+    "url" : "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod",
+    "valuePeriod" : {
+      "start" : "2024-12-30T12:00:00+01:00"
+    }
+  }],
+  "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r360-type-role-entite-groupe",
+  "identifier" : [{
+    "system" : "urn:ietf:rfc:3986",
+    "value" : "urn:oid:1.2.250.1.213.1.6.1.254"
+  }],
+  "version" : "20241230120000",
+  "name" : "TreR360TypeRoleEntiteGroupe",
+  "title" : "Tre R360 Type Role Entite Groupe",
+  "status" : "active",
+  "experimental" : false,
+  "date" : "2024-12-30T12:00:00+01:00",
+  "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
+  "description" : "Nomenclature des types de rôles que peuvent exercer des entités participants à des groupements",
+  "caseSensitive" : false,
+  "content" : "complete",
+  "count" : 3,
+  "property" : [{
+    "code" : "dateValid",
+    "description" : "date de validité d'un code concept",
+    "type" : "dateTime"
+  },
+  {
+    "code" : "dateMaj",
+    "description" : "Date de mise à jour d'un code concept",
+    "type" : "dateTime"
+  },
+  {
+    "code" : "retirementDate",
+    "description" : "Date de retrait du code",
+    "type" : "dateTime"
+  }],
+  "concept" : [{
+    "code" : "S",
+    "display" : "Entité support",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "Support"
+    }],
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2024-12-30T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2024-12-30T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    }]
+  },
+  {
+    "code" : "M",
+    "display" : "Membre simple",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "Membre"
+    }],
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2024-12-30T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2024-12-30T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    }]
+  },
+  {
+    "code" : "T",
+    "display" : "Entité tête de groupe",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "Tête de groupe"
+    }],
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2024-12-30T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2024-12-30T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    }]
+  }]
+}
