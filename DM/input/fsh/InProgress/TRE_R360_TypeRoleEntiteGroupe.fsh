@@ -12,6 +12,7 @@ Description: "Nomenclature des types de rôles que peuvent exercer des entités 
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value = "urn:oid:1.2.250.1.213.1.6.1.254"
 * ^version = "20241230120000"
+* ^title = "Tre R360 Type Role Entite Groupe"
 * ^status = #active
 * ^experimental = false
 * ^date = "2024-12-30T12:00:00+01:00"
