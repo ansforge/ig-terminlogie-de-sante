@@ -1,0 +1,189 @@
+Alias: $sct = http://snomed.info/sct
+
+CodeSystem: TRE_R364_TypeDocumentAdministratif
+Id: TRE-R364-TypeDocumentAdministratif
+Description: "Nomenclature des types de document informatif et justificatif pouvant être associé à une entité FINESS"
+* ^meta.versionId = "1"
+* ^meta.lastUpdated = "2024-12-30T12:00:00+01:00"
+* ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablecodesystem"
+* ^extension.url = "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod"
+* ^extension.valuePeriod.start = "2024-12-30T12:00:00+01:00"
+* ^url = "https://mos.esante.gouv.fr/NOS/TRE_R364-TypeDocumentAdministratif/FHIR/TRE-R364-TypeDocumentAdministratif"
+* ^identifier.system = "urn:ietf:rfc:3986"
+* ^identifier.value = "urn:oid:1.2.250.1.213.1.6.1.258"
+* ^version = "20241230120000"
+* ^status = #active
+* ^experimental = false
+* ^date = "2024-12-30T12:00:00+01:00"
+* ^publisher = "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris"
+* ^caseSensitive = false
+* ^content = #complete
+* ^property[0].code = #dateValid
+* ^property[=].description = "date de validité d'un code concept"
+* ^property[=].type = #dateTime
+* ^property[+].code = #dateMaj
+* ^property[=].description = "Date de mise à jour d'un code concept"
+* ^property[=].type = #dateTime
+* ^property[+].code = #dateFin
+* ^property[=].description = "Date de fin d'exploitation d'un code concept"
+* ^property[=].type = #dateTime
+* #001 "Arrêté d'autorisation"
+* #001 ^property[0].code = #dateValid
+* #001 ^property[=].valueDateTime = "2024-12-30T00:00:00+01:00"
+* #001 ^property[+].code = #dateMaj
+* #001 ^property[=].valueDateTime = "2024-12-30T00:00:00+01:00"										
+* #002 "Projet de santé"
+* #002 ^property[0].code = #dateValid
+* #002 ^property[=].valueDateTime = "2024-12-30T00:00:00+01:00"
+* #002 ^property[+].code = #dateMaj
+* #002 ^property[=].valueDateTime = "2024-12-30T00:00:00+01:00"										
+* #003 "Arrêté d'agrément"
+* #003 ^designation.language = #fr-FR
+* #003 ^designation.use.system = "http://snomed.info/sct"
+* #003 ^designation.use = $sct#900000000000013009
+* #003 ^designation.value = "Agrément"
+* #003 ^property[0].code = #dateValid
+* #003 ^property[=].valueDateTime = "2024-12-30T00:00:00+01:00"
+* #003 ^property[+].code = #dateMaj
+* #003 ^property[=].valueDateTime = "2024-12-30T00:00:00+01:00"
+* #004 "Convention"
+* #004 ^property[0].code = #dateValid
+* #004 ^property[=].valueDateTime = "2024-12-30T00:00:00+01:00"
+* #004 ^property[+].code = #dateMaj
+* #004 ^property[=].valueDateTime = "2024-12-30T00:00:00+01:00"										
+* #005 "Extrait KBIS"
+* #005 ^designation.language = #fr-FR
+* #005 ^designation.use.system = "http://snomed.info/sct"
+* #005 ^designation.use = $sct#900000000000013009
+* #005 ^designation.value = "KBIS"
+* #005 ^property[0].code = #dateValid
+* #005 ^property[=].valueDateTime = "2024-12-30T00:00:00+01:00"
+* #005 ^property[+].code = #dateMaj
+* #005 ^property[=].valueDateTime = "2024-12-30T00:00:00+01:00"
+* #006 "Lettre de renouvellement"
+* #006 ^designation.language = #fr-FR
+* #006 ^designation.use.system = "http://snomed.info/sct"
+* #006 ^designation.use = $sct#900000000000013009
+* #006 ^designation.value = "Lettre renouvellement"
+* #006 ^property[0].code = #dateValid
+* #006 ^property[=].valueDateTime = "2024-12-30T00:00:00+01:00"
+* #006 ^property[+].code = #dateMaj
+* #006 ^property[=].valueDateTime = "2024-12-30T00:00:00+01:00"
+* #007 "Publication au registre des actes administratifs"
+* #007 ^designation.language = #fr-FR
+* #007 ^designation.use.system = "http://snomed.info/sct"
+* #007 ^designation.use = $sct#900000000000013009
+* #007 ^designation.value = "Publication RAA"
+* #007 ^property[0].code = #dateValid
+* #007 ^property[=].valueDateTime = "2024-12-30T00:00:00+01:00"
+* #007 ^property[+].code = #dateMaj
+* #007 ^property[=].valueDateTime = "2024-12-30T00:00:00+01:00"
+* #008 "Procès verbal de conformité"
+* #008 ^designation.language = #fr-FR
+* #008 ^designation.use.system = "http://snomed.info/sct"
+* #008 ^designation.use = $sct#900000000000013009
+* #008 ^designation.value = "PV Conformité"
+* #008 ^property[0].code = #dateValid
+* #008 ^property[=].valueDateTime = "2024-12-30T00:00:00+01:00"
+* #008 ^property[+].code = #dateMaj
+* #008 ^property[=].valueDateTime = "2024-12-30T00:00:00+01:00"
+* #009 "Contrat pluriannuel d'objectifs et de moyens"
+* #009 ^designation.language = #fr-FR
+* #009 ^designation.use.system = "http://snomed.info/sct"
+* #009 ^designation.use = $sct#900000000000013009
+* #009 ^designation.value = "CPOM"
+* #009 ^property[0].code = #dateValid
+* #009 ^property[=].valueDateTime = "2024-12-30T00:00:00+01:00"
+* #009 ^property[+].code = #dateMaj
+* #009 ^property[=].valueDateTime = "2024-12-30T00:00:00+01:00"
+* #010 "Labélisation"
+* #010 ^property[0].code = #dateValid
+* #010 ^property[=].valueDateTime = "2024-12-30T00:00:00+01:00"
+* #010 ^property[+].code = #dateMaj
+* #010 ^property[=].valueDateTime = "2024-12-30T00:00:00+01:00"										
+* #011 "Habilitation à l'aide sociale"
+* #011 ^property[0].code = #dateValid
+* #011 ^property[=].valueDateTime = "2024-12-30T00:00:00+01:00"
+* #011 ^property[+].code = #dateMaj
+* #011 ^property[=].valueDateTime = "2024-12-30T00:00:00+01:00"										
+* #012 "Procès verbal du tribunal de commerce"
+* #012 ^designation.language = #fr-FR
+* #012 ^designation.use.system = "http://snomed.info/sct"
+* #012 ^designation.use = $sct#900000000000013009
+* #012 ^designation.value = "PV tribunal de commerce"
+* #012 ^property[0].code = #dateValid
+* #012 ^property[=].valueDateTime = "2024-12-30T00:00:00+01:00"
+* #012 ^property[+].code = #dateMaj
+* #012 ^property[=].valueDateTime = "2024-12-30T00:00:00+01:00"
+* #013 "Arrêté de tarification"
+* #013 ^designation.language = #fr-FR
+* #013 ^designation.use.system = "http://snomed.info/sct"
+* #013 ^designation.use = $sct#900000000000013009
+* #013 ^designation.value = "Arrêté tarification"
+* #013 ^property[0].code = #dateValid
+* #013 ^property[=].valueDateTime = "2024-12-30T00:00:00+01:00"
+* #013 ^property[+].code = #dateMaj
+* #013 ^property[=].valueDateTime = "2024-12-30T00:00:00+01:00"
+* #014 "Autre document justificatif"
+* #014 ^designation.language = #fr-FR
+* #014 ^designation.use.system = "http://snomed.info/sct"
+* #014 ^designation.use = $sct#900000000000013009
+* #014 ^designation.value = "Autre document"
+* #014 ^property[0].code = #dateValid
+* #014 ^property[=].valueDateTime = "2024-12-30T00:00:00+01:00"
+* #014 ^property[+].code = #dateMaj
+* #014 ^property[=].valueDateTime = "2024-12-30T00:00:00+01:00"
+* #101 "Courrier et mail des autorités"
+* #101 ^designation.language = #fr-FR
+* #101 ^designation.use.system = "http://snomed.info/sct"
+* #101 ^designation.use = $sct#900000000000013009
+* #101 ^designation.value = "Courrier autorité"
+* #101 ^property[0].code = #dateValid
+* #101 ^property[=].valueDateTime = "2024-12-30T00:00:00+01:00"
+* #101 ^property[+].code = #dateMaj
+* #101 ^property[=].valueDateTime = "2024-12-30T00:00:00+01:00"
+* #102 "Courrier et mail de l'établissement"
+* #102 ^designation.language = #fr-FR
+* #102 ^designation.use.system = "http://snomed.info/sct"
+* #102 ^designation.use = $sct#900000000000013009
+* #102 ^designation.value = "Courrier établissement"
+* #102 ^property[0].code = #dateValid
+* #102 ^property[=].valueDateTime = "2024-12-30T00:00:00+01:00"
+* #102 ^property[+].code = #dateMaj
+* #102 ^property[=].valueDateTime = "2024-12-30T00:00:00+01:00"
+* #103 "Remontées réalisées après l’exploitation de questionnaires d’enquêtes"
+* #103 ^designation.language = #fr-FR
+* #103 ^designation.use.system = "http://snomed.info/sct"
+* #103 ^designation.use = $sct#900000000000013009
+* #103 ^designation.value = "Remontée enquête"
+* #103 ^property[0].code = #dateValid
+* #103 ^property[=].valueDateTime = "2024-12-30T00:00:00+01:00"
+* #103 ^property[+].code = #dateMaj
+* #103 ^property[=].valueDateTime = "2024-12-30T00:00:00+01:00"
+* #104 "Fichiers de données en provenance d’autres systèmes d’information"
+* #104 ^designation.language = #fr-FR
+* #104 ^designation.use.system = "http://snomed.info/sct"
+* #104 ^designation.use = $sct#900000000000013009
+* #104 ^designation.value = "Fichier autre SI"
+* #104 ^property[0].code = #dateValid
+* #104 ^property[=].valueDateTime = "2024-12-30T00:00:00+01:00"
+* #104 ^property[+].code = #dateMaj
+* #104 ^property[=].valueDateTime = "2024-12-30T00:00:00+01:00"
+* #105 "Signalement des internautes ou des partenaires utilisateurs des données"
+* #105 ^designation.language = #fr-FR
+* #105 ^designation.use.system = "http://snomed.info/sct"
+* #105 ^designation.use = $sct#900000000000013009
+* #105 ^designation.value = "Signalement"
+* #105 ^property[0].code = #dateValid
+* #105 ^property[=].valueDateTime = "2024-12-30T00:00:00+01:00"
+* #105 ^property[+].code = #dateMaj
+* #105 ^property[=].valueDateTime = "2024-12-30T00:00:00+01:00"
+* #106 "Autre document informatif"
+* #106 ^designation.language = #fr-FR
+* #106 ^designation.use.system = "http://snomed.info/sct"
+* #106 ^designation.use = $sct#900000000000013009
+* #106 ^designation.value = "Autre document"
+* #106 ^property[0].code = #dateValid
+* #106 ^property[=].valueDateTime = "2024-12-30T00:00:00+01:00"
+* #106 ^property[+].code = #dateMaj
+* #106 ^property[=].valueDateTime = "2024-12-30T00:00:00+01:00"

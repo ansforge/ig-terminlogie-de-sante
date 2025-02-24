@@ -1,0 +1,65 @@
+Alias: $sct = http://snomed.info/sct
+
+CodeSystem: TRE_R372_TypeGroupeGCO
+Id: TRE-R372-TypeGroupeGCO
+Description: "Nomenclature des types de Groupement de Coopération Organique (GCO)"
+* ^meta.versionId = "1"
+* ^meta.lastUpdated = "2024-12-30T12:00:00+01:00"
+* ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablecodesystem"
+* ^extension.url = "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod"
+* ^extension.valuePeriod.start = "2024-12-30T12:00:00+01:00"
+* ^url = "https://mos.esante.gouv.fr/NOS/TRE_R372-TypeGroupeGCO/FHIR/TRE-R372-TypeGroupeGCO"
+* ^identifier.system = "urn:ietf:rfc:3986"
+* ^identifier.value = "urn:oid:1.2.250.1.213.1.6.1.288"
+* ^version = "20241230120000"
+* ^status = #active
+* ^experimental = false
+* ^date = "2024-12-30T12:00:00+01:00"
+* ^publisher = "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris"
+* ^caseSensitive = false
+* ^content = #complete
+* ^property[0].code = #dateValid
+* ^property[=].description = "date de validité d'un code concept"
+* ^property[=].type = #dateTime
+* ^property[+].code = #dateMaj
+* ^property[=].description = "Date de mise à jour d'un code concept"
+* ^property[=].type = #dateTime
+* ^property[+].code = #dateFin
+* ^property[=].description = "Date de fin d'exploitation d'un code concept"
+* ^property[=].type = #dateTime
+* #001 "Communautés professionnelles territoriales de santé (CPTS)"
+* #001 ^designation.language = #fr-FR
+* #001 ^designation.use.system = "http://snomed.info/sct"
+* #001 ^designation.use = $sct#900000000000013009
+* #001 ^designation.value = "CPTS"
+* #001 ^property[0].code = #dateValid
+* #001 ^property[=].valueDateTime = "2024-12-30T00:00:00+01:00"
+* #001 ^property[+].code = #dateMaj
+* #001 ^property[=].valueDateTime = "2024-12-30T00:00:00+01:00"
+* #002 "Groupement de coopération sanitaire - Etablissement de santé"
+* #002 ^designation.language = #fr-FR
+* #002 ^designation.use.system = "http://snomed.info/sct"
+* #002 ^designation.use = $sct#900000000000013009
+* #002 ^designation.value = "GCS ES"
+* #002 ^property[0].code = #dateValid
+* #002 ^property[=].valueDateTime = "2024-12-30T00:00:00+01:00"
+* #002 ^property[+].code = #dateMaj
+* #002 ^property[=].valueDateTime = "2024-12-30T00:00:00+01:00"
+* #003 "Groupement de coopération sanitaire de moyens"
+* #003 ^designation.language = #fr-FR
+* #003 ^designation.use.system = "http://snomed.info/sct"
+* #003 ^designation.use = $sct#900000000000013009
+* #003 ^designation.value = "GCS de Moyens"
+* #003 ^property[0].code = #dateValid
+* #003 ^property[=].valueDateTime = "2024-12-30T00:00:00+01:00"
+* #003 ^property[+].code = #dateMaj
+* #003 ^property[=].valueDateTime = "2024-12-30T00:00:00+01:00"
+* #004 "Groupement de coopération sanitaire exploitant"
+* #004 ^designation.language = #fr-FR
+* #004 ^designation.use.system = "http://snomed.info/sct"
+* #004 ^designation.use = $sct#900000000000013009
+* #004 ^designation.value = "GCS Exploitant"
+* #004 ^property[0].code = #dateValid
+* #004 ^property[=].valueDateTime = "2024-12-30T00:00:00+01:00"
+* #004 ^property[+].code = #dateMaj
+* #004 ^property[=].valueDateTime = "2024-12-30T00:00:00+01:00"
