@@ -8,13 +8,17 @@ ValueSetView.url   valueSet_url      ,
 ValueSetView.name valueSet_name,
 ValueSetView.status valueSet_status,
 ValueSetView.code valueSet_code,
-replace(ValueSetView.display, X'0A', '\n') valueSet_display,
+replace( replace( ValueSetView.display, CHAR(10), "<BR>"), CHAR(13), "<BR>") valueSet_display,
 
-fts_valueSet_code,
-fts_valueSet_display,
+
+fts_valueSet_code publisher_code,
+fts_valueSet_display publisher_display,
 
 CodeSystemView.code interne_code,
-replace(CodeSystemView.display, X'0A', '\n')  interne_display,
+replace( replace( CodeSystemView.display, CHAR(10), "<BR>"), CHAR(13), "<BR>") interne_display,
+
+
+
 CodeSystemView.designation1 interne_designation1,
 CodeSystemView.designation2 interne_designation2,
 CodeSystemView.designation3 interne_designation3
@@ -46,6 +50,4 @@ left join  CodeSystemView ON
 ValueSetView.system = CodeSystemView.url
 and ValueSetView.code = CodeSystemView.code
 
-where 
-ValueSetView.id ='1.2.250.1.213.1.1.5.538'
 order by valueSet_name,codeSystem_url
