@@ -47,7 +47,7 @@ Description: "Nomenclature des types de rôles que peuvent exercer des entités 
 * #S ^property[+].code = #dateMaj
 * #S ^property[=].valueDateTime = "2024-12-30T00:00:00+01:00"
 * #S ^property[+].code = #status
-* #S ^property[=].valueCode = "active"
+* #S ^property[=].valueCode = #active
 * #M "Membre simple"
 * #M ^designation.language = #fr-FR
 * #M ^designation.use.system = "http://snomed.info/sct"
@@ -58,7 +58,7 @@ Description: "Nomenclature des types de rôles que peuvent exercer des entités 
 * #M ^property[+].code = #dateMaj
 * #M ^property[=].valueDateTime = "2024-12-30T00:00:00+01:00"
 * #M ^property[+].code = #status
-* #M ^property[=].valueCode = "active"
+* #M ^property[=].valueCode = #active
 * #T "Entité tête de groupe"
 * #T ^designation.language = #fr-FR
 * #T ^designation.use.system = "http://snomed.info/sct"
@@ -69,4 +69,4 @@ Description: "Nomenclature des types de rôles que peuvent exercer des entités 
 * #T ^property[+].code = #dateMaj
 * #T ^property[=].valueDateTime = "2024-12-30T00:00:00+01:00"
 * #T ^property[+].code = #status
-* #T ^property[=].valueCode = "active"
+* #T ^property[=].valueCode = #active
