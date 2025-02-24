@@ -4,6 +4,21 @@ Dans ce guide, nous retrouvons l'ensemble des termminologies de santé et jeux d
 - SMT
 - HL7
 
+  
+### Principe général
+Les données codées utilisées doivent provenir des terminologies de référence définies dans le CI-SIS.
+Les terminologies de référence retenues dans le contexte français sont très généralement les mêmes que celles retenues dans le contexte international.
+
+Il est cependant possible, pour des raisons de non-disponibilité ou de non-utilisation sur le territoire français, que la terminologie de référence en France soit différente que celle choisie au niveau international.
+
+Par exemple, le codage des actes médicaux en France s'appuie très largement sur la CCAM.
+Cette terminologie est une terminologie française n'est évidemment pas celle qui a été choisie par les autres pays à l'international.
+
+Le Centre de terminologies de Santé (CGTS) de l'ANS est l'entité définissant les terminologies de références en concertation avec l'écosystème français et international. L'objectif est bien d'harmoniser les terminologies utilisées en France et à l'international.
+
+
+
+
 ### Les Nomenclatures des Objets de Santé (NOS)
 
 Les NOS de l'ANS reposent sur un système de codification (code et libellé) permettant de décrire des domaines de valeurs de certains attributs des classes du Modèle des Objets de Santé (MOS). 
