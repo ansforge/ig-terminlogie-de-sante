@@ -28,13 +28,13 @@ Description: "Nomenclature des types de rôles que peuvent exercer des entités 
 * ^property[+].code = #dateFin
 * ^property[=].description = "Date de fin d'exploitation d'un code concept"
 * ^property[=].type = #dateTime
-* ^property[=]code = #status
+* ^property[=].code = #status
 * ^property[=].description = "Statut d'un code concept"
 * ^property[=].type = #code
-* ^property[=]code = #deprecationDate
+* ^property[=].code = #deprecationDate
 * ^property[=].description = "Date de dépréciation du code"
 * ^property[=].type = #dateTime
-* ^property[=]code = #retirementDate
+* ^property[=].code = #retirementDate
 * ^property[=].description = "Date de retrait du code"
 * ^property[=].type = #dateTime
 * #S "Entité support"
