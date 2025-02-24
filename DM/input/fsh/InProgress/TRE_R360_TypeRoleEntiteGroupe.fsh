@@ -27,6 +27,15 @@ Description: "Nomenclature des types de rôles que peuvent exercer des entités 
 * ^property[+].code = #dateFin
 * ^property[=].description = "Date de fin d'exploitation d'un code concept"
 * ^property[=].type = #dateTime
+* ^property[=]code = #status
+* ^property[=].description = "Statut d'un code concept"
+* ^property[=].type = #code
+* ^property[=]code = #deprecationDate
+* ^property[=].description = "Date de dépréciation du code"
+* ^property[=].type = #dateTime
+* ^property[=]code = #retirementDate
+* ^property[=].description = "Date de retrait du code"
+* ^property[=].type = #dateTime
 * #S "Entité support"
 * #S ^designation.language = #fr-FR
 * #S ^designation.use.system = "http://snomed.info/sct"
@@ -36,6 +45,8 @@ Description: "Nomenclature des types de rôles que peuvent exercer des entités 
 * #S ^property[=].valueDateTime = "2024-12-30T00:00:00+01:00"
 * #S ^property[+].code = #dateMaj
 * #S ^property[=].valueDateTime = "2024-12-30T00:00:00+01:00"
+* #S ^property[+].code = #status
+* #S ^property[=].valueCode = "active"
 * #M "Membre simple"
 * #M ^designation.language = #fr-FR
 * #M ^designation.use.system = "http://snomed.info/sct"
@@ -45,6 +56,8 @@ Description: "Nomenclature des types de rôles que peuvent exercer des entités 
 * #M ^property[=].valueDateTime = "2024-12-30T00:00:00+01:00"
 * #M ^property[+].code = #dateMaj
 * #M ^property[=].valueDateTime = "2024-12-30T00:00:00+01:00"
+* #M ^property[+].code = #status
+* #M ^property[=].valueCode = "active"
 * #T "Entité tête de groupe"
 * #T ^designation.language = #fr-FR
 * #T ^designation.use.system = "http://snomed.info/sct"
@@ -54,3 +67,5 @@ Description: "Nomenclature des types de rôles que peuvent exercer des entités 
 * #T ^property[=].valueDateTime = "2024-12-30T00:00:00+01:00"
 * #T ^property[+].code = #dateMaj
 * #T ^property[=].valueDateTime = "2024-12-30T00:00:00+01:00"
+* #T ^property[+].code = #status
+* #T ^property[=].valueCode = "active"
