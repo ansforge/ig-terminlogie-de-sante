@@ -1,0 +1,518 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sct: <http://snomed.info/id/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<https://interop.esante.gouv.fr/terminologies/CodeSystem/TRE-R364-TypeDocumentAdministratif> a fhir:CodeSystem ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "TRE-R364-TypeDocumentAdministratif"] ; # 
+  fhir:meta [
+     fhir:versionId [ fhir:v "1" ] ;
+     fhir:lastUpdated [ fhir:v "2024-12-30T12:00:00+01:00"^^xsd:dateTime ] ;
+     fhir:profile ( [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/shareablecodesystem"^^xsd:anyURI ;
+       fhir:link <http://hl7.org/fhir/StructureDefinition/shareablecodesystem>
+     ] )
+  ] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: CodeSystem TRE-R364-TypeDocumentAdministratif</b></p><a name=\"TRE-R364-TypeDocumentAdministratif\"> </a><a name=\"hcTRE-R364-TypeDocumentAdministratif\"> </a><a name=\"TRE-R364-TypeDocumentAdministratif-fr-FR\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">version: 1; Last updated: 2024-12-30 12:00:00+0100</p><p style=\"margin-bottom: 0px\">Profile: <a href=\"http://hl7.org/fhir/R4/shareablecodesystem.html\">Shareable CodeSystem</a></p></div><p><b>Properties</b></p><p><b>This code system defines the following properties for its concepts</b></p><table class=\"grid\"><tr><td><b>Name</b></td><td><b>Code</b></td><td><b>Type</b></td><td><b>Description</b></td></tr><tr><td>dateValid</td><td>dateValid</td><td>dateTime</td><td>date de validité d'un code concept</td></tr><tr><td>dateMaj</td><td>dateMaj</td><td>dateTime</td><td>Date de mise à jour d'un code concept</td></tr><tr><td>dateFin</td><td>dateFin</td><td>dateTime</td><td>Date de fin d'exploitation d'un code concept</td></tr></table><p><b>Concepts</b></p><p>This case-insensitive code system <code>https://mos.esante.gouv.fr/NOS/TRE_R364-TypeDocumentAdministratif/FHIR/TRE-R364-TypeDocumentAdministratif</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>dateValid</b></td><td><b>dateMaj</b></td><td><b>French (France) (fr)</b></td></tr><tr><td style=\"white-space:nowrap\">001<a name=\"TRE-R364-TypeDocumentAdministratif-001\"> </a></td><td>Arrêté d'autorisation</td><td>2024-12-30T00:00:00+01:00</td><td>2024-12-30T00:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">002<a name=\"TRE-R364-TypeDocumentAdministratif-002\"> </a></td><td>Projet de santé</td><td>2024-12-30T00:00:00+01:00</td><td>2024-12-30T00:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">003<a name=\"TRE-R364-TypeDocumentAdministratif-003\"> </a></td><td>Arrêté d'agrément</td><td>2024-12-30T00:00:00+01:00</td><td>2024-12-30T00:00:00+01:00</td><td>Agrément</td></tr><tr><td style=\"white-space:nowrap\">004<a name=\"TRE-R364-TypeDocumentAdministratif-004\"> </a></td><td>Convention</td><td>2024-12-30T00:00:00+01:00</td><td>2024-12-30T00:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">005<a name=\"TRE-R364-TypeDocumentAdministratif-005\"> </a></td><td>Extrait KBIS</td><td>2024-12-30T00:00:00+01:00</td><td>2024-12-30T00:00:00+01:00</td><td>KBIS</td></tr><tr><td style=\"white-space:nowrap\">006<a name=\"TRE-R364-TypeDocumentAdministratif-006\"> </a></td><td>Lettre de renouvellement</td><td>2024-12-30T00:00:00+01:00</td><td>2024-12-30T00:00:00+01:00</td><td>Lettre renouvellement</td></tr><tr><td style=\"white-space:nowrap\">007<a name=\"TRE-R364-TypeDocumentAdministratif-007\"> </a></td><td>Publication au registre des actes administratifs</td><td>2024-12-30T00:00:00+01:00</td><td>2024-12-30T00:00:00+01:00</td><td>Publication RAA</td></tr><tr><td style=\"white-space:nowrap\">008<a name=\"TRE-R364-TypeDocumentAdministratif-008\"> </a></td><td>Procès verbal de conformité</td><td>2024-12-30T00:00:00+01:00</td><td>2024-12-30T00:00:00+01:00</td><td>PV Conformité</td></tr><tr><td style=\"white-space:nowrap\">009<a name=\"TRE-R364-TypeDocumentAdministratif-009\"> </a></td><td>Contrat pluriannuel d'objectifs et de moyens</td><td>2024-12-30T00:00:00+01:00</td><td>2024-12-30T00:00:00+01:00</td><td>CPOM</td></tr><tr><td style=\"white-space:nowrap\">010<a name=\"TRE-R364-TypeDocumentAdministratif-010\"> </a></td><td>Labélisation</td><td>2024-12-30T00:00:00+01:00</td><td>2024-12-30T00:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">011<a name=\"TRE-R364-TypeDocumentAdministratif-011\"> </a></td><td>Habilitation à l'aide sociale</td><td>2024-12-30T00:00:00+01:00</td><td>2024-12-30T00:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">012<a name=\"TRE-R364-TypeDocumentAdministratif-012\"> </a></td><td>Procès verbal du tribunal de commerce</td><td>2024-12-30T00:00:00+01:00</td><td>2024-12-30T00:00:00+01:00</td><td>PV tribunal de commerce</td></tr><tr><td style=\"white-space:nowrap\">013<a name=\"TRE-R364-TypeDocumentAdministratif-013\"> </a></td><td>Arrêté de tarification</td><td>2024-12-30T00:00:00+01:00</td><td>2024-12-30T00:00:00+01:00</td><td>Arrêté tarification</td></tr><tr><td style=\"white-space:nowrap\">014<a name=\"TRE-R364-TypeDocumentAdministratif-014\"> </a></td><td>Autre document justificatif</td><td>2024-12-30T00:00:00+01:00</td><td>2024-12-30T00:00:00+01:00</td><td>Autre document</td></tr><tr><td style=\"white-space:nowrap\">101<a name=\"TRE-R364-TypeDocumentAdministratif-101\"> </a></td><td>Courrier et mail des autorités</td><td>2024-12-30T00:00:00+01:00</td><td>2024-12-30T00:00:00+01:00</td><td>Courrier autorité</td></tr><tr><td style=\"white-space:nowrap\">102<a name=\"TRE-R364-TypeDocumentAdministratif-102\"> </a></td><td>Courrier et mail de l'établissement</td><td>2024-12-30T00:00:00+01:00</td><td>2024-12-30T00:00:00+01:00</td><td>Courrier établissement</td></tr><tr><td style=\"white-space:nowrap\">103<a name=\"TRE-R364-TypeDocumentAdministratif-103\"> </a></td><td>Remontées réalisées après l’exploitation de questionnaires d’enquêtes</td><td>2024-12-30T00:00:00+01:00</td><td>2024-12-30T00:00:00+01:00</td><td>Remontée enquête</td></tr><tr><td style=\"white-space:nowrap\">104<a name=\"TRE-R364-TypeDocumentAdministratif-104\"> </a></td><td>Fichiers de données en provenance d’autres systèmes d’information</td><td>2024-12-30T00:00:00+01:00</td><td>2024-12-30T00:00:00+01:00</td><td>Fichier autre SI</td></tr><tr><td style=\"white-space:nowrap\">105<a name=\"TRE-R364-TypeDocumentAdministratif-105\"> </a></td><td>Signalement des internautes ou des partenaires utilisateurs des données</td><td>2024-12-30T00:00:00+01:00</td><td>2024-12-30T00:00:00+01:00</td><td>Signalement</td></tr><tr><td style=\"white-space:nowrap\">106<a name=\"TRE-R364-TypeDocumentAdministratif-106\"> </a></td><td>Autre document informatif</td><td>2024-12-30T00:00:00+01:00</td><td>2024-12-30T00:00:00+01:00</td><td>Autre document</td></tr></table></div>"^^rdf:XMLLiteral
+  ] ; # 
+  fhir:extension ( [
+     fhir:url [ fhir:v "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod"^^xsd:anyURI ] ;
+     fhir:value [
+       a fhir:Period ;
+       fhir:start [ fhir:v "2024-12-30T12:00:00+01:00"^^xsd:dateTime ]
+     ]
+  ] ) ; # 
+  fhir:url [ fhir:v "https://mos.esante.gouv.fr/NOS/TRE_R364-TypeDocumentAdministratif/FHIR/TRE-R364-TypeDocumentAdministratif"^^xsd:anyURI] ; # 
+  fhir:identifier ( [
+     fhir:system [ fhir:v "urn:ietf:rfc:3986"^^xsd:anyURI ] ;
+     fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.6.1.258" ]
+  ] ) ; # 
+  fhir:version [ fhir:v "20241230120000"] ; # 
+  fhir:name [ fhir:v "TRE_R364_TypeDocumentAdministratif"] ; # 
+  fhir:status [ fhir:v "active"] ; # 
+  fhir:experimental [ fhir:v "false"^^xsd:boolean] ; # 
+  fhir:date [ fhir:v "2024-12-30T12:00:00+01:00"^^xsd:dateTime] ; # 
+  fhir:publisher [ fhir:v "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris"] ; # 
+  fhir:description [ fhir:v "Nomenclature des types de document informatif et justificatif pouvant être associé à une entité FINESS"] ; # 
+  fhir:caseSensitive [ fhir:v "false"^^xsd:boolean] ; # 
+  fhir:content [ fhir:v "complete"] ; # 
+  fhir:count [ fhir:v "20"^^xsd:nonNegativeInteger] ; # 
+  fhir:property ( [
+     fhir:code [ fhir:v "dateValid" ] ;
+     fhir:description [ fhir:v "date de validité d'un code concept" ] ;
+     fhir:type [ fhir:v "dateTime" ]
+  ] [
+     fhir:code [ fhir:v "dateMaj" ] ;
+     fhir:description [ fhir:v "Date de mise à jour d'un code concept" ] ;
+     fhir:type [ fhir:v "dateTime" ]
+  ] [
+     fhir:code [ fhir:v "dateFin" ] ;
+     fhir:description [ fhir:v "Date de fin d'exploitation d'un code concept" ] ;
+     fhir:type [ fhir:v "dateTime" ]
+  ] ) ; # 
+  fhir:concept ( [
+     fhir:code [ fhir:v "001" ] ;
+     fhir:display [ fhir:v "Arrêté d'autorisation" ] ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2024-12-30T00:00:00+01:00"^^xsd:dateTime
+       ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2024-12-30T00:00:00+01:00"^^xsd:dateTime
+       ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "002" ] ;
+     fhir:display [ fhir:v "Projet de santé" ] ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2024-12-30T00:00:00+01:00"^^xsd:dateTime
+       ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2024-12-30T00:00:00+01:00"^^xsd:dateTime
+       ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "003" ] ;
+     fhir:display [ fhir:v "Arrêté d'agrément" ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "fr-FR" ] ;
+       fhir:use [
+         a sct:900000000000013009 ;
+         fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "900000000000013009" ]
+       ] ;
+       fhir:value [ fhir:v "Agrément" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2024-12-30T00:00:00+01:00"^^xsd:dateTime
+       ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2024-12-30T00:00:00+01:00"^^xsd:dateTime
+       ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "004" ] ;
+     fhir:display [ fhir:v "Convention" ] ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2024-12-30T00:00:00+01:00"^^xsd:dateTime
+       ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2024-12-30T00:00:00+01:00"^^xsd:dateTime
+       ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "005" ] ;
+     fhir:display [ fhir:v "Extrait KBIS" ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "fr-FR" ] ;
+       fhir:use [
+         a sct:900000000000013009 ;
+         fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "900000000000013009" ]
+       ] ;
+       fhir:value [ fhir:v "KBIS" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2024-12-30T00:00:00+01:00"^^xsd:dateTime
+       ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2024-12-30T00:00:00+01:00"^^xsd:dateTime
+       ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "006" ] ;
+     fhir:display [ fhir:v "Lettre de renouvellement" ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "fr-FR" ] ;
+       fhir:use [
+         a sct:900000000000013009 ;
+         fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "900000000000013009" ]
+       ] ;
+       fhir:value [ fhir:v "Lettre renouvellement" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2024-12-30T00:00:00+01:00"^^xsd:dateTime
+       ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2024-12-30T00:00:00+01:00"^^xsd:dateTime
+       ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "007" ] ;
+     fhir:display [ fhir:v "Publication au registre des actes administratifs" ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "fr-FR" ] ;
+       fhir:use [
+         a sct:900000000000013009 ;
+         fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "900000000000013009" ]
+       ] ;
+       fhir:value [ fhir:v "Publication RAA" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2024-12-30T00:00:00+01:00"^^xsd:dateTime
+       ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2024-12-30T00:00:00+01:00"^^xsd:dateTime
+       ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "008" ] ;
+     fhir:display [ fhir:v "Procès verbal de conformité" ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "fr-FR" ] ;
+       fhir:use [
+         a sct:900000000000013009 ;
+         fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "900000000000013009" ]
+       ] ;
+       fhir:value [ fhir:v "PV Conformité" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2024-12-30T00:00:00+01:00"^^xsd:dateTime
+       ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2024-12-30T00:00:00+01:00"^^xsd:dateTime
+       ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "009" ] ;
+     fhir:display [ fhir:v "Contrat pluriannuel d'objectifs et de moyens" ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "fr-FR" ] ;
+       fhir:use [
+         a sct:900000000000013009 ;
+         fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "900000000000013009" ]
+       ] ;
+       fhir:value [ fhir:v "CPOM" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2024-12-30T00:00:00+01:00"^^xsd:dateTime
+       ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2024-12-30T00:00:00+01:00"^^xsd:dateTime
+       ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "010" ] ;
+     fhir:display [ fhir:v "Labélisation" ] ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2024-12-30T00:00:00+01:00"^^xsd:dateTime
+       ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2024-12-30T00:00:00+01:00"^^xsd:dateTime
+       ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "011" ] ;
+     fhir:display [ fhir:v "Habilitation à l'aide sociale" ] ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2024-12-30T00:00:00+01:00"^^xsd:dateTime
+       ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2024-12-30T00:00:00+01:00"^^xsd:dateTime
+       ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "012" ] ;
+     fhir:display [ fhir:v "Procès verbal du tribunal de commerce" ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "fr-FR" ] ;
+       fhir:use [
+         a sct:900000000000013009 ;
+         fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "900000000000013009" ]
+       ] ;
+       fhir:value [ fhir:v "PV tribunal de commerce" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2024-12-30T00:00:00+01:00"^^xsd:dateTime
+       ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2024-12-30T00:00:00+01:00"^^xsd:dateTime
+       ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "013" ] ;
+     fhir:display [ fhir:v "Arrêté de tarification" ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "fr-FR" ] ;
+       fhir:use [
+         a sct:900000000000013009 ;
+         fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "900000000000013009" ]
+       ] ;
+       fhir:value [ fhir:v "Arrêté tarification" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2024-12-30T00:00:00+01:00"^^xsd:dateTime
+       ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2024-12-30T00:00:00+01:00"^^xsd:dateTime
+       ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "014" ] ;
+     fhir:display [ fhir:v "Autre document justificatif" ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "fr-FR" ] ;
+       fhir:use [
+         a sct:900000000000013009 ;
+         fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "900000000000013009" ]
+       ] ;
+       fhir:value [ fhir:v "Autre document" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2024-12-30T00:00:00+01:00"^^xsd:dateTime
+       ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2024-12-30T00:00:00+01:00"^^xsd:dateTime
+       ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "101" ] ;
+     fhir:display [ fhir:v "Courrier et mail des autorités" ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "fr-FR" ] ;
+       fhir:use [
+         a sct:900000000000013009 ;
+         fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "900000000000013009" ]
+       ] ;
+       fhir:value [ fhir:v "Courrier autorité" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2024-12-30T00:00:00+01:00"^^xsd:dateTime
+       ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2024-12-30T00:00:00+01:00"^^xsd:dateTime
+       ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "102" ] ;
+     fhir:display [ fhir:v "Courrier et mail de l'établissement" ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "fr-FR" ] ;
+       fhir:use [
+         a sct:900000000000013009 ;
+         fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "900000000000013009" ]
+       ] ;
+       fhir:value [ fhir:v "Courrier établissement" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2024-12-30T00:00:00+01:00"^^xsd:dateTime
+       ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2024-12-30T00:00:00+01:00"^^xsd:dateTime
+       ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "103" ] ;
+     fhir:display [ fhir:v "Remontées réalisées après l’exploitation de questionnaires d’enquêtes" ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "fr-FR" ] ;
+       fhir:use [
+         a sct:900000000000013009 ;
+         fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "900000000000013009" ]
+       ] ;
+       fhir:value [ fhir:v "Remontée enquête" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2024-12-30T00:00:00+01:00"^^xsd:dateTime
+       ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2024-12-30T00:00:00+01:00"^^xsd:dateTime
+       ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "104" ] ;
+     fhir:display [ fhir:v "Fichiers de données en provenance d’autres systèmes d’information" ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "fr-FR" ] ;
+       fhir:use [
+         a sct:900000000000013009 ;
+         fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "900000000000013009" ]
+       ] ;
+       fhir:value [ fhir:v "Fichier autre SI" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2024-12-30T00:00:00+01:00"^^xsd:dateTime
+       ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2024-12-30T00:00:00+01:00"^^xsd:dateTime
+       ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "105" ] ;
+     fhir:display [ fhir:v "Signalement des internautes ou des partenaires utilisateurs des données" ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "fr-FR" ] ;
+       fhir:use [
+         a sct:900000000000013009 ;
+         fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "900000000000013009" ]
+       ] ;
+       fhir:value [ fhir:v "Signalement" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2024-12-30T00:00:00+01:00"^^xsd:dateTime
+       ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2024-12-30T00:00:00+01:00"^^xsd:dateTime
+       ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "106" ] ;
+     fhir:display [ fhir:v "Autre document informatif" ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "fr-FR" ] ;
+       fhir:use [
+         a sct:900000000000013009 ;
+         fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "900000000000013009" ]
+       ] ;
+       fhir:value [ fhir:v "Autre document" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2024-12-30T00:00:00+01:00"^^xsd:dateTime
+       ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2024-12-30T00:00:00+01:00"^^xsd:dateTime
+       ]
+     ] )
+  ] ) . # 
+
+# -------------------------------------------------------------------------------------
+

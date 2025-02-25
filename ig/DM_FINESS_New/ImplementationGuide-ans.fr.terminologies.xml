@@ -24589,9 +24589,9 @@
         <valueString value="CodeSystem"/>
       </extension>
       <reference>
-        <reference value="CodeSystem/terminologie-cim11-mms"/>
+        <reference value="CodeSystem/terminologie-cim-10"/>
       </reference>
-      <name value="Classification internationale des maladies (11eme révision). Linéarisation pour les statistiques de morbi-mortalité"/>
+      <name value="Classification internationale des maladies 10eme révision, version française à usage PMSI (Programme Médicalisé des Systèmes d'Information)"/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -24599,9 +24599,9 @@
         <valueString value="CodeSystem"/>
       </extension>
       <reference>
-        <reference value="CodeSystem/terminologie-cim-10"/>
+        <reference value="CodeSystem/terminologie-cim11-mms"/>
       </reference>
-      <name value="Classification internationale des maladies 10eme révision, version française à usage PMSI (Programme Médicalisé des Systèmes d'Information)"/>
+      <name value="Classification internationale des maladies et des problèmes de santé connexes - 11ème révision"/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -36954,10 +36954,219 @@
         <valueString value="CodeSystem"/>
       </extension>
       <reference>
+        <reference value="CodeSystem/tre-r347-activite-sanitaire-diverse-regulee"/>
+      </reference>
+      <name value="Tre R347 Activitee Sanitaire Diverse Regulee"/>
+      <description value="Nomenclature des activités sanitaires utilisée pour décrire les Activités Sanitaires Diverses Régulées (ASDR)"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="CodeSystem"/>
+      </extension>
+      <reference>
         <reference value="CodeSystem/tre-r360-type-role-entite-groupe"/>
       </reference>
       <name value="Tre R360 Type Role Entite Groupe"/>
       <description value="Nomenclature des types de rôles que peuvent exercer des entités participants à des groupements"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="CodeSystem"/>
+      </extension>
+      <reference>
+        <reference value="CodeSystem/tre-r372-type-groupe-gco"/>
+      </reference>
+      <name value="Tre R372 Type Groupe Gco"/>
+      <description value="Nomenclature des types de Groupement de Coopération Organique (GCO)"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="CodeSystem"/>
+      </extension>
+      <reference>
+        <reference value="CodeSystem/tre-r373-type-personne-morale"/>
+      </reference>
+      <name value="Tre R373 Type Personne Morale"/>
+      <description value="Nomenclature des types de PM-SMSSE (Personne Morale du champ Sanitaire, Médico-social, Social et Enseignement sur les professions de ces  champs)"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="CodeSystem"/>
+      </extension>
+      <reference>
+        <reference value="CodeSystem/tre-r374-nature-activite-smsse-regulee"/>
+      </reference>
+      <name value="Tre R374 Nature Activite Smsse Regulee"/>
+      <description value="Nomenclature des grandes natures d'activité SMSSE exercées par les entités FINESS+"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="CodeSystem"/>
+      </extension>
+      <reference>
+        <reference value="CodeSystem/tre-r375-mode-financement"/>
+      </reference>
+      <name value="Tre R375 Mode Financement"/>
+      <description value="Nomenclature des modes de financement associées aux capacités de certaines activitées SMSSE"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="CodeSystem"/>
+      </extension>
+      <reference>
+        <reference value="CodeSystem/tre-r376-type-evenement-administratif"/>
+      </reference>
+      <name value="Tre R376 Type Evenement Administratif"/>
+      <description value="Nomenclature des événements affectant le cycle de vie des entités et activités enrgeistrées dans FINESS+"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/tre-r376-type-evenement-administratif-all"/>
+      </reference>
+      <name value="Tre R376 Type Evenement Administratif All"/>
+      <description value="Jeu de valeurs ALL des événements affectant le cycle de vie des entités et activités enrgeistrées dans FINESS+"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="CodeSystem"/>
+      </extension>
+      <reference>
+        <reference value="CodeSystem/tre-r377-usage-adresse"/>
+      </reference>
+      <name value="Tre R377 Usage Adresse"/>
+      <description value="Nomenclature des usages des adresses associées aux entités enregistrés dans FINESS+"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="CodeSystem"/>
+      </extension>
+      <reference>
+        <reference value="CodeSystem/tre-r378-motif-arrete"/>
+      </reference>
+      <name value="Tre R378 Motif Arrete"/>
+      <description value="Nomenclature des motifs des arrêtés enregsitrées dans  FINESS+"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="CodeSystem"/>
+      </extension>
+      <reference>
+        <reference value="CodeSystem/tre-r379-systeme-information"/>
+      </reference>
+      <name value="Tre R379 Systeme Information"/>
+      <description value="Nomenclature des systemes d'information en relation avec FINESS"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="CodeSystem"/>
+      </extension>
+      <reference>
+        <reference value="CodeSystem/tre-r380-habilitation"/>
+      </reference>
+      <name value="Tre R380 Habilitation"/>
+      <description value="Nomenclature des habilitations asscoiées aux capacités des structures FINESS"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="CodeSystem"/>
+      </extension>
+      <reference>
+        <reference value="CodeSystem/tre-r381-activite-amm"/>
+      </reference>
+      <name value="Tre R381 Activite Amm"/>
+      <description value="Nomenclature des activités de soin AMM"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="CodeSystem"/>
+      </extension>
+      <reference>
+        <reference value="CodeSystem/tre-r382-modalite-act-de-soin-amm"/>
+      </reference>
+      <name value="Tre R382 Modalite Act De Soin Amm"/>
+      <description value="Nomenclature des modalités pour les activités de soin AMM"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="CodeSystem"/>
+      </extension>
+      <reference>
+        <reference value="CodeSystem/tre-r383-mention-act-de-soin-amm"/>
+      </reference>
+      <name value="Tre R383 Mention Act De Soin Amm"/>
+      <description value="Nomenclature des mentions pour les activités de soin AMM"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="CodeSystem"/>
+      </extension>
+      <reference>
+        <reference value="CodeSystem/tre-r384-pratique-therapeutique-specifique-act-de-soin-amm"/>
+      </reference>
+      <name value="Tre R384 Pratique Therapeutique Specifique Act De Soin Amm"/>
+      <description value="Nomenclature des pratiques thérapeutiques spécifiques pour les activités de soin AMM"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="CodeSystem"/>
+      </extension>
+      <reference>
+        <reference value="CodeSystem/tre-r385-declaration-act-de-soin-amm"/>
+      </reference>
+      <name value="Tre R385 Declaration Act De Soin Amm"/>
+      <description value="Nomenclature des déclarations pour les activités de soin AMM"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="CodeSystem"/>
+      </extension>
+      <reference>
+        <reference value="CodeSystem/tre-r386-macro-etat-objet-administratif"/>
+      </reference>
+      <name value="Tre R386 Macro Etat Objet Administratif"/>
+      <description value="Nomenclature des macro-etat des structures FINESS qui dérivent de l'état de l'objet. Permet de distinguer les structures actives de celles inactives."/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="CodeSystem"/>
+      </extension>
+      <reference>
+        <reference value="CodeSystem/tre-r387-type-groupement"/>
+      </reference>
+      <name value="Tre R387 Type Groupement"/>
+      <description value="Nomenclature des types de groupement utilisables dans FINESS. Groupement de coopération conventionnelle ou Groupement de coopération organique"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="CodeSystem"/>
+      </extension>
+      <reference>
+        <reference value="CodeSystem/tre-r388-type-logement"/>
+      </reference>
+      <name value="Tre R388 Type Logement"/>
+      <description value="Nomenclature des types de logement associées aux capacités des structures FINESS"/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -39142,6 +39351,72 @@
         <valueString value="CodeSystem"/>
       </extension>
       <reference>
+        <reference value="CodeSystem/TRE-R361-FonctionPublique"/>
+      </reference>
+      <name value="TRE_R361_FonctionPublique"/>
+      <description value="Nomenclature des versants de la fonction publique"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="CodeSystem"/>
+      </extension>
+      <reference>
+        <reference value="CodeSystem/TRE-R362-TypeBudget"/>
+      </reference>
+      <name value="TRE_R362_TypeBudget"/>
+      <description value="Nomenclature des types de budget associés aux Entités Géographiques d'Exercice (EGE) dans FINESS+"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="CodeSystem"/>
+      </extension>
+      <reference>
+        <reference value="CodeSystem/TRE-R363-TypeEngagement"/>
+      </reference>
+      <name value="TRE_R363_TypeEngagement"/>
+      <description value="Nomenclature des grands types d'engagement pouvant être associés dans FINESS+ à des structures ou des activités"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="CodeSystem"/>
+      </extension>
+      <reference>
+        <reference value="CodeSystem/TRE-R364-TypeDocumentAdministratif"/>
+      </reference>
+      <name value="TRE_R364_TypeDocumentAdministratif"/>
+      <description value="Nomenclature des types de document informatif et justificatif pouvant être associé à une entité FINESS"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="CodeSystem"/>
+      </extension>
+      <reference>
+        <reference value="CodeSystem/TRE-R365-EtatObjet"/>
+      </reference>
+      <name value="TRE_R365_EtatObjet"/>
+      <description value="Nomenclature des états élémentaires que peuvent porter les entités et activités FINESS+"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="CodeSystem"/>
+      </extension>
+      <reference>
+        <reference value="CodeSystem/TRE-R366-TypeObjet"/>
+      </reference>
+      <name value="TRE_R366_TypeObjet"/>
+      <description value="Nomenclature des types d'objet enregsitrés et manipulés dans FINESS+"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="CodeSystem"/>
+      </extension>
+      <reference>
         <reference value="CodeSystem/TRE-R368-StatutRessource"/>
       </reference>
       <name value="TRE_R368_StatutRessource"/>
@@ -39168,6 +39443,28 @@
       </reference>
       <name value="TRE_R36_AutreDiplomeObtenu"/>
       <description value="Autre diplôme obtenu"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="CodeSystem"/>
+      </extension>
+      <reference>
+        <reference value="CodeSystem/TRE-R370-RoleRelationEGE"/>
+      </reference>
+      <name value="TRE_R370_RoleRelationEGE"/>
+      <description value="Nomenclature des types de rôle existant entre les Entités Géographiques d'Exercice (EGE) au sein d'une PM-SMSSE"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="CodeSystem"/>
+      </extension>
+      <reference>
+        <reference value="CodeSystem/TRE-R371-TypeGroupeGCC"/>
+      </reference>
+      <name value="TRE_R371_TypeGroupeGCC"/>
+      <description value="Nomenclature des types de Groupement de Coopération conventionnelle (GCC)"/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>

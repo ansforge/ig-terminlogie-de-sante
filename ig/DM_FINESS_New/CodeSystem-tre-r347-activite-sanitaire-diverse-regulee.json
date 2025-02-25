@@ -1,0 +1,257 @@
+{
+  "resourceType" : "CodeSystem",
+  "id" : "tre-r347-activite-sanitaire-diverse-regulee",
+  "meta" : {
+    "versionId" : "1",
+    "lastUpdated" : "2025-02-22T14:11:19.571+00:00",
+    "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablecodesystem"]
+  },
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: CodeSystem tre-r347-activite-sanitaire-diverse-regulee</b></p><a name=\"tre-r347-activite-sanitaire-diverse-regulee\"> </a><a name=\"hctre-r347-activite-sanitaire-diverse-regulee\"> </a><a name=\"tre-r347-activite-sanitaire-diverse-regulee-fr-FR\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">version: 1; Last updated: 2025-02-22 14:11:19+0000</p><p style=\"margin-bottom: 0px\">Profile: <a href=\"http://hl7.org/fhir/R4/shareablecodesystem.html\">Shareable CodeSystem</a></p></div><p><b>Properties</b></p><p><b>This code system defines the following properties for its concepts</b></p><table class=\"grid\"><tr><td><b>Name</b></td><td><b>Code</b></td><td><b>URI</b></td><td><b>Type</b></td><td><b>Description</b></td></tr><tr><td>Parent</td><td>parent</td><td>http://hl7.org/fhir/concept-properties#parent</td><td>code</td><td>An immediate parent of the concept in the hierarchy</td></tr><tr><td>Child</td><td>child</td><td>http://hl7.org/fhir/concept-properties#child</td><td>code</td><td>An immediate child of the concept in the hierarchy</td></tr><tr><td>dateValid</td><td>dateValid</td><td/><td>dateTime</td><td>date de validité d'un code concept</td></tr><tr><td>dateMaj</td><td>dateMaj</td><td/><td>dateTime</td><td>Date de mise à jour d'un code concept</td></tr><tr><td>dateFin</td><td>dateFin</td><td/><td>dateTime</td><td>Date de fin d'exploitation d'un code concept</td></tr><tr><td>status</td><td>status</td><td>http://hl7.org/fhir/concept-properties#status</td><td>code</td><td>Statut d'un code concept</td></tr><tr><td>deprecationDate</td><td>deprecationDate</td><td>http://hl7.org/fhir/concept-properties#deprecationDate</td><td>dateTime</td><td>Date de dépréciation du code</td></tr><tr><td>retirementDate</td><td>retirementDate</td><td>http://hl7.org/fhir/concept-properties#retirementDate</td><td>dateTime</td><td>Date de retrait du code</td></tr></table><p><b>Concepts</b></p><p>This case-insensitive code system <code>https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r347-activite-sanitaire-diverse-regulee</code> defines the following codes in a Is-A hierarchy:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Parent</b></td><td><b>Child</b></td><td><b>dateValid</b></td><td><b>dateMaj</b></td><td><b>status</b></td><td><b>French (France) (fr)</b></td></tr><tr><td style=\"white-space:nowrap\">0200<a name=\"tre-r347-activite-sanitaire-diverse-regulee-0200\"> </a></td><td>Hospitalisation</td><td/><td>0210</td><td>2025-02-20T00:00:00+01:00</td><td>2025-02-20T00:00:00+01:00</td><td>active</td><td/></tr><tr><td style=\"white-space:nowrap\">0210<a name=\"tre-r347-activite-sanitaire-diverse-regulee-0210\"> </a></td><td>Médecine</td><td><a href=\"#tre-r347-activite-sanitaire-diverse-regulee-0200\">0200</a></td><td>0211, 0212</td><td>2025-02-20T00:00:00+01:00</td><td>2025-02-20T00:00:00+01:00</td><td>active</td><td/></tr><tr><td style=\"white-space:nowrap\">0211<a name=\"tre-r347-activite-sanitaire-diverse-regulee-0211\"> </a></td><td>Médecine Générale</td><td><a href=\"#tre-r347-activite-sanitaire-diverse-regulee-0210\">0210</a></td><td>101, 102</td><td>2025-02-20T00:00:00+01:00</td><td>2025-02-20T00:00:00+01:00</td><td>active</td><td/></tr><tr><td style=\"white-space:nowrap\">0212<a name=\"tre-r347-activite-sanitaire-diverse-regulee-0212\"> </a></td><td>Pédiatrie</td><td><a href=\"#tre-r347-activite-sanitaire-diverse-regulee-0210\">0210</a></td><td>112</td><td>2025-02-20T00:00:00+01:00</td><td>2025-02-20T00:00:00+01:00</td><td>active</td><td/></tr><tr><td style=\"white-space:nowrap\">101<a name=\"tre-r347-activite-sanitaire-diverse-regulee-101\"> </a></td><td>Médecine Générale ou Médecine Interne</td><td><a href=\"#tre-r347-activite-sanitaire-diverse-regulee-0211\">0211</a></td><td/><td>2025-02-20T00:00:00+01:00</td><td>2025-02-20T00:00:00+01:00</td><td>active</td><td>Méd. Génér. Méd.Int.</td></tr><tr><td style=\"white-space:nowrap\">102<a name=\"tre-r347-activite-sanitaire-diverse-regulee-102\"> </a></td><td>Maladie Infectieuse et Parasitaire</td><td><a href=\"#tre-r347-activite-sanitaire-diverse-regulee-0211\">0211</a></td><td/><td>2025-02-20T00:00:00+01:00</td><td>2025-02-20T00:00:00+01:00</td><td>active</td><td>Malad.Infect.Parasit</td></tr><tr><td style=\"white-space:nowrap\">112<a name=\"tre-r347-activite-sanitaire-diverse-regulee-112\"> </a></td><td>Néonatalogie</td><td><a href=\"#tre-r347-activite-sanitaire-diverse-regulee-0212\">0212</a></td><td/><td>2025-02-20T00:00:00+01:00</td><td>2025-02-20T00:00:00+01:00</td><td>active</td><td/></tr></table></div>"
+  },
+  "extension" : [{
+    "url" : "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod",
+    "valuePeriod" : {
+      "start" : "2024-10-18T00:00:00+01:00"
+    }
+  }],
+  "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r347-activite-sanitaire-diverse-regulee",
+  "identifier" : [{
+    "system" : "urn:ietf:rfc:3986",
+    "value" : "urn:oid:1.2.250.1.213.1.6.1.248"
+  }],
+  "version" : "20250220120000",
+  "name" : "TreR347ActiviteSanitaireDiverseRegulee",
+  "title" : "Tre R347 Activitee Sanitaire Diverse Regulee",
+  "status" : "active",
+  "experimental" : false,
+  "date" : "2025-02-20",
+  "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
+  "description" : "Nomenclature des activités sanitaires utilisée pour décrire les Activités Sanitaires Diverses Régulées (ASDR)",
+  "caseSensitive" : false,
+  "hierarchyMeaning" : "is-a",
+  "content" : "complete",
+  "count" : 7,
+  "property" : [{
+    "code" : "parent",
+    "uri" : "http://hl7.org/fhir/concept-properties#parent",
+    "description" : "An immediate parent of the concept in the hierarchy",
+    "type" : "code"
+  },
+  {
+    "code" : "child",
+    "uri" : "http://hl7.org/fhir/concept-properties#child",
+    "description" : "An immediate child of the concept in the hierarchy",
+    "type" : "code"
+  },
+  {
+    "code" : "dateValid",
+    "description" : "date de validité d'un code concept",
+    "type" : "dateTime"
+  },
+  {
+    "code" : "dateMaj",
+    "description" : "Date de mise à jour d'un code concept",
+    "type" : "dateTime"
+  },
+  {
+    "code" : "dateFin",
+    "description" : "Date de fin d'exploitation d'un code concept",
+    "type" : "dateTime"
+  },
+  {
+    "code" : "status",
+    "uri" : "http://hl7.org/fhir/concept-properties#status",
+    "description" : "Statut d'un code concept",
+    "type" : "code"
+  },
+  {
+    "code" : "deprecationDate",
+    "uri" : "http://hl7.org/fhir/concept-properties#deprecationDate",
+    "description" : "Date de dépréciation du code",
+    "type" : "dateTime"
+  },
+  {
+    "code" : "retirementDate",
+    "uri" : "http://hl7.org/fhir/concept-properties#retirementDate",
+    "description" : "Date de retrait du code",
+    "type" : "dateTime"
+  }],
+  "concept" : [{
+    "code" : "0200",
+    "display" : "Hospitalisation",
+    "property" : [{
+      "code" : "child",
+      "valueCode" : "0210"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2025-02-20T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2025-02-20T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    }]
+  },
+  {
+    "code" : "0210",
+    "display" : "Médecine",
+    "property" : [{
+      "code" : "parent",
+      "valueCode" : "0200"
+    },
+    {
+      "code" : "child",
+      "valueCode" : "0211"
+    },
+    {
+      "code" : "child",
+      "valueCode" : "0212"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2025-02-20T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2025-02-20T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    }]
+  },
+  {
+    "code" : "0211",
+    "display" : "Médecine Générale",
+    "property" : [{
+      "code" : "parent",
+      "valueCode" : "0210"
+    },
+    {
+      "code" : "child",
+      "valueCode" : "101"
+    },
+    {
+      "code" : "child",
+      "valueCode" : "102"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2025-02-20T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2025-02-20T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    }]
+  },
+  {
+    "code" : "0212",
+    "display" : "Pédiatrie",
+    "property" : [{
+      "code" : "parent",
+      "valueCode" : "0210"
+    },
+    {
+      "code" : "child",
+      "valueCode" : "112"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2025-02-20T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2025-02-20T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    }]
+  },
+  {
+    "code" : "101",
+    "display" : "Médecine Générale ou Médecine Interne",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "Méd. Génér. Méd.Int."
+    }],
+    "property" : [{
+      "code" : "parent",
+      "valueCode" : "0211"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2025-02-20T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2025-02-20T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    }]
+  },
+  {
+    "code" : "102",
+    "display" : "Maladie Infectieuse et Parasitaire",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "Malad.Infect.Parasit"
+    }],
+    "property" : [{
+      "code" : "parent",
+      "valueCode" : "0211"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2025-02-20T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2025-02-20T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    }]
+  },
+  {
+    "code" : "112",
+    "display" : "Néonatalogie",
+    "property" : [{
+      "code" : "parent",
+      "valueCode" : "0212"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2025-02-20T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2025-02-20T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    }]
+  }]
+}

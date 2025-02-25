@@ -1,0 +1,334 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sct: <http://snomed.info/id/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<https://interop.esante.gouv.fr/terminologies/CodeSystem/tre-r347-activite-sanitaire-diverse-regulee> a fhir:CodeSystem ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "tre-r347-activite-sanitaire-diverse-regulee"] ; # 
+  fhir:meta [
+     fhir:versionId [ fhir:v "1" ] ;
+     fhir:lastUpdated [ fhir:v "2025-02-22T14:11:19.571+00:00"^^xsd:dateTime ] ;
+     fhir:profile ( [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/shareablecodesystem"^^xsd:anyURI ;
+       fhir:link <http://hl7.org/fhir/StructureDefinition/shareablecodesystem>
+     ] )
+  ] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: CodeSystem tre-r347-activite-sanitaire-diverse-regulee</b></p><a name=\"tre-r347-activite-sanitaire-diverse-regulee\"> </a><a name=\"hctre-r347-activite-sanitaire-diverse-regulee\"> </a><a name=\"tre-r347-activite-sanitaire-diverse-regulee-fr-FR\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">version: 1; Last updated: 2025-02-22 14:11:19+0000</p><p style=\"margin-bottom: 0px\">Profile: <a href=\"http://hl7.org/fhir/R4/shareablecodesystem.html\">Shareable CodeSystem</a></p></div><p><b>Properties</b></p><p><b>This code system defines the following properties for its concepts</b></p><table class=\"grid\"><tr><td><b>Name</b></td><td><b>Code</b></td><td><b>URI</b></td><td><b>Type</b></td><td><b>Description</b></td></tr><tr><td>Parent</td><td>parent</td><td>http://hl7.org/fhir/concept-properties#parent</td><td>code</td><td>An immediate parent of the concept in the hierarchy</td></tr><tr><td>Child</td><td>child</td><td>http://hl7.org/fhir/concept-properties#child</td><td>code</td><td>An immediate child of the concept in the hierarchy</td></tr><tr><td>dateValid</td><td>dateValid</td><td/><td>dateTime</td><td>date de validité d'un code concept</td></tr><tr><td>dateMaj</td><td>dateMaj</td><td/><td>dateTime</td><td>Date de mise à jour d'un code concept</td></tr><tr><td>dateFin</td><td>dateFin</td><td/><td>dateTime</td><td>Date de fin d'exploitation d'un code concept</td></tr><tr><td>status</td><td>status</td><td>http://hl7.org/fhir/concept-properties#status</td><td>code</td><td>Statut d'un code concept</td></tr><tr><td>deprecationDate</td><td>deprecationDate</td><td>http://hl7.org/fhir/concept-properties#deprecationDate</td><td>dateTime</td><td>Date de dépréciation du code</td></tr><tr><td>retirementDate</td><td>retirementDate</td><td>http://hl7.org/fhir/concept-properties#retirementDate</td><td>dateTime</td><td>Date de retrait du code</td></tr></table><p><b>Concepts</b></p><p>This case-insensitive code system <code>https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r347-activite-sanitaire-diverse-regulee</code> defines the following codes in a Is-A hierarchy:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Parent</b></td><td><b>Child</b></td><td><b>dateValid</b></td><td><b>dateMaj</b></td><td><b>status</b></td><td><b>French (France) (fr)</b></td></tr><tr><td style=\"white-space:nowrap\">0200<a name=\"tre-r347-activite-sanitaire-diverse-regulee-0200\"> </a></td><td>Hospitalisation</td><td/><td>0210</td><td>2025-02-20T00:00:00+01:00</td><td>2025-02-20T00:00:00+01:00</td><td>active</td><td/></tr><tr><td style=\"white-space:nowrap\">0210<a name=\"tre-r347-activite-sanitaire-diverse-regulee-0210\"> </a></td><td>Médecine</td><td><a href=\"#tre-r347-activite-sanitaire-diverse-regulee-0200\">0200</a></td><td>0211, 0212</td><td>2025-02-20T00:00:00+01:00</td><td>2025-02-20T00:00:00+01:00</td><td>active</td><td/></tr><tr><td style=\"white-space:nowrap\">0211<a name=\"tre-r347-activite-sanitaire-diverse-regulee-0211\"> </a></td><td>Médecine Générale</td><td><a href=\"#tre-r347-activite-sanitaire-diverse-regulee-0210\">0210</a></td><td>101, 102</td><td>2025-02-20T00:00:00+01:00</td><td>2025-02-20T00:00:00+01:00</td><td>active</td><td/></tr><tr><td style=\"white-space:nowrap\">0212<a name=\"tre-r347-activite-sanitaire-diverse-regulee-0212\"> </a></td><td>Pédiatrie</td><td><a href=\"#tre-r347-activite-sanitaire-diverse-regulee-0210\">0210</a></td><td>112</td><td>2025-02-20T00:00:00+01:00</td><td>2025-02-20T00:00:00+01:00</td><td>active</td><td/></tr><tr><td style=\"white-space:nowrap\">101<a name=\"tre-r347-activite-sanitaire-diverse-regulee-101\"> </a></td><td>Médecine Générale ou Médecine Interne</td><td><a href=\"#tre-r347-activite-sanitaire-diverse-regulee-0211\">0211</a></td><td/><td>2025-02-20T00:00:00+01:00</td><td>2025-02-20T00:00:00+01:00</td><td>active</td><td>Méd. Génér. Méd.Int.</td></tr><tr><td style=\"white-space:nowrap\">102<a name=\"tre-r347-activite-sanitaire-diverse-regulee-102\"> </a></td><td>Maladie Infectieuse et Parasitaire</td><td><a href=\"#tre-r347-activite-sanitaire-diverse-regulee-0211\">0211</a></td><td/><td>2025-02-20T00:00:00+01:00</td><td>2025-02-20T00:00:00+01:00</td><td>active</td><td>Malad.Infect.Parasit</td></tr><tr><td style=\"white-space:nowrap\">112<a name=\"tre-r347-activite-sanitaire-diverse-regulee-112\"> </a></td><td>Néonatalogie</td><td><a href=\"#tre-r347-activite-sanitaire-diverse-regulee-0212\">0212</a></td><td/><td>2025-02-20T00:00:00+01:00</td><td>2025-02-20T00:00:00+01:00</td><td>active</td><td/></tr></table></div>"^^rdf:XMLLiteral
+  ] ; # 
+  fhir:extension ( [
+     fhir:url [ fhir:v "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod"^^xsd:anyURI ] ;
+     fhir:value [
+       a fhir:Period ;
+       fhir:start [ fhir:v "2024-10-18T00:00:00+01:00"^^xsd:dateTime ]
+     ]
+  ] ) ; # 
+  fhir:url [ fhir:v "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r347-activite-sanitaire-diverse-regulee"^^xsd:anyURI] ; # 
+  fhir:identifier ( [
+     fhir:system [ fhir:v "urn:ietf:rfc:3986"^^xsd:anyURI ] ;
+     fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.6.1.248" ]
+  ] ) ; # 
+  fhir:version [ fhir:v "20250220120000"] ; # 
+  fhir:name [ fhir:v "TreR347ActiviteSanitaireDiverseRegulee"] ; # 
+  fhir:title [ fhir:v "Tre R347 Activitee Sanitaire Diverse Regulee"] ; # 
+  fhir:status [ fhir:v "active"] ; # 
+  fhir:experimental [ fhir:v "false"^^xsd:boolean] ; # 
+  fhir:date [ fhir:v "2025-02-20"^^xsd:date] ; # 
+  fhir:publisher [ fhir:v "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris"] ; # 
+  fhir:description [ fhir:v "Nomenclature des activités sanitaires utilisée pour décrire les Activités Sanitaires Diverses Régulées (ASDR)"] ; # 
+  fhir:caseSensitive [ fhir:v "false"^^xsd:boolean] ; # 
+  fhir:hierarchyMeaning [ fhir:v "is-a"] ; # 
+  fhir:content [ fhir:v "complete"] ; # 
+  fhir:count [ fhir:v "7"^^xsd:nonNegativeInteger] ; # 
+  fhir:property ( [
+     fhir:code [ fhir:v "parent" ] ;
+     fhir:uri [ fhir:v "http://hl7.org/fhir/concept-properties#parent"^^xsd:anyURI ] ;
+     fhir:description [ fhir:v "An immediate parent of the concept in the hierarchy" ] ;
+     fhir:type [ fhir:v "code" ]
+  ] [
+     fhir:code [ fhir:v "child" ] ;
+     fhir:uri [ fhir:v "http://hl7.org/fhir/concept-properties#child"^^xsd:anyURI ] ;
+     fhir:description [ fhir:v "An immediate child of the concept in the hierarchy" ] ;
+     fhir:type [ fhir:v "code" ]
+  ] [
+     fhir:code [ fhir:v "dateValid" ] ;
+     fhir:description [ fhir:v "date de validité d'un code concept" ] ;
+     fhir:type [ fhir:v "dateTime" ]
+  ] [
+     fhir:code [ fhir:v "dateMaj" ] ;
+     fhir:description [ fhir:v "Date de mise à jour d'un code concept" ] ;
+     fhir:type [ fhir:v "dateTime" ]
+  ] [
+     fhir:code [ fhir:v "dateFin" ] ;
+     fhir:description [ fhir:v "Date de fin d'exploitation d'un code concept" ] ;
+     fhir:type [ fhir:v "dateTime" ]
+  ] [
+     fhir:code [ fhir:v "status" ] ;
+     fhir:uri [ fhir:v "http://hl7.org/fhir/concept-properties#status"^^xsd:anyURI ] ;
+     fhir:description [ fhir:v "Statut d'un code concept" ] ;
+     fhir:type [ fhir:v "code" ]
+  ] [
+     fhir:code [ fhir:v "deprecationDate" ] ;
+     fhir:uri [ fhir:v "http://hl7.org/fhir/concept-properties#deprecationDate"^^xsd:anyURI ] ;
+     fhir:description [ fhir:v "Date de dépréciation du code" ] ;
+     fhir:type [ fhir:v "dateTime" ]
+  ] [
+     fhir:code [ fhir:v "retirementDate" ] ;
+     fhir:uri [ fhir:v "http://hl7.org/fhir/concept-properties#retirementDate"^^xsd:anyURI ] ;
+     fhir:description [ fhir:v "Date de retrait du code" ] ;
+     fhir:type [ fhir:v "dateTime" ]
+  ] ) ; # 
+  fhir:concept ( [
+     fhir:code [ fhir:v "0200" ] ;
+     fhir:display [ fhir:v "Hospitalisation" ] ;
+     fhir:property ( [
+       fhir:code [ fhir:v "child" ] ;
+       fhir:value [
+         a fhir:code ;
+         fhir:v "0210"
+       ]
+     ] [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2025-02-20T00:00:00+01:00"^^xsd:dateTime
+       ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2025-02-20T00:00:00+01:00"^^xsd:dateTime
+       ]
+     ] [
+       fhir:code [ fhir:v "status" ] ;
+       fhir:value [
+         a fhir:code ;
+         fhir:v "active"
+       ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "0210" ] ;
+     fhir:display [ fhir:v "Médecine" ] ;
+     fhir:property ( [
+       fhir:code [ fhir:v "parent" ] ;
+       fhir:value [
+         a fhir:code ;
+         fhir:v "0200"
+       ]
+     ] [
+       fhir:code [ fhir:v "child" ] ;
+       fhir:value [
+         a fhir:code ;
+         fhir:v "0211"
+       ]
+     ] [
+       fhir:code [ fhir:v "child" ] ;
+       fhir:value [
+         a fhir:code ;
+         fhir:v "0212"
+       ]
+     ] [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2025-02-20T00:00:00+01:00"^^xsd:dateTime
+       ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2025-02-20T00:00:00+01:00"^^xsd:dateTime
+       ]
+     ] [
+       fhir:code [ fhir:v "status" ] ;
+       fhir:value [
+         a fhir:code ;
+         fhir:v "active"
+       ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "0211" ] ;
+     fhir:display [ fhir:v "Médecine Générale" ] ;
+     fhir:property ( [
+       fhir:code [ fhir:v "parent" ] ;
+       fhir:value [
+         a fhir:code ;
+         fhir:v "0210"
+       ]
+     ] [
+       fhir:code [ fhir:v "child" ] ;
+       fhir:value [
+         a fhir:code ;
+         fhir:v "101"
+       ]
+     ] [
+       fhir:code [ fhir:v "child" ] ;
+       fhir:value [
+         a fhir:code ;
+         fhir:v "102"
+       ]
+     ] [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2025-02-20T00:00:00+01:00"^^xsd:dateTime
+       ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2025-02-20T00:00:00+01:00"^^xsd:dateTime
+       ]
+     ] [
+       fhir:code [ fhir:v "status" ] ;
+       fhir:value [
+         a fhir:code ;
+         fhir:v "active"
+       ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "0212" ] ;
+     fhir:display [ fhir:v "Pédiatrie" ] ;
+     fhir:property ( [
+       fhir:code [ fhir:v "parent" ] ;
+       fhir:value [
+         a fhir:code ;
+         fhir:v "0210"
+       ]
+     ] [
+       fhir:code [ fhir:v "child" ] ;
+       fhir:value [
+         a fhir:code ;
+         fhir:v "112"
+       ]
+     ] [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2025-02-20T00:00:00+01:00"^^xsd:dateTime
+       ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2025-02-20T00:00:00+01:00"^^xsd:dateTime
+       ]
+     ] [
+       fhir:code [ fhir:v "status" ] ;
+       fhir:value [
+         a fhir:code ;
+         fhir:v "active"
+       ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "101" ] ;
+     fhir:display [ fhir:v "Médecine Générale ou Médecine Interne" ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "fr-FR" ] ;
+       fhir:use [
+         a sct:900000000000013009 ;
+         fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "900000000000013009" ]
+       ] ;
+       fhir:value [ fhir:v "Méd. Génér. Méd.Int." ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "parent" ] ;
+       fhir:value [
+         a fhir:code ;
+         fhir:v "0211"
+       ]
+     ] [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2025-02-20T00:00:00+01:00"^^xsd:dateTime
+       ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2025-02-20T00:00:00+01:00"^^xsd:dateTime
+       ]
+     ] [
+       fhir:code [ fhir:v "status" ] ;
+       fhir:value [
+         a fhir:code ;
+         fhir:v "active"
+       ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "102" ] ;
+     fhir:display [ fhir:v "Maladie Infectieuse et Parasitaire" ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "fr-FR" ] ;
+       fhir:use [
+         a sct:900000000000013009 ;
+         fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "900000000000013009" ]
+       ] ;
+       fhir:value [ fhir:v "Malad.Infect.Parasit" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "parent" ] ;
+       fhir:value [
+         a fhir:code ;
+         fhir:v "0211"
+       ]
+     ] [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2025-02-20T00:00:00+01:00"^^xsd:dateTime
+       ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2025-02-20T00:00:00+01:00"^^xsd:dateTime
+       ]
+     ] [
+       fhir:code [ fhir:v "status" ] ;
+       fhir:value [
+         a fhir:code ;
+         fhir:v "active"
+       ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "112" ] ;
+     fhir:display [ fhir:v "Néonatalogie" ] ;
+     fhir:property ( [
+       fhir:code [ fhir:v "parent" ] ;
+       fhir:value [
+         a fhir:code ;
+         fhir:v "0212"
+       ]
+     ] [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2025-02-20T00:00:00+01:00"^^xsd:dateTime
+       ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2025-02-20T00:00:00+01:00"^^xsd:dateTime
+       ]
+     ] [
+       fhir:code [ fhir:v "status" ] ;
+       fhir:value [
+         a fhir:code ;
+         fhir:v "active"
+       ]
+     ] )
+  ] ) . # 
+
+# -------------------------------------------------------------------------------------
+

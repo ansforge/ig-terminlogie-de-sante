@@ -1,0 +1,244 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sct: <http://snomed.info/id/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<https://interop.esante.gouv.fr/terminologies/CodeSystem/tre-r374-nature-activite-smsse-regulee> a fhir:CodeSystem ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "tre-r374-nature-activite-smsse-regulee"] ; # 
+  fhir:meta [
+     fhir:versionId [ fhir:v "1" ] ;
+     fhir:lastUpdated [ fhir:v "2024-12-30T12:00:00+01:00"^^xsd:dateTime ] ;
+     fhir:profile ( [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/shareablecodesystem"^^xsd:anyURI ;
+       fhir:link <http://hl7.org/fhir/StructureDefinition/shareablecodesystem>
+     ] )
+  ] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: CodeSystem tre-r374-nature-activite-smsse-regulee</b></p><a name=\"tre-r374-nature-activite-smsse-regulee\"> </a><a name=\"hctre-r374-nature-activite-smsse-regulee\"> </a><a name=\"tre-r374-nature-activite-smsse-regulee-fr-FR\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">version: 1; Last updated: 2024-12-30 12:00:00+0100</p><p style=\"margin-bottom: 0px\">Profile: <a href=\"http://hl7.org/fhir/R4/shareablecodesystem.html\">Shareable CodeSystem</a></p></div><p><b>Properties</b></p><p><b>This code system defines the following properties for its concepts</b></p><table class=\"grid\"><tr><td><b>Name</b></td><td><b>Code</b></td><td><b>Type</b></td><td><b>Description</b></td></tr><tr><td>dateValid</td><td>dateValid</td><td>dateTime</td><td>date de validité d'un code concept</td></tr><tr><td>dateMaj</td><td>dateMaj</td><td>dateTime</td><td>Date de mise à jour d'un code concept</td></tr><tr><td>dateFin</td><td>dateFin</td><td>dateTime</td><td>Date de fin d'exploitation d'un code concept</td></tr></table><p><b>Concepts</b></p><p>This case-insensitive code system <code>https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r374-nature-activite-smsse-regulee</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>dateValid</b></td><td><b>dateMaj</b></td><td><b>French (France) (fr)</b></td></tr><tr><td style=\"white-space:nowrap\">AASA<a name=\"tre-r374-nature-activite-smsse-regulee-AASA\"> </a></td><td>Autre Activité Soumise à Autorisation</td><td>2024-12-30T00:00:00+01:00</td><td>2024-12-30T00:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">AER<a name=\"tre-r374-nature-activite-smsse-regulee-AER\"> </a></td><td>Activité d'Enseignement Régulée</td><td>2024-12-30T00:00:00+01:00</td><td>2024-12-30T00:00:00+01:00</td><td>Activité Enseignement Régulée</td></tr><tr><td style=\"white-space:nowrap\">AMSR<a name=\"tre-r374-nature-activite-smsse-regulee-AMSR\"> </a></td><td>Activité Médico-Sociale Régulée</td><td>2024-12-30T00:00:00+01:00</td><td>2024-12-30T00:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">AMM<a name=\"tre-r374-nature-activite-smsse-regulee-AMM\"> </a></td><td>Activité de soin 'Activité-Modalité-Mention'</td><td>2024-12-30T00:00:00+01:00</td><td>2024-12-30T00:00:00+01:00</td><td>Activité de soin AMM</td></tr><tr><td style=\"white-space:nowrap\">AS<a name=\"tre-r374-nature-activite-smsse-regulee-AS\"> </a></td><td>Activité de soin 'Activité-Modalité-Forme'</td><td>2024-12-30T00:00:00+01:00</td><td>2024-12-30T00:00:00+01:00</td><td>Activité de soin AMF</td></tr><tr><td style=\"white-space:nowrap\">ASDR<a name=\"tre-r374-nature-activite-smsse-regulee-ASDR\"> </a></td><td>Activité Sanitaire Diverse Régulée</td><td>2024-12-30T00:00:00+01:00</td><td>2024-12-30T00:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">ASOCR<a name=\"tre-r374-nature-activite-smsse-regulee-ASOCR\"> </a></td><td>Activité Sociale Régulée</td><td>2024-12-30T00:00:00+01:00</td><td>2024-12-30T00:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">ASR<a name=\"tre-r374-nature-activite-smsse-regulee-ASR\"> </a></td><td>Activité Soumise à Reconnaissance contractuelle</td><td>2024-12-30T00:00:00+01:00</td><td>2024-12-30T00:00:00+01:00</td><td>Activité Soumise à Reconnaissance</td></tr><tr><td style=\"white-space:nowrap\">EML<a name=\"tre-r374-nature-activite-smsse-regulee-EML\"> </a></td><td>Equipement Matériel Lourd</td><td>2024-12-30T00:00:00+01:00</td><td>2024-12-30T00:00:00+01:00</td><td/></tr></table></div>"^^rdf:XMLLiteral
+  ] ; # 
+  fhir:extension ( [
+     fhir:url [ fhir:v "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod"^^xsd:anyURI ] ;
+     fhir:value [
+       a fhir:Period ;
+       fhir:start [ fhir:v "2024-12-30T12:00:00+01:00"^^xsd:dateTime ]
+     ]
+  ] ) ; # 
+  fhir:url [ fhir:v "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r374-nature-activite-smsse-regulee"^^xsd:anyURI] ; # 
+  fhir:identifier ( [
+     fhir:system [ fhir:v "urn:ietf:rfc:3986"^^xsd:anyURI ] ;
+     fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.6.1.289" ]
+  ] ) ; # 
+  fhir:version [ fhir:v "20241230120000"] ; # 
+  fhir:name [ fhir:v "TreR374NatureActiviteSmsseRegulee"] ; # 
+  fhir:title [ fhir:v "Tre R374 Nature Activite Smsse Regulee"] ; # 
+  fhir:status [ fhir:v "active"] ; # 
+  fhir:experimental [ fhir:v "false"^^xsd:boolean] ; # 
+  fhir:date [ fhir:v "2024-12-30T12:00:00+01:00"^^xsd:dateTime] ; # 
+  fhir:publisher [ fhir:v "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris"] ; # 
+  fhir:description [ fhir:v "Nomenclature des grandes natures d'activité SMSSE exercées par les entités FINESS+"] ; # 
+  fhir:caseSensitive [ fhir:v "false"^^xsd:boolean] ; # 
+  fhir:content [ fhir:v "complete"] ; # 
+  fhir:count [ fhir:v "9"^^xsd:nonNegativeInteger] ; # 
+  fhir:property ( [
+     fhir:code [ fhir:v "dateValid" ] ;
+     fhir:description [ fhir:v "date de validité d'un code concept" ] ;
+     fhir:type [ fhir:v "dateTime" ]
+  ] [
+     fhir:code [ fhir:v "dateMaj" ] ;
+     fhir:description [ fhir:v "Date de mise à jour d'un code concept" ] ;
+     fhir:type [ fhir:v "dateTime" ]
+  ] [
+     fhir:code [ fhir:v "dateFin" ] ;
+     fhir:description [ fhir:v "Date de fin d'exploitation d'un code concept" ] ;
+     fhir:type [ fhir:v "dateTime" ]
+  ] ) ; # 
+  fhir:concept ( [
+     fhir:code [ fhir:v "AASA" ] ;
+     fhir:display [ fhir:v "Autre Activité Soumise à Autorisation" ] ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2024-12-30T00:00:00+01:00"^^xsd:dateTime
+       ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2024-12-30T00:00:00+01:00"^^xsd:dateTime
+       ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "AER" ] ;
+     fhir:display [ fhir:v "Activité d'Enseignement Régulée" ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "fr-FR" ] ;
+       fhir:use [
+         a sct:900000000000013009 ;
+         fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "900000000000013009" ]
+       ] ;
+       fhir:value [ fhir:v "Activité Enseignement Régulée" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2024-12-30T00:00:00+01:00"^^xsd:dateTime
+       ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2024-12-30T00:00:00+01:00"^^xsd:dateTime
+       ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "AMSR" ] ;
+     fhir:display [ fhir:v "Activité Médico-Sociale Régulée" ] ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2024-12-30T00:00:00+01:00"^^xsd:dateTime
+       ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2024-12-30T00:00:00+01:00"^^xsd:dateTime
+       ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "AMM" ] ;
+     fhir:display [ fhir:v "Activité de soin 'Activité-Modalité-Mention'" ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "fr-FR" ] ;
+       fhir:use [
+         a sct:900000000000013009 ;
+         fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "900000000000013009" ]
+       ] ;
+       fhir:value [ fhir:v "Activité de soin AMM" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2024-12-30T00:00:00+01:00"^^xsd:dateTime
+       ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2024-12-30T00:00:00+01:00"^^xsd:dateTime
+       ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "AS" ] ;
+     fhir:display [ fhir:v "Activité de soin 'Activité-Modalité-Forme'" ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "fr-FR" ] ;
+       fhir:use [
+         a sct:900000000000013009 ;
+         fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "900000000000013009" ]
+       ] ;
+       fhir:value [ fhir:v "Activité de soin AMF" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2024-12-30T00:00:00+01:00"^^xsd:dateTime
+       ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2024-12-30T00:00:00+01:00"^^xsd:dateTime
+       ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "ASDR" ] ;
+     fhir:display [ fhir:v "Activité Sanitaire Diverse Régulée" ] ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2024-12-30T00:00:00+01:00"^^xsd:dateTime
+       ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2024-12-30T00:00:00+01:00"^^xsd:dateTime
+       ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "ASOCR" ] ;
+     fhir:display [ fhir:v "Activité Sociale Régulée" ] ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2024-12-30T00:00:00+01:00"^^xsd:dateTime
+       ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2024-12-30T00:00:00+01:00"^^xsd:dateTime
+       ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "ASR" ] ;
+     fhir:display [ fhir:v "Activité Soumise à Reconnaissance contractuelle" ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "fr-FR" ] ;
+       fhir:use [
+         a sct:900000000000013009 ;
+         fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "900000000000013009" ]
+       ] ;
+       fhir:value [ fhir:v "Activité Soumise à Reconnaissance" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2024-12-30T00:00:00+01:00"^^xsd:dateTime
+       ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2024-12-30T00:00:00+01:00"^^xsd:dateTime
+       ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "EML" ] ;
+     fhir:display [ fhir:v "Equipement Matériel Lourd" ] ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2024-12-30T00:00:00+01:00"^^xsd:dateTime
+       ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2024-12-30T00:00:00+01:00"^^xsd:dateTime
+       ]
+     ] )
+  ] ) . # 
+
+# -------------------------------------------------------------------------------------
+

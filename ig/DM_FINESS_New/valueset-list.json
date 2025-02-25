@@ -3509,6 +3509,19 @@
       ]
     },
     {
+      "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r376-type-evenement-administratif?vs",
+      "version" : "20250222120000",
+      "status" : "active",
+      "name" : "TreR376TypeEvenementAdministratifAll",
+      "title" : "Tre R376 Type Evenement Administratif All",
+      "description" : "Jeu de valeurs ALL des événements affectant le cycle de vie des entités et activités enrgeistrées dans FINESS+",
+      "systems" : [
+        "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r376-type-evenement-administratif"
+      ],
+      "oids" : ["1.2.250.1.213.1.6.1.304"],
+      "sources" : ["1.2.250.1.213.1.6.1.304"]
+    },
+    {
       "url" : "https://smt.esante.gouv.fr/fhir/ValueSet/1.2.250.1.213.1.1.4.2.1",
       "version" : "20230427000000",
       "status" : "active",

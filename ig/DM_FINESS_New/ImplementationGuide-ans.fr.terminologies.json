@@ -33561,9 +33561,9 @@
         "valueString" : "CodeSystem"
       }],
       "reference" : {
-        "reference" : "CodeSystem/terminologie-cim11-mms"
+        "reference" : "CodeSystem/terminologie-cim-10"
       },
-      "name" : "Classification internationale des maladies (11eme révision). Linéarisation pour les statistiques de morbi-mortalité",
+      "name" : "Classification internationale des maladies 10eme révision, version française à usage PMSI (Programme Médicalisé des Systèmes d'Information)",
       "exampleBoolean" : false
     },
     {
@@ -33572,9 +33572,9 @@
         "valueString" : "CodeSystem"
       }],
       "reference" : {
-        "reference" : "CodeSystem/terminologie-cim-10"
+        "reference" : "CodeSystem/terminologie-cim11-mms"
       },
-      "name" : "Classification internationale des maladies 10eme révision, version française à usage PMSI (Programme Médicalisé des Systèmes d'Information)",
+      "name" : "Classification internationale des maladies et des problèmes de santé connexes - 11ème révision",
       "exampleBoolean" : false
     },
     {
@@ -47051,10 +47051,238 @@
         "valueString" : "CodeSystem"
       }],
       "reference" : {
+        "reference" : "CodeSystem/tre-r347-activite-sanitaire-diverse-regulee"
+      },
+      "name" : "Tre R347 Activitee Sanitaire Diverse Regulee",
+      "description" : "Nomenclature des activités sanitaires utilisée pour décrire les Activités Sanitaires Diverses Régulées (ASDR)",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "CodeSystem"
+      }],
+      "reference" : {
         "reference" : "CodeSystem/tre-r360-type-role-entite-groupe"
       },
       "name" : "Tre R360 Type Role Entite Groupe",
       "description" : "Nomenclature des types de rôles que peuvent exercer des entités participants à des groupements",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "CodeSystem"
+      }],
+      "reference" : {
+        "reference" : "CodeSystem/tre-r372-type-groupe-gco"
+      },
+      "name" : "Tre R372 Type Groupe Gco",
+      "description" : "Nomenclature des types de Groupement de Coopération Organique (GCO)",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "CodeSystem"
+      }],
+      "reference" : {
+        "reference" : "CodeSystem/tre-r373-type-personne-morale"
+      },
+      "name" : "Tre R373 Type Personne Morale",
+      "description" : "Nomenclature des types de PM-SMSSE (Personne Morale du champ Sanitaire, Médico-social, Social et Enseignement sur les professions de ces  champs)",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "CodeSystem"
+      }],
+      "reference" : {
+        "reference" : "CodeSystem/tre-r374-nature-activite-smsse-regulee"
+      },
+      "name" : "Tre R374 Nature Activite Smsse Regulee",
+      "description" : "Nomenclature des grandes natures d'activité SMSSE exercées par les entités FINESS+",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "CodeSystem"
+      }],
+      "reference" : {
+        "reference" : "CodeSystem/tre-r375-mode-financement"
+      },
+      "name" : "Tre R375 Mode Financement",
+      "description" : "Nomenclature des modes de financement associées aux capacités de certaines activitées SMSSE",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "CodeSystem"
+      }],
+      "reference" : {
+        "reference" : "CodeSystem/tre-r376-type-evenement-administratif"
+      },
+      "name" : "Tre R376 Type Evenement Administratif",
+      "description" : "Nomenclature des événements affectant le cycle de vie des entités et activités enrgeistrées dans FINESS+",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      }],
+      "reference" : {
+        "reference" : "ValueSet/tre-r376-type-evenement-administratif-all"
+      },
+      "name" : "Tre R376 Type Evenement Administratif All",
+      "description" : "Jeu de valeurs ALL des événements affectant le cycle de vie des entités et activités enrgeistrées dans FINESS+",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "CodeSystem"
+      }],
+      "reference" : {
+        "reference" : "CodeSystem/tre-r377-usage-adresse"
+      },
+      "name" : "Tre R377 Usage Adresse",
+      "description" : "Nomenclature des usages des adresses associées aux entités enregistrés dans FINESS+",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "CodeSystem"
+      }],
+      "reference" : {
+        "reference" : "CodeSystem/tre-r378-motif-arrete"
+      },
+      "name" : "Tre R378 Motif Arrete",
+      "description" : "Nomenclature des motifs des arrêtés enregsitrées dans  FINESS+",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "CodeSystem"
+      }],
+      "reference" : {
+        "reference" : "CodeSystem/tre-r379-systeme-information"
+      },
+      "name" : "Tre R379 Systeme Information",
+      "description" : "Nomenclature des systemes d'information en relation avec FINESS",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "CodeSystem"
+      }],
+      "reference" : {
+        "reference" : "CodeSystem/tre-r380-habilitation"
+      },
+      "name" : "Tre R380 Habilitation",
+      "description" : "Nomenclature des habilitations asscoiées aux capacités des structures FINESS",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "CodeSystem"
+      }],
+      "reference" : {
+        "reference" : "CodeSystem/tre-r381-activite-amm"
+      },
+      "name" : "Tre R381 Activite Amm",
+      "description" : "Nomenclature des activités de soin AMM",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "CodeSystem"
+      }],
+      "reference" : {
+        "reference" : "CodeSystem/tre-r382-modalite-act-de-soin-amm"
+      },
+      "name" : "Tre R382 Modalite Act De Soin Amm",
+      "description" : "Nomenclature des modalités pour les activités de soin AMM",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "CodeSystem"
+      }],
+      "reference" : {
+        "reference" : "CodeSystem/tre-r383-mention-act-de-soin-amm"
+      },
+      "name" : "Tre R383 Mention Act De Soin Amm",
+      "description" : "Nomenclature des mentions pour les activités de soin AMM",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "CodeSystem"
+      }],
+      "reference" : {
+        "reference" : "CodeSystem/tre-r384-pratique-therapeutique-specifique-act-de-soin-amm"
+      },
+      "name" : "Tre R384 Pratique Therapeutique Specifique Act De Soin Amm",
+      "description" : "Nomenclature des pratiques thérapeutiques spécifiques pour les activités de soin AMM",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "CodeSystem"
+      }],
+      "reference" : {
+        "reference" : "CodeSystem/tre-r385-declaration-act-de-soin-amm"
+      },
+      "name" : "Tre R385 Declaration Act De Soin Amm",
+      "description" : "Nomenclature des déclarations pour les activités de soin AMM",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "CodeSystem"
+      }],
+      "reference" : {
+        "reference" : "CodeSystem/tre-r386-macro-etat-objet-administratif"
+      },
+      "name" : "Tre R386 Macro Etat Objet Administratif",
+      "description" : "Nomenclature des macro-etat des structures FINESS qui dérivent de l'état de l'objet. Permet de distinguer les structures actives de celles inactives.",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "CodeSystem"
+      }],
+      "reference" : {
+        "reference" : "CodeSystem/tre-r387-type-groupement"
+      },
+      "name" : "Tre R387 Type Groupement",
+      "description" : "Nomenclature des types de groupement utilisables dans FINESS. Groupement de coopération conventionnelle ou Groupement de coopération organique",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "CodeSystem"
+      }],
+      "reference" : {
+        "reference" : "CodeSystem/tre-r388-type-logement"
+      },
+      "name" : "Tre R388 Type Logement",
+      "description" : "Nomenclature des types de logement associées aux capacités des structures FINESS",
       "exampleBoolean" : false
     },
     {
@@ -49438,6 +49666,78 @@
         "valueString" : "CodeSystem"
       }],
       "reference" : {
+        "reference" : "CodeSystem/TRE-R361-FonctionPublique"
+      },
+      "name" : "TRE_R361_FonctionPublique",
+      "description" : "Nomenclature des versants de la fonction publique",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "CodeSystem"
+      }],
+      "reference" : {
+        "reference" : "CodeSystem/TRE-R362-TypeBudget"
+      },
+      "name" : "TRE_R362_TypeBudget",
+      "description" : "Nomenclature des types de budget associés aux Entités Géographiques d'Exercice (EGE) dans FINESS+",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "CodeSystem"
+      }],
+      "reference" : {
+        "reference" : "CodeSystem/TRE-R363-TypeEngagement"
+      },
+      "name" : "TRE_R363_TypeEngagement",
+      "description" : "Nomenclature des grands types d'engagement pouvant être associés dans FINESS+ à des structures ou des activités",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "CodeSystem"
+      }],
+      "reference" : {
+        "reference" : "CodeSystem/TRE-R364-TypeDocumentAdministratif"
+      },
+      "name" : "TRE_R364_TypeDocumentAdministratif",
+      "description" : "Nomenclature des types de document informatif et justificatif pouvant être associé à une entité FINESS",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "CodeSystem"
+      }],
+      "reference" : {
+        "reference" : "CodeSystem/TRE-R365-EtatObjet"
+      },
+      "name" : "TRE_R365_EtatObjet",
+      "description" : "Nomenclature des états élémentaires que peuvent porter les entités et activités FINESS+",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "CodeSystem"
+      }],
+      "reference" : {
+        "reference" : "CodeSystem/TRE-R366-TypeObjet"
+      },
+      "name" : "TRE_R366_TypeObjet",
+      "description" : "Nomenclature des types d'objet enregsitrés et manipulés dans FINESS+",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "CodeSystem"
+      }],
+      "reference" : {
         "reference" : "CodeSystem/TRE-R368-StatutRessource"
       },
       "name" : "TRE_R368_StatutRessource",
@@ -49466,6 +49766,30 @@
       },
       "name" : "TRE_R36_AutreDiplomeObtenu",
       "description" : "Autre diplôme obtenu",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "CodeSystem"
+      }],
+      "reference" : {
+        "reference" : "CodeSystem/TRE-R370-RoleRelationEGE"
+      },
+      "name" : "TRE_R370_RoleRelationEGE",
+      "description" : "Nomenclature des types de rôle existant entre les Entités Géographiques d'Exercice (EGE) au sein d'une PM-SMSSE",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "CodeSystem"
+      }],
+      "reference" : {
+        "reference" : "CodeSystem/TRE-R371-TypeGroupeGCC"
+      },
+      "name" : "TRE_R371_TypeGroupeGCC",
+      "description" : "Nomenclature des types de Groupement de Coopération conventionnelle (GCC)",
       "exampleBoolean" : false
     },
     {
