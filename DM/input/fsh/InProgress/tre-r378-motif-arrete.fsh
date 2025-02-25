@@ -1,12 +1,13 @@
-CodeSystem: TRE_R378_MotifArrete
-Id: TRE-R378-MotifArrete
+CodeSystem: TreR378MotifArrete
+Id: tre-r378-motif-arrete
+Title: "Tre R378 Motif Arrete"
 Description: "Nomenclature des motifs des arrêtés enregsitrées dans  FINESS+"
 * ^meta.versionId = "1"
 * ^meta.lastUpdated = "2024-12-30T12:00:00+01:00"
 * ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablecodesystem"
 * ^extension.url = "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod"
 * ^extension.valuePeriod.start = "2024-12-30T12:00:00+01:00"
-* ^url = "https://mos.esante.gouv.fr/NOS/TRE_R378-MotifArrete/FHIR/TRE-R378-MotifArrete"
+* ^url = "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r378-motif-arrete"
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value = "urn:oid:1.2.250.1.213.1.6.1.293"
 * ^version = "20241230120000"
