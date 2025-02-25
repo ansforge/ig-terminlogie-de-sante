@@ -46,7 +46,7 @@ Description: "Nomenclature des grandes natures d'activité SMSSE exercées par l
 * #AMSR ^property[=].valueDateTime = "2024-12-30T00:00:00+01:00"
 * #AMSR ^property[+].code = #dateMaj
 * #AMSR ^property[=].valueDateTime = "2024-12-30T00:00:00+01:00"										
-* #AMM "Activité de soin "Activité-Modalité-Mention"
+* #AMM "Activité de soin 'Activité-Modalité-Mention'"
 * #AMM ^designation.language = #fr-FR
 * #AMM ^designation.use.system = "http://snomed.info/sct"
 * #AMM ^designation.use = $sct#900000000000013009
@@ -55,7 +55,7 @@ Description: "Nomenclature des grandes natures d'activité SMSSE exercées par l
 * #AMM ^property[=].valueDateTime = "2024-12-30T00:00:00+01:00"
 * #AMM ^property[+].code = #dateMaj
 * #AMM ^property[=].valueDateTime = "2024-12-30T00:00:00+01:00"
-* #AS "Activité de soin "Activité-Modalité-Forme"
+* #AS "Activité de soin 'Activité-Modalité-Forme'"
 * #AS ^designation.language = #fr-FR
 * #AS ^designation.use.system = "http://snomed.info/sct"
 * #AS ^designation.use = $sct#900000000000013009
