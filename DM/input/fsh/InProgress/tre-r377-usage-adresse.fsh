@@ -1,14 +1,15 @@
 Alias: $sct = http://snomed.info/sct
 
-CodeSystem: TRE_R377_UsageAdresse
-Id: TRE-R377-UsageAdresse
+CodeSystem: TreR377UsageAdresse
+Id: tre-r377-usage-adresse
+Title: "Tre R377 Usage Adresse"
 Description: "Nomenclature des usages des adresses associées aux entités enregistrés dans FINESS+"
 * ^meta.versionId = "1"
 * ^meta.lastUpdated = "2024-12-30T12:00:00+01:00"
 * ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablecodesystem"
 * ^extension.url = "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod"
 * ^extension.valuePeriod.start = "2024-12-30T12:00:00+01:00"
-* ^url = "https://mos.esante.gouv.fr/NOS/TRE_R377-UsageAdresse/FHIR/TRE-R377-UsageAdresse"
+* ^url = "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r377-usage-adresse"
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value = "urn:oid:1.2.250.1.213.1.6.1.292"
 * ^version = "20241230120000"
