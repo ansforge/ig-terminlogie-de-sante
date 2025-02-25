@@ -1,12 +1,13 @@
-CodeSystem: TRE_R381_ActiviteAMM
-Id: TRE-R381-ActiviteAMM
+CodeSystem: TreR381ActiviteAmm
+Id: tre-r381-activite-amm
+Title: "Tre R381 Activite Amm"
 Description: "Nomenclature des activités de soin AMM"
 * ^meta.versionId = "1"
 * ^meta.lastUpdated = "2024-12-30T12:00:00+01:00"
 * ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablecodesystem"
 * ^extension.url = "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod"
 * ^extension.valuePeriod.start = "2024-12-30T12:00:00+01:00"
-* ^url = "https://mos.esante.gouv.fr/NOS/TRE_R381-ActiviteAMM/FHIR/TRE-R381-ActiviteAMM"
+* ^url = "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r381-activite-amm"
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value = "urn:oid:1.2.250.1.213.1.6.1.296"
 * ^version = "20241230120000"
