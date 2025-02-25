@@ -1,14 +1,15 @@
 Alias: $sct = http://snomed.info/sct
 
-CodeSystem: TRE_R374_NatureActiviteSMSSERegulee
-Id: TRE-R374-NatureActiviteSMSSERegulee
+CodeSystem: TreR374NatureActiviteSmsseRegulee
+Id: tre-r374-nature-activite-smsse-regulee
+Title: "Tre R374 Nature Activite Smsse Regulee"
 Description: "Nomenclature des grandes natures d'activité SMSSE exercées par les entités FINESS+"
 * ^meta.versionId = "1"
 * ^meta.lastUpdated = "2024-12-30T12:00:00+01:00"
 * ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablecodesystem"
 * ^extension.url = "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod"
 * ^extension.valuePeriod.start = "2024-12-30T12:00:00+01:00"
-* ^url = "https://mos.esante.gouv.fr/NOS/TRE_R374-NatureActiviteSMSSERegulee/FHIR/TRE-R374-NatureActiviteSMSSERegulee"
+* ^url = "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r374-nature-activite-smsse-regulee"
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value = "urn:oid:1.2.250.1.213.1.6.1.289"
 * ^version = "20241230120000"
