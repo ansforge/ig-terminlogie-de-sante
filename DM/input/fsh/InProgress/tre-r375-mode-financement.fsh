@@ -1,14 +1,15 @@
 Alias: $sct = http://snomed.info/sct
 
-CodeSystem:  TRE_R375_ModeFinancement
-Id: TRE-R375-ModeFinancement
+CodeSystem:  TreR375ModeFinancement
+Id: tre-r375-mode-financement
+Title: "Tre R375 Mode Financement"
 Description: "Nomenclature des modes de financement associées aux capacités de certaines activitées SMSSE"
 * ^meta.versionId = "1"
 * ^meta.lastUpdated = "2024-12-30T12:00:00+01:00"
 * ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablecodesystem"
 * ^extension.url = "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod"
 * ^extension.valuePeriod.start = "2024-12-30T12:00:00+01:00"
-* ^url = "https://mos.esante.gouv.fr/NOS/TRE_R375-ModeFinancement/FHIR/TRE-R375-ModeFinancement"
+* ^url = "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r375-mode-financement"
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value = "urn:oid:1.2.250.1.213.1.6.1.290"
 * ^version = "20241230120000"
