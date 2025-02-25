@@ -1,14 +1,15 @@
 Alias: $sct = http://snomed.info/sct
 
-CodeSystem: TRE_R387_TypeGroupement
-Id: TRE-R387-TypeGroupement
+CodeSystem: TreR387TypeGroupement
+Id: tre-r387-type-groupement
+Title: "Tre R387 Type Groupement"
 Description: "Nomenclature des types de groupement utilisables dans FINESS. Groupement de coopération conventionnelle ou Groupement de coopération organique"
 * ^meta.versionId = "1"
 * ^meta.lastUpdated = "2024-12-30T12:00:00+01:00"
 * ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablecodesystem"
 * ^extension.url = "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod"
 * ^extension.valuePeriod.start = "2024-12-30T12:00:00+01:00"
-* ^url = "https://mos.esante.gouv.fr/NOS/TRE_R387-TypeGroupement/FHIR/TRE-R387-TypeGroupement"
+* ^url = "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r387-type-groupement"
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value = "urn:oid:1.2.250.1.213.1.6.1.302"
 * ^version = "20241230120000"
