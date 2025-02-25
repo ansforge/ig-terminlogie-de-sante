@@ -1,12 +1,13 @@
-CodeSystem: TRE_R376_TypeEvenementAdministratif
-Id: TRE-R376-TypeEvenementAdministratif
+CodeSystem: TreR376TypeEvenementAdministratif
+Id: tre-r376-type-evenement-administratif
+Title: "Tre R376 Type Evenement Administratif"
 Description: "Nomenclature des événements affectant le cycle de vie des entités et activités enrgeistrées dans FINESS+"
 * ^meta.versionId = "1"
 * ^meta.lastUpdated = "2024-12-30T12:00:00+01:00"
 * ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablecodesystem"
 * ^extension.url = "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod"
 * ^extension.valuePeriod.start = "2024-12-30T12:00:00+01:00"
-* ^url = "https://mos.esante.gouv.fr/NOS/TRE_R376-TypeEvenementAdministratif/FHIR/TRE-R376-TypeEvenementAdministratif"
+* ^url = "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r376-type-evenement-administratif"
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value = "urn:oid:1.2.250.1.213.1.6.1.291"
 * ^version = "20241230120000"
