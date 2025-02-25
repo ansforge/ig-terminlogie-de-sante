@@ -1,14 +1,15 @@
 Alias: $tre-r376-type-evenement-administratif = https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r376-type-evenement-administratif
 
-ValueSet: JdvJ297TypeEvenementAdministratifFiness
-Id: jdv-j297-type-evenement-administratif-finess
-Description: "Jeu de valeurs FINESS des événements affectant le cycle de vie des entités et activités enrgeistrées dans FINESS+"
+ValueSet: TreR376TypeEvenementAdministratifAll
+Id: tre-r376-type-evenement-administratif-all
+Title: "Tre R376 Type Evenement Administratif All"
+Description: "Jeu de valeurs ALL des événements affectant le cycle de vie des entités et activités enrgeistrées dans FINESS+"
 * ^meta.versionId = "1"
 * ^meta.lastUpdated = "2025-02-22T18:02:28.249+00:00"
 * ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablevalueset"
 * ^extension.url = "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod"
 * ^extension.valuePeriod.start = "2025-02-22T18:02:28.249+00:00"
-* ^url = "https://mos.esante.gouv.fr/NOS/JDV_J01-XdsAuthorSpecialty-CISIS/FHIR/JDV-J01-XdsAuthorSpecialty-CISIS"
+* ^url = "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r376-type-evenement-administratif?vs"
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value = "urn:oid:1.2.250.1.213.1.6.1.304"
 * ^version = "20250222120000"
