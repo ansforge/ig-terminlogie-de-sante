@@ -29,12 +29,15 @@ Description: "Nomenclature des types de rôles que peuvent exercer des entités 
 * ^property[=].description = "Date de fin d'exploitation d'un code concept"
 * ^property[=].type = #dateTime
 * ^property[+].code = #status
+* ^property[=].uri = "http://hl7.org/fhir/concept-properties#status"
 * ^property[=].description = "Statut d'un code concept"
 * ^property[=].type = #code
 * ^property[+].code = #deprecationDate
+* ^property[=].uri = "http://hl7.org/fhir/concept-properties#deprecationDate"
 * ^property[=].description = "Date de dépréciation du code"
 * ^property[=].type = #dateTime
 * ^property[+].code = #retirementDate
+* ^property[=].uri = "http://hl7.org/fhir/concept-properties#retirementDate"
 * ^property[=].description = "Date de retrait du code"
 * ^property[=].type = #dateTime
 * #S "Entité support"
