@@ -1,12 +1,13 @@
-CodeSystem: TRE_R382_ModaliteActDeSoinAMM
-Id: TRE-R382-ModaliteActDeSoinAMM
+CodeSystem: TreR382ModaliteActDeSoinAmm
+Id: tre-r382-modalite-act-de-soin-amm
+Title: "Tre R382 Modalite Act De Soin Amm"
 Description: "Nomenclature des modalités pour les activités de soin AMM"
 * ^meta.versionId = "1"
 * ^meta.lastUpdated = "2024-12-30T12:00:00+01:00"
 * ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablecodesystem"
 * ^extension.url = "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod"
 * ^extension.valuePeriod.start = "2024-12-30T12:00:00+01:00"
-* ^url = "https://mos.esante.gouv.fr/NOS/TRE_R382-ModaliteActDeSoinAMM/FHIR/TRE-R382-ModaliteActDeSoinAMM"
+* ^url = "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r382-modalite-act-de-soin-amm"
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value = "urn:oid:1.2.250.1.213.1.6.1.297"
 * ^version = "20241230120000"
