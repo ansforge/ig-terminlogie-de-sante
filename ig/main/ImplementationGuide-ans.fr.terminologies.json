@@ -33561,9 +33561,9 @@
         "valueString" : "CodeSystem"
       }],
       "reference" : {
-        "reference" : "CodeSystem/terminologie-cim11-mms"
+        "reference" : "CodeSystem/terminologie-cim-10"
       },
-      "name" : "Classification internationale des maladies (11eme révision). Linéarisation pour les statistiques de morbi-mortalité",
+      "name" : "Classification internationale des maladies 10eme révision, version française à usage PMSI (Programme Médicalisé des Systèmes d'Information)",
       "exampleBoolean" : false
     },
     {
@@ -33572,9 +33572,9 @@
         "valueString" : "CodeSystem"
       }],
       "reference" : {
-        "reference" : "CodeSystem/terminologie-cim-10"
+        "reference" : "CodeSystem/terminologie-cim11-mms"
       },
-      "name" : "Classification internationale des maladies 10eme révision, version française à usage PMSI (Programme Médicalisé des Systèmes d'Information)",
+      "name" : "Classification internationale des maladies et des problèmes de santé connexes - 11ème révision",
       "exampleBoolean" : false
     },
     {

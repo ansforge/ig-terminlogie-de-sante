@@ -45892,10 +45892,10 @@
          ]
        ] ) ;
        fhir:reference [
-         fhir:link <https://interop.esante.gouv.fr/terminologies/CodeSystem/terminologie-cim11-mms> ;
-         fhir:reference [ fhir:v "CodeSystem/terminologie-cim11-mms" ]
+         fhir:link <https://interop.esante.gouv.fr/terminologies/CodeSystem/terminologie-cim-10> ;
+         fhir:reference [ fhir:v "CodeSystem/terminologie-cim-10" ]
        ] ;
-       fhir:name [ fhir:v "Classification internationale des maladies (11eme révision). Linéarisation pour les statistiques de morbi-mortalité" ] ;
+       fhir:name [ fhir:v "Classification internationale des maladies 10eme révision, version française à usage PMSI (Programme Médicalisé des Systèmes d'Information)" ] ;
        fhir:example [
          a fhir:boolean ;
          fhir:v "false"^^xsd:boolean
@@ -45909,10 +45909,10 @@
          ]
        ] ) ;
        fhir:reference [
-         fhir:link <https://interop.esante.gouv.fr/terminologies/CodeSystem/terminologie-cim-10> ;
-         fhir:reference [ fhir:v "CodeSystem/terminologie-cim-10" ]
+         fhir:link <https://interop.esante.gouv.fr/terminologies/CodeSystem/terminologie-cim11-mms> ;
+         fhir:reference [ fhir:v "CodeSystem/terminologie-cim11-mms" ]
        ] ;
-       fhir:name [ fhir:v "Classification internationale des maladies 10eme révision, version française à usage PMSI (Programme Médicalisé des Systèmes d'Information)" ] ;
+       fhir:name [ fhir:v "Classification internationale des maladies et des problèmes de santé connexes - 11ème révision" ] ;
        fhir:example [
          a fhir:boolean ;
          fhir:v "false"^^xsd:boolean
