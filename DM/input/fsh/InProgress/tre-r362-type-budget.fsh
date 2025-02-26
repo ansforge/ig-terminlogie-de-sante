@@ -1,14 +1,15 @@
 Alias: $sct = http://snomed.info/sct
 
-CodeSystem: TRE_R362_TypeBudget
-Id: TRE-R362-TypeBudget
+CodeSystem: TreR362TypeBudget
+Id: tre-r362-type-budget
+Title: "Tre R362 Type Budget"
 Description: "Nomenclature des types de budget associés aux Entités Géographiques d'Exercice (EGE) dans FINESS+"
 * ^meta.versionId = "1"
 * ^meta.lastUpdated = "2024-12-30T12:00:00+01:00"
 * ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablecodesystem"
 * ^extension.url = "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod"
 * ^extension.valuePeriod.start = "2024-12-30T12:00:00+01:00"
-* ^url = "https://mos.esante.gouv.fr/NOS/TRE_R362-TypeBudget/FHIR/TRE-R362-TypeBudget"
+* ^url = "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r362-type-budget"
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value = "urn:oid:1.2.250.1.213.1.6.1.256"
 * ^version = "20241230120000"
