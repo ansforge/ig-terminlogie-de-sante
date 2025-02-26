@@ -26,13 +26,29 @@ Description: "Nomenclature des types de rôle existant entre les Entités Géogr
 * ^property[+].code = #dateFin
 * ^property[=].description = "Date de fin d'exploitation d'un code concept"
 * ^property[=].type = #dateTime
+* ^property[+].code = #status
+* ^property[=].uri = "http://hl7.org/fhir/concept-properties#status"
+* ^property[=].description = "Statut d'un code concept"
+* ^property[=].type = #code
+* ^property[+].code = #deprecationDate
+* ^property[=].uri = "http://hl7.org/fhir/concept-properties#deprecationDate"
+* ^property[=].description = "Date de dépréciation du code"
+* ^property[=].type = #dateTime
+* ^property[+].code = #retirementDate
+* ^property[=].uri = "http://hl7.org/fhir/concept-properties#retirementDate"
+* ^property[=].description = "Date de retrait du code"
+* ^property[=].type = #dateTime
 * #B "Budget"
 * #B ^property[0].code = #dateValid
 * #B ^property[=].valueDateTime = "2024-12-30T00:00:00+01:00"
 * #B ^property[+].code = #dateMaj
 * #B ^property[=].valueDateTime = "2024-12-30T00:00:00+01:00"
+* #B ^property[+].code = #status
+* #B ^property[=].valueCode = #active
 * #C "Capacité"
 * #C ^property[0].code = #dateValid
 * #C ^property[=].valueDateTime = "2024-12-30T00:00:00+01:00"
 * #C ^property[+].code = #dateMaj
 * #C ^property[=].valueDateTime = "2024-12-30T00:00:00+01:00"
+* #C ^property[+].code = #status
+* #C ^property[=].valueCode = #active
