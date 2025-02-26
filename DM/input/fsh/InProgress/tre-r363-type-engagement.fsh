@@ -1,12 +1,13 @@
-CodeSystem: TRE_R363_TypeEngagement
-Id: TRE-R363-TypeEngagement
+CodeSystem: TreR363TypeEngagement
+Id: tre-r363-type-engagement
+Title: "Tre R363 Type Engagement"
 Description: "Nomenclature des grands types d'engagement pouvant être associés dans FINESS+ à des structures ou des activités"
 * ^meta.versionId = "1"
 * ^meta.lastUpdated = "2024-12-30T12:00:00+01:00"
 * ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablecodesystem"
 * ^extension.url = "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod"
 * ^extension.valuePeriod.start = "2024-12-30T12:00:00+01:00"
-* ^url = "https://mos.esante.gouv.fr/NOS/TRE_R363-TypeEngagement/FHIR/TRE-R363-TypeEngagement"
+* ^url = "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r363-type-engagement"
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value = "urn:oid:1.2.250.1.213.1.6.1.257"
 * ^version = "20241230120000"
