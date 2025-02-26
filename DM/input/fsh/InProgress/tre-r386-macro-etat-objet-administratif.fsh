@@ -27,13 +27,29 @@ Description: "Nomenclature des macro-etat des structures FINESS qui dérivent de
 * ^property[+].code = #dateFin
 * ^property[=].description = "Date de fin d'exploitation d'un code concept"
 * ^property[=].type = #dateTime
+* ^property[+].code = #status
+* ^property[=].uri = "http://hl7.org/fhir/concept-properties#status"
+* ^property[=].description = "Statut d'un code concept"
+* ^property[=].type = #code
+* ^property[+].code = #deprecationDate
+* ^property[=].uri = "http://hl7.org/fhir/concept-properties#deprecationDate"
+* ^property[=].description = "Date de dépréciation du code"
+* ^property[=].type = #dateTime
+* ^property[+].code = #retirementDate
+* ^property[=].uri = "http://hl7.org/fhir/concept-properties#retirementDate"
+* ^property[=].description = "Date de retrait du code"
+* ^property[=].type = #dateTime
 * #A "Actif"
 * #A ^property[0].code = #dateValid
 * #A ^property[=].valueDateTime = "2024-12-30T00:00:00+01:00"
 * #A ^property[+].code = #dateMaj
 * #A ^property[=].valueDateTime = "2024-12-30T00:00:00+01:00"
+* #A ^property[+].code = #status
+* #A ^property[=].valueCode = #active
 * #I "Inactif"
 * #I ^property[0].code = #dateValid
 * #I ^property[=].valueDateTime = "2024-12-30T00:00:00+01:00"
 * #I ^property[+].code = #dateMaj
 * #I ^property[=].valueDateTime = "2024-12-30T00:00:00+01:00"
+* #I ^property[+].code = #status
+* #I ^property[=].valueCode = #active
