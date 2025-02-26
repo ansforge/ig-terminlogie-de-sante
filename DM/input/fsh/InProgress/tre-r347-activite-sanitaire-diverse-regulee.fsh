@@ -2,7 +2,7 @@ Alias: $sct = http://snomed.info/sct
 
 CodeSystem: TreR347ActiviteSanitaireDiverseRegulee
 Id: tre-r347-activite-sanitaire-diverse-regulee
-Title: "Tre R347 Activitee Sanitaire Diverse Regulee"
+Title: "Tre R347 Activite Sanitaire Diverse Regulee"
 Description: "Nomenclature des activités sanitaires utilisée pour décrire les Activités Sanitaires Diverses Régulées (ASDR)"
 * ^meta.versionId = "1"
 * ^meta.lastUpdated = "2025-02-22T14:11:19.571+00:00"
