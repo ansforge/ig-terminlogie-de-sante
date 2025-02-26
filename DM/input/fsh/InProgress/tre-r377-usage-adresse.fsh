@@ -28,6 +28,18 @@ Description: "Nomenclature des usages des adresses associées aux entités enreg
 * ^property[+].code = #dateFin
 * ^property[=].description = "Date de fin d'exploitation d'un code concept"
 * ^property[=].type = #dateTime
+* ^property[+].code = #status
+* ^property[=].uri = "http://hl7.org/fhir/concept-properties#status"
+* ^property[=].description = "Statut d'un code concept"
+* ^property[=].type = #code
+* ^property[+].code = #deprecationDate
+* ^property[=].uri = "http://hl7.org/fhir/concept-properties#deprecationDate"
+* ^property[=].description = "Date de dépréciation du code"
+* ^property[=].type = #dateTime
+* ^property[+].code = #retirementDate
+* ^property[=].uri = "http://hl7.org/fhir/concept-properties#retirementDate"
+* ^property[=].description = "Date de retrait du code"
+* ^property[=].type = #dateTime
 * #01 "Adresse administrative"
 * #01 ^designation.language = #fr-FR
 * #01 ^designation.use.system = "http://snomed.info/sct"
@@ -37,6 +49,8 @@ Description: "Nomenclature des usages des adresses associées aux entités enreg
 * #01 ^property[=].valueDateTime = "2024-12-30T00:00:00+01:00"
 * #01 ^property[+].code = #dateMaj
 * #01 ^property[=].valueDateTime = "2024-12-30T00:00:00+01:00"
+* #01 ^property[+].code = #status
+* #01 ^property[=].valueCode = #active
 * #02 "Adresses de correspondance"
 * #02 ^designation.language = #fr-FR
 * #02 ^designation.use.system = "http://snomed.info/sct"
@@ -46,6 +60,8 @@ Description: "Nomenclature des usages des adresses associées aux entités enreg
 * #02 ^property[=].valueDateTime = "2024-12-30T00:00:00+01:00"
 * #02 ^property[+].code = #dateMaj
 * #02 ^property[=].valueDateTime = "2024-12-30T00:00:00+01:00"
+* #02 ^property[+].code = #status
+* #02 ^property[=].valueCode = #active
 * #03 "Adresse géographique du lieu d'exercice"
 * #03 ^designation.language = #fr-FR
 * #03 ^designation.use.system = "http://snomed.info/sct"
@@ -55,6 +71,8 @@ Description: "Nomenclature des usages des adresses associées aux entités enreg
 * #03 ^property[=].valueDateTime = "2024-12-30T00:00:00+01:00"
 * #03 ^property[+].code = #dateMaj
 * #03 ^property[=].valueDateTime = "2024-12-30T00:00:00+01:00"
+* #03 ^property[+].code = #status
+* #03 ^property[=].valueCode = #active
 * #04 "Adresse d'une annexe"
 * #04 ^designation.language = #fr-FR
 * #04 ^designation.use.system = "http://snomed.info/sct"
@@ -64,6 +82,8 @@ Description: "Nomenclature des usages des adresses associées aux entités enreg
 * #04 ^property[=].valueDateTime = "2024-12-30T00:00:00+01:00"
 * #04 ^property[+].code = #dateMaj
 * #04 ^property[=].valueDateTime = "2024-12-30T00:00:00+01:00"
+* #04 ^property[+].code = #status
+* #04 ^property[=].valueCode = #active
 * #05 "Adresse de contact de crise"
 * #05 ^designation.language = #fr-FR
 * #05 ^designation.use.system = "http://snomed.info/sct"
@@ -73,6 +93,8 @@ Description: "Nomenclature des usages des adresses associées aux entités enreg
 * #05 ^property[=].valueDateTime = "2024-12-30T00:00:00+01:00"
 * #05 ^property[+].code = #dateMaj
 * #05 ^property[=].valueDateTime = "2024-12-30T00:00:00+01:00"
+* #05 ^property[+].code = #status
+* #05 ^property[=].valueCode = #active
 * #06 "Adresse de l'accueil du lieu d'exercice"
 * #06 ^designation.language = #fr-FR
 * #06 ^designation.use.system = "http://snomed.info/sct"
@@ -82,3 +104,5 @@ Description: "Nomenclature des usages des adresses associées aux entités enreg
 * #06 ^property[=].valueDateTime = "2024-12-30T00:00:00+01:00"
 * #06 ^property[+].code = #dateMaj
 * #06 ^property[=].valueDateTime = "2024-12-30T00:00:00+01:00"
+* #06 ^property[+].code = #status
+* #06 ^property[=].valueCode = #active
