@@ -26,18 +26,36 @@ Description: "Nomenclature des versants de la fonction publique"
 * ^property[+].code = #dateFin
 * ^property[=].description = "Date de fin d'exploitation d'un code concept"
 * ^property[=].type = #dateTime
+* ^property[+].code = #status
+* ^property[=].uri = "http://hl7.org/fhir/concept-properties#status"
+* ^property[=].description = "Statut d'un code concept"
+* ^property[=].type = #code
+* ^property[+].code = #deprecationDate
+* ^property[=].uri = "http://hl7.org/fhir/concept-properties#deprecationDate"
+* ^property[=].description = "Date de dépréciation du code"
+* ^property[=].type = #dateTime
+* ^property[+].code = #retirementDate
+* ^property[=].uri = "http://hl7.org/fhir/concept-properties#retirementDate"
+* ^property[=].description = "Date de retrait du code"
+* ^property[=].type = #dateTime
 * #01 "Fonction publique Territoriale"
 * #01 ^property[0].code = #dateValid
 * #01 ^property[=].valueDateTime = "2024-12-30T00:00:00+01:00"
 * #01 ^property[+].code = #dateMaj
 * #01 ^property[=].valueDateTime = "2024-12-30T00:00:00+01:00"
+* #01 ^property[+].code = #status
+* #01 ^property[=].valueCode = #active
 * #02 "Fonction Publique Hospitalière"
 * #02 ^property[0].code = #dateValid
 * #02 ^property[=].valueDateTime = "2024-12-30T00:00:00+01:00"
 * #02 ^property[+].code = #dateMaj
 * #02 ^property[=].valueDateTime = "2024-12-30T00:00:00+01:00"
+* #02 ^property[+].code = #status
+* #02 ^property[=].valueCode = #active
 * #03 "Fonction Publique d'état"
 * #03 ^property[0].code = #dateValid
 * #03 ^property[=].valueDateTime = "2024-12-30T00:00:00+01:00"
 * #03 ^property[+].code = #dateMaj
 * #03 ^property[=].valueDateTime = "2024-12-30T00:00:00+01:00"
+* #03 ^property[+].code = #status
+* #03 ^property[=].valueCode = #active
