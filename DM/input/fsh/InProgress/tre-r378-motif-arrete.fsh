@@ -1,7 +1,7 @@
 CodeSystem: TreR378MotifArrete
 Id: tre-r378-motif-arrete
 Title: "Tre R378 Motif Arrete"
-Description: "Nomenclature des motifs des arrêtés enregsitrées dans  FINESS+"
+Description: "Nomenclature des motifs des arrêtés enregsitrées dans FINESS+"
 * ^meta.versionId = "1"
 * ^meta.lastUpdated = "2024-12-30T12:00:00+01:00"
 * ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablecodesystem"
@@ -16,6 +16,7 @@ Description: "Nomenclature des motifs des arrêtés enregsitrées dans  FINESS+"
 * ^date = "2024-12-30T12:00:00+01:00"
 * ^publisher = "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris"
 * ^caseSensitive = false
+* ^valueSet = "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r378-motif-arrete?vs"
 * ^content = #complete
 * ^property[0].code = #dateValid
 * ^property[=].description = "date de validité d'un code concept"
