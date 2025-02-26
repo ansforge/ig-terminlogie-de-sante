@@ -1,14 +1,15 @@
 Alias: $sct = http://snomed.info/sct
 
-CodeSystem: TRE_R365_EtatObjet
-Id: TRE-R365-EtatObjet
+CodeSystem: TreR365EtatObjet
+Id: tre-r365-etat-objet
+Title: "Tre R365 Etat Objet"
 Description: "Nomenclature des états élémentaires que peuvent porter les entités et activités FINESS+"
 * ^meta.versionId = "1"
 * ^meta.lastUpdated = "2024-12-30T12:00:00+01:00"
 * ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablecodesystem"
 * ^extension.url = "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod"
 * ^extension.valuePeriod.start = "2024-12-30T12:00:00+01:00"
-* ^url = "https://mos.esante.gouv.fr/NOS/TRE_R365-EtatObjet/FHIR/TRE-R365-EtatObjet"
+* ^url = "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r365-etat-objet"
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value = "urn:oid:1.2.250.1.213.1.6.1.259"
 * ^version = "20241230120000"
