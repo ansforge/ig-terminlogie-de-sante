@@ -43,6 +43,10 @@
   fhir:publisher [ fhir:v "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris"] ; # 
   fhir:description [ fhir:v "Nomenclature des types de rôles que peuvent exercer des entités participants à des groupements"] ; # 
   fhir:caseSensitive [ fhir:v "false"^^xsd:boolean] ; # 
+  fhir:valueSet [
+     fhir:v "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r360-type-role-entite-groupe?vs"^^xsd:anyURI ;
+     fhir:link <https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r360-type-role-entite-groupe?vs>
+  ] ; # 
   fhir:content [ fhir:v "complete"] ; # 
   fhir:count [ fhir:v "3"^^xsd:nonNegativeInteger] ; # 
   fhir:property ( [

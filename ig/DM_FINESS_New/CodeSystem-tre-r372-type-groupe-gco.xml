@@ -8,7 +8,7 @@
     <profile value="http://hl7.org/fhir/StructureDefinition/shareablecodesystem"/>
   </meta>
   <text>
-    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: CodeSystem tre-r372-type-groupe-gco</b></p><a name="tre-r372-type-groupe-gco"> </a><a name="hctre-r372-type-groupe-gco"> </a><a name="tre-r372-type-groupe-gco-fr-FR"> </a><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px">version: 1; Last updated: 2024-12-30 12:00:00+0100</p><p style="margin-bottom: 0px">Profile: <a href="http://hl7.org/fhir/R4/shareablecodesystem.html">Shareable CodeSystem</a></p></div><p><b>Properties</b></p><p><b>This code system defines the following properties for its concepts</b></p><table class="grid"><tr><td><b>Name</b></td><td><b>Code</b></td><td><b>Type</b></td><td><b>Description</b></td></tr><tr><td>dateValid</td><td>dateValid</td><td>dateTime</td><td>date de validité d'un code concept</td></tr><tr><td>dateMaj</td><td>dateMaj</td><td>dateTime</td><td>Date de mise à jour d'un code concept</td></tr><tr><td>dateFin</td><td>dateFin</td><td>dateTime</td><td>Date de fin d'exploitation d'un code concept</td></tr></table><p><b>Concepts</b></p><p>This case-insensitive code system <code>https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r372-type-groupe-gco</code> defines the following codes:</p><table class="codes"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td><td><b>dateValid</b></td><td><b>dateMaj</b></td><td><b>French (France) (fr)</b></td></tr><tr><td style="white-space:nowrap">001<a name="tre-r372-type-groupe-gco-001"> </a></td><td>Communautés professionnelles territoriales de santé (CPTS)</td><td>2024-12-30T00:00:00+01:00</td><td>2024-12-30T00:00:00+01:00</td><td>CPTS</td></tr><tr><td style="white-space:nowrap">002<a name="tre-r372-type-groupe-gco-002"> </a></td><td>Groupement de coopération sanitaire - Etablissement de santé</td><td>2024-12-30T00:00:00+01:00</td><td>2024-12-30T00:00:00+01:00</td><td>GCS ES</td></tr><tr><td style="white-space:nowrap">003<a name="tre-r372-type-groupe-gco-003"> </a></td><td>Groupement de coopération sanitaire de moyens</td><td>2024-12-30T00:00:00+01:00</td><td>2024-12-30T00:00:00+01:00</td><td>GCS de Moyens</td></tr><tr><td style="white-space:nowrap">004<a name="tre-r372-type-groupe-gco-004"> </a></td><td>Groupement de coopération sanitaire exploitant</td><td>2024-12-30T00:00:00+01:00</td><td>2024-12-30T00:00:00+01:00</td><td>GCS Exploitant</td></tr></table></div>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: CodeSystem tre-r372-type-groupe-gco</b></p><a name="tre-r372-type-groupe-gco"> </a><a name="hctre-r372-type-groupe-gco"> </a><a name="tre-r372-type-groupe-gco-fr-FR"> </a><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px">version: 1; Last updated: 2024-12-30 12:00:00+0100</p><p style="margin-bottom: 0px">Profile: <a href="http://hl7.org/fhir/R4/shareablecodesystem.html">Shareable CodeSystem</a></p></div><p><b>Properties</b></p><p><b>This code system defines the following properties for its concepts</b></p><table class="grid"><tr><td><b>Name</b></td><td><b>Code</b></td><td><b>URI</b></td><td><b>Type</b></td><td><b>Description</b></td></tr><tr><td>dateValid</td><td>dateValid</td><td/><td>dateTime</td><td>date de validité d'un code concept</td></tr><tr><td>dateMaj</td><td>dateMaj</td><td/><td>dateTime</td><td>Date de mise à jour d'un code concept</td></tr><tr><td>dateFin</td><td>dateFin</td><td/><td>dateTime</td><td>Date de fin d'exploitation d'un code concept</td></tr><tr><td>status</td><td>status</td><td>http://hl7.org/fhir/concept-properties#status</td><td>code</td><td>Statut d'un code concept</td></tr><tr><td>deprecationDate</td><td>deprecationDate</td><td>http://hl7.org/fhir/concept-properties#deprecationDate</td><td>dateTime</td><td>Date de dépréciation du code</td></tr><tr><td>retirementDate</td><td>retirementDate</td><td>http://hl7.org/fhir/concept-properties#retirementDate</td><td>dateTime</td><td>Date de retrait du code</td></tr></table><p><b>Concepts</b></p><p>This case-insensitive code system <code>https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r372-type-groupe-gco</code> defines the following codes:</p><table class="codes"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td><td><b>dateValid</b></td><td><b>dateMaj</b></td><td><b>status</b></td><td><b>French (France) (fr)</b></td></tr><tr><td style="white-space:nowrap">001<a name="tre-r372-type-groupe-gco-001"> </a></td><td>Communautés professionnelles territoriales de santé (CPTS)</td><td>2024-12-30T00:00:00+01:00</td><td>2024-12-30T00:00:00+01:00</td><td>active</td><td>CPTS</td></tr><tr><td style="white-space:nowrap">002<a name="tre-r372-type-groupe-gco-002"> </a></td><td>Groupement de coopération sanitaire - Etablissement de santé</td><td>2024-12-30T00:00:00+01:00</td><td>2024-12-30T00:00:00+01:00</td><td>active</td><td>GCS ES</td></tr><tr><td style="white-space:nowrap">003<a name="tre-r372-type-groupe-gco-003"> </a></td><td>Groupement de coopération sanitaire de moyens</td><td>2024-12-30T00:00:00+01:00</td><td>2024-12-30T00:00:00+01:00</td><td>active</td><td>GCS de Moyens</td></tr><tr><td style="white-space:nowrap">004<a name="tre-r372-type-groupe-gco-004"> </a></td><td>Groupement de coopération sanitaire exploitant</td><td>2024-12-30T00:00:00+01:00</td><td>2024-12-30T00:00:00+01:00</td><td>active</td><td>GCS Exploitant</td></tr></table></div>
   </text>
   <extension url="http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod">
     <valuePeriod>
@@ -29,6 +29,7 @@
   <publisher value="Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris"/>
   <description value="Nomenclature des types de Groupement de Coopération Organique (GCO)"/>
   <caseSensitive value="false"/>
+  <valueSet value="https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r372-type-groupe-gco?vs"/>
   <content value="complete"/>
   <count value="4"/>
   <property>
@@ -44,6 +45,24 @@
   <property>
     <code value="dateFin"/>
     <description value="Date de fin d'exploitation d'un code concept"/>
+    <type value="dateTime"/>
+  </property>
+  <property>
+    <code value="status"/>
+    <uri value="http://hl7.org/fhir/concept-properties#status"/>
+    <description value="Statut d'un code concept"/>
+    <type value="code"/>
+  </property>
+  <property>
+    <code value="deprecationDate"/>
+    <uri value="http://hl7.org/fhir/concept-properties#deprecationDate"/>
+    <description value="Date de dépréciation du code"/>
+    <type value="dateTime"/>
+  </property>
+  <property>
+    <code value="retirementDate"/>
+    <uri value="http://hl7.org/fhir/concept-properties#retirementDate"/>
+    <description value="Date de retrait du code"/>
     <type value="dateTime"/>
   </property>
   <concept>
@@ -65,6 +84,10 @@
       <code value="dateMaj"/>
       <valueDateTime value="2024-12-30T00:00:00+01:00"/>
     </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
+    </property>
   </concept>
   <concept>
     <code value="002"/>
@@ -84,6 +107,10 @@
     <property>
       <code value="dateMaj"/>
       <valueDateTime value="2024-12-30T00:00:00+01:00"/>
+    </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
     </property>
   </concept>
   <concept>
@@ -105,6 +132,10 @@
       <code value="dateMaj"/>
       <valueDateTime value="2024-12-30T00:00:00+01:00"/>
     </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
+    </property>
   </concept>
   <concept>
     <code value="004"/>
@@ -124,6 +155,10 @@
     <property>
       <code value="dateMaj"/>
       <valueDateTime value="2024-12-30T00:00:00+01:00"/>
+    </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
     </property>
   </concept>
 </CodeSystem>

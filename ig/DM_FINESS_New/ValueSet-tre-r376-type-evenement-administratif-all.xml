@@ -27,7 +27,7 @@
   <experimental value="false"/>
   <date value="2025-02-22T18:02:28.249+00:00"/>
   <publisher value="Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris"/>
-  <description value="Jeu de valeurs ALL des événements affectant le cycle de vie des entités et activités enrgeistrées dans FINESS+"/>
+  <description value="Jeu de valeurs ALL contenant les événements affectant le cycle de vie des entités et activités enrgeistrées dans FINESS+"/>
   <compose>
     <include>
       <system value="https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r376-type-evenement-administratif"/>

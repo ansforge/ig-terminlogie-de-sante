@@ -3924,54 +3924,6 @@
     "oids" : ["1.2.250.1.213.1.6.1.54"]
   },
   {
-    "id" : "TRE-R361-FonctionPublique",
-    "type" : "CodeSystem",
-    "url" : "https://mos.esante.gouv.fr/NOS/TRE_R361-FonctionPublique/FHIR/TRE-R361-FonctionPublique",
-    "version" : "20241230120000",
-    "name" : "TRE_R361_FonctionPublique",
-    "oids" : ["1.2.250.1.213.1.6.1.255"]
-  },
-  {
-    "id" : "TRE-R362-TypeBudget",
-    "type" : "CodeSystem",
-    "url" : "https://mos.esante.gouv.fr/NOS/TRE_R362-TypeBudget/FHIR/TRE-R362-TypeBudget",
-    "version" : "20241230120000",
-    "name" : "TRE_R362_TypeBudget",
-    "oids" : ["1.2.250.1.213.1.6.1.256"]
-  },
-  {
-    "id" : "TRE-R363-TypeEngagement",
-    "type" : "CodeSystem",
-    "url" : "https://mos.esante.gouv.fr/NOS/TRE_R363-TypeEngagement/FHIR/TRE-R363-TypeEngagement",
-    "version" : "20241230120000",
-    "name" : "TRE_R363_TypeEngagement",
-    "oids" : ["1.2.250.1.213.1.6.1.257"]
-  },
-  {
-    "id" : "TRE-R364-TypeDocumentAdministratif",
-    "type" : "CodeSystem",
-    "url" : "https://mos.esante.gouv.fr/NOS/TRE_R364-TypeDocumentAdministratif/FHIR/TRE-R364-TypeDocumentAdministratif",
-    "version" : "20241230120000",
-    "name" : "TRE_R364_TypeDocumentAdministratif",
-    "oids" : ["1.2.250.1.213.1.6.1.258"]
-  },
-  {
-    "id" : "TRE-R365-EtatObjet",
-    "type" : "CodeSystem",
-    "url" : "https://mos.esante.gouv.fr/NOS/TRE_R365-EtatObjet/FHIR/TRE-R365-EtatObjet",
-    "version" : "20241230120000",
-    "name" : "TRE_R365_EtatObjet",
-    "oids" : ["1.2.250.1.213.1.6.1.259"]
-  },
-  {
-    "id" : "TRE-R366-TypeObjet",
-    "type" : "CodeSystem",
-    "url" : "https://mos.esante.gouv.fr/NOS/TRE_R366-TypeObjet/FHIR/TRE-R366-TypeObjet",
-    "version" : "20241230120000",
-    "name" : "TRE_R366_TypeObjet",
-    "oids" : ["1.2.250.1.213.1.6.1.260"]
-  },
-  {
     "id" : "TRE-R368-StatutRessource",
     "type" : "CodeSystem",
     "url" : "https://mos.esante.gouv.fr/NOS/TRE_R368-StatutRessource/FHIR/TRE-R368-StatutRessource",
@@ -3994,22 +3946,6 @@
     "version" : "20231215120000",
     "name" : "TRE_R37_TypeProfessionFonction",
     "oids" : ["1.2.250.1.213.1.6.1.3"]
-  },
-  {
-    "id" : "TRE-R370-RoleRelationEGE",
-    "type" : "CodeSystem",
-    "url" : "https://mos.esante.gouv.fr/NOS/TRE_R370-RoleRelationEGE/FHIR/TRE-R370-RoleRelationEGE",
-    "version" : "20241230120000",
-    "name" : "TRE_R370_RoleRelationEGE",
-    "oids" : ["1.2.250.1.213.1.6.1.286"]
-  },
-  {
-    "id" : "TRE-R371-TypeGroupeGCC",
-    "type" : "CodeSystem",
-    "url" : "https://mos.esante.gouv.fr/NOS/TRE_R371-TypeGroupeGCC/FHIR/TRE-R371-TypeGroupeGCC",
-    "version" : "20241230120000",
-    "name" : "TRE_R371_TypeGroupeGCC",
-    "oids" : ["1.2.250.1.213.1.6.1.287"]
   },
   {
     "id" : "TRE-R38-SpecialiteOrdinale",
@@ -4412,6 +4348,134 @@
     "oids" : ["1.2.250.1.213.1.6.1.254"]
   },
   {
+    "id" : "tre-r360-type-role-entite-groupe-all",
+    "type" : "ValueSet",
+    "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r360-type-role-entite-groupe?vs",
+    "version" : "20250222120000",
+    "name" : "TreR360TypeRoleEntiteGroupeAll",
+    "oids" : ["1.2.250.1.213.1.6.1.263"]
+  },
+  {
+    "id" : "tre-r361-fonction-publique",
+    "type" : "CodeSystem",
+    "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r361-fonction-publique",
+    "version" : "20241230120000",
+    "name" : "TreR361FonctionPublique",
+    "oids" : ["1.2.250.1.213.1.6.1.255"]
+  },
+  {
+    "id" : "tre-r361-fonction-publique-all",
+    "type" : "ValueSet",
+    "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r361-fonction-publique?vs",
+    "version" : "20250222120000",
+    "name" : "TreR361FonctionPubliqueAll",
+    "oids" : ["1.2.250.1.213.1.6.1.264"]
+  },
+  {
+    "id" : "tre-r362-type-budget",
+    "type" : "CodeSystem",
+    "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r362-type-budget",
+    "version" : "20241230120000",
+    "name" : "TreR362TypeBudget",
+    "oids" : ["1.2.250.1.213.1.6.1.256"]
+  },
+  {
+    "id" : "tre-r362-type-budget-all",
+    "type" : "ValueSet",
+    "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r362-type-budget?vs",
+    "version" : "20250222120000",
+    "name" : "TreR362TypeBudgetAll",
+    "oids" : ["1.2.250.1.213.1.6.1.265"]
+  },
+  {
+    "id" : "tre-r363-type-engagement",
+    "type" : "CodeSystem",
+    "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r363-type-engagement",
+    "version" : "20241230120000",
+    "name" : "TreR363TypeEngagement",
+    "oids" : ["1.2.250.1.213.1.6.1.257"]
+  },
+  {
+    "id" : "tre-r363-type-engagement-all",
+    "type" : "ValueSet",
+    "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r363-type-engagement?vs",
+    "version" : "20250222120000",
+    "name" : "TreR363TypeEngagementAll",
+    "oids" : ["1.2.250.1.213.1.6.1.265"]
+  },
+  {
+    "id" : "tre-r364-type-document-administratif",
+    "type" : "CodeSystem",
+    "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r364-type-document-administratif",
+    "version" : "20241230120000",
+    "name" : "TreR364TypeDocumentAdministratif",
+    "oids" : ["1.2.250.1.213.1.6.1.258"]
+  },
+  {
+    "id" : "tre-r365-etat-objet",
+    "type" : "CodeSystem",
+    "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r365-etat-objet",
+    "version" : "20241230120000",
+    "name" : "TreR365EtatObjet",
+    "oids" : ["1.2.250.1.213.1.6.1.259"]
+  },
+  {
+    "id" : "tre-r365-etat-objet-all",
+    "type" : "ValueSet",
+    "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r365-etat-objet?vs",
+    "version" : "20250222120000",
+    "name" : "TreR365EtatObjetAll",
+    "oids" : ["1.2.250.1.213.1.6.1.305"]
+  },
+  {
+    "id" : "tre-r366-type-objet",
+    "type" : "CodeSystem",
+    "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r366-type-objet",
+    "version" : "20241230120000",
+    "name" : "TreR366TypeObjet",
+    "oids" : ["1.2.250.1.213.1.6.1.260"]
+  },
+  {
+    "id" : "tre-r366-type-objet-all",
+    "type" : "ValueSet",
+    "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r366-type-objet?vs",
+    "version" : "20250222120000",
+    "name" : "TreR366TypeObjetAll",
+    "oids" : ["1.2.250.1.213.1.6.1.308"]
+  },
+  {
+    "id" : "tre-r370-role-relation-ege",
+    "type" : "CodeSystem",
+    "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r370-role-relation-ege",
+    "version" : "20241230120000",
+    "name" : "TreR370RoleRelationEge",
+    "oids" : ["1.2.250.1.213.1.6.1.286"]
+  },
+  {
+    "id" : "tre-r370-role-relation-ege-all",
+    "type" : "ValueSet",
+    "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r370-role-relation-ege?vs",
+    "version" : "20250222120000",
+    "name" : "TreR370RoleRelationEgeAll",
+    "oids" : ["1.2.250.1.213.1.6.1.320"]
+  },
+  {
+    "id" : "tre-r371-type-groupe-gcc",
+    "type" : "CodeSystem",
+    "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r371-type-groupe-gcc",
+    "version" : "20241230120000",
+    "name" : "TreR371TypeGroupeGcc",
+    "oids" : ["1.2.250.1.213.1.6.1.287"]
+  },
+  {
+    "id" : "tre-r371-type-groupe-gcc-all",
+    "type" : "ValueSet",
+    "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r371-type-groupe-gcc?vs",
+    "version" : "20250222120000",
+    "name" : "TreR371TypeGroupeGccAll",
+    "oids" : ["1.2.250.1.213.1.6.1.314"]
+  },
+  {
     "id" : "tre-r372-type-groupe-gco",
     "type" : "CodeSystem",
     "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r372-type-groupe-gco",
@@ -4420,12 +4484,28 @@
     "oids" : ["1.2.250.1.213.1.6.1.288"]
   },
   {
+    "id" : "tre-r372-type-groupe-gco-all",
+    "type" : "ValueSet",
+    "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r372-type-groupe-gco?vs",
+    "version" : "20250222120000",
+    "name" : "TreR372TypeGroupeGcoAll",
+    "oids" : ["1.2.250.1.213.1.6.1.262"]
+  },
+  {
     "id" : "tre-r373-type-personne-morale",
     "type" : "CodeSystem",
     "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r373-type-personne-morale",
     "version" : "20241230120000",
     "name" : "TreR373TypePersonneMorale",
     "oids" : ["1.2.250.1.213.1.6.1.253"]
+  },
+  {
+    "id" : "tre-r373-type-personne-morale-all",
+    "type" : "ValueSet",
+    "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r373-type-personne-morale?vs",
+    "version" : "20250222120000",
+    "name" : "TreR373TypePersonneMoraleAll",
+    "oids" : ["1.2.250.1.213.1.6.1.261"]
   },
   {
     "id" : "tre-r374-nature-activite-smsse-regulee",
@@ -4468,6 +4548,14 @@
     "oids" : ["1.2.250.1.213.1.6.1.292"]
   },
   {
+    "id" : "tre-r377-usage-adresse-all",
+    "type" : "ValueSet",
+    "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r377-usage-adresse?vs",
+    "version" : "20250222120000",
+    "name" : "TreR377UsageAdresseAll",
+    "oids" : ["1.2.250.1.213.1.6.1.321"]
+  },
+  {
     "id" : "tre-r378-motif-arrete",
     "type" : "CodeSystem",
     "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r378-motif-arrete",
@@ -4476,12 +4564,28 @@
     "oids" : ["1.2.250.1.213.1.6.1.293"]
   },
   {
+    "id" : "tre-r378-motif-arrete-all",
+    "type" : "ValueSet",
+    "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r378-motif-arrete?vs",
+    "version" : "20250222120000",
+    "name" : "TreR378MotifArreteAll",
+    "oids" : ["1.2.250.1.213.1.6.1.323"]
+  },
+  {
     "id" : "tre-r379-systeme-information",
     "type" : "CodeSystem",
     "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r379-systeme-information",
     "version" : "20241230120000",
     "name" : "TreR379SystemeInformation",
     "oids" : ["1.2.250.1.213.1.6.1.294"]
+  },
+  {
+    "id" : "tre-r379-systeme-information-all",
+    "type" : "ValueSet",
+    "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r379-systeme-information?vs",
+    "version" : "20250222120000",
+    "name" : "TreR379SystemeInformationAll",
+    "oids" : ["1.2.250.1.213.1.6.1.307"]
   },
   {
     "id" : "tre-r380-habilitation",
@@ -4540,12 +4644,28 @@
     "oids" : ["1.2.250.1.213.1.6.1.301"]
   },
   {
+    "id" : "tre-r386-macro-etat-objet-administratif-all",
+    "type" : "ValueSet",
+    "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r386-macro-etat-objet-administratif?vs",
+    "version" : "20250222120000",
+    "name" : "TreR386MacroEtatObjetAdministratifAll",
+    "oids" : ["1.2.250.1.213.1.6.1.306"]
+  },
+  {
     "id" : "tre-r387-type-groupement",
     "type" : "CodeSystem",
     "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r387-type-groupement",
     "version" : "20241230120000",
     "name" : "TreR387TypeGroupement",
     "oids" : ["1.2.250.1.213.1.6.1.302"]
+  },
+  {
+    "id" : "tre-r387-type-groupement-all",
+    "type" : "ValueSet",
+    "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r387-type-groupement?vs",
+    "version" : "20250222120000",
+    "name" : "TreR387TypeGroupementAll",
+    "oids" : ["1.2.250.1.213.1.6.1.313"]
   },
   {
     "id" : "tre-r388-type-logement",

@@ -1,0 +1,7 @@
+<OID>;<Type fichier>;<Nom fichier>;<Description>;<URL fichier>;<Date valid>;<Date fin>;<Date MAJ>
+1.2.250.1.213.1.6.1.257;TRE;TreR363TypeEngagement.tabs;Nomenclature des grands types d'engagement pouvant être associés dans FINESS+ à des structures ou des activités;;20241230120000;;20241230120000
+<OID>;<Code>;<Libellé adapté>;<Libellé court>;<Libellé long>;<Date valid>;<Date fin>;<Date MAJ> 
+1.2.250.1.213.1.6.1.257;ARRT;Arrêté;Arrêté;Arrêté;20241230000000;;20241230000000
+1.2.250.1.213.1.6.1.257;CONV;Convention;Convention;Convention;20241230000000;;20241230000000
+1.2.250.1.213.1.6.1.257;DISP;Dispositif;Dispositif;Dispositif;20241230000000;;20241230000000
+1.2.250.1.213.1.6.1.257;LABL;Label;Label;Label;20241230000000;;20241230000000

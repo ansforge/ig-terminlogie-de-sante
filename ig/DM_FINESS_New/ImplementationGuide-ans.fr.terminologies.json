@@ -47053,7 +47053,7 @@
       "reference" : {
         "reference" : "CodeSystem/tre-r347-activite-sanitaire-diverse-regulee"
       },
-      "name" : "Tre R347 Activitee Sanitaire Diverse Regulee",
+      "name" : "Tre R347 Activite Sanitaire Diverse Regulee",
       "description" : "Nomenclature des activités sanitaires utilisée pour décrire les Activités Sanitaires Diverses Régulées (ASDR)",
       "exampleBoolean" : false
     },
@@ -47072,6 +47072,198 @@
     {
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      }],
+      "reference" : {
+        "reference" : "ValueSet/tre-r360-type-role-entite-groupe-all"
+      },
+      "name" : "Tre R360 Type Role Entite Groupe All",
+      "description" : "Jeu de valeurs ALL contenant les types de rôles que peuvent exercer des entités participants à des groupements",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "CodeSystem"
+      }],
+      "reference" : {
+        "reference" : "CodeSystem/tre-r361-fonction-publique"
+      },
+      "name" : "Tre R361 Fonction Publique",
+      "description" : "Nomenclature des versants de la fonction publique",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      }],
+      "reference" : {
+        "reference" : "ValueSet/tre-r361-fonction-publique-all"
+      },
+      "name" : "Tre R361 Fonction Publique All",
+      "description" : "Jeu de valeurs ALL contenant les versants de la fonction publique.",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "CodeSystem"
+      }],
+      "reference" : {
+        "reference" : "CodeSystem/tre-r362-type-budget"
+      },
+      "name" : "Tre R362 Type Budget",
+      "description" : "Nomenclature des types de budget associés aux Entités Géographiques d'Exercice (EGE) dans FINESS+",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      }],
+      "reference" : {
+        "reference" : "ValueSet/tre-r362-type-budget-all"
+      },
+      "name" : "Tre R362 Type Budget All",
+      "description" : "Jeu de valeurs ALL contenant les types de budget associés aux Entités Géographiques d'Exercice (EGE) dans FINESS+.",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "CodeSystem"
+      }],
+      "reference" : {
+        "reference" : "CodeSystem/tre-r363-type-engagement"
+      },
+      "name" : "Tre R363 Type Engagement",
+      "description" : "Nomenclature des grands types d'engagement pouvant être associés dans FINESS+ à des structures ou des activités",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      }],
+      "reference" : {
+        "reference" : "ValueSet/tre-r363-type-engagement-all"
+      },
+      "name" : "Tre R363 Type Engagement All",
+      "description" : "Jeu de valeurs ALL contenant les grands types d'engagement pouvant être associés dans FINESS+ à des structures ou des activités.",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "CodeSystem"
+      }],
+      "reference" : {
+        "reference" : "CodeSystem/tre-r364-type-document-administratif"
+      },
+      "name" : "Tre R364 Type Document Administratif",
+      "description" : "Nomenclature des types de document informatif et justificatif pouvant être associé à une entité FINESS",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "CodeSystem"
+      }],
+      "reference" : {
+        "reference" : "CodeSystem/tre-r365-etat-objet"
+      },
+      "name" : "Tre R365 Etat Objet",
+      "description" : "Nomenclature des états élémentaires que peuvent porter les entités et activités FINESS+",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      }],
+      "reference" : {
+        "reference" : "ValueSet/tre-r365-etat-objet-all"
+      },
+      "name" : "Tre R365 Etat Objet All",
+      "description" : "Jeu de valeurs ALL contenant les états élémentaires que peuvent porter les entités et activités FINESS+",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "CodeSystem"
+      }],
+      "reference" : {
+        "reference" : "CodeSystem/tre-r366-type-objet"
+      },
+      "name" : "Tre R366 Type Objet",
+      "description" : "Nomenclature des types d'objet enregistrés et manipulés dans FINESS+",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      }],
+      "reference" : {
+        "reference" : "ValueSet/tre-r366-type-objet-all"
+      },
+      "name" : "Tre R366 Type Objet All",
+      "description" : "Jeu de valeurs ALL contenant les types d'objet enregistrés et manipulés dans FINESS+.",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "CodeSystem"
+      }],
+      "reference" : {
+        "reference" : "CodeSystem/tre-r370-role-relation-ege"
+      },
+      "name" : "Tre R370 Role Relation Ege",
+      "description" : "Nomenclature des types de rôle existant entre les Entités Géographiques d'Exercice (EGE) au sein d'une PM-SMSSE",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      }],
+      "reference" : {
+        "reference" : "ValueSet/tre-r370-role-relation-ege-all"
+      },
+      "name" : "Tre R370 Role Relation Ege All",
+      "description" : "Jeu de valeurs ALL contenant les types de rôle existant entre les Entités Géographiques d'Exercice (EGE) au sein d'une PM-SMSSE.",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "CodeSystem"
+      }],
+      "reference" : {
+        "reference" : "CodeSystem/tre-r371-type-groupe-gcc"
+      },
+      "name" : "Tre R371 Type Groupe Gcc",
+      "description" : "Nomenclature des types de Groupement de Coopération conventionnelle (GCC)",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      }],
+      "reference" : {
+        "reference" : "ValueSet/tre-r371-type-groupe-gcc-all"
+      },
+      "name" : "Tre R371 Type Groupe Gcc All",
+      "description" : "Jeu de valeurs ALL contenant les types de Groupement de Coopération conventionnelle (GCC).",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "CodeSystem"
       }],
       "reference" : {
@@ -47084,13 +47276,37 @@
     {
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      }],
+      "reference" : {
+        "reference" : "ValueSet/tre-r372-type-groupe-gco-all"
+      },
+      "name" : "Tre R372 Type Groupe Gco All",
+      "description" : "Jeu de valeurs ALL contenant les types de Groupement de Coopération Organique (GCO).",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "CodeSystem"
       }],
       "reference" : {
         "reference" : "CodeSystem/tre-r373-type-personne-morale"
       },
       "name" : "Tre R373 Type Personne Morale",
-      "description" : "Nomenclature des types de PM-SMSSE (Personne Morale du champ Sanitaire, Médico-social, Social et Enseignement sur les professions de ces  champs)",
+      "description" : "Nomenclature des types de PM-SMSSE (Personne Morale du champ Sanitaire, Médico-social, Social et Enseignement sur les professions de ces champs)",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      }],
+      "reference" : {
+        "reference" : "ValueSet/tre-r373-type-personne-morale-all"
+      },
+      "name" : "Tre R373 Type Personne Morale All",
+      "description" : "Jeu de valeurs ALL contenant les types de PM-SMSSE (Personne Morale du champ Sanitaire, Médico-social, Social et Enseignement sur les professions de ces  champs).",
       "exampleBoolean" : false
     },
     {
@@ -47138,7 +47354,7 @@
         "reference" : "ValueSet/tre-r376-type-evenement-administratif-all"
       },
       "name" : "Tre R376 Type Evenement Administratif All",
-      "description" : "Jeu de valeurs ALL des événements affectant le cycle de vie des entités et activités enrgeistrées dans FINESS+",
+      "description" : "Jeu de valeurs ALL contenant les événements affectant le cycle de vie des entités et activités enrgeistrées dans FINESS+",
       "exampleBoolean" : false
     },
     {
@@ -47156,13 +47372,37 @@
     {
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      }],
+      "reference" : {
+        "reference" : "ValueSet/tre-r377-usage-adresse-all"
+      },
+      "name" : "Tre R377 Usage Adresse All",
+      "description" : "Jeu de valeurs ALL contenant les usages des adresses associées aux entités enregistrés dans FINESS+",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "CodeSystem"
       }],
       "reference" : {
         "reference" : "CodeSystem/tre-r378-motif-arrete"
       },
       "name" : "Tre R378 Motif Arrete",
-      "description" : "Nomenclature des motifs des arrêtés enregsitrées dans  FINESS+",
+      "description" : "Nomenclature des motifs des arrêtés enregsitrées dans FINESS+",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      }],
+      "reference" : {
+        "reference" : "ValueSet/tre-r378-motif-arrete-all"
+      },
+      "name" : "Tre R378 Motif Arrete All",
+      "description" : "Jeu de valeurs ALL contenant les motifs des arrêtés enregsitrées dans FINESS+",
       "exampleBoolean" : false
     },
     {
@@ -47175,6 +47415,18 @@
       },
       "name" : "Tre R379 Systeme Information",
       "description" : "Nomenclature des systemes d'information en relation avec FINESS",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      }],
+      "reference" : {
+        "reference" : "ValueSet/tre-r379-systeme-information-all"
+      },
+      "name" : "Tre R379 Systeme Information All",
+      "description" : "Jeu de valeurs ALL contenant les systemes d'information en relation avec FINESS",
       "exampleBoolean" : false
     },
     {
@@ -47264,6 +47516,18 @@
     {
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      }],
+      "reference" : {
+        "reference" : "ValueSet/tre-r386-macro-etat-objet-administratif-all"
+      },
+      "name" : "Tre R386 Macro Etat Objet Administratif All",
+      "description" : "Jeu de valeurs ALL contenant les macro-etat des structures FINESS qui dérivent de l'état de l'objet. Permet de distinguer les structures actives de celles inactives.",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "CodeSystem"
       }],
       "reference" : {
@@ -47271,6 +47535,18 @@
       },
       "name" : "Tre R387 Type Groupement",
       "description" : "Nomenclature des types de groupement utilisables dans FINESS. Groupement de coopération conventionnelle ou Groupement de coopération organique",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      }],
+      "reference" : {
+        "reference" : "ValueSet/tre-r387-type-groupement-all"
+      },
+      "name" : "Tre R387 Type Groupement All",
+      "description" : "Jeu de valeurs ALL contenant les types de groupement utilisables dans FINESS. Groupement de coopération conventionnelle ou Groupement de coopération organique",
       "exampleBoolean" : false
     },
     {
@@ -49666,78 +49942,6 @@
         "valueString" : "CodeSystem"
       }],
       "reference" : {
-        "reference" : "CodeSystem/TRE-R361-FonctionPublique"
-      },
-      "name" : "TRE_R361_FonctionPublique",
-      "description" : "Nomenclature des versants de la fonction publique",
-      "exampleBoolean" : false
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "CodeSystem"
-      }],
-      "reference" : {
-        "reference" : "CodeSystem/TRE-R362-TypeBudget"
-      },
-      "name" : "TRE_R362_TypeBudget",
-      "description" : "Nomenclature des types de budget associés aux Entités Géographiques d'Exercice (EGE) dans FINESS+",
-      "exampleBoolean" : false
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "CodeSystem"
-      }],
-      "reference" : {
-        "reference" : "CodeSystem/TRE-R363-TypeEngagement"
-      },
-      "name" : "TRE_R363_TypeEngagement",
-      "description" : "Nomenclature des grands types d'engagement pouvant être associés dans FINESS+ à des structures ou des activités",
-      "exampleBoolean" : false
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "CodeSystem"
-      }],
-      "reference" : {
-        "reference" : "CodeSystem/TRE-R364-TypeDocumentAdministratif"
-      },
-      "name" : "TRE_R364_TypeDocumentAdministratif",
-      "description" : "Nomenclature des types de document informatif et justificatif pouvant être associé à une entité FINESS",
-      "exampleBoolean" : false
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "CodeSystem"
-      }],
-      "reference" : {
-        "reference" : "CodeSystem/TRE-R365-EtatObjet"
-      },
-      "name" : "TRE_R365_EtatObjet",
-      "description" : "Nomenclature des états élémentaires que peuvent porter les entités et activités FINESS+",
-      "exampleBoolean" : false
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "CodeSystem"
-      }],
-      "reference" : {
-        "reference" : "CodeSystem/TRE-R366-TypeObjet"
-      },
-      "name" : "TRE_R366_TypeObjet",
-      "description" : "Nomenclature des types d'objet enregsitrés et manipulés dans FINESS+",
-      "exampleBoolean" : false
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "CodeSystem"
-      }],
-      "reference" : {
         "reference" : "CodeSystem/TRE-R368-StatutRessource"
       },
       "name" : "TRE_R368_StatutRessource",
@@ -49766,30 +49970,6 @@
       },
       "name" : "TRE_R36_AutreDiplomeObtenu",
       "description" : "Autre diplôme obtenu",
-      "exampleBoolean" : false
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "CodeSystem"
-      }],
-      "reference" : {
-        "reference" : "CodeSystem/TRE-R370-RoleRelationEGE"
-      },
-      "name" : "TRE_R370_RoleRelationEGE",
-      "description" : "Nomenclature des types de rôle existant entre les Entités Géographiques d'Exercice (EGE) au sein d'une PM-SMSSE",
-      "exampleBoolean" : false
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "CodeSystem"
-      }],
-      "reference" : {
-        "reference" : "CodeSystem/TRE-R371-TypeGroupeGCC"
-      },
-      "name" : "TRE_R371_TypeGroupeGCC",
-      "description" : "Nomenclature des types de Groupement de Coopération conventionnelle (GCC)",
       "exampleBoolean" : false
     },
     {

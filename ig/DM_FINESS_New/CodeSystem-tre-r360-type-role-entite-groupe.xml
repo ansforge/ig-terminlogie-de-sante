@@ -29,6 +29,7 @@
   <publisher value="Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris"/>
   <description value="Nomenclature des types de rôles que peuvent exercer des entités participants à des groupements"/>
   <caseSensitive value="false"/>
+  <valueSet value="https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r360-type-role-entite-groupe?vs"/>
   <content value="complete"/>
   <count value="3"/>
   <property>

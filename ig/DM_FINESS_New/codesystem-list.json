@@ -1810,60 +1810,6 @@
       "oids" : ["1.2.250.1.213.1.6.1.54"]
     },
     {
-      "url" : "https://mos.esante.gouv.fr/NOS/TRE_R361-FonctionPublique/FHIR/TRE-R361-FonctionPublique",
-      "version" : "20241230120000",
-      "status" : "active",
-      "name" : "TRE_R361_FonctionPublique",
-      "title" : null,
-      "description" : "Nomenclature des versants de la fonction publique",
-      "oids" : ["1.2.250.1.213.1.6.1.255"]
-    },
-    {
-      "url" : "https://mos.esante.gouv.fr/NOS/TRE_R362-TypeBudget/FHIR/TRE-R362-TypeBudget",
-      "version" : "20241230120000",
-      "status" : "active",
-      "name" : "TRE_R362_TypeBudget",
-      "title" : null,
-      "description" : "Nomenclature des types de budget associés aux Entités Géographiques d'Exercice (EGE) dans FINESS+",
-      "oids" : ["1.2.250.1.213.1.6.1.256"]
-    },
-    {
-      "url" : "https://mos.esante.gouv.fr/NOS/TRE_R363-TypeEngagement/FHIR/TRE-R363-TypeEngagement",
-      "version" : "20241230120000",
-      "status" : "active",
-      "name" : "TRE_R363_TypeEngagement",
-      "title" : null,
-      "description" : "Nomenclature des grands types d'engagement pouvant être associés dans FINESS+ à des structures ou des activités",
-      "oids" : ["1.2.250.1.213.1.6.1.257"]
-    },
-    {
-      "url" : "https://mos.esante.gouv.fr/NOS/TRE_R364-TypeDocumentAdministratif/FHIR/TRE-R364-TypeDocumentAdministratif",
-      "version" : "20241230120000",
-      "status" : "active",
-      "name" : "TRE_R364_TypeDocumentAdministratif",
-      "title" : null,
-      "description" : "Nomenclature des types de document informatif et justificatif pouvant être associé à une entité FINESS",
-      "oids" : ["1.2.250.1.213.1.6.1.258"]
-    },
-    {
-      "url" : "https://mos.esante.gouv.fr/NOS/TRE_R365-EtatObjet/FHIR/TRE-R365-EtatObjet",
-      "version" : "20241230120000",
-      "status" : "active",
-      "name" : "TRE_R365_EtatObjet",
-      "title" : null,
-      "description" : "Nomenclature des états élémentaires que peuvent porter les entités et activités FINESS+",
-      "oids" : ["1.2.250.1.213.1.6.1.259"]
-    },
-    {
-      "url" : "https://mos.esante.gouv.fr/NOS/TRE_R366-TypeObjet/FHIR/TRE-R366-TypeObjet",
-      "version" : "20241230120000",
-      "status" : "active",
-      "name" : "TRE_R366_TypeObjet",
-      "title" : null,
-      "description" : "Nomenclature des types d'objet enregsitrés et manipulés dans FINESS+",
-      "oids" : ["1.2.250.1.213.1.6.1.260"]
-    },
-    {
       "url" : "https://mos.esante.gouv.fr/NOS/TRE_R368-StatutRessource/FHIR/TRE-R368-StatutRessource",
       "version" : "20240927120000",
       "status" : "active",
@@ -1889,24 +1835,6 @@
       "title" : null,
       "description" : "Type des professions et des fonctions",
       "oids" : ["1.2.250.1.213.1.6.1.3"]
-    },
-    {
-      "url" : "https://mos.esante.gouv.fr/NOS/TRE_R370-RoleRelationEGE/FHIR/TRE-R370-RoleRelationEGE",
-      "version" : "20241230120000",
-      "status" : "active",
-      "name" : "TRE_R370_RoleRelationEGE",
-      "title" : null,
-      "description" : "Nomenclature des types de rôle existant entre les Entités Géographiques d'Exercice (EGE) au sein d'une PM-SMSSE",
-      "oids" : ["1.2.250.1.213.1.6.1.286"]
-    },
-    {
-      "url" : "https://mos.esante.gouv.fr/NOS/TRE_R371-TypeGroupeGCC/FHIR/TRE-R371-TypeGroupeGCC",
-      "version" : "20241230120000",
-      "status" : "active",
-      "name" : "TRE_R371_TypeGroupeGCC",
-      "title" : null,
-      "description" : "Nomenclature des types de Groupement de Coopération conventionnelle (GCC)",
-      "oids" : ["1.2.250.1.213.1.6.1.287"]
     },
     {
       "url" : "https://mos.esante.gouv.fr/NOS/TRE_R38-SpecialiteOrdinale/FHIR/TRE-R38-SpecialiteOrdinale",
@@ -2345,7 +2273,7 @@
       "version" : "20250220120000",
       "status" : "active",
       "name" : "TreR347ActiviteSanitaireDiverseRegulee",
-      "title" : "Tre R347 Activitee Sanitaire Diverse Regulee",
+      "title" : "Tre R347 Activite Sanitaire Diverse Regulee",
       "description" : "Nomenclature des activités sanitaires utilisée pour décrire les Activités Sanitaires Diverses Régulées (ASDR)",
       "oids" : ["1.2.250.1.213.1.6.1.248"]
     },
@@ -2357,6 +2285,78 @@
       "title" : "Tre R360 Type Role Entite Groupe",
       "description" : "Nomenclature des types de rôles que peuvent exercer des entités participants à des groupements",
       "oids" : ["1.2.250.1.213.1.6.1.254"]
+    },
+    {
+      "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r361-fonction-publique",
+      "version" : "20241230120000",
+      "status" : "active",
+      "name" : "TreR361FonctionPublique",
+      "title" : "Tre R361 Fonction Publique",
+      "description" : "Nomenclature des versants de la fonction publique",
+      "oids" : ["1.2.250.1.213.1.6.1.255"]
+    },
+    {
+      "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r362-type-budget",
+      "version" : "20241230120000",
+      "status" : "active",
+      "name" : "TreR362TypeBudget",
+      "title" : "Tre R362 Type Budget",
+      "description" : "Nomenclature des types de budget associés aux Entités Géographiques d'Exercice (EGE) dans FINESS+",
+      "oids" : ["1.2.250.1.213.1.6.1.256"]
+    },
+    {
+      "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r363-type-engagement",
+      "version" : "20241230120000",
+      "status" : "active",
+      "name" : "TreR363TypeEngagement",
+      "title" : "Tre R363 Type Engagement",
+      "description" : "Nomenclature des grands types d'engagement pouvant être associés dans FINESS+ à des structures ou des activités",
+      "oids" : ["1.2.250.1.213.1.6.1.257"]
+    },
+    {
+      "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r364-type-document-administratif",
+      "version" : "20241230120000",
+      "status" : "active",
+      "name" : "TreR364TypeDocumentAdministratif",
+      "title" : "Tre R364 Type Document Administratif",
+      "description" : "Nomenclature des types de document informatif et justificatif pouvant être associé à une entité FINESS",
+      "oids" : ["1.2.250.1.213.1.6.1.258"]
+    },
+    {
+      "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r365-etat-objet",
+      "version" : "20241230120000",
+      "status" : "active",
+      "name" : "TreR365EtatObjet",
+      "title" : "Tre R365 Etat Objet",
+      "description" : "Nomenclature des états élémentaires que peuvent porter les entités et activités FINESS+",
+      "oids" : ["1.2.250.1.213.1.6.1.259"]
+    },
+    {
+      "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r366-type-objet",
+      "version" : "20241230120000",
+      "status" : "active",
+      "name" : "TreR366TypeObjet",
+      "title" : "Tre R366 Type Objet",
+      "description" : "Nomenclature des types d'objet enregistrés et manipulés dans FINESS+",
+      "oids" : ["1.2.250.1.213.1.6.1.260"]
+    },
+    {
+      "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r370-role-relation-ege",
+      "version" : "20241230120000",
+      "status" : "active",
+      "name" : "TreR370RoleRelationEge",
+      "title" : "Tre R370 Role Relation Ege",
+      "description" : "Nomenclature des types de rôle existant entre les Entités Géographiques d'Exercice (EGE) au sein d'une PM-SMSSE",
+      "oids" : ["1.2.250.1.213.1.6.1.286"]
+    },
+    {
+      "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r371-type-groupe-gcc",
+      "version" : "20241230120000",
+      "status" : "active",
+      "name" : "TreR371TypeGroupeGcc",
+      "title" : "Tre R371 Type Groupe Gcc",
+      "description" : "Nomenclature des types de Groupement de Coopération conventionnelle (GCC)",
+      "oids" : ["1.2.250.1.213.1.6.1.287"]
     },
     {
       "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r372-type-groupe-gco",
@@ -2373,7 +2373,7 @@
       "status" : "active",
       "name" : "TreR373TypePersonneMorale",
       "title" : "Tre R373 Type Personne Morale",
-      "description" : "Nomenclature des types de PM-SMSSE (Personne Morale du champ Sanitaire, Médico-social, Social et Enseignement sur les professions de ces  champs)",
+      "description" : "Nomenclature des types de PM-SMSSE (Personne Morale du champ Sanitaire, Médico-social, Social et Enseignement sur les professions de ces champs)",
       "oids" : ["1.2.250.1.213.1.6.1.253"]
     },
     {
@@ -2418,7 +2418,7 @@
       "status" : "active",
       "name" : "TreR378MotifArrete",
       "title" : "Tre R378 Motif Arrete",
-      "description" : "Nomenclature des motifs des arrêtés enregsitrées dans  FINESS+",
+      "description" : "Nomenclature des motifs des arrêtés enregsitrées dans FINESS+",
       "oids" : ["1.2.250.1.213.1.6.1.293"]
     },
     {

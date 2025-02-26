@@ -4,7 +4,7 @@
    <ValueSet dateFin=""
              dateMaj="20250222180228"
              dateValid="20250222180228"
-             description="Jeu de valeurs ALL des événements affectant le cycle de vie des entités et activités enrgeistrées dans FINESS+"
+             description="Jeu de valeurs ALL contenant les événements affectant le cycle de vie des entités et activités enrgeistrées dans FINESS+"
              displayName="TreR376TypeEvenementAdministratifAll"
              id="1.2.250.1.213.1.6.1.304"
              typeFichier="JDV"

@@ -3509,17 +3509,212 @@
       ]
     },
     {
+      "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r360-type-role-entite-groupe?vs",
+      "version" : "20250222120000",
+      "status" : "active",
+      "name" : "TreR360TypeRoleEntiteGroupeAll",
+      "title" : "Tre R360 Type Role Entite Groupe All",
+      "description" : "Jeu de valeurs ALL contenant les types de rôles que peuvent exercer des entités participants à des groupements",
+      "systems" : [
+        "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r360-type-role-entite-groupe"
+      ],
+      "oids" : ["1.2.250.1.213.1.6.1.263"],
+      "sources" : ["1.2.250.1.213.1.6.1.263"]
+    },
+    {
+      "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r361-fonction-publique?vs",
+      "version" : "20250222120000",
+      "status" : "active",
+      "name" : "TreR361FonctionPubliqueAll",
+      "title" : "Tre R361 Fonction Publique All",
+      "description" : "Jeu de valeurs ALL contenant les versants de la fonction publique.",
+      "systems" : [
+        "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r361-fonction-publique"
+      ],
+      "oids" : ["1.2.250.1.213.1.6.1.264"],
+      "sources" : ["1.2.250.1.213.1.6.1.264"]
+    },
+    {
+      "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r362-type-budget?vs",
+      "version" : "20250222120000",
+      "status" : "active",
+      "name" : "TreR362TypeBudgetAll",
+      "title" : "Tre R362 Type Budget All",
+      "description" : "Jeu de valeurs ALL contenant les types de budget associés aux Entités Géographiques d'Exercice (EGE) dans FINESS+.",
+      "systems" : [
+        "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r362-type-budget"
+      ],
+      "oids" : ["1.2.250.1.213.1.6.1.265"],
+      "sources" : ["1.2.250.1.213.1.6.1.265"]
+    },
+    {
+      "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r363-type-engagement?vs",
+      "version" : "20250222120000",
+      "status" : "active",
+      "name" : "TreR363TypeEngagementAll",
+      "title" : "Tre R363 Type Engagement All",
+      "description" : "Jeu de valeurs ALL contenant les grands types d'engagement pouvant être associés dans FINESS+ à des structures ou des activités.",
+      "systems" : [
+        "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r363-type-engagement"
+      ],
+      "oids" : ["1.2.250.1.213.1.6.1.265"],
+      "sources" : ["1.2.250.1.213.1.6.1.265"]
+    },
+    {
+      "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r365-etat-objet?vs",
+      "version" : "20250222120000",
+      "status" : "active",
+      "name" : "TreR365EtatObjetAll",
+      "title" : "Tre R365 Etat Objet All",
+      "description" : "Jeu de valeurs ALL contenant les états élémentaires que peuvent porter les entités et activités FINESS+",
+      "systems" : [
+        "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r365-etat-objet"
+      ],
+      "oids" : ["1.2.250.1.213.1.6.1.305"],
+      "sources" : ["1.2.250.1.213.1.6.1.305"]
+    },
+    {
+      "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r366-type-objet?vs",
+      "version" : "20250222120000",
+      "status" : "active",
+      "name" : "TreR366TypeObjetAll",
+      "title" : "Tre R366 Type Objet All",
+      "description" : "Jeu de valeurs ALL contenant les types d'objet enregistrés et manipulés dans FINESS+.",
+      "systems" : [
+        "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r366-type-objet"
+      ],
+      "oids" : ["1.2.250.1.213.1.6.1.308"],
+      "sources" : ["1.2.250.1.213.1.6.1.308"]
+    },
+    {
+      "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r370-role-relation-ege?vs",
+      "version" : "20250222120000",
+      "status" : "active",
+      "name" : "TreR370RoleRelationEgeAll",
+      "title" : "Tre R370 Role Relation Ege All",
+      "description" : "Jeu de valeurs ALL contenant les types de rôle existant entre les Entités Géographiques d'Exercice (EGE) au sein d'une PM-SMSSE.",
+      "systems" : [
+        "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r370-role-relation-ege"
+      ],
+      "oids" : ["1.2.250.1.213.1.6.1.320"],
+      "sources" : ["1.2.250.1.213.1.6.1.320"]
+    },
+    {
+      "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r371-type-groupe-gcc?vs",
+      "version" : "20250222120000",
+      "status" : "active",
+      "name" : "TreR371TypeGroupeGccAll",
+      "title" : "Tre R371 Type Groupe Gcc All",
+      "description" : "Jeu de valeurs ALL contenant les types de Groupement de Coopération conventionnelle (GCC).",
+      "systems" : [
+        "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r371-type-groupe-gcc"
+      ],
+      "oids" : ["1.2.250.1.213.1.6.1.314"],
+      "sources" : ["1.2.250.1.213.1.6.1.314"]
+    },
+    {
+      "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r372-type-groupe-gco?vs",
+      "version" : "20250222120000",
+      "status" : "active",
+      "name" : "TreR372TypeGroupeGcoAll",
+      "title" : "Tre R372 Type Groupe Gco All",
+      "description" : "Jeu de valeurs ALL contenant les types de Groupement de Coopération Organique (GCO).",
+      "systems" : [
+        "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r372-type-groupe-gco"
+      ],
+      "oids" : ["1.2.250.1.213.1.6.1.262"],
+      "sources" : ["1.2.250.1.213.1.6.1.262"]
+    },
+    {
+      "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r373-type-personne-morale?vs",
+      "version" : "20250222120000",
+      "status" : "active",
+      "name" : "TreR373TypePersonneMoraleAll",
+      "title" : "Tre R373 Type Personne Morale All",
+      "description" : "Jeu de valeurs ALL contenant les types de PM-SMSSE (Personne Morale du champ Sanitaire, Médico-social, Social et Enseignement sur les professions de ces  champs).",
+      "systems" : [
+        "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r373-type-personne-morale"
+      ],
+      "oids" : ["1.2.250.1.213.1.6.1.261"],
+      "sources" : ["1.2.250.1.213.1.6.1.261"]
+    },
+    {
       "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r376-type-evenement-administratif?vs",
       "version" : "20250222120000",
       "status" : "active",
       "name" : "TreR376TypeEvenementAdministratifAll",
       "title" : "Tre R376 Type Evenement Administratif All",
-      "description" : "Jeu de valeurs ALL des événements affectant le cycle de vie des entités et activités enrgeistrées dans FINESS+",
+      "description" : "Jeu de valeurs ALL contenant les événements affectant le cycle de vie des entités et activités enrgeistrées dans FINESS+",
       "systems" : [
         "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r376-type-evenement-administratif"
       ],
       "oids" : ["1.2.250.1.213.1.6.1.304"],
       "sources" : ["1.2.250.1.213.1.6.1.304"]
+    },
+    {
+      "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r377-usage-adresse?vs",
+      "version" : "20250222120000",
+      "status" : "active",
+      "name" : "TreR377UsageAdresseAll",
+      "title" : "Tre R377 Usage Adresse All",
+      "description" : "Jeu de valeurs ALL contenant les usages des adresses associées aux entités enregistrés dans FINESS+",
+      "systems" : [
+        "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r377-usage-adresse"
+      ],
+      "oids" : ["1.2.250.1.213.1.6.1.321"],
+      "sources" : ["1.2.250.1.213.1.6.1.321"]
+    },
+    {
+      "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r378-motif-arrete?vs",
+      "version" : "20250222120000",
+      "status" : "active",
+      "name" : "TreR378MotifArreteAll",
+      "title" : "Tre R378 Motif Arrete All",
+      "description" : "Jeu de valeurs ALL contenant les motifs des arrêtés enregsitrées dans FINESS+",
+      "systems" : [
+        "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r378-motif-arrete"
+      ],
+      "oids" : ["1.2.250.1.213.1.6.1.323"],
+      "sources" : ["1.2.250.1.213.1.6.1.323"]
+    },
+    {
+      "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r379-systeme-information?vs",
+      "version" : "20250222120000",
+      "status" : "active",
+      "name" : "TreR379SystemeInformationAll",
+      "title" : "Tre R379 Systeme Information All",
+      "description" : "Jeu de valeurs ALL contenant les systemes d'information en relation avec FINESS",
+      "systems" : [
+        "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r379-systeme-information"
+      ],
+      "oids" : ["1.2.250.1.213.1.6.1.307"],
+      "sources" : ["1.2.250.1.213.1.6.1.307"]
+    },
+    {
+      "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r386-macro-etat-objet-administratif?vs",
+      "version" : "20250222120000",
+      "status" : "active",
+      "name" : "TreR386MacroEtatObjetAdministratifAll",
+      "title" : "Tre R386 Macro Etat Objet Administratif All",
+      "description" : "Jeu de valeurs ALL contenant les macro-etat des structures FINESS qui dérivent de l'état de l'objet. Permet de distinguer les structures actives de celles inactives.",
+      "systems" : [
+        "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r386-macro-etat-objet-administratif"
+      ],
+      "oids" : ["1.2.250.1.213.1.6.1.306"],
+      "sources" : ["1.2.250.1.213.1.6.1.306"]
+    },
+    {
+      "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r387-type-groupement?vs",
+      "version" : "20250222120000",
+      "status" : "active",
+      "name" : "TreR387TypeGroupementAll",
+      "title" : "Tre R387 Type Groupement All",
+      "description" : "Jeu de valeurs ALL contenant les types de groupement utilisables dans FINESS. Groupement de coopération conventionnelle ou Groupement de coopération organique",
+      "systems" : [
+        "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r387-type-groupement"
+      ],
+      "oids" : ["1.2.250.1.213.1.6.1.313"],
+      "sources" : ["1.2.250.1.213.1.6.1.313"]
     },
     {
       "url" : "https://smt.esante.gouv.fr/fhir/ValueSet/1.2.250.1.213.1.1.4.2.1",
