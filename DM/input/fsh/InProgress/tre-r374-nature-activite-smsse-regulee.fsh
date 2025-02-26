@@ -28,11 +28,25 @@ Description: "Nomenclature des grandes natures d'activité SMSSE exercées par l
 * ^property[+].code = #dateFin
 * ^property[=].description = "Date de fin d'exploitation d'un code concept"
 * ^property[=].type = #dateTime
+* ^property[+].code = #status
+* ^property[=].uri = "http://hl7.org/fhir/concept-properties#status"
+* ^property[=].description = "Statut d'un code concept"
+* ^property[=].type = #code
+* ^property[+].code = #deprecationDate
+* ^property[=].uri = "http://hl7.org/fhir/concept-properties#deprecationDate"
+* ^property[=].description = "Date de dépréciation du code"
+* ^property[=].type = #dateTime
+* ^property[+].code = #retirementDate
+* ^property[=].uri = "http://hl7.org/fhir/concept-properties#retirementDate"
+* ^property[=].description = "Date de retrait du code"
+* ^property[=].type = #dateTime
 * #AASA "Autre Activité Soumise à Autorisation"
 * #AASA ^property[0].code = #dateValid
 * #AASA ^property[=].valueDateTime = "2024-12-30T00:00:00+01:00"
 * #AASA ^property[+].code = #dateMaj
-* #AASA ^property[=].valueDateTime = "2024-12-30T00:00:00+01:00"										
+* #AASA ^property[=].valueDateTime = "2024-12-30T00:00:00+01:00"
+* #AASA ^property[+].code = #status
+* #AASA ^property[=].valueCode = #active
 * #AER "Activité d'Enseignement Régulée"
 * #AER ^designation.language = #fr-FR
 * #AER ^designation.use.system = "http://snomed.info/sct"
@@ -42,11 +56,15 @@ Description: "Nomenclature des grandes natures d'activité SMSSE exercées par l
 * #AER ^property[=].valueDateTime = "2024-12-30T00:00:00+01:00"
 * #AER ^property[+].code = #dateMaj
 * #AER ^property[=].valueDateTime = "2024-12-30T00:00:00+01:00"
+* #AER ^property[+].code = #status
+* #AER ^property[=].valueCode = #active
 * #AMSR "Activité Médico-Sociale Régulée"
 * #AMSR ^property[0].code = #dateValid
 * #AMSR ^property[=].valueDateTime = "2024-12-30T00:00:00+01:00"
 * #AMSR ^property[+].code = #dateMaj
-* #AMSR ^property[=].valueDateTime = "2024-12-30T00:00:00+01:00"										
+* #AMSR ^property[=].valueDateTime = "2024-12-30T00:00:00+01:00"
+* #AMSR ^property[+].code = #status
+* #AMSR ^property[=].valueCode = #active
 * #AMM "Activité de soin 'Activité-Modalité-Mention'"
 * #AMM ^designation.language = #fr-FR
 * #AMM ^designation.use.system = "http://snomed.info/sct"
@@ -56,6 +74,8 @@ Description: "Nomenclature des grandes natures d'activité SMSSE exercées par l
 * #AMM ^property[=].valueDateTime = "2024-12-30T00:00:00+01:00"
 * #AMM ^property[+].code = #dateMaj
 * #AMM ^property[=].valueDateTime = "2024-12-30T00:00:00+01:00"
+* #AMM ^property[+].code = #status
+* #AMM ^property[=].valueCode = #active
 * #AS "Activité de soin 'Activité-Modalité-Forme'"
 * #AS ^designation.language = #fr-FR
 * #AS ^designation.use.system = "http://snomed.info/sct"
@@ -65,16 +85,22 @@ Description: "Nomenclature des grandes natures d'activité SMSSE exercées par l
 * #AS ^property[=].valueDateTime = "2024-12-30T00:00:00+01:00"
 * #AS ^property[+].code = #dateMaj
 * #AS ^property[=].valueDateTime = "2024-12-30T00:00:00+01:00"
+* #AS ^property[+].code = #status
+* #AS ^property[=].valueCode = #active
 * #ASDR "Activité Sanitaire Diverse Régulée"
 * #ASDR ^property[0].code = #dateValid
 * #ASDR ^property[=].valueDateTime = "2024-12-30T00:00:00+01:00"
 * #ASDR ^property[+].code = #dateMaj
-* #ASDR ^property[=].valueDateTime = "2024-12-30T00:00:00+01:00"										
+* #ASDR ^property[=].valueDateTime = "2024-12-30T00:00:00+01:00"
+* #ASDR ^property[+].code = #status
+* #ASDR ^property[=].valueCode = #active
 * #ASOCR "Activité Sociale Régulée"
 * #ASOCR ^property[0].code = #dateValid
 * #ASOCR ^property[=].valueDateTime = "2024-12-30T00:00:00+01:00"
 * #ASOCR ^property[+].code = #dateMaj
-* #ASOCR ^property[=].valueDateTime = "2024-12-30T00:00:00+01:00"										
+* #ASOCR ^property[=].valueDateTime = "2024-12-30T00:00:00+01:00"
+* #ASOCR ^property[+].code = #status
+* #ASOCR ^property[=].valueCode = #active
 * #ASR "Activité Soumise à Reconnaissance contractuelle"
 * #ASR ^designation.language = #fr-FR
 * #ASR ^designation.use.system = "http://snomed.info/sct"
@@ -84,8 +110,12 @@ Description: "Nomenclature des grandes natures d'activité SMSSE exercées par l
 * #ASR ^property[=].valueDateTime = "2024-12-30T00:00:00+01:00"
 * #ASR ^property[+].code = #dateMaj
 * #ASR ^property[=].valueDateTime = "2024-12-30T00:00:00+01:00"
+* #ASR ^property[+].code = #status
+* #ASR ^property[=].valueCode = #active
 * #EML "Equipement Matériel Lourd"
 * #EML ^property[0].code = #dateValid
 * #EML ^property[=].valueDateTime = "2024-12-30T00:00:00+01:00"
 * #EML ^property[+].code = #dateMaj
-* #EML ^property[=].valueDateTime = "2024-12-30T00:00:00+01:00"										
+* #EML ^property[=].valueDateTime = "2024-12-30T00:00:00+01:00"
+* #EML ^property[+].code = #status
+* #EML ^property[=].valueCode = #active
