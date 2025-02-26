@@ -3,7 +3,7 @@ Alias: $tre-r376-type-evenement-administratif = https://smt.esante.gouv.fr/fhir/
 ValueSet: TreR376TypeEvenementAdministratifAll
 Id: tre-r376-type-evenement-administratif-all
 Title: "Tre R376 Type Evenement Administratif All"
-Description: "Jeu de valeurs ALL des événements affectant le cycle de vie des entités et activités enrgeistrées dans FINESS+"
+Description: "Jeu de valeurs ALL contenant les événements affectant le cycle de vie des entités et activités enrgeistrées dans FINESS+"
 * ^meta.versionId = "1"
 * ^meta.lastUpdated = "2025-02-22T18:02:28.249+00:00"
 * ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablevalueset"
