@@ -28,6 +28,18 @@ Description: "Nomenclature des types de Groupement de Coopération conventionnel
 * ^property[+].code = #dateFin
 * ^property[=].description = "Date de fin d'exploitation d'un code concept"
 * ^property[=].type = #dateTime
+* ^property[+].code = #status
+* ^property[=].uri = "http://hl7.org/fhir/concept-properties#status"
+* ^property[=].description = "Statut d'un code concept"
+* ^property[=].type = #code
+* ^property[+].code = #deprecationDate
+* ^property[=].uri = "http://hl7.org/fhir/concept-properties#deprecationDate"
+* ^property[=].description = "Date de dépréciation du code"
+* ^property[=].type = #dateTime
+* ^property[+].code = #retirementDate
+* ^property[=].uri = "http://hl7.org/fhir/concept-properties#retirementDate"
+* ^property[=].description = "Date de retrait du code"
+* ^property[=].type = #dateTime
 * #001 "Groupement hospitalier de territoire - Généraliste"
 * #001 ^designation.language = #fr-FR
 * #001 ^designation.use.system = "http://snomed.info/sct"
@@ -37,6 +49,8 @@ Description: "Nomenclature des types de Groupement de Coopération conventionnel
 * #001 ^property[=].valueDateTime = "2024-12-30T00:00:00+01:00"
 * #001 ^property[+].code = #dateMaj
 * #001 ^property[=].valueDateTime = "2024-12-30T00:00:00+01:00"
+* #001 ^property[+].code = #status
+* #001 ^property[=].valueCode = #active
 * #002 "Groupement hospitalier de territoire - Psychiatrie"
 * #002 ^designation.language = #fr-FR
 * #002 ^designation.use.system = "http://snomed.info/sct"
@@ -46,3 +60,5 @@ Description: "Nomenclature des types de Groupement de Coopération conventionnel
 * #002 ^property[=].valueDateTime = "2024-12-30T00:00:00+01:00"
 * #002 ^property[+].code = #dateMaj
 * #002 ^property[=].valueDateTime = "2024-12-30T00:00:00+01:00"
+* #002 ^property[+].code = #status
+* #002 ^property[=].valueCode = #active
