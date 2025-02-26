@@ -1,12 +1,13 @@
-CodeSystem: TRE_R370_RoleRelationEGE
-Id: TRE-R370-RoleRelationEGE
+CodeSystem: TreR370RoleRelationEge
+Id: tre-r370-role-relation-ege
+Title: "Tre R370 Role Relation Ege"
 Description: "Nomenclature des types de rôle existant entre les Entités Géographiques d'Exercice (EGE) au sein d'une PM-SMSSE"
 * ^meta.versionId = "1"
 * ^meta.lastUpdated = "2024-12-30T12:00:00+01:00"
 * ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablecodesystem"
 * ^extension.url = "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod"
 * ^extension.valuePeriod.start = "2024-12-30T12:00:00+01:00"
-* ^url = "https://mos.esante.gouv.fr/NOS/TRE_R370-RoleRelationEGE/FHIR/TRE-R370-RoleRelationEGE"
+* ^url = "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r370-role-relation-ege"
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value = "urn:oid:1.2.250.1.213.1.6.1.286"
 * ^version = "20241230120000"
