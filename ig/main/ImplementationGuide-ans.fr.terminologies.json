@@ -49,6 +49,12 @@
     "uri" : "http://hl7.org/fhir/extensions/ImplementationGuide/hl7.fhir.uv.extensions",
     "packageId" : "hl7.fhir.uv.extensions.r4",
     "version" : "5.2.0"
+  },
+  {
+    "id" : "hl7_fhir_uv_ips",
+    "uri" : "http://hl7.org/fhir/uv/ips/ImplementationGuide/hl7.fhir.uv.ips",
+    "packageId" : "hl7.fhir.uv.ips",
+    "version" : "1.1.0"
   }],
   "definition" : {
     "extension" : [{
