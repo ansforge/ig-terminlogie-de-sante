@@ -20,7 +20,7 @@
   ] ; # 
   fhir:text [
      fhir:status [ fhir:v "generated" ] ;
-     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: CodeSystem tre-r365-etat-objet</b></p><a name=\"tre-r365-etat-objet\"> </a><a name=\"hctre-r365-etat-objet\"> </a><a name=\"tre-r365-etat-objet-fr-FR\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">version: 1; Last updated: 2024-12-30 12:00:00+0100</p><p style=\"margin-bottom: 0px\">Profile: <a href=\"http://hl7.org/fhir/R4/shareablecodesystem.html\">Shareable CodeSystem</a></p></div><p><b>Properties</b></p><p><b>This code system defines the following properties for its concepts</b></p><table class=\"grid\"><tr><td><b>Name</b></td><td><b>Code</b></td><td><b>Type</b></td><td><b>Description</b></td></tr><tr><td>dateValid</td><td>dateValid</td><td>dateTime</td><td>date de validité d'un code concept</td></tr><tr><td>dateMaj</td><td>dateMaj</td><td>dateTime</td><td>Date de mise à jour d'un code concept</td></tr><tr><td>dateFin</td><td>dateFin</td><td>dateTime</td><td>Date de fin d'exploitation d'un code concept</td></tr></table><p><b>Concepts</b></p><p>This case-insensitive code system <code>https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r365-etat-objet</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>dateValid</b></td><td><b>dateMaj</b></td><td><b>French (France) (fr)</b></td></tr><tr><td style=\"white-space:nowrap\">001<a name=\"tre-r365-etat-objet-001\"> </a></td><td>Entrée dans le champ FINESS</td><td>2024-12-30T00:00:00+01:00</td><td>2024-12-30T00:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">002<a name=\"tre-r365-etat-objet-002\"> </a></td><td>Sortie du champ FINESS</td><td>2024-12-30T00:00:00+01:00</td><td>2024-12-30T00:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">003<a name=\"tre-r365-etat-objet-003\"> </a></td><td>Créée / immatriculée</td><td>2024-12-30T00:00:00+01:00</td><td>2024-12-30T00:00:00+01:00</td><td>Créée</td></tr><tr><td style=\"white-space:nowrap\">004<a name=\"tre-r365-etat-objet-004\"> </a></td><td>Cessée</td><td>2024-12-30T00:00:00+01:00</td><td>2024-12-30T00:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">005<a name=\"tre-r365-etat-objet-005\"> </a></td><td>Fermée</td><td>2024-12-30T00:00:00+01:00</td><td>2024-12-30T00:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">007<a name=\"tre-r365-etat-objet-007\"> </a></td><td>Première autorisation de l'EGE</td><td>2024-12-30T00:00:00+01:00</td><td>2024-12-30T00:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">010<a name=\"tre-r365-etat-objet-010\"> </a></td><td>Activité autorisée</td><td>2024-12-30T00:00:00+01:00</td><td>2024-12-30T00:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">012<a name=\"tre-r365-etat-objet-012\"> </a></td><td>Activité installée/meo</td><td>2024-12-30T00:00:00+01:00</td><td>2024-12-30T00:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">013<a name=\"tre-r365-etat-objet-013\"> </a></td><td>Activité fermée</td><td>2024-12-30T00:00:00+01:00</td><td>2024-12-30T00:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">015<a name=\"tre-r365-etat-objet-015\"> </a></td><td>Activité désinstallée</td><td>2024-12-30T00:00:00+01:00</td><td>2024-12-30T00:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">016<a name=\"tre-r365-etat-objet-016\"> </a></td><td>Devient membre du groupe</td><td>2024-12-30T00:00:00+01:00</td><td>2024-12-30T00:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">017<a name=\"tre-r365-etat-objet-017\"> </a></td><td>Sortie du groupe</td><td>2024-12-30T00:00:00+01:00</td><td>2024-12-30T00:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">018<a name=\"tre-r365-etat-objet-018\"> </a></td><td>EGE fermée suite à cession</td><td>2024-12-30T00:00:00+01:00</td><td>2024-12-30T00:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">019<a name=\"tre-r365-etat-objet-019\"> </a></td><td>EGE reprise</td><td>2024-12-30T00:00:00+01:00</td><td>2024-12-30T00:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">020<a name=\"tre-r365-etat-objet-020\"> </a></td><td>PM-EJ fermée suite à cession</td><td>2024-12-30T00:00:00+01:00</td><td>2024-12-30T00:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">021<a name=\"tre-r365-etat-objet-021\"> </a></td><td>Activité exercée cédée</td><td>2024-12-30T00:00:00+01:00</td><td>2024-12-30T00:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">022<a name=\"tre-r365-etat-objet-022\"> </a></td><td>Activité exercée reprise</td><td>2024-12-30T00:00:00+01:00</td><td>2024-12-30T00:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">023<a name=\"tre-r365-etat-objet-023\"> </a></td><td>Activité exercée fermée suite à regroupement</td><td>2024-12-30T00:00:00+01:00</td><td>2024-12-30T00:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">024<a name=\"tre-r365-etat-objet-024\"> </a></td><td>Activité exercée regroupée</td><td>2024-12-30T00:00:00+01:00</td><td>2024-12-30T00:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">025<a name=\"tre-r365-etat-objet-025\"> </a></td><td>Activité en injonction (suspendue)</td><td>2024-12-30T00:00:00+01:00</td><td>2024-12-30T00:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">027<a name=\"tre-r365-etat-objet-027\"> </a></td><td>Fin de suspension, activité active</td><td>2024-12-30T00:00:00+01:00</td><td>2024-12-30T00:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">029<a name=\"tre-r365-etat-objet-029\"> </a></td><td>Activité autorisée caduque (fermée)</td><td>2024-12-30T00:00:00+01:00</td><td>2024-12-30T00:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">030<a name=\"tre-r365-etat-objet-030\"> </a></td><td>Titularité activité cédée</td><td>2024-12-30T00:00:00+01:00</td><td>2024-12-30T00:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">031<a name=\"tre-r365-etat-objet-031\"> </a></td><td>Titularité activité reprise</td><td>2024-12-30T00:00:00+01:00</td><td>2024-12-30T00:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">032<a name=\"tre-r365-etat-objet-032\"> </a></td><td>Activité fermée suite à regroupement (autorisée)</td><td>2024-12-30T00:00:00+01:00</td><td>2024-12-30T00:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">033<a name=\"tre-r365-etat-objet-033\"> </a></td><td>Activité autorisée regroupée</td><td>2024-12-30T00:00:00+01:00</td><td>2024-12-30T00:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">034<a name=\"tre-r365-etat-objet-034\"> </a></td><td>PM Pharmacie créée</td><td>2024-12-30T00:00:00+01:00</td><td>2024-12-30T00:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">035<a name=\"tre-r365-etat-objet-035\"> </a></td><td>EGE Pharmacie créée</td><td>2024-12-30T00:00:00+01:00</td><td>2024-12-30T00:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">036<a name=\"tre-r365-etat-objet-036\"> </a></td><td>EGE Pharmacie ouverte</td><td>2024-12-30T00:00:00+01:00</td><td>2024-12-30T00:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">037<a name=\"tre-r365-etat-objet-037\"> </a></td><td>Nouveau titulaire</td><td>2024-12-30T00:00:00+01:00</td><td>2024-12-30T00:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">038<a name=\"tre-r365-etat-objet-038\"> </a></td><td>EGE fermée provisoirement</td><td>2024-12-30T00:00:00+01:00</td><td>2024-12-30T00:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">039<a name=\"tre-r365-etat-objet-039\"> </a></td><td>EGE réouverte</td><td>2024-12-30T00:00:00+01:00</td><td>2024-12-30T00:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">040<a name=\"tre-r365-etat-objet-040\"> </a></td><td>Activitée fermée provisoirement</td><td>2024-12-30T00:00:00+01:00</td><td>2024-12-30T00:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">041<a name=\"tre-r365-etat-objet-041\"> </a></td><td>Activitée réouverte</td><td>2024-12-30T00:00:00+01:00</td><td>2024-12-30T00:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">100<a name=\"tre-r365-etat-objet-100\"> </a></td><td>Sortie définitivement champ FINESS</td><td>2024-12-30T00:00:00+01:00</td><td>2024-12-30T00:00:00+01:00</td><td>Sortie définitivement</td></tr><tr><td style=\"white-space:nowrap\">101<a name=\"tre-r365-etat-objet-101\"> </a></td><td>Erreur d'enregistrement</td><td>2024-12-30T00:00:00+01:00</td><td>2024-12-30T00:00:00+01:00</td><td>Erreur</td></tr><tr><td style=\"white-space:nowrap\">102<a name=\"tre-r365-etat-objet-102\"> </a></td><td>Sortie champ FINESS</td><td>2024-12-30T00:00:00+01:00</td><td>2024-12-30T00:00:00+01:00</td><td>Sortie champ</td></tr><tr><td style=\"white-space:nowrap\">103<a name=\"tre-r365-etat-objet-103\"> </a></td><td>Sortie provisoirement champ FINESS</td><td>2024-12-30T00:00:00+01:00</td><td>2024-12-30T00:00:00+01:00</td><td>Sortie provisoirement</td></tr></table></div>"^^rdf:XMLLiteral
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: CodeSystem tre-r365-etat-objet</b></p><a name=\"tre-r365-etat-objet\"> </a><a name=\"hctre-r365-etat-objet\"> </a><a name=\"tre-r365-etat-objet-fr-FR\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">version: 1; Last updated: 2024-12-30 12:00:00+0100</p><p style=\"margin-bottom: 0px\">Profile: <a href=\"http://hl7.org/fhir/R4/shareablecodesystem.html\">Shareable CodeSystem</a></p></div><p><b>Properties</b></p><p><b>This code system defines the following properties for its concepts</b></p><table class=\"grid\"><tr><td><b>Name</b></td><td><b>Code</b></td><td><b>URI</b></td><td><b>Type</b></td><td><b>Description</b></td></tr><tr><td>dateValid</td><td>dateValid</td><td/><td>dateTime</td><td>date de validité d'un code concept</td></tr><tr><td>dateMaj</td><td>dateMaj</td><td/><td>dateTime</td><td>Date de mise à jour d'un code concept</td></tr><tr><td>dateFin</td><td>dateFin</td><td/><td>dateTime</td><td>Date de fin d'exploitation d'un code concept</td></tr><tr><td>status</td><td>status</td><td>http://hl7.org/fhir/concept-properties#status</td><td>code</td><td>Statut d'un code concept</td></tr><tr><td>deprecationDate</td><td>deprecationDate</td><td>http://hl7.org/fhir/concept-properties#deprecationDate</td><td>dateTime</td><td>Date de dépréciation du code</td></tr><tr><td>retirementDate</td><td>retirementDate</td><td>http://hl7.org/fhir/concept-properties#retirementDate</td><td>dateTime</td><td>Date de retrait du code</td></tr></table><p><b>Concepts</b></p><p>This case-insensitive code system <code>https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r365-etat-objet</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>dateValid</b></td><td><b>dateMaj</b></td><td><b>status</b></td><td><b>French (France) (fr)</b></td></tr><tr><td style=\"white-space:nowrap\">001<a name=\"tre-r365-etat-objet-001\"> </a></td><td>Entrée dans le champ FINESS</td><td>2024-12-30T00:00:00+01:00</td><td>2024-12-30T00:00:00+01:00</td><td>active</td><td/></tr><tr><td style=\"white-space:nowrap\">002<a name=\"tre-r365-etat-objet-002\"> </a></td><td>Sortie du champ FINESS</td><td>2024-12-30T00:00:00+01:00</td><td>2024-12-30T00:00:00+01:00</td><td>active</td><td/></tr><tr><td style=\"white-space:nowrap\">003<a name=\"tre-r365-etat-objet-003\"> </a></td><td>Créée / immatriculée</td><td>2024-12-30T00:00:00+01:00</td><td>2024-12-30T00:00:00+01:00</td><td>active</td><td>Créée</td></tr><tr><td style=\"white-space:nowrap\">004<a name=\"tre-r365-etat-objet-004\"> </a></td><td>Cessée</td><td>2024-12-30T00:00:00+01:00</td><td>2024-12-30T00:00:00+01:00</td><td>active</td><td/></tr><tr><td style=\"white-space:nowrap\">005<a name=\"tre-r365-etat-objet-005\"> </a></td><td>Fermée</td><td>2024-12-30T00:00:00+01:00</td><td>2024-12-30T00:00:00+01:00</td><td>active</td><td/></tr><tr><td style=\"white-space:nowrap\">007<a name=\"tre-r365-etat-objet-007\"> </a></td><td>Première autorisation de l'EGE</td><td>2024-12-30T00:00:00+01:00</td><td>2024-12-30T00:00:00+01:00</td><td>active</td><td/></tr><tr><td style=\"white-space:nowrap\">010<a name=\"tre-r365-etat-objet-010\"> </a></td><td>Activité autorisée</td><td>2024-12-30T00:00:00+01:00</td><td>2024-12-30T00:00:00+01:00</td><td>active</td><td/></tr><tr><td style=\"white-space:nowrap\">012<a name=\"tre-r365-etat-objet-012\"> </a></td><td>Activité installée/meo</td><td>2024-12-30T00:00:00+01:00</td><td>2024-12-30T00:00:00+01:00</td><td>active</td><td/></tr><tr><td style=\"white-space:nowrap\">013<a name=\"tre-r365-etat-objet-013\"> </a></td><td>Activité fermée</td><td>2024-12-30T00:00:00+01:00</td><td>2024-12-30T00:00:00+01:00</td><td>active</td><td/></tr><tr><td style=\"white-space:nowrap\">015<a name=\"tre-r365-etat-objet-015\"> </a></td><td>Activité désinstallée</td><td>2024-12-30T00:00:00+01:00</td><td>2024-12-30T00:00:00+01:00</td><td>active</td><td/></tr><tr><td style=\"white-space:nowrap\">016<a name=\"tre-r365-etat-objet-016\"> </a></td><td>Devient membre du groupe</td><td>2024-12-30T00:00:00+01:00</td><td>2024-12-30T00:00:00+01:00</td><td>active</td><td/></tr><tr><td style=\"white-space:nowrap\">017<a name=\"tre-r365-etat-objet-017\"> </a></td><td>Sortie du groupe</td><td>2024-12-30T00:00:00+01:00</td><td>2024-12-30T00:00:00+01:00</td><td>active</td><td/></tr><tr><td style=\"white-space:nowrap\">018<a name=\"tre-r365-etat-objet-018\"> </a></td><td>EGE fermée suite à cession</td><td>2024-12-30T00:00:00+01:00</td><td>2024-12-30T00:00:00+01:00</td><td>active</td><td/></tr><tr><td style=\"white-space:nowrap\">019<a name=\"tre-r365-etat-objet-019\"> </a></td><td>EGE reprise</td><td>2024-12-30T00:00:00+01:00</td><td>2024-12-30T00:00:00+01:00</td><td>active</td><td/></tr><tr><td style=\"white-space:nowrap\">020<a name=\"tre-r365-etat-objet-020\"> </a></td><td>PM-EJ fermée suite à cession</td><td>2024-12-30T00:00:00+01:00</td><td>2024-12-30T00:00:00+01:00</td><td>active</td><td/></tr><tr><td style=\"white-space:nowrap\">021<a name=\"tre-r365-etat-objet-021\"> </a></td><td>Activité exercée cédée</td><td>2024-12-30T00:00:00+01:00</td><td>2024-12-30T00:00:00+01:00</td><td>active</td><td/></tr><tr><td style=\"white-space:nowrap\">022<a name=\"tre-r365-etat-objet-022\"> </a></td><td>Activité exercée reprise</td><td>2024-12-30T00:00:00+01:00</td><td>2024-12-30T00:00:00+01:00</td><td>active</td><td/></tr><tr><td style=\"white-space:nowrap\">023<a name=\"tre-r365-etat-objet-023\"> </a></td><td>Activité exercée fermée suite à regroupement</td><td>2024-12-30T00:00:00+01:00</td><td>2024-12-30T00:00:00+01:00</td><td>active</td><td/></tr><tr><td style=\"white-space:nowrap\">024<a name=\"tre-r365-etat-objet-024\"> </a></td><td>Activité exercée regroupée</td><td>2024-12-30T00:00:00+01:00</td><td>2024-12-30T00:00:00+01:00</td><td>active</td><td/></tr><tr><td style=\"white-space:nowrap\">025<a name=\"tre-r365-etat-objet-025\"> </a></td><td>Activité en injonction (suspendue)</td><td>2024-12-30T00:00:00+01:00</td><td>2024-12-30T00:00:00+01:00</td><td>active</td><td/></tr><tr><td style=\"white-space:nowrap\">027<a name=\"tre-r365-etat-objet-027\"> </a></td><td>Fin de suspension, activité active</td><td>2024-12-30T00:00:00+01:00</td><td>2024-12-30T00:00:00+01:00</td><td>active</td><td/></tr><tr><td style=\"white-space:nowrap\">029<a name=\"tre-r365-etat-objet-029\"> </a></td><td>Activité autorisée caduque (fermée)</td><td>2024-12-30T00:00:00+01:00</td><td>2024-12-30T00:00:00+01:00</td><td>active</td><td/></tr><tr><td style=\"white-space:nowrap\">030<a name=\"tre-r365-etat-objet-030\"> </a></td><td>Titularité activité cédée</td><td>2024-12-30T00:00:00+01:00</td><td>2024-12-30T00:00:00+01:00</td><td>active</td><td/></tr><tr><td style=\"white-space:nowrap\">031<a name=\"tre-r365-etat-objet-031\"> </a></td><td>Titularité activité reprise</td><td>2024-12-30T00:00:00+01:00</td><td>2024-12-30T00:00:00+01:00</td><td>active</td><td/></tr><tr><td style=\"white-space:nowrap\">032<a name=\"tre-r365-etat-objet-032\"> </a></td><td>Activité fermée suite à regroupement (autorisée)</td><td>2024-12-30T00:00:00+01:00</td><td>2024-12-30T00:00:00+01:00</td><td>active</td><td/></tr><tr><td style=\"white-space:nowrap\">033<a name=\"tre-r365-etat-objet-033\"> </a></td><td>Activité autorisée regroupée</td><td>2024-12-30T00:00:00+01:00</td><td>2024-12-30T00:00:00+01:00</td><td>active</td><td/></tr><tr><td style=\"white-space:nowrap\">034<a name=\"tre-r365-etat-objet-034\"> </a></td><td>PM Pharmacie créée</td><td>2024-12-30T00:00:00+01:00</td><td>2024-12-30T00:00:00+01:00</td><td>active</td><td/></tr><tr><td style=\"white-space:nowrap\">035<a name=\"tre-r365-etat-objet-035\"> </a></td><td>EGE Pharmacie créée</td><td>2024-12-30T00:00:00+01:00</td><td>2024-12-30T00:00:00+01:00</td><td>active</td><td/></tr><tr><td style=\"white-space:nowrap\">036<a name=\"tre-r365-etat-objet-036\"> </a></td><td>EGE Pharmacie ouverte</td><td>2024-12-30T00:00:00+01:00</td><td>2024-12-30T00:00:00+01:00</td><td>active</td><td/></tr><tr><td style=\"white-space:nowrap\">037<a name=\"tre-r365-etat-objet-037\"> </a></td><td>Nouveau titulaire</td><td>2024-12-30T00:00:00+01:00</td><td>2024-12-30T00:00:00+01:00</td><td>active</td><td/></tr><tr><td style=\"white-space:nowrap\">038<a name=\"tre-r365-etat-objet-038\"> </a></td><td>EGE fermée provisoirement</td><td>2024-12-30T00:00:00+01:00</td><td>2024-12-30T00:00:00+01:00</td><td>active</td><td/></tr><tr><td style=\"white-space:nowrap\">039<a name=\"tre-r365-etat-objet-039\"> </a></td><td>EGE réouverte</td><td>2024-12-30T00:00:00+01:00</td><td>2024-12-30T00:00:00+01:00</td><td>active</td><td/></tr><tr><td style=\"white-space:nowrap\">040<a name=\"tre-r365-etat-objet-040\"> </a></td><td>Activitée fermée provisoirement</td><td>2024-12-30T00:00:00+01:00</td><td>2024-12-30T00:00:00+01:00</td><td>active</td><td/></tr><tr><td style=\"white-space:nowrap\">041<a name=\"tre-r365-etat-objet-041\"> </a></td><td>Activitée réouverte</td><td>2024-12-30T00:00:00+01:00</td><td>2024-12-30T00:00:00+01:00</td><td>active</td><td/></tr><tr><td style=\"white-space:nowrap\">100<a name=\"tre-r365-etat-objet-100\"> </a></td><td>Sortie définitivement champ FINESS</td><td>2024-12-30T00:00:00+01:00</td><td>2024-12-30T00:00:00+01:00</td><td>active</td><td>Sortie définitivement</td></tr><tr><td style=\"white-space:nowrap\">101<a name=\"tre-r365-etat-objet-101\"> </a></td><td>Erreur d'enregistrement</td><td>2024-12-30T00:00:00+01:00</td><td>2024-12-30T00:00:00+01:00</td><td>active</td><td>Erreur</td></tr><tr><td style=\"white-space:nowrap\">102<a name=\"tre-r365-etat-objet-102\"> </a></td><td>Sortie champ FINESS</td><td>2024-12-30T00:00:00+01:00</td><td>2024-12-30T00:00:00+01:00</td><td>active</td><td>Sortie champ</td></tr><tr><td style=\"white-space:nowrap\">103<a name=\"tre-r365-etat-objet-103\"> </a></td><td>Sortie provisoirement champ FINESS</td><td>2024-12-30T00:00:00+01:00</td><td>2024-12-30T00:00:00+01:00</td><td>active</td><td>Sortie provisoirement</td></tr></table></div>"^^rdf:XMLLiteral
   ] ; # 
   fhir:extension ( [
      fhir:url [ fhir:v "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod"^^xsd:anyURI ] ;
@@ -61,6 +61,21 @@
      fhir:code [ fhir:v "dateFin" ] ;
      fhir:description [ fhir:v "Date de fin d'exploitation d'un code concept" ] ;
      fhir:type [ fhir:v "dateTime" ]
+  ] [
+     fhir:code [ fhir:v "status" ] ;
+     fhir:uri [ fhir:v "http://hl7.org/fhir/concept-properties#status"^^xsd:anyURI ] ;
+     fhir:description [ fhir:v "Statut d'un code concept" ] ;
+     fhir:type [ fhir:v "code" ]
+  ] [
+     fhir:code [ fhir:v "deprecationDate" ] ;
+     fhir:uri [ fhir:v "http://hl7.org/fhir/concept-properties#deprecationDate"^^xsd:anyURI ] ;
+     fhir:description [ fhir:v "Date de dépréciation du code" ] ;
+     fhir:type [ fhir:v "dateTime" ]
+  ] [
+     fhir:code [ fhir:v "retirementDate" ] ;
+     fhir:uri [ fhir:v "http://hl7.org/fhir/concept-properties#retirementDate"^^xsd:anyURI ] ;
+     fhir:description [ fhir:v "Date de retrait du code" ] ;
+     fhir:type [ fhir:v "dateTime" ]
   ] ) ; # 
   fhir:concept ( [
      fhir:code [ fhir:v "001" ] ;
@@ -77,6 +92,12 @@
          a fhir:dateTime ;
          fhir:v "2024-12-30T00:00:00+01:00"^^xsd:dateTime
        ]
+     ] [
+       fhir:code [ fhir:v "status" ] ;
+       fhir:value [
+         a fhir:code ;
+         fhir:v "active"
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "002" ] ;
@@ -92,6 +113,12 @@
        fhir:value [
          a fhir:dateTime ;
          fhir:v "2024-12-30T00:00:00+01:00"^^xsd:dateTime
+       ]
+     ] [
+       fhir:code [ fhir:v "status" ] ;
+       fhir:value [
+         a fhir:code ;
+         fhir:v "active"
        ]
      ] )
   ] [
@@ -118,6 +145,12 @@
          a fhir:dateTime ;
          fhir:v "2024-12-30T00:00:00+01:00"^^xsd:dateTime
        ]
+     ] [
+       fhir:code [ fhir:v "status" ] ;
+       fhir:value [
+         a fhir:code ;
+         fhir:v "active"
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "004" ] ;
@@ -133,6 +166,12 @@
        fhir:value [
          a fhir:dateTime ;
          fhir:v "2024-12-30T00:00:00+01:00"^^xsd:dateTime
+       ]
+     ] [
+       fhir:code [ fhir:v "status" ] ;
+       fhir:value [
+         a fhir:code ;
+         fhir:v "active"
        ]
      ] )
   ] [
@@ -150,6 +189,12 @@
          a fhir:dateTime ;
          fhir:v "2024-12-30T00:00:00+01:00"^^xsd:dateTime
        ]
+     ] [
+       fhir:code [ fhir:v "status" ] ;
+       fhir:value [
+         a fhir:code ;
+         fhir:v "active"
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "007" ] ;
@@ -165,6 +210,12 @@
        fhir:value [
          a fhir:dateTime ;
          fhir:v "2024-12-30T00:00:00+01:00"^^xsd:dateTime
+       ]
+     ] [
+       fhir:code [ fhir:v "status" ] ;
+       fhir:value [
+         a fhir:code ;
+         fhir:v "active"
        ]
      ] )
   ] [
@@ -182,6 +233,12 @@
          a fhir:dateTime ;
          fhir:v "2024-12-30T00:00:00+01:00"^^xsd:dateTime
        ]
+     ] [
+       fhir:code [ fhir:v "status" ] ;
+       fhir:value [
+         a fhir:code ;
+         fhir:v "active"
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "012" ] ;
@@ -197,6 +254,12 @@
        fhir:value [
          a fhir:dateTime ;
          fhir:v "2024-12-30T00:00:00+01:00"^^xsd:dateTime
+       ]
+     ] [
+       fhir:code [ fhir:v "status" ] ;
+       fhir:value [
+         a fhir:code ;
+         fhir:v "active"
        ]
      ] )
   ] [
@@ -214,6 +277,12 @@
          a fhir:dateTime ;
          fhir:v "2024-12-30T00:00:00+01:00"^^xsd:dateTime
        ]
+     ] [
+       fhir:code [ fhir:v "status" ] ;
+       fhir:value [
+         a fhir:code ;
+         fhir:v "active"
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "015" ] ;
@@ -229,6 +298,12 @@
        fhir:value [
          a fhir:dateTime ;
          fhir:v "2024-12-30T00:00:00+01:00"^^xsd:dateTime
+       ]
+     ] [
+       fhir:code [ fhir:v "status" ] ;
+       fhir:value [
+         a fhir:code ;
+         fhir:v "active"
        ]
      ] )
   ] [
@@ -246,6 +321,12 @@
          a fhir:dateTime ;
          fhir:v "2024-12-30T00:00:00+01:00"^^xsd:dateTime
        ]
+     ] [
+       fhir:code [ fhir:v "status" ] ;
+       fhir:value [
+         a fhir:code ;
+         fhir:v "active"
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "017" ] ;
@@ -261,6 +342,12 @@
        fhir:value [
          a fhir:dateTime ;
          fhir:v "2024-12-30T00:00:00+01:00"^^xsd:dateTime
+       ]
+     ] [
+       fhir:code [ fhir:v "status" ] ;
+       fhir:value [
+         a fhir:code ;
+         fhir:v "active"
        ]
      ] )
   ] [
@@ -278,6 +365,12 @@
          a fhir:dateTime ;
          fhir:v "2024-12-30T00:00:00+01:00"^^xsd:dateTime
        ]
+     ] [
+       fhir:code [ fhir:v "status" ] ;
+       fhir:value [
+         a fhir:code ;
+         fhir:v "active"
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "019" ] ;
@@ -293,6 +386,12 @@
        fhir:value [
          a fhir:dateTime ;
          fhir:v "2024-12-30T00:00:00+01:00"^^xsd:dateTime
+       ]
+     ] [
+       fhir:code [ fhir:v "status" ] ;
+       fhir:value [
+         a fhir:code ;
+         fhir:v "active"
        ]
      ] )
   ] [
@@ -310,6 +409,12 @@
          a fhir:dateTime ;
          fhir:v "2024-12-30T00:00:00+01:00"^^xsd:dateTime
        ]
+     ] [
+       fhir:code [ fhir:v "status" ] ;
+       fhir:value [
+         a fhir:code ;
+         fhir:v "active"
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "021" ] ;
@@ -325,6 +430,12 @@
        fhir:value [
          a fhir:dateTime ;
          fhir:v "2024-12-30T00:00:00+01:00"^^xsd:dateTime
+       ]
+     ] [
+       fhir:code [ fhir:v "status" ] ;
+       fhir:value [
+         a fhir:code ;
+         fhir:v "active"
        ]
      ] )
   ] [
@@ -342,6 +453,12 @@
          a fhir:dateTime ;
          fhir:v "2024-12-30T00:00:00+01:00"^^xsd:dateTime
        ]
+     ] [
+       fhir:code [ fhir:v "status" ] ;
+       fhir:value [
+         a fhir:code ;
+         fhir:v "active"
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "023" ] ;
@@ -357,6 +474,12 @@
        fhir:value [
          a fhir:dateTime ;
          fhir:v "2024-12-30T00:00:00+01:00"^^xsd:dateTime
+       ]
+     ] [
+       fhir:code [ fhir:v "status" ] ;
+       fhir:value [
+         a fhir:code ;
+         fhir:v "active"
        ]
      ] )
   ] [
@@ -374,6 +497,12 @@
          a fhir:dateTime ;
          fhir:v "2024-12-30T00:00:00+01:00"^^xsd:dateTime
        ]
+     ] [
+       fhir:code [ fhir:v "status" ] ;
+       fhir:value [
+         a fhir:code ;
+         fhir:v "active"
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "025" ] ;
@@ -389,6 +518,12 @@
        fhir:value [
          a fhir:dateTime ;
          fhir:v "2024-12-30T00:00:00+01:00"^^xsd:dateTime
+       ]
+     ] [
+       fhir:code [ fhir:v "status" ] ;
+       fhir:value [
+         a fhir:code ;
+         fhir:v "active"
        ]
      ] )
   ] [
@@ -406,6 +541,12 @@
          a fhir:dateTime ;
          fhir:v "2024-12-30T00:00:00+01:00"^^xsd:dateTime
        ]
+     ] [
+       fhir:code [ fhir:v "status" ] ;
+       fhir:value [
+         a fhir:code ;
+         fhir:v "active"
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "029" ] ;
@@ -421,6 +562,12 @@
        fhir:value [
          a fhir:dateTime ;
          fhir:v "2024-12-30T00:00:00+01:00"^^xsd:dateTime
+       ]
+     ] [
+       fhir:code [ fhir:v "status" ] ;
+       fhir:value [
+         a fhir:code ;
+         fhir:v "active"
        ]
      ] )
   ] [
@@ -438,6 +585,12 @@
          a fhir:dateTime ;
          fhir:v "2024-12-30T00:00:00+01:00"^^xsd:dateTime
        ]
+     ] [
+       fhir:code [ fhir:v "status" ] ;
+       fhir:value [
+         a fhir:code ;
+         fhir:v "active"
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "031" ] ;
@@ -453,6 +606,12 @@
        fhir:value [
          a fhir:dateTime ;
          fhir:v "2024-12-30T00:00:00+01:00"^^xsd:dateTime
+       ]
+     ] [
+       fhir:code [ fhir:v "status" ] ;
+       fhir:value [
+         a fhir:code ;
+         fhir:v "active"
        ]
      ] )
   ] [
@@ -470,6 +629,12 @@
          a fhir:dateTime ;
          fhir:v "2024-12-30T00:00:00+01:00"^^xsd:dateTime
        ]
+     ] [
+       fhir:code [ fhir:v "status" ] ;
+       fhir:value [
+         a fhir:code ;
+         fhir:v "active"
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "033" ] ;
@@ -485,6 +650,12 @@
        fhir:value [
          a fhir:dateTime ;
          fhir:v "2024-12-30T00:00:00+01:00"^^xsd:dateTime
+       ]
+     ] [
+       fhir:code [ fhir:v "status" ] ;
+       fhir:value [
+         a fhir:code ;
+         fhir:v "active"
        ]
      ] )
   ] [
@@ -502,6 +673,12 @@
          a fhir:dateTime ;
          fhir:v "2024-12-30T00:00:00+01:00"^^xsd:dateTime
        ]
+     ] [
+       fhir:code [ fhir:v "status" ] ;
+       fhir:value [
+         a fhir:code ;
+         fhir:v "active"
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "035" ] ;
@@ -517,6 +694,12 @@
        fhir:value [
          a fhir:dateTime ;
          fhir:v "2024-12-30T00:00:00+01:00"^^xsd:dateTime
+       ]
+     ] [
+       fhir:code [ fhir:v "status" ] ;
+       fhir:value [
+         a fhir:code ;
+         fhir:v "active"
        ]
      ] )
   ] [
@@ -534,6 +717,12 @@
          a fhir:dateTime ;
          fhir:v "2024-12-30T00:00:00+01:00"^^xsd:dateTime
        ]
+     ] [
+       fhir:code [ fhir:v "status" ] ;
+       fhir:value [
+         a fhir:code ;
+         fhir:v "active"
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "037" ] ;
@@ -549,6 +738,12 @@
        fhir:value [
          a fhir:dateTime ;
          fhir:v "2024-12-30T00:00:00+01:00"^^xsd:dateTime
+       ]
+     ] [
+       fhir:code [ fhir:v "status" ] ;
+       fhir:value [
+         a fhir:code ;
+         fhir:v "active"
        ]
      ] )
   ] [
@@ -566,6 +761,12 @@
          a fhir:dateTime ;
          fhir:v "2024-12-30T00:00:00+01:00"^^xsd:dateTime
        ]
+     ] [
+       fhir:code [ fhir:v "status" ] ;
+       fhir:value [
+         a fhir:code ;
+         fhir:v "active"
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "039" ] ;
@@ -581,6 +782,12 @@
        fhir:value [
          a fhir:dateTime ;
          fhir:v "2024-12-30T00:00:00+01:00"^^xsd:dateTime
+       ]
+     ] [
+       fhir:code [ fhir:v "status" ] ;
+       fhir:value [
+         a fhir:code ;
+         fhir:v "active"
        ]
      ] )
   ] [
@@ -598,6 +805,12 @@
          a fhir:dateTime ;
          fhir:v "2024-12-30T00:00:00+01:00"^^xsd:dateTime
        ]
+     ] [
+       fhir:code [ fhir:v "status" ] ;
+       fhir:value [
+         a fhir:code ;
+         fhir:v "active"
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "041" ] ;
@@ -613,6 +826,12 @@
        fhir:value [
          a fhir:dateTime ;
          fhir:v "2024-12-30T00:00:00+01:00"^^xsd:dateTime
+       ]
+     ] [
+       fhir:code [ fhir:v "status" ] ;
+       fhir:value [
+         a fhir:code ;
+         fhir:v "active"
        ]
      ] )
   ] [
@@ -639,6 +858,12 @@
          a fhir:dateTime ;
          fhir:v "2024-12-30T00:00:00+01:00"^^xsd:dateTime
        ]
+     ] [
+       fhir:code [ fhir:v "status" ] ;
+       fhir:value [
+         a fhir:code ;
+         fhir:v "active"
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "101" ] ;
@@ -663,6 +888,12 @@
        fhir:value [
          a fhir:dateTime ;
          fhir:v "2024-12-30T00:00:00+01:00"^^xsd:dateTime
+       ]
+     ] [
+       fhir:code [ fhir:v "status" ] ;
+       fhir:value [
+         a fhir:code ;
+         fhir:v "active"
        ]
      ] )
   ] [
@@ -689,6 +920,12 @@
          a fhir:dateTime ;
          fhir:v "2024-12-30T00:00:00+01:00"^^xsd:dateTime
        ]
+     ] [
+       fhir:code [ fhir:v "status" ] ;
+       fhir:value [
+         a fhir:code ;
+         fhir:v "active"
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "103" ] ;
@@ -713,6 +950,12 @@
        fhir:value [
          a fhir:dateTime ;
          fhir:v "2024-12-30T00:00:00+01:00"^^xsd:dateTime
+       ]
+     ] [
+       fhir:code [ fhir:v "status" ] ;
+       fhir:value [
+         a fhir:code ;
+         fhir:v "active"
        ]
      ] )
   ] ) . # 

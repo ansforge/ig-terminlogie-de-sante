@@ -19,7 +19,7 @@
   fhir:title [ fhir:v "ASS_X14_AgregatDisciplineEquipementSocial"] ; # 
   fhir:status [ fhir:v "active"] ; # 
   fhir:experimental [ fhir:v "false"^^xsd:boolean] ; # 
-  fhir:date [ fhir:v "2025-02-26T16:08:18+00:00"^^xsd:dateTime] ; # 
+  fhir:date [ fhir:v "2025-02-27T08:43:40+00:00"^^xsd:dateTime] ; # 
   fhir:publisher [ fhir:v "ANS"] ; # 
   fhir:contact ( [
      fhir:name [ fhir:v "ANS" ] ;
