@@ -3,7 +3,7 @@ Terminologies : Validation Results
 
 err = 1347, warn = 1848, info = 1074
 IG Publisher Version: 1.8.14
-Generated Thu Feb 27 09:12:24 UTC 2025. FHIR version 4.0.1 for ans.fr.terminologies#0.1.0 (canonical = https://interop.esante.gouv.fr/terminologies)
+Generated Thu Feb 27 14:38:33 UTC 2025. FHIR version 4.0.1 for ans.fr.terminologies#0.1.0 (canonical = https://interop.esante.gouv.fr/terminologies)
  Build Errors : 575 / 20 / 0
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/DM/fsh-generated/resources/CodeSystem-tre-r347-activite-sanitaire-diverse-regulee : 2 / 0 / 4
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/DM/fsh-generated/resources/CodeSystem-tre-r360-type-role-entite-groupe : 2 / 0 / 4
