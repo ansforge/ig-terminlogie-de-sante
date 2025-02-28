@@ -249,6 +249,9 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
     <p><!-- white space is critical inside of capture --></p>
 <div class="markdown-toc">
 <ul id="markdown-toc">
+  <li><a href="#principe-général" id="markdown-toc-principe-général">Principe général</a></li>
+  <li><a href="#terminologies-et-jeux-de-valeurs" id="markdown-toc-terminologies-et-jeux-de-valeurs">Terminologies et jeux de valeurs</a></li>
+  <li><a href="#publication-des-terminologies-et-jeux-de-valeurs" id="markdown-toc-publication-des-terminologies-et-jeux-de-valeurs">Publication des terminologies et jeux de valeurs</a></li>
   <li><a href="#les-nomenclatures-des-objets-de-santé-nos" id="markdown-toc-les-nomenclatures-des-objets-de-santé-nos">Les Nomenclatures des Objets de Santé (NOS)</a></li>
   <li><a href="#le-serveur-multi-terminologies-smt" id="markdown-toc-le-serveur-multi-terminologies-smt">Le Serveur Multi Terminologies (SMT)</a></li>
   <li><a href="#ip-statements" id="markdown-toc-ip-statements">IP Statements</a></li>
@@ -265,6 +268,28 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
   <li>SMT</li>
   <li>HL7</li>
 </ul>
+
+<h3 id="principe-général">Principe général</h3>
+<p>Les données codées utilisées doivent provenir des terminologies de référence définies dans le CI-SIS.
+Les terminologies de référence retenues dans le contexte français sont très généralement les mêmes que celles retenues dans le contexte international.</p>
+
+<p>Il est cependant possible, pour des raisons de non-disponibilité ou de non-utilisation sur le territoire français, que la terminologie de référence en France soit différente que celle choisie au niveau international.</p>
+
+<p>Par exemple, le codage des actes médicaux en France s’appuie très largement sur la CCAM.
+Cette terminologie est une terminologie française n’est évidemment pas celle qui a été choisie par les autres pays à l’international.</p>
+
+<p>Le Centre de terminologies de Santé (CGTS) de l’ANS est l’entité définissant les terminologies de références en concertation avec l’écosystème français et international. L’objectif est bien d’harmoniser les terminologies utilisées en France et à l’international.</p>
+
+<h3 id="terminologies-et-jeux-de-valeurs">Terminologies et jeux de valeurs</h3>
+
+<p>Les spécifications précisent, pour chaque donnée codée (code + displayName + codeSystem), s’il convient d’utiliser un <strong>jeu de valeurs</strong> constitué des valeurs spécifiques ou d’une terminologie complète au contexte clinique à décrire. Un jeu de valeurs peut être constitué à partir de terminologies différentes (internationales ou nationales).</p>
+
+<h3 id="publication-des-terminologies-et-jeux-de-valeurs">Publication des terminologies et jeux de valeurs</h3>
+
+<p>Les terminologies utilisées dans les spécifications CI-SIS sont pour la majorité publiées sur le Serveur Multi-Terminologies (SMT) de l’ANS : <a href="https://smt.esante.gouv.fr/">https://smt.esante.gouv.fr/</a>
+Pour les terminologies qui ne sont pas publiées dans le SMT, se renseigner auprès de l’unité de production.</p>
+
+<p>Les jeux de valeurs utilisées dans les spécifications CI-SIS sont publiés sur cet IG.</p>
 
 <h3 id="les-nomenclatures-des-objets-de-santé-nos">Les Nomenclatures des Objets de Santé (NOS)</h3>
 
@@ -305,9 +330,23 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
 </ul>
 
 <p>Le SMT est accessible via le site de l’ANS à l’adresse https://industriels.esante.gouv.fr/produits-et-services/smt-serveur-multi-terminologies</p>
+
+<p>Les terminologies publiées sur le SMT et les jeux de valeurs sont accessibles au format FHIR via :</p>
+
+<ul>
+  <li>les APIs FHIR du SMT
+    <ul>
+      <li>Voir le guide d’exploitation de ces APIs : <a href="https://industriels.esante.gouv.fr/sites/default/files/media/document/Global_features_FHIR_Server_version_finale_v5.pdf">https://industriels.esante.gouv.fr/sites/default/files/media/document/Global_features_FHIR_Server_version_finale_v5.pdf</a></li>
+      <li>Voir le swagger des APIs : <a href="https://smt.esante.gouv.fr/api-docs/">https://smt.esante.gouv.fr/api-docs/</a> (aller sur API liées au serveur FHIR)</li>
+      <li>Voir des exemples : <a href="https://smt.esante.gouv.fr/formations/formations-specifiques/consommer-des-terminologies-et-des-jeux-de-valeurs-en-fhir-depuis-le-serveur-multi-terminologies-de-lans/">https://smt.esante.gouv.fr/formations/formations-specifiques/consommer-des-terminologies-et-des-jeux-de-valeurs-en-fhir-depuis-le-serveur-multi-terminologies-de-lans/</a></li>
+    </ul>
+  </li>
+  <li>un Implementation Guide (IG) FHIR : <a href="https://ansforge.github.io/IG-terminologie-de-sante/ig/main/">https://ansforge.github.io/IG-terminologie-de-sante/ig/main/</a></li>
+</ul>
+
 <h3 id="ip-statements">IP Statements</h3>
 
-<p>This publication includes IP covered under the following statements.</p>
+<p>Ce • cet publication inclut la propriété intellectuelle couverte par les déclarations suivantes.</p>
 <ul>
 <li><a href="https://github.com/etalab/licence-ouverte/blob/master/LO.md">LOv2</a>
 <div id="ipp_1" onclick="if (document.getElementById('ipp2_1').innerHTML != '') {document.getElementById('ipp_1').innerHTML = document.getElementById('ipp2_1').innerHTML; document.getElementById('ipp2_1').innerHTML = ''}"> <span style="cursor: pointer; border: 1px grey solid; background-color: #fcdcb3; padding-left: 3px; padding-right: 3px; color: black">Show Usage</span></div><div id="ipp2_1" style="display: none">
@@ -323,7 +362,7 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
 </div></li>
 <li>ISO Maintains the copyright on the country codes, and controls it's use carefully. For futher details see the ISO 3166 web page: <a href="https://www.iso.org/iso-3166-country-codes.html">https://www.iso.org/iso-3166-country-codes.html</a><div id="ipp_3" onclick="if (document.getElementById('ipp2_3').innerHTML != '') {document.getElementById('ipp_3').innerHTML = document.getElementById('ipp2_3').innerHTML; document.getElementById('ipp2_3').innerHTML = ''}"> <span style="cursor: pointer; border: 1px grey solid; background-color: #fcdcb3; padding-left: 3px; padding-right: 3px; color: black">Show Usage</span></div><div id="ipp2_3" style="display: none">
 <ul>
-<li><a href="http://terminology.hl7.org/5.0.0/CodeSystem-ISO3166Part1.html">ISO 3166-1 Codes for the representation of names of countries and their subdivisions — Part 1: Country code</a>: <a href="ConceptMap-ASS-A12-CorresMediaTypeCDANonStructure-XdsFormatCode-CISIS.html">ASS_12_CorresMediaTypeCDANonStructure_XdsFormatCode_CISIS</a>, <a href="ConceptMap-ASS-A11-CorresModeleCDA-XdsFormatCode-CISIS.html">ASS_A11_CorresModeleCDA_XdsFormatCode_CISIS</a><span id="ips_4" onclick="document.getElementById('ips_4').innerHTML = document.getElementById('ips2_4').innerHTML">... <span style="cursor: pointer; border: 1px grey solid; background-color: #fcdcb3; padding-left: 3px; padding-right: 3px; color: black">Show 12 more</span></span><span id="ips2_4" style="display: none">, <a href="ConceptMap-ASS-A25-PaysProvenanceISO-PaysProvenanceCOG.html">ASS_A25_PaysProvenanceISO_PaysProvenanceCOG</a>, <a href="ConceptMap-ASS-A30-TypeAutorisation-Profession-EPARS.html">ASS_A30_TypeAutorisation_Profession_EPARS</a>, <a href="ConceptMap-ASS-A32-StatutMotifPersonnePriseCharge.html">ASS_A32_StatutMotifPersonnePriseCharge</a>, <a href="ConceptMap-ASS-X01-TranscoSavFaireADELI-SavFaireR01.html">ASS_X01_TranscoSavFaireADELI_SavFaireR01</a>, <a href="ConceptMap-ASS-X10-AgregatCategorieEtablissement.html">ASS_X10_AgregatCategorieEtablissement</a>, <a href="ConceptMap-ASS-X11-FinessAgregatStatutJuridique.html">ASS_X11_FinessAgregatStatutJuridique</a>, <a href="ConceptMap-ASS-X14-AgregatDisciplineEquipementSocial.html">ASS_X14_AgregatDisciplineEquipementSocial</a>, <a href="ConceptMap-ASS-X15-AgregatDisciplineEnseignement.html">ASS_X15_AgregatDisciplineEnseignement</a>, <a href="ValueSet-JDV-ModeleDocumentCDA.html">JDV_ModeleDocumentCDA</a>, <a href="ValueSet-JDV-TRE-R221-ModeleDocumentCDANonStructure-all.html">JDV_TRE_R221_ModeleDocumentCDANonStructure</a>, <a href="ValueSet-TRE-R222-MediaTypeCorpsCDANonStructure-all.html">JDV_TRE_R222_MediaTypeCorpsCDANonStructure</a> and Terminologies</span></li>
+<li><a href="http://terminology.hl7.org/5.0.0/CodeSystem-ISO3166Part1.html">ISO 3166-1 Codes for the representation of names of countries and their subdivisions — Part 1: Country code</a>: <a href="ConceptMap-ASS-A12-CorresMediaTypeCDANonStructure-XdsFormatCode-CISIS.html">ASS_12_CorresMediaTypeCDANonStructure_XdsFormatCode_CISIS</a>, <a href="ConceptMap-ASS-A11-CorresModeleCDA-XdsFormatCode-CISIS.html">ASS_A11_CorresModeleCDA_XdsFormatCode_CISIS</a><span id="ips_4" onclick="document.getElementById('ips_4').innerHTML = document.getElementById('ips2_4').innerHTML">... <span style="cursor: pointer; border: 1px grey solid; background-color: #fcdcb3; padding-left: 3px; padding-right: 3px; color: black">Show 12 more</span></span><span id="ips2_4" style="display: none">, <a href="ConceptMap-ASS-A25-PaysProvenanceISO-PaysProvenanceCOG.html">ASS_A25_PaysProvenanceISO_PaysProvenanceCOG</a>, <a href="ConceptMap-ASS-A30-TypeAutorisation-Profession-EPARS.html">ASS_A30_TypeAutorisation_Profession_EPARS</a>, <a href="ConceptMap-ASS-A32-StatutMotifPersonnePriseCharge.html">ASS_A32_StatutMotifPersonnePriseCharge</a>, <a href="ConceptMap-ASS-X01-TranscoSavFaireADELI-SavFaireR01.html">ASS_X01_TranscoSavFaireADELI_SavFaireR01</a>, <a href="ConceptMap-ASS-X10-AgregatCategorieEtablissement.html">ASS_X10_AgregatCategorieEtablissement</a>, <a href="ConceptMap-ASS-X11-FinessAgregatStatutJuridique.html">ASS_X11_FinessAgregatStatutJuridique</a>, <a href="ConceptMap-ASS-X14-AgregatDisciplineEquipementSocial.html">ASS_X14_AgregatDisciplineEquipementSocial</a>, <a href="ConceptMap-ASS-X15-AgregatDisciplineEnseignement.html">ASS_X15_AgregatDisciplineEnseignement</a>, <a href="ValueSet-JDV-ModeleDocumentCDA.html">JDV_ModeleDocumentCDA</a>, <a href="ValueSet-JDV-TRE-R221-ModeleDocumentCDANonStructure-all.html">JDV_TRE_R221_ModeleDocumentCDANonStructure</a>, <a href="ValueSet-TRE-R222-MediaTypeCorpsCDANonStructure-all.html">JDV_TRE_R222_MediaTypeCorpsCDANonStructure</a> and <a href="index.html">Terminologies</a></span></li>
 </ul>
 </div></li>
 <li>Please see <a href="https://www.meddra.org/legal-mentions"><a href="https://www.meddra.org/legal-mentions">https://www.meddra.org/legal-mentions</a></a>
@@ -453,7 +492,7 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
 
 <div class="inner-wrapper">
   <p>
-    IG &#169; 2020+ <a style="color:var(--footer-hyperlink-text-color)" href="https://esante.gouv.fr">ANS</a>.  Package ans.fr.terminologies#0.1.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Thu, Feb 27, 2025 12:46+0000">2025-02-27</span>
+    IG &#169; 2020+ <a style="color:var(--footer-hyperlink-text-color)" href="https://esante.gouv.fr">ANS</a>.  Package ans.fr.terminologies#0.1.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Fri, Feb 28, 2025 04:24+0000">2025-02-28</span>
     <br/>
     <span style="color: var(--footer-highlight-text-color)"></span>
       Liens: <a style="color: var(--footer-hyperlink-text-color)" href="toc.html">Table des matières </a> |
