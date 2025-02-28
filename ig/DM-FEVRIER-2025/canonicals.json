@@ -158,9 +158,9 @@
   {
     "id" : "ASS-A32-StatutMotifPersonnePriseCharge",
     "type" : "ConceptMap",
-    "url" : "https://mos.esante.gouv.fr/NOS/ASS_A32_StatutMotifPersonnePriseCharge",
-    "version" : "5.0.0",
-    "name" : "ASS_A32_StatutMotifPersonnePriseCharge"
+    "url" : "https://mos.esante.gouv.fr/NOS/ASS_A32-StatutMotifPersonnePriseCharge/FHIR/ASS-A32-StatutMotifPersonnePriseCharge",
+    "version" : "20240726120000",
+    "name" : "ASS_A32-StatutMotifPersonnePriseCharge"
   },
   {
     "id" : "ASS-A33-AdministrativeGender-Sexe",
@@ -11391,7 +11391,7 @@
     "id" : "terminologie-ccam",
     "type" : "CodeSystem",
     "url" : "https://smt.esante.gouv.fr/terminologie-ccam",
-    "version" : "v78",
+    "version" : "v7810",
     "name" : "CCAM",
     "oids" : ["1.2.250.1.215.300.1"]
   },
@@ -11407,7 +11407,7 @@
     "id" : "terminologie-cim11-mms",
     "type" : "CodeSystem",
     "url" : "https://smt.esante.gouv.fr/terminologie-cim11-mms",
-    "version" : "2024-01",
+    "version" : "2025-01",
     "name" : "CIM11_MMS",
     "oids" : ["2.16.840.1.113883.6.347"]
   },

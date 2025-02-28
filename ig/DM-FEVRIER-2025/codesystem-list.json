@@ -2304,7 +2304,7 @@
     },
     {
       "url" : "https://smt.esante.gouv.fr/terminologie-ccam",
-      "version" : "v78",
+      "version" : "v7810",
       "status" : "active",
       "name" : "CCAM",
       "title" : "Classification Commune des Actes Médicaux",
@@ -2322,10 +2322,10 @@
     },
     {
       "url" : "https://smt.esante.gouv.fr/terminologie-cim11-mms",
-      "version" : "2024-01",
+      "version" : "2025-01",
       "status" : "active",
       "name" : "CIM11_MMS",
-      "title" : "Classification internationale des maladies (11eme révision). Linéarisation pour les statistiques de morbi-mortalité",
+      "title" : "Classification internationale des maladies et des problèmes de santé connexes - 11ème révision",
       "description" : null,
       "oids" : ["2.16.840.1.113883.6.347"]
     },
