@@ -32702,10 +32702,10 @@
         "valueString" : "ConceptMap"
       }],
       "reference" : {
-        "reference" : "ConceptMap/ASS-A12-CorresMediaTypeCDANonStructure-XdsFormatCode-CISIS"
+        "reference" : "ConceptMap/ASS-A11-CorresModeleCDA-XdsFormatCode-CISIS"
       },
-      "name" : "ASS_12_CorresMediaTypeCDANonStructure-XdsFormatCode-CISIS",
-      "description" : "Association  qui permet de deduire l'attribut XDS 'formatCode' à partir  de l'attribut 'component/nonXMLBody/text@mediaType' du CDA N1",
+      "name" : "ASS_A11-CorresModeleCDA-XdsFormatCode-CISIS",
+      "description" : "Lorsque le corps du CDA est structuré, la métadonnée 'formatCode' provient de l'élément 'templateId' (modèle du document CDA). La correspondance entre templateId et formatCode est assurée par cette table d'association",
       "exampleBoolean" : false
     },
     {
@@ -32714,10 +32714,10 @@
         "valueString" : "ConceptMap"
       }],
       "reference" : {
-        "reference" : "ConceptMap/ASS-A11-CorresModeleCDA-XdsFormatCode-CISIS"
+        "reference" : "ConceptMap/ASS-A12-CorresMediaTypeCDANonStructure-XdsFormatCode-CISIS"
       },
-      "name" : "ASS_A11-CorresModeleCDA-XdsFormatCode-CISIS",
-      "description" : "Lorsque le corps du CDA est structuré, la métadonnée 'formatCode' provient de l'élément 'templateId' (modèle du document CDA). La correspondance entre templateId et formatCode est assurée par cette table d'association",
+      "name" : "ASS_A12_CorresMediaTypeCDANonStructure-XdsFormatCode-CISIS",
+      "description" : "Association  qui permet de deduire l'attribut XDS 'formatCode' à partir  de l'attribut 'component/nonXMLBody/text@mediaType' du CDA N1",
       "exampleBoolean" : false
     },
     {

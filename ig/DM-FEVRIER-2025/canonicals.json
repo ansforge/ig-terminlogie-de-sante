@@ -58,18 +58,18 @@
     "name" : "ASS_X11_FinessAgregatStatutJuridique"
   },
   {
-    "id" : "ASS-A12-CorresMediaTypeCDANonStructure-XdsFormatCode-CISIS",
-    "type" : "ConceptMap",
-    "url" : "https://mos.esante.gouv.fr/NOS/ASS_12_CorresMediaTypeCDANonStructure-XdsFormatCode-CISIS.json",
-    "version" : "5.0.0",
-    "name" : "ASS_12_CorresMediaTypeCDANonStructure_XdsFormatCode_CISIS"
-  },
-  {
     "id" : "ASS-A11-CorresModeleCDA-XdsFormatCode-CISIS",
     "type" : "ConceptMap",
     "url" : "https://mos.esante.gouv.fr/NOS/ASS_A11-CorresModeleCDA-XdsFormatCode-CISIS",
     "version" : "5.0.0",
     "name" : "ASS_A11_CorresModeleCDA_XdsFormatCode_CISIS"
+  },
+  {
+    "id" : "ASS-A12-CorresMediaTypeCDANonStructure-XdsFormatCode-CISIS",
+    "type" : "ConceptMap",
+    "url" : "https://mos.esante.gouv.fr/NOS/ASS_A12_CorresMediaTypeCDANonStructure-XdsFormatCode-CISIS.json",
+    "version" : "5.0.0",
+    "name" : "ASS_A12_CorresMediaTypeCDANonStructure_XdsFormatCode_CISIS"
   },
   {
     "id" : "ASS-A13-TypeEvenement-FluxStandardise",

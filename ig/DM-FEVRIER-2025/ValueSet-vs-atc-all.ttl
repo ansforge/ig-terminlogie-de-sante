@@ -26,7 +26,7 @@
   fhir:name [ fhir:v "ValueSet_ATC_All"] ; # 
   fhir:status [ fhir:v "active"] ; # 
   fhir:experimental [ fhir:v "false"^^xsd:boolean] ; # 
-  fhir:date [ fhir:v "2025-02-28T10:48:02+00:00"^^xsd:dateTime] ; # 
+  fhir:date [ fhir:v "2025-02-28T14:32:42+00:00"^^xsd:dateTime] ; # 
   fhir:publisher [ fhir:v "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris"] ; # 
   fhir:description [ fhir:v "Ce jeu de valeurs inclut tous les codes concepts de la terminologie ATC"] ; # 
   fhir:compose [
