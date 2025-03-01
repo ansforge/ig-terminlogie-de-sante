@@ -103,9 +103,9 @@ jobs:
 
       - name: Run Create ZIP  NOS
         run: |
-              cd  ./igSource
+              cd  ./igSource/
               python ./tools/create_zip_nos.py './output' '../zip_nos'   
-              zip -r ./output/zip_nos.zip ../zip_nos
+              zip -r ./output/zip_nos.zip ../zip_nos/*
 
       - name: Upload ZIP
         env:
