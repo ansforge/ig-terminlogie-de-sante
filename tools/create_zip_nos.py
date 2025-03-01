@@ -17,8 +17,8 @@ def create(dir_ouput, folder, folderFhir):
     if not os.path.isdir(f"{dir_output}/{folder}/FHIR/{folderFhir}"):
         os.makedirs(f"{dir_output}/{folder}/FHIR/{folderFhir}")
     #Copie des  FHIR
-    shutil.copyfile(p, f"{dir_output}/{folder}/FHIR/{folderFhir}/{folder}.json")
-    shutil.copyfile(p.replace(".json",".xml"), f"{dir_output}/{folder}/FHIR/{folderFhir}/{folder}.xml")
+    shutil.copyfile(p, f"{dir_output}/{folder}/FHIR/{folderFhir}/{folder}-FHIR.json")
+    shutil.copyfile(p.replace(".json",".xml"), f"{dir_output}/{folder}/FHIR/{folderFhir}/{folder}-FHIR.xml")
 
     #Copie du .tab et svs
     shutil.copyfile(dir_path_exemple +"/listFormat/" +os.path.basename(p).replace(".json",".tabs")  ,f"{dir_output}/{folder}/{folder}.tabs" )
@@ -78,8 +78,8 @@ for p in glob.iglob(dir_path_exemple+'*/ConceptMap-ASS*.json', recursive=True):
                 if not os.path.isdir(f"{dir_output}/{folder}/FHIR/{folderFhir}"):
                     os.makedirs(f"{dir_output}/{folder}/FHIR/{folderFhir}")
                 #Copie des  FHIR
-                shutil.copyfile(p, f"{dir_output}/{folder}/FHIR/{folderFhir}/{folder}.json")
-                shutil.copyfile(p.replace(".json",".xml"), f"{dir_output}/{folder}/FHIR/{folderFhir}/{folder}.xml")
+                shutil.copyfile(p, f"{dir_output}/{folder}/FHIR/{folderFhir}/{folder}-FHIR.json")
+                shutil.copyfile(p.replace(".json",".xml"), f"{dir_output}/{folder}/FHIR/{folderFhir}/{folder}-FHIR.xml")
             
             else : 
             #Copie du PDF .tab et svs
