@@ -15,16 +15,16 @@
     "url" : "http://hl7.org/fhir/StructureDefinition/concept-bidirectional",
     "valueBoolean" : false
   }],
-  "url" : "https://mos.esante.gouv.fr/NOS/ASS_A29-Département-AE/FHIR/ASS-A29-Département-AE",
+  "url" : "https://mos.esante.gouv.fr/NOS/ASS_A29-Departement-AE/FHIR/ASS-A29-Departement-AE",
   "identifier" : {
     "value" : "urn:oid:1.2.250.1.213.1.6.1.242"
   },
-  "version" : "20240126120000",
+  "version" : "20250219120000",
   "name" : "ASS_A29_Departement_AE",
   "title" : "ASS_A29_Departement_AE",
   "status" : "active",
   "experimental" : false,
-  "date" : "2024-01-26T12:00:00+01:00",
+  "date" : "2025-02-19T12:00:00+01:00",
   "description" : "Table d'association Département- AE responsable pour détermination de l'autorité d'enregistrement",
   "sourceUri" : "https://mos.esante.gouv.fr/NOS/JDV_J258-Departement/FHIR/JDV-J258-Departement",
   "targetUri" : "https://mos.esante.gouv.fr/NOS/JDV_J170-AutoriteEnregistrement-EPARS/FHIR/JDV-J170-AutoriteEnregistrement-EPARS",

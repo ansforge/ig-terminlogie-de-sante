@@ -2054,7 +2054,7 @@
     },
     {
       "url" : "https://mos.esante.gouv.fr/NOS/TRE_R65-AgregatCategorieEtablissement/FHIR/TRE-R65-AgregatCategorieEtablissement",
-      "version" : "20240628120000",
+      "version" : "20250228120000",
       "status" : "active",
       "name" : "TRE_R65_AgregatCategorieEtablissement",
       "title" : null,
@@ -2063,7 +2063,7 @@
     },
     {
       "url" : "https://mos.esante.gouv.fr/NOS/TRE_R66-CategorieEtablissement/FHIR/TRE-R66-CategorieEtablissement",
-      "version" : "20241025120000",
+      "version" : "20250228120000",
       "status" : "active",
       "name" : "TRE_R66_CategorieEtablissement",
       "title" : null,
@@ -2180,7 +2180,7 @@
     },
     {
       "url" : "https://mos.esante.gouv.fr/NOS/TRE_R85-RolePriseCharge/FHIR/TRE-R85-RolePriseCharge",
-      "version" : "20241213120000",
+      "version" : "20250228120000",
       "status" : "active",
       "name" : "TRE_R85_RolePriseCharge",
       "title" : null,
