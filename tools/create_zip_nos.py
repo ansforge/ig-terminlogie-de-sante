@@ -1,5 +1,3 @@
-import requests
-import xml.etree.ElementTree as ET
 import base64
 import os
 import sys
