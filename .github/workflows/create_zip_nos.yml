@@ -90,6 +90,11 @@ jobs:
 
       - name: Install saxon
         run : pip install saxonche
+
+
+      - name: Install glob
+        shell: bash   
+        run : pip install glob2
         
       - name: Run script python
         run: |
