@@ -11,6 +11,8 @@ Usage: #definition
 * identifier.value = "urn:oid:1.2.250.1.213.3.4.217"
 * version = "20240726120000"
 * name = "ASS_A32-StatutMotifPersonnePriseCharge"
+* title = "Ass A32 Statut Motif Personne Prise Charge"
+* experimental = false
 * status = #active
 * date = "2024-07-26T12:00:00+01:00"
 * description = "Association du motif au statut de la personne prise en charge"
