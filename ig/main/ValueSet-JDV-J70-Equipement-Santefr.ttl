@@ -1,6 +1,5 @@
 @prefix fhir: <http://hl7.org/fhir/> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
-@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
@@ -19,7 +18,7 @@
   ] ; # 
   fhir:text [
      fhir:status [ fhir:v "generated" ] ;
-     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>JDV_J70_Equipement_Santefr</h2><tt>https://mos.esante.gouv.fr/NOS/JDV_J70-Equipement-Santefr/FHIR/JDV-J70-Equipement-Santefr</tt><p>Equipements Santé.fr</p></div>"^^rdf:XMLLiteral
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>JDV_J70_Equipement_Santefr</h2><tt>https://mos.esante.gouv.fr/NOS/JDV_J70-Equipement-Santefr/FHIR/JDV-J70-Equipement-Santefr</tt><p>Equipements Santé.fr</p></div>"
   ] ; # 
   fhir:extension ( [
      fhir:url [ fhir:v "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod"^^xsd:anyURI ] ;
