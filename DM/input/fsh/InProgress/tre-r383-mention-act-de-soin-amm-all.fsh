@@ -11,7 +11,7 @@ Description: "Jeu de valeurs ALL contenant les mentions pour les activités de s
 * ^extension.valuePeriod.start = "2025-02-22T18:02:28.249+00:00"
 * ^url = "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r383-mention-act-de-soin-amm?vs"
 * ^identifier.system = "urn:ietf:rfc:3986"
-* ^identifier.value = "urn:oid:1.2.250.1.213.1.6.1.354"
+* ^identifier.value = "urn:oid:1.2.250.1.213.1.6.1.355"
 * ^version = "20250222120000"
 * ^status = #active
 * ^experimental = false
