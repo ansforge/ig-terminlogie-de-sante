@@ -1,5 +1,5 @@
 
-Dans ce guide, nous retrouvons l'ensemble des termminologies de santé et jeux de valeurs plubliés par l'ANS : 
+Dans ce guide, nous retrouvons l'ensemble des terminologies de santé et jeux de valeurs plubliés par l'ANS : 
 - NOS
 - SMT
 - HL7
