@@ -47060,7 +47060,7 @@
         "reference" : "CodeSystem/1.2.250.1.213.1.1.4.322"
       },
       "name" : "TA_ASIP",
-      "description" : "TA_ASIP Version 1.98",
+      "description" : "TA_ASIP",
       "exampleBoolean" : false
     },
     {

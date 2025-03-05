@@ -41147,7 +41147,7 @@
          fhir:reference [ fhir:v "CodeSystem/1.2.250.1.213.1.1.4.322" ]
        ] ;
        fhir:name [ fhir:v "TA_ASIP" ] ;
-       fhir:description [ fhir:v "TA_ASIP Version 1.98" ] ;
+       fhir:description [ fhir:v "TA_ASIP" ] ;
        fhir:example [ fhir:v "false"^^xsd:boolean ]
      ] [
        fhir:extension ( [

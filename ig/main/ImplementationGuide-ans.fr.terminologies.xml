@@ -36962,7 +36962,7 @@
         <reference value="CodeSystem/1.2.250.1.213.1.1.4.322"/>
       </reference>
       <name value="TA_ASIP"/>
-      <description value="TA_ASIP Version 1.98"/>
+      <description value="TA_ASIP"/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
