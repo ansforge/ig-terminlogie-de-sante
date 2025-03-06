@@ -47,7 +47,6 @@ Description: "Nomenclature des types de documents informatifs et justificatifs p
 * ^property[=].description = "Permet de définir les documents administratifs de type justificatif"
 * ^property[=].type = #boolean
 * #001 "Arrêté d'autorisation"
-* #001 "Arrêté d'autorisation"
 * #001 ^property[0].code = #dateValid
 * #001 ^property[=].valueDateTime = "2024-12-30T00:00:00+01:00"
 * #001 ^property[+].code = #dateMaj
