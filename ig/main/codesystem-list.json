@@ -11,7 +11,7 @@
     },
     {
       "url" : "http://snomed.info/sct",
-      "version" : "http://snomed.info/sct/900000000000207008/version/20250201",
+      "version" : "http://snomed.info/sct/900000000000207008/version/20250301",
       "status" : "active",
       "name" : "SNOMED_CT",
       "title" : "SNOMED CT core",

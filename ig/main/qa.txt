@@ -3,7 +3,7 @@ Terminologies : Validation Results
 
 err = 1372, warn = 1683, info = 1028
 IG Publisher Version: 1.8.10 Out of date - current version is 1.8.16
-Generated Wed Mar 05 04:41:58 UTC 2025. FHIR version 4.0.1 for ans.fr.terminologies#0.1.0 (canonical = https://interop.esante.gouv.fr/terminologies)
+Generated Thu Mar 06 04:40:01 UTC 2025. FHIR version 4.0.1 for ans.fr.terminologies#0.1.0 (canonical = https://interop.esante.gouv.fr/terminologies)
  Build Errors : 678 / 20 / 0
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/DM/fsh-generated/resources/ConceptMap-ASS-A11-CorresModeleCDA-XdsFormatCode-CISIS : 0 / 0 / 1
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/DM/fsh-generated/resources/ConceptMap-ASS-A12-CorresMediaTypeCDANonStructure-XdsFormatCode-CISIS : 4 / 0 / 1
@@ -1210,7 +1210,7 @@ Generated Wed Mar 05 04:41:58 UTC 2025. FHIR version 4.0.1 for ans.fr.terminolog
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/TRE/NUVA_terminologie-nuva : 3 / 9 / 11
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/TRE/SERAFIN_PH_terminologie-SERAFINPH : 0 / 4 / 7
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/TRE/SNOMED_CT_11000315107-20240621 : 2 / 4 / 12
- /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/TRE/SNOMED_CT_900000000000207008-20250201 : 2 / 4 / 12
+ /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/TRE/SNOMED_CT_900000000000207008-20250301 : 2 / 4 / 12
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/TRE/ServiceType_service-type : 0 / 0 / 1
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/TRE/TA_ASIP_1.2.250.1.213.1.1.4.322 : 0 / 0 / 1
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/TRE/TRE_A00_ProducteurDocNonPS_TRE-A00-ProducteurDocNonPS : 0 / 1 / 4
@@ -6512,21 +6512,21 @@ INFORMATION: CodeSystem/11000315107-20240621: CodeSystem.property[3]: The type o
 WARNING: CodeSystem/11000315107-20240621: CodeSystem.property[3]: This property has only the standard code ('child') but not the standard URI 'http://hl7.org/fhir/concept-properties#child', so it has no clearly defined meaning in the terminology ecosystem
 INFORMATION: CodeSystem/11000315107-20240621: CodeSystem.property[4]: The type of property 'code' is 'code', but no ValueSet information was found, so the codes will be validated as internal codes
 INFORMATION: CodeSystem/11000315107-20240621: CodeSystem.property[4]: This property has only a code ('moduleId') and not a URI, so it has no clearly defined meaning in the terminology ecosystem
-WARNING: Resource: The URL 'http://snomed.info/sct' is also used by 900000000000207008-20250201 in /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/TRE/SNOMED_CT_900000000000207008-20250201
-== input/ontoserver/TRE/SNOMED_CT_900000000000207008-20250201.json ==
-ERROR: CodeSystem/900000000000207008-20250201: CodeSystem.contained[0]/*Provenance/1*/.target[0]: Unable to resolve resource with reference '900000000000207008-20250201'
-INFORMATION: CodeSystem/900000000000207008-20250201: CodeSystem.contained[0]/*Provenance/1*/.activity: Reference to experimental CodeSystem http://hl7.org/fhir/w3c-provenance-activity-type|4.0.1
-INFORMATION: CodeSystem/900000000000207008-20250201: CodeSystem.contained[0]/*Provenance/1*/.agent[0].role[0]: Reference to experimental CodeSystem http://terminology.hl7.org/CodeSystem/extra-security-role-type|1.0.1
-ERROR: CodeSystem/900000000000207008-20250201: CodeSystem.extension[0]: The extension http://ontoserver.csiro.au/profiles/cs-provenance could not be found so is not allowed here
-INFORMATION: CodeSystem/900000000000207008-20250201: CodeSystem: Review the All Codes Value Set - incomplete CodeSystems generally should not have an all codes value set specified
-WARNING: CodeSystem/900000000000207008-20250201: CodeSystem.property[0]: This property has only the standard code ('inactive') but not the standard URI 'http://hl7.org/fhir/concept-properties#inactive', so it has no clearly defined meaning in the terminology ecosystem
-INFORMATION: CodeSystem/900000000000207008-20250201: CodeSystem.property[1]: This property has only a code ('sufficientlyDefined') and not a URI, so it has no clearly defined meaning in the terminology ecosystem
-INFORMATION: CodeSystem/900000000000207008-20250201: CodeSystem.property[2]: The type of property 'code' is 'code', but no ValueSet information was found, so the codes will be validated as internal codes
-WARNING: CodeSystem/900000000000207008-20250201: CodeSystem.property[2]: This property has only the standard code ('parent') but not the standard URI 'http://hl7.org/fhir/concept-properties#parent', so it has no clearly defined meaning in the terminology ecosystem
-INFORMATION: CodeSystem/900000000000207008-20250201: CodeSystem.property[3]: The type of property 'code' is 'code', but no ValueSet information was found, so the codes will be validated as internal codes
-WARNING: CodeSystem/900000000000207008-20250201: CodeSystem.property[3]: This property has only the standard code ('child') but not the standard URI 'http://hl7.org/fhir/concept-properties#child', so it has no clearly defined meaning in the terminology ecosystem
-INFORMATION: CodeSystem/900000000000207008-20250201: CodeSystem.property[4]: The type of property 'code' is 'code', but no ValueSet information was found, so the codes will be validated as internal codes
-INFORMATION: CodeSystem/900000000000207008-20250201: CodeSystem.property[4]: This property has only a code ('moduleId') and not a URI, so it has no clearly defined meaning in the terminology ecosystem
+WARNING: Resource: The URL 'http://snomed.info/sct' is also used by 900000000000207008-20250301 in /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/TRE/SNOMED_CT_900000000000207008-20250301
+== input/ontoserver/TRE/SNOMED_CT_900000000000207008-20250301.json ==
+ERROR: CodeSystem/900000000000207008-20250301: CodeSystem.contained[0]/*Provenance/1*/.target[0]: Unable to resolve resource with reference '900000000000207008-20250301'
+INFORMATION: CodeSystem/900000000000207008-20250301: CodeSystem.contained[0]/*Provenance/1*/.activity: Reference to experimental CodeSystem http://hl7.org/fhir/w3c-provenance-activity-type|4.0.1
+INFORMATION: CodeSystem/900000000000207008-20250301: CodeSystem.contained[0]/*Provenance/1*/.agent[0].role[0]: Reference to experimental CodeSystem http://terminology.hl7.org/CodeSystem/extra-security-role-type|1.0.1
+ERROR: CodeSystem/900000000000207008-20250301: CodeSystem.extension[0]: The extension http://ontoserver.csiro.au/profiles/cs-provenance could not be found so is not allowed here
+INFORMATION: CodeSystem/900000000000207008-20250301: CodeSystem: Review the All Codes Value Set - incomplete CodeSystems generally should not have an all codes value set specified
+WARNING: CodeSystem/900000000000207008-20250301: CodeSystem.property[0]: This property has only the standard code ('inactive') but not the standard URI 'http://hl7.org/fhir/concept-properties#inactive', so it has no clearly defined meaning in the terminology ecosystem
+INFORMATION: CodeSystem/900000000000207008-20250301: CodeSystem.property[1]: This property has only a code ('sufficientlyDefined') and not a URI, so it has no clearly defined meaning in the terminology ecosystem
+INFORMATION: CodeSystem/900000000000207008-20250301: CodeSystem.property[2]: The type of property 'code' is 'code', but no ValueSet information was found, so the codes will be validated as internal codes
+WARNING: CodeSystem/900000000000207008-20250301: CodeSystem.property[2]: This property has only the standard code ('parent') but not the standard URI 'http://hl7.org/fhir/concept-properties#parent', so it has no clearly defined meaning in the terminology ecosystem
+INFORMATION: CodeSystem/900000000000207008-20250301: CodeSystem.property[3]: The type of property 'code' is 'code', but no ValueSet information was found, so the codes will be validated as internal codes
+WARNING: CodeSystem/900000000000207008-20250301: CodeSystem.property[3]: This property has only the standard code ('child') but not the standard URI 'http://hl7.org/fhir/concept-properties#child', so it has no clearly defined meaning in the terminology ecosystem
+INFORMATION: CodeSystem/900000000000207008-20250301: CodeSystem.property[4]: The type of property 'code' is 'code', but no ValueSet information was found, so the codes will be validated as internal codes
+INFORMATION: CodeSystem/900000000000207008-20250301: CodeSystem.property[4]: This property has only a code ('moduleId') and not a URI, so it has no clearly defined meaning in the terminology ecosystem
 WARNING: Resource: The URL 'http://snomed.info/sct' has already been used by 11000315107-20240621 in /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/TRE/SNOMED_CT_11000315107-20240621
 == input/ontoserver/TRE/ServiceType_service-type.json ==
 == input/ontoserver/TRE/TA_ASIP_1.2.250.1.213.1.1.4.322.json ==
