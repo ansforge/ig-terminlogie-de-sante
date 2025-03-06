@@ -40,6 +40,13 @@ Description: "Nomenclature des types de document informatif et justificatif pouv
 * ^property[=].uri = "http://hl7.org/fhir/concept-properties#retirementDate"
 * ^property[=].description = "Date de retrait du code"
 * ^property[=].type = #dateTime
+* ^property[+].code = #informatif
+* ^property[=].description = "Permet de définir les documents administratifs de type informatif"
+* ^property[=].type = #boolean
+* ^property[+].code = #justificatif
+* ^property[=].description = "Permet de définir les documents administratifs de type justificatif"
+* ^property[=].type = #boolean
+* #001 "Arrêté d'autorisation"
 * #001 "Arrêté d'autorisation"
 * #001 ^property[0].code = #dateValid
 * #001 ^property[=].valueDateTime = "2024-12-30T00:00:00+01:00"
@@ -47,6 +54,8 @@ Description: "Nomenclature des types de document informatif et justificatif pouv
 * #001 ^property[=].valueDateTime = "2024-12-30T00:00:00+01:00"
 * #001 ^property[+].code = #status
 * #001 ^property[=].valueCode = #active
+* #001 ^property[+].code = #justificatif
+* #001 ^property[=].valueBoolean = true
 * #002 "Projet de santé"
 * #002 ^property[0].code = #dateValid
 * #002 ^property[=].valueDateTime = "2024-12-30T00:00:00+01:00"
@@ -54,6 +63,8 @@ Description: "Nomenclature des types de document informatif et justificatif pouv
 * #002 ^property[=].valueDateTime = "2024-12-30T00:00:00+01:00"
 * #002 ^property[+].code = #status
 * #002 ^property[=].valueCode = #active
+* #002 ^property[+].code = #justificatif
+* #002 ^property[=].valueBoolean = true
 * #003 "Arrêté d'agrément"
 * #003 ^designation.language = #fr-FR
 * #003 ^designation.use.system = "http://snomed.info/sct"
@@ -65,6 +76,8 @@ Description: "Nomenclature des types de document informatif et justificatif pouv
 * #003 ^property[=].valueDateTime = "2024-12-30T00:00:00+01:00"
 * #003 ^property[+].code = #status
 * #003 ^property[=].valueCode = #active
+* #003 ^property[+].code = #justificatif
+* #003 ^property[=].valueBoolean = true
 * #004 "Convention"
 * #004 ^property[0].code = #dateValid
 * #004 ^property[=].valueDateTime = "2024-12-30T00:00:00+01:00"
@@ -72,6 +85,8 @@ Description: "Nomenclature des types de document informatif et justificatif pouv
 * #004 ^property[=].valueDateTime = "2024-12-30T00:00:00+01:00"
 * #004 ^property[+].code = #status
 * #004 ^property[=].valueCode = #active
+* #004 ^property[+].code = #justificatif
+* #004 ^property[=].valueBoolean = true
 * #005 "Extrait KBIS"
 * #005 ^designation.language = #fr-FR
 * #005 ^designation.use.system = "http://snomed.info/sct"
@@ -83,6 +98,8 @@ Description: "Nomenclature des types de document informatif et justificatif pouv
 * #005 ^property[=].valueDateTime = "2024-12-30T00:00:00+01:00"
 * #005 ^property[+].code = #status
 * #005 ^property[=].valueCode = #active
+* #005 ^property[+].code = #justificatif
+* #005 ^property[=].valueBoolean = true
 * #006 "Lettre de renouvellement"
 * #006 ^designation.language = #fr-FR
 * #006 ^designation.use.system = "http://snomed.info/sct"
@@ -94,6 +111,8 @@ Description: "Nomenclature des types de document informatif et justificatif pouv
 * #006 ^property[=].valueDateTime = "2024-12-30T00:00:00+01:00"
 * #006 ^property[+].code = #status
 * #006 ^property[=].valueCode = #active
+* #006 ^property[+].code = #justificatif
+* #006 ^property[=].valueBoolean = true
 * #007 "Publication au registre des actes administratifs"
 * #007 ^designation.language = #fr-FR
 * #007 ^designation.use.system = "http://snomed.info/sct"
@@ -105,6 +124,8 @@ Description: "Nomenclature des types de document informatif et justificatif pouv
 * #007 ^property[=].valueDateTime = "2024-12-30T00:00:00+01:00"
 * #007 ^property[+].code = #status
 * #007 ^property[=].valueCode = #active
+* #007 ^property[+].code = #justificatif
+* #007 ^property[=].valueBoolean = true
 * #008 "Procès verbal de conformité"
 * #008 ^designation.language = #fr-FR
 * #008 ^designation.use.system = "http://snomed.info/sct"
@@ -116,6 +137,8 @@ Description: "Nomenclature des types de document informatif et justificatif pouv
 * #008 ^property[=].valueDateTime = "2024-12-30T00:00:00+01:00"
 * #008 ^property[+].code = #status
 * #008 ^property[=].valueCode = #active
+* #008 ^property[+].code = #justificatif
+* #008 ^property[=].valueBoolean = true
 * #009 "Contrat pluriannuel d'objectifs et de moyens"
 * #009 ^designation.language = #fr-FR
 * #009 ^designation.use.system = "http://snomed.info/sct"
@@ -127,6 +150,8 @@ Description: "Nomenclature des types de document informatif et justificatif pouv
 * #009 ^property[=].valueDateTime = "2024-12-30T00:00:00+01:00"
 * #009 ^property[+].code = #status
 * #009 ^property[=].valueCode = #active
+* #009 ^property[+].code = #justificatif
+* #009 ^property[=].valueBoolean = true
 * #010 "Labélisation"
 * #010 ^property[0].code = #dateValid
 * #010 ^property[=].valueDateTime = "2024-12-30T00:00:00+01:00"
@@ -134,6 +159,8 @@ Description: "Nomenclature des types de document informatif et justificatif pouv
 * #010 ^property[=].valueDateTime = "2024-12-30T00:00:00+01:00"
 * #010 ^property[+].code = #status
 * #010 ^property[=].valueCode = #active
+* #010 ^property[+].code = #justificatif
+* #010 ^property[=].valueBoolean = true
 * #011 "Habilitation à l'aide sociale"
 * #011 ^property[0].code = #dateValid
 * #011 ^property[=].valueDateTime = "2024-12-30T00:00:00+01:00"
@@ -141,6 +168,8 @@ Description: "Nomenclature des types de document informatif et justificatif pouv
 * #011 ^property[=].valueDateTime = "2024-12-30T00:00:00+01:00"
 * #011 ^property[+].code = #status
 * #011 ^property[=].valueCode = #active
+* #011 ^property[+].code = #justificatif
+* #011 ^property[=].valueBoolean = true
 * #012 "Procès verbal du tribunal de commerce"
 * #012 ^designation.language = #fr-FR
 * #012 ^designation.use.system = "http://snomed.info/sct"
@@ -152,6 +181,8 @@ Description: "Nomenclature des types de document informatif et justificatif pouv
 * #012 ^property[=].valueDateTime = "2024-12-30T00:00:00+01:00"
 * #012 ^property[+].code = #status
 * #012 ^property[=].valueCode = #active
+* #012 ^property[+].code = #justificatif
+* #012 ^property[=].valueBoolean = true
 * #013 "Arrêté de tarification"
 * #013 ^designation.language = #fr-FR
 * #013 ^designation.use.system = "http://snomed.info/sct"
@@ -163,6 +194,8 @@ Description: "Nomenclature des types de document informatif et justificatif pouv
 * #013 ^property[=].valueDateTime = "2024-12-30T00:00:00+01:00"
 * #013 ^property[+].code = #status
 * #013 ^property[=].valueCode = #active
+* #013 ^property[+].code = #justificatif
+* #013 ^property[=].valueBoolean = true
 * #014 "Autre document justificatif"
 * #014 ^designation.language = #fr-FR
 * #014 ^designation.use.system = "http://snomed.info/sct"
@@ -174,6 +207,8 @@ Description: "Nomenclature des types de document informatif et justificatif pouv
 * #014 ^property[=].valueDateTime = "2024-12-30T00:00:00+01:00"
 * #014 ^property[+].code = #status
 * #014 ^property[=].valueCode = #active
+* #014 ^property[+].code = #justificatif
+* #014 ^property[=].valueBoolean = true
 * #101 "Courrier et mail des autorités"
 * #101 ^designation.language = #fr-FR
 * #101 ^designation.use.system = "http://snomed.info/sct"
@@ -185,6 +220,8 @@ Description: "Nomenclature des types de document informatif et justificatif pouv
 * #101 ^property[=].valueDateTime = "2024-12-30T00:00:00+01:00"
 * #101 ^property[+].code = #status
 * #101 ^property[=].valueCode = #active
+* #101 ^property[+].code = #informatif
+* #101 ^property[=].valueBoolean = true
 * #102 "Courrier et mail de l'établissement"
 * #102 ^designation.language = #fr-FR
 * #102 ^designation.use.system = "http://snomed.info/sct"
@@ -196,6 +233,8 @@ Description: "Nomenclature des types de document informatif et justificatif pouv
 * #102 ^property[=].valueDateTime = "2024-12-30T00:00:00+01:00"
 * #102 ^property[+].code = #status
 * #102 ^property[=].valueCode = #active
+* #102 ^property[+].code = #informatif
+* #102 ^property[=].valueBoolean = true
 * #103 "Remontées réalisées après l’exploitation de questionnaires d’enquêtes"
 * #103 ^designation.language = #fr-FR
 * #103 ^designation.use.system = "http://snomed.info/sct"
@@ -207,6 +246,8 @@ Description: "Nomenclature des types de document informatif et justificatif pouv
 * #103 ^property[=].valueDateTime = "2024-12-30T00:00:00+01:00"
 * #103 ^property[+].code = #status
 * #103 ^property[=].valueCode = #active
+* #103 ^property[+].code = #informatif
+* #103 ^property[=].valueBoolean = true
 * #104 "Fichiers de données en provenance d’autres systèmes d’information"
 * #104 ^designation.language = #fr-FR
 * #104 ^designation.use.system = "http://snomed.info/sct"
@@ -218,6 +259,8 @@ Description: "Nomenclature des types de document informatif et justificatif pouv
 * #104 ^property[=].valueDateTime = "2024-12-30T00:00:00+01:00"
 * #104 ^property[+].code = #status
 * #104 ^property[=].valueCode = #active
+* #104 ^property[+].code = #informatif
+* #104 ^property[=].valueBoolean = true
 * #105 "Signalement des internautes ou des partenaires utilisateurs des données"
 * #105 ^designation.language = #fr-FR
 * #105 ^designation.use.system = "http://snomed.info/sct"
@@ -229,6 +272,8 @@ Description: "Nomenclature des types de document informatif et justificatif pouv
 * #105 ^property[=].valueDateTime = "2024-12-30T00:00:00+01:00"
 * #105 ^property[+].code = #status
 * #105 ^property[=].valueCode = #active
+* #105 ^property[+].code = #informatif
+* #105 ^property[=].valueBoolean = true
 * #106 "Autre document informatif"
 * #106 ^designation.language = #fr-FR
 * #106 ^designation.use.system = "http://snomed.info/sct"
@@ -240,3 +285,5 @@ Description: "Nomenclature des types de document informatif et justificatif pouv
 * #106 ^property[=].valueDateTime = "2024-12-30T00:00:00+01:00"
 * #106 ^property[+].code = #status
 * #106 ^property[=].valueCode = #active
+* #106 ^property[+].code = #informatif
+* #106 ^property[=].valueBoolean = true
