@@ -3,7 +3,7 @@ Alias: $sct = http://snomed.info/sct
 CodeSystem:  TreR380Habilitation
 Id: tre-r380-habilitation
 Title: "Tre R380 Habilitation"
-Description: "Nomenclature des habilitations asscoiées aux capacités des structures FINESS"
+Description: "Nomenclature des habilitations associées aux capacités des structures FINESS"
 * ^meta.versionId = "1"
 * ^meta.lastUpdated = "2024-12-30T12:00:00+01:00"
 * ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablecodesystem"
@@ -18,6 +18,7 @@ Description: "Nomenclature des habilitations asscoiées aux capacités des struc
 * ^date = "2024-12-30T12:00:00+01:00"
 * ^publisher = "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris"
 * ^caseSensitive = false
+* ^valueSet = "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r380-habilitation?vs"
 * ^content = #complete
 * ^property[0].code = #dateValid
 * ^property[=].description = "date de validité d'un code concept"
