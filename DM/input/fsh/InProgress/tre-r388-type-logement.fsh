@@ -1,7 +1,7 @@
 CodeSystem: TreR388TypeLogement
 Id: tre-r388-type-logement
 Title: "Tre R388 Type Logement"
-Description: "Nomenclature des types de logement associées aux capacités des structures FINESS"
+Description: "Nomenclature des types de logement associés aux capacités des structures FINESS"
 * ^meta.versionId = "1"
 * ^meta.lastUpdated = "2024-12-30T12:00:00+01:00"
 * ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablecodesystem"
@@ -16,6 +16,7 @@ Description: "Nomenclature des types de logement associées aux capacités des s
 * ^date = "2024-12-30T12:00:00+01:00"
 * ^publisher = "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris"
 * ^caseSensitive = false
+* ^valueSet = "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r388-type-logement?vs"
 * ^content = #complete
 * ^property[0].code = #dateValid
 * ^property[=].description = "date de validité d'un code concept"
