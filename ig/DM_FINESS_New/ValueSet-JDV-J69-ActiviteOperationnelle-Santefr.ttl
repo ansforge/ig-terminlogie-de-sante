@@ -37,7 +37,7 @@
   fhir:name [ fhir:v "JDV_J69_ActiviteOperationnelle_Santefr"] ; # 
   fhir:title [ fhir:v "JDV J69 ActiviteOperationnelle Santefr"] ; # 
   fhir:status [ fhir:v "retired"] ; # 
-  fhir:experimental [ fhir:v "false"^^xsd:boolean] ; # 
+  fhir:experimental [ fhir:v false] ; # 
   fhir:date [ fhir:v "2024-05-31T12:00:00+01:00"^^xsd:dateTime] ; # 
   fhir:publisher [ fhir:v "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris"] ; # 
   fhir:description [ fhir:v "Activités opérationnelles de Santé.fr"] ; # 

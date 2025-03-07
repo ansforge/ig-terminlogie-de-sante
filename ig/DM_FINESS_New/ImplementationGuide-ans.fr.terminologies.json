@@ -3,7 +3,7 @@
   "id" : "ans.fr.terminologies",
   "text" : {
     "status" : "generated",
-    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ImplementationGuide ans.fr.terminologies</b></p><a name=\"ans.fr.terminologies\"> </a><a name=\"hcans.fr.terminologies\"> </a><a name=\"ans.fr.terminologies-fr-FR\"> </a><h2>Terminologies</h2><p>The official URL for this implementation guide is: </p><pre>https://interop.esante.gouv.fr/terminologies/ImplementationGuide/ans.fr.terminologies</pre><div><p>Les nomenclatures des objets de Santé sont mises à disposition du secteur santé-social par l’agence du numérique en santé</p>\n</div></div>"
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ImplementationGuide ans.fr.terminologies</b></p><a name=\"ans.fr.terminologies\"> </a><a name=\"hcans.fr.terminologies\"> </a><a name=\"ans.fr.terminologies-fr-FR\"> </a><h2>Terminologies</h2><p>LURL officielle pour ce guide dimplémentation est : </p><pre>https://interop.esante.gouv.fr/terminologies/ImplementationGuide/ans.fr.terminologies</pre><div><p>Les nomenclatures des objets de Santé sont mises à disposition du secteur santé-social par l’agence du numérique en santé</p>\n</div></div>"
   },
   "url" : "https://interop.esante.gouv.fr/terminologies/ImplementationGuide/ans.fr.terminologies",
   "version" : "0.1.0",
@@ -33684,6 +33684,18 @@
     {
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "CodeSystem"
+      }],
+      "reference" : {
+        "reference" : "CodeSystem/11000315107-20240621"
+      },
+      "name" : "French module",
+      "description" : "SNOMED CT is the most comprehensive and precise clinical health terminology product in the world, owned and distributed around the world by The International Health Terminology Standards Development Organisation (IHTSDO).",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "ValueSet"
       }],
       "reference" : {
@@ -33715,6 +33727,30 @@
       },
       "name" : "JDV J12 CiviliteTitre CISIS",
       "description" : "Titre civilité - CI-SIS",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      }],
+      "reference" : {
+        "reference" : "ValueSet/jdv-j294-document-justificatif-finess"
+      },
+      "name" : "Jdv J294 Document Justificatif Finess",
+      "description" : "Jeu de valeurs FINESS contenant les types de documents justificatifs pouvant être associés à une entité FINESS",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      }],
+      "reference" : {
+        "reference" : "ValueSet/jdv-j295-document-informatif-finess"
+      },
+      "name" : "Jdv J295 Document Informatif Finess",
+      "description" : "Jeu de valeurs FINESS contenant les types de documents informatifs pouvant être associés à une entité FINESS",
       "exampleBoolean" : false
     },
     {
@@ -47013,18 +47049,6 @@
     {
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "CodeSystem"
-      }],
-      "reference" : {
-        "reference" : "CodeSystem/900000000000207008-20250201"
-      },
-      "name" : "SNOMED CT core",
-      "description" : "SNOMED CT is the most comprehensive and precise clinical health terminology product in the world, owned and distributed around the world by The International Health Terminology Standards Development Organisation (IHTSDO).",
-      "exampleBoolean" : false
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "NamingSystem"
       }],
       "reference" : {
@@ -47042,7 +47066,7 @@
         "reference" : "CodeSystem/1.2.250.1.213.1.1.4.322"
       },
       "name" : "TA_ASIP",
-      "description" : "TA_ASIP Version 1.98",
+      "description" : "TA_ASIP",
       "exampleBoolean" : false
     },
     {
@@ -47055,6 +47079,18 @@
       },
       "name" : "Tre R347 Activite Sanitaire Diverse Regulee",
       "description" : "Nomenclature des activités sanitaires utilisée pour décrire les Activités Sanitaires Diverses Régulées (ASDR)",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      }],
+      "reference" : {
+        "reference" : "ValueSet/tre-r347-activite-sanitaire-diverse-regulee-all"
+      },
+      "name" : "Tre R347 Activite Sanitaire Diverse Regulee All",
+      "description" : "Jeu de valeurs ALL contenant les activités sanitaires, utilisé pour décrire les Activités Sanitaires Diverses Régulées (ASDR)",
       "exampleBoolean" : false
     },
     {
@@ -47162,7 +47198,7 @@
         "reference" : "CodeSystem/tre-r364-type-document-administratif"
       },
       "name" : "Tre R364 Type Document Administratif",
-      "description" : "Nomenclature des types de document informatif et justificatif pouvant être associé à une entité FINESS",
+      "description" : "Nomenclature des types de documents informatifs et justificatifs pouvant être associés à une entité FINESS",
       "exampleBoolean" : false
     },
     {
@@ -47324,13 +47360,37 @@
     {
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      }],
+      "reference" : {
+        "reference" : "ValueSet/tre-r374-nature-activite-smsse-regulee-all"
+      },
+      "name" : "Tre R374 Nature Activite Smsse Regulee All",
+      "description" : "Jeu de valeurs ALL contenant les grandes natures d'activité SMSSE exercées par les entités FINESS+.",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "CodeSystem"
       }],
       "reference" : {
         "reference" : "CodeSystem/tre-r375-mode-financement"
       },
       "name" : "Tre R375 Mode Financement",
-      "description" : "Nomenclature des modes de financement associées aux capacités de certaines activitées SMSSE",
+      "description" : "Nomenclature des modes de financement associés aux capacités de certaines activitées SMSSE",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      }],
+      "reference" : {
+        "reference" : "ValueSet/tre-r375-mode-financement-all"
+      },
+      "name" : "Tre R375 Mode Financement All",
+      "description" : "Jeu de valeurs ALL contenant les modes de financement associés aux capacités de certaines activitées SMSSE.",
       "exampleBoolean" : false
     },
     {
@@ -47438,7 +47498,19 @@
         "reference" : "CodeSystem/tre-r380-habilitation"
       },
       "name" : "Tre R380 Habilitation",
-      "description" : "Nomenclature des habilitations asscoiées aux capacités des structures FINESS",
+      "description" : "Nomenclature des habilitations associées aux capacités des structures FINESS",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      }],
+      "reference" : {
+        "reference" : "ValueSet/tre-r380-habilitation-all"
+      },
+      "name" : "Tre R380 Habilitation All",
+      "description" : "Jeu de valeurs ALL contenant les habilitations associées aux capacités des structures FINESS",
       "exampleBoolean" : false
     },
     {
@@ -47456,6 +47528,18 @@
     {
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      }],
+      "reference" : {
+        "reference" : "ValueSet/tre-r381-activite-amm-all"
+      },
+      "name" : "Tre R381 Activite Amm All",
+      "description" : "Jeu de valeurs ALL contenant les activités de soin AMM",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "CodeSystem"
       }],
       "reference" : {
@@ -47463,6 +47547,18 @@
       },
       "name" : "Tre R382 Modalite Act De Soin Amm",
       "description" : "Nomenclature des modalités pour les activités de soin AMM",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      }],
+      "reference" : {
+        "reference" : "ValueSet/tre-r382-modalite-act-de-soin-amm-all"
+      },
+      "name" : "Tre R382 Modalite Act De Soin Amm All",
+      "description" : "Jeu de valeurs ALL contenant les modalités pour les activités de soin AMM",
       "exampleBoolean" : false
     },
     {
@@ -47480,6 +47576,18 @@
     {
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      }],
+      "reference" : {
+        "reference" : "ValueSet/tre-r383-mention-act-de-soin-amm-all"
+      },
+      "name" : "Tre R383 Mention Act De Soin Amm All",
+      "description" : "Jeu de valeurs ALL contenant les mentions pour les activités de soin AMM",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "CodeSystem"
       }],
       "reference" : {
@@ -47492,6 +47600,18 @@
     {
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      }],
+      "reference" : {
+        "reference" : "ValueSet/tre-r384-pratique-therapeutique-specifique-act-de-soin-amm-all"
+      },
+      "name" : "Tre R384 Pratique Therapeutique Specifique Act De Soin Amm All",
+      "description" : "Jeu de valeurs ALL contenant les pratiques thérapeutiques spécifiques pour les activités de soin AMM",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "CodeSystem"
       }],
       "reference" : {
@@ -47499,6 +47619,18 @@
       },
       "name" : "Tre R385 Declaration Act De Soin Amm",
       "description" : "Nomenclature des déclarations pour les activités de soin AMM",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      }],
+      "reference" : {
+        "reference" : "ValueSet/tre-r385-declaration-act-de-soin-amm-all"
+      },
+      "name" : "Tre R385 Declaration Act De Soin Amm All",
+      "description" : "Jeu de valeurs ALL contenant les déclarations pour les activités de soin AMM",
       "exampleBoolean" : false
     },
     {
@@ -47558,7 +47690,19 @@
         "reference" : "CodeSystem/tre-r388-type-logement"
       },
       "name" : "Tre R388 Type Logement",
-      "description" : "Nomenclature des types de logement associées aux capacités des structures FINESS",
+      "description" : "Nomenclature des types de logement associés aux capacités des structures FINESS",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      }],
+      "reference" : {
+        "reference" : "ValueSet/tre-r388-type-logement-all"
+      },
+      "name" : "Tre R388 Type Logement All",
+      "description" : "Jeu de valeurs ALL contenant les types de logement associés aux capacités des structures FINESS",
       "exampleBoolean" : false
     },
     {

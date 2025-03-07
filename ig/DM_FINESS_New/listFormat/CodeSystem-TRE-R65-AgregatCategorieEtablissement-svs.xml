@@ -2,7 +2,7 @@
 <RetrieveValueSetResponse xmlns="urn:ihe:iti:svs:2008"
                           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
    <ValueSet dateFin=""
-             dateMaj="20240628120000"
+             dateMaj="20250228120000"
              dateValid="19790101000000"
              description="Agrégat de catégories d'établissements"
              displayName="TRE_R65_AgregatCategorieEtablissement"
@@ -364,7 +364,7 @@
          <concept code="3409"
                   codeSystem="1.2.250.1.213.1.6.1.7"
                   dateFin=""
-                  dateMaj="20230526120000"
+                  dateMaj="20250228120000"
                   dateValid="20230526120000"
                   displayName="Services de Prévention et de Santé au Travail (SPST)"
                   longDesignation="Services de Prévention et de Santé au Travail (SPST)"

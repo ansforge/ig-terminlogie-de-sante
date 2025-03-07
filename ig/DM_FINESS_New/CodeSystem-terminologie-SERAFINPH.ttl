@@ -30,7 +30,7 @@
   fhir:name [ fhir:v "SERAFIN_PH"] ; # 
   fhir:title [ fhir:v "Nomenclature des besoins et des prestations"] ; # 
   fhir:status [ fhir:v "active"] ; # 
-  fhir:experimental [ fhir:v "false"^^xsd:boolean] ; # 
+  fhir:experimental [ fhir:v false] ; # 
   fhir:date [ fhir:v "2023-01-01T00:00:00+01:00"^^xsd:dateTime] ; # 
   fhir:publisher [ fhir:v "Agence du numérique en santé"] ; # 
   fhir:description [ fhir:v "Les nomenclatures des besoins et des prestations ont été élaborées par un groupe de travail issu du projet SERAFIN-PH porté par la Caisse nationale de Solidarité pour l’Autonomie (CNSA) et la Direction Générale de la Cohésion Sociale (DGCS).\nElles permettent de décrire, sur la base d’un langage commun, les besoins identifiés des personnes, et les prestations réalisées en réponse à ces besoins. Les usages locaux de ces nomenclatures montrent leur pertinence pour nouer autour des projets personnalisés d’accompagnement et de leurs déclinaisons opérationnelles un dialogue soutenu et permanent entre tous les acteurs concernés, de la personne accompagnée aux structures médico-sociales, acteurs de droit commun et jusqu’aux institutions de régulation (ARS, services déconcentrés et collectivités locales)."] ; # 
@@ -449,7 +449,7 @@
        fhir:code [ fhir:v "deprecated" ] ;
        fhir:value [
          a fhir:boolean ;
-         fhir:v "true"^^xsd:boolean
+         fhir:v true
        ]
      ] )
   ] [
@@ -777,7 +777,7 @@
        fhir:code [ fhir:v "deprecated" ] ;
        fhir:value [
          a fhir:boolean ;
-         fhir:v "true"^^xsd:boolean
+         fhir:v true
        ]
      ] )
   ] [
@@ -1181,7 +1181,7 @@
        fhir:code [ fhir:v "deprecated" ] ;
        fhir:value [
          a fhir:boolean ;
-         fhir:v "true"^^xsd:boolean
+         fhir:v true
        ]
      ] )
   ] [
@@ -1667,7 +1667,7 @@
        fhir:code [ fhir:v "deprecated" ] ;
        fhir:value [
          a fhir:boolean ;
-         fhir:v "true"^^xsd:boolean
+         fhir:v true
        ]
      ] )
   ] [
@@ -2017,7 +2017,7 @@
        fhir:code [ fhir:v "deprecated" ] ;
        fhir:value [
          a fhir:boolean ;
-         fhir:v "true"^^xsd:boolean
+         fhir:v true
        ]
      ] )
   ] [
@@ -2045,7 +2045,7 @@
        fhir:code [ fhir:v "deprecated" ] ;
        fhir:value [
          a fhir:boolean ;
-         fhir:v "true"^^xsd:boolean
+         fhir:v true
        ]
      ] )
   ] [

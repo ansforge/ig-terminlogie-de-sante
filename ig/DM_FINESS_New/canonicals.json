@@ -8,10 +8,10 @@
     "oids" : ["2.16.840.1.113883.4.642.3.264"]
   },
   {
-    "id" : "900000000000207008-20250201",
+    "id" : "11000315107-20240621",
     "type" : "CodeSystem",
     "url" : "http://snomed.info/sct",
-    "version" : "http://snomed.info/sct/900000000000207008/version/20250201",
+    "version" : "http://snomed.info/sct/11000315107/version/20240621",
     "name" : "SNOMED_CT",
     "oids" : ["2.16.840.1.113883.6.96"]
   },
@@ -288,7 +288,7 @@
     "id" : "JDV-J05-SubjectRole-CISIS",
     "type" : "ValueSet",
     "url" : "https://mos.esante.gouv.fr/NOS/JDV_J05-SubjectRole-CISIS/FHIR/JDV-J05-SubjectRole-CISIS",
-    "version" : "20250131120000",
+    "version" : "20250228120000",
     "name" : "JDV_J05_SubjectRole_CISIS",
     "oids" : ["1.2.250.1.213.1.1.5.470"]
   },
@@ -4135,7 +4135,7 @@
     "id" : "TRE-R65-AgregatCategorieEtablissement",
     "type" : "CodeSystem",
     "url" : "https://mos.esante.gouv.fr/NOS/TRE_R65-AgregatCategorieEtablissement/FHIR/TRE-R65-AgregatCategorieEtablissement",
-    "version" : "20240628120000",
+    "version" : "20250228120000",
     "name" : "TRE_R65_AgregatCategorieEtablissement",
     "oids" : ["1.2.250.1.213.1.6.1.7"]
   },
@@ -4143,7 +4143,7 @@
     "id" : "TRE-R66-CategorieEtablissement",
     "type" : "CodeSystem",
     "url" : "https://mos.esante.gouv.fr/NOS/TRE_R66-CategorieEtablissement/FHIR/TRE-R66-CategorieEtablissement",
-    "version" : "20241025120000",
+    "version" : "20250228120000",
     "name" : "TRE_R66_CategorieEtablissement",
     "oids" : ["1.2.250.1.213.1.6.1.8"]
   },
@@ -4247,7 +4247,7 @@
     "id" : "TRE-R85-RolePriseCharge",
     "type" : "CodeSystem",
     "url" : "https://mos.esante.gouv.fr/NOS/TRE_R85-RolePriseCharge/FHIR/TRE-R85-RolePriseCharge",
-    "version" : "20241213120000",
+    "version" : "20250228120000",
     "name" : "TRE_R85_RolePriseCharge",
     "oids" : ["1.2.250.1.213.1.6.1.107"]
   },
@@ -4327,7 +4327,7 @@
     "id" : "1.2.250.1.213.1.1.4.322",
     "type" : "CodeSystem",
     "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/1.2.250.1.213.1.1.4.322",
-    "version" : "202501130000",
+    "version" : "202503040000",
     "name" : "TA_ASIP",
     "oids" : ["1.2.250.1.213.1.1.4.322"]
   },
@@ -4338,6 +4338,14 @@
     "version" : "20250220120000",
     "name" : "TreR347ActiviteSanitaireDiverseRegulee",
     "oids" : ["1.2.250.1.213.1.6.1.248"]
+  },
+  {
+    "id" : "tre-r347-activite-sanitaire-diverse-regulee-all",
+    "type" : "ValueSet",
+    "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r347-activite-sanitaire-diverse-regulee?vs",
+    "version" : "20250222120000",
+    "name" : "TreR347ActiviteSanitaireDiverseReguleeAll",
+    "oids" : ["1.2.250.1.213.1.6.1.250"]
   },
   {
     "id" : "tre-r360-type-role-entite-groupe",
@@ -4516,12 +4524,28 @@
     "oids" : ["1.2.250.1.213.1.6.1.289"]
   },
   {
+    "id" : "tre-r374-nature-activite-smsse-regulee-all",
+    "type" : "ValueSet",
+    "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r374-nature-activite-smsse-regulee?vs",
+    "version" : "20250222120000",
+    "name" : "TreR374NatureActiviteSmsseReguleeAll",
+    "oids" : ["1.2.250.1.213.1.6.1.324"]
+  },
+  {
     "id" : "tre-r375-mode-financement",
     "type" : "CodeSystem",
     "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r375-mode-financement",
     "version" : "20241230120000",
     "name" : "TreR375ModeFinancement",
     "oids" : ["1.2.250.1.213.1.6.1.290"]
+  },
+  {
+    "id" : "tre-r375-mode-financement-all",
+    "type" : "ValueSet",
+    "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r375-mode-financement?vs",
+    "version" : "20250222120000",
+    "name" : "TreR375ModeFinancementAll",
+    "oids" : ["1.2.250.1.213.1.6.1.363"]
   },
   {
     "id" : "tre-r376-type-evenement-administratif",
@@ -4596,12 +4620,28 @@
     "oids" : ["1.2.250.1.213.1.6.1.295"]
   },
   {
+    "id" : "tre-r380-habilitation-all",
+    "type" : "ValueSet",
+    "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r380-habilitation?vs",
+    "version" : "20250222120000",
+    "name" : "TreR380HabilitationAll",
+    "oids" : ["1.2.250.1.213.1.6.1.362"]
+  },
+  {
     "id" : "tre-r381-activite-amm",
     "type" : "CodeSystem",
     "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r381-activite-amm",
     "version" : "20241230120000",
     "name" : "TreR381ActiviteAmm",
     "oids" : ["1.2.250.1.213.1.6.1.296"]
+  },
+  {
+    "id" : "tre-r381-activite-amm-all",
+    "type" : "ValueSet",
+    "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r381-activite-amm?vs",
+    "version" : "20250222120000",
+    "name" : "TreR381ActiviteAmmAll",
+    "oids" : ["1.2.250.1.213.1.6.1.353"]
   },
   {
     "id" : "tre-r382-modalite-act-de-soin-amm",
@@ -4612,12 +4652,28 @@
     "oids" : ["1.2.250.1.213.1.6.1.297"]
   },
   {
+    "id" : "tre-r382-modalite-act-de-soin-amm-all",
+    "type" : "ValueSet",
+    "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r382-modalite-act-de-soin-amm?vs",
+    "version" : "20250222120000",
+    "name" : "TreR382ModaliteActDeSoinAmmAll",
+    "oids" : ["1.2.250.1.213.1.6.1.354"]
+  },
+  {
     "id" : "tre-r383-mention-act-de-soin-amm",
     "type" : "CodeSystem",
     "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r383-mention-act-de-soin-amm",
     "version" : "20241230120000",
     "name" : "TreR383MentionActDeSoinAmm",
     "oids" : ["1.2.250.1.213.1.6.1.298"]
+  },
+  {
+    "id" : "tre-r383-mention-act-de-soin-amm-all",
+    "type" : "ValueSet",
+    "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r383-mention-act-de-soin-amm?vs",
+    "version" : "20250222120000",
+    "name" : "TreR383MentionActDeSoinAmmAll",
+    "oids" : ["1.2.250.1.213.1.6.1.355"]
   },
   {
     "id" : "tre-r384-pratique-therapeutique-specifique-act-de-soin-amm",
@@ -4628,12 +4684,28 @@
     "oids" : ["1.2.250.1.213.1.6.1.299"]
   },
   {
+    "id" : "tre-r384-pratique-therapeutique-specifique-act-de-soin-amm-all",
+    "type" : "ValueSet",
+    "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r384-pratique-therapeutique-specifique-act-de-soin-amm?vs",
+    "version" : "20250222120000",
+    "name" : "TreR384PratiqueTherapeutiqueSpecifiqueActDeSoinAmmAll",
+    "oids" : ["1.2.250.1.213.1.6.1.356"]
+  },
+  {
     "id" : "tre-r385-declaration-act-de-soin-amm",
     "type" : "CodeSystem",
     "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r385-declaration-act-de-soin-amm",
     "version" : "20241230120000",
     "name" : "TreR385DeclarationActDeSoinAmm",
     "oids" : ["1.2.250.1.213.1.6.1.300"]
+  },
+  {
+    "id" : "tre-r385-declaration-act-de-soin-amm-all",
+    "type" : "ValueSet",
+    "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r385-declaration-act-de-soin-amm?vs",
+    "version" : "20250222120000",
+    "name" : "TreR385DeclarationActDeSoinAmmAll",
+    "oids" : ["1.2.250.1.213.1.6.1.357"]
   },
   {
     "id" : "tre-r386-macro-etat-objet-administratif",
@@ -4674,6 +4746,14 @@
     "version" : "20241230120000",
     "name" : "TreR388TypeLogement",
     "oids" : ["1.2.250.1.213.1.6.1.303"]
+  },
+  {
+    "id" : "tre-r388-type-logement-all",
+    "type" : "ValueSet",
+    "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r388-type-logement?vs",
+    "version" : "20250222120000",
+    "name" : "TreR388TypeLogementAll",
+    "oids" : ["1.2.250.1.213.1.6.1.364"]
   },
   {
     "id" : "alignement-bdpm-cipucd",
@@ -11792,6 +11872,22 @@
     "oids" : ["2.16.840.1.113883.5.4.642.3.289"]
   },
   {
+    "id" : "jdv-j294-document-justificatif-finess",
+    "type" : "ValueSet",
+    "url" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j294-document-justificatif-finess",
+    "version" : "20250222120000",
+    "name" : "JdvJ294DocumentJustificatifFiness",
+    "oids" : ["1.2.250.1.213.1.6.1.269"]
+  },
+  {
+    "id" : "jdv-j295-document-informatif-finess",
+    "type" : "ValueSet",
+    "url" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j295-document-informatif-finess",
+    "version" : "20250222120000",
+    "name" : "JdvJ295DocumentInformatifFiness",
+    "oids" : ["1.2.250.1.213.1.6.1.269"]
+  },
+  {
     "id" : "terminologie-SERAFINPH",
     "type" : "CodeSystem",
     "url" : "https://smt.esante.gouv.fr/terminologie-SERAFINPH",
@@ -11817,7 +11913,7 @@
     "id" : "terminologie-bdpm",
     "type" : "CodeSystem",
     "url" : "https://smt.esante.gouv.fr/terminologie-bdpm",
-    "version" : "2025-02-05",
+    "version" : "2025-03-04",
     "name" : "BDPM"
   },
   {
@@ -11831,7 +11927,7 @@
     "id" : "terminologie-ccam",
     "type" : "CodeSystem",
     "url" : "https://smt.esante.gouv.fr/terminologie-ccam",
-    "version" : "v78",
+    "version" : "v7810",
     "name" : "CCAM",
     "oids" : ["1.2.250.1.215.300.1"]
   },

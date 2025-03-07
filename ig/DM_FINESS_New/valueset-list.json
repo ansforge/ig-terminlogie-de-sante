@@ -97,7 +97,7 @@
     },
     {
       "url" : "https://mos.esante.gouv.fr/NOS/JDV_J05-SubjectRole-CISIS/FHIR/JDV-J05-SubjectRole-CISIS",
-      "version" : "20250131120000",
+      "version" : "20250228120000",
       "status" : "active",
       "name" : "JDV_J05_SubjectRole_CISIS",
       "title" : null,
@@ -3509,6 +3509,19 @@
       ]
     },
     {
+      "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r347-activite-sanitaire-diverse-regulee?vs",
+      "version" : "20250222120000",
+      "status" : "active",
+      "name" : "TreR347ActiviteSanitaireDiverseReguleeAll",
+      "title" : "Tre R347 Activite Sanitaire Diverse Regulee All",
+      "description" : "Jeu de valeurs ALL contenant les activités sanitaires, utilisé pour décrire les Activités Sanitaires Diverses Régulées (ASDR)",
+      "systems" : [
+        "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r347-activite-sanitaire-diverse-regulee"
+      ],
+      "oids" : ["1.2.250.1.213.1.6.1.250"],
+      "sources" : ["1.2.250.1.213.1.6.1.250"]
+    },
+    {
       "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r360-type-role-entite-groupe?vs",
       "version" : "20250222120000",
       "status" : "active",
@@ -3639,6 +3652,32 @@
       "sources" : ["1.2.250.1.213.1.6.1.261"]
     },
     {
+      "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r374-nature-activite-smsse-regulee?vs",
+      "version" : "20250222120000",
+      "status" : "active",
+      "name" : "TreR374NatureActiviteSmsseReguleeAll",
+      "title" : "Tre R374 Nature Activite Smsse Regulee All",
+      "description" : "Jeu de valeurs ALL contenant les grandes natures d'activité SMSSE exercées par les entités FINESS+.",
+      "systems" : [
+        "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r374-nature-activite-smsse-regulee"
+      ],
+      "oids" : ["1.2.250.1.213.1.6.1.324"],
+      "sources" : ["1.2.250.1.213.1.6.1.324"]
+    },
+    {
+      "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r375-mode-financement?vs",
+      "version" : "20250222120000",
+      "status" : "active",
+      "name" : "TreR375ModeFinancementAll",
+      "title" : "Tre R375 Mode Financement All",
+      "description" : "Jeu de valeurs ALL contenant les modes de financement associés aux capacités de certaines activitées SMSSE.",
+      "systems" : [
+        "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r375-mode-financement"
+      ],
+      "oids" : ["1.2.250.1.213.1.6.1.363"],
+      "sources" : ["1.2.250.1.213.1.6.1.363"]
+    },
+    {
       "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r376-type-evenement-administratif?vs",
       "version" : "20250222120000",
       "status" : "active",
@@ -3691,6 +3730,84 @@
       "sources" : ["1.2.250.1.213.1.6.1.307"]
     },
     {
+      "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r380-habilitation?vs",
+      "version" : "20250222120000",
+      "status" : "active",
+      "name" : "TreR380HabilitationAll",
+      "title" : "Tre R380 Habilitation All",
+      "description" : "Jeu de valeurs ALL contenant les habilitations associées aux capacités des structures FINESS",
+      "systems" : [
+        "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r380-habilitation"
+      ],
+      "oids" : ["1.2.250.1.213.1.6.1.362"],
+      "sources" : ["1.2.250.1.213.1.6.1.362"]
+    },
+    {
+      "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r381-activite-amm?vs",
+      "version" : "20250222120000",
+      "status" : "active",
+      "name" : "TreR381ActiviteAmmAll",
+      "title" : "Tre R381 Activite Amm All",
+      "description" : "Jeu de valeurs ALL contenant les activités de soin AMM",
+      "systems" : [
+        "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r381-activite-amm"
+      ],
+      "oids" : ["1.2.250.1.213.1.6.1.353"],
+      "sources" : ["1.2.250.1.213.1.6.1.353"]
+    },
+    {
+      "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r382-modalite-act-de-soin-amm?vs",
+      "version" : "20250222120000",
+      "status" : "active",
+      "name" : "TreR382ModaliteActDeSoinAmmAll",
+      "title" : "Tre R382 Modalite Act De Soin Amm All",
+      "description" : "Jeu de valeurs ALL contenant les modalités pour les activités de soin AMM",
+      "systems" : [
+        "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r382-modalite-act-de-soin-amm"
+      ],
+      "oids" : ["1.2.250.1.213.1.6.1.354"],
+      "sources" : ["1.2.250.1.213.1.6.1.354"]
+    },
+    {
+      "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r383-mention-act-de-soin-amm?vs",
+      "version" : "20250222120000",
+      "status" : "active",
+      "name" : "TreR383MentionActDeSoinAmmAll",
+      "title" : "Tre R383 Mention Act De Soin Amm All",
+      "description" : "Jeu de valeurs ALL contenant les mentions pour les activités de soin AMM",
+      "systems" : [
+        "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r383-mention-act-de-soin-amm"
+      ],
+      "oids" : ["1.2.250.1.213.1.6.1.355"],
+      "sources" : ["1.2.250.1.213.1.6.1.355"]
+    },
+    {
+      "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r384-pratique-therapeutique-specifique-act-de-soin-amm?vs",
+      "version" : "20250222120000",
+      "status" : "active",
+      "name" : "TreR384PratiqueTherapeutiqueSpecifiqueActDeSoinAmmAll",
+      "title" : "Tre R384 Pratique Therapeutique Specifique Act De Soin Amm All",
+      "description" : "Jeu de valeurs ALL contenant les pratiques thérapeutiques spécifiques pour les activités de soin AMM",
+      "systems" : [
+        "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r384-pratique-therapeutique-specifique-act-de-soin-amm"
+      ],
+      "oids" : ["1.2.250.1.213.1.6.1.356"],
+      "sources" : ["1.2.250.1.213.1.6.1.356"]
+    },
+    {
+      "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r385-declaration-act-de-soin-amm?vs",
+      "version" : "20250222120000",
+      "status" : "active",
+      "name" : "TreR385DeclarationActDeSoinAmmAll",
+      "title" : "Tre R385 Declaration Act De Soin Amm All",
+      "description" : "Jeu de valeurs ALL contenant les déclarations pour les activités de soin AMM",
+      "systems" : [
+        "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r385-declaration-act-de-soin-amm"
+      ],
+      "oids" : ["1.2.250.1.213.1.6.1.357"],
+      "sources" : ["1.2.250.1.213.1.6.1.357"]
+    },
+    {
       "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r386-macro-etat-objet-administratif?vs",
       "version" : "20250222120000",
       "status" : "active",
@@ -3715,6 +3832,19 @@
       ],
       "oids" : ["1.2.250.1.213.1.6.1.313"],
       "sources" : ["1.2.250.1.213.1.6.1.313"]
+    },
+    {
+      "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r388-type-logement?vs",
+      "version" : "20250222120000",
+      "status" : "active",
+      "name" : "TreR388TypeLogementAll",
+      "title" : "Tre R388 Type Logement All",
+      "description" : "Jeu de valeurs ALL contenant les types de logement associés aux capacités des structures FINESS",
+      "systems" : [
+        "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r388-type-logement"
+      ],
+      "oids" : ["1.2.250.1.213.1.6.1.364"],
+      "sources" : ["1.2.250.1.213.1.6.1.364"]
     },
     {
       "url" : "https://smt.esante.gouv.fr/fhir/ValueSet/1.2.250.1.213.1.1.4.2.1",
@@ -14566,6 +14696,32 @@
       ],
       "oids" : ["2.16.840.1.113883.5.4.642.3.289"],
       "sources" : ["2.16.840.1.113883.5.4.642.3.289"]
+    },
+    {
+      "url" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j294-document-justificatif-finess",
+      "version" : "20250222120000",
+      "status" : "active",
+      "name" : "JdvJ294DocumentJustificatifFiness",
+      "title" : "Jdv J294 Document Justificatif Finess",
+      "description" : "Jeu de valeurs FINESS contenant les types de documents justificatifs pouvant être associés à une entité FINESS",
+      "systems" : [
+        "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r364-type-document-administratif"
+      ],
+      "oids" : ["1.2.250.1.213.1.6.1.269"],
+      "sources" : ["1.2.250.1.213.1.6.1.269"]
+    },
+    {
+      "url" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j295-document-informatif-finess",
+      "version" : "20250222120000",
+      "status" : "active",
+      "name" : "JdvJ295DocumentInformatifFiness",
+      "title" : "Jdv J295 Document Informatif Finess",
+      "description" : "Jeu de valeurs FINESS contenant les types de documents informatifs pouvant être associés à une entité FINESS",
+      "systems" : [
+        "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r364-type-document-administratif"
+      ],
+      "oids" : ["1.2.250.1.213.1.6.1.269"],
+      "sources" : ["1.2.250.1.213.1.6.1.269"]
     },
     {
       "url" : "https://smt.esante.gouv.fr/terminologie-atc?vs",

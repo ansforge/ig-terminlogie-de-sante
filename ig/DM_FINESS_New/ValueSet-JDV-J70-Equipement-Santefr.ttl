@@ -37,7 +37,7 @@
   fhir:name [ fhir:v "JDV_J70_Equipement_Santefr"] ; # 
   fhir:title [ fhir:v "JDV J70 Equipement Santefr"] ; # 
   fhir:status [ fhir:v "retired"] ; # 
-  fhir:experimental [ fhir:v "false"^^xsd:boolean] ; # 
+  fhir:experimental [ fhir:v false] ; # 
   fhir:date [ fhir:v "2024-04-26T12:00:00+01:00"^^xsd:dateTime] ; # 
   fhir:publisher [ fhir:v "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris"] ; # 
   fhir:description [ fhir:v "Equipements Santé.fr"] ; # 

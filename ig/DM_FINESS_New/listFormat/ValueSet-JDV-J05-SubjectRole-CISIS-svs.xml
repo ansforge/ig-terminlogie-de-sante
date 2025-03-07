@@ -2,7 +2,7 @@
 <RetrieveValueSetResponse xmlns="urn:ihe:iti:svs:2008"
                           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
    <ValueSet dateFin=""
-             dateMaj="20250131120000"
+             dateMaj="20250228120000"
              dateValid="20121006000000"
              description="subjectRole CI-SIS"
              displayName="JDV_J05_SubjectRole_CISIS"
@@ -90,6 +90,9 @@
          <concept code="73"
                   codeSystem="1.2.250.1.213.1.6.1.109"
                   displayName="Chiropracteur"/>
+         <concept code="93"
+                  codeSystem="1.2.250.1.213.1.6.1.109"
+                  displayName="Psychologue"/>
          <concept code="41"
                   codeSystem="1.2.250.1.213.1.6.1.4"
                   displayName="Assistant de service social"/>

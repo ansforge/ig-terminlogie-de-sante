@@ -4,7 +4,7 @@
    <ValueSet dateFin=""
              dateMaj="20241230120000"
              dateValid="20241230120000"
-             description="Nomenclature des habilitations asscoiées aux capacités des structures FINESS"
+             description="Nomenclature des habilitations associées aux capacités des structures FINESS"
              displayName="TreR380Habilitation"
              id="1.2.250.1.213.1.6.1.295"
              typeFichier="TRE"

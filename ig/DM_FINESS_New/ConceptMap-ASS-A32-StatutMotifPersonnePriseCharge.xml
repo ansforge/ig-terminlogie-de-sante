@@ -3,7 +3,7 @@
 <ConceptMap xmlns="http://hl7.org/fhir">
   <id value="ASS-A32-StatutMotifPersonnePriseCharge"/>
   <text>
-    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: ConceptMap ASS-A32-StatutMotifPersonnePriseCharge</b></p><a name="ASS-A32-StatutMotifPersonnePriseCharge"> </a><a name="hcASS-A32-StatutMotifPersonnePriseCharge"> </a><a name="ASS-A32-StatutMotifPersonnePriseCharge-fr-FR"> </a><p>Mapping from (not specified) to (not specified)</p><br/></div>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: ConceptMap ASS-A32-StatutMotifPersonnePriseCharge</b></p><a name="ASS-A32-StatutMotifPersonnePriseCharge"> </a><a name="hcASS-A32-StatutMotifPersonnePriseCharge"> </a><a name="ASS-A32-StatutMotifPersonnePriseCharge-fr-FR"> </a><p>Mapping from (non spécifié) to (non spécifié)</p><br/></div>
   </text>
   <url value="https://mos.esante.gouv.fr/NOS/ASS_A32_StatutMotifPersonnePriseCharge"/>
   <version value="5.0.0"/>
@@ -11,7 +11,7 @@
   <title value="ASS_A32_StatutMotifPersonnePriseCharge"/>
   <status value="active"/>
   <experimental value="false"/>
-  <date value="2025-02-27T14:19:46+00:00"/>
+  <date value="2025-03-07T08:37:17+00:00"/>
   <publisher value="ANS"/>
   <contact>
     <name value="ANS"/>

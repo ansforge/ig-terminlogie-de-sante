@@ -19,7 +19,7 @@
   ] ; # 
   fhir:text [
      fhir:status [ fhir:v "generated" ] ;
-     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ValueSet tre-r361-fonction-publique-all</b></p><a name=\"tre-r361-fonction-publique-all\"> </a><a name=\"hctre-r361-fonction-publique-all\"> </a><a name=\"tre-r361-fonction-publique-all-fr-FR\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">version: 1; Last updated: 2025-02-22 18:02:28+0000</p><p style=\"margin-bottom: 0px\">Profile: <a href=\"http://hl7.org/fhir/R4/shareablevalueset.html\">Shareable ValueSet</a></p></div><ul><li>Include all codes defined in <a href=\"CodeSystem-tre-r361-fonction-publique.html\"><code>https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r361-fonction-publique</code></a></li></ul></div>"^^rdf:XMLLiteral
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ValueSet tre-r361-fonction-publique-all</b></p><a name=\"tre-r361-fonction-publique-all\"> </a><a name=\"hctre-r361-fonction-publique-all\"> </a><a name=\"tre-r361-fonction-publique-all-fr-FR\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">version: 1; Last updated: 2025-02-22 18:02:28+0000</p><p style=\"margin-bottom: 0px\">Profil: <a href=\"http://hl7.org/fhir/R4/shareablevalueset.html\">Shareable ValueSet</a></p></div><ul><li>Include tous les codes définis dans <a href=\"CodeSystem-tre-r361-fonction-publique.html\"><code>https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r361-fonction-publique</code></a></li></ul></div>"^^rdf:XMLLiteral
   ] ; # 
   fhir:extension ( [
      fhir:url [ fhir:v "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod"^^xsd:anyURI ] ;
@@ -37,7 +37,7 @@
   fhir:name [ fhir:v "TreR361FonctionPubliqueAll"] ; # 
   fhir:title [ fhir:v "Tre R361 Fonction Publique All"] ; # 
   fhir:status [ fhir:v "active"] ; # 
-  fhir:experimental [ fhir:v "false"^^xsd:boolean] ; # 
+  fhir:experimental [ fhir:v false] ; # 
   fhir:date [ fhir:v "2025-02-22T18:02:28.249+00:00"^^xsd:dateTime] ; # 
   fhir:publisher [ fhir:v "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris"] ; # 
   fhir:description [ fhir:v "Jeu de valeurs ALL contenant les versants de la fonction publique."] ; # 

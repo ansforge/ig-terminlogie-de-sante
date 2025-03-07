@@ -3,7 +3,7 @@
 <ImplementationGuide xmlns="http://hl7.org/fhir">
   <id value="ans.fr.terminologies"/>
   <text>
-    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: ImplementationGuide ans.fr.terminologies</b></p><a name="ans.fr.terminologies"> </a><a name="hcans.fr.terminologies"> </a><a name="ans.fr.terminologies-fr-FR"> </a><h2>Terminologies</h2><p>The official URL for this implementation guide is: </p><pre>https://interop.esante.gouv.fr/terminologies/ImplementationGuide/ans.fr.terminologies</pre><div><p>Les nomenclatures des objets de Santé sont mises à disposition du secteur santé-social par l’agence du numérique en santé</p>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: ImplementationGuide ans.fr.terminologies</b></p><a name="ans.fr.terminologies"> </a><a name="hcans.fr.terminologies"> </a><a name="ans.fr.terminologies-fr-FR"> </a><h2>Terminologies</h2><p>LURL officielle pour ce guide dimplémentation est : </p><pre>https://interop.esante.gouv.fr/terminologies/ImplementationGuide/ans.fr.terminologies</pre><div><p>Les nomenclatures des objets de Santé sont mises à disposition du secteur santé-social par l’agence du numérique en santé</p>
 </div></div>
   </text>
   <url value="https://interop.esante.gouv.fr/terminologies/ImplementationGuide/ans.fr.terminologies"/>
@@ -24701,6 +24701,17 @@
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="CodeSystem"/>
+      </extension>
+      <reference>
+        <reference value="CodeSystem/11000315107-20240621"/>
+      </reference>
+      <name value="French module"/>
+      <description value="SNOMED CT is the most comprehensive and precise clinical health terminology product in the world, owned and distributed around the world by The International Health Terminology Standards Development Organisation (IHTSDO)."/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
         <valueString value="ValueSet"/>
       </extension>
       <reference>
@@ -24730,6 +24741,28 @@
       </reference>
       <name value="JDV J12 CiviliteTitre CISIS"/>
       <description value="Titre civilité - CI-SIS"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/jdv-j294-document-justificatif-finess"/>
+      </reference>
+      <name value="Jdv J294 Document Justificatif Finess"/>
+      <description value="Jeu de valeurs FINESS contenant les types de documents justificatifs pouvant être associés à une entité FINESS"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/jdv-j295-document-informatif-finess"/>
+      </reference>
+      <name value="Jdv J295 Document Informatif Finess"/>
+      <description value="Jeu de valeurs FINESS contenant les types de documents informatifs pouvant être associés à une entité FINESS"/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -36919,17 +36952,6 @@
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="CodeSystem"/>
-      </extension>
-      <reference>
-        <reference value="CodeSystem/900000000000207008-20250201"/>
-      </reference>
-      <name value="SNOMED CT core"/>
-      <description value="SNOMED CT is the most comprehensive and precise clinical health terminology product in the world, owned and distributed around the world by The International Health Terminology Standards Development Organisation (IHTSDO)."/>
-      <exampleBoolean value="false"/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
         <valueString value="NamingSystem"/>
       </extension>
       <reference>
@@ -36946,7 +36968,7 @@
         <reference value="CodeSystem/1.2.250.1.213.1.1.4.322"/>
       </reference>
       <name value="TA_ASIP"/>
-      <description value="TA_ASIP Version 1.98"/>
+      <description value="TA_ASIP"/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -36958,6 +36980,17 @@
       </reference>
       <name value="Tre R347 Activite Sanitaire Diverse Regulee"/>
       <description value="Nomenclature des activités sanitaires utilisée pour décrire les Activités Sanitaires Diverses Régulées (ASDR)"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/tre-r347-activite-sanitaire-diverse-regulee-all"/>
+      </reference>
+      <name value="Tre R347 Activite Sanitaire Diverse Regulee All"/>
+      <description value="Jeu de valeurs ALL contenant les activités sanitaires, utilisé pour décrire les Activités Sanitaires Diverses Régulées (ASDR)"/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -37056,7 +37089,7 @@
         <reference value="CodeSystem/tre-r364-type-document-administratif"/>
       </reference>
       <name value="Tre R364 Type Document Administratif"/>
-      <description value="Nomenclature des types de document informatif et justificatif pouvant être associé à une entité FINESS"/>
+      <description value="Nomenclature des types de documents informatifs et justificatifs pouvant être associés à une entité FINESS"/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -37204,13 +37237,35 @@
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/tre-r374-nature-activite-smsse-regulee-all"/>
+      </reference>
+      <name value="Tre R374 Nature Activite Smsse Regulee All"/>
+      <description value="Jeu de valeurs ALL contenant les grandes natures d'activité SMSSE exercées par les entités FINESS+."/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
         <valueString value="CodeSystem"/>
       </extension>
       <reference>
         <reference value="CodeSystem/tre-r375-mode-financement"/>
       </reference>
       <name value="Tre R375 Mode Financement"/>
-      <description value="Nomenclature des modes de financement associées aux capacités de certaines activitées SMSSE"/>
+      <description value="Nomenclature des modes de financement associés aux capacités de certaines activitées SMSSE"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/tre-r375-mode-financement-all"/>
+      </reference>
+      <name value="Tre R375 Mode Financement All"/>
+      <description value="Jeu de valeurs ALL contenant les modes de financement associés aux capacités de certaines activitées SMSSE."/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -37309,7 +37364,18 @@
         <reference value="CodeSystem/tre-r380-habilitation"/>
       </reference>
       <name value="Tre R380 Habilitation"/>
-      <description value="Nomenclature des habilitations asscoiées aux capacités des structures FINESS"/>
+      <description value="Nomenclature des habilitations associées aux capacités des structures FINESS"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/tre-r380-habilitation-all"/>
+      </reference>
+      <name value="Tre R380 Habilitation All"/>
+      <description value="Jeu de valeurs ALL contenant les habilitations associées aux capacités des structures FINESS"/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -37325,6 +37391,17 @@
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/tre-r381-activite-amm-all"/>
+      </reference>
+      <name value="Tre R381 Activite Amm All"/>
+      <description value="Jeu de valeurs ALL contenant les activités de soin AMM"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
         <valueString value="CodeSystem"/>
       </extension>
       <reference>
@@ -37332,6 +37409,17 @@
       </reference>
       <name value="Tre R382 Modalite Act De Soin Amm"/>
       <description value="Nomenclature des modalités pour les activités de soin AMM"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/tre-r382-modalite-act-de-soin-amm-all"/>
+      </reference>
+      <name value="Tre R382 Modalite Act De Soin Amm All"/>
+      <description value="Jeu de valeurs ALL contenant les modalités pour les activités de soin AMM"/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -37347,6 +37435,17 @@
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/tre-r383-mention-act-de-soin-amm-all"/>
+      </reference>
+      <name value="Tre R383 Mention Act De Soin Amm All"/>
+      <description value="Jeu de valeurs ALL contenant les mentions pour les activités de soin AMM"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
         <valueString value="CodeSystem"/>
       </extension>
       <reference>
@@ -37358,6 +37457,17 @@
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/tre-r384-pratique-therapeutique-specifique-act-de-soin-amm-all"/>
+      </reference>
+      <name value="Tre R384 Pratique Therapeutique Specifique Act De Soin Amm All"/>
+      <description value="Jeu de valeurs ALL contenant les pratiques thérapeutiques spécifiques pour les activités de soin AMM"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
         <valueString value="CodeSystem"/>
       </extension>
       <reference>
@@ -37365,6 +37475,17 @@
       </reference>
       <name value="Tre R385 Declaration Act De Soin Amm"/>
       <description value="Nomenclature des déclarations pour les activités de soin AMM"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/tre-r385-declaration-act-de-soin-amm-all"/>
+      </reference>
+      <name value="Tre R385 Declaration Act De Soin Amm All"/>
+      <description value="Jeu de valeurs ALL contenant les déclarations pour les activités de soin AMM"/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -37419,7 +37540,18 @@
         <reference value="CodeSystem/tre-r388-type-logement"/>
       </reference>
       <name value="Tre R388 Type Logement"/>
-      <description value="Nomenclature des types de logement associées aux capacités des structures FINESS"/>
+      <description value="Nomenclature des types de logement associés aux capacités des structures FINESS"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/tre-r388-type-logement-all"/>
+      </reference>
+      <name value="Tre R388 Type Logement All"/>
+      <description value="Jeu de valeurs ALL contenant les types de logement associés aux capacités des structures FINESS"/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
