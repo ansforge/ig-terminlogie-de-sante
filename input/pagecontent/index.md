@@ -12,14 +12,14 @@ Les terminologies de référence retenues dans le contexte français sont très 
 Il est cependant possible, pour des raisons de non-disponibilité ou de non-utilisation sur le territoire français, que la terminologie de référence en France soit différente que celle choisie au niveau international.
 
 Par exemple, le codage des actes médicaux en France s'appuie très largement sur la CCAM.
-Cette terminologie est une terminologie française n'est évidemment pas celle qui a été choisie par les autres pays à l'international.
+Cette terminologie est une terminologie française et  n'est donc  pas celle qui a été choisie par les autres pays à l'international.
 
 Le Centre de terminologies de Santé (CGTS) de l'ANS est l'entité définissant les terminologies de références en concertation avec l'écosystème français et international. L'objectif est bien d'harmoniser les terminologies utilisées en France et à l'international.
 
 
 ### Terminologies et jeux de valeurs
 
-Les spécifications précisent, pour chaque donnée codée (code + displayName + codeSystem), s’il convient d’utiliser un **jeu de valeurs** constitué des valeurs spécifiques ou d'une terminologie complète au contexte clinique à décrire. Un jeu de valeurs peut être constitué à partir de terminologies différentes (internationales ou nationales).
+Les spécifications précisent, pour chaque donnée codée (code + displayName + codeSystem), s’il convient d’utiliser la **terminologie** complète (pour le CDA uniquement) ou d'un **jeu de valeurs** constitué des valeurs spécifiques au contexte clinique à décrire. Un jeu de valeurs peut être constitué à partir de terminologies différentes (internationales ou nationales).
 
 ### Publication des terminologies et jeux de valeurs
 
