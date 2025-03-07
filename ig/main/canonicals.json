@@ -11481,7 +11481,7 @@
     "id" : "terminologie-bdpm",
     "type" : "CodeSystem",
     "url" : "https://smt.esante.gouv.fr/terminologie-bdpm",
-    "version" : "2025-02-05",
+    "version" : "2025-03-04",
     "name" : "BDPM"
   },
   {
