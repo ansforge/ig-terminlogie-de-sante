@@ -32674,7 +32674,7 @@
         "reference" : "ConceptMap/alignement-nuva-atc"
       },
       "name" : "Aligner les codes ATC de NUVA avec les codes ATC",
-      "description" : "Source des  données SYADEM",
+      "description" : "Source des données SYADEM",
       "exampleBoolean" : false
     },
     {

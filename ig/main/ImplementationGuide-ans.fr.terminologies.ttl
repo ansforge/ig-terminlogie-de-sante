@@ -26761,7 +26761,7 @@
          fhir:reference [ fhir:v "ConceptMap/alignement-nuva-atc" ]
        ] ;
        fhir:name [ fhir:v "Aligner les codes ATC de NUVA avec les codes ATC" ] ;
-       fhir:description [ fhir:v "Source des  données SYADEM" ] ;
+       fhir:description [ fhir:v "Source des données SYADEM" ] ;
        fhir:example [ fhir:v "false"^^xsd:boolean ]
      ] [
        fhir:extension ( [

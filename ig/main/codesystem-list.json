@@ -2366,15 +2366,16 @@
     },
     {
       "url" : "https://smt.esante.gouv.fr/terminologie-nabm",
-      "version" : "V94",
+      "version" : "V96",
       "status" : "active",
       "name" : "NABM",
       "title" : "Nomenclature des actes de biologie médicale",
-      "description" : null
+      "description" : null,
+      "oids" : ["1.2.250.1.215.300.2"]
     },
     {
       "url" : "https://smt.esante.gouv.fr/terminologie-nuva",
-      "version" : "1.0.854",
+      "version" : "1.0.870",
       "status" : "active",
       "name" : "NUVA",
       "title" : "Nomenclature Unifiée des Vaccins",

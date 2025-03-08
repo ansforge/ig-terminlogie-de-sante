@@ -23776,7 +23776,7 @@
         <reference value="ConceptMap/alignement-nuva-atc"/>
       </reference>
       <name value="Aligner les codes ATC de NUVA avec les codes ATC"/>
-      <description value="Source des  données SYADEM"/>
+      <description value="Source des données SYADEM"/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
