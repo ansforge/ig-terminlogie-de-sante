@@ -11,7 +11,7 @@ Description: "Jeu de valeurs ALL contenant les modes de fixation tarifaire"
 * ^extension.valuePeriod.start = "2025-02-22T18:02:28.249+00:00"
 * ^url = "https://mos.esante.gouv.fr/NOS/TRE_R74-ModeFixationTarifaire/FHIR/TRE-R74-ModeFixationTarifaire?vs"
 * ^identifier.system = "urn:ietf:rfc:3986"
-* ^identifier.value = "urn:oid:1.2.250.1.213.1.6.1.250"
+* ^identifier.value = "urn:oid:1.2.250.1.213.1.6.1.281"
 * ^version = "20250222120000"
 * ^status = #active
 * ^experimental = false
