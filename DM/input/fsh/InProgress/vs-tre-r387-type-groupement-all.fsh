@@ -1,8 +1,8 @@
 Alias: $tre-r387-type-groupement = https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r387-type-groupement
 
-ValueSet: TreR387TypeGroupementAll
-Id: tre-r387-type-groupement-all
-Title: "Tre R387 Type Groupement All"
+ValueSet: VsTreR387TypeGroupementAll
+Id: vs-tre-r387-type-groupement-all
+Title: "Vs Tre R387 Type Groupement All"
 Description: "Jeu de valeurs ALL contenant les types de groupement utilisables dans FINESS. Groupement de coopération conventionnelle ou Groupement de coopération organique"
 * ^meta.versionId = "1"
 * ^meta.lastUpdated = "2025-02-22T18:02:28.249+00:00"

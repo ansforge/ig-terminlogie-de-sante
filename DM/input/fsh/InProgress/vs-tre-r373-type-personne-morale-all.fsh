@@ -1,8 +1,8 @@
 Alias: $tre-r373-type-personne-morale = https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r373-type-personne-morale
 
-ValueSet: TreR373TypePersonneMoraleAll
-Id: tre-r373-type-personne-morale-all
-Title: "Tre R373 Type Personne Morale All"
+ValueSet: VsTreR373TypePersonneMoraleAll
+Id: vs-tre-r373-type-personne-morale-all
+Title: "Vs Tre R373 Type Personne Morale All"
 Description: "Jeu de valeurs ALL contenant les types de PM-SMSSE (Personne Morale du champ Sanitaire, Médico-social, Social et Enseignement sur les professions de ces  champs)."
 * ^meta.versionId = "1"
 * ^meta.lastUpdated = "2025-02-22T18:02:28.249+00:00"

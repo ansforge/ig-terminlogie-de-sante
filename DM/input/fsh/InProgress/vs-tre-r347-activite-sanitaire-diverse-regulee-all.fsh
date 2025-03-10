@@ -1,8 +1,8 @@
 Alias: $tre-r347-activite-sanitaire-diverse-regulee = https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r347-activite-sanitaire-diverse-regulee
 
-ValueSet: TreR347ActiviteSanitaireDiverseReguleeAll
-Id: tre-r347-activite-sanitaire-diverse-regulee-all
-Title: "Tre R347 Activite Sanitaire Diverse Regulee All"
+ValueSet: VsTreR347ActiviteSanitaireDiverseReguleeAll
+Id: vs-tre-r347-activite-sanitaire-diverse-regulee-all
+Title: "Vs Tre R347 Activite Sanitaire Diverse Regulee All"
 Description: "Jeu de valeurs ALL contenant les activités sanitaires, utilisé pour décrire les Activités Sanitaires Diverses Régulées (ASDR)"
 * ^meta.versionId = "1"
 * ^meta.lastUpdated = "2025-02-22T18:02:28.249+00:00"

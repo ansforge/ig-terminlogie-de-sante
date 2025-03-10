@@ -1,20 +1,20 @@
-Alias: $tre-r362-type-budget = https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r362-type-budget
+Alias: $tre-r365-etat-objet = https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r365-etat-objet
 
-ValueSet: TreR362TypeBudgetAll
-Id: tre-r362-type-budget-all
-Title: "Tre R362 Type Budget All"
-Description: "Jeu de valeurs ALL contenant les types de budget associés aux Entités Géographiques d'Exercice (EGE) dans FINESS+."
+ValueSet: VsTreR365EtatObjetAll
+Id: vs-tre-r365-etat-objet-all
+Title: "Vs Tre R365 Etat Objet All"
+Description: "Jeu de valeurs ALL contenant les états élémentaires que peuvent porter les entités et activités FINESS+"
 * ^meta.versionId = "1"
 * ^meta.lastUpdated = "2025-02-22T18:02:28.249+00:00"
 * ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablevalueset"
 * ^extension.url = "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod"
 * ^extension.valuePeriod.start = "2025-02-22T18:02:28.249+00:00"
-* ^url = "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r362-type-budget?vs"
+* ^url = "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r365-etat-objet?vs"
 * ^identifier.system = "urn:ietf:rfc:3986"
-* ^identifier.value = "urn:oid:1.2.250.1.213.1.6.1.265"
+* ^identifier.value = "urn:oid:1.2.250.1.213.1.6.1.305"
 * ^version = "20250222120000"
 * ^status = #active
 * ^experimental = false
 * ^date = "2025-02-22T18:02:28.249+00:00"
 * ^publisher = "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris"
-* include codes from system $tre-r362-type-budget
+* include codes from system $tre-r365-etat-objet

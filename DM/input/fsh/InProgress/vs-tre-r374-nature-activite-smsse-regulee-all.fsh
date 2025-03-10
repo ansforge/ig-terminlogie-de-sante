@@ -1,8 +1,8 @@
 Alias: $tre-r374-nature-activite-smsse-regulee = https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r374-nature-activite-smsse-regulee
 
-ValueSet: TreR374NatureActiviteSmsseReguleeAll
-Id: tre-r374-nature-activite-smsse-regulee-all
-Title: "Tre R374 Nature Activite Smsse Regulee All"
+ValueSet: VsTreR374NatureActiviteSmsseReguleeAll
+Id: vs-tre-r374-nature-activite-smsse-regulee-all
+Title: "Vs Tre R374 Nature Activite Smsse Regulee All"
 Description: "Jeu de valeurs ALL contenant les grandes natures d'activité SMSSE exercées par les entités FINESS+."
 * ^meta.versionId = "1"
 * ^meta.lastUpdated = "2025-02-22T18:02:28.249+00:00"

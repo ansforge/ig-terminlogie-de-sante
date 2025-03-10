@@ -1,8 +1,8 @@
 Alias: $tre-r360-type-role-entite-groupe = https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r360-type-role-entite-groupe
 
-ValueSet: TreR360TypeRoleEntiteGroupeAll
-Id: tre-r360-type-role-entite-groupe-all
-Title: "Tre R360 Type Role Entite Groupe All"
+ValueSet: VsTreR360TypeRoleEntiteGroupeAll
+Id: vs-tre-r360-type-role-entite-groupe-all
+Title: "Vs Tre R360 Type Role Entite Groupe All"
 Description: "Jeu de valeurs ALL contenant les types de rôles que peuvent exercer des entités participants à des groupements"
 * ^meta.versionId = "1"
 * ^meta.lastUpdated = "2025-02-22T18:02:28.249+00:00"

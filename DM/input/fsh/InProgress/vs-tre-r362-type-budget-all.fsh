@@ -1,20 +1,20 @@
-Alias: $tre-r381-activite-amm = https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r381-activite-amm
+Alias: $tre-r362-type-budget = https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r362-type-budget
 
-ValueSet: TreR381ActiviteAmmAll
-Id: tre-r381-activite-amm-all
-Title: "Tre R381 Activite Amm All"
-Description: "Jeu de valeurs ALL contenant les activités de soin AMM"
+ValueSet: VsTreR362TypeBudgetAll
+Id: vs-tre-r362-type-budget-all
+Title: "Vs Tre R362 Type Budget All"
+Description: "Jeu de valeurs ALL contenant les types de budget associés aux Entités Géographiques d'Exercice (EGE) dans FINESS+."
 * ^meta.versionId = "1"
 * ^meta.lastUpdated = "2025-02-22T18:02:28.249+00:00"
 * ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablevalueset"
 * ^extension.url = "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod"
 * ^extension.valuePeriod.start = "2025-02-22T18:02:28.249+00:00"
-* ^url = "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r381-activite-amm?vs"
+* ^url = "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r362-type-budget?vs"
 * ^identifier.system = "urn:ietf:rfc:3986"
-* ^identifier.value = "urn:oid:1.2.250.1.213.1.6.1.353"
+* ^identifier.value = "urn:oid:1.2.250.1.213.1.6.1.265"
 * ^version = "20250222120000"
 * ^status = #active
 * ^experimental = false
 * ^date = "2025-02-22T18:02:28.249+00:00"
 * ^publisher = "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris"
-* include codes from system $tre-r381-activite-amm
+* include codes from system $tre-r362-type-budget

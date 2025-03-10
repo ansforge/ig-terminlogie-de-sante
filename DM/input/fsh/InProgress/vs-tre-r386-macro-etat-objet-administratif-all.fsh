@@ -1,8 +1,8 @@
 Alias: $tre-r386-macro-etat-objet-administratif = https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r386-macro-etat-objet-administratif
 
-ValueSet: TreR386MacroEtatObjetAdministratifAll
-Id: tre-r386-macro-etat-objet-administratif-all
-Title: "Tre R386 Macro Etat Objet Administratif All"
+ValueSet: VsTreR386MacroEtatObjetAdministratifAll
+Id: vs-tre-r386-macro-etat-objet-administratif-all
+Title: "Vs Tre R386 Macro Etat Objet Administratif All"
 Description: "Jeu de valeurs ALL contenant les macro-etat des structures FINESS qui dérivent de l'état de l'objet. Permet de distinguer les structures actives de celles inactives."
 * ^meta.versionId = "1"
 * ^meta.lastUpdated = "2025-02-22T18:02:28.249+00:00"

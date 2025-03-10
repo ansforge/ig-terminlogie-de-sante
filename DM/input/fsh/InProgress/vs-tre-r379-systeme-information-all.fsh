@@ -1,8 +1,8 @@
 Alias: $tre-r379-systeme-information = https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r379-systeme-information
 
-ValueSet: TreR379SystemeInformationAll
-Id: tre-r379-systeme-information-all
-Title: "Tre R379 Systeme Information All"
+ValueSet: VsTreR379SystemeInformationAll
+Id: vs-tre-r379-systeme-information-all
+Title: "Vs Tre R379 Systeme Information All"
 Description: "Jeu de valeurs ALL contenant les systemes d'information en relation avec FINESS"
 * ^meta.versionId = "1"
 * ^meta.lastUpdated = "2025-02-22T18:02:28.249+00:00"

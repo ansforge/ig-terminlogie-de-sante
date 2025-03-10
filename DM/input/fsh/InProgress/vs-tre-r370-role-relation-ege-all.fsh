@@ -1,8 +1,8 @@
 Alias: $tre-r370-role-relation-ege = https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r370-role-relation-ege
 
-ValueSet: TreR370RoleRelationEgeAll
-Id: tre-r370-role-relation-ege-all
-Title: "Tre R370 Role Relation Ege All"
+ValueSet: VsTreR370RoleRelationEgeAll
+Id: vs-tre-r370-role-relation-ege-all
+Title: "Vs Tre R370 Role Relation Ege All"
 Description: "Jeu de valeurs ALL contenant les types de rôle existant entre les Entités Géographiques d'Exercice (EGE) au sein d'une PM-SMSSE."
 * ^meta.versionId = "1"
 * ^meta.lastUpdated = "2025-02-22T18:02:28.249+00:00"
