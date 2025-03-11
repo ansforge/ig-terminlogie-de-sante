@@ -29,7 +29,9 @@
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "description" : "Type d'organisation de prise en charge",
   "caseSensitive" : false,
+  "valueSet" : "https://mos.esante.gouv.fr/NOS/TRE_R276-FormeActivite/FHIR/TRE-R276-FormeActivite?vs",
   "content" : "complete",
+  "count" : 40,
   "property" : [{
     "code" : "dateValid",
     "description" : "date de validité d'un code concept",

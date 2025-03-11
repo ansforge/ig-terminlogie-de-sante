@@ -43,6 +43,7 @@
   fhir:description [ fhir:v "Référentiel des codes départements et collectivités d’outre-mer provenant du COG INSEE + Monaco"] ; # 
   fhir:caseSensitive [ fhir:v false] ; # 
   fhir:content [ fhir:v "complete"] ; # 
+  fhir:count [ fhir:v "113"^^xsd:nonNegativeInteger] ; # 
   fhir:property ( [
      fhir:code [ fhir:v "dateValid" ] ;
      fhir:description [ fhir:v "date de validité d'un code concept" ] ;

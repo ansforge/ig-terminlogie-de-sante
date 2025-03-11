@@ -29,7 +29,9 @@
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "description" : "Equipements Matériels Lourds",
   "caseSensitive" : false,
+  "valueSet" : "https://mos.esante.gouv.fr/NOS/TRE_R272-EquipementMaterielLourd/FHIR/TRE-R272-EquipementMaterielLourd?vs",
   "content" : "complete",
+  "count" : 8,
   "property" : [{
     "code" : "dateValid",
     "description" : "date de validité d'un code concept",

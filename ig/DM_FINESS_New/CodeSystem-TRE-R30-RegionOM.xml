@@ -28,7 +28,9 @@
   <publisher value="Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris"/>
   <description value="Référentiel des codes régions et collectivités d'outre-mer provenant du COG INSEE + Monaco"/>
   <caseSensitive value="false"/>
+  <valueSet value="https://mos.esante.gouv.fr/NOS/TRE_R30-RegionOM/FHIR/TRE-R30-RegionOM?vs"/>
   <content value="complete"/>
+  <count value="46"/>
   <property>
     <code value="dateValid"/>
     <description value="date de validité d'un code concept"/>

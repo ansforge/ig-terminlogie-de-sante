@@ -28,7 +28,9 @@
   <publisher value="Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris"/>
   <description value="Mode d'application ou type de soins encadrant une activité"/>
   <caseSensitive value="false"/>
+  <valueSet value="https://mos.esante.gouv.fr/NOS/TRE_R275-ModaliteActivite/FHIR/TRE-R275-ModaliteActivite?vs"/>
   <content value="complete"/>
+  <count value="183"/>
   <property>
     <code value="dateValid"/>
     <description value="date de validité d'un code concept"/>

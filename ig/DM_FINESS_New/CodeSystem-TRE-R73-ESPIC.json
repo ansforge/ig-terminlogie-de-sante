@@ -29,7 +29,9 @@
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "description" : "Etablissement de santé privé d'intérêt collectif",
   "caseSensitive" : false,
+  "valueSet" : "https://mos.esante.gouv.fr/NOS/TRE_R73-ESPIC/FHIR/TRE-R73-ESPIC?vs",
   "content" : "complete",
+  "count" : 9,
   "property" : [{
     "code" : "dateValid",
     "description" : "date de validité d'un code concept",

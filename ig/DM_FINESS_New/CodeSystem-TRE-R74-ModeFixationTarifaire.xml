@@ -28,7 +28,9 @@
   <publisher value="Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris"/>
   <description value="Mode de fixation tarifaire"/>
   <caseSensitive value="false"/>
+  <valueSet value="https://mos.esante.gouv.fr/NOS/TRE_R74-ModeFixationTarifaire/FHIR/TRE-R74-ModeFixationTarifaire?vs"/>
   <content value="complete"/>
+  <count value="52"/>
   <property>
     <code value="dateValid"/>
     <description value="date de validité d'un code concept"/>

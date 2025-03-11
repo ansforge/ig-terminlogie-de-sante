@@ -29,7 +29,9 @@
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "description" : "Domaine",
   "caseSensitive" : false,
+  "valueSet" : "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine?vs",
   "content" : "complete",
+  "count" : 5,
   "property" : [{
     "code" : "dateValid",
     "description" : "date de validité d'un code concept",

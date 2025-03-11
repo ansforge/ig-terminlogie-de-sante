@@ -32668,7 +32668,7 @@
         "reference" : "ConceptMap/alignement-nuva-atc"
       },
       "name" : "Aligner les codes ATC de NUVA avec les codes ATC",
-      "description" : "Source des  données SYADEM",
+      "description" : "Source des données SYADEM",
       "exampleBoolean" : false
     },
     {
@@ -32705,17 +32705,6 @@
       },
       "name" : "Aligner les codes de présentation de la BDPM avec les codes CIP du référentiel CIP-UCD",
       "description" : "Source des données ANS",
-      "exampleBoolean" : false
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "CodeSystem"
-      }],
-      "reference" : {
-        "reference" : "CodeSystem/terminologie-atc"
-      },
-      "name" : "Anatomique, Thérapeutique et Chimique",
       "exampleBoolean" : false
     },
     {
@@ -33542,6 +33531,17 @@
         "reference" : "CodeSystem/terminologie-cladimed"
       },
       "name" : "CLADIMED",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "CodeSystem"
+      }],
+      "reference" : {
+        "reference" : "CodeSystem/terminologie-atc"
+      },
+      "name" : "Classification anatomique, thérapeutique et chimique",
       "exampleBoolean" : false
     },
     {
@@ -47084,18 +47084,6 @@
     {
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "ValueSet"
-      }],
-      "reference" : {
-        "reference" : "ValueSet/tre-r347-activite-sanitaire-diverse-regulee-all"
-      },
-      "name" : "Tre R347 Activite Sanitaire Diverse Regulee All",
-      "description" : "Jeu de valeurs ALL contenant les activités sanitaires, utilisé pour décrire les Activités Sanitaires Diverses Régulées (ASDR)",
-      "exampleBoolean" : false
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "CodeSystem"
       }],
       "reference" : {
@@ -47103,18 +47091,6 @@
       },
       "name" : "Tre R360 Type Role Entite Groupe",
       "description" : "Nomenclature des types de rôles que peuvent exercer des entités participants à des groupements",
-      "exampleBoolean" : false
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "ValueSet"
-      }],
-      "reference" : {
-        "reference" : "ValueSet/tre-r360-type-role-entite-groupe-all"
-      },
-      "name" : "Tre R360 Type Role Entite Groupe All",
-      "description" : "Jeu de valeurs ALL contenant les types de rôles que peuvent exercer des entités participants à des groupements",
       "exampleBoolean" : false
     },
     {
@@ -47132,18 +47108,6 @@
     {
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "ValueSet"
-      }],
-      "reference" : {
-        "reference" : "ValueSet/tre-r361-fonction-publique-all"
-      },
-      "name" : "Tre R361 Fonction Publique All",
-      "description" : "Jeu de valeurs ALL contenant les versants de la fonction publique.",
-      "exampleBoolean" : false
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "CodeSystem"
       }],
       "reference" : {
@@ -47156,18 +47120,6 @@
     {
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "ValueSet"
-      }],
-      "reference" : {
-        "reference" : "ValueSet/tre-r362-type-budget-all"
-      },
-      "name" : "Tre R362 Type Budget All",
-      "description" : "Jeu de valeurs ALL contenant les types de budget associés aux Entités Géographiques d'Exercice (EGE) dans FINESS+.",
-      "exampleBoolean" : false
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "CodeSystem"
       }],
       "reference" : {
@@ -47175,18 +47127,6 @@
       },
       "name" : "Tre R363 Type Engagement",
       "description" : "Nomenclature des grands types d'engagement pouvant être associés dans FINESS+ à des structures ou des activités",
-      "exampleBoolean" : false
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "ValueSet"
-      }],
-      "reference" : {
-        "reference" : "ValueSet/tre-r363-type-engagement-all"
-      },
-      "name" : "Tre R363 Type Engagement All",
-      "description" : "Jeu de valeurs ALL contenant les grands types d'engagement pouvant être associés dans FINESS+ à des structures ou des activités.",
       "exampleBoolean" : false
     },
     {
@@ -47216,18 +47156,6 @@
     {
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "ValueSet"
-      }],
-      "reference" : {
-        "reference" : "ValueSet/tre-r365-etat-objet-all"
-      },
-      "name" : "Tre R365 Etat Objet All",
-      "description" : "Jeu de valeurs ALL contenant les états élémentaires que peuvent porter les entités et activités FINESS+",
-      "exampleBoolean" : false
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "CodeSystem"
       }],
       "reference" : {
@@ -47235,18 +47163,6 @@
       },
       "name" : "Tre R366 Type Objet",
       "description" : "Nomenclature des types d'objet enregistrés et manipulés dans FINESS+",
-      "exampleBoolean" : false
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "ValueSet"
-      }],
-      "reference" : {
-        "reference" : "ValueSet/tre-r366-type-objet-all"
-      },
-      "name" : "Tre R366 Type Objet All",
-      "description" : "Jeu de valeurs ALL contenant les types d'objet enregistrés et manipulés dans FINESS+.",
       "exampleBoolean" : false
     },
     {
@@ -47264,18 +47180,6 @@
     {
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "ValueSet"
-      }],
-      "reference" : {
-        "reference" : "ValueSet/tre-r370-role-relation-ege-all"
-      },
-      "name" : "Tre R370 Role Relation Ege All",
-      "description" : "Jeu de valeurs ALL contenant les types de rôle existant entre les Entités Géographiques d'Exercice (EGE) au sein d'une PM-SMSSE.",
-      "exampleBoolean" : false
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "CodeSystem"
       }],
       "reference" : {
@@ -47283,18 +47187,6 @@
       },
       "name" : "Tre R371 Type Groupe Gcc",
       "description" : "Nomenclature des types de Groupement de Coopération conventionnelle (GCC)",
-      "exampleBoolean" : false
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "ValueSet"
-      }],
-      "reference" : {
-        "reference" : "ValueSet/tre-r371-type-groupe-gcc-all"
-      },
-      "name" : "Tre R371 Type Groupe Gcc All",
-      "description" : "Jeu de valeurs ALL contenant les types de Groupement de Coopération conventionnelle (GCC).",
       "exampleBoolean" : false
     },
     {
@@ -47312,18 +47204,6 @@
     {
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "ValueSet"
-      }],
-      "reference" : {
-        "reference" : "ValueSet/tre-r372-type-groupe-gco-all"
-      },
-      "name" : "Tre R372 Type Groupe Gco All",
-      "description" : "Jeu de valeurs ALL contenant les types de Groupement de Coopération Organique (GCO).",
-      "exampleBoolean" : false
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "CodeSystem"
       }],
       "reference" : {
@@ -47331,18 +47211,6 @@
       },
       "name" : "Tre R373 Type Personne Morale",
       "description" : "Nomenclature des types de PM-SMSSE (Personne Morale du champ Sanitaire, Médico-social, Social et Enseignement sur les professions de ces champs)",
-      "exampleBoolean" : false
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "ValueSet"
-      }],
-      "reference" : {
-        "reference" : "ValueSet/tre-r373-type-personne-morale-all"
-      },
-      "name" : "Tre R373 Type Personne Morale All",
-      "description" : "Jeu de valeurs ALL contenant les types de PM-SMSSE (Personne Morale du champ Sanitaire, Médico-social, Social et Enseignement sur les professions de ces  champs).",
       "exampleBoolean" : false
     },
     {
@@ -47360,18 +47228,6 @@
     {
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "ValueSet"
-      }],
-      "reference" : {
-        "reference" : "ValueSet/tre-r374-nature-activite-smsse-regulee-all"
-      },
-      "name" : "Tre R374 Nature Activite Smsse Regulee All",
-      "description" : "Jeu de valeurs ALL contenant les grandes natures d'activité SMSSE exercées par les entités FINESS+.",
-      "exampleBoolean" : false
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "CodeSystem"
       }],
       "reference" : {
@@ -47379,18 +47235,6 @@
       },
       "name" : "Tre R375 Mode Financement",
       "description" : "Nomenclature des modes de financement associés aux capacités de certaines activitées SMSSE",
-      "exampleBoolean" : false
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "ValueSet"
-      }],
-      "reference" : {
-        "reference" : "ValueSet/tre-r375-mode-financement-all"
-      },
-      "name" : "Tre R375 Mode Financement All",
-      "description" : "Jeu de valeurs ALL contenant les modes de financement associés aux capacités de certaines activitées SMSSE.",
       "exampleBoolean" : false
     },
     {
@@ -47408,18 +47252,6 @@
     {
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "ValueSet"
-      }],
-      "reference" : {
-        "reference" : "ValueSet/tre-r376-type-evenement-administratif-all"
-      },
-      "name" : "Tre R376 Type Evenement Administratif All",
-      "description" : "Jeu de valeurs ALL contenant les événements affectant le cycle de vie des entités et activités enrgeistrées dans FINESS+",
-      "exampleBoolean" : false
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "CodeSystem"
       }],
       "reference" : {
@@ -47427,18 +47259,6 @@
       },
       "name" : "Tre R377 Usage Adresse",
       "description" : "Nomenclature des usages des adresses associées aux entités enregistrés dans FINESS+",
-      "exampleBoolean" : false
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "ValueSet"
-      }],
-      "reference" : {
-        "reference" : "ValueSet/tre-r377-usage-adresse-all"
-      },
-      "name" : "Tre R377 Usage Adresse All",
-      "description" : "Jeu de valeurs ALL contenant les usages des adresses associées aux entités enregistrés dans FINESS+",
       "exampleBoolean" : false
     },
     {
@@ -47456,18 +47276,6 @@
     {
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "ValueSet"
-      }],
-      "reference" : {
-        "reference" : "ValueSet/tre-r378-motif-arrete-all"
-      },
-      "name" : "Tre R378 Motif Arrete All",
-      "description" : "Jeu de valeurs ALL contenant les motifs des arrêtés enregsitrées dans FINESS+",
-      "exampleBoolean" : false
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "CodeSystem"
       }],
       "reference" : {
@@ -47475,18 +47283,6 @@
       },
       "name" : "Tre R379 Systeme Information",
       "description" : "Nomenclature des systemes d'information en relation avec FINESS",
-      "exampleBoolean" : false
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "ValueSet"
-      }],
-      "reference" : {
-        "reference" : "ValueSet/tre-r379-systeme-information-all"
-      },
-      "name" : "Tre R379 Systeme Information All",
-      "description" : "Jeu de valeurs ALL contenant les systemes d'information en relation avec FINESS",
       "exampleBoolean" : false
     },
     {
@@ -47504,18 +47300,6 @@
     {
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "ValueSet"
-      }],
-      "reference" : {
-        "reference" : "ValueSet/tre-r380-habilitation-all"
-      },
-      "name" : "Tre R380 Habilitation All",
-      "description" : "Jeu de valeurs ALL contenant les habilitations associées aux capacités des structures FINESS",
-      "exampleBoolean" : false
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "CodeSystem"
       }],
       "reference" : {
@@ -47523,18 +47307,6 @@
       },
       "name" : "Tre R381 Activite Amm",
       "description" : "Nomenclature des activités de soin AMM",
-      "exampleBoolean" : false
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "ValueSet"
-      }],
-      "reference" : {
-        "reference" : "ValueSet/tre-r381-activite-amm-all"
-      },
-      "name" : "Tre R381 Activite Amm All",
-      "description" : "Jeu de valeurs ALL contenant les activités de soin AMM",
       "exampleBoolean" : false
     },
     {
@@ -47552,18 +47324,6 @@
     {
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "ValueSet"
-      }],
-      "reference" : {
-        "reference" : "ValueSet/tre-r382-modalite-act-de-soin-amm-all"
-      },
-      "name" : "Tre R382 Modalite Act De Soin Amm All",
-      "description" : "Jeu de valeurs ALL contenant les modalités pour les activités de soin AMM",
-      "exampleBoolean" : false
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "CodeSystem"
       }],
       "reference" : {
@@ -47571,18 +47331,6 @@
       },
       "name" : "Tre R383 Mention Act De Soin Amm",
       "description" : "Nomenclature des mentions pour les activités de soin AMM",
-      "exampleBoolean" : false
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "ValueSet"
-      }],
-      "reference" : {
-        "reference" : "ValueSet/tre-r383-mention-act-de-soin-amm-all"
-      },
-      "name" : "Tre R383 Mention Act De Soin Amm All",
-      "description" : "Jeu de valeurs ALL contenant les mentions pour les activités de soin AMM",
       "exampleBoolean" : false
     },
     {
@@ -47600,18 +47348,6 @@
     {
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "ValueSet"
-      }],
-      "reference" : {
-        "reference" : "ValueSet/tre-r384-pratique-therapeutique-specifique-act-de-soin-amm-all"
-      },
-      "name" : "Tre R384 Pratique Therapeutique Specifique Act De Soin Amm All",
-      "description" : "Jeu de valeurs ALL contenant les pratiques thérapeutiques spécifiques pour les activités de soin AMM",
-      "exampleBoolean" : false
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "CodeSystem"
       }],
       "reference" : {
@@ -47619,18 +47355,6 @@
       },
       "name" : "Tre R385 Declaration Act De Soin Amm",
       "description" : "Nomenclature des déclarations pour les activités de soin AMM",
-      "exampleBoolean" : false
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "ValueSet"
-      }],
-      "reference" : {
-        "reference" : "ValueSet/tre-r385-declaration-act-de-soin-amm-all"
-      },
-      "name" : "Tre R385 Declaration Act De Soin Amm All",
-      "description" : "Jeu de valeurs ALL contenant les déclarations pour les activités de soin AMM",
       "exampleBoolean" : false
     },
     {
@@ -47648,18 +47372,6 @@
     {
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "ValueSet"
-      }],
-      "reference" : {
-        "reference" : "ValueSet/tre-r386-macro-etat-objet-administratif-all"
-      },
-      "name" : "Tre R386 Macro Etat Objet Administratif All",
-      "description" : "Jeu de valeurs ALL contenant les macro-etat des structures FINESS qui dérivent de l'état de l'objet. Permet de distinguer les structures actives de celles inactives.",
-      "exampleBoolean" : false
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "CodeSystem"
       }],
       "reference" : {
@@ -47672,18 +47384,6 @@
     {
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "ValueSet"
-      }],
-      "reference" : {
-        "reference" : "ValueSet/tre-r387-type-groupement-all"
-      },
-      "name" : "Tre R387 Type Groupement All",
-      "description" : "Jeu de valeurs ALL contenant les types de groupement utilisables dans FINESS. Groupement de coopération conventionnelle ou Groupement de coopération organique",
-      "exampleBoolean" : false
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "CodeSystem"
       }],
       "reference" : {
@@ -47691,18 +47391,6 @@
       },
       "name" : "Tre R388 Type Logement",
       "description" : "Nomenclature des types de logement associés aux capacités des structures FINESS",
-      "exampleBoolean" : false
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "ValueSet"
-      }],
-      "reference" : {
-        "reference" : "ValueSet/tre-r388-type-logement-all"
-      },
-      "name" : "Tre R388 Type Logement All",
-      "description" : "Jeu de valeurs ALL contenant les types de logement associés aux capacités des structures FINESS",
       "exampleBoolean" : false
     },
     {
@@ -50762,6 +50450,438 @@
       },
       "name" : "ValueSet_SMS_All",
       "description" : "Ce jeu de valeurs inclut tous les codes de la terminologie SMS, Dictionnaire des substances médicamenteuses",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      }],
+      "reference" : {
+        "reference" : "ValueSet/vs-tre-g09-departement-om-all"
+      },
+      "name" : "Vs Tre G09 Departement Om All",
+      "description" : "Jeu de valeurs ALL contenant le référentiel des codes départements et collectivités d’outre-mer provenant du COG INSEE + Monaco",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      }],
+      "reference" : {
+        "reference" : "ValueSet/vs-tre-r272-equipement-materiel-lourd-all"
+      },
+      "name" : "Vs Tre R272 Equipement Materiel Lourd All",
+      "description" : "Jeu de valeurs ALL contenant les équipements matériels lourds",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      }],
+      "reference" : {
+        "reference" : "ValueSet/vs-tre-r274-activite-sanitaire-regulee-all"
+      },
+      "name" : "Vs Tre R274 Activite Sanitaire Regulee All",
+      "description" : "Jeu de valeurs FINESS contenant les activités sanitaires soumises à une régulation de la part de l'ARS.",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      }],
+      "reference" : {
+        "reference" : "ValueSet/vs-tre-r275-modalite-activite-all"
+      },
+      "name" : "Vs Tre R275 Modalite Activite All",
+      "description" : "Jeu de valeurs ALL contenant les modes d'application ou types de soins encadrant une activité",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      }],
+      "reference" : {
+        "reference" : "ValueSet/vs-tre-r276-forme-activite-all"
+      },
+      "name" : "Vs Tre R276 Forme Activite All",
+      "description" : "Jeu de valeurs ALL contenant les types d'organisation de prise en charge",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      }],
+      "reference" : {
+        "reference" : "ValueSet/vs-tre-r279-clientele-all"
+      },
+      "name" : "Vs Tre R279 Clientele All",
+      "description" : "Jeu de valeurs ALL contenant le référentiel des codes départements et collectivités d’outre-mer provenant du COG INSEE + Monaco",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      }],
+      "reference" : {
+        "reference" : "ValueSet/vs-tre-r30-region-om-all"
+      },
+      "name" : "Vs Tre R30 Region Om All",
+      "description" : "Jeu de valeurs ALL contenant le référentiel des codes régions et collectivités d'outre-mer provenant du COG INSEE + Monaco",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      }],
+      "reference" : {
+        "reference" : "ValueSet/vs-tre-r347-activite-sanitaire-diverse-regulee-all"
+      },
+      "name" : "Vs Tre R347 Activite Sanitaire Diverse Regulee All",
+      "description" : "Jeu de valeurs ALL contenant les activités sanitaires, utilisé pour décrire les Activités Sanitaires Diverses Régulées (ASDR)",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      }],
+      "reference" : {
+        "reference" : "ValueSet/vs-tre-r360-type-role-entite-groupe-all"
+      },
+      "name" : "Vs Tre R360 Type Role Entite Groupe All",
+      "description" : "Jeu de valeurs ALL contenant les types de rôles que peuvent exercer des entités participants à des groupements",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      }],
+      "reference" : {
+        "reference" : "ValueSet/vs-tre-r361-fonction-publique-all"
+      },
+      "name" : "Vs Tre R361 Fonction Publique All",
+      "description" : "Jeu de valeurs ALL contenant les versants de la fonction publique.",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      }],
+      "reference" : {
+        "reference" : "ValueSet/vs-tre-r362-type-budget-all"
+      },
+      "name" : "Vs Tre R362 Type Budget All",
+      "description" : "Jeu de valeurs ALL contenant les types de budget associés aux Entités Géographiques d'Exercice (EGE) dans FINESS+.",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      }],
+      "reference" : {
+        "reference" : "ValueSet/vs-tre-r363-type-engagement-all"
+      },
+      "name" : "Vs Tre R363 Type Engagement All",
+      "description" : "Jeu de valeurs ALL contenant les grands types d'engagement pouvant être associés dans FINESS+ à des structures ou des activités.",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      }],
+      "reference" : {
+        "reference" : "ValueSet/vs-tre-r365-etat-objet-all"
+      },
+      "name" : "Vs Tre R365 Etat Objet All",
+      "description" : "Jeu de valeurs ALL contenant les états élémentaires que peuvent porter les entités et activités FINESS+",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      }],
+      "reference" : {
+        "reference" : "ValueSet/vs-tre-r366-type-objet-all"
+      },
+      "name" : "Vs Tre R366 Type Objet All",
+      "description" : "Jeu de valeurs ALL contenant les types d'objet enregistrés et manipulés dans FINESS+.",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      }],
+      "reference" : {
+        "reference" : "ValueSet/vs-tre-r370-role-relation-ege-all"
+      },
+      "name" : "Vs Tre R370 Role Relation Ege All",
+      "description" : "Jeu de valeurs ALL contenant les types de rôle existant entre les Entités Géographiques d'Exercice (EGE) au sein d'une PM-SMSSE.",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      }],
+      "reference" : {
+        "reference" : "ValueSet/vs-tre-r371-type-groupe-gcc-all"
+      },
+      "name" : "Vs Tre R371 Type Groupe Gcc All",
+      "description" : "Jeu de valeurs ALL contenant les types de Groupement de Coopération conventionnelle (GCC).",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      }],
+      "reference" : {
+        "reference" : "ValueSet/vs-tre-r372-type-groupe-gco-all"
+      },
+      "name" : "Vs Tre R372 Type Groupe Gco All",
+      "description" : "Jeu de valeurs ALL contenant les types de Groupement de Coopération Organique (GCO).",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      }],
+      "reference" : {
+        "reference" : "ValueSet/vs-tre-r373-type-personne-morale-all"
+      },
+      "name" : "Vs Tre R373 Type Personne Morale All",
+      "description" : "Jeu de valeurs ALL contenant les types de PM-SMSSE (Personne Morale du champ Sanitaire, Médico-social, Social et Enseignement sur les professions de ces  champs).",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      }],
+      "reference" : {
+        "reference" : "ValueSet/vs-tre-r374-nature-activite-smsse-regulee-all"
+      },
+      "name" : "Vs Tre R374 Nature Activite Smsse Regulee All",
+      "description" : "Jeu de valeurs ALL contenant les grandes natures d'activité SMSSE exercées par les entités FINESS+.",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      }],
+      "reference" : {
+        "reference" : "ValueSet/vs-tre-r375-mode-financement-all"
+      },
+      "name" : "Vs Tre R375 Mode Financement All",
+      "description" : "Jeu de valeurs ALL contenant les modes de financement associés aux capacités de certaines activitées SMSSE.",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      }],
+      "reference" : {
+        "reference" : "ValueSet/vs-tre-r376-type-evenement-administratif-all"
+      },
+      "name" : "Vs Tre R376 Type Evenement Administratif All",
+      "description" : "Jeu de valeurs ALL contenant les événements affectant le cycle de vie des entités et activités enrgeistrées dans FINESS+",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      }],
+      "reference" : {
+        "reference" : "ValueSet/vs-tre-r377-usage-adresse-all"
+      },
+      "name" : "Vs Tre R377 Usage Adresse All",
+      "description" : "Jeu de valeurs ALL contenant les usages des adresses associées aux entités enregistrés dans FINESS+",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      }],
+      "reference" : {
+        "reference" : "ValueSet/vs-tre-r378-motif-arrete-all"
+      },
+      "name" : "Vs Tre R378 Motif Arrete All",
+      "description" : "Jeu de valeurs ALL contenant les motifs des arrêtés enregsitrées dans FINESS+",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      }],
+      "reference" : {
+        "reference" : "ValueSet/vs-tre-r379-systeme-information-all"
+      },
+      "name" : "Vs Tre R379 Systeme Information All",
+      "description" : "Jeu de valeurs ALL contenant les systemes d'information en relation avec FINESS",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      }],
+      "reference" : {
+        "reference" : "ValueSet/vs-tre-r380-habilitation-all"
+      },
+      "name" : "Vs Tre R380 Habilitation All",
+      "description" : "Jeu de valeurs ALL contenant les habilitations associées aux capacités des structures FINESS",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      }],
+      "reference" : {
+        "reference" : "ValueSet/vs-tre-r381-activite-amm-all"
+      },
+      "name" : "Vs Tre R381 Activite Amm All",
+      "description" : "Jeu de valeurs ALL contenant les activités de soin AMM",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      }],
+      "reference" : {
+        "reference" : "ValueSet/vs-tre-r382-modalite-act-de-soin-amm-all"
+      },
+      "name" : "Vs Tre R382 Modalite Act De Soin Amm All",
+      "description" : "Jeu de valeurs ALL contenant les modalités pour les activités de soin AMM",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      }],
+      "reference" : {
+        "reference" : "ValueSet/vs-tre-r383-mention-act-de-soin-amm-all"
+      },
+      "name" : "Vs Tre R383 Mention Act De Soin Amm All",
+      "description" : "Jeu de valeurs ALL contenant les mentions pour les activités de soin AMM",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      }],
+      "reference" : {
+        "reference" : "ValueSet/vs-tre-r384-pratique-therapeutique-specifique-act-soin-amm-all"
+      },
+      "name" : "Vs Tre R384 Pratique Therapeutique Specifique Act De Soin Amm All",
+      "description" : "Jeu de valeurs ALL contenant les pratiques thérapeutiques spécifiques pour les activités de soin AMM",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      }],
+      "reference" : {
+        "reference" : "ValueSet/vs-tre-r385-declaration-act-de-soin-amm-all"
+      },
+      "name" : "Vs Tre R385 Declaration Act De Soin Amm All",
+      "description" : "Jeu de valeurs ALL contenant les déclarations pour les activités de soin AMM",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      }],
+      "reference" : {
+        "reference" : "ValueSet/vs-tre-r386-macro-etat-objet-administratif-all"
+      },
+      "name" : "Vs Tre R386 Macro Etat Objet Administratif All",
+      "description" : "Jeu de valeurs ALL contenant les macro-etat des structures FINESS qui dérivent de l'état de l'objet. Permet de distinguer les structures actives de celles inactives.",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      }],
+      "reference" : {
+        "reference" : "ValueSet/vs-tre-r387-type-groupement-all"
+      },
+      "name" : "Vs Tre R387 Type Groupement All",
+      "description" : "Jeu de valeurs ALL contenant les types de groupement utilisables dans FINESS. Groupement de coopération conventionnelle ou Groupement de coopération organique",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      }],
+      "reference" : {
+        "reference" : "ValueSet/vs-tre-r388-type-logement-all"
+      },
+      "name" : "Vs Tre R388 Type Logement All",
+      "description" : "Jeu de valeurs ALL contenant les types de logement associés aux capacités des structures FINESS",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      }],
+      "reference" : {
+        "reference" : "ValueSet/vs-tre-r62-domaine-all"
+      },
+      "name" : "Vs Tre R62 Domaine All",
+      "description" : "Jeu de valeurs ALL contenant les domaines",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      }],
+      "reference" : {
+        "reference" : "ValueSet/vs-tre-r73-espic-all"
+      },
+      "name" : "Vs Tre R73 Espic All",
+      "description" : "Jeu de valeurs ALL contenant les établissements de santé privés d'intérêt collectif",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      }],
+      "reference" : {
+        "reference" : "ValueSet/vs-tre-r74-mode-fixation-tarifaire-all"
+      },
+      "name" : "Vs Tre R74 Mode Fixation Tarifaire All",
+      "description" : "Jeu de valeurs ALL contenant les modes de fixation tarifaire",
       "exampleBoolean" : false
     }],
     "page" : {

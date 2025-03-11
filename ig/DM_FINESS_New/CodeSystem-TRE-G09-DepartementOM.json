@@ -30,6 +30,7 @@
   "description" : "Référentiel des codes départements et collectivités d’outre-mer provenant du COG INSEE + Monaco",
   "caseSensitive" : false,
   "content" : "complete",
+  "count" : 113,
   "property" : [{
     "code" : "dateValid",
     "description" : "date de validité d'un code concept",

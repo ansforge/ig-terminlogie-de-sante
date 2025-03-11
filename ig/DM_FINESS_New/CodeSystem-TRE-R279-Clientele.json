@@ -29,7 +29,9 @@
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "description" : "Clientèles",
   "caseSensitive" : false,
+  "valueSet" : "https://mos.esante.gouv.fr/NOS/TRE_R279-Clientele/FHIR/TRE-R279-Clientele?vs",
   "content" : "complete",
+  "count" : 128,
   "property" : [{
     "code" : "dateValid",
     "description" : "date de validité d'un code concept",

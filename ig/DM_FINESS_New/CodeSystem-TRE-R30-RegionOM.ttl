@@ -42,7 +42,12 @@
   fhir:publisher [ fhir:v "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris"] ; # 
   fhir:description [ fhir:v "Référentiel des codes régions et collectivités d'outre-mer provenant du COG INSEE + Monaco"] ; # 
   fhir:caseSensitive [ fhir:v false] ; # 
+  fhir:valueSet [
+     fhir:v "https://mos.esante.gouv.fr/NOS/TRE_R30-RegionOM/FHIR/TRE-R30-RegionOM?vs"^^xsd:anyURI ;
+     fhir:link <https://mos.esante.gouv.fr/NOS/TRE_R30-RegionOM/FHIR/TRE-R30-RegionOM?vs>
+  ] ; # 
   fhir:content [ fhir:v "complete"] ; # 
+  fhir:count [ fhir:v "46"^^xsd:nonNegativeInteger] ; # 
   fhir:property ( [
      fhir:code [ fhir:v "dateValid" ] ;
      fhir:description [ fhir:v "date de validité d'un code concept" ] ;

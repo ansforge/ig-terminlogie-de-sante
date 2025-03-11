@@ -29,7 +29,9 @@
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "description" : "Activités sanitaires soumises à une régulation de la part de l'ARS",
   "caseSensitive" : false,
+  "valueSet" : "https://mos.esante.gouv.fr/NOS/TRE_R274-ActiviteSanitaireRegulee/FHIR/TRE-R274-ActiviteSanitaireRegulee?vs",
   "content" : "complete",
+  "count" : 66,
   "property" : [{
     "code" : "dateValid",
     "description" : "date de validité d'un code concept",

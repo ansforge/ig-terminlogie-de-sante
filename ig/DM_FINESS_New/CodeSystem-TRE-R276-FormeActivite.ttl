@@ -42,7 +42,12 @@
   fhir:publisher [ fhir:v "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris"] ; # 
   fhir:description [ fhir:v "Type d'organisation de prise en charge"] ; # 
   fhir:caseSensitive [ fhir:v false] ; # 
+  fhir:valueSet [
+     fhir:v "https://mos.esante.gouv.fr/NOS/TRE_R276-FormeActivite/FHIR/TRE-R276-FormeActivite?vs"^^xsd:anyURI ;
+     fhir:link <https://mos.esante.gouv.fr/NOS/TRE_R276-FormeActivite/FHIR/TRE-R276-FormeActivite?vs>
+  ] ; # 
   fhir:content [ fhir:v "complete"] ; # 
+  fhir:count [ fhir:v "40"^^xsd:nonNegativeInteger] ; # 
   fhir:property ( [
      fhir:code [ fhir:v "dateValid" ] ;
      fhir:description [ fhir:v "date de validité d'un code concept" ] ;

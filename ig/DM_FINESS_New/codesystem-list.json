@@ -2521,10 +2521,10 @@
     },
     {
       "url" : "https://smt.esante.gouv.fr/terminologie-atc",
-      "version" : "2024-02",
+      "version" : "2025-02",
       "status" : "active",
       "name" : "ATC",
-      "title" : "Anatomique, Thérapeutique et Chimique",
+      "title" : "Classification anatomique, thérapeutique et chimique",
       "description" : null,
       "oids" : ["2.16.840.1.113883.6.73"]
     },
@@ -2600,15 +2600,16 @@
     },
     {
       "url" : "https://smt.esante.gouv.fr/terminologie-nabm",
-      "version" : "V94",
+      "version" : "V96",
       "status" : "active",
       "name" : "NABM",
       "title" : "Nomenclature des actes de biologie médicale",
-      "description" : null
+      "description" : null,
+      "oids" : ["1.2.250.1.215.300.2"]
     },
     {
       "url" : "https://smt.esante.gouv.fr/terminologie-nuva",
-      "version" : "1.0.854",
+      "version" : "1.0.870",
       "status" : "active",
       "name" : "NUVA",
       "title" : "Nomenclature Unifiée des Vaccins",
@@ -2617,7 +2618,7 @@
     },
     {
       "url" : "https://smt.esante.gouv.fr/terminologie-sms",
-      "version" : "2025-02",
+      "version" : "2025-03",
       "status" : "active",
       "name" : "Dictionnaire_SMS_Substance_Management_Services_",
       "title" : "Dictionnaire européen multilingue des substances entrant dans la composition de médicaments",
