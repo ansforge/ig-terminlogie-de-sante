@@ -32716,17 +32716,6 @@
     {
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "CodeSystem"
-      }],
-      "reference" : {
-        "reference" : "CodeSystem/terminologie-atc"
-      },
-      "name" : "Anatomique, Thérapeutique et Chimique",
-      "exampleBoolean" : false
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "ConceptMap"
       }],
       "reference" : {
@@ -33548,6 +33537,17 @@
         "reference" : "CodeSystem/terminologie-cladimed"
       },
       "name" : "CLADIMED",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "CodeSystem"
+      }],
+      "reference" : {
+        "reference" : "CodeSystem/terminologie-atc"
+      },
+      "name" : "Classification anatomique, thérapeutique et chimique",
       "exampleBoolean" : false
     },
     {

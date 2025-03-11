@@ -26802,17 +26802,6 @@
      ] [
        fhir:extension ( [
          fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
-         fhir:value [ fhir:v "CodeSystem" ]
-       ] ) ;
-       fhir:reference [
-         fhir:link <https://interop.esante.gouv.fr/terminologies/CodeSystem/terminologie-atc> ;
-         fhir:reference [ fhir:v "CodeSystem/terminologie-atc" ]
-       ] ;
-       fhir:name [ fhir:v "Anatomique, Thérapeutique et Chimique" ] ;
-       fhir:example [ fhir:v "false"^^xsd:boolean ]
-     ] [
-       fhir:extension ( [
-         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
          fhir:value [ fhir:v "ConceptMap" ]
        ] ) ;
        fhir:reference [
@@ -27635,6 +27624,17 @@
          fhir:reference [ fhir:v "CodeSystem/terminologie-cladimed" ]
        ] ;
        fhir:name [ fhir:v "CLADIMED" ] ;
+       fhir:example [ fhir:v "false"^^xsd:boolean ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "CodeSystem" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <https://interop.esante.gouv.fr/terminologies/CodeSystem/terminologie-atc> ;
+         fhir:reference [ fhir:v "CodeSystem/terminologie-atc" ]
+       ] ;
+       fhir:name [ fhir:v "Classification anatomique, thérapeutique et chimique" ] ;
        fhir:example [ fhir:v "false"^^xsd:boolean ]
      ] [
        fhir:extension ( [

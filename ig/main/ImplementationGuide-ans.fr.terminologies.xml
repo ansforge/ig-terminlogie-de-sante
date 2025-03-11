@@ -23814,16 +23814,6 @@
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="CodeSystem"/>
-      </extension>
-      <reference>
-        <reference value="CodeSystem/terminologie-atc"/>
-      </reference>
-      <name value="Anatomique, Thérapeutique et Chimique"/>
-      <exampleBoolean value="false"/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
         <valueString value="ConceptMap"/>
       </extension>
       <reference>
@@ -24577,6 +24567,16 @@
         <reference value="CodeSystem/terminologie-cladimed"/>
       </reference>
       <name value="CLADIMED"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="CodeSystem"/>
+      </extension>
+      <reference>
+        <reference value="CodeSystem/terminologie-atc"/>
+      </reference>
+      <name value="Classification anatomique, thérapeutique et chimique"/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
