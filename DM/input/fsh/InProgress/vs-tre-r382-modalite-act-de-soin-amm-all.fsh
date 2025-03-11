@@ -1,6 +1,6 @@
 Alias: $tre-r382-modalite-act-de-soin-amm = https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r382-modalite-act-de-soin-amm
 
-ValueSet: Vs TreR382ModaliteActDeSoinAmmAll
+ValueSet: VsTreR382ModaliteActDeSoinAmmAll
 Id: vs-tre-r382-modalite-act-de-soin-amm-all
 Title: "Vs Tre R382 Modalite Act De Soin Amm All"
 Description: "Jeu de valeurs ALL contenant les modalités pour les activités de soin AMM"
