@@ -1,7 +1,7 @@
 Alias: $tre-r384-pratique-therapeutique-specifique-act-de-soin-amm = https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r384-pratique-therapeutique-specifique-act-de-soin-amm
 
 ValueSet: VsTreR384PratiqueTherapeutiqueSpecifiqueActDeSoinAmmAll
-Id: vs-tre-r384-pratique-therapeutique-specifique-act-de-soin-amm-all
+Id: vs-tre-r384-pratique-therapeutique-specifique-act-soin-amm-all
 Title: "Vs Tre R384 Pratique Therapeutique Specifique Act De Soin Amm All"
 Description: "Jeu de valeurs ALL contenant les pratiques thérapeutiques spécifiques pour les activités de soin AMM"
 * ^meta.versionId = "1"
