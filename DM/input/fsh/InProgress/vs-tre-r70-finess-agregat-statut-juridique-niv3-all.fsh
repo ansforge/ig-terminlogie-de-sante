@@ -2,7 +2,7 @@ Alias: $tre-r70-finess-agregat-statut-juridique-niv3 = https://mos.esante.gouv.f
 
 ValueSet: VsTreR70FinessAgregatStatutJuridiqueNiv3All
 Id: vs-tre-r70-finess-agregat-statut-juridique-niv3-all
-Title: "Vs Tre R69 Finess Agregat Statut Juridique Niv2 All"
+Title: "Vs Tre R70 Finess Agregat Statut Juridique Niv3 All"
 Description: "Jeu de valeurs ALL contenant les agrégats de statuts juridiques FINESS niveau 3"
 * ^meta.versionId = "1"
 * ^meta.lastUpdated = "2025-02-22T18:02:28.249+00:00"
