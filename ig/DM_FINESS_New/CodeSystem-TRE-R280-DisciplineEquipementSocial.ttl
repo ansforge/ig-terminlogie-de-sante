@@ -42,7 +42,12 @@
   fhir:publisher [ fhir:v "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris"] ; # 
   fhir:description [ fhir:v "Disciplines d'équipement pour le social"] ; # 
   fhir:caseSensitive [ fhir:v false] ; # 
+  fhir:valueSet [
+     fhir:v "https://mos.esante.gouv.fr/NOS/TRE_R280-DisciplineEquipementSocial/FHIR/TRE-R280-DisciplineEquipementSocial?vs"^^xsd:anyURI ;
+     fhir:link <https://mos.esante.gouv.fr/NOS/TRE_R280-DisciplineEquipementSocial/FHIR/TRE-R280-DisciplineEquipementSocial?vs>
+  ] ; # 
   fhir:content [ fhir:v "complete"] ; # 
+  fhir:count [ fhir:v "133"^^xsd:nonNegativeInteger] ; # 
   fhir:property ( [
      fhir:code [ fhir:v "dateValid" ] ;
      fhir:description [ fhir:v "date de validité d'un code concept" ] ;

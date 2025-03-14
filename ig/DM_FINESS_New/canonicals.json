@@ -3396,12 +3396,28 @@
     "oids" : ["1.2.250.1.213.1.6.1.133"]
   },
   {
+    "id" : "vs-tre-r280-discipline-equipement-social-all",
+    "type" : "ValueSet",
+    "url" : "https://mos.esante.gouv.fr/NOS/TRE_R280-DisciplineEquipementSocial/FHIR/TRE-R280-DisciplineEquipementSocial?vs",
+    "version" : "20250222120000",
+    "name" : "VsTreR280DisciplineEquipementSocialAll",
+    "oids" : ["1.2.250.1.213.1.6.1.331"]
+  },
+  {
     "id" : "TRE-R281-DisciplineEnseignement",
     "type" : "CodeSystem",
     "url" : "https://mos.esante.gouv.fr/NOS/TRE_R281-DisciplineEnseignement/FHIR/TRE-R281-DisciplineEnseignement",
     "version" : "20240329120000",
     "name" : "TRE_R281_DisciplineEnseignement",
     "oids" : ["1.2.250.1.213.1.6.1.134"]
+  },
+  {
+    "id" : "vs-tre-r281-discipline-enseignement-all",
+    "type" : "ValueSet",
+    "url" : "https://mos.esante.gouv.fr/NOS/TRE_R281-DisciplineEnseignement/FHIR/TRE-R281-DisciplineEnseignement?vs",
+    "version" : "20250222120000",
+    "name" : "VsTreR281DisciplineEnseignementAll",
+    "oids" : ["1.2.250.1.213.1.6.1.326"]
   },
   {
     "id" : "TRE-R282-CNAMAmeliSecteurConventionnement",
@@ -3500,12 +3516,28 @@
     "oids" : ["1.2.250.1.213.1.6.1.192"]
   },
   {
+    "id" : "vs-tre-r293-agregat-clientele-niv2-all",
+    "type" : "ValueSet",
+    "url" : "https://mos.esante.gouv.fr/NOS/TRE_R293-AgregatClienteleNiv2/FHIR/TRE-R293-AgregatClienteleNiv2?vs",
+    "version" : "20250222120000",
+    "name" : "VsTreR293AgregatClienteleNiv2All",
+    "oids" : ["1.2.250.1.213.1.6.1.337"]
+  },
+  {
     "id" : "TRE-R294-AgregatClienteleNiv3",
     "type" : "CodeSystem",
     "url" : "https://mos.esante.gouv.fr/NOS/TRE_R294-AgregatClienteleNiv3/FHIR/TRE-R294-AgregatClienteleNiv3",
     "version" : "20231215120000",
     "name" : "TRE_R294_AgregatClienteleNiv3",
     "oids" : ["1.2.250.1.213.1.6.1.193"]
+  },
+  {
+    "id" : "vs-tre-r294-agregat-clientele-niv3-all",
+    "type" : "ValueSet",
+    "url" : "https://mos.esante.gouv.fr/NOS/TRE_R294-AgregatClienteleNiv3/FHIR/TRE-R294-AgregatClienteleNiv3?vs",
+    "version" : "20250222120000",
+    "name" : "VsTreR294AgregatClienteleNiv3All",
+    "oids" : ["1.2.250.1.213.1.6.1.338"]
   },
   {
     "id" : "TRE-R295-AgregatDisciplineEnseignNiv1",
@@ -3516,12 +3548,28 @@
     "oids" : ["1.2.250.1.213.1.6.1.195"]
   },
   {
+    "id" : "vs-tre-r295-agregat-discipline-enseign-niv1-all",
+    "type" : "ValueSet",
+    "url" : "https://mos.esante.gouv.fr/NOS/TRE_R295-AgregatDisciplineEnseignNiv1/FHIR/TRE-R295-AgregatDisciplineEnseignNiv1?vs",
+    "version" : "20250222120000",
+    "name" : "VsTreR295AgregatDisciplineEnseignNiv1All",
+    "oids" : ["1.2.250.1.213.1.6.1.327"]
+  },
+  {
     "id" : "TRE-R296-AgregatDisciplineEnseignNiv2",
     "type" : "CodeSystem",
     "url" : "https://mos.esante.gouv.fr/NOS/TRE_R296-AgregatDisciplineEnseignNiv2/FHIR/TRE-R296-AgregatDisciplineEnseignNiv2",
     "version" : "20231215120000",
     "name" : "TRE_R296_AgregatDisciplineEnseignNiv2",
     "oids" : ["1.2.250.1.213.1.6.1.196"]
+  },
+  {
+    "id" : "vs-tre-r296-agregat-discipline-enseign-niv2-all",
+    "type" : "ValueSet",
+    "url" : "https://mos.esante.gouv.fr/NOS/TRE_R296-AgregatDisciplineEnseignNiv2/FHIR/TRE-R296-AgregatDisciplineEnseignNiv2?vs",
+    "version" : "20250222120000",
+    "name" : "VsTreR296AgregatDisciplineEnseignNiv2All",
+    "oids" : ["1.2.250.1.213.1.6.1.328"]
   },
   {
     "id" : "TRE-R297-AgregatDisciplineEnseignNiv3",
@@ -3532,6 +3580,14 @@
     "oids" : ["1.2.250.1.213.1.6.1.197"]
   },
   {
+    "id" : "vs-tre-r297-agregat-discipline-enseign-niv3-all",
+    "type" : "ValueSet",
+    "url" : "https://mos.esante.gouv.fr/NOS/TRE_R297-AgregatDisciplineEnseignNiv3/FHIR/TRE-R297-AgregatDisciplineEnseignNiv3?vs",
+    "version" : "20250222120000",
+    "name" : "VsTreR297AgregatDisciplineEnseignNiv3All",
+    "oids" : ["1.2.250.1.213.1.6.1.329"]
+  },
+  {
     "id" : "TRE-R298-AgregatDisciplineEquipSocNiv1",
     "type" : "CodeSystem",
     "url" : "https://mos.esante.gouv.fr/NOS/TRE_R298-AgregatDisciplineEquipSocNiv1/FHIR/TRE-R298-AgregatDisciplineEquipSocNiv1",
@@ -3540,12 +3596,28 @@
     "oids" : ["1.2.250.1.213.1.6.1.202"]
   },
   {
+    "id" : "vs-tre-r298-agregat-discipline-equip-soc-niv1-all",
+    "type" : "ValueSet",
+    "url" : "https://mos.esante.gouv.fr/NOS/TRE_R298-AgregatDisciplineEquipSocNiv1/FHIR/TRE-R298-AgregatDisciplineEquipSocNiv1?vs",
+    "version" : "20250222120000",
+    "name" : "VsTreR298AgregatDisciplineEquipSocNiv1All",
+    "oids" : ["1.2.250.1.213.1.6.1.332"]
+  },
+  {
     "id" : "TRE-R299-AgregatDisciplineEquipSocNiv2",
     "type" : "CodeSystem",
     "url" : "https://mos.esante.gouv.fr/NOS/TRE_R299-AgregatDisciplineEquipSocNiv2/FHIR/TRE-R299-AgregatDisciplineEquipSocNiv2",
     "version" : "20231215120000",
     "name" : "TRE_R299_AgregatDisciplineEquipSocNiv2",
     "oids" : ["1.2.250.1.213.1.6.1.203"]
+  },
+  {
+    "id" : "vs-tre-r299-agregat-discipline-equip-soc-niv2-all",
+    "type" : "ValueSet",
+    "url" : "https://mos.esante.gouv.fr/NOS/TRE_R299-AgregatDisciplineEquipSocNiv2/FHIR/TRE-R299-AgregatDisciplineEquipSocNiv2?vs",
+    "version" : "20250222120000",
+    "name" : "VsTreR299AgregatDisciplineEquipSocNiv2All",
+    "oids" : ["1.2.250.1.213.1.6.1.333"]
   },
   {
     "id" : "TRE-R30-RegionOM",
@@ -3570,6 +3642,14 @@
     "version" : "20231215120000",
     "name" : "TRE_R300_AgregatDisciplineEquipSocNiv3",
     "oids" : ["1.2.250.1.213.1.6.1.204"]
+  },
+  {
+    "id" : "vs-tre-r300-agregat-discipline-equip-soc-niv3-all",
+    "type" : "ValueSet",
+    "url" : "https://mos.esante.gouv.fr/NOS/TRE_R300-AgregatDisciplineEquipSocNiv3/FHIR/TRE-R300-AgregatDisciplineEquipSocNiv3?vs",
+    "version" : "20250222120000",
+    "name" : "VsTreR300AgregatDisciplineEquipSocNiv3All",
+    "oids" : ["1.2.250.1.213.1.6.1.334"]
   },
   {
     "id" : "TRE-R301-SourceInformationInstallation",
@@ -4188,6 +4268,14 @@
     "oids" : ["1.2.250.1.213.1.6.1.5"]
   },
   {
+    "id" : "vs-tre-r63-agregat-categorie-etablissement-niv1-all",
+    "type" : "ValueSet",
+    "url" : "https://mos.esante.gouv.fr/NOS/TRE_R63-AgregatCategorieEtablissementNiv1/FHIR/TRE-R63-AgregatCategorieEtablissementNiv1?vs",
+    "version" : "20250222120000",
+    "name" : "VsTreR63AgregatCategorieEtablissementNiv1All",
+    "oids" : ["1.2.250.1.213.1.6.1.315"]
+  },
+  {
     "id" : "TRE-R64-AgregatCategorieEtablissementNiv2",
     "type" : "CodeSystem",
     "url" : "https://mos.esante.gouv.fr/NOS/TRE_R64-AgregatCategorieEtablissementNiv2/FHIR/TRE-R64-AgregatCategorieEtablissementNiv2",
@@ -4196,12 +4284,28 @@
     "oids" : ["1.2.250.1.213.1.6.1.6"]
   },
   {
+    "id" : "vs-tre-r64-agregat-categorie-etablissement-niv2-all",
+    "type" : "ValueSet",
+    "url" : "https://mos.esante.gouv.fr/NOS/TRE_R64-AgregatCategorieEtablissementNiv2/FHIR/TRE-R64-AgregatCategorieEtablissementNiv2?vs",
+    "version" : "20250222120000",
+    "name" : "VsTreR64AgregatCategorieEtablissementNiv2All",
+    "oids" : ["1.2.250.1.213.1.6.1.316"]
+  },
+  {
     "id" : "TRE-R65-AgregatCategorieEtablissement",
     "type" : "CodeSystem",
     "url" : "https://mos.esante.gouv.fr/NOS/TRE_R65-AgregatCategorieEtablissement/FHIR/TRE-R65-AgregatCategorieEtablissement",
-    "version" : "20250228120000",
+    "version" : "20240628120000",
     "name" : "TRE_R65_AgregatCategorieEtablissement",
     "oids" : ["1.2.250.1.213.1.6.1.7"]
+  },
+  {
+    "id" : "vs-tre-r65-agregat-categorie-etablissement-niv3-all",
+    "type" : "ValueSet",
+    "url" : "https://mos.esante.gouv.fr/NOS/TRE_R65-AgregatCategorieEtablissement/FHIR/TRE-R65-AgregatCategorieEtablissement?vs",
+    "version" : "20250222120000",
+    "name" : "VsTreR65AgregatCategorieEtablissementNiv3All",
+    "oids" : ["1.2.250.1.213.1.6.1.317"]
   },
   {
     "id" : "TRE-R66-CategorieEtablissement",
@@ -4228,12 +4332,28 @@
     "oids" : ["1.2.250.1.213.1.6.1.63"]
   },
   {
+    "id" : "vs-tre-r68-finess-agregat-statut-juridique-niv1-all",
+    "type" : "ValueSet",
+    "url" : "https://mos.esante.gouv.fr/NOS/TRE_R68-FinessAgregatStatutJuridiqueNiv1/FHIR/TRE-R68-FinessAgregatStatutJuridiqueNiv1?vs",
+    "version" : "20250222120000",
+    "name" : "VsTreR68FinessAgregatStatutJuridiqueNiv1All",
+    "oids" : ["1.2.250.1.213.1.6.1.309"]
+  },
+  {
     "id" : "TRE-R69-FinessAgregatStatutJuridiqueNiv2",
     "type" : "CodeSystem",
     "url" : "https://mos.esante.gouv.fr/NOS/TRE_R69-FinessAgregatStatutJuridiqueNiv2/FHIR/TRE-R69-FinessAgregatStatutJuridiqueNiv2",
     "version" : "20231215120000",
     "name" : "TRE_R69_FinessAgregatStatutJuridiqueNiv2",
     "oids" : ["1.2.250.1.213.1.6.1.64"]
+  },
+  {
+    "id" : "vs-tre-r69-finess-agregat-statut-juridique-niv2-all",
+    "type" : "ValueSet",
+    "url" : "https://mos.esante.gouv.fr/NOS/TRE_R69-FinessAgregatStatutJuridiqueNiv2/FHIR/TRE-R69-FinessAgregatStatutJuridiqueNiv2?vs",
+    "version" : "20250222120000",
+    "name" : "VsTreR69FinessAgregatStatutJuridiqueNiv2All",
+    "oids" : ["1.2.250.1.213.1.6.1.310"]
   },
   {
     "id" : "TRE-R70-FinessAgregatStatutJuridique",
@@ -4244,12 +4364,28 @@
     "oids" : ["1.2.250.1.213.1.6.1.65"]
   },
   {
+    "id" : "vs-tre-r70-finess-agregat-statut-juridique-niv3-all",
+    "type" : "ValueSet",
+    "url" : "https://mos.esante.gouv.fr/NOS/TRE_R70-FinessAgregatStatutJuridique/FHIR/TRE-R70-FinessAgregatStatutJuridique?vs",
+    "version" : "20250222120000",
+    "name" : "VsTreR70FinessAgregatStatutJuridiqueNiv3All",
+    "oids" : ["1.2.250.1.213.1.6.1.311"]
+  },
+  {
     "id" : "TRE-R72-FinessStatutJuridique",
     "type" : "CodeSystem",
     "url" : "https://mos.esante.gouv.fr/NOS/TRE_R72-FinessStatutJuridique/FHIR/TRE-R72-FinessStatutJuridique",
     "version" : "20240329120000",
     "name" : "TRE_R72_FinessStatutJuridique",
     "oids" : ["1.2.250.1.213.1.6.1.44"]
+  },
+  {
+    "id" : "vs-tre-r72-finess-statut-juridique-all",
+    "type" : "ValueSet",
+    "url" : "https://mos.esante.gouv.fr/NOS/TRE_R72-FinessStatutJuridique/FHIR/TRE-R72-FinessStatutJuridique?vs",
+    "version" : "20250222120000",
+    "name" : "VsTreR72FinessStatutJuridiqueAll",
+    "oids" : ["1.2.250.1.213.1.6.1.312"]
   },
   {
     "id" : "TRE-R73-ESPIC",
@@ -4839,7 +4975,7 @@
     "id" : "alignement-bdpm-cipucd",
     "type" : "ConceptMap",
     "url" : "https://smt.esante.gouv.fr/fhir/ConceptMap/alignement-bdpm-cipucd",
-    "version" : "2025-02",
+    "version" : "2025-03",
     "name" : "Alignement_Codes_Presentation_BDPM_CIPUCD"
   },
   {

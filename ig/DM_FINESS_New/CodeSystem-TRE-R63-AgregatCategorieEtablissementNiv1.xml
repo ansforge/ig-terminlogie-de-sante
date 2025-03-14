@@ -28,7 +28,9 @@
   <publisher value="Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris"/>
   <description value="Agrégats de catégories d'établissements niveau 1"/>
   <caseSensitive value="false"/>
+  <valueSet value="https://mos.esante.gouv.fr/NOS/TRE_R63-AgregatCategorieEtablissementNiv1/FHIR/TRE-R63-AgregatCategorieEtablissementNiv1?vs"/>
   <content value="complete"/>
+  <count value="7"/>
   <property>
     <code value="dateValid"/>
     <description value="date de validité d'un code concept"/>

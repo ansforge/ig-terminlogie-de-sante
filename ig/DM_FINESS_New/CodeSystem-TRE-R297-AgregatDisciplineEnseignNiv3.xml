@@ -28,7 +28,9 @@
   <publisher value="Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris"/>
   <description value="Agrégats de disciplines pour l'enseignement niveau 3"/>
   <caseSensitive value="false"/>
+  <valueSet value="https://mos.esante.gouv.fr/NOS/TRE_R297-AgregatDisciplineEnseignNiv3/FHIR/TRE-R297-AgregatDisciplineEnseignNiv3?vs"/>
   <content value="complete"/>
+  <count value="4"/>
   <property>
     <code value="dateValid"/>
     <description value="date de validité d'un code concept"/>

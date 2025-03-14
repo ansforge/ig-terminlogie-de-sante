@@ -29,7 +29,9 @@
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "description" : "Disciplines pour l'enseignement",
   "caseSensitive" : false,
+  "valueSet" : "https://mos.esante.gouv.fr/NOS/TRE_R281-DisciplineEnseignement/FHIR/TRE-R281-DisciplineEnseignement?vs",
   "content" : "complete",
+  "count" : 55,
   "property" : [{
     "code" : "dateValid",
     "description" : "date de validité d'un code concept",

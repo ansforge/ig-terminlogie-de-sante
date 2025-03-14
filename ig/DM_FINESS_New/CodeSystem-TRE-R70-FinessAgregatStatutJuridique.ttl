@@ -42,7 +42,12 @@
   fhir:publisher [ fhir:v "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris"] ; # 
   fhir:description [ fhir:v "Agrégat de statuts juridiques FINESS"] ; # 
   fhir:caseSensitive [ fhir:v false] ; # 
+  fhir:valueSet [
+     fhir:v "https://mos.esante.gouv.fr/NOS/TRE_R70-FinessAgregatStatutJuridique/FHIR/TRE-R70-FinessAgregatStatutJuridique?vs"^^xsd:anyURI ;
+     fhir:link <https://mos.esante.gouv.fr/NOS/TRE_R70-FinessAgregatStatutJuridique/FHIR/TRE-R70-FinessAgregatStatutJuridique?vs>
+  ] ; # 
   fhir:content [ fhir:v "complete"] ; # 
+  fhir:count [ fhir:v "22"^^xsd:nonNegativeInteger] ; # 
   fhir:property ( [
      fhir:code [ fhir:v "dateValid" ] ;
      fhir:description [ fhir:v "date de validité d'un code concept" ] ;

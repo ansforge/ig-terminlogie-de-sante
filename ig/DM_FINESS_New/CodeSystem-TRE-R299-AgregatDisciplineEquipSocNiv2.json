@@ -29,7 +29,9 @@
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "description" : "Agrégats de disciplines d'équipement pour le social niveau 2",
   "caseSensitive" : false,
+  "valueSet" : "https://mos.esante.gouv.fr/NOS/TRE_R299-AgregatDisciplineEquipSocNiv2/FHIR/TRE-R299-AgregatDisciplineEquipSocNiv2?vs",
   "content" : "complete",
+  "count" : 7,
   "property" : [{
     "code" : "dateValid",
     "description" : "date de validité d'un code concept",

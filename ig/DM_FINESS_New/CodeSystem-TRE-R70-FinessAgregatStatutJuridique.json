@@ -29,7 +29,9 @@
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "description" : "Agrégat de statuts juridiques FINESS",
   "caseSensitive" : false,
+  "valueSet" : "https://mos.esante.gouv.fr/NOS/TRE_R70-FinessAgregatStatutJuridique/FHIR/TRE-R70-FinessAgregatStatutJuridique?vs",
   "content" : "complete",
+  "count" : 22,
   "property" : [{
     "code" : "dateValid",
     "description" : "date de validité d'un code concept",

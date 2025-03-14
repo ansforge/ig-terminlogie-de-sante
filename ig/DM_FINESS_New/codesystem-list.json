@@ -2045,7 +2045,7 @@
     },
     {
       "url" : "https://mos.esante.gouv.fr/NOS/TRE_R65-AgregatCategorieEtablissement/FHIR/TRE-R65-AgregatCategorieEtablissement",
-      "version" : "20250228120000",
+      "version" : "20240628120000",
       "status" : "active",
       "name" : "TRE_R65_AgregatCategorieEtablissement",
       "title" : null,
@@ -2550,7 +2550,7 @@
       "version" : "2025-01-01",
       "status" : "active",
       "name" : "CIM_10_FR_PMSI",
-      "title" : "Classification internationale des maladies 10eme révision, version française à usage PMSI (Programme Médicalisé des Systèmes d'Information)",
+      "title" : "Classification internationale des maladies et des problèmes de santé connexes - 10ème révision - Version française à usage PMSI (Programme Médicalisé des Systèmes d'Information)",
       "description" : null,
       "oids" : ["2.16.840.1.113883.6.3"]
     },

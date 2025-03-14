@@ -3646,6 +3646,123 @@
       "sources" : ["1.2.250.1.213.1.6.1.336"]
     },
     {
+      "url" : "https://mos.esante.gouv.fr/NOS/TRE_R280-DisciplineEquipementSocial/FHIR/TRE-R280-DisciplineEquipementSocial?vs",
+      "version" : "20250222120000",
+      "status" : "active",
+      "name" : "VsTreR280DisciplineEquipementSocialAll",
+      "title" : "Vs Tre R280 Discipline Equipement Social All",
+      "description" : "Jeu de valeurs ALL contenant les disciplines d'équipement pour le social",
+      "systems" : [
+        "https://mos.esante.gouv.fr/NOS/TRE_R280-DisciplineEquipementSocial/FHIR/TRE-R280-DisciplineEquipementSocial"
+      ],
+      "oids" : ["1.2.250.1.213.1.6.1.331"],
+      "sources" : ["1.2.250.1.213.1.6.1.331"]
+    },
+    {
+      "url" : "https://mos.esante.gouv.fr/NOS/TRE_R281-DisciplineEnseignement/FHIR/TRE-R281-DisciplineEnseignement?vs",
+      "version" : "20250222120000",
+      "status" : "active",
+      "name" : "VsTreR281DisciplineEnseignementAll",
+      "title" : "Vs Tre R281 Discipline Enseignement All",
+      "description" : "Jeu de valeurs ALL contenant les disciplines pour l'enseignement",
+      "systems" : [
+        "https://mos.esante.gouv.fr/NOS/TRE_R281-DisciplineEnseignement/FHIR/TRE-R281-DisciplineEnseignement"
+      ],
+      "oids" : ["1.2.250.1.213.1.6.1.326"],
+      "sources" : ["1.2.250.1.213.1.6.1.326"]
+    },
+    {
+      "url" : "https://mos.esante.gouv.fr/NOS/TRE_R293-AgregatClienteleNiv2/FHIR/TRE-R293-AgregatClienteleNiv2?vs",
+      "version" : "20250222120000",
+      "status" : "active",
+      "name" : "VsTreR293AgregatClienteleNiv2All",
+      "title" : "Vs Tre R293 Agregat Clientele Niv2 All",
+      "description" : "Jeu de valeurs ALL contenant les agrégats de clientèle niveau 2",
+      "systems" : [
+        "https://mos.esante.gouv.fr/NOS/TRE_R293-AgregatClienteleNiv2/FHIR/TRE-R293-AgregatClienteleNiv2"
+      ],
+      "oids" : ["1.2.250.1.213.1.6.1.337"],
+      "sources" : ["1.2.250.1.213.1.6.1.337"]
+    },
+    {
+      "url" : "https://mos.esante.gouv.fr/NOS/TRE_R294-AgregatClienteleNiv3/FHIR/TRE-R294-AgregatClienteleNiv3?vs",
+      "version" : "20250222120000",
+      "status" : "active",
+      "name" : "VsTreR294AgregatClienteleNiv3All",
+      "title" : "Vs Tre R294 Agregat Clientele Niv3 All",
+      "description" : "Jeu de valeurs ALL contenant les agrégats de clientèle niveau 3",
+      "systems" : [
+        "https://mos.esante.gouv.fr/NOS/TRE_R294-AgregatClienteleNiv3/FHIR/TRE-R294-AgregatClienteleNiv3"
+      ],
+      "oids" : ["1.2.250.1.213.1.6.1.338"],
+      "sources" : ["1.2.250.1.213.1.6.1.338"]
+    },
+    {
+      "url" : "https://mos.esante.gouv.fr/NOS/TRE_R295-AgregatDisciplineEnseignNiv1/FHIR/TRE-R295-AgregatDisciplineEnseignNiv1?vs",
+      "version" : "20250222120000",
+      "status" : "active",
+      "name" : "VsTreR295AgregatDisciplineEnseignNiv1All",
+      "title" : "Vs Tre R295 Agregat Discipline Enseign Niv1 All",
+      "description" : "Jeu de valeurs ALL contenant les agrégats de disciplines pour l'enseignement niveau 1",
+      "systems" : [
+        "https://mos.esante.gouv.fr/NOS/TRE_R295-AgregatDisciplineEnseignNiv1/FHIR/TRE-R295-AgregatDisciplineEnseignNiv1"
+      ],
+      "oids" : ["1.2.250.1.213.1.6.1.327"],
+      "sources" : ["1.2.250.1.213.1.6.1.327"]
+    },
+    {
+      "url" : "https://mos.esante.gouv.fr/NOS/TRE_R296-AgregatDisciplineEnseignNiv2/FHIR/TRE-R296-AgregatDisciplineEnseignNiv2?vs",
+      "version" : "20250222120000",
+      "status" : "active",
+      "name" : "VsTreR296AgregatDisciplineEnseignNiv2All",
+      "title" : "Vs Tre R296 Agregat Discipline Enseign Niv2 All",
+      "description" : "Jeu de valeurs ALL contenant les agrégats de disciplines pour l'enseignement niveau 2",
+      "systems" : [
+        "https://mos.esante.gouv.fr/NOS/TRE_R296-AgregatDisciplineEnseignNiv2/FHIR/TRE-R296-AgregatDisciplineEnseignNiv2"
+      ],
+      "oids" : ["1.2.250.1.213.1.6.1.328"],
+      "sources" : ["1.2.250.1.213.1.6.1.328"]
+    },
+    {
+      "url" : "https://mos.esante.gouv.fr/NOS/TRE_R297-AgregatDisciplineEnseignNiv3/FHIR/TRE-R297-AgregatDisciplineEnseignNiv3?vs",
+      "version" : "20250222120000",
+      "status" : "active",
+      "name" : "VsTreR297AgregatDisciplineEnseignNiv3All",
+      "title" : "Vs Tre R297 Agregat Discipline Enseign Niv3 All",
+      "description" : "Jeu de valeurs ALL contenant les agrégats de disciplines pour l'enseignement niveau 3",
+      "systems" : [
+        "https://mos.esante.gouv.fr/NOS/TRE_R297-AgregatDisciplineEnseignNiv3/FHIR/TRE-R297-AgregatDisciplineEnseignNiv3"
+      ],
+      "oids" : ["1.2.250.1.213.1.6.1.329"],
+      "sources" : ["1.2.250.1.213.1.6.1.329"]
+    },
+    {
+      "url" : "https://mos.esante.gouv.fr/NOS/TRE_R298-AgregatDisciplineEquipSocNiv1/FHIR/TRE-R298-AgregatDisciplineEquipSocNiv1?vs",
+      "version" : "20250222120000",
+      "status" : "active",
+      "name" : "VsTreR298AgregatDisciplineEquipSocNiv1All",
+      "title" : "Vs Tre R298 Agregat Discipline Equip Soc Niv1 All",
+      "description" : "Jeu de valeurs ALL contenant les agrégats de disciplines d'équipement pour le social niveau 1",
+      "systems" : [
+        "https://mos.esante.gouv.fr/NOS/TRE_R298-AgregatDisciplineEquipSocNiv1/FHIR/TRE-R298-AgregatDisciplineEquipSocNiv1"
+      ],
+      "oids" : ["1.2.250.1.213.1.6.1.332"],
+      "sources" : ["1.2.250.1.213.1.6.1.332"]
+    },
+    {
+      "url" : "https://mos.esante.gouv.fr/NOS/TRE_R299-AgregatDisciplineEquipSocNiv2/FHIR/TRE-R299-AgregatDisciplineEquipSocNiv2?vs",
+      "version" : "20250222120000",
+      "status" : "active",
+      "name" : "VsTreR299AgregatDisciplineEquipSocNiv2All",
+      "title" : "Vs Tre R299 Agregat Discipline Equip Soc Niv2 All",
+      "description" : "Jeu de valeurs ALL contenant les agrégats de disciplines d'équipement pour le social niveau 2",
+      "systems" : [
+        "https://mos.esante.gouv.fr/NOS/TRE_R299-AgregatDisciplineEquipSocNiv2/FHIR/TRE-R299-AgregatDisciplineEquipSocNiv2"
+      ],
+      "oids" : ["1.2.250.1.213.1.6.1.333"],
+      "sources" : ["1.2.250.1.213.1.6.1.333"]
+    },
+    {
       "url" : "https://mos.esante.gouv.fr/NOS/TRE_R30-RegionOM/FHIR/TRE-R30-RegionOM?vs",
       "version" : "20250222120000",
       "status" : "active",
@@ -3659,6 +3776,19 @@
       "sources" : ["1.2.250.1.213.1.6.1.369"]
     },
     {
+      "url" : "https://mos.esante.gouv.fr/NOS/TRE_R300-AgregatDisciplineEquipSocNiv3/FHIR/TRE-R300-AgregatDisciplineEquipSocNiv3?vs",
+      "version" : "20250222120000",
+      "status" : "active",
+      "name" : "VsTreR300AgregatDisciplineEquipSocNiv3All",
+      "title" : "Vs Tre R300 Agregat Discipline Equip Soc Niv3 All",
+      "description" : "Jeu de valeurs ALL contenant les agrégats de disciplines d'équipement pour le social niveau 3",
+      "systems" : [
+        "https://mos.esante.gouv.fr/NOS/TRE_R300-AgregatDisciplineEquipSocNiv3/FHIR/TRE-R300-AgregatDisciplineEquipSocNiv3"
+      ],
+      "oids" : ["1.2.250.1.213.1.6.1.334"],
+      "sources" : ["1.2.250.1.213.1.6.1.334"]
+    },
+    {
       "url" : "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine?vs",
       "version" : "20250222120000",
       "status" : "active",
@@ -3670,6 +3800,97 @@
       ],
       "oids" : ["1.2.250.1.213.1.6.1.319"],
       "sources" : ["1.2.250.1.213.1.6.1.319"]
+    },
+    {
+      "url" : "https://mos.esante.gouv.fr/NOS/TRE_R63-AgregatCategorieEtablissementNiv1/FHIR/TRE-R63-AgregatCategorieEtablissementNiv1?vs",
+      "version" : "20250222120000",
+      "status" : "active",
+      "name" : "VsTreR63AgregatCategorieEtablissementNiv1All",
+      "title" : "Vs Tre R63 Agregat Categorie Etablissement Niv1 All",
+      "description" : "Jeu de valeurs ALL contenant les agrégats de catégories d'établissements niveau 1",
+      "systems" : [
+        "https://mos.esante.gouv.fr/NOS/TRE_R63-AgregatCategorieEtablissementNiv1/FHIR/TRE-R63-AgregatCategorieEtablissementNiv1"
+      ],
+      "oids" : ["1.2.250.1.213.1.6.1.315"],
+      "sources" : ["1.2.250.1.213.1.6.1.315"]
+    },
+    {
+      "url" : "https://mos.esante.gouv.fr/NOS/TRE_R64-AgregatCategorieEtablissementNiv2/FHIR/TRE-R64-AgregatCategorieEtablissementNiv2?vs",
+      "version" : "20250222120000",
+      "status" : "active",
+      "name" : "VsTreR64AgregatCategorieEtablissementNiv2All",
+      "title" : "Vs Tre R64 Agregat Categorie Etablissement Niv2 All",
+      "description" : "Jeu de valeurs ALL contenant les agrégats de catégories d'établissements niveau 2",
+      "systems" : [
+        "https://mos.esante.gouv.fr/NOS/TRE_R64-AgregatCategorieEtablissementNiv2/FHIR/TRE-R64-AgregatCategorieEtablissementNiv2"
+      ],
+      "oids" : ["1.2.250.1.213.1.6.1.316"],
+      "sources" : ["1.2.250.1.213.1.6.1.316"]
+    },
+    {
+      "url" : "https://mos.esante.gouv.fr/NOS/TRE_R65-AgregatCategorieEtablissement/FHIR/TRE-R65-AgregatCategorieEtablissement?vs",
+      "version" : "20250222120000",
+      "status" : "active",
+      "name" : "VsTreR65AgregatCategorieEtablissementNiv3All",
+      "title" : "Vs Tre R65 Agregat Categorie Etablissement Niv3 All",
+      "description" : "Jeu de valeurs ALL contenant les agrégats de catégories d'établissements niveau 3",
+      "systems" : [
+        "https://mos.esante.gouv.fr/NOS/TRE_R65-AgregatCategorieEtablissement/FHIR/TRE-R65-AgregatCategorieEtablissement"
+      ],
+      "oids" : ["1.2.250.1.213.1.6.1.317"],
+      "sources" : ["1.2.250.1.213.1.6.1.317"]
+    },
+    {
+      "url" : "https://mos.esante.gouv.fr/NOS/TRE_R68-FinessAgregatStatutJuridiqueNiv1/FHIR/TRE-R68-FinessAgregatStatutJuridiqueNiv1?vs",
+      "version" : "20250222120000",
+      "status" : "active",
+      "name" : "VsTreR68FinessAgregatStatutJuridiqueNiv1All",
+      "title" : "Vs Tre R68 Finess Agregat Statut Juridique Niv1 All",
+      "description" : "Jeu de valeurs ALL contenant les agrégats de statuts juridiques FINESS niveau 1",
+      "systems" : [
+        "https://mos.esante.gouv.fr/NOS/TRE_R68-FinessAgregatStatutJuridiqueNiv1/FHIR/TRE-R68-FinessAgregatStatutJuridiqueNiv1"
+      ],
+      "oids" : ["1.2.250.1.213.1.6.1.309"],
+      "sources" : ["1.2.250.1.213.1.6.1.309"]
+    },
+    {
+      "url" : "https://mos.esante.gouv.fr/NOS/TRE_R69-FinessAgregatStatutJuridiqueNiv2/FHIR/TRE-R69-FinessAgregatStatutJuridiqueNiv2?vs",
+      "version" : "20250222120000",
+      "status" : "active",
+      "name" : "VsTreR69FinessAgregatStatutJuridiqueNiv2All",
+      "title" : "Vs Tre R69 Finess Agregat Statut Juridique Niv2 All",
+      "description" : "Jeu de valeurs ALL contenant les agrégats de statuts juridiques FINESS niveau 2",
+      "systems" : [
+        "https://mos.esante.gouv.fr/NOS/TRE_R69-FinessAgregatStatutJuridiqueNiv2/FHIR/TRE-R69-FinessAgregatStatutJuridiqueNiv2"
+      ],
+      "oids" : ["1.2.250.1.213.1.6.1.310"],
+      "sources" : ["1.2.250.1.213.1.6.1.310"]
+    },
+    {
+      "url" : "https://mos.esante.gouv.fr/NOS/TRE_R70-FinessAgregatStatutJuridique/FHIR/TRE-R70-FinessAgregatStatutJuridique?vs",
+      "version" : "20250222120000",
+      "status" : "active",
+      "name" : "VsTreR70FinessAgregatStatutJuridiqueNiv3All",
+      "title" : "Vs Tre R70 Finess Agregat Statut Juridique Niv3 All",
+      "description" : "Jeu de valeurs ALL contenant les agrégats de statuts juridiques FINESS niveau 3",
+      "systems" : [
+        "https://mos.esante.gouv.fr/NOS/TRE_R70-FinessAgregatStatutJuridique/FHIR/TRE-R70-FinessAgregatStatutJuridique"
+      ],
+      "oids" : ["1.2.250.1.213.1.6.1.311"],
+      "sources" : ["1.2.250.1.213.1.6.1.311"]
+    },
+    {
+      "url" : "https://mos.esante.gouv.fr/NOS/TRE_R72-FinessStatutJuridique/FHIR/TRE-R72-FinessStatutJuridique?vs",
+      "version" : "20250222120000",
+      "status" : "active",
+      "name" : "VsTreR72FinessStatutJuridiqueAll",
+      "title" : "Vs Tre R72 Finess Statut Juridique All",
+      "description" : "Jeu de valeurs ALL contenant les statuts juridiques provenant de FINESS, excepté pour les codes 000 et 100 à 110 qui ont été ajoutés pour les besoins du RPPS en 2017.",
+      "systems" : [
+        "https://mos.esante.gouv.fr/NOS/TRE_R72-FinessStatutJuridique/FHIR/TRE-R72-FinessStatutJuridique"
+      ],
+      "oids" : ["1.2.250.1.213.1.6.1.312"],
+      "sources" : ["1.2.250.1.213.1.6.1.312"]
     },
     {
       "url" : "https://mos.esante.gouv.fr/NOS/TRE_R73-ESPIC/FHIR/TRE-R73-ESPIC?vs",
@@ -13264,8 +13485,8 @@
       "description" : "JDV_AntecedentsObstetricaux_OBP_CISIS",
       "systems" : [
         "https://smt.esante.gouv.fr/fhir/CodeSystem/1.2.250.1.213.1.1.4.322",
-        "urn:oid:2.16.840.1.113883.6.1",
-        "urn:oid:2.16.840.1.113883.6.3"
+        "http://loinc.org",
+        "https://smt.esante.gouv.fr/terminologie-cim-10"
       ],
       "oids" : ["1.2.250.1.213.1.1.5.732"],
       "sources" : ["1.2.250.1.213.1.1.5.732"]
@@ -14934,8 +15155,8 @@
       "systems" : ["https://smt.esante.gouv.fr/terminologie-bdpm"],
       "uses" : {
       },
-      "ConceptMap-alignement-bdpm-cipucd.html" : "Aligner les codes de présentation de la BDPM avec les codes CIP du référentiel CIP-UCD",
-      "ConceptMap-alignement-nuva-bdpm.html" : "Aligner les codes CIS et CIP de NUVA avec les codes CIS et CIP du BDPM"
+      "ConceptMap-alignement-nuva-bdpm.html" : "Aligner les codes CIS et CIP de NUVA avec les codes CIS et CIP du BDPM",
+      "ConceptMap-alignement-bdpm-cipucd.html" : "Aligner les codes de présentation de la BDPM avec les codes CIP du référentiel CIP-UCD"
     },
     {
       "url" : "https://smt.esante.gouv.fr/terminologie-cip_ucd?vs",
@@ -14961,8 +15182,8 @@
       "uses" : {
       },
       "ConceptMap-alignement-nuva-bdpm.html" : "Aligner les codes CIS et CIP de NUVA avec les codes CIS et CIP du BDPM",
-      "ConceptMap-alignement-nuva-cipucd.html" : "Aligner les codes CIP de NUVA avec les codes CIP du CIP_UCD",
-      "ConceptMap-alignement-nuva-atc.html" : "Aligner les codes ATC de NUVA avec les codes ATC"
+      "ConceptMap-alignement-nuva-atc.html" : "Aligner les codes ATC de NUVA avec les codes ATC",
+      "ConceptMap-alignement-nuva-cipucd.html" : "Aligner les codes CIP de NUVA avec les codes CIP du CIP_UCD"
     },
     {
       "url" : "https://smt.esante.gouv.fr/terminologie-sms?vs",
