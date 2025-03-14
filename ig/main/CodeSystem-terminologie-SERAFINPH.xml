@@ -3,8 +3,8 @@
 <CodeSystem xmlns="http://hl7.org/fhir">
   <id value="terminologie-SERAFINPH"/>
   <meta>
-    <versionId value="1.1708513585143"/>
-    <lastUpdated value="2024-02-21T11:06:25.143+00:00"/>
+    <versionId value="1.1741862495566"/>
+    <lastUpdated value="2025-03-13T10:41:35.566+00:00"/>
     <profile value="http://hl7.org/fhir/StructureDefinition/shareablecodesystem"/>
   </meta>
   <text>
