@@ -1,9 +1,9 @@
 Terminologies : Validation Results
 =========================================
 
-err = 1374, warn = 1683, info = 1028
+err = 1374, warn = 1678, info = 1028
 IG Publisher Version: 1.8.10 Out of date - current version is 1.8.20
-Generated Fri Mar 14 04:41:16 UTC 2025. FHIR version 4.0.1 for ans.fr.terminologies#0.1.0 (canonical = https://interop.esante.gouv.fr/terminologies)
+Generated Sat Mar 15 04:49:17 UTC 2025. FHIR version 4.0.1 for ans.fr.terminologies#0.1.0 (canonical = https://interop.esante.gouv.fr/terminologies)
  Build Errors : 678 / 20 / 0
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/DM/fsh-generated/resources/ConceptMap-ASS-A11-CorresModeleCDA-XdsFormatCode-CISIS : 0 / 0 / 1
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/DM/fsh-generated/resources/ConceptMap-ASS-A12-CorresMediaTypeCDANonStructure-XdsFormatCode-CISIS : 4 / 0 / 1
@@ -117,7 +117,7 @@ Generated Fri Mar 14 04:41:16 UTC 2025. FHIR version 4.0.1 for ans.fr.terminolog
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_AntecedentsCSE9_CISIS_1.2.250.1.213.1.1.5.103 : 0 / 0 / 1
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_AntecedentsObstetricaux_CISIS_1.2.250.1.213.1.1.5.122 : 0 / 2 / 1
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_AntecedentsObstetricaux_OBP_CISIS_1.2.250.1.213.1.1.4.2.289.2 : 5 / 4 / 1
- /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_AntecedentsObstetricaux_OBP_CISIS_1.2.250.1.213.1.1.5.732 : 0 / 5 / 1
+ /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_AntecedentsObstetricaux_OBP_CISIS_1.2.250.1.213.1.1.5.732 : 0 / 0 / 1
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_AntecedentsPersonnels_CISIS_1.2.250.1.213.1.1.5.34 : 0 / 2 / 1
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_AppreciationDiagnosticCentre_CISIS_1.2.250.1.213.1.1.5.44 : 0 / 0 / 1
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_ArtereAnt_CISIS_1.2.250.1.213.1.1.5.208 : 0 / 0 / 1
@@ -3145,11 +3145,6 @@ WARNING: ValueSet/1.2.250.1.213.1.1.4.2.289.2: ValueSet.compose.include[4]: Unkn
 ERROR: /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_AntecedentsObstetricaux_OBP_CISIS_1.2.250.1.213.1.1.4.2.289.2: URL Mismatch https://interop.esante.gouv.fr/terminologies/ValueSet/1.2.250.1.213.1.1.4.2.289.2 vs https://smt.esante.gouv.fr/fhir/ValueSet/1.2.250.1.213.1.1.4.2.289.2
 ERROR: ValueSet.text.div: Hyperlink 'CodeSystem-1.2.250.1.213.1.1.4.322.html#1.2.250.1.213.1.1.4.322-MED-164' at 'div/ul/li/table/tr/td/a' for 'MED-164' does not resolve
 == input/ontoserver/JDV/JDV_AntecedentsObstetricaux_OBP_CISIS_1.2.250.1.213.1.1.5.732.json ==
-WARNING: ValueSet/1.2.250.1.213.1.1.5.732: ValueSet.compose.include[0]: Unknown System 'urn:oid:2.16.840.1.113883.6.1' specified, so Concepts and Filters can't be checked (Details: A definition for CodeSystem 'urn:oid:2.16.840.1.113883.6.1' could not be found, so the code cannot be validated)
-WARNING: ValueSet/1.2.250.1.213.1.1.5.732: ValueSet.compose.include[1]: Unknown System 'urn:oid:2.16.840.1.113883.6.3' specified, so Concepts and Filters can't be checked (Details: A definition for CodeSystem 'urn:oid:2.16.840.1.113883.6.3' could not be found, so the code cannot be validated)
-WARNING: ValueSet/1.2.250.1.213.1.1.5.732: ValueSet.compose.include[2]: Unknown System 'urn:oid:2.16.840.1.113883.6.1' specified, so Concepts and Filters can't be checked (Details: A definition for CodeSystem 'urn:oid:2.16.840.1.113883.6.1' could not be found, so the code cannot be validated)
-WARNING: ValueSet/1.2.250.1.213.1.1.5.732: ValueSet.compose.include[4]: Unknown System 'urn:oid:2.16.840.1.113883.6.1' specified, so Concepts and Filters can't be checked (Details: A definition for CodeSystem 'urn:oid:2.16.840.1.113883.6.1' could not be found, so the code cannot be validated)
-WARNING: ValueSet.where(id = '1.2.250.1.213.1.1.5.732'): Error from http://tx.fhir.org/r4: Unable to provide support for code system urn:oid:2.16.840.1.113883.6.1
 == input/ontoserver/JDV/JDV_AntecedentsPersonnels_CISIS_1.2.250.1.213.1.1.5.34.json ==
 WARNING: ValueSet/1.2.250.1.213.1.1.5.34: ValueSet.compose.include[0]: Unknown System 'http://terminology.hl7.org/CodeSystem/icd10' specified, so Concepts and Filters can't be checked (Details: A definition for CodeSystem 'http://terminology.hl7.org/CodeSystem/icd10' could not be found, so the code cannot be validated)
 WARNING: ValueSet.where(id = '1.2.250.1.213.1.1.5.34'): Error from http://tx.fhir.org/r4: Unable to provide support for code system http://terminology.hl7.org/CodeSystem/icd10

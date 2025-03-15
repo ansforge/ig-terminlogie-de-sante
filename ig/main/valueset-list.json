@@ -12737,8 +12737,8 @@
       "description" : "JDV_AntecedentsObstetricaux_OBP_CISIS",
       "systems" : [
         "https://smt.esante.gouv.fr/fhir/CodeSystem/1.2.250.1.213.1.1.4.322",
-        "urn:oid:2.16.840.1.113883.6.1",
-        "urn:oid:2.16.840.1.113883.6.3"
+        "http://loinc.org",
+        "https://smt.esante.gouv.fr/terminologie-cim-10"
       ],
       "oids" : ["1.2.250.1.213.1.1.5.732"],
       "sources" : ["1.2.250.1.213.1.1.5.732"]

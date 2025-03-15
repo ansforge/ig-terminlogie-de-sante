@@ -27656,7 +27656,7 @@
          fhir:link <https://interop.esante.gouv.fr/terminologies/CodeSystem/terminologie-cim-10> ;
          fhir:reference [ fhir:v "CodeSystem/terminologie-cim-10" ]
        ] ;
-       fhir:name [ fhir:v "Classification internationale des maladies 10eme révision, version française à usage PMSI (Programme Médicalisé des Systèmes d'Information)" ] ;
+       fhir:name [ fhir:v "Classification internationale des maladies et des problèmes de santé connexes - 10ème révision - Version française à usage PMSI (Programme Médicalisé des Systèmes d'Information)" ] ;
        fhir:example [ fhir:v "false"^^xsd:boolean ]
      ] [
        fhir:extension ( [
