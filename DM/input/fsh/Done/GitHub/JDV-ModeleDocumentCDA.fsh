@@ -1,9 +1,9 @@
 Alias: $TRE-R220-ModeleDocumentCDAStructure = https://mos.esante.gouv.fr/NOS/TRE_R220-ModeleDocumentCDAStructure/FHIR/TRE-R220-ModeleDocumentCDAStructure
 Alias: $TRE-R221-ModeleDocumentCDANonStructure = https://mos.esante.gouv.fr/NOS/TRE_R221-ModeleDocumentCDANonStructure/FHIR/TRE-R221-ModeleDocumentCDANonStructure
 
-ValueSet: JDV_ModeleDocumentCDA
-Id: JDV-ModeleDocumentCDA
-Title: "JDV-ModeleDocumentCDA"
+ValueSet: JdvModeleDocumentCda
+Id: jdv-modele-document-cda
+Title: "Jdv Modele Document Cda"
 Description: "JDV avec l'ensemble des codes  de la TRE_R220_ModeleDocumentCDAStructure et TRE_R221_ModeleDocumentCDANonStructure"
 * ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablevalueset"
 * ^extension.url = "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod"
