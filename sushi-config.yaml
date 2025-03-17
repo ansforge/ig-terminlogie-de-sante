@@ -26,7 +26,7 @@ parameters:
     apply-publisher : false
     apply-jurisdiction : false
     path-expansion-params: '../../input/_resources/exp-params.json' # for using FR  of SNOMED    
-    related-ig: ref-impl:convention=ans.fr.documentation   
+#    related-ig: ref-impl:convention=ans.fr.documentation   
     logging:
       - tx #tx: Messages describing the use of the terminology server (for debugging)
       - html #html: Log when validating an html page (troubleshooting only - leave off)
