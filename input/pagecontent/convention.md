@@ -7,8 +7,6 @@ Vous trouverez ci-dessous la liste des sources :
 
 
 ### Règles pour les   jeux de valeur  (ValueSet)
-
-
 <table class="table table-bordered">
   <thead>
     <tr>
@@ -20,8 +18,8 @@ Vous trouverez ci-dessous la liste des sources :
   <tbody>
     <tr>
       <td style="text-align: left">id (*) </td>
-      <td style="text-align: left">Kebab Case sans  prefix de type 'JDV' ni suffix de type 'CI-SIS' </td>
-      <td>Exemple : xds-author-specialty</td>
+      <td style="text-align: left">Kebab Case </td>
+      <td>Exemple : jdv-xds-author-specialty</td>
     </tr>
     <tr>
       <td style="text-align: left">identifier</td>
@@ -37,14 +35,6 @@ Vous trouverez ci-dessous la liste des sources :
       <td>http://hl7.org/fhir/StructureDefinition/shareablevalueset</td>
     </tr>
     <tr>
-      <td style="text-align: left">meta (*)</td>
-      <td style="text-align: left">Gestion des permissions</td>
-      <td>Exemple : <code> {
-                "system": http://ontoserver.csiro.au/CodeSystem/ontoserver-permissions,
-                "code": "nos.write"
-            }</code></td>
-    </tr>
-    <tr>
       <td style="text-align: left">language </td>
       <td style="text-align: left"></td>
       <td>fr-FR</td>
@@ -53,26 +43,11 @@ Vous trouverez ci-dessous la liste des sources :
       <td style="text-align: left">url (*)</td>
       <td style="text-align: left"></td>
       <td>https://smt.esante.gouv.fr/fhir/ValueSet/{id}</td>
-    </tr>
-    <tr>
-      <td style="text-align: left">date.value (*)</td>
-      <td style="text-align: left">Date de la dernière mise à jour</td>
-      <td></td>
-    </tr>    
-    <tr>
-      <td style="text-align: left">extension.valuePeriod.start (*)</td>
-      <td style="text-align: left">Date de creation du JDV</td>
-      <td></td>
-    </tr>        
+    </tr> 
     <tr>
       <td style="text-align: left">version (*)</td>
-      <td style="text-align: left">Version au format date</td>
+      <td style="text-align: left">Version au format date (si nom imposé par l'UP)</td>
       <td>YYYYMMDDhhmmss</td>
-    </tr>
-    <tr>
-      <td style="text-align: left">status (*)</td>
-      <td style="text-align: left">statut : draft | active | retired | unknown</td>
-      <td></td>
     </tr>
     <tr>
       <td style="text-align: left">description (*)</td>
@@ -82,12 +57,12 @@ Vous trouverez ci-dessous la liste des sources :
     <tr>
       <td style="text-align: left">name (*)</td>
       <td style="text-align: left">UpperLowerCase</td>
-      <td>Exemple XdsAuthorSpecialty</td>
+      <td>Exemple :  JdvXdsAuthorSpecialty</td>
     </tr>    
     <tr>
       <td style="text-align: left">title (*)</td>
       <td style="text-align: left">Title Case</td>
-      <td>Exemple : Xds Author Specialty</td>
+      <td>Exemple : Jdv Xds Author Specialty</td>
     </tr>    
   </tbody>
 </table>
@@ -97,14 +72,7 @@ Vous trouverez ci-dessous la liste des sources :
 - id => {id-termino}-all
 - url => {url-termino}?vs
 On retrouve l'url du valuset dans la terminologie d'origine :
--   CodeSytem.valueSet =>  url 
-####  TO DO
-
-#### Comment Indiquer le porteur de la terminologie
-
-Preadoption de CodeSystem.endorser de R5  et R6 ?
-#### Comment Indiquer quelle est l'entité qui s'occupe la maintenance et publication  de la terminologie
-Preadoption de CodeSystem.author de R5  et R6 ?
+-   CodeSytem.valueSet =>  url
 
 ### Règles pour les terminologies (CodeSystem) 
 
@@ -120,8 +88,8 @@ Preadoption de CodeSystem.author de R5  et R6 ?
   <tbody>
     <tr>
       <td style="text-align: left">id (*)</td>
-      <td style="text-align: left">Kebab Case sans  prefix de type 'TRE' ni suffix de type 'CI-SIS' </td>
-      <td>Exemple : mode-exercice</td>
+      <td style="text-align: left">Kebab Case</td>
+      <td>Exemple : tre-mode-exercice</td>
     </tr>
     <tr>
       <td style="text-align: left">identifier</td>
@@ -132,42 +100,14 @@ Preadoption de CodeSystem.author de R5  et R6 ?
     } </code></td>
     </tr>    
     <tr>
-      <td style="text-align: left">meta.profile (*)</td>
-      <td style="text-align: left"></td>
-      <td>http://hl7.org/fhir/StructureDefinition/shareablecodesystem</td>
-    </tr>
-    <tr>
-      <td style="text-align: left">meta</td>
-      <td style="text-align: left">Gestion des permissions</td>
-      <td>Exemple : <code> {
-                "system": http://ontoserver.csiro.au/CodeSystem/ontoserver-permissions,
-                "code": "nos.write"
-            }</code></td>
-    </tr>
-    <tr>
       <td style="text-align: left">url (*)</td>
       <td style="text-align: left"></td>
       <td>https://smt.esante.gouv.fr/fhir/CodeSystem/{id}</td>
-    </tr>
-    <tr>
-      <td style="text-align: left">date.value</td>
-      <td style="text-align: left">Date de la dernière mise à jour</td>
-      <td></td>
-    </tr>    
-    <tr>
-      <td style="text-align: left">extension.valuePeriod.start</td>
-      <td style="text-align: left">Date de creation du JDV</td>
-      <td></td>
-    </tr>        
+    </tr>     
     <tr>
       <td style="text-align: left">version (*)</td>
-      <td style="text-align: left">Version au format date</td>
+      <td style="text-align: left">Version au format date si non imposé par l'UP</td>
       <td>YYYYMMDDhhmmss</td>
-    </tr>
-    <tr>
-      <td style="text-align: left">status (*)</td>
-      <td style="text-align: left">statut : draft | active | retired | unknown</td>
-      <td></td>
     </tr>
     <tr>
       <td style="text-align: left">description (*)</td>
@@ -177,119 +117,15 @@ Preadoption de CodeSystem.author de R5  et R6 ?
     <tr>
       <td style="text-align: left">name (*)</td>
       <td style="text-align: left">UpperLowerCase</td>
-      <td>Exemple :  ModeExercice</td>
+      <td>Exemple :  TreModeExercice</td>
     </tr>    
     <tr>
       <td style="text-align: left">title (*)</td>
       <td style="text-align: left">Title Case</td>
-      <td>Exemple : Mode Exercice</td>
+      <td>Exemple : Tre Mode Exercice</td>
     </tr>    
   </tbody>
 </table>
-
-####  TO DO
-
-#### Comment Indiquer le porteur du jeux de valeur
-
-Preadoption de ValueSet.endorser de R5  et R6 ?
-#### Comment Indiquer quelle est l'entité qui s'occupe la maintenance et publication  du jeux de valeur
-Preadoption de ValueSet.author de R5  et R6 ?
-
-
-### Règles pour les associations (ConceptMap) 
-
-
-<table class="table table-bordered">
-  <thead>
-    <tr>
-      <th style="text-align: left">Element</th>
-      <th style="text-align: left">Commentaire</th>
-      <th>Convention</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td style="text-align: left">id (*)</td>
-      <td style="text-align: left">Kebab Case sans  prefix de type 'ASS' ni suffix de type 'CI-SIS' </td>
-      <td>Exemple : model-document-cda-to-xds-format-code</td>
-    </tr>
-    <tr>
-      <td style="text-align: left">meta (*)</td>
-      <td style="text-align: left">Gestion des permissions</td>
-      <td>Exemple : <code> {
-                "system": http://ontoserver.csiro.au/CodeSystem/ontoserver-permissions,
-                "code": "nos.write"
-            }</code></td>
-    </tr>
-    <tr>
-      <td style="text-align: left">url</td>
-      <td style="text-align: left"></td>
-      <td>https://smt.esante.gouv.fr/fhir/ConceptMap/{id}</td>
-    </tr>
-    <tr>
-      <td style="text-align: left">date.value</td>
-      <td style="text-align: left">Date de la dernière mise à jour</td>
-      <td></td>
-    </tr>    
-    <tr>
-      <td style="text-align: left">extension.valuePeriod.start (*)</td>
-      <td style="text-align: left">Date de creation du JDV</td>
-      <td></td>
-    </tr>        
-    <tr>
-      <td style="text-align: left">version (*)</td>
-      <td style="text-align: left">Version au format date</td>
-      <td>YYYYMMDDhhmmss</td>
-    </tr>
-    <tr>
-      <td style="text-align: left">status (*)</td>
-      <td style="text-align: left">statut : draft | active | retired | unknown</td>
-      <td></td>
-    </tr>
-    <tr>
-      <td style="text-align: left">description (*)</td>
-      <td style="text-align: left">description</td>
-      <td></td>
-    </tr>     
-    <tr>
-      <td style="text-align: left">name (*)</td>
-      <td style="text-align: left">UpperLowerCase</td>
-      <td>Exemple :  ModelDocumentCdaToXdsFormatCode</td>
-    </tr>    
-    <tr>
-      <td style="text-align: left">title (*)</td>
-      <td style="text-align: left">Title Case</td>
-      <td>Exemple : Model Document Cda To Xds Format Code</td>
-    </tr>   
-    <tr>
-      <td style="text-align: left">sourceUri</td>
-      <td style="text-align: left">Obligatoire</td>
-      <td>JDV source</td>
-    </tr>        
-    <tr>
-      <td style="text-align: left">targetUri</td>
-      <td style="text-align: left">Obligatoire</td>
-      <td>JDV cible</td>
-    </tr>          
-    <tr>
-      <td style="text-align: left">UseContext</td>
-      <td style="text-align: left">Contexte d'utilisation</td>
-      <td>Exemple :  <code>      "code" : {
-        "system" : "http://terminology.hl7.org/CodeSystem/usage-context-type",
-        "code" : "task"
-      },
-      "valueCodeableConcept" : {
-        "text" : "Pour la constitution des metadata XDS"
-      } </code></td>
-    </tr>        
-
-    
-  </tbody>
-
-  
-</table>
-
-
 
 
 
