@@ -1,13 +1,9 @@
-<!-- layouts\layout-changehistory.html -->
-<!-- get modelType -->
-
-
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE HTML>
 <html xml:lang="en" xmlns="http://www.w3.org/1999/xhtml" lang="en">
   <head>
     <meta content="text/html;charset=utf-8" http-equiv="Content-Type"/>
-    <title> - Terminologies  de Santé (Publiées par l'ANS) v0.1.0</title>
+    <title>Conventtion de nommage - Terminologies  de Santé (Publiées par l'ANS) v0.1.0</title>
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <meta name="author" content="http://hl7.org/fhir"/>
@@ -45,8 +41,8 @@
 
 	  <script src="assets/js/prism.js"></script>
 
-    <style type="text/css">h2{--heading-prefix:""}
-    h3,h4,h5,h6{--heading-prefix:""}</style>
+    <style type="text/css">h2{--heading-prefix:"6.1"}
+    h3,h4,h5,h6{--heading-prefix:"6.1"}</style>
     <div id="segment-header" class="segment">  <!-- segment-header -->
       <div class="container">  <!-- container -->
         <!-- Placeholder for child template header declarations -->
@@ -112,6 +108,9 @@
     </a>
     <ul class="dropdown-menu">
       <li>
+        <a href="convention.html">Convention de nommage</a>
+      </li>
+      <li>
         <a href="telechargementNos.html">Téléchargement (NOS)</a>
       </li>
       <li>
@@ -143,11 +142,15 @@
     <div id="segment-breadcrumb" class="segment">  <!-- segment-breadcrumb -->
       <div class="container">  <!-- container -->
         <ul class="breadcrumb">
-          
+          <li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='autres_ressources.html'><b>Autres Ressources</b></a></li><li><b>Conventtion de nommage</b></li>
 
           <span style="float:right;">
 
+            <a href="autres_ressources.html">&lt;prev</a> | 
+
             <a href="#bottom">bottom</a>
+
+          | <a href="telechargementNos.html">next&gt;</a>
 
           </span>
 
@@ -160,67 +163,16 @@
       <div class="container">  <!-- container -->
         <div class="row">
           <div class="inner-wrapper">
-
-<div style="counter-reset: section 10" class="col-12">
+<style type="text/css">
+h2:before{color:silver;counter-increment:section;content:var(--heading-prefix) " ";}
+h3:before{color:silver;counter-increment:sub-section;content:var(--heading-prefix) "." counter(sub-section) " ";}
+h4:before{color:silver;counter-increment:composite;content:var(--heading-prefix) "." counter(sub-section) "." counter(composite) " ";}
+h5:before{color:silver;counter-increment:detail;content:var(--heading-prefix) "." counter(sub-section) "." counter(composite) "." counter(detail) " ";}
+h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefix) "." counter(sub-section) "." counter(composite) "." counter(detail) "." counter(more-detail)" ";}
+</style>
+<div class="col-12">
   <!--ReleaseHeader--><p id="publish-box">Terminologies  de Santé (Publiées par l'ANS) - Local Development build (v0.1.0) built by the FHIR (HL7® FHIR® Standard) Build Tools. See the <a href="https://interop.esante.gouv.fr/terminologies/history.html">Directory of published versions</a></p><!--EndReleaseHeader-->
-  
-
-
-
-
-
-
-
-
-<ul class="nav nav-tabs">
-
-  <li>
-    <a href="ValueSet-JDV-TRE-R221-ModeleDocumentCDANonStructure-all.html">Narrative Content</a>
-  </li>
-
-
-
-  
-    <li>
-      <a href="ValueSet-JDV-TRE-R221-ModeleDocumentCDANonStructure-all.xml.html">XML</a>
-    </li>
-  
-
-
-  
-    <li>
-      <a href="ValueSet-JDV-TRE-R221-ModeleDocumentCDANonStructure-all.json.html">JSON</a>
-    </li>
-  
-
-
-  
-    <li>
-      <a href="ValueSet-JDV-TRE-R221-ModeleDocumentCDANonStructure-all.ttl.html">TTL</a>
-    </li>
-  
-
-
-
-
-
-
-<li>
-  <a href="ValueSet-JDV-TRE-R221-ModeleDocumentCDANonStructure-all.histoire.html">Historique</a>
-</li>
-
-
-
-<li>
-  <a href="ValueSet-JDV-TRE-R221-ModeleDocumentCDANonStructure-all.demande.html">Demande</a>
-</li>
-
-
-
-  
-  <li>
-    <a href="ValueSet-JDV-TRE-R221-ModeleDocumentCDANonStructure-all.tel.html">Telechargement</a>
-  </li>
+  <h2>Conventtion de nommage</h2>
   
 
 
@@ -232,17 +184,151 @@
 
 
 
+
+
+    <p><!-- white space is critical inside of capture --></p>
+<div class="markdown-toc">
+<ul id="markdown-toc">
+  <li><a href="#source" id="markdown-toc-source">Source</a></li>
+  <li><a href="#règles-pour-les---jeux-de-valeur--valueset" id="markdown-toc-règles-pour-les---jeux-de-valeur--valueset">Règles pour les   jeux de valeur  (ValueSet)</a></li>
+  <li><a href="#règles-pour-les-terminologies-codesystem" id="markdown-toc-règles-pour-les-terminologies-codesystem">Règles pour les terminologies (CodeSystem)</a></li>
 </ul>
 
+</div>
+<h3 id="source">Source</h3>
 
-  <a name="root"> </a>
-  <h2 id="root">: JDV_TRE_R221_ModeleDocumentCDANonStructure - Change History</h2>
-  <p>History of changes for JDV-TRE-R221-ModeleDocumentCDANonStructure-all .</p>
+<p>Vous trouverez ci-dessous la liste des sources :</p>
+<ul>
+  <li><a href="Strategie_NOS_SMT_v1.9.pdf">Recommandations et stratégies pour la gestion des objets FHIR® du NOS en vue  de leur intégration au  FHIR Terminology  Service du SMT</a></li>
+  <li>https://interop.esante.gouv.fr/ig/documentation/bonnes_pratiques_modeler.html</li>
+  <li>https://confluence.hl7.org/pages/viewpage.action?pageId=35718826#GuidetoDesigningResources-NamingRules&amp;Guidelines</li>
+</ul>
 
-  
+<h3 id="règles-pour-les---jeux-de-valeur--valueset">Règles pour les   jeux de valeur  (ValueSet)</h3>
+<table class="table table-bordered">
+  <thead>
+    <tr>
+      <th style="text-align: left">Element</th>
+      <th style="text-align: left">Commentaire</th>
+      <th>Convention</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: left">id (*) </td>
+      <td style="text-align: left">Kebab Case </td>
+      <td>Exemple : jdv-xds-author-specialty</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">identifier</td>
+      <td style="text-align: left">Permet d'identiquer  l'OID </td>
+      <td>Exemple : <code>    {
+      "system" : "urn:ietf:rfc:3986",
+      "value" : "urn:oid:1.2.250.1.213.1.1.5.461"
+    } </code></td>
+    </tr>    
+    <tr>
+      <td style="text-align: left">meta.profile (*)</td>
+      <td style="text-align: left"></td>
+      <td>http://hl7.org/fhir/StructureDefinition/shareablevalueset</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">language </td>
+      <td style="text-align: left"></td>
+      <td>fr-FR</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">url (*)</td>
+      <td style="text-align: left"></td>
+      <td>https://smt.esante.gouv.fr/fhir/ValueSet/{id}</td>
+    </tr> 
+    <tr>
+      <td style="text-align: left">version (*)</td>
+      <td style="text-align: left">Version au format date (si nom imposé par l'UP)</td>
+      <td>YYYYMMDDhhmmss</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">description (*)</td>
+      <td style="text-align: left">Descripption </td>
+      <td></td>
+    </tr>     
+    <tr>
+      <td style="text-align: left">name (*)</td>
+      <td style="text-align: left">UpperLowerCase</td>
+      <td>Exemple :  JdvXdsAuthorSpecialty</td>
+    </tr>    
+    <tr>
+      <td style="text-align: left">title (*)</td>
+      <td style="text-align: left">Title Case</td>
+      <td>Exemple : Jdv Xds Author Specialty</td>
+    </tr>    
+  </tbody>
+</table>
+
+<h4 id="jeux-de-valeur-représentant-lensemble-de-la-terminologie">jeux de valeur représentant l’ensemble de la terminologie</h4>
+<ul>
+  <li>id =&gt; {id-termino}-all</li>
+  <li>url =&gt; {url-termino}?vs
+On retrouve l’url du valuset dans la terminologie d’origine :</li>
+  <li>CodeSytem.valueSet =&gt;  url</li>
+</ul>
+
+<h3 id="règles-pour-les-terminologies-codesystem">Règles pour les terminologies (CodeSystem)</h3>
+
+<table class="table table-bordered">
+  <thead>
+    <tr>
+      <th style="text-align: left">Element</th>
+      <th style="text-align: left">Commentaire</th>
+      <th>Convention</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: left">id (*)</td>
+      <td style="text-align: left">Kebab Case</td>
+      <td>Exemple : tre-mode-exercice</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">identifier</td>
+      <td style="text-align: left">Permet d'identiquer  l'OID </td>
+      <td>Exemple : <code>    {
+      "system" : "urn:ietf:rfc:3986",
+      "value" : "urn:oid:1.2.250.1.213.1.6.1.18"
+    } </code></td>
+    </tr>    
+    <tr>
+      <td style="text-align: left">url (*)</td>
+      <td style="text-align: left"></td>
+      <td>https://smt.esante.gouv.fr/fhir/CodeSystem/{id}</td>
+    </tr>     
+    <tr>
+      <td style="text-align: left">version (*)</td>
+      <td style="text-align: left">Version au format date si non imposé par l'UP</td>
+      <td>YYYYMMDDhhmmss</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">description (*)</td>
+      <td style="text-align: left">description</td>
+      <td></td>
+    </tr>     
+    <tr>
+      <td style="text-align: left">name (*)</td>
+      <td style="text-align: left">UpperLowerCase</td>
+      <td>Exemple :  TreModeExercice</td>
+    </tr>    
+    <tr>
+      <td style="text-align: left">title (*)</td>
+      <td style="text-align: left">Title Case</td>
+      <td>Exemple : Tre Mode Exercice</td>
+    </tr>    
+  </tbody>
+</table>
+
+
+
 
 </div>
-
 </div>  <!-- /inner-wrapper -->
 </div>  <!-- /row -->
 </div>  <!-- /container -->
@@ -250,8 +336,6 @@
 
 <script type="text/javascript" src="assets/js/jquery.js"> </script>     <!-- note keep space here, otherwise it will be transformed to empty tag -> fails -->
 <script type="text/javascript" src="assets/js/jquery-ui.min.js"> </script>
-
-<script type="text/javascript" src="assets/js/tabs.js"> </script>
 
 <script type="text/javascript" src="assets/js/window-hash.js"> </script>
 <a name="bottom"> </a>
@@ -264,7 +348,7 @@
       <tr>
         <td style="text-align:left">&#xA0;
 
-          <span style="visibility:hidden">&lt;prev</span>
+          <a href="autres_ressources.html">&lt;prev</a>
 
         </td>
         <td style="text-align:center">
@@ -272,7 +356,7 @@
         </td>
         <td style="text-align:right">&#xA0;
 
-          <span style="visibility:hidden">next&gt;</span>
+          <a href="telechargementNos.html">next&gt;</a>
 
         </td>
       </tr>
@@ -282,7 +366,7 @@
 
 <div class="inner-wrapper">
   <p>
-    IG &#169; 2020+ <a style="color:var(--footer-hyperlink-text-color)" href="https://esante.gouv.fr">ANS</a>.  Package ans.fr.terminologies#0.1.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Mon, Mar 17, 2025 04:23+0000">2025-03-17</span>
+    IG &#169; 2020+ <a style="color:var(--footer-hyperlink-text-color)" href="https://esante.gouv.fr">ANS</a>.  Package ans.fr.terminologies#0.1.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Mon, Mar 17, 2025 13:15+0000">2025-03-17</span>
     <br/>
     <span style="color: var(--footer-highlight-text-color)"></span>
       Liens: <a style="color: var(--footer-hyperlink-text-color)" href="toc.html">Table des matières </a> |

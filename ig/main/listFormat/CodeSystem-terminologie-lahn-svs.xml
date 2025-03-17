@@ -4,7 +4,7 @@
    <ValueSet dateFin=""
              dateMaj="20241009000000"
              dateValid=""
-             description="La liste des actes innovants hors nomenclature (LAHN), a été mise en place par la direction générale de l’offre de soins (DGOS) en 2024, dans le cadre du développement de l’innovation en santé,  en remplacement du dispositif RIHN plus liste complémentaire. La LAHN en est la fusion.  L’objectif est de soutenir l’innovation et de la dynamiser par une prise en charge et une évaluation rapide des actes innovant.&#xA;La LAHN contient une liste d’actes innovants (biologie et anatomocytopathologie) pris en charge à titre transitoire moyennant un recueil de données pour leur évaluation."
+             description="La liste des actes innovants hors nomenclature (LAHN) a été mise en place par la direction générale de l’offre de soins (DGOS) en 2024, dans le cadre du développement de l’innovation en santé. Elle est la fusion du RIHN et de la Liste Complémentaire (LC). L’objectif est de soutenir l’innovation et de la dynamiser par une prise en charge et une évaluation rapide des actes innovants. La LAHN contient une liste d’actes innovants (biologie et anatomocytopathologie) pris en charge à titre transitoire moyennant un recueil de données pour leur évaluation."
              displayName="LAHN"
              id=""
              typeFichier="TRE"

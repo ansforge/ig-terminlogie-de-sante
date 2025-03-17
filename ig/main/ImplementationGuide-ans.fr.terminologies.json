@@ -3,7 +3,7 @@
   "id" : "ans.fr.terminologies",
   "text" : {
     "status" : "generated",
-    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ImplementationGuide ans.fr.terminologies</b></p><a name=\"ans.fr.terminologies\"> </a><a name=\"hcans.fr.terminologies\"> </a><a name=\"ans.fr.terminologies-fr-FR\"> </a><h2>Terminologies</h2><p>The official URL for this implementation guide is: </p><pre>https://interop.esante.gouv.fr/terminologies/ImplementationGuide/ans.fr.terminologies</pre><div><p>Les nomenclatures des objets de Santé sont mises à disposition du secteur santé-social par l’agence du numérique en santé</p>\n</div></div>"
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ImplementationGuide ans.fr.terminologies</b></p><a name=\"ans.fr.terminologies\"> </a><a name=\"hcans.fr.terminologies\"> </a><a name=\"ans.fr.terminologies-fr-FR\"> </a><h2>Terminologies</h2><p>LURL officielle pour ce guide dimplémentation est : </p><pre>https://interop.esante.gouv.fr/terminologies/ImplementationGuide/ans.fr.terminologies</pre><div><p>Les nomenclatures des objets de Santé sont mises à disposition du secteur santé-social par l’agence du numérique en santé</p>\n</div></div>"
   },
   "url" : "https://interop.esante.gouv.fr/terminologies/ImplementationGuide/ans.fr.terminologies",
   "version" : "0.1.0",
@@ -16361,7 +16361,7 @@
     },
     {
       "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-internal-dependency",
-      "valueCode" : "hl7.fhir.uv.tools.r4#0.3.0"
+      "valueCode" : "hl7.fhir.uv.tools.r4#0.4.1"
     },
     {
       "extension" : [{
@@ -33671,17 +33671,6 @@
         "valueString" : "CodeSystem"
       }],
       "reference" : {
-        "reference" : "CodeSystem/terminologie-standardterms"
-      },
-      "name" : "EDQM___Standard_Terms",
-      "exampleBoolean" : false
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "CodeSystem"
-      }],
-      "reference" : {
         "reference" : "CodeSystem/terminologie-emdn"
       },
       "name" : "EMDN",
@@ -33765,21 +33754,9 @@
         "valueString" : "ValueSet"
       }],
       "reference" : {
-        "reference" : "ValueSet/TRE-R222-MediaTypeCorpsCDANonStructure-all"
+        "reference" : "ValueSet/jdv-modele-document-cda"
       },
-      "name" : "JDV-MediaTypeCorpsCDANonStructure",
-      "description" : "JDV avec l'ensemble des codes actifs de la TRE_R222_MediaTypeCorpsCDANonStructure",
-      "exampleBoolean" : false
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "ValueSet"
-      }],
-      "reference" : {
-        "reference" : "ValueSet/JDV-ModeleDocumentCDA"
-      },
-      "name" : "JDV-ModeleDocumentCDA",
+      "name" : "Jdv Modele Document Cda",
       "description" : "JDV avec l'ensemble des codes  de la TRE_R220_ModeleDocumentCDAStructure et TRE_R221_ModeleDocumentCDANonStructure",
       "exampleBoolean" : false
     },
@@ -33789,10 +33766,22 @@
         "valueString" : "ValueSet"
       }],
       "reference" : {
-        "reference" : "ValueSet/JDV-TRE-R221-ModeleDocumentCDANonStructure-all"
+        "reference" : "ValueSet/jdv-tre-r221-modele-document-cda-non-structure-all"
       },
-      "name" : "JDV-ModeleDocumentCDANonStructure",
+      "name" : "Jdv Tre R221 Modele Document Cda Non Structure All",
       "description" : "JDV avec l'ensemble des codes actifs de la TRE_R221_ModeleDocumentCDANonStructure",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      }],
+      "reference" : {
+        "reference" : "ValueSet/TRE-R222-MediaTypeCorpsCDANonStructure-all"
+      },
+      "name" : "JDV-MediaTypeCorpsCDANonStructure",
+      "description" : "JDV avec l'ensemble des codes actifs de la TRE_R222_MediaTypeCorpsCDANonStructure",
       "exampleBoolean" : false
     },
     {
@@ -46944,7 +46933,7 @@
         "reference" : "CodeSystem/terminologie-lahn"
       },
       "name" : "Liste des Actes Inovants Hors Nomenclature",
-      "description" : "La liste des actes innovants hors nomenclature (LAHN), a été mise en place par la direction générale de l’offre de soins (DGOS) en 2024, dans le cadre du développement de l’innovation en santé,  en remplacement du dispositif RIHN plus liste complémentaire. La LAHN en est la fusion.  L’objectif est de soutenir l’innovation et de la dynamiser par une prise en charge et une évaluation rapide des actes innovant.\nLa LAHN contient une liste d’actes innovants (biologie et anatomocytopathologie) pris en charge à titre transitoire moyennant un recueil de données pour leur évaluation.",
+      "description" : "La liste des actes innovants hors nomenclature (LAHN) a été mise en place par la direction générale de l’offre de soins (DGOS) en 2024, dans le cadre du développement de l’innovation en santé. Elle est la fusion du RIHN et de la Liste Complémentaire (LC). L’objectif est de soutenir l’innovation et de la dynamiser par une prise en charge et une évaluation rapide des actes innovants. La LAHN contient une liste d’actes innovants (biologie et anatomocytopathologie) pris en charge à titre transitoire moyennant un recueil de données pour leur évaluation.",
       "exampleBoolean" : false
     },
     {
@@ -47049,6 +47038,17 @@
         "reference" : "NamingSystem/Snomed-CT-core"
       },
       "name" : "Snomed_CT_core_900000000000207008",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "CodeSystem"
+      }],
+      "reference" : {
+        "reference" : "CodeSystem/terminologie-standardterms"
+      },
+      "name" : "Standard Terms Data Base Dictionnaire européen multilingue de termes normalisés descripteurs de médicaments",
       "exampleBoolean" : false
     },
     {
@@ -50292,6 +50292,15 @@
         "title" : "Autres Ressources",
         "generation" : "markdown",
         "page" : [{
+          "extension" : [{
+            "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name",
+            "valueUrl" : "convention.html"
+          }],
+          "nameUrl" : "convention.html",
+          "title" : "Conventtion de nommage",
+          "generation" : "markdown"
+        },
+        {
           "extension" : [{
             "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name",
             "valueUrl" : "telechargementNos.html"

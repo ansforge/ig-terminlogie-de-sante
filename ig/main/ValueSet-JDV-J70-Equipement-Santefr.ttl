@@ -1,5 +1,6 @@
 @prefix fhir: <http://hl7.org/fhir/> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
@@ -16,9 +17,10 @@
        fhir:link <http://hl7.org/fhir/StructureDefinition/shareablevalueset>
      ] )
   ] ; # 
+  fhir:language [ fhir:v "fr-FR"] ; # 
   fhir:text [
      fhir:status [ fhir:v "generated" ] ;
-     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>JDV_J70_Equipement_Santefr</h2><tt>https://mos.esante.gouv.fr/NOS/JDV_J70-Equipement-Santefr/FHIR/JDV-J70-Equipement-Santefr</tt><p>Equipements Santé.fr</p></div>"
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>JDV_J70_Equipement_Santefr</h2><tt>https://mos.esante.gouv.fr/NOS/JDV_J70-Equipement-Santefr/FHIR/JDV-J70-Equipement-Santefr</tt><p>Equipements Santé.fr</p></div>"^^rdf:XMLLiteral
   ] ; # 
   fhir:extension ( [
      fhir:url [ fhir:v "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod"^^xsd:anyURI ] ;
@@ -36,7 +38,7 @@
   fhir:name [ fhir:v "JDV_J70_Equipement_Santefr"] ; # 
   fhir:title [ fhir:v "JDV J70 Equipement Santefr"] ; # 
   fhir:status [ fhir:v "retired"] ; # 
-  fhir:experimental [ fhir:v "false"^^xsd:boolean] ; # 
+  fhir:experimental [ fhir:v false] ; # 
   fhir:date [ fhir:v "2024-04-26T12:00:00+01:00"^^xsd:dateTime] ; # 
   fhir:publisher [ fhir:v "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris"] ; # 
   fhir:description [ fhir:v "Equipements Santé.fr"] ; # 

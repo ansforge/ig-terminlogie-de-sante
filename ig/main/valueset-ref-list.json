@@ -43,8 +43,8 @@
       "url" : "https://mos.esante.gouv.fr/NOS/JDV-ModeleDocumentCDA",
       "version" : "1.1.0",
       "status" : "active",
-      "name" : "JDV_ModeleDocumentCDA",
-      "title" : "JDV-ModeleDocumentCDA",
+      "name" : "JdvModeleDocumentCda",
+      "title" : "Jdv Modele Document Cda",
       "description" : "JDV avec l'ensemble des codes  de la TRE_R220_ModeleDocumentCDAStructure et TRE_R221_ModeleDocumentCDANonStructure",
       "systems" : [
         "https://mos.esante.gouv.fr/NOS/TRE_R221-ModeleDocumentCDANonStructure/FHIR/TRE-R221-ModeleDocumentCDANonStructure",
@@ -3560,8 +3560,8 @@
       "url" : "https://mos.esante.gouv.fr/NOS/TRE_R221-ModeleDocumentCDANonStructure/FHIR/TRE-R221-ModeleDocumentCDANonStructure?vs",
       "version" : "1.1.0",
       "status" : "active",
-      "name" : "JDV_TRE_R221_ModeleDocumentCDANonStructure",
-      "title" : "JDV-ModeleDocumentCDANonStructure",
+      "name" : "JdvTreR221ModeleDocumentCdaNonStructureAll",
+      "title" : "Jdv Tre R221 Modele Document Cda Non Structure All",
       "description" : "JDV avec l'ensemble des codes actifs de la TRE_R221_ModeleDocumentCDANonStructure",
       "systems" : [
         "https://mos.esante.gouv.fr/NOS/TRE_R221-ModeleDocumentCDANonStructure/FHIR/TRE-R221-ModeleDocumentCDANonStructure"
@@ -14453,8 +14453,8 @@
       "systems" : ["https://smt.esante.gouv.fr/terminologie-cip_ucd"],
       "uses" : {
       },
-      "ConceptMap-alignement-nuva-cipucd.html" : "Aligner les codes CIP de NUVA avec les codes CIP du CIP_UCD",
-      "ConceptMap-alignement-bdpm-cipucd.html" : "Aligner les codes de présentation de la BDPM avec les codes CIP du référentiel CIP-UCD"
+      "ConceptMap-alignement-bdpm-cipucd.html" : "Aligner les codes de présentation de la BDPM avec les codes CIP du référentiel CIP-UCD",
+      "ConceptMap-alignement-nuva-cipucd.html" : "Aligner les codes CIP de NUVA avec les codes CIP du CIP_UCD"
     },
     {
       "url" : "https://smt.esante.gouv.fr/terminologie-nuva?vs",
@@ -14466,9 +14466,9 @@
       "systems" : ["https://smt.esante.gouv.fr/terminologie-nuva"],
       "uses" : {
       },
+      "ConceptMap-alignement-nuva-atc.html" : "Aligner les codes ATC de NUVA avec les codes ATC",
       "ConceptMap-alignement-nuva-bdpm.html" : "Aligner les codes CIS et CIP de NUVA avec les codes CIS et CIP du BDPM",
-      "ConceptMap-alignement-nuva-cipucd.html" : "Aligner les codes CIP de NUVA avec les codes CIP du CIP_UCD",
-      "ConceptMap-alignement-nuva-atc.html" : "Aligner les codes ATC de NUVA avec les codes ATC"
+      "ConceptMap-alignement-nuva-cipucd.html" : "Aligner les codes CIP de NUVA avec les codes CIP du CIP_UCD"
     },
     {
       "url" : "https://smt.esante.gouv.fr/terminologie-sms?vs",

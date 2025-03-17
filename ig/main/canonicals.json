@@ -254,11 +254,11 @@
     "name" : "JDV_TRE_R222_MediaTypeCorpsCDANonStructure"
   },
   {
-    "id" : "JDV-ModeleDocumentCDA",
+    "id" : "jdv-modele-document-cda",
     "type" : "ValueSet",
     "url" : "https://mos.esante.gouv.fr/NOS/JDV-ModeleDocumentCDA",
     "version" : "1.1.0",
-    "name" : "JDV_ModeleDocumentCDA"
+    "name" : "JdvModeleDocumentCda"
   },
   {
     "id" : "JDV-J01-XdsAuthorSpecialty-CISIS",
@@ -2893,11 +2893,11 @@
     "oids" : ["1.2.250.1.213.1.1.4.329"]
   },
   {
-    "id" : "JDV-TRE-R221-ModeleDocumentCDANonStructure-all",
+    "id" : "jdv-tre-r221-modele-document-cda-non-structure-all",
     "type" : "ValueSet",
     "url" : "https://mos.esante.gouv.fr/NOS/TRE_R221-ModeleDocumentCDANonStructure/FHIR/TRE-R221-ModeleDocumentCDANonStructure?vs",
     "version" : "1.1.0",
-    "name" : "JDV_TRE_R221_ModeleDocumentCDANonStructure"
+    "name" : "JdvTreR221ModeleDocumentCdaNonStructureAll"
   },
   {
     "id" : "TRE-R222-MediaTypeCorpsCDANonStructure",
@@ -11596,7 +11596,7 @@
     "type" : "CodeSystem",
     "url" : "https://smt.esante.gouv.fr/terminologie-standardterms",
     "version" : "2024-06-20",
-    "name" : "EDQM___Standard_Terms",
+    "name" : "Standard_terms_EDQM",
     "oids" : ["0.4.0.127.0.16.1.1.2.1"]
   },
   {

@@ -41,8 +41,8 @@
 
 	  <script src="assets/js/prism.js"></script>
 
-    <style type="text/css">h2{--heading-prefix:"8.1172"}
-    h3,h4,h5,h6{--heading-prefix:"8.1172"}</style>
+    <style type="text/css">h2{--heading-prefix:"8.1171"}
+    h3,h4,h5,h6{--heading-prefix:"8.1171"}</style>
     <div id="segment-header" class="segment">  <!-- segment-header -->
       <div class="container">  <!-- container -->
         <!-- Placeholder for child template header declarations -->
@@ -107,6 +107,9 @@
       <b class="caret"></b>
     </a>
     <ul class="dropdown-menu">
+      <li>
+        <a href="convention.html">Convention de nommage</a>
+      </li>
       <li>
         <a href="telechargementNos.html">Téléchargement (NOS)</a>
       </li>
@@ -340,7 +343,9 @@
  <li><a href="http://hl7.org/fhir/R4/valueset-administration-method-codes.html">SNOMEDCTAdministrationMethodCodes</a></li>
  <li><a href="http://hl7.org/fhir/R4/valueset-adverse-event-type.html">SNOMEDCTClinicalFindings</a></li>
  <li><a href="http://hl7.org/fhir/R4/valueset-allergyintolerance-code.html">AllergyIntoleranceSubstance/Product,ConditionAndNegationCodes</a></li>
+ <li><a href="http://hl7.org/fhir/R4/valueset-animal-breeds.html">AnimalBreeds</a></li>
  <li><a href="http://hl7.org/fhir/extensions/5.2.0/ValueSet-animal-breeds.html">AnimalBreeds</a></li>
+ <li><a href="http://hl7.org/fhir/R4/valueset-animal-species.html">AnimalSpecies</a></li>
  <li><a href="http://hl7.org/fhir/extensions/5.2.0/ValueSet-animal-species.html">AnimalSpecies</a></li>
  <li><a href="http://hl7.org/fhir/R4/valueset-approach-site-codes.html">SNOMEDCTAnatomicalStructureForAdministrationSiteCodes</a></li>
  <li><a href="http://hl7.org/fhir/extensions/5.2.0/ValueSet-barrier.html">Barrier</a></li>
@@ -354,18 +359,23 @@
  <li><a href="http://hl7.org/fhir/R4/valueset-care-plan-category.html">CarePlanCategory</a></li>
  <li><a href="http://hl7.org/fhir/R4/valueset-clinical-findings.html">SNOMEDCTClinicalFindings</a></li>
  <li><a href="http://hl7.org/fhir/R4/valueset-clinicalimpression-prognosis.html">ClinicalImpressionPrognosis</a></li>
+ <li><a href="http://hl7.org/fhir/R4/valueset-condition-cause.html">ConditionCauseCodes</a></li>
  <li><a href="http://hl7.org/fhir/extensions/5.2.0/ValueSet-condition-cause.html">ConditionCauseCodes</a></li>
  <li><a href="http://hl7.org/fhir/R4/valueset-condition-code.html">Condition/Problem/DiagnosisCodes</a></li>
  <li><a href="http://hl7.org/fhir/extensions/5.2.0/ValueSet-condition-course.html">ConditionCourseCodes</a></li>
  <li><a href="http://hl7.org/fhir/R4/valueset-condition-outcome.html">ConditionOutcomeCodes</a></li>
+ <li><a href="http://hl7.org/fhir/R4/valueset-condition-predecessor.html">ConditionPredecessorCodes</a></li>
  <li><a href="http://hl7.org/fhir/extensions/5.2.0/ValueSet-condition-predecessor.html">ConditionPredecessorCodes</a></li>
  <li><a href="http://hl7.org/fhir/R4/valueset-condition-severity.html">Condition/DiagnosisSeverity</a></li>
  <li><a href="http://hl7.org/fhir/R4/valueset-condition-stage.html">ConditionStage</a></li>
  <li><a href="http://hl7.org/fhir/R4/valueset-condition-stage-type.html">ConditionStageType</a></li>
  <li><a href="http://hl7.org/fhir/R4/valueset-consistency-type.html">FluidConsistencyTypeCodes</a></li>
  <li><a href="http://hl7.org/fhir/R4/valueset-container-material.html">ContainerMaterials</a></li>
+ <li><a href="http://hl7.org/fhir/R4/valueset-dataelement-sdcobjectclass.html">DataElementSDCObjectClass</a></li>
  <li><a href="http://hl7.org/fhir/extensions/5.2.0/ValueSet-dataelement-sdcobjectclass.html">DataElementSDCObjectClass</a></li>
+ <li><a href="http://hl7.org/fhir/R4/valueset-dataelement-sdcobjectclassproperty.html">DataElementSDCObjectClass</a></li>
  <li><a href="http://hl7.org/fhir/extensions/5.2.0/ValueSet-dataelement-sdcobjectclassproperty.html">DataElementSDCObjectClassProperty</a></li>
+ <li><a href="http://hl7.org/fhir/R4/valueset-designation-use.html">DesignationUse</a></li>
  <li><a href="ValueSet-designation-use.html">DesignationUse</a></li>
  <li><a href="http://hl7.org/fhir/R4/valueset-device-action.html">ProcedureDeviceActionCodes</a></li>
  <li><a href="http://hl7.org/fhir/R4/valueset-device-kind.html">FHIRDeviceTypes</a></li>
@@ -374,8 +384,10 @@
  <li><a href="http://hl7.org/fhir/R4/valueset-diet-type.html">DietCodes</a></li>
  <li><a href="http://hl7.org/fhir/R4/valueset-encounter-reason.html">EncounterReasonCodes</a></li>
  <li><a href="http://hl7.org/fhir/R4/valueset-entformula-type.html">EnteralFormulaTypeCodes</a></li>
+ <li><a href="http://hl7.org/fhir/R4/valueset-feeding-device.html">FeedingDeviceCodes</a></li>
  <li><a href="http://hl7.org/fhir/extensions/5.2.0/ValueSet-feeding-device.html">FeedingDeviceCodes</a></li>
  <li><a href="http://hl7.org/fhir/R4/valueset-flag-code.html">FlagCode</a></li>
+ <li><a href="http://hl7.org/fhir/R4/valueset-focal-subject.html">FocalSubjectCodes</a></li>
  <li><a href="http://hl7.org/fhir/extensions/5.2.0/ValueSet-focal-subject.html">FocalSubjectCodes</a></li>
  <li><a href="http://hl7.org/fhir/R4/valueset-food-type.html">FoodTypeCodes</a></li>
  <li><a href="http://hl7.org/fhir/R4/valueset-goal-start-event.html">GoalStartEvent</a></li>
@@ -457,14 +469,21 @@
  <li><a href="http://hl7.org/fhir/uv/ips/STU1.1/ValueSet-vaccines-uv-ips.html">VaccinesUvIps</a></li>
  <li><a href="https://smt.esante.gouv.fr/fhir/ValueSet"></a></li>
  <li><a href="http://terminology.hl7.org/6.2.0/ValueSet-device-kind.html">FHIRDeviceTypes</a></li>
+ <li><a href="http://terminology.hl7.org/5.0.0/ValueSet-device-kind.html">FHIRDeviceTypes</a></li>
  <li><a href="http://terminology.hl7.org/6.2.0/ValueSet-edible-substance-type.html">TypesOfEdibleSubstances</a></li>
  <li><a href="http://terminology.hl7.org/6.2.0/ValueSet-gender-identity.html">GenderIdentity</a></li>
+ <li><a href="http://terminology.hl7.org/6.2.0/ValueSet-snomed-intl-gps.html">SnomedIntlGps</a></li>
  <li><a href="http://terminology.hl7.org/5.0.0/ValueSet-snomed-intl-gps.html">SnomedIntlGps</a></li>
  <li><a href="http://terminology.hl7.org/6.2.0/ValueSet-v3-AllergyStatus.html">AllergyStatus</a></li>
+ <li><a href="http://terminology.hl7.org/5.0.0/ValueSet-v3-AllergyStatus.html">AllergyStatus</a></li>
  <li><a href="http://terminology.hl7.org/6.2.0/ValueSet-v3-KnowledgeSubjectObservationValue.html">KnowledgeSubjectObservationValue</a></li>
+ <li><a href="http://terminology.hl7.org/5.0.0/ValueSet-v3-KnowledgeSubjectObservationValue.html">KnowledgeSubjectObservationValue</a></li>
  <li><a href="http://terminology.hl7.org/6.2.0/ValueSet-v3-KnowledgeSubtopicObservationValue.html">KnowledgeSubtopicObservationValue</a></li>
+ <li><a href="http://terminology.hl7.org/5.0.0/ValueSet-v3-KnowledgeSubtopicObservationValue.html">KnowledgeSubtopicObservationValue</a></li>
  <li><a href="http://terminology.hl7.org/6.2.0/ValueSet-v3-ObservationMeasureCountableItems.html">ObservationMeasureCountableItems</a></li>
+ <li><a href="http://terminology.hl7.org/5.0.0/ValueSet-v3-ObservationMeasureCountableItems.html">ObservationMeasureCountableItems</a></li>
  <li><a href="http://terminology.hl7.org/6.2.0/ValueSet-v3-immunizationForecastStatusObservationValue.html">ImmunizationForecastStatusObservationValue</a></li>
+ <li><a href="http://terminology.hl7.org/5.0.0/ValueSet-v3-immunizationForecastStatusObservationValue.html">ImmunizationForecastStatusObservationValue</a></li>
  <li><a href="ValueSet-JDV-J147-MethodHeartrate-ENS.html">JDV_J147_MethodHeartrate_ENS</a></li>
  <li><a href="ValueSet-JDV-J148-ReferenceRangeAppliesTo-CISIS.html">JDV_J148_ReferenceRangeAppliesTo_CISIS</a></li>
  <li><a href="ValueSet-JDV-J149-BodySiteBP-ENS.html">JDV_J149_BodySiteBP_ENS</a></li>
@@ -641,8 +660,8 @@
 
 
   <div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: CodeSystem 900000000000207008-20250301</b></p><a name="900000000000207008-20250301"> </a><a name="hc900000000000207008-20250301"> </a><a name="900000000000207008-20250301-fr-FR"> </a>
-<div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px">version: 1; Last updated: 2025-03-05 14:26:49+0000</p></div><p><b>Properties</b></p><p><b>This code system defines the following properties for its concepts</b></p>
-<table class="grid"><tr><td><b>Name</b></td><td><b>Code</b></td><td><b>Type</b></td><td><b>Description</b></td></tr>
+<div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px">version: 1; Last updated: 2025-03-05 14:26:49+0000</p></div><p><b>Propriétés</b></p><p><b>Cette terminologie de référence (CodeSystem) définit les propriétés suivantes pour ses concepts</b></p>
+<table class="grid"><tr><td><b>Nom</b></td><td><b>Code</b></td><td><b>Type</b></td><td><b>Description</b></td></tr>
 <tr><td>inactive</td>
 <td>inactive</td>
 <td>boolean</td>
@@ -663,7 +682,7 @@
 <td>moduleId</td>
 <td>code</td>
 <td>The SNOMED CT concept id of the module that the concept belongs to.</td></tr></table><p><b>Filters</b></p>
-<table class="grid"><tr><td><b>Code</b></td><td><b>Description</b></td><td><b>Op</b></td><td><b>Value</b></td></tr>
+<table class="grid"><tr><td><b>Code</b></td><td><b>Description</b></td><td><b>Op</b></td><td><b>Valeur</b></td></tr>
 <tr><td>concept</td>
 <td>Includes all concept ids that have a transitive is-a relationship with the code provided as the value.</td>
 <td>is-a </td>
@@ -740,7 +759,7 @@
 
 <div class="inner-wrapper">
   <p>
-    IG &#169; 2020+ <a style="color:var(--footer-hyperlink-text-color)" href="https://esante.gouv.fr">ANS</a>.  Package ans.fr.terminologies#0.1.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Mon, Mar 17, 2025 04:23+0000">2025-03-17</span>
+    IG &#169; 2020+ <a style="color:var(--footer-hyperlink-text-color)" href="https://esante.gouv.fr">ANS</a>.  Package ans.fr.terminologies#0.1.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Mon, Mar 17, 2025 13:15+0000">2025-03-17</span>
     <br/>
     <span style="color: var(--footer-highlight-text-color)"></span>
       Liens: <a style="color: var(--footer-hyperlink-text-color)" href="toc.html">Table des matières </a> |

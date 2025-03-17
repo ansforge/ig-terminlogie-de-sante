@@ -6,6 +6,7 @@
     "lastUpdated" : "2025-01-06T12:41:38.141+00:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset"]
   },
+  "language" : "fr-FR",
   "text" : {
     "status" : "generated",
     "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>JDV_J69_ActiviteOperationnelle_Santefr</h2><tt>https://mos.esante.gouv.fr/NOS/JDV_J69-ActiviteOperationnelle-Santefr/FHIR/JDV-J69-ActiviteOperationnelle-Santefr</tt><p>Activités opérationnelles de Santé.fr</p></div>"

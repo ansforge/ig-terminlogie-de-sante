@@ -3,7 +3,7 @@
 <ImplementationGuide xmlns="http://hl7.org/fhir">
   <id value="ans.fr.terminologies"/>
   <text>
-    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: ImplementationGuide ans.fr.terminologies</b></p><a name="ans.fr.terminologies"> </a><a name="hcans.fr.terminologies"> </a><a name="ans.fr.terminologies-fr-FR"> </a><h2>Terminologies</h2><p>The official URL for this implementation guide is: </p><pre>https://interop.esante.gouv.fr/terminologies/ImplementationGuide/ans.fr.terminologies</pre><div><p>Les nomenclatures des objets de Santé sont mises à disposition du secteur santé-social par l’agence du numérique en santé</p>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: ImplementationGuide ans.fr.terminologies</b></p><a name="ans.fr.terminologies"> </a><a name="hcans.fr.terminologies"> </a><a name="ans.fr.terminologies-fr-FR"> </a><h2>Terminologies</h2><p>LURL officielle pour ce guide dimplémentation est : </p><pre>https://interop.esante.gouv.fr/terminologies/ImplementationGuide/ans.fr.terminologies</pre><div><p>Les nomenclatures des objets de Santé sont mises à disposition du secteur santé-social par l’agence du numérique en santé</p>
 </div></div>
   </text>
   <url value="https://interop.esante.gouv.fr/terminologies/ImplementationGuide/ans.fr.terminologies"/>
@@ -11910,7 +11910,7 @@
       </extension>
     </extension>
     <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-internal-dependency">
-      <valueCode value="hl7.fhir.uv.tools.r4#0.3.0"/>
+      <valueCode value="hl7.fhir.uv.tools.r4#0.4.1"/>
     </extension>
     <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
       <extension url="code">
@@ -24689,16 +24689,6 @@
         <valueString value="CodeSystem"/>
       </extension>
       <reference>
-        <reference value="CodeSystem/terminologie-standardterms"/>
-      </reference>
-      <name value="EDQM___Standard_Terms"/>
-      <exampleBoolean value="false"/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="CodeSystem"/>
-      </extension>
-      <reference>
         <reference value="CodeSystem/terminologie-emdn"/>
       </reference>
       <name value="EMDN"/>
@@ -24775,20 +24765,9 @@
         <valueString value="ValueSet"/>
       </extension>
       <reference>
-        <reference value="ValueSet/TRE-R222-MediaTypeCorpsCDANonStructure-all"/>
+        <reference value="ValueSet/jdv-modele-document-cda"/>
       </reference>
-      <name value="JDV-MediaTypeCorpsCDANonStructure"/>
-      <description value="JDV avec l'ensemble des codes actifs de la TRE_R222_MediaTypeCorpsCDANonStructure"/>
-      <exampleBoolean value="false"/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="ValueSet"/>
-      </extension>
-      <reference>
-        <reference value="ValueSet/JDV-ModeleDocumentCDA"/>
-      </reference>
-      <name value="JDV-ModeleDocumentCDA"/>
+      <name value="Jdv Modele Document Cda"/>
       <description value="JDV avec l'ensemble des codes  de la TRE_R220_ModeleDocumentCDAStructure et TRE_R221_ModeleDocumentCDANonStructure"/>
       <exampleBoolean value="false"/>
     </resource>
@@ -24797,10 +24776,21 @@
         <valueString value="ValueSet"/>
       </extension>
       <reference>
-        <reference value="ValueSet/JDV-TRE-R221-ModeleDocumentCDANonStructure-all"/>
+        <reference value="ValueSet/jdv-tre-r221-modele-document-cda-non-structure-all"/>
       </reference>
-      <name value="JDV-ModeleDocumentCDANonStructure"/>
+      <name value="Jdv Tre R221 Modele Document Cda Non Structure All"/>
       <description value="JDV avec l'ensemble des codes actifs de la TRE_R221_ModeleDocumentCDANonStructure"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/TRE-R222-MediaTypeCorpsCDANonStructure-all"/>
+      </reference>
+      <name value="JDV-MediaTypeCorpsCDANonStructure"/>
+      <description value="JDV avec l'ensemble des codes actifs de la TRE_R222_MediaTypeCorpsCDANonStructure"/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -36856,7 +36846,7 @@
         <reference value="CodeSystem/terminologie-lahn"/>
       </reference>
       <name value="Liste des Actes Inovants Hors Nomenclature"/>
-      <description value="La liste des actes innovants hors nomenclature (LAHN), a été mise en place par la direction générale de l’offre de soins (DGOS) en 2024, dans le cadre du développement de l’innovation en santé,  en remplacement du dispositif RIHN plus liste complémentaire. La LAHN en est la fusion.  L’objectif est de soutenir l’innovation et de la dynamiser par une prise en charge et une évaluation rapide des actes innovant.&#xA;La LAHN contient une liste d’actes innovants (biologie et anatomocytopathologie) pris en charge à titre transitoire moyennant un recueil de données pour leur évaluation."/>
+      <description value="La liste des actes innovants hors nomenclature (LAHN) a été mise en place par la direction générale de l’offre de soins (DGOS) en 2024, dans le cadre du développement de l’innovation en santé. Elle est la fusion du RIHN et de la Liste Complémentaire (LC). L’objectif est de soutenir l’innovation et de la dynamiser par une prise en charge et une évaluation rapide des actes innovants. La LAHN contient une liste d’actes innovants (biologie et anatomocytopathologie) pris en charge à titre transitoire moyennant un recueil de données pour leur évaluation."/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -36952,6 +36942,16 @@
         <reference value="NamingSystem/Snomed-CT-core"/>
       </reference>
       <name value="Snomed_CT_core_900000000000207008"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="CodeSystem"/>
+      </extension>
+      <reference>
+        <reference value="CodeSystem/terminologie-standardterms"/>
+      </reference>
+      <name value="Standard Terms Data Base Dictionnaire européen multilingue de termes normalisés descripteurs de médicaments"/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -39919,6 +39919,14 @@
         <nameUrl value="autres_ressources.html"/>
         <title value="Autres Ressources"/>
         <generation value="markdown"/>
+        <page>
+          <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-page-name">
+            <valueUrl value="convention.html"/>
+          </extension>
+          <nameUrl value="convention.html"/>
+          <title value="Conventtion de nommage"/>
+          <generation value="markdown"/>
+        </page>
         <page>
           <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-page-name">
             <valueUrl value="telechargementNos.html"/>
