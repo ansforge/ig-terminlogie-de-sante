@@ -1,8 +1,8 @@
 Alias: $TRE-R221-ModeleDocumentCDANonStructure = https://mos.esante.gouv.fr/NOS/TRE_R221-ModeleDocumentCDANonStructure/FHIR/TRE-R221-ModeleDocumentCDANonStructure
 
-ValueSet: JDV_TRE_R221_ModeleDocumentCDANonStructure
-Id: JDV-TRE-R221-ModeleDocumentCDANonStructure-all
-Title: "JDV-ModeleDocumentCDANonStructure"
+ValueSet: JdvTreR221ModeleDocumentCdaNonStructureAll
+Id: jdv-tre-r221-modele-document-cda-non-structure-all
+Title: "Jdv Tre R221 Modele Document Cda Non Structure All"
 Description: "JDV avec l'ensemble des codes actifs de la TRE_R221_ModeleDocumentCDANonStructure"
 * ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablevalueset"
 * ^extension.url = "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod"
