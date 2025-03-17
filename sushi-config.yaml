@@ -1536,7 +1536,9 @@ pages:
         title :  Identifiants externes          
           
     autres_ressources.md:
-        title: Autres Ressources        
+        title: Autres Ressources     
+        convention.md : 
+          title : Conventtion de nommage        
         telechargementNos.md:
             title :   téléchargement (NOS)           
         securite.md:
@@ -1567,6 +1569,7 @@ menu:
 #        Mapping NOS to FHIR   : NOS_MiseEnQualiteCorrectionDuMappingNOSversFhir.html       
 
     Ressources:
+        Convention de nommage   : convention.html
         Téléchargement (NOS) : telechargementNos.html
         Sécurité: securite.html
         Téléchargements et usage: downloads.html
