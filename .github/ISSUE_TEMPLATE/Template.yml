@@ -56,7 +56,7 @@ body:
       - Autre(s)
     validations:
       required: false
-    - type: input
+  - type: input
     id: AutreConso
     attributes:
       label: Autre(s)
