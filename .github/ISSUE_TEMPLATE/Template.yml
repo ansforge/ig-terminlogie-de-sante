@@ -66,3 +66,10 @@ body:
   - type: markdown
     attributes:
       value: "# Nomenclature à Créer/Modifier"
+  - type: input
+    id: Nom
+    attributes:
+      label: Nom
+      description: Le nom de la nomenclature n'est pas modifiable. Il ne doit contenir ni caractères accentués ni espaces ni caractères spéciaux excepté "_". <br> **Privilégiez la convention de nommage PascalCase.*
+    validations:
+      required: false
