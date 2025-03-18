@@ -26,26 +26,64 @@ Description: "Type de fermeture, codes provenant du FINESS pour les EJ et EG"
 * ^property[+].code = #dateFin
 * ^property[=].description = "Date de fin d'exploitation d'un code concept"
 * ^property[=].type = #dateTime
+* ^property[+].code = #status
+* ^property[=].uri = "http://hl7.org/fhir/concept-properties#status"
+* ^property[=].description = "Statut d'un code concept"
+* ^property[=].type = #code
+* ^property[+].code = #deprecationDate
+* ^property[=].uri = "http://hl7.org/fhir/concept-properties#deprecationDate"
+* ^property[=].description = "Date de dépréciation du code"
+* ^property[=].type = #dateTime
+* ^property[+].code = #retirementDate
+* ^property[=].uri = "http://hl7.org/fhir/concept-properties#retirementDate"
+* ^property[=].description = "Date de retrait du code"
+* ^property[=].type = #dateTime
+* ^property[+].code = #PM
+* ^property[=].description = "Permet de définir les types de fermeture applicables aux personnes morales FINESS+"
+* ^property[=].type = #boolean
+* ^property[+].code = #EGE
+* ^property[=].description = "Permet de définir les types de fermeture applicables aux entités géographiques FINESS+"
+* ^property[=].type = #boolean
 * #DEF "Définitive"
 * #DEF ^property[0].code = #dateValid
 * #DEF ^property[=].valueDateTime = "2019-01-25T12:00:00+01:00"
 * #DEF ^property[+].code = #dateMaj
 * #DEF ^property[=].valueDateTime = "2019-01-25T12:00:00+01:00"
+* #DEF ^property[+].code = #status
+* #DEF ^property[=].valueCode = #active
+* #DEF ^property[+].code = #PM
+* #DEF ^property[=].valueBoolean = true
+* #DEF ^property[+].code = #EGE
+* #DEF ^property[=].valueBoolean = true
 * #ERR "Erreur"
 * #ERR ^property[0].code = #dateValid
 * #ERR ^property[=].valueDateTime = "2019-01-25T12:00:00+01:00"
 * #ERR ^property[+].code = #dateMaj
 * #ERR ^property[=].valueDateTime = "2019-01-25T12:00:00+01:00"
+* #ERR ^property[+].code = #status
+* #ERR ^property[=].valueCode = #active
+* #ERR ^property[+].code = #PM
+* #ERR ^property[=].valueBoolean = true
+* #ERR ^property[+].code = #EGE
+* #ERR ^property[=].valueBoolean = true
 * #NDI "Non défini"
 * #NDI ^property[0].code = #dateValid
 * #NDI ^property[=].valueDateTime = "2019-01-25T12:00:00+01:00"
 * #NDI ^property[+].code = #dateMaj
 * #NDI ^property[=].valueDateTime = "2019-01-25T12:00:00+01:00"
+* #NDI ^property[+].code = #status
+* #NDI ^property[=].valueCode = #active
+* #NDI ^property[+].code = #PM
+* #NDI ^property[=].valueBoolean = true
 * #CHP "Sortie du champ FINESS"
 * #CHP ^property[0].code = #dateValid
 * #CHP ^property[=].valueDateTime = "2019-01-25T12:00:00+01:00"
 * #CHP ^property[+].code = #dateMaj
 * #CHP ^property[=].valueDateTime = "2019-01-25T12:00:00+01:00"
+* #CHP ^property[+].code = #status
+* #CHP ^property[=].valueCode = #active
+* #CHP ^property[+].code = #EGE
+* #CHP ^property[=].valueBoolean = true
 * #EML "Ancienne autorisation fonctionnement EML"
 * #EML ^designation.language = #fr-FR
 * #EML ^designation.use = $sct#900000000000013009
@@ -54,8 +92,16 @@ Description: "Type de fermeture, codes provenant du FINESS pour les EJ et EG"
 * #EML ^property[=].valueDateTime = "2019-01-25T12:00:00+01:00"
 * #EML ^property[+].code = #dateMaj
 * #EML ^property[=].valueDateTime = "2019-01-25T12:00:00+01:00"
+* #EML ^property[+].code = #status
+* #EML ^property[=].valueCode = #active
+* #EML ^property[+].code = #EGE
+* #EML ^property[=].valueBoolean = true
 * #PRO "Provisoire"
 * #PRO ^property[0].code = #dateValid
 * #PRO ^property[=].valueDateTime = "2019-01-25T12:00:00+01:00"
 * #PRO ^property[+].code = #dateMaj
 * #PRO ^property[=].valueDateTime = "2019-01-25T12:00:00+01:00"
+* #PRO ^property[+].code = #status
+* #PRO ^property[=].valueCode = #active
+* #PRO ^property[+].code = #EGE
+* #PRO ^property[=].valueBoolean = true
