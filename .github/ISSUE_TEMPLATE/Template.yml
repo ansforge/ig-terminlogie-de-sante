@@ -63,3 +63,6 @@ body:
       description: Si un consommateur impacté n'est pas présent dans la liste ci-dessus, veuillez le préciser ici
     validations:
       required: false
+  - type: markdown
+    attributes:
+      value: "# Nomenclature à Créer/Modifier"
