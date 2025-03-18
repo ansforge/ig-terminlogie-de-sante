@@ -56,3 +56,10 @@ body:
       - Autre(s)
     validations:
       required: false
+    - type: input
+    id: AutreConso
+    attributes:
+      label: Autre(s)
+      description: Si un consommateur impacté n'est pas présent dans la liste ci-dessus, veuillez le préciser ici
+    validations:
+      required: false
