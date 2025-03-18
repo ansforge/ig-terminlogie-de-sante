@@ -1,7 +1,7 @@
-name: DM - Création - Terminologie de référence (TRE)
+name: DM - Création/Modification - Nomenclature
 description: "Nomenclatures des Objets de Santé (NOS) Demande de création d'une terminologie de référence (TRE)."
 title: "Creation-TRE_Nom de la nomenclature"
-labels: ["Création-TRE"]
+labels: ["Création/Modification"]
 body:
   - type: markdown
     attributes:
