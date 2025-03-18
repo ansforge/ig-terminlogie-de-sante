@@ -54,5 +54,4 @@ body:
       - SAS
       - RFOS
       - Autre(s)
-    validations:
-      required: false  
+  
