@@ -19,7 +19,7 @@ body:
       placeholder: MM/AAAA
     validations:
       required: true
-      - type: textarea
+  - type: textarea
     id: Contexte
     attributes:
       label: Contexte
