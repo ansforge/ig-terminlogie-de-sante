@@ -26,3 +26,33 @@ body:
       description: Veuillez renseigner une description ainsi que le cadre juridique
     validations:
       required: true
+    - type: dropdown
+    id: consommateur
+    attributes:
+      label: Consommateur(s) impacté(s)
+      multiple: true 
+      description: Sélectionnez le(s) consommateur(s) impacté(s) par la nomenclature.
+      options:
+      - ROR
+      - CI-SIS
+      - RPPS
+      - FINESS
+      - RASS
+      - ENREG
+      - EPARS
+      - MOS
+      - DMP
+      - SI-CPS
+      - MSS
+      - SAMU
+      - DICO
+      - SI-VIC
+      - Interop'Santé
+      - Santefr
+      - CNSA
+      - ENS
+      - SAS
+      - RFOS
+      - Autre(s)
+    validations:
+      required: false  
