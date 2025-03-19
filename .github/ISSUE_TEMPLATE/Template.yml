@@ -70,6 +70,6 @@ body:
     id: Nom
     attributes:
       label: Nom
-      description: Le nom de la nomenclature n'est pas modifiable. Il ne doit contenir ni caractères accentués ni espaces ni caractères spéciaux excepté "_". <br> **Privilégiez la convention de nommage PascalCase.*
+      description: A renseigné si création d'une nouvelle nomenclature. Il ne doit contenir ni caractères accentués ni espaces ni caractères spéciaux excepté "_". <br> **Privilégiez la convention de nommage PascalCase.*
     validations:
       required: false
