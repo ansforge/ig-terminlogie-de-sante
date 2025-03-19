@@ -80,3 +80,17 @@ body:
       description: A renseigné si création d'une nouvelle nomenclature ou modification de la description. <br> **La description de la nomenclature doit contenir au maximum 250 caractères.*
     validations:
       required: false
+   - type: textarea
+    id: TRE
+    attributes:
+      label: Dans le cas de la modification du contenu de la TRE, veuillez indiquer les lignes mises à jour.
+      description: |
+        **Veuillez lister les lignes mises à jour selon le format ci-dessous ou joindre un fichier excel en suivant le modèle [DM_TerminologieDeReference](../tree/main/input/DM_Excel/DM_TerminologieDeReference.xlsx).**
+        
+        Données attendues : 
+        - Code ; Libellé ; Type de modication demandée (Ajout, Modification, Obsolescence, Réactivation) ; Description métier (facultative) ; Synonyme 1 (facultatif) ; Synonyme 2 (facultatif) ; ...
+      placeholder: |
+        Exemple TRE_R314_TypeCreneau :
+        - SNP ; Créneau accessible par les Régulateurs et Organisateurs de Soins Non Programmés ; A ; Les créneaux ouverts aux Soins Non Programmés -Créneau de soins défini par un professionnel de santé ou son délégataire dans son logiciel de prise de RDV accessible par les Régulateurs et Organisateurs de Soins Non Programmés
+    validations:
+      required: false
