@@ -81,11 +81,11 @@ body:
     validations:
       required: false
   - type: textarea
-    id: TRE
+    id: Contenu
     attributes:
       label: Contenu à Ajouter/Modifier
       description: |
-        **Veuillez lister les lignes mises à jour selon le format ci-dessous ou joindre un fichier excel en suivant le modèle [](../tree/main/input/DM_Excel/DM_TerminologieDeReference.xlsx).**
+        **Veuillez lister les lignes mises à jour selon le format ci-dessous ou joindre un fichier excel en suivant le modèle [](../tree/main/input/DM_Excel/).**
         
         Données attendues : 
         - Code ; Libellé ; Type de modication demandée (Ajout, Modification, Obsolescence, Réactivation) ; Description métier (facultative) ; Synonyme 1 (facultatif) ; Synonyme 2 (facultatif) ; ...
