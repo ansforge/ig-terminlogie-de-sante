@@ -80,7 +80,7 @@ body:
       description: A renseigné si création d'une nouvelle nomenclature ou modification de la description. <br> **La description de la nomenclature doit contenir au maximum 250 caractères.*
     validations:
       required: false
-   - type: textarea
+  - type: textarea
     id: TRE
     attributes:
       label: Dans le cas de la modification du contenu de la TRE, veuillez indiquer les lignes mises à jour.
