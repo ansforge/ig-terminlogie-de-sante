@@ -73,3 +73,10 @@ body:
       description: A renseigné si création d'une nouvelle nomenclature. Il ne doit contenir ni caractères accentués ni espaces ni caractères spéciaux excepté "_". <br> **Privilégiez la convention de nommage PascalCase.*
     validations:
       required: false
+   - type: input
+    id: Description
+    attributes:
+      label: Description
+      description: A renseigné si création d'une nouvelle nomenclature ou modification de la description. <br> **La description de la nomenclature doit contenir au maximum 250 caractères.*
+    validations:
+      required: false
