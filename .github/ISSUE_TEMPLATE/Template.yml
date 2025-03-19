@@ -83,7 +83,7 @@ body:
   - type: textarea
     id: TRE
     attributes:
-      label: Contenu à Ajouter/Modifier/Supprimer
+      label: Contenu à Ajouter/Modifier
       description: |
         **Veuillez lister les lignes mises à jour selon le format ci-dessous ou joindre un fichier excel en suivant le modèle [](../tree/main/input/DM_Excel/DM_TerminologieDeReference.xlsx).**
         
