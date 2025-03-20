@@ -88,6 +88,7 @@ body:
         **Veuillez lister les lignes mises à jour selon le format ci-dessous ou joindre un fichier excel en suivant le modèle [](../tree/main/input/DM_Excel/).**
         
         Données attendues : 
+        TRE: <br>
         - Code ; Libellé ; Type de modication demandée (Ajout, Modification, Obsolescence, Réactivation) ; Description métier (facultative) ; Synonyme 1 (facultatif) ; Synonyme 2 (facultatif) ; ...
       placeholder: |
         Exemple TRE_R314_TypeCreneau :
@@ -104,5 +105,4 @@ body:
     attributes:
       value: |
         > [!NOTE]
-        > **Vous pouvez créer une demande de mise à jour de votre JDV en créant une [issue spécifique](./new/choose).**
         > **Le jeu de valeurs reprenant l'intégralité des codes de la TRE sera automatiquement mis à jour.** 
