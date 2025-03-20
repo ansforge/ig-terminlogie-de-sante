@@ -94,3 +94,15 @@ body:
         - SNP ; Créneau accessible par les Régulateurs et Organisateurs de Soins Non Programmés ; A ; Les créneaux ouverts aux Soins Non Programmés -Créneau de soins défini par un professionnel de santé ou son délégataire dans son logiciel de prise de RDV accessible par les Régulateurs et Organisateurs de Soins Non Programmés
     validations:
       required: false
+  - type: textarea
+    id: JDVimpact
+    attributes:
+      label: Si les modifications d'une TRE impactent un JDV, veuillez indiquer leurs noms.
+    validations:
+      required: false 
+  - type: markdown
+    attributes:
+      value: |
+        > [!NOTE]
+        > **Vous pouvez créer une demande de mise à jour de votre JDV en créant une [issue spécifique](./new/choose).**
+        > **Le jeu de valeurs reprenant l'intégralité des codes de la TRE sera automatiquement mis à jour.** 
