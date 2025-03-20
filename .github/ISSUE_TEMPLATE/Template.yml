@@ -88,8 +88,8 @@ body:
         **Veuillez lister les lignes mises à jour selon le format ci-dessous ou joindre un fichier excel en suivant le modèle [](../tree/main/input/DM_Excel/).**
         
         Données attendues : 
-        TRE: <br>
-        - Code ; Libellé ; Type de modication demandée (Ajout, Modification, Obsolescence, Réactivation) ; Description métier (facultative) ; Synonyme 1 (facultatif) ; Synonyme 2 (facultatif) ; ...
+        - TRE: OID; Code ; Libellé ; Type de modication demandée (Ajout, Modification, Obsolescence, Réactivation) ; Description métier (facultative) ; Synonyme 1 (facultatif) ; Synonyme 2 (facultatif) ; ...
+        - JDV: OID; Code ; libellé ; Type de modication demandée (Ajout, Modification, Obsolescence)
       placeholder: |
         Exemple TRE_R314_TypeCreneau :
         - SNP ; Créneau accessible par les Régulateurs et Organisateurs de Soins Non Programmés ; A ; Les créneaux ouverts aux Soins Non Programmés -Créneau de soins défini par un professionnel de santé ou son délégataire dans son logiciel de prise de RDV accessible par les Régulateurs et Organisateurs de Soins Non Programmés
