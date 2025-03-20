@@ -70,9 +70,9 @@ body:
     id: Nom
     attributes:
       label: Nom
-      description: A renseigné si création d'une nouvelle nomenclature. Il ne doit contenir ni caractères accentués ni espaces ni caractères spéciaux excepté "_". <br> **Privilégiez la convention de nommage PascalCase.*
+      description: Lors de la création, le nom doit contenir ni caractères accentués ni espaces ni caractères spéciaux excepté "_". <br> **Privilégiez la convention de nommage PascalCase.*
     validations:
-      required: false
+      required: true
   - type: input
     id: Description
     attributes:
