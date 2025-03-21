@@ -92,7 +92,9 @@ body:
         - JDV: OID de la TRE source; Code ; libellé ; Type de modication demandée (Ajout, Modification, Obsolescence)
       placeholder: |
         Exemple TRE_R314_TypeCreneau :
-        - SNP ; Créneau accessible par les Régulateurs et Organisateurs de Soins Non Programmés ; A ; Les créneaux ouverts aux Soins Non Programmés -Créneau de soins défini par un professionnel de santé ou son délégataire dans son logiciel de prise de RDV accessible par les Régulateurs et Organisateurs de Soins Non Programmés
+        - 1.2.250.1.213.3.3.71 ; SNP ; Créneau accessible par les Régulateurs et Organisateurs de Soins Non Programmés ; A ; Les créneaux ouverts aux Soins Non Programmés -Créneau de soins défini par un professionnel de santé ou son délégataire dans son logiciel de prise de RDV accessible par les Régulateurs et Organisateurs de Soins Non Programmés
+        Exemple JDV_J165_TypeCreneau-SAS
+        - 1.2.250.1.213.3.3.71 ; SNP ; Créneau accessible par les Régulateurs et Organisateurs de Soins Non Programmés
     validations:
       required: false
   - type: textarea
