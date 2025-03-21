@@ -70,7 +70,6 @@ body:
     id: Nom
     attributes:
       label: Nom
-      placeholder: Nom de la/les nomenclature(s)
       description: Lors de la création, le nom doit contenir ni caractères accentués ni espaces ni caractères spéciaux excepté "_". <br> **Privilégiez la convention de nommage PascalCase.*
     validations:
       required: true
