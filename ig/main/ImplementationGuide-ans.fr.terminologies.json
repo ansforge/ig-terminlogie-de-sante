@@ -33673,7 +33673,7 @@
       "reference" : {
         "reference" : "CodeSystem/terminologie-emdn"
       },
-      "name" : "EMDN",
+      "name" : "European Medical device nomenclature",
       "exampleBoolean" : false
     },
     {

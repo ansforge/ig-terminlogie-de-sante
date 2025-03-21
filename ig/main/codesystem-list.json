@@ -2352,7 +2352,7 @@
       "version" : "v1.2",
       "status" : "active",
       "name" : "EMDN",
-      "title" : null,
+      "title" : "European Medical device nomenclature",
       "description" : null,
       "oids" : ["1.2.250.1.213.2.68"]
     },

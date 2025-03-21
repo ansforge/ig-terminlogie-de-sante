@@ -46061,7 +46061,7 @@
          fhir:link <https://interop.esante.gouv.fr/terminologies/CodeSystem/terminologie-emdn> ;
          fhir:reference [ fhir:v "CodeSystem/terminologie-emdn" ]
        ] ;
-       fhir:name [ fhir:v "EMDN" ] ;
+       fhir:name [ fhir:v "European Medical device nomenclature" ] ;
        fhir:example [
          a fhir:boolean ;
          fhir:v false

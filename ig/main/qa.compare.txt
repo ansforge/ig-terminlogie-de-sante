@@ -1,7 +1,7 @@
 Terminologies : Validation Results
 =========================================
 
-err = 1374, warn = 1722, info = 1028
+err = 1374, warn = 1721, info = 1028
 $--
 Generated $--. FHIR version $-- for ans.fr.terminologies#$-- (canonical = https://interop.esante.gouv.fr/terminologies)
  Build Errors : 678 / 20 / 0
@@ -1203,7 +1203,7 @@ Generated $--. FHIR version $-- for ans.fr.terminologies#$-- (canonical = https:
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/TRE/CISP_2_terminologie-cisp : 3 / 8 / 10
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/TRE/CLADIMED_terminologie-cladimed : 3 / 4 / 6
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/TRE/Dictionnaire_SMS_Substance_Management_Services__terminologie-sms : 3 / 4 / 14
- /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/TRE/EMDN_terminologie-emdn : 3 / 3 / 6
+ /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/TRE/EMDN_terminologie-emdn : 3 / 2 / 6
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/TRE/LAHN_terminologie-lahn : 0 / 3 / 8
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/TRE/NABM_terminologie-nabm : 3 / 5 / 20
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/TRE/NUVA_terminologie-nuva : 3 / 9 / 11
@@ -6405,7 +6405,6 @@ ERROR: CodeSystem/terminologie-emdn: CodeSystem: CodeSystem.concept: minimum req
 ERROR: CodeSystem/terminologie-emdn: CodeSystem.meta.tag[0].display: Wrong Display Name 'Resource encoded in summary mode' for http://terminology.hl7.org/CodeSystem/v3-ObservationValue#SUBSETTED. There are no valid display names found for language(s) 'fr-FR'. Default display is 'subsetted'
 INFORMATION: CodeSystem/terminologie-emdn: CodeSystem: CodeSystems SHOULD have a stated value for the caseSensitive element so that users know the status and meaning of the code system clearly
 INFORMATION: CodeSystem/terminologie-emdn: CodeSystem: Review the All Codes Value Set - incomplete CodeSystems generally should not have an all codes value set specified
-WARNING: CodeSystem/terminologie-emdn: CodeSystem: Published code systems SHOULD conform to the ShareableCodeSystem profile, which says that the element CodeSystem.title is mandatory, but it is not present
 WARNING: CodeSystem/terminologie-emdn: CodeSystem: Published code systems SHOULD conform to the ShareableCodeSystem profile, which says that the element CodeSystem.description is mandatory, but it is not present
 WARNING: CodeSystem/terminologie-emdn: CodeSystem: Published code systems SHOULD conform to the ShareableCodeSystem profile, which says that the element CodeSystem.caseSensitive is mandatory, but it is not present
 INFORMATION: CodeSystem/terminologie-emdn: CodeSystem.property[0]: The property uri 'http://purl.org/dc/elements/1.1/type' is not known, so the property values can not be validated fully
