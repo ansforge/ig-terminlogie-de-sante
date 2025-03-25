@@ -72,6 +72,7 @@ parameters:
       - https://mos.esante.gouv.fr/NOS/ASS_A30-TypeAutorisation-Profession-EPARS/FHIR/ASS-A30-TypeAutorisation-Profession-EPARS
       - https://mos.esante.gouv.fr/NOS/ASS_A31_CorresDiabete-RegroupementDiabete
       - https://mos.esante.gouv.fr/NOS/ASS_A32_StatutMotifPersonnePriseCharge
+      - https://mos.esante.gouv.fr/NOS/ASS_A32-StatutMotifPersonnePriseCharge/FHIR/ASS-A32-StatutMotifPersonnePriseCharge
       - https://mos.esante.gouv.fr/NOS/ASS_A33-AdministrativeGender-Sexe/FHIR/ASS-A33-AdministrativeGender-Sexe
       - https://mos.esante.gouv.fr/NOS/ASS_X01_TranscoSavFaireADELI_SavFaireR01
       - https://mos.esante.gouv.fr/NOS/ASS_X02-TranscoSectActADELI-SectAct/FHIR/ASS-X02-TranscoSectActADELI-SectAct
