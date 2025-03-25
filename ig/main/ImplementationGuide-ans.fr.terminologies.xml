@@ -24564,16 +24564,6 @@
         <valueString value="CodeSystem"/>
       </extension>
       <reference>
-        <reference value="CodeSystem/terminologie-cladimed"/>
-      </reference>
-      <name value="CLADIMED"/>
-      <exampleBoolean value="false"/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="CodeSystem"/>
-      </extension>
-      <reference>
         <reference value="CodeSystem/terminologie-atc"/>
       </reference>
       <name value="Classification anatomique, thérapeutique et chimique"/>
@@ -24587,6 +24577,16 @@
         <reference value="CodeSystem/terminologie-ccam"/>
       </reference>
       <name value="Classification Commune des Actes Médicaux"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="CodeSystem"/>
+      </extension>
+      <reference>
+        <reference value="CodeSystem/terminologie-cladimed"/>
+      </reference>
+      <name value="Classification des dispositifs médicaux"/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -24616,7 +24616,7 @@
       <reference>
         <reference value="CodeSystem/terminologie-cisp"/>
       </reference>
-      <name value="Classification Internationale des Soins Primaires v2"/>
+      <name value="Classification internationale des soins primaires - 2ème version"/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>

@@ -33534,17 +33534,6 @@
         "valueString" : "CodeSystem"
       }],
       "reference" : {
-        "reference" : "CodeSystem/terminologie-cladimed"
-      },
-      "name" : "CLADIMED",
-      "exampleBoolean" : false
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "CodeSystem"
-      }],
-      "reference" : {
         "reference" : "CodeSystem/terminologie-atc"
       },
       "name" : "Classification anatomique, thérapeutique et chimique",
@@ -33559,6 +33548,17 @@
         "reference" : "CodeSystem/terminologie-ccam"
       },
       "name" : "Classification Commune des Actes Médicaux",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "CodeSystem"
+      }],
+      "reference" : {
+        "reference" : "CodeSystem/terminologie-cladimed"
+      },
+      "name" : "Classification des dispositifs médicaux",
       "exampleBoolean" : false
     },
     {
@@ -33591,7 +33591,7 @@
       "reference" : {
         "reference" : "CodeSystem/terminologie-cisp"
       },
-      "name" : "Classification Internationale des Soins Primaires v2",
+      "name" : "Classification internationale des soins primaires - 2ème version",
       "exampleBoolean" : false
     },
     {

@@ -2334,7 +2334,7 @@
       "version" : "2019-05",
       "status" : "active",
       "name" : "CISP_2",
-      "title" : "Classification Internationale des Soins Primaires v2",
+      "title" : "Classification internationale des soins primaires - 2ème version",
       "description" : null,
       "oids" : ["2.16.840.1.113883.6.139"]
     },
@@ -2342,8 +2342,8 @@
       "url" : "https://smt.esante.gouv.fr/terminologie-cladimed",
       "version" : "v15",
       "status" : "active",
-      "name" : "CLADIMED",
-      "title" : null,
+      "name" : "ClaDiMed",
+      "title" : "Classification des dispositifs médicaux",
       "description" : null,
       "oids" : ["1.2.250.1.213.2.65"]
     },

@@ -45849,23 +45849,6 @@
          ]
        ] ) ;
        fhir:reference [
-         fhir:link <https://interop.esante.gouv.fr/terminologies/CodeSystem/terminologie-cladimed> ;
-         fhir:reference [ fhir:v "CodeSystem/terminologie-cladimed" ]
-       ] ;
-       fhir:name [ fhir:v "CLADIMED" ] ;
-       fhir:example [
-         a fhir:boolean ;
-         fhir:v false
-       ]
-     ] [
-       fhir:extension ( [
-         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
-         fhir:value [
-           a fhir:string ;
-           fhir:v "CodeSystem"
-         ]
-       ] ) ;
-       fhir:reference [
          fhir:link <https://interop.esante.gouv.fr/terminologies/CodeSystem/terminologie-atc> ;
          fhir:reference [ fhir:v "CodeSystem/terminologie-atc" ]
        ] ;
@@ -45887,6 +45870,23 @@
          fhir:reference [ fhir:v "CodeSystem/terminologie-ccam" ]
        ] ;
        fhir:name [ fhir:v "Classification Commune des Actes Médicaux" ] ;
+       fhir:example [
+         a fhir:boolean ;
+         fhir:v false
+       ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [
+           a fhir:string ;
+           fhir:v "CodeSystem"
+         ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <https://interop.esante.gouv.fr/terminologies/CodeSystem/terminologie-cladimed> ;
+         fhir:reference [ fhir:v "CodeSystem/terminologie-cladimed" ]
+       ] ;
+       fhir:name [ fhir:v "Classification des dispositifs médicaux" ] ;
        fhir:example [
          a fhir:boolean ;
          fhir:v false
@@ -45937,7 +45937,7 @@
          fhir:link <https://interop.esante.gouv.fr/terminologies/CodeSystem/terminologie-cisp> ;
          fhir:reference [ fhir:v "CodeSystem/terminologie-cisp" ]
        ] ;
-       fhir:name [ fhir:v "Classification Internationale des Soins Primaires v2" ] ;
+       fhir:name [ fhir:v "Classification internationale des soins primaires - 2ème version" ] ;
        fhir:example [
          a fhir:boolean ;
          fhir:v false
