@@ -3,7 +3,7 @@ Alias: $usage-context-type = http://terminology.hl7.org/CodeSystem/usage-context
 Instance: ASS-A12-CorresMediaTypeCDANonStructure-XdsFormatCode-CISIS
 InstanceOf: ConceptMap
 Usage: #definition
-* url = "https://mos.esante.gouv.fr/NOS/ASS_A12_CorresMediaTypeCDANonStructure-XdsFormatCode-CISIS.json"
+* url = "https://mos.esante.gouv.fr/NOS/ASS_A12_CorresMediaTypeCDANonStructure-XdsFormatCode-CISIS"
 * name = "ASS_A12_CorresMediaTypeCDANonStructure_XdsFormatCode_CISIS"
 * title = "ASS_A12_CorresMediaTypeCDANonStructure-XdsFormatCode-CISIS"
 * version = "5.0.0"
