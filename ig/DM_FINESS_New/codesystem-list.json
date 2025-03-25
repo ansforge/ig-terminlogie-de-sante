@@ -1136,7 +1136,7 @@
     },
     {
       "url" : "https://mos.esante.gouv.fr/NOS/TRE_R278-FinessConvention/FHIR/TRE-R278-FinessConvention",
-      "version" : "20250131120000",
+      "version" : "20240329120000",
       "status" : "active",
       "name" : "TRE_R278_FinessConvention",
       "title" : null,
@@ -2568,7 +2568,7 @@
       "version" : "2019-05",
       "status" : "active",
       "name" : "CISP_2",
-      "title" : "Classification Internationale des Soins Primaires v2",
+      "title" : "Classification internationale des soins primaires - 2ème version",
       "description" : null,
       "oids" : ["2.16.840.1.113883.6.139"]
     },
@@ -2576,8 +2576,8 @@
       "url" : "https://smt.esante.gouv.fr/terminologie-cladimed",
       "version" : "v15",
       "status" : "active",
-      "name" : "CLADIMED",
-      "title" : null,
+      "name" : "ClaDiMed",
+      "title" : "Classification des dispositifs médicaux",
       "description" : null,
       "oids" : ["1.2.250.1.213.2.65"]
     },
@@ -2586,7 +2586,7 @@
       "version" : "v1.2",
       "status" : "active",
       "name" : "EMDN",
-      "title" : null,
+      "title" : "European Medical device nomenclature",
       "description" : null,
       "oids" : ["1.2.250.1.213.2.68"]
     },
@@ -2596,7 +2596,7 @@
       "status" : "active",
       "name" : "LAHN",
       "title" : "Liste des Actes Inovants Hors Nomenclature",
-      "description" : "La liste des actes innovants hors nomenclature (LAHN), a été mise en place par la direction générale de l’offre de soins (DGOS) en 2024, dans le cadre du développement de l’innovation en santé,  en remplacement du dispositif RIHN plus liste complémentaire. La LAHN en est la fusion.  L’objectif est de soutenir l’innovation et de la dynamiser par une prise en charge et une évaluation rapide des actes innovant.\nLa LAHN contient une liste d’actes innovants (biologie et anatomocytopathologie) pris en charge à titre transitoire moyennant un recueil de données pour leur évaluation."
+      "description" : "La liste des actes innovants hors nomenclature (LAHN) a été mise en place par la direction générale de l’offre de soins (DGOS) en 2024, dans le cadre du développement de l’innovation en santé. Elle est la fusion du RIHN et de la Liste Complémentaire (LC). L’objectif est de soutenir l’innovation et de la dynamiser par une prise en charge et une évaluation rapide des actes innovants. La LAHN contient une liste d’actes innovants (biologie et anatomocytopathologie) pris en charge à titre transitoire moyennant un recueil de données pour leur évaluation."
     },
     {
       "url" : "https://smt.esante.gouv.fr/terminologie-nabm",
@@ -2629,8 +2629,8 @@
       "url" : "https://smt.esante.gouv.fr/terminologie-standardterms",
       "version" : "2024-06-20",
       "status" : "active",
-      "name" : "EDQM___Standard_Terms",
-      "title" : null,
+      "name" : "Standard_terms_EDQM",
+      "title" : "Standard Terms Data Base Dictionnaire européen multilingue de termes normalisés descripteurs de médicaments",
       "description" : null,
       "oids" : ["0.4.0.127.0.16.1.1.2.1"]
     }

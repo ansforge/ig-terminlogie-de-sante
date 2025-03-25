@@ -1,18 +1,21 @@
 Terminologies : Validation Results
 =========================================
 
-err = 1558, warn = 1980, info = 1097
-IG Publisher Version: 1.8.20
-Generated Fri Mar 14 13:00:31 UTC 2025. FHIR version 4.0.1 for ans.fr.terminologies#0.1.0 (canonical = https://interop.esante.gouv.fr/terminologies)
+err = 1571, warn = 1943, info = 1099
+IG Publisher Version: 1.8.22
+Generated Tue Mar 25 09:52:35 UTC 2025. FHIR version 4.0.1 for ans.fr.terminologies#0.1.0 (canonical = https://interop.esante.gouv.fr/terminologies)
  Build Errors : 679 / 20 / 0
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/DM/fsh-generated/resources/CodeSystem-TRE-G09-DepartementOM : 0 / 1 / 4
+ /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/DM/fsh-generated/resources/CodeSystem-TRE-R209-TypeActivite : 0 / 1 / 4
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/DM/fsh-generated/resources/CodeSystem-TRE-R272-EquipementMaterielLourd : 0 / 1 / 4
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/DM/fsh-generated/resources/CodeSystem-TRE-R274-ActiviteSanitaireRegulee : 0 / 1 / 4
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/DM/fsh-generated/resources/CodeSystem-TRE-R275-ModaliteActivite : 0 / 1 / 4
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/DM/fsh-generated/resources/CodeSystem-TRE-R276-FormeActivite : 0 / 1 / 4
+ /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/DM/fsh-generated/resources/CodeSystem-TRE-R278-FinessConvention : 0 / 1 / 4
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/DM/fsh-generated/resources/CodeSystem-TRE-R279-Clientele : 0 / 1 / 4
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/DM/fsh-generated/resources/CodeSystem-TRE-R280-DisciplineEquipementSocial : 0 / 1 / 4
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/DM/fsh-generated/resources/CodeSystem-TRE-R281-DisciplineEnseignement : 0 / 1 / 4
+ /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/DM/fsh-generated/resources/CodeSystem-TRE-R286-TypeFermeture : 0 / 1 / 6
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/DM/fsh-generated/resources/CodeSystem-TRE-R293-AgregatClienteleNiv2 : 0 / 1 / 4
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/DM/fsh-generated/resources/CodeSystem-TRE-R294-AgregatClienteleNiv3 : 0 / 1 / 4
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/DM/fsh-generated/resources/CodeSystem-TRE-R295-AgregatDisciplineEnseignNiv1 : 0 / 1 / 4
@@ -94,14 +97,19 @@ Generated Fri Mar 14 13:00:31 UTC 2025. FHIR version 4.0.1 for ans.fr.terminolog
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/DM/fsh-generated/resources/ValueSet-TRE-R222-MediaTypeCorpsCDANonStructure-all : 0 / 0 / 1
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/DM/fsh-generated/resources/ValueSet-jdv-j294-document-justificatif-finess : 2 / 0 / 1
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/DM/fsh-generated/resources/ValueSet-jdv-j295-document-informatif-finess : 2 / 0 / 1
+ /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/DM/fsh-generated/resources/ValueSet-jdv-j364-type-fermeture-pm-finess : 2 / 0 / 1
+ /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/DM/fsh-generated/resources/ValueSet-jdv-j365-type-fermeture-ege-finess : 2 / 0 / 1
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/DM/fsh-generated/resources/ValueSet-vs-tre-g09-departement-om-all : 3 / 0 / 1
+ /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/DM/fsh-generated/resources/ValueSet-vs-tre-r209-type-activite-all : 3 / 0 / 1
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/DM/fsh-generated/resources/ValueSet-vs-tre-r272-equipement-materiel-lourd-all : 3 / 0 / 1
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/DM/fsh-generated/resources/ValueSet-vs-tre-r274-activite-sanitaire-regulee-all : 3 / 0 / 1
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/DM/fsh-generated/resources/ValueSet-vs-tre-r275-modalite-activite-all : 3 / 0 / 1
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/DM/fsh-generated/resources/ValueSet-vs-tre-r276-forme-activite-all : 3 / 0 / 1
+ /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/DM/fsh-generated/resources/ValueSet-vs-tre-r278-finess-convention-all : 3 / 0 / 1
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/DM/fsh-generated/resources/ValueSet-vs-tre-r279-clientele-all : 3 / 0 / 1
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/DM/fsh-generated/resources/ValueSet-vs-tre-r280-discipline-equipement-social-all : 3 / 0 / 1
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/DM/fsh-generated/resources/ValueSet-vs-tre-r281-discipline-enseignement-all : 3 / 0 / 1
+ /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/DM/fsh-generated/resources/ValueSet-vs-tre-r286-type-fermeture-all : 3 / 0 / 1
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/DM/fsh-generated/resources/ValueSet-vs-tre-r293-agregat-clientele-niv2-all : 3 / 0 / 1
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/DM/fsh-generated/resources/ValueSet-vs-tre-r294-agregat-clientele-niv3-all : 3 / 0 / 1
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/DM/fsh-generated/resources/ValueSet-vs-tre-r295-agregat-discipline-enseign-niv1-all : 3 / 0 / 1
@@ -187,7 +195,7 @@ Generated Fri Mar 14 13:00:31 UTC 2025. FHIR version 4.0.1 for ans.fr.terminolog
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/AVC_statutEvt_1.2.250.1.213.1.1.4.321.22 : 1 / 1 / 1
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/AVC_territoireInfarctus_1.2.250.1.213.1.1.4.321.37 : 1 / 1 / 1
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/AVC_typLesionImagerie_1.2.250.1.213.1.1.4.321.44 : 2 / 2 / 1
- /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/AVC_typeAdminstrationRt_1.2.250.1.213.1.1.4.321.39 : 0 / 1 / 1
+ /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/AVC_typeAdminstrationRt_1.2.250.1.213.1.1.4.321.39 : 0 / 0 / 1
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/AVC_typeDiabète_1.2.250.1.213.1.1.4.321.7 : 1 / 3 / 1
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/AVC_typeMigraine_1.2.250.1.213.1.1.4.321.8 : 1 / 1 / 1
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/AVC_typeTraitementRt_PA_1.2.250.1.213.1.1.4.321.38 : 1 / 1 / 1
@@ -239,7 +247,7 @@ Generated Fri Mar 14 13:00:31 UTC 2025. FHIR version 4.0.1 for ans.fr.terminolog
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_AutresSymptomesAVC_CISIS_1.2.250.1.213.1.1.5.159 : 0 / 3 / 1
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_AvisMedicalComplementaire_CISIS_1.2.250.1.213.1.1.5.63 : 0 / 0 / 1
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_BIO_Chapitres_CISIS_1.2.250.1.213.1.1.5.90 : 1 / 1 / 1
- /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_BIO_Interpretation_CISIS_1.2.250.1.213.1.1.5.92 : 0 / 1 / 1
+ /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_BIO_Interpretation_CISIS_1.2.250.1.213.1.1.5.92 : 0 / 0 / 1
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_BIO_SousChapitres_CISIS_1.2.250.1.213.1.1.5.480 : 1 / 1 / 1
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_BatterieExamen_CISIS_1.2.250.1.213.1.1.5.102 : 0 / 0 / 1
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_BilanTechnique_CISIS_1.2.250.1.213.1.1.5.84 : 1 / 1 / 1
@@ -420,8 +428,8 @@ Generated Fri Mar 14 13:00:31 UTC 2025. FHIR version 4.0.1 for ans.fr.terminolog
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_FacteursDeRiquesAVC_CISIS_1.2.250.1.213.1.1.5.678 : 0 / 2 / 1
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_FacteursDeRisqueProfessionnels_CISIS_1.2.250.1.213.1.1.5.490 : 0 / 2 / 1
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_FacteursDeRisqueSociaux_CISIS_1.2.250.1.213.1.1.5.488 : 0 / 2 / 1
- /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_FamilleFemmes_CISIS_1.2.250.1.213.1.1.5.26 : 0 / 1 / 1
- /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_FamilleID_CISIS_1.2.250.1.213.1.1.5.89 : 0 / 1 / 1
+ /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_FamilleFemmes_CISIS_1.2.250.1.213.1.1.5.26 : 0 / 0 / 1
+ /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_FamilleID_CISIS_1.2.250.1.213.1.1.5.89 : 0 / 0 / 1
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_FluideRouteCodes_CISIS_1.2.250.1.213.1.1.5.684 : 1 / 2 / 1
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_Foie_Extension_microscopique_macroscopique_tumeur_CISIS_1.2.250.1.213.1.1.5.278 : 1 / 1 / 1
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_Foie_Localisation_limites_resection_CISIS_1.2.250.1.213.1.1.5.280 : 1 / 1 / 1
@@ -469,40 +477,40 @@ Generated Fri Mar 14 13:00:31 UTC 2025. FHIR version 4.0.1 for ans.fr.terminolog
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_GroupeRhesus_CISIS_1.2.250.1.213.1.1.4.2.289.45 : 1 / 2 / 1
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_GroupeRhesus_CISIS_1.2.250.1.213.1.1.5.755 : 2 / 2 / 1
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_HL7_ActEncounterCode_CISIS_2.16.840.1.113883.1.11.13955 : 3 / 3 / 1
- /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_HL7_ActMoodIntent_CISIS_2.16.840.1.113883.1.11.10199 : 0 / 1 / 1
- /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_HL7_ActMood_CISIS_2.16.840.1.113883.1.11.10196 : 0 / 1 / 1
- /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_HL7_ActPriority_CISIS_2.16.840.1.113883.1.11.16866 : 0 / 1 / 1
- /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_HL7_ActStatus_CISIS_2.16.840.1.113883.1.11.15933 : 0 / 1 / 1
- /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_HL7_ActSubstanceAdminSubstitutionCode_CISIS_2.16.840.1.113883.1.11.16621 : 0 / 1 / 1
+ /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_HL7_ActMoodIntent_CISIS_2.16.840.1.113883.1.11.10199 : 0 / 0 / 1
+ /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_HL7_ActMood_CISIS_2.16.840.1.113883.1.11.10196 : 0 / 0 / 1
+ /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_HL7_ActPriority_CISIS_2.16.840.1.113883.1.11.16866 : 0 / 0 / 1
+ /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_HL7_ActStatus_CISIS_2.16.840.1.113883.1.11.15933 : 0 / 0 / 1
+ /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_HL7_ActSubstanceAdminSubstitutionCode_CISIS_2.16.840.1.113883.1.11.16621 : 0 / 0 / 1
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_HL7_ActSubstanceAdministrationCode_CISIS_2.16.840.1.113883.1.11.19708 : 2 / 2 / 2
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_HL7_ActSubstanceAdministrationImmunizationCode_CISIS_2.16.840.1.113883.1.11.19709 : 3 / 3 / 2
- /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_HL7_AdministrableDrugForm_CISIS_2.16.840.1.113883.1.11.14570 : 0 / 1 / 1
- /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_HL7_AdministrativeGender_CISIS_2.16.840.1.113883.1.11.1 : 0 / 1 / 1
- /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_HL7_ConditionClinical_CISIS_2.16.840.1.113883.4.642.3.164 : 0 / 1 / 1
- /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_HL7_Confidentiality_CISIS_2.16.840.1.113883.1.11.10228 : 0 / 1 / 1
- /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_HL7_HumanSubstanceAdministrationSite_CISIS_2.16.840.1.113883.1.11.19724 : 0 / 1 / 1
- /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_HL7_ImmunizationRouteCodes_CISIS_2.16.840.1.113883.5.4.642.3.289 : 0 / 2 / 1
- /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_HL7_ObservationInterpretation_CISIS_2.16.840.1.113883.1.11.78 : 0 / 1 / 1
+ /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_HL7_AdministrableDrugForm_CISIS_2.16.840.1.113883.1.11.14570 : 0 / 0 / 1
+ /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_HL7_AdministrativeGender_CISIS_2.16.840.1.113883.1.11.1 : 0 / 0 / 1
+ /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_HL7_ConditionClinical_CISIS_2.16.840.1.113883.4.642.3.164 : 0 / 0 / 1
+ /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_HL7_Confidentiality_CISIS_2.16.840.1.113883.1.11.10228 : 0 / 0 / 1
+ /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_HL7_HumanSubstanceAdministrationSite_CISIS_2.16.840.1.113883.1.11.19724 : 0 / 0 / 1
+ /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_HL7_ImmunizationRouteCodes_CISIS_2.16.840.1.113883.5.4.642.3.289 : 0 / 1 / 1
+ /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_HL7_ObservationInterpretation_CISIS_2.16.840.1.113883.1.11.78 : 0 / 0 / 1
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_HL7_ObservationIntoleranceType_CISIS_2.16.840.1.113883.1.11.19700 : 12 / 12 / 2
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_HL7_ObservationMethod_CISIS_2.16.840.1.113883.1.11.14079 : 0 / 2 / 1
- /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_HL7_ParticipationFunction_CISIS_2.16.840.1.113883.1.11.10267 : 0 / 1 / 1
- /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_HL7_ParticipationType_CISIS_2.16.840.1.113883.1.11.10901 : 0 / 1 / 1
- /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_HL7_PersonalRelationshipRoleType_CISIS_2.16.840.1.113883.1.11.19563 : 0 / 1 / 1
+ /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_HL7_ParticipationFunction_CISIS_2.16.840.1.113883.1.11.10267 : 0 / 0 / 1
+ /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_HL7_ParticipationType_CISIS_2.16.840.1.113883.1.11.10901 : 0 / 0 / 1
+ /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_HL7_PersonalRelationshipRoleType_CISIS_2.16.840.1.113883.1.11.19563 : 0 / 0 / 1
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_HL7_ROIOverlayShape_CISIS_2.16.840.1.113883.1.11.16117 : 4 / 4 / 2
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_HL7_RoleClassIngredientEntity_CISIS_2.16.840.1.113883.1.11.10430 : 8 / 8 / 2
- /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_HL7_RouteOfAdministration_CISIS_2.16.840.1.113883.5.112 : 0 / 1 / 1
+ /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_HL7_RouteOfAdministration_CISIS_2.16.840.1.113883.5.112 : 0 / 0 / 1
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_HL7_SeverityObservationCode_CISIS_2.16.840.1.113883.1.11.20386 : 1 / 1 / 2
- /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_HL7_SeverityObservation_CISIS_2.16.840.1.113883.1.11.16643 : 0 / 1 / 1
- /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_HL7_SpecimenAdditiveEntity_CISIS_2.16.840.1.113883.1.11.16042 : 0 / 1 / 1
- /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_HL7_SpecimenRoleType_CISIS_2.16.840.1.113883.1.11.16515 : 0 / 1 / 1
- /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_HL7_SpecimenType_CISIS_2.16.840.1.113883.21.327 : 0 / 25 / 1
- /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_HL7_TimingEvent_CISIS_2.16.840.1.113883.1.11.10706 : 0 / 1 / 1
- /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_HL7_WorkSchedule_CISIS_2.16.840.1.113883.1.11.20561 : 0 / 1 / 1
+ /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_HL7_SeverityObservation_CISIS_2.16.840.1.113883.1.11.16643 : 0 / 0 / 1
+ /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_HL7_SpecimenAdditiveEntity_CISIS_2.16.840.1.113883.1.11.16042 : 0 / 0 / 1
+ /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_HL7_SpecimenRoleType_CISIS_2.16.840.1.113883.1.11.16515 : 0 / 0 / 1
+ /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_HL7_SpecimenType_CISIS_2.16.840.1.113883.21.327 : 0 / 24 / 1
+ /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_HL7_TimingEvent_CISIS_2.16.840.1.113883.1.11.10706 : 0 / 0 / 1
+ /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_HL7_WorkSchedule_CISIS_2.16.840.1.113883.1.11.20561 : 0 / 0 / 1
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_HL7_allergy_intolerance_criticality_CISIS_2.16.840.1.113883.4.642.3.129 : 1 / 2 / 1
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_HL7_allergyintolerance_clinical_CISIS_2.16.840.1.113883.4.642.3.1372 : 1 / 2 / 1
- /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_HL7_condition_ver_status_CISIS_2.16.840.1.113883.4.642.3.166 : 0 / 1 / 1
- /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_HL7_employmentStatusODH_CISIS_2.16.840.1.113883.1.11.20562 : 0 / 1 / 1
- /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_HL7_employmentStatus_CISIS_2.16.840.1.113883.21.29 : 0 / 1 / 1
+ /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_HL7_condition_ver_status_CISIS_2.16.840.1.113883.4.642.3.166 : 0 / 0 / 1
+ /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_HL7_employmentStatusODH_CISIS_2.16.840.1.113883.1.11.20562 : 0 / 0 / 1
+ /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_HL7_employmentStatus_CISIS_2.16.840.1.113883.21.29 : 0 / 0 / 1
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_HandicapDeficitDLUDOM_CISIS_1.2.250.1.213.1.1.5.812 : 0 / 1 / 1
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_HandicapDeficitDLUEHPAD_CISIS_1.2.250.1.213.1.1.5.791 : 0 / 2 / 1
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_HealthStatusCodes_CISIS_1.2.250.1.213.1.1.4.2.283.1 : 0 / 2 / 1
@@ -516,7 +524,7 @@ Generated Fri Mar 14 13:00:31 UTC 2025. FHIR version 4.0.1 for ans.fr.terminolog
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_ImpactMutation_CISIS_1.2.250.1.213.1.1.5.142 : 0 / 2 / 1
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_Importance_clinique_CISIS_1.2.250.1.213.1.1.5.153 : 0 / 2 / 1
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_Imputabilite_CISIS_1.2.250.1.213.1.1.5.786 : 0 / 2 / 1
- /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_IndicateurAnormalite_CISIS_1.2.250.1.213.1.1.5.95 : 0 / 1 / 1
+ /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_IndicateurAnormalite_CISIS_1.2.250.1.213.1.1.5.95 : 0 / 0 / 1
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_IndicePerformanceECOG_CISIS_1.2.250.1.213.1.1.5.818 : 0 / 0 / 1
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_InfoPriseEnCharge_CISIS_1.2.250.1.213.1.1.5.685 : 0 / 2 / 1
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_Info_deces_CS8_CISIS_1.2.250.1.213.1.1.5.706 : 0 / 0 / 1
@@ -816,7 +824,7 @@ Generated Fri Mar 14 13:00:31 UTC 2025. FHIR version 4.0.1 for ans.fr.terminolog
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_Levres_cavite_buccale_pN_CISIS_1.2.250.1.213.1.1.5.330 : 1 / 1 / 1
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_Levres_cavite_buccale_pT_carcinome_sauf_melanome_muqueux_malin_CISIS_1.2.250.1.213.1.1.5.332 : 1 / 1 / 1
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_Levres_cavite_buccale_pT_melanome_muqueux_malin_CISIS_1.2.250.1.213.1.1.5.333 : 1 / 1 / 1
- /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_Lien_Assure_Beneficiaire_CISIS_1.2.250.1.213.1.1.5.126 : 0 / 1 / 1
+ /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_Lien_Assure_Beneficiaire_CISIS_1.2.250.1.213.1.1.5.126 : 0 / 0 / 1
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_LieuAccouchement_CISIS_1.2.250.1.213.1.1.5.743 : 0 / 1 / 1
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_LieudeVie_CISIS_1.2.250.1.213.1.1.5.64 : 0 / 1 / 1
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_LocaThromboseVeineuse_CISIS_1.2.250.1.213.1.1.5.207 : 11 / 10 / 1
@@ -969,8 +977,8 @@ Generated Fri Mar 14 13:00:31 UTC 2025. FHIR version 4.0.1 for ans.fr.terminolog
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_Pancreas_Type_histologique_lesion_neoplasique_maligne_invasive_CISIS_1.2.250.1.213.1.1.5.363 : 1 / 1 / 1
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_Pancreas_pN_CISIS_1.2.250.1.213.1.1.5.360 : 1 / 1 / 1
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_Pancreas_pT_CISIS_1.2.250.1.213.1.1.5.362 : 1 / 1 / 1
- /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_ParticipantAdditionnelResultat_CISIS_1.2.250.1.213.1.1.5.138 : 0 / 1 / 1
- /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_ParticipantResultat_CISIS_1.2.250.1.213.1.1.5.137 : 0 / 1 / 1
+ /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_ParticipantAdditionnelResultat_CISIS_1.2.250.1.213.1.1.5.138 : 0 / 0 / 1
+ /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_ParticipantResultat_CISIS_1.2.250.1.213.1.1.5.137 : 0 / 0 / 1
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_Patho_1ere_semaine_CS8_CISIS_1.2.250.1.213.1.1.5.704 : 1 / 3 / 1
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_PatientAdressePar_CISIS_1.2.250.1.213.1.1.5.38 : 0 / 0 / 1
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_Peau_melanome_Grade_histologique_Clark_CISIS_1.2.250.1.213.1.1.5.364 : 1 / 1 / 1
@@ -1045,7 +1053,7 @@ Generated Fri Mar 14 13:00:31 UTC 2025. FHIR version 4.0.1 for ans.fr.terminolog
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_Readaptation_CISIS_1.2.250.1.213.1.1.5.66 : 0 / 0 / 1
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_RealisationActivites_CISIS_1.2.250.1.213.1.1.5.54 : 0 / 2 / 1
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_RechAgHbS_CISIS_1.2.250.1.213.1.1.5.112 : 0 / 2 / 1
- /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_ReferenceRangeAppliesTo_CISIS_1.2.250.1.213.1.1.5.517 : 0 / 3 / 1
+ /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_ReferenceRangeAppliesTo_CISIS_1.2.250.1.213.1.1.5.517 : 0 / 2 / 1
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_RegionAnatomique_CISIS_1.2.250.1.213.1.1.5.695 : 0 / 2 / 1
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_RegistresERN_CISIS_1.2.250.1.213.1.1.5.799 : 0 / 0 / 1
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_Regression_Melanome_CISIS_1.2.250.1.213.1.1.5.583 : 3 / 3 / 2
@@ -1310,16 +1318,16 @@ Generated Fri Mar 14 13:00:31 UTC 2025. FHIR version 4.0.1 for ans.fr.terminolog
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/TRE/CIM11_MMS : 3 / 13 / 20
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/TRE/CIM_10_FR_PMSI : 3 / 10 / 10
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/TRE/CISP_2 : 3 / 8 / 10
- /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/TRE/CLADIMED : 3 / 4 / 6
+ /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/TRE/ClaDiMed : 3 / 3 / 6
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/TRE/Dictionnaire_SMS_Substance_Management_Services_ : 3 / 4 / 14
- /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/TRE/EDQM___Standard_Terms : 3 / 25 / 27
- /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/TRE/EMDN : 3 / 3 / 6
+ /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/TRE/EMDN : 3 / 2 / 6
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/TRE/LAHN : 0 / 3 / 8
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/TRE/NABM : 3 / 5 / 20
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/TRE/NUVA : 3 / 9 / 11
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/TRE/SERAFIN_PH : 0 / 4 / 7
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/TRE/SNOMED_CT : 2 / 3 / 12
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/TRE/ServiceType : 0 / 0 / 1
+ /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/TRE/Standard_terms_EDQM : 3 / 24 / 27
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/TRE/TA_ASIP : 0 / 0 / 1
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/TRE/TRE_A00_ProducteurDocNonPS : 0 / 1 / 4
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/TRE/TRE_A01_CadreExercice : 0 / 1 / 4
@@ -1374,7 +1382,6 @@ Generated Fri Mar 14 13:00:31 UTC 2025. FHIR version 4.0.1 for ans.fr.terminolog
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/TRE/TRE_R206_TypeContact : 0 / 1 / 4
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/TRE/TRE_R207_TypeOrganisationInterne : 0 / 1 / 4
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/TRE/TRE_R208_ClasseAge : 0 / 1 / 4
- /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/TRE/TRE_R209_TypeActivite : 0 / 1 / 4
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/TRE/TRE_R20_Pays : 0 / 1 / 4
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/TRE/TRE_R210_ActeSpecifique : 0 / 1 / 4
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/TRE/TRE_R211_ActiviteOperationnelle : 0 / 1 / 4
@@ -1440,12 +1447,10 @@ Generated Fri Mar 14 13:00:31 UTC 2025. FHIR version 4.0.1 for ans.fr.terminolog
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/TRE/TRE_R270_AvailabilityStatus : 0 / 1 / 4
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/TRE/TRE_R271_TypeRequete : 0 / 1 / 4
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/TRE/TRE_R277_CategorieActiviteSanitaireRegulee : 0 / 1 / 4
- /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/TRE/TRE_R278_FinessConvention : 0 / 1 / 4
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/TRE/TRE_R282_CNAMAmeliSecteurConventionnement : 0 / 1 / 4
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/TRE/TRE_R283_NiveauConfidentialite : 0 / 1 / 4
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/TRE/TRE_R284_NiveauRecoursORSAN : 0 / 1 / 4
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/TRE/TRE_R285_TraitementDocument : 0 / 1 / 4
- /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/TRE/TRE_R286_TypeFermeture : 0 / 1 / 4
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/TRE/TRE_R287_NatureContact : 0 / 1 / 4
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/TRE/TRE_R288_TypeProfession : 0 / 1 / 4
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/TRE/TRE_R289_TypeFonction : 0 / 1 / 4
@@ -1551,17 +1556,17 @@ WARNING: input/sql/sql-add-info.json$.select[0].select[0].select[0].column[0]: T
 WARNING: input/sql/sql-add-info-codesystem.sql$.select[0].select[0].column[0]: This column is not defined as a collection, but the path statement 'code' might return multiple values for the column 'code' for some inputs
 WARNING: input/sql/sql-add-info-codesystem.sql$.select[0].select[0].column[0]: This column is not defined as a collection, but the path statement 'display' might return multiple values for the column 'display' for some inputs
 WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource CodeSystem/terminologie-bdpm.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
-WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource CodeSystem/terminologie-cladimed.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
 WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource CodeSystem/terminologie-ccam.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
-WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource CodeSystem/terminologie-cisp.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
 WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource CodeSystem/terminologie-atc.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource CodeSystem/terminologie-cladimed.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
 WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource CodeSystem/terminologie-cim-10.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
 WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource CodeSystem/terminologie-cim11-mms.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource CodeSystem/terminologie-cisp.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
 WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource CodeSystem/terminologie-sms.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
-WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource CodeSystem/terminologie-standardterms.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
 WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource CodeSystem/terminologie-emdn.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
 WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource CodeSystem/terminologie-nuva.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
 WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource CodeSystem/terminologie-nabm.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource CodeSystem/terminologie-standardterms.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
 WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource CodeSystem/TRE-R13-CommuneOM.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
 WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource NamingSystem/v3-loinc.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
 WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource NamingSystem/Snomed-CT-core.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
@@ -2346,6 +2351,11 @@ WARNING: CodeSystem/TRE-G09-DepartementOM: CodeSystem: Published code systems SH
 INFORMATION: CodeSystem/TRE-G09-DepartementOM: CodeSystem.property[0]: This property has only a code ('dateValid') and not a URI, so it has no clearly defined meaning in the terminology ecosystem
 INFORMATION: CodeSystem/TRE-G09-DepartementOM: CodeSystem.property[1]: This property has only a code ('dateMaj') and not a URI, so it has no clearly defined meaning in the terminology ecosystem
 INFORMATION: CodeSystem/TRE-G09-DepartementOM: CodeSystem.property[2]: This property has only a code ('dateFin') and not a URI, so it has no clearly defined meaning in the terminology ecosystem
+== DM/fsh-generated/resources/CodeSystem-TRE-R209-TypeActivite.json ==
+WARNING: CodeSystem/TRE-R209-TypeActivite: CodeSystem: Published code systems SHOULD conform to the ShareableCodeSystem profile, which says that the element CodeSystem.title is mandatory, but it is not present
+INFORMATION: CodeSystem/TRE-R209-TypeActivite: CodeSystem.property[0]: This property has only a code ('dateValid') and not a URI, so it has no clearly defined meaning in the terminology ecosystem
+INFORMATION: CodeSystem/TRE-R209-TypeActivite: CodeSystem.property[1]: This property has only a code ('dateMaj') and not a URI, so it has no clearly defined meaning in the terminology ecosystem
+INFORMATION: CodeSystem/TRE-R209-TypeActivite: CodeSystem.property[2]: This property has only a code ('dateFin') and not a URI, so it has no clearly defined meaning in the terminology ecosystem
 == DM/fsh-generated/resources/CodeSystem-TRE-R272-EquipementMaterielLourd.json ==
 WARNING: CodeSystem/TRE-R272-EquipementMaterielLourd: CodeSystem: Published code systems SHOULD conform to the ShareableCodeSystem profile, which says that the element CodeSystem.title is mandatory, but it is not present
 INFORMATION: CodeSystem/TRE-R272-EquipementMaterielLourd: CodeSystem.property[0]: This property has only a code ('dateValid') and not a URI, so it has no clearly defined meaning in the terminology ecosystem
@@ -2366,6 +2376,11 @@ WARNING: CodeSystem/TRE-R276-FormeActivite: CodeSystem: Published code systems S
 INFORMATION: CodeSystem/TRE-R276-FormeActivite: CodeSystem.property[0]: This property has only a code ('dateValid') and not a URI, so it has no clearly defined meaning in the terminology ecosystem
 INFORMATION: CodeSystem/TRE-R276-FormeActivite: CodeSystem.property[1]: This property has only a code ('dateMaj') and not a URI, so it has no clearly defined meaning in the terminology ecosystem
 INFORMATION: CodeSystem/TRE-R276-FormeActivite: CodeSystem.property[2]: This property has only a code ('dateFin') and not a URI, so it has no clearly defined meaning in the terminology ecosystem
+== DM/fsh-generated/resources/CodeSystem-TRE-R278-FinessConvention.json ==
+WARNING: CodeSystem/TRE-R278-FinessConvention: CodeSystem: Published code systems SHOULD conform to the ShareableCodeSystem profile, which says that the element CodeSystem.title is mandatory, but it is not present
+INFORMATION: CodeSystem/TRE-R278-FinessConvention: CodeSystem.property[0]: This property has only a code ('dateValid') and not a URI, so it has no clearly defined meaning in the terminology ecosystem
+INFORMATION: CodeSystem/TRE-R278-FinessConvention: CodeSystem.property[1]: This property has only a code ('dateMaj') and not a URI, so it has no clearly defined meaning in the terminology ecosystem
+INFORMATION: CodeSystem/TRE-R278-FinessConvention: CodeSystem.property[2]: This property has only a code ('dateFin') and not a URI, so it has no clearly defined meaning in the terminology ecosystem
 == DM/fsh-generated/resources/CodeSystem-TRE-R279-Clientele.json ==
 WARNING: CodeSystem/TRE-R279-Clientele: CodeSystem: Published code systems SHOULD conform to the ShareableCodeSystem profile, which says that the element CodeSystem.title is mandatory, but it is not present
 INFORMATION: CodeSystem/TRE-R279-Clientele: CodeSystem.property[0]: This property has only a code ('dateValid') and not a URI, so it has no clearly defined meaning in the terminology ecosystem
@@ -2381,6 +2396,13 @@ WARNING: CodeSystem/TRE-R281-DisciplineEnseignement: CodeSystem: Published code 
 INFORMATION: CodeSystem/TRE-R281-DisciplineEnseignement: CodeSystem.property[0]: This property has only a code ('dateValid') and not a URI, so it has no clearly defined meaning in the terminology ecosystem
 INFORMATION: CodeSystem/TRE-R281-DisciplineEnseignement: CodeSystem.property[1]: This property has only a code ('dateMaj') and not a URI, so it has no clearly defined meaning in the terminology ecosystem
 INFORMATION: CodeSystem/TRE-R281-DisciplineEnseignement: CodeSystem.property[2]: This property has only a code ('dateFin') and not a URI, so it has no clearly defined meaning in the terminology ecosystem
+== DM/fsh-generated/resources/CodeSystem-TRE-R286-TypeFermeture.json ==
+WARNING: CodeSystem/TRE-R286-TypeFermeture: CodeSystem: Published code systems SHOULD conform to the ShareableCodeSystem profile, which says that the element CodeSystem.title is mandatory, but it is not present
+INFORMATION: CodeSystem/TRE-R286-TypeFermeture: CodeSystem.property[0]: This property has only a code ('dateValid') and not a URI, so it has no clearly defined meaning in the terminology ecosystem
+INFORMATION: CodeSystem/TRE-R286-TypeFermeture: CodeSystem.property[1]: This property has only a code ('dateMaj') and not a URI, so it has no clearly defined meaning in the terminology ecosystem
+INFORMATION: CodeSystem/TRE-R286-TypeFermeture: CodeSystem.property[2]: This property has only a code ('dateFin') and not a URI, so it has no clearly defined meaning in the terminology ecosystem
+INFORMATION: CodeSystem/TRE-R286-TypeFermeture: CodeSystem.property[6]: This property has only a code ('PM') and not a URI, so it has no clearly defined meaning in the terminology ecosystem
+INFORMATION: CodeSystem/TRE-R286-TypeFermeture: CodeSystem.property[7]: This property has only a code ('EGE') and not a URI, so it has no clearly defined meaning in the terminology ecosystem
 == DM/fsh-generated/resources/CodeSystem-TRE-R293-AgregatClienteleNiv2.json ==
 WARNING: CodeSystem/TRE-R293-AgregatClienteleNiv2: CodeSystem: Published code systems SHOULD conform to the ShareableCodeSystem profile, which says that the element CodeSystem.title is mandatory, but it is not present
 INFORMATION: CodeSystem/TRE-R293-AgregatClienteleNiv2: CodeSystem.property[0]: This property has only a code ('dateValid') and not a URI, so it has no clearly defined meaning in the terminology ecosystem
@@ -2714,10 +2736,20 @@ ERROR: /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSou
 == DM/fsh-generated/resources/ValueSet-jdv-j295-document-informatif-finess.json ==
 ERROR: ValueSet.where(url = 'https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j295-document-informatif-finess'): Conformance resource /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/DM/fsh-generated/resources/ValueSet-jdv-j295-document-informatif-finess.json - the canonical URL (https://interop.esante.gouv.fr/terminologies/ValueSet/jdv-j295-document-informatif-finess) does not match the URL (https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j295-document-informatif-finess)
 ERROR: /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/DM/fsh-generated/resources/ValueSet-jdv-j295-document-informatif-finess: URL Mismatch https://interop.esante.gouv.fr/terminologies/ValueSet/jdv-j295-document-informatif-finess vs https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j295-document-informatif-finess
+== DM/fsh-generated/resources/ValueSet-jdv-j364-type-fermeture-pm-finess.json ==
+ERROR: ValueSet.where(url = 'https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j364-type-fermeture-pm-finess'): Conformance resource /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/DM/fsh-generated/resources/ValueSet-jdv-j364-type-fermeture-pm-finess.json - the canonical URL (https://interop.esante.gouv.fr/terminologies/ValueSet/jdv-j364-type-fermeture-pm-finess) does not match the URL (https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j364-type-fermeture-pm-finess)
+ERROR: /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/DM/fsh-generated/resources/ValueSet-jdv-j364-type-fermeture-pm-finess: URL Mismatch https://interop.esante.gouv.fr/terminologies/ValueSet/jdv-j364-type-fermeture-pm-finess vs https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j364-type-fermeture-pm-finess
+== DM/fsh-generated/resources/ValueSet-jdv-j365-type-fermeture-ege-finess.json ==
+ERROR: ValueSet.where(url = 'https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j365-type-fermeture-ege-finess'): Conformance resource /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/DM/fsh-generated/resources/ValueSet-jdv-j365-type-fermeture-ege-finess.json - the canonical URL (https://interop.esante.gouv.fr/terminologies/ValueSet/jdv-j365-type-fermeture-ege-finess) does not match the URL (https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j365-type-fermeture-ege-finess)
+ERROR: /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/DM/fsh-generated/resources/ValueSet-jdv-j365-type-fermeture-ege-finess: URL Mismatch https://interop.esante.gouv.fr/terminologies/ValueSet/jdv-j365-type-fermeture-ege-finess vs https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j365-type-fermeture-ege-finess
 == DM/fsh-generated/resources/ValueSet-vs-tre-g09-departement-om-all.json ==
 ERROR: ValueSet.where(url = 'https://mos.esante.gouv.fr/NOS/TRE_G09-DepartementOM/FHIR/TRE-G09-DepartementOM?vs'): Conformance resource /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/DM/fsh-generated/resources/ValueSet-vs-tre-g09-departement-om-all.json - the canonical URL (https://interop.esante.gouv.fr/terminologies/ValueSet/vs-tre-g09-departement-om-all) does not match the URL (https://mos.esante.gouv.fr/NOS/TRE_G09-DepartementOM/FHIR/TRE-G09-DepartementOM?vs)
 ERROR: ValueSet.url: Resource id/url mismatch: vs-tre-g09-departement-om-all/https://mos.esante.gouv.fr/NOS/TRE_G09-DepartementOM/FHIR/TRE-G09-DepartementOM?vs
 ERROR: /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/DM/fsh-generated/resources/ValueSet-vs-tre-g09-departement-om-all: URL Mismatch https://interop.esante.gouv.fr/terminologies/ValueSet/vs-tre-g09-departement-om-all vs https://mos.esante.gouv.fr/NOS/TRE_G09-DepartementOM/FHIR/TRE-G09-DepartementOM?vs
+== DM/fsh-generated/resources/ValueSet-vs-tre-r209-type-activite-all.json ==
+ERROR: ValueSet.where(url = 'https://mos.esante.gouv.fr/NOS/TRE_R209-TypeActivite/FHIR/TRE-R209-TypeActivite?vs'): Conformance resource /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/DM/fsh-generated/resources/ValueSet-vs-tre-r209-type-activite-all.json - the canonical URL (https://interop.esante.gouv.fr/terminologies/ValueSet/vs-tre-r209-type-activite-all) does not match the URL (https://mos.esante.gouv.fr/NOS/TRE_R209-TypeActivite/FHIR/TRE-R209-TypeActivite?vs)
+ERROR: ValueSet.url: Resource id/url mismatch: vs-tre-r209-type-activite-all/https://mos.esante.gouv.fr/NOS/TRE_R209-TypeActivite/FHIR/TRE-R209-TypeActivite?vs
+ERROR: /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/DM/fsh-generated/resources/ValueSet-vs-tre-r209-type-activite-all: URL Mismatch https://interop.esante.gouv.fr/terminologies/ValueSet/vs-tre-r209-type-activite-all vs https://mos.esante.gouv.fr/NOS/TRE_R209-TypeActivite/FHIR/TRE-R209-TypeActivite?vs
 == DM/fsh-generated/resources/ValueSet-vs-tre-r272-equipement-materiel-lourd-all.json ==
 ERROR: ValueSet.where(url = 'https://mos.esante.gouv.fr/NOS/TRE_R272-EquipementMaterielLourd/FHIR/TRE-R272-EquipementMaterielLourd?vs'): Conformance resource /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/DM/fsh-generated/resources/ValueSet-vs-tre-r272-equipement-materiel-lourd-all.json - the canonical URL (https://interop.esante.gouv.fr/terminologies/ValueSet/vs-tre-r272-equipement-materiel-lourd-all) does not match the URL (https://mos.esante.gouv.fr/NOS/TRE_R272-EquipementMaterielLourd/FHIR/TRE-R272-EquipementMaterielLourd?vs)
 ERROR: ValueSet.url: Resource id/url mismatch: vs-tre-r272-equipement-materiel-lourd-all/https://mos.esante.gouv.fr/NOS/TRE_R272-EquipementMaterielLourd/FHIR/TRE-R272-EquipementMaterielLourd?vs
@@ -2734,6 +2766,10 @@ ERROR: /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSou
 ERROR: ValueSet.where(url = 'https://mos.esante.gouv.fr/NOS/TRE_R276-FormeActivite/FHIR/TRE-R276-FormeActivite?vs'): Conformance resource /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/DM/fsh-generated/resources/ValueSet-vs-tre-r276-forme-activite-all.json - the canonical URL (https://interop.esante.gouv.fr/terminologies/ValueSet/vs-tre-r276-forme-activite-all) does not match the URL (https://mos.esante.gouv.fr/NOS/TRE_R276-FormeActivite/FHIR/TRE-R276-FormeActivite?vs)
 ERROR: ValueSet.url: Resource id/url mismatch: vs-tre-r276-forme-activite-all/https://mos.esante.gouv.fr/NOS/TRE_R276-FormeActivite/FHIR/TRE-R276-FormeActivite?vs
 ERROR: /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/DM/fsh-generated/resources/ValueSet-vs-tre-r276-forme-activite-all: URL Mismatch https://interop.esante.gouv.fr/terminologies/ValueSet/vs-tre-r276-forme-activite-all vs https://mos.esante.gouv.fr/NOS/TRE_R276-FormeActivite/FHIR/TRE-R276-FormeActivite?vs
+== DM/fsh-generated/resources/ValueSet-vs-tre-r278-finess-convention-all.json ==
+ERROR: ValueSet.where(url = 'https://mos.esante.gouv.fr/NOS/TRE_R278-FinessConvention/FHIR/TRE-R278-FinessConvention?vs'): Conformance resource /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/DM/fsh-generated/resources/ValueSet-vs-tre-r278-finess-convention-all.json - the canonical URL (https://interop.esante.gouv.fr/terminologies/ValueSet/vs-tre-r278-finess-convention-all) does not match the URL (https://mos.esante.gouv.fr/NOS/TRE_R278-FinessConvention/FHIR/TRE-R278-FinessConvention?vs)
+ERROR: ValueSet.url: Resource id/url mismatch: vs-tre-r278-finess-convention-all/https://mos.esante.gouv.fr/NOS/TRE_R278-FinessConvention/FHIR/TRE-R278-FinessConvention?vs
+ERROR: /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/DM/fsh-generated/resources/ValueSet-vs-tre-r278-finess-convention-all: URL Mismatch https://interop.esante.gouv.fr/terminologies/ValueSet/vs-tre-r278-finess-convention-all vs https://mos.esante.gouv.fr/NOS/TRE_R278-FinessConvention/FHIR/TRE-R278-FinessConvention?vs
 == DM/fsh-generated/resources/ValueSet-vs-tre-r279-clientele-all.json ==
 ERROR: ValueSet.where(url = 'https://mos.esante.gouv.fr/NOS/TRE_R279-Clientele/FHIR/TRE-R279-Clientele?vs'): Conformance resource /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/DM/fsh-generated/resources/ValueSet-vs-tre-r279-clientele-all.json - the canonical URL (https://interop.esante.gouv.fr/terminologies/ValueSet/vs-tre-r279-clientele-all) does not match the URL (https://mos.esante.gouv.fr/NOS/TRE_R279-Clientele/FHIR/TRE-R279-Clientele?vs)
 ERROR: ValueSet.url: Resource id/url mismatch: vs-tre-r279-clientele-all/https://mos.esante.gouv.fr/NOS/TRE_R279-Clientele/FHIR/TRE-R279-Clientele?vs
@@ -2746,6 +2782,10 @@ ERROR: /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSou
 ERROR: ValueSet.where(url = 'https://mos.esante.gouv.fr/NOS/TRE_R281-DisciplineEnseignement/FHIR/TRE-R281-DisciplineEnseignement?vs'): Conformance resource /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/DM/fsh-generated/resources/ValueSet-vs-tre-r281-discipline-enseignement-all.json - the canonical URL (https://interop.esante.gouv.fr/terminologies/ValueSet/vs-tre-r281-discipline-enseignement-all) does not match the URL (https://mos.esante.gouv.fr/NOS/TRE_R281-DisciplineEnseignement/FHIR/TRE-R281-DisciplineEnseignement?vs)
 ERROR: ValueSet.url: Resource id/url mismatch: vs-tre-r281-discipline-enseignement-all/https://mos.esante.gouv.fr/NOS/TRE_R281-DisciplineEnseignement/FHIR/TRE-R281-DisciplineEnseignement?vs
 ERROR: /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/DM/fsh-generated/resources/ValueSet-vs-tre-r281-discipline-enseignement-all: URL Mismatch https://interop.esante.gouv.fr/terminologies/ValueSet/vs-tre-r281-discipline-enseignement-all vs https://mos.esante.gouv.fr/NOS/TRE_R281-DisciplineEnseignement/FHIR/TRE-R281-DisciplineEnseignement?vs
+== DM/fsh-generated/resources/ValueSet-vs-tre-r286-type-fermeture-all.json ==
+ERROR: ValueSet.where(url = 'https://mos.esante.gouv.fr/NOS/TRE_R286-TypeFermeture/FHIR/TRE-R286-TypeFermeture?vs'): Conformance resource /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/DM/fsh-generated/resources/ValueSet-vs-tre-r286-type-fermeture-all.json - the canonical URL (https://interop.esante.gouv.fr/terminologies/ValueSet/vs-tre-r286-type-fermeture-all) does not match the URL (https://mos.esante.gouv.fr/NOS/TRE_R286-TypeFermeture/FHIR/TRE-R286-TypeFermeture?vs)
+ERROR: ValueSet.url: Resource id/url mismatch: vs-tre-r286-type-fermeture-all/https://mos.esante.gouv.fr/NOS/TRE_R286-TypeFermeture/FHIR/TRE-R286-TypeFermeture?vs
+ERROR: /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/DM/fsh-generated/resources/ValueSet-vs-tre-r286-type-fermeture-all: URL Mismatch https://interop.esante.gouv.fr/terminologies/ValueSet/vs-tre-r286-type-fermeture-all vs https://mos.esante.gouv.fr/NOS/TRE_R286-TypeFermeture/FHIR/TRE-R286-TypeFermeture?vs
 == DM/fsh-generated/resources/ValueSet-vs-tre-r293-agregat-clientele-niv2-all.json ==
 ERROR: ValueSet.where(url = 'https://mos.esante.gouv.fr/NOS/TRE_R293-AgregatClienteleNiv2/FHIR/TRE-R293-AgregatClienteleNiv2?vs'): Conformance resource /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/DM/fsh-generated/resources/ValueSet-vs-tre-r293-agregat-clientele-niv2-all.json - the canonical URL (https://interop.esante.gouv.fr/terminologies/ValueSet/vs-tre-r293-agregat-clientele-niv2-all) does not match the URL (https://mos.esante.gouv.fr/NOS/TRE_R293-AgregatClienteleNiv2/FHIR/TRE-R293-AgregatClienteleNiv2?vs)
 ERROR: ValueSet.url: Resource id/url mismatch: vs-tre-r293-agregat-clientele-niv2-all/https://mos.esante.gouv.fr/NOS/TRE_R293-AgregatClienteleNiv2/FHIR/TRE-R293-AgregatClienteleNiv2?vs
@@ -3628,7 +3668,6 @@ WARNING: ValueSet/1.2.250.1.213.1.1.4.321.44: ValueSet.compose.include[0]: Unkno
 ERROR: ValueSet/1.2.250.1.213.1.1.4.321.44: ValueSet.compose.include[1]: URI values in ValueSet.compose.include.system must be absolute
 WARNING: ValueSet/1.2.250.1.213.1.1.4.321.44: ValueSet.compose.include[1]: Unknown System '1.2.250.1.213.2.12' specified, so Concepts and Filters can't be checked (Details: A definition for CodeSystem '1.2.250.1.213.2.12' could not be found, so the code cannot be validated)
 == input/ontoserver/JDV/AVC_typeAdminstrationRt_1.2.250.1.213.1.1.4.321.39.json ==
-WARNING: ValueSet/1.2.250.1.213.1.1.4.321.39: ValueSet.compose.include[0]: There are multiple different potential matches for the url 'http://terminology.hl7.org/CodeSystem/v3-RouteOfAdministration'. It might be a good idea to fix to the correct version to reduce the likelihood of a wrong version being selected by an implementation/implementer. Using version '3.0.0', found versions: 2018-08-12, 3.0.0
 == input/ontoserver/JDV/AVC_typeDiabète_1.2.250.1.213.1.1.4.321.7.json ==
 WARNING: ValueSet/1.2.250.1.213.1.1.4.321.7: ValueSet: Constraint failed: vsd-0: 'Name should be usable as an identifier for the module by machine processing applications such as code generation' (defined in http://hl7.org/fhir/StructureDefinition/ValueSet)
 WARNING: ValueSet/1.2.250.1.213.1.1.4.321.7: ValueSet.compose.include[0]: Unknown System 'http://terminology.hl7.org/CodeSystem/icd10' specified, so Concepts and Filters can't be checked (Details: A definition for CodeSystem 'http://terminology.hl7.org/CodeSystem/icd10' could not be found, so the code cannot be validated)
@@ -3777,7 +3816,6 @@ WARNING: ValueSet.where(id = '1.2.250.1.213.1.1.5.159'): Error from http://tx.fh
 ERROR: ValueSet/1.2.250.1.213.1.1.5.90: ValueSet.compose.include[0]: URI values in ValueSet.compose.include.system must be absolute
 WARNING: ValueSet/1.2.250.1.213.1.1.5.90: ValueSet.compose.include[0]: Unknown System '1.2.250.1.213.1.1.5.130' specified, so Concepts and Filters can't be checked (Details: A definition for CodeSystem '1.2.250.1.213.1.1.5.130' could not be found, so the code cannot be validated)
 == input/ontoserver/JDV/JDV_BIO_Interpretation_CISIS_1.2.250.1.213.1.1.5.92.json ==
-WARNING: ValueSet/1.2.250.1.213.1.1.5.92: ValueSet.compose.include[0]: There are multiple different potential matches for the url 'http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation'. It might be a good idea to fix to the correct version to reduce the likelihood of a wrong version being selected by an implementation/implementer. Using version '3.0.0', found versions: 2018-08-12, 3.0.0
 == input/ontoserver/JDV/JDV_BIO_SousChapitres_CISIS_1.2.250.1.213.1.1.5.480.json ==
 ERROR: ValueSet/1.2.250.1.213.1.1.5.480: ValueSet.compose.include[0]: URI values in ValueSet.compose.include.system must be absolute
 WARNING: ValueSet/1.2.250.1.213.1.1.5.480: ValueSet.compose.include[0]: Unknown System '1.2.250.1.213.1.1.5.130' specified, so Concepts and Filters can't be checked (Details: A definition for CodeSystem '1.2.250.1.213.1.1.5.130' could not be found, so the code cannot be validated)
@@ -4272,9 +4310,7 @@ WARNING: ValueSet.where(id = '1.2.250.1.213.1.1.5.490'): Error from http://tx.fh
 WARNING: ValueSet/1.2.250.1.213.1.1.5.488: ValueSet.compose.include[0]: Unknown System 'http://snomed.info/sct' specified, so Concepts and Filters can't be checked (Details: A definition for CodeSystem 'http://snomed.info/sct' version 'http://snomed.info/sct/11000315107' could not be found, so the code cannot be validated. Valid versions: [http://snomed.info/sct/11000315107/version/20240621])
 WARNING: ValueSet.where(id = '1.2.250.1.213.1.1.5.488'): Error from http://tx.fhir.org/r4: Unable to provide support for code system http://snomed.info/sct
 == input/ontoserver/JDV/JDV_FamilleFemmes_CISIS_1.2.250.1.213.1.1.5.26.json ==
-WARNING: ValueSet/1.2.250.1.213.1.1.5.26: ValueSet.compose.include[0]: There are multiple different potential matches for the url 'http://terminology.hl7.org/CodeSystem/v3-RoleCode'. It might be a good idea to fix to the correct version to reduce the likelihood of a wrong version being selected by an implementation/implementer. Using version '3.0.0', found versions: 2018-08-12, 3.0.0
 == input/ontoserver/JDV/JDV_FamilleID_CISIS_1.2.250.1.213.1.1.5.89.json ==
-WARNING: ValueSet/1.2.250.1.213.1.1.5.89: ValueSet.compose.include[0]: There are multiple different potential matches for the url 'http://terminology.hl7.org/CodeSystem/v3-RoleCode'. It might be a good idea to fix to the correct version to reduce the likelihood of a wrong version being selected by an implementation/implementer. Using version '3.0.0', found versions: 2018-08-12, 3.0.0
 == input/ontoserver/JDV/JDV_FluideRouteCodes_CISIS_1.2.250.1.213.1.1.5.684.json ==
 ERROR: ValueSet/1.2.250.1.213.1.1.5.684: ValueSet.compose.include[0]: URI values in ValueSet.compose.include.system must be absolute
 WARNING: ValueSet/1.2.250.1.213.1.1.5.684: ValueSet.compose.include[0]: Unknown System '0.4.0.127.0.16.1.1.2.1' specified, so Concepts and Filters can't be checked (Details: A definition for CodeSystem '0.4.0.127.0.16.1.1.2.1' could not be found, so the code cannot be validated)
@@ -4422,15 +4458,10 @@ ERROR: ValueSet.text.div: Hyperlink 'CodeSystem-TRE-R304-HL7v3ActCode.html#TRE-R
 ERROR: ValueSet.text.div: Hyperlink 'CodeSystem-TRE-R304-HL7v3ActCode.html#TRE-R304-HL7v3ActCode-PRENC' at 'div/ul/li/table/tr/td/a' for 'PRENC' does not resolve
 ERROR: ValueSet.text.div: Hyperlink 'CodeSystem-TRE-R304-HL7v3ActCode.html#TRE-R304-HL7v3ActCode-SS' at 'div/ul/li/table/tr/td/a' for 'SS' does not resolve
 == input/ontoserver/JDV/JDV_HL7_ActMoodIntent_CISIS_2.16.840.1.113883.1.11.10199.json ==
-WARNING: ValueSet/2.16.840.1.113883.1.11.10199: ValueSet.compose.include[0]: There are multiple different potential matches for the url 'http://terminology.hl7.org/CodeSystem/v3-ActMood'. It might be a good idea to fix to the correct version to reduce the likelihood of a wrong version being selected by an implementation/implementer. Using version '3.0.0', found versions: 2018-08-12, 3.0.0
 == input/ontoserver/JDV/JDV_HL7_ActMood_CISIS_2.16.840.1.113883.1.11.10196.json ==
-WARNING: ValueSet/2.16.840.1.113883.1.11.10196: ValueSet.compose.include[0]: There are multiple different potential matches for the url 'http://terminology.hl7.org/CodeSystem/v3-ActMood'. It might be a good idea to fix to the correct version to reduce the likelihood of a wrong version being selected by an implementation/implementer. Using version '3.0.0', found versions: 2018-08-12, 3.0.0
 == input/ontoserver/JDV/JDV_HL7_ActPriority_CISIS_2.16.840.1.113883.1.11.16866.json ==
-WARNING: ValueSet/2.16.840.1.113883.1.11.16866: ValueSet.compose.include[0]: There are multiple different potential matches for the url 'http://terminology.hl7.org/CodeSystem/v3-ActPriority'. It might be a good idea to fix to the correct version to reduce the likelihood of a wrong version being selected by an implementation/implementer. Using version '3.0.0', found versions: 2018-08-12, 3.0.0
 == input/ontoserver/JDV/JDV_HL7_ActStatus_CISIS_2.16.840.1.113883.1.11.15933.json ==
-WARNING: ValueSet/2.16.840.1.113883.1.11.15933: ValueSet.compose.include[0]: There are multiple different potential matches for the url 'http://terminology.hl7.org/CodeSystem/v3-ActStatus'. It might be a good idea to fix to the correct version to reduce the likelihood of a wrong version being selected by an implementation/implementer. Using version '3.0.0', found versions: 2018-08-12, 3.0.0
 == input/ontoserver/JDV/JDV_HL7_ActSubstanceAdminSubstitutionCode_CISIS_2.16.840.1.113883.1.11.16621.json ==
-WARNING: ValueSet/2.16.840.1.113883.1.11.16621: ValueSet.compose.include[0]: There are multiple different potential matches for the url 'http://terminology.hl7.org/CodeSystem/v3-substanceAdminSubstitution'. It might be a good idea to fix to the correct version to reduce the likelihood of a wrong version being selected by an implementation/implementer. Using version '3.0.0', found versions: 2018-08-12, 3.0.0
 == input/ontoserver/JDV/JDV_HL7_ActSubstanceAdministrationCode_CISIS_2.16.840.1.113883.1.11.19708.json ==
 WARNING: ValueSet/2.16.840.1.113883.1.11.19708: ValueSet.compose.include[0].concept[0]: The code 'DRUG' is not valid in the system https://mos.esante.gouv.fr/NOS/TRE_R304-HL7v3ActCode/FHIR/TRE-R304-HL7v3ActCode (Unknown code 'DRUG' in the CodeSystem 'https://mos.esante.gouv.fr/NOS/TRE_R304-HL7v3ActCode/FHIR/TRE-R304-HL7v3ActCode' version '20231215120000')
 INFORMATION: ValueSet/2.16.840.1.113883.1.11.19708: ValueSet.compose.include[0].concept[0]: Unknown code 'DRUG' in the CodeSystem 'https://mos.esante.gouv.fr/NOS/TRE_R304-HL7v3ActCode/FHIR/TRE-R304-HL7v3ActCode' version '20231215120000'
@@ -4446,20 +4477,13 @@ ERROR: ValueSet.text.div: Hyperlink 'CodeSystem-TRE-R304-HL7v3ActCode.html#TRE-R
 ERROR: ValueSet.text.div: Hyperlink 'CodeSystem-TRE-R304-HL7v3ActCode.html#TRE-R304-HL7v3ActCode-IMMUNIZ' at 'div/ul/li/table/tr/td/a' for 'IMMUNIZ' does not resolve
 ERROR: ValueSet.text.div: Hyperlink 'CodeSystem-TRE-R304-HL7v3ActCode.html#TRE-R304-HL7v3ActCode-INITIMMUNIZ' at 'div/ul/li/table/tr/td/a' for 'INITIMMUNIZ' does not resolve
 == input/ontoserver/JDV/JDV_HL7_AdministrableDrugForm_CISIS_2.16.840.1.113883.1.11.14570.json ==
-WARNING: ValueSet/2.16.840.1.113883.1.11.14570: ValueSet.compose.include[0]: There are multiple different potential matches for the url 'http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm'. It might be a good idea to fix to the correct version to reduce the likelihood of a wrong version being selected by an implementation/implementer. Using version '3.0.0', found versions: 2018-08-12, 3.0.0
 == input/ontoserver/JDV/JDV_HL7_AdministrativeGender_CISIS_2.16.840.1.113883.1.11.1.json ==
-WARNING: ValueSet/2.16.840.1.113883.1.11.1: ValueSet.compose.include[0]: There are multiple different potential matches for the url 'http://terminology.hl7.org/CodeSystem/v3-AdministrativeGender'. It might be a good idea to fix to the correct version to reduce the likelihood of a wrong version being selected by an implementation/implementer. Using version '3.0.0', found versions: 2018-08-12, 3.0.0
 == input/ontoserver/JDV/JDV_HL7_ConditionClinical_CISIS_2.16.840.1.113883.4.642.3.164.json ==
-WARNING: ValueSet/2.16.840.1.113883.4.642.3.164: ValueSet.compose.include[0]: There are multiple different potential matches for the url 'http://terminology.hl7.org/CodeSystem/condition-clinical'. It might be a good idea to fix to the correct version to reduce the likelihood of a wrong version being selected by an implementation/implementer. Using version '3.0.0', found versions: 3.0.0, 4.0.1
 == input/ontoserver/JDV/JDV_HL7_Confidentiality_CISIS_2.16.840.1.113883.1.11.10228.json ==
-WARNING: ValueSet/2.16.840.1.113883.1.11.10228: ValueSet.compose.include[0]: There are multiple different potential matches for the url 'http://terminology.hl7.org/CodeSystem/v3-Confidentiality'. It might be a good idea to fix to the correct version to reduce the likelihood of a wrong version being selected by an implementation/implementer. Using version '3.0.0', found versions: 2018-08-12, 3.0.0
 == input/ontoserver/JDV/JDV_HL7_HumanSubstanceAdministrationSite_CISIS_2.16.840.1.113883.1.11.19724.json ==
-WARNING: ValueSet/2.16.840.1.113883.1.11.19724: ValueSet.compose.include[0]: There are multiple different potential matches for the url 'http://terminology.hl7.org/CodeSystem/v3-ActSite'. It might be a good idea to fix to the correct version to reduce the likelihood of a wrong version being selected by an implementation/implementer. Using version '3.0.0', found versions: 2018-08-12, 3.0.0
 == input/ontoserver/JDV/JDV_HL7_ImmunizationRouteCodes_CISIS_2.16.840.1.113883.5.4.642.3.289.json ==
-WARNING: ValueSet/2.16.840.1.113883.5.4.642.3.289: ValueSet.compose.include[0]: There are multiple different potential matches for the url 'http://terminology.hl7.org/CodeSystem/v3-RouteOfAdministration'. It might be a good idea to fix to the correct version to reduce the likelihood of a wrong version being selected by an implementation/implementer. Using version '3.0.0', found versions: 2018-08-12, 3.0.0
 WARNING: ValueSet/2.16.840.1.113883.5.4.642.3.289: ValueSet.compose.include[0].concept[1]: The code 'INDINJ' is not valid in the system http://terminology.hl7.org/CodeSystem/v3-RouteOfAdministration (Unknown code 'INDINJ' in the CodeSystem 'http://terminology.hl7.org/CodeSystem/v3-RouteOfAdministration' version '3.0.0')
 == input/ontoserver/JDV/JDV_HL7_ObservationInterpretation_CISIS_2.16.840.1.113883.1.11.78.json ==
-WARNING: ValueSet/2.16.840.1.113883.1.11.78: ValueSet.compose.include[0]: There are multiple different potential matches for the url 'http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation'. It might be a good idea to fix to the correct version to reduce the likelihood of a wrong version being selected by an implementation/implementer. Using version '3.0.0', found versions: 2018-08-12, 3.0.0
 == input/ontoserver/JDV/JDV_HL7_ObservationIntoleranceType_CISIS_2.16.840.1.113883.1.11.19700.json ==
 WARNING: ValueSet/2.16.840.1.113883.1.11.19700: ValueSet.compose.include[0].concept[0]: The code 'OINT' is not valid in the system https://mos.esante.gouv.fr/NOS/TRE_R304-HL7v3ActCode/FHIR/TRE-R304-HL7v3ActCode (Unknown code 'OINT' in the CodeSystem 'https://mos.esante.gouv.fr/NOS/TRE_R304-HL7v3ActCode/FHIR/TRE-R304-HL7v3ActCode' version '20231215120000')
 INFORMATION: ValueSet/2.16.840.1.113883.1.11.19700: ValueSet.compose.include[0].concept[0]: Unknown code 'OINT' in the CodeSystem 'https://mos.esante.gouv.fr/NOS/TRE_R304-HL7v3ActCode/FHIR/TRE-R304-HL7v3ActCode' version '20231215120000'
@@ -4490,11 +4514,8 @@ ERROR: ValueSet.text.div: Hyperlink 'CodeSystem-TRE-R304-HL7v3ActCode.html#TRE-R
 WARNING: ValueSet/2.16.840.1.113883.1.11.14079: ValueSet.compose.include[0]: Unknown System 'urn:oid:2.16.840.1.113883.5.84' specified, so Concepts and Filters can't be checked (Details: A definition for CodeSystem 'urn:oid:2.16.840.1.113883.5.84' could not be found, so the code cannot be validated)
 WARNING: ValueSet.where(id = '2.16.840.1.113883.1.11.14079'): Error from http://tx.fhir.org/r4: Unable to provide support for code system urn:oid:2.16.840.1.113883.5.84
 == input/ontoserver/JDV/JDV_HL7_ParticipationFunction_CISIS_2.16.840.1.113883.1.11.10267.json ==
-WARNING: ValueSet/2.16.840.1.113883.1.11.10267: ValueSet.compose.include[0]: There are multiple different potential matches for the url 'http://terminology.hl7.org/CodeSystem/v3-ParticipationFunction'. It might be a good idea to fix to the correct version to reduce the likelihood of a wrong version being selected by an implementation/implementer. Using version '3.0.0', found versions: 2018-08-12, 3.0.0
 == input/ontoserver/JDV/JDV_HL7_ParticipationType_CISIS_2.16.840.1.113883.1.11.10901.json ==
-WARNING: ValueSet/2.16.840.1.113883.1.11.10901: ValueSet.compose.include[0]: There are multiple different potential matches for the url 'http://terminology.hl7.org/CodeSystem/v3-ParticipationType'. It might be a good idea to fix to the correct version to reduce the likelihood of a wrong version being selected by an implementation/implementer. Using version '5.0.0', found versions: 2018-08-12, 5.0.0
 == input/ontoserver/JDV/JDV_HL7_PersonalRelationshipRoleType_CISIS_2.16.840.1.113883.1.11.19563.json ==
-WARNING: ValueSet/2.16.840.1.113883.1.11.19563: ValueSet.compose.include[0]: There are multiple different potential matches for the url 'http://terminology.hl7.org/CodeSystem/v3-RoleCode'. It might be a good idea to fix to the correct version to reduce the likelihood of a wrong version being selected by an implementation/implementer. Using version '3.0.0', found versions: 2018-08-12, 3.0.0
 == input/ontoserver/JDV/JDV_HL7_ROIOverlayShape_CISIS_2.16.840.1.113883.1.11.16117.json ==
 WARNING: ValueSet/2.16.840.1.113883.1.11.16117: ValueSet.compose.include[0].concept[0]: The code 'CIRCLE' is not valid in the system https://mos.esante.gouv.fr/NOS/TRE_R304-HL7v3ActCode/FHIR/TRE-R304-HL7v3ActCode (Unknown code 'CIRCLE' in the CodeSystem 'https://mos.esante.gouv.fr/NOS/TRE_R304-HL7v3ActCode/FHIR/TRE-R304-HL7v3ActCode' version '20231215120000')
 INFORMATION: ValueSet/2.16.840.1.113883.1.11.16117: ValueSet.compose.include[0].concept[0]: Unknown code 'CIRCLE' in the CodeSystem 'https://mos.esante.gouv.fr/NOS/TRE_R304-HL7v3ActCode/FHIR/TRE-R304-HL7v3ActCode' version '20231215120000'
@@ -4524,19 +4545,14 @@ ERROR: ValueSet.text.div: Hyperlink 'CodeSystem-TRE-R260-HL7RoleClass.html#TRE-R
 ERROR: ValueSet.text.div: Hyperlink 'CodeSystem-TRE-R260-HL7RoleClass.html#TRE-R260-HL7RoleClass-IACT' at 'div/ul/li/table/tr/td/a' for 'IACT' does not resolve
 ERROR: ValueSet.text.div: Hyperlink 'CodeSystem-TRE-R260-HL7RoleClass.html#TRE-R260-HL7RoleClass-MECH' at 'div/ul/li/table/tr/td/a' for 'MECH' does not resolve
 == input/ontoserver/JDV/JDV_HL7_RouteOfAdministration_CISIS_2.16.840.1.113883.5.112.json ==
-WARNING: ValueSet/2.16.840.1.113883.5.112: ValueSet.compose.include[0]: There are multiple different potential matches for the url 'http://terminology.hl7.org/CodeSystem/v3-RouteOfAdministration'. It might be a good idea to fix to the correct version to reduce the likelihood of a wrong version being selected by an implementation/implementer. Using version '3.0.0', found versions: 2018-08-12, 3.0.0
 == input/ontoserver/JDV/JDV_HL7_SeverityObservationCode_CISIS_2.16.840.1.113883.1.11.20386.json ==
 WARNING: ValueSet/2.16.840.1.113883.1.11.20386: ValueSet.compose.include[0].concept[0]: The code 'SEV' is not valid in the system https://mos.esante.gouv.fr/NOS/TRE_R304-HL7v3ActCode/FHIR/TRE-R304-HL7v3ActCode (Unknown code 'SEV' in the CodeSystem 'https://mos.esante.gouv.fr/NOS/TRE_R304-HL7v3ActCode/FHIR/TRE-R304-HL7v3ActCode' version '20231215120000')
 INFORMATION: ValueSet/2.16.840.1.113883.1.11.20386: ValueSet.compose.include[0].concept[0]: Unknown code 'SEV' in the CodeSystem 'https://mos.esante.gouv.fr/NOS/TRE_R304-HL7v3ActCode/FHIR/TRE-R304-HL7v3ActCode' version '20231215120000'
 ERROR: ValueSet.text.div: Hyperlink 'CodeSystem-TRE-R304-HL7v3ActCode.html#TRE-R304-HL7v3ActCode-SEV' at 'div/ul/li/table/tr/td/a' for 'SEV' does not resolve
 == input/ontoserver/JDV/JDV_HL7_SeverityObservation_CISIS_2.16.840.1.113883.1.11.16643.json ==
-WARNING: ValueSet/2.16.840.1.113883.1.11.16643: ValueSet.compose.include[0]: There are multiple different potential matches for the url 'http://terminology.hl7.org/CodeSystem/v3-ObservationValue'. It might be a good idea to fix to the correct version to reduce the likelihood of a wrong version being selected by an implementation/implementer. Using version '4.0.0', found versions: 2018-08-12, 4.0.0
 == input/ontoserver/JDV/JDV_HL7_SpecimenAdditiveEntity_CISIS_2.16.840.1.113883.1.11.16042.json ==
-WARNING: ValueSet/2.16.840.1.113883.1.11.16042: ValueSet.compose.include[0]: There are multiple different potential matches for the url 'http://terminology.hl7.org/CodeSystem/v3-EntityCode'. It might be a good idea to fix to the correct version to reduce the likelihood of a wrong version being selected by an implementation/implementer. Using version '3.0.0', found versions: 2018-08-12, 3.0.0
 == input/ontoserver/JDV/JDV_HL7_SpecimenRoleType_CISIS_2.16.840.1.113883.1.11.16515.json ==
-WARNING: ValueSet/2.16.840.1.113883.1.11.16515: ValueSet.compose.include[0]: There are multiple different potential matches for the url 'http://terminology.hl7.org/CodeSystem/v3-RoleCode'. It might be a good idea to fix to the correct version to reduce the likelihood of a wrong version being selected by an implementation/implementer. Using version '3.0.0', found versions: 2018-08-12, 3.0.0
 == input/ontoserver/JDV/JDV_HL7_SpecimenType_CISIS_2.16.840.1.113883.21.327.json ==
-WARNING: ValueSet/2.16.840.1.113883.21.327: ValueSet.compose.include[0]: There are multiple different potential matches for the url 'http://terminology.hl7.org/CodeSystem/v2-0487'. It might be a good idea to fix to the correct version to reduce the likelihood of a wrong version being selected by an implementation/implementer. Using version '2.0.0', found versions: 2.0.0, 2.9
 WARNING: ValueSet/2.16.840.1.113883.21.327: ValueSet.compose.include[0].concept[21]: The code 'BLDC' is not valid in the system http://terminology.hl7.org/CodeSystem/v2-0487 (Unknown code 'BLDC' in the CodeSystem 'http://terminology.hl7.org/CodeSystem/v2-0487' version '2.0.0')
 WARNING: ValueSet/2.16.840.1.113883.21.327: ValueSet.compose.include[0].concept[32]: The code 'BRO' is not valid in the system http://terminology.hl7.org/CodeSystem/v2-0487 (Unknown code 'BRO' in the CodeSystem 'http://terminology.hl7.org/CodeSystem/v2-0487' version '2.0.0')
 WARNING: ValueSet/2.16.840.1.113883.21.327: ValueSet.compose.include[0].concept[48]: The code 'CRN' is not valid in the system http://terminology.hl7.org/CodeSystem/v2-0487 (Unknown code 'CRN' in the CodeSystem 'http://terminology.hl7.org/CodeSystem/v2-0487' version '2.0.0')
@@ -4562,9 +4578,7 @@ WARNING: ValueSet/2.16.840.1.113883.21.327: ValueSet.compose.include[0].concept[
 WARNING: ValueSet/2.16.840.1.113883.21.327: ValueSet.compose.include[0].concept[299]: The code 'UMB' is not valid in the system http://terminology.hl7.org/CodeSystem/v2-0487 (Unknown code 'UMB' in the CodeSystem 'http://terminology.hl7.org/CodeSystem/v2-0487' version '2.0.0')
 WARNING: ValueSet/2.16.840.1.113883.21.327: ValueSet.compose.include[0].concept[310]: The code 'URTH' is not valid in the system http://terminology.hl7.org/CodeSystem/v2-0487 (Unknown code 'URTH' in the CodeSystem 'http://terminology.hl7.org/CodeSystem/v2-0487' version '2.0.0')
 == input/ontoserver/JDV/JDV_HL7_TimingEvent_CISIS_2.16.840.1.113883.1.11.10706.json ==
-WARNING: ValueSet/2.16.840.1.113883.1.11.10706: ValueSet.compose.include[0]: There are multiple different potential matches for the url 'http://terminology.hl7.org/CodeSystem/v3-TimingEvent'. It might be a good idea to fix to the correct version to reduce the likelihood of a wrong version being selected by an implementation/implementer. Using version '3.0.0', found versions: 2018-08-12, 3.0.0
 == input/ontoserver/JDV/JDV_HL7_WorkSchedule_CISIS_2.16.840.1.113883.1.11.20561.json ==
-WARNING: ValueSet/2.16.840.1.113883.1.11.20561: ValueSet.compose.include[0]: There are multiple different potential matches for the url 'http://terminology.hl7.org/CodeSystem/v3-ObservationValue'. It might be a good idea to fix to the correct version to reduce the likelihood of a wrong version being selected by an implementation/implementer. Using version '4.0.0', found versions: 2018-08-12, 4.0.0
 == input/ontoserver/JDV/JDV_HL7_allergy_intolerance_criticality_CISIS_2.16.840.1.113883.4.642.3.129.json ==
 ERROR: ValueSet/2.16.840.1.113883.4.642.3.129: ValueSet.compose.include[0]: URI values in ValueSet.compose.include.system must be absolute
 WARNING: ValueSet/2.16.840.1.113883.4.642.3.129: ValueSet.compose.include[0]: Unknown System '2.16.840.1.113883.4.642.4.130' specified, so Concepts and Filters can't be checked (Details: A definition for CodeSystem '2.16.840.1.113883.4.642.4.130' could not be found, so the code cannot be validated)
@@ -4574,11 +4588,8 @@ ERROR: ValueSet/2.16.840.1.113883.4.642.3.1372: ValueSet.compose.include[0]: URI
 WARNING: ValueSet/2.16.840.1.113883.4.642.3.1372: ValueSet.compose.include[0]: Unknown System '2.16.840.1.113883.4.642.4.1373' specified, so Concepts and Filters can't be checked (Details: A definition for CodeSystem '2.16.840.1.113883.4.642.4.1373' could not be found, so the code cannot be validated)
 WARNING: ValueSet.where(id = '2.16.840.1.113883.4.642.3.1372'): Error from http://tx.fhir.org/r4: Unable to provide support for code system 2.16.840.1.113883.4.642.4.1373
 == input/ontoserver/JDV/JDV_HL7_condition_ver_status_CISIS_2.16.840.1.113883.4.642.3.166.json ==
-WARNING: ValueSet/2.16.840.1.113883.4.642.3.166: ValueSet.compose.include[0]: There are multiple different potential matches for the url 'http://terminology.hl7.org/CodeSystem/condition-ver-status'. It might be a good idea to fix to the correct version to reduce the likelihood of a wrong version being selected by an implementation/implementer. Using version '2.0.1', found versions: 2.0.1, 4.0.1
 == input/ontoserver/JDV/JDV_HL7_employmentStatusODH_CISIS_2.16.840.1.113883.1.11.20562.json ==
-WARNING: ValueSet/2.16.840.1.113883.1.11.20562: ValueSet.compose.include[0]: There are multiple different potential matches for the url 'http://terminology.hl7.org/CodeSystem/v3-ObservationValue'. It might be a good idea to fix to the correct version to reduce the likelihood of a wrong version being selected by an implementation/implementer. Using version '4.0.0', found versions: 2018-08-12, 4.0.0
 == input/ontoserver/JDV/JDV_HL7_employmentStatus_CISIS_2.16.840.1.113883.21.29.json ==
-WARNING: ValueSet/2.16.840.1.113883.21.29: ValueSet.compose.include[0]: There are multiple different potential matches for the url 'http://terminology.hl7.org/CodeSystem/v2-0066'. It might be a good idea to fix to the correct version to reduce the likelihood of a wrong version being selected by an implementation/implementer. Using version '2.0.0', found versions: 2.0.0, 2.9
 == input/ontoserver/JDV/JDV_HandicapDeficitDLUDOM_CISIS_1.2.250.1.213.1.1.5.812.json ==
 WARNING: ValueSet/1.2.250.1.213.1.1.5.812: ValueSet.compose.include[1]: Unknown System 'http://snomed.info/sct' specified, so Concepts and Filters can't be checked (Details: A definition for CodeSystem 'http://snomed.info/sct' version 'http://snomed.info/sct/11000315107' could not be found, so the code cannot be validated. Valid versions: [http://snomed.info/sct/11000315107/version/20240621])
 == input/ontoserver/JDV/JDV_HandicapDeficitDLUEHPAD_CISIS_1.2.250.1.213.1.1.5.791.json ==
@@ -4614,7 +4625,6 @@ WARNING: ValueSet.where(id = '1.2.250.1.213.1.1.5.153'): Error from http://tx.fh
 WARNING: ValueSet/1.2.250.1.213.1.1.5.786: ValueSet.compose.include[0]: Unknown System 'urn:oid:2.16.840.1.113883.6.96' specified, so Concepts and Filters can't be checked (Details: A definition for CodeSystem 'urn:oid:2.16.840.1.113883.6.96' could not be found, so the code cannot be validated)
 WARNING: ValueSet.where(id = '1.2.250.1.213.1.1.5.786'): Error from http://tx.fhir.org/r4: Unable to provide support for code system urn:oid:2.16.840.1.113883.6.96
 == input/ontoserver/JDV/JDV_IndicateurAnormalite_CISIS_1.2.250.1.213.1.1.5.95.json ==
-WARNING: ValueSet/1.2.250.1.213.1.1.5.95: ValueSet.compose.include[0]: There are multiple different potential matches for the url 'http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation'. It might be a good idea to fix to the correct version to reduce the likelihood of a wrong version being selected by an implementation/implementer. Using version '3.0.0', found versions: 2018-08-12, 3.0.0
 == input/ontoserver/JDV/JDV_IndicePerformanceECOG_CISIS_1.2.250.1.213.1.1.5.818.json ==
 == input/ontoserver/JDV/JDV_InfoPriseEnCharge_CISIS_1.2.250.1.213.1.1.5.685.json ==
 WARNING: ValueSet/1.2.250.1.213.1.1.5.685: ValueSet.compose.include[0]: Unknown System 'http://terminology.hl7.org/CodeSystem/icd10' specified, so Concepts and Filters can't be checked (Details: A definition for CodeSystem 'http://terminology.hl7.org/CodeSystem/icd10' could not be found, so the code cannot be validated)
@@ -5276,7 +5286,6 @@ WARNING: ValueSet/1.2.250.1.213.1.1.5.332: ValueSet.compose.include[0]: Unknown 
 ERROR: ValueSet/1.2.250.1.213.1.1.5.333: ValueSet.compose.include[0]: URI values in ValueSet.compose.include.system must be absolute
 WARNING: ValueSet/1.2.250.1.213.1.1.5.333: ValueSet.compose.include[0]: Unknown System '1.3.6.1.4.1.19376.1.8.2.1' specified, so Concepts and Filters can't be checked (Details: A definition for CodeSystem '1.3.6.1.4.1.19376.1.8.2.1' could not be found, so the code cannot be validated)
 == input/ontoserver/JDV/JDV_Lien_Assure_Beneficiaire_CISIS_1.2.250.1.213.1.1.5.126.json ==
-WARNING: ValueSet/1.2.250.1.213.1.1.5.126: ValueSet.compose.include[0]: There are multiple different potential matches for the url 'http://terminology.hl7.org/CodeSystem/v3-RoleCode'. It might be a good idea to fix to the correct version to reduce the likelihood of a wrong version being selected by an implementation/implementer. Using version '3.0.0', found versions: 2018-08-12, 3.0.0
 == input/ontoserver/JDV/JDV_LieuAccouchement_CISIS_1.2.250.1.213.1.1.5.743.json ==
 WARNING: ValueSet/1.2.250.1.213.1.1.5.743: ValueSet.compose.include[1]: Unknown System 'http://snomed.info/sct' specified, so Concepts and Filters can't be checked (Details: A definition for CodeSystem 'http://snomed.info/sct' version 'http://snomed.info/sct/11000315107' could not be found, so the code cannot be validated. Valid versions: [http://snomed.info/sct/11000315107/version/20240621])
 == input/ontoserver/JDV/JDV_LieudeVie_CISIS_1.2.250.1.213.1.1.5.64.json ==
@@ -5865,9 +5874,7 @@ WARNING: ValueSet/1.2.250.1.213.1.1.5.360: ValueSet.compose.include[0]: Unknown 
 ERROR: ValueSet/1.2.250.1.213.1.1.5.362: ValueSet.compose.include[0]: URI values in ValueSet.compose.include.system must be absolute
 WARNING: ValueSet/1.2.250.1.213.1.1.5.362: ValueSet.compose.include[0]: Unknown System '1.3.6.1.4.1.19376.1.8.2.1' specified, so Concepts and Filters can't be checked (Details: A definition for CodeSystem '1.3.6.1.4.1.19376.1.8.2.1' could not be found, so the code cannot be validated)
 == input/ontoserver/JDV/JDV_ParticipantAdditionnelResultat_CISIS_1.2.250.1.213.1.1.5.138.json ==
-WARNING: ValueSet/1.2.250.1.213.1.1.5.138: ValueSet.compose.include[0]: There are multiple different potential matches for the url 'http://terminology.hl7.org/CodeSystem/v3-ParticipationType'. It might be a good idea to fix to the correct version to reduce the likelihood of a wrong version being selected by an implementation/implementer. Using version '5.0.0', found versions: 2018-08-12, 5.0.0
 == input/ontoserver/JDV/JDV_ParticipantResultat_CISIS_1.2.250.1.213.1.1.5.137.json ==
-WARNING: ValueSet/1.2.250.1.213.1.1.5.137: ValueSet.compose.include[0]: There are multiple different potential matches for the url 'http://terminology.hl7.org/CodeSystem/v3-ParticipationType'. It might be a good idea to fix to the correct version to reduce the likelihood of a wrong version being selected by an implementation/implementer. Using version '5.0.0', found versions: 2018-08-12, 5.0.0
 == input/ontoserver/JDV/JDV_Patho_1ere_semaine_CS8_CISIS_1.2.250.1.213.1.1.5.704.json ==
 WARNING: ValueSet/1.2.250.1.213.1.1.5.704: ValueSet.compose.include[0]: Unknown System 'http://terminology.hl7.org/CodeSystem/icd10' specified, so Concepts and Filters can't be checked (Details: A definition for CodeSystem 'http://terminology.hl7.org/CodeSystem/icd10' could not be found, so the code cannot be validated)
 WARNING: ValueSet/1.2.250.1.213.1.1.5.704: ValueSet.compose.include[1].concept[1]: The code 'MED-170' is not valid in the system https://smt.esante.gouv.fr/fhir/CodeSystem/1.2.250.1.213.1.1.4.322 (Unknown code 'MED-170' in the CodeSystem 'https://smt.esante.gouv.fr/fhir/CodeSystem/1.2.250.1.213.1.1.4.322' version '202503040000')
@@ -6091,7 +6098,6 @@ WARNING: ValueSet.where(id = '1.2.250.1.213.1.1.5.54'): Error from http://tx.fhi
 WARNING: ValueSet/1.2.250.1.213.1.1.5.112: ValueSet.compose.include[0]: Unknown System 'http://snomed.info/sct' specified, so Concepts and Filters can't be checked (Details: A definition for CodeSystem 'http://snomed.info/sct' version 'http://snomed.info/sct/11000315107' could not be found, so the code cannot be validated. Valid versions: [http://snomed.info/sct/11000315107/version/20240621])
 WARNING: ValueSet.where(id = '1.2.250.1.213.1.1.5.112'): Error from http://tx.fhir.org/r4: Unable to provide support for code system http://snomed.info/sct
 == input/ontoserver/JDV/JDV_ReferenceRangeAppliesTo_CISIS_1.2.250.1.213.1.1.5.517.json ==
-WARNING: ValueSet/1.2.250.1.213.1.1.5.517: ValueSet.compose.include[0]: There are multiple different potential matches for the url 'http://terminology.hl7.org/CodeSystem/v3-AdministrativeGender'. It might be a good idea to fix to the correct version to reduce the likelihood of a wrong version being selected by an implementation/implementer. Using version '3.0.0', found versions: 2018-08-12, 3.0.0
 WARNING: ValueSet/1.2.250.1.213.1.1.5.517: ValueSet.compose.include[1]: Unknown System 'http://snomed.info/sct' specified, so Concepts and Filters can't be checked (Details: A definition for CodeSystem 'http://snomed.info/sct' version 'http://snomed.info/sct/11000315107' could not be found, so the code cannot be validated. Valid versions: [http://snomed.info/sct/11000315107/version/20240621])
 WARNING: ValueSet.where(id = '1.2.250.1.213.1.1.5.517'): Error from http://tx.fhir.org/r4: Unable to provide support for code system http://snomed.info/sct
 == input/ontoserver/JDV/JDV_RegionAnatomique_CISIS_1.2.250.1.213.1.1.5.695.json ==
@@ -7190,13 +7196,12 @@ WARNING: CodeSystem/terminologie-cisp: CodeSystem.property[6]: The base property
 WARNING: CodeSystem/terminologie-cisp: CodeSystem.property[7]: The base property uri 'https://data.esante.gouv.fr/terminologies/cisp' is not known for the property 'criteria', so the property values can not be validated fully
 INFORMATION: CodeSystem/terminologie-cisp: CodeSystem.property[10]: This property has only a code ('imported') and not a URI, so it has no clearly defined meaning in the terminology ecosystem
 INFORMATION: CodeSystem/terminologie-cisp: CodeSystem.property[11]: This property has only a code ('root') and not a URI, so it has no clearly defined meaning in the terminology ecosystem
-== input/ontoserver/TRE/CLADIMED.json ==
+== input/ontoserver/TRE/ClaDiMed.json ==
 ERROR: CodeSystem/terminologie-cladimed: CodeSystem: CodeSystem.description: minimum required = 1, but only found 0 (from http://hl7.org/fhir/StructureDefinition/shareablecodesystem|4.0.1)
 ERROR: CodeSystem/terminologie-cladimed: CodeSystem: CodeSystem.concept: minimum required = 1, but only found 0 (from http://hl7.org/fhir/StructureDefinition/shareablecodesystem|4.0.1)
 ERROR: CodeSystem/terminologie-cladimed: CodeSystem.meta.tag[0].display: Wrong Display Name 'Resource encoded in summary mode' for http://terminology.hl7.org/CodeSystem/v3-ObservationValue#SUBSETTED. There are no valid display names found for language(s) 'fr-FR'. Default display is 'subsetted'
 INFORMATION: CodeSystem/terminologie-cladimed: CodeSystem: CodeSystems SHOULD have a stated value for the caseSensitive element so that users know the status and meaning of the code system clearly
 INFORMATION: CodeSystem/terminologie-cladimed: CodeSystem: Review the All Codes Value Set - incomplete CodeSystems generally should not have an all codes value set specified
-WARNING: CodeSystem/terminologie-cladimed: CodeSystem: Published code systems SHOULD conform to the ShareableCodeSystem profile, which says that the element CodeSystem.title is mandatory, but it is not present
 WARNING: CodeSystem/terminologie-cladimed: CodeSystem: Published code systems SHOULD conform to the ShareableCodeSystem profile, which says that the element CodeSystem.description is mandatory, but it is not present
 WARNING: CodeSystem/terminologie-cladimed: CodeSystem: Published code systems SHOULD conform to the ShareableCodeSystem profile, which says that the element CodeSystem.caseSensitive is mandatory, but it is not present
 INFORMATION: CodeSystem/terminologie-cladimed: CodeSystem.property[0]: The property uri 'http://purl.org/dc/elements/1.1/type' is not known, so the property values can not be validated fully
@@ -7224,68 +7229,12 @@ INFORMATION: CodeSystem/terminologie-sms: CodeSystem.property[9]: The property u
 WARNING: CodeSystem/terminologie-sms: CodeSystem.property[10]: The base property uri 'http://www.w3.org/2000/01/rdf-schema' is not known for the property 'comment', so the property values can not be validated fully
 INFORMATION: CodeSystem/terminologie-sms: CodeSystem.property[13]: This property has only a code ('imported') and not a URI, so it has no clearly defined meaning in the terminology ecosystem
 INFORMATION: CodeSystem/terminologie-sms: CodeSystem.property[14]: This property has only a code ('root') and not a URI, so it has no clearly defined meaning in the terminology ecosystem
-== input/ontoserver/TRE/EDQM___Standard_Terms.json ==
-ERROR: CodeSystem/terminologie-standardterms: CodeSystem: CodeSystem.description: minimum required = 1, but only found 0 (from http://hl7.org/fhir/StructureDefinition/shareablecodesystem|4.0.1)
-ERROR: CodeSystem/terminologie-standardterms: CodeSystem: CodeSystem.concept: minimum required = 1, but only found 0 (from http://hl7.org/fhir/StructureDefinition/shareablecodesystem|4.0.1)
-ERROR: CodeSystem/terminologie-standardterms: CodeSystem.meta.tag[0].display: Wrong Display Name 'Resource encoded in summary mode' for http://terminology.hl7.org/CodeSystem/v3-ObservationValue#SUBSETTED. There are no valid display names found for language(s) 'fr-FR'. Default display is 'subsetted'
-INFORMATION: CodeSystem/terminologie-standardterms: CodeSystem: CodeSystems SHOULD have a stated value for the caseSensitive element so that users know the status and meaning of the code system clearly
-INFORMATION: CodeSystem/terminologie-standardterms: CodeSystem: Review the All Codes Value Set - incomplete CodeSystems generally should not have an all codes value set specified
-WARNING: CodeSystem/terminologie-standardterms: CodeSystem: Published code systems SHOULD conform to the ShareableCodeSystem profile, which says that the element CodeSystem.title is mandatory, but it is not present
-WARNING: CodeSystem/terminologie-standardterms: CodeSystem: Published code systems SHOULD conform to the ShareableCodeSystem profile, which says that the element CodeSystem.description is mandatory, but it is not present
-WARNING: CodeSystem/terminologie-standardterms: CodeSystem: Published code systems SHOULD conform to the ShareableCodeSystem profile, which says that the element CodeSystem.caseSensitive is mandatory, but it is not present
-WARNING: CodeSystem/terminologie-standardterms: CodeSystem.property[0]: The base property uri 'http://www.w3.org/2000/01/rdf-schema' is not known for the property 'comment', so the property values can not be validated fully
-INFORMATION: CodeSystem/terminologie-standardterms: CodeSystem.property[1]: The property uri 'http://purl.org/dc/terms/issued' is not known, so the property values can not be validated fully
-WARNING: CodeSystem/terminologie-standardterms: CodeSystem.property[2]: The base property uri 'http://www.w3.org/2002/07/owl' is not known for the property 'versionInfo', so the property values can not be validated fully
-WARNING: CodeSystem/terminologie-standardterms: CodeSystem.property[3]: The base property uri 'http://www.w3.org/ns/adms' is not known for the property 'status', so the property values can not be validated fully
-INFORMATION: CodeSystem/terminologie-standardterms: CodeSystem.property[4]: The property uri 'http://purl.org/dc/terms/modified' is not known, so the property values can not be validated fully
-INFORMATION: CodeSystem/terminologie-standardterms: CodeSystem.property[5]: The property uri 'http://purl.org/dc/elements/1.1/type' is not known, so the property values can not be validated fully
-WARNING: CodeSystem/terminologie-standardterms: CodeSystem.property[6]: The base property uri 'http://data.esante.gouv.fr/coe/standardterms' is not known for the property 'domain', so the property values can not be validated fully
-INFORMATION: CodeSystem/terminologie-standardterms: CodeSystem.property[6]: The type of property 'code' is 'code', but no ValueSet information was found, so the codes will be validated as internal codes
-WARNING: CodeSystem/terminologie-standardterms: CodeSystem.property[7]: The base property uri 'http://data.esante.gouv.fr/coe/standardterms' is not known for the property 'class', so the property values can not be validated fully
-INFORMATION: CodeSystem/terminologie-standardterms: CodeSystem.property[7]: The type of property 'code' is 'code', but no ValueSet information was found, so the codes will be validated as internal codes
-WARNING: CodeSystem/terminologie-standardterms: CodeSystem.property[8]: The base property uri 'http://data.esante.gouv.fr/coe/standardterms' is not known for the property 'Linked_Pharmaceutical_Dose_Forms', so the property values can not be validated fully
-INFORMATION: CodeSystem/terminologie-standardterms: CodeSystem.property[8]: The type of property 'code' is 'code', but no ValueSet information was found, so the codes will be validated as internal codes
-WARNING: CodeSystem/terminologie-standardterms: CodeSystem.property[9]: The base property uri 'http://data.esante.gouv.fr/coe/standardterms' is not known for the property 'Has_Pharmaceutical_Transformation', so the property values can not be validated fully
-INFORMATION: CodeSystem/terminologie-standardterms: CodeSystem.property[9]: The type of property 'code' is 'code', but no ValueSet information was found, so the codes will be validated as internal codes
-WARNING: CodeSystem/terminologie-standardterms: CodeSystem.property[10]: The base property uri 'http://data.esante.gouv.fr/coe/standardterms' is not known for the property 'Has_Pharmaceutical_Release_Characteristics', so the property values can not be validated fully
-INFORMATION: CodeSystem/terminologie-standardterms: CodeSystem.property[10]: The type of property 'code' is 'code', but no ValueSet information was found, so the codes will be validated as internal codes
-WARNING: CodeSystem/terminologie-standardterms: CodeSystem.property[11]: The base property uri 'http://data.esante.gouv.fr/coe/standardterms' is not known for the property 'Has_Pharmaceutical_Basic_Dose_Form', so the property values can not be validated fully
-INFORMATION: CodeSystem/terminologie-standardterms: CodeSystem.property[11]: The type of property 'code' is 'code', but no ValueSet information was found, so the codes will be validated as internal codes
-WARNING: CodeSystem/terminologie-standardterms: CodeSystem.property[12]: The base property uri 'http://data.esante.gouv.fr/coe/standardterms' is not known for the property 'Has_Pharmaceutical_Administration_Method', so the property values can not be validated fully
-INFORMATION: CodeSystem/terminologie-standardterms: CodeSystem.property[12]: The type of property 'code' is 'code', but no ValueSet information was found, so the codes will be validated as internal codes
-WARNING: CodeSystem/terminologie-standardterms: CodeSystem.property[13]: The base property uri 'http://data.esante.gouv.fr/coe/standardterms' is not known for the property 'Has_Pharmaceutical_State_Of_Matter', so the property values can not be validated fully
-INFORMATION: CodeSystem/terminologie-standardterms: CodeSystem.property[13]: The type of property 'code' is 'code', but no ValueSet information was found, so the codes will be validated as internal codes
-WARNING: CodeSystem/terminologie-standardterms: CodeSystem.property[14]: The base property uri 'http://data.esante.gouv.fr/coe/standardterms' is not known for the property 'Has_Pharmaceutical_Intended_Site', so the property values can not be validated fully
-INFORMATION: CodeSystem/terminologie-standardterms: CodeSystem.property[14]: The type of property 'code' is 'code', but no ValueSet information was found, so the codes will be validated as internal codes
-WARNING: CodeSystem/terminologie-standardterms: CodeSystem.property[15]: The base property uri 'http://data.esante.gouv.fr/coe/standardterms' is not known for the property 'Linked_Patient_Friendly_Terms', so the property values can not be validated fully
-INFORMATION: CodeSystem/terminologie-standardterms: CodeSystem.property[15]: The type of property 'code' is 'code', but no ValueSet information was found, so the codes will be validated as internal codes
-WARNING: CodeSystem/terminologie-standardterms: CodeSystem.property[16]: The base property uri 'http://data.esante.gouv.fr/coe/standardterms' is not known for the property 'Linked_Combination_Pack', so the property values can not be validated fully
-INFORMATION: CodeSystem/terminologie-standardterms: CodeSystem.property[16]: The type of property 'code' is 'code', but no ValueSet information was found, so the codes will be validated as internal codes
-WARNING: CodeSystem/terminologie-standardterms: CodeSystem.property[17]: The base property uri 'http://data.esante.gouv.fr/coe/standardterms' is not known for the property 'replacement', so the property values can not be validated fully
-INFORMATION: CodeSystem/terminologie-standardterms: CodeSystem.property[17]: The type of property 'code' is 'code', but no ValueSet information was found, so the codes will be validated as internal codes
-WARNING: CodeSystem/terminologie-standardterms: CodeSystem.property[18]: The base property uri 'http://data.esante.gouv.fr/coe/standardterms' is not known for the property 'Linked_Packaging_Category', so the property values can not be validated fully
-INFORMATION: CodeSystem/terminologie-standardterms: CodeSystem.property[18]: The type of property 'code' is 'code', but no ValueSet information was found, so the codes will be validated as internal codes
-WARNING: CodeSystem/terminologie-standardterms: CodeSystem.property[19]: The base property uri 'http://data.esante.gouv.fr/coe/standardterms' is not known for the property 'mapping', so the property values can not be validated fully
-INFORMATION: CodeSystem/terminologie-standardterms: CodeSystem.property[19]: The type of property 'code' is 'code', but no ValueSet information was found, so the codes will be validated as internal codes
-WARNING: CodeSystem/terminologie-standardterms: CodeSystem.property[20]: The base property uri 'http://data.esante.gouv.fr/coe/standardterms' is not known for the property 'Linked_Combined_Pharmaceutical_Dose_Form', so the property values can not be validated fully
-INFORMATION: CodeSystem/terminologie-standardterms: CodeSystem.property[20]: The type of property 'code' is 'code', but no ValueSet information was found, so the codes will be validated as internal codes
-WARNING: CodeSystem/terminologie-standardterms: CodeSystem.property[21]: The base property uri 'http://data.esante.gouv.fr/coe/standardterms' is not known for the property 'Linked_Container', so the property values can not be validated fully
-INFORMATION: CodeSystem/terminologie-standardterms: CodeSystem.property[21]: The type of property 'code' is 'code', but no ValueSet information was found, so the codes will be validated as internal codes
-WARNING: CodeSystem/terminologie-standardterms: CodeSystem.property[22]: The base property uri 'http://data.esante.gouv.fr/coe/standardterms' is not known for the property 'Linked_Combined_Term', so the property values can not be validated fully
-INFORMATION: CodeSystem/terminologie-standardterms: CodeSystem.property[22]: The type of property 'code' is 'code', but no ValueSet information was found, so the codes will be validated as internal codes
-WARNING: CodeSystem/terminologie-standardterms: CodeSystem.property[23]: The base property uri 'http://data.esante.gouv.fr/coe/standardterms' is not known for the property 'Linked_Administration_Device', so the property values can not be validated fully
-INFORMATION: CodeSystem/terminologie-standardterms: CodeSystem.property[23]: The type of property 'code' is 'code', but no ValueSet information was found, so the codes will be validated as internal codes
-WARNING: CodeSystem/terminologie-standardterms: CodeSystem.property[24]: The base property uri 'http://data.esante.gouv.fr/coe/standardterms' is not known for the property 'Linked_Closure', so the property values can not be validated fully
-INFORMATION: CodeSystem/terminologie-standardterms: CodeSystem.property[24]: The type of property 'code' is 'code', but no ValueSet information was found, so the codes will be validated as internal codes
-INFORMATION: CodeSystem/terminologie-standardterms: CodeSystem.property[27]: This property has only a code ('imported') and not a URI, so it has no clearly defined meaning in the terminology ecosystem
-INFORMATION: CodeSystem/terminologie-standardterms: CodeSystem.property[28]: This property has only a code ('root') and not a URI, so it has no clearly defined meaning in the terminology ecosystem
 == input/ontoserver/TRE/EMDN.json ==
 ERROR: CodeSystem/terminologie-emdn: CodeSystem: CodeSystem.description: minimum required = 1, but only found 0 (from http://hl7.org/fhir/StructureDefinition/shareablecodesystem|4.0.1)
 ERROR: CodeSystem/terminologie-emdn: CodeSystem: CodeSystem.concept: minimum required = 1, but only found 0 (from http://hl7.org/fhir/StructureDefinition/shareablecodesystem|4.0.1)
 ERROR: CodeSystem/terminologie-emdn: CodeSystem.meta.tag[0].display: Wrong Display Name 'Resource encoded in summary mode' for http://terminology.hl7.org/CodeSystem/v3-ObservationValue#SUBSETTED. There are no valid display names found for language(s) 'fr-FR'. Default display is 'subsetted'
 INFORMATION: CodeSystem/terminologie-emdn: CodeSystem: CodeSystems SHOULD have a stated value for the caseSensitive element so that users know the status and meaning of the code system clearly
 INFORMATION: CodeSystem/terminologie-emdn: CodeSystem: Review the All Codes Value Set - incomplete CodeSystems generally should not have an all codes value set specified
-WARNING: CodeSystem/terminologie-emdn: CodeSystem: Published code systems SHOULD conform to the ShareableCodeSystem profile, which says that the element CodeSystem.title is mandatory, but it is not present
 WARNING: CodeSystem/terminologie-emdn: CodeSystem: Published code systems SHOULD conform to the ShareableCodeSystem profile, which says that the element CodeSystem.description is mandatory, but it is not present
 WARNING: CodeSystem/terminologie-emdn: CodeSystem: Published code systems SHOULD conform to the ShareableCodeSystem profile, which says that the element CodeSystem.caseSensitive is mandatory, but it is not present
 INFORMATION: CodeSystem/terminologie-emdn: CodeSystem.property[0]: The property uri 'http://purl.org/dc/elements/1.1/type' is not known, so the property values can not be validated fully
@@ -7379,6 +7328,60 @@ WARNING: CodeSystem/11000315107-20240621: CodeSystem.property[3]: This property 
 INFORMATION: CodeSystem/11000315107-20240621: CodeSystem.property[4]: The type of property 'code' is 'code', but no ValueSet information was found, so the codes will be validated as internal codes
 INFORMATION: CodeSystem/11000315107-20240621: CodeSystem.property[4]: This property has only a code ('moduleId') and not a URI, so it has no clearly defined meaning in the terminology ecosystem
 == input/ontoserver/TRE/ServiceType.json ==
+== input/ontoserver/TRE/Standard_terms_EDQM.json ==
+ERROR: CodeSystem/terminologie-standardterms: CodeSystem: CodeSystem.description: minimum required = 1, but only found 0 (from http://hl7.org/fhir/StructureDefinition/shareablecodesystem|4.0.1)
+ERROR: CodeSystem/terminologie-standardterms: CodeSystem: CodeSystem.concept: minimum required = 1, but only found 0 (from http://hl7.org/fhir/StructureDefinition/shareablecodesystem|4.0.1)
+ERROR: CodeSystem/terminologie-standardterms: CodeSystem.meta.tag[0].display: Wrong Display Name 'Resource encoded in summary mode' for http://terminology.hl7.org/CodeSystem/v3-ObservationValue#SUBSETTED. There are no valid display names found for language(s) 'fr-FR'. Default display is 'subsetted'
+INFORMATION: CodeSystem/terminologie-standardterms: CodeSystem: CodeSystems SHOULD have a stated value for the caseSensitive element so that users know the status and meaning of the code system clearly
+INFORMATION: CodeSystem/terminologie-standardterms: CodeSystem: Review the All Codes Value Set - incomplete CodeSystems generally should not have an all codes value set specified
+WARNING: CodeSystem/terminologie-standardterms: CodeSystem: Published code systems SHOULD conform to the ShareableCodeSystem profile, which says that the element CodeSystem.description is mandatory, but it is not present
+WARNING: CodeSystem/terminologie-standardterms: CodeSystem: Published code systems SHOULD conform to the ShareableCodeSystem profile, which says that the element CodeSystem.caseSensitive is mandatory, but it is not present
+WARNING: CodeSystem/terminologie-standardterms: CodeSystem.property[0]: The base property uri 'http://www.w3.org/2000/01/rdf-schema' is not known for the property 'comment', so the property values can not be validated fully
+INFORMATION: CodeSystem/terminologie-standardterms: CodeSystem.property[1]: The property uri 'http://purl.org/dc/terms/issued' is not known, so the property values can not be validated fully
+WARNING: CodeSystem/terminologie-standardterms: CodeSystem.property[2]: The base property uri 'http://www.w3.org/2002/07/owl' is not known for the property 'versionInfo', so the property values can not be validated fully
+WARNING: CodeSystem/terminologie-standardterms: CodeSystem.property[3]: The base property uri 'http://www.w3.org/ns/adms' is not known for the property 'status', so the property values can not be validated fully
+INFORMATION: CodeSystem/terminologie-standardterms: CodeSystem.property[4]: The property uri 'http://purl.org/dc/terms/modified' is not known, so the property values can not be validated fully
+INFORMATION: CodeSystem/terminologie-standardterms: CodeSystem.property[5]: The property uri 'http://purl.org/dc/elements/1.1/type' is not known, so the property values can not be validated fully
+WARNING: CodeSystem/terminologie-standardterms: CodeSystem.property[6]: The base property uri 'http://data.esante.gouv.fr/coe/standardterms' is not known for the property 'domain', so the property values can not be validated fully
+INFORMATION: CodeSystem/terminologie-standardterms: CodeSystem.property[6]: The type of property 'code' is 'code', but no ValueSet information was found, so the codes will be validated as internal codes
+WARNING: CodeSystem/terminologie-standardterms: CodeSystem.property[7]: The base property uri 'http://data.esante.gouv.fr/coe/standardterms' is not known for the property 'class', so the property values can not be validated fully
+INFORMATION: CodeSystem/terminologie-standardterms: CodeSystem.property[7]: The type of property 'code' is 'code', but no ValueSet information was found, so the codes will be validated as internal codes
+WARNING: CodeSystem/terminologie-standardterms: CodeSystem.property[8]: The base property uri 'http://data.esante.gouv.fr/coe/standardterms' is not known for the property 'Linked_Pharmaceutical_Dose_Forms', so the property values can not be validated fully
+INFORMATION: CodeSystem/terminologie-standardterms: CodeSystem.property[8]: The type of property 'code' is 'code', but no ValueSet information was found, so the codes will be validated as internal codes
+WARNING: CodeSystem/terminologie-standardterms: CodeSystem.property[9]: The base property uri 'http://data.esante.gouv.fr/coe/standardterms' is not known for the property 'Has_Pharmaceutical_Transformation', so the property values can not be validated fully
+INFORMATION: CodeSystem/terminologie-standardterms: CodeSystem.property[9]: The type of property 'code' is 'code', but no ValueSet information was found, so the codes will be validated as internal codes
+WARNING: CodeSystem/terminologie-standardterms: CodeSystem.property[10]: The base property uri 'http://data.esante.gouv.fr/coe/standardterms' is not known for the property 'Has_Pharmaceutical_Release_Characteristics', so the property values can not be validated fully
+INFORMATION: CodeSystem/terminologie-standardterms: CodeSystem.property[10]: The type of property 'code' is 'code', but no ValueSet information was found, so the codes will be validated as internal codes
+WARNING: CodeSystem/terminologie-standardterms: CodeSystem.property[11]: The base property uri 'http://data.esante.gouv.fr/coe/standardterms' is not known for the property 'Has_Pharmaceutical_Basic_Dose_Form', so the property values can not be validated fully
+INFORMATION: CodeSystem/terminologie-standardterms: CodeSystem.property[11]: The type of property 'code' is 'code', but no ValueSet information was found, so the codes will be validated as internal codes
+WARNING: CodeSystem/terminologie-standardterms: CodeSystem.property[12]: The base property uri 'http://data.esante.gouv.fr/coe/standardterms' is not known for the property 'Has_Pharmaceutical_Administration_Method', so the property values can not be validated fully
+INFORMATION: CodeSystem/terminologie-standardterms: CodeSystem.property[12]: The type of property 'code' is 'code', but no ValueSet information was found, so the codes will be validated as internal codes
+WARNING: CodeSystem/terminologie-standardterms: CodeSystem.property[13]: The base property uri 'http://data.esante.gouv.fr/coe/standardterms' is not known for the property 'Has_Pharmaceutical_State_Of_Matter', so the property values can not be validated fully
+INFORMATION: CodeSystem/terminologie-standardterms: CodeSystem.property[13]: The type of property 'code' is 'code', but no ValueSet information was found, so the codes will be validated as internal codes
+WARNING: CodeSystem/terminologie-standardterms: CodeSystem.property[14]: The base property uri 'http://data.esante.gouv.fr/coe/standardterms' is not known for the property 'Has_Pharmaceutical_Intended_Site', so the property values can not be validated fully
+INFORMATION: CodeSystem/terminologie-standardterms: CodeSystem.property[14]: The type of property 'code' is 'code', but no ValueSet information was found, so the codes will be validated as internal codes
+WARNING: CodeSystem/terminologie-standardterms: CodeSystem.property[15]: The base property uri 'http://data.esante.gouv.fr/coe/standardterms' is not known for the property 'Linked_Patient_Friendly_Terms', so the property values can not be validated fully
+INFORMATION: CodeSystem/terminologie-standardterms: CodeSystem.property[15]: The type of property 'code' is 'code', but no ValueSet information was found, so the codes will be validated as internal codes
+WARNING: CodeSystem/terminologie-standardterms: CodeSystem.property[16]: The base property uri 'http://data.esante.gouv.fr/coe/standardterms' is not known for the property 'Linked_Combination_Pack', so the property values can not be validated fully
+INFORMATION: CodeSystem/terminologie-standardterms: CodeSystem.property[16]: The type of property 'code' is 'code', but no ValueSet information was found, so the codes will be validated as internal codes
+WARNING: CodeSystem/terminologie-standardterms: CodeSystem.property[17]: The base property uri 'http://data.esante.gouv.fr/coe/standardterms' is not known for the property 'replacement', so the property values can not be validated fully
+INFORMATION: CodeSystem/terminologie-standardterms: CodeSystem.property[17]: The type of property 'code' is 'code', but no ValueSet information was found, so the codes will be validated as internal codes
+WARNING: CodeSystem/terminologie-standardterms: CodeSystem.property[18]: The base property uri 'http://data.esante.gouv.fr/coe/standardterms' is not known for the property 'Linked_Packaging_Category', so the property values can not be validated fully
+INFORMATION: CodeSystem/terminologie-standardterms: CodeSystem.property[18]: The type of property 'code' is 'code', but no ValueSet information was found, so the codes will be validated as internal codes
+WARNING: CodeSystem/terminologie-standardterms: CodeSystem.property[19]: The base property uri 'http://data.esante.gouv.fr/coe/standardterms' is not known for the property 'mapping', so the property values can not be validated fully
+INFORMATION: CodeSystem/terminologie-standardterms: CodeSystem.property[19]: The type of property 'code' is 'code', but no ValueSet information was found, so the codes will be validated as internal codes
+WARNING: CodeSystem/terminologie-standardterms: CodeSystem.property[20]: The base property uri 'http://data.esante.gouv.fr/coe/standardterms' is not known for the property 'Linked_Combined_Pharmaceutical_Dose_Form', so the property values can not be validated fully
+INFORMATION: CodeSystem/terminologie-standardterms: CodeSystem.property[20]: The type of property 'code' is 'code', but no ValueSet information was found, so the codes will be validated as internal codes
+WARNING: CodeSystem/terminologie-standardterms: CodeSystem.property[21]: The base property uri 'http://data.esante.gouv.fr/coe/standardterms' is not known for the property 'Linked_Container', so the property values can not be validated fully
+INFORMATION: CodeSystem/terminologie-standardterms: CodeSystem.property[21]: The type of property 'code' is 'code', but no ValueSet information was found, so the codes will be validated as internal codes
+WARNING: CodeSystem/terminologie-standardterms: CodeSystem.property[22]: The base property uri 'http://data.esante.gouv.fr/coe/standardterms' is not known for the property 'Linked_Combined_Term', so the property values can not be validated fully
+INFORMATION: CodeSystem/terminologie-standardterms: CodeSystem.property[22]: The type of property 'code' is 'code', but no ValueSet information was found, so the codes will be validated as internal codes
+WARNING: CodeSystem/terminologie-standardterms: CodeSystem.property[23]: The base property uri 'http://data.esante.gouv.fr/coe/standardterms' is not known for the property 'Linked_Administration_Device', so the property values can not be validated fully
+INFORMATION: CodeSystem/terminologie-standardterms: CodeSystem.property[23]: The type of property 'code' is 'code', but no ValueSet information was found, so the codes will be validated as internal codes
+WARNING: CodeSystem/terminologie-standardterms: CodeSystem.property[24]: The base property uri 'http://data.esante.gouv.fr/coe/standardterms' is not known for the property 'Linked_Closure', so the property values can not be validated fully
+INFORMATION: CodeSystem/terminologie-standardterms: CodeSystem.property[24]: The type of property 'code' is 'code', but no ValueSet information was found, so the codes will be validated as internal codes
+INFORMATION: CodeSystem/terminologie-standardterms: CodeSystem.property[27]: This property has only a code ('imported') and not a URI, so it has no clearly defined meaning in the terminology ecosystem
+INFORMATION: CodeSystem/terminologie-standardterms: CodeSystem.property[28]: This property has only a code ('root') and not a URI, so it has no clearly defined meaning in the terminology ecosystem
 == input/ontoserver/TRE/TA_ASIP.json ==
 == input/ontoserver/TRE/TRE_A00_ProducteurDocNonPS.json ==
 WARNING: CodeSystem/TRE-A00-ProducteurDocNonPS: CodeSystem: Published code systems SHOULD conform to the ShareableCodeSystem profile, which says that the element CodeSystem.title is mandatory, but it is not present
@@ -7649,11 +7652,6 @@ WARNING: CodeSystem/TRE-R208-ClasseAge: CodeSystem: Published code systems SHOUL
 INFORMATION: CodeSystem/TRE-R208-ClasseAge: CodeSystem.property[0]: This property has only a code ('dateValid') and not a URI, so it has no clearly defined meaning in the terminology ecosystem
 INFORMATION: CodeSystem/TRE-R208-ClasseAge: CodeSystem.property[1]: This property has only a code ('dateMaj') and not a URI, so it has no clearly defined meaning in the terminology ecosystem
 INFORMATION: CodeSystem/TRE-R208-ClasseAge: CodeSystem.property[2]: This property has only a code ('dateFin') and not a URI, so it has no clearly defined meaning in the terminology ecosystem
-== input/ontoserver/TRE/TRE_R209_TypeActivite.json ==
-WARNING: CodeSystem/TRE-R209-TypeActivite: CodeSystem: Published code systems SHOULD conform to the ShareableCodeSystem profile, which says that the element CodeSystem.title is mandatory, but it is not present
-INFORMATION: CodeSystem/TRE-R209-TypeActivite: CodeSystem.property[0]: This property has only a code ('dateValid') and not a URI, so it has no clearly defined meaning in the terminology ecosystem
-INFORMATION: CodeSystem/TRE-R209-TypeActivite: CodeSystem.property[1]: This property has only a code ('dateMaj') and not a URI, so it has no clearly defined meaning in the terminology ecosystem
-INFORMATION: CodeSystem/TRE-R209-TypeActivite: CodeSystem.property[2]: This property has only a code ('dateFin') and not a URI, so it has no clearly defined meaning in the terminology ecosystem
 == input/ontoserver/TRE/TRE_R20_Pays.json ==
 WARNING: CodeSystem/TRE-R20-Pays: CodeSystem: Published code systems SHOULD conform to the ShareableCodeSystem profile, which says that the element CodeSystem.title is mandatory, but it is not present
 INFORMATION: CodeSystem/TRE-R20-Pays: CodeSystem.property[0]: This property has only a code ('dateValid') and not a URI, so it has no clearly defined meaning in the terminology ecosystem
@@ -7979,11 +7977,6 @@ WARNING: CodeSystem/TRE-R277-CategorieActiviteSanitaireRegulee: CodeSystem: Publ
 INFORMATION: CodeSystem/TRE-R277-CategorieActiviteSanitaireRegulee: CodeSystem.property[0]: This property has only a code ('dateValid') and not a URI, so it has no clearly defined meaning in the terminology ecosystem
 INFORMATION: CodeSystem/TRE-R277-CategorieActiviteSanitaireRegulee: CodeSystem.property[1]: This property has only a code ('dateMaj') and not a URI, so it has no clearly defined meaning in the terminology ecosystem
 INFORMATION: CodeSystem/TRE-R277-CategorieActiviteSanitaireRegulee: CodeSystem.property[2]: This property has only a code ('dateFin') and not a URI, so it has no clearly defined meaning in the terminology ecosystem
-== input/ontoserver/TRE/TRE_R278_FinessConvention.json ==
-WARNING: CodeSystem/TRE-R278-FinessConvention: CodeSystem: Published code systems SHOULD conform to the ShareableCodeSystem profile, which says that the element CodeSystem.title is mandatory, but it is not present
-INFORMATION: CodeSystem/TRE-R278-FinessConvention: CodeSystem.property[0]: This property has only a code ('dateValid') and not a URI, so it has no clearly defined meaning in the terminology ecosystem
-INFORMATION: CodeSystem/TRE-R278-FinessConvention: CodeSystem.property[1]: This property has only a code ('dateMaj') and not a URI, so it has no clearly defined meaning in the terminology ecosystem
-INFORMATION: CodeSystem/TRE-R278-FinessConvention: CodeSystem.property[2]: This property has only a code ('dateFin') and not a URI, so it has no clearly defined meaning in the terminology ecosystem
 == input/ontoserver/TRE/TRE_R282_CNAMAmeliSecteurConventionnement.json ==
 WARNING: CodeSystem/TRE-R282-CNAMAmeliSecteurConventionnement: CodeSystem: Published code systems SHOULD conform to the ShareableCodeSystem profile, which says that the element CodeSystem.title is mandatory, but it is not present
 INFORMATION: CodeSystem/TRE-R282-CNAMAmeliSecteurConventionnement: CodeSystem.property[0]: This property has only a code ('dateValid') and not a URI, so it has no clearly defined meaning in the terminology ecosystem
@@ -8004,11 +7997,6 @@ WARNING: CodeSystem/TRE-R285-TraitementDocument: CodeSystem: Published code syst
 INFORMATION: CodeSystem/TRE-R285-TraitementDocument: CodeSystem.property[0]: This property has only a code ('dateValid') and not a URI, so it has no clearly defined meaning in the terminology ecosystem
 INFORMATION: CodeSystem/TRE-R285-TraitementDocument: CodeSystem.property[1]: This property has only a code ('dateMaj') and not a URI, so it has no clearly defined meaning in the terminology ecosystem
 INFORMATION: CodeSystem/TRE-R285-TraitementDocument: CodeSystem.property[2]: This property has only a code ('dateFin') and not a URI, so it has no clearly defined meaning in the terminology ecosystem
-== input/ontoserver/TRE/TRE_R286_TypeFermeture.json ==
-WARNING: CodeSystem/TRE-R286-TypeFermeture: CodeSystem: Published code systems SHOULD conform to the ShareableCodeSystem profile, which says that the element CodeSystem.title is mandatory, but it is not present
-INFORMATION: CodeSystem/TRE-R286-TypeFermeture: CodeSystem.property[0]: This property has only a code ('dateValid') and not a URI, so it has no clearly defined meaning in the terminology ecosystem
-INFORMATION: CodeSystem/TRE-R286-TypeFermeture: CodeSystem.property[1]: This property has only a code ('dateMaj') and not a URI, so it has no clearly defined meaning in the terminology ecosystem
-INFORMATION: CodeSystem/TRE-R286-TypeFermeture: CodeSystem.property[2]: This property has only a code ('dateFin') and not a URI, so it has no clearly defined meaning in the terminology ecosystem
 == input/ontoserver/TRE/TRE_R287_NatureContact.json ==
 WARNING: CodeSystem/TRE-R287-NatureContact: CodeSystem: Published code systems SHOULD conform to the ShareableCodeSystem profile, which says that the element CodeSystem.title is mandatory, but it is not present
 INFORMATION: CodeSystem/TRE-R287-NatureContact: CodeSystem.property[0]: This property has only a code ('dateValid') and not a URI, so it has no clearly defined meaning in the terminology ecosystem

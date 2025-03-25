@@ -11905,7 +11905,7 @@
       </extension>
     </extension>
     <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-internal-dependency">
-      <valueCode value="hl7.fhir.uv.tools.r4#0.3.0"/>
+      <valueCode value="hl7.fhir.uv.tools.r4#0.4.1"/>
     </extension>
     <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
       <extension url="code">
@@ -24559,16 +24559,6 @@
         <valueString value="CodeSystem"/>
       </extension>
       <reference>
-        <reference value="CodeSystem/terminologie-cladimed"/>
-      </reference>
-      <name value="CLADIMED"/>
-      <exampleBoolean value="false"/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="CodeSystem"/>
-      </extension>
-      <reference>
         <reference value="CodeSystem/terminologie-atc"/>
       </reference>
       <name value="Classification anatomique, thérapeutique et chimique"/>
@@ -24582,6 +24572,16 @@
         <reference value="CodeSystem/terminologie-ccam"/>
       </reference>
       <name value="Classification Commune des Actes Médicaux"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="CodeSystem"/>
+      </extension>
+      <reference>
+        <reference value="CodeSystem/terminologie-cladimed"/>
+      </reference>
+      <name value="Classification des dispositifs médicaux"/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -24611,7 +24611,7 @@
       <reference>
         <reference value="CodeSystem/terminologie-cisp"/>
       </reference>
-      <name value="Classification Internationale des Soins Primaires v2"/>
+      <name value="Classification internationale des soins primaires - 2ème version"/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -24684,19 +24684,9 @@
         <valueString value="CodeSystem"/>
       </extension>
       <reference>
-        <reference value="CodeSystem/terminologie-standardterms"/>
-      </reference>
-      <name value="EDQM___Standard_Terms"/>
-      <exampleBoolean value="false"/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="CodeSystem"/>
-      </extension>
-      <reference>
         <reference value="CodeSystem/terminologie-emdn"/>
       </reference>
-      <name value="EMDN"/>
+      <name value="European Medical device nomenclature"/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -24763,6 +24753,28 @@
       </reference>
       <name value="Jdv J295 Document Informatif Finess"/>
       <description value="Jeu de valeurs FINESS contenant les types de documents informatifs pouvant être associés à une entité FINESS"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/jdv-j364-type-fermeture-pm-finess"/>
+      </reference>
+      <name value="Jdv J364 Type Fermeture Pm Finess"/>
+      <description value="Jeu de valeurs FINESS contenant les types de fermeture dédiées aux personnes morales FINESS"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/jdv-j365-type-fermeture-ege-finess"/>
+      </reference>
+      <name value="Jdv J365 Type Fermeture Ege Finess"/>
+      <description value="Jeu de valeurs FINESS contenant les types de fermeture dédiées aux entités géographiques FINESS"/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -36873,7 +36885,7 @@
         <reference value="CodeSystem/terminologie-lahn"/>
       </reference>
       <name value="Liste des Actes Inovants Hors Nomenclature"/>
-      <description value="La liste des actes innovants hors nomenclature (LAHN), a été mise en place par la direction générale de l’offre de soins (DGOS) en 2024, dans le cadre du développement de l’innovation en santé,  en remplacement du dispositif RIHN plus liste complémentaire. La LAHN en est la fusion.  L’objectif est de soutenir l’innovation et de la dynamiser par une prise en charge et une évaluation rapide des actes innovant.&#xA;La LAHN contient une liste d’actes innovants (biologie et anatomocytopathologie) pris en charge à titre transitoire moyennant un recueil de données pour leur évaluation."/>
+      <description value="La liste des actes innovants hors nomenclature (LAHN) a été mise en place par la direction générale de l’offre de soins (DGOS) en 2024, dans le cadre du développement de l’innovation en santé. Elle est la fusion du RIHN et de la Liste Complémentaire (LC). L’objectif est de soutenir l’innovation et de la dynamiser par une prise en charge et une évaluation rapide des actes innovants. La LAHN contient une liste d’actes innovants (biologie et anatomocytopathologie) pris en charge à titre transitoire moyennant un recueil de données pour leur évaluation."/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -36958,6 +36970,16 @@
         <reference value="NamingSystem/Snomed-CT-core"/>
       </reference>
       <name value="Snomed_CT_core_900000000000207008"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="CodeSystem"/>
+      </extension>
+      <reference>
+        <reference value="CodeSystem/terminologie-standardterms"/>
+      </reference>
+      <name value="Standard Terms Data Base Dictionnaire européen multilingue de termes normalisés descripteurs de médicaments"/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -40088,6 +40110,17 @@
         <valueString value="ValueSet"/>
       </extension>
       <reference>
+        <reference value="ValueSet/vs-tre-r209-type-activite-all"/>
+      </reference>
+      <name value="Vs Tre R209 Type Activite All"/>
+      <description value="Jeu de valeurs ALL contenant les types d'activité"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
         <reference value="ValueSet/vs-tre-r272-equipement-materiel-lourd-all"/>
       </reference>
       <name value="Vs Tre R272 Equipement Materiel Lourd All"/>
@@ -40132,6 +40165,17 @@
         <valueString value="ValueSet"/>
       </extension>
       <reference>
+        <reference value="ValueSet/vs-tre-r278-finess-convention-all"/>
+      </reference>
+      <name value="Vs Tre R278 Finess Convention All"/>
+      <description value="Jeu de valeurs ALL contenant les conventions du domaine social FINESS"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
         <reference value="ValueSet/vs-tre-r279-clientele-all"/>
       </reference>
       <name value="Vs Tre R279 Clientele All"/>
@@ -40158,6 +40202,17 @@
       </reference>
       <name value="Vs Tre R281 Discipline Enseignement All"/>
       <description value="Jeu de valeurs ALL contenant les disciplines pour l'enseignement"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/vs-tre-r286-type-fermeture-all"/>
+      </reference>
+      <name value="Vs Tre R286 Type Fermeture All"/>
+      <description value="Jeu de valeurs ALL contenant les types de fermeture, codes provenant du FINESS pour les EJ et EG"/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>

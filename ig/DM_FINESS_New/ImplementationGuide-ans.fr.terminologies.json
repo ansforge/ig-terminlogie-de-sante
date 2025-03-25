@@ -16355,7 +16355,7 @@
     },
     {
       "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-internal-dependency",
-      "valueCode" : "hl7.fhir.uv.tools.r4#0.3.0"
+      "valueCode" : "hl7.fhir.uv.tools.r4#0.4.1"
     },
     {
       "extension" : [{
@@ -33528,17 +33528,6 @@
         "valueString" : "CodeSystem"
       }],
       "reference" : {
-        "reference" : "CodeSystem/terminologie-cladimed"
-      },
-      "name" : "CLADIMED",
-      "exampleBoolean" : false
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "CodeSystem"
-      }],
-      "reference" : {
         "reference" : "CodeSystem/terminologie-atc"
       },
       "name" : "Classification anatomique, thérapeutique et chimique",
@@ -33553,6 +33542,17 @@
         "reference" : "CodeSystem/terminologie-ccam"
       },
       "name" : "Classification Commune des Actes Médicaux",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "CodeSystem"
+      }],
+      "reference" : {
+        "reference" : "CodeSystem/terminologie-cladimed"
+      },
+      "name" : "Classification des dispositifs médicaux",
       "exampleBoolean" : false
     },
     {
@@ -33585,7 +33585,7 @@
       "reference" : {
         "reference" : "CodeSystem/terminologie-cisp"
       },
-      "name" : "Classification Internationale des Soins Primaires v2",
+      "name" : "Classification internationale des soins primaires - 2ème version",
       "exampleBoolean" : false
     },
     {
@@ -33665,20 +33665,9 @@
         "valueString" : "CodeSystem"
       }],
       "reference" : {
-        "reference" : "CodeSystem/terminologie-standardterms"
-      },
-      "name" : "EDQM___Standard_Terms",
-      "exampleBoolean" : false
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "CodeSystem"
-      }],
-      "reference" : {
         "reference" : "CodeSystem/terminologie-emdn"
       },
-      "name" : "EMDN",
+      "name" : "European Medical device nomenclature",
       "exampleBoolean" : false
     },
     {
@@ -33751,6 +33740,30 @@
       },
       "name" : "Jdv J295 Document Informatif Finess",
       "description" : "Jeu de valeurs FINESS contenant les types de documents informatifs pouvant être associés à une entité FINESS",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      }],
+      "reference" : {
+        "reference" : "ValueSet/jdv-j364-type-fermeture-pm-finess"
+      },
+      "name" : "Jdv J364 Type Fermeture Pm Finess",
+      "description" : "Jeu de valeurs FINESS contenant les types de fermeture dédiées aux personnes morales FINESS",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      }],
+      "reference" : {
+        "reference" : "ValueSet/jdv-j365-type-fermeture-ege-finess"
+      },
+      "name" : "Jdv J365 Type Fermeture Ege Finess",
+      "description" : "Jeu de valeurs FINESS contenant les types de fermeture dédiées aux entités géographiques FINESS",
       "exampleBoolean" : false
     },
     {
@@ -46962,7 +46975,7 @@
         "reference" : "CodeSystem/terminologie-lahn"
       },
       "name" : "Liste des Actes Inovants Hors Nomenclature",
-      "description" : "La liste des actes innovants hors nomenclature (LAHN), a été mise en place par la direction générale de l’offre de soins (DGOS) en 2024, dans le cadre du développement de l’innovation en santé,  en remplacement du dispositif RIHN plus liste complémentaire. La LAHN en est la fusion.  L’objectif est de soutenir l’innovation et de la dynamiser par une prise en charge et une évaluation rapide des actes innovant.\nLa LAHN contient une liste d’actes innovants (biologie et anatomocytopathologie) pris en charge à titre transitoire moyennant un recueil de données pour leur évaluation.",
+      "description" : "La liste des actes innovants hors nomenclature (LAHN) a été mise en place par la direction générale de l’offre de soins (DGOS) en 2024, dans le cadre du développement de l’innovation en santé. Elle est la fusion du RIHN et de la Liste Complémentaire (LC). L’objectif est de soutenir l’innovation et de la dynamiser par une prise en charge et une évaluation rapide des actes innovants. La LAHN contient une liste d’actes innovants (biologie et anatomocytopathologie) pris en charge à titre transitoire moyennant un recueil de données pour leur évaluation.",
       "exampleBoolean" : false
     },
     {
@@ -47055,6 +47068,17 @@
         "reference" : "NamingSystem/Snomed-CT-core"
       },
       "name" : "Snomed_CT_core_900000000000207008",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "CodeSystem"
+      }],
+      "reference" : {
+        "reference" : "CodeSystem/terminologie-standardterms"
+      },
+      "name" : "Standard Terms Data Base Dictionnaire européen multilingue de termes normalisés descripteurs de médicaments",
       "exampleBoolean" : false
     },
     {
@@ -50470,6 +50494,18 @@
         "valueString" : "ValueSet"
       }],
       "reference" : {
+        "reference" : "ValueSet/vs-tre-r209-type-activite-all"
+      },
+      "name" : "Vs Tre R209 Type Activite All",
+      "description" : "Jeu de valeurs ALL contenant les types d'activité",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      }],
+      "reference" : {
         "reference" : "ValueSet/vs-tre-r272-equipement-materiel-lourd-all"
       },
       "name" : "Vs Tre R272 Equipement Materiel Lourd All",
@@ -50518,6 +50554,18 @@
         "valueString" : "ValueSet"
       }],
       "reference" : {
+        "reference" : "ValueSet/vs-tre-r278-finess-convention-all"
+      },
+      "name" : "Vs Tre R278 Finess Convention All",
+      "description" : "Jeu de valeurs ALL contenant les conventions du domaine social FINESS",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      }],
+      "reference" : {
         "reference" : "ValueSet/vs-tre-r279-clientele-all"
       },
       "name" : "Vs Tre R279 Clientele All",
@@ -50546,6 +50594,18 @@
       },
       "name" : "Vs Tre R281 Discipline Enseignement All",
       "description" : "Jeu de valeurs ALL contenant les disciplines pour l'enseignement",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      }],
+      "reference" : {
+        "reference" : "ValueSet/vs-tre-r286-type-fermeture-all"
+      },
+      "name" : "Vs Tre R286 Type Fermeture All",
+      "description" : "Jeu de valeurs ALL contenant les types de fermeture, codes provenant du FINESS pour les EJ et EG",
       "exampleBoolean" : false
     },
     {

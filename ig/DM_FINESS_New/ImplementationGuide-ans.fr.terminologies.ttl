@@ -22304,7 +22304,7 @@
        fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/ig-internal-dependency"^^xsd:anyURI ] ;
        fhir:value [
          a fhir:code ;
-         fhir:v "hl7.fhir.uv.tools.r4#0.3.0"
+         fhir:v "hl7.fhir.uv.tools.r4#0.4.1"
        ]
      ] [
        fhir:extension ( [
@@ -45841,23 +45841,6 @@
          ]
        ] ) ;
        fhir:reference [
-         fhir:link <https://interop.esante.gouv.fr/terminologies/CodeSystem/terminologie-cladimed> ;
-         fhir:reference [ fhir:v "CodeSystem/terminologie-cladimed" ]
-       ] ;
-       fhir:name [ fhir:v "CLADIMED" ] ;
-       fhir:example [
-         a fhir:boolean ;
-         fhir:v false
-       ]
-     ] [
-       fhir:extension ( [
-         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
-         fhir:value [
-           a fhir:string ;
-           fhir:v "CodeSystem"
-         ]
-       ] ) ;
-       fhir:reference [
          fhir:link <https://interop.esante.gouv.fr/terminologies/CodeSystem/terminologie-atc> ;
          fhir:reference [ fhir:v "CodeSystem/terminologie-atc" ]
        ] ;
@@ -45879,6 +45862,23 @@
          fhir:reference [ fhir:v "CodeSystem/terminologie-ccam" ]
        ] ;
        fhir:name [ fhir:v "Classification Commune des Actes Médicaux" ] ;
+       fhir:example [
+         a fhir:boolean ;
+         fhir:v false
+       ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [
+           a fhir:string ;
+           fhir:v "CodeSystem"
+         ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <https://interop.esante.gouv.fr/terminologies/CodeSystem/terminologie-cladimed> ;
+         fhir:reference [ fhir:v "CodeSystem/terminologie-cladimed" ]
+       ] ;
+       fhir:name [ fhir:v "Classification des dispositifs médicaux" ] ;
        fhir:example [
          a fhir:boolean ;
          fhir:v false
@@ -45929,7 +45929,7 @@
          fhir:link <https://interop.esante.gouv.fr/terminologies/CodeSystem/terminologie-cisp> ;
          fhir:reference [ fhir:v "CodeSystem/terminologie-cisp" ]
        ] ;
-       fhir:name [ fhir:v "Classification Internationale des Soins Primaires v2" ] ;
+       fhir:name [ fhir:v "Classification internationale des soins primaires - 2ème version" ] ;
        fhir:example [
          a fhir:boolean ;
          fhir:v false
@@ -46050,27 +46050,10 @@
          ]
        ] ) ;
        fhir:reference [
-         fhir:link <https://interop.esante.gouv.fr/terminologies/CodeSystem/terminologie-standardterms> ;
-         fhir:reference [ fhir:v "CodeSystem/terminologie-standardterms" ]
-       ] ;
-       fhir:name [ fhir:v "EDQM___Standard_Terms" ] ;
-       fhir:example [
-         a fhir:boolean ;
-         fhir:v false
-       ]
-     ] [
-       fhir:extension ( [
-         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
-         fhir:value [
-           a fhir:string ;
-           fhir:v "CodeSystem"
-         ]
-       ] ) ;
-       fhir:reference [
          fhir:link <https://interop.esante.gouv.fr/terminologies/CodeSystem/terminologie-emdn> ;
          fhir:reference [ fhir:v "CodeSystem/terminologie-emdn" ]
        ] ;
-       fhir:name [ fhir:v "EMDN" ] ;
+       fhir:name [ fhir:v "European Medical device nomenclature" ] ;
        fhir:example [
          a fhir:boolean ;
          fhir:v false
@@ -46179,6 +46162,42 @@
        ] ;
        fhir:name [ fhir:v "Jdv J295 Document Informatif Finess" ] ;
        fhir:description [ fhir:v "Jeu de valeurs FINESS contenant les types de documents informatifs pouvant être associés à une entité FINESS" ] ;
+       fhir:example [
+         a fhir:boolean ;
+         fhir:v false
+       ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [
+           a fhir:string ;
+           fhir:v "ValueSet"
+         ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <https://interop.esante.gouv.fr/terminologies/ValueSet/jdv-j364-type-fermeture-pm-finess> ;
+         fhir:reference [ fhir:v "ValueSet/jdv-j364-type-fermeture-pm-finess" ]
+       ] ;
+       fhir:name [ fhir:v "Jdv J364 Type Fermeture Pm Finess" ] ;
+       fhir:description [ fhir:v "Jeu de valeurs FINESS contenant les types de fermeture dédiées aux personnes morales FINESS" ] ;
+       fhir:example [
+         a fhir:boolean ;
+         fhir:v false
+       ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [
+           a fhir:string ;
+           fhir:v "ValueSet"
+         ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <https://interop.esante.gouv.fr/terminologies/ValueSet/jdv-j365-type-fermeture-ege-finess> ;
+         fhir:reference [ fhir:v "ValueSet/jdv-j365-type-fermeture-ege-finess" ]
+       ] ;
+       fhir:name [ fhir:v "Jdv J365 Type Fermeture Ege Finess" ] ;
+       fhir:description [ fhir:v "Jeu de valeurs FINESS contenant les types de fermeture dédiées aux entités géographiques FINESS" ] ;
        fhir:example [
          a fhir:boolean ;
          fhir:v false
@@ -65996,7 +66015,7 @@
          fhir:reference [ fhir:v "CodeSystem/terminologie-lahn" ]
        ] ;
        fhir:name [ fhir:v "Liste des Actes Inovants Hors Nomenclature" ] ;
-       fhir:description [ fhir:v "La liste des actes innovants hors nomenclature (LAHN), a été mise en place par la direction générale de l’offre de soins (DGOS) en 2024, dans le cadre du développement de l’innovation en santé,  en remplacement du dispositif RIHN plus liste complémentaire. La LAHN en est la fusion.  L’objectif est de soutenir l’innovation et de la dynamiser par une prise en charge et une évaluation rapide des actes innovant.\nLa LAHN contient une liste d’actes innovants (biologie et anatomocytopathologie) pris en charge à titre transitoire moyennant un recueil de données pour leur évaluation." ] ;
+       fhir:description [ fhir:v "La liste des actes innovants hors nomenclature (LAHN) a été mise en place par la direction générale de l’offre de soins (DGOS) en 2024, dans le cadre du développement de l’innovation en santé. Elle est la fusion du RIHN et de la Liste Complémentaire (LC). L’objectif est de soutenir l’innovation et de la dynamiser par une prise en charge et une évaluation rapide des actes innovants. La LAHN contient une liste d’actes innovants (biologie et anatomocytopathologie) pris en charge à titre transitoire moyennant un recueil de données pour leur évaluation." ] ;
        fhir:example [
          a fhir:boolean ;
          fhir:v false
@@ -66137,6 +66156,23 @@
          fhir:reference [ fhir:v "NamingSystem/Snomed-CT-core" ]
        ] ;
        fhir:name [ fhir:v "Snomed_CT_core_900000000000207008" ] ;
+       fhir:example [
+         a fhir:boolean ;
+         fhir:v false
+       ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [
+           a fhir:string ;
+           fhir:v "CodeSystem"
+         ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <https://interop.esante.gouv.fr/terminologies/CodeSystem/terminologie-standardterms> ;
+         fhir:reference [ fhir:v "CodeSystem/terminologie-standardterms" ]
+       ] ;
+       fhir:name [ fhir:v "Standard Terms Data Base Dictionnaire européen multilingue de termes normalisés descripteurs de médicaments" ] ;
        fhir:example [
          a fhir:boolean ;
          fhir:v false
@@ -71261,6 +71297,24 @@
          ]
        ] ) ;
        fhir:reference [
+         fhir:link <https://interop.esante.gouv.fr/terminologies/ValueSet/vs-tre-r209-type-activite-all> ;
+         fhir:reference [ fhir:v "ValueSet/vs-tre-r209-type-activite-all" ]
+       ] ;
+       fhir:name [ fhir:v "Vs Tre R209 Type Activite All" ] ;
+       fhir:description [ fhir:v "Jeu de valeurs ALL contenant les types d'activité" ] ;
+       fhir:example [
+         a fhir:boolean ;
+         fhir:v false
+       ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [
+           a fhir:string ;
+           fhir:v "ValueSet"
+         ]
+       ] ) ;
+       fhir:reference [
          fhir:link <https://interop.esante.gouv.fr/terminologies/ValueSet/vs-tre-r272-equipement-materiel-lourd-all> ;
          fhir:reference [ fhir:v "ValueSet/vs-tre-r272-equipement-materiel-lourd-all" ]
        ] ;
@@ -71333,6 +71387,24 @@
          ]
        ] ) ;
        fhir:reference [
+         fhir:link <https://interop.esante.gouv.fr/terminologies/ValueSet/vs-tre-r278-finess-convention-all> ;
+         fhir:reference [ fhir:v "ValueSet/vs-tre-r278-finess-convention-all" ]
+       ] ;
+       fhir:name [ fhir:v "Vs Tre R278 Finess Convention All" ] ;
+       fhir:description [ fhir:v "Jeu de valeurs ALL contenant les conventions du domaine social FINESS" ] ;
+       fhir:example [
+         a fhir:boolean ;
+         fhir:v false
+       ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [
+           a fhir:string ;
+           fhir:v "ValueSet"
+         ]
+       ] ) ;
+       fhir:reference [
          fhir:link <https://interop.esante.gouv.fr/terminologies/ValueSet/vs-tre-r279-clientele-all> ;
          fhir:reference [ fhir:v "ValueSet/vs-tre-r279-clientele-all" ]
        ] ;
@@ -71374,6 +71446,24 @@
        ] ;
        fhir:name [ fhir:v "Vs Tre R281 Discipline Enseignement All" ] ;
        fhir:description [ fhir:v "Jeu de valeurs ALL contenant les disciplines pour l'enseignement" ] ;
+       fhir:example [
+         a fhir:boolean ;
+         fhir:v false
+       ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [
+           a fhir:string ;
+           fhir:v "ValueSet"
+         ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <https://interop.esante.gouv.fr/terminologies/ValueSet/vs-tre-r286-type-fermeture-all> ;
+         fhir:reference [ fhir:v "ValueSet/vs-tre-r286-type-fermeture-all" ]
+       ] ;
+       fhir:name [ fhir:v "Vs Tre R286 Type Fermeture All" ] ;
+       fhir:description [ fhir:v "Jeu de valeurs ALL contenant les types de fermeture, codes provenant du FINESS pour les EJ et EG" ] ;
        fhir:example [
          a fhir:boolean ;
          fhir:v false

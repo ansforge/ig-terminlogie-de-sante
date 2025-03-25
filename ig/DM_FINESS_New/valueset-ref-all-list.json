@@ -3570,6 +3570,19 @@
       "sources" : ["1.2.250.1.213.1.6.1.370"]
     },
     {
+      "url" : "https://mos.esante.gouv.fr/NOS/TRE_R209-TypeActivite/FHIR/TRE-R209-TypeActivite?vs",
+      "version" : "20250222120000",
+      "status" : "active",
+      "name" : "VsTreR209TypeActiviteAll",
+      "title" : "Vs Tre R209 Type Activite All",
+      "description" : "Jeu de valeurs ALL contenant les types d'activité",
+      "systems" : [
+        "https://mos.esante.gouv.fr/NOS/TRE_R209-TypeActivite/FHIR/TRE-R209-TypeActivite"
+      ],
+      "oids" : ["1.2.250.1.213.1.6.1.335"],
+      "sources" : ["1.2.250.1.213.1.6.1.335"]
+    },
+    {
       "url" : "https://mos.esante.gouv.fr/NOS/TRE_R221-ModeleDocumentCDANonStructure/FHIR/TRE-R221-ModeleDocumentCDANonStructure?vs",
       "version" : "1.1.0",
       "status" : "active",
@@ -3633,6 +3646,19 @@
       "sources" : ["1.2.250.1.213.1.6.1.347"]
     },
     {
+      "url" : "https://mos.esante.gouv.fr/NOS/TRE_R278-FinessConvention/FHIR/TRE-R278-FinessConvention?vs",
+      "version" : "20250222120000",
+      "status" : "active",
+      "name" : "VsTreR278FinessConventionAll",
+      "title" : "Vs Tre R278 Finess Convention All",
+      "description" : "Jeu de valeurs ALL contenant les conventions du domaine social FINESS",
+      "systems" : [
+        "https://mos.esante.gouv.fr/NOS/TRE_R278-FinessConvention/FHIR/TRE-R278-FinessConvention"
+      ],
+      "oids" : ["1.2.250.1.213.1.6.1.322"],
+      "sources" : ["1.2.250.1.213.1.6.1.322"]
+    },
+    {
       "url" : "https://mos.esante.gouv.fr/NOS/TRE_R279-Clientele/FHIR/TRE-R279-Clientele?vs",
       "version" : "20250222120000",
       "status" : "active",
@@ -3670,6 +3696,19 @@
       ],
       "oids" : ["1.2.250.1.213.1.6.1.326"],
       "sources" : ["1.2.250.1.213.1.6.1.326"]
+    },
+    {
+      "url" : "https://mos.esante.gouv.fr/NOS/TRE_R286-TypeFermeture/FHIR/TRE-R286-TypeFermeture?vs",
+      "version" : "20250222120000",
+      "status" : "active",
+      "name" : "VsTreR286TypeFermetureAll",
+      "title" : "Vs Tre R286 Type Fermeture All",
+      "description" : "Jeu de valeurs ALL contenant les types de fermeture, codes provenant du FINESS pour les EJ et EG",
+      "systems" : [
+        "https://mos.esante.gouv.fr/NOS/TRE_R286-TypeFermeture/FHIR/TRE-R286-TypeFermeture"
+      ],
+      "oids" : ["1.2.250.1.213.1.6.1.371"],
+      "sources" : ["1.2.250.1.213.1.6.1.371"]
     },
     {
       "url" : "https://mos.esante.gouv.fr/NOS/TRE_R293-AgregatClienteleNiv2/FHIR/TRE-R293-AgregatClienteleNiv2?vs",
@@ -15134,6 +15173,32 @@
       "sources" : ["1.2.250.1.213.1.6.1.269"]
     },
     {
+      "url" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j364-type-fermeture-pm-finess",
+      "version" : "20250222120000",
+      "status" : "active",
+      "name" : "JdvJ364TypeFermeturePmFiness",
+      "title" : "Jdv J364 Type Fermeture Pm Finess",
+      "description" : "Jeu de valeurs FINESS contenant les types de fermeture dédiées aux personnes morales FINESS",
+      "systems" : [
+        "https://mos.esante.gouv.fr/NOS/TRE_R286-TypeFermeture/FHIR/TRE-R286-TypeFermeture"
+      ],
+      "oids" : ["1.2.250.1.213.1.6.1.372"],
+      "sources" : ["1.2.250.1.213.1.6.1.372"]
+    },
+    {
+      "url" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j365-type-fermeture-ege-finess",
+      "version" : "20250222120000",
+      "status" : "active",
+      "name" : "JdvJ365TypeFermetureEgeFiness",
+      "title" : "Jdv J365 Type Fermeture Ege Finess",
+      "description" : "Jeu de valeurs FINESS contenant les types de fermeture dédiées aux entités géographiques FINESS",
+      "systems" : [
+        "https://mos.esante.gouv.fr/NOS/TRE_R286-TypeFermeture/FHIR/TRE-R286-TypeFermeture"
+      ],
+      "oids" : ["1.2.250.1.213.1.6.1.373"],
+      "sources" : ["1.2.250.1.213.1.6.1.373"]
+    },
+    {
       "url" : "https://smt.esante.gouv.fr/terminologie-atc?vs",
       "version" : "20241114120000",
       "status" : "active",
@@ -15168,8 +15233,8 @@
       "systems" : ["https://smt.esante.gouv.fr/terminologie-cip_ucd"],
       "uses" : {
       },
-      "ConceptMap-alignement-bdpm-cipucd.html" : "Aligner les codes de présentation de la BDPM avec les codes CIP du référentiel CIP-UCD",
-      "ConceptMap-alignement-nuva-cipucd.html" : "Aligner les codes CIP de NUVA avec les codes CIP du CIP_UCD"
+      "ConceptMap-alignement-nuva-cipucd.html" : "Aligner les codes CIP de NUVA avec les codes CIP du CIP_UCD",
+      "ConceptMap-alignement-bdpm-cipucd.html" : "Aligner les codes de présentation de la BDPM avec les codes CIP du référentiel CIP-UCD"
     },
     {
       "url" : "https://smt.esante.gouv.fr/terminologie-nuva?vs",
@@ -15182,8 +15247,8 @@
       "uses" : {
       },
       "ConceptMap-alignement-nuva-bdpm.html" : "Aligner les codes CIS et CIP de NUVA avec les codes CIS et CIP du BDPM",
-      "ConceptMap-alignement-nuva-atc.html" : "Aligner les codes ATC de NUVA avec les codes ATC",
-      "ConceptMap-alignement-nuva-cipucd.html" : "Aligner les codes CIP de NUVA avec les codes CIP du CIP_UCD"
+      "ConceptMap-alignement-nuva-cipucd.html" : "Aligner les codes CIP de NUVA avec les codes CIP du CIP_UCD",
+      "ConceptMap-alignement-nuva-atc.html" : "Aligner les codes ATC de NUVA avec les codes ATC"
     },
     {
       "url" : "https://smt.esante.gouv.fr/terminologie-sms?vs",
