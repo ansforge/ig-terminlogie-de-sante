@@ -123,6 +123,8 @@ parameters:
       - https://smt.esante.gouv.fr/fhir/ValueSet/1.2.250.1.213.1.1.4.321.41
       - https://smt.esante.gouv.fr/fhir/ValueSet/1.2.250.1.213.1.1.4.321.18
       - https://smt.esante.gouv.fr/fhir/ValueSet/1.2.250.1.213.1.1.4.321.17
+      - https://smt.esante.gouv.fr/fhir/ValueSet/1.2.250.1.213.1.1.5.639
+      - https://smt.esante.gouv.fr/fhir/ValueSet/1.2.250.1.213.1.1.5.640
       - https://smt.esante.gouv.fr/fhir/ValueSet/1.2.250.1.213.1.1.4.321.36
       - https://smt.esante.gouv.fr/fhir/ValueSet/1.2.250.1.213.1.1.4.321.21
       - https://smt.esante.gouv.fr/fhir/ValueSet/1.2.250.1.213.1.1.4.321.42
