@@ -57,7 +57,7 @@ parameters:
     special-url:
       - http://snomed.info/sct
       - https://mos.esante.gouv.fr/NOS/ASS_A11-CorresModeleCDA-XdsFormatCode-CISIS
-      - https://mos.esante.gouv.fr/NOS/ASS_12_CorresMediaTypeCDANonStructure-XdsFormatCode-CISIS.json
+      - https://mos.esante.gouv.fr/NOS/ASS_A12_CorresMediaTypeCDANonStructure-XdsFormatCode-CISIS
       - https://mos.esante.gouv.fr/NOS/ASS_A13-TypeEvenement-FluxStandardise/FHIR/ASS-A13-TypeEvenement-FluxStandardise
       - https://mos.esante.gouv.fr/NOS/ASS_A14-FamilleActivite-ActiviteOperationnelle/FHIR/ASS-A14-FamilleActivite-ActiviteOperationnelle
       - https://mos.esante.gouv.fr/NOS/ASS_A15-SexeProvenanceISO-Sexe/FHIR/ASS-A15-SexeProvenanceISO-Sexe
