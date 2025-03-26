@@ -1,12 +1,12 @@
 Terminologies : Validation Results
 =========================================
 
-err = 1374, warn = 1720, info = 1028
+err = 1363, warn = 1719, info = 1028
 $--
 Generated $--. FHIR version $-- for ans.fr.terminologies#$-- (canonical = https://interop.esante.gouv.fr/terminologies)
  Build Errors : 678 / 20 / 0
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/DM/fsh-generated/resources/ConceptMap-ASS-A11-CorresModeleCDA-XdsFormatCode-CISIS : 0 / 0 / 1
- /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/DM/fsh-generated/resources/ConceptMap-ASS-A12-CorresMediaTypeCDANonStructure-XdsFormatCode-CISIS : 4 / 0 / 1
+ /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/DM/fsh-generated/resources/ConceptMap-ASS-A12-CorresMediaTypeCDANonStructure-XdsFormatCode-CISIS : 0 / 0 / 1
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/DM/fsh-generated/resources/ConceptMap-ASS-A13-TypeEvenement-FluxStandardise : 0 / 0 / 1
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/DM/fsh-generated/resources/ConceptMap-ASS-A14-FamilleActivite-ActiviteOperationnelle : 14 / 0 / 1
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/DM/fsh-generated/resources/ConceptMap-ASS-A15-SexeProvenanceISO-Sexe : 0 / 0 / 1
@@ -19,7 +19,7 @@ Generated $--. FHIR version $-- for ans.fr.terminologies#$-- (canonical = https:
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/DM/fsh-generated/resources/ConceptMap-ASS-A28-TypeDiplome-Diplome-Profession-EPARS : 5 / 0 / 1
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/DM/fsh-generated/resources/ConceptMap-ASS-A29-Departement-AE : 13 / 0 / 1
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/DM/fsh-generated/resources/ConceptMap-ASS-A30-TypeAutorisation-Profession-EPARS : 0 / 0 / 1
- /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/DM/fsh-generated/resources/ConceptMap-ASS-A32-StatutMotifPersonnePriseCharge : 3 / 1 / 1
+ /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/DM/fsh-generated/resources/ConceptMap-ASS-A32-StatutMotifPersonnePriseCharge : 0 / 0 / 1
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/DM/fsh-generated/resources/ConceptMap-ASS-A33-AdministrativeGender-Sexe : 0 / 0 / 1
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/DM/fsh-generated/resources/ConceptMap-ASS-X01-TranscoSavFaireADELI-SavFaireR01 : 0 / 0 / 1
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/DM/fsh-generated/resources/ConceptMap-ASS-X02-TranscoSectActADELI-SectAct : 0 / 0 / 1
@@ -491,9 +491,9 @@ Generated $--. FHIR version $-- for ans.fr.terminologies#$-- (canonical = https:
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_J15_ClasseAge_ROR_JDV-J15-ClasseAge-ROR : 0 / 1 / 1
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_J161_Lateralite_CISIS_JDV-J161-Lateralite-CISIS : 0 / 1 / 1
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_J162_ESPIC_RASS_JDV-J162-ESPIC-RASS : 0 / 1 / 1
- /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_J163_GlucoseUnits_ENS_1.2.250.1.213.1.1.5.639 : 2 / 0 / 1
+ /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_J163_GlucoseUnits_ENS_1.2.250.1.213.1.1.5.639 : 0 / 0 / 1
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_J163_GlucoseUnits_ENS_JDV-J163-GlucoseUnits-ENS : 0 / 1 / 1
- /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_J164_GlucoseNumberOfDays_ENS_1.2.250.1.213.1.1.5.640 : 2 / 0 / 1
+ /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_J164_GlucoseNumberOfDays_ENS_1.2.250.1.213.1.1.5.640 : 0 / 0 / 1
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_J164_GlucoseNumberOfDays_ENS_JDV-J164-GlucoseNumberOfDays-ENS : 0 / 1 / 1
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_J165_TypeCreneau_SAS_JDV-J165-TypeCreneau-SAS : 0 / 1 / 1
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_J166_Profession_EPARS_JDV-J166-Profession-EPARS : 0 / 1 / 1
@@ -2261,10 +2261,6 @@ ERROR: /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSou
 ERROR: /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/output/ValueSet-jdv-modele-document-cda.html#/html/body/div/div/div/div/div/div/div/input/div/div/table/tr/td/a at Line 373, column 24521: The link 'CodeSystem-TRE-A11-IheFormatCode.html#TRE-A11-IheFormatCode-ConceptMap-ASS-A11-CorresModeleCDA-XdsFormatCode-CISIS.46html' for "ConceptMap-ASS-A11-CorresModeleCDA-XdsFormatCode-CISIS.html" cannot be resolved (valid targets: 60 targets)
 == DM/fsh-generated/resources/ConceptMap-ASS-A11-CorresModeleCDA-XdsFormatCode-CISIS.json ==
 == DM/fsh-generated/resources/ConceptMap-ASS-A12-CorresMediaTypeCDANonStructure-XdsFormatCode-CISIS.json ==
-ERROR: ConceptMap.where(url = 'https://mos.esante.gouv.fr/NOS/ASS_A12_CorresMediaTypeCDANonStructure-XdsFormatCode-CISIS.json'): Conformance resource /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/DM/fsh-generated/resources/ConceptMap-ASS-A12-CorresMediaTypeCDANonStructure-XdsFormatCode-CISIS.json - the canonical URL (https://interop.esante.gouv.fr/terminologies/ConceptMap/ASS-A12-CorresMediaTypeCDANonStructure-XdsFormatCode-CISIS) does not match the URL (https://mos.esante.gouv.fr/NOS/ASS_A12_CorresMediaTypeCDANonStructure-XdsFormatCode-CISIS.json)
-ERROR: ConceptMap.url: Resource id/url mismatch: ASS-A12-CorresMediaTypeCDANonStructure-XdsFormatCode-CISIS/https://mos.esante.gouv.fr/NOS/ASS_A12_CorresMediaTypeCDANonStructure-XdsFormatCode-CISIS.json
-ERROR: ConceptMap.where(url = 'https://mos.esante.gouv.fr/NOS/ASS_A12_CorresMediaTypeCDANonStructure-XdsFormatCode-CISIS.json'): Conformance resource /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/DM/fsh-generated/resources/ConceptMap-ASS-A12-CorresMediaTypeCDANonStructure-XdsFormatCode-CISIS.json - the canonical URL (https://interop.esante.gouv.fr/terminologies/ConceptMap/ASS-A12-CorresMediaTypeCDANonStructure-XdsFormatCode-CISIS) does not match the URL (https://mos.esante.gouv.fr/NOS/ASS_A12_CorresMediaTypeCDANonStructure-XdsFormatCode-CISIS.json)
-ERROR: /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/DM/fsh-generated/resources/ConceptMap-ASS-A12-CorresMediaTypeCDANonStructure-XdsFormatCode-CISIS: URL Mismatch https://interop.esante.gouv.fr/terminologies/ConceptMap/ASS-A12-CorresMediaTypeCDANonStructure-XdsFormatCode-CISIS vs https://mos.esante.gouv.fr/NOS/ASS_A12_CorresMediaTypeCDANonStructure-XdsFormatCode-CISIS.json
 == DM/fsh-generated/resources/ConceptMap-ASS-A13-TypeEvenement-FluxStandardise.json ==
 == DM/fsh-generated/resources/ConceptMap-ASS-A14-FamilleActivite-ActiviteOperationnelle.json ==
 ERROR: ConceptMap/ASS-A14-FamilleActivite-ActiviteOperationnelle: ConceptMap.group[0].element[12].code: The source code '007' is not valid in the code system https://smt.esante.gouv.fr/terminologie-SERAFINPH|2023.1.0
@@ -2310,10 +2306,6 @@ ERROR: ConceptMap/ASS-A29-Departement-AE: ConceptMap.group[0].element[88].target
 ERROR: /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/DM/fsh-generated/resources/ConceptMap-ASS-A29-Departement-AE: URL Mismatch https://interop.esante.gouv.fr/terminologies/ConceptMap/ASS-A29-Departement-AE vs https://mos.esante.gouv.fr/NOS/ASS_A29-Departement-AE/FHIR/ASS-A29-Departement-AE
 == DM/fsh-generated/resources/ConceptMap-ASS-A30-TypeAutorisation-Profession-EPARS.json ==
 == DM/fsh-generated/resources/ConceptMap-ASS-A32-StatutMotifPersonnePriseCharge.json ==
-ERROR: ConceptMap.where(url = 'https://mos.esante.gouv.fr/NOS/ASS_A32-StatutMotifPersonnePriseCharge/FHIR/ASS-A32-StatutMotifPersonnePriseCharge'): Conformance resource /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/DM/fsh-generated/resources/ConceptMap-ASS-A32-StatutMotifPersonnePriseCharge.json - the canonical URL (https://interop.esante.gouv.fr/terminologies/ConceptMap/ASS-A32-StatutMotifPersonnePriseCharge) does not match the URL (https://mos.esante.gouv.fr/NOS/ASS_A32-StatutMotifPersonnePriseCharge/FHIR/ASS-A32-StatutMotifPersonnePriseCharge)
-ERROR: ConceptMap.where(url = 'https://mos.esante.gouv.fr/NOS/ASS_A32-StatutMotifPersonnePriseCharge/FHIR/ASS-A32-StatutMotifPersonnePriseCharge'): Conformance resource /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/DM/fsh-generated/resources/ConceptMap-ASS-A32-StatutMotifPersonnePriseCharge.json - the canonical URL (https://interop.esante.gouv.fr/terminologies/ConceptMap/ASS-A32-StatutMotifPersonnePriseCharge) does not match the URL (https://mos.esante.gouv.fr/NOS/ASS_A32-StatutMotifPersonnePriseCharge/FHIR/ASS-A32-StatutMotifPersonnePriseCharge)
-WARNING: ConceptMap/ASS-A32-StatutMotifPersonnePriseCharge: ConceptMap: Constraint failed: cmd-0: 'Name should be usable as an identifier for the module by machine processing applications such as code generation'
-ERROR: /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/DM/fsh-generated/resources/ConceptMap-ASS-A32-StatutMotifPersonnePriseCharge: URL Mismatch https://interop.esante.gouv.fr/terminologies/ConceptMap/ASS-A32-StatutMotifPersonnePriseCharge vs https://mos.esante.gouv.fr/NOS/ASS_A32-StatutMotifPersonnePriseCharge/FHIR/ASS-A32-StatutMotifPersonnePriseCharge
 == DM/fsh-generated/resources/ConceptMap-ASS-A33-AdministrativeGender-Sexe.json ==
 == DM/fsh-generated/resources/ConceptMap-ASS-X01-TranscoSavFaireADELI-SavFaireR01.json ==
 == DM/fsh-generated/resources/ConceptMap-ASS-X02-TranscoSectActADELI-SectAct.json ==
@@ -4148,13 +4140,9 @@ WARNING: ValueSet/JDV-J161-Lateralite-CISIS: ValueSet: Published value sets SHOU
 == input/ontoserver/JDV/JDV_J162_ESPIC_RASS_JDV-J162-ESPIC-RASS.json ==
 WARNING: ValueSet/JDV-J162-ESPIC-RASS: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.title is mandatory, but it is not present
 == input/ontoserver/JDV/JDV_J163_GlucoseUnits_ENS_1.2.250.1.213.1.1.5.639.json ==
-ERROR: ValueSet.where(url = 'https://smt.esante.gouv.fr/fhir/ValueSet/1.2.250.1.213.1.1.5.639'): Conformance resource /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_J163_GlucoseUnits_ENS_1.2.250.1.213.1.1.5.639.json - the canonical URL (https://interop.esante.gouv.fr/terminologies/ValueSet/1.2.250.1.213.1.1.5.639) does not match the URL (https://smt.esante.gouv.fr/fhir/ValueSet/1.2.250.1.213.1.1.5.639)
-ERROR: /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_J163_GlucoseUnits_ENS_1.2.250.1.213.1.1.5.639: URL Mismatch https://interop.esante.gouv.fr/terminologies/ValueSet/1.2.250.1.213.1.1.5.639 vs https://smt.esante.gouv.fr/fhir/ValueSet/1.2.250.1.213.1.1.5.639
 == input/ontoserver/JDV/JDV_J163_GlucoseUnits_ENS_JDV-J163-GlucoseUnits-ENS.json ==
 WARNING: ValueSet/JDV-J163-GlucoseUnits-ENS: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.title is mandatory, but it is not present
 == input/ontoserver/JDV/JDV_J164_GlucoseNumberOfDays_ENS_1.2.250.1.213.1.1.5.640.json ==
-ERROR: ValueSet.where(url = 'https://smt.esante.gouv.fr/fhir/ValueSet/1.2.250.1.213.1.1.5.640'): Conformance resource /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_J164_GlucoseNumberOfDays_ENS_1.2.250.1.213.1.1.5.640.json - the canonical URL (https://interop.esante.gouv.fr/terminologies/ValueSet/1.2.250.1.213.1.1.5.640) does not match the URL (https://smt.esante.gouv.fr/fhir/ValueSet/1.2.250.1.213.1.1.5.640)
-ERROR: /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_J164_GlucoseNumberOfDays_ENS_1.2.250.1.213.1.1.5.640: URL Mismatch https://interop.esante.gouv.fr/terminologies/ValueSet/1.2.250.1.213.1.1.5.640 vs https://smt.esante.gouv.fr/fhir/ValueSet/1.2.250.1.213.1.1.5.640
 == input/ontoserver/JDV/JDV_J164_GlucoseNumberOfDays_ENS_JDV-J164-GlucoseNumberOfDays-ENS.json ==
 WARNING: ValueSet/JDV-J164-GlucoseNumberOfDays-ENS: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.title is mandatory, but it is not present
 == input/ontoserver/JDV/JDV_J165_TypeCreneau_SAS_JDV-J165-TypeCreneau-SAS.json ==

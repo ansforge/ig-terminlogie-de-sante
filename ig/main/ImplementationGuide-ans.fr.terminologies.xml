@@ -242,7 +242,7 @@
         <valueString value="special-url"/>
       </extension>
       <extension url="value">
-        <valueString value="https://mos.esante.gouv.fr/NOS/ASS_12_CorresMediaTypeCDANonStructure-XdsFormatCode-CISIS.json"/>
+        <valueString value="https://mos.esante.gouv.fr/NOS/ASS_A12_CorresMediaTypeCDANonStructure-XdsFormatCode-CISIS"/>
       </extension>
     </extension>
     <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
@@ -355,6 +355,14 @@
       </extension>
       <extension url="value">
         <valueString value="https://mos.esante.gouv.fr/NOS/ASS_A32_StatutMotifPersonnePriseCharge"/>
+      </extension>
+    </extension>
+    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
+      <extension url="code">
+        <valueString value="special-url"/>
+      </extension>
+      <extension url="value">
+        <valueString value="https://mos.esante.gouv.fr/NOS/ASS_A32-StatutMotifPersonnePriseCharge/FHIR/ASS-A32-StatutMotifPersonnePriseCharge"/>
       </extension>
     </extension>
     <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
@@ -755,6 +763,22 @@
       </extension>
       <extension url="value">
         <valueString value="https://smt.esante.gouv.fr/fhir/ValueSet/1.2.250.1.213.1.1.4.321.17"/>
+      </extension>
+    </extension>
+    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
+      <extension url="code">
+        <valueString value="special-url"/>
+      </extension>
+      <extension url="value">
+        <valueString value="https://smt.esante.gouv.fr/fhir/ValueSet/1.2.250.1.213.1.1.5.639"/>
+      </extension>
+    </extension>
+    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
+      <extension url="code">
+        <valueString value="special-url"/>
+      </extension>
+      <extension url="value">
+        <valueString value="https://smt.esante.gouv.fr/fhir/ValueSet/1.2.250.1.213.1.1.5.640"/>
       </extension>
     </extension>
     <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
@@ -12101,7 +12125,7 @@
         <valueCode value="special-url"/>
       </extension>
       <extension url="value">
-        <valueString value="https://mos.esante.gouv.fr/NOS/ASS_12_CorresMediaTypeCDANonStructure-XdsFormatCode-CISIS.json"/>
+        <valueString value="https://mos.esante.gouv.fr/NOS/ASS_A12_CorresMediaTypeCDANonStructure-XdsFormatCode-CISIS"/>
       </extension>
     </extension>
     <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
@@ -12214,6 +12238,14 @@
       </extension>
       <extension url="value">
         <valueString value="https://mos.esante.gouv.fr/NOS/ASS_A32_StatutMotifPersonnePriseCharge"/>
+      </extension>
+    </extension>
+    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
+      <extension url="code">
+        <valueCode value="special-url"/>
+      </extension>
+      <extension url="value">
+        <valueString value="https://mos.esante.gouv.fr/NOS/ASS_A32-StatutMotifPersonnePriseCharge/FHIR/ASS-A32-StatutMotifPersonnePriseCharge"/>
       </extension>
     </extension>
     <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
@@ -12614,6 +12646,22 @@
       </extension>
       <extension url="value">
         <valueString value="https://smt.esante.gouv.fr/fhir/ValueSet/1.2.250.1.213.1.1.4.321.17"/>
+      </extension>
+    </extension>
+    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
+      <extension url="code">
+        <valueCode value="special-url"/>
+      </extension>
+      <extension url="value">
+        <valueString value="https://smt.esante.gouv.fr/fhir/ValueSet/1.2.250.1.213.1.1.5.639"/>
+      </extension>
+    </extension>
+    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
+      <extension url="code">
+        <valueCode value="special-url"/>
+      </extension>
+      <extension url="value">
+        <valueString value="https://smt.esante.gouv.fr/fhir/ValueSet/1.2.250.1.213.1.1.5.640"/>
       </extension>
     </extension>
     <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">

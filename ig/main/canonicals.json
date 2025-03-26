@@ -67,7 +67,7 @@
   {
     "id" : "ASS-A12-CorresMediaTypeCDANonStructure-XdsFormatCode-CISIS",
     "type" : "ConceptMap",
-    "url" : "https://mos.esante.gouv.fr/NOS/ASS_A12_CorresMediaTypeCDANonStructure-XdsFormatCode-CISIS.json",
+    "url" : "https://mos.esante.gouv.fr/NOS/ASS_A12_CorresMediaTypeCDANonStructure-XdsFormatCode-CISIS",
     "version" : "5.0.0",
     "name" : "ASS_A12_CorresMediaTypeCDANonStructure_XdsFormatCode_CISIS"
   },
@@ -160,7 +160,7 @@
     "type" : "ConceptMap",
     "url" : "https://mos.esante.gouv.fr/NOS/ASS_A32-StatutMotifPersonnePriseCharge/FHIR/ASS-A32-StatutMotifPersonnePriseCharge",
     "version" : "20240726120000",
-    "name" : "ASS_A32-StatutMotifPersonnePriseCharge"
+    "name" : "ASS_A32_StatutMotifPersonnePriseCharge"
   },
   {
     "id" : "ASS-A33-AdministrativeGender-Sexe",
