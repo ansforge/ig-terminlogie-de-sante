@@ -56,7 +56,7 @@
     },
     {
       "url" : "https://mos.esante.gouv.fr/NOS/JDV_J01-XdsAuthorSpecialty-CISIS/FHIR/JDV-J01-XdsAuthorSpecialty-CISIS",
-      "version" : "20250131120000",
+      "version" : "20250328120000",
       "status" : "active",
       "name" : "JDV_J01_XdsAuthorSpecialty_CISIS",
       "title" : null,
@@ -117,7 +117,7 @@
     },
     {
       "url" : "https://mos.esante.gouv.fr/NOS/JDV_J05-SubjectRole-CISIS/FHIR/JDV-J05-SubjectRole-CISIS",
-      "version" : "20250228120000",
+      "version" : "20250328120000",
       "status" : "active",
       "name" : "JDV_J05_SubjectRole_CISIS",
       "title" : null,
@@ -283,7 +283,7 @@
     },
     {
       "url" : "https://mos.esante.gouv.fr/NOS/JDV_J106-EnsembleProfession-RASS/FHIR/JDV-J106-EnsembleProfession-RASS",
-      "version" : "20231124120000",
+      "version" : "20250328120000",
       "status" : "active",
       "name" : "JDV_J106_EnsembleProfession_RASS",
       "title" : null,
@@ -321,7 +321,7 @@
     },
     {
       "url" : "https://mos.esante.gouv.fr/NOS/JDV_J108-EnsembleFonction-RASS/FHIR/JDV-J108-EnsembleFonction-RASS",
-      "version" : "20241213120000",
+      "version" : "20250328120000",
       "status" : "active",
       "name" : "JDV_J108_EnsembleFonction_RASS",
       "title" : null,
@@ -1060,7 +1060,7 @@
     },
     {
       "url" : "https://mos.esante.gouv.fr/NOS/JDV_J16-ActeSpecifique-ROR/FHIR/JDV-J16-ActeSpecifique-ROR",
-      "version" : "20250131120000",
+      "version" : "20250328120000",
       "status" : "active",
       "name" : "JDV_J16_ActeSpecifique_ROR",
       "title" : null,
@@ -1188,7 +1188,7 @@
     },
     {
       "url" : "https://mos.esante.gouv.fr/NOS/JDV_J17-ActiviteOperationnelle-ROR/FHIR/JDV-J17-ActiviteOperationnelle-ROR",
-      "version" : "20241213120000",
+      "version" : "20250328120000",
       "status" : "active",
       "name" : "JDV_J17_ActiviteOperationnelle_ROR",
       "title" : null,
@@ -1312,7 +1312,7 @@
     },
     {
       "url" : "https://mos.esante.gouv.fr/NOS/JDV_J18-EquipementSpecifique-ROR/FHIR/JDV-J18-EquipementSpecifique-ROR",
-      "version" : "20250131120000",
+      "version" : "20250328120000",
       "status" : "active",
       "name" : "JDV_J18_EquipementSpecifique_ROR",
       "title" : null,
@@ -2139,7 +2139,7 @@
     },
     {
       "url" : "https://mos.esante.gouv.fr/NOS/JDV_J238-TypeOffre-ROR/FHIR/JDV-J238-TypeOffre-ROR",
-      "version" : "20250131120000",
+      "version" : "20250328120000",
       "status" : "active",
       "name" : "JDV_J238_TypeOffre_ROR",
       "title" : null,
@@ -2363,7 +2363,7 @@
     },
     {
       "url" : "https://mos.esante.gouv.fr/NOS/JDV_J256-Pays/FHIR/JDV-J256-Pays",
-      "version" : "20241213120000",
+      "version" : "20250328120000",
       "status" : "active",
       "name" : "JDV_J256_Pays",
       "title" : null,
@@ -2643,7 +2643,7 @@
     },
     {
       "url" : "https://mos.esante.gouv.fr/NOS/JDV_J286_ProfilUtilisateurReferentielNational_ROR/FHIR/JDV-J286-ProfilUtilisateurReferentielNational-ROR",
-      "version" : "20241213120000",
+      "version" : "20250328120000",
       "status" : "active",
       "name" : "JDV_J286_ProfilUtilisateurReferentielNational_ROR",
       "title" : null,
@@ -2656,7 +2656,7 @@
     },
     {
       "url" : "https://mos.esante.gouv.fr/NOS/JDV_J29-PublicPrisEnCharge-ROR/FHIR/JDV-J29-PublicPrisEnCharge-ROR",
-      "version" : "20240426120000",
+      "version" : "20250328120000",
       "status" : "active",
       "name" : "JDV_J29_PublicPrisEnCharge_ROR",
       "title" : null,
@@ -2721,7 +2721,7 @@
     },
     {
       "url" : "https://mos.esante.gouv.fr/NOS/JDV_J34-CategorieOrganisation-ROR/FHIR/JDV-J34-CategorieOrganisation-ROR",
-      "version" : "20250131120000",
+      "version" : "20250328120000",
       "status" : "active",
       "name" : "JDV_J34_CategorieOrganisation_ROR",
       "title" : null,
@@ -14466,8 +14466,8 @@
       "systems" : ["https://smt.esante.gouv.fr/terminologie-nuva"],
       "uses" : {
       },
-      "ConceptMap-alignement-nuva-bdpm.html" : "Aligner les codes CIS et CIP de NUVA avec les codes CIS et CIP du BDPM",
       "ConceptMap-alignement-nuva-atc.html" : "Aligner les codes ATC de NUVA avec les codes ATC",
+      "ConceptMap-alignement-nuva-bdpm.html" : "Aligner les codes CIS et CIP de NUVA avec les codes CIS et CIP du BDPM",
       "ConceptMap-alignement-nuva-cipucd.html" : "Aligner les codes CIP de NUVA avec les codes CIP du CIP_UCD"
     },
     {

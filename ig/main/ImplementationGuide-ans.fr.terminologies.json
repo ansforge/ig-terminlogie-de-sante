@@ -47450,7 +47450,7 @@
         "reference" : "CodeSystem/TRE-G15-ProfessionSante"
       },
       "name" : "TRE_G15_ProfessionSante",
-      "description" : "Professions de santé définies par le code de la santé publique",
+      "description" : "Professions de santé définies par le code de la santé publique : professions médicales (art. L4111-1 à L4163-10), de la pharmacie et de la physique médicale (art. 4211-1 à 4252-3) et d’auxiliaires médicaux (art. 4311-1 à 4394-3)",
       "exampleBoolean" : false
     },
     {
@@ -49177,7 +49177,7 @@
         "reference" : "CodeSystem/TRE-R330-TypeStatutCapacite"
       },
       "name" : "TRE_R330_TypeStatutCapacite",
-      "description" : "Permet de préciser le statut des lits décrits",
+      "description" : "Permet de préciser le statut des capacités concernées",
       "exampleBoolean" : false
     },
     {

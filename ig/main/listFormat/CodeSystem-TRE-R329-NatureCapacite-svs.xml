@@ -2,7 +2,7 @@
 <RetrieveValueSetResponse xmlns="urn:ihe:iti:svs:2008"
                           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
    <ValueSet dateFin=""
-             dateMaj="20231215120000"
+             dateMaj="20250328120000"
              dateValid="20220527120000"
              description="Permet d'indiquer si la capacité est exprimée en lits ou en places"
              displayName="TRE_R329_NatureCapacite"
@@ -27,6 +27,15 @@
                   displayName="Place"
                   longDesignation="Place"
                   shortDesignation="Place"
+                  descriptionMetier=""/>
+         <concept code="03"
+                  codeSystem="1.2.250.1.213.3.3.212"
+                  dateFin=""
+                  dateMaj="20250328120000"
+                  dateValid="20250328120000"
+                  displayName="Logement"
+                  longDesignation="Logement"
+                  shortDesignation="Logement"
                   descriptionMetier=""/>
       </ConceptList>
    </ValueSet>

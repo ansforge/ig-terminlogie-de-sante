@@ -2,7 +2,7 @@
 <RetrieveValueSetResponse xmlns="urn:ihe:iti:svs:2008"
                           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
    <ValueSet dateFin=""
-             dateMaj="20250131120000"
+             dateMaj="20250328120000"
              dateValid="20160901000000"
              description="Acte spécifique - ROR"
              displayName="JDV_J16_ActeSpecifique_ROR"
@@ -291,7 +291,7 @@
                   displayName="Nutrition du sportif"/>
          <concept code="0169"
                   codeSystem="1.2.250.1.213.3.3.11"
-                  displayName="Détection du dopage"/>
+                  displayName="Dépistage et prise en charge du dopage"/>
          <concept code="0172"
                   codeSystem="1.2.250.1.213.3.3.11"
                   displayName="ECG (électrocardiographie)"/>
@@ -477,7 +477,7 @@
                   displayName="Injection péridurale de sang autologue (blood patch)"/>
          <concept code="0266"
                   codeSystem="1.2.250.1.213.3.3.11"
-                  displayName="Interruption thérapeutique de grossesse"/>
+                  displayName="Interruption de grossesse pour motif médical (IMG/ITG)"/>
          <concept code="0267"
                   codeSystem="1.2.250.1.213.3.3.11"
                   displayName="Interruption volontaire de grossesse (IVG) chirurgicale"/>
@@ -1326,7 +1326,7 @@
                   displayName="Analyse observationnelle et tests cliniques de la marche"/>
          <concept code="0723"
                   codeSystem="1.2.250.1.213.3.3.11"
-                  displayName="Accompagnement à la réinsertion professionnelle"/>
+                  displayName="Accompagnement à l'insertion ou la réinsertion professionnelle"/>
          <concept code="0724"
                   codeSystem="1.2.250.1.213.3.3.11"
                   displayName="Soins des plaies et pansements complexes ou longs (durée supérieure à 1h)"/>
@@ -2421,7 +2421,7 @@
                   displayName="Arthro-distention"/>
          <concept code="1140"
                   codeSystem="1.2.250.1.213.3.3.11"
-                  displayName="Bilan radiologique chez les patients différents (handicaps physiques, psychiques, claustrophobie, …)"/>
+                  displayName="Bilan radiologique avec prise en charge adaptée (handicaps physiques, psychiques, claustrophobie, …)"/>
          <concept code="1141"
                   codeSystem="1.2.250.1.213.3.3.11"
                   displayName="Imagerie de l'endométriose"/>
@@ -3346,9 +3346,6 @@
          <concept code="1465"
                   codeSystem="1.2.250.1.213.3.3.11"
                   displayName="Délivrance de certificats spécifiques pour les sportifs en situation de Handicap"/>
-         <concept code="1466"
-                  codeSystem="1.2.250.1.213.3.3.11"
-                  displayName="Dépistage et prise en charge du dopage"/>
          <concept code="1467"
                   codeSystem="1.2.250.1.213.3.3.11"
                   displayName="Examen visuel du sportif"/>
@@ -3376,9 +3373,6 @@
          <concept code="1475"
                   codeSystem="1.2.250.1.213.3.3.11"
                   displayName="Analyse tridimensionnelle du mouvement, de la marche"/>
-         <concept code="1476"
-                  codeSystem="1.2.250.1.213.3.3.11"
-                  displayName="Accès direct Infirmier en Pratique Avancée (IPA), kinésithérapeute, orthophoniste"/>
          <concept code="1477"
                   codeSystem="1.2.250.1.213.3.3.11"
                   displayName="Prise en charge de la bronchiolite du nourrisson"/>
@@ -3436,6 +3430,51 @@
          <concept code="1495"
                   codeSystem="1.2.250.1.213.3.3.11"
                   displayName="HandiBloc"/>
+         <concept code="1496"
+                  codeSystem="1.2.250.1.213.3.3.11"
+                  displayName="Accompagnement des troubles de l'écriture"/>
+         <concept code="1497"
+                  codeSystem="1.2.250.1.213.3.3.11"
+                  displayName="Accompagnement ergothérapique à l'accès aux nouvelles technologies"/>
+         <concept code="1498"
+                  codeSystem="1.2.250.1.213.3.3.11"
+                  displayName="Accompagnement ergothérapique auprès des proches aidants (proches et professionnels) : apprentissage de techniques d'accompagnement"/>
+         <concept code="1499"
+                  codeSystem="1.2.250.1.213.3.3.11"
+                  displayName="Accompagnement ergothérapique dans le cadre de déficiences visuelles"/>
+         <concept code="1500"
+                  codeSystem="1.2.250.1.213.3.3.11"
+                  displayName="Accompagnement ergothérapique dans le cadre de maladies neuro-évolutives (SLA, SEP, Parkinson, Alzheimer, PNM)"/>
+         <concept code="1501"
+                  codeSystem="1.2.250.1.213.3.3.11"
+                  displayName="Accompagnement ergothérapique dans le cadre de particularités sensorielles (TND)"/>
+         <concept code="1502"
+                  codeSystem="1.2.250.1.213.3.3.11"
+                  displayName="Accompagnement ergothérapique dans le cadre de pathologies neurologiques (AVC, TCE)"/>
+         <concept code="1503"
+                  codeSystem="1.2.250.1.213.3.3.11"
+                  displayName="Accompagnement ergothérapique de rééducation/réadaptation en situation de vie quotidienne post-hospitalisation (RAD)"/>
+         <concept code="1504"
+                  codeSystem="1.2.250.1.213.3.3.11"
+                  displayName="Accompagnement ergothérapique des troubles alimentaires"/>
+         <concept code="1505"
+                  codeSystem="1.2.250.1.213.3.3.11"
+                  displayName="Accompagnement ergothérapique pour la prévention de la chute et ses conséquences : désadaptation psychomotrice"/>
+         <concept code="1506"
+                  codeSystem="1.2.250.1.213.3.3.11"
+                  displayName="Evaluation et accompagnement à la mise en place de communication augmentative-alternative"/>
+         <concept code="1507"
+                  codeSystem="1.2.250.1.213.3.3.11"
+                  displayName="Programme de prévention primaire ergothérapique « Bien vieillir » (TaPasS)"/>
+         <concept code="1508"
+                  codeSystem="1.2.250.1.213.3.3.11"
+                  displayName="Accompagnement ergothérapique en milieu scolaire"/>
+         <concept code="1509"
+                  codeSystem="1.2.250.1.213.3.3.11"
+                  displayName="Accompagnement ergothérapique en réhabilitation psycho-sociale"/>
+         <concept code="1510"
+                  codeSystem="1.2.250.1.213.3.3.11"
+                  displayName="Evaluation et accompagnement ergothérapique au positionnement au fauteuil roulant (MCPAA) et positionnement au lit"/>
       </ConceptList>
    </ValueSet>
 </RetrieveValueSetResponse>

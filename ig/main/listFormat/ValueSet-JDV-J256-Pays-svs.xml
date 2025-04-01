@@ -2,7 +2,7 @@
 <RetrieveValueSetResponse xmlns="urn:ihe:iti:svs:2008"
                           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
    <ValueSet dateFin=""
-             dateMaj="20241213120000"
+             dateMaj="20250328120000"
              dateValid="20240126120000"
              description="Tous les codes actifs de la nomenclature du COG INSEE pays auquel on ajoute le code applicatif &#34;non renseigné&#34;"
              displayName="JDV_J256_Pays"
@@ -178,7 +178,9 @@
          <concept code="99306"
                   codeSystem="1.2.250.1.213.2.24"
                   displayName="Territoires britanniques de l'océan Atlantique"/>
-         <concept code="99308" codeSystem="1.2.250.1.213.2.24" displayName="Chagos"/>
+         <concept code="99308"
+                  codeSystem="1.2.250.1.213.2.24"
+                  displayName="Territoire britannique de l'océan Indien"/>
          <concept code="99309" codeSystem="1.2.250.1.213.2.24" displayName="Tanzanie"/>
          <concept code="99310" codeSystem="1.2.250.1.213.2.24" displayName="Zimbabwe"/>
          <concept code="99311" codeSystem="1.2.250.1.213.2.24" displayName="Namibie"/>
@@ -278,7 +280,7 @@
                   displayName="République dominicaine"/>
          <concept code="99409"
                   codeSystem="1.2.250.1.213.2.24"
-                  displayName="Guatemala"/>
+                  displayName="Guatémala"/>
          <concept code="99410" codeSystem="1.2.250.1.213.2.24" displayName="Haïti"/>
          <concept code="99411" codeSystem="1.2.250.1.213.2.24" displayName="Honduras"/>
          <concept code="99412"
@@ -337,7 +339,7 @@
                   displayName="Antigua-et-Barbuda"/>
          <concept code="99442"
                   codeSystem="1.2.250.1.213.2.24"
-                  displayName="Saint-Christophe-et-Niévès"/>
+                  displayName="Fédération de Saint-Christophe-et-Niévès"/>
          <concept code="99443"
                   codeSystem="1.2.250.1.213.2.24"
                   displayName="Bonaire, Saint-Eustache, Saba"/>

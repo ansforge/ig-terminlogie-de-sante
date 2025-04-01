@@ -2,7 +2,7 @@
 <RetrieveValueSetResponse xmlns="urn:ihe:iti:svs:2008"
                           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
    <ValueSet dateFin=""
-             dateMaj="20240426120000"
+             dateMaj="20250328120000"
              dateValid="20171013120000"
              description="Public pris en charge"
              displayName="TRE_R239_PublicPrisEnCharge"
@@ -40,10 +40,10 @@
          <concept code="04"
                   codeSystem="1.2.250.1.213.3.3.29"
                   dateFin=""
-                  dateMaj="20220624120000"
+                  dateMaj="20250328120000"
                   dateValid="20220429120000"
-                  displayName="Personnes présentant une addiction"
-                  longDesignation="Personnes présentant une addiction"
+                  displayName="Personnes présentant une conduite addictive"
+                  longDesignation="Personnes présentant une conduite addictive"
                   shortDesignation="Personnes avec addiction"
                   descriptionMetier=""/>
          <concept code="05"

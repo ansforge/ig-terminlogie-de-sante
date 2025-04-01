@@ -2,7 +2,7 @@
 <RetrieveValueSetResponse xmlns="urn:ihe:iti:svs:2008"
                           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
    <ValueSet dateFin=""
-             dateMaj="20250131120000"
+             dateMaj="20250328120000"
              dateValid="20160901000000"
              description="Equipement spécifique - ROR"
              displayName="JDV_J18_EquipementSpecifique_ROR"
@@ -135,7 +135,7 @@
                   displayName="Laboratoire d'analyse tridimensionnelle du mouvement, de la marche"/>
          <concept code="109"
                   codeSystem="1.2.250.1.213.3.3.10"
-                  displayName="Equipement de réadaptation pour obésité massive"/>
+                  displayName="Equipement de réadaptation obésité - bariatrique"/>
          <concept code="110"
                   codeSystem="1.2.250.1.213.3.3.10"
                   displayName="Studio pré-greffe et post-greffe"/>
@@ -165,7 +165,7 @@
                   displayName="Plateau technique neuropsycho cognitif"/>
          <concept code="120"
                   codeSystem="1.2.250.1.213.3.3.10"
-                  displayName="Plateau de simulation de conduite automobile"/>
+                  displayName="Simulateur de conduite automobile"/>
          <concept code="121"
                   codeSystem="1.2.250.1.213.3.3.10"
                   displayName="Véhicules adaptés à la conduite en situation de handicap"/>
@@ -461,6 +461,9 @@
          <concept code="227"
                   codeSystem="1.2.250.1.213.3.3.10"
                   displayName="Table de bloc opératoire obésité - bariatrique"/>
+         <concept code="228"
+                  codeSystem="1.2.250.1.213.3.3.10"
+                  displayName="Plateau de rééducation intensive des membres inférieurs"/>
       </ConceptList>
    </ValueSet>
 </RetrieveValueSetResponse>

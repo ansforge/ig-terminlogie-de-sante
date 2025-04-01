@@ -263,11 +263,11 @@
     },
     {
       "url" : "https://mos.esante.gouv.fr/NOS/TRE_G15-ProfessionSante/FHIR/TRE-G15-ProfessionSante",
-      "version" : "20250131120000",
+      "version" : "20250328120000",
       "status" : "active",
       "name" : "TRE_G15_ProfessionSante",
       "title" : null,
-      "description" : "Professions de santé définies par le code de la santé publique",
+      "description" : "Professions de santé définies par le code de la santé publique : professions médicales (art. L4111-1 à L4163-10), de la pharmacie et de la physique médicale (art. 4211-1 à 4252-3) et d’auxiliaires médicaux (art. 4311-1 à 4394-3)",
       "oids" : ["1.2.250.1.71.1.2.7"]
     },
     {
@@ -434,7 +434,7 @@
     },
     {
       "url" : "https://mos.esante.gouv.fr/NOS/TRE_R20-Pays/FHIR/TRE-R20-Pays",
-      "version" : "20241213120000",
+      "version" : "20250328120000",
       "status" : "active",
       "name" : "TRE_R20_Pays",
       "title" : null,
@@ -803,7 +803,7 @@
     },
     {
       "url" : "https://mos.esante.gouv.fr/NOS/TRE_R239-PublicPrisEnCharge/FHIR/TRE-R239-PublicPrisEnCharge",
-      "version" : "20240426120000",
+      "version" : "20250328120000",
       "status" : "active",
       "name" : "TRE_R239_PublicPrisEnCharge",
       "title" : null,
@@ -857,7 +857,7 @@
     },
     {
       "url" : "https://mos.esante.gouv.fr/NOS/TRE_R244-CategorieOrganisation/FHIR/TRE-R244-CategorieOrganisation",
-      "version" : "20250131120000",
+      "version" : "20250328120000",
       "status" : "active",
       "name" : "TRE_R244_CategorieOrganisation",
       "title" : null,
@@ -1550,7 +1550,7 @@
     },
     {
       "url" : "https://mos.esante.gouv.fr/NOS/TRE_R329-NatureCapacite/FHIR/TRE-R329-NatureCapacite",
-      "version" : "20231215120000",
+      "version" : "20250328120000",
       "status" : "active",
       "name" : "TRE_R329_NatureCapacite",
       "title" : null,
@@ -1568,11 +1568,11 @@
     },
     {
       "url" : "https://mos.esante.gouv.fr/NOS/TRE_R330-TypeStatutCapacite/FHIR/TRE-R330-TypeStatutCapacite",
-      "version" : "20250131120000",
+      "version" : "20250328120000",
       "status" : "active",
       "name" : "TRE_R330_TypeStatutCapacite",
       "title" : null,
-      "description" : "Permet de préciser le statut des lits décrits",
+      "description" : "Permet de préciser le statut des capacités concernées",
       "oids" : ["1.2.250.1.213.3.3.213"]
     },
     {
@@ -1829,7 +1829,7 @@
     },
     {
       "url" : "https://mos.esante.gouv.fr/NOS/TRE_R369_ProfilUtilisateurReferentielNational/FHIR/TRE-R369-ProfilUtilisateurReferentielNational",
-      "version" : "20241213120000",
+      "version" : "20250328120000",
       "status" : "active",
       "name" : "TRE_R369_ProfilUtilisateurReferentielNational",
       "title" : null,
@@ -2180,7 +2180,7 @@
     },
     {
       "url" : "https://mos.esante.gouv.fr/NOS/TRE_R85-RolePriseCharge/FHIR/TRE-R85-RolePriseCharge",
-      "version" : "20250228120000",
+      "version" : "20250328120000",
       "status" : "active",
       "name" : "TRE_R85_RolePriseCharge",
       "title" : null,

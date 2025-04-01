@@ -250,7 +250,7 @@
       <td colspan="4"><i>Official URL</i>: <span class="copy-text">https://mos.esante.gouv.fr/NOS/TRE_R239-PublicPrisEnCharge/FHIR/TRE-R239-PublicPrisEnCharge<button title="Click to copy URL" class="btn-copy" data-clipboard-text="https://mos.esante.gouv.fr/NOS/TRE_R239-PublicPrisEnCharge/FHIR/TRE-R239-PublicPrisEnCharge"/></span>
       </td>
       <td><i>Version</i>:
-      <span class="copy-text">20240426120000<button title="Click to copy versioned URL" class="btn-copy" data-clipboard-text="https://mos.esante.gouv.fr/NOS/TRE_R239-PublicPrisEnCharge/FHIR/TRE-R239-PublicPrisEnCharge|20240426120000"/></span>
+      <span class="copy-text">20250328120000<button title="Click to copy versioned URL" class="btn-copy" data-clipboard-text="https://mos.esante.gouv.fr/NOS/TRE_R239-PublicPrisEnCharge/FHIR/TRE-R239-PublicPrisEnCharge|20250328120000"/></span>
       </td>
     </tr>
  
@@ -266,7 +266,7 @@
         
           Active
           
-            as of 2024-04-26
+            as of 2025-03-28
           
         
       </td>
@@ -289,7 +289,7 @@
         <i>As active of:</i> 
       </td>
       <td colspan="2">
-        <i>RevisionDate:</i> 2024-04-26T12:00:00+01:00
+        <i>RevisionDate:</i> 2025-03-28T12:00:00+01:00
       </td>      
     </tr>
 
@@ -339,65 +339,92 @@
 
 
   <div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: CodeSystem TRE-R239-PublicPrisEnCharge</b></p><a name="TRE-R239-PublicPrisEnCharge"> </a><a name="hcTRE-R239-PublicPrisEnCharge"> </a><a name="TRE-R239-PublicPrisEnCharge-fr-FR"> </a>
-<div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px">version: 4; Last updated: 2024-08-28 05:12:40+0000</p><p style="margin-bottom: 0px">Profil: <a href="http://hl7.org/fhir/R4/shareablecodesystem.html">Shareable CodeSystem</a></p></div><p><b>Propriétés</b></p><p><b>Cette terminologie de référence (CodeSystem) définit les propriétés suivantes pour ses concepts</b></p>
-<table class="grid"><tr><td><b>Nom</b></td><td><b>Code</b></td><td><b>Type</b></td><td><b>Description</b></td></tr>
+<div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px">version: 5; Last updated: 2025-03-31 18:11:22+0000</p><p style="margin-bottom: 0px">Profil: <a href="http://hl7.org/fhir/R4/shareablecodesystem.html">Shareable CodeSystem</a></p></div><p><b>Propriétés</b></p><p><b>Cette terminologie de référence (CodeSystem) définit les propriétés suivantes pour ses concepts</b></p>
+<table class="grid"><tr><td><b>Nom</b></td><td><b>Code</b></td><td><b>URI</b></td><td><b>Type</b></td><td><b>Description</b></td></tr>
 <tr><td>dateValid</td>
 <td>dateValid</td>
+<td></td>
 <td>dateTime</td>
 <td>date de validité d'un code concept</td></tr>
 <tr><td>dateMaj</td>
 <td>dateMaj</td>
+<td></td>
 <td>dateTime</td>
 <td>Date de mise à jour d'un code concept</td></tr>
 <tr><td>dateFin</td>
 <td>dateFin</td>
+<td></td>
 <td>dateTime</td>
-<td>Date de fin d'exploitation d'un code concept</td></tr></table><p><b>Concepts</b></p><p>This case-insensitive code system <code>https://mos.esante.gouv.fr/NOS/TRE_R239-PublicPrisEnCharge/FHIR/TRE-R239-PublicPrisEnCharge</code> defines the following codes:</p>
-<table class="codes"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td><td><b>dateValid</b></td><td><b>dateMaj</b></td><td><b>French (France) (fr)</b></td></tr>
+<td>Date de fin d'exploitation d'un code concept</td></tr>
+<tr><td>deprecationDate</td>
+<td>deprecationDate</td>
+<td>http://hl7.org/fhir/concept-properties#deprecationDate</td>
+<td>dateTime</td>
+<td>Date Concept was deprecated</td></tr>
+<tr><td>status</td>
+<td>status</td>
+<td>http://hl7.org/fhir/concept-properties#status</td>
+<td>code</td>
+<td>A property that indicates the status of the concept.</td></tr>
+<tr><td>retirementDate</td>
+<td>retirementDate</td>
+<td>http://hl7.org/fhir/concept-properties#retirementDate</td>
+<td>dateTime</td>
+<td>Date Concept was retired</td></tr></table><p><b>Concepts</b></p><p>This case-insensitive code system <code>https://mos.esante.gouv.fr/NOS/TRE_R239-PublicPrisEnCharge/FHIR/TRE-R239-PublicPrisEnCharge</code> defines the following codes:</p>
+<table class="codes"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td><td><b>dateValid</b></td><td><b>dateMaj</b></td><td><b>status</b></td><td><b>French (France) (fr)</b></td></tr>
 <tr><td style="white-space:nowrap">01<a name="TRE-R239-PublicPrisEnCharge-01"> </a></td>
 <td>Personnes âgées en perte d'autonomie et aidants</td>
 <td>2017-10-13T12:00:00+01:00</td>
 <td>2018-01-26T12:00:00+01:00</td>
+<td>active</td>
 <td>PA</td></tr>
 <tr><td style="white-space:nowrap">02<a name="TRE-R239-PublicPrisEnCharge-02"> </a></td>
 <td>Personnes en situation de handicap et aidants</td>
 <td>2017-10-13T12:00:00+01:00</td>
 <td>2018-01-26T12:00:00+01:00</td>
+<td>active</td>
 <td>PH</td></tr>
 <tr><td style="white-space:nowrap">03<a name="TRE-R239-PublicPrisEnCharge-03"> </a></td>
 <td>Personnes âgées autonomes</td>
 <td>2019-03-29T12:00:00+01:00</td>
 <td>2019-03-29T12:00:00+01:00</td>
+<td>active</td>
 <td></td></tr>
 <tr><td style="white-space:nowrap">04<a name="TRE-R239-PublicPrisEnCharge-04"> </a></td>
-<td>Personnes présentant une addiction</td>
+<td>Personnes présentant une conduite addictive</td>
 <td>2022-04-29T12:00:00+01:00</td>
-<td>2022-06-24T12:00:00+01:00</td>
+<td>2025-03-28T12:00:00+01:00</td>
+<td>active</td>
 <td>Personnes avec addiction</td></tr>
 <tr><td style="white-space:nowrap">05<a name="TRE-R239-PublicPrisEnCharge-05"> </a></td>
 <td>Personnes handicapées vieillissantes</td>
 <td>2022-06-24T12:00:00+01:00</td>
 <td>2022-06-24T12:00:00+01:00</td>
+<td>active</td>
 <td>PH vieillissantes</td></tr>
 <tr><td style="white-space:nowrap">06<a name="TRE-R239-PublicPrisEnCharge-06"> </a></td>
 <td>Personnes en situation de précarité</td>
 <td>2023-01-27T12:00:00+01:00</td>
 <td>2023-01-27T12:00:00+01:00</td>
+<td>active</td>
 <td>Personnes en précarité</td></tr>
 <tr><td style="white-space:nowrap">07<a name="TRE-R239-PublicPrisEnCharge-07"> </a></td>
 <td>Tout public</td>
 <td>2023-01-27T12:00:00+01:00</td>
 <td>2023-01-27T12:00:00+01:00</td>
+<td>active</td>
 <td></td></tr>
 <tr><td style="white-space:nowrap">08<a name="TRE-R239-PublicPrisEnCharge-08"> </a></td>
 <td>Etudiants</td>
 <td>2023-01-27T12:00:00+01:00</td>
 <td>2023-01-27T12:00:00+01:00</td>
+<td>active</td>
 <td></td></tr>
 <tr><td style="white-space:nowrap">09<a name="TRE-R239-PublicPrisEnCharge-09"> </a></td>
 <td>Personnes atteintes de pathologies chroniques ou présentant une ALD</td>
 <td>2024-04-26T12:00:00+01:00</td>
 <td>2024-04-26T12:00:00+01:00</td>
+<td>active</td>
 <td>Pathologies chroniques ou ALD</td></tr></table></div>
 </div>
   
@@ -447,7 +474,7 @@
 
 <div class="inner-wrapper">
   <p>
-    IG &#169; 2020+ <a style="color:var(--footer-hyperlink-text-color)" href="https://esante.gouv.fr">ANS</a>.  Package ans.fr.terminologies#0.1.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Mon, Mar 31, 2025 04:22+0000">2025-03-31</span>
+    IG &#169; 2020+ <a style="color:var(--footer-hyperlink-text-color)" href="https://esante.gouv.fr">ANS</a>.  Package ans.fr.terminologies#0.1.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Tue, Apr 1, 2025 04:23+0000">2025-04-01</span>
     <br/>
     <span style="color: var(--footer-highlight-text-color)"></span>
       Liens: <a style="color: var(--footer-hyperlink-text-color)" href="toc.html">Table des matières </a> |

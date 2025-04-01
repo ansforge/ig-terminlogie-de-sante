@@ -2,7 +2,7 @@
 <RetrieveValueSetResponse xmlns="urn:ihe:iti:svs:2008"
                           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
    <ValueSet dateFin=""
-             dateMaj="20250228120000"
+             dateMaj="20250328120000"
              dateValid="20150101000000"
              description="Rôle dans la prise en charge des patients ou des usagers"
              displayName="TRE_R85_RolePriseCharge"
@@ -462,8 +462,8 @@
                   descriptionMetier=""/>
          <concept code="350"
                   codeSystem="1.2.250.1.213.1.6.1.107"
-                  dateFin=""
-                  dateMaj="20190329120000"
+                  dateFin="20250328120000"
+                  dateMaj="20250328120000"
                   dateValid="20190329120000"
                   displayName="Aide à domicile"
                   longDesignation="Aide à domicile"
@@ -633,8 +633,8 @@
                   descriptionMetier=""/>
          <concept code="369"
                   codeSystem="1.2.250.1.213.1.6.1.107"
-                  dateFin=""
-                  dateMaj="20241025120000"
+                  dateFin="20250328120000"
+                  dateMaj="20250328120000"
                   dateValid="20241025120000"
                   displayName="Biologiste médical non-médecin"
                   longDesignation="Biologiste médical non-médecin"
@@ -649,6 +649,24 @@
                   longDesignation="Opérateur de Soins Non Programmés"
                   shortDesignation="OSNP"
                   descriptionMetier=""/>
+         <concept code="371"
+                  codeSystem="1.2.250.1.213.1.6.1.107"
+                  dateFin=""
+                  dateMaj="20250328120000"
+                  dateValid="20250328120000"
+                  displayName="Aide à domicile qualifié(e)"
+                  longDesignation="Aide à domicile qualifié(e)"
+                  shortDesignation="Aide à domicile qualifié(e)"
+                  descriptionMetier="Le décret n° 2024-1246 du 30 décembre 2024 identifie les aides à domicile qualifié(e)s qui justifient « 1° Soit d'une certification professionnelle au minimum de niveau 3 inscrite au répertoire national prévu à l'article L. 6113-1 du code du travail attestant de compétences dans les secteurs sanitaire, médico-social ou social, figurant sur une liste définie par arrêté du ministre chargé des solidarités » ; « 2° Soit de trois années d'exercice professionnel dans l'accompagnement au domicile des personnes âgées ou des personnes handicapées au cours des cinq dernières années, au moins à mi-temps »."/>
+         <concept code="372"
+                  codeSystem="1.2.250.1.213.1.6.1.107"
+                  dateFin=""
+                  dateMaj="20250328120000"
+                  dateValid="20250328120000"
+                  displayName="Aide à domicile"
+                  longDesignation="Aide à domicile"
+                  shortDesignation="Aide à domicile"
+                  descriptionMetier="L’aide à domicile réalise des interventions sociales au quotidien visant à accompagner une personne en situation de handicap ou touchée par un manque d’autonomie quelles qu’en soient l’origine ou la nature. L’aide à domicile accompagne les personnes dans les actes essentiels de la vie quotidienne, directement à leur domicile ou leur lieu de vie."/>
       </ConceptList>
    </ValueSet>
 </RetrieveValueSetResponse>

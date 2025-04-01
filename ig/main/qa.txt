@@ -1,10 +1,10 @@
 Terminologies : Validation Results
 =========================================
 
-err = 1363, warn = 1719, info = 1028
+err = 1397, warn = 1729, info = 1035
 IG Publisher Version: 1.8.22
-Generated Mon Mar 31 04:41:42 UTC 2025. FHIR version 4.0.1 for ans.fr.terminologies#0.1.0 (canonical = https://interop.esante.gouv.fr/terminologies)
- Build Errors : 678 / 20 / 0
+Generated Tue Apr 01 04:44:32 UTC 2025. FHIR version 4.0.1 for ans.fr.terminologies#0.1.0 (canonical = https://interop.esante.gouv.fr/terminologies)
+ Build Errors : 702 / 20 / 0
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/DM/fsh-generated/resources/ConceptMap-ASS-A11-CorresModeleCDA-XdsFormatCode-CISIS : 0 / 0 / 1
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/DM/fsh-generated/resources/ConceptMap-ASS-A12-CorresMediaTypeCDANonStructure-XdsFormatCode-CISIS : 0 / 0 / 1
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/DM/fsh-generated/resources/ConceptMap-ASS-A13-TypeEvenement-FluxStandardise : 0 / 0 / 1
@@ -500,7 +500,7 @@ Generated Mon Mar 31 04:41:42 UTC 2025. FHIR version 4.0.1 for ans.fr.terminolog
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_J167_DepartementOM_EPARS_JDV-J167-DepartementOM-EPARS : 0 / 1 / 1
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_J168_Pays_EPARS_JDV-J168-Pays-EPARS : 0 / 1 / 1
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_J169_MotifFinActivite_EPARS_JDV-J169-MotifFinActivite-EPARS : 0 / 1 / 1
- /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_J16_ActeSpecifique_ROR_JDV-J16-ActeSpecifique-ROR : 0 / 1 / 3
+ /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_J16_ActeSpecifique_ROR_JDV-J16-ActeSpecifique-ROR : 15 / 1 / 3
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_J170_AutoriteEnregistrement_EPARS_JDV-J170-AutoriteEnregistrement-EPARS : 0 / 1 / 1
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_J171_TypeAutorisation_EPARS_JDV-J171-TypeAutorisation-EPARS : 0 / 1 / 1
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_J172_SecteurActivite_EPARS_JDV-J172-SecteurActivite-EPARS : 0 / 1 / 1
@@ -509,7 +509,7 @@ Generated Mon Mar 31 04:41:42 UTC 2025. FHIR version 4.0.1 for ans.fr.terminolog
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_J177_BesoinAideMobilite_MDPH_JDV-J177-BesoinAideMobilite-MDPH : 0 / 1 / 1
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_J178_BesoinAideVieSociale_MDPH_JDV-J178-BesoinAideVieSociale-MDPH : 0 / 1 / 1
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_J179_BesoinCommunication_MDPH_JDV-J179-BesoinCommunication-MDPH : 0 / 1 / 1
- /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_J17_ActiviteOperationnelle_ROR_JDV-J17-ActiviteOperationnelle-ROR : 0 / 1 / 1
+ /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_J17_ActiviteOperationnelle_ROR_JDV-J17-ActiviteOperationnelle-ROR : 8 / 9 / 1
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_J180_BesoinEntretienPersonnel_MDPH_JDV-J180-BesoinEntretienPersonnel-MDPH : 0 / 1 / 1
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_J181_BesoinMobilite_MDPH_JDV-J181-BesoinMobilite-MDPH : 0 / 1 / 1
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_J182_BesoinScolarite_MDPH_JDV-J182-BesoinScolarite-MDPH : 0 / 1 / 1
@@ -519,7 +519,7 @@ Generated Mon Mar 31 04:41:42 UTC 2025. FHIR version 4.0.1 for ans.fr.terminolog
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_J187_NatureCapacite_ROR_JDV-J187-NatureCapacite-ROR : 0 / 1 / 1
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_J188_TypeStatutCapacite_ROR_JDV-J188-TypeStatutCapacite-ROR : 0 / 1 / 1
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_J189_TemporaliteCapacite_ROR_JDV-J189-TemporaliteCapacite-ROR : 0 / 1 / 1
- /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_J18_EquipementSpecifique_ROR_JDV-J18-EquipementSpecifique-ROR : 0 / 1 / 1
+ /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_J18_EquipementSpecifique_ROR_JDV-J18-EquipementSpecifique-ROR : 1 / 2 / 1
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_J190_GenreCapacite_ROR_JDV-J190-GenreCapacite-ROR : 0 / 1 / 1
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_J191_TypeFermetureCapacite_ROR_JDV-J191-TypeFermetureCapacite-ROR : 0 / 1 / 1
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_J192_TypeLitSupplementaire_ROR_JDV-J192-TypeLitSupplementaire-ROR : 0 / 1 / 1
@@ -956,16 +956,16 @@ Generated Mon Mar 31 04:41:42 UTC 2025. FHIR version 4.0.1 for ans.fr.terminolog
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_RepriseProfessionnelle_CISIS_1.2.250.1.213.1.1.5.154 : 0 / 0 / 1
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_RessourceUtilisee_CISIS_1.2.250.1.213.1.1.5.807 : 0 / 0 / 1
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_ResultatComparaison_CISIS_1.2.250.1.213.1.1.5.649 : 0 / 0 / 1
- /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_ResultatDepistageAcideAscorbique_CISIS_1.2.250.1.213.1.1.5.783 : 0 / 2 / 1
- /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_ResultatDepistageBilirubinemie_CISIS_1.2.250.1.213.1.1.5.773 : 0 / 0 / 1
- /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_ResultatDepistageBilirubinurie_CISIS_1.2.250.1.213.1.1.5.778 : 0 / 0 / 1
+ /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_ResultatDepistageAcideAscorbique_CISIS_1.2.250.1.213.1.1.5.783 : 1 / 0 / 1
+ /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_ResultatDepistageBilirubinemie_CISIS_1.2.250.1.213.1.1.5.773 : 1 / 0 / 1
+ /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_ResultatDepistageBilirubinurie_CISIS_1.2.250.1.213.1.1.5.778 : 1 / 0 / 1
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_ResultatDepistageCRP_CISIS_1.2.250.1.213.1.1.5.771 : 0 / 2 / 1
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_ResultatDepistageCetonemie_CISIS_1.2.250.1.213.1.1.5.769 : 0 / 0 / 1
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_ResultatDepistageCholesterol_CISIS_1.2.250.1.213.1.1.5.770 : 0 / 0 / 1
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_ResultatDepistageCorpsCetoniques_CISIS_1.2.250.1.213.1.1.5.776 : 0 / 0 / 1
- /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_ResultatDepistageGlucose_CISIS_1.2.250.1.213.1.1.5.777 : 0 / 0 / 1
- /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_ResultatDepistageGlycemie_CISIS_1.2.250.1.213.1.1.5.768 : 0 / 0 / 1
- /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_ResultatDepistageHematurie_CISIS_1.2.250.1.213.1.1.5.781 : 0 / 4 / 1
+ /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_ResultatDepistageGlucose_CISIS_1.2.250.1.213.1.1.5.777 : 1 / 0 / 1
+ /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_ResultatDepistageGlycemie_CISIS_1.2.250.1.213.1.1.5.768 : 1 / 0 / 1
+ /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_ResultatDepistageHematurie_CISIS_1.2.250.1.213.1.1.5.781 : 1 / 0 / 1
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_ResultatDepistageLeucocyturie_CISIS_1.2.250.1.213.1.1.5.782 : 0 / 0 / 1
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_ResultatDepistageNitriturie_CISIS_1.2.250.1.213.1.1.5.780 : 0 / 0 / 1
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_ResultatDepistageProteinurie_CISIS_1.2.250.1.213.1.1.5.775 : 0 / 0 / 1
@@ -977,7 +977,7 @@ Generated Mon Mar 31 04:41:42 UTC 2025. FHIR version 4.0.1 for ans.fr.terminolog
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_ResultatEvaluation_CISIS_1.2.250.1.213.1.1.5.816 : 1 / 2 / 1
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_ResultatExamenCytologiqueCCU_CISIS_1.2.250.1.213.1.1.5.721 : 0 / 0 / 1
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_ResultatQuestionEvaluation_CISIS_1.2.250.1.213.1.1.5.817 : 0 / 0 / 1
- /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_ResultatRechercheHPVCCU_CISIS_1.2.250.1.213.1.1.5.720 : 0 / 0 / 1
+ /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_ResultatRechercheHPVCCU_CISIS_1.2.250.1.213.1.1.5.720 : 0 / 1 / 2
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_RisquePourEntourage_CISIS_1.2.250.1.213.1.1.5.135 : 0 / 0 / 1
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_RisquePourUsager_CISIS_1.2.250.1.213.1.1.5.134 : 0 / 0 / 1
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_RouteofAdministration_CISIS_1.2.250.1.213.1.1.5.677 : 1 / 2 / 1
@@ -1025,16 +1025,16 @@ Generated Mon Mar 31 04:41:42 UTC 2025. FHIR version 4.0.1 for ans.fr.terminolog
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_SignesVitaux_CS24_CISIS_1.2.250.1.213.1.1.5.710 : 0 / 0 / 1
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_SignesVitaux_CS8_CISIS_1.2.250.1.213.1.1.5.703 : 0 / 0 / 1
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_SignesVitaux_CS9_CISIS_1.2.250.1.213.1.1.5.709 : 0 / 0 / 1
- /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_SiteIntervention_CISIS_1.2.250.1.213.1.1.5.169 : 0 / 0 / 1
+ /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_SiteIntervention_CISIS_1.2.250.1.213.1.1.5.169 : 1 / 0 / 1
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_SituationMedicale_CISIS_1.2.250.1.213.1.1.5.230 : 0 / 0 / 1
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_SocialHistoryCodes_CISIS_1.2.250.1.213.1.1.4.2.283.4 : 0 / 0 / 1
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_SoinsOncoDeSupport_CISIS_1.2.250.1.213.1.1.5.79 : 0 / 0 / 1
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_StaticSEMprocedures_CISIS_1.2.250.1.213.1.1.5.756 : 1 / 2 / 1
- /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_StatutActuelDiagnostic_CISIS_1.2.250.1.213.1.1.5.45 : 0 / 0 / 2
+ /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_StatutActuelDiagnostic_CISIS_1.2.250.1.213.1.1.5.45 : 0 / 1 / 3
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_StatutCasPresente_CISIS_1.2.250.1.213.1.1.4.2.281.17 : 0 / 0 / 1
- /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_StatutDocPPSPAERPA_CISIS_1.2.250.1.213.1.1.5.32 : 0 / 0 / 1
- /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_StatutDoc_CISIS_1.2.250.1.213.1.1.5.93 : 0 / 0 / 1
- /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_StatutEvt_CISIS_1.2.250.1.213.1.1.5.165 : 0 / 0 / 1
+ /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_StatutDocPPSPAERPA_CISIS_1.2.250.1.213.1.1.5.32 : 0 / 1 / 2
+ /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_StatutDoc_CISIS_1.2.250.1.213.1.1.5.93 : 1 / 1 / 2
+ /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_StatutEvt_CISIS_1.2.250.1.213.1.1.5.165 : 1 / 0 / 1
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_StatutGrossesse_CISIS_1.2.250.1.213.1.1.5.671 : 0 / 0 / 1
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_StatutQuorum_CISIS_1.2.250.1.213.1.1.4.2.281.16 : 0 / 0 / 1
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_StatutResultat_CISIS_1.2.250.1.213.1.1.5.96 : 0 / 0 / 1
@@ -1042,7 +1042,7 @@ Generated Mon Mar 31 04:41:42 UTC 2025. FHIR version 4.0.1 for ans.fr.terminolog
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_StatutVaccinal_CISIS_1.2.250.1.213.1.1.5.727 : 2 / 2 / 2
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_StructuresDeSoins_CISIS_1.2.250.1.213.1.1.5.82 : 0 / 0 / 1
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_SupportNutritionnel_CISIS_1.2.250.1.213.1.1.5.487 : 0 / 0 / 1
- /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_SymptomesAVC_CISIS_1.2.250.1.213.1.1.5.157 : 0 / 2 / 1
+ /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_SymptomesAVC_CISIS_1.2.250.1.213.1.1.5.157 : 0 / 3 / 2
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_TNM_pTNM_pM_1_CISIS_1.2.250.1.213.1.1.5.579 : 0 / 0 / 1
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_TNM_pTNM_pM_2_CISIS_1.2.250.1.213.1.1.5.522 : 0 / 0 / 1
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_TNM_pTNM_pM_CISIS_1.2.250.1.213.1.1.5.518 : 0 / 0 / 1
@@ -1053,7 +1053,7 @@ Generated Mon Mar 31 04:41:42 UTC 2025. FHIR version 4.0.1 for ans.fr.terminolog
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_TNM_pTNM_pT_2_CISIS_1.2.250.1.213.1.1.5.521 : 0 / 0 / 1
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_TNM_pTNM_pT_3_CISIS_1.2.250.1.213.1.1.5.523 : 0 / 0 / 1
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_TNM_pTNM_pT_CISIS_1.2.250.1.213.1.1.5.572 : 0 / 0 / 1
- /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_Taille_CISIS_1.2.250.1.213.1.1.5.50 : 0 / 0 / 1
+ /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_Taille_CISIS_1.2.250.1.213.1.1.5.50 : 0 / 1 / 2
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_TechniqueBiologie_CISIS_1.2.250.1.213.1.1.5.789 : 1 / 2 / 1
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_Technique_imagerie_D2LM_CISIS_1.2.250.1.213.1.1.5.645 : 0 / 1 / 1
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_TechniquesDiagnostic_CISIS_1.2.250.1.213.1.1.5.48 : 1 / 1 / 2
@@ -1078,7 +1078,7 @@ Generated Mon Mar 31 04:41:42 UTC 2025. FHIR version 4.0.1 for ans.fr.terminolog
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_TopoTrouble_CISIS_1.2.250.1.213.1.1.4.321.3 : 3 / 1 / 1
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_TopoTrouble_CISIS_1.2.250.1.213.1.1.5.162 : 0 / 2 / 1
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_Traite_NonTraite_CISIS_1.2.250.1.213.1.1.5.682 : 0 / 0 / 1
- /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_TraitementPreventif_CISIS_1.2.250.1.213.1.1.5.55 : 0 / 0 / 1
+ /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_TraitementPreventif_CISIS_1.2.250.1.213.1.1.5.55 : 1 / 1 / 2
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_TraitementSoinsRCP_CISIS_1.2.250.1.213.1.1.4.2.281.18 : 6 / 6 / 2
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_TraitementSoins_FRCP_CISIS_1.2.250.1.213.1.1.5.596 : 0 / 2 / 1
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_TraitementSuivi_CISIS_1.2.250.1.213.1.1.5.57 : 0 / 0 / 1
@@ -2060,6 +2060,30 @@ ERROR: /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSou
 ERROR: /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/output/ValueSet-JDV-J133-ActiviteSanitaireRegulee-RASS.html#/html/body/div/div/div/div/div/div/div/input/div/div/table/tr/td/a at Line 381, column 64629: The link 'CodeSystem-TRE-R275-ModaliteActivite.html#TRE-R275-ModaliteActivite-ValueSet-JDV-J132-ModaliteActivite-RASS.46html' for "ValueSet-JDV-J132-ModaliteActivite-RASS.html" cannot be resolved (valid targets: 205 targets)
 ERROR: /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/output/ValueSet-JDV-J133-ActiviteSanitaireRegulee-RASS.html#/html/body/div/div/div/div/div/div/div/input/div/div/table/tr/td/a at Line 381, column 64840: The link 'CodeSystem-TRE-R275-ModaliteActivite.html#TRE-R275-ModaliteActivite-ValueSet-JDV-J132-ModaliteActivite-RASS.46html' for "ValueSet-JDV-J132-ModaliteActivite-RASS.html" cannot be resolved (valid targets: 205 targets)
 ERROR: /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/output/ValueSet-JDV-J154-TypeGlucose-ENS.html#/html/body/div/div/div/div/div/div/div/input/div/div/div/ul/li/table/tr/td/a at Line 377, column 11: The link 'CodeSystem-1.2.250.1.213.1.1.4.322.html#1.2.250.1.213.1.1.4.322-MED-969' for "MED-969" cannot be resolved (valid targets: 1614 targets)
+ERROR: /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/output/ValueSet-JDV-J16-ActeSpecifique-ROR.html#/html/body/div/div/div/div/div/div/div/input/div/div/div/ul/li/table/tr/td/a at Line 374, column 240269: The link 'CodeSystem-TRE-R210-ActeSpecifique.html#TRE-R210-ActeSpecifique-1496' for "1496" cannot be resolved (valid targets: 1516 targets)
+ERROR: /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/output/ValueSet-JDV-J16-ActeSpecifique-ROR.html#/html/body/div/div/div/div/div/div/div/input/div/div/div/ul/li/table/tr/td/a at Line 374, column 240433: The link 'CodeSystem-TRE-R210-ActeSpecifique.html#TRE-R210-ActeSpecifique-1497' for "1497" cannot be resolved (valid targets: 1516 targets)
+ERROR: /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/output/ValueSet-JDV-J16-ActeSpecifique-ROR.html#/html/body/div/div/div/div/div/div/div/input/div/div/div/ul/li/table/tr/td/a at Line 374, column 240622: The link 'CodeSystem-TRE-R210-ActeSpecifique.html#TRE-R210-ActeSpecifique-1498' for "1498" cannot be resolved (valid targets: 1516 targets)
+ERROR: /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/output/ValueSet-JDV-J16-ActeSpecifique-ROR.html#/html/body/div/div/div/div/div/div/div/input/div/div/div/ul/li/table/tr/td/a at Line 374, column 240876: The link 'CodeSystem-TRE-R210-ActeSpecifique.html#TRE-R210-ActeSpecifique-1499' for "1499" cannot be resolved (valid targets: 1516 targets)
+ERROR: /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/output/ValueSet-JDV-J16-ActeSpecifique-ROR.html#/html/body/div/div/div/div/div/div/div/input/div/div/div/ul/li/table/tr/td/a at Line 374, column 241067: The link 'CodeSystem-TRE-R210-ActeSpecifique.html#TRE-R210-ActeSpecifique-1500' for "1500" cannot be resolved (valid targets: 1516 targets)
+ERROR: /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/output/ValueSet-JDV-J16-ActeSpecifique-ROR.html#/html/body/div/div/div/div/div/div/div/input/div/div/div/ul/li/table/tr/td/a at Line 374, column 241300: The link 'CodeSystem-TRE-R210-ActeSpecifique.html#TRE-R210-ActeSpecifique-1501' for "1501" cannot be resolved (valid targets: 1516 targets)
+ERROR: /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/output/ValueSet-JDV-J16-ActeSpecifique-ROR.html#/html/body/div/div/div/div/div/div/div/input/div/div/div/ul/li/table/tr/td/a at Line 374, column 241503: The link 'CodeSystem-TRE-R210-ActeSpecifique.html#TRE-R210-ActeSpecifique-1502' for "1502" cannot be resolved (valid targets: 1516 targets)
+ERROR: /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/output/ValueSet-JDV-J16-ActeSpecifique-ROR.html#/html/body/div/div/div/div/div/div/div/input/div/div/div/ul/li/table/tr/td/a at Line 374, column 241709: The link 'CodeSystem-TRE-R210-ActeSpecifique.html#TRE-R210-ActeSpecifique-1503' for "1503" cannot be resolved (valid targets: 1516 targets)
+ERROR: /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/output/ValueSet-JDV-J16-ActeSpecifique-ROR.html#/html/body/div/div/div/div/div/div/div/input/div/div/div/ul/li/table/tr/td/a at Line 374, column 241948: The link 'CodeSystem-TRE-R210-ActeSpecifique.html#TRE-R210-ActeSpecifique-1504' for "1504" cannot be resolved (valid targets: 1516 targets)
+ERROR: /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/output/ValueSet-JDV-J16-ActeSpecifique-ROR.html#/html/body/div/div/div/div/div/div/div/input/div/div/div/ul/li/table/tr/td/a at Line 374, column 242126: The link 'CodeSystem-TRE-R210-ActeSpecifique.html#TRE-R210-ActeSpecifique-1505' for "1505" cannot be resolved (valid targets: 1516 targets)
+ERROR: /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/output/ValueSet-JDV-J16-ActeSpecifique-ROR.html#/html/body/div/div/div/div/div/div/div/input/div/div/div/ul/li/table/tr/td/a at Line 374, column 242359: The link 'CodeSystem-TRE-R210-ActeSpecifique.html#TRE-R210-ActeSpecifique-1506' for "1506" cannot be resolved (valid targets: 1516 targets)
+ERROR: /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/output/ValueSet-JDV-J16-ActeSpecifique-ROR.html#/html/body/div/div/div/div/div/div/div/input/div/div/div/ul/li/table/tr/td/a at Line 374, column 242571: The link 'CodeSystem-TRE-R210-ActeSpecifique.html#TRE-R210-ActeSpecifique-1507' for "1507" cannot be resolved (valid targets: 1516 targets)
+ERROR: /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/output/ValueSet-JDV-J16-ActeSpecifique-ROR.html#/html/body/div/div/div/div/div/div/div/input/div/div/div/ul/li/table/tr/td/a at Line 374, column 242768: The link 'CodeSystem-TRE-R210-ActeSpecifique.html#TRE-R210-ActeSpecifique-1508' for "1508" cannot be resolved (valid targets: 1516 targets)
+ERROR: /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/output/ValueSet-JDV-J16-ActeSpecifique-ROR.html#/html/body/div/div/div/div/div/div/div/input/div/div/div/ul/li/table/tr/td/a at Line 374, column 242939: The link 'CodeSystem-TRE-R210-ActeSpecifique.html#TRE-R210-ActeSpecifique-1509' for "1509" cannot be resolved (valid targets: 1516 targets)
+ERROR: /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/output/ValueSet-JDV-J16-ActeSpecifique-ROR.html#/html/body/div/div/div/div/div/div/div/input/div/div/div/ul/li/table/tr/td/a at Line 374, column 243124: The link 'CodeSystem-TRE-R210-ActeSpecifique.html#TRE-R210-ActeSpecifique-1510' for "1510" cannot be resolved (valid targets: 1516 targets)
+ERROR: /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/output/ValueSet-JDV-J17-ActiviteOperationnelle-ROR.html#/html/body/div/div/div/div/div/div/div/input/div/div/div/ul/li/table/tr/td/a at Line 374, column 124629: The link 'CodeSystem-TRE-R211-ActiviteOperationnelle.html#TRE-R211-ActiviteOperationnelle-574' for "574" cannot be resolved (valid targets: 595 targets)
+ERROR: /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/output/ValueSet-JDV-J17-ActiviteOperationnelle-ROR.html#/html/body/div/div/div/div/div/div/div/input/div/div/div/ul/li/table/tr/td/a at Line 374, column 124843: The link 'CodeSystem-TRE-R211-ActiviteOperationnelle.html#TRE-R211-ActiviteOperationnelle-575' for "575" cannot be resolved (valid targets: 595 targets)
+ERROR: /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/output/ValueSet-JDV-J17-ActiviteOperationnelle-ROR.html#/html/body/div/div/div/div/div/div/div/input/div/div/div/ul/li/table/tr/td/a at Line 374, column 125064: The link 'CodeSystem-TRE-R211-ActiviteOperationnelle.html#TRE-R211-ActiviteOperationnelle-576' for "576" cannot be resolved (valid targets: 595 targets)
+ERROR: /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/output/ValueSet-JDV-J17-ActiviteOperationnelle-ROR.html#/html/body/div/div/div/div/div/div/div/input/div/div/div/ul/li/table/tr/td/a at Line 374, column 125235: The link 'CodeSystem-TRE-R211-ActiviteOperationnelle.html#TRE-R211-ActiviteOperationnelle-577' for "577" cannot be resolved (valid targets: 595 targets)
+ERROR: /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/output/ValueSet-JDV-J17-ActiviteOperationnelle-ROR.html#/html/body/div/div/div/div/div/div/div/input/div/div/div/ul/li/table/tr/td/a at Line 374, column 125407: The link 'CodeSystem-TRE-R211-ActiviteOperationnelle.html#TRE-R211-ActiviteOperationnelle-578' for "578" cannot be resolved (valid targets: 595 targets)
+ERROR: /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/output/ValueSet-JDV-J17-ActiviteOperationnelle-ROR.html#/html/body/div/div/div/div/div/div/div/input/div/div/div/ul/li/table/tr/td/a at Line 374, column 125578: The link 'CodeSystem-TRE-R211-ActiviteOperationnelle.html#TRE-R211-ActiviteOperationnelle-579' for "579" cannot be resolved (valid targets: 595 targets)
+ERROR: /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/output/ValueSet-JDV-J17-ActiviteOperationnelle-ROR.html#/html/body/div/div/div/div/div/div/div/input/div/div/div/ul/li/table/tr/td/a at Line 374, column 125768: The link 'CodeSystem-TRE-R211-ActiviteOperationnelle.html#TRE-R211-ActiviteOperationnelle-580' for "580" cannot be resolved (valid targets: 595 targets)
+ERROR: /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/output/ValueSet-JDV-J17-ActiviteOperationnelle-ROR.html#/html/body/div/div/div/div/div/div/div/input/div/div/div/ul/li/table/tr/td/a at Line 374, column 126010: The link 'CodeSystem-TRE-R211-ActiviteOperationnelle.html#TRE-R211-ActiviteOperationnelle-581' for "581" cannot be resolved (valid targets: 595 targets)
+ERROR: /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/output/ValueSet-JDV-J18-EquipementSpecifique-ROR.html#/html/body/div/div/div/div/div/div/div/input/div/div/div/ul/li/table/tr/td/a at Line 374, column 24552: The link 'CodeSystem-TRE-R212-Equipement.html#TRE-R212-Equipement-228' for "228" cannot be resolved (valid targets: 249 targets)
 ERROR: /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/output/ValueSet-JDV-J258-Departement.html#/html/body/div/div/div/div/div/div/div/input/div/div/table/tr/td/a at Line 381, column 1052: The link 'CodeSystem-TRE-R60-AutoriteEnregistrement.html#TRE-R60-AutoriteEnregistrement-ValueSet-JDV-J170-AutoriteEnregistrement-EPARS.46html' for "ValueSet-JDV-J170-AutoriteEnregistrement-EPARS.html" cannot be resolved (valid targets: 67 targets)
 ERROR: /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/output/ValueSet-JDV-J258-Departement.html#/html/body/div/div/div/div/div/div/div/input/div/div/table/tr/td/a at Line 381, column 1624: The link 'CodeSystem-TRE-R60-AutoriteEnregistrement.html#TRE-R60-AutoriteEnregistrement-ValueSet-JDV-J170-AutoriteEnregistrement-EPARS.46html' for "ValueSet-JDV-J170-AutoriteEnregistrement-EPARS.html" cannot be resolved (valid targets: 67 targets)
 ERROR: /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/output/ValueSet-JDV-J258-Departement.html#/html/body/div/div/div/div/div/div/div/input/div/div/table/tr/td/a at Line 381, column 2197: The link 'CodeSystem-TRE-R60-AutoriteEnregistrement.html#TRE-R60-AutoriteEnregistrement-ValueSet-JDV-J170-AutoriteEnregistrement-EPARS.46html' for "ValueSet-JDV-J170-AutoriteEnregistrement-EPARS.html" cannot be resolved (valid targets: 67 targets)
@@ -4156,9 +4180,24 @@ WARNING: ValueSet/JDV-J168-Pays-EPARS: ValueSet: Published value sets SHOULD con
 == input/ontoserver/JDV/JDV_J169_MotifFinActivite_EPARS_JDV-J169-MotifFinActivite-EPARS.json ==
 WARNING: ValueSet/JDV-J169-MotifFinActivite-EPARS: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.title is mandatory, but it is not present
 == input/ontoserver/JDV/JDV_J16_ActeSpecifique_ROR_JDV-J16-ActeSpecifique-ROR.json ==
-INFORMATION: ValueSet/JDV-J16-ActeSpecifique-ROR: ValueSet.compose.include[0]: The value set include has too many codes to validate (1,142), so each individual code has not been checked
+INFORMATION: ValueSet/JDV-J16-ActeSpecifique-ROR: ValueSet.compose.include[0]: The value set include has too many codes to validate (1,155), so each individual code has not been checked
 WARNING: ValueSet/JDV-J16-ActeSpecifique-ROR: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.title is mandatory, but it is not present
 INFORMATION: ValueSet.where(id = 'JDV-J16-ActeSpecifique-ROR'): The value set expansion is too large, and only a subset has been displayed
+ERROR: ValueSet.text.div: Hyperlink 'CodeSystem-TRE-R210-ActeSpecifique.html#TRE-R210-ActeSpecifique-1496' at 'div/ul/li/table/tr/td/a' for '1496' does not resolve
+ERROR: ValueSet.text.div: Hyperlink 'CodeSystem-TRE-R210-ActeSpecifique.html#TRE-R210-ActeSpecifique-1497' at 'div/ul/li/table/tr/td/a' for '1497' does not resolve
+ERROR: ValueSet.text.div: Hyperlink 'CodeSystem-TRE-R210-ActeSpecifique.html#TRE-R210-ActeSpecifique-1498' at 'div/ul/li/table/tr/td/a' for '1498' does not resolve
+ERROR: ValueSet.text.div: Hyperlink 'CodeSystem-TRE-R210-ActeSpecifique.html#TRE-R210-ActeSpecifique-1499' at 'div/ul/li/table/tr/td/a' for '1499' does not resolve
+ERROR: ValueSet.text.div: Hyperlink 'CodeSystem-TRE-R210-ActeSpecifique.html#TRE-R210-ActeSpecifique-1500' at 'div/ul/li/table/tr/td/a' for '1500' does not resolve
+ERROR: ValueSet.text.div: Hyperlink 'CodeSystem-TRE-R210-ActeSpecifique.html#TRE-R210-ActeSpecifique-1501' at 'div/ul/li/table/tr/td/a' for '1501' does not resolve
+ERROR: ValueSet.text.div: Hyperlink 'CodeSystem-TRE-R210-ActeSpecifique.html#TRE-R210-ActeSpecifique-1502' at 'div/ul/li/table/tr/td/a' for '1502' does not resolve
+ERROR: ValueSet.text.div: Hyperlink 'CodeSystem-TRE-R210-ActeSpecifique.html#TRE-R210-ActeSpecifique-1503' at 'div/ul/li/table/tr/td/a' for '1503' does not resolve
+ERROR: ValueSet.text.div: Hyperlink 'CodeSystem-TRE-R210-ActeSpecifique.html#TRE-R210-ActeSpecifique-1504' at 'div/ul/li/table/tr/td/a' for '1504' does not resolve
+ERROR: ValueSet.text.div: Hyperlink 'CodeSystem-TRE-R210-ActeSpecifique.html#TRE-R210-ActeSpecifique-1505' at 'div/ul/li/table/tr/td/a' for '1505' does not resolve
+ERROR: ValueSet.text.div: Hyperlink 'CodeSystem-TRE-R210-ActeSpecifique.html#TRE-R210-ActeSpecifique-1506' at 'div/ul/li/table/tr/td/a' for '1506' does not resolve
+ERROR: ValueSet.text.div: Hyperlink 'CodeSystem-TRE-R210-ActeSpecifique.html#TRE-R210-ActeSpecifique-1507' at 'div/ul/li/table/tr/td/a' for '1507' does not resolve
+ERROR: ValueSet.text.div: Hyperlink 'CodeSystem-TRE-R210-ActeSpecifique.html#TRE-R210-ActeSpecifique-1508' at 'div/ul/li/table/tr/td/a' for '1508' does not resolve
+ERROR: ValueSet.text.div: Hyperlink 'CodeSystem-TRE-R210-ActeSpecifique.html#TRE-R210-ActeSpecifique-1509' at 'div/ul/li/table/tr/td/a' for '1509' does not resolve
+ERROR: ValueSet.text.div: Hyperlink 'CodeSystem-TRE-R210-ActeSpecifique.html#TRE-R210-ActeSpecifique-1510' at 'div/ul/li/table/tr/td/a' for '1510' does not resolve
 == input/ontoserver/JDV/JDV_J170_AutoriteEnregistrement_EPARS_JDV-J170-AutoriteEnregistrement-EPARS.json ==
 WARNING: ValueSet/JDV-J170-AutoriteEnregistrement-EPARS: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.title is mandatory, but it is not present
 == input/ontoserver/JDV/JDV_J171_TypeAutorisation_EPARS_JDV-J171-TypeAutorisation-EPARS.json ==
@@ -4176,7 +4215,23 @@ WARNING: ValueSet/JDV-J178-BesoinAideVieSociale-MDPH: ValueSet: Published value 
 == input/ontoserver/JDV/JDV_J179_BesoinCommunication_MDPH_JDV-J179-BesoinCommunication-MDPH.json ==
 WARNING: ValueSet/JDV-J179-BesoinCommunication-MDPH: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.title is mandatory, but it is not present
 == input/ontoserver/JDV/JDV_J17_ActiviteOperationnelle_ROR_JDV-J17-ActiviteOperationnelle-ROR.json ==
+WARNING: ValueSet/JDV-J17-ActiviteOperationnelle-ROR: ValueSet.compose.include[0].concept[494]: The code '574' is not valid in the system https://mos.esante.gouv.fr/NOS/TRE_R211-ActiviteOperationnelle/FHIR/TRE-R211-ActiviteOperationnelle (Unknown code '574' in the CodeSystem 'https://mos.esante.gouv.fr/NOS/TRE_R211-ActiviteOperationnelle/FHIR/TRE-R211-ActiviteOperationnelle' version '20250131120000')
+WARNING: ValueSet/JDV-J17-ActiviteOperationnelle-ROR: ValueSet.compose.include[0].concept[495]: The code '575' is not valid in the system https://mos.esante.gouv.fr/NOS/TRE_R211-ActiviteOperationnelle/FHIR/TRE-R211-ActiviteOperationnelle (Unknown code '575' in the CodeSystem 'https://mos.esante.gouv.fr/NOS/TRE_R211-ActiviteOperationnelle/FHIR/TRE-R211-ActiviteOperationnelle' version '20250131120000')
+WARNING: ValueSet/JDV-J17-ActiviteOperationnelle-ROR: ValueSet.compose.include[0].concept[496]: The code '576' is not valid in the system https://mos.esante.gouv.fr/NOS/TRE_R211-ActiviteOperationnelle/FHIR/TRE-R211-ActiviteOperationnelle (Unknown code '576' in the CodeSystem 'https://mos.esante.gouv.fr/NOS/TRE_R211-ActiviteOperationnelle/FHIR/TRE-R211-ActiviteOperationnelle' version '20250131120000')
+WARNING: ValueSet/JDV-J17-ActiviteOperationnelle-ROR: ValueSet.compose.include[0].concept[497]: The code '577' is not valid in the system https://mos.esante.gouv.fr/NOS/TRE_R211-ActiviteOperationnelle/FHIR/TRE-R211-ActiviteOperationnelle (Unknown code '577' in the CodeSystem 'https://mos.esante.gouv.fr/NOS/TRE_R211-ActiviteOperationnelle/FHIR/TRE-R211-ActiviteOperationnelle' version '20250131120000')
+WARNING: ValueSet/JDV-J17-ActiviteOperationnelle-ROR: ValueSet.compose.include[0].concept[498]: The code '578' is not valid in the system https://mos.esante.gouv.fr/NOS/TRE_R211-ActiviteOperationnelle/FHIR/TRE-R211-ActiviteOperationnelle (Unknown code '578' in the CodeSystem 'https://mos.esante.gouv.fr/NOS/TRE_R211-ActiviteOperationnelle/FHIR/TRE-R211-ActiviteOperationnelle' version '20250131120000')
+WARNING: ValueSet/JDV-J17-ActiviteOperationnelle-ROR: ValueSet.compose.include[0].concept[499]: The code '579' is not valid in the system https://mos.esante.gouv.fr/NOS/TRE_R211-ActiviteOperationnelle/FHIR/TRE-R211-ActiviteOperationnelle (Unknown code '579' in the CodeSystem 'https://mos.esante.gouv.fr/NOS/TRE_R211-ActiviteOperationnelle/FHIR/TRE-R211-ActiviteOperationnelle' version '20250131120000')
+WARNING: ValueSet/JDV-J17-ActiviteOperationnelle-ROR: ValueSet.compose.include[0].concept[500]: The code '580' is not valid in the system https://mos.esante.gouv.fr/NOS/TRE_R211-ActiviteOperationnelle/FHIR/TRE-R211-ActiviteOperationnelle (Unknown code '580' in the CodeSystem 'https://mos.esante.gouv.fr/NOS/TRE_R211-ActiviteOperationnelle/FHIR/TRE-R211-ActiviteOperationnelle' version '20250131120000')
+WARNING: ValueSet/JDV-J17-ActiviteOperationnelle-ROR: ValueSet.compose.include[0].concept[501]: The code '581' is not valid in the system https://mos.esante.gouv.fr/NOS/TRE_R211-ActiviteOperationnelle/FHIR/TRE-R211-ActiviteOperationnelle (Unknown code '581' in the CodeSystem 'https://mos.esante.gouv.fr/NOS/TRE_R211-ActiviteOperationnelle/FHIR/TRE-R211-ActiviteOperationnelle' version '20250131120000')
 WARNING: ValueSet/JDV-J17-ActiviteOperationnelle-ROR: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.title is mandatory, but it is not present
+ERROR: ValueSet.text.div: Hyperlink 'CodeSystem-TRE-R211-ActiviteOperationnelle.html#TRE-R211-ActiviteOperationnelle-574' at 'div/ul/li/table/tr/td/a' for '574' does not resolve
+ERROR: ValueSet.text.div: Hyperlink 'CodeSystem-TRE-R211-ActiviteOperationnelle.html#TRE-R211-ActiviteOperationnelle-575' at 'div/ul/li/table/tr/td/a' for '575' does not resolve
+ERROR: ValueSet.text.div: Hyperlink 'CodeSystem-TRE-R211-ActiviteOperationnelle.html#TRE-R211-ActiviteOperationnelle-576' at 'div/ul/li/table/tr/td/a' for '576' does not resolve
+ERROR: ValueSet.text.div: Hyperlink 'CodeSystem-TRE-R211-ActiviteOperationnelle.html#TRE-R211-ActiviteOperationnelle-577' at 'div/ul/li/table/tr/td/a' for '577' does not resolve
+ERROR: ValueSet.text.div: Hyperlink 'CodeSystem-TRE-R211-ActiviteOperationnelle.html#TRE-R211-ActiviteOperationnelle-578' at 'div/ul/li/table/tr/td/a' for '578' does not resolve
+ERROR: ValueSet.text.div: Hyperlink 'CodeSystem-TRE-R211-ActiviteOperationnelle.html#TRE-R211-ActiviteOperationnelle-579' at 'div/ul/li/table/tr/td/a' for '579' does not resolve
+ERROR: ValueSet.text.div: Hyperlink 'CodeSystem-TRE-R211-ActiviteOperationnelle.html#TRE-R211-ActiviteOperationnelle-580' at 'div/ul/li/table/tr/td/a' for '580' does not resolve
+ERROR: ValueSet.text.div: Hyperlink 'CodeSystem-TRE-R211-ActiviteOperationnelle.html#TRE-R211-ActiviteOperationnelle-581' at 'div/ul/li/table/tr/td/a' for '581' does not resolve
 == input/ontoserver/JDV/JDV_J180_BesoinEntretienPersonnel_MDPH_JDV-J180-BesoinEntretienPersonnel-MDPH.json ==
 WARNING: ValueSet/JDV-J180-BesoinEntretienPersonnel-MDPH: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.title is mandatory, but it is not present
 == input/ontoserver/JDV/JDV_J181_BesoinMobilite_MDPH_JDV-J181-BesoinMobilite-MDPH.json ==
@@ -4196,7 +4251,9 @@ WARNING: ValueSet/JDV-J188-TypeStatutCapacite-ROR: ValueSet: Published value set
 == input/ontoserver/JDV/JDV_J189_TemporaliteCapacite_ROR_JDV-J189-TemporaliteCapacite-ROR.json ==
 WARNING: ValueSet/JDV-J189-TemporaliteCapacite-ROR: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.title is mandatory, but it is not present
 == input/ontoserver/JDV/JDV_J18_EquipementSpecifique_ROR_JDV-J18-EquipementSpecifique-ROR.json ==
+WARNING: ValueSet/JDV-J18-EquipementSpecifique-ROR: ValueSet.compose.include[0].concept[151]: The code '228' is not valid in the system https://mos.esante.gouv.fr/NOS/TRE_R212-Equipement/FHIR/TRE-R212-Equipement (Unknown code '228' in the CodeSystem 'https://mos.esante.gouv.fr/NOS/TRE_R212-Equipement/FHIR/TRE-R212-Equipement' version '20250131120000')
 WARNING: ValueSet/JDV-J18-EquipementSpecifique-ROR: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.title is mandatory, but it is not present
+ERROR: ValueSet.text.div: Hyperlink 'CodeSystem-TRE-R212-Equipement.html#TRE-R212-Equipement-228' at 'div/ul/li/table/tr/td/a' for '228' does not resolve
 == input/ontoserver/JDV/JDV_J190_GenreCapacite_ROR_JDV-J190-GenreCapacite-ROR.json ==
 WARNING: ValueSet/JDV-J190-GenreCapacite-ROR: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.title is mandatory, but it is not present
 == input/ontoserver/JDV/JDV_J191_TypeFermetureCapacite_ROR_JDV-J191-TypeFermetureCapacite-ROR.json ==
@@ -5385,10 +5442,11 @@ ERROR: ValueSet.text.div: Hyperlink 'CodeSystem-1.2.250.1.213.1.1.4.322.html#1.2
 == input/ontoserver/JDV/JDV_RessourceUtilisee_CISIS_1.2.250.1.213.1.1.5.807.json ==
 == input/ontoserver/JDV/JDV_ResultatComparaison_CISIS_1.2.250.1.213.1.1.5.649.json ==
 == input/ontoserver/JDV/JDV_ResultatDepistageAcideAscorbique_CISIS_1.2.250.1.213.1.1.5.783.json ==
-WARNING: ValueSet/1.2.250.1.213.1.1.5.783: ValueSet.compose.include[0].concept[1]: The code '1345200000' is not valid in the system http://snomed.info/sct (Unknown code '1345200000' in the CodeSystem 'http://snomed.info/sct' version 'http://snomed.info/sct/11000315107/version/20240621')
-WARNING: ValueSet/1.2.250.1.213.1.1.5.783: ValueSet.compose.include[0].concept[2]: The code '1345201001' is not valid in the system http://snomed.info/sct (Unknown code '1345201001' in the CodeSystem 'http://snomed.info/sct' version 'http://snomed.info/sct/11000315107/version/20240621')
+ERROR: ValueSet/1.2.250.1.213.1.1.5.783: ValueSet.compose.include[0].concept[1]: Error from https://smt.esante.gouv.fr/fhir: 502 Bad Gateway Bad Gateway The proxy server received an invalid response from an upstream server.
 == input/ontoserver/JDV/JDV_ResultatDepistageBilirubinemie_CISIS_1.2.250.1.213.1.1.5.773.json ==
+ERROR: ValueSet/1.2.250.1.213.1.1.5.773: ValueSet.compose.include[0].concept[1]: Error from https://smt.esante.gouv.fr/fhir: 502 Bad Gateway Bad Gateway The proxy server received an invalid response from an upstream server.
 == input/ontoserver/JDV/JDV_ResultatDepistageBilirubinurie_CISIS_1.2.250.1.213.1.1.5.778.json ==
+ERROR: ValueSet/1.2.250.1.213.1.1.5.778: ValueSet.compose.include[0].concept[1]: Error from https://smt.esante.gouv.fr/fhir: 502 Bad Gateway Bad Gateway The proxy server received an invalid response from an upstream server.
 == input/ontoserver/JDV/JDV_ResultatDepistageCRP_CISIS_1.2.250.1.213.1.1.5.771.json ==
 WARNING: ValueSet/1.2.250.1.213.1.1.5.771: ValueSet.compose.include[0]: Unknown System 'urn:oid:2.16.840.1.113883.6.96' specified, so Concepts and Filters can't be checked (Details: A definition for CodeSystem 'urn:oid:2.16.840.1.113883.6.96' could not be found, so the code cannot be validated)
 WARNING: ValueSet.where(id = '1.2.250.1.213.1.1.5.771'): Error from http://tx.fhir.org/r4: Unable to provide support for code system urn:oid:2.16.840.1.113883.6.96
@@ -5396,12 +5454,11 @@ WARNING: ValueSet.where(id = '1.2.250.1.213.1.1.5.771'): Error from http://tx.fh
 == input/ontoserver/JDV/JDV_ResultatDepistageCholesterol_CISIS_1.2.250.1.213.1.1.5.770.json ==
 == input/ontoserver/JDV/JDV_ResultatDepistageCorpsCetoniques_CISIS_1.2.250.1.213.1.1.5.776.json ==
 == input/ontoserver/JDV/JDV_ResultatDepistageGlucose_CISIS_1.2.250.1.213.1.1.5.777.json ==
+ERROR: ValueSet/1.2.250.1.213.1.1.5.777: ValueSet.compose.include[0].concept[1]: Error from https://smt.esante.gouv.fr/fhir: 502 Bad Gateway Bad Gateway The proxy server received an invalid response from an upstream server.
 == input/ontoserver/JDV/JDV_ResultatDepistageGlycemie_CISIS_1.2.250.1.213.1.1.5.768.json ==
+ERROR: ValueSet/1.2.250.1.213.1.1.5.768: ValueSet.compose.include[0].concept[1]: Error from https://smt.esante.gouv.fr/fhir: 502 Bad Gateway Bad Gateway The proxy server received an invalid response from an upstream server.
 == input/ontoserver/JDV/JDV_ResultatDepistageHematurie_CISIS_1.2.250.1.213.1.1.5.781.json ==
-WARNING: ValueSet/1.2.250.1.213.1.1.5.781: ValueSet.compose.include[0].concept[2]: The code '1348270000' is not valid in the system http://snomed.info/sct (Unknown code '1348270000' in the CodeSystem 'http://snomed.info/sct' version 'http://snomed.info/sct/11000315107/version/20240621')
-WARNING: ValueSet/1.2.250.1.213.1.1.5.781: ValueSet.compose.include[0].concept[4]: The code '1348319007' is not valid in the system http://snomed.info/sct (Unknown code '1348319007' in the CodeSystem 'http://snomed.info/sct' version 'http://snomed.info/sct/11000315107/version/20240621')
-WARNING: ValueSet/1.2.250.1.213.1.1.5.781: ValueSet.compose.include[0].concept[5]: The code '1348318004' is not valid in the system http://snomed.info/sct (Unknown code '1348318004' in the CodeSystem 'http://snomed.info/sct' version 'http://snomed.info/sct/11000315107/version/20240621')
-WARNING: ValueSet/1.2.250.1.213.1.1.5.781: ValueSet.compose.include[0].concept[6]: The code '1348320001' is not valid in the system http://snomed.info/sct (Unknown code '1348320001' in the CodeSystem 'http://snomed.info/sct' version 'http://snomed.info/sct/11000315107/version/20240621')
+ERROR: ValueSet/1.2.250.1.213.1.1.5.781: ValueSet.compose.include[0].concept[1]: Error from https://smt.esante.gouv.fr/fhir: 502 Bad Gateway Bad Gateway The proxy server received an invalid response from an upstream server.
 == input/ontoserver/JDV/JDV_ResultatDepistageLeucocyturie_CISIS_1.2.250.1.213.1.1.5.782.json ==
 == input/ontoserver/JDV/JDV_ResultatDepistageNitriturie_CISIS_1.2.250.1.213.1.1.5.780.json ==
 == input/ontoserver/JDV/JDV_ResultatDepistageProteinurie_CISIS_1.2.250.1.213.1.1.5.775.json ==
@@ -5421,6 +5478,8 @@ WARNING: ValueSet.where(id = '1.2.250.1.213.1.1.5.816'): Error from http://tx.fh
 == input/ontoserver/JDV/JDV_ResultatExamenCytologiqueCCU_CISIS_1.2.250.1.213.1.1.5.721.json ==
 == input/ontoserver/JDV/JDV_ResultatQuestionEvaluation_CISIS_1.2.250.1.213.1.1.5.817.json ==
 == input/ontoserver/JDV/JDV_ResultatRechercheHPVCCU_CISIS_1.2.250.1.213.1.1.5.720.json ==
+WARNING: ValueSet/1.2.250.1.213.1.1.5.720: ValueSet.compose.include[0].concept[0]: The code '77851000146104' is not valid in the system http://snomed.info/sct (Error from https://smt.esante.gouv.fr/fhir: 502 Bad Gateway Bad Gateway The proxy server received an invalid response from an upstream server.)
+INFORMATION: ValueSet/1.2.250.1.213.1.1.5.720: ValueSet.compose.include[0].concept[0]: Error from https://smt.esante.gouv.fr/fhir: 502 Bad Gateway Bad Gateway The proxy server received an invalid response from an upstream server.
 == input/ontoserver/JDV/JDV_RisquePourEntourage_CISIS_1.2.250.1.213.1.1.5.135.json ==
 == input/ontoserver/JDV/JDV_RisquePourUsager_CISIS_1.2.250.1.213.1.1.5.134.json ==
 == input/ontoserver/JDV/JDV_RouteofAdministration_CISIS_1.2.250.1.213.1.1.5.677.json ==
@@ -5690,6 +5749,7 @@ WARNING: ValueSet/1.2.250.1.213.1.1.5.429: ValueSet.compose.include[0]: Unknown 
 == input/ontoserver/JDV/JDV_SignesVitaux_CS8_CISIS_1.2.250.1.213.1.1.5.703.json ==
 == input/ontoserver/JDV/JDV_SignesVitaux_CS9_CISIS_1.2.250.1.213.1.1.5.709.json ==
 == input/ontoserver/JDV/JDV_SiteIntervention_CISIS_1.2.250.1.213.1.1.5.169.json ==
+ERROR: ValueSet/1.2.250.1.213.1.1.5.169: ValueSet.compose.include[0].concept[1]: Error from https://smt.esante.gouv.fr/fhir: 502 Bad Gateway Bad Gateway The proxy server received an invalid response from an upstream server.
 == input/ontoserver/JDV/JDV_SituationMedicale_CISIS_1.2.250.1.213.1.1.5.230.json ==
 == input/ontoserver/JDV/JDV_SocialHistoryCodes_CISIS_1.2.250.1.213.1.1.4.2.283.4.json ==
 == input/ontoserver/JDV/JDV_SoinsOncoDeSupport_CISIS_1.2.250.1.213.1.1.5.79.json ==
@@ -5698,11 +5758,19 @@ ERROR: ValueSet/1.2.250.1.213.1.1.5.756: ValueSet.compose.include[0]: URI values
 WARNING: ValueSet/1.2.250.1.213.1.1.5.756: ValueSet.compose.include[0]: Unknown System '1.2.250.1.215.300.1' specified, so Concepts and Filters can't be checked (Details: A definition for CodeSystem '1.2.250.1.215.300.1' could not be found, so the code cannot be validated)
 WARNING: ValueSet.where(id = '1.2.250.1.213.1.1.5.756'): Error from http://tx.fhir.org/r4: Unable to provide support for code system 1.2.250.1.215.300.1
 == input/ontoserver/JDV/JDV_StatutActuelDiagnostic_CISIS_1.2.250.1.213.1.1.5.45.json ==
+WARNING: ValueSet/1.2.250.1.213.1.1.5.45: ValueSet.compose.include[0].concept[0]: The code '385651009' is not valid in the system http://snomed.info/sct (Error from https://smt.esante.gouv.fr/fhir: 502 Bad Gateway Bad Gateway The proxy server received an invalid response from an upstream server.)
+INFORMATION: ValueSet/1.2.250.1.213.1.1.5.45: ValueSet.compose.include[0].concept[0]: Error from https://smt.esante.gouv.fr/fhir: 502 Bad Gateway Bad Gateway The proxy server received an invalid response from an upstream server.
 INFORMATION: ValueSet/1.2.250.1.213.1.1.5.45: ValueSet.compose.include[0]: This SNOMED-CT based include has some concepts with semantic tags (FSN terms) and some without (preferred terms) - check that this is what is intended (examples for FSN: [porteur(-euse) sain(e)] and examples for no FSN: [en cours d'exécution, équivoque, diagnostic définitif, réfuté])
 == input/ontoserver/JDV/JDV_StatutCasPresente_CISIS_1.2.250.1.213.1.1.4.2.281.17.json ==
 == input/ontoserver/JDV/JDV_StatutDocPPSPAERPA_CISIS_1.2.250.1.213.1.1.5.32.json ==
+WARNING: ValueSet/1.2.250.1.213.1.1.5.32: ValueSet.compose.include[0].concept[0]: The code '385651009' is not valid in the system http://snomed.info/sct (Error from https://smt.esante.gouv.fr/fhir: 502 Bad Gateway Bad Gateway The proxy server received an invalid response from an upstream server.)
+INFORMATION: ValueSet/1.2.250.1.213.1.1.5.32: ValueSet.compose.include[0].concept[0]: Error from https://smt.esante.gouv.fr/fhir: 502 Bad Gateway Bad Gateway The proxy server received an invalid response from an upstream server.
 == input/ontoserver/JDV/JDV_StatutDoc_CISIS_1.2.250.1.213.1.1.5.93.json ==
+WARNING: ValueSet/1.2.250.1.213.1.1.5.93: ValueSet.compose.include[0].concept[0]: The code '385651009' is not valid in the system http://snomed.info/sct (Error from https://smt.esante.gouv.fr/fhir: 502 Bad Gateway Bad Gateway The proxy server received an invalid response from an upstream server.)
+INFORMATION: ValueSet/1.2.250.1.213.1.1.5.93: ValueSet.compose.include[0].concept[0]: Error from https://smt.esante.gouv.fr/fhir: 502 Bad Gateway Bad Gateway The proxy server received an invalid response from an upstream server.
+ERROR: ValueSet/1.2.250.1.213.1.1.5.93: ValueSet.compose.include[0].concept[1]: Error from https://smt.esante.gouv.fr/fhir: 502 Bad Gateway Bad Gateway The proxy server received an invalid response from an upstream server. The proxy server could not handle the requestReason: Error reading from remote server
 == input/ontoserver/JDV/JDV_StatutEvt_CISIS_1.2.250.1.213.1.1.5.165.json ==
+ERROR: ValueSet/1.2.250.1.213.1.1.5.165: ValueSet.compose.include[0].concept[1]: Error from https://smt.esante.gouv.fr/fhir: 502 Bad Gateway Bad Gateway The proxy server received an invalid response from an upstream server.
 == input/ontoserver/JDV/JDV_StatutGrossesse_CISIS_1.2.250.1.213.1.1.5.671.json ==
 == input/ontoserver/JDV/JDV_StatutQuorum_CISIS_1.2.250.1.213.1.1.4.2.281.16.json ==
 == input/ontoserver/JDV/JDV_StatutResultat_CISIS_1.2.250.1.213.1.1.5.96.json ==
@@ -5719,6 +5787,8 @@ ERROR: ValueSet.text.div: Hyperlink 'CodeSystem-1.2.250.1.213.1.1.4.322.html#1.2
 == input/ontoserver/JDV/JDV_SupportNutritionnel_CISIS_1.2.250.1.213.1.1.5.487.json ==
 == input/ontoserver/JDV/JDV_SymptomesAVC_CISIS_1.2.250.1.213.1.1.5.157.json ==
 WARNING: ValueSet/1.2.250.1.213.1.1.5.157: ValueSet.compose.include[0]: Unknown System 'http://terminology.hl7.org/CodeSystem/icd10' specified, so Concepts and Filters can't be checked (Details: A definition for CodeSystem 'http://terminology.hl7.org/CodeSystem/icd10' could not be found, so the code cannot be validated)
+WARNING: ValueSet/1.2.250.1.213.1.1.5.157: ValueSet.compose.include[1].concept[0]: The code '85972008' is not valid in the system http://snomed.info/sct (Error from https://smt.esante.gouv.fr/fhir: 502 Bad Gateway Bad Gateway The proxy server received an invalid response from an upstream server.)
+INFORMATION: ValueSet/1.2.250.1.213.1.1.5.157: ValueSet.compose.include[1].concept[0]: Error from https://smt.esante.gouv.fr/fhir: 502 Bad Gateway Bad Gateway The proxy server received an invalid response from an upstream server.
 WARNING: ValueSet.where(id = '1.2.250.1.213.1.1.5.157'): Error from http://tx.fhir.org/r4: Unable to provide support for code system http://terminology.hl7.org/CodeSystem/icd10
 == input/ontoserver/JDV/JDV_TNM_pTNM_pM_1_CISIS_1.2.250.1.213.1.1.5.579.json ==
 == input/ontoserver/JDV/JDV_TNM_pTNM_pM_2_CISIS_1.2.250.1.213.1.1.5.522.json ==
@@ -5733,6 +5803,8 @@ ERROR: /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSou
 == input/ontoserver/JDV/JDV_TNM_pTNM_pT_3_CISIS_1.2.250.1.213.1.1.5.523.json ==
 == input/ontoserver/JDV/JDV_TNM_pTNM_pT_CISIS_1.2.250.1.213.1.1.5.572.json ==
 == input/ontoserver/JDV/JDV_Taille_CISIS_1.2.250.1.213.1.1.5.50.json ==
+WARNING: ValueSet/1.2.250.1.213.1.1.5.50: ValueSet.compose.include[0].concept[0]: The code '255509001' is not valid in the system http://snomed.info/sct (Error from https://smt.esante.gouv.fr/fhir: 502 Bad Gateway Bad Gateway The proxy server received an invalid response from an upstream server.)
+INFORMATION: ValueSet/1.2.250.1.213.1.1.5.50: ValueSet.compose.include[0].concept[0]: Error from https://smt.esante.gouv.fr/fhir: 502 Bad Gateway Bad Gateway The proxy server received an invalid response from an upstream server.
 == input/ontoserver/JDV/JDV_TechniqueBiologie_CISIS_1.2.250.1.213.1.1.5.789.json ==
 ERROR: ValueSet/1.2.250.1.213.1.1.5.789: ValueSet.compose.include[0]: URI values in ValueSet.compose.include.system must be absolute
 WARNING: ValueSet/1.2.250.1.213.1.1.5.789: ValueSet.compose.include[0]: Unknown System '1.2.250.1.213.2.3.5' specified, so Concepts and Filters can't be checked (Details: A definition for CodeSystem '1.2.250.1.213.2.3.5' could not be found, so the code cannot be validated)
@@ -5805,6 +5877,9 @@ WARNING: ValueSet/1.2.250.1.213.1.1.5.162: ValueSet.compose.include[0]: Unknown 
 WARNING: ValueSet.where(id = '1.2.250.1.213.1.1.5.162'): Error from http://tx.fhir.org/r4: Unable to provide support for code system urn:oid:2.16.840.1.113883.6.96
 == input/ontoserver/JDV/JDV_Traite_NonTraite_CISIS_1.2.250.1.213.1.1.5.682.json ==
 == input/ontoserver/JDV/JDV_TraitementPreventif_CISIS_1.2.250.1.213.1.1.5.55.json ==
+WARNING: ValueSet/1.2.250.1.213.1.1.5.55: ValueSet.compose.include[0].concept[0]: The code '306805000' is not valid in the system http://snomed.info/sct (Error from https://smt.esante.gouv.fr/fhir: 502 Bad Gateway Bad Gateway The proxy server received an invalid response from an upstream server.)
+INFORMATION: ValueSet/1.2.250.1.213.1.1.5.55: ValueSet.compose.include[0].concept[0]: Error from https://smt.esante.gouv.fr/fhir: 502 Bad Gateway Bad Gateway The proxy server received an invalid response from an upstream server.
+ERROR: ValueSet/1.2.250.1.213.1.1.5.55: ValueSet.compose.include[0].concept[1]: Error from https://smt.esante.gouv.fr/fhir: 502 Bad Gateway Bad Gateway The proxy server received an invalid response from an upstream server.
 == input/ontoserver/JDV/JDV_TraitementSoinsRCP_CISIS_1.2.250.1.213.1.1.4.2.281.18.json ==
 WARNING: ValueSet/1.2.250.1.213.1.1.4.2.281.18: ValueSet.compose.include[0].concept[0]: The code 'MED-053' is not valid in the system https://smt.esante.gouv.fr/fhir/CodeSystem/1.2.250.1.213.1.1.4.322 (Unknown code 'MED-053' in the CodeSystem 'https://smt.esante.gouv.fr/fhir/CodeSystem/1.2.250.1.213.1.1.4.322' version '202503040000')
 INFORMATION: ValueSet/1.2.250.1.213.1.1.4.2.281.18: ValueSet.compose.include[0].concept[0]: Unknown code 'MED-053' in the CodeSystem 'https://smt.esante.gouv.fr/fhir/CodeSystem/1.2.250.1.213.1.1.4.322' version '202503040000'
