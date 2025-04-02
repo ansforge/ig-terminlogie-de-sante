@@ -2523,7 +2523,7 @@
     {
       "url" : "https://mos.esante.gouv.fr/NOS/JDV_J280-CIM10ATIH-UPNOS/FHIR/JDV-J280-CIM10ATIH-UPNOS",
       "version" : "20250131120000",
-      "status" : "active",
+      "status" : "retired",
       "name" : "JDV_J280_CIM10ATIH_UPNOS",
       "title" : null,
       "description" : "Termes CIM 10 utilisés",
