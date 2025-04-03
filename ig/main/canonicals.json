@@ -35,7 +35,7 @@
     "id" : "ans.fr.terminologies",
     "type" : "ImplementationGuide",
     "url" : "https://interop.esante.gouv.fr/terminologies/ImplementationGuide/ans.fr.terminologies",
-    "version" : "0.1.0",
+    "version" : "0.1.0-ballot",
     "name" : "Terminologies"
   },
   {
@@ -2800,7 +2800,7 @@
     "id" : "TRE-R211-ActiviteOperationnelle",
     "type" : "CodeSystem",
     "url" : "https://mos.esante.gouv.fr/NOS/TRE_R211-ActiviteOperationnelle/FHIR/TRE-R211-ActiviteOperationnelle",
-    "version" : "20250131120000",
+    "version" : "20250328120000",
     "name" : "TRE_R211_ActiviteOperationnelle",
     "oids" : ["1.2.250.1.213.3.3.12"]
   },
@@ -2808,7 +2808,7 @@
     "id" : "TRE-R212-Equipement",
     "type" : "CodeSystem",
     "url" : "https://mos.esante.gouv.fr/NOS/TRE_R212-Equipement/FHIR/TRE-R212-Equipement",
-    "version" : "20250131120000",
+    "version" : "20250328120000",
     "name" : "TRE_R212_Equipement",
     "oids" : ["1.2.250.1.213.3.3.10"]
   },
@@ -11481,7 +11481,7 @@
     "id" : "terminologie-bdpm",
     "type" : "CodeSystem",
     "url" : "https://smt.esante.gouv.fr/terminologie-bdpm",
-    "version" : "2025-03-04",
+    "version" : "2025-04-01",
     "name" : "BDPM"
   },
   {

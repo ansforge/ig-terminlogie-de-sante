@@ -1,5 +1,5 @@
 <OID>;<Type fichier>;<Nom fichier>;<Description>;<URL fichier>;<Date valid>;<Date fin>;<Date MAJ>
-1.2.250.1.213.3.3.10;TRE;TRE_R212_Equipement.tabs;Equipement;https://mos.esante.gouv.fr/NOS/TRE_R212-Equipement;20150325000000;;20250131120000
+1.2.250.1.213.3.3.10;TRE;TRE_R212_Equipement.tabs;Equipement;https://mos.esante.gouv.fr/NOS/TRE_R212-Equipement;20150325000000;;20250328120000
 <OID>;<Code>;<Libellé adapté>;<Libellé court>;<Libellé long>;<Date valid>;<Date fin>;<Date MAJ> 
 1.2.250.1.213.3.3.10;001;Angiographie biplan rotationnelle (reconstruction scanner integrée);Angiographie biplan rotationnelle (reconstruction scanner integrée);Angiographie biplan rotationnelle (reconstruction scanner integrée);20150408000000;20180126120000;20180126120000
 1.2.250.1.213.3.3.10;002;Angiographie monoplan;Angiographie monoplan;Angiographie monoplan;20150408000000;20180126120000;20180126120000
@@ -104,12 +104,12 @@
 1.2.250.1.213.3.3.10;101;Salle de stimulation multi-sensorielle;Salle de stimulation multi-sensorielle;Salle de stimulation multi-sensorielle;20170707100000;;20171013120000
 1.2.250.1.213.3.3.10;102;Appareil d'isocinétisme;Appareil d'isocinétisme;Appareil d'isocinétisme;20170707100000;;20171013120000
 1.2.250.1.213.3.3.10;103;Assistant robotisé à la marche;Assistant robotisé à la marche;Assistant robotisé à la marche;20170707100000;;20241025120000
-1.2.250.1.213.3.3.10;104;Assistant robotisé des membres supérieurs et de la préhension;Assistant robotisé des membres supérieurs et de la préhension;Assistant robotisé des membres supérieurs et de la préhension;20170707100000;;20241025120000
+1.2.250.1.213.3.3.10;104;Assistant robotisé des membres supérieurs et de la préhension;Assistant robotisé des membres supérieurs et de la préhension;Assistant robotisé des membres supérieurs et de la préhension;20170707100000;;20250328120000
 1.2.250.1.213.3.3.10;105;Atelier d'appareillage;Atelier d'appareillage;Atelier d'appareillage;20170707100000;20181214120000;20181214120000
-1.2.250.1.213.3.3.10;106;Laboratoire d'analyse tridimensionnelle du mouvement, de la marche;Laboratoire d'analyse tridimensionnelle du mouvement, de la marche;Laboratoire d'analyse tridimensionnelle du mouvement, de la marche;20170707100000;;20241025120000
+1.2.250.1.213.3.3.10;106;Laboratoire d'analyse tridimensionnelle du mouvement, de la marche;Laboratoire d'analyse tridimensionnelle du mouvement, de la marche;Laboratoire d'analyse tridimensionnelle du mouvement, de la marche;20170707100000;;20250328120000
 1.2.250.1.213.3.3.10;107;Salle réa avec scopes, défibrillateur, matériel d'intub et ventil assistée;Salle réa avec scopes, défibrillateur, matériel d'intub et ventil assistée;Salle de réanimation avec scopes, défibrillateur, matériel d'intubation et de ventilation assistée;20170707100000;20240628120000;20240628120000
 1.2.250.1.213.3.3.10;108;Hotte à flux laminaire;Hotte à flux laminaire;Hotte à flux laminaire;20170707100000;20240628120000;20240628120000
-1.2.250.1.213.3.3.10;109;Equipement de réadaptation pour obésité massive;Equipement de réadaptation pour obésité massive;Equipement de réadaptation pour obésité massive;20170707100000;;20241213120000
+1.2.250.1.213.3.3.10;109;Equipement de réadaptation obésité – bariatrique;Equipement de réadaptation obésité – bariatrique;Equipement de réadaptation obésité – bariatrique;20170707100000;;20250328120000
 1.2.250.1.213.3.3.10;110;Studio pré-greffe et post-greffe;Studio pré-greffe et post-greffe;Studio pré-greffe et post-greffe;20170707100000;;20171013120000
 1.2.250.1.213.3.3.10;111;Douche filiforme pour brûlés;Douche filiforme pour brûlés;Douche filiforme pour brûlés;20170707100000;;20171013120000
 1.2.250.1.213.3.3.10;112;Equipement pour monitorage par télémétrie;Equipement pour monitorage par télémétrie;Equipement pour monitorage par télémétrie;20170707100000;;20171013120000
@@ -120,8 +120,8 @@
 1.2.250.1.213.3.3.10;117;Echographe cardiaque;Echographe cardiaque;Echographe cardiaque;20170707100000;20180126120000;20180126120000
 1.2.250.1.213.3.3.10;118;Monitoring cardiaque portatif;Monitoring cardiaque portatif;Monitoring cardiaque portatif;20170707100000;;20181026120000
 1.2.250.1.213.3.3.10;119;Plateau technique neuropsycho cognitif;Plateau technique neuropsycho cognitif;Plateau technique neuropsycho cognitif;20170707100000;;20180629120000
-1.2.250.1.213.3.3.10;120;Plateau de simulation de conduite automobile;Plateau de simulation de conduite automobile;Plateau de simulation de conduite automobile;20170707100000;;20171013120000
-1.2.250.1.213.3.3.10;121;Véhicules adaptés à la conduite en situation de handicap;Véhicules adaptés à la conduite en situation de handicap;Véhicules adaptés à la conduite en situation de handicap;20170707100000;;20171013120000
+1.2.250.1.213.3.3.10;120;Simulateur de conduite automobile;Simulateur de conduite automobile;Simulateur de conduite automobile;20170707100000;;20250328120000
+1.2.250.1.213.3.3.10;121;Véhicules adaptés à la conduite en situation de handicap;Véhicules adaptés à la conduite en situation de handicap;Véhicules adaptés à la conduite en situation de handicap;20170707100000;;20250328120000
 1.2.250.1.213.3.3.10;122;Mur d'escalade;Mur d'escalade;Mur d'escalade;20170707100000;;20171013120000
 1.2.250.1.213.3.3.10;123;Chambre domotisée;Chambre domotisée;Chambre domotisée;20170707100000;;20180531120000
 1.2.250.1.213.3.3.10;124;Atelier de confection de prothèses;Atelier de confection de prothèses;Atelier de confection de prothèses;20170707100000;;20171013120000
@@ -228,3 +228,4 @@
 1.2.250.1.213.3.3.10;225;Chambre adaptée obésité – bariatrique;Chambre adaptée obésité – bariatrique;Chambre adaptée obésité – bariatrique;20250131120000;;20250131120000
 1.2.250.1.213.3.3.10;226;Table de radiologie interventionnelle obésité – bariatrique;Table de radiologie interventionnelle obésité – bariatrique;Table de radiologie interventionnelle obésité – bariatrique;20250131120000;;20250131120000
 1.2.250.1.213.3.3.10;227;Table de bloc opératoire obésité – bariatrique;Table de bloc opératoire obésité – bariatrique;Table de bloc opératoire obésité – bariatrique;20250131120000;;20250131120000
+1.2.250.1.213.3.3.10;228;Plateau de rééducation intensive des membres inférieurs;Plateau de rééducation intensive des membres inférieurs;Plateau de rééducation intensive des membres inférieurs;20250328120000;;20250328120000

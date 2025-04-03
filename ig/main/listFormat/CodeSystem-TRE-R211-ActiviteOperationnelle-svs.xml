@@ -2,7 +2,7 @@
 <RetrieveValueSetResponse xmlns="urn:ihe:iti:svs:2008"
                           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
    <ValueSet dateFin=""
-             dateMaj="20250131120000"
+             dateMaj="20250328120000"
              dateValid="20150408000000"
              description="Activite Operationnelle"
              displayName="TRE_R211_ActiviteOperationnelle"
@@ -17,7 +17,7 @@
                   dateValid="20150408000000"
                   displayName="Addictologie comportementale (sans substance)"
                   longDesignation="Addictologie comportementale (sans substance)"
-                  shortDesignation="1"
+                  shortDesignation="Addictologie comportementale (sans substance)"
                   descriptionMetier="Branche de la médecine qui étudie la difficulté ou l'impossibilité de contrôler un comportement malgré ses conséquences. Elle comprend les addictions aux jeux d'argent, aux jeux vidéo, aux écrans, à Internet, à la nourriture et au sexe."/>
          <concept code="002"
                   codeSystem="1.2.250.1.213.3.3.12"
@@ -26,7 +26,7 @@
                   dateValid="20150408000000"
                   displayName="Addictologie sans précision"
                   longDesignation="Addictologie sans précision"
-                  shortDesignation="2"
+                  shortDesignation="Addictologie sans précision"
                   descriptionMetier=""/>
          <concept code="003"
                   codeSystem="1.2.250.1.213.3.3.12"
@@ -35,7 +35,7 @@
                   dateValid="20150408000000"
                   displayName="Alcoologie"
                   longDesignation="Alcoologie"
-                  shortDesignation="3"
+                  shortDesignation="Alcoologie"
                   descriptionMetier="Branche de la médecine qui étudie les causes et les effets de la consommation d'alcool par l'être humain."/>
          <concept code="004"
                   codeSystem="1.2.250.1.213.3.3.12"
@@ -44,7 +44,7 @@
                   dateValid="20150408000000"
                   displayName="Algologie et Médecine de la douleur"
                   longDesignation="Algologie et Médecine de la douleur"
-                  shortDesignation="4"
+                  shortDesignation="Algologie et Médecine de la douleur"
                   descriptionMetier=""/>
          <concept code="005"
                   codeSystem="1.2.250.1.213.3.3.12"
@@ -53,7 +53,7 @@
                   dateValid="20150408000000"
                   displayName="Allergologie"
                   longDesignation="Allergologie"
-                  shortDesignation="5"
+                  shortDesignation="Allergologie"
                   descriptionMetier=""/>
          <concept code="006"
                   codeSystem="1.2.250.1.213.3.3.12"
@@ -62,7 +62,7 @@
                   dateValid="20150408000000"
                   displayName="Andrologie"
                   longDesignation="Andrologie"
-                  shortDesignation="6"
+                  shortDesignation="Andrologie"
                   descriptionMetier=""/>
          <concept code="007"
                   codeSystem="1.2.250.1.213.3.3.12"
@@ -71,7 +71,7 @@
                   dateValid="20150408000000"
                   displayName="Anesthésie et Médecine périopératoire"
                   longDesignation="Anesthésie et Médecine périopératoire"
-                  shortDesignation="7"
+                  shortDesignation="Anesthésie et Médecine périopératoire"
                   descriptionMetier="Branche de la médecine qui permet de réaliser des interventions chirurgicales dans les meilleures conditions de confort et de sécurité pour le patient par la perte locale ou générale de la sensibilité à la douleur produite par un agent anesthésique et qui s'étend de la consultation pré-anesthésique (CPA) à la fin de la surveillance après l'intervention."/>
          <concept code="008"
                   codeSystem="1.2.250.1.213.3.3.12"
@@ -80,7 +80,7 @@
                   dateValid="20150408000000"
                   displayName="Assistance circulatoire (UMAC)"
                   longDesignation="Assistance circulatoire (UMAC)"
-                  shortDesignation="8"
+                  shortDesignation="Assistance circulatoire (UMAC)"
                   descriptionMetier=""/>
          <concept code="009"
                   codeSystem="1.2.250.1.213.3.3.12"
@@ -89,7 +89,7 @@
                   dateValid="20150408000000"
                   displayName="Biochimie"
                   longDesignation="Biochimie"
-                  shortDesignation="9"
+                  shortDesignation="Biochimie"
                   descriptionMetier=""/>
          <concept code="010"
                   codeSystem="1.2.250.1.213.3.3.12"
@@ -98,7 +98,7 @@
                   dateValid="20150408000000"
                   displayName="Biologie du développement et de la reproduction"
                   longDesignation="Biologie du développement et de la reproduction"
-                  shortDesignation="10"
+                  shortDesignation="Biologie du développement et de la reproduction"
                   descriptionMetier=""/>
          <concept code="011"
                   codeSystem="1.2.250.1.213.3.3.12"
@@ -107,7 +107,7 @@
                   dateValid="20150408000000"
                   displayName="Biostatistique et Informatique médicale"
                   longDesignation="Biostatistique et Informatique médicale"
-                  shortDesignation="11"
+                  shortDesignation="Biostatistique et Informatique médicale"
                   descriptionMetier=""/>
          <concept code="012"
                   codeSystem="1.2.250.1.213.3.3.12"
@@ -116,7 +116,7 @@
                   dateValid="20150408000000"
                   displayName="Brûlés"
                   longDesignation="Brûlés"
-                  shortDesignation="12"
+                  shortDesignation="Brûlés"
                   descriptionMetier=""/>
          <concept code="013"
                   codeSystem="1.2.250.1.213.3.3.12"
@@ -125,7 +125,7 @@
                   dateValid="20150408000000"
                   displayName="Cardiologie générale"
                   longDesignation="Cardiologie générale"
-                  shortDesignation="13"
+                  shortDesignation="Cardiologie générale"
                   descriptionMetier=""/>
          <concept code="014"
                   codeSystem="1.2.250.1.213.3.3.12"
@@ -134,7 +134,7 @@
                   dateValid="20150408000000"
                   displayName="Cardiologie interventionnelle"
                   longDesignation="Cardiologie interventionnelle"
-                  shortDesignation="14"
+                  shortDesignation="Cardiologie interventionnelle"
                   descriptionMetier=""/>
          <concept code="015"
                   codeSystem="1.2.250.1.213.3.3.12"
@@ -143,7 +143,7 @@
                   dateValid="20150408000000"
                   displayName="Centre antipoison et de toxicovigilance (CAPTV)"
                   longDesignation="Centre antipoison et de toxicovigilance (CAPTV)"
-                  shortDesignation="15"
+                  shortDesignation="Centre antipoison et de toxicovigilance (CAPTV)"
                   descriptionMetier=""/>
          <concept code="016"
                   codeSystem="1.2.250.1.213.3.3.12"
@@ -152,7 +152,7 @@
                   dateValid="20150408000000"
                   displayName="Chirurgie cervico-faciale et Oto-rhino-laryngologie (ORL)"
                   longDesignation="Chirurgie cervico-faciale et Oto-rhino-laryngologie (ORL)"
-                  shortDesignation="16"
+                  shortDesignation="Chirurgie cervico-faciale et Oto-rhino-laryngologie (ORL)"
                   descriptionMetier=""/>
          <concept code="017"
                   codeSystem="1.2.250.1.213.3.3.12"
@@ -161,7 +161,7 @@
                   dateValid="20150408000000"
                   displayName="Chirurgie de l'obésité (bariatrique)"
                   longDesignation="Chirurgie de l'obésité (bariatrique)"
-                  shortDesignation="17"
+                  shortDesignation="Chirurgie de l'obésité (bariatrique)"
                   descriptionMetier=""/>
          <concept code="018"
                   codeSystem="1.2.250.1.213.3.3.12"
@@ -170,7 +170,7 @@
                   dateValid="20150408000000"
                   displayName="Chirurgie cardiaque et gros vaisseaux (cardio-vasculaire)"
                   longDesignation="Chirurgie cardiaque et gros vaisseaux (cardio-vasculaire)"
-                  shortDesignation="18"
+                  shortDesignation="Chirurgie cardiaque et gros vaisseaux (cardio-vasculaire)"
                   descriptionMetier=""/>
          <concept code="019"
                   codeSystem="1.2.250.1.213.3.3.12"
@@ -179,7 +179,7 @@
                   dateValid="20150408000000"
                   displayName="Chirurgie de la main SOS main"
                   longDesignation="Chirurgie de la main SOS main"
-                  shortDesignation="19"
+                  shortDesignation="Chirurgie de la main SOS main"
                   descriptionMetier=""/>
          <concept code="020"
                   codeSystem="1.2.250.1.213.3.3.12"
@@ -188,7 +188,7 @@
                   dateValid="20150408000000"
                   displayName="Chirurgie endocrinienne"
                   longDesignation="Chirurgie endocrinienne"
-                  shortDesignation="20"
+                  shortDesignation="Chirurgie endocrinienne"
                   descriptionMetier=""/>
          <concept code="021"
                   codeSystem="1.2.250.1.213.3.3.12"
@@ -197,7 +197,7 @@
                   dateValid="20150408000000"
                   displayName="Chirurgie générale"
                   longDesignation="Chirurgie générale"
-                  shortDesignation="21"
+                  shortDesignation="Chirurgie générale"
                   descriptionMetier=""/>
          <concept code="022"
                   codeSystem="1.2.250.1.213.3.3.12"
@@ -206,7 +206,7 @@
                   dateValid="20150408000000"
                   displayName="Chirurgie gynécologique"
                   longDesignation="Chirurgie gynécologique"
-                  shortDesignation="22"
+                  shortDesignation="Chirurgie gynécologique"
                   descriptionMetier=""/>
          <concept code="023"
                   codeSystem="1.2.250.1.213.3.3.12"
@@ -215,7 +215,7 @@
                   dateValid="20150408000000"
                   displayName="Chirurgie maxillo-faciale"
                   longDesignation="Chirurgie maxillo-faciale"
-                  shortDesignation="23"
+                  shortDesignation="Chirurgie maxillo-faciale"
                   descriptionMetier=""/>
          <concept code="024"
                   codeSystem="1.2.250.1.213.3.3.12"
@@ -224,7 +224,7 @@
                   dateValid="20150408000000"
                   displayName="Chirurgie maxillo-faciale et stomatologie"
                   longDesignation="Chirurgie maxillo-faciale et stomatologie"
-                  shortDesignation="24"
+                  shortDesignation="Chirurgie maxillo-faciale et stomatologie"
                   descriptionMetier=""/>
          <concept code="025"
                   codeSystem="1.2.250.1.213.3.3.12"
@@ -233,7 +233,7 @@
                   dateValid="20150408000000"
                   displayName="Chirurgie orthopédique et traumatologique"
                   longDesignation="Chirurgie orthopédique et traumatologique"
-                  shortDesignation="25"
+                  shortDesignation="Chirurgie orthopédique et traumatologique"
                   descriptionMetier=""/>
          <concept code="026"
                   codeSystem="1.2.250.1.213.3.3.12"
@@ -242,7 +242,7 @@
                   dateValid="20150408000000"
                   displayName="Chirurgie orthopédique et traumatologie"
                   longDesignation="Chirurgie orthopédique et traumatologie"
-                  shortDesignation="26"
+                  shortDesignation="Chirurgie orthopédique et traumatologie"
                   descriptionMetier=""/>
          <concept code="027"
                   codeSystem="1.2.250.1.213.3.3.12"
@@ -251,7 +251,7 @@
                   dateValid="20150408000000"
                   displayName="Chirurgie pédiatrique"
                   longDesignation="Chirurgie pédiatrique"
-                  shortDesignation="27"
+                  shortDesignation="Chirurgie pédiatrique"
                   descriptionMetier=""/>
          <concept code="028"
                   codeSystem="1.2.250.1.213.3.3.12"
@@ -260,7 +260,7 @@
                   dateValid="20150408000000"
                   displayName="Chirurgie reconstructrice"
                   longDesignation="Chirurgie reconstructrice"
-                  shortDesignation="28"
+                  shortDesignation="Chirurgie reconstructrice"
                   descriptionMetier=""/>
          <concept code="029"
                   codeSystem="1.2.250.1.213.3.3.12"
@@ -269,7 +269,7 @@
                   dateValid="20150408000000"
                   displayName="Chirurgie septique"
                   longDesignation="Chirurgie septique"
-                  shortDesignation="29"
+                  shortDesignation="Chirurgie septique"
                   descriptionMetier=""/>
          <concept code="030"
                   codeSystem="1.2.250.1.213.3.3.12"
@@ -278,7 +278,7 @@
                   dateValid="20150408000000"
                   displayName="Chirurgie thoracique et pulmonaire"
                   longDesignation="Chirurgie thoracique et pulmonaire"
-                  shortDesignation="30"
+                  shortDesignation="Chirurgie thoracique et pulmonaire"
                   descriptionMetier=""/>
          <concept code="031"
                   codeSystem="1.2.250.1.213.3.3.12"
@@ -287,7 +287,7 @@
                   dateValid="20150408000000"
                   displayName="Urologie"
                   longDesignation="Urologie"
-                  shortDesignation="31"
+                  shortDesignation="Urologie"
                   descriptionMetier=""/>
          <concept code="032"
                   codeSystem="1.2.250.1.213.3.3.12"
@@ -296,7 +296,7 @@
                   dateValid="20150408000000"
                   displayName="Chirurgie vasculaire et endovasculaire"
                   longDesignation="Chirurgie vasculaire et endovasculaire"
-                  shortDesignation="32"
+                  shortDesignation="Chirurgie vasculaire et endovasculaire"
                   descriptionMetier="Spécialité chirurgicale qui s'applique aux vaisseaux (artères ou veines) prenant en charge les maladies artérielles : dilatations pathologiques graves (anévrismes de l'aorte), rétrécissements artériels par artériosclérose (par exemple, pontage au niveau de la cuisse pour artérite de jambes), maladies veineuses (varices) et la mise en place de dispositifs reliés à de gros vaisseaux (par exemple, les chambres implantables)."/>
          <concept code="033"
                   codeSystem="1.2.250.1.213.3.3.12"
@@ -305,7 +305,7 @@
                   dateValid="20150408000000"
                   displayName="Chirurgie digestive et viscérale fonctionnelle (hors carcinologie)"
                   longDesignation="Chirurgie digestive et viscérale fonctionnelle (hors carcinologie)"
-                  shortDesignation="33"
+                  shortDesignation="Chirurgie digestive et viscérale fonctionnelle (hors carcinologie)"
                   descriptionMetier="Branche de la chirurgie dont le périmètre d'intervention est l'ensemble des organes digestifs et endocriniens, de l'oesophage jusqu'à l'anus en y excluant les pathologies cancéreuses."/>
          <concept code="034"
                   codeSystem="1.2.250.1.213.3.3.12"
@@ -314,7 +314,7 @@
                   dateValid="20150408000000"
                   displayName="Comité de lutte contre les infections nosocomiales (CLIN)"
                   longDesignation="Comité de lutte contre les infections nosocomiales (CLIN)"
-                  shortDesignation="34"
+                  shortDesignation="Comité de lutte contre les infections nosocomiales (CLIN)"
                   descriptionMetier=""/>
          <concept code="035"
                   codeSystem="1.2.250.1.213.3.3.12"
@@ -323,7 +323,7 @@
                   dateValid="20150408000000"
                   displayName="Coordination hospitalière de prélèvement d'organes et de tissus"
                   longDesignation="Coordination hospitalière de prélèvement d'organes et de tissus"
-                  shortDesignation="35"
+                  shortDesignation="Coordination hospitalière de prélèvement d'organes et de tissus"
                   descriptionMetier="Equipe pluriprofessionnelle de professionnels de santé, ayant pour mission d'organiser et de coordonner les dons d'organes et de tissus, d'assurer le lien entre les différents acteurs de la chaîne de don, de garantir le respect des procédures et des bonnes pratiques légales éthiques et techniques, d'organiser la prise en charge du donneur et d'accompagner les proches tout au long du processus de don."/>
          <concept code="036"
                   codeSystem="1.2.250.1.213.3.3.12"
@@ -332,7 +332,7 @@
                   dateValid="20150408000000"
                   displayName="Coronarographie interventionnelle"
                   longDesignation="Coronarographie interventionnelle"
-                  shortDesignation="36"
+                  shortDesignation="Coronarographie interventionnelle"
                   descriptionMetier=""/>
          <concept code="037"
                   codeSystem="1.2.250.1.213.3.3.12"
@@ -341,7 +341,7 @@
                   dateValid="20150408000000"
                   displayName="Dermatologie"
                   longDesignation="Dermatologie"
-                  shortDesignation="37"
+                  shortDesignation="Dermatologie"
                   descriptionMetier=""/>
          <concept code="038"
                   codeSystem="1.2.250.1.213.3.3.12"
@@ -350,7 +350,7 @@
                   dateValid="20150408000000"
                   displayName="Dermatologie esthétique et cosmétique"
                   longDesignation="Dermatologie esthétique et cosmétique"
-                  shortDesignation="38"
+                  shortDesignation="Dermatologie esthétique et cosmétique"
                   descriptionMetier=""/>
          <concept code="039"
                   codeSystem="1.2.250.1.213.3.3.12"
@@ -359,7 +359,7 @@
                   dateValid="20150408000000"
                   displayName="Diabétologie"
                   longDesignation="Diabétologie"
-                  shortDesignation="39"
+                  shortDesignation="Diabétologie"
                   descriptionMetier=""/>
          <concept code="040"
                   codeSystem="1.2.250.1.213.3.3.12"
@@ -368,7 +368,7 @@
                   dateValid="20150408000000"
                   displayName="Nutrition"
                   longDesignation="Nutrition"
-                  shortDesignation="40"
+                  shortDesignation="Nutrition"
                   descriptionMetier="La nutrition est axée sur l'assimilation et la transformation par le corps des nutriments."/>
          <concept code="041"
                   codeSystem="1.2.250.1.213.3.3.12"
@@ -377,7 +377,7 @@
                   dateValid="20150408000000"
                   displayName="Endocrinologie"
                   longDesignation="Endocrinologie"
-                  shortDesignation="41"
+                  shortDesignation="Endocrinologie"
                   descriptionMetier=""/>
          <concept code="042"
                   codeSystem="1.2.250.1.213.3.3.12"
@@ -386,7 +386,7 @@
                   dateValid="20150408000000"
                   displayName="Epidémiologie"
                   longDesignation="Epidémiologie"
-                  shortDesignation="42"
+                  shortDesignation="Epidémiologie"
                   descriptionMetier=""/>
          <concept code="043"
                   codeSystem="1.2.250.1.213.3.3.12"
@@ -395,7 +395,7 @@
                   dateValid="20150408000000"
                   displayName="Foetopathologie"
                   longDesignation="Foetopathologie"
-                  shortDesignation="43"
+                  shortDesignation="Foetopathologie"
                   descriptionMetier=""/>
          <concept code="044"
                   codeSystem="1.2.250.1.213.3.3.12"
@@ -404,7 +404,7 @@
                   dateValid="20150408000000"
                   displayName="Foetopathologie et Embryopathologie"
                   longDesignation="Foetopathologie et Embryopathologie"
-                  shortDesignation="44"
+                  shortDesignation="Foetopathologie et Embryopathologie"
                   descriptionMetier="Spécialité médicale réalisant l'examen médical approfondi des embryons et des foetus, qu'ils soient issus d'une interruption spontanée de grossesse, ou d'une interruption médicale de grossesse. Il s'y ajoute habituellement l'examen des nouveau-nés décédés en période néonatale."/>
          <concept code="045"
                   codeSystem="1.2.250.1.213.3.3.12"
@@ -413,7 +413,7 @@
                   dateValid="20150408000000"
                   displayName="Formation continue"
                   longDesignation="Formation continue"
-                  shortDesignation="45"
+                  shortDesignation="Formation continue"
                   descriptionMetier=""/>
          <concept code="046"
                   codeSystem="1.2.250.1.213.3.3.12"
@@ -422,7 +422,7 @@
                   dateValid="20150408000000"
                   displayName="Gastro-entérologie"
                   longDesignation="Gastro-entérologie"
-                  shortDesignation="46"
+                  shortDesignation="Gastro-entérologie"
                   descriptionMetier=""/>
          <concept code="047"
                   codeSystem="1.2.250.1.213.3.3.12"
@@ -431,7 +431,7 @@
                   dateValid="20150408000000"
                   displayName="Gastro-entérologie et Hépatologie"
                   longDesignation="Gastro-entérologie et Hépatologie"
-                  shortDesignation="47"
+                  shortDesignation="Gastro-entérologie et Hépatologie"
                   descriptionMetier=""/>
          <concept code="048"
                   codeSystem="1.2.250.1.213.3.3.12"
@@ -440,7 +440,7 @@
                   dateValid="20150408000000"
                   displayName="Génétique chromosomique et moléculaire"
                   longDesignation="Génétique chromosomique et moléculaire"
-                  shortDesignation="48"
+                  shortDesignation="Génétique chromosomique et moléculaire"
                   descriptionMetier=""/>
          <concept code="049"
                   codeSystem="1.2.250.1.213.3.3.12"
@@ -449,7 +449,7 @@
                   dateValid="20150408000000"
                   displayName="Génétique médicale et clinique"
                   longDesignation="Génétique médicale et clinique"
-                  shortDesignation="49"
+                  shortDesignation="Génétique médicale et clinique"
                   descriptionMetier=""/>
          <concept code="050"
                   codeSystem="1.2.250.1.213.3.3.12"
@@ -458,17 +458,17 @@
                   dateValid="20150408000000"
                   displayName="Gériatrie, Gérontologie"
                   longDesignation="Gériatrie, Gérontologie"
-                  shortDesignation="50"
+                  shortDesignation="Gériatrie, Gérontologie"
                   descriptionMetier=""/>
          <concept code="051"
                   codeSystem="1.2.250.1.213.3.3.12"
                   dateFin=""
-                  dateMaj="20150408000000"
+                  dateMaj="20250328120000"
                   dateValid="20150408000000"
-                  displayName="Géronto-psychiatrie"
-                  longDesignation="Géronto-psychiatrie"
-                  shortDesignation="51"
-                  descriptionMetier=""/>
+                  displayName="Psychiatrie du sujet âgé (et géronto-psychiatrie)"
+                  longDesignation="Psychiatrie du sujet âgé (et géronto-psychiatrie)"
+                  shortDesignation="Psychiatrie du sujet âgé (et géronto-psychiatrie)"
+                  descriptionMetier="Branche de la psychiatrie et de la gérontologie qui se concentre sur l'évaluation, le diagnostic et le traitement des troubles mentaux qui apparaissent tardivement, ainsi qu'à l'évolution des troubles psychiatriques préexistants avec le vieillissement."/>
          <concept code="052"
                   codeSystem="1.2.250.1.213.3.3.12"
                   dateFin=""
@@ -476,7 +476,7 @@
                   dateValid="20150408000000"
                   displayName="Gestion de crise, plan blanc"
                   longDesignation="Gestion de crise, plan blanc"
-                  shortDesignation="52"
+                  shortDesignation="Gestion de crise, plan blanc"
                   descriptionMetier=""/>
          <concept code="053"
                   codeSystem="1.2.250.1.213.3.3.12"
@@ -485,7 +485,7 @@
                   dateValid="20150408000000"
                   displayName="Gynécologie médicale"
                   longDesignation="Gynécologie médicale"
-                  shortDesignation="53"
+                  shortDesignation="Gynécologie médicale"
                   descriptionMetier=""/>
          <concept code="054"
                   codeSystem="1.2.250.1.213.3.3.12"
@@ -494,7 +494,7 @@
                   dateValid="20150408000000"
                   displayName="Gynécologie-obstétrique"
                   longDesignation="Gynécologie-obstétrique"
-                  shortDesignation="54"
+                  shortDesignation="Gynécologie-obstétrique"
                   descriptionMetier=""/>
          <concept code="055"
                   codeSystem="1.2.250.1.213.3.3.12"
@@ -503,7 +503,7 @@
                   dateValid="20150408000000"
                   displayName="Hématologie"
                   longDesignation="Hématologie"
-                  shortDesignation="55"
+                  shortDesignation="Hématologie"
                   descriptionMetier=""/>
          <concept code="056"
                   codeSystem="1.2.250.1.213.3.3.12"
@@ -512,7 +512,7 @@
                   dateValid="20150408000000"
                   displayName="Hématologie biologique"
                   longDesignation="Hématologie biologique"
-                  shortDesignation="56"
+                  shortDesignation="Hématologie biologique"
                   descriptionMetier=""/>
          <concept code="057"
                   codeSystem="1.2.250.1.213.3.3.12"
@@ -521,7 +521,7 @@
                   dateValid="20150408000000"
                   displayName="Hémobiologie"
                   longDesignation="Hémobiologie"
-                  shortDesignation="57"
+                  shortDesignation="Hémobiologie"
                   descriptionMetier=""/>
          <concept code="058"
                   codeSystem="1.2.250.1.213.3.3.12"
@@ -530,7 +530,7 @@
                   dateValid="20150408000000"
                   displayName="Hémodialyse en urgence"
                   longDesignation="Hémodialyse en urgence"
-                  shortDesignation="58"
+                  shortDesignation="Hémodialyse en urgence"
                   descriptionMetier=""/>
          <concept code="059"
                   codeSystem="1.2.250.1.213.3.3.12"
@@ -539,7 +539,7 @@
                   dateValid="20150408000000"
                   displayName="Hémodialyse chronique"
                   longDesignation="Hémodialyse chronique"
-                  shortDesignation="59"
+                  shortDesignation="Hémodialyse chronique"
                   descriptionMetier=""/>
          <concept code="060"
                   codeSystem="1.2.250.1.213.3.3.12"
@@ -548,7 +548,7 @@
                   dateValid="20150408000000"
                   displayName="Hémodialyse péritonéale"
                   longDesignation="Hémodialyse péritonéale"
-                  shortDesignation="60"
+                  shortDesignation="Hémodialyse péritonéale"
                   descriptionMetier=""/>
          <concept code="061"
                   codeSystem="1.2.250.1.213.3.3.12"
@@ -557,7 +557,7 @@
                   dateValid="20150408000000"
                   displayName="Hémovigilance"
                   longDesignation="Hémovigilance"
-                  shortDesignation="61"
+                  shortDesignation="Hémovigilance"
                   descriptionMetier=""/>
          <concept code="062"
                   codeSystem="1.2.250.1.213.3.3.12"
@@ -566,7 +566,7 @@
                   dateValid="20150408000000"
                   displayName="Hépatologie"
                   longDesignation="Hépatologie"
-                  shortDesignation="62"
+                  shortDesignation="Hépatologie"
                   descriptionMetier=""/>
          <concept code="063"
                   codeSystem="1.2.250.1.213.3.3.12"
@@ -575,7 +575,7 @@
                   dateValid="20150408000000"
                   displayName="Hygiène, prévention, contrôle des infections associées aux soins"
                   longDesignation="Hygiène, prévention, contrôle des infections associées aux soins"
-                  shortDesignation="63"
+                  shortDesignation="Hygiène, prévention, contrôle des infections associées aux soins"
                   descriptionMetier=""/>
          <concept code="064"
                   codeSystem="1.2.250.1.213.3.3.12"
@@ -584,7 +584,7 @@
                   dateValid="20150408000000"
                   displayName="Hygiène hospitalière"
                   longDesignation="Hygiène hospitalière"
-                  shortDesignation="64"
+                  shortDesignation="Hygiène hospitalière"
                   descriptionMetier=""/>
          <concept code="065"
                   codeSystem="1.2.250.1.213.3.3.12"
@@ -593,7 +593,7 @@
                   dateValid="20150408000000"
                   displayName="Hypertension artérielle (HTA)"
                   longDesignation="Hypertension artérielle (HTA)"
-                  shortDesignation="65"
+                  shortDesignation="Hypertension artérielle (HTA)"
                   descriptionMetier=""/>
          <concept code="066"
                   codeSystem="1.2.250.1.213.3.3.12"
@@ -602,7 +602,7 @@
                   dateValid="20150408000000"
                   displayName="Imagerie médicale (Radiologie)"
                   longDesignation="Imagerie médicale (Radiologie)"
-                  shortDesignation="66"
+                  shortDesignation="Imagerie médicale (Radiologie)"
                   descriptionMetier=""/>
          <concept code="067"
                   codeSystem="1.2.250.1.213.3.3.12"
@@ -611,7 +611,7 @@
                   dateValid="20150408000000"
                   displayName="Imagerie par échographie"
                   longDesignation="Imagerie par échographie"
-                  shortDesignation="67"
+                  shortDesignation="Imagerie par échographie"
                   descriptionMetier=""/>
          <concept code="068"
                   codeSystem="1.2.250.1.213.3.3.12"
@@ -620,7 +620,7 @@
                   dateValid="20150408000000"
                   displayName="Imagerie par IRM"
                   longDesignation="Imagerie par IRM"
-                  shortDesignation="68"
+                  shortDesignation="Imagerie par IRM"
                   descriptionMetier=""/>
          <concept code="069"
                   codeSystem="1.2.250.1.213.3.3.12"
@@ -629,7 +629,7 @@
                   dateValid="20150408000000"
                   displayName="Imagerie par radiologie conventionnelle"
                   longDesignation="Imagerie par radiologie conventionnelle"
-                  shortDesignation="69"
+                  shortDesignation="Imagerie par radiologie conventionnelle"
                   descriptionMetier=""/>
          <concept code="070"
                   codeSystem="1.2.250.1.213.3.3.12"
@@ -638,7 +638,7 @@
                   dateValid="20150408000000"
                   displayName="Imagerie par scanner (TDM)"
                   longDesignation="Imagerie par scanner (TDM)"
-                  shortDesignation="70"
+                  shortDesignation="Imagerie par scanner (TDM)"
                   descriptionMetier=""/>
          <concept code="071"
                   codeSystem="1.2.250.1.213.3.3.12"
@@ -647,7 +647,7 @@
                   dateValid="20150408000000"
                   displayName="Immuno-hématologie"
                   longDesignation="Immuno-hématologie"
-                  shortDesignation="71"
+                  shortDesignation="Immuno-hématologie"
                   descriptionMetier=""/>
          <concept code="072"
                   codeSystem="1.2.250.1.213.3.3.12"
@@ -656,7 +656,7 @@
                   dateValid="20150408000000"
                   displayName="Immunologie biologique"
                   longDesignation="Immunologie biologique"
-                  shortDesignation="72"
+                  shortDesignation="Immunologie biologique"
                   descriptionMetier=""/>
          <concept code="073"
                   codeSystem="1.2.250.1.213.3.3.12"
@@ -665,7 +665,7 @@
                   dateValid="20150408000000"
                   displayName="Immunologie clinique"
                   longDesignation="Immunologie clinique"
-                  shortDesignation="73"
+                  shortDesignation="Immunologie clinique"
                   descriptionMetier=""/>
          <concept code="074"
                   codeSystem="1.2.250.1.213.3.3.12"
@@ -674,7 +674,7 @@
                   dateValid="20150408000000"
                   displayName="Infections sexuellement transmissibles IST"
                   longDesignation="Infections sexuellement transmissibles IST"
-                  shortDesignation="74"
+                  shortDesignation="Infections sexuellement transmissibles IST"
                   descriptionMetier=""/>
          <concept code="075"
                   codeSystem="1.2.250.1.213.3.3.12"
@@ -683,7 +683,7 @@
                   dateValid="20150408000000"
                   displayName="Information médicale (DIM)"
                   longDesignation="Information médicale (DIM)"
-                  shortDesignation="75"
+                  shortDesignation="Information médicale (DIM)"
                   descriptionMetier=""/>
          <concept code="076"
                   codeSystem="1.2.250.1.213.3.3.12"
@@ -692,7 +692,7 @@
                   dateValid="20150408000000"
                   displayName="Soins palliatifs avec lits identifiés de soins palliatifs (LISP)"
                   longDesignation="Soins palliatifs avec lits identifiés de soins palliatifs (LISP)"
-                  shortDesignation="76"
+                  shortDesignation="Soins palliatifs avec lits identifiés de soins palliatifs (LISP)"
                   descriptionMetier=""/>
          <concept code="077"
                   codeSystem="1.2.250.1.213.3.3.12"
@@ -701,7 +701,7 @@
                   dateValid="20150408000000"
                   displayName="Maladies infectieuses et tropicales"
                   longDesignation="Maladies infectieuses et tropicales"
-                  shortDesignation="77"
+                  shortDesignation="Maladies infectieuses et tropicales"
                   descriptionMetier="Spécialité médicale clinique qui s'intéresse à la prise en charge des maladies infectieuses et tropicales (c'est-à-dire transmis par les bactéries, virus, parasites ou champignons) dans leurs dimensions individuelles et collectives."/>
          <concept code="078"
                   codeSystem="1.2.250.1.213.3.3.12"
@@ -710,7 +710,7 @@
                   dateValid="20150408000000"
                   displayName="Médecine aérospatiale-aéronautique"
                   longDesignation="Médecine aérospatiale-aéronautique"
-                  shortDesignation="78"
+                  shortDesignation="Médecine aérospatiale-aéronautique"
                   descriptionMetier=""/>
          <concept code="079"
                   codeSystem="1.2.250.1.213.3.3.12"
@@ -719,7 +719,7 @@
                   dateValid="20150408000000"
                   displayName="Médecine de la douleur (Algologie)"
                   longDesignation="Médecine de la douleur (Algologie)"
-                  shortDesignation="79"
+                  shortDesignation="Médecine de la douleur (Algologie)"
                   descriptionMetier=""/>
          <concept code="080"
                   codeSystem="1.2.250.1.213.3.3.12"
@@ -728,7 +728,7 @@
                   dateValid="20150408000000"
                   displayName="Médecine de la reproduction"
                   longDesignation="Médecine de la reproduction"
-                  shortDesignation="80"
+                  shortDesignation="Médecine de la reproduction"
                   descriptionMetier=""/>
          <concept code="081"
                   codeSystem="1.2.250.1.213.3.3.12"
@@ -737,7 +737,7 @@
                   dateValid="20150408000000"
                   displayName="Médecine du sport"
                   longDesignation="Médecine du sport"
-                  shortDesignation="81"
+                  shortDesignation="Médecine du sport"
                   descriptionMetier=""/>
          <concept code="082"
                   codeSystem="1.2.250.1.213.3.3.12"
@@ -746,7 +746,7 @@
                   dateValid="20150408000000"
                   displayName="Médecine du travail (pathologie professionnelle)"
                   longDesignation="Médecine du travail (pathologie professionnelle)"
-                  shortDesignation="82"
+                  shortDesignation="Médecine du travail (pathologie professionnelle)"
                   descriptionMetier=""/>
          <concept code="083"
                   codeSystem="1.2.250.1.213.3.3.12"
@@ -755,7 +755,7 @@
                   dateValid="20150408000000"
                   displayName="Médecine polyvalente"
                   longDesignation="Médecine polyvalente"
-                  shortDesignation="83"
+                  shortDesignation="Médecine polyvalente"
                   descriptionMetier=""/>
          <concept code="084"
                   codeSystem="1.2.250.1.213.3.3.12"
@@ -764,7 +764,7 @@
                   dateValid="20150408000000"
                   displayName="Médecine hyperbare"
                   longDesignation="Médecine hyperbare"
-                  shortDesignation="84"
+                  shortDesignation="Médecine hyperbare"
                   descriptionMetier="Branche de la médecine qui utilise l'oxygénothérapie hyperbare, qui est une méthode d'administration d'oxygène (O2) inhalé à des fins thérapeutiques sous une pression supérieure à la pression atmosphérique. Elle est appliquée par l'intermédiaire d'une chambre hyperbare, communément appelée « caisson »."/>
          <concept code="085"
                   codeSystem="1.2.250.1.213.3.3.12"
@@ -773,7 +773,7 @@
                   dateValid="20150408000000"
                   displayName="Médecine interne"
                   longDesignation="Médecine interne"
-                  shortDesignation="85"
+                  shortDesignation="Médecine interne"
                   descriptionMetier="Spécialité médicale qui s'intéresse au diagnostic et à la prise en charge globale des maladies de l'adulte, et particulièrement des maladies systémiques et auto-immunes en général."/>
          <concept code="086"
                   codeSystem="1.2.250.1.213.3.3.12"
@@ -782,7 +782,7 @@
                   dateValid="20150408000000"
                   displayName="Médecine légale"
                   longDesignation="Médecine légale"
-                  shortDesignation="86"
+                  shortDesignation="Médecine légale"
                   descriptionMetier=""/>
          <concept code="087"
                   codeSystem="1.2.250.1.213.3.3.12"
@@ -791,7 +791,7 @@
                   dateValid="20150408000000"
                   displayName="Médecine nucléaire"
                   longDesignation="Médecine nucléaire"
-                  shortDesignation="87"
+                  shortDesignation="Médecine nucléaire"
                   descriptionMetier=""/>
          <concept code="088"
                   codeSystem="1.2.250.1.213.3.3.12"
@@ -800,7 +800,7 @@
                   dateValid="20150408000000"
                   displayName="Médecine pédiatrique"
                   longDesignation="Médecine pédiatrique"
-                  shortDesignation="88"
+                  shortDesignation="Médecine pédiatrique"
                   descriptionMetier=""/>
          <concept code="089"
                   codeSystem="1.2.250.1.213.3.3.12"
@@ -809,7 +809,7 @@
                   dateValid="20150408000000"
                   displayName="Médecine pénitentiaire"
                   longDesignation="Médecine pénitentiaire"
-                  shortDesignation="89"
+                  shortDesignation="Médecine pénitentiaire"
                   descriptionMetier=""/>
          <concept code="090"
                   codeSystem="1.2.250.1.213.3.3.12"
@@ -818,7 +818,7 @@
                   dateValid="20150408000000"
                   displayName="Médecine physique et de réadaptation"
                   longDesignation="Médecine physique et de réadaptation"
-                  shortDesignation="90"
+                  shortDesignation="Médecine physique et de réadaptation"
                   descriptionMetier=""/>
          <concept code="091"
                   codeSystem="1.2.250.1.213.3.3.12"
@@ -827,7 +827,7 @@
                   dateValid="20150408000000"
                   displayName="Médecine vasculaire (Angiologie, Phlébologie)"
                   longDesignation="Médecine vasculaire (Angiologie, Phlébologie)"
-                  shortDesignation="91"
+                  shortDesignation="Médecine vasculaire (Angiologie, Phlébologie)"
                   descriptionMetier=""/>
          <concept code="092"
                   codeSystem="1.2.250.1.213.3.3.12"
@@ -836,7 +836,7 @@
                   dateValid="20150408000000"
                   displayName="Evaluation et traitement de la mémoire"
                   longDesignation="Evaluation et traitement de la mémoire"
-                  shortDesignation="92"
+                  shortDesignation="Evaluation et traitement de la mémoire"
                   descriptionMetier=""/>
          <concept code="093"
                   codeSystem="1.2.250.1.213.3.3.12"
@@ -845,7 +845,7 @@
                   dateValid="20150408000000"
                   displayName="Microbiologie"
                   longDesignation="Microbiologie"
-                  shortDesignation="93"
+                  shortDesignation="Microbiologie"
                   descriptionMetier=""/>
          <concept code="094"
                   codeSystem="1.2.250.1.213.3.3.12"
@@ -854,7 +854,7 @@
                   dateValid="20150408000000"
                   displayName="Néonatologie"
                   longDesignation="Néonatologie"
-                  shortDesignation="94"
+                  shortDesignation="Néonatologie"
                   descriptionMetier=""/>
          <concept code="095"
                   codeSystem="1.2.250.1.213.3.3.12"
@@ -863,7 +863,7 @@
                   dateValid="20150408000000"
                   displayName="Néphrologie"
                   longDesignation="Néphrologie"
-                  shortDesignation="95"
+                  shortDesignation="Néphrologie"
                   descriptionMetier=""/>
          <concept code="096"
                   codeSystem="1.2.250.1.213.3.3.12"
@@ -872,7 +872,7 @@
                   dateValid="20150408000000"
                   displayName="Neurochirurgie"
                   longDesignation="Neurochirurgie"
-                  shortDesignation="96"
+                  shortDesignation="Neurochirurgie"
                   descriptionMetier=""/>
          <concept code="097"
                   codeSystem="1.2.250.1.213.3.3.12"
@@ -881,7 +881,7 @@
                   dateValid="20150408000000"
                   displayName="Neurologie"
                   longDesignation="Neurologie"
-                  shortDesignation="97"
+                  shortDesignation="Neurologie"
                   descriptionMetier=""/>
          <concept code="098"
                   codeSystem="1.2.250.1.213.3.3.12"
@@ -890,7 +890,7 @@
                   dateValid="20150408000000"
                   displayName="Neurologie vasculaire"
                   longDesignation="Neurologie vasculaire"
-                  shortDesignation="98"
+                  shortDesignation="Neurologie vasculaire"
                   descriptionMetier=""/>
          <concept code="099"
                   codeSystem="1.2.250.1.213.3.3.12"
@@ -899,7 +899,7 @@
                   dateValid="20150408000000"
                   displayName="Médecine de l'obésité"
                   longDesignation="Médecine de l'obésité"
-                  shortDesignation="99"
+                  shortDesignation="Médecine de l'obésité"
                   descriptionMetier="Branche de la médecine qui prend en charge les patients atteints d'obésité."/>
          <concept code="100"
                   codeSystem="1.2.250.1.213.3.3.12"
@@ -2047,21 +2047,21 @@
          <concept code="227"
                   codeSystem="1.2.250.1.213.3.3.12"
                   dateFin=""
-                  dateMaj="20240126120000"
+                  dateMaj="20250328120000"
                   dateValid="20170707100000"
-                  displayName="Psychiatrie infanto-juvénile (pédopsychiatrie)"
-                  longDesignation="Psychiatrie infanto-juvénile (pédopsychiatrie)"
-                  shortDesignation="Psychiatrie infanto-juvénile (pédopsychiatrie)"
-                  descriptionMetier=""/>
+                  displayName="Psychiatrie de l’enfant"
+                  longDesignation="Psychiatrie de l’enfant"
+                  shortDesignation="Psychiatrie de l’enfant"
+                  descriptionMetier="Branche de la pédopsychiatrie, qui se concentre sur les troubles mentaux et les problèmes de santé mentale chez les enfants, généralement de la naissance jusqu'à l'adolescence. Cette discipline vise à comprendre, diagnostiquer et traiter les troubles psychiatriques qui apparaissent durant cette période cruciale de développement"/>
          <concept code="228"
                   codeSystem="1.2.250.1.213.3.3.12"
                   dateFin=""
-                  dateMaj="20240126120000"
+                  dateMaj="20250328120000"
                   dateValid="20170707100000"
-                  displayName="Psychiatrie des adolescents (pédopsychiatrie) et jeunes adultes"
-                  longDesignation="Psychiatrie des adolescents (pédopsychiatrie) et jeunes adultes"
-                  shortDesignation="Psychiatrie des adolescents (pédopsychiatrie) et jeunes adultes"
-                  descriptionMetier=""/>
+                  displayName="Psychiatrie de l’adolescent"
+                  longDesignation="Psychiatrie de l’adolescent"
+                  shortDesignation="Psychiatrie de l’adolescent"
+                  descriptionMetier="Branche de la pédopsychiatrie qui se concentre sur les troubles mentaux et les problèmes de santé mentale chez les adolescents, généralement âgés de 12 à 18 ans. Cette discipline vise à comprendre et à traiter les spécificités des troubles psychiatriques qui apparaissent durant cette période de transition entre l'enfance et l'âge adulte"/>
          <concept code="229"
                   codeSystem="1.2.250.1.213.3.3.12"
                   dateFin=""
@@ -3622,12 +3622,12 @@
          <concept code="402"
                   codeSystem="1.2.250.1.213.3.3.12"
                   dateFin=""
-                  dateMaj="20190329120000"
+                  dateMaj="20250328120000"
                   dateValid="20190329120000"
                   displayName="Accompagnement à l'autonomie pour la mobilité et les déplacements"
                   longDesignation="Accompagnement à l'autonomie pour la mobilité et les déplacements"
                   shortDesignation="Accompagnement à l'autonomie pour la mobilité et les déplacements"
-                  descriptionMetier=""/>
+                  descriptionMetier="Services visant à aider les personnes âgées, handicapées ou atteintes de pathologies chroniques à se déplacer en dehors de leur domicile, favorisant ainsi leur autonomie et leur inclusion sociale. Ces services englobent l'accompagnement dans les transports et l'aide à la mobilité pour les activités quotidiennes, à condition que la prestation soit réalisée à partir ou à destination du domicile, les transports de groupe étant exclus."/>
          <concept code="403"
                   codeSystem="1.2.250.1.213.3.3.12"
                   dateFin=""
@@ -5166,6 +5166,78 @@
                   displayName="Soins infirmiers orientation Diabète"
                   longDesignation="Soins infirmiers orientation Diabète"
                   shortDesignation="Soins infirmiers orientation Diabète"
+                  descriptionMetier=""/>
+         <concept code="574"
+                  codeSystem="1.2.250.1.213.3.3.12"
+                  dateFin=""
+                  dateMaj="20250328120000"
+                  dateValid="20250328120000"
+                  displayName="Ergothérapie orientation accompagnement dans le cadre des maladies chroniques"
+                  longDesignation="Ergothérapie orientation accompagnement dans le cadre des maladies chroniques"
+                  shortDesignation="Ergothérapie orientation accompagnement dans le cadre des maladies chroniques"
+                  descriptionMetier=""/>
+         <concept code="575"
+                  codeSystem="1.2.250.1.213.3.3.12"
+                  dateFin=""
+                  dateMaj="20250328120000"
+                  dateValid="20250328120000"
+                  displayName="Ergothérapie orientation compensation matérielle dans l’environnement de la personne"
+                  longDesignation="Ergothérapie orientation compensation matérielle dans l’environnement de la personne"
+                  shortDesignation="Ergothérapie orientation compensation matérielle dans l’environnement de la personne"
+                  descriptionMetier=""/>
+         <concept code="576"
+                  codeSystem="1.2.250.1.213.3.3.12"
+                  dateFin=""
+                  dateMaj="20250328120000"
+                  dateValid="20250328120000"
+                  displayName="Ergothérapie orientation Gériatrie"
+                  longDesignation="Ergothérapie orientation Gériatrie"
+                  shortDesignation="Ergothérapie orientation Gériatrie"
+                  descriptionMetier=""/>
+         <concept code="577"
+                  codeSystem="1.2.250.1.213.3.3.12"
+                  dateFin=""
+                  dateMaj="20250328120000"
+                  dateValid="20250328120000"
+                  displayName="Ergothérapie orientation Neurologie"
+                  longDesignation="Ergothérapie orientation Neurologie"
+                  shortDesignation="Ergothérapie orientation Neurologie"
+                  descriptionMetier=""/>
+         <concept code="578"
+                  codeSystem="1.2.250.1.213.3.3.12"
+                  dateFin=""
+                  dateMaj="20250328120000"
+                  dateValid="20250328120000"
+                  displayName="Ergothérapie orientation Pédiatrie"
+                  longDesignation="Ergothérapie orientation Pédiatrie"
+                  shortDesignation="Ergothérapie orientation Pédiatrie"
+                  descriptionMetier=""/>
+         <concept code="579"
+                  codeSystem="1.2.250.1.213.3.3.12"
+                  dateFin=""
+                  dateMaj="20250328120000"
+                  dateValid="20250328120000"
+                  displayName="Ergothérapie orientation Psychiatrie et Santé mentale"
+                  longDesignation="Ergothérapie orientation Psychiatrie et Santé mentale"
+                  shortDesignation="Ergothérapie orientation Psychiatrie et Santé mentale"
+                  descriptionMetier=""/>
+         <concept code="580"
+                  codeSystem="1.2.250.1.213.3.3.12"
+                  dateFin=""
+                  dateMaj="20250328120000"
+                  dateValid="20250328120000"
+                  displayName="Evaluation en ergothérapie par l’analyse d’activité et accompagnement dans l’environnement de la personne"
+                  longDesignation="Evaluation en ergothérapie par l’analyse d’activité et accompagnement dans l’environnement de la personne"
+                  shortDesignation="Evaluation en ergothérapie par l’analyse d’activité et accompagnement dans l’environnement de la personne"
+                  descriptionMetier=""/>
+         <concept code="581"
+                  codeSystem="1.2.250.1.213.3.3.12"
+                  dateFin=""
+                  dateMaj="20250328120000"
+                  dateValid="20250328120000"
+                  displayName="Interventions éducatives pour renforcer l’autorégulation"
+                  longDesignation="Interventions éducatives pour renforcer l’autorégulation"
+                  shortDesignation="Interventions éducatives pour renforcer l’autorégulation"
                   descriptionMetier=""/>
       </ConceptList>
    </ValueSet>

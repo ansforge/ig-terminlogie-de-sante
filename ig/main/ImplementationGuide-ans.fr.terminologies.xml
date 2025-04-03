@@ -7,11 +7,11 @@
 </div></div>
   </text>
   <url value="https://interop.esante.gouv.fr/terminologies/ImplementationGuide/ans.fr.terminologies"/>
-  <version value="0.1.0"/>
+  <version value="0.1.0-ballot"/>
   <name value="Terminologies"/>
-  <title value="Terminologies  de Santé (Publiées par l'ANS)"/>
+  <title value="Terminologies  de Santé"/>
   <status value="active"/>
-  <date value="2023-03"/>
+  <date value="2025-04-03T04:22:05+00:00"/>
   <publisher value="ANS"/>
   <contact>
     <name value="ANS"/>
@@ -66,7 +66,7 @@
         <valueString value="releaselabel"/>
       </extension>
       <extension url="value">
-        <valueString value="ci-build"/>
+        <valueString value="for-comment"/>
       </extension>
     </extension>
     <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
@@ -11949,7 +11949,7 @@
         <valueCode value="releaselabel"/>
       </extension>
       <extension url="value">
-        <valueString value="ci-build"/>
+        <valueString value="for-comment"/>
       </extension>
     </extension>
     <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">

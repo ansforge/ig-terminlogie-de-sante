@@ -551,7 +551,7 @@
     },
     {
       "url" : "https://mos.esante.gouv.fr/NOS/TRE_R211-ActiviteOperationnelle/FHIR/TRE-R211-ActiviteOperationnelle",
-      "version" : "20250131120000",
+      "version" : "20250328120000",
       "status" : "active",
       "name" : "TRE_R211_ActiviteOperationnelle",
       "title" : null,
@@ -560,7 +560,7 @@
     },
     {
       "url" : "https://mos.esante.gouv.fr/NOS/TRE_R212-Equipement/FHIR/TRE-R212-Equipement",
-      "version" : "20250131120000",
+      "version" : "20250328120000",
       "status" : "active",
       "name" : "TRE_R212_Equipement",
       "title" : null,
@@ -2296,7 +2296,7 @@
     },
     {
       "url" : "https://smt.esante.gouv.fr/terminologie-bdpm",
-      "version" : "2025-03-04",
+      "version" : "2025-04-01",
       "status" : "active",
       "name" : "BDPM",
       "title" : "Base de données publique du médicament",
