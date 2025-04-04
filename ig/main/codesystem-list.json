@@ -11,7 +11,7 @@
     },
     {
       "url" : "http://snomed.info/sct",
-      "version" : "http://snomed.info/sct/900000000000207008/version/20250301",
+      "version" : "http://snomed.info/sct/900000000000207008/version/20250401",
       "status" : "active",
       "name" : "SNOMED_CT",
       "title" : "SNOMED CT core",
@@ -2375,7 +2375,7 @@
     },
     {
       "url" : "https://smt.esante.gouv.fr/terminologie-nuva",
-      "version" : "1.0.870",
+      "version" : "1.0.895",
       "status" : "active",
       "name" : "NUVA",
       "title" : "Nomenclature Unifiée des Vaccins",
