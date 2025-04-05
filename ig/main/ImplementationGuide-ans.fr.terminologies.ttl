@@ -18,7 +18,7 @@
   fhir:name [ fhir:v "Terminologies"] ; # 
   fhir:title [ fhir:v "Terminologies  de Santé"] ; # 
   fhir:status [ fhir:v "active"] ; # 
-  fhir:date [ fhir:v "2025-04-04T04:21:18+00:00"^^xsd:dateTime] ; # 
+  fhir:date [ fhir:v "2025-04-05T08:47:00+00:00"^^xsd:dateTime] ; # 
   fhir:publisher [ fhir:v "ANS"] ; # 
   fhir:contact ( [
      fhir:name [ fhir:v "ANS" ] ;
@@ -46028,6 +46028,7 @@
          fhir:reference [ fhir:v "CodeSystem/terminologie-cisp" ]
        ] ;
        fhir:name [ fhir:v "Classification internationale des soins primaires - 2ème version" ] ;
+       fhir:description [ fhir:v "La Classification internationale des soins primaires (CISP) est la version française de l’International Classification of Primary Care (ICPC). Elle permet de coder trois éléments de consultation de médecine générale : motifs de rencontre (du point de vue du patient), problèmes de santé diagnostiqués et procédures de soins.Elle trouve sa place au sein de la famille des classifications de l’OMS comme classification associée à la CIM (classification internationale des maladies), l’ICF (classification internationale du fonctionnement, du handicap et de la santé) et l'ICHI (classification internationale des interventions de santé)." ] ;
        fhir:example [
          a fhir:boolean ;
          fhir:v false
@@ -66094,6 +66095,7 @@
          fhir:reference [ fhir:v "CodeSystem/terminologie-nabm" ]
        ] ;
        fhir:name [ fhir:v "Nomenclature des actes de biologie médicale" ] ;
+       fhir:description [ fhir:v "La NABM est la terminologie de facturation des actes de biologie médicale. Elle décrit la liste des actes de biologie dans une arborescence en chapitres et sous-chapitres ainsi que des règles de facturation." ] ;
        fhir:example [
          a fhir:boolean ;
          fhir:v false
@@ -66129,6 +66131,7 @@
          fhir:reference [ fhir:v "CodeSystem/terminologie-nuva" ]
        ] ;
        fhir:name [ fhir:v "Nomenclature Unifiée des Vaccins" ] ;
+       fhir:description [ fhir:v "La nomenclature unifiée des vaccins (NUVA) liste les spécialités vaccinales commercialisées ou ayant été commercialisées en France ou à l’étranger. Ces spécialités sont associées à une dénomination générique et à une description structurée notamment au niveau des valences et des pathologies cibles.Elle permet de constituer un historique vaccinal complet, aussi précis que le permettent les sources des données, interprétable par des systèmes d’information." ] ;
        fhir:example [
          a fhir:boolean ;
          fhir:v false
@@ -66217,6 +66220,7 @@
          fhir:reference [ fhir:v "CodeSystem/terminologie-standardterms" ]
        ] ;
        fhir:name [ fhir:v "Standard Terms Data Base Dictionnaire européen multilingue de termes normalisés descripteurs de médicaments" ] ;
+       fhir:description [ fhir:v "Les standard terms (ou listes de termes normalisés) ont été établis en réponse à une demande de la Commission européenne. Ils contiennent les formes pharmaceutiques, les voies et/ou les méthodes d’administration, les unités de présentation, ainsi que les conditionnements, les systèmes de fermeture et les dispositifs d’administration des médicaments à usage humain et/ou vétérinaire." ] ;
        fhir:example [
          a fhir:boolean ;
          fhir:v false
