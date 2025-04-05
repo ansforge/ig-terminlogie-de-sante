@@ -93,7 +93,7 @@ jobs:
       - name: 🏃‍♂️ Run IG Publisher
         run : |
               cd  ./igSource
-              java -Xmx16344m -jar ../publisher.jar   -ig .  
+              java -Xmx16344m -jar ../publisher.jar   -ig .  -authorise-non-conformant-tx-servers
      
 
           
@@ -113,7 +113,7 @@ jobs:
         run : java -Dfile.encoding=UTF-8 -jar publisher.jar -generate-package-registry ./IG-terminology-website-release
         
       - name: 🏃‍♂️ Run  Publisher to release
-        run :   java -Xmx16344m  -Dfile.encoding=UTF-8 -jar publisher.jar -go-publish -source igSource  -web  ./IG-terminology-website-release/www/ -registry ./IG-terminology-website-release/ig-registry/fhir-ig-list.json -history ./IG-terminology-website-release/fhir-ig-history-template -templates ./IG-terminology-website-release/templates    -temp      /home/runner/work/publication/temp 
+        run :   java -Xmx16344m  -Dfile.encoding=UTF-8 -jar publisher.jar -authorise-non-conformant-tx-servers  -go-publish -source igSource  -web  ./IG-terminology-website-release/www/ -registry ./IG-terminology-website-release/ig-registry/fhir-ig-list.json -history ./IG-terminology-website-release/fhir-ig-history-template -templates ./IG-terminology-website-release/templates    -temp      /home/runner/work/publication/temp 
 
                
       - name: Liste des fichiers de www
