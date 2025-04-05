@@ -6,7 +6,7 @@
     "lastUpdated" : "2024-11-14T08:35:39.917+00:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset"]
   },
-  "language" : "fr-FR",
+  "language" : "fr",
   "text" : {
     "status" : "generated",
     "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\">Ce jeu de valeurs inclut tous les codes concepts issus de la terminologie ATC, url: https://smt.esante.gouv.fr/terminologie-atc, oid: urn:oid:2.16.840.1.113883.6.73</div>"
@@ -16,7 +16,7 @@
   "name" : "ValueSet_ATC_All",
   "status" : "active",
   "experimental" : false,
-  "date" : "2025-04-05T08:47:00+00:00",
+  "date" : "2025-04-05T10:15:34+00:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "description" : "Ce jeu de valeurs inclut tous les codes concepts de la terminologie ATC",
   "compose" : {

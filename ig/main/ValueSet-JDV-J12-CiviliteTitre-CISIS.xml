@@ -7,7 +7,7 @@
     <lastUpdated value="2025-01-06T12:44:43.391+00:00"/>
     <profile value="http://hl7.org/fhir/StructureDefinition/shareablevalueset"/>
   </meta>
-  <language value="fr-FR"/>
+  <language value="fr"/>
   <text>
     <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><h2>JDV_J12_CiviliteTitre_CISIS</h2><tt>https://mos.esante.gouv.fr/NOS/JDV_J12-CiviliteTitre-CISIS/FHIR/JDV-J12-CiviliteTitre-CISIS</tt><p>Titre civilité - CI-SIS</p></div>
   </text>
