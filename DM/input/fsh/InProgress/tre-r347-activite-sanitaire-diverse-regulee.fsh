@@ -88,8 +88,6 @@ Description: "Nomenclature des activités sanitaires utilisée pour décrire les
 * #0212 "Pédiatrie"
 * #0212 ^property[0].code = #parent
 * #0212 ^property[=].valueCode = #0210
-* #0212 ^property[+].code = #child
-* #0212 ^property[=].valueCode = #112
 * #0212 ^property[+].code = #dateValid
 * #0212 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
 * #0212 ^property[+].code = #dateMaj
