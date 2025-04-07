@@ -51,40 +51,47 @@ Description: "Nomenclature des activités sanitaires utilisée pour décrire les
 * ^property[=].description = "Date de retrait du code"
 * ^property[=].type = #dateTime
 * #0200 "Hospitalisation"
-* #0200 ^property[0].code = #child
-* #0200 ^property[=].valueCode = #0210
-* #0200 ^property[+].code = #dateValid
+* #0200 ^property[0].code = #dateValid
 * #0200 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
 * #0200 ^property[+].code = #dateMaj
 * #0200 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
 * #0200 ^property[+].code = #status
-* #0200 ^property[=].valueCode = #active
+* #0200 ^property[=].valueCode = #retired
+* #0200 ^property[+].code = #retirementDate
+* #0200 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #0300 "Disciplines Spécifiques"
+* #0300 ^designation.language = #fr-FR
+* #0300 ^designation.use.system = "http://snomed.info/sct"
+* #0300 ^designation.use = $sct#900000000000013009
+* #0300 ^designation.value = "Disc. Spécifiques"
+* #0300 ^property[0].code = #dateValid
+* #0300 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #0300 ^property[+].code = #dateMaj
+* #0300 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #0300 ^property[+].code = #status
+* #0300 ^property[=].valueCode = #active
 * #0210 "Médecine"
 * #0210 ^property[0].code = #parent
 * #0210 ^property[=].valueCode = #0200
-* #0210 ^property[+].code = #child
-* #0210 ^property[=].valueCode = #0211
-* #0210 ^property[+].code = #child
-* #0210 ^property[=].valueCode = #0212
 * #0210 ^property[+].code = #dateValid
 * #0210 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
 * #0210 ^property[+].code = #dateMaj
 * #0210 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
 * #0210 ^property[+].code = #status
-* #0210 ^property[=].valueCode = #active
+* #0210 ^property[=].valueCode = #retired
+* #0210 ^property[+].code = #retirementDate
+* #0210 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
 * #0211 "Médecine Générale"
 * #0211 ^property[0].code = #parent
 * #0211 ^property[=].valueCode = #0210
-* #0211 ^property[+].code = #child
-* #0211 ^property[=].valueCode = #101
-* #0211 ^property[+].code = #child
-* #0211 ^property[=].valueCode = #102
 * #0211 ^property[+].code = #dateValid
 * #0211 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
 * #0211 ^property[+].code = #dateMaj
 * #0211 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
 * #0211 ^property[+].code = #status
-* #0211 ^property[=].valueCode = #active
+* #0211 ^property[=].valueCode = #retired
+* #0211 ^property[+].code = #retirementDate
+* #0211 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
 * #0212 "Pédiatrie"
 * #0212 ^property[0].code = #parent
 * #0212 ^property[=].valueCode = #0210
@@ -93,7 +100,9 @@ Description: "Nomenclature des activités sanitaires utilisée pour décrire les
 * #0212 ^property[+].code = #dateMaj
 * #0212 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
 * #0212 ^property[+].code = #status
-* #0212 ^property[=].valueCode = #active
+* #0212 ^property[=].valueCode = #retired
+* #0212 ^property[+].code = #retirementDate
+* #0212 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
 * #101 "Médecine Générale ou Médecine Interne"
 * #101 ^designation.language = #fr-FR
 * #101 ^designation.use.system = "http://snomed.info/sct"
@@ -106,7 +115,9 @@ Description: "Nomenclature des activités sanitaires utilisée pour décrire les
 * #101 ^property[+].code = #dateMaj
 * #101 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
 * #101 ^property[+].code = #status
-* #101 ^property[=].valueCode = #active
+* #101 ^property[=].valueCode = #retired
+* #101 ^property[+].code = #retirementDate
+* #101 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
 * #102 "Maladie Infectieuse et Parasitaire"
 * #102 ^designation.language = #fr-FR
 * #102 ^designation.use = $sct#900000000000013009
@@ -118,7 +129,9 @@ Description: "Nomenclature des activités sanitaires utilisée pour décrire les
 * #102 ^property[+].code = #dateMaj
 * #102 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
 * #102 ^property[+].code = #status
-* #102 ^property[=].valueCode = #active
+* #102 ^property[=].valueCode = #retired
+* #102 ^property[+].code = #retirementDate
+* #102 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
 * #112 "Néonatalogie"
 * #112 ^property[0].code = #parent
 * #112 ^property[=].valueCode = #0212
@@ -127,4 +140,6 @@ Description: "Nomenclature des activités sanitaires utilisée pour décrire les
 * #112 ^property[+].code = #dateMaj
 * #112 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
 * #112 ^property[+].code = #status
-* #112 ^property[=].valueCode = #active
+* #112 ^property[=].valueCode = #retired
+* #112 ^property[+].code = #retirementDate
+* #112 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
