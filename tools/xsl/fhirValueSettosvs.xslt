@@ -23,7 +23,7 @@
                 <ConceptList>
                     <xsl:for-each select='//f:concept'>
 
-                        <concept 
+                        <Concept 
                             code='{f:code/@value}' 
                             codeSystem="{substring-after(document(concat('https://smt.esante.gouv.fr/fhir/CodeSystem?url=', ../f:system/@value,'&amp;_format=application/fhir+xml'))//f:CodeSystem/f:identifier[f:system/@value='urn:ietf:rfc:3986']/f:value/@value,'oid:')}"
                             displayName='{f:display/@value}'
