@@ -52,7 +52,7 @@
                             </xsl:choose>
                         </xsl:variable> 
 
-                        <concept 
+                        <Concept 
                             code='{f:code/@value}' 
                             codeSystem="{substring-after(//f:CodeSystem/f:identifier[f:system/@value='urn:ietf:rfc:3986']/f:value/@value,'oid:')}" 
                             dateFin="{format-dateTime(f:property/f:code[@value='dateFin']/../f:valueDateTime/@value,'[Y0001][M01][D01][H01][m01][s01]')}"
