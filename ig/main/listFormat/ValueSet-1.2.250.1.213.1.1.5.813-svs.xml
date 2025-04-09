@@ -10,13 +10,13 @@
              typeFichier="JDV"
              urlFichier="">
       <ConceptList>
-         <concept code="GEN-371"
+         <Concept code="GEN-371"
                   codeSystem="1.2.250.1.213.1.1.4.322"
                   displayName="Ordonnance de sortie"/>
-         <concept code="GEN-372"
+         <Concept code="GEN-372"
                   codeSystem="1.2.250.1.213.1.1.4.322"
                   displayName="Copie du résumé du passage aux urgences"/>
-         <concept code="GEN-092.08.08"
+         <Concept code="GEN-092.08.08"
                   codeSystem="1.2.250.1.213.1.1.4.322"
                   displayName="Autre document"/>
       </ConceptList>

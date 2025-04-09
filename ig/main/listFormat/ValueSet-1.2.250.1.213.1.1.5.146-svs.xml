@@ -10,10 +10,10 @@
              typeFichier="JDV"
              urlFichier="">
       <ConceptList>
-         <concept code="MED-315"
+         <Concept code="MED-315"
                   codeSystem="1.2.250.1.213.1.1.4.322"
                   displayName="ADN"/>
-         <concept code="MED-316"
+         <Concept code="MED-316"
                   codeSystem="1.2.250.1.213.1.1.4.322"
                   displayName="ARN"/>
       </ConceptList>

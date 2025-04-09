@@ -10,19 +10,19 @@
              typeFichier="JDV"
              urlFichier="">
       <ConceptList>
-         <concept code="ORG-147"
+         <Concept code="ORG-147"
                   codeSystem="1.2.250.1.213.1.1.4.322"
                   displayName="Établissement de santé de moyen ou long séjour"/>
-         <concept code="ORG-148"
+         <Concept code="ORG-148"
                   codeSystem="1.2.250.1.213.1.1.4.322"
                   displayName="Établissement ou service de soins de suite"/>
-         <concept code="ORG-149"
+         <Concept code="ORG-149"
                   codeSystem="1.2.250.1.213.1.1.4.322"
                   displayName="Établissement d’hébergement de personnes handicapées"/>
-         <concept code="ORG-150"
+         <Concept code="ORG-150"
                   codeSystem="1.2.250.1.213.1.1.4.322"
                   displayName="Institution psychiatrique"/>
-         <concept code="ORG-151"
+         <Concept code="ORG-151"
                   codeSystem="1.2.250.1.213.1.1.4.322"
                   displayName="Prison"/>
       </ConceptList>

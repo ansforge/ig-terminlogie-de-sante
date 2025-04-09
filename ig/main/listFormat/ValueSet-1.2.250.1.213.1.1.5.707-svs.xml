@@ -10,7 +10,7 @@
              typeFichier="JDV"
              urlFichier="">
       <ConceptList>
-         <concept code="ORG-085"
+         <Concept code="ORG-085"
                   codeSystem="1.2.250.1.213.1.1.4.322"
                   displayName="Demande de surveillance médicale particulière"/>
       </ConceptList>

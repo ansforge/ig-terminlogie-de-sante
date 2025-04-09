@@ -10,10 +10,10 @@
              typeFichier="JDV"
              urlFichier="">
       <ConceptList>
-         <concept code="ORG-163"
+         <Concept code="ORG-163"
                   codeSystem="1.2.250.1.213.1.1.4.322"
                   displayName="Consultation de spécialité"/>
-         <concept code="ORG-164"
+         <Concept code="ORG-164"
                   codeSystem="1.2.250.1.213.1.1.4.322"
                   displayName="Education thérapeutique"/>
       </ConceptList>

@@ -10,13 +10,13 @@
              typeFichier="JDV"
              urlFichier="">
       <ConceptList>
-         <concept code="MED-655"
+         <Concept code="MED-655"
                   codeSystem="1.2.250.1.213.1.1.4.322"
                   displayName="Intubation orotrachéale"/>
-         <concept code="MED-656"
+         <Concept code="MED-656"
                   codeSystem="1.2.250.1.213.1.1.4.322"
                   displayName="Intubation nasotrachéale"/>
-         <concept code="MED-657"
+         <Concept code="MED-657"
                   codeSystem="1.2.250.1.213.1.1.4.322"
                   displayName="Abord trachéal direct"/>
       </ConceptList>

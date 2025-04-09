@@ -10,10 +10,10 @@
              typeFichier="JDV"
              urlFichier="">
       <ConceptList>
-         <concept code="MED-1216"
+         <Concept code="MED-1216"
                   codeSystem="1.2.250.1.213.1.1.4.322"
                   displayName="Prisme intégré"/>
-         <concept code="MED-1217"
+         <Concept code="MED-1217"
                   codeSystem="1.2.250.1.213.1.1.4.322"
                   displayName="Prisme souple"/>
       </ConceptList>

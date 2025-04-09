@@ -1,4 +1,4 @@
-<OID>;<Type fichier>;<Nom fichier>;<Description>;<URL fichier>;<Date valid>;<Date fin>;<Date MAJ>
+<OID>;<Type fichier>;<Nom fichier>;<Description>;<URL fichier>;<Date valid>;<Date fin>;<Date MàJ>
 1.2.250.1.213.1.6.1.21;TRE;TRE_R32_StatutHospitalier.tabs;Statut hospitalier;https://mos.esante.gouv.fr/NOS/TRE_R32-StatutHospitalier;20070725150444;;20231215120000
 <OID>;<Code>;<Libellé adapté>;<Libellé court>;<Libellé long>;<Date valid>;<Date fin>;<Date MAJ> 
 1.2.250.1.213.1.6.1.21;SH01;Professeur des universités - Praticien hospitalier (PU-PH) (décret n° 84-135);PU-PH;Professeur des universités-praticien hospitalier (PU-PH);20070725150444;;20160901000000

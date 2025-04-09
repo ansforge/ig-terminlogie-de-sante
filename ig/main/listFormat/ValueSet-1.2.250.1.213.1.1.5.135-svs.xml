@@ -10,16 +10,16 @@
              typeFichier="JDV"
              urlFichier="">
       <ConceptList>
-         <concept code="MED-284"
+         <Concept code="MED-284"
                   codeSystem="1.2.250.1.213.1.1.4.322"
                   displayName="Personne immunodéprimée"/>
-         <concept code="MED-285"
+         <Concept code="MED-285"
                   codeSystem="1.2.250.1.213.1.1.4.322"
                   displayName="Personne sous traitement immunosuppresseur/corticothérapie/chimiothérapie pour cancer ou leucémie/biothérapie/Soliris"/>
-         <concept code="GEN-052"
+         <Concept code="GEN-052"
                   codeSystem="1.2.250.1.213.1.1.4.322"
                   displayName="Enfant de moins de 6 mois à risque de grippe grave"/>
-         <concept code="GEN-053"
+         <Concept code="GEN-053"
                   codeSystem="1.2.250.1.213.1.1.4.322"
                   displayName="Contact étroit et durable avec un enfant de moins de 6 mois (coqueluche)"/>
       </ConceptList>

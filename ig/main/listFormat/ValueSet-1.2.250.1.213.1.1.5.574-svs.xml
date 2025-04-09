@@ -10,16 +10,16 @@
              typeFichier="JDV"
              urlFichier="">
       <ConceptList>
-         <concept code="MED-779"
+         <Concept code="MED-779"
                   codeSystem="1.2.250.1.213.1.1.4.322"
                   displayName="Absence de métastase ganglionnaire"/>
-         <concept code="MED-780"
+         <Concept code="MED-780"
                   codeSystem="1.2.250.1.213.1.1.4.322"
                   displayName="Présence de métastase(s) ganglionnaire(s)"/>
-         <concept code="MED-781"
+         <Concept code="MED-781"
                   codeSystem="1.2.250.1.213.1.1.4.322"
                   displayName="Présence de cellules tumorales isolées"/>
-         <concept code="MED-782"
+         <Concept code="MED-782"
                   codeSystem="1.2.250.1.213.1.1.4.322"
                   displayName="Absence de ganglion lymphatique"/>
       </ConceptList>

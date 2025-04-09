@@ -1,4 +1,4 @@
-<OID>;<Type fichier>;<Nom fichier>;<Description>;<URL fichier>;<Date valid>;<Date fin>;<Date MAJ>
+<OID>;<Type fichier>;<Nom fichier>;<Description>;<URL fichier>;<Date valid>;<Date fin>;<Date MàJ>
 1.2.250.1.213.1.6.1.181;TRE;TRE_R292_INSEECategorieSocioProfessionnelleAgrNiv1.tabs;Codes de niveau 1 des catégories socio-professionnelles de l'INSEE;https://mos.esante.gouv.fr/NOS/TRE_R292-INSEECategorieSocioProfessionnelleAgrNiv1;20191025120000;;20231215120000
 <OID>;<Code>;<Libellé adapté>;<Libellé court>;<Libellé long>;<Date valid>;<Date fin>;<Date MAJ> 
 1.2.250.1.213.1.6.1.181;1;Agriculteurs exploitants;Agriculteur;Agriculteurs exploitants;20191025120000;;20191025120000

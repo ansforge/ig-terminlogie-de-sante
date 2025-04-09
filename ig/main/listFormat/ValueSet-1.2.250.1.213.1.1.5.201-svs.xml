@@ -10,13 +10,13 @@
              typeFichier="JDV"
              urlFichier="">
       <ConceptList>
-         <concept code="GEN-160"
+         <Concept code="GEN-160"
                   codeSystem="1.2.250.1.213.1.1.4.322"
                   displayName="Raison inconnue"/>
-         <concept code="MED-471"
+         <Concept code="MED-471"
                   codeSystem="1.2.250.1.213.1.1.4.322"
                   displayName="Sans étiologie"/>
-         <concept code="MED-472"
+         <Concept code="MED-472"
                   codeSystem="1.2.250.1.213.1.1.4.322"
                   displayName="Bilan étiologique incomplet"/>
       </ConceptList>

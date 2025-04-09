@@ -10,13 +10,13 @@
              typeFichier="JDV"
              urlFichier="">
       <ConceptList>
-         <concept code="MED-219"
+         <Concept code="MED-219"
                   codeSystem="1.2.250.1.213.1.1.4.322"
                   displayName="Cause Maternelle"/>
-         <concept code="MED-210"
+         <Concept code="MED-210"
                   codeSystem="1.2.250.1.213.1.1.4.322"
                   displayName="Cause Fœtale"/>
-         <concept code="MED-1272"
+         <Concept code="MED-1272"
                   codeSystem="1.2.250.1.213.1.1.4.322"
                   displayName="Cause materno-fœtale"/>
       </ConceptList>

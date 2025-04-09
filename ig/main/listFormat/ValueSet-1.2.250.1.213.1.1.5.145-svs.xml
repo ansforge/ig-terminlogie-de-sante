@@ -10,10 +10,10 @@
              typeFichier="JDV"
              urlFichier="">
       <ConceptList>
-         <concept code="GEN-166"
+         <Concept code="GEN-166"
                   codeSystem="1.2.250.1.213.1.1.4.322"
                   displayName="Qualité"/>
-         <concept code="GEN-167"
+         <Concept code="GEN-167"
                   codeSystem="1.2.250.1.213.1.1.4.322"
                   displayName="Quantité"/>
       </ConceptList>

@@ -10,22 +10,22 @@
              typeFichier="JDV"
              urlFichier="">
       <ConceptList>
-         <concept code="GEN-092"
+         <Concept code="GEN-092"
                   codeSystem="1.2.250.1.213.1.1.4.322"
                   displayName="Autre"/>
-         <concept code="GEN-263"
+         <Concept code="GEN-263"
                   codeSystem="1.2.250.1.213.1.1.4.322"
                   displayName="Non spécifié"/>
-         <concept code="MED-915"
+         <Concept code="MED-915"
                   codeSystem="1.2.250.1.213.1.1.4.322"
                   displayName="Biopsie Shaving"/>
-         <concept code="MED-916"
+         <Concept code="MED-916"
                   codeSystem="1.2.250.1.213.1.1.4.322"
                   displayName="Biopsie Punch"/>
-         <concept code="MED-917"
+         <Concept code="MED-917"
                   codeSystem="1.2.250.1.213.1.1.4.322"
                   displayName="Exérèse"/>
-         <concept code="MED-918"
+         <Concept code="MED-918"
                   codeSystem="1.2.250.1.213.1.1.4.322"
                   displayName="Amputation"/>
       </ConceptList>

@@ -10,16 +10,16 @@
              typeFichier="JDV"
              urlFichier="">
       <ConceptList>
-         <concept code="MED-442"
+         <Concept code="MED-442"
                   codeSystem="1.2.250.1.213.1.1.4.322"
                   displayName="Carotidien territorial"/>
-         <concept code="MED-443"
+         <Concept code="MED-443"
                   codeSystem="1.2.250.1.213.1.1.4.322"
                   displayName="Carotidien lacunaire"/>
-         <concept code="MED-444"
+         <Concept code="MED-444"
                   codeSystem="1.2.250.1.213.1.1.4.322"
                   displayName="VB territorial"/>
-         <concept code="MED-445"
+         <Concept code="MED-445"
                   codeSystem="1.2.250.1.213.1.1.4.322"
                   displayName="VB lacunaire"/>
       </ConceptList>

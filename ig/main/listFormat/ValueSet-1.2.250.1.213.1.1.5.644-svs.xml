@@ -10,13 +10,13 @@
              typeFichier="JDV"
              urlFichier="">
       <ConceptList>
-         <concept code="MED-1051"
+         <Concept code="MED-1051"
                   codeSystem="1.2.250.1.213.1.1.4.322"
                   displayName="Acuité visuelle de près"/>
-         <concept code="MED-1052"
+         <Concept code="MED-1052"
                   codeSystem="1.2.250.1.213.1.1.4.322"
                   displayName="Acuité visuelle à distance"/>
-         <concept code="MED-1053"
+         <Concept code="MED-1053"
                   codeSystem="1.2.250.1.213.1.1.4.322"
                   displayName="Acuité visuelle intermédiaire"/>
       </ConceptList>

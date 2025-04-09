@@ -10,13 +10,13 @@
              typeFichier="JDV"
              urlFichier="">
       <ConceptList>
-         <concept code="GEN-004"
+         <Concept code="GEN-004"
                   codeSystem="1.2.250.1.213.1.1.4.322"
                   displayName="Positionnement"/>
-         <concept code="MED-006"
+         <Concept code="MED-006"
                   codeSystem="1.2.250.1.213.1.1.4.322"
                   displayName="Qualité de l'image"/>
-         <concept code="MED-007"
+         <Concept code="MED-007"
                   codeSystem="1.2.250.1.213.1.1.4.322"
                   displayName="Mauvaise qualité de l'impression de la mammographie numérique, Réimpression du cliché"/>
       </ConceptList>

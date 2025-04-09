@@ -10,19 +10,19 @@
              typeFichier="JDV"
              urlFichier="">
       <ConceptList>
-         <concept code="MED-302"
+         <Concept code="MED-302"
                   codeSystem="1.2.250.1.213.1.1.4.322"
                   displayName="Macro dissection de la zone d’intérêt"/>
-         <concept code="MED-303"
+         <Concept code="MED-303"
                   codeSystem="1.2.250.1.213.1.1.4.322"
                   displayName="Punch du bloc tumoral"/>
-         <concept code="MED-304"
+         <Concept code="MED-304"
                   codeSystem="1.2.250.1.213.1.1.4.322"
                   displayName="Production de copeaux de paraffines à partir du bloc tumoral"/>
-         <concept code="MED-305"
+         <Concept code="MED-305"
                   codeSystem="1.2.250.1.213.1.1.4.322"
                   displayName="Traitement de lames de cytologie"/>
-         <concept code="GEN-092.04.09"
+         <Concept code="GEN-092.04.09"
                   codeSystem="1.2.250.1.213.1.1.4.322"
                   displayName="Autre méthode de préparation"/>
       </ConceptList>

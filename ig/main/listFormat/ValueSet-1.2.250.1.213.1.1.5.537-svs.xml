@@ -10,11 +10,11 @@
              typeFichier="JDV"
              urlFichier="">
       <ConceptList>
-         <concept code="C49487" codeSystem="" displayName="Non"/>
-         <concept code="MED-699"
+         <Concept code="C49487" codeSystem="" displayName="Non"/>
+         <Concept code="MED-699"
                   codeSystem="1.2.250.1.213.1.1.4.322"
                   displayName="Oui en zone tumorale"/>
-         <concept code="MED-700"
+         <Concept code="MED-700"
                   codeSystem="1.2.250.1.213.1.1.4.322"
                   displayName="Oui en zone non tumorale"/>
       </ConceptList>

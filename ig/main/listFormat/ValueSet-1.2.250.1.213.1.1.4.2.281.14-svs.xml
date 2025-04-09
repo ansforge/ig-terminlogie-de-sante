@@ -10,13 +10,13 @@
              typeFichier="JDV"
              urlFichier="">
       <ConceptList>
-         <concept code="ORG-121"
+         <Concept code="ORG-121"
                   codeSystem="1.2.250.1.213.1.1.4.322"
                   displayName="Evaluation Oncogériatrique"/>
-         <concept code="ORG-122"
+         <Concept code="ORG-122"
                   codeSystem="1.2.250.1.213.1.1.4.322"
                   displayName="Consultation génétique"/>
-         <concept code="ORG-124"
+         <Concept code="ORG-124"
                   codeSystem="1.2.250.1.213.1.1.4.322"
                   displayName="Autre examen/expertise complémentaire"/>
       </ConceptList>

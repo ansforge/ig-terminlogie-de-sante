@@ -10,10 +10,10 @@
              typeFichier="JDV"
              urlFichier="">
       <ConceptList>
-         <concept code="MED-737"
+         <Concept code="MED-737"
                   codeSystem="1.2.250.1.213.1.1.4.322"
                   displayName="Non atteinte par la tumeur"/>
-         <concept code="MED-738"
+         <Concept code="MED-738"
                   codeSystem="1.2.250.1.213.1.1.4.322"
                   displayName="Infiltrée"/>
       </ConceptList>

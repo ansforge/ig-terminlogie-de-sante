@@ -10,22 +10,22 @@
              typeFichier="JDV"
              urlFichier="">
       <ConceptList>
-         <concept code="MED-627"
+         <Concept code="MED-627"
                   codeSystem="1.2.250.1.213.1.1.4.322"
                   displayName="1 - Rien"/>
-         <concept code="MED-628"
+         <Concept code="MED-628"
                   codeSystem="1.2.250.1.213.1.1.4.322"
                   displayName="2 - Nausées modéréés"/>
-         <concept code="MED-629"
+         <Concept code="MED-629"
                   codeSystem="1.2.250.1.213.1.1.4.322"
                   displayName="3 - Nausées intenses"/>
-         <concept code="MED-630"
+         <Concept code="MED-630"
                   codeSystem="1.2.250.1.213.1.1.4.322"
                   displayName="4 - Vomissements"/>
-         <concept code="MED-631"
+         <Concept code="MED-631"
                   codeSystem="1.2.250.1.213.1.1.4.322"
                   displayName="5 - Vomissement répétés ou incoercibles"/>
-         <concept code="MED-659"
+         <Concept code="MED-659"
                   codeSystem="1.2.250.1.213.1.1.4.322"
                   displayName="Non évaluable"/>
       </ConceptList>

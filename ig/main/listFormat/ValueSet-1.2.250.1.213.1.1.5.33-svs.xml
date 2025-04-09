@@ -10,13 +10,13 @@
              typeFichier="JDV"
              urlFichier="">
       <ConceptList>
-         <concept code="MED-031"
+         <Concept code="MED-031"
                   codeSystem="1.2.250.1.213.1.1.4.322"
                   displayName="Analogique"/>
-         <concept code="MED-032"
+         <Concept code="MED-032"
                   codeSystem="1.2.250.1.213.1.1.4.322"
                   displayName="Numérique DR"/>
-         <concept code="MED-033"
+         <Concept code="MED-033"
                   codeSystem="1.2.250.1.213.1.1.4.322"
                   displayName="Numérique CR"/>
       </ConceptList>

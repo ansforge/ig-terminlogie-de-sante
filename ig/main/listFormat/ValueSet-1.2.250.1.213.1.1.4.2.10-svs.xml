@@ -10,10 +10,10 @@
              typeFichier="JDV"
              urlFichier="">
       <ConceptList>
-         <concept code="D0012-1"
+         <Concept code="D0012-1"
                   codeSystem="1.2.250.1.213.1.1.4.322"
                   displayName="Homogreffe"/>
-         <concept code="D0012-2"
+         <Concept code="D0012-2"
                   codeSystem="1.2.250.1.213.1.1.4.322"
                   displayName="Autogreffe"/>
       </ConceptList>

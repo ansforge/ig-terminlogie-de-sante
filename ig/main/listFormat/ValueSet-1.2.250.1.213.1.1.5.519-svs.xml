@@ -10,22 +10,22 @@
              typeFichier="JDV"
              urlFichier="">
       <ConceptList>
-         <concept code="MED-787"
+         <Concept code="MED-787"
                   codeSystem="1.2.250.1.213.1.1.4.322"
                   displayName="Évaluation impossible"/>
-         <concept code="MED-788"
+         <Concept code="MED-788"
                   codeSystem="1.2.250.1.213.1.1.4.322"
                   displayName="Pas de tumeur retrouvée"/>
-         <concept code="MED-805"
+         <Concept code="MED-805"
                   codeSystem="1.2.250.1.213.1.1.4.322"
                   displayName="Tumeur &lt;= 2 cm"/>
-         <concept code="MED-806"
+         <Concept code="MED-806"
                   codeSystem="1.2.250.1.213.1.1.4.322"
                   displayName="Tumeur &gt; 2 cm et &lt;= 5 cm"/>
-         <concept code="MED-807"
+         <Concept code="MED-807"
                   codeSystem="1.2.250.1.213.1.1.4.322"
                   displayName="Tumeur &gt; 5 cm et &lt;= 10 cm"/>
-         <concept code="MED-808"
+         <Concept code="MED-808"
                   codeSystem="1.2.250.1.213.1.1.4.322"
                   displayName="Tumeur &gt; 10 cm"/>
       </ConceptList>

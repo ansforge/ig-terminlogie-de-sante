@@ -10,12 +10,12 @@
              typeFichier="JDV"
              urlFichier="https://mos.esante.gouv.fr/NOS/JDV_J157-MomentGlucose-ENS">
       <ConceptList>
-         <concept code="16915-1" codeSystem="" displayName="Glucose post prandial"/>
-         <concept code="53049-3" codeSystem="" displayName="Glucose à jeun"/>
-         <concept code="88365-2" codeSystem="" displayName="Glucose avant repas"/>
-         <concept code="LA11865-5" codeSystem="" displayName="Après exercice"/>
-         <concept code="LA46-8" codeSystem="" displayName="Autre"/>
-         <concept code="MED-1278"
+         <Concept code="16915-1" codeSystem="" displayName="Glucose post prandial"/>
+         <Concept code="53049-3" codeSystem="" displayName="Glucose à jeun"/>
+         <Concept code="88365-2" codeSystem="" displayName="Glucose avant repas"/>
+         <Concept code="LA11865-5" codeSystem="" displayName="Après exercice"/>
+         <Concept code="LA46-8" codeSystem="" displayName="Autre"/>
+         <Concept code="MED-1278"
                   codeSystem="1.2.250.1.213.1.1.4.322"
                   displayName="Lors d'un malaise"/>
       </ConceptList>

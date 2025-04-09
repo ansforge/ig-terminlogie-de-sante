@@ -10,13 +10,13 @@
              typeFichier="JDV"
              urlFichier="">
       <ConceptList>
-         <concept code="GEN-105"
+         <Concept code="GEN-105"
                   codeSystem="1.2.250.1.213.1.1.4.322"
                   displayName="Protection universelle maladie (PUMa)"/>
-         <concept code="GEN-107"
+         <Concept code="GEN-107"
                   codeSystem="1.2.250.1.213.1.1.4.322"
                   displayName="Aide médicale de l’état (AME)"/>
-         <concept code="GEN-108"
+         <Concept code="GEN-108"
                   codeSystem="1.2.250.1.213.1.1.4.322"
                   displayName="Aucune"/>
       </ConceptList>

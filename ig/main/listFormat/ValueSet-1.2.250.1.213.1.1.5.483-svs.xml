@@ -10,16 +10,16 @@
              typeFichier="JDV"
              urlFichier="">
       <ConceptList>
-         <concept code="GEN-197"
+         <Concept code="GEN-197"
                   codeSystem="1.2.250.1.213.1.1.4.322"
                   displayName="Pas de dépendance"/>
-         <concept code="GEN-198"
+         <Concept code="GEN-198"
                   codeSystem="1.2.250.1.213.1.1.4.322"
                   displayName="Dépendance faible"/>
-         <concept code="GEN-199"
+         <Concept code="GEN-199"
                   codeSystem="1.2.250.1.213.1.1.4.322"
                   displayName="Dépendance moyenne"/>
-         <concept code="GEN-200"
+         <Concept code="GEN-200"
                   codeSystem="1.2.250.1.213.1.1.4.322"
                   displayName="Dépendance forte ou très forte"/>
       </ConceptList>

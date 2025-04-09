@@ -10,13 +10,13 @@
              typeFichier="JDV"
              urlFichier="">
       <ConceptList>
-         <concept code="MED-200"
+         <Concept code="MED-200"
                   codeSystem="1.2.250.1.213.1.1.4.322"
                   displayName="Marche acquise"/>
-         <concept code="MED-201"
+         <Concept code="MED-201"
                   codeSystem="1.2.250.1.213.1.1.4.322"
                   displayName="Age de la marche acquise (mois)"/>
-         <concept code="MED-1274"
+         <Concept code="MED-1274"
                   codeSystem="1.2.250.1.213.1.1.4.322"
                   displayName="Repérage troubles du neurodéveloppement"/>
       </ConceptList>

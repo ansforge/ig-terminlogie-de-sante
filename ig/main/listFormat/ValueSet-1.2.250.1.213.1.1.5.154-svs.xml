@@ -10,10 +10,10 @@
              typeFichier="JDV"
              urlFichier="">
       <ConceptList>
-         <concept code="GEN-125"
+         <Concept code="GEN-125"
                   codeSystem="1.2.250.1.213.1.1.4.322"
                   displayName="Reprise à envisager. Démarches faites."/>
-         <concept code="GEN-126"
+         <Concept code="GEN-126"
                   codeSystem="1.2.250.1.213.1.1.4.322"
                   displayName="Reprise inenvisageable. Démarches faites."/>
       </ConceptList>

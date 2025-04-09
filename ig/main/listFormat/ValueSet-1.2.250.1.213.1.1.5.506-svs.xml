@@ -10,16 +10,16 @@
              typeFichier="JDV"
              urlFichier="">
       <ConceptList>
-         <concept code="GEN-213"
+         <Concept code="GEN-213"
                   codeSystem="1.2.250.1.213.1.1.4.322"
                   displayName="Constamment mouillé"/>
-         <concept code="GEN-214"
+         <Concept code="GEN-214"
                   codeSystem="1.2.250.1.213.1.1.4.322"
                   displayName="Humide"/>
-         <concept code="GEN-215"
+         <Concept code="GEN-215"
                   codeSystem="1.2.250.1.213.1.1.4.322"
                   displayName="Humidité occasionnelle"/>
-         <concept code="GEN-216"
+         <Concept code="GEN-216"
                   codeSystem="1.2.250.1.213.1.1.4.322"
                   displayName="Rarement humide"/>
       </ConceptList>

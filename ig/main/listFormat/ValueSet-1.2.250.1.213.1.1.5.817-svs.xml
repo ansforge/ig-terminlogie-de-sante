@@ -10,16 +10,16 @@
              typeFichier="JDV"
              urlFichier="">
       <ConceptList>
-         <concept code="MED-1307"
+         <Concept code="MED-1307"
                   codeSystem="1.2.250.1.213.1.1.4.322"
                   displayName="fait spontanément"/>
-         <concept code="MED-1308"
+         <Concept code="MED-1308"
                   codeSystem="1.2.250.1.213.1.1.4.322"
                   displayName="fait totalement"/>
-         <concept code="MED-1309"
+         <Concept code="MED-1309"
                   codeSystem="1.2.250.1.213.1.1.4.322"
                   displayName="fait correctement"/>
-         <concept code="MED-1310"
+         <Concept code="MED-1310"
                   codeSystem="1.2.250.1.213.1.1.4.322"
                   displayName="fait habituellement"/>
       </ConceptList>

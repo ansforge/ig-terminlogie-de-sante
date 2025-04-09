@@ -10,20 +10,20 @@
              typeFichier="JDV"
              urlFichier="">
       <ConceptList>
-         <concept code="C25757" codeSystem="" displayName="Ulcération"/>
-         <concept code="GEN-092"
+         <Concept code="C25757" codeSystem="" displayName="Ulcération"/>
+         <Concept code="GEN-092"
                   codeSystem="1.2.250.1.213.1.1.4.322"
                   displayName="Autre"/>
-         <concept code="MED-758"
+         <Concept code="MED-758"
                   codeSystem="1.2.250.1.213.1.1.4.322"
                   displayName="Aspect normal/subnormal"/>
-         <concept code="MED-759"
+         <Concept code="MED-759"
                   codeSystem="1.2.250.1.213.1.1.4.322"
                   displayName="Petite perte de substance superficielle"/>
-         <concept code="MED-760"
+         <Concept code="MED-760"
                   codeSystem="1.2.250.1.213.1.1.4.322"
                   displayName="Suffusions hémorragiques"/>
-         <concept code="MED-761"
+         <Concept code="MED-761"
                   codeSystem="1.2.250.1.213.1.1.4.322"
                   displayName="Aspect cicatriciel"/>
       </ConceptList>

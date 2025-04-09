@@ -10,13 +10,13 @@
              typeFichier="JDV"
              urlFichier="">
       <ConceptList>
-         <concept code="GEN-128"
+         <Concept code="GEN-128"
                   codeSystem="1.2.250.1.213.1.1.4.322"
                   displayName="Conduite formellement contre-indiquée"/>
-         <concept code="GEN-129"
+         <Concept code="GEN-129"
                   codeSystem="1.2.250.1.213.1.1.4.322"
                   displayName="Conduite possible sans permis spécial"/>
-         <concept code="GEN-130"
+         <Concept code="GEN-130"
                   codeSystem="1.2.250.1.213.1.1.4.322"
                   displayName="Les démarches ont-elles été faites ? (Commission médicale)"/>
       </ConceptList>

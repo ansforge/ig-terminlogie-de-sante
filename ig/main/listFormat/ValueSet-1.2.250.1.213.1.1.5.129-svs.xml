@@ -10,10 +10,10 @@
              typeFichier="JDV"
              urlFichier="">
       <ConceptList>
-         <concept code="PAT-054"
+         <Concept code="PAT-054"
                   codeSystem="1.2.250.1.213.1.1.4.322"
                   displayName="Durée de l'allaitement"/>
-         <concept code="PAT-055"
+         <Concept code="PAT-055"
                   codeSystem="1.2.250.1.213.1.1.4.322"
                   displayName="Durée de l'allaitement exclusif"/>
       </ConceptList>

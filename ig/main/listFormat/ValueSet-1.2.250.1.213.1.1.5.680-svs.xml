@@ -10,19 +10,19 @@
              typeFichier="JDV"
              urlFichier="">
       <ConceptList>
-         <concept code="MED-320"
+         <Concept code="MED-320"
                   codeSystem="1.2.250.1.213.1.1.4.322"
                   displayName="Affection longue durée (ALD)"/>
-         <concept code="MED-321"
+         <Concept code="MED-321"
                   codeSystem="1.2.250.1.213.1.1.4.322"
                   displayName="Surhandicap"/>
-         <concept code="MED-322"
+         <Concept code="MED-322"
                   codeSystem="1.2.250.1.213.1.1.4.322"
                   displayName="Plurihandicap"/>
-         <concept code="MED-323"
+         <Concept code="MED-323"
                   codeSystem="1.2.250.1.213.1.1.4.322"
                   displayName="Polyhandicap"/>
-         <concept code="MED-324"
+         <Concept code="MED-324"
                   codeSystem="1.2.250.1.213.1.1.4.322"
                   displayName="Polypathologies"/>
       </ConceptList>

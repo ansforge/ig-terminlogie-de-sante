@@ -10,16 +10,16 @@
              typeFichier="JDV"
              urlFichier="">
       <ConceptList>
-         <concept code="GEN-217"
+         <Concept code="GEN-217"
                   codeSystem="1.2.250.1.213.1.1.4.322"
                   displayName="Alité"/>
-         <concept code="GEN-218"
+         <Concept code="GEN-218"
                   codeSystem="1.2.250.1.213.1.1.4.322"
                   displayName="Confiné au fauteuil"/>
-         <concept code="GEN-219"
+         <Concept code="GEN-219"
                   codeSystem="1.2.250.1.213.1.1.4.322"
                   displayName="Marche occasionnellement"/>
-         <concept code="GEN-220"
+         <Concept code="GEN-220"
                   codeSystem="1.2.250.1.213.1.1.4.322"
                   displayName="Marche fréquemment"/>
       </ConceptList>

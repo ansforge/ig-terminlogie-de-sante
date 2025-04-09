@@ -10,19 +10,19 @@
              typeFichier="JDV"
              urlFichier="">
       <ConceptList>
-         <concept code="GEN-038"
+         <Concept code="GEN-038"
                   codeSystem="1.2.250.1.213.1.1.4.322"
                   displayName="Bénin"/>
-         <concept code="GEN-103"
+         <Concept code="GEN-103"
                   codeSystem="1.2.250.1.213.1.1.4.322"
                   displayName="Normal"/>
-         <concept code="GEN-011"
+         <Concept code="GEN-011"
                   codeSystem="1.2.250.1.213.1.1.4.322"
                   displayName="Refus"/>
-         <concept code="GEN-039"
+         <Concept code="GEN-039"
                   codeSystem="1.2.250.1.213.1.1.4.322"
                   displayName="Suspect"/>
-         <concept code="MED-117"
+         <Concept code="MED-117"
                   codeSystem="1.2.250.1.213.1.1.4.322"
                   displayName="Asymétrie Mammaire"/>
       </ConceptList>

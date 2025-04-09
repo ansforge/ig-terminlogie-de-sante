@@ -10,28 +10,28 @@
              typeFichier="JDV"
              urlFichier="">
       <ConceptList>
-         <concept code="D0020-1"
+         <Concept code="D0020-1"
                   codeSystem="1.2.250.1.213.1.1.4.322"
                   displayName="3.2mm"/>
-         <concept code="D0020-2"
+         <Concept code="D0020-2"
                   codeSystem="1.2.250.1.213.1.1.4.322"
                   displayName="IS-1"/>
-         <concept code="D0020-3"
+         <Concept code="D0020-3"
                   codeSystem="1.2.250.1.213.1.1.4.322"
                   displayName="5 mm"/>
-         <concept code="D0020-4"
+         <Concept code="D0020-4"
                   codeSystem="1.2.250.1.213.1.1.4.322"
                   displayName="6 mm"/>
-         <concept code="D0020-5"
+         <Concept code="D0020-5"
                   codeSystem="1.2.250.1.213.1.1.4.322"
                   displayName="IS-4"/>
-         <concept code="D0020-6"
+         <Concept code="D0020-6"
                   codeSystem="1.2.250.1.213.1.1.4.322"
                   displayName="LV-1"/>
-         <concept code="D0020-7"
+         <Concept code="D0020-7"
                   codeSystem="1.2.250.1.213.1.1.4.322"
                   displayName="DF-1"/>
-         <concept code="D0020-8"
+         <Concept code="D0020-8"
                   codeSystem="1.2.250.1.213.1.1.4.322"
                   displayName="DF-4"/>
       </ConceptList>

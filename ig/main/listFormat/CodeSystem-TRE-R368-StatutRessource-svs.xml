@@ -10,7 +10,7 @@
              typeFichier="TRE"
              urlFichier="https://mos.esante.gouv.fr/NOS/TRE_R368-StatutRessource">
       <ConceptList>
-         <concept code="TERMINE"
+         <Concept code="TERMINE"
                   codeSystem="1.2.250.1.213.3.3.250"
                   dateFin=""
                   dateMaj="20240927120000"
@@ -19,7 +19,7 @@
                   longDesignation="Terminé"
                   shortDesignation="Terminé"
                   descriptionMetier=""/>
-         <concept code="VALIDE"
+         <Concept code="VALIDE"
                   codeSystem="1.2.250.1.213.3.3.250"
                   dateFin=""
                   dateMaj="20240927120000"
@@ -28,7 +28,7 @@
                   longDesignation="Validé"
                   shortDesignation="Validé"
                   descriptionMetier=""/>
-         <concept code="APPROUVE"
+         <Concept code="APPROUVE"
                   codeSystem="1.2.250.1.213.3.3.250"
                   dateFin=""
                   dateMaj="20240927120000"
@@ -37,7 +37,7 @@
                   longDesignation="Approuvé"
                   shortDesignation="Approuvé"
                   descriptionMetier=""/>
-         <concept code="PLANIFIE"
+         <Concept code="PLANIFIE"
                   codeSystem="1.2.250.1.213.3.3.250"
                   dateFin=""
                   dateMaj="20240927120000"
@@ -46,7 +46,7 @@
                   longDesignation="Planifié"
                   shortDesignation="Planifié"
                   descriptionMetier=""/>
-         <concept code="REALISE"
+         <Concept code="REALISE"
                   codeSystem="1.2.250.1.213.3.3.250"
                   dateFin=""
                   dateMaj="20240927120000"
@@ -55,7 +55,7 @@
                   longDesignation="Réalisé"
                   shortDesignation="Réalisé"
                   descriptionMetier=""/>
-         <concept code="ANNULE"
+         <Concept code="ANNULE"
                   codeSystem="1.2.250.1.213.3.3.250"
                   dateFin=""
                   dateMaj="20240927120000"

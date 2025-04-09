@@ -10,25 +10,25 @@
              typeFichier="JDV"
              urlFichier="">
       <ConceptList>
-         <concept code="MED-787"
+         <Concept code="MED-787"
                   codeSystem="1.2.250.1.213.1.1.4.322"
                   displayName="Évaluation impossible"/>
-         <concept code="MED-788"
+         <Concept code="MED-788"
                   codeSystem="1.2.250.1.213.1.1.4.322"
                   displayName="Pas de tumeur retrouvée"/>
-         <concept code="MED-811"
+         <Concept code="MED-811"
                   codeSystem="1.2.250.1.213.1.1.4.322"
                   displayName="Tumeur envahissant la muqueuse ou la sous-muqueuse, &lt; 1 cm"/>
-         <concept code="MED-812"
+         <Concept code="MED-812"
                   codeSystem="1.2.250.1.213.1.1.4.322"
                   displayName="Tumeur envahissant la muqueuse ou la sous-muqueuse,  &gt;= 1 cm et &lt;= 2 cm"/>
-         <concept code="MED-813"
+         <Concept code="MED-813"
                   codeSystem="1.2.250.1.213.1.1.4.322"
                   displayName="Tumeur envahissant la musculeuse ou &gt; 2 cm"/>
-         <concept code="MED-814"
+         <Concept code="MED-814"
                   codeSystem="1.2.250.1.213.1.1.4.322"
                   displayName="Tumeur envahissant la sous-séreuse  ou  la graisse périrectale"/>
-         <concept code="MED-815"
+         <Concept code="MED-815"
                   codeSystem="1.2.250.1.213.1.1.4.322"
                   displayName="Tumeur perforant le péritoine viscéral ou envahissant d'autres organes"/>
       </ConceptList>

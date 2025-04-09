@@ -10,10 +10,10 @@
              typeFichier="JDV"
              urlFichier="">
       <ConceptList>
-         <concept code="ORG-117"
+         <Concept code="ORG-117"
                   codeSystem="1.2.250.1.213.1.1.4.322"
                   displayName="RCP Appareil - Organes"/>
-         <concept code="ORG-132"
+         <Concept code="ORG-132"
                   codeSystem="1.2.250.1.213.1.1.4.322"
                   displayName="RCP Transversale et de soins de support"/>
       </ConceptList>
