@@ -51,7 +51,7 @@ Vous trouverez ci-dessous la liste des sources :
     </tr>
     <tr>
       <td style="text-align: left">description (*)</td>
-      <td style="text-align: left">Descripption </td>
+      <td style="text-align: left">Description </td>
       <td></td>
     </tr>     
     <tr>
@@ -61,7 +61,7 @@ Vous trouverez ci-dessous la liste des sources :
     </tr>    
     <tr>
       <td style="text-align: left">title (*)</td>
-      <td style="text-align: left">Title Case</td>
+      <td style="text-align: left">Title Case (Acronyme en majuscule)</td>
       <td>Exemple : Jdv Xds Author Specialty</td>
     </tr>    
   </tbody>
@@ -89,14 +89,14 @@ On retrouve l'url du valuset dans la terminologie d'origine :
     <tr>
       <td style="text-align: left">id (*)</td>
       <td style="text-align: left">Kebab Case</td>
-      <td>Exemple : tre-mode-exercice</td>
+      <td>Exemple : terminologie-cisis-fr</td>
     </tr>
     <tr>
       <td style="text-align: left">identifier</td>
       <td style="text-align: left">Permet d'identiquer  l'OID </td>
       <td>Exemple : <code>    {
       "system" : "urn:ietf:rfc:3986",
-      "value" : "urn:oid:1.2.250.1.213.1.6.1.18"
+      "value" : "urn:oid:1.2.250.1.213.1.1.4.322"
     } </code></td>
     </tr>    
     <tr>
@@ -117,12 +117,12 @@ On retrouve l'url du valuset dans la terminologie d'origine :
     <tr>
       <td style="text-align: left">name (*)</td>
       <td style="text-align: left">UpperLowerCase</td>
-      <td>Exemple :  TreModeExercice</td>
+      <td>Exemple :   TerminologieCISISFr</td>
     </tr>    
     <tr>
       <td style="text-align: left">title (*)</td>
-      <td style="text-align: left">Title Case</td>
-      <td>Exemple : Tre Mode Exercice</td>
+      <td style="text-align: left">Title Case (Acronyme en majuscule</td>
+      <td>Exemple :  Terminologie CISIS Fr</td>
     </tr>    
   </tbody>
 </table>
