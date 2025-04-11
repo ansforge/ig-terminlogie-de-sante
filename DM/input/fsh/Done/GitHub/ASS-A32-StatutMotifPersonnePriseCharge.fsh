@@ -9,12 +9,12 @@ Usage: #definition
 * extension[=].valueBoolean = false
 * url = "https://mos.esante.gouv.fr/NOS/ASS_A32-StatutMotifPersonnePriseCharge/FHIR/ASS-A32-StatutMotifPersonnePriseCharge"
 * identifier.value = "urn:oid:1.2.250.1.213.3.4.217"
-* version = "20240726120000"
+* version = "20250411120000"
 * name = "ASS_A32_StatutMotifPersonnePriseCharge"
 * title = "Ass A32 Statut Motif Personne Prise Charge"
 * experimental = false
 * status = #active
-* date = "2024-07-26T12:00:00+01:00"
+* date = "2025-04-11T12:00:00+01:00"
 * description = "Association du motif au statut de la personne prise en charge"
 * group.source = "https://mos.esante.gouv.fr/NOS/TRE_R357-StatutPersonnePriseCharge/FHIR/TRE-R357-StatutPersonnePriseCharge"
 * group.target = "https://mos.esante.gouv.fr/NOS/TRE_R358-MotifStatutPersonnePriseCharge/FHIR/TRE-R358-MotifStatutPersonnePriseCharge"
@@ -41,12 +41,6 @@ Usage: #definition
 * group.element[=].target.equivalence = #relatedto
 * group.element[+].code = #188
 * group.element[=].target.code = #91
-* group.element[=].target.equivalence = #relatedto
-* group.element[+].code = #187
-* group.element[=].target.code = #92
-* group.element[=].target.equivalence = #relatedto
-* group.element[+].code = #187
-* group.element[=].target.code = #93
 * group.element[=].target.equivalence = #relatedto
 * group.element[+].code = #180
 * group.element[=].target.code = #95
@@ -168,9 +162,6 @@ Usage: #definition
 * group.element[+].code = #54
 * group.element[=].target.code = #170
 * group.element[=].target.equivalence = #relatedto
-* group.element[+].code = #187
-* group.element[=].target.code = #172
-* group.element[=].target.equivalence = #relatedto
 * group.element[+].code = #37
 * group.element[=].target.code = #173
 * group.element[=].target.equivalence = #relatedto
@@ -185,4 +176,13 @@ Usage: #definition
 * group.element[=].target.equivalence = #relatedto
 * group.element[+].code = #188
 * group.element[=].target.code = #253
+* group.element[=].target.equivalence = #relatedto
+* group.element[+].code = #51
+* group.element[=].target.code = #92
+* group.element[=].target.equivalence = #relatedto
+* group.element[+].code = #51
+* group.element[=].target.code = #93
+* group.element[=].target.equivalence = #relatedto
+* group.element[+].code = #51
+* group.element[=].target.code = #172
 * group.element[=].target.equivalence = #relatedto
