@@ -189,6 +189,9 @@ Usage: #definition
 * group[=].element[+].code = #68599-0
 * group[=].element[=].target.code = #11
 * group[=].element[=].target.equivalence = #equivalent
+* group[=].element[+].code = #68814-3
+* group[=].element[=].target.code = #10
+* group[=].element[=].target.equivalence = #equivalent
 * group[=].element[+].code = #68817-6
 * group[=].element[=].target.code = #11
 * group[=].element[=].target.equivalence = #equivalent
