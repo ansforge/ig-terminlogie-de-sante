@@ -39,7 +39,7 @@
                                 </xsl:otherwise>
                             </xsl:choose>
                         </xsl:variable> 
-<xsl:value-of select="substring-after(//f:CodeSystem/f:identifier[f:system/@value='urn:ietf:rfc:3986']/f:value/@value,'oid:')" />;<xsl:value-of select="f:code/@value" />;<xsl:value-of select="f:display/@value" />;<xsl:value-of select="$shortDesignation" />;<xsl:value-of select="$longDesignation" />;<xsl:value-of select="format-dateTime(f:property/f:code[@value='dateValid']/../f:valueDateTime/@value,'[Y0001][M01][D01][H01][m01][s01]')" />;<xsl:value-of select="format-dateTime(f:property/f:code[@value='dateFin']/../f:valueDateTime/@value,'[Y0001][M01][D01][H01][m01][s01]')" />;<xsl:value-of select="format-dateTime(f:property/f:code[@value='dateMaj']/../f:valueDateTime/@value,'[Y0001][M01][D01][H01][m01][s01]')" />  
+<xsl:value-of select="substring-after(//f:CodeSystem/f:identifier[f:system/@value='urn:ietf:rfc:3986']/f:value/@value,'oid:')" />;<xsl:value-of select="$longDesignation" />;<xsl:value-of select="f:display/@value" />;<xsl:value-of select="$shortDesignation" />;<xsl:value-of select="f:code/@value" />;<xsl:value-of select="format-dateTime(f:property/f:code[@value='dateValid']/../f:valueDateTime/@value,'[Y0001][M01][D01][H01][m01][s01]')" />;<xsl:value-of select="format-dateTime(f:property/f:code[@value='dateFin']/../f:valueDateTime/@value,'[Y0001][M01][D01][H01][m01][s01]')" />;<xsl:value-of select="format-dateTime(f:property/f:code[@value='dateMaj']/../f:valueDateTime/@value,'[Y0001][M01][D01][H01][m01][s01]')" />  
 <xsl:text>&#10;</xsl:text>          
     </xsl:for-each>
 </xsl:template>
