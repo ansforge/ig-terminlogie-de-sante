@@ -35,7 +35,7 @@ jobs:
           rm  -rf ./igSource/DM/input/fsh/Template/ontoserver/JDV/*.fsh
           
       - name: Run sushi pour les DM
-        run: sushi ./igSource/DM/input/fsh/Done/GitHub/*.fsh
+        run: sushi ./igSource/DM
         
       - name: Suppression des fichiers FSH
         run: | 
