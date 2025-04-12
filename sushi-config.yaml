@@ -24,7 +24,7 @@ parameters:
     apply-version: false
     apply-contact : false
     apply-publisher : false
-    apply-jurisdiction : false
+    apply-jurisdiction : true
     path-expansion-params: '../../input/_resources/exp-params.json' # for using FR  of SNOMED    
 #    related-ig: ref-impl:convention=ans.fr.documentation   
     logging:
