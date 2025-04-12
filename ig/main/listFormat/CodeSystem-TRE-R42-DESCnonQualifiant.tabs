@@ -1,44 +1,44 @@
 <OID>;<Type fichier>;<Nom fichier>;<Description>;<URL fichier>;<Date valid>;<Date fin>;<Date MàJ>
 1.2.250.1.213.2.32;TRE;TRE_R42_DESCnonQualifiant.tabs;Savoir-faire liés aux DESC du groupe 1 non qualifiants;https://mos.esante.gouv.fr/NOS/TRE_R42-DESCnonQualifiant;20151228000000;;20240628120000
 <OID>;<Code>;<Libellé adapté>;<Libellé court>;<Libellé long>;<Date valid>;<Date fin>;<Date MAJ> 
-1.2.250.1.213.2.32;DSM200;Addictologie (DNQ);Addictologie;Addictologie (DNQ);20070726000000;;20090212000000
-1.2.250.1.213.2.32;DSM201;Allergologie et Immunologie clinique (DNQ);Allergo, Immunologie clinique;Allergologie et Immunologie clinique (DNQ);20070726000000;;20160901000000
-1.2.250.1.213.2.32;DSM202;Andrologie (DNQ);Andrologie;Andrologie (DNQ);20070726000000;;20090212000000
-1.2.250.1.213.2.32;DSM203;Biochimie hormonale et métabolique (DNQ);Biochimie hormon, métabolique;Biochimie hormonale et métabolique (DNQ);20070726000000;;20160901000000
-1.2.250.1.213.2.32;DSM204;Biologie des agents infectieux (DNQ);Biologie des agents infectieux;Biologie des agents infectieux (DNQ);20070726000000;;20160901000000
-1.2.250.1.213.2.32;DSM205;Biologie moléculaire (DNQ);Biologie moléculaire;Biologie moléculaire (DNQ);20070726000000;;20090212000000
-1.2.250.1.213.2.32;DSM206;Cancérologie (DNQ);Cancérologie;Cancérologie (DNQ);20070726000000;;20090212000000
-1.2.250.1.213.2.32;DSM207;Chirurgie de la face et du cou (DNQ);Chirurgie face et cou;Chirurgie de la face et du cou (DNQ);20070726000000;;20160901000000
-1.2.250.1.213.2.32;DSM208;Chirurgie plastique et reconstructrice (DNQ);Chirurgie plastique et recon;Chirurgie plastique et reconstructrice (DNQ);20070726000000;;20160901000000
-1.2.250.1.213.2.32;DSM209;Chirurgie vasculaire (DNQ);Chirurgie vasculaire;Chirurgie vasculaire (DNQ);20070726000000;;20090212000000
-1.2.250.1.213.2.32;DSM210;Cytogénétique humaine (DNQ);Cytogénétique humaine;Cytogénétique humaine (DNQ);20070726000000;;20160901000000
-1.2.250.1.213.2.32;DSM211;Dermatopathologie (DNQ);Dermatopathologie;Dermatopathologie (DNQ);20070726000000;;20090212000000
-1.2.250.1.213.2.32;DSM212;Foetopathologie (DNQ);Foetopathologie;Foetopathologie (DNQ);20070726000000;;20090212000000
-1.2.250.1.213.2.32;DSM213;Gériatrie (DNQ);Gériatrie;Gériatrie (DNQ);20070726000000;;20090212000000
-1.2.250.1.213.2.32;DSM214;Hématologie biologique (DNQ);Hématologie biologique;Hématologie biologique (DNQ);20070726000000;;20160901000000
-1.2.250.1.213.2.32;DSM215;Hématologie maladies du sang (DNQ);Hématologie maladies du sang;Hématologie maladies du sang (DNQ);20070726000000;;20160901000000
-1.2.250.1.213.2.32;DSM216;Hémobiologie-transfusion (DNQ);Hémobiologie-transfusion;Hémobiologie-transfusion (DNQ);20070726000000;;20160901000000
-1.2.250.1.213.2.32;DSM217;Immunologie et Immunopathologie (DNQ);Immunol, Immunopatho;Immunologie et Immunopathologie (DNQ);20070726000000;;20160901000000
-1.2.250.1.213.2.32;DSM218;Médecine de la reproduction (DNQ);Médecine de la reproduction;Médecine de la reproduction (DNQ);20070726000000;;20160901000000
-1.2.250.1.213.2.32;DSM219;Médecine du sport (DNQ);Médecine du sport;Médecine du sport (DNQ);20070726000000;;20090212000000
-1.2.250.1.213.2.32;DSM220;Médecine d'urgence (DNQ);Médecine d'urgence;Médecine d'urgence (DNQ);20070726000000;;20090212000000
-1.2.250.1.213.2.32;DSM221;Médecine légale et Expertises médicales (DNQ);Médecine légale, Expertise méd;Médecine légale et Expertises médicales (DNQ);20070726000000;;20160901000000
-1.2.250.1.213.2.32;DSM222;Médecine nucléaire (DNQ);Médecine nucléaire;Médecine nucléaire (DNQ);20070726000000;;20090212000000
-1.2.250.1.213.2.32;DSM223;Médecine vasculaire (DNQ);Médecine vasculaire;Médecine vasculaire (DNQ);20070726000000;;20090212000000
-1.2.250.1.213.2.32;DSM224;Néonatalogie (DNQ);Néonatalogie;Néonatalogie (DNQ);20070726000000;;20090212000000
-1.2.250.1.213.2.32;DSM225;Neuropathologie (DNQ);Neuropathologie;Neuropathologie (DNQ);20070726000000;;20090212000000
-1.2.250.1.213.2.32;DSM226;Nutrition (DNQ);Nutrition;Nutrition (DNQ);20070726000000;;20090212000000
-1.2.250.1.213.2.32;DSM227;Orthopédie dento-maxillo-faciale (DNQ);Orthopédie dento-maxilo-fac;Orthopédie dento-maxillo-faciale (DNQ);20070726000000;;20160901000000
-1.2.250.1.213.2.32;DSM228;Pathologie infectieuse et tropicale, clinique et biologique (DNQ);Patho infect, trop, clin, bio;Pathologie infectieuse et tropicale, clinique et biologique (DNQ);20070726000000;;20160901000000
-1.2.250.1.213.2.32;DSM229;Pharmacocinétique et Métabolisme des médicaments (DNQ);Pharmacocin, Métabolisme médic;Pharmacocinétique et Métabolisme des médicaments (DNQ);20070726000000;;20160901000000
-1.2.250.1.213.2.32;DSM230;Pharmacologie clinique et Evaluation des thérapeutiques (DNQ);Pharmacol cliniq, Eval thérap;Pharmacologie clinique et Evaluation des thérapeutiques (DNQ);20070726000000;;20160901000000
-1.2.250.1.213.2.32;DSM231;Psychiatrie de l'enfant et de l'adolescent (DNQ);Psychiatrie enfant et ado;Psychiatrie de l'enfant et de l'adolescent (DNQ);20070726000000;;20160901000000
-1.2.250.1.213.2.32;DSM232;Radiopharmacie et Radiobiologie (DNQ);Radiopharm, Radiobiologie;Radiopharmacie et Radiobiologie (DNQ);20070726000000;;20160901000000
-1.2.250.1.213.2.32;DSM233;Réanimation médicale (DNQ);Réanimation médicale;Réanimation médicale (DNQ);20070726000000;;20090212000000
-1.2.250.1.213.2.32;DSM234;Toxicologie biologique (DNQ);Toxicologie biologique;Toxicologie biologique (DNQ);20070726000000;;20160901000000
-1.2.250.1.213.2.32;DSM235;Médecine de la douleur et Médecine palliative (DNQ);Médecine douleur, palliative;Médecine de la douleur et Médecine palliative (DNQ);20070726000000;;20160901000000
-1.2.250.1.213.2.32;DSM236;Cancérologie, option Traitements médicaux des cancers (DNQ);Cancéro, opt Trait méd cancers;Cancérologie, option Traitements médicaux des cancers (DNQ);20150706145938;;20160901000000
-1.2.250.1.213.2.32;DSM237;Cancérologie, option Chirurgie cancérologique (DNQ);Cancéro, opt Chirurgie cancéro;Cancérologie, option Chirurgie cancérologique (DNQ);20150706145938;;20160901000000
-1.2.250.1.213.2.32;DSM238;Cancérologie, option Réseaux de cancérologie (DNQ);Cancéro, opt Réseaux cancéro;Cancérologie, option Réseaux de cancérologie (DNQ);20150706145938;;20160901000000
-1.2.250.1.213.2.32;DSM239;Cancérologie, option Biologie cancérologie (DNQ);Cancéro, opt Biologie cancéro;Cancérologie, option Biologie cancérologie (DNQ);20150706145938;;20160901000000
-1.2.250.1.213.2.32;DSM240;Cancérologie, option Imagerie cancérologie (DNQ);Cancéro, opt Imagerie cancéro;Cancérologie, option Imagerie cancérologie (DNQ);20150706145938;;20160901000000
+1.2.250.1.213.2.32;Addictologie (DNQ);Addictologie (DNQ);Addictologie;DSM200;20070726000000;;20090212000000
+1.2.250.1.213.2.32;Allergologie et Immunologie clinique (DNQ);Allergologie et Immunologie clinique (DNQ);Allergo, Immunologie clinique;DSM201;20070726000000;;20160901000000
+1.2.250.1.213.2.32;Andrologie (DNQ);Andrologie (DNQ);Andrologie;DSM202;20070726000000;;20090212000000
+1.2.250.1.213.2.32;Biochimie hormonale et métabolique (DNQ);Biochimie hormonale et métabolique (DNQ);Biochimie hormon, métabolique;DSM203;20070726000000;;20160901000000
+1.2.250.1.213.2.32;Biologie des agents infectieux (DNQ);Biologie des agents infectieux (DNQ);Biologie des agents infectieux;DSM204;20070726000000;;20160901000000
+1.2.250.1.213.2.32;Biologie moléculaire (DNQ);Biologie moléculaire (DNQ);Biologie moléculaire;DSM205;20070726000000;;20090212000000
+1.2.250.1.213.2.32;Cancérologie (DNQ);Cancérologie (DNQ);Cancérologie;DSM206;20070726000000;;20090212000000
+1.2.250.1.213.2.32;Chirurgie de la face et du cou (DNQ);Chirurgie de la face et du cou (DNQ);Chirurgie face et cou;DSM207;20070726000000;;20160901000000
+1.2.250.1.213.2.32;Chirurgie plastique et reconstructrice (DNQ);Chirurgie plastique et reconstructrice (DNQ);Chirurgie plastique et recon;DSM208;20070726000000;;20160901000000
+1.2.250.1.213.2.32;Chirurgie vasculaire (DNQ);Chirurgie vasculaire (DNQ);Chirurgie vasculaire;DSM209;20070726000000;;20090212000000
+1.2.250.1.213.2.32;Cytogénétique humaine (DNQ);Cytogénétique humaine (DNQ);Cytogénétique humaine;DSM210;20070726000000;;20160901000000
+1.2.250.1.213.2.32;Dermatopathologie (DNQ);Dermatopathologie (DNQ);Dermatopathologie;DSM211;20070726000000;;20090212000000
+1.2.250.1.213.2.32;Foetopathologie (DNQ);Foetopathologie (DNQ);Foetopathologie;DSM212;20070726000000;;20090212000000
+1.2.250.1.213.2.32;Gériatrie (DNQ);Gériatrie (DNQ);Gériatrie;DSM213;20070726000000;;20090212000000
+1.2.250.1.213.2.32;Hématologie biologique (DNQ);Hématologie biologique (DNQ);Hématologie biologique;DSM214;20070726000000;;20160901000000
+1.2.250.1.213.2.32;Hématologie maladies du sang (DNQ);Hématologie maladies du sang (DNQ);Hématologie maladies du sang;DSM215;20070726000000;;20160901000000
+1.2.250.1.213.2.32;Hémobiologie-transfusion (DNQ);Hémobiologie-transfusion (DNQ);Hémobiologie-transfusion;DSM216;20070726000000;;20160901000000
+1.2.250.1.213.2.32;Immunologie et Immunopathologie (DNQ);Immunologie et Immunopathologie (DNQ);Immunol, Immunopatho;DSM217;20070726000000;;20160901000000
+1.2.250.1.213.2.32;Médecine de la reproduction (DNQ);Médecine de la reproduction (DNQ);Médecine de la reproduction;DSM218;20070726000000;;20160901000000
+1.2.250.1.213.2.32;Médecine du sport (DNQ);Médecine du sport (DNQ);Médecine du sport;DSM219;20070726000000;;20090212000000
+1.2.250.1.213.2.32;Médecine d'urgence (DNQ);Médecine d'urgence (DNQ);Médecine d'urgence;DSM220;20070726000000;;20090212000000
+1.2.250.1.213.2.32;Médecine légale et Expertises médicales (DNQ);Médecine légale et Expertises médicales (DNQ);Médecine légale, Expertise méd;DSM221;20070726000000;;20160901000000
+1.2.250.1.213.2.32;Médecine nucléaire (DNQ);Médecine nucléaire (DNQ);Médecine nucléaire;DSM222;20070726000000;;20090212000000
+1.2.250.1.213.2.32;Médecine vasculaire (DNQ);Médecine vasculaire (DNQ);Médecine vasculaire;DSM223;20070726000000;;20090212000000
+1.2.250.1.213.2.32;Néonatalogie (DNQ);Néonatalogie (DNQ);Néonatalogie;DSM224;20070726000000;;20090212000000
+1.2.250.1.213.2.32;Neuropathologie (DNQ);Neuropathologie (DNQ);Neuropathologie;DSM225;20070726000000;;20090212000000
+1.2.250.1.213.2.32;Nutrition (DNQ);Nutrition (DNQ);Nutrition;DSM226;20070726000000;;20090212000000
+1.2.250.1.213.2.32;Orthopédie dento-maxillo-faciale (DNQ);Orthopédie dento-maxillo-faciale (DNQ);Orthopédie dento-maxilo-fac;DSM227;20070726000000;;20160901000000
+1.2.250.1.213.2.32;Pathologie infectieuse et tropicale, clinique et biologique (DNQ);Pathologie infectieuse et tropicale, clinique et biologique (DNQ);Patho infect, trop, clin, bio;DSM228;20070726000000;;20160901000000
+1.2.250.1.213.2.32;Pharmacocinétique et Métabolisme des médicaments (DNQ);Pharmacocinétique et Métabolisme des médicaments (DNQ);Pharmacocin, Métabolisme médic;DSM229;20070726000000;;20160901000000
+1.2.250.1.213.2.32;Pharmacologie clinique et Evaluation des thérapeutiques (DNQ);Pharmacologie clinique et Evaluation des thérapeutiques (DNQ);Pharmacol cliniq, Eval thérap;DSM230;20070726000000;;20160901000000
+1.2.250.1.213.2.32;Psychiatrie de l'enfant et de l'adolescent (DNQ);Psychiatrie de l'enfant et de l'adolescent (DNQ);Psychiatrie enfant et ado;DSM231;20070726000000;;20160901000000
+1.2.250.1.213.2.32;Radiopharmacie et Radiobiologie (DNQ);Radiopharmacie et Radiobiologie (DNQ);Radiopharm, Radiobiologie;DSM232;20070726000000;;20160901000000
+1.2.250.1.213.2.32;Réanimation médicale (DNQ);Réanimation médicale (DNQ);Réanimation médicale;DSM233;20070726000000;;20090212000000
+1.2.250.1.213.2.32;Toxicologie biologique (DNQ);Toxicologie biologique (DNQ);Toxicologie biologique;DSM234;20070726000000;;20160901000000
+1.2.250.1.213.2.32;Médecine de la douleur et Médecine palliative (DNQ);Médecine de la douleur et Médecine palliative (DNQ);Médecine douleur, palliative;DSM235;20070726000000;;20160901000000
+1.2.250.1.213.2.32;Cancérologie, option Traitements médicaux des cancers (DNQ);Cancérologie, option Traitements médicaux des cancers (DNQ);Cancéro, opt Trait méd cancers;DSM236;20150706145938;;20160901000000
+1.2.250.1.213.2.32;Cancérologie, option Chirurgie cancérologique (DNQ);Cancérologie, option Chirurgie cancérologique (DNQ);Cancéro, opt Chirurgie cancéro;DSM237;20150706145938;;20160901000000
+1.2.250.1.213.2.32;Cancérologie, option Réseaux de cancérologie (DNQ);Cancérologie, option Réseaux de cancérologie (DNQ);Cancéro, opt Réseaux cancéro;DSM238;20150706145938;;20160901000000
+1.2.250.1.213.2.32;Cancérologie, option Biologie cancérologie (DNQ);Cancérologie, option Biologie cancérologie (DNQ);Cancéro, opt Biologie cancéro;DSM239;20150706145938;;20160901000000
+1.2.250.1.213.2.32;Cancérologie, option Imagerie cancérologie (DNQ);Cancérologie, option Imagerie cancérologie (DNQ);Cancéro, opt Imagerie cancéro;DSM240;20150706145938;;20160901000000

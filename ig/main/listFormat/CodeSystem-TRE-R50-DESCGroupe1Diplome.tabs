@@ -1,47 +1,47 @@
 <OID>;<Type fichier>;<Nom fichier>;<Description>;<URL fichier>;<Date valid>;<Date fin>;<Date MàJ>
 1.2.250.1.213.1.6.1.48;TRE;TRE_R50_DESCGroupe1Diplome.tabs;DESC Groupe 1 (diplôme);https://mos.esante.gouv.fr/NOS/TRE_R50-DESCGroupe1Diplome;20130628000000;;20231215120000
 <OID>;<Code>;<Libellé adapté>;<Libellé court>;<Libellé long>;<Date valid>;<Date fin>;<Date MAJ> 
-1.2.250.1.213.1.6.1.48;DSM200;Addictologie;Addictologie;Addictologie;20070725150442;;20080228000000
-1.2.250.1.213.1.6.1.48;DSM201;Allergologie et Immunologie clinique;Allergo, Immunologie clinique;Allergologie et Immunologie clinique;20070725150442;;20160901000000
-1.2.250.1.213.1.6.1.48;DSM202;Andrologie;Andrologie;Andrologie;20070725150442;;20080228000000
-1.2.250.1.213.1.6.1.48;DSM203;Biochimie hormonale et métabolique;Biochimie hormonale, métaboliq;Biochimie hormonale et métabolique;20070725150442;;20160901000000
-1.2.250.1.213.1.6.1.48;DSM204;Biologie des agents infectieux;Biologie des agents infectieux;Biologie des agents infectieux;20070725150442;;20160901000000
-1.2.250.1.213.1.6.1.48;DSM205;Biologie moléculaire;Biologie moléculaire;Biologie moléculaire;20070725150442;;20080228000000
-1.2.250.1.213.1.6.1.48;DSM206;Cancérologie;Cancérologie;Cancérologie;20070725150442;;20080228000000
-1.2.250.1.213.1.6.1.48;DSM207;Chirurgie de la face et du cou;Chir face et cou;Chirurgie de la face et du cou;20070725150442;;20080228000000
-1.2.250.1.213.1.6.1.48;DSM208;Chirurgie plastique et reconstructrice;Chir plastique, reconstruct;Chirurgie plastique et reconstructrice;20070725150442;;20160901000000
-1.2.250.1.213.1.6.1.48;DSM209;Chirurgie vasculaire;Chir vasculaire;Chirurgie vasculaire;20070725150442;;20080228000000
-1.2.250.1.213.1.6.1.48;DSM210;Cytogénétique humaine;Cytogénétique humaine;Cytogénétique humaine;20070725150442;;20160901000000
-1.2.250.1.213.1.6.1.48;DSM211;Dermatopathologie;Dermatopathologie;Dermatopathologie;20070725150442;;20080228000000
-1.2.250.1.213.1.6.1.48;DSM212;Foetopathologie;Foetopathologie;Foetopathologie;20070725150442;;20080228000000
-1.2.250.1.213.1.6.1.48;DSM213;Gériatrie;Gériatrie;Gériatrie;20070725150442;;20080228000000
-1.2.250.1.213.1.6.1.48;DSM214;Hématologie biologique;Hématologie biologique;Hématologie biologique;20070725150442;;20160901000000
-1.2.250.1.213.1.6.1.48;DSM215;Hématologie, Maladies du sang;Hématologie, Maladies du sang;Hématologie, Maladies du sang;20070725150442;;20160901000000
-1.2.250.1.213.1.6.1.48;DSM216;Hémobiologie-transfusion;Hémobiologie-transfusion;Hémobiologie-transfusion;20070725150442;;20160901000000
-1.2.250.1.213.1.6.1.48;DSM217;Immunologie et Immunopathologie;Immunologie, Immunopathologie;Immunologie et Immunopathologie;20070725150442;;20160901000000
-1.2.250.1.213.1.6.1.48;DSM218;Médecine de la reproduction;Médecine de la reproduction;Médecine de la reproduction;20070725150442;;20160901000000
-1.2.250.1.213.1.6.1.48;DSM219;Médecine du sport;Médecine du sport;Médecine du sport;20070725150442;;20160901000000
-1.2.250.1.213.1.6.1.48;DSM220;Médecine d'urgence;Médecine d'urgence;Médecine d'urgence;20070725150442;;20080228000000
-1.2.250.1.213.1.6.1.48;DSM221;Médecine légale et Expertises médicales;Médecine légale, Expertise méd;Médecine légale et Expertises médicales;20070725150442;;20160901000000
-1.2.250.1.213.1.6.1.48;DSM222;Médecine nucléaire;Médecine nucléaire;Médecine nucléaire;20070725150442;;20080228000000
-1.2.250.1.213.1.6.1.48;DSM223;Médecine vasculaire;Médecine vasculaire;Médecine vasculaire;20070725150442;;20080228000000
-1.2.250.1.213.1.6.1.48;DSM224;Néonatalogie;Néonatalogie;Néonatalogie;20070725150442;;20080228000000
-1.2.250.1.213.1.6.1.48;DSM225;Neuro-pathologie;Neuro-pathologie;Neuro-pathologie;20070725150442;;20080228000000
-1.2.250.1.213.1.6.1.48;DSM226;Nutrition;Nutrition;Nutrition;20070725150442;;20080228000000
-1.2.250.1.213.1.6.1.48;DSM227;Orthopédie dento-maxillo-faciale;Orthopédie dento-maxillo-fac;Orthopédie dento-maxillo-faciale;20070725150442;;20160901000000
-1.2.250.1.213.1.6.1.48;DSM228;Pathologie infectieuse et tropicale, clinique et biologique;Patho infect, trop, clin, bio;Pathologie infectieuse et tropicale, clinique et biologique;20070725150442;;20160901000000
-1.2.250.1.213.1.6.1.48;DSM229;Pharmacocinétique et Métabolisme des médicaments;Pharmacocin, Métabolisme médic;Pharmacocinétique et Métabolisme des médicaments;20070725150442;;20160901000000
-1.2.250.1.213.1.6.1.48;DSM230;Pharmacologie clinique et Evaluation des thérapeutiques;Pharmacol clin, Eval thérapeut;Pharmacologie clinique et Evaluation des thérapeutiques;20070725150442;;20160901000000
-1.2.250.1.213.1.6.1.48;DSM231;Psychiatrie de l'enfant et de l'adolescent;Psychiatrie enfant et ado;Psychiatrie de l'enfant et de l'adolescent;20070725150442;;20160901000000
-1.2.250.1.213.1.6.1.48;DSM232;Radiopharmacie et Radiobiologie;Radiopharmacie, Radiobiologie;Radiopharmacie et Radiobiologie;20070725150442;;20160901000000
-1.2.250.1.213.1.6.1.48;DSM233;Réanimation médicale;Réanimation médicale;Réanimation médicale;20070725150442;;20080228000000
-1.2.250.1.213.1.6.1.48;DSM234;Toxicologie biologique;Toxicologie biologique;Toxicologie biologique;20070725150442;;20160901000000
-1.2.250.1.213.1.6.1.48;DSM235;Médecine de la douleur et Médecine palliative;Méd douleur, Méd pal;Médecine de la douleur et Médecine palliative;20070725150442;;20160901000000
-1.2.250.1.213.1.6.1.48;DSM236;Cancérologie, option Traitements médicaux des cancers;Ttt médicaux cancers;Cancérologie, option Traitements médicaux des cancers;20150529155830;;20160901000000
-1.2.250.1.213.1.6.1.48;DSM237;Cancérologie, option Chirurgie cancérologique;Cancéro, opt Chir cancérologie;Cancérologie, option Chirurgie cancérologique;20150529155830;;20160901000000
-1.2.250.1.213.1.6.1.48;DSM238;Cancérologie, option Réseaux de cancérologie;Cancéro, opt Réseaux cancéro;Cancérologie, option Réseaux de cancérologie;20150529155830;;20160901000000
-1.2.250.1.213.1.6.1.48;DSM239;Cancérologie, option Biologie cancérologie;Cancéro, opt Biologie cancéro;Cancérologie, option Biologie cancérologie;20150529155830;;20160901000000
-1.2.250.1.213.1.6.1.48;DSM240;Cancérologie, option Imagerie cancérologie;Cancéro, opt Imagerie cancéro;Cancérologie, option Imagerie cancérologie;20150529155830;;20160901000000
-1.2.250.1.213.1.6.1.48;DSP01;Radiopharmacie et Radiobiologie;Radiopharmacie, Radiobiologie;Radiopharmacie et Radiobiologie;20070725150442;;20160901000000
-1.2.250.1.213.1.6.1.48;DSP02;Toxicologie biologique;Toxicologie biologique;Toxicologie biologique;20070725150442;;20160901000000
-1.2.250.1.213.1.6.1.48;DSP03;Biologie des agents infectieux;Biologie des agents infectieux;Biologie des agents infectieux;20070725150442;;20160901000000
+1.2.250.1.213.1.6.1.48;Addictologie;Addictologie;Addictologie;DSM200;20070725150442;;20080228000000
+1.2.250.1.213.1.6.1.48;Allergologie et Immunologie clinique;Allergologie et Immunologie clinique;Allergo, Immunologie clinique;DSM201;20070725150442;;20160901000000
+1.2.250.1.213.1.6.1.48;Andrologie;Andrologie;Andrologie;DSM202;20070725150442;;20080228000000
+1.2.250.1.213.1.6.1.48;Biochimie hormonale et métabolique;Biochimie hormonale et métabolique;Biochimie hormonale, métaboliq;DSM203;20070725150442;;20160901000000
+1.2.250.1.213.1.6.1.48;Biologie des agents infectieux;Biologie des agents infectieux;Biologie des agents infectieux;DSM204;20070725150442;;20160901000000
+1.2.250.1.213.1.6.1.48;Biologie moléculaire;Biologie moléculaire;Biologie moléculaire;DSM205;20070725150442;;20080228000000
+1.2.250.1.213.1.6.1.48;Cancérologie;Cancérologie;Cancérologie;DSM206;20070725150442;;20080228000000
+1.2.250.1.213.1.6.1.48;Chirurgie de la face et du cou;Chirurgie de la face et du cou;Chir face et cou;DSM207;20070725150442;;20080228000000
+1.2.250.1.213.1.6.1.48;Chirurgie plastique et reconstructrice;Chirurgie plastique et reconstructrice;Chir plastique, reconstruct;DSM208;20070725150442;;20160901000000
+1.2.250.1.213.1.6.1.48;Chirurgie vasculaire;Chirurgie vasculaire;Chir vasculaire;DSM209;20070725150442;;20080228000000
+1.2.250.1.213.1.6.1.48;Cytogénétique humaine;Cytogénétique humaine;Cytogénétique humaine;DSM210;20070725150442;;20160901000000
+1.2.250.1.213.1.6.1.48;Dermatopathologie;Dermatopathologie;Dermatopathologie;DSM211;20070725150442;;20080228000000
+1.2.250.1.213.1.6.1.48;Foetopathologie;Foetopathologie;Foetopathologie;DSM212;20070725150442;;20080228000000
+1.2.250.1.213.1.6.1.48;Gériatrie;Gériatrie;Gériatrie;DSM213;20070725150442;;20080228000000
+1.2.250.1.213.1.6.1.48;Hématologie biologique;Hématologie biologique;Hématologie biologique;DSM214;20070725150442;;20160901000000
+1.2.250.1.213.1.6.1.48;Hématologie, Maladies du sang;Hématologie, Maladies du sang;Hématologie, Maladies du sang;DSM215;20070725150442;;20160901000000
+1.2.250.1.213.1.6.1.48;Hémobiologie-transfusion;Hémobiologie-transfusion;Hémobiologie-transfusion;DSM216;20070725150442;;20160901000000
+1.2.250.1.213.1.6.1.48;Immunologie et Immunopathologie;Immunologie et Immunopathologie;Immunologie, Immunopathologie;DSM217;20070725150442;;20160901000000
+1.2.250.1.213.1.6.1.48;Médecine de la reproduction;Médecine de la reproduction;Médecine de la reproduction;DSM218;20070725150442;;20160901000000
+1.2.250.1.213.1.6.1.48;Médecine du sport;Médecine du sport;Médecine du sport;DSM219;20070725150442;;20160901000000
+1.2.250.1.213.1.6.1.48;Médecine d'urgence;Médecine d'urgence;Médecine d'urgence;DSM220;20070725150442;;20080228000000
+1.2.250.1.213.1.6.1.48;Médecine légale et Expertises médicales;Médecine légale et Expertises médicales;Médecine légale, Expertise méd;DSM221;20070725150442;;20160901000000
+1.2.250.1.213.1.6.1.48;Médecine nucléaire;Médecine nucléaire;Médecine nucléaire;DSM222;20070725150442;;20080228000000
+1.2.250.1.213.1.6.1.48;Médecine vasculaire;Médecine vasculaire;Médecine vasculaire;DSM223;20070725150442;;20080228000000
+1.2.250.1.213.1.6.1.48;Néonatalogie;Néonatalogie;Néonatalogie;DSM224;20070725150442;;20080228000000
+1.2.250.1.213.1.6.1.48;Neuro-pathologie;Neuro-pathologie;Neuro-pathologie;DSM225;20070725150442;;20080228000000
+1.2.250.1.213.1.6.1.48;Nutrition;Nutrition;Nutrition;DSM226;20070725150442;;20080228000000
+1.2.250.1.213.1.6.1.48;Orthopédie dento-maxillo-faciale;Orthopédie dento-maxillo-faciale;Orthopédie dento-maxillo-fac;DSM227;20070725150442;;20160901000000
+1.2.250.1.213.1.6.1.48;Pathologie infectieuse et tropicale, clinique et biologique;Pathologie infectieuse et tropicale, clinique et biologique;Patho infect, trop, clin, bio;DSM228;20070725150442;;20160901000000
+1.2.250.1.213.1.6.1.48;Pharmacocinétique et Métabolisme des médicaments;Pharmacocinétique et Métabolisme des médicaments;Pharmacocin, Métabolisme médic;DSM229;20070725150442;;20160901000000
+1.2.250.1.213.1.6.1.48;Pharmacologie clinique et Evaluation des thérapeutiques;Pharmacologie clinique et Evaluation des thérapeutiques;Pharmacol clin, Eval thérapeut;DSM230;20070725150442;;20160901000000
+1.2.250.1.213.1.6.1.48;Psychiatrie de l'enfant et de l'adolescent;Psychiatrie de l'enfant et de l'adolescent;Psychiatrie enfant et ado;DSM231;20070725150442;;20160901000000
+1.2.250.1.213.1.6.1.48;Radiopharmacie et Radiobiologie;Radiopharmacie et Radiobiologie;Radiopharmacie, Radiobiologie;DSM232;20070725150442;;20160901000000
+1.2.250.1.213.1.6.1.48;Réanimation médicale;Réanimation médicale;Réanimation médicale;DSM233;20070725150442;;20080228000000
+1.2.250.1.213.1.6.1.48;Toxicologie biologique;Toxicologie biologique;Toxicologie biologique;DSM234;20070725150442;;20160901000000
+1.2.250.1.213.1.6.1.48;Médecine de la douleur et Médecine palliative;Médecine de la douleur et Médecine palliative;Méd douleur, Méd pal;DSM235;20070725150442;;20160901000000
+1.2.250.1.213.1.6.1.48;Cancérologie, option Traitements médicaux des cancers;Cancérologie, option Traitements médicaux des cancers;Ttt médicaux cancers;DSM236;20150529155830;;20160901000000
+1.2.250.1.213.1.6.1.48;Cancérologie, option Chirurgie cancérologique;Cancérologie, option Chirurgie cancérologique;Cancéro, opt Chir cancérologie;DSM237;20150529155830;;20160901000000
+1.2.250.1.213.1.6.1.48;Cancérologie, option Réseaux de cancérologie;Cancérologie, option Réseaux de cancérologie;Cancéro, opt Réseaux cancéro;DSM238;20150529155830;;20160901000000
+1.2.250.1.213.1.6.1.48;Cancérologie, option Biologie cancérologie;Cancérologie, option Biologie cancérologie;Cancéro, opt Biologie cancéro;DSM239;20150529155830;;20160901000000
+1.2.250.1.213.1.6.1.48;Cancérologie, option Imagerie cancérologie;Cancérologie, option Imagerie cancérologie;Cancéro, opt Imagerie cancéro;DSM240;20150529155830;;20160901000000
+1.2.250.1.213.1.6.1.48;Radiopharmacie et Radiobiologie;Radiopharmacie et Radiobiologie;Radiopharmacie, Radiobiologie;DSP01;20070725150442;;20160901000000
+1.2.250.1.213.1.6.1.48;Toxicologie biologique;Toxicologie biologique;Toxicologie biologique;DSP02;20070725150442;;20160901000000
+1.2.250.1.213.1.6.1.48;Biologie des agents infectieux;Biologie des agents infectieux;Biologie des agents infectieux;DSP03;20070725150442;;20160901000000

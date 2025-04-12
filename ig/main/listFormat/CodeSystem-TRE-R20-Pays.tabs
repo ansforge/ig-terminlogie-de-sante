@@ -1,242 +1,242 @@
 <OID>;<Type fichier>;<Nom fichier>;<Description>;<URL fichier>;<Date valid>;<Date fin>;<Date MàJ>
 1.2.250.1.213.2.24;TRE;TRE_R20_Pays.tabs;Référentiel des codes pays provenant du COG INSEE;https://mos.esante.gouv.fr/NOS/TRE_R20-Pays;20160209000000;;20250328120000
 <OID>;<Code>;<Libellé adapté>;<Libellé court>;<Libellé long>;<Date valid>;<Date fin>;<Date MAJ> 
-1.2.250.1.213.2.24;99000;République française;France;République française;20160209000000;20160901000000;20240126120000
-1.2.250.1.213.2.24;99100;République française;France;République française;20160901000000;;20240126120000
-1.2.250.1.213.2.24;99101;Royaume du Danemark;Danemark;Royaume du Danemark;20160209000000;;20240126120000
-1.2.250.1.213.2.24;99102;Islande;Islande;Islande;20160209000000;;20240628120000
-1.2.250.1.213.2.24;99103;Royaume de Norvège;Norvège;Royaume de Norvège;20160209000000;;20240126120000
-1.2.250.1.213.2.24;99104;Royaume de Suède;Suède;Royaume de Suède;20160209000000;;20240126120000
-1.2.250.1.213.2.24;99105;République de Finlande;Finlande;République de Finlande;20160209000000;;20240126120000
-1.2.250.1.213.2.24;99106;République d'Estonie;Estonie;République d'Estonie;20160209000000;;20240126120000
-1.2.250.1.213.2.24;99107;République de Lettonie;Lettonie;République de Lettonie;20160209000000;;20240126120000
-1.2.250.1.213.2.24;99108;République de Lituanie;Lituanie;République de Lituanie;20160209000000;;20240126120000
-1.2.250.1.213.2.24;99109;République fédérale d'Allemagne;Allemagne;République fédérale d'Allemagne;20160209000000;;20240126120000
-1.2.250.1.213.2.24;99110;République d'Autriche;Autriche;République d'Autriche;20160209000000;;20240126120000
-1.2.250.1.213.2.24;99111;République de Bulgarie;Bulgarie;République de Bulgarie;20160209000000;;20240126120000
-1.2.250.1.213.2.24;99112;Hongrie;Hongrie;Hongrie;20160209000000;;20240628120000
-1.2.250.1.213.2.24;99113;Principauté du Liechtenstein;Liechtenstein;Principauté du Liechtenstein;20160209000000;;20240126120000
-1.2.250.1.213.2.24;99114;Roumanie;Roumanie;Roumanie;20160209000000;;20240126120000
-1.2.250.1.213.2.24;99115;Tchécoslovaquie;Tchécoslovaquie;Tchécoslovaquie;20160209000000;20160209000000;20240126120000
-1.2.250.1.213.2.24;99116;République tchèque;Tchéquie;République tchèque;20160209000000;;20240126120000
-1.2.250.1.213.2.24;99117;République slovaque;Slovaquie;République slovaque;20160209000000;;20240126120000
-1.2.250.1.213.2.24;99118;Bosnie-Herzégovine;Bosnie-Herzégovine;Bosnie-Herzégovine;20160209000000;;20240628120000
-1.2.250.1.213.2.24;99119;République de Croatie;Croatie;République de Croatie;20160209000000;;20240126120000
-1.2.250.1.213.2.24;99120;Monténégro;Monténégro;Monténégro;20160209000000;;20240628120000
-1.2.250.1.213.2.24;99121;République de Serbie;Serbie;République de Serbie;20160209000000;;20240126120000
-1.2.250.1.213.2.24;99122;République de Pologne;Pologne;République de Pologne;20160209000000;;20240126120000
-1.2.250.1.213.2.24;99123;Fédération de Russie;Russie;Fédération de Russie;20160209000000;;20240126120000
-1.2.250.1.213.2.24;99124;Turquie d'Europe;Turquie d'Europe;Turquie d'Europe;20160209000000;20160209000000;20240126120000
-1.2.250.1.213.2.24;99125;République d'Albanie;Albanie;République d'Albanie;20160209000000;;20240126120000
-1.2.250.1.213.2.24;99126;République hellénique;Grèce;République hellénique;20160209000000;;20240126120000
-1.2.250.1.213.2.24;99127;République italienne;Italie;République italienne;20160209000000;;20240126120000
-1.2.250.1.213.2.24;99128;République de Saint-Marin;Saint-Marin;République de Saint-Marin;20160209000000;;20240126120000
-1.2.250.1.213.2.24;99129;Saint-Siège ou Vatican;Vatican;Saint-Siège ou Vatican;20160209000000;;20240628120000
-1.2.250.1.213.2.24;99130;Principauté d'Andorre;Andorre;Principauté d'Andorre;20160209000000;;20240126120000
-1.2.250.1.213.2.24;99131;Royaume de Belgique;Belgique;Royaume de Belgique;20160209000000;;20240126120000
-1.2.250.1.213.2.24;99132;Royaume-Uni de Grande-Bretagne et d'Irlande du Nord;Royaume-Uni;Royaume-Uni de Grande-Bretagne et d'Irlande du Nord;20160209000000;;20240126120000
-1.2.250.1.213.2.24;99133;Gibraltar, Akrotiri et Dhekelia;Terr. britannique Méditerranée;Territoires britanniques en Méditerranée;20160209000000;;20250328120000
-1.2.250.1.213.2.24;99134;Royaume d'Espagne;Espagne;Royaume d'Espagne;20160209000000;;20240126120000
-1.2.250.1.213.2.24;99135;Royaume des Pays-Bas;Pays-Bas;Royaume des Pays-Bas;20160209000000;;20240126120000
-1.2.250.1.213.2.24;99136;Irlande;Irlande;Irlande;20160209000000;;20240628120000
-1.2.250.1.213.2.24;99137;Grand-Duché du Luxembourg;Luxembourg;Grand-Duché du Luxembourg;20160209000000;;20240628120000
-1.2.250.1.213.2.24;99138;Principauté de Monaco;Monaco;Principauté de Monaco;20160209000000;;20240126120000
-1.2.250.1.213.2.24;99139;République portugaise;Portugal;République portugaise;20160209000000;;20240126120000
-1.2.250.1.213.2.24;99140;Confédération suisse;Suisse;Confédération suisse;20160209000000;;20240126120000
-1.2.250.1.213.2.24;99141;République démocratique allemande;Rep. dem. allemande;République démocratique allemande;20160209000000;20160209000000;20240126120000
-1.2.250.1.213.2.24;99142;République fédérale d'Allemagne;Rep. fed. Allemagne;République fédérale d'Allemagne;20160209000000;20160209000000;20240126120000
-1.2.250.1.213.2.24;99144;République de Malte;Malte;République de Malte;20160209000000;;20240126120000
-1.2.250.1.213.2.24;99145;République de Slovénie;Slovénie;République de Slovénie;20160209000000;;20240126120000
-1.2.250.1.213.2.24;99148;République de Biélorussie;Biélorussie;République de Biélorussie;20160209000000;;20240126120000
-1.2.250.1.213.2.24;99151;République de Moldavie;Moldavie;République de Moldavie;20160209000000;;20240126120000
-1.2.250.1.213.2.24;99155;Ukraine;Ukraine;Ukraine;20160209000000;;20240126120000
-1.2.250.1.213.2.24;99156;République de Macédoine du Nord;Macédoine du Nord;République de Macédoine du Nord;20160209000000;;20240628120000
-1.2.250.1.213.2.24;99157;République du Kosovo;Kosovo;République du Kosovo;20160209000000;;20240126120000
-1.2.250.1.213.2.24;99201;Royaume d'Arabie saoudite;Arabie saoudite;Royaume d'Arabie saoudite;20160209000000;;20240126120000
-1.2.250.1.213.2.24;99202;Yémen (République arabe du);Yémen (République arabe du);Yémen (République arabe du);20160209000000;20160209000000;20240126120000
-1.2.250.1.213.2.24;99203;République d'Irak;Irak;République d'Irak;20160209000000;;20240628120000
-1.2.250.1.213.2.24;99204;République islamique d'Iran;Iran;République islamique d'Iran;20160209000000;;20240126120000
-1.2.250.1.213.2.24;99205;République libanaise;Liban;République libanaise;20160209000000;;20240126120000
-1.2.250.1.213.2.24;99206;République arabe syrienne;Syrie;République arabe syrienne;20160209000000;;20240126120000
-1.2.250.1.213.2.24;99207;État d'Israël;Israël;État d'Israël;20160209000000;;20240126120000
-1.2.250.1.213.2.24;99208;République de Turquie;Turquie;République de Turquie;20160209000000;;20240628120000
-1.2.250.1.213.2.24;99209;Sibérie;Sibérie;Sibérie;20160209000000;20160209000000;20240126120000
-1.2.250.1.213.2.24;99210;Turkestan russe;Turkestan russe;Turkestan russe;20160209000000;20160209000000;20240126120000
-1.2.250.1.213.2.24;99211;Kamtchatka;Kamtchatka;Kamtchatka;20160209000000;20160209000000;20240126120000
-1.2.250.1.213.2.24;99212;République islamique d'Afghanistan;Afghanistan;République islamique d'Afghanistan;20160209000000;;20240628120000
-1.2.250.1.213.2.24;99213;République islamique du Pakistan;Pakistan;République islamique du Pakistan;20160209000000;;20240126120000
-1.2.250.1.213.2.24;99214;Royaume du Bhoutan;Bhoutan;Royaume du Bhoutan;20160209000000;;20240126120000
-1.2.250.1.213.2.24;99215;Népal;Népal;Népal;20160209000000;;20240126120000
-1.2.250.1.213.2.24;99216;République populaire de Chine;Chine;République populaire de Chine;20160209000000;;20240126120000
-1.2.250.1.213.2.24;99217;Japon;Japon;Japon;20160209000000;;20240126120000
-1.2.250.1.213.2.24;99218;Mandchourie;Mandchourie;Mandchourie;20160209000000;20160209000000;20240126120000
-1.2.250.1.213.2.24;99219;Royaume de Thaïlande;Thaïlande;Royaume de Thaïlande;20160209000000;;20240126120000
-1.2.250.1.213.2.24;99220;République des Philippines;Philippines;République des Philippines;20160209000000;;20240126120000
-1.2.250.1.213.2.24;99221;Possessions britanniques au Proche-Orient;Pos.brit. Proche-Orient;Possessions britanniques au Proche-Orient;20160209000000;20160209000000;20240126120000
-1.2.250.1.213.2.24;99222;Royaume hachémite de Jordanie;Jordanie;Royaume hachémite de Jordanie;20160209000000;;20240126120000
-1.2.250.1.213.2.24;99223;République de l'Inde;Inde;République de l'Inde;20160209000000;;20240126120000
-1.2.250.1.213.2.24;99224;République de l'Union de Birmanie;Birmanie;République de l'Union de Birmanie;20160209000000;;20240628120000
-1.2.250.1.213.2.24;99225;Brunei Darussalam;Brunei;Brunei Darussalam;20160209000000;;20240628120000
-1.2.250.1.213.2.24;99226;République de Singapour;Singapour;République de Singapour;20160209000000;;20240126120000
-1.2.250.1.213.2.24;99227;Malaisie;Malaisie;Malaisie;20160209000000;;20240126120000
-1.2.250.1.213.2.24;99228;États malais non fédérés;États malais non fédérés;États malais non fédérés;20160209000000;20160209000000;20240126120000
-1.2.250.1.213.2.24;99229;République des Maldives;Maldives;République des Maldives;20160209000000;;20240126120000
-1.2.250.1.213.2.24;99230;Hong Kong;Hong Kong;Hong Kong;20160209000000;;20241213120000
-1.2.250.1.213.2.24;99231;République d'Indonésie;Indonésie;République d'Indonésie;20160209000000;;20240126120000
-1.2.250.1.213.2.24;99232;Macao;Macao;Macao;20160209000000;;20241213120000
-1.2.250.1.213.2.24;99233;Yémen démocratique;Yémen démocratique;Yémen démocratique;20160209000000;20160209000000;20240126120000
-1.2.250.1.213.2.24;99234;Royaume du Cambodge;Cambodge;Royaume du Cambodge;20160209000000;;20240126120000
-1.2.250.1.213.2.24;99235;République démocratique socialiste du Sri Lanka;Sri Lanka;République démocratique socialiste du Sri Lanka;20160209000000;;20240126120000
-1.2.250.1.213.2.24;99236;Taïwan;Taïwan;Taïwan;20160209000000;;20240126120000
-1.2.250.1.213.2.24;99237;Corée;Corée;Corée;20160209000000;20160209000000;20240126120000
-1.2.250.1.213.2.24;99238;République populaire démocratique de Corée;Corée du Nord;République populaire démocratique de Corée;20160209000000;;20240628120000
-1.2.250.1.213.2.24;99239;République de Corée;Corée du Sud;République de Corée;20160209000000;;20240628120000
-1.2.250.1.213.2.24;99240;État du Koweït;Koweït;État du Koweït;20160209000000;;20240126120000
-1.2.250.1.213.2.24;99241;République démocratique populaire lao;Laos;République démocratique populaire lao;20160209000000;;20240126120000
-1.2.250.1.213.2.24;99242;Mongolie;Mongolie;Mongolie;20160209000000;;20240126120000
-1.2.250.1.213.2.24;99243;République socialiste du Vietnam;Vietnam;République socialiste du Vietnam;20160209000000;;20240628120000
-1.2.250.1.213.2.24;99244;Vietnam du nord;Vietnam du nord;Vietnam du nord;20160209000000;20160209000000;20240628120000
-1.2.250.1.213.2.24;99245;Vietnam du sud;Vietnam du sud;Vietnam du sud;20160209000000;20160209000000;20240628120000
-1.2.250.1.213.2.24;99246;République populaire du Bangladesh;Bangladesh;République populaire du Bangladesh;20160209000000;;20240126120000
-1.2.250.1.213.2.24;99247;Émirats arabes unis;Émirats arabes unis;Émirats arabes unis;20160209000000;;20240126120000
-1.2.250.1.213.2.24;99248;État du Qatar;Qatar;État du Qatar;20160209000000;;20240126120000
-1.2.250.1.213.2.24;99249;Royaume de Bahreïn;Bahreïn;Royaume de Bahreïn;20160209000000;;20240628120000
-1.2.250.1.213.2.24;99250;Sultanat d'Oman;Oman;Sultanat d'Oman;20160209000000;;20240126120000
-1.2.250.1.213.2.24;99251;République du Yémen;Yémen;République du Yémen;20160209000000;;20240126120000
-1.2.250.1.213.2.24;99252;République d'Arménie;Arménie;République d'Arménie;20160209000000;;20240126120000
-1.2.250.1.213.2.24;99253;République d'Azerbaïdjan;Azerbaïdjan;République d'Azerbaïdjan;20160209000000;;20240628120000
-1.2.250.1.213.2.24;99254;République de Chypre;Chypre;République de Chypre;20160209000000;;20240126120000
-1.2.250.1.213.2.24;99255;Géorgie;Géorgie;Géorgie;20160209000000;;20240628120000
-1.2.250.1.213.2.24;99256;République du Kazakhstan;Kazakhstan;République du Kazakhstan;20160209000000;;20240126120000
-1.2.250.1.213.2.24;99257;République kirghize;Kirghizstan;République kirghize;20160209000000;;20240126120000
-1.2.250.1.213.2.24;99258;République d'Ouzbékistan;Ouzbékistan;République d'Ouzbékistan;20160209000000;;20240126120000
-1.2.250.1.213.2.24;99259;République du Tadjikistan;Tadjikistan;République du Tadjikistan;20160209000000;;20240126120000
-1.2.250.1.213.2.24;99260;Turkménistan;Turkménistan;Turkménistan;20160209000000;;20240126120000
-1.2.250.1.213.2.24;99261;État de Palestine;Palestine;État de Palestine;20160209000000;;20240628120000
-1.2.250.1.213.2.24;99262;République démocratique du Timor oriental;Timor oriental;République démocratique du Timor oriental;20160209000000;;20240126120000
-1.2.250.1.213.2.24;99301;République arabe d'Égypte;Égypte;République arabe d'Égypte;20160209000000;;20240126120000
-1.2.250.1.213.2.24;99302;République du Libéria;Libéria;République du Libéria;20160209000000;;20240126120000
-1.2.250.1.213.2.24;99303;République d'Afrique du Sud;Afrique du Sud;République d'Afrique du Sud;20160209000000;;20240126120000
-1.2.250.1.213.2.24;99304;République de Gambie;Gambie;République de Gambie;20160209000000;;20240126120000
-1.2.250.1.213.2.24;99305;Cameroun et Togo;Cameroun et Togo;Cameroun et Togo;20160209000000;20160209000000;20240126120000
-1.2.250.1.213.2.24;99306;Îles Sainte-Hélène, Ascension, Tristan-da-Cunha;Terr. britan. océan Atlantique;Territoires britanniques de l'océan Atlantique;20160209000000;;20241213120000
-1.2.250.1.213.2.24;99307;Sondan anglo-égyptien, Kenya, Ouganda;Soudan, Kenya, Ouganda;Sondan anglo-égyptien, Kenya, Ouganda;20160209000000;20160209000000;20240126120000
-1.2.250.1.213.2.24;99308;Îles Chagos;Terr. Britannique Océan Indien;Territoire britannique de l'océan Indien;20160209000000;;20250328120000
-1.2.250.1.213.2.24;99309;République unie de Tanzanie;Tanzanie;République unie de Tanzanie;20160209000000;;20240126120000
-1.2.250.1.213.2.24;99310;République du Zimbabwe;Zimbabwe;République du Zimbabwe;20160209000000;;20240126120000
-1.2.250.1.213.2.24;99311;République de Namibie;Namibie;République de Namibie;20160209000000;;20240126120000
-1.2.250.1.213.2.24;99312;République démocratique du Congo;Rép. démocratique du Congo;République démocratique du Congo;20160209000000;;20240628120000
-1.2.250.1.213.2.24;99313;Ceuta, Melilla, Présides, îles Canaries;Terr. espagnols Afrique Nord;Territoires espagnols en Afrique du Nord;20160209000000;;20241213120000
-1.2.250.1.213.2.24;99314;République de Guinée équatoriale;Guinée équatoriale;République de Guinée équatoriale;20160209000000;;20240126120000
-1.2.250.1.213.2.24;99315;République démocratique fédérale d'Éthiopie;Éthiopie;République démocratique fédérale d'Éthiopie;20160209000000;;20240126120000
-1.2.250.1.213.2.24;99316;État de Libye;Libye;État de Libye;20160209000000;;20240628120000
-1.2.250.1.213.2.24;99317;État d'Érythrée;Érythrée;État d'Érythrée;20160209000000;;20240126120000
-1.2.250.1.213.2.24;99318;République fédérale de Somalie;Somalie;République fédérale de Somalie;20160209000000;;20240628120000
-1.2.250.1.213.2.24;99319;Açores, Madère;Terr. port. océan Atlantique;Territoires portugais de l'océan Atlantique;20160209000000;;20241213120000
-1.2.250.1.213.2.24;99320;Îles portugaises de l'océan Indien;Îles port. océan Indien;Îles portugaises de l'océan Indien;20160209000000;20160209000000;20240126120000
-1.2.250.1.213.2.24;99321;République du Burundi;Burundi;République du Burundi;20160209000000;;20240126120000
-1.2.250.1.213.2.24;99322;République du Cameroun;Cameroun;République du Cameroun;20160209000000;;20240126120000
-1.2.250.1.213.2.24;99323;République centrafricaine;Centrafrique;République centrafricaine;20160209000000;;20240628120000
-1.2.250.1.213.2.24;99324;République du Congo;Congo;République du Congo;20160209000000;;20240126120000
-1.2.250.1.213.2.24;99325;Tanger;Tanger;Tanger;20160209000000;20160209000000;20240126120000
-1.2.250.1.213.2.24;99326;République de Côte d'Ivoire;Côte d'Ivoire;République de Côte d'Ivoire;20160209000000;;20240126120000
-1.2.250.1.213.2.24;99327;République du Bénin;Bénin;République du Bénin;20160209000000;;20240126120000
-1.2.250.1.213.2.24;99328;République gabonaise;Gabon;République gabonaise;20160209000000;;20240126120000
-1.2.250.1.213.2.24;99329;République du Ghana;Ghana;République du Ghana;20160209000000;;20240126120000
-1.2.250.1.213.2.24;99330;République de Guinée;Guinée;République de Guinée;20160209000000;;20240126120000
-1.2.250.1.213.2.24;99331;Burkina Faso;Burkina;Burkina Faso;20160209000000;;20240126120000
-1.2.250.1.213.2.24;99332;République du Kenya;Kenya;République du Kenya;20160209000000;;20240126120000
-1.2.250.1.213.2.24;99333;République de Madagascar;Madagascar;République de Madagascar;20160209000000;;20240126120000
-1.2.250.1.213.2.24;99334;République du Malawi;Malawi;République du Malawi;20160209000000;;20240126120000
-1.2.250.1.213.2.24;99335;République du Mali;Mali;République du Mali;20160209000000;;20240126120000
-1.2.250.1.213.2.24;99336;République islamique de Mauritanie;Mauritanie;République islamique de Mauritanie;20160209000000;;20240126120000
-1.2.250.1.213.2.24;99337;République du Niger;Niger;République du Niger;20160209000000;;20240126120000
-1.2.250.1.213.2.24;99338;République fédérale du Nigéria;Nigéria;République fédérale du Nigéria;20160209000000;;20240126120000
-1.2.250.1.213.2.24;99339;République d'Ouganda;Ouganda;République d'Ouganda;20160209000000;;20240628120000
-1.2.250.1.213.2.24;99340;République du Rwanda;Rwanda;République du Rwanda;20160209000000;;20240628120000
-1.2.250.1.213.2.24;99341;République du Sénégal;Sénégal;République du Sénégal;20160209000000;;20240126120000
-1.2.250.1.213.2.24;99342;République de Sierra Leone;Sierra Leone;République de Sierra Leone;20160209000000;;20240126120000
-1.2.250.1.213.2.24;99343;République du Soudan;Soudan;République du Soudan;20160209000000;;20240126120000
-1.2.250.1.213.2.24;99344;République du Tchad;Tchad;République du Tchad;20160209000000;;20240126120000
-1.2.250.1.213.2.24;99345;République togolaise;Togo;République togolaise;20160209000000;;20240126120000
-1.2.250.1.213.2.24;99346;République de Zambie;Zambie;République de Zambie;20160209000000;;20240126120000
-1.2.250.1.213.2.24;99347;République du Botswana;Botswana;République du Botswana;20160209000000;;20240126120000
-1.2.250.1.213.2.24;99348;Royaume du Lesotho;Lesotho;Royaume du Lesotho;20160209000000;;20240126120000
-1.2.250.1.213.2.24;99349;République du Soudan du Sud;Soudan du Sud;République du Soudan du Sud;20190529120000;;20240126120000
-1.2.250.1.213.2.24;99350;Royaume du Maroc;Maroc;Royaume du Maroc;20160209000000;;20240126120000
-1.2.250.1.213.2.24;99351;République tunisienne;Tunisie;République tunisienne;20160209000000;;20240126120000
-1.2.250.1.213.2.24;99352;République algérienne démocratique et populaire;Algérie;République algérienne démocratique et populaire;20160209000000;;20240126120000
-1.2.250.1.213.2.24;99389;Sahara occidental;Sahara occidental;Sahara occidental;20160209000000;;20240126120000
-1.2.250.1.213.2.24;99390;République de Maurice;Maurice;République de Maurice;20160209000000;;20240126120000
-1.2.250.1.213.2.24;99391;Royaume du Swaziland;Swaziland;Royaume du Swaziland;20160209000000;;20240628120000
-1.2.250.1.213.2.24;99392;République de Guinée-Bissao;Guinée-Bissao;République de Guinée-Bissao;20160209000000;;20240628120000
-1.2.250.1.213.2.24;99393;République du Mozambique;Mozambique;République du Mozambique;20160209000000;;20240126120000
-1.2.250.1.213.2.24;99394;République démocratique de Sao Tomé-et-Principe;Sao Tomé-et-Principe;République démocratique de Sao Tomé-et-Principe;20160209000000;;20240126120000
-1.2.250.1.213.2.24;99395;République d'Angola;Angola;République d'Angola;20160209000000;;20240126120000
-1.2.250.1.213.2.24;99396;République du Cap-Vert;Cap-Vert;République du Cap-Vert;20160209000000;;20240126120000
-1.2.250.1.213.2.24;99397;Union des Comores;Comores;Union des Comores;20160209000000;;20240628120000
-1.2.250.1.213.2.24;99398;République des Seychelles;Seychelles;République des Seychelles;20160209000000;;20240126120000
-1.2.250.1.213.2.24;99399;République de Djibouti;Djibouti;République de Djibouti;20160209000000;;20240126120000
-1.2.250.1.213.2.24;99401;Canada;Canada;Canada;20160209000000;;20240126120000
-1.2.250.1.213.2.24;99402;Terre-Neuve;Terre-Neuve;Terre-Neuve;20160209000000;20160209000000;20240126120000
-1.2.250.1.213.2.24;99403;Labrador;Labrador;Labrador;20160209000000;20160209000000;20240126120000
-1.2.250.1.213.2.24;99404;États-Unis d'Amérique;États-Unis;États-Unis d'Amérique;20160209000000;;20240126120000
-1.2.250.1.213.2.24;99405;États-Unis du Mexique;Mexique;États-Unis du Mexique;20160209000000;;20240126120000
-1.2.250.1.213.2.24;99406;République du Costa Rica;Costa Rica;République du Costa Rica;20160209000000;;20240126120000
-1.2.250.1.213.2.24;99407;République de Cuba;Cuba;République de Cuba;20160209000000;;20240126120000
-1.2.250.1.213.2.24;99408;République dominicaine;République dominicaine;République dominicaine;20160209000000;;20240628120000
-1.2.250.1.213.2.24;99409;République du Guatémala;Guatémala;République du Guatémala;20160209000000;;20250328120000
-1.2.250.1.213.2.24;99410;République d'Haïti;Haïti;République d'Haïti;20160209000000;;20240126120000
-1.2.250.1.213.2.24;99411;République du Honduras;Honduras;République du Honduras;20160209000000;;20240126120000
-1.2.250.1.213.2.24;99412;République du Nicaragua;Nicaragua;République du Nicaragua;20160209000000;;20240126120000
-1.2.250.1.213.2.24;99413;République du Panama;Panama;République du Panama;20160209000000;;20240126120000
-1.2.250.1.213.2.24;99414;République du Salvador;Salvador;République du Salvador;20160209000000;;20240628120000
-1.2.250.1.213.2.24;99415;République argentine;Argentine;République argentine;20160209000000;;20240126120000
-1.2.250.1.213.2.24;99416;République fédérative du Brésil;Brésil;République fédérative du Brésil;20160209000000;;20240126120000
-1.2.250.1.213.2.24;99417;République du Chili;Chili;République du Chili;20160209000000;;20240126120000
-1.2.250.1.213.2.24;99418;État plurinational de Bolivie;Bolivie;État plurinational de Bolivie;20160209000000;;20240126120000
-1.2.250.1.213.2.24;99419;République de Colombie;Colombie;République de Colombie;20160209000000;;20240126120000
-1.2.250.1.213.2.24;99420;République d'Équateur;Équateur;République d'Équateur;20160209000000;;20240628120000
-1.2.250.1.213.2.24;99421;République du Paraguay;Paraguay;République du Paraguay;20160209000000;;20240126120000
-1.2.250.1.213.2.24;99422;République du Pérou;Pérou;République du Pérou;20160209000000;;20240126120000
-1.2.250.1.213.2.24;99423;République orientale de l'Uruguay;Uruguay;République orientale de l'Uruguay;20160209000000;;20240126120000
-1.2.250.1.213.2.24;99424;République bolivarienne du Vénézuéla;Vénézuéla;République bolivarienne du Vénézuéla;20160209000000;;20240126120000
-1.2.250.1.213.2.24;99425;Turks-et-Caïcos, Caïmans, Montserrat, Anguilla, Vierges britanniques, Bermudes;Terr. brit. Antilles Bermudes;Territoires britanniques dans les Antilles et Bermudes;20160209000000;;20241213120000
-1.2.250.1.213.2.24;99426;Jamaïque;Jamaïque;Jamaïque;20160209000000;;20240126120000
-1.2.250.1.213.2.24;99427;Malouines, terr. antarctique brit., Géorgie-du-Sud-et-les-îles-Sandwich-du-Sud;Terr. brit. oc. Atlantique Sud;Territoires britanniques dans l'océan Atlantique Sud;20160209000000;;20241213120000
-1.2.250.1.213.2.24;99428;République coopérative du Guyana;Guyana;République coopérative du Guyana;20160209000000;;20240126120000
-1.2.250.1.213.2.24;99429;Bélize;Bélize;Bélize;20160209000000;;20240126120000
-1.2.250.1.213.2.24;99430;Groenland;Groenland;Groenland;20160209000000;;20241213120000
-1.2.250.1.213.2.24;99431;Aruba;Aruba;Aruba;20160209000000;;20241213120000
-1.2.250.1.213.2.24;99432;Porto Rico, îles Vierges des États-Unis;Terr. États-Unis en Amérique;Territoires des États-Unis en Amérique;20160209000000;;20241213120000
-1.2.250.1.213.2.24;99433;République de Trinité-et-Tobago;Trinité-et-Tobago;République de Trinité-et-Tobago;20160209000000;;20240126120000
-1.2.250.1.213.2.24;99434;Barbade;Barbade;Barbade;20160209000000;;20240126120000
-1.2.250.1.213.2.24;99435;Grenade;Grenade;Grenade;20160209000000;;20240126120000
-1.2.250.1.213.2.24;99436;Commonwealth des Bahamas;Bahamas;Commonwealth des Bahamas;20160209000000;;20240126120000
-1.2.250.1.213.2.24;99437;République du Suriname;Suriname;République du Suriname;20160209000000;;20240126120000
-1.2.250.1.213.2.24;99438;Commonwealth de Dominique;Dominique;Commonwealth de Dominique;20160209000000;;20240126120000
-1.2.250.1.213.2.24;99439;Sainte-Lucie;Sainte-Lucie;Sainte-Lucie;20160209000000;;20240126120000
-1.2.250.1.213.2.24;99440;Saint-Vincent-et-les-Grenadines;St-Vincent-et-les-Grenadines;Saint-Vincent-et-les-Grenadines;20160209000000;;20240628120000
-1.2.250.1.213.2.24;99441;Antigua-et-Barbuda;Antigua-et-Barbuda;Antigua-et-Barbuda;20160209000000;;20240126120000
-1.2.250.1.213.2.24;99442;Fédération de Saint-Christophe-et-Niévès;Féd. St-Christophe-et-Niévès;Fédération de Saint-Christophe-et-Niévès;20160209000000;;20250328120000
-1.2.250.1.213.2.24;99443;Bonaire, Saint-Eustache, Saba;Bonaire, Saint-Eustache, Saba;Bonaire, Saint-Eustache, Saba;20160209000000;;20241213120000
-1.2.250.1.213.2.24;99444;Curaçao;Curaçao;Curaçao;20160209000000;;20241213120000
-1.2.250.1.213.2.24;99445;Saint-Martin (partie néerlandaise);Saint-Martin;Saint-Martin (partie néerlandaise);20160209000000;;20241213120000
-1.2.250.1.213.2.24;99501;Commonwealth d'Australie;Australie;Commonwealth d'Australie;20160209000000;;20240628120000
-1.2.250.1.213.2.24;99502;Nouvelle-Zélande;Nouvelle-Zélande;Nouvelle-Zélande;20160209000000;;20240126120000
-1.2.250.1.213.2.24;99503;Pitcairn;Pitcairn;Pitcairn;20160209000000;;20241213120000
-1.2.250.1.213.2.24;99504;Hawaii;Hawaii;Hawaii;20160209000000;20160209000000;20240628120000
-1.2.250.1.213.2.24;99505;Mariannes du Nord, Guam, Samoa américaines, mineures éloignées des États-Unis;Terr. États-Unis en Océanie;Territoires des États-Unis en Océanie;20160209000000;;20241213120000
-1.2.250.1.213.2.24;99506;État indépendant des Samoa;Samoa;État indépendant des Samoa;20160209000000;;20240628120000
-1.2.250.1.213.2.24;99507;République de Nauru;Nauru;République de Nauru;20160209000000;;20240126120000
-1.2.250.1.213.2.24;99508;République des Fidji;Fidji;République des Fidji;20160209000000;;20240126120000
-1.2.250.1.213.2.24;99509;Royaume des Tonga;Tonga;Royaume des Tonga;20160209000000;;20240126120000
-1.2.250.1.213.2.24;99510;État indépendant de Papouasie-Nouvelle-Guinée;Papouasie-Nouvelle-Guinée;État indépendant de Papouasie-Nouvelle-Guinée;20160209000000;;20240628120000
-1.2.250.1.213.2.24;99511;Tuvalu;Tuvalu;Tuvalu;20160209000000;;20240126120000
-1.2.250.1.213.2.24;99512;Îles Salomon;Salomon;Îles Salomon;20160209000000;;20240628120000
-1.2.250.1.213.2.24;99513;République des Kiribati;Kiribati;République des Kiribati;20160209000000;;20240126120000
-1.2.250.1.213.2.24;99514;République du Vanuatu;Vanuatu;République du Vanuatu;20160209000000;;20240126120000
-1.2.250.1.213.2.24;99515;République des îles Marshall;Marshall;République des îles Marshall;20160209000000;;20240126120000
-1.2.250.1.213.2.24;99516;États fédérés de Micronésie;Micronésie;États fédérés de Micronésie;20160209000000;;20240628120000
-1.2.250.1.213.2.24;99517;République des Palaos;Palaos;République des Palaos;20160209000000;;20240628120000
-1.2.250.1.213.2.24;99699;Antarctique;Antarctique;Antarctique;20240628120000;;20240628120000
+1.2.250.1.213.2.24;République française;République française;France;99000;20160209000000;20160901000000;20240126120000
+1.2.250.1.213.2.24;République française;République française;France;99100;20160901000000;;20240126120000
+1.2.250.1.213.2.24;Royaume du Danemark;Royaume du Danemark;Danemark;99101;20160209000000;;20240126120000
+1.2.250.1.213.2.24;Islande;Islande;Islande;99102;20160209000000;;20240628120000
+1.2.250.1.213.2.24;Royaume de Norvège;Royaume de Norvège;Norvège;99103;20160209000000;;20240126120000
+1.2.250.1.213.2.24;Royaume de Suède;Royaume de Suède;Suède;99104;20160209000000;;20240126120000
+1.2.250.1.213.2.24;République de Finlande;République de Finlande;Finlande;99105;20160209000000;;20240126120000
+1.2.250.1.213.2.24;République d'Estonie;République d'Estonie;Estonie;99106;20160209000000;;20240126120000
+1.2.250.1.213.2.24;République de Lettonie;République de Lettonie;Lettonie;99107;20160209000000;;20240126120000
+1.2.250.1.213.2.24;République de Lituanie;République de Lituanie;Lituanie;99108;20160209000000;;20240126120000
+1.2.250.1.213.2.24;République fédérale d'Allemagne;République fédérale d'Allemagne;Allemagne;99109;20160209000000;;20240126120000
+1.2.250.1.213.2.24;République d'Autriche;République d'Autriche;Autriche;99110;20160209000000;;20240126120000
+1.2.250.1.213.2.24;République de Bulgarie;République de Bulgarie;Bulgarie;99111;20160209000000;;20240126120000
+1.2.250.1.213.2.24;Hongrie;Hongrie;Hongrie;99112;20160209000000;;20240628120000
+1.2.250.1.213.2.24;Principauté du Liechtenstein;Principauté du Liechtenstein;Liechtenstein;99113;20160209000000;;20240126120000
+1.2.250.1.213.2.24;Roumanie;Roumanie;Roumanie;99114;20160209000000;;20240126120000
+1.2.250.1.213.2.24;Tchécoslovaquie;Tchécoslovaquie;Tchécoslovaquie;99115;20160209000000;20160209000000;20240126120000
+1.2.250.1.213.2.24;République tchèque;République tchèque;Tchéquie;99116;20160209000000;;20240126120000
+1.2.250.1.213.2.24;République slovaque;République slovaque;Slovaquie;99117;20160209000000;;20240126120000
+1.2.250.1.213.2.24;Bosnie-Herzégovine;Bosnie-Herzégovine;Bosnie-Herzégovine;99118;20160209000000;;20240628120000
+1.2.250.1.213.2.24;République de Croatie;République de Croatie;Croatie;99119;20160209000000;;20240126120000
+1.2.250.1.213.2.24;Monténégro;Monténégro;Monténégro;99120;20160209000000;;20240628120000
+1.2.250.1.213.2.24;République de Serbie;République de Serbie;Serbie;99121;20160209000000;;20240126120000
+1.2.250.1.213.2.24;République de Pologne;République de Pologne;Pologne;99122;20160209000000;;20240126120000
+1.2.250.1.213.2.24;Fédération de Russie;Fédération de Russie;Russie;99123;20160209000000;;20240126120000
+1.2.250.1.213.2.24;Turquie d'Europe;Turquie d'Europe;Turquie d'Europe;99124;20160209000000;20160209000000;20240126120000
+1.2.250.1.213.2.24;République d'Albanie;République d'Albanie;Albanie;99125;20160209000000;;20240126120000
+1.2.250.1.213.2.24;République hellénique;République hellénique;Grèce;99126;20160209000000;;20240126120000
+1.2.250.1.213.2.24;République italienne;République italienne;Italie;99127;20160209000000;;20240126120000
+1.2.250.1.213.2.24;République de Saint-Marin;République de Saint-Marin;Saint-Marin;99128;20160209000000;;20240126120000
+1.2.250.1.213.2.24;Saint-Siège ou Vatican;Saint-Siège ou Vatican;Vatican;99129;20160209000000;;20240628120000
+1.2.250.1.213.2.24;Principauté d'Andorre;Principauté d'Andorre;Andorre;99130;20160209000000;;20240126120000
+1.2.250.1.213.2.24;Royaume de Belgique;Royaume de Belgique;Belgique;99131;20160209000000;;20240126120000
+1.2.250.1.213.2.24;Royaume-Uni de Grande-Bretagne et d'Irlande du Nord;Royaume-Uni de Grande-Bretagne et d'Irlande du Nord;Royaume-Uni;99132;20160209000000;;20240126120000
+1.2.250.1.213.2.24;Territoires britanniques en Méditerranée;Gibraltar, Akrotiri et Dhekelia;Terr. britannique Méditerranée;99133;20160209000000;;20250328120000
+1.2.250.1.213.2.24;Royaume d'Espagne;Royaume d'Espagne;Espagne;99134;20160209000000;;20240126120000
+1.2.250.1.213.2.24;Royaume des Pays-Bas;Royaume des Pays-Bas;Pays-Bas;99135;20160209000000;;20240126120000
+1.2.250.1.213.2.24;Irlande;Irlande;Irlande;99136;20160209000000;;20240628120000
+1.2.250.1.213.2.24;Grand-Duché du Luxembourg;Grand-Duché du Luxembourg;Luxembourg;99137;20160209000000;;20240628120000
+1.2.250.1.213.2.24;Principauté de Monaco;Principauté de Monaco;Monaco;99138;20160209000000;;20240126120000
+1.2.250.1.213.2.24;République portugaise;République portugaise;Portugal;99139;20160209000000;;20240126120000
+1.2.250.1.213.2.24;Confédération suisse;Confédération suisse;Suisse;99140;20160209000000;;20240126120000
+1.2.250.1.213.2.24;République démocratique allemande;République démocratique allemande;Rep. dem. allemande;99141;20160209000000;20160209000000;20240126120000
+1.2.250.1.213.2.24;République fédérale d'Allemagne;République fédérale d'Allemagne;Rep. fed. Allemagne;99142;20160209000000;20160209000000;20240126120000
+1.2.250.1.213.2.24;République de Malte;République de Malte;Malte;99144;20160209000000;;20240126120000
+1.2.250.1.213.2.24;République de Slovénie;République de Slovénie;Slovénie;99145;20160209000000;;20240126120000
+1.2.250.1.213.2.24;République de Biélorussie;République de Biélorussie;Biélorussie;99148;20160209000000;;20240126120000
+1.2.250.1.213.2.24;République de Moldavie;République de Moldavie;Moldavie;99151;20160209000000;;20240126120000
+1.2.250.1.213.2.24;Ukraine;Ukraine;Ukraine;99155;20160209000000;;20240126120000
+1.2.250.1.213.2.24;République de Macédoine du Nord;République de Macédoine du Nord;Macédoine du Nord;99156;20160209000000;;20240628120000
+1.2.250.1.213.2.24;République du Kosovo;République du Kosovo;Kosovo;99157;20160209000000;;20240126120000
+1.2.250.1.213.2.24;Royaume d'Arabie saoudite;Royaume d'Arabie saoudite;Arabie saoudite;99201;20160209000000;;20240126120000
+1.2.250.1.213.2.24;Yémen (République arabe du);Yémen (République arabe du);Yémen (République arabe du);99202;20160209000000;20160209000000;20240126120000
+1.2.250.1.213.2.24;République d'Irak;République d'Irak;Irak;99203;20160209000000;;20240628120000
+1.2.250.1.213.2.24;République islamique d'Iran;République islamique d'Iran;Iran;99204;20160209000000;;20240126120000
+1.2.250.1.213.2.24;République libanaise;République libanaise;Liban;99205;20160209000000;;20240126120000
+1.2.250.1.213.2.24;République arabe syrienne;République arabe syrienne;Syrie;99206;20160209000000;;20240126120000
+1.2.250.1.213.2.24;État d'Israël;État d'Israël;Israël;99207;20160209000000;;20240126120000
+1.2.250.1.213.2.24;République de Turquie;République de Turquie;Turquie;99208;20160209000000;;20240628120000
+1.2.250.1.213.2.24;Sibérie;Sibérie;Sibérie;99209;20160209000000;20160209000000;20240126120000
+1.2.250.1.213.2.24;Turkestan russe;Turkestan russe;Turkestan russe;99210;20160209000000;20160209000000;20240126120000
+1.2.250.1.213.2.24;Kamtchatka;Kamtchatka;Kamtchatka;99211;20160209000000;20160209000000;20240126120000
+1.2.250.1.213.2.24;République islamique d'Afghanistan;République islamique d'Afghanistan;Afghanistan;99212;20160209000000;;20240628120000
+1.2.250.1.213.2.24;République islamique du Pakistan;République islamique du Pakistan;Pakistan;99213;20160209000000;;20240126120000
+1.2.250.1.213.2.24;Royaume du Bhoutan;Royaume du Bhoutan;Bhoutan;99214;20160209000000;;20240126120000
+1.2.250.1.213.2.24;Népal;Népal;Népal;99215;20160209000000;;20240126120000
+1.2.250.1.213.2.24;République populaire de Chine;République populaire de Chine;Chine;99216;20160209000000;;20240126120000
+1.2.250.1.213.2.24;Japon;Japon;Japon;99217;20160209000000;;20240126120000
+1.2.250.1.213.2.24;Mandchourie;Mandchourie;Mandchourie;99218;20160209000000;20160209000000;20240126120000
+1.2.250.1.213.2.24;Royaume de Thaïlande;Royaume de Thaïlande;Thaïlande;99219;20160209000000;;20240126120000
+1.2.250.1.213.2.24;République des Philippines;République des Philippines;Philippines;99220;20160209000000;;20240126120000
+1.2.250.1.213.2.24;Possessions britanniques au Proche-Orient;Possessions britanniques au Proche-Orient;Pos.brit. Proche-Orient;99221;20160209000000;20160209000000;20240126120000
+1.2.250.1.213.2.24;Royaume hachémite de Jordanie;Royaume hachémite de Jordanie;Jordanie;99222;20160209000000;;20240126120000
+1.2.250.1.213.2.24;République de l'Inde;République de l'Inde;Inde;99223;20160209000000;;20240126120000
+1.2.250.1.213.2.24;République de l'Union de Birmanie;République de l'Union de Birmanie;Birmanie;99224;20160209000000;;20240628120000
+1.2.250.1.213.2.24;Brunei Darussalam;Brunei Darussalam;Brunei;99225;20160209000000;;20240628120000
+1.2.250.1.213.2.24;République de Singapour;République de Singapour;Singapour;99226;20160209000000;;20240126120000
+1.2.250.1.213.2.24;Malaisie;Malaisie;Malaisie;99227;20160209000000;;20240126120000
+1.2.250.1.213.2.24;États malais non fédérés;États malais non fédérés;États malais non fédérés;99228;20160209000000;20160209000000;20240126120000
+1.2.250.1.213.2.24;République des Maldives;République des Maldives;Maldives;99229;20160209000000;;20240126120000
+1.2.250.1.213.2.24;Hong Kong;Hong Kong;Hong Kong;99230;20160209000000;;20241213120000
+1.2.250.1.213.2.24;République d'Indonésie;République d'Indonésie;Indonésie;99231;20160209000000;;20240126120000
+1.2.250.1.213.2.24;Macao;Macao;Macao;99232;20160209000000;;20241213120000
+1.2.250.1.213.2.24;Yémen démocratique;Yémen démocratique;Yémen démocratique;99233;20160209000000;20160209000000;20240126120000
+1.2.250.1.213.2.24;Royaume du Cambodge;Royaume du Cambodge;Cambodge;99234;20160209000000;;20240126120000
+1.2.250.1.213.2.24;République démocratique socialiste du Sri Lanka;République démocratique socialiste du Sri Lanka;Sri Lanka;99235;20160209000000;;20240126120000
+1.2.250.1.213.2.24;Taïwan;Taïwan;Taïwan;99236;20160209000000;;20240126120000
+1.2.250.1.213.2.24;Corée;Corée;Corée;99237;20160209000000;20160209000000;20240126120000
+1.2.250.1.213.2.24;République populaire démocratique de Corée;République populaire démocratique de Corée;Corée du Nord;99238;20160209000000;;20240628120000
+1.2.250.1.213.2.24;République de Corée;République de Corée;Corée du Sud;99239;20160209000000;;20240628120000
+1.2.250.1.213.2.24;État du Koweït;État du Koweït;Koweït;99240;20160209000000;;20240126120000
+1.2.250.1.213.2.24;République démocratique populaire lao;République démocratique populaire lao;Laos;99241;20160209000000;;20240126120000
+1.2.250.1.213.2.24;Mongolie;Mongolie;Mongolie;99242;20160209000000;;20240126120000
+1.2.250.1.213.2.24;République socialiste du Vietnam;République socialiste du Vietnam;Vietnam;99243;20160209000000;;20240628120000
+1.2.250.1.213.2.24;Vietnam du nord;Vietnam du nord;Vietnam du nord;99244;20160209000000;20160209000000;20240628120000
+1.2.250.1.213.2.24;Vietnam du sud;Vietnam du sud;Vietnam du sud;99245;20160209000000;20160209000000;20240628120000
+1.2.250.1.213.2.24;République populaire du Bangladesh;République populaire du Bangladesh;Bangladesh;99246;20160209000000;;20240126120000
+1.2.250.1.213.2.24;Émirats arabes unis;Émirats arabes unis;Émirats arabes unis;99247;20160209000000;;20240126120000
+1.2.250.1.213.2.24;État du Qatar;État du Qatar;Qatar;99248;20160209000000;;20240126120000
+1.2.250.1.213.2.24;Royaume de Bahreïn;Royaume de Bahreïn;Bahreïn;99249;20160209000000;;20240628120000
+1.2.250.1.213.2.24;Sultanat d'Oman;Sultanat d'Oman;Oman;99250;20160209000000;;20240126120000
+1.2.250.1.213.2.24;République du Yémen;République du Yémen;Yémen;99251;20160209000000;;20240126120000
+1.2.250.1.213.2.24;République d'Arménie;République d'Arménie;Arménie;99252;20160209000000;;20240126120000
+1.2.250.1.213.2.24;République d'Azerbaïdjan;République d'Azerbaïdjan;Azerbaïdjan;99253;20160209000000;;20240628120000
+1.2.250.1.213.2.24;République de Chypre;République de Chypre;Chypre;99254;20160209000000;;20240126120000
+1.2.250.1.213.2.24;Géorgie;Géorgie;Géorgie;99255;20160209000000;;20240628120000
+1.2.250.1.213.2.24;République du Kazakhstan;République du Kazakhstan;Kazakhstan;99256;20160209000000;;20240126120000
+1.2.250.1.213.2.24;République kirghize;République kirghize;Kirghizstan;99257;20160209000000;;20240126120000
+1.2.250.1.213.2.24;République d'Ouzbékistan;République d'Ouzbékistan;Ouzbékistan;99258;20160209000000;;20240126120000
+1.2.250.1.213.2.24;République du Tadjikistan;République du Tadjikistan;Tadjikistan;99259;20160209000000;;20240126120000
+1.2.250.1.213.2.24;Turkménistan;Turkménistan;Turkménistan;99260;20160209000000;;20240126120000
+1.2.250.1.213.2.24;État de Palestine;État de Palestine;Palestine;99261;20160209000000;;20240628120000
+1.2.250.1.213.2.24;République démocratique du Timor oriental;République démocratique du Timor oriental;Timor oriental;99262;20160209000000;;20240126120000
+1.2.250.1.213.2.24;République arabe d'Égypte;République arabe d'Égypte;Égypte;99301;20160209000000;;20240126120000
+1.2.250.1.213.2.24;République du Libéria;République du Libéria;Libéria;99302;20160209000000;;20240126120000
+1.2.250.1.213.2.24;République d'Afrique du Sud;République d'Afrique du Sud;Afrique du Sud;99303;20160209000000;;20240126120000
+1.2.250.1.213.2.24;République de Gambie;République de Gambie;Gambie;99304;20160209000000;;20240126120000
+1.2.250.1.213.2.24;Cameroun et Togo;Cameroun et Togo;Cameroun et Togo;99305;20160209000000;20160209000000;20240126120000
+1.2.250.1.213.2.24;Territoires britanniques de l'océan Atlantique;Îles Sainte-Hélène, Ascension, Tristan-da-Cunha;Terr. britan. océan Atlantique;99306;20160209000000;;20241213120000
+1.2.250.1.213.2.24;Sondan anglo-égyptien, Kenya, Ouganda;Sondan anglo-égyptien, Kenya, Ouganda;Soudan, Kenya, Ouganda;99307;20160209000000;20160209000000;20240126120000
+1.2.250.1.213.2.24;Territoire britannique de l'océan Indien;Îles Chagos;Terr. Britannique Océan Indien;99308;20160209000000;;20250328120000
+1.2.250.1.213.2.24;République unie de Tanzanie;République unie de Tanzanie;Tanzanie;99309;20160209000000;;20240126120000
+1.2.250.1.213.2.24;République du Zimbabwe;République du Zimbabwe;Zimbabwe;99310;20160209000000;;20240126120000
+1.2.250.1.213.2.24;République de Namibie;République de Namibie;Namibie;99311;20160209000000;;20240126120000
+1.2.250.1.213.2.24;République démocratique du Congo;République démocratique du Congo;Rép. démocratique du Congo;99312;20160209000000;;20240628120000
+1.2.250.1.213.2.24;Territoires espagnols en Afrique du Nord;Ceuta, Melilla, Présides, îles Canaries;Terr. espagnols Afrique Nord;99313;20160209000000;;20241213120000
+1.2.250.1.213.2.24;République de Guinée équatoriale;République de Guinée équatoriale;Guinée équatoriale;99314;20160209000000;;20240126120000
+1.2.250.1.213.2.24;République démocratique fédérale d'Éthiopie;République démocratique fédérale d'Éthiopie;Éthiopie;99315;20160209000000;;20240126120000
+1.2.250.1.213.2.24;État de Libye;État de Libye;Libye;99316;20160209000000;;20240628120000
+1.2.250.1.213.2.24;État d'Érythrée;État d'Érythrée;Érythrée;99317;20160209000000;;20240126120000
+1.2.250.1.213.2.24;République fédérale de Somalie;République fédérale de Somalie;Somalie;99318;20160209000000;;20240628120000
+1.2.250.1.213.2.24;Territoires portugais de l'océan Atlantique;Açores, Madère;Terr. port. océan Atlantique;99319;20160209000000;;20241213120000
+1.2.250.1.213.2.24;Îles portugaises de l'océan Indien;Îles portugaises de l'océan Indien;Îles port. océan Indien;99320;20160209000000;20160209000000;20240126120000
+1.2.250.1.213.2.24;République du Burundi;République du Burundi;Burundi;99321;20160209000000;;20240126120000
+1.2.250.1.213.2.24;République du Cameroun;République du Cameroun;Cameroun;99322;20160209000000;;20240126120000
+1.2.250.1.213.2.24;République centrafricaine;République centrafricaine;Centrafrique;99323;20160209000000;;20240628120000
+1.2.250.1.213.2.24;République du Congo;République du Congo;Congo;99324;20160209000000;;20240126120000
+1.2.250.1.213.2.24;Tanger;Tanger;Tanger;99325;20160209000000;20160209000000;20240126120000
+1.2.250.1.213.2.24;République de Côte d'Ivoire;République de Côte d'Ivoire;Côte d'Ivoire;99326;20160209000000;;20240126120000
+1.2.250.1.213.2.24;République du Bénin;République du Bénin;Bénin;99327;20160209000000;;20240126120000
+1.2.250.1.213.2.24;République gabonaise;République gabonaise;Gabon;99328;20160209000000;;20240126120000
+1.2.250.1.213.2.24;République du Ghana;République du Ghana;Ghana;99329;20160209000000;;20240126120000
+1.2.250.1.213.2.24;République de Guinée;République de Guinée;Guinée;99330;20160209000000;;20240126120000
+1.2.250.1.213.2.24;Burkina Faso;Burkina Faso;Burkina;99331;20160209000000;;20240126120000
+1.2.250.1.213.2.24;République du Kenya;République du Kenya;Kenya;99332;20160209000000;;20240126120000
+1.2.250.1.213.2.24;République de Madagascar;République de Madagascar;Madagascar;99333;20160209000000;;20240126120000
+1.2.250.1.213.2.24;République du Malawi;République du Malawi;Malawi;99334;20160209000000;;20240126120000
+1.2.250.1.213.2.24;République du Mali;République du Mali;Mali;99335;20160209000000;;20240126120000
+1.2.250.1.213.2.24;République islamique de Mauritanie;République islamique de Mauritanie;Mauritanie;99336;20160209000000;;20240126120000
+1.2.250.1.213.2.24;République du Niger;République du Niger;Niger;99337;20160209000000;;20240126120000
+1.2.250.1.213.2.24;République fédérale du Nigéria;République fédérale du Nigéria;Nigéria;99338;20160209000000;;20240126120000
+1.2.250.1.213.2.24;République d'Ouganda;République d'Ouganda;Ouganda;99339;20160209000000;;20240628120000
+1.2.250.1.213.2.24;République du Rwanda;République du Rwanda;Rwanda;99340;20160209000000;;20240628120000
+1.2.250.1.213.2.24;République du Sénégal;République du Sénégal;Sénégal;99341;20160209000000;;20240126120000
+1.2.250.1.213.2.24;République de Sierra Leone;République de Sierra Leone;Sierra Leone;99342;20160209000000;;20240126120000
+1.2.250.1.213.2.24;République du Soudan;République du Soudan;Soudan;99343;20160209000000;;20240126120000
+1.2.250.1.213.2.24;République du Tchad;République du Tchad;Tchad;99344;20160209000000;;20240126120000
+1.2.250.1.213.2.24;République togolaise;République togolaise;Togo;99345;20160209000000;;20240126120000
+1.2.250.1.213.2.24;République de Zambie;République de Zambie;Zambie;99346;20160209000000;;20240126120000
+1.2.250.1.213.2.24;République du Botswana;République du Botswana;Botswana;99347;20160209000000;;20240126120000
+1.2.250.1.213.2.24;Royaume du Lesotho;Royaume du Lesotho;Lesotho;99348;20160209000000;;20240126120000
+1.2.250.1.213.2.24;République du Soudan du Sud;République du Soudan du Sud;Soudan du Sud;99349;20190529120000;;20240126120000
+1.2.250.1.213.2.24;Royaume du Maroc;Royaume du Maroc;Maroc;99350;20160209000000;;20240126120000
+1.2.250.1.213.2.24;République tunisienne;République tunisienne;Tunisie;99351;20160209000000;;20240126120000
+1.2.250.1.213.2.24;République algérienne démocratique et populaire;République algérienne démocratique et populaire;Algérie;99352;20160209000000;;20240126120000
+1.2.250.1.213.2.24;Sahara occidental;Sahara occidental;Sahara occidental;99389;20160209000000;;20240126120000
+1.2.250.1.213.2.24;République de Maurice;République de Maurice;Maurice;99390;20160209000000;;20240126120000
+1.2.250.1.213.2.24;Royaume du Swaziland;Royaume du Swaziland;Swaziland;99391;20160209000000;;20240628120000
+1.2.250.1.213.2.24;République de Guinée-Bissao;République de Guinée-Bissao;Guinée-Bissao;99392;20160209000000;;20240628120000
+1.2.250.1.213.2.24;République du Mozambique;République du Mozambique;Mozambique;99393;20160209000000;;20240126120000
+1.2.250.1.213.2.24;République démocratique de Sao Tomé-et-Principe;République démocratique de Sao Tomé-et-Principe;Sao Tomé-et-Principe;99394;20160209000000;;20240126120000
+1.2.250.1.213.2.24;République d'Angola;République d'Angola;Angola;99395;20160209000000;;20240126120000
+1.2.250.1.213.2.24;République du Cap-Vert;République du Cap-Vert;Cap-Vert;99396;20160209000000;;20240126120000
+1.2.250.1.213.2.24;Union des Comores;Union des Comores;Comores;99397;20160209000000;;20240628120000
+1.2.250.1.213.2.24;République des Seychelles;République des Seychelles;Seychelles;99398;20160209000000;;20240126120000
+1.2.250.1.213.2.24;République de Djibouti;République de Djibouti;Djibouti;99399;20160209000000;;20240126120000
+1.2.250.1.213.2.24;Canada;Canada;Canada;99401;20160209000000;;20240126120000
+1.2.250.1.213.2.24;Terre-Neuve;Terre-Neuve;Terre-Neuve;99402;20160209000000;20160209000000;20240126120000
+1.2.250.1.213.2.24;Labrador;Labrador;Labrador;99403;20160209000000;20160209000000;20240126120000
+1.2.250.1.213.2.24;États-Unis d'Amérique;États-Unis d'Amérique;États-Unis;99404;20160209000000;;20240126120000
+1.2.250.1.213.2.24;États-Unis du Mexique;États-Unis du Mexique;Mexique;99405;20160209000000;;20240126120000
+1.2.250.1.213.2.24;République du Costa Rica;République du Costa Rica;Costa Rica;99406;20160209000000;;20240126120000
+1.2.250.1.213.2.24;République de Cuba;République de Cuba;Cuba;99407;20160209000000;;20240126120000
+1.2.250.1.213.2.24;République dominicaine;République dominicaine;République dominicaine;99408;20160209000000;;20240628120000
+1.2.250.1.213.2.24;République du Guatémala;République du Guatémala;Guatémala;99409;20160209000000;;20250328120000
+1.2.250.1.213.2.24;République d'Haïti;République d'Haïti;Haïti;99410;20160209000000;;20240126120000
+1.2.250.1.213.2.24;République du Honduras;République du Honduras;Honduras;99411;20160209000000;;20240126120000
+1.2.250.1.213.2.24;République du Nicaragua;République du Nicaragua;Nicaragua;99412;20160209000000;;20240126120000
+1.2.250.1.213.2.24;République du Panama;République du Panama;Panama;99413;20160209000000;;20240126120000
+1.2.250.1.213.2.24;République du Salvador;République du Salvador;Salvador;99414;20160209000000;;20240628120000
+1.2.250.1.213.2.24;République argentine;République argentine;Argentine;99415;20160209000000;;20240126120000
+1.2.250.1.213.2.24;République fédérative du Brésil;République fédérative du Brésil;Brésil;99416;20160209000000;;20240126120000
+1.2.250.1.213.2.24;République du Chili;République du Chili;Chili;99417;20160209000000;;20240126120000
+1.2.250.1.213.2.24;État plurinational de Bolivie;État plurinational de Bolivie;Bolivie;99418;20160209000000;;20240126120000
+1.2.250.1.213.2.24;République de Colombie;République de Colombie;Colombie;99419;20160209000000;;20240126120000
+1.2.250.1.213.2.24;République d'Équateur;République d'Équateur;Équateur;99420;20160209000000;;20240628120000
+1.2.250.1.213.2.24;République du Paraguay;République du Paraguay;Paraguay;99421;20160209000000;;20240126120000
+1.2.250.1.213.2.24;République du Pérou;République du Pérou;Pérou;99422;20160209000000;;20240126120000
+1.2.250.1.213.2.24;République orientale de l'Uruguay;République orientale de l'Uruguay;Uruguay;99423;20160209000000;;20240126120000
+1.2.250.1.213.2.24;République bolivarienne du Vénézuéla;République bolivarienne du Vénézuéla;Vénézuéla;99424;20160209000000;;20240126120000
+1.2.250.1.213.2.24;Territoires britanniques dans les Antilles et Bermudes;Turks-et-Caïcos, Caïmans, Montserrat, Anguilla, Vierges britanniques, Bermudes;Terr. brit. Antilles Bermudes;99425;20160209000000;;20241213120000
+1.2.250.1.213.2.24;Jamaïque;Jamaïque;Jamaïque;99426;20160209000000;;20240126120000
+1.2.250.1.213.2.24;Territoires britanniques dans l'océan Atlantique Sud;Malouines, terr. antarctique brit., Géorgie-du-Sud-et-les-îles-Sandwich-du-Sud;Terr. brit. oc. Atlantique Sud;99427;20160209000000;;20241213120000
+1.2.250.1.213.2.24;République coopérative du Guyana;République coopérative du Guyana;Guyana;99428;20160209000000;;20240126120000
+1.2.250.1.213.2.24;Bélize;Bélize;Bélize;99429;20160209000000;;20240126120000
+1.2.250.1.213.2.24;Groenland;Groenland;Groenland;99430;20160209000000;;20241213120000
+1.2.250.1.213.2.24;Aruba;Aruba;Aruba;99431;20160209000000;;20241213120000
+1.2.250.1.213.2.24;Territoires des États-Unis en Amérique;Porto Rico, îles Vierges des États-Unis;Terr. États-Unis en Amérique;99432;20160209000000;;20241213120000
+1.2.250.1.213.2.24;République de Trinité-et-Tobago;République de Trinité-et-Tobago;Trinité-et-Tobago;99433;20160209000000;;20240126120000
+1.2.250.1.213.2.24;Barbade;Barbade;Barbade;99434;20160209000000;;20240126120000
+1.2.250.1.213.2.24;Grenade;Grenade;Grenade;99435;20160209000000;;20240126120000
+1.2.250.1.213.2.24;Commonwealth des Bahamas;Commonwealth des Bahamas;Bahamas;99436;20160209000000;;20240126120000
+1.2.250.1.213.2.24;République du Suriname;République du Suriname;Suriname;99437;20160209000000;;20240126120000
+1.2.250.1.213.2.24;Commonwealth de Dominique;Commonwealth de Dominique;Dominique;99438;20160209000000;;20240126120000
+1.2.250.1.213.2.24;Sainte-Lucie;Sainte-Lucie;Sainte-Lucie;99439;20160209000000;;20240126120000
+1.2.250.1.213.2.24;Saint-Vincent-et-les-Grenadines;Saint-Vincent-et-les-Grenadines;St-Vincent-et-les-Grenadines;99440;20160209000000;;20240628120000
+1.2.250.1.213.2.24;Antigua-et-Barbuda;Antigua-et-Barbuda;Antigua-et-Barbuda;99441;20160209000000;;20240126120000
+1.2.250.1.213.2.24;Fédération de Saint-Christophe-et-Niévès;Fédération de Saint-Christophe-et-Niévès;Féd. St-Christophe-et-Niévès;99442;20160209000000;;20250328120000
+1.2.250.1.213.2.24;Bonaire, Saint-Eustache, Saba;Bonaire, Saint-Eustache, Saba;Bonaire, Saint-Eustache, Saba;99443;20160209000000;;20241213120000
+1.2.250.1.213.2.24;Curaçao;Curaçao;Curaçao;99444;20160209000000;;20241213120000
+1.2.250.1.213.2.24;Saint-Martin (partie néerlandaise);Saint-Martin (partie néerlandaise);Saint-Martin;99445;20160209000000;;20241213120000
+1.2.250.1.213.2.24;Commonwealth d'Australie;Commonwealth d'Australie;Australie;99501;20160209000000;;20240628120000
+1.2.250.1.213.2.24;Nouvelle-Zélande;Nouvelle-Zélande;Nouvelle-Zélande;99502;20160209000000;;20240126120000
+1.2.250.1.213.2.24;Pitcairn;Pitcairn;Pitcairn;99503;20160209000000;;20241213120000
+1.2.250.1.213.2.24;Hawaii;Hawaii;Hawaii;99504;20160209000000;20160209000000;20240628120000
+1.2.250.1.213.2.24;Territoires des États-Unis en Océanie;Mariannes du Nord, Guam, Samoa américaines, mineures éloignées des États-Unis;Terr. États-Unis en Océanie;99505;20160209000000;;20241213120000
+1.2.250.1.213.2.24;État indépendant des Samoa;État indépendant des Samoa;Samoa;99506;20160209000000;;20240628120000
+1.2.250.1.213.2.24;République de Nauru;République de Nauru;Nauru;99507;20160209000000;;20240126120000
+1.2.250.1.213.2.24;République des Fidji;République des Fidji;Fidji;99508;20160209000000;;20240126120000
+1.2.250.1.213.2.24;Royaume des Tonga;Royaume des Tonga;Tonga;99509;20160209000000;;20240126120000
+1.2.250.1.213.2.24;État indépendant de Papouasie-Nouvelle-Guinée;État indépendant de Papouasie-Nouvelle-Guinée;Papouasie-Nouvelle-Guinée;99510;20160209000000;;20240628120000
+1.2.250.1.213.2.24;Tuvalu;Tuvalu;Tuvalu;99511;20160209000000;;20240126120000
+1.2.250.1.213.2.24;Îles Salomon;Îles Salomon;Salomon;99512;20160209000000;;20240628120000
+1.2.250.1.213.2.24;République des Kiribati;République des Kiribati;Kiribati;99513;20160209000000;;20240126120000
+1.2.250.1.213.2.24;République du Vanuatu;République du Vanuatu;Vanuatu;99514;20160209000000;;20240126120000
+1.2.250.1.213.2.24;République des îles Marshall;République des îles Marshall;Marshall;99515;20160209000000;;20240126120000
+1.2.250.1.213.2.24;États fédérés de Micronésie;États fédérés de Micronésie;Micronésie;99516;20160209000000;;20240628120000
+1.2.250.1.213.2.24;République des Palaos;République des Palaos;Palaos;99517;20160209000000;;20240628120000
+1.2.250.1.213.2.24;Antarctique;Antarctique;Antarctique;99699;20240628120000;;20240628120000

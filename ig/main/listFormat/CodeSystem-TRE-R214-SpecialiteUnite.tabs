@@ -1,63 +1,63 @@
 <OID>;<Type fichier>;<Nom fichier>;<Description>;<URL fichier>;<Date valid>;<Date fin>;<Date MàJ>
 1.2.250.1.213.3.3.14;TRE;TRE_R214_SpecialiteUnite.tabs;Spécialité d'unité;https://mos.esante.gouv.fr/NOS/TRE_R214-SpecialiteUnite;20150408000000;20241025120000;20241025120000
 <OID>;<Code>;<Libellé adapté>;<Libellé court>;<Libellé long>;<Date valid>;<Date fin>;<Date MAJ> 
-1.2.250.1.213.3.3.14;01;Addictologie;Addictologie;Addictologie;20150504000000;20241025120000;20150504000000
-1.2.250.1.213.3.3.14;02;Allergologie et Immunologie clinique;Allergologie, Immunolog cliniq;Allergologie et Immunologie clinique;20150504000000;20241025120000;20160901000000
-1.2.250.1.213.3.3.14;03;Anatomie et Cytologie pathologiques;Anatomie, Cytologie pathologiq;Anatomie et Cytologie pathologiques;20150504000000;20241025120000;20160901000000
-1.2.250.1.213.3.3.14;04;Anesthésie;Anesthésie;Anesthésie;20150504000000;20241025120000;20150504000000
-1.2.250.1.213.3.3.14;05;Biologie médicale;Biologie médicale;Biologie médicale;20150504000000;20241025120000;20150504000000
-1.2.250.1.213.3.3.14;06;Brûlologie (brûlés);Brûlologie (brûlés);Brûlologie (brûlés);20150504000000;20241025120000;20150504000000
-1.2.250.1.213.3.3.14;07;Cardiologie;Cardiologie;Cardiologie;20150504000000;20241025120000;20150504000000
-1.2.250.1.213.3.3.14;08;Chirurgie cardiaque et gros vaisseaux;Chir cardiaque, gros vaisseaux;Chirurgie cardiaque et gros vaisseaux;20150504000000;20241025120000;20160901000000
-1.2.250.1.213.3.3.14;09;Chirurgie générale;Chirurgie générale;Chirurgie générale;20150504000000;20241025120000;20150504000000
-1.2.250.1.213.3.3.14;10;Chirurgie maxillo-faciale et Stomatologie;Chir maxillo-faciale, Stomato;Chirurgie maxillo-faciale et Stomatologie;20150504000000;20241025120000;20160901000000
-1.2.250.1.213.3.3.14;11;Chirurgie orthopédique et Traumatologie;Chir ortho, Traumato;Chirurgie orthopédique et Traumatologie;20150504000000;20241025120000;20160901000000
-1.2.250.1.213.3.3.14;12;Chirurgie plastique, reconstructrice et esthétique;Chir plast, reconstr, esthétiq;Chirurgie plastique, reconstructrice et esthétique;20150504000000;20241025120000;20160901000000
-1.2.250.1.213.3.3.14;13;Chirurgie thoracique et pulmonaire;Chir thoracique et pulmonaire;Chirurgie thoracique et pulmonaire;20150504000000;20241025120000;20160901000000
-1.2.250.1.213.3.3.14;14;Chirurgie urologique (Urologie);Chir urologique;Chirurgie urologique (Urologie);20150504000000;20241025120000;20160901000000
-1.2.250.1.213.3.3.14;15;Chirurgie vasculaire;Chirurgie vasculaire;Chirurgie vasculaire;20150504000000;20241025120000;20150504000000
-1.2.250.1.213.3.3.14;16;Chirurgie viscérale et digestive;Chirurgie viscérale, digestive;Chirurgie viscérale et digestive;20150504000000;20241025120000;20160901000000
-1.2.250.1.213.3.3.14;17;Dermatologie;Dermatologie;Dermatologie;20150504000000;20241025120000;20150504000000
-1.2.250.1.213.3.3.14;18;Endocrinologie, Diabétologie, Métabolisme et Nutrition;Endocrino Diabéto Métab Nutrit;Endocrinologie, Diabétologie, Métabolisme et Nutrition;20150504000000;20241025120000;20160901000000
-1.2.250.1.213.3.3.14;19;Gastro-entérologie et Hépatologie;Gastro-entérologie, Hépato;Gastro-entérologie et Hépatologie;20150504000000;20241025120000;20160901000000
-1.2.250.1.213.3.3.14;20;Génétique médicale;Génétique médicale;Génétique médicale;20150504000000;20241025120000;20150504000000
-1.2.250.1.213.3.3.14;21;Gériatrie;Gériatrie;Gériatrie;20150504000000;20241025120000;20150504000000
-1.2.250.1.213.3.3.14;22;Gestion de crise, plan blanc;Gestion de crise, plan blanc;Gestion de crise, plan blanc;20150504000000;20241025120000;20150504000000
-1.2.250.1.213.3.3.14;23;Gynécologie-obstétrique;Gynécologie-obstétrique;Gynécologie-obstétrique;20150504000000;20241025120000;20150504000000
-1.2.250.1.213.3.3.14;24;Hématologie;Hématologie;Hématologie;20150504000000;20241025120000;20150504000000
-1.2.250.1.213.3.3.14;25;Hygiène;Hygiène;Hygiène;20150504000000;20241025120000;20150504000000
-1.2.250.1.213.3.3.14;26;Imagerie médicale (radiologie);Imagerie médicale (radiologie);Imagerie médicale (radiologie);20150504000000;20241025120000;20150504000000
-1.2.250.1.213.3.3.14;27;Maladies infectieuses, parasitaires et tropicales;Maladies infect, parasit, trop;Maladies infectieuses, parasitaires et tropicales;20150504000000;20241025120000;20160901000000
-1.2.250.1.213.3.3.14;28;Médecine aérospatiale-aéronautique;Médecine aérospat-aéronautique;Médecine aérospatiale-aéronautique;20150504000000;20241025120000;20160901000000
-1.2.250.1.213.3.3.14;29;Médecine du sport;Médecine du sport;Médecine du sport;20150504000000;20241025120000;20150504000000
-1.2.250.1.213.3.3.14;30;Médecine du travail (pathologie professionnelle);Médecine du travail;Médecine du travail (pathologie professionnelle);20150504000000;20241025120000;20160901000000
-1.2.250.1.213.3.3.14;31;Médecine d'urgence;Médecine d'urgence;Médecine d'urgence;20150504000000;20241025120000;20150504000000
-1.2.250.1.213.3.3.14;32;Médecine générale (polyvalente);Médecine générale, polyvalente;Médecine générale (polyvalente);20150504000000;20241025120000;20160901000000
-1.2.250.1.213.3.3.14;33;Médecine hyperbare;Médecine hyperbare;Médecine hyperbare;20150504000000;20241025120000;20150504000000
-1.2.250.1.213.3.3.14;34;Médecine interne;Médecine interne;Médecine interne;20150504000000;20241025120000;20150504000000
-1.2.250.1.213.3.3.14;35;Médecine légale et Expertise médicale;Médecine légale, Expertise méd;Médecine légale et Expertise médicale;20150504000000;20241025120000;20160901000000
-1.2.250.1.213.3.3.14;36;Médecine nucléaire;Médecine nucléaire;Médecine nucléaire;20150504000000;20241025120000;20150504000000
-1.2.250.1.213.3.3.14;37;Médecine pénitentiaire;Médecine pénitentiaire;Médecine pénitentiaire;20150504000000;20241025120000;20150504000000
-1.2.250.1.213.3.3.14;38;Médecine physique et réadaptation (SSR);Médecine physique, réadapt;Médecine physique et réadaptation (SSR);20150504000000;20241025120000;20150504000000
-1.2.250.1.213.3.3.14;39;Médecine vasculaire (Angéiologie);Médecine vascul (Angéiologie);Médecine vasculaire (Angéiologie);20150504000000;20241025120000;20160901000000
-1.2.250.1.213.3.3.14;40;Néonatologie;Néonatologie;Néonatologie;20150504000000;20241025120000;20150504000000
-1.2.250.1.213.3.3.14;41;Néphrologie;Néphrologie;Néphrologie;20150504000000;20241025120000;20150504000000
-1.2.250.1.213.3.3.14;42;Neurochirurgie;Neurochirurgie;Neurochirurgie;20150504000000;20241025120000;20150504000000
-1.2.250.1.213.3.3.14;43;Neurologie;Neurologie;Neurologie;20150504000000;20241025120000;20150504000000
-1.2.250.1.213.3.3.14;44;Odontologie (Dentisterie);Odontologie (Dentisterie);Odontologie (Dentisterie);20150504000000;20241025120000;20150504000000
-1.2.250.1.213.3.3.14;45;Oncologie-cancérologie;Oncologie-cancérologie;Oncologie-cancérologie;20150504000000;20241025120000;20150504000000
-1.2.250.1.213.3.3.14;46;Ophtalmologie;Ophtalmologie;Ophtalmologie;20150504000000;20241025120000;20150504000000
-1.2.250.1.213.3.3.14;47;Oto-rhino-laryngologie (ORL) et Chirurgie cervico-faciale;ORL, Chirurgie cervico-faciale;Oto-rhino-laryngologie (ORL) et Chirurgie cervico-faciale;20150504000000;20241025120000;20160901000000
-1.2.250.1.213.3.3.14;48;Pédiatrie générale;Pédiatrie générale;Pédiatrie générale;20150504000000;20241025120000;20150504000000
-1.2.250.1.213.3.3.14;49;Pharmacie;Pharmacie;Pharmacie;20150504000000;20241025120000;20150504000000
-1.2.250.1.213.3.3.14;50;Pneumologie;Pneumologie;Pneumologie;20150504000000;20241025120000;20150504000000
-1.2.250.1.213.3.3.14;51;Psychiatrie (PSY);Psychiatrie (PSY);Psychiatrie (PSY);20150504000000;20241025120000;20150504000000
-1.2.250.1.213.3.3.14;52;Psychiatrie de l'enfant et de l'adolescent (pédopsychiatrie);Pédopsychiatrie;Psychiatrie de l'enfant et de l'adolescent (pédopsychiatrie);20150504000000;20241025120000;20150504000000
-1.2.250.1.213.3.3.14;53;Réanimation;Réanimation;Réanimation;20150504000000;20241025120000;20150504000000
-1.2.250.1.213.3.3.14;54;Rhumatologie;Rhumatologie;Rhumatologie;20150504000000;20241025120000;20150504000000
-1.2.250.1.213.3.3.14;55;Santé publique;Santé publique;Santé publique;20150504000000;20241025120000;20150504000000
-1.2.250.1.213.3.3.14;56;Soins de suite et de réadaptation (SSR);SSR;Soins de suite et de réadaptation (SSR);20150504000000;20241025120000;20160901000000
-1.2.250.1.213.3.3.14;57;Soins palliatifs et Médecine de la douleur;Soins palliatifs, Méd douleur;Soins palliatifs et Médecine de la douleur;20150504000000;20241025120000;20160901000000
-1.2.250.1.213.3.3.14;58;Système information;Système information;Système information;20150504000000;20241025120000;20150504000000
-1.2.250.1.213.3.3.14;59;Toxicologie;Toxicologie;Toxicologie;20150504000000;20241025120000;20150504000000
-1.2.250.1.213.3.3.14;60;Transfusion;Transfusion;Transfusion;20150504000000;20241025120000;20150504000000
+1.2.250.1.213.3.3.14;Addictologie;Addictologie;Addictologie;01;20150504000000;20241025120000;20150504000000
+1.2.250.1.213.3.3.14;Allergologie et Immunologie clinique;Allergologie et Immunologie clinique;Allergologie, Immunolog cliniq;02;20150504000000;20241025120000;20160901000000
+1.2.250.1.213.3.3.14;Anatomie et Cytologie pathologiques;Anatomie et Cytologie pathologiques;Anatomie, Cytologie pathologiq;03;20150504000000;20241025120000;20160901000000
+1.2.250.1.213.3.3.14;Anesthésie;Anesthésie;Anesthésie;04;20150504000000;20241025120000;20150504000000
+1.2.250.1.213.3.3.14;Biologie médicale;Biologie médicale;Biologie médicale;05;20150504000000;20241025120000;20150504000000
+1.2.250.1.213.3.3.14;Brûlologie (brûlés);Brûlologie (brûlés);Brûlologie (brûlés);06;20150504000000;20241025120000;20150504000000
+1.2.250.1.213.3.3.14;Cardiologie;Cardiologie;Cardiologie;07;20150504000000;20241025120000;20150504000000
+1.2.250.1.213.3.3.14;Chirurgie cardiaque et gros vaisseaux;Chirurgie cardiaque et gros vaisseaux;Chir cardiaque, gros vaisseaux;08;20150504000000;20241025120000;20160901000000
+1.2.250.1.213.3.3.14;Chirurgie générale;Chirurgie générale;Chirurgie générale;09;20150504000000;20241025120000;20150504000000
+1.2.250.1.213.3.3.14;Chirurgie maxillo-faciale et Stomatologie;Chirurgie maxillo-faciale et Stomatologie;Chir maxillo-faciale, Stomato;10;20150504000000;20241025120000;20160901000000
+1.2.250.1.213.3.3.14;Chirurgie orthopédique et Traumatologie;Chirurgie orthopédique et Traumatologie;Chir ortho, Traumato;11;20150504000000;20241025120000;20160901000000
+1.2.250.1.213.3.3.14;Chirurgie plastique, reconstructrice et esthétique;Chirurgie plastique, reconstructrice et esthétique;Chir plast, reconstr, esthétiq;12;20150504000000;20241025120000;20160901000000
+1.2.250.1.213.3.3.14;Chirurgie thoracique et pulmonaire;Chirurgie thoracique et pulmonaire;Chir thoracique et pulmonaire;13;20150504000000;20241025120000;20160901000000
+1.2.250.1.213.3.3.14;Chirurgie urologique (Urologie);Chirurgie urologique (Urologie);Chir urologique;14;20150504000000;20241025120000;20160901000000
+1.2.250.1.213.3.3.14;Chirurgie vasculaire;Chirurgie vasculaire;Chirurgie vasculaire;15;20150504000000;20241025120000;20150504000000
+1.2.250.1.213.3.3.14;Chirurgie viscérale et digestive;Chirurgie viscérale et digestive;Chirurgie viscérale, digestive;16;20150504000000;20241025120000;20160901000000
+1.2.250.1.213.3.3.14;Dermatologie;Dermatologie;Dermatologie;17;20150504000000;20241025120000;20150504000000
+1.2.250.1.213.3.3.14;Endocrinologie, Diabétologie, Métabolisme et Nutrition;Endocrinologie, Diabétologie, Métabolisme et Nutrition;Endocrino Diabéto Métab Nutrit;18;20150504000000;20241025120000;20160901000000
+1.2.250.1.213.3.3.14;Gastro-entérologie et Hépatologie;Gastro-entérologie et Hépatologie;Gastro-entérologie, Hépato;19;20150504000000;20241025120000;20160901000000
+1.2.250.1.213.3.3.14;Génétique médicale;Génétique médicale;Génétique médicale;20;20150504000000;20241025120000;20150504000000
+1.2.250.1.213.3.3.14;Gériatrie;Gériatrie;Gériatrie;21;20150504000000;20241025120000;20150504000000
+1.2.250.1.213.3.3.14;Gestion de crise, plan blanc;Gestion de crise, plan blanc;Gestion de crise, plan blanc;22;20150504000000;20241025120000;20150504000000
+1.2.250.1.213.3.3.14;Gynécologie-obstétrique;Gynécologie-obstétrique;Gynécologie-obstétrique;23;20150504000000;20241025120000;20150504000000
+1.2.250.1.213.3.3.14;Hématologie;Hématologie;Hématologie;24;20150504000000;20241025120000;20150504000000
+1.2.250.1.213.3.3.14;Hygiène;Hygiène;Hygiène;25;20150504000000;20241025120000;20150504000000
+1.2.250.1.213.3.3.14;Imagerie médicale (radiologie);Imagerie médicale (radiologie);Imagerie médicale (radiologie);26;20150504000000;20241025120000;20150504000000
+1.2.250.1.213.3.3.14;Maladies infectieuses, parasitaires et tropicales;Maladies infectieuses, parasitaires et tropicales;Maladies infect, parasit, trop;27;20150504000000;20241025120000;20160901000000
+1.2.250.1.213.3.3.14;Médecine aérospatiale-aéronautique;Médecine aérospatiale-aéronautique;Médecine aérospat-aéronautique;28;20150504000000;20241025120000;20160901000000
+1.2.250.1.213.3.3.14;Médecine du sport;Médecine du sport;Médecine du sport;29;20150504000000;20241025120000;20150504000000
+1.2.250.1.213.3.3.14;Médecine du travail (pathologie professionnelle);Médecine du travail (pathologie professionnelle);Médecine du travail;30;20150504000000;20241025120000;20160901000000
+1.2.250.1.213.3.3.14;Médecine d'urgence;Médecine d'urgence;Médecine d'urgence;31;20150504000000;20241025120000;20150504000000
+1.2.250.1.213.3.3.14;Médecine générale (polyvalente);Médecine générale (polyvalente);Médecine générale, polyvalente;32;20150504000000;20241025120000;20160901000000
+1.2.250.1.213.3.3.14;Médecine hyperbare;Médecine hyperbare;Médecine hyperbare;33;20150504000000;20241025120000;20150504000000
+1.2.250.1.213.3.3.14;Médecine interne;Médecine interne;Médecine interne;34;20150504000000;20241025120000;20150504000000
+1.2.250.1.213.3.3.14;Médecine légale et Expertise médicale;Médecine légale et Expertise médicale;Médecine légale, Expertise méd;35;20150504000000;20241025120000;20160901000000
+1.2.250.1.213.3.3.14;Médecine nucléaire;Médecine nucléaire;Médecine nucléaire;36;20150504000000;20241025120000;20150504000000
+1.2.250.1.213.3.3.14;Médecine pénitentiaire;Médecine pénitentiaire;Médecine pénitentiaire;37;20150504000000;20241025120000;20150504000000
+1.2.250.1.213.3.3.14;Médecine physique et réadaptation (SSR);Médecine physique et réadaptation (SSR);Médecine physique, réadapt;38;20150504000000;20241025120000;20150504000000
+1.2.250.1.213.3.3.14;Médecine vasculaire (Angéiologie);Médecine vasculaire (Angéiologie);Médecine vascul (Angéiologie);39;20150504000000;20241025120000;20160901000000
+1.2.250.1.213.3.3.14;Néonatologie;Néonatologie;Néonatologie;40;20150504000000;20241025120000;20150504000000
+1.2.250.1.213.3.3.14;Néphrologie;Néphrologie;Néphrologie;41;20150504000000;20241025120000;20150504000000
+1.2.250.1.213.3.3.14;Neurochirurgie;Neurochirurgie;Neurochirurgie;42;20150504000000;20241025120000;20150504000000
+1.2.250.1.213.3.3.14;Neurologie;Neurologie;Neurologie;43;20150504000000;20241025120000;20150504000000
+1.2.250.1.213.3.3.14;Odontologie (Dentisterie);Odontologie (Dentisterie);Odontologie (Dentisterie);44;20150504000000;20241025120000;20150504000000
+1.2.250.1.213.3.3.14;Oncologie-cancérologie;Oncologie-cancérologie;Oncologie-cancérologie;45;20150504000000;20241025120000;20150504000000
+1.2.250.1.213.3.3.14;Ophtalmologie;Ophtalmologie;Ophtalmologie;46;20150504000000;20241025120000;20150504000000
+1.2.250.1.213.3.3.14;Oto-rhino-laryngologie (ORL) et Chirurgie cervico-faciale;Oto-rhino-laryngologie (ORL) et Chirurgie cervico-faciale;ORL, Chirurgie cervico-faciale;47;20150504000000;20241025120000;20160901000000
+1.2.250.1.213.3.3.14;Pédiatrie générale;Pédiatrie générale;Pédiatrie générale;48;20150504000000;20241025120000;20150504000000
+1.2.250.1.213.3.3.14;Pharmacie;Pharmacie;Pharmacie;49;20150504000000;20241025120000;20150504000000
+1.2.250.1.213.3.3.14;Pneumologie;Pneumologie;Pneumologie;50;20150504000000;20241025120000;20150504000000
+1.2.250.1.213.3.3.14;Psychiatrie (PSY);Psychiatrie (PSY);Psychiatrie (PSY);51;20150504000000;20241025120000;20150504000000
+1.2.250.1.213.3.3.14;Psychiatrie de l'enfant et de l'adolescent (pédopsychiatrie);Psychiatrie de l'enfant et de l'adolescent (pédopsychiatrie);Pédopsychiatrie;52;20150504000000;20241025120000;20150504000000
+1.2.250.1.213.3.3.14;Réanimation;Réanimation;Réanimation;53;20150504000000;20241025120000;20150504000000
+1.2.250.1.213.3.3.14;Rhumatologie;Rhumatologie;Rhumatologie;54;20150504000000;20241025120000;20150504000000
+1.2.250.1.213.3.3.14;Santé publique;Santé publique;Santé publique;55;20150504000000;20241025120000;20150504000000
+1.2.250.1.213.3.3.14;Soins de suite et de réadaptation (SSR);Soins de suite et de réadaptation (SSR);SSR;56;20150504000000;20241025120000;20160901000000
+1.2.250.1.213.3.3.14;Soins palliatifs et Médecine de la douleur;Soins palliatifs et Médecine de la douleur;Soins palliatifs, Méd douleur;57;20150504000000;20241025120000;20160901000000
+1.2.250.1.213.3.3.14;Système information;Système information;Système information;58;20150504000000;20241025120000;20150504000000
+1.2.250.1.213.3.3.14;Toxicologie;Toxicologie;Toxicologie;59;20150504000000;20241025120000;20150504000000
+1.2.250.1.213.3.3.14;Transfusion;Transfusion;Transfusion;60;20150504000000;20241025120000;20150504000000

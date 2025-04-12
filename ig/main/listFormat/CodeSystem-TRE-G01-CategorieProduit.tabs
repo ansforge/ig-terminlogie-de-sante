@@ -1,9 +1,9 @@
 <OID>;<Type fichier>;<Nom fichier>;<Description>;<URL fichier>;<Date valid>;<Date fin>;<Date MàJ>
 1.2.250.1.71.1.2.5;TRE;TRE_G01_CategorieProduit.tabs;Catégorie de produit;https://mos.esante.gouv.fr/NOS/TRE_G01-CategorieProduit;20101104000000;;20231215120000
 <OID>;<Code>;<Libellé adapté>;<Libellé court>;<Libellé long>;<Date valid>;<Date fin>;<Date MAJ> 
-1.2.250.1.71.1.2.5;00;Carte de Professionnel ou Personnel de Santé;CPx;Carte de Professionnel ou Personnel de Santé;20101104000000;;20101104000000
-1.2.250.1.71.1.2.5;02;Module de Sécurité;MS;Module de Sécurité;20101104000000;;20101104000000
-1.2.250.1.71.1.2.5;03;Certificat logiciel;CL;Certificat logiciel;20101104000000;;20101104000000
-1.2.250.1.71.1.2.5;80;Carte de PS ou de Personnel de Santé de TEST;CPx de TEST;Carte de PS ou de Personnel de Santé de TEST;20101104000000;;20160901000000
-1.2.250.1.71.1.2.5;82;Module de Sécurité de TEST;MS de TEST;Module de Sécurité de TEST;20101104000000;;20160901000000
-1.2.250.1.71.1.2.5;83;Certificat logiciel de TEST;CL de TEST;Certificat logiciel de TEST;20101104000000;;20160901000000
+1.2.250.1.71.1.2.5;Carte de Professionnel ou Personnel de Santé;Carte de Professionnel ou Personnel de Santé;CPx;00;20101104000000;;20101104000000
+1.2.250.1.71.1.2.5;Module de Sécurité;Module de Sécurité;MS;02;20101104000000;;20101104000000
+1.2.250.1.71.1.2.5;Certificat logiciel;Certificat logiciel;CL;03;20101104000000;;20101104000000
+1.2.250.1.71.1.2.5;Carte de PS ou de Personnel de Santé de TEST;Carte de PS ou de Personnel de Santé de TEST;CPx de TEST;80;20101104000000;;20160901000000
+1.2.250.1.71.1.2.5;Module de Sécurité de TEST;Module de Sécurité de TEST;MS de TEST;82;20101104000000;;20160901000000
+1.2.250.1.71.1.2.5;Certificat logiciel de TEST;Certificat logiciel de TEST;CL de TEST;83;20101104000000;;20160901000000
