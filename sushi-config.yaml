@@ -15,7 +15,7 @@ version: 0.1.0-ballot
 fhirVersion: 4.0.1
 copyrightYear: 2020+
 releaseLabel: for-comment
-jurisdiction: urn:iso:std:iso:3166#FR "France"
+jurisdiction: urn:iso:std:iso:3166#FR
 
 dependencies:
    hl7.fhir.uv.ips: 1.1.0
