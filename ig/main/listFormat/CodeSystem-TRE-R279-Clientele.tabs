@@ -1,131 +1,131 @@
 <OID>;<Type fichier>;<Nom fichier>;<Description>;<URL fichier>;<Date valid>;<Date fin>;<Date MàJ>
 1.2.250.1.213.1.6.1.132;TRE;TRE_R279_Clientele.tabs;Clientèles;https://mos.esante.gouv.fr/NOS/TRE_R279-Clientele;20181026120000;;20240927120000
 <OID>;<Code>;<Libellé adapté>;<Libellé court>;<Libellé long>;<Date valid>;<Date fin>;<Date MAJ> 
-1.2.250.1.213.1.6.1.132;Tous Types de Déficiences Pers.Handicap.(sans autre indic.);Tous Types de Déficiences Pers.Handicap.(sans autre indic.);Toutes Déf P.H. SAI;010;20181026120000;;20181026120000
-1.2.250.1.213.1.6.1.132;Handicap rare;Handicap rare;Handicap rare;011;20181026120000;;20181026120000
-1.2.250.1.213.1.6.1.132;Toutes Déficiences Physiques (Sans autre indication);Toutes Déficiences Physiques (Sans autre indication);Toutes Déf.Physiques;020;20211126120000;20211126120000;20211126120000
-1.2.250.1.213.1.6.1.132;Toutes Déficiences Mentales (sans autre indication);Toutes Déficiences Mentales (sans autre indication);Toutes Déf. Mentales;030;20211126120000;20211126120000;20211126120000
-1.2.250.1.213.1.6.1.132;Aidants / aidés Personnes âgées;Aidants / aidés Personnes âgées;Aidants / aidés PA;040;20210528120000;;20210528120000
-1.2.250.1.213.1.6.1.132;Aidants / aidés Maladies chroniques invalidantes;Aidants / aidés Maladies chroniques invalidantes;Aidants / aidés MCI;041;20210528120000;;20210528120000
-1.2.250.1.213.1.6.1.132;Aidants / aidés Tous types de handicap;Aidants / aidés Tous types de handicap;Aidants / aidés PH;042;20210528120000;;20210528120000
-1.2.250.1.213.1.6.1.132;Aidants / aidés Troubles du spectre de l'autisme;Aidants / aidés Troubles du spectre de l'autisme;Aidants / aidés TSA;043;20210528120000;;20210528120000
-1.2.250.1.213.1.6.1.132;Déficience Intellectuelle (sans autre indication);Déficience Intellectuelle (sans autre indication);Déf. Intellectuelle;110;20181026120000;20211126120000;20211126120000
-1.2.250.1.213.1.6.1.132;Retard Mental Profond ou Sévère;Retard Mental Profond ou Sévère;Ret. Mental Profond;111;20181026120000;20211126120000;20211126120000
-1.2.250.1.213.1.6.1.132;Débilité Profonde & Arriéré Profond;Débilité Profonde & Arriéré Profond;Débil.Prof.& Arriéré;112;20211126120000;20211126120000;20211126120000
-1.2.250.1.213.1.6.1.132;Débilité Profonde;Débilité Profonde;Débilité Profonde;113;20211126120000;20211126120000;20211126120000
-1.2.250.1.213.1.6.1.132;Retard Mental Profond/Sévère/Moyen;Retard Mental Profond/Sévère/Moyen;Ret. Mental Prof/Sév;114;20211126120000;20211126120000;20211126120000
-1.2.250.1.213.1.6.1.132;Retard Mental Moyen;Retard Mental Moyen;Ret. Mental Moyen;115;20181026120000;20211126120000;20211126120000
-1.2.250.1.213.1.6.1.132;Retard Mental Moyen et Léger;Retard Mental Moyen et Léger;Ret. Ment.Moy/Léger;116;20211126120000;20211126120000;20211126120000
-1.2.250.1.213.1.6.1.132;Déficience intellectuelle;Déficience intellectuelle;Déf.intellectuelle;117;20181026120000;;20181026120000
-1.2.250.1.213.1.6.1.132;Retard Mental Léger;Retard Mental Léger;Retard Mental Léger;118;20181026120000;20211126120000;20211126120000
-1.2.250.1.213.1.6.1.132;Déficiences Intellectuelles (SAI) avec Troubles Associés;Déficiences Intellectuelles (SAI) avec Troubles Associés;Déf.Intel. Tr. Ass.;120;20181026120000;20211126120000;20211126120000
-1.2.250.1.213.1.6.1.132;Retard Mental Profond et Sévère avec Troubles Associés;Retard Mental Profond et Sévère avec Troubles Associés;Ret.Ment.Prof.Sév.TA;121;20181026120000;20211126120000;20211126120000
-1.2.250.1.213.1.6.1.132;Retard Mental Moyen avec Troubles Associés;Retard Mental Moyen avec Troubles Associés;Ret.Ment.Moy.Tr.Ass.;125;20181026120000;20211126120000;20211126120000
-1.2.250.1.213.1.6.1.132;Retard Mental Léger avec Troubles Associés;Retard Mental Léger avec Troubles Associés;Ret.Ment.Lég.Tr.Ass.;128;20181026120000;20211126120000;20211126120000
-1.2.250.1.213.1.6.1.132;Difficultés psychologiques avec troubles du comportement;Difficultés psychologiques avec troubles du comportement;Diff.Psy.troubl.Comp;200;20181026120000;;20181026120000
-1.2.250.1.213.1.6.1.132;Déficience Intermittente de la Conscience ycompris épilepsie;Déficience Intermittente de la Conscience ycompris épilepsie;Déf.Int. Conscience;201;20181026120000;;20181026120000
-1.2.250.1.213.1.6.1.132;Déficience Grave du Psychisme consécutive à lésion cérébrale;Déficience Grave du Psychisme consécutive à lésion cérébrale;Déf.Gr.Psy.Lésion.Cé;202;20181026120000;20211126120000;20211126120000
-1.2.250.1.213.1.6.1.132;Déficience Grave de la Communication;Déficience Grave de la Communication;Déf.Gr.Communication;203;20181026120000;20211126120000;20211126120000
-1.2.250.1.213.1.6.1.132;Déficience Grave du Psychisme;Déficience Grave du Psychisme;Déf.Gr du Psychisme;204;20181026120000;20211126120000;20211126120000
-1.2.250.1.213.1.6.1.132;Déficience du Psychisme (Sans Autre Indication);Déficience du Psychisme (Sans Autre Indication);Déf.du Psychisme SAI;205;20181026120000;20211126120000;20211126120000
-1.2.250.1.213.1.6.1.132;Handicap psychique;Handicap psychique;Handicap psychique;206;20181026120000;;20181026120000
-1.2.250.1.213.1.6.1.132;Handicap cognitif spécifique;Handicap cognitif spécifique;Hand.cognitif spécif;207;20181026120000;;20181026120000
-1.2.250.1.213.1.6.1.132;Déficience Auditive;Déficience Auditive;Déficience Auditive;310;20181026120000;20211126120000;20211126120000
-1.2.250.1.213.1.6.1.132;Surdité;Surdité;Surdité;311;20211126120000;20211126120000;20211126120000
-1.2.250.1.213.1.6.1.132;Malentendant;Malentendant;Malentendant;312;20211126120000;20211126120000;20211126120000
-1.2.250.1.213.1.6.1.132;Sourd et Malentendant;Sourd et Malentendant;Sourd & Malentendant;313;20211126120000;20211126120000;20211126120000
-1.2.250.1.213.1.6.1.132;Déficiences Auditives avec troubles associés;Déficiences Auditives avec troubles associés;Déf.Auditive Tr.Ass.;317;20181026120000;20211126120000;20211126120000
-1.2.250.1.213.1.6.1.132;Déficience auditive grave;Déficience auditive grave;Déf.auditive grave;318;20181026120000;;20181026120000
-1.2.250.1.213.1.6.1.132;Déficience Visuelle (Sans Autre Indication);Déficience Visuelle (Sans Autre Indication);Déficience Visuelle;320;20181026120000;20211126120000;20211126120000
-1.2.250.1.213.1.6.1.132;Cécité;Cécité;Cécité;321;20211126120000;20211126120000;20211126120000
-1.2.250.1.213.1.6.1.132;Cécité et Malvoyance;Cécité et Malvoyance;Cécité et Malvoyance;322;20211126120000;20211126120000;20211126120000
-1.2.250.1.213.1.6.1.132;Malvoyance;Malvoyance;Malvoyance;323;20211126120000;20211126120000;20211126120000
-1.2.250.1.213.1.6.1.132;Déficience visuelle grave;Déficience visuelle grave;Déf. visuelle grave;324;20181026120000;;20181026120000
-1.2.250.1.213.1.6.1.132;Déficiences Visuelles avec troubles associés;Déficiences Visuelles avec troubles associés;Déf.Visuelle Tr.Ass.;327;20181026120000;20211126120000;20211126120000
-1.2.250.1.213.1.6.1.132;Déficience Motrice sans Troubles Associés;Déficience Motrice sans Troubles Associés;Déf.Mot.sans Trouble;410;20181026120000;20211126120000;20211126120000
-1.2.250.1.213.1.6.1.132;Infirm.Mot.Cérébrale/non Cérébrale;Infirm.Mot.Cérébrale/non Cérébrale;Inf.Mot.Céré/non Cér;411;20211126120000;20211126120000;20211126120000
-1.2.250.1.213.1.6.1.132;Infirmité Motrice Cérébrale;Infirmité Motrice Cérébrale;Inf.Motri.Cérébrale;412;20211126120000;20211126120000;20211126120000
-1.2.250.1.213.1.6.1.132;Infirmité Motrice non Cérébrale;Infirmité Motrice non Cérébrale;Inf.Motri. non Céré.;413;20211126120000;20211126120000;20211126120000
-1.2.250.1.213.1.6.1.132;Déficience Motrice;Déficience Motrice;Déficience Motrice;414;20181026120000;;20181026120000
-1.2.250.1.213.1.6.1.132;Déficience Motrice avec Troubles Associés;Déficience Motrice avec Troubles Associés;Déf.Mot.avec Trouble;420;20181026120000;20211126120000;20211126120000
-1.2.250.1.213.1.6.1.132;Personnes nécessitant prise en charge psycho soc et san SAI;Personnes nécessitant prise en charge psycho soc et san SAI;Diff specif SAI;430;20181026120000;;20181026120000
-1.2.250.1.213.1.6.1.132;Affection Cardiaque;Affection Cardiaque;Affection Cardiaque;431;20181026120000;;20181026120000
-1.2.250.1.213.1.6.1.132;Diabète;Diabète;Diabéte;432;20181026120000;;20181026120000
-1.2.250.1.213.1.6.1.132;Affection Respiratoire;Affection Respiratoire;Affect. Respiratoire;433;20181026120000;;20181026120000
-1.2.250.1.213.1.6.1.132;Hémophilie;Hémophilie;Hémophilie;434;20181026120000;;20181026120000
-1.2.250.1.213.1.6.1.132;Insuffisance Rénale;Insuffisance Rénale;Insuffisance Rénale;435;20181026120000;;20181026120000
-1.2.250.1.213.1.6.1.132;Personnes Alzheimer ou maladies apparentées;Personnes Alzheimer ou maladies apparentées;Alzheimer, mal appar;436;20181026120000;;20181026120000
-1.2.250.1.213.1.6.1.132;Troubles du spectre de l'autisme;Troubles du spectre de l'autisme;Trbl.Spectr.autisme;437;20181026120000;;20181026120000
-1.2.250.1.213.1.6.1.132;Cérébro lésés;Cérébro lésés;Cérébro lésés;438;20181026120000;;20181026120000
-1.2.250.1.213.1.6.1.132;VIH VHC;VIH VHC;VIH VHC;439;20181026120000;;20181026120000
-1.2.250.1.213.1.6.1.132;MND autres que Maladie Alzheimer et Maladies Apparentées;MND autres que Maladie Alzheimer et Maladies Apparentées;MND autres que MAMA;440;20191213120000;;20191213120000
-1.2.250.1.213.1.6.1.132;Adultes autistes relevant des cas complexes;Adultes autistes relevant des cas complexes;Adultes autistes cas complexes;441;20240628120000;;20240628120000
-1.2.250.1.213.1.6.1.132;Troubles du neurodéveloppement;Troubles du neurodéveloppement;Troubles du neurodéveloppement;442;20240927120000;;20240927120000
-1.2.250.1.213.1.6.1.132;Polyhandicap;Polyhandicap;Polyhandicap;500;20181026120000;;20181026120000
-1.2.250.1.213.1.6.1.132;Polyhandicap Moteur et Mental.;Polyhandicap Moteur et Mental.;Polyhand. Mot/Mental;501;20211126120000;20211126120000;20211126120000
-1.2.250.1.213.1.6.1.132;Polyhandicap Auditif et Mental;Polyhandicap Auditif et Mental;Polyhand. Aud/Mental;502;20211126120000;20211126120000;20211126120000
-1.2.250.1.213.1.6.1.132;Polyhandicap Visuel et Mental;Polyhandicap Visuel et Mental;Polyhand. Vis/Mental;503;20211126120000;20211126120000;20211126120000
-1.2.250.1.213.1.6.1.132;Polyhandicap Mot.Mental & Sens;Polyhandicap Mot.Mental & Sens;Polyhan. Mot/Men/Sen;506;20211126120000;20211126120000;20211126120000
-1.2.250.1.213.1.6.1.132;Déficience Auditive & Visuelle;Déficience Auditive & Visuelle;Déficience Audi/Visu;510;20211126120000;20211126120000;20211126120000
-1.2.250.1.213.1.6.1.132;Surdi-Cécité avec ou sans troubles associés;Surdi-Cécité avec ou sans troubles associés;Surdi-Cécité;511;20181026120000;;20181026120000
-1.2.250.1.213.1.6.1.132;Défic.Visuelle.& Audit.Associées;Défic.Visuelle.& Audit.Associées;Déf.Visuelle & Audit;512;20211126120000;20211126120000;20211126120000
-1.2.250.1.213.1.6.1.132;Troubles Psychopathologiques (Sans Autre Indication);Troubles Psychopathologiques (Sans Autre Indication);Troubl. Psychopatho.;600;20181026120000;20211126120000;20211126120000
-1.2.250.1.213.1.6.1.132;Troubles Psychopatologiques Légers;Troubles Psychopatologiques Légers;Troubl. Psychopa.Lég;601;20181026120000;20211126120000;20211126120000
-1.2.250.1.213.1.6.1.132;Troubles Psychopathologiques Graves;Troubles Psychopathologiques Graves;Troubl. Psychopa.Gra;602;20181026120000;20211126120000;20211126120000
-1.2.250.1.213.1.6.1.132;Epilepsie;Epilepsie;Epilepsie;620;20181026120000;;20181026120000
-1.2.250.1.213.1.6.1.132;Personnes Agées (Sans Autre Indication);Personnes Agées (Sans Autre Indication);Personnes Agées;700;20181026120000;;20181026120000
-1.2.250.1.213.1.6.1.132;Personnes Agées Autonomes;Personnes Agées Autonomes;Pers. Agées Autonom.;701;20181026120000;;20181026120000
-1.2.250.1.213.1.6.1.132;Personnes Handicapées vieillissantes;Personnes Handicapées vieillissantes;PH vieillissantes;702;20181026120000;;20181026120000
-1.2.250.1.213.1.6.1.132;Personnes Agées semi-Autonomes;Personnes Agées semi-Autonomes;Pers. Agées semi-Aut;703;20211126120000;20211126120000;20211126120000
-1.2.250.1.213.1.6.1.132;Personnes Agées non Autonomes;Personnes Agées non Autonomes;Pers. Agées non Auto;704;20211126120000;20211126120000;20211126120000
-1.2.250.1.213.1.6.1.132;Personnes Agées semi et non-Autonomes;Personnes Agées semi et non-Autonomes;P.A. semi & non Auto;707;20211126120000;20211126120000;20211126120000
-1.2.250.1.213.1.6.1.132;Personnes Agées Auto et semi-Autonomes;Personnes Agées Auto et semi-Autonomes;P.A.Auto & semi Auto;710;20211126120000;20211126120000;20211126120000
-1.2.250.1.213.1.6.1.132;Personnes Agées dépendantes;Personnes Agées dépendantes;P.A. dépendantes;711;20181026120000;;20181026120000
-1.2.250.1.213.1.6.1.132;Enfants, adolescents et jeunes majeurs ASE;Enfants, adolescents et jeunes majeurs ASE;Enf.Ado.Jeun.Maj.ASE;800;20181026120000;;20200626120000
-1.2.250.1.213.1.6.1.132;Enfants ASE (0-6 ans);Enfants ASE (0-6 ans);Enfants ASE;801;20181026120000;;20200626120000
-1.2.250.1.213.1.6.1.132;Adolescents ASE (7-17 ans);Adolescents ASE (7-17 ans);Adolescents ASE;802;20181026120000;;20200626120000
-1.2.250.1.213.1.6.1.132;Jeunes Majeurs ASE (18-21 ans);Jeunes Majeurs ASE (18-21 ans);Jeunes Majeurs ASE;803;20181026120000;;20200626120000
-1.2.250.1.213.1.6.1.132;Enfants, adolescents et jeunes majeurs PJJ;Enfants, adolescents et jeunes majeurs PJJ;Enf.Ado.JeunMaj.PJJ;804;20200626120000;;20200626120000
-1.2.250.1.213.1.6.1.132;Jeunes et familles en risque d'inadaptation sociale;Jeunes et familles en risque d'inadaptation sociale;Jeun.Fam.RisqInadapt;805;20200626120000;;20200626120000
-1.2.250.1.213.1.6.1.132;Personnes se présentant comme MNA en attente d'évaluation;Personnes se présentant comme MNA en attente d'évaluation;Pers.Attent.Eval.MNA;806;20200626120000;;20200626120000
-1.2.250.1.213.1.6.1.132;Enfants et Adolescents avec difficultés sociales;Enfants et Adolescents avec difficultés sociales;Enf et Ado Diff Soc;807;20181026120000;;20181026120000
-1.2.250.1.213.1.6.1.132;Enfants d'Age Préscolaire;Enfants d'Age Préscolaire;Enfants Age Préscol;808;20181026120000;;20181026120000
-1.2.250.1.213.1.6.1.132;Autres Enfants, Adolescents;Autres Enfants, Adolescents;Autres Enfants,Adol.;809;20181026120000;;20181026120000
-1.2.250.1.213.1.6.1.132;Adultes en Difficulté d'Insertion Sociale (SAI);Adultes en Difficulté d'Insertion Sociale (SAI);Adult.en Dif.Insert.;810;20181026120000;;20181026120000
-1.2.250.1.213.1.6.1.132;Jeunes Adultes en Difficulté;Jeunes Adultes en Difficulté;Jeune.Adulte.en Diff;811;20181026120000;;20181026120000
-1.2.250.1.213.1.6.1.132;Femmes Seules en Difficulté;Femmes Seules en Difficulté;Femme.Seule.en Diff.;812;20181026120000;;20181026120000
-1.2.250.1.213.1.6.1.132;Personnes en difficulté avec l'alcool;Personnes en difficulté avec l'alcool;Alcool;813;20181026120000;;20181026120000
-1.2.250.1.213.1.6.1.132;Personnes consommant des substances psychoactives illicites;Personnes consommant des substances psychoactives illicites;Usagers de drogues;814;20181026120000;;20181026120000
-1.2.250.1.213.1.6.1.132;Sortants d'Etablissement Hospitalier ou médico-social yc psy;Sortants d'Etablissement Hospitalier ou médico-social yc psy;Sortant. Etab. Hosp.;815;20181026120000;;20181026120000
-1.2.250.1.213.1.6.1.132;Prostituées avec ou sans Enfant;Prostituées avec ou sans Enfant;Prostituée av-sa Enf;816;20181026120000;;20181026120000
-1.2.250.1.213.1.6.1.132;Vagabonds et ex-Détenus;Vagabonds et ex-Détenus;Vagabonds et ex-Déte;817;20181026120000;;20181026120000
-1.2.250.1.213.1.6.1.132;Inculpés sous Contrôle judiciaire et Condamnés Libres;Inculpés sous Contrôle judiciaire et Condamnés Libres;Inculpé-Contrôl.Jud.;818;20181026120000;;20181026120000
-1.2.250.1.213.1.6.1.132;Autres Adultes en difficulté d'Insertion Sociale;Autres Adultes en difficulté d'Insertion Sociale;Autre.Adul.Dif.Inser;819;20181026120000;;20181026120000
-1.2.250.1.213.1.6.1.132;Hommes seuls en difficulté;Hommes seuls en difficulté;Homme seul en diff;820;20181026120000;;20181026120000
-1.2.250.1.213.1.6.1.132;Familles en Difficulté ou sans Logement;Familles en Difficulté ou sans Logement;Familles en Diff.;821;20181026120000;;20181026120000
-1.2.250.1.213.1.6.1.132;Personnes et Familles Rapatriées;Personnes et Familles Rapatriées;Pers.Familles Rapat.;822;20181026120000;;20181026120000
-1.2.250.1.213.1.6.1.132;Familles Nomades;Familles Nomades;Familles Nomades;823;20181026120000;;20181026120000
-1.2.250.1.213.1.6.1.132;Personnes seules en Difficulté avec Enfant;Personnes seules en Difficulté avec Enfant;Pers.en Dif.avec Enf;824;20181026120000;;20181026120000
-1.2.250.1.213.1.6.1.132;Travailleurs Migrants;Travailleurs Migrants;Travailleur Migrant;825;20181026120000;;20181026120000
-1.2.250.1.213.1.6.1.132;Jeunes Travailleurs;Jeunes Travailleurs;Jeunes Travailleurs;826;20181026120000;;20181026120000
-1.2.250.1.213.1.6.1.132;Personnes et Familles Réfugiées;Personnes et Familles Réfugiées;Réfugiés;827;20181026120000;;20181026120000
-1.2.250.1.213.1.6.1.132;Accompagnants (ou aidants);Accompagnants (ou aidants);Accompagnants;828;20181026120000;;20181026120000
-1.2.250.1.213.1.6.1.132;Familles en difficulté et-ou femmes isolées;Familles en difficulté et-ou femmes isolées;Familles-femmes seul;829;20181026120000;;20181026120000
-1.2.250.1.213.1.6.1.132;Personnes et Familles Demandeurs d'Asile;Personnes et Familles Demandeurs d'Asile;Demandeurs Asile;830;20181026120000;;20181026120000
-1.2.250.1.213.1.6.1.132;Femmes Victimes de Violence;Femmes Victimes de Violence;Femmes vict. Violenc;831;20181026120000;;20181026120000
-1.2.250.1.213.1.6.1.132;Personnes avec Problèmes Psychiques;Personnes avec Problèmes Psychiques;Pers.Prob.psychiques;832;20181026120000;;20181026120000
-1.2.250.1.213.1.6.1.132;Pers.agée, Pers.handicapée, Etudiant, Jeune travailleur;Pers.agée, Pers.handicapée, Etudiant, Jeune travailleur;PA, PH, Etud, JT.;833;20181026120000;;20181026120000
-1.2.250.1.213.1.6.1.132;Patients et accompagnants (ou aidants);Patients et accompagnants (ou aidants);Patient.et.accomp.;834;20181026120000;;20181026120000
-1.2.250.1.213.1.6.1.132;Parents en difficulté avec enfant;Parents en difficulté avec enfant;Parent.Dif.av.Enfant;835;20200626120000;;20200626120000
-1.2.250.1.213.1.6.1.132;Personnes victimes de la Traite des Etres Humains (T.E.H.);Personnes victimes de la Traite des Etres Humains (T.E.H.);T.E.H.;836;20200626120000;;20200626120000
-1.2.250.1.213.1.6.1.132;Personnes sans Domicile;Personnes sans Domicile;Pers. sans Domicile;840;20181026120000;;20181026120000
-1.2.250.1.213.1.6.1.132;Personnes souffrant d'addictions sans substances;Personnes souffrant d'addictions sans substances;Addict sans substanc;850;20181026120000;;20181026120000
-1.2.250.1.213.1.6.1.132;Personnes mésusant de médicaments;Personnes mésusant de médicaments;Médicaments mésusés;851;20181026120000;;20181026120000
-1.2.250.1.213.1.6.1.132;Personnes en demande sevrage tabagique ou diminution tabac;Personnes en demande sevrage tabagique ou diminution tabac;Tabac;852;20181026120000;;20181026120000
-1.2.250.1.213.1.6.1.132;Personnes souffrant d'addictions (Sans Autre Indication);Personnes souffrant d'addictions (Sans Autre Indication);Toutes addictions;853;20181026120000;;20181026120000
-1.2.250.1.213.1.6.1.132;Majeurs Protégés;Majeurs Protégés;Majeurs Protégés;860;20181026120000;;20181026120000
-1.2.250.1.213.1.6.1.132;Adultes avec difficultés budgétaires;Adultes avec difficultés budgétaires;Adul. Diff. Budg.;861;20181026120000;;20181026120000
-1.2.250.1.213.1.6.1.132;Tuteurs Familiaux;Tuteurs Familiaux;Tuteurs Familiaux;862;20181026120000;;20181026120000
-1.2.250.1.213.1.6.1.132;Tous publics en difficulté;Tous publics en difficulté;Tous publics en diff;899;20181026120000;;20181026120000
-1.2.250.1.213.1.6.1.132;Toute Population;Toute Population;Toute Population;990;20181026120000;;20181026120000
-1.2.250.1.213.1.6.1.132;Regroupement calculs (annexe xxiv);Regroupement calculs (annexe xxiv);Regroupt calcul an24;999;20211126120000;20211126120000;20211126120000
+1.2.250.1.213.1.6.1.132;010;Tous Types de Déficiences Pers.Handicap.(sans autre indic.);Tous Types de Déficiences Pers.Handicap.(sans autre indic.);Toutes Déf P.H. SAI;20181026120000;;20181026120000
+1.2.250.1.213.1.6.1.132;011;Handicap rare;Handicap rare;Handicap rare;20181026120000;;20181026120000
+1.2.250.1.213.1.6.1.132;020;Toutes Déficiences Physiques (Sans autre indication);Toutes Déficiences Physiques (Sans autre indication);Toutes Déf.Physiques;20211126120000;20211126120000;20211126120000
+1.2.250.1.213.1.6.1.132;030;Toutes Déficiences Mentales (sans autre indication);Toutes Déficiences Mentales (sans autre indication);Toutes Déf. Mentales;20211126120000;20211126120000;20211126120000
+1.2.250.1.213.1.6.1.132;040;Aidants / aidés Personnes âgées;Aidants / aidés Personnes âgées;Aidants / aidés PA;20210528120000;;20210528120000
+1.2.250.1.213.1.6.1.132;041;Aidants / aidés Maladies chroniques invalidantes;Aidants / aidés Maladies chroniques invalidantes;Aidants / aidés MCI;20210528120000;;20210528120000
+1.2.250.1.213.1.6.1.132;042;Aidants / aidés Tous types de handicap;Aidants / aidés Tous types de handicap;Aidants / aidés PH;20210528120000;;20210528120000
+1.2.250.1.213.1.6.1.132;043;Aidants / aidés Troubles du spectre de l'autisme;Aidants / aidés Troubles du spectre de l'autisme;Aidants / aidés TSA;20210528120000;;20210528120000
+1.2.250.1.213.1.6.1.132;110;Déficience Intellectuelle (sans autre indication);Déficience Intellectuelle (sans autre indication);Déf. Intellectuelle;20181026120000;20211126120000;20211126120000
+1.2.250.1.213.1.6.1.132;111;Retard Mental Profond ou Sévère;Retard Mental Profond ou Sévère;Ret. Mental Profond;20181026120000;20211126120000;20211126120000
+1.2.250.1.213.1.6.1.132;112;Débilité Profonde & Arriéré Profond;Débilité Profonde & Arriéré Profond;Débil.Prof.& Arriéré;20211126120000;20211126120000;20211126120000
+1.2.250.1.213.1.6.1.132;113;Débilité Profonde;Débilité Profonde;Débilité Profonde;20211126120000;20211126120000;20211126120000
+1.2.250.1.213.1.6.1.132;114;Retard Mental Profond/Sévère/Moyen;Retard Mental Profond/Sévère/Moyen;Ret. Mental Prof/Sév;20211126120000;20211126120000;20211126120000
+1.2.250.1.213.1.6.1.132;115;Retard Mental Moyen;Retard Mental Moyen;Ret. Mental Moyen;20181026120000;20211126120000;20211126120000
+1.2.250.1.213.1.6.1.132;116;Retard Mental Moyen et Léger;Retard Mental Moyen et Léger;Ret. Ment.Moy/Léger;20211126120000;20211126120000;20211126120000
+1.2.250.1.213.1.6.1.132;117;Déficience intellectuelle;Déficience intellectuelle;Déf.intellectuelle;20181026120000;;20181026120000
+1.2.250.1.213.1.6.1.132;118;Retard Mental Léger;Retard Mental Léger;Retard Mental Léger;20181026120000;20211126120000;20211126120000
+1.2.250.1.213.1.6.1.132;120;Déficiences Intellectuelles (SAI) avec Troubles Associés;Déficiences Intellectuelles (SAI) avec Troubles Associés;Déf.Intel. Tr. Ass.;20181026120000;20211126120000;20211126120000
+1.2.250.1.213.1.6.1.132;121;Retard Mental Profond et Sévère avec Troubles Associés;Retard Mental Profond et Sévère avec Troubles Associés;Ret.Ment.Prof.Sév.TA;20181026120000;20211126120000;20211126120000
+1.2.250.1.213.1.6.1.132;125;Retard Mental Moyen avec Troubles Associés;Retard Mental Moyen avec Troubles Associés;Ret.Ment.Moy.Tr.Ass.;20181026120000;20211126120000;20211126120000
+1.2.250.1.213.1.6.1.132;128;Retard Mental Léger avec Troubles Associés;Retard Mental Léger avec Troubles Associés;Ret.Ment.Lég.Tr.Ass.;20181026120000;20211126120000;20211126120000
+1.2.250.1.213.1.6.1.132;200;Difficultés psychologiques avec troubles du comportement;Difficultés psychologiques avec troubles du comportement;Diff.Psy.troubl.Comp;20181026120000;;20181026120000
+1.2.250.1.213.1.6.1.132;201;Déficience Intermittente de la Conscience ycompris épilepsie;Déficience Intermittente de la Conscience ycompris épilepsie;Déf.Int. Conscience;20181026120000;;20181026120000
+1.2.250.1.213.1.6.1.132;202;Déficience Grave du Psychisme consécutive à lésion cérébrale;Déficience Grave du Psychisme consécutive à lésion cérébrale;Déf.Gr.Psy.Lésion.Cé;20181026120000;20211126120000;20211126120000
+1.2.250.1.213.1.6.1.132;203;Déficience Grave de la Communication;Déficience Grave de la Communication;Déf.Gr.Communication;20181026120000;20211126120000;20211126120000
+1.2.250.1.213.1.6.1.132;204;Déficience Grave du Psychisme;Déficience Grave du Psychisme;Déf.Gr du Psychisme;20181026120000;20211126120000;20211126120000
+1.2.250.1.213.1.6.1.132;205;Déficience du Psychisme (Sans Autre Indication);Déficience du Psychisme (Sans Autre Indication);Déf.du Psychisme SAI;20181026120000;20211126120000;20211126120000
+1.2.250.1.213.1.6.1.132;206;Handicap psychique;Handicap psychique;Handicap psychique;20181026120000;;20181026120000
+1.2.250.1.213.1.6.1.132;207;Handicap cognitif spécifique;Handicap cognitif spécifique;Hand.cognitif spécif;20181026120000;;20181026120000
+1.2.250.1.213.1.6.1.132;310;Déficience Auditive;Déficience Auditive;Déficience Auditive;20181026120000;20211126120000;20211126120000
+1.2.250.1.213.1.6.1.132;311;Surdité;Surdité;Surdité;20211126120000;20211126120000;20211126120000
+1.2.250.1.213.1.6.1.132;312;Malentendant;Malentendant;Malentendant;20211126120000;20211126120000;20211126120000
+1.2.250.1.213.1.6.1.132;313;Sourd et Malentendant;Sourd et Malentendant;Sourd & Malentendant;20211126120000;20211126120000;20211126120000
+1.2.250.1.213.1.6.1.132;317;Déficiences Auditives avec troubles associés;Déficiences Auditives avec troubles associés;Déf.Auditive Tr.Ass.;20181026120000;20211126120000;20211126120000
+1.2.250.1.213.1.6.1.132;318;Déficience auditive grave;Déficience auditive grave;Déf.auditive grave;20181026120000;;20181026120000
+1.2.250.1.213.1.6.1.132;320;Déficience Visuelle (Sans Autre Indication);Déficience Visuelle (Sans Autre Indication);Déficience Visuelle;20181026120000;20211126120000;20211126120000
+1.2.250.1.213.1.6.1.132;321;Cécité;Cécité;Cécité;20211126120000;20211126120000;20211126120000
+1.2.250.1.213.1.6.1.132;322;Cécité et Malvoyance;Cécité et Malvoyance;Cécité et Malvoyance;20211126120000;20211126120000;20211126120000
+1.2.250.1.213.1.6.1.132;323;Malvoyance;Malvoyance;Malvoyance;20211126120000;20211126120000;20211126120000
+1.2.250.1.213.1.6.1.132;324;Déficience visuelle grave;Déficience visuelle grave;Déf. visuelle grave;20181026120000;;20181026120000
+1.2.250.1.213.1.6.1.132;327;Déficiences Visuelles avec troubles associés;Déficiences Visuelles avec troubles associés;Déf.Visuelle Tr.Ass.;20181026120000;20211126120000;20211126120000
+1.2.250.1.213.1.6.1.132;410;Déficience Motrice sans Troubles Associés;Déficience Motrice sans Troubles Associés;Déf.Mot.sans Trouble;20181026120000;20211126120000;20211126120000
+1.2.250.1.213.1.6.1.132;411;Infirm.Mot.Cérébrale/non Cérébrale;Infirm.Mot.Cérébrale/non Cérébrale;Inf.Mot.Céré/non Cér;20211126120000;20211126120000;20211126120000
+1.2.250.1.213.1.6.1.132;412;Infirmité Motrice Cérébrale;Infirmité Motrice Cérébrale;Inf.Motri.Cérébrale;20211126120000;20211126120000;20211126120000
+1.2.250.1.213.1.6.1.132;413;Infirmité Motrice non Cérébrale;Infirmité Motrice non Cérébrale;Inf.Motri. non Céré.;20211126120000;20211126120000;20211126120000
+1.2.250.1.213.1.6.1.132;414;Déficience Motrice;Déficience Motrice;Déficience Motrice;20181026120000;;20181026120000
+1.2.250.1.213.1.6.1.132;420;Déficience Motrice avec Troubles Associés;Déficience Motrice avec Troubles Associés;Déf.Mot.avec Trouble;20181026120000;20211126120000;20211126120000
+1.2.250.1.213.1.6.1.132;430;Personnes nécessitant prise en charge psycho soc et san SAI;Personnes nécessitant prise en charge psycho soc et san SAI;Diff specif SAI;20181026120000;;20181026120000
+1.2.250.1.213.1.6.1.132;431;Affection Cardiaque;Affection Cardiaque;Affection Cardiaque;20181026120000;;20181026120000
+1.2.250.1.213.1.6.1.132;432;Diabète;Diabète;Diabéte;20181026120000;;20181026120000
+1.2.250.1.213.1.6.1.132;433;Affection Respiratoire;Affection Respiratoire;Affect. Respiratoire;20181026120000;;20181026120000
+1.2.250.1.213.1.6.1.132;434;Hémophilie;Hémophilie;Hémophilie;20181026120000;;20181026120000
+1.2.250.1.213.1.6.1.132;435;Insuffisance Rénale;Insuffisance Rénale;Insuffisance Rénale;20181026120000;;20181026120000
+1.2.250.1.213.1.6.1.132;436;Personnes Alzheimer ou maladies apparentées;Personnes Alzheimer ou maladies apparentées;Alzheimer, mal appar;20181026120000;;20181026120000
+1.2.250.1.213.1.6.1.132;437;Troubles du spectre de l'autisme;Troubles du spectre de l'autisme;Trbl.Spectr.autisme;20181026120000;;20181026120000
+1.2.250.1.213.1.6.1.132;438;Cérébro lésés;Cérébro lésés;Cérébro lésés;20181026120000;;20181026120000
+1.2.250.1.213.1.6.1.132;439;VIH VHC;VIH VHC;VIH VHC;20181026120000;;20181026120000
+1.2.250.1.213.1.6.1.132;440;MND autres que Maladie Alzheimer et Maladies Apparentées;MND autres que Maladie Alzheimer et Maladies Apparentées;MND autres que MAMA;20191213120000;;20191213120000
+1.2.250.1.213.1.6.1.132;441;Adultes autistes relevant des cas complexes;Adultes autistes relevant des cas complexes;Adultes autistes cas complexes;20240628120000;;20240628120000
+1.2.250.1.213.1.6.1.132;442;Troubles du neurodéveloppement;Troubles du neurodéveloppement;Troubles du neurodéveloppement;20240927120000;;20240927120000
+1.2.250.1.213.1.6.1.132;500;Polyhandicap;Polyhandicap;Polyhandicap;20181026120000;;20181026120000
+1.2.250.1.213.1.6.1.132;501;Polyhandicap Moteur et Mental.;Polyhandicap Moteur et Mental.;Polyhand. Mot/Mental;20211126120000;20211126120000;20211126120000
+1.2.250.1.213.1.6.1.132;502;Polyhandicap Auditif et Mental;Polyhandicap Auditif et Mental;Polyhand. Aud/Mental;20211126120000;20211126120000;20211126120000
+1.2.250.1.213.1.6.1.132;503;Polyhandicap Visuel et Mental;Polyhandicap Visuel et Mental;Polyhand. Vis/Mental;20211126120000;20211126120000;20211126120000
+1.2.250.1.213.1.6.1.132;506;Polyhandicap Mot.Mental & Sens;Polyhandicap Mot.Mental & Sens;Polyhan. Mot/Men/Sen;20211126120000;20211126120000;20211126120000
+1.2.250.1.213.1.6.1.132;510;Déficience Auditive & Visuelle;Déficience Auditive & Visuelle;Déficience Audi/Visu;20211126120000;20211126120000;20211126120000
+1.2.250.1.213.1.6.1.132;511;Surdi-Cécité avec ou sans troubles associés;Surdi-Cécité avec ou sans troubles associés;Surdi-Cécité;20181026120000;;20181026120000
+1.2.250.1.213.1.6.1.132;512;Défic.Visuelle.& Audit.Associées;Défic.Visuelle.& Audit.Associées;Déf.Visuelle & Audit;20211126120000;20211126120000;20211126120000
+1.2.250.1.213.1.6.1.132;600;Troubles Psychopathologiques (Sans Autre Indication);Troubles Psychopathologiques (Sans Autre Indication);Troubl. Psychopatho.;20181026120000;20211126120000;20211126120000
+1.2.250.1.213.1.6.1.132;601;Troubles Psychopatologiques Légers;Troubles Psychopatologiques Légers;Troubl. Psychopa.Lég;20181026120000;20211126120000;20211126120000
+1.2.250.1.213.1.6.1.132;602;Troubles Psychopathologiques Graves;Troubles Psychopathologiques Graves;Troubl. Psychopa.Gra;20181026120000;20211126120000;20211126120000
+1.2.250.1.213.1.6.1.132;620;Epilepsie;Epilepsie;Epilepsie;20181026120000;;20181026120000
+1.2.250.1.213.1.6.1.132;700;Personnes Agées (Sans Autre Indication);Personnes Agées (Sans Autre Indication);Personnes Agées;20181026120000;;20181026120000
+1.2.250.1.213.1.6.1.132;701;Personnes Agées Autonomes;Personnes Agées Autonomes;Pers. Agées Autonom.;20181026120000;;20181026120000
+1.2.250.1.213.1.6.1.132;702;Personnes Handicapées vieillissantes;Personnes Handicapées vieillissantes;PH vieillissantes;20181026120000;;20181026120000
+1.2.250.1.213.1.6.1.132;703;Personnes Agées semi-Autonomes;Personnes Agées semi-Autonomes;Pers. Agées semi-Aut;20211126120000;20211126120000;20211126120000
+1.2.250.1.213.1.6.1.132;704;Personnes Agées non Autonomes;Personnes Agées non Autonomes;Pers. Agées non Auto;20211126120000;20211126120000;20211126120000
+1.2.250.1.213.1.6.1.132;707;Personnes Agées semi et non-Autonomes;Personnes Agées semi et non-Autonomes;P.A. semi & non Auto;20211126120000;20211126120000;20211126120000
+1.2.250.1.213.1.6.1.132;710;Personnes Agées Auto et semi-Autonomes;Personnes Agées Auto et semi-Autonomes;P.A.Auto & semi Auto;20211126120000;20211126120000;20211126120000
+1.2.250.1.213.1.6.1.132;711;Personnes Agées dépendantes;Personnes Agées dépendantes;P.A. dépendantes;20181026120000;;20181026120000
+1.2.250.1.213.1.6.1.132;800;Enfants, adolescents et jeunes majeurs ASE;Enfants, adolescents et jeunes majeurs ASE;Enf.Ado.Jeun.Maj.ASE;20181026120000;;20200626120000
+1.2.250.1.213.1.6.1.132;801;Enfants ASE (0-6 ans);Enfants ASE (0-6 ans);Enfants ASE;20181026120000;;20200626120000
+1.2.250.1.213.1.6.1.132;802;Adolescents ASE (7-17 ans);Adolescents ASE (7-17 ans);Adolescents ASE;20181026120000;;20200626120000
+1.2.250.1.213.1.6.1.132;803;Jeunes Majeurs ASE (18-21 ans);Jeunes Majeurs ASE (18-21 ans);Jeunes Majeurs ASE;20181026120000;;20200626120000
+1.2.250.1.213.1.6.1.132;804;Enfants, adolescents et jeunes majeurs PJJ;Enfants, adolescents et jeunes majeurs PJJ;Enf.Ado.JeunMaj.PJJ;20200626120000;;20200626120000
+1.2.250.1.213.1.6.1.132;805;Jeunes et familles en risque d'inadaptation sociale;Jeunes et familles en risque d'inadaptation sociale;Jeun.Fam.RisqInadapt;20200626120000;;20200626120000
+1.2.250.1.213.1.6.1.132;806;Personnes se présentant comme MNA en attente d'évaluation;Personnes se présentant comme MNA en attente d'évaluation;Pers.Attent.Eval.MNA;20200626120000;;20200626120000
+1.2.250.1.213.1.6.1.132;807;Enfants et Adolescents avec difficultés sociales;Enfants et Adolescents avec difficultés sociales;Enf et Ado Diff Soc;20181026120000;;20181026120000
+1.2.250.1.213.1.6.1.132;808;Enfants d'Age Préscolaire;Enfants d'Age Préscolaire;Enfants Age Préscol;20181026120000;;20181026120000
+1.2.250.1.213.1.6.1.132;809;Autres Enfants, Adolescents;Autres Enfants, Adolescents;Autres Enfants,Adol.;20181026120000;;20181026120000
+1.2.250.1.213.1.6.1.132;810;Adultes en Difficulté d'Insertion Sociale (SAI);Adultes en Difficulté d'Insertion Sociale (SAI);Adult.en Dif.Insert.;20181026120000;;20181026120000
+1.2.250.1.213.1.6.1.132;811;Jeunes Adultes en Difficulté;Jeunes Adultes en Difficulté;Jeune.Adulte.en Diff;20181026120000;;20181026120000
+1.2.250.1.213.1.6.1.132;812;Femmes Seules en Difficulté;Femmes Seules en Difficulté;Femme.Seule.en Diff.;20181026120000;;20181026120000
+1.2.250.1.213.1.6.1.132;813;Personnes en difficulté avec l'alcool;Personnes en difficulté avec l'alcool;Alcool;20181026120000;;20181026120000
+1.2.250.1.213.1.6.1.132;814;Personnes consommant des substances psychoactives illicites;Personnes consommant des substances psychoactives illicites;Usagers de drogues;20181026120000;;20181026120000
+1.2.250.1.213.1.6.1.132;815;Sortants d'Etablissement Hospitalier ou médico-social yc psy;Sortants d'Etablissement Hospitalier ou médico-social yc psy;Sortant. Etab. Hosp.;20181026120000;;20181026120000
+1.2.250.1.213.1.6.1.132;816;Prostituées avec ou sans Enfant;Prostituées avec ou sans Enfant;Prostituée av-sa Enf;20181026120000;;20181026120000
+1.2.250.1.213.1.6.1.132;817;Vagabonds et ex-Détenus;Vagabonds et ex-Détenus;Vagabonds et ex-Déte;20181026120000;;20181026120000
+1.2.250.1.213.1.6.1.132;818;Inculpés sous Contrôle judiciaire et Condamnés Libres;Inculpés sous Contrôle judiciaire et Condamnés Libres;Inculpé-Contrôl.Jud.;20181026120000;;20181026120000
+1.2.250.1.213.1.6.1.132;819;Autres Adultes en difficulté d'Insertion Sociale;Autres Adultes en difficulté d'Insertion Sociale;Autre.Adul.Dif.Inser;20181026120000;;20181026120000
+1.2.250.1.213.1.6.1.132;820;Hommes seuls en difficulté;Hommes seuls en difficulté;Homme seul en diff;20181026120000;;20181026120000
+1.2.250.1.213.1.6.1.132;821;Familles en Difficulté ou sans Logement;Familles en Difficulté ou sans Logement;Familles en Diff.;20181026120000;;20181026120000
+1.2.250.1.213.1.6.1.132;822;Personnes et Familles Rapatriées;Personnes et Familles Rapatriées;Pers.Familles Rapat.;20181026120000;;20181026120000
+1.2.250.1.213.1.6.1.132;823;Familles Nomades;Familles Nomades;Familles Nomades;20181026120000;;20181026120000
+1.2.250.1.213.1.6.1.132;824;Personnes seules en Difficulté avec Enfant;Personnes seules en Difficulté avec Enfant;Pers.en Dif.avec Enf;20181026120000;;20181026120000
+1.2.250.1.213.1.6.1.132;825;Travailleurs Migrants;Travailleurs Migrants;Travailleur Migrant;20181026120000;;20181026120000
+1.2.250.1.213.1.6.1.132;826;Jeunes Travailleurs;Jeunes Travailleurs;Jeunes Travailleurs;20181026120000;;20181026120000
+1.2.250.1.213.1.6.1.132;827;Personnes et Familles Réfugiées;Personnes et Familles Réfugiées;Réfugiés;20181026120000;;20181026120000
+1.2.250.1.213.1.6.1.132;828;Accompagnants (ou aidants);Accompagnants (ou aidants);Accompagnants;20181026120000;;20181026120000
+1.2.250.1.213.1.6.1.132;829;Familles en difficulté et-ou femmes isolées;Familles en difficulté et-ou femmes isolées;Familles-femmes seul;20181026120000;;20181026120000
+1.2.250.1.213.1.6.1.132;830;Personnes et Familles Demandeurs d'Asile;Personnes et Familles Demandeurs d'Asile;Demandeurs Asile;20181026120000;;20181026120000
+1.2.250.1.213.1.6.1.132;831;Femmes Victimes de Violence;Femmes Victimes de Violence;Femmes vict. Violenc;20181026120000;;20181026120000
+1.2.250.1.213.1.6.1.132;832;Personnes avec Problèmes Psychiques;Personnes avec Problèmes Psychiques;Pers.Prob.psychiques;20181026120000;;20181026120000
+1.2.250.1.213.1.6.1.132;833;Pers.agée, Pers.handicapée, Etudiant, Jeune travailleur;Pers.agée, Pers.handicapée, Etudiant, Jeune travailleur;PA, PH, Etud, JT.;20181026120000;;20181026120000
+1.2.250.1.213.1.6.1.132;834;Patients et accompagnants (ou aidants);Patients et accompagnants (ou aidants);Patient.et.accomp.;20181026120000;;20181026120000
+1.2.250.1.213.1.6.1.132;835;Parents en difficulté avec enfant;Parents en difficulté avec enfant;Parent.Dif.av.Enfant;20200626120000;;20200626120000
+1.2.250.1.213.1.6.1.132;836;Personnes victimes de la Traite des Etres Humains (T.E.H.);Personnes victimes de la Traite des Etres Humains (T.E.H.);T.E.H.;20200626120000;;20200626120000
+1.2.250.1.213.1.6.1.132;840;Personnes sans Domicile;Personnes sans Domicile;Pers. sans Domicile;20181026120000;;20181026120000
+1.2.250.1.213.1.6.1.132;850;Personnes souffrant d'addictions sans substances;Personnes souffrant d'addictions sans substances;Addict sans substanc;20181026120000;;20181026120000
+1.2.250.1.213.1.6.1.132;851;Personnes mésusant de médicaments;Personnes mésusant de médicaments;Médicaments mésusés;20181026120000;;20181026120000
+1.2.250.1.213.1.6.1.132;852;Personnes en demande sevrage tabagique ou diminution tabac;Personnes en demande sevrage tabagique ou diminution tabac;Tabac;20181026120000;;20181026120000
+1.2.250.1.213.1.6.1.132;853;Personnes souffrant d'addictions (Sans Autre Indication);Personnes souffrant d'addictions (Sans Autre Indication);Toutes addictions;20181026120000;;20181026120000
+1.2.250.1.213.1.6.1.132;860;Majeurs Protégés;Majeurs Protégés;Majeurs Protégés;20181026120000;;20181026120000
+1.2.250.1.213.1.6.1.132;861;Adultes avec difficultés budgétaires;Adultes avec difficultés budgétaires;Adul. Diff. Budg.;20181026120000;;20181026120000
+1.2.250.1.213.1.6.1.132;862;Tuteurs Familiaux;Tuteurs Familiaux;Tuteurs Familiaux;20181026120000;;20181026120000
+1.2.250.1.213.1.6.1.132;899;Tous publics en difficulté;Tous publics en difficulté;Tous publics en diff;20181026120000;;20181026120000
+1.2.250.1.213.1.6.1.132;990;Toute Population;Toute Population;Toute Population;20181026120000;;20181026120000
+1.2.250.1.213.1.6.1.132;999;Regroupement calculs (annexe xxiv);Regroupement calculs (annexe xxiv);Regroupt calcul an24;20211126120000;20211126120000;20211126120000

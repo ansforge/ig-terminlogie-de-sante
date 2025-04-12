@@ -1,84 +1,84 @@
 <OID>;<Type fichier>;<Nom fichier>;<Description>;<URL fichier>;<Date valid>;<Date fin>;<Date MàJ>
 1.2.250.1.213.1.6.1.7;TRE;TRE_R65_AgregatCategorieEtablissement.tabs;Agrégat de catégories d'établissements;https://mos.esante.gouv.fr/NOS/TRE_R65-AgregatCategorieEtablissement;19790101000000;;20250228120000
 <OID>;<Code>;<Libellé adapté>;<Libellé court>;<Libellé long>;<Date valid>;<Date fin>;<Date MAJ> 
-1.2.250.1.213.1.6.1.7;Etablissements d'Administration;Etablissements d'Administration;Etab.Administration;0101;19790101000000;20210326120000;20210326120000
-1.2.250.1.213.1.6.1.7;Centres Hospitaliers Régionaux;Centres Hospitaliers Régionaux;C.H.R.;1101;19790101000000;;19790101000000
-1.2.250.1.213.1.6.1.7;Centres Hospitaliers;Centres Hospitaliers;Centres Hospitaliers;1102;19790101000000;;19790101000000
-1.2.250.1.213.1.6.1.7;Centres hospitaliers spécialisés dans la lutte contre les maladies mentales;Centres Hospitaliers Spécialisés Lutte Maladies Mentales;Lutte Malad.Mentales;1103;19790101000000;;19790101000000
-1.2.250.1.213.1.6.1.7;Centres de Lutte contre le Cancer;Centres de Lutte contre le Cancer;Lutte contre Cancer;1104;19790101000000;;19790101000000
-1.2.250.1.213.1.6.1.7;Hôpitaux Locaux;Hôpitaux Locaux;Hôpitaux Locaux;1106;19790101000000;;19790101000000
-1.2.250.1.213.1.6.1.7;Etablissements de santé privé autorisés en SSR;Etablissements de santé privé autorisés en SSR;Soins Suite & Réadap;1107;19790101000000;;20181214120000
-1.2.250.1.213.1.6.1.7;Centre de Moyen et de Long Séjour;Centre de Moyen et de Long Séjour;Ctre.Moyen Long Séj.;1108;19790101000000;;19790101000000
-1.2.250.1.213.1.6.1.7;Etablissements de Soins de Longue Durée;Etablissements de Soins de Longue Durée;Etab.Longue Durée;1109;19790101000000;;19790101000000
-1.2.250.1.213.1.6.1.7;Etablissements de Soins de Courte Durée;Etablissements de Soins de Courte Durée;Soins Courte Durée;1110;19790101000000;;19790101000000
-1.2.250.1.213.1.6.1.7;Autres établissements de lutte contre les maladies mentales;Autres Etablissements de Lutte contre les Maladies Mentales;Autres Etab.Lut.Ment;1111;19790101000000;;19790101000000
-1.2.250.1.213.1.6.1.7;Etablissements d'Enfants à Caractère Sanitaire;Etablissements d'Enfants à Caractère Sanitaire;Etab.Enf.à Carac.San;1112;19790101000000;20210326120000;20210326120000
-1.2.250.1.213.1.6.1.7;Etablissements de Lutte contre l'Alcoolisme;Etablissements de Lutte contre l'Alcoolisme;Etab.Lutte Alcool.;1113;19790101000000;20210326120000;20210326120000
-1.2.250.1.213.1.6.1.7;Traitements et Soins à Domicile;Traitements et Soins à Domicile;Soins à Domicile;1201;19790101000000;;19790101000000
-1.2.250.1.213.1.6.1.7;Santé Mentale;Santé Mentale;Santé Mentale;1202;19790101000000;;19790101000000
-1.2.250.1.213.1.6.1.7;Dialyse ambulatoire;Dialyse ambulatoire;Dialyse ambulatoire;1203;19790101000000;;19790101000000
-1.2.250.1.213.1.6.1.7;Urgence et Réanimation;Urgence et Réanimation;Urgence Réanimation;1204;19790101000000;20210326120000;20210326120000
-1.2.250.1.213.1.6.1.7;Autres établissements relevant de la loi hospitalière;Autres Etablissements Relevant de la Loi Hospitalière;Autres Etab.Loi Hosp;1205;19790101000000;;19790101000000
-1.2.250.1.213.1.6.1.7;Cabinets Libéraux de Médecins;Cabinets Libéraux de Médecins;Cab.Lib.de Médecins;2101;19790101000000;20210326120000;20210326120000
-1.2.250.1.213.1.6.1.7;Cabinet de Groupe;Cabinet de Groupe;Cabinets de groupe;2102;19790101000000;20210326120000;20210326120000
-1.2.250.1.213.1.6.1.7;Autres structures d'exercice libéral;Autres structures d'exercice libéral;Autr Exerc. libéral;2103;20120328000000;;20120328000000
-1.2.250.1.213.1.6.1.7;Cabinets d'auxiliaires médicaux;Cabinet d'Auxiliaires Médicaux;Cabinet Aux.Médicaux;2105;19790101000000;20210326120000;20210326120000
-1.2.250.1.213.1.6.1.7;Dispensaires ou Centres de Soins;Dispensaires ou Centres de Soins;Dispensaires;2201;19790101000000;;19790101000000
-1.2.250.1.213.1.6.1.7;Etablissements de PMI et de Planification Familiale;Etablissements de PMI et de Planification Familiale;PMI Plani. Familiale;2202;19790101000000;;19790101000000
-1.2.250.1.213.1.6.1.7;Etablissements de Soins Dentaires;Etablissements de Soins Dentaires;Etab.Soins Dentaires;2203;19790101000000;20210326120000;20210326120000
-1.2.250.1.213.1.6.1.7;Etablissements ne relevant pas de la Loi Hospitalière;Etablissements ne relevant pas de la Loi Hospitalière;Etab.non Loi Hospi.;2204;19790101000000;;19790101000000
-1.2.250.1.213.1.6.1.7;Etablissements de soins relevant du Service de santé des armées;Etab.de soins relevant du service de santé des armées;Etab.santé armées;2205;19990617000000;;19990617000000
-1.2.250.1.213.1.6.1.7;Centres de Santé;Centres de Santé;Centres de Santé;2206;20131219000000;;20131219000000
-1.2.250.1.213.1.6.1.7;Laboratoires de Biologie Médicale;Laboratoires de Biologie Médicale;Labo Biolog Médicale;3101;19790101000000;;19790101000000
-1.2.250.1.213.1.6.1.7;Commerce de Biens à Usage Médicaux;Commerce de Biens à Usage Médicaux;Com.Biens Usage Méd.;3201;19790101000000;;19790101000000
-1.2.250.1.213.1.6.1.7;Commerce de Biens Médicaux;Commerce de Biens Médicaux;Com.Biens Médicaux;3202;19790101000000;20210326120000;20210326120000
-1.2.250.1.213.1.6.1.7;Transfusion Sanguine;Transfusion Sanguine;Transfusion Sanguine;3401;19790101000000;;19790101000000
-1.2.250.1.213.1.6.1.7;Conservation et Stockage d'autres Produits Humains;Conservation et Stockage d'autres Produits Humains;Conserv.Pdts.Humains;3402;19790101000000;20210326120000;20210326120000
-1.2.250.1.213.1.6.1.7;Centre Antipoison;Centre Antipoison;Centre Anti-Poison;3403;19790101000000;20210326120000;20210326120000
-1.2.250.1.213.1.6.1.7;Service d'Ambulances;Service d'Ambulances;Services d'ambulances;3404;19790101000000;20210326120000;20210326120000
-1.2.250.1.213.1.6.1.7;Installations autonomes de chirurgie esthétique;Installations autonomes de chirurgie esthétique;I.A.C.E.;3405;20150605000000;;20150605000000
-1.2.250.1.213.1.6.1.7;Maisons de Naissance;Maisons de Naissance;Maisons de Naissance;3406;20190830120000;;20190830120000
-1.2.250.1.213.1.6.1.7;Etablissements Expérimentaux en Santé;Etablissements Expérimentaux en Santé;Etab.Expér.Santé;3407;20200828120000;;20200828120000
-1.2.250.1.213.1.6.1.7;Centre de ressources transverse;Centre de ressources transverse;Centre ressources transverse;3408;20220128120000;;20220128120000
-1.2.250.1.213.1.6.1.7;Services de Prévention et de Santé au Travail (SPST);Services de Prévention et de Santé au Travail (SPST);S.P.S.T.;3409;20230526120000;;20250228120000
-1.2.250.1.213.1.6.1.7;Services d'incendie et de secours;Services d'incendie et de secours;S.I.S.;3410;20240628120000;;20240628120000
-1.2.250.1.213.1.6.1.7;Etablissements d'éducation spéciale pour déficients mentaux et handicapés;Etab.Educ.Spéciale pour Déficients Mentaux et Handicapés;Déf.Mentaux et Hand.;4101;19790101000000;;19790101000000
-1.2.250.1.213.1.6.1.7;Etablissements d'éducation spéciale pour enfants avec trouble de conduite et des comportements;Etab.Educ Spéciale pour Enfants Trouble Conduite et Comport;Enf.Trouble.Conduite;4102;19790101000000;;19790101000000
-1.2.250.1.213.1.6.1.7;Etablissements d'éducation spéciale pour handicapés moteurs;Etablissements d'Education Spéciale pour Handicapés Moteurs;Handicapés Moteurs;4103;19790101000000;;19790101000000
-1.2.250.1.213.1.6.1.7;Etablissements d'éducation spéciale pour déficients sensoriels;Etab.Education Spéciale pour Déficients Sensoriels;Etab.Défic.Sensor.;4104;19790101000000;;19790101000000
-1.2.250.1.213.1.6.1.7;Etablissements et Services d'hébergement pour enfants handicapés;Etablissements et Services Hébergement Enfants Handicapés;Héberg.Enfant Hand.;4105;19790101000000;;19790101000000
-1.2.250.1.213.1.6.1.7;Services à Domicile ou Ambulatoires pour Handicapés;Services à Domicile ou Ambulatoires pour Handicapés;Serv.Dom.Ambul.Handi;4106;19790101000000;;19790101000000
-1.2.250.1.213.1.6.1.7;Etablissements expérimentaux en faveur de l'enfance handicapée;Etab. Expérimentaux en Faveur de l'Enfance Handicapée;Etab.Expéri.Enf.Hand;4107;19790101000000;;19790101000000
-1.2.250.1.213.1.6.1.7;Etablissements ou Classes de Pré-Élémentaire et Élémentaire;Etablissements ou Classes de Pré-Élémentaire et Élémentaire;Classe Pré & Elément;4201;19790101000000;20210326120000;20210326120000
-1.2.250.1.213.1.6.1.7;Etablissements d'Enseignement Secondaire;Etablissements d'Enseignement Secondaire;Etab.Enseig.Second.;4202;19790101000000;20210326120000;20210326120000
-1.2.250.1.213.1.6.1.7;Etablissements et Services d'hébergement pour adultes handicapés;Etab. et Services d'Hébergement pour Adultes Handicapés;Héberg.Adultes Handi;4301;19790101000000;;19790101000000
-1.2.250.1.213.1.6.1.7;Etablissements et Services de travail protégé pour adultes handicapés;Etab.et Services de Travail Protégé pour Adultes Handicapés;Trav.Prot.Adul.Handi;4302;19790101000000;;19790101000000
-1.2.250.1.213.1.6.1.7;Etablissements et Services de réinsertion professionelle pour adultes handicapés;Etab.et Services de Réinsertion Prof pour Adultes Handicapés;Réins.Prof.Adul.Hand;4303;19790101000000;;19790101000000
-1.2.250.1.213.1.6.1.7;Etabs expérimentaux en faveur des adultes handicapés;Etab.Expérimentaux en Faveur des Adultes Handicapés;Etab.Expéri.Adul.Han;4304;19790101000000;;19790101000000
-1.2.250.1.213.1.6.1.7;Services de Maintien à Domicile pour Handicapés;Services de Maintien à Domicile pour Handicapés;Maintien à Dom.Handi;4305;19790101000000;;19790101000000
-1.2.250.1.213.1.6.1.7;Etablissements d'Hébergement pour Personnes Âgées;Etablissements d'Hébergement pour Personnes Âgées;Héberg.Pers.Agées;4401;19790101000000;;19790101000000
-1.2.250.1.213.1.6.1.7;Services de Maintien à Domicile pour Personnes Âgées;Services de Maintien à Domicile pour Personnes Âgées;Serv.Maintien à Dom.;4402;19790101000000;;19790101000000
-1.2.250.1.213.1.6.1.7;Services Sociaux en Faveur des Personnes Âgées;Services Sociaux en Faveur des Personnes Âgées;Serv.Soc.Pers.Agées;4403;19790101000000;20210326120000;20210326120000
-1.2.250.1.213.1.6.1.7;Etablissements Expérimentaux en Faveur des Personnes Âgées;Etablissements Expérimentaux en Faveur des Personnes Âgées;Etab.Expéri.Pers.Ag.;4404;19790101000000;;19790101000000
-1.2.250.1.213.1.6.1.7;Etablissements de l'Aide Sociale à l'Enfance;Etablissements de l'Aide Sociale à l'Enfance;Aide Sociale Enfance;4501;19790101000000;;19790101000000
-1.2.250.1.213.1.6.1.7;Etablissements et Services du Ministère de la justice pour mineurs;Etab.et Services du Ministère de la Justice pour Mineurs;Min. Justice Mineurs;4502;19790101000000;;19790101000000
-1.2.250.1.213.1.6.1.7;Services Concourant à la Protection de l'Enfance;Services Concourant à la Protection de l'Enfance;Protection Enfance;4504;19790101000000;;19790101000000
-1.2.250.1.213.1.6.1.7;Etablissements expérimentaux en faveur de l'enfance protégée;Etab. Expérimentaux en Faveur de l'Enfance Protégée;Etab.Expéri.Enf.Prot;4505;19790101000000;;19790101000000
-1.2.250.1.213.1.6.1.7;Etablissements pour Adultes et Familles en Difficulté;Etablissements pour Adultes et Familles en Difficulté;Adult.Fam.Difficulté;4601;19790101000000;;19790101000000
-1.2.250.1.213.1.6.1.7;Autres établissements sociaux d'hébergement et d'accueil;Autres Etablissements Sociaux d'Hébergement et d'Accueil;Autres Etab.Accueil;4602;19790101000000;;19790101000000
-1.2.250.1.213.1.6.1.7;Etablissements Expérimentaux en Faveur des Adultes;Etablissements Expérimentaux en Faveur des Adultes;Etab.Expéri.Adultes;4603;19790101000000;;19790101000000
-1.2.250.1.213.1.6.1.7;Autres établissements médico-sociaux;Autres Etablissements médico-sociaux;Autr.Etab.médico-soc;4604;19990617000000;;19990617000000
-1.2.250.1.213.1.6.1.7;Etablissements et services multi-clientèles;Etablissements et services multi-clientèles;Etab.multi-clientèle;4605;20020101000000;;20020101000000
-1.2.250.1.213.1.6.1.7;Centres de ressources;Centres de ressources;Ctre.de ressources;4606;20020101000000;;20020101000000
-1.2.250.1.213.1.6.1.7;Logements en Structure Collective;Logements en Structure Collective;Log. Struct. Collect;4607;20090121000000;;20090121000000
-1.2.250.1.213.1.6.1.7;Protection des majeurs;Protection des majeurs;Protection majeurs;4608;20101112000000;;20101112000000
-1.2.250.1.213.1.6.1.7;Centres prestataires de services pour personnes cérébro-lésées;Centres prestataires de services pr personnes cérébro-lésées;Ctre serv pr cérébro;4609;20121105000000;;20121105000000
-1.2.250.1.213.1.6.1.7;Etablissements garde d'enfants d'âge pré-scolaire;Etablissements Garde d'Enfants d'Age pré-Scolaire;Etab.Gard.Enf.Présco;5101;19790101000000;20210326120000;20210326120000
-1.2.250.1.213.1.6.1.7;Etablissements d'hébergement pour enfants d'âge scolaire;Etablissements d'Hébergement pour Enfants d'Age Scolaire;Etab.Héberg.Enf.Scol;5102;19790101000000;20210326120000;20210326120000
-1.2.250.1.213.1.6.1.7;Etablissements Sociaux pour Loisirs et Vacances;Etablissements Sociaux pour Loisirs et Vacances;Etab.Sociaux Loisirs;5103;19790101000000;20210326120000;20210326120000
-1.2.250.1.213.1.6.1.7;Etablissements ou Services Divers d'Aide à la Famille;Etablissements ou Services Divers d'Aide à la Famille;Etab.Aide à Famille;5104;19790101000000;;19790101000000
-1.2.250.1.213.1.6.1.7;Etablissements de Formation des Personnels Sanitaires;Etablissements de Formation des Personnels Sanitaires;Etab.Form.Pers.San.;6101;19790101000000;;19790101000000
-1.2.250.1.213.1.6.1.7;Etablissements de Formation des Personnels Techniques;Etablissements de Formation des Personnels Techniques;Etab.Form.Pers.Tech;6102;19790101000000;20210326120000;20210326120000
-1.2.250.1.213.1.6.1.7;Autres établissements de formation des personnels techniques;Autres Etablissements de Formation des Personnels Techniques;Autr.Etab.Form.Pers.;6103;19790101000000;20210326120000;20210326120000
-1.2.250.1.213.1.6.1.7;Etablissements de Formation des Personnels Sociaux;Etablissements de Formation des Personnels Sociaux;Etab.Form.Pers.Soc.;6201;19790101000000;;19790101000000
-1.2.250.1.213.1.6.1.7;Etablissements de Formation Polyvalente;Etablissements de Formation Polyvalente;Etab.Form.Polyval.;6301;19790101000000;;19790101000000
+1.2.250.1.213.1.6.1.7;0101;Etablissements d'Administration;Etablissements d'Administration;Etab.Administration;19790101000000;20210326120000;20210326120000
+1.2.250.1.213.1.6.1.7;1101;Centres Hospitaliers Régionaux;Centres Hospitaliers Régionaux;C.H.R.;19790101000000;;19790101000000
+1.2.250.1.213.1.6.1.7;1102;Centres Hospitaliers;Centres Hospitaliers;Centres Hospitaliers;19790101000000;;19790101000000
+1.2.250.1.213.1.6.1.7;1103;Centres hospitaliers spécialisés dans la lutte contre les maladies mentales;Centres Hospitaliers Spécialisés Lutte Maladies Mentales;Lutte Malad.Mentales;19790101000000;;19790101000000
+1.2.250.1.213.1.6.1.7;1104;Centres de Lutte contre le Cancer;Centres de Lutte contre le Cancer;Lutte contre Cancer;19790101000000;;19790101000000
+1.2.250.1.213.1.6.1.7;1106;Hôpitaux Locaux;Hôpitaux Locaux;Hôpitaux Locaux;19790101000000;;19790101000000
+1.2.250.1.213.1.6.1.7;1107;Etablissements de santé privé autorisés en SSR;Etablissements de santé privé autorisés en SSR;Soins Suite & Réadap;19790101000000;;20181214120000
+1.2.250.1.213.1.6.1.7;1108;Centre de Moyen et de Long Séjour;Centre de Moyen et de Long Séjour;Ctre.Moyen Long Séj.;19790101000000;;19790101000000
+1.2.250.1.213.1.6.1.7;1109;Etablissements de Soins de Longue Durée;Etablissements de Soins de Longue Durée;Etab.Longue Durée;19790101000000;;19790101000000
+1.2.250.1.213.1.6.1.7;1110;Etablissements de Soins de Courte Durée;Etablissements de Soins de Courte Durée;Soins Courte Durée;19790101000000;;19790101000000
+1.2.250.1.213.1.6.1.7;1111;Autres établissements de lutte contre les maladies mentales;Autres Etablissements de Lutte contre les Maladies Mentales;Autres Etab.Lut.Ment;19790101000000;;19790101000000
+1.2.250.1.213.1.6.1.7;1112;Etablissements d'Enfants à Caractère Sanitaire;Etablissements d'Enfants à Caractère Sanitaire;Etab.Enf.à Carac.San;19790101000000;20210326120000;20210326120000
+1.2.250.1.213.1.6.1.7;1113;Etablissements de Lutte contre l'Alcoolisme;Etablissements de Lutte contre l'Alcoolisme;Etab.Lutte Alcool.;19790101000000;20210326120000;20210326120000
+1.2.250.1.213.1.6.1.7;1201;Traitements et Soins à Domicile;Traitements et Soins à Domicile;Soins à Domicile;19790101000000;;19790101000000
+1.2.250.1.213.1.6.1.7;1202;Santé Mentale;Santé Mentale;Santé Mentale;19790101000000;;19790101000000
+1.2.250.1.213.1.6.1.7;1203;Dialyse ambulatoire;Dialyse ambulatoire;Dialyse ambulatoire;19790101000000;;19790101000000
+1.2.250.1.213.1.6.1.7;1204;Urgence et Réanimation;Urgence et Réanimation;Urgence Réanimation;19790101000000;20210326120000;20210326120000
+1.2.250.1.213.1.6.1.7;1205;Autres établissements relevant de la loi hospitalière;Autres Etablissements Relevant de la Loi Hospitalière;Autres Etab.Loi Hosp;19790101000000;;19790101000000
+1.2.250.1.213.1.6.1.7;2101;Cabinets Libéraux de Médecins;Cabinets Libéraux de Médecins;Cab.Lib.de Médecins;19790101000000;20210326120000;20210326120000
+1.2.250.1.213.1.6.1.7;2102;Cabinet de Groupe;Cabinet de Groupe;Cabinets de groupe;19790101000000;20210326120000;20210326120000
+1.2.250.1.213.1.6.1.7;2103;Autres structures d'exercice libéral;Autres structures d'exercice libéral;Autr Exerc. libéral;20120328000000;;20120328000000
+1.2.250.1.213.1.6.1.7;2105;Cabinets d'auxiliaires médicaux;Cabinet d'Auxiliaires Médicaux;Cabinet Aux.Médicaux;19790101000000;20210326120000;20210326120000
+1.2.250.1.213.1.6.1.7;2201;Dispensaires ou Centres de Soins;Dispensaires ou Centres de Soins;Dispensaires;19790101000000;;19790101000000
+1.2.250.1.213.1.6.1.7;2202;Etablissements de PMI et de Planification Familiale;Etablissements de PMI et de Planification Familiale;PMI Plani. Familiale;19790101000000;;19790101000000
+1.2.250.1.213.1.6.1.7;2203;Etablissements de Soins Dentaires;Etablissements de Soins Dentaires;Etab.Soins Dentaires;19790101000000;20210326120000;20210326120000
+1.2.250.1.213.1.6.1.7;2204;Etablissements ne relevant pas de la Loi Hospitalière;Etablissements ne relevant pas de la Loi Hospitalière;Etab.non Loi Hospi.;19790101000000;;19790101000000
+1.2.250.1.213.1.6.1.7;2205;Etablissements de soins relevant du Service de santé des armées;Etab.de soins relevant du service de santé des armées;Etab.santé armées;19990617000000;;19990617000000
+1.2.250.1.213.1.6.1.7;2206;Centres de Santé;Centres de Santé;Centres de Santé;20131219000000;;20131219000000
+1.2.250.1.213.1.6.1.7;3101;Laboratoires de Biologie Médicale;Laboratoires de Biologie Médicale;Labo Biolog Médicale;19790101000000;;19790101000000
+1.2.250.1.213.1.6.1.7;3201;Commerce de Biens à Usage Médicaux;Commerce de Biens à Usage Médicaux;Com.Biens Usage Méd.;19790101000000;;19790101000000
+1.2.250.1.213.1.6.1.7;3202;Commerce de Biens Médicaux;Commerce de Biens Médicaux;Com.Biens Médicaux;19790101000000;20210326120000;20210326120000
+1.2.250.1.213.1.6.1.7;3401;Transfusion Sanguine;Transfusion Sanguine;Transfusion Sanguine;19790101000000;;19790101000000
+1.2.250.1.213.1.6.1.7;3402;Conservation et Stockage d'autres Produits Humains;Conservation et Stockage d'autres Produits Humains;Conserv.Pdts.Humains;19790101000000;20210326120000;20210326120000
+1.2.250.1.213.1.6.1.7;3403;Centre Antipoison;Centre Antipoison;Centre Anti-Poison;19790101000000;20210326120000;20210326120000
+1.2.250.1.213.1.6.1.7;3404;Service d'Ambulances;Service d'Ambulances;Services d'ambulances;19790101000000;20210326120000;20210326120000
+1.2.250.1.213.1.6.1.7;3405;Installations autonomes de chirurgie esthétique;Installations autonomes de chirurgie esthétique;I.A.C.E.;20150605000000;;20150605000000
+1.2.250.1.213.1.6.1.7;3406;Maisons de Naissance;Maisons de Naissance;Maisons de Naissance;20190830120000;;20190830120000
+1.2.250.1.213.1.6.1.7;3407;Etablissements Expérimentaux en Santé;Etablissements Expérimentaux en Santé;Etab.Expér.Santé;20200828120000;;20200828120000
+1.2.250.1.213.1.6.1.7;3408;Centre de ressources transverse;Centre de ressources transverse;Centre ressources transverse;20220128120000;;20220128120000
+1.2.250.1.213.1.6.1.7;3409;Services de Prévention et de Santé au Travail (SPST);Services de Prévention et de Santé au Travail (SPST);S.P.S.T.;20230526120000;;20250228120000
+1.2.250.1.213.1.6.1.7;3410;Services d'incendie et de secours;Services d'incendie et de secours;S.I.S.;20240628120000;;20240628120000
+1.2.250.1.213.1.6.1.7;4101;Etablissements d'éducation spéciale pour déficients mentaux et handicapés;Etab.Educ.Spéciale pour Déficients Mentaux et Handicapés;Déf.Mentaux et Hand.;19790101000000;;19790101000000
+1.2.250.1.213.1.6.1.7;4102;Etablissements d'éducation spéciale pour enfants avec trouble de conduite et des comportements;Etab.Educ Spéciale pour Enfants Trouble Conduite et Comport;Enf.Trouble.Conduite;19790101000000;;19790101000000
+1.2.250.1.213.1.6.1.7;4103;Etablissements d'éducation spéciale pour handicapés moteurs;Etablissements d'Education Spéciale pour Handicapés Moteurs;Handicapés Moteurs;19790101000000;;19790101000000
+1.2.250.1.213.1.6.1.7;4104;Etablissements d'éducation spéciale pour déficients sensoriels;Etab.Education Spéciale pour Déficients Sensoriels;Etab.Défic.Sensor.;19790101000000;;19790101000000
+1.2.250.1.213.1.6.1.7;4105;Etablissements et Services d'hébergement pour enfants handicapés;Etablissements et Services Hébergement Enfants Handicapés;Héberg.Enfant Hand.;19790101000000;;19790101000000
+1.2.250.1.213.1.6.1.7;4106;Services à Domicile ou Ambulatoires pour Handicapés;Services à Domicile ou Ambulatoires pour Handicapés;Serv.Dom.Ambul.Handi;19790101000000;;19790101000000
+1.2.250.1.213.1.6.1.7;4107;Etablissements expérimentaux en faveur de l'enfance handicapée;Etab. Expérimentaux en Faveur de l'Enfance Handicapée;Etab.Expéri.Enf.Hand;19790101000000;;19790101000000
+1.2.250.1.213.1.6.1.7;4201;Etablissements ou Classes de Pré-Élémentaire et Élémentaire;Etablissements ou Classes de Pré-Élémentaire et Élémentaire;Classe Pré & Elément;19790101000000;20210326120000;20210326120000
+1.2.250.1.213.1.6.1.7;4202;Etablissements d'Enseignement Secondaire;Etablissements d'Enseignement Secondaire;Etab.Enseig.Second.;19790101000000;20210326120000;20210326120000
+1.2.250.1.213.1.6.1.7;4301;Etablissements et Services d'hébergement pour adultes handicapés;Etab. et Services d'Hébergement pour Adultes Handicapés;Héberg.Adultes Handi;19790101000000;;19790101000000
+1.2.250.1.213.1.6.1.7;4302;Etablissements et Services de travail protégé pour adultes handicapés;Etab.et Services de Travail Protégé pour Adultes Handicapés;Trav.Prot.Adul.Handi;19790101000000;;19790101000000
+1.2.250.1.213.1.6.1.7;4303;Etablissements et Services de réinsertion professionelle pour adultes handicapés;Etab.et Services de Réinsertion Prof pour Adultes Handicapés;Réins.Prof.Adul.Hand;19790101000000;;19790101000000
+1.2.250.1.213.1.6.1.7;4304;Etabs expérimentaux en faveur des adultes handicapés;Etab.Expérimentaux en Faveur des Adultes Handicapés;Etab.Expéri.Adul.Han;19790101000000;;19790101000000
+1.2.250.1.213.1.6.1.7;4305;Services de Maintien à Domicile pour Handicapés;Services de Maintien à Domicile pour Handicapés;Maintien à Dom.Handi;19790101000000;;19790101000000
+1.2.250.1.213.1.6.1.7;4401;Etablissements d'Hébergement pour Personnes Âgées;Etablissements d'Hébergement pour Personnes Âgées;Héberg.Pers.Agées;19790101000000;;19790101000000
+1.2.250.1.213.1.6.1.7;4402;Services de Maintien à Domicile pour Personnes Âgées;Services de Maintien à Domicile pour Personnes Âgées;Serv.Maintien à Dom.;19790101000000;;19790101000000
+1.2.250.1.213.1.6.1.7;4403;Services Sociaux en Faveur des Personnes Âgées;Services Sociaux en Faveur des Personnes Âgées;Serv.Soc.Pers.Agées;19790101000000;20210326120000;20210326120000
+1.2.250.1.213.1.6.1.7;4404;Etablissements Expérimentaux en Faveur des Personnes Âgées;Etablissements Expérimentaux en Faveur des Personnes Âgées;Etab.Expéri.Pers.Ag.;19790101000000;;19790101000000
+1.2.250.1.213.1.6.1.7;4501;Etablissements de l'Aide Sociale à l'Enfance;Etablissements de l'Aide Sociale à l'Enfance;Aide Sociale Enfance;19790101000000;;19790101000000
+1.2.250.1.213.1.6.1.7;4502;Etablissements et Services du Ministère de la justice pour mineurs;Etab.et Services du Ministère de la Justice pour Mineurs;Min. Justice Mineurs;19790101000000;;19790101000000
+1.2.250.1.213.1.6.1.7;4504;Services Concourant à la Protection de l'Enfance;Services Concourant à la Protection de l'Enfance;Protection Enfance;19790101000000;;19790101000000
+1.2.250.1.213.1.6.1.7;4505;Etablissements expérimentaux en faveur de l'enfance protégée;Etab. Expérimentaux en Faveur de l'Enfance Protégée;Etab.Expéri.Enf.Prot;19790101000000;;19790101000000
+1.2.250.1.213.1.6.1.7;4601;Etablissements pour Adultes et Familles en Difficulté;Etablissements pour Adultes et Familles en Difficulté;Adult.Fam.Difficulté;19790101000000;;19790101000000
+1.2.250.1.213.1.6.1.7;4602;Autres établissements sociaux d'hébergement et d'accueil;Autres Etablissements Sociaux d'Hébergement et d'Accueil;Autres Etab.Accueil;19790101000000;;19790101000000
+1.2.250.1.213.1.6.1.7;4603;Etablissements Expérimentaux en Faveur des Adultes;Etablissements Expérimentaux en Faveur des Adultes;Etab.Expéri.Adultes;19790101000000;;19790101000000
+1.2.250.1.213.1.6.1.7;4604;Autres établissements médico-sociaux;Autres Etablissements médico-sociaux;Autr.Etab.médico-soc;19990617000000;;19990617000000
+1.2.250.1.213.1.6.1.7;4605;Etablissements et services multi-clientèles;Etablissements et services multi-clientèles;Etab.multi-clientèle;20020101000000;;20020101000000
+1.2.250.1.213.1.6.1.7;4606;Centres de ressources;Centres de ressources;Ctre.de ressources;20020101000000;;20020101000000
+1.2.250.1.213.1.6.1.7;4607;Logements en Structure Collective;Logements en Structure Collective;Log. Struct. Collect;20090121000000;;20090121000000
+1.2.250.1.213.1.6.1.7;4608;Protection des majeurs;Protection des majeurs;Protection majeurs;20101112000000;;20101112000000
+1.2.250.1.213.1.6.1.7;4609;Centres prestataires de services pour personnes cérébro-lésées;Centres prestataires de services pr personnes cérébro-lésées;Ctre serv pr cérébro;20121105000000;;20121105000000
+1.2.250.1.213.1.6.1.7;5101;Etablissements garde d'enfants d'âge pré-scolaire;Etablissements Garde d'Enfants d'Age pré-Scolaire;Etab.Gard.Enf.Présco;19790101000000;20210326120000;20210326120000
+1.2.250.1.213.1.6.1.7;5102;Etablissements d'hébergement pour enfants d'âge scolaire;Etablissements d'Hébergement pour Enfants d'Age Scolaire;Etab.Héberg.Enf.Scol;19790101000000;20210326120000;20210326120000
+1.2.250.1.213.1.6.1.7;5103;Etablissements Sociaux pour Loisirs et Vacances;Etablissements Sociaux pour Loisirs et Vacances;Etab.Sociaux Loisirs;19790101000000;20210326120000;20210326120000
+1.2.250.1.213.1.6.1.7;5104;Etablissements ou Services Divers d'Aide à la Famille;Etablissements ou Services Divers d'Aide à la Famille;Etab.Aide à Famille;19790101000000;;19790101000000
+1.2.250.1.213.1.6.1.7;6101;Etablissements de Formation des Personnels Sanitaires;Etablissements de Formation des Personnels Sanitaires;Etab.Form.Pers.San.;19790101000000;;19790101000000
+1.2.250.1.213.1.6.1.7;6102;Etablissements de Formation des Personnels Techniques;Etablissements de Formation des Personnels Techniques;Etab.Form.Pers.Tech;19790101000000;20210326120000;20210326120000
+1.2.250.1.213.1.6.1.7;6103;Autres établissements de formation des personnels techniques;Autres Etablissements de Formation des Personnels Techniques;Autr.Etab.Form.Pers.;19790101000000;20210326120000;20210326120000
+1.2.250.1.213.1.6.1.7;6201;Etablissements de Formation des Personnels Sociaux;Etablissements de Formation des Personnels Sociaux;Etab.Form.Pers.Soc.;19790101000000;;19790101000000
+1.2.250.1.213.1.6.1.7;6301;Etablissements de Formation Polyvalente;Etablissements de Formation Polyvalente;Etab.Form.Polyval.;19790101000000;;19790101000000

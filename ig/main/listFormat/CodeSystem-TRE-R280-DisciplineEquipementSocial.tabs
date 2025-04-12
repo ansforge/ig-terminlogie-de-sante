@@ -1,136 +1,136 @@
 <OID>;<Type fichier>;<Nom fichier>;<Description>;<URL fichier>;<Date valid>;<Date fin>;<Date MàJ>
 1.2.250.1.213.1.6.1.133;TRE;TRE_R280_DisciplineEquipementSocial.tabs;Disciplines d'équipement pour le social;https://mos.esante.gouv.fr/NOS/TRE_R280-DisciplineEquipementSocial;20181026120000;;20231215120000
 <OID>;<Code>;<Libellé adapté>;<Libellé court>;<Libellé long>;<Date valid>;<Date fin>;<Date MAJ> 
-1.2.250.1.213.1.6.1.133;Section Cure Médicale (dont);Section Cure Médicale (dont);Sect.Cure Méd.(dont);177;20181026120000;;20181026120000
-1.2.250.1.213.1.6.1.133;Hébergement Accueil Mère Enfant;Hébergement Accueil Mère Enfant;Héberg.Acc.Mère Enf.;246;20181026120000;;20181026120000
-1.2.250.1.213.1.6.1.133;Hébergement en centre parental;Hébergement en centre parental;Héberg.Ctre parental;247;20200626120000;;20200626120000
-1.2.250.1.213.1.6.1.133;Accueil en Jardin d'Enfants;Accueil en Jardin d'Enfants;Acc. Jardin Enfants;250;20211126120000;20211126120000;20211126120000
-1.2.250.1.213.1.6.1.133;Aide éducative à Domicile;Aide éducative à Domicile;Aide Educative àDom.;257;20200626120000;;20200626120000
-1.2.250.1.213.1.6.1.133;Action Éducative en Milieu Ouvert;Action Éducative en Milieu Ouvert;A.E.M.O.;258;20181026120000;;20181026120000
-1.2.250.1.213.1.6.1.133;Activ.Club et Équipe de Prévention;Activ.Club et Équipe de Prévention;Act.Club Equip.Prév.;259;20181026120000;;20181026120000
-1.2.250.1.213.1.6.1.133;Placement Familial Social;Placement Familial Social;Plac.Familial Social;262;20211126120000;20211126120000;20211126120000
-1.2.250.1.213.1.6.1.133;Aide Psychologique Universitaire;Aide Psychologique Universitaire;Aide Psycho.Univers.;278;20181026120000;;20181026120000
-1.2.250.1.213.1.6.1.133;Education Spécialisée et Soins à domicile Enfants Handicapés;Education Spécialisée et Soins à domicile Enfants Handicapés;E.S.S.A.D. EH;319;20181026120000;20211126120000;20211126120000
-1.2.250.1.213.1.6.1.133;Activité C.M.P.P.;Activité C.M.P.P.;Activité CMPP;320;20181026120000;;20181026120000
-1.2.250.1.213.1.6.1.133;Placement Familial pour Enfants Handicapés;Placement Familial pour Enfants Handicapés;Pla.Famil.Enf.Handic;325;20211126120000;20211126120000;20211126120000
-1.2.250.1.213.1.6.1.133;Restaurant pour Personnes Âgées;Restaurant pour Personnes Âgées;Restaurant PA;354;20181026120000;;20181026120000
-1.2.250.1.213.1.6.1.133;Activité des Centres de Jour pour Personnes Âgées;Activité des Centres de Jour pour Personnes Âgées;Act.Ctre Jour P.A.;355;20211126120000;20211126120000;20211126120000
-1.2.250.1.213.1.6.1.133;Aide Ménagère à Domicile;Aide Ménagère à Domicile;Aide Ménagère à Domi;356;20211126120000;20211126120000;20211126120000
-1.2.250.1.213.1.6.1.133;Activité soins d'accompagnement et de réhabilitation;Activité soins d'accompagnement et de réhabilitation;Act.Soins.Accomp.Réh;357;20181026120000;;20181026120000
-1.2.250.1.213.1.6.1.133;Soins infirmiers à Domicile;Soins infirmiers à Domicile;Soins à Domicile;358;20181026120000;;20181026120000
-1.2.250.1.213.1.6.1.133;Repas à Domicile;Repas à Domicile;Repas à Domicile;359;20181026120000;;20181026120000
-1.2.250.1.213.1.6.1.133;Blanchisserie à Domicile;Blanchisserie à Domicile;Blanch. à Domicile;360;20181026120000;;20181026120000
-1.2.250.1.213.1.6.1.133;Alarme Médico-Sociale;Alarme Médico-Sociale;Alarme Médico-Social;365;20181026120000;;20181026120000
-1.2.250.1.213.1.6.1.133;Stationnement Pour Nomades;Stationnement Pour Nomades;Station. Nomades;377;20181026120000;;20181026120000
-1.2.250.1.213.1.6.1.133;Mesure judiciaire aide gestion budget familial;Mesure judiciaire aide gestion budget familial;Mesure jud.aid. bud.;380;20181026120000;;20181026120000
-1.2.250.1.213.1.6.1.133;Héberg. non médicalisé de patients, accompagnants, aidants;Héberg. non médicalisé de patients, accompagnants, aidants;Héb.patient.accomp.;381;20181026120000;;20181026120000
-1.2.250.1.213.1.6.1.133;Tutelle aux Prestations Sociales;Tutelle aux Prestations Sociales;Tutelle Prest.Soc.;382;20181026120000;;20181026120000
-1.2.250.1.213.1.6.1.133;Activité Serv. Travailleuses Familiales;Activité Serv. Travailleuses Familiales;Act.Serv.Trav.Fam.;383;20181026120000;20211126120000;20211126120000
-1.2.250.1.213.1.6.1.133;Placement Familial Spécialisé Pr Adultes Handicapés;Placement Familial Spécialisé Pr Adultes Handicapés;Plac.Fam.Spé.Adul.H.;398;20211126120000;20211126120000;20211126120000
-1.2.250.1.213.1.6.1.133;Préorientation pour Adultes handicapés;Préorientation pour Adultes handicapés;Préorient. Adul.Hand;399;20181026120000;;20181026120000
-1.2.250.1.213.1.6.1.133;Préparation et Suite du Reclassement;Préparation et Suite du Reclassement;Prép.Suite Reclass.;400;20211126120000;20211126120000;20211126120000
-1.2.250.1.213.1.6.1.133;Information,conseil, expertise, coordination;Information,conseil, expertise, coordination;ICEC;410;20181026120000;;20181026120000
-1.2.250.1.213.1.6.1.133;Evaluation des situations des personnes;Evaluation des situations des personnes;Eval situation;411;20181026120000;;20181026120000
-1.2.250.1.213.1.6.1.133;Centre de ressources territorial pour les personnes âgées;Centre de ressources territorial;C.R.T;412;20220922000000;;20231215120000
-1.2.250.1.213.1.6.1.133;Veille sociale;Veille sociale;Veille sociale;442;20181026120000;;20181026120000
-1.2.250.1.213.1.6.1.133;Soutien et accompagnement social;Soutien et accompagnement social;Soutien accomp soc;443;20181026120000;;20181026120000
-1.2.250.1.213.1.6.1.133;Aide Psychopédagogique;Aide Psychopédagogique;Aide Psycho-Pédagog.;445;20181026120000;;20181026120000
-1.2.250.1.213.1.6.1.133;Aide à Domicile;Aide à Domicile;Aide à Domicile;469;20181026120000;;20181026120000
-1.2.250.1.213.1.6.1.133;Evaluat réentraînem orientat soc. et socioprof cérébro-lésés;Evaluat réentraînem orientat soc. et socioprof cérébro-lésés;Eval. Orient. cérébr;506;20181026120000;;20181026120000
-1.2.250.1.213.1.6.1.133;Hébergement médico soc personnes en difficultés spécifiques;Hébergement médico soc personnes en difficultés spécifiques;Héberg diff specif;507;20181026120000;;20181026120000
-1.2.250.1.213.1.6.1.133;Accueil orientation soins accompagnement diff spécifiques;Accueil orientation soins accompagnement diff spécifiques;AOSA diff specif;508;20181026120000;;20181026120000
-1.2.250.1.213.1.6.1.133;Accompagnement à la vie sociale des adultes handicapés;Accompagnement à la vie sociale des adultes handicapés;AVSAH;509;20181026120000;20211126120000;20211126120000
-1.2.250.1.213.1.6.1.133;Accompagnement médico social des adultes handicapés;Accompagnement médico social des adultes handicapés;AMSAH;510;20181026120000;20211126120000;20211126120000
-1.2.250.1.213.1.6.1.133;Equipe mobile santé précarité;Equipe mobile santé précarité;E.M.S.P;511;20220325120000;;20220325120000
-1.2.250.1.213.1.6.1.133;Equipe spécialisée de soins infirmiers précarité;Equipe spécialisée de soins infirmiers précarité;E.S.S.I.P;512;20220325120000;;20220325120000
-1.2.250.1.213.1.6.1.133;Tutelle curatelle mandat spécial sauvegarde justice pers maj;Tutelle curatelle mandat spécial sauvegarde justice pers maj;Tutelle curatelle;520;20181026120000;;20181026120000
-1.2.250.1.213.1.6.1.133;Mesure d'accompagnement judiciaire;Mesure d'accompagnement judiciaire;Mesure acc judic;521;20181026120000;;20181026120000
-1.2.250.1.213.1.6.1.133;Mesure d'accompagnement social personnalisé;Mesure d'accompagnement social personnalisé;Mesure acc soc perso;522;20181026120000;;20181026120000
-1.2.250.1.213.1.6.1.133;Information des tuteurs familiaux;Information des tuteurs familiaux;Info tuteurs famil;523;20181026120000;;20181026120000
-1.2.250.1.213.1.6.1.133;Centre de Vie pour Cas lourds;Centre de Vie pour Cas lourds;Héb.Ctre Vie C.Lourd;569;20211126120000;20211126120000;20211126120000
-1.2.250.1.213.1.6.1.133;Tutelle d'État;Tutelle d'État;Tutelle d'Etat;589;20211126120000;20211126120000;20211126120000
-1.2.250.1.213.1.6.1.133;Services expérimentaux en faveur des personnes âgées;Services expérimentaux en faveur des personnes âgées;Serv expérim PA;633;20181026120000;;20181026120000
-1.2.250.1.213.1.6.1.133;Accueil temporaire enfants handicapés;Accueil temporaire enfants handicapés;Acc temporaire EH;650;20181026120000;20211126120000;20211126120000
-1.2.250.1.213.1.6.1.133;Hébergement Spécialisé Pr Enfants et Adolescents Handicapés;Hébergement Spécialisé Pr Enfants et Adolescents Handicapés;Héb.spéc.Enf.Ado.Han;654;20181026120000;20211126120000;20211126120000
-1.2.250.1.213.1.6.1.133;Prestation de Service Pr Association;Prestation de Service Pr Association;Prest.Serv.Associat.;655;20181026120000;;20181026120000
-1.2.250.1.213.1.6.1.133;Garde et Observation en Jardin Enfants Spéc.Enf.Handicapés;Garde et Observation en Jardin Enfants Spéc.Enf.Handicapés;Gard.Obs.Jard.Enf.H.;656;20181026120000;20211126120000;20211126120000
-1.2.250.1.213.1.6.1.133;Accueil temporaire pour Personnes Âgées;Accueil temporaire pour Personnes Âgées;Acc temporaire PA;657;20181026120000;;20181026120000
-1.2.250.1.213.1.6.1.133;Accueil temporaire pour adultes handicapés;Accueil temporaire pour adultes handicapés;Acc temporaire AH;658;20181026120000;20211126120000;20211126120000
-1.2.250.1.213.1.6.1.133;Hébergement en résidence pour personnes âgées;Accueil temporaire pour adultes handicapés;hebgt.Resid.Pour per;659;20231215120000;20230127120000;20230127120000
-1.2.250.1.213.1.6.1.133;Réalisation d'Enquêtes sociales;Réalisation d'Enquêtes sociales;Réalis.Enquêt.Social;660;20181026120000;;20181026120000
-1.2.250.1.213.1.6.1.133;Permanence des Assistants de Service Social;Permanence des Assistants de Service Social;Perman. Serv.Social;661;20181026120000;;20181026120000
-1.2.250.1.213.1.6.1.133;Services expérimentaux en faveur des adultes handicapés;Services expérimentaux en faveur des adultes handicapés;Serv experim AH;691;20181026120000;20211126120000;20211126120000
-1.2.250.1.213.1.6.1.133;Auxiliaires de Vie pour Handicapés;Auxiliaires de Vie pour Handicapés;Auxil.de Vie pr Hand;695;20211126120000;20211126120000;20211126120000
-1.2.250.1.213.1.6.1.133;Intermédiaire de placement Social;Intermédiaire de placement Social;Interm. Plac.Social;697;20181026120000;;20181026120000
-1.2.250.1.213.1.6.1.133;Recherche dans Domaine Social;Recherche dans Domaine Social;Recherche Dom.Social;714;20181026120000;;20181026120000
-1.2.250.1.213.1.6.1.133;Préparation à la Vie Sociale pour Adolescents Handicapés;Préparation à la Vie Sociale pour Adolescents Handicapés;Prép.Vie Soc.Ado.Han;836;20181026120000;20211126120000;20211126120000
-1.2.250.1.213.1.6.1.133;Evaluat.réentraînem.orientat. scolaire cérébro-lésés;Evaluat.réentraînem.orientat. scolaire cérébro-lésés;Eval. Scol. cérébro;837;20181026120000;20211126120000;20211126120000
-1.2.250.1.213.1.6.1.133;Accompagement familial éducation précoce Enfants Handicapés;Accompagement familial éducation précoce Enfants Handicapés;A.F.E.P. EH;838;20181026120000;20211126120000;20211126120000
-1.2.250.1.213.1.6.1.133;Acquisition, autonomie, intégration scol. Enfants Handicapés;Acquisition, autonomie, intégration scol. Enfants Handicapés;A.A.I.S. EH;839;20181026120000;20211126120000;20211126120000
-1.2.250.1.213.1.6.1.133;Accompagnement précoce de jeunes enfants;Accompagnement précoce de jeunes enfants;Acc.Précoce JE;840;20181026120000;;20181026120000
-1.2.250.1.213.1.6.1.133;Acc. dans l'acquisition de l'autonomie et la scolarisation;Acc. dans l'acquisition de l'autonomie et la scolarisation;A.A.A.S.;841;20181026120000;;20181026120000
-1.2.250.1.213.1.6.1.133;Préparation à la vie professionnelle;Préparation à la vie professionnelle;Prépa.vie profess.;842;20181026120000;;20181026120000
-1.2.250.1.213.1.6.1.133;Accompagnement enseignement supérieur;Accompagnement enseignement supérieur;Accomp.enseig.supér.;843;20181026120000;;20181026120000
-1.2.250.1.213.1.6.1.133;Tous projets éducatifs thérapeutiques et pédagogiques;Tous projets éducatifs thérapeutiques et pédagogiques;Tous projets;844;20181026120000;;20181026120000
-1.2.250.1.213.1.6.1.133;Hébergement ouvert en foyer pour adultes handicapés;Hébergement ouvert en foyer pour adultes handicapés;Hebergt ouvert AH;897;20181026120000;20211126120000;20211126120000
-1.2.250.1.213.1.6.1.133;Action Médico-Sociale Précoce;Action Médico-Sociale Précoce;A.M.S.P EH;900;20181026120000;;20181026120000
-1.2.250.1.213.1.6.1.133;Éducation Générale et Soins Spécialisés Enfants Handicapés;Éducation Générale et Soins Spécialisés Enfants Handicapés;Educ.Gén.Soin.Sp.E.H;901;20181026120000;20211126120000;20211126120000
-1.2.250.1.213.1.6.1.133;Éducation Profession.& Soins Spécial.Enfants Handicapés;Éducation Profession.& Soins Spécial.Enfants Handicapés;Educ.Pro.Soin Sp E.H;902;20181026120000;20211126120000;20211126120000
-1.2.250.1.213.1.6.1.133;Éduc.Générale.Profession.& Soins Spécial.Enfants Handicapés;Éduc.Générale.Profession.& Soins Spécial.Enfants Handicapés;Ed.Gén.Pro.Soin S EH;903;20181026120000;20211126120000;20211126120000
-1.2.250.1.213.1.6.1.133;Enseignement Général Spécialisé;Enseignement Général Spécialisé;Enseig.Gén.Spécial.;904;20211126120000;20211126120000;20211126120000
-1.2.250.1.213.1.6.1.133;Enseignement Professionnel Spécialisé;Enseignement Professionnel Spécialisé;Enseig.Prof.Spécial.;905;20211126120000;20211126120000;20211126120000
-1.2.250.1.213.1.6.1.133;Réadaptation Professionnelle pour Adultes Handicapés;Réadaptation Professionnelle pour Adultes Handicapés;Réadap.Pro.Adul.Hand;906;20181026120000;;20210528120000
-1.2.250.1.213.1.6.1.133;Adaptation à la vie active;Adaptation à la vie active;A.V.A.;907;20181026120000;;20181026120000
-1.2.250.1.213.1.6.1.133;Aide par le travail pour Adultes Handicapés;Aide par le travail pour Adultes Handicapés;Aide Trav.Adul.Hand.;908;20181026120000;;20181026120000
-1.2.250.1.213.1.6.1.133;Travail protégé pour Adultes Handicapés;Travail protégé pour Adultes Handicapés;Trav.Prot.Adul.Hand.;909;20181026120000;;20181026120000
-1.2.250.1.213.1.6.1.133;Accueil collectif régulier d'enfants d'âge préscolaire;Accueil collectif régulier d'enfants d'âge préscolaire;Acc. Coll.reg. PE;910;20211126120000;20211126120000;20211126120000
-1.2.250.1.213.1.6.1.133;Accueil collectif occasionnel d'enfants d'âge préscolaire;Accueil collectif occasionnel d'enfants d'âge préscolaire;Acc. Coll Occas. PE.;911;20211126120000;20211126120000;20211126120000
-1.2.250.1.213.1.6.1.133;Accueil au titre de la protection de l'enfance;Accueil au titre de la protection de l'enfance;Acc.Protec.Enfance;912;20181026120000;;20200626120000
-1.2.250.1.213.1.6.1.133;Accueil d'urgence protection de l'enfance;Accueil d'urgence protection de l'enfance;Acc.Urg.Prot.Enfance;913;20181026120000;;20200626120000
-1.2.250.1.213.1.6.1.133;Accueil temporaire saisonnier ou week-end protection de l'enfance;Accueil temporaire saisonnier ou week-end protection de l'enfance;Acc.Tmp.Prot.Enfance;914;20181026120000;;20200626120000
-1.2.250.1.213.1.6.1.133;Accueil collectif polyvalent regulier et occasionnel;Accueil collectif polyvalent regulier et occasionnel;Acc.coll reg/occ PE;915;20211126120000;20211126120000;20211126120000
-1.2.250.1.213.1.6.1.133;Hébergement Réadapt. Sociale Pers.Familles en Difficulté;Hébergement Réadapt. Sociale Pers.Familles en Difficulté;Héb.Réad.Soc.Fam.Dif;916;20181026120000;;20181026120000
-1.2.250.1.213.1.6.1.133;Accueil spécialisé pour Adultes Handicapés;Accueil spécialisé pour Adultes Handicapés;Acc.M A S AH;917;20181026120000;20211126120000;20211126120000
-1.2.250.1.213.1.6.1.133;Accueil familial régulier d'enfants d'âge préscolaire;Accueil familial régulier d'enfants d'âge préscolaire;Acc.fam regulier PE;918;20211126120000;20211126120000;20211126120000
-1.2.250.1.213.1.6.1.133;Accueil familial occasionnel d'enfants d'âge préscolaire;Accueil familial occasionnel d'enfants d'âge préscolaire;Acc.fam occasion PE;919;20211126120000;20211126120000;20211126120000
-1.2.250.1.213.1.6.1.133;Hébergement Ouvert en Ets Pr Adultes & Familles;Hébergement Ouvert en Ets Pr Adultes & Familles;Héb.Ouv.Adul.& Famil;920;20181026120000;;20181026120000
-1.2.250.1.213.1.6.1.133;Séjours de rupture/distanciation/apaisement;Séjours de rupture/distanciation/apaisement;Séjours de rupture;921;20200626120000;;20200626120000
-1.2.250.1.213.1.6.1.133;Accueil Temporaire d'Urgence Pr Adultes & Familles;Accueil Temporaire d'Urgence Pr Adultes & Familles;Acc.Temp.Ur.Adul.Fam;922;20181026120000;;20181026120000
-1.2.250.1.213.1.6.1.133;Accueil Temp.Saisonnier ou W E Adultes & Familles;Accueil Temp.Saisonnier ou W E Adultes & Familles;Acc.Temp.WE Adul.Fam;923;20181026120000;;20181026120000
-1.2.250.1.213.1.6.1.133;Accueil pour Personnes Âgées;Accueil pour Personnes Âgées;Acc. Personnes Âgées;924;20181026120000;;20181026120000
-1.2.250.1.213.1.6.1.133;Hébergement résidence autonomie personnes âgées seules F1;Hébergement résidence autonomie personnes âgées seules F1;Héb.R-A.P.A. F1;925;20181026120000;;20181026120000
-1.2.250.1.213.1.6.1.133;Hébergement résidence autonomie personnes âgées couple F2;Hébergement résidence autonomie personnes âgées couple F2;Héb.R-A.P.A. F2;926;20181026120000;;20181026120000
-1.2.250.1.213.1.6.1.133;Hébergement résidence autonomie personnes âgées F1BIS;Hébergement résidence autonomie personnes âgées F1BIS;Héb.R-A.P.A.F1B.;927;20181026120000;;20181026120000
-1.2.250.1.213.1.6.1.133;Observation en Milieu Ouvert Pour Mineurs Justice (O.M.O);Observation en Milieu Ouvert Pour Mineurs Justice (O.M.O);Obs.Mil.Ouv.Min.Just;928;20181026120000;;20181026120000
-1.2.250.1.213.1.6.1.133;Consultation d'Orientation Pour Mineurs Justice;Consultation d'Orientation Pour Mineurs Justice;Cons.Orient.Min.Just;929;20181026120000;;20181026120000
-1.2.250.1.213.1.6.1.133;Observation Orientation Pour Mineurs Justice;Observation Orientation Pour Mineurs Justice;Obs.Orient.Min.Just.;930;20181026120000;;20181026120000
-1.2.250.1.213.1.6.1.133;Suivi Social en Milieu Ouvert;Suivi Social en Milieu Ouvert;Suivi Soc.Mil.Ouvert;931;20181026120000;;20181026120000
-1.2.250.1.213.1.6.1.133;Animation de la Vie Sociale;Animation de la Vie Sociale;Anim. Vie Sociale;932;20181026120000;;20181026120000
-1.2.250.1.213.1.6.1.133;Activités de Plein Air;Activités de Plein Air;Activités Plein-Air;933;20211126120000;20211126120000;20211126120000
-1.2.250.1.213.1.6.1.133;Activités liées Aux Vacances;Activités liées Aux Vacances;Act.Liées Vacances;934;20211126120000;20211126120000;20211126120000
-1.2.250.1.213.1.6.1.133;Activités des Établissements Expérimentaux;Activités des Établissements Expérimentaux;Act.Etab.Expériment.;935;20181026120000;;20181026120000
-1.2.250.1.213.1.6.1.133;Accueil en Foyer de Vie pour Adultes Handicapés;Accueil en Foyer de Vie pour Adultes Handicapés;Acc.Foyer de Vie AH;936;20181026120000;20211126120000;20211126120000
-1.2.250.1.213.1.6.1.133;Réinsertion Par l'Économie;Réinsertion Par l'Économie;Réinsertion Economie;937;20181026120000;;20181026120000
-1.2.250.1.213.1.6.1.133;Hébergement en Hospice;Hébergement en Hospice;Hébergement Hospice;938;20211126120000;20211126120000;20211126120000
-1.2.250.1.213.1.6.1.133;Accueil médicalisé pour adultes handicapés;Accueil médicalisé pour adultes handicapés;Acc médicalisé AH;939;20181026120000;20211126120000;20211126120000
-1.2.250.1.213.1.6.1.133;Maisons Relais - Résidence Accueil;Maisons Relais - Résidence Accueil;Mais.Rel.Résid.Accu;941;20181026120000;;20181026120000
-1.2.250.1.213.1.6.1.133;Maisons Relais pour Personnes Vieillissantes;Maisons Relais pour Personnes Vieillissantes;Mais.Rel.Pers.Vieill;942;20181026120000;;20181026120000
-1.2.250.1.213.1.6.1.133;Maisons Relais "Classique";Maisons Relais "Classique";Mais.Rel.Classique;943;20181026120000;;20181026120000
-1.2.250.1.213.1.6.1.133;Résidences Sociales ex Foyer Jeunes Travailleurs;Résidences Sociales ex Foyer Jeunes Travailleurs;Résid.Soc. ex FJT;944;20181026120000;;20181026120000
-1.2.250.1.213.1.6.1.133;Résidences Sociales ex Foyers Travailleurs Migrants;Résidences Sociales ex Foyers Travailleurs Migrants;Résid.Soc. ex FTM;945;20181026120000;;20181026120000
-1.2.250.1.213.1.6.1.133;Résidences Sociales créées ex Nihilo;Résidences Sociales créées ex Nihilo;Résid.Soc. ex Nihilo;946;20181026120000;;20181026120000
-1.2.250.1.213.1.6.1.133;Résidence sociale FJT;Résidence sociale FJT;Résidence soc. FJT;947;20181026120000;;20181026120000
-1.2.250.1.213.1.6.1.133;C.H.R.S. Hors les murs;C.H.R.S. Hors les murs;C.H.R.S. Hors les murs;948;20200626120000;;20200626120000
-1.2.250.1.213.1.6.1.133;Hébergement d'insertion Adultes,Familles Difficulté;Hébergement d'insertion Adultes,Familles Difficulté;Héb.Insertion Diffi.;957;20181026120000;;20181026120000
-1.2.250.1.213.1.6.1.133;Hébergement de Stabilisation Adultes,familles Difficulté;Hébergement de Stabilisation Adultes,familles Difficulté;Héb.Stabilisation Di;958;20181026120000;;20181026120000
-1.2.250.1.213.1.6.1.133;Hébergement d'Urgence Adultes, Familles Difficulté;Hébergement d'Urgence Adultes, Familles Difficulté;Héb.Urgence Diffi.;959;20181026120000;;20181026120000
-1.2.250.1.213.1.6.1.133;Hébergement d'Urgence avec Accompagnement Social (H.U.A.S.);Hébergement d'Urgence avec Accompagnement Social (H.U.A.S.);H.U.A.S.;960;20200626120000;;20200626120000
-1.2.250.1.213.1.6.1.133;Pôles d'activité et de soins adaptés;Pôles d'activité et de soins adaptés;P.A.S.A.;961;20181026120000;;20181026120000
-1.2.250.1.213.1.6.1.133;Unités d'hébergement renforcées;Unités d'hébergement renforcées;U.H.R.;962;20181026120000;;20181026120000
-1.2.250.1.213.1.6.1.133;Plateforme d'accompagnement et de répit des aidants (PFR);Plateforme d'accompagnement et de répit des aidants (PFR);Plateforme répit PFR;963;20181026120000;;20181026120000
-1.2.250.1.213.1.6.1.133;Accueil et accompagnement spécialisé personnes handicapés;Accueil et accompagnement spécialisé personnes handicapés;A.A.S.P.H;964;20181026120000;;20181026120000
-1.2.250.1.213.1.6.1.133;Accueil et accompagnement non médical. personnes handicapées;Accueil et accompagnement non médical. personnes handicapées;A.A.N.M.P.H;965;20181026120000;;20181026120000
-1.2.250.1.213.1.6.1.133;Accueil et accompagnement médicalisé personnes handicapées;Accueil et accompagnement médicalisé personnes handicapées;A.A.M.P.H;966;20181026120000;;20181026120000
-1.2.250.1.213.1.6.1.133;Éducation Générale Soins Spéc. Enfants Hand.Troubles Assoc.;Éducation Générale Soins Spéc. Enfants Hand.Troubles Assoc.;Educ.Gén.Enf.Hand.Tr;991;20211126120000;20211126120000;20211126120000
-1.2.250.1.213.1.6.1.133;Éducation Prof. Soins Spéc. Enfants Hand. Troubles Associés;Éducation Prof. Soins Spéc. Enfants Hand. Troubles Associés;Educ.Pro.Enf.Hand.Tr;992;20211126120000;20211126120000;20211126120000
-1.2.250.1.213.1.6.1.133;Regroupement des Calculs (Annexes 24);Regroupement des Calculs (Annexes 24);Regroup.Calc.(An.24);999;20211126120000;20211126120000;20211126120000
+1.2.250.1.213.1.6.1.133;177;Section Cure Médicale (dont);Section Cure Médicale (dont);Sect.Cure Méd.(dont);20181026120000;;20181026120000
+1.2.250.1.213.1.6.1.133;246;Hébergement Accueil Mère Enfant;Hébergement Accueil Mère Enfant;Héberg.Acc.Mère Enf.;20181026120000;;20181026120000
+1.2.250.1.213.1.6.1.133;247;Hébergement en centre parental;Hébergement en centre parental;Héberg.Ctre parental;20200626120000;;20200626120000
+1.2.250.1.213.1.6.1.133;250;Accueil en Jardin d'Enfants;Accueil en Jardin d'Enfants;Acc. Jardin Enfants;20211126120000;20211126120000;20211126120000
+1.2.250.1.213.1.6.1.133;257;Aide éducative à Domicile;Aide éducative à Domicile;Aide Educative àDom.;20200626120000;;20200626120000
+1.2.250.1.213.1.6.1.133;258;Action Éducative en Milieu Ouvert;Action Éducative en Milieu Ouvert;A.E.M.O.;20181026120000;;20181026120000
+1.2.250.1.213.1.6.1.133;259;Activ.Club et Équipe de Prévention;Activ.Club et Équipe de Prévention;Act.Club Equip.Prév.;20181026120000;;20181026120000
+1.2.250.1.213.1.6.1.133;262;Placement Familial Social;Placement Familial Social;Plac.Familial Social;20211126120000;20211126120000;20211126120000
+1.2.250.1.213.1.6.1.133;278;Aide Psychologique Universitaire;Aide Psychologique Universitaire;Aide Psycho.Univers.;20181026120000;;20181026120000
+1.2.250.1.213.1.6.1.133;319;Education Spécialisée et Soins à domicile Enfants Handicapés;Education Spécialisée et Soins à domicile Enfants Handicapés;E.S.S.A.D. EH;20181026120000;20211126120000;20211126120000
+1.2.250.1.213.1.6.1.133;320;Activité C.M.P.P.;Activité C.M.P.P.;Activité CMPP;20181026120000;;20181026120000
+1.2.250.1.213.1.6.1.133;325;Placement Familial pour Enfants Handicapés;Placement Familial pour Enfants Handicapés;Pla.Famil.Enf.Handic;20211126120000;20211126120000;20211126120000
+1.2.250.1.213.1.6.1.133;354;Restaurant pour Personnes Âgées;Restaurant pour Personnes Âgées;Restaurant PA;20181026120000;;20181026120000
+1.2.250.1.213.1.6.1.133;355;Activité des Centres de Jour pour Personnes Âgées;Activité des Centres de Jour pour Personnes Âgées;Act.Ctre Jour P.A.;20211126120000;20211126120000;20211126120000
+1.2.250.1.213.1.6.1.133;356;Aide Ménagère à Domicile;Aide Ménagère à Domicile;Aide Ménagère à Domi;20211126120000;20211126120000;20211126120000
+1.2.250.1.213.1.6.1.133;357;Activité soins d'accompagnement et de réhabilitation;Activité soins d'accompagnement et de réhabilitation;Act.Soins.Accomp.Réh;20181026120000;;20181026120000
+1.2.250.1.213.1.6.1.133;358;Soins infirmiers à Domicile;Soins infirmiers à Domicile;Soins à Domicile;20181026120000;;20181026120000
+1.2.250.1.213.1.6.1.133;359;Repas à Domicile;Repas à Domicile;Repas à Domicile;20181026120000;;20181026120000
+1.2.250.1.213.1.6.1.133;360;Blanchisserie à Domicile;Blanchisserie à Domicile;Blanch. à Domicile;20181026120000;;20181026120000
+1.2.250.1.213.1.6.1.133;365;Alarme Médico-Sociale;Alarme Médico-Sociale;Alarme Médico-Social;20181026120000;;20181026120000
+1.2.250.1.213.1.6.1.133;377;Stationnement Pour Nomades;Stationnement Pour Nomades;Station. Nomades;20181026120000;;20181026120000
+1.2.250.1.213.1.6.1.133;380;Mesure judiciaire aide gestion budget familial;Mesure judiciaire aide gestion budget familial;Mesure jud.aid. bud.;20181026120000;;20181026120000
+1.2.250.1.213.1.6.1.133;381;Héberg. non médicalisé de patients, accompagnants, aidants;Héberg. non médicalisé de patients, accompagnants, aidants;Héb.patient.accomp.;20181026120000;;20181026120000
+1.2.250.1.213.1.6.1.133;382;Tutelle aux Prestations Sociales;Tutelle aux Prestations Sociales;Tutelle Prest.Soc.;20181026120000;;20181026120000
+1.2.250.1.213.1.6.1.133;383;Activité Serv. Travailleuses Familiales;Activité Serv. Travailleuses Familiales;Act.Serv.Trav.Fam.;20181026120000;20211126120000;20211126120000
+1.2.250.1.213.1.6.1.133;398;Placement Familial Spécialisé Pr Adultes Handicapés;Placement Familial Spécialisé Pr Adultes Handicapés;Plac.Fam.Spé.Adul.H.;20211126120000;20211126120000;20211126120000
+1.2.250.1.213.1.6.1.133;399;Préorientation pour Adultes handicapés;Préorientation pour Adultes handicapés;Préorient. Adul.Hand;20181026120000;;20181026120000
+1.2.250.1.213.1.6.1.133;400;Préparation et Suite du Reclassement;Préparation et Suite du Reclassement;Prép.Suite Reclass.;20211126120000;20211126120000;20211126120000
+1.2.250.1.213.1.6.1.133;410;Information,conseil, expertise, coordination;Information,conseil, expertise, coordination;ICEC;20181026120000;;20181026120000
+1.2.250.1.213.1.6.1.133;411;Evaluation des situations des personnes;Evaluation des situations des personnes;Eval situation;20181026120000;;20181026120000
+1.2.250.1.213.1.6.1.133;412;Centre de ressources territorial pour les personnes âgées;Centre de ressources territorial;C.R.T;20220922000000;;20231215120000
+1.2.250.1.213.1.6.1.133;442;Veille sociale;Veille sociale;Veille sociale;20181026120000;;20181026120000
+1.2.250.1.213.1.6.1.133;443;Soutien et accompagnement social;Soutien et accompagnement social;Soutien accomp soc;20181026120000;;20181026120000
+1.2.250.1.213.1.6.1.133;445;Aide Psychopédagogique;Aide Psychopédagogique;Aide Psycho-Pédagog.;20181026120000;;20181026120000
+1.2.250.1.213.1.6.1.133;469;Aide à Domicile;Aide à Domicile;Aide à Domicile;20181026120000;;20181026120000
+1.2.250.1.213.1.6.1.133;506;Evaluat réentraînem orientat soc. et socioprof cérébro-lésés;Evaluat réentraînem orientat soc. et socioprof cérébro-lésés;Eval. Orient. cérébr;20181026120000;;20181026120000
+1.2.250.1.213.1.6.1.133;507;Hébergement médico soc personnes en difficultés spécifiques;Hébergement médico soc personnes en difficultés spécifiques;Héberg diff specif;20181026120000;;20181026120000
+1.2.250.1.213.1.6.1.133;508;Accueil orientation soins accompagnement diff spécifiques;Accueil orientation soins accompagnement diff spécifiques;AOSA diff specif;20181026120000;;20181026120000
+1.2.250.1.213.1.6.1.133;509;Accompagnement à la vie sociale des adultes handicapés;Accompagnement à la vie sociale des adultes handicapés;AVSAH;20181026120000;20211126120000;20211126120000
+1.2.250.1.213.1.6.1.133;510;Accompagnement médico social des adultes handicapés;Accompagnement médico social des adultes handicapés;AMSAH;20181026120000;20211126120000;20211126120000
+1.2.250.1.213.1.6.1.133;511;Equipe mobile santé précarité;Equipe mobile santé précarité;E.M.S.P;20220325120000;;20220325120000
+1.2.250.1.213.1.6.1.133;512;Equipe spécialisée de soins infirmiers précarité;Equipe spécialisée de soins infirmiers précarité;E.S.S.I.P;20220325120000;;20220325120000
+1.2.250.1.213.1.6.1.133;520;Tutelle curatelle mandat spécial sauvegarde justice pers maj;Tutelle curatelle mandat spécial sauvegarde justice pers maj;Tutelle curatelle;20181026120000;;20181026120000
+1.2.250.1.213.1.6.1.133;521;Mesure d'accompagnement judiciaire;Mesure d'accompagnement judiciaire;Mesure acc judic;20181026120000;;20181026120000
+1.2.250.1.213.1.6.1.133;522;Mesure d'accompagnement social personnalisé;Mesure d'accompagnement social personnalisé;Mesure acc soc perso;20181026120000;;20181026120000
+1.2.250.1.213.1.6.1.133;523;Information des tuteurs familiaux;Information des tuteurs familiaux;Info tuteurs famil;20181026120000;;20181026120000
+1.2.250.1.213.1.6.1.133;569;Centre de Vie pour Cas lourds;Centre de Vie pour Cas lourds;Héb.Ctre Vie C.Lourd;20211126120000;20211126120000;20211126120000
+1.2.250.1.213.1.6.1.133;589;Tutelle d'État;Tutelle d'État;Tutelle d'Etat;20211126120000;20211126120000;20211126120000
+1.2.250.1.213.1.6.1.133;633;Services expérimentaux en faveur des personnes âgées;Services expérimentaux en faveur des personnes âgées;Serv expérim PA;20181026120000;;20181026120000
+1.2.250.1.213.1.6.1.133;650;Accueil temporaire enfants handicapés;Accueil temporaire enfants handicapés;Acc temporaire EH;20181026120000;20211126120000;20211126120000
+1.2.250.1.213.1.6.1.133;654;Hébergement Spécialisé Pr Enfants et Adolescents Handicapés;Hébergement Spécialisé Pr Enfants et Adolescents Handicapés;Héb.spéc.Enf.Ado.Han;20181026120000;20211126120000;20211126120000
+1.2.250.1.213.1.6.1.133;655;Prestation de Service Pr Association;Prestation de Service Pr Association;Prest.Serv.Associat.;20181026120000;;20181026120000
+1.2.250.1.213.1.6.1.133;656;Garde et Observation en Jardin Enfants Spéc.Enf.Handicapés;Garde et Observation en Jardin Enfants Spéc.Enf.Handicapés;Gard.Obs.Jard.Enf.H.;20181026120000;20211126120000;20211126120000
+1.2.250.1.213.1.6.1.133;657;Accueil temporaire pour Personnes Âgées;Accueil temporaire pour Personnes Âgées;Acc temporaire PA;20181026120000;;20181026120000
+1.2.250.1.213.1.6.1.133;658;Accueil temporaire pour adultes handicapés;Accueil temporaire pour adultes handicapés;Acc temporaire AH;20181026120000;20211126120000;20211126120000
+1.2.250.1.213.1.6.1.133;659;Hébergement en résidence pour personnes âgées;Accueil temporaire pour adultes handicapés;hebgt.Resid.Pour per;20231215120000;20230127120000;20230127120000
+1.2.250.1.213.1.6.1.133;660;Réalisation d'Enquêtes sociales;Réalisation d'Enquêtes sociales;Réalis.Enquêt.Social;20181026120000;;20181026120000
+1.2.250.1.213.1.6.1.133;661;Permanence des Assistants de Service Social;Permanence des Assistants de Service Social;Perman. Serv.Social;20181026120000;;20181026120000
+1.2.250.1.213.1.6.1.133;691;Services expérimentaux en faveur des adultes handicapés;Services expérimentaux en faveur des adultes handicapés;Serv experim AH;20181026120000;20211126120000;20211126120000
+1.2.250.1.213.1.6.1.133;695;Auxiliaires de Vie pour Handicapés;Auxiliaires de Vie pour Handicapés;Auxil.de Vie pr Hand;20211126120000;20211126120000;20211126120000
+1.2.250.1.213.1.6.1.133;697;Intermédiaire de placement Social;Intermédiaire de placement Social;Interm. Plac.Social;20181026120000;;20181026120000
+1.2.250.1.213.1.6.1.133;714;Recherche dans Domaine Social;Recherche dans Domaine Social;Recherche Dom.Social;20181026120000;;20181026120000
+1.2.250.1.213.1.6.1.133;836;Préparation à la Vie Sociale pour Adolescents Handicapés;Préparation à la Vie Sociale pour Adolescents Handicapés;Prép.Vie Soc.Ado.Han;20181026120000;20211126120000;20211126120000
+1.2.250.1.213.1.6.1.133;837;Evaluat.réentraînem.orientat. scolaire cérébro-lésés;Evaluat.réentraînem.orientat. scolaire cérébro-lésés;Eval. Scol. cérébro;20181026120000;20211126120000;20211126120000
+1.2.250.1.213.1.6.1.133;838;Accompagement familial éducation précoce Enfants Handicapés;Accompagement familial éducation précoce Enfants Handicapés;A.F.E.P. EH;20181026120000;20211126120000;20211126120000
+1.2.250.1.213.1.6.1.133;839;Acquisition, autonomie, intégration scol. Enfants Handicapés;Acquisition, autonomie, intégration scol. Enfants Handicapés;A.A.I.S. EH;20181026120000;20211126120000;20211126120000
+1.2.250.1.213.1.6.1.133;840;Accompagnement précoce de jeunes enfants;Accompagnement précoce de jeunes enfants;Acc.Précoce JE;20181026120000;;20181026120000
+1.2.250.1.213.1.6.1.133;841;Acc. dans l'acquisition de l'autonomie et la scolarisation;Acc. dans l'acquisition de l'autonomie et la scolarisation;A.A.A.S.;20181026120000;;20181026120000
+1.2.250.1.213.1.6.1.133;842;Préparation à la vie professionnelle;Préparation à la vie professionnelle;Prépa.vie profess.;20181026120000;;20181026120000
+1.2.250.1.213.1.6.1.133;843;Accompagnement enseignement supérieur;Accompagnement enseignement supérieur;Accomp.enseig.supér.;20181026120000;;20181026120000
+1.2.250.1.213.1.6.1.133;844;Tous projets éducatifs thérapeutiques et pédagogiques;Tous projets éducatifs thérapeutiques et pédagogiques;Tous projets;20181026120000;;20181026120000
+1.2.250.1.213.1.6.1.133;897;Hébergement ouvert en foyer pour adultes handicapés;Hébergement ouvert en foyer pour adultes handicapés;Hebergt ouvert AH;20181026120000;20211126120000;20211126120000
+1.2.250.1.213.1.6.1.133;900;Action Médico-Sociale Précoce;Action Médico-Sociale Précoce;A.M.S.P EH;20181026120000;;20181026120000
+1.2.250.1.213.1.6.1.133;901;Éducation Générale et Soins Spécialisés Enfants Handicapés;Éducation Générale et Soins Spécialisés Enfants Handicapés;Educ.Gén.Soin.Sp.E.H;20181026120000;20211126120000;20211126120000
+1.2.250.1.213.1.6.1.133;902;Éducation Profession.& Soins Spécial.Enfants Handicapés;Éducation Profession.& Soins Spécial.Enfants Handicapés;Educ.Pro.Soin Sp E.H;20181026120000;20211126120000;20211126120000
+1.2.250.1.213.1.6.1.133;903;Éduc.Générale.Profession.& Soins Spécial.Enfants Handicapés;Éduc.Générale.Profession.& Soins Spécial.Enfants Handicapés;Ed.Gén.Pro.Soin S EH;20181026120000;20211126120000;20211126120000
+1.2.250.1.213.1.6.1.133;904;Enseignement Général Spécialisé;Enseignement Général Spécialisé;Enseig.Gén.Spécial.;20211126120000;20211126120000;20211126120000
+1.2.250.1.213.1.6.1.133;905;Enseignement Professionnel Spécialisé;Enseignement Professionnel Spécialisé;Enseig.Prof.Spécial.;20211126120000;20211126120000;20211126120000
+1.2.250.1.213.1.6.1.133;906;Réadaptation Professionnelle pour Adultes Handicapés;Réadaptation Professionnelle pour Adultes Handicapés;Réadap.Pro.Adul.Hand;20181026120000;;20210528120000
+1.2.250.1.213.1.6.1.133;907;Adaptation à la vie active;Adaptation à la vie active;A.V.A.;20181026120000;;20181026120000
+1.2.250.1.213.1.6.1.133;908;Aide par le travail pour Adultes Handicapés;Aide par le travail pour Adultes Handicapés;Aide Trav.Adul.Hand.;20181026120000;;20181026120000
+1.2.250.1.213.1.6.1.133;909;Travail protégé pour Adultes Handicapés;Travail protégé pour Adultes Handicapés;Trav.Prot.Adul.Hand.;20181026120000;;20181026120000
+1.2.250.1.213.1.6.1.133;910;Accueil collectif régulier d'enfants d'âge préscolaire;Accueil collectif régulier d'enfants d'âge préscolaire;Acc. Coll.reg. PE;20211126120000;20211126120000;20211126120000
+1.2.250.1.213.1.6.1.133;911;Accueil collectif occasionnel d'enfants d'âge préscolaire;Accueil collectif occasionnel d'enfants d'âge préscolaire;Acc. Coll Occas. PE.;20211126120000;20211126120000;20211126120000
+1.2.250.1.213.1.6.1.133;912;Accueil au titre de la protection de l'enfance;Accueil au titre de la protection de l'enfance;Acc.Protec.Enfance;20181026120000;;20200626120000
+1.2.250.1.213.1.6.1.133;913;Accueil d'urgence protection de l'enfance;Accueil d'urgence protection de l'enfance;Acc.Urg.Prot.Enfance;20181026120000;;20200626120000
+1.2.250.1.213.1.6.1.133;914;Accueil temporaire saisonnier ou week-end protection de l'enfance;Accueil temporaire saisonnier ou week-end protection de l'enfance;Acc.Tmp.Prot.Enfance;20181026120000;;20200626120000
+1.2.250.1.213.1.6.1.133;915;Accueil collectif polyvalent regulier et occasionnel;Accueil collectif polyvalent regulier et occasionnel;Acc.coll reg/occ PE;20211126120000;20211126120000;20211126120000
+1.2.250.1.213.1.6.1.133;916;Hébergement Réadapt. Sociale Pers.Familles en Difficulté;Hébergement Réadapt. Sociale Pers.Familles en Difficulté;Héb.Réad.Soc.Fam.Dif;20181026120000;;20181026120000
+1.2.250.1.213.1.6.1.133;917;Accueil spécialisé pour Adultes Handicapés;Accueil spécialisé pour Adultes Handicapés;Acc.M A S AH;20181026120000;20211126120000;20211126120000
+1.2.250.1.213.1.6.1.133;918;Accueil familial régulier d'enfants d'âge préscolaire;Accueil familial régulier d'enfants d'âge préscolaire;Acc.fam regulier PE;20211126120000;20211126120000;20211126120000
+1.2.250.1.213.1.6.1.133;919;Accueil familial occasionnel d'enfants d'âge préscolaire;Accueil familial occasionnel d'enfants d'âge préscolaire;Acc.fam occasion PE;20211126120000;20211126120000;20211126120000
+1.2.250.1.213.1.6.1.133;920;Hébergement Ouvert en Ets Pr Adultes & Familles;Hébergement Ouvert en Ets Pr Adultes & Familles;Héb.Ouv.Adul.& Famil;20181026120000;;20181026120000
+1.2.250.1.213.1.6.1.133;921;Séjours de rupture/distanciation/apaisement;Séjours de rupture/distanciation/apaisement;Séjours de rupture;20200626120000;;20200626120000
+1.2.250.1.213.1.6.1.133;922;Accueil Temporaire d'Urgence Pr Adultes & Familles;Accueil Temporaire d'Urgence Pr Adultes & Familles;Acc.Temp.Ur.Adul.Fam;20181026120000;;20181026120000
+1.2.250.1.213.1.6.1.133;923;Accueil Temp.Saisonnier ou W E Adultes & Familles;Accueil Temp.Saisonnier ou W E Adultes & Familles;Acc.Temp.WE Adul.Fam;20181026120000;;20181026120000
+1.2.250.1.213.1.6.1.133;924;Accueil pour Personnes Âgées;Accueil pour Personnes Âgées;Acc. Personnes Âgées;20181026120000;;20181026120000
+1.2.250.1.213.1.6.1.133;925;Hébergement résidence autonomie personnes âgées seules F1;Hébergement résidence autonomie personnes âgées seules F1;Héb.R-A.P.A. F1;20181026120000;;20181026120000
+1.2.250.1.213.1.6.1.133;926;Hébergement résidence autonomie personnes âgées couple F2;Hébergement résidence autonomie personnes âgées couple F2;Héb.R-A.P.A. F2;20181026120000;;20181026120000
+1.2.250.1.213.1.6.1.133;927;Hébergement résidence autonomie personnes âgées F1BIS;Hébergement résidence autonomie personnes âgées F1BIS;Héb.R-A.P.A.F1B.;20181026120000;;20181026120000
+1.2.250.1.213.1.6.1.133;928;Observation en Milieu Ouvert Pour Mineurs Justice (O.M.O);Observation en Milieu Ouvert Pour Mineurs Justice (O.M.O);Obs.Mil.Ouv.Min.Just;20181026120000;;20181026120000
+1.2.250.1.213.1.6.1.133;929;Consultation d'Orientation Pour Mineurs Justice;Consultation d'Orientation Pour Mineurs Justice;Cons.Orient.Min.Just;20181026120000;;20181026120000
+1.2.250.1.213.1.6.1.133;930;Observation Orientation Pour Mineurs Justice;Observation Orientation Pour Mineurs Justice;Obs.Orient.Min.Just.;20181026120000;;20181026120000
+1.2.250.1.213.1.6.1.133;931;Suivi Social en Milieu Ouvert;Suivi Social en Milieu Ouvert;Suivi Soc.Mil.Ouvert;20181026120000;;20181026120000
+1.2.250.1.213.1.6.1.133;932;Animation de la Vie Sociale;Animation de la Vie Sociale;Anim. Vie Sociale;20181026120000;;20181026120000
+1.2.250.1.213.1.6.1.133;933;Activités de Plein Air;Activités de Plein Air;Activités Plein-Air;20211126120000;20211126120000;20211126120000
+1.2.250.1.213.1.6.1.133;934;Activités liées Aux Vacances;Activités liées Aux Vacances;Act.Liées Vacances;20211126120000;20211126120000;20211126120000
+1.2.250.1.213.1.6.1.133;935;Activités des Établissements Expérimentaux;Activités des Établissements Expérimentaux;Act.Etab.Expériment.;20181026120000;;20181026120000
+1.2.250.1.213.1.6.1.133;936;Accueil en Foyer de Vie pour Adultes Handicapés;Accueil en Foyer de Vie pour Adultes Handicapés;Acc.Foyer de Vie AH;20181026120000;20211126120000;20211126120000
+1.2.250.1.213.1.6.1.133;937;Réinsertion Par l'Économie;Réinsertion Par l'Économie;Réinsertion Economie;20181026120000;;20181026120000
+1.2.250.1.213.1.6.1.133;938;Hébergement en Hospice;Hébergement en Hospice;Hébergement Hospice;20211126120000;20211126120000;20211126120000
+1.2.250.1.213.1.6.1.133;939;Accueil médicalisé pour adultes handicapés;Accueil médicalisé pour adultes handicapés;Acc médicalisé AH;20181026120000;20211126120000;20211126120000
+1.2.250.1.213.1.6.1.133;941;Maisons Relais - Résidence Accueil;Maisons Relais - Résidence Accueil;Mais.Rel.Résid.Accu;20181026120000;;20181026120000
+1.2.250.1.213.1.6.1.133;942;Maisons Relais pour Personnes Vieillissantes;Maisons Relais pour Personnes Vieillissantes;Mais.Rel.Pers.Vieill;20181026120000;;20181026120000
+1.2.250.1.213.1.6.1.133;943;Maisons Relais "Classique";Maisons Relais "Classique";Mais.Rel.Classique;20181026120000;;20181026120000
+1.2.250.1.213.1.6.1.133;944;Résidences Sociales ex Foyer Jeunes Travailleurs;Résidences Sociales ex Foyer Jeunes Travailleurs;Résid.Soc. ex FJT;20181026120000;;20181026120000
+1.2.250.1.213.1.6.1.133;945;Résidences Sociales ex Foyers Travailleurs Migrants;Résidences Sociales ex Foyers Travailleurs Migrants;Résid.Soc. ex FTM;20181026120000;;20181026120000
+1.2.250.1.213.1.6.1.133;946;Résidences Sociales créées ex Nihilo;Résidences Sociales créées ex Nihilo;Résid.Soc. ex Nihilo;20181026120000;;20181026120000
+1.2.250.1.213.1.6.1.133;947;Résidence sociale FJT;Résidence sociale FJT;Résidence soc. FJT;20181026120000;;20181026120000
+1.2.250.1.213.1.6.1.133;948;C.H.R.S. Hors les murs;C.H.R.S. Hors les murs;C.H.R.S. Hors les murs;20200626120000;;20200626120000
+1.2.250.1.213.1.6.1.133;957;Hébergement d'insertion Adultes,Familles Difficulté;Hébergement d'insertion Adultes,Familles Difficulté;Héb.Insertion Diffi.;20181026120000;;20181026120000
+1.2.250.1.213.1.6.1.133;958;Hébergement de Stabilisation Adultes,familles Difficulté;Hébergement de Stabilisation Adultes,familles Difficulté;Héb.Stabilisation Di;20181026120000;;20181026120000
+1.2.250.1.213.1.6.1.133;959;Hébergement d'Urgence Adultes, Familles Difficulté;Hébergement d'Urgence Adultes, Familles Difficulté;Héb.Urgence Diffi.;20181026120000;;20181026120000
+1.2.250.1.213.1.6.1.133;960;Hébergement d'Urgence avec Accompagnement Social (H.U.A.S.);Hébergement d'Urgence avec Accompagnement Social (H.U.A.S.);H.U.A.S.;20200626120000;;20200626120000
+1.2.250.1.213.1.6.1.133;961;Pôles d'activité et de soins adaptés;Pôles d'activité et de soins adaptés;P.A.S.A.;20181026120000;;20181026120000
+1.2.250.1.213.1.6.1.133;962;Unités d'hébergement renforcées;Unités d'hébergement renforcées;U.H.R.;20181026120000;;20181026120000
+1.2.250.1.213.1.6.1.133;963;Plateforme d'accompagnement et de répit des aidants (PFR);Plateforme d'accompagnement et de répit des aidants (PFR);Plateforme répit PFR;20181026120000;;20181026120000
+1.2.250.1.213.1.6.1.133;964;Accueil et accompagnement spécialisé personnes handicapés;Accueil et accompagnement spécialisé personnes handicapés;A.A.S.P.H;20181026120000;;20181026120000
+1.2.250.1.213.1.6.1.133;965;Accueil et accompagnement non médical. personnes handicapées;Accueil et accompagnement non médical. personnes handicapées;A.A.N.M.P.H;20181026120000;;20181026120000
+1.2.250.1.213.1.6.1.133;966;Accueil et accompagnement médicalisé personnes handicapées;Accueil et accompagnement médicalisé personnes handicapées;A.A.M.P.H;20181026120000;;20181026120000
+1.2.250.1.213.1.6.1.133;991;Éducation Générale Soins Spéc. Enfants Hand.Troubles Assoc.;Éducation Générale Soins Spéc. Enfants Hand.Troubles Assoc.;Educ.Gén.Enf.Hand.Tr;20211126120000;20211126120000;20211126120000
+1.2.250.1.213.1.6.1.133;992;Éducation Prof. Soins Spéc. Enfants Hand. Troubles Associés;Éducation Prof. Soins Spéc. Enfants Hand. Troubles Associés;Educ.Pro.Enf.Hand.Tr;20211126120000;20211126120000;20211126120000
+1.2.250.1.213.1.6.1.133;999;Regroupement des Calculs (Annexes 24);Regroupement des Calculs (Annexes 24);Regroup.Calc.(An.24);20211126120000;20211126120000;20211126120000

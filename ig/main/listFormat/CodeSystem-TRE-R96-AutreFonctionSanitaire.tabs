@@ -1,13 +1,13 @@
 <OID>;<Type fichier>;<Nom fichier>;<Description>;<URL fichier>;<Date valid>;<Date fin>;<Date MàJ>
 1.2.250.1.213.1.6.1.110;TRE;TRE_R96_AutreFonctionSanitaire.tabs;Autres fonctions du domaine sanitaire;https://mos.esante.gouv.fr/NOS/TRE_R96-AutreFonctionSanitaire;20171013120000;;20231215120000
 <OID>;<Code>;<Libellé adapté>;<Libellé court>;<Libellé long>;<Date valid>;<Date fin>;<Date MAJ> 
-1.2.250.1.213.1.6.1.110;Aide-soignant;Aide-soignant;Aide-soignant;400;20171013120000;20181026120000;20181026120000
-1.2.250.1.213.1.6.1.110;Auxiliaire de puériculture;Auxiliaire de puériculture;Auxiliaire de puériculture;401;20171013120000;20181026120000;20181026120000
-1.2.250.1.213.1.6.1.110;Préparateur en pharmacie hospitalière;Préparateur en pharmacie hospitalière;Prép en pharmacie (hôpital);402;20171013120000;20181026120000;20181026120000
-1.2.250.1.213.1.6.1.110;Préparateur en pharmacie (officine);Préparateur en pharmacie (officine);Prép en pharmacie (officine);403;20171013120000;20181026120000;20181026120000
-1.2.250.1.213.1.6.1.110;Conseiller en génétique;Conseiller en génétique;Conseiller en génétique;404;20171013120000;20190329120000;20190329120000
-1.2.250.1.213.1.6.1.110;Radiophysicien;Radiophysicien;Radiophysicien;405;20171013120000;20190426120000;20190426120000
-1.2.250.1.213.1.6.1.110;Assistant dentaire;Assistant dentaire;Assistant dentaire;406;20171013120000;20181026120000;20181026120000
-1.2.250.1.213.1.6.1.110;Tatoueur;Tatoueur;Tatoueur;407;20171013120000;;20171013120000
-1.2.250.1.213.1.6.1.110;Perceur corporel;Perceur corporel;Perceur corporel;408;20171013120000;;20171013120000
-1.2.250.1.213.1.6.1.110;Maquilleur permanent;Maquilleur permanent;Maquilleur permanent;409;20171013120000;;20190329120000
+1.2.250.1.213.1.6.1.110;400;Aide-soignant;Aide-soignant;Aide-soignant;20171013120000;20181026120000;20181026120000
+1.2.250.1.213.1.6.1.110;401;Auxiliaire de puériculture;Auxiliaire de puériculture;Auxiliaire de puériculture;20171013120000;20181026120000;20181026120000
+1.2.250.1.213.1.6.1.110;402;Préparateur en pharmacie hospitalière;Préparateur en pharmacie hospitalière;Prép en pharmacie (hôpital);20171013120000;20181026120000;20181026120000
+1.2.250.1.213.1.6.1.110;403;Préparateur en pharmacie (officine);Préparateur en pharmacie (officine);Prép en pharmacie (officine);20171013120000;20181026120000;20181026120000
+1.2.250.1.213.1.6.1.110;404;Conseiller en génétique;Conseiller en génétique;Conseiller en génétique;20171013120000;20190329120000;20190329120000
+1.2.250.1.213.1.6.1.110;405;Radiophysicien;Radiophysicien;Radiophysicien;20171013120000;20190426120000;20190426120000
+1.2.250.1.213.1.6.1.110;406;Assistant dentaire;Assistant dentaire;Assistant dentaire;20171013120000;20181026120000;20181026120000
+1.2.250.1.213.1.6.1.110;407;Tatoueur;Tatoueur;Tatoueur;20171013120000;;20171013120000
+1.2.250.1.213.1.6.1.110;408;Perceur corporel;Perceur corporel;Perceur corporel;20171013120000;;20171013120000
+1.2.250.1.213.1.6.1.110;409;Maquilleur permanent;Maquilleur permanent;Maquilleur permanent;20171013120000;;20190329120000

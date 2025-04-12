@@ -1,257 +1,257 @@
 <OID>;<Type fichier>;<Nom fichier>;<Description>;<URL fichier>;<Date valid>;<Date fin>;<Date MàJ>
 1.2.250.1.213.3.3.39;TRE;TRE_R244_CategorieOrganisation.tabs;Catégorie d'organisation;https://mos.esante.gouv.fr/NOS/TRE_R244-CategorieOrganisation;20171013120000;;20250328120000
 <OID>;<Code>;<Libellé adapté>;<Libellé court>;<Libellé long>;<Date valid>;<Date fin>;<Date MAJ> 
-1.2.250.1.213.3.3.39;Appartement thérapeutique;Appartement thérapeutique;Appartement thérapeutique;01;20171013120000;;20171013120000
-1.2.250.1.213.3.3.39;Atelier thérapeutique;Atelier thérapeutique;Atelier thérapeutique;02;20171013120000;;20171013120000
-1.2.250.1.213.3.3.39;Cellule d'Urgences Médico-Psychologique (CUMP);Cellule d'Urgences Médico-Psychologique (CUMP);CUMP;03;20171013120000;;20171013120000
-1.2.250.1.213.3.3.39;Centre d'Accueil Permanent (CAP);Centre d'Accueil Permanent (CAP);CAP;04;20171013120000;;20171013120000
-1.2.250.1.213.3.3.39;Centre d'Accueil Thérapeutique à Temps Partiel (CATTP);Centre d'Accueil Thérapeutique à Temps Partiel (CATTP);CATTP;05;20171013120000;;20171013120000
-1.2.250.1.213.3.3.39;Centre de crise;Centre de crise;Centre de crise;06;20171013120000;;20171013120000
-1.2.250.1.213.3.3.39;Centre de post-cure;Centre de post-cure;Centre de post-cure;07;20171013120000;;20171013120000
-1.2.250.1.213.3.3.39;Centre de Ressources Autisme (CRA);Centre de Ressources Autisme (CRA);CRA;08;20171013120000;;20171013120000
-1.2.250.1.213.3.3.39;Centre Expert;Centre Expert;Centre Expert;09;20171013120000;;20171013120000
-1.2.250.1.213.3.3.39;Centre Médico-Psychologique (CMP);Centre Médico-Psychologique (CMP);CMP;10;20171013120000;;20171013120000
-1.2.250.1.213.3.3.39;Hôpital De Jour (HDJ);Hôpital De Jour (HDJ);HDJ;11;20171013120000;;20171013120000
-1.2.250.1.213.3.3.39;Hôpital De Nuit (HDN);Hôpital De Nuit (HDN);HDN;12;20171013120000;;20171013120000
-1.2.250.1.213.3.3.39;Service d'Accueil Familial Thérapeutique;Service d'Accueil Familial Thérapeutique;Service Accueil Famil Thérap;13;20171013120000;;20171013120000
-1.2.250.1.213.3.3.39;Service Médico-Psychologique Régional (SMPR);Service Médico-Psychologique Régional (SMPR);SMPR;14;20171013120000;;20171013120000
-1.2.250.1.213.3.3.39;Unité de Soins Intensifs Psychiatriques (USIP);Unité de Soins Intensifs Psychiatriques (USIP);USIP;15;20171013120000;;20171013120000
-1.2.250.1.213.3.3.39;Unité d'hospitalisation (hors HDJ);Unité d'hospitalisation (hors HDJ);Unité d'hosp (hors HDJ);16;20171013120000;;20171013120000
-1.2.250.1.213.3.3.39;Unité Hospitalière Spécialement Aménagé (UHSA);Unité Hospitalière Spécialement Aménagé (UHSA);UHSA;17;20171013120000;;20171013120000
-1.2.250.1.213.3.3.39;Unité Malade Difficile (UMD);Unité Malade Difficile (UMD);UMD;18;20171013120000;;20171013120000
-1.2.250.1.213.3.3.39;Unités Soins Etudes;Unités Soins Etudes;Unités Soins Etudes;19;20171013120000;;20171013120000
-1.2.250.1.213.3.3.39;Unité d'urgences;Unité d'urgences;Unité d'urgences;20;20171013120000;;20250328120000
-1.2.250.1.213.3.3.39;Accueil ou hébergement pour personnes âgées dépendantes, sans spécificité;Accueil ou hébergement pour personnes âgées dépendantes, sans spécificité;Acc PA sans spécificité;21;20180126120000;;20180126120000
-1.2.250.1.213.3.3.39;Accueil ou hébergement pour personnes âgées autonomes, sans spécificité;Accueil ou hébergement pour personnes âgées autonomes, sans spécificité;Acc PH sans spécificité;22;20180126120000;;20180126120000
-1.2.250.1.213.3.3.39;Accueil ou hébergement pour personnes âgées dépendantes, avec spécificité Unité d'Hébergement Renforcé (UHR);Accueil pour personnes âgées dépendantes, avec spécificité UHR;Acc PA spé UHR;23;20180126120000;;20180126120000
-1.2.250.1.213.3.3.39;Accueil ou hébergement pour personnes âgées dépendantes, avec spécificité Unité de vie protégée (UVP, Cantou,...);Accueil pour personnes âgées dépendantes, avec spécificité Unité de vie protégée;Acc PA spé UVP;24;20180126120000;;20180126120000
-1.2.250.1.213.3.3.39;Pôle d'activité de Soins Adaptés (PASA);Pôle d'activité de Soins Adaptés (PASA);PASA;25;20180126120000;;20210326120000
-1.2.250.1.213.3.3.39;Accueil ou hébergement pour personnes âgées dépendantes, avec spécificité Petites unités de vie (PUV);Accueil ou hébergement personnes âgées dépendantes, avec spécificité PUV;Acc PA spé PUV;26;20180126120000;;20180126120000
-1.2.250.1.213.3.3.39;Accueil ou hébergement pour personnes âgées autonomes, avec spécificité Maison d'accueil rural (MARPA);Accueil pour personnes âgées autonomes, avec spécificité MARPA;Acc PA spé MARPA;27;20180126120000;;20180126120000
-1.2.250.1.213.3.3.39;Services Soins infirmiers à domicile (SSIAD);Services Soins infirmiers à domicile (SSIAD);SSIAD;28;20180126120000;;20180126120000
-1.2.250.1.213.3.3.39;Equipe spécialisée Alzheimer (ESA);Equipe spécialisée Alzheimer (ESA);ESA;29;20180126120000;;20180126120000
-1.2.250.1.213.3.3.39;Service autonomie à domicile (SAD) aide;Service autonomie à domicile (SAD) aide;SAD aide;30;20180126120000;;20240927120000
-1.2.250.1.213.3.3.39;Service d'Accompagnement à la Vie Sociale (SAVS);Service d'Accompagnement à la Vie Sociale (SAVS);SAVS;31;20180126120000;;20180126120000
-1.2.250.1.213.3.3.39;Service d'accompagnement médico-social adultes handicapés (SAMSAH);Service d'accompagnement médico-social adultes handicapés (SAMSAH);SAMSAH;32;20180126120000;;20180126120000
-1.2.250.1.213.3.3.39;Service de portage de repas à domicile;Service de portage de repas à domicile;Portage de repas à domicile;33;20180126120000;;20180126120000
-1.2.250.1.213.3.3.39;Service de Téléassistance;Service de Téléassistance;Service de Téléassistance;34;20180126120000;;20180126120000
-1.2.250.1.213.3.3.39;Foyer restaurant;Foyer restaurant;Foyer restaurant;35;20180126120000;;20180126120000
-1.2.250.1.213.3.3.39;Dispositif d'accueil familial;Dispositif d'accueil familial;Dispositif d'accueil familial;36;20180126120000;;20180126120000
-1.2.250.1.213.3.3.39;Centre d'accueil familial spécialisé (CAFS);Centre d'accueil familial spécialisé (CAFS);CAFS;37;20180126120000;;20180126120000
-1.2.250.1.213.3.3.39;Plateforme d'accompagnement et de répit;Plateforme d'accompagnement et de répit;Plat accompagnement et répit;38;20180126120000;;20180126120000
-1.2.250.1.213.3.3.39;Foyer ou établissement d'accueil médicalisé (FAM ou EAM);Foyer ou établissement d'accueil médicalisé (FAM ou EAM);FAM ou EAM;39;20180126120000;;20190329120000
-1.2.250.1.213.3.3.39;Maison d'accueil spécialisée (MAS);Maison d'accueil spécialisée (MAS);MAS;40;20180126120000;;20240426120000
-1.2.250.1.213.3.3.39;Etablissement d'accueil non médicalisé (EANM) dont foyer de vie et foyer d'hébergement;EANM dont foyer de vie et foyer d'hébergement;EANM, foyer de vie/foyer d'héb;41;20180126120000;;20190329120000
-1.2.250.1.213.3.3.39;Foyer d'hébergement (Etablissement d'accueil non médicalisé);Foyer d'hébergement (Etablissement d'accueil non médicalisé);Foyer d'hébergement;42;20180126120000;20190329120000;20190329120000
-1.2.250.1.213.3.3.39;Unité d'aide par le travail (ESAT);Unité d'aide par le travail (ESAT);ESAT;43;20180126120000;;20180126120000
-1.2.250.1.213.3.3.39;Etablissements et Service de Réadaptation Professionnelle (ESRP);Etablissements et Service de Réadaptation Professionnelle (ESRP);ESRP;44;20180126120000;;20250131120000
-1.2.250.1.213.3.3.39;Unités évaluation réentraînement et d'orientation sociale et professionnel (UEROS);Unités évaluation réentraînement et orientation sociale et professionnel (UEROS);UEROS;45;20180126120000;;20180126120000
-1.2.250.1.213.3.3.39;Établissements et Services de Pré-Orientation (ESPO);Établissements et Services de Pré-Orientation (ESPO);ESPO;46;20180126120000;;20230526120000
-1.2.250.1.213.3.3.39;Plateforme Emploi Accompagné (PEA);Plateforme Emploi Accompagné (PEA);PEA;47;20180126120000;;20241025120000
-1.2.250.1.213.3.3.39;Institut médico-éducatif (IME);Institut médico-éducatif (IME);IME;48;20180126120000;;20180126120000
-1.2.250.1.213.3.3.39;Institut d'éducation motrice (IEM);Institut d'éducation motrice (IEM);IEM;49;20180126120000;;20180126120000
-1.2.250.1.213.3.3.39;Institut thérapeutique éducatif et pédagogique (ITEP);Institut thérapeutique éducatif et pédagogique (ITEP);ITEP;50;20180126120000;;20180126120000
-1.2.250.1.213.3.3.39;Etablissement pour enfant ou ado polyhandicapé (EEAP);Etablissement pour enfant ou ado polyhandicapé (EEAP);EEAP;51;20180126120000;;20180126120000
-1.2.250.1.213.3.3.39;Institut déficient visuel;Institut déficient visuel;Institut déficient visuel;52;20180126120000;;20180126120000
-1.2.250.1.213.3.3.39;Institut déficient auditif;Institut déficient auditif;Institut déficient auditif;53;20180126120000;;20180126120000
-1.2.250.1.213.3.3.39;Institut déficient Visuel et Auditif;Institut déficient Visuel et Auditif;Institut déficient Vis et Aud;54;20180126120000;;20180126120000
-1.2.250.1.213.3.3.39;Unité d'enseignement interne;Unité d'enseignement interne;Unité d'enseignement interne;55;20180126120000;;20180126120000
-1.2.250.1.213.3.3.39;Unité d'enseignement externalisée;Unité d'enseignement externalisée;Unité d'enseignement ext.;56;20180126120000;;20240426120000
-1.2.250.1.213.3.3.39;Service d'accompagnement, Service d'Education Spécialisée de Soins à Domicile (SESSAD);Service d'Education Spécialisée de Soins à Domicile (SESSAD);SESSAD;57;20180126120000;;20180126120000
-1.2.250.1.213.3.3.39;Service d'accompagnement, Service d'Accompagnement Familial et d'Education Précoce (SAFEP);Service d'Accompagnement Familial et d'Education Précoce (SAFEP);SAFEP;58;20180126120000;;20180126120000
-1.2.250.1.213.3.3.39;Service d'accompagnement, Services de Soutien à l'Education Familiale et à la Scolarisation (SSEFIS);Services de Soutien à l'Education Familiale et à la Scolarisation (SSEFIS);SSEFIS;59;20180126120000;;20180126120000
-1.2.250.1.213.3.3.39;Service d'accompagnement, Service d'Aide à l'Acquisition de l'Autonomie et à l'Intégration Scolaire (S3AIS);Serv Aide à l'Acquisition de l'Autono et à l'Intégration Sco (S3AIS);S3AIS;60;20180126120000;;20180126120000
-1.2.250.1.213.3.3.39;Centre d'action médico-sociale précoce (CAMSP);Centre d'action médico-sociale précoce (CAMSP);CAMSP;61;20180126120000;;20180126120000
-1.2.250.1.213.3.3.39;Centre médico-psycho-pédagogique (CMPP);Centre médico-psycho-pédagogique (CMPP);CMPP;62;20180126120000;;20180126120000
-1.2.250.1.213.3.3.39;Jardin d'enfants spécialisé;Jardin d'enfants spécialisé;Jardin d'enfants spécialisé;63;20180126120000;;20180126120000
-1.2.250.1.213.3.3.39;Bureau d'Aide Psychologique Universitaire (B.A.P.U.);Bureau d'Aide Psychologique Universitaire (B.A.P.U.);BAPU;64;20180126120000;;20230526120000
-1.2.250.1.213.3.3.39;Pôles de compétences et de prestations externalisées (PCPE);Pôles de compétences et de prestations externalisées (PCPE);PCPE;65;20180126120000;;20180126120000
-1.2.250.1.213.3.3.39;Equipe Relai Handicap rare;Equipe Relai Handicap rare;Equipe Relai Handicap rare;66;20180126120000;;20180126120000
-1.2.250.1.213.3.3.39;Lieu de vie et d'accueil (hors ESMS);Lieu de vie et d'accueil (hors ESMS);Lieu de vie et d'accueil;67;20180126120000;;20180126120000
-1.2.250.1.213.3.3.39;Unité d'hospitalisation fermée;Unité d'hospitalisation fermée;Unité d'hospitalisation fermée;68;20180126120000;;20180126120000
-1.2.250.1.213.3.3.39;Consultation externe en établissement de santé;Consultation externe en établissement de santé;Consult ext étab de santé;69;20180126120000;;20180126120000
-1.2.250.1.213.3.3.39;Unité d'intervention extra-hospitalière;Unité d'intervention extra-hospitalière;Unité intervention extra-hosp;70;20180126120000;;20180228120000
-1.2.250.1.213.3.3.39;Equipe de liaison et de soins (intra-hospitalière);Equipe de liaison et de soins (intra-hospitalière);Equipe de liaison et de soins;71;20180126120000;;20180126120000
-1.2.250.1.213.3.3.39;Guichet d'accueil, écoute, conseil, orientation;Guichet d'accueil, écoute, conseil, orientation;Guichet d'acc/écoute/conseil;72;20180531120000;;20180531120000
-1.2.250.1.213.3.3.39;Gestion de cas MAIA;Gestion de cas MAIA;Gestion de cas MAIA;73;20180531120000;;20180531120000
-1.2.250.1.213.3.3.39;Logement inclusif;Logement inclusif;Logement inclusif;74;20180531120000;;20180531120000
-1.2.250.1.213.3.3.39;Services Soins infirmiers à domicile renforcé (SSIAD renforcé);Services Soins infirmiers à domicile renforcé (SSIAD renforcé);SSIAD renforcé;75;20180531120000;;20180531120000
-1.2.250.1.213.3.3.39;Unité d'évaluation et de régulation des admissions en psychiatrie;Unité d'évaluation et de régulation des admissions en psychiatrie;Unité d'éval et de régul;76;20180629120000;;20180629120000
-1.2.250.1.213.3.3.39;Equipe Mobile Psychiatrie et Précarité (EMPP);Equipe Mobile Psychiatrie et Précarité (EMPP);EMPP;77;20190705120000;;20190705120000
-1.2.250.1.213.3.3.39;Equipe Mobile Géronto-Psychiatrie (EMGP);Equipe Mobile Géronto-Psychiatrie (EMGP);EMGP;78;20190705120000;;20190705120000
-1.2.250.1.213.3.3.39;Equipe Mobile Ambulatoire de Réadaptation Spécialisé (EARS);Equipe Mobile Ambulatoire de Réadaptation Spécialisé (EARS);EARS;79;20190705120000;;20190705120000
-1.2.250.1.213.3.3.39;Centre de Soins, d'Accompagnement et de Prévention en Addictologie (CSAPA);Centre de Soins, d'Accompagnement et de Prévention en Addictologie (CSAPA);CSAPA;80;20190705120000;;20190705120000
-1.2.250.1.213.3.3.39;Centre d'Accueil et d'Accompagnement à la Réduction des risques pour Usagers de Drogues (CAARUD);CAARUD;CAARUD;81;20190705120000;;20190705120000
-1.2.250.1.213.3.3.39;Pharmacie à Usage Intérieur (PUI);Pharmacie à Usage Intérieur (PUI);PUI;82;20190705120000;;20190705120000
-1.2.250.1.213.3.3.39;Chambre mortuaire;Chambre mortuaire;Chambre mortuaire;83;20190705120000;;20190705120000
-1.2.250.1.213.3.3.39;Plateforme de Coordination et d'Orientation (PCO);Plateforme de Coordination et d'Orientation (PCO);PCO;84;20210326120000;;20210326120000
-1.2.250.1.213.3.3.39;Equipe Mobile Autisme;Equipe Mobile Autisme;Equipe Mobile Autisme;85;20210326120000;;20210326120000
-1.2.250.1.213.3.3.39;Consultation Jeune Consommateur (CJC);Consultation Jeune Consommateur (CJC);CJC;86;20220429120000;;20220429120000
-1.2.250.1.213.3.3.39;Dispositif VigilanS;Dispositif VigilanS;Dispositif VigilanS;87;20220624120000;;20220624120000
-1.2.250.1.213.3.3.39;Dispositif expérimental;Dispositif expérimental;Dispositif expérimental;88;20221028120000;;20221028120000
-1.2.250.1.213.3.3.39;Centre de santé sexuelle;Centre de santé sexuelle;Centre de santé sexuelle;89;20221028120000;;20221028120000
-1.2.250.1.213.3.3.39;Equipe mobile de prévention du risque infectieux;Equipe mobile de prévention du risque infectieux;Equipe mob de prév risque inf;90;20221028120000;;20221028120000
-1.2.250.1.213.3.3.39;Equipe opérationnelle d'hygiène (EOH);Equipe opérationnelle d'hygiène (EOH);EOH;91;20221028120000;;20221028120000
-1.2.250.1.213.3.3.39;Soins non programmés de ville;Soins non programmés de ville;Soins non programmés de ville;92;20221028120000;;20250328120000
-1.2.250.1.213.3.3.39;Lits halte soins santé (LHSS);Lits halte soins santé (LHSS);LHSS;93;20230127120000;;20230127120000
-1.2.250.1.213.3.3.39;Appartement de coordination thérapeutique (ACT);Appartement de coordination thérapeutique (ACT);ACT;94;20230127120000;;20230127120000
-1.2.250.1.213.3.3.39;Lits d'accueil médicalisés (L.A.M.);Lits d'accueil médicalisés (L.A.M.);LAM;95;20230127120000;;20230526120000
-1.2.250.1.213.3.3.39;Etablissement d'accueil non médicalisé (EANM) - foyer d'hébergement (classique ou en milieu ouvert);Etablissement d'accueil non médicalisé (EANM) - foyer d'hébergement;EANM - foyer d'hébergement;96;20230127120000;;20230127120000
-1.2.250.1.213.3.3.39;Etablissement d'accueil non médicalisé (EANM) - foyer de vie;Etablissement d'accueil non médicalisé (EANM) - foyer de vie;EANM - foyer de vie;97;20230127120000;;20230127120000
-1.2.250.1.213.3.3.39;Espaces de vie affective, relationnelle et sexuelle (EVARS);Espaces de vie affective, relationnelle et sexuelle (EVARS);EVARS;98;20230127120000;;20230127120000
-1.2.250.1.213.3.3.39;Maison de santé pluriprofessionnelle (MSP);Maison de santé pluriprofessionnelle (MSP);MSP;99;20230127120000;;20230127120000
-1.2.250.1.213.3.3.39;Soins Médicaux et de Réadaptation (SMR) polyvalent;Soins Médicaux et de Réadaptation (SMR) polyvalent;SMR Polyvalent;100;20230127120000;;20230127120000
-1.2.250.1.213.3.3.39;Soins Médicaux et de Réadaptation (SMR) gériatrie;Soins Médicaux et de Réadaptation (SMR) gériatrie;SMR Gériatrie;101;20230127120000;;20230127120000
-1.2.250.1.213.3.3.39;Soins Médicaux et de Réadaptation (SMR) locomoteur;Soins Médicaux et de Réadaptation (SMR) locomoteur;SMR Locomoteur;102;20230127120000;;20230127120000
-1.2.250.1.213.3.3.39;Soins Médicaux et de Réadaptation (SMR) système nerveux;Soins Médicaux et de Réadaptation (SMR) système nerveux;SMR Système Nerveux;103;20230127120000;;20230127120000
-1.2.250.1.213.3.3.39;Soins Médicaux et de Réadaptation (SMR) cardio-vasculaire;Soins Médicaux et de Réadaptation (SMR) cardio-vasculaire;SMR Cardio-Vasculaire;104;20230127120000;;20230127120000
-1.2.250.1.213.3.3.39;Soins Médicaux et de Réadaptation (SMR) pneumologie;Soins Médicaux et de Réadaptation (SMR) pneumologie;SMR Pneumologie;105;20230127120000;;20230127120000
-1.2.250.1.213.3.3.39;Soins Médicaux et de Réadaptation (SMR) système digestif, endocrinologie, diabétologie, nutrition;Soins Médicaux et de Réadaptation (SMR) sys dig, endocrino, diabéto, nutrition;SMR Sys dig, endo, diab, nut;106;20230127120000;;20230127120000
-1.2.250.1.213.3.3.39;Soins Médicaux et de Réadaptation (SMR) brûlés;Soins Médicaux et de Réadaptation (SMR) brûlés;SMR Brûlés;107;20230127120000;;20230127120000
-1.2.250.1.213.3.3.39;Soins Médicaux et de Réadaptation (SMR) conduites addictives;Soins Médicaux et de Réadaptation (SMR) conduites addictives;SMR Conduites Addictives;108;20230127120000;;20230127120000
-1.2.250.1.213.3.3.39;Soins Médicaux et de Réadaptation (SMR) pédiatriques (enfants et adolescents);Soins Médicaux et de Réadaptation (SMR) pédiatriques (enfants et adolescents);SMR Pédiatrique (Enf et Ado);109;20230127120000;;20230127120000
-1.2.250.1.213.3.3.39;Soins Médicaux et de Réadaptation (SMR) pédiatriques (jeunes enfants, enfants et adolescents);Soins Médicaux et de Réadaptation (SMR) pédiatriques (jeunes enfants, enf, ado);SMR Péd (Jeunes Enf, Enf, Ado);110;20230127120000;;20230127120000
-1.2.250.1.213.3.3.39;Soins Médicaux et de Réadaptation (SMR) oncologie;Soins Médicaux et de Réadaptation (SMR) oncologie;SMR Oncologie;111;20230127120000;;20230127120000
-1.2.250.1.213.3.3.39;Soins Médicaux et de Réadaptation (SMR) oncologie et hématologie;Soins Médicaux et de Réadaptation (SMR) oncologie et hématologie;SMR Oncologie Et Hématologie;112;20230127120000;;20230127120000
-1.2.250.1.213.3.3.39;Centre de Réhabilitation Psychosociale;Centre de Réhabilitation Psychosociale;Centre de Réhab Psychosociale;113;20230526120000;;20230526120000
-1.2.250.1.213.3.3.39;Centre Ressource pour les Intervenants auprès des Auteurs de Violences Sexuelles (CRIAVS);Centre Ressource pour les Interv. auprès des Aut. de Violences Sex. (CRIAVS);CRIAVS;114;20230526120000;;20230526120000
-1.2.250.1.213.3.3.39;Equipe Spécialisée de Soins Infirmiers Précarité (ESSIP);Equipe Spécialisée de Soins Infirmiers Précarité (ESSIP);ESSIP;115;20230630120000;;20230630120000
-1.2.250.1.213.3.3.39;Unité de chirurgie oncologique;Unité de chirurgie oncologique;Unité de chirurgie oncologique;116;20231030120000;;20231030120000
-1.2.250.1.213.3.3.39;Unité de radiothérapie;Unité de radiothérapie;Unité de radiothérapie;117;20231030120000;;20231030120000
-1.2.250.1.213.3.3.39;Unité de traitements médicamenteux systémiques du cancer;Unité de traitements médicamenteux systémiques du cancer;Unité trtmt médic syst cancer;118;20231030120000;;20231030120000
-1.2.250.1.213.3.3.39;Unité mère-enfant;Unité mère-enfant;Unité mère-enfant;119;20231030120000;;20231030120000
-1.2.250.1.213.3.3.39;Centre de recours Troubles du Comportement Alimentaire (TCA);Centre de recours Troubles du Comportement Alimentaire (TCA);Centre de recours TCA;120;20240126120000;;20240126120000
-1.2.250.1.213.3.3.39;Unité de réanimation;Unité de réanimation;Unité de réanimation;121;20240126120000;;20240126120000
-1.2.250.1.213.3.3.39;Unité de soins intensifs polyvalents (USIP) contiguë;Unité de soins intensifs polyvalents (USIP) contiguë;USIP contiguë;122;20240126120000;;20240126120000
-1.2.250.1.213.3.3.39;Unité de soins intensifs polyvalents (USIP) dérogatoire;Unité de soins intensifs polyvalents (USIP) dérogatoire;USIP dérogatoire;123;20240126120000;;20240126120000
-1.2.250.1.213.3.3.39;Unité de soins intensifs (USI) de spécialité;Unité de soins intensifs (USI) de spécialité;USI de spécialité;124;20240126120000;;20240126120000
-1.2.250.1.213.3.3.39;Centre de protection maternelle et infantile (PMI);Centre de protection maternelle et infantile (PMI);Centre de PMI;125;20240426120000;;20240426120000
-1.2.250.1.213.3.3.39;Structure Douleur Chronique (SDC);Structure Douleur Chronique (SDC);SDC;126;20240426120000;;20240426120000
-1.2.250.1.213.3.3.39;Centre régional du psychotraumatisme (CRP);Centre régional du psychotraumatisme (CRP);CRPsychotrauma;127;20240426120000;;20240426120000
-1.2.250.1.213.3.3.39;Unité d'hospitalisation à domicile socle;Unité d'hospitalisation à domicile socle;HAD socle;128;20240426120000;;20240426120000
-1.2.250.1.213.3.3.39;Unité d'hospitalisation à domicile ante et post-partum;Unité d'hospitalisation à domicile ante et post-partum;HAD ante et post-partum;129;20240426120000;;20240426120000
-1.2.250.1.213.3.3.39;Unité d'hospitalisation à domicile réadaptation;Unité d'hospitalisation à domicile réadaptation;HAD réadaptation;130;20240426120000;;20240426120000
-1.2.250.1.213.3.3.39;Unité d'hospitalisation à domicile enfants de moins de trois ans;Unité d'hospitalisation à domicile enfants de moins de trois ans;HAD enfants moins de 3 ans;131;20240426120000;;20240426120000
-1.2.250.1.213.3.3.39;Service autonomie à domicile (SAD) aide et soins;Service autonomie à domicile (SAD) aide et soins;SAD aide et soins;132;20240426120000;;20240426120000
-1.2.250.1.213.3.3.39;Service autonomie à domicile (SAD) aide;Service autonomie à domicile (SAD) aide;SAD aide;133;20240426120000;20240927120000;20240927120000
-1.2.250.1.213.3.3.39;Maison des adolescents (MDA);Maison des adolescents (MDA);MDA;134;20240628120000;;20250328120000
-1.2.250.1.213.3.3.39;Points Accueil Ecoute Jeunes (PAEJ);Points Accueil Ecoute Jeunes (PAEJ);PAEJ;135;20240628120000;;20250328120000
-1.2.250.1.213.3.3.39;Centre de ressources territorial (CRT);Centre de ressources territorial (CRT);CRT;136;20240628120000;;20240628120000
-1.2.250.1.213.3.3.39;Maison sport-santé;Maison sport-santé;Maison sport-santé;137;20240628120000;;20250328120000
-1.2.250.1.213.3.3.39;Unité de soins non programmés en établissement de santé;Unité de soins non programmés en établissement de santé;Unité SNP en ES;138;20240927120000;;20250328120000
-1.2.250.1.213.3.3.39;Unité de soins intensifs polyvalents (USIP) non contiguë;Unité de soins intensifs polyvalents (USIP) non contiguë;USIP non contiguë;139;20240927120000;;20240927120000
-1.2.250.1.213.3.3.39;Equipe Mobile d'Appui à la Scolarisation (EMAS);Equipe Mobile d'Appui à la Scolarisation (EMAS);EMAS;140;20240927120000;;20240927120000
-1.2.250.1.213.3.3.39;Espace Santé Jeune (ESJ);Espace Santé Jeune (ESJ);ESJ;141;20241025120000;;20241025120000
-1.2.250.1.213.3.3.39;Equipes Mobiles Santé Précarité (EMSP);Equipes Mobiles Santé Précarité (EMSP);EMSP;142;20241025120000;;20241025120000
-1.2.250.1.213.3.3.39;Communauté 360;Communauté 360;Communauté 360;143;20241025120000;;20241025120000
-1.2.250.1.213.3.3.39;Equipe Mobile de Psychiatrie de la Personne Âgée;Equipe Mobile de Psychiatrie de la Personne Âgée;EMPPA;144;20241025120000;;20241025120000
-1.2.250.1.213.3.3.39;Unité d'addictologie;Unité d'addictologie;Unité d'addictologie;145;20241025120000;;20241025120000
-1.2.250.1.213.3.3.39;Unité de prise en charge des brûlés;Unité de prise en charge des brûlés;Unité des brûlés;146;20241025120000;;20241025120000
-1.2.250.1.213.3.3.39;Unité de sevrage complexe;Unité de sevrage complexe;Unité de sevrage complexe;147;20241025120000;;20241025120000
-1.2.250.1.213.3.3.39;Unité hospitalière d'allergologie;Unité hospitalière d'allergologie;Unité d'allergologie;148;20241025120000;;20241025120000
-1.2.250.1.213.3.3.39;Unité hospitalière de cardiologie;Unité hospitalière de cardiologie;Unité de cardiologie;149;20241025120000;;20241025120000
-1.2.250.1.213.3.3.39;Unité hospitalière de chirurgie orthopédique et traumatologique;Unité hospitalière de chirurgie orthopédique et traumatologique;Unité chir. orthopédique;150;20241025120000;;20241025120000
-1.2.250.1.213.3.3.39;Unité hospitalière de chirurgie thoracique et cardiovasculaire;Unité hospitalière de chirurgie thoracique et cardiovasculaire;Unité chir. cardiovasculaire;151;20241025120000;;20241025120000
-1.2.250.1.213.3.3.39;Unité hospitalière de chirurgie vasculaire;Unité hospitalière de chirurgie vasculaire;Unité chir. vasculaire;152;20241025120000;;20241025120000
-1.2.250.1.213.3.3.39;Unité hospitalière de chirurgie viscérale et digestive;Unité hospitalière de chirurgie viscérale et digestive;Unité chir. Viscérale;153;20241025120000;;20241025120000
-1.2.250.1.213.3.3.39;Unité hospitalière de dermatologie;Unité hospitalière de dermatologie;Unité de dermatologie;154;20241025120000;;20241025120000
-1.2.250.1.213.3.3.39;Unité hospitalière de génétique médicale;Unité hospitalière de génétique médicale;Unité de génétique médicale;155;20241025120000;;20241025120000
-1.2.250.1.213.3.3.39;Unité hospitalière de gériatrie;Unité hospitalière de gériatrie;Unité de gériatrie;156;20241025120000;;20241025120000
-1.2.250.1.213.3.3.39;Unité hospitalière de gynécologie;Unité hospitalière de gynécologie;Unité de gynécologie;157;20241025120000;;20241025120000
-1.2.250.1.213.3.3.39;Unité hospitalière de médecine vasculaire;Unité hospitalière de médecine vasculaire;Unité de médecine vasculaire;158;20241025120000;;20241025120000
-1.2.250.1.213.3.3.39;Unité hospitalière de néphrologie;Unité hospitalière de néphrologie;Unité de néphrologie;159;20241025120000;;20241025120000
-1.2.250.1.213.3.3.39;Unité hospitalière de neurochirurgie;Unité hospitalière de neurochirurgie;Unité de neurochirurgie;160;20241025120000;;20241025120000
-1.2.250.1.213.3.3.39;Unité hospitalière de neurologie;Unité hospitalière de neurologie;Unité de neurologie;161;20241025120000;;20241025120000
-1.2.250.1.213.3.3.39;Unité hospitalière de pédiatrie;Unité hospitalière de pédiatrie;Unité de pédiatrie;162;20241025120000;;20241025120000
-1.2.250.1.213.3.3.39;Unité hospitalière de pneumologie;Unité hospitalière de pneumologie;Unité de pneumologie;163;20241025120000;;20241025120000
-1.2.250.1.213.3.3.39;Unité hospitalière de radiologie;Unité hospitalière de radiologie;Unité de radiologie;164;20241025120000;;20241025120000
-1.2.250.1.213.3.3.39;Unité hospitalière de rhumatologie;Unité hospitalière de rhumatologie;Unité de rhumatologie;165;20241025120000;;20241025120000
-1.2.250.1.213.3.3.39;Unité hospitalière de stomatologie, chirurgie orale et maxillo faciale;Unité hospitalière de stomatologie, chirurgie orale et maxillo faciale;Unité de stomato., chir. Orale;166;20241025120000;;20241025120000
-1.2.250.1.213.3.3.39;Unité hospitalière d'endocrinologie, diabétologie et nutrition;Unité hospitalière d'endocrinologie, diabétologie et nutrition;Unité d'endocrinologie;167;20241025120000;;20241025120000
-1.2.250.1.213.3.3.39;Unité hospitalière des maladies infectieuses et tropicales (MIT);Unité hospitalière des maladies infectieuses et tropicales;Unité des MIT;168;20241025120000;;20241025120000
-1.2.250.1.213.3.3.39;Unité hospitalière d'hématologie;Unité hospitalière d'hématologie;Unité d'hématologie;169;20241025120000;;20241025120000
-1.2.250.1.213.3.3.39;Unité hospitalière d'hépato-gastro-entérologie (HGE);Unité hospitalière d'hépato-gastro-entérologie (HGE);Unité de HGE;170;20241025120000;;20241025120000
-1.2.250.1.213.3.3.39;Unité hospitalière d'oncologie;Unité hospitalière d'oncologie;Unité d'oncologie;171;20241025120000;;20241025120000
-1.2.250.1.213.3.3.39;Unité hospitalière d'ophtalmologie;Unité hospitalière d'ophtalmologie;Unité d'ophtalmologie;172;20241025120000;;20241025120000
-1.2.250.1.213.3.3.39;Unité hospitalière oto-rhino-laryngologie (ORL);Unité hospitalière oto-rhino-laryngologie (ORL);Unité d'ORL;173;20241025120000;;20241025120000
-1.2.250.1.213.3.3.39;Unité psychiatrique;Unité psychiatrique;Unité psychiatrique;174;20241025120000;;20241025120000
-1.2.250.1.213.3.3.39;Unités de soins palliatifs;Unités de soins palliatifs;Unités de soins palliatifs;175;20241025120000;;20241025120000
-1.2.250.1.213.3.3.39;Unité hospitalière de médecine interne;Unité hospitalière de médecine interne;Unité de médecine interne;176;20241213120000;;20241213120000
-1.2.250.1.213.3.3.39;Dispositif de consultation dédié pour les personnes en situation de handicap;Dispositif de consultation dédié pour les personnes en situation de handicap;Consultation - PH;177;20250131120000;;20250131120000
-1.2.250.1.213.3.3.39;Dispositif d'Appui à la Coordination (DAC);Dispositif d'Appui à la Coordination (DAC);DAC;178;20250131120000;;20250131120000
-1.2.250.1.213.3.3.39;Cabinet de ville d'oto-rhino-laryngologie (ORL);Cabinet de ville d'oto-rhino-laryngologie (ORL);Cabinet d'ORL;179;20250131120000;;20250131120000
-1.2.250.1.213.3.3.39;Cabinet de ville d'allergologie;Cabinet de ville d'allergologie;Cabinet d'allergologie;180;20250131120000;;20250131120000
-1.2.250.1.213.3.3.39;Cabinet de ville d'anatomo-cytopathologie;Cabinet de ville d'anatomo-cytopathologie;Cabinet d'anatomopathologie;181;20250131120000;;20250328120000
-1.2.250.1.213.3.3.39;Cabinet de ville d'anesthésie-réanimation;Cabinet de ville d'anesthésie-réanimation;Cabinet d'anesthésie;182;20250131120000;;20250131120000
-1.2.250.1.213.3.3.39;Cabinet de ville de cardiologie;Cabinet de ville de cardiologie;Cabinet de cardiologie;183;20250131120000;;20250131120000
-1.2.250.1.213.3.3.39;Cabinet de ville de chirurgie orthopédique et traumatologique;Cabinet de ville de chirurgie orthopédique et traumatologique;Cabinet de chirurgie ortho.;184;20250131120000;;20250131120000
-1.2.250.1.213.3.3.39;Cabinet de ville de chirurgie pédiatrique;Cabinet de ville de chirurgie pédiatrique;Cabinet de chirurgie péd.;185;20250131120000;;20250131120000
-1.2.250.1.213.3.3.39;Cabinet de ville de chirurgie plastique;Cabinet de ville de chirurgie plastique;Cabinet de chirurgie plastique;186;20250131120000;;20250131120000
-1.2.250.1.213.3.3.39;Cabinet de ville de chirurgie thoracique et cardiovasculaire;Cabinet de ville de chirurgie thoracique et cardiovasculaire;Cabinet de chir. cardiovasc.;187;20250131120000;;20250131120000
-1.2.250.1.213.3.3.39;Cabinet de ville de chirurgie vasculaire;Cabinet de ville de chirurgie vasculaire;Cabinet de chir vasculaire;188;20250131120000;;20250131120000
-1.2.250.1.213.3.3.39;Cabinet de ville de chirurgie viscérale et digestive;Cabinet de ville de chirurgie viscérale et digestive;Cabinet de chir. viscérale;189;20250131120000;;20250131120000
-1.2.250.1.213.3.3.39;Cabinet de ville de dermatologie;Cabinet de ville de dermatologie;Cabinet de dermatologie;190;20250131120000;;20250131120000
-1.2.250.1.213.3.3.39;Cabinet de ville de diététique;Cabinet de ville de diététique;Cabinet de diététique;191;20250131120000;;20250131120000
-1.2.250.1.213.3.3.39;Cabinet de ville de génétique médicale;Cabinet de ville de génétique médicale;Cabinet de génétique médicale;192;20250131120000;;20250131120000
-1.2.250.1.213.3.3.39;Cabinet de ville de gériatrie;Cabinet de ville de gériatrie;Cabinet de gériatrie;193;20250131120000;;20250131120000
-1.2.250.1.213.3.3.39;Cabinet de ville de gynécologie;Cabinet de ville de gynécologie;Cabinet de gynécologie;194;20250131120000;;20250131120000
-1.2.250.1.213.3.3.39;Cabinet de ville de kinésithérapie;Cabinet de ville de kinésithérapie;Cabinet de kinésithérapie;195;20250131120000;;20250131120000
-1.2.250.1.213.3.3.39;Cabinet de ville de médecine générale;Cabinet de ville de médecine générale;Cabinet de médecine générale;196;20250131120000;;20250131120000
-1.2.250.1.213.3.3.39;Cabinet de ville de médecine interne;Cabinet de ville de médecine interne;Cabinet de médecine interne;197;20250131120000;;20250131120000
-1.2.250.1.213.3.3.39;Cabinet de ville de médecine légale et expertise médicale;Cabinet de ville de médecine légale et expertise médicale;Cabinet de médecine légale;198;20250131120000;;20250131120000
-1.2.250.1.213.3.3.39;Cabinet de ville de médecine nucléaire;Cabinet de ville de médecine nucléaire;Cabinet de médecine nucléaire;199;20250131120000;;20250131120000
-1.2.250.1.213.3.3.39;Cabinet de ville de médecine physique et réadaptation (MPR);Cabinet de ville de médecine physique et réadaptation (MPR);Cabinet de MPR;200;20250131120000;;20250131120000
-1.2.250.1.213.3.3.39;Cabinet de ville de médecine vasculaire;Cabinet de ville de médecine vasculaire;Cabinet de médecine vasculaire;201;20250131120000;;20250131120000
-1.2.250.1.213.3.3.39;Cabinet de ville de néphrologie;Cabinet de ville de néphrologie;Cabinet de néphrologie;202;20250131120000;;20250131120000
-1.2.250.1.213.3.3.39;Cabinet de ville de neurochirurgie;Cabinet de ville de neurochirurgie;Cabinet de neurochirurgie;203;20250131120000;;20250131120000
-1.2.250.1.213.3.3.39;Cabinet de ville de neurologie;Cabinet de ville de neurologie;Cabinet de neurologie;204;20250131120000;;20250131120000
-1.2.250.1.213.3.3.39;Cabinet de ville de pédiatrie;Cabinet de ville de pédiatrie;Cabinet de pédiatrie;205;20250131120000;;20250131120000
-1.2.250.1.213.3.3.39;Cabinet de ville de pédicure-podologie;Cabinet de ville de pédicure-podologie;Cabinet de pédicure-podologie;206;20250131120000;;20250131120000
-1.2.250.1.213.3.3.39;Cabinet de ville de pneumologie;Cabinet de ville de pneumologie;Cabinet de pneumologie;207;20250131120000;;20250131120000
-1.2.250.1.213.3.3.39;Cabinet de ville de psychiatrie;Cabinet de ville de psychiatrie;Cabinet de psychiatrie;208;20250131120000;;20250131120000
-1.2.250.1.213.3.3.39;Cabinet de ville de psychologie;Cabinet de ville de psychologie;Cabinet de psychologie;209;20250131120000;;20250131120000
-1.2.250.1.213.3.3.39;Cabinet de ville de psychomotricité;Cabinet de ville de psychomotricité;Cabinet de psychomotricité;210;20250131120000;;20250131120000
-1.2.250.1.213.3.3.39;Cabinet de ville de radiologie;Cabinet de ville de radiologie;Cabinet de radiologie;211;20250131120000;;20250131120000
-1.2.250.1.213.3.3.39;Cabinet de ville de rhumatologie;Cabinet de ville de rhumatologie;Cabinet de rhumatologie;212;20250131120000;;20250131120000
-1.2.250.1.213.3.3.39;Cabinet de ville de sages-femmes;Cabinet de ville de sages-femmes;Cabinet de sages-femmes;213;20250131120000;;20250131120000
-1.2.250.1.213.3.3.39;Cabinet de ville de stomatologie, chirurgie orale et maxillo faciale;Cabinet de ville de stomatologie, chirurgie orale et maxillo faciale;Cabinet de stomatologie;214;20250131120000;;20250131120000
-1.2.250.1.213.3.3.39;Cabinet de ville d'endocrinologie, diabétologie et nutrition;Cabinet de ville d'endocrinologie, diabétologie et nutrition;Cabinet d'endocrinologie;215;20250131120000;;20250131120000
-1.2.250.1.213.3.3.39;Cabinet de ville d'ergothérapie;Cabinet de ville d'ergothérapie;Cabinet d'ergothérapie;216;20250131120000;;20250131120000
-1.2.250.1.213.3.3.39;Cabinet de ville des maladies infectieuses et tropicales (MIT);Cabinet de ville des maladies infectieuses et tropicales (MIT);Cabinet des MIT;217;20250131120000;;20250131120000
-1.2.250.1.213.3.3.39;Cabinet de ville d'hématologie;Cabinet de ville d'hématologie;Cabinet d'hématologie;218;20250131120000;;20250131120000
-1.2.250.1.213.3.3.39;Cabinet de ville d'hépato-gastro-entérologie;Cabinet de ville d'hépato-gastro-entérologie;Cabinet de HGE;219;20250131120000;;20250131120000
-1.2.250.1.213.3.3.39;Cabinet de ville d'oncologie;Cabinet de ville d'oncologie;Cabinet d'oncologie;220;20250131120000;;20250131120000
-1.2.250.1.213.3.3.39;Cabinet de ville d'ophtalmologie;Cabinet de ville d'ophtalmologie;Cabinet d'ophtalmologie;221;20250131120000;;20250131120000
-1.2.250.1.213.3.3.39;Cabinet de ville d'orthophonie;Cabinet de ville d'orthophonie;Cabinet d'orthophonie;222;20250131120000;;20250131120000
-1.2.250.1.213.3.3.39;Cabinet de ville d'orthoptie;Cabinet de ville d'orthoptie;Cabinet d'orthoptie;223;20250131120000;;20250131120000
-1.2.250.1.213.3.3.39;Cabinet de ville d'urologie;Cabinet de ville d'urologie;Cabinet d'urologie;224;20250131120000;;20250131120000
-1.2.250.1.213.3.3.39;Cabinet de ville infirmier;Cabinet de ville infirmier;Cabinet infirmier;225;20250131120000;;20250131120000
-1.2.250.1.213.3.3.39;Cabinet dentaire de chirurgie dentaire;Cabinet dentaire de chirurgie dentaire;Cabinet de chirurgie dentaire;226;20250131120000;;20250131120000
-1.2.250.1.213.3.3.39;Cabinet dentaire de chirurgie orale;Cabinet dentaire de chirurgie orale;Cabinet de chirurgie orale;227;20250131120000;;20250131120000
-1.2.250.1.213.3.3.39;Cabinet dentaire de médecine bucco-dentaire;Cabinet dentaire de médecine bucco-dentaire;Cabinet de méd. bucco-dentaire;228;20250131120000;;20250131120000
-1.2.250.1.213.3.3.39;Cabinet dentaire d'orthopédie dento-faciale;Cabinet dentaire d'orthopédie dento-faciale;Cabinet d'ortho. dento-faciale;229;20250131120000;;20250131120000
-1.2.250.1.213.3.3.39;Unité hospitalière d'anatomo-cytopathologie;Unité hospitalière d'anatomo-cytopathologie;Unité d'anatomopathologie;230;20250131120000;;20250328120000
-1.2.250.1.213.3.3.39;Unité hospitalière de médecine du sport;Unité hospitalière de médecine du sport;Unité de médecine du sport;231;20250131120000;;20250131120000
-1.2.250.1.213.3.3.39;Unité hospitalière de médecine légale et expertise médicale;Unité hospitalière de médecine légale et expertise médicale;Unité de médecine légale;232;20250131120000;;20250131120000
-1.2.250.1.213.3.3.39;Unité hospitalière de médecine physique et réadaptation (MPR);Unité hospitalière de médecine physique et réadaptation (MPR);Unité de MPR;233;20250131120000;;20250131120000
-1.2.250.1.213.3.3.39;Unité hospitalière d'urologie;Unité hospitalière d'urologie;Unité d'urologie;234;20250131120000;;20250131120000
-1.2.250.1.213.3.3.39;Unité hospitalière de médecine générale;Unité hospitalière de médecine générale;Unité de médecine générale;235;20250131120000;;20250131120000
-1.2.250.1.213.3.3.39;Unité hospitalière d'orthopédie dento-faciale (odontologie);Unité hospitalière d'orthopédie dento-faciale (odontologie);Unité d'odontologie;236;20250131120000;;20250131120000
-1.2.250.1.213.3.3.39;Unité hospitalière d'anesthésie;Unité hospitalière d'anesthésie;Unité d'anesthésie;237;20250131120000;;20250131120000
-1.2.250.1.213.3.3.39;Unité de médecine polyvalente;Unité de médecine polyvalente;Unité de médecine polyvalente;238;20250131120000;;20250131120000
-1.2.250.1.213.3.3.39;Unité hospitalière de médecine nucléaire;Unité hospitalière de médecine nucléaire;Unité de médecine nucléaire;239;20250131120000;;20250131120000
-1.2.250.1.213.3.3.39;Unité hospitalière de médecine du travail;Unité hospitalière de médecine du travail;Unité de médecine du travail;240;20250131120000;;20250131120000
-1.2.250.1.213.3.3.39;Unité hospitalière de chirurgie pédiatrique;Unité hospitalière de chirurgie pédiatrique;Unité de chir. Pédiatrique;241;20250131120000;;20250131120000
-1.2.250.1.213.3.3.39;Unité hospitalière de chirurgie plastique, reconstructrice et esthétique;Unité hospitalière de chirurgie plastique, reconstructrice et esthétique;Unité de chirurgie plastique;242;20250131120000;;20250131120000
-1.2.250.1.213.3.3.39;Cabinet de ville de médecine intensive et réanimation (MIR);Cabinet de ville de médecine intensive et réanimation (MIR);Cabinet de MIR;243;20250131120000;;20250131120000
-1.2.250.1.213.3.3.39;Equipe Mobile d'Expertise en Réadaptation (EMER) neuro-locomoteur;Equipe Mobile d'Expertise en Réadaptation (EMER) neuro-locomoteur;EMER;244;20250328120000;;20250328120000
-1.2.250.1.213.3.3.39;Centre expert en maladies rares;Centre expert en maladies rares;Centre expert maladies rares;245;20250328120000;;20250328120000
-1.2.250.1.213.3.3.39;Service d'Aide Médicale Urgente (SAMU);Service d'Aide Médicale Urgente (SAMU);SAMU;246;20250328120000;;20250328120000
-1.2.250.1.213.3.3.39;Structure Mobile d'Urgence et de Réanimation (SMUR);Structure Mobile d'Urgence et de Réanimation (SMUR);SMUR;247;20250328120000;;20250328120000
-1.2.250.1.213.3.3.39;Unité de biologie;Unité de biologie;Unité de biologie;248;20250328120000;;20250328120000
-1.2.250.1.213.3.3.39;Unité de Soins de Longue Durée (USLD);Unité de Soins de Longue Durée (USLD);USLD;249;20250328120000;;20250328120000
-1.2.250.1.213.3.3.39;Centres Gratuits d'Information, de Dépistage et de Diagnostic (CeGIDD);Centres Gratuits d'Information, de Dépistage et de Diagnostic (CeGIDD);CeGIDD;250;20250328120000;;20250328120000
-1.2.250.1.213.3.3.39;Centre Périnatal de Proximité (CPP);Centre Périnatal de Proximité (CPP);CPP;251;20250328120000;;20250328120000
-1.2.250.1.213.3.3.39;Equipes Mobiles de Soins Palliatifs (EMSP);Equipes Mobiles de Soins Palliatifs (EMSP);EMSP;252;20250328120000;;20250328120000
-1.2.250.1.213.3.3.39;Equipe Ressource Régionale de Soins Palliatifs Pédiatriques (ERRSPP);Equipe Ressource Régionale de Soins Palliatifs Pédiatriques (ERRSPP);ERRSPP;253;20250328120000;;20250328120000
-1.2.250.1.213.3.3.39;Unité de surveillance continue;Unité de surveillance continue;Unité de surveillance continue;254;20250328120000;;20250328120000
+1.2.250.1.213.3.3.39;01;Appartement thérapeutique;Appartement thérapeutique;Appartement thérapeutique;20171013120000;;20171013120000
+1.2.250.1.213.3.3.39;02;Atelier thérapeutique;Atelier thérapeutique;Atelier thérapeutique;20171013120000;;20171013120000
+1.2.250.1.213.3.3.39;03;Cellule d'Urgences Médico-Psychologique (CUMP);Cellule d'Urgences Médico-Psychologique (CUMP);CUMP;20171013120000;;20171013120000
+1.2.250.1.213.3.3.39;04;Centre d'Accueil Permanent (CAP);Centre d'Accueil Permanent (CAP);CAP;20171013120000;;20171013120000
+1.2.250.1.213.3.3.39;05;Centre d'Accueil Thérapeutique à Temps Partiel (CATTP);Centre d'Accueil Thérapeutique à Temps Partiel (CATTP);CATTP;20171013120000;;20171013120000
+1.2.250.1.213.3.3.39;06;Centre de crise;Centre de crise;Centre de crise;20171013120000;;20171013120000
+1.2.250.1.213.3.3.39;07;Centre de post-cure;Centre de post-cure;Centre de post-cure;20171013120000;;20171013120000
+1.2.250.1.213.3.3.39;08;Centre de Ressources Autisme (CRA);Centre de Ressources Autisme (CRA);CRA;20171013120000;;20171013120000
+1.2.250.1.213.3.3.39;09;Centre Expert;Centre Expert;Centre Expert;20171013120000;;20171013120000
+1.2.250.1.213.3.3.39;10;Centre Médico-Psychologique (CMP);Centre Médico-Psychologique (CMP);CMP;20171013120000;;20171013120000
+1.2.250.1.213.3.3.39;11;Hôpital De Jour (HDJ);Hôpital De Jour (HDJ);HDJ;20171013120000;;20171013120000
+1.2.250.1.213.3.3.39;12;Hôpital De Nuit (HDN);Hôpital De Nuit (HDN);HDN;20171013120000;;20171013120000
+1.2.250.1.213.3.3.39;13;Service d'Accueil Familial Thérapeutique;Service d'Accueil Familial Thérapeutique;Service Accueil Famil Thérap;20171013120000;;20171013120000
+1.2.250.1.213.3.3.39;14;Service Médico-Psychologique Régional (SMPR);Service Médico-Psychologique Régional (SMPR);SMPR;20171013120000;;20171013120000
+1.2.250.1.213.3.3.39;15;Unité de Soins Intensifs Psychiatriques (USIP);Unité de Soins Intensifs Psychiatriques (USIP);USIP;20171013120000;;20171013120000
+1.2.250.1.213.3.3.39;16;Unité d'hospitalisation (hors HDJ);Unité d'hospitalisation (hors HDJ);Unité d'hosp (hors HDJ);20171013120000;;20171013120000
+1.2.250.1.213.3.3.39;17;Unité Hospitalière Spécialement Aménagé (UHSA);Unité Hospitalière Spécialement Aménagé (UHSA);UHSA;20171013120000;;20171013120000
+1.2.250.1.213.3.3.39;18;Unité Malade Difficile (UMD);Unité Malade Difficile (UMD);UMD;20171013120000;;20171013120000
+1.2.250.1.213.3.3.39;19;Unités Soins Etudes;Unités Soins Etudes;Unités Soins Etudes;20171013120000;;20171013120000
+1.2.250.1.213.3.3.39;20;Unité d'urgences;Unité d'urgences;Unité d'urgences;20171013120000;;20250328120000
+1.2.250.1.213.3.3.39;21;Accueil ou hébergement pour personnes âgées dépendantes, sans spécificité;Accueil ou hébergement pour personnes âgées dépendantes, sans spécificité;Acc PA sans spécificité;20180126120000;;20180126120000
+1.2.250.1.213.3.3.39;22;Accueil ou hébergement pour personnes âgées autonomes, sans spécificité;Accueil ou hébergement pour personnes âgées autonomes, sans spécificité;Acc PH sans spécificité;20180126120000;;20180126120000
+1.2.250.1.213.3.3.39;23;Accueil ou hébergement pour personnes âgées dépendantes, avec spécificité Unité d'Hébergement Renforcé (UHR);Accueil pour personnes âgées dépendantes, avec spécificité UHR;Acc PA spé UHR;20180126120000;;20180126120000
+1.2.250.1.213.3.3.39;24;Accueil ou hébergement pour personnes âgées dépendantes, avec spécificité Unité de vie protégée (UVP, Cantou,...);Accueil pour personnes âgées dépendantes, avec spécificité Unité de vie protégée;Acc PA spé UVP;20180126120000;;20180126120000
+1.2.250.1.213.3.3.39;25;Pôle d'activité de Soins Adaptés (PASA);Pôle d'activité de Soins Adaptés (PASA);PASA;20180126120000;;20210326120000
+1.2.250.1.213.3.3.39;26;Accueil ou hébergement pour personnes âgées dépendantes, avec spécificité Petites unités de vie (PUV);Accueil ou hébergement personnes âgées dépendantes, avec spécificité PUV;Acc PA spé PUV;20180126120000;;20180126120000
+1.2.250.1.213.3.3.39;27;Accueil ou hébergement pour personnes âgées autonomes, avec spécificité Maison d'accueil rural (MARPA);Accueil pour personnes âgées autonomes, avec spécificité MARPA;Acc PA spé MARPA;20180126120000;;20180126120000
+1.2.250.1.213.3.3.39;28;Services Soins infirmiers à domicile (SSIAD);Services Soins infirmiers à domicile (SSIAD);SSIAD;20180126120000;;20180126120000
+1.2.250.1.213.3.3.39;29;Equipe spécialisée Alzheimer (ESA);Equipe spécialisée Alzheimer (ESA);ESA;20180126120000;;20180126120000
+1.2.250.1.213.3.3.39;30;Service autonomie à domicile (SAD) aide;Service autonomie à domicile (SAD) aide;SAD aide;20180126120000;;20240927120000
+1.2.250.1.213.3.3.39;31;Service d'Accompagnement à la Vie Sociale (SAVS);Service d'Accompagnement à la Vie Sociale (SAVS);SAVS;20180126120000;;20180126120000
+1.2.250.1.213.3.3.39;32;Service d'accompagnement médico-social adultes handicapés (SAMSAH);Service d'accompagnement médico-social adultes handicapés (SAMSAH);SAMSAH;20180126120000;;20180126120000
+1.2.250.1.213.3.3.39;33;Service de portage de repas à domicile;Service de portage de repas à domicile;Portage de repas à domicile;20180126120000;;20180126120000
+1.2.250.1.213.3.3.39;34;Service de Téléassistance;Service de Téléassistance;Service de Téléassistance;20180126120000;;20180126120000
+1.2.250.1.213.3.3.39;35;Foyer restaurant;Foyer restaurant;Foyer restaurant;20180126120000;;20180126120000
+1.2.250.1.213.3.3.39;36;Dispositif d'accueil familial;Dispositif d'accueil familial;Dispositif d'accueil familial;20180126120000;;20180126120000
+1.2.250.1.213.3.3.39;37;Centre d'accueil familial spécialisé (CAFS);Centre d'accueil familial spécialisé (CAFS);CAFS;20180126120000;;20180126120000
+1.2.250.1.213.3.3.39;38;Plateforme d'accompagnement et de répit;Plateforme d'accompagnement et de répit;Plat accompagnement et répit;20180126120000;;20180126120000
+1.2.250.1.213.3.3.39;39;Foyer ou établissement d'accueil médicalisé (FAM ou EAM);Foyer ou établissement d'accueil médicalisé (FAM ou EAM);FAM ou EAM;20180126120000;;20190329120000
+1.2.250.1.213.3.3.39;40;Maison d'accueil spécialisée (MAS);Maison d'accueil spécialisée (MAS);MAS;20180126120000;;20240426120000
+1.2.250.1.213.3.3.39;41;Etablissement d'accueil non médicalisé (EANM) dont foyer de vie et foyer d'hébergement;EANM dont foyer de vie et foyer d'hébergement;EANM, foyer de vie/foyer d'héb;20180126120000;;20190329120000
+1.2.250.1.213.3.3.39;42;Foyer d'hébergement (Etablissement d'accueil non médicalisé);Foyer d'hébergement (Etablissement d'accueil non médicalisé);Foyer d'hébergement;20180126120000;20190329120000;20190329120000
+1.2.250.1.213.3.3.39;43;Unité d'aide par le travail (ESAT);Unité d'aide par le travail (ESAT);ESAT;20180126120000;;20180126120000
+1.2.250.1.213.3.3.39;44;Etablissements et Service de Réadaptation Professionnelle (ESRP);Etablissements et Service de Réadaptation Professionnelle (ESRP);ESRP;20180126120000;;20250131120000
+1.2.250.1.213.3.3.39;45;Unités évaluation réentraînement et d'orientation sociale et professionnel (UEROS);Unités évaluation réentraînement et orientation sociale et professionnel (UEROS);UEROS;20180126120000;;20180126120000
+1.2.250.1.213.3.3.39;46;Établissements et Services de Pré-Orientation (ESPO);Établissements et Services de Pré-Orientation (ESPO);ESPO;20180126120000;;20230526120000
+1.2.250.1.213.3.3.39;47;Plateforme Emploi Accompagné (PEA);Plateforme Emploi Accompagné (PEA);PEA;20180126120000;;20241025120000
+1.2.250.1.213.3.3.39;48;Institut médico-éducatif (IME);Institut médico-éducatif (IME);IME;20180126120000;;20180126120000
+1.2.250.1.213.3.3.39;49;Institut d'éducation motrice (IEM);Institut d'éducation motrice (IEM);IEM;20180126120000;;20180126120000
+1.2.250.1.213.3.3.39;50;Institut thérapeutique éducatif et pédagogique (ITEP);Institut thérapeutique éducatif et pédagogique (ITEP);ITEP;20180126120000;;20180126120000
+1.2.250.1.213.3.3.39;51;Etablissement pour enfant ou ado polyhandicapé (EEAP);Etablissement pour enfant ou ado polyhandicapé (EEAP);EEAP;20180126120000;;20180126120000
+1.2.250.1.213.3.3.39;52;Institut déficient visuel;Institut déficient visuel;Institut déficient visuel;20180126120000;;20180126120000
+1.2.250.1.213.3.3.39;53;Institut déficient auditif;Institut déficient auditif;Institut déficient auditif;20180126120000;;20180126120000
+1.2.250.1.213.3.3.39;54;Institut déficient Visuel et Auditif;Institut déficient Visuel et Auditif;Institut déficient Vis et Aud;20180126120000;;20180126120000
+1.2.250.1.213.3.3.39;55;Unité d'enseignement interne;Unité d'enseignement interne;Unité d'enseignement interne;20180126120000;;20180126120000
+1.2.250.1.213.3.3.39;56;Unité d'enseignement externalisée;Unité d'enseignement externalisée;Unité d'enseignement ext.;20180126120000;;20240426120000
+1.2.250.1.213.3.3.39;57;Service d'accompagnement, Service d'Education Spécialisée de Soins à Domicile (SESSAD);Service d'Education Spécialisée de Soins à Domicile (SESSAD);SESSAD;20180126120000;;20180126120000
+1.2.250.1.213.3.3.39;58;Service d'accompagnement, Service d'Accompagnement Familial et d'Education Précoce (SAFEP);Service d'Accompagnement Familial et d'Education Précoce (SAFEP);SAFEP;20180126120000;;20180126120000
+1.2.250.1.213.3.3.39;59;Service d'accompagnement, Services de Soutien à l'Education Familiale et à la Scolarisation (SSEFIS);Services de Soutien à l'Education Familiale et à la Scolarisation (SSEFIS);SSEFIS;20180126120000;;20180126120000
+1.2.250.1.213.3.3.39;60;Service d'accompagnement, Service d'Aide à l'Acquisition de l'Autonomie et à l'Intégration Scolaire (S3AIS);Serv Aide à l'Acquisition de l'Autono et à l'Intégration Sco (S3AIS);S3AIS;20180126120000;;20180126120000
+1.2.250.1.213.3.3.39;61;Centre d'action médico-sociale précoce (CAMSP);Centre d'action médico-sociale précoce (CAMSP);CAMSP;20180126120000;;20180126120000
+1.2.250.1.213.3.3.39;62;Centre médico-psycho-pédagogique (CMPP);Centre médico-psycho-pédagogique (CMPP);CMPP;20180126120000;;20180126120000
+1.2.250.1.213.3.3.39;63;Jardin d'enfants spécialisé;Jardin d'enfants spécialisé;Jardin d'enfants spécialisé;20180126120000;;20180126120000
+1.2.250.1.213.3.3.39;64;Bureau d'Aide Psychologique Universitaire (B.A.P.U.);Bureau d'Aide Psychologique Universitaire (B.A.P.U.);BAPU;20180126120000;;20230526120000
+1.2.250.1.213.3.3.39;65;Pôles de compétences et de prestations externalisées (PCPE);Pôles de compétences et de prestations externalisées (PCPE);PCPE;20180126120000;;20180126120000
+1.2.250.1.213.3.3.39;66;Equipe Relai Handicap rare;Equipe Relai Handicap rare;Equipe Relai Handicap rare;20180126120000;;20180126120000
+1.2.250.1.213.3.3.39;67;Lieu de vie et d'accueil (hors ESMS);Lieu de vie et d'accueil (hors ESMS);Lieu de vie et d'accueil;20180126120000;;20180126120000
+1.2.250.1.213.3.3.39;68;Unité d'hospitalisation fermée;Unité d'hospitalisation fermée;Unité d'hospitalisation fermée;20180126120000;;20180126120000
+1.2.250.1.213.3.3.39;69;Consultation externe en établissement de santé;Consultation externe en établissement de santé;Consult ext étab de santé;20180126120000;;20180126120000
+1.2.250.1.213.3.3.39;70;Unité d'intervention extra-hospitalière;Unité d'intervention extra-hospitalière;Unité intervention extra-hosp;20180126120000;;20180228120000
+1.2.250.1.213.3.3.39;71;Equipe de liaison et de soins (intra-hospitalière);Equipe de liaison et de soins (intra-hospitalière);Equipe de liaison et de soins;20180126120000;;20180126120000
+1.2.250.1.213.3.3.39;72;Guichet d'accueil, écoute, conseil, orientation;Guichet d'accueil, écoute, conseil, orientation;Guichet d'acc/écoute/conseil;20180531120000;;20180531120000
+1.2.250.1.213.3.3.39;73;Gestion de cas MAIA;Gestion de cas MAIA;Gestion de cas MAIA;20180531120000;;20180531120000
+1.2.250.1.213.3.3.39;74;Logement inclusif;Logement inclusif;Logement inclusif;20180531120000;;20180531120000
+1.2.250.1.213.3.3.39;75;Services Soins infirmiers à domicile renforcé (SSIAD renforcé);Services Soins infirmiers à domicile renforcé (SSIAD renforcé);SSIAD renforcé;20180531120000;;20180531120000
+1.2.250.1.213.3.3.39;76;Unité d'évaluation et de régulation des admissions en psychiatrie;Unité d'évaluation et de régulation des admissions en psychiatrie;Unité d'éval et de régul;20180629120000;;20180629120000
+1.2.250.1.213.3.3.39;77;Equipe Mobile Psychiatrie et Précarité (EMPP);Equipe Mobile Psychiatrie et Précarité (EMPP);EMPP;20190705120000;;20190705120000
+1.2.250.1.213.3.3.39;78;Equipe Mobile Géronto-Psychiatrie (EMGP);Equipe Mobile Géronto-Psychiatrie (EMGP);EMGP;20190705120000;;20190705120000
+1.2.250.1.213.3.3.39;79;Equipe Mobile Ambulatoire de Réadaptation Spécialisé (EARS);Equipe Mobile Ambulatoire de Réadaptation Spécialisé (EARS);EARS;20190705120000;;20190705120000
+1.2.250.1.213.3.3.39;80;Centre de Soins, d'Accompagnement et de Prévention en Addictologie (CSAPA);Centre de Soins, d'Accompagnement et de Prévention en Addictologie (CSAPA);CSAPA;20190705120000;;20190705120000
+1.2.250.1.213.3.3.39;81;Centre d'Accueil et d'Accompagnement à la Réduction des risques pour Usagers de Drogues (CAARUD);CAARUD;CAARUD;20190705120000;;20190705120000
+1.2.250.1.213.3.3.39;82;Pharmacie à Usage Intérieur (PUI);Pharmacie à Usage Intérieur (PUI);PUI;20190705120000;;20190705120000
+1.2.250.1.213.3.3.39;83;Chambre mortuaire;Chambre mortuaire;Chambre mortuaire;20190705120000;;20190705120000
+1.2.250.1.213.3.3.39;84;Plateforme de Coordination et d'Orientation (PCO);Plateforme de Coordination et d'Orientation (PCO);PCO;20210326120000;;20210326120000
+1.2.250.1.213.3.3.39;85;Equipe Mobile Autisme;Equipe Mobile Autisme;Equipe Mobile Autisme;20210326120000;;20210326120000
+1.2.250.1.213.3.3.39;86;Consultation Jeune Consommateur (CJC);Consultation Jeune Consommateur (CJC);CJC;20220429120000;;20220429120000
+1.2.250.1.213.3.3.39;87;Dispositif VigilanS;Dispositif VigilanS;Dispositif VigilanS;20220624120000;;20220624120000
+1.2.250.1.213.3.3.39;88;Dispositif expérimental;Dispositif expérimental;Dispositif expérimental;20221028120000;;20221028120000
+1.2.250.1.213.3.3.39;89;Centre de santé sexuelle;Centre de santé sexuelle;Centre de santé sexuelle;20221028120000;;20221028120000
+1.2.250.1.213.3.3.39;90;Equipe mobile de prévention du risque infectieux;Equipe mobile de prévention du risque infectieux;Equipe mob de prév risque inf;20221028120000;;20221028120000
+1.2.250.1.213.3.3.39;91;Equipe opérationnelle d'hygiène (EOH);Equipe opérationnelle d'hygiène (EOH);EOH;20221028120000;;20221028120000
+1.2.250.1.213.3.3.39;92;Soins non programmés de ville;Soins non programmés de ville;Soins non programmés de ville;20221028120000;;20250328120000
+1.2.250.1.213.3.3.39;93;Lits halte soins santé (LHSS);Lits halte soins santé (LHSS);LHSS;20230127120000;;20230127120000
+1.2.250.1.213.3.3.39;94;Appartement de coordination thérapeutique (ACT);Appartement de coordination thérapeutique (ACT);ACT;20230127120000;;20230127120000
+1.2.250.1.213.3.3.39;95;Lits d'accueil médicalisés (L.A.M.);Lits d'accueil médicalisés (L.A.M.);LAM;20230127120000;;20230526120000
+1.2.250.1.213.3.3.39;96;Etablissement d'accueil non médicalisé (EANM) - foyer d'hébergement (classique ou en milieu ouvert);Etablissement d'accueil non médicalisé (EANM) - foyer d'hébergement;EANM - foyer d'hébergement;20230127120000;;20230127120000
+1.2.250.1.213.3.3.39;97;Etablissement d'accueil non médicalisé (EANM) - foyer de vie;Etablissement d'accueil non médicalisé (EANM) - foyer de vie;EANM - foyer de vie;20230127120000;;20230127120000
+1.2.250.1.213.3.3.39;98;Espaces de vie affective, relationnelle et sexuelle (EVARS);Espaces de vie affective, relationnelle et sexuelle (EVARS);EVARS;20230127120000;;20230127120000
+1.2.250.1.213.3.3.39;99;Maison de santé pluriprofessionnelle (MSP);Maison de santé pluriprofessionnelle (MSP);MSP;20230127120000;;20230127120000
+1.2.250.1.213.3.3.39;100;Soins Médicaux et de Réadaptation (SMR) polyvalent;Soins Médicaux et de Réadaptation (SMR) polyvalent;SMR Polyvalent;20230127120000;;20230127120000
+1.2.250.1.213.3.3.39;101;Soins Médicaux et de Réadaptation (SMR) gériatrie;Soins Médicaux et de Réadaptation (SMR) gériatrie;SMR Gériatrie;20230127120000;;20230127120000
+1.2.250.1.213.3.3.39;102;Soins Médicaux et de Réadaptation (SMR) locomoteur;Soins Médicaux et de Réadaptation (SMR) locomoteur;SMR Locomoteur;20230127120000;;20230127120000
+1.2.250.1.213.3.3.39;103;Soins Médicaux et de Réadaptation (SMR) système nerveux;Soins Médicaux et de Réadaptation (SMR) système nerveux;SMR Système Nerveux;20230127120000;;20230127120000
+1.2.250.1.213.3.3.39;104;Soins Médicaux et de Réadaptation (SMR) cardio-vasculaire;Soins Médicaux et de Réadaptation (SMR) cardio-vasculaire;SMR Cardio-Vasculaire;20230127120000;;20230127120000
+1.2.250.1.213.3.3.39;105;Soins Médicaux et de Réadaptation (SMR) pneumologie;Soins Médicaux et de Réadaptation (SMR) pneumologie;SMR Pneumologie;20230127120000;;20230127120000
+1.2.250.1.213.3.3.39;106;Soins Médicaux et de Réadaptation (SMR) système digestif, endocrinologie, diabétologie, nutrition;Soins Médicaux et de Réadaptation (SMR) sys dig, endocrino, diabéto, nutrition;SMR Sys dig, endo, diab, nut;20230127120000;;20230127120000
+1.2.250.1.213.3.3.39;107;Soins Médicaux et de Réadaptation (SMR) brûlés;Soins Médicaux et de Réadaptation (SMR) brûlés;SMR Brûlés;20230127120000;;20230127120000
+1.2.250.1.213.3.3.39;108;Soins Médicaux et de Réadaptation (SMR) conduites addictives;Soins Médicaux et de Réadaptation (SMR) conduites addictives;SMR Conduites Addictives;20230127120000;;20230127120000
+1.2.250.1.213.3.3.39;109;Soins Médicaux et de Réadaptation (SMR) pédiatriques (enfants et adolescents);Soins Médicaux et de Réadaptation (SMR) pédiatriques (enfants et adolescents);SMR Pédiatrique (Enf et Ado);20230127120000;;20230127120000
+1.2.250.1.213.3.3.39;110;Soins Médicaux et de Réadaptation (SMR) pédiatriques (jeunes enfants, enfants et adolescents);Soins Médicaux et de Réadaptation (SMR) pédiatriques (jeunes enfants, enf, ado);SMR Péd (Jeunes Enf, Enf, Ado);20230127120000;;20230127120000
+1.2.250.1.213.3.3.39;111;Soins Médicaux et de Réadaptation (SMR) oncologie;Soins Médicaux et de Réadaptation (SMR) oncologie;SMR Oncologie;20230127120000;;20230127120000
+1.2.250.1.213.3.3.39;112;Soins Médicaux et de Réadaptation (SMR) oncologie et hématologie;Soins Médicaux et de Réadaptation (SMR) oncologie et hématologie;SMR Oncologie Et Hématologie;20230127120000;;20230127120000
+1.2.250.1.213.3.3.39;113;Centre de Réhabilitation Psychosociale;Centre de Réhabilitation Psychosociale;Centre de Réhab Psychosociale;20230526120000;;20230526120000
+1.2.250.1.213.3.3.39;114;Centre Ressource pour les Intervenants auprès des Auteurs de Violences Sexuelles (CRIAVS);Centre Ressource pour les Interv. auprès des Aut. de Violences Sex. (CRIAVS);CRIAVS;20230526120000;;20230526120000
+1.2.250.1.213.3.3.39;115;Equipe Spécialisée de Soins Infirmiers Précarité (ESSIP);Equipe Spécialisée de Soins Infirmiers Précarité (ESSIP);ESSIP;20230630120000;;20230630120000
+1.2.250.1.213.3.3.39;116;Unité de chirurgie oncologique;Unité de chirurgie oncologique;Unité de chirurgie oncologique;20231030120000;;20231030120000
+1.2.250.1.213.3.3.39;117;Unité de radiothérapie;Unité de radiothérapie;Unité de radiothérapie;20231030120000;;20231030120000
+1.2.250.1.213.3.3.39;118;Unité de traitements médicamenteux systémiques du cancer;Unité de traitements médicamenteux systémiques du cancer;Unité trtmt médic syst cancer;20231030120000;;20231030120000
+1.2.250.1.213.3.3.39;119;Unité mère-enfant;Unité mère-enfant;Unité mère-enfant;20231030120000;;20231030120000
+1.2.250.1.213.3.3.39;120;Centre de recours Troubles du Comportement Alimentaire (TCA);Centre de recours Troubles du Comportement Alimentaire (TCA);Centre de recours TCA;20240126120000;;20240126120000
+1.2.250.1.213.3.3.39;121;Unité de réanimation;Unité de réanimation;Unité de réanimation;20240126120000;;20240126120000
+1.2.250.1.213.3.3.39;122;Unité de soins intensifs polyvalents (USIP) contiguë;Unité de soins intensifs polyvalents (USIP) contiguë;USIP contiguë;20240126120000;;20240126120000
+1.2.250.1.213.3.3.39;123;Unité de soins intensifs polyvalents (USIP) dérogatoire;Unité de soins intensifs polyvalents (USIP) dérogatoire;USIP dérogatoire;20240126120000;;20240126120000
+1.2.250.1.213.3.3.39;124;Unité de soins intensifs (USI) de spécialité;Unité de soins intensifs (USI) de spécialité;USI de spécialité;20240126120000;;20240126120000
+1.2.250.1.213.3.3.39;125;Centre de protection maternelle et infantile (PMI);Centre de protection maternelle et infantile (PMI);Centre de PMI;20240426120000;;20240426120000
+1.2.250.1.213.3.3.39;126;Structure Douleur Chronique (SDC);Structure Douleur Chronique (SDC);SDC;20240426120000;;20240426120000
+1.2.250.1.213.3.3.39;127;Centre régional du psychotraumatisme (CRP);Centre régional du psychotraumatisme (CRP);CRPsychotrauma;20240426120000;;20240426120000
+1.2.250.1.213.3.3.39;128;Unité d'hospitalisation à domicile socle;Unité d'hospitalisation à domicile socle;HAD socle;20240426120000;;20240426120000
+1.2.250.1.213.3.3.39;129;Unité d'hospitalisation à domicile ante et post-partum;Unité d'hospitalisation à domicile ante et post-partum;HAD ante et post-partum;20240426120000;;20240426120000
+1.2.250.1.213.3.3.39;130;Unité d'hospitalisation à domicile réadaptation;Unité d'hospitalisation à domicile réadaptation;HAD réadaptation;20240426120000;;20240426120000
+1.2.250.1.213.3.3.39;131;Unité d'hospitalisation à domicile enfants de moins de trois ans;Unité d'hospitalisation à domicile enfants de moins de trois ans;HAD enfants moins de 3 ans;20240426120000;;20240426120000
+1.2.250.1.213.3.3.39;132;Service autonomie à domicile (SAD) aide et soins;Service autonomie à domicile (SAD) aide et soins;SAD aide et soins;20240426120000;;20240426120000
+1.2.250.1.213.3.3.39;133;Service autonomie à domicile (SAD) aide;Service autonomie à domicile (SAD) aide;SAD aide;20240426120000;20240927120000;20240927120000
+1.2.250.1.213.3.3.39;134;Maison des adolescents (MDA);Maison des adolescents (MDA);MDA;20240628120000;;20250328120000
+1.2.250.1.213.3.3.39;135;Points Accueil Ecoute Jeunes (PAEJ);Points Accueil Ecoute Jeunes (PAEJ);PAEJ;20240628120000;;20250328120000
+1.2.250.1.213.3.3.39;136;Centre de ressources territorial (CRT);Centre de ressources territorial (CRT);CRT;20240628120000;;20240628120000
+1.2.250.1.213.3.3.39;137;Maison sport-santé;Maison sport-santé;Maison sport-santé;20240628120000;;20250328120000
+1.2.250.1.213.3.3.39;138;Unité de soins non programmés en établissement de santé;Unité de soins non programmés en établissement de santé;Unité SNP en ES;20240927120000;;20250328120000
+1.2.250.1.213.3.3.39;139;Unité de soins intensifs polyvalents (USIP) non contiguë;Unité de soins intensifs polyvalents (USIP) non contiguë;USIP non contiguë;20240927120000;;20240927120000
+1.2.250.1.213.3.3.39;140;Equipe Mobile d'Appui à la Scolarisation (EMAS);Equipe Mobile d'Appui à la Scolarisation (EMAS);EMAS;20240927120000;;20240927120000
+1.2.250.1.213.3.3.39;141;Espace Santé Jeune (ESJ);Espace Santé Jeune (ESJ);ESJ;20241025120000;;20241025120000
+1.2.250.1.213.3.3.39;142;Equipes Mobiles Santé Précarité (EMSP);Equipes Mobiles Santé Précarité (EMSP);EMSP;20241025120000;;20241025120000
+1.2.250.1.213.3.3.39;143;Communauté 360;Communauté 360;Communauté 360;20241025120000;;20241025120000
+1.2.250.1.213.3.3.39;144;Equipe Mobile de Psychiatrie de la Personne Âgée;Equipe Mobile de Psychiatrie de la Personne Âgée;EMPPA;20241025120000;;20241025120000
+1.2.250.1.213.3.3.39;145;Unité d'addictologie;Unité d'addictologie;Unité d'addictologie;20241025120000;;20241025120000
+1.2.250.1.213.3.3.39;146;Unité de prise en charge des brûlés;Unité de prise en charge des brûlés;Unité des brûlés;20241025120000;;20241025120000
+1.2.250.1.213.3.3.39;147;Unité de sevrage complexe;Unité de sevrage complexe;Unité de sevrage complexe;20241025120000;;20241025120000
+1.2.250.1.213.3.3.39;148;Unité hospitalière d'allergologie;Unité hospitalière d'allergologie;Unité d'allergologie;20241025120000;;20241025120000
+1.2.250.1.213.3.3.39;149;Unité hospitalière de cardiologie;Unité hospitalière de cardiologie;Unité de cardiologie;20241025120000;;20241025120000
+1.2.250.1.213.3.3.39;150;Unité hospitalière de chirurgie orthopédique et traumatologique;Unité hospitalière de chirurgie orthopédique et traumatologique;Unité chir. orthopédique;20241025120000;;20241025120000
+1.2.250.1.213.3.3.39;151;Unité hospitalière de chirurgie thoracique et cardiovasculaire;Unité hospitalière de chirurgie thoracique et cardiovasculaire;Unité chir. cardiovasculaire;20241025120000;;20241025120000
+1.2.250.1.213.3.3.39;152;Unité hospitalière de chirurgie vasculaire;Unité hospitalière de chirurgie vasculaire;Unité chir. vasculaire;20241025120000;;20241025120000
+1.2.250.1.213.3.3.39;153;Unité hospitalière de chirurgie viscérale et digestive;Unité hospitalière de chirurgie viscérale et digestive;Unité chir. Viscérale;20241025120000;;20241025120000
+1.2.250.1.213.3.3.39;154;Unité hospitalière de dermatologie;Unité hospitalière de dermatologie;Unité de dermatologie;20241025120000;;20241025120000
+1.2.250.1.213.3.3.39;155;Unité hospitalière de génétique médicale;Unité hospitalière de génétique médicale;Unité de génétique médicale;20241025120000;;20241025120000
+1.2.250.1.213.3.3.39;156;Unité hospitalière de gériatrie;Unité hospitalière de gériatrie;Unité de gériatrie;20241025120000;;20241025120000
+1.2.250.1.213.3.3.39;157;Unité hospitalière de gynécologie;Unité hospitalière de gynécologie;Unité de gynécologie;20241025120000;;20241025120000
+1.2.250.1.213.3.3.39;158;Unité hospitalière de médecine vasculaire;Unité hospitalière de médecine vasculaire;Unité de médecine vasculaire;20241025120000;;20241025120000
+1.2.250.1.213.3.3.39;159;Unité hospitalière de néphrologie;Unité hospitalière de néphrologie;Unité de néphrologie;20241025120000;;20241025120000
+1.2.250.1.213.3.3.39;160;Unité hospitalière de neurochirurgie;Unité hospitalière de neurochirurgie;Unité de neurochirurgie;20241025120000;;20241025120000
+1.2.250.1.213.3.3.39;161;Unité hospitalière de neurologie;Unité hospitalière de neurologie;Unité de neurologie;20241025120000;;20241025120000
+1.2.250.1.213.3.3.39;162;Unité hospitalière de pédiatrie;Unité hospitalière de pédiatrie;Unité de pédiatrie;20241025120000;;20241025120000
+1.2.250.1.213.3.3.39;163;Unité hospitalière de pneumologie;Unité hospitalière de pneumologie;Unité de pneumologie;20241025120000;;20241025120000
+1.2.250.1.213.3.3.39;164;Unité hospitalière de radiologie;Unité hospitalière de radiologie;Unité de radiologie;20241025120000;;20241025120000
+1.2.250.1.213.3.3.39;165;Unité hospitalière de rhumatologie;Unité hospitalière de rhumatologie;Unité de rhumatologie;20241025120000;;20241025120000
+1.2.250.1.213.3.3.39;166;Unité hospitalière de stomatologie, chirurgie orale et maxillo faciale;Unité hospitalière de stomatologie, chirurgie orale et maxillo faciale;Unité de stomato., chir. Orale;20241025120000;;20241025120000
+1.2.250.1.213.3.3.39;167;Unité hospitalière d'endocrinologie, diabétologie et nutrition;Unité hospitalière d'endocrinologie, diabétologie et nutrition;Unité d'endocrinologie;20241025120000;;20241025120000
+1.2.250.1.213.3.3.39;168;Unité hospitalière des maladies infectieuses et tropicales (MIT);Unité hospitalière des maladies infectieuses et tropicales;Unité des MIT;20241025120000;;20241025120000
+1.2.250.1.213.3.3.39;169;Unité hospitalière d'hématologie;Unité hospitalière d'hématologie;Unité d'hématologie;20241025120000;;20241025120000
+1.2.250.1.213.3.3.39;170;Unité hospitalière d'hépato-gastro-entérologie (HGE);Unité hospitalière d'hépato-gastro-entérologie (HGE);Unité de HGE;20241025120000;;20241025120000
+1.2.250.1.213.3.3.39;171;Unité hospitalière d'oncologie;Unité hospitalière d'oncologie;Unité d'oncologie;20241025120000;;20241025120000
+1.2.250.1.213.3.3.39;172;Unité hospitalière d'ophtalmologie;Unité hospitalière d'ophtalmologie;Unité d'ophtalmologie;20241025120000;;20241025120000
+1.2.250.1.213.3.3.39;173;Unité hospitalière oto-rhino-laryngologie (ORL);Unité hospitalière oto-rhino-laryngologie (ORL);Unité d'ORL;20241025120000;;20241025120000
+1.2.250.1.213.3.3.39;174;Unité psychiatrique;Unité psychiatrique;Unité psychiatrique;20241025120000;;20241025120000
+1.2.250.1.213.3.3.39;175;Unités de soins palliatifs;Unités de soins palliatifs;Unités de soins palliatifs;20241025120000;;20241025120000
+1.2.250.1.213.3.3.39;176;Unité hospitalière de médecine interne;Unité hospitalière de médecine interne;Unité de médecine interne;20241213120000;;20241213120000
+1.2.250.1.213.3.3.39;177;Dispositif de consultation dédié pour les personnes en situation de handicap;Dispositif de consultation dédié pour les personnes en situation de handicap;Consultation - PH;20250131120000;;20250131120000
+1.2.250.1.213.3.3.39;178;Dispositif d'Appui à la Coordination (DAC);Dispositif d'Appui à la Coordination (DAC);DAC;20250131120000;;20250131120000
+1.2.250.1.213.3.3.39;179;Cabinet de ville d'oto-rhino-laryngologie (ORL);Cabinet de ville d'oto-rhino-laryngologie (ORL);Cabinet d'ORL;20250131120000;;20250131120000
+1.2.250.1.213.3.3.39;180;Cabinet de ville d'allergologie;Cabinet de ville d'allergologie;Cabinet d'allergologie;20250131120000;;20250131120000
+1.2.250.1.213.3.3.39;181;Cabinet de ville d'anatomo-cytopathologie;Cabinet de ville d'anatomo-cytopathologie;Cabinet d'anatomopathologie;20250131120000;;20250328120000
+1.2.250.1.213.3.3.39;182;Cabinet de ville d'anesthésie-réanimation;Cabinet de ville d'anesthésie-réanimation;Cabinet d'anesthésie;20250131120000;;20250131120000
+1.2.250.1.213.3.3.39;183;Cabinet de ville de cardiologie;Cabinet de ville de cardiologie;Cabinet de cardiologie;20250131120000;;20250131120000
+1.2.250.1.213.3.3.39;184;Cabinet de ville de chirurgie orthopédique et traumatologique;Cabinet de ville de chirurgie orthopédique et traumatologique;Cabinet de chirurgie ortho.;20250131120000;;20250131120000
+1.2.250.1.213.3.3.39;185;Cabinet de ville de chirurgie pédiatrique;Cabinet de ville de chirurgie pédiatrique;Cabinet de chirurgie péd.;20250131120000;;20250131120000
+1.2.250.1.213.3.3.39;186;Cabinet de ville de chirurgie plastique;Cabinet de ville de chirurgie plastique;Cabinet de chirurgie plastique;20250131120000;;20250131120000
+1.2.250.1.213.3.3.39;187;Cabinet de ville de chirurgie thoracique et cardiovasculaire;Cabinet de ville de chirurgie thoracique et cardiovasculaire;Cabinet de chir. cardiovasc.;20250131120000;;20250131120000
+1.2.250.1.213.3.3.39;188;Cabinet de ville de chirurgie vasculaire;Cabinet de ville de chirurgie vasculaire;Cabinet de chir vasculaire;20250131120000;;20250131120000
+1.2.250.1.213.3.3.39;189;Cabinet de ville de chirurgie viscérale et digestive;Cabinet de ville de chirurgie viscérale et digestive;Cabinet de chir. viscérale;20250131120000;;20250131120000
+1.2.250.1.213.3.3.39;190;Cabinet de ville de dermatologie;Cabinet de ville de dermatologie;Cabinet de dermatologie;20250131120000;;20250131120000
+1.2.250.1.213.3.3.39;191;Cabinet de ville de diététique;Cabinet de ville de diététique;Cabinet de diététique;20250131120000;;20250131120000
+1.2.250.1.213.3.3.39;192;Cabinet de ville de génétique médicale;Cabinet de ville de génétique médicale;Cabinet de génétique médicale;20250131120000;;20250131120000
+1.2.250.1.213.3.3.39;193;Cabinet de ville de gériatrie;Cabinet de ville de gériatrie;Cabinet de gériatrie;20250131120000;;20250131120000
+1.2.250.1.213.3.3.39;194;Cabinet de ville de gynécologie;Cabinet de ville de gynécologie;Cabinet de gynécologie;20250131120000;;20250131120000
+1.2.250.1.213.3.3.39;195;Cabinet de ville de kinésithérapie;Cabinet de ville de kinésithérapie;Cabinet de kinésithérapie;20250131120000;;20250131120000
+1.2.250.1.213.3.3.39;196;Cabinet de ville de médecine générale;Cabinet de ville de médecine générale;Cabinet de médecine générale;20250131120000;;20250131120000
+1.2.250.1.213.3.3.39;197;Cabinet de ville de médecine interne;Cabinet de ville de médecine interne;Cabinet de médecine interne;20250131120000;;20250131120000
+1.2.250.1.213.3.3.39;198;Cabinet de ville de médecine légale et expertise médicale;Cabinet de ville de médecine légale et expertise médicale;Cabinet de médecine légale;20250131120000;;20250131120000
+1.2.250.1.213.3.3.39;199;Cabinet de ville de médecine nucléaire;Cabinet de ville de médecine nucléaire;Cabinet de médecine nucléaire;20250131120000;;20250131120000
+1.2.250.1.213.3.3.39;200;Cabinet de ville de médecine physique et réadaptation (MPR);Cabinet de ville de médecine physique et réadaptation (MPR);Cabinet de MPR;20250131120000;;20250131120000
+1.2.250.1.213.3.3.39;201;Cabinet de ville de médecine vasculaire;Cabinet de ville de médecine vasculaire;Cabinet de médecine vasculaire;20250131120000;;20250131120000
+1.2.250.1.213.3.3.39;202;Cabinet de ville de néphrologie;Cabinet de ville de néphrologie;Cabinet de néphrologie;20250131120000;;20250131120000
+1.2.250.1.213.3.3.39;203;Cabinet de ville de neurochirurgie;Cabinet de ville de neurochirurgie;Cabinet de neurochirurgie;20250131120000;;20250131120000
+1.2.250.1.213.3.3.39;204;Cabinet de ville de neurologie;Cabinet de ville de neurologie;Cabinet de neurologie;20250131120000;;20250131120000
+1.2.250.1.213.3.3.39;205;Cabinet de ville de pédiatrie;Cabinet de ville de pédiatrie;Cabinet de pédiatrie;20250131120000;;20250131120000
+1.2.250.1.213.3.3.39;206;Cabinet de ville de pédicure-podologie;Cabinet de ville de pédicure-podologie;Cabinet de pédicure-podologie;20250131120000;;20250131120000
+1.2.250.1.213.3.3.39;207;Cabinet de ville de pneumologie;Cabinet de ville de pneumologie;Cabinet de pneumologie;20250131120000;;20250131120000
+1.2.250.1.213.3.3.39;208;Cabinet de ville de psychiatrie;Cabinet de ville de psychiatrie;Cabinet de psychiatrie;20250131120000;;20250131120000
+1.2.250.1.213.3.3.39;209;Cabinet de ville de psychologie;Cabinet de ville de psychologie;Cabinet de psychologie;20250131120000;;20250131120000
+1.2.250.1.213.3.3.39;210;Cabinet de ville de psychomotricité;Cabinet de ville de psychomotricité;Cabinet de psychomotricité;20250131120000;;20250131120000
+1.2.250.1.213.3.3.39;211;Cabinet de ville de radiologie;Cabinet de ville de radiologie;Cabinet de radiologie;20250131120000;;20250131120000
+1.2.250.1.213.3.3.39;212;Cabinet de ville de rhumatologie;Cabinet de ville de rhumatologie;Cabinet de rhumatologie;20250131120000;;20250131120000
+1.2.250.1.213.3.3.39;213;Cabinet de ville de sages-femmes;Cabinet de ville de sages-femmes;Cabinet de sages-femmes;20250131120000;;20250131120000
+1.2.250.1.213.3.3.39;214;Cabinet de ville de stomatologie, chirurgie orale et maxillo faciale;Cabinet de ville de stomatologie, chirurgie orale et maxillo faciale;Cabinet de stomatologie;20250131120000;;20250131120000
+1.2.250.1.213.3.3.39;215;Cabinet de ville d'endocrinologie, diabétologie et nutrition;Cabinet de ville d'endocrinologie, diabétologie et nutrition;Cabinet d'endocrinologie;20250131120000;;20250131120000
+1.2.250.1.213.3.3.39;216;Cabinet de ville d'ergothérapie;Cabinet de ville d'ergothérapie;Cabinet d'ergothérapie;20250131120000;;20250131120000
+1.2.250.1.213.3.3.39;217;Cabinet de ville des maladies infectieuses et tropicales (MIT);Cabinet de ville des maladies infectieuses et tropicales (MIT);Cabinet des MIT;20250131120000;;20250131120000
+1.2.250.1.213.3.3.39;218;Cabinet de ville d'hématologie;Cabinet de ville d'hématologie;Cabinet d'hématologie;20250131120000;;20250131120000
+1.2.250.1.213.3.3.39;219;Cabinet de ville d'hépato-gastro-entérologie;Cabinet de ville d'hépato-gastro-entérologie;Cabinet de HGE;20250131120000;;20250131120000
+1.2.250.1.213.3.3.39;220;Cabinet de ville d'oncologie;Cabinet de ville d'oncologie;Cabinet d'oncologie;20250131120000;;20250131120000
+1.2.250.1.213.3.3.39;221;Cabinet de ville d'ophtalmologie;Cabinet de ville d'ophtalmologie;Cabinet d'ophtalmologie;20250131120000;;20250131120000
+1.2.250.1.213.3.3.39;222;Cabinet de ville d'orthophonie;Cabinet de ville d'orthophonie;Cabinet d'orthophonie;20250131120000;;20250131120000
+1.2.250.1.213.3.3.39;223;Cabinet de ville d'orthoptie;Cabinet de ville d'orthoptie;Cabinet d'orthoptie;20250131120000;;20250131120000
+1.2.250.1.213.3.3.39;224;Cabinet de ville d'urologie;Cabinet de ville d'urologie;Cabinet d'urologie;20250131120000;;20250131120000
+1.2.250.1.213.3.3.39;225;Cabinet de ville infirmier;Cabinet de ville infirmier;Cabinet infirmier;20250131120000;;20250131120000
+1.2.250.1.213.3.3.39;226;Cabinet dentaire de chirurgie dentaire;Cabinet dentaire de chirurgie dentaire;Cabinet de chirurgie dentaire;20250131120000;;20250131120000
+1.2.250.1.213.3.3.39;227;Cabinet dentaire de chirurgie orale;Cabinet dentaire de chirurgie orale;Cabinet de chirurgie orale;20250131120000;;20250131120000
+1.2.250.1.213.3.3.39;228;Cabinet dentaire de médecine bucco-dentaire;Cabinet dentaire de médecine bucco-dentaire;Cabinet de méd. bucco-dentaire;20250131120000;;20250131120000
+1.2.250.1.213.3.3.39;229;Cabinet dentaire d'orthopédie dento-faciale;Cabinet dentaire d'orthopédie dento-faciale;Cabinet d'ortho. dento-faciale;20250131120000;;20250131120000
+1.2.250.1.213.3.3.39;230;Unité hospitalière d'anatomo-cytopathologie;Unité hospitalière d'anatomo-cytopathologie;Unité d'anatomopathologie;20250131120000;;20250328120000
+1.2.250.1.213.3.3.39;231;Unité hospitalière de médecine du sport;Unité hospitalière de médecine du sport;Unité de médecine du sport;20250131120000;;20250131120000
+1.2.250.1.213.3.3.39;232;Unité hospitalière de médecine légale et expertise médicale;Unité hospitalière de médecine légale et expertise médicale;Unité de médecine légale;20250131120000;;20250131120000
+1.2.250.1.213.3.3.39;233;Unité hospitalière de médecine physique et réadaptation (MPR);Unité hospitalière de médecine physique et réadaptation (MPR);Unité de MPR;20250131120000;;20250131120000
+1.2.250.1.213.3.3.39;234;Unité hospitalière d'urologie;Unité hospitalière d'urologie;Unité d'urologie;20250131120000;;20250131120000
+1.2.250.1.213.3.3.39;235;Unité hospitalière de médecine générale;Unité hospitalière de médecine générale;Unité de médecine générale;20250131120000;;20250131120000
+1.2.250.1.213.3.3.39;236;Unité hospitalière d'orthopédie dento-faciale (odontologie);Unité hospitalière d'orthopédie dento-faciale (odontologie);Unité d'odontologie;20250131120000;;20250131120000
+1.2.250.1.213.3.3.39;237;Unité hospitalière d'anesthésie;Unité hospitalière d'anesthésie;Unité d'anesthésie;20250131120000;;20250131120000
+1.2.250.1.213.3.3.39;238;Unité de médecine polyvalente;Unité de médecine polyvalente;Unité de médecine polyvalente;20250131120000;;20250131120000
+1.2.250.1.213.3.3.39;239;Unité hospitalière de médecine nucléaire;Unité hospitalière de médecine nucléaire;Unité de médecine nucléaire;20250131120000;;20250131120000
+1.2.250.1.213.3.3.39;240;Unité hospitalière de médecine du travail;Unité hospitalière de médecine du travail;Unité de médecine du travail;20250131120000;;20250131120000
+1.2.250.1.213.3.3.39;241;Unité hospitalière de chirurgie pédiatrique;Unité hospitalière de chirurgie pédiatrique;Unité de chir. Pédiatrique;20250131120000;;20250131120000
+1.2.250.1.213.3.3.39;242;Unité hospitalière de chirurgie plastique, reconstructrice et esthétique;Unité hospitalière de chirurgie plastique, reconstructrice et esthétique;Unité de chirurgie plastique;20250131120000;;20250131120000
+1.2.250.1.213.3.3.39;243;Cabinet de ville de médecine intensive et réanimation (MIR);Cabinet de ville de médecine intensive et réanimation (MIR);Cabinet de MIR;20250131120000;;20250131120000
+1.2.250.1.213.3.3.39;244;Equipe Mobile d'Expertise en Réadaptation (EMER) neuro-locomoteur;Equipe Mobile d'Expertise en Réadaptation (EMER) neuro-locomoteur;EMER;20250328120000;;20250328120000
+1.2.250.1.213.3.3.39;245;Centre expert en maladies rares;Centre expert en maladies rares;Centre expert maladies rares;20250328120000;;20250328120000
+1.2.250.1.213.3.3.39;246;Service d'Aide Médicale Urgente (SAMU);Service d'Aide Médicale Urgente (SAMU);SAMU;20250328120000;;20250328120000
+1.2.250.1.213.3.3.39;247;Structure Mobile d'Urgence et de Réanimation (SMUR);Structure Mobile d'Urgence et de Réanimation (SMUR);SMUR;20250328120000;;20250328120000
+1.2.250.1.213.3.3.39;248;Unité de biologie;Unité de biologie;Unité de biologie;20250328120000;;20250328120000
+1.2.250.1.213.3.3.39;249;Unité de Soins de Longue Durée (USLD);Unité de Soins de Longue Durée (USLD);USLD;20250328120000;;20250328120000
+1.2.250.1.213.3.3.39;250;Centres Gratuits d'Information, de Dépistage et de Diagnostic (CeGIDD);Centres Gratuits d'Information, de Dépistage et de Diagnostic (CeGIDD);CeGIDD;20250328120000;;20250328120000
+1.2.250.1.213.3.3.39;251;Centre Périnatal de Proximité (CPP);Centre Périnatal de Proximité (CPP);CPP;20250328120000;;20250328120000
+1.2.250.1.213.3.3.39;252;Equipes Mobiles de Soins Palliatifs (EMSP);Equipes Mobiles de Soins Palliatifs (EMSP);EMSP;20250328120000;;20250328120000
+1.2.250.1.213.3.3.39;253;Equipe Ressource Régionale de Soins Palliatifs Pédiatriques (ERRSPP);Equipe Ressource Régionale de Soins Palliatifs Pédiatriques (ERRSPP);ERRSPP;20250328120000;;20250328120000
+1.2.250.1.213.3.3.39;254;Unité de surveillance continue;Unité de surveillance continue;Unité de surveillance continue;20250328120000;;20250328120000

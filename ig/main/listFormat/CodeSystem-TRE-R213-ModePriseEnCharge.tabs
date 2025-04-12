@@ -1,62 +1,62 @@
 <OID>;<Type fichier>;<Nom fichier>;<Description>;<URL fichier>;<Date valid>;<Date fin>;<Date MàJ>
 1.2.250.1.213.3.3.13;TRE;TRE_R213_ModePriseEnCharge.tabs;Mode de la prise en charge;https://mos.esante.gouv.fr/NOS/TRE_R213-ModePriseEnCharge;20150408000000;;20240329120000
 <OID>;<Code>;<Libellé adapté>;<Libellé court>;<Libellé long>;<Date valid>;<Date fin>;<Date MAJ> 
-1.2.250.1.213.3.3.13;Accueil Permanence des soins en établissement de santé;Accueil Permanence des soins en établissement de santé;Accueil PDSES;01;20150504000000;;20150504000000
-1.2.250.1.213.3.3.13;Accueil spécialisé;Accueil spécialisé;Accueil spécialisé;02;20150504000000;;20150504000000
-1.2.250.1.213.3.3.13;Centre autre (médecine du travail,...);Centre autre (médecine du travail,...);Centre autre (méd travail,...);03;20150504000000;20180330120000;20180330120000
-1.2.250.1.213.3.3.13;Centre d'analyse et-ou prélèvement;Centre d'analyse et-ou prélèvement;Centre d'analyse, prélèvement;04;20150504000000;20190329120000;20190329120000
-1.2.250.1.213.3.3.13;Centre de dépistage;Centre de dépistage;Centre de dépistage;05;20150504000000;20190329120000;20190329120000
-1.2.250.1.213.3.3.13;Centre de référence;Centre de référence;Centre de référence;06;20150504000000;20210326120000;20210326120000
-1.2.250.1.213.3.3.13;Centre de vaccination;Centre de vaccination;Centre de vaccination;07;20150504000000;20190329120000;20190329120000
-1.2.250.1.213.3.3.13;Centre de vaccination internationale;Centre de vaccination internationale;Centre vaccinat internationale;08;20150504000000;20190329120000;20190329120000
-1.2.250.1.213.3.3.13;Chirurgie ambulatoire;Chirurgie ambulatoire;Chirurgie ambulatoire;09;20150504000000;;20150504000000
-1.2.250.1.213.3.3.13;Equipe de liaison et de soins;Equipe de liaison et de soins;Equipe de liaison et de soins;10;20150504000000;20180126120000;20180126120000
-1.2.250.1.213.3.3.13;Equipe mobile extra-hospitalière;Equipe mobile extra-hospitalière;Equipe mobile extra-hosp;11;20150504000000;;20181026120000
-1.2.250.1.213.3.3.13;Exploration fonctionnelle;Exploration fonctionnelle;Exploration fonctionnelle;12;20150504000000;20190329120000;20190329120000
-1.2.250.1.213.3.3.13;Hospitalisation courte durée (UHCD);Hospitalisation courte durée (UHCD);Hosp courte durée (UHCD);13;20150504000000;;20150504000000
-1.2.250.1.213.3.3.13;Hospitalisation kangourou;Hospitalisation kangourou;Hosp kangourou;14;20150504000000;;20150504000000
-1.2.250.1.213.3.3.13;Hospitalisation très courte durée (ZHTCD et UHTCD);Hospitalisation très courte durée (ZHTCD et UHTCD);ZHTCD et UHTCD;15;20150504000000;20181026120000;20181026120000
-1.2.250.1.213.3.3.13;Lieu d'écoute;Lieu d'écoute;Lieu d'écoute;16;20150504000000;20181026120000;20181026120000
-1.2.250.1.213.3.3.13;Précarité, permanence d'accès aux soins de santé (PASS);Précarité, permanence d'accès aux soins de santé (PASS);Précarité, PASS;17;20150504000000;;20150504000000
-1.2.250.1.213.3.3.13;Régulation médicale hospitalière;Régulation médicale hospitalière;Régulation méd hospitalière;18;20150504000000;20180126120000;20180126120000
-1.2.250.1.213.3.3.13;Régulation médicale libérale;Régulation médicale libérale;Régulation méd libérale;19;20150504000000;20180126120000;20180126120000
-1.2.250.1.213.3.3.13;Soins externes et traitements ambulatoires;Soins externes et traitements ambulatoires;Soins externes et ttt ambulat;20;20150504000000;;20170707100000
-1.2.250.1.213.3.3.13;Surveillance post interventionnelle (réveil);Surveillance post interventionnelle (réveil);Surveil post interventionnelle;21;20150504000000;20190329120000;20190329120000
-1.2.250.1.213.3.3.13;Unité de soins intensifs (USI);Unité de soins intensifs (USI);USI;22;20150504000000;20190329120000;20190329120000
-1.2.250.1.213.3.3.13;Unité de surveillance continue (USC);Unité de surveillance continue (USC);USC;23;20150504000000;20190329120000;20190329120000
-1.2.250.1.213.3.3.13;Unité hospitalière sécurisée interrégionale (UHSI);Unité hospitalière sécurisée interrégionale (UHSI);UHSI;24;20150504000000;20181026120000;20181026120000
-1.2.250.1.213.3.3.13;Unité sanitaire (ex UCSA);Unité sanitaire (ex UCSA);Unité sanitaire (ex UCSA);25;20150504000000;20181026120000;20181026120000
-1.2.250.1.213.3.3.13;Téléconsultation;Téléconsultation;Téléconsultation;26;20150504000000;20210326120000;20210326120000
-1.2.250.1.213.3.3.13;Télémédecine;Télémédecine;Télémédecine;27;20150504000000;;20150504000000
-1.2.250.1.213.3.3.13;Hospitalisation complète (HC);Hospitalisation complète (HC);HC;28;20160901000000;;20190329120000
-1.2.250.1.213.3.3.13;Hospitalisation de jour (HJ);Hospitalisation de jour (HJ);HJ;29;20160901000000;;20190329120000
-1.2.250.1.213.3.3.13;Hospitalisation de nuit (HN);Hospitalisation de nuit (HN);HN;30;20160901000000;;20190329120000
-1.2.250.1.213.3.3.13;Hospitalisation à domicile (HAD);Hospitalisation à domicile (HAD);HAD;31;20160901000000;;20160901000000
-1.2.250.1.213.3.3.13;Consultation (CS);Consultation (CS);CS;32;20160901000000;;20190329120000
-1.2.250.1.213.3.3.13;Accueil des urgences;Accueil des urgences;Accueil des urgences;33;20160901000000;;20160901000000
-1.2.250.1.213.3.3.13;Hospitalisation de semaine (HS);Hospitalisation de semaine (HS);HS;34;20160901000000;;20190329120000
-1.2.250.1.213.3.3.13;Téléexpertise;Téléexpertise;Téléexpertise;35;20161102000000;;20161102000000
-1.2.250.1.213.3.3.13;Téléassistance;Téléassistance;Téléassistance;36;20161102000000;;20161102000000
-1.2.250.1.213.3.3.13;Télésurveillance médicale;Télésurveillance médicale;Télésurveillance médicale;37;20161102000000;;20161102000000
-1.2.250.1.213.3.3.13;Isolement de secteur (unité de cohorting);Isolement de secteur (unité de cohorting);Isolement de secteur;38;20170322120000;;20170322120000
-1.2.250.1.213.3.3.13;Réunion de Concertation Pluridisciplinaire (RCP);Réunion de Concertation Pluridisciplinaire (RCP);RCP;39;20170322120000;;20170322120000
-1.2.250.1.213.3.3.13;Réunion de Concertation Pluridisciplinaire (RCP) de recours;Réunion de Concertation Pluridisciplinaire (RCP) de recours;RCP recours;40;20170322120000;;20170322120000
-1.2.250.1.213.3.3.13;Accueil familial thérapeutique;Accueil familial thérapeutique;Accueil familial thérapeutique;41;20170707100000;;20170707100000
-1.2.250.1.213.3.3.13;Prise en charge de groupe;Prise en charge de groupe;Prise en charge de groupe;42;20170707100000;;20170707100000
-1.2.250.1.213.3.3.13;Equipe de liaison et de soins;Equipe de liaison et de soins;Equipe de liaison et de soins;43;20170707100000;20180126120000;20180126120000
-1.2.250.1.213.3.3.13;Equipe mobile intra-hospitalière;Equipe mobile intra-hospitalière;Equipe mobile intra-hosp;44;20170707100000;20180126120000;20180126120000
-1.2.250.1.213.3.3.13;Equipe mobile extra-hospitalière;Equipe mobile extra-hospitalière;Equipe mobile extra-hosp;45;20170707100000;20180126120000;20180126120000
-1.2.250.1.213.3.3.13;Hébergement (accueil jour et nuit);Hébergement (accueil jour et nuit);Hébergement;46;20180126120000;;20210625120000
-1.2.250.1.213.3.3.13;Accueil de jour;Accueil de jour;Accueil de jour;47;20180126120000;;20210625120000
-1.2.250.1.213.3.3.13;Accueil de nuit;Accueil de nuit;Accueil de nuit;48;20180126120000;;20210625120000
-1.2.250.1.213.3.3.13;Sur les lieux de vie;Sur les lieux de vie;Sur les lieux de vie;49;20180126120000;;20180126120000
-1.2.250.1.213.3.3.13;Placement famille d'accueil;Placement famille d'accueil;Placement famille d'accueil;50;20180126120000;;20230127120000
-1.2.250.1.213.3.3.13;Relayage (type baluchonnage);Relayage (type baluchonnage);Relayage (type baluchonnage);51;20180126120000;20190329120000;20190329120000
-1.2.250.1.213.3.3.13;Equipe mobile intra-hospitalière;Equipe mobile intra-hospitalière;Equipe mobile intra-hosp;52;20180228120000;;20181026120000
-1.2.250.1.213.3.3.13;Equipe mobile extra et intra-hospitalière;Equipe mobile extra et intra-hospitalière;Equipe mob extra et intra-hosp;53;20180228120000;;20181026120000
-1.2.250.1.213.3.3.13;Accueil individuel ou collectif;Accueil individuel ou collectif;Accueil individuel/collectif;54;20180531120000;;20180531120000
-1.2.250.1.213.3.3.13;Plateau technique;Plateau technique;Plateau technique;55;20180727120000;;20180727120000
-1.2.250.1.213.3.3.13;Accueil non programmé;Accueil non programmé;Accueil non programmé;56;20190329120000;;20190329120000
-1.2.250.1.213.3.3.13;Centre spécialisé;Centre spécialisé;Centre spécialisé;57;20190329120000;;20190329120000
-1.2.250.1.213.3.3.13;Coordination de parcours;Coordination de parcours;Coordination de parcours;58;20210326120000;;20210625120000
-1.2.250.1.213.3.3.13;Equipe d'intervention mobile;Equipe d'intervention mobile;Equipe d'intervention mobile;59;20210326120000;;20210326120000
+1.2.250.1.213.3.3.13;01;Accueil Permanence des soins en établissement de santé;Accueil Permanence des soins en établissement de santé;Accueil PDSES;20150504000000;;20150504000000
+1.2.250.1.213.3.3.13;02;Accueil spécialisé;Accueil spécialisé;Accueil spécialisé;20150504000000;;20150504000000
+1.2.250.1.213.3.3.13;03;Centre autre (médecine du travail,...);Centre autre (médecine du travail,...);Centre autre (méd travail,...);20150504000000;20180330120000;20180330120000
+1.2.250.1.213.3.3.13;04;Centre d'analyse et-ou prélèvement;Centre d'analyse et-ou prélèvement;Centre d'analyse, prélèvement;20150504000000;20190329120000;20190329120000
+1.2.250.1.213.3.3.13;05;Centre de dépistage;Centre de dépistage;Centre de dépistage;20150504000000;20190329120000;20190329120000
+1.2.250.1.213.3.3.13;06;Centre de référence;Centre de référence;Centre de référence;20150504000000;20210326120000;20210326120000
+1.2.250.1.213.3.3.13;07;Centre de vaccination;Centre de vaccination;Centre de vaccination;20150504000000;20190329120000;20190329120000
+1.2.250.1.213.3.3.13;08;Centre de vaccination internationale;Centre de vaccination internationale;Centre vaccinat internationale;20150504000000;20190329120000;20190329120000
+1.2.250.1.213.3.3.13;09;Chirurgie ambulatoire;Chirurgie ambulatoire;Chirurgie ambulatoire;20150504000000;;20150504000000
+1.2.250.1.213.3.3.13;10;Equipe de liaison et de soins;Equipe de liaison et de soins;Equipe de liaison et de soins;20150504000000;20180126120000;20180126120000
+1.2.250.1.213.3.3.13;11;Equipe mobile extra-hospitalière;Equipe mobile extra-hospitalière;Equipe mobile extra-hosp;20150504000000;;20181026120000
+1.2.250.1.213.3.3.13;12;Exploration fonctionnelle;Exploration fonctionnelle;Exploration fonctionnelle;20150504000000;20190329120000;20190329120000
+1.2.250.1.213.3.3.13;13;Hospitalisation courte durée (UHCD);Hospitalisation courte durée (UHCD);Hosp courte durée (UHCD);20150504000000;;20150504000000
+1.2.250.1.213.3.3.13;14;Hospitalisation kangourou;Hospitalisation kangourou;Hosp kangourou;20150504000000;;20150504000000
+1.2.250.1.213.3.3.13;15;Hospitalisation très courte durée (ZHTCD et UHTCD);Hospitalisation très courte durée (ZHTCD et UHTCD);ZHTCD et UHTCD;20150504000000;20181026120000;20181026120000
+1.2.250.1.213.3.3.13;16;Lieu d'écoute;Lieu d'écoute;Lieu d'écoute;20150504000000;20181026120000;20181026120000
+1.2.250.1.213.3.3.13;17;Précarité, permanence d'accès aux soins de santé (PASS);Précarité, permanence d'accès aux soins de santé (PASS);Précarité, PASS;20150504000000;;20150504000000
+1.2.250.1.213.3.3.13;18;Régulation médicale hospitalière;Régulation médicale hospitalière;Régulation méd hospitalière;20150504000000;20180126120000;20180126120000
+1.2.250.1.213.3.3.13;19;Régulation médicale libérale;Régulation médicale libérale;Régulation méd libérale;20150504000000;20180126120000;20180126120000
+1.2.250.1.213.3.3.13;20;Soins externes et traitements ambulatoires;Soins externes et traitements ambulatoires;Soins externes et ttt ambulat;20150504000000;;20170707100000
+1.2.250.1.213.3.3.13;21;Surveillance post interventionnelle (réveil);Surveillance post interventionnelle (réveil);Surveil post interventionnelle;20150504000000;20190329120000;20190329120000
+1.2.250.1.213.3.3.13;22;Unité de soins intensifs (USI);Unité de soins intensifs (USI);USI;20150504000000;20190329120000;20190329120000
+1.2.250.1.213.3.3.13;23;Unité de surveillance continue (USC);Unité de surveillance continue (USC);USC;20150504000000;20190329120000;20190329120000
+1.2.250.1.213.3.3.13;24;Unité hospitalière sécurisée interrégionale (UHSI);Unité hospitalière sécurisée interrégionale (UHSI);UHSI;20150504000000;20181026120000;20181026120000
+1.2.250.1.213.3.3.13;25;Unité sanitaire (ex UCSA);Unité sanitaire (ex UCSA);Unité sanitaire (ex UCSA);20150504000000;20181026120000;20181026120000
+1.2.250.1.213.3.3.13;26;Téléconsultation;Téléconsultation;Téléconsultation;20150504000000;20210326120000;20210326120000
+1.2.250.1.213.3.3.13;27;Télémédecine;Télémédecine;Télémédecine;20150504000000;;20150504000000
+1.2.250.1.213.3.3.13;28;Hospitalisation complète (HC);Hospitalisation complète (HC);HC;20160901000000;;20190329120000
+1.2.250.1.213.3.3.13;29;Hospitalisation de jour (HJ);Hospitalisation de jour (HJ);HJ;20160901000000;;20190329120000
+1.2.250.1.213.3.3.13;30;Hospitalisation de nuit (HN);Hospitalisation de nuit (HN);HN;20160901000000;;20190329120000
+1.2.250.1.213.3.3.13;31;Hospitalisation à domicile (HAD);Hospitalisation à domicile (HAD);HAD;20160901000000;;20160901000000
+1.2.250.1.213.3.3.13;32;Consultation (CS);Consultation (CS);CS;20160901000000;;20190329120000
+1.2.250.1.213.3.3.13;33;Accueil des urgences;Accueil des urgences;Accueil des urgences;20160901000000;;20160901000000
+1.2.250.1.213.3.3.13;34;Hospitalisation de semaine (HS);Hospitalisation de semaine (HS);HS;20160901000000;;20190329120000
+1.2.250.1.213.3.3.13;35;Téléexpertise;Téléexpertise;Téléexpertise;20161102000000;;20161102000000
+1.2.250.1.213.3.3.13;36;Téléassistance;Téléassistance;Téléassistance;20161102000000;;20161102000000
+1.2.250.1.213.3.3.13;37;Télésurveillance médicale;Télésurveillance médicale;Télésurveillance médicale;20161102000000;;20161102000000
+1.2.250.1.213.3.3.13;38;Isolement de secteur (unité de cohorting);Isolement de secteur (unité de cohorting);Isolement de secteur;20170322120000;;20170322120000
+1.2.250.1.213.3.3.13;39;Réunion de Concertation Pluridisciplinaire (RCP);Réunion de Concertation Pluridisciplinaire (RCP);RCP;20170322120000;;20170322120000
+1.2.250.1.213.3.3.13;40;Réunion de Concertation Pluridisciplinaire (RCP) de recours;Réunion de Concertation Pluridisciplinaire (RCP) de recours;RCP recours;20170322120000;;20170322120000
+1.2.250.1.213.3.3.13;41;Accueil familial thérapeutique;Accueil familial thérapeutique;Accueil familial thérapeutique;20170707100000;;20170707100000
+1.2.250.1.213.3.3.13;42;Prise en charge de groupe;Prise en charge de groupe;Prise en charge de groupe;20170707100000;;20170707100000
+1.2.250.1.213.3.3.13;43;Equipe de liaison et de soins;Equipe de liaison et de soins;Equipe de liaison et de soins;20170707100000;20180126120000;20180126120000
+1.2.250.1.213.3.3.13;44;Equipe mobile intra-hospitalière;Equipe mobile intra-hospitalière;Equipe mobile intra-hosp;20170707100000;20180126120000;20180126120000
+1.2.250.1.213.3.3.13;45;Equipe mobile extra-hospitalière;Equipe mobile extra-hospitalière;Equipe mobile extra-hosp;20170707100000;20180126120000;20180126120000
+1.2.250.1.213.3.3.13;46;Hébergement (accueil jour et nuit);Hébergement (accueil jour et nuit);Hébergement;20180126120000;;20210625120000
+1.2.250.1.213.3.3.13;47;Accueil de jour;Accueil de jour;Accueil de jour;20180126120000;;20210625120000
+1.2.250.1.213.3.3.13;48;Accueil de nuit;Accueil de nuit;Accueil de nuit;20180126120000;;20210625120000
+1.2.250.1.213.3.3.13;49;Sur les lieux de vie;Sur les lieux de vie;Sur les lieux de vie;20180126120000;;20180126120000
+1.2.250.1.213.3.3.13;50;Placement famille d'accueil;Placement famille d'accueil;Placement famille d'accueil;20180126120000;;20230127120000
+1.2.250.1.213.3.3.13;51;Relayage (type baluchonnage);Relayage (type baluchonnage);Relayage (type baluchonnage);20180126120000;20190329120000;20190329120000
+1.2.250.1.213.3.3.13;52;Equipe mobile intra-hospitalière;Equipe mobile intra-hospitalière;Equipe mobile intra-hosp;20180228120000;;20181026120000
+1.2.250.1.213.3.3.13;53;Equipe mobile extra et intra-hospitalière;Equipe mobile extra et intra-hospitalière;Equipe mob extra et intra-hosp;20180228120000;;20181026120000
+1.2.250.1.213.3.3.13;54;Accueil individuel ou collectif;Accueil individuel ou collectif;Accueil individuel/collectif;20180531120000;;20180531120000
+1.2.250.1.213.3.3.13;55;Plateau technique;Plateau technique;Plateau technique;20180727120000;;20180727120000
+1.2.250.1.213.3.3.13;56;Accueil non programmé;Accueil non programmé;Accueil non programmé;20190329120000;;20190329120000
+1.2.250.1.213.3.3.13;57;Centre spécialisé;Centre spécialisé;Centre spécialisé;20190329120000;;20190329120000
+1.2.250.1.213.3.3.13;58;Coordination de parcours;Coordination de parcours;Coordination de parcours;20210326120000;;20210625120000
+1.2.250.1.213.3.3.13;59;Equipe d'intervention mobile;Equipe d'intervention mobile;Equipe d'intervention mobile;20210326120000;;20210326120000

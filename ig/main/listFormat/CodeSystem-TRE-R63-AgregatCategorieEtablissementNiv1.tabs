@@ -1,10 +1,10 @@
 <OID>;<Type fichier>;<Nom fichier>;<Description>;<URL fichier>;<Date valid>;<Date fin>;<Date MàJ>
 1.2.250.1.213.1.6.1.5;TRE;TRE_R63_AgregatCategorieEtablissementNiv1.tabs;Agrégats de catégories d'établissements niveau 1;https://mos.esante.gouv.fr/NOS/TRE_R63-AgregatCategorieEtablissementNiv1;19790101000000;;20231215120000
 <OID>;<Code>;<Libellé adapté>;<Libellé court>;<Libellé long>;<Date valid>;<Date fin>;<Date MAJ> 
-1.2.250.1.213.1.6.1.5;Etablissements d'administration;Etablissements d'administration;Etab.Administration;0100;19790101000000;20210326120000;20210326120000
-1.2.250.1.213.1.6.1.5;Etablissements Relevant de la Loi Hospitalière;Etablissements Relevant de la Loi Hospitalière;Etab.Loi Hospital.;1000;19790101000000;;19790101000000
-1.2.250.1.213.1.6.1.5;Autres établissements de soins et prévention;Autres Etablissements de Soins et Prévention;Autres Etab.de Soins;2000;19790101000000;;19790101000000
-1.2.250.1.213.1.6.1.5;Autres établissements à caractère sanitaire;Autres Etablissements à Caractère Sanitaire;Autres Etab.Sanit.;3000;19790101000000;;19790101000000
-1.2.250.1.213.1.6.1.5;Etablissements et Services sociaux d'accueil, d'hébergement, d'assistance et de réadaptation;Etab.Serv.Soc.d'Accueil Hébergement Assistance Réadaptation;Accueil Héberg.Assis;4000;19790101000000;;19790101000000
-1.2.250.1.213.1.6.1.5;Etablissements et Services Sociaux d'Aide à la Famille;Etablissements et Services Sociaux d'Aide à la Famille;Etab.Aide à Famille;5000;19790101000000;;19790101000000
-1.2.250.1.213.1.6.1.5;Etablissements de formation des personnels sanitaires et sociaux;Etab.de Formation des Personnels Sanitaires et Sociaux;Etab.Form.San & Soc;6000;19790101000000;;19790101000000
+1.2.250.1.213.1.6.1.5;0100;Etablissements d'administration;Etablissements d'administration;Etab.Administration;19790101000000;20210326120000;20210326120000
+1.2.250.1.213.1.6.1.5;1000;Etablissements Relevant de la Loi Hospitalière;Etablissements Relevant de la Loi Hospitalière;Etab.Loi Hospital.;19790101000000;;19790101000000
+1.2.250.1.213.1.6.1.5;2000;Autres établissements de soins et prévention;Autres Etablissements de Soins et Prévention;Autres Etab.de Soins;19790101000000;;19790101000000
+1.2.250.1.213.1.6.1.5;3000;Autres établissements à caractère sanitaire;Autres Etablissements à Caractère Sanitaire;Autres Etab.Sanit.;19790101000000;;19790101000000
+1.2.250.1.213.1.6.1.5;4000;Etablissements et Services sociaux d'accueil, d'hébergement, d'assistance et de réadaptation;Etab.Serv.Soc.d'Accueil Hébergement Assistance Réadaptation;Accueil Héberg.Assis;19790101000000;;19790101000000
+1.2.250.1.213.1.6.1.5;5000;Etablissements et Services Sociaux d'Aide à la Famille;Etablissements et Services Sociaux d'Aide à la Famille;Etab.Aide à Famille;19790101000000;;19790101000000
+1.2.250.1.213.1.6.1.5;6000;Etablissements de formation des personnels sanitaires et sociaux;Etab.de Formation des Personnels Sanitaires et Sociaux;Etab.Form.San & Soc;19790101000000;;19790101000000

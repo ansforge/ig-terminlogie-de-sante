@@ -1,12 +1,12 @@
 <OID>;<Type fichier>;<Nom fichier>;<Description>;<URL fichier>;<Date valid>;<Date fin>;<Date MàJ>
 1.2.250.1.213.1.6.1.20;TRE;TRE_R25_MotifFinActivite.tabs;Motif de fin d'activité;https://mos.esante.gouv.fr/NOS/TRE_R25-MotifFinActivite;20070725150443;;20231215120000
 <OID>;<Code>;<Libellé adapté>;<Libellé court>;<Libellé long>;<Date valid>;<Date fin>;<Date MAJ> 
-1.2.250.1.213.1.6.1.20;Autre motif;Autre motif;Autre motif;AUT;20070725150443;;20070725150443
-1.2.250.1.213.1.6.1.20;Changement d'activité;Changement d'activité;Changement d'activité;CHA;20070725150443;;20160901000000
-1.2.250.1.213.1.6.1.20;Changement de lieu d'exercice;Changement de lieu d'exercice;Changement de lieu d'exercice;CHL;20070725150443;;20160901000000
-1.2.250.1.213.1.6.1.20;Changement de profession;Changement de profession;Changement de profession;CHP;20070725150443;;20160901000000
-1.2.250.1.213.1.6.1.20;Décès;Décès;Décès;DCD;20070725150443;;20070725150443
-1.2.250.1.213.1.6.1.20;Départ à l'étranger;Départ à l'étranger;Départ à l'étranger;ETR;20070725150443;;20160901000000
-1.2.250.1.213.1.6.1.20;Retraite hospitalière;Retraite hospitalière;Retraite hospitalière;RH;20070725150443;;20160901000000
-1.2.250.1.213.1.6.1.20;Retraite libérale;Retraite libérale;Retraite libérale;RL;20070725150443;;20070725150443
-1.2.250.1.213.1.6.1.20;Retraite salariée;Retraite salariée;Retraite salariée;RS;20070725150443;;20070725150443
+1.2.250.1.213.1.6.1.20;AUT;Autre motif;Autre motif;Autre motif;20070725150443;;20070725150443
+1.2.250.1.213.1.6.1.20;CHA;Changement d'activité;Changement d'activité;Changement d'activité;20070725150443;;20160901000000
+1.2.250.1.213.1.6.1.20;CHL;Changement de lieu d'exercice;Changement de lieu d'exercice;Changement de lieu d'exercice;20070725150443;;20160901000000
+1.2.250.1.213.1.6.1.20;CHP;Changement de profession;Changement de profession;Changement de profession;20070725150443;;20160901000000
+1.2.250.1.213.1.6.1.20;DCD;Décès;Décès;Décès;20070725150443;;20070725150443
+1.2.250.1.213.1.6.1.20;ETR;Départ à l'étranger;Départ à l'étranger;Départ à l'étranger;20070725150443;;20160901000000
+1.2.250.1.213.1.6.1.20;RH;Retraite hospitalière;Retraite hospitalière;Retraite hospitalière;20070725150443;;20160901000000
+1.2.250.1.213.1.6.1.20;RL;Retraite libérale;Retraite libérale;Retraite libérale;20070725150443;;20070725150443
+1.2.250.1.213.1.6.1.20;RS;Retraite salariée;Retraite salariée;Retraite salariée;20070725150443;;20070725150443

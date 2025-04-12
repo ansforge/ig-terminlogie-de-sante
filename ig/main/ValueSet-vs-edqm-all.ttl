@@ -17,7 +17,7 @@
        fhir:link <http://hl7.org/fhir/StructureDefinition/shareablevalueset>
      ] )
   ] ; # 
-  fhir:language [ fhir:v "fr"] ; # 
+  fhir:language [ fhir:v "fr-FR"] ; # 
   fhir:text [
      fhir:status [ fhir:v "generated" ] ;
      fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\">Ce jeu de valeurs inclut tous les codes issus de EDQM.</div>"^^rdf:XMLLiteral
@@ -27,7 +27,7 @@
   fhir:name [ fhir:v "ValueSet_EDQM_All"] ; # 
   fhir:status [ fhir:v "active"] ; # 
   fhir:experimental [ fhir:v false] ; # 
-  fhir:date [ fhir:v "2025-04-12T04:22:39+00:00"^^xsd:dateTime] ; # 
+  fhir:date [ fhir:v "2025-04-12T12:55:34+00:00"^^xsd:dateTime] ; # 
   fhir:publisher [ fhir:v "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris"] ; # 
   fhir:description [ fhir:v "Ce jeu de valeurs inclut tous les codes de la terminologie EDQM"] ; # 
   fhir:compose [

@@ -1,13 +1,13 @@
 <OID>;<Type fichier>;<Nom fichier>;<Description>;<URL fichier>;<Date valid>;<Date fin>;<Date MàJ>
 1.2.250.1.213.1.1.4.9;TRE;TRE_A01_CadreExercice.tabs;Cadre d'exercice;https://mos.esante.gouv.fr/NOS/TRE_A01-CadreExercice;20160519000000;;20240927120000
 <OID>;<Code>;<Libellé adapté>;<Libellé court>;<Libellé long>;<Date valid>;<Date fin>;<Date MAJ> 
-1.2.250.1.213.1.1.4.9;Ambulatoire;Ambulatoire;Ambulatoire;AMBULATOIRE;20160519000000;;20160519000000
-1.2.250.1.213.1.1.4.9;Organisme d'assurance maladie obligatoire;Organisme d'assurance maladie obligatoire;Organisme AMO;AMO;20160519000000;;20160519000000
-1.2.250.1.213.1.1.4.9;Dépistage;Dépistage;Dépistage;DEPISTAGE;20160519000000;;20160519000000
-1.2.250.1.213.1.1.4.9;Etablissement ou Service Social ou Médico-Social;Etablissement ou Service Social ou Médico-Social;Etablissement ou Service Social ou Médico-Social;ESSMS;20240927120000;;20240927120000
-1.2.250.1.213.1.1.4.9;Etablissement de santé;Etablissement de santé;Etab de santé;ETABLISSEMENT;20160519000000;;20160519000000
-1.2.250.1.213.1.1.4.9;Hospitalisation à domicile;Hospitalisation à domicile;Hosp à domicile;HAD;20160519000000;;20160519000000
-1.2.250.1.213.1.1.4.9;Maintien à domicile;Maintien à domicile;Maintien à domicile;MAD;20160519000000;;20160519000000
-1.2.250.1.213.1.1.4.9;Soins palliatifs;Soins palliatifs;Soins palliatifs;PALLIATIF;20160519000000;;20160519000000
-1.2.250.1.213.1.1.4.9;Soins à domicile;Soins à domicile;Soins à domicile;SAD;20160519000000;;20160519000000
-1.2.250.1.213.1.1.4.9;SAMU/SMUR;SAMU/SMUR;SAMU/SMUR;SAMU_SMUR;20160519000000;;20160519000000
+1.2.250.1.213.1.1.4.9;AMBULATOIRE;Ambulatoire;Ambulatoire;Ambulatoire;20160519000000;;20160519000000
+1.2.250.1.213.1.1.4.9;AMO;Organisme d'assurance maladie obligatoire;Organisme d'assurance maladie obligatoire;Organisme AMO;20160519000000;;20160519000000
+1.2.250.1.213.1.1.4.9;DEPISTAGE;Dépistage;Dépistage;Dépistage;20160519000000;;20160519000000
+1.2.250.1.213.1.1.4.9;ESSMS;Etablissement ou Service Social ou Médico-Social;Etablissement ou Service Social ou Médico-Social;Etablissement ou Service Social ou Médico-Social;20240927120000;;20240927120000
+1.2.250.1.213.1.1.4.9;ETABLISSEMENT;Etablissement de santé;Etablissement de santé;Etab de santé;20160519000000;;20160519000000
+1.2.250.1.213.1.1.4.9;HAD;Hospitalisation à domicile;Hospitalisation à domicile;Hosp à domicile;20160519000000;;20160519000000
+1.2.250.1.213.1.1.4.9;MAD;Maintien à domicile;Maintien à domicile;Maintien à domicile;20160519000000;;20160519000000
+1.2.250.1.213.1.1.4.9;PALLIATIF;Soins palliatifs;Soins palliatifs;Soins palliatifs;20160519000000;;20160519000000
+1.2.250.1.213.1.1.4.9;SAD;Soins à domicile;Soins à domicile;Soins à domicile;20160519000000;;20160519000000
+1.2.250.1.213.1.1.4.9;SAMU_SMUR;SAMU/SMUR;SAMU/SMUR;SAMU/SMUR;20160519000000;;20160519000000

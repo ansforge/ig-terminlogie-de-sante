@@ -1,95 +1,95 @@
 <OID>;<Type fichier>;<Nom fichier>;<Description>;<URL fichier>;<Date valid>;<Date fin>;<Date MàJ>
 1.2.250.1.213.1.6.1.54;TRE;TRE_R36_AutreDiplomeObtenu.tabs;Autre diplôme obtenu;https://mos.esante.gouv.fr/NOS/TRE_R36-AutreDiplomeObtenu;20151229000000;;20231215120000
 <OID>;<Code>;<Libellé adapté>;<Libellé court>;<Libellé long>;<Date valid>;<Date fin>;<Date MAJ> 
-1.2.250.1.213.1.6.1.54;Diplôme Université Kabul (Afghanistan);Diplôme Université Kabul (Afghanistan);Dip Univ Kabul (Afghanistan);AUT001;20080402120538;;20080402120538
-1.2.250.1.213.1.6.1.54;Faculté de Médecine de Annaba (Algérie);Faculté de Médecine de Annaba (Algérie);Fac Médecine Annaba (Algérie);AUT002;20080402120538;;20160901000000
-1.2.250.1.213.1.6.1.54;Diplôme Université Alger (Algérie);Diplôme Université Alger (Algérie);Dip Univ Alger (Algérie);AUT003;20080402120538;;20151229000000
-1.2.250.1.213.1.6.1.54;Diplôme Université Constantine (Algérie);Diplôme Université Constantine (Algérie);Dip Univ Constantine (Algérie);AUT004;20080402120538;;20080402120538
-1.2.250.1.213.1.6.1.54;Diplôme Université Oran (Algérie);Diplôme Université Oran (Algérie);Dip Univ Oran (Algérie);AUT005;20080402120538;;20080402120538
-1.2.250.1.213.1.6.1.54;Diplôme Université Buenos Aires (Argentine);Diplôme Université Buenos Aires (Argentine);Dip Univ Buenos Aires;AUT006;20080402120538;;20160901000000
-1.2.250.1.213.1.6.1.54;Diplôme Université Australie;Diplôme Université Australie;Dip Univ Australie;AUT007;20080402120538;;20080402120538
-1.2.250.1.213.1.6.1.54;Diplôme Université Santa-Catarina (Brésil);Diplôme Université Santa-Catarina (Brésil);Dip Univ Sta-Catarina (Brésil);AUT008;20080402120538;;20160901000000
-1.2.250.1.213.1.6.1.54;Diplôme Université de Médecine de Sofia;Diplôme Université de Médecine de Sofia;Dip Univ de Médecine de Sofia;AUT009;20080402120538;;20080402120538
-1.2.250.1.213.1.6.1.54;Diplôme Université Santiago (Chili);Diplôme Université Santiago (Chili);Dip Univ Santiago (Chili);AUT010;20080402120538;;20080402120538
-1.2.250.1.213.1.6.1.54;Diplôme Université Congo;Diplôme Université Congo;Dip Univ Congo;AUT011;20080402120538;;20080402120538
-1.2.250.1.213.1.6.1.54;Diplôme Université Danemark;Diplôme Université Danemark;Dip Univ Danemark;AUT012;20080402120538;;20080402120538
-1.2.250.1.213.1.6.1.54;Diplôme Université Alexandrie (Egypte);Diplôme Université Alexandrie (Egypte);Dip Univ Alexandrie (Egypte);AUT013;20080402120538;;20080402120538
-1.2.250.1.213.1.6.1.54;Diplôme Université Le Caire (Egypte);Diplôme Université Le Caire (Egypte);Dip Univ Le Caire (Egypte);AUT014;20080402120538;;20080402120538
-1.2.250.1.213.1.6.1.54;Diplôme Université Athènes (Grèce);Diplôme Université Athènes (Grèce);Dip Univ Athènes (Grèce);AUT015;20080402120538;;20151229000000
-1.2.250.1.213.1.6.1.54;Diplôme Université San Carlos (Guatemala);Diplôme Université San Carlos (Guatemala);Dip Univ SanCarlos (Guatemala);AUT016;20080402120538;;20160901000000
-1.2.250.1.213.1.6.1.54;Diplôme Université Conakry (Guinée);Diplôme Université Conakry (Guinée);Dip Univ Conakry (Guinée);AUT017;20080402120538;;20080402120538
-1.2.250.1.213.1.6.1.54;Diplôme Université Téhéran (Iran);Diplôme Université Téhéran (Iran);Dip Univ Téhéran (Iran);AUT018;20080402120538;;20080402120538
-1.2.250.1.213.1.6.1.54;Faculté de Pharmacie Université Saint-Joseph Beyrouth;Faculté de Pharmacie Université Saint-Joseph Beyrouth;Fac Pharm St-Joseph Beyrouth;AUT019;20080402120538;;20160901000000
-1.2.250.1.213.1.6.1.54;Diplôme Université Bamako (Mali);Diplôme Université Bamako (Mali);Dip Univ Bamako (Mali);AUT020;20080402120538;;20080402120538
-1.2.250.1.213.1.6.1.54;Diplôme Université Bucarest;Diplôme Université Bucarest;Dip Univ Bucarest;AUT021;20080402120538;;20080402120538
-1.2.250.1.213.1.6.1.54;Diplôme Université Cluj-Napoca (Roumanie);Diplôme Université Cluj-Napoca (Roumanie);Dip Univ Cluj-Napoca, Roumanie;AUT022;20080402120538;;20160901000000
-1.2.250.1.213.1.6.1.54;Diplôme Université Roumanie;Diplôme Université Roumanie;Dip Univ Roumanie;AUT023;20080402120538;;20080402120538
-1.2.250.1.213.1.6.1.54;Diplôme Université Kharkov (Russie);Diplôme Université Kharkov (Russie);Dip Univ Kharkov (Russie);AUT024;20080402120538;;20151229000000
-1.2.250.1.213.1.6.1.54;Faculté de Médecine, de Pharmacie de Dakar;Faculté de Médecine, Pharmacie de Dakar;Fac Médecine, Pharmacie, Dakar;AUT025;20080402120538;;20080402120538
-1.2.250.1.213.1.6.1.54;Diplôme Université Damas (Syrie);Diplôme Université Damas (Syrie);Dip Univ Damas (Syrie);AUT026;20080402120538;;20080402120538
-1.2.250.1.213.1.6.1.54;Diplôme Université Monastir (Tunisie);Diplôme Université Monastir (Tunisie);Dip Univ Monastir (Tunisie);AUT027;20080402120538;;20080402120538
-1.2.250.1.213.1.6.1.54;Faculté de Médecine Hanoï (Viêt Nam);Faculté de Médecine Hanoï (Viêt Nam);Fac Médecine Hanoï (Viêt Nam);AUT028;20080402120538;;20080402120538
-1.2.250.1.213.1.6.1.54;Diplôme Université Saigon (Viêt Nam);Diplôme Université Saigon (Viêt Nam);Dip Univ Saigon (Viêt Nam);AUT029;20080402120538;;20160901000000
-1.2.250.1.213.1.6.1.54;Diplôme Faculté Méd Pharm Rabat (Maroc);Diplôme Faculté Médecine, Pharmacie Rabat (Maroc);Dip Fac Méd, Pharm Rabat;AUT030;20081201000000;;20160901000000
-1.2.250.1.213.1.6.1.54;Diplôme équivalent d'un pays hors EEE profession Médecin;Diplôme équivalent d'un pays hors EEE profession Médecin;Dip éq pays hors EEE Médecin;AUT031;20081201000000;;20160901000000
-1.2.250.1.213.1.6.1.54;Diplôme équivalent de Pharmacie d'un pays hors EEE;Diplôme éq de Pharmacie d'un pays hors EEE;Dip éq Pharmacie pays hors EEE;AUT032;20081201000000;;20160901000000
-1.2.250.1.213.1.6.1.54;Diplôme équivalent d'un pays hors EEE profession Chirurgien-Dentiste;Diplôme équivalent d'un pays hors EEE profession Chirurgien-Dentiste;Dip éq pays hors EEE Chir-Dent;AUT033;20081201000000;;20160901000000
-1.2.250.1.213.1.6.1.54;Diplôme équivalent d'un pays hors EEE profession Sage-Femme;Diplôme équivalent d'un pays hors EEE profession Sage-Femme;Dip éq pays hors EEE Sage-Fem;AUT034;20081201000000;;20160901000000
-1.2.250.1.213.1.6.1.54;Diplôme Université d'Etat Méd Pharm Erevan (Arménie);Diplôme Université d'Etat Méd Pharm Erevan (Arménie);Dip Univ Etat Méd, Phar Erevan;AUT035;20081215000000;;20160901000000
-1.2.250.1.213.1.6.1.54;Diplôme Université Tichrine (Syrie);Diplôme Université Tichrine (Syrie);Dip Univ Tichrine (Syrie);AUT036;20090907000000;;20090907000000
-1.2.250.1.213.1.6.1.54;Diplôme d'Etat français de docteur en Pharmacie;Diplôme d'Etat français de docteur en Pharmacie;DE français docteur Pharmacie;AUT100;20081219090144;;20160901000000
-1.2.250.1.213.1.6.1.54;DEES Médecine générale;DEES Médecine générale;DEES Médecine générale;AUT101;20090130163356;;20151229000000
-1.2.250.1.213.1.6.1.54;DEES Anesthésie réanimation;DEES Anesthésie réanimation;DEES Anesthésie réanimation;AUT102;20090130163400;;20160901000000
-1.2.250.1.213.1.6.1.54;DEES Chirurgie générale;DEES Chirurgie générale;DEES Chirurgie générale;AUT103;20090130163406;;20160901000000
-1.2.250.1.213.1.6.1.54;DEES Médecine physique et de réadaptation;DEES Médecine physique et de réadaptation;DEES Médecine physiq, réadapt;AUT104;20090130163454;;20160901000000
-1.2.250.1.213.1.6.1.54;DEES Radio-diagnostic et Imagerie médicale;DEES Radio-diagnostic et Imagerie médicale;DEES Radio-diag, Imagerie méd;AUT105;20090130163512;;20160901000000
-1.2.250.1.213.1.6.1.54;DEES Rhumatologie;DEES Rhumatologie;DEES Rhumatologie;AUT106;20090130163515;;20151229000000
-1.2.250.1.213.1.6.1.54;DEES Médecine du travail;DEES Médecine du travail;DEES Médecine du travail;AUT107;20090130163526;;20151229000000
-1.2.250.1.213.1.6.1.54;DEES Neurologie;DEES Neurologie;DEES Neurologie;AUT108;20090130163541;;20151229000000
-1.2.250.1.213.1.6.1.54;DEES Pédiatrie;DEES Pédiatrie;DEES Pédiatrie;AUT109;20090130163601;;20151229000000
-1.2.250.1.213.1.6.1.54;DEES Neuro-chirurgie;DEES Neuro-chirurgie;DEES Neuro-chirurgie;AUT110;20090130163609;;20151229000000
-1.2.250.1.213.1.6.1.54;DEES Psychiatrie;DEES Psychiatrie;DEES Psychiatrie;AUT111;20090130163625;;20151229000000
-1.2.250.1.213.1.6.1.54;DEES Médecine générale nouveau régime;DEES Médecine générale nouveau régime;DEES MG nouveau régime;AUT112;20090130163638;;20151229000000
-1.2.250.1.213.1.6.1.54;DEES Cardiologie et Maladies vasculaires;DEES Cardiologie et Maladies vasculaires;DEES Cardiologie, Malad vascul;AUT113;20090130163655;;20160901000000
-1.2.250.1.213.1.6.1.54;DEES Ophtalmologie;DEES Ophtalmologie;DEES Ophtalmologie;AUT114;20090130163656;;20151229000000
-1.2.250.1.213.1.6.1.54;DEES Biologie médicale;DEES Biologie médicale;DEES Biologie médicale;AUT115;20090130163716;;20151229000000
-1.2.250.1.213.1.6.1.54;DEES Chirurgie orthopédique et traumatologique;DEES Chirurgie orthopédique et traumatologique;DEES Chir orthopédique, trauma;AUT116;20090130163719;;20160901000000
-1.2.250.1.213.1.6.1.54;DEES hématologie;DEES hématologie;DEES hématologie;AUT117;20090130163745;;20151229000000
-1.2.250.1.213.1.6.1.54;DEES Gynécologie-obstétrique;DEES Gynécologie-obstétrique;DEES Gynécologie-obstétrique;AUT118;20090130163756;;20160901000000
-1.2.250.1.213.1.6.1.54;DEES Chirurgie plastique, reconstructrice et esthétique;DEES Chirurgie plastique, reconstructrice et esthétique;DEES Chir plastiq recon esthét;AUT119;20090130163845;;20160901000000
-1.2.250.1.213.1.6.1.54;DEES Médecine interne;DEES Médecine interne;DEES Médecine interne;AUT120;20090130163918;;20151229000000
-1.2.250.1.213.1.6.1.54;DEES Chirurgie urologique;DEES Chirurgie urologique;DEES Chir urologique;AUT121;20090130164054;;20160901000000
-1.2.250.1.213.1.6.1.54;DEES Pathologie cardio-vasculaire;DEES Pathologie cardio-vasculaire;DEES Pathologie cardio-vascul;AUT122;20090130164217;;20160901000000
-1.2.250.1.213.1.6.1.54;DEES Radio-thérapie;DEES Radio-thérapie;DEES Radio-thérapie;AUT123;20090130164308;;20151229000000
-1.2.250.1.213.1.6.1.54;DEES Chirurgie vasculaire;DEES Chirurgie vasculaire;DEES Chirurgie vasculaire;AUT124;20090130164509;;20160901000000
-1.2.250.1.213.1.6.1.54;DEES Dermato-vénéréologie;DEES Dermato-vénéréologie;DEES Dermato-vénéréologie;AUT125;20090130164513;;20160901000000
-1.2.250.1.213.1.6.1.54;DEES Chirurgie orthopédique et traumatologique;DEES Chirurgie orthopédique et traumatologique;DEES Chir orthopédique, trauma;AUT126;20090130164632;;20160901000000
-1.2.250.1.213.1.6.1.54;DEES Chirurgie vasculaire;DEES Chirurgie vasculaire;DEES Chirurgie vasculaire;AUT127;20090130164749;;20160901000000
-1.2.250.1.213.1.6.1.54;DEES Pneumologie;DEES Pneumologie;DEES Pneumologie;AUT128;20090130164823;;20151229000000
-1.2.250.1.213.1.6.1.54;DEES Anatomie et Cytologie pathologiques;DEES Anatomie et Cytologie pathologiques;DEES Anatomie, Cytologie patho;AUT129;20090130164855;;20160901000000
-1.2.250.1.213.1.6.1.54;DEES Chirurgie thoracique et cardio-vasculaire;DEES Chirurgie thoracique et cardio-vasculaire;DEES Chir thoraciq cardio-vasc;AUT130;20090130164950;;20160901000000
-1.2.250.1.213.1.6.1.54;DEES Psychiatrie infantile;DEES Psychiatrie infantile;DEES Psychiatrie infantile;AUT131;20090130165038;;20160901000000
-1.2.250.1.213.1.6.1.54;DEES ORL et Chirurgie cervico-faciale;DEES ORL et Chirurgie cervico-faciale;DEES ORL, Chir cervico-fac;AUT132;20090130165305;;20160901000000
-1.2.250.1.213.1.6.1.54;DEES ORL;DEES ORL;DEES ORL;AUT133;20090130165354;;20151229000000
-1.2.250.1.213.1.6.1.54;DEES Chirurgie thoracique et cardio-vasculaire;DEES Chirurgie thoracique et cardio-vasculaire;DEES Chir thoraciq cardio-vasc;AUT134;20090130165503;;20160901000000
-1.2.250.1.213.1.6.1.54;DEES Génétique médicale;DEES Génétique médicale;DEES Génétique médicale;AUT135;20090130173438;;20160901000000
-1.2.250.1.213.1.6.1.54;DEES Néphrologie;DEES Néphrologie;DEES Néphrologie;AUT136;20090130163223;;20151229000000
-1.2.250.1.213.1.6.1.54;Diplôme d'un pays hors EEE profession Médecin;Dip d'un pays hors EEE profession Médecin;Dip pays hors EEE Médecin;AUT140;20090223111955;;20160901000000
-1.2.250.1.213.1.6.1.54;Diplôme équivalent d'un pays hors EEE profession Médecin;Diplôme équivalent d'un pays hors EEE profession Médecin;Dip éq pays hors EEE Médecin;AUT141;20090626115732;;20160901000000
-1.2.250.1.213.1.6.1.54;Diplôme Université Montréal (Canada);Dip Université Montréal (Canada);Dip Univ Montréal (Canada);AUT142;20091230091239;;20091230091239
-1.2.250.1.213.1.6.1.54;Diplôme Faculté Pharm Univ Cocody (Côte d'Ivoire);Dip Faculté Pharm Univ Cocody (Côte d'Ivoire);Dip Fac Pharm Univ Cocody;AUT143;20100421092107;;20160901000000
-1.2.250.1.213.1.6.1.54;Dip Université Beyrouth;Dip Université Beyrouth;Dip Univ Beyrouth;AUT144;20110414090137;;20110414090137
-1.2.250.1.213.1.6.1.54;Diplôme Faculté Pharm Univ Lattaquié (Syrie);Dip Faculté Pharm Univ Lattaquié (Syrie);Dip Fac Pharm Univ Lattaquié;AUT145;20120228162814;;20151229000000
-1.2.250.1.213.1.6.1.54;Diplôme Université Saint-Joseph Beyrouth;Dip Université Saint-Joseph Beyrouth;Dip Univ Saint-Joseph Beyrouth;AUT154;20150209000000;;20150209000000
-1.2.250.1.213.1.6.1.54;Diplôme Faculté Pharm Univ Alep (Syrie);Dip Faculté Pharm Univ Alep (Syrie);Dip Fac Pharm Alep (Syrie);AUT159;20150209000000;;20160901000000
-1.2.250.1.213.1.6.1.54;Diplôme Faculté Pharm Univ Koursk (Russie);Dip Faculté Pharm Univ Koursk (Russie);Dip Fac Pharm Koursk (Russie);AUT164;20150209000000;;20160901000000
-1.2.250.1.213.1.6.1.54;Diplôme Université Mogi das Cruzes (Brésil);Dip Université Mogi das Cruzes (Brésil);Dip Univ Mogi Cruzes (Brésil);AUT169;20150209000000;;20160901000000
-1.2.250.1.213.1.6.1.54;Diplôme Faculté Méd Univ Tirana Département Pharm (Albanie);Diplôme Faculté Méd Univ Tirana Département Pharm (Albanie);Dip Fac Méd Univ Pharm, Tirana;AUT174;20150209000000;;20160901000000
-1.2.250.1.213.1.6.1.54;Diplôme Université Al Baath (Homs,Syrie);Dip Université Al Baath (Homs,Syrie);Dip Univ Al Baath (Homs,Syrie);AUT179;20150209000000;;20160901000000
-1.2.250.1.213.1.6.1.54;Diplôme Université de Saint-Petersbourg (Russie);Dip Université de Saint-Petersbourg (Russie);Dip Univ Saint-Petersbourg;AUT184;20150209000000;;20160901000000
-1.2.250.1.213.1.6.1.54;Diplôme Université Lima (Pérou);Dip Université Lima (Pérou);Dip Univ Lima (Pérou);AUT189;20150209000000;;20150209000000
-1.2.250.1.213.1.6.1.54;Diplôme Université Cordoba (Argentine);Dip Université Cordoba (Argentine);Dip Univ Cordoba (Argentine);AUT194;20150209000000;;20160901000000
-1.2.250.1.213.1.6.1.54;Nomenclature interne;Nomenclature interne;Nomenclature interne;AUT199;20150209000000;;20150209000000
-1.2.250.1.213.1.6.1.54;Diplôme Université Chisinau (Moldavie);Dip Université Chisinau (Moldavie);Dip Univ Chisinau (Moldavie);AUT204;20150209000000;;20150209000000
-1.2.250.1.213.1.6.1.54;Diplôme Univ Djillali Liabès, Sidi Bel Abbès (Algérie);Diplôme Univ Djillali Liabès, Sidi Bel Abbès (Algérie);Dip Univ Djil Liabès, SB Abbès;AUT209;20150209000000;;20160901000000
-1.2.250.1.213.1.6.1.54;Diplôme Université de Moscou (Russie);Dip Université de Moscou (Russie);Dip Univ de Moscou (Russie);AUT214;20150209000000;;20150209000000
+1.2.250.1.213.1.6.1.54;AUT001;Diplôme Université Kabul (Afghanistan);Diplôme Université Kabul (Afghanistan);Dip Univ Kabul (Afghanistan);20080402120538;;20080402120538
+1.2.250.1.213.1.6.1.54;AUT002;Faculté de Médecine de Annaba (Algérie);Faculté de Médecine de Annaba (Algérie);Fac Médecine Annaba (Algérie);20080402120538;;20160901000000
+1.2.250.1.213.1.6.1.54;AUT003;Diplôme Université Alger (Algérie);Diplôme Université Alger (Algérie);Dip Univ Alger (Algérie);20080402120538;;20151229000000
+1.2.250.1.213.1.6.1.54;AUT004;Diplôme Université Constantine (Algérie);Diplôme Université Constantine (Algérie);Dip Univ Constantine (Algérie);20080402120538;;20080402120538
+1.2.250.1.213.1.6.1.54;AUT005;Diplôme Université Oran (Algérie);Diplôme Université Oran (Algérie);Dip Univ Oran (Algérie);20080402120538;;20080402120538
+1.2.250.1.213.1.6.1.54;AUT006;Diplôme Université Buenos Aires (Argentine);Diplôme Université Buenos Aires (Argentine);Dip Univ Buenos Aires;20080402120538;;20160901000000
+1.2.250.1.213.1.6.1.54;AUT007;Diplôme Université Australie;Diplôme Université Australie;Dip Univ Australie;20080402120538;;20080402120538
+1.2.250.1.213.1.6.1.54;AUT008;Diplôme Université Santa-Catarina (Brésil);Diplôme Université Santa-Catarina (Brésil);Dip Univ Sta-Catarina (Brésil);20080402120538;;20160901000000
+1.2.250.1.213.1.6.1.54;AUT009;Diplôme Université de Médecine de Sofia;Diplôme Université de Médecine de Sofia;Dip Univ de Médecine de Sofia;20080402120538;;20080402120538
+1.2.250.1.213.1.6.1.54;AUT010;Diplôme Université Santiago (Chili);Diplôme Université Santiago (Chili);Dip Univ Santiago (Chili);20080402120538;;20080402120538
+1.2.250.1.213.1.6.1.54;AUT011;Diplôme Université Congo;Diplôme Université Congo;Dip Univ Congo;20080402120538;;20080402120538
+1.2.250.1.213.1.6.1.54;AUT012;Diplôme Université Danemark;Diplôme Université Danemark;Dip Univ Danemark;20080402120538;;20080402120538
+1.2.250.1.213.1.6.1.54;AUT013;Diplôme Université Alexandrie (Egypte);Diplôme Université Alexandrie (Egypte);Dip Univ Alexandrie (Egypte);20080402120538;;20080402120538
+1.2.250.1.213.1.6.1.54;AUT014;Diplôme Université Le Caire (Egypte);Diplôme Université Le Caire (Egypte);Dip Univ Le Caire (Egypte);20080402120538;;20080402120538
+1.2.250.1.213.1.6.1.54;AUT015;Diplôme Université Athènes (Grèce);Diplôme Université Athènes (Grèce);Dip Univ Athènes (Grèce);20080402120538;;20151229000000
+1.2.250.1.213.1.6.1.54;AUT016;Diplôme Université San Carlos (Guatemala);Diplôme Université San Carlos (Guatemala);Dip Univ SanCarlos (Guatemala);20080402120538;;20160901000000
+1.2.250.1.213.1.6.1.54;AUT017;Diplôme Université Conakry (Guinée);Diplôme Université Conakry (Guinée);Dip Univ Conakry (Guinée);20080402120538;;20080402120538
+1.2.250.1.213.1.6.1.54;AUT018;Diplôme Université Téhéran (Iran);Diplôme Université Téhéran (Iran);Dip Univ Téhéran (Iran);20080402120538;;20080402120538
+1.2.250.1.213.1.6.1.54;AUT019;Faculté de Pharmacie Université Saint-Joseph Beyrouth;Faculté de Pharmacie Université Saint-Joseph Beyrouth;Fac Pharm St-Joseph Beyrouth;20080402120538;;20160901000000
+1.2.250.1.213.1.6.1.54;AUT020;Diplôme Université Bamako (Mali);Diplôme Université Bamako (Mali);Dip Univ Bamako (Mali);20080402120538;;20080402120538
+1.2.250.1.213.1.6.1.54;AUT021;Diplôme Université Bucarest;Diplôme Université Bucarest;Dip Univ Bucarest;20080402120538;;20080402120538
+1.2.250.1.213.1.6.1.54;AUT022;Diplôme Université Cluj-Napoca (Roumanie);Diplôme Université Cluj-Napoca (Roumanie);Dip Univ Cluj-Napoca, Roumanie;20080402120538;;20160901000000
+1.2.250.1.213.1.6.1.54;AUT023;Diplôme Université Roumanie;Diplôme Université Roumanie;Dip Univ Roumanie;20080402120538;;20080402120538
+1.2.250.1.213.1.6.1.54;AUT024;Diplôme Université Kharkov (Russie);Diplôme Université Kharkov (Russie);Dip Univ Kharkov (Russie);20080402120538;;20151229000000
+1.2.250.1.213.1.6.1.54;AUT025;Faculté de Médecine, de Pharmacie de Dakar;Faculté de Médecine, Pharmacie de Dakar;Fac Médecine, Pharmacie, Dakar;20080402120538;;20080402120538
+1.2.250.1.213.1.6.1.54;AUT026;Diplôme Université Damas (Syrie);Diplôme Université Damas (Syrie);Dip Univ Damas (Syrie);20080402120538;;20080402120538
+1.2.250.1.213.1.6.1.54;AUT027;Diplôme Université Monastir (Tunisie);Diplôme Université Monastir (Tunisie);Dip Univ Monastir (Tunisie);20080402120538;;20080402120538
+1.2.250.1.213.1.6.1.54;AUT028;Faculté de Médecine Hanoï (Viêt Nam);Faculté de Médecine Hanoï (Viêt Nam);Fac Médecine Hanoï (Viêt Nam);20080402120538;;20080402120538
+1.2.250.1.213.1.6.1.54;AUT029;Diplôme Université Saigon (Viêt Nam);Diplôme Université Saigon (Viêt Nam);Dip Univ Saigon (Viêt Nam);20080402120538;;20160901000000
+1.2.250.1.213.1.6.1.54;AUT030;Diplôme Faculté Méd Pharm Rabat (Maroc);Diplôme Faculté Médecine, Pharmacie Rabat (Maroc);Dip Fac Méd, Pharm Rabat;20081201000000;;20160901000000
+1.2.250.1.213.1.6.1.54;AUT031;Diplôme équivalent d'un pays hors EEE profession Médecin;Diplôme équivalent d'un pays hors EEE profession Médecin;Dip éq pays hors EEE Médecin;20081201000000;;20160901000000
+1.2.250.1.213.1.6.1.54;AUT032;Diplôme équivalent de Pharmacie d'un pays hors EEE;Diplôme éq de Pharmacie d'un pays hors EEE;Dip éq Pharmacie pays hors EEE;20081201000000;;20160901000000
+1.2.250.1.213.1.6.1.54;AUT033;Diplôme équivalent d'un pays hors EEE profession Chirurgien-Dentiste;Diplôme équivalent d'un pays hors EEE profession Chirurgien-Dentiste;Dip éq pays hors EEE Chir-Dent;20081201000000;;20160901000000
+1.2.250.1.213.1.6.1.54;AUT034;Diplôme équivalent d'un pays hors EEE profession Sage-Femme;Diplôme équivalent d'un pays hors EEE profession Sage-Femme;Dip éq pays hors EEE Sage-Fem;20081201000000;;20160901000000
+1.2.250.1.213.1.6.1.54;AUT035;Diplôme Université d'Etat Méd Pharm Erevan (Arménie);Diplôme Université d'Etat Méd Pharm Erevan (Arménie);Dip Univ Etat Méd, Phar Erevan;20081215000000;;20160901000000
+1.2.250.1.213.1.6.1.54;AUT036;Diplôme Université Tichrine (Syrie);Diplôme Université Tichrine (Syrie);Dip Univ Tichrine (Syrie);20090907000000;;20090907000000
+1.2.250.1.213.1.6.1.54;AUT100;Diplôme d'Etat français de docteur en Pharmacie;Diplôme d'Etat français de docteur en Pharmacie;DE français docteur Pharmacie;20081219090144;;20160901000000
+1.2.250.1.213.1.6.1.54;AUT101;DEES Médecine générale;DEES Médecine générale;DEES Médecine générale;20090130163356;;20151229000000
+1.2.250.1.213.1.6.1.54;AUT102;DEES Anesthésie réanimation;DEES Anesthésie réanimation;DEES Anesthésie réanimation;20090130163400;;20160901000000
+1.2.250.1.213.1.6.1.54;AUT103;DEES Chirurgie générale;DEES Chirurgie générale;DEES Chirurgie générale;20090130163406;;20160901000000
+1.2.250.1.213.1.6.1.54;AUT104;DEES Médecine physique et de réadaptation;DEES Médecine physique et de réadaptation;DEES Médecine physiq, réadapt;20090130163454;;20160901000000
+1.2.250.1.213.1.6.1.54;AUT105;DEES Radio-diagnostic et Imagerie médicale;DEES Radio-diagnostic et Imagerie médicale;DEES Radio-diag, Imagerie méd;20090130163512;;20160901000000
+1.2.250.1.213.1.6.1.54;AUT106;DEES Rhumatologie;DEES Rhumatologie;DEES Rhumatologie;20090130163515;;20151229000000
+1.2.250.1.213.1.6.1.54;AUT107;DEES Médecine du travail;DEES Médecine du travail;DEES Médecine du travail;20090130163526;;20151229000000
+1.2.250.1.213.1.6.1.54;AUT108;DEES Neurologie;DEES Neurologie;DEES Neurologie;20090130163541;;20151229000000
+1.2.250.1.213.1.6.1.54;AUT109;DEES Pédiatrie;DEES Pédiatrie;DEES Pédiatrie;20090130163601;;20151229000000
+1.2.250.1.213.1.6.1.54;AUT110;DEES Neuro-chirurgie;DEES Neuro-chirurgie;DEES Neuro-chirurgie;20090130163609;;20151229000000
+1.2.250.1.213.1.6.1.54;AUT111;DEES Psychiatrie;DEES Psychiatrie;DEES Psychiatrie;20090130163625;;20151229000000
+1.2.250.1.213.1.6.1.54;AUT112;DEES Médecine générale nouveau régime;DEES Médecine générale nouveau régime;DEES MG nouveau régime;20090130163638;;20151229000000
+1.2.250.1.213.1.6.1.54;AUT113;DEES Cardiologie et Maladies vasculaires;DEES Cardiologie et Maladies vasculaires;DEES Cardiologie, Malad vascul;20090130163655;;20160901000000
+1.2.250.1.213.1.6.1.54;AUT114;DEES Ophtalmologie;DEES Ophtalmologie;DEES Ophtalmologie;20090130163656;;20151229000000
+1.2.250.1.213.1.6.1.54;AUT115;DEES Biologie médicale;DEES Biologie médicale;DEES Biologie médicale;20090130163716;;20151229000000
+1.2.250.1.213.1.6.1.54;AUT116;DEES Chirurgie orthopédique et traumatologique;DEES Chirurgie orthopédique et traumatologique;DEES Chir orthopédique, trauma;20090130163719;;20160901000000
+1.2.250.1.213.1.6.1.54;AUT117;DEES hématologie;DEES hématologie;DEES hématologie;20090130163745;;20151229000000
+1.2.250.1.213.1.6.1.54;AUT118;DEES Gynécologie-obstétrique;DEES Gynécologie-obstétrique;DEES Gynécologie-obstétrique;20090130163756;;20160901000000
+1.2.250.1.213.1.6.1.54;AUT119;DEES Chirurgie plastique, reconstructrice et esthétique;DEES Chirurgie plastique, reconstructrice et esthétique;DEES Chir plastiq recon esthét;20090130163845;;20160901000000
+1.2.250.1.213.1.6.1.54;AUT120;DEES Médecine interne;DEES Médecine interne;DEES Médecine interne;20090130163918;;20151229000000
+1.2.250.1.213.1.6.1.54;AUT121;DEES Chirurgie urologique;DEES Chirurgie urologique;DEES Chir urologique;20090130164054;;20160901000000
+1.2.250.1.213.1.6.1.54;AUT122;DEES Pathologie cardio-vasculaire;DEES Pathologie cardio-vasculaire;DEES Pathologie cardio-vascul;20090130164217;;20160901000000
+1.2.250.1.213.1.6.1.54;AUT123;DEES Radio-thérapie;DEES Radio-thérapie;DEES Radio-thérapie;20090130164308;;20151229000000
+1.2.250.1.213.1.6.1.54;AUT124;DEES Chirurgie vasculaire;DEES Chirurgie vasculaire;DEES Chirurgie vasculaire;20090130164509;;20160901000000
+1.2.250.1.213.1.6.1.54;AUT125;DEES Dermato-vénéréologie;DEES Dermato-vénéréologie;DEES Dermato-vénéréologie;20090130164513;;20160901000000
+1.2.250.1.213.1.6.1.54;AUT126;DEES Chirurgie orthopédique et traumatologique;DEES Chirurgie orthopédique et traumatologique;DEES Chir orthopédique, trauma;20090130164632;;20160901000000
+1.2.250.1.213.1.6.1.54;AUT127;DEES Chirurgie vasculaire;DEES Chirurgie vasculaire;DEES Chirurgie vasculaire;20090130164749;;20160901000000
+1.2.250.1.213.1.6.1.54;AUT128;DEES Pneumologie;DEES Pneumologie;DEES Pneumologie;20090130164823;;20151229000000
+1.2.250.1.213.1.6.1.54;AUT129;DEES Anatomie et Cytologie pathologiques;DEES Anatomie et Cytologie pathologiques;DEES Anatomie, Cytologie patho;20090130164855;;20160901000000
+1.2.250.1.213.1.6.1.54;AUT130;DEES Chirurgie thoracique et cardio-vasculaire;DEES Chirurgie thoracique et cardio-vasculaire;DEES Chir thoraciq cardio-vasc;20090130164950;;20160901000000
+1.2.250.1.213.1.6.1.54;AUT131;DEES Psychiatrie infantile;DEES Psychiatrie infantile;DEES Psychiatrie infantile;20090130165038;;20160901000000
+1.2.250.1.213.1.6.1.54;AUT132;DEES ORL et Chirurgie cervico-faciale;DEES ORL et Chirurgie cervico-faciale;DEES ORL, Chir cervico-fac;20090130165305;;20160901000000
+1.2.250.1.213.1.6.1.54;AUT133;DEES ORL;DEES ORL;DEES ORL;20090130165354;;20151229000000
+1.2.250.1.213.1.6.1.54;AUT134;DEES Chirurgie thoracique et cardio-vasculaire;DEES Chirurgie thoracique et cardio-vasculaire;DEES Chir thoraciq cardio-vasc;20090130165503;;20160901000000
+1.2.250.1.213.1.6.1.54;AUT135;DEES Génétique médicale;DEES Génétique médicale;DEES Génétique médicale;20090130173438;;20160901000000
+1.2.250.1.213.1.6.1.54;AUT136;DEES Néphrologie;DEES Néphrologie;DEES Néphrologie;20090130163223;;20151229000000
+1.2.250.1.213.1.6.1.54;AUT140;Diplôme d'un pays hors EEE profession Médecin;Dip d'un pays hors EEE profession Médecin;Dip pays hors EEE Médecin;20090223111955;;20160901000000
+1.2.250.1.213.1.6.1.54;AUT141;Diplôme équivalent d'un pays hors EEE profession Médecin;Diplôme équivalent d'un pays hors EEE profession Médecin;Dip éq pays hors EEE Médecin;20090626115732;;20160901000000
+1.2.250.1.213.1.6.1.54;AUT142;Diplôme Université Montréal (Canada);Dip Université Montréal (Canada);Dip Univ Montréal (Canada);20091230091239;;20091230091239
+1.2.250.1.213.1.6.1.54;AUT143;Diplôme Faculté Pharm Univ Cocody (Côte d'Ivoire);Dip Faculté Pharm Univ Cocody (Côte d'Ivoire);Dip Fac Pharm Univ Cocody;20100421092107;;20160901000000
+1.2.250.1.213.1.6.1.54;AUT144;Dip Université Beyrouth;Dip Université Beyrouth;Dip Univ Beyrouth;20110414090137;;20110414090137
+1.2.250.1.213.1.6.1.54;AUT145;Diplôme Faculté Pharm Univ Lattaquié (Syrie);Dip Faculté Pharm Univ Lattaquié (Syrie);Dip Fac Pharm Univ Lattaquié;20120228162814;;20151229000000
+1.2.250.1.213.1.6.1.54;AUT154;Diplôme Université Saint-Joseph Beyrouth;Dip Université Saint-Joseph Beyrouth;Dip Univ Saint-Joseph Beyrouth;20150209000000;;20150209000000
+1.2.250.1.213.1.6.1.54;AUT159;Diplôme Faculté Pharm Univ Alep (Syrie);Dip Faculté Pharm Univ Alep (Syrie);Dip Fac Pharm Alep (Syrie);20150209000000;;20160901000000
+1.2.250.1.213.1.6.1.54;AUT164;Diplôme Faculté Pharm Univ Koursk (Russie);Dip Faculté Pharm Univ Koursk (Russie);Dip Fac Pharm Koursk (Russie);20150209000000;;20160901000000
+1.2.250.1.213.1.6.1.54;AUT169;Diplôme Université Mogi das Cruzes (Brésil);Dip Université Mogi das Cruzes (Brésil);Dip Univ Mogi Cruzes (Brésil);20150209000000;;20160901000000
+1.2.250.1.213.1.6.1.54;AUT174;Diplôme Faculté Méd Univ Tirana Département Pharm (Albanie);Diplôme Faculté Méd Univ Tirana Département Pharm (Albanie);Dip Fac Méd Univ Pharm, Tirana;20150209000000;;20160901000000
+1.2.250.1.213.1.6.1.54;AUT179;Diplôme Université Al Baath (Homs,Syrie);Dip Université Al Baath (Homs,Syrie);Dip Univ Al Baath (Homs,Syrie);20150209000000;;20160901000000
+1.2.250.1.213.1.6.1.54;AUT184;Diplôme Université de Saint-Petersbourg (Russie);Dip Université de Saint-Petersbourg (Russie);Dip Univ Saint-Petersbourg;20150209000000;;20160901000000
+1.2.250.1.213.1.6.1.54;AUT189;Diplôme Université Lima (Pérou);Dip Université Lima (Pérou);Dip Univ Lima (Pérou);20150209000000;;20150209000000
+1.2.250.1.213.1.6.1.54;AUT194;Diplôme Université Cordoba (Argentine);Dip Université Cordoba (Argentine);Dip Univ Cordoba (Argentine);20150209000000;;20160901000000
+1.2.250.1.213.1.6.1.54;AUT199;Nomenclature interne;Nomenclature interne;Nomenclature interne;20150209000000;;20150209000000
+1.2.250.1.213.1.6.1.54;AUT204;Diplôme Université Chisinau (Moldavie);Dip Université Chisinau (Moldavie);Dip Univ Chisinau (Moldavie);20150209000000;;20150209000000
+1.2.250.1.213.1.6.1.54;AUT209;Diplôme Univ Djillali Liabès, Sidi Bel Abbès (Algérie);Diplôme Univ Djillali Liabès, Sidi Bel Abbès (Algérie);Dip Univ Djil Liabès, SB Abbès;20150209000000;;20160901000000
+1.2.250.1.213.1.6.1.54;AUT214;Diplôme Université de Moscou (Russie);Dip Université de Moscou (Russie);Dip Univ de Moscou (Russie);20150209000000;;20150209000000
