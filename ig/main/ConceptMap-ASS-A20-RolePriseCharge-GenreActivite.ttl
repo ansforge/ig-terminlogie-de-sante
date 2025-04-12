@@ -31,6 +31,12 @@
   fhir:experimental [ fhir:v false] ; # 
   fhir:date [ fhir:v "2022-02-25T12:00:00+01:00"^^xsd:dateTime] ; # 
   fhir:description [ fhir:v "Table d'association rôle / genre d'activité pour la saisie automatique"] ; # 
+  fhir:jurisdiction ( [
+     fhir:coding ( [
+       fhir:system [ fhir:v "urn:iso:std:iso:3166"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "FR" ]
+     ] )
+  ] ) ; # 
   fhir:group ( [
      fhir:source [ fhir:v "https://mos.esante.gouv.fr/NOS/TRE_R85-RolePriseCharge/FHIR/TRE-R85-RolePriseCharge"^^xsd:anyURI ] ;
      fhir:target [ fhir:v "https://mos.esante.gouv.fr/NOS/TRE_R22-GenreActivite/FHIR/TRE-R22-GenreActivite"^^xsd:anyURI ] ;

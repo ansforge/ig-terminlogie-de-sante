@@ -10,7 +10,7 @@
   "name" : "Terminologies",
   "title" : "Terminologies  de Santé",
   "status" : "active",
-  "date" : "2025-04-12T12:55:34+00:00",
+  "date" : "2025-04-12T15:44:59+00:00",
   "publisher" : "ANS",
   "contact" : [{
     "name" : "ANS",
@@ -23,8 +23,7 @@
   "jurisdiction" : [{
     "coding" : [{
       "system" : "urn:iso:std:iso:3166",
-      "code" : "FR",
-      "display" : "France"
+      "code" : "FR"
     }]
   }],
   "packageId" : "ans.fr.terminologies",
@@ -119,7 +118,7 @@
       },
       {
         "url" : "value",
-        "valueString" : "false"
+        "valueString" : "true"
       }],
       "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
     },
@@ -16458,7 +16457,7 @@
       },
       {
         "url" : "value",
-        "valueString" : "false"
+        "valueString" : "true"
       }],
       "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
     },

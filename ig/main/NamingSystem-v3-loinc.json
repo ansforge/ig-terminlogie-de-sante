@@ -26,6 +26,12 @@
   "contact" : [{
     "name" : "LOINC and Health Data Standards, Regenstrief Institute, Inc."
   }],
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "FR"
+    }]
+  }],
   "uniqueId" : [{
     "type" : "oid",
     "value" : "2.16.840.1.113883.6.1"

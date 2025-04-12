@@ -37,6 +37,12 @@
       "text" : "Aligner les codes ATC de NUVA avec les codes ATC"
     }
   }],
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "FR"
+    }]
+  }],
   "sourceCanonical" : "https://smt.esante.gouv.fr/terminologie-nuva?vs",
   "targetCanonical" : "https://smt.esante.gouv.fr/terminologie-atc?vs",
   "group" : [{

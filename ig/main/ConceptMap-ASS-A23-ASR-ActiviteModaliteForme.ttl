@@ -37,6 +37,12 @@
   fhir:experimental [ fhir:v false] ; # 
   fhir:date [ fhir:v "2022-03-25T12:00:00+01:00"^^xsd:dateTime] ; # 
   fhir:description [ fhir:v "Triplet activité modalité forme pour Activités Soumises à Reconnaissance (ASR)"] ; # 
+  fhir:jurisdiction ( [
+     fhir:coding ( [
+       fhir:system [ fhir:v "urn:iso:std:iso:3166"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "FR" ]
+     ] )
+  ] ) ; # 
   fhir:source [
      a fhir:uri ;
      fhir:v "https://mos.esante.gouv.fr/NOS/JDV_J133-ActiviteSanitaireRegulee-RASS/FHIR/JDV-J133-ActiviteSanitaireRegulee-RASS"^^xsd:anyURI

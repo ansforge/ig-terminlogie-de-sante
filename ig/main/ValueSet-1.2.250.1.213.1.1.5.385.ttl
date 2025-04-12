@@ -42,6 +42,12 @@
   fhir:date [ fhir:v "2023-04-04T00:00:00+01:00"^^xsd:dateTime] ; # 
   fhir:publisher [ fhir:v "Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris"] ; # 
   fhir:description [ fhir:v "JDV_Pharynx_Type_histologique_lesion_neoplasique_maligne_invasive_CISIS"] ; # 
+  fhir:jurisdiction ( [
+     fhir:coding ( [
+       fhir:system [ fhir:v "urn:iso:std:iso:3166"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "FR" ]
+     ] )
+  ] ) ; # 
   fhir:compose [
      fhir:include ( [
        fhir:system [ fhir:v "1.3.6.1.4.1.19376.1.8.2.1"^^xsd:anyURI ] ;

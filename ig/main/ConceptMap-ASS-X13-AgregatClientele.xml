@@ -24,6 +24,12 @@
   <experimental value="false"/>
   <date value="2024-06-28T12:00:00+01:00"/>
   <description value="Association d'agrégats de clientèle"/>
+  <jurisdiction>
+    <coding>
+      <system value="urn:iso:std:iso:3166"/>
+      <code value="FR"/>
+    </coding>
+  </jurisdiction>
   <group>
     <source value="https://mos.esante.gouv.fr/NOS/TRE_R293-AgregatClienteleNiv2/FHIR/TRE-R293-AgregatClienteleNiv2"/>
     <target value="https://mos.esante.gouv.fr/NOS/TRE_R294-AgregatClienteleNiv3/FHIR/TRE-R294-AgregatClienteleNiv3"/>

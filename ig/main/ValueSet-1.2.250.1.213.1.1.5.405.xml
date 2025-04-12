@@ -29,6 +29,12 @@
   <date value="2023-04-04T00:00:00+01:00"/>
   <publisher value="Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris"/>
   <description value="JDV_Prostate_pT_CISIS"/>
+  <jurisdiction>
+    <coding>
+      <system value="urn:iso:std:iso:3166"/>
+      <code value="FR"/>
+    </coding>
+  </jurisdiction>
   <compose>
     <include>
       <system value="1.3.6.1.4.1.19376.1.8.2.1"/>

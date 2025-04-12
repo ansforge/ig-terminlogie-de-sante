@@ -46,6 +46,12 @@
        fhir:text [ fhir:v "Aligner les codes ATC de NUVA avec les codes ATC" ]
      ]
   ] ) ; # 
+  fhir:jurisdiction ( [
+     fhir:coding ( [
+       fhir:system [ fhir:v "urn:iso:std:iso:3166"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "FR" ]
+     ] )
+  ] ) ; # 
   fhir:source [
      a fhir:canonical ;
      fhir:v "https://smt.esante.gouv.fr/terminologie-nuva?vs"^^xsd:anyURI ;

@@ -29,6 +29,12 @@
   "date" : "2021-09-24T12:00:00+01:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "description" : "Caractérise les besoins d'aide de la personne en matière de vie sociale",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "FR"
+    }]
+  }],
   "compose" : {
     "include" : [{
       "system" : "https://mos.esante.gouv.fr/NOS/TRE_R319-BesoinAideVieSociales/FHIR/TRE-R319-BesoinAideVieSociale",

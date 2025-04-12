@@ -22,6 +22,12 @@
   <kind value="codesystem"/>
   <date value="2024-08-27"/>
   <publisher value="Agence du Numérique en Santé, ANS, France"/>
+  <jurisdiction>
+    <coding>
+      <system value="urn:iso:std:iso:3166"/>
+      <code value="FR"/>
+    </coding>
+  </jurisdiction>
   <uniqueId>
     <type value="oid"/>
     <value value="2.16.840.1.113883.6.96"/>

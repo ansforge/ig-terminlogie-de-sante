@@ -24,6 +24,12 @@
   <experimental value="false"/>
   <date value="2024-01-26T12:00:00+01:00"/>
   <description value="Association départements - régions (outre-mer et Monaco inclus)"/>
+  <jurisdiction>
+    <coding>
+      <system value="urn:iso:std:iso:3166"/>
+      <code value="FR"/>
+    </coding>
+  </jurisdiction>
   <group>
     <source value="https://mos.esante.gouv.fr/NOS/TRE_G09-DepartementOM/FHIR/TRE-G09-DepartementOM"/>
     <target value="https://mos.esante.gouv.fr/NOS/TRE_R30-RegionOM/FHIR/TRE-R30-RegionOM"/>

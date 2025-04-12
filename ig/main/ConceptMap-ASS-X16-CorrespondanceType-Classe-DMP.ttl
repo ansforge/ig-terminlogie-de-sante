@@ -37,6 +37,12 @@
   fhir:experimental [ fhir:v false] ; # 
   fhir:date [ fhir:v "2024-02-23T12:00:00+01:00"^^xsd:dateTime] ; # 
   fhir:description [ fhir:v "Correspondance entre types et classes de documents, restreinte aux codes des JDV_J66 et JDV_J57 du DMP"] ; # 
+  fhir:jurisdiction ( [
+     fhir:coding ( [
+       fhir:system [ fhir:v "urn:iso:std:iso:3166"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "FR" ]
+     ] )
+  ] ) ; # 
   fhir:target [
      a fhir:uri ;
      fhir:v "https://mos.esante.gouv.fr/NOS/JDV_J57-ClassCode-DMP/FHIR/JDV-J57-ClassCode-DMP"^^xsd:anyURI

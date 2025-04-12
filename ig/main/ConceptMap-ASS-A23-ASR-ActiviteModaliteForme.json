@@ -26,6 +26,12 @@
   "experimental" : false,
   "date" : "2022-03-25T12:00:00+01:00",
   "description" : "Triplet activité modalité forme pour Activités Soumises à Reconnaissance (ASR)",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "FR"
+    }]
+  }],
   "sourceUri" : "https://mos.esante.gouv.fr/NOS/JDV_J133-ActiviteSanitaireRegulee-RASS/FHIR/JDV-J133-ActiviteSanitaireRegulee-RASS",
   "targetUri" : "https://mos.esante.gouv.fr/NOS/JDV_J132-ModaliteActivite-RASS/FHIR/JDV-J132-ModaliteActivite-RASS",
   "group" : [{

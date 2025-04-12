@@ -24,6 +24,12 @@
   <experimental value="false"/>
   <date value="2024-01-26T12:00:00+01:00"/>
   <description value="Correspondance entre un type d'évènement et le flux standardisé correspondant"/>
+  <jurisdiction>
+    <coding>
+      <system value="urn:iso:std:iso:3166"/>
+      <code value="FR"/>
+    </coding>
+  </jurisdiction>
   <sourceUri value="https://mos.esante.gouv.fr/NOS/JDV_J46-TypeEvenementNotification-CISIS/FHIR/JDV-J46-TypeEvenementNotification-CISIS"/>
   <targetUri value="https://mos.esante.gouv.fr/NOS/TRE_R255-FluxStandardise/FHIR/TRE-R255-FluxStandardise?vs"/>
   <group>

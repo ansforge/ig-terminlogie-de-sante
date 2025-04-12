@@ -42,6 +42,12 @@
   fhir:date [ fhir:v "2024-12-13T00:00:00+01:00"^^xsd:dateTime] ; # 
   fhir:publisher [ fhir:v "Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris"] ; # 
   fhir:description [ fhir:v "AVC_CddFA"] ; # 
+  fhir:jurisdiction ( [
+     fhir:coding ( [
+       fhir:system [ fhir:v "urn:iso:std:iso:3166"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "FR" ]
+     ] )
+  ] ) ; # 
   fhir:compose [
      fhir:include ( [
        fhir:system [ fhir:v "1.2.250.1.213.1.1.4.321"^^xsd:anyURI ] ;

@@ -37,6 +37,12 @@
   fhir:experimental [ fhir:v false] ; # 
   fhir:date [ fhir:v "2024-05-31T12:00:00+01:00"^^xsd:dateTime] ; # 
   fhir:description [ fhir:v "Association Famille activité - Activité opérationnelle"] ; # 
+  fhir:jurisdiction ( [
+     fhir:coding ( [
+       fhir:system [ fhir:v "urn:iso:std:iso:3166"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "FR" ]
+     ] )
+  ] ) ; # 
   fhir:group ( [
      fhir:source [ fhir:v "https://smt.esante.gouv.fr/terminologie-SERAFINPH"^^xsd:anyURI ] ;
      fhir:target [ fhir:v "https://mos.esante.gouv.fr/NOS/TRE_R211-ActiviteOperationnelle/FHIR/TRE-R211-ActiviteOperationnelle"^^xsd:anyURI ] ;

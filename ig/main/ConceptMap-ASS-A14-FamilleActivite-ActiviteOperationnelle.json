@@ -26,6 +26,12 @@
   "experimental" : false,
   "date" : "2024-05-31T12:00:00+01:00",
   "description" : "Association Famille activité - Activité opérationnelle",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "FR"
+    }]
+  }],
   "group" : [{
     "source" : "https://smt.esante.gouv.fr/terminologie-SERAFINPH",
     "target" : "https://mos.esante.gouv.fr/NOS/TRE_R211-ActiviteOperationnelle/FHIR/TRE-R211-ActiviteOperationnelle",

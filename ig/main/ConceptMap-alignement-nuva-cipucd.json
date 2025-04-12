@@ -37,6 +37,12 @@
       "text" : "Aligner les codes CIP de NUVA avec les codes CIP du CIP_UCD"
     }
   }],
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "FR"
+    }]
+  }],
   "sourceCanonical" : "https://smt.esante.gouv.fr/terminologie-nuva?vs",
   "targetCanonical" : "https://smt.esante.gouv.fr/terminologie-cip_ucd?vs",
   "group" : [{

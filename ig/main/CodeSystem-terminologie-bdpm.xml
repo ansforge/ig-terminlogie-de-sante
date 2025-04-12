@@ -28,6 +28,12 @@
   <experimental value="false"/>
   <date value="2025-04-02T00:00:00+00:00"/>
   <publisher value="Agence du numérique en santé"/>
+  <jurisdiction>
+    <coding>
+      <system value="urn:iso:std:iso:3166"/>
+      <code value="FR"/>
+    </coding>
+  </jurisdiction>
   <valueSet value="https://smt.esante.gouv.fr/terminologie-bdpm?vs"/>
   <content value="not-present"/>
   <count value="41192"/>

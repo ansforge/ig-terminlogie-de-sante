@@ -20,6 +20,12 @@
   "experimental" : false,
   "date" : "2022-02-25T12:00:00+01:00",
   "description" : "Table d'association rôle / genre d'activité pour la saisie automatique",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "FR"
+    }]
+  }],
   "group" : [{
     "source" : "https://mos.esante.gouv.fr/NOS/TRE_R85-RolePriseCharge/FHIR/TRE-R85-RolePriseCharge",
     "target" : "https://mos.esante.gouv.fr/NOS/TRE_R22-GenreActivite/FHIR/TRE-R22-GenreActivite",

@@ -37,6 +37,12 @@
   fhir:experimental [ fhir:v false] ; # 
   fhir:date [ fhir:v "2023-12-15T12:00:00+01:00"^^xsd:dateTime] ; # 
   fhir:description [ fhir:v "Correspondance codes TRE_R267-SexeProvenanceISO / codes TRE_R249-Sexe"] ; # 
+  fhir:jurisdiction ( [
+     fhir:coding ( [
+       fhir:system [ fhir:v "urn:iso:std:iso:3166"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "FR" ]
+     ] )
+  ] ) ; # 
   fhir:group ( [
      fhir:source [ fhir:v "https://mos.esante.gouv.fr/NOS/TRE_R267-SexeProvenanceISO/FHIR/TRE-R267-SexeProvenanceISO"^^xsd:anyURI ] ;
      fhir:target [ fhir:v "https://mos.esante.gouv.fr/NOS/TRE_R249-Sexe/FHIR/TRE-R249-Sexe"^^xsd:anyURI ] ;

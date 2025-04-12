@@ -24,6 +24,12 @@
   <experimental value="false"/>
   <date value="2024-02-23T12:00:00+01:00"/>
   <description value="Correspondance entre types et classes de documents, restreinte aux codes des JDV_J66 et JDV_J57 du DMP"/>
+  <jurisdiction>
+    <coding>
+      <system value="urn:iso:std:iso:3166"/>
+      <code value="FR"/>
+    </coding>
+  </jurisdiction>
   <targetUri value="https://mos.esante.gouv.fr/NOS/JDV_J57-ClassCode-DMP/FHIR/JDV-J57-ClassCode-DMP"/>
   <group>
     <source value="http://loinc.org"/>

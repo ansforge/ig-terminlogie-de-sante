@@ -22,4 +22,10 @@
   <status value="active"/>
   <date value="2020-04-24T12:00:00+01:00"/>
   <description value="Association communes - départements - régions (outre-mer et Monaco inclus)"/>
+  <jurisdiction>
+    <coding>
+      <system value="urn:iso:std:iso:3166"/>
+      <code value="FR"/>
+    </coding>
+  </jurisdiction>
 </ConceptMap>

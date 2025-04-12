@@ -37,6 +37,12 @@
   fhir:contact ( [
      fhir:name [ fhir:v "LOINC and Health Data Standards, Regenstrief Institute, Inc." ]
   ] ) ; # 
+  fhir:jurisdiction ( [
+     fhir:coding ( [
+       fhir:system [ fhir:v "urn:iso:std:iso:3166"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "FR" ]
+     ] )
+  ] ) ; # 
   fhir:uniqueId ( [
      fhir:type [ fhir:v "oid" ] ;
      fhir:value [ fhir:v "2.16.840.1.113883.6.1" ]

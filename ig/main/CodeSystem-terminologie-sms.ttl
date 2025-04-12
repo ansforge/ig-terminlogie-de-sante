@@ -43,6 +43,12 @@
   fhir:experimental [ fhir:v false] ; # 
   fhir:date [ fhir:v "2025-04-05T16:10:00+00:00"^^xsd:dateTime] ; # 
   fhir:publisher [ fhir:v "Agence du numérique en santé"] ; # 
+  fhir:jurisdiction ( [
+     fhir:coding ( [
+       fhir:system [ fhir:v "urn:iso:std:iso:3166"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "FR" ]
+     ] )
+  ] ) ; # 
   fhir:valueSet [
      fhir:v "https://smt.esante.gouv.fr/terminologie-sms?vs"^^xsd:anyURI ;
      fhir:link <https://smt.esante.gouv.fr/terminologie-sms?vs>

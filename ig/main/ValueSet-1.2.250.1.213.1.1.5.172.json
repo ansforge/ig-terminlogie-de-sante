@@ -30,6 +30,12 @@
   "date" : "2024-06-04T01:00:00+02:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "description" : "JDV_ProblemCodes_CISIS",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "FR"
+    }]
+  }],
   "compose" : {
     "include" : [{
       "system" : "urn:oid:2.16.840.1.113883.6.96",

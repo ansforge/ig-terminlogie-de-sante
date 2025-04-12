@@ -26,6 +26,12 @@
   "experimental" : false,
   "date" : "2024-03-29T12:00:00+01:00",
   "description" : "Correspondance entre le JDV sexe du NOS et le JDV administrative gender de FHIR pour simplifier l'adaptation du MOS à FHIR.",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "FR"
+    }]
+  }],
   "sourceUri" : "https://mos.esante.gouv.fr/NOS/JDV_J262-Sexe/FHIR/JDV-J262-Sexe",
   "targetUri" : "http://hl7.org/fhir/ValueSet/administrative-gender",
   "group" : [{

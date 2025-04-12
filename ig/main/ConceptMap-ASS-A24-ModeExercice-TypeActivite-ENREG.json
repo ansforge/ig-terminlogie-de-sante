@@ -26,6 +26,12 @@
   "experimental" : false,
   "date" : "2021-09-24T12:00:00+01:00",
   "description" : "Table d'association Mode d'exercice / Type d'activité pour permettre la saisie automatique du type d'activité",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "FR"
+    }]
+  }],
   "sourceUri" : "https://mos.esante.gouv.fr/NOS/JDV_J117-ModeExercice-ENREG/FHIR/JDV-J117-ModeExercice-ENREG",
   "targetUri" : "https://mos.esante.gouv.fr/NOS/JDV_J119-TypeActiviteLiberale-ENREG/FHIR/JDV-J119-TypeActiviteLiberale-ENREG",
   "group" : [{

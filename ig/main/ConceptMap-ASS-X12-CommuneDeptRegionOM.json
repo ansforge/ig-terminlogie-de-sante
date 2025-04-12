@@ -23,5 +23,11 @@
   "name" : "ASS_X12-CommuneDeptRegionOM",
   "status" : "active",
   "date" : "2020-04-24T12:00:00+01:00",
-  "description" : "Association communes - départements - régions (outre-mer et Monaco inclus)"
+  "description" : "Association communes - départements - régions (outre-mer et Monaco inclus)",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "FR"
+    }]
+  }]
 }

@@ -37,6 +37,12 @@
   fhir:experimental [ fhir:v false] ; # 
   fhir:date [ fhir:v "2024-04-26T12:00:00+01:00"^^xsd:dateTime] ; # 
   fhir:description [ fhir:v "Correspondance entre types et classes de documents CI-SIS"] ; # 
+  fhir:jurisdiction ( [
+     fhir:coding ( [
+       fhir:system [ fhir:v "urn:iso:std:iso:3166"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "FR" ]
+     ] )
+  ] ) ; # 
   fhir:target [
      a fhir:uri ;
      fhir:v "https://mos.esante.gouv.fr/NOS/JDV_J06-XdsClassCode-CISIS/FHIR/JDV-J06-XdsClassCode-CISIS"^^xsd:anyURI

@@ -29,6 +29,12 @@
   <date value="2021-09-07T00:00:00+01:00"/>
   <publisher value="Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris"/>
   <description value="JDV_ResultatComparaison_CISIS"/>
+  <jurisdiction>
+    <coding>
+      <system value="urn:iso:std:iso:3166"/>
+      <code value="FR"/>
+    </coding>
+  </jurisdiction>
   <compose>
     <include>
       <system value="https://smt.esante.gouv.fr/fhir/CodeSystem/1.2.250.1.213.1.1.4.322"/>

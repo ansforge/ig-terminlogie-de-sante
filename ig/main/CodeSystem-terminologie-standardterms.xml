@@ -29,6 +29,12 @@
   <date value="2024-08-29T00:00:00+00:00"/>
   <publisher value="Agence du numérique en santé"/>
   <description value="Les standard terms (ou listes de termes normalisés) ont été établis en réponse à une demande de la Commission européenne. Ils contiennent les formes pharmaceutiques, les voies et/ou les méthodes d’administration, les unités de présentation, ainsi que les conditionnements, les systèmes de fermeture et les dispositifs d’administration des médicaments à usage humain et/ou vétérinaire."/>
+  <jurisdiction>
+    <coding>
+      <system value="urn:iso:std:iso:3166"/>
+      <code value="FR"/>
+    </coding>
+  </jurisdiction>
   <copyright value="[CC BY 4.0](https://creativecommons.org/licenses/by/4.0/legalcode)"/>
   <valueSet value="https://smt.esante.gouv.fr/terminologie-standardterms?vs"/>
   <content value="complete"/>

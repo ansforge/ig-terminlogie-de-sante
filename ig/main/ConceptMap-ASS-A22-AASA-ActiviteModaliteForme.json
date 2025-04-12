@@ -26,6 +26,12 @@
   "experimental" : false,
   "date" : "2020-07-31T12:00:00+01:00",
   "description" : "Triplet activité modalité forme pour les Activités Soumises à Autorisation (ASA)",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "FR"
+    }]
+  }],
   "group" : [{
     "source" : "https://mos.esante.gouv.fr/NOS/TRE_R274-ActiviteSanitaireRegulee/FHIR/TRE-R274-ActiviteSanitaireRegulee",
     "target" : "https://mos.esante.gouv.fr/NOS/TRE_R275-ModaliteActivite/FHIR/TRE-R275-ModaliteActivite",

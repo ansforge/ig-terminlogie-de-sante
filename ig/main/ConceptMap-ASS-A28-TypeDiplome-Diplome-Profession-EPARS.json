@@ -26,6 +26,12 @@
   "experimental" : false,
   "date" : "2024-07-26T12:00:00+01:00",
   "description" : "Table d'association entre les types de diplômes, les diplômes et les professions de santé, médico-sociales ou sociales",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "FR"
+    }]
+  }],
   "targetUri" : "https://mos.esante.gouv.fr/NOS/JDV_J183-Diplome-EPARS/FHIR/JDV-J183-Diplome-EPARS",
   "group" : [{
     "source" : "https://mos.esante.gouv.fr/NOS/TRE_R14-TypeDiplome/FHIR/TRE-R14-TypeDiplome",

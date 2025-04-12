@@ -33,6 +33,12 @@
   "experimental" : false,
   "date" : "2025-02-27T00:00:00+00:00",
   "publisher" : "Agence du numérique en santé",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "FR"
+    }]
+  }],
   "valueSet" : "https://smt.esante.gouv.fr/terminologie-ccam?vs",
   "content" : "not-present",
   "count" : 38148,
