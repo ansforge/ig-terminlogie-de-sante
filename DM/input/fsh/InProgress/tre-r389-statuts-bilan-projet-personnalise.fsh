@@ -1,12 +1,13 @@
-CodeSystem: TRE_R389_SatutsBilanProjetPersonnalise
-Id: TRE-R389-SatutsBilanProjetPersonnalise
+CodeSystem: TreR389StatutsBilanProjetPersonnalise
+Id: tre-r389-statuts-bilan-projet-personnalise
+Title: "Tre R389 Statuts Bilan Projet Personnalise
 Description: "Statut de l'étape intermédiaire ou finale de l'analyse associée au projet personnalisé."
 * ^meta.versionId = "1"
 * ^meta.lastUpdated = "2025-04-15T05:12:51.958+00:00"
 * ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablecodesystem"
 * ^extension.url = "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod"
 * ^extension.valuePeriod.start = "2025-04-15T12:00:00+01:00"
-* ^url = "https://mos.esante.gouv.fr/NOS/TRE_R389-SatutsBilanProjetPersonnalise/FHIR/TRE-R389-SatutsBilanProjetPersonnalise"
+* ^url = "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r389-statuts-bilan-projet-personnalise"
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value = "urn:oid:"
 * ^version = "20250415120000"
