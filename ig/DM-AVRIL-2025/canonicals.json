@@ -187,7 +187,7 @@
     "id" : "ASS-X04-CorrespondanceType-Classe-CISIS",
     "type" : "ConceptMap",
     "url" : "https://mos.esante.gouv.fr/NOS/ASS_X04-CorrespondanceType-Classe-CISIS/FHIR/ASS-X04-CorrespondanceType-Classe-CISIS",
-    "version" : "20250411120000",
+    "version" : "20250415120000",
     "name" : "ASS_X04_CorrespondanceType_Classe_CISIS"
   },
   {
