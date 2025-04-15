@@ -7,12 +7,12 @@ Usage: #definition
 * extension[=].valueBoolean = true
 * url = "https://mos.esante.gouv.fr/NOS/ASS_X04-CorrespondanceType-Classe-CISIS/FHIR/ASS-X04-CorrespondanceType-Classe-CISIS"
 * identifier.value = "urn:oid:1.2.250.1.213.1.1.4.249"
-* version = "20250411120000"
+* version = "20250415120000"
 * name = "ASS_X04_CorrespondanceType_Classe_CISIS"
 * title = "ASS_X04_CorrespondanceType_Classe_CISIS"
 * experimental = false
 * status = #active
-* date = "2025-04-11T12:00:00+01:00"
+* date = "2025-04-15T12:00:00+01:00"
 * description = "Correspondance entre types et classes de documents CI-SIS"
 // * sourceUri = "https://mos.esante.gouv.fr/NOS/JDV_J07-XdsTypeCode-CISIS/FHIR/JDV-J07-XdsTypeCode-CISIS"
 * targetUri = "https://mos.esante.gouv.fr/NOS/JDV_J06-XdsClassCode-CISIS/FHIR/JDV-J06-XdsClassCode-CISIS"
@@ -109,6 +109,9 @@ Usage: #definition
 * group[=].element[=].target.code = #10
 * group[=].element[=].target.equivalence = #equivalent
 * group[=].element[+].code = #34875-5
+* group[=].element[=].target.code = #10
+* group[=].element[=].target.equivalence = #equivalent
+* group[=].element[+].code = #34876-3
 * group[=].element[=].target.code = #10
 * group[=].element[=].target.equivalence = #equivalent
 * group[=].element[+].code = #39256-3
