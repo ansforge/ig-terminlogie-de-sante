@@ -450,11 +450,70 @@ Description: "Nomenclature des activités sanitaires utilisée pour décrire les
 * #0530 ^property[=].valueCode = #retired
 * #0530 ^property[+].code = #retirementDate
 * #0530 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
-
-
-
-
-
+* #0610 "Services Extérieurs"
+* #0610 ^property[0].code = #parent
+* #0610 ^property[=].valueCode = #0600
+* #0610 ^property[0].code = #dateValid
+* #0610 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #0610 ^property[+].code = #dateMaj
+* #0610 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #0610 ^property[+].code = #status
+* #0610 ^property[=].valueCode = #retired
+* #0610 ^property[+].code = #retirementDate
+* #0610 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #0620 "Transport des Malades"
+* #0620 ^designation.language = #fr-FR
+* #0620 ^designation.use.system = "http://snomed.info/sct"
+* #0620 ^designation.use = $sct#900000000000013009
+* #0620 ^designation.value = "Transp. des Malades"
+* #0620 ^property[0].code = #parent
+* #0620 ^property[=].valueCode = #0600
+* #0620 ^property[0].code = #dateValid
+* #0620 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #0620 ^property[+].code = #dateMaj
+* #0620 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #0620 ^property[+].code = #status
+* #0620 ^property[=].valueCode = #active
+* #0630 "Stockage d'Organes et de Produits Humains"
+* #0630 ^designation.language = #fr-FR
+* #0630 ^designation.use.system = "http://snomed.info/sct"
+* #0630 ^designation.use = $sct#900000000000013009
+* #0630 ^designation.value = "Stock.Org.Prdts.Hum."
+* #0630 ^property[0].code = #parent
+* #0630 ^property[=].valueCode = #0600
+* #0630 ^property[0].code = #dateValid
+* #0630 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #0630 ^property[+].code = #dateMaj
+* #0630 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #0630 ^property[+].code = #status
+* #0630 ^property[=].valueCode = #active
+* #0640 "Enseignement et Recherche"
+* #0640 ^designation.language = #fr-FR
+* #0640 ^designation.use.system = "http://snomed.info/sct"
+* #0640 ^designation.use = $sct#900000000000013009
+* #0640 ^designation.value = "Enseig. et Recherche"
+* #0640 ^property[0].code = #parent
+* #0640 ^property[=].valueCode = #0600
+* #0640 ^property[0].code = #dateValid
+* #0640 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #0640 ^property[+].code = #dateMaj
+* #0640 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #0640 ^property[+].code = #status
+* #0640 ^property[=].valueCode = #retired
+* #0640 ^property[+].code = #retirementDate
+* #0640 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #0660 "Autres Disciplines"
+* #0660 ^designation.language = #fr-FR
+* #0660 ^property[0].code = #parent
+* #0660 ^property[=].valueCode = #0600
+* #0660 ^property[0].code = #dateValid
+* #0660 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #0660 ^property[+].code = #dateMaj
+* #0660 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #0660 ^property[+].code = #status
+* #0660 ^property[=].valueCode = #retired
+* #0660 ^property[+].code = #retirementDate
+* #0660 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
 * #0211 "Médecine Générale"
 * #0211 ^property[0].code = #parent
 * #0211 ^property[=].valueCode = #0210
@@ -477,6 +536,584 @@ Description: "Nomenclature des activités sanitaires utilisée pour décrire les
 * #0212 ^property[=].valueCode = #retired
 * #0212 ^property[+].code = #retirementDate
 * #0212 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #0213 "Spécialités Médicales"
+* #0213 ^designation.language = #fr-FR
+* #0213 ^designation.use.system = "http://snomed.info/sct"
+* #0213 ^designation.use = $sct#900000000000013009
+* #0213 ^designation.value = "Spéc. Médicales"
+* #0213 ^property[0].code = #parent
+* #0213 ^property[=].valueCode = #0210
+* #0213 ^property[+].code = #dateValid
+* #0213 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #0213 ^property[+].code = #dateMaj
+* #0213 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #0213 ^property[+].code = #status
+* #0213 ^property[=].valueCode = #retired
+* #0213 ^property[+].code = #retirementDate
+* #0213 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #0214 "Réanimation Médicale"
+* #0214 ^property[0].code = #parent
+* #0214 ^property[=].valueCode = #0210
+* #0214 ^property[+].code = #dateValid
+* #0214 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #0214 ^property[+].code = #dateMaj
+* #0214 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #0214 ^property[+].code = #status
+* #0214 ^property[=].valueCode = #retired
+* #0214 ^property[+].code = #retirementDate
+* #0214 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #0215 "Surveillance Continue Médicale"
+* #0215 ^designation.language = #fr-FR
+* #0215 ^designation.use.system = "http://snomed.info/sct"
+* #0215 ^designation.use = $sct#900000000000013009
+* #0215 ^designation.value = "Surv. Cont. Médicale"
+* #0215 ^property[0].code = #parent
+* #0215 ^property[=].valueCode = #0210
+* #0215 ^property[+].code = #dateValid
+* #0215 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #0215 ^property[+].code = #dateMaj
+* #0215 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #0215 ^property[+].code = #status
+* #0215 ^property[=].valueCode = #retired
+* #0215 ^property[+].code = #retirementDate
+* #0215 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #0221 "Chirurgie Générale"
+* #0221 ^property[0].code = #parent
+* #0221 ^property[=].valueCode = #0220
+* #0221 ^property[+].code = #dateValid
+* #0221 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #0221 ^property[+].code = #dateMaj
+* #0221 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #0221 ^property[+].code = #status
+* #0221 ^property[=].valueCode = #retired
+* #0221 ^property[+].code = #retirementDate
+* #0221 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #0222 "Chirurgie Infantile"
+* #0222 ^property[0].code = #parent
+* #0222 ^property[=].valueCode = #0220
+* #0222 ^property[+].code = #dateValid
+* #0222 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #0222 ^property[+].code = #dateMaj
+* #0222 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #0222 ^property[+].code = #status
+* #0222 ^property[=].valueCode = #retired
+* #0222 ^property[+].code = #retirementDate
+* #0222 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #0223 "Spécialités Chirurgicales"
+* #0223 ^designation.language = #fr-FR
+* #0223 ^designation.use.system = "http://snomed.info/sct"
+* #0223 ^designation.use = $sct#900000000000013009
+* #0223 ^designation.value = "Spéc. Chirurgicales"
+* #0223 ^property[0].code = #parent
+* #0223 ^property[=].valueCode = #0220
+* #0223 ^property[+].code = #dateValid
+* #0223 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #0223 ^property[+].code = #dateMaj
+* #0223 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #0223 ^property[+].code = #status
+* #0223 ^property[=].valueCode = #retired
+* #0223 ^property[+].code = #retirementDate
+* #0223 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #0224 "Réanimation Chirurgicale"
+* #0224 ^designation.language = #fr-FR
+* #0224 ^designation.use.system = "http://snomed.info/sct"
+* #0224 ^designation.use = $sct#900000000000013009
+* #0224 ^designation.value = "Réa. Chirurgicale"
+* #0224 ^property[0].code = #parent
+* #0224 ^property[=].valueCode = #0220
+* #0224 ^property[+].code = #dateValid
+* #0224 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #0224 ^property[+].code = #dateMaj
+* #0224 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #0224 ^property[+].code = #status
+* #0224 ^property[=].valueCode = #retired
+* #0224 ^property[+].code = #retirementDate
+* #0224 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #0225 "Surveillance Continue Chirurgicale"
+* #0225 ^designation.language = #fr-FR
+* #0225 ^designation.use.system = "http://snomed.info/sct"
+* #0225 ^designation.use = $sct#900000000000013009
+* #0225 ^designation.value = "Surv. Continue Chir."
+* #0225 ^property[0].code = #parent
+* #0225 ^property[=].valueCode = #0220
+* #0225 ^property[+].code = #dateValid
+* #0225 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #0225 ^property[+].code = #dateMaj
+* #0225 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #0225 ^property[+].code = #status
+* #0225 ^property[=].valueCode = #retired
+* #0225 ^property[+].code = #retirementDate
+* #0225 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #0231 "Gynécologie Obstétrique"
+* #0231 ^designation.language = #fr-FR
+* #0231 ^designation.use.system = "http://snomed.info/sct"
+* #0231 ^designation.use = $sct#900000000000013009
+* #0231 ^designation.value = "Gynéco. Obstétrique"
+* #0231 ^property[0].code = #parent
+* #0231 ^property[=].valueCode = #0230
+* #0231 ^property[+].code = #dateValid
+* #0231 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #0231 ^property[+].code = #dateMaj
+* #0231 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #0231 ^property[+].code = #status
+* #0231 ^property[=].valueCode = #retired
+* #0231 ^property[+].code = #retirementDate
+* #0231 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #0241 "Neuro-chirurgie"
+* #0241 ^property[0].code = #parent
+* #0241 ^property[=].valueCode = #0240
+* #0241 ^property[+].code = #dateValid
+* #0241 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #0241 ^property[+].code = #dateMaj
+* #0241 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #0241 ^property[+].code = #status
+* #0241 ^property[=].valueCode = #retired
+* #0241 ^property[+].code = #retirementDate
+* #0241 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #0261 "Maladie à Evolution Prolongée"
+* #0261 ^designation.language = #fr-FR
+* #0261 ^designation.use.system = "http://snomed.info/sct"
+* #0261 ^designation.use = $sct#900000000000013009
+* #0261 ^designation.value = "Maladie Evol.Prolong"
+* #0261 ^property[0].code = #parent
+* #0261 ^property[=].valueCode = #0260
+* #0261 ^property[+].code = #dateValid
+* #0261 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #0261 ^property[+].code = #dateMaj
+* #0261 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #0261 ^property[+].code = #status
+* #0261 ^property[=].valueCode = #retired
+* #0261 ^property[+].code = #retirementDate
+* #0261 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #0262 "Convalescence, Repos, Régime"
+* #0262 ^designation.language = #fr-FR
+* #0262 ^designation.use.system = "http://snomed.info/sct"
+* #0262 ^designation.use = $sct#900000000000013009
+* #0262 ^designation.value = "Convalescence"
+* #0262 ^property[0].code = #parent
+* #0262 ^property[=].valueCode = #0260
+* #0262 ^property[+].code = #dateValid
+* #0262 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #0262 ^property[+].code = #dateMaj
+* #0262 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #0262 ^property[+].code = #status
+* #0262 ^property[=].valueCode = #retired
+* #0262 ^property[+].code = #retirementDate
+* #0262 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #0263 "Rééducation Fonctionnelle et Réadaptation"
+* #0263 ^designation.language = #fr-FR
+* #0263 ^designation.use.system = "http://snomed.info/sct"
+* #0263 ^designation.use = $sct#900000000000013009
+* #0263 ^designation.value = "Rééduc.Fonct.Réadap."
+* #0263 ^property[0].code = #parent
+* #0263 ^property[=].valueCode = #0260
+* #0263 ^property[+].code = #dateValid
+* #0263 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #0263 ^property[+].code = #dateMaj
+* #0263 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #0263 ^property[+].code = #status
+* #0263 ^property[=].valueCode = #retired
+* #0263 ^property[+].code = #retirementDate
+* #0263 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #0264 "Lutte contre la Tuberculose et les Maladies Respiratoires"
+* #0264 ^designation.language = #fr-FR
+* #0264 ^designation.use.system = "http://snomed.info/sct"
+* #0264 ^designation.use = $sct#900000000000013009
+* #0264 ^designation.value = "Tuberculose Mal.Resp"
+* #0264 ^property[0].code = #parent
+* #0264 ^property[=].valueCode = #0260
+* #0264 ^property[+].code = #dateValid
+* #0264 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #0264 ^property[+].code = #dateMaj
+* #0264 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #0264 ^property[+].code = #status
+* #0264 ^property[=].valueCode = #retired
+* #0264 ^property[+].code = #retirementDate
+* #0264 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #0265 "Cures Thermales"
+* #0265 ^property[0].code = #parent
+* #0265 ^property[=].valueCode = #0260
+* #0265 ^property[+].code = #dateValid
+* #0265 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #0265 ^property[+].code = #dateMaj
+* #0265 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #0265 ^property[+].code = #status
+* #0265 ^property[=].valueCode = #retired
+* #0265 ^property[+].code = #retirementDate
+* #0265 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #0266 "Cures Médicales"
+* #0266 ^property[0].code = #parent
+* #0266 ^property[=].valueCode = #0260
+* #0266 ^property[+].code = #dateValid
+* #0266 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #0266 ^property[+].code = #dateMaj
+* #0266 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #0266 ^property[+].code = #status
+* #0266 ^property[=].valueCode = #retired
+* #0266 ^property[+].code = #retirementDate
+* #0266 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #0267 "Cures Médicales pour Enfants"
+* #0267 ^designation.language = #fr-FR
+* #0267 ^designation.use.system = "http://snomed.info/sct"
+* #0267 ^designation.use = $sct#900000000000013009
+* #0267 ^designation.value = "Cures Médicales Enf."
+* #0267 ^property[0].code = #parent
+* #0267 ^property[=].valueCode = #0260
+* #0267 ^property[+].code = #dateValid
+* #0267 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #0267 ^property[+].code = #dateMaj
+* #0267 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #0267 ^property[+].code = #status
+* #0267 ^property[=].valueCode = #retired
+* #0267 ^property[+].code = #retirementDate
+* #0267 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #0268 "Post-Cure pour Alcooliques"
+* #0268 ^designation.language = #fr-FR
+* #0268 ^designation.use.system = "http://snomed.info/sct"
+* #0268 ^designation.use = $sct#900000000000013009
+* #0268 ^designation.value = "Post-Cure Alcoolique"
+* #0268 ^property[0].code = #parent
+* #0268 ^property[=].valueCode = #0260
+* #0268 ^property[+].code = #dateValid
+* #0268 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #0268 ^property[+].code = #dateMaj
+* #0268 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #0268 ^property[+].code = #status
+* #0268 ^property[=].valueCode = #retired
+* #0268 ^property[+].code = #retirementDate
+* #0268 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #0271 "Soins de Longue Durée"
+* #0271 ^designation.language = #fr-FR
+* #0271 ^designation.use.system = "http://snomed.info/sct"
+* #0271 ^designation.use = $sct#900000000000013009
+* #0271 ^designation.value = "Soins Longue Durée"
+* #0271 ^property[0].code = #parent
+* #0271 ^property[=].valueCode = #0270
+* #0271 ^property[+].code = #dateValid
+* #0271 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #0271 ^property[+].code = #dateMaj
+* #0271 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #0271 ^property[+].code = #status
+* #0271 ^property[=].valueCode = #retired
+* #0271 ^property[+].code = #retirementDate
+* #0271 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #0281 "Psychiatrie Adulte"
+* #0281 ^property[0].code = #parent
+* #0281 ^property[=].valueCode = #0280
+* #0281 ^property[+].code = #dateValid
+* #0281 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #0281 ^property[+].code = #dateMaj
+* #0281 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #0281 ^property[+].code = #status
+* #0281 ^property[=].valueCode = #retired
+* #0281 ^property[+].code = #retirementDate
+* #0281 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #0291 "Psychiatrie Infanto-juvénile"
+* #0291 ^designation.language = #fr-FR
+* #0291 ^designation.use.system = "http://snomed.info/sct"
+* #0291 ^designation.use = $sct#900000000000013009
+* #0291 ^designation.value = "Psy.Infanto-juvénile"
+* #0291 ^property[0].code = #parent
+* #0291 ^property[=].valueCode = #0290
+* #0291 ^property[+].code = #dateValid
+* #0291 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #0291 ^property[+].code = #dateMaj
+* #0291 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #0291 ^property[+].code = #status
+* #0291 ^property[=].valueCode = #retired
+* #0291 ^property[+].code = #retirementDate
+* #0291 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #0311 "Dialyse"
+* #0311 ^property[0].code = #parent
+* #0311 ^property[=].valueCode = #0310
+* #0311 ^property[+].code = #dateValid
+* #0311 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #0311 ^property[+].code = #dateMaj
+* #0311 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #0311 ^property[+].code = #status
+* #0311 ^property[=].valueCode = #retired
+* #0311 ^property[+].code = #retirementDate
+* #0311 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #0321 "Chimiothérapie"
+* #0321 ^property[0].code = #parent
+* #0321 ^property[=].valueCode = #0320
+* #0321 ^property[+].code = #dateValid
+* #0321 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #0321 ^property[+].code = #dateMaj
+* #0321 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #0321 ^property[+].code = #status
+* #0321 ^property[=].valueCode = #active
+* #0331 "Hospitalisation de Jour en Gynéco-Obstétrique"
+* #0331 ^designation.language = #fr-FR
+* #0331 ^designation.use.system = "http://snomed.info/sct"
+* #0331 ^designation.use = $sct#900000000000013009
+* #0331 ^designation.value = "Hospit. Gynéco.Obst."
+* #0331 ^property[0].code = #parent
+* #0331 ^property[=].valueCode = #0330
+* #0331 ^property[+].code = #dateValid
+* #0331 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #0331 ^property[+].code = #dateMaj
+* #0331 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #0331 ^property[+].code = #status
+* #0331 ^property[=].valueCode = #active
+* #0341 "Examens Systématique et Dépistage"
+* #0341 ^designation.language = #fr-FR
+* #0341 ^designation.use.system = "http://snomed.info/sct"
+* #0341 ^designation.use = $sct#900000000000013009
+* #0341 ^designation.value = "Examens Dépistage"
+* #0341 ^property[0].code = #parent
+* #0341 ^property[=].valueCode = #0340
+* #0341 ^property[+].code = #dateValid
+* #0341 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #0341 ^property[+].code = #dateMaj
+* #0341 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #0341 ^property[+].code = #status
+* #0341 ^property[=].valueCode = #active
+* #0342 "Prévention et Conseil"
+* #0342 ^designation.language = #fr-FR
+* #0342 ^designation.use.system = "http://snomed.info/sct"
+* #0342 ^designation.use = $sct#900000000000013009
+* #0342 ^designation.value = "Prévention Conseil"
+* #0342 ^property[0].code = #parent
+* #0342 ^property[=].valueCode = #0340
+* #0342 ^property[+].code = #dateValid
+* #0342 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #0342 ^property[+].code = #dateMaj
+* #0342 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #0342 ^property[+].code = #status
+* #0342 ^property[=].valueCode = #active
+* #0343 "Soins Divers"
+* #0343 ^property[0].code = #parent
+* #0343 ^property[=].valueCode = #0340
+* #0343 ^property[+].code = #dateValid
+* #0343 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #0343 ^property[+].code = #dateMaj
+* #0343 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #0343 ^property[+].code = #status
+* #0343 ^property[=].valueCode = #active
+* #0351 "Aide aux Insuffisants Respiratoires"
+* #0351 ^designation.language = #fr-FR
+* #0351 ^designation.use.system = "http://snomed.info/sct"
+* #0351 ^designation.use = $sct#900000000000013009
+* #0351 ^designation.value = "Aide Insuff. Resp."
+* #0351 ^property[0].code = #parent
+* #0351 ^property[=].valueCode = #0350
+* #0351 ^property[+].code = #dateValid
+* #0351 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #0351 ^property[+].code = #dateMaj
+* #0351 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #0351 ^property[+].code = #status
+* #0351 ^property[=].valueCode = #active
+* #0361 "Autres Traitements Spécialisés à Domicile"
+* #0361 ^designation.language = #fr-FR
+* #0361 ^designation.use.system = "http://snomed.info/sct"
+* #0361 ^designation.use = $sct#900000000000013009
+* #0361 ^designation.value = "Autres Trait.Spé.Dom"
+* #0361 ^property[0].code = #parent
+* #0361 ^property[=].valueCode = #0360
+* #0361 ^property[+].code = #dateValid
+* #0361 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #0361 ^property[+].code = #dateMaj
+* #0361 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #0361 ^property[+].code = #status
+* #0361 ^property[=].valueCode = #retired
+* #0361 ^property[+].code = #retirementDate
+* #0361 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #0371 "structures de psychiatrie sans hébergement"
+* #0371 ^designation.language = #fr-FR
+* #0371 ^designation.use.system = "http://snomed.info/sct"
+* #0371 ^designation.use = $sct#900000000000013009
+* #0371 ^designation.value = "psychiatrie ss hebgt"
+* #0371 ^property[0].code = #parent
+* #0371 ^property[=].valueCode = #0370
+* #0371 ^property[+].code = #dateValid
+* #0371 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #0371 ^property[+].code = #dateMaj
+* #0371 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #0371 ^property[+].code = #status
+* #0371 ^property[=].valueCode = #active
+* #0372 "psychiatrie en milieu pénitentiaire"
+* #0372 ^designation.language = #fr-FR
+* #0372 ^designation.use.system = "http://snomed.info/sct"
+* #0372 ^designation.use = $sct#900000000000013009
+* #0372 ^designation.value = "psychiatrie prison"
+* #0372 ^property[0].code = #parent
+* #0372 ^property[=].valueCode = #0370
+* #0372 ^property[+].code = #dateValid
+* #0372 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #0372 ^property[+].code = #dateMaj
+* #0372 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #0372 ^property[+].code = #status
+* #0372 ^property[=].valueCode = #retired
+* #0372 ^property[+].code = #retirementDate
+* #0372 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #0381 "disciplines de cures thermales"
+* #0381 ^designation.language = #fr-FR
+* #0381 ^designation.use.system = "http://snomed.info/sct"
+* #0381 ^designation.use = $sct#900000000000013009
+* #0381 ^designation.value = "cures thermales"
+* #0381 ^property[0].code = #parent
+* #0381 ^property[=].valueCode = #0380
+* #0381 ^property[+].code = #dateValid
+* #0381 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #0381 ^property[+].code = #dateMaj
+* #0381 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #0381 ^property[+].code = #status
+* #0381 ^property[=].valueCode = #active
+* #0411 "Blocs Opératoires et Obstétricaux"
+* #0411 ^designation.language = #fr-FR
+* #0411 ^designation.use.system = "http://snomed.info/sct"
+* #0411 ^designation.use = $sct#900000000000013009
+* #0411 ^designation.value = "Blocs Opératoires"
+* #0411 ^property[0].code = #parent
+* #0411 ^property[=].valueCode = #0410
+* #0411 ^property[+].code = #dateValid
+* #0411 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #0411 ^property[+].code = #dateMaj
+* #0411 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #0411 ^property[+].code = #status
+* #0411 ^property[=].valueCode = #retired
+* #0411 ^property[+].code = #retirementDate
+* #0411 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #0421 "Anesthésiologie et Réveil"
+* #0421 ^designation.language = #fr-FR
+* #0421 ^designation.use.system = "http://snomed.info/sct"
+* #0421 ^designation.use = $sct#900000000000013009
+* #0421 ^designation.value = "Anesthésiologie"
+* #0421 ^property[0].code = #parent
+* #0421 ^property[=].valueCode = #0420
+* #0421 ^property[+].code = #dateValid
+* #0421 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #0421 ^property[+].code = #dateMaj
+* #0421 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #0421 ^property[+].code = #status
+* #0421 ^property[=].valueCode = #retired
+* #0421 ^property[+].code = #retirementDate
+* #0421 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #0431 "Imagerie"
+* #0431 ^property[0].code = #parent
+* #0431 ^property[=].valueCode = #0430
+* #0431 ^property[+].code = #dateValid
+* #0431 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #0431 ^property[+].code = #dateMaj
+* #0431 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #0431 ^property[+].code = #status
+* #0431 ^property[=].valueCode = #retired
+* #0431 ^property[+].code = #retirementDate
+* #0431 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #0441 "Radiothérapie"
+* #0441 ^property[0].code = #parent
+* #0441 ^property[=].valueCode = #0440
+* #0441 ^property[+].code = #dateValid
+* #0441 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #0441 ^property[+].code = #dateMaj
+* #0441 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #0441 ^property[+].code = #status
+* #0441 ^property[=].valueCode = #retired
+* #0441 ^property[+].code = #retirementDate
+* #0441 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #0451 "Exploration Fonctionnelle"
+* #0451 ^designation.language = #fr-FR
+* #0451 ^designation.use.system = "http://snomed.info/sct"
+* #0451 ^designation.use = $sct#900000000000013009
+* #0451 ^designation.value = "Explo. Fonctionnelle"
+* #0451 ^property[0].code = #parent
+* #0451 ^property[=].valueCode = #0450
+* #0451 ^property[+].code = #dateValid
+* #0451 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #0451 ^property[+].code = #dateMaj
+* #0451 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #0451 ^property[+].code = #status
+* #0451 ^property[=].valueCode = #retired
+* #0451 ^property[+].code = #retirementDate
+* #0451 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #0461 "Techniques de Rééducation et de Réadaptation Fonctionnelle"
+* #0461 ^designation.language = #fr-FR
+* #0461 ^designation.use.system = "http://snomed.info/sct"
+* #0461 ^designation.use = $sct#900000000000013009
+* #0461 ^designation.value = "Techn.Rééduc.Réadapt"
+* #0461 ^property[0].code = #parent
+* #0461 ^property[=].valueCode = #0460
+* #0461 ^property[+].code = #dateValid
+* #0461 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #0461 ^property[+].code = #dateMaj
+* #0461 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #0461 ^property[+].code = #status
+* #0461 ^property[=].valueCode = #retired
+* #0461 ^property[+].code = #retirementDate
+* #0461 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #0471 "Analyses Médicales Biologiques"
+* #0471 ^designation.language = #fr-FR
+* #0471 ^designation.use.system = "http://snomed.info/sct"
+* #0471 ^designation.use = $sct#900000000000013009
+* #0471 ^designation.value = "Ana.Méd. Biologiques"
+* #0471 ^property[0].code = #parent
+* #0471 ^property[=].valueCode = #0470
+* #0471 ^property[+].code = #dateValid
+* #0471 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #0471 ^property[+].code = #dateMaj
+* #0471 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #0471 ^property[+].code = #status
+* #0471 ^property[=].valueCode = #active
+* #0481 "Pharmacie et autres biens médicaux"
+* #0481 ^designation.language = #fr-FR
+* #0481 ^designation.use.system = "http://snomed.info/sct"
+* #0481 ^designation.use = $sct#900000000000013009
+* #0481 ^designation.value = "Pharmacie Biens Méd."
+* #0481 ^property[0].code = #parent
+* #0481 ^property[=].valueCode = #0480
+* #0481 ^property[+].code = #dateValid
+* #0481 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #0481 ^property[+].code = #dateMaj
+* #0481 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #0481 ^property[+].code = #status
+* #0481 ^property[=].valueCode = #active
+* #0511 "Urgence"
+* #0511 ^property[0].code = #parent
+* #0511 ^property[=].valueCode = #0510
+* #0511 ^property[+].code = #dateValid
+* #0511 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #0511 ^property[+].code = #dateMaj
+* #0511 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #0511 ^property[+].code = #status
+* #0511 ^property[=].valueCode = #retired
+* #0511 ^property[+].code = #retirementDate
+* #0511 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #0521 "Urgence Chirurgicale"
+* #0521 ^property[0].code = #parent
+* #0521 ^property[=].valueCode = #0520
+* #0521 ^property[+].code = #dateValid
+* #0521 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #0521 ^property[+].code = #dateMaj
+* #0521 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #0521 ^property[+].code = #status
+* #0521 ^property[=].valueCode = #retired
+* #0521 ^property[+].code = #retirementDate
+* #0521 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #0531 "SAMU - SMUR"
+* #0531 ^property[0].code = #parent
+* #0531 ^property[=].valueCode = #0530
+* #0531 ^property[+].code = #dateValid
+* #0531 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #0531 ^property[+].code = #dateMaj
+* #0531 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #0531 ^property[+].code = #status
+* #0531 ^property[=].valueCode = #retired
+* #0531 ^property[+].code = #retirementDate
+* #0531 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #0621 "Transport des Malades"
+* #0621 ^designation.language = #fr-FR
+* #0621 ^designation.use.system = "http://snomed.info/sct"
+* #0621 ^designation.use = $sct#900000000000013009
+* #0621 ^designation.value = "Transp. des Malades"
+* #0621 ^property[0].code = #parent
+* #0621 ^property[=].valueCode = #0620
+* #0621 ^property[+].code = #dateValid
+* #0621 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #0621 ^property[+].code = #dateMaj
+* #0621 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #0621 ^property[+].code = #status
+* #0621 ^property[=].valueCode = #active
 * #101 "Médecine Générale ou Médecine Interne"
 * #101 ^designation.language = #fr-FR
 * #101 ^designation.use.system = "http://snomed.info/sct"
