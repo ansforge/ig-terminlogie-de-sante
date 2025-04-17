@@ -10,9 +10,7 @@
              typeFichier="JDV"
              urlFichier="">
       <ConceptList>
-         <concept code="GEN-103"
-                  codeSystem="1.2.250.1.213.1.1.4.322"
-                  displayName="Normal"/>
+         <concept code="GEN-103" codeSystem="" displayName="Normal"/>
          <concept code="AVC-058"
                   codeSystem=""
                   displayName="discrète à modérée; le patient n’articule pas bien au moins quelques mots et, au pire, peut être compris avec quelques difficultés."/>

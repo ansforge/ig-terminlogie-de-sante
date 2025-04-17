@@ -2269,13 +2269,13 @@
       "oids" : ["1.2.250.1.213.1.6.1.111"]
     },
     {
-      "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/1.2.250.1.213.1.1.4.322",
-      "version" : "202503040000",
+      "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r389-statuts-bilan-projet-personnalise",
+      "version" : "20250415120000",
       "status" : "active",
-      "name" : "TA_ASIP",
-      "title" : "TA_ASIP",
-      "description" : "TA_ASIP",
-      "oids" : ["1.2.250.1.213.1.1.4.322"]
+      "name" : "TreR389StatutsBilanProjetPersonnalise",
+      "title" : "Tre R389 Statuts Bilan Projet Personnalise",
+      "description" : "Statut de l'étape intermédiaire ou finale de l'analyse associée au projet personnalisé.",
+      "oids" : ["1.2.250.1.213.3.3.257"]
     },
     {
       "url" : "https://smt.esante.gouv.fr/terminologie-SERAFINPH",

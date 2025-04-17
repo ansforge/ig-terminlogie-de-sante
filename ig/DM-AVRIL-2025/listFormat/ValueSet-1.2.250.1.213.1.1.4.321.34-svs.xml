@@ -10,9 +10,7 @@
              typeFichier="JDV"
              urlFichier="">
       <ConceptList>
-         <concept code="GEN-103"
-                  codeSystem="1.2.250.1.213.1.1.4.322"
-                  displayName="Normal"/>
+         <concept code="GEN-103" codeSystem="" displayName="Normal"/>
          <concept code="AVC-055"
                   codeSystem=""
                   displayName="déficit sensitif discret à modéré ; du côté atteint, la piqûre est moins bien perçue ou non perçue mais le patient est conscient d’être touché."/>

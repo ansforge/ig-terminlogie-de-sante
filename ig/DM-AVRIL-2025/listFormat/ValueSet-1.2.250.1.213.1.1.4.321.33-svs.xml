@@ -10,9 +10,7 @@
              typeFichier="JDV"
              urlFichier="">
       <ConceptList>
-         <concept code="GEN-103"
-                  codeSystem="1.2.250.1.213.1.1.4.322"
-                  displayName="Normal"/>
+         <concept code="GEN-103" codeSystem="" displayName="Normal"/>
          <concept code="AVC-052"
                   codeSystem=""
                   displayName="extinction ou négligence visuelle, tactile, auditive, spatiale ou personnelle à la stimulation bilatérale simultanée dans une des modalités."/>

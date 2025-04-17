@@ -3,5 +3,5 @@
 <system>;<Code>;<Libellé> 
 ;2345-7;Glucose
 ;4548-4;Hémoglobine A1c %
-1.2.250.1.213.1.1.4.322;MED-969;Glucose interstitiel
-1.2.250.1.213.1.1.4.322;MED-972;Index de gestion de glycémie (IGG)
+;MED-969;Glucose interstitiel
+;MED-972;Index de gestion de glycémie (IGG)
