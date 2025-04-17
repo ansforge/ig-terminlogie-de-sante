@@ -89,7 +89,7 @@ On retrouve l'url du valuset dans la terminologie d'origine :
     <tr>
       <td style="text-align: left">id (*)</td>
       <td style="text-align: left">Kebab Case</td>
-      <td>Exemple : terminologie-cisis-fr</td>
+      <td>Exemple : terminologie-cisis</td>
     </tr>
     <tr>
       <td style="text-align: left">identifier</td>
@@ -117,12 +117,12 @@ On retrouve l'url du valuset dans la terminologie d'origine :
     <tr>
       <td style="text-align: left">name (*)</td>
       <td style="text-align: left">UpperLowerCase</td>
-      <td>Exemple :   TerminologieCISISFr</td>
+      <td>Exemple :   TerminologieCISIS</td>
     </tr>    
     <tr>
       <td style="text-align: left">title (*)</td>
       <td style="text-align: left">Title Case (Acronyme en majuscule</td>
-      <td>Exemple :  Terminologie CISIS Fr</td>
+      <td>Exemple :  Terminologie CISIS</td>
     </tr>    
   </tbody>
 </table>
