@@ -1,15 +1,15 @@
-Alias: $tre-r389-statuts-bilan-projet-personnalise = https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r389-statuts-bilan-projet-personnalise
+Alias: $tre-r389-statut-bilan-projet-personnalise = https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r389-statut-bilan-projet-personnalise
 
-ValueSet: JdvJ366StatutsBilanProjetPersonnaliseMs
-Id: jdv-j366-statuts-bilan-projet-personnalise-ms
-Title: "Jdv J366 Statuts Bilan Projet Personnalise Ms"
+ValueSet: JdvJ366StatutBilanProjetPersonnaliseMs
+Id: jdv-j366-statut-bilan-projet-personnalise-ms
+Title: "Jdv J366 Statut Bilan Projet Personnalise Ms"
 Description: "Statut de l'étape intermédiaire ou finale de l'analyse associée au projet personnalisé."
 * ^meta.versionId = "1"
 * ^meta.lastUpdated = "2025-04-15T18:02:28.249+00:00"
 * ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablevalueset"
 * ^extension.url = "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod"
 * ^extension.valuePeriod.start = "2025-02-22T18:02:28.249+00:00"
-* ^url = "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j366-statuts-bilan-projet-personnalise-ms"
+* ^url = "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j366-statut-bilan-projet-personnalise-ms"
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value = "urn:oid:1.2.250.1.213.3.4.220"
 * ^version = "20250415120000"
