@@ -1554,6 +1554,134 @@ Description: "Nomenclature des activités sanitaires utilisée pour décrire les
 * #065 ^property[=].valueCode = #retired
 * #065 ^property[+].code = #retirementDate
 * #065 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #067 "Coprologie"
+* #067 ^property[0].code = #parent
+* #067 ^property[=].valueCode = #0471
+* #067 ^property[+].code = #dateValid
+* #067 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #067 ^property[+].code = #dateMaj
+* #067 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #067 ^property[+].code = #status
+* #067 ^property[=].valueCode = #retired
+* #067 ^property[+].code = #retirementDate
+* #067 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #068 "Cytologie"
+* #068 ^property[0].code = #parent
+* #068 ^property[=].valueCode = #0471
+* #068 ^property[+].code = #dateValid
+* #068 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #068 ^property[+].code = #dateMaj
+* #068 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #068 ^property[+].code = #status
+* #068 ^property[=].valueCode = #retired
+* #068 ^property[+].code = #retirementDate
+* #068 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #069 "Cytogénétique"
+* #069 ^designation.language = #fr-FR
+* #069 ^designation.use.system = "http://snomed.info/sct"
+* #069 ^designation.use = $sct#900000000000013009
+* #069 ^designation.value = "Cyto-Génétique"
+* #069 ^property[0].code = #parent
+* #069 ^property[=].valueCode = #0471
+* #069 ^property[+].code = #dateValid
+* #069 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #069 ^property[+].code = #dateMaj
+* #069 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #069 ^property[+].code = #status
+* #069 ^property[=].valueCode = #retired
+* #069 ^property[+].code = #retirementDate
+* #069 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #070 "Embryologie"
+* #070 ^property[0].code = #parent
+* #070 ^property[=].valueCode = #0471
+* #070 ^property[+].code = #dateValid
+* #070 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #070 ^property[+].code = #dateMaj
+* #070 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #070 ^property[+].code = #status
+* #070 ^property[=].valueCode = #retired
+* #070 ^property[+].code = #retirementDate
+* #070 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #071 "Enzymologie"
+* #071 ^designation.language = #fr-FR
+* #071 ^designation.use.system = "http://snomed.info/sct"
+* #071 ^designation.use = $sct#900000000000013009
+* #071 ^designation.value = "Enzymlogie"
+* #071 ^property[0].code = #parent
+* #071 ^property[=].valueCode = #0471
+* #071 ^property[+].code = #dateValid
+* #071 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #071 ^property[+].code = #dateMaj
+* #071 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #071 ^property[+].code = #status
+* #071 ^property[=].valueCode = #retired
+* #071 ^property[+].code = #retirementDate
+* #071 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #072 "Hématologie"
+* #072 ^property[0].code = #parent
+* #072 ^property[=].valueCode = #0471
+* #072 ^property[+].code = #dateValid
+* #072 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #072 ^property[+].code = #dateMaj
+* #072 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #072 ^property[+].code = #status
+* #072 ^property[=].valueCode = #retired
+* #072 ^property[+].code = #retirementDate
+* #072 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #073 "Histologie"
+* #073 ^property[0].code = #parent
+* #073 ^property[=].valueCode = #0471
+* #073 ^property[+].code = #dateValid
+* #073 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #073 ^property[+].code = #dateMaj
+* #073 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #073 ^property[+].code = #status
+* #073 ^property[=].valueCode = #retired
+* #073 ^property[+].code = #retirementDate
+* #073 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #074 "Hormonologie"
+* #074 ^property[0].code = #parent
+* #074 ^property[=].valueCode = #0471
+* #074 ^property[+].code = #dateValid
+* #074 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #074 ^property[+].code = #dateMaj
+* #074 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #074 ^property[+].code = #status
+* #074 ^property[=].valueCode = #retired
+* #074 ^property[+].code = #retirementDate
+* #074 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #076 "Immunologie"
+* #076 ^property[0].code = #parent
+* #076 ^property[=].valueCode = #0471
+* #076 ^property[+].code = #dateValid
+* #076 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #076 ^property[+].code = #dateMaj
+* #076 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #076 ^property[+].code = #status
+* #076 ^property[=].valueCode = #retired
+* #076 ^property[+].code = #retirementDate
+* #076 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #077 "Bactériologie-Vitro Parasitologie"
+* #077 ^designation.language = #fr-FR
+* #077 ^designation.use.system = "http://snomed.info/sct"
+* #077 ^designation.use = $sct#900000000000013009
+* #077 ^designation.value = "Bact.-Vitro Parasito"
+* #077 ^property[0].code = #parent
+* #077 ^property[=].valueCode = #0471
+* #077 ^property[+].code = #dateValid
+* #077 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #077 ^property[+].code = #dateMaj
+* #077 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #077 ^property[+].code = #status
+* #077 ^property[=].valueCode = #retired
+* #077 ^property[+].code = #retirementDate
+* #077 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+
+
+
+
+
+
 * #101 "Médecine Générale ou Médecine Interne"
 * #101 ^designation.language = #fr-FR
 * #101 ^designation.use.system = "http://snomed.info/sct"
