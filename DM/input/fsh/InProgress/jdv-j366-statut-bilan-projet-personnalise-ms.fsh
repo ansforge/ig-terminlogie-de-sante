@@ -17,4 +17,4 @@ Description: "Statut du bilan du projet personnalisé."
 * ^experimental = false
 * ^date = "2025-04-15T18:02:28.249+00:00"
 * ^publisher = "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris"
-* include codes from system $tre-r389-statut-bilan-projet-personnalise where personnalise = "true"
+* include codes from system $tre-r389-statut-bilan-projet-personnalise where ms = "true"
