@@ -1,19 +1,19 @@
-CodeSystem: TreR389StatutsBilanProjetPersonnalise
-Id: tre-r389-statuts-bilan-projet-personnalise
-Title: "Tre R389 Statuts Bilan Projet Personnalise"
-Description: "Statut de l'étape intermédiaire ou finale de l'analyse associée au projet personnalisé."
+CodeSystem: TreR389StatutBilanProjetPersonnalise
+Id: tre-r389-statut-bilan-projet-personnalise
+Title: "Tre R389 Statut Bilan Projet Personnalise"
+Description: "Statut du bilan du projet personnalisé."
 * ^meta.versionId = "1"
 * ^meta.lastUpdated = "2025-04-15T05:12:51.958+00:00"
 * ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablecodesystem"
 * ^extension.url = "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod"
 * ^extension.valuePeriod.start = "2025-04-15T12:00:00+01:00"
-* ^url = "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r389-statuts-bilan-projet-personnalise"
+* ^url = "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r389-statut-bilan-projet-personnalise"
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value = "urn:oid:1.2.250.1.213.3.3.257"
-* ^version = "20250415120000"
+* ^version = "20250418120000"
 * ^status = #active
 * ^experimental = false
-* ^date = "2024-01-26T12:00:00+01:00"
+* ^date = "2025-04-18T12:00:00+01:00"
 * ^publisher = "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris"
 * ^caseSensitive = false
 * ^valueSet = "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r389-statuts-bilan-projet-personnalise?vs"
