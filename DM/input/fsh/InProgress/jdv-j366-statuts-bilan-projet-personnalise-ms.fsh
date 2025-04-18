@@ -3,7 +3,7 @@ Alias: $tre-r389-statut-bilan-projet-personnalise = https://smt.esante.gouv.fr/f
 ValueSet: JdvJ366StatutBilanProjetPersonnaliseMs
 Id: jdv-j366-statut-bilan-projet-personnalise-ms
 Title: "Jdv J366 Statut Bilan Projet Personnalise Ms"
-Description: "Statut de l'étape intermédiaire ou finale de l'analyse associée au projet personnalisé."
+Description: "Statut du bilan du projet personnalisé."
 * ^meta.versionId = "1"
 * ^meta.lastUpdated = "2025-04-15T18:02:28.249+00:00"
 * ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablevalueset"
