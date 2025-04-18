@@ -2269,12 +2269,12 @@
       "oids" : ["1.2.250.1.213.1.6.1.111"]
     },
     {
-      "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r389-statuts-bilan-projet-personnalise",
-      "version" : "20250415120000",
+      "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r389-statut-bilan-projet-personnalise",
+      "version" : "20250418120000",
       "status" : "active",
-      "name" : "TreR389StatutsBilanProjetPersonnalise",
-      "title" : "Tre R389 Statuts Bilan Projet Personnalise",
-      "description" : "Statut de l'étape intermédiaire ou finale de l'analyse associée au projet personnalisé.",
+      "name" : "TreR389StatutBilanProjetPersonnalise",
+      "title" : "Tre R389 Statut Bilan Projet Personnalise",
+      "description" : "Statut du bilan du projet personnalisé.",
       "oids" : ["1.2.250.1.213.3.3.257"]
     },
     {

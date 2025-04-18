@@ -1,11 +1,11 @@
 Terminologies : Validation Results
 =========================================
 
-err = 733, warn = 1066, info = 961
+err = 672, warn = 920, info = 958
 $--
 Generated $--. FHIR version $-- for ans.fr.terminologies#$-- (canonical = https://interop.esante.gouv.fr/terminologies)
- Build Errors : 400 / 20 / 0
- /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/DM/fsh-generated/resources/CodeSystem-tre-r389-statuts-bilan-projet-personnalise : 2 / 1 / 4
+ Build Errors : 399 / 20 / 0
+ /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/DM/fsh-generated/resources/CodeSystem-tre-r389-statut-bilan-projet-personnalise : 2 / 1 / 4
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/DM/fsh-generated/resources/ConceptMap-ASS-A11-CorresModeleCDA-XdsFormatCode-CISIS : 0 / 0 / 1
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/DM/fsh-generated/resources/ConceptMap-ASS-A12-CorresMediaTypeCDANonStructure-XdsFormatCode-CISIS : 0 / 0 / 1
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/DM/fsh-generated/resources/ConceptMap-ASS-A13-TypeEvenement-FluxStandardise : 0 / 1 / 1
@@ -37,58 +37,14 @@ Generated $--. FHIR version $-- for ans.fr.terminologies#$-- (canonical = https:
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/DM/fsh-generated/resources/ValueSet-JDV-J120-CommuneHistorisee : 0 / 0 / 0
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/DM/fsh-generated/resources/ValueSet-JDV-J124-Commune : 1 / 0 / 0
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/DM/fsh-generated/resources/ValueSet-TRE-R222-MediaTypeCorpsCDANonStructure-all : 0 / 0 / 1
- /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/DM/fsh-generated/resources/ValueSet-jdv-j366-statuts-bilan-projet-personnalise-ms : 3 / 1 / 1
+ /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/DM/fsh-generated/resources/ValueSet-jdv-j366-statut-bilan-projet-personnalise-ms : 3 / 1 / 1
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/DM/fsh-generated/resources/ValueSet-jdv-modele-document-cda : 0 / 0 / 1
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/DM/fsh-generated/resources/ValueSet-jdv-tre-r221-modele-document-cda-non-structure-all : 0 / 0 / 1
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/fsh-generated/resources/ImplementationGuide-ans.fr.terminologies : 0 / 0 / 1
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/ASS/Alignement_Codes_ATC_NUVA_ATC : 194 / 5 / 1
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/ASS/Alignement_Codes_CIP_CIS_NUVA_BDPM : 378 / 5 / 1
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/ASS/Alignement_Codes_CIP_NUVA_CIPUCD : 0 / 5 / 2
- /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/ASS/Alignement_Codes_Presentation_BDPM_CIPUCD : 0 / 5 / 3
- /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/AVC_CddFA_1.2.250.1.213.1.1.4.321.10 : 2 / 4 / 1
- /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/AVC_InterpretationScoreFisher_1.2.250.1.213.1.1.4.321.46 : 1 / 2 / 1
- /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/AVC_NIHSSAtaxInt_1.2.250.1.213.1.1.4.321.31 : 1 / 2 / 1
- /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/AVC_NIHSSConsInt_1.2.250.1.213.1.1.4.321.23 : 1 / 2 / 1
- /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/AVC_NIHSSCvInt_1.2.250.1.213.1.1.4.321.27 : 1 / 2 / 1
- /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/AVC_NIHSSDysInt_1.2.250.1.213.1.1.4.321.35 : 1 / 4 / 1
- /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/AVC_NIHSSLangInt_1.2.250.1.213.1.1.4.321.32 : 1 / 2 / 1
- /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/AVC_NIHSSLoccInt_1.2.250.1.213.1.1.4.321.25 : 1 / 2 / 1
- /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/AVC_NIHSSLocqInt_1.2.250.1.213.1.1.4.321.24 : 1 / 2 / 1
- /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/AVC_NIHSSMiInt_1.2.250.1.213.1.1.4.321.30 : 1 / 2 / 1
- /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/AVC_NIHSSMsInt_1.2.250.1.213.1.1.4.321.29 : 1 / 2 / 1
- /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/AVC_NIHSSNeglInt_1.2.250.1.213.1.1.4.321.33 : 1 / 4 / 1
- /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/AVC_NIHSSOculInt_1.2.250.1.213.1.1.4.321.26 : 1 / 4 / 1
- /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/AVC_NIHSSPfInt_1.2.250.1.213.1.1.4.321.28 : 1 / 2 / 1
- /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/AVC_NIHSSSensInt_1.2.250.1.213.1.1.4.321.34 : 1 / 4 / 1
- /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/AVC_TypeTroubleVisuel_1.2.250.1.213.1.1.4.321.5 : 2 / 5 / 1
- /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/AVC_artereAnt_1.2.250.1.213.1.1.4.321.13 : 2 / 4 / 1
- /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/AVC_artereCervelet_1.2.250.1.213.1.1.4.321.16 : 2 / 4 / 1
- /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/AVC_arterePost_1.2.250.1.213.1.1.4.321.15 : 2 / 4 / 1
- /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/AVC_artereTronc_1.2.250.1.213.1.1.4.321.20 : 1 / 2 / 1
- /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/AVC_autreSymptomeExNeuro_1.2.250.1.213.1.1.4.321.11 : 2 / 5 / 1
- /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/AVC_autreSymptomesNeuro_1.2.250.1.213.1.1.4.321.6 : 1 / 3 / 1
- /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/AVC_causesAggravationNeuro_1.2.250.1.213.1.1.4.321.40 : 2 / 5 / 1
- /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/AVC_cerveletLoc_1.2.250.1.213.1.1.4.321.19 : 2 / 4 / 1
- /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/AVC_etiologieHemorragie_1.2.250.1.213.1.1.4.321.43 : 2 / 4 / 1
- /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/AVC_etiologieInfarctus_1.2.250.1.213.1.1.4.321.41 : 2 / 4 / 1
- /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/AVC_hemisphereLobaire_1.2.250.1.213.1.1.4.321.18 : 2 / 4 / 1
- /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/AVC_hemisphereProfond_1.2.250.1.213.1.1.4.321.17 : 2 / 4 / 1
- /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/AVC_interpretationECG_1.2.250.1.213.1.1.4.321.36 : 1 / 2 / 1
- /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/AVC_locaThromboseVeineuse_1.2.250.1.213.1.1.4.321.21 : 2 / 4 / 1
- /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/AVC_raisonAbsenceEtiologie_1.2.250.1.213.1.1.4.321.42 : 1 / 2 / 1
- /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/AVC_siteIntervention_1.2.250.1.213.1.1.4.321.9 : 1 / 2 / 1
- /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/AVC_statutEvt_1.2.250.1.213.1.1.4.321.22 : 1 / 2 / 1
- /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/AVC_territoireInfarctus_1.2.250.1.213.1.1.4.321.37 : 1 / 2 / 1
- /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/AVC_typLesionImagerie_1.2.250.1.213.1.1.4.321.44 : 2 / 4 / 1
- /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/AVC_typeAdminstrationRt_1.2.250.1.213.1.1.4.321.39 : 0 / 1 / 1
- /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/AVC_typeDiabète_1.2.250.1.213.1.1.4.321.7 : 1 / 4 / 1
- /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/AVC_typeMigraine_1.2.250.1.213.1.1.4.321.8 : 1 / 2 / 1
- /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/AVC_typeTraitementRt_PA_1.2.250.1.213.1.1.4.321.38 : 1 / 2 / 1
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/DesignationUse_designation-use : 0 / 3 / 1
- /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/EDAPDeclK_1.2.250.1.213.1.1.4.2.285.3 : 1 / 2 / 1
- /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/EDAPTypeCodes_1.2.250.1.213.1.1.4.2.285.1 : 1 / 2 / 1
- /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/EDAPTypeProc_1.2.250.1.213.1.1.4.2.285.2 : 1 / 2 / 1
- /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/EDAP_CodeEntrée_1.2.250.1.213.1.1.4.2.285.4 : 1 / 3 / 1
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_J01_XdsAuthorSpecialty_CISIS_JDV-J01-XdsAuthorSpecialty-CISIS : 0 / 1 / 1
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_J02_XdsHealthcareFacilityTypeCode_CISIS_JDV-J02-XdsHealthcareFacilityTypeCode-CISIS : 0 / 1 / 1
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_J03_XdsContentTypeCode_CISIS_JDV-J03-XdsContentTypeCode-CISIS : 0 / 1 / 1
@@ -346,17 +302,12 @@ Generated $--. FHIR version $-- for ans.fr.terminologies#$-- (canonical = https:
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_J97_StatutProfessionnelSSA_RASS_JDV-J97-StatutProfessionnelSSA-RASS : 0 / 1 / 1
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_J98_StatutHospitalier_RASS_JDV-J98-StatutHospitalier-RASS : 0 / 1 / 1
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_J99_InseeNAFrav2Niveau5_RASS_JDV-J99-InseeNAFrav2Niveau5-RASS : 0 / 1 / 1
- /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_SexePatient_CISIS_1.2.250.1.213.1.1.5.36 : 0 / 0 / 1
- /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/PCC_VitalSignsCodes_1.2.250.1.213.1.1.4.2.283.6 : 0 / 0 / 1
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/ValueSet_ATC_All_vs-atc-all : 0 / 2 / 1
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/ValueSet_BDPM_All_vs-bdpm-all : 0 / 2 / 1
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/ValueSet_CIPUCD_All_vs-cipucd-all : 0 / 4 / 1
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/ValueSet_EDQM_All_vs-edqm-all : 0 / 2 / 1
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/ValueSet_NUVA_All_vs-nuva-all : 0 / 2 / 1
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/ValueSet_SMS_All_vs-sms-all : 0 / 2 / 1
- /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/interpretationScoreGlasgow_1.2.250.1.213.1.1.4.321.48 : 1 / 5 / 1
- /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/interpretationScoreRankin_1.2.250.1.213.1.1.4.321.47 : 1 / 3 / 1
- /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/modeSortie_1.2.250.1.213.1.1.4.321.45 : 3 / 5 / 2
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/NamingSystem/LOINC : 1 / 0 / 1
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/NamingSystem/Snomed_CT_core_900000000000207008 : 1 / 0 / 1
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/TRE/ATC_terminologie-atc : 3 / 14 / 9
@@ -661,7 +612,6 @@ ERROR: /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSou
 ERROR: /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/output/NamingSystem-v3-loinc.json.html#/html/body/div/div/div/div/div/ul/li/a at Line 219, column 4: The link 'NamingSystem-v3-loinc.demande.html' for "Demande" cannot be resolved
 ERROR: /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/output/NamingSystem-v3-loinc.ttl.html#/html/body/div/div/div/div/div/ul/li/a at Line 219, column 4: The link 'NamingSystem-v3-loinc.demande.html' for "Demande" cannot be resolved
 ERROR: /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/output/NamingSystem-v3-loinc.xml.html#/html/body/div/div/div/div/div/ul/li/a at Line 219, column 4: The link 'NamingSystem-v3-loinc.demande.html' for "Demande" cannot be resolved
-ERROR: /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/output/ValueSet-1.2.250.1.213.1.1.4.321.45.html#/html/body/div/div/div/div/div/div/div/input/div/div/div/ul/li/table/tr/td/a at Line 377, column 11: The link 'CodeSystem-TRE-R209-TypeActivite.html#TRE-R209-TypeActivite-6' for "6" cannot be resolved (valid targets: 73 targets)
 ERROR: /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/output/ValueSet-JDV-J117-ModeExercice-ENREG.html#/html/body/div/div/div/div/div/div/div/input/div/div/table/tr/td/a at Line 381, column 1431: The link 'CodeSystem-TRE-R24-TypeActiviteLiberale.html#TRE-R24-TypeActiviteLiberale-ValueSet-JDV-J119-TypeActiviteLiberale-ENREG.46html' for "ValueSet-JDV-J119-TypeActiviteLiberale-ENREG.html" cannot be resolved (valid targets: [publish-box, segment-post-footer, hl7-search-lnk, top, root, stripe, segment-footer, segment-content, newissue, ans-nav, segment-header, codesystem-	
 	-tre_r24_typeactiviteliberale, bottom, hl7-logo, hcTRE-R24-TypeActiviteLiberale, TRE-R24-TypeActiviteLiberale, family-nav, TRE-R24-TypeActiviteLiberale-ACT-LIB-06, ig-status, TRE-R24-TypeActiviteLiberale-ACT-LIB-04, TRE-R24-TypeActiviteLiberale-ACT-LIB-05, orig, segment-navbar, TRE-R24-TypeActiviteLiberale-fr-FR, TRE-R24-TypeActiviteLiberale-ACT-LIB-02, segment-breadcrumb, TRE-R24-TypeActiviteLiberale-ACT-LIB-03, TRE-R24-TypeActiviteLiberale-ACT-LIB-01])
 ERROR: /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/output/ValueSet-JDV-J133-ActiviteSanitaireRegulee-RASS.html#/html/body/div/div/div/div/div/div/div/input/div/div/table/tr/td/a at Line 381, column 1151: The link 'CodeSystem-TRE-R275-ModaliteActivite.html#TRE-R275-ModaliteActivite-ValueSet-JDV-J132-ModaliteActivite-RASS.46html' for "ValueSet-JDV-J132-ModaliteActivite-RASS.html" cannot be resolved (valid targets: 205 targets)
@@ -1052,13 +1002,13 @@ ERROR: /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSou
 ERROR: /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/output/downloads.html#/html/body/div/div/div/div/div/ul/li/a at Line 208, column 8: The link 'definitions.xml.zip' for "XML Definitions (zip)" cannot be resolved
 ERROR: /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/output/downloads.html#/html/body/div/div/div/div/div/ul/li/a at Line 209, column 8: The link 'examples.ttl.zip' for "XML Exemples (zip)" cannot be resolved
 ERROR: /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/output/downloads.html#/html/body/div/div/div/div/div/ul/li/a at Line 210, column 8: The link 'definitions.ttl.zip' for "Turtle Définitions" cannot be resolved
-== DM/fsh-generated/resources/CodeSystem-tre-r389-statuts-bilan-projet-personnalise.json ==
-ERROR: CodeSystem.where(url = 'https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r389-statuts-bilan-projet-personnalise'): Conformance resource /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/DM/fsh-generated/resources/CodeSystem-tre-r389-statuts-bilan-projet-personnalise.json - the canonical URL (https://interop.esante.gouv.fr/terminologies/CodeSystem/tre-r389-statuts-bilan-projet-personnalise) does not match the URL (https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r389-statuts-bilan-projet-personnalise)
-WARNING: CodeSystem/tre-r389-statuts-bilan-projet-personnalise: CodeSystem.valueSet: Canonical URL 'https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r389-statuts-bilan-projet-personnalise?vs' does not resolve
-INFORMATION: CodeSystem/tre-r389-statuts-bilan-projet-personnalise: CodeSystem.property[0]: This property has only a code ('dateValid') and not a URI, so it has no clearly defined meaning in the terminology ecosystem
-INFORMATION: CodeSystem/tre-r389-statuts-bilan-projet-personnalise: CodeSystem.property[1]: This property has only a code ('dateMaj') and not a URI, so it has no clearly defined meaning in the terminology ecosystem
-INFORMATION: CodeSystem/tre-r389-statuts-bilan-projet-personnalise: CodeSystem.property[2]: This property has only a code ('dateFin') and not a URI, so it has no clearly defined meaning in the terminology ecosystem
-ERROR: /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/DM/fsh-generated/resources/CodeSystem-tre-r389-statuts-bilan-projet-personnalise: URL Mismatch https://interop.esante.gouv.fr/terminologies/CodeSystem/tre-r389-statuts-bilan-projet-personnalise vs https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r389-statuts-bilan-projet-personnalise
+== DM/fsh-generated/resources/CodeSystem-tre-r389-statut-bilan-projet-personnalise.json ==
+ERROR: CodeSystem.where(url = 'https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r389-statut-bilan-projet-personnalise'): Conformance resource /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/DM/fsh-generated/resources/CodeSystem-tre-r389-statut-bilan-projet-personnalise.json - the canonical URL (https://interop.esante.gouv.fr/terminologies/CodeSystem/tre-r389-statut-bilan-projet-personnalise) does not match the URL (https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r389-statut-bilan-projet-personnalise)
+WARNING: CodeSystem/tre-r389-statut-bilan-projet-personnalise: CodeSystem.valueSet: Canonical URL 'https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r389-statuts-bilan-projet-personnalise?vs' does not resolve
+INFORMATION: CodeSystem/tre-r389-statut-bilan-projet-personnalise: CodeSystem.property[0]: This property has only a code ('dateValid') and not a URI, so it has no clearly defined meaning in the terminology ecosystem
+INFORMATION: CodeSystem/tre-r389-statut-bilan-projet-personnalise: CodeSystem.property[1]: This property has only a code ('dateMaj') and not a URI, so it has no clearly defined meaning in the terminology ecosystem
+INFORMATION: CodeSystem/tre-r389-statut-bilan-projet-personnalise: CodeSystem.property[2]: This property has only a code ('dateFin') and not a URI, so it has no clearly defined meaning in the terminology ecosystem
+ERROR: /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/DM/fsh-generated/resources/CodeSystem-tre-r389-statut-bilan-projet-personnalise: URL Mismatch https://interop.esante.gouv.fr/terminologies/CodeSystem/tre-r389-statut-bilan-projet-personnalise vs https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r389-statut-bilan-projet-personnalise
 == DM/fsh-generated/resources/ConceptMap-ASS-A11-CorresModeleCDA-XdsFormatCode-CISIS.json ==
 == DM/fsh-generated/resources/ConceptMap-ASS-A12-CorresMediaTypeCDANonStructure-XdsFormatCode-CISIS.json ==
 == DM/fsh-generated/resources/ConceptMap-ASS-A13-TypeEvenement-FluxStandardise.json ==
@@ -1126,11 +1076,11 @@ INFORMATION: ConceptMap/ASS-X16-CorrespondanceType-Classe-DMP: ConceptMap.group[
 == DM/fsh-generated/resources/ValueSet-JDV-J124-Commune.json ==
 ERROR: ValueSet.where(id = 'JDV-J124-Commune'): Error from https://smt.esante.gouv.fr/fhir: Error: Filter operator EXISTS is not supported for property dateFin on code system https://mos.esante.gouv.fr/NOS/TRE_R13-CommuneOM/FHIR/TRE-R13-CommuneOM Available filter operators are: in,=
 == DM/fsh-generated/resources/ValueSet-TRE-R222-MediaTypeCorpsCDANonStructure-all.json ==
-== DM/fsh-generated/resources/ValueSet-jdv-j366-statuts-bilan-projet-personnalise-ms.json ==
-ERROR: ValueSet.where(url = 'https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j366-statuts-bilan-projet-personnalise-ms'): Conformance resource /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/DM/fsh-generated/resources/ValueSet-jdv-j366-statuts-bilan-projet-personnalise-ms.json - the canonical URL (https://interop.esante.gouv.fr/terminologies/ValueSet/jdv-j366-statuts-bilan-projet-personnalise-ms) does not match the URL (https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j366-statuts-bilan-projet-personnalise-ms)
-WARNING: ValueSet/jdv-j366-statuts-bilan-projet-personnalise-ms: ValueSet.compose.include[0].filter[0]: The property 'personnalise' is not known for the system 'https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r389-statuts-bilan-projet-personnalise', so may not be understood by the terminology ecosystem. Known properties for this system: concept,code,status,inactive,effectiveDate,deprecationDate,retirementDate,notSelectable,synonym,comment,itemWeight,dateValid,dateMaj,dateFin
-ERROR: ValueSet.where(id = 'jdv-j366-statuts-bilan-projet-personnalise-ms'): ValueSet 'https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j366-statuts-bilan-projet-personnalise-ms|20250415120000' Filter by property 'personnalise' and op 'EQUAL' is not supported yet (and Error from http://tx.fhir.org/r4: The filter "personnalise = true" from the value set https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j366-statuts-bilan-projet-personnalise-ms was not understood in the context of https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r389-statuts-bilan-projet-personnalise)
-ERROR: /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/DM/fsh-generated/resources/ValueSet-jdv-j366-statuts-bilan-projet-personnalise-ms: URL Mismatch https://interop.esante.gouv.fr/terminologies/ValueSet/jdv-j366-statuts-bilan-projet-personnalise-ms vs https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j366-statuts-bilan-projet-personnalise-ms
+== DM/fsh-generated/resources/ValueSet-jdv-j366-statut-bilan-projet-personnalise-ms.json ==
+ERROR: ValueSet.where(url = 'https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j366-statut-bilan-projet-personnalise-ms'): Conformance resource /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/DM/fsh-generated/resources/ValueSet-jdv-j366-statut-bilan-projet-personnalise-ms.json - the canonical URL (https://interop.esante.gouv.fr/terminologies/ValueSet/jdv-j366-statut-bilan-projet-personnalise-ms) does not match the URL (https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j366-statut-bilan-projet-personnalise-ms)
+WARNING: ValueSet/jdv-j366-statut-bilan-projet-personnalise-ms: ValueSet.compose.include[0].filter[0]: The property 'ms' is not known for the system 'https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r389-statut-bilan-projet-personnalise', so may not be understood by the terminology ecosystem. Known properties for this system: concept,code,status,inactive,effectiveDate,deprecationDate,retirementDate,notSelectable,synonym,comment,itemWeight,dateValid,dateMaj,dateFin
+ERROR: ValueSet.where(id = 'jdv-j366-statut-bilan-projet-personnalise-ms'): ValueSet 'https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j366-statut-bilan-projet-personnalise-ms|20250415120000' Filter by property 'ms' and op 'EQUAL' is not supported yet (and Error from http://tx.fhir.org/r4: The filter "ms = true" from the value set https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j366-statut-bilan-projet-personnalise-ms was not understood in the context of https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r389-statut-bilan-projet-personnalise)
+ERROR: /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/DM/fsh-generated/resources/ValueSet-jdv-j366-statut-bilan-projet-personnalise-ms: URL Mismatch https://interop.esante.gouv.fr/terminologies/ValueSet/jdv-j366-statut-bilan-projet-personnalise-ms vs https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j366-statut-bilan-projet-personnalise-ms
 == DM/fsh-generated/resources/ValueSet-jdv-modele-document-cda.json ==
 == DM/fsh-generated/resources/ValueSet-jdv-tre-r221-modele-document-cda-non-structure-all.json ==
 == fsh-generated/resources/ImplementationGuide-ans.fr.terminologies.json ==
@@ -1725,245 +1675,10 @@ WARNING: ConceptMap/alignement-nuva-cipucd: ConceptMap.group[0].target: URL valu
 WARNING: ConceptMap/alignement-nuva-cipucd: ConceptMap.group[0].source: Source Code System https://smt.esante.gouv.fr/terminologie-nuva doesn't have all content (content = not-present), so the source codes cannot be checked
 WARNING: ConceptMap/alignement-nuva-cipucd: ConceptMap: Published concept maps SHOULD conform to the ShareableConceptMap profile, which says that the element ConceptMap.experimental is mandatory, but it is not present
 INFORMATION: ConceptMap/alignement-nuva-cipucd: ConceptMap: The concept map has too many codes to validate (596)
-== input/ontoserver/ASS/Alignement_Codes_Presentation_BDPM_CIPUCD.json ==
-WARNING: ConceptMap/alignement-bdpm-cipucd: ConceptMap.useContext[0].value.ofType(CodeableConcept).coding[0]: A definition for CodeSystem 'https://smt.esante.gouv.fr/terminologie-ncit' could not be found, so the code cannot be validated
-WARNING: ConceptMap/alignement-bdpm-cipucd: ConceptMap.useContext[0].value.ofType(CodeableConcept).coding[0].system: URL value 'https://smt.esante.gouv.fr/terminologie-ncit' does not resolve
-WARNING: ConceptMap/alignement-bdpm-cipucd: ConceptMap.group[0].target: URL value 'https://smt.esante.gouv.fr/terminologie-cip_ucd' does not resolve
-INFORMATION: ConceptMap/alignement-bdpm-cipucd: ConceptMap.group[0].element[20447].display: The string value contains text that looks like embedded HTML tags. If this content is rendered to HTML without appropriate post-processing, it may be a security risk
-WARNING: ConceptMap/alignement-bdpm-cipucd: ConceptMap.group[0].source: Source Code System https://smt.esante.gouv.fr/terminologie-bdpm doesn't have all content (content = not-present), so the source codes cannot be checked
-WARNING: ConceptMap/alignement-bdpm-cipucd: ConceptMap: Published concept maps SHOULD conform to the ShareableConceptMap profile, which says that the element ConceptMap.experimental is mandatory, but it is not present
-INFORMATION: ConceptMap/alignement-bdpm-cipucd: ConceptMap: The concept map has too many codes to validate (41,710)
-== input/ontoserver/JDV/AVC_CddFA_1.2.250.1.213.1.1.4.321.10.json ==
-WARNING: ValueSet/1.2.250.1.213.1.1.4.321.10: ValueSet.compose.include[0].system: URL value '1.2.250.1.213.1.1.4.321' does not resolve
-WARNING: ValueSet/1.2.250.1.213.1.1.4.321.10: ValueSet.compose.include[1].system: URL value '1.2.250.1.213.2.12' does not resolve
-ERROR: ValueSet/1.2.250.1.213.1.1.4.321.10: ValueSet.compose.include[0]: URI values in ValueSet.compose.include.system must be absolute
-WARNING: ValueSet/1.2.250.1.213.1.1.4.321.10: ValueSet.compose.include[0]: Unknown System '1.2.250.1.213.1.1.4.321' specified, so Concepts and Filters can't be checked (Details: A definition for CodeSystem '1.2.250.1.213.1.1.4.321' could not be found, so the code cannot be validated)
-ERROR: ValueSet/1.2.250.1.213.1.1.4.321.10: ValueSet.compose.include[1]: URI values in ValueSet.compose.include.system must be absolute
-WARNING: ValueSet/1.2.250.1.213.1.1.4.321.10: ValueSet.compose.include[1]: Unknown System '1.2.250.1.213.2.12' specified, so Concepts and Filters can't be checked (Details: A definition for CodeSystem '1.2.250.1.213.2.12' could not be found, so the code cannot be validated)
-== input/ontoserver/JDV/AVC_InterpretationScoreFisher_1.2.250.1.213.1.1.4.321.46.json ==
-WARNING: ValueSet/1.2.250.1.213.1.1.4.321.46: ValueSet.compose.include[0].system: URL value '1.2.250.1.213.1.1.4.321' does not resolve
-ERROR: ValueSet/1.2.250.1.213.1.1.4.321.46: ValueSet.compose.include[0]: URI values in ValueSet.compose.include.system must be absolute
-WARNING: ValueSet/1.2.250.1.213.1.1.4.321.46: ValueSet.compose.include[0]: Unknown System '1.2.250.1.213.1.1.4.321' specified, so Concepts and Filters can't be checked (Details: A definition for CodeSystem '1.2.250.1.213.1.1.4.321' could not be found, so the code cannot be validated)
-== input/ontoserver/JDV/AVC_NIHSSAtaxInt_1.2.250.1.213.1.1.4.321.31.json ==
-WARNING: ValueSet/1.2.250.1.213.1.1.4.321.31: ValueSet.compose.include[0].system: URL value '1.2.250.1.213.1.1.4.321' does not resolve
-ERROR: ValueSet/1.2.250.1.213.1.1.4.321.31: ValueSet.compose.include[0]: URI values in ValueSet.compose.include.system must be absolute
-WARNING: ValueSet/1.2.250.1.213.1.1.4.321.31: ValueSet.compose.include[0]: Unknown System '1.2.250.1.213.1.1.4.321' specified, so Concepts and Filters can't be checked (Details: A definition for CodeSystem '1.2.250.1.213.1.1.4.321' could not be found, so the code cannot be validated)
-== input/ontoserver/JDV/AVC_NIHSSConsInt_1.2.250.1.213.1.1.4.321.23.json ==
-WARNING: ValueSet/1.2.250.1.213.1.1.4.321.23: ValueSet.compose.include[0].system: URL value '1.2.250.1.213.1.1.4.321' does not resolve
-ERROR: ValueSet/1.2.250.1.213.1.1.4.321.23: ValueSet.compose.include[0]: URI values in ValueSet.compose.include.system must be absolute
-WARNING: ValueSet/1.2.250.1.213.1.1.4.321.23: ValueSet.compose.include[0]: Unknown System '1.2.250.1.213.1.1.4.321' specified, so Concepts and Filters can't be checked (Details: A definition for CodeSystem '1.2.250.1.213.1.1.4.321' could not be found, so the code cannot be validated)
-== input/ontoserver/JDV/AVC_NIHSSCvInt_1.2.250.1.213.1.1.4.321.27.json ==
-WARNING: ValueSet/1.2.250.1.213.1.1.4.321.27: ValueSet.compose.include[0].system: URL value '1.2.250.1.213.1.1.4.321' does not resolve
-ERROR: ValueSet/1.2.250.1.213.1.1.4.321.27: ValueSet.compose.include[0]: URI values in ValueSet.compose.include.system must be absolute
-WARNING: ValueSet/1.2.250.1.213.1.1.4.321.27: ValueSet.compose.include[0]: Unknown System '1.2.250.1.213.1.1.4.321' specified, so Concepts and Filters can't be checked (Details: A definition for CodeSystem '1.2.250.1.213.1.1.4.321' could not be found, so the code cannot be validated)
-== input/ontoserver/JDV/AVC_NIHSSDysInt_1.2.250.1.213.1.1.4.321.35.json ==
-WARNING: ValueSet/1.2.250.1.213.1.1.4.321.35: ValueSet.compose.include[0].system: URL value 'https://smt.esante.gouv.fr/fhir/CodeSystem/1.2.250.1.213.1.1.4.322' does not resolve
-WARNING: ValueSet/1.2.250.1.213.1.1.4.321.35: ValueSet.compose.include[1].system: URL value '1.2.250.1.213.1.1.4.321' does not resolve
-WARNING: ValueSet/1.2.250.1.213.1.1.4.321.35: ValueSet.compose.include[0]: Unknown System 'https://smt.esante.gouv.fr/fhir/CodeSystem/1.2.250.1.213.1.1.4.322' specified, so Concepts and Filters can't be checked (Details: A definition for CodeSystem 'https://smt.esante.gouv.fr/fhir/CodeSystem/1.2.250.1.213.1.1.4.322' could not be found, so the code cannot be validated)
-ERROR: ValueSet/1.2.250.1.213.1.1.4.321.35: ValueSet.compose.include[1]: URI values in ValueSet.compose.include.system must be absolute
-WARNING: ValueSet/1.2.250.1.213.1.1.4.321.35: ValueSet.compose.include[1]: Unknown System '1.2.250.1.213.1.1.4.321' specified, so Concepts and Filters can't be checked (Details: A definition for CodeSystem '1.2.250.1.213.1.1.4.321' could not be found, so the code cannot be validated)
-== input/ontoserver/JDV/AVC_NIHSSLangInt_1.2.250.1.213.1.1.4.321.32.json ==
-WARNING: ValueSet/1.2.250.1.213.1.1.4.321.32: ValueSet.compose.include[0].system: URL value '1.2.250.1.213.1.1.4.321' does not resolve
-ERROR: ValueSet/1.2.250.1.213.1.1.4.321.32: ValueSet.compose.include[0]: URI values in ValueSet.compose.include.system must be absolute
-WARNING: ValueSet/1.2.250.1.213.1.1.4.321.32: ValueSet.compose.include[0]: Unknown System '1.2.250.1.213.1.1.4.321' specified, so Concepts and Filters can't be checked (Details: A definition for CodeSystem '1.2.250.1.213.1.1.4.321' could not be found, so the code cannot be validated)
-== input/ontoserver/JDV/AVC_NIHSSLoccInt_1.2.250.1.213.1.1.4.321.25.json ==
-WARNING: ValueSet/1.2.250.1.213.1.1.4.321.25: ValueSet.compose.include[0].system: URL value '1.2.250.1.213.1.1.4.321' does not resolve
-ERROR: ValueSet/1.2.250.1.213.1.1.4.321.25: ValueSet.compose.include[0]: URI values in ValueSet.compose.include.system must be absolute
-WARNING: ValueSet/1.2.250.1.213.1.1.4.321.25: ValueSet.compose.include[0]: Unknown System '1.2.250.1.213.1.1.4.321' specified, so Concepts and Filters can't be checked (Details: A definition for CodeSystem '1.2.250.1.213.1.1.4.321' could not be found, so the code cannot be validated)
-== input/ontoserver/JDV/AVC_NIHSSLocqInt_1.2.250.1.213.1.1.4.321.24.json ==
-WARNING: ValueSet/1.2.250.1.213.1.1.4.321.24: ValueSet.compose.include[0].system: URL value '1.2.250.1.213.1.1.4.321' does not resolve
-ERROR: ValueSet/1.2.250.1.213.1.1.4.321.24: ValueSet.compose.include[0]: URI values in ValueSet.compose.include.system must be absolute
-WARNING: ValueSet/1.2.250.1.213.1.1.4.321.24: ValueSet.compose.include[0]: Unknown System '1.2.250.1.213.1.1.4.321' specified, so Concepts and Filters can't be checked (Details: A definition for CodeSystem '1.2.250.1.213.1.1.4.321' could not be found, so the code cannot be validated)
-== input/ontoserver/JDV/AVC_NIHSSMiInt_1.2.250.1.213.1.1.4.321.30.json ==
-WARNING: ValueSet/1.2.250.1.213.1.1.4.321.30: ValueSet.compose.include[0].system: URL value '1.2.250.1.213.1.1.4.321' does not resolve
-ERROR: ValueSet/1.2.250.1.213.1.1.4.321.30: ValueSet.compose.include[0]: URI values in ValueSet.compose.include.system must be absolute
-WARNING: ValueSet/1.2.250.1.213.1.1.4.321.30: ValueSet.compose.include[0]: Unknown System '1.2.250.1.213.1.1.4.321' specified, so Concepts and Filters can't be checked (Details: A definition for CodeSystem '1.2.250.1.213.1.1.4.321' could not be found, so the code cannot be validated)
-== input/ontoserver/JDV/AVC_NIHSSMsInt_1.2.250.1.213.1.1.4.321.29.json ==
-WARNING: ValueSet/1.2.250.1.213.1.1.4.321.29: ValueSet.compose.include[0].system: URL value '1.2.250.1.213.1.1.4.321' does not resolve
-ERROR: ValueSet/1.2.250.1.213.1.1.4.321.29: ValueSet.compose.include[0]: URI values in ValueSet.compose.include.system must be absolute
-WARNING: ValueSet/1.2.250.1.213.1.1.4.321.29: ValueSet.compose.include[0]: Unknown System '1.2.250.1.213.1.1.4.321' specified, so Concepts and Filters can't be checked (Details: A definition for CodeSystem '1.2.250.1.213.1.1.4.321' could not be found, so the code cannot be validated)
-== input/ontoserver/JDV/AVC_NIHSSNeglInt_1.2.250.1.213.1.1.4.321.33.json ==
-WARNING: ValueSet/1.2.250.1.213.1.1.4.321.33: ValueSet.compose.include[0].system: URL value 'https://smt.esante.gouv.fr/fhir/CodeSystem/1.2.250.1.213.1.1.4.322' does not resolve
-WARNING: ValueSet/1.2.250.1.213.1.1.4.321.33: ValueSet.compose.include[1].system: URL value '1.2.250.1.213.1.1.4.321' does not resolve
-WARNING: ValueSet/1.2.250.1.213.1.1.4.321.33: ValueSet.compose.include[0]: Unknown System 'https://smt.esante.gouv.fr/fhir/CodeSystem/1.2.250.1.213.1.1.4.322' specified, so Concepts and Filters can't be checked (Details: A definition for CodeSystem 'https://smt.esante.gouv.fr/fhir/CodeSystem/1.2.250.1.213.1.1.4.322' could not be found, so the code cannot be validated)
-ERROR: ValueSet/1.2.250.1.213.1.1.4.321.33: ValueSet.compose.include[1]: URI values in ValueSet.compose.include.system must be absolute
-WARNING: ValueSet/1.2.250.1.213.1.1.4.321.33: ValueSet.compose.include[1]: Unknown System '1.2.250.1.213.1.1.4.321' specified, so Concepts and Filters can't be checked (Details: A definition for CodeSystem '1.2.250.1.213.1.1.4.321' could not be found, so the code cannot be validated)
-== input/ontoserver/JDV/AVC_NIHSSOculInt_1.2.250.1.213.1.1.4.321.26.json ==
-WARNING: ValueSet/1.2.250.1.213.1.1.4.321.26: ValueSet.compose.include[0].system: URL value 'https://smt.esante.gouv.fr/fhir/CodeSystem/1.2.250.1.213.1.1.4.322' does not resolve
-WARNING: ValueSet/1.2.250.1.213.1.1.4.321.26: ValueSet.compose.include[1].system: URL value '1.2.250.1.213.1.1.4.321' does not resolve
-WARNING: ValueSet/1.2.250.1.213.1.1.4.321.26: ValueSet.compose.include[0]: Unknown System 'https://smt.esante.gouv.fr/fhir/CodeSystem/1.2.250.1.213.1.1.4.322' specified, so Concepts and Filters can't be checked (Details: A definition for CodeSystem 'https://smt.esante.gouv.fr/fhir/CodeSystem/1.2.250.1.213.1.1.4.322' could not be found, so the code cannot be validated)
-ERROR: ValueSet/1.2.250.1.213.1.1.4.321.26: ValueSet.compose.include[1]: URI values in ValueSet.compose.include.system must be absolute
-WARNING: ValueSet/1.2.250.1.213.1.1.4.321.26: ValueSet.compose.include[1]: Unknown System '1.2.250.1.213.1.1.4.321' specified, so Concepts and Filters can't be checked (Details: A definition for CodeSystem '1.2.250.1.213.1.1.4.321' could not be found, so the code cannot be validated)
-== input/ontoserver/JDV/AVC_NIHSSPfInt_1.2.250.1.213.1.1.4.321.28.json ==
-WARNING: ValueSet/1.2.250.1.213.1.1.4.321.28: ValueSet.compose.include[0].system: URL value '1.2.250.1.213.1.1.4.321' does not resolve
-ERROR: ValueSet/1.2.250.1.213.1.1.4.321.28: ValueSet.compose.include[0]: URI values in ValueSet.compose.include.system must be absolute
-WARNING: ValueSet/1.2.250.1.213.1.1.4.321.28: ValueSet.compose.include[0]: Unknown System '1.2.250.1.213.1.1.4.321' specified, so Concepts and Filters can't be checked (Details: A definition for CodeSystem '1.2.250.1.213.1.1.4.321' could not be found, so the code cannot be validated)
-== input/ontoserver/JDV/AVC_NIHSSSensInt_1.2.250.1.213.1.1.4.321.34.json ==
-WARNING: ValueSet/1.2.250.1.213.1.1.4.321.34: ValueSet.compose.include[0].system: URL value 'https://smt.esante.gouv.fr/fhir/CodeSystem/1.2.250.1.213.1.1.4.322' does not resolve
-WARNING: ValueSet/1.2.250.1.213.1.1.4.321.34: ValueSet.compose.include[1].system: URL value '1.2.250.1.213.1.1.4.321' does not resolve
-WARNING: ValueSet/1.2.250.1.213.1.1.4.321.34: ValueSet.compose.include[0]: Unknown System 'https://smt.esante.gouv.fr/fhir/CodeSystem/1.2.250.1.213.1.1.4.322' specified, so Concepts and Filters can't be checked (Details: A definition for CodeSystem 'https://smt.esante.gouv.fr/fhir/CodeSystem/1.2.250.1.213.1.1.4.322' could not be found, so the code cannot be validated)
-ERROR: ValueSet/1.2.250.1.213.1.1.4.321.34: ValueSet.compose.include[1]: URI values in ValueSet.compose.include.system must be absolute
-WARNING: ValueSet/1.2.250.1.213.1.1.4.321.34: ValueSet.compose.include[1]: Unknown System '1.2.250.1.213.1.1.4.321' specified, so Concepts and Filters can't be checked (Details: A definition for CodeSystem '1.2.250.1.213.1.1.4.321' could not be found, so the code cannot be validated)
-== input/ontoserver/JDV/AVC_TypeTroubleVisuel_1.2.250.1.213.1.1.4.321.5.json ==
-WARNING: ValueSet/1.2.250.1.213.1.1.4.321.5: ValueSet.compose.include[1].system: URL value '1.2.250.1.213.1.1.4.321' does not resolve
-WARNING: ValueSet/1.2.250.1.213.1.1.4.321.5: ValueSet.compose.include[2].system: URL value '1.2.250.1.213.2.12' does not resolve
-WARNING: ValueSet/1.2.250.1.213.1.1.4.321.5: ValueSet.compose.include[0]: Unknown System 'http://terminology.hl7.org/CodeSystem/icd10' specified, so Concepts and Filters can't be checked (Details: A definition for CodeSystem 'http://terminology.hl7.org/CodeSystem/icd10' could not be found, so the code cannot be validated)
-ERROR: ValueSet/1.2.250.1.213.1.1.4.321.5: ValueSet.compose.include[1]: URI values in ValueSet.compose.include.system must be absolute
-WARNING: ValueSet/1.2.250.1.213.1.1.4.321.5: ValueSet.compose.include[1]: Unknown System '1.2.250.1.213.1.1.4.321' specified, so Concepts and Filters can't be checked (Details: A definition for CodeSystem '1.2.250.1.213.1.1.4.321' could not be found, so the code cannot be validated)
-ERROR: ValueSet/1.2.250.1.213.1.1.4.321.5: ValueSet.compose.include[2]: URI values in ValueSet.compose.include.system must be absolute
-WARNING: ValueSet/1.2.250.1.213.1.1.4.321.5: ValueSet.compose.include[2]: Unknown System '1.2.250.1.213.2.12' specified, so Concepts and Filters can't be checked (Details: A definition for CodeSystem '1.2.250.1.213.2.12' could not be found, so the code cannot be validated)
-== input/ontoserver/JDV/AVC_artereAnt_1.2.250.1.213.1.1.4.321.13.json ==
-WARNING: ValueSet/1.2.250.1.213.1.1.4.321.13: ValueSet.compose.include[0].system: URL value '1.2.250.1.213.1.1.4.321' does not resolve
-WARNING: ValueSet/1.2.250.1.213.1.1.4.321.13: ValueSet.compose.include[1].system: URL value '1.2.250.1.213.2.12' does not resolve
-ERROR: ValueSet/1.2.250.1.213.1.1.4.321.13: ValueSet.compose.include[0]: URI values in ValueSet.compose.include.system must be absolute
-WARNING: ValueSet/1.2.250.1.213.1.1.4.321.13: ValueSet.compose.include[0]: Unknown System '1.2.250.1.213.1.1.4.321' specified, so Concepts and Filters can't be checked (Details: A definition for CodeSystem '1.2.250.1.213.1.1.4.321' could not be found, so the code cannot be validated)
-ERROR: ValueSet/1.2.250.1.213.1.1.4.321.13: ValueSet.compose.include[1]: URI values in ValueSet.compose.include.system must be absolute
-WARNING: ValueSet/1.2.250.1.213.1.1.4.321.13: ValueSet.compose.include[1]: Unknown System '1.2.250.1.213.2.12' specified, so Concepts and Filters can't be checked (Details: A definition for CodeSystem '1.2.250.1.213.2.12' could not be found, so the code cannot be validated)
-== input/ontoserver/JDV/AVC_artereCervelet_1.2.250.1.213.1.1.4.321.16.json ==
-WARNING: ValueSet/1.2.250.1.213.1.1.4.321.16: ValueSet.compose.include[0].system: URL value '1.2.250.1.213.1.1.4.321' does not resolve
-WARNING: ValueSet/1.2.250.1.213.1.1.4.321.16: ValueSet.compose.include[1].system: URL value '1.2.250.1.213.2.12' does not resolve
-ERROR: ValueSet/1.2.250.1.213.1.1.4.321.16: ValueSet.compose.include[0]: URI values in ValueSet.compose.include.system must be absolute
-WARNING: ValueSet/1.2.250.1.213.1.1.4.321.16: ValueSet.compose.include[0]: Unknown System '1.2.250.1.213.1.1.4.321' specified, so Concepts and Filters can't be checked (Details: A definition for CodeSystem '1.2.250.1.213.1.1.4.321' could not be found, so the code cannot be validated)
-ERROR: ValueSet/1.2.250.1.213.1.1.4.321.16: ValueSet.compose.include[1]: URI values in ValueSet.compose.include.system must be absolute
-WARNING: ValueSet/1.2.250.1.213.1.1.4.321.16: ValueSet.compose.include[1]: Unknown System '1.2.250.1.213.2.12' specified, so Concepts and Filters can't be checked (Details: A definition for CodeSystem '1.2.250.1.213.2.12' could not be found, so the code cannot be validated)
-== input/ontoserver/JDV/AVC_arterePost_1.2.250.1.213.1.1.4.321.15.json ==
-WARNING: ValueSet/1.2.250.1.213.1.1.4.321.15: ValueSet.compose.include[0].system: URL value '1.2.250.1.213.1.1.4.321' does not resolve
-WARNING: ValueSet/1.2.250.1.213.1.1.4.321.15: ValueSet.compose.include[1].system: URL value '1.2.250.1.213.2.12' does not resolve
-ERROR: ValueSet/1.2.250.1.213.1.1.4.321.15: ValueSet.compose.include[0]: URI values in ValueSet.compose.include.system must be absolute
-WARNING: ValueSet/1.2.250.1.213.1.1.4.321.15: ValueSet.compose.include[0]: Unknown System '1.2.250.1.213.1.1.4.321' specified, so Concepts and Filters can't be checked (Details: A definition for CodeSystem '1.2.250.1.213.1.1.4.321' could not be found, so the code cannot be validated)
-ERROR: ValueSet/1.2.250.1.213.1.1.4.321.15: ValueSet.compose.include[1]: URI values in ValueSet.compose.include.system must be absolute
-WARNING: ValueSet/1.2.250.1.213.1.1.4.321.15: ValueSet.compose.include[1]: Unknown System '1.2.250.1.213.2.12' specified, so Concepts and Filters can't be checked (Details: A definition for CodeSystem '1.2.250.1.213.2.12' could not be found, so the code cannot be validated)
-== input/ontoserver/JDV/AVC_artereTronc_1.2.250.1.213.1.1.4.321.20.json ==
-WARNING: ValueSet/1.2.250.1.213.1.1.4.321.20: ValueSet.compose.include[0].system: URL value '1.2.250.1.213.2.12' does not resolve
-ERROR: ValueSet/1.2.250.1.213.1.1.4.321.20: ValueSet.compose.include[0]: URI values in ValueSet.compose.include.system must be absolute
-WARNING: ValueSet/1.2.250.1.213.1.1.4.321.20: ValueSet.compose.include[0]: Unknown System '1.2.250.1.213.2.12' specified, so Concepts and Filters can't be checked (Details: A definition for CodeSystem '1.2.250.1.213.2.12' could not be found, so the code cannot be validated)
-== input/ontoserver/JDV/AVC_autreSymptomeExNeuro_1.2.250.1.213.1.1.4.321.11.json ==
-WARNING: ValueSet/1.2.250.1.213.1.1.4.321.11: ValueSet.compose.include[1].system: URL value '1.2.250.1.213.1.1.4.321' does not resolve
-WARNING: ValueSet/1.2.250.1.213.1.1.4.321.11: ValueSet.compose.include[2].system: URL value '1.2.250.1.213.2.12' does not resolve
-WARNING: ValueSet/1.2.250.1.213.1.1.4.321.11: ValueSet.compose.include[0]: Unknown System 'http://terminology.hl7.org/CodeSystem/icd10' specified, so Concepts and Filters can't be checked (Details: A definition for CodeSystem 'http://terminology.hl7.org/CodeSystem/icd10' could not be found, so the code cannot be validated)
-ERROR: ValueSet/1.2.250.1.213.1.1.4.321.11: ValueSet.compose.include[1]: URI values in ValueSet.compose.include.system must be absolute
-WARNING: ValueSet/1.2.250.1.213.1.1.4.321.11: ValueSet.compose.include[1]: Unknown System '1.2.250.1.213.1.1.4.321' specified, so Concepts and Filters can't be checked (Details: A definition for CodeSystem '1.2.250.1.213.1.1.4.321' could not be found, so the code cannot be validated)
-ERROR: ValueSet/1.2.250.1.213.1.1.4.321.11: ValueSet.compose.include[2]: URI values in ValueSet.compose.include.system must be absolute
-WARNING: ValueSet/1.2.250.1.213.1.1.4.321.11: ValueSet.compose.include[2]: Unknown System '1.2.250.1.213.2.12' specified, so Concepts and Filters can't be checked (Details: A definition for CodeSystem '1.2.250.1.213.2.12' could not be found, so the code cannot be validated)
-== input/ontoserver/JDV/AVC_autreSymptomesNeuro_1.2.250.1.213.1.1.4.321.6.json ==
-WARNING: ValueSet/1.2.250.1.213.1.1.4.321.6: ValueSet.compose.include[1].system: URL value '1.2.250.1.213.2.12' does not resolve
-WARNING: ValueSet/1.2.250.1.213.1.1.4.321.6: ValueSet.compose.include[0]: Unknown System 'http://terminology.hl7.org/CodeSystem/icd10' specified, so Concepts and Filters can't be checked (Details: A definition for CodeSystem 'http://terminology.hl7.org/CodeSystem/icd10' could not be found, so the code cannot be validated)
-ERROR: ValueSet/1.2.250.1.213.1.1.4.321.6: ValueSet.compose.include[1]: URI values in ValueSet.compose.include.system must be absolute
-WARNING: ValueSet/1.2.250.1.213.1.1.4.321.6: ValueSet.compose.include[1]: Unknown System '1.2.250.1.213.2.12' specified, so Concepts and Filters can't be checked (Details: A definition for CodeSystem '1.2.250.1.213.2.12' could not be found, so the code cannot be validated)
-== input/ontoserver/JDV/AVC_causesAggravationNeuro_1.2.250.1.213.1.1.4.321.40.json ==
-WARNING: ValueSet/1.2.250.1.213.1.1.4.321.40: ValueSet.compose.include[1].system: URL value '1.2.250.1.213.1.1.4.321' does not resolve
-WARNING: ValueSet/1.2.250.1.213.1.1.4.321.40: ValueSet.compose.include[2].system: URL value '1.2.250.1.213.2.12' does not resolve
-WARNING: ValueSet/1.2.250.1.213.1.1.4.321.40: ValueSet.compose.include[0]: Unknown System 'http://terminology.hl7.org/CodeSystem/icd10' specified, so Concepts and Filters can't be checked (Details: A definition for CodeSystem 'http://terminology.hl7.org/CodeSystem/icd10' could not be found, so the code cannot be validated)
-ERROR: ValueSet/1.2.250.1.213.1.1.4.321.40: ValueSet.compose.include[1]: URI values in ValueSet.compose.include.system must be absolute
-WARNING: ValueSet/1.2.250.1.213.1.1.4.321.40: ValueSet.compose.include[1]: Unknown System '1.2.250.1.213.1.1.4.321' specified, so Concepts and Filters can't be checked (Details: A definition for CodeSystem '1.2.250.1.213.1.1.4.321' could not be found, so the code cannot be validated)
-ERROR: ValueSet/1.2.250.1.213.1.1.4.321.40: ValueSet.compose.include[2]: URI values in ValueSet.compose.include.system must be absolute
-WARNING: ValueSet/1.2.250.1.213.1.1.4.321.40: ValueSet.compose.include[2]: Unknown System '1.2.250.1.213.2.12' specified, so Concepts and Filters can't be checked (Details: A definition for CodeSystem '1.2.250.1.213.2.12' could not be found, so the code cannot be validated)
-== input/ontoserver/JDV/AVC_cerveletLoc_1.2.250.1.213.1.1.4.321.19.json ==
-WARNING: ValueSet/1.2.250.1.213.1.1.4.321.19: ValueSet.compose.include[0].system: URL value '1.2.250.1.213.1.1.4.321' does not resolve
-WARNING: ValueSet/1.2.250.1.213.1.1.4.321.19: ValueSet.compose.include[1].system: URL value '1.2.250.1.213.2.12' does not resolve
-ERROR: ValueSet/1.2.250.1.213.1.1.4.321.19: ValueSet.compose.include[0]: URI values in ValueSet.compose.include.system must be absolute
-WARNING: ValueSet/1.2.250.1.213.1.1.4.321.19: ValueSet.compose.include[0]: Unknown System '1.2.250.1.213.1.1.4.321' specified, so Concepts and Filters can't be checked (Details: A definition for CodeSystem '1.2.250.1.213.1.1.4.321' could not be found, so the code cannot be validated)
-ERROR: ValueSet/1.2.250.1.213.1.1.4.321.19: ValueSet.compose.include[1]: URI values in ValueSet.compose.include.system must be absolute
-WARNING: ValueSet/1.2.250.1.213.1.1.4.321.19: ValueSet.compose.include[1]: Unknown System '1.2.250.1.213.2.12' specified, so Concepts and Filters can't be checked (Details: A definition for CodeSystem '1.2.250.1.213.2.12' could not be found, so the code cannot be validated)
-== input/ontoserver/JDV/AVC_etiologieHemorragie_1.2.250.1.213.1.1.4.321.43.json ==
-WARNING: ValueSet/1.2.250.1.213.1.1.4.321.43: ValueSet.compose.include[0].system: URL value '1.2.250.1.213.1.1.4.321' does not resolve
-WARNING: ValueSet/1.2.250.1.213.1.1.4.321.43: ValueSet.compose.include[1].system: URL value '1.2.250.1.213.2.12' does not resolve
-ERROR: ValueSet/1.2.250.1.213.1.1.4.321.43: ValueSet.compose.include[0]: URI values in ValueSet.compose.include.system must be absolute
-WARNING: ValueSet/1.2.250.1.213.1.1.4.321.43: ValueSet.compose.include[0]: Unknown System '1.2.250.1.213.1.1.4.321' specified, so Concepts and Filters can't be checked (Details: A definition for CodeSystem '1.2.250.1.213.1.1.4.321' could not be found, so the code cannot be validated)
-ERROR: ValueSet/1.2.250.1.213.1.1.4.321.43: ValueSet.compose.include[1]: URI values in ValueSet.compose.include.system must be absolute
-WARNING: ValueSet/1.2.250.1.213.1.1.4.321.43: ValueSet.compose.include[1]: Unknown System '1.2.250.1.213.2.12' specified, so Concepts and Filters can't be checked (Details: A definition for CodeSystem '1.2.250.1.213.2.12' could not be found, so the code cannot be validated)
-== input/ontoserver/JDV/AVC_etiologieInfarctus_1.2.250.1.213.1.1.4.321.41.json ==
-WARNING: ValueSet/1.2.250.1.213.1.1.4.321.41: ValueSet.compose.include[0].system: URL value '1.2.250.1.213.1.1.4.321' does not resolve
-WARNING: ValueSet/1.2.250.1.213.1.1.4.321.41: ValueSet.compose.include[1].system: URL value '1.2.250.1.213.2.12' does not resolve
-ERROR: ValueSet/1.2.250.1.213.1.1.4.321.41: ValueSet.compose.include[0]: URI values in ValueSet.compose.include.system must be absolute
-WARNING: ValueSet/1.2.250.1.213.1.1.4.321.41: ValueSet.compose.include[0]: Unknown System '1.2.250.1.213.1.1.4.321' specified, so Concepts and Filters can't be checked (Details: A definition for CodeSystem '1.2.250.1.213.1.1.4.321' could not be found, so the code cannot be validated)
-ERROR: ValueSet/1.2.250.1.213.1.1.4.321.41: ValueSet.compose.include[1]: URI values in ValueSet.compose.include.system must be absolute
-WARNING: ValueSet/1.2.250.1.213.1.1.4.321.41: ValueSet.compose.include[1]: Unknown System '1.2.250.1.213.2.12' specified, so Concepts and Filters can't be checked (Details: A definition for CodeSystem '1.2.250.1.213.2.12' could not be found, so the code cannot be validated)
-== input/ontoserver/JDV/AVC_hemisphereLobaire_1.2.250.1.213.1.1.4.321.18.json ==
-WARNING: ValueSet/1.2.250.1.213.1.1.4.321.18: ValueSet.compose.include[0].system: URL value '1.2.250.1.213.1.1.4.321' does not resolve
-WARNING: ValueSet/1.2.250.1.213.1.1.4.321.18: ValueSet.compose.include[1].system: URL value '1.2.250.1.213.2.12' does not resolve
-ERROR: ValueSet/1.2.250.1.213.1.1.4.321.18: ValueSet.compose.include[0]: URI values in ValueSet.compose.include.system must be absolute
-WARNING: ValueSet/1.2.250.1.213.1.1.4.321.18: ValueSet.compose.include[0]: Unknown System '1.2.250.1.213.1.1.4.321' specified, so Concepts and Filters can't be checked (Details: A definition for CodeSystem '1.2.250.1.213.1.1.4.321' could not be found, so the code cannot be validated)
-ERROR: ValueSet/1.2.250.1.213.1.1.4.321.18: ValueSet.compose.include[1]: URI values in ValueSet.compose.include.system must be absolute
-WARNING: ValueSet/1.2.250.1.213.1.1.4.321.18: ValueSet.compose.include[1]: Unknown System '1.2.250.1.213.2.12' specified, so Concepts and Filters can't be checked (Details: A definition for CodeSystem '1.2.250.1.213.2.12' could not be found, so the code cannot be validated)
-== input/ontoserver/JDV/AVC_hemisphereProfond_1.2.250.1.213.1.1.4.321.17.json ==
-WARNING: ValueSet/1.2.250.1.213.1.1.4.321.17: ValueSet.compose.include[0].system: URL value '1.2.250.1.213.1.1.4.321' does not resolve
-WARNING: ValueSet/1.2.250.1.213.1.1.4.321.17: ValueSet.compose.include[1].system: URL value '1.2.250.1.213.2.12' does not resolve
-ERROR: ValueSet/1.2.250.1.213.1.1.4.321.17: ValueSet.compose.include[0]: URI values in ValueSet.compose.include.system must be absolute
-WARNING: ValueSet/1.2.250.1.213.1.1.4.321.17: ValueSet.compose.include[0]: Unknown System '1.2.250.1.213.1.1.4.321' specified, so Concepts and Filters can't be checked (Details: A definition for CodeSystem '1.2.250.1.213.1.1.4.321' could not be found, so the code cannot be validated)
-ERROR: ValueSet/1.2.250.1.213.1.1.4.321.17: ValueSet.compose.include[1]: URI values in ValueSet.compose.include.system must be absolute
-WARNING: ValueSet/1.2.250.1.213.1.1.4.321.17: ValueSet.compose.include[1]: Unknown System '1.2.250.1.213.2.12' specified, so Concepts and Filters can't be checked (Details: A definition for CodeSystem '1.2.250.1.213.2.12' could not be found, so the code cannot be validated)
-== input/ontoserver/JDV/AVC_interpretationECG_1.2.250.1.213.1.1.4.321.36.json ==
-WARNING: ValueSet/1.2.250.1.213.1.1.4.321.36: ValueSet.compose.include[0].system: URL value '1.2.250.1.213.2.12' does not resolve
-ERROR: ValueSet/1.2.250.1.213.1.1.4.321.36: ValueSet.compose.include[0]: URI values in ValueSet.compose.include.system must be absolute
-WARNING: ValueSet/1.2.250.1.213.1.1.4.321.36: ValueSet.compose.include[0]: Unknown System '1.2.250.1.213.2.12' specified, so Concepts and Filters can't be checked (Details: A definition for CodeSystem '1.2.250.1.213.2.12' could not be found, so the code cannot be validated)
-== input/ontoserver/JDV/AVC_locaThromboseVeineuse_1.2.250.1.213.1.1.4.321.21.json ==
-WARNING: ValueSet/1.2.250.1.213.1.1.4.321.21: ValueSet.compose.include[0].system: URL value '1.2.250.1.213.1.1.4.321' does not resolve
-WARNING: ValueSet/1.2.250.1.213.1.1.4.321.21: ValueSet.compose.include[1].system: URL value '1.2.250.1.213.2.12' does not resolve
-ERROR: ValueSet/1.2.250.1.213.1.1.4.321.21: ValueSet.compose.include[0]: URI values in ValueSet.compose.include.system must be absolute
-WARNING: ValueSet/1.2.250.1.213.1.1.4.321.21: ValueSet.compose.include[0]: Unknown System '1.2.250.1.213.1.1.4.321' specified, so Concepts and Filters can't be checked (Details: A definition for CodeSystem '1.2.250.1.213.1.1.4.321' could not be found, so the code cannot be validated)
-ERROR: ValueSet/1.2.250.1.213.1.1.4.321.21: ValueSet.compose.include[1]: URI values in ValueSet.compose.include.system must be absolute
-WARNING: ValueSet/1.2.250.1.213.1.1.4.321.21: ValueSet.compose.include[1]: Unknown System '1.2.250.1.213.2.12' specified, so Concepts and Filters can't be checked (Details: A definition for CodeSystem '1.2.250.1.213.2.12' could not be found, so the code cannot be validated)
-== input/ontoserver/JDV/AVC_raisonAbsenceEtiologie_1.2.250.1.213.1.1.4.321.42.json ==
-WARNING: ValueSet/1.2.250.1.213.1.1.4.321.42: ValueSet.compose.include[0].system: URL value '1.2.250.1.213.1.1.4.321' does not resolve
-ERROR: ValueSet/1.2.250.1.213.1.1.4.321.42: ValueSet.compose.include[0]: URI values in ValueSet.compose.include.system must be absolute
-WARNING: ValueSet/1.2.250.1.213.1.1.4.321.42: ValueSet.compose.include[0]: Unknown System '1.2.250.1.213.1.1.4.321' specified, so Concepts and Filters can't be checked (Details: A definition for CodeSystem '1.2.250.1.213.1.1.4.321' could not be found, so the code cannot be validated)
-== input/ontoserver/JDV/AVC_siteIntervention_1.2.250.1.213.1.1.4.321.9.json ==
-WARNING: ValueSet/1.2.250.1.213.1.1.4.321.9: ValueSet.compose.include[0].system: URL value '1.2.250.1.213.2.12' does not resolve
-ERROR: ValueSet/1.2.250.1.213.1.1.4.321.9: ValueSet.compose.include[0]: URI values in ValueSet.compose.include.system must be absolute
-WARNING: ValueSet/1.2.250.1.213.1.1.4.321.9: ValueSet.compose.include[0]: Unknown System '1.2.250.1.213.2.12' specified, so Concepts and Filters can't be checked (Details: A definition for CodeSystem '1.2.250.1.213.2.12' could not be found, so the code cannot be validated)
-== input/ontoserver/JDV/AVC_statutEvt_1.2.250.1.213.1.1.4.321.22.json ==
-WARNING: ValueSet/1.2.250.1.213.1.1.4.321.22: ValueSet.compose.include[0].system: URL value '1.2.250.1.213.2.12' does not resolve
-ERROR: ValueSet/1.2.250.1.213.1.1.4.321.22: ValueSet.compose.include[0]: URI values in ValueSet.compose.include.system must be absolute
-WARNING: ValueSet/1.2.250.1.213.1.1.4.321.22: ValueSet.compose.include[0]: Unknown System '1.2.250.1.213.2.12' specified, so Concepts and Filters can't be checked (Details: A definition for CodeSystem '1.2.250.1.213.2.12' could not be found, so the code cannot be validated)
-== input/ontoserver/JDV/AVC_territoireInfarctus_1.2.250.1.213.1.1.4.321.37.json ==
-WARNING: ValueSet/1.2.250.1.213.1.1.4.321.37: ValueSet.compose.include[0].system: URL value '1.2.250.1.213.1.1.4.321' does not resolve
-ERROR: ValueSet/1.2.250.1.213.1.1.4.321.37: ValueSet.compose.include[0]: URI values in ValueSet.compose.include.system must be absolute
-WARNING: ValueSet/1.2.250.1.213.1.1.4.321.37: ValueSet.compose.include[0]: Unknown System '1.2.250.1.213.1.1.4.321' specified, so Concepts and Filters can't be checked (Details: A definition for CodeSystem '1.2.250.1.213.1.1.4.321' could not be found, so the code cannot be validated)
-== input/ontoserver/JDV/AVC_typLesionImagerie_1.2.250.1.213.1.1.4.321.44.json ==
-WARNING: ValueSet/1.2.250.1.213.1.1.4.321.44: ValueSet.compose.include[0].system: URL value '1.2.250.1.213.1.1.4.321' does not resolve
-WARNING: ValueSet/1.2.250.1.213.1.1.4.321.44: ValueSet.compose.include[1].system: URL value '1.2.250.1.213.2.12' does not resolve
-ERROR: ValueSet/1.2.250.1.213.1.1.4.321.44: ValueSet.compose.include[0]: URI values in ValueSet.compose.include.system must be absolute
-WARNING: ValueSet/1.2.250.1.213.1.1.4.321.44: ValueSet.compose.include[0]: Unknown System '1.2.250.1.213.1.1.4.321' specified, so Concepts and Filters can't be checked (Details: A definition for CodeSystem '1.2.250.1.213.1.1.4.321' could not be found, so the code cannot be validated)
-ERROR: ValueSet/1.2.250.1.213.1.1.4.321.44: ValueSet.compose.include[1]: URI values in ValueSet.compose.include.system must be absolute
-WARNING: ValueSet/1.2.250.1.213.1.1.4.321.44: ValueSet.compose.include[1]: Unknown System '1.2.250.1.213.2.12' specified, so Concepts and Filters can't be checked (Details: A definition for CodeSystem '1.2.250.1.213.2.12' could not be found, so the code cannot be validated)
-== input/ontoserver/JDV/AVC_typeAdminstrationRt_1.2.250.1.213.1.1.4.321.39.json ==
-WARNING: ValueSet/1.2.250.1.213.1.1.4.321.39: ValueSet.compose.include[0]: There are multiple different potential matches for the url 'http://terminology.hl7.org/CodeSystem/v3-RouteOfAdministration'. It might be a good idea to fix to the correct version to reduce the likelihood of a wrong version being selected by an implementation/implementer, or use the [IG Parameter `pin-canonicals`](https://hl7.org/fhir/tools/CodeSystem-ig-parameters.html). Using version '3.0.0', found versions: 2.1.0, 3.0.0. Suggested fix: change the canonical reference from 'http://terminology.hl7.org/CodeSystem/v3-RouteOfAdministration' to 'http://terminology.hl7.org/CodeSystem/v3-RouteOfAdministration|3.0.0'
-== input/ontoserver/JDV/AVC_typeDiabète_1.2.250.1.213.1.1.4.321.7.json ==
-WARNING: ValueSet/1.2.250.1.213.1.1.4.321.7: ValueSet.compose.include[1].system: URL value '1.2.250.1.213.2.12' does not resolve
-WARNING: ValueSet/1.2.250.1.213.1.1.4.321.7: ValueSet: Constraint failed: vsd-0: 'Name should be usable as an identifier for the module by machine processing applications such as code generation' (defined in http://hl7.org/fhir/StructureDefinition/ValueSet)
-WARNING: ValueSet/1.2.250.1.213.1.1.4.321.7: ValueSet.compose.include[0]: Unknown System 'http://terminology.hl7.org/CodeSystem/icd10' specified, so Concepts and Filters can't be checked (Details: A definition for CodeSystem 'http://terminology.hl7.org/CodeSystem/icd10' could not be found, so the code cannot be validated)
-ERROR: ValueSet/1.2.250.1.213.1.1.4.321.7: ValueSet.compose.include[1]: URI values in ValueSet.compose.include.system must be absolute
-WARNING: ValueSet/1.2.250.1.213.1.1.4.321.7: ValueSet.compose.include[1]: Unknown System '1.2.250.1.213.2.12' specified, so Concepts and Filters can't be checked (Details: A definition for CodeSystem '1.2.250.1.213.2.12' could not be found, so the code cannot be validated)
-== input/ontoserver/JDV/AVC_typeMigraine_1.2.250.1.213.1.1.4.321.8.json ==
-WARNING: ValueSet/1.2.250.1.213.1.1.4.321.8: ValueSet.compose.include[0].system: URL value '1.2.250.1.213.2.12' does not resolve
-ERROR: ValueSet/1.2.250.1.213.1.1.4.321.8: ValueSet.compose.include[0]: URI values in ValueSet.compose.include.system must be absolute
-WARNING: ValueSet/1.2.250.1.213.1.1.4.321.8: ValueSet.compose.include[0]: Unknown System '1.2.250.1.213.2.12' specified, so Concepts and Filters can't be checked (Details: A definition for CodeSystem '1.2.250.1.213.2.12' could not be found, so the code cannot be validated)
-== input/ontoserver/JDV/AVC_typeTraitementRt_PA_1.2.250.1.213.1.1.4.321.38.json ==
-WARNING: ValueSet/1.2.250.1.213.1.1.4.321.38: ValueSet.compose.include[0].system: URL value '1.2.250.1.213.2.12' does not resolve
-ERROR: ValueSet/1.2.250.1.213.1.1.4.321.38: ValueSet.compose.include[0]: URI values in ValueSet.compose.include.system must be absolute
-WARNING: ValueSet/1.2.250.1.213.1.1.4.321.38: ValueSet.compose.include[0]: Unknown System '1.2.250.1.213.2.12' specified, so Concepts and Filters can't be checked (Details: A definition for CodeSystem '1.2.250.1.213.2.12' could not be found, so the code cannot be validated)
 == input/ontoserver/JDV/DesignationUse_designation-use.json ==
 WARNING: ValueSet/designation-use: ValueSet: The nominated WG 'vocab' means that the publisher should be either 'HL7 International / Terminology Infrastructure'or 'HL7 International / Vocabulary' but 'FHIR Project' was found
 WARNING: ValueSet/designation-use: ValueSet: The nominated WG 'vocab' means that the contact url should be 'http://www.hl7.org/Special/committees/Vocab' but it was not found
 WARNING: ValueSet/designation-use: ValueSet: Resource has a language, but the XHTML does not have an lang or an xml:lang tag (needs both - see https://www.w3.org/TR/i18n-html-tech-lang/#langvalues)
-== input/ontoserver/JDV/EDAPDeclK_1.2.250.1.213.1.1.4.2.285.3.json ==
-WARNING: ValueSet/1.2.250.1.213.1.1.4.2.285.3: ValueSet.compose.include[0].system: URL value '1.2.250.1.213.1.1.4.2.285' does not resolve
-ERROR: ValueSet/1.2.250.1.213.1.1.4.2.285.3: ValueSet.compose.include[0]: URI values in ValueSet.compose.include.system must be absolute
-WARNING: ValueSet/1.2.250.1.213.1.1.4.2.285.3: ValueSet.compose.include[0]: Unknown System '1.2.250.1.213.1.1.4.2.285' specified, so Concepts and Filters can't be checked (Details: A definition for CodeSystem '1.2.250.1.213.1.1.4.2.285' could not be found, so the code cannot be validated)
-== input/ontoserver/JDV/EDAPTypeCodes_1.2.250.1.213.1.1.4.2.285.1.json ==
-WARNING: ValueSet/1.2.250.1.213.1.1.4.2.285.1: ValueSet.compose.include[0].system: URL value '1.2.250.1.213.1.1.4.2.285' does not resolve
-ERROR: ValueSet/1.2.250.1.213.1.1.4.2.285.1: ValueSet.compose.include[0]: URI values in ValueSet.compose.include.system must be absolute
-WARNING: ValueSet/1.2.250.1.213.1.1.4.2.285.1: ValueSet.compose.include[0]: Unknown System '1.2.250.1.213.1.1.4.2.285' specified, so Concepts and Filters can't be checked (Details: A definition for CodeSystem '1.2.250.1.213.1.1.4.2.285' could not be found, so the code cannot be validated)
-== input/ontoserver/JDV/EDAPTypeProc_1.2.250.1.213.1.1.4.2.285.2.json ==
-WARNING: ValueSet/1.2.250.1.213.1.1.4.2.285.2: ValueSet.compose.include[0].system: URL value '1.2.250.1.213.1.1.4.2.285' does not resolve
-ERROR: ValueSet/1.2.250.1.213.1.1.4.2.285.2: ValueSet.compose.include[0]: URI values in ValueSet.compose.include.system must be absolute
-WARNING: ValueSet/1.2.250.1.213.1.1.4.2.285.2: ValueSet.compose.include[0]: Unknown System '1.2.250.1.213.1.1.4.2.285' specified, so Concepts and Filters can't be checked (Details: A definition for CodeSystem '1.2.250.1.213.1.1.4.2.285' could not be found, so the code cannot be validated)
-== input/ontoserver/JDV/EDAP_CodeEntrée_1.2.250.1.213.1.1.4.2.285.4.json ==
-WARNING: ValueSet/1.2.250.1.213.1.1.4.2.285.4: ValueSet.compose.include[0].system: URL value '1.2.250.1.213.1.1.4.2.285' does not resolve
-WARNING: ValueSet/1.2.250.1.213.1.1.4.2.285.4: ValueSet: Constraint failed: vsd-0: 'Name should be usable as an identifier for the module by machine processing applications such as code generation' (defined in http://hl7.org/fhir/StructureDefinition/ValueSet)
-ERROR: ValueSet/1.2.250.1.213.1.1.4.2.285.4: ValueSet.compose.include[0]: URI values in ValueSet.compose.include.system must be absolute
-WARNING: ValueSet/1.2.250.1.213.1.1.4.2.285.4: ValueSet.compose.include[0]: Unknown System '1.2.250.1.213.1.1.4.2.285' specified, so Concepts and Filters can't be checked (Details: A definition for CodeSystem '1.2.250.1.213.1.1.4.2.285' could not be found, so the code cannot be validated)
 == input/ontoserver/JDV/JDV_J01_XdsAuthorSpecialty_CISIS_JDV-J01-XdsAuthorSpecialty-CISIS.json ==
 WARNING: ValueSet/JDV-J01-XdsAuthorSpecialty-CISIS: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.title is mandatory, but it is not present
 == input/ontoserver/JDV/JDV_J02_XdsHealthcareFacilityTypeCode_CISIS_JDV-J02-XdsHealthcareFacilityTypeCode-CISIS.json ==
@@ -2524,8 +2239,6 @@ WARNING: ValueSet/JDV-J97-StatutProfessionnelSSA-RASS: ValueSet: Published value
 WARNING: ValueSet/JDV-J98-StatutHospitalier-RASS: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.title is mandatory, but it is not present
 == input/ontoserver/JDV/JDV_J99_InseeNAFrav2Niveau5_RASS_JDV-J99-InseeNAFrav2Niveau5-RASS.json ==
 WARNING: ValueSet/JDV-J99-InseeNAFrav2Niveau5-RASS: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.title is mandatory, but it is not present
-== input/ontoserver/JDV/JDV_SexePatient_CISIS_1.2.250.1.213.1.1.5.36.json ==
-== input/ontoserver/JDV/PCC_VitalSignsCodes_1.2.250.1.213.1.1.4.2.283.6.json ==
 == input/ontoserver/JDV/ValueSet_ATC_All_vs-atc-all.json ==
 WARNING: ValueSet/vs-atc-all: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.title is mandatory, but it is not present
 WARNING: ValueSet/vs-atc-all: ValueSet: Resource has a language, but the XHTML does not have an lang or an xml:lang tag (needs both - see https://www.w3.org/TR/i18n-html-tech-lang/#langvalues)
@@ -2546,28 +2259,6 @@ WARNING: ValueSet/vs-nuva-all: ValueSet: Resource has a language, but the XHTML 
 == input/ontoserver/JDV/ValueSet_SMS_All_vs-sms-all.json ==
 WARNING: ValueSet/vs-sms-all: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.title is mandatory, but it is not present
 WARNING: ValueSet/vs-sms-all: ValueSet: Resource has a language, but the XHTML does not have an lang or an xml:lang tag (needs both - see https://www.w3.org/TR/i18n-html-tech-lang/#langvalues)
-== input/ontoserver/JDV/interpretationScoreGlasgow_1.2.250.1.213.1.1.4.321.48.json ==
-WARNING: ValueSet/1.2.250.1.213.1.1.4.321.48: ValueSet.compose.include[0].system: URL value 'https://smt.esante.gouv.fr/fhir/CodeSystem/1.2.250.1.213.1.1.4.322' does not resolve
-WARNING: ValueSet/1.2.250.1.213.1.1.4.321.48: ValueSet.compose.include[1].system: URL value '1.2.250.1.213.1.1.4.321' does not resolve
-WARNING: ValueSet/1.2.250.1.213.1.1.4.321.48: ValueSet: Constraint failed: vsd-0: 'Name should be usable as an identifier for the module by machine processing applications such as code generation' (defined in http://hl7.org/fhir/StructureDefinition/ValueSet)
-WARNING: ValueSet/1.2.250.1.213.1.1.4.321.48: ValueSet.compose.include[0]: Unknown System 'https://smt.esante.gouv.fr/fhir/CodeSystem/1.2.250.1.213.1.1.4.322' specified, so Concepts and Filters can't be checked (Details: A definition for CodeSystem 'https://smt.esante.gouv.fr/fhir/CodeSystem/1.2.250.1.213.1.1.4.322' could not be found, so the code cannot be validated)
-ERROR: ValueSet/1.2.250.1.213.1.1.4.321.48: ValueSet.compose.include[1]: URI values in ValueSet.compose.include.system must be absolute
-WARNING: ValueSet/1.2.250.1.213.1.1.4.321.48: ValueSet.compose.include[1]: Unknown System '1.2.250.1.213.1.1.4.321' specified, so Concepts and Filters can't be checked (Details: A definition for CodeSystem '1.2.250.1.213.1.1.4.321' could not be found, so the code cannot be validated)
-== input/ontoserver/JDV/interpretationScoreRankin_1.2.250.1.213.1.1.4.321.47.json ==
-WARNING: ValueSet/1.2.250.1.213.1.1.4.321.47: ValueSet.compose.include[0].system: URL value '1.2.250.1.213.1.1.4.321' does not resolve
-WARNING: ValueSet/1.2.250.1.213.1.1.4.321.47: ValueSet: Constraint failed: vsd-0: 'Name should be usable as an identifier for the module by machine processing applications such as code generation' (defined in http://hl7.org/fhir/StructureDefinition/ValueSet)
-ERROR: ValueSet/1.2.250.1.213.1.1.4.321.47: ValueSet.compose.include[0]: URI values in ValueSet.compose.include.system must be absolute
-WARNING: ValueSet/1.2.250.1.213.1.1.4.321.47: ValueSet.compose.include[0]: Unknown System '1.2.250.1.213.1.1.4.321' specified, so Concepts and Filters can't be checked (Details: A definition for CodeSystem '1.2.250.1.213.1.1.4.321' could not be found, so the code cannot be validated)
-== input/ontoserver/JDV/modeSortie_1.2.250.1.213.1.1.4.321.45.json ==
-WARNING: ValueSet/1.2.250.1.213.1.1.4.321.45: ValueSet.compose.include[0].system: URL value 'https://smt.esante.gouv.fr/fhir/CodeSystem/1.2.250.1.213.1.1.4.322' does not resolve
-WARNING: ValueSet/1.2.250.1.213.1.1.4.321.45: ValueSet.compose.include[2].system: URL value '1.2.250.1.213.2.12' does not resolve
-WARNING: ValueSet/1.2.250.1.213.1.1.4.321.45: ValueSet: Constraint failed: vsd-0: 'Name should be usable as an identifier for the module by machine processing applications such as code generation' (defined in http://hl7.org/fhir/StructureDefinition/ValueSet)
-WARNING: ValueSet/1.2.250.1.213.1.1.4.321.45: ValueSet.compose.include[0]: Unknown System 'https://smt.esante.gouv.fr/fhir/CodeSystem/1.2.250.1.213.1.1.4.322' specified, so Concepts and Filters can't be checked (Details: A definition for CodeSystem 'https://smt.esante.gouv.fr/fhir/CodeSystem/1.2.250.1.213.1.1.4.322' could not be found, so the code cannot be validated)
-ERROR: ValueSet/1.2.250.1.213.1.1.4.321.45: ValueSet.compose.include[1].concept[0]: The code '6' is not valid in the system https://mos.esante.gouv.fr/NOS/TRE_R209-TypeActivite/FHIR/TRE-R209-TypeActivite (Unknown code '6' in the CodeSystem 'https://mos.esante.gouv.fr/NOS/TRE_R209-TypeActivite/FHIR/TRE-R209-TypeActivite' version '20240223120000')
-INFORMATION: ValueSet/1.2.250.1.213.1.1.4.321.45: ValueSet.compose.include[1].concept[0]: Unknown code '6' in the CodeSystem 'https://mos.esante.gouv.fr/NOS/TRE_R209-TypeActivite/FHIR/TRE-R209-TypeActivite' version '20240223120000'
-ERROR: ValueSet/1.2.250.1.213.1.1.4.321.45: ValueSet.compose.include[2]: URI values in ValueSet.compose.include.system must be absolute
-WARNING: ValueSet/1.2.250.1.213.1.1.4.321.45: ValueSet.compose.include[2]: Unknown System '1.2.250.1.213.2.12' specified, so Concepts and Filters can't be checked (Details: A definition for CodeSystem '1.2.250.1.213.2.12' could not be found, so the code cannot be validated)
-ERROR: ValueSet.text.div: Hyperlink 'CodeSystem-TRE-R209-TypeActivite.html#TRE-R209-TypeActivite-6' at 'div/ul/li/table/tr/td/a' for '6' does not resolve
 == input/ontoserver/NamingSystem/LOINC.json ==
 ERROR: NamingSystem/v3-loinc: NamingSystem.meta.tag[0].display: Wrong Display Name 'Resource encoded in summary mode' for http://terminology.hl7.org/CodeSystem/v3-ObservationValue#SUBSETTED. There are no valid display names found for language(s) 'fr-FR'. Default display is 'subsetted'
 == input/ontoserver/NamingSystem/Snomed_CT_core_900000000000207008.json ==
