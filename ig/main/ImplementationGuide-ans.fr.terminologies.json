@@ -10,7 +10,7 @@
   "name" : "Terminologies",
   "title" : "Terminologies  de Santé",
   "status" : "active",
-  "date" : "2025-04-18T04:19:40+00:00",
+  "date" : "2025-04-19T04:18:30+00:00",
   "publisher" : "ANS",
   "contact" : [{
     "name" : "ANS",
@@ -36368,18 +36368,6 @@
       },
       "name" : "JDV_J99_InseeNAFrav2Niveau5_RASS",
       "description" : "Sous-classes de la Nomenclature Activités Française (INSEE) des prof du RASS",
-      "exampleBoolean" : false
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "ValueSet"
-      }],
-      "reference" : {
-        "reference" : "ValueSet/1.2.250.1.213.1.1.5.36"
-      },
-      "name" : "JDV_SexePatient_CISIS",
-      "description" : "JDV_SexePatient_CISIS",
       "exampleBoolean" : false
     },
     {

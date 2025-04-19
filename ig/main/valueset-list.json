@@ -3509,17 +3509,6 @@
       ]
     },
     {
-      "url" : "https://smt.esante.gouv.fr/fhir/ValueSet/1.2.250.1.213.1.1.5.36",
-      "version" : "20211231000000",
-      "status" : "retired",
-      "name" : "JDV_SexePatient_CISIS",
-      "title" : "JDV_SexePatient_CISIS",
-      "description" : "JDV_SexePatient_CISIS",
-      "systems" : ["http://loinc.org"],
-      "oids" : ["1.2.250.1.213.1.1.5.36"],
-      "sources" : ["1.2.250.1.213.1.1.5.36"]
-    },
-    {
       "url" : "https://smt.esante.gouv.fr/terminologie-atc?vs",
       "version" : "20241114120000",
       "status" : "active",

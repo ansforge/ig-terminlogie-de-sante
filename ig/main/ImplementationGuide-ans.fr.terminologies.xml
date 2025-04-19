@@ -11,7 +11,7 @@
   <name value="Terminologies"/>
   <title value="Terminologies  de Santé"/>
   <status value="active"/>
-  <date value="2025-04-18T04:19:40+00:00"/>
+  <date value="2025-04-19T04:18:30+00:00"/>
   <publisher value="ANS"/>
   <contact>
     <name value="ANS"/>
@@ -27149,17 +27149,6 @@
       </reference>
       <name value="JDV_J99_InseeNAFrav2Niveau5_RASS"/>
       <description value="Sous-classes de la Nomenclature Activités Française (INSEE) des prof du RASS"/>
-      <exampleBoolean value="false"/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="ValueSet"/>
-      </extension>
-      <reference>
-        <reference value="ValueSet/1.2.250.1.213.1.1.5.36"/>
-      </reference>
-      <name value="JDV_SexePatient_CISIS"/>
-      <description value="JDV_SexePatient_CISIS"/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>

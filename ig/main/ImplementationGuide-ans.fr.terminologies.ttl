@@ -18,7 +18,7 @@
   fhir:name [ fhir:v "Terminologies"] ; # 
   fhir:title [ fhir:v "Terminologies  de Santé"] ; # 
   fhir:status [ fhir:v "active"] ; # 
-  fhir:date [ fhir:v "2025-04-18T04:19:40+00:00"^^xsd:dateTime] ; # 
+  fhir:date [ fhir:v "2025-04-19T04:18:30+00:00"^^xsd:dateTime] ; # 
   fhir:publisher [ fhir:v "ANS"] ; # 
   fhir:contact ( [
      fhir:name [ fhir:v "ANS" ] ;
@@ -50094,24 +50094,6 @@
        ] ;
        fhir:name [ fhir:v "JDV_J99_InseeNAFrav2Niveau5_RASS" ] ;
        fhir:description [ fhir:v "Sous-classes de la Nomenclature Activités Française (INSEE) des prof du RASS" ] ;
-       fhir:example [
-         a fhir:boolean ;
-         fhir:v false
-       ]
-     ] [
-       fhir:extension ( [
-         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
-         fhir:value [
-           a fhir:string ;
-           fhir:v "ValueSet"
-         ]
-       ] ) ;
-       fhir:reference [
-         fhir:link <https://interop.esante.gouv.fr/terminologies/ValueSet/1.2.250.1.213.1.1.5.36> ;
-         fhir:reference [ fhir:v "ValueSet/1.2.250.1.213.1.1.5.36" ]
-       ] ;
-       fhir:name [ fhir:v "JDV_SexePatient_CISIS" ] ;
-       fhir:description [ fhir:v "JDV_SexePatient_CISIS" ] ;
        fhir:example [
          a fhir:boolean ;
          fhir:v false
