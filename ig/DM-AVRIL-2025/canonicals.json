@@ -4340,6 +4340,14 @@
     "oids" : ["1.2.250.1.213.3.3.257"]
   },
   {
+    "id" : "tre-r390-type-projet-personnalise",
+    "type" : "CodeSystem",
+    "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r390-type-projet-personnalise",
+    "version" : "20250422120000",
+    "name" : "TreR390TypeProjetPersonnalise",
+    "oids" : ["1.2.250.1.213.3.3.258"]
+  },
+  {
     "id" : "alignement-nuva-atc",
     "type" : "ConceptMap",
     "url" : "https://smt.esante.gouv.fr/fhir/ConceptMap/alignement-nuva-atc",
@@ -4367,6 +4375,22 @@
     "version" : "20250415120000",
     "name" : "JdvJ366StatutBilanProjetPersonnaliseMs",
     "oids" : ["1.2.250.1.213.3.4.220"]
+  },
+  {
+    "id" : "jdv-j367-type-projet-personnalise-ms",
+    "type" : "ValueSet",
+    "url" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j367-type-projet-personnalise-ms",
+    "version" : "20250422120000",
+    "name" : "JdvJ367TypeProjetPersonnaliseMs",
+    "oids" : ["1.2.250.1.213.3.4.221"]
+  },
+  {
+    "id" : "jdv-j368-categorie-etablissement-cisis",
+    "type" : "ValueSet",
+    "url" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j368-categorie-etablissement-cisis",
+    "version" : "20250422120000",
+    "name" : "JdvJ368CategorieEtablissementCisis",
+    "oids" : ["1.2.250.1.213.1.1.5.823"]
   },
   {
     "id" : "terminologie-SERAFINPH",

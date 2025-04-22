@@ -10,7 +10,7 @@
   "name" : "Terminologies",
   "title" : "Terminologies  de Santé",
   "status" : "active",
-  "date" : "2025-04-18T09:50:48+00:00",
+  "date" : "2025-04-22T11:23:17+00:00",
   "publisher" : "ANS",
   "contact" : [{
     "name" : "ANS",
@@ -33256,6 +33256,30 @@
         "valueString" : "ValueSet"
       }],
       "reference" : {
+        "reference" : "ValueSet/jdv-j367-type-projet-personnalise-ms"
+      },
+      "name" : "Jdv J367 Type Projet Personnalise Ms",
+      "description" : "Cette nomenclature donne le type de projet personnalisé qui est un document co-construit par l'usager, son entourage familial et professionnel du médico-social.",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      }],
+      "reference" : {
+        "reference" : "ValueSet/jdv-j368-categorie-etablissement-cisis"
+      },
+      "name" : "Jdv J368 Categorie Etablissement Cisis",
+      "description" : "JDV à l'image de l'ensemble des valeurs actives de la terminologie TRE_R66-CategorieEtablissement",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      }],
+      "reference" : {
         "reference" : "ValueSet/JDV-J69-ActiviteOperationnelle-Santefr"
       },
       "name" : "JDV J69 ActiviteOperationnelle Santefr",
@@ -36495,6 +36519,18 @@
       },
       "name" : "Tre R389 Statut Bilan Projet Personnalise",
       "description" : "Statut du bilan du projet personnalisé.",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "CodeSystem"
+      }],
+      "reference" : {
+        "reference" : "CodeSystem/tre-r390-type-projet-personnalise"
+      },
+      "name" : "Tre R390 Type Projet Personnalise",
+      "description" : "Cette nomenclature donne le type de projet personnalisé qui est un document co-construit par l'usager, son entourage familial et professionnel du médico-social.",
       "exampleBoolean" : false
     },
     {
