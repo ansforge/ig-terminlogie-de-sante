@@ -3482,12 +3482,321 @@ Description: "Nomenclature des activités sanitaires utilisée pour décrire les
 * #245 ^property[=].valueCode = #retired
 * #245 ^property[+].code = #retirementDate
 * #245 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
-
-
-
-
-
-
-
-
+* #252 "Pouponnière à Caractère Sanitaire"
+* #252 ^designation.language = #fr-FR
+* #252 ^designation.use = $sct#900000000000013009
+* #252 ^designation.value = "Pouponnière Cara.San"
+* #252 ^property[0].code = #parent
+* #252 ^property[=].valueCode = #0267
+* #252 ^property[+].code = #dateValid
+* #252 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #252 ^property[+].code = #dateMaj
+* #252 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #252 ^property[+].code = #status
+* #252 ^property[=].valueCode = #retired
+* #252 ^property[+].code = #retirementDate
+* #252 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #263 "Placement familial sanitaire"
+* #263 ^designation.language = #fr-FR
+* #263 ^designation.use = $sct#900000000000013009
+* #263 ^designation.value = "Plact familial sanit"
+* #263 ^property[0].code = #parent
+* #263 ^property[=].valueCode = #0267
+* #263 ^property[+].code = #dateValid
+* #263 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #263 ^property[+].code = #dateMaj
+* #263 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #263 ^property[+].code = #status
+* #263 ^property[=].valueCode = #retired
+* #263 ^property[+].code = #retirementDate
+* #263 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #265 "COLONIE A CARACTERE SANITAIRE"
+* #265 ^designation.language = #fr-FR
+* #265 ^designation.use = $sct#900000000000013009
+* #265 ^designation.value = "COLONIE A CARACTERE"
+* #265 ^property[0].code = #parent
+* #265 ^property[=].valueCode = #0262
+* #265 ^property[+].code = #dateValid
+* #265 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #265 ^property[+].code = #dateMaj
+* #265 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #265 ^property[+].code = #status
+* #265 ^property[=].valueCode = #retired
+* #265 ^property[+].code = #retirementDate
+* #265 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #302 "CHIMIOTHER.EN HEMATOL.& CANCER"
+* #302 ^designation.language = #fr-FR
+* #302 ^designation.use = $sct#900000000000013009
+* #302 ^designation.value = "CHIMIOTHER.EN HEMATO"
+* #302 ^property[0].code = #parent
+* #302 ^property[=].valueCode = #0321
+* #302 ^property[+].code = #dateValid
+* #302 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #302 ^property[+].code = #dateMaj
+* #302 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #302 ^property[+].code = #status
+* #302 ^property[=].valueCode = #retired
+* #302 ^property[+].code = #retirementDate
+* #302 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #303 "Urgence Médicale"
+* #303 ^property[0].code = #parent
+* #303 ^property[=].valueCode = #0511
+* #303 ^property[+].code = #dateValid
+* #303 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #303 ^property[+].code = #dateMaj
+* #303 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #303 ^property[+].code = #status
+* #303 ^property[=].valueCode = #retired
+* #303 ^property[+].code = #retirementDate
+* #303 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #307 "Urgence Chirurgicale (SERV.PORTE)"
+* #307 ^designation.language = #fr-FR
+* #307 ^designation.use = $sct#900000000000013009
+* #307 ^designation.value = "Urgence Chirurgicale"
+* #307 ^property[0].code = #parent
+* #307 ^property[=].valueCode = #0521
+* #307 ^property[+].code = #dateValid
+* #307 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #307 ^property[+].code = #dateMaj
+* #307 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #307 ^property[+].code = #status
+* #307 ^property[=].valueCode = #retired
+* #307 ^property[+].code = #retirementDate
+* #307 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #308 "Urgence Indifférenciée"
+* #308 ^designation.language = #fr-FR
+* #308 ^designation.use = $sct#900000000000013009
+* #308 ^designation.value = "Urgence Indiffér."
+* #308 ^property[0].code = #parent
+* #308 ^property[=].valueCode = #0511
+* #308 ^property[+].code = #dateValid
+* #308 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #308 ^property[+].code = #dateMaj
+* #308 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #308 ^property[+].code = #status
+* #308 ^property[=].valueCode = #retired
+* #308 ^property[+].code = #retirementDate
+* #308 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #309 "Interruption Volontaire de Grossesse"
+* #309 ^designation.language = #fr-FR
+* #309 ^designation.use = $sct#900000000000013009
+* #309 ^designation.value = "I.V.G."
+* #309 ^property[0].code = #parent
+* #309 ^property[=].valueCode = #0331
+* #309 ^property[+].code = #dateValid
+* #309 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #309 ^property[+].code = #dateMaj
+* #309 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #309 ^property[+].code = #status
+* #309 ^property[=].valueCode = #active
+* #310 "Examens de Santé et Bilans"
+* #310 ^designation.language = #fr-FR
+* #310 ^designation.use = $sct#900000000000013009
+* #310 ^designation.value = "Examens Santé Bilans"
+* #310 ^property[0].code = #parent
+* #310 ^property[=].valueCode = #0211
+* #310 ^property[+].code = #dateValid
+* #310 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #310 ^property[+].code = #dateMaj
+* #310 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #310 ^property[+].code = #status
+* #310 ^property[=].valueCode = #retired
+* #310 ^property[+].code = #retirementDate
+* #310 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #312 "Néphrologie"
+* #312 ^property[0].code = #parent
+* #312 ^property[=].valueCode = #0213
+* #312 ^property[+].code = #dateValid
+* #312 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #312 ^property[+].code = #dateMaj
+* #312 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #312 ^property[+].code = #status
+* #312 ^property[=].valueCode = #retired
+* #312 ^property[+].code = #retirementDate
+* #312 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #362 "Chirurgie Obstétrique Indifférenciées"
+* #362 ^designation.language = #fr-FR
+* #362 ^designation.use = $sct#900000000000013009
+* #362 ^designation.value = "Chirurgie Obst.Ind."
+* #362 ^property[0].code = #parent
+* #362 ^property[=].valueCode = #0411
+* #362 ^property[+].code = #dateValid
+* #362 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #362 ^property[+].code = #dateMaj
+* #362 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #362 ^property[+].code = #status
+* #362 ^property[=].valueCode = #retired
+* #362 ^property[+].code = #retirementDate
+* #362 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #384 "Protection Maternelle & Infantile"
+* #384 ^designation.language = #fr-FR
+* #384 ^designation.use = $sct#900000000000013009
+* #384 ^designation.value = "P.M.I"
+* #384 ^property[0].code = #parent
+* #384 ^property[=].valueCode = #0342
+* #384 ^property[+].code = #dateValid
+* #384 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #384 ^property[+].code = #dateMaj
+* #384 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #384 ^property[+].code = #status
+* #384 ^property[=].valueCode = #active
+* #385 "Consultations Prénuptiale Prénatale et Postnatale"
+* #385 ^designation.language = #fr-FR
+* #385 ^designation.use = $sct#900000000000013009
+* #385 ^designation.value = "Consult.Prénup.Préna"
+* #385 ^property[0].code = #parent
+* #385 ^property[=].valueCode = #0342
+* #385 ^property[+].code = #dateValid
+* #385 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #385 ^property[+].code = #dateMaj
+* #385 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #385 ^property[+].code = #status
+* #385 ^property[=].valueCode = #active
+* #386 "Consultations Protection Infantile"
+* #386 ^designation.language = #fr-FR
+* #386 ^designation.use = $sct#900000000000013009
+* #386 ^designation.value = "Consult.Protec.Infan"
+* #386 ^property[0].code = #parent
+* #386 ^property[=].valueCode = #0342
+* #386 ^property[+].code = #dateValid
+* #386 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #386 ^property[+].code = #dateMaj
+* #386 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #386 ^property[+].code = #status
+* #386 ^property[=].valueCode = #active
+* #387 "Consultations de Nourrissons"
+* #387 ^designation.language = #fr-FR
+* #387 ^designation.use = $sct#900000000000013009
+* #387 ^designation.value = "Consult. Nourrisson"
+* #387 ^property[0].code = #parent
+* #387 ^property[=].valueCode = #0343
+* #387 ^property[+].code = #dateValid
+* #387 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #387 ^property[+].code = #dateMaj
+* #387 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #387 ^property[+].code = #status
+* #387 ^property[=].valueCode = #retired
+* #387 ^property[+].code = #retirementDate
+* #387 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #388 "Consultations de deuxième age"
+* #388 ^designation.language = #fr-FR
+* #388 ^designation.use = $sct#900000000000013009
+* #388 ^designation.value = "Consult. 2ème âge"
+* #388 ^property[0].code = #parent
+* #388 ^property[=].valueCode = #0343
+* #388 ^property[+].code = #dateValid
+* #388 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #388 ^property[+].code = #dateMaj
+* #388 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #388 ^property[+].code = #status
+* #388 ^property[=].valueCode = #retired
+* #388 ^property[+].code = #retirementDate
+* #388 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #389 "Lutte contre la Stérilité"
+* #389 ^designation.language = #fr-FR
+* #389 ^designation.use = $sct#900000000000013009
+* #389 ^designation.value = "Lutte Ctre Stérilité"
+* #389 ^property[0].code = #parent
+* #389 ^property[=].valueCode = #0331
+* #389 ^property[+].code = #dateValid
+* #389 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #389 ^property[+].code = #dateMaj
+* #389 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #389 ^property[+].code = #status
+* #389 ^property[=].valueCode = #retired
+* #389 ^property[+].code = #retirementDate
+* #389 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #390 "Consultation en Conseil Génétique"
+* #390 ^designation.language = #fr-FR
+* #390 ^designation.use = $sct#900000000000013009
+* #390 ^designation.value = "Consult.Conseil Géné"
+* #390 ^property[0].code = #parent
+* #390 ^property[=].valueCode = #0342
+* #390 ^property[+].code = #dateValid
+* #390 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #390 ^property[+].code = #dateMaj
+* #390 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #390 ^property[+].code = #status
+* #390 ^property[=].valueCode = #active
+* #391 "Consultation de Planification ou Éducation Familiale"
+* #391 ^designation.language = #fr-FR
+* #391 ^designation.use = $sct#900000000000013009
+* #391 ^designation.value = "Consultation Planif."
+* #391 ^property[0].code = #parent
+* #391 ^property[=].valueCode = #0342
+* #391 ^property[+].code = #dateValid
+* #391 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #391 ^property[+].code = #dateMaj
+* #391 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #391 ^property[+].code = #status
+* #391 ^property[=].valueCode = #active
+* #392 "Information Consultation ou Conseil familial"
+* #392 ^designation.language = #fr-FR
+* #392 ^designation.use = $sct#900000000000013009
+* #392 ^designation.value = "Inf.Conseil Familial"
+* #392 ^property[0].code = #parent
+* #392 ^property[=].valueCode = #0342
+* #392 ^property[+].code = #dateValid
+* #392 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #392 ^property[+].code = #dateMaj
+* #392 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #392 ^property[+].code = #status
+* #392 ^property[=].valueCode = #active
+* #394 "Lactarium"
+* #394 ^property[0].code = #parent
+* #394 ^property[=].valueCode = #0631
+* #394 ^property[+].code = #dateValid
+* #394 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #394 ^property[+].code = #dateMaj
+* #394 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #394 ^property[+].code = #status
+* #394 ^property[=].valueCode = #retired
+* #394 ^property[+].code = #retirementDate
+* #394 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #395 "Guidance Parentale"
+* #395 ^property[0].code = #parent
+* #395 ^property[=].valueCode = #0342
+* #395 ^property[+].code = #dateValid
+* #395 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #395 ^property[+].code = #dateMaj
+* #395 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #395 ^property[+].code = #status
+* #395 ^property[=].valueCode = #active
+* #396 "Guidance infantile"
+* #396 ^property[0].code = #parent
+* #396 ^property[=].valueCode = #0342
+* #396 ^property[+].code = #dateValid
+* #396 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #396 ^property[+].code = #dateMaj
+* #396 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #396 ^property[+].code = #status
+* #396 ^property[=].valueCode = #active
+* #401 "unité de proximité accueil traitement orientation urgences"
+* #401 ^designation.language = #fr-FR
+* #401 ^designation.use = $sct#900000000000013009
+* #401 ^designation.value = "UPATOU"
+* #401 ^property[0].code = #parent
+* #401 ^property[=].valueCode = #0511
+* #401 ^property[+].code = #dateValid
+* #401 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #401 ^property[+].code = #dateMaj
+* #401 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #401 ^property[+].code = #status
+* #401 ^property[=].valueCode = #retired
+* #401 ^property[+].code = #retirementDate
+* #401 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #402 "service accueil et traitement urgences"
+* #402 ^designation.language = #fr-FR
+* #402 ^designation.use = $sct#900000000000013009
+* #402 ^designation.value = "SAU"
+* #402 ^property[0].code = #parent
+* #402 ^property[=].valueCode = #0511
+* #402 ^property[+].code = #dateValid
+* #402 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #402 ^property[+].code = #dateMaj
+* #402 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #402 ^property[+].code = #status
+* #402 ^property[=].valueCode = #retired
+* #402 ^property[+].code = #retirementDate
+* #402 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
 
