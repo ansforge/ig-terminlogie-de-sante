@@ -27,18 +27,36 @@ Description: "Statut du bilan du projet personnalisé."
 * ^property[+].code = #dateFin
 * ^property[=].description = "Date de fin d'exploitation d'un code concept"
 * ^property[=].type = #dateTime
+* ^property[+].code = #status
+* ^property[=].uri = "http://hl7.org/fhir/concept-properties#status"
+* ^property[=].description = "Statut d'un code concept"
+* ^property[=].type = #code
+* ^property[+].code = #deprecationDate
+* ^property[=].uri = "http://hl7.org/fhir/concept-properties#deprecationDate"
+* ^property[=].description = "Date de dépréciation du code"
+* ^property[=].type = #dateTime
+* ^property[+].code = #retirementDate
+* ^property[=].uri = "http://hl7.org/fhir/concept-properties#retirementDate"
+* ^property[=].description = "Date de retrait du code"
+* ^property[=].type = #dateTime
 * #PARTIEL "Partiel"
 * #PARTIEL ^property[0].code = #dateValid
 * #PARTIEL ^property[=].valueDateTime = "2025-04-15T12:00:00+01:00"
 * #PARTIEL ^property[+].code = #dateMaj
 * #PARTIEL ^property[=].valueDateTime = "2025-04-15T12:00:00+01:00"
+* #PARTIEL ^property[+].code = #status
+* #PARTIEL ^property[=].valueCode = #active
 * #INTERMEDIAIRE "Intermédiaire"
 * #INTERMEDIAIRE ^property[0].code = #dateValid
 * #INTERMEDIAIRE ^property[=].valueDateTime = "2025-04-15T12:00:00+01:00"
 * #INTERMEDIAIRE ^property[+].code = #dateMaj
 * #INTERMEDIAIRE ^property[=].valueDateTime = "2025-04-15T12:00:00+01:00"
+* #INTERMEDIAIRE ^property[+].code = #status
+* #INTERMEDIAIRE ^property[=].valueCode = #active
 * #FINAL "Final"
 * #FINAL ^property[0].code = #dateValid
 * #FINAL ^property[=].valueDateTime = "2025-04-15T12:00:00+01:00"
 * #FINAL ^property[+].code = #dateMaj
 * #FINAL ^property[=].valueDateTime = "2025-04-15T12:00:00+01:00"
+* #FINAL ^property[+].code = #status
+* #FINAL ^property[=].valueCode = #active
