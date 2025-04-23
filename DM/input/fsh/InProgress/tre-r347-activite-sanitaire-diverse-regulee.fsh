@@ -4783,3 +4783,1175 @@ Description: "Nomenclature des activités sanitaires utilisée pour décrire les
 * #664 ^property[=].valueCode = #retired
 * #664 ^property[+].code = #retirementDate
 * #664 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #665 "Fabrication Distribution Produit Pharmaceutiques"
+* #665 ^designation.language = #fr-FR
+* #665 ^designation.use = $sct#900000000000013009
+* #665 ^designation.value = "Fabr.Distr.Pro.Phar."
+* #665 ^property[0].code = #parent
+* #665 ^property[=].valueCode = #0481
+* #665 ^property[+].code = #dateValid
+* #665 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #665 ^property[+].code = #dateMaj
+* #665 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #665 ^property[+].code = #status
+* #665 ^property[=].valueCode = #retired
+* #665 ^property[+].code = #retirementDate
+* #665 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #666 "Dispensation à Domicile d'Oxygène à usage médical"
+* #666 ^designation.language = #fr-FR
+* #666 ^designation.use = $sct#900000000000013009
+* #666 ^designation.value = "Disp.dom.oxy.médic."
+* #666 ^property[0].code = #parent
+* #666 ^property[=].valueCode = #0481
+* #666 ^property[+].code = #dateValid
+* #666 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #666 ^property[+].code = #dateMaj
+* #666 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #666 ^property[+].code = #status
+* #666 ^property[=].valueCode = #active
+* #715 "Surveillance Par Monitorage (Mort Subite du Nourrisson)"
+* #715 ^designation.language = #fr-FR
+* #715 ^designation.use = $sct#900000000000013009
+* #715 ^designation.value = "Surv.Mort Sub.Nour."
+* #715 ^property[0].code = #parent
+* #715 ^property[=].valueCode = #0361
+* #715 ^property[+].code = #dateValid
+* #715 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #715 ^property[+].code = #dateMaj
+* #715 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #715 ^property[+].code = #status
+* #715 ^property[=].valueCode = #retired
+* #715 ^property[+].code = #retirementDate
+* #715 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #717 "Soins Hautement Spécialisés en Médecine"
+* #717 ^designation.language = #fr-FR
+* #717 ^designation.use = $sct#900000000000013009
+* #717 ^designation.value = "Soins Haut.Spé.Méd."
+* #717 ^property[0].code = #parent
+* #717 ^property[=].valueCode = #0213
+* #717 ^property[+].code = #dateValid
+* #717 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #717 ^property[+].code = #dateMaj
+* #717 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #717 ^property[+].code = #status
+* #717 ^property[=].valueCode = #retired
+* #717 ^property[+].code = #retirementDate
+* #717 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #718 "Soins Hautement Spécialisés en Chirurgie"
+* #718 ^designation.language = #fr-FR
+* #718 ^designation.use = $sct#900000000000013009
+* #718 ^designation.value = "Soins Haut.Spé.Chir."
+* #718 ^property[0].code = #parent
+* #718 ^property[=].valueCode = #0223
+* #718 ^property[+].code = #dateValid
+* #718 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #718 ^property[+].code = #dateMaj
+* #718 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #718 ^property[+].code = #status
+* #718 ^property[=].valueCode = #retired
+* #718 ^property[+].code = #retirementDate
+* #718 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #719 "Soins Hautement Spécialisés en Gynécologie"
+* #719 ^designation.language = #fr-FR
+* #719 ^designation.use = $sct#900000000000013009
+* #719 ^designation.value = "Soins Haut.Spé.Gyné."
+* #719 ^property[0].code = #parent
+* #719 ^property[=].valueCode = #0231
+* #719 ^property[+].code = #dateValid
+* #719 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #719 ^property[+].code = #dateMaj
+* #719 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #719 ^property[+].code = #status
+* #719 ^property[=].valueCode = #retired
+* #719 ^property[+].code = #retirementDate
+* #719 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #720 "réanimation néonatale"
+* #720 ^designation.language = #fr-FR
+* #720 ^designation.use = $sct#900000000000013009
+* #720 ^designation.value = "Réanimation Néonatal"
+* #720 ^property[0].code = #parent
+* #720 ^property[=].valueCode = #0214
+* #720 ^property[+].code = #dateValid
+* #720 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #720 ^property[+].code = #dateMaj
+* #720 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #720 ^property[+].code = #status
+* #720 ^property[=].valueCode = #retired
+* #720 ^property[+].code = #retirementDate
+* #720 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #721 "Radiothérapie Métabolique"
+* #721 ^designation.language = #fr-FR
+* #721 ^designation.use = $sct#900000000000013009
+* #721 ^designation.value = "Radiothérapie Métab."
+* #721 ^property[0].code = #parent
+* #721 ^property[=].valueCode = #0441
+* #721 ^property[+].code = #dateValid
+* #721 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #721 ^property[+].code = #dateMaj
+* #721 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #721 ^property[+].code = #status
+* #721 ^property[=].valueCode = #retired
+* #721 ^property[+].code = #retirementDate
+* #721 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #722 "Maladies Infect.Tropic.Exotiq."
+* #722 ^designation.language = #fr-FR
+* #722 ^designation.use = $sct#900000000000013009
+* #722 ^designation.value = "Maladies Infect.Trop"
+* #722 ^property[0].code = #parent
+* #722 ^property[=].valueCode = #0213
+* #722 ^property[+].code = #dateValid
+* #722 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #722 ^property[+].code = #dateMaj
+* #722 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #722 ^property[+].code = #status
+* #722 ^property[=].valueCode = #retired
+* #722 ^property[+].code = #retirementDate
+* #722 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #723 "Auto dialyse"
+* #723 ^designation.language = #fr-FR
+* #723 ^designation.use = $sct#900000000000013009
+* #723 ^designation.value = "Autodialyse"
+* #723 ^property[0].code = #parent
+* #723 ^property[=].valueCode = #0311
+* #723 ^property[+].code = #dateValid
+* #723 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #723 ^property[+].code = #dateMaj
+* #723 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #723 ^property[+].code = #status
+* #723 ^property[=].valueCode = #retired
+* #723 ^property[+].code = #retirementDate
+* #723 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #724 "Suivi de Grossesse"
+* #724 ^property[0].code = #parent
+* #724 ^property[=].valueCode = #0331
+* #724 ^property[+].code = #dateValid
+* #724 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #724 ^property[+].code = #dateMaj
+* #724 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #724 ^property[+].code = #status
+* #724 ^property[=].valueCode = #retired
+* #724 ^property[+].code = #retirementDate
+* #724 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #725 "Suivi Pré et Post Opératoire"
+* #725 ^designation.language = #fr-FR
+* #725 ^designation.use = $sct#900000000000013009
+* #725 ^designation.value = "Suivi Pré Post-Opér."
+* #725 ^property[0].code = #parent
+* #725 ^property[=].valueCode = #0361
+* #725 ^property[+].code = #dateValid
+* #725 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #725 ^property[+].code = #dateMaj
+* #725 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #725 ^property[+].code = #status
+* #725 ^property[=].valueCode = #retired
+* #725 ^property[+].code = #retirementDate
+* #725 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #726 "Consultations Multidisciplinaires"
+* #726 ^designation.language = #fr-FR
+* #726 ^designation.use = $sct#900000000000013009
+* #726 ^designation.value = "Consult.Multidiscip."
+* #726 ^property[0].code = #parent
+* #726 ^property[=].valueCode = #0343
+* #726 ^property[+].code = #dateValid
+* #726 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #726 ^property[+].code = #dateMaj
+* #726 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #726 ^property[+].code = #status
+* #726 ^property[=].valueCode = #active
+* #727 "Consultation Externes Indifférenciées"
+* #727 ^designation.language = #fr-FR
+* #727 ^designation.use = $sct#900000000000013009
+* #727 ^designation.value = "Consult.Externes ind"
+* #727 ^property[0].code = #parent
+* #727 ^property[=].valueCode = #0343
+* #727 ^property[+].code = #dateValid
+* #727 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #727 ^property[+].code = #dateMaj
+* #727 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #727 ^property[+].code = #status
+* #727 ^property[=].valueCode = #active
+* #728 "cardiologie infantile"
+* #728 ^designation.language = #fr-FR
+* #728 ^designation.use = $sct#900000000000013009
+* #728 ^designation.value = "cardiologie infantil"
+* #728 ^property[0].code = #parent
+* #728 ^property[=].valueCode = #0212
+* #728 ^property[+].code = #dateValid
+* #728 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #728 ^property[+].code = #dateMaj
+* #728 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #728 ^property[+].code = #status
+* #728 ^property[=].valueCode = #retired
+* #728 ^property[+].code = #retirementDate
+* #728 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #731 "Spécialités Pédiatriques"
+* #731 ^designation.language = #fr-FR
+* #731 ^designation.use = $sct#900000000000013009
+* #731 ^designation.value = "Spécial.Pédiatriques"
+* #731 ^property[0].code = #parent
+* #731 ^property[=].valueCode = #0212
+* #731 ^property[+].code = #dateValid
+* #731 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #731 ^property[+].code = #dateMaj
+* #731 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #731 ^property[+].code = #status
+* #731 ^property[=].valueCode = #retired
+* #731 ^property[+].code = #retirementDate
+* #731 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #737 "Convalescence et Réadaptation"
+* #737 ^designation.language = #fr-FR
+* #737 ^designation.use = $sct#900000000000013009
+* #737 ^designation.value = "Conval. Réadaptation"
+* #737 ^property[0].code = #parent
+* #737 ^property[=].valueCode = #0262
+* #737 ^property[+].code = #dateValid
+* #737 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #737 ^property[+].code = #dateMaj
+* #737 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #737 ^property[+].code = #status
+* #737 ^property[=].valueCode = #retired
+* #737 ^property[+].code = #retirementDate
+* #737 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #738 "Rééduc.Fonct.Réadapt.Motrice (Orient.Rhumatologie)"
+* #738 ^designation.language = #fr-FR
+* #738 ^designation.use = $sct#900000000000013009
+* #738 ^designation.value = "Ré.F.Réa.Mot.Rhumato"
+* #738 ^property[0].code = #parent
+* #738 ^property[=].valueCode = #0263
+* #738 ^property[+].code = #dateValid
+* #738 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #738 ^property[+].code = #dateMaj
+* #738 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #738 ^property[+].code = #status
+* #738 ^property[=].valueCode = #retired
+* #738 ^property[+].code = #retirementDate
+* #738 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #739 "Rééduc.Fonct.Réadapt.Motrice (Orient.Traumatologie)"
+* #739 ^designation.language = #fr-FR
+* #739 ^designation.use = $sct#900000000000013009
+* #739 ^designation.value = "Ré.F.Réa.Mot.Traumat"
+* #739 ^property[0].code = #parent
+* #739 ^property[=].valueCode = #0263
+* #739 ^property[+].code = #dateValid
+* #739 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #739 ^property[+].code = #dateMaj
+* #739 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #739 ^property[+].code = #status
+* #739 ^property[=].valueCode = #retired
+* #739 ^property[+].code = #retirementDate
+* #739 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #740 "Accueil Traitement Urgence Médicale"
+* #740 ^designation.language = #fr-FR
+* #740 ^designation.use = $sct#900000000000013009
+* #740 ^designation.value = "Acc.Trai.Urgence Méd"
+* #740 ^property[0].code = #parent
+* #740 ^property[=].valueCode = #0511
+* #740 ^property[+].code = #dateValid
+* #740 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #740 ^property[+].code = #dateMaj
+* #740 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #740 ^property[+].code = #status
+* #740 ^property[=].valueCode = #retired
+* #740 ^property[+].code = #retirementDate
+* #740 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #741 "Accueil Traitement Urgence Chirurgicale"
+* #741 ^designation.language = #fr-FR
+* #741 ^designation.use = $sct#900000000000013009
+* #741 ^designation.value = "Acc.Trai.Urgence Chi"
+* #741 ^property[0].code = #parent
+* #741 ^property[=].valueCode = #0521
+* #741 ^property[+].code = #dateValid
+* #741 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #741 ^property[+].code = #dateMaj
+* #741 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #741 ^property[+].code = #status
+* #741 ^property[=].valueCode = #retired
+* #741 ^property[+].code = #retirementDate
+* #741 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #742 "Accueil Traitement Urgence Spécialisé"
+* #742 ^designation.language = #fr-FR
+* #742 ^designation.use = $sct#900000000000013009
+* #742 ^designation.value = "Acc.Trai.Urgence Spé"
+* #742 ^property[0].code = #parent
+* #742 ^property[=].valueCode = #0511
+* #742 ^property[+].code = #dateValid
+* #742 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #742 ^property[+].code = #dateMaj
+* #742 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #742 ^property[+].code = #status
+* #742 ^property[=].valueCode = #retired
+* #742 ^property[+].code = #retirementDate
+* #742 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #743 "Immuno-Hématologie"
+* #743 ^property[0].code = #parent
+* #743 ^property[=].valueCode = #0471
+* #743 ^property[+].code = #dateValid
+* #743 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #743 ^property[+].code = #dateMaj
+* #743 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #743 ^property[+].code = #status
+* #743 ^property[=].valueCode = #retired
+* #743 ^property[+].code = #retirementDate
+* #743 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #744 "Immuno-Sérologie"
+* #744 ^property[0].code = #parent
+* #744 ^property[=].valueCode = #0471
+* #744 ^property[+].code = #dateValid
+* #744 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #744 ^property[+].code = #dateMaj
+* #744 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #744 ^property[+].code = #status
+* #744 ^property[=].valueCode = #retired
+* #744 ^property[+].code = #retirementDate
+* #744 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #745 "Hémostase"
+* #745 ^property[0].code = #parent
+* #745 ^property[=].valueCode = #0471
+* #745 ^property[+].code = #dateValid
+* #745 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #745 ^property[+].code = #dateMaj
+* #745 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #745 ^property[+].code = #status
+* #745 ^property[=].valueCode = #retired
+* #745 ^property[+].code = #retirementDate
+* #745 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #746 "Hématologie et Hémostase"
+* #746 ^designation.language = #fr-FR
+* #746 ^designation.use = $sct#900000000000013009
+* #746 ^designation.value = "Hémato. et Hémostase"
+* #746 ^property[0].code = #parent
+* #746 ^property[=].valueCode = #0471
+* #746 ^property[+].code = #dateValid
+* #746 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #746 ^property[+].code = #dateMaj
+* #746 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #746 ^property[+].code = #status
+* #746 ^property[=].valueCode = #retired
+* #746 ^property[+].code = #retirementDate
+* #746 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #747 "Chimie"
+* #747 ^property[0].code = #parent
+* #747 ^property[=].valueCode = #0471
+* #747 ^property[+].code = #dateValid
+* #747 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #747 ^property[+].code = #dateMaj
+* #747 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #747 ^property[+].code = #status
+* #747 ^property[=].valueCode = #retired
+* #747 ^property[+].code = #retirementDate
+* #747 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #748 "Bactériologie & Virologie"
+* #748 ^designation.language = #fr-FR
+* #748 ^designation.use = $sct#900000000000013009
+* #748 ^designation.value = "Bactério. Virologie"
+* #748 ^property[0].code = #parent
+* #748 ^property[=].valueCode = #0471
+* #748 ^property[+].code = #dateValid
+* #748 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #748 ^property[+].code = #dateMaj
+* #748 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #748 ^property[+].code = #status
+* #748 ^property[=].valueCode = #retired
+* #748 ^property[+].code = #retirementDate
+* #748 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #749 "Laboratoire de Radio-isotopes (Méd.Nucléaire)"
+* #749 ^designation.language = #fr-FR
+* #749 ^designation.use = $sct#900000000000013009
+* #749 ^designation.value = "Lab.Radio-Isotopes"
+* #749 ^property[0].code = #parent
+* #749 ^property[=].valueCode = #0471
+* #749 ^property[+].code = #dateValid
+* #749 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #749 ^property[+].code = #dateMaj
+* #749 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #749 ^property[+].code = #status
+* #749 ^property[=].valueCode = #retired
+* #749 ^property[+].code = #retirementDate
+* #749 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #750 "Tomographie"
+* #750 ^property[0].code = #parent
+* #750 ^property[=].valueCode = #0431
+* #750 ^property[+].code = #dateValid
+* #750 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #750 ^property[+].code = #dateMaj
+* #750 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #750 ^property[+].code = #status
+* #750 ^property[=].valueCode = #retired
+* #750 ^property[+].code = #retirementDate
+* #750 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #751 "Radiologie Vasculaire"
+* #751 ^designation.language = #fr-FR
+* #751 ^designation.use = $sct#900000000000013009
+* #751 ^designation.value = "Radio. Vasculaire"
+* #751 ^property[0].code = #parent
+* #751 ^property[=].valueCode = #0431
+* #751 ^property[+].code = #dateValid
+* #751 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #751 ^property[+].code = #dateMaj
+* #751 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #751 ^property[+].code = #status
+* #751 ^property[=].valueCode = #retired
+* #751 ^property[+].code = #retirementDate
+* #751 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #752 "Échographie sans Autre Indication"
+* #752 ^designation.language = #fr-FR
+* #752 ^designation.use = $sct#900000000000013009
+* #752 ^designation.value = "Echographie S.A.I."
+* #752 ^property[0].code = #parent
+* #752 ^property[=].valueCode = #0431
+* #752 ^property[+].code = #dateValid
+* #752 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #752 ^property[+].code = #dateMaj
+* #752 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #752 ^property[+].code = #status
+* #752 ^property[=].valueCode = #retired
+* #752 ^property[+].code = #retirementDate
+* #752 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #753 "Imagerie Par Résonance Magnétique (IRM)"
+* #753 ^designation.language = #fr-FR
+* #753 ^designation.use = $sct#900000000000013009
+* #753 ^designation.value = "Imagerie Réson.Magné"
+* #753 ^property[0].code = #parent
+* #753 ^property[=].valueCode = #0431
+* #753 ^property[+].code = #dateValid
+* #753 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #753 ^property[+].code = #dateMaj
+* #753 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #753 ^property[+].code = #status
+* #753 ^property[=].valueCode = #retired
+* #753 ^property[+].code = #retirementDate
+* #753 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #754 "Autre Activité Spécialisées Imagerie Médicale"
+* #754 ^designation.language = #fr-FR
+* #754 ^designation.use = $sct#900000000000013009
+* #754 ^designation.value = "Act.Spé.Imag.Médical"
+* #754 ^property[0].code = #parent
+* #754 ^property[=].valueCode = #0431
+* #754 ^property[+].code = #dateValid
+* #754 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #754 ^property[+].code = #dateMaj
+* #754 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #754 ^property[+].code = #status
+* #754 ^property[=].valueCode = #retired
+* #754 ^property[+].code = #retirementDate
+* #754 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #755 "Explorations Fonctionnelles en O.R.L."
+* #755 ^designation.language = #fr-FR
+* #755 ^designation.use = $sct#900000000000013009
+* #755 ^designation.value = "Explor. Fonct. ORL"
+* #755 ^property[0].code = #parent
+* #755 ^property[=].valueCode = #0451
+* #755 ^property[+].code = #dateValid
+* #755 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #755 ^property[+].code = #dateMaj
+* #755 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #755 ^property[+].code = #status
+* #755 ^property[=].valueCode = #retired
+* #755 ^property[+].code = #retirementDate
+* #755 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #756 "Exploration Fonctionnelles en Ophtalmologie"
+* #756 ^designation.language = #fr-FR
+* #756 ^designation.use = $sct#900000000000013009
+* #756 ^designation.value = "Explor. Fonct.Ophtal"
+* #756 ^property[0].code = #parent
+* #756 ^property[=].valueCode = #0451
+* #756 ^property[+].code = #dateValid
+* #756 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #756 ^property[+].code = #dateMaj
+* #756 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #756 ^property[+].code = #status
+* #756 ^property[=].valueCode = #retired
+* #756 ^property[+].code = #retirementDate
+* #756 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #757 "Activité de Recherch.Expérim.ds Serv.Médico-Techn."
+* #757 ^designation.language = #fr-FR
+* #757 ^designation.use = $sct#900000000000013009
+* #757 ^designation.value = "Act.Serv.Médicotech."
+* #757 ^property[0].code = #parent
+* #757 ^property[=].valueCode = #0642
+* #757 ^property[+].code = #dateValid
+* #757 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #757 ^property[+].code = #dateMaj
+* #757 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #757 ^property[+].code = #status
+* #757 ^property[=].valueCode = #retired
+* #757 ^property[+].code = #retirementDate
+* #757 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #758 "Département d'information médicale"
+* #758 ^designation.language = #fr-FR
+* #758 ^designation.use = $sct#900000000000013009
+* #758 ^designation.value = "Départ.d'Information"
+* #758 ^property[0].code = #parent
+* #758 ^property[=].valueCode = #0642
+* #758 ^property[+].code = #dateValid
+* #758 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #758 ^property[+].code = #dateMaj
+* #758 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #758 ^property[+].code = #status
+* #758 ^property[=].valueCode = #retired
+* #758 ^property[+].code = #retirementDate
+* #758 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #759 "Centre d'Hémobiologie"
+* #759 ^designation.language = #fr-FR
+* #759 ^designation.use = $sct#900000000000013009
+* #759 ^designation.value = "Ctre d'Hémobiologie"
+* #759 ^property[0].code = #parent
+* #759 ^property[=].valueCode = #0631
+* #759 ^property[+].code = #dateValid
+* #759 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #759 ^property[+].code = #dateMaj
+* #759 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #759 ^property[+].code = #status
+* #759 ^property[=].valueCode = #retired
+* #759 ^property[+].code = #retirementDate
+* #759 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #760 "Salle de Réveil"
+* #760 ^property[0].code = #parent
+* #760 ^property[=].valueCode = #0421
+* #760 ^property[+].code = #dateValid
+* #760 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #760 ^property[+].code = #dateMaj
+* #760 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #760 ^property[+].code = #status
+* #760 ^property[=].valueCode = #retired
+* #760 ^property[+].code = #retirementDate
+* #760 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #761 "Anesthésiologie & Salle Réveil"
+* #761 ^designation.language = #fr-FR
+* #761 ^designation.use = $sct#900000000000013009
+* #761 ^designation.value = "Anesthésio.Sal.Réve."
+* #761 ^property[0].code = #parent
+* #761 ^property[=].valueCode = #0421
+* #761 ^property[+].code = #dateValid
+* #761 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #761 ^property[+].code = #dateMaj
+* #761 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #761 ^property[+].code = #status
+* #761 ^property[=].valueCode = #retired
+* #761 ^property[+].code = #retirementDate
+* #761 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #762 "Bloc Opératoire et Stérilisation Indifférenciées"
+* #762 ^designation.language = #fr-FR
+* #762 ^designation.use = $sct#900000000000013009
+* #762 ^designation.value = "Bloc Opér.Stér.Indif"
+* #762 ^property[0].code = #parent
+* #762 ^property[=].valueCode = #0661
+* #762 ^property[+].code = #dateValid
+* #762 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #762 ^property[+].code = #dateMaj
+* #762 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #762 ^property[+].code = #status
+* #762 ^property[=].valueCode = #retired
+* #762 ^property[+].code = #retirementDate
+* #762 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #763 "Pharmacie & Stérilisation"
+* #763 ^designation.language = #fr-FR
+* #763 ^designation.use = $sct#900000000000013009
+* #763 ^designation.value = "Pharmacie & Stérilis"
+* #763 ^property[0].code = #parent
+* #763 ^property[=].valueCode = #0661
+* #763 ^property[+].code = #dateValid
+* #763 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #763 ^property[+].code = #dateMaj
+* #763 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #763 ^property[+].code = #status
+* #763 ^property[=].valueCode = #retired
+* #763 ^property[+].code = #retirementDate
+* #763 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #797 "Hémodialyse et Hémofiltration Pr Chroniques Adultes"
+* #797 ^designation.language = #fr-FR
+* #797 ^designation.use = $sct#900000000000013009
+* #797 ^designation.value = "Hémod.Hémofil.Adulte"
+* #797 ^property[0].code = #parent
+* #797 ^property[=].valueCode = #0311
+* #797 ^property[+].code = #dateValid
+* #797 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #797 ^property[+].code = #dateMaj
+* #797 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #797 ^property[+].code = #status
+* #797 ^property[=].valueCode = #retired
+* #797 ^property[+].code = #retirementDate
+* #797 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #798 "Hémodialyse et Hémofiltration Pr Chroniques Enfants"
+* #798 ^designation.language = #fr-FR
+* #798 ^designation.use = $sct#900000000000013009
+* #798 ^designation.value = "Hémod.Hémofil.Enfant"
+* #798 ^property[0].code = #parent
+* #798 ^property[=].valueCode = #0311
+* #798 ^property[+].code = #dateValid
+* #798 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #798 ^property[+].code = #dateMaj
+* #798 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #798 ^property[+].code = #status
+* #798 ^property[=].valueCode = #retired
+* #798 ^property[+].code = #retirementDate
+* #798 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #799 "Assistance Ventilatoire Avec Prothèse Extra-Thoracique"
+* #799 ^designation.language = #fr-FR
+* #799 ^designation.use = $sct#900000000000013009
+* #799 ^designation.value = "Assist.Vent.Ins.Resp"
+* #799 ^property[0].code = #parent
+* #799 ^property[=].valueCode = #0351
+* #799 ^property[+].code = #dateValid
+* #799 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #799 ^property[+].code = #dateMaj
+* #799 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #799 ^property[+].code = #status
+* #799 ^property[=].valueCode = #retired
+* #799 ^property[+].code = #retirementDate
+* #799 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #800 "Assistance ventilatoire Par Pres.Posit.Cont.ou Techn.Respir."
+* #800 ^designation.language = #fr-FR
+* #800 ^designation.use = $sct#900000000000013009
+* #800 ^designation.value = "Assist.Vent.Techniq."
+* #800 ^property[0].code = #parent
+* #800 ^property[=].valueCode = #0351
+* #800 ^property[+].code = #dateValid
+* #800 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #800 ^property[+].code = #dateMaj
+* #800 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #800 ^property[+].code = #status
+* #800 ^property[=].valueCode = #retired
+* #800 ^property[+].code = #retirementDate
+* #800 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #801 "Insulinothérapie"
+* #801 ^property[0].code = #parent
+* #801 ^property[=].valueCode = #0361
+* #801 ^property[+].code = #dateValid
+* #801 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #801 ^property[+].code = #dateMaj
+* #801 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #801 ^property[+].code = #status
+* #801 ^property[=].valueCode = #retired
+* #801 ^property[+].code = #retirementDate
+* #801 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #802 "Autres Traitements Spécialisés à Domicile"
+* #802 ^designation.language = #fr-FR
+* #802 ^designation.use = $sct#900000000000013009
+* #802 ^designation.value = "Trait.Spéc.Domicile"
+* #802 ^property[0].code = #parent
+* #802 ^property[=].valueCode = #0361
+* #802 ^property[+].code = #dateValid
+* #802 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #802 ^property[+].code = #dateMaj
+* #802 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #802 ^property[+].code = #status
+* #802 ^property[=].valueCode = #retired
+* #802 ^property[+].code = #retirementDate
+* #802 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #803 "Psychiatrie arriérés profonds"
+* #803 ^designation.language = #fr-FR
+* #803 ^designation.use = $sct#900000000000013009
+* #803 ^designation.value = "Psychiatrie arriérés"
+* #803 ^property[0].code = #parent
+* #803 ^property[=].valueCode = #0271
+* #803 ^property[+].code = #dateValid
+* #803 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #803 ^property[+].code = #dateMaj
+* #803 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #803 ^property[+].code = #status
+* #803 ^property[=].valueCode = #retired
+* #803 ^property[+].code = #retirementDate
+* #803 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #806 "atelier thérapeutique adulte"
+* #806 ^designation.language = #fr-FR
+* #806 ^designation.use = $sct#900000000000013009
+* #806 ^designation.value = "Atelier thérapeut A"
+* #806 ^property[0].code = #parent
+* #806 ^property[=].valueCode = #0371
+* #806 ^property[+].code = #dateValid
+* #806 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #806 ^property[+].code = #dateMaj
+* #806 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #806 ^property[+].code = #status
+* #806 ^property[=].valueCode = #active
+* #807 "atelier thérapeutique infanto-juvenile"
+* #807 ^designation.language = #fr-FR
+* #807 ^designation.use = $sct#900000000000013009
+* #807 ^designation.value = "Atelier thérapeut IJ"
+* #807 ^property[0].code = #parent
+* #807 ^property[=].valueCode = #0371
+* #807 ^property[+].code = #dateValid
+* #807 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #807 ^property[+].code = #dateMaj
+* #807 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #807 ^property[+].code = #status
+* #807 ^property[=].valueCode = #active
+* #808 "Psychiatrie en Milieu Pénitentiaire"
+* #808 ^designation.language = #fr-FR
+* #808 ^designation.use = $sct#900000000000013009
+* #808 ^designation.value = "Psychiatrie prison"
+* #808 ^property[0].code = #parent
+* #808 ^property[=].valueCode = #0372
+* #808 ^property[+].code = #dateValid
+* #808 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #808 ^property[+].code = #dateMaj
+* #808 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #808 ^property[+].code = #status
+* #808 ^property[=].valueCode = #retired
+* #808 ^property[+].code = #retirementDate
+* #808 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #811 "Immunologie Tissulaire Auto-Immunité"
+* #811 ^designation.language = #fr-FR
+* #811 ^designation.use = $sct#900000000000013009
+* #811 ^designation.value = "Imuno.Tiss.Auto.Immu"
+* #811 ^property[0].code = #parent
+* #811 ^property[=].valueCode = #0471
+* #811 ^property[+].code = #dateValid
+* #811 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #811 ^property[+].code = #dateMaj
+* #811 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #811 ^property[+].code = #status
+* #811 ^property[=].valueCode = #retired
+* #811 ^property[+].code = #retirementDate
+* #811 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #812 "Sérologie Virale"
+* #812 ^property[0].code = #parent
+* #812 ^property[=].valueCode = #0471
+* #812 ^property[+].code = #dateValid
+* #812 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #812 ^property[+].code = #dateMaj
+* #812 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #812 ^property[+].code = #status
+* #812 ^property[=].valueCode = #retired
+* #812 ^property[+].code = #retirementDate
+* #812 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #813 "Sérologie Bactérienne"
+* #813 ^designation.language = #fr-FR
+* #813 ^designation.use = $sct#900000000000013009
+* #813 ^designation.value = "Sérologie Bactérien."
+* #813 ^property[0].code = #parent
+* #813 ^property[=].valueCode = #0471
+* #813 ^property[+].code = #dateValid
+* #813 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #813 ^property[+].code = #dateMaj
+* #813 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #813 ^property[+].code = #status
+* #813 ^property[=].valueCode = #retired
+* #813 ^property[+].code = #retirementDate
+* #813 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #814 "Sérologie Parasitaire et Mycologique."
+* #814 ^designation.language = #fr-FR
+* #814 ^designation.use = $sct#900000000000013009
+* #814 ^designation.value = "Sérologie Para.Mycol"
+* #814 ^property[0].code = #parent
+* #814 ^property[=].valueCode = #0471
+* #814 ^property[+].code = #dateValid
+* #814 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #814 ^property[+].code = #dateMaj
+* #814 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #814 ^property[+].code = #status
+* #814 ^property[=].valueCode = #retired
+* #814 ^property[+].code = #retirementDate
+* #814 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #815 "Échocardiologie"
+* #815 ^designation.language = #fr-FR
+* #815 ^designation.use = $sct#900000000000013009
+* #815 ^designation.value = "Echocardiologie"
+* #815 ^property[0].code = #parent
+* #815 ^property[=].valueCode = #0431
+* #815 ^property[+].code = #dateValid
+* #815 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #815 ^property[+].code = #dateMaj
+* #815 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #815 ^property[+].code = #status
+* #815 ^property[=].valueCode = #retired
+* #815 ^property[+].code = #retirementDate
+* #815 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #816 "Échographie Abdominale"
+* #816 ^designation.language = #fr-FR
+* #816 ^designation.use = $sct#900000000000013009
+* #816 ^designation.value = "Echographie Abdomina"
+* #816 ^property[0].code = #parent
+* #816 ^property[=].valueCode = #0431
+* #816 ^property[+].code = #dateValid
+* #816 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #816 ^property[+].code = #dateMaj
+* #816 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #816 ^property[+].code = #status
+* #816 ^property[=].valueCode = #retired
+* #816 ^property[+].code = #retirementDate
+* #816 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #817 "Échographie en Obstétrique"
+* #817 ^designation.language = #fr-FR
+* #817 ^designation.use = $sct#900000000000013009
+* #817 ^designation.value = "Échographie Obstétri"
+* #817 ^property[0].code = #parent
+* #817 ^property[=].valueCode = #0431
+* #817 ^property[+].code = #dateValid
+* #817 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #817 ^property[+].code = #dateMaj
+* #817 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #817 ^property[+].code = #status
+* #817 ^property[=].valueCode = #retired
+* #817 ^property[+].code = #retirementDate
+* #817 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #818 "Échographie Vasculaire"
+* #818 ^designation.language = #fr-FR
+* #818 ^designation.use = $sct#900000000000013009
+* #818 ^designation.value = "Échographie Vasculai"
+* #818 ^property[0].code = #parent
+* #818 ^property[=].valueCode = #0431
+* #818 ^property[+].code = #dateValid
+* #818 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #818 ^property[+].code = #dateMaj
+* #818 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #818 ^property[+].code = #status
+* #818 ^property[=].valueCode = #retired
+* #818 ^property[+].code = #retirementDate
+* #818 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #819 "Autres écographies"
+* #819 ^designation.language = #fr-FR
+* #819 ^designation.use = $sct#900000000000013009
+* #819 ^designation.value = "Autres Échographies"
+* #819 ^property[0].code = #parent
+* #819 ^property[=].valueCode = #0431
+* #819 ^property[+].code = #dateValid
+* #819 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #819 ^property[+].code = #dateMaj
+* #819 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #819 ^property[+].code = #status
+* #819 ^property[=].valueCode = #retired
+* #819 ^property[+].code = #retirementDate
+* #819 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #820 "Collecte de Sang"
+* #820 ^property[0].code = #parent
+* #820 ^property[=].valueCode = #0631
+* #820 ^property[+].code = #dateValid
+* #820 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #820 ^property[+].code = #dateMaj
+* #820 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #820 ^property[+].code = #status
+* #820 ^property[=].valueCode = #retired
+* #820 ^property[+].code = #retirementDate
+* #820 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #821 "Stockage, Distribution de Sang"
+* #821 ^designation.language = #fr-FR
+* #821 ^designation.use = $sct#900000000000013009
+* #821 ^designation.value = "Stock.Distribut.Sang"
+* #821 ^property[0].code = #parent
+* #821 ^property[=].valueCode = #0631
+* #821 ^property[+].code = #dateValid
+* #821 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #821 ^property[+].code = #dateMaj
+* #821 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #821 ^property[+].code = #status
+* #821 ^property[=].valueCode = #retired
+* #821 ^property[+].code = #retirementDate
+* #821 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #822 "Production de Produits Sanguins"
+* #822 ^designation.language = #fr-FR
+* #822 ^designation.use = $sct#900000000000013009
+* #822 ^designation.value = "Product.Produit Sang"
+* #822 ^property[0].code = #parent
+* #822 ^property[=].valueCode = #0631
+* #822 ^property[+].code = #dateValid
+* #822 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #822 ^property[+].code = #dateMaj
+* #822 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #822 ^property[+].code = #status
+* #822 ^property[=].valueCode = #retired
+* #822 ^property[+].code = #retirementDate
+* #822 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #823 "Activité de Transfusion Sanguine"
+* #823 ^designation.language = #fr-FR
+* #823 ^designation.use = $sct#900000000000013009
+* #823 ^designation.value = "Act.Transf.Sanguine "
+* #823 ^property[0].code = #parent
+* #823 ^property[=].valueCode = #0631
+* #823 ^property[+].code = #dateValid
+* #823 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #823 ^property[+].code = #dateMaj
+* #823 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #823 ^property[+].code = #status
+* #823 ^property[=].valueCode = #active
+* #824 "Pharmacie d'Établissement"
+* #824 ^designation.language = #fr-FR
+* #824 ^designation.use = $sct#900000000000013009
+* #824 ^designation.value = "Pharmacie d'Etab."
+* #824 ^property[0].code = #parent
+* #824 ^property[=].valueCode = #0481
+* #824 ^property[+].code = #dateValid
+* #824 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #824 ^property[+].code = #dateMaj
+* #824 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #824 ^property[+].code = #status
+* #824 ^property[=].valueCode = #active
+* #828 "Cure Thermale Maladies Cardio-artérielles"
+* #828 ^designation.language = #fr-FR
+* #828 ^designation.use = $sct#900000000000013009
+* #828 ^designation.value = "Cur.Therm.Mal.Cardio"
+* #828 ^property[0].code = #parent
+* #828 ^property[=].valueCode = #0381
+* #828 ^property[+].code = #dateValid
+* #828 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #828 ^property[+].code = #dateMaj
+* #828 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #828 ^property[+].code = #status
+* #828 ^property[=].valueCode = #retired
+* #828 ^property[+].code = #retirementDate
+* #828 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #829 "Cure thermale en Neurologie"
+* #829 ^designation.language = #fr-FR
+* #829 ^designation.use = $sct#900000000000013009
+* #829 ^designation.value = "Cur.Therm.Neurologie"
+* #829 ^property[0].code = #parent
+* #829 ^property[=].valueCode = #0381
+* #829 ^property[+].code = #dateValid
+* #829 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #829 ^property[+].code = #dateMaj
+* #829 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #829 ^property[+].code = #status
+* #829 ^property[=].valueCode = #retired
+* #829 ^property[+].code = #retirementDate
+* #829 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #830 "Cure Thermale des Affections Psychosomatiques"
+* #830 ^designation.language = #fr-FR
+* #830 ^designation.use = $sct#900000000000013009
+* #830 ^designation.value = "Cur.Therm.Affec.Psy."
+* #830 ^property[0].code = #parent
+* #830 ^property[=].valueCode = #0381
+* #830 ^property[+].code = #dateValid
+* #830 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #830 ^property[+].code = #dateMaj
+* #830 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #830 ^property[+].code = #status
+* #830 ^property[=].valueCode = #retired
+* #830 ^property[+].code = #retirementDate
+* #830 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #831 "Cure Thermale en Phlébologie"
+* #831 ^designation.language = #fr-FR
+* #831 ^designation.use = $sct#900000000000013009
+* #831 ^designation.value = "Cur.Therm.Phlébolog."
+* #831 ^property[0].code = #parent
+* #831 ^property[=].valueCode = #0381
+* #831 ^property[+].code = #dateValid
+* #831 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #831 ^property[+].code = #dateMaj
+* #831 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #831 ^property[+].code = #status
+* #831 ^property[=].valueCode = #retired
+* #831 ^property[+].code = #retirementDate
+* #831 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #832 "Cure Thermale Pr Troubles du Développement chez l'enfant"
+* #832 ^designation.language = #fr-FR
+* #832 ^designation.use = $sct#900000000000013009
+* #832 ^designation.value = "Cur.Therm.Troub.Enf."
+* #832 ^property[0].code = #parent
+* #832 ^property[=].valueCode = #0381
+* #832 ^property[+].code = #dateValid
+* #832 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #832 ^property[+].code = #dateMaj
+* #832 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #832 ^property[+].code = #status
+* #832 ^property[=].valueCode = #retired
+* #832 ^property[+].code = #retirementDate
+* #832 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #833 "Cure Thermale en Gynécologie"
+* #833 ^designation.language = #fr-FR
+* #833 ^designation.use = $sct#900000000000013009
+* #833 ^designation.value = "Cur.Therm.Gynécolog."
+* #833 ^property[0].code = #parent
+* #833 ^property[=].valueCode = #0381
+* #833 ^property[+].code = #dateValid
+* #833 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #833 ^property[+].code = #dateMaj
+* #833 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #833 ^property[+].code = #status
+* #833 ^property[=].valueCode = #retired
+* #833 ^property[+].code = #retirementDate
+* #833 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #834 "Cure Thermale Pr Maladies de l'Appar.Digest.Mal.Métabolques"
+* #834 ^designation.language = #fr-FR
+* #834 ^designation.use = $sct#900000000000013009
+* #834 ^designation.value = "Cur.Therm.App.Digest"
+* #834 ^property[0].code = #parent
+* #834 ^property[=].valueCode = #0381
+* #834 ^property[+].code = #dateValid
+* #834 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #834 ^property[+].code = #dateMaj
+* #834 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #834 ^property[+].code = #status
+* #834 ^property[=].valueCode = #retired
+* #834 ^property[+].code = #retirementDate
+* #834 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #835 "Cure Thermale Pr Maladies de l'Appar.Urinaire Mal.Métabol."
+* #835 ^designation.language = #fr-FR
+* #835 ^designation.use = $sct#900000000000013009
+* #835 ^designation.value = "Cur.Therm.App.Urin."
+* #835 ^property[0].code = #parent
+* #835 ^property[=].valueCode = #0381
+* #835 ^property[+].code = #dateValid
+* #835 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #835 ^property[+].code = #dateMaj
+* #835 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #835 ^property[+].code = #status
+* #835 ^property[=].valueCode = #retired
+* #835 ^property[+].code = #retirementDate
+* #835 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #850 "Activité médicale et paramédicale"
+* #850 ^designation.language = #fr-FR
+* #850 ^designation.use = $sct#900000000000013009
+* #850 ^designation.value = "Act médic paramédic"
+* #850 ^property[0].code = #parent
+* #850 ^property[=].valueCode = #0343
+* #850 ^property[+].code = #dateValid
+* #850 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #850 ^property[+].code = #dateMaj
+* #850 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #850 ^property[+].code = #status
+* #850 ^property[=].valueCode = #active
+* #851 "Activité médicale autre que dentaire unique"
+* #851 ^designation.language = #fr-FR
+* #851 ^designation.use = $sct#900000000000013009
+* #851 ^designation.value = "Act méd aut dent uni"
+* #851 ^property[0].code = #parent
+* #851 ^property[=].valueCode = #0343
+* #851 ^property[+].code = #dateValid
+* #851 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #851 ^property[+].code = #dateMaj
+* #851 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #851 ^property[+].code = #status
+* #851 ^property[=].valueCode = #active
+* #852 "Activité paramédicale autre qu'activité infirmière unique"
+* #852 ^designation.language = #fr-FR
+* #852 ^designation.use = $sct#900000000000013009
+* #852 ^designation.value = "Act para aut inf uni"
+* #852 ^property[0].code = #parent
+* #852 ^property[=].valueCode = #0343
+* #852 ^property[+].code = #dateValid
+* #852 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #852 ^property[+].code = #dateMaj
+* #852 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #852 ^property[+].code = #status
+* #852 ^property[=].valueCode = #active
+* #853 "Activité de lutte contre la lèpre"
+* #853 ^designation.language = #fr-FR
+* #853 ^designation.use = $sct#900000000000013009
+* #853 ^designation.value = "Act lutte contr lèpr"
+* #853 ^property[0].code = #parent
+* #853 ^property[=].valueCode = #0342
+* #853 ^property[+].code = #dateValid
+* #853 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #853 ^property[+].code = #dateMaj
+* #853 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #853 ^property[+].code = #status
+* #853 ^property[=].valueCode = #active
+* #854 "Activité sage-femme en maison de naissance"
+* #854 ^designation.language = #fr-FR
+* #854 ^designation.use = $sct#900000000000013009
+* #854 ^designation.value = "Act maison naissance"
+* #854 ^property[0].code = #parent
+* #854 ^property[=].valueCode = #0343
+* #854 ^property[+].code = #dateValid
+* #854 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #854 ^property[+].code = #dateMaj
+* #854 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #854 ^property[+].code = #status
+* #854 ^property[=].valueCode = #active
+* #949 "Recherche Chirurgicale ou Chirurgie Expérimentale"
+* #949 ^designation.language = #fr-FR
+* #949 ^designation.use = $sct#900000000000013009
+* #949 ^designation.value = "Rech.Chir.Chir.Exp."
+* #949 ^property[0].code = #parent
+* #949 ^property[=].valueCode = #0642
+* #949 ^property[+].code = #dateValid
+* #949 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #949 ^property[+].code = #dateMaj
+* #949 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #949 ^property[+].code = #status
+* #949 ^property[=].valueCode = #retired
+* #949 ^property[+].code = #retirementDate
+* #949 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #950 "Enseignement Médical"
+* #950 ^property[0].code = #parent
+* #950 ^property[=].valueCode = #0641
+* #950 ^property[+].code = #dateValid
+* #950 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #950 ^property[+].code = #dateMaj
+* #950 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #950 ^property[+].code = #status
+* #950 ^property[=].valueCode = #retired
+* #950 ^property[+].code = #retirementDate
+* #950 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #951 "Enseignement Autre (Ex:Éducation Sanitaire)"
+* #951 ^designation.language = #fr-FR
+* #951 ^designation.use = $sct#900000000000013009
+* #951 ^designation.value = "Enseignement Autre"
+* #951 ^property[0].code = #parent
+* #951 ^property[=].valueCode = #0641
+* #951 ^property[+].code = #dateValid
+* #951 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #951 ^property[+].code = #dateMaj
+* #951 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #951 ^property[+].code = #status
+* #951 ^property[=].valueCode = #retired
+* #951 ^property[+].code = #retirementDate
+* #951 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #952 "Recherche Médicale"
+* #952 ^property[0].code = #parent
+* #952 ^property[=].valueCode = #0642
+* #952 ^property[+].code = #dateValid
+* #952 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #952 ^property[+].code = #dateMaj
+* #952 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #952 ^property[+].code = #status
+* #952 ^property[=].valueCode = #retired
+* #952 ^property[+].code = #retirementDate
+* #952 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #953 "Recherche Pharmacologique"
+* #953 ^designation.language = #fr-FR
+* #953 ^designation.use = $sct#900000000000013009
+* #953 ^designation.value = "Recherche Pharmacolo"
+* #953 ^property[0].code = #parent
+* #953 ^property[=].valueCode = #0642
+* #953 ^property[+].code = #dateValid
+* #953 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #953 ^property[+].code = #dateMaj
+* #953 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #953 ^property[+].code = #status
+* #953 ^property[=].valueCode = #retired
+* #953 ^property[+].code = #retirementDate
+* #953 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #954 "Recherche Pharmaceutique"
+* #954 ^designation.language = #fr-FR
+* #954 ^designation.use = $sct#900000000000013009
+* #954 ^designation.value = "Recherche Pharmaceut"
+* #954 ^property[0].code = #parent
+* #954 ^property[=].valueCode = #0642
+* #954 ^property[+].code = #dateValid
+* #954 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #954 ^property[+].code = #dateMaj
+* #954 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #954 ^property[+].code = #status
+* #954 ^property[=].valueCode = #retired
+* #954 ^property[+].code = #retirementDate
+* #954 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #955 "Recherche Odontologique"
+* #955 ^designation.language = #fr-FR
+* #955 ^designation.use = $sct#900000000000013009
+* #955 ^designation.value = "Recherche Odontologi"
+* #955 ^property[0].code = #parent
+* #955 ^property[=].valueCode = #0642
+* #955 ^property[+].code = #dateValid
+* #955 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #955 ^property[+].code = #dateMaj
+* #955 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #955 ^property[+].code = #status
+* #955 ^property[=].valueCode = #retired
+* #955 ^property[+].code = #retirementDate
+* #955 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #956 "Recherche Toxicologique"
+* #956 ^designation.language = #fr-FR
+* #956 ^designation.use = $sct#900000000000013009
+* #956 ^designation.value = "Recherche Toxicologi"
+* #956 ^property[0].code = #parent
+* #956 ^property[=].valueCode = #0642
+* #956 ^property[+].code = #dateValid
+* #956 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #956 ^property[+].code = #dateMaj
+* #956 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #956 ^property[+].code = #status
+* #956 ^property[=].valueCode = #retired
+* #956 ^property[+].code = #retirementDate
+* #956 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
