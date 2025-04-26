@@ -551,7 +551,7 @@
     },
     {
       "url" : "https://mos.esante.gouv.fr/NOS/TRE_R211-ActiviteOperationnelle/FHIR/TRE-R211-ActiviteOperationnelle",
-      "version" : "20250328120000",
+      "version" : "20250425120000",
       "status" : "active",
       "name" : "TRE_R211_ActiviteOperationnelle",
       "title" : null,
@@ -560,7 +560,7 @@
     },
     {
       "url" : "https://mos.esante.gouv.fr/NOS/TRE_R212-Equipement/FHIR/TRE-R212-Equipement",
-      "version" : "20250328120000",
+      "version" : "20250425120000",
       "status" : "active",
       "name" : "TRE_R212_Equipement",
       "title" : null,
@@ -857,7 +857,7 @@
     },
     {
       "url" : "https://mos.esante.gouv.fr/NOS/TRE_R244-CategorieOrganisation/FHIR/TRE-R244-CategorieOrganisation",
-      "version" : "20250328120000",
+      "version" : "20250425120000",
       "status" : "active",
       "name" : "TRE_R244_CategorieOrganisation",
       "title" : null,
@@ -866,7 +866,7 @@
     },
     {
       "url" : "https://mos.esante.gouv.fr/NOS/TRE_R245-SpecialisationDePriseEnCharge/FHIR/TRE-R245-SpecialisationDePriseEnCharge",
-      "version" : "20241025120000",
+      "version" : "20250425120000",
       "status" : "active",
       "name" : "TRE_R245_SpecialisationDePriseEnCharge",
       "title" : null,
@@ -1640,7 +1640,7 @@
     },
     {
       "url" : "https://mos.esante.gouv.fr/NOS/TRE_R338-ModaliteAccueil/FHIR/TRE-R338-ModaliteAccueil",
-      "version" : "20250131120000",
+      "version" : "20250425120000",
       "status" : "active",
       "name" : "TRE_R338_ModaliteAccueil",
       "title" : null,
@@ -1694,7 +1694,7 @@
     },
     {
       "url" : "https://mos.esante.gouv.fr/NOS/TRE_R344-NiveauExpertise/FHIR/TRE-R344-NiveauExpertise",
-      "version" : "20250131120000",
+      "version" : "20250425120000",
       "status" : "active",
       "name" : "TRE_R344_NiveauExpertise",
       "title" : null,
@@ -1775,7 +1775,7 @@
     },
     {
       "url" : "https://mos.esante.gouv.fr/NOS/TRE_R356-ProfessionRessource/FHIR/TRE-R356-ProfessionRessource",
-      "version" : "20240426120000",
+      "version" : "20250425120000",
       "status" : "active",
       "name" : "TRE_R356_ProfessionRessource",
       "title" : null,
@@ -1820,11 +1820,11 @@
     },
     {
       "url" : "https://mos.esante.gouv.fr/NOS/TRE_R368-StatutRessource/FHIR/TRE-R368-StatutRessource",
-      "version" : "20240927120000",
+      "version" : "20250425120000",
       "status" : "active",
       "name" : "TRE_R368_StatutRessource",
       "title" : null,
-      "description" : "Caractérise le statut du processus d'évaluation de l'autonomie de l'usager par un professionnel de santé ou par lui-même lors d'une auto évaluation",
+      "description" : "Caractérise le statut d'une ressource du médico-social au cours de son cycle de vie",
       "oids" : ["1.2.250.1.213.3.3.250"]
     },
     {
@@ -1862,6 +1862,15 @@
       "title" : null,
       "description" : "Compétence",
       "oids" : ["1.2.250.1.213.2.29"]
+    },
+    {
+      "url" : "https://mos.esante.gouv.fr/NOS/TRE_R391-MotifRestrictionDiffusion/FHIR/TRE-R391-MotifRestrictionDiffusion",
+      "version" : "20250425120000",
+      "status" : "active",
+      "name" : "TRE_R391_MotifRestrictionDiffusion",
+      "title" : null,
+      "description" : "Nomenclature contenant les motifs de restriction de diffusion",
+      "oids" : ["1.2.250.1.213.3.3.259"]
     },
     {
       "url" : "https://mos.esante.gouv.fr/NOS/TRE_R40-CompetenceExclusive/FHIR/TRE-R40-CompetenceExclusive",
@@ -1919,7 +1928,7 @@
     },
     {
       "url" : "https://mos.esante.gouv.fr/NOS/TRE_R48-DiplomeEtatFrancais/FHIR/TRE-R48-DiplomeEtatFrancais",
-      "version" : "20240726120000",
+      "version" : "20250425120000",
       "status" : "active",
       "name" : "TRE_R48_DiplomeEtatFrancais",
       "title" : null,
@@ -2063,7 +2072,7 @@
     },
     {
       "url" : "https://mos.esante.gouv.fr/NOS/TRE_R66-CategorieEtablissement/FHIR/TRE-R66-CategorieEtablissement",
-      "version" : "20250228120000",
+      "version" : "20250425120000",
       "status" : "active",
       "name" : "TRE_R66_CategorieEtablissement",
       "title" : null,

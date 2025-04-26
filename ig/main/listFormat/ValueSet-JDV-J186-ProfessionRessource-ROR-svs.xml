@@ -2,7 +2,7 @@
 <RetrieveValueSetResponse xmlns="urn:ihe:iti:svs:2008"
                           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
    <ValueSet dateFin=""
-             dateMaj="20250131120000"
+             dateMaj="20250425120000"
              dateValid="20230331120000"
              description="Profession Ressource des offres dans le ROR"
              displayName="JDV_J186_ProfessionRessource_ROR"
@@ -142,18 +142,6 @@
          <Concept code="97"
                   codeSystem="1.2.250.1.213.1.6.1.109"
                   displayName="Conseiller en génétique"/>
-         <Concept code="10"
-                  codeSystem="1.2.250.1.71.1.2.8"
-                  displayName="Médecin en formation"/>
-         <Concept code="21"
-                  codeSystem="1.2.250.1.71.1.2.8"
-                  displayName="Pharmacien en formation"/>
-         <Concept code="40"
-                  codeSystem="1.2.250.1.71.1.2.8"
-                  displayName="Chirurgien-Dentiste en formation"/>
-         <Concept code="50"
-                  codeSystem="1.2.250.1.71.1.2.8"
-                  displayName="Sage-Femme en formation"/>
          <Concept code="04"
                   codeSystem="1.2.250.1.213.3.3.246"
                   displayName="Art-thérapeute"/>
@@ -165,7 +153,7 @@
                   displayName="Médiateur de santé pair"/>
          <Concept code="10"
                   codeSystem="1.2.250.1.213.3.3.246"
-                  displayName="Socio-esthéticienne"/>
+                  displayName="Socio-esthéticien"/>
          <Concept code="11"
                   codeSystem="1.2.250.1.213.3.3.246"
                   displayName="Enseignant du 1er degré"/>
@@ -177,7 +165,7 @@
                   displayName="Enseignant du supérieur"/>
          <Concept code="14"
                   codeSystem="1.2.250.1.213.3.3.246"
-                  displayName="Puéricultrice"/>
+                  displayName="Puériculteur"/>
          <Concept code="17"
                   codeSystem="1.2.250.1.213.3.3.246"
                   displayName="Aide humaine en milieu scolaire"/>
@@ -219,7 +207,7 @@
                   displayName="Veilleur de nuit"/>
          <Concept code="45"
                   codeSystem="1.2.250.1.213.3.3.246"
-                  displayName="Assistant(e) de soins en gérontologie"/>
+                  displayName="Assistant de soins en gérontologie"/>
          <Concept code="50" codeSystem="1.2.250.1.213.3.3.246" displayName="Avéjiste"/>
          <Concept code="51"
                   codeSystem="1.2.250.1.213.3.3.246"
@@ -362,9 +350,6 @@
          <Concept code="105"
                   codeSystem="1.2.250.1.213.3.3.246"
                   displayName="Pédiatre"/>
-         <Concept code="106"
-                  codeSystem="1.2.250.1.213.3.3.246"
-                  displayName="Pédopsychiatre"/>
          <Concept code="107"
                   codeSystem="1.2.250.1.213.3.3.246"
                   displayName="Pneumologue"/>

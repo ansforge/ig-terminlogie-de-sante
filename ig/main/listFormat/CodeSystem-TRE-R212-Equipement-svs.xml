@@ -2,7 +2,7 @@
 <RetrieveValueSetResponse xmlns="urn:ihe:iti:svs:2008"
                           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
    <ValueSet dateFin=""
-             dateMaj="20250328120000"
+             dateMaj="20250425120000"
              dateValid="20150325000000"
              description="Equipement"
              displayName="TRE_R212_Equipement"
@@ -931,20 +931,20 @@
          <Concept code="103"
                   codeSystem="1.2.250.1.213.3.3.10"
                   dateFin=""
-                  dateMaj="20241025120000"
+                  dateMaj="20250425120000"
                   dateValid="20170707100000"
-                  displayName="Assistant robotisé à la marche"
-                  longDesignation="Assistant robotisé à la marche"
-                  shortDesignation="Assistant robotisé à la marche"
+                  displayName="Assistance robotisée à la marche"
+                  longDesignation="Assistance robotisée à la marche"
+                  shortDesignation="Assistance robotisée à la marche"
                   descriptionMetier="Exosquelette d'aide à la marche"/>
          <Concept code="104"
                   codeSystem="1.2.250.1.213.3.3.10"
                   dateFin=""
-                  dateMaj="20250328120000"
+                  dateMaj="20250425120000"
                   dateValid="20170707100000"
-                  displayName="Assistant robotisé des membres supérieurs et de la préhension"
-                  longDesignation="Assistant robotisé des membres supérieurs et de la préhension"
-                  shortDesignation="Assistant robotisé des membres supérieurs et de la préhension"
+                  displayName="Assistance robotisée des membres supérieurs et de la préhension"
+                  longDesignation="Assistance robotisée des membres supérieurs et de la préhension"
+                  shortDesignation="Assistance robotisée des membres supérieurs et de la préhension"
                   descriptionMetier="Dispositif d’assistance robotisée des membres supérieurs avec motorisation qui permet l’action avec enregistrement du mouvement en temps réel et rétroaction adaptée"/>
          <Concept code="105"
                   codeSystem="1.2.250.1.213.3.3.10"
@@ -2062,6 +2062,15 @@
                   longDesignation="Plateau de rééducation intensive des membres inférieurs"
                   shortDesignation="Plateau de rééducation intensive des membres inférieurs"
                   descriptionMetier="Dispositif d’assistance robotisée de la marche : dispositif de type robot de marche ou exosquelette équipé de moteurs aux articulations des membres inférieurs permettant de recréer un mouvement de marche"/>
+         <Concept code="229"
+                  codeSystem="1.2.250.1.213.3.3.10"
+                  dateFin=""
+                  dateMaj="20250425120000"
+                  dateValid="20250425120000"
+                  displayName="Douche accessible aux personnes en fauteuil roulant"
+                  longDesignation="Douche accessible aux personnes en fauteuil roulant"
+                  shortDesignation="Douche accessible aux personnes en fauteuil roulant"
+                  descriptionMetier=""/>
       </ConceptList>
    </ValueSet>
 </RetrieveValueSetResponse>

@@ -11,8 +11,8 @@
   fhir:nodeRole fhir:treeRoot ;
   fhir:id [ fhir:v "TRE-R245-SpecialisationDePriseEnCharge"] ; # 
   fhir:meta [
-     fhir:versionId [ fhir:v "9" ] ;
-     fhir:lastUpdated [ fhir:v "2024-10-31T19:11:30.438+00:00"^^xsd:dateTime ] ;
+     fhir:versionId [ fhir:v "10" ] ;
+     fhir:lastUpdated [ fhir:v "2025-04-25T18:12:43.908+00:00"^^xsd:dateTime ] ;
      fhir:profile ( [
        fhir:v "http://hl7.org/fhir/StructureDefinition/shareablecodesystem"^^xsd:anyURI ;
        fhir:link <http://hl7.org/fhir/StructureDefinition/shareablecodesystem>
@@ -20,7 +20,7 @@
   ] ; # 
   fhir:text [
      fhir:status [ fhir:v "generated" ] ;
-     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: CodeSystem TRE-R245-SpecialisationDePriseEnCharge</b></p><a name=\"TRE-R245-SpecialisationDePriseEnCharge\"> </a><a name=\"hcTRE-R245-SpecialisationDePriseEnCharge\"> </a><a name=\"TRE-R245-SpecialisationDePriseEnCharge-fr-FR\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">version: 9; Last updated: 2024-10-31 19:11:30+0000</p><p style=\"margin-bottom: 0px\">Profil: <a href=\"http://hl7.org/fhir/R4/shareablecodesystem.html\">Shareable CodeSystem</a></p></div><p><b>Propriétés</b></p><p><b>Cette terminologie de référence (CodeSystem) définit les propriétés suivantes pour ses concepts</b></p><table class=\"grid\"><tr><td><b>Nom</b></td><td><b>Code</b></td><td><b>Type</b></td><td><b>Description</b></td></tr><tr><td>dateValid</td><td>dateValid</td><td>dateTime</td><td>date de validité d'un code concept</td></tr><tr><td>dateMaj</td><td>dateMaj</td><td>dateTime</td><td>Date de mise à jour d'un code concept</td></tr><tr><td>dateFin</td><td>dateFin</td><td>dateTime</td><td>Date de fin d'exploitation d'un code concept</td></tr></table><p><b>Concepts</b></p><p>This case-insensitive code system <code>https://mos.esante.gouv.fr/NOS/TRE_R245-SpecialisationDePriseEnCharge/FHIR/TRE-R245-SpecialisationDePriseEnCharge</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>dateValid</b></td><td><b>dateMaj</b></td><td><b>dateFin</b></td><td><b>French (France) (fr)</b></td></tr><tr><td style=\"white-space:nowrap\">01<a name=\"TRE-R245-SpecialisationDePriseEnCharge-01\"> </a></td><td>Troubles des conduites alimentaires (TCA)</td><td>2017-10-13T12:00:00+01:00</td><td>2024-01-26T12:00:00+01:00</td><td/><td/></tr><tr><td style=\"white-space:nowrap\">02<a name=\"TRE-R245-SpecialisationDePriseEnCharge-02\"> </a></td><td>Troubles du spectre de l'autisme</td><td>2017-10-13T12:00:00+01:00</td><td>2018-10-26T12:00:00+01:00</td><td/><td/></tr><tr><td style=\"white-space:nowrap\">03<a name=\"TRE-R245-SpecialisationDePriseEnCharge-03\"> </a></td><td>Troubles du déficit de l'attention avec ou sans hyperactivité (TDAH)</td><td>2017-10-13T12:00:00+01:00</td><td>2024-06-28T12:00:00+01:00</td><td/><td/></tr><tr><td style=\"white-space:nowrap\">04<a name=\"TRE-R245-SpecialisationDePriseEnCharge-04\"> </a></td><td>Troubles psychiques des victimes de violences sexuelles</td><td>2017-10-13T12:00:00+01:00</td><td>2017-10-13T12:00:00+01:00</td><td/><td/></tr><tr><td style=\"white-space:nowrap\">05<a name=\"TRE-R245-SpecialisationDePriseEnCharge-05\"> </a></td><td>Troubles psychiques des auteurs de violences sexuelles</td><td>2017-10-13T12:00:00+01:00</td><td>2017-10-13T12:00:00+01:00</td><td/><td/></tr><tr><td style=\"white-space:nowrap\">06<a name=\"TRE-R245-SpecialisationDePriseEnCharge-06\"> </a></td><td>Schizophrénie émergente</td><td>2017-10-13T12:00:00+01:00</td><td>2017-10-13T12:00:00+01:00</td><td/><td/></tr><tr><td style=\"white-space:nowrap\">07<a name=\"TRE-R245-SpecialisationDePriseEnCharge-07\"> </a></td><td>Troubles psychotiques (schizophrénie, délires)</td><td>2017-10-13T12:00:00+01:00</td><td>2017-10-13T12:00:00+01:00</td><td/><td/></tr><tr><td style=\"white-space:nowrap\">08<a name=\"TRE-R245-SpecialisationDePriseEnCharge-08\"> </a></td><td>Troubles de l'humeur (bipolaire, dépression...)</td><td>2017-10-13T12:00:00+01:00</td><td>2023-05-26T12:00:00+01:00</td><td/><td/></tr><tr><td style=\"white-space:nowrap\">09<a name=\"TRE-R245-SpecialisationDePriseEnCharge-09\"> </a></td><td>Troubles Obsessionnels Compulsifs (TOC)</td><td>2017-10-13T12:00:00+01:00</td><td>2017-10-13T12:00:00+01:00</td><td/><td/></tr><tr><td style=\"white-space:nowrap\">10<a name=\"TRE-R245-SpecialisationDePriseEnCharge-10\"> </a></td><td>Conduites addictives</td><td>2017-10-13T12:00:00+01:00</td><td>2019-07-05T12:00:00+01:00</td><td/><td/></tr><tr><td style=\"white-space:nowrap\">11<a name=\"TRE-R245-SpecialisationDePriseEnCharge-11\"> </a></td><td>Troubles spécifiques de la communication et / ou des apprentissages hors TSA</td><td>2017-10-13T12:00:00+01:00</td><td>2024-06-28T12:00:00+01:00</td><td/><td>Troubles spécifiques de la communication (dysphasie, bégaiement, etc.) et / ou des apprentissages (dyslexie, dysorthographie, dyscalculie) hors TSA</td></tr><tr><td style=\"white-space:nowrap\">12<a name=\"TRE-R245-SpecialisationDePriseEnCharge-12\"> </a></td><td>Troubles psy. dûs à affection organique ou à lésion cérébrale (épilepsie...)</td><td>2017-10-13T12:00:00+01:00</td><td>2017-10-13T12:00:00+01:00</td><td/><td>Troubles psychiques dûs à une affection organique ou à une lésion cérébrale (épilepsie...)</td></tr><tr><td style=\"white-space:nowrap\">13<a name=\"TRE-R245-SpecialisationDePriseEnCharge-13\"> </a></td><td>Démence dégénérative</td><td>2017-10-13T12:00:00+01:00</td><td>2017-10-13T12:00:00+01:00</td><td/><td/></tr><tr><td style=\"white-space:nowrap\">14<a name=\"TRE-R245-SpecialisationDePriseEnCharge-14\"> </a></td><td>Troubles du développement intellectuel (TDI)</td><td>2018-01-26T12:00:00+01:00</td><td>2024-06-28T12:00:00+01:00</td><td/><td/></tr><tr><td style=\"white-space:nowrap\">15<a name=\"TRE-R245-SpecialisationDePriseEnCharge-15\"> </a></td><td>Personnes présentant des troubles du spectre de l'autisme</td><td>2018-01-26T12:00:00+01:00</td><td>2018-05-31T12:00:00+01:00</td><td>2018-05-31T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">16<a name=\"TRE-R245-SpecialisationDePriseEnCharge-16\"> </a></td><td>Handicap psychique</td><td>2018-01-26T12:00:00+01:00</td><td>2018-05-31T12:00:00+01:00</td><td/><td/></tr><tr><td style=\"white-space:nowrap\">17<a name=\"TRE-R245-SpecialisationDePriseEnCharge-17\"> </a></td><td>Polyhandicap</td><td>2018-01-26T12:00:00+01:00</td><td>2018-05-31T12:00:00+01:00</td><td/><td/></tr><tr><td style=\"white-space:nowrap\">18<a name=\"TRE-R245-SpecialisationDePriseEnCharge-18\"> </a></td><td>Déficience auditive grave</td><td>2018-01-26T12:00:00+01:00</td><td>2018-05-31T12:00:00+01:00</td><td/><td/></tr><tr><td style=\"white-space:nowrap\">19<a name=\"TRE-R245-SpecialisationDePriseEnCharge-19\"> </a></td><td>Déficience visuelle grave</td><td>2018-01-26T12:00:00+01:00</td><td>2018-05-31T12:00:00+01:00</td><td/><td/></tr><tr><td style=\"white-space:nowrap\">20<a name=\"TRE-R245-SpecialisationDePriseEnCharge-20\"> </a></td><td>Personnes présentant trouble spécif langage, apprentissages et moteurs</td><td>2018-01-26T12:00:00+01:00</td><td>2018-05-31T12:00:00+01:00</td><td>2018-05-31T12:00:00+01:00</td><td>Personnes présentant un trouble spécifique du langage et des apprentissages (TSLA) (trouble dys)</td></tr><tr><td style=\"white-space:nowrap\">21<a name=\"TRE-R245-SpecialisationDePriseEnCharge-21\"> </a></td><td>Handicap rare</td><td>2018-01-26T12:00:00+01:00</td><td>2018-05-31T12:00:00+01:00</td><td/><td/></tr><tr><td style=\"white-space:nowrap\">22<a name=\"TRE-R245-SpecialisationDePriseEnCharge-22\"> </a></td><td>Déficience à prédominance motrice</td><td>2018-01-26T12:00:00+01:00</td><td>2019-03-29T12:00:00+01:00</td><td/><td/></tr><tr><td style=\"white-space:nowrap\">23<a name=\"TRE-R245-SpecialisationDePriseEnCharge-23\"> </a></td><td>Handicap à prédominance cognitive</td><td>2018-01-26T12:00:00+01:00</td><td>2018-05-31T12:00:00+01:00</td><td/><td/></tr><tr><td style=\"white-space:nowrap\">24<a name=\"TRE-R245-SpecialisationDePriseEnCharge-24\"> </a></td><td>Handicap à prédominance cognitive avec trouble du comportement</td><td>2018-01-26T12:00:00+01:00</td><td>2020-06-26T12:00:00+01:00</td><td/><td>Handicap à prédominance cognitive avec trouble du comportement (dont traumatisé crânien, syndrome de Korsakoff,...)</td></tr><tr><td style=\"white-space:nowrap\">25<a name=\"TRE-R245-SpecialisationDePriseEnCharge-25\"> </a></td><td>Surdi-cécité avec ou sans troubles associés</td><td>2018-05-31T12:00:00+01:00</td><td>2018-05-31T12:00:00+01:00</td><td/><td/></tr><tr><td style=\"white-space:nowrap\">26<a name=\"TRE-R245-SpecialisationDePriseEnCharge-26\"> </a></td><td>Difficulté psychologique avec troubles du comportement</td><td>2018-05-31T12:00:00+01:00</td><td>2018-05-31T12:00:00+01:00</td><td/><td/></tr><tr><td style=\"white-space:nowrap\">27<a name=\"TRE-R245-SpecialisationDePriseEnCharge-27\"> </a></td><td>Troubles neuro-cognitifs chroniques (Alzheimer) avec troubles du comportement</td><td>2018-10-26T12:00:00+01:00</td><td>2019-03-29T12:00:00+01:00</td><td/><td>Troubles neuro-cognitifs chroniques (Alzheimer et apparentées) avec troubles du comportement perturbateurs</td></tr><tr><td style=\"white-space:nowrap\">28<a name=\"TRE-R245-SpecialisationDePriseEnCharge-28\"> </a></td><td>Maladies d'Alzheimer et apparentée</td><td>2018-10-26T12:00:00+01:00</td><td>2018-10-26T12:00:00+01:00</td><td/><td>Maladies d'Alzheimer et apparentées</td></tr><tr><td style=\"white-space:nowrap\">29<a name=\"TRE-R245-SpecialisationDePriseEnCharge-29\"> </a></td><td>Maladies rares liées à une anomalie du développement embryonnaire</td><td>2022-06-24T12:00:00+01:00</td><td>2022-06-24T12:00:00+01:00</td><td/><td/></tr><tr><td style=\"white-space:nowrap\">30<a name=\"TRE-R245-SpecialisationDePriseEnCharge-30\"> </a></td><td>Maladies rares de l'infertilité</td><td>2022-06-24T12:00:00+01:00</td><td>2022-06-24T12:00:00+01:00</td><td/><td/></tr><tr><td style=\"white-space:nowrap\">31<a name=\"TRE-R245-SpecialisationDePriseEnCharge-31\"> </a></td><td>Maladies rares allergiques</td><td>2022-06-24T12:00:00+01:00</td><td>2022-06-24T12:00:00+01:00</td><td/><td/></tr><tr><td style=\"white-space:nowrap\">32<a name=\"TRE-R245-SpecialisationDePriseEnCharge-32\"> </a></td><td>Maladies rares cardiaques</td><td>2022-06-24T12:00:00+01:00</td><td>2022-06-24T12:00:00+01:00</td><td/><td/></tr><tr><td style=\"white-space:nowrap\">33<a name=\"TRE-R245-SpecialisationDePriseEnCharge-33\"> </a></td><td>Maladies rares chirurgicales abdominales</td><td>2022-06-24T12:00:00+01:00</td><td>2022-06-24T12:00:00+01:00</td><td/><td/></tr><tr><td style=\"white-space:nowrap\">34<a name=\"TRE-R245-SpecialisationDePriseEnCharge-34\"> </a></td><td>Maladies rares endocriniennes</td><td>2022-06-24T12:00:00+01:00</td><td>2022-06-24T12:00:00+01:00</td><td/><td/></tr><tr><td style=\"white-space:nowrap\">35<a name=\"TRE-R245-SpecialisationDePriseEnCharge-35\"> </a></td><td>Maladies rares gastro-entérologiques</td><td>2022-06-24T12:00:00+01:00</td><td>2022-06-24T12:00:00+01:00</td><td/><td/></tr><tr><td style=\"white-space:nowrap\">36<a name=\"TRE-R245-SpecialisationDePriseEnCharge-36\"> </a></td><td>Maladies rares génétiques</td><td>2022-06-24T12:00:00+01:00</td><td>2022-06-24T12:00:00+01:00</td><td/><td/></tr><tr><td style=\"white-space:nowrap\">37<a name=\"TRE-R245-SpecialisationDePriseEnCharge-37\"> </a></td><td>Maladies rares gynécologiques et obstétriques</td><td>2022-06-24T12:00:00+01:00</td><td>2022-06-24T12:00:00+01:00</td><td/><td/></tr><tr><td style=\"white-space:nowrap\">38<a name=\"TRE-R245-SpecialisationDePriseEnCharge-38\"> </a></td><td>Maladies rares hématologiques</td><td>2022-06-24T12:00:00+01:00</td><td>2022-06-24T12:00:00+01:00</td><td/><td/></tr><tr><td style=\"white-space:nowrap\">39<a name=\"TRE-R245-SpecialisationDePriseEnCharge-39\"> </a></td><td>Maladies rares hépatiques</td><td>2022-06-24T12:00:00+01:00</td><td>2022-06-24T12:00:00+01:00</td><td/><td/></tr><tr><td style=\"white-space:nowrap\">40<a name=\"TRE-R245-SpecialisationDePriseEnCharge-40\"> </a></td><td>Maladies rares immunologiques</td><td>2022-06-24T12:00:00+01:00</td><td>2022-06-24T12:00:00+01:00</td><td/><td/></tr><tr><td style=\"white-space:nowrap\">41<a name=\"TRE-R245-SpecialisationDePriseEnCharge-41\"> </a></td><td>Maladies rares infectieuses</td><td>2022-06-24T12:00:00+01:00</td><td>2022-06-24T12:00:00+01:00</td><td/><td/></tr><tr><td style=\"white-space:nowrap\">42<a name=\"TRE-R245-SpecialisationDePriseEnCharge-42\"> </a></td><td>Maladies rares métaboliques</td><td>2022-06-24T12:00:00+01:00</td><td>2022-06-24T12:00:00+01:00</td><td/><td/></tr><tr><td style=\"white-space:nowrap\">43<a name=\"TRE-R245-SpecialisationDePriseEnCharge-43\"> </a></td><td>Maladies rares néoplasiques</td><td>2022-06-24T12:00:00+01:00</td><td>2022-06-24T12:00:00+01:00</td><td/><td/></tr><tr><td style=\"white-space:nowrap\">44<a name=\"TRE-R245-SpecialisationDePriseEnCharge-44\"> </a></td><td>Maladies rares neurologiques</td><td>2022-06-24T12:00:00+01:00</td><td>2022-06-24T12:00:00+01:00</td><td/><td/></tr><tr><td style=\"white-space:nowrap\">45<a name=\"TRE-R245-SpecialisationDePriseEnCharge-45\"> </a></td><td>Maladies rares odontologiques</td><td>2022-06-24T12:00:00+01:00</td><td>2022-06-24T12:00:00+01:00</td><td/><td/></tr><tr><td style=\"white-space:nowrap\">46<a name=\"TRE-R245-SpecialisationDePriseEnCharge-46\"> </a></td><td>Maladies rares ophtalmiques</td><td>2022-06-24T12:00:00+01:00</td><td>2022-06-24T12:00:00+01:00</td><td/><td/></tr><tr><td style=\"white-space:nowrap\">47<a name=\"TRE-R245-SpecialisationDePriseEnCharge-47\"> </a></td><td>Maladies rares osseuses</td><td>2022-06-24T12:00:00+01:00</td><td>2022-06-24T12:00:00+01:00</td><td/><td/></tr><tr><td style=\"white-space:nowrap\">48<a name=\"TRE-R245-SpecialisationDePriseEnCharge-48\"> </a></td><td>Maladies rares oto-rhino-laryngologiques</td><td>2022-06-24T12:00:00+01:00</td><td>2022-06-24T12:00:00+01:00</td><td/><td/></tr><tr><td style=\"white-space:nowrap\">49<a name=\"TRE-R245-SpecialisationDePriseEnCharge-49\"> </a></td><td>Maladies rares de la peau</td><td>2022-06-24T12:00:00+01:00</td><td>2022-06-24T12:00:00+01:00</td><td/><td/></tr><tr><td style=\"white-space:nowrap\">50<a name=\"TRE-R245-SpecialisationDePriseEnCharge-50\"> </a></td><td>Maladies rares du système circulatoire</td><td>2022-06-24T12:00:00+01:00</td><td>2022-06-24T12:00:00+01:00</td><td/><td/></tr><tr><td style=\"white-space:nowrap\">51<a name=\"TRE-R245-SpecialisationDePriseEnCharge-51\"> </a></td><td>Maladies rares dues à des effets toxiques</td><td>2022-06-24T12:00:00+01:00</td><td>2022-06-24T12:00:00+01:00</td><td/><td/></tr><tr><td style=\"white-space:nowrap\">52<a name=\"TRE-R245-SpecialisationDePriseEnCharge-52\"> </a></td><td>Maladies rares liées à la transplantation</td><td>2022-06-24T12:00:00+01:00</td><td>2022-06-24T12:00:00+01:00</td><td/><td/></tr><tr><td style=\"white-space:nowrap\">53<a name=\"TRE-R245-SpecialisationDePriseEnCharge-53\"> </a></td><td>Maladies rares rénales</td><td>2022-06-24T12:00:00+01:00</td><td>2022-06-24T12:00:00+01:00</td><td/><td/></tr><tr><td style=\"white-space:nowrap\">54<a name=\"TRE-R245-SpecialisationDePriseEnCharge-54\"> </a></td><td>Maladies rares respiratoires</td><td>2022-06-24T12:00:00+01:00</td><td>2022-06-24T12:00:00+01:00</td><td/><td/></tr><tr><td style=\"white-space:nowrap\">55<a name=\"TRE-R245-SpecialisationDePriseEnCharge-55\"> </a></td><td>Maladies rares systémiques et rhumatologiques</td><td>2022-06-24T12:00:00+01:00</td><td>2022-06-24T12:00:00+01:00</td><td/><td/></tr><tr><td style=\"white-space:nowrap\">56<a name=\"TRE-R245-SpecialisationDePriseEnCharge-56\"> </a></td><td>Maladies rares systémiques ou rhumatologiques de l'enfant</td><td>2022-06-24T12:00:00+01:00</td><td>2022-06-24T12:00:00+01:00</td><td/><td/></tr><tr><td style=\"white-space:nowrap\">57<a name=\"TRE-R245-SpecialisationDePriseEnCharge-57\"> </a></td><td>Maladies rares thoraciques chirurgicales</td><td>2022-06-24T12:00:00+01:00</td><td>2022-06-24T12:00:00+01:00</td><td/><td/></tr><tr><td style=\"white-space:nowrap\">58<a name=\"TRE-R245-SpecialisationDePriseEnCharge-58\"> </a></td><td>Maladies rares urogénitales</td><td>2022-06-24T12:00:00+01:00</td><td>2022-06-24T12:00:00+01:00</td><td/><td/></tr><tr><td style=\"white-space:nowrap\">59<a name=\"TRE-R245-SpecialisationDePriseEnCharge-59\"> </a></td><td>Maladies rares liées à une malformation cardiaque</td><td>2022-06-24T12:00:00+01:00</td><td>2022-06-24T12:00:00+01:00</td><td/><td/></tr><tr><td style=\"white-space:nowrap\">60<a name=\"TRE-R245-SpecialisationDePriseEnCharge-60\"> </a></td><td>Maladies rares chirurgicales maxillo-faciales</td><td>2022-06-24T12:00:00+01:00</td><td>2022-06-24T12:00:00+01:00</td><td/><td/></tr><tr><td style=\"white-space:nowrap\">61<a name=\"TRE-R245-SpecialisationDePriseEnCharge-61\"> </a></td><td>Maladies rares liées à un trouble tératologique rare</td><td>2022-06-24T12:00:00+01:00</td><td>2022-06-24T12:00:00+01:00</td><td/><td/></tr><tr><td style=\"white-space:nowrap\">62<a name=\"TRE-R245-SpecialisationDePriseEnCharge-62\"> </a></td><td>Suicidant</td><td>2022-06-24T12:00:00+01:00</td><td>2022-06-24T12:00:00+01:00</td><td/><td/></tr><tr><td style=\"white-space:nowrap\">63<a name=\"TRE-R245-SpecialisationDePriseEnCharge-63\"> </a></td><td>Troubles de la personnalité sévères</td><td>2023-05-26T12:00:00+01:00</td><td>2023-05-26T12:00:00+01:00</td><td/><td/></tr><tr><td style=\"white-space:nowrap\">64<a name=\"TRE-R245-SpecialisationDePriseEnCharge-64\"> </a></td><td>Endométriose</td><td>2023-10-30T12:00:00+01:00</td><td>2023-10-30T12:00:00+01:00</td><td/><td/></tr><tr><td style=\"white-space:nowrap\">65<a name=\"TRE-R245-SpecialisationDePriseEnCharge-65\"> </a></td><td>Troubles anxieux</td><td>2024-01-26T12:00:00+01:00</td><td>2024-01-26T12:00:00+01:00</td><td/><td/></tr><tr><td style=\"white-space:nowrap\">66<a name=\"TRE-R245-SpecialisationDePriseEnCharge-66\"> </a></td><td>Troubles du neurodéveloppement à prédominance motrice</td><td>2024-01-26T12:00:00+01:00</td><td>2024-06-28T12:00:00+01:00</td><td/><td>Troubles du neurodéveloppement à prédominance motrice (dont Trouble Développemental de la Coordination TDC, dyspraxie, mouvements stéréotypés, tics)</td></tr><tr><td style=\"white-space:nowrap\">67<a name=\"TRE-R245-SpecialisationDePriseEnCharge-67\"> </a></td><td>Trouble psychotraumatique (dont Troubles Stress Post-Traumatique)</td><td>2024-04-26T12:00:00+01:00</td><td>2024-04-26T12:00:00+01:00</td><td/><td/></tr><tr><td style=\"white-space:nowrap\">68<a name=\"TRE-R245-SpecialisationDePriseEnCharge-68\"> </a></td><td>Troubles cognitifs dus à une lésion cérébrale acquise</td><td>2024-10-25T12:00:00+01:00</td><td>2024-10-25T12:00:00+01:00</td><td/><td>Troubles cognitifs ou du comportement et de la relation affective dus à une lésion cérébrale acquise</td></tr></table></div>"^^rdf:XMLLiteral
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: CodeSystem TRE-R245-SpecialisationDePriseEnCharge</b></p><a name=\"TRE-R245-SpecialisationDePriseEnCharge\"> </a><a name=\"hcTRE-R245-SpecialisationDePriseEnCharge\"> </a><a name=\"TRE-R245-SpecialisationDePriseEnCharge-fr-FR\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">version: 10; Last updated: 2025-04-25 18:12:43+0000</p><p style=\"margin-bottom: 0px\">Profil: <a href=\"http://hl7.org/fhir/R4/shareablecodesystem.html\">Shareable CodeSystem</a></p></div><p><b>Propriétés</b></p><p><b>Cette terminologie de référence (CodeSystem) définit les propriétés suivantes pour ses concepts</b></p><table class=\"grid\"><tr><td><b>Nom</b></td><td><b>Code</b></td><td><b>URI</b></td><td><b>Type</b></td><td><b>Description</b></td></tr><tr><td>dateValid</td><td>dateValid</td><td/><td>dateTime</td><td>date de validité d'un code concept</td></tr><tr><td>dateMaj</td><td>dateMaj</td><td/><td>dateTime</td><td>Date de mise à jour d'un code concept</td></tr><tr><td>dateFin</td><td>dateFin</td><td/><td>dateTime</td><td>Date de fin d'exploitation d'un code concept</td></tr><tr><td>deprecationDate</td><td>deprecationDate</td><td>http://hl7.org/fhir/concept-properties#deprecationDate</td><td>dateTime</td><td>Date Concept was deprecated</td></tr><tr><td>status</td><td>status</td><td>http://hl7.org/fhir/concept-properties#status</td><td>code</td><td>A property that indicates the status of the concept.</td></tr><tr><td>retirementDate</td><td>retirementDate</td><td>http://hl7.org/fhir/concept-properties#retirementDate</td><td>dateTime</td><td>Date Concept was retired</td></tr></table><p><b>Concepts</b></p><p>This case-insensitive code system <code>https://mos.esante.gouv.fr/NOS/TRE_R245-SpecialisationDePriseEnCharge/FHIR/TRE-R245-SpecialisationDePriseEnCharge</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Déprécié</b></td><td><b>dateValid</b></td><td><b>dateMaj</b></td><td><b>dateFin</b></td><td><b>deprecationDate</b></td><td><b>status</b></td><td><b>French (France) (fr)</b></td></tr><tr><td style=\"white-space:nowrap\">01<a name=\"TRE-R245-SpecialisationDePriseEnCharge-01\"> </a></td><td>Troubles des conduites alimentaires (TCA)</td><td/><td>2017-10-13T12:00:00+01:00</td><td>2024-01-26T12:00:00+01:00</td><td/><td/><td>active</td><td/></tr><tr><td style=\"white-space:nowrap\">02<a name=\"TRE-R245-SpecialisationDePriseEnCharge-02\"> </a></td><td>Troubles du spectre de l'autisme</td><td/><td>2017-10-13T12:00:00+01:00</td><td>2018-10-26T12:00:00+01:00</td><td/><td/><td>active</td><td/></tr><tr><td style=\"white-space:nowrap\">03<a name=\"TRE-R245-SpecialisationDePriseEnCharge-03\"> </a></td><td>Troubles du déficit de l'attention avec ou sans hyperactivité (TDAH)</td><td/><td>2017-10-13T12:00:00+01:00</td><td>2024-06-28T12:00:00+01:00</td><td/><td/><td>active</td><td/></tr><tr><td style=\"white-space:nowrap\">04<a name=\"TRE-R245-SpecialisationDePriseEnCharge-04\"> </a></td><td>Troubles psychiques des victimes de violences sexuelles</td><td/><td>2017-10-13T12:00:00+01:00</td><td>2017-10-13T12:00:00+01:00</td><td/><td/><td>active</td><td/></tr><tr><td style=\"white-space:nowrap\">05<a name=\"TRE-R245-SpecialisationDePriseEnCharge-05\"> </a></td><td>Troubles psychiques des auteurs de violences sexuelles</td><td/><td>2017-10-13T12:00:00+01:00</td><td>2017-10-13T12:00:00+01:00</td><td/><td/><td>active</td><td/></tr><tr><td style=\"white-space:nowrap\">06<a name=\"TRE-R245-SpecialisationDePriseEnCharge-06\"> </a></td><td>Schizophrénie émergente</td><td/><td>2017-10-13T12:00:00+01:00</td><td>2017-10-13T12:00:00+01:00</td><td/><td/><td>active</td><td/></tr><tr><td style=\"white-space:nowrap\">07<a name=\"TRE-R245-SpecialisationDePriseEnCharge-07\"> </a></td><td>Troubles psychotiques (schizophrénie, délires)</td><td/><td>2017-10-13T12:00:00+01:00</td><td>2017-10-13T12:00:00+01:00</td><td/><td/><td>active</td><td/></tr><tr><td style=\"white-space:nowrap\">08<a name=\"TRE-R245-SpecialisationDePriseEnCharge-08\"> </a></td><td>Troubles de l'humeur (bipolaire, dépression...)</td><td/><td>2017-10-13T12:00:00+01:00</td><td>2023-05-26T12:00:00+01:00</td><td/><td/><td>active</td><td/></tr><tr><td style=\"white-space:nowrap\">09<a name=\"TRE-R245-SpecialisationDePriseEnCharge-09\"> </a></td><td>Troubles Obsessionnels Compulsifs (TOC)</td><td/><td>2017-10-13T12:00:00+01:00</td><td>2017-10-13T12:00:00+01:00</td><td/><td/><td>active</td><td/></tr><tr><td style=\"white-space:nowrap\">10<a name=\"TRE-R245-SpecialisationDePriseEnCharge-10\"> </a></td><td>Conduites addictives</td><td/><td>2017-10-13T12:00:00+01:00</td><td>2019-07-05T12:00:00+01:00</td><td/><td/><td>active</td><td/></tr><tr><td style=\"white-space:nowrap\">11<a name=\"TRE-R245-SpecialisationDePriseEnCharge-11\"> </a></td><td>Troubles spécifiques de la communication et / ou des apprentissages hors TSA</td><td/><td>2017-10-13T12:00:00+01:00</td><td>2024-06-28T12:00:00+01:00</td><td/><td/><td>active</td><td>Troubles spécifiques de la communication (dysphasie, bégaiement, etc.) et / ou des apprentissages (dyslexie, dysorthographie, dyscalculie) hors TSA</td></tr><tr><td style=\"white-space:nowrap\">12<a name=\"TRE-R245-SpecialisationDePriseEnCharge-12\"> </a></td><td>Troubles psy. dûs à affection organique ou à lésion cérébrale (épilepsie...)</td><td/><td>2017-10-13T12:00:00+01:00</td><td>2017-10-13T12:00:00+01:00</td><td/><td/><td>active</td><td>Troubles psychiques dûs à une affection organique ou à une lésion cérébrale (épilepsie...)</td></tr><tr><td style=\"white-space:nowrap\">13<a name=\"TRE-R245-SpecialisationDePriseEnCharge-13\"> </a></td><td>Démence dégénérative</td><td/><td>2017-10-13T12:00:00+01:00</td><td>2017-10-13T12:00:00+01:00</td><td/><td/><td>active</td><td/></tr><tr><td style=\"white-space:nowrap\">14<a name=\"TRE-R245-SpecialisationDePriseEnCharge-14\"> </a></td><td>Troubles du développement intellectuel (TDI)</td><td/><td>2018-01-26T12:00:00+01:00</td><td>2024-06-28T12:00:00+01:00</td><td/><td/><td>active</td><td/></tr><tr style=\"background-color: #ffeeee\"><td style=\"white-space:nowrap\">15<a name=\"TRE-R245-SpecialisationDePriseEnCharge-15\"> </a></td><td>Personnes présentant des troubles du spectre de l'autisme</td><td>Déprécié</td><td>2018-01-26T12:00:00+01:00</td><td>2018-05-31T12:00:00+01:00</td><td>2018-05-31T12:00:00+01:00</td><td>2018-05-31T12:00:00+01:00</td><td>deprecated</td><td/></tr><tr><td style=\"white-space:nowrap\">16<a name=\"TRE-R245-SpecialisationDePriseEnCharge-16\"> </a></td><td>Handicap psychique</td><td/><td>2018-01-26T12:00:00+01:00</td><td>2018-05-31T12:00:00+01:00</td><td/><td/><td>active</td><td/></tr><tr><td style=\"white-space:nowrap\">17<a name=\"TRE-R245-SpecialisationDePriseEnCharge-17\"> </a></td><td>Polyhandicap</td><td/><td>2018-01-26T12:00:00+01:00</td><td>2018-05-31T12:00:00+01:00</td><td/><td/><td>active</td><td/></tr><tr><td style=\"white-space:nowrap\">18<a name=\"TRE-R245-SpecialisationDePriseEnCharge-18\"> </a></td><td>Déficience auditive grave</td><td/><td>2018-01-26T12:00:00+01:00</td><td>2018-05-31T12:00:00+01:00</td><td/><td/><td>active</td><td/></tr><tr><td style=\"white-space:nowrap\">19<a name=\"TRE-R245-SpecialisationDePriseEnCharge-19\"> </a></td><td>Déficience visuelle grave</td><td/><td>2018-01-26T12:00:00+01:00</td><td>2018-05-31T12:00:00+01:00</td><td/><td/><td>active</td><td/></tr><tr style=\"background-color: #ffeeee\"><td style=\"white-space:nowrap\">20<a name=\"TRE-R245-SpecialisationDePriseEnCharge-20\"> </a></td><td>Personnes présentant trouble spécif langage, apprentissages et moteurs</td><td>Déprécié</td><td>2018-01-26T12:00:00+01:00</td><td>2018-05-31T12:00:00+01:00</td><td>2018-05-31T12:00:00+01:00</td><td>2018-05-31T12:00:00+01:00</td><td>deprecated</td><td>Personnes présentant un trouble spécifique du langage et des apprentissages (TSLA) (trouble dys)</td></tr><tr><td style=\"white-space:nowrap\">21<a name=\"TRE-R245-SpecialisationDePriseEnCharge-21\"> </a></td><td>Handicap rare</td><td/><td>2018-01-26T12:00:00+01:00</td><td>2018-05-31T12:00:00+01:00</td><td/><td/><td>active</td><td/></tr><tr><td style=\"white-space:nowrap\">22<a name=\"TRE-R245-SpecialisationDePriseEnCharge-22\"> </a></td><td>Déficience à prédominance motrice</td><td/><td>2018-01-26T12:00:00+01:00</td><td>2019-03-29T12:00:00+01:00</td><td/><td/><td>active</td><td/></tr><tr><td style=\"white-space:nowrap\">23<a name=\"TRE-R245-SpecialisationDePriseEnCharge-23\"> </a></td><td>Handicap cognitif spécifique</td><td/><td>2018-01-26T12:00:00+01:00</td><td>2025-04-25T12:00:00+01:00</td><td/><td/><td>active</td><td/></tr><tr><td style=\"white-space:nowrap\">24<a name=\"TRE-R245-SpecialisationDePriseEnCharge-24\"> </a></td><td>Handicap à prédominance cognitive avec trouble du comportement</td><td/><td>2018-01-26T12:00:00+01:00</td><td>2020-06-26T12:00:00+01:00</td><td/><td/><td>active</td><td>Handicap à prédominance cognitive avec trouble du comportement (dont traumatisé crânien, syndrome de Korsakoff,...)</td></tr><tr><td style=\"white-space:nowrap\">25<a name=\"TRE-R245-SpecialisationDePriseEnCharge-25\"> </a></td><td>Surdi-cécité avec ou sans troubles associés</td><td/><td>2018-05-31T12:00:00+01:00</td><td>2018-05-31T12:00:00+01:00</td><td/><td/><td>active</td><td/></tr><tr><td style=\"white-space:nowrap\">26<a name=\"TRE-R245-SpecialisationDePriseEnCharge-26\"> </a></td><td>Difficulté psychologique avec troubles du comportement</td><td/><td>2018-05-31T12:00:00+01:00</td><td>2018-05-31T12:00:00+01:00</td><td/><td/><td>active</td><td/></tr><tr><td style=\"white-space:nowrap\">27<a name=\"TRE-R245-SpecialisationDePriseEnCharge-27\"> </a></td><td>Troubles neuro-cognitifs chroniques (Alzheimer) avec troubles du comportement</td><td/><td>2018-10-26T12:00:00+01:00</td><td>2019-03-29T12:00:00+01:00</td><td/><td/><td>active</td><td>Troubles neuro-cognitifs chroniques (Alzheimer et apparentées) avec troubles du comportement perturbateurs</td></tr><tr><td style=\"white-space:nowrap\">28<a name=\"TRE-R245-SpecialisationDePriseEnCharge-28\"> </a></td><td>Maladies d'Alzheimer et apparentée</td><td/><td>2018-10-26T12:00:00+01:00</td><td>2018-10-26T12:00:00+01:00</td><td/><td/><td>active</td><td>Maladies d'Alzheimer et apparentées</td></tr><tr><td style=\"white-space:nowrap\">29<a name=\"TRE-R245-SpecialisationDePriseEnCharge-29\"> </a></td><td>Maladies rares liées à une anomalie du développement embryonnaire</td><td/><td>2022-06-24T12:00:00+01:00</td><td>2022-06-24T12:00:00+01:00</td><td/><td/><td>active</td><td/></tr><tr><td style=\"white-space:nowrap\">30<a name=\"TRE-R245-SpecialisationDePriseEnCharge-30\"> </a></td><td>Maladies rares de l'infertilité</td><td/><td>2022-06-24T12:00:00+01:00</td><td>2022-06-24T12:00:00+01:00</td><td/><td/><td>active</td><td/></tr><tr><td style=\"white-space:nowrap\">31<a name=\"TRE-R245-SpecialisationDePriseEnCharge-31\"> </a></td><td>Maladies rares allergiques</td><td/><td>2022-06-24T12:00:00+01:00</td><td>2022-06-24T12:00:00+01:00</td><td/><td/><td>active</td><td/></tr><tr><td style=\"white-space:nowrap\">32<a name=\"TRE-R245-SpecialisationDePriseEnCharge-32\"> </a></td><td>Maladies rares cardiaques</td><td/><td>2022-06-24T12:00:00+01:00</td><td>2022-06-24T12:00:00+01:00</td><td/><td/><td>active</td><td/></tr><tr><td style=\"white-space:nowrap\">33<a name=\"TRE-R245-SpecialisationDePriseEnCharge-33\"> </a></td><td>Maladies rares chirurgicales abdominales</td><td/><td>2022-06-24T12:00:00+01:00</td><td>2022-06-24T12:00:00+01:00</td><td/><td/><td>active</td><td/></tr><tr><td style=\"white-space:nowrap\">34<a name=\"TRE-R245-SpecialisationDePriseEnCharge-34\"> </a></td><td>Maladies rares endocriniennes</td><td/><td>2022-06-24T12:00:00+01:00</td><td>2022-06-24T12:00:00+01:00</td><td/><td/><td>active</td><td/></tr><tr><td style=\"white-space:nowrap\">35<a name=\"TRE-R245-SpecialisationDePriseEnCharge-35\"> </a></td><td>Maladies rares gastro-entérologiques</td><td/><td>2022-06-24T12:00:00+01:00</td><td>2022-06-24T12:00:00+01:00</td><td/><td/><td>active</td><td/></tr><tr><td style=\"white-space:nowrap\">36<a name=\"TRE-R245-SpecialisationDePriseEnCharge-36\"> </a></td><td>Maladies rares génétiques</td><td/><td>2022-06-24T12:00:00+01:00</td><td>2022-06-24T12:00:00+01:00</td><td/><td/><td>active</td><td/></tr><tr><td style=\"white-space:nowrap\">37<a name=\"TRE-R245-SpecialisationDePriseEnCharge-37\"> </a></td><td>Maladies rares gynécologiques et obstétriques</td><td/><td>2022-06-24T12:00:00+01:00</td><td>2022-06-24T12:00:00+01:00</td><td/><td/><td>active</td><td/></tr><tr><td style=\"white-space:nowrap\">38<a name=\"TRE-R245-SpecialisationDePriseEnCharge-38\"> </a></td><td>Maladies rares hématologiques</td><td/><td>2022-06-24T12:00:00+01:00</td><td>2022-06-24T12:00:00+01:00</td><td/><td/><td>active</td><td/></tr><tr><td style=\"white-space:nowrap\">39<a name=\"TRE-R245-SpecialisationDePriseEnCharge-39\"> </a></td><td>Maladies rares hépatiques</td><td/><td>2022-06-24T12:00:00+01:00</td><td>2022-06-24T12:00:00+01:00</td><td/><td/><td>active</td><td/></tr><tr><td style=\"white-space:nowrap\">40<a name=\"TRE-R245-SpecialisationDePriseEnCharge-40\"> </a></td><td>Maladies rares immunologiques</td><td/><td>2022-06-24T12:00:00+01:00</td><td>2022-06-24T12:00:00+01:00</td><td/><td/><td>active</td><td/></tr><tr><td style=\"white-space:nowrap\">41<a name=\"TRE-R245-SpecialisationDePriseEnCharge-41\"> </a></td><td>Maladies rares infectieuses</td><td/><td>2022-06-24T12:00:00+01:00</td><td>2022-06-24T12:00:00+01:00</td><td/><td/><td>active</td><td/></tr><tr><td style=\"white-space:nowrap\">42<a name=\"TRE-R245-SpecialisationDePriseEnCharge-42\"> </a></td><td>Maladies rares métaboliques</td><td/><td>2022-06-24T12:00:00+01:00</td><td>2022-06-24T12:00:00+01:00</td><td/><td/><td>active</td><td/></tr><tr><td style=\"white-space:nowrap\">43<a name=\"TRE-R245-SpecialisationDePriseEnCharge-43\"> </a></td><td>Maladies rares néoplasiques</td><td/><td>2022-06-24T12:00:00+01:00</td><td>2022-06-24T12:00:00+01:00</td><td/><td/><td>active</td><td/></tr><tr><td style=\"white-space:nowrap\">44<a name=\"TRE-R245-SpecialisationDePriseEnCharge-44\"> </a></td><td>Maladies rares neurologiques</td><td/><td>2022-06-24T12:00:00+01:00</td><td>2022-06-24T12:00:00+01:00</td><td/><td/><td>active</td><td/></tr><tr><td style=\"white-space:nowrap\">45<a name=\"TRE-R245-SpecialisationDePriseEnCharge-45\"> </a></td><td>Maladies rares odontologiques</td><td/><td>2022-06-24T12:00:00+01:00</td><td>2022-06-24T12:00:00+01:00</td><td/><td/><td>active</td><td/></tr><tr><td style=\"white-space:nowrap\">46<a name=\"TRE-R245-SpecialisationDePriseEnCharge-46\"> </a></td><td>Maladies rares ophtalmiques</td><td/><td>2022-06-24T12:00:00+01:00</td><td>2022-06-24T12:00:00+01:00</td><td/><td/><td>active</td><td/></tr><tr><td style=\"white-space:nowrap\">47<a name=\"TRE-R245-SpecialisationDePriseEnCharge-47\"> </a></td><td>Maladies rares osseuses</td><td/><td>2022-06-24T12:00:00+01:00</td><td>2022-06-24T12:00:00+01:00</td><td/><td/><td>active</td><td/></tr><tr><td style=\"white-space:nowrap\">48<a name=\"TRE-R245-SpecialisationDePriseEnCharge-48\"> </a></td><td>Maladies rares oto-rhino-laryngologiques</td><td/><td>2022-06-24T12:00:00+01:00</td><td>2022-06-24T12:00:00+01:00</td><td/><td/><td>active</td><td/></tr><tr><td style=\"white-space:nowrap\">49<a name=\"TRE-R245-SpecialisationDePriseEnCharge-49\"> </a></td><td>Maladies rares de la peau</td><td/><td>2022-06-24T12:00:00+01:00</td><td>2022-06-24T12:00:00+01:00</td><td/><td/><td>active</td><td/></tr><tr><td style=\"white-space:nowrap\">50<a name=\"TRE-R245-SpecialisationDePriseEnCharge-50\"> </a></td><td>Maladies rares du système circulatoire</td><td/><td>2022-06-24T12:00:00+01:00</td><td>2022-06-24T12:00:00+01:00</td><td/><td/><td>active</td><td/></tr><tr><td style=\"white-space:nowrap\">51<a name=\"TRE-R245-SpecialisationDePriseEnCharge-51\"> </a></td><td>Maladies rares dues à des effets toxiques</td><td/><td>2022-06-24T12:00:00+01:00</td><td>2022-06-24T12:00:00+01:00</td><td/><td/><td>active</td><td/></tr><tr><td style=\"white-space:nowrap\">52<a name=\"TRE-R245-SpecialisationDePriseEnCharge-52\"> </a></td><td>Maladies rares liées à la transplantation</td><td/><td>2022-06-24T12:00:00+01:00</td><td>2022-06-24T12:00:00+01:00</td><td/><td/><td>active</td><td/></tr><tr><td style=\"white-space:nowrap\">53<a name=\"TRE-R245-SpecialisationDePriseEnCharge-53\"> </a></td><td>Maladies rares rénales</td><td/><td>2022-06-24T12:00:00+01:00</td><td>2022-06-24T12:00:00+01:00</td><td/><td/><td>active</td><td/></tr><tr><td style=\"white-space:nowrap\">54<a name=\"TRE-R245-SpecialisationDePriseEnCharge-54\"> </a></td><td>Maladies rares respiratoires</td><td/><td>2022-06-24T12:00:00+01:00</td><td>2022-06-24T12:00:00+01:00</td><td/><td/><td>active</td><td/></tr><tr><td style=\"white-space:nowrap\">55<a name=\"TRE-R245-SpecialisationDePriseEnCharge-55\"> </a></td><td>Maladies rares systémiques et rhumatologiques</td><td/><td>2022-06-24T12:00:00+01:00</td><td>2022-06-24T12:00:00+01:00</td><td/><td/><td>active</td><td/></tr><tr><td style=\"white-space:nowrap\">56<a name=\"TRE-R245-SpecialisationDePriseEnCharge-56\"> </a></td><td>Maladies rares systémiques ou rhumatologiques de l'enfant</td><td/><td>2022-06-24T12:00:00+01:00</td><td>2022-06-24T12:00:00+01:00</td><td/><td/><td>active</td><td/></tr><tr><td style=\"white-space:nowrap\">57<a name=\"TRE-R245-SpecialisationDePriseEnCharge-57\"> </a></td><td>Maladies rares thoraciques chirurgicales</td><td/><td>2022-06-24T12:00:00+01:00</td><td>2022-06-24T12:00:00+01:00</td><td/><td/><td>active</td><td/></tr><tr><td style=\"white-space:nowrap\">58<a name=\"TRE-R245-SpecialisationDePriseEnCharge-58\"> </a></td><td>Maladies rares urogénitales</td><td/><td>2022-06-24T12:00:00+01:00</td><td>2022-06-24T12:00:00+01:00</td><td/><td/><td>active</td><td/></tr><tr><td style=\"white-space:nowrap\">59<a name=\"TRE-R245-SpecialisationDePriseEnCharge-59\"> </a></td><td>Maladies rares liées à une malformation cardiaque</td><td/><td>2022-06-24T12:00:00+01:00</td><td>2022-06-24T12:00:00+01:00</td><td/><td/><td>active</td><td/></tr><tr><td style=\"white-space:nowrap\">60<a name=\"TRE-R245-SpecialisationDePriseEnCharge-60\"> </a></td><td>Maladies rares chirurgicales maxillo-faciales</td><td/><td>2022-06-24T12:00:00+01:00</td><td>2022-06-24T12:00:00+01:00</td><td/><td/><td>active</td><td/></tr><tr><td style=\"white-space:nowrap\">61<a name=\"TRE-R245-SpecialisationDePriseEnCharge-61\"> </a></td><td>Maladies rares liées à un trouble tératologique rare</td><td/><td>2022-06-24T12:00:00+01:00</td><td>2022-06-24T12:00:00+01:00</td><td/><td/><td>active</td><td/></tr><tr><td style=\"white-space:nowrap\">62<a name=\"TRE-R245-SpecialisationDePriseEnCharge-62\"> </a></td><td>Suicidant</td><td/><td>2022-06-24T12:00:00+01:00</td><td>2022-06-24T12:00:00+01:00</td><td/><td/><td>active</td><td/></tr><tr><td style=\"white-space:nowrap\">63<a name=\"TRE-R245-SpecialisationDePriseEnCharge-63\"> </a></td><td>Troubles de la personnalité sévères</td><td/><td>2023-05-26T12:00:00+01:00</td><td>2023-05-26T12:00:00+01:00</td><td/><td/><td>active</td><td/></tr><tr><td style=\"white-space:nowrap\">64<a name=\"TRE-R245-SpecialisationDePriseEnCharge-64\"> </a></td><td>Endométriose</td><td/><td>2023-10-30T12:00:00+01:00</td><td>2023-10-30T12:00:00+01:00</td><td/><td/><td>active</td><td/></tr><tr><td style=\"white-space:nowrap\">65<a name=\"TRE-R245-SpecialisationDePriseEnCharge-65\"> </a></td><td>Troubles anxieux</td><td/><td>2024-01-26T12:00:00+01:00</td><td>2024-01-26T12:00:00+01:00</td><td/><td/><td>active</td><td/></tr><tr><td style=\"white-space:nowrap\">66<a name=\"TRE-R245-SpecialisationDePriseEnCharge-66\"> </a></td><td>Troubles du neurodéveloppement à prédominance motrice</td><td/><td>2024-01-26T12:00:00+01:00</td><td>2024-06-28T12:00:00+01:00</td><td/><td/><td>active</td><td>Troubles du neurodéveloppement à prédominance motrice (dont Trouble Développemental de la Coordination TDC, dyspraxie, mouvements stéréotypés, tics)</td></tr><tr><td style=\"white-space:nowrap\">67<a name=\"TRE-R245-SpecialisationDePriseEnCharge-67\"> </a></td><td>Trouble psychotraumatique (dont Troubles Stress Post-Traumatique)</td><td/><td>2024-04-26T12:00:00+01:00</td><td>2024-04-26T12:00:00+01:00</td><td/><td/><td>active</td><td/></tr><tr><td style=\"white-space:nowrap\">68<a name=\"TRE-R245-SpecialisationDePriseEnCharge-68\"> </a></td><td>Troubles cognitifs dus à une lésion cérébrale acquise</td><td/><td>2024-10-25T12:00:00+01:00</td><td>2024-10-25T12:00:00+01:00</td><td/><td/><td>active</td><td>Troubles cognitifs ou du comportement et de la relation affective dus à une lésion cérébrale acquise</td></tr></table></div>"^^rdf:XMLLiteral
   ] ; # 
   fhir:extension ( [
      fhir:url [ fhir:v "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod"^^xsd:anyURI ] ;
@@ -34,11 +34,11 @@
      fhir:system [ fhir:v "urn:ietf:rfc:3986"^^xsd:anyURI ] ;
      fhir:value [ fhir:v "urn:oid:1.2.250.1.213.3.3.41" ]
   ] ) ; # 
-  fhir:version [ fhir:v "20241025120000"] ; # 
+  fhir:version [ fhir:v "20250425120000"] ; # 
   fhir:name [ fhir:v "TRE_R245_SpecialisationDePriseEnCharge"] ; # 
   fhir:status [ fhir:v "active"] ; # 
   fhir:experimental [ fhir:v false] ; # 
-  fhir:date [ fhir:v "2024-10-25T12:00:00+01:00"^^xsd:dateTime] ; # 
+  fhir:date [ fhir:v "2025-04-25T12:00:00+01:00"^^xsd:dateTime] ; # 
   fhir:publisher [ fhir:v "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris"] ; # 
   fhir:description [ fhir:v "Spécialisation de prise en charge"] ; # 
   fhir:jurisdiction ( [
@@ -61,6 +61,21 @@
      fhir:code [ fhir:v "dateFin" ] ;
      fhir:description [ fhir:v "Date de fin d'exploitation d'un code concept" ] ;
      fhir:type [ fhir:v "dateTime" ]
+  ] [
+     fhir:code [ fhir:v "deprecationDate" ] ;
+     fhir:uri [ fhir:v "http://hl7.org/fhir/concept-properties#deprecationDate"^^xsd:anyURI ] ;
+     fhir:description [ fhir:v "Date Concept was deprecated" ] ;
+     fhir:type [ fhir:v "dateTime" ]
+  ] [
+     fhir:code [ fhir:v "status" ] ;
+     fhir:uri [ fhir:v "http://hl7.org/fhir/concept-properties#status"^^xsd:anyURI ] ;
+     fhir:description [ fhir:v "A property that indicates the status of the concept." ] ;
+     fhir:type [ fhir:v "code" ]
+  ] [
+     fhir:code [ fhir:v "retirementDate" ] ;
+     fhir:uri [ fhir:v "http://hl7.org/fhir/concept-properties#retirementDate"^^xsd:anyURI ] ;
+     fhir:description [ fhir:v "Date Concept was retired" ] ;
+     fhir:type [ fhir:v "dateTime" ]
   ] ) ; # 
   fhir:concept ( [
      fhir:code [ fhir:v "01" ] ;
@@ -76,6 +91,12 @@
        fhir:value [
          a fhir:dateTime ;
          fhir:v "2024-01-26T12:00:00+01:00"^^xsd:dateTime
+       ]
+     ] [
+       fhir:code [ fhir:v "status" ] ;
+       fhir:value [
+         a fhir:code ;
+         fhir:v "active"
        ]
      ] )
   ] [
@@ -93,6 +114,12 @@
          a fhir:dateTime ;
          fhir:v "2018-10-26T12:00:00+01:00"^^xsd:dateTime
        ]
+     ] [
+       fhir:code [ fhir:v "status" ] ;
+       fhir:value [
+         a fhir:code ;
+         fhir:v "active"
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "03" ] ;
@@ -108,6 +135,12 @@
        fhir:value [
          a fhir:dateTime ;
          fhir:v "2024-06-28T12:00:00+01:00"^^xsd:dateTime
+       ]
+     ] [
+       fhir:code [ fhir:v "status" ] ;
+       fhir:value [
+         a fhir:code ;
+         fhir:v "active"
        ]
      ] )
   ] [
@@ -125,6 +158,12 @@
          a fhir:dateTime ;
          fhir:v "2017-10-13T12:00:00+01:00"^^xsd:dateTime
        ]
+     ] [
+       fhir:code [ fhir:v "status" ] ;
+       fhir:value [
+         a fhir:code ;
+         fhir:v "active"
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "05" ] ;
@@ -140,6 +179,12 @@
        fhir:value [
          a fhir:dateTime ;
          fhir:v "2017-10-13T12:00:00+01:00"^^xsd:dateTime
+       ]
+     ] [
+       fhir:code [ fhir:v "status" ] ;
+       fhir:value [
+         a fhir:code ;
+         fhir:v "active"
        ]
      ] )
   ] [
@@ -157,6 +202,12 @@
          a fhir:dateTime ;
          fhir:v "2017-10-13T12:00:00+01:00"^^xsd:dateTime
        ]
+     ] [
+       fhir:code [ fhir:v "status" ] ;
+       fhir:value [
+         a fhir:code ;
+         fhir:v "active"
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "07" ] ;
@@ -172,6 +223,12 @@
        fhir:value [
          a fhir:dateTime ;
          fhir:v "2017-10-13T12:00:00+01:00"^^xsd:dateTime
+       ]
+     ] [
+       fhir:code [ fhir:v "status" ] ;
+       fhir:value [
+         a fhir:code ;
+         fhir:v "active"
        ]
      ] )
   ] [
@@ -189,6 +246,12 @@
          a fhir:dateTime ;
          fhir:v "2023-05-26T12:00:00+01:00"^^xsd:dateTime
        ]
+     ] [
+       fhir:code [ fhir:v "status" ] ;
+       fhir:value [
+         a fhir:code ;
+         fhir:v "active"
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "09" ] ;
@@ -205,6 +268,12 @@
          a fhir:dateTime ;
          fhir:v "2017-10-13T12:00:00+01:00"^^xsd:dateTime
        ]
+     ] [
+       fhir:code [ fhir:v "status" ] ;
+       fhir:value [
+         a fhir:code ;
+         fhir:v "active"
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "10" ] ;
@@ -220,6 +289,12 @@
        fhir:value [
          a fhir:dateTime ;
          fhir:v "2019-07-05T12:00:00+01:00"^^xsd:dateTime
+       ]
+     ] [
+       fhir:code [ fhir:v "status" ] ;
+       fhir:value [
+         a fhir:code ;
+         fhir:v "active"
        ]
      ] )
   ] [
@@ -246,6 +321,12 @@
          a fhir:dateTime ;
          fhir:v "2024-06-28T12:00:00+01:00"^^xsd:dateTime
        ]
+     ] [
+       fhir:code [ fhir:v "status" ] ;
+       fhir:value [
+         a fhir:code ;
+         fhir:v "active"
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "12" ] ;
@@ -271,6 +352,12 @@
          a fhir:dateTime ;
          fhir:v "2017-10-13T12:00:00+01:00"^^xsd:dateTime
        ]
+     ] [
+       fhir:code [ fhir:v "status" ] ;
+       fhir:value [
+         a fhir:code ;
+         fhir:v "active"
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "13" ] ;
@@ -287,6 +374,12 @@
          a fhir:dateTime ;
          fhir:v "2017-10-13T12:00:00+01:00"^^xsd:dateTime
        ]
+     ] [
+       fhir:code [ fhir:v "status" ] ;
+       fhir:value [
+         a fhir:code ;
+         fhir:v "active"
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "14" ] ;
@@ -302,6 +395,12 @@
        fhir:value [
          a fhir:dateTime ;
          fhir:v "2024-06-28T12:00:00+01:00"^^xsd:dateTime
+       ]
+     ] [
+       fhir:code [ fhir:v "status" ] ;
+       fhir:value [
+         a fhir:code ;
+         fhir:v "active"
        ]
      ] )
   ] [
@@ -325,6 +424,18 @@
          a fhir:dateTime ;
          fhir:v "2018-05-31T12:00:00+01:00"^^xsd:dateTime
        ]
+     ] [
+       fhir:code [ fhir:v "deprecationDate" ] ;
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2018-05-31T12:00:00+01:00"^^xsd:dateTime
+       ]
+     ] [
+       fhir:code [ fhir:v "status" ] ;
+       fhir:value [
+         a fhir:code ;
+         fhir:v "deprecated"
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "16" ] ;
@@ -340,6 +451,12 @@
        fhir:value [
          a fhir:dateTime ;
          fhir:v "2018-05-31T12:00:00+01:00"^^xsd:dateTime
+       ]
+     ] [
+       fhir:code [ fhir:v "status" ] ;
+       fhir:value [
+         a fhir:code ;
+         fhir:v "active"
        ]
      ] )
   ] [
@@ -357,6 +474,12 @@
          a fhir:dateTime ;
          fhir:v "2018-05-31T12:00:00+01:00"^^xsd:dateTime
        ]
+     ] [
+       fhir:code [ fhir:v "status" ] ;
+       fhir:value [
+         a fhir:code ;
+         fhir:v "active"
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "18" ] ;
@@ -373,6 +496,12 @@
          a fhir:dateTime ;
          fhir:v "2018-05-31T12:00:00+01:00"^^xsd:dateTime
        ]
+     ] [
+       fhir:code [ fhir:v "status" ] ;
+       fhir:value [
+         a fhir:code ;
+         fhir:v "active"
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "19" ] ;
@@ -388,6 +517,12 @@
        fhir:value [
          a fhir:dateTime ;
          fhir:v "2018-05-31T12:00:00+01:00"^^xsd:dateTime
+       ]
+     ] [
+       fhir:code [ fhir:v "status" ] ;
+       fhir:value [
+         a fhir:code ;
+         fhir:v "active"
        ]
      ] )
   ] [
@@ -420,6 +555,18 @@
          a fhir:dateTime ;
          fhir:v "2018-05-31T12:00:00+01:00"^^xsd:dateTime
        ]
+     ] [
+       fhir:code [ fhir:v "deprecationDate" ] ;
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2018-05-31T12:00:00+01:00"^^xsd:dateTime
+       ]
+     ] [
+       fhir:code [ fhir:v "status" ] ;
+       fhir:value [
+         a fhir:code ;
+         fhir:v "deprecated"
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "21" ] ;
@@ -435,6 +582,12 @@
        fhir:value [
          a fhir:dateTime ;
          fhir:v "2018-05-31T12:00:00+01:00"^^xsd:dateTime
+       ]
+     ] [
+       fhir:code [ fhir:v "status" ] ;
+       fhir:value [
+         a fhir:code ;
+         fhir:v "active"
        ]
      ] )
   ] [
@@ -452,10 +605,16 @@
          a fhir:dateTime ;
          fhir:v "2019-03-29T12:00:00+01:00"^^xsd:dateTime
        ]
+     ] [
+       fhir:code [ fhir:v "status" ] ;
+       fhir:value [
+         a fhir:code ;
+         fhir:v "active"
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "23" ] ;
-     fhir:display [ fhir:v "Handicap à prédominance cognitive" ] ;
+     fhir:display [ fhir:v "Handicap cognitif spécifique" ] ;
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
        fhir:value [
@@ -466,7 +625,13 @@
        fhir:code [ fhir:v "dateMaj" ] ;
        fhir:value [
          a fhir:dateTime ;
-         fhir:v "2018-05-31T12:00:00+01:00"^^xsd:dateTime
+         fhir:v "2025-04-25T12:00:00+01:00"^^xsd:dateTime
+       ]
+     ] [
+       fhir:code [ fhir:v "status" ] ;
+       fhir:value [
+         a fhir:code ;
+         fhir:v "active"
        ]
      ] )
   ] [
@@ -493,6 +658,12 @@
          a fhir:dateTime ;
          fhir:v "2020-06-26T12:00:00+01:00"^^xsd:dateTime
        ]
+     ] [
+       fhir:code [ fhir:v "status" ] ;
+       fhir:value [
+         a fhir:code ;
+         fhir:v "active"
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "25" ] ;
@@ -509,6 +680,12 @@
          a fhir:dateTime ;
          fhir:v "2018-05-31T12:00:00+01:00"^^xsd:dateTime
        ]
+     ] [
+       fhir:code [ fhir:v "status" ] ;
+       fhir:value [
+         a fhir:code ;
+         fhir:v "active"
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "26" ] ;
@@ -524,6 +701,12 @@
        fhir:value [
          a fhir:dateTime ;
          fhir:v "2018-05-31T12:00:00+01:00"^^xsd:dateTime
+       ]
+     ] [
+       fhir:code [ fhir:v "status" ] ;
+       fhir:value [
+         a fhir:code ;
+         fhir:v "active"
        ]
      ] )
   ] [
@@ -550,6 +733,12 @@
          a fhir:dateTime ;
          fhir:v "2019-03-29T12:00:00+01:00"^^xsd:dateTime
        ]
+     ] [
+       fhir:code [ fhir:v "status" ] ;
+       fhir:value [
+         a fhir:code ;
+         fhir:v "active"
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "28" ] ;
@@ -575,6 +764,12 @@
          a fhir:dateTime ;
          fhir:v "2018-10-26T12:00:00+01:00"^^xsd:dateTime
        ]
+     ] [
+       fhir:code [ fhir:v "status" ] ;
+       fhir:value [
+         a fhir:code ;
+         fhir:v "active"
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "29" ] ;
@@ -590,6 +785,12 @@
        fhir:value [
          a fhir:dateTime ;
          fhir:v "2022-06-24T12:00:00+01:00"^^xsd:dateTime
+       ]
+     ] [
+       fhir:code [ fhir:v "status" ] ;
+       fhir:value [
+         a fhir:code ;
+         fhir:v "active"
        ]
      ] )
   ] [
@@ -607,6 +808,12 @@
          a fhir:dateTime ;
          fhir:v "2022-06-24T12:00:00+01:00"^^xsd:dateTime
        ]
+     ] [
+       fhir:code [ fhir:v "status" ] ;
+       fhir:value [
+         a fhir:code ;
+         fhir:v "active"
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "31" ] ;
@@ -622,6 +829,12 @@
        fhir:value [
          a fhir:dateTime ;
          fhir:v "2022-06-24T12:00:00+01:00"^^xsd:dateTime
+       ]
+     ] [
+       fhir:code [ fhir:v "status" ] ;
+       fhir:value [
+         a fhir:code ;
+         fhir:v "active"
        ]
      ] )
   ] [
@@ -639,6 +852,12 @@
          a fhir:dateTime ;
          fhir:v "2022-06-24T12:00:00+01:00"^^xsd:dateTime
        ]
+     ] [
+       fhir:code [ fhir:v "status" ] ;
+       fhir:value [
+         a fhir:code ;
+         fhir:v "active"
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "33" ] ;
@@ -654,6 +873,12 @@
        fhir:value [
          a fhir:dateTime ;
          fhir:v "2022-06-24T12:00:00+01:00"^^xsd:dateTime
+       ]
+     ] [
+       fhir:code [ fhir:v "status" ] ;
+       fhir:value [
+         a fhir:code ;
+         fhir:v "active"
        ]
      ] )
   ] [
@@ -671,6 +896,12 @@
          a fhir:dateTime ;
          fhir:v "2022-06-24T12:00:00+01:00"^^xsd:dateTime
        ]
+     ] [
+       fhir:code [ fhir:v "status" ] ;
+       fhir:value [
+         a fhir:code ;
+         fhir:v "active"
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "35" ] ;
@@ -686,6 +917,12 @@
        fhir:value [
          a fhir:dateTime ;
          fhir:v "2022-06-24T12:00:00+01:00"^^xsd:dateTime
+       ]
+     ] [
+       fhir:code [ fhir:v "status" ] ;
+       fhir:value [
+         a fhir:code ;
+         fhir:v "active"
        ]
      ] )
   ] [
@@ -703,6 +940,12 @@
          a fhir:dateTime ;
          fhir:v "2022-06-24T12:00:00+01:00"^^xsd:dateTime
        ]
+     ] [
+       fhir:code [ fhir:v "status" ] ;
+       fhir:value [
+         a fhir:code ;
+         fhir:v "active"
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "37" ] ;
@@ -718,6 +961,12 @@
        fhir:value [
          a fhir:dateTime ;
          fhir:v "2022-06-24T12:00:00+01:00"^^xsd:dateTime
+       ]
+     ] [
+       fhir:code [ fhir:v "status" ] ;
+       fhir:value [
+         a fhir:code ;
+         fhir:v "active"
        ]
      ] )
   ] [
@@ -735,6 +984,12 @@
          a fhir:dateTime ;
          fhir:v "2022-06-24T12:00:00+01:00"^^xsd:dateTime
        ]
+     ] [
+       fhir:code [ fhir:v "status" ] ;
+       fhir:value [
+         a fhir:code ;
+         fhir:v "active"
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "39" ] ;
@@ -750,6 +1005,12 @@
        fhir:value [
          a fhir:dateTime ;
          fhir:v "2022-06-24T12:00:00+01:00"^^xsd:dateTime
+       ]
+     ] [
+       fhir:code [ fhir:v "status" ] ;
+       fhir:value [
+         a fhir:code ;
+         fhir:v "active"
        ]
      ] )
   ] [
@@ -767,6 +1028,12 @@
          a fhir:dateTime ;
          fhir:v "2022-06-24T12:00:00+01:00"^^xsd:dateTime
        ]
+     ] [
+       fhir:code [ fhir:v "status" ] ;
+       fhir:value [
+         a fhir:code ;
+         fhir:v "active"
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "41" ] ;
@@ -782,6 +1049,12 @@
        fhir:value [
          a fhir:dateTime ;
          fhir:v "2022-06-24T12:00:00+01:00"^^xsd:dateTime
+       ]
+     ] [
+       fhir:code [ fhir:v "status" ] ;
+       fhir:value [
+         a fhir:code ;
+         fhir:v "active"
        ]
      ] )
   ] [
@@ -799,6 +1072,12 @@
          a fhir:dateTime ;
          fhir:v "2022-06-24T12:00:00+01:00"^^xsd:dateTime
        ]
+     ] [
+       fhir:code [ fhir:v "status" ] ;
+       fhir:value [
+         a fhir:code ;
+         fhir:v "active"
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "43" ] ;
@@ -814,6 +1093,12 @@
        fhir:value [
          a fhir:dateTime ;
          fhir:v "2022-06-24T12:00:00+01:00"^^xsd:dateTime
+       ]
+     ] [
+       fhir:code [ fhir:v "status" ] ;
+       fhir:value [
+         a fhir:code ;
+         fhir:v "active"
        ]
      ] )
   ] [
@@ -831,6 +1116,12 @@
          a fhir:dateTime ;
          fhir:v "2022-06-24T12:00:00+01:00"^^xsd:dateTime
        ]
+     ] [
+       fhir:code [ fhir:v "status" ] ;
+       fhir:value [
+         a fhir:code ;
+         fhir:v "active"
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "45" ] ;
@@ -846,6 +1137,12 @@
        fhir:value [
          a fhir:dateTime ;
          fhir:v "2022-06-24T12:00:00+01:00"^^xsd:dateTime
+       ]
+     ] [
+       fhir:code [ fhir:v "status" ] ;
+       fhir:value [
+         a fhir:code ;
+         fhir:v "active"
        ]
      ] )
   ] [
@@ -863,6 +1160,12 @@
          a fhir:dateTime ;
          fhir:v "2022-06-24T12:00:00+01:00"^^xsd:dateTime
        ]
+     ] [
+       fhir:code [ fhir:v "status" ] ;
+       fhir:value [
+         a fhir:code ;
+         fhir:v "active"
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "47" ] ;
@@ -878,6 +1181,12 @@
        fhir:value [
          a fhir:dateTime ;
          fhir:v "2022-06-24T12:00:00+01:00"^^xsd:dateTime
+       ]
+     ] [
+       fhir:code [ fhir:v "status" ] ;
+       fhir:value [
+         a fhir:code ;
+         fhir:v "active"
        ]
      ] )
   ] [
@@ -895,6 +1204,12 @@
          a fhir:dateTime ;
          fhir:v "2022-06-24T12:00:00+01:00"^^xsd:dateTime
        ]
+     ] [
+       fhir:code [ fhir:v "status" ] ;
+       fhir:value [
+         a fhir:code ;
+         fhir:v "active"
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "49" ] ;
@@ -910,6 +1225,12 @@
        fhir:value [
          a fhir:dateTime ;
          fhir:v "2022-06-24T12:00:00+01:00"^^xsd:dateTime
+       ]
+     ] [
+       fhir:code [ fhir:v "status" ] ;
+       fhir:value [
+         a fhir:code ;
+         fhir:v "active"
        ]
      ] )
   ] [
@@ -927,6 +1248,12 @@
          a fhir:dateTime ;
          fhir:v "2022-06-24T12:00:00+01:00"^^xsd:dateTime
        ]
+     ] [
+       fhir:code [ fhir:v "status" ] ;
+       fhir:value [
+         a fhir:code ;
+         fhir:v "active"
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "51" ] ;
@@ -942,6 +1269,12 @@
        fhir:value [
          a fhir:dateTime ;
          fhir:v "2022-06-24T12:00:00+01:00"^^xsd:dateTime
+       ]
+     ] [
+       fhir:code [ fhir:v "status" ] ;
+       fhir:value [
+         a fhir:code ;
+         fhir:v "active"
        ]
      ] )
   ] [
@@ -959,6 +1292,12 @@
          a fhir:dateTime ;
          fhir:v "2022-06-24T12:00:00+01:00"^^xsd:dateTime
        ]
+     ] [
+       fhir:code [ fhir:v "status" ] ;
+       fhir:value [
+         a fhir:code ;
+         fhir:v "active"
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "53" ] ;
@@ -974,6 +1313,12 @@
        fhir:value [
          a fhir:dateTime ;
          fhir:v "2022-06-24T12:00:00+01:00"^^xsd:dateTime
+       ]
+     ] [
+       fhir:code [ fhir:v "status" ] ;
+       fhir:value [
+         a fhir:code ;
+         fhir:v "active"
        ]
      ] )
   ] [
@@ -991,6 +1336,12 @@
          a fhir:dateTime ;
          fhir:v "2022-06-24T12:00:00+01:00"^^xsd:dateTime
        ]
+     ] [
+       fhir:code [ fhir:v "status" ] ;
+       fhir:value [
+         a fhir:code ;
+         fhir:v "active"
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "55" ] ;
@@ -1006,6 +1357,12 @@
        fhir:value [
          a fhir:dateTime ;
          fhir:v "2022-06-24T12:00:00+01:00"^^xsd:dateTime
+       ]
+     ] [
+       fhir:code [ fhir:v "status" ] ;
+       fhir:value [
+         a fhir:code ;
+         fhir:v "active"
        ]
      ] )
   ] [
@@ -1023,6 +1380,12 @@
          a fhir:dateTime ;
          fhir:v "2022-06-24T12:00:00+01:00"^^xsd:dateTime
        ]
+     ] [
+       fhir:code [ fhir:v "status" ] ;
+       fhir:value [
+         a fhir:code ;
+         fhir:v "active"
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "57" ] ;
@@ -1038,6 +1401,12 @@
        fhir:value [
          a fhir:dateTime ;
          fhir:v "2022-06-24T12:00:00+01:00"^^xsd:dateTime
+       ]
+     ] [
+       fhir:code [ fhir:v "status" ] ;
+       fhir:value [
+         a fhir:code ;
+         fhir:v "active"
        ]
      ] )
   ] [
@@ -1055,6 +1424,12 @@
          a fhir:dateTime ;
          fhir:v "2022-06-24T12:00:00+01:00"^^xsd:dateTime
        ]
+     ] [
+       fhir:code [ fhir:v "status" ] ;
+       fhir:value [
+         a fhir:code ;
+         fhir:v "active"
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "59" ] ;
@@ -1070,6 +1445,12 @@
        fhir:value [
          a fhir:dateTime ;
          fhir:v "2022-06-24T12:00:00+01:00"^^xsd:dateTime
+       ]
+     ] [
+       fhir:code [ fhir:v "status" ] ;
+       fhir:value [
+         a fhir:code ;
+         fhir:v "active"
        ]
      ] )
   ] [
@@ -1087,6 +1468,12 @@
          a fhir:dateTime ;
          fhir:v "2022-06-24T12:00:00+01:00"^^xsd:dateTime
        ]
+     ] [
+       fhir:code [ fhir:v "status" ] ;
+       fhir:value [
+         a fhir:code ;
+         fhir:v "active"
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "61" ] ;
@@ -1102,6 +1489,12 @@
        fhir:value [
          a fhir:dateTime ;
          fhir:v "2022-06-24T12:00:00+01:00"^^xsd:dateTime
+       ]
+     ] [
+       fhir:code [ fhir:v "status" ] ;
+       fhir:value [
+         a fhir:code ;
+         fhir:v "active"
        ]
      ] )
   ] [
@@ -1119,6 +1512,12 @@
          a fhir:dateTime ;
          fhir:v "2022-06-24T12:00:00+01:00"^^xsd:dateTime
        ]
+     ] [
+       fhir:code [ fhir:v "status" ] ;
+       fhir:value [
+         a fhir:code ;
+         fhir:v "active"
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "63" ] ;
@@ -1134,6 +1533,12 @@
        fhir:value [
          a fhir:dateTime ;
          fhir:v "2023-05-26T12:00:00+01:00"^^xsd:dateTime
+       ]
+     ] [
+       fhir:code [ fhir:v "status" ] ;
+       fhir:value [
+         a fhir:code ;
+         fhir:v "active"
        ]
      ] )
   ] [
@@ -1151,6 +1556,12 @@
          a fhir:dateTime ;
          fhir:v "2023-10-30T12:00:00+01:00"^^xsd:dateTime
        ]
+     ] [
+       fhir:code [ fhir:v "status" ] ;
+       fhir:value [
+         a fhir:code ;
+         fhir:v "active"
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "65" ] ;
@@ -1166,6 +1577,12 @@
        fhir:value [
          a fhir:dateTime ;
          fhir:v "2024-01-26T12:00:00+01:00"^^xsd:dateTime
+       ]
+     ] [
+       fhir:code [ fhir:v "status" ] ;
+       fhir:value [
+         a fhir:code ;
+         fhir:v "active"
        ]
      ] )
   ] [
@@ -1192,6 +1609,12 @@
          a fhir:dateTime ;
          fhir:v "2024-06-28T12:00:00+01:00"^^xsd:dateTime
        ]
+     ] [
+       fhir:code [ fhir:v "status" ] ;
+       fhir:value [
+         a fhir:code ;
+         fhir:v "active"
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "67" ] ;
@@ -1207,6 +1630,12 @@
        fhir:value [
          a fhir:dateTime ;
          fhir:v "2024-04-26T12:00:00+01:00"^^xsd:dateTime
+       ]
+     ] [
+       fhir:code [ fhir:v "status" ] ;
+       fhir:value [
+         a fhir:code ;
+         fhir:v "active"
        ]
      ] )
   ] [
@@ -1232,6 +1661,12 @@
        fhir:value [
          a fhir:dateTime ;
          fhir:v "2024-10-25T12:00:00+01:00"^^xsd:dateTime
+       ]
+     ] [
+       fhir:code [ fhir:v "status" ] ;
+       fhir:value [
+         a fhir:code ;
+         fhir:v "active"
        ]
      ] )
   ] ) . # 

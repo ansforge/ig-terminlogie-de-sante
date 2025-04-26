@@ -2,7 +2,7 @@
 <RetrieveValueSetResponse xmlns="urn:ihe:iti:svs:2008"
                           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
    <ValueSet dateFin=""
-             dateMaj="20250328120000"
+             dateMaj="20250425120000"
              dateValid="20150408000000"
              description="Activite Operationnelle"
              displayName="TRE_R211_ActiviteOperationnelle"
@@ -850,11 +850,11 @@
          <Concept code="094"
                   codeSystem="1.2.250.1.213.3.3.12"
                   dateFin=""
-                  dateMaj="20150408000000"
+                  dateMaj="20250425120000"
                   dateValid="20150408000000"
-                  displayName="Néonatologie"
-                  longDesignation="Néonatologie"
-                  shortDesignation="Néonatologie"
+                  displayName="Néonatalogie"
+                  longDesignation="Néonatalogie"
+                  shortDesignation="Néonatalogie"
                   descriptionMetier=""/>
          <Concept code="095"
                   codeSystem="1.2.250.1.213.3.3.12"
@@ -4233,8 +4233,8 @@
                   descriptionMetier="Partie de la chirurgie qui traite les déformations des os, des articulations, des muscles et des tendons et répare ceux qui sont abîmés au cours d'un accident (traumatisme) qui prends en charge les lésions du membre supérieur en excluant la main."/>
          <Concept code="470"
                   codeSystem="1.2.250.1.213.3.3.12"
-                  dateFin=""
-                  dateMaj="20221028120000"
+                  dateFin="20250425120000"
+                  dateMaj="20250425120000"
                   dateValid="20220624120000"
                   displayName="Chirurgie orthopédique et traumatologique spécialisée tumeur"
                   longDesignation="Chirurgie orthopédique et traumatologique spécialisée tumeur"
@@ -5238,6 +5238,15 @@
                   displayName="Interventions éducatives pour renforcer l’autorégulation"
                   longDesignation="Interventions éducatives pour renforcer l’autorégulation"
                   shortDesignation="Interventions éducatives pour renforcer l’autorégulation"
+                  descriptionMetier=""/>
+         <Concept code="582"
+                  codeSystem="1.2.250.1.213.3.3.12"
+                  dateFin=""
+                  dateMaj="20250425120000"
+                  dateValid="20250425120000"
+                  displayName="Orientation vers professionnel pour diagnostic"
+                  longDesignation="Orientation vers professionnel pour diagnostic"
+                  shortDesignation="Orientation vers professionnel pour diagnostic"
                   descriptionMetier=""/>
       </ConceptList>
    </ValueSet>

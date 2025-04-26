@@ -2,7 +2,7 @@
 <RetrieveValueSetResponse xmlns="urn:ihe:iti:svs:2008"
                           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
    <ValueSet dateFin=""
-             dateMaj="20241025120000"
+             dateMaj="20250425120000"
              dateValid="20171013120000"
              description="Spécialisation de prise en charge - ROR"
              displayName="JDV_J35_SpecialisationDePriseEnCharge_ROR"
@@ -72,7 +72,7 @@
                   displayName="Déficience à prédominance motrice"/>
          <Concept code="23"
                   codeSystem="1.2.250.1.213.3.3.41"
-                  displayName="Handicap à prédominance cognitive"/>
+                  displayName="Handicap cognitif spécifique"/>
          <Concept code="24"
                   codeSystem="1.2.250.1.213.3.3.41"
                   displayName="Handicap à prédominance cognitive avec trouble du comportement (dont traumatisé crânien, syndrome de Korsakoff,...)"/>

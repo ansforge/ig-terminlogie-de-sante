@@ -2,7 +2,7 @@
 <RetrieveValueSetResponse xmlns="urn:ihe:iti:svs:2008"
                           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
    <ValueSet dateFin=""
-             dateMaj="20241025120000"
+             dateMaj="20250425120000"
              dateValid="20200626120000"
              description="Code des rôles et fonctions pour l'application ENREG"
              displayName="JDV_J121_RolePriseCharge_ENREG"
@@ -67,6 +67,9 @@
          <Concept code="329"
                   codeSystem="1.2.250.1.213.1.6.1.107"
                   displayName="Conseiller en génétique"/>
+         <Concept code="330"
+                  codeSystem="1.2.250.1.213.1.6.1.107"
+                  displayName="Coordonnateur de parcours"/>
          <Concept code="331"
                   codeSystem="1.2.250.1.213.1.6.1.107"
                   displayName="Secrétaire assistante médico-administrative"/>
@@ -166,12 +169,15 @@
          <Concept code="368"
                   codeSystem="1.2.250.1.213.1.6.1.107"
                   displayName="Animateur"/>
-         <Concept code="369"
-                  codeSystem="1.2.250.1.213.1.6.1.107"
-                  displayName="Biologiste médical non-médecin"/>
          <Concept code="370"
                   codeSystem="1.2.250.1.213.1.6.1.107"
                   displayName="Opérateur de Soins Non Programmés"/>
+         <Concept code="371"
+                  codeSystem="1.2.250.1.213.1.6.1.107"
+                  displayName="Aide à domicile qualifié(e)"/>
+         <Concept code="372"
+                  codeSystem="1.2.250.1.213.1.6.1.107"
+                  displayName="Aide à domicile"/>
       </ConceptList>
    </ValueSet>
 </RetrieveValueSetResponse>

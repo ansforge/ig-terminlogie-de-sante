@@ -2,7 +2,7 @@
 <RetrieveValueSetResponse xmlns="urn:ihe:iti:svs:2008"
                           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
    <ValueSet dateFin=""
-             dateMaj="20250328120000"
+             dateMaj="20250425120000"
              dateValid="20160901000000"
              description="Equipement spécifique - ROR"
              displayName="JDV_J18_EquipementSpecifique_ROR"
@@ -126,10 +126,10 @@
                   displayName="Appareil d'isocinétisme"/>
          <Concept code="103"
                   codeSystem="1.2.250.1.213.3.3.10"
-                  displayName="Assistant robotisé à la marche"/>
+                  displayName="Assistance robotisée à la marche"/>
          <Concept code="104"
                   codeSystem="1.2.250.1.213.3.3.10"
-                  displayName="Assistant robotisé des membres supérieurs et de la préhension"/>
+                  displayName="Assistance robotisée des membres supérieurs et de la préhension"/>
          <Concept code="106"
                   codeSystem="1.2.250.1.213.3.3.10"
                   displayName="Laboratoire d'analyse tridimensionnelle du mouvement, de la marche"/>
@@ -464,6 +464,9 @@
          <Concept code="228"
                   codeSystem="1.2.250.1.213.3.3.10"
                   displayName="Plateau de rééducation intensive des membres inférieurs"/>
+         <Concept code="229"
+                  codeSystem="1.2.250.1.213.3.3.10"
+                  displayName="Douche accessible aux personnes en fauteuil roulant"/>
       </ConceptList>
    </ValueSet>
 </RetrieveValueSetResponse>

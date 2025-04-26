@@ -18,7 +18,7 @@
   fhir:name [ fhir:v "Terminologies"] ; # 
   fhir:title [ fhir:v "Terminologies  de Santé"] ; # 
   fhir:status [ fhir:v "active"] ; # 
-  fhir:date [ fhir:v "2025-04-25T04:20:36+00:00"^^xsd:dateTime] ; # 
+  fhir:date [ fhir:v "2025-04-26T04:18:45+00:00"^^xsd:dateTime] ; # 
   fhir:publisher [ fhir:v "ANS"] ; # 
   fhir:contact ( [
      fhir:name [ fhir:v "ANS" ] ;
@@ -49081,6 +49081,24 @@
          ]
        ] ) ;
        fhir:reference [
+         fhir:link <https://interop.esante.gouv.fr/terminologies/ValueSet/JDV-J369-MotifRestrictionDiffusion-ROR> ;
+         fhir:reference [ fhir:v "ValueSet/JDV-J369-MotifRestrictionDiffusion-ROR" ]
+       ] ;
+       fhir:name [ fhir:v "JDV_J369_MotifRestrictionDiffusion_ROR" ] ;
+       fhir:description [ fhir:v "Nomenclature contenant les motifs de restriction de diffusion" ] ;
+       fhir:example [
+         a fhir:boolean ;
+         fhir:v false
+       ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [
+           a fhir:string ;
+           fhir:v "ValueSet"
+         ]
+       ] ) ;
+       fhir:reference [
          fhir:link <https://interop.esante.gouv.fr/terminologies/ValueSet/JDV-J36-TypeTarif-ROR> ;
          fhir:reference [ fhir:v "ValueSet/JDV-J36-TypeTarif-ROR" ]
        ] ;
@@ -53834,7 +53852,7 @@
          fhir:reference [ fhir:v "CodeSystem/TRE-R368-StatutRessource" ]
        ] ;
        fhir:name [ fhir:v "TRE_R368_StatutRessource" ] ;
-       fhir:description [ fhir:v "Caractérise le statut du processus d'évaluation de l'autonomie de l'usager par un professionnel de santé ou par lui-même lors d'une auto évaluation" ] ;
+       fhir:description [ fhir:v "Caractérise le statut d'une ressource du médico-social au cours de son cycle de vie" ] ;
        fhir:example [
          a fhir:boolean ;
          fhir:v false
@@ -53907,6 +53925,24 @@
        ] ;
        fhir:name [ fhir:v "TRE_R38_SpecialiteOrdinale" ] ;
        fhir:description [ fhir:v "Spécialité ordinale" ] ;
+       fhir:example [
+         a fhir:boolean ;
+         fhir:v false
+       ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [
+           a fhir:string ;
+           fhir:v "CodeSystem"
+         ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <https://interop.esante.gouv.fr/terminologies/CodeSystem/TRE-R391-MotifRestrictionDiffusion> ;
+         fhir:reference [ fhir:v "CodeSystem/TRE-R391-MotifRestrictionDiffusion" ]
+       ] ;
+       fhir:name [ fhir:v "TRE_R391_MotifRestrictionDiffusion" ] ;
+       fhir:description [ fhir:v "Nomenclature contenant les motifs de restriction de diffusion" ] ;
        fhir:example [
          a fhir:boolean ;
          fhir:v false

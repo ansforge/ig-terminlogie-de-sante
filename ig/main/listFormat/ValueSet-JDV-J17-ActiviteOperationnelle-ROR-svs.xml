@@ -2,7 +2,7 @@
 <RetrieveValueSetResponse xmlns="urn:ihe:iti:svs:2008"
                           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
    <ValueSet dateFin=""
-             dateMaj="20250328120000"
+             dateMaj="20250425120000"
              dateValid="20160901000000"
              description="Activité Operationnelle - ROR"
              displayName="JDV_J17_ActiviteOperationnelle_ROR"
@@ -205,7 +205,7 @@
                   displayName="Microbiologie"/>
          <Concept code="094"
                   codeSystem="1.2.250.1.213.3.3.12"
-                  displayName="Néonatologie"/>
+                  displayName="Néonatalogie"/>
          <Concept code="095"
                   codeSystem="1.2.250.1.213.3.3.12"
                   displayName="Néphrologie"/>
@@ -1181,9 +1181,6 @@
          <Concept code="469"
                   codeSystem="1.2.250.1.213.3.3.12"
                   displayName="Chirurgie orthopédique et traumatologique spécialisée membres supérieurs (sauf la main)"/>
-         <Concept code="470"
-                  codeSystem="1.2.250.1.213.3.3.12"
-                  displayName="Chirurgie orthopédique et traumatologique spécialisée tumeur"/>
          <Concept code="471"
                   codeSystem="1.2.250.1.213.3.3.12"
                   displayName="Orientation vers un médecin traitant acceptant de nouveaux patients"/>
@@ -1514,6 +1511,9 @@
          <Concept code="581"
                   codeSystem="1.2.250.1.213.3.3.12"
                   displayName="Interventions éducatives pour renforcer l'autorégulation"/>
+         <Concept code="582"
+                  codeSystem="1.2.250.1.213.3.3.12"
+                  displayName="Orientation vers professionnel pour diagnostic"/>
       </ConceptList>
    </ValueSet>
 </RetrieveValueSetResponse>

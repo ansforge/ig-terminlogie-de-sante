@@ -134,7 +134,7 @@
     },
     {
       "url" : "https://mos.esante.gouv.fr/NOS/JDV_J07-XdsTypeCode-CISIS/FHIR/JDV-J07-XdsTypeCode-CISIS",
-      "version" : "20240927120000",
+      "version" : "20250425120000",
       "status" : "active",
       "name" : "JDV_J07_XdsTypeCode_CISIS",
       "title" : null,
@@ -231,7 +231,7 @@
     },
     {
       "url" : "https://mos.esante.gouv.fr/NOS/JDV_J105-EnsembleDiplome-RASS/FHIR/JDV-J105-EnsembleDiplome-RASS",
-      "version" : "20241213120000",
+      "version" : "20250425120000",
       "status" : "active",
       "name" : "JDV_J105_EnsembleDiplome_RASS",
       "title" : null,
@@ -481,7 +481,7 @@
     },
     {
       "url" : "https://mos.esante.gouv.fr/NOS/JDV_J121-RolePriseCharge-ENREG/FHIR/JDV-J121-RolePriseCharge-ENREG",
-      "version" : "20241025120000",
+      "version" : "20250425120000",
       "status" : "active",
       "name" : "JDV_J121_RolePriseCharge_ENREG",
       "title" : null,
@@ -947,7 +947,7 @@
     },
     {
       "url" : "https://mos.esante.gouv.fr/NOS/JDV_J154-TypeGlucose-ENS/FHIR/JDV-J154-TypeGlucose-ENS",
-      "version" : "20240927120000",
+      "version" : "20250425120000",
       "status" : "active",
       "name" : "JDV_J154_TypeGlucose_ENS",
       "title" : null,
@@ -986,7 +986,7 @@
     },
     {
       "url" : "https://mos.esante.gouv.fr/NOS/JDV_J157-MomentGlucose-ENS/FHIR/JDV-J157-MomentGlucose-ENS",
-      "version" : "20240927120000",
+      "version" : "20250425120000",
       "status" : "active",
       "name" : "JDV_J157_MomentGlucose_ENS",
       "title" : null,
@@ -1022,7 +1022,7 @@
     },
     {
       "url" : "https://mos.esante.gouv.fr/NOS/JDV_J16-ActeSpecifique-ROR/FHIR/JDV-J16-ActeSpecifique-ROR",
-      "version" : "20250328120000",
+      "version" : "20250425120000",
       "status" : "active",
       "name" : "JDV_J16_ActeSpecifique_ROR",
       "title" : null,
@@ -1150,7 +1150,7 @@
     },
     {
       "url" : "https://mos.esante.gouv.fr/NOS/JDV_J17-ActiviteOperationnelle-ROR/FHIR/JDV-J17-ActiviteOperationnelle-ROR",
-      "version" : "20250328120000",
+      "version" : "20250425120000",
       "status" : "active",
       "name" : "JDV_J17_ActiviteOperationnelle_ROR",
       "title" : null,
@@ -1271,7 +1271,7 @@
     },
     {
       "url" : "https://mos.esante.gouv.fr/NOS/JDV_J18-EquipementSpecifique-ROR/FHIR/JDV-J18-EquipementSpecifique-ROR",
-      "version" : "20250328120000",
+      "version" : "20250425120000",
       "status" : "active",
       "name" : "JDV_J18_EquipementSpecifique_ROR",
       "title" : null,
@@ -1355,14 +1355,13 @@
     },
     {
       "url" : "https://mos.esante.gouv.fr/NOS/JDV_J186-ProfessionRessource-ROR/FHIR/JDV-J186-ProfessionRessource-ROR",
-      "version" : "20250131120000",
+      "version" : "20250425120000",
       "status" : "active",
       "name" : "JDV_J186_ProfessionRessource_ROR",
       "title" : null,
       "description" : "Profession Ressource des offres dans le ROR",
       "systems" : [
         "https://mos.esante.gouv.fr/NOS/TRE_R85-RolePriseCharge/FHIR/TRE-R85-RolePriseCharge",
-        "https://mos.esante.gouv.fr/NOS/TRE_G16-ProfessionFormation/FHIR/TRE-G16-ProfessionFormation",
         "https://mos.esante.gouv.fr/NOS/TRE_R95-UsagerTitre/FHIR/TRE-R95-UsagerTitre",
         "https://mos.esante.gouv.fr/NOS/TRE_G15-ProfessionSante/FHIR/TRE-G15-ProfessionSante",
         "https://mos.esante.gouv.fr/NOS/TRE_R94-ProfessionSocial/FHIR/TRE-R94-ProfessionSocial",
@@ -1934,7 +1933,7 @@
     },
     {
       "url" : "https://mos.esante.gouv.fr/NOS/JDV_J226-ModaliteAccueil-ROR/FHIR/JDV-J226-ModaliteAccueil-ROR",
-      "version" : "20250131120000",
+      "version" : "20250425120000",
       "status" : "active",
       "name" : "JDV_J226_ModaliteAccueil_ROR",
       "title" : null,
@@ -1947,7 +1946,7 @@
     },
     {
       "url" : "https://mos.esante.gouv.fr/NOS/JDV_J227-NiveauExpertise-ROR/FHIR/JDV-J227-NiveauExpertise-ROR",
-      "version" : "20250131120000",
+      "version" : "20250425120000",
       "status" : "active",
       "name" : "JDV_J227_NiveauExpertise_ROR",
       "title" : null,
@@ -2026,7 +2025,7 @@
     },
     {
       "url" : "https://mos.esante.gouv.fr/NOS/JDV_J233-TypeDiplome-EPARS/FHIR/JDV-J233-TypeDiplome-EPARS",
-      "version" : "20220729120000",
+      "version" : "20250425120000",
       "status" : "active",
       "name" : "JDV_J233_TypeDiplome_EPARS",
       "title" : null,
@@ -2095,7 +2094,7 @@
     },
     {
       "url" : "https://mos.esante.gouv.fr/NOS/JDV_J238-TypeOffre-ROR/FHIR/JDV-J238-TypeOffre-ROR",
-      "version" : "20250328120000",
+      "version" : "20250425120000",
       "status" : "active",
       "name" : "JDV_J238_TypeOffre_ROR",
       "title" : null,
@@ -2533,7 +2532,7 @@
     },
     {
       "url" : "https://mos.esante.gouv.fr/NOS/JDV_J281-StatutsRessourcesMS/FHIR/JDV-J281-StatutsRessourcesMS",
-      "version" : "20240927120000",
+      "version" : "20250425120000",
       "status" : "active",
       "name" : "JDV_J281_StatutsRessourcesMS",
       "title" : null,
@@ -2668,7 +2667,7 @@
     },
     {
       "url" : "https://mos.esante.gouv.fr/NOS/JDV_J34-CategorieOrganisation-ROR/FHIR/JDV-J34-CategorieOrganisation-ROR",
-      "version" : "20250328120000",
+      "version" : "20250425120000",
       "status" : "active",
       "name" : "JDV_J34_CategorieOrganisation_ROR",
       "title" : null,
@@ -2681,7 +2680,7 @@
     },
     {
       "url" : "https://mos.esante.gouv.fr/NOS/JDV_J35-SpecialisationDePriseEnCharge-ROR/FHIR/JDV-J35-SpecialisationDePriseEnCharge-ROR",
-      "version" : "20241025120000",
+      "version" : "20250425120000",
       "status" : "active",
       "name" : "JDV_J35_SpecialisationDePriseEnCharge_ROR",
       "title" : null,
@@ -2705,6 +2704,19 @@
       ],
       "oids" : ["1.2.250.1.213.3.3.44"],
       "sources" : ["1.2.250.1.213.3.3.44"]
+    },
+    {
+      "url" : "https://mos.esante.gouv.fr/NOS/JDV_J369-MotifRestrictionDiffusion-ROR/FHIR/JDV-J369-MotifRestrictionDiffusion-ROR",
+      "version" : "20250425120000",
+      "status" : "active",
+      "name" : "JDV_J369_MotifRestrictionDiffusion_ROR",
+      "title" : null,
+      "description" : "Nomenclature contenant les motifs de restriction de diffusion",
+      "systems" : [
+        "https://mos.esante.gouv.fr/NOS/TRE_R391-MotifRestrictionDiffusion/FHIR/TRE-R391-MotifRestrictionDiffusion"
+      ],
+      "oids" : ["1.2.250.1.213.3.4.222"],
+      "sources" : ["1.2.250.1.213.3.4.222"]
     },
     {
       "url" : "https://mos.esante.gouv.fr/NOS/JDV_J37-UcumUniteTemps/FHIR/JDV-J37-UcumUniteTemps",
@@ -2879,14 +2891,13 @@
     },
     {
       "url" : "https://mos.esante.gouv.fr/NOS/JDV_J54-Profession-ROR/FHIR/JDV-J54-Profession-ROR",
-      "version" : "20200626120000",
+      "version" : "20250425120000",
       "status" : "active",
       "name" : "JDV_J54_Profession_ROR",
       "title" : null,
       "description" : "Profession de santé - ROR",
       "systems" : [
         "https://mos.esante.gouv.fr/NOS/TRE_R85-RolePriseCharge/FHIR/TRE-R85-RolePriseCharge",
-        "https://mos.esante.gouv.fr/NOS/TRE_G16-ProfessionFormation/FHIR/TRE-G16-ProfessionFormation",
         "https://mos.esante.gouv.fr/NOS/TRE_R95-UsagerTitre/FHIR/TRE-R95-UsagerTitre",
         "https://mos.esante.gouv.fr/NOS/TRE_G15-ProfessionSante/FHIR/TRE-G15-ProfessionSante",
         "https://mos.esante.gouv.fr/NOS/TRE_R94-ProfessionSocial/FHIR/TRE-R94-ProfessionSocial",
@@ -2897,7 +2908,7 @@
     },
     {
       "url" : "https://mos.esante.gouv.fr/NOS/JDV_J55-CategorieEG-ROR/FHIR/JDV-J55-CategorieEG-ROR",
-      "version" : "20241025120000",
+      "version" : "20250425120000",
       "status" : "active",
       "name" : "JDV_J55_CategorieEG_ROR",
       "title" : null,

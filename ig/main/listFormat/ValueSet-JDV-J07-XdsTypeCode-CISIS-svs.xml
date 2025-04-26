@@ -2,7 +2,7 @@
 <RetrieveValueSetResponse xmlns="urn:ihe:iti:svs:2008"
                           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
    <ValueSet dateFin=""
-             dateMaj="20240927120000"
+             dateMaj="20250425120000"
              dateValid="20130123000000"
              description="XDS typeCode CI-SIS"
              displayName="JDV_J07_XdsTypeCode_CISIS"
@@ -167,6 +167,9 @@
          <Concept code="34875-5"
                   codeSystem=""
                   displayName="Évaluation postopératoire et note de suivi"/>
+         <Concept code="34876-3"
+                  codeSystem=""
+                  displayName="Évaluation préopératoire et note de suivi"/>
          <Concept code="47420-5" codeSystem="" displayName="CR de bilan fonctionnel"/>
          <Concept code="51851-4" codeSystem="" displayName="Document administratif"/>
          <Concept code="51969-4"
@@ -208,6 +211,9 @@
                   displayName="Intervention pharmaceutique"/>
          <Concept code="67851-6" codeSystem="" displayName="CR d'admission"/>
          <Concept code="68599-0" codeSystem="" displayName="Synthèse psychiatrique"/>
+         <Concept code="68814-3"
+                  codeSystem=""
+                  displayName="Note d'évaluation pédiatrique"/>
          <Concept code="68817-6"
                   codeSystem=""
                   displayName="Bilan de santé et de prévention de l'enfant"/>

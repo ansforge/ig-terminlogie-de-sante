@@ -10,7 +10,7 @@
   "name" : "Terminologies",
   "title" : "Terminologies  de Santé",
   "status" : "active",
-  "date" : "2025-04-25T04:20:36+00:00",
+  "date" : "2025-04-26T04:18:45+00:00",
   "publisher" : "ANS",
   "contact" : [{
     "name" : "ANS",
@@ -35692,6 +35692,18 @@
         "valueString" : "ValueSet"
       }],
       "reference" : {
+        "reference" : "ValueSet/JDV-J369-MotifRestrictionDiffusion-ROR"
+      },
+      "name" : "JDV_J369_MotifRestrictionDiffusion_ROR",
+      "description" : "Nomenclature contenant les motifs de restriction de diffusion",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      }],
+      "reference" : {
         "reference" : "ValueSet/JDV-J36-TypeTarif-ROR"
       },
       "name" : "JDV_J36_TypeTarif_ROR",
@@ -38860,7 +38872,7 @@
         "reference" : "CodeSystem/TRE-R368-StatutRessource"
       },
       "name" : "TRE_R368_StatutRessource",
-      "description" : "Caractérise le statut du processus d'évaluation de l'autonomie de l'usager par un professionnel de santé ou par lui-même lors d'une auto évaluation",
+      "description" : "Caractérise le statut d'une ressource du médico-social au cours de son cycle de vie",
       "exampleBoolean" : false
     },
     {
@@ -38909,6 +38921,18 @@
       },
       "name" : "TRE_R38_SpecialiteOrdinale",
       "description" : "Spécialité ordinale",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "CodeSystem"
+      }],
+      "reference" : {
+        "reference" : "CodeSystem/TRE-R391-MotifRestrictionDiffusion"
+      },
+      "name" : "TRE_R391_MotifRestrictionDiffusion",
+      "description" : "Nomenclature contenant les motifs de restriction de diffusion",
       "exampleBoolean" : false
     },
     {

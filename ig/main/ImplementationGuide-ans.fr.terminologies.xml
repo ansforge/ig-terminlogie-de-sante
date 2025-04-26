@@ -11,7 +11,7 @@
   <name value="Terminologies"/>
   <title value="Terminologies  de Santé"/>
   <status value="active"/>
-  <date value="2025-04-25T04:20:36+00:00"/>
+  <date value="2025-04-26T04:18:45+00:00"/>
   <publisher value="ANS"/>
   <contact>
     <name value="ANS"/>
@@ -26529,6 +26529,17 @@
         <valueString value="ValueSet"/>
       </extension>
       <reference>
+        <reference value="ValueSet/JDV-J369-MotifRestrictionDiffusion-ROR"/>
+      </reference>
+      <name value="JDV_J369_MotifRestrictionDiffusion_ROR"/>
+      <description value="Nomenclature contenant les motifs de restriction de diffusion"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
         <reference value="ValueSet/JDV-J36-TypeTarif-ROR"/>
       </reference>
       <name value="JDV_J36_TypeTarif_ROR"/>
@@ -29433,7 +29444,7 @@
         <reference value="CodeSystem/TRE-R368-StatutRessource"/>
       </reference>
       <name value="TRE_R368_StatutRessource"/>
-      <description value="Caractérise le statut du processus d'évaluation de l'autonomie de l'usager par un professionnel de santé ou par lui-même lors d'une auto évaluation"/>
+      <description value="Caractérise le statut d'une ressource du médico-social au cours de son cycle de vie"/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -29478,6 +29489,17 @@
       </reference>
       <name value="TRE_R38_SpecialiteOrdinale"/>
       <description value="Spécialité ordinale"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="CodeSystem"/>
+      </extension>
+      <reference>
+        <reference value="CodeSystem/TRE-R391-MotifRestrictionDiffusion"/>
+      </reference>
+      <name value="TRE_R391_MotifRestrictionDiffusion"/>
+      <description value="Nomenclature contenant les motifs de restriction de diffusion"/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
