@@ -1,7 +1,7 @@
 {
   "version" : "0.1.0-ballot",
   "fhirVersion" : ["4.0.1"],
-  "date" : "20250427041916",
+  "date" : "20250428042029",
   "name" : "ans.fr.terminologies",
   "jurisdiction" : "urn:iso:std:iso:3166#FR"
 }
