@@ -1,10 +1,12 @@
 Terminologies : Validation Results
 =========================================
 
-err = 374, warn = 10380, info = 959
+err = 387, warn = 10382, info = 965
 IG Publisher Version: 1.8.25
-Generated Mon Apr 28 04:31:09 UTC 2025. FHIR version 4.0.1 for ans.fr.terminologies#0.1.0-ballot (canonical = https://interop.esante.gouv.fr/terminologies)
+Generated Tue Apr 29 04:30:34 UTC 2025. FHIR version 4.0.1 for ans.fr.terminologies#0.1.0-ballot (canonical = https://interop.esante.gouv.fr/terminologies)
  Build Errors : 400 / 16 / 0
+ /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/DM/fsh-generated/resources/CodeSystem-tre-r389-statut-bilan-projet-personnalise : 2 / 1 / 4
+ /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/DM/fsh-generated/resources/CodeSystem-tre-r390-type-projet-personnalise : 2 / 1 / 4
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/DM/fsh-generated/resources/ConceptMap-ASS-A11-CorresModeleCDA-XdsFormatCode-CISIS : 0 / 0 / 1
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/DM/fsh-generated/resources/ConceptMap-ASS-A12-CorresMediaTypeCDANonStructure-XdsFormatCode-CISIS : 0 / 0 / 1
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/DM/fsh-generated/resources/ConceptMap-ASS-A13-TypeEvenement-FluxStandardise : 0 / 1 / 1
@@ -36,6 +38,9 @@ Generated Mon Apr 28 04:31:09 UTC 2025. FHIR version 4.0.1 for ans.fr.terminolog
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/DM/fsh-generated/resources/ValueSet-JDV-J120-CommuneHistorisee : 0 / 0 / 1
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/DM/fsh-generated/resources/ValueSet-JDV-J124-Commune : 1 / 0 / 0
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/DM/fsh-generated/resources/ValueSet-TRE-R222-MediaTypeCorpsCDANonStructure-all : 0 / 0 / 1
+ /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/DM/fsh-generated/resources/ValueSet-jdv-j366-statut-bilan-projet-personnalise-ms : 3 / 0 / 1
+ /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/DM/fsh-generated/resources/ValueSet-jdv-j367-type-projet-personnalise-ms : 3 / 0 / 1
+ /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/DM/fsh-generated/resources/ValueSet-jdv-j368-categorie-etablissement-cisis : 3 / 0 / 1
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/DM/fsh-generated/resources/ValueSet-jdv-modele-document-cda : 0 / 0 / 1
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/DM/fsh-generated/resources/ValueSet-jdv-tre-r221-modele-document-cda-non-structure-all : 0 / 0 / 1
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/fsh-generated/resources/ImplementationGuide-ans.fr.terminologies : 0 / 0 / 1
@@ -999,6 +1004,20 @@ ERROR: /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSou
 ERROR: /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/output/downloads.html#/html/body/div/div/div/div/div/ul/li/a at Line 208, column 8: The link 'definitions.xml.zip' for "XML Definitions (zip)" cannot be resolved
 ERROR: /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/output/downloads.html#/html/body/div/div/div/div/div/ul/li/a at Line 209, column 8: The link 'examples.ttl.zip' for "XML Exemples (zip)" cannot be resolved
 ERROR: /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/output/downloads.html#/html/body/div/div/div/div/div/ul/li/a at Line 210, column 8: The link 'definitions.ttl.zip' for "Turtle Définitions" cannot be resolved
+== DM/fsh-generated/resources/CodeSystem-tre-r389-statut-bilan-projet-personnalise.json ==
+ERROR: CodeSystem.where(url = 'https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r389-statut-bilan-projet-personnalise'): Conformance resource /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/DM/fsh-generated/resources/CodeSystem-tre-r389-statut-bilan-projet-personnalise.json - the canonical URL (https://interop.esante.gouv.fr/terminologies/CodeSystem/tre-r389-statut-bilan-projet-personnalise) does not match the URL (https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r389-statut-bilan-projet-personnalise)
+WARNING: CodeSystem/tre-r389-statut-bilan-projet-personnalise: CodeSystem.valueSet: Canonical URL 'https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r389-statuts-bilan-projet-personnalise?vs' does not resolve
+INFORMATION: CodeSystem/tre-r389-statut-bilan-projet-personnalise: CodeSystem.property[0]: This property has only a code ('dateValid') and not a URI, so it has no clearly defined meaning in the terminology ecosystem
+INFORMATION: CodeSystem/tre-r389-statut-bilan-projet-personnalise: CodeSystem.property[1]: This property has only a code ('dateMaj') and not a URI, so it has no clearly defined meaning in the terminology ecosystem
+INFORMATION: CodeSystem/tre-r389-statut-bilan-projet-personnalise: CodeSystem.property[2]: This property has only a code ('dateFin') and not a URI, so it has no clearly defined meaning in the terminology ecosystem
+ERROR: /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/DM/fsh-generated/resources/CodeSystem-tre-r389-statut-bilan-projet-personnalise: URL Mismatch https://interop.esante.gouv.fr/terminologies/CodeSystem/tre-r389-statut-bilan-projet-personnalise vs https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r389-statut-bilan-projet-personnalise
+== DM/fsh-generated/resources/CodeSystem-tre-r390-type-projet-personnalise.json ==
+ERROR: CodeSystem.where(url = 'https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r390-type-projet-personnalise'): Conformance resource /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/DM/fsh-generated/resources/CodeSystem-tre-r390-type-projet-personnalise.json - the canonical URL (https://interop.esante.gouv.fr/terminologies/CodeSystem/tre-r390-type-projet-personnalise) does not match the URL (https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r390-type-projet-personnalise)
+WARNING: CodeSystem/tre-r390-type-projet-personnalise: CodeSystem.valueSet: Canonical URL 'https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r390-type-projet-personnalise?vs' does not resolve
+INFORMATION: CodeSystem/tre-r390-type-projet-personnalise: CodeSystem.property[0]: This property has only a code ('dateValid') and not a URI, so it has no clearly defined meaning in the terminology ecosystem
+INFORMATION: CodeSystem/tre-r390-type-projet-personnalise: CodeSystem.property[1]: This property has only a code ('dateMaj') and not a URI, so it has no clearly defined meaning in the terminology ecosystem
+INFORMATION: CodeSystem/tre-r390-type-projet-personnalise: CodeSystem.property[2]: This property has only a code ('dateFin') and not a URI, so it has no clearly defined meaning in the terminology ecosystem
+ERROR: /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/DM/fsh-generated/resources/CodeSystem-tre-r390-type-projet-personnalise: URL Mismatch https://interop.esante.gouv.fr/terminologies/CodeSystem/tre-r390-type-projet-personnalise vs https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r390-type-projet-personnalise
 == DM/fsh-generated/resources/ConceptMap-ASS-A11-CorresModeleCDA-XdsFormatCode-CISIS.json ==
 == DM/fsh-generated/resources/ConceptMap-ASS-A12-CorresMediaTypeCDANonStructure-XdsFormatCode-CISIS.json ==
 == DM/fsh-generated/resources/ConceptMap-ASS-A13-TypeEvenement-FluxStandardise.json ==
@@ -1067,6 +1086,18 @@ INFORMATION: ValueSet.where(id = 'JDV-J120-CommuneHistorisee'): The value set ex
 == DM/fsh-generated/resources/ValueSet-JDV-J124-Commune.json ==
 ERROR: ValueSet.where(id = 'JDV-J124-Commune'): Error from https://smt.esante.gouv.fr/fhir: Error: Filter operator EXISTS is not supported for property dateFin on code system https://mos.esante.gouv.fr/NOS/TRE_R13-CommuneOM/FHIR/TRE-R13-CommuneOM Available filter operators are: in,=
 == DM/fsh-generated/resources/ValueSet-TRE-R222-MediaTypeCorpsCDANonStructure-all.json ==
+== DM/fsh-generated/resources/ValueSet-jdv-j366-statut-bilan-projet-personnalise-ms.json ==
+ERROR: ValueSet.where(url = 'https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j366-statut-bilan-projet-personnalise-ms'): Conformance resource /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/DM/fsh-generated/resources/ValueSet-jdv-j366-statut-bilan-projet-personnalise-ms.json - the canonical URL (https://interop.esante.gouv.fr/terminologies/ValueSet/jdv-j366-statut-bilan-projet-personnalise-ms) does not match the URL (https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j366-statut-bilan-projet-personnalise-ms)
+ERROR: ValueSet/jdv-j366-statut-bilan-projet-personnalise-ms: ValueSet.compose.include[0].filter[0]: The value for a filter based on property 'status' must be a valid code from the system 'https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r389-statut-bilan-projet-personnalise', and 'active' is not (Unknown code 'active' in the CodeSystem 'https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r389-statut-bilan-projet-personnalise' version '20250418120000')
+ERROR: /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/DM/fsh-generated/resources/ValueSet-jdv-j366-statut-bilan-projet-personnalise-ms: URL Mismatch https://interop.esante.gouv.fr/terminologies/ValueSet/jdv-j366-statut-bilan-projet-personnalise-ms vs https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j366-statut-bilan-projet-personnalise-ms
+== DM/fsh-generated/resources/ValueSet-jdv-j367-type-projet-personnalise-ms.json ==
+ERROR: ValueSet.where(url = 'https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j367-type-projet-personnalise-ms'): Conformance resource /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/DM/fsh-generated/resources/ValueSet-jdv-j367-type-projet-personnalise-ms.json - the canonical URL (https://interop.esante.gouv.fr/terminologies/ValueSet/jdv-j367-type-projet-personnalise-ms) does not match the URL (https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j367-type-projet-personnalise-ms)
+ERROR: ValueSet/jdv-j367-type-projet-personnalise-ms: ValueSet.compose.include[0].filter[0]: The value for a filter based on property 'status' must be a valid code from the system 'https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r390-type-projet-personnalise', and 'active' is not (Unknown code 'active' in the CodeSystem 'https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r390-type-projet-personnalise' version '20250422120000')
+ERROR: /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/DM/fsh-generated/resources/ValueSet-jdv-j367-type-projet-personnalise-ms: URL Mismatch https://interop.esante.gouv.fr/terminologies/ValueSet/jdv-j367-type-projet-personnalise-ms vs https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j367-type-projet-personnalise-ms
+== DM/fsh-generated/resources/ValueSet-jdv-j368-categorie-etablissement-cisis.json ==
+ERROR: ValueSet.where(url = 'https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j368-categorie-etablissement-cisis'): Conformance resource /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/DM/fsh-generated/resources/ValueSet-jdv-j368-categorie-etablissement-cisis.json - the canonical URL (https://interop.esante.gouv.fr/terminologies/ValueSet/jdv-j368-categorie-etablissement-cisis) does not match the URL (https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j368-categorie-etablissement-cisis)
+ERROR: ValueSet/jdv-j368-categorie-etablissement-cisis: ValueSet.compose.include[0].filter[0]: The value for a filter based on property 'status' must be a valid code from the system 'https://mos.esante.gouv.fr/NOS/TRE_R66-CategorieEtablissement/FHIR/TRE-R66-CategorieEtablissement', and 'active' is not (Unknown code 'active' in the CodeSystem 'https://mos.esante.gouv.fr/NOS/TRE_R66-CategorieEtablissement/FHIR/TRE-R66-CategorieEtablissement' version '20250425120000')
+ERROR: /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/DM/fsh-generated/resources/ValueSet-jdv-j368-categorie-etablissement-cisis: URL Mismatch https://interop.esante.gouv.fr/terminologies/ValueSet/jdv-j368-categorie-etablissement-cisis vs https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j368-categorie-etablissement-cisis
 == DM/fsh-generated/resources/ValueSet-jdv-modele-document-cda.json ==
 == DM/fsh-generated/resources/ValueSet-jdv-tre-r221-modele-document-cda-non-structure-all.json ==
 == fsh-generated/resources/ImplementationGuide-ans.fr.terminologies.json ==

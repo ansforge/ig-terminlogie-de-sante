@@ -2278,6 +2278,24 @@
       "oids" : ["1.2.250.1.213.1.6.1.111"]
     },
     {
+      "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r389-statut-bilan-projet-personnalise",
+      "version" : "20250418120000",
+      "status" : "active",
+      "name" : "TreR389StatutBilanProjetPersonnalise",
+      "title" : "Tre R389 Statut Bilan Projet Personnalise",
+      "description" : "Statut du bilan du projet personnalisé.",
+      "oids" : ["1.2.250.1.213.3.3.257"]
+    },
+    {
+      "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r390-type-projet-personnalise",
+      "version" : "20250422120000",
+      "status" : "active",
+      "name" : "TreR390TypeProjetPersonnalise",
+      "title" : "Tre R390 Type Projet Personnalise",
+      "description" : "Cette nomenclature donne le type de projet personnalisé qui est un document co-construit par l'usager, son entourage familial et professionnel du médico-social.",
+      "oids" : ["1.2.250.1.213.3.3.258"]
+    },
+    {
       "url" : "https://smt.esante.gouv.fr/terminologie-SERAFINPH",
       "version" : "2023.1.0",
       "status" : "active",

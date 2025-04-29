@@ -159,7 +159,7 @@
     "id" : "ASS-A32-StatutMotifPersonnePriseCharge",
     "type" : "ConceptMap",
     "url" : "https://mos.esante.gouv.fr/NOS/ASS_A32-StatutMotifPersonnePriseCharge/FHIR/ASS-A32-StatutMotifPersonnePriseCharge",
-    "version" : "20240726120000",
+    "version" : "20250411120000",
     "name" : "ASS_A32_StatutMotifPersonnePriseCharge"
   },
   {
@@ -187,7 +187,7 @@
     "id" : "ASS-X04-CorrespondanceType-Classe-CISIS",
     "type" : "ConceptMap",
     "url" : "https://mos.esante.gouv.fr/NOS/ASS_X04-CorrespondanceType-Classe-CISIS/FHIR/ASS-X04-CorrespondanceType-Classe-CISIS",
-    "version" : "20240426120000",
+    "version" : "20250415120000",
     "name" : "ASS_X04_CorrespondanceType_Classe_CISIS"
   },
   {
@@ -4348,6 +4348,22 @@
     "oids" : ["1.2.250.1.213.1.6.1.111"]
   },
   {
+    "id" : "tre-r389-statut-bilan-projet-personnalise",
+    "type" : "CodeSystem",
+    "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r389-statut-bilan-projet-personnalise",
+    "version" : "20250418120000",
+    "name" : "TreR389StatutBilanProjetPersonnalise",
+    "oids" : ["1.2.250.1.213.3.3.257"]
+  },
+  {
+    "id" : "tre-r390-type-projet-personnalise",
+    "type" : "CodeSystem",
+    "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r390-type-projet-personnalise",
+    "version" : "20250422120000",
+    "name" : "TreR390TypeProjetPersonnalise",
+    "oids" : ["1.2.250.1.213.3.3.258"]
+  },
+  {
     "id" : "alignement-nuva-atc",
     "type" : "ConceptMap",
     "url" : "https://smt.esante.gouv.fr/fhir/ConceptMap/alignement-nuva-atc",
@@ -4367,6 +4383,30 @@
     "url" : "https://smt.esante.gouv.fr/fhir/ConceptMap/alignement-nuva-cipucd",
     "version" : "1.0.895",
     "name" : "Alignement_Codes_CIP_NUVA_CIPUCD"
+  },
+  {
+    "id" : "jdv-j366-statut-bilan-projet-personnalise-ms",
+    "type" : "ValueSet",
+    "url" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j366-statut-bilan-projet-personnalise-ms",
+    "version" : "20250415120000",
+    "name" : "JdvJ366StatutBilanProjetPersonnaliseMs",
+    "oids" : ["1.2.250.1.213.3.4.220"]
+  },
+  {
+    "id" : "jdv-j367-type-projet-personnalise-ms",
+    "type" : "ValueSet",
+    "url" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j367-type-projet-personnalise-ms",
+    "version" : "20250422120000",
+    "name" : "JdvJ367TypeProjetPersonnaliseMs",
+    "oids" : ["1.2.250.1.213.3.4.221"]
+  },
+  {
+    "id" : "jdv-j368-categorie-etablissement-cisis",
+    "type" : "ValueSet",
+    "url" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j368-categorie-etablissement-cisis",
+    "version" : "20250422120000",
+    "name" : "JdvJ368CategorieEtablissementCisis",
+    "oids" : ["1.2.250.1.213.1.1.5.823"]
   },
   {
     "id" : "terminologie-SERAFINPH",

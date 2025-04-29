@@ -11,7 +11,7 @@
   <name value="Terminologies"/>
   <title value="Terminologies  de Santé"/>
   <status value="active"/>
-  <date value="2025-04-28T04:20:29+00:00"/>
+  <date value="2025-04-29T04:19:05+00:00"/>
   <publisher value="ANS"/>
   <contact>
     <name value="ANS"/>
@@ -24285,6 +24285,39 @@
         <valueString value="ValueSet"/>
       </extension>
       <reference>
+        <reference value="ValueSet/jdv-j366-statut-bilan-projet-personnalise-ms"/>
+      </reference>
+      <name value="Jdv J366 Statut Bilan Projet Personnalise Ms"/>
+      <description value="Statut du bilan du projet personnalisé."/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/jdv-j367-type-projet-personnalise-ms"/>
+      </reference>
+      <name value="Jdv J367 Type Projet Personnalise Ms"/>
+      <description value="Cette nomenclature donne le type de projet personnalisé qui est un document co-construit par l'usager, son entourage familial et professionnel du médico-social."/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/jdv-j368-categorie-etablissement-cisis"/>
+      </reference>
+      <name value="Jdv J368 Categorie Etablissement Cisis"/>
+      <description value="JDV à l'image de l'ensemble des valeurs actives de la terminologie TRE_R66-CategorieEtablissement"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
         <reference value="ValueSet/JDV-J69-ActiviteOperationnelle-Santefr"/>
       </reference>
       <name value="JDV J69 ActiviteOperationnelle Santefr"/>
@@ -27257,6 +27290,28 @@
       </reference>
       <name value="Standard Terms Data Base Dictionnaire européen multilingue de termes normalisés descripteurs de médicaments"/>
       <description value="Les standard terms (ou listes de termes normalisés) ont été établis en réponse à une demande de la Commission européenne. Ils contiennent les formes pharmaceutiques, les voies et/ou les méthodes d’administration, les unités de présentation, ainsi que les conditionnements, les systèmes de fermeture et les dispositifs d’administration des médicaments à usage humain et/ou vétérinaire."/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="CodeSystem"/>
+      </extension>
+      <reference>
+        <reference value="CodeSystem/tre-r389-statut-bilan-projet-personnalise"/>
+      </reference>
+      <name value="Tre R389 Statut Bilan Projet Personnalise"/>
+      <description value="Statut du bilan du projet personnalisé."/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="CodeSystem"/>
+      </extension>
+      <reference>
+        <reference value="CodeSystem/tre-r390-type-projet-personnalise"/>
+      </reference>
+      <name value="Tre R390 Type Projet Personnalise"/>
+      <description value="Cette nomenclature donne le type de projet personnalisé qui est un document co-construit par l'usager, son entourage familial et professionnel du médico-social."/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
