@@ -2,8 +2,8 @@
   "resourceType" : "CodeSystem",
   "id" : "terminologie-SERAFINPH",
   "meta" : {
-    "versionId" : "1.1741862495566",
-    "lastUpdated" : "2025-03-13T10:41:35.566+00:00",
+    "versionId" : "1.1746434824553",
+    "lastUpdated" : "2025-05-05T08:47:04.553+00:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablecodesystem"]
   },
   "text" : {
