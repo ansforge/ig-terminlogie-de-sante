@@ -4434,7 +4434,7 @@
     "id" : "terminologie-bdpm",
     "type" : "CodeSystem",
     "url" : "https://smt.esante.gouv.fr/terminologie-bdpm",
-    "version" : "2025-04-01",
+    "version" : "2025-05-05",
     "name" : "BDPM"
   },
   {
