@@ -1,22 +1,22 @@
-CodeSystem: TreRXXXTypeactSmsseRegulee
-Id: tre-rXXX-typeact-smsse-regulee
-Title: "Tre RXXX Typeact Smsse Regulee"
-Description: ""
+CodeSystem: TreR392TypeActSmsseRegulee
+Id: tre-r392-type-act-smsse-regulee
+Title: "Tre R392 Type Act Smsse Regulee"
+Description: "Type activité SMSSE régulée"
 * ^meta.versionId = "1"
 * ^meta.lastUpdated = "2025-04-30T14:11:19.571+00:00"
 * ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablecodesystem"
 * ^extension.url = "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod"
 * ^extension.valuePeriod.start = "2025-04-30T00:00:00+01:00"
-* ^url = "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-rXXX-typeact-smsse-regulee"
+* ^url = "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r392-type-act-smsse-regulee"
 * ^identifier.system = "urn:ietf:rfc:3986"
-* ^identifier.value = "urn:oid:"
+* ^identifier.value = "urn:oid:1.2.250.1.213.1.6.1.374"
 * ^version = "20250430120000"
 * ^status = #active
 * ^experimental = false
 * ^date = "2025-02-20"
 * ^publisher = "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris"
 * ^caseSensitive = false
-* ^valueSet = "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-rXXX-typeact-smsse-regulee?vs"
+* ^valueSet = "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r392-type-act-smsse-regulee?vs"
 * ^content = #complete
 * ^hierarchyMeaning = #is-a
 * ^property[0].code = #parent
