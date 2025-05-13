@@ -1075,7 +1075,8 @@ Description: "Type activité SMSSE régulée"
 * #147 ^property[=].valueDateTime = "2025-04-30T00:00:00+01:00"
 * #147 ^property[+].code = #dateMaj
 * #147 ^property[=].valueDateTime = "2025-04-30T00:00:00+01:00"
-* #147 ^property[+].code = #status^property[=].valueCode = #active
+* #147 ^property[+].code = #status
+* #147 ^property[=].valueCode = #active
 * #148 "ASR/S1/09/34"
 * #148 ^property[0].code = #dateValid
 * #148 ^property[=].valueDateTime = "2025-04-30T00:00:00+01:00"
@@ -1798,7 +1799,7 @@ Description: "Type activité SMSSE régulée"
 * #250 ^property[+].code = #status
 * #250 ^property[=].valueCode = #active
 * #251 "AS/17/51/00"
-*#251 ^property[0].code = #dateValid
+* #251 ^property[0].code = #dateValid
 * #251 ^property[=].valueDateTime = "2025-04-30T00:00:00+01:00"
 * #251 ^property[+].code = #dateMaj
 * #251 ^property[=].valueDateTime = "2025-04-30T00:00:00+01:00"
@@ -1819,7 +1820,7 @@ Description: "Type activité SMSSE régulée"
 * #253 ^property[+].code = #status
 * #253 ^property[=].valueCode = #active
 * #254 "AS/17/59/00"
-*#254 ^property[0].code = #dateValid
+* #254 ^property[0].code = #dateValid
 * #254 ^property[=].valueDateTime = "2025-04-30T00:00:00+01:00"
 * #254 ^property[+].code = #dateMaj
 * #254 ^property[=].valueDateTime = "2025-04-30T00:00:00+01:00"
@@ -2314,7 +2315,7 @@ Description: "Type activité SMSSE régulée"
 * #324 ^property[+].code = #dateMaj
 * #324 ^property[=].valueDateTime = "2025-04-30T00:00:00+01:00"
 * #324 ^property[+].code = #status
-* #324^property[=].valueCode = #active
+* #324 ^property[=].valueCode = #active
 * #325 "AS/53/77/05"
 * #325 ^property[0].code = #dateValid
 * #325 ^property[=].valueDateTime = "2025-04-30T00:00:00+01:00"
@@ -2337,7 +2338,7 @@ Description: "Type activité SMSSE régulée"
 * #327 ^property[+].code = #status
 * #327 ^property[=].valueCode = #active
 * #328 "AS/53/78/05"
-*#328 ^property[0].code = #dateValid
+* #328 ^property[0].code = #dateValid
 * #328 ^property[=].valueDateTime = "2025-04-30T00:00:00+01:00"
 * #328 ^property[+].code = #dateMaj
 * #328 ^property[=].valueDateTime = "2025-04-30T00:00:00+01:00"
@@ -2783,7 +2784,7 @@ Description: "Type activité SMSSE régulée"
 * #391 ^property[+].code = #dateMaj
 * #391 ^property[=].valueDateTime = "2025-04-30T00:00:00+01:00"
 * #391 ^property[+].code = #status
-*#391 ^property[=].valueCode = #active
+* #391 ^property[=].valueCode = #active
 * #392 "AS/59/09/01"
 * #392 ^property[0].code = #dateValid
 * #392 ^property[=].valueDateTime = "2025-04-30T00:00:00+01:00"
@@ -3076,7 +3077,8 @@ Description: "Type activité SMSSE régulée"
 * #433 ^property[=].valueDateTime = "2025-04-30T00:00:00+01:00"
 * #433 ^property[+].code = #dateMaj
 * #433 ^property[=].valueDateTime = "2025-04-30T00:00:00+01:00"
-* #433 ^property[+].code = #status^property[=].valueCode = #active
+* #433 ^property[+].code = #status
+* #433 ^property[=].valueCode = #active
 * #434 "AASA/A4/M6/00"
 * #434 ^property[0].code = #dateValid
 * #434 ^property[=].valueDateTime = "2025-04-30T00:00:00+01:00"
@@ -3134,7 +3136,7 @@ Description: "Type activité SMSSE régulée"
 * #441 ^property[+].code = #status
 * #441 ^property[=].valueCode = #active
 * #442 "AASA/A5/31/21"
-*#442 ^property[0].code = #dateValid
+* #442 ^property[0].code = #dateValid
 * #442 ^property[=].valueDateTime = "2025-04-30T00:00:00+01:00"
 * #442 ^property[+].code = #dateMaj
 * #442 ^property[=].valueDateTime = "2025-04-30T00:00:00+01:00"
@@ -3238,7 +3240,7 @@ Description: "Type activité SMSSE régulée"
 * #456 ^property[=].valueDateTime = "2025-04-30T00:00:00+01:00"
 * #456 ^property[+].code = #status
 * #456 ^property[=].valueCode = #active
-* #457 "AMM/QA002/MO006/ME000/PTS16/DE023"*
+* #457 "AMM/QA002/MO006/ME000/PTS16/DE023"
 * #457 ^property[0].code = #dateValid
 * #457 ^property[=].valueDateTime = "2025-04-30T00:00:00+01:00"
 * #457 ^property[+].code = #dateMaj
@@ -3986,7 +3988,7 @@ Description: "Type activité SMSSE régulée"
 * #563 ^property[+].code = #dateMaj
 * #563 ^property[=].valueDateTime = "2025-04-30T00:00:00+01:00"
 * #563 ^property[+].code = #status
-* #563^property[=].valueCode = #active
+* #563 ^property[=].valueCode = #active
 * #564 "AMM/QA018/MO008/ME029/PTS00/DE000"
 * #564 ^property[0].code = #dateValid
 * #564 ^property[=].valueDateTime = "2025-04-30T00:00:00+01:00"
@@ -4645,7 +4647,7 @@ Description: "Type activité SMSSE régulée"
 * #658 ^property[=].valueDateTime = "2025-04-30T00:00:00+01:00"
 * #658 ^property[+].code = #status
 * #658 ^property[=].valueCode = #active
-* #659 "ASDR/023/09/990"*
+* #659 "ASDR/023/09/990"
 * #659 ^property[0].code = #dateValid
 * #659 ^property[=].valueDateTime = "2025-04-30T00:00:00+01:00"
 * #659 ^property[+].code = #dateMaj
@@ -4792,10 +4794,13 @@ Description: "Type activité SMSSE régulée"
 * #679 ^property[=].valueDateTime = "2025-04-30T00:00:00+01:00"
 * #679 ^property[+].code = #status
 * #679 ^property[=].valueCode = #active
-* #680 "ASDR/053/09/990"*#680 ^property[0].code = #dateValid
+* #680 "ASDR/053/09/990"
+* #680 ^property[0].code = #dateValid
 * #680 ^property[=].valueDateTime = "2025-04-30T00:00:00+01:00"
 * #680 ^property[+].code = #dateMaj
-* #680 ^property[=].valueDateTime = "2025-04-30T00:00:00+01:00"#680 ^property[+].code = #status^property[=].valueCode = #active
+* #680 ^property[=].valueDateTime = "2025-04-30T00:00:00+01:00"
+* #680 ^property[+].code = #status
+* #680 ^property[=].valueCode = #active
 * #681 "ASDR/055/03/990"
 * #681 ^property[0].code = #dateValid
 * #681 ^property[=].valueDateTime = "2025-04-30T00:00:00+01:00"
@@ -5013,7 +5018,7 @@ Description: "Type activité SMSSE régulée"
 * #711 ^property[=].valueDateTime = "2025-04-30T00:00:00+01:00"
 * #711 ^property[+].code = #status
 * #711 ^property[=].valueCode = #active
-* #712 "ASDR/085/26/990"*
+* #712 "ASDR/085/26/990"
 * #712 ^property[0].code = #dateValid
 * #712 ^property[=].valueDateTime = "2025-04-30T00:00:00+01:00"
 * #712 ^property[+].code = #dateMaj
@@ -5145,7 +5150,7 @@ Description: "Type activité SMSSE régulée"
 * #730 ^property[+].code = #dateMaj
 * #730 ^property[=].valueDateTime = "2025-04-30T00:00:00+01:00"
 * #730 ^property[+].code = #status
-* #730^property[=].valueCode = #active
+* #730 ^property[=].valueCode = #active
 * #731 "ASDR/101/03/990"
 * #731 ^property[0].code = #dateValid
 * #731 ^property[=].valueDateTime = "2025-04-30T00:00:00+01:00"
@@ -6124,7 +6129,8 @@ Description: "Type activité SMSSE régulée"
 * #870 ^property[=].valueDateTime = "2025-04-30T00:00:00+01:00"
 * #870 ^property[+].code = #dateMaj
 * #870 ^property[=].valueDateTime = "2025-04-30T00:00:00+01:00"
-* #870 ^property[+].code = #status^property[=].valueCode = #active
+* #870 ^property[+].code = #status
+* #870 ^property[=].valueCode = #active
 * #871 "ASDR/159/03/990"
 * #871 ^property[0].code = #dateValid
 * #871 ^property[=].valueDateTime = "2025-04-30T00:00:00+01:00"
@@ -6691,7 +6697,7 @@ Description: "Type activité SMSSE régulée"
 * #951 ^property[+].code = #dateMaj
 * #951 ^property[=].valueDateTime = "2025-04-30T00:00:00+01:00"
 * #951 ^property[+].code = #status
- *#951 ^property[=].valueCode = #active
+* #951 ^property[=].valueCode = #active
 * #952 "ASDR/187/20/990"
 * #952 ^property[0].code = #dateValid
 * #952 ^property[=].valueDateTime = "2025-04-30T00:00:00+01:00"
@@ -7816,7 +7822,7 @@ Description: "Type activité SMSSE régulée"
 * #1113 ^property[0].code = #dateValid
 * #1113 ^property[=].valueDateTime = "2025-04-30T00:00:00+01:00"
 * #1113 ^property[+].code = #dateMaj
-* #1113 ^property[=].valueDateTime = "2025-04-30T00:00:00+01:00""
+* #1113 ^property[=].valueDateTime = "2025-04-30T00:00:00+01:00"
 * #1113 ^property[+].code = #status
 * #1113 ^property[=].valueCode = #active
 * #1114 "ASDR/396/07/990" 
