@@ -134,7 +134,7 @@ Description: "Nomenclature des activités sanitaires utilisée pour décrire les
 * #0230 ^designation.value = "Gynéco. Obstétrique"
 * #0230 ^property[0].code = #parent
 * #0230 ^property[=].valueCode = #0200
-* #0230 ^property[0].code = #dateValid
+* #0230 ^property[+].code = #dateValid
 * #0230 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
 * #0230 ^property[+].code = #dateMaj
 * #0230 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
@@ -160,7 +160,7 @@ Description: "Nomenclature des activités sanitaires utilisée pour décrire les
 * #0260 ^designation.value = "Soins Suite Réadap."
 * #0260 ^property[0].code = #parent
 * #0260 ^property[=].valueCode = #0200
-* #0260 ^property[0].code = #dateValid
+* #0260 ^property[+].code = #dateValid
 * #0260 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
 * #0260 ^property[+].code = #dateMaj
 * #0260 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
@@ -175,7 +175,7 @@ Description: "Nomenclature des activités sanitaires utilisée pour décrire les
 * #0270 ^designation.value = "Soins Longue Durée"
 * #0270 ^property[0].code = #parent
 * #0270 ^property[=].valueCode = #0200
-* #0270 ^property[0].code = #dateValid
+* #0270 ^property[+].code = #dateValid
 * #0270 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
 * #0270 ^property[+].code = #dateMaj
 * #0270 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
@@ -201,7 +201,7 @@ Description: "Nomenclature des activités sanitaires utilisée pour décrire les
 * #0290 ^designation.value = "Psy.Infanto-juvénile"
 * #0290 ^property[0].code = #parent
 * #0290 ^property[=].valueCode = #0200
-* #0290 ^property[0].code = #dateValid
+* #0290 ^property[+].code = #dateValid
 * #0290 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
 * #0290 ^property[+].code = #dateMaj
 * #0290 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
@@ -236,7 +236,7 @@ Description: "Nomenclature des activités sanitaires utilisée pour décrire les
 * #0330 ^designation.value = "Hospit. Gynéco.Obst."
 * #0330 ^property[0].code = #parent
 * #0330 ^property[=].valueCode = #0300
-* #0330 ^property[0].code = #dateValid
+* #0330 ^property[+].code = #dateValid
 * #0330 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
 * #0330 ^property[+].code = #dateMaj
 * #0330 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
@@ -249,7 +249,7 @@ Description: "Nomenclature des activités sanitaires utilisée pour décrire les
 * #0340 ^designation.value = "Prév.Proph. Conseil"
 * #0340 ^property[0].code = #parent
 * #0340 ^property[=].valueCode = #0300
-* #0340 ^property[0].code = #dateValid
+* #0340 ^property[+].code = #dateValid
 * #0340 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
 * #0340 ^property[+].code = #dateMaj
 * #0340 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
@@ -262,7 +262,7 @@ Description: "Nomenclature des activités sanitaires utilisée pour décrire les
 * #0350 ^designation.value = "Aide Insuff. Resp."
 * #0350 ^property[0].code = #parent
 * #0350 ^property[=].valueCode = #0300
-* #0350 ^property[0].code = #dateValid
+* #0350 ^property[+].code = #dateValid
 * #0350 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
 * #0350 ^property[+].code = #dateMaj
 * #0350 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
@@ -275,7 +275,7 @@ Description: "Nomenclature des activités sanitaires utilisée pour décrire les
 * #0360 ^designation.value = "Autres Trait.Spé.Dom"
 * #0360 ^property[0].code = #parent
 * #0360 ^property[=].valueCode = #0300
-* #0360 ^property[0].code = #dateValid
+* #0360 ^property[+].code = #dateValid
 * #0360 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
 * #0360 ^property[+].code = #dateMaj
 * #0360 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
@@ -290,7 +290,7 @@ Description: "Nomenclature des activités sanitaires utilisée pour décrire les
 * #0370 ^designation.value = "psychiatrie HCS"
 * #0370 ^property[0].code = #parent
 * #0370 ^property[=].valueCode = #0300
-* #0370 ^property[0].code = #dateValid
+* #0370 ^property[+].code = #dateValid
 * #0370 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
 * #0370 ^property[+].code = #dateMaj
 * #0370 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
@@ -303,7 +303,7 @@ Description: "Nomenclature des activités sanitaires utilisée pour décrire les
 * #0380 ^designation.value = "Cures thermales"
 * #0380 ^property[0].code = #parent
 * #0380 ^property[=].valueCode = #0300
-* #0380 ^property[0].code = #dateValid
+* #0380 ^property[+].code = #dateValid
 * #0380 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
 * #0380 ^property[+].code = #dateMaj
 * #0380 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
@@ -316,7 +316,7 @@ Description: "Nomenclature des activités sanitaires utilisée pour décrire les
 * #0410 ^designation.value = "Blocs Opératoires"
 * #0410 ^property[0].code = #parent
 * #0410 ^property[=].valueCode = #0400
-* #0410 ^property[0].code = #dateValid
+* #0410 ^property[+].code = #dateValid
 * #0410 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
 * #0410 ^property[+].code = #dateMaj
 * #0410 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
@@ -331,7 +331,7 @@ Description: "Nomenclature des activités sanitaires utilisée pour décrire les
 * #0420 ^designation.value = "Anesthésiologie"
 * #0420 ^property[0].code = #parent
 * #0420 ^property[=].valueCode = #0400
-* #0420 ^property[0].code = #dateValid
+* #0420 ^property[+].code = #dateValid
 * #0420 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
 * #0420 ^property[+].code = #dateMaj
 * #0420 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
@@ -342,7 +342,7 @@ Description: "Nomenclature des activités sanitaires utilisée pour décrire les
 * #0430 "Imagerie"
 * #0430 ^property[0].code = #parent
 * #0430 ^property[=].valueCode = #0400
-* #0430 ^property[0].code = #dateValid
+* #0430 ^property[+].code = #dateValid
 * #0430 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
 * #0430 ^property[+].code = #dateMaj
 * #0430 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
@@ -353,7 +353,7 @@ Description: "Nomenclature des activités sanitaires utilisée pour décrire les
 * #0440 "Radiothérapie"
 * #0440 ^property[0].code = #parent
 * #0440 ^property[=].valueCode = #0400
-* #0440 ^property[0].code = #dateValid
+* #0440 ^property[+].code = #dateValid
 * #0440 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
 * #0440 ^property[+].code = #dateMaj
 * #0440 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
@@ -368,7 +368,7 @@ Description: "Nomenclature des activités sanitaires utilisée pour décrire les
 * #0450 ^designation.value = "Explo. Fonctionnelle"
 * #0450 ^property[0].code = #parent
 * #0450 ^property[=].valueCode = #0400
-* #0450 ^property[0].code = #dateValid
+* #0450 ^property[+].code = #dateValid
 * #0450 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
 * #0450 ^property[+].code = #dateMaj
 * #0450 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
@@ -383,7 +383,7 @@ Description: "Nomenclature des activités sanitaires utilisée pour décrire les
 * #0460 ^designation.value = "Techn.Rééduc.Réadapt"
 * #0460 ^property[0].code = #parent
 * #0460 ^property[=].valueCode = #0400
-* #0460 ^property[0].code = #dateValid
+* #0460 ^property[+].code = #dateValid
 * #0460 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
 * #0460 ^property[+].code = #dateMaj
 * #0460 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
@@ -398,7 +398,7 @@ Description: "Nomenclature des activités sanitaires utilisée pour décrire les
 * #0470 ^designation.value = "Ana.Méd. Biologiques"
 * #0470 ^property[0].code = #parent
 * #0470 ^property[=].valueCode = #0400
-* #0470 ^property[0].code = #dateValid
+* #0470 ^property[+].code = #dateValid
 * #0470 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
 * #0470 ^property[+].code = #dateMaj
 * #0470 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
@@ -411,7 +411,7 @@ Description: "Nomenclature des activités sanitaires utilisée pour décrire les
 * #0480 ^designation.value = "Pharmacie Biens Méd."
 * #0480 ^property[0].code = #parent
 * #0480 ^property[=].valueCode = #0400
-* #0480 ^property[0].code = #dateValid
+* #0480 ^property[+].code = #dateValid
 * #0480 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
 * #0480 ^property[+].code = #dateMaj
 * #0480 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
@@ -453,7 +453,7 @@ Description: "Nomenclature des activités sanitaires utilisée pour décrire les
 * #0610 "Services Extérieurs"
 * #0610 ^property[0].code = #parent
 * #0610 ^property[=].valueCode = #0600
-* #0610 ^property[0].code = #dateValid
+* #0610 ^property[+].code = #dateValid
 * #0610 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
 * #0610 ^property[+].code = #dateMaj
 * #0610 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
@@ -468,7 +468,7 @@ Description: "Nomenclature des activités sanitaires utilisée pour décrire les
 * #0620 ^designation.value = "Transp. des Malades"
 * #0620 ^property[0].code = #parent
 * #0620 ^property[=].valueCode = #0600
-* #0620 ^property[0].code = #dateValid
+* #0620 ^property[+].code = #dateValid
 * #0620 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
 * #0620 ^property[+].code = #dateMaj
 * #0620 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
@@ -481,7 +481,7 @@ Description: "Nomenclature des activités sanitaires utilisée pour décrire les
 * #0630 ^designation.value = "Stock.Org.Prdts.Hum."
 * #0630 ^property[0].code = #parent
 * #0630 ^property[=].valueCode = #0600
-* #0630 ^property[0].code = #dateValid
+* #0630 ^property[+].code = #dateValid
 * #0630 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
 * #0630 ^property[+].code = #dateMaj
 * #0630 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
@@ -494,7 +494,7 @@ Description: "Nomenclature des activités sanitaires utilisée pour décrire les
 * #0640 ^designation.value = "Enseig. et Recherche"
 * #0640 ^property[0].code = #parent
 * #0640 ^property[=].valueCode = #0600
-* #0640 ^property[0].code = #dateValid
+* #0640 ^property[+].code = #dateValid
 * #0640 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
 * #0640 ^property[+].code = #dateMaj
 * #0640 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
@@ -503,10 +503,9 @@ Description: "Nomenclature des activités sanitaires utilisée pour décrire les
 * #0640 ^property[+].code = #retirementDate
 * #0640 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
 * #0660 "Autres Disciplines"
-* #0660 ^designation.language = #fr-FR
 * #0660 ^property[0].code = #parent
 * #0660 ^property[=].valueCode = #0600
-* #0660 ^property[0].code = #dateValid
+* #0660 ^property[+].code = #dateValid
 * #0660 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
 * #0660 ^property[+].code = #dateMaj
 * #0660 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
@@ -3219,9 +3218,9 @@ Description: "Nomenclature des activités sanitaires utilisée pour décrire les
 * #220 ^property[+].code = #dateMaj
 * #220 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
 * #220 ^property[+].code = #status
-* #219 ^property[=].valueCode = #retired
-* #219 ^property[+].code = #retirementDate
-* #219 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #220 ^property[=].valueCode = #retired
+* #220 ^property[+].code = #retirementDate
+* #220 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
 * #221 "Cure et Repos en Prévention"
 * #221 ^designation.language = #fr-FR
 * #221 ^designation.use = $sct#900000000000013009
@@ -4121,7 +4120,7 @@ Description: "Nomenclature des activités sanitaires utilisée pour décrire les
 * #472 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
 * #472 ^property[+].code = #status
 * #472 ^property[=].valueCode = #retired
-* #471 ^property[+].code = #retirementDate
+* #472 ^property[+].code = #retirementDate
 * #472 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
 * #499 "Atelier thérapeutique"
 * #499 ^designation.language = #fr-FR
