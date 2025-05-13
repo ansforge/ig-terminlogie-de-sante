@@ -105,15 +105,13 @@ body:
       value: |
         > [!NOTE]
         > **Dans le cas où plusieurs nomenclatures sont à créer, modifier ou rendre obsolètes, nous vous recommandons plutôt de renseigner les informations dans un fichier excel suivant le modèle [Template_DM](../tree/Nouveau_Template_Issue_Brouillon/input/DM_Excel/DM_Template.xlsx).**
-    validations:
-      required: false
   - type: textarea
     id: JDVimpact
     attributes:
       label: Si les modifications d'une TRE impactent un ou plusieurs autres JDV, veuillez indiquer leurs noms.
     validations:
       required: false  
-    - type: textarea
+  - type: textarea
     id: maj
     attributes:
       label: Règle de mise à jour du jeu de valeurs
