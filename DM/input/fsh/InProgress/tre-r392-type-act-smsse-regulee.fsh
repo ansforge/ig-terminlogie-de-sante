@@ -924,7 +924,7 @@ Description: "Type activité SMSSE régulée"
 * #125 ^property[+].code = #status
 * #125 ^property[=].valueCode = #active
 * #126 "ASR/R5/N6/01"
-*#126 ^property[0].code = #dateValid
+* #126 ^property[0].code = #dateValid
 * #126 ^property[=].valueDateTime = "2025-04-30T00:00:00+01:00"
 * #126 ^property[+].code = #dateMaj
 * #126 ^property[=].valueDateTime = "2025-04-30T00:00:00+01:00"
