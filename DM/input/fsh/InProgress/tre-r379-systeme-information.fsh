@@ -1,7 +1,7 @@
 CodeSystem: TreR379SystemeInformation
 Id: tre-r379-systeme-information
 Title: "Tre R379 Systeme Information"
-Description: "Nomenclature des systemes d'information en relation avec FINESS"
+Description: "Nomenclature des systemes d’information généralement déclarés pour définir les caractéristiques des identifiants ou des événements"
 * ^meta.versionId = "1"
 * ^meta.lastUpdated = "2024-12-30T12:00:00+01:00"
 * ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablecodesystem"
