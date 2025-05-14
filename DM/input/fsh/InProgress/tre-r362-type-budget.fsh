@@ -8,7 +8,7 @@ Description: "Nomenclature des types de budget associés aux Entités Géographi
 * ^meta.lastUpdated = "2024-12-30T12:00:00+01:00"
 * ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablecodesystem"
 * ^extension.url = "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod"
-* ^extension.valuePeriod.start = "2024-12-30T12:00:00+01:00"
+* ^extension.valuePeriod.start = "1900-01-01T00:00:00+01:00"
 * ^url = "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r362-type-budget"
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value = "urn:oid:1.2.250.1.213.1.6.1.256"
@@ -47,9 +47,9 @@ Description: "Nomenclature des types de budget associés aux Entités Géographi
 * #01 ^designation.use = $sct#900000000000013009
 * #01 ^designation.value = "Général"
 * #01 ^property[0].code = #dateValid
-* #01 ^property[=].valueDateTime = "2024-12-30T00:00:00+01:00"
+* #01 ^property[=].valueDateTime = "1900-01-01T00:00:00+01:00"
 * #01 ^property[+].code = #dateMaj
-* #01 ^property[=].valueDateTime = "2024-12-30T00:00:00+01:00"
+* #01 ^property[=].valueDateTime = "1900-01-01T00:00:00+01:00"
 * #01 ^property[+].code = #status
 * #01 ^property[=].valueCode = #active
 * #02 "Budget annexe"
@@ -58,8 +58,8 @@ Description: "Nomenclature des types de budget associés aux Entités Géographi
 * #02 ^designation.use = $sct#900000000000013009
 * #02 ^designation.value = "Annexe"
 * #02 ^property[0].code = #dateValid
-* #02 ^property[=].valueDateTime = "2024-12-30T00:00:00+01:00"
+* #02 ^property[=].valueDateTime = "1900-01-01T00:00:00+01:00"
 * #02 ^property[+].code = #dateMaj
-* #02 ^property[=].valueDateTime = "2024-12-30T00:00:00+01:00"
+* #02 ^property[=].valueDateTime = "1900-01-01T00:00:00+01:00"
 * #02 ^property[+].code = #status
 * #02 ^property[=].valueCode = #active

@@ -8,7 +8,7 @@ Description: "Nomenclature des types d’objets du MOS. Remarque : Cette nomencl
 * ^meta.lastUpdated = "2024-12-30T12:00:00+01:00"
 * ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablecodesystem"
 * ^extension.url = "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod"
-* ^extension.valuePeriod.start = "2024-12-30T12:00:00+01:00"
+* ^extension.valuePeriod.start = "1900-01-01T00:00:00+01:00"
 * ^url = "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r366-type-objet"
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value = "urn:oid:1.2.250.1.213.1.6.1.260"
@@ -43,9 +43,9 @@ Description: "Nomenclature des types d’objets du MOS. Remarque : Cette nomencl
 * ^property[=].type = #dateTime
 * #AC "Activité"
 * #AC ^property[0].code = #dateValid
-* #AC ^property[=].valueDateTime = "2024-12-30T00:00:00+01:00"
+* #AC ^property[=].valueDateTime = "1900-01-01T00:00:00+01:00"
 * #AC ^property[+].code = #dateMaj
-* #AC ^property[=].valueDateTime = "2024-12-30T00:00:00+01:00"
+* #AC ^property[=].valueDateTime = "1900-01-01T00:00:00+01:00"
 * #AC ^property[+].code = #status
 * #AC ^property[=].valueCode = #active
 * #EG "Entité géographique d'exercice FINESS"
@@ -54,9 +54,9 @@ Description: "Nomenclature des types d’objets du MOS. Remarque : Cette nomencl
 * #EG ^designation.use = $sct#900000000000013009
 * #EG ^designation.value = "Entité géographique"
 * #EG ^property[0].code = #dateValid
-* #EG ^property[=].valueDateTime = "2024-12-30T00:00:00+01:00"
+* #EG ^property[=].valueDateTime = "1900-01-01T00:00:00+01:00"
 * #EG ^property[+].code = #dateMaj
-* #EG ^property[=].valueDateTime = "2024-12-30T00:00:00+01:00"
+* #EG ^property[=].valueDateTime = "1900-01-01T00:00:00+01:00"
 * #EG ^property[+].code = #status
 * #EG ^property[=].valueCode = #active
 * #EN "Entreprise INSEE"
@@ -65,9 +65,9 @@ Description: "Nomenclature des types d’objets du MOS. Remarque : Cette nomencl
 * #EN ^designation.use = $sct#900000000000013009
 * #EN ^designation.value = "Entreprise"
 * #EN ^property[0].code = #dateValid
-* #EN ^property[=].valueDateTime = "2024-12-30T00:00:00+01:00"
+* #EN ^property[=].valueDateTime = "1900-01-01T00:00:00+01:00"
 * #EN ^property[+].code = #dateMaj
-* #EN ^property[=].valueDateTime = "2024-12-30T00:00:00+01:00"
+* #EN ^property[=].valueDateTime = "1900-01-01T00:00:00+01:00"
 * #EN ^property[+].code = #status
 * #EN ^property[=].valueCode = #active
 * #ET "Etablissement INSEE"
@@ -76,9 +76,9 @@ Description: "Nomenclature des types d’objets du MOS. Remarque : Cette nomencl
 * #ET ^designation.use = $sct#900000000000013009
 * #ET ^designation.value = "Etablissement"
 * #ET ^property[0].code = #dateValid
-* #ET ^property[=].valueDateTime = "2024-12-30T00:00:00+01:00"
+* #ET ^property[=].valueDateTime = "1900-01-01T00:00:00+01:00"
 * #ET ^property[+].code = #dateMaj
-* #ET ^property[=].valueDateTime = "2024-12-30T00:00:00+01:00"
+* #ET ^property[=].valueDateTime = "1900-01-01T00:00:00+01:00"
 * #ET ^property[+].code = #status
 * #ET ^property[=].valueCode = #active
 * #GR "Groupement"
@@ -87,9 +87,9 @@ Description: "Nomenclature des types d’objets du MOS. Remarque : Cette nomencl
 * #GR ^designation.use = $sct#900000000000013009
 * #GR ^designation.value = "Groupe"
 * #GR ^property[0].code = #dateValid
-* #GR ^property[=].valueDateTime = "2024-12-30T00:00:00+01:00"
+* #GR ^property[=].valueDateTime = "1900-01-01T00:00:00+01:00"
 * #GR ^property[+].code = #dateMaj
-* #GR ^property[=].valueDateTime = "2024-12-30T00:00:00+01:00"
+* #GR ^property[=].valueDateTime = "1900-01-01T00:00:00+01:00"
 * #GR ^property[+].code = #status
 * #GR ^property[=].valueCode = #active
 * #PM "Personne morale FINESS"
@@ -98,8 +98,8 @@ Description: "Nomenclature des types d’objets du MOS. Remarque : Cette nomencl
 * #PM ^designation.use = $sct#900000000000013009
 * #PM ^designation.value = "Personne morale"
 * #PM ^property[0].code = #dateValid
-* #PM ^property[=].valueDateTime = "2024-12-30T00:00:00+01:00"
+* #PM ^property[=].valueDateTime = "1900-01-01T00:00:00+01:00"
 * #PM ^property[+].code = #dateMaj
-* #PM ^property[=].valueDateTime = "2024-12-30T00:00:00+01:00"
+* #PM ^property[=].valueDateTime = "1900-01-01T00:00:00+01:00"
 * #PM ^property[+].code = #status
 * #PM ^property[=].valueCode = #active

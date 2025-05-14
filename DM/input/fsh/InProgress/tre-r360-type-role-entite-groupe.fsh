@@ -8,7 +8,7 @@ Description: "Nomenclature des types de rôles que peuvent exercer des entités 
 * ^meta.lastUpdated = "2024-12-30T12:00:00+01:00"
 * ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablecodesystem"
 * ^extension.url = "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod"
-* ^extension.valuePeriod.start = "2024-12-30T12:00:00+01:00"
+* ^extension.valuePeriod.start = "1900-01-01T00:00:00+01:00"
 * ^url = "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r360-type-role-entite-groupe"
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value = "urn:oid:1.2.250.1.213.1.6.1.254"
@@ -47,9 +47,9 @@ Description: "Nomenclature des types de rôles que peuvent exercer des entités 
 * #S ^designation.use = $sct#900000000000013009
 * #S ^designation.value = "Support"
 * #S ^property[0].code = #dateValid
-* #S ^property[=].valueDateTime = "2024-12-30T00:00:00+01:00"
+* #S ^property[=].valueDateTime = "1900-01-01T00:00:00+01:00"
 * #S ^property[+].code = #dateMaj
-* #S ^property[=].valueDateTime = "2024-12-30T00:00:00+01:00"
+* #S ^property[=].valueDateTime = "1900-01-01T00:00:00+01:00"
 * #S ^property[+].code = #status
 * #S ^property[=].valueCode = #active
 * #M "Membre simple"
@@ -58,9 +58,9 @@ Description: "Nomenclature des types de rôles que peuvent exercer des entités 
 * #M ^designation.use = $sct#900000000000013009
 * #M ^designation.value = "Membre"
 * #M ^property[0].code = #dateValid
-* #M ^property[=].valueDateTime = "2024-12-30T00:00:00+01:00"
+* #M ^property[=].valueDateTime = "1900-01-01T00:00:00+01:00"
 * #M ^property[+].code = #dateMaj
-* #M ^property[=].valueDateTime = "2024-12-30T00:00:00+01:00"
+* #M ^property[=].valueDateTime = "1900-01-01T00:00:00+01:00"
 * #M ^property[+].code = #status
 * #M ^property[=].valueCode = #active
 * #T "Entité tête de groupe"
@@ -69,8 +69,8 @@ Description: "Nomenclature des types de rôles que peuvent exercer des entités 
 * #T ^designation.use = $sct#900000000000013009
 * #T ^designation.value = "Tête de groupe"
 * #T ^property[0].code = #dateValid
-* #T ^property[=].valueDateTime = "2024-12-30T00:00:00+01:00"
+* #T ^property[=].valueDateTime = "1900-01-01T00:00:00+01:00"
 * #T ^property[+].code = #dateMaj
-* #T ^property[=].valueDateTime = "2024-12-30T00:00:00+01:00"
+* #T ^property[=].valueDateTime = "1900-01-01T00:00:00+01:00"
 * #T ^property[+].code = #status
 * #T ^property[=].valueCode = #active
