@@ -18,8 +18,19 @@
     <li><a href="tre-retired.html" >Terminologies (Retired)</a></li>        
     <li><a href="tre-telechargement.html">Téléchargement</a></li>
   </ul>
+        <br/>
+    <div id="orig">
 
-      <ul class="columns-3">
-        {% include list-simple-name-codesystems.xhtml %}
-      </ul>    
+   {% sql {
+  "query" : "select name as Name, Description,STRFTIME('%d/%m/%Y',date(date)) date_maj, Web from Resources where Type='CodeSystem'  and  json_extract(Resources.json,'$.status') != 'retired'  order by name",
+  "class" : "codes",
+  "columns" : [
+    { "name" : "Name", "type" : "link", "source" : "Name", "target" : "Web"},
+    { "name" : "Description", "type" : "markdown", "source" : "Description"},
+    { "name" : "Date MAJ", "type" : "markdown", "source" : "date_maj"}
+  ]
+} %}
+    
+    
+    </div>
   </div>
