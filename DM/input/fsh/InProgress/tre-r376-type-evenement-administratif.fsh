@@ -1,7 +1,7 @@
 CodeSystem: TreR376TypeEvenementAdministratif
 Id: tre-r376-type-evenement-administratif
 Title: "Tre R376 Type Evenement Administratif"
-Description: "Nomenclature des événements affectant le cycle de vie des entités et activités enrgeistrées dans FINESS+"
+Description: "Nomenclature des événements administratifs pertinents pour un cycle de vie d'un Objet de Santé (du MOS) Remarque : Cette nomenclature est initialisée avec les évenements affectant le cycle de vie des entités et activités enregistrées dans FINESS+"
 * ^meta.versionId = "1"
 * ^meta.lastUpdated = "2024-12-30T12:00:00+01:00"
 * ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablecodesystem"
@@ -284,3 +284,10 @@ Description: "Nomenclature des événements affectant le cycle de vie des entit�
 * #040 ^property[=].valueDateTime = "2024-12-30T00:00:00+01:00"
 * #040 ^property[+].code = #status
 * #040 ^property[=].valueCode = #active
+* #041 "Réouverture de l'activité après fermeture provisoire"
+* #041 ^property[0].code = #dateValid
+* #041 ^property[=].valueDateTime = "1900-01-01T00:00:00+01:00"
+* #041 ^property[+].code = #dateMaj
+* #041 ^property[=].valueDateTime = "1900-01-01T00:00:00+01:00"
+* #041 ^property[+].code = #status
+* #041 ^property[=].valueCode = #active
