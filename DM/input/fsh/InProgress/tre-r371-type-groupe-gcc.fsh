@@ -3,7 +3,7 @@ Alias: $sct = http://snomed.info/sct
 CodeSystem: TreR371TypeGroupeGcc
 Id: tre-r371-type-groupe-gcc
 Title: "Tre R371 Type Groupe Gcc"
-Description: "Nomenclature des types de Groupement de Coopération conventionnelle (GCC)"
+Description: "Nomenclature des types de groupement Concernant les groupement de structure on a 2 catégories de regroupement : les Groupement de Coopération Conventionnelle, les Groupement de Coopération Organique"
 * ^meta.versionId = "1"
 * ^meta.lastUpdated = "2024-12-30T12:00:00+01:00"
 * ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablecodesystem"
