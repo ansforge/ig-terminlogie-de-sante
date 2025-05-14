@@ -29,7 +29,7 @@
 1.2.250.1.71.2.10;co;corse;corse;corse;20080320092456;;20080320092456
 1.2.250.1.71.2.10;cr;cree;cree;cree;20080320092456;;20080320092456
 1.2.250.1.71.2.10;cs;tchèque;tchèque;tchèque;20080320092456;;20080320092456
-1.2.250.1.71.2.10;cu;slavon d'église, slavon liturgique, vieux slave, vieux bulgare;slavon d'église, slavon liturgique, vieux slave, vieux bulgare;slavon, vieux slave - bulgare;20151221000000;;20160901000000
+1.2.250.1.71.2.10;cu;slavon d'église, slavon liturgique, vieux slave, vieux bulgare;slavon, vieux slave - bulgare;slavon d'église, slavon liturgique, vieux slave, vieux bulgare;20151221000000;;20160901000000
 1.2.250.1.71.2.10;cv;tchouvache;tchouvache;tchouvache;20080320092456;;20080320092456
 1.2.250.1.71.2.10;cy;gallois;gallois;gallois;20080320092456;;20080320092456
 1.2.250.1.71.2.10;da;danois;danois;danois;20080320092456;;20080320092456
@@ -37,7 +37,7 @@
 1.2.250.1.71.2.10;dv;maldivien;maldivien;maldivien;20080320092456;;20080320092456
 1.2.250.1.71.2.10;dz;dzongkha, bhoutani;dzongkha, bhoutani;dzongkha, bhoutani;20080320092456;;20160901000000
 1.2.250.1.71.2.10;ee;éwé;éwé;éwé;20080320092456;;20080320092456
-1.2.250.1.71.2.10;el;grec moderne (après 1453);grec moderne (après 1453);grec moderne;20080320092456;;20160901000000
+1.2.250.1.71.2.10;el;grec moderne (après 1453);grec moderne;grec moderne (après 1453);20080320092456;;20160901000000
 1.2.250.1.71.2.10;en;anglais;anglais;anglais;20080320092456;;20080320092456
 1.2.250.1.71.2.10;eo;espéranto;espéranto;espéranto;20080320092457;;20080320092457
 1.2.250.1.71.2.10;es;espagnol, castillan;espagnol, castillan;espagnol, castillan;20080320092457;;20160901000000
@@ -55,17 +55,17 @@
 1.2.250.1.71.2.10;gl;galicien;galicien;galicien;20080320092457;;20080320092457
 1.2.250.1.71.2.10;gn;guarani;guarani;guarani;20080320092457;;20080320092457
 1.2.250.1.71.2.10;gu;gujarati, goudjrati;gujarati, goudjrati;gujarati, goudjrati;20080320092457;;20160901000000
-1.2.250.1.71.2.10;gv;manx, mannois;manx, mannois;mannois, manx;20080320092458;;20160901000000
+1.2.250.1.71.2.10;gv;manx, mannois;mannois, manx;manx, mannois;20080320092458;;20160901000000
 1.2.250.1.71.2.10;ha;haoussa;haoussa;haoussa;20080320092458;;20080320092458
 1.2.250.1.71.2.10;he;hébreu;hébreu;hébreu;20080320092458;;20080320092458
 1.2.250.1.71.2.10;hi;hindi;hindi;hindi;20080320092458;;20080320092458
 1.2.250.1.71.2.10;ho;hiri motu;hiri motu;hiri motu;20080320092458;;20080320092458
 1.2.250.1.71.2.10;hr;croate;croate;croate;20080320092458;;20080320092458
-1.2.250.1.71.2.10;ht;créole haïtien;créole haïtien;haïtien;20080320092458;;20080320092458
+1.2.250.1.71.2.10;ht;créole haïtien;haïtien;créole haïtien;20080320092458;;20080320092458
 1.2.250.1.71.2.10;hu;hongrois;hongrois;hongrois;20080320092458;;20080320092458
 1.2.250.1.71.2.10;hy;arménien;arménien;arménien;20080320092458;;20080320092458
 1.2.250.1.71.2.10;hz;herero;herero;herero;20080320092458;;20080320092458
-1.2.250.1.71.2.10;ia;interlingua (langue auxiliaire internationale);interlingua (langue auxiliaire internationale);interlingua;20080320092458;;20160901000000
+1.2.250.1.71.2.10;ia;interlingua (langue auxiliaire internationale);interlingua;interlingua (langue auxiliaire internationale);20080320092458;;20160901000000
 1.2.250.1.71.2.10;id;indonésien;indonésien;indonésien;20080320092458;;20080320092458
 1.2.250.1.71.2.10;ie;interlingue;interlingue;interlingue;20080320092458;;20080320092458
 1.2.250.1.71.2.10;ig;igbo;igbo;igbo;20080320092458;;20080320092458
@@ -121,13 +121,13 @@
 1.2.250.1.71.2.10;nd;ndébélé du Nord;ndébélé du Nord;ndébélé du Nord;20080320092501;;20160901000000
 1.2.250.1.71.2.10;ne;népalais;népalais;népalais;20080320092501;;20080320092501
 1.2.250.1.71.2.10;ng;ndonga;ndonga;ndonga;20080320092501;;20080320092501
-1.2.250.1.71.2.10;nl;néerlandais, flamand;néerlandais, flamand;néerlandais;20080320092501;;20080320092501
-1.2.250.1.71.2.10;nn;norvégien nynorsk, nynorsk, norvégien;norvégien nynorsk, nynorsk, norvégien;nynorsk;20080320092502;;20080320092502
+1.2.250.1.71.2.10;nl;néerlandais, flamand;néerlandais;néerlandais, flamand;20080320092501;;20080320092501
+1.2.250.1.71.2.10;nn;norvégien nynorsk;nynorsk;norvégien nynorsk, nynorsk, norvégien;20080320092502;;20080320092502
 1.2.250.1.71.2.10;no;norvégien;norvégien;norvégien;20080320092502;;20080320092502
 1.2.250.1.71.2.10;nr;ndébélé du Sud;ndébélé du Sud;ndébélé du Sud;20080320092502;;20160901000000
 1.2.250.1.71.2.10;nv;navaho;navaho;navaho;20080320092502;;20080320092502
-1.2.250.1.71.2.10;ny;nyanja, chewa, chichewa;nyanja, chewa, chichewa;chichewa, chewa, nyanja;20080320092502;;20160901000000
-1.2.250.1.71.2.10;oc;occitan, provençal (après 1500);occitan, provençal (après 1500);occitan, provençal;20080320092502;;20160901000000
+1.2.250.1.71.2.10;ny;nyanja, chewa, chichewa;chichewa, chewa, nyanja;nyanja, chewa, chichewa;20080320092502;;20160901000000
+1.2.250.1.71.2.10;oc;occitan, provençal (après 1500);occitan, provençal;occitan, provençal (après 1500);20080320092502;;20160901000000
 1.2.250.1.71.2.10;oj;ojibwa;ojibwa;ojibwa;20080320092502;;20080320092502
 1.2.250.1.71.2.10;om;oromo, afan oromo, galla;oromo, afan oromo, galla;oromo, afan oromo, galla;20080320092502;;20160901000000
 1.2.250.1.71.2.10;or;oriya;oriya;oriya;20080320092502;;20080320092502

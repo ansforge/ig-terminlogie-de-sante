@@ -3,6 +3,6 @@
 <OID>;<Code>;<Libellé adapté>;<Libellé court>;<Libellé long>;<Date valid>;<Date fin>;<Date MAJ> 
 1.2.250.1.213.1.6.1.121;CHP;Sortie du champ FINESS;Sortie du champ FINESS;Sortie du champ FINESS;20170707100000;20190125120000;20190125120000
 1.2.250.1.213.1.6.1.121;DEF;Définitive;Définitive;Définitive;20170707100000;20190125120000;20190125120000
-1.2.250.1.213.1.6.1.121;EML;Ancienne autorisation fonctionnement EML;Ancienne autorisation fonctionnement EML;Anc autor fonct EML;20170707100000;20190125120000;20190125120000
+1.2.250.1.213.1.6.1.121;EML;Ancienne autorisation fonctionnement EML;Anc autor fonct EML;Ancienne autorisation fonctionnement EML;20170707100000;20190125120000;20190125120000
 1.2.250.1.213.1.6.1.121;ERR;Erreur;Erreur;Erreur;20170707100000;20190125120000;20190125120000
 1.2.250.1.213.1.6.1.121;PRO;Provisoire;Provisoire;Provisoire;20170707100000;20190125120000;20190125120000

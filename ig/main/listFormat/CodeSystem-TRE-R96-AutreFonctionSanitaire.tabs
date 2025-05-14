@@ -3,8 +3,8 @@
 <OID>;<Code>;<Libellé adapté>;<Libellé court>;<Libellé long>;<Date valid>;<Date fin>;<Date MAJ> 
 1.2.250.1.213.1.6.1.110;400;Aide-soignant;Aide-soignant;Aide-soignant;20171013120000;20181026120000;20181026120000
 1.2.250.1.213.1.6.1.110;401;Auxiliaire de puériculture;Auxiliaire de puériculture;Auxiliaire de puériculture;20171013120000;20181026120000;20181026120000
-1.2.250.1.213.1.6.1.110;402;Préparateur en pharmacie hospitalière;Préparateur en pharmacie hospitalière;Prép en pharmacie (hôpital);20171013120000;20181026120000;20181026120000
-1.2.250.1.213.1.6.1.110;403;Préparateur en pharmacie (officine);Préparateur en pharmacie (officine);Prép en pharmacie (officine);20171013120000;20181026120000;20181026120000
+1.2.250.1.213.1.6.1.110;402;Préparateur en pharmacie hospitalière;Prép en pharmacie (hôpital);Préparateur en pharmacie hospitalière;20171013120000;20181026120000;20181026120000
+1.2.250.1.213.1.6.1.110;403;Préparateur en pharmacie (officine);Prép en pharmacie (officine);Préparateur en pharmacie (officine);20171013120000;20181026120000;20181026120000
 1.2.250.1.213.1.6.1.110;404;Conseiller en génétique;Conseiller en génétique;Conseiller en génétique;20171013120000;20190329120000;20190329120000
 1.2.250.1.213.1.6.1.110;405;Radiophysicien;Radiophysicien;Radiophysicien;20171013120000;20190426120000;20190426120000
 1.2.250.1.213.1.6.1.110;406;Assistant dentaire;Assistant dentaire;Assistant dentaire;20171013120000;20181026120000;20181026120000

@@ -1,95 +1,95 @@
 <OID>;<Type fichier>;<Nom fichier>;<Description>;<URL fichier>;<Date valid>;<Date fin>;<Date MàJ>
 1.2.250.1.213.1.6.1.53;TRE;TRE_R58_AutreTypeDiplome.tabs;Autre type de diplôme;https://mos.esante.gouv.fr/NOS/TRE_R58-AutreTypeDiplome;20130628000000;;20240927120000
 <OID>;<Code>;<Libellé adapté>;<Libellé court>;<Libellé long>;<Date valid>;<Date fin>;<Date MAJ> 
-1.2.250.1.213.1.6.1.53;DIP03;Diplôme d'habilitation à diriger des recherches;Diplôme d'habilitation à diriger des recherches;Dip habil diriger recherches;20080320104918;;20160901000000
+1.2.250.1.213.1.6.1.53;DIP03;Diplôme d'habilitation à diriger des recherches;Dip habil diriger recherches;Diplôme d'habilitation à diriger des recherches;20080320104918;;20160901000000
 1.2.250.1.213.1.6.1.53;DIP04;Maîtrise de Biologie humaine;Maîtrise de Biologie humaine;Maîtrise de Biologie humaine;20080320104919;;20160901000000
-1.2.250.1.213.1.6.1.53;DIP05;Maîtrise de Sciences biologiques et médicales;Maîtrise de Sciences biologiques et médicales;Maîtrise Sciences biolog, méd;20080320104920;;20160901000000
-1.2.250.1.213.1.6.1.53;DIP06;Maîtrise de Sciences dentaires;Maîtrise de Sciences dentaires;Maîtrise Sciences dentaires;20080320104920;;20160901000000
-1.2.250.1.213.1.6.1.53;DIP07;Diplôme d'études et de Recherche biologie humaine;Diplôme d'études et de Recherche biologie humaine;Dip étu Rech biologie humaine;20080320104916;;20160901000000
-1.2.250.1.213.1.6.1.53;DIP30;Diplôme d'Appareillage des handicapés moteurs;Diplôme d'Appareillage des handicapés moteurs;Dip Appareil handicapés moteur;20080320104924;;20160901000000
-1.2.250.1.213.1.6.1.53;DIP31;Diplôme de la Marine marchande;Diplôme de la Marine marchande;Dip Marine marchande;20080320104925;;20080320104925
-1.2.250.1.213.1.6.1.53;DIP32;Diplôme de Podologie;Diplôme de Podologie;Dip Podologie;20080320104926;;20080320104926
-1.2.250.1.213.1.6.1.53;DIP33;Diplôme de Sexologie;Diplôme de Sexologie;Dip Sexologie;20080320104926;;20080320104926
-1.2.250.1.213.1.6.1.53;DIP34;Diplôme de Thérapeutiques manuelles;Diplôme de Thérapeutiques manuelles;Dip Thérapeutiques manuelles;20080320104927;;20160901000000
-1.2.250.1.213.1.6.1.53;DIP35;Diplôme relatif à la Réparation juridique du dommage corporel;Diplôme relatif à la Réparation juridique du dommage corporel;Dip relat Répar jur domm corp;20080320104927;;20160901000000
-1.2.250.1.213.1.6.1.53;DIP36;Diplôme d'études médicales relatives à la Réparation juridique du dommage corporel;Diplôme études médicales relatives à la Réparation juridique du dommage corporel;DEM relat Répar jur domm corp;20080320104928;;20160901000000
-1.2.250.1.213.1.6.1.53;DIP37;CA ou DU Expertise du Dommage corporel;CA ou DU Expertise du Dommage corporel;CA, DU Expertise domm corporel;20080320104929;;20160901000000
-1.2.250.1.213.1.6.1.53;DIP73;Diplôme de Médecine agricole;Diplôme de Médecine agricole;Dip de Médecine agricole;20080320104954;;20160901000000
-1.2.250.1.213.1.6.1.53;DIP74;Diplôme d'études et de recherche science Odontologique;Diplôme d'études et de recherche science Odontologique;Dip étu recherche Odontologiq;20080320104955;;20160901000000
-1.2.250.1.213.1.6.1.53;DIP173;Diplôme de Gérontologie clinique;Diplôme de Gérontologie clinique;Dip Gérontologie clinique;20070725000000;;20160901000000
-1.2.250.1.213.1.6.1.53;DIP174;DEC de Gérontologie et Gériatrie;DEC de Gérontologie et Gériatrie;DEC Gérontologie et Gériatrie;20070725000000;;20160901000000
-1.2.250.1.213.1.6.1.53;DIP175;Diplome d'Implantologie;Diplome d'Implantologie;Dip Implantologie;20070725000000;;20090202000000
-1.2.250.1.213.1.6.1.53;DIP176;Maladies sexuellement transmissibles;Maladies sexuellement transmissibles;MST;20070725000000;;20090202000000
-1.2.250.1.213.1.6.1.53;DIP177;Ostéopathie par arrêté préfectoral;Ostéopathie par arrêté préfectoral;Ostéopathie par arrêté préf;20070725000000;;20160901000000
-1.2.250.1.213.1.6.1.53;DIP178;CU Application de l'écho à l'obstétrique et à la gynécologie;CU Application de l'écho à l'obstétrique et à la gynécologie;CU Appl écho obstétriq, gynéco;20070725000000;;20160901000000
-1.2.250.1.213.1.6.1.53;DIP179;CE Enseignement spécial écho gynécologie et obstétrique;CE Enseignement spécial écho gynécologie et obstétrique;CE Ens spécial écho gyn, obst;20070725000000;;20160901000000
-1.2.250.1.213.1.6.1.53;DIP203;CU de Proctologie médico-chirurgicale;CU de Proctologie médico-chirurgicale;CU Proctologie médico-chir;20070725000000;;20160901000000
-1.2.250.1.213.1.6.1.53;DIP204;Diplôme (ou Attest d'étude) Electro-encephalographie clinique;Diplôme (ou Attest d'étude) Electro-encephalographie clinique;Dip Electro-encephalograp clin;20070725000000;;20160901000000
-1.2.250.1.213.1.6.1.53;DIP212;CU d'Echographie clinique;CU d'Echographie clinique;CU Echographie clinique;20070725000000;;20160901000000
+1.2.250.1.213.1.6.1.53;DIP05;Maîtrise de Sciences biologiques et médicales;Maîtrise Sciences biolog, méd;Maîtrise de Sciences biologiques et médicales;20080320104920;;20160901000000
+1.2.250.1.213.1.6.1.53;DIP06;Maîtrise de Sciences dentaires;Maîtrise Sciences dentaires;Maîtrise de Sciences dentaires;20080320104920;;20160901000000
+1.2.250.1.213.1.6.1.53;DIP07;Diplôme d'études et de Recherche biologie humaine;Dip étu Rech biologie humaine;Diplôme d'études et de Recherche biologie humaine;20080320104916;;20160901000000
+1.2.250.1.213.1.6.1.53;DIP30;Diplôme d'Appareillage des handicapés moteurs;Dip Appareil handicapés moteur;Diplôme d'Appareillage des handicapés moteurs;20080320104924;;20160901000000
+1.2.250.1.213.1.6.1.53;DIP31;Diplôme de la Marine marchande;Dip Marine marchande;Diplôme de la Marine marchande;20080320104925;;20080320104925
+1.2.250.1.213.1.6.1.53;DIP32;Diplôme de Podologie;Dip Podologie;Diplôme de Podologie;20080320104926;;20080320104926
+1.2.250.1.213.1.6.1.53;DIP33;Diplôme de Sexologie;Dip Sexologie;Diplôme de Sexologie;20080320104926;;20080320104926
+1.2.250.1.213.1.6.1.53;DIP34;Diplôme de Thérapeutiques manuelles;Dip Thérapeutiques manuelles;Diplôme de Thérapeutiques manuelles;20080320104927;;20160901000000
+1.2.250.1.213.1.6.1.53;DIP35;Diplôme relatif à la Réparation juridique du dommage corporel;Dip relat Répar jur domm corp;Diplôme relatif à la Réparation juridique du dommage corporel;20080320104927;;20160901000000
+1.2.250.1.213.1.6.1.53;DIP36;Diplôme d'études médicales relatives à la Réparation juridique du dommage corporel;DEM relat Répar jur domm corp;Diplôme études médicales relatives à la Réparation juridique du dommage corporel;20080320104928;;20160901000000
+1.2.250.1.213.1.6.1.53;DIP37;CA ou DU Expertise du Dommage corporel;CA, DU Expertise domm corporel;CA ou DU Expertise du Dommage corporel;20080320104929;;20160901000000
+1.2.250.1.213.1.6.1.53;DIP73;Diplôme de Médecine agricole;Dip de Médecine agricole;Diplôme de Médecine agricole;20080320104954;;20160901000000
+1.2.250.1.213.1.6.1.53;DIP74;Diplôme d'études et de recherche science Odontologique;Dip étu recherche Odontologiq;Diplôme d'études et de recherche science Odontologique;20080320104955;;20160901000000
+1.2.250.1.213.1.6.1.53;DIP173;Diplôme de Gérontologie clinique;Dip Gérontologie clinique;Diplôme de Gérontologie clinique;20070725000000;;20160901000000
+1.2.250.1.213.1.6.1.53;DIP174;DEC de Gérontologie et Gériatrie;DEC Gérontologie et Gériatrie;DEC de Gérontologie et Gériatrie;20070725000000;;20160901000000
+1.2.250.1.213.1.6.1.53;DIP175;Diplome d'Implantologie;Dip Implantologie;Diplome d'Implantologie;20070725000000;;20090202000000
+1.2.250.1.213.1.6.1.53;DIP176;Maladies sexuellement transmissibles;MST;Maladies sexuellement transmissibles;20070725000000;;20090202000000
+1.2.250.1.213.1.6.1.53;DIP177;Ostéopathie par arrêté préfectoral;Ostéopathie par arrêté préf;Ostéopathie par arrêté préfectoral;20070725000000;;20160901000000
+1.2.250.1.213.1.6.1.53;DIP178;CU Application de l'écho à l'obstétrique et à la gynécologie;CU Appl écho obstétriq, gynéco;CU Application de l'écho à l'obstétrique et à la gynécologie;20070725000000;;20160901000000
+1.2.250.1.213.1.6.1.53;DIP179;CE Enseignement spécial écho gynécologie et obstétrique;CE Ens spécial écho gyn, obst;CE Enseignement spécial écho gynécologie et obstétrique;20070725000000;;20160901000000
+1.2.250.1.213.1.6.1.53;DIP203;CU de Proctologie médico-chirurgicale;CU Proctologie médico-chir;CU de Proctologie médico-chirurgicale;20070725000000;;20160901000000
+1.2.250.1.213.1.6.1.53;DIP204;Diplôme (ou Attest d'étude) Electro-encephalographie clinique;Dip Electro-encephalograp clin;Diplôme (ou Attest d'étude) Electro-encephalographie clinique;20070725000000;;20160901000000
+1.2.250.1.213.1.6.1.53;DIP212;CU d'Echographie clinique;CU Echographie clinique;CU d'Echographie clinique;20070725000000;;20160901000000
 1.2.250.1.213.1.6.1.53;DIP213;Généraliste qualifié;Généraliste qualifié;Généraliste qualifié;20080320000000;;20110117114708
-1.2.250.1.213.1.6.1.53;DIP214;CU d'Echographie clinique (ancien diplôme autorisé);CU d'Echographie clinique (ancien diplôme autorisé);CU Echographie cliniq (ancien);20080320000000;;20160901000000
-1.2.250.1.213.1.6.1.53;DIP215;Diplôme de Médecine agricole de Tours;Diplôme de Médecine agricole de Tours;Dip Médecine agricole Tours;20080320000000;;20160901000000
-1.2.250.1.213.1.6.1.53;DIP220;Diplôme d'études complémentaires, option Ultrasonologie;Diplôme d'études complémentaires, option Ultrasonologie;DEC opt Ultrasonologie;20080320000000;;20160901000000
-1.2.250.1.213.1.6.1.53;DIP223;Diplôme d'indemnisation du dommage corporel;Diplôme d'indemnisation du dommage corporel;Dip indemnisation domm corpor;20131106000000;;20160901000000
+1.2.250.1.213.1.6.1.53;DIP214;CU d'Echographie clinique (ancien diplôme autorisé);CU Echographie cliniq (ancien);CU d'Echographie clinique (ancien diplôme autorisé);20080320000000;;20160901000000
+1.2.250.1.213.1.6.1.53;DIP215;Diplôme de Médecine agricole de Tours;Dip Médecine agricole Tours;Diplôme de Médecine agricole de Tours;20080320000000;;20160901000000
+1.2.250.1.213.1.6.1.53;DIP220;Diplôme d'études complémentaires, option Ultrasonologie;DEC opt Ultrasonologie;Diplôme d'études complémentaires, option Ultrasonologie;20080320000000;;20160901000000
+1.2.250.1.213.1.6.1.53;DIP223;Diplôme d'indemnisation du dommage corporel;Dip indemnisation domm corpor;Diplôme d'indemnisation du dommage corporel;20131106000000;;20160901000000
 1.2.250.1.213.1.6.1.53;DIP230;AUEC Plaies et cicatrisation;AUEC Plaies et cicatrisation;AUEC Plaies et cicatrisation;20160503000000;;20160901000000
-1.2.250.1.213.1.6.1.53;DIP231;AUEC Podologie médicale et du sport;AUEC Podologie médicale et du sport;AUEC Podologie médic et sport;20160503000000;;20160901000000
-1.2.250.1.213.1.6.1.53;DIP232;CEU Biomécanique de l'appareil locomoteur;CEU Biomécanique de l'appareil locomoteur;CEU Bioméca app locomoteur;20160503000000;;20160901000000
-1.2.250.1.213.1.6.1.53;DIP233;CEU Pédagogie dans les professions de santé;CEU Pédagogie dans les professions de santé;CEU Pédagogie dans prof santé;20160503000000;;20160901000000
-1.2.250.1.213.1.6.1.53;DIP299;Doctorat ès science, option Immunologie;Doctorat ès science, option Immunologie;Doct ès science opt Immunolog;20160503000000;;20160901000000
+1.2.250.1.213.1.6.1.53;DIP231;AUEC Podologie médicale et du sport;AUEC Podologie médic et sport;AUEC Podologie médicale et du sport;20160503000000;;20160901000000
+1.2.250.1.213.1.6.1.53;DIP232;CEU Biomécanique de l'appareil locomoteur;CEU Bioméca app locomoteur;CEU Biomécanique de l'appareil locomoteur;20160503000000;;20160901000000
+1.2.250.1.213.1.6.1.53;DIP233;CEU Pédagogie dans les professions de santé;CEU Pédagogie dans prof santé;CEU Pédagogie dans les professions de santé;20160503000000;;20160901000000
+1.2.250.1.213.1.6.1.53;DIP299;Doctorat ès science, option Immunologie;Doct ès science opt Immunolog;Doctorat ès science, option Immunologie;20160503000000;;20160901000000
 1.2.250.1.213.1.6.1.53;DIP302;CU d'Ultrasonologie Médicale;CU d'Ultrasonologie Médicale;CU d'Ultrasonologie Médicale;20171023000000;;20171023000000
-1.2.250.1.213.1.6.1.53;DIP303;Diplôme infirmier non reconnu d'un pays EEE ou hors EEE;Diplôme infirmier non reconnu pays EEE ou hors EEE;Dip infirmierhorsEEE;20191025120000;;20200731120000
-1.2.250.1.213.1.6.1.53;DIP304;Diplôme infirmier du secteur psychiatrique;Diplôme infirmier du secteur psychiatrique;Dip infirmier psy;20191025120000;;20200731120000
-1.2.250.1.213.1.6.1.53;DIP305;Formation de directeur de soins de l'EHESP;Formation de directeur de soins de l'EHESP;Dir. de soins EHESP;20191025120000;;20191025120000
-1.2.250.1.213.1.6.1.53;DIP306;Titre militaire autorisant la profession d'infirmier;Titre militaire autorisant la profession infirmier;Titre mil. infirmier;20200131120000;;20200731120000
-1.2.250.1.213.1.6.1.53;DIP314;Formation exceptionnelle en médecine du travail;Formation exceptionnelle en médecine du travail;Forma excep méd trav;20200626120000;;20200626120000
-1.2.250.1.213.1.6.1.53;DIP315;Psychothérapeute par autorisation de l'Agence Régionale de Santé (ARS);Psychothérapeute par autorisation ARS;Psychothér autor ARS;20200626120000;;20200626120000
-1.2.250.1.213.1.6.1.53;DIP316;Validation d'un développement professionnel continu (DPC) en prescription de dispositif médical à pression positive continue (PPC);Validation d'un DPC Prescription de dispositif PPC;Valid DPC Prescr PPC;20200626120000;;20200626120000
-1.2.250.1.213.1.6.1.53;DIP317;Validation d'un développement professionnel continu (DPC) en otologie médicale;Validation d'un DPC Otologie médicale;Valid DPC Otolog méd;20200626120000;;20200626120000
+1.2.250.1.213.1.6.1.53;DIP303;Diplôme infirmier non reconnu d'un pays EEE ou hors EEE;Dip infirmierhorsEEE;Diplôme infirmier non reconnu pays EEE ou hors EEE;20191025120000;;20200731120000
+1.2.250.1.213.1.6.1.53;DIP304;Diplôme infirmier du secteur psychiatrique;Dip infirmier psy;Diplôme infirmier du secteur psychiatrique;20191025120000;;20200731120000
+1.2.250.1.213.1.6.1.53;DIP305;Formation de directeur de soins de l'EHESP;Dir. de soins EHESP;Formation de directeur de soins de l'EHESP;20191025120000;;20191025120000
+1.2.250.1.213.1.6.1.53;DIP306;Titre militaire autorisant la profession d'infirmier;Titre mil. infirmier;Titre militaire autorisant la profession infirmier;20200131120000;;20200731120000
+1.2.250.1.213.1.6.1.53;DIP314;Formation exceptionnelle en médecine du travail;Forma excep méd trav;Formation exceptionnelle en médecine du travail;20200626120000;;20200626120000
+1.2.250.1.213.1.6.1.53;DIP315;Psychothérapeute par autorisation de l'Agence Régionale de Santé (ARS);Psychothér autor ARS;Psychothérapeute par autorisation ARS;20200626120000;;20200626120000
+1.2.250.1.213.1.6.1.53;DIP316;Validation d'un développement professionnel continu (DPC) en prescription de dispositif médical à pression positive continue (PPC);Valid DPC Prescr PPC;Validation d'un DPC Prescription de dispositif PPC;20200626120000;;20200626120000
+1.2.250.1.213.1.6.1.53;DIP317;Validation d'un développement professionnel continu (DPC) en otologie médicale;Valid DPC Otolog méd;Validation d'un DPC Otologie médicale;20200626120000;;20200626120000
 1.2.250.1.213.1.6.1.53;DIP319;Titre d'assistant dentaire;Titre d'assistant dentaire;Titre d'assistant dentaire;20211126120000;;20211126120000
-1.2.250.1.213.1.6.1.53;DIP398;Lauréat de l'Académie Nationale de Médecine;Lauréat de l'Académie Nationale de Médecine;Lauréat Académie Nat. Médecine;20220729120000;;20220729120000
-1.2.250.1.213.1.6.1.53;DSCD01;Certificat d'études cliniques, mention Orthodontie;Certificat d'études cliniques, mention Orthodontie;CEC mention Orthodontie;20070725150442;;20160901000000
-1.2.250.1.213.1.6.1.53;DSCD02;Diplôme d'études supérieures de Chirurgie buccale;Diplôme d'études supérieures de Chirurgie buccale;DES Chirurgie buccale;20070725150442;;20160901000000
-1.2.250.1.213.1.6.1.53;DIP321;Diplôme d'Ostéopathe d'un établissement agréé pour la formation en Ostéopathie;Diplôme d'Ostéopathe d'un établissement agréé;Diplôme Ostéopathe agréé;20230331120000;;20230331120000
-1.2.250.1.213.1.6.1.53;DIP322;Master en Psychologie ou Psychanalyse;Master en Psychologie ou Psychanalyse;Master Psychologie ou Psychan;20230331120000;;20230331120000
-1.2.250.1.213.1.6.1.53;DIP323;Licence + Master mention psychologie + Attest stage;Licence + Master mention psychologie + Attest stage;Master mention psychologie;20230331120000;;20240531120000
-1.2.250.1.213.1.6.1.53;DIP324;Master mention psychologie clinique, psychopathologie et psychologie de la santé;Licence + Master mention clinique, psychopatho et psycho santé + Attest stage;Master psy clin,psychop,santé;20230331120000;;20240531120000
-1.2.250.1.213.1.6.1.53;DIP325;Master mention psychologie sociale, du travail et des organisations;Licence + Master mention sociale, du travail et des organisations + Attest stage;Master psy social,travail,orga;20230331120000;;20240531120000
-1.2.250.1.213.1.6.1.53;DIP326;Master mention psychologie de l'éducation et de la formation;Licence + Master mention éducation et de la formation + Attest stage;Master psy éducation formation;20230331120000;;20240531120000
-1.2.250.1.213.1.6.1.53;DIP327;Master mention psychopathologie clinique psychanalytique;Licence + Master mention psychopatho clinique psychanalytique + Attest stage;Master psychopatho clin psycha;20230331120000;;20240531120000
-1.2.250.1.213.1.6.1.53;DIP328;Master de Psychanalyse;Master de Psychanalyse;Master Psychanalyse;20230331120000;;20230331120000
-1.2.250.1.213.1.6.1.53;DIP329;Diplôme de Chiropraxie;Diplôme de Chiropraxie;Diplôme Chiropraxie;20230331120000;;20230331120000
-1.2.250.1.213.1.6.1.53;DIP331;Certificat d'études techniques d'acoustique appareillage de prothèse auditive;Certificat d'études acoustique prothèse auditive;Certificat études acoustiques;20230331120000;;20230331120000
-1.2.250.1.213.1.6.1.53;DIP332;Examen professionnel d'Audio-Prothésiste;Examen professionnel d'Audio-Prothésiste;Examen pro Audio-Prothésiste;20230331120000;;20230331120000
-1.2.250.1.213.1.6.1.53;DIP333;Diplôme d'Opticien-Lunetier;Diplôme d'Opticien-Lunetier;Diplôme Opticien-Lunetier;20230331120000;;20230331120000
+1.2.250.1.213.1.6.1.53;DIP398;Lauréat de l'Académie Nationale de Médecine;Lauréat Académie Nat. Médecine;Lauréat de l'Académie Nationale de Médecine;20220729120000;;20220729120000
+1.2.250.1.213.1.6.1.53;DSCD01;Certificat d'études cliniques, mention Orthodontie;CEC mention Orthodontie;Certificat d'études cliniques, mention Orthodontie;20070725150442;;20160901000000
+1.2.250.1.213.1.6.1.53;DSCD02;Diplôme d'études supérieures de Chirurgie buccale;DES Chirurgie buccale;Diplôme d'études supérieures de Chirurgie buccale;20070725150442;;20160901000000
+1.2.250.1.213.1.6.1.53;DIP321;Diplôme d'Ostéopathe d'un établissement agréé pour la formation en Ostéopathie;Diplôme Ostéopathe agréé;Diplôme d'Ostéopathe d'un établissement agréé;20230331120000;;20230331120000
+1.2.250.1.213.1.6.1.53;DIP322;Master en Psychologie ou Psychanalyse;Master Psychologie ou Psychan;Master en Psychologie ou Psychanalyse;20230331120000;;20230331120000
+1.2.250.1.213.1.6.1.53;DIP323;Licence + Master mention psychologie + Attest stage;Master mention psychologie;Licence + Master mention psychologie + Attest stage;20230331120000;;20240531120000
+1.2.250.1.213.1.6.1.53;DIP324;Master mention psychologie clinique, psychopathologie et psychologie de la santé;Master psy clin,psychop,santé;Licence + Master mention clinique, psychopatho et psycho santé + Attest stage;20230331120000;;20240531120000
+1.2.250.1.213.1.6.1.53;DIP325;Master mention psychologie sociale, du travail et des organisations;Master psy social,travail,orga;Licence + Master mention sociale, du travail et des organisations + Attest stage;20230331120000;;20240531120000
+1.2.250.1.213.1.6.1.53;DIP326;Master mention psychologie de l'éducation et de la formation;Master psy éducation formation;Licence + Master mention éducation et de la formation + Attest stage;20230331120000;;20240531120000
+1.2.250.1.213.1.6.1.53;DIP327;Master mention psychopathologie clinique psychanalytique;Master psychopatho clin psycha;Licence + Master mention psychopatho clinique psychanalytique + Attest stage;20230331120000;;20240531120000
+1.2.250.1.213.1.6.1.53;DIP328;Master de Psychanalyse;Master Psychanalyse;Master de Psychanalyse;20230331120000;;20230331120000
+1.2.250.1.213.1.6.1.53;DIP329;Diplôme de Chiropraxie;Diplôme Chiropraxie;Diplôme de Chiropraxie;20230331120000;;20230331120000
+1.2.250.1.213.1.6.1.53;DIP331;Certificat d'études techniques d'acoustique appareillage de prothèse auditive;Certificat études acoustiques;Certificat d'études acoustique prothèse auditive;20230331120000;;20230331120000
+1.2.250.1.213.1.6.1.53;DIP332;Examen professionnel d'Audio-Prothésiste;Examen pro Audio-Prothésiste;Examen professionnel d'Audio-Prothésiste;20230331120000;;20230331120000
+1.2.250.1.213.1.6.1.53;DIP333;Diplôme d'Opticien-Lunetier;Diplôme Opticien-Lunetier;Diplôme d'Opticien-Lunetier;20230331120000;;20230331120000
 1.2.250.1.213.1.6.1.53;DIP334;Brevet de technicien supérieur d'Opticien-Lunetier;BTS Opticien-Lunetier;BTS Opticien-Lunetier;20230331120000;;20230331120000
-1.2.250.1.213.1.6.1.53;DIP335;Brevet professionnel d'Opticien-Lunetier;Brevet professionnel d'Opticien-Lunetier;BP Opticien-Lunetier;20230331120000;;20230331120000
-1.2.250.1.213.1.6.1.53;DIP336;Certificat d'études de l'Ecole des métiers d'optique;Certificat d'études Ecole des métiers d'optique;Diplôme école métiers optique;20230331120000;;20230331120000
-1.2.250.1.213.1.6.1.53;DIP337;Diplôme d'élève breveté des écoles nationales professionnelles, section d'optique-lunetterie;Diplôme écoles nat prof section Optique-lunetterie;Diplôme écoles nationales prof;20230331120000;;20230331120000
-1.2.250.1.213.1.6.1.53;DIP338;Titre désigné par arrêté des ministres du commerce, économie et finances, enseignement sup et santé permettant d'exercer comme Opticien-Lunetier;Titre ministres du commerce, économie et finances, enseignement sup et santé;Titre arrêté ministres;20230331120000;;20230331120000
+1.2.250.1.213.1.6.1.53;DIP335;Brevet professionnel d'Opticien-Lunetier;BP Opticien-Lunetier;Brevet professionnel d'Opticien-Lunetier;20230331120000;;20230331120000
+1.2.250.1.213.1.6.1.53;DIP336;Certificat d'études de l'Ecole des métiers d'optique;Diplôme école métiers optique;Certificat d'études Ecole des métiers d'optique;20230331120000;;20230331120000
+1.2.250.1.213.1.6.1.53;DIP337;Diplôme d'élève breveté des écoles nationales professionnelles, section d'optique-lunetterie;Diplôme écoles nationales prof;Diplôme écoles nat prof section Optique-lunetterie;20230331120000;;20230331120000
+1.2.250.1.213.1.6.1.53;DIP338;Titre désigné par arrêté des ministres du commerce, économie et finances, enseignement sup et santé permettant d'exercer comme Opticien-Lunetier;Titre arrêté ministres;Titre ministres du commerce, économie et finances, enseignement sup et santé;20230331120000;;20230331120000
 1.2.250.1.213.1.6.1.53;DIP339;Brevet de technicien supérieur d'Orthoprothésiste;BTS Orthoprothésiste;BTS Orthoprothésiste;20230331120000;;20230331120000
 1.2.250.1.213.1.6.1.53;DIP340;Brevet de technicien supérieur de Prothésiste-Orthésiste;BTS Prothésiste-Orthésiste;BTS Prothésiste-Orthésiste;20230331120000;;20240726120000
 1.2.250.1.213.1.6.1.53;DIP341;Brevet de technicien supérieur de Podo-Orthésiste;BTS Podo-Orthésiste;BTS Podo-Orthésiste;20230331120000;;20230331120000
-1.2.250.1.213.1.6.1.53;DIP342;Titre d'Orthopédiste-Orthésiste obtenu avant 2007;Titre d'Orthopédiste-Orthésiste obtenu avant 2007;Titre Orthop-Orthés avant 2007;20230331120000;;20240927120000
-1.2.250.1.213.1.6.1.53;DIP343;Titre RNCP de Technicien Supérieur Orthopédiste-Orthésiste obtenu après 2007;Titre RNCP de Technicien Supérieur Orthopédiste-Orthésiste obtenu après 2007;Titre TS Orthop-Orthés ap 2007;20230331120000;;20240927120000
-1.2.250.1.213.1.6.1.53;DIP345;Titre RNCP d'Orthopédiste-Orthésiste obtenu après 2007;Titre RNCP d'Orthopédiste-Orthésiste obtenu après 2007;Titre Orthop-Orthés après 2007;20230331120000;;20240927120000
-1.2.250.1.213.1.6.1.53;DIP348;Diplôme de Technicien de Laboratoire de l'arrêté du 21/10/1992;Diplôme Technicien Laboratoire arrêté 21/10/1992;Dip Tech Lab arrêté 21/10/92;20230331120000;;20230331120000
-1.2.250.1.213.1.6.1.53;DIP349;Diplôme de Technicien de Laboratoire de l'arrêté du 04/11/1976;Diplôme Technicien Laboratoire arrêté 04/11/1976;Dip Tech Lab arrêté 04/11/76;20230331120000;;20230331120000
-1.2.250.1.213.1.6.1.53;DIP350;BTS de technicien de laboratoire listé dans l'arrêté du 21/10/1992;BTS de technicien de laboratoire listé dans l'arrêté du 21/10/1992;BTS tech lab arrêté 21/10/92;20230331120000;;20240628120000
-1.2.250.1.213.1.6.1.53;DIP352;Diplôme de l'arrêté du 21/10/1992 autre que DETLM/DETAB, DUT, BTS permettant d'exercer comme Technicien de Laboratoire;Diplôme de Technicien de Laboratoire arrêté du 21/10/92 sauf DETLM/DETAB,DUT,BTS;Dip Tech Lab arrêté 21/10/92;20230331120000;20240726120000;20240726120000
-1.2.250.1.213.1.6.1.53;DIP353;Certificat de Capacité d'Orthophoniste;Certificat de Capacité d'Orthophoniste;Certif Capacité Orthophoniste;20230331120000;;20230331120000
+1.2.250.1.213.1.6.1.53;DIP342;Titre d'Orthopédiste-Orthésiste obtenu avant 2007;Titre Orthop-Orthés avant 2007;Titre d'Orthopédiste-Orthésiste obtenu avant 2007;20230331120000;;20240927120000
+1.2.250.1.213.1.6.1.53;DIP343;Titre RNCP de Technicien Supérieur Orthopédiste-Orthésiste obtenu après 2007;Titre TS Orthop-Orthés ap 2007;Titre RNCP de Technicien Supérieur Orthopédiste-Orthésiste obtenu après 2007;20230331120000;;20240927120000
+1.2.250.1.213.1.6.1.53;DIP345;Titre RNCP d'Orthopédiste-Orthésiste obtenu après 2007;Titre Orthop-Orthés après 2007;Titre RNCP d'Orthopédiste-Orthésiste obtenu après 2007;20230331120000;;20240927120000
+1.2.250.1.213.1.6.1.53;DIP348;Diplôme de Technicien de Laboratoire de l'arrêté du 21/10/1992;Dip Tech Lab arrêté 21/10/92;Diplôme Technicien Laboratoire arrêté 21/10/1992;20230331120000;;20230331120000
+1.2.250.1.213.1.6.1.53;DIP349;Diplôme de Technicien de Laboratoire de l'arrêté du 04/11/1976;Dip Tech Lab arrêté 04/11/76;Diplôme Technicien Laboratoire arrêté 04/11/1976;20230331120000;;20230331120000
+1.2.250.1.213.1.6.1.53;DIP350;BTS de technicien de laboratoire listé dans l'arrêté du 21/10/1992;BTS tech lab arrêté 21/10/92;BTS de technicien de laboratoire listé dans l'arrêté du 21/10/1992;20230331120000;;20240628120000
+1.2.250.1.213.1.6.1.53;DIP352;Diplôme de l'arrêté du 21/10/1992 autre que DETLM/DETAB, DUT, BTS permettant d'exercer comme Technicien de Laboratoire;Dip Tech Lab arrêté 21/10/92;Diplôme de Technicien de Laboratoire arrêté du 21/10/92 sauf DETLM/DETAB,DUT,BTS;20230331120000;20240726120000;20240726120000
+1.2.250.1.213.1.6.1.53;DIP353;Certificat de Capacité d'Orthophoniste;Certif Capacité Orthophoniste;Certificat de Capacité d'Orthophoniste;20230331120000;;20230331120000
 1.2.250.1.213.1.6.1.53;DIP354;Diplôme ou attestation MEN;Diplôme ou attestation MEN;Diplôme ou attestation MEN;20230331120000;;20230331120000
-1.2.250.1.213.1.6.1.53;DIP355;Certificat de Capacité d'Orthoptiste;Certificat de Capacité d'Orthoptiste;Certif Capacité Orthoptiste;20230331120000;;20230331120000
-1.2.250.1.213.1.6.1.53;DIP356;Licence + Maîtrise + DESS en psychologie;Licence + Maîtrise + DESS en psychologie;Lic Maîtrise DESS psychologie;20230331120000;;20230331120000
-1.2.250.1.213.1.6.1.53;DIP357;Licence + Maîtrise + un des diplômes cités en annexe du décret 90-255;Licence + Maîtrise + diplôme annexe Décret 90-255;Lic Maîtrise diplôme annexe;20230331120000;;20230331120000
-1.2.250.1.213.1.6.1.53;DIP358;Licence psychologie + Maîtrise psychologie + DEA psychologie + Attestation Stage;Licence psychologie + Maîtrise psychologie + DEA psychologie + Attestation Stage;Lic Maîtrise DEA psychologie;20230331120000;;20230331120000
-1.2.250.1.213.1.6.1.53;DIP359;Diplôme permettant l'usage du titre de psychologue (alinéa 6 à 9 de l'article 1 du décret 90-255);Diplôme pour usage du titre de psychologue (alinéa 6 à 9 art 1 décret 90-255);Dip alinéa 6-9 décret 90-255;20230331120000;;20230331120000
-1.2.250.1.213.1.6.1.53;DIP360;Usage restreint du titre de Psychologue (arrêté du 14/01/1993);Usage restreint du titre de Psychologue (arrêté du 14/01/1993);Titre de Psychologue;20230331120000;;20230331120000
-1.2.250.1.213.1.6.1.53;DIP361;Licence psychologie + Master psychologie + Stage psychologie;Licence + Master psychologie + Attest stage;Lic Master Stage Psychologie;20230331120000;20240531120000;20240531120000
-1.2.250.1.213.1.6.1.53;DIP362;Décision de Validation des Acquis de l'Expérience de Psychologue;Décision de Validation des Acquis de l'Expérience de Psychologue;Décision de VAE Psychologue;20230331120000;;20230331120000
-1.2.250.1.213.1.6.1.53;DIP364;Brevet de technicien ou brevet de technicien supérieur Diététique;BT ou BTS de Diététique;BT ou BTS Diététique;20230331120000;;20230331120000
-1.2.250.1.213.1.6.1.53;DIP367;Diplôme de technicien supérieur ou brevet de technicien supérieur Manipulateur d'Electro-Radiologie médicale;DTS/BTS Manipulateur d'Electro-Radiologie médicale;DTS ou BTS MER;20230331120000;;20230331120000
-1.2.250.1.213.1.6.1.53;DIP368;Diplôme de technicien supérieur imagerie médicale et radiologie thérapeutique;DTS imagerie médicale et radiologie thérapeutique;DTS IMRT;20230331120000;;20230331120000
-1.2.250.1.213.1.6.1.53;DIP409;Diplôme de Qualification en Physique Radiologique et Médicale INSTN (dès 1996);Diplôme de Qualification en Physique Radiologique et Médicale INSTN (dès 1996);DQPRM-Dip qualif phys rad méd;20240329120000;;20240329120000
-1.2.250.1.213.1.6.1.53;DIP412;Diplôme de premier cycle technique biochimie-biologie CNAM;Diplôme de premier cycle technique biochimie-biologie CNAM;Dip biochimie-biologie CNAM;20240628120000;;20240628120000
-1.2.250.1.213.1.6.1.53;DIP414;Diplôme de technicienne de laboratoire de biochimie-biologie clinique ESTBB Lyon;Diplôme de technicienne de laboratoire de biochimie-biologie clinique ESTBB Lyon;Dip tech lab ESTBB Lyon;20240628120000;;20240628120000
-1.2.250.1.213.1.6.1.53;DIP415;Certificat de formation tech supérieur Physicien chimiste ministère travail;Certificat de formation tech supérieur Physicien chimiste ministère travail;Certif phys chimiste ministère;20240628120000;;20240628120000
+1.2.250.1.213.1.6.1.53;DIP355;Certificat de Capacité d'Orthoptiste;Certif Capacité Orthoptiste;Certificat de Capacité d'Orthoptiste;20230331120000;;20230331120000
+1.2.250.1.213.1.6.1.53;DIP356;Licence + Maîtrise + DESS en psychologie;Lic Maîtrise DESS psychologie;Licence + Maîtrise + DESS en psychologie;20230331120000;;20230331120000
+1.2.250.1.213.1.6.1.53;DIP357;Licence + Maîtrise + un des diplômes cités en annexe du décret 90-255;Lic Maîtrise diplôme annexe;Licence + Maîtrise + diplôme annexe Décret 90-255;20230331120000;;20230331120000
+1.2.250.1.213.1.6.1.53;DIP358;Licence psychologie + Maîtrise psychologie + DEA psychologie + Attestation Stage;Lic Maîtrise DEA psychologie;Licence psychologie + Maîtrise psychologie + DEA psychologie + Attestation Stage;20230331120000;;20230331120000
+1.2.250.1.213.1.6.1.53;DIP359;Diplôme permettant l'usage du titre de psychologue (alinéa 6 à 9 de l'article 1 du décret 90-255);Dip alinéa 6-9 décret 90-255;Diplôme pour usage du titre de psychologue (alinéa 6 à 9 art 1 décret 90-255);20230331120000;;20230331120000
+1.2.250.1.213.1.6.1.53;DIP360;Usage restreint du titre de Psychologue (arrêté du 14/01/1993);Titre de Psychologue;Usage restreint du titre de Psychologue (arrêté du 14/01/1993);20230331120000;;20230331120000
+1.2.250.1.213.1.6.1.53;DIP361;Licence psychologie + Master psychologie + Stage psychologie;Lic Master Stage Psychologie;Licence + Master psychologie + Attest stage;20230331120000;20240531120000;20240531120000
+1.2.250.1.213.1.6.1.53;DIP362;Décision de Validation des Acquis de l'Expérience de Psychologue;Décision de VAE Psychologue;Décision de Validation des Acquis de l'Expérience de Psychologue;20230331120000;;20230331120000
+1.2.250.1.213.1.6.1.53;DIP364;Brevet de technicien ou brevet de technicien supérieur Diététique;BT ou BTS Diététique;BT ou BTS de Diététique;20230331120000;;20230331120000
+1.2.250.1.213.1.6.1.53;DIP367;Diplôme de technicien supérieur ou brevet de technicien supérieur Manipulateur d'Electro-Radiologie médicale;DTS ou BTS MER;DTS/BTS Manipulateur d'Electro-Radiologie médicale;20230331120000;;20230331120000
+1.2.250.1.213.1.6.1.53;DIP368;Diplôme de technicien supérieur imagerie médicale et radiologie thérapeutique;DTS IMRT;DTS imagerie médicale et radiologie thérapeutique;20230331120000;;20230331120000
+1.2.250.1.213.1.6.1.53;DIP409;Diplôme de Qualification en Physique Radiologique et Médicale INSTN (dès 1996);DQPRM-Dip qualif phys rad méd;Diplôme de Qualification en Physique Radiologique et Médicale INSTN (dès 1996);20240329120000;;20240329120000
+1.2.250.1.213.1.6.1.53;DIP412;Diplôme de premier cycle technique biochimie-biologie CNAM;Dip biochimie-biologie CNAM;Diplôme de premier cycle technique biochimie-biologie CNAM;20240628120000;;20240628120000
+1.2.250.1.213.1.6.1.53;DIP414;Diplôme de technicienne de laboratoire de biochimie-biologie clinique ESTBB Lyon;Dip tech lab ESTBB Lyon;Diplôme de technicienne de laboratoire de biochimie-biologie clinique ESTBB Lyon;20240628120000;;20240628120000
+1.2.250.1.213.1.6.1.53;DIP415;Certificat de formation tech supérieur Physicien chimiste ministère travail;Certif phys chimiste ministère;Certificat de formation tech supérieur Physicien chimiste ministère travail;20240628120000;;20240628120000
