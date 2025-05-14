@@ -3,7 +3,7 @@ Alias: $sct = http://snomed.info/sct
 CodeSystem: TreR377UsageAdresse
 Id: tre-r377-usage-adresse
 Title: "Tre R377 Usage Adresse"
-Description: "Nomenclature des usages des adresses associées aux entités enregistrés dans FINESS+"
+Description: "Nomenclature des types des adresses"
 * ^meta.versionId = "1"
 * ^meta.lastUpdated = "2024-12-30T12:00:00+01:00"
 * ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablecodesystem"
