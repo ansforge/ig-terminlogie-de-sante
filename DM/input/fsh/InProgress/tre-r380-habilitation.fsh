@@ -8,7 +8,7 @@ Description: "Nomenclature des habilitations associées aux capacités des struc
 * ^meta.lastUpdated = "2024-12-30T12:00:00+01:00"
 * ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablecodesystem"
 * ^extension.url = "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod"
-* ^extension.valuePeriod.start = "2024-12-30T12:00:00+01:00"
+* ^extension.valuePeriod.start = "1900-01-01T00:00:00+01:00"
 * ^url = "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r380-habilitation"
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value = "urn:oid:1.2.250.1.213.1.6.1.295"
@@ -47,8 +47,8 @@ Description: "Nomenclature des habilitations associées aux capacités des struc
 * #02 ^designation.use = $sct#900000000000013009
 * #02 ^designation.value = "HaS"
 * #02 ^property[0].code = #dateValid
-* #02 ^property[=].valueDateTime = "2024-12-30T00:00:00+01:00"
+* #02 ^property[=].valueDateTime = "1900-01-01T00:00:00+01:00"
 * #02 ^property[+].code = #dateMaj
-* #02 ^property[=].valueDateTime = "2024-12-30T00:00:00+01:00"
+* #02 ^property[=].valueDateTime = "1900-01-01T00:00:00+01:00"
 * #02 ^property[+].code = #status
 * #02 ^property[=].valueCode = #active

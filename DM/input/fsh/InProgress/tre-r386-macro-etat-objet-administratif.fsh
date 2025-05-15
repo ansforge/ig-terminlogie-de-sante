@@ -6,7 +6,7 @@ Description: "Nomenclature des macro-etat des structures FINESS qui dérivent de
 * ^meta.lastUpdated = "2024-12-30T12:00:00+01:00"
 * ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablecodesystem"
 * ^extension.url = "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod"
-* ^extension.valuePeriod.start = "2024-12-30T12:00:00+01:00"
+* ^extension.valuePeriod.start = "1900-01-01T00:00:00+01:00"
 * ^url = "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r386-macro-etat-objet-administratif"
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value = "urn:oid:1.2.250.1.213.1.6.1.301"
@@ -41,15 +41,15 @@ Description: "Nomenclature des macro-etat des structures FINESS qui dérivent de
 * ^property[=].type = #dateTime
 * #A "Actif"
 * #A ^property[0].code = #dateValid
-* #A ^property[=].valueDateTime = "2024-12-30T00:00:00+01:00"
+* #A ^property[=].valueDateTime = "1900-01-01T00:00:00+01:00"
 * #A ^property[+].code = #dateMaj
-* #A ^property[=].valueDateTime = "2024-12-30T00:00:00+01:00"
+* #A ^property[=].valueDateTime = "1900-01-01T00:00:00+01:00"
 * #A ^property[+].code = #status
 * #A ^property[=].valueCode = #active
 * #I "Inactif"
 * #I ^property[0].code = #dateValid
-* #I ^property[=].valueDateTime = "2024-12-30T00:00:00+01:00"
+* #I ^property[=].valueDateTime = "1900-01-01T00:00:00+01:00"
 * #I ^property[+].code = #dateMaj
-* #I ^property[=].valueDateTime = "2024-12-30T00:00:00+01:00"
+* #I ^property[=].valueDateTime = "1900-01-01T00:00:00+01:00"
 * #I ^property[+].code = #status
 * #I ^property[=].valueCode = #active

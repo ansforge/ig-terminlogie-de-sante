@@ -8,7 +8,7 @@ Description: "Nomenclature des types de groupement Concernant les groupement de 
 * ^meta.lastUpdated = "2024-12-30T12:00:00+01:00"
 * ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablecodesystem"
 * ^extension.url = "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod"
-* ^extension.valuePeriod.start = "2024-12-30T12:00:00+01:00"
+* ^extension.valuePeriod.start = "1900-01-01T00:00:00+01:00"
 * ^url = "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r371-type-groupe-gcc"
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value = "urn:oid:1.2.250.1.213.1.6.1.287"
@@ -47,9 +47,9 @@ Description: "Nomenclature des types de groupement Concernant les groupement de 
 * #001 ^designation.use = $sct#900000000000013009
 * #001 ^designation.value = "GHT Poyvalent"
 * #001 ^property[0].code = #dateValid
-* #001 ^property[=].valueDateTime = "2024-12-30T00:00:00+01:00"
+* #001 ^property[=].valueDateTime = "1900-01-01T00:00:00+01:00"
 * #001 ^property[+].code = #dateMaj
-* #001 ^property[=].valueDateTime = "2024-12-30T00:00:00+01:00"
+* #001 ^property[=].valueDateTime = "1900-01-01T00:00:00+01:00"
 * #001 ^property[+].code = #status
 * #001 ^property[=].valueCode = #active
 * #002 "Groupement hospitalier de territoire - Psychiatrie"
@@ -58,8 +58,8 @@ Description: "Nomenclature des types de groupement Concernant les groupement de 
 * #002 ^designation.use = $sct#900000000000013009
 * #002 ^designation.value = "GHT Psychiatrie"
 * #002 ^property[0].code = #dateValid
-* #002 ^property[=].valueDateTime = "2024-12-30T00:00:00+01:00"
+* #002 ^property[=].valueDateTime = "1900-01-01T00:00:00+01:00"
 * #002 ^property[+].code = #dateMaj
-* #002 ^property[=].valueDateTime = "2024-12-30T00:00:00+01:00"
+* #002 ^property[=].valueDateTime = "1900-01-01T00:00:00+01:00"
 * #002 ^property[+].code = #status
 * #002 ^property[=].valueCode = #active
