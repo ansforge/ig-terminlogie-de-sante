@@ -1,18 +1,18 @@
 CodeSystem: TRE_R20_Pays
 Id: TRE-R20-Pays
 Description: "Référentiel des codes pays provenant du COG INSEE"
-* ^meta.versionId = "8"
-* ^meta.lastUpdated = "2024-12-19T19:11:27.978+00:00"
+* ^meta.versionId = "9"
+* ^meta.lastUpdated = "2025-03-31T18:11:20.973+00:00"
 * ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablecodesystem"
 * ^extension.url = "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod"
 * ^extension.valuePeriod.start = "2016-02-09T00:00:00+01:00"
 * ^url = "https://mos.esante.gouv.fr/NOS/TRE_R20-Pays/FHIR/TRE-R20-Pays"
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value = "urn:oid:1.2.250.1.213.2.24"
-* ^version = "20241213120000"
+* ^version = "20250328120000"
 * ^status = #active
 * ^experimental = false
-* ^date = "2024-12-13T12:00:00+01:00"
+* ^date = "2025-03-28T12:00:00+01:00"
 * ^publisher = "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris"
 * ^caseSensitive = false
 * ^content = #complete
@@ -25,6 +25,18 @@ Description: "Référentiel des codes pays provenant du COG INSEE"
 * ^property[+].code = #dateFin
 * ^property[=].description = "Date de fin d'exploitation d'un code concept"
 * ^property[=].type = #dateTime
+* ^property[+].code = #deprecationDate
+* ^property[=].uri = "http://hl7.org/fhir/concept-properties#deprecationDate"
+* ^property[=].description = "Date Concept was deprecated"
+* ^property[=].type = #dateTime
+* ^property[+].code = #status
+* ^property[=].uri = "http://hl7.org/fhir/concept-properties#status"
+* ^property[=].description = "A property that indicates the status of the concept."
+* ^property[=].type = #code
+* ^property[+].code = #retirementDate
+* ^property[=].uri = "http://hl7.org/fhir/concept-properties#retirementDate"
+* ^property[=].description = "Date Concept was retired"
+* ^property[=].type = #dateTime
 * #99000 "République française"
 * #99000 ^designation[0].language = #fr-FR
 * #99000 ^designation[=].use.system = "http://snomed.info/sct"
@@ -36,6 +48,10 @@ Description: "Référentiel des codes pays provenant du COG INSEE"
 * #99000 ^property[=].valueDateTime = "2016-09-01T00:00:00+01:00"
 * #99000 ^property[+].code = #dateMaj
 * #99000 ^property[=].valueDateTime = "2024-01-26T12:00:00+01:00"
+* #99000 ^property[+].code = #deprecationDate
+* #99000 ^property[=].valueDateTime = "2016-09-01T00:00:00+01:00"
+* #99000 ^property[+].code = #status
+* #99000 ^property[=].valueCode = #deprecated
 * #99100 "République française"
 * #99100 ^designation[0].language = #fr-FR
 * #99100 ^designation[=].use.system = "http://snomed.info/sct"
@@ -45,6 +61,8 @@ Description: "Référentiel des codes pays provenant du COG INSEE"
 * #99100 ^property[=].valueDateTime = "2016-09-01T00:00:00+01:00"
 * #99100 ^property[+].code = #dateMaj
 * #99100 ^property[=].valueDateTime = "2024-01-26T12:00:00+01:00"
+* #99100 ^property[+].code = #status
+* #99100 ^property[=].valueCode = #active
 * #99101 "Royaume du Danemark"
 * #99101 ^designation[0].language = #fr-FR
 * #99101 ^designation[=].use.system = "http://snomed.info/sct"
@@ -54,11 +72,15 @@ Description: "Référentiel des codes pays provenant du COG INSEE"
 * #99101 ^property[=].valueDateTime = "2016-02-09T00:00:00+01:00"
 * #99101 ^property[+].code = #dateMaj
 * #99101 ^property[=].valueDateTime = "2024-01-26T12:00:00+01:00"
+* #99101 ^property[+].code = #status
+* #99101 ^property[=].valueCode = #active
 * #99102 "Islande"
 * #99102 ^property[0].code = #dateValid
 * #99102 ^property[=].valueDateTime = "2016-02-09T00:00:00+01:00"
 * #99102 ^property[+].code = #dateMaj
 * #99102 ^property[=].valueDateTime = "2024-06-28T12:00:00+01:00"
+* #99102 ^property[+].code = #status
+* #99102 ^property[=].valueCode = #active
 * #99103 "Royaume de Norvège"
 * #99103 ^designation[0].language = #fr-FR
 * #99103 ^designation[=].use.system = "http://snomed.info/sct"
@@ -68,6 +90,8 @@ Description: "Référentiel des codes pays provenant du COG INSEE"
 * #99103 ^property[=].valueDateTime = "2016-02-09T00:00:00+01:00"
 * #99103 ^property[+].code = #dateMaj
 * #99103 ^property[=].valueDateTime = "2024-01-26T12:00:00+01:00"
+* #99103 ^property[+].code = #status
+* #99103 ^property[=].valueCode = #active
 * #99104 "Royaume de Suède"
 * #99104 ^designation[0].language = #fr-FR
 * #99104 ^designation[=].use.system = "http://snomed.info/sct"
@@ -77,6 +101,8 @@ Description: "Référentiel des codes pays provenant du COG INSEE"
 * #99104 ^property[=].valueDateTime = "2016-02-09T00:00:00+01:00"
 * #99104 ^property[+].code = #dateMaj
 * #99104 ^property[=].valueDateTime = "2024-01-26T12:00:00+01:00"
+* #99104 ^property[+].code = #status
+* #99104 ^property[=].valueCode = #active
 * #99105 "République de Finlande"
 * #99105 ^designation[0].language = #fr-FR
 * #99105 ^designation[=].use.system = "http://snomed.info/sct"
@@ -86,6 +112,8 @@ Description: "Référentiel des codes pays provenant du COG INSEE"
 * #99105 ^property[=].valueDateTime = "2016-02-09T00:00:00+01:00"
 * #99105 ^property[+].code = #dateMaj
 * #99105 ^property[=].valueDateTime = "2024-01-26T12:00:00+01:00"
+* #99105 ^property[+].code = #status
+* #99105 ^property[=].valueCode = #active
 * #99106 "République d'Estonie"
 * #99106 ^designation[0].language = #fr-FR
 * #99106 ^designation[=].use.system = "http://snomed.info/sct"
@@ -95,6 +123,8 @@ Description: "Référentiel des codes pays provenant du COG INSEE"
 * #99106 ^property[=].valueDateTime = "2016-02-09T00:00:00+01:00"
 * #99106 ^property[+].code = #dateMaj
 * #99106 ^property[=].valueDateTime = "2024-01-26T12:00:00+01:00"
+* #99106 ^property[+].code = #status
+* #99106 ^property[=].valueCode = #active
 * #99107 "République de Lettonie"
 * #99107 ^designation[0].language = #fr-FR
 * #99107 ^designation[=].use.system = "http://snomed.info/sct"
@@ -104,6 +134,8 @@ Description: "Référentiel des codes pays provenant du COG INSEE"
 * #99107 ^property[=].valueDateTime = "2016-02-09T00:00:00+01:00"
 * #99107 ^property[+].code = #dateMaj
 * #99107 ^property[=].valueDateTime = "2024-01-26T12:00:00+01:00"
+* #99107 ^property[+].code = #status
+* #99107 ^property[=].valueCode = #active
 * #99108 "République de Lituanie"
 * #99108 ^designation[0].language = #fr-FR
 * #99108 ^designation[=].use.system = "http://snomed.info/sct"
@@ -113,6 +145,8 @@ Description: "Référentiel des codes pays provenant du COG INSEE"
 * #99108 ^property[=].valueDateTime = "2016-02-09T00:00:00+01:00"
 * #99108 ^property[+].code = #dateMaj
 * #99108 ^property[=].valueDateTime = "2024-01-26T12:00:00+01:00"
+* #99108 ^property[+].code = #status
+* #99108 ^property[=].valueCode = #active
 * #99109 "République fédérale d'Allemagne"
 * #99109 ^designation[0].language = #fr-FR
 * #99109 ^designation[=].use.system = "http://snomed.info/sct"
@@ -122,6 +156,8 @@ Description: "Référentiel des codes pays provenant du COG INSEE"
 * #99109 ^property[=].valueDateTime = "2016-02-09T00:00:00+01:00"
 * #99109 ^property[+].code = #dateMaj
 * #99109 ^property[=].valueDateTime = "2024-01-26T12:00:00+01:00"
+* #99109 ^property[+].code = #status
+* #99109 ^property[=].valueCode = #active
 * #99110 "République d'Autriche"
 * #99110 ^designation[0].language = #fr-FR
 * #99110 ^designation[=].use.system = "http://snomed.info/sct"
@@ -131,6 +167,8 @@ Description: "Référentiel des codes pays provenant du COG INSEE"
 * #99110 ^property[=].valueDateTime = "2016-02-09T00:00:00+01:00"
 * #99110 ^property[+].code = #dateMaj
 * #99110 ^property[=].valueDateTime = "2024-01-26T12:00:00+01:00"
+* #99110 ^property[+].code = #status
+* #99110 ^property[=].valueCode = #active
 * #99111 "République de Bulgarie"
 * #99111 ^designation[0].language = #fr-FR
 * #99111 ^designation[=].use.system = "http://snomed.info/sct"
@@ -140,11 +178,15 @@ Description: "Référentiel des codes pays provenant du COG INSEE"
 * #99111 ^property[=].valueDateTime = "2016-02-09T00:00:00+01:00"
 * #99111 ^property[+].code = #dateMaj
 * #99111 ^property[=].valueDateTime = "2024-01-26T12:00:00+01:00"
+* #99111 ^property[+].code = #status
+* #99111 ^property[=].valueCode = #active
 * #99112 "Hongrie"
 * #99112 ^property[0].code = #dateValid
 * #99112 ^property[=].valueDateTime = "2016-02-09T00:00:00+01:00"
 * #99112 ^property[+].code = #dateMaj
 * #99112 ^property[=].valueDateTime = "2024-06-28T12:00:00+01:00"
+* #99112 ^property[+].code = #status
+* #99112 ^property[=].valueCode = #active
 * #99113 "Principauté du Liechtenstein"
 * #99113 ^designation[0].language = #fr-FR
 * #99113 ^designation[=].use.system = "http://snomed.info/sct"
@@ -154,11 +196,15 @@ Description: "Référentiel des codes pays provenant du COG INSEE"
 * #99113 ^property[=].valueDateTime = "2016-02-09T00:00:00+01:00"
 * #99113 ^property[+].code = #dateMaj
 * #99113 ^property[=].valueDateTime = "2024-01-26T12:00:00+01:00"
+* #99113 ^property[+].code = #status
+* #99113 ^property[=].valueCode = #active
 * #99114 "Roumanie"
 * #99114 ^property[0].code = #dateValid
 * #99114 ^property[=].valueDateTime = "2016-02-09T00:00:00+01:00"
 * #99114 ^property[+].code = #dateMaj
 * #99114 ^property[=].valueDateTime = "2024-01-26T12:00:00+01:00"
+* #99114 ^property[+].code = #status
+* #99114 ^property[=].valueCode = #active
 * #99115 "Tchécoslovaquie"
 * #99115 ^property[0].code = #dateValid
 * #99115 ^property[=].valueDateTime = "2016-02-09T00:00:00+01:00"
@@ -166,6 +212,10 @@ Description: "Référentiel des codes pays provenant du COG INSEE"
 * #99115 ^property[=].valueDateTime = "2016-02-09T00:00:00+01:00"
 * #99115 ^property[+].code = #dateMaj
 * #99115 ^property[=].valueDateTime = "2024-01-26T12:00:00+01:00"
+* #99115 ^property[+].code = #deprecationDate
+* #99115 ^property[=].valueDateTime = "2016-02-09T00:00:00+01:00"
+* #99115 ^property[+].code = #status
+* #99115 ^property[=].valueCode = #deprecated
 * #99116 "République tchèque"
 * #99116 ^designation[0].language = #fr-FR
 * #99116 ^designation[=].use.system = "http://snomed.info/sct"
@@ -175,6 +225,8 @@ Description: "Référentiel des codes pays provenant du COG INSEE"
 * #99116 ^property[=].valueDateTime = "2016-02-09T00:00:00+01:00"
 * #99116 ^property[+].code = #dateMaj
 * #99116 ^property[=].valueDateTime = "2024-01-26T12:00:00+01:00"
+* #99116 ^property[+].code = #status
+* #99116 ^property[=].valueCode = #active
 * #99117 "République slovaque"
 * #99117 ^designation[0].language = #fr-FR
 * #99117 ^designation[=].use.system = "http://snomed.info/sct"
@@ -184,11 +236,15 @@ Description: "Référentiel des codes pays provenant du COG INSEE"
 * #99117 ^property[=].valueDateTime = "2016-02-09T00:00:00+01:00"
 * #99117 ^property[+].code = #dateMaj
 * #99117 ^property[=].valueDateTime = "2024-01-26T12:00:00+01:00"
+* #99117 ^property[+].code = #status
+* #99117 ^property[=].valueCode = #active
 * #99118 "Bosnie-Herzégovine"
 * #99118 ^property[0].code = #dateValid
 * #99118 ^property[=].valueDateTime = "2016-02-09T00:00:00+01:00"
 * #99118 ^property[+].code = #dateMaj
 * #99118 ^property[=].valueDateTime = "2024-06-28T12:00:00+01:00"
+* #99118 ^property[+].code = #status
+* #99118 ^property[=].valueCode = #active
 * #99119 "République de Croatie"
 * #99119 ^designation[0].language = #fr-FR
 * #99119 ^designation[=].use.system = "http://snomed.info/sct"
@@ -198,11 +254,15 @@ Description: "Référentiel des codes pays provenant du COG INSEE"
 * #99119 ^property[=].valueDateTime = "2016-02-09T00:00:00+01:00"
 * #99119 ^property[+].code = #dateMaj
 * #99119 ^property[=].valueDateTime = "2024-01-26T12:00:00+01:00"
+* #99119 ^property[+].code = #status
+* #99119 ^property[=].valueCode = #active
 * #99120 "Monténégro"
 * #99120 ^property[0].code = #dateValid
 * #99120 ^property[=].valueDateTime = "2016-02-09T00:00:00+01:00"
 * #99120 ^property[+].code = #dateMaj
 * #99120 ^property[=].valueDateTime = "2024-06-28T12:00:00+01:00"
+* #99120 ^property[+].code = #status
+* #99120 ^property[=].valueCode = #active
 * #99121 "République de Serbie"
 * #99121 ^designation[0].language = #fr-FR
 * #99121 ^designation[=].use.system = "http://snomed.info/sct"
@@ -212,6 +272,8 @@ Description: "Référentiel des codes pays provenant du COG INSEE"
 * #99121 ^property[=].valueDateTime = "2016-02-09T00:00:00+01:00"
 * #99121 ^property[+].code = #dateMaj
 * #99121 ^property[=].valueDateTime = "2024-01-26T12:00:00+01:00"
+* #99121 ^property[+].code = #status
+* #99121 ^property[=].valueCode = #active
 * #99122 "République de Pologne"
 * #99122 ^designation[0].language = #fr-FR
 * #99122 ^designation[=].use.system = "http://snomed.info/sct"
@@ -221,6 +283,8 @@ Description: "Référentiel des codes pays provenant du COG INSEE"
 * #99122 ^property[=].valueDateTime = "2016-02-09T00:00:00+01:00"
 * #99122 ^property[+].code = #dateMaj
 * #99122 ^property[=].valueDateTime = "2024-01-26T12:00:00+01:00"
+* #99122 ^property[+].code = #status
+* #99122 ^property[=].valueCode = #active
 * #99123 "Fédération de Russie"
 * #99123 ^designation[0].language = #fr-FR
 * #99123 ^designation[=].use.system = "http://snomed.info/sct"
@@ -230,6 +294,8 @@ Description: "Référentiel des codes pays provenant du COG INSEE"
 * #99123 ^property[=].valueDateTime = "2016-02-09T00:00:00+01:00"
 * #99123 ^property[+].code = #dateMaj
 * #99123 ^property[=].valueDateTime = "2024-01-26T12:00:00+01:00"
+* #99123 ^property[+].code = #status
+* #99123 ^property[=].valueCode = #active
 * #99124 "Turquie d'Europe"
 * #99124 ^property[0].code = #dateValid
 * #99124 ^property[=].valueDateTime = "2016-02-09T00:00:00+01:00"
@@ -237,6 +303,10 @@ Description: "Référentiel des codes pays provenant du COG INSEE"
 * #99124 ^property[=].valueDateTime = "2016-02-09T00:00:00+01:00"
 * #99124 ^property[+].code = #dateMaj
 * #99124 ^property[=].valueDateTime = "2024-01-26T12:00:00+01:00"
+* #99124 ^property[+].code = #deprecationDate
+* #99124 ^property[=].valueDateTime = "2016-02-09T00:00:00+01:00"
+* #99124 ^property[+].code = #status
+* #99124 ^property[=].valueCode = #deprecated
 * #99125 "République d'Albanie"
 * #99125 ^designation[0].language = #fr-FR
 * #99125 ^designation[=].use.system = "http://snomed.info/sct"
@@ -246,6 +316,8 @@ Description: "Référentiel des codes pays provenant du COG INSEE"
 * #99125 ^property[=].valueDateTime = "2016-02-09T00:00:00+01:00"
 * #99125 ^property[+].code = #dateMaj
 * #99125 ^property[=].valueDateTime = "2024-01-26T12:00:00+01:00"
+* #99125 ^property[+].code = #status
+* #99125 ^property[=].valueCode = #active
 * #99126 "République hellénique"
 * #99126 ^designation[0].language = #fr-FR
 * #99126 ^designation[=].use.system = "http://snomed.info/sct"
@@ -255,6 +327,8 @@ Description: "Référentiel des codes pays provenant du COG INSEE"
 * #99126 ^property[=].valueDateTime = "2016-02-09T00:00:00+01:00"
 * #99126 ^property[+].code = #dateMaj
 * #99126 ^property[=].valueDateTime = "2024-01-26T12:00:00+01:00"
+* #99126 ^property[+].code = #status
+* #99126 ^property[=].valueCode = #active
 * #99127 "République italienne"
 * #99127 ^designation[0].language = #fr-FR
 * #99127 ^designation[=].use.system = "http://snomed.info/sct"
@@ -264,6 +338,8 @@ Description: "Référentiel des codes pays provenant du COG INSEE"
 * #99127 ^property[=].valueDateTime = "2016-02-09T00:00:00+01:00"
 * #99127 ^property[+].code = #dateMaj
 * #99127 ^property[=].valueDateTime = "2024-01-26T12:00:00+01:00"
+* #99127 ^property[+].code = #status
+* #99127 ^property[=].valueCode = #active
 * #99128 "République de Saint-Marin"
 * #99128 ^designation[0].language = #fr-FR
 * #99128 ^designation[=].use.system = "http://snomed.info/sct"
@@ -273,6 +349,8 @@ Description: "Référentiel des codes pays provenant du COG INSEE"
 * #99128 ^property[=].valueDateTime = "2016-02-09T00:00:00+01:00"
 * #99128 ^property[+].code = #dateMaj
 * #99128 ^property[=].valueDateTime = "2024-01-26T12:00:00+01:00"
+* #99128 ^property[+].code = #status
+* #99128 ^property[=].valueCode = #active
 * #99129 "Saint-Siège ou Vatican"
 * #99129 ^designation[0].language = #fr-FR
 * #99129 ^designation[=].use.system = "http://snomed.info/sct"
@@ -282,6 +360,8 @@ Description: "Référentiel des codes pays provenant du COG INSEE"
 * #99129 ^property[=].valueDateTime = "2016-02-09T00:00:00+01:00"
 * #99129 ^property[+].code = #dateMaj
 * #99129 ^property[=].valueDateTime = "2024-06-28T12:00:00+01:00"
+* #99129 ^property[+].code = #status
+* #99129 ^property[=].valueCode = #active
 * #99130 "Principauté d'Andorre"
 * #99130 ^designation[0].language = #fr-FR
 * #99130 ^designation[=].use.system = "http://snomed.info/sct"
@@ -291,6 +371,8 @@ Description: "Référentiel des codes pays provenant du COG INSEE"
 * #99130 ^property[=].valueDateTime = "2016-02-09T00:00:00+01:00"
 * #99130 ^property[+].code = #dateMaj
 * #99130 ^property[=].valueDateTime = "2024-01-26T12:00:00+01:00"
+* #99130 ^property[+].code = #status
+* #99130 ^property[=].valueCode = #active
 * #99131 "Royaume de Belgique"
 * #99131 ^designation[0].language = #fr-FR
 * #99131 ^designation[=].use.system = "http://snomed.info/sct"
@@ -300,6 +382,8 @@ Description: "Référentiel des codes pays provenant du COG INSEE"
 * #99131 ^property[=].valueDateTime = "2016-02-09T00:00:00+01:00"
 * #99131 ^property[+].code = #dateMaj
 * #99131 ^property[=].valueDateTime = "2024-01-26T12:00:00+01:00"
+* #99131 ^property[+].code = #status
+* #99131 ^property[=].valueCode = #active
 * #99132 "Royaume-Uni de Grande-Bretagne et d'Irlande du Nord"
 * #99132 ^designation[0].language = #fr-FR
 * #99132 ^designation[=].use.system = "http://snomed.info/sct"
@@ -309,7 +393,9 @@ Description: "Référentiel des codes pays provenant du COG INSEE"
 * #99132 ^property[=].valueDateTime = "2016-02-09T00:00:00+01:00"
 * #99132 ^property[+].code = #dateMaj
 * #99132 ^property[=].valueDateTime = "2024-01-26T12:00:00+01:00"
-* #99133 "Gibraltar, Akrotiri, Dhekelia"
+* #99132 ^property[+].code = #status
+* #99132 ^property[=].valueCode = #active
+* #99133 "Gibraltar, Akrotiri et Dhekelia"
 * #99133 ^designation[0].language = #fr-FR
 * #99133 ^designation[=].use.system = "http://snomed.info/sct"
 * #99133 ^designation[=].use = $sct#900000000000013009
@@ -321,7 +407,9 @@ Description: "Référentiel des codes pays provenant du COG INSEE"
 * #99133 ^property[0].code = #dateValid
 * #99133 ^property[=].valueDateTime = "2016-02-09T00:00:00+01:00"
 * #99133 ^property[+].code = #dateMaj
-* #99133 ^property[=].valueDateTime = "2024-12-13T12:00:00+01:00"
+* #99133 ^property[=].valueDateTime = "2025-03-28T12:00:00+01:00"
+* #99133 ^property[+].code = #status
+* #99133 ^property[=].valueCode = #active
 * #99134 "Royaume d'Espagne"
 * #99134 ^designation[0].language = #fr-FR
 * #99134 ^designation[=].use.system = "http://snomed.info/sct"
@@ -331,6 +419,8 @@ Description: "Référentiel des codes pays provenant du COG INSEE"
 * #99134 ^property[=].valueDateTime = "2016-02-09T00:00:00+01:00"
 * #99134 ^property[+].code = #dateMaj
 * #99134 ^property[=].valueDateTime = "2024-01-26T12:00:00+01:00"
+* #99134 ^property[+].code = #status
+* #99134 ^property[=].valueCode = #active
 * #99135 "Royaume des Pays-Bas"
 * #99135 ^designation[0].language = #fr-FR
 * #99135 ^designation[=].use.system = "http://snomed.info/sct"
@@ -340,11 +430,15 @@ Description: "Référentiel des codes pays provenant du COG INSEE"
 * #99135 ^property[=].valueDateTime = "2016-02-09T00:00:00+01:00"
 * #99135 ^property[+].code = #dateMaj
 * #99135 ^property[=].valueDateTime = "2024-01-26T12:00:00+01:00"
+* #99135 ^property[+].code = #status
+* #99135 ^property[=].valueCode = #active
 * #99136 "Irlande"
 * #99136 ^property[0].code = #dateValid
 * #99136 ^property[=].valueDateTime = "2016-02-09T00:00:00+01:00"
 * #99136 ^property[+].code = #dateMaj
 * #99136 ^property[=].valueDateTime = "2024-06-28T12:00:00+01:00"
+* #99136 ^property[+].code = #status
+* #99136 ^property[=].valueCode = #active
 * #99137 "Grand-Duché du Luxembourg"
 * #99137 ^designation[0].language = #fr-FR
 * #99137 ^designation[=].use.system = "http://snomed.info/sct"
@@ -354,6 +448,8 @@ Description: "Référentiel des codes pays provenant du COG INSEE"
 * #99137 ^property[=].valueDateTime = "2016-02-09T00:00:00+01:00"
 * #99137 ^property[+].code = #dateMaj
 * #99137 ^property[=].valueDateTime = "2024-06-28T12:00:00+01:00"
+* #99137 ^property[+].code = #status
+* #99137 ^property[=].valueCode = #active
 * #99138 "Principauté de Monaco"
 * #99138 ^designation[0].language = #fr-FR
 * #99138 ^designation[=].use.system = "http://snomed.info/sct"
@@ -363,6 +459,8 @@ Description: "Référentiel des codes pays provenant du COG INSEE"
 * #99138 ^property[=].valueDateTime = "2016-02-09T00:00:00+01:00"
 * #99138 ^property[+].code = #dateMaj
 * #99138 ^property[=].valueDateTime = "2024-01-26T12:00:00+01:00"
+* #99138 ^property[+].code = #status
+* #99138 ^property[=].valueCode = #active
 * #99139 "République portugaise"
 * #99139 ^designation[0].language = #fr-FR
 * #99139 ^designation[=].use.system = "http://snomed.info/sct"
@@ -372,6 +470,8 @@ Description: "Référentiel des codes pays provenant du COG INSEE"
 * #99139 ^property[=].valueDateTime = "2016-02-09T00:00:00+01:00"
 * #99139 ^property[+].code = #dateMaj
 * #99139 ^property[=].valueDateTime = "2024-01-26T12:00:00+01:00"
+* #99139 ^property[+].code = #status
+* #99139 ^property[=].valueCode = #active
 * #99140 "Confédération suisse"
 * #99140 ^designation[0].language = #fr-FR
 * #99140 ^designation[=].use.system = "http://snomed.info/sct"
@@ -381,6 +481,8 @@ Description: "Référentiel des codes pays provenant du COG INSEE"
 * #99140 ^property[=].valueDateTime = "2016-02-09T00:00:00+01:00"
 * #99140 ^property[+].code = #dateMaj
 * #99140 ^property[=].valueDateTime = "2024-01-26T12:00:00+01:00"
+* #99140 ^property[+].code = #status
+* #99140 ^property[=].valueCode = #active
 * #99141 "République démocratique allemande"
 * #99141 ^designation[0].language = #fr-FR
 * #99141 ^designation[=].use.system = "http://snomed.info/sct"
@@ -392,6 +494,10 @@ Description: "Référentiel des codes pays provenant du COG INSEE"
 * #99141 ^property[=].valueDateTime = "2016-02-09T00:00:00+01:00"
 * #99141 ^property[+].code = #dateMaj
 * #99141 ^property[=].valueDateTime = "2024-01-26T12:00:00+01:00"
+* #99141 ^property[+].code = #deprecationDate
+* #99141 ^property[=].valueDateTime = "2016-02-09T00:00:00+01:00"
+* #99141 ^property[+].code = #status
+* #99141 ^property[=].valueCode = #deprecated
 * #99142 "République fédérale d'Allemagne"
 * #99142 ^designation[0].language = #fr-FR
 * #99142 ^designation[=].use.system = "http://snomed.info/sct"
@@ -403,6 +509,10 @@ Description: "Référentiel des codes pays provenant du COG INSEE"
 * #99142 ^property[=].valueDateTime = "2016-02-09T00:00:00+01:00"
 * #99142 ^property[+].code = #dateMaj
 * #99142 ^property[=].valueDateTime = "2024-01-26T12:00:00+01:00"
+* #99142 ^property[+].code = #deprecationDate
+* #99142 ^property[=].valueDateTime = "2016-02-09T00:00:00+01:00"
+* #99142 ^property[+].code = #status
+* #99142 ^property[=].valueCode = #deprecated
 * #99144 "République de Malte"
 * #99144 ^designation[0].language = #fr-FR
 * #99144 ^designation[=].use.system = "http://snomed.info/sct"
@@ -412,6 +522,8 @@ Description: "Référentiel des codes pays provenant du COG INSEE"
 * #99144 ^property[=].valueDateTime = "2016-02-09T00:00:00+01:00"
 * #99144 ^property[+].code = #dateMaj
 * #99144 ^property[=].valueDateTime = "2024-01-26T12:00:00+01:00"
+* #99144 ^property[+].code = #status
+* #99144 ^property[=].valueCode = #active
 * #99145 "République de Slovénie"
 * #99145 ^designation[0].language = #fr-FR
 * #99145 ^designation[=].use.system = "http://snomed.info/sct"
@@ -421,6 +533,8 @@ Description: "Référentiel des codes pays provenant du COG INSEE"
 * #99145 ^property[=].valueDateTime = "2016-02-09T00:00:00+01:00"
 * #99145 ^property[+].code = #dateMaj
 * #99145 ^property[=].valueDateTime = "2024-01-26T12:00:00+01:00"
+* #99145 ^property[+].code = #status
+* #99145 ^property[=].valueCode = #active
 * #99148 "République de Biélorussie"
 * #99148 ^designation[0].language = #fr-FR
 * #99148 ^designation[=].use.system = "http://snomed.info/sct"
@@ -430,6 +544,8 @@ Description: "Référentiel des codes pays provenant du COG INSEE"
 * #99148 ^property[=].valueDateTime = "2016-02-09T00:00:00+01:00"
 * #99148 ^property[+].code = #dateMaj
 * #99148 ^property[=].valueDateTime = "2024-01-26T12:00:00+01:00"
+* #99148 ^property[+].code = #status
+* #99148 ^property[=].valueCode = #active
 * #99151 "République de Moldavie"
 * #99151 ^designation[0].language = #fr-FR
 * #99151 ^designation[=].use.system = "http://snomed.info/sct"
@@ -439,11 +555,15 @@ Description: "Référentiel des codes pays provenant du COG INSEE"
 * #99151 ^property[=].valueDateTime = "2016-02-09T00:00:00+01:00"
 * #99151 ^property[+].code = #dateMaj
 * #99151 ^property[=].valueDateTime = "2024-01-26T12:00:00+01:00"
+* #99151 ^property[+].code = #status
+* #99151 ^property[=].valueCode = #active
 * #99155 "Ukraine"
 * #99155 ^property[0].code = #dateValid
 * #99155 ^property[=].valueDateTime = "2016-02-09T00:00:00+01:00"
 * #99155 ^property[+].code = #dateMaj
 * #99155 ^property[=].valueDateTime = "2024-01-26T12:00:00+01:00"
+* #99155 ^property[+].code = #status
+* #99155 ^property[=].valueCode = #active
 * #99156 "République de Macédoine du Nord"
 * #99156 ^designation[0].language = #fr-FR
 * #99156 ^designation[=].use.system = "http://snomed.info/sct"
@@ -453,6 +573,8 @@ Description: "Référentiel des codes pays provenant du COG INSEE"
 * #99156 ^property[=].valueDateTime = "2016-02-09T00:00:00+01:00"
 * #99156 ^property[+].code = #dateMaj
 * #99156 ^property[=].valueDateTime = "2024-06-28T12:00:00+01:00"
+* #99156 ^property[+].code = #status
+* #99156 ^property[=].valueCode = #active
 * #99157 "République du Kosovo"
 * #99157 ^designation[0].language = #fr-FR
 * #99157 ^designation[=].use.system = "http://snomed.info/sct"
@@ -462,6 +584,8 @@ Description: "Référentiel des codes pays provenant du COG INSEE"
 * #99157 ^property[=].valueDateTime = "2016-02-09T00:00:00+01:00"
 * #99157 ^property[+].code = #dateMaj
 * #99157 ^property[=].valueDateTime = "2024-01-26T12:00:00+01:00"
+* #99157 ^property[+].code = #status
+* #99157 ^property[=].valueCode = #active
 * #99201 "Royaume d'Arabie saoudite"
 * #99201 ^designation[0].language = #fr-FR
 * #99201 ^designation[=].use.system = "http://snomed.info/sct"
@@ -471,6 +595,8 @@ Description: "Référentiel des codes pays provenant du COG INSEE"
 * #99201 ^property[=].valueDateTime = "2016-02-09T00:00:00+01:00"
 * #99201 ^property[+].code = #dateMaj
 * #99201 ^property[=].valueDateTime = "2024-01-26T12:00:00+01:00"
+* #99201 ^property[+].code = #status
+* #99201 ^property[=].valueCode = #active
 * #99202 "Yémen (République arabe du)"
 * #99202 ^property[0].code = #dateValid
 * #99202 ^property[=].valueDateTime = "2016-02-09T00:00:00+01:00"
@@ -478,6 +604,10 @@ Description: "Référentiel des codes pays provenant du COG INSEE"
 * #99202 ^property[=].valueDateTime = "2016-02-09T00:00:00+01:00"
 * #99202 ^property[+].code = #dateMaj
 * #99202 ^property[=].valueDateTime = "2024-01-26T12:00:00+01:00"
+* #99202 ^property[+].code = #deprecationDate
+* #99202 ^property[=].valueDateTime = "2016-02-09T00:00:00+01:00"
+* #99202 ^property[+].code = #status
+* #99202 ^property[=].valueCode = #deprecated
 * #99203 "République d'Irak"
 * #99203 ^designation[0].language = #fr-FR
 * #99203 ^designation[=].use.system = "http://snomed.info/sct"
@@ -487,6 +617,8 @@ Description: "Référentiel des codes pays provenant du COG INSEE"
 * #99203 ^property[=].valueDateTime = "2016-02-09T00:00:00+01:00"
 * #99203 ^property[+].code = #dateMaj
 * #99203 ^property[=].valueDateTime = "2024-06-28T12:00:00+01:00"
+* #99203 ^property[+].code = #status
+* #99203 ^property[=].valueCode = #active
 * #99204 "République islamique d'Iran"
 * #99204 ^designation[0].language = #fr-FR
 * #99204 ^designation[=].use.system = "http://snomed.info/sct"
@@ -496,6 +628,8 @@ Description: "Référentiel des codes pays provenant du COG INSEE"
 * #99204 ^property[=].valueDateTime = "2016-02-09T00:00:00+01:00"
 * #99204 ^property[+].code = #dateMaj
 * #99204 ^property[=].valueDateTime = "2024-01-26T12:00:00+01:00"
+* #99204 ^property[+].code = #status
+* #99204 ^property[=].valueCode = #active
 * #99205 "République libanaise"
 * #99205 ^designation[0].language = #fr-FR
 * #99205 ^designation[=].use.system = "http://snomed.info/sct"
@@ -505,6 +639,8 @@ Description: "Référentiel des codes pays provenant du COG INSEE"
 * #99205 ^property[=].valueDateTime = "2016-02-09T00:00:00+01:00"
 * #99205 ^property[+].code = #dateMaj
 * #99205 ^property[=].valueDateTime = "2024-01-26T12:00:00+01:00"
+* #99205 ^property[+].code = #status
+* #99205 ^property[=].valueCode = #active
 * #99206 "République arabe syrienne"
 * #99206 ^designation[0].language = #fr-FR
 * #99206 ^designation[=].use.system = "http://snomed.info/sct"
@@ -514,6 +650,8 @@ Description: "Référentiel des codes pays provenant du COG INSEE"
 * #99206 ^property[=].valueDateTime = "2016-02-09T00:00:00+01:00"
 * #99206 ^property[+].code = #dateMaj
 * #99206 ^property[=].valueDateTime = "2024-01-26T12:00:00+01:00"
+* #99206 ^property[+].code = #status
+* #99206 ^property[=].valueCode = #active
 * #99207 "État d'Israël"
 * #99207 ^designation[0].language = #fr-FR
 * #99207 ^designation[=].use.system = "http://snomed.info/sct"
@@ -523,6 +661,8 @@ Description: "Référentiel des codes pays provenant du COG INSEE"
 * #99207 ^property[=].valueDateTime = "2016-02-09T00:00:00+01:00"
 * #99207 ^property[+].code = #dateMaj
 * #99207 ^property[=].valueDateTime = "2024-01-26T12:00:00+01:00"
+* #99207 ^property[+].code = #status
+* #99207 ^property[=].valueCode = #active
 * #99208 "République de Turquie"
 * #99208 ^designation[0].language = #fr-FR
 * #99208 ^designation[=].use.system = "http://snomed.info/sct"
@@ -532,6 +672,8 @@ Description: "Référentiel des codes pays provenant du COG INSEE"
 * #99208 ^property[=].valueDateTime = "2016-02-09T00:00:00+01:00"
 * #99208 ^property[+].code = #dateMaj
 * #99208 ^property[=].valueDateTime = "2024-06-28T12:00:00+01:00"
+* #99208 ^property[+].code = #status
+* #99208 ^property[=].valueCode = #active
 * #99209 "Sibérie"
 * #99209 ^property[0].code = #dateValid
 * #99209 ^property[=].valueDateTime = "2016-02-09T00:00:00+01:00"
@@ -539,6 +681,10 @@ Description: "Référentiel des codes pays provenant du COG INSEE"
 * #99209 ^property[=].valueDateTime = "2016-02-09T00:00:00+01:00"
 * #99209 ^property[+].code = #dateMaj
 * #99209 ^property[=].valueDateTime = "2024-01-26T12:00:00+01:00"
+* #99209 ^property[+].code = #deprecationDate
+* #99209 ^property[=].valueDateTime = "2016-02-09T00:00:00+01:00"
+* #99209 ^property[+].code = #status
+* #99209 ^property[=].valueCode = #deprecated
 * #99210 "Turkestan russe"
 * #99210 ^property[0].code = #dateValid
 * #99210 ^property[=].valueDateTime = "2016-02-09T00:00:00+01:00"
@@ -546,6 +692,10 @@ Description: "Référentiel des codes pays provenant du COG INSEE"
 * #99210 ^property[=].valueDateTime = "2016-02-09T00:00:00+01:00"
 * #99210 ^property[+].code = #dateMaj
 * #99210 ^property[=].valueDateTime = "2024-01-26T12:00:00+01:00"
+* #99210 ^property[+].code = #deprecationDate
+* #99210 ^property[=].valueDateTime = "2016-02-09T00:00:00+01:00"
+* #99210 ^property[+].code = #status
+* #99210 ^property[=].valueCode = #deprecated
 * #99211 "Kamtchatka"
 * #99211 ^property[0].code = #dateValid
 * #99211 ^property[=].valueDateTime = "2016-02-09T00:00:00+01:00"
@@ -553,6 +703,10 @@ Description: "Référentiel des codes pays provenant du COG INSEE"
 * #99211 ^property[=].valueDateTime = "2016-02-09T00:00:00+01:00"
 * #99211 ^property[+].code = #dateMaj
 * #99211 ^property[=].valueDateTime = "2024-01-26T12:00:00+01:00"
+* #99211 ^property[+].code = #deprecationDate
+* #99211 ^property[=].valueDateTime = "2016-02-09T00:00:00+01:00"
+* #99211 ^property[+].code = #status
+* #99211 ^property[=].valueCode = #deprecated
 * #99212 "République islamique d'Afghanistan"
 * #99212 ^designation[0].language = #fr-FR
 * #99212 ^designation[=].use.system = "http://snomed.info/sct"
@@ -562,6 +716,8 @@ Description: "Référentiel des codes pays provenant du COG INSEE"
 * #99212 ^property[=].valueDateTime = "2016-02-09T00:00:00+01:00"
 * #99212 ^property[+].code = #dateMaj
 * #99212 ^property[=].valueDateTime = "2024-06-28T12:00:00+01:00"
+* #99212 ^property[+].code = #status
+* #99212 ^property[=].valueCode = #active
 * #99213 "République islamique du Pakistan"
 * #99213 ^designation[0].language = #fr-FR
 * #99213 ^designation[=].use.system = "http://snomed.info/sct"
@@ -571,6 +727,8 @@ Description: "Référentiel des codes pays provenant du COG INSEE"
 * #99213 ^property[=].valueDateTime = "2016-02-09T00:00:00+01:00"
 * #99213 ^property[+].code = #dateMaj
 * #99213 ^property[=].valueDateTime = "2024-01-26T12:00:00+01:00"
+* #99213 ^property[+].code = #status
+* #99213 ^property[=].valueCode = #active
 * #99214 "Royaume du Bhoutan"
 * #99214 ^designation[0].language = #fr-FR
 * #99214 ^designation[=].use.system = "http://snomed.info/sct"
@@ -580,11 +738,15 @@ Description: "Référentiel des codes pays provenant du COG INSEE"
 * #99214 ^property[=].valueDateTime = "2016-02-09T00:00:00+01:00"
 * #99214 ^property[+].code = #dateMaj
 * #99214 ^property[=].valueDateTime = "2024-01-26T12:00:00+01:00"
+* #99214 ^property[+].code = #status
+* #99214 ^property[=].valueCode = #active
 * #99215 "Népal"
 * #99215 ^property[0].code = #dateValid
 * #99215 ^property[=].valueDateTime = "2016-02-09T00:00:00+01:00"
 * #99215 ^property[+].code = #dateMaj
 * #99215 ^property[=].valueDateTime = "2024-01-26T12:00:00+01:00"
+* #99215 ^property[+].code = #status
+* #99215 ^property[=].valueCode = #active
 * #99216 "République populaire de Chine"
 * #99216 ^designation[0].language = #fr-FR
 * #99216 ^designation[=].use.system = "http://snomed.info/sct"
@@ -594,11 +756,15 @@ Description: "Référentiel des codes pays provenant du COG INSEE"
 * #99216 ^property[=].valueDateTime = "2016-02-09T00:00:00+01:00"
 * #99216 ^property[+].code = #dateMaj
 * #99216 ^property[=].valueDateTime = "2024-01-26T12:00:00+01:00"
+* #99216 ^property[+].code = #status
+* #99216 ^property[=].valueCode = #active
 * #99217 "Japon"
 * #99217 ^property[0].code = #dateValid
 * #99217 ^property[=].valueDateTime = "2016-02-09T00:00:00+01:00"
 * #99217 ^property[+].code = #dateMaj
 * #99217 ^property[=].valueDateTime = "2024-01-26T12:00:00+01:00"
+* #99217 ^property[+].code = #status
+* #99217 ^property[=].valueCode = #active
 * #99218 "Mandchourie"
 * #99218 ^property[0].code = #dateValid
 * #99218 ^property[=].valueDateTime = "2016-02-09T00:00:00+01:00"
@@ -606,6 +772,10 @@ Description: "Référentiel des codes pays provenant du COG INSEE"
 * #99218 ^property[=].valueDateTime = "2016-02-09T00:00:00+01:00"
 * #99218 ^property[+].code = #dateMaj
 * #99218 ^property[=].valueDateTime = "2024-01-26T12:00:00+01:00"
+* #99218 ^property[+].code = #deprecationDate
+* #99218 ^property[=].valueDateTime = "2016-02-09T00:00:00+01:00"
+* #99218 ^property[+].code = #status
+* #99218 ^property[=].valueCode = #deprecated
 * #99219 "Royaume de Thaïlande"
 * #99219 ^designation[0].language = #fr-FR
 * #99219 ^designation[=].use.system = "http://snomed.info/sct"
@@ -615,6 +785,8 @@ Description: "Référentiel des codes pays provenant du COG INSEE"
 * #99219 ^property[=].valueDateTime = "2016-02-09T00:00:00+01:00"
 * #99219 ^property[+].code = #dateMaj
 * #99219 ^property[=].valueDateTime = "2024-01-26T12:00:00+01:00"
+* #99219 ^property[+].code = #status
+* #99219 ^property[=].valueCode = #active
 * #99220 "République des Philippines"
 * #99220 ^designation[0].language = #fr-FR
 * #99220 ^designation[=].use.system = "http://snomed.info/sct"
@@ -624,6 +796,8 @@ Description: "Référentiel des codes pays provenant du COG INSEE"
 * #99220 ^property[=].valueDateTime = "2016-02-09T00:00:00+01:00"
 * #99220 ^property[+].code = #dateMaj
 * #99220 ^property[=].valueDateTime = "2024-01-26T12:00:00+01:00"
+* #99220 ^property[+].code = #status
+* #99220 ^property[=].valueCode = #active
 * #99221 "Possessions britanniques au Proche-Orient"
 * #99221 ^designation[0].language = #fr-FR
 * #99221 ^designation[=].use.system = "http://snomed.info/sct"
@@ -635,6 +809,10 @@ Description: "Référentiel des codes pays provenant du COG INSEE"
 * #99221 ^property[=].valueDateTime = "2016-02-09T00:00:00+01:00"
 * #99221 ^property[+].code = #dateMaj
 * #99221 ^property[=].valueDateTime = "2024-01-26T12:00:00+01:00"
+* #99221 ^property[+].code = #deprecationDate
+* #99221 ^property[=].valueDateTime = "2016-02-09T00:00:00+01:00"
+* #99221 ^property[+].code = #status
+* #99221 ^property[=].valueCode = #deprecated
 * #99222 "Royaume hachémite de Jordanie"
 * #99222 ^designation[0].language = #fr-FR
 * #99222 ^designation[=].use.system = "http://snomed.info/sct"
@@ -644,6 +822,8 @@ Description: "Référentiel des codes pays provenant du COG INSEE"
 * #99222 ^property[=].valueDateTime = "2016-02-09T00:00:00+01:00"
 * #99222 ^property[+].code = #dateMaj
 * #99222 ^property[=].valueDateTime = "2024-01-26T12:00:00+01:00"
+* #99222 ^property[+].code = #status
+* #99222 ^property[=].valueCode = #active
 * #99223 "République de l'Inde"
 * #99223 ^designation[0].language = #fr-FR
 * #99223 ^designation[=].use.system = "http://snomed.info/sct"
@@ -653,6 +833,8 @@ Description: "Référentiel des codes pays provenant du COG INSEE"
 * #99223 ^property[=].valueDateTime = "2016-02-09T00:00:00+01:00"
 * #99223 ^property[+].code = #dateMaj
 * #99223 ^property[=].valueDateTime = "2024-01-26T12:00:00+01:00"
+* #99223 ^property[+].code = #status
+* #99223 ^property[=].valueCode = #active
 * #99224 "République de l'Union de Birmanie"
 * #99224 ^designation[0].language = #fr-FR
 * #99224 ^designation[=].use.system = "http://snomed.info/sct"
@@ -662,6 +844,8 @@ Description: "Référentiel des codes pays provenant du COG INSEE"
 * #99224 ^property[=].valueDateTime = "2016-02-09T00:00:00+01:00"
 * #99224 ^property[+].code = #dateMaj
 * #99224 ^property[=].valueDateTime = "2024-06-28T12:00:00+01:00"
+* #99224 ^property[+].code = #status
+* #99224 ^property[=].valueCode = #active
 * #99225 "Brunei Darussalam"
 * #99225 ^designation[0].language = #fr-FR
 * #99225 ^designation[=].use.system = "http://snomed.info/sct"
@@ -671,6 +855,8 @@ Description: "Référentiel des codes pays provenant du COG INSEE"
 * #99225 ^property[=].valueDateTime = "2016-02-09T00:00:00+01:00"
 * #99225 ^property[+].code = #dateMaj
 * #99225 ^property[=].valueDateTime = "2024-06-28T12:00:00+01:00"
+* #99225 ^property[+].code = #status
+* #99225 ^property[=].valueCode = #active
 * #99226 "République de Singapour"
 * #99226 ^designation[0].language = #fr-FR
 * #99226 ^designation[=].use.system = "http://snomed.info/sct"
@@ -680,11 +866,15 @@ Description: "Référentiel des codes pays provenant du COG INSEE"
 * #99226 ^property[=].valueDateTime = "2016-02-09T00:00:00+01:00"
 * #99226 ^property[+].code = #dateMaj
 * #99226 ^property[=].valueDateTime = "2024-01-26T12:00:00+01:00"
+* #99226 ^property[+].code = #status
+* #99226 ^property[=].valueCode = #active
 * #99227 "Malaisie"
 * #99227 ^property[0].code = #dateValid
 * #99227 ^property[=].valueDateTime = "2016-02-09T00:00:00+01:00"
 * #99227 ^property[+].code = #dateMaj
 * #99227 ^property[=].valueDateTime = "2024-01-26T12:00:00+01:00"
+* #99227 ^property[+].code = #status
+* #99227 ^property[=].valueCode = #active
 * #99228 "États malais non fédérés"
 * #99228 ^property[0].code = #dateValid
 * #99228 ^property[=].valueDateTime = "2016-02-09T00:00:00+01:00"
@@ -692,6 +882,10 @@ Description: "Référentiel des codes pays provenant du COG INSEE"
 * #99228 ^property[=].valueDateTime = "2016-02-09T00:00:00+01:00"
 * #99228 ^property[+].code = #dateMaj
 * #99228 ^property[=].valueDateTime = "2024-01-26T12:00:00+01:00"
+* #99228 ^property[+].code = #deprecationDate
+* #99228 ^property[=].valueDateTime = "2016-02-09T00:00:00+01:00"
+* #99228 ^property[+].code = #status
+* #99228 ^property[=].valueCode = #deprecated
 * #99229 "République des Maldives"
 * #99229 ^designation[0].language = #fr-FR
 * #99229 ^designation[=].use.system = "http://snomed.info/sct"
@@ -701,11 +895,15 @@ Description: "Référentiel des codes pays provenant du COG INSEE"
 * #99229 ^property[=].valueDateTime = "2016-02-09T00:00:00+01:00"
 * #99229 ^property[+].code = #dateMaj
 * #99229 ^property[=].valueDateTime = "2024-01-26T12:00:00+01:00"
+* #99229 ^property[+].code = #status
+* #99229 ^property[=].valueCode = #active
 * #99230 "Hong Kong"
 * #99230 ^property[0].code = #dateValid
 * #99230 ^property[=].valueDateTime = "2016-02-09T00:00:00+01:00"
 * #99230 ^property[+].code = #dateMaj
 * #99230 ^property[=].valueDateTime = "2024-12-13T12:00:00+01:00"
+* #99230 ^property[+].code = #status
+* #99230 ^property[=].valueCode = #active
 * #99231 "République d'Indonésie"
 * #99231 ^designation[0].language = #fr-FR
 * #99231 ^designation[=].use.system = "http://snomed.info/sct"
@@ -715,11 +913,15 @@ Description: "Référentiel des codes pays provenant du COG INSEE"
 * #99231 ^property[=].valueDateTime = "2016-02-09T00:00:00+01:00"
 * #99231 ^property[+].code = #dateMaj
 * #99231 ^property[=].valueDateTime = "2024-01-26T12:00:00+01:00"
+* #99231 ^property[+].code = #status
+* #99231 ^property[=].valueCode = #active
 * #99232 "Macao"
 * #99232 ^property[0].code = #dateValid
 * #99232 ^property[=].valueDateTime = "2016-02-09T00:00:00+01:00"
 * #99232 ^property[+].code = #dateMaj
 * #99232 ^property[=].valueDateTime = "2024-12-13T12:00:00+01:00"
+* #99232 ^property[+].code = #status
+* #99232 ^property[=].valueCode = #active
 * #99233 "Yémen démocratique"
 * #99233 ^property[0].code = #dateValid
 * #99233 ^property[=].valueDateTime = "2016-02-09T00:00:00+01:00"
@@ -727,6 +929,10 @@ Description: "Référentiel des codes pays provenant du COG INSEE"
 * #99233 ^property[=].valueDateTime = "2016-02-09T00:00:00+01:00"
 * #99233 ^property[+].code = #dateMaj
 * #99233 ^property[=].valueDateTime = "2024-01-26T12:00:00+01:00"
+* #99233 ^property[+].code = #deprecationDate
+* #99233 ^property[=].valueDateTime = "2016-02-09T00:00:00+01:00"
+* #99233 ^property[+].code = #status
+* #99233 ^property[=].valueCode = #deprecated
 * #99234 "Royaume du Cambodge"
 * #99234 ^designation[0].language = #fr-FR
 * #99234 ^designation[=].use.system = "http://snomed.info/sct"
@@ -736,6 +942,8 @@ Description: "Référentiel des codes pays provenant du COG INSEE"
 * #99234 ^property[=].valueDateTime = "2016-02-09T00:00:00+01:00"
 * #99234 ^property[+].code = #dateMaj
 * #99234 ^property[=].valueDateTime = "2024-01-26T12:00:00+01:00"
+* #99234 ^property[+].code = #status
+* #99234 ^property[=].valueCode = #active
 * #99235 "République démocratique socialiste du Sri Lanka"
 * #99235 ^designation[0].language = #fr-FR
 * #99235 ^designation[=].use.system = "http://snomed.info/sct"
@@ -745,11 +953,15 @@ Description: "Référentiel des codes pays provenant du COG INSEE"
 * #99235 ^property[=].valueDateTime = "2016-02-09T00:00:00+01:00"
 * #99235 ^property[+].code = #dateMaj
 * #99235 ^property[=].valueDateTime = "2024-01-26T12:00:00+01:00"
+* #99235 ^property[+].code = #status
+* #99235 ^property[=].valueCode = #active
 * #99236 "Taïwan"
 * #99236 ^property[0].code = #dateValid
 * #99236 ^property[=].valueDateTime = "2016-02-09T00:00:00+01:00"
 * #99236 ^property[+].code = #dateMaj
 * #99236 ^property[=].valueDateTime = "2024-01-26T12:00:00+01:00"
+* #99236 ^property[+].code = #status
+* #99236 ^property[=].valueCode = #active
 * #99237 "Corée"
 * #99237 ^property[0].code = #dateValid
 * #99237 ^property[=].valueDateTime = "2016-02-09T00:00:00+01:00"
@@ -757,6 +969,10 @@ Description: "Référentiel des codes pays provenant du COG INSEE"
 * #99237 ^property[=].valueDateTime = "2016-02-09T00:00:00+01:00"
 * #99237 ^property[+].code = #dateMaj
 * #99237 ^property[=].valueDateTime = "2024-01-26T12:00:00+01:00"
+* #99237 ^property[+].code = #deprecationDate
+* #99237 ^property[=].valueDateTime = "2016-02-09T00:00:00+01:00"
+* #99237 ^property[+].code = #status
+* #99237 ^property[=].valueCode = #deprecated
 * #99238 "République populaire démocratique de Corée"
 * #99238 ^designation[0].language = #fr-FR
 * #99238 ^designation[=].use.system = "http://snomed.info/sct"
@@ -766,6 +982,8 @@ Description: "Référentiel des codes pays provenant du COG INSEE"
 * #99238 ^property[=].valueDateTime = "2016-02-09T00:00:00+01:00"
 * #99238 ^property[+].code = #dateMaj
 * #99238 ^property[=].valueDateTime = "2024-06-28T12:00:00+01:00"
+* #99238 ^property[+].code = #status
+* #99238 ^property[=].valueCode = #active
 * #99239 "République de Corée"
 * #99239 ^designation[0].language = #fr-FR
 * #99239 ^designation[=].use.system = "http://snomed.info/sct"
@@ -775,6 +993,8 @@ Description: "Référentiel des codes pays provenant du COG INSEE"
 * #99239 ^property[=].valueDateTime = "2016-02-09T00:00:00+01:00"
 * #99239 ^property[+].code = #dateMaj
 * #99239 ^property[=].valueDateTime = "2024-06-28T12:00:00+01:00"
+* #99239 ^property[+].code = #status
+* #99239 ^property[=].valueCode = #active
 * #99240 "État du Koweït"
 * #99240 ^designation[0].language = #fr-FR
 * #99240 ^designation[=].use.system = "http://snomed.info/sct"
@@ -784,6 +1004,8 @@ Description: "Référentiel des codes pays provenant du COG INSEE"
 * #99240 ^property[=].valueDateTime = "2016-02-09T00:00:00+01:00"
 * #99240 ^property[+].code = #dateMaj
 * #99240 ^property[=].valueDateTime = "2024-01-26T12:00:00+01:00"
+* #99240 ^property[+].code = #status
+* #99240 ^property[=].valueCode = #active
 * #99241 "République démocratique populaire lao"
 * #99241 ^designation[0].language = #fr-FR
 * #99241 ^designation[=].use.system = "http://snomed.info/sct"
@@ -793,11 +1015,15 @@ Description: "Référentiel des codes pays provenant du COG INSEE"
 * #99241 ^property[=].valueDateTime = "2016-02-09T00:00:00+01:00"
 * #99241 ^property[+].code = #dateMaj
 * #99241 ^property[=].valueDateTime = "2024-01-26T12:00:00+01:00"
+* #99241 ^property[+].code = #status
+* #99241 ^property[=].valueCode = #active
 * #99242 "Mongolie"
 * #99242 ^property[0].code = #dateValid
 * #99242 ^property[=].valueDateTime = "2016-02-09T00:00:00+01:00"
 * #99242 ^property[+].code = #dateMaj
 * #99242 ^property[=].valueDateTime = "2024-01-26T12:00:00+01:00"
+* #99242 ^property[+].code = #status
+* #99242 ^property[=].valueCode = #active
 * #99243 "République socialiste du Vietnam"
 * #99243 ^designation[0].language = #fr-FR
 * #99243 ^designation[=].use.system = "http://snomed.info/sct"
@@ -807,6 +1033,8 @@ Description: "Référentiel des codes pays provenant du COG INSEE"
 * #99243 ^property[=].valueDateTime = "2016-02-09T00:00:00+01:00"
 * #99243 ^property[+].code = #dateMaj
 * #99243 ^property[=].valueDateTime = "2024-06-28T12:00:00+01:00"
+* #99243 ^property[+].code = #status
+* #99243 ^property[=].valueCode = #active
 * #99244 "Vietnam du nord"
 * #99244 ^property[0].code = #dateValid
 * #99244 ^property[=].valueDateTime = "2016-02-09T00:00:00+01:00"
@@ -814,6 +1042,10 @@ Description: "Référentiel des codes pays provenant du COG INSEE"
 * #99244 ^property[=].valueDateTime = "2016-02-09T00:00:00+01:00"
 * #99244 ^property[+].code = #dateMaj
 * #99244 ^property[=].valueDateTime = "2024-06-28T12:00:00+01:00"
+* #99244 ^property[+].code = #deprecationDate
+* #99244 ^property[=].valueDateTime = "2016-02-09T00:00:00+01:00"
+* #99244 ^property[+].code = #status
+* #99244 ^property[=].valueCode = #deprecated
 * #99245 "Vietnam du sud"
 * #99245 ^property[0].code = #dateValid
 * #99245 ^property[=].valueDateTime = "2016-02-09T00:00:00+01:00"
@@ -821,6 +1053,10 @@ Description: "Référentiel des codes pays provenant du COG INSEE"
 * #99245 ^property[=].valueDateTime = "2016-02-09T00:00:00+01:00"
 * #99245 ^property[+].code = #dateMaj
 * #99245 ^property[=].valueDateTime = "2024-06-28T12:00:00+01:00"
+* #99245 ^property[+].code = #deprecationDate
+* #99245 ^property[=].valueDateTime = "2016-02-09T00:00:00+01:00"
+* #99245 ^property[+].code = #status
+* #99245 ^property[=].valueCode = #deprecated
 * #99246 "République populaire du Bangladesh"
 * #99246 ^designation[0].language = #fr-FR
 * #99246 ^designation[=].use.system = "http://snomed.info/sct"
@@ -830,11 +1066,15 @@ Description: "Référentiel des codes pays provenant du COG INSEE"
 * #99246 ^property[=].valueDateTime = "2016-02-09T00:00:00+01:00"
 * #99246 ^property[+].code = #dateMaj
 * #99246 ^property[=].valueDateTime = "2024-01-26T12:00:00+01:00"
+* #99246 ^property[+].code = #status
+* #99246 ^property[=].valueCode = #active
 * #99247 "Émirats arabes unis"
 * #99247 ^property[0].code = #dateValid
 * #99247 ^property[=].valueDateTime = "2016-02-09T00:00:00+01:00"
 * #99247 ^property[+].code = #dateMaj
 * #99247 ^property[=].valueDateTime = "2024-01-26T12:00:00+01:00"
+* #99247 ^property[+].code = #status
+* #99247 ^property[=].valueCode = #active
 * #99248 "État du Qatar"
 * #99248 ^designation[0].language = #fr-FR
 * #99248 ^designation[=].use.system = "http://snomed.info/sct"
@@ -844,6 +1084,8 @@ Description: "Référentiel des codes pays provenant du COG INSEE"
 * #99248 ^property[=].valueDateTime = "2016-02-09T00:00:00+01:00"
 * #99248 ^property[+].code = #dateMaj
 * #99248 ^property[=].valueDateTime = "2024-01-26T12:00:00+01:00"
+* #99248 ^property[+].code = #status
+* #99248 ^property[=].valueCode = #active
 * #99249 "Royaume de Bahreïn"
 * #99249 ^designation[0].language = #fr-FR
 * #99249 ^designation[=].use.system = "http://snomed.info/sct"
@@ -853,6 +1095,8 @@ Description: "Référentiel des codes pays provenant du COG INSEE"
 * #99249 ^property[=].valueDateTime = "2016-02-09T00:00:00+01:00"
 * #99249 ^property[+].code = #dateMaj
 * #99249 ^property[=].valueDateTime = "2024-06-28T12:00:00+01:00"
+* #99249 ^property[+].code = #status
+* #99249 ^property[=].valueCode = #active
 * #99250 "Sultanat d'Oman"
 * #99250 ^designation[0].language = #fr-FR
 * #99250 ^designation[=].use.system = "http://snomed.info/sct"
@@ -862,6 +1106,8 @@ Description: "Référentiel des codes pays provenant du COG INSEE"
 * #99250 ^property[=].valueDateTime = "2016-02-09T00:00:00+01:00"
 * #99250 ^property[+].code = #dateMaj
 * #99250 ^property[=].valueDateTime = "2024-01-26T12:00:00+01:00"
+* #99250 ^property[+].code = #status
+* #99250 ^property[=].valueCode = #active
 * #99251 "République du Yémen"
 * #99251 ^designation[0].language = #fr-FR
 * #99251 ^designation[=].use.system = "http://snomed.info/sct"
@@ -871,6 +1117,8 @@ Description: "Référentiel des codes pays provenant du COG INSEE"
 * #99251 ^property[=].valueDateTime = "2016-02-09T00:00:00+01:00"
 * #99251 ^property[+].code = #dateMaj
 * #99251 ^property[=].valueDateTime = "2024-01-26T12:00:00+01:00"
+* #99251 ^property[+].code = #status
+* #99251 ^property[=].valueCode = #active
 * #99252 "République d'Arménie"
 * #99252 ^designation[0].language = #fr-FR
 * #99252 ^designation[=].use.system = "http://snomed.info/sct"
@@ -880,6 +1128,8 @@ Description: "Référentiel des codes pays provenant du COG INSEE"
 * #99252 ^property[=].valueDateTime = "2016-02-09T00:00:00+01:00"
 * #99252 ^property[+].code = #dateMaj
 * #99252 ^property[=].valueDateTime = "2024-01-26T12:00:00+01:00"
+* #99252 ^property[+].code = #status
+* #99252 ^property[=].valueCode = #active
 * #99253 "République d'Azerbaïdjan"
 * #99253 ^designation[0].language = #fr-FR
 * #99253 ^designation[=].use.system = "http://snomed.info/sct"
@@ -889,6 +1139,8 @@ Description: "Référentiel des codes pays provenant du COG INSEE"
 * #99253 ^property[=].valueDateTime = "2016-02-09T00:00:00+01:00"
 * #99253 ^property[+].code = #dateMaj
 * #99253 ^property[=].valueDateTime = "2024-06-28T12:00:00+01:00"
+* #99253 ^property[+].code = #status
+* #99253 ^property[=].valueCode = #active
 * #99254 "République de Chypre"
 * #99254 ^designation[0].language = #fr-FR
 * #99254 ^designation[=].use.system = "http://snomed.info/sct"
@@ -898,11 +1150,15 @@ Description: "Référentiel des codes pays provenant du COG INSEE"
 * #99254 ^property[=].valueDateTime = "2016-02-09T00:00:00+01:00"
 * #99254 ^property[+].code = #dateMaj
 * #99254 ^property[=].valueDateTime = "2024-01-26T12:00:00+01:00"
+* #99254 ^property[+].code = #status
+* #99254 ^property[=].valueCode = #active
 * #99255 "Géorgie"
 * #99255 ^property[0].code = #dateValid
 * #99255 ^property[=].valueDateTime = "2016-02-09T00:00:00+01:00"
 * #99255 ^property[+].code = #dateMaj
 * #99255 ^property[=].valueDateTime = "2024-06-28T12:00:00+01:00"
+* #99255 ^property[+].code = #status
+* #99255 ^property[=].valueCode = #active
 * #99256 "République du Kazakhstan"
 * #99256 ^designation[0].language = #fr-FR
 * #99256 ^designation[=].use.system = "http://snomed.info/sct"
@@ -912,6 +1168,8 @@ Description: "Référentiel des codes pays provenant du COG INSEE"
 * #99256 ^property[=].valueDateTime = "2016-02-09T00:00:00+01:00"
 * #99256 ^property[+].code = #dateMaj
 * #99256 ^property[=].valueDateTime = "2024-01-26T12:00:00+01:00"
+* #99256 ^property[+].code = #status
+* #99256 ^property[=].valueCode = #active
 * #99257 "République kirghize"
 * #99257 ^designation[0].language = #fr-FR
 * #99257 ^designation[=].use.system = "http://snomed.info/sct"
@@ -921,6 +1179,8 @@ Description: "Référentiel des codes pays provenant du COG INSEE"
 * #99257 ^property[=].valueDateTime = "2016-02-09T00:00:00+01:00"
 * #99257 ^property[+].code = #dateMaj
 * #99257 ^property[=].valueDateTime = "2024-01-26T12:00:00+01:00"
+* #99257 ^property[+].code = #status
+* #99257 ^property[=].valueCode = #active
 * #99258 "République d'Ouzbékistan"
 * #99258 ^designation[0].language = #fr-FR
 * #99258 ^designation[=].use.system = "http://snomed.info/sct"
@@ -930,6 +1190,8 @@ Description: "Référentiel des codes pays provenant du COG INSEE"
 * #99258 ^property[=].valueDateTime = "2016-02-09T00:00:00+01:00"
 * #99258 ^property[+].code = #dateMaj
 * #99258 ^property[=].valueDateTime = "2024-01-26T12:00:00+01:00"
+* #99258 ^property[+].code = #status
+* #99258 ^property[=].valueCode = #active
 * #99259 "République du Tadjikistan"
 * #99259 ^designation[0].language = #fr-FR
 * #99259 ^designation[=].use.system = "http://snomed.info/sct"
@@ -939,11 +1201,15 @@ Description: "Référentiel des codes pays provenant du COG INSEE"
 * #99259 ^property[=].valueDateTime = "2016-02-09T00:00:00+01:00"
 * #99259 ^property[+].code = #dateMaj
 * #99259 ^property[=].valueDateTime = "2024-01-26T12:00:00+01:00"
+* #99259 ^property[+].code = #status
+* #99259 ^property[=].valueCode = #active
 * #99260 "Turkménistan"
 * #99260 ^property[0].code = #dateValid
 * #99260 ^property[=].valueDateTime = "2016-02-09T00:00:00+01:00"
 * #99260 ^property[+].code = #dateMaj
 * #99260 ^property[=].valueDateTime = "2024-01-26T12:00:00+01:00"
+* #99260 ^property[+].code = #status
+* #99260 ^property[=].valueCode = #active
 * #99261 "État de Palestine"
 * #99261 ^designation[0].language = #fr-FR
 * #99261 ^designation[=].use.system = "http://snomed.info/sct"
@@ -953,6 +1219,8 @@ Description: "Référentiel des codes pays provenant du COG INSEE"
 * #99261 ^property[=].valueDateTime = "2016-02-09T00:00:00+01:00"
 * #99261 ^property[+].code = #dateMaj
 * #99261 ^property[=].valueDateTime = "2024-06-28T12:00:00+01:00"
+* #99261 ^property[+].code = #status
+* #99261 ^property[=].valueCode = #active
 * #99262 "République démocratique du Timor oriental"
 * #99262 ^designation[0].language = #fr-FR
 * #99262 ^designation[=].use.system = "http://snomed.info/sct"
@@ -962,6 +1230,8 @@ Description: "Référentiel des codes pays provenant du COG INSEE"
 * #99262 ^property[=].valueDateTime = "2016-02-09T00:00:00+01:00"
 * #99262 ^property[+].code = #dateMaj
 * #99262 ^property[=].valueDateTime = "2024-01-26T12:00:00+01:00"
+* #99262 ^property[+].code = #status
+* #99262 ^property[=].valueCode = #active
 * #99301 "République arabe d'Égypte"
 * #99301 ^designation[0].language = #fr-FR
 * #99301 ^designation[=].use.system = "http://snomed.info/sct"
@@ -971,6 +1241,8 @@ Description: "Référentiel des codes pays provenant du COG INSEE"
 * #99301 ^property[=].valueDateTime = "2016-02-09T00:00:00+01:00"
 * #99301 ^property[+].code = #dateMaj
 * #99301 ^property[=].valueDateTime = "2024-01-26T12:00:00+01:00"
+* #99301 ^property[+].code = #status
+* #99301 ^property[=].valueCode = #active
 * #99302 "République du Libéria"
 * #99302 ^designation[0].language = #fr-FR
 * #99302 ^designation[=].use.system = "http://snomed.info/sct"
@@ -980,6 +1252,8 @@ Description: "Référentiel des codes pays provenant du COG INSEE"
 * #99302 ^property[=].valueDateTime = "2016-02-09T00:00:00+01:00"
 * #99302 ^property[+].code = #dateMaj
 * #99302 ^property[=].valueDateTime = "2024-01-26T12:00:00+01:00"
+* #99302 ^property[+].code = #status
+* #99302 ^property[=].valueCode = #active
 * #99303 "République d'Afrique du Sud"
 * #99303 ^designation[0].language = #fr-FR
 * #99303 ^designation[=].use.system = "http://snomed.info/sct"
@@ -989,6 +1263,8 @@ Description: "Référentiel des codes pays provenant du COG INSEE"
 * #99303 ^property[=].valueDateTime = "2016-02-09T00:00:00+01:00"
 * #99303 ^property[+].code = #dateMaj
 * #99303 ^property[=].valueDateTime = "2024-01-26T12:00:00+01:00"
+* #99303 ^property[+].code = #status
+* #99303 ^property[=].valueCode = #active
 * #99304 "République de Gambie"
 * #99304 ^designation[0].language = #fr-FR
 * #99304 ^designation[=].use.system = "http://snomed.info/sct"
@@ -998,6 +1274,8 @@ Description: "Référentiel des codes pays provenant du COG INSEE"
 * #99304 ^property[=].valueDateTime = "2016-02-09T00:00:00+01:00"
 * #99304 ^property[+].code = #dateMaj
 * #99304 ^property[=].valueDateTime = "2024-01-26T12:00:00+01:00"
+* #99304 ^property[+].code = #status
+* #99304 ^property[=].valueCode = #active
 * #99305 "Cameroun et Togo"
 * #99305 ^property[0].code = #dateValid
 * #99305 ^property[=].valueDateTime = "2016-02-09T00:00:00+01:00"
@@ -1005,6 +1283,10 @@ Description: "Référentiel des codes pays provenant du COG INSEE"
 * #99305 ^property[=].valueDateTime = "2016-02-09T00:00:00+01:00"
 * #99305 ^property[+].code = #dateMaj
 * #99305 ^property[=].valueDateTime = "2024-01-26T12:00:00+01:00"
+* #99305 ^property[+].code = #deprecationDate
+* #99305 ^property[=].valueDateTime = "2016-02-09T00:00:00+01:00"
+* #99305 ^property[+].code = #status
+* #99305 ^property[=].valueCode = #deprecated
 * #99306 "Îles Sainte-Hélène, Ascension, Tristan-da-Cunha"
 * #99306 ^designation[0].language = #fr-FR
 * #99306 ^designation[=].use.system = "http://snomed.info/sct"
@@ -1018,6 +1300,8 @@ Description: "Référentiel des codes pays provenant du COG INSEE"
 * #99306 ^property[=].valueDateTime = "2016-02-09T00:00:00+01:00"
 * #99306 ^property[+].code = #dateMaj
 * #99306 ^property[=].valueDateTime = "2024-12-13T12:00:00+01:00"
+* #99306 ^property[+].code = #status
+* #99306 ^property[=].valueCode = #active
 * #99307 "Sondan anglo-égyptien, Kenya, Ouganda"
 * #99307 ^designation[0].language = #fr-FR
 * #99307 ^designation[=].use.system = "http://snomed.info/sct"
@@ -1029,15 +1313,25 @@ Description: "Référentiel des codes pays provenant du COG INSEE"
 * #99307 ^property[=].valueDateTime = "2016-02-09T00:00:00+01:00"
 * #99307 ^property[+].code = #dateMaj
 * #99307 ^property[=].valueDateTime = "2024-01-26T12:00:00+01:00"
+* #99307 ^property[+].code = #deprecationDate
+* #99307 ^property[=].valueDateTime = "2016-02-09T00:00:00+01:00"
+* #99307 ^property[+].code = #status
+* #99307 ^property[=].valueCode = #deprecated
 * #99308 "Îles Chagos"
 * #99308 ^designation[0].language = #fr-FR
 * #99308 ^designation[=].use.system = "http://snomed.info/sct"
 * #99308 ^designation[=].use = $sct#900000000000013009
-* #99308 ^designation[=].value = "Chagos"
+* #99308 ^designation[=].value = "Terr. Britannique Océan Indien"
+* #99308 ^designation[+].language = #fr-FR
+* #99308 ^designation[=].use.system = "http://snomed.info/sct"
+* #99308 ^designation[=].use = $sct#900000000000013009
+* #99308 ^designation[=].value = "Territoire britannique de l'océan Indien"
 * #99308 ^property[0].code = #dateValid
 * #99308 ^property[=].valueDateTime = "2016-02-09T00:00:00+01:00"
 * #99308 ^property[+].code = #dateMaj
-* #99308 ^property[=].valueDateTime = "2024-12-13T12:00:00+01:00"
+* #99308 ^property[=].valueDateTime = "2025-03-28T12:00:00+01:00"
+* #99308 ^property[+].code = #status
+* #99308 ^property[=].valueCode = #active
 * #99309 "République unie de Tanzanie"
 * #99309 ^designation[0].language = #fr-FR
 * #99309 ^designation[=].use.system = "http://snomed.info/sct"
@@ -1047,6 +1341,8 @@ Description: "Référentiel des codes pays provenant du COG INSEE"
 * #99309 ^property[=].valueDateTime = "2016-02-09T00:00:00+01:00"
 * #99309 ^property[+].code = #dateMaj
 * #99309 ^property[=].valueDateTime = "2024-01-26T12:00:00+01:00"
+* #99309 ^property[+].code = #status
+* #99309 ^property[=].valueCode = #active
 * #99310 "République du Zimbabwe"
 * #99310 ^designation[0].language = #fr-FR
 * #99310 ^designation[=].use.system = "http://snomed.info/sct"
@@ -1056,6 +1352,8 @@ Description: "Référentiel des codes pays provenant du COG INSEE"
 * #99310 ^property[=].valueDateTime = "2016-02-09T00:00:00+01:00"
 * #99310 ^property[+].code = #dateMaj
 * #99310 ^property[=].valueDateTime = "2024-01-26T12:00:00+01:00"
+* #99310 ^property[+].code = #status
+* #99310 ^property[=].valueCode = #active
 * #99311 "République de Namibie"
 * #99311 ^designation[0].language = #fr-FR
 * #99311 ^designation[=].use.system = "http://snomed.info/sct"
@@ -1065,6 +1363,8 @@ Description: "Référentiel des codes pays provenant du COG INSEE"
 * #99311 ^property[=].valueDateTime = "2016-02-09T00:00:00+01:00"
 * #99311 ^property[+].code = #dateMaj
 * #99311 ^property[=].valueDateTime = "2024-01-26T12:00:00+01:00"
+* #99311 ^property[+].code = #status
+* #99311 ^property[=].valueCode = #active
 * #99312 "République démocratique du Congo"
 * #99312 ^designation[0].language = #fr-FR
 * #99312 ^designation[=].use.system = "http://snomed.info/sct"
@@ -1074,6 +1374,8 @@ Description: "Référentiel des codes pays provenant du COG INSEE"
 * #99312 ^property[=].valueDateTime = "2016-02-09T00:00:00+01:00"
 * #99312 ^property[+].code = #dateMaj
 * #99312 ^property[=].valueDateTime = "2024-06-28T12:00:00+01:00"
+* #99312 ^property[+].code = #status
+* #99312 ^property[=].valueCode = #active
 * #99313 "Ceuta, Melilla, Présides, îles Canaries"
 * #99313 ^designation[0].language = #fr-FR
 * #99313 ^designation[=].use.system = "http://snomed.info/sct"
@@ -1087,6 +1389,8 @@ Description: "Référentiel des codes pays provenant du COG INSEE"
 * #99313 ^property[=].valueDateTime = "2016-02-09T00:00:00+01:00"
 * #99313 ^property[+].code = #dateMaj
 * #99313 ^property[=].valueDateTime = "2024-12-13T12:00:00+01:00"
+* #99313 ^property[+].code = #status
+* #99313 ^property[=].valueCode = #active
 * #99314 "République de Guinée équatoriale"
 * #99314 ^designation[0].language = #fr-FR
 * #99314 ^designation[=].use.system = "http://snomed.info/sct"
@@ -1096,6 +1400,8 @@ Description: "Référentiel des codes pays provenant du COG INSEE"
 * #99314 ^property[=].valueDateTime = "2016-02-09T00:00:00+01:00"
 * #99314 ^property[+].code = #dateMaj
 * #99314 ^property[=].valueDateTime = "2024-01-26T12:00:00+01:00"
+* #99314 ^property[+].code = #status
+* #99314 ^property[=].valueCode = #active
 * #99315 "République démocratique fédérale d'Éthiopie"
 * #99315 ^designation[0].language = #fr-FR
 * #99315 ^designation[=].use.system = "http://snomed.info/sct"
@@ -1105,6 +1411,8 @@ Description: "Référentiel des codes pays provenant du COG INSEE"
 * #99315 ^property[=].valueDateTime = "2016-02-09T00:00:00+01:00"
 * #99315 ^property[+].code = #dateMaj
 * #99315 ^property[=].valueDateTime = "2024-01-26T12:00:00+01:00"
+* #99315 ^property[+].code = #status
+* #99315 ^property[=].valueCode = #active
 * #99316 "État de Libye"
 * #99316 ^designation[0].language = #fr-FR
 * #99316 ^designation[=].use.system = "http://snomed.info/sct"
@@ -1114,6 +1422,8 @@ Description: "Référentiel des codes pays provenant du COG INSEE"
 * #99316 ^property[=].valueDateTime = "2016-02-09T00:00:00+01:00"
 * #99316 ^property[+].code = #dateMaj
 * #99316 ^property[=].valueDateTime = "2024-06-28T12:00:00+01:00"
+* #99316 ^property[+].code = #status
+* #99316 ^property[=].valueCode = #active
 * #99317 "État d'Érythrée"
 * #99317 ^designation[0].language = #fr-FR
 * #99317 ^designation[=].use.system = "http://snomed.info/sct"
@@ -1123,6 +1433,8 @@ Description: "Référentiel des codes pays provenant du COG INSEE"
 * #99317 ^property[=].valueDateTime = "2016-02-09T00:00:00+01:00"
 * #99317 ^property[+].code = #dateMaj
 * #99317 ^property[=].valueDateTime = "2024-01-26T12:00:00+01:00"
+* #99317 ^property[+].code = #status
+* #99317 ^property[=].valueCode = #active
 * #99318 "République fédérale de Somalie"
 * #99318 ^designation[0].language = #fr-FR
 * #99318 ^designation[=].use.system = "http://snomed.info/sct"
@@ -1132,6 +1444,8 @@ Description: "Référentiel des codes pays provenant du COG INSEE"
 * #99318 ^property[=].valueDateTime = "2016-02-09T00:00:00+01:00"
 * #99318 ^property[+].code = #dateMaj
 * #99318 ^property[=].valueDateTime = "2024-06-28T12:00:00+01:00"
+* #99318 ^property[+].code = #status
+* #99318 ^property[=].valueCode = #active
 * #99319 "Açores, Madère"
 * #99319 ^designation[0].language = #fr-FR
 * #99319 ^designation[=].use.system = "http://snomed.info/sct"
@@ -1145,6 +1459,8 @@ Description: "Référentiel des codes pays provenant du COG INSEE"
 * #99319 ^property[=].valueDateTime = "2016-02-09T00:00:00+01:00"
 * #99319 ^property[+].code = #dateMaj
 * #99319 ^property[=].valueDateTime = "2024-12-13T12:00:00+01:00"
+* #99319 ^property[+].code = #status
+* #99319 ^property[=].valueCode = #active
 * #99320 "Îles portugaises de l'océan Indien"
 * #99320 ^designation[0].language = #fr-FR
 * #99320 ^designation[=].use.system = "http://snomed.info/sct"
@@ -1156,6 +1472,10 @@ Description: "Référentiel des codes pays provenant du COG INSEE"
 * #99320 ^property[=].valueDateTime = "2016-02-09T00:00:00+01:00"
 * #99320 ^property[+].code = #dateMaj
 * #99320 ^property[=].valueDateTime = "2024-01-26T12:00:00+01:00"
+* #99320 ^property[+].code = #deprecationDate
+* #99320 ^property[=].valueDateTime = "2016-02-09T00:00:00+01:00"
+* #99320 ^property[+].code = #status
+* #99320 ^property[=].valueCode = #deprecated
 * #99321 "République du Burundi"
 * #99321 ^designation[0].language = #fr-FR
 * #99321 ^designation[=].use.system = "http://snomed.info/sct"
@@ -1165,6 +1485,8 @@ Description: "Référentiel des codes pays provenant du COG INSEE"
 * #99321 ^property[=].valueDateTime = "2016-02-09T00:00:00+01:00"
 * #99321 ^property[+].code = #dateMaj
 * #99321 ^property[=].valueDateTime = "2024-01-26T12:00:00+01:00"
+* #99321 ^property[+].code = #status
+* #99321 ^property[=].valueCode = #active
 * #99322 "République du Cameroun"
 * #99322 ^designation[0].language = #fr-FR
 * #99322 ^designation[=].use.system = "http://snomed.info/sct"
@@ -1174,6 +1496,8 @@ Description: "Référentiel des codes pays provenant du COG INSEE"
 * #99322 ^property[=].valueDateTime = "2016-02-09T00:00:00+01:00"
 * #99322 ^property[+].code = #dateMaj
 * #99322 ^property[=].valueDateTime = "2024-01-26T12:00:00+01:00"
+* #99322 ^property[+].code = #status
+* #99322 ^property[=].valueCode = #active
 * #99323 "République centrafricaine"
 * #99323 ^designation[0].language = #fr-FR
 * #99323 ^designation[=].use.system = "http://snomed.info/sct"
@@ -1183,6 +1507,8 @@ Description: "Référentiel des codes pays provenant du COG INSEE"
 * #99323 ^property[=].valueDateTime = "2016-02-09T00:00:00+01:00"
 * #99323 ^property[+].code = #dateMaj
 * #99323 ^property[=].valueDateTime = "2024-06-28T12:00:00+01:00"
+* #99323 ^property[+].code = #status
+* #99323 ^property[=].valueCode = #active
 * #99324 "République du Congo"
 * #99324 ^designation[0].language = #fr-FR
 * #99324 ^designation[=].use.system = "http://snomed.info/sct"
@@ -1192,6 +1518,8 @@ Description: "Référentiel des codes pays provenant du COG INSEE"
 * #99324 ^property[=].valueDateTime = "2016-02-09T00:00:00+01:00"
 * #99324 ^property[+].code = #dateMaj
 * #99324 ^property[=].valueDateTime = "2024-01-26T12:00:00+01:00"
+* #99324 ^property[+].code = #status
+* #99324 ^property[=].valueCode = #active
 * #99325 "Tanger"
 * #99325 ^property[0].code = #dateValid
 * #99325 ^property[=].valueDateTime = "2016-02-09T00:00:00+01:00"
@@ -1199,6 +1527,10 @@ Description: "Référentiel des codes pays provenant du COG INSEE"
 * #99325 ^property[=].valueDateTime = "2016-02-09T00:00:00+01:00"
 * #99325 ^property[+].code = #dateMaj
 * #99325 ^property[=].valueDateTime = "2024-01-26T12:00:00+01:00"
+* #99325 ^property[+].code = #deprecationDate
+* #99325 ^property[=].valueDateTime = "2016-02-09T00:00:00+01:00"
+* #99325 ^property[+].code = #status
+* #99325 ^property[=].valueCode = #deprecated
 * #99326 "République de Côte d'Ivoire"
 * #99326 ^designation[0].language = #fr-FR
 * #99326 ^designation[=].use.system = "http://snomed.info/sct"
@@ -1208,6 +1540,8 @@ Description: "Référentiel des codes pays provenant du COG INSEE"
 * #99326 ^property[=].valueDateTime = "2016-02-09T00:00:00+01:00"
 * #99326 ^property[+].code = #dateMaj
 * #99326 ^property[=].valueDateTime = "2024-01-26T12:00:00+01:00"
+* #99326 ^property[+].code = #status
+* #99326 ^property[=].valueCode = #active
 * #99327 "République du Bénin"
 * #99327 ^designation[0].language = #fr-FR
 * #99327 ^designation[=].use.system = "http://snomed.info/sct"
@@ -1217,6 +1551,8 @@ Description: "Référentiel des codes pays provenant du COG INSEE"
 * #99327 ^property[=].valueDateTime = "2016-02-09T00:00:00+01:00"
 * #99327 ^property[+].code = #dateMaj
 * #99327 ^property[=].valueDateTime = "2024-01-26T12:00:00+01:00"
+* #99327 ^property[+].code = #status
+* #99327 ^property[=].valueCode = #active
 * #99328 "République gabonaise"
 * #99328 ^designation[0].language = #fr-FR
 * #99328 ^designation[=].use.system = "http://snomed.info/sct"
@@ -1226,6 +1562,8 @@ Description: "Référentiel des codes pays provenant du COG INSEE"
 * #99328 ^property[=].valueDateTime = "2016-02-09T00:00:00+01:00"
 * #99328 ^property[+].code = #dateMaj
 * #99328 ^property[=].valueDateTime = "2024-01-26T12:00:00+01:00"
+* #99328 ^property[+].code = #status
+* #99328 ^property[=].valueCode = #active
 * #99329 "République du Ghana"
 * #99329 ^designation[0].language = #fr-FR
 * #99329 ^designation[=].use.system = "http://snomed.info/sct"
@@ -1235,6 +1573,8 @@ Description: "Référentiel des codes pays provenant du COG INSEE"
 * #99329 ^property[=].valueDateTime = "2016-02-09T00:00:00+01:00"
 * #99329 ^property[+].code = #dateMaj
 * #99329 ^property[=].valueDateTime = "2024-01-26T12:00:00+01:00"
+* #99329 ^property[+].code = #status
+* #99329 ^property[=].valueCode = #active
 * #99330 "République de Guinée"
 * #99330 ^designation[0].language = #fr-FR
 * #99330 ^designation[=].use.system = "http://snomed.info/sct"
@@ -1244,6 +1584,8 @@ Description: "Référentiel des codes pays provenant du COG INSEE"
 * #99330 ^property[=].valueDateTime = "2016-02-09T00:00:00+01:00"
 * #99330 ^property[+].code = #dateMaj
 * #99330 ^property[=].valueDateTime = "2024-01-26T12:00:00+01:00"
+* #99330 ^property[+].code = #status
+* #99330 ^property[=].valueCode = #active
 * #99331 "Burkina Faso"
 * #99331 ^designation[0].language = #fr-FR
 * #99331 ^designation[=].use.system = "http://snomed.info/sct"
@@ -1253,6 +1595,8 @@ Description: "Référentiel des codes pays provenant du COG INSEE"
 * #99331 ^property[=].valueDateTime = "2016-02-09T00:00:00+01:00"
 * #99331 ^property[+].code = #dateMaj
 * #99331 ^property[=].valueDateTime = "2024-01-26T12:00:00+01:00"
+* #99331 ^property[+].code = #status
+* #99331 ^property[=].valueCode = #active
 * #99332 "République du Kenya"
 * #99332 ^designation[0].language = #fr-FR
 * #99332 ^designation[=].use.system = "http://snomed.info/sct"
@@ -1262,6 +1606,8 @@ Description: "Référentiel des codes pays provenant du COG INSEE"
 * #99332 ^property[=].valueDateTime = "2016-02-09T00:00:00+01:00"
 * #99332 ^property[+].code = #dateMaj
 * #99332 ^property[=].valueDateTime = "2024-01-26T12:00:00+01:00"
+* #99332 ^property[+].code = #status
+* #99332 ^property[=].valueCode = #active
 * #99333 "République de Madagascar"
 * #99333 ^designation[0].language = #fr-FR
 * #99333 ^designation[=].use.system = "http://snomed.info/sct"
@@ -1271,6 +1617,8 @@ Description: "Référentiel des codes pays provenant du COG INSEE"
 * #99333 ^property[=].valueDateTime = "2016-02-09T00:00:00+01:00"
 * #99333 ^property[+].code = #dateMaj
 * #99333 ^property[=].valueDateTime = "2024-01-26T12:00:00+01:00"
+* #99333 ^property[+].code = #status
+* #99333 ^property[=].valueCode = #active
 * #99334 "République du Malawi"
 * #99334 ^designation[0].language = #fr-FR
 * #99334 ^designation[=].use.system = "http://snomed.info/sct"
@@ -1280,6 +1628,8 @@ Description: "Référentiel des codes pays provenant du COG INSEE"
 * #99334 ^property[=].valueDateTime = "2016-02-09T00:00:00+01:00"
 * #99334 ^property[+].code = #dateMaj
 * #99334 ^property[=].valueDateTime = "2024-01-26T12:00:00+01:00"
+* #99334 ^property[+].code = #status
+* #99334 ^property[=].valueCode = #active
 * #99335 "République du Mali"
 * #99335 ^designation[0].language = #fr-FR
 * #99335 ^designation[=].use.system = "http://snomed.info/sct"
@@ -1289,6 +1639,8 @@ Description: "Référentiel des codes pays provenant du COG INSEE"
 * #99335 ^property[=].valueDateTime = "2016-02-09T00:00:00+01:00"
 * #99335 ^property[+].code = #dateMaj
 * #99335 ^property[=].valueDateTime = "2024-01-26T12:00:00+01:00"
+* #99335 ^property[+].code = #status
+* #99335 ^property[=].valueCode = #active
 * #99336 "République islamique de Mauritanie"
 * #99336 ^designation[0].language = #fr-FR
 * #99336 ^designation[=].use.system = "http://snomed.info/sct"
@@ -1298,6 +1650,8 @@ Description: "Référentiel des codes pays provenant du COG INSEE"
 * #99336 ^property[=].valueDateTime = "2016-02-09T00:00:00+01:00"
 * #99336 ^property[+].code = #dateMaj
 * #99336 ^property[=].valueDateTime = "2024-01-26T12:00:00+01:00"
+* #99336 ^property[+].code = #status
+* #99336 ^property[=].valueCode = #active
 * #99337 "République du Niger"
 * #99337 ^designation[0].language = #fr-FR
 * #99337 ^designation[=].use.system = "http://snomed.info/sct"
@@ -1307,6 +1661,8 @@ Description: "Référentiel des codes pays provenant du COG INSEE"
 * #99337 ^property[=].valueDateTime = "2016-02-09T00:00:00+01:00"
 * #99337 ^property[+].code = #dateMaj
 * #99337 ^property[=].valueDateTime = "2024-01-26T12:00:00+01:00"
+* #99337 ^property[+].code = #status
+* #99337 ^property[=].valueCode = #active
 * #99338 "République fédérale du Nigéria"
 * #99338 ^designation[0].language = #fr-FR
 * #99338 ^designation[=].use.system = "http://snomed.info/sct"
@@ -1316,6 +1672,8 @@ Description: "Référentiel des codes pays provenant du COG INSEE"
 * #99338 ^property[=].valueDateTime = "2016-02-09T00:00:00+01:00"
 * #99338 ^property[+].code = #dateMaj
 * #99338 ^property[=].valueDateTime = "2024-01-26T12:00:00+01:00"
+* #99338 ^property[+].code = #status
+* #99338 ^property[=].valueCode = #active
 * #99339 "République d'Ouganda"
 * #99339 ^designation[0].language = #fr-FR
 * #99339 ^designation[=].use.system = "http://snomed.info/sct"
@@ -1325,6 +1683,8 @@ Description: "Référentiel des codes pays provenant du COG INSEE"
 * #99339 ^property[=].valueDateTime = "2016-02-09T00:00:00+01:00"
 * #99339 ^property[+].code = #dateMaj
 * #99339 ^property[=].valueDateTime = "2024-06-28T12:00:00+01:00"
+* #99339 ^property[+].code = #status
+* #99339 ^property[=].valueCode = #active
 * #99340 "République du Rwanda"
 * #99340 ^designation[0].language = #fr-FR
 * #99340 ^designation[=].use.system = "http://snomed.info/sct"
@@ -1334,6 +1694,8 @@ Description: "Référentiel des codes pays provenant du COG INSEE"
 * #99340 ^property[=].valueDateTime = "2016-02-09T00:00:00+01:00"
 * #99340 ^property[+].code = #dateMaj
 * #99340 ^property[=].valueDateTime = "2024-06-28T12:00:00+01:00"
+* #99340 ^property[+].code = #status
+* #99340 ^property[=].valueCode = #active
 * #99341 "République du Sénégal"
 * #99341 ^designation[0].language = #fr-FR
 * #99341 ^designation[=].use.system = "http://snomed.info/sct"
@@ -1343,6 +1705,8 @@ Description: "Référentiel des codes pays provenant du COG INSEE"
 * #99341 ^property[=].valueDateTime = "2016-02-09T00:00:00+01:00"
 * #99341 ^property[+].code = #dateMaj
 * #99341 ^property[=].valueDateTime = "2024-01-26T12:00:00+01:00"
+* #99341 ^property[+].code = #status
+* #99341 ^property[=].valueCode = #active
 * #99342 "République de Sierra Leone"
 * #99342 ^designation[0].language = #fr-FR
 * #99342 ^designation[=].use.system = "http://snomed.info/sct"
@@ -1352,6 +1716,8 @@ Description: "Référentiel des codes pays provenant du COG INSEE"
 * #99342 ^property[=].valueDateTime = "2016-02-09T00:00:00+01:00"
 * #99342 ^property[+].code = #dateMaj
 * #99342 ^property[=].valueDateTime = "2024-01-26T12:00:00+01:00"
+* #99342 ^property[+].code = #status
+* #99342 ^property[=].valueCode = #active
 * #99343 "République du Soudan"
 * #99343 ^designation[0].language = #fr-FR
 * #99343 ^designation[=].use.system = "http://snomed.info/sct"
@@ -1361,6 +1727,8 @@ Description: "Référentiel des codes pays provenant du COG INSEE"
 * #99343 ^property[=].valueDateTime = "2016-02-09T00:00:00+01:00"
 * #99343 ^property[+].code = #dateMaj
 * #99343 ^property[=].valueDateTime = "2024-01-26T12:00:00+01:00"
+* #99343 ^property[+].code = #status
+* #99343 ^property[=].valueCode = #active
 * #99344 "République du Tchad"
 * #99344 ^designation[0].language = #fr-FR
 * #99344 ^designation[=].use.system = "http://snomed.info/sct"
@@ -1370,6 +1738,8 @@ Description: "Référentiel des codes pays provenant du COG INSEE"
 * #99344 ^property[=].valueDateTime = "2016-02-09T00:00:00+01:00"
 * #99344 ^property[+].code = #dateMaj
 * #99344 ^property[=].valueDateTime = "2024-01-26T12:00:00+01:00"
+* #99344 ^property[+].code = #status
+* #99344 ^property[=].valueCode = #active
 * #99345 "République togolaise"
 * #99345 ^designation[0].language = #fr-FR
 * #99345 ^designation[=].use.system = "http://snomed.info/sct"
@@ -1379,6 +1749,8 @@ Description: "Référentiel des codes pays provenant du COG INSEE"
 * #99345 ^property[=].valueDateTime = "2016-02-09T00:00:00+01:00"
 * #99345 ^property[+].code = #dateMaj
 * #99345 ^property[=].valueDateTime = "2024-01-26T12:00:00+01:00"
+* #99345 ^property[+].code = #status
+* #99345 ^property[=].valueCode = #active
 * #99346 "République de Zambie"
 * #99346 ^designation[0].language = #fr-FR
 * #99346 ^designation[=].use.system = "http://snomed.info/sct"
@@ -1388,6 +1760,8 @@ Description: "Référentiel des codes pays provenant du COG INSEE"
 * #99346 ^property[=].valueDateTime = "2016-02-09T00:00:00+01:00"
 * #99346 ^property[+].code = #dateMaj
 * #99346 ^property[=].valueDateTime = "2024-01-26T12:00:00+01:00"
+* #99346 ^property[+].code = #status
+* #99346 ^property[=].valueCode = #active
 * #99347 "République du Botswana"
 * #99347 ^designation[0].language = #fr-FR
 * #99347 ^designation[=].use.system = "http://snomed.info/sct"
@@ -1397,6 +1771,8 @@ Description: "Référentiel des codes pays provenant du COG INSEE"
 * #99347 ^property[=].valueDateTime = "2016-02-09T00:00:00+01:00"
 * #99347 ^property[+].code = #dateMaj
 * #99347 ^property[=].valueDateTime = "2024-01-26T12:00:00+01:00"
+* #99347 ^property[+].code = #status
+* #99347 ^property[=].valueCode = #active
 * #99348 "Royaume du Lesotho"
 * #99348 ^designation[0].language = #fr-FR
 * #99348 ^designation[=].use.system = "http://snomed.info/sct"
@@ -1406,6 +1782,8 @@ Description: "Référentiel des codes pays provenant du COG INSEE"
 * #99348 ^property[=].valueDateTime = "2016-02-09T00:00:00+01:00"
 * #99348 ^property[+].code = #dateMaj
 * #99348 ^property[=].valueDateTime = "2024-01-26T12:00:00+01:00"
+* #99348 ^property[+].code = #status
+* #99348 ^property[=].valueCode = #active
 * #99349 "République du Soudan du Sud"
 * #99349 ^designation[0].language = #fr-FR
 * #99349 ^designation[=].use.system = "http://snomed.info/sct"
@@ -1415,6 +1793,8 @@ Description: "Référentiel des codes pays provenant du COG INSEE"
 * #99349 ^property[=].valueDateTime = "2019-05-29T12:00:00+01:00"
 * #99349 ^property[+].code = #dateMaj
 * #99349 ^property[=].valueDateTime = "2024-01-26T12:00:00+01:00"
+* #99349 ^property[+].code = #status
+* #99349 ^property[=].valueCode = #active
 * #99350 "Royaume du Maroc"
 * #99350 ^designation[0].language = #fr-FR
 * #99350 ^designation[=].use.system = "http://snomed.info/sct"
@@ -1424,6 +1804,8 @@ Description: "Référentiel des codes pays provenant du COG INSEE"
 * #99350 ^property[=].valueDateTime = "2016-02-09T00:00:00+01:00"
 * #99350 ^property[+].code = #dateMaj
 * #99350 ^property[=].valueDateTime = "2024-01-26T12:00:00+01:00"
+* #99350 ^property[+].code = #status
+* #99350 ^property[=].valueCode = #active
 * #99351 "République tunisienne"
 * #99351 ^designation[0].language = #fr-FR
 * #99351 ^designation[=].use.system = "http://snomed.info/sct"
@@ -1433,6 +1815,8 @@ Description: "Référentiel des codes pays provenant du COG INSEE"
 * #99351 ^property[=].valueDateTime = "2016-02-09T00:00:00+01:00"
 * #99351 ^property[+].code = #dateMaj
 * #99351 ^property[=].valueDateTime = "2024-01-26T12:00:00+01:00"
+* #99351 ^property[+].code = #status
+* #99351 ^property[=].valueCode = #active
 * #99352 "République algérienne démocratique et populaire"
 * #99352 ^designation[0].language = #fr-FR
 * #99352 ^designation[=].use.system = "http://snomed.info/sct"
@@ -1442,11 +1826,15 @@ Description: "Référentiel des codes pays provenant du COG INSEE"
 * #99352 ^property[=].valueDateTime = "2016-02-09T00:00:00+01:00"
 * #99352 ^property[+].code = #dateMaj
 * #99352 ^property[=].valueDateTime = "2024-01-26T12:00:00+01:00"
+* #99352 ^property[+].code = #status
+* #99352 ^property[=].valueCode = #active
 * #99389 "Sahara occidental"
 * #99389 ^property[0].code = #dateValid
 * #99389 ^property[=].valueDateTime = "2016-02-09T00:00:00+01:00"
 * #99389 ^property[+].code = #dateMaj
 * #99389 ^property[=].valueDateTime = "2024-01-26T12:00:00+01:00"
+* #99389 ^property[+].code = #status
+* #99389 ^property[=].valueCode = #active
 * #99390 "République de Maurice"
 * #99390 ^designation[0].language = #fr-FR
 * #99390 ^designation[=].use.system = "http://snomed.info/sct"
@@ -1456,6 +1844,8 @@ Description: "Référentiel des codes pays provenant du COG INSEE"
 * #99390 ^property[=].valueDateTime = "2016-02-09T00:00:00+01:00"
 * #99390 ^property[+].code = #dateMaj
 * #99390 ^property[=].valueDateTime = "2024-01-26T12:00:00+01:00"
+* #99390 ^property[+].code = #status
+* #99390 ^property[=].valueCode = #active
 * #99391 "Royaume du Swaziland"
 * #99391 ^designation[0].language = #fr-FR
 * #99391 ^designation[=].use.system = "http://snomed.info/sct"
@@ -1465,6 +1855,8 @@ Description: "Référentiel des codes pays provenant du COG INSEE"
 * #99391 ^property[=].valueDateTime = "2016-02-09T00:00:00+01:00"
 * #99391 ^property[+].code = #dateMaj
 * #99391 ^property[=].valueDateTime = "2024-06-28T12:00:00+01:00"
+* #99391 ^property[+].code = #status
+* #99391 ^property[=].valueCode = #active
 * #99392 "République de Guinée-Bissao"
 * #99392 ^designation[0].language = #fr-FR
 * #99392 ^designation[=].use.system = "http://snomed.info/sct"
@@ -1474,6 +1866,8 @@ Description: "Référentiel des codes pays provenant du COG INSEE"
 * #99392 ^property[=].valueDateTime = "2016-02-09T00:00:00+01:00"
 * #99392 ^property[+].code = #dateMaj
 * #99392 ^property[=].valueDateTime = "2024-06-28T12:00:00+01:00"
+* #99392 ^property[+].code = #status
+* #99392 ^property[=].valueCode = #active
 * #99393 "République du Mozambique"
 * #99393 ^designation[0].language = #fr-FR
 * #99393 ^designation[=].use.system = "http://snomed.info/sct"
@@ -1483,6 +1877,8 @@ Description: "Référentiel des codes pays provenant du COG INSEE"
 * #99393 ^property[=].valueDateTime = "2016-02-09T00:00:00+01:00"
 * #99393 ^property[+].code = #dateMaj
 * #99393 ^property[=].valueDateTime = "2024-01-26T12:00:00+01:00"
+* #99393 ^property[+].code = #status
+* #99393 ^property[=].valueCode = #active
 * #99394 "République démocratique de Sao Tomé-et-Principe"
 * #99394 ^designation[0].language = #fr-FR
 * #99394 ^designation[=].use.system = "http://snomed.info/sct"
@@ -1492,6 +1888,8 @@ Description: "Référentiel des codes pays provenant du COG INSEE"
 * #99394 ^property[=].valueDateTime = "2016-02-09T00:00:00+01:00"
 * #99394 ^property[+].code = #dateMaj
 * #99394 ^property[=].valueDateTime = "2024-01-26T12:00:00+01:00"
+* #99394 ^property[+].code = #status
+* #99394 ^property[=].valueCode = #active
 * #99395 "République d'Angola"
 * #99395 ^designation[0].language = #fr-FR
 * #99395 ^designation[=].use.system = "http://snomed.info/sct"
@@ -1501,6 +1899,8 @@ Description: "Référentiel des codes pays provenant du COG INSEE"
 * #99395 ^property[=].valueDateTime = "2016-02-09T00:00:00+01:00"
 * #99395 ^property[+].code = #dateMaj
 * #99395 ^property[=].valueDateTime = "2024-01-26T12:00:00+01:00"
+* #99395 ^property[+].code = #status
+* #99395 ^property[=].valueCode = #active
 * #99396 "République du Cap-Vert"
 * #99396 ^designation[0].language = #fr-FR
 * #99396 ^designation[=].use.system = "http://snomed.info/sct"
@@ -1510,6 +1910,8 @@ Description: "Référentiel des codes pays provenant du COG INSEE"
 * #99396 ^property[=].valueDateTime = "2016-02-09T00:00:00+01:00"
 * #99396 ^property[+].code = #dateMaj
 * #99396 ^property[=].valueDateTime = "2024-01-26T12:00:00+01:00"
+* #99396 ^property[+].code = #status
+* #99396 ^property[=].valueCode = #active
 * #99397 "Union des Comores"
 * #99397 ^designation[0].language = #fr-FR
 * #99397 ^designation[=].use.system = "http://snomed.info/sct"
@@ -1519,6 +1921,8 @@ Description: "Référentiel des codes pays provenant du COG INSEE"
 * #99397 ^property[=].valueDateTime = "2016-02-09T00:00:00+01:00"
 * #99397 ^property[+].code = #dateMaj
 * #99397 ^property[=].valueDateTime = "2024-06-28T12:00:00+01:00"
+* #99397 ^property[+].code = #status
+* #99397 ^property[=].valueCode = #active
 * #99398 "République des Seychelles"
 * #99398 ^designation[0].language = #fr-FR
 * #99398 ^designation[=].use.system = "http://snomed.info/sct"
@@ -1528,6 +1932,8 @@ Description: "Référentiel des codes pays provenant du COG INSEE"
 * #99398 ^property[=].valueDateTime = "2016-02-09T00:00:00+01:00"
 * #99398 ^property[+].code = #dateMaj
 * #99398 ^property[=].valueDateTime = "2024-01-26T12:00:00+01:00"
+* #99398 ^property[+].code = #status
+* #99398 ^property[=].valueCode = #active
 * #99399 "République de Djibouti"
 * #99399 ^designation[0].language = #fr-FR
 * #99399 ^designation[=].use.system = "http://snomed.info/sct"
@@ -1537,11 +1943,15 @@ Description: "Référentiel des codes pays provenant du COG INSEE"
 * #99399 ^property[=].valueDateTime = "2016-02-09T00:00:00+01:00"
 * #99399 ^property[+].code = #dateMaj
 * #99399 ^property[=].valueDateTime = "2024-01-26T12:00:00+01:00"
+* #99399 ^property[+].code = #status
+* #99399 ^property[=].valueCode = #active
 * #99401 "Canada"
 * #99401 ^property[0].code = #dateValid
 * #99401 ^property[=].valueDateTime = "2016-02-09T00:00:00+01:00"
 * #99401 ^property[+].code = #dateMaj
 * #99401 ^property[=].valueDateTime = "2024-01-26T12:00:00+01:00"
+* #99401 ^property[+].code = #status
+* #99401 ^property[=].valueCode = #active
 * #99402 "Terre-Neuve"
 * #99402 ^property[0].code = #dateValid
 * #99402 ^property[=].valueDateTime = "2016-02-09T00:00:00+01:00"
@@ -1549,6 +1959,10 @@ Description: "Référentiel des codes pays provenant du COG INSEE"
 * #99402 ^property[=].valueDateTime = "2016-02-09T00:00:00+01:00"
 * #99402 ^property[+].code = #dateMaj
 * #99402 ^property[=].valueDateTime = "2024-01-26T12:00:00+01:00"
+* #99402 ^property[+].code = #deprecationDate
+* #99402 ^property[=].valueDateTime = "2016-02-09T00:00:00+01:00"
+* #99402 ^property[+].code = #status
+* #99402 ^property[=].valueCode = #deprecated
 * #99403 "Labrador"
 * #99403 ^property[0].code = #dateValid
 * #99403 ^property[=].valueDateTime = "2016-02-09T00:00:00+01:00"
@@ -1556,6 +1970,10 @@ Description: "Référentiel des codes pays provenant du COG INSEE"
 * #99403 ^property[=].valueDateTime = "2016-02-09T00:00:00+01:00"
 * #99403 ^property[+].code = #dateMaj
 * #99403 ^property[=].valueDateTime = "2024-01-26T12:00:00+01:00"
+* #99403 ^property[+].code = #deprecationDate
+* #99403 ^property[=].valueDateTime = "2016-02-09T00:00:00+01:00"
+* #99403 ^property[+].code = #status
+* #99403 ^property[=].valueCode = #deprecated
 * #99404 "États-Unis d'Amérique"
 * #99404 ^designation[0].language = #fr-FR
 * #99404 ^designation[=].use.system = "http://snomed.info/sct"
@@ -1565,6 +1983,8 @@ Description: "Référentiel des codes pays provenant du COG INSEE"
 * #99404 ^property[=].valueDateTime = "2016-02-09T00:00:00+01:00"
 * #99404 ^property[+].code = #dateMaj
 * #99404 ^property[=].valueDateTime = "2024-01-26T12:00:00+01:00"
+* #99404 ^property[+].code = #status
+* #99404 ^property[=].valueCode = #active
 * #99405 "États-Unis du Mexique"
 * #99405 ^designation[0].language = #fr-FR
 * #99405 ^designation[=].use.system = "http://snomed.info/sct"
@@ -1574,6 +1994,8 @@ Description: "Référentiel des codes pays provenant du COG INSEE"
 * #99405 ^property[=].valueDateTime = "2016-02-09T00:00:00+01:00"
 * #99405 ^property[+].code = #dateMaj
 * #99405 ^property[=].valueDateTime = "2024-01-26T12:00:00+01:00"
+* #99405 ^property[+].code = #status
+* #99405 ^property[=].valueCode = #active
 * #99406 "République du Costa Rica"
 * #99406 ^designation[0].language = #fr-FR
 * #99406 ^designation[=].use.system = "http://snomed.info/sct"
@@ -1583,6 +2005,8 @@ Description: "Référentiel des codes pays provenant du COG INSEE"
 * #99406 ^property[=].valueDateTime = "2016-02-09T00:00:00+01:00"
 * #99406 ^property[+].code = #dateMaj
 * #99406 ^property[=].valueDateTime = "2024-01-26T12:00:00+01:00"
+* #99406 ^property[+].code = #status
+* #99406 ^property[=].valueCode = #active
 * #99407 "République de Cuba"
 * #99407 ^designation[0].language = #fr-FR
 * #99407 ^designation[=].use.system = "http://snomed.info/sct"
@@ -1592,20 +2016,26 @@ Description: "Référentiel des codes pays provenant du COG INSEE"
 * #99407 ^property[=].valueDateTime = "2016-02-09T00:00:00+01:00"
 * #99407 ^property[+].code = #dateMaj
 * #99407 ^property[=].valueDateTime = "2024-01-26T12:00:00+01:00"
+* #99407 ^property[+].code = #status
+* #99407 ^property[=].valueCode = #active
 * #99408 "République dominicaine"
 * #99408 ^property[0].code = #dateValid
 * #99408 ^property[=].valueDateTime = "2016-02-09T00:00:00+01:00"
 * #99408 ^property[+].code = #dateMaj
 * #99408 ^property[=].valueDateTime = "2024-06-28T12:00:00+01:00"
-* #99409 "République du Guatemala"
+* #99408 ^property[+].code = #status
+* #99408 ^property[=].valueCode = #active
+* #99409 "République du Guatémala"
 * #99409 ^designation[0].language = #fr-FR
 * #99409 ^designation[=].use.system = "http://snomed.info/sct"
 * #99409 ^designation[=].use = $sct#900000000000013009
-* #99409 ^designation[=].value = "Guatemala"
+* #99409 ^designation[=].value = "Guatémala"
 * #99409 ^property[0].code = #dateValid
 * #99409 ^property[=].valueDateTime = "2016-02-09T00:00:00+01:00"
 * #99409 ^property[+].code = #dateMaj
-* #99409 ^property[=].valueDateTime = "2024-01-26T12:00:00+01:00"
+* #99409 ^property[=].valueDateTime = "2025-03-28T12:00:00+01:00"
+* #99409 ^property[+].code = #status
+* #99409 ^property[=].valueCode = #active
 * #99410 "République d'Haïti"
 * #99410 ^designation[0].language = #fr-FR
 * #99410 ^designation[=].use.system = "http://snomed.info/sct"
@@ -1615,6 +2045,8 @@ Description: "Référentiel des codes pays provenant du COG INSEE"
 * #99410 ^property[=].valueDateTime = "2016-02-09T00:00:00+01:00"
 * #99410 ^property[+].code = #dateMaj
 * #99410 ^property[=].valueDateTime = "2024-01-26T12:00:00+01:00"
+* #99410 ^property[+].code = #status
+* #99410 ^property[=].valueCode = #active
 * #99411 "République du Honduras"
 * #99411 ^designation[0].language = #fr-FR
 * #99411 ^designation[=].use.system = "http://snomed.info/sct"
@@ -1624,6 +2056,8 @@ Description: "Référentiel des codes pays provenant du COG INSEE"
 * #99411 ^property[=].valueDateTime = "2016-02-09T00:00:00+01:00"
 * #99411 ^property[+].code = #dateMaj
 * #99411 ^property[=].valueDateTime = "2024-01-26T12:00:00+01:00"
+* #99411 ^property[+].code = #status
+* #99411 ^property[=].valueCode = #active
 * #99412 "République du Nicaragua"
 * #99412 ^designation[0].language = #fr-FR
 * #99412 ^designation[=].use.system = "http://snomed.info/sct"
@@ -1633,6 +2067,8 @@ Description: "Référentiel des codes pays provenant du COG INSEE"
 * #99412 ^property[=].valueDateTime = "2016-02-09T00:00:00+01:00"
 * #99412 ^property[+].code = #dateMaj
 * #99412 ^property[=].valueDateTime = "2024-01-26T12:00:00+01:00"
+* #99412 ^property[+].code = #status
+* #99412 ^property[=].valueCode = #active
 * #99413 "République du Panama"
 * #99413 ^designation[0].language = #fr-FR
 * #99413 ^designation[=].use.system = "http://snomed.info/sct"
@@ -1642,6 +2078,8 @@ Description: "Référentiel des codes pays provenant du COG INSEE"
 * #99413 ^property[=].valueDateTime = "2016-02-09T00:00:00+01:00"
 * #99413 ^property[+].code = #dateMaj
 * #99413 ^property[=].valueDateTime = "2024-01-26T12:00:00+01:00"
+* #99413 ^property[+].code = #status
+* #99413 ^property[=].valueCode = #active
 * #99414 "République du Salvador"
 * #99414 ^designation[0].language = #fr-FR
 * #99414 ^designation[=].use.system = "http://snomed.info/sct"
@@ -1651,6 +2089,8 @@ Description: "Référentiel des codes pays provenant du COG INSEE"
 * #99414 ^property[=].valueDateTime = "2016-02-09T00:00:00+01:00"
 * #99414 ^property[+].code = #dateMaj
 * #99414 ^property[=].valueDateTime = "2024-06-28T12:00:00+01:00"
+* #99414 ^property[+].code = #status
+* #99414 ^property[=].valueCode = #active
 * #99415 "République argentine"
 * #99415 ^designation[0].language = #fr-FR
 * #99415 ^designation[=].use.system = "http://snomed.info/sct"
@@ -1660,6 +2100,8 @@ Description: "Référentiel des codes pays provenant du COG INSEE"
 * #99415 ^property[=].valueDateTime = "2016-02-09T00:00:00+01:00"
 * #99415 ^property[+].code = #dateMaj
 * #99415 ^property[=].valueDateTime = "2024-01-26T12:00:00+01:00"
+* #99415 ^property[+].code = #status
+* #99415 ^property[=].valueCode = #active
 * #99416 "République fédérative du Brésil"
 * #99416 ^designation[0].language = #fr-FR
 * #99416 ^designation[=].use.system = "http://snomed.info/sct"
@@ -1669,6 +2111,8 @@ Description: "Référentiel des codes pays provenant du COG INSEE"
 * #99416 ^property[=].valueDateTime = "2016-02-09T00:00:00+01:00"
 * #99416 ^property[+].code = #dateMaj
 * #99416 ^property[=].valueDateTime = "2024-01-26T12:00:00+01:00"
+* #99416 ^property[+].code = #status
+* #99416 ^property[=].valueCode = #active
 * #99417 "République du Chili"
 * #99417 ^designation[0].language = #fr-FR
 * #99417 ^designation[=].use.system = "http://snomed.info/sct"
@@ -1678,6 +2122,8 @@ Description: "Référentiel des codes pays provenant du COG INSEE"
 * #99417 ^property[=].valueDateTime = "2016-02-09T00:00:00+01:00"
 * #99417 ^property[+].code = #dateMaj
 * #99417 ^property[=].valueDateTime = "2024-01-26T12:00:00+01:00"
+* #99417 ^property[+].code = #status
+* #99417 ^property[=].valueCode = #active
 * #99418 "État plurinational de Bolivie"
 * #99418 ^designation[0].language = #fr-FR
 * #99418 ^designation[=].use.system = "http://snomed.info/sct"
@@ -1687,6 +2133,8 @@ Description: "Référentiel des codes pays provenant du COG INSEE"
 * #99418 ^property[=].valueDateTime = "2016-02-09T00:00:00+01:00"
 * #99418 ^property[+].code = #dateMaj
 * #99418 ^property[=].valueDateTime = "2024-01-26T12:00:00+01:00"
+* #99418 ^property[+].code = #status
+* #99418 ^property[=].valueCode = #active
 * #99419 "République de Colombie"
 * #99419 ^designation[0].language = #fr-FR
 * #99419 ^designation[=].use.system = "http://snomed.info/sct"
@@ -1696,6 +2144,8 @@ Description: "Référentiel des codes pays provenant du COG INSEE"
 * #99419 ^property[=].valueDateTime = "2016-02-09T00:00:00+01:00"
 * #99419 ^property[+].code = #dateMaj
 * #99419 ^property[=].valueDateTime = "2024-01-26T12:00:00+01:00"
+* #99419 ^property[+].code = #status
+* #99419 ^property[=].valueCode = #active
 * #99420 "République d'Équateur"
 * #99420 ^designation[0].language = #fr-FR
 * #99420 ^designation[=].use.system = "http://snomed.info/sct"
@@ -1705,6 +2155,8 @@ Description: "Référentiel des codes pays provenant du COG INSEE"
 * #99420 ^property[=].valueDateTime = "2016-02-09T00:00:00+01:00"
 * #99420 ^property[+].code = #dateMaj
 * #99420 ^property[=].valueDateTime = "2024-06-28T12:00:00+01:00"
+* #99420 ^property[+].code = #status
+* #99420 ^property[=].valueCode = #active
 * #99421 "République du Paraguay"
 * #99421 ^designation[0].language = #fr-FR
 * #99421 ^designation[=].use.system = "http://snomed.info/sct"
@@ -1714,6 +2166,8 @@ Description: "Référentiel des codes pays provenant du COG INSEE"
 * #99421 ^property[=].valueDateTime = "2016-02-09T00:00:00+01:00"
 * #99421 ^property[+].code = #dateMaj
 * #99421 ^property[=].valueDateTime = "2024-01-26T12:00:00+01:00"
+* #99421 ^property[+].code = #status
+* #99421 ^property[=].valueCode = #active
 * #99422 "République du Pérou"
 * #99422 ^designation[0].language = #fr-FR
 * #99422 ^designation[=].use.system = "http://snomed.info/sct"
@@ -1723,6 +2177,8 @@ Description: "Référentiel des codes pays provenant du COG INSEE"
 * #99422 ^property[=].valueDateTime = "2016-02-09T00:00:00+01:00"
 * #99422 ^property[+].code = #dateMaj
 * #99422 ^property[=].valueDateTime = "2024-01-26T12:00:00+01:00"
+* #99422 ^property[+].code = #status
+* #99422 ^property[=].valueCode = #active
 * #99423 "République orientale de l'Uruguay"
 * #99423 ^designation[0].language = #fr-FR
 * #99423 ^designation[=].use.system = "http://snomed.info/sct"
@@ -1732,6 +2188,8 @@ Description: "Référentiel des codes pays provenant du COG INSEE"
 * #99423 ^property[=].valueDateTime = "2016-02-09T00:00:00+01:00"
 * #99423 ^property[+].code = #dateMaj
 * #99423 ^property[=].valueDateTime = "2024-01-26T12:00:00+01:00"
+* #99423 ^property[+].code = #status
+* #99423 ^property[=].valueCode = #active
 * #99424 "République bolivarienne du Vénézuéla"
 * #99424 ^designation[0].language = #fr-FR
 * #99424 ^designation[=].use.system = "http://snomed.info/sct"
@@ -1741,6 +2199,8 @@ Description: "Référentiel des codes pays provenant du COG INSEE"
 * #99424 ^property[=].valueDateTime = "2016-02-09T00:00:00+01:00"
 * #99424 ^property[+].code = #dateMaj
 * #99424 ^property[=].valueDateTime = "2024-01-26T12:00:00+01:00"
+* #99424 ^property[+].code = #status
+* #99424 ^property[=].valueCode = #active
 * #99425 "Turks-et-Caïcos, Caïmans, Montserrat, Anguilla, Vierges britanniques, Bermudes"
 * #99425 ^designation[0].language = #fr-FR
 * #99425 ^designation[=].use.system = "http://snomed.info/sct"
@@ -1754,11 +2214,15 @@ Description: "Référentiel des codes pays provenant du COG INSEE"
 * #99425 ^property[=].valueDateTime = "2016-02-09T00:00:00+01:00"
 * #99425 ^property[+].code = #dateMaj
 * #99425 ^property[=].valueDateTime = "2024-12-13T12:00:00+01:00"
+* #99425 ^property[+].code = #status
+* #99425 ^property[=].valueCode = #active
 * #99426 "Jamaïque"
 * #99426 ^property[0].code = #dateValid
 * #99426 ^property[=].valueDateTime = "2016-02-09T00:00:00+01:00"
 * #99426 ^property[+].code = #dateMaj
 * #99426 ^property[=].valueDateTime = "2024-01-26T12:00:00+01:00"
+* #99426 ^property[+].code = #status
+* #99426 ^property[=].valueCode = #active
 * #99427 "Malouines, terr. antarctique brit., Géorgie-du-Sud-et-les-îles-Sandwich-du-Sud"
 * #99427 ^designation[0].language = #fr-FR
 * #99427 ^designation[=].use.system = "http://snomed.info/sct"
@@ -1772,6 +2236,8 @@ Description: "Référentiel des codes pays provenant du COG INSEE"
 * #99427 ^property[=].valueDateTime = "2016-02-09T00:00:00+01:00"
 * #99427 ^property[+].code = #dateMaj
 * #99427 ^property[=].valueDateTime = "2024-12-13T12:00:00+01:00"
+* #99427 ^property[+].code = #status
+* #99427 ^property[=].valueCode = #active
 * #99428 "République coopérative du Guyana"
 * #99428 ^designation[0].language = #fr-FR
 * #99428 ^designation[=].use.system = "http://snomed.info/sct"
@@ -1781,21 +2247,29 @@ Description: "Référentiel des codes pays provenant du COG INSEE"
 * #99428 ^property[=].valueDateTime = "2016-02-09T00:00:00+01:00"
 * #99428 ^property[+].code = #dateMaj
 * #99428 ^property[=].valueDateTime = "2024-01-26T12:00:00+01:00"
+* #99428 ^property[+].code = #status
+* #99428 ^property[=].valueCode = #active
 * #99429 "Bélize"
 * #99429 ^property[0].code = #dateValid
 * #99429 ^property[=].valueDateTime = "2016-02-09T00:00:00+01:00"
 * #99429 ^property[+].code = #dateMaj
 * #99429 ^property[=].valueDateTime = "2024-01-26T12:00:00+01:00"
+* #99429 ^property[+].code = #status
+* #99429 ^property[=].valueCode = #active
 * #99430 "Groenland"
 * #99430 ^property[0].code = #dateValid
 * #99430 ^property[=].valueDateTime = "2016-02-09T00:00:00+01:00"
 * #99430 ^property[+].code = #dateMaj
 * #99430 ^property[=].valueDateTime = "2024-12-13T12:00:00+01:00"
+* #99430 ^property[+].code = #status
+* #99430 ^property[=].valueCode = #active
 * #99431 "Aruba"
 * #99431 ^property[0].code = #dateValid
 * #99431 ^property[=].valueDateTime = "2016-02-09T00:00:00+01:00"
 * #99431 ^property[+].code = #dateMaj
 * #99431 ^property[=].valueDateTime = "2024-12-13T12:00:00+01:00"
+* #99431 ^property[+].code = #status
+* #99431 ^property[=].valueCode = #active
 * #99432 "Porto Rico, îles Vierges des États-Unis"
 * #99432 ^designation[0].language = #fr-FR
 * #99432 ^designation[=].use.system = "http://snomed.info/sct"
@@ -1809,6 +2283,8 @@ Description: "Référentiel des codes pays provenant du COG INSEE"
 * #99432 ^property[=].valueDateTime = "2016-02-09T00:00:00+01:00"
 * #99432 ^property[+].code = #dateMaj
 * #99432 ^property[=].valueDateTime = "2024-12-13T12:00:00+01:00"
+* #99432 ^property[+].code = #status
+* #99432 ^property[=].valueCode = #active
 * #99433 "République de Trinité-et-Tobago"
 * #99433 ^designation[0].language = #fr-FR
 * #99433 ^designation[=].use.system = "http://snomed.info/sct"
@@ -1818,16 +2294,22 @@ Description: "Référentiel des codes pays provenant du COG INSEE"
 * #99433 ^property[=].valueDateTime = "2016-02-09T00:00:00+01:00"
 * #99433 ^property[+].code = #dateMaj
 * #99433 ^property[=].valueDateTime = "2024-01-26T12:00:00+01:00"
+* #99433 ^property[+].code = #status
+* #99433 ^property[=].valueCode = #active
 * #99434 "Barbade"
 * #99434 ^property[0].code = #dateValid
 * #99434 ^property[=].valueDateTime = "2016-02-09T00:00:00+01:00"
 * #99434 ^property[+].code = #dateMaj
 * #99434 ^property[=].valueDateTime = "2024-01-26T12:00:00+01:00"
+* #99434 ^property[+].code = #status
+* #99434 ^property[=].valueCode = #active
 * #99435 "Grenade"
 * #99435 ^property[0].code = #dateValid
 * #99435 ^property[=].valueDateTime = "2016-02-09T00:00:00+01:00"
 * #99435 ^property[+].code = #dateMaj
 * #99435 ^property[=].valueDateTime = "2024-01-26T12:00:00+01:00"
+* #99435 ^property[+].code = #status
+* #99435 ^property[=].valueCode = #active
 * #99436 "Commonwealth des Bahamas"
 * #99436 ^designation[0].language = #fr-FR
 * #99436 ^designation[=].use.system = "http://snomed.info/sct"
@@ -1837,6 +2319,8 @@ Description: "Référentiel des codes pays provenant du COG INSEE"
 * #99436 ^property[=].valueDateTime = "2016-02-09T00:00:00+01:00"
 * #99436 ^property[+].code = #dateMaj
 * #99436 ^property[=].valueDateTime = "2024-01-26T12:00:00+01:00"
+* #99436 ^property[+].code = #status
+* #99436 ^property[=].valueCode = #active
 * #99437 "République du Suriname"
 * #99437 ^designation[0].language = #fr-FR
 * #99437 ^designation[=].use.system = "http://snomed.info/sct"
@@ -1846,6 +2330,8 @@ Description: "Référentiel des codes pays provenant du COG INSEE"
 * #99437 ^property[=].valueDateTime = "2016-02-09T00:00:00+01:00"
 * #99437 ^property[+].code = #dateMaj
 * #99437 ^property[=].valueDateTime = "2024-01-26T12:00:00+01:00"
+* #99437 ^property[+].code = #status
+* #99437 ^property[=].valueCode = #active
 * #99438 "Commonwealth de Dominique"
 * #99438 ^designation[0].language = #fr-FR
 * #99438 ^designation[=].use.system = "http://snomed.info/sct"
@@ -1855,11 +2341,15 @@ Description: "Référentiel des codes pays provenant du COG INSEE"
 * #99438 ^property[=].valueDateTime = "2016-02-09T00:00:00+01:00"
 * #99438 ^property[+].code = #dateMaj
 * #99438 ^property[=].valueDateTime = "2024-01-26T12:00:00+01:00"
+* #99438 ^property[+].code = #status
+* #99438 ^property[=].valueCode = #active
 * #99439 "Sainte-Lucie"
 * #99439 ^property[0].code = #dateValid
 * #99439 ^property[=].valueDateTime = "2016-02-09T00:00:00+01:00"
 * #99439 ^property[+].code = #dateMaj
 * #99439 ^property[=].valueDateTime = "2024-01-26T12:00:00+01:00"
+* #99439 ^property[+].code = #status
+* #99439 ^property[=].valueCode = #active
 * #99440 "Saint-Vincent-et-les-Grenadines"
 * #99440 ^designation[0].language = #fr-FR
 * #99440 ^designation[=].use.system = "http://snomed.info/sct"
@@ -1869,26 +2359,40 @@ Description: "Référentiel des codes pays provenant du COG INSEE"
 * #99440 ^property[=].valueDateTime = "2016-02-09T00:00:00+01:00"
 * #99440 ^property[+].code = #dateMaj
 * #99440 ^property[=].valueDateTime = "2024-06-28T12:00:00+01:00"
+* #99440 ^property[+].code = #status
+* #99440 ^property[=].valueCode = #active
 * #99441 "Antigua-et-Barbuda"
 * #99441 ^property[0].code = #dateValid
 * #99441 ^property[=].valueDateTime = "2016-02-09T00:00:00+01:00"
 * #99441 ^property[+].code = #dateMaj
 * #99441 ^property[=].valueDateTime = "2024-01-26T12:00:00+01:00"
-* #99442 "Saint-Christophe-et-Niévès"
+* #99441 ^property[+].code = #status
+* #99441 ^property[=].valueCode = #active
+* #99442 "Fédération de Saint-Christophe-et-Niévès"
+* #99442 ^designation[0].language = #fr-FR
+* #99442 ^designation[=].use.system = "http://snomed.info/sct"
+* #99442 ^designation[=].use = $sct#900000000000013009
+* #99442 ^designation[=].value = "Féd. St-Christophe-et-Niévès"
 * #99442 ^property[0].code = #dateValid
 * #99442 ^property[=].valueDateTime = "2016-02-09T00:00:00+01:00"
 * #99442 ^property[+].code = #dateMaj
-* #99442 ^property[=].valueDateTime = "2024-06-28T12:00:00+01:00"
+* #99442 ^property[=].valueDateTime = "2025-03-28T12:00:00+01:00"
+* #99442 ^property[+].code = #status
+* #99442 ^property[=].valueCode = #active
 * #99443 "Bonaire, Saint-Eustache, Saba"
 * #99443 ^property[0].code = #dateValid
 * #99443 ^property[=].valueDateTime = "2016-02-09T00:00:00+01:00"
 * #99443 ^property[+].code = #dateMaj
 * #99443 ^property[=].valueDateTime = "2024-12-13T12:00:00+01:00"
+* #99443 ^property[+].code = #status
+* #99443 ^property[=].valueCode = #active
 * #99444 "Curaçao"
 * #99444 ^property[0].code = #dateValid
 * #99444 ^property[=].valueDateTime = "2016-02-09T00:00:00+01:00"
 * #99444 ^property[+].code = #dateMaj
 * #99444 ^property[=].valueDateTime = "2024-12-13T12:00:00+01:00"
+* #99444 ^property[+].code = #status
+* #99444 ^property[=].valueCode = #active
 * #99445 "Saint-Martin (partie néerlandaise)"
 * #99445 ^designation[0].language = #fr-FR
 * #99445 ^designation[=].use.system = "http://snomed.info/sct"
@@ -1898,6 +2402,8 @@ Description: "Référentiel des codes pays provenant du COG INSEE"
 * #99445 ^property[=].valueDateTime = "2016-02-09T00:00:00+01:00"
 * #99445 ^property[+].code = #dateMaj
 * #99445 ^property[=].valueDateTime = "2024-12-13T12:00:00+01:00"
+* #99445 ^property[+].code = #status
+* #99445 ^property[=].valueCode = #active
 * #99501 "Commonwealth d'Australie"
 * #99501 ^designation[0].language = #fr-FR
 * #99501 ^designation[=].use.system = "http://snomed.info/sct"
@@ -1907,16 +2413,22 @@ Description: "Référentiel des codes pays provenant du COG INSEE"
 * #99501 ^property[=].valueDateTime = "2016-02-09T00:00:00+01:00"
 * #99501 ^property[+].code = #dateMaj
 * #99501 ^property[=].valueDateTime = "2024-06-28T12:00:00+01:00"
+* #99501 ^property[+].code = #status
+* #99501 ^property[=].valueCode = #active
 * #99502 "Nouvelle-Zélande"
 * #99502 ^property[0].code = #dateValid
 * #99502 ^property[=].valueDateTime = "2016-02-09T00:00:00+01:00"
 * #99502 ^property[+].code = #dateMaj
 * #99502 ^property[=].valueDateTime = "2024-01-26T12:00:00+01:00"
+* #99502 ^property[+].code = #status
+* #99502 ^property[=].valueCode = #active
 * #99503 "Pitcairn"
 * #99503 ^property[0].code = #dateValid
 * #99503 ^property[=].valueDateTime = "2016-02-09T00:00:00+01:00"
 * #99503 ^property[+].code = #dateMaj
 * #99503 ^property[=].valueDateTime = "2024-12-13T12:00:00+01:00"
+* #99503 ^property[+].code = #status
+* #99503 ^property[=].valueCode = #active
 * #99504 "Hawaii"
 * #99504 ^property[0].code = #dateValid
 * #99504 ^property[=].valueDateTime = "2016-02-09T00:00:00+01:00"
@@ -1924,6 +2436,10 @@ Description: "Référentiel des codes pays provenant du COG INSEE"
 * #99504 ^property[=].valueDateTime = "2016-02-09T00:00:00+01:00"
 * #99504 ^property[+].code = #dateMaj
 * #99504 ^property[=].valueDateTime = "2024-06-28T12:00:00+01:00"
+* #99504 ^property[+].code = #deprecationDate
+* #99504 ^property[=].valueDateTime = "2016-02-09T00:00:00+01:00"
+* #99504 ^property[+].code = #status
+* #99504 ^property[=].valueCode = #deprecated
 * #99505 "Mariannes du Nord, Guam, Samoa américaines, mineures éloignées des États-Unis"
 * #99505 ^designation[0].language = #fr-FR
 * #99505 ^designation[=].use.system = "http://snomed.info/sct"
@@ -1936,6 +2452,8 @@ Description: "Référentiel des codes pays provenant du COG INSEE"
 * #99505 ^property[=].valueDateTime = "2016-02-09T00:00:00+01:00"
 * #99505 ^property[+].code = #dateMaj
 * #99505 ^property[=].valueDateTime = "2024-12-13T12:00:00+01:00"
+* #99505 ^property[+].code = #status
+* #99505 ^property[=].valueCode = #active
 * #99506 "État indépendant des Samoa"
 * #99506 ^designation[0].language = #fr-FR
 * #99506 ^designation[=].use.system = "http://snomed.info/sct"
@@ -1945,6 +2463,8 @@ Description: "Référentiel des codes pays provenant du COG INSEE"
 * #99506 ^property[=].valueDateTime = "2016-02-09T00:00:00+01:00"
 * #99506 ^property[+].code = #dateMaj
 * #99506 ^property[=].valueDateTime = "2024-06-28T12:00:00+01:00"
+* #99506 ^property[+].code = #status
+* #99506 ^property[=].valueCode = #active
 * #99507 "République de Nauru"
 * #99507 ^designation[0].language = #fr-FR
 * #99507 ^designation[=].use.system = "http://snomed.info/sct"
@@ -1954,6 +2474,8 @@ Description: "Référentiel des codes pays provenant du COG INSEE"
 * #99507 ^property[=].valueDateTime = "2016-02-09T00:00:00+01:00"
 * #99507 ^property[+].code = #dateMaj
 * #99507 ^property[=].valueDateTime = "2024-01-26T12:00:00+01:00"
+* #99507 ^property[+].code = #status
+* #99507 ^property[=].valueCode = #active
 * #99508 "République des Fidji"
 * #99508 ^designation[0].language = #fr-FR
 * #99508 ^designation[=].use.system = "http://snomed.info/sct"
@@ -1963,6 +2485,8 @@ Description: "Référentiel des codes pays provenant du COG INSEE"
 * #99508 ^property[=].valueDateTime = "2016-02-09T00:00:00+01:00"
 * #99508 ^property[+].code = #dateMaj
 * #99508 ^property[=].valueDateTime = "2024-01-26T12:00:00+01:00"
+* #99508 ^property[+].code = #status
+* #99508 ^property[=].valueCode = #active
 * #99509 "Royaume des Tonga"
 * #99509 ^designation[0].language = #fr-FR
 * #99509 ^designation[=].use.system = "http://snomed.info/sct"
@@ -1972,6 +2496,8 @@ Description: "Référentiel des codes pays provenant du COG INSEE"
 * #99509 ^property[=].valueDateTime = "2016-02-09T00:00:00+01:00"
 * #99509 ^property[+].code = #dateMaj
 * #99509 ^property[=].valueDateTime = "2024-01-26T12:00:00+01:00"
+* #99509 ^property[+].code = #status
+* #99509 ^property[=].valueCode = #active
 * #99510 "État indépendant de Papouasie-Nouvelle-Guinée"
 * #99510 ^designation[0].language = #fr-FR
 * #99510 ^designation[=].use.system = "http://snomed.info/sct"
@@ -1981,11 +2507,15 @@ Description: "Référentiel des codes pays provenant du COG INSEE"
 * #99510 ^property[=].valueDateTime = "2016-02-09T00:00:00+01:00"
 * #99510 ^property[+].code = #dateMaj
 * #99510 ^property[=].valueDateTime = "2024-06-28T12:00:00+01:00"
+* #99510 ^property[+].code = #status
+* #99510 ^property[=].valueCode = #active
 * #99511 "Tuvalu"
 * #99511 ^property[0].code = #dateValid
 * #99511 ^property[=].valueDateTime = "2016-02-09T00:00:00+01:00"
 * #99511 ^property[+].code = #dateMaj
 * #99511 ^property[=].valueDateTime = "2024-01-26T12:00:00+01:00"
+* #99511 ^property[+].code = #status
+* #99511 ^property[=].valueCode = #active
 * #99512 "Îles Salomon"
 * #99512 ^designation[0].language = #fr-FR
 * #99512 ^designation[=].use.system = "http://snomed.info/sct"
@@ -1995,6 +2525,8 @@ Description: "Référentiel des codes pays provenant du COG INSEE"
 * #99512 ^property[=].valueDateTime = "2016-02-09T00:00:00+01:00"
 * #99512 ^property[+].code = #dateMaj
 * #99512 ^property[=].valueDateTime = "2024-06-28T12:00:00+01:00"
+* #99512 ^property[+].code = #status
+* #99512 ^property[=].valueCode = #active
 * #99513 "République des Kiribati"
 * #99513 ^designation[0].language = #fr-FR
 * #99513 ^designation[=].use.system = "http://snomed.info/sct"
@@ -2004,6 +2536,8 @@ Description: "Référentiel des codes pays provenant du COG INSEE"
 * #99513 ^property[=].valueDateTime = "2016-02-09T00:00:00+01:00"
 * #99513 ^property[+].code = #dateMaj
 * #99513 ^property[=].valueDateTime = "2024-01-26T12:00:00+01:00"
+* #99513 ^property[+].code = #status
+* #99513 ^property[=].valueCode = #active
 * #99514 "République du Vanuatu"
 * #99514 ^designation[0].language = #fr-FR
 * #99514 ^designation[=].use.system = "http://snomed.info/sct"
@@ -2013,6 +2547,8 @@ Description: "Référentiel des codes pays provenant du COG INSEE"
 * #99514 ^property[=].valueDateTime = "2016-02-09T00:00:00+01:00"
 * #99514 ^property[+].code = #dateMaj
 * #99514 ^property[=].valueDateTime = "2024-01-26T12:00:00+01:00"
+* #99514 ^property[+].code = #status
+* #99514 ^property[=].valueCode = #active
 * #99515 "République des îles Marshall"
 * #99515 ^designation[0].language = #fr-FR
 * #99515 ^designation[=].use.system = "http://snomed.info/sct"
@@ -2022,6 +2558,8 @@ Description: "Référentiel des codes pays provenant du COG INSEE"
 * #99515 ^property[=].valueDateTime = "2016-02-09T00:00:00+01:00"
 * #99515 ^property[+].code = #dateMaj
 * #99515 ^property[=].valueDateTime = "2024-01-26T12:00:00+01:00"
+* #99515 ^property[+].code = #status
+* #99515 ^property[=].valueCode = #active
 * #99516 "États fédérés de Micronésie"
 * #99516 ^designation[0].language = #fr-FR
 * #99516 ^designation[=].use.system = "http://snomed.info/sct"
@@ -2031,6 +2569,8 @@ Description: "Référentiel des codes pays provenant du COG INSEE"
 * #99516 ^property[=].valueDateTime = "2016-02-09T00:00:00+01:00"
 * #99516 ^property[+].code = #dateMaj
 * #99516 ^property[=].valueDateTime = "2024-06-28T12:00:00+01:00"
+* #99516 ^property[+].code = #status
+* #99516 ^property[=].valueCode = #active
 * #99517 "République des Palaos"
 * #99517 ^designation[0].language = #fr-FR
 * #99517 ^designation[=].use = $sct#900000000000013009
@@ -2039,8 +2579,12 @@ Description: "Référentiel des codes pays provenant du COG INSEE"
 * #99517 ^property[=].valueDateTime = "2016-02-09T00:00:00+01:00"
 * #99517 ^property[+].code = #dateMaj
 * #99517 ^property[=].valueDateTime = "2024-06-28T12:00:00+01:00"
+* #99517 ^property[+].code = #status
+* #99517 ^property[=].valueCode = #active
 * #99699 "Antarctique"
 * #99699 ^property[0].code = #dateValid
 * #99699 ^property[=].valueDateTime = "2024-06-28T12:00:00+01:00"
 * #99699 ^property[+].code = #dateMaj
 * #99699 ^property[=].valueDateTime = "2024-06-28T12:00:00+01:00"
+* #99699 ^property[+].code = #status
+* #99699 ^property[=].valueCode = #active

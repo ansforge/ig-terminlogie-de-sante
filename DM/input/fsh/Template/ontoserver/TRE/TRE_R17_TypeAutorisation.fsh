@@ -1,18 +1,18 @@
 CodeSystem: TRE_R17_TypeAutorisation
 Id: TRE-R17-TypeAutorisation
 Description: "Type d'autorisation"
-* ^meta.versionId = "5"
-* ^meta.lastUpdated = "2024-12-19T19:11:25.288+00:00"
+* ^meta.versionId = "6"
+* ^meta.lastUpdated = "2025-02-10T15:59:45.610+00:00"
 * ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablecodesystem"
 * ^extension.url = "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod"
 * ^extension.valuePeriod.start = "2013-06-28T00:00:00+01:00"
 * ^url = "https://mos.esante.gouv.fr/NOS/TRE_R17-TypeAutorisation/FHIR/TRE-R17-TypeAutorisation"
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value = "urn:oid:1.2.250.1.213.1.6.1.14"
-* ^version = "20241213120000"
+* ^version = "20250131120000"
 * ^status = #active
 * ^experimental = false
-* ^date = "2024-12-13T12:00:00+01:00"
+* ^date = "2025-01-31T12:00:00+01:00"
 * ^publisher = "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris"
 * ^caseSensitive = false
 * ^content = #complete
@@ -344,15 +344,15 @@ Description: "Type d'autorisation"
 * #AM32 ^property[=].valueDateTime = "2023-03-31T12:00:00+01:00"
 * #AM32 ^property[+].code = #dateMaj
 * #AM32 ^property[=].valueDateTime = "2023-03-31T12:00:00+01:00"
-* #AM33 "Autorisation d'exercice de psychothérapeute pour médecin spécialisé psychiatrie" "Article 52 de la loi n° 2004-806 du 9 août 2004 relative à la politique de santé publique ; article 1 du décret n° 2010-534 du 20 mai 2010 relatif à l'usage du titre de psychothérapeute"
+* #AM33 "Docteur en médecine spécialité psychiatrie" "Article 52 de la loi n° 2004-806 du 9 août 2004 relative à la politique de santé publique ; article 1 du décret n° 2010-534 du 20 mai 2010 relatif à l'usage du titre de psychothérapeute"
 * #AM33 ^designation[0].language = #fr-FR
 * #AM33 ^designation[=].use.system = "http://snomed.info/sct"
 * #AM33 ^designation[=].use = $sct#900000000000013009
-* #AM33 ^designation[=].value = "Autor psychothérap méd spé psy"
+* #AM33 ^designation[=].value = "DE Médecin + spec psy"
 * #AM33 ^property[0].code = #dateValid
 * #AM33 ^property[=].valueDateTime = "2023-03-31T12:00:00+01:00"
 * #AM33 ^property[+].code = #dateMaj
-* #AM33 ^property[=].valueDateTime = "2023-03-31T12:00:00+01:00"
+* #AM33 ^property[=].valueDateTime = "2025-01-31T12:00:00+01:00"
 * #AM34 "Autorisation d'exercice d'audioprothésiste médecin" "Article L4361-3 du code de la santé publique (CSP)"
 * #AM34 ^designation[0].language = #fr-FR
 * #AM34 ^designation[=].use.system = "http://snomed.info/sct"
@@ -403,25 +403,21 @@ Description: "Type d'autorisation"
 * #AM38 ^designation[=].use = $sct#900000000000013009
 * #AM38 ^designation[=].value = "Arrêté de nomination de MER"
 * #AM38 ^designation[+].language = #fr-FR
-* #AM38 ^designation[=].use.system = "http://snomed.info/sct"
 * #AM38 ^designation[=].use = $sct#900000000000013009
 * #AM38 ^designation[=].value = "Arrêté de Nomination de Manipulateur d'Electro-Radiologie du Secteur Public"
 * #AM38 ^property[0].code = #dateValid
 * #AM38 ^property[=].valueDateTime = "2023-03-31T12:00:00+01:00"
 * #AM38 ^property[+].code = #dateMaj
 * #AM38 ^property[=].valueDateTime = "2023-03-31T12:00:00+01:00"
-* #AM39 "Autorisation d'exercice psychothérapeute médecin" "Article 52 de la loi n° 2004-806 du 9 août 2004 relative à la politique de santé publique ; article 1 du décret n° 2010-534 du 20 mai 2010 relatif à l'usage du titre de psychothérapeute."
+* #AM39 "Docteur en médecine + formation + stage" "Article 52 de la loi n° 2004-806 du 9 août 2004 relative à la politique de santé publique ; article 1 du décret n° 2010-534 du 20 mai 2010 relatif à l'usage du titre de psychothérapeute."
 * #AM39 ^designation[0].language = #fr-FR
 * #AM39 ^designation[=].use.system = "http://snomed.info/sct"
 * #AM39 ^designation[=].use = $sct#900000000000013009
-* #AM39 ^designation[=].value = "Autor psychothérapeute médecin"
-* #AM39 ^designation[+].language = #fr-FR
-* #AM39 ^designation[=].use = $sct#900000000000013009
-* #AM39 ^designation[=].value = "Autorisation d'exercice de psychothérapeute pour médecin"
+* #AM39 ^designation[=].value = "DE Médecin + formation + stage"
 * #AM39 ^property[0].code = #dateValid
 * #AM39 ^property[=].valueDateTime = "2023-03-31T12:00:00+01:00"
 * #AM39 ^property[+].code = #dateMaj
-* #AM39 ^property[=].valueDateTime = "2023-03-31T12:00:00+01:00"
+* #AM39 ^property[=].valueDateTime = "2025-01-31T12:00:00+01:00"
 * #AM40 "Autorisation d'exercice temporaire Nouvelle-Calédonie (loi du pays n°2023-8)" "Autorisation d'exercice dérogatoire temporaire pour certains professionnels de santé, mise en place par la Loi du pays n° 2023-8 du 11 août 2023"
 * #AM40 ^designation[0].language = #fr-FR
 * #AM40 ^designation[=].use.system = "http://snomed.info/sct"

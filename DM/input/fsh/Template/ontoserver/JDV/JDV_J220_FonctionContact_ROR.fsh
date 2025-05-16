@@ -1,18 +1,18 @@
 ValueSet: JDV_J220_FonctionContact_ROR
 Id: JDV-J220-FonctionContact-ROR
 Description: "Un titre, une position, une fonction de la personne contact dans l'organisation"
-* ^meta.versionId = "3"
-* ^meta.lastUpdated = "2024-04-27T05:07:24.189+00:00"
+* ^meta.versionId = "4"
+* ^meta.lastUpdated = "2025-02-10T16:06:02.813+00:00"
 * ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablevalueset"
 * ^extension.url = "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod"
 * ^extension.valuePeriod.start = "2022-08-26T12:00:00+01:00"
 * ^url = "https://mos.esante.gouv.fr/NOS/JDV_J220-FonctionContact-ROR/FHIR/JDV-J220-FonctionContact-ROR"
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value = "urn:oid:1.2.250.1.213.3.4.52"
-* ^version = "20240426120000"
+* ^version = "20250131120000"
 * ^status = #active
 * ^experimental = false
-* ^date = "2024-04-26T12:00:00+01:00"
+* ^date = "2025-01-31T12:00:00+01:00"
 * ^publisher = "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris"
 * $TRE-R251-FonctionContact#01 "Directeur"
 * $TRE-R251-FonctionContact#02 "Assistant social"
@@ -39,3 +39,4 @@ Description: "Un titre, une position, une fonction de la personne contact dans l
 * $TRE-R251-FonctionContact#25 "Référent en antibiothérapie"
 * $TRE-R251-FonctionContact#26 "Coordonnateur de la gestion des risques associés aux soins"
 * $TRE-R251-FonctionContact#27 "Responsable du Bed Management"
+* $TRE-R251-FonctionContact#28 "Référent Handicap"

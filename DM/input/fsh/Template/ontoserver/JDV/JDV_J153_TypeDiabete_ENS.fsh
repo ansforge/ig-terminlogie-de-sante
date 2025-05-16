@@ -1,8 +1,8 @@
 ValueSet: JDV_J153_TypeDiabete_ENS
 Id: JDV-J153-TypeDiabete-ENS
 Description: "JDV pour caractériser le type de diabète dans l'extension DiabetisType"
-* ^meta.versionId = "2"
-* ^meta.lastUpdated = "2024-04-27T05:06:52.211+00:00"
+* ^meta.versionId = "3"
+* ^meta.lastUpdated = "2025-01-28T12:47:09.121+00:00"
 * ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablevalueset"
 * ^extension.url = "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod"
 * ^extension.valuePeriod.start = "2021-04-30T12:00:00+01:00"
@@ -10,7 +10,7 @@ Description: "JDV pour caractériser le type de diabète dans l'extension Diabet
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value = "urn:oid:1.2.250.1.213.1.1.5.608"
 * ^version = "20230630120000"
-* ^status = #active
+* ^status = #retired
 * ^experimental = false
 * ^date = "2023-06-30T12:00:00+01:00"
 * ^publisher = "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris"

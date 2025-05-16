@@ -1,18 +1,18 @@
 CodeSystem: TRE_R278_FinessConvention
 Id: TRE-R278-FinessConvention
 Description: "Convention du domaine social FINESS"
-* ^meta.versionId = "1"
-* ^meta.lastUpdated = "2024-08-28T05:13:03.510+00:00"
+* ^meta.versionId = "2"
+* ^meta.lastUpdated = "2025-02-10T16:01:18.884+00:00"
 * ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablecodesystem"
 * ^extension.url = "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod"
 * ^extension.valuePeriod.start = "2018-10-26T12:00:00+01:00"
 * ^url = "https://mos.esante.gouv.fr/NOS/TRE_R278-FinessConvention/FHIR/TRE-R278-FinessConvention"
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value = "urn:oid:1.2.250.1.213.1.6.1.131"
-* ^version = "20240329120000"
+* ^version = "20250131120000"
 * ^status = #active
 * ^experimental = false
-* ^date = "2024-03-29T12:00:00+01:00"
+* ^date = "2025-01-31T12:00:00+01:00"
 * ^publisher = "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris"
 * ^caseSensitive = false
 * ^content = #complete
@@ -93,15 +93,15 @@ Description: "Convention du domaine social FINESS"
 * #DEA ^property[=].valueDateTime = "2018-10-26T12:00:00+01:00"
 * #DEA ^property[+].code = #dateMaj
 * #DEA ^property[=].valueDateTime = "2018-10-26T12:00:00+01:00"
-* #DIT "Dispositif intégré ITEP"
+* #DIT "Dispositif Intégré" "Cette convention identifie soit les ESMS ex-DITEP soit les ESMS fonctionnant en Dispositif Intégré mais n'entrant pas dans un \"dispositif partenarial\""
 * #DIT ^designation.language = #fr-FR
 * #DIT ^designation.use.system = "http://snomed.info/sct"
 * #DIT ^designation.use = $sct#900000000000013009
-* #DIT ^designation.value = "DITEP"
+* #DIT ^designation.value = "Disp. Int."
 * #DIT ^property[0].code = #dateValid
 * #DIT ^property[=].valueDateTime = "2018-10-26T12:00:00+01:00"
 * #DIT ^property[+].code = #dateMaj
-* #DIT ^property[=].valueDateTime = "2018-10-26T12:00:00+01:00"
+* #DIT ^property[=].valueDateTime = "2025-01-31T12:00:00+01:00"
 * #EMA "Equipe mobile d'appui pour la scolarisation jeunes handicap"
 * #EMA ^property[0].code = #dateValid
 * #EMA ^property[=].valueDateTime = "2020-01-31T12:00:00+01:00"
@@ -283,6 +283,7 @@ Description: "Convention du domaine social FINESS"
 * #UNI ^property[=].valueDateTime = "2018-10-26T12:00:00+01:00"
 * #DIS "Dispositif Article 51"
 * #DIS ^designation.language = #fr-FR
+* #DIS ^designation.use.system = "http://snomed.info/sct"
 * #DIS ^designation.use = $sct#900000000000013009
 * #DIS ^designation.value = "Dispositif Art. 51"
 * #DIS ^property[0].code = #dateValid
@@ -294,3 +295,20 @@ Description: "Convention du domaine social FINESS"
 * #SAD ^property[=].valueDateTime = "2024-01-26T12:00:00+01:00"
 * #SAD ^property[+].code = #dateMaj
 * #SAD ^property[=].valueDateTime = "2024-01-26T12:00:00+01:00"
+* #MDI "Membre du Dispositif Intégré" "Cette convention identifie un membre simple (non porteur) du Dispositif Intégré dans le cas d'un dispositif partenarial\""
+* #MDI ^designation.language = #fr-FR
+* #MDI ^designation.use.system = "http://snomed.info/sct"
+* #MDI ^designation.use = $sct#900000000000013009
+* #MDI ^designation.value = "Membre Disp. Int."
+* #MDI ^property[0].code = #dateValid
+* #MDI ^property[=].valueDateTime = "2025-01-31T12:00:00+01:00"
+* #MDI ^property[+].code = #dateMaj
+* #MDI ^property[=].valueDateTime = "2025-01-31T12:00:00+01:00"
+* #PDI "Porteur du Dispositif Intégré" "Cette convention identifie le porteur du Dispositif Intégré dans le cas d'un dispositif partenarial\""
+* #PDI ^designation.language = #fr-FR
+* #PDI ^designation.use = $sct#900000000000013009
+* #PDI ^designation.value = "Porteur Disp. Int."
+* #PDI ^property[0].code = #dateValid
+* #PDI ^property[=].valueDateTime = "2025-01-31T12:00:00+01:00"
+* #PDI ^property[+].code = #dateMaj
+* #PDI ^property[=].valueDateTime = "2025-01-31T12:00:00+01:00"

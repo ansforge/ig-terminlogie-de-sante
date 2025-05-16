@@ -1,18 +1,18 @@
 CodeSystem: TRE_R210_ActeSpecifique
 Id: TRE-R210-ActeSpecifique
 Description: "Action menée par un ou plusieurs acteur(s) de santé dans le cadre d'une activité. Cet acte peut correspondre à une technique spécialisée ou traduire une expertise discriminante dans le parcours de santé."
-* ^meta.versionId = "15"
-* ^meta.lastUpdated = "2024-12-19T19:11:39.620+00:00"
+* ^meta.versionId = "16"
+* ^meta.lastUpdated = "2025-02-11T14:02:03.786+00:00"
 * ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablecodesystem"
 * ^extension.url = "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod"
 * ^extension.valuePeriod.start = "2015-04-08T00:00:00+01:00"
 * ^url = "https://mos.esante.gouv.fr/NOS/TRE_R210-ActeSpecifique/FHIR/TRE-R210-ActeSpecifique"
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value = "urn:oid:1.2.250.1.213.3.3.11"
-* ^version = "20241213120000"
+* ^version = "20250131120000"
 * ^status = #active
 * ^experimental = false
-* ^date = "2024-12-13T12:00:00+01:00"
+* ^date = "2025-01-31T12:00:00+01:00"
 * ^publisher = "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris"
 * ^caseSensitive = false
 * ^content = #complete
@@ -7255,7 +7255,7 @@ Description: "Action menée par un ou plusieurs acteur(s) de santé dans le cadr
 * #0718 ^property[=].valueDateTime = "2018-01-26T12:00:00+01:00"
 * #0718 ^property[+].code = #dateMaj
 * #0718 ^property[=].valueDateTime = "2018-01-26T12:00:00+01:00"
-* #0719 "Addictologie et périnatalité"
+* #0719 "Addictologie et périnatalité" "Prévention, dépistage et prise en charge par les médecins, sage-femmes, psychologues des comportements addictifs (consommation d'alcool, tabac, drogues, médicaments détournés, etc.) chez les femmes enceintes, les jeunes mères et leur entourage, afin de protéger la santé de la mère et du foetus ou du nourrisson."
 * #0719 ^designation[0].language = #fr-FR
 * #0719 ^designation[=].use.system = "http://snomed.info/sct"
 * #0719 ^designation[=].use = $sct#900000000000013009
@@ -7263,7 +7263,7 @@ Description: "Action menée par un ou plusieurs acteur(s) de santé dans le cadr
 * #0719 ^property[0].code = #dateValid
 * #0719 ^property[=].valueDateTime = "2018-01-26T12:00:00+01:00"
 * #0719 ^property[+].code = #dateMaj
-* #0719 ^property[=].valueDateTime = "2018-01-26T12:00:00+01:00"
+* #0719 ^property[=].valueDateTime = "2025-01-31T12:00:00+01:00"
 * #0720 "Scintigraphie osseuse"
 * #0720 ^designation[0].language = #fr-FR
 * #0720 ^designation[=].use.system = "http://snomed.info/sct"
@@ -10714,11 +10714,11 @@ Description: "Action menée par un ou plusieurs acteur(s) de santé dans le cadr
 * #1150 ^property[=].valueDateTime = "2022-10-28T12:00:00+01:00"
 * #1150 ^property[+].code = #dateMaj
 * #1150 ^property[=].valueDateTime = "2022-10-28T12:00:00+01:00"
-* #1151 "Chirurgie carcinologique de l'oesophage ou de la jonction gastro-oesophagienne" "Chirurgie qui consiste en l'ablation complète ou partielle de l'oesophage en fonction de la localisation de la tumeur et de son stade"
+* #1151 "Chirurgie carcinologique de l'oesophage ou de la jonction gastro-oesophagienne" "Branche de la chirurgie qui s'intéresse au cancer de l'oesophage dans le but de traiter la tumeur, de réduire la propagation de la maladie et d'améliorer le pronostic du patient. Cette chirurgie peut inclure différentes procédures en fonction du stade et de la localisation du cancer, telles que l'oesophagectomie partielle ou totale, parfois associée à une reconstruction de l'oesophage à l'aide de tissus voisins ou de prothèses."
 * #1151 ^property[0].code = #dateValid
 * #1151 ^property[=].valueDateTime = "2022-10-28T12:00:00+01:00"
 * #1151 ^property[+].code = #dateMaj
-* #1151 ^property[=].valueDateTime = "2024-10-25T12:00:00+01:00"
+* #1151 ^property[=].valueDateTime = "2025-01-31T12:00:00+01:00"
 * #1152 "Chirurgie de l'endométriose" "Chirurgie qui repose sur l'exérèse de l'ensemble des lésions d'endométriose, sa complexité va dépendre de l'extension de la maladie"
 * #1152 ^property[0].code = #dateValid
 * #1152 ^property[=].valueDateTime = "2022-10-28T12:00:00+01:00"
@@ -11981,11 +11981,11 @@ Description: "Action menée par un ou plusieurs acteur(s) de santé dans le cadr
 * #1387 ^property[=].valueDateTime = "2024-01-26T12:00:00+01:00"
 * #1387 ^property[+].code = #dateMaj
 * #1387 ^property[=].valueDateTime = "2024-01-26T12:00:00+01:00"
-* #1388 "Gestion des complications de l'infection par le VIH"
+* #1388 "Gestion des complications de l'infection par le VIH" "Ensemble des stratégies médicales mises en oeuvre pour prévenir, diagnostiquer et traiter les complications d'ordre immunitaire, infectieux, métabolique, ou psychologique liées au VIH, à ses traitements et à son évolution."
 * #1388 ^property[0].code = #dateValid
 * #1388 ^property[=].valueDateTime = "2024-01-26T12:00:00+01:00"
 * #1388 ^property[+].code = #dateMaj
-* #1388 ^property[=].valueDateTime = "2024-01-26T12:00:00+01:00"
+* #1388 ^property[=].valueDateTime = "2025-01-31T12:00:00+01:00"
 * #1389 "Initiation et suivi thérapeutique des hépatites virales" "Primo-prescription, surveillance et suivi des traitements des hépatites virales."
 * #1389 ^property[0].code = #dateValid
 * #1389 ^property[=].valueDateTime = "2024-01-26T12:00:00+01:00"
@@ -12001,17 +12001,17 @@ Description: "Action menée par un ou plusieurs acteur(s) de santé dans le cadr
 * #1391 ^property[=].valueDateTime = "2024-01-26T12:00:00+01:00"
 * #1391 ^property[+].code = #dateMaj
 * #1391 ^property[=].valueDateTime = "2024-01-26T12:00:00+01:00"
-* #1392 "Prise en charge clinique des parasitoses"
+* #1392 "Prise en charge clinique des parasitoses" "Ensemble des actions diagnostiques, thérapeutiques et préventives mises en oeuvre pour traiter les infections causées par des parasites (protozoaires, helminthes, ectoparasites) et en limiter les complications."
 * #1392 ^property[0].code = #dateValid
 * #1392 ^property[=].valueDateTime = "2024-01-26T12:00:00+01:00"
 * #1392 ^property[+].code = #dateMaj
-* #1392 ^property[=].valueDateTime = "2024-01-26T12:00:00+01:00"
+* #1392 ^property[=].valueDateTime = "2025-01-31T12:00:00+01:00"
 * #1393 "Prise en charge des Infections chez les Immunodéprimés (ID)" "Gestion de la fièvre et des infections chez un immunodéprimés : neutropénies (le plus souvent après chimio et/ou radiothérapie), déficits de l'immunité cellulaire (hémopathies, greffe de moelle ou d'organe, infection par le VIH, traitements immunosuppresseurs, corticothérapie au long cours…), déficits de l'immunité humorale (splénectomie, hypo/agammaglobulinémie, myélome, déficit en complément)."
 * #1393 ^property[0].code = #dateValid
 * #1393 ^property[=].valueDateTime = "2024-01-26T12:00:00+01:00"
 * #1393 ^property[+].code = #dateMaj
 * #1393 ^property[=].valueDateTime = "2024-01-26T12:00:00+01:00"
-* #1394 "PEC diag et thérapeutique infections post-opé, sur prothèses, disp implantables"
+* #1394 "PEC diag et thérapeutique infections post-opé, sur prothèses, disp implantables" "Ensemble des actions diagnostiques, thérapeutiques et préventives mises en oeuvre pour traiter les infections survenant après une intervention chirurgicale ou associées à des implants médicaux."
 * #1394 ^designation[0].language = #fr-FR
 * #1394 ^designation[=].use.system = "http://snomed.info/sct"
 * #1394 ^designation[=].use = $sct#900000000000013009
@@ -12019,7 +12019,7 @@ Description: "Action menée par un ou plusieurs acteur(s) de santé dans le cadr
 * #1394 ^property[0].code = #dateValid
 * #1394 ^property[=].valueDateTime = "2024-01-26T12:00:00+01:00"
 * #1394 ^property[+].code = #dateMaj
-* #1394 ^property[=].valueDateTime = "2024-01-26T12:00:00+01:00"
+* #1394 ^property[=].valueDateTime = "2025-01-31T12:00:00+01:00"
 * #1395 "Bilan diagnostic psychiatrique" "Evaluation psychiatrique systématique qui comprend les antécédents médicaux et psychiatriques et un examen de l'état mental dans le but de porter un diagnostic psychiatrique dans les cas complexes."
 * #1395 ^property[0].code = #dateValid
 * #1395 ^property[=].valueDateTime = "2024-01-26T12:00:00+01:00"
@@ -12044,11 +12044,11 @@ Description: "Action menée par un ou plusieurs acteur(s) de santé dans le cadr
 * #1398 ^property[=].valueDateTime = "2024-01-26T12:00:00+01:00"
 * #1398 ^property[+].code = #dateMaj
 * #1398 ^property[=].valueDateTime = "2024-05-31T12:00:00+01:00"
-* #1399 "Unité de réanimation pédiatrique de recours"
+* #1399 "Unité de réanimation pédiatrique de recours" "Structures spécialisées, désignées dans le cadre de la réforme des autorisations de soins critiques, qui assurent la prise en charge des enfants nécessitant des soins intensifs et une expertise pédiatrique avancée, que ne peuvent offrir les autres structures de soins critiques. Elles sont dédiées aux situations les plus complexes et graves, impliquant des défaillances vitales, souvent multiples, qui nécessitent des techniques de réanimation spécialisées et des compétences multidisciplinaires."
 * #1399 ^property[0].code = #dateValid
 * #1399 ^property[=].valueDateTime = "2024-01-26T12:00:00+01:00"
 * #1399 ^property[+].code = #dateMaj
-* #1399 ^property[=].valueDateTime = "2024-01-26T12:00:00+01:00"
+* #1399 ^property[=].valueDateTime = "2025-01-31T12:00:00+01:00"
 * #1400 "Accueil et prise en charge du polytraumatisé sévère" "Structure équipée et dotée en personnel pour permettre une chaîne de soins structurée faisant intervenir le plus rapidement possible de nombreuses spécialités médicales et chirurgicales, pour prodiguer des soins aux patients souffrant de blessures traumatiques graves telles que des chutes, des collisions de véhicules à moteur ou des blessures par balle."
 * #1400 ^property[0].code = #dateValid
 * #1400 ^property[=].valueDateTime = "2024-05-31T12:00:00+01:00"
@@ -12074,16 +12074,16 @@ Description: "Action menée par un ou plusieurs acteur(s) de santé dans le cadr
 * #1404 ^property[=].valueDateTime = "2024-05-31T12:00:00+01:00"
 * #1404 ^property[+].code = #dateMaj
 * #1404 ^property[=].valueDateTime = "2024-06-28T12:00:00+01:00"
-* #1405 "Assistance respiratoire extracorporelle par ECMO"
+* #1405 "Assistance respiratoire extracorporelle par ECMO" "Technique de circulation extracorporelle pouvant offrir une assistance cardiaque, respiratoire ou cardiorespiratoire selon les modalités techniques utilisées, elle comprend une pompe générant un débit et une membrane permettant à la fois d'éliminer le CO2 et d'enrichir le sang en oxygène."
 * #1405 ^property[0].code = #dateValid
 * #1405 ^property[=].valueDateTime = "2024-05-31T12:00:00+01:00"
 * #1405 ^property[+].code = #dateMaj
-* #1405 ^property[=].valueDateTime = "2024-05-31T12:00:00+01:00"
-* #1406 "Hypnose périopératoire"
+* #1405 ^property[=].valueDateTime = "2025-01-31T12:00:00+01:00"
+* #1406 "Hypnose périopératoire" "Technique de prise en charge non médicamenteuse qui utilise l'hypnose (état modifié de conscience induit de manière volontaire) pour améliorer l'expérience et les résultats chirurgicaux chez les patients. Elle est pratiquée avant, pendant et après l'intervention chirurgicale pour réduire l'anxiété, gérer la douleur, minimiser le stress et favoriser la récupération."
 * #1406 ^property[0].code = #dateValid
 * #1406 ^property[=].valueDateTime = "2024-05-31T12:00:00+01:00"
 * #1406 ^property[+].code = #dateMaj
-* #1406 ^property[=].valueDateTime = "2024-05-31T12:00:00+01:00"
+* #1406 ^property[=].valueDateTime = "2025-01-31T12:00:00+01:00"
 * #1407 "Bilan des troubles psychotraumatiques répétés (dont TSPT)"
 * #1407 ^designation[0].language = #fr-FR
 * #1407 ^designation[=].use.system = "http://snomed.info/sct"
@@ -12114,11 +12114,11 @@ Description: "Action menée par un ou plusieurs acteur(s) de santé dans le cadr
 * #1410 ^property[=].valueDateTime = "2024-10-25T12:00:00+01:00"
 * #1410 ^property[+].code = #dateMaj
 * #1410 ^property[=].valueDateTime = "2024-10-25T12:00:00+01:00"
-* #1411 "Chirurgie des déformations thoraciques (pectum excavatum)"
+* #1411 "Chirurgie des déformations thoraciques (pectum excavatum)" "Branche de la chirurgie visant à corriger une malformation congénitale du thorax où le sternum et les côtes sont enfoncés, créant une dépression visible au niveau de la poitrine. Cette déformation peut entraîner des problèmes esthétiques, des douleurs thoraciques, des difficultés respiratoires et des troubles cardiovasculaires dans les cas plus graves."
 * #1411 ^property[0].code = #dateValid
 * #1411 ^property[=].valueDateTime = "2024-05-31T12:00:00+01:00"
 * #1411 ^property[+].code = #dateMaj
-* #1411 ^property[=].valueDateTime = "2024-05-31T12:00:00+01:00"
+* #1411 ^property[=].valueDateTime = "2025-01-31T12:00:00+01:00"
 * #1412 "Chirurgie du syndrome du défilé thoraco brachial"
 * #1412 ^property[0].code = #dateValid
 * #1412 ^property[=].valueDateTime = "2024-05-31T12:00:00+01:00"
@@ -12141,31 +12141,31 @@ Description: "Action menée par un ou plusieurs acteur(s) de santé dans le cadr
 * #1415 ^property[=].valueDateTime = "2024-05-31T12:00:00+01:00"
 * #1415 ^property[+].code = #dateMaj
 * #1415 ^property[=].valueDateTime = "2024-05-31T12:00:00+01:00"
-* #1416 "Implantation des stimulateurs diaphragmatiques"
+* #1416 "Implantation des stimulateurs diaphragmatiques" "Procédure chirurgicale visant à insérer un dispositif médical qui stimule électriquement le diaphragme, permettant ainsi une amélioration de la respiration chez les patients souffrant de troubles respiratoires, tels que la paralysie du diaphragme ou l'insuffisance respiratoire. Cette intervention est souvent envisagée lorsque les autres options de traitement, comme la ventilation assistée, ne sont pas suffisantes ou adaptées."
 * #1416 ^property[0].code = #dateValid
 * #1416 ^property[=].valueDateTime = "2024-05-31T12:00:00+01:00"
 * #1416 ^property[+].code = #dateMaj
-* #1416 ^property[=].valueDateTime = "2024-05-31T12:00:00+01:00"
+* #1416 ^property[=].valueDateTime = "2025-01-31T12:00:00+01:00"
 * #1417 "Initiation des pompes externes à insuline"
 * #1417 ^property[0].code = #dateValid
 * #1417 ^property[=].valueDateTime = "2024-05-31T12:00:00+01:00"
 * #1417 ^property[+].code = #dateMaj
 * #1417 ^property[=].valueDateTime = "2024-05-31T12:00:00+01:00"
-* #1418 "Mesure continue du glucose (holter glycémique)"
+* #1418 "Mesure continue du glucose (holter glycémique)" "Méthode de surveillance permettant de mesurer en temps réel les niveaux de glucose dans le sang tout au long de la journée et de la nuit. Contrairement aux tests de glycémie ponctuels ou aux analyses de sang traditionnelles, cette technologie offre une évaluation continue des variations de la glycémie sur une période prolongée."
 * #1418 ^property[0].code = #dateValid
 * #1418 ^property[=].valueDateTime = "2024-05-31T12:00:00+01:00"
 * #1418 ^property[+].code = #dateMaj
-* #1418 ^property[=].valueDateTime = "2024-05-31T12:00:00+01:00"
+* #1418 ^property[=].valueDateTime = "2025-01-31T12:00:00+01:00"
 * #1419 "Pathologie du métabolisme phosphocalcique"
 * #1419 ^property[0].code = #dateValid
 * #1419 ^property[=].valueDateTime = "2024-05-31T12:00:00+01:00"
 * #1419 ^property[+].code = #dateMaj
 * #1419 ^property[=].valueDateTime = "2024-05-31T12:00:00+01:00"
-* #1420 "Pontage coronarien à coeur battant"
+* #1420 "Pontage coronarien à coeur battant" "Technique chirurgicale qui consiste à créer un nouveau passage pour le sang afin de contourner les artères coronaires obstruées ou rétrécies, tout en maintenant le coeur en activité pendant l'intervention. Contrairement à la chirurgie traditionnelle, qui utilise une machine coeur-poumon pour faire circuler le sang pendant l'opération, le pontage à coeur battant est réalisé sans arrêter le coeur."
 * #1420 ^property[0].code = #dateValid
 * #1420 ^property[=].valueDateTime = "2024-05-31T12:00:00+01:00"
 * #1420 ^property[+].code = #dateMaj
-* #1420 ^property[=].valueDateTime = "2024-05-31T12:00:00+01:00"
+* #1420 ^property[=].valueDateTime = "2025-01-31T12:00:00+01:00"
 * #1421 "Prise en charge de la douleur liée à une maladie cancéreuse"
 * #1421 ^property[0].code = #dateValid
 * #1421 ^property[=].valueDateTime = "2024-05-31T12:00:00+01:00"
@@ -12534,23 +12534,38 @@ Description: "Action menée par un ou plusieurs acteur(s) de santé dans le cadr
 * #1488 ^property[=].valueDateTime = "2024-12-13T12:00:00+01:00"
 * #1488 ^property[+].code = #dateMaj
 * #1488 ^property[=].valueDateTime = "2024-12-13T12:00:00+01:00"
-* #1489 "Filière Obésité - Niveau 1 (Conventionné CSO)"
+* #1489 "Filière Obésité - Niveau 1 Conventionné Centres Spécialisés Obésité (CSO)"
 * #1489 ^property[0].code = #dateValid
 * #1489 ^property[=].valueDateTime = "2024-12-13T12:00:00+01:00"
 * #1489 ^property[+].code = #dateMaj
-* #1489 ^property[=].valueDateTime = "2024-12-13T12:00:00+01:00"
-* #1490 "Filière Obésité - Niveau 2 (Conventionné CSO)"
+* #1489 ^property[=].valueDateTime = "2025-01-31T12:00:00+01:00"
+* #1490 "Filière Obésité - Niveau 2 Conventionné Centres Spécialisés Obésité (CSO)"
 * #1490 ^property[0].code = #dateValid
 * #1490 ^property[=].valueDateTime = "2024-12-13T12:00:00+01:00"
 * #1490 ^property[+].code = #dateMaj
-* #1490 ^property[=].valueDateTime = "2024-12-13T12:00:00+01:00"
-* #1491 "Filière Obésité - Niveau 3 (Conventionné CSO)"
+* #1490 ^property[=].valueDateTime = "2025-01-31T12:00:00+01:00"
+* #1491 "Filière Obésité - Niveau 3 Conventionné Centres Spécialisés Obésité (CSO)"
 * #1491 ^property[0].code = #dateValid
 * #1491 ^property[=].valueDateTime = "2024-12-13T12:00:00+01:00"
 * #1491 ^property[+].code = #dateMaj
-* #1491 ^property[=].valueDateTime = "2024-12-13T12:00:00+01:00"
+* #1491 ^property[=].valueDateTime = "2025-01-31T12:00:00+01:00"
 * #1492 "Filière Obésité - Niveau 3 (Centre Spécialisé Obésité)"
 * #1492 ^property[0].code = #dateValid
 * #1492 ^property[=].valueDateTime = "2024-12-13T12:00:00+01:00"
 * #1492 ^property[+].code = #dateMaj
 * #1492 ^property[=].valueDateTime = "2024-12-13T12:00:00+01:00"
+* #1493 "Consultation dans des locaux dédiés - personnes en situation de handicap (PH)"
+* #1493 ^property[0].code = #dateValid
+* #1493 ^property[=].valueDateTime = "2025-01-31T12:00:00+01:00"
+* #1493 ^property[+].code = #dateMaj
+* #1493 ^property[=].valueDateTime = "2025-01-31T12:00:00+01:00"
+* #1494 "Consultation sans locaux dédiés - personnes en situation de handicap (PH)"
+* #1494 ^property[0].code = #dateValid
+* #1494 ^property[=].valueDateTime = "2025-01-31T12:00:00+01:00"
+* #1494 ^property[+].code = #dateMaj
+* #1494 ^property[=].valueDateTime = "2025-01-31T12:00:00+01:00"
+* #1495 "HandiBloc"
+* #1495 ^property[0].code = #dateValid
+* #1495 ^property[=].valueDateTime = "2025-01-31T12:00:00+01:00"
+* #1495 ^property[+].code = #dateMaj
+* #1495 ^property[=].valueDateTime = "2025-01-31T12:00:00+01:00"
