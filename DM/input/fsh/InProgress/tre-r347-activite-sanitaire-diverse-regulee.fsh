@@ -8,7 +8,7 @@ Description: "Nomenclature des activités sanitaires utilisée pour décrire les
 * ^meta.lastUpdated = "2025-02-22T14:11:19.571+00:00"
 * ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablecodesystem"
 * ^extension.url = "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod"
-* ^extension.valuePeriod.start = "2024-10-18T00:00:00+01:00"
+* ^extension.valuePeriod.start = "1979-01-01T00:00:00+01:00"
 * ^url = "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r347-activite-sanitaire-diverse-regulee"
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value = "urn:oid:1.2.250.1.213.1.6.1.248"
@@ -3616,13 +3616,13 @@ Description: "Nomenclature des activités sanitaires utilisée pour décrire les
 * #362 ^property[0].code = #parent
 * #362 ^property[=].valueCode = #0411
 * #362 ^property[+].code = #dateValid
-* #362 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #362 ^property[=].valueDateTime = "1979-01-01T00:00:00+01:00"
 * #362 ^property[+].code = #dateMaj
-* #362 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #362 ^property[=].valueDateTime = "2017-06-07T00:00:00+01:00"
 * #362 ^property[+].code = #status
 * #362 ^property[=].valueCode = #retired
 * #362 ^property[+].code = #retirementDate
-* #362 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #362 ^property[=].valueDateTime = "2017-06-07T00:00:00+01:00"
 * #384 "Protection Maternelle & Infantile"
 * #384 ^designation.language = #fr-FR
 * #384 ^designation.use = $sct#900000000000013009
@@ -3630,9 +3630,9 @@ Description: "Nomenclature des activités sanitaires utilisée pour décrire les
 * #384 ^property[0].code = #parent
 * #384 ^property[=].valueCode = #0342
 * #384 ^property[+].code = #dateValid
-* #384 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #384 ^property[=].valueDateTime = "1979-01-01T00:00:00+01:00"
 * #384 ^property[+].code = #dateMaj
-* #384 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #384 ^property[=].valueDateTime = "1979-01-01T00:00:00+01:00"
 * #384 ^property[+].code = #status
 * #384 ^property[=].valueCode = #active
 * #385 "Consultations Prénuptiale Prénatale et Postnatale"
@@ -3642,9 +3642,9 @@ Description: "Nomenclature des activités sanitaires utilisée pour décrire les
 * #385 ^property[0].code = #parent
 * #385 ^property[=].valueCode = #0342
 * #385 ^property[+].code = #dateValid
-* #385 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #385 ^property[=].valueDateTime = "1979-01-01T00:00:00+01:00"
 * #385 ^property[+].code = #dateMaj
-* #385 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #385 ^property[=].valueDateTime = "1979-01-01T00:00:00+01:00"
 * #385 ^property[+].code = #status
 * #385 ^property[=].valueCode = #active
 * #386 "Consultations Protection Infantile"
@@ -3654,9 +3654,9 @@ Description: "Nomenclature des activités sanitaires utilisée pour décrire les
 * #386 ^property[0].code = #parent
 * #386 ^property[=].valueCode = #0342
 * #386 ^property[+].code = #dateValid
-* #386 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #386 ^property[=].valueDateTime = "1979-01-01T00:00:00+01:00"
 * #386 ^property[+].code = #dateMaj
-* #386 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #386 ^property[=].valueDateTime = "1979-01-01T00:00:00+01:00"
 * #386 ^property[+].code = #status
 * #386 ^property[=].valueCode = #active
 * #387 "Consultations de Nourrissons"
@@ -3666,13 +3666,13 @@ Description: "Nomenclature des activités sanitaires utilisée pour décrire les
 * #387 ^property[0].code = #parent
 * #387 ^property[=].valueCode = #0343
 * #387 ^property[+].code = #dateValid
-* #387 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #387 ^property[=].valueDateTime = "1979-01-01T00:00:00+01:00"
 * #387 ^property[+].code = #dateMaj
-* #387 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #387 ^property[=].valueDateTime = "1994-09-19T00:00:00+01:00"
 * #387 ^property[+].code = #status
 * #387 ^property[=].valueCode = #retired
 * #387 ^property[+].code = #retirementDate
-* #387 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #387 ^property[=].valueDateTime = "1994-09-19T00:00:00+01:00"
 * #388 "Consultations de deuxième age"
 * #388 ^designation.language = #fr-FR
 * #388 ^designation.use = $sct#900000000000013009
@@ -3680,13 +3680,13 @@ Description: "Nomenclature des activités sanitaires utilisée pour décrire les
 * #388 ^property[0].code = #parent
 * #388 ^property[=].valueCode = #0343
 * #388 ^property[+].code = #dateValid
-* #388 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #388 ^property[=].valueDateTime = "1979-01-01T00:00:00+01:00"
 * #388 ^property[+].code = #dateMaj
-* #388 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #388 ^property[=].valueDateTime = "1994-09-19T00:00:00+01:00"
 * #388 ^property[+].code = #status
 * #388 ^property[=].valueCode = #retired
 * #388 ^property[+].code = #retirementDate
-* #388 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #388 ^property[=].valueDateTime = "1994-09-19T00:00:00+01:00"
 * #389 "Lutte contre la Stérilité"
 * #389 ^designation.language = #fr-FR
 * #389 ^designation.use = $sct#900000000000013009
@@ -3694,13 +3694,13 @@ Description: "Nomenclature des activités sanitaires utilisée pour décrire les
 * #389 ^property[0].code = #parent
 * #389 ^property[=].valueCode = #0331
 * #389 ^property[+].code = #dateValid
-* #389 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #389 ^property[=].valueDateTime = "1979-01-01T00:00:00+01:00"
 * #389 ^property[+].code = #dateMaj
-* #389 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #389 ^property[=].valueDateTime = "2017-06-07T00:00:00+01:00"
 * #389 ^property[+].code = #status
 * #389 ^property[=].valueCode = #retired
 * #389 ^property[+].code = #retirementDate
-* #389 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #389 ^property[=].valueDateTime = "2017-06-07T00:00:00+01:00"
 * #390 "Consultation en Conseil Génétique"
 * #390 ^designation.language = #fr-FR
 * #390 ^designation.use = $sct#900000000000013009
@@ -3708,9 +3708,9 @@ Description: "Nomenclature des activités sanitaires utilisée pour décrire les
 * #390 ^property[0].code = #parent
 * #390 ^property[=].valueCode = #0342
 * #390 ^property[+].code = #dateValid
-* #390 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #390 ^property[=].valueDateTime = "1979-01-01T00:00:00+01:00"
 * #390 ^property[+].code = #dateMaj
-* #390 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #390 ^property[=].valueDateTime = "1979-01-01T00:00:00+01:00"
 * #390 ^property[+].code = #status
 * #390 ^property[=].valueCode = #active
 * #391 "Consultation de Planification ou Éducation Familiale"
@@ -3720,9 +3720,9 @@ Description: "Nomenclature des activités sanitaires utilisée pour décrire les
 * #391 ^property[0].code = #parent
 * #391 ^property[=].valueCode = #0342
 * #391 ^property[+].code = #dateValid
-* #391 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #391 ^property[=].valueDateTime = "1979-01-01T00:00:00+01:00"
 * #391 ^property[+].code = #dateMaj
-* #391 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #391 ^property[=].valueDateTime = "1979-01-01T00:00:00+01:00"
 * #391 ^property[+].code = #status
 * #391 ^property[=].valueCode = #active
 * #392 "Information Consultation ou Conseil familial"
@@ -3732,38 +3732,38 @@ Description: "Nomenclature des activités sanitaires utilisée pour décrire les
 * #392 ^property[0].code = #parent
 * #392 ^property[=].valueCode = #0342
 * #392 ^property[+].code = #dateValid
-* #392 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #392 ^property[=].valueDateTime = "1979-01-01T00:00:00+01:00"
 * #392 ^property[+].code = #dateMaj
-* #392 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #392 ^property[=].valueDateTime = "1979-01-01T00:00:00+01:00"
 * #392 ^property[+].code = #status
 * #392 ^property[=].valueCode = #active
 * #394 "Lactarium"
 * #394 ^property[0].code = #parent
 * #394 ^property[=].valueCode = #0631
 * #394 ^property[+].code = #dateValid
-* #394 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #394 ^property[=].valueDateTime = "1979-01-01T00:00:00+01:00"
 * #394 ^property[+].code = #dateMaj
-* #394 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #394 ^property[=].valueDateTime = "2017-06-07T00:00:00+01:00"
 * #394 ^property[+].code = #status
 * #394 ^property[=].valueCode = #retired
 * #394 ^property[+].code = #retirementDate
-* #394 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #394 ^property[=].valueDateTime = "2017-06-07T00:00:00+01:00"
 * #395 "Guidance Parentale"
 * #395 ^property[0].code = #parent
 * #395 ^property[=].valueCode = #0342
 * #395 ^property[+].code = #dateValid
-* #395 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #395 ^property[=].valueDateTime = "1979-01-01T00:00:00+01:00"
 * #395 ^property[+].code = #dateMaj
-* #395 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #395 ^property[=].valueDateTime = "1979-01-01T00:00:00+01:00"
 * #395 ^property[+].code = #status
 * #395 ^property[=].valueCode = #active
 * #396 "Guidance infantile"
 * #396 ^property[0].code = #parent
 * #396 ^property[=].valueCode = #0342
 * #396 ^property[+].code = #dateValid
-* #396 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #396 ^property[=].valueDateTime = "1979-01-01T00:00:00+01:00"
 * #396 ^property[+].code = #dateMaj
-* #396 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #396 ^property[=].valueDateTime = "1979-01-01T00:00:00+01:00"
 * #396 ^property[+].code = #status
 * #396 ^property[=].valueCode = #active
 * #401 "unité de proximité accueil traitement orientation urgences"
@@ -3773,13 +3773,13 @@ Description: "Nomenclature des activités sanitaires utilisée pour décrire les
 * #401 ^property[0].code = #parent
 * #401 ^property[=].valueCode = #0511
 * #401 ^property[+].code = #dateValid
-* #401 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #401 ^property[=].valueDateTime = "1999-06-17T00:00:00+01:00"
 * #401 ^property[+].code = #dateMaj
-* #401 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #401 ^property[=].valueDateTime = "2017-06-07T00:00:00+01:00"
 * #401 ^property[+].code = #status
 * #401 ^property[=].valueCode = #retired
 * #401 ^property[+].code = #retirementDate
-* #401 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #401 ^property[=].valueDateTime = "2017-06-07T00:00:00+01:00"
 * #402 "service accueil et traitement urgences"
 * #402 ^designation.language = #fr-FR
 * #402 ^designation.use = $sct#900000000000013009
@@ -3787,13 +3787,13 @@ Description: "Nomenclature des activités sanitaires utilisée pour décrire les
 * #402 ^property[0].code = #parent
 * #402 ^property[=].valueCode = #0511
 * #402 ^property[+].code = #dateValid
-* #402 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #402 ^property[=].valueDateTime = "1999-06-17T00:00:00+01:00"
 * #402 ^property[+].code = #dateMaj
-* #402 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #402 ^property[=].valueDateTime = "2017-06-07T00:00:00+01:00"
 * #402 ^property[+].code = #status
 * #402 ^property[=].valueCode = #retired
 * #402 ^property[+].code = #retirementDate
-* #402 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #402 ^property[=].valueDateTime = "2017-06-07T00:00:00+01:00"
 * #403 "pôle spécialisé urgence en pédiatrie"
 * #403 ^designation.language = #fr-FR
 * #403 ^designation.use = $sct#900000000000013009
@@ -3801,13 +3801,13 @@ Description: "Nomenclature des activités sanitaires utilisée pour décrire les
 * #403 ^property[0].code = #parent
 * #403 ^property[=].valueCode = #0511
 * #403 ^property[+].code = #dateValid
-* #403 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #403 ^property[=].valueDateTime = "1999-06-17T00:00:00+01:00"
 * #403 ^property[+].code = #dateMaj
-* #403 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #403 ^property[=].valueDateTime = "2017-06-07T00:00:00+01:00"
 * #403 ^property[+].code = #status
 * #403 ^property[=].valueCode = #retired
 * #403 ^property[+].code = #retirementDate
-* #403 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #403 ^property[=].valueDateTime = "2017-06-07T00:00:00+01:00"
 * #404 "pôle spécialisé urgence en ophtalmologie"
 * #404 ^designation.language = #fr-FR
 * #404 ^designation.use = $sct#900000000000013009
@@ -3815,13 +3815,13 @@ Description: "Nomenclature des activités sanitaires utilisée pour décrire les
 * #404 ^property[0].code = #parent
 * #404 ^property[=].valueCode = #0511
 * #404 ^property[+].code = #dateValid
-* #404 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #404 ^property[=].valueDateTime = "1999-06-17T00:00:00+01:00"
 * #404 ^property[+].code = #dateMaj
-* #404 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #404 ^property[=].valueDateTime = "2017-06-07T00:00:00+01:00"
 * #404 ^property[+].code = #status
 * #404 ^property[=].valueCode = #retired
 * #404 ^property[+].code = #retirementDate
-* #404 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #404 ^property[=].valueDateTime = "2017-06-07T00:00:00+01:00"
 * #405 "pôle spécialisé urgence en cardiologie"
 * #405 ^designation.language = #fr-FR
 * #405 ^designation.use = $sct#900000000000013009
@@ -3829,13 +3829,13 @@ Description: "Nomenclature des activités sanitaires utilisée pour décrire les
 * #405 ^property[0].code = #parent
 * #405 ^property[=].valueCode = #0511
 * #405 ^property[+].code = #dateValid
-* #405 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #405 ^property[=].valueDateTime = "1999-06-17T00:00:00+01:00"
 * #405 ^property[+].code = #dateMaj
-* #405 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #405 ^property[=].valueDateTime = "2017-06-07T00:00:00+01:00"
 * #405 ^property[+].code = #status
 * #405 ^property[=].valueCode = #retired
 * #405 ^property[+].code = #retirementDate
-* #405 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #405 ^property[=].valueDateTime = "2017-06-07T00:00:00+01:00"
 * #406 "pôle spécialisé urgence en traumatologie"
 * #406 ^designation.language = #fr-FR
 * #406 ^designation.use = $sct#900000000000013009
@@ -3843,13 +3843,13 @@ Description: "Nomenclature des activités sanitaires utilisée pour décrire les
 * #406 ^property[0].code = #parent
 * #406 ^property[=].valueCode = #0511
 * #406 ^property[+].code = #dateValid
-* #406 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #406 ^property[=].valueDateTime = "1999-06-17T00:00:00+01:00"
 * #406 ^property[+].code = #dateMaj
-* #406 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #406 ^property[=].valueDateTime = "2017-06-07T00:00:00+01:00"
 * #406 ^property[+].code = #status
 * #406 ^property[=].valueCode = #retired
 * #406 ^property[+].code = #retirementDate
-* #406 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #406 ^property[=].valueDateTime = "2017-06-07T00:00:00+01:00"
 * #407 "pôle spécialisé urgence en SOS main"
 * #407 ^designation.language = #fr-FR
 * #407 ^designation.use = $sct#900000000000013009
@@ -3857,13 +3857,13 @@ Description: "Nomenclature des activités sanitaires utilisée pour décrire les
 * #407 ^property[0].code = #parent
 * #407 ^property[=].valueCode = #0511
 * #407 ^property[+].code = #dateValid
-* #407 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #407 ^property[=].valueDateTime = "1999-06-17T00:00:00+01:00"
 * #407 ^property[+].code = #dateMaj
-* #407 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #407 ^property[=].valueDateTime = "2017-06-07T00:00:00+01:00"
 * #407 ^property[+].code = #status
 * #407 ^property[=].valueCode = #retired
 * #407 ^property[+].code = #retirementDate
-* #407 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #407 ^property[=].valueDateTime = "2017-06-07T00:00:00+01:00"
 * #408 "pôle spécialisé urgence en neurochirurgie"
 * #408 ^designation.language = #fr-FR
 * #408 ^designation.use = $sct#900000000000013009
@@ -3871,13 +3871,13 @@ Description: "Nomenclature des activités sanitaires utilisée pour décrire les
 * #408 ^property[0].code = #parent
 * #408 ^property[=].valueCode = #0511
 * #408 ^property[+].code = #dateValid
-* #408 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #408 ^property[=].valueDateTime = "1999-06-17T00:00:00+01:00"
 * #408 ^property[+].code = #dateMaj
-* #408 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #408 ^property[=].valueDateTime = "2017-06-07T00:00:00+01:00"
 * #408 ^property[+].code = #status
 * #408 ^property[=].valueCode = #retired
 * #408 ^property[+].code = #retirementDate
-* #408 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #408 ^property[=].valueDateTime = "2017-06-07T00:00:00+01:00"
 * #409 "autre pôle spécialisé urgence non dénommé ailleurs"
 * #409 ^designation.language = #fr-FR
 * #409 ^designation.use = $sct#900000000000013009
@@ -3885,20 +3885,20 @@ Description: "Nomenclature des activités sanitaires utilisée pour décrire les
 * #409 ^property[0].code = #parent
 * #409 ^property[=].valueCode = #0511
 * #409 ^property[+].code = #dateValid
-* #409 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #409 ^property[=].valueDateTime = "1999-06-17T00:00:00+01:00"
 * #409 ^property[+].code = #dateMaj
-* #409 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #409 ^property[=].valueDateTime = "2017-06-07T00:00:00+01:00"
 * #409 ^property[+].code = #status
 * #409 ^property[=].valueCode = #retired
 * #409 ^property[+].code = #retirementDate
-* #409 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #409 ^property[=].valueDateTime = "2017-06-07T00:00:00+01:00"
 * #446 "Médecine Scolaire"
 * #446 ^property[0].code = #parent
 * #446 ^property[=].valueCode = #0341
 * #446 ^property[+].code = #dateValid
-* #446 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #446 ^property[=].valueDateTime = "1979-01-01T00:00:00+01:00"
 * #446 ^property[+].code = #dateMaj
-* #446 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #446 ^property[=].valueDateTime = "1979-01-01T00:00:00+01:00"
 * #446 ^property[+].code = #status
 * #446 ^property[=].valueCode = #active
 * #447 "Médecine Universitaire"
@@ -3908,18 +3908,18 @@ Description: "Nomenclature des activités sanitaires utilisée pour décrire les
 * #447 ^property[0].code = #parent
 * #447 ^property[=].valueCode = #0341
 * #447 ^property[+].code = #dateValid
-* #447 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #447 ^property[=].valueDateTime = "1979-01-01T00:00:00+01:00"
 * #447 ^property[+].code = #dateMaj
-* #447 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #447 ^property[=].valueDateTime = "1979-01-01T00:00:00+01:00"
 * #447 ^property[+].code = #status
 * #447 ^property[=].valueCode = #active
 * #448 "Médecine Sportive"
 * #448 ^property[0].code = #parent
 * #448 ^property[=].valueCode = #0341
 * #448 ^property[+].code = #dateValid
-* #448 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #448 ^property[=].valueDateTime = "1979-01-01T00:00:00+01:00"
 * #448 ^property[+].code = #dateMaj
-* #448 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #448 ^property[=].valueDateTime = "1979-01-01T00:00:00+01:00"
 * #448 ^property[+].code = #status
 * #448 ^property[=].valueCode = #active
 * #452 "Aide Aux Insuffisants Respiratoires"
@@ -3929,13 +3929,13 @@ Description: "Nomenclature des activités sanitaires utilisée pour décrire les
 * #452 ^property[0].code = #parent
 * #452 ^property[=].valueCode = #0351
 * #452 ^property[+].code = #dateValid
-* #452 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #452 ^property[=].valueDateTime = "1979-01-01T00:00:00+01:00"
 * #452 ^property[+].code = #dateMaj
-* #452 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #452 ^property[=].valueDateTime = "2017-06-07T00:00:00+01:00"
 * #452 ^property[+].code = #status
 * #452 ^property[=].valueCode = #retired
 * #452 ^property[+].code = #retirementDate
-* #452 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #452 ^property[=].valueDateTime = "2017-06-07T00:00:00+01:00"
 * #457 "Cure Médic.Spécialisée Contre Tuberculose Indifférenciée"
 * #457 ^designation.language = #fr-FR
 * #457 ^designation.use = $sct#900000000000013009
@@ -3943,13 +3943,13 @@ Description: "Nomenclature des activités sanitaires utilisée pour décrire les
 * #457 ^property[0].code = #parent
 * #457 ^property[=].valueCode = #0264
 * #457 ^property[+].code = #dateValid
-* #457 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #457 ^property[=].valueDateTime = "1979-01-01T00:00:00+01:00"
 * #457 ^property[+].code = #dateMaj
-* #457 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #457 ^property[=].valueDateTime = "2017-06-07T00:00:00+01:00"
 * #457 ^property[+].code = #status
 * #457 ^property[=].valueCode = #retired
 * #457 ^property[+].code = #retirementDate
-* #457 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #457 ^property[=].valueDateTime = "2017-06-07T00:00:00+01:00"
 * #458 "Cure Médic.Spécialisée Contre Tuberculose Pulmonaire."
 * #458 ^designation.language = #fr-FR
 * #458 ^designation.use = $sct#900000000000013009
@@ -3957,13 +3957,13 @@ Description: "Nomenclature des activités sanitaires utilisée pour décrire les
 * #458 ^property[0].code = #parent
 * #458 ^property[=].valueCode = #0264
 * #458 ^property[+].code = #dateValid
-* #458 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #458 ^property[=].valueDateTime = "1979-01-01T00:00:00+01:00"
 * #458 ^property[+].code = #dateMaj
-* #458 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #458 ^property[=].valueDateTime = "2017-06-07T00:00:00+01:00"
 * #458 ^property[+].code = #status
 * #458 ^property[=].valueCode = #retired
 * #458 ^property[+].code = #retirementDate
-* #458 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #458 ^property[=].valueDateTime = "2017-06-07T00:00:00+01:00"
 * #459 "Cure Médic. Spécialisée Contre Tuberculose Extra-Pulmonaire"
 * #459 ^designation.language = #fr-FR
 * #459 ^designation.use = $sct#900000000000013009
@@ -3971,13 +3971,13 @@ Description: "Nomenclature des activités sanitaires utilisée pour décrire les
 * #459 ^property[0].code = #parent
 * #459 ^property[=].valueCode = #0264
 * #459 ^property[+].code = #dateValid
-* #459 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #459 ^property[=].valueDateTime = "1979-01-01T00:00:00+01:00"
 * #459 ^property[+].code = #dateMaj
-* #459 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #459 ^property[=].valueDateTime = "2017-06-07T00:00:00+01:00"
 * #459 ^property[+].code = #status
 * #459 ^property[=].valueCode = #retired
 * #459 ^property[+].code = #retirementDate
-* #459 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #459 ^property[=].valueDateTime = "2017-06-07T00:00:00+01:00"
 * #460 "Cure Médic.Spécialisée Contre Tuberculose(Préventorium)"
 * #460 ^designation.language = #fr-FR
 * #460 ^designation.use = $sct#900000000000013009
@@ -3985,13 +3985,13 @@ Description: "Nomenclature des activités sanitaires utilisée pour décrire les
 * #460 ^property[0].code = #parent
 * #460 ^property[=].valueCode = #0264
 * #460 ^property[+].code = #dateValid
-* #460 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #460 ^property[=].valueDateTime = "1979-01-01T00:00:00+01:00"
 * #460 ^property[+].code = #dateMaj
-* #460 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #460 ^property[=].valueDateTime = "2017-06-07T00:00:00+01:00"
 * #460 ^property[+].code = #status
 * #460 ^property[=].valueCode = #retired
 * #460 ^property[+].code = #retirementDate
-* #460 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #460 ^property[=].valueDateTime = "2017-06-07T00:00:00+01:00"
 * #462 "Cure Médicale Spécialisée Pour Enfants"
 * #462 ^designation.language = #fr-FR
 * #462 ^designation.use = $sct#900000000000013009
@@ -3999,13 +3999,13 @@ Description: "Nomenclature des activités sanitaires utilisée pour décrire les
 * #462 ^property[0].code = #parent
 * #462 ^property[=].valueCode = #0267
 * #462 ^property[+].code = #dateValid
-* #462 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #462 ^property[=].valueDateTime = "1979-01-01T00:00:00+01:00"
 * #462 ^property[+].code = #dateMaj
-* #462 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #462 ^property[=].valueDateTime = "2017-06-07T00:00:00+01:00"
 * #462 ^property[+].code = #status
 * #462 ^property[=].valueCode = #retired
 * #462 ^property[+].code = #retirementDate
-* #462 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #462 ^property[=].valueDateTime = "2017-06-07T00:00:00+01:00"
 * #463 "Cure Médic. Spécialisée Tous Ages"
 * #463 ^designation.language = #fr-FR
 * #463 ^designation.use = $sct#900000000000013009
@@ -4013,13 +4013,13 @@ Description: "Nomenclature des activités sanitaires utilisée pour décrire les
 * #463 ^property[0].code = #parent
 * #463 ^property[=].valueCode = #0266
 * #463 ^property[+].code = #dateValid
-* #463 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #463 ^property[=].valueDateTime = "1979-01-01T00:00:00+01:00"
 * #463 ^property[+].code = #dateMaj
-* #463 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #463 ^property[=].valueDateTime = "2017-06-07T00:00:00+01:00"
 * #463 ^property[+].code = #status
 * #463 ^property[=].valueCode = #retired
 * #463 ^property[+].code = #retirementDate
-* #463 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #463 ^property[=].valueDateTime = "2017-06-07T00:00:00+01:00"
 * #464 "Cure Médic.Spéc.Pneumologique Pr Enfant"
 * #464 ^designation.language = #fr-FR
 * #464 ^designation.use = $sct#900000000000013009
@@ -4027,13 +4027,13 @@ Description: "Nomenclature des activités sanitaires utilisée pour décrire les
 * #464 ^property[0].code = #parent
 * #464 ^property[=].valueCode = #0267
 * #464 ^property[+].code = #dateValid
-* #464 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #464 ^property[=].valueDateTime = "1979-01-01T00:00:00+01:00"
 * #464 ^property[+].code = #dateMaj
-* #464 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #464 ^property[=].valueDateTime = "2017-06-07T00:00:00+01:00"
 * #464 ^property[+].code = #status
 * #464 ^property[=].valueCode = #retired
 * #464 ^property[+].code = #retirementDate
-* #464 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #464 ^property[=].valueDateTime = "2017-06-07T00:00:00+01:00"
 * #465 "Cure Médic.Spéc.Pneumologique.Pr Tous Ages"
 * #465 ^designation.language = #fr-FR
 * #465 ^designation.use = $sct#900000000000013009
@@ -4041,13 +4041,13 @@ Description: "Nomenclature des activités sanitaires utilisée pour décrire les
 * #465 ^property[0].code = #parent
 * #465 ^property[=].valueCode = #0266
 * #465 ^property[+].code = #dateValid
-* #465 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #465 ^property[=].valueDateTime = "1979-01-01T00:00:00+01:00"
 * #465 ^property[+].code = #dateMaj
-* #465 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #465 ^property[=].valueDateTime = "2017-06-07T00:00:00+01:00"
 * #465 ^property[+].code = #status
 * #465 ^property[=].valueCode = #retired
 * #465 ^property[+].code = #retirementDate
-* #465 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #465 ^property[=].valueDateTime = "2017-06-07T00:00:00+01:00"
 * #466 "Convalescence & Réadaptation Personnes Âgées"
 * #466 ^designation.language = #fr-FR
 * #466 ^designation.use = $sct#900000000000013009
@@ -4055,13 +4055,13 @@ Description: "Nomenclature des activités sanitaires utilisée pour décrire les
 * #466 ^property[0].code = #parent
 * #466 ^property[=].valueCode = #0262
 * #466 ^property[+].code = #dateValid
-* #466 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #466 ^property[=].valueDateTime = "1979-01-01T00:00:00+01:00"
 * #466 ^property[+].code = #dateMaj
-* #466 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #466 ^property[=].valueDateTime = "2017-06-07T00:00:00+01:00"
 * #466 ^property[+].code = #status
 * #466 ^property[=].valueCode = #retired
 * #466 ^property[+].code = #retirementDate
-* #466 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #466 ^property[=].valueDateTime = "2017-06-07T00:00:00+01:00"
 * #467 "Cure Médicale Spécialisée Cardiologie Pr Enfant"
 * #467 ^designation.language = #fr-FR
 * #467 ^designation.use = $sct#900000000000013009
@@ -4069,13 +4069,13 @@ Description: "Nomenclature des activités sanitaires utilisée pour décrire les
 * #467 ^property[0].code = #parent
 * #467 ^property[=].valueCode = #0267
 * #467 ^property[+].code = #dateValid
-* #467 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #467 ^property[=].valueDateTime = "1979-01-01T00:00:00+01:00"
 * #467 ^property[+].code = #dateMaj
-* #467 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #467 ^property[=].valueDateTime = "2017-06-07T00:00:00+01:00"
 * #467 ^property[+].code = #status
 * #467 ^property[=].valueCode = #retired
 * #467 ^property[+].code = #retirementDate
-* #467 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #467 ^property[=].valueDateTime = "2017-06-07T00:00:00+01:00"
 * #468 "Cure Médicale Spécialisée Cardiologie Tous ages"
 * #468 ^designation.language = #fr-FR
 * #468 ^designation.use = $sct#900000000000013009
@@ -4083,13 +4083,13 @@ Description: "Nomenclature des activités sanitaires utilisée pour décrire les
 * #468 ^property[0].code = #parent
 * #468 ^property[=].valueCode = #0266
 * #468 ^property[+].code = #dateValid
-* #468 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #468 ^property[=].valueDateTime = "1979-01-01T00:00:00+01:00"
 * #468 ^property[+].code = #dateMaj
-* #468 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #468 ^property[=].valueDateTime = "2017-06-07T00:00:00+01:00"
 * #468 ^property[+].code = #status
 * #468 ^property[=].valueCode = #retired
 * #468 ^property[+].code = #retirementDate
-* #468 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #468 ^property[=].valueDateTime = "2017-06-07T00:00:00+01:00"
 * #471 "Médecine Générale et Spécialités Médicales"
 * #471 ^designation.language = #fr-FR
 * #471 ^designation.use = $sct#900000000000013009
@@ -4097,13 +4097,13 @@ Description: "Nomenclature des activités sanitaires utilisée pour décrire les
 * #471 ^property[0].code = #parent
 * #471 ^property[=].valueCode = #0211
 * #471 ^property[+].code = #dateValid
-* #471 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #471 ^property[=].valueDateTime = "1979-01-01T00:00:00+01:00"
 * #471 ^property[+].code = #dateMaj
-* #471 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #471 ^property[=].valueDateTime = "2017-06-07T00:00:00+01:00"
 * #471 ^property[+].code = #status
 * #471 ^property[=].valueCode = #retired
 * #471 ^property[+].code = #retirementDate
-* #471 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #471 ^property[=].valueDateTime = "2017-06-07T00:00:00+01:00"
 * #472 "Médecine de la Reproduction (y c A.M.P.)"
 * #472 ^designation.language = #fr-FR
 * #472 ^designation.use = $sct#900000000000013009
@@ -4111,13 +4111,13 @@ Description: "Nomenclature des activités sanitaires utilisée pour décrire les
 * #472 ^property[0].code = #parent
 * #472 ^property[=].valueCode = #0213
 * #472 ^property[+].code = #dateValid
-* #472 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #472 ^property[=].valueDateTime = "1979-01-01T00:00:00+01:00"
 * #472 ^property[+].code = #dateMaj
-* #472 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #472 ^property[=].valueDateTime = "2017-06-07T00:00:00+01:00"
 * #472 ^property[+].code = #status
 * #472 ^property[=].valueCode = #retired
 * #472 ^property[+].code = #retirementDate
-* #472 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #472 ^property[=].valueDateTime = "2017-06-07T00:00:00+01:00"
 * #499 "Atelier thérapeutique"
 * #499 ^designation.language = #fr-FR
 * #499 ^designation.use = $sct#900000000000013009
@@ -4125,13 +4125,13 @@ Description: "Nomenclature des activités sanitaires utilisée pour décrire les
 * #499 ^property[0].code = #parent
 * #499 ^property[=].valueCode = #0271
 * #499 ^property[+].code = #dateValid
-* #499 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #499 ^property[=].valueDateTime = "1979-01-01T00:00:00+01:00"
 * #499 ^property[+].code = #dateMaj
-* #499 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #499 ^property[=].valueDateTime = "1986-11-24T00:00:00+01:00"
 * #499 ^property[+].code = #status
 * #499 ^property[=].valueCode = #retired
 * #499 ^property[+].code = #retirementDate
-* #499 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #499 ^property[=].valueDateTime = "1986-11-24T00:00:00+01:00"
 * #552 "Entraînement à l'Hémodialyse à Domicile"
 * #552 ^designation.language = #fr-FR
 * #552 ^designation.use = $sct#900000000000013009
@@ -4139,13 +4139,13 @@ Description: "Nomenclature des activités sanitaires utilisée pour décrire les
 * #552 ^property[0].code = #parent
 * #552 ^property[=].valueCode = #0311
 * #552 ^property[+].code = #dateValid
-* #552 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #552 ^property[=].valueDateTime = "1979-01-01T00:00:00+01:00"
 * #552 ^property[+].code = #dateMaj
-* #552 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #552 ^property[=].valueDateTime = "2017-06-07T00:00:00+01:00"
 * #552 ^property[+].code = #status
 * #552 ^property[=].valueCode = #retired
 * #552 ^property[+].code = #retirementDate
-* #552 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #552 ^property[=].valueDateTime = "2017-06-07T00:00:00+01:00"
 * #553 "Entraînement à la Dialyse Péritonéale à Domicile"
 * #553 ^designation.language = #fr-FR
 * #553 ^designation.use = $sct#900000000000013009
@@ -4153,13 +4153,13 @@ Description: "Nomenclature des activités sanitaires utilisée pour décrire les
 * #553 ^property[0].code = #parent
 * #553 ^property[=].valueCode = #0311
 * #553 ^property[+].code = #dateValid
-* #553 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #553 ^property[=].valueDateTime = "1979-01-01T00:00:00+01:00"
 * #553 ^property[+].code = #dateMaj
-* #553 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #553 ^property[=].valueDateTime = "2017-06-07T00:00:00+01:00"
 * #553 ^property[+].code = #status
 * #553 ^property[=].valueCode = #retired
 * #553 ^property[+].code = #retirementDate
-* #553 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #553 ^property[=].valueDateTime = "2017-06-07T00:00:00+01:00"
 * #554 "Entraînement à la Dialyse Péritonéale Continue"
 * #554 ^designation.language = #fr-FR
 * #554 ^designation.use = $sct#900000000000013009
@@ -4167,24 +4167,24 @@ Description: "Nomenclature des activités sanitaires utilisée pour décrire les
 * #554 ^property[0].code = #parent
 * #554 ^property[=].valueCode = #0311
 * #554 ^property[+].code = #dateValid
-* #554 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #554 ^property[=].valueDateTime = "1979-01-01T00:00:00+01:00"
 * #554 ^property[+].code = #dateMaj
-* #554 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #554 ^property[=].valueDateTime = "2017-06-07T00:00:00+01:00"
 * #554 ^property[+].code = #status
 * #554 ^property[=].valueCode = #retired
 * #554 ^property[+].code = #retirementDate
-* #554 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #554 ^property[=].valueDateTime = "2017-06-07T00:00:00+01:00"
 * #555 "Dialyse Péritonéale"
 * #555 ^property[0].code = #parent
 * #555 ^property[=].valueCode = #0311
 * #555 ^property[+].code = #dateValid
-* #555 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #555 ^property[=].valueDateTime = "1979-01-01T00:00:00+01:00"
 * #555 ^property[+].code = #dateMaj
-* #555 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #555 ^property[=].valueDateTime = "2017-06-07T00:00:00+01:00"
 * #555 ^property[+].code = #status
 * #555 ^property[=].valueCode = #retired
 * #555 ^property[+].code = #retirementDate
-* #555 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #555 ^property[=].valueDateTime = "2017-06-07T00:00:00+01:00"
 * #556 "Dialyse Péritonéale Continue"
 * #556 ^designation.language = #fr-FR
 * #556 ^designation.use = $sct#900000000000013009
@@ -4192,13 +4192,13 @@ Description: "Nomenclature des activités sanitaires utilisée pour décrire les
 * #556 ^property[0].code = #parent
 * #556 ^property[=].valueCode = #0311
 * #556 ^property[+].code = #dateValid
-* #556 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #556 ^property[=].valueDateTime = "1979-01-01T00:00:00+01:00"
 * #556 ^property[+].code = #dateMaj
-* #556 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #556 ^property[=].valueDateTime = "2017-06-07T00:00:00+01:00"
 * #556 ^property[+].code = #status
 * #556 ^property[=].valueCode = #retired
 * #556 ^property[+].code = #retirementDate
-* #556 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #556 ^property[=].valueDateTime = "2017-06-07T00:00:00+01:00"
 * #557 "orl et stomatologie"
 * #557 ^designation.language = #fr-FR
 * #557 ^designation.use = $sct#900000000000013009
@@ -4206,13 +4206,13 @@ Description: "Nomenclature des activités sanitaires utilisée pour décrire les
 * #557 ^property[0].code = #parent
 * #557 ^property[=].valueCode = #0223
 * #557 ^property[+].code = #dateValid
-* #557 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #557 ^property[=].valueDateTime = "1979-01-01T00:00:00+01:00"
 * #557 ^property[+].code = #dateMaj
-* #557 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #557 ^property[=].valueDateTime = "1994-06-06T00:00:00+01:00"
 * #557 ^property[+].code = #status
 * #557 ^property[=].valueCode = #retired
 * #557 ^property[+].code = #retirementDate
-* #557 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #557 ^property[=].valueDateTime = "1994-06-06T00:00:00+01:00"
 * #593 "Accueil de l'Enfant Accomp.la Mère Convalescente"
 * #593 ^designation.language = #fr-FR
 * #593 ^designation.use = $sct#900000000000013009
@@ -4220,24 +4220,24 @@ Description: "Nomenclature des activités sanitaires utilisée pour décrire les
 * #593 ^property[0].code = #parent
 * #593 ^property[=].valueCode = #0262
 * #593 ^property[+].code = #dateValid
-* #593 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #593 ^property[=].valueDateTime = "1979-01-01T00:00:00+01:00"
 * #593 ^property[+].code = #dateMaj
-* #593 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #593 ^property[=].valueDateTime = "2017-06-07T00:00:00+01:00"
 * #593 ^property[+].code = #status
 * #593 ^property[=].valueCode = #retired
 * #593 ^property[+].code = #retirementDate
-* #593 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #593 ^property[=].valueDateTime = "2017-06-07T00:00:00+01:00"
 * #594 "Repos Prénatal"
 * #594 ^property[0].code = #parent
 * #594 ^property[=].valueCode = #0262
 * #594 ^property[+].code = #dateValid
-* #594 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #594 ^property[=].valueDateTime = "1979-01-01T00:00:00+01:00"
 * #594 ^property[+].code = #dateMaj
-* #594 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #594 ^property[=].valueDateTime = "2017-06-07T00:00:00+01:00"
 * #594 ^property[+].code = #status
 * #594 ^property[=].valueCode = #retired
 * #594 ^property[+].code = #retirementDate
-* #594 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #594 ^property[=].valueDateTime = "2017-06-07T00:00:00+01:00"
 * #595 "Convalescence Postnatale"
 * #595 ^designation.language = #fr-FR
 * #595 ^designation.use = $sct#900000000000013009
@@ -4245,24 +4245,24 @@ Description: "Nomenclature des activités sanitaires utilisée pour décrire les
 * #595 ^property[0].code = #parent
 * #595 ^property[=].valueCode = #0262
 * #595 ^property[+].code = #dateValid
-* #595 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #595 ^property[=].valueDateTime = "1979-01-01T00:00:00+01:00"
 * #595 ^property[+].code = #dateMaj
-* #595 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #595 ^property[=].valueDateTime = "2017-06-07T00:00:00+01:00"
 * #595 ^property[+].code = #status
 * #595 ^property[=].valueCode = #retired
 * #595 ^property[+].code = #retirementDate
-* #595 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #595 ^property[=].valueDateTime = "2017-06-07T00:00:00+01:00"
 * #596 "Médecine du Travail"
 * #596 ^property[0].code = #parent
 * #596 ^property[=].valueCode = #0341
 * #596 ^property[+].code = #dateValid
-* #596 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #596 ^property[=].valueDateTime = "1979-01-01T00:00:00+01:00"
 * #596 ^property[+].code = #dateMaj
-* #596 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #596 ^property[=].valueDateTime = "2017-06-07T00:00:00+01:00"
 * #596 ^property[+].code = #status
 * #596 ^property[=].valueCode = #retired
 * #596 ^property[+].code = #retirementDate
-* #596 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #596 ^property[=].valueDateTime = "2017-06-07T00:00:00+01:00"
 * #599 "médecine générale (app.Respiratoire)"
 * #599 ^designation.language = #fr-FR
 * #599 ^designation.use = $sct#900000000000013009
@@ -4270,13 +4270,13 @@ Description: "Nomenclature des activités sanitaires utilisée pour décrire les
 * #599 ^property[0].code = #parent
 * #599 ^property[=].valueCode = #0211
 * #599 ^property[+].code = #dateValid
-* #599 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #599 ^property[=].valueDateTime = "1979-01-01T00:00:00+01:00"
 * #599 ^property[+].code = #dateMaj
-* #599 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #599 ^property[=].valueDateTime = "1994-06-06T00:00:00+01:00"
 * #599 ^property[+].code = #status
 * #599 ^property[=].valueCode = #retired
 * #599 ^property[+].code = #retirementDate
-* #599 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #599 ^property[=].valueDateTime = "1994-06-06T00:00:00+01:00"
 * #604 "Cure Médicale Non Spécialisée Pr Enfant (MECS)"
 * #604 ^designation.language = #fr-FR
 * #604 ^designation.use = $sct#900000000000013009
@@ -4284,13 +4284,13 @@ Description: "Nomenclature des activités sanitaires utilisée pour décrire les
 * #604 ^property[0].code = #parent
 * #604 ^property[=].valueCode = #0267
 * #604 ^property[+].code = #dateValid
-* #604 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #604 ^property[=].valueDateTime = "1979-01-01T00:00:00+01:00"
 * #604 ^property[+].code = #dateMaj
-* #604 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #604 ^property[=].valueDateTime = "2017-06-07T00:00:00+01:00"
 * #604 ^property[+].code = #status
 * #604 ^property[=].valueCode = #retired
 * #604 ^property[+].code = #retirementDate
-* #604 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #604 ^property[=].valueDateTime = "2017-06-07T00:00:00+01:00"
 * #605 "M.E.C.S. Non spec. Temporaire"
 * #605 ^designation.language = #fr-FR
 * #605 ^designation.use = $sct#900000000000013009
@@ -4298,13 +4298,13 @@ Description: "Nomenclature des activités sanitaires utilisée pour décrire les
 * #605 ^property[0].code = #parent
 * #605 ^property[=].valueCode = #0267
 * #605 ^property[+].code = #dateValid
-* #605 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #605 ^property[=].valueDateTime = "1979-01-01T00:00:00+01:00"
 * #605 ^property[+].code = #dateMaj
-* #605 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #605 ^property[=].valueDateTime = "2017-06-07T00:00:00+01:00"
 * #605 ^property[+].code = #status
 * #605 ^property[=].valueCode = #retired
 * #605 ^property[+].code = #retirementDate
-* #605 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #605 ^property[=].valueDateTime = "2017-06-07T00:00:00+01:00"
 * #606 "Cure Thermale Pr Enfants (MECS Ouv Permanence)"
 * #606 ^designation.language = #fr-FR
 * #606 ^designation.use = $sct#900000000000013009
@@ -4312,13 +4312,13 @@ Description: "Nomenclature des activités sanitaires utilisée pour décrire les
 * #606 ^property[0].code = #parent
 * #606 ^property[=].valueCode = #0267
 * #606 ^property[+].code = #dateValid
-* #606 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #606 ^property[=].valueDateTime = "1979-01-01T00:00:00+01:00"
 * #606 ^property[+].code = #dateMaj
-* #606 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #606 ^property[=].valueDateTime = "2017-06-07T00:00:00+01:00"
 * #606 ^property[+].code = #status
 * #606 ^property[=].valueCode = #retired
 * #606 ^property[+].code = #retirementDate
-* #606 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #606 ^property[=].valueDateTime = "2017-06-07T00:00:00+01:00"
 * #607 "Cure Thermale Pr Enfants (MECS Ouv.de Façon Temporaire)"
 * #607 ^designation.language = #fr-FR
 * #607 ^designation.use = $sct#900000000000013009
@@ -4326,13 +4326,13 @@ Description: "Nomenclature des activités sanitaires utilisée pour décrire les
 * #607 ^property[0].code = #parent
 * #607 ^property[=].valueCode = #0267
 * #607 ^property[+].code = #dateValid
-* #607 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #607 ^property[=].valueDateTime = "1979-01-01T00:00:00+01:00"
 * #607 ^property[+].code = #dateMaj
-* #607 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #607 ^property[=].valueDateTime = "2017-06-07T00:00:00+01:00"
 * #607 ^property[+].code = #status
 * #607 ^property[=].valueCode = #retired
 * #607 ^property[+].code = #retirementDate
-* #607 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #607 ^property[=].valueDateTime = "2017-06-07T00:00:00+01:00"
 * #608 "Cure Médicale Pr Enfants voies Resp.(Permanente)"
 * #608 ^designation.language = #fr-FR
 * #608 ^designation.use = $sct#900000000000013009
@@ -4340,13 +4340,13 @@ Description: "Nomenclature des activités sanitaires utilisée pour décrire les
 * #608 ^property[0].code = #parent
 * #608 ^property[=].valueCode = #0267
 * #608 ^property[+].code = #dateValid
-* #608 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #608 ^property[=].valueDateTime = "1979-01-01T00:00:00+01:00"
 * #608 ^property[+].code = #dateMaj
-* #608 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #608 ^property[=].valueDateTime = "2017-06-07T00:00:00+01:00"
 * #608 ^property[+].code = #status
 * #608 ^property[=].valueCode = #retired
 * #608 ^property[+].code = #retirementDate
-* #608 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #608 ^property[=].valueDateTime = "2017-06-07T00:00:00+01:00"
 * #609 "Cure Médicale Pr Enfants Atteints d'Affect.Chroniques"
 * #609 ^designation.language = #fr-FR
 * #609 ^designation.use = $sct#900000000000013009
@@ -4354,13 +4354,13 @@ Description: "Nomenclature des activités sanitaires utilisée pour décrire les
 * #609 ^property[0].code = #parent
 * #609 ^property[=].valueCode = #0267
 * #609 ^property[+].code = #dateValid
-* #609 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #609 ^property[=].valueDateTime = "1979-01-01T00:00:00+01:00"
 * #609 ^property[+].code = #dateMaj
-* #609 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #609 ^property[=].valueDateTime = "2017-06-07T00:00:00+01:00"
 * #609 ^property[+].code = #status
 * #609 ^property[=].valueCode = #retired
 * #609 ^property[+].code = #retirementDate
-* #609 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #609 ^property[=].valueDateTime = "2017-06-07T00:00:00+01:00"
 * #610 "Cure Médicale Pr Enfants Conval.En Rhumatismes Aigus"
 * #610 ^designation.language = #fr-FR
 * #610 ^designation.use = $sct#900000000000013009
@@ -4368,13 +4368,13 @@ Description: "Nomenclature des activités sanitaires utilisée pour décrire les
 * #610 ^property[0].code = #parent
 * #610 ^property[=].valueCode = #0267
 * #610 ^property[+].code = #dateValid
-* #610 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #610 ^property[=].valueDateTime = "1979-01-01T00:00:00+01:00"
 * #610 ^property[+].code = #dateMaj
-* #610 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #610 ^property[=].valueDateTime = "2017-06-07T00:00:00+01:00"
 * #610 ^property[+].code = #status
 * #610 ^property[=].valueCode = #retired
 * #610 ^property[+].code = #retirementDate
-* #610 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #610 ^property[=].valueDateTime = "2017-06-07T00:00:00+01:00"
 * #611 "Cure Médicale Pr Enfants Convales.de Rhumatismes Aigus Tempo"
 * #611 ^designation.language = #fr-FR
 * #611 ^designation.use = $sct#900000000000013009
@@ -4382,13 +4382,13 @@ Description: "Nomenclature des activités sanitaires utilisée pour décrire les
 * #611 ^property[0].code = #parent
 * #611 ^property[=].valueCode = #0267
 * #611 ^property[+].code = #dateValid
-* #611 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #611 ^property[=].valueDateTime = "1979-01-01T00:00:00+01:00"
 * #611 ^property[+].code = #dateMaj
-* #611 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #611 ^property[=].valueDateTime = "2017-06-07T00:00:00+01:00"
 * #611 ^property[+].code = #status
 * #611 ^property[=].valueCode = #retired
 * #611 ^property[+].code = #retirementDate
-* #611 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #611 ^property[=].valueDateTime = "2017-06-07T00:00:00+01:00"
 * #612 "Cure Médicale Pr Enfants Diabétiques (MECS Permanente)"
 * #612 ^designation.language = #fr-FR
 * #612 ^designation.use = $sct#900000000000013009
@@ -4396,13 +4396,13 @@ Description: "Nomenclature des activités sanitaires utilisée pour décrire les
 * #612 ^property[0].code = #parent
 * #612 ^property[=].valueCode = #0267
 * #612 ^property[+].code = #dateValid
-* #612 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #612 ^property[=].valueDateTime = "1979-01-01T00:00:00+01:00"
 * #612 ^property[+].code = #dateMaj
-* #612 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #612 ^property[=].valueDateTime = "2017-06-07T00:00:00+01:00"
 * #612 ^property[+].code = #status
 * #612 ^property[=].valueCode = #retired
 * #612 ^property[+].code = #retirementDate
-* #612 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #612 ^property[=].valueDateTime = "2017-06-07T00:00:00+01:00"
 * #613 "Cure Médicale Pr Enfants Diabétiques (MECS Temporaire)"
 * #613 ^designation.language = #fr-FR
 * #613 ^designation.use = $sct#900000000000013009
@@ -4410,13 +4410,13 @@ Description: "Nomenclature des activités sanitaires utilisée pour décrire les
 * #613 ^property[0].code = #parent
 * #613 ^property[=].valueCode = #0267
 * #613 ^property[+].code = #dateValid
-* #613 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #613 ^property[=].valueDateTime = "1979-01-01T00:00:00+01:00"
 * #613 ^property[+].code = #dateMaj
-* #613 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #613 ^property[=].valueDateTime = "2017-06-07T00:00:00+01:00"
 * #613 ^property[+].code = #status
 * #613 ^property[=].valueCode = #retired
 * #613 ^property[+].code = #retirementDate
-* #613 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #613 ^property[=].valueDateTime = "2017-06-07T00:00:00+01:00"
 * #614 "Cure Médicale Pr Enfants Épileptiques (MECS Permanente)"
 * #614 ^designation.language = #fr-FR
 * #614 ^designation.use = $sct#900000000000013009
@@ -4424,13 +4424,13 @@ Description: "Nomenclature des activités sanitaires utilisée pour décrire les
 * #614 ^property[0].code = #parent
 * #614 ^property[=].valueCode = #0267
 * #614 ^property[+].code = #dateValid
-* #614 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #614 ^property[=].valueDateTime = "1979-01-01T00:00:00+01:00"
 * #614 ^property[+].code = #dateMaj
-* #614 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #614 ^property[=].valueDateTime = "2017-06-07T00:00:00+01:00"
 * #614 ^property[+].code = #status
 * #614 ^property[=].valueCode = #retired
 * #614 ^property[+].code = #retirementDate
-* #614 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #614 ^property[=].valueDateTime = "2017-06-07T00:00:00+01:00"
 * #615 "Cure Médicale Pr Enfants Épileptiques (MECS Temporaire)"
 * #615 ^designation.language = #fr-FR
 * #615 ^designation.use = $sct#900000000000013009
@@ -4438,13 +4438,13 @@ Description: "Nomenclature des activités sanitaires utilisée pour décrire les
 * #615 ^property[0].code = #parent
 * #615 ^property[=].valueCode = #0267
 * #615 ^property[+].code = #dateValid
-* #615 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #615 ^property[=].valueDateTime = "1979-01-01T00:00:00+01:00"
 * #615 ^property[+].code = #dateMaj
-* #615 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #615 ^property[=].valueDateTime = "2017-06-07T00:00:00+01:00"
 * #615 ^property[+].code = #status
 * #615 ^property[=].valueCode = #retired
 * #615 ^property[+].code = #retirementDate
-* #615 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #615 ^property[=].valueDateTime = "2017-06-07T00:00:00+01:00"
 * #616 "Cure Médicale Pr Enfants Temp.Somat.Psycho"
 * #616 ^designation.language = #fr-FR
 * #616 ^designation.use = $sct#900000000000013009
@@ -4452,13 +4452,13 @@ Description: "Nomenclature des activités sanitaires utilisée pour décrire les
 * #616 ^property[0].code = #parent
 * #616 ^property[=].valueCode = #0267
 * #616 ^property[+].code = #dateValid
-* #616 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #616 ^property[=].valueDateTime = "1979-01-01T00:00:00+01:00"
 * #616 ^property[+].code = #dateMaj
-* #616 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #616 ^property[=].valueDateTime = "2017-06-07T00:00:00+01:00"
 * #616 ^property[+].code = #status
 * #616 ^property[=].valueCode = #retired
 * #616 ^property[+].code = #retirementDate
-* #616 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #616 ^property[=].valueDateTime = "2017-06-07T00:00:00+01:00"
 * #618 "Cure Médicale Pr Enfants Hémophiles (MECS Permanente)"
 * #618 ^designation.language = #fr-FR
 * #618 ^designation.use = $sct#900000000000013009
@@ -4466,13 +4466,13 @@ Description: "Nomenclature des activités sanitaires utilisée pour décrire les
 * #618 ^property[0].code = #parent
 * #618 ^property[=].valueCode = #0267
 * #618 ^property[+].code = #dateValid
-* #618 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #618 ^property[=].valueDateTime = "1979-01-01T00:00:00+01:00"
 * #618 ^property[+].code = #dateMaj
-* #618 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #618 ^property[=].valueDateTime = "2017-06-07T00:00:00+01:00"
 * #618 ^property[+].code = #status
 * #618 ^property[=].valueCode = #retired
 * #618 ^property[+].code = #retirementDate
-* #618 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #618 ^property[=].valueDateTime = "2017-06-07T00:00:00+01:00"
 * #619 "Cure Médicale Pr Enfants Hémophiles (MECS.Temporaire)"
 * #619 ^designation.language = #fr-FR
 * #619 ^designation.use = $sct#900000000000013009
@@ -4480,13 +4480,13 @@ Description: "Nomenclature des activités sanitaires utilisée pour décrire les
 * #619 ^property[0].code = #parent
 * #619 ^property[=].valueCode = #0267
 * #619 ^property[+].code = #dateValid
-* #619 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #619 ^property[=].valueDateTime = "1979-01-01T00:00:00+01:00"
 * #619 ^property[+].code = #dateMaj
-* #619 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #619 ^property[=].valueDateTime = "2017-06-07T00:00:00+01:00"
 * #619 ^property[+].code = #status
 * #619 ^property[=].valueCode = #retired
 * #619 ^property[+].code = #retirementDate
-* #619 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #619 ^property[=].valueDateTime = "2017-06-07T00:00:00+01:00"
 * #620 "Cure Médicale Pr Enfants Infirmes Orthopédique (Permanente)"
 * #620 ^designation.language = #fr-FR
 * #620 ^designation.use = $sct#900000000000013009
@@ -4494,13 +4494,13 @@ Description: "Nomenclature des activités sanitaires utilisée pour décrire les
 * #620 ^property[0].code = #parent
 * #620 ^property[=].valueCode = #0267
 * #620 ^property[+].code = #dateValid
-* #620 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #620 ^property[=].valueDateTime = "1979-01-01T00:00:00+01:00"
 * #620 ^property[+].code = #dateMaj
-* #620 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #620 ^property[=].valueDateTime = "2017-06-07T00:00:00+01:00"
 * #620 ^property[+].code = #status
 * #620 ^property[=].valueCode = #retired
 * #620 ^property[+].code = #retirementDate
-* #620 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #620 ^property[=].valueDateTime = "2017-06-07T00:00:00+01:00"
 * #621 "Cure Médicale Pr Enfants Infirmes Orthopédique (Temporaire)"
 * #621 ^designation.language = #fr-FR
 * #621 ^designation.use = $sct#900000000000013009
@@ -4508,13 +4508,13 @@ Description: "Nomenclature des activités sanitaires utilisée pour décrire les
 * #621 ^property[0].code = #parent
 * #621 ^property[=].valueCode = #0267
 * #621 ^property[+].code = #dateValid
-* #621 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #621 ^property[=].valueDateTime = "1979-01-01T00:00:00+01:00"
 * #621 ^property[+].code = #dateMaj
-* #621 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #621 ^property[=].valueDateTime = "2017-06-07T00:00:00+01:00"
 * #621 ^property[+].code = #status
 * #621 ^property[=].valueCode = #retired
 * #621 ^property[+].code = #retirementDate
-* #621 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #621 ^property[=].valueDateTime = "2017-06-07T00:00:00+01:00"
 * #622 "Cure Médicale Pr Enfants Énurétiques (MECS Permanence)"
 * #622 ^designation.language = #fr-FR
 * #622 ^designation.use = $sct#900000000000013009
@@ -4522,13 +4522,13 @@ Description: "Nomenclature des activités sanitaires utilisée pour décrire les
 * #622 ^property[0].code = #parent
 * #622 ^property[=].valueCode = #0267
 * #622 ^property[+].code = #dateValid
-* #622 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #622 ^property[=].valueDateTime = "1979-01-01T00:00:00+01:00"
 * #622 ^property[+].code = #dateMaj
-* #622 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #622 ^property[=].valueDateTime = "2017-06-07T00:00:00+01:00"
 * #622 ^property[+].code = #status
 * #622 ^property[=].valueCode = #retired
 * #622 ^property[+].code = #retirementDate
-* #622 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #622 ^property[=].valueDateTime = "2017-06-07T00:00:00+01:00"
 * #623 "Cure Médicale Pr Enfants Énurétiques (MECS Temporaire.)"
 * #623 ^designation.language = #fr-FR
 * #623 ^designation.use = $sct#900000000000013009
@@ -4536,13 +4536,13 @@ Description: "Nomenclature des activités sanitaires utilisée pour décrire les
 * #623 ^property[0].code = #parent
 * #623 ^property[=].valueCode = #0267
 * #623 ^property[+].code = #dateValid
-* #623 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #623 ^property[=].valueDateTime = "1979-01-01T00:00:00+01:00"
 * #623 ^property[+].code = #dateMaj
-* #623 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #623 ^property[=].valueDateTime = "2017-06-07T00:00:00+01:00"
 * #623 ^property[+].code = #status
 * #623 ^property[=].valueCode = #retired
 * #623 ^property[+].code = #retirementDate
-* #623 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #623 ^property[=].valueDateTime = "2017-06-07T00:00:00+01:00"
 * #624 "Cure Médicale Spécialisée Pr Enfants (MECS Permanente)"
 * #624 ^designation.language = #fr-FR
 * #624 ^designation.use = $sct#900000000000013009
@@ -4550,13 +4550,13 @@ Description: "Nomenclature des activités sanitaires utilisée pour décrire les
 * #624 ^property[0].code = #parent
 * #624 ^property[=].valueCode = #0267
 * #624 ^property[+].code = #dateValid
-* #624 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #624 ^property[=].valueDateTime = "1979-01-01T00:00:00+01:00"
 * #624 ^property[+].code = #dateMaj
-* #624 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #624 ^property[=].valueDateTime = "2017-06-07T00:00:00+01:00"
 * #624 ^property[+].code = #status
 * #624 ^property[=].valueCode = #retired
 * #624 ^property[+].code = #retirementDate
-* #624 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #624 ^property[=].valueDateTime = "2017-06-07T00:00:00+01:00"
 * #625 "Cure Médicale Spécialisée Pr Enfants (MECS .Temporaire)"
 * #625 ^designation.language = #fr-FR
 * #625 ^designation.use = $sct#900000000000013009
@@ -4564,13 +4564,13 @@ Description: "Nomenclature des activités sanitaires utilisée pour décrire les
 * #625 ^property[0].code = #parent
 * #625 ^property[=].valueCode = #0267
 * #625 ^property[+].code = #dateValid
-* #625 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #625 ^property[=].valueDateTime = "1979-01-01T00:00:00+01:00"
 * #625 ^property[+].code = #dateMaj
-* #625 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #625 ^property[=].valueDateTime = "2017-06-07T00:00:00+01:00"
 * #625 ^property[+].code = #status
 * #625 ^property[=].valueCode = #retired
 * #625 ^property[+].code = #retirementDate
-* #625 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #625 ^property[=].valueDateTime = "2017-06-07T00:00:00+01:00"
 * #627 "Moyen Séjour Indifférencié"
 * #627 ^designation.language = #fr-FR
 * #627 ^designation.use = $sct#900000000000013009
@@ -4578,13 +4578,13 @@ Description: "Nomenclature des activités sanitaires utilisée pour décrire les
 * #627 ^property[0].code = #parent
 * #627 ^property[=].valueCode = #0261
 * #627 ^property[+].code = #dateValid
-* #627 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #627 ^property[=].valueDateTime = "1979-01-01T00:00:00+01:00"
 * #627 ^property[+].code = #dateMaj
-* #627 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #627 ^property[=].valueDateTime = "2017-06-07T00:00:00+01:00"
 * #627 ^property[+].code = #status
 * #627 ^property[=].valueCode = #retired
 * #627 ^property[+].code = #retirementDate
-* #627 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #627 ^property[=].valueDateTime = "2017-06-07T00:00:00+01:00"
 * #631 "Chirurgie Gynécologique"
 * #631 ^designation.language = #fr-FR
 * #631 ^designation.use = $sct#900000000000013009
@@ -4592,13 +4592,13 @@ Description: "Nomenclature des activités sanitaires utilisée pour décrire les
 * #631 ^property[0].code = #parent
 * #631 ^property[=].valueCode = #0231
 * #631 ^property[+].code = #dateValid
-* #631 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #631 ^property[=].valueDateTime = "1979-01-01T00:00:00+01:00"
 * #631 ^property[+].code = #dateMaj
-* #631 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #631 ^property[=].valueDateTime = "2017-06-07T00:00:00+01:00"
 * #631 ^property[+].code = #status
 * #631 ^property[=].valueCode = #retired
 * #631 ^property[+].code = #retirementDate
-* #631 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #631 ^property[=].valueDateTime = "2017-06-07T00:00:00+01:00"
 * #634 "Laboratoire de Radio-Isotopes"
 * #634 ^designation.language = #fr-FR
 * #634 ^designation.use = $sct#900000000000013009
@@ -4606,13 +4606,13 @@ Description: "Nomenclature des activités sanitaires utilisée pour décrire les
 * #634 ^property[0].code = #parent
 * #634 ^property[=].valueCode = #0431
 * #634 ^property[+].code = #dateValid
-* #634 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #634 ^property[=].valueDateTime = "1979-01-01T00:00:00+01:00"
 * #634 ^property[+].code = #dateMaj
-* #634 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #634 ^property[=].valueDateTime = "2017-06-07T00:00:00+01:00"
 * #634 ^property[+].code = #status
 * #634 ^property[=].valueCode = #retired
 * #634 ^property[+].code = #retirementDate
-* #634 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #634 ^property[=].valueDateTime = "2017-06-07T00:00:00+01:00"
 * #635 "Réanimation Néonatale"
 * #635 ^designation.language = #fr-FR
 * #635 ^designation.use = $sct#900000000000013009
@@ -4620,13 +4620,13 @@ Description: "Nomenclature des activités sanitaires utilisée pour décrire les
 * #635 ^property[0].code = #parent
 * #635 ^property[=].valueCode = #0214
 * #635 ^property[+].code = #dateValid
-* #635 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #635 ^property[=].valueDateTime = "1979-01-01T00:00:00+01:00"
 * #635 ^property[+].code = #dateMaj
-* #635 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #635 ^property[=].valueDateTime = "2017-06-07T00:00:00+01:00"
 * #635 ^property[+].code = #status
 * #635 ^property[=].valueCode = #retired
 * #635 ^property[+].code = #retirementDate
-* #635 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #635 ^property[=].valueDateTime = "2017-06-07T00:00:00+01:00"
 * #636 "Réanimation Pédiatrique Polyvalente"
 * #636 ^designation.language = #fr-FR
 * #636 ^designation.use = $sct#900000000000013009
@@ -4634,13 +4634,13 @@ Description: "Nomenclature des activités sanitaires utilisée pour décrire les
 * #636 ^property[0].code = #parent
 * #636 ^property[=].valueCode = #0214
 * #636 ^property[+].code = #dateValid
-* #636 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #636 ^property[=].valueDateTime = "1979-01-01T00:00:00+01:00"
 * #636 ^property[+].code = #dateMaj
-* #636 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #636 ^property[=].valueDateTime = "2017-06-07T00:00:00+01:00"
 * #636 ^property[+].code = #status
 * #636 ^property[=].valueCode = #retired
 * #636 ^property[+].code = #retirementDate
-* #636 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #636 ^property[=].valueDateTime = "2017-06-07T00:00:00+01:00"
 * #638 "Surveillance Continue Pédiatrique"
 * #638 ^designation.language = #fr-FR
 * #638 ^designation.use = $sct#900000000000013009
@@ -4648,13 +4648,13 @@ Description: "Nomenclature des activités sanitaires utilisée pour décrire les
 * #638 ^property[0].code = #parent
 * #638 ^property[=].valueCode = #0215
 * #638 ^property[+].code = #dateValid
-* #638 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #638 ^property[=].valueDateTime = "1979-01-01T00:00:00+01:00"
 * #638 ^property[+].code = #dateMaj
-* #638 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #638 ^property[=].valueDateTime = "2017-06-07T00:00:00+01:00"
 * #638 ^property[+].code = #status
 * #638 ^property[=].valueCode = #retired
 * #638 ^property[+].code = #retirementDate
-* #638 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #638 ^property[=].valueDateTime = "2017-06-07T00:00:00+01:00"
 * #639 "Surveillance Continue Néphrologie"
 * #639 ^designation.language = #fr-FR
 * #639 ^designation.use = $sct#900000000000013009
@@ -4662,13 +4662,13 @@ Description: "Nomenclature des activités sanitaires utilisée pour décrire les
 * #639 ^property[0].code = #parent
 * #639 ^property[=].valueCode = #0215
 * #639 ^property[+].code = #dateValid
-* #639 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #639 ^property[=].valueDateTime = "1979-01-01T00:00:00+01:00"
 * #639 ^property[+].code = #dateMaj
-* #639 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #639 ^property[=].valueDateTime = "1994-09-19T00:00:00+01:00"
 * #639 ^property[+].code = #status
 * #639 ^property[=].valueCode = #retired
 * #639 ^property[+].code = #retirementDate
-* #639 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #639 ^property[=].valueDateTime = "1994-09-19T00:00:00+01:00"
 * #641 "réanimation en cardiologie"
 * #641 ^designation.language = #fr-FR
 * #641 ^designation.use = $sct#900000000000013009
@@ -4676,13 +4676,13 @@ Description: "Nomenclature des activités sanitaires utilisée pour décrire les
 * #641 ^property[0].code = #parent
 * #641 ^property[=].valueCode = #0214
 * #641 ^property[+].code = #dateValid
-* #641 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #641 ^property[=].valueDateTime = "1979-01-01T00:00:00+01:00"
 * #641 ^property[+].code = #dateMaj
-* #641 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #641 ^property[=].valueDateTime = "1994-09-19T00:00:00+01:00"
 * #641 ^property[+].code = #status
 * #641 ^property[=].valueCode = #retired
 * #641 ^property[+].code = #retirementDate
-* #641 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #641 ^property[=].valueDateTime = "1994-09-19T00:00:00+01:00"
 * #645 "Oxygénothérapie Isolée"
 * #645 ^designation.language = #fr-FR
 * #645 ^designation.use = $sct#900000000000013009
@@ -4690,13 +4690,13 @@ Description: "Nomenclature des activités sanitaires utilisée pour décrire les
 * #645 ^property[0].code = #parent
 * #645 ^property[=].valueCode = #0351
 * #645 ^property[+].code = #dateValid
-* #645 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #645 ^property[=].valueDateTime = "1979-01-01T00:00:00+01:00"
 * #645 ^property[+].code = #dateMaj
-* #645 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #645 ^property[=].valueDateTime = "2017-06-07T00:00:00+01:00"
 * #645 ^property[+].code = #status
 * #645 ^property[=].valueCode = #retired
 * #645 ^property[+].code = #retirementDate
-* #645 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #645 ^property[=].valueDateTime = "2017-06-07T00:00:00+01:00"
 * #646 "Assistance Ventilée Sans Trachéotomie"
 * #646 ^designation.language = #fr-FR
 * #646 ^designation.use = $sct#900000000000013009
@@ -4704,13 +4704,13 @@ Description: "Nomenclature des activités sanitaires utilisée pour décrire les
 * #646 ^property[0].code = #parent
 * #646 ^property[=].valueCode = #0351
 * #646 ^property[+].code = #dateValid
-* #646 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #646 ^property[=].valueDateTime = "1979-01-01T00:00:00+01:00"
 * #646 ^property[+].code = #dateMaj
-* #646 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #646 ^property[=].valueDateTime = "2017-06-07T00:00:00+01:00"
 * #646 ^property[+].code = #status
 * #646 ^property[=].valueCode = #retired
 * #646 ^property[+].code = #retirementDate
-* #646 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #646 ^property[=].valueDateTime = "2017-06-07T00:00:00+01:00"
 * #647 "assistance vent.Endotracheale"
 * #647 ^designation.language = #fr-FR
 * #647 ^designation.use = $sct#900000000000013009
@@ -4718,24 +4718,24 @@ Description: "Nomenclature des activités sanitaires utilisée pour décrire les
 * #647 ^property[0].code = #parent
 * #647 ^property[=].valueCode = #0351
 * #647 ^property[+].code = #dateValid
-* #647 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #647 ^property[=].valueDateTime = "1979-01-01T00:00:00+01:00"
 * #647 ^property[+].code = #dateMaj
-* #647 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #647 ^property[=].valueDateTime = "2017-06-07T00:00:00+01:00"
 * #647 ^property[+].code = #status
 * #647 ^property[=].valueCode = #retired
 * #647 ^property[+].code = #retirementDate
-* #647 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #647 ^property[=].valueDateTime = "2017-06-07T00:00:00+01:00"
 * #648 "Trachéotomie Isolée"
 * #648 ^property[0].code = #parent
 * #648 ^property[=].valueCode = #0351
 * #648 ^property[+].code = #dateValid
-* #648 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #648 ^property[=].valueDateTime = "1979-01-01T00:00:00+01:00"
 * #648 ^property[+].code = #dateMaj
-* #648 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #648 ^property[=].valueDateTime = "2017-06-07T00:00:00+01:00"
 * #648 ^property[+].code = #status
 * #648 ^property[=].valueCode = #retired
 * #648 ^property[+].code = #retirementDate
-* #648 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #648 ^property[=].valueDateTime = "2017-06-07T00:00:00+01:00"
 * #651 "Cure Thermale des Affect.des Muqueuses Bucco-Linguales"
 * #651 ^designation.language = #fr-FR
 * #651 ^designation.use = $sct#900000000000013009
@@ -4743,13 +4743,13 @@ Description: "Nomenclature des activités sanitaires utilisée pour décrire les
 * #651 ^property[0].code = #parent
 * #651 ^property[=].valueCode = #0381
 * #651 ^property[+].code = #dateValid
-* #651 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #651 ^property[=].valueDateTime = "1979-01-01T00:00:00+01:00"
 * #651 ^property[+].code = #dateMaj
-* #651 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #651 ^property[=].valueDateTime = "2017-06-07T00:00:00+01:00"
 * #651 ^property[+].code = #status
 * #651 ^property[=].valueCode = #retired
 * #651 ^property[+].code = #retirementDate
-* #651 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #651 ^property[=].valueDateTime = "2017-06-07T00:00:00+01:00"
 * #663 "Nutrition Parentale Enfants"
 * #663 ^designation.language = #fr-FR
 * #663 ^designation.use = $sct#900000000000013009
@@ -4757,13 +4757,13 @@ Description: "Nomenclature des activités sanitaires utilisée pour décrire les
 * #663 ^property[0].code = #parent
 * #663 ^property[=].valueCode = #0361
 * #663 ^property[+].code = #dateValid
-* #663 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #663 ^property[=].valueDateTime = "1979-01-01T00:00:00+01:00"
 * #663 ^property[+].code = #dateMaj
-* #663 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #663 ^property[=].valueDateTime = "2017-06-07T00:00:00+01:00"
 * #663 ^property[+].code = #status
 * #663 ^property[=].valueCode = #retired
 * #663 ^property[+].code = #retirementDate
-* #663 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #663 ^property[=].valueDateTime = "2017-06-07T00:00:00+01:00"
 * #664 "Nutrition Parentale Adultes"
 * #664 ^designation.language = #fr-FR
 * #664 ^designation.use = $sct#900000000000013009
@@ -4771,13 +4771,13 @@ Description: "Nomenclature des activités sanitaires utilisée pour décrire les
 * #664 ^property[0].code = #parent
 * #664 ^property[=].valueCode = #0361
 * #664 ^property[+].code = #dateValid
-* #664 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #664 ^property[=].valueDateTime = "1979-01-01T00:00:00+01:00"
 * #664 ^property[+].code = #dateMaj
-* #664 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #664 ^property[=].valueDateTime = "2017-06-07T00:00:00+01:00"
 * #664 ^property[+].code = #status
 * #664 ^property[=].valueCode = #retired
 * #664 ^property[+].code = #retirementDate
-* #664 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #664 ^property[=].valueDateTime = "2017-06-07T00:00:00+01:00"
 * #665 "Fabrication Distribution Produit Pharmaceutiques"
 * #665 ^designation.language = #fr-FR
 * #665 ^designation.use = $sct#900000000000013009
@@ -4785,13 +4785,13 @@ Description: "Nomenclature des activités sanitaires utilisée pour décrire les
 * #665 ^property[0].code = #parent
 * #665 ^property[=].valueCode = #0481
 * #665 ^property[+].code = #dateValid
-* #665 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #665 ^property[=].valueDateTime = "1979-01-01T00:00:00+01:00"
 * #665 ^property[+].code = #dateMaj
-* #665 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #665 ^property[=].valueDateTime = "2017-06-07T00:00:00+01:00"
 * #665 ^property[+].code = #status
 * #665 ^property[=].valueCode = #retired
 * #665 ^property[+].code = #retirementDate
-* #665 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #665 ^property[=].valueDateTime = "2017-06-07T00:00:00+01:00"
 * #666 "Dispensation à Domicile d'Oxygène à usage médical"
 * #666 ^designation.language = #fr-FR
 * #666 ^designation.use = $sct#900000000000013009
@@ -4799,9 +4799,9 @@ Description: "Nomenclature des activités sanitaires utilisée pour décrire les
 * #666 ^property[0].code = #parent
 * #666 ^property[=].valueCode = #0481
 * #666 ^property[+].code = #dateValid
-* #666 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #666 ^property[=].valueDateTime = "1979-01-01T00:00:00+01:00"
 * #666 ^property[+].code = #dateMaj
-* #666 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #666 ^property[=].valueDateTime = "1979-01-01T00:00:00+01:00"
 * #666 ^property[+].code = #status
 * #666 ^property[=].valueCode = #active
 * #715 "Surveillance Par Monitorage (Mort Subite du Nourrisson)"
@@ -4811,13 +4811,13 @@ Description: "Nomenclature des activités sanitaires utilisée pour décrire les
 * #715 ^property[0].code = #parent
 * #715 ^property[=].valueCode = #0361
 * #715 ^property[+].code = #dateValid
-* #715 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #715 ^property[=].valueDateTime = "1979-01-01T00:00:00+01:00"
 * #715 ^property[+].code = #dateMaj
-* #715 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #715 ^property[=].valueDateTime = "2017-06-07T00:00:00+01:00"
 * #715 ^property[+].code = #status
 * #715 ^property[=].valueCode = #retired
 * #715 ^property[+].code = #retirementDate
-* #715 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #715 ^property[=].valueDateTime = "2017-06-07T00:00:00+01:00"
 * #717 "Soins Hautement Spécialisés en Médecine"
 * #717 ^designation.language = #fr-FR
 * #717 ^designation.use = $sct#900000000000013009
@@ -4825,13 +4825,13 @@ Description: "Nomenclature des activités sanitaires utilisée pour décrire les
 * #717 ^property[0].code = #parent
 * #717 ^property[=].valueCode = #0213
 * #717 ^property[+].code = #dateValid
-* #717 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #717 ^property[=].valueDateTime = "1979-01-01T00:00:00+01:00"
 * #717 ^property[+].code = #dateMaj
-* #717 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #717 ^property[=].valueDateTime = "2017-06-07T00:00:00+01:00"
 * #717 ^property[+].code = #status
 * #717 ^property[=].valueCode = #retired
 * #717 ^property[+].code = #retirementDate
-* #717 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #717 ^property[=].valueDateTime = "2017-06-07T00:00:00+01:00"
 * #718 "Soins Hautement Spécialisés en Chirurgie"
 * #718 ^designation.language = #fr-FR
 * #718 ^designation.use = $sct#900000000000013009
@@ -4839,13 +4839,13 @@ Description: "Nomenclature des activités sanitaires utilisée pour décrire les
 * #718 ^property[0].code = #parent
 * #718 ^property[=].valueCode = #0223
 * #718 ^property[+].code = #dateValid
-* #718 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #718 ^property[=].valueDateTime = "1979-01-01T00:00:00+01:00"
 * #718 ^property[+].code = #dateMaj
-* #718 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #718 ^property[=].valueDateTime = "2017-06-07T00:00:00+01:00"
 * #718 ^property[+].code = #status
 * #718 ^property[=].valueCode = #retired
 * #718 ^property[+].code = #retirementDate
-* #718 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #718 ^property[=].valueDateTime = "2017-06-07T00:00:00+01:00"
 * #719 "Soins Hautement Spécialisés en Gynécologie"
 * #719 ^designation.language = #fr-FR
 * #719 ^designation.use = $sct#900000000000013009
@@ -4853,13 +4853,13 @@ Description: "Nomenclature des activités sanitaires utilisée pour décrire les
 * #719 ^property[0].code = #parent
 * #719 ^property[=].valueCode = #0231
 * #719 ^property[+].code = #dateValid
-* #719 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #719 ^property[=].valueDateTime = "1979-01-01T00:00:00+01:00"
 * #719 ^property[+].code = #dateMaj
-* #719 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #719 ^property[=].valueDateTime = "2017-06-07T00:00:00+01:00"
 * #719 ^property[+].code = #status
 * #719 ^property[=].valueCode = #retired
 * #719 ^property[+].code = #retirementDate
-* #719 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #719 ^property[=].valueDateTime = "2017-06-07T00:00:00+01:00"
 * #720 "réanimation néonatale"
 * #720 ^designation.language = #fr-FR
 * #720 ^designation.use = $sct#900000000000013009
@@ -4867,13 +4867,13 @@ Description: "Nomenclature des activités sanitaires utilisée pour décrire les
 * #720 ^property[0].code = #parent
 * #720 ^property[=].valueCode = #0214
 * #720 ^property[+].code = #dateValid
-* #720 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #720 ^property[=].valueDateTime = "1979-01-01T00:00:00+01:00"
 * #720 ^property[+].code = #dateMaj
-* #720 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #720 ^property[=].valueDateTime = "1994-06-06T00:00:00+01:00"
 * #720 ^property[+].code = #status
 * #720 ^property[=].valueCode = #retired
 * #720 ^property[+].code = #retirementDate
-* #720 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #720 ^property[=].valueDateTime = "1994-06-06T00:00:00+01:00"
 * #721 "Radiothérapie Métabolique"
 * #721 ^designation.language = #fr-FR
 * #721 ^designation.use = $sct#900000000000013009
@@ -4881,9 +4881,9 @@ Description: "Nomenclature des activités sanitaires utilisée pour décrire les
 * #721 ^property[0].code = #parent
 * #721 ^property[=].valueCode = #0441
 * #721 ^property[+].code = #dateValid
-* #721 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #721 ^property[=].valueDateTime = "1979-01-01T00:00:00+01:00"
 * #721 ^property[+].code = #dateMaj
-* #721 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #721 ^property[=].valueDateTime = "2017-06-07T00:00:00+01:00"
 * #721 ^property[+].code = #status
 * #721 ^property[=].valueCode = #retired
 * #721 ^property[+].code = #retirementDate
@@ -4895,13 +4895,13 @@ Description: "Nomenclature des activités sanitaires utilisée pour décrire les
 * #722 ^property[0].code = #parent
 * #722 ^property[=].valueCode = #0213
 * #722 ^property[+].code = #dateValid
-* #722 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #722 ^property[=].valueDateTime = "1979-01-01T00:00:00+01:00"
 * #722 ^property[+].code = #dateMaj
-* #722 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #722 ^property[=].valueDateTime = "1994-09-19T00:00:00+01:00"
 * #722 ^property[+].code = #status
 * #722 ^property[=].valueCode = #retired
 * #722 ^property[+].code = #retirementDate
-* #722 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #722 ^property[=].valueDateTime = "1994-09-19T00:00:00+01:00"
 * #723 "Auto dialyse"
 * #723 ^designation.language = #fr-FR
 * #723 ^designation.use = $sct#900000000000013009
@@ -4909,24 +4909,24 @@ Description: "Nomenclature des activités sanitaires utilisée pour décrire les
 * #723 ^property[0].code = #parent
 * #723 ^property[=].valueCode = #0311
 * #723 ^property[+].code = #dateValid
-* #723 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #723 ^property[=].valueDateTime = "1979-01-01T00:00:00+01:00"
 * #723 ^property[+].code = #dateMaj
-* #723 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #723 ^property[=].valueDateTime = "2017-06-07T00:00:00+01:00"
 * #723 ^property[+].code = #status
 * #723 ^property[=].valueCode = #retired
 * #723 ^property[+].code = #retirementDate
-* #723 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #723 ^property[=].valueDateTime = "2017-06-07T00:00:00+01:00"
 * #724 "Suivi de Grossesse"
 * #724 ^property[0].code = #parent
 * #724 ^property[=].valueCode = #0331
 * #724 ^property[+].code = #dateValid
-* #724 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #724 ^property[=].valueDateTime = "1979-01-01T00:00:00+01:00"
 * #724 ^property[+].code = #dateMaj
-* #724 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #724 ^property[=].valueDateTime = "2017-06-07T00:00:00+01:00"
 * #724 ^property[+].code = #status
 * #724 ^property[=].valueCode = #retired
 * #724 ^property[+].code = #retirementDate
-* #724 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #724 ^property[=].valueDateTime = "2017-06-07T00:00:00+01:00"
 * #725 "Suivi Pré et Post Opératoire"
 * #725 ^designation.language = #fr-FR
 * #725 ^designation.use = $sct#900000000000013009
@@ -4934,13 +4934,13 @@ Description: "Nomenclature des activités sanitaires utilisée pour décrire les
 * #725 ^property[0].code = #parent
 * #725 ^property[=].valueCode = #0361
 * #725 ^property[+].code = #dateValid
-* #725 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #725 ^property[=].valueDateTime = "1979-01-01T00:00:00+01:00"
 * #725 ^property[+].code = #dateMaj
-* #725 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #725 ^property[=].valueDateTime = "2017-06-07T00:00:00+01:00"
 * #725 ^property[+].code = #status
 * #725 ^property[=].valueCode = #retired
 * #725 ^property[+].code = #retirementDate
-* #725 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #725 ^property[=].valueDateTime = "2017-06-07T00:00:00+01:00"
 * #726 "Consultations Multidisciplinaires"
 * #726 ^designation.language = #fr-FR
 * #726 ^designation.use = $sct#900000000000013009
@@ -4948,9 +4948,9 @@ Description: "Nomenclature des activités sanitaires utilisée pour décrire les
 * #726 ^property[0].code = #parent
 * #726 ^property[=].valueCode = #0343
 * #726 ^property[+].code = #dateValid
-* #726 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #726 ^property[=].valueDateTime = "1979-01-01T00:00:00+01:00"
 * #726 ^property[+].code = #dateMaj
-* #726 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #726 ^property[=].valueDateTime = "1979-01-01T00:00:00+01:00"
 * #726 ^property[+].code = #status
 * #726 ^property[=].valueCode = #active
 * #727 "Consultation Externes Indifférenciées"
@@ -4960,9 +4960,9 @@ Description: "Nomenclature des activités sanitaires utilisée pour décrire les
 * #727 ^property[0].code = #parent
 * #727 ^property[=].valueCode = #0343
 * #727 ^property[+].code = #dateValid
-* #727 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #727 ^property[=].valueDateTime = "1979-01-01T00:00:00+01:00"
 * #727 ^property[+].code = #dateMaj
-* #727 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #727 ^property[=].valueDateTime = "1979-01-01T00:00:00+01:00"
 * #727 ^property[+].code = #status
 * #727 ^property[=].valueCode = #active
 * #728 "cardiologie infantile"
@@ -4972,13 +4972,13 @@ Description: "Nomenclature des activités sanitaires utilisée pour décrire les
 * #728 ^property[0].code = #parent
 * #728 ^property[=].valueCode = #0212
 * #728 ^property[+].code = #dateValid
-* #728 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #728 ^property[=].valueDateTime = "1979-01-01T00:00:00+01:00"
 * #728 ^property[+].code = #dateMaj
-* #728 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #728 ^property[=].valueDateTime = "1994-09-19T00:00:00+01:00"
 * #728 ^property[+].code = #status
 * #728 ^property[=].valueCode = #retired
 * #728 ^property[+].code = #retirementDate
-* #728 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #728 ^property[=].valueDateTime = "1994-09-19T00:00:00+01:00"
 * #731 "Spécialités Pédiatriques"
 * #731 ^designation.language = #fr-FR
 * #731 ^designation.use = $sct#900000000000013009
@@ -4986,13 +4986,13 @@ Description: "Nomenclature des activités sanitaires utilisée pour décrire les
 * #731 ^property[0].code = #parent
 * #731 ^property[=].valueCode = #0212
 * #731 ^property[+].code = #dateValid
-* #731 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #731 ^property[=].valueDateTime = "1979-01-01T00:00:00+01:00"
 * #731 ^property[+].code = #dateMaj
-* #731 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #731 ^property[=].valueDateTime = "2017-06-07T00:00:00+01:00"
 * #731 ^property[+].code = #status
 * #731 ^property[=].valueCode = #retired
 * #731 ^property[+].code = #retirementDate
-* #731 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #731 ^property[=].valueDateTime = "2017-06-07T00:00:00+01:00"
 * #737 "Convalescence et Réadaptation"
 * #737 ^designation.language = #fr-FR
 * #737 ^designation.use = $sct#900000000000013009
@@ -5000,13 +5000,13 @@ Description: "Nomenclature des activités sanitaires utilisée pour décrire les
 * #737 ^property[0].code = #parent
 * #737 ^property[=].valueCode = #0262
 * #737 ^property[+].code = #dateValid
-* #737 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #737 ^property[=].valueDateTime = "1979-01-01T00:00:00+01:00"
 * #737 ^property[+].code = #dateMaj
-* #737 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #737 ^property[=].valueDateTime = "2017-06-07T00:00:00+01:00"
 * #737 ^property[+].code = #status
 * #737 ^property[=].valueCode = #retired
 * #737 ^property[+].code = #retirementDate
-* #737 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #737 ^property[=].valueDateTime = "2017-06-07T00:00:00+01:00"
 * #738 "Rééduc.Fonct.Réadapt.Motrice (Orient.Rhumatologie)"
 * #738 ^designation.language = #fr-FR
 * #738 ^designation.use = $sct#900000000000013009
@@ -5014,13 +5014,13 @@ Description: "Nomenclature des activités sanitaires utilisée pour décrire les
 * #738 ^property[0].code = #parent
 * #738 ^property[=].valueCode = #0263
 * #738 ^property[+].code = #dateValid
-* #738 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #738 ^property[=].valueDateTime = "1979-01-01T00:00:00+01:00"
 * #738 ^property[+].code = #dateMaj
-* #738 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #738 ^property[=].valueDateTime = "2017-06-07T00:00:00+01:00"
 * #738 ^property[+].code = #status
 * #738 ^property[=].valueCode = #retired
 * #738 ^property[+].code = #retirementDate
-* #738 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #738 ^property[=].valueDateTime = "2017-06-07T00:00:00+01:00"
 * #739 "Rééduc.Fonct.Réadapt.Motrice (Orient.Traumatologie)"
 * #739 ^designation.language = #fr-FR
 * #739 ^designation.use = $sct#900000000000013009
@@ -5028,13 +5028,13 @@ Description: "Nomenclature des activités sanitaires utilisée pour décrire les
 * #739 ^property[0].code = #parent
 * #739 ^property[=].valueCode = #0263
 * #739 ^property[+].code = #dateValid
-* #739 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #739 ^property[=].valueDateTime = "1979-01-01T00:00:00+01:00"
 * #739 ^property[+].code = #dateMaj
-* #739 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #739 ^property[=].valueDateTime = "2017-06-07T00:00:00+01:00"
 * #739 ^property[+].code = #status
 * #739 ^property[=].valueCode = #retired
 * #739 ^property[+].code = #retirementDate
-* #739 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #739 ^property[=].valueDateTime = "2017-06-07T00:00:00+01:00"
 * #740 "Accueil Traitement Urgence Médicale"
 * #740 ^designation.language = #fr-FR
 * #740 ^designation.use = $sct#900000000000013009
@@ -5042,13 +5042,13 @@ Description: "Nomenclature des activités sanitaires utilisée pour décrire les
 * #740 ^property[0].code = #parent
 * #740 ^property[=].valueCode = #0511
 * #740 ^property[+].code = #dateValid
-* #740 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #740 ^property[=].valueDateTime = "1979-01-01T00:00:00+01:00"
 * #740 ^property[+].code = #dateMaj
-* #740 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #740 ^property[=].valueDateTime = "1999-06-17T00:00:00+01:00"
 * #740 ^property[+].code = #status
 * #740 ^property[=].valueCode = #retired
 * #740 ^property[+].code = #retirementDate
-* #740 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #740 ^property[=].valueDateTime = "1999-06-17T00:00:00+01:00"
 * #741 "Accueil Traitement Urgence Chirurgicale"
 * #741 ^designation.language = #fr-FR
 * #741 ^designation.use = $sct#900000000000013009
@@ -5056,13 +5056,13 @@ Description: "Nomenclature des activités sanitaires utilisée pour décrire les
 * #741 ^property[0].code = #parent
 * #741 ^property[=].valueCode = #0521
 * #741 ^property[+].code = #dateValid
-* #741 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #741 ^property[=].valueDateTime = "1979-01-01T00:00:00+01:00"
 * #741 ^property[+].code = #dateMaj
-* #741 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #741 ^property[=].valueDateTime = "1999-06-17T00:00:00+01:00"
 * #741 ^property[+].code = #status
 * #741 ^property[=].valueCode = #retired
 * #741 ^property[+].code = #retirementDate
-* #741 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #741 ^property[=].valueDateTime = "1999-06-17T00:00:00+01:00"
 * #742 "Accueil Traitement Urgence Spécialisé"
 * #742 ^designation.language = #fr-FR
 * #742 ^designation.use = $sct#900000000000013009
@@ -5070,46 +5070,46 @@ Description: "Nomenclature des activités sanitaires utilisée pour décrire les
 * #742 ^property[0].code = #parent
 * #742 ^property[=].valueCode = #0511
 * #742 ^property[+].code = #dateValid
-* #742 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #742 ^property[=].valueDateTime = "1979-01-01T00:00:00+01:00"
 * #742 ^property[+].code = #dateMaj
-* #742 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #742 ^property[=].valueDateTime = "1999-06-17T00:00:00+01:00"
 * #742 ^property[+].code = #status
 * #742 ^property[=].valueCode = #retired
 * #742 ^property[+].code = #retirementDate
-* #742 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #742 ^property[=].valueDateTime = "1999-06-17T00:00:00+01:00"
 * #743 "Immuno-Hématologie"
 * #743 ^property[0].code = #parent
 * #743 ^property[=].valueCode = #0471
 * #743 ^property[+].code = #dateValid
-* #743 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #743 ^property[=].valueDateTime = "1979-01-01T00:00:00+01:00"
 * #743 ^property[+].code = #dateMaj
-* #743 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #743 ^property[=].valueDateTime = "2017-06-07T00:00:00+01:00"
 * #743 ^property[+].code = #status
 * #743 ^property[=].valueCode = #retired
 * #743 ^property[+].code = #retirementDate
-* #743 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #743 ^property[=].valueDateTime = "2017-06-07T00:00:00+01:00"
 * #744 "Immuno-Sérologie"
 * #744 ^property[0].code = #parent
 * #744 ^property[=].valueCode = #0471
 * #744 ^property[+].code = #dateValid
-* #744 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #744 ^property[=].valueDateTime = "1979-01-01T00:00:00+01:00"
 * #744 ^property[+].code = #dateMaj
-* #744 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #744 ^property[=].valueDateTime = "2017-06-07T00:00:00+01:00"
 * #744 ^property[+].code = #status
 * #744 ^property[=].valueCode = #retired
 * #744 ^property[+].code = #retirementDate
-* #744 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #744 ^property[=].valueDateTime = "2017-06-07T00:00:00+01:00"
 * #745 "Hémostase"
 * #745 ^property[0].code = #parent
 * #745 ^property[=].valueCode = #0471
 * #745 ^property[+].code = #dateValid
-* #745 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #745 ^property[=].valueDateTime = "1979-01-01T00:00:00+01:00"
 * #745 ^property[+].code = #dateMaj
-* #745 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #745 ^property[=].valueDateTime = "2017-06-07T00:00:00+01:00"
 * #745 ^property[+].code = #status
 * #745 ^property[=].valueCode = #retired
 * #745 ^property[+].code = #retirementDate
-* #745 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #745 ^property[=].valueDateTime = "2017-06-07T00:00:00+01:00"
 * #746 "Hématologie et Hémostase"
 * #746 ^designation.language = #fr-FR
 * #746 ^designation.use = $sct#900000000000013009
@@ -5117,24 +5117,24 @@ Description: "Nomenclature des activités sanitaires utilisée pour décrire les
 * #746 ^property[0].code = #parent
 * #746 ^property[=].valueCode = #0471
 * #746 ^property[+].code = #dateValid
-* #746 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #746 ^property[=].valueDateTime = "1979-01-01T00:00:00+01:00"
 * #746 ^property[+].code = #dateMaj
-* #746 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #746 ^property[=].valueDateTime = "2017-06-07T00:00:00+01:00"
 * #746 ^property[+].code = #status
 * #746 ^property[=].valueCode = #retired
 * #746 ^property[+].code = #retirementDate
-* #746 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #746 ^property[=].valueDateTime = "2017-06-07T00:00:00+01:00"
 * #747 "Chimie"
 * #747 ^property[0].code = #parent
 * #747 ^property[=].valueCode = #0471
 * #747 ^property[+].code = #dateValid
-* #747 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #747 ^property[=].valueDateTime = "1979-01-01T00:00:00+01:00"
 * #747 ^property[+].code = #dateMaj
-* #747 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #747 ^property[=].valueDateTime = "2017-06-07T00:00:00+01:00"
 * #747 ^property[+].code = #status
 * #747 ^property[=].valueCode = #retired
 * #747 ^property[+].code = #retirementDate
-* #747 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #747 ^property[=].valueDateTime = "2017-06-07T00:00:00+01:00"
 * #748 "Bactériologie & Virologie"
 * #748 ^designation.language = #fr-FR
 * #748 ^designation.use = $sct#900000000000013009
@@ -5142,13 +5142,13 @@ Description: "Nomenclature des activités sanitaires utilisée pour décrire les
 * #748 ^property[0].code = #parent
 * #748 ^property[=].valueCode = #0471
 * #748 ^property[+].code = #dateValid
-* #748 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #748 ^property[=].valueDateTime = "1979-01-01T00:00:00+01:00"
 * #748 ^property[+].code = #dateMaj
-* #748 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #748 ^property[=].valueDateTime = "2017-06-07T00:00:00+01:00"
 * #748 ^property[+].code = #status
 * #748 ^property[=].valueCode = #retired
 * #748 ^property[+].code = #retirementDate
-* #748 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #748 ^property[=].valueDateTime = "2017-06-07T00:00:00+01:00"
 * #749 "Laboratoire de Radio-isotopes (Méd.Nucléaire)"
 * #749 ^designation.language = #fr-FR
 * #749 ^designation.use = $sct#900000000000013009
@@ -5156,24 +5156,24 @@ Description: "Nomenclature des activités sanitaires utilisée pour décrire les
 * #749 ^property[0].code = #parent
 * #749 ^property[=].valueCode = #0471
 * #749 ^property[+].code = #dateValid
-* #749 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #749 ^property[=].valueDateTime = "1979-01-01T00:00:00+01:00"
 * #749 ^property[+].code = #dateMaj
-* #749 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #749 ^property[=].valueDateTime = "2017-06-07T00:00:00+01:00"
 * #749 ^property[+].code = #status
 * #749 ^property[=].valueCode = #retired
 * #749 ^property[+].code = #retirementDate
-* #749 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #749 ^property[=].valueDateTime = "2017-06-07T00:00:00+01:00"
 * #750 "Tomographie"
 * #750 ^property[0].code = #parent
 * #750 ^property[=].valueCode = #0431
 * #750 ^property[+].code = #dateValid
-* #750 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #750 ^property[=].valueDateTime = "1979-01-01T00:00:00+01:00"
 * #750 ^property[+].code = #dateMaj
-* #750 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #750 ^property[=].valueDateTime = "2017-06-07T00:00:00+01:00"
 * #750 ^property[+].code = #status
 * #750 ^property[=].valueCode = #retired
 * #750 ^property[+].code = #retirementDate
-* #750 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #750 ^property[=].valueDateTime = "2017-06-07T00:00:00+01:00"
 * #751 "Radiologie Vasculaire"
 * #751 ^designation.language = #fr-FR
 * #751 ^designation.use = $sct#900000000000013009
@@ -5181,13 +5181,13 @@ Description: "Nomenclature des activités sanitaires utilisée pour décrire les
 * #751 ^property[0].code = #parent
 * #751 ^property[=].valueCode = #0431
 * #751 ^property[+].code = #dateValid
-* #751 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #751 ^property[=].valueDateTime = "1979-01-01T00:00:00+01:00"
 * #751 ^property[+].code = #dateMaj
-* #751 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #751 ^property[=].valueDateTime = "2017-06-07T00:00:00+01:00"
 * #751 ^property[+].code = #status
 * #751 ^property[=].valueCode = #retired
 * #751 ^property[+].code = #retirementDate
-* #751 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #751 ^property[=].valueDateTime = "2017-06-07T00:00:00+01:00"
 * #752 "Échographie sans Autre Indication"
 * #752 ^designation.language = #fr-FR
 * #752 ^designation.use = $sct#900000000000013009
@@ -5195,13 +5195,13 @@ Description: "Nomenclature des activités sanitaires utilisée pour décrire les
 * #752 ^property[0].code = #parent
 * #752 ^property[=].valueCode = #0431
 * #752 ^property[+].code = #dateValid
-* #752 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #752 ^property[=].valueDateTime = "1979-01-01T00:00:00+01:00"
 * #752 ^property[+].code = #dateMaj
-* #752 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #752 ^property[=].valueDateTime = "2017-06-07T00:00:00+01:00"
 * #752 ^property[+].code = #status
 * #752 ^property[=].valueCode = #retired
 * #752 ^property[+].code = #retirementDate
-* #752 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #752 ^property[=].valueDateTime = "2017-06-07T00:00:00+01:00"
 * #753 "Imagerie Par Résonance Magnétique (IRM)"
 * #753 ^designation.language = #fr-FR
 * #753 ^designation.use = $sct#900000000000013009
@@ -5209,13 +5209,13 @@ Description: "Nomenclature des activités sanitaires utilisée pour décrire les
 * #753 ^property[0].code = #parent
 * #753 ^property[=].valueCode = #0431
 * #753 ^property[+].code = #dateValid
-* #753 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #753 ^property[=].valueDateTime = "1979-01-01T00:00:00+01:00"
 * #753 ^property[+].code = #dateMaj
-* #753 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #753 ^property[=].valueDateTime = "2017-06-07T00:00:00+01:00"
 * #753 ^property[+].code = #status
 * #753 ^property[=].valueCode = #retired
 * #753 ^property[+].code = #retirementDate
-* #753 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #753 ^property[=].valueDateTime = "2017-06-07T00:00:00+01:00"
 * #754 "Autre Activité Spécialisées Imagerie Médicale"
 * #754 ^designation.language = #fr-FR
 * #754 ^designation.use = $sct#900000000000013009
@@ -5223,13 +5223,13 @@ Description: "Nomenclature des activités sanitaires utilisée pour décrire les
 * #754 ^property[0].code = #parent
 * #754 ^property[=].valueCode = #0431
 * #754 ^property[+].code = #dateValid
-* #754 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #754 ^property[=].valueDateTime = "1979-01-01T00:00:00+01:00"
 * #754 ^property[+].code = #dateMaj
-* #754 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #754 ^property[=].valueDateTime = "2017-06-07T00:00:00+01:00"
 * #754 ^property[+].code = #status
 * #754 ^property[=].valueCode = #retired
 * #754 ^property[+].code = #retirementDate
-* #754 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #754 ^property[=].valueDateTime = "2017-06-07T00:00:00+01:00"
 * #755 "Explorations Fonctionnelles en O.R.L."
 * #755 ^designation.language = #fr-FR
 * #755 ^designation.use = $sct#900000000000013009
@@ -5237,13 +5237,13 @@ Description: "Nomenclature des activités sanitaires utilisée pour décrire les
 * #755 ^property[0].code = #parent
 * #755 ^property[=].valueCode = #0451
 * #755 ^property[+].code = #dateValid
-* #755 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #755 ^property[=].valueDateTime = "1979-01-01T00:00:00+01:00"
 * #755 ^property[+].code = #dateMaj
-* #755 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #755 ^property[=].valueDateTime = "2017-06-07T00:00:00+01:00"
 * #755 ^property[+].code = #status
 * #755 ^property[=].valueCode = #retired
 * #755 ^property[+].code = #retirementDate
-* #755 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #755 ^property[=].valueDateTime = "2017-06-07T00:00:00+01:00"
 * #756 "Exploration Fonctionnelles en Ophtalmologie"
 * #756 ^designation.language = #fr-FR
 * #756 ^designation.use = $sct#900000000000013009
@@ -5251,13 +5251,13 @@ Description: "Nomenclature des activités sanitaires utilisée pour décrire les
 * #756 ^property[0].code = #parent
 * #756 ^property[=].valueCode = #0451
 * #756 ^property[+].code = #dateValid
-* #756 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #756 ^property[=].valueDateTime = "1979-01-01T00:00:00+01:00"
 * #756 ^property[+].code = #dateMaj
-* #756 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #756 ^property[=].valueDateTime = "2017-06-07T00:00:00+01:00"
 * #756 ^property[+].code = #status
 * #756 ^property[=].valueCode = #retired
 * #756 ^property[+].code = #retirementDate
-* #756 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #756 ^property[=].valueDateTime = "2017-06-07T00:00:00+01:00"
 * #757 "Activité de Recherch.Expérim.ds Serv.Médico-Techn."
 * #757 ^designation.language = #fr-FR
 * #757 ^designation.use = $sct#900000000000013009
@@ -5265,13 +5265,13 @@ Description: "Nomenclature des activités sanitaires utilisée pour décrire les
 * #757 ^property[0].code = #parent
 * #757 ^property[=].valueCode = #0642
 * #757 ^property[+].code = #dateValid
-* #757 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #757 ^property[=].valueDateTime = "1979-01-01T00:00:00+01:00"
 * #757 ^property[+].code = #dateMaj
-* #757 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #757 ^property[=].valueDateTime = "2017-06-07T00:00:00+01:00"
 * #757 ^property[+].code = #status
 * #757 ^property[=].valueCode = #retired
 * #757 ^property[+].code = #retirementDate
-* #757 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #757 ^property[=].valueDateTime = "2017-06-07T00:00:00+01:00"
 * #758 "Département d'information médicale"
 * #758 ^designation.language = #fr-FR
 * #758 ^designation.use = $sct#900000000000013009
@@ -5279,13 +5279,13 @@ Description: "Nomenclature des activités sanitaires utilisée pour décrire les
 * #758 ^property[0].code = #parent
 * #758 ^property[=].valueCode = #0642
 * #758 ^property[+].code = #dateValid
-* #758 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #758 ^property[=].valueDateTime = "1979-01-01T00:00:00+01:00"
 * #758 ^property[+].code = #dateMaj
-* #758 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #758 ^property[=].valueDateTime = "2017-06-07T00:00:00+01:00"
 * #758 ^property[+].code = #status
 * #758 ^property[=].valueCode = #retired
 * #758 ^property[+].code = #retirementDate
-* #758 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #758 ^property[=].valueDateTime = "2017-06-07T00:00:00+01:00"
 * #759 "Centre d'Hémobiologie"
 * #759 ^designation.language = #fr-FR
 * #759 ^designation.use = $sct#900000000000013009
@@ -5293,24 +5293,24 @@ Description: "Nomenclature des activités sanitaires utilisée pour décrire les
 * #759 ^property[0].code = #parent
 * #759 ^property[=].valueCode = #0631
 * #759 ^property[+].code = #dateValid
-* #759 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #759 ^property[=].valueDateTime = "1979-01-01T00:00:00+01:00"
 * #759 ^property[+].code = #dateMaj
-* #759 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #759 ^property[=].valueDateTime = "2017-06-07T00:00:00+01:00"
 * #759 ^property[+].code = #status
 * #759 ^property[=].valueCode = #retired
 * #759 ^property[+].code = #retirementDate
-* #759 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #759 ^property[=].valueDateTime = "2017-06-07T00:00:00+01:00"
 * #760 "Salle de Réveil"
 * #760 ^property[0].code = #parent
 * #760 ^property[=].valueCode = #0421
 * #760 ^property[+].code = #dateValid
-* #760 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #760 ^property[=].valueDateTime = "1979-01-01T00:00:00+01:00"
 * #760 ^property[+].code = #dateMaj
-* #760 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #760 ^property[=].valueDateTime = "2017-06-07T00:00:00+01:00"
 * #760 ^property[+].code = #status
 * #760 ^property[=].valueCode = #retired
 * #760 ^property[+].code = #retirementDate
-* #760 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #760 ^property[=].valueDateTime = "2017-06-07T00:00:00+01:00"
 * #761 "Anesthésiologie & Salle Réveil"
 * #761 ^designation.language = #fr-FR
 * #761 ^designation.use = $sct#900000000000013009
@@ -5318,13 +5318,13 @@ Description: "Nomenclature des activités sanitaires utilisée pour décrire les
 * #761 ^property[0].code = #parent
 * #761 ^property[=].valueCode = #0421
 * #761 ^property[+].code = #dateValid
-* #761 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #761 ^property[=].valueDateTime = "1979-01-01T00:00:00+01:00"
 * #761 ^property[+].code = #dateMaj
-* #761 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #761 ^property[=].valueDateTime = "2017-06-07T00:00:00+01:00"
 * #761 ^property[+].code = #status
 * #761 ^property[=].valueCode = #retired
 * #761 ^property[+].code = #retirementDate
-* #761 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #761 ^property[=].valueDateTime = "2017-06-07T00:00:00+01:00"
 * #762 "Bloc Opératoire et Stérilisation Indifférenciées"
 * #762 ^designation.language = #fr-FR
 * #762 ^designation.use = $sct#900000000000013009
@@ -5332,13 +5332,13 @@ Description: "Nomenclature des activités sanitaires utilisée pour décrire les
 * #762 ^property[0].code = #parent
 * #762 ^property[=].valueCode = #0661
 * #762 ^property[+].code = #dateValid
-* #762 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #762 ^property[=].valueDateTime = "1979-01-01T00:00:00+01:00"
 * #762 ^property[+].code = #dateMaj
-* #762 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #762 ^property[=].valueDateTime = "2017-06-07T00:00:00+01:00"
 * #762 ^property[+].code = #status
 * #762 ^property[=].valueCode = #retired
 * #762 ^property[+].code = #retirementDate
-* #762 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #762 ^property[=].valueDateTime = "2017-06-07T00:00:00+01:00"
 * #763 "Pharmacie & Stérilisation"
 * #763 ^designation.language = #fr-FR
 * #763 ^designation.use = $sct#900000000000013009
@@ -5346,13 +5346,13 @@ Description: "Nomenclature des activités sanitaires utilisée pour décrire les
 * #763 ^property[0].code = #parent
 * #763 ^property[=].valueCode = #0661
 * #763 ^property[+].code = #dateValid
-* #763 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #763 ^property[=].valueDateTime = "1979-01-01T00:00:00+01:00"
 * #763 ^property[+].code = #dateMaj
-* #763 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #763 ^property[=].valueDateTime = "2017-06-07T00:00:00+01:00"
 * #763 ^property[+].code = #status
 * #763 ^property[=].valueCode = #retired
 * #763 ^property[+].code = #retirementDate
-* #763 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #763 ^property[=].valueDateTime = "2017-06-07T00:00:00+01:00"
 * #797 "Hémodialyse et Hémofiltration Pr Chroniques Adultes"
 * #797 ^designation.language = #fr-FR
 * #797 ^designation.use = $sct#900000000000013009
@@ -5360,13 +5360,13 @@ Description: "Nomenclature des activités sanitaires utilisée pour décrire les
 * #797 ^property[0].code = #parent
 * #797 ^property[=].valueCode = #0311
 * #797 ^property[+].code = #dateValid
-* #797 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #797 ^property[=].valueDateTime = "1979-01-01T00:00:00+01:00"
 * #797 ^property[+].code = #dateMaj
-* #797 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #797 ^property[=].valueDateTime = "2017-06-07T00:00:00+01:00"
 * #797 ^property[+].code = #status
 * #797 ^property[=].valueCode = #retired
 * #797 ^property[+].code = #retirementDate
-* #797 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #797 ^property[=].valueDateTime = "2017-06-07T00:00:00+01:00"
 * #798 "Hémodialyse et Hémofiltration Pr Chroniques Enfants"
 * #798 ^designation.language = #fr-FR
 * #798 ^designation.use = $sct#900000000000013009
@@ -5374,13 +5374,13 @@ Description: "Nomenclature des activités sanitaires utilisée pour décrire les
 * #798 ^property[0].code = #parent
 * #798 ^property[=].valueCode = #0311
 * #798 ^property[+].code = #dateValid
-* #798 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #798 ^property[=].valueDateTime = "1979-01-01T00:00:00+01:00"
 * #798 ^property[+].code = #dateMaj
-* #798 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #798 ^property[=].valueDateTime = "2017-06-07T00:00:00+01:00"
 * #798 ^property[+].code = #status
 * #798 ^property[=].valueCode = #retired
 * #798 ^property[+].code = #retirementDate
-* #798 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #798 ^property[=].valueDateTime = "2017-06-07T00:00:00+01:00"
 * #799 "Assistance Ventilatoire Avec Prothèse Extra-Thoracique"
 * #799 ^designation.language = #fr-FR
 * #799 ^designation.use = $sct#900000000000013009
@@ -5388,13 +5388,13 @@ Description: "Nomenclature des activités sanitaires utilisée pour décrire les
 * #799 ^property[0].code = #parent
 * #799 ^property[=].valueCode = #0351
 * #799 ^property[+].code = #dateValid
-* #799 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #799 ^property[=].valueDateTime = "1979-01-01T00:00:00+01:00"
 * #799 ^property[+].code = #dateMaj
-* #799 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #799 ^property[=].valueDateTime = "2017-06-07T00:00:00+01:00"
 * #799 ^property[+].code = #status
 * #799 ^property[=].valueCode = #retired
 * #799 ^property[+].code = #retirementDate
-* #799 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #799 ^property[=].valueDateTime = "2017-06-07T00:00:00+01:00"
 * #800 "Assistance ventilatoire Par Pres.Posit.Cont.ou Techn.Respir."
 * #800 ^designation.language = #fr-FR
 * #800 ^designation.use = $sct#900000000000013009
@@ -5402,24 +5402,24 @@ Description: "Nomenclature des activités sanitaires utilisée pour décrire les
 * #800 ^property[0].code = #parent
 * #800 ^property[=].valueCode = #0351
 * #800 ^property[+].code = #dateValid
-* #800 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #800 ^property[=].valueDateTime = "1979-01-01T00:00:00+01:00"
 * #800 ^property[+].code = #dateMaj
-* #800 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #800 ^property[=].valueDateTime = "2017-06-07T00:00:00+01:00"
 * #800 ^property[+].code = #status
 * #800 ^property[=].valueCode = #retired
 * #800 ^property[+].code = #retirementDate
-* #800 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #800 ^property[=].valueDateTime = "2017-06-07T00:00:00+01:00"
 * #801 "Insulinothérapie"
 * #801 ^property[0].code = #parent
 * #801 ^property[=].valueCode = #0361
 * #801 ^property[+].code = #dateValid
-* #801 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #801 ^property[=].valueDateTime = "1979-01-01T00:00:00+01:00"
 * #801 ^property[+].code = #dateMaj
-* #801 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #801 ^property[=].valueDateTime = "2017-06-07T00:00:00+01:00"
 * #801 ^property[+].code = #status
 * #801 ^property[=].valueCode = #retired
 * #801 ^property[+].code = #retirementDate
-* #801 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #801 ^property[=].valueDateTime = "2017-06-07T00:00:00+01:00"
 * #802 "Autres Traitements Spécialisés à Domicile"
 * #802 ^designation.language = #fr-FR
 * #802 ^designation.use = $sct#900000000000013009
@@ -5427,13 +5427,13 @@ Description: "Nomenclature des activités sanitaires utilisée pour décrire les
 * #802 ^property[0].code = #parent
 * #802 ^property[=].valueCode = #0361
 * #802 ^property[+].code = #dateValid
-* #802 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #802 ^property[=].valueDateTime = "1979-01-01T00:00:00+01:00"
 * #802 ^property[+].code = #dateMaj
-* #802 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #802 ^property[=].valueDateTime = "2017-06-07T00:00:00+01:00"
 * #802 ^property[+].code = #status
 * #802 ^property[=].valueCode = #retired
 * #802 ^property[+].code = #retirementDate
-* #802 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #802 ^property[=].valueDateTime = "2017-06-07T00:00:00+01:00"
 * #803 "Psychiatrie arriérés profonds"
 * #803 ^designation.language = #fr-FR
 * #803 ^designation.use = $sct#900000000000013009
@@ -5441,13 +5441,13 @@ Description: "Nomenclature des activités sanitaires utilisée pour décrire les
 * #803 ^property[0].code = #parent
 * #803 ^property[=].valueCode = #0271
 * #803 ^property[+].code = #dateValid
-* #803 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #803 ^property[=].valueDateTime = "1979-01-01T00:00:00+01:00"
 * #803 ^property[+].code = #dateMaj
-* #803 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #803 ^property[=].valueDateTime = "1994-06-06T00:00:00+01:00"
 * #803 ^property[+].code = #status
 * #803 ^property[=].valueCode = #retired
 * #803 ^property[+].code = #retirementDate
-* #803 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #803 ^property[=].valueDateTime = "1994-06-06T00:00:00+01:00"
 * #806 "atelier thérapeutique adulte"
 * #806 ^designation.language = #fr-FR
 * #806 ^designation.use = $sct#900000000000013009
@@ -5455,9 +5455,9 @@ Description: "Nomenclature des activités sanitaires utilisée pour décrire les
 * #806 ^property[0].code = #parent
 * #806 ^property[=].valueCode = #0371
 * #806 ^property[+].code = #dateValid
-* #806 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #806 ^property[=].valueDateTime = "2001-10-01T00:00:00+01:00"
 * #806 ^property[+].code = #dateMaj
-* #806 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #806 ^property[=].valueDateTime = "2001-10-01T00:00:00+01:00"
 * #806 ^property[+].code = #status
 * #806 ^property[=].valueCode = #active
 * #807 "atelier thérapeutique infanto-juvenile"
@@ -5467,9 +5467,9 @@ Description: "Nomenclature des activités sanitaires utilisée pour décrire les
 * #807 ^property[0].code = #parent
 * #807 ^property[=].valueCode = #0371
 * #807 ^property[+].code = #dateValid
-* #807 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #807 ^property[=].valueDateTime = "2001-10-01T00:00:00+01:00"
 * #807 ^property[+].code = #dateMaj
-* #807 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #807 ^property[=].valueDateTime = "2001-10-01T00:00:00+01:00"
 * #807 ^property[+].code = #status
 * #807 ^property[=].valueCode = #active
 * #808 "Psychiatrie en Milieu Pénitentiaire"
@@ -5479,13 +5479,13 @@ Description: "Nomenclature des activités sanitaires utilisée pour décrire les
 * #808 ^property[0].code = #parent
 * #808 ^property[=].valueCode = #0372
 * #808 ^property[+].code = #dateValid
-* #808 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #808 ^property[=].valueDateTime = "1979-01-01T00:00:00+01:00"
 * #808 ^property[+].code = #dateMaj
-* #808 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #808 ^property[=].valueDateTime = "2017-06-07T00:00:00+01:00"
 * #808 ^property[+].code = #status
 * #808 ^property[=].valueCode = #retired
 * #808 ^property[+].code = #retirementDate
-* #808 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #808 ^property[=].valueDateTime = "2017-06-07T00:00:00+01:00"
 * #811 "Immunologie Tissulaire Auto-Immunité"
 * #811 ^designation.language = #fr-FR
 * #811 ^designation.use = $sct#900000000000013009
@@ -5493,24 +5493,24 @@ Description: "Nomenclature des activités sanitaires utilisée pour décrire les
 * #811 ^property[0].code = #parent
 * #811 ^property[=].valueCode = #0471
 * #811 ^property[+].code = #dateValid
-* #811 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #811 ^property[=].valueDateTime = "1979-01-01T00:00:00+01:00"
 * #811 ^property[+].code = #dateMaj
-* #811 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #811 ^property[=].valueDateTime = "2017-06-07T00:00:00+01:00"
 * #811 ^property[+].code = #status
 * #811 ^property[=].valueCode = #retired
 * #811 ^property[+].code = #retirementDate
-* #811 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #811 ^property[=].valueDateTime = "2017-06-07T00:00:00+01:00"
 * #812 "Sérologie Virale"
 * #812 ^property[0].code = #parent
 * #812 ^property[=].valueCode = #0471
 * #812 ^property[+].code = #dateValid
-* #812 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #812 ^property[=].valueDateTime = "1979-01-01T00:00:00+01:00"
 * #812 ^property[+].code = #dateMaj
-* #812 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #812 ^property[=].valueDateTime = "2017-06-07T00:00:00+01:00"
 * #812 ^property[+].code = #status
 * #812 ^property[=].valueCode = #retired
 * #812 ^property[+].code = #retirementDate
-* #812 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #812 ^property[=].valueDateTime = "2017-06-07T00:00:00+01:00"
 * #813 "Sérologie Bactérienne"
 * #813 ^designation.language = #fr-FR
 * #813 ^designation.use = $sct#900000000000013009
@@ -5518,13 +5518,13 @@ Description: "Nomenclature des activités sanitaires utilisée pour décrire les
 * #813 ^property[0].code = #parent
 * #813 ^property[=].valueCode = #0471
 * #813 ^property[+].code = #dateValid
-* #813 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #813 ^property[=].valueDateTime = "1979-01-01T00:00:00+01:00"
 * #813 ^property[+].code = #dateMaj
-* #813 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #813 ^property[=].valueDateTime = "2017-06-07T00:00:00+01:00"
 * #813 ^property[+].code = #status
 * #813 ^property[=].valueCode = #retired
 * #813 ^property[+].code = #retirementDate
-* #813 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #813 ^property[=].valueDateTime = "2017-06-07T00:00:00+01:00"
 * #814 "Sérologie Parasitaire et Mycologique."
 * #814 ^designation.language = #fr-FR
 * #814 ^designation.use = $sct#900000000000013009
@@ -5532,13 +5532,13 @@ Description: "Nomenclature des activités sanitaires utilisée pour décrire les
 * #814 ^property[0].code = #parent
 * #814 ^property[=].valueCode = #0471
 * #814 ^property[+].code = #dateValid
-* #814 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #814 ^property[=].valueDateTime = "1979-01-01T00:00:00+01:00"
 * #814 ^property[+].code = #dateMaj
-* #814 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #814 ^property[=].valueDateTime = "2017-06-07T00:00:00+01:00"
 * #814 ^property[+].code = #status
 * #814 ^property[=].valueCode = #retired
 * #814 ^property[+].code = #retirementDate
-* #814 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #814 ^property[=].valueDateTime = "2017-06-07T00:00:00+01:00"
 * #815 "Échocardiologie"
 * #815 ^designation.language = #fr-FR
 * #815 ^designation.use = $sct#900000000000013009
@@ -5546,13 +5546,13 @@ Description: "Nomenclature des activités sanitaires utilisée pour décrire les
 * #815 ^property[0].code = #parent
 * #815 ^property[=].valueCode = #0431
 * #815 ^property[+].code = #dateValid
-* #815 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #815 ^property[=].valueDateTime = "1979-01-01T00:00:00+01:00"
 * #815 ^property[+].code = #dateMaj
-* #815 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #815 ^property[=].valueDateTime = "2017-06-07T00:00:00+01:00"
 * #815 ^property[+].code = #status
 * #815 ^property[=].valueCode = #retired
 * #815 ^property[+].code = #retirementDate
-* #815 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #815 ^property[=].valueDateTime = "2017-06-07T00:00:00+01:00"
 * #816 "Échographie Abdominale"
 * #816 ^designation.language = #fr-FR
 * #816 ^designation.use = $sct#900000000000013009
@@ -5560,13 +5560,13 @@ Description: "Nomenclature des activités sanitaires utilisée pour décrire les
 * #816 ^property[0].code = #parent
 * #816 ^property[=].valueCode = #0431
 * #816 ^property[+].code = #dateValid
-* #816 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #816 ^property[=].valueDateTime = "1979-01-01T00:00:00+01:00"
 * #816 ^property[+].code = #dateMaj
-* #816 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #816 ^property[=].valueDateTime = "2017-06-07T00:00:00+01:00"
 * #816 ^property[+].code = #status
 * #816 ^property[=].valueCode = #retired
 * #816 ^property[+].code = #retirementDate
-* #816 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #816 ^property[=].valueDateTime = "2017-06-07T00:00:00+01:00"
 * #817 "Échographie en Obstétrique"
 * #817 ^designation.language = #fr-FR
 * #817 ^designation.use = $sct#900000000000013009
@@ -5574,13 +5574,13 @@ Description: "Nomenclature des activités sanitaires utilisée pour décrire les
 * #817 ^property[0].code = #parent
 * #817 ^property[=].valueCode = #0431
 * #817 ^property[+].code = #dateValid
-* #817 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #817 ^property[=].valueDateTime = "1979-01-01T00:00:00+01:00"
 * #817 ^property[+].code = #dateMaj
-* #817 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #817 ^property[=].valueDateTime = "2017-06-07T00:00:00+01:00"
 * #817 ^property[+].code = #status
 * #817 ^property[=].valueCode = #retired
 * #817 ^property[+].code = #retirementDate
-* #817 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #817 ^property[=].valueDateTime = "2017-06-07T00:00:00+01:00"
 * #818 "Échographie Vasculaire"
 * #818 ^designation.language = #fr-FR
 * #818 ^designation.use = $sct#900000000000013009
@@ -5588,13 +5588,13 @@ Description: "Nomenclature des activités sanitaires utilisée pour décrire les
 * #818 ^property[0].code = #parent
 * #818 ^property[=].valueCode = #0431
 * #818 ^property[+].code = #dateValid
-* #818 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #818 ^property[=].valueDateTime = "1979-01-01T00:00:00+01:00"
 * #818 ^property[+].code = #dateMaj
-* #818 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #818 ^property[=].valueDateTime = "2017-06-07T00:00:00+01:00"
 * #818 ^property[+].code = #status
 * #818 ^property[=].valueCode = #retired
 * #818 ^property[+].code = #retirementDate
-* #818 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #818 ^property[=].valueDateTime = "2017-06-07T00:00:00+01:00"
 * #819 "Autres écographies"
 * #819 ^designation.language = #fr-FR
 * #819 ^designation.use = $sct#900000000000013009
@@ -5602,24 +5602,24 @@ Description: "Nomenclature des activités sanitaires utilisée pour décrire les
 * #819 ^property[0].code = #parent
 * #819 ^property[=].valueCode = #0431
 * #819 ^property[+].code = #dateValid
-* #819 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #819 ^property[=].valueDateTime = "1979-01-01T00:00:00+01:00"
 * #819 ^property[+].code = #dateMaj
-* #819 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #819 ^property[=].valueDateTime = "2017-06-07T00:00:00+01:00"
 * #819 ^property[+].code = #status
 * #819 ^property[=].valueCode = #retired
 * #819 ^property[+].code = #retirementDate
-* #819 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #819 ^property[=].valueDateTime = "2017-06-07T00:00:00+01:00"
 * #820 "Collecte de Sang"
 * #820 ^property[0].code = #parent
 * #820 ^property[=].valueCode = #0631
 * #820 ^property[+].code = #dateValid
-* #820 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #820 ^property[=].valueDateTime = "1979-01-01T00:00:00+01:00"
 * #820 ^property[+].code = #dateMaj
-* #820 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #820 ^property[=].valueDateTime = "2017-06-07T00:00:00+01:00"
 * #820 ^property[+].code = #status
 * #820 ^property[=].valueCode = #retired
 * #820 ^property[+].code = #retirementDate
-* #820 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #820 ^property[=].valueDateTime = "2017-06-07T00:00:00+01:00"
 * #821 "Stockage, Distribution de Sang"
 * #821 ^designation.language = #fr-FR
 * #821 ^designation.use = $sct#900000000000013009
@@ -5627,13 +5627,13 @@ Description: "Nomenclature des activités sanitaires utilisée pour décrire les
 * #821 ^property[0].code = #parent
 * #821 ^property[=].valueCode = #0631
 * #821 ^property[+].code = #dateValid
-* #821 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #821 ^property[=].valueDateTime = "1979-01-01T00:00:00+01:00"
 * #821 ^property[+].code = #dateMaj
-* #821 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #821 ^property[=].valueDateTime = "2017-06-07T00:00:00+01:00"
 * #821 ^property[+].code = #status
 * #821 ^property[=].valueCode = #retired
 * #821 ^property[+].code = #retirementDate
-* #821 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #821 ^property[=].valueDateTime = "2017-06-07T00:00:00+01:00"
 * #822 "Production de Produits Sanguins"
 * #822 ^designation.language = #fr-FR
 * #822 ^designation.use = $sct#900000000000013009
@@ -5641,13 +5641,13 @@ Description: "Nomenclature des activités sanitaires utilisée pour décrire les
 * #822 ^property[0].code = #parent
 * #822 ^property[=].valueCode = #0631
 * #822 ^property[+].code = #dateValid
-* #822 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #822 ^property[=].valueDateTime = "1979-01-01T00:00:00+01:00"
 * #822 ^property[+].code = #dateMaj
-* #822 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #822 ^property[=].valueDateTime = "2017-06-07T00:00:00+01:00"
 * #822 ^property[+].code = #status
 * #822 ^property[=].valueCode = #retired
 * #822 ^property[+].code = #retirementDate
-* #822 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #822 ^property[=].valueDateTime = "2017-06-07T00:00:00+01:00"
 * #823 "Activité de Transfusion Sanguine"
 * #823 ^designation.language = #fr-FR
 * #823 ^designation.use = $sct#900000000000013009
@@ -5655,9 +5655,9 @@ Description: "Nomenclature des activités sanitaires utilisée pour décrire les
 * #823 ^property[0].code = #parent
 * #823 ^property[=].valueCode = #0631
 * #823 ^property[+].code = #dateValid
-* #823 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #823 ^property[=].valueDateTime = "1979-01-01T00:00:00+01:00"
 * #823 ^property[+].code = #dateMaj
-* #823 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #823 ^property[=].valueDateTime = "1979-01-01T00:00:00+01:00"
 * #823 ^property[+].code = #status
 * #823 ^property[=].valueCode = #active
 * #824 "Pharmacie d'Établissement"
@@ -5667,9 +5667,9 @@ Description: "Nomenclature des activités sanitaires utilisée pour décrire les
 * #824 ^property[0].code = #parent
 * #824 ^property[=].valueCode = #0481
 * #824 ^property[+].code = #dateValid
-* #824 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #824 ^property[=].valueDateTime = "1979-01-01T00:00:00+01:00"
 * #824 ^property[+].code = #dateMaj
-* #824 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #824 ^property[=].valueDateTime = "1979-01-01T00:00:00+01:00"
 * #824 ^property[+].code = #status
 * #824 ^property[=].valueCode = #active
 * #828 "Cure Thermale Maladies Cardio-artérielles"
@@ -5679,13 +5679,13 @@ Description: "Nomenclature des activités sanitaires utilisée pour décrire les
 * #828 ^property[0].code = #parent
 * #828 ^property[=].valueCode = #0381
 * #828 ^property[+].code = #dateValid
-* #828 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #828 ^property[=].valueDateTime = "1979-01-01T00:00:00+01:00"
 * #828 ^property[+].code = #dateMaj
-* #828 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #828 ^property[=].valueDateTime = "2017-06-07T00:00:00+01:00"
 * #828 ^property[+].code = #status
 * #828 ^property[=].valueCode = #retired
 * #828 ^property[+].code = #retirementDate
-* #828 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #828 ^property[=].valueDateTime = "2017-06-07T00:00:00+01:00"
 * #829 "Cure thermale en Neurologie"
 * #829 ^designation.language = #fr-FR
 * #829 ^designation.use = $sct#900000000000013009
@@ -5693,13 +5693,13 @@ Description: "Nomenclature des activités sanitaires utilisée pour décrire les
 * #829 ^property[0].code = #parent
 * #829 ^property[=].valueCode = #0381
 * #829 ^property[+].code = #dateValid
-* #829 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #829 ^property[=].valueDateTime = "1979-01-01T00:00:00+01:00"
 * #829 ^property[+].code = #dateMaj
-* #829 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #829 ^property[=].valueDateTime = "2017-06-07T00:00:00+01:00"
 * #829 ^property[+].code = #status
 * #829 ^property[=].valueCode = #retired
 * #829 ^property[+].code = #retirementDate
-* #829 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #829 ^property[=].valueDateTime = "2017-06-07T00:00:00+01:00"
 * #830 "Cure Thermale des Affections Psychosomatiques"
 * #830 ^designation.language = #fr-FR
 * #830 ^designation.use = $sct#900000000000013009
@@ -5707,13 +5707,13 @@ Description: "Nomenclature des activités sanitaires utilisée pour décrire les
 * #830 ^property[0].code = #parent
 * #830 ^property[=].valueCode = #0381
 * #830 ^property[+].code = #dateValid
-* #830 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #830 ^property[=].valueDateTime = "1979-01-01T00:00:00+01:00"
 * #830 ^property[+].code = #dateMaj
-* #830 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #830 ^property[=].valueDateTime = "2017-06-07T00:00:00+01:00"
 * #830 ^property[+].code = #status
 * #830 ^property[=].valueCode = #retired
 * #830 ^property[+].code = #retirementDate
-* #830 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #830 ^property[=].valueDateTime = "2017-06-07T00:00:00+01:00"
 * #831 "Cure Thermale en Phlébologie"
 * #831 ^designation.language = #fr-FR
 * #831 ^designation.use = $sct#900000000000013009
@@ -5721,13 +5721,13 @@ Description: "Nomenclature des activités sanitaires utilisée pour décrire les
 * #831 ^property[0].code = #parent
 * #831 ^property[=].valueCode = #0381
 * #831 ^property[+].code = #dateValid
-* #831 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #831 ^property[=].valueDateTime = "1979-01-01T00:00:00+01:00"
 * #831 ^property[+].code = #dateMaj
-* #831 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #831 ^property[=].valueDateTime = "2017-06-07T00:00:00+01:00"
 * #831 ^property[+].code = #status
 * #831 ^property[=].valueCode = #retired
 * #831 ^property[+].code = #retirementDate
-* #831 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #831 ^property[=].valueDateTime = "2017-06-07T00:00:00+01:00"
 * #832 "Cure Thermale Pr Troubles du Développement chez l'enfant"
 * #832 ^designation.language = #fr-FR
 * #832 ^designation.use = $sct#900000000000013009
@@ -5735,13 +5735,13 @@ Description: "Nomenclature des activités sanitaires utilisée pour décrire les
 * #832 ^property[0].code = #parent
 * #832 ^property[=].valueCode = #0381
 * #832 ^property[+].code = #dateValid
-* #832 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #832 ^property[=].valueDateTime = "1979-01-01T00:00:00+01:00"
 * #832 ^property[+].code = #dateMaj
-* #832 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #832 ^property[=].valueDateTime = "2017-06-07T00:00:00+01:00"
 * #832 ^property[+].code = #status
 * #832 ^property[=].valueCode = #retired
 * #832 ^property[+].code = #retirementDate
-* #832 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #832 ^property[=].valueDateTime = "2017-06-07T00:00:00+01:00"
 * #833 "Cure Thermale en Gynécologie"
 * #833 ^designation.language = #fr-FR
 * #833 ^designation.use = $sct#900000000000013009
@@ -5749,13 +5749,13 @@ Description: "Nomenclature des activités sanitaires utilisée pour décrire les
 * #833 ^property[0].code = #parent
 * #833 ^property[=].valueCode = #0381
 * #833 ^property[+].code = #dateValid
-* #833 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #833 ^property[=].valueDateTime = "1979-01-01T00:00:00+01:00"
 * #833 ^property[+].code = #dateMaj
-* #833 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #833 ^property[=].valueDateTime = "2017-06-07T00:00:00+01:00"
 * #833 ^property[+].code = #status
 * #833 ^property[=].valueCode = #retired
 * #833 ^property[+].code = #retirementDate
-* #833 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #833 ^property[=].valueDateTime = "2017-06-07T00:00:00+01:00"
 * #834 "Cure Thermale Pr Maladies de l'Appar.Digest.Mal.Métabolques"
 * #834 ^designation.language = #fr-FR
 * #834 ^designation.use = $sct#900000000000013009
@@ -5763,13 +5763,13 @@ Description: "Nomenclature des activités sanitaires utilisée pour décrire les
 * #834 ^property[0].code = #parent
 * #834 ^property[=].valueCode = #0381
 * #834 ^property[+].code = #dateValid
-* #834 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #834 ^property[=].valueDateTime = "1979-01-01T00:00:00+01:00"
 * #834 ^property[+].code = #dateMaj
-* #834 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #834 ^property[=].valueDateTime = "2017-06-07T00:00:00+01:00"
 * #834 ^property[+].code = #status
 * #834 ^property[=].valueCode = #retired
 * #834 ^property[+].code = #retirementDate
-* #834 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #834 ^property[=].valueDateTime = "2017-06-07T00:00:00+01:00"
 * #835 "Cure Thermale Pr Maladies de l'Appar.Urinaire Mal.Métabol."
 * #835 ^designation.language = #fr-FR
 * #835 ^designation.use = $sct#900000000000013009
@@ -5777,13 +5777,13 @@ Description: "Nomenclature des activités sanitaires utilisée pour décrire les
 * #835 ^property[0].code = #parent
 * #835 ^property[=].valueCode = #0381
 * #835 ^property[+].code = #dateValid
-* #835 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #835 ^property[=].valueDateTime = "1979-01-01T00:00:00+01:00"
 * #835 ^property[+].code = #dateMaj
-* #835 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #835 ^property[=].valueDateTime = "2017-06-07T00:00:00+01:00"
 * #835 ^property[+].code = #status
 * #835 ^property[=].valueCode = #retired
 * #835 ^property[+].code = #retirementDate
-* #835 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #835 ^property[=].valueDateTime = "2017-06-07T00:00:00+01:00"
 * #850 "Activité médicale et paramédicale"
 * #850 ^designation.language = #fr-FR
 * #850 ^designation.use = $sct#900000000000013009
@@ -5791,9 +5791,9 @@ Description: "Nomenclature des activités sanitaires utilisée pour décrire les
 * #850 ^property[0].code = #parent
 * #850 ^property[=].valueCode = #0343
 * #850 ^property[+].code = #dateValid
-* #850 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #850 ^property[=].valueDateTime = "2013-12-19T00:00:00+01:00"
 * #850 ^property[+].code = #dateMaj
-* #850 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #850 ^property[=].valueDateTime = "2013-12-19T00:00:00+01:00"
 * #850 ^property[+].code = #status
 * #850 ^property[=].valueCode = #active
 * #851 "Activité médicale autre que dentaire unique"
@@ -5803,9 +5803,9 @@ Description: "Nomenclature des activités sanitaires utilisée pour décrire les
 * #851 ^property[0].code = #parent
 * #851 ^property[=].valueCode = #0343
 * #851 ^property[+].code = #dateValid
-* #851 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #851 ^property[=].valueDateTime = "2013-12-19T00:00:00+01:00"
 * #851 ^property[+].code = #dateMaj
-* #851 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #851 ^property[=].valueDateTime = "2013-12-19T00:00:00+01:00"
 * #851 ^property[+].code = #status
 * #851 ^property[=].valueCode = #active
 * #852 "Activité paramédicale autre qu'activité infirmière unique"
@@ -5815,9 +5815,9 @@ Description: "Nomenclature des activités sanitaires utilisée pour décrire les
 * #852 ^property[0].code = #parent
 * #852 ^property[=].valueCode = #0343
 * #852 ^property[+].code = #dateValid
-* #852 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #852 ^property[=].valueDateTime = "2013-12-19T00:00:00+01:00"
 * #852 ^property[+].code = #dateMaj
-* #852 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #852 ^property[=].valueDateTime = "2013-12-19T00:00:00+01:00"
 * #852 ^property[+].code = #status
 * #852 ^property[=].valueCode = #active
 * #853 "Activité de lutte contre la lèpre"
@@ -5827,9 +5827,9 @@ Description: "Nomenclature des activités sanitaires utilisée pour décrire les
 * #853 ^property[0].code = #parent
 * #853 ^property[=].valueCode = #0342
 * #853 ^property[+].code = #dateValid
-* #853 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #853 ^property[=].valueDateTime = "2013-12-19T00:00:00+01:00"
 * #853 ^property[+].code = #dateMaj
-* #853 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #853 ^property[=].valueDateTime = "2013-12-19T00:00:00+01:00"
 * #853 ^property[+].code = #status
 * #853 ^property[=].valueCode = #active
 * #854 "Activité sage-femme en maison de naissance"
@@ -5839,9 +5839,9 @@ Description: "Nomenclature des activités sanitaires utilisée pour décrire les
 * #854 ^property[0].code = #parent
 * #854 ^property[=].valueCode = #0343
 * #854 ^property[+].code = #dateValid
-* #854 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #854 ^property[=].valueDateTime = "2019-08-01T00:00:00+01:00"
 * #854 ^property[+].code = #dateMaj
-* #854 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #854 ^property[=].valueDateTime = "2019-08-01T00:00:00+01:00"
 * #854 ^property[+].code = #status
 * #854 ^property[=].valueCode = #active
 * #949 "Recherche Chirurgicale ou Chirurgie Expérimentale"
@@ -5851,24 +5851,24 @@ Description: "Nomenclature des activités sanitaires utilisée pour décrire les
 * #949 ^property[0].code = #parent
 * #949 ^property[=].valueCode = #0642
 * #949 ^property[+].code = #dateValid
-* #949 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #949 ^property[=].valueDateTime = "1979-01-01T00:00:00+01:00"
 * #949 ^property[+].code = #dateMaj
-* #949 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #949 ^property[=].valueDateTime = "2017-06-07T00:00:00+01:00"
 * #949 ^property[+].code = #status
 * #949 ^property[=].valueCode = #retired
 * #949 ^property[+].code = #retirementDate
-* #949 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #949 ^property[=].valueDateTime = "2017-06-07T00:00:00+01:00"
 * #950 "Enseignement Médical"
 * #950 ^property[0].code = #parent
 * #950 ^property[=].valueCode = #0641
 * #950 ^property[+].code = #dateValid
-* #950 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #950 ^property[=].valueDateTime = "1979-01-01T00:00:00+01:00"
 * #950 ^property[+].code = #dateMaj
-* #950 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #950 ^property[=].valueDateTime = "2017-06-07T00:00:00+01:00"
 * #950 ^property[+].code = #status
 * #950 ^property[=].valueCode = #retired
 * #950 ^property[+].code = #retirementDate
-* #950 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #950 ^property[=].valueDateTime = "2017-06-07T00:00:00+01:00"
 * #951 "Enseignement Autre (Ex:Éducation Sanitaire)"
 * #951 ^designation.language = #fr-FR
 * #951 ^designation.use = $sct#900000000000013009
@@ -5876,24 +5876,24 @@ Description: "Nomenclature des activités sanitaires utilisée pour décrire les
 * #951 ^property[0].code = #parent
 * #951 ^property[=].valueCode = #0641
 * #951 ^property[+].code = #dateValid
-* #951 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #951 ^property[=].valueDateTime = "1979-01-01T00:00:00+01:00"
 * #951 ^property[+].code = #dateMaj
-* #951 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #951 ^property[=].valueDateTime = "2017-06-07T00:00:00+01:00"
 * #951 ^property[+].code = #status
 * #951 ^property[=].valueCode = #retired
 * #951 ^property[+].code = #retirementDate
-* #951 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #951 ^property[=].valueDateTime = "2017-06-07T00:00:00+01:00"
 * #952 "Recherche Médicale"
 * #952 ^property[0].code = #parent
 * #952 ^property[=].valueCode = #0642
 * #952 ^property[+].code = #dateValid
-* #952 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #952 ^property[=].valueDateTime = "1979-01-01T00:00:00+01:00"
 * #952 ^property[+].code = #dateMaj
-* #952 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #952 ^property[=].valueDateTime = "2017-06-07T00:00:00+01:00"
 * #952 ^property[+].code = #status
 * #952 ^property[=].valueCode = #retired
 * #952 ^property[+].code = #retirementDate
-* #952 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #952 ^property[=].valueDateTime = "2017-06-07T00:00:00+01:00"
 * #953 "Recherche Pharmacologique"
 * #953 ^designation.language = #fr-FR
 * #953 ^designation.use = $sct#900000000000013009
@@ -5901,13 +5901,13 @@ Description: "Nomenclature des activités sanitaires utilisée pour décrire les
 * #953 ^property[0].code = #parent
 * #953 ^property[=].valueCode = #0642
 * #953 ^property[+].code = #dateValid
-* #953 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #953 ^property[=].valueDateTime = "1979-01-01T00:00:00+01:00"
 * #953 ^property[+].code = #dateMaj
-* #953 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #953 ^property[=].valueDateTime = "2017-06-07T00:00:00+01:00"
 * #953 ^property[+].code = #status
 * #953 ^property[=].valueCode = #retired
 * #953 ^property[+].code = #retirementDate
-* #953 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #953 ^property[=].valueDateTime = "2017-06-07T00:00:00+01:00"
 * #954 "Recherche Pharmaceutique"
 * #954 ^designation.language = #fr-FR
 * #954 ^designation.use = $sct#900000000000013009
@@ -5915,13 +5915,13 @@ Description: "Nomenclature des activités sanitaires utilisée pour décrire les
 * #954 ^property[0].code = #parent
 * #954 ^property[=].valueCode = #0642
 * #954 ^property[+].code = #dateValid
-* #954 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #954 ^property[=].valueDateTime = "1979-01-01T00:00:00+01:00"
 * #954 ^property[+].code = #dateMaj
-* #954 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #954 ^property[=].valueDateTime = "2017-06-07T00:00:00+01:00"
 * #954 ^property[+].code = #status
 * #954 ^property[=].valueCode = #retired
 * #954 ^property[+].code = #retirementDate
-* #954 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #954 ^property[=].valueDateTime = "2017-06-07T00:00:00+01:00"
 * #955 "Recherche Odontologique"
 * #955 ^designation.language = #fr-FR
 * #955 ^designation.use = $sct#900000000000013009
@@ -5929,13 +5929,13 @@ Description: "Nomenclature des activités sanitaires utilisée pour décrire les
 * #955 ^property[0].code = #parent
 * #955 ^property[=].valueCode = #0642
 * #955 ^property[+].code = #dateValid
-* #955 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #955 ^property[=].valueDateTime = "1979-01-01T00:00:00+01:00"
 * #955 ^property[+].code = #dateMaj
-* #955 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #955 ^property[=].valueDateTime = "2017-06-07T00:00:00+01:00"
 * #955 ^property[+].code = #status
 * #955 ^property[=].valueCode = #retired
 * #955 ^property[+].code = #retirementDate
-* #955 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #955 ^property[=].valueDateTime = "2017-06-07T00:00:00+01:00"
 * #956 "Recherche Toxicologique"
 * #956 ^designation.language = #fr-FR
 * #956 ^designation.use = $sct#900000000000013009
@@ -5943,10 +5943,10 @@ Description: "Nomenclature des activités sanitaires utilisée pour décrire les
 * #956 ^property[0].code = #parent
 * #956 ^property[=].valueCode = #0642
 * #956 ^property[+].code = #dateValid
-* #956 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #956 ^property[=].valueDateTime = "1979-01-01T00:00:00+01:00"
 * #956 ^property[+].code = #dateMaj
-* #956 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #956 ^property[=].valueDateTime = "2017-06-07T00:00:00+01:00"
 * #956 ^property[+].code = #status
 * #956 ^property[=].valueCode = #retired
 * #956 ^property[+].code = #retirementDate
-* #956 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
+* #956 ^property[=].valueDateTime = "2017-06-07T00:00:00+01:00"
