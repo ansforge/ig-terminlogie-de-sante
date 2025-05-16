@@ -2974,9 +2974,7 @@ Description: "Nomenclature des activités sanitaires utilisée pour décrire les
 * #195 ^designation.language = #fr-FR
 * #195 ^designation.use = $sct#900000000000013009
 * #195 ^designation.value = "Soins Toxicomanes"
-* #195 ^property[0].code = #parent
-* #195 ^property[=].valueCode = #0811
-* #195 ^property[+].code = #dateValid
+* #195 ^property[0].code = #dateValid
 * #195 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
 * #195 ^property[+].code = #dateMaj
 * #195 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
@@ -2988,9 +2986,7 @@ Description: "Nomenclature des activités sanitaires utilisée pour décrire les
 * #196 ^designation.language = #fr-FR
 * #196 ^designation.use = $sct#900000000000013009
 * #196 ^designation.value = "Lutte Contre Alcool."
-* #196 ^property[0].code = #parent
-* #196 ^property[=].valueCode = #0821
-* #196 ^property[+].code = #dateValid
+* #196 ^property[0].code = #dateValid
 * #196 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
 * #196 ^property[+].code = #dateMaj
 * #196 ^property[=].valueDateTime = "2025-02-20T00:00:00+01:00"
