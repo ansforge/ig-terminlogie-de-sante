@@ -15,7 +15,7 @@
     <div id="orig">
 
    {% sql {
-  "query" : "select name as Name, Description,STRFTIME('%d/%m/%Y',date(date)) date_maj , Web from Resources where Type='CodeSystem' and url not like '%NOS%' ",
+  "query" : "select name as Name, Description,STRFTIME('%d/%m/%Y',date(date)) date_maj , Web from Resources where Type='CodeSystem' and id not like 'tre-%'  and url not like '%NOS%' ",
   "class" : "codes",
   "columns" : [
     { "name" : "Name", "type" : "link", "source" : "Name", "target" : "Web"},
