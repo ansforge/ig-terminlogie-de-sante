@@ -1,0 +1,35 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "b481ae7f-6d15-4a0d-a9e0-ce3c41447770-1076",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/b481ae7f-6d15-4a0d-a9e0-ce3c41447770-1076",
+  "name" : "UnionJDV_J180_BesoinEntretienPersonnel_MDPHAndJDV_J180_BesoinEntretienPersonnel_MDPH",
+  "title" : "Union of null And null",
+  "status" : "active",
+  "date" : "2025-05-19T13:23:33+00:00",
+  "compose" : {
+    "include" : [{
+      "concept" : [{
+        "code" : "01",
+        "display" : "Pour l'hygiène corporelle"
+      },
+      {
+        "code" : "02",
+        "display" : "Pour s'habiller"
+      },
+      {
+        "code" : "03",
+        "display" : "Pour les repas"
+      },
+      {
+        "code" : "04",
+        "display" : "Pour prendre soin de sa santé"
+      }]
+    },
+    {
+      "concept" : [{
+        "code" : "02",
+        "display" : "Autre"
+      }]
+    }]
+  }
+}

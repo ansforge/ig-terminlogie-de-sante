@@ -8,12 +8,12 @@
   },
   "text" : {
     "status" : "generated",
-    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: CodeSystem tre-r383-mention-act-de-soin-amm</b></p><a name=\"tre-r383-mention-act-de-soin-amm\"> </a><a name=\"hctre-r383-mention-act-de-soin-amm\"> </a><a name=\"tre-r383-mention-act-de-soin-amm-fr-FR\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">version: 1; Last updated: 2024-12-30 12:00:00+0100</p><p style=\"margin-bottom: 0px\">Profil: <a href=\"http://hl7.org/fhir/R4/shareablecodesystem.html\">Shareable CodeSystem</a></p></div><p><b>Propriétés</b></p><p><b>Cette terminologie de référence (CodeSystem) définit les propriétés suivantes pour ses concepts</b></p><table class=\"grid\"><tr><td><b>Nom</b></td><td><b>Code</b></td><td><b>URI</b></td><td><b>Type</b></td><td><b>Description</b></td></tr><tr><td>dateValid</td><td>dateValid</td><td/><td>dateTime</td><td>date de validité d'un code concept</td></tr><tr><td>dateMaj</td><td>dateMaj</td><td/><td>dateTime</td><td>Date de mise à jour d'un code concept</td></tr><tr><td>dateFin</td><td>dateFin</td><td/><td>dateTime</td><td>Date de fin d'exploitation d'un code concept</td></tr><tr><td>status</td><td>status</td><td>http://hl7.org/fhir/concept-properties#status</td><td>code</td><td>Statut d'un code concept</td></tr><tr><td>deprecationDate</td><td>deprecationDate</td><td>http://hl7.org/fhir/concept-properties#deprecationDate</td><td>dateTime</td><td>Date de dépréciation du code</td></tr><tr><td>retirementDate</td><td>retirementDate</td><td>http://hl7.org/fhir/concept-properties#retirementDate</td><td>dateTime</td><td>Date de retrait du code</td></tr></table><p><b>Concepts</b></p><p>This case-insensitive code system <code>https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r383-mention-act-de-soin-amm</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>dateValid</b></td><td><b>dateMaj</b></td><td><b>status</b></td></tr><tr><td style=\"white-space:nowrap\">ME000<a name=\"tre-r383-mention-act-de-soin-amm-ME000\"> </a></td><td>Pas de mention</td><td>2024-12-30T00:00:00+01:00</td><td>2024-12-30T00:00:00+01:00</td><td>active</td></tr><tr><td style=\"white-space:nowrap\">ME001<a name=\"tre-r383-mention-act-de-soin-amm-ME001\"> </a></td><td>Socle</td><td>2024-12-30T00:00:00+01:00</td><td>2024-12-30T00:00:00+01:00</td><td>active</td></tr><tr><td style=\"white-space:nowrap\">ME002<a name=\"tre-r383-mention-act-de-soin-amm-ME002\"> </a></td><td>Réadaptation</td><td>2024-12-30T00:00:00+01:00</td><td>2024-12-30T00:00:00+01:00</td><td>active</td></tr><tr><td style=\"white-space:nowrap\">ME003<a name=\"tre-r383-mention-act-de-soin-amm-ME003\"> </a></td><td>Ante et post partum</td><td>2024-12-30T00:00:00+01:00</td><td>2024-12-30T00:00:00+01:00</td><td>active</td></tr><tr><td style=\"white-space:nowrap\">ME004<a name=\"tre-r383-mention-act-de-soin-amm-ME004\"> </a></td><td>Enfants de moins de trois ans</td><td>2024-12-30T00:00:00+01:00</td><td>2024-12-30T00:00:00+01:00</td><td>active</td></tr><tr><td style=\"white-space:nowrap\">ME005<a name=\"tre-r383-mention-act-de-soin-amm-ME005\"> </a></td><td>A - Thrombectomie mécanique</td><td>2024-12-30T00:00:00+01:00</td><td>2024-12-30T00:00:00+01:00</td><td>active</td></tr><tr><td style=\"white-space:nowrap\">ME006<a name=\"tre-r383-mention-act-de-soin-amm-ME006\"> </a></td><td>B - Ensemble des activités de NRI</td><td>2024-12-30T00:00:00+01:00</td><td>2024-12-30T00:00:00+01:00</td><td>active</td></tr><tr><td style=\"white-space:nowrap\">ME007<a name=\"tre-r383-mention-act-de-soin-amm-ME007\"> </a></td><td>Mention A - Actes diagnostiques ou thérapeutiques hors pathologie cancéreuses réalisés par l'administration de mrp en système clos</td><td>2024-12-30T00:00:00+01:00</td><td>2024-12-30T00:00:00+01:00</td><td>active</td></tr><tr><td style=\"white-space:nowrap\">ME008<a name=\"tre-r383-mention-act-de-soin-amm-ME008\"> </a></td><td>Mention B - Actes diagnostiques ou thérapeutiques y compris pour les pathologies cancéreuses réalisés par l'administration de mrp en système clos ouvert</td><td>2024-12-30T00:00:00+01:00</td><td>2024-12-30T00:00:00+01:00</td><td>active</td></tr><tr><td style=\"white-space:nowrap\">ME009<a name=\"tre-r383-mention-act-de-soin-amm-ME009\"> </a></td><td>A - Actes interventionnels d’électrophysiologie diagnostique et les actes de poses de pace maker mono et double chambre avec sonde</td><td>2024-12-30T00:00:00+01:00</td><td>2024-12-30T00:00:00+01:00</td><td>active</td></tr><tr><td style=\"white-space:nowrap\">ME011<a name=\"tre-r383-mention-act-de-soin-amm-ME011\"> </a></td><td>B - Actes d'ablation atriale droite et atrioventriculaire, de poses de défibrillateurs et de stimulateurs multisites</td><td>2024-12-30T00:00:00+01:00</td><td>2024-12-30T00:00:00+01:00</td><td>active</td></tr><tr><td style=\"white-space:nowrap\">ME012<a name=\"tre-r383-mention-act-de-soin-amm-ME012\"> </a></td><td>C - Actes d'ablation atriale avec abord transeptal, d'ablation ventriculaire et tous les actes de rythmologie réalisés chez un enfant hors cardiopathie congénitale complexe</td><td>2024-12-30T00:00:00+01:00</td><td>2024-12-30T00:00:00+01:00</td><td>active</td></tr><tr><td style=\"white-space:nowrap\">ME013<a name=\"tre-r383-mention-act-de-soin-amm-ME013\"> </a></td><td>D - Actes à haut risque de plaie cardiaque ou vasculaire et les actes de rythmologie réalisés chez un patient ayant une cardiopathie congénitale complexe</td><td>2024-12-30T00:00:00+01:00</td><td>2024-12-30T00:00:00+01:00</td><td>active</td></tr><tr><td style=\"white-space:nowrap\">ME014<a name=\"tre-r383-mention-act-de-soin-amm-ME014\"> </a></td><td>A - Actes de prise en charge des anomalies du cloisonnement inter atrial, fermeture du canal artériel, dilatation de sténose valvulaire pulmonaire, cathétérisme diagnostique des cardiopathies congénitales</td><td>2024-12-30T00:00:00+01:00</td><td>2024-12-30T00:00:00+01:00</td><td>active</td></tr><tr><td style=\"white-space:nowrap\">ME015<a name=\"tre-r383-mention-act-de-soin-amm-ME015\"> </a></td><td>B - Geste de dilatation, toute pose de stent ou de dispositif intracardiaque, toute intervention sur septum atrial ou ventriculaire</td><td>2024-12-30T00:00:00+01:00</td><td>2024-12-30T00:00:00+01:00</td><td>active</td></tr><tr><td style=\"white-space:nowrap\">ME016<a name=\"tre-r383-mention-act-de-soin-amm-ME016\"> </a></td><td>Réanimation et soins intensifs polyvalents, et de spécialité le cas échéant</td><td>2024-12-30T00:00:00+01:00</td><td>2024-12-30T00:00:00+01:00</td><td>active</td></tr><tr><td style=\"white-space:nowrap\">ME017<a name=\"tre-r383-mention-act-de-soin-amm-ME017\"> </a></td><td>Soins intensifs polyvalents dérogatoires</td><td>2024-12-30T00:00:00+01:00</td><td>2024-12-30T00:00:00+01:00</td><td>active</td></tr><tr><td style=\"white-space:nowrap\">ME018<a name=\"tre-r383-mention-act-de-soin-amm-ME018\"> </a></td><td>Soins intensifs de cardiologie</td><td>2024-12-30T00:00:00+01:00</td><td>2024-12-30T00:00:00+01:00</td><td>active</td></tr><tr><td style=\"white-space:nowrap\">ME019<a name=\"tre-r383-mention-act-de-soin-amm-ME019\"> </a></td><td>Soins intensifs de neurologie vasculaire</td><td>2024-12-30T00:00:00+01:00</td><td>2024-12-30T00:00:00+01:00</td><td>active</td></tr><tr><td style=\"white-space:nowrap\">ME020<a name=\"tre-r383-mention-act-de-soin-amm-ME020\"> </a></td><td>Soins intensifs d’hématologie</td><td>2024-12-30T00:00:00+01:00</td><td>2024-12-30T00:00:00+01:00</td><td>active</td></tr><tr><td style=\"white-space:nowrap\">ME021<a name=\"tre-r383-mention-act-de-soin-amm-ME021\"> </a></td><td>Réanimation de recours et soins intensifs pédiatriques polyvalents, et de spécialité le cas échéant</td><td>2024-12-30T00:00:00+01:00</td><td>2024-12-30T00:00:00+01:00</td><td>active</td></tr><tr><td style=\"white-space:nowrap\">ME022<a name=\"tre-r383-mention-act-de-soin-amm-ME022\"> </a></td><td>Réanimation et soins intensifs pédiatriques polyvalents, et de spécialité le cas échéant</td><td>2024-12-30T00:00:00+01:00</td><td>2024-12-30T00:00:00+01:00</td><td>active</td></tr><tr><td style=\"white-space:nowrap\">ME023<a name=\"tre-r383-mention-act-de-soin-amm-ME023\"> </a></td><td>Soins intensifs pédiatriques polyvalents dérogatoires</td><td>2024-12-30T00:00:00+01:00</td><td>2024-12-30T00:00:00+01:00</td><td>active</td></tr><tr><td style=\"white-space:nowrap\">ME024<a name=\"tre-r383-mention-act-de-soin-amm-ME024\"> </a></td><td>Soins intensifs pédiatriques d’hématologie</td><td>2024-12-30T00:00:00+01:00</td><td>2024-12-30T00:00:00+01:00</td><td>active</td></tr><tr><td style=\"white-space:nowrap\">ME025<a name=\"tre-r383-mention-act-de-soin-amm-ME025\"> </a></td><td>A1 - Chirurgie oncologique viscérale et digestive</td><td>2024-12-30T00:00:00+01:00</td><td>2024-12-30T00:00:00+01:00</td><td>active</td></tr><tr><td style=\"white-space:nowrap\">ME026<a name=\"tre-r383-mention-act-de-soin-amm-ME026\"> </a></td><td>A2 - Chirurgie oncologique thoracique</td><td>2024-12-30T00:00:00+01:00</td><td>2024-12-30T00:00:00+01:00</td><td>active</td></tr><tr><td style=\"white-space:nowrap\">ME027<a name=\"tre-r383-mention-act-de-soin-amm-ME027\"> </a></td><td>A3 - Chirurgie oncologiqueORL, cervico-faciale et maxillo-faciale, dont la chirurgie du cancer de la thyroïde</td><td>2024-12-30T00:00:00+01:00</td><td>2024-12-30T00:00:00+01:00</td><td>active</td></tr><tr><td style=\"white-space:nowrap\">ME028<a name=\"tre-r383-mention-act-de-soin-amm-ME028\"> </a></td><td>A4 - Chirurgie oncologique urologique</td><td>2024-12-30T00:00:00+01:00</td><td>2024-12-30T00:00:00+01:00</td><td>active</td></tr><tr><td style=\"white-space:nowrap\">ME029<a name=\"tre-r383-mention-act-de-soin-amm-ME029\"> </a></td><td>A5 - Chirurgie oncologique gynécologique</td><td>2024-12-30T00:00:00+01:00</td><td>2024-12-30T00:00:00+01:00</td><td>active</td></tr><tr><td style=\"white-space:nowrap\">ME030<a name=\"tre-r383-mention-act-de-soin-amm-ME030\"> </a></td><td>A6 - Chirurgie oncologique mammaire</td><td>2024-12-30T00:00:00+01:00</td><td>2024-12-30T00:00:00+01:00</td><td>active</td></tr><tr><td style=\"white-space:nowrap\">ME031<a name=\"tre-r383-mention-act-de-soin-amm-ME031\"> </a></td><td>A7 - Chirurgie oncologique indifférenciée</td><td>2024-12-30T00:00:00+01:00</td><td>2024-12-30T00:00:00+01:00</td><td>active</td></tr><tr><td style=\"white-space:nowrap\">ME032<a name=\"tre-r383-mention-act-de-soin-amm-ME032\"> </a></td><td>B1 - Chirurgie oncologique viscérale et digestive complexe</td><td>2024-12-30T00:00:00+01:00</td><td>2024-12-30T00:00:00+01:00</td><td>active</td></tr><tr><td style=\"white-space:nowrap\">ME033<a name=\"tre-r383-mention-act-de-soin-amm-ME033\"> </a></td><td>B2 - Chirurgie oncologique thoracique complexe</td><td>2024-12-30T00:00:00+01:00</td><td>2024-12-30T00:00:00+01:00</td><td>active</td></tr><tr><td style=\"white-space:nowrap\">ME034<a name=\"tre-r383-mention-act-de-soin-amm-ME034\"> </a></td><td>B3 - Chirurgie oncologique ORL, cervico-faciale et maxillo-faciale complexe</td><td>2024-12-30T00:00:00+01:00</td><td>2024-12-30T00:00:00+01:00</td><td>active</td></tr><tr><td style=\"white-space:nowrap\">ME035<a name=\"tre-r383-mention-act-de-soin-amm-ME035\"> </a></td><td>B4 - Chirurgie oncologique urologique complexe</td><td>2024-12-30T00:00:00+01:00</td><td>2024-12-30T00:00:00+01:00</td><td>active</td></tr><tr><td style=\"white-space:nowrap\">ME036<a name=\"tre-r383-mention-act-de-soin-amm-ME036\"> </a></td><td>B5 - Chirurgie oncologique gynécologique complexe</td><td>2024-12-30T00:00:00+01:00</td><td>2024-12-30T00:00:00+01:00</td><td>active</td></tr><tr><td style=\"white-space:nowrap\">ME037<a name=\"tre-r383-mention-act-de-soin-amm-ME037\"> </a></td><td>C - Chirurgie oncologique chez l'Enfant et les adolescents de moins de 18 ans</td><td>2024-12-30T00:00:00+01:00</td><td>2024-12-30T00:00:00+01:00</td><td>active</td></tr><tr><td style=\"white-space:nowrap\">ME038<a name=\"tre-r383-mention-act-de-soin-amm-ME038\"> </a></td><td>A - Radiothérapie externe chez l’adulte</td><td>2024-12-30T00:00:00+01:00</td><td>2024-12-30T00:00:00+01:00</td><td>active</td></tr><tr><td style=\"white-space:nowrap\">ME039<a name=\"tre-r383-mention-act-de-soin-amm-ME039\"> </a></td><td>B - Curiethérapie chez l’adulte</td><td>2024-12-30T00:00:00+01:00</td><td>2024-12-30T00:00:00+01:00</td><td>active</td></tr><tr><td style=\"white-space:nowrap\">ME040<a name=\"tre-r383-mention-act-de-soin-amm-ME040\"> </a></td><td>C1 - Radiothérapie externe chez l'Enfant et l'adolescent de moins de 18 ans (en sus des mêmes traitements de radiothérapie externe chez l'adulte)</td><td>2024-12-30T00:00:00+01:00</td><td>2024-12-30T00:00:00+01:00</td><td>active</td></tr><tr><td style=\"white-space:nowrap\">ME041<a name=\"tre-r383-mention-act-de-soin-amm-ME041\"> </a></td><td>C2 - Curiethérapie chez l'Enfant et l'adolescent de moins de 18 ans (en sus des mêmes traitements de curiethérapie chez l'adulte)</td><td>2024-12-30T00:00:00+01:00</td><td>2024-12-30T00:00:00+01:00</td><td>active</td></tr><tr><td style=\"white-space:nowrap\">ME042<a name=\"tre-r383-mention-act-de-soin-amm-ME042\"> </a></td><td>A - TMSC chez l'adulte</td><td>2024-12-30T00:00:00+01:00</td><td>2024-12-30T00:00:00+01:00</td><td>active</td></tr><tr><td style=\"white-space:nowrap\">ME043<a name=\"tre-r383-mention-act-de-soin-amm-ME043\"> </a></td><td>B - TMSC chez l'adulte comprenant les chimiothérapies intensives entrainant une aplasie prévisible de plus de huit jours</td><td>2024-12-30T00:00:00+01:00</td><td>2024-12-30T00:00:00+01:00</td><td>active</td></tr><tr><td style=\"white-space:nowrap\">ME044<a name=\"tre-r383-mention-act-de-soin-amm-ME044\"> </a></td><td>C - TMSC chez l'Enfant et l’adolescent de moins de 18 ans comprenant les chimiothérapie intensives entraînant une aplasie prévisible de plus de huit jours</td><td>2024-12-30T00:00:00+01:00</td><td>2024-12-30T00:00:00+01:00</td><td>active</td></tr><tr><td style=\"white-space:nowrap\">ME045<a name=\"tre-r383-mention-act-de-soin-amm-ME045\"> </a></td><td>Mention A - Actes de radiologie interventionnelle par voie endo-veineuse</td><td>2024-12-30T00:00:00+01:00</td><td>2024-12-30T00:00:00+01:00</td><td>active</td></tr><tr><td style=\"white-space:nowrap\">ME046<a name=\"tre-r383-mention-act-de-soin-amm-ME046\"> </a></td><td>Mention B - En sus des actes autorisés au titre de la mention A</td><td>2024-12-30T00:00:00+01:00</td><td>2024-12-30T00:00:00+01:00</td><td>active</td></tr><tr><td style=\"white-space:nowrap\">ME047<a name=\"tre-r383-mention-act-de-soin-amm-ME047\"> </a></td><td>Mention C - En sus des actes autorisés au titre de la mention B et à l'Exception des actes réalisés dans les conditions spécifiquement prévues au titre de la mention D</td><td>2024-12-30T00:00:00+01:00</td><td>2024-12-30T00:00:00+01:00</td><td>active</td></tr><tr><td style=\"white-space:nowrap\">ME048<a name=\"tre-r383-mention-act-de-soin-amm-ME048\"> </a></td><td>Mention D - Ensemble des actes mentionnés à l'article R. 6123-165</td><td>2024-12-30T00:00:00+01:00</td><td>2024-12-30T00:00:00+01:00</td><td>active</td></tr><tr><td style=\"white-space:nowrap\">ME049<a name=\"tre-r383-mention-act-de-soin-amm-ME049\"> </a></td><td>Psychiatrie de l'adulte</td><td>2024-12-30T00:00:00+01:00</td><td>2024-12-30T00:00:00+01:00</td><td>active</td></tr><tr><td style=\"white-space:nowrap\">ME050<a name=\"tre-r383-mention-act-de-soin-amm-ME050\"> </a></td><td>Polyvalent</td><td>2024-12-30T00:00:00+01:00</td><td>2024-12-30T00:00:00+01:00</td><td>active</td></tr><tr><td style=\"white-space:nowrap\">ME051<a name=\"tre-r383-mention-act-de-soin-amm-ME051\"> </a></td><td>Locomoteur</td><td>2024-12-30T00:00:00+01:00</td><td>2024-12-30T00:00:00+01:00</td><td>active</td></tr><tr><td style=\"white-space:nowrap\">ME052<a name=\"tre-r383-mention-act-de-soin-amm-ME052\"> </a></td><td>Système nerveux</td><td>2024-12-30T00:00:00+01:00</td><td>2024-12-30T00:00:00+01:00</td><td>active</td></tr><tr><td style=\"white-space:nowrap\">ME053<a name=\"tre-r383-mention-act-de-soin-amm-ME053\"> </a></td><td>Cardio-Vasculaire</td><td>2024-12-30T00:00:00+01:00</td><td>2024-12-30T00:00:00+01:00</td><td>active</td></tr><tr><td style=\"white-space:nowrap\">ME054<a name=\"tre-r383-mention-act-de-soin-amm-ME054\"> </a></td><td>Pneumologie</td><td>2024-12-30T00:00:00+01:00</td><td>2024-12-30T00:00:00+01:00</td><td>active</td></tr><tr><td style=\"white-space:nowrap\">ME055<a name=\"tre-r383-mention-act-de-soin-amm-ME055\"> </a></td><td>Système digestif, endocrinologie, diabétologie, nutrition</td><td>2024-12-30T00:00:00+01:00</td><td>2024-12-30T00:00:00+01:00</td><td>active</td></tr><tr><td style=\"white-space:nowrap\">ME056<a name=\"tre-r383-mention-act-de-soin-amm-ME056\"> </a></td><td>Oncologie et hématologie</td><td>2024-12-30T00:00:00+01:00</td><td>2024-12-30T00:00:00+01:00</td><td>active</td></tr><tr><td style=\"white-space:nowrap\">ME057<a name=\"tre-r383-mention-act-de-soin-amm-ME057\"> </a></td><td>Brûlés</td><td>2024-12-30T00:00:00+01:00</td><td>2024-12-30T00:00:00+01:00</td><td>active</td></tr><tr><td style=\"white-space:nowrap\">ME058<a name=\"tre-r383-mention-act-de-soin-amm-ME058\"> </a></td><td>Conduites addictives</td><td>2024-12-30T00:00:00+01:00</td><td>2024-12-30T00:00:00+01:00</td><td>active</td></tr><tr><td style=\"white-space:nowrap\">ME059<a name=\"tre-r383-mention-act-de-soin-amm-ME059\"> </a></td><td>Gériatrie</td><td>2024-12-30T00:00:00+01:00</td><td>2024-12-30T00:00:00+01:00</td><td>active</td></tr><tr><td style=\"white-space:nowrap\">ME060<a name=\"tre-r383-mention-act-de-soin-amm-ME060\"> </a></td><td>Enfants et adolescents</td><td>2024-12-30T00:00:00+01:00</td><td>2024-12-30T00:00:00+01:00</td><td>active</td></tr><tr><td style=\"white-space:nowrap\">ME061<a name=\"tre-r383-mention-act-de-soin-amm-ME061\"> </a></td><td>Jeunes enfants, enfants et adolescents</td><td>2024-12-30T00:00:00+01:00</td><td>2024-12-30T00:00:00+01:00</td><td>active</td></tr><tr><td style=\"white-space:nowrap\">ME062<a name=\"tre-r383-mention-act-de-soin-amm-ME062\"> </a></td><td>Oncologie</td><td>2024-12-30T00:00:00+01:00</td><td>2024-12-30T00:00:00+01:00</td><td>active</td></tr><tr><td style=\"white-space:nowrap\">ME064<a name=\"tre-r383-mention-act-de-soin-amm-ME064\"> </a></td><td>Pédiatrique</td><td>2024-12-30T00:00:00+01:00</td><td>2024-12-30T00:00:00+01:00</td><td>active</td></tr><tr><td style=\"white-space:nowrap\">ME065<a name=\"tre-r383-mention-act-de-soin-amm-ME065\"> </a></td><td>Adulte et pédiatrique</td><td>2024-12-30T00:00:00+01:00</td><td>2024-12-30T00:00:00+01:00</td><td>active</td></tr><tr><td style=\"white-space:nowrap\">ME066<a name=\"tre-r383-mention-act-de-soin-amm-ME066\"> </a></td><td>Antenne de médecine d'urgence</td><td>2024-12-30T00:00:00+01:00</td><td>2024-12-30T00:00:00+01:00</td><td>active</td></tr><tr><td style=\"white-space:nowrap\">ME067<a name=\"tre-r383-mention-act-de-soin-amm-ME067\"> </a></td><td>Antenne de SMUR</td><td>2024-12-30T00:00:00+01:00</td><td>2024-12-30T00:00:00+01:00</td><td>active</td></tr><tr><td style=\"white-space:nowrap\">ME070<a name=\"tre-r383-mention-act-de-soin-amm-ME070\"> </a></td><td>Psychiatrie de l'Enfant et adolescent</td><td>2024-12-30T00:00:00+01:00</td><td>2024-12-30T00:00:00+01:00</td><td>active</td></tr><tr><td style=\"white-space:nowrap\">ME071<a name=\"tre-r383-mention-act-de-soin-amm-ME071\"> </a></td><td>Psychaitrie périnatale</td><td>2024-12-30T00:00:00+01:00</td><td>2024-12-30T00:00:00+01:00</td><td>active</td></tr><tr><td style=\"white-space:nowrap\">ME072<a name=\"tre-r383-mention-act-de-soin-amm-ME072\"> </a></td><td>Soins sans consentement</td><td>2024-12-30T00:00:00+01:00</td><td>2024-12-30T00:00:00+01:00</td><td>active</td></tr><tr><td style=\"white-space:nowrap\">ME080<a name=\"tre-r383-mention-act-de-soin-amm-ME080\"> </a></td><td>Rein</td><td>2024-12-30T00:00:00+01:00</td><td>2024-12-30T00:00:00+01:00</td><td>active</td></tr><tr><td style=\"white-space:nowrap\">ME081<a name=\"tre-r383-mention-act-de-soin-amm-ME081\"> </a></td><td>Pancréas</td><td>2024-12-30T00:00:00+01:00</td><td>2024-12-30T00:00:00+01:00</td><td>active</td></tr><tr><td style=\"white-space:nowrap\">ME082<a name=\"tre-r383-mention-act-de-soin-amm-ME082\"> </a></td><td>Rein-pancréas</td><td>2024-12-30T00:00:00+01:00</td><td>2024-12-30T00:00:00+01:00</td><td>active</td></tr><tr><td style=\"white-space:nowrap\">ME083<a name=\"tre-r383-mention-act-de-soin-amm-ME083\"> </a></td><td>Foie</td><td>2024-12-30T00:00:00+01:00</td><td>2024-12-30T00:00:00+01:00</td><td>active</td></tr><tr><td style=\"white-space:nowrap\">ME084<a name=\"tre-r383-mention-act-de-soin-amm-ME084\"> </a></td><td>Intestin</td><td>2024-12-30T00:00:00+01:00</td><td>2024-12-30T00:00:00+01:00</td><td>active</td></tr><tr><td style=\"white-space:nowrap\">ME085<a name=\"tre-r383-mention-act-de-soin-amm-ME085\"> </a></td><td>Cœur</td><td>2024-12-30T00:00:00+01:00</td><td>2024-12-30T00:00:00+01:00</td><td>active</td></tr><tr><td style=\"white-space:nowrap\">ME086<a name=\"tre-r383-mention-act-de-soin-amm-ME086\"> </a></td><td>Poumon</td><td>2024-12-30T00:00:00+01:00</td><td>2024-12-30T00:00:00+01:00</td><td>active</td></tr><tr><td style=\"white-space:nowrap\">ME087<a name=\"tre-r383-mention-act-de-soin-amm-ME087\"> </a></td><td>Cœur-poumon</td><td>2024-12-30T00:00:00+01:00</td><td>2024-12-30T00:00:00+01:00</td><td>active</td></tr><tr><td style=\"white-space:nowrap\">ME088<a name=\"tre-r383-mention-act-de-soin-amm-ME088\"> </a></td><td>Cellules hématopoïétiques Allogreffe</td><td>2024-12-30T00:00:00+01:00</td><td>2024-12-30T00:00:00+01:00</td><td>active</td></tr><tr><td style=\"white-space:nowrap\">ME089<a name=\"tre-r383-mention-act-de-soin-amm-ME089\"> </a></td><td>Adultes</td><td>2024-12-30T00:00:00+01:00</td><td>2024-12-30T00:00:00+01:00</td><td>active</td></tr><tr><td style=\"white-space:nowrap\">ME090<a name=\"tre-r383-mention-act-de-soin-amm-ME090\"> </a></td><td>Enfants</td><td>2024-12-30T00:00:00+01:00</td><td>2024-12-30T00:00:00+01:00</td><td>active</td></tr></table></div>"
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: CodeSystem tre-r383-mention-act-de-soin-amm</b></p><a name=\"tre-r383-mention-act-de-soin-amm\"> </a><a name=\"hctre-r383-mention-act-de-soin-amm\"> </a><a name=\"tre-r383-mention-act-de-soin-amm-fr-FR\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">version: 1; Last updated: 2024-12-30 12:00:00+0100</p><p style=\"margin-bottom: 0px\">Profil: <a href=\"http://hl7.org/fhir/R4/shareablecodesystem.html\">Shareable CodeSystem</a></p></div><p><b>Propriétés</b></p><p><b>Cette terminologie de référence (CodeSystem) définit les propriétés suivantes pour ses concepts</b></p><table class=\"grid\"><tr><td><b>Nom</b></td><td><b>Code</b></td><td><b>URI</b></td><td><b>Type</b></td><td><b>Description</b></td></tr><tr><td>dateValid</td><td>dateValid</td><td/><td>dateTime</td><td>date de validité d'un code concept</td></tr><tr><td>dateMaj</td><td>dateMaj</td><td/><td>dateTime</td><td>Date de mise à jour d'un code concept</td></tr><tr><td>dateFin</td><td>dateFin</td><td/><td>dateTime</td><td>Date de fin d'exploitation d'un code concept</td></tr><tr><td>status</td><td>status</td><td>http://hl7.org/fhir/concept-properties#status</td><td>code</td><td>Statut d'un code concept</td></tr><tr><td>deprecationDate</td><td>deprecationDate</td><td>http://hl7.org/fhir/concept-properties#deprecationDate</td><td>dateTime</td><td>Date de dépréciation du code</td></tr><tr><td>retirementDate</td><td>retirementDate</td><td>http://hl7.org/fhir/concept-properties#retirementDate</td><td>dateTime</td><td>Date de retrait du code</td></tr></table><p><b>Concepts</b></p><p>This case-insensitive code system <code>https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r383-mention-act-de-soin-amm</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>dateValid</b></td><td><b>dateMaj</b></td><td><b>status</b></td></tr><tr><td style=\"white-space:nowrap\">ME000<a name=\"tre-r383-mention-act-de-soin-amm-ME000\"> </a></td><td>Pas de mention</td><td>1900-01-01T00:00:00+01:00</td><td>1900-01-01T00:00:00+01:00</td><td>active</td></tr><tr><td style=\"white-space:nowrap\">ME001<a name=\"tre-r383-mention-act-de-soin-amm-ME001\"> </a></td><td>Socle</td><td>1900-01-01T00:00:00+01:00</td><td>1900-01-01T00:00:00+01:00</td><td>active</td></tr><tr><td style=\"white-space:nowrap\">ME002<a name=\"tre-r383-mention-act-de-soin-amm-ME002\"> </a></td><td>Réadaptation</td><td>1900-01-01T00:00:00+01:00</td><td>1900-01-01T00:00:00+01:00</td><td>active</td></tr><tr><td style=\"white-space:nowrap\">ME003<a name=\"tre-r383-mention-act-de-soin-amm-ME003\"> </a></td><td>Ante et post partum</td><td>1900-01-01T00:00:00+01:00</td><td>1900-01-01T00:00:00+01:00</td><td>active</td></tr><tr><td style=\"white-space:nowrap\">ME004<a name=\"tre-r383-mention-act-de-soin-amm-ME004\"> </a></td><td>Enfants de moins de trois ans</td><td>1900-01-01T00:00:00+01:00</td><td>1900-01-01T00:00:00+01:00</td><td>active</td></tr><tr><td style=\"white-space:nowrap\">ME005<a name=\"tre-r383-mention-act-de-soin-amm-ME005\"> </a></td><td>A - Thrombectomie mécanique</td><td>1900-01-01T00:00:00+01:00</td><td>1900-01-01T00:00:00+01:00</td><td>active</td></tr><tr><td style=\"white-space:nowrap\">ME006<a name=\"tre-r383-mention-act-de-soin-amm-ME006\"> </a></td><td>B - Ensemble des activités de NRI</td><td>1900-01-01T00:00:00+01:00</td><td>1900-01-01T00:00:00+01:00</td><td>active</td></tr><tr><td style=\"white-space:nowrap\">ME007<a name=\"tre-r383-mention-act-de-soin-amm-ME007\"> </a></td><td>Mention A - Actes diagnostiques ou thérapeutiques hors pathologie cancéreuses réalisés par l'administration de mrp en système clos</td><td>1900-01-01T00:00:00+01:00</td><td>1900-01-01T00:00:00+01:00</td><td>active</td></tr><tr><td style=\"white-space:nowrap\">ME008<a name=\"tre-r383-mention-act-de-soin-amm-ME008\"> </a></td><td>Mention B - Actes diagnostiques ou thérapeutiques y compris pour les pathologies cancéreuses réalisés par l'administration de mrp en système clos ouvert</td><td>1900-01-01T00:00:00+01:00</td><td>1900-01-01T00:00:00+01:00</td><td>active</td></tr><tr><td style=\"white-space:nowrap\">ME009<a name=\"tre-r383-mention-act-de-soin-amm-ME009\"> </a></td><td>A - Actes interventionnels d’électrophysiologie diagnostique et les actes de poses de pace maker mono et double chambre avec sonde</td><td>1900-01-01T00:00:00+01:00</td><td>1900-01-01T00:00:00+01:00</td><td>active</td></tr><tr><td style=\"white-space:nowrap\">ME011<a name=\"tre-r383-mention-act-de-soin-amm-ME011\"> </a></td><td>B - Actes d'ablation atriale droite et atrioventriculaire, de poses de défibrillateurs et de stimulateurs multisites</td><td>1900-01-01T00:00:00+01:00</td><td>1900-01-01T00:00:00+01:00</td><td>active</td></tr><tr><td style=\"white-space:nowrap\">ME012<a name=\"tre-r383-mention-act-de-soin-amm-ME012\"> </a></td><td>C - Actes d'ablation atriale avec abord transeptal, d'ablation ventriculaire et tous les actes de rythmologie réalisés chez un enfant hors cardiopathie congénitale complexe</td><td>1900-01-01T00:00:00+01:00</td><td>1900-01-01T00:00:00+01:00</td><td>active</td></tr><tr><td style=\"white-space:nowrap\">ME013<a name=\"tre-r383-mention-act-de-soin-amm-ME013\"> </a></td><td>D - Actes à haut risque de plaie cardiaque ou vasculaire et les actes de rythmologie réalisés chez un patient ayant une cardiopathie congénitale complexe</td><td>1900-01-01T00:00:00+01:00</td><td>1900-01-01T00:00:00+01:00</td><td>active</td></tr><tr><td style=\"white-space:nowrap\">ME014<a name=\"tre-r383-mention-act-de-soin-amm-ME014\"> </a></td><td>A - Actes de prise en charge des anomalies du cloisonnement inter atrial, fermeture du canal artériel, dilatation de sténose valvulaire pulmonaire, cathétérisme diagnostique des cardiopathies congénitales</td><td>1900-01-01T00:00:00+01:00</td><td>1900-01-01T00:00:00+01:00</td><td>active</td></tr><tr><td style=\"white-space:nowrap\">ME015<a name=\"tre-r383-mention-act-de-soin-amm-ME015\"> </a></td><td>B - Geste de dilatation, toute pose de stent ou de dispositif intracardiaque, toute intervention sur septum atrial ou ventriculaire</td><td>1900-01-01T00:00:00+01:00</td><td>1900-01-01T00:00:00+01:00</td><td>active</td></tr><tr><td style=\"white-space:nowrap\">ME016<a name=\"tre-r383-mention-act-de-soin-amm-ME016\"> </a></td><td>Réanimation et soins intensifs polyvalents, et de spécialité le cas échéant</td><td>1900-01-01T00:00:00+01:00</td><td>1900-01-01T00:00:00+01:00</td><td>active</td></tr><tr><td style=\"white-space:nowrap\">ME017<a name=\"tre-r383-mention-act-de-soin-amm-ME017\"> </a></td><td>Soins intensifs polyvalents dérogatoires</td><td>1900-01-01T00:00:00+01:00</td><td>1900-01-01T00:00:00+01:00</td><td>active</td></tr><tr><td style=\"white-space:nowrap\">ME018<a name=\"tre-r383-mention-act-de-soin-amm-ME018\"> </a></td><td>Soins intensifs de cardiologie</td><td>1900-01-01T00:00:00+01:00</td><td>1900-01-01T00:00:00+01:00</td><td>active</td></tr><tr><td style=\"white-space:nowrap\">ME019<a name=\"tre-r383-mention-act-de-soin-amm-ME019\"> </a></td><td>Soins intensifs de neurologie vasculaire</td><td>1900-01-01T00:00:00+01:00</td><td>1900-01-01T00:00:00+01:00</td><td>active</td></tr><tr><td style=\"white-space:nowrap\">ME020<a name=\"tre-r383-mention-act-de-soin-amm-ME020\"> </a></td><td>Soins intensifs d’hématologie</td><td>1900-01-01T00:00:00+01:00</td><td>1900-01-01T00:00:00+01:00</td><td>active</td></tr><tr><td style=\"white-space:nowrap\">ME021<a name=\"tre-r383-mention-act-de-soin-amm-ME021\"> </a></td><td>Réanimation de recours et soins intensifs pédiatriques polyvalents, et de spécialité le cas échéant</td><td>1900-01-01T00:00:00+01:00</td><td>1900-01-01T00:00:00+01:00</td><td>active</td></tr><tr><td style=\"white-space:nowrap\">ME022<a name=\"tre-r383-mention-act-de-soin-amm-ME022\"> </a></td><td>Réanimation et soins intensifs pédiatriques polyvalents, et de spécialité le cas échéant</td><td>1900-01-01T00:00:00+01:00</td><td>1900-01-01T00:00:00+01:00</td><td>active</td></tr><tr><td style=\"white-space:nowrap\">ME023<a name=\"tre-r383-mention-act-de-soin-amm-ME023\"> </a></td><td>Soins intensifs pédiatriques polyvalents dérogatoires</td><td>1900-01-01T00:00:00+01:00</td><td>1900-01-01T00:00:00+01:00</td><td>active</td></tr><tr><td style=\"white-space:nowrap\">ME024<a name=\"tre-r383-mention-act-de-soin-amm-ME024\"> </a></td><td>Soins intensifs pédiatriques d’hématologie</td><td>1900-01-01T00:00:00+01:00</td><td>1900-01-01T00:00:00+01:00</td><td>active</td></tr><tr><td style=\"white-space:nowrap\">ME025<a name=\"tre-r383-mention-act-de-soin-amm-ME025\"> </a></td><td>A1 - Chirurgie oncologique viscérale et digestive</td><td>1900-01-01T00:00:00+01:00</td><td>1900-01-01T00:00:00+01:00</td><td>active</td></tr><tr><td style=\"white-space:nowrap\">ME026<a name=\"tre-r383-mention-act-de-soin-amm-ME026\"> </a></td><td>A2 - Chirurgie oncologique thoracique</td><td>1900-01-01T00:00:00+01:00</td><td>1900-01-01T00:00:00+01:00</td><td>active</td></tr><tr><td style=\"white-space:nowrap\">ME027<a name=\"tre-r383-mention-act-de-soin-amm-ME027\"> </a></td><td>A3 - Chirurgie oncologiqueORL, cervico-faciale et maxillo-faciale, dont la chirurgie du cancer de la thyroïde</td><td>1900-01-01T00:00:00+01:00</td><td>1900-01-01T00:00:00+01:00</td><td>active</td></tr><tr><td style=\"white-space:nowrap\">ME028<a name=\"tre-r383-mention-act-de-soin-amm-ME028\"> </a></td><td>A4 - Chirurgie oncologique urologique</td><td>1900-01-01T00:00:00+01:00</td><td>1900-01-01T00:00:00+01:00</td><td>active</td></tr><tr><td style=\"white-space:nowrap\">ME029<a name=\"tre-r383-mention-act-de-soin-amm-ME029\"> </a></td><td>A5 - Chirurgie oncologique gynécologique</td><td>1900-01-01T00:00:00+01:00</td><td>1900-01-01T00:00:00+01:00</td><td>active</td></tr><tr><td style=\"white-space:nowrap\">ME030<a name=\"tre-r383-mention-act-de-soin-amm-ME030\"> </a></td><td>A6 - Chirurgie oncologique mammaire</td><td>1900-01-01T00:00:00+01:00</td><td>1900-01-01T00:00:00+01:00</td><td>active</td></tr><tr><td style=\"white-space:nowrap\">ME031<a name=\"tre-r383-mention-act-de-soin-amm-ME031\"> </a></td><td>A7 - Chirurgie oncologique indifférenciée</td><td>1900-01-01T00:00:00+01:00</td><td>1900-01-01T00:00:00+01:00</td><td>active</td></tr><tr><td style=\"white-space:nowrap\">ME032<a name=\"tre-r383-mention-act-de-soin-amm-ME032\"> </a></td><td>B1 - Chirurgie oncologique viscérale et digestive complexe</td><td>1900-01-01T00:00:00+01:00</td><td>1900-01-01T00:00:00+01:00</td><td>active</td></tr><tr><td style=\"white-space:nowrap\">ME033<a name=\"tre-r383-mention-act-de-soin-amm-ME033\"> </a></td><td>B2 - Chirurgie oncologique thoracique complexe</td><td>1900-01-01T00:00:00+01:00</td><td>1900-01-01T00:00:00+01:00</td><td>active</td></tr><tr><td style=\"white-space:nowrap\">ME034<a name=\"tre-r383-mention-act-de-soin-amm-ME034\"> </a></td><td>B3 - Chirurgie oncologique ORL, cervico-faciale et maxillo-faciale complexe</td><td>1900-01-01T00:00:00+01:00</td><td>1900-01-01T00:00:00+01:00</td><td>active</td></tr><tr><td style=\"white-space:nowrap\">ME035<a name=\"tre-r383-mention-act-de-soin-amm-ME035\"> </a></td><td>B4 - Chirurgie oncologique urologique complexe</td><td>1900-01-01T00:00:00+01:00</td><td>1900-01-01T00:00:00+01:00</td><td>active</td></tr><tr><td style=\"white-space:nowrap\">ME036<a name=\"tre-r383-mention-act-de-soin-amm-ME036\"> </a></td><td>B5 - Chirurgie oncologique gynécologique complexe</td><td>1900-01-01T00:00:00+01:00</td><td>1900-01-01T00:00:00+01:00</td><td>active</td></tr><tr><td style=\"white-space:nowrap\">ME037<a name=\"tre-r383-mention-act-de-soin-amm-ME037\"> </a></td><td>C - Chirurgie oncologique chez l'Enfant et les adolescents de moins de 18 ans</td><td>1900-01-01T00:00:00+01:00</td><td>1900-01-01T00:00:00+01:00</td><td>active</td></tr><tr><td style=\"white-space:nowrap\">ME038<a name=\"tre-r383-mention-act-de-soin-amm-ME038\"> </a></td><td>A - Radiothérapie externe chez l’adulte</td><td>1900-01-01T00:00:00+01:00</td><td>1900-01-01T00:00:00+01:00</td><td>active</td></tr><tr><td style=\"white-space:nowrap\">ME039<a name=\"tre-r383-mention-act-de-soin-amm-ME039\"> </a></td><td>B - Curiethérapie chez l’adulte</td><td>1900-01-01T00:00:00+01:00</td><td>1900-01-01T00:00:00+01:00</td><td>active</td></tr><tr><td style=\"white-space:nowrap\">ME040<a name=\"tre-r383-mention-act-de-soin-amm-ME040\"> </a></td><td>C1 - Radiothérapie externe chez l'Enfant et l'adolescent de moins de 18 ans (en sus des mêmes traitements de radiothérapie externe chez l'adulte)</td><td>1900-01-01T00:00:00+01:00</td><td>1900-01-01T00:00:00+01:00</td><td>active</td></tr><tr><td style=\"white-space:nowrap\">ME041<a name=\"tre-r383-mention-act-de-soin-amm-ME041\"> </a></td><td>C2 - Curiethérapie chez l'Enfant et l'adolescent de moins de 18 ans (en sus des mêmes traitements de curiethérapie chez l'adulte)</td><td>1900-01-01T00:00:00+01:00</td><td>1900-01-01T00:00:00+01:00</td><td>active</td></tr><tr><td style=\"white-space:nowrap\">ME042<a name=\"tre-r383-mention-act-de-soin-amm-ME042\"> </a></td><td>A - TMSC chez l'adulte</td><td>1900-01-01T00:00:00+01:00</td><td>1900-01-01T00:00:00+01:00</td><td>active</td></tr><tr><td style=\"white-space:nowrap\">ME043<a name=\"tre-r383-mention-act-de-soin-amm-ME043\"> </a></td><td>B - TMSC chez l'adulte comprenant les chimiothérapies intensives entrainant une aplasie prévisible de plus de huit jours</td><td>1900-01-01T00:00:00+01:00</td><td>1900-01-01T00:00:00+01:00</td><td>active</td></tr><tr><td style=\"white-space:nowrap\">ME044<a name=\"tre-r383-mention-act-de-soin-amm-ME044\"> </a></td><td>C - TMSC chez l'Enfant et l’adolescent de moins de 18 ans comprenant les chimiothérapie intensives entraînant une aplasie prévisible de plus de huit jours</td><td>1900-01-01T00:00:00+01:00</td><td>1900-01-01T00:00:00+01:00</td><td>active</td></tr><tr><td style=\"white-space:nowrap\">ME045<a name=\"tre-r383-mention-act-de-soin-amm-ME045\"> </a></td><td>Mention A - Actes de radiologie interventionnelle par voie endo-veineuse</td><td>1900-01-01T00:00:00+01:00</td><td>1900-01-01T00:00:00+01:00</td><td>active</td></tr><tr><td style=\"white-space:nowrap\">ME046<a name=\"tre-r383-mention-act-de-soin-amm-ME046\"> </a></td><td>Mention B - En sus des actes autorisés au titre de la mention A</td><td>1900-01-01T00:00:00+01:00</td><td>1900-01-01T00:00:00+01:00</td><td>active</td></tr><tr><td style=\"white-space:nowrap\">ME047<a name=\"tre-r383-mention-act-de-soin-amm-ME047\"> </a></td><td>Mention C - En sus des actes autorisés au titre de la mention B et à l'Exception des actes réalisés dans les conditions spécifiquement prévues au titre de la mention D</td><td>1900-01-01T00:00:00+01:00</td><td>1900-01-01T00:00:00+01:00</td><td>active</td></tr><tr><td style=\"white-space:nowrap\">ME048<a name=\"tre-r383-mention-act-de-soin-amm-ME048\"> </a></td><td>Mention D - Ensemble des actes mentionnés à l'article R. 6123-165</td><td>1900-01-01T00:00:00+01:00</td><td>1900-01-01T00:00:00+01:00</td><td>active</td></tr><tr><td style=\"white-space:nowrap\">ME049<a name=\"tre-r383-mention-act-de-soin-amm-ME049\"> </a></td><td>Psychiatrie de l'adulte</td><td>1900-01-01T00:00:00+01:00</td><td>1900-01-01T00:00:00+01:00</td><td>active</td></tr><tr><td style=\"white-space:nowrap\">ME050<a name=\"tre-r383-mention-act-de-soin-amm-ME050\"> </a></td><td>Polyvalent</td><td>1900-01-01T00:00:00+01:00</td><td>1900-01-01T00:00:00+01:00</td><td>active</td></tr><tr><td style=\"white-space:nowrap\">ME051<a name=\"tre-r383-mention-act-de-soin-amm-ME051\"> </a></td><td>Locomoteur</td><td>1900-01-01T00:00:00+01:00</td><td>1900-01-01T00:00:00+01:00</td><td>active</td></tr><tr><td style=\"white-space:nowrap\">ME052<a name=\"tre-r383-mention-act-de-soin-amm-ME052\"> </a></td><td>Système nerveux</td><td>1900-01-01T00:00:00+01:00</td><td>1900-01-01T00:00:00+01:00</td><td>active</td></tr><tr><td style=\"white-space:nowrap\">ME053<a name=\"tre-r383-mention-act-de-soin-amm-ME053\"> </a></td><td>Cardio-Vasculaire</td><td>1900-01-01T00:00:00+01:00</td><td>1900-01-01T00:00:00+01:00</td><td>active</td></tr><tr><td style=\"white-space:nowrap\">ME054<a name=\"tre-r383-mention-act-de-soin-amm-ME054\"> </a></td><td>Pneumologie</td><td>1900-01-01T00:00:00+01:00</td><td>1900-01-01T00:00:00+01:00</td><td>active</td></tr><tr><td style=\"white-space:nowrap\">ME055<a name=\"tre-r383-mention-act-de-soin-amm-ME055\"> </a></td><td>Système digestif, endocrinologie, diabétologie, nutrition</td><td>1900-01-01T00:00:00+01:00</td><td>1900-01-01T00:00:00+01:00</td><td>active</td></tr><tr><td style=\"white-space:nowrap\">ME056<a name=\"tre-r383-mention-act-de-soin-amm-ME056\"> </a></td><td>Oncologie et hématologie</td><td>1900-01-01T00:00:00+01:00</td><td>1900-01-01T00:00:00+01:00</td><td>active</td></tr><tr><td style=\"white-space:nowrap\">ME057<a name=\"tre-r383-mention-act-de-soin-amm-ME057\"> </a></td><td>Brûlés</td><td>1900-01-01T00:00:00+01:00</td><td>1900-01-01T00:00:00+01:00</td><td>active</td></tr><tr><td style=\"white-space:nowrap\">ME058<a name=\"tre-r383-mention-act-de-soin-amm-ME058\"> </a></td><td>Conduites addictives</td><td>1900-01-01T00:00:00+01:00</td><td>1900-01-01T00:00:00+01:00</td><td>active</td></tr><tr><td style=\"white-space:nowrap\">ME059<a name=\"tre-r383-mention-act-de-soin-amm-ME059\"> </a></td><td>Gériatrie</td><td>1900-01-01T00:00:00+01:00</td><td>1900-01-01T00:00:00+01:00</td><td>active</td></tr><tr><td style=\"white-space:nowrap\">ME060<a name=\"tre-r383-mention-act-de-soin-amm-ME060\"> </a></td><td>Enfants et adolescents</td><td>1900-01-01T00:00:00+01:00</td><td>1900-01-01T00:00:00+01:00</td><td>active</td></tr><tr><td style=\"white-space:nowrap\">ME061<a name=\"tre-r383-mention-act-de-soin-amm-ME061\"> </a></td><td>Jeunes enfants, enfants et adolescents</td><td>1900-01-01T00:00:00+01:00</td><td>1900-01-01T00:00:00+01:00</td><td>active</td></tr><tr><td style=\"white-space:nowrap\">ME062<a name=\"tre-r383-mention-act-de-soin-amm-ME062\"> </a></td><td>Oncologie</td><td>1900-01-01T00:00:00+01:00</td><td>1900-01-01T00:00:00+01:00</td><td>active</td></tr><tr><td style=\"white-space:nowrap\">ME064<a name=\"tre-r383-mention-act-de-soin-amm-ME064\"> </a></td><td>Pédiatrique</td><td>1900-01-01T00:00:00+01:00</td><td>1900-01-01T00:00:00+01:00</td><td>active</td></tr><tr><td style=\"white-space:nowrap\">ME065<a name=\"tre-r383-mention-act-de-soin-amm-ME065\"> </a></td><td>Adulte et pédiatrique</td><td>1900-01-01T00:00:00+01:00</td><td>1900-01-01T00:00:00+01:00</td><td>active</td></tr><tr><td style=\"white-space:nowrap\">ME066<a name=\"tre-r383-mention-act-de-soin-amm-ME066\"> </a></td><td>Antenne de médecine d'urgence</td><td>1900-01-01T00:00:00+01:00</td><td>1900-01-01T00:00:00+01:00</td><td>active</td></tr><tr><td style=\"white-space:nowrap\">ME067<a name=\"tre-r383-mention-act-de-soin-amm-ME067\"> </a></td><td>Antenne de SMUR</td><td>1900-01-01T00:00:00+01:00</td><td>1900-01-01T00:00:00+01:00</td><td>active</td></tr><tr><td style=\"white-space:nowrap\">ME070<a name=\"tre-r383-mention-act-de-soin-amm-ME070\"> </a></td><td>Psychiatrie de l'Enfant et adolescent</td><td>1900-01-01T00:00:00+01:00</td><td>1900-01-01T00:00:00+01:00</td><td>active</td></tr><tr><td style=\"white-space:nowrap\">ME071<a name=\"tre-r383-mention-act-de-soin-amm-ME071\"> </a></td><td>Psychaitrie périnatale</td><td>1900-01-01T00:00:00+01:00</td><td>1900-01-01T00:00:00+01:00</td><td>active</td></tr><tr><td style=\"white-space:nowrap\">ME072<a name=\"tre-r383-mention-act-de-soin-amm-ME072\"> </a></td><td>Soins sans consentement</td><td>1900-01-01T00:00:00+01:00</td><td>1900-01-01T00:00:00+01:00</td><td>active</td></tr><tr><td style=\"white-space:nowrap\">ME080<a name=\"tre-r383-mention-act-de-soin-amm-ME080\"> </a></td><td>Rein</td><td>1900-01-01T00:00:00+01:00</td><td>1900-01-01T00:00:00+01:00</td><td>active</td></tr><tr><td style=\"white-space:nowrap\">ME081<a name=\"tre-r383-mention-act-de-soin-amm-ME081\"> </a></td><td>Pancréas</td><td>1900-01-01T00:00:00+01:00</td><td>1900-01-01T00:00:00+01:00</td><td>active</td></tr><tr><td style=\"white-space:nowrap\">ME082<a name=\"tre-r383-mention-act-de-soin-amm-ME082\"> </a></td><td>Rein-pancréas</td><td>1900-01-01T00:00:00+01:00</td><td>1900-01-01T00:00:00+01:00</td><td>active</td></tr><tr><td style=\"white-space:nowrap\">ME083<a name=\"tre-r383-mention-act-de-soin-amm-ME083\"> </a></td><td>Foie</td><td>1900-01-01T00:00:00+01:00</td><td>1900-01-01T00:00:00+01:00</td><td>active</td></tr><tr><td style=\"white-space:nowrap\">ME084<a name=\"tre-r383-mention-act-de-soin-amm-ME084\"> </a></td><td>Intestin</td><td>1900-01-01T00:00:00+01:00</td><td>1900-01-01T00:00:00+01:00</td><td>active</td></tr><tr><td style=\"white-space:nowrap\">ME085<a name=\"tre-r383-mention-act-de-soin-amm-ME085\"> </a></td><td>Cœur</td><td>1900-01-01T00:00:00+01:00</td><td>1900-01-01T00:00:00+01:00</td><td>active</td></tr><tr><td style=\"white-space:nowrap\">ME086<a name=\"tre-r383-mention-act-de-soin-amm-ME086\"> </a></td><td>Poumon</td><td>1900-01-01T00:00:00+01:00</td><td>1900-01-01T00:00:00+01:00</td><td>active</td></tr><tr><td style=\"white-space:nowrap\">ME087<a name=\"tre-r383-mention-act-de-soin-amm-ME087\"> </a></td><td>Cœur-poumon</td><td>1900-01-01T00:00:00+01:00</td><td>1900-01-01T00:00:00+01:00</td><td>active</td></tr><tr><td style=\"white-space:nowrap\">ME088<a name=\"tre-r383-mention-act-de-soin-amm-ME088\"> </a></td><td>Cellules hématopoïétiques Allogreffe</td><td>1900-01-01T00:00:00+01:00</td><td>1900-01-01T00:00:00+01:00</td><td>active</td></tr><tr><td style=\"white-space:nowrap\">ME089<a name=\"tre-r383-mention-act-de-soin-amm-ME089\"> </a></td><td>Adultes</td><td>1900-01-01T00:00:00+01:00</td><td>1900-01-01T00:00:00+01:00</td><td>active</td></tr><tr><td style=\"white-space:nowrap\">ME090<a name=\"tre-r383-mention-act-de-soin-amm-ME090\"> </a></td><td>Enfants</td><td>1900-01-01T00:00:00+01:00</td><td>1900-01-01T00:00:00+01:00</td><td>active</td></tr></table></div>"
   },
   "extension" : [{
     "url" : "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod",
     "valuePeriod" : {
-      "start" : "2024-12-30T12:00:00+01:00"
+      "start" : "1900-01-01T00:00:00+01:00"
     }
   }],
   "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r383-mention-act-de-soin-amm",
@@ -71,11 +71,11 @@
     "display" : "Pas de mention",
     "property" : [{
       "code" : "dateValid",
-      "valueDateTime" : "2024-12-30T00:00:00+01:00"
+      "valueDateTime" : "1900-01-01T00:00:00+01:00"
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2024-12-30T00:00:00+01:00"
+      "valueDateTime" : "1900-01-01T00:00:00+01:00"
     },
     {
       "code" : "status",
@@ -87,11 +87,11 @@
     "display" : "Socle",
     "property" : [{
       "code" : "dateValid",
-      "valueDateTime" : "2024-12-30T00:00:00+01:00"
+      "valueDateTime" : "1900-01-01T00:00:00+01:00"
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2024-12-30T00:00:00+01:00"
+      "valueDateTime" : "1900-01-01T00:00:00+01:00"
     },
     {
       "code" : "status",
@@ -103,11 +103,11 @@
     "display" : "Réadaptation",
     "property" : [{
       "code" : "dateValid",
-      "valueDateTime" : "2024-12-30T00:00:00+01:00"
+      "valueDateTime" : "1900-01-01T00:00:00+01:00"
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2024-12-30T00:00:00+01:00"
+      "valueDateTime" : "1900-01-01T00:00:00+01:00"
     },
     {
       "code" : "status",
@@ -119,11 +119,11 @@
     "display" : "Ante et post partum",
     "property" : [{
       "code" : "dateValid",
-      "valueDateTime" : "2024-12-30T00:00:00+01:00"
+      "valueDateTime" : "1900-01-01T00:00:00+01:00"
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2024-12-30T00:00:00+01:00"
+      "valueDateTime" : "1900-01-01T00:00:00+01:00"
     },
     {
       "code" : "status",
@@ -135,11 +135,11 @@
     "display" : "Enfants de moins de trois ans",
     "property" : [{
       "code" : "dateValid",
-      "valueDateTime" : "2024-12-30T00:00:00+01:00"
+      "valueDateTime" : "1900-01-01T00:00:00+01:00"
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2024-12-30T00:00:00+01:00"
+      "valueDateTime" : "1900-01-01T00:00:00+01:00"
     },
     {
       "code" : "status",
@@ -151,11 +151,11 @@
     "display" : "A - Thrombectomie mécanique",
     "property" : [{
       "code" : "dateValid",
-      "valueDateTime" : "2024-12-30T00:00:00+01:00"
+      "valueDateTime" : "1900-01-01T00:00:00+01:00"
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2024-12-30T00:00:00+01:00"
+      "valueDateTime" : "1900-01-01T00:00:00+01:00"
     },
     {
       "code" : "status",
@@ -167,11 +167,11 @@
     "display" : "B - Ensemble des activités de NRI",
     "property" : [{
       "code" : "dateValid",
-      "valueDateTime" : "2024-12-30T00:00:00+01:00"
+      "valueDateTime" : "1900-01-01T00:00:00+01:00"
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2024-12-30T00:00:00+01:00"
+      "valueDateTime" : "1900-01-01T00:00:00+01:00"
     },
     {
       "code" : "status",
@@ -183,11 +183,11 @@
     "display" : "Mention A - Actes diagnostiques ou thérapeutiques hors pathologie cancéreuses réalisés par l'administration de mrp en système clos",
     "property" : [{
       "code" : "dateValid",
-      "valueDateTime" : "2024-12-30T00:00:00+01:00"
+      "valueDateTime" : "1900-01-01T00:00:00+01:00"
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2024-12-30T00:00:00+01:00"
+      "valueDateTime" : "1900-01-01T00:00:00+01:00"
     },
     {
       "code" : "status",
@@ -199,11 +199,11 @@
     "display" : "Mention B - Actes diagnostiques ou thérapeutiques y compris pour les pathologies cancéreuses réalisés par l'administration de mrp en système clos ouvert",
     "property" : [{
       "code" : "dateValid",
-      "valueDateTime" : "2024-12-30T00:00:00+01:00"
+      "valueDateTime" : "1900-01-01T00:00:00+01:00"
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2024-12-30T00:00:00+01:00"
+      "valueDateTime" : "1900-01-01T00:00:00+01:00"
     },
     {
       "code" : "status",
@@ -215,11 +215,11 @@
     "display" : "A - Actes interventionnels d’électrophysiologie diagnostique et les actes de poses de pace maker mono et double chambre avec sonde",
     "property" : [{
       "code" : "dateValid",
-      "valueDateTime" : "2024-12-30T00:00:00+01:00"
+      "valueDateTime" : "1900-01-01T00:00:00+01:00"
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2024-12-30T00:00:00+01:00"
+      "valueDateTime" : "1900-01-01T00:00:00+01:00"
     },
     {
       "code" : "status",
@@ -231,11 +231,11 @@
     "display" : "B - Actes d'ablation atriale droite et atrioventriculaire, de poses de défibrillateurs et de stimulateurs multisites",
     "property" : [{
       "code" : "dateValid",
-      "valueDateTime" : "2024-12-30T00:00:00+01:00"
+      "valueDateTime" : "1900-01-01T00:00:00+01:00"
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2024-12-30T00:00:00+01:00"
+      "valueDateTime" : "1900-01-01T00:00:00+01:00"
     },
     {
       "code" : "status",
@@ -247,11 +247,11 @@
     "display" : "C - Actes d'ablation atriale avec abord transeptal, d'ablation ventriculaire et tous les actes de rythmologie réalisés chez un enfant hors cardiopathie congénitale complexe",
     "property" : [{
       "code" : "dateValid",
-      "valueDateTime" : "2024-12-30T00:00:00+01:00"
+      "valueDateTime" : "1900-01-01T00:00:00+01:00"
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2024-12-30T00:00:00+01:00"
+      "valueDateTime" : "1900-01-01T00:00:00+01:00"
     },
     {
       "code" : "status",
@@ -263,11 +263,11 @@
     "display" : "D - Actes à haut risque de plaie cardiaque ou vasculaire et les actes de rythmologie réalisés chez un patient ayant une cardiopathie congénitale complexe",
     "property" : [{
       "code" : "dateValid",
-      "valueDateTime" : "2024-12-30T00:00:00+01:00"
+      "valueDateTime" : "1900-01-01T00:00:00+01:00"
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2024-12-30T00:00:00+01:00"
+      "valueDateTime" : "1900-01-01T00:00:00+01:00"
     },
     {
       "code" : "status",
@@ -279,11 +279,11 @@
     "display" : "A - Actes de prise en charge des anomalies du cloisonnement inter atrial, fermeture du canal artériel, dilatation de sténose valvulaire pulmonaire, cathétérisme diagnostique des cardiopathies congénitales",
     "property" : [{
       "code" : "dateValid",
-      "valueDateTime" : "2024-12-30T00:00:00+01:00"
+      "valueDateTime" : "1900-01-01T00:00:00+01:00"
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2024-12-30T00:00:00+01:00"
+      "valueDateTime" : "1900-01-01T00:00:00+01:00"
     },
     {
       "code" : "status",
@@ -295,11 +295,11 @@
     "display" : "B - Geste de dilatation, toute pose de stent ou de dispositif intracardiaque, toute intervention sur septum atrial ou ventriculaire",
     "property" : [{
       "code" : "dateValid",
-      "valueDateTime" : "2024-12-30T00:00:00+01:00"
+      "valueDateTime" : "1900-01-01T00:00:00+01:00"
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2024-12-30T00:00:00+01:00"
+      "valueDateTime" : "1900-01-01T00:00:00+01:00"
     },
     {
       "code" : "status",
@@ -311,11 +311,11 @@
     "display" : "Réanimation et soins intensifs polyvalents, et de spécialité le cas échéant",
     "property" : [{
       "code" : "dateValid",
-      "valueDateTime" : "2024-12-30T00:00:00+01:00"
+      "valueDateTime" : "1900-01-01T00:00:00+01:00"
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2024-12-30T00:00:00+01:00"
+      "valueDateTime" : "1900-01-01T00:00:00+01:00"
     },
     {
       "code" : "status",
@@ -327,11 +327,11 @@
     "display" : "Soins intensifs polyvalents dérogatoires",
     "property" : [{
       "code" : "dateValid",
-      "valueDateTime" : "2024-12-30T00:00:00+01:00"
+      "valueDateTime" : "1900-01-01T00:00:00+01:00"
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2024-12-30T00:00:00+01:00"
+      "valueDateTime" : "1900-01-01T00:00:00+01:00"
     },
     {
       "code" : "status",
@@ -343,11 +343,11 @@
     "display" : "Soins intensifs de cardiologie",
     "property" : [{
       "code" : "dateValid",
-      "valueDateTime" : "2024-12-30T00:00:00+01:00"
+      "valueDateTime" : "1900-01-01T00:00:00+01:00"
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2024-12-30T00:00:00+01:00"
+      "valueDateTime" : "1900-01-01T00:00:00+01:00"
     },
     {
       "code" : "status",
@@ -359,11 +359,11 @@
     "display" : "Soins intensifs de neurologie vasculaire",
     "property" : [{
       "code" : "dateValid",
-      "valueDateTime" : "2024-12-30T00:00:00+01:00"
+      "valueDateTime" : "1900-01-01T00:00:00+01:00"
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2024-12-30T00:00:00+01:00"
+      "valueDateTime" : "1900-01-01T00:00:00+01:00"
     },
     {
       "code" : "status",
@@ -375,11 +375,11 @@
     "display" : "Soins intensifs d’hématologie",
     "property" : [{
       "code" : "dateValid",
-      "valueDateTime" : "2024-12-30T00:00:00+01:00"
+      "valueDateTime" : "1900-01-01T00:00:00+01:00"
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2024-12-30T00:00:00+01:00"
+      "valueDateTime" : "1900-01-01T00:00:00+01:00"
     },
     {
       "code" : "status",
@@ -391,11 +391,11 @@
     "display" : "Réanimation de recours et soins intensifs pédiatriques polyvalents, et de spécialité le cas échéant",
     "property" : [{
       "code" : "dateValid",
-      "valueDateTime" : "2024-12-30T00:00:00+01:00"
+      "valueDateTime" : "1900-01-01T00:00:00+01:00"
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2024-12-30T00:00:00+01:00"
+      "valueDateTime" : "1900-01-01T00:00:00+01:00"
     },
     {
       "code" : "status",
@@ -407,11 +407,11 @@
     "display" : "Réanimation et soins intensifs pédiatriques polyvalents, et de spécialité le cas échéant",
     "property" : [{
       "code" : "dateValid",
-      "valueDateTime" : "2024-12-30T00:00:00+01:00"
+      "valueDateTime" : "1900-01-01T00:00:00+01:00"
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2024-12-30T00:00:00+01:00"
+      "valueDateTime" : "1900-01-01T00:00:00+01:00"
     },
     {
       "code" : "status",
@@ -423,11 +423,11 @@
     "display" : "Soins intensifs pédiatriques polyvalents dérogatoires",
     "property" : [{
       "code" : "dateValid",
-      "valueDateTime" : "2024-12-30T00:00:00+01:00"
+      "valueDateTime" : "1900-01-01T00:00:00+01:00"
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2024-12-30T00:00:00+01:00"
+      "valueDateTime" : "1900-01-01T00:00:00+01:00"
     },
     {
       "code" : "status",
@@ -439,11 +439,11 @@
     "display" : "Soins intensifs pédiatriques d’hématologie",
     "property" : [{
       "code" : "dateValid",
-      "valueDateTime" : "2024-12-30T00:00:00+01:00"
+      "valueDateTime" : "1900-01-01T00:00:00+01:00"
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2024-12-30T00:00:00+01:00"
+      "valueDateTime" : "1900-01-01T00:00:00+01:00"
     },
     {
       "code" : "status",
@@ -455,11 +455,11 @@
     "display" : "A1 - Chirurgie oncologique viscérale et digestive",
     "property" : [{
       "code" : "dateValid",
-      "valueDateTime" : "2024-12-30T00:00:00+01:00"
+      "valueDateTime" : "1900-01-01T00:00:00+01:00"
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2024-12-30T00:00:00+01:00"
+      "valueDateTime" : "1900-01-01T00:00:00+01:00"
     },
     {
       "code" : "status",
@@ -471,11 +471,11 @@
     "display" : "A2 - Chirurgie oncologique thoracique",
     "property" : [{
       "code" : "dateValid",
-      "valueDateTime" : "2024-12-30T00:00:00+01:00"
+      "valueDateTime" : "1900-01-01T00:00:00+01:00"
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2024-12-30T00:00:00+01:00"
+      "valueDateTime" : "1900-01-01T00:00:00+01:00"
     },
     {
       "code" : "status",
@@ -487,11 +487,11 @@
     "display" : "A3 - Chirurgie oncologiqueORL, cervico-faciale et maxillo-faciale, dont la chirurgie du cancer de la thyroïde",
     "property" : [{
       "code" : "dateValid",
-      "valueDateTime" : "2024-12-30T00:00:00+01:00"
+      "valueDateTime" : "1900-01-01T00:00:00+01:00"
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2024-12-30T00:00:00+01:00"
+      "valueDateTime" : "1900-01-01T00:00:00+01:00"
     },
     {
       "code" : "status",
@@ -503,11 +503,11 @@
     "display" : "A4 - Chirurgie oncologique urologique",
     "property" : [{
       "code" : "dateValid",
-      "valueDateTime" : "2024-12-30T00:00:00+01:00"
+      "valueDateTime" : "1900-01-01T00:00:00+01:00"
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2024-12-30T00:00:00+01:00"
+      "valueDateTime" : "1900-01-01T00:00:00+01:00"
     },
     {
       "code" : "status",
@@ -519,11 +519,11 @@
     "display" : "A5 - Chirurgie oncologique gynécologique",
     "property" : [{
       "code" : "dateValid",
-      "valueDateTime" : "2024-12-30T00:00:00+01:00"
+      "valueDateTime" : "1900-01-01T00:00:00+01:00"
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2024-12-30T00:00:00+01:00"
+      "valueDateTime" : "1900-01-01T00:00:00+01:00"
     },
     {
       "code" : "status",
@@ -535,11 +535,11 @@
     "display" : "A6 - Chirurgie oncologique mammaire",
     "property" : [{
       "code" : "dateValid",
-      "valueDateTime" : "2024-12-30T00:00:00+01:00"
+      "valueDateTime" : "1900-01-01T00:00:00+01:00"
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2024-12-30T00:00:00+01:00"
+      "valueDateTime" : "1900-01-01T00:00:00+01:00"
     },
     {
       "code" : "status",
@@ -551,11 +551,11 @@
     "display" : "A7 - Chirurgie oncologique indifférenciée",
     "property" : [{
       "code" : "dateValid",
-      "valueDateTime" : "2024-12-30T00:00:00+01:00"
+      "valueDateTime" : "1900-01-01T00:00:00+01:00"
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2024-12-30T00:00:00+01:00"
+      "valueDateTime" : "1900-01-01T00:00:00+01:00"
     },
     {
       "code" : "status",
@@ -567,11 +567,11 @@
     "display" : "B1 - Chirurgie oncologique viscérale et digestive complexe",
     "property" : [{
       "code" : "dateValid",
-      "valueDateTime" : "2024-12-30T00:00:00+01:00"
+      "valueDateTime" : "1900-01-01T00:00:00+01:00"
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2024-12-30T00:00:00+01:00"
+      "valueDateTime" : "1900-01-01T00:00:00+01:00"
     },
     {
       "code" : "status",
@@ -583,11 +583,11 @@
     "display" : "B2 - Chirurgie oncologique thoracique complexe",
     "property" : [{
       "code" : "dateValid",
-      "valueDateTime" : "2024-12-30T00:00:00+01:00"
+      "valueDateTime" : "1900-01-01T00:00:00+01:00"
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2024-12-30T00:00:00+01:00"
+      "valueDateTime" : "1900-01-01T00:00:00+01:00"
     },
     {
       "code" : "status",
@@ -599,11 +599,11 @@
     "display" : "B3 - Chirurgie oncologique ORL, cervico-faciale et maxillo-faciale complexe",
     "property" : [{
       "code" : "dateValid",
-      "valueDateTime" : "2024-12-30T00:00:00+01:00"
+      "valueDateTime" : "1900-01-01T00:00:00+01:00"
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2024-12-30T00:00:00+01:00"
+      "valueDateTime" : "1900-01-01T00:00:00+01:00"
     },
     {
       "code" : "status",
@@ -615,11 +615,11 @@
     "display" : "B4 - Chirurgie oncologique urologique complexe",
     "property" : [{
       "code" : "dateValid",
-      "valueDateTime" : "2024-12-30T00:00:00+01:00"
+      "valueDateTime" : "1900-01-01T00:00:00+01:00"
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2024-12-30T00:00:00+01:00"
+      "valueDateTime" : "1900-01-01T00:00:00+01:00"
     },
     {
       "code" : "status",
@@ -631,11 +631,11 @@
     "display" : "B5 - Chirurgie oncologique gynécologique complexe",
     "property" : [{
       "code" : "dateValid",
-      "valueDateTime" : "2024-12-30T00:00:00+01:00"
+      "valueDateTime" : "1900-01-01T00:00:00+01:00"
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2024-12-30T00:00:00+01:00"
+      "valueDateTime" : "1900-01-01T00:00:00+01:00"
     },
     {
       "code" : "status",
@@ -647,11 +647,11 @@
     "display" : "C - Chirurgie oncologique chez l'Enfant et les adolescents de moins de 18 ans",
     "property" : [{
       "code" : "dateValid",
-      "valueDateTime" : "2024-12-30T00:00:00+01:00"
+      "valueDateTime" : "1900-01-01T00:00:00+01:00"
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2024-12-30T00:00:00+01:00"
+      "valueDateTime" : "1900-01-01T00:00:00+01:00"
     },
     {
       "code" : "status",
@@ -663,11 +663,11 @@
     "display" : "A - Radiothérapie externe chez l’adulte",
     "property" : [{
       "code" : "dateValid",
-      "valueDateTime" : "2024-12-30T00:00:00+01:00"
+      "valueDateTime" : "1900-01-01T00:00:00+01:00"
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2024-12-30T00:00:00+01:00"
+      "valueDateTime" : "1900-01-01T00:00:00+01:00"
     },
     {
       "code" : "status",
@@ -679,11 +679,11 @@
     "display" : "B - Curiethérapie chez l’adulte",
     "property" : [{
       "code" : "dateValid",
-      "valueDateTime" : "2024-12-30T00:00:00+01:00"
+      "valueDateTime" : "1900-01-01T00:00:00+01:00"
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2024-12-30T00:00:00+01:00"
+      "valueDateTime" : "1900-01-01T00:00:00+01:00"
     },
     {
       "code" : "status",
@@ -695,11 +695,11 @@
     "display" : "C1 - Radiothérapie externe chez l'Enfant et l'adolescent de moins de 18 ans (en sus des mêmes traitements de radiothérapie externe chez l'adulte)",
     "property" : [{
       "code" : "dateValid",
-      "valueDateTime" : "2024-12-30T00:00:00+01:00"
+      "valueDateTime" : "1900-01-01T00:00:00+01:00"
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2024-12-30T00:00:00+01:00"
+      "valueDateTime" : "1900-01-01T00:00:00+01:00"
     },
     {
       "code" : "status",
@@ -711,11 +711,11 @@
     "display" : "C2 - Curiethérapie chez l'Enfant et l'adolescent de moins de 18 ans (en sus des mêmes traitements de curiethérapie chez l'adulte)",
     "property" : [{
       "code" : "dateValid",
-      "valueDateTime" : "2024-12-30T00:00:00+01:00"
+      "valueDateTime" : "1900-01-01T00:00:00+01:00"
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2024-12-30T00:00:00+01:00"
+      "valueDateTime" : "1900-01-01T00:00:00+01:00"
     },
     {
       "code" : "status",
@@ -727,11 +727,11 @@
     "display" : "A - TMSC chez l'adulte",
     "property" : [{
       "code" : "dateValid",
-      "valueDateTime" : "2024-12-30T00:00:00+01:00"
+      "valueDateTime" : "1900-01-01T00:00:00+01:00"
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2024-12-30T00:00:00+01:00"
+      "valueDateTime" : "1900-01-01T00:00:00+01:00"
     },
     {
       "code" : "status",
@@ -743,11 +743,11 @@
     "display" : "B - TMSC chez l'adulte comprenant les chimiothérapies intensives entrainant une aplasie prévisible de plus de huit jours",
     "property" : [{
       "code" : "dateValid",
-      "valueDateTime" : "2024-12-30T00:00:00+01:00"
+      "valueDateTime" : "1900-01-01T00:00:00+01:00"
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2024-12-30T00:00:00+01:00"
+      "valueDateTime" : "1900-01-01T00:00:00+01:00"
     },
     {
       "code" : "status",
@@ -759,11 +759,11 @@
     "display" : "C - TMSC chez l'Enfant et l’adolescent de moins de 18 ans comprenant les chimiothérapie intensives entraînant une aplasie prévisible de plus de huit jours",
     "property" : [{
       "code" : "dateValid",
-      "valueDateTime" : "2024-12-30T00:00:00+01:00"
+      "valueDateTime" : "1900-01-01T00:00:00+01:00"
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2024-12-30T00:00:00+01:00"
+      "valueDateTime" : "1900-01-01T00:00:00+01:00"
     },
     {
       "code" : "status",
@@ -775,11 +775,11 @@
     "display" : "Mention A - Actes de radiologie interventionnelle par voie endo-veineuse",
     "property" : [{
       "code" : "dateValid",
-      "valueDateTime" : "2024-12-30T00:00:00+01:00"
+      "valueDateTime" : "1900-01-01T00:00:00+01:00"
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2024-12-30T00:00:00+01:00"
+      "valueDateTime" : "1900-01-01T00:00:00+01:00"
     },
     {
       "code" : "status",
@@ -791,11 +791,11 @@
     "display" : "Mention B - En sus des actes autorisés au titre de la mention A",
     "property" : [{
       "code" : "dateValid",
-      "valueDateTime" : "2024-12-30T00:00:00+01:00"
+      "valueDateTime" : "1900-01-01T00:00:00+01:00"
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2024-12-30T00:00:00+01:00"
+      "valueDateTime" : "1900-01-01T00:00:00+01:00"
     },
     {
       "code" : "status",
@@ -807,11 +807,11 @@
     "display" : "Mention C - En sus des actes autorisés au titre de la mention B et à l'Exception des actes réalisés dans les conditions spécifiquement prévues au titre de la mention D",
     "property" : [{
       "code" : "dateValid",
-      "valueDateTime" : "2024-12-30T00:00:00+01:00"
+      "valueDateTime" : "1900-01-01T00:00:00+01:00"
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2024-12-30T00:00:00+01:00"
+      "valueDateTime" : "1900-01-01T00:00:00+01:00"
     },
     {
       "code" : "status",
@@ -823,11 +823,11 @@
     "display" : "Mention D - Ensemble des actes mentionnés à l'article R. 6123-165",
     "property" : [{
       "code" : "dateValid",
-      "valueDateTime" : "2024-12-30T00:00:00+01:00"
+      "valueDateTime" : "1900-01-01T00:00:00+01:00"
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2024-12-30T00:00:00+01:00"
+      "valueDateTime" : "1900-01-01T00:00:00+01:00"
     },
     {
       "code" : "status",
@@ -839,11 +839,11 @@
     "display" : "Psychiatrie de l'adulte",
     "property" : [{
       "code" : "dateValid",
-      "valueDateTime" : "2024-12-30T00:00:00+01:00"
+      "valueDateTime" : "1900-01-01T00:00:00+01:00"
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2024-12-30T00:00:00+01:00"
+      "valueDateTime" : "1900-01-01T00:00:00+01:00"
     },
     {
       "code" : "status",
@@ -855,11 +855,11 @@
     "display" : "Polyvalent",
     "property" : [{
       "code" : "dateValid",
-      "valueDateTime" : "2024-12-30T00:00:00+01:00"
+      "valueDateTime" : "1900-01-01T00:00:00+01:00"
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2024-12-30T00:00:00+01:00"
+      "valueDateTime" : "1900-01-01T00:00:00+01:00"
     },
     {
       "code" : "status",
@@ -871,11 +871,11 @@
     "display" : "Locomoteur",
     "property" : [{
       "code" : "dateValid",
-      "valueDateTime" : "2024-12-30T00:00:00+01:00"
+      "valueDateTime" : "1900-01-01T00:00:00+01:00"
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2024-12-30T00:00:00+01:00"
+      "valueDateTime" : "1900-01-01T00:00:00+01:00"
     },
     {
       "code" : "status",
@@ -887,11 +887,11 @@
     "display" : "Système nerveux",
     "property" : [{
       "code" : "dateValid",
-      "valueDateTime" : "2024-12-30T00:00:00+01:00"
+      "valueDateTime" : "1900-01-01T00:00:00+01:00"
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2024-12-30T00:00:00+01:00"
+      "valueDateTime" : "1900-01-01T00:00:00+01:00"
     },
     {
       "code" : "status",
@@ -903,11 +903,11 @@
     "display" : "Cardio-Vasculaire",
     "property" : [{
       "code" : "dateValid",
-      "valueDateTime" : "2024-12-30T00:00:00+01:00"
+      "valueDateTime" : "1900-01-01T00:00:00+01:00"
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2024-12-30T00:00:00+01:00"
+      "valueDateTime" : "1900-01-01T00:00:00+01:00"
     },
     {
       "code" : "status",
@@ -919,11 +919,11 @@
     "display" : "Pneumologie",
     "property" : [{
       "code" : "dateValid",
-      "valueDateTime" : "2024-12-30T00:00:00+01:00"
+      "valueDateTime" : "1900-01-01T00:00:00+01:00"
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2024-12-30T00:00:00+01:00"
+      "valueDateTime" : "1900-01-01T00:00:00+01:00"
     },
     {
       "code" : "status",
@@ -935,11 +935,11 @@
     "display" : "Système digestif, endocrinologie, diabétologie, nutrition",
     "property" : [{
       "code" : "dateValid",
-      "valueDateTime" : "2024-12-30T00:00:00+01:00"
+      "valueDateTime" : "1900-01-01T00:00:00+01:00"
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2024-12-30T00:00:00+01:00"
+      "valueDateTime" : "1900-01-01T00:00:00+01:00"
     },
     {
       "code" : "status",
@@ -951,11 +951,11 @@
     "display" : "Oncologie et hématologie",
     "property" : [{
       "code" : "dateValid",
-      "valueDateTime" : "2024-12-30T00:00:00+01:00"
+      "valueDateTime" : "1900-01-01T00:00:00+01:00"
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2024-12-30T00:00:00+01:00"
+      "valueDateTime" : "1900-01-01T00:00:00+01:00"
     },
     {
       "code" : "status",
@@ -967,11 +967,11 @@
     "display" : "Brûlés",
     "property" : [{
       "code" : "dateValid",
-      "valueDateTime" : "2024-12-30T00:00:00+01:00"
+      "valueDateTime" : "1900-01-01T00:00:00+01:00"
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2024-12-30T00:00:00+01:00"
+      "valueDateTime" : "1900-01-01T00:00:00+01:00"
     },
     {
       "code" : "status",
@@ -983,11 +983,11 @@
     "display" : "Conduites addictives",
     "property" : [{
       "code" : "dateValid",
-      "valueDateTime" : "2024-12-30T00:00:00+01:00"
+      "valueDateTime" : "1900-01-01T00:00:00+01:00"
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2024-12-30T00:00:00+01:00"
+      "valueDateTime" : "1900-01-01T00:00:00+01:00"
     },
     {
       "code" : "status",
@@ -999,11 +999,11 @@
     "display" : "Gériatrie",
     "property" : [{
       "code" : "dateValid",
-      "valueDateTime" : "2024-12-30T00:00:00+01:00"
+      "valueDateTime" : "1900-01-01T00:00:00+01:00"
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2024-12-30T00:00:00+01:00"
+      "valueDateTime" : "1900-01-01T00:00:00+01:00"
     },
     {
       "code" : "status",
@@ -1015,11 +1015,11 @@
     "display" : "Enfants et adolescents",
     "property" : [{
       "code" : "dateValid",
-      "valueDateTime" : "2024-12-30T00:00:00+01:00"
+      "valueDateTime" : "1900-01-01T00:00:00+01:00"
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2024-12-30T00:00:00+01:00"
+      "valueDateTime" : "1900-01-01T00:00:00+01:00"
     },
     {
       "code" : "status",
@@ -1031,11 +1031,11 @@
     "display" : "Jeunes enfants, enfants et adolescents",
     "property" : [{
       "code" : "dateValid",
-      "valueDateTime" : "2024-12-30T00:00:00+01:00"
+      "valueDateTime" : "1900-01-01T00:00:00+01:00"
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2024-12-30T00:00:00+01:00"
+      "valueDateTime" : "1900-01-01T00:00:00+01:00"
     },
     {
       "code" : "status",
@@ -1047,11 +1047,11 @@
     "display" : "Oncologie",
     "property" : [{
       "code" : "dateValid",
-      "valueDateTime" : "2024-12-30T00:00:00+01:00"
+      "valueDateTime" : "1900-01-01T00:00:00+01:00"
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2024-12-30T00:00:00+01:00"
+      "valueDateTime" : "1900-01-01T00:00:00+01:00"
     },
     {
       "code" : "status",
@@ -1063,11 +1063,11 @@
     "display" : "Pédiatrique",
     "property" : [{
       "code" : "dateValid",
-      "valueDateTime" : "2024-12-30T00:00:00+01:00"
+      "valueDateTime" : "1900-01-01T00:00:00+01:00"
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2024-12-30T00:00:00+01:00"
+      "valueDateTime" : "1900-01-01T00:00:00+01:00"
     },
     {
       "code" : "status",
@@ -1079,11 +1079,11 @@
     "display" : "Adulte et pédiatrique",
     "property" : [{
       "code" : "dateValid",
-      "valueDateTime" : "2024-12-30T00:00:00+01:00"
+      "valueDateTime" : "1900-01-01T00:00:00+01:00"
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2024-12-30T00:00:00+01:00"
+      "valueDateTime" : "1900-01-01T00:00:00+01:00"
     },
     {
       "code" : "status",
@@ -1095,11 +1095,11 @@
     "display" : "Antenne de médecine d'urgence",
     "property" : [{
       "code" : "dateValid",
-      "valueDateTime" : "2024-12-30T00:00:00+01:00"
+      "valueDateTime" : "1900-01-01T00:00:00+01:00"
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2024-12-30T00:00:00+01:00"
+      "valueDateTime" : "1900-01-01T00:00:00+01:00"
     },
     {
       "code" : "status",
@@ -1111,11 +1111,11 @@
     "display" : "Antenne de SMUR",
     "property" : [{
       "code" : "dateValid",
-      "valueDateTime" : "2024-12-30T00:00:00+01:00"
+      "valueDateTime" : "1900-01-01T00:00:00+01:00"
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2024-12-30T00:00:00+01:00"
+      "valueDateTime" : "1900-01-01T00:00:00+01:00"
     },
     {
       "code" : "status",
@@ -1127,11 +1127,11 @@
     "display" : "Psychiatrie de l'Enfant et adolescent",
     "property" : [{
       "code" : "dateValid",
-      "valueDateTime" : "2024-12-30T00:00:00+01:00"
+      "valueDateTime" : "1900-01-01T00:00:00+01:00"
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2024-12-30T00:00:00+01:00"
+      "valueDateTime" : "1900-01-01T00:00:00+01:00"
     },
     {
       "code" : "status",
@@ -1143,11 +1143,11 @@
     "display" : "Psychaitrie périnatale",
     "property" : [{
       "code" : "dateValid",
-      "valueDateTime" : "2024-12-30T00:00:00+01:00"
+      "valueDateTime" : "1900-01-01T00:00:00+01:00"
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2024-12-30T00:00:00+01:00"
+      "valueDateTime" : "1900-01-01T00:00:00+01:00"
     },
     {
       "code" : "status",
@@ -1159,11 +1159,11 @@
     "display" : "Soins sans consentement",
     "property" : [{
       "code" : "dateValid",
-      "valueDateTime" : "2024-12-30T00:00:00+01:00"
+      "valueDateTime" : "1900-01-01T00:00:00+01:00"
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2024-12-30T00:00:00+01:00"
+      "valueDateTime" : "1900-01-01T00:00:00+01:00"
     },
     {
       "code" : "status",
@@ -1175,11 +1175,11 @@
     "display" : "Rein",
     "property" : [{
       "code" : "dateValid",
-      "valueDateTime" : "2024-12-30T00:00:00+01:00"
+      "valueDateTime" : "1900-01-01T00:00:00+01:00"
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2024-12-30T00:00:00+01:00"
+      "valueDateTime" : "1900-01-01T00:00:00+01:00"
     },
     {
       "code" : "status",
@@ -1191,11 +1191,11 @@
     "display" : "Pancréas",
     "property" : [{
       "code" : "dateValid",
-      "valueDateTime" : "2024-12-30T00:00:00+01:00"
+      "valueDateTime" : "1900-01-01T00:00:00+01:00"
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2024-12-30T00:00:00+01:00"
+      "valueDateTime" : "1900-01-01T00:00:00+01:00"
     },
     {
       "code" : "status",
@@ -1207,11 +1207,11 @@
     "display" : "Rein-pancréas",
     "property" : [{
       "code" : "dateValid",
-      "valueDateTime" : "2024-12-30T00:00:00+01:00"
+      "valueDateTime" : "1900-01-01T00:00:00+01:00"
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2024-12-30T00:00:00+01:00"
+      "valueDateTime" : "1900-01-01T00:00:00+01:00"
     },
     {
       "code" : "status",
@@ -1223,11 +1223,11 @@
     "display" : "Foie",
     "property" : [{
       "code" : "dateValid",
-      "valueDateTime" : "2024-12-30T00:00:00+01:00"
+      "valueDateTime" : "1900-01-01T00:00:00+01:00"
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2024-12-30T00:00:00+01:00"
+      "valueDateTime" : "1900-01-01T00:00:00+01:00"
     },
     {
       "code" : "status",
@@ -1239,11 +1239,11 @@
     "display" : "Intestin",
     "property" : [{
       "code" : "dateValid",
-      "valueDateTime" : "2024-12-30T00:00:00+01:00"
+      "valueDateTime" : "1900-01-01T00:00:00+01:00"
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2024-12-30T00:00:00+01:00"
+      "valueDateTime" : "1900-01-01T00:00:00+01:00"
     },
     {
       "code" : "status",
@@ -1255,11 +1255,11 @@
     "display" : "Cœur",
     "property" : [{
       "code" : "dateValid",
-      "valueDateTime" : "2024-12-30T00:00:00+01:00"
+      "valueDateTime" : "1900-01-01T00:00:00+01:00"
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2024-12-30T00:00:00+01:00"
+      "valueDateTime" : "1900-01-01T00:00:00+01:00"
     },
     {
       "code" : "status",
@@ -1271,11 +1271,11 @@
     "display" : "Poumon",
     "property" : [{
       "code" : "dateValid",
-      "valueDateTime" : "2024-12-30T00:00:00+01:00"
+      "valueDateTime" : "1900-01-01T00:00:00+01:00"
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2024-12-30T00:00:00+01:00"
+      "valueDateTime" : "1900-01-01T00:00:00+01:00"
     },
     {
       "code" : "status",
@@ -1287,11 +1287,11 @@
     "display" : "Cœur-poumon",
     "property" : [{
       "code" : "dateValid",
-      "valueDateTime" : "2024-12-30T00:00:00+01:00"
+      "valueDateTime" : "1900-01-01T00:00:00+01:00"
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2024-12-30T00:00:00+01:00"
+      "valueDateTime" : "1900-01-01T00:00:00+01:00"
     },
     {
       "code" : "status",
@@ -1303,11 +1303,11 @@
     "display" : "Cellules hématopoïétiques Allogreffe",
     "property" : [{
       "code" : "dateValid",
-      "valueDateTime" : "2024-12-30T00:00:00+01:00"
+      "valueDateTime" : "1900-01-01T00:00:00+01:00"
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2024-12-30T00:00:00+01:00"
+      "valueDateTime" : "1900-01-01T00:00:00+01:00"
     },
     {
       "code" : "status",
@@ -1319,11 +1319,11 @@
     "display" : "Adultes",
     "property" : [{
       "code" : "dateValid",
-      "valueDateTime" : "2024-12-30T00:00:00+01:00"
+      "valueDateTime" : "1900-01-01T00:00:00+01:00"
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2024-12-30T00:00:00+01:00"
+      "valueDateTime" : "1900-01-01T00:00:00+01:00"
     },
     {
       "code" : "status",
@@ -1335,11 +1335,11 @@
     "display" : "Enfants",
     "property" : [{
       "code" : "dateValid",
-      "valueDateTime" : "2024-12-30T00:00:00+01:00"
+      "valueDateTime" : "1900-01-01T00:00:00+01:00"
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2024-12-30T00:00:00+01:00"
+      "valueDateTime" : "1900-01-01T00:00:00+01:00"
     },
     {
       "code" : "status",

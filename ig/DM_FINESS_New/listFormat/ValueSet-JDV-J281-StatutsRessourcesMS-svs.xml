@@ -2,7 +2,7 @@
 <RetrieveValueSetResponse xmlns="urn:ihe:iti:svs:2008"
                           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
    <ValueSet dateFin=""
-             dateMaj="20240927120000"
+             dateMaj="20250425120000"
              dateValid="20240927120000"
              description="Statut de l'évaluation et des événements"
              displayName="JDV_J281_StatutsRessourcesMS"
@@ -28,6 +28,19 @@
          <concept code="ANNULE"
                   codeSystem="1.2.250.1.213.3.3.250"
                   displayName="Annulé"/>
+         <concept code="ACTIF" codeSystem="1.2.250.1.213.3.3.250" displayName="Actif"/>
+         <concept code="NONDEBUTE"
+                  codeSystem="1.2.250.1.213.3.3.250"
+                  displayName="Non débuté"/>
+         <concept code="ENPREPARATION"
+                  codeSystem="1.2.250.1.213.3.3.250"
+                  displayName="En préparation"/>
+         <concept code="ENREALISATION"
+                  codeSystem="1.2.250.1.213.3.3.250"
+                  displayName="En réalisation"/>
+         <concept code="CREATION"
+                  codeSystem="1.2.250.1.213.3.3.250"
+                  displayName="Création"/>
       </ConceptList>
    </ValueSet>
 </RetrieveValueSetResponse>

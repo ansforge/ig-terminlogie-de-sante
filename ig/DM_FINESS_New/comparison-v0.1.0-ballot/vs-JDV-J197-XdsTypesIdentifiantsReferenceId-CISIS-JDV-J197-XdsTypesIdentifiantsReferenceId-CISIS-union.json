@@ -1,0 +1,41 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "b481ae7f-6d15-4a0d-a9e0-ce3c41447770-1127",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/b481ae7f-6d15-4a0d-a9e0-ce3c41447770-1127",
+  "name" : "UnionJDV_J197_XdsTypesIdentifiantsReferenceId_CISISAndJDV_J197_XdsTypesIdentifiantsReferenceId_CISIS",
+  "title" : "Union of null And null",
+  "status" : "active",
+  "date" : "2025-05-19T13:23:33+00:00",
+  "compose" : {
+    "include" : [{
+      "concept" : [{
+        "code" : "urn:ihe:iti:xds:2013:uniqueId",
+        "display" : "uniqueId"
+      },
+      {
+        "code" : "urn:ihe:iti:xds:2013:accession",
+        "display" : "accession"
+      },
+      {
+        "code" : "urn:ihe:iti:xds:2013:referral",
+        "display" : "referral"
+      },
+      {
+        "code" : "urn:ihe:iti:xds:2013:order",
+        "display" : "order"
+      },
+      {
+        "code" : "urn:ihe:iti:xdw:2013:workflowInstanceId",
+        "display" : "workflowInstanceId"
+      },
+      {
+        "code" : "urn:ihe:iti:xds:2016:studyInstanceUID",
+        "display" : "studyInstanceUID"
+      },
+      {
+        "code" : "urn:ihe:iti:xds:2015:encounterId",
+        "display" : "encounterId"
+      }]
+    }]
+  }
+}

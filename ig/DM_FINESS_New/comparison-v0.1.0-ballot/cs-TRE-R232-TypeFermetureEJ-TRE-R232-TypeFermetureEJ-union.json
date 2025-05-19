@@ -1,0 +1,123 @@
+{
+  "resourceType" : "CodeSystem",
+  "id" : "b481ae7f-6d15-4a0d-a9e0-ce3c41447770-248",
+  "url" : "http://hl7.org/fhir/comparison/CodeSystem/b481ae7f-6d15-4a0d-a9e0-ce3c41447770-248",
+  "name" : "UnionTRE_R232_TypeFermetureEJAndTRE_R232_TypeFermetureEJ",
+  "title" : "Union of null And null",
+  "status" : "retired",
+  "date" : "2025-05-19T13:23:32+00:00",
+  "property" : [{
+    "code" : "dateValid",
+    "description" : "date de validité d'un code concept",
+    "type" : "dateTime"
+  },
+  {
+    "code" : "dateMaj",
+    "description" : "Date de mise à jour d'un code concept",
+    "type" : "dateTime"
+  },
+  {
+    "code" : "dateFin",
+    "description" : "Date de fin d'exploitation d'un code concept",
+    "type" : "dateTime"
+  },
+  {
+    "code" : "dateValid",
+    "description" : "date de validité d'un code concept",
+    "type" : "dateTime"
+  },
+  {
+    "code" : "dateMaj",
+    "description" : "Date de mise à jour d'un code concept",
+    "type" : "dateTime"
+  },
+  {
+    "code" : "dateFin",
+    "description" : "Date de fin d'exploitation d'un code concept",
+    "type" : "dateTime"
+  }],
+  "concept" : [{
+    "code" : "DEF",
+    "display" : "Définitive",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2017-07-07T10:00:00+01:00"
+    },
+    {
+      "code" : "dateFin",
+      "valueDateTime" : "2019-01-25T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2019-01-25T12:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2017-07-07T10:00:00+01:00"
+    },
+    {
+      "code" : "dateFin",
+      "valueDateTime" : "2019-01-25T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2019-01-25T12:00:00+01:00"
+    }]
+  },
+  {
+    "code" : "ERR",
+    "display" : "Erreur",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2017-07-07T10:00:00+01:00"
+    },
+    {
+      "code" : "dateFin",
+      "valueDateTime" : "2019-01-25T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2019-01-25T12:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2017-07-07T10:00:00+01:00"
+    },
+    {
+      "code" : "dateFin",
+      "valueDateTime" : "2019-01-25T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2019-01-25T12:00:00+01:00"
+    }]
+  },
+  {
+    "code" : "NDI",
+    "display" : "Non défini",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2017-07-07T10:00:00+01:00"
+    },
+    {
+      "code" : "dateFin",
+      "valueDateTime" : "2019-01-25T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2019-01-25T12:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2017-07-07T10:00:00+01:00"
+    },
+    {
+      "code" : "dateFin",
+      "valueDateTime" : "2019-01-25T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2019-01-25T12:00:00+01:00"
+    }]
+  }]
+}

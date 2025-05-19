@@ -1,0 +1,123 @@
+{
+  "resourceType" : "CodeSystem",
+  "id" : "b481ae7f-6d15-4a0d-a9e0-ce3c41447770-164",
+  "url" : "http://hl7.org/fhir/comparison/CodeSystem/b481ae7f-6d15-4a0d-a9e0-ce3c41447770-164",
+  "name" : "UnionTRE_R206_TypeContactAndTRE_R206_TypeContact",
+  "title" : "Union of null And null",
+  "status" : "active",
+  "date" : "2025-05-19T13:23:32+00:00",
+  "property" : [{
+    "code" : "dateValid",
+    "description" : "date de validité d'un code concept",
+    "type" : "dateTime"
+  },
+  {
+    "code" : "dateMaj",
+    "description" : "Date de mise à jour d'un code concept",
+    "type" : "dateTime"
+  },
+  {
+    "code" : "dateFin",
+    "description" : "Date de fin d'exploitation d'un code concept",
+    "type" : "dateTime"
+  },
+  {
+    "code" : "dateValid",
+    "description" : "date de validité d'un code concept",
+    "type" : "dateTime"
+  },
+  {
+    "code" : "dateMaj",
+    "description" : "Date de mise à jour d'un code concept",
+    "type" : "dateTime"
+  },
+  {
+    "code" : "dateFin",
+    "description" : "Date de fin d'exploitation d'un code concept",
+    "type" : "dateTime"
+  }],
+  "concept" : [{
+    "code" : "1",
+    "display" : "Téléservice",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "SERV"
+    }],
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2015-03-25T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2015-03-25T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2015-03-25T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2015-03-25T00:00:00+01:00"
+    }]
+  },
+  {
+    "code" : "2",
+    "display" : "Téléphonique",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "TEL"
+    }],
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2015-03-25T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2015-03-25T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2015-03-25T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2015-03-25T00:00:00+01:00"
+    }]
+  },
+  {
+    "code" : "3",
+    "display" : "Physique",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "PHY"
+    }],
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2015-03-25T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2015-03-25T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2015-03-25T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2015-03-25T00:00:00+01:00"
+    }]
+  }]
+}

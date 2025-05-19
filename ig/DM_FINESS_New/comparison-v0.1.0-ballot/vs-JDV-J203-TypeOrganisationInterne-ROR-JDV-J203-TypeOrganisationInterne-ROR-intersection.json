@@ -1,0 +1,39 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "b481ae7f-6d15-4a0d-a9e0-ce3c41447770-1149",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/b481ae7f-6d15-4a0d-a9e0-ce3c41447770-1149",
+  "name" : "IntersectionJDV_J203_TypeOrganisationInterne_RORAndJDV_J203_TypeOrganisationInterne_ROR",
+  "title" : "Intersection of null And null",
+  "status" : "active",
+  "date" : "2025-05-19T13:23:33+00:00",
+  "compose" : {
+    "include" : [{
+      "concept" : [{
+        "code" : "1",
+        "display" : "Pôle"
+      },
+      {
+        "code" : "2",
+        "display" : "Structure interne ou Service"
+      },
+      {
+        "code" : "3",
+        "display" : "Unité fonctionnelle"
+      },
+      {
+        "code" : "4",
+        "display" : "Unité élémentaire"
+      }]
+    },
+    {
+      "concept" : [{
+        "code" : "EJ",
+        "display" : "Entité juridique"
+      },
+      {
+        "code" : "EG",
+        "display" : "Etablissement géographique"
+      }]
+    }]
+  }
+}

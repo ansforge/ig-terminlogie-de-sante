@@ -2,7 +2,7 @@
 <RetrieveValueSetResponse xmlns="urn:ihe:iti:svs:2008"
                           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
    <ValueSet dateFin=""
-             dateMaj="20250228120000"
+             dateMaj="20250425120000"
              dateValid="19790101000000"
              description="Catégorie d'établissements"
              displayName="TRE_R66_CategorieEtablissement"
@@ -2863,6 +2863,15 @@
                   longDesignation="Point Accueil Ecoute Jeunes (PAEJ)"
                   shortDesignation="PAEJ"
                   descriptionMetier="Catégorie créée à la demande du ROR. A date aucun enregistrement n'est prévu dans FINESS pour cette catégorie"/>
+         <concept code="703"
+                  codeSystem="1.2.250.1.213.1.6.1.8"
+                  dateFin=""
+                  dateMaj="20250425120000"
+                  dateValid="20250425120000"
+                  displayName="Espace Santé Jeunes (ESJ)"
+                  longDesignation="Espace Santé Jeunes (ESJ)"
+                  shortDesignation="ESJ"
+                  descriptionMetier=""/>
       </ConceptList>
    </ValueSet>
 </RetrieveValueSetResponse>

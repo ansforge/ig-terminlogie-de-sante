@@ -1,0 +1,57 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "b481ae7f-6d15-4a0d-a9e0-ce3c41447770-1421",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/b481ae7f-6d15-4a0d-a9e0-ce3c41447770-1421",
+  "name" : "UnionJDV_J47_FunctionCode_CISISAndJDV_J47_FunctionCode_CISIS",
+  "title" : "Union of null And null",
+  "status" : "active",
+  "date" : "2025-05-19T13:23:33+00:00",
+  "compose" : {
+    "include" : [{
+      "concept" : [{
+        "code" : "CORRE",
+        "display" : "Correspondant"
+      },
+      {
+        "code" : "PRELV",
+        "display" : "Préleveur"
+      },
+      {
+        "code" : "ES-REF",
+        "display" : "Etablissement de santé de référence"
+      },
+      {
+        "code" : "ES-PREF",
+        "display" : "Etablissement de santé de préférence"
+      }]
+    },
+    {
+      "concept" : [{
+        "code" : "ADMPHYS",
+        "display" : "Responsable de l'admission"
+      },
+      {
+        "code" : "ATTPHYS",
+        "display" : "Référent - Responsable du patient dans la structure de soins"
+      },
+      {
+        "code" : "DISPHYS",
+        "display" : "Responsable de la sortie"
+      },
+      {
+        "code" : "PCP",
+        "display" : "Médecin traitant"
+      }]
+    },
+    {
+      "concept" : [{
+        "code" : "330",
+        "display" : "Coordonnateur de parcours"
+      },
+      {
+        "code" : "353",
+        "display" : "Membre de l'équipe de soins"
+      }]
+    }]
+  }
+}

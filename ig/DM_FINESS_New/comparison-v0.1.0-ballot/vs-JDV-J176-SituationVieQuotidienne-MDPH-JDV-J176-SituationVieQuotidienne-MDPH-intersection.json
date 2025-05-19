@@ -1,0 +1,35 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "b481ae7f-6d15-4a0d-a9e0-ce3c41447770-1062",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/b481ae7f-6d15-4a0d-a9e0-ce3c41447770-1062",
+  "name" : "IntersectionJDV_J176_SituationVieQuotidienne_MDPHAndJDV_J176_SituationVieQuotidienne_MDPH",
+  "title" : "Intersection of null And null",
+  "status" : "active",
+  "date" : "2025-05-19T13:23:33+00:00",
+  "compose" : {
+    "include" : [{
+      "concept" : [{
+        "code" : "01",
+        "display" : "Seul"
+      },
+      {
+        "code" : "02",
+        "display" : "Avec les parents"
+      },
+      {
+        "code" : "03",
+        "display" : "Avec les enfants"
+      },
+      {
+        "code" : "04",
+        "display" : "En couple"
+      }]
+    },
+    {
+      "concept" : [{
+        "code" : "02",
+        "display" : "Autre"
+      }]
+    }]
+  }
+}

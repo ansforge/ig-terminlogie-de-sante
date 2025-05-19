@@ -1,0 +1,41 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "b481ae7f-6d15-4a0d-a9e0-ce3c41447770-1401",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/b481ae7f-6d15-4a0d-a9e0-ce3c41447770-1401",
+  "name" : "IntersectionJDV_J36_TypeTarif_RORAndJDV_J36_TypeTarif_ROR",
+  "title" : "Intersection of null And null",
+  "status" : "active",
+  "date" : "2025-05-19T13:23:33+00:00",
+  "compose" : {
+    "include" : [{
+      "concept" : [{
+        "code" : "01",
+        "display" : "Supplément tarif Hébergement SMR"
+      },
+      {
+        "code" : "02",
+        "display" : "Forfait socle hébergement"
+      },
+      {
+        "code" : "03",
+        "display" : "Dépendance"
+      },
+      {
+        "code" : "04",
+        "display" : "Prestation supplémentaire tarifée"
+      },
+      {
+        "code" : "05",
+        "display" : "Accueil de jour"
+      },
+      {
+        "code" : "06",
+        "display" : "Aide humaine à domicile"
+      },
+      {
+        "code" : "07",
+        "display" : "Portage de repas à domicile"
+      }]
+    }]
+  }
+}

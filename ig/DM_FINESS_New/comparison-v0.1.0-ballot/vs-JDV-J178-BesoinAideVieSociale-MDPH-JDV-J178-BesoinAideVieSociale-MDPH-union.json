@@ -1,0 +1,43 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "b481ae7f-6d15-4a0d-a9e0-ce3c41447770-1067",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/b481ae7f-6d15-4a0d-a9e0-ce3c41447770-1067",
+  "name" : "UnionJDV_J178_BesoinAideVieSociale_MDPHAndJDV_J178_BesoinAideVieSociale_MDPH",
+  "title" : "Union of null And null",
+  "status" : "active",
+  "date" : "2025-05-19T13:23:33+00:00",
+  "compose" : {
+    "include" : [{
+      "concept" : [{
+        "code" : "01",
+        "display" : "Communiquer"
+      },
+      {
+        "code" : "02",
+        "display" : "Avoir des activités sportives et des loisirs"
+      },
+      {
+        "code" : "03",
+        "display" : "Relations avec les autres"
+      },
+      {
+        "code" : "04",
+        "display" : "S'occuper de sa famille"
+      },
+      {
+        "code" : "05",
+        "display" : "Etre accompagné dans la vie citoyenne"
+      },
+      {
+        "code" : "06",
+        "display" : "Assurer sa sécurité"
+      }]
+    },
+    {
+      "concept" : [{
+        "code" : "02",
+        "display" : "Autre"
+      }]
+    }]
+  }
+}

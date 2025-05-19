@@ -1,0 +1,21 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "b481ae7f-6d15-4a0d-a9e0-ce3c41447770-1382",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/b481ae7f-6d15-4a0d-a9e0-ce3c41447770-1382",
+  "name" : "UnionJDV_J30_TemporaliteAccueil_RORAndJDV_J30_TemporaliteAccueil_ROR",
+  "title" : "Union of null And null",
+  "status" : "active",
+  "date" : "2025-05-19T13:23:33+00:00",
+  "compose" : {
+    "include" : [{
+      "concept" : [{
+        "code" : "01",
+        "display" : "Temporaire"
+      },
+      {
+        "code" : "02",
+        "display" : "Permanent"
+      }]
+    }]
+  }
+}

@@ -2,7 +2,7 @@
 <RetrieveValueSetResponse xmlns="urn:ihe:iti:svs:2008"
                           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
    <ValueSet dateFin=""
-             dateMaj="20241213120000"
+             dateMaj="20250425120000"
              dateValid="20190830120000"
              description="Ensemble des diplômes et qualifications du RASS"
              displayName="JDV_J105_EnsembleDiplome_RASS"
@@ -1588,9 +1588,6 @@
          <concept code="DE06"
                   codeSystem="1.2.250.1.213.1.6.1.31"
                   displayName="DE Sage-Femme"/>
-         <concept code="DE07"
-                  codeSystem="1.2.250.1.213.1.6.1.31"
-                  displayName="DE Audioprothésiste"/>
          <concept code="DE08"
                   codeSystem="1.2.250.1.213.1.6.1.31"
                   displayName="DE Opticien-Lunetier"/>
@@ -1615,12 +1612,6 @@
          <concept code="DE15"
                   codeSystem="1.2.250.1.213.1.6.1.31"
                   displayName="DE Psychologue"/>
-         <concept code="DE16"
-                  codeSystem="1.2.250.1.213.1.6.1.31"
-                  displayName="DE Ergothérapeute"/>
-         <concept code="DE17"
-                  codeSystem="1.2.250.1.213.1.6.1.31"
-                  displayName="DE Psychomotricien"/>
          <concept code="DE18"
                   codeSystem="1.2.250.1.213.1.6.1.31"
                   displayName="DE Manipulateur ERM"/>

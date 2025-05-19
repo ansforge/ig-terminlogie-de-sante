@@ -1,0 +1,96 @@
+{
+  "resourceType" : "CodeSystem",
+  "id" : "b481ae7f-6d15-4a0d-a9e0-ce3c41447770-566",
+  "url" : "http://hl7.org/fhir/comparison/CodeSystem/b481ae7f-6d15-4a0d-a9e0-ce3c41447770-566",
+  "name" : "UnionTRE_R345_TypeIdentifiantAutreAndTRE_R345_TypeIdentifiantAutre",
+  "title" : "Union of null And null",
+  "status" : "active",
+  "date" : "2025-05-19T13:23:33+00:00",
+  "property" : [{
+    "code" : "dateValid",
+    "description" : "date de validité d'un code concept",
+    "type" : "dateTime"
+  },
+  {
+    "code" : "dateMaj",
+    "description" : "Date de mise à jour d'un code concept",
+    "type" : "dateTime"
+  },
+  {
+    "code" : "dateFin",
+    "description" : "Date de fin d'exploitation d'un code concept",
+    "type" : "dateTime"
+  },
+  {
+    "code" : "dateValid",
+    "description" : "date de validité d'un code concept",
+    "type" : "dateTime"
+  },
+  {
+    "code" : "dateMaj",
+    "description" : "Date de mise à jour d'un code concept",
+    "type" : "dateTime"
+  },
+  {
+    "code" : "dateFin",
+    "description" : "Date de fin d'exploitation d'un code concept",
+    "type" : "dateTime"
+  }],
+  "concept" : [{
+    "code" : "42",
+    "display" : "Identifiant fonctionnel de l'OI connu par l'instance ROR",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "RORR_OIID"
+    }],
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2023-03-31T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2023-03-31T12:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2023-03-31T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2023-03-31T12:00:00+01:00"
+    }]
+  },
+  {
+    "code" : "43",
+    "display" : "Identifiant interne de l'OI connu par l'instance ROR",
+    "definition" : "Identifiant interne (technique) de l'organisation interne connu par l'instance ROR d'une région ou du ROR national.",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "RORR_T_OIID"
+    }],
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2023-03-31T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2023-03-31T12:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2023-03-31T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2023-03-31T12:00:00+01:00"
+    }]
+  }]
+}

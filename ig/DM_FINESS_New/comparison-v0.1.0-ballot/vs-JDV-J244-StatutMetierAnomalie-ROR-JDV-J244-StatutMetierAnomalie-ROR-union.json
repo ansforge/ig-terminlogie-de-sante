@@ -1,0 +1,57 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "b481ae7f-6d15-4a0d-a9e0-ce3c41447770-1274",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/b481ae7f-6d15-4a0d-a9e0-ce3c41447770-1274",
+  "name" : "UnionJDV_J244_StatutMetierAnomalie_RORAndJDV_J244_StatutMetierAnomalie_ROR",
+  "title" : "Union of null And null",
+  "status" : "active",
+  "date" : "2025-05-19T13:23:33+00:00",
+  "compose" : {
+    "include" : [{
+      "concept" : [{
+        "code" : "01",
+        "display" : "Créé"
+      },
+      {
+        "code" : "02",
+        "display" : "À traiter"
+      },
+      {
+        "code" : "03",
+        "display" : "Annulé"
+      },
+      {
+        "code" : "04",
+        "display" : "Bloqué (destinataire manquant)"
+      },
+      {
+        "code" : "05",
+        "display" : "Envoyé au destinataire"
+      },
+      {
+        "code" : "06",
+        "display" : "Toléré temporairement"
+      },
+      {
+        "code" : "07",
+        "display" : "Toléré définitivement"
+      },
+      {
+        "code" : "08",
+        "display" : "Corrigé"
+      },
+      {
+        "code" : "09",
+        "display" : "Refusé"
+      },
+      {
+        "code" : "10",
+        "display" : "À vérifier"
+      },
+      {
+        "code" : "11",
+        "display" : "Bloqué (destinataire erroné)"
+      }]
+    }]
+  }
+}

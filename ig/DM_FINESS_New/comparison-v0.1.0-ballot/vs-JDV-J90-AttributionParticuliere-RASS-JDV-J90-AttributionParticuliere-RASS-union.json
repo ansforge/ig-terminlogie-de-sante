@@ -1,0 +1,53 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "b481ae7f-6d15-4a0d-a9e0-ce3c41447770-1547",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/b481ae7f-6d15-4a0d-a9e0-ce3c41447770-1547",
+  "name" : "UnionJDV_J90_AttributionParticuliere_RASSAndJDV_J90_AttributionParticuliere_RASS",
+  "title" : "Union of null And null",
+  "status" : "active",
+  "date" : "2025-05-19T13:23:33+00:00",
+  "compose" : {
+    "include" : [{
+      "concept" : [{
+        "code" : "ATTR-01",
+        "display" : "Expert auprès des tribunaux (expertise judiciaire)"
+      },
+      {
+        "code" : "ATTR-02",
+        "display" : "Médecine légale"
+      },
+      {
+        "code" : "ATTR-03",
+        "display" : "Médecin agréé"
+      },
+      {
+        "code" : "ATTR-04",
+        "display" : "Expert auprès des assurances"
+      },
+      {
+        "code" : "ATTR-05",
+        "display" : "Expertises de Sécurité Sociale"
+      },
+      {
+        "code" : "ATTR-06",
+        "display" : "Expertise pour le Ministère des anciens combattants"
+      },
+      {
+        "code" : "ATTR-07",
+        "display" : "Collège des 3G"
+      },
+      {
+        "code" : "ATTR-08",
+        "display" : "Expert auprès des Comités médicaux et commissions de réforme (CMCR)"
+      },
+      {
+        "code" : "ATTR-09",
+        "display" : "Activité libérale de contrôle d'absentéisme"
+      },
+      {
+        "code" : "ATTR-10",
+        "display" : "Médecin de recours"
+      }]
+    }]
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "b481ae7f-6d15-4a0d-a9e0-ce3c41447770-1112",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/b481ae7f-6d15-4a0d-a9e0-ce3c41447770-1112",
+  "name" : "UnionJDV_J192_TypeLitSupplementaire_RORAndJDV_J192_TypeLitSupplementaire_ROR",
+  "title" : "Union of null And null",
+  "status" : "active",
+  "date" : "2025-05-19T13:23:33+00:00",
+  "compose" : {
+    "include" : [{
+      "concept" : [{
+        "code" : "01",
+        "display" : "Mobilisé"
+      },
+      {
+        "code" : "02",
+        "display" : "Mobilisable sans ressources humaines"
+      },
+      {
+        "code" : "03",
+        "display" : "Mobilisable avec ressources humaines"
+      }]
+    }]
+  }
+}

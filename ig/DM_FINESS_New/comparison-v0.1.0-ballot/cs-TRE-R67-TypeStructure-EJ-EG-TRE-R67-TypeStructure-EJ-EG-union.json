@@ -1,0 +1,79 @@
+{
+  "resourceType" : "CodeSystem",
+  "id" : "b481ae7f-6d15-4a0d-a9e0-ce3c41447770-689",
+  "url" : "http://hl7.org/fhir/comparison/CodeSystem/b481ae7f-6d15-4a0d-a9e0-ce3c41447770-689",
+  "name" : "UnionTRE_R67_TypeStructure_EJ_EGAndTRE_R67_TypeStructure_EJ_EG",
+  "title" : "Union of null And null",
+  "status" : "active",
+  "date" : "2025-05-19T13:23:33+00:00",
+  "property" : [{
+    "code" : "dateValid",
+    "description" : "date de validité d'un code concept",
+    "type" : "dateTime"
+  },
+  {
+    "code" : "dateMaj",
+    "description" : "Date de mise à jour d'un code concept",
+    "type" : "dateTime"
+  },
+  {
+    "code" : "dateFin",
+    "description" : "Date de fin d'exploitation d'un code concept",
+    "type" : "dateTime"
+  },
+  {
+    "code" : "dateValid",
+    "description" : "date de validité d'un code concept",
+    "type" : "dateTime"
+  },
+  {
+    "code" : "dateMaj",
+    "description" : "Date de mise à jour d'un code concept",
+    "type" : "dateTime"
+  },
+  {
+    "code" : "dateFin",
+    "description" : "Date de fin d'exploitation d'un code concept",
+    "type" : "dateTime"
+  }],
+  "concept" : [{
+    "code" : "EJ",
+    "display" : "Entité juridique",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2013-04-30T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2013-04-30T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2013-04-30T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2013-04-30T00:00:00+01:00"
+    }]
+  },
+  {
+    "code" : "EG",
+    "display" : "Etablissement géographique",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2013-04-30T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2013-04-30T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2013-04-30T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2013-04-30T00:00:00+01:00"
+    }]
+  }]
+}

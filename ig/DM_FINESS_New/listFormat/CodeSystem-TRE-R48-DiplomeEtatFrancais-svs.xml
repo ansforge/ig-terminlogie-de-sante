@@ -2,7 +2,7 @@
 <RetrieveValueSetResponse xmlns="urn:ihe:iti:svs:2008"
                           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
    <ValueSet dateFin=""
-             dateMaj="20240726120000"
+             dateMaj="20250425120000"
              dateValid="20151229000000"
              description="Diplôme de l'Etat français"
              displayName="TRE_R48_DiplomeEtatFrancais"
@@ -66,8 +66,8 @@
                   descriptionMetier=""/>
          <concept code="DE07"
                   codeSystem="1.2.250.1.213.1.6.1.31"
-                  dateFin=""
-                  dateMaj="20151229000000"
+                  dateFin="20250425120000"
+                  dateMaj="20250425120000"
                   dateValid="20070725150442"
                   displayName="DE Audioprothésiste"
                   longDesignation="DE Audioprothésiste"
@@ -147,8 +147,8 @@
                   descriptionMetier=""/>
          <concept code="DE16"
                   codeSystem="1.2.250.1.213.1.6.1.31"
-                  dateFin=""
-                  dateMaj="20080228000000"
+                  dateFin="20250425120000"
+                  dateMaj="20250425120000"
                   dateValid="20070725150442"
                   displayName="DE Ergothérapeute"
                   longDesignation="DE Ergothérapeute"
@@ -156,8 +156,8 @@
                   descriptionMetier=""/>
          <concept code="DE17"
                   codeSystem="1.2.250.1.213.1.6.1.31"
-                  dateFin=""
-                  dateMaj="20080228000000"
+                  dateFin="20250425120000"
+                  dateMaj="20250425120000"
                   dateValid="20070725150442"
                   displayName="DE Psychomotricien"
                   longDesignation="DE Psychomotricien"

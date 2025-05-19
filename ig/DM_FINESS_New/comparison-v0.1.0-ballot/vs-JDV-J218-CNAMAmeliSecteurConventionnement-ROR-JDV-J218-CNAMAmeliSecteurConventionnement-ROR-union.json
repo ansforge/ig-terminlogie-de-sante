@@ -1,0 +1,29 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "b481ae7f-6d15-4a0d-a9e0-ce3c41447770-1196",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/b481ae7f-6d15-4a0d-a9e0-ce3c41447770-1196",
+  "name" : "UnionJDV_J218_CNAMAmeliSecteurConventionnement_RORAndJDV_J218_CNAMAmeliSecteurConventionnement_ROR",
+  "title" : "Union of null And null",
+  "status" : "active",
+  "date" : "2025-05-19T13:23:33+00:00",
+  "compose" : {
+    "include" : [{
+      "concept" : [{
+        "code" : "nc",
+        "display" : "Non conventionné"
+      },
+      {
+        "code" : "c1",
+        "display" : "Secteur 1 ou conventionné"
+      },
+      {
+        "code" : "c2",
+        "display" : "Secteur 1 ou conventionné avec droit au dépassement permanent"
+      },
+      {
+        "code" : "c3",
+        "display" : "Secteur 2"
+      }]
+    }]
+  }
+}

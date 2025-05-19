@@ -42,6 +42,10 @@
   fhir:publisher [ fhir:v "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris"] ; # 
   fhir:description [ fhir:v "Référentiel des codes départements et collectivités d’outre-mer provenant du COG INSEE + Monaco"] ; # 
   fhir:caseSensitive [ fhir:v false] ; # 
+  fhir:valueSet [
+     fhir:v "https://mos.esante.gouv.fr/NOS/TRE_G09-DepartementOM/FHIR/TRE-G09-DepartementOM?vs"^^xsd:anyURI ;
+     fhir:link <https://mos.esante.gouv.fr/NOS/TRE_G09-DepartementOM/FHIR/TRE-G09-DepartementOM?vs>
+  ] ; # 
   fhir:content [ fhir:v "complete"] ; # 
   fhir:count [ fhir:v "113"^^xsd:nonNegativeInteger] ; # 
   fhir:property ( [

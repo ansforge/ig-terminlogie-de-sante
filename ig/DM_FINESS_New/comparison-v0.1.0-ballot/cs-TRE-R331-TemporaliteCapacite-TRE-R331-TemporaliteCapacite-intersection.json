@@ -1,0 +1,139 @@
+{
+  "resourceType" : "CodeSystem",
+  "id" : "b481ae7f-6d15-4a0d-a9e0-ce3c41447770-525",
+  "url" : "http://hl7.org/fhir/comparison/CodeSystem/b481ae7f-6d15-4a0d-a9e0-ce3c41447770-525",
+  "name" : "IntersectionTRE_R331_TemporaliteCapaciteAndTRE_R331_TemporaliteCapacite",
+  "title" : "Intersection of null And null",
+  "status" : "active",
+  "date" : "2025-05-19T13:23:33+00:00",
+  "property" : [{
+    "code" : "dateValid",
+    "description" : "date de validité d'un code concept",
+    "type" : "dateTime"
+  },
+  {
+    "code" : "dateMaj",
+    "description" : "Date de mise à jour d'un code concept",
+    "type" : "dateTime"
+  },
+  {
+    "code" : "dateFin",
+    "description" : "Date de fin d'exploitation d'un code concept",
+    "type" : "dateTime"
+  },
+  {
+    "code" : "dateValid",
+    "description" : "date de validité d'un code concept",
+    "type" : "dateTime"
+  },
+  {
+    "code" : "dateMaj",
+    "description" : "Date de mise à jour d'un code concept",
+    "type" : "dateTime"
+  },
+  {
+    "code" : "dateFin",
+    "description" : "Date de fin d'exploitation d'un code concept",
+    "type" : "dateTime"
+  }],
+  "concept" : [{
+    "code" : "01",
+    "display" : "Courant",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2022-05-27T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2022-05-27T12:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2022-05-27T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2022-05-27T12:00:00+01:00"
+    }]
+  },
+  {
+    "code" : "02",
+    "display" : "Prévisionnel 1 heure",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2022-05-27T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2022-05-27T12:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2022-05-27T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2022-05-27T12:00:00+01:00"
+    }]
+  },
+  {
+    "code" : "03",
+    "display" : "Prévisionnel 24 heures",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2022-05-27T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2022-05-27T12:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2022-05-27T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2022-05-27T12:00:00+01:00"
+    }]
+  },
+  {
+    "code" : "04",
+    "display" : "Prévisionnel 48 heures",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2022-05-27T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2022-05-27T12:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2022-05-27T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2022-05-27T12:00:00+01:00"
+    }]
+  },
+  {
+    "code" : "05",
+    "display" : "Prévisionnel 7 jours",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2022-05-27T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2022-05-27T12:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2022-05-27T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2022-05-27T12:00:00+01:00"
+    }]
+  }]
+}

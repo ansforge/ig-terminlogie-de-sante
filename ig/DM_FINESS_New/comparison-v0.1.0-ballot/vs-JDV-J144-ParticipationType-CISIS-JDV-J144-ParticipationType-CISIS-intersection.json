@@ -1,0 +1,41 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "b481ae7f-6d15-4a0d-a9e0-ce3c41447770-966",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/b481ae7f-6d15-4a0d-a9e0-ce3c41447770-966",
+  "name" : "IntersectionJDV_J144_ParticipationType_CISISAndJDV_J144_ParticipationType_CISIS",
+  "title" : "Intersection of null And null",
+  "status" : "active",
+  "date" : "2025-05-19T13:23:33+00:00",
+  "compose" : {
+    "include" : [{
+      "concept" : [{
+        "code" : "REF",
+        "display" : "Référent / Prescripteur"
+      },
+      {
+        "code" : "REFB",
+        "display" : "Personne ayant adressé le patient"
+      },
+      {
+        "code" : "INF",
+        "display" : "Informateur"
+      },
+      {
+        "code" : "RESP",
+        "display" : "Responsable de l'acte"
+      },
+      {
+        "code" : "PRF",
+        "display" : "Exécutant"
+      },
+      {
+        "code" : "CON",
+        "display" : "Consultant"
+      },
+      {
+        "code" : "VRF",
+        "display" : "Vérificateur"
+      }]
+    }]
+  }
+}

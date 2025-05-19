@@ -2,7 +2,7 @@
 <RetrieveValueSetResponse xmlns="urn:ihe:iti:svs:2008"
                           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
    <ValueSet dateFin=""
-             dateMaj="20241213120000"
+             dateMaj="20250425120000"
              dateValid="20160901000000"
              description="Activité Operationnelle - ROR"
              displayName="JDV_J17_ActiviteOperationnelle_ROR"
@@ -106,7 +106,7 @@
                   displayName="Gériatrie, Gérontologie"/>
          <concept code="051"
                   codeSystem="1.2.250.1.213.3.3.12"
-                  displayName="Géronto-psychiatrie"/>
+                  displayName="Psychiatrie du sujet âgé (et géronto-psychiatrie)"/>
          <concept code="052"
                   codeSystem="1.2.250.1.213.3.3.12"
                   displayName="Gestion de crise, plan blanc"/>
@@ -205,7 +205,7 @@
                   displayName="Microbiologie"/>
          <concept code="094"
                   codeSystem="1.2.250.1.213.3.3.12"
-                  displayName="Néonatologie"/>
+                  displayName="Néonatalogie"/>
          <concept code="095"
                   codeSystem="1.2.250.1.213.3.3.12"
                   displayName="Néphrologie"/>
@@ -520,10 +520,10 @@
                   displayName="Expertise des infections osteo-articulaires complexes (CRIOA, CRIOAC)"/>
          <concept code="227"
                   codeSystem="1.2.250.1.213.3.3.12"
-                  displayName="Psychiatrie infanto-juvénile (pédopsychiatrie)"/>
+                  displayName="Psychiatrie de l'enfant"/>
          <concept code="228"
                   codeSystem="1.2.250.1.213.3.3.12"
-                  displayName="Psychiatrie des adolescents (pédopsychiatrie) et jeunes adultes"/>
+                  displayName="Psychiatrie de l'adolescent"/>
          <concept code="229"
                   codeSystem="1.2.250.1.213.3.3.12"
                   displayName="Psychiatrie adulte"/>
@@ -1181,9 +1181,6 @@
          <concept code="469"
                   codeSystem="1.2.250.1.213.3.3.12"
                   displayName="Chirurgie orthopédique et traumatologique spécialisée membres supérieurs (sauf la main)"/>
-         <concept code="470"
-                  codeSystem="1.2.250.1.213.3.3.12"
-                  displayName="Chirurgie orthopédique et traumatologique spécialisée tumeur"/>
          <concept code="471"
                   codeSystem="1.2.250.1.213.3.3.12"
                   displayName="Orientation vers un médecin traitant acceptant de nouveaux patients"/>
@@ -1490,6 +1487,33 @@
          <concept code="573"
                   codeSystem="1.2.250.1.213.3.3.12"
                   displayName="Soins infirmiers orientation Diabète"/>
+         <concept code="574"
+                  codeSystem="1.2.250.1.213.3.3.12"
+                  displayName="Ergothérapie orientation accompagnement dans le cadre des maladies chroniques"/>
+         <concept code="575"
+                  codeSystem="1.2.250.1.213.3.3.12"
+                  displayName="Ergothérapie orientation compensation matérielle dans l'environnement de la personne"/>
+         <concept code="576"
+                  codeSystem="1.2.250.1.213.3.3.12"
+                  displayName="Ergothérapie orientation Gériatrie"/>
+         <concept code="577"
+                  codeSystem="1.2.250.1.213.3.3.12"
+                  displayName="Ergothérapie orientation Neurologie"/>
+         <concept code="578"
+                  codeSystem="1.2.250.1.213.3.3.12"
+                  displayName="Ergothérapie orientation Pédiatrie"/>
+         <concept code="579"
+                  codeSystem="1.2.250.1.213.3.3.12"
+                  displayName="Ergothérapie orientation Psychiatrie et Santé mentale"/>
+         <concept code="580"
+                  codeSystem="1.2.250.1.213.3.3.12"
+                  displayName="Evaluation en ergothérapie par l'analyse d'activité et accompagnement dans l'environnement de la personne"/>
+         <concept code="581"
+                  codeSystem="1.2.250.1.213.3.3.12"
+                  displayName="Interventions éducatives pour renforcer l'autorégulation"/>
+         <concept code="582"
+                  codeSystem="1.2.250.1.213.3.3.12"
+                  displayName="Orientation vers professionnel pour diagnostic"/>
       </ConceptList>
    </ValueSet>
 </RetrieveValueSetResponse>

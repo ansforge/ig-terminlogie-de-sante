@@ -19,13 +19,13 @@
   ] ; # 
   fhir:text [
      fhir:status [ fhir:v "generated" ] ;
-     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: CodeSystem tre-r378-motif-arrete</b></p><a name=\"tre-r378-motif-arrete\"> </a><a name=\"hctre-r378-motif-arrete\"> </a><a name=\"tre-r378-motif-arrete-fr-FR\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">version: 1; Last updated: 2024-12-30 12:00:00+0100</p><p style=\"margin-bottom: 0px\">Profil: <a href=\"http://hl7.org/fhir/R4/shareablecodesystem.html\">Shareable CodeSystem</a></p></div><p><b>Propriétés</b></p><p><b>Cette terminologie de référence (CodeSystem) définit les propriétés suivantes pour ses concepts</b></p><table class=\"grid\"><tr><td><b>Nom</b></td><td><b>Code</b></td><td><b>URI</b></td><td><b>Type</b></td><td><b>Description</b></td></tr><tr><td>dateValid</td><td>dateValid</td><td/><td>dateTime</td><td>date de validité d'un code concept</td></tr><tr><td>dateMaj</td><td>dateMaj</td><td/><td>dateTime</td><td>Date de mise à jour d'un code concept</td></tr><tr><td>dateFin</td><td>dateFin</td><td/><td>dateTime</td><td>Date de fin d'exploitation d'un code concept</td></tr><tr><td>status</td><td>status</td><td>http://hl7.org/fhir/concept-properties#status</td><td>code</td><td>Statut d'un code concept</td></tr><tr><td>deprecationDate</td><td>deprecationDate</td><td>http://hl7.org/fhir/concept-properties#deprecationDate</td><td>dateTime</td><td>Date de dépréciation du code</td></tr><tr><td>retirementDate</td><td>retirementDate</td><td>http://hl7.org/fhir/concept-properties#retirementDate</td><td>dateTime</td><td>Date de retrait du code</td></tr></table><p><b>Concepts</b></p><p>This case-insensitive code system <code>https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r378-motif-arrete</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>dateValid</b></td><td><b>dateMaj</b></td><td><b>status</b></td></tr><tr><td style=\"white-space:nowrap\">C<a name=\"tre-r378-motif-arrete-C\"> </a></td><td>Création</td><td>2024-12-30T00:00:00+01:00</td><td>2024-12-30T00:00:00+01:00</td><td>active</td></tr><tr><td style=\"white-space:nowrap\">F<a name=\"tre-r378-motif-arrete-F\"> </a></td><td>Fermeture</td><td>2024-12-30T00:00:00+01:00</td><td>2024-12-30T00:00:00+01:00</td><td>active</td></tr><tr><td style=\"white-space:nowrap\">P<a name=\"tre-r378-motif-arrete-P\"> </a></td><td>Petite extension</td><td>2024-12-30T00:00:00+01:00</td><td>2024-12-30T00:00:00+01:00</td><td>active</td></tr><tr><td style=\"white-space:nowrap\">R<a name=\"tre-r378-motif-arrete-R\"> </a></td><td>Réduction</td><td>2024-12-30T00:00:00+01:00</td><td>2024-12-30T00:00:00+01:00</td><td>active</td></tr><tr><td style=\"white-space:nowrap\">T<a name=\"tre-r378-motif-arrete-T\"> </a></td><td>Transfert</td><td>2024-12-30T00:00:00+01:00</td><td>2024-12-30T00:00:00+01:00</td><td>active</td></tr><tr><td style=\"white-space:nowrap\">V<a name=\"tre-r378-motif-arrete-V\"> </a></td><td>Conversion</td><td>2024-12-30T00:00:00+01:00</td><td>2024-12-30T00:00:00+01:00</td><td>active</td></tr><tr><td style=\"white-space:nowrap\">X<a name=\"tre-r378-motif-arrete-X\"> </a></td><td>Extension</td><td>2024-12-30T00:00:00+01:00</td><td>2024-12-30T00:00:00+01:00</td><td>active</td></tr></table></div>"^^rdf:XMLLiteral
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: CodeSystem tre-r378-motif-arrete</b></p><a name=\"tre-r378-motif-arrete\"> </a><a name=\"hctre-r378-motif-arrete\"> </a><a name=\"tre-r378-motif-arrete-fr-FR\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">version: 1; Last updated: 2024-12-30 12:00:00+0100</p><p style=\"margin-bottom: 0px\">Profil: <a href=\"http://hl7.org/fhir/R4/shareablecodesystem.html\">Shareable CodeSystem</a></p></div><p><b>Propriétés</b></p><p><b>Cette terminologie de référence (CodeSystem) définit les propriétés suivantes pour ses concepts</b></p><table class=\"grid\"><tr><td><b>Nom</b></td><td><b>Code</b></td><td><b>URI</b></td><td><b>Type</b></td><td><b>Description</b></td></tr><tr><td>dateValid</td><td>dateValid</td><td/><td>dateTime</td><td>date de validité d'un code concept</td></tr><tr><td>dateMaj</td><td>dateMaj</td><td/><td>dateTime</td><td>Date de mise à jour d'un code concept</td></tr><tr><td>dateFin</td><td>dateFin</td><td/><td>dateTime</td><td>Date de fin d'exploitation d'un code concept</td></tr><tr><td>status</td><td>status</td><td>http://hl7.org/fhir/concept-properties#status</td><td>code</td><td>Statut d'un code concept</td></tr><tr><td>deprecationDate</td><td>deprecationDate</td><td>http://hl7.org/fhir/concept-properties#deprecationDate</td><td>dateTime</td><td>Date de dépréciation du code</td></tr><tr><td>retirementDate</td><td>retirementDate</td><td>http://hl7.org/fhir/concept-properties#retirementDate</td><td>dateTime</td><td>Date de retrait du code</td></tr></table><p><b>Concepts</b></p><p>This case-insensitive code system <code>https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r378-motif-arrete</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>dateValid</b></td><td><b>dateMaj</b></td><td><b>status</b></td></tr><tr><td style=\"white-space:nowrap\">C<a name=\"tre-r378-motif-arrete-C\"> </a></td><td>Création</td><td>1900-01-01T00:00:00+01:00</td><td>1900-01-01T00:00:00+01:00</td><td>active</td></tr><tr><td style=\"white-space:nowrap\">F<a name=\"tre-r378-motif-arrete-F\"> </a></td><td>Fermeture</td><td>1900-01-01T00:00:00+01:00</td><td>1900-01-01T00:00:00+01:00</td><td>active</td></tr><tr><td style=\"white-space:nowrap\">P<a name=\"tre-r378-motif-arrete-P\"> </a></td><td>Petite extension</td><td>1900-01-01T00:00:00+01:00</td><td>1900-01-01T00:00:00+01:00</td><td>active</td></tr><tr><td style=\"white-space:nowrap\">R<a name=\"tre-r378-motif-arrete-R\"> </a></td><td>Réduction</td><td>1900-01-01T00:00:00+01:00</td><td>1900-01-01T00:00:00+01:00</td><td>active</td></tr><tr><td style=\"white-space:nowrap\">T<a name=\"tre-r378-motif-arrete-T\"> </a></td><td>Transfert</td><td>1900-01-01T00:00:00+01:00</td><td>1900-01-01T00:00:00+01:00</td><td>active</td></tr><tr><td style=\"white-space:nowrap\">V<a name=\"tre-r378-motif-arrete-V\"> </a></td><td>Conversion</td><td>1900-01-01T00:00:00+01:00</td><td>1900-01-01T00:00:00+01:00</td><td>active</td></tr><tr><td style=\"white-space:nowrap\">X<a name=\"tre-r378-motif-arrete-X\"> </a></td><td>Extension</td><td>1900-01-01T00:00:00+01:00</td><td>1900-01-01T00:00:00+01:00</td><td>active</td></tr></table></div>"^^rdf:XMLLiteral
   ] ; # 
   fhir:extension ( [
      fhir:url [ fhir:v "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod"^^xsd:anyURI ] ;
      fhir:value [
        a fhir:Period ;
-       fhir:start [ fhir:v "2024-12-30T12:00:00+01:00"^^xsd:dateTime ]
+       fhir:start [ fhir:v "1900-01-01T00:00:00+01:00"^^xsd:dateTime ]
      ]
   ] ) ; # 
   fhir:url [ fhir:v "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r378-motif-arrete"^^xsd:anyURI] ; # 
@@ -40,7 +40,7 @@
   fhir:experimental [ fhir:v false] ; # 
   fhir:date [ fhir:v "2024-12-30T12:00:00+01:00"^^xsd:dateTime] ; # 
   fhir:publisher [ fhir:v "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris"] ; # 
-  fhir:description [ fhir:v "Nomenclature des motifs des arrêtés enregsitrées dans FINESS+"] ; # 
+  fhir:description [ fhir:v "Nomenclature des motifs des arrêtés Remarque : initialisé avec les motifs des arrêtés enregistrés dans FINESS+"] ; # 
   fhir:caseSensitive [ fhir:v false] ; # 
   fhir:valueSet [
      fhir:v "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r378-motif-arrete?vs"^^xsd:anyURI ;
@@ -83,13 +83,13 @@
        fhir:code [ fhir:v "dateValid" ] ;
        fhir:value [
          a fhir:dateTime ;
-         fhir:v "2024-12-30T00:00:00+01:00"^^xsd:dateTime
+         fhir:v "1900-01-01T00:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
        fhir:value [
          a fhir:dateTime ;
-         fhir:v "2024-12-30T00:00:00+01:00"^^xsd:dateTime
+         fhir:v "1900-01-01T00:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "status" ] ;
@@ -105,13 +105,13 @@
        fhir:code [ fhir:v "dateValid" ] ;
        fhir:value [
          a fhir:dateTime ;
-         fhir:v "2024-12-30T00:00:00+01:00"^^xsd:dateTime
+         fhir:v "1900-01-01T00:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
        fhir:value [
          a fhir:dateTime ;
-         fhir:v "2024-12-30T00:00:00+01:00"^^xsd:dateTime
+         fhir:v "1900-01-01T00:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "status" ] ;
@@ -127,13 +127,13 @@
        fhir:code [ fhir:v "dateValid" ] ;
        fhir:value [
          a fhir:dateTime ;
-         fhir:v "2024-12-30T00:00:00+01:00"^^xsd:dateTime
+         fhir:v "1900-01-01T00:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
        fhir:value [
          a fhir:dateTime ;
-         fhir:v "2024-12-30T00:00:00+01:00"^^xsd:dateTime
+         fhir:v "1900-01-01T00:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "status" ] ;
@@ -149,13 +149,13 @@
        fhir:code [ fhir:v "dateValid" ] ;
        fhir:value [
          a fhir:dateTime ;
-         fhir:v "2024-12-30T00:00:00+01:00"^^xsd:dateTime
+         fhir:v "1900-01-01T00:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
        fhir:value [
          a fhir:dateTime ;
-         fhir:v "2024-12-30T00:00:00+01:00"^^xsd:dateTime
+         fhir:v "1900-01-01T00:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "status" ] ;
@@ -171,13 +171,13 @@
        fhir:code [ fhir:v "dateValid" ] ;
        fhir:value [
          a fhir:dateTime ;
-         fhir:v "2024-12-30T00:00:00+01:00"^^xsd:dateTime
+         fhir:v "1900-01-01T00:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
        fhir:value [
          a fhir:dateTime ;
-         fhir:v "2024-12-30T00:00:00+01:00"^^xsd:dateTime
+         fhir:v "1900-01-01T00:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "status" ] ;
@@ -193,13 +193,13 @@
        fhir:code [ fhir:v "dateValid" ] ;
        fhir:value [
          a fhir:dateTime ;
-         fhir:v "2024-12-30T00:00:00+01:00"^^xsd:dateTime
+         fhir:v "1900-01-01T00:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
        fhir:value [
          a fhir:dateTime ;
-         fhir:v "2024-12-30T00:00:00+01:00"^^xsd:dateTime
+         fhir:v "1900-01-01T00:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "status" ] ;
@@ -215,13 +215,13 @@
        fhir:code [ fhir:v "dateValid" ] ;
        fhir:value [
          a fhir:dateTime ;
-         fhir:v "2024-12-30T00:00:00+01:00"^^xsd:dateTime
+         fhir:v "1900-01-01T00:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
        fhir:value [
          a fhir:dateTime ;
-         fhir:v "2024-12-30T00:00:00+01:00"^^xsd:dateTime
+         fhir:v "1900-01-01T00:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "status" ] ;

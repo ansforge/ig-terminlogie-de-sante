@@ -1,0 +1,31 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "b481ae7f-6d15-4a0d-a9e0-ce3c41447770-1437",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/b481ae7f-6d15-4a0d-a9e0-ce3c41447770-1437",
+  "name" : "IntersectionJDV_J52_AvailabilityStatus_CISISAndJDV_J52_AvailabilityStatus_CISIS",
+  "title" : "Intersection of null And null",
+  "status" : "active",
+  "date" : "2025-05-19T13:23:33+00:00",
+  "compose" : {
+    "include" : [{
+      "concept" : [{
+        "code" : "urn:oasis:names:tc:ebxml-regrep:StatusType:Approved",
+        "display" : "Version à jour"
+      },
+      {
+        "code" : "urn:oasis:names:tc:ebxml-regrep:StatusType:Deprecated",
+        "display" : "Version obsolète"
+      }]
+    },
+    {
+      "concept" : [{
+        "code" : "urn:asip:ci-sis:2010:StatusType:Archived",
+        "display" : "Version archivée et à jour"
+      },
+      {
+        "code" : "urn:asip:ci-sis:2010:StatusType:Deleted",
+        "display" : "Version dépubliée"
+      }]
+    }]
+  }
+}

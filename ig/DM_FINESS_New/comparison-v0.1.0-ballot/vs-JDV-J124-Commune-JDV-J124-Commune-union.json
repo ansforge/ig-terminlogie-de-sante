@@ -1,0 +1,18 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "b481ae7f-6d15-4a0d-a9e0-ce3c41447770-899",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/b481ae7f-6d15-4a0d-a9e0-ce3c41447770-899",
+  "name" : "UnionJDV_J124_CommuneAndJDV_J124_Commune",
+  "title" : "Union of null And null",
+  "status" : "active",
+  "date" : "2025-05-19T13:23:33+00:00",
+  "compose" : {
+    "include" : [{
+      "filter" : [{
+        "property" : "dateFin",
+        "op" : "exists",
+        "value" : "false"
+      }]
+    }]
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "b481ae7f-6d15-4a0d-a9e0-ce3c41447770-875",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/b481ae7f-6d15-4a0d-a9e0-ce3c41447770-875",
+  "name" : "UnionJDV_J117_ModeExercice_ENREGAndJDV_J117_ModeExercice_ENREG",
+  "title" : "Union of null And null",
+  "status" : "active",
+  "date" : "2025-05-19T13:23:33+00:00",
+  "compose" : {
+    "include" : [{
+      "concept" : [{
+        "code" : "S",
+        "display" : "Salarié"
+      },
+      {
+        "code" : "L",
+        "display" : "Libéral, indépendant, artisan, commerçant"
+      },
+      {
+        "code" : "B",
+        "display" : "Bénévole"
+      }]
+    }]
+  }
+}

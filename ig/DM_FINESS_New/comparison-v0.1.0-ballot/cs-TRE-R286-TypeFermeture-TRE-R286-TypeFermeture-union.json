@@ -1,0 +1,251 @@
+{
+  "resourceType" : "CodeSystem",
+  "id" : "b481ae7f-6d15-4a0d-a9e0-ce3c41447770-404",
+  "url" : "http://hl7.org/fhir/comparison/CodeSystem/b481ae7f-6d15-4a0d-a9e0-ce3c41447770-404",
+  "name" : "UnionTRE_R286_TypeFermetureAndTRE_R286_TypeFermeture",
+  "title" : "Union of null And null",
+  "status" : "active",
+  "date" : "2025-05-19T13:23:33+00:00",
+  "property" : [{
+    "code" : "dateValid",
+    "description" : "date de validité d'un code concept",
+    "type" : "dateTime"
+  },
+  {
+    "code" : "dateMaj",
+    "description" : "Date de mise à jour d'un code concept",
+    "type" : "dateTime"
+  },
+  {
+    "code" : "dateFin",
+    "description" : "Date de fin d'exploitation d'un code concept",
+    "type" : "dateTime"
+  },
+  {
+    "code" : "dateValid",
+    "description" : "date de validité d'un code concept",
+    "type" : "dateTime"
+  },
+  {
+    "code" : "dateMaj",
+    "description" : "Date de mise à jour d'un code concept",
+    "type" : "dateTime"
+  },
+  {
+    "code" : "dateFin",
+    "description" : "Date de fin d'exploitation d'un code concept",
+    "type" : "dateTime"
+  },
+  {
+    "code" : "status",
+    "uri" : "http://hl7.org/fhir/concept-properties#status",
+    "description" : "Statut d'un code concept",
+    "type" : "code"
+  },
+  {
+    "code" : "deprecationDate",
+    "uri" : "http://hl7.org/fhir/concept-properties#deprecationDate",
+    "description" : "Date de dépréciation du code",
+    "type" : "dateTime"
+  },
+  {
+    "code" : "retirementDate",
+    "uri" : "http://hl7.org/fhir/concept-properties#retirementDate",
+    "description" : "Date de retrait du code",
+    "type" : "dateTime"
+  },
+  {
+    "code" : "PM",
+    "description" : "Permet de définir les types de fermeture applicables aux personnes morales FINESS+",
+    "type" : "boolean"
+  },
+  {
+    "code" : "EGE",
+    "description" : "Permet de définir les types de fermeture applicables aux entités géographiques FINESS+",
+    "type" : "boolean"
+  }],
+  "concept" : [{
+    "code" : "DEF",
+    "display" : "Définitive",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2019-01-25T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2019-01-25T12:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2019-01-25T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2019-01-25T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    },
+    {
+      "code" : "PM",
+      "valueBoolean" : true
+    },
+    {
+      "code" : "EGE",
+      "valueBoolean" : true
+    }]
+  },
+  {
+    "code" : "ERR",
+    "display" : "Erreur",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2019-01-25T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2019-01-25T12:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2019-01-25T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2019-01-25T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    },
+    {
+      "code" : "PM",
+      "valueBoolean" : true
+    },
+    {
+      "code" : "EGE",
+      "valueBoolean" : true
+    }]
+  },
+  {
+    "code" : "NDI",
+    "display" : "Non défini",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2019-01-25T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2019-01-25T12:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2019-01-25T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2019-01-25T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    },
+    {
+      "code" : "PM",
+      "valueBoolean" : true
+    }]
+  },
+  {
+    "code" : "CHP",
+    "display" : "Sortie du champ FINESS",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2019-01-25T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2019-01-25T12:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2019-01-25T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2019-01-25T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    },
+    {
+      "code" : "EGE",
+      "valueBoolean" : true
+    }]
+  },
+  {
+    "code" : "EML",
+    "display" : "Ancienne autorisation fonctionnement EML",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "Anc autor fonct EML"
+    }],
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2019-01-25T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2019-01-25T12:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2019-01-25T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2019-01-25T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    },
+    {
+      "code" : "EGE",
+      "valueBoolean" : true
+    }]
+  },
+  {
+    "code" : "PRO",
+    "display" : "Provisoire",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2019-01-25T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2019-01-25T12:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2019-01-25T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2019-01-25T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    },
+    {
+      "code" : "EGE",
+      "valueBoolean" : true
+    }]
+  }]
+}

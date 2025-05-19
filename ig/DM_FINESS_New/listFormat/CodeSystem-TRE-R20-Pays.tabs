@@ -1,5 +1,5 @@
 <OID>;<Type fichier>;<Nom fichier>;<Description>;<URL fichier>;<Date valid>;<Date fin>;<Date MAJ>
-1.2.250.1.213.2.24;TRE;TRE_R20_Pays.tabs;Référentiel des codes pays provenant du COG INSEE;https://mos.esante.gouv.fr/NOS/TRE_R20-Pays;20160209000000;;20241213120000
+1.2.250.1.213.2.24;TRE;TRE_R20_Pays.tabs;Référentiel des codes pays provenant du COG INSEE;https://mos.esante.gouv.fr/NOS/TRE_R20-Pays;20160209000000;;20250328120000
 <OID>;<Code>;<Libellé adapté>;<Libellé court>;<Libellé long>;<Date valid>;<Date fin>;<Date MAJ> 
 1.2.250.1.213.2.24;99000;République française;France;République française;20160209000000;20160901000000;20240126120000
 1.2.250.1.213.2.24;99100;République française;France;République française;20160901000000;;20240126120000
@@ -35,7 +35,7 @@
 1.2.250.1.213.2.24;99130;Principauté d'Andorre;Andorre;Principauté d'Andorre;20160209000000;;20240126120000
 1.2.250.1.213.2.24;99131;Royaume de Belgique;Belgique;Royaume de Belgique;20160209000000;;20240126120000
 1.2.250.1.213.2.24;99132;Royaume-Uni de Grande-Bretagne et d'Irlande du Nord;Royaume-Uni;Royaume-Uni de Grande-Bretagne et d'Irlande du Nord;20160209000000;;20240126120000
-1.2.250.1.213.2.24;99133;Gibraltar, Akrotiri, Dhekelia;Terr. britannique Méditerranée;Territoires britanniques en Méditerranée;20160209000000;;20241213120000
+1.2.250.1.213.2.24;99133;Gibraltar, Akrotiri et Dhekelia;Terr. britannique Méditerranée;Territoires britanniques en Méditerranée;20160209000000;;20250328120000
 1.2.250.1.213.2.24;99134;Royaume d'Espagne;Espagne;Royaume d'Espagne;20160209000000;;20240126120000
 1.2.250.1.213.2.24;99135;Royaume des Pays-Bas;Pays-Bas;Royaume des Pays-Bas;20160209000000;;20240126120000
 1.2.250.1.213.2.24;99136;Irlande;Irlande;Irlande;20160209000000;;20240628120000
@@ -121,7 +121,7 @@
 1.2.250.1.213.2.24;99305;Cameroun et Togo;Cameroun et Togo;Cameroun et Togo;20160209000000;20160209000000;20240126120000
 1.2.250.1.213.2.24;99306;Îles Sainte-Hélène, Ascension, Tristan-da-Cunha;Terr. britan. océan Atlantique;Territoires britanniques de l'océan Atlantique;20160209000000;;20241213120000
 1.2.250.1.213.2.24;99307;Sondan anglo-égyptien, Kenya, Ouganda;Soudan, Kenya, Ouganda;Sondan anglo-égyptien, Kenya, Ouganda;20160209000000;20160209000000;20240126120000
-1.2.250.1.213.2.24;99308;Îles Chagos;Chagos;Îles Chagos;20160209000000;;20241213120000
+1.2.250.1.213.2.24;99308;Îles Chagos;Terr. Britannique Océan Indien;Territoire britannique de l'océan Indien;20160209000000;;20250328120000
 1.2.250.1.213.2.24;99309;République unie de Tanzanie;Tanzanie;République unie de Tanzanie;20160209000000;;20240126120000
 1.2.250.1.213.2.24;99310;République du Zimbabwe;Zimbabwe;République du Zimbabwe;20160209000000;;20240126120000
 1.2.250.1.213.2.24;99311;République de Namibie;Namibie;République de Namibie;20160209000000;;20240126120000
@@ -185,7 +185,7 @@
 1.2.250.1.213.2.24;99406;République du Costa Rica;Costa Rica;République du Costa Rica;20160209000000;;20240126120000
 1.2.250.1.213.2.24;99407;République de Cuba;Cuba;République de Cuba;20160209000000;;20240126120000
 1.2.250.1.213.2.24;99408;République dominicaine;République dominicaine;République dominicaine;20160209000000;;20240628120000
-1.2.250.1.213.2.24;99409;République du Guatemala;Guatemala;République du Guatemala;20160209000000;;20240126120000
+1.2.250.1.213.2.24;99409;République du Guatémala;Guatémala;République du Guatémala;20160209000000;;20250328120000
 1.2.250.1.213.2.24;99410;République d'Haïti;Haïti;République d'Haïti;20160209000000;;20240126120000
 1.2.250.1.213.2.24;99411;République du Honduras;Honduras;République du Honduras;20160209000000;;20240126120000
 1.2.250.1.213.2.24;99412;République du Nicaragua;Nicaragua;République du Nicaragua;20160209000000;;20240126120000
@@ -218,7 +218,7 @@
 1.2.250.1.213.2.24;99439;Sainte-Lucie;Sainte-Lucie;Sainte-Lucie;20160209000000;;20240126120000
 1.2.250.1.213.2.24;99440;Saint-Vincent-et-les-Grenadines;St-Vincent-et-les-Grenadines;Saint-Vincent-et-les-Grenadines;20160209000000;;20240628120000
 1.2.250.1.213.2.24;99441;Antigua-et-Barbuda;Antigua-et-Barbuda;Antigua-et-Barbuda;20160209000000;;20240126120000
-1.2.250.1.213.2.24;99442;Saint-Christophe-et-Niévès;Saint-Christophe-et-Niévès;Saint-Christophe-et-Niévès;20160209000000;;20240628120000
+1.2.250.1.213.2.24;99442;Fédération de Saint-Christophe-et-Niévès;Féd. St-Christophe-et-Niévès;Fédération de Saint-Christophe-et-Niévès;20160209000000;;20250328120000
 1.2.250.1.213.2.24;99443;Bonaire, Saint-Eustache, Saba;Bonaire, Saint-Eustache, Saba;Bonaire, Saint-Eustache, Saba;20160209000000;;20241213120000
 1.2.250.1.213.2.24;99444;Curaçao;Curaçao;Curaçao;20160209000000;;20241213120000
 1.2.250.1.213.2.24;99445;Saint-Martin (partie néerlandaise);Saint-Martin;Saint-Martin (partie néerlandaise);20160209000000;;20241213120000

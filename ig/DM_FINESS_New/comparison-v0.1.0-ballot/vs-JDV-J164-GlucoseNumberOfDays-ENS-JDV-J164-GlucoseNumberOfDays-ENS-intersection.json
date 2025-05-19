@@ -1,0 +1,33 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "b481ae7f-6d15-4a0d-a9e0-ce3c41447770-1029",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/b481ae7f-6d15-4a0d-a9e0-ce3c41447770-1029",
+  "name" : "IntersectionJDV_J164_GlucoseNumberOfDays_ENSAndJDV_J164_GlucoseNumberOfDays_ENS",
+  "title" : "Intersection of null And null",
+  "status" : "active",
+  "date" : "2025-05-19T13:23:33+00:00",
+  "compose" : {
+    "include" : [{
+      "concept" : [{
+        "code" : "GEN-275",
+        "display" : "7j"
+      },
+      {
+        "code" : "GEN-276",
+        "display" : "14j"
+      },
+      {
+        "code" : "GEN-277",
+        "display" : "30j"
+      },
+      {
+        "code" : "GEN-278",
+        "display" : "90j"
+      },
+      {
+        "code" : "GEN-092.08.05",
+        "display" : "Autre(s) nombre de jours"
+      }]
+    }]
+  }
+}

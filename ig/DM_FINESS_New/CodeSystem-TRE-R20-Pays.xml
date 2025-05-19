@@ -3,12 +3,12 @@
 <CodeSystem xmlns="http://hl7.org/fhir">
   <id value="TRE-R20-Pays"/>
   <meta>
-    <versionId value="8"/>
-    <lastUpdated value="2024-12-19T19:11:27.978+00:00"/>
+    <versionId value="9"/>
+    <lastUpdated value="2025-03-31T18:11:20.973+00:00"/>
     <profile value="http://hl7.org/fhir/StructureDefinition/shareablecodesystem"/>
   </meta>
   <text>
-    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: CodeSystem TRE-R20-Pays</b></p><a name="TRE-R20-Pays"> </a><a name="hcTRE-R20-Pays"> </a><a name="TRE-R20-Pays-fr-FR"> </a><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px">version: 8; Last updated: 2024-12-19 19:11:27+0000</p><p style="margin-bottom: 0px">Profil: <a href="http://hl7.org/fhir/R4/shareablecodesystem.html">Shareable CodeSystem</a></p></div><p><b>Propriétés</b></p><p><b>Cette terminologie de référence (CodeSystem) définit les propriétés suivantes pour ses concepts</b></p><table class="grid"><tr><td><b>Nom</b></td><td><b>Code</b></td><td><b>Type</b></td><td><b>Description</b></td></tr><tr><td>dateValid</td><td>dateValid</td><td>dateTime</td><td>date de validité d'un code concept</td></tr><tr><td>dateMaj</td><td>dateMaj</td><td>dateTime</td><td>Date de mise à jour d'un code concept</td></tr><tr><td>dateFin</td><td>dateFin</td><td>dateTime</td><td>Date de fin d'exploitation d'un code concept</td></tr></table><p><b>Concepts</b></p><p>This case-insensitive code system <code>https://mos.esante.gouv.fr/NOS/TRE_R20-Pays/FHIR/TRE-R20-Pays</code> defines the following codes:</p><table class="codes"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td><td><b>dateValid</b></td><td><b>dateMaj</b></td><td><b>dateFin</b></td><td><b>French (France) (fr)</b></td></tr><tr><td style="white-space:nowrap">99000<a name="TRE-R20-Pays-99000"> </a></td><td>République française</td><td>2016-02-09T00:00:00+01:00</td><td>2024-01-26T12:00:00+01:00</td><td>2016-09-01T00:00:00+01:00</td><td>France</td></tr><tr><td style="white-space:nowrap">99100<a name="TRE-R20-Pays-99100"> </a></td><td>République française</td><td>2016-09-01T00:00:00+01:00</td><td>2024-01-26T12:00:00+01:00</td><td/><td>France</td></tr><tr><td style="white-space:nowrap">99101<a name="TRE-R20-Pays-99101"> </a></td><td>Royaume du Danemark</td><td>2016-02-09T00:00:00+01:00</td><td>2024-01-26T12:00:00+01:00</td><td/><td>Danemark</td></tr><tr><td style="white-space:nowrap">99102<a name="TRE-R20-Pays-99102"> </a></td><td>Islande</td><td>2016-02-09T00:00:00+01:00</td><td>2024-06-28T12:00:00+01:00</td><td/><td/></tr><tr><td style="white-space:nowrap">99103<a name="TRE-R20-Pays-99103"> </a></td><td>Royaume de Norvège</td><td>2016-02-09T00:00:00+01:00</td><td>2024-01-26T12:00:00+01:00</td><td/><td>Norvège</td></tr><tr><td style="white-space:nowrap">99104<a name="TRE-R20-Pays-99104"> </a></td><td>Royaume de Suède</td><td>2016-02-09T00:00:00+01:00</td><td>2024-01-26T12:00:00+01:00</td><td/><td>Suède</td></tr><tr><td style="white-space:nowrap">99105<a name="TRE-R20-Pays-99105"> </a></td><td>République de Finlande</td><td>2016-02-09T00:00:00+01:00</td><td>2024-01-26T12:00:00+01:00</td><td/><td>Finlande</td></tr><tr><td style="white-space:nowrap">99106<a name="TRE-R20-Pays-99106"> </a></td><td>République d'Estonie</td><td>2016-02-09T00:00:00+01:00</td><td>2024-01-26T12:00:00+01:00</td><td/><td>Estonie</td></tr><tr><td style="white-space:nowrap">99107<a name="TRE-R20-Pays-99107"> </a></td><td>République de Lettonie</td><td>2016-02-09T00:00:00+01:00</td><td>2024-01-26T12:00:00+01:00</td><td/><td>Lettonie</td></tr><tr><td style="white-space:nowrap">99108<a name="TRE-R20-Pays-99108"> </a></td><td>République de Lituanie</td><td>2016-02-09T00:00:00+01:00</td><td>2024-01-26T12:00:00+01:00</td><td/><td>Lituanie</td></tr><tr><td style="white-space:nowrap">99109<a name="TRE-R20-Pays-99109"> </a></td><td>République fédérale d'Allemagne</td><td>2016-02-09T00:00:00+01:00</td><td>2024-01-26T12:00:00+01:00</td><td/><td>Allemagne</td></tr><tr><td style="white-space:nowrap">99110<a name="TRE-R20-Pays-99110"> </a></td><td>République d'Autriche</td><td>2016-02-09T00:00:00+01:00</td><td>2024-01-26T12:00:00+01:00</td><td/><td>Autriche</td></tr><tr><td style="white-space:nowrap">99111<a name="TRE-R20-Pays-99111"> </a></td><td>République de Bulgarie</td><td>2016-02-09T00:00:00+01:00</td><td>2024-01-26T12:00:00+01:00</td><td/><td>Bulgarie</td></tr><tr><td style="white-space:nowrap">99112<a name="TRE-R20-Pays-99112"> </a></td><td>Hongrie</td><td>2016-02-09T00:00:00+01:00</td><td>2024-06-28T12:00:00+01:00</td><td/><td/></tr><tr><td style="white-space:nowrap">99113<a name="TRE-R20-Pays-99113"> </a></td><td>Principauté du Liechtenstein</td><td>2016-02-09T00:00:00+01:00</td><td>2024-01-26T12:00:00+01:00</td><td/><td>Liechtenstein</td></tr><tr><td style="white-space:nowrap">99114<a name="TRE-R20-Pays-99114"> </a></td><td>Roumanie</td><td>2016-02-09T00:00:00+01:00</td><td>2024-01-26T12:00:00+01:00</td><td/><td/></tr><tr><td style="white-space:nowrap">99115<a name="TRE-R20-Pays-99115"> </a></td><td>Tchécoslovaquie</td><td>2016-02-09T00:00:00+01:00</td><td>2024-01-26T12:00:00+01:00</td><td>2016-02-09T00:00:00+01:00</td><td/></tr><tr><td style="white-space:nowrap">99116<a name="TRE-R20-Pays-99116"> </a></td><td>République tchèque</td><td>2016-02-09T00:00:00+01:00</td><td>2024-01-26T12:00:00+01:00</td><td/><td>Tchéquie</td></tr><tr><td style="white-space:nowrap">99117<a name="TRE-R20-Pays-99117"> </a></td><td>République slovaque</td><td>2016-02-09T00:00:00+01:00</td><td>2024-01-26T12:00:00+01:00</td><td/><td>Slovaquie</td></tr><tr><td style="white-space:nowrap">99118<a name="TRE-R20-Pays-99118"> </a></td><td>Bosnie-Herzégovine</td><td>2016-02-09T00:00:00+01:00</td><td>2024-06-28T12:00:00+01:00</td><td/><td/></tr><tr><td style="white-space:nowrap">99119<a name="TRE-R20-Pays-99119"> </a></td><td>République de Croatie</td><td>2016-02-09T00:00:00+01:00</td><td>2024-01-26T12:00:00+01:00</td><td/><td>Croatie</td></tr><tr><td style="white-space:nowrap">99120<a name="TRE-R20-Pays-99120"> </a></td><td>Monténégro</td><td>2016-02-09T00:00:00+01:00</td><td>2024-06-28T12:00:00+01:00</td><td/><td/></tr><tr><td style="white-space:nowrap">99121<a name="TRE-R20-Pays-99121"> </a></td><td>République de Serbie</td><td>2016-02-09T00:00:00+01:00</td><td>2024-01-26T12:00:00+01:00</td><td/><td>Serbie</td></tr><tr><td style="white-space:nowrap">99122<a name="TRE-R20-Pays-99122"> </a></td><td>République de Pologne</td><td>2016-02-09T00:00:00+01:00</td><td>2024-01-26T12:00:00+01:00</td><td/><td>Pologne</td></tr><tr><td style="white-space:nowrap">99123<a name="TRE-R20-Pays-99123"> </a></td><td>Fédération de Russie</td><td>2016-02-09T00:00:00+01:00</td><td>2024-01-26T12:00:00+01:00</td><td/><td>Russie</td></tr><tr><td style="white-space:nowrap">99124<a name="TRE-R20-Pays-99124"> </a></td><td>Turquie d'Europe</td><td>2016-02-09T00:00:00+01:00</td><td>2024-01-26T12:00:00+01:00</td><td>2016-02-09T00:00:00+01:00</td><td/></tr><tr><td style="white-space:nowrap">99125<a name="TRE-R20-Pays-99125"> </a></td><td>République d'Albanie</td><td>2016-02-09T00:00:00+01:00</td><td>2024-01-26T12:00:00+01:00</td><td/><td>Albanie</td></tr><tr><td style="white-space:nowrap">99126<a name="TRE-R20-Pays-99126"> </a></td><td>République hellénique</td><td>2016-02-09T00:00:00+01:00</td><td>2024-01-26T12:00:00+01:00</td><td/><td>Grèce</td></tr><tr><td style="white-space:nowrap">99127<a name="TRE-R20-Pays-99127"> </a></td><td>République italienne</td><td>2016-02-09T00:00:00+01:00</td><td>2024-01-26T12:00:00+01:00</td><td/><td>Italie</td></tr><tr><td style="white-space:nowrap">99128<a name="TRE-R20-Pays-99128"> </a></td><td>République de Saint-Marin</td><td>2016-02-09T00:00:00+01:00</td><td>2024-01-26T12:00:00+01:00</td><td/><td>Saint-Marin</td></tr><tr><td style="white-space:nowrap">99129<a name="TRE-R20-Pays-99129"> </a></td><td>Saint-Siège ou Vatican</td><td>2016-02-09T00:00:00+01:00</td><td>2024-06-28T12:00:00+01:00</td><td/><td>Vatican</td></tr><tr><td style="white-space:nowrap">99130<a name="TRE-R20-Pays-99130"> </a></td><td>Principauté d'Andorre</td><td>2016-02-09T00:00:00+01:00</td><td>2024-01-26T12:00:00+01:00</td><td/><td>Andorre</td></tr><tr><td style="white-space:nowrap">99131<a name="TRE-R20-Pays-99131"> </a></td><td>Royaume de Belgique</td><td>2016-02-09T00:00:00+01:00</td><td>2024-01-26T12:00:00+01:00</td><td/><td>Belgique</td></tr><tr><td style="white-space:nowrap">99132<a name="TRE-R20-Pays-99132"> </a></td><td>Royaume-Uni de Grande-Bretagne et d'Irlande du Nord</td><td>2016-02-09T00:00:00+01:00</td><td>2024-01-26T12:00:00+01:00</td><td/><td>Royaume-Uni</td></tr><tr><td style="white-space:nowrap">99133<a name="TRE-R20-Pays-99133"> </a></td><td>Gibraltar, Akrotiri, Dhekelia</td><td>2016-02-09T00:00:00+01:00</td><td>2024-12-13T12:00:00+01:00</td><td/><td>Terr. britannique Méditerranée</td></tr><tr><td style="white-space:nowrap">99134<a name="TRE-R20-Pays-99134"> </a></td><td>Royaume d'Espagne</td><td>2016-02-09T00:00:00+01:00</td><td>2024-01-26T12:00:00+01:00</td><td/><td>Espagne</td></tr><tr><td style="white-space:nowrap">99135<a name="TRE-R20-Pays-99135"> </a></td><td>Royaume des Pays-Bas</td><td>2016-02-09T00:00:00+01:00</td><td>2024-01-26T12:00:00+01:00</td><td/><td>Pays-Bas</td></tr><tr><td style="white-space:nowrap">99136<a name="TRE-R20-Pays-99136"> </a></td><td>Irlande</td><td>2016-02-09T00:00:00+01:00</td><td>2024-06-28T12:00:00+01:00</td><td/><td/></tr><tr><td style="white-space:nowrap">99137<a name="TRE-R20-Pays-99137"> </a></td><td>Grand-Duché du Luxembourg</td><td>2016-02-09T00:00:00+01:00</td><td>2024-06-28T12:00:00+01:00</td><td/><td>Luxembourg</td></tr><tr><td style="white-space:nowrap">99138<a name="TRE-R20-Pays-99138"> </a></td><td>Principauté de Monaco</td><td>2016-02-09T00:00:00+01:00</td><td>2024-01-26T12:00:00+01:00</td><td/><td>Monaco</td></tr><tr><td style="white-space:nowrap">99139<a name="TRE-R20-Pays-99139"> </a></td><td>République portugaise</td><td>2016-02-09T00:00:00+01:00</td><td>2024-01-26T12:00:00+01:00</td><td/><td>Portugal</td></tr><tr><td style="white-space:nowrap">99140<a name="TRE-R20-Pays-99140"> </a></td><td>Confédération suisse</td><td>2016-02-09T00:00:00+01:00</td><td>2024-01-26T12:00:00+01:00</td><td/><td>Suisse</td></tr><tr><td style="white-space:nowrap">99141<a name="TRE-R20-Pays-99141"> </a></td><td>République démocratique allemande</td><td>2016-02-09T00:00:00+01:00</td><td>2024-01-26T12:00:00+01:00</td><td>2016-02-09T00:00:00+01:00</td><td>Rep. dem. allemande</td></tr><tr><td style="white-space:nowrap">99142<a name="TRE-R20-Pays-99142"> </a></td><td>République fédérale d'Allemagne</td><td>2016-02-09T00:00:00+01:00</td><td>2024-01-26T12:00:00+01:00</td><td>2016-02-09T00:00:00+01:00</td><td>Rep. fed. Allemagne</td></tr><tr><td style="white-space:nowrap">99144<a name="TRE-R20-Pays-99144"> </a></td><td>République de Malte</td><td>2016-02-09T00:00:00+01:00</td><td>2024-01-26T12:00:00+01:00</td><td/><td>Malte</td></tr><tr><td style="white-space:nowrap">99145<a name="TRE-R20-Pays-99145"> </a></td><td>République de Slovénie</td><td>2016-02-09T00:00:00+01:00</td><td>2024-01-26T12:00:00+01:00</td><td/><td>Slovénie</td></tr><tr><td style="white-space:nowrap">99148<a name="TRE-R20-Pays-99148"> </a></td><td>République de Biélorussie</td><td>2016-02-09T00:00:00+01:00</td><td>2024-01-26T12:00:00+01:00</td><td/><td>Biélorussie</td></tr><tr><td style="white-space:nowrap">99151<a name="TRE-R20-Pays-99151"> </a></td><td>République de Moldavie</td><td>2016-02-09T00:00:00+01:00</td><td>2024-01-26T12:00:00+01:00</td><td/><td>Moldavie</td></tr><tr><td style="white-space:nowrap">99155<a name="TRE-R20-Pays-99155"> </a></td><td>Ukraine</td><td>2016-02-09T00:00:00+01:00</td><td>2024-01-26T12:00:00+01:00</td><td/><td/></tr><tr><td style="white-space:nowrap">99156<a name="TRE-R20-Pays-99156"> </a></td><td>République de Macédoine du Nord</td><td>2016-02-09T00:00:00+01:00</td><td>2024-06-28T12:00:00+01:00</td><td/><td>Macédoine du Nord</td></tr><tr><td style="white-space:nowrap">99157<a name="TRE-R20-Pays-99157"> </a></td><td>République du Kosovo</td><td>2016-02-09T00:00:00+01:00</td><td>2024-01-26T12:00:00+01:00</td><td/><td>Kosovo</td></tr><tr><td style="white-space:nowrap">99201<a name="TRE-R20-Pays-99201"> </a></td><td>Royaume d'Arabie saoudite</td><td>2016-02-09T00:00:00+01:00</td><td>2024-01-26T12:00:00+01:00</td><td/><td>Arabie saoudite</td></tr><tr><td style="white-space:nowrap">99202<a name="TRE-R20-Pays-99202"> </a></td><td>Yémen (République arabe du)</td><td>2016-02-09T00:00:00+01:00</td><td>2024-01-26T12:00:00+01:00</td><td>2016-02-09T00:00:00+01:00</td><td/></tr><tr><td style="white-space:nowrap">99203<a name="TRE-R20-Pays-99203"> </a></td><td>République d'Irak</td><td>2016-02-09T00:00:00+01:00</td><td>2024-06-28T12:00:00+01:00</td><td/><td>Irak</td></tr><tr><td style="white-space:nowrap">99204<a name="TRE-R20-Pays-99204"> </a></td><td>République islamique d'Iran</td><td>2016-02-09T00:00:00+01:00</td><td>2024-01-26T12:00:00+01:00</td><td/><td>Iran</td></tr><tr><td style="white-space:nowrap">99205<a name="TRE-R20-Pays-99205"> </a></td><td>République libanaise</td><td>2016-02-09T00:00:00+01:00</td><td>2024-01-26T12:00:00+01:00</td><td/><td>Liban</td></tr><tr><td style="white-space:nowrap">99206<a name="TRE-R20-Pays-99206"> </a></td><td>République arabe syrienne</td><td>2016-02-09T00:00:00+01:00</td><td>2024-01-26T12:00:00+01:00</td><td/><td>Syrie</td></tr><tr><td style="white-space:nowrap">99207<a name="TRE-R20-Pays-99207"> </a></td><td>État d'Israël</td><td>2016-02-09T00:00:00+01:00</td><td>2024-01-26T12:00:00+01:00</td><td/><td>Israël</td></tr><tr><td style="white-space:nowrap">99208<a name="TRE-R20-Pays-99208"> </a></td><td>République de Turquie</td><td>2016-02-09T00:00:00+01:00</td><td>2024-06-28T12:00:00+01:00</td><td/><td>Turquie</td></tr><tr><td style="white-space:nowrap">99209<a name="TRE-R20-Pays-99209"> </a></td><td>Sibérie</td><td>2016-02-09T00:00:00+01:00</td><td>2024-01-26T12:00:00+01:00</td><td>2016-02-09T00:00:00+01:00</td><td/></tr><tr><td style="white-space:nowrap">99210<a name="TRE-R20-Pays-99210"> </a></td><td>Turkestan russe</td><td>2016-02-09T00:00:00+01:00</td><td>2024-01-26T12:00:00+01:00</td><td>2016-02-09T00:00:00+01:00</td><td/></tr><tr><td style="white-space:nowrap">99211<a name="TRE-R20-Pays-99211"> </a></td><td>Kamtchatka</td><td>2016-02-09T00:00:00+01:00</td><td>2024-01-26T12:00:00+01:00</td><td>2016-02-09T00:00:00+01:00</td><td/></tr><tr><td style="white-space:nowrap">99212<a name="TRE-R20-Pays-99212"> </a></td><td>République islamique d'Afghanistan</td><td>2016-02-09T00:00:00+01:00</td><td>2024-06-28T12:00:00+01:00</td><td/><td>Afghanistan</td></tr><tr><td style="white-space:nowrap">99213<a name="TRE-R20-Pays-99213"> </a></td><td>République islamique du Pakistan</td><td>2016-02-09T00:00:00+01:00</td><td>2024-01-26T12:00:00+01:00</td><td/><td>Pakistan</td></tr><tr><td style="white-space:nowrap">99214<a name="TRE-R20-Pays-99214"> </a></td><td>Royaume du Bhoutan</td><td>2016-02-09T00:00:00+01:00</td><td>2024-01-26T12:00:00+01:00</td><td/><td>Bhoutan</td></tr><tr><td style="white-space:nowrap">99215<a name="TRE-R20-Pays-99215"> </a></td><td>Népal</td><td>2016-02-09T00:00:00+01:00</td><td>2024-01-26T12:00:00+01:00</td><td/><td/></tr><tr><td style="white-space:nowrap">99216<a name="TRE-R20-Pays-99216"> </a></td><td>République populaire de Chine</td><td>2016-02-09T00:00:00+01:00</td><td>2024-01-26T12:00:00+01:00</td><td/><td>Chine</td></tr><tr><td style="white-space:nowrap">99217<a name="TRE-R20-Pays-99217"> </a></td><td>Japon</td><td>2016-02-09T00:00:00+01:00</td><td>2024-01-26T12:00:00+01:00</td><td/><td/></tr><tr><td style="white-space:nowrap">99218<a name="TRE-R20-Pays-99218"> </a></td><td>Mandchourie</td><td>2016-02-09T00:00:00+01:00</td><td>2024-01-26T12:00:00+01:00</td><td>2016-02-09T00:00:00+01:00</td><td/></tr><tr><td style="white-space:nowrap">99219<a name="TRE-R20-Pays-99219"> </a></td><td>Royaume de Thaïlande</td><td>2016-02-09T00:00:00+01:00</td><td>2024-01-26T12:00:00+01:00</td><td/><td>Thaïlande</td></tr><tr><td style="white-space:nowrap">99220<a name="TRE-R20-Pays-99220"> </a></td><td>République des Philippines</td><td>2016-02-09T00:00:00+01:00</td><td>2024-01-26T12:00:00+01:00</td><td/><td>Philippines</td></tr><tr><td style="white-space:nowrap">99221<a name="TRE-R20-Pays-99221"> </a></td><td>Possessions britanniques au Proche-Orient</td><td>2016-02-09T00:00:00+01:00</td><td>2024-01-26T12:00:00+01:00</td><td>2016-02-09T00:00:00+01:00</td><td>Pos.brit. Proche-Orient</td></tr><tr><td style="white-space:nowrap">99222<a name="TRE-R20-Pays-99222"> </a></td><td>Royaume hachémite de Jordanie</td><td>2016-02-09T00:00:00+01:00</td><td>2024-01-26T12:00:00+01:00</td><td/><td>Jordanie</td></tr><tr><td style="white-space:nowrap">99223<a name="TRE-R20-Pays-99223"> </a></td><td>République de l'Inde</td><td>2016-02-09T00:00:00+01:00</td><td>2024-01-26T12:00:00+01:00</td><td/><td>Inde</td></tr><tr><td style="white-space:nowrap">99224<a name="TRE-R20-Pays-99224"> </a></td><td>République de l'Union de Birmanie</td><td>2016-02-09T00:00:00+01:00</td><td>2024-06-28T12:00:00+01:00</td><td/><td>Birmanie</td></tr><tr><td style="white-space:nowrap">99225<a name="TRE-R20-Pays-99225"> </a></td><td>Brunei Darussalam</td><td>2016-02-09T00:00:00+01:00</td><td>2024-06-28T12:00:00+01:00</td><td/><td>Brunei</td></tr><tr><td style="white-space:nowrap">99226<a name="TRE-R20-Pays-99226"> </a></td><td>République de Singapour</td><td>2016-02-09T00:00:00+01:00</td><td>2024-01-26T12:00:00+01:00</td><td/><td>Singapour</td></tr><tr><td style="white-space:nowrap">99227<a name="TRE-R20-Pays-99227"> </a></td><td>Malaisie</td><td>2016-02-09T00:00:00+01:00</td><td>2024-01-26T12:00:00+01:00</td><td/><td/></tr><tr><td style="white-space:nowrap">99228<a name="TRE-R20-Pays-99228"> </a></td><td>États malais non fédérés</td><td>2016-02-09T00:00:00+01:00</td><td>2024-01-26T12:00:00+01:00</td><td>2016-02-09T00:00:00+01:00</td><td/></tr><tr><td style="white-space:nowrap">99229<a name="TRE-R20-Pays-99229"> </a></td><td>République des Maldives</td><td>2016-02-09T00:00:00+01:00</td><td>2024-01-26T12:00:00+01:00</td><td/><td>Maldives</td></tr><tr><td style="white-space:nowrap">99230<a name="TRE-R20-Pays-99230"> </a></td><td>Hong Kong</td><td>2016-02-09T00:00:00+01:00</td><td>2024-12-13T12:00:00+01:00</td><td/><td/></tr><tr><td style="white-space:nowrap">99231<a name="TRE-R20-Pays-99231"> </a></td><td>République d'Indonésie</td><td>2016-02-09T00:00:00+01:00</td><td>2024-01-26T12:00:00+01:00</td><td/><td>Indonésie</td></tr><tr><td style="white-space:nowrap">99232<a name="TRE-R20-Pays-99232"> </a></td><td>Macao</td><td>2016-02-09T00:00:00+01:00</td><td>2024-12-13T12:00:00+01:00</td><td/><td/></tr><tr><td style="white-space:nowrap">99233<a name="TRE-R20-Pays-99233"> </a></td><td>Yémen démocratique</td><td>2016-02-09T00:00:00+01:00</td><td>2024-01-26T12:00:00+01:00</td><td>2016-02-09T00:00:00+01:00</td><td/></tr><tr><td style="white-space:nowrap">99234<a name="TRE-R20-Pays-99234"> </a></td><td>Royaume du Cambodge</td><td>2016-02-09T00:00:00+01:00</td><td>2024-01-26T12:00:00+01:00</td><td/><td>Cambodge</td></tr><tr><td style="white-space:nowrap">99235<a name="TRE-R20-Pays-99235"> </a></td><td>République démocratique socialiste du Sri Lanka</td><td>2016-02-09T00:00:00+01:00</td><td>2024-01-26T12:00:00+01:00</td><td/><td>Sri Lanka</td></tr><tr><td style="white-space:nowrap">99236<a name="TRE-R20-Pays-99236"> </a></td><td>Taïwan</td><td>2016-02-09T00:00:00+01:00</td><td>2024-01-26T12:00:00+01:00</td><td/><td/></tr><tr><td style="white-space:nowrap">99237<a name="TRE-R20-Pays-99237"> </a></td><td>Corée</td><td>2016-02-09T00:00:00+01:00</td><td>2024-01-26T12:00:00+01:00</td><td>2016-02-09T00:00:00+01:00</td><td/></tr><tr><td style="white-space:nowrap">99238<a name="TRE-R20-Pays-99238"> </a></td><td>République populaire démocratique de Corée</td><td>2016-02-09T00:00:00+01:00</td><td>2024-06-28T12:00:00+01:00</td><td/><td>Corée du Nord</td></tr><tr><td style="white-space:nowrap">99239<a name="TRE-R20-Pays-99239"> </a></td><td>République de Corée</td><td>2016-02-09T00:00:00+01:00</td><td>2024-06-28T12:00:00+01:00</td><td/><td>Corée du Sud</td></tr><tr><td style="white-space:nowrap">99240<a name="TRE-R20-Pays-99240"> </a></td><td>État du Koweït</td><td>2016-02-09T00:00:00+01:00</td><td>2024-01-26T12:00:00+01:00</td><td/><td>Koweït</td></tr><tr><td style="white-space:nowrap">99241<a name="TRE-R20-Pays-99241"> </a></td><td>République démocratique populaire lao</td><td>2016-02-09T00:00:00+01:00</td><td>2024-01-26T12:00:00+01:00</td><td/><td>Laos</td></tr><tr><td style="white-space:nowrap">99242<a name="TRE-R20-Pays-99242"> </a></td><td>Mongolie</td><td>2016-02-09T00:00:00+01:00</td><td>2024-01-26T12:00:00+01:00</td><td/><td/></tr><tr><td style="white-space:nowrap">99243<a name="TRE-R20-Pays-99243"> </a></td><td>République socialiste du Vietnam</td><td>2016-02-09T00:00:00+01:00</td><td>2024-06-28T12:00:00+01:00</td><td/><td>Vietnam</td></tr><tr><td style="white-space:nowrap">99244<a name="TRE-R20-Pays-99244"> </a></td><td>Vietnam du nord</td><td>2016-02-09T00:00:00+01:00</td><td>2024-06-28T12:00:00+01:00</td><td>2016-02-09T00:00:00+01:00</td><td/></tr><tr><td style="white-space:nowrap">99245<a name="TRE-R20-Pays-99245"> </a></td><td>Vietnam du sud</td><td>2016-02-09T00:00:00+01:00</td><td>2024-06-28T12:00:00+01:00</td><td>2016-02-09T00:00:00+01:00</td><td/></tr><tr><td style="white-space:nowrap">99246<a name="TRE-R20-Pays-99246"> </a></td><td>République populaire du Bangladesh</td><td>2016-02-09T00:00:00+01:00</td><td>2024-01-26T12:00:00+01:00</td><td/><td>Bangladesh</td></tr><tr><td style="white-space:nowrap">99247<a name="TRE-R20-Pays-99247"> </a></td><td>Émirats arabes unis</td><td>2016-02-09T00:00:00+01:00</td><td>2024-01-26T12:00:00+01:00</td><td/><td/></tr><tr><td style="white-space:nowrap">99248<a name="TRE-R20-Pays-99248"> </a></td><td>État du Qatar</td><td>2016-02-09T00:00:00+01:00</td><td>2024-01-26T12:00:00+01:00</td><td/><td>Qatar</td></tr><tr><td style="white-space:nowrap">99249<a name="TRE-R20-Pays-99249"> </a></td><td>Royaume de Bahreïn</td><td>2016-02-09T00:00:00+01:00</td><td>2024-06-28T12:00:00+01:00</td><td/><td>Bahreïn</td></tr><tr><td style="white-space:nowrap">99250<a name="TRE-R20-Pays-99250"> </a></td><td>Sultanat d'Oman</td><td>2016-02-09T00:00:00+01:00</td><td>2024-01-26T12:00:00+01:00</td><td/><td>Oman</td></tr><tr><td style="white-space:nowrap">99251<a name="TRE-R20-Pays-99251"> </a></td><td>République du Yémen</td><td>2016-02-09T00:00:00+01:00</td><td>2024-01-26T12:00:00+01:00</td><td/><td>Yémen</td></tr><tr><td style="white-space:nowrap">99252<a name="TRE-R20-Pays-99252"> </a></td><td>République d'Arménie</td><td>2016-02-09T00:00:00+01:00</td><td>2024-01-26T12:00:00+01:00</td><td/><td>Arménie</td></tr><tr><td style="white-space:nowrap">99253<a name="TRE-R20-Pays-99253"> </a></td><td>République d'Azerbaïdjan</td><td>2016-02-09T00:00:00+01:00</td><td>2024-06-28T12:00:00+01:00</td><td/><td>Azerbaïdjan</td></tr><tr><td style="white-space:nowrap">99254<a name="TRE-R20-Pays-99254"> </a></td><td>République de Chypre</td><td>2016-02-09T00:00:00+01:00</td><td>2024-01-26T12:00:00+01:00</td><td/><td>Chypre</td></tr><tr><td style="white-space:nowrap">99255<a name="TRE-R20-Pays-99255"> </a></td><td>Géorgie</td><td>2016-02-09T00:00:00+01:00</td><td>2024-06-28T12:00:00+01:00</td><td/><td/></tr><tr><td style="white-space:nowrap">99256<a name="TRE-R20-Pays-99256"> </a></td><td>République du Kazakhstan</td><td>2016-02-09T00:00:00+01:00</td><td>2024-01-26T12:00:00+01:00</td><td/><td>Kazakhstan</td></tr><tr><td style="white-space:nowrap">99257<a name="TRE-R20-Pays-99257"> </a></td><td>République kirghize</td><td>2016-02-09T00:00:00+01:00</td><td>2024-01-26T12:00:00+01:00</td><td/><td>Kirghizstan</td></tr><tr><td style="white-space:nowrap">99258<a name="TRE-R20-Pays-99258"> </a></td><td>République d'Ouzbékistan</td><td>2016-02-09T00:00:00+01:00</td><td>2024-01-26T12:00:00+01:00</td><td/><td>Ouzbékistan</td></tr><tr><td style="white-space:nowrap">99259<a name="TRE-R20-Pays-99259"> </a></td><td>République du Tadjikistan</td><td>2016-02-09T00:00:00+01:00</td><td>2024-01-26T12:00:00+01:00</td><td/><td>Tadjikistan</td></tr><tr><td style="white-space:nowrap">99260<a name="TRE-R20-Pays-99260"> </a></td><td>Turkménistan</td><td>2016-02-09T00:00:00+01:00</td><td>2024-01-26T12:00:00+01:00</td><td/><td/></tr><tr><td style="white-space:nowrap">99261<a name="TRE-R20-Pays-99261"> </a></td><td>État de Palestine</td><td>2016-02-09T00:00:00+01:00</td><td>2024-06-28T12:00:00+01:00</td><td/><td>Palestine</td></tr><tr><td style="white-space:nowrap">99262<a name="TRE-R20-Pays-99262"> </a></td><td>République démocratique du Timor oriental</td><td>2016-02-09T00:00:00+01:00</td><td>2024-01-26T12:00:00+01:00</td><td/><td>Timor oriental</td></tr><tr><td style="white-space:nowrap">99301<a name="TRE-R20-Pays-99301"> </a></td><td>République arabe d'Égypte</td><td>2016-02-09T00:00:00+01:00</td><td>2024-01-26T12:00:00+01:00</td><td/><td>Égypte</td></tr><tr><td style="white-space:nowrap">99302<a name="TRE-R20-Pays-99302"> </a></td><td>République du Libéria</td><td>2016-02-09T00:00:00+01:00</td><td>2024-01-26T12:00:00+01:00</td><td/><td>Libéria</td></tr><tr><td style="white-space:nowrap">99303<a name="TRE-R20-Pays-99303"> </a></td><td>République d'Afrique du Sud</td><td>2016-02-09T00:00:00+01:00</td><td>2024-01-26T12:00:00+01:00</td><td/><td>Afrique du Sud</td></tr><tr><td style="white-space:nowrap">99304<a name="TRE-R20-Pays-99304"> </a></td><td>République de Gambie</td><td>2016-02-09T00:00:00+01:00</td><td>2024-01-26T12:00:00+01:00</td><td/><td>Gambie</td></tr><tr><td style="white-space:nowrap">99305<a name="TRE-R20-Pays-99305"> </a></td><td>Cameroun et Togo</td><td>2016-02-09T00:00:00+01:00</td><td>2024-01-26T12:00:00+01:00</td><td>2016-02-09T00:00:00+01:00</td><td/></tr><tr><td style="white-space:nowrap">99306<a name="TRE-R20-Pays-99306"> </a></td><td>Îles Sainte-Hélène, Ascension, Tristan-da-Cunha</td><td>2016-02-09T00:00:00+01:00</td><td>2024-12-13T12:00:00+01:00</td><td/><td>Terr. britan. océan Atlantique</td></tr><tr><td style="white-space:nowrap">99307<a name="TRE-R20-Pays-99307"> </a></td><td>Sondan anglo-égyptien, Kenya, Ouganda</td><td>2016-02-09T00:00:00+01:00</td><td>2024-01-26T12:00:00+01:00</td><td>2016-02-09T00:00:00+01:00</td><td>Soudan, Kenya, Ouganda</td></tr><tr><td style="white-space:nowrap">99308<a name="TRE-R20-Pays-99308"> </a></td><td>Îles Chagos</td><td>2016-02-09T00:00:00+01:00</td><td>2024-12-13T12:00:00+01:00</td><td/><td>Chagos</td></tr><tr><td style="white-space:nowrap">99309<a name="TRE-R20-Pays-99309"> </a></td><td>République unie de Tanzanie</td><td>2016-02-09T00:00:00+01:00</td><td>2024-01-26T12:00:00+01:00</td><td/><td>Tanzanie</td></tr><tr><td style="white-space:nowrap">99310<a name="TRE-R20-Pays-99310"> </a></td><td>République du Zimbabwe</td><td>2016-02-09T00:00:00+01:00</td><td>2024-01-26T12:00:00+01:00</td><td/><td>Zimbabwe</td></tr><tr><td style="white-space:nowrap">99311<a name="TRE-R20-Pays-99311"> </a></td><td>République de Namibie</td><td>2016-02-09T00:00:00+01:00</td><td>2024-01-26T12:00:00+01:00</td><td/><td>Namibie</td></tr><tr><td style="white-space:nowrap">99312<a name="TRE-R20-Pays-99312"> </a></td><td>République démocratique du Congo</td><td>2016-02-09T00:00:00+01:00</td><td>2024-06-28T12:00:00+01:00</td><td/><td>Rép. démocratique du Congo</td></tr><tr><td style="white-space:nowrap">99313<a name="TRE-R20-Pays-99313"> </a></td><td>Ceuta, Melilla, Présides, îles Canaries</td><td>2016-02-09T00:00:00+01:00</td><td>2024-12-13T12:00:00+01:00</td><td/><td>Terr. espagnols Afrique Nord</td></tr><tr><td style="white-space:nowrap">99314<a name="TRE-R20-Pays-99314"> </a></td><td>République de Guinée équatoriale</td><td>2016-02-09T00:00:00+01:00</td><td>2024-01-26T12:00:00+01:00</td><td/><td>Guinée équatoriale</td></tr><tr><td style="white-space:nowrap">99315<a name="TRE-R20-Pays-99315"> </a></td><td>République démocratique fédérale d'Éthiopie</td><td>2016-02-09T00:00:00+01:00</td><td>2024-01-26T12:00:00+01:00</td><td/><td>Éthiopie</td></tr><tr><td style="white-space:nowrap">99316<a name="TRE-R20-Pays-99316"> </a></td><td>État de Libye</td><td>2016-02-09T00:00:00+01:00</td><td>2024-06-28T12:00:00+01:00</td><td/><td>Libye</td></tr><tr><td style="white-space:nowrap">99317<a name="TRE-R20-Pays-99317"> </a></td><td>État d'Érythrée</td><td>2016-02-09T00:00:00+01:00</td><td>2024-01-26T12:00:00+01:00</td><td/><td>Érythrée</td></tr><tr><td style="white-space:nowrap">99318<a name="TRE-R20-Pays-99318"> </a></td><td>République fédérale de Somalie</td><td>2016-02-09T00:00:00+01:00</td><td>2024-06-28T12:00:00+01:00</td><td/><td>Somalie</td></tr><tr><td style="white-space:nowrap">99319<a name="TRE-R20-Pays-99319"> </a></td><td>Açores, Madère</td><td>2016-02-09T00:00:00+01:00</td><td>2024-12-13T12:00:00+01:00</td><td/><td>Terr. port. océan Atlantique</td></tr><tr><td style="white-space:nowrap">99320<a name="TRE-R20-Pays-99320"> </a></td><td>Îles portugaises de l'océan Indien</td><td>2016-02-09T00:00:00+01:00</td><td>2024-01-26T12:00:00+01:00</td><td>2016-02-09T00:00:00+01:00</td><td>Îles port. océan Indien</td></tr><tr><td style="white-space:nowrap">99321<a name="TRE-R20-Pays-99321"> </a></td><td>République du Burundi</td><td>2016-02-09T00:00:00+01:00</td><td>2024-01-26T12:00:00+01:00</td><td/><td>Burundi</td></tr><tr><td style="white-space:nowrap">99322<a name="TRE-R20-Pays-99322"> </a></td><td>République du Cameroun</td><td>2016-02-09T00:00:00+01:00</td><td>2024-01-26T12:00:00+01:00</td><td/><td>Cameroun</td></tr><tr><td style="white-space:nowrap">99323<a name="TRE-R20-Pays-99323"> </a></td><td>République centrafricaine</td><td>2016-02-09T00:00:00+01:00</td><td>2024-06-28T12:00:00+01:00</td><td/><td>Centrafrique</td></tr><tr><td style="white-space:nowrap">99324<a name="TRE-R20-Pays-99324"> </a></td><td>République du Congo</td><td>2016-02-09T00:00:00+01:00</td><td>2024-01-26T12:00:00+01:00</td><td/><td>Congo</td></tr><tr><td style="white-space:nowrap">99325<a name="TRE-R20-Pays-99325"> </a></td><td>Tanger</td><td>2016-02-09T00:00:00+01:00</td><td>2024-01-26T12:00:00+01:00</td><td>2016-02-09T00:00:00+01:00</td><td/></tr><tr><td style="white-space:nowrap">99326<a name="TRE-R20-Pays-99326"> </a></td><td>République de Côte d'Ivoire</td><td>2016-02-09T00:00:00+01:00</td><td>2024-01-26T12:00:00+01:00</td><td/><td>Côte d'Ivoire</td></tr><tr><td style="white-space:nowrap">99327<a name="TRE-R20-Pays-99327"> </a></td><td>République du Bénin</td><td>2016-02-09T00:00:00+01:00</td><td>2024-01-26T12:00:00+01:00</td><td/><td>Bénin</td></tr><tr><td style="white-space:nowrap">99328<a name="TRE-R20-Pays-99328"> </a></td><td>République gabonaise</td><td>2016-02-09T00:00:00+01:00</td><td>2024-01-26T12:00:00+01:00</td><td/><td>Gabon</td></tr><tr><td style="white-space:nowrap">99329<a name="TRE-R20-Pays-99329"> </a></td><td>République du Ghana</td><td>2016-02-09T00:00:00+01:00</td><td>2024-01-26T12:00:00+01:00</td><td/><td>Ghana</td></tr><tr><td style="white-space:nowrap">99330<a name="TRE-R20-Pays-99330"> </a></td><td>République de Guinée</td><td>2016-02-09T00:00:00+01:00</td><td>2024-01-26T12:00:00+01:00</td><td/><td>Guinée</td></tr><tr><td style="white-space:nowrap">99331<a name="TRE-R20-Pays-99331"> </a></td><td>Burkina Faso</td><td>2016-02-09T00:00:00+01:00</td><td>2024-01-26T12:00:00+01:00</td><td/><td>Burkina</td></tr><tr><td style="white-space:nowrap">99332<a name="TRE-R20-Pays-99332"> </a></td><td>République du Kenya</td><td>2016-02-09T00:00:00+01:00</td><td>2024-01-26T12:00:00+01:00</td><td/><td>Kenya</td></tr><tr><td style="white-space:nowrap">99333<a name="TRE-R20-Pays-99333"> </a></td><td>République de Madagascar</td><td>2016-02-09T00:00:00+01:00</td><td>2024-01-26T12:00:00+01:00</td><td/><td>Madagascar</td></tr><tr><td style="white-space:nowrap">99334<a name="TRE-R20-Pays-99334"> </a></td><td>République du Malawi</td><td>2016-02-09T00:00:00+01:00</td><td>2024-01-26T12:00:00+01:00</td><td/><td>Malawi</td></tr><tr><td style="white-space:nowrap">99335<a name="TRE-R20-Pays-99335"> </a></td><td>République du Mali</td><td>2016-02-09T00:00:00+01:00</td><td>2024-01-26T12:00:00+01:00</td><td/><td>Mali</td></tr><tr><td style="white-space:nowrap">99336<a name="TRE-R20-Pays-99336"> </a></td><td>République islamique de Mauritanie</td><td>2016-02-09T00:00:00+01:00</td><td>2024-01-26T12:00:00+01:00</td><td/><td>Mauritanie</td></tr><tr><td style="white-space:nowrap">99337<a name="TRE-R20-Pays-99337"> </a></td><td>République du Niger</td><td>2016-02-09T00:00:00+01:00</td><td>2024-01-26T12:00:00+01:00</td><td/><td>Niger</td></tr><tr><td style="white-space:nowrap">99338<a name="TRE-R20-Pays-99338"> </a></td><td>République fédérale du Nigéria</td><td>2016-02-09T00:00:00+01:00</td><td>2024-01-26T12:00:00+01:00</td><td/><td>Nigéria</td></tr><tr><td style="white-space:nowrap">99339<a name="TRE-R20-Pays-99339"> </a></td><td>République d'Ouganda</td><td>2016-02-09T00:00:00+01:00</td><td>2024-06-28T12:00:00+01:00</td><td/><td>Ouganda</td></tr><tr><td style="white-space:nowrap">99340<a name="TRE-R20-Pays-99340"> </a></td><td>République du Rwanda</td><td>2016-02-09T00:00:00+01:00</td><td>2024-06-28T12:00:00+01:00</td><td/><td>Rwanda</td></tr><tr><td style="white-space:nowrap">99341<a name="TRE-R20-Pays-99341"> </a></td><td>République du Sénégal</td><td>2016-02-09T00:00:00+01:00</td><td>2024-01-26T12:00:00+01:00</td><td/><td>Sénégal</td></tr><tr><td style="white-space:nowrap">99342<a name="TRE-R20-Pays-99342"> </a></td><td>République de Sierra Leone</td><td>2016-02-09T00:00:00+01:00</td><td>2024-01-26T12:00:00+01:00</td><td/><td>Sierra Leone</td></tr><tr><td style="white-space:nowrap">99343<a name="TRE-R20-Pays-99343"> </a></td><td>République du Soudan</td><td>2016-02-09T00:00:00+01:00</td><td>2024-01-26T12:00:00+01:00</td><td/><td>Soudan</td></tr><tr><td style="white-space:nowrap">99344<a name="TRE-R20-Pays-99344"> </a></td><td>République du Tchad</td><td>2016-02-09T00:00:00+01:00</td><td>2024-01-26T12:00:00+01:00</td><td/><td>Tchad</td></tr><tr><td style="white-space:nowrap">99345<a name="TRE-R20-Pays-99345"> </a></td><td>République togolaise</td><td>2016-02-09T00:00:00+01:00</td><td>2024-01-26T12:00:00+01:00</td><td/><td>Togo</td></tr><tr><td style="white-space:nowrap">99346<a name="TRE-R20-Pays-99346"> </a></td><td>République de Zambie</td><td>2016-02-09T00:00:00+01:00</td><td>2024-01-26T12:00:00+01:00</td><td/><td>Zambie</td></tr><tr><td style="white-space:nowrap">99347<a name="TRE-R20-Pays-99347"> </a></td><td>République du Botswana</td><td>2016-02-09T00:00:00+01:00</td><td>2024-01-26T12:00:00+01:00</td><td/><td>Botswana</td></tr><tr><td style="white-space:nowrap">99348<a name="TRE-R20-Pays-99348"> </a></td><td>Royaume du Lesotho</td><td>2016-02-09T00:00:00+01:00</td><td>2024-01-26T12:00:00+01:00</td><td/><td>Lesotho</td></tr><tr><td style="white-space:nowrap">99349<a name="TRE-R20-Pays-99349"> </a></td><td>République du Soudan du Sud</td><td>2019-05-29T12:00:00+01:00</td><td>2024-01-26T12:00:00+01:00</td><td/><td>Soudan du Sud</td></tr><tr><td style="white-space:nowrap">99350<a name="TRE-R20-Pays-99350"> </a></td><td>Royaume du Maroc</td><td>2016-02-09T00:00:00+01:00</td><td>2024-01-26T12:00:00+01:00</td><td/><td>Maroc</td></tr><tr><td style="white-space:nowrap">99351<a name="TRE-R20-Pays-99351"> </a></td><td>République tunisienne</td><td>2016-02-09T00:00:00+01:00</td><td>2024-01-26T12:00:00+01:00</td><td/><td>Tunisie</td></tr><tr><td style="white-space:nowrap">99352<a name="TRE-R20-Pays-99352"> </a></td><td>République algérienne démocratique et populaire</td><td>2016-02-09T00:00:00+01:00</td><td>2024-01-26T12:00:00+01:00</td><td/><td>Algérie</td></tr><tr><td style="white-space:nowrap">99389<a name="TRE-R20-Pays-99389"> </a></td><td>Sahara occidental</td><td>2016-02-09T00:00:00+01:00</td><td>2024-01-26T12:00:00+01:00</td><td/><td/></tr><tr><td style="white-space:nowrap">99390<a name="TRE-R20-Pays-99390"> </a></td><td>République de Maurice</td><td>2016-02-09T00:00:00+01:00</td><td>2024-01-26T12:00:00+01:00</td><td/><td>Maurice</td></tr><tr><td style="white-space:nowrap">99391<a name="TRE-R20-Pays-99391"> </a></td><td>Royaume du Swaziland</td><td>2016-02-09T00:00:00+01:00</td><td>2024-06-28T12:00:00+01:00</td><td/><td>Swaziland</td></tr><tr><td style="white-space:nowrap">99392<a name="TRE-R20-Pays-99392"> </a></td><td>République de Guinée-Bissao</td><td>2016-02-09T00:00:00+01:00</td><td>2024-06-28T12:00:00+01:00</td><td/><td>Guinée-Bissao</td></tr><tr><td style="white-space:nowrap">99393<a name="TRE-R20-Pays-99393"> </a></td><td>République du Mozambique</td><td>2016-02-09T00:00:00+01:00</td><td>2024-01-26T12:00:00+01:00</td><td/><td>Mozambique</td></tr><tr><td style="white-space:nowrap">99394<a name="TRE-R20-Pays-99394"> </a></td><td>République démocratique de Sao Tomé-et-Principe</td><td>2016-02-09T00:00:00+01:00</td><td>2024-01-26T12:00:00+01:00</td><td/><td>Sao Tomé-et-Principe</td></tr><tr><td style="white-space:nowrap">99395<a name="TRE-R20-Pays-99395"> </a></td><td>République d'Angola</td><td>2016-02-09T00:00:00+01:00</td><td>2024-01-26T12:00:00+01:00</td><td/><td>Angola</td></tr><tr><td style="white-space:nowrap">99396<a name="TRE-R20-Pays-99396"> </a></td><td>République du Cap-Vert</td><td>2016-02-09T00:00:00+01:00</td><td>2024-01-26T12:00:00+01:00</td><td/><td>Cap-Vert</td></tr><tr><td style="white-space:nowrap">99397<a name="TRE-R20-Pays-99397"> </a></td><td>Union des Comores</td><td>2016-02-09T00:00:00+01:00</td><td>2024-06-28T12:00:00+01:00</td><td/><td>Comores</td></tr><tr><td style="white-space:nowrap">99398<a name="TRE-R20-Pays-99398"> </a></td><td>République des Seychelles</td><td>2016-02-09T00:00:00+01:00</td><td>2024-01-26T12:00:00+01:00</td><td/><td>Seychelles</td></tr><tr><td style="white-space:nowrap">99399<a name="TRE-R20-Pays-99399"> </a></td><td>République de Djibouti</td><td>2016-02-09T00:00:00+01:00</td><td>2024-01-26T12:00:00+01:00</td><td/><td>Djibouti</td></tr><tr><td style="white-space:nowrap">99401<a name="TRE-R20-Pays-99401"> </a></td><td>Canada</td><td>2016-02-09T00:00:00+01:00</td><td>2024-01-26T12:00:00+01:00</td><td/><td/></tr><tr><td style="white-space:nowrap">99402<a name="TRE-R20-Pays-99402"> </a></td><td>Terre-Neuve</td><td>2016-02-09T00:00:00+01:00</td><td>2024-01-26T12:00:00+01:00</td><td>2016-02-09T00:00:00+01:00</td><td/></tr><tr><td style="white-space:nowrap">99403<a name="TRE-R20-Pays-99403"> </a></td><td>Labrador</td><td>2016-02-09T00:00:00+01:00</td><td>2024-01-26T12:00:00+01:00</td><td>2016-02-09T00:00:00+01:00</td><td/></tr><tr><td style="white-space:nowrap">99404<a name="TRE-R20-Pays-99404"> </a></td><td>États-Unis d'Amérique</td><td>2016-02-09T00:00:00+01:00</td><td>2024-01-26T12:00:00+01:00</td><td/><td>États-Unis</td></tr><tr><td style="white-space:nowrap">99405<a name="TRE-R20-Pays-99405"> </a></td><td>États-Unis du Mexique</td><td>2016-02-09T00:00:00+01:00</td><td>2024-01-26T12:00:00+01:00</td><td/><td>Mexique</td></tr><tr><td style="white-space:nowrap">99406<a name="TRE-R20-Pays-99406"> </a></td><td>République du Costa Rica</td><td>2016-02-09T00:00:00+01:00</td><td>2024-01-26T12:00:00+01:00</td><td/><td>Costa Rica</td></tr><tr><td style="white-space:nowrap">99407<a name="TRE-R20-Pays-99407"> </a></td><td>République de Cuba</td><td>2016-02-09T00:00:00+01:00</td><td>2024-01-26T12:00:00+01:00</td><td/><td>Cuba</td></tr><tr><td style="white-space:nowrap">99408<a name="TRE-R20-Pays-99408"> </a></td><td>République dominicaine</td><td>2016-02-09T00:00:00+01:00</td><td>2024-06-28T12:00:00+01:00</td><td/><td/></tr><tr><td style="white-space:nowrap">99409<a name="TRE-R20-Pays-99409"> </a></td><td>République du Guatemala</td><td>2016-02-09T00:00:00+01:00</td><td>2024-01-26T12:00:00+01:00</td><td/><td>Guatemala</td></tr><tr><td style="white-space:nowrap">99410<a name="TRE-R20-Pays-99410"> </a></td><td>République d'Haïti</td><td>2016-02-09T00:00:00+01:00</td><td>2024-01-26T12:00:00+01:00</td><td/><td>Haïti</td></tr><tr><td style="white-space:nowrap">99411<a name="TRE-R20-Pays-99411"> </a></td><td>République du Honduras</td><td>2016-02-09T00:00:00+01:00</td><td>2024-01-26T12:00:00+01:00</td><td/><td>Honduras</td></tr><tr><td style="white-space:nowrap">99412<a name="TRE-R20-Pays-99412"> </a></td><td>République du Nicaragua</td><td>2016-02-09T00:00:00+01:00</td><td>2024-01-26T12:00:00+01:00</td><td/><td>Nicaragua</td></tr><tr><td style="white-space:nowrap">99413<a name="TRE-R20-Pays-99413"> </a></td><td>République du Panama</td><td>2016-02-09T00:00:00+01:00</td><td>2024-01-26T12:00:00+01:00</td><td/><td>Panama</td></tr><tr><td style="white-space:nowrap">99414<a name="TRE-R20-Pays-99414"> </a></td><td>République du Salvador</td><td>2016-02-09T00:00:00+01:00</td><td>2024-06-28T12:00:00+01:00</td><td/><td>Salvador</td></tr><tr><td style="white-space:nowrap">99415<a name="TRE-R20-Pays-99415"> </a></td><td>République argentine</td><td>2016-02-09T00:00:00+01:00</td><td>2024-01-26T12:00:00+01:00</td><td/><td>Argentine</td></tr><tr><td style="white-space:nowrap">99416<a name="TRE-R20-Pays-99416"> </a></td><td>République fédérative du Brésil</td><td>2016-02-09T00:00:00+01:00</td><td>2024-01-26T12:00:00+01:00</td><td/><td>Brésil</td></tr><tr><td style="white-space:nowrap">99417<a name="TRE-R20-Pays-99417"> </a></td><td>République du Chili</td><td>2016-02-09T00:00:00+01:00</td><td>2024-01-26T12:00:00+01:00</td><td/><td>Chili</td></tr><tr><td style="white-space:nowrap">99418<a name="TRE-R20-Pays-99418"> </a></td><td>État plurinational de Bolivie</td><td>2016-02-09T00:00:00+01:00</td><td>2024-01-26T12:00:00+01:00</td><td/><td>Bolivie</td></tr><tr><td style="white-space:nowrap">99419<a name="TRE-R20-Pays-99419"> </a></td><td>République de Colombie</td><td>2016-02-09T00:00:00+01:00</td><td>2024-01-26T12:00:00+01:00</td><td/><td>Colombie</td></tr><tr><td style="white-space:nowrap">99420<a name="TRE-R20-Pays-99420"> </a></td><td>République d'Équateur</td><td>2016-02-09T00:00:00+01:00</td><td>2024-06-28T12:00:00+01:00</td><td/><td>Équateur</td></tr><tr><td style="white-space:nowrap">99421<a name="TRE-R20-Pays-99421"> </a></td><td>République du Paraguay</td><td>2016-02-09T00:00:00+01:00</td><td>2024-01-26T12:00:00+01:00</td><td/><td>Paraguay</td></tr><tr><td style="white-space:nowrap">99422<a name="TRE-R20-Pays-99422"> </a></td><td>République du Pérou</td><td>2016-02-09T00:00:00+01:00</td><td>2024-01-26T12:00:00+01:00</td><td/><td>Pérou</td></tr><tr><td style="white-space:nowrap">99423<a name="TRE-R20-Pays-99423"> </a></td><td>République orientale de l'Uruguay</td><td>2016-02-09T00:00:00+01:00</td><td>2024-01-26T12:00:00+01:00</td><td/><td>Uruguay</td></tr><tr><td style="white-space:nowrap">99424<a name="TRE-R20-Pays-99424"> </a></td><td>République bolivarienne du Vénézuéla</td><td>2016-02-09T00:00:00+01:00</td><td>2024-01-26T12:00:00+01:00</td><td/><td>Vénézuéla</td></tr><tr><td style="white-space:nowrap">99425<a name="TRE-R20-Pays-99425"> </a></td><td>Turks-et-Caïcos, Caïmans, Montserrat, Anguilla, Vierges britanniques, Bermudes</td><td>2016-02-09T00:00:00+01:00</td><td>2024-12-13T12:00:00+01:00</td><td/><td>Terr. brit. Antilles Bermudes</td></tr><tr><td style="white-space:nowrap">99426<a name="TRE-R20-Pays-99426"> </a></td><td>Jamaïque</td><td>2016-02-09T00:00:00+01:00</td><td>2024-01-26T12:00:00+01:00</td><td/><td/></tr><tr><td style="white-space:nowrap">99427<a name="TRE-R20-Pays-99427"> </a></td><td>Malouines, terr. antarctique brit., Géorgie-du-Sud-et-les-îles-Sandwich-du-Sud</td><td>2016-02-09T00:00:00+01:00</td><td>2024-12-13T12:00:00+01:00</td><td/><td>Terr. brit. oc. Atlantique Sud</td></tr><tr><td style="white-space:nowrap">99428<a name="TRE-R20-Pays-99428"> </a></td><td>République coopérative du Guyana</td><td>2016-02-09T00:00:00+01:00</td><td>2024-01-26T12:00:00+01:00</td><td/><td>Guyana</td></tr><tr><td style="white-space:nowrap">99429<a name="TRE-R20-Pays-99429"> </a></td><td>Bélize</td><td>2016-02-09T00:00:00+01:00</td><td>2024-01-26T12:00:00+01:00</td><td/><td/></tr><tr><td style="white-space:nowrap">99430<a name="TRE-R20-Pays-99430"> </a></td><td>Groenland</td><td>2016-02-09T00:00:00+01:00</td><td>2024-12-13T12:00:00+01:00</td><td/><td/></tr><tr><td style="white-space:nowrap">99431<a name="TRE-R20-Pays-99431"> </a></td><td>Aruba</td><td>2016-02-09T00:00:00+01:00</td><td>2024-12-13T12:00:00+01:00</td><td/><td/></tr><tr><td style="white-space:nowrap">99432<a name="TRE-R20-Pays-99432"> </a></td><td>Porto Rico, îles Vierges des États-Unis</td><td>2016-02-09T00:00:00+01:00</td><td>2024-12-13T12:00:00+01:00</td><td/><td>Terr. États-Unis en Amérique</td></tr><tr><td style="white-space:nowrap">99433<a name="TRE-R20-Pays-99433"> </a></td><td>République de Trinité-et-Tobago</td><td>2016-02-09T00:00:00+01:00</td><td>2024-01-26T12:00:00+01:00</td><td/><td>Trinité-et-Tobago</td></tr><tr><td style="white-space:nowrap">99434<a name="TRE-R20-Pays-99434"> </a></td><td>Barbade</td><td>2016-02-09T00:00:00+01:00</td><td>2024-01-26T12:00:00+01:00</td><td/><td/></tr><tr><td style="white-space:nowrap">99435<a name="TRE-R20-Pays-99435"> </a></td><td>Grenade</td><td>2016-02-09T00:00:00+01:00</td><td>2024-01-26T12:00:00+01:00</td><td/><td/></tr><tr><td style="white-space:nowrap">99436<a name="TRE-R20-Pays-99436"> </a></td><td>Commonwealth des Bahamas</td><td>2016-02-09T00:00:00+01:00</td><td>2024-01-26T12:00:00+01:00</td><td/><td>Bahamas</td></tr><tr><td style="white-space:nowrap">99437<a name="TRE-R20-Pays-99437"> </a></td><td>République du Suriname</td><td>2016-02-09T00:00:00+01:00</td><td>2024-01-26T12:00:00+01:00</td><td/><td>Suriname</td></tr><tr><td style="white-space:nowrap">99438<a name="TRE-R20-Pays-99438"> </a></td><td>Commonwealth de Dominique</td><td>2016-02-09T00:00:00+01:00</td><td>2024-01-26T12:00:00+01:00</td><td/><td>Dominique</td></tr><tr><td style="white-space:nowrap">99439<a name="TRE-R20-Pays-99439"> </a></td><td>Sainte-Lucie</td><td>2016-02-09T00:00:00+01:00</td><td>2024-01-26T12:00:00+01:00</td><td/><td/></tr><tr><td style="white-space:nowrap">99440<a name="TRE-R20-Pays-99440"> </a></td><td>Saint-Vincent-et-les-Grenadines</td><td>2016-02-09T00:00:00+01:00</td><td>2024-06-28T12:00:00+01:00</td><td/><td>St-Vincent-et-les-Grenadines</td></tr><tr><td style="white-space:nowrap">99441<a name="TRE-R20-Pays-99441"> </a></td><td>Antigua-et-Barbuda</td><td>2016-02-09T00:00:00+01:00</td><td>2024-01-26T12:00:00+01:00</td><td/><td/></tr><tr><td style="white-space:nowrap">99442<a name="TRE-R20-Pays-99442"> </a></td><td>Saint-Christophe-et-Niévès</td><td>2016-02-09T00:00:00+01:00</td><td>2024-06-28T12:00:00+01:00</td><td/><td/></tr><tr><td style="white-space:nowrap">99443<a name="TRE-R20-Pays-99443"> </a></td><td>Bonaire, Saint-Eustache, Saba</td><td>2016-02-09T00:00:00+01:00</td><td>2024-12-13T12:00:00+01:00</td><td/><td/></tr><tr><td style="white-space:nowrap">99444<a name="TRE-R20-Pays-99444"> </a></td><td>Curaçao</td><td>2016-02-09T00:00:00+01:00</td><td>2024-12-13T12:00:00+01:00</td><td/><td/></tr><tr><td style="white-space:nowrap">99445<a name="TRE-R20-Pays-99445"> </a></td><td>Saint-Martin (partie néerlandaise)</td><td>2016-02-09T00:00:00+01:00</td><td>2024-12-13T12:00:00+01:00</td><td/><td>Saint-Martin</td></tr><tr><td style="white-space:nowrap">99501<a name="TRE-R20-Pays-99501"> </a></td><td>Commonwealth d'Australie</td><td>2016-02-09T00:00:00+01:00</td><td>2024-06-28T12:00:00+01:00</td><td/><td>Australie</td></tr><tr><td style="white-space:nowrap">99502<a name="TRE-R20-Pays-99502"> </a></td><td>Nouvelle-Zélande</td><td>2016-02-09T00:00:00+01:00</td><td>2024-01-26T12:00:00+01:00</td><td/><td/></tr><tr><td style="white-space:nowrap">99503<a name="TRE-R20-Pays-99503"> </a></td><td>Pitcairn</td><td>2016-02-09T00:00:00+01:00</td><td>2024-12-13T12:00:00+01:00</td><td/><td/></tr><tr><td style="white-space:nowrap">99504<a name="TRE-R20-Pays-99504"> </a></td><td>Hawaii</td><td>2016-02-09T00:00:00+01:00</td><td>2024-06-28T12:00:00+01:00</td><td>2016-02-09T00:00:00+01:00</td><td/></tr><tr><td style="white-space:nowrap">99505<a name="TRE-R20-Pays-99505"> </a></td><td>Mariannes du Nord, Guam, Samoa américaines, mineures éloignées des États-Unis</td><td>2016-02-09T00:00:00+01:00</td><td>2024-12-13T12:00:00+01:00</td><td/><td>Terr. États-Unis en Océanie</td></tr><tr><td style="white-space:nowrap">99506<a name="TRE-R20-Pays-99506"> </a></td><td>État indépendant des Samoa</td><td>2016-02-09T00:00:00+01:00</td><td>2024-06-28T12:00:00+01:00</td><td/><td>Samoa</td></tr><tr><td style="white-space:nowrap">99507<a name="TRE-R20-Pays-99507"> </a></td><td>République de Nauru</td><td>2016-02-09T00:00:00+01:00</td><td>2024-01-26T12:00:00+01:00</td><td/><td>Nauru</td></tr><tr><td style="white-space:nowrap">99508<a name="TRE-R20-Pays-99508"> </a></td><td>République des Fidji</td><td>2016-02-09T00:00:00+01:00</td><td>2024-01-26T12:00:00+01:00</td><td/><td>Fidji</td></tr><tr><td style="white-space:nowrap">99509<a name="TRE-R20-Pays-99509"> </a></td><td>Royaume des Tonga</td><td>2016-02-09T00:00:00+01:00</td><td>2024-01-26T12:00:00+01:00</td><td/><td>Tonga</td></tr><tr><td style="white-space:nowrap">99510<a name="TRE-R20-Pays-99510"> </a></td><td>État indépendant de Papouasie-Nouvelle-Guinée</td><td>2016-02-09T00:00:00+01:00</td><td>2024-06-28T12:00:00+01:00</td><td/><td>Papouasie-Nouvelle-Guinée</td></tr><tr><td style="white-space:nowrap">99511<a name="TRE-R20-Pays-99511"> </a></td><td>Tuvalu</td><td>2016-02-09T00:00:00+01:00</td><td>2024-01-26T12:00:00+01:00</td><td/><td/></tr><tr><td style="white-space:nowrap">99512<a name="TRE-R20-Pays-99512"> </a></td><td>Îles Salomon</td><td>2016-02-09T00:00:00+01:00</td><td>2024-06-28T12:00:00+01:00</td><td/><td>Salomon</td></tr><tr><td style="white-space:nowrap">99513<a name="TRE-R20-Pays-99513"> </a></td><td>République des Kiribati</td><td>2016-02-09T00:00:00+01:00</td><td>2024-01-26T12:00:00+01:00</td><td/><td>Kiribati</td></tr><tr><td style="white-space:nowrap">99514<a name="TRE-R20-Pays-99514"> </a></td><td>République du Vanuatu</td><td>2016-02-09T00:00:00+01:00</td><td>2024-01-26T12:00:00+01:00</td><td/><td>Vanuatu</td></tr><tr><td style="white-space:nowrap">99515<a name="TRE-R20-Pays-99515"> </a></td><td>République des îles Marshall</td><td>2016-02-09T00:00:00+01:00</td><td>2024-01-26T12:00:00+01:00</td><td/><td>Marshall</td></tr><tr><td style="white-space:nowrap">99516<a name="TRE-R20-Pays-99516"> </a></td><td>États fédérés de Micronésie</td><td>2016-02-09T00:00:00+01:00</td><td>2024-06-28T12:00:00+01:00</td><td/><td>Micronésie</td></tr><tr><td style="white-space:nowrap">99517<a name="TRE-R20-Pays-99517"> </a></td><td>République des Palaos</td><td>2016-02-09T00:00:00+01:00</td><td>2024-06-28T12:00:00+01:00</td><td/><td>Palaos</td></tr><tr><td style="white-space:nowrap">99699<a name="TRE-R20-Pays-99699"> </a></td><td>Antarctique</td><td>2024-06-28T12:00:00+01:00</td><td>2024-06-28T12:00:00+01:00</td><td/><td/></tr></table></div>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: CodeSystem TRE-R20-Pays</b></p><a name="TRE-R20-Pays"> </a><a name="hcTRE-R20-Pays"> </a><a name="TRE-R20-Pays-fr-FR"> </a><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px">version: 9; Last updated: 2025-03-31 18:11:20+0000</p><p style="margin-bottom: 0px">Profil: <a href="http://hl7.org/fhir/R4/shareablecodesystem.html">Shareable CodeSystem</a></p></div><p><b>Propriétés</b></p><p><b>Cette terminologie de référence (CodeSystem) définit les propriétés suivantes pour ses concepts</b></p><table class="grid"><tr><td><b>Nom</b></td><td><b>Code</b></td><td><b>URI</b></td><td><b>Type</b></td><td><b>Description</b></td></tr><tr><td>dateValid</td><td>dateValid</td><td/><td>dateTime</td><td>date de validité d'un code concept</td></tr><tr><td>dateMaj</td><td>dateMaj</td><td/><td>dateTime</td><td>Date de mise à jour d'un code concept</td></tr><tr><td>dateFin</td><td>dateFin</td><td/><td>dateTime</td><td>Date de fin d'exploitation d'un code concept</td></tr><tr><td>deprecationDate</td><td>deprecationDate</td><td>http://hl7.org/fhir/concept-properties#deprecationDate</td><td>dateTime</td><td>Date Concept was deprecated</td></tr><tr><td>status</td><td>status</td><td>http://hl7.org/fhir/concept-properties#status</td><td>code</td><td>A property that indicates the status of the concept.</td></tr><tr><td>retirementDate</td><td>retirementDate</td><td>http://hl7.org/fhir/concept-properties#retirementDate</td><td>dateTime</td><td>Date Concept was retired</td></tr></table><p><b>Concepts</b></p><p>This case-insensitive code system <code>https://mos.esante.gouv.fr/NOS/TRE_R20-Pays/FHIR/TRE-R20-Pays</code> defines the following codes:</p><table class="codes"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td><td><b>Déprécié</b></td><td><b>dateValid</b></td><td><b>dateMaj</b></td><td><b>dateFin</b></td><td><b>deprecationDate</b></td><td><b>status</b></td><td><b>French (France) (fr)</b></td></tr><tr style="background-color: #ffeeee"><td style="white-space:nowrap">99000<a name="TRE-R20-Pays-99000"> </a></td><td>République française</td><td>Déprécié</td><td>2016-02-09T00:00:00+01:00</td><td>2024-01-26T12:00:00+01:00</td><td>2016-09-01T00:00:00+01:00</td><td>2016-09-01T00:00:00+01:00</td><td>deprecated</td><td>France</td></tr><tr><td style="white-space:nowrap">99100<a name="TRE-R20-Pays-99100"> </a></td><td>République française</td><td/><td>2016-09-01T00:00:00+01:00</td><td>2024-01-26T12:00:00+01:00</td><td/><td/><td>active</td><td>France</td></tr><tr><td style="white-space:nowrap">99101<a name="TRE-R20-Pays-99101"> </a></td><td>Royaume du Danemark</td><td/><td>2016-02-09T00:00:00+01:00</td><td>2024-01-26T12:00:00+01:00</td><td/><td/><td>active</td><td>Danemark</td></tr><tr><td style="white-space:nowrap">99102<a name="TRE-R20-Pays-99102"> </a></td><td>Islande</td><td/><td>2016-02-09T00:00:00+01:00</td><td>2024-06-28T12:00:00+01:00</td><td/><td/><td>active</td><td/></tr><tr><td style="white-space:nowrap">99103<a name="TRE-R20-Pays-99103"> </a></td><td>Royaume de Norvège</td><td/><td>2016-02-09T00:00:00+01:00</td><td>2024-01-26T12:00:00+01:00</td><td/><td/><td>active</td><td>Norvège</td></tr><tr><td style="white-space:nowrap">99104<a name="TRE-R20-Pays-99104"> </a></td><td>Royaume de Suède</td><td/><td>2016-02-09T00:00:00+01:00</td><td>2024-01-26T12:00:00+01:00</td><td/><td/><td>active</td><td>Suède</td></tr><tr><td style="white-space:nowrap">99105<a name="TRE-R20-Pays-99105"> </a></td><td>République de Finlande</td><td/><td>2016-02-09T00:00:00+01:00</td><td>2024-01-26T12:00:00+01:00</td><td/><td/><td>active</td><td>Finlande</td></tr><tr><td style="white-space:nowrap">99106<a name="TRE-R20-Pays-99106"> </a></td><td>République d'Estonie</td><td/><td>2016-02-09T00:00:00+01:00</td><td>2024-01-26T12:00:00+01:00</td><td/><td/><td>active</td><td>Estonie</td></tr><tr><td style="white-space:nowrap">99107<a name="TRE-R20-Pays-99107"> </a></td><td>République de Lettonie</td><td/><td>2016-02-09T00:00:00+01:00</td><td>2024-01-26T12:00:00+01:00</td><td/><td/><td>active</td><td>Lettonie</td></tr><tr><td style="white-space:nowrap">99108<a name="TRE-R20-Pays-99108"> </a></td><td>République de Lituanie</td><td/><td>2016-02-09T00:00:00+01:00</td><td>2024-01-26T12:00:00+01:00</td><td/><td/><td>active</td><td>Lituanie</td></tr><tr><td style="white-space:nowrap">99109<a name="TRE-R20-Pays-99109"> </a></td><td>République fédérale d'Allemagne</td><td/><td>2016-02-09T00:00:00+01:00</td><td>2024-01-26T12:00:00+01:00</td><td/><td/><td>active</td><td>Allemagne</td></tr><tr><td style="white-space:nowrap">99110<a name="TRE-R20-Pays-99110"> </a></td><td>République d'Autriche</td><td/><td>2016-02-09T00:00:00+01:00</td><td>2024-01-26T12:00:00+01:00</td><td/><td/><td>active</td><td>Autriche</td></tr><tr><td style="white-space:nowrap">99111<a name="TRE-R20-Pays-99111"> </a></td><td>République de Bulgarie</td><td/><td>2016-02-09T00:00:00+01:00</td><td>2024-01-26T12:00:00+01:00</td><td/><td/><td>active</td><td>Bulgarie</td></tr><tr><td style="white-space:nowrap">99112<a name="TRE-R20-Pays-99112"> </a></td><td>Hongrie</td><td/><td>2016-02-09T00:00:00+01:00</td><td>2024-06-28T12:00:00+01:00</td><td/><td/><td>active</td><td/></tr><tr><td style="white-space:nowrap">99113<a name="TRE-R20-Pays-99113"> </a></td><td>Principauté du Liechtenstein</td><td/><td>2016-02-09T00:00:00+01:00</td><td>2024-01-26T12:00:00+01:00</td><td/><td/><td>active</td><td>Liechtenstein</td></tr><tr><td style="white-space:nowrap">99114<a name="TRE-R20-Pays-99114"> </a></td><td>Roumanie</td><td/><td>2016-02-09T00:00:00+01:00</td><td>2024-01-26T12:00:00+01:00</td><td/><td/><td>active</td><td/></tr><tr style="background-color: #ffeeee"><td style="white-space:nowrap">99115<a name="TRE-R20-Pays-99115"> </a></td><td>Tchécoslovaquie</td><td>Déprécié</td><td>2016-02-09T00:00:00+01:00</td><td>2024-01-26T12:00:00+01:00</td><td>2016-02-09T00:00:00+01:00</td><td>2016-02-09T00:00:00+01:00</td><td>deprecated</td><td/></tr><tr><td style="white-space:nowrap">99116<a name="TRE-R20-Pays-99116"> </a></td><td>République tchèque</td><td/><td>2016-02-09T00:00:00+01:00</td><td>2024-01-26T12:00:00+01:00</td><td/><td/><td>active</td><td>Tchéquie</td></tr><tr><td style="white-space:nowrap">99117<a name="TRE-R20-Pays-99117"> </a></td><td>République slovaque</td><td/><td>2016-02-09T00:00:00+01:00</td><td>2024-01-26T12:00:00+01:00</td><td/><td/><td>active</td><td>Slovaquie</td></tr><tr><td style="white-space:nowrap">99118<a name="TRE-R20-Pays-99118"> </a></td><td>Bosnie-Herzégovine</td><td/><td>2016-02-09T00:00:00+01:00</td><td>2024-06-28T12:00:00+01:00</td><td/><td/><td>active</td><td/></tr><tr><td style="white-space:nowrap">99119<a name="TRE-R20-Pays-99119"> </a></td><td>République de Croatie</td><td/><td>2016-02-09T00:00:00+01:00</td><td>2024-01-26T12:00:00+01:00</td><td/><td/><td>active</td><td>Croatie</td></tr><tr><td style="white-space:nowrap">99120<a name="TRE-R20-Pays-99120"> </a></td><td>Monténégro</td><td/><td>2016-02-09T00:00:00+01:00</td><td>2024-06-28T12:00:00+01:00</td><td/><td/><td>active</td><td/></tr><tr><td style="white-space:nowrap">99121<a name="TRE-R20-Pays-99121"> </a></td><td>République de Serbie</td><td/><td>2016-02-09T00:00:00+01:00</td><td>2024-01-26T12:00:00+01:00</td><td/><td/><td>active</td><td>Serbie</td></tr><tr><td style="white-space:nowrap">99122<a name="TRE-R20-Pays-99122"> </a></td><td>République de Pologne</td><td/><td>2016-02-09T00:00:00+01:00</td><td>2024-01-26T12:00:00+01:00</td><td/><td/><td>active</td><td>Pologne</td></tr><tr><td style="white-space:nowrap">99123<a name="TRE-R20-Pays-99123"> </a></td><td>Fédération de Russie</td><td/><td>2016-02-09T00:00:00+01:00</td><td>2024-01-26T12:00:00+01:00</td><td/><td/><td>active</td><td>Russie</td></tr><tr style="background-color: #ffeeee"><td style="white-space:nowrap">99124<a name="TRE-R20-Pays-99124"> </a></td><td>Turquie d'Europe</td><td>Déprécié</td><td>2016-02-09T00:00:00+01:00</td><td>2024-01-26T12:00:00+01:00</td><td>2016-02-09T00:00:00+01:00</td><td>2016-02-09T00:00:00+01:00</td><td>deprecated</td><td/></tr><tr><td style="white-space:nowrap">99125<a name="TRE-R20-Pays-99125"> </a></td><td>République d'Albanie</td><td/><td>2016-02-09T00:00:00+01:00</td><td>2024-01-26T12:00:00+01:00</td><td/><td/><td>active</td><td>Albanie</td></tr><tr><td style="white-space:nowrap">99126<a name="TRE-R20-Pays-99126"> </a></td><td>République hellénique</td><td/><td>2016-02-09T00:00:00+01:00</td><td>2024-01-26T12:00:00+01:00</td><td/><td/><td>active</td><td>Grèce</td></tr><tr><td style="white-space:nowrap">99127<a name="TRE-R20-Pays-99127"> </a></td><td>République italienne</td><td/><td>2016-02-09T00:00:00+01:00</td><td>2024-01-26T12:00:00+01:00</td><td/><td/><td>active</td><td>Italie</td></tr><tr><td style="white-space:nowrap">99128<a name="TRE-R20-Pays-99128"> </a></td><td>République de Saint-Marin</td><td/><td>2016-02-09T00:00:00+01:00</td><td>2024-01-26T12:00:00+01:00</td><td/><td/><td>active</td><td>Saint-Marin</td></tr><tr><td style="white-space:nowrap">99129<a name="TRE-R20-Pays-99129"> </a></td><td>Saint-Siège ou Vatican</td><td/><td>2016-02-09T00:00:00+01:00</td><td>2024-06-28T12:00:00+01:00</td><td/><td/><td>active</td><td>Vatican</td></tr><tr><td style="white-space:nowrap">99130<a name="TRE-R20-Pays-99130"> </a></td><td>Principauté d'Andorre</td><td/><td>2016-02-09T00:00:00+01:00</td><td>2024-01-26T12:00:00+01:00</td><td/><td/><td>active</td><td>Andorre</td></tr><tr><td style="white-space:nowrap">99131<a name="TRE-R20-Pays-99131"> </a></td><td>Royaume de Belgique</td><td/><td>2016-02-09T00:00:00+01:00</td><td>2024-01-26T12:00:00+01:00</td><td/><td/><td>active</td><td>Belgique</td></tr><tr><td style="white-space:nowrap">99132<a name="TRE-R20-Pays-99132"> </a></td><td>Royaume-Uni de Grande-Bretagne et d'Irlande du Nord</td><td/><td>2016-02-09T00:00:00+01:00</td><td>2024-01-26T12:00:00+01:00</td><td/><td/><td>active</td><td>Royaume-Uni</td></tr><tr><td style="white-space:nowrap">99133<a name="TRE-R20-Pays-99133"> </a></td><td>Gibraltar, Akrotiri et Dhekelia</td><td/><td>2016-02-09T00:00:00+01:00</td><td>2025-03-28T12:00:00+01:00</td><td/><td/><td>active</td><td>Terr. britannique Méditerranée</td></tr><tr><td style="white-space:nowrap">99134<a name="TRE-R20-Pays-99134"> </a></td><td>Royaume d'Espagne</td><td/><td>2016-02-09T00:00:00+01:00</td><td>2024-01-26T12:00:00+01:00</td><td/><td/><td>active</td><td>Espagne</td></tr><tr><td style="white-space:nowrap">99135<a name="TRE-R20-Pays-99135"> </a></td><td>Royaume des Pays-Bas</td><td/><td>2016-02-09T00:00:00+01:00</td><td>2024-01-26T12:00:00+01:00</td><td/><td/><td>active</td><td>Pays-Bas</td></tr><tr><td style="white-space:nowrap">99136<a name="TRE-R20-Pays-99136"> </a></td><td>Irlande</td><td/><td>2016-02-09T00:00:00+01:00</td><td>2024-06-28T12:00:00+01:00</td><td/><td/><td>active</td><td/></tr><tr><td style="white-space:nowrap">99137<a name="TRE-R20-Pays-99137"> </a></td><td>Grand-Duché du Luxembourg</td><td/><td>2016-02-09T00:00:00+01:00</td><td>2024-06-28T12:00:00+01:00</td><td/><td/><td>active</td><td>Luxembourg</td></tr><tr><td style="white-space:nowrap">99138<a name="TRE-R20-Pays-99138"> </a></td><td>Principauté de Monaco</td><td/><td>2016-02-09T00:00:00+01:00</td><td>2024-01-26T12:00:00+01:00</td><td/><td/><td>active</td><td>Monaco</td></tr><tr><td style="white-space:nowrap">99139<a name="TRE-R20-Pays-99139"> </a></td><td>République portugaise</td><td/><td>2016-02-09T00:00:00+01:00</td><td>2024-01-26T12:00:00+01:00</td><td/><td/><td>active</td><td>Portugal</td></tr><tr><td style="white-space:nowrap">99140<a name="TRE-R20-Pays-99140"> </a></td><td>Confédération suisse</td><td/><td>2016-02-09T00:00:00+01:00</td><td>2024-01-26T12:00:00+01:00</td><td/><td/><td>active</td><td>Suisse</td></tr><tr style="background-color: #ffeeee"><td style="white-space:nowrap">99141<a name="TRE-R20-Pays-99141"> </a></td><td>République démocratique allemande</td><td>Déprécié</td><td>2016-02-09T00:00:00+01:00</td><td>2024-01-26T12:00:00+01:00</td><td>2016-02-09T00:00:00+01:00</td><td>2016-02-09T00:00:00+01:00</td><td>deprecated</td><td>Rep. dem. allemande</td></tr><tr style="background-color: #ffeeee"><td style="white-space:nowrap">99142<a name="TRE-R20-Pays-99142"> </a></td><td>République fédérale d'Allemagne</td><td>Déprécié</td><td>2016-02-09T00:00:00+01:00</td><td>2024-01-26T12:00:00+01:00</td><td>2016-02-09T00:00:00+01:00</td><td>2016-02-09T00:00:00+01:00</td><td>deprecated</td><td>Rep. fed. Allemagne</td></tr><tr><td style="white-space:nowrap">99144<a name="TRE-R20-Pays-99144"> </a></td><td>République de Malte</td><td/><td>2016-02-09T00:00:00+01:00</td><td>2024-01-26T12:00:00+01:00</td><td/><td/><td>active</td><td>Malte</td></tr><tr><td style="white-space:nowrap">99145<a name="TRE-R20-Pays-99145"> </a></td><td>République de Slovénie</td><td/><td>2016-02-09T00:00:00+01:00</td><td>2024-01-26T12:00:00+01:00</td><td/><td/><td>active</td><td>Slovénie</td></tr><tr><td style="white-space:nowrap">99148<a name="TRE-R20-Pays-99148"> </a></td><td>République de Biélorussie</td><td/><td>2016-02-09T00:00:00+01:00</td><td>2024-01-26T12:00:00+01:00</td><td/><td/><td>active</td><td>Biélorussie</td></tr><tr><td style="white-space:nowrap">99151<a name="TRE-R20-Pays-99151"> </a></td><td>République de Moldavie</td><td/><td>2016-02-09T00:00:00+01:00</td><td>2024-01-26T12:00:00+01:00</td><td/><td/><td>active</td><td>Moldavie</td></tr><tr><td style="white-space:nowrap">99155<a name="TRE-R20-Pays-99155"> </a></td><td>Ukraine</td><td/><td>2016-02-09T00:00:00+01:00</td><td>2024-01-26T12:00:00+01:00</td><td/><td/><td>active</td><td/></tr><tr><td style="white-space:nowrap">99156<a name="TRE-R20-Pays-99156"> </a></td><td>République de Macédoine du Nord</td><td/><td>2016-02-09T00:00:00+01:00</td><td>2024-06-28T12:00:00+01:00</td><td/><td/><td>active</td><td>Macédoine du Nord</td></tr><tr><td style="white-space:nowrap">99157<a name="TRE-R20-Pays-99157"> </a></td><td>République du Kosovo</td><td/><td>2016-02-09T00:00:00+01:00</td><td>2024-01-26T12:00:00+01:00</td><td/><td/><td>active</td><td>Kosovo</td></tr><tr><td style="white-space:nowrap">99201<a name="TRE-R20-Pays-99201"> </a></td><td>Royaume d'Arabie saoudite</td><td/><td>2016-02-09T00:00:00+01:00</td><td>2024-01-26T12:00:00+01:00</td><td/><td/><td>active</td><td>Arabie saoudite</td></tr><tr style="background-color: #ffeeee"><td style="white-space:nowrap">99202<a name="TRE-R20-Pays-99202"> </a></td><td>Yémen (République arabe du)</td><td>Déprécié</td><td>2016-02-09T00:00:00+01:00</td><td>2024-01-26T12:00:00+01:00</td><td>2016-02-09T00:00:00+01:00</td><td>2016-02-09T00:00:00+01:00</td><td>deprecated</td><td/></tr><tr><td style="white-space:nowrap">99203<a name="TRE-R20-Pays-99203"> </a></td><td>République d'Irak</td><td/><td>2016-02-09T00:00:00+01:00</td><td>2024-06-28T12:00:00+01:00</td><td/><td/><td>active</td><td>Irak</td></tr><tr><td style="white-space:nowrap">99204<a name="TRE-R20-Pays-99204"> </a></td><td>République islamique d'Iran</td><td/><td>2016-02-09T00:00:00+01:00</td><td>2024-01-26T12:00:00+01:00</td><td/><td/><td>active</td><td>Iran</td></tr><tr><td style="white-space:nowrap">99205<a name="TRE-R20-Pays-99205"> </a></td><td>République libanaise</td><td/><td>2016-02-09T00:00:00+01:00</td><td>2024-01-26T12:00:00+01:00</td><td/><td/><td>active</td><td>Liban</td></tr><tr><td style="white-space:nowrap">99206<a name="TRE-R20-Pays-99206"> </a></td><td>République arabe syrienne</td><td/><td>2016-02-09T00:00:00+01:00</td><td>2024-01-26T12:00:00+01:00</td><td/><td/><td>active</td><td>Syrie</td></tr><tr><td style="white-space:nowrap">99207<a name="TRE-R20-Pays-99207"> </a></td><td>État d'Israël</td><td/><td>2016-02-09T00:00:00+01:00</td><td>2024-01-26T12:00:00+01:00</td><td/><td/><td>active</td><td>Israël</td></tr><tr><td style="white-space:nowrap">99208<a name="TRE-R20-Pays-99208"> </a></td><td>République de Turquie</td><td/><td>2016-02-09T00:00:00+01:00</td><td>2024-06-28T12:00:00+01:00</td><td/><td/><td>active</td><td>Turquie</td></tr><tr style="background-color: #ffeeee"><td style="white-space:nowrap">99209<a name="TRE-R20-Pays-99209"> </a></td><td>Sibérie</td><td>Déprécié</td><td>2016-02-09T00:00:00+01:00</td><td>2024-01-26T12:00:00+01:00</td><td>2016-02-09T00:00:00+01:00</td><td>2016-02-09T00:00:00+01:00</td><td>deprecated</td><td/></tr><tr style="background-color: #ffeeee"><td style="white-space:nowrap">99210<a name="TRE-R20-Pays-99210"> </a></td><td>Turkestan russe</td><td>Déprécié</td><td>2016-02-09T00:00:00+01:00</td><td>2024-01-26T12:00:00+01:00</td><td>2016-02-09T00:00:00+01:00</td><td>2016-02-09T00:00:00+01:00</td><td>deprecated</td><td/></tr><tr style="background-color: #ffeeee"><td style="white-space:nowrap">99211<a name="TRE-R20-Pays-99211"> </a></td><td>Kamtchatka</td><td>Déprécié</td><td>2016-02-09T00:00:00+01:00</td><td>2024-01-26T12:00:00+01:00</td><td>2016-02-09T00:00:00+01:00</td><td>2016-02-09T00:00:00+01:00</td><td>deprecated</td><td/></tr><tr><td style="white-space:nowrap">99212<a name="TRE-R20-Pays-99212"> </a></td><td>République islamique d'Afghanistan</td><td/><td>2016-02-09T00:00:00+01:00</td><td>2024-06-28T12:00:00+01:00</td><td/><td/><td>active</td><td>Afghanistan</td></tr><tr><td style="white-space:nowrap">99213<a name="TRE-R20-Pays-99213"> </a></td><td>République islamique du Pakistan</td><td/><td>2016-02-09T00:00:00+01:00</td><td>2024-01-26T12:00:00+01:00</td><td/><td/><td>active</td><td>Pakistan</td></tr><tr><td style="white-space:nowrap">99214<a name="TRE-R20-Pays-99214"> </a></td><td>Royaume du Bhoutan</td><td/><td>2016-02-09T00:00:00+01:00</td><td>2024-01-26T12:00:00+01:00</td><td/><td/><td>active</td><td>Bhoutan</td></tr><tr><td style="white-space:nowrap">99215<a name="TRE-R20-Pays-99215"> </a></td><td>Népal</td><td/><td>2016-02-09T00:00:00+01:00</td><td>2024-01-26T12:00:00+01:00</td><td/><td/><td>active</td><td/></tr><tr><td style="white-space:nowrap">99216<a name="TRE-R20-Pays-99216"> </a></td><td>République populaire de Chine</td><td/><td>2016-02-09T00:00:00+01:00</td><td>2024-01-26T12:00:00+01:00</td><td/><td/><td>active</td><td>Chine</td></tr><tr><td style="white-space:nowrap">99217<a name="TRE-R20-Pays-99217"> </a></td><td>Japon</td><td/><td>2016-02-09T00:00:00+01:00</td><td>2024-01-26T12:00:00+01:00</td><td/><td/><td>active</td><td/></tr><tr style="background-color: #ffeeee"><td style="white-space:nowrap">99218<a name="TRE-R20-Pays-99218"> </a></td><td>Mandchourie</td><td>Déprécié</td><td>2016-02-09T00:00:00+01:00</td><td>2024-01-26T12:00:00+01:00</td><td>2016-02-09T00:00:00+01:00</td><td>2016-02-09T00:00:00+01:00</td><td>deprecated</td><td/></tr><tr><td style="white-space:nowrap">99219<a name="TRE-R20-Pays-99219"> </a></td><td>Royaume de Thaïlande</td><td/><td>2016-02-09T00:00:00+01:00</td><td>2024-01-26T12:00:00+01:00</td><td/><td/><td>active</td><td>Thaïlande</td></tr><tr><td style="white-space:nowrap">99220<a name="TRE-R20-Pays-99220"> </a></td><td>République des Philippines</td><td/><td>2016-02-09T00:00:00+01:00</td><td>2024-01-26T12:00:00+01:00</td><td/><td/><td>active</td><td>Philippines</td></tr><tr style="background-color: #ffeeee"><td style="white-space:nowrap">99221<a name="TRE-R20-Pays-99221"> </a></td><td>Possessions britanniques au Proche-Orient</td><td>Déprécié</td><td>2016-02-09T00:00:00+01:00</td><td>2024-01-26T12:00:00+01:00</td><td>2016-02-09T00:00:00+01:00</td><td>2016-02-09T00:00:00+01:00</td><td>deprecated</td><td>Pos.brit. Proche-Orient</td></tr><tr><td style="white-space:nowrap">99222<a name="TRE-R20-Pays-99222"> </a></td><td>Royaume hachémite de Jordanie</td><td/><td>2016-02-09T00:00:00+01:00</td><td>2024-01-26T12:00:00+01:00</td><td/><td/><td>active</td><td>Jordanie</td></tr><tr><td style="white-space:nowrap">99223<a name="TRE-R20-Pays-99223"> </a></td><td>République de l'Inde</td><td/><td>2016-02-09T00:00:00+01:00</td><td>2024-01-26T12:00:00+01:00</td><td/><td/><td>active</td><td>Inde</td></tr><tr><td style="white-space:nowrap">99224<a name="TRE-R20-Pays-99224"> </a></td><td>République de l'Union de Birmanie</td><td/><td>2016-02-09T00:00:00+01:00</td><td>2024-06-28T12:00:00+01:00</td><td/><td/><td>active</td><td>Birmanie</td></tr><tr><td style="white-space:nowrap">99225<a name="TRE-R20-Pays-99225"> </a></td><td>Brunei Darussalam</td><td/><td>2016-02-09T00:00:00+01:00</td><td>2024-06-28T12:00:00+01:00</td><td/><td/><td>active</td><td>Brunei</td></tr><tr><td style="white-space:nowrap">99226<a name="TRE-R20-Pays-99226"> </a></td><td>République de Singapour</td><td/><td>2016-02-09T00:00:00+01:00</td><td>2024-01-26T12:00:00+01:00</td><td/><td/><td>active</td><td>Singapour</td></tr><tr><td style="white-space:nowrap">99227<a name="TRE-R20-Pays-99227"> </a></td><td>Malaisie</td><td/><td>2016-02-09T00:00:00+01:00</td><td>2024-01-26T12:00:00+01:00</td><td/><td/><td>active</td><td/></tr><tr style="background-color: #ffeeee"><td style="white-space:nowrap">99228<a name="TRE-R20-Pays-99228"> </a></td><td>États malais non fédérés</td><td>Déprécié</td><td>2016-02-09T00:00:00+01:00</td><td>2024-01-26T12:00:00+01:00</td><td>2016-02-09T00:00:00+01:00</td><td>2016-02-09T00:00:00+01:00</td><td>deprecated</td><td/></tr><tr><td style="white-space:nowrap">99229<a name="TRE-R20-Pays-99229"> </a></td><td>République des Maldives</td><td/><td>2016-02-09T00:00:00+01:00</td><td>2024-01-26T12:00:00+01:00</td><td/><td/><td>active</td><td>Maldives</td></tr><tr><td style="white-space:nowrap">99230<a name="TRE-R20-Pays-99230"> </a></td><td>Hong Kong</td><td/><td>2016-02-09T00:00:00+01:00</td><td>2024-12-13T12:00:00+01:00</td><td/><td/><td>active</td><td/></tr><tr><td style="white-space:nowrap">99231<a name="TRE-R20-Pays-99231"> </a></td><td>République d'Indonésie</td><td/><td>2016-02-09T00:00:00+01:00</td><td>2024-01-26T12:00:00+01:00</td><td/><td/><td>active</td><td>Indonésie</td></tr><tr><td style="white-space:nowrap">99232<a name="TRE-R20-Pays-99232"> </a></td><td>Macao</td><td/><td>2016-02-09T00:00:00+01:00</td><td>2024-12-13T12:00:00+01:00</td><td/><td/><td>active</td><td/></tr><tr style="background-color: #ffeeee"><td style="white-space:nowrap">99233<a name="TRE-R20-Pays-99233"> </a></td><td>Yémen démocratique</td><td>Déprécié</td><td>2016-02-09T00:00:00+01:00</td><td>2024-01-26T12:00:00+01:00</td><td>2016-02-09T00:00:00+01:00</td><td>2016-02-09T00:00:00+01:00</td><td>deprecated</td><td/></tr><tr><td style="white-space:nowrap">99234<a name="TRE-R20-Pays-99234"> </a></td><td>Royaume du Cambodge</td><td/><td>2016-02-09T00:00:00+01:00</td><td>2024-01-26T12:00:00+01:00</td><td/><td/><td>active</td><td>Cambodge</td></tr><tr><td style="white-space:nowrap">99235<a name="TRE-R20-Pays-99235"> </a></td><td>République démocratique socialiste du Sri Lanka</td><td/><td>2016-02-09T00:00:00+01:00</td><td>2024-01-26T12:00:00+01:00</td><td/><td/><td>active</td><td>Sri Lanka</td></tr><tr><td style="white-space:nowrap">99236<a name="TRE-R20-Pays-99236"> </a></td><td>Taïwan</td><td/><td>2016-02-09T00:00:00+01:00</td><td>2024-01-26T12:00:00+01:00</td><td/><td/><td>active</td><td/></tr><tr style="background-color: #ffeeee"><td style="white-space:nowrap">99237<a name="TRE-R20-Pays-99237"> </a></td><td>Corée</td><td>Déprécié</td><td>2016-02-09T00:00:00+01:00</td><td>2024-01-26T12:00:00+01:00</td><td>2016-02-09T00:00:00+01:00</td><td>2016-02-09T00:00:00+01:00</td><td>deprecated</td><td/></tr><tr><td style="white-space:nowrap">99238<a name="TRE-R20-Pays-99238"> </a></td><td>République populaire démocratique de Corée</td><td/><td>2016-02-09T00:00:00+01:00</td><td>2024-06-28T12:00:00+01:00</td><td/><td/><td>active</td><td>Corée du Nord</td></tr><tr><td style="white-space:nowrap">99239<a name="TRE-R20-Pays-99239"> </a></td><td>République de Corée</td><td/><td>2016-02-09T00:00:00+01:00</td><td>2024-06-28T12:00:00+01:00</td><td/><td/><td>active</td><td>Corée du Sud</td></tr><tr><td style="white-space:nowrap">99240<a name="TRE-R20-Pays-99240"> </a></td><td>État du Koweït</td><td/><td>2016-02-09T00:00:00+01:00</td><td>2024-01-26T12:00:00+01:00</td><td/><td/><td>active</td><td>Koweït</td></tr><tr><td style="white-space:nowrap">99241<a name="TRE-R20-Pays-99241"> </a></td><td>République démocratique populaire lao</td><td/><td>2016-02-09T00:00:00+01:00</td><td>2024-01-26T12:00:00+01:00</td><td/><td/><td>active</td><td>Laos</td></tr><tr><td style="white-space:nowrap">99242<a name="TRE-R20-Pays-99242"> </a></td><td>Mongolie</td><td/><td>2016-02-09T00:00:00+01:00</td><td>2024-01-26T12:00:00+01:00</td><td/><td/><td>active</td><td/></tr><tr><td style="white-space:nowrap">99243<a name="TRE-R20-Pays-99243"> </a></td><td>République socialiste du Vietnam</td><td/><td>2016-02-09T00:00:00+01:00</td><td>2024-06-28T12:00:00+01:00</td><td/><td/><td>active</td><td>Vietnam</td></tr><tr style="background-color: #ffeeee"><td style="white-space:nowrap">99244<a name="TRE-R20-Pays-99244"> </a></td><td>Vietnam du nord</td><td>Déprécié</td><td>2016-02-09T00:00:00+01:00</td><td>2024-06-28T12:00:00+01:00</td><td>2016-02-09T00:00:00+01:00</td><td>2016-02-09T00:00:00+01:00</td><td>deprecated</td><td/></tr><tr style="background-color: #ffeeee"><td style="white-space:nowrap">99245<a name="TRE-R20-Pays-99245"> </a></td><td>Vietnam du sud</td><td>Déprécié</td><td>2016-02-09T00:00:00+01:00</td><td>2024-06-28T12:00:00+01:00</td><td>2016-02-09T00:00:00+01:00</td><td>2016-02-09T00:00:00+01:00</td><td>deprecated</td><td/></tr><tr><td style="white-space:nowrap">99246<a name="TRE-R20-Pays-99246"> </a></td><td>République populaire du Bangladesh</td><td/><td>2016-02-09T00:00:00+01:00</td><td>2024-01-26T12:00:00+01:00</td><td/><td/><td>active</td><td>Bangladesh</td></tr><tr><td style="white-space:nowrap">99247<a name="TRE-R20-Pays-99247"> </a></td><td>Émirats arabes unis</td><td/><td>2016-02-09T00:00:00+01:00</td><td>2024-01-26T12:00:00+01:00</td><td/><td/><td>active</td><td/></tr><tr><td style="white-space:nowrap">99248<a name="TRE-R20-Pays-99248"> </a></td><td>État du Qatar</td><td/><td>2016-02-09T00:00:00+01:00</td><td>2024-01-26T12:00:00+01:00</td><td/><td/><td>active</td><td>Qatar</td></tr><tr><td style="white-space:nowrap">99249<a name="TRE-R20-Pays-99249"> </a></td><td>Royaume de Bahreïn</td><td/><td>2016-02-09T00:00:00+01:00</td><td>2024-06-28T12:00:00+01:00</td><td/><td/><td>active</td><td>Bahreïn</td></tr><tr><td style="white-space:nowrap">99250<a name="TRE-R20-Pays-99250"> </a></td><td>Sultanat d'Oman</td><td/><td>2016-02-09T00:00:00+01:00</td><td>2024-01-26T12:00:00+01:00</td><td/><td/><td>active</td><td>Oman</td></tr><tr><td style="white-space:nowrap">99251<a name="TRE-R20-Pays-99251"> </a></td><td>République du Yémen</td><td/><td>2016-02-09T00:00:00+01:00</td><td>2024-01-26T12:00:00+01:00</td><td/><td/><td>active</td><td>Yémen</td></tr><tr><td style="white-space:nowrap">99252<a name="TRE-R20-Pays-99252"> </a></td><td>République d'Arménie</td><td/><td>2016-02-09T00:00:00+01:00</td><td>2024-01-26T12:00:00+01:00</td><td/><td/><td>active</td><td>Arménie</td></tr><tr><td style="white-space:nowrap">99253<a name="TRE-R20-Pays-99253"> </a></td><td>République d'Azerbaïdjan</td><td/><td>2016-02-09T00:00:00+01:00</td><td>2024-06-28T12:00:00+01:00</td><td/><td/><td>active</td><td>Azerbaïdjan</td></tr><tr><td style="white-space:nowrap">99254<a name="TRE-R20-Pays-99254"> </a></td><td>République de Chypre</td><td/><td>2016-02-09T00:00:00+01:00</td><td>2024-01-26T12:00:00+01:00</td><td/><td/><td>active</td><td>Chypre</td></tr><tr><td style="white-space:nowrap">99255<a name="TRE-R20-Pays-99255"> </a></td><td>Géorgie</td><td/><td>2016-02-09T00:00:00+01:00</td><td>2024-06-28T12:00:00+01:00</td><td/><td/><td>active</td><td/></tr><tr><td style="white-space:nowrap">99256<a name="TRE-R20-Pays-99256"> </a></td><td>République du Kazakhstan</td><td/><td>2016-02-09T00:00:00+01:00</td><td>2024-01-26T12:00:00+01:00</td><td/><td/><td>active</td><td>Kazakhstan</td></tr><tr><td style="white-space:nowrap">99257<a name="TRE-R20-Pays-99257"> </a></td><td>République kirghize</td><td/><td>2016-02-09T00:00:00+01:00</td><td>2024-01-26T12:00:00+01:00</td><td/><td/><td>active</td><td>Kirghizstan</td></tr><tr><td style="white-space:nowrap">99258<a name="TRE-R20-Pays-99258"> </a></td><td>République d'Ouzbékistan</td><td/><td>2016-02-09T00:00:00+01:00</td><td>2024-01-26T12:00:00+01:00</td><td/><td/><td>active</td><td>Ouzbékistan</td></tr><tr><td style="white-space:nowrap">99259<a name="TRE-R20-Pays-99259"> </a></td><td>République du Tadjikistan</td><td/><td>2016-02-09T00:00:00+01:00</td><td>2024-01-26T12:00:00+01:00</td><td/><td/><td>active</td><td>Tadjikistan</td></tr><tr><td style="white-space:nowrap">99260<a name="TRE-R20-Pays-99260"> </a></td><td>Turkménistan</td><td/><td>2016-02-09T00:00:00+01:00</td><td>2024-01-26T12:00:00+01:00</td><td/><td/><td>active</td><td/></tr><tr><td style="white-space:nowrap">99261<a name="TRE-R20-Pays-99261"> </a></td><td>État de Palestine</td><td/><td>2016-02-09T00:00:00+01:00</td><td>2024-06-28T12:00:00+01:00</td><td/><td/><td>active</td><td>Palestine</td></tr><tr><td style="white-space:nowrap">99262<a name="TRE-R20-Pays-99262"> </a></td><td>République démocratique du Timor oriental</td><td/><td>2016-02-09T00:00:00+01:00</td><td>2024-01-26T12:00:00+01:00</td><td/><td/><td>active</td><td>Timor oriental</td></tr><tr><td style="white-space:nowrap">99301<a name="TRE-R20-Pays-99301"> </a></td><td>République arabe d'Égypte</td><td/><td>2016-02-09T00:00:00+01:00</td><td>2024-01-26T12:00:00+01:00</td><td/><td/><td>active</td><td>Égypte</td></tr><tr><td style="white-space:nowrap">99302<a name="TRE-R20-Pays-99302"> </a></td><td>République du Libéria</td><td/><td>2016-02-09T00:00:00+01:00</td><td>2024-01-26T12:00:00+01:00</td><td/><td/><td>active</td><td>Libéria</td></tr><tr><td style="white-space:nowrap">99303<a name="TRE-R20-Pays-99303"> </a></td><td>République d'Afrique du Sud</td><td/><td>2016-02-09T00:00:00+01:00</td><td>2024-01-26T12:00:00+01:00</td><td/><td/><td>active</td><td>Afrique du Sud</td></tr><tr><td style="white-space:nowrap">99304<a name="TRE-R20-Pays-99304"> </a></td><td>République de Gambie</td><td/><td>2016-02-09T00:00:00+01:00</td><td>2024-01-26T12:00:00+01:00</td><td/><td/><td>active</td><td>Gambie</td></tr><tr style="background-color: #ffeeee"><td style="white-space:nowrap">99305<a name="TRE-R20-Pays-99305"> </a></td><td>Cameroun et Togo</td><td>Déprécié</td><td>2016-02-09T00:00:00+01:00</td><td>2024-01-26T12:00:00+01:00</td><td>2016-02-09T00:00:00+01:00</td><td>2016-02-09T00:00:00+01:00</td><td>deprecated</td><td/></tr><tr><td style="white-space:nowrap">99306<a name="TRE-R20-Pays-99306"> </a></td><td>Îles Sainte-Hélène, Ascension, Tristan-da-Cunha</td><td/><td>2016-02-09T00:00:00+01:00</td><td>2024-12-13T12:00:00+01:00</td><td/><td/><td>active</td><td>Terr. britan. océan Atlantique</td></tr><tr style="background-color: #ffeeee"><td style="white-space:nowrap">99307<a name="TRE-R20-Pays-99307"> </a></td><td>Sondan anglo-égyptien, Kenya, Ouganda</td><td>Déprécié</td><td>2016-02-09T00:00:00+01:00</td><td>2024-01-26T12:00:00+01:00</td><td>2016-02-09T00:00:00+01:00</td><td>2016-02-09T00:00:00+01:00</td><td>deprecated</td><td>Soudan, Kenya, Ouganda</td></tr><tr><td style="white-space:nowrap">99308<a name="TRE-R20-Pays-99308"> </a></td><td>Îles Chagos</td><td/><td>2016-02-09T00:00:00+01:00</td><td>2025-03-28T12:00:00+01:00</td><td/><td/><td>active</td><td>Terr. Britannique Océan Indien</td></tr><tr><td style="white-space:nowrap">99309<a name="TRE-R20-Pays-99309"> </a></td><td>République unie de Tanzanie</td><td/><td>2016-02-09T00:00:00+01:00</td><td>2024-01-26T12:00:00+01:00</td><td/><td/><td>active</td><td>Tanzanie</td></tr><tr><td style="white-space:nowrap">99310<a name="TRE-R20-Pays-99310"> </a></td><td>République du Zimbabwe</td><td/><td>2016-02-09T00:00:00+01:00</td><td>2024-01-26T12:00:00+01:00</td><td/><td/><td>active</td><td>Zimbabwe</td></tr><tr><td style="white-space:nowrap">99311<a name="TRE-R20-Pays-99311"> </a></td><td>République de Namibie</td><td/><td>2016-02-09T00:00:00+01:00</td><td>2024-01-26T12:00:00+01:00</td><td/><td/><td>active</td><td>Namibie</td></tr><tr><td style="white-space:nowrap">99312<a name="TRE-R20-Pays-99312"> </a></td><td>République démocratique du Congo</td><td/><td>2016-02-09T00:00:00+01:00</td><td>2024-06-28T12:00:00+01:00</td><td/><td/><td>active</td><td>Rép. démocratique du Congo</td></tr><tr><td style="white-space:nowrap">99313<a name="TRE-R20-Pays-99313"> </a></td><td>Ceuta, Melilla, Présides, îles Canaries</td><td/><td>2016-02-09T00:00:00+01:00</td><td>2024-12-13T12:00:00+01:00</td><td/><td/><td>active</td><td>Terr. espagnols Afrique Nord</td></tr><tr><td style="white-space:nowrap">99314<a name="TRE-R20-Pays-99314"> </a></td><td>République de Guinée équatoriale</td><td/><td>2016-02-09T00:00:00+01:00</td><td>2024-01-26T12:00:00+01:00</td><td/><td/><td>active</td><td>Guinée équatoriale</td></tr><tr><td style="white-space:nowrap">99315<a name="TRE-R20-Pays-99315"> </a></td><td>République démocratique fédérale d'Éthiopie</td><td/><td>2016-02-09T00:00:00+01:00</td><td>2024-01-26T12:00:00+01:00</td><td/><td/><td>active</td><td>Éthiopie</td></tr><tr><td style="white-space:nowrap">99316<a name="TRE-R20-Pays-99316"> </a></td><td>État de Libye</td><td/><td>2016-02-09T00:00:00+01:00</td><td>2024-06-28T12:00:00+01:00</td><td/><td/><td>active</td><td>Libye</td></tr><tr><td style="white-space:nowrap">99317<a name="TRE-R20-Pays-99317"> </a></td><td>État d'Érythrée</td><td/><td>2016-02-09T00:00:00+01:00</td><td>2024-01-26T12:00:00+01:00</td><td/><td/><td>active</td><td>Érythrée</td></tr><tr><td style="white-space:nowrap">99318<a name="TRE-R20-Pays-99318"> </a></td><td>République fédérale de Somalie</td><td/><td>2016-02-09T00:00:00+01:00</td><td>2024-06-28T12:00:00+01:00</td><td/><td/><td>active</td><td>Somalie</td></tr><tr><td style="white-space:nowrap">99319<a name="TRE-R20-Pays-99319"> </a></td><td>Açores, Madère</td><td/><td>2016-02-09T00:00:00+01:00</td><td>2024-12-13T12:00:00+01:00</td><td/><td/><td>active</td><td>Terr. port. océan Atlantique</td></tr><tr style="background-color: #ffeeee"><td style="white-space:nowrap">99320<a name="TRE-R20-Pays-99320"> </a></td><td>Îles portugaises de l'océan Indien</td><td>Déprécié</td><td>2016-02-09T00:00:00+01:00</td><td>2024-01-26T12:00:00+01:00</td><td>2016-02-09T00:00:00+01:00</td><td>2016-02-09T00:00:00+01:00</td><td>deprecated</td><td>Îles port. océan Indien</td></tr><tr><td style="white-space:nowrap">99321<a name="TRE-R20-Pays-99321"> </a></td><td>République du Burundi</td><td/><td>2016-02-09T00:00:00+01:00</td><td>2024-01-26T12:00:00+01:00</td><td/><td/><td>active</td><td>Burundi</td></tr><tr><td style="white-space:nowrap">99322<a name="TRE-R20-Pays-99322"> </a></td><td>République du Cameroun</td><td/><td>2016-02-09T00:00:00+01:00</td><td>2024-01-26T12:00:00+01:00</td><td/><td/><td>active</td><td>Cameroun</td></tr><tr><td style="white-space:nowrap">99323<a name="TRE-R20-Pays-99323"> </a></td><td>République centrafricaine</td><td/><td>2016-02-09T00:00:00+01:00</td><td>2024-06-28T12:00:00+01:00</td><td/><td/><td>active</td><td>Centrafrique</td></tr><tr><td style="white-space:nowrap">99324<a name="TRE-R20-Pays-99324"> </a></td><td>République du Congo</td><td/><td>2016-02-09T00:00:00+01:00</td><td>2024-01-26T12:00:00+01:00</td><td/><td/><td>active</td><td>Congo</td></tr><tr style="background-color: #ffeeee"><td style="white-space:nowrap">99325<a name="TRE-R20-Pays-99325"> </a></td><td>Tanger</td><td>Déprécié</td><td>2016-02-09T00:00:00+01:00</td><td>2024-01-26T12:00:00+01:00</td><td>2016-02-09T00:00:00+01:00</td><td>2016-02-09T00:00:00+01:00</td><td>deprecated</td><td/></tr><tr><td style="white-space:nowrap">99326<a name="TRE-R20-Pays-99326"> </a></td><td>République de Côte d'Ivoire</td><td/><td>2016-02-09T00:00:00+01:00</td><td>2024-01-26T12:00:00+01:00</td><td/><td/><td>active</td><td>Côte d'Ivoire</td></tr><tr><td style="white-space:nowrap">99327<a name="TRE-R20-Pays-99327"> </a></td><td>République du Bénin</td><td/><td>2016-02-09T00:00:00+01:00</td><td>2024-01-26T12:00:00+01:00</td><td/><td/><td>active</td><td>Bénin</td></tr><tr><td style="white-space:nowrap">99328<a name="TRE-R20-Pays-99328"> </a></td><td>République gabonaise</td><td/><td>2016-02-09T00:00:00+01:00</td><td>2024-01-26T12:00:00+01:00</td><td/><td/><td>active</td><td>Gabon</td></tr><tr><td style="white-space:nowrap">99329<a name="TRE-R20-Pays-99329"> </a></td><td>République du Ghana</td><td/><td>2016-02-09T00:00:00+01:00</td><td>2024-01-26T12:00:00+01:00</td><td/><td/><td>active</td><td>Ghana</td></tr><tr><td style="white-space:nowrap">99330<a name="TRE-R20-Pays-99330"> </a></td><td>République de Guinée</td><td/><td>2016-02-09T00:00:00+01:00</td><td>2024-01-26T12:00:00+01:00</td><td/><td/><td>active</td><td>Guinée</td></tr><tr><td style="white-space:nowrap">99331<a name="TRE-R20-Pays-99331"> </a></td><td>Burkina Faso</td><td/><td>2016-02-09T00:00:00+01:00</td><td>2024-01-26T12:00:00+01:00</td><td/><td/><td>active</td><td>Burkina</td></tr><tr><td style="white-space:nowrap">99332<a name="TRE-R20-Pays-99332"> </a></td><td>République du Kenya</td><td/><td>2016-02-09T00:00:00+01:00</td><td>2024-01-26T12:00:00+01:00</td><td/><td/><td>active</td><td>Kenya</td></tr><tr><td style="white-space:nowrap">99333<a name="TRE-R20-Pays-99333"> </a></td><td>République de Madagascar</td><td/><td>2016-02-09T00:00:00+01:00</td><td>2024-01-26T12:00:00+01:00</td><td/><td/><td>active</td><td>Madagascar</td></tr><tr><td style="white-space:nowrap">99334<a name="TRE-R20-Pays-99334"> </a></td><td>République du Malawi</td><td/><td>2016-02-09T00:00:00+01:00</td><td>2024-01-26T12:00:00+01:00</td><td/><td/><td>active</td><td>Malawi</td></tr><tr><td style="white-space:nowrap">99335<a name="TRE-R20-Pays-99335"> </a></td><td>République du Mali</td><td/><td>2016-02-09T00:00:00+01:00</td><td>2024-01-26T12:00:00+01:00</td><td/><td/><td>active</td><td>Mali</td></tr><tr><td style="white-space:nowrap">99336<a name="TRE-R20-Pays-99336"> </a></td><td>République islamique de Mauritanie</td><td/><td>2016-02-09T00:00:00+01:00</td><td>2024-01-26T12:00:00+01:00</td><td/><td/><td>active</td><td>Mauritanie</td></tr><tr><td style="white-space:nowrap">99337<a name="TRE-R20-Pays-99337"> </a></td><td>République du Niger</td><td/><td>2016-02-09T00:00:00+01:00</td><td>2024-01-26T12:00:00+01:00</td><td/><td/><td>active</td><td>Niger</td></tr><tr><td style="white-space:nowrap">99338<a name="TRE-R20-Pays-99338"> </a></td><td>République fédérale du Nigéria</td><td/><td>2016-02-09T00:00:00+01:00</td><td>2024-01-26T12:00:00+01:00</td><td/><td/><td>active</td><td>Nigéria</td></tr><tr><td style="white-space:nowrap">99339<a name="TRE-R20-Pays-99339"> </a></td><td>République d'Ouganda</td><td/><td>2016-02-09T00:00:00+01:00</td><td>2024-06-28T12:00:00+01:00</td><td/><td/><td>active</td><td>Ouganda</td></tr><tr><td style="white-space:nowrap">99340<a name="TRE-R20-Pays-99340"> </a></td><td>République du Rwanda</td><td/><td>2016-02-09T00:00:00+01:00</td><td>2024-06-28T12:00:00+01:00</td><td/><td/><td>active</td><td>Rwanda</td></tr><tr><td style="white-space:nowrap">99341<a name="TRE-R20-Pays-99341"> </a></td><td>République du Sénégal</td><td/><td>2016-02-09T00:00:00+01:00</td><td>2024-01-26T12:00:00+01:00</td><td/><td/><td>active</td><td>Sénégal</td></tr><tr><td style="white-space:nowrap">99342<a name="TRE-R20-Pays-99342"> </a></td><td>République de Sierra Leone</td><td/><td>2016-02-09T00:00:00+01:00</td><td>2024-01-26T12:00:00+01:00</td><td/><td/><td>active</td><td>Sierra Leone</td></tr><tr><td style="white-space:nowrap">99343<a name="TRE-R20-Pays-99343"> </a></td><td>République du Soudan</td><td/><td>2016-02-09T00:00:00+01:00</td><td>2024-01-26T12:00:00+01:00</td><td/><td/><td>active</td><td>Soudan</td></tr><tr><td style="white-space:nowrap">99344<a name="TRE-R20-Pays-99344"> </a></td><td>République du Tchad</td><td/><td>2016-02-09T00:00:00+01:00</td><td>2024-01-26T12:00:00+01:00</td><td/><td/><td>active</td><td>Tchad</td></tr><tr><td style="white-space:nowrap">99345<a name="TRE-R20-Pays-99345"> </a></td><td>République togolaise</td><td/><td>2016-02-09T00:00:00+01:00</td><td>2024-01-26T12:00:00+01:00</td><td/><td/><td>active</td><td>Togo</td></tr><tr><td style="white-space:nowrap">99346<a name="TRE-R20-Pays-99346"> </a></td><td>République de Zambie</td><td/><td>2016-02-09T00:00:00+01:00</td><td>2024-01-26T12:00:00+01:00</td><td/><td/><td>active</td><td>Zambie</td></tr><tr><td style="white-space:nowrap">99347<a name="TRE-R20-Pays-99347"> </a></td><td>République du Botswana</td><td/><td>2016-02-09T00:00:00+01:00</td><td>2024-01-26T12:00:00+01:00</td><td/><td/><td>active</td><td>Botswana</td></tr><tr><td style="white-space:nowrap">99348<a name="TRE-R20-Pays-99348"> </a></td><td>Royaume du Lesotho</td><td/><td>2016-02-09T00:00:00+01:00</td><td>2024-01-26T12:00:00+01:00</td><td/><td/><td>active</td><td>Lesotho</td></tr><tr><td style="white-space:nowrap">99349<a name="TRE-R20-Pays-99349"> </a></td><td>République du Soudan du Sud</td><td/><td>2019-05-29T12:00:00+01:00</td><td>2024-01-26T12:00:00+01:00</td><td/><td/><td>active</td><td>Soudan du Sud</td></tr><tr><td style="white-space:nowrap">99350<a name="TRE-R20-Pays-99350"> </a></td><td>Royaume du Maroc</td><td/><td>2016-02-09T00:00:00+01:00</td><td>2024-01-26T12:00:00+01:00</td><td/><td/><td>active</td><td>Maroc</td></tr><tr><td style="white-space:nowrap">99351<a name="TRE-R20-Pays-99351"> </a></td><td>République tunisienne</td><td/><td>2016-02-09T00:00:00+01:00</td><td>2024-01-26T12:00:00+01:00</td><td/><td/><td>active</td><td>Tunisie</td></tr><tr><td style="white-space:nowrap">99352<a name="TRE-R20-Pays-99352"> </a></td><td>République algérienne démocratique et populaire</td><td/><td>2016-02-09T00:00:00+01:00</td><td>2024-01-26T12:00:00+01:00</td><td/><td/><td>active</td><td>Algérie</td></tr><tr><td style="white-space:nowrap">99389<a name="TRE-R20-Pays-99389"> </a></td><td>Sahara occidental</td><td/><td>2016-02-09T00:00:00+01:00</td><td>2024-01-26T12:00:00+01:00</td><td/><td/><td>active</td><td/></tr><tr><td style="white-space:nowrap">99390<a name="TRE-R20-Pays-99390"> </a></td><td>République de Maurice</td><td/><td>2016-02-09T00:00:00+01:00</td><td>2024-01-26T12:00:00+01:00</td><td/><td/><td>active</td><td>Maurice</td></tr><tr><td style="white-space:nowrap">99391<a name="TRE-R20-Pays-99391"> </a></td><td>Royaume du Swaziland</td><td/><td>2016-02-09T00:00:00+01:00</td><td>2024-06-28T12:00:00+01:00</td><td/><td/><td>active</td><td>Swaziland</td></tr><tr><td style="white-space:nowrap">99392<a name="TRE-R20-Pays-99392"> </a></td><td>République de Guinée-Bissao</td><td/><td>2016-02-09T00:00:00+01:00</td><td>2024-06-28T12:00:00+01:00</td><td/><td/><td>active</td><td>Guinée-Bissao</td></tr><tr><td style="white-space:nowrap">99393<a name="TRE-R20-Pays-99393"> </a></td><td>République du Mozambique</td><td/><td>2016-02-09T00:00:00+01:00</td><td>2024-01-26T12:00:00+01:00</td><td/><td/><td>active</td><td>Mozambique</td></tr><tr><td style="white-space:nowrap">99394<a name="TRE-R20-Pays-99394"> </a></td><td>République démocratique de Sao Tomé-et-Principe</td><td/><td>2016-02-09T00:00:00+01:00</td><td>2024-01-26T12:00:00+01:00</td><td/><td/><td>active</td><td>Sao Tomé-et-Principe</td></tr><tr><td style="white-space:nowrap">99395<a name="TRE-R20-Pays-99395"> </a></td><td>République d'Angola</td><td/><td>2016-02-09T00:00:00+01:00</td><td>2024-01-26T12:00:00+01:00</td><td/><td/><td>active</td><td>Angola</td></tr><tr><td style="white-space:nowrap">99396<a name="TRE-R20-Pays-99396"> </a></td><td>République du Cap-Vert</td><td/><td>2016-02-09T00:00:00+01:00</td><td>2024-01-26T12:00:00+01:00</td><td/><td/><td>active</td><td>Cap-Vert</td></tr><tr><td style="white-space:nowrap">99397<a name="TRE-R20-Pays-99397"> </a></td><td>Union des Comores</td><td/><td>2016-02-09T00:00:00+01:00</td><td>2024-06-28T12:00:00+01:00</td><td/><td/><td>active</td><td>Comores</td></tr><tr><td style="white-space:nowrap">99398<a name="TRE-R20-Pays-99398"> </a></td><td>République des Seychelles</td><td/><td>2016-02-09T00:00:00+01:00</td><td>2024-01-26T12:00:00+01:00</td><td/><td/><td>active</td><td>Seychelles</td></tr><tr><td style="white-space:nowrap">99399<a name="TRE-R20-Pays-99399"> </a></td><td>République de Djibouti</td><td/><td>2016-02-09T00:00:00+01:00</td><td>2024-01-26T12:00:00+01:00</td><td/><td/><td>active</td><td>Djibouti</td></tr><tr><td style="white-space:nowrap">99401<a name="TRE-R20-Pays-99401"> </a></td><td>Canada</td><td/><td>2016-02-09T00:00:00+01:00</td><td>2024-01-26T12:00:00+01:00</td><td/><td/><td>active</td><td/></tr><tr style="background-color: #ffeeee"><td style="white-space:nowrap">99402<a name="TRE-R20-Pays-99402"> </a></td><td>Terre-Neuve</td><td>Déprécié</td><td>2016-02-09T00:00:00+01:00</td><td>2024-01-26T12:00:00+01:00</td><td>2016-02-09T00:00:00+01:00</td><td>2016-02-09T00:00:00+01:00</td><td>deprecated</td><td/></tr><tr style="background-color: #ffeeee"><td style="white-space:nowrap">99403<a name="TRE-R20-Pays-99403"> </a></td><td>Labrador</td><td>Déprécié</td><td>2016-02-09T00:00:00+01:00</td><td>2024-01-26T12:00:00+01:00</td><td>2016-02-09T00:00:00+01:00</td><td>2016-02-09T00:00:00+01:00</td><td>deprecated</td><td/></tr><tr><td style="white-space:nowrap">99404<a name="TRE-R20-Pays-99404"> </a></td><td>États-Unis d'Amérique</td><td/><td>2016-02-09T00:00:00+01:00</td><td>2024-01-26T12:00:00+01:00</td><td/><td/><td>active</td><td>États-Unis</td></tr><tr><td style="white-space:nowrap">99405<a name="TRE-R20-Pays-99405"> </a></td><td>États-Unis du Mexique</td><td/><td>2016-02-09T00:00:00+01:00</td><td>2024-01-26T12:00:00+01:00</td><td/><td/><td>active</td><td>Mexique</td></tr><tr><td style="white-space:nowrap">99406<a name="TRE-R20-Pays-99406"> </a></td><td>République du Costa Rica</td><td/><td>2016-02-09T00:00:00+01:00</td><td>2024-01-26T12:00:00+01:00</td><td/><td/><td>active</td><td>Costa Rica</td></tr><tr><td style="white-space:nowrap">99407<a name="TRE-R20-Pays-99407"> </a></td><td>République de Cuba</td><td/><td>2016-02-09T00:00:00+01:00</td><td>2024-01-26T12:00:00+01:00</td><td/><td/><td>active</td><td>Cuba</td></tr><tr><td style="white-space:nowrap">99408<a name="TRE-R20-Pays-99408"> </a></td><td>République dominicaine</td><td/><td>2016-02-09T00:00:00+01:00</td><td>2024-06-28T12:00:00+01:00</td><td/><td/><td>active</td><td/></tr><tr><td style="white-space:nowrap">99409<a name="TRE-R20-Pays-99409"> </a></td><td>République du Guatémala</td><td/><td>2016-02-09T00:00:00+01:00</td><td>2025-03-28T12:00:00+01:00</td><td/><td/><td>active</td><td>Guatémala</td></tr><tr><td style="white-space:nowrap">99410<a name="TRE-R20-Pays-99410"> </a></td><td>République d'Haïti</td><td/><td>2016-02-09T00:00:00+01:00</td><td>2024-01-26T12:00:00+01:00</td><td/><td/><td>active</td><td>Haïti</td></tr><tr><td style="white-space:nowrap">99411<a name="TRE-R20-Pays-99411"> </a></td><td>République du Honduras</td><td/><td>2016-02-09T00:00:00+01:00</td><td>2024-01-26T12:00:00+01:00</td><td/><td/><td>active</td><td>Honduras</td></tr><tr><td style="white-space:nowrap">99412<a name="TRE-R20-Pays-99412"> </a></td><td>République du Nicaragua</td><td/><td>2016-02-09T00:00:00+01:00</td><td>2024-01-26T12:00:00+01:00</td><td/><td/><td>active</td><td>Nicaragua</td></tr><tr><td style="white-space:nowrap">99413<a name="TRE-R20-Pays-99413"> </a></td><td>République du Panama</td><td/><td>2016-02-09T00:00:00+01:00</td><td>2024-01-26T12:00:00+01:00</td><td/><td/><td>active</td><td>Panama</td></tr><tr><td style="white-space:nowrap">99414<a name="TRE-R20-Pays-99414"> </a></td><td>République du Salvador</td><td/><td>2016-02-09T00:00:00+01:00</td><td>2024-06-28T12:00:00+01:00</td><td/><td/><td>active</td><td>Salvador</td></tr><tr><td style="white-space:nowrap">99415<a name="TRE-R20-Pays-99415"> </a></td><td>République argentine</td><td/><td>2016-02-09T00:00:00+01:00</td><td>2024-01-26T12:00:00+01:00</td><td/><td/><td>active</td><td>Argentine</td></tr><tr><td style="white-space:nowrap">99416<a name="TRE-R20-Pays-99416"> </a></td><td>République fédérative du Brésil</td><td/><td>2016-02-09T00:00:00+01:00</td><td>2024-01-26T12:00:00+01:00</td><td/><td/><td>active</td><td>Brésil</td></tr><tr><td style="white-space:nowrap">99417<a name="TRE-R20-Pays-99417"> </a></td><td>République du Chili</td><td/><td>2016-02-09T00:00:00+01:00</td><td>2024-01-26T12:00:00+01:00</td><td/><td/><td>active</td><td>Chili</td></tr><tr><td style="white-space:nowrap">99418<a name="TRE-R20-Pays-99418"> </a></td><td>État plurinational de Bolivie</td><td/><td>2016-02-09T00:00:00+01:00</td><td>2024-01-26T12:00:00+01:00</td><td/><td/><td>active</td><td>Bolivie</td></tr><tr><td style="white-space:nowrap">99419<a name="TRE-R20-Pays-99419"> </a></td><td>République de Colombie</td><td/><td>2016-02-09T00:00:00+01:00</td><td>2024-01-26T12:00:00+01:00</td><td/><td/><td>active</td><td>Colombie</td></tr><tr><td style="white-space:nowrap">99420<a name="TRE-R20-Pays-99420"> </a></td><td>République d'Équateur</td><td/><td>2016-02-09T00:00:00+01:00</td><td>2024-06-28T12:00:00+01:00</td><td/><td/><td>active</td><td>Équateur</td></tr><tr><td style="white-space:nowrap">99421<a name="TRE-R20-Pays-99421"> </a></td><td>République du Paraguay</td><td/><td>2016-02-09T00:00:00+01:00</td><td>2024-01-26T12:00:00+01:00</td><td/><td/><td>active</td><td>Paraguay</td></tr><tr><td style="white-space:nowrap">99422<a name="TRE-R20-Pays-99422"> </a></td><td>République du Pérou</td><td/><td>2016-02-09T00:00:00+01:00</td><td>2024-01-26T12:00:00+01:00</td><td/><td/><td>active</td><td>Pérou</td></tr><tr><td style="white-space:nowrap">99423<a name="TRE-R20-Pays-99423"> </a></td><td>République orientale de l'Uruguay</td><td/><td>2016-02-09T00:00:00+01:00</td><td>2024-01-26T12:00:00+01:00</td><td/><td/><td>active</td><td>Uruguay</td></tr><tr><td style="white-space:nowrap">99424<a name="TRE-R20-Pays-99424"> </a></td><td>République bolivarienne du Vénézuéla</td><td/><td>2016-02-09T00:00:00+01:00</td><td>2024-01-26T12:00:00+01:00</td><td/><td/><td>active</td><td>Vénézuéla</td></tr><tr><td style="white-space:nowrap">99425<a name="TRE-R20-Pays-99425"> </a></td><td>Turks-et-Caïcos, Caïmans, Montserrat, Anguilla, Vierges britanniques, Bermudes</td><td/><td>2016-02-09T00:00:00+01:00</td><td>2024-12-13T12:00:00+01:00</td><td/><td/><td>active</td><td>Terr. brit. Antilles Bermudes</td></tr><tr><td style="white-space:nowrap">99426<a name="TRE-R20-Pays-99426"> </a></td><td>Jamaïque</td><td/><td>2016-02-09T00:00:00+01:00</td><td>2024-01-26T12:00:00+01:00</td><td/><td/><td>active</td><td/></tr><tr><td style="white-space:nowrap">99427<a name="TRE-R20-Pays-99427"> </a></td><td>Malouines, terr. antarctique brit., Géorgie-du-Sud-et-les-îles-Sandwich-du-Sud</td><td/><td>2016-02-09T00:00:00+01:00</td><td>2024-12-13T12:00:00+01:00</td><td/><td/><td>active</td><td>Terr. brit. oc. Atlantique Sud</td></tr><tr><td style="white-space:nowrap">99428<a name="TRE-R20-Pays-99428"> </a></td><td>République coopérative du Guyana</td><td/><td>2016-02-09T00:00:00+01:00</td><td>2024-01-26T12:00:00+01:00</td><td/><td/><td>active</td><td>Guyana</td></tr><tr><td style="white-space:nowrap">99429<a name="TRE-R20-Pays-99429"> </a></td><td>Bélize</td><td/><td>2016-02-09T00:00:00+01:00</td><td>2024-01-26T12:00:00+01:00</td><td/><td/><td>active</td><td/></tr><tr><td style="white-space:nowrap">99430<a name="TRE-R20-Pays-99430"> </a></td><td>Groenland</td><td/><td>2016-02-09T00:00:00+01:00</td><td>2024-12-13T12:00:00+01:00</td><td/><td/><td>active</td><td/></tr><tr><td style="white-space:nowrap">99431<a name="TRE-R20-Pays-99431"> </a></td><td>Aruba</td><td/><td>2016-02-09T00:00:00+01:00</td><td>2024-12-13T12:00:00+01:00</td><td/><td/><td>active</td><td/></tr><tr><td style="white-space:nowrap">99432<a name="TRE-R20-Pays-99432"> </a></td><td>Porto Rico, îles Vierges des États-Unis</td><td/><td>2016-02-09T00:00:00+01:00</td><td>2024-12-13T12:00:00+01:00</td><td/><td/><td>active</td><td>Terr. États-Unis en Amérique</td></tr><tr><td style="white-space:nowrap">99433<a name="TRE-R20-Pays-99433"> </a></td><td>République de Trinité-et-Tobago</td><td/><td>2016-02-09T00:00:00+01:00</td><td>2024-01-26T12:00:00+01:00</td><td/><td/><td>active</td><td>Trinité-et-Tobago</td></tr><tr><td style="white-space:nowrap">99434<a name="TRE-R20-Pays-99434"> </a></td><td>Barbade</td><td/><td>2016-02-09T00:00:00+01:00</td><td>2024-01-26T12:00:00+01:00</td><td/><td/><td>active</td><td/></tr><tr><td style="white-space:nowrap">99435<a name="TRE-R20-Pays-99435"> </a></td><td>Grenade</td><td/><td>2016-02-09T00:00:00+01:00</td><td>2024-01-26T12:00:00+01:00</td><td/><td/><td>active</td><td/></tr><tr><td style="white-space:nowrap">99436<a name="TRE-R20-Pays-99436"> </a></td><td>Commonwealth des Bahamas</td><td/><td>2016-02-09T00:00:00+01:00</td><td>2024-01-26T12:00:00+01:00</td><td/><td/><td>active</td><td>Bahamas</td></tr><tr><td style="white-space:nowrap">99437<a name="TRE-R20-Pays-99437"> </a></td><td>République du Suriname</td><td/><td>2016-02-09T00:00:00+01:00</td><td>2024-01-26T12:00:00+01:00</td><td/><td/><td>active</td><td>Suriname</td></tr><tr><td style="white-space:nowrap">99438<a name="TRE-R20-Pays-99438"> </a></td><td>Commonwealth de Dominique</td><td/><td>2016-02-09T00:00:00+01:00</td><td>2024-01-26T12:00:00+01:00</td><td/><td/><td>active</td><td>Dominique</td></tr><tr><td style="white-space:nowrap">99439<a name="TRE-R20-Pays-99439"> </a></td><td>Sainte-Lucie</td><td/><td>2016-02-09T00:00:00+01:00</td><td>2024-01-26T12:00:00+01:00</td><td/><td/><td>active</td><td/></tr><tr><td style="white-space:nowrap">99440<a name="TRE-R20-Pays-99440"> </a></td><td>Saint-Vincent-et-les-Grenadines</td><td/><td>2016-02-09T00:00:00+01:00</td><td>2024-06-28T12:00:00+01:00</td><td/><td/><td>active</td><td>St-Vincent-et-les-Grenadines</td></tr><tr><td style="white-space:nowrap">99441<a name="TRE-R20-Pays-99441"> </a></td><td>Antigua-et-Barbuda</td><td/><td>2016-02-09T00:00:00+01:00</td><td>2024-01-26T12:00:00+01:00</td><td/><td/><td>active</td><td/></tr><tr><td style="white-space:nowrap">99442<a name="TRE-R20-Pays-99442"> </a></td><td>Fédération de Saint-Christophe-et-Niévès</td><td/><td>2016-02-09T00:00:00+01:00</td><td>2025-03-28T12:00:00+01:00</td><td/><td/><td>active</td><td>Féd. St-Christophe-et-Niévès</td></tr><tr><td style="white-space:nowrap">99443<a name="TRE-R20-Pays-99443"> </a></td><td>Bonaire, Saint-Eustache, Saba</td><td/><td>2016-02-09T00:00:00+01:00</td><td>2024-12-13T12:00:00+01:00</td><td/><td/><td>active</td><td/></tr><tr><td style="white-space:nowrap">99444<a name="TRE-R20-Pays-99444"> </a></td><td>Curaçao</td><td/><td>2016-02-09T00:00:00+01:00</td><td>2024-12-13T12:00:00+01:00</td><td/><td/><td>active</td><td/></tr><tr><td style="white-space:nowrap">99445<a name="TRE-R20-Pays-99445"> </a></td><td>Saint-Martin (partie néerlandaise)</td><td/><td>2016-02-09T00:00:00+01:00</td><td>2024-12-13T12:00:00+01:00</td><td/><td/><td>active</td><td>Saint-Martin</td></tr><tr><td style="white-space:nowrap">99501<a name="TRE-R20-Pays-99501"> </a></td><td>Commonwealth d'Australie</td><td/><td>2016-02-09T00:00:00+01:00</td><td>2024-06-28T12:00:00+01:00</td><td/><td/><td>active</td><td>Australie</td></tr><tr><td style="white-space:nowrap">99502<a name="TRE-R20-Pays-99502"> </a></td><td>Nouvelle-Zélande</td><td/><td>2016-02-09T00:00:00+01:00</td><td>2024-01-26T12:00:00+01:00</td><td/><td/><td>active</td><td/></tr><tr><td style="white-space:nowrap">99503<a name="TRE-R20-Pays-99503"> </a></td><td>Pitcairn</td><td/><td>2016-02-09T00:00:00+01:00</td><td>2024-12-13T12:00:00+01:00</td><td/><td/><td>active</td><td/></tr><tr style="background-color: #ffeeee"><td style="white-space:nowrap">99504<a name="TRE-R20-Pays-99504"> </a></td><td>Hawaii</td><td>Déprécié</td><td>2016-02-09T00:00:00+01:00</td><td>2024-06-28T12:00:00+01:00</td><td>2016-02-09T00:00:00+01:00</td><td>2016-02-09T00:00:00+01:00</td><td>deprecated</td><td/></tr><tr><td style="white-space:nowrap">99505<a name="TRE-R20-Pays-99505"> </a></td><td>Mariannes du Nord, Guam, Samoa américaines, mineures éloignées des États-Unis</td><td/><td>2016-02-09T00:00:00+01:00</td><td>2024-12-13T12:00:00+01:00</td><td/><td/><td>active</td><td>Terr. États-Unis en Océanie</td></tr><tr><td style="white-space:nowrap">99506<a name="TRE-R20-Pays-99506"> </a></td><td>État indépendant des Samoa</td><td/><td>2016-02-09T00:00:00+01:00</td><td>2024-06-28T12:00:00+01:00</td><td/><td/><td>active</td><td>Samoa</td></tr><tr><td style="white-space:nowrap">99507<a name="TRE-R20-Pays-99507"> </a></td><td>République de Nauru</td><td/><td>2016-02-09T00:00:00+01:00</td><td>2024-01-26T12:00:00+01:00</td><td/><td/><td>active</td><td>Nauru</td></tr><tr><td style="white-space:nowrap">99508<a name="TRE-R20-Pays-99508"> </a></td><td>République des Fidji</td><td/><td>2016-02-09T00:00:00+01:00</td><td>2024-01-26T12:00:00+01:00</td><td/><td/><td>active</td><td>Fidji</td></tr><tr><td style="white-space:nowrap">99509<a name="TRE-R20-Pays-99509"> </a></td><td>Royaume des Tonga</td><td/><td>2016-02-09T00:00:00+01:00</td><td>2024-01-26T12:00:00+01:00</td><td/><td/><td>active</td><td>Tonga</td></tr><tr><td style="white-space:nowrap">99510<a name="TRE-R20-Pays-99510"> </a></td><td>État indépendant de Papouasie-Nouvelle-Guinée</td><td/><td>2016-02-09T00:00:00+01:00</td><td>2024-06-28T12:00:00+01:00</td><td/><td/><td>active</td><td>Papouasie-Nouvelle-Guinée</td></tr><tr><td style="white-space:nowrap">99511<a name="TRE-R20-Pays-99511"> </a></td><td>Tuvalu</td><td/><td>2016-02-09T00:00:00+01:00</td><td>2024-01-26T12:00:00+01:00</td><td/><td/><td>active</td><td/></tr><tr><td style="white-space:nowrap">99512<a name="TRE-R20-Pays-99512"> </a></td><td>Îles Salomon</td><td/><td>2016-02-09T00:00:00+01:00</td><td>2024-06-28T12:00:00+01:00</td><td/><td/><td>active</td><td>Salomon</td></tr><tr><td style="white-space:nowrap">99513<a name="TRE-R20-Pays-99513"> </a></td><td>République des Kiribati</td><td/><td>2016-02-09T00:00:00+01:00</td><td>2024-01-26T12:00:00+01:00</td><td/><td/><td>active</td><td>Kiribati</td></tr><tr><td style="white-space:nowrap">99514<a name="TRE-R20-Pays-99514"> </a></td><td>République du Vanuatu</td><td/><td>2016-02-09T00:00:00+01:00</td><td>2024-01-26T12:00:00+01:00</td><td/><td/><td>active</td><td>Vanuatu</td></tr><tr><td style="white-space:nowrap">99515<a name="TRE-R20-Pays-99515"> </a></td><td>République des îles Marshall</td><td/><td>2016-02-09T00:00:00+01:00</td><td>2024-01-26T12:00:00+01:00</td><td/><td/><td>active</td><td>Marshall</td></tr><tr><td style="white-space:nowrap">99516<a name="TRE-R20-Pays-99516"> </a></td><td>États fédérés de Micronésie</td><td/><td>2016-02-09T00:00:00+01:00</td><td>2024-06-28T12:00:00+01:00</td><td/><td/><td>active</td><td>Micronésie</td></tr><tr><td style="white-space:nowrap">99517<a name="TRE-R20-Pays-99517"> </a></td><td>République des Palaos</td><td/><td>2016-02-09T00:00:00+01:00</td><td>2024-06-28T12:00:00+01:00</td><td/><td/><td>active</td><td>Palaos</td></tr><tr><td style="white-space:nowrap">99699<a name="TRE-R20-Pays-99699"> </a></td><td>Antarctique</td><td/><td>2024-06-28T12:00:00+01:00</td><td>2024-06-28T12:00:00+01:00</td><td/><td/><td>active</td><td/></tr></table></div>
   </text>
   <extension url="http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod">
     <valuePeriod>
@@ -20,11 +20,11 @@
     <system value="urn:ietf:rfc:3986"/>
     <value value="urn:oid:1.2.250.1.213.2.24"/>
   </identifier>
-  <version value="20241213120000"/>
+  <version value="20250328120000"/>
   <name value="TRE_R20_Pays"/>
   <status value="active"/>
   <experimental value="false"/>
-  <date value="2024-12-13T12:00:00+01:00"/>
+  <date value="2025-03-28T12:00:00+01:00"/>
   <publisher value="Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris"/>
   <description value="Référentiel des codes pays provenant du COG INSEE"/>
   <caseSensitive value="false"/>
@@ -42,6 +42,24 @@
   <property>
     <code value="dateFin"/>
     <description value="Date de fin d'exploitation d'un code concept"/>
+    <type value="dateTime"/>
+  </property>
+  <property>
+    <code value="deprecationDate"/>
+    <uri value="http://hl7.org/fhir/concept-properties#deprecationDate"/>
+    <description value="Date Concept was deprecated"/>
+    <type value="dateTime"/>
+  </property>
+  <property>
+    <code value="status"/>
+    <uri value="http://hl7.org/fhir/concept-properties#status"/>
+    <description value="A property that indicates the status of the concept."/>
+    <type value="code"/>
+  </property>
+  <property>
+    <code value="retirementDate"/>
+    <uri value="http://hl7.org/fhir/concept-properties#retirementDate"/>
+    <description value="Date Concept was retired"/>
     <type value="dateTime"/>
   </property>
   <concept>
@@ -67,6 +85,14 @@
       <code value="dateMaj"/>
       <valueDateTime value="2024-01-26T12:00:00+01:00"/>
     </property>
+    <property>
+      <code value="deprecationDate"/>
+      <valueDateTime value="2016-09-01T00:00:00+01:00"/>
+    </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="deprecated"/>
+    </property>
   </concept>
   <concept>
     <code value="99100"/>
@@ -86,6 +112,10 @@
     <property>
       <code value="dateMaj"/>
       <valueDateTime value="2024-01-26T12:00:00+01:00"/>
+    </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
     </property>
   </concept>
   <concept>
@@ -107,6 +137,10 @@
       <code value="dateMaj"/>
       <valueDateTime value="2024-01-26T12:00:00+01:00"/>
     </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
+    </property>
   </concept>
   <concept>
     <code value="99102"/>
@@ -118,6 +152,10 @@
     <property>
       <code value="dateMaj"/>
       <valueDateTime value="2024-06-28T12:00:00+01:00"/>
+    </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
     </property>
   </concept>
   <concept>
@@ -139,6 +177,10 @@
       <code value="dateMaj"/>
       <valueDateTime value="2024-01-26T12:00:00+01:00"/>
     </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
+    </property>
   </concept>
   <concept>
     <code value="99104"/>
@@ -158,6 +200,10 @@
     <property>
       <code value="dateMaj"/>
       <valueDateTime value="2024-01-26T12:00:00+01:00"/>
+    </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
     </property>
   </concept>
   <concept>
@@ -179,6 +225,10 @@
       <code value="dateMaj"/>
       <valueDateTime value="2024-01-26T12:00:00+01:00"/>
     </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
+    </property>
   </concept>
   <concept>
     <code value="99106"/>
@@ -198,6 +248,10 @@
     <property>
       <code value="dateMaj"/>
       <valueDateTime value="2024-01-26T12:00:00+01:00"/>
+    </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
     </property>
   </concept>
   <concept>
@@ -219,6 +273,10 @@
       <code value="dateMaj"/>
       <valueDateTime value="2024-01-26T12:00:00+01:00"/>
     </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
+    </property>
   </concept>
   <concept>
     <code value="99108"/>
@@ -238,6 +296,10 @@
     <property>
       <code value="dateMaj"/>
       <valueDateTime value="2024-01-26T12:00:00+01:00"/>
+    </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
     </property>
   </concept>
   <concept>
@@ -259,6 +321,10 @@
       <code value="dateMaj"/>
       <valueDateTime value="2024-01-26T12:00:00+01:00"/>
     </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
+    </property>
   </concept>
   <concept>
     <code value="99110"/>
@@ -278,6 +344,10 @@
     <property>
       <code value="dateMaj"/>
       <valueDateTime value="2024-01-26T12:00:00+01:00"/>
+    </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
     </property>
   </concept>
   <concept>
@@ -299,6 +369,10 @@
       <code value="dateMaj"/>
       <valueDateTime value="2024-01-26T12:00:00+01:00"/>
     </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
+    </property>
   </concept>
   <concept>
     <code value="99112"/>
@@ -310,6 +384,10 @@
     <property>
       <code value="dateMaj"/>
       <valueDateTime value="2024-06-28T12:00:00+01:00"/>
+    </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
     </property>
   </concept>
   <concept>
@@ -331,6 +409,10 @@
       <code value="dateMaj"/>
       <valueDateTime value="2024-01-26T12:00:00+01:00"/>
     </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
+    </property>
   </concept>
   <concept>
     <code value="99114"/>
@@ -342,6 +424,10 @@
     <property>
       <code value="dateMaj"/>
       <valueDateTime value="2024-01-26T12:00:00+01:00"/>
+    </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
     </property>
   </concept>
   <concept>
@@ -358,6 +444,14 @@
     <property>
       <code value="dateMaj"/>
       <valueDateTime value="2024-01-26T12:00:00+01:00"/>
+    </property>
+    <property>
+      <code value="deprecationDate"/>
+      <valueDateTime value="2016-02-09T00:00:00+01:00"/>
+    </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="deprecated"/>
     </property>
   </concept>
   <concept>
@@ -379,6 +473,10 @@
       <code value="dateMaj"/>
       <valueDateTime value="2024-01-26T12:00:00+01:00"/>
     </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
+    </property>
   </concept>
   <concept>
     <code value="99117"/>
@@ -399,6 +497,10 @@
       <code value="dateMaj"/>
       <valueDateTime value="2024-01-26T12:00:00+01:00"/>
     </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
+    </property>
   </concept>
   <concept>
     <code value="99118"/>
@@ -410,6 +512,10 @@
     <property>
       <code value="dateMaj"/>
       <valueDateTime value="2024-06-28T12:00:00+01:00"/>
+    </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
     </property>
   </concept>
   <concept>
@@ -431,6 +537,10 @@
       <code value="dateMaj"/>
       <valueDateTime value="2024-01-26T12:00:00+01:00"/>
     </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
+    </property>
   </concept>
   <concept>
     <code value="99120"/>
@@ -442,6 +552,10 @@
     <property>
       <code value="dateMaj"/>
       <valueDateTime value="2024-06-28T12:00:00+01:00"/>
+    </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
     </property>
   </concept>
   <concept>
@@ -463,6 +577,10 @@
       <code value="dateMaj"/>
       <valueDateTime value="2024-01-26T12:00:00+01:00"/>
     </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
+    </property>
   </concept>
   <concept>
     <code value="99122"/>
@@ -482,6 +600,10 @@
     <property>
       <code value="dateMaj"/>
       <valueDateTime value="2024-01-26T12:00:00+01:00"/>
+    </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
     </property>
   </concept>
   <concept>
@@ -503,6 +625,10 @@
       <code value="dateMaj"/>
       <valueDateTime value="2024-01-26T12:00:00+01:00"/>
     </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
+    </property>
   </concept>
   <concept>
     <code value="99124"/>
@@ -518,6 +644,14 @@
     <property>
       <code value="dateMaj"/>
       <valueDateTime value="2024-01-26T12:00:00+01:00"/>
+    </property>
+    <property>
+      <code value="deprecationDate"/>
+      <valueDateTime value="2016-02-09T00:00:00+01:00"/>
+    </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="deprecated"/>
     </property>
   </concept>
   <concept>
@@ -539,6 +673,10 @@
       <code value="dateMaj"/>
       <valueDateTime value="2024-01-26T12:00:00+01:00"/>
     </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
+    </property>
   </concept>
   <concept>
     <code value="99126"/>
@@ -558,6 +696,10 @@
     <property>
       <code value="dateMaj"/>
       <valueDateTime value="2024-01-26T12:00:00+01:00"/>
+    </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
     </property>
   </concept>
   <concept>
@@ -579,6 +721,10 @@
       <code value="dateMaj"/>
       <valueDateTime value="2024-01-26T12:00:00+01:00"/>
     </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
+    </property>
   </concept>
   <concept>
     <code value="99128"/>
@@ -598,6 +744,10 @@
     <property>
       <code value="dateMaj"/>
       <valueDateTime value="2024-01-26T12:00:00+01:00"/>
+    </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
     </property>
   </concept>
   <concept>
@@ -619,6 +769,10 @@
       <code value="dateMaj"/>
       <valueDateTime value="2024-06-28T12:00:00+01:00"/>
     </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
+    </property>
   </concept>
   <concept>
     <code value="99130"/>
@@ -638,6 +792,10 @@
     <property>
       <code value="dateMaj"/>
       <valueDateTime value="2024-01-26T12:00:00+01:00"/>
+    </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
     </property>
   </concept>
   <concept>
@@ -659,6 +817,10 @@
       <code value="dateMaj"/>
       <valueDateTime value="2024-01-26T12:00:00+01:00"/>
     </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
+    </property>
   </concept>
   <concept>
     <code value="99132"/>
@@ -679,10 +841,14 @@
       <code value="dateMaj"/>
       <valueDateTime value="2024-01-26T12:00:00+01:00"/>
     </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
+    </property>
   </concept>
   <concept>
     <code value="99133"/>
-    <display value="Gibraltar, Akrotiri, Dhekelia"/>
+    <display value="Gibraltar, Akrotiri et Dhekelia"/>
     <designation>
       <language value="fr-FR"/>
       <use>
@@ -705,7 +871,11 @@
     </property>
     <property>
       <code value="dateMaj"/>
-      <valueDateTime value="2024-12-13T12:00:00+01:00"/>
+      <valueDateTime value="2025-03-28T12:00:00+01:00"/>
+    </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
     </property>
   </concept>
   <concept>
@@ -727,6 +897,10 @@
       <code value="dateMaj"/>
       <valueDateTime value="2024-01-26T12:00:00+01:00"/>
     </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
+    </property>
   </concept>
   <concept>
     <code value="99135"/>
@@ -747,6 +921,10 @@
       <code value="dateMaj"/>
       <valueDateTime value="2024-01-26T12:00:00+01:00"/>
     </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
+    </property>
   </concept>
   <concept>
     <code value="99136"/>
@@ -758,6 +936,10 @@
     <property>
       <code value="dateMaj"/>
       <valueDateTime value="2024-06-28T12:00:00+01:00"/>
+    </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
     </property>
   </concept>
   <concept>
@@ -779,6 +961,10 @@
       <code value="dateMaj"/>
       <valueDateTime value="2024-06-28T12:00:00+01:00"/>
     </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
+    </property>
   </concept>
   <concept>
     <code value="99138"/>
@@ -798,6 +984,10 @@
     <property>
       <code value="dateMaj"/>
       <valueDateTime value="2024-01-26T12:00:00+01:00"/>
+    </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
     </property>
   </concept>
   <concept>
@@ -819,6 +1009,10 @@
       <code value="dateMaj"/>
       <valueDateTime value="2024-01-26T12:00:00+01:00"/>
     </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
+    </property>
   </concept>
   <concept>
     <code value="99140"/>
@@ -838,6 +1032,10 @@
     <property>
       <code value="dateMaj"/>
       <valueDateTime value="2024-01-26T12:00:00+01:00"/>
+    </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
     </property>
   </concept>
   <concept>
@@ -863,6 +1061,14 @@
       <code value="dateMaj"/>
       <valueDateTime value="2024-01-26T12:00:00+01:00"/>
     </property>
+    <property>
+      <code value="deprecationDate"/>
+      <valueDateTime value="2016-02-09T00:00:00+01:00"/>
+    </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="deprecated"/>
+    </property>
   </concept>
   <concept>
     <code value="99142"/>
@@ -887,6 +1093,14 @@
       <code value="dateMaj"/>
       <valueDateTime value="2024-01-26T12:00:00+01:00"/>
     </property>
+    <property>
+      <code value="deprecationDate"/>
+      <valueDateTime value="2016-02-09T00:00:00+01:00"/>
+    </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="deprecated"/>
+    </property>
   </concept>
   <concept>
     <code value="99144"/>
@@ -906,6 +1120,10 @@
     <property>
       <code value="dateMaj"/>
       <valueDateTime value="2024-01-26T12:00:00+01:00"/>
+    </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
     </property>
   </concept>
   <concept>
@@ -927,6 +1145,10 @@
       <code value="dateMaj"/>
       <valueDateTime value="2024-01-26T12:00:00+01:00"/>
     </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
+    </property>
   </concept>
   <concept>
     <code value="99148"/>
@@ -946,6 +1168,10 @@
     <property>
       <code value="dateMaj"/>
       <valueDateTime value="2024-01-26T12:00:00+01:00"/>
+    </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
     </property>
   </concept>
   <concept>
@@ -967,6 +1193,10 @@
       <code value="dateMaj"/>
       <valueDateTime value="2024-01-26T12:00:00+01:00"/>
     </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
+    </property>
   </concept>
   <concept>
     <code value="99155"/>
@@ -978,6 +1208,10 @@
     <property>
       <code value="dateMaj"/>
       <valueDateTime value="2024-01-26T12:00:00+01:00"/>
+    </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
     </property>
   </concept>
   <concept>
@@ -999,6 +1233,10 @@
       <code value="dateMaj"/>
       <valueDateTime value="2024-06-28T12:00:00+01:00"/>
     </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
+    </property>
   </concept>
   <concept>
     <code value="99157"/>
@@ -1018,6 +1256,10 @@
     <property>
       <code value="dateMaj"/>
       <valueDateTime value="2024-01-26T12:00:00+01:00"/>
+    </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
     </property>
   </concept>
   <concept>
@@ -1039,6 +1281,10 @@
       <code value="dateMaj"/>
       <valueDateTime value="2024-01-26T12:00:00+01:00"/>
     </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
+    </property>
   </concept>
   <concept>
     <code value="99202"/>
@@ -1054,6 +1300,14 @@
     <property>
       <code value="dateMaj"/>
       <valueDateTime value="2024-01-26T12:00:00+01:00"/>
+    </property>
+    <property>
+      <code value="deprecationDate"/>
+      <valueDateTime value="2016-02-09T00:00:00+01:00"/>
+    </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="deprecated"/>
     </property>
   </concept>
   <concept>
@@ -1075,6 +1329,10 @@
       <code value="dateMaj"/>
       <valueDateTime value="2024-06-28T12:00:00+01:00"/>
     </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
+    </property>
   </concept>
   <concept>
     <code value="99204"/>
@@ -1094,6 +1352,10 @@
     <property>
       <code value="dateMaj"/>
       <valueDateTime value="2024-01-26T12:00:00+01:00"/>
+    </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
     </property>
   </concept>
   <concept>
@@ -1115,6 +1377,10 @@
       <code value="dateMaj"/>
       <valueDateTime value="2024-01-26T12:00:00+01:00"/>
     </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
+    </property>
   </concept>
   <concept>
     <code value="99206"/>
@@ -1134,6 +1400,10 @@
     <property>
       <code value="dateMaj"/>
       <valueDateTime value="2024-01-26T12:00:00+01:00"/>
+    </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
     </property>
   </concept>
   <concept>
@@ -1155,6 +1425,10 @@
       <code value="dateMaj"/>
       <valueDateTime value="2024-01-26T12:00:00+01:00"/>
     </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
+    </property>
   </concept>
   <concept>
     <code value="99208"/>
@@ -1175,6 +1449,10 @@
       <code value="dateMaj"/>
       <valueDateTime value="2024-06-28T12:00:00+01:00"/>
     </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
+    </property>
   </concept>
   <concept>
     <code value="99209"/>
@@ -1190,6 +1468,14 @@
     <property>
       <code value="dateMaj"/>
       <valueDateTime value="2024-01-26T12:00:00+01:00"/>
+    </property>
+    <property>
+      <code value="deprecationDate"/>
+      <valueDateTime value="2016-02-09T00:00:00+01:00"/>
+    </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="deprecated"/>
     </property>
   </concept>
   <concept>
@@ -1207,6 +1493,14 @@
       <code value="dateMaj"/>
       <valueDateTime value="2024-01-26T12:00:00+01:00"/>
     </property>
+    <property>
+      <code value="deprecationDate"/>
+      <valueDateTime value="2016-02-09T00:00:00+01:00"/>
+    </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="deprecated"/>
+    </property>
   </concept>
   <concept>
     <code value="99211"/>
@@ -1222,6 +1516,14 @@
     <property>
       <code value="dateMaj"/>
       <valueDateTime value="2024-01-26T12:00:00+01:00"/>
+    </property>
+    <property>
+      <code value="deprecationDate"/>
+      <valueDateTime value="2016-02-09T00:00:00+01:00"/>
+    </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="deprecated"/>
     </property>
   </concept>
   <concept>
@@ -1243,6 +1545,10 @@
       <code value="dateMaj"/>
       <valueDateTime value="2024-06-28T12:00:00+01:00"/>
     </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
+    </property>
   </concept>
   <concept>
     <code value="99213"/>
@@ -1262,6 +1568,10 @@
     <property>
       <code value="dateMaj"/>
       <valueDateTime value="2024-01-26T12:00:00+01:00"/>
+    </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
     </property>
   </concept>
   <concept>
@@ -1283,6 +1593,10 @@
       <code value="dateMaj"/>
       <valueDateTime value="2024-01-26T12:00:00+01:00"/>
     </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
+    </property>
   </concept>
   <concept>
     <code value="99215"/>
@@ -1294,6 +1608,10 @@
     <property>
       <code value="dateMaj"/>
       <valueDateTime value="2024-01-26T12:00:00+01:00"/>
+    </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
     </property>
   </concept>
   <concept>
@@ -1315,6 +1633,10 @@
       <code value="dateMaj"/>
       <valueDateTime value="2024-01-26T12:00:00+01:00"/>
     </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
+    </property>
   </concept>
   <concept>
     <code value="99217"/>
@@ -1326,6 +1648,10 @@
     <property>
       <code value="dateMaj"/>
       <valueDateTime value="2024-01-26T12:00:00+01:00"/>
+    </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
     </property>
   </concept>
   <concept>
@@ -1342,6 +1668,14 @@
     <property>
       <code value="dateMaj"/>
       <valueDateTime value="2024-01-26T12:00:00+01:00"/>
+    </property>
+    <property>
+      <code value="deprecationDate"/>
+      <valueDateTime value="2016-02-09T00:00:00+01:00"/>
+    </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="deprecated"/>
     </property>
   </concept>
   <concept>
@@ -1363,6 +1697,10 @@
       <code value="dateMaj"/>
       <valueDateTime value="2024-01-26T12:00:00+01:00"/>
     </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
+    </property>
   </concept>
   <concept>
     <code value="99220"/>
@@ -1382,6 +1720,10 @@
     <property>
       <code value="dateMaj"/>
       <valueDateTime value="2024-01-26T12:00:00+01:00"/>
+    </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
     </property>
   </concept>
   <concept>
@@ -1407,6 +1749,14 @@
       <code value="dateMaj"/>
       <valueDateTime value="2024-01-26T12:00:00+01:00"/>
     </property>
+    <property>
+      <code value="deprecationDate"/>
+      <valueDateTime value="2016-02-09T00:00:00+01:00"/>
+    </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="deprecated"/>
+    </property>
   </concept>
   <concept>
     <code value="99222"/>
@@ -1426,6 +1776,10 @@
     <property>
       <code value="dateMaj"/>
       <valueDateTime value="2024-01-26T12:00:00+01:00"/>
+    </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
     </property>
   </concept>
   <concept>
@@ -1447,6 +1801,10 @@
       <code value="dateMaj"/>
       <valueDateTime value="2024-01-26T12:00:00+01:00"/>
     </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
+    </property>
   </concept>
   <concept>
     <code value="99224"/>
@@ -1466,6 +1824,10 @@
     <property>
       <code value="dateMaj"/>
       <valueDateTime value="2024-06-28T12:00:00+01:00"/>
+    </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
     </property>
   </concept>
   <concept>
@@ -1487,6 +1849,10 @@
       <code value="dateMaj"/>
       <valueDateTime value="2024-06-28T12:00:00+01:00"/>
     </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
+    </property>
   </concept>
   <concept>
     <code value="99226"/>
@@ -1507,6 +1873,10 @@
       <code value="dateMaj"/>
       <valueDateTime value="2024-01-26T12:00:00+01:00"/>
     </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
+    </property>
   </concept>
   <concept>
     <code value="99227"/>
@@ -1518,6 +1888,10 @@
     <property>
       <code value="dateMaj"/>
       <valueDateTime value="2024-01-26T12:00:00+01:00"/>
+    </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
     </property>
   </concept>
   <concept>
@@ -1534,6 +1908,14 @@
     <property>
       <code value="dateMaj"/>
       <valueDateTime value="2024-01-26T12:00:00+01:00"/>
+    </property>
+    <property>
+      <code value="deprecationDate"/>
+      <valueDateTime value="2016-02-09T00:00:00+01:00"/>
+    </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="deprecated"/>
     </property>
   </concept>
   <concept>
@@ -1555,6 +1937,10 @@
       <code value="dateMaj"/>
       <valueDateTime value="2024-01-26T12:00:00+01:00"/>
     </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
+    </property>
   </concept>
   <concept>
     <code value="99230"/>
@@ -1566,6 +1952,10 @@
     <property>
       <code value="dateMaj"/>
       <valueDateTime value="2024-12-13T12:00:00+01:00"/>
+    </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
     </property>
   </concept>
   <concept>
@@ -1587,6 +1977,10 @@
       <code value="dateMaj"/>
       <valueDateTime value="2024-01-26T12:00:00+01:00"/>
     </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
+    </property>
   </concept>
   <concept>
     <code value="99232"/>
@@ -1598,6 +1992,10 @@
     <property>
       <code value="dateMaj"/>
       <valueDateTime value="2024-12-13T12:00:00+01:00"/>
+    </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
     </property>
   </concept>
   <concept>
@@ -1614,6 +2012,14 @@
     <property>
       <code value="dateMaj"/>
       <valueDateTime value="2024-01-26T12:00:00+01:00"/>
+    </property>
+    <property>
+      <code value="deprecationDate"/>
+      <valueDateTime value="2016-02-09T00:00:00+01:00"/>
+    </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="deprecated"/>
     </property>
   </concept>
   <concept>
@@ -1635,6 +2041,10 @@
       <code value="dateMaj"/>
       <valueDateTime value="2024-01-26T12:00:00+01:00"/>
     </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
+    </property>
   </concept>
   <concept>
     <code value="99235"/>
@@ -1655,6 +2065,10 @@
       <code value="dateMaj"/>
       <valueDateTime value="2024-01-26T12:00:00+01:00"/>
     </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
+    </property>
   </concept>
   <concept>
     <code value="99236"/>
@@ -1666,6 +2080,10 @@
     <property>
       <code value="dateMaj"/>
       <valueDateTime value="2024-01-26T12:00:00+01:00"/>
+    </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
     </property>
   </concept>
   <concept>
@@ -1682,6 +2100,14 @@
     <property>
       <code value="dateMaj"/>
       <valueDateTime value="2024-01-26T12:00:00+01:00"/>
+    </property>
+    <property>
+      <code value="deprecationDate"/>
+      <valueDateTime value="2016-02-09T00:00:00+01:00"/>
+    </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="deprecated"/>
     </property>
   </concept>
   <concept>
@@ -1703,6 +2129,10 @@
       <code value="dateMaj"/>
       <valueDateTime value="2024-06-28T12:00:00+01:00"/>
     </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
+    </property>
   </concept>
   <concept>
     <code value="99239"/>
@@ -1722,6 +2152,10 @@
     <property>
       <code value="dateMaj"/>
       <valueDateTime value="2024-06-28T12:00:00+01:00"/>
+    </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
     </property>
   </concept>
   <concept>
@@ -1743,6 +2177,10 @@
       <code value="dateMaj"/>
       <valueDateTime value="2024-01-26T12:00:00+01:00"/>
     </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
+    </property>
   </concept>
   <concept>
     <code value="99241"/>
@@ -1763,6 +2201,10 @@
       <code value="dateMaj"/>
       <valueDateTime value="2024-01-26T12:00:00+01:00"/>
     </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
+    </property>
   </concept>
   <concept>
     <code value="99242"/>
@@ -1774,6 +2216,10 @@
     <property>
       <code value="dateMaj"/>
       <valueDateTime value="2024-01-26T12:00:00+01:00"/>
+    </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
     </property>
   </concept>
   <concept>
@@ -1795,6 +2241,10 @@
       <code value="dateMaj"/>
       <valueDateTime value="2024-06-28T12:00:00+01:00"/>
     </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
+    </property>
   </concept>
   <concept>
     <code value="99244"/>
@@ -1811,6 +2261,14 @@
       <code value="dateMaj"/>
       <valueDateTime value="2024-06-28T12:00:00+01:00"/>
     </property>
+    <property>
+      <code value="deprecationDate"/>
+      <valueDateTime value="2016-02-09T00:00:00+01:00"/>
+    </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="deprecated"/>
+    </property>
   </concept>
   <concept>
     <code value="99245"/>
@@ -1826,6 +2284,14 @@
     <property>
       <code value="dateMaj"/>
       <valueDateTime value="2024-06-28T12:00:00+01:00"/>
+    </property>
+    <property>
+      <code value="deprecationDate"/>
+      <valueDateTime value="2016-02-09T00:00:00+01:00"/>
+    </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="deprecated"/>
     </property>
   </concept>
   <concept>
@@ -1847,6 +2313,10 @@
       <code value="dateMaj"/>
       <valueDateTime value="2024-01-26T12:00:00+01:00"/>
     </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
+    </property>
   </concept>
   <concept>
     <code value="99247"/>
@@ -1858,6 +2328,10 @@
     <property>
       <code value="dateMaj"/>
       <valueDateTime value="2024-01-26T12:00:00+01:00"/>
+    </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
     </property>
   </concept>
   <concept>
@@ -1879,6 +2353,10 @@
       <code value="dateMaj"/>
       <valueDateTime value="2024-01-26T12:00:00+01:00"/>
     </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
+    </property>
   </concept>
   <concept>
     <code value="99249"/>
@@ -1898,6 +2376,10 @@
     <property>
       <code value="dateMaj"/>
       <valueDateTime value="2024-06-28T12:00:00+01:00"/>
+    </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
     </property>
   </concept>
   <concept>
@@ -1919,6 +2401,10 @@
       <code value="dateMaj"/>
       <valueDateTime value="2024-01-26T12:00:00+01:00"/>
     </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
+    </property>
   </concept>
   <concept>
     <code value="99251"/>
@@ -1938,6 +2424,10 @@
     <property>
       <code value="dateMaj"/>
       <valueDateTime value="2024-01-26T12:00:00+01:00"/>
+    </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
     </property>
   </concept>
   <concept>
@@ -1959,6 +2449,10 @@
       <code value="dateMaj"/>
       <valueDateTime value="2024-01-26T12:00:00+01:00"/>
     </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
+    </property>
   </concept>
   <concept>
     <code value="99253"/>
@@ -1978,6 +2472,10 @@
     <property>
       <code value="dateMaj"/>
       <valueDateTime value="2024-06-28T12:00:00+01:00"/>
+    </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
     </property>
   </concept>
   <concept>
@@ -1999,6 +2497,10 @@
       <code value="dateMaj"/>
       <valueDateTime value="2024-01-26T12:00:00+01:00"/>
     </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
+    </property>
   </concept>
   <concept>
     <code value="99255"/>
@@ -2010,6 +2512,10 @@
     <property>
       <code value="dateMaj"/>
       <valueDateTime value="2024-06-28T12:00:00+01:00"/>
+    </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
     </property>
   </concept>
   <concept>
@@ -2031,6 +2537,10 @@
       <code value="dateMaj"/>
       <valueDateTime value="2024-01-26T12:00:00+01:00"/>
     </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
+    </property>
   </concept>
   <concept>
     <code value="99257"/>
@@ -2050,6 +2560,10 @@
     <property>
       <code value="dateMaj"/>
       <valueDateTime value="2024-01-26T12:00:00+01:00"/>
+    </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
     </property>
   </concept>
   <concept>
@@ -2071,6 +2585,10 @@
       <code value="dateMaj"/>
       <valueDateTime value="2024-01-26T12:00:00+01:00"/>
     </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
+    </property>
   </concept>
   <concept>
     <code value="99259"/>
@@ -2091,6 +2609,10 @@
       <code value="dateMaj"/>
       <valueDateTime value="2024-01-26T12:00:00+01:00"/>
     </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
+    </property>
   </concept>
   <concept>
     <code value="99260"/>
@@ -2102,6 +2624,10 @@
     <property>
       <code value="dateMaj"/>
       <valueDateTime value="2024-01-26T12:00:00+01:00"/>
+    </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
     </property>
   </concept>
   <concept>
@@ -2123,6 +2649,10 @@
       <code value="dateMaj"/>
       <valueDateTime value="2024-06-28T12:00:00+01:00"/>
     </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
+    </property>
   </concept>
   <concept>
     <code value="99262"/>
@@ -2142,6 +2672,10 @@
     <property>
       <code value="dateMaj"/>
       <valueDateTime value="2024-01-26T12:00:00+01:00"/>
+    </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
     </property>
   </concept>
   <concept>
@@ -2163,6 +2697,10 @@
       <code value="dateMaj"/>
       <valueDateTime value="2024-01-26T12:00:00+01:00"/>
     </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
+    </property>
   </concept>
   <concept>
     <code value="99302"/>
@@ -2182,6 +2720,10 @@
     <property>
       <code value="dateMaj"/>
       <valueDateTime value="2024-01-26T12:00:00+01:00"/>
+    </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
     </property>
   </concept>
   <concept>
@@ -2203,6 +2745,10 @@
       <code value="dateMaj"/>
       <valueDateTime value="2024-01-26T12:00:00+01:00"/>
     </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
+    </property>
   </concept>
   <concept>
     <code value="99304"/>
@@ -2223,6 +2769,10 @@
       <code value="dateMaj"/>
       <valueDateTime value="2024-01-26T12:00:00+01:00"/>
     </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
+    </property>
   </concept>
   <concept>
     <code value="99305"/>
@@ -2238,6 +2788,14 @@
     <property>
       <code value="dateMaj"/>
       <valueDateTime value="2024-01-26T12:00:00+01:00"/>
+    </property>
+    <property>
+      <code value="deprecationDate"/>
+      <valueDateTime value="2016-02-09T00:00:00+01:00"/>
+    </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="deprecated"/>
     </property>
   </concept>
   <concept>
@@ -2267,6 +2825,10 @@
       <code value="dateMaj"/>
       <valueDateTime value="2024-12-13T12:00:00+01:00"/>
     </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
+    </property>
   </concept>
   <concept>
     <code value="99307"/>
@@ -2291,6 +2853,14 @@
       <code value="dateMaj"/>
       <valueDateTime value="2024-01-26T12:00:00+01:00"/>
     </property>
+    <property>
+      <code value="deprecationDate"/>
+      <valueDateTime value="2016-02-09T00:00:00+01:00"/>
+    </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="deprecated"/>
+    </property>
   </concept>
   <concept>
     <code value="99308"/>
@@ -2301,7 +2871,15 @@
         <system value="http://snomed.info/sct"/>
         <code value="900000000000013009"/>
       </use>
-      <value value="Chagos"/>
+      <value value="Terr. Britannique Océan Indien"/>
+    </designation>
+    <designation>
+      <language value="fr-FR"/>
+      <use>
+        <system value="http://snomed.info/sct"/>
+        <code value="900000000000013009"/>
+      </use>
+      <value value="Territoire britannique de l'océan Indien"/>
     </designation>
     <property>
       <code value="dateValid"/>
@@ -2309,7 +2887,11 @@
     </property>
     <property>
       <code value="dateMaj"/>
-      <valueDateTime value="2024-12-13T12:00:00+01:00"/>
+      <valueDateTime value="2025-03-28T12:00:00+01:00"/>
+    </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
     </property>
   </concept>
   <concept>
@@ -2331,6 +2913,10 @@
       <code value="dateMaj"/>
       <valueDateTime value="2024-01-26T12:00:00+01:00"/>
     </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
+    </property>
   </concept>
   <concept>
     <code value="99310"/>
@@ -2350,6 +2936,10 @@
     <property>
       <code value="dateMaj"/>
       <valueDateTime value="2024-01-26T12:00:00+01:00"/>
+    </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
     </property>
   </concept>
   <concept>
@@ -2371,6 +2961,10 @@
       <code value="dateMaj"/>
       <valueDateTime value="2024-01-26T12:00:00+01:00"/>
     </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
+    </property>
   </concept>
   <concept>
     <code value="99312"/>
@@ -2390,6 +2984,10 @@
     <property>
       <code value="dateMaj"/>
       <valueDateTime value="2024-06-28T12:00:00+01:00"/>
+    </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
     </property>
   </concept>
   <concept>
@@ -2419,6 +3017,10 @@
       <code value="dateMaj"/>
       <valueDateTime value="2024-12-13T12:00:00+01:00"/>
     </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
+    </property>
   </concept>
   <concept>
     <code value="99314"/>
@@ -2438,6 +3040,10 @@
     <property>
       <code value="dateMaj"/>
       <valueDateTime value="2024-01-26T12:00:00+01:00"/>
+    </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
     </property>
   </concept>
   <concept>
@@ -2459,6 +3065,10 @@
       <code value="dateMaj"/>
       <valueDateTime value="2024-01-26T12:00:00+01:00"/>
     </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
+    </property>
   </concept>
   <concept>
     <code value="99316"/>
@@ -2478,6 +3088,10 @@
     <property>
       <code value="dateMaj"/>
       <valueDateTime value="2024-06-28T12:00:00+01:00"/>
+    </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
     </property>
   </concept>
   <concept>
@@ -2499,6 +3113,10 @@
       <code value="dateMaj"/>
       <valueDateTime value="2024-01-26T12:00:00+01:00"/>
     </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
+    </property>
   </concept>
   <concept>
     <code value="99318"/>
@@ -2518,6 +3136,10 @@
     <property>
       <code value="dateMaj"/>
       <valueDateTime value="2024-06-28T12:00:00+01:00"/>
+    </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
     </property>
   </concept>
   <concept>
@@ -2547,6 +3169,10 @@
       <code value="dateMaj"/>
       <valueDateTime value="2024-12-13T12:00:00+01:00"/>
     </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
+    </property>
   </concept>
   <concept>
     <code value="99320"/>
@@ -2571,6 +3197,14 @@
       <code value="dateMaj"/>
       <valueDateTime value="2024-01-26T12:00:00+01:00"/>
     </property>
+    <property>
+      <code value="deprecationDate"/>
+      <valueDateTime value="2016-02-09T00:00:00+01:00"/>
+    </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="deprecated"/>
+    </property>
   </concept>
   <concept>
     <code value="99321"/>
@@ -2590,6 +3224,10 @@
     <property>
       <code value="dateMaj"/>
       <valueDateTime value="2024-01-26T12:00:00+01:00"/>
+    </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
     </property>
   </concept>
   <concept>
@@ -2611,6 +3249,10 @@
       <code value="dateMaj"/>
       <valueDateTime value="2024-01-26T12:00:00+01:00"/>
     </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
+    </property>
   </concept>
   <concept>
     <code value="99323"/>
@@ -2630,6 +3272,10 @@
     <property>
       <code value="dateMaj"/>
       <valueDateTime value="2024-06-28T12:00:00+01:00"/>
+    </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
     </property>
   </concept>
   <concept>
@@ -2651,6 +3297,10 @@
       <code value="dateMaj"/>
       <valueDateTime value="2024-01-26T12:00:00+01:00"/>
     </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
+    </property>
   </concept>
   <concept>
     <code value="99325"/>
@@ -2666,6 +3316,14 @@
     <property>
       <code value="dateMaj"/>
       <valueDateTime value="2024-01-26T12:00:00+01:00"/>
+    </property>
+    <property>
+      <code value="deprecationDate"/>
+      <valueDateTime value="2016-02-09T00:00:00+01:00"/>
+    </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="deprecated"/>
     </property>
   </concept>
   <concept>
@@ -2687,6 +3345,10 @@
       <code value="dateMaj"/>
       <valueDateTime value="2024-01-26T12:00:00+01:00"/>
     </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
+    </property>
   </concept>
   <concept>
     <code value="99327"/>
@@ -2706,6 +3368,10 @@
     <property>
       <code value="dateMaj"/>
       <valueDateTime value="2024-01-26T12:00:00+01:00"/>
+    </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
     </property>
   </concept>
   <concept>
@@ -2727,6 +3393,10 @@
       <code value="dateMaj"/>
       <valueDateTime value="2024-01-26T12:00:00+01:00"/>
     </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
+    </property>
   </concept>
   <concept>
     <code value="99329"/>
@@ -2746,6 +3416,10 @@
     <property>
       <code value="dateMaj"/>
       <valueDateTime value="2024-01-26T12:00:00+01:00"/>
+    </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
     </property>
   </concept>
   <concept>
@@ -2767,6 +3441,10 @@
       <code value="dateMaj"/>
       <valueDateTime value="2024-01-26T12:00:00+01:00"/>
     </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
+    </property>
   </concept>
   <concept>
     <code value="99331"/>
@@ -2786,6 +3464,10 @@
     <property>
       <code value="dateMaj"/>
       <valueDateTime value="2024-01-26T12:00:00+01:00"/>
+    </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
     </property>
   </concept>
   <concept>
@@ -2807,6 +3489,10 @@
       <code value="dateMaj"/>
       <valueDateTime value="2024-01-26T12:00:00+01:00"/>
     </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
+    </property>
   </concept>
   <concept>
     <code value="99333"/>
@@ -2826,6 +3512,10 @@
     <property>
       <code value="dateMaj"/>
       <valueDateTime value="2024-01-26T12:00:00+01:00"/>
+    </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
     </property>
   </concept>
   <concept>
@@ -2847,6 +3537,10 @@
       <code value="dateMaj"/>
       <valueDateTime value="2024-01-26T12:00:00+01:00"/>
     </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
+    </property>
   </concept>
   <concept>
     <code value="99335"/>
@@ -2866,6 +3560,10 @@
     <property>
       <code value="dateMaj"/>
       <valueDateTime value="2024-01-26T12:00:00+01:00"/>
+    </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
     </property>
   </concept>
   <concept>
@@ -2887,6 +3585,10 @@
       <code value="dateMaj"/>
       <valueDateTime value="2024-01-26T12:00:00+01:00"/>
     </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
+    </property>
   </concept>
   <concept>
     <code value="99337"/>
@@ -2906,6 +3608,10 @@
     <property>
       <code value="dateMaj"/>
       <valueDateTime value="2024-01-26T12:00:00+01:00"/>
+    </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
     </property>
   </concept>
   <concept>
@@ -2927,6 +3633,10 @@
       <code value="dateMaj"/>
       <valueDateTime value="2024-01-26T12:00:00+01:00"/>
     </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
+    </property>
   </concept>
   <concept>
     <code value="99339"/>
@@ -2946,6 +3656,10 @@
     <property>
       <code value="dateMaj"/>
       <valueDateTime value="2024-06-28T12:00:00+01:00"/>
+    </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
     </property>
   </concept>
   <concept>
@@ -2967,6 +3681,10 @@
       <code value="dateMaj"/>
       <valueDateTime value="2024-06-28T12:00:00+01:00"/>
     </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
+    </property>
   </concept>
   <concept>
     <code value="99341"/>
@@ -2986,6 +3704,10 @@
     <property>
       <code value="dateMaj"/>
       <valueDateTime value="2024-01-26T12:00:00+01:00"/>
+    </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
     </property>
   </concept>
   <concept>
@@ -3007,6 +3729,10 @@
       <code value="dateMaj"/>
       <valueDateTime value="2024-01-26T12:00:00+01:00"/>
     </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
+    </property>
   </concept>
   <concept>
     <code value="99343"/>
@@ -3026,6 +3752,10 @@
     <property>
       <code value="dateMaj"/>
       <valueDateTime value="2024-01-26T12:00:00+01:00"/>
+    </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
     </property>
   </concept>
   <concept>
@@ -3047,6 +3777,10 @@
       <code value="dateMaj"/>
       <valueDateTime value="2024-01-26T12:00:00+01:00"/>
     </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
+    </property>
   </concept>
   <concept>
     <code value="99345"/>
@@ -3066,6 +3800,10 @@
     <property>
       <code value="dateMaj"/>
       <valueDateTime value="2024-01-26T12:00:00+01:00"/>
+    </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
     </property>
   </concept>
   <concept>
@@ -3087,6 +3825,10 @@
       <code value="dateMaj"/>
       <valueDateTime value="2024-01-26T12:00:00+01:00"/>
     </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
+    </property>
   </concept>
   <concept>
     <code value="99347"/>
@@ -3106,6 +3848,10 @@
     <property>
       <code value="dateMaj"/>
       <valueDateTime value="2024-01-26T12:00:00+01:00"/>
+    </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
     </property>
   </concept>
   <concept>
@@ -3127,6 +3873,10 @@
       <code value="dateMaj"/>
       <valueDateTime value="2024-01-26T12:00:00+01:00"/>
     </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
+    </property>
   </concept>
   <concept>
     <code value="99349"/>
@@ -3146,6 +3896,10 @@
     <property>
       <code value="dateMaj"/>
       <valueDateTime value="2024-01-26T12:00:00+01:00"/>
+    </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
     </property>
   </concept>
   <concept>
@@ -3167,6 +3921,10 @@
       <code value="dateMaj"/>
       <valueDateTime value="2024-01-26T12:00:00+01:00"/>
     </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
+    </property>
   </concept>
   <concept>
     <code value="99351"/>
@@ -3186,6 +3944,10 @@
     <property>
       <code value="dateMaj"/>
       <valueDateTime value="2024-01-26T12:00:00+01:00"/>
+    </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
     </property>
   </concept>
   <concept>
@@ -3207,6 +3969,10 @@
       <code value="dateMaj"/>
       <valueDateTime value="2024-01-26T12:00:00+01:00"/>
     </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
+    </property>
   </concept>
   <concept>
     <code value="99389"/>
@@ -3218,6 +3984,10 @@
     <property>
       <code value="dateMaj"/>
       <valueDateTime value="2024-01-26T12:00:00+01:00"/>
+    </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
     </property>
   </concept>
   <concept>
@@ -3239,6 +4009,10 @@
       <code value="dateMaj"/>
       <valueDateTime value="2024-01-26T12:00:00+01:00"/>
     </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
+    </property>
   </concept>
   <concept>
     <code value="99391"/>
@@ -3258,6 +4032,10 @@
     <property>
       <code value="dateMaj"/>
       <valueDateTime value="2024-06-28T12:00:00+01:00"/>
+    </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
     </property>
   </concept>
   <concept>
@@ -3279,6 +4057,10 @@
       <code value="dateMaj"/>
       <valueDateTime value="2024-06-28T12:00:00+01:00"/>
     </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
+    </property>
   </concept>
   <concept>
     <code value="99393"/>
@@ -3298,6 +4080,10 @@
     <property>
       <code value="dateMaj"/>
       <valueDateTime value="2024-01-26T12:00:00+01:00"/>
+    </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
     </property>
   </concept>
   <concept>
@@ -3319,6 +4105,10 @@
       <code value="dateMaj"/>
       <valueDateTime value="2024-01-26T12:00:00+01:00"/>
     </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
+    </property>
   </concept>
   <concept>
     <code value="99395"/>
@@ -3338,6 +4128,10 @@
     <property>
       <code value="dateMaj"/>
       <valueDateTime value="2024-01-26T12:00:00+01:00"/>
+    </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
     </property>
   </concept>
   <concept>
@@ -3359,6 +4153,10 @@
       <code value="dateMaj"/>
       <valueDateTime value="2024-01-26T12:00:00+01:00"/>
     </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
+    </property>
   </concept>
   <concept>
     <code value="99397"/>
@@ -3378,6 +4176,10 @@
     <property>
       <code value="dateMaj"/>
       <valueDateTime value="2024-06-28T12:00:00+01:00"/>
+    </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
     </property>
   </concept>
   <concept>
@@ -3399,6 +4201,10 @@
       <code value="dateMaj"/>
       <valueDateTime value="2024-01-26T12:00:00+01:00"/>
     </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
+    </property>
   </concept>
   <concept>
     <code value="99399"/>
@@ -3419,6 +4225,10 @@
       <code value="dateMaj"/>
       <valueDateTime value="2024-01-26T12:00:00+01:00"/>
     </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
+    </property>
   </concept>
   <concept>
     <code value="99401"/>
@@ -3430,6 +4240,10 @@
     <property>
       <code value="dateMaj"/>
       <valueDateTime value="2024-01-26T12:00:00+01:00"/>
+    </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
     </property>
   </concept>
   <concept>
@@ -3447,6 +4261,14 @@
       <code value="dateMaj"/>
       <valueDateTime value="2024-01-26T12:00:00+01:00"/>
     </property>
+    <property>
+      <code value="deprecationDate"/>
+      <valueDateTime value="2016-02-09T00:00:00+01:00"/>
+    </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="deprecated"/>
+    </property>
   </concept>
   <concept>
     <code value="99403"/>
@@ -3462,6 +4284,14 @@
     <property>
       <code value="dateMaj"/>
       <valueDateTime value="2024-01-26T12:00:00+01:00"/>
+    </property>
+    <property>
+      <code value="deprecationDate"/>
+      <valueDateTime value="2016-02-09T00:00:00+01:00"/>
+    </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="deprecated"/>
     </property>
   </concept>
   <concept>
@@ -3483,6 +4313,10 @@
       <code value="dateMaj"/>
       <valueDateTime value="2024-01-26T12:00:00+01:00"/>
     </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
+    </property>
   </concept>
   <concept>
     <code value="99405"/>
@@ -3502,6 +4336,10 @@
     <property>
       <code value="dateMaj"/>
       <valueDateTime value="2024-01-26T12:00:00+01:00"/>
+    </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
     </property>
   </concept>
   <concept>
@@ -3523,6 +4361,10 @@
       <code value="dateMaj"/>
       <valueDateTime value="2024-01-26T12:00:00+01:00"/>
     </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
+    </property>
   </concept>
   <concept>
     <code value="99407"/>
@@ -3543,6 +4385,10 @@
       <code value="dateMaj"/>
       <valueDateTime value="2024-01-26T12:00:00+01:00"/>
     </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
+    </property>
   </concept>
   <concept>
     <code value="99408"/>
@@ -3555,17 +4401,21 @@
       <code value="dateMaj"/>
       <valueDateTime value="2024-06-28T12:00:00+01:00"/>
     </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
+    </property>
   </concept>
   <concept>
     <code value="99409"/>
-    <display value="République du Guatemala"/>
+    <display value="République du Guatémala"/>
     <designation>
       <language value="fr-FR"/>
       <use>
         <system value="http://snomed.info/sct"/>
         <code value="900000000000013009"/>
       </use>
-      <value value="Guatemala"/>
+      <value value="Guatémala"/>
     </designation>
     <property>
       <code value="dateValid"/>
@@ -3573,7 +4423,11 @@
     </property>
     <property>
       <code value="dateMaj"/>
-      <valueDateTime value="2024-01-26T12:00:00+01:00"/>
+      <valueDateTime value="2025-03-28T12:00:00+01:00"/>
+    </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
     </property>
   </concept>
   <concept>
@@ -3595,6 +4449,10 @@
       <code value="dateMaj"/>
       <valueDateTime value="2024-01-26T12:00:00+01:00"/>
     </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
+    </property>
   </concept>
   <concept>
     <code value="99411"/>
@@ -3614,6 +4472,10 @@
     <property>
       <code value="dateMaj"/>
       <valueDateTime value="2024-01-26T12:00:00+01:00"/>
+    </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
     </property>
   </concept>
   <concept>
@@ -3635,6 +4497,10 @@
       <code value="dateMaj"/>
       <valueDateTime value="2024-01-26T12:00:00+01:00"/>
     </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
+    </property>
   </concept>
   <concept>
     <code value="99413"/>
@@ -3654,6 +4520,10 @@
     <property>
       <code value="dateMaj"/>
       <valueDateTime value="2024-01-26T12:00:00+01:00"/>
+    </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
     </property>
   </concept>
   <concept>
@@ -3675,6 +4545,10 @@
       <code value="dateMaj"/>
       <valueDateTime value="2024-06-28T12:00:00+01:00"/>
     </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
+    </property>
   </concept>
   <concept>
     <code value="99415"/>
@@ -3694,6 +4568,10 @@
     <property>
       <code value="dateMaj"/>
       <valueDateTime value="2024-01-26T12:00:00+01:00"/>
+    </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
     </property>
   </concept>
   <concept>
@@ -3715,6 +4593,10 @@
       <code value="dateMaj"/>
       <valueDateTime value="2024-01-26T12:00:00+01:00"/>
     </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
+    </property>
   </concept>
   <concept>
     <code value="99417"/>
@@ -3734,6 +4616,10 @@
     <property>
       <code value="dateMaj"/>
       <valueDateTime value="2024-01-26T12:00:00+01:00"/>
+    </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
     </property>
   </concept>
   <concept>
@@ -3755,6 +4641,10 @@
       <code value="dateMaj"/>
       <valueDateTime value="2024-01-26T12:00:00+01:00"/>
     </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
+    </property>
   </concept>
   <concept>
     <code value="99419"/>
@@ -3774,6 +4664,10 @@
     <property>
       <code value="dateMaj"/>
       <valueDateTime value="2024-01-26T12:00:00+01:00"/>
+    </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
     </property>
   </concept>
   <concept>
@@ -3795,6 +4689,10 @@
       <code value="dateMaj"/>
       <valueDateTime value="2024-06-28T12:00:00+01:00"/>
     </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
+    </property>
   </concept>
   <concept>
     <code value="99421"/>
@@ -3814,6 +4712,10 @@
     <property>
       <code value="dateMaj"/>
       <valueDateTime value="2024-01-26T12:00:00+01:00"/>
+    </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
     </property>
   </concept>
   <concept>
@@ -3835,6 +4737,10 @@
       <code value="dateMaj"/>
       <valueDateTime value="2024-01-26T12:00:00+01:00"/>
     </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
+    </property>
   </concept>
   <concept>
     <code value="99423"/>
@@ -3855,6 +4761,10 @@
       <code value="dateMaj"/>
       <valueDateTime value="2024-01-26T12:00:00+01:00"/>
     </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
+    </property>
   </concept>
   <concept>
     <code value="99424"/>
@@ -3874,6 +4784,10 @@
     <property>
       <code value="dateMaj"/>
       <valueDateTime value="2024-01-26T12:00:00+01:00"/>
+    </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
     </property>
   </concept>
   <concept>
@@ -3903,6 +4817,10 @@
       <code value="dateMaj"/>
       <valueDateTime value="2024-12-13T12:00:00+01:00"/>
     </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
+    </property>
   </concept>
   <concept>
     <code value="99426"/>
@@ -3914,6 +4832,10 @@
     <property>
       <code value="dateMaj"/>
       <valueDateTime value="2024-01-26T12:00:00+01:00"/>
+    </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
     </property>
   </concept>
   <concept>
@@ -3943,6 +4865,10 @@
       <code value="dateMaj"/>
       <valueDateTime value="2024-12-13T12:00:00+01:00"/>
     </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
+    </property>
   </concept>
   <concept>
     <code value="99428"/>
@@ -3963,6 +4889,10 @@
       <code value="dateMaj"/>
       <valueDateTime value="2024-01-26T12:00:00+01:00"/>
     </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
+    </property>
   </concept>
   <concept>
     <code value="99429"/>
@@ -3974,6 +4904,10 @@
     <property>
       <code value="dateMaj"/>
       <valueDateTime value="2024-01-26T12:00:00+01:00"/>
+    </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
     </property>
   </concept>
   <concept>
@@ -3987,6 +4921,10 @@
       <code value="dateMaj"/>
       <valueDateTime value="2024-12-13T12:00:00+01:00"/>
     </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
+    </property>
   </concept>
   <concept>
     <code value="99431"/>
@@ -3998,6 +4936,10 @@
     <property>
       <code value="dateMaj"/>
       <valueDateTime value="2024-12-13T12:00:00+01:00"/>
+    </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
     </property>
   </concept>
   <concept>
@@ -4027,6 +4969,10 @@
       <code value="dateMaj"/>
       <valueDateTime value="2024-12-13T12:00:00+01:00"/>
     </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
+    </property>
   </concept>
   <concept>
     <code value="99433"/>
@@ -4047,6 +4993,10 @@
       <code value="dateMaj"/>
       <valueDateTime value="2024-01-26T12:00:00+01:00"/>
     </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
+    </property>
   </concept>
   <concept>
     <code value="99434"/>
@@ -4059,6 +5009,10 @@
       <code value="dateMaj"/>
       <valueDateTime value="2024-01-26T12:00:00+01:00"/>
     </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
+    </property>
   </concept>
   <concept>
     <code value="99435"/>
@@ -4070,6 +5024,10 @@
     <property>
       <code value="dateMaj"/>
       <valueDateTime value="2024-01-26T12:00:00+01:00"/>
+    </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
     </property>
   </concept>
   <concept>
@@ -4091,6 +5049,10 @@
       <code value="dateMaj"/>
       <valueDateTime value="2024-01-26T12:00:00+01:00"/>
     </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
+    </property>
   </concept>
   <concept>
     <code value="99437"/>
@@ -4110,6 +5072,10 @@
     <property>
       <code value="dateMaj"/>
       <valueDateTime value="2024-01-26T12:00:00+01:00"/>
+    </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
     </property>
   </concept>
   <concept>
@@ -4131,6 +5097,10 @@
       <code value="dateMaj"/>
       <valueDateTime value="2024-01-26T12:00:00+01:00"/>
     </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
+    </property>
   </concept>
   <concept>
     <code value="99439"/>
@@ -4142,6 +5112,10 @@
     <property>
       <code value="dateMaj"/>
       <valueDateTime value="2024-01-26T12:00:00+01:00"/>
+    </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
     </property>
   </concept>
   <concept>
@@ -4163,6 +5137,10 @@
       <code value="dateMaj"/>
       <valueDateTime value="2024-06-28T12:00:00+01:00"/>
     </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
+    </property>
   </concept>
   <concept>
     <code value="99441"/>
@@ -4175,17 +5153,33 @@
       <code value="dateMaj"/>
       <valueDateTime value="2024-01-26T12:00:00+01:00"/>
     </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
+    </property>
   </concept>
   <concept>
     <code value="99442"/>
-    <display value="Saint-Christophe-et-Niévès"/>
+    <display value="Fédération de Saint-Christophe-et-Niévès"/>
+    <designation>
+      <language value="fr-FR"/>
+      <use>
+        <system value="http://snomed.info/sct"/>
+        <code value="900000000000013009"/>
+      </use>
+      <value value="Féd. St-Christophe-et-Niévès"/>
+    </designation>
     <property>
       <code value="dateValid"/>
       <valueDateTime value="2016-02-09T00:00:00+01:00"/>
     </property>
     <property>
       <code value="dateMaj"/>
-      <valueDateTime value="2024-06-28T12:00:00+01:00"/>
+      <valueDateTime value="2025-03-28T12:00:00+01:00"/>
+    </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
     </property>
   </concept>
   <concept>
@@ -4199,6 +5193,10 @@
       <code value="dateMaj"/>
       <valueDateTime value="2024-12-13T12:00:00+01:00"/>
     </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
+    </property>
   </concept>
   <concept>
     <code value="99444"/>
@@ -4210,6 +5208,10 @@
     <property>
       <code value="dateMaj"/>
       <valueDateTime value="2024-12-13T12:00:00+01:00"/>
+    </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
     </property>
   </concept>
   <concept>
@@ -4231,6 +5233,10 @@
       <code value="dateMaj"/>
       <valueDateTime value="2024-12-13T12:00:00+01:00"/>
     </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
+    </property>
   </concept>
   <concept>
     <code value="99501"/>
@@ -4251,6 +5257,10 @@
       <code value="dateMaj"/>
       <valueDateTime value="2024-06-28T12:00:00+01:00"/>
     </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
+    </property>
   </concept>
   <concept>
     <code value="99502"/>
@@ -4263,6 +5273,10 @@
       <code value="dateMaj"/>
       <valueDateTime value="2024-01-26T12:00:00+01:00"/>
     </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
+    </property>
   </concept>
   <concept>
     <code value="99503"/>
@@ -4274,6 +5288,10 @@
     <property>
       <code value="dateMaj"/>
       <valueDateTime value="2024-12-13T12:00:00+01:00"/>
+    </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
     </property>
   </concept>
   <concept>
@@ -4290,6 +5308,14 @@
     <property>
       <code value="dateMaj"/>
       <valueDateTime value="2024-06-28T12:00:00+01:00"/>
+    </property>
+    <property>
+      <code value="deprecationDate"/>
+      <valueDateTime value="2016-02-09T00:00:00+01:00"/>
+    </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="deprecated"/>
     </property>
   </concept>
   <concept>
@@ -4319,6 +5345,10 @@
       <code value="dateMaj"/>
       <valueDateTime value="2024-12-13T12:00:00+01:00"/>
     </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
+    </property>
   </concept>
   <concept>
     <code value="99506"/>
@@ -4338,6 +5368,10 @@
     <property>
       <code value="dateMaj"/>
       <valueDateTime value="2024-06-28T12:00:00+01:00"/>
+    </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
     </property>
   </concept>
   <concept>
@@ -4359,6 +5393,10 @@
       <code value="dateMaj"/>
       <valueDateTime value="2024-01-26T12:00:00+01:00"/>
     </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
+    </property>
   </concept>
   <concept>
     <code value="99508"/>
@@ -4378,6 +5416,10 @@
     <property>
       <code value="dateMaj"/>
       <valueDateTime value="2024-01-26T12:00:00+01:00"/>
+    </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
     </property>
   </concept>
   <concept>
@@ -4399,6 +5441,10 @@
       <code value="dateMaj"/>
       <valueDateTime value="2024-01-26T12:00:00+01:00"/>
     </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
+    </property>
   </concept>
   <concept>
     <code value="99510"/>
@@ -4419,6 +5465,10 @@
       <code value="dateMaj"/>
       <valueDateTime value="2024-06-28T12:00:00+01:00"/>
     </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
+    </property>
   </concept>
   <concept>
     <code value="99511"/>
@@ -4430,6 +5480,10 @@
     <property>
       <code value="dateMaj"/>
       <valueDateTime value="2024-01-26T12:00:00+01:00"/>
+    </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
     </property>
   </concept>
   <concept>
@@ -4451,6 +5505,10 @@
       <code value="dateMaj"/>
       <valueDateTime value="2024-06-28T12:00:00+01:00"/>
     </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
+    </property>
   </concept>
   <concept>
     <code value="99513"/>
@@ -4470,6 +5528,10 @@
     <property>
       <code value="dateMaj"/>
       <valueDateTime value="2024-01-26T12:00:00+01:00"/>
+    </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
     </property>
   </concept>
   <concept>
@@ -4491,6 +5553,10 @@
       <code value="dateMaj"/>
       <valueDateTime value="2024-01-26T12:00:00+01:00"/>
     </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
+    </property>
   </concept>
   <concept>
     <code value="99515"/>
@@ -4510,6 +5576,10 @@
     <property>
       <code value="dateMaj"/>
       <valueDateTime value="2024-01-26T12:00:00+01:00"/>
+    </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
     </property>
   </concept>
   <concept>
@@ -4531,6 +5601,10 @@
       <code value="dateMaj"/>
       <valueDateTime value="2024-06-28T12:00:00+01:00"/>
     </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
+    </property>
   </concept>
   <concept>
     <code value="99517"/>
@@ -4551,6 +5625,10 @@
       <code value="dateMaj"/>
       <valueDateTime value="2024-06-28T12:00:00+01:00"/>
     </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
+    </property>
   </concept>
   <concept>
     <code value="99699"/>
@@ -4562,6 +5640,10 @@
     <property>
       <code value="dateMaj"/>
       <valueDateTime value="2024-06-28T12:00:00+01:00"/>
+    </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
     </property>
   </concept>
 </CodeSystem>

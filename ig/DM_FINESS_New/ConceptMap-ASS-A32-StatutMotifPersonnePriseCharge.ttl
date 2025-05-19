@@ -19,7 +19,7 @@
   fhir:title [ fhir:v "ASS_A32_StatutMotifPersonnePriseCharge"] ; # 
   fhir:status [ fhir:v "active"] ; # 
   fhir:experimental [ fhir:v false] ; # 
-  fhir:date [ fhir:v "2025-03-25T09:33:15+00:00"^^xsd:dateTime] ; # 
+  fhir:date [ fhir:v "2025-05-19T13:21:22+00:00"^^xsd:dateTime] ; # 
   fhir:publisher [ fhir:v "ANS"] ; # 
   fhir:contact ( [
      fhir:name [ fhir:v "ANS" ] ;

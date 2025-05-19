@@ -1,0 +1,45 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "b481ae7f-6d15-4a0d-a9e0-ce3c41447770-936",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/b481ae7f-6d15-4a0d-a9e0-ce3c41447770-936",
+  "name" : "IntersectionJDV_J135_EquipementMaterielLourd_RASSAndJDV_J135_EquipementMaterielLourd_RASS",
+  "title" : "Intersection of null And null",
+  "status" : "active",
+  "date" : "2025-05-19T13:23:33+00:00",
+  "compose" : {
+    "include" : [{
+      "concept" : [{
+        "code" : "05602",
+        "display" : "Scanographe à utilisation médicale"
+      },
+      {
+        "code" : "05701",
+        "display" : "Caméra à scintillation sans détecteur d'émission de positons"
+      },
+      {
+        "code" : "05702",
+        "display" : "Caméra à scintillation avec détecteur d'émission de positons"
+      },
+      {
+        "code" : "05705",
+        "display" : "Tomographe à émissions"
+      },
+      {
+        "code" : "05706",
+        "display" : "Caméra à positons"
+      },
+      {
+        "code" : "06201",
+        "display" : "Appareil d'IRM à utilisation clinique"
+      },
+      {
+        "code" : "06301",
+        "display" : "Cyclotron à utilisation médicale"
+      },
+      {
+        "code" : "44901",
+        "display" : "Caisson hyperbare"
+      }]
+    }]
+  }
+}
