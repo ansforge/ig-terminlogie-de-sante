@@ -72,7 +72,7 @@ body:
       label: Nom
       description: Lors de la création, le nom doit contenir ni caractères accentués ni espaces ni caractères spéciaux excepté "_". <br> **Privilégiez la convention de nommage PascalCase.*
     validations:
-      required: true
+      required: false
   - type: input
     id: Description
     attributes:
