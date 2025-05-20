@@ -53,7 +53,7 @@ body:
     id: JDV
     attributes:
       label: Dans le cas de la modification du contenu du JDV, veuillez indiquer sa nouvelle règle de construction ou les lignes mises à jour.
-      description: Veuillez indiquer la nouvelle règle de construction ou joindre un fichier excel en suivant le modèle [DM_JeuDeValeurs](../../input/DM_Excel/DM_JeuDeValeurs.xlsx).
+      description: Veuillez indiquer la nouvelle règle de construction ou joindre un fichier excel en suivant le modèle [DM_JeuDeValeurs](https://github.com/ansforge/IG-terminologie-de-sante/raw/refs/heads/main/input/DM_Excel/DM_JeuDeValeurs.xlsx).
       placeholder : |
         Exemples : tous les codes actifs de la TRE_RXX, tous les codes actifs et obsolètes de la TRE_RXX...
     validations:
