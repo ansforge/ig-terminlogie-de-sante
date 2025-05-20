@@ -48,7 +48,7 @@ body:
     attributes:
       label: Dans le cas de la modification du contenu de la table d'association, veuillez indiquer les lignes mises à jour.
       description: |
-        **Veuillez indiquer les lignes mises à jour selon le format ci-dessous ou joindre un fichier excel en suivant le modèle [DM_TableAssociation](../../input/DM_Excel/DM_TableAssociation.xlsx).**
+        **Veuillez indiquer les lignes mises à jour selon le format ci-dessous ou joindre un fichier excel en suivant le modèle [DM_TableAssociation](https://github.com/ansforge/IG-terminologie-de-sante/raw/refs/heads/main/input/DM_Excel/DM_TableAssociation.xlsx).**
         
         Données attendues : 
         - Code & code system de la TRE source ; Type d'association ; code & code system de la TRE cible ;  Commentaire ; Type de modification (Ajout, Suppression)
