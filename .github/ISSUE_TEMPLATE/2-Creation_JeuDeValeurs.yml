@@ -84,7 +84,7 @@ body:
     id: JDV
     attributes:
       label: Contenu du jeu de valeurs à créer
-      description : Veuillez indiquer la règle de construction du JDV ou joindre un fichier excel en suivant le modèle [Creation_JeuDeValeurs](../../input/DM_Excel/Creation_JeuDeValeurs.xlsx).
+      description : Veuillez indiquer la règle de construction du JDV ou joindre un fichier excel en suivant le modèle [Creation_JeuDeValeurs](https://github.com/ansforge/IG-terminologie-de-sante/raw/refs/heads/main/input/DM_Excel/Creation_JeuDeValeurs.xlsx).
       placeholder : |
         Exemples : tous les codes actifs de la TRE_RXX, tous les codes actifs et obsolètes de la TRE_RXX...
     validations:
