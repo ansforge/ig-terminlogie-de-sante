@@ -104,7 +104,7 @@ body:
     attributes:
       value: |
         > [!NOTE]
-        > **Dans le cas où plusieurs nomenclatures sont à créer, modifier ou rendre obsolètes, nous vous recommandons plutôt de renseigner les informations dans un fichier excel suivant le modèle [Template_DM](../tree/main/input/DM_Excel/DM_Template.xlsx).**
+        > **Dans le cas où plusieurs nomenclatures sont à créer, modifier ou rendre obsolètes, nous vous recommandons plutôt de renseigner les informations dans un fichier excel suivant le modèle [Template_DM](../../tree/main/input/DM_Excel/DM_Template.xlsx).**
   - type: textarea
     id: JDVimpact
     attributes:
