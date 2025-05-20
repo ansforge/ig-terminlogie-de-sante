@@ -85,7 +85,7 @@ body:
     attributes:
       label: Contenu de la table d'association à créer
       description: |
-        **Veuillez lister les lignes à créer selon le format ci-dessous ou joindre un fichier excel en suivant le modèle [Creation_TableAssociation](../tree/main/input/DM_Excel/Creation_TableAssociation.xlsx).**
+        **Veuillez lister les lignes à créer selon le format ci-dessous ou joindre un fichier excel en suivant le modèle [Creation_TableAssociation](../../input/DM_Excel/Creation_TableAssociation.xlsx).**
         
         Données attendues : 
         - Contexte ; Nom/URL du JDV source ; Nom/URL du JDV cible 
