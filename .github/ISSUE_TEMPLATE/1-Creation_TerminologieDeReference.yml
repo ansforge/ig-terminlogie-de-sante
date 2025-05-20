@@ -85,7 +85,7 @@ body:
     attributes:
       label: Contenu de la terminologie de référence à créer
       description: |
-        **Veuillez lister les lignes à créer selon le format ci-dessous ou joindre un fichier excel en suivant le modèle [Creation_TerminologieDeReference](../../input/DM_Excel/Creation_TerminologieDeReference.xlsx).**
+        **Veuillez lister les lignes à créer selon le format ci-dessous ou joindre un fichier excel en suivant le modèle [Creation_TerminologieDeReference](https://github.com/ansforge/IG-terminologie-de-sante/raw/refs/heads/main/input/DM_Excel/Creation_TerminologieDeReference.xlsx).**
         
         Données attendues : 
         - Code ; Libellé ; Description métier (facultative) ; Synonyme 1 (facultatif) ; Synonyme 2 (facultatif) ; ...
