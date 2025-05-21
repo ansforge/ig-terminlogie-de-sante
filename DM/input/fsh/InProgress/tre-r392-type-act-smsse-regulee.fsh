@@ -48,6 +48,12 @@ Description: "Type activité SMSSE régulée"
 * ^property[=].uri = "http://hl7.org/fhir/concept-properties#retirementDate"
 * ^property[=].description = "Date de retrait du code"
 * ^property[=].type = #dateTime
+* ^property[+].code = #natureActivite
+* ^property[=].uri = "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r374-nature-activite-smsse-regulee"
+* ^property[=].description = "Propriété permettant de renseigner les grandes natures d'activité SMSSE exercées par les entités FINESS+"
+* ^property[+].code = #typeEML
+* ^property[=].uri = "https://mos.esante.gouv.fr/NOS/TRE_R272-EquipementMaterielLourd/FHIR/TRE-R272-EquipementMaterielLourd"
+* ^property[=].description = "Propriété permettant de renseigner le type d'équipement matériel lourd"
 * #1 "EML/05602"
 * #1 ^property[0].code = #dateValid
 * #1 ^property[=].valueDateTime = "1900-01-01T00:00:00+01:00"
@@ -55,6 +61,10 @@ Description: "Type activité SMSSE régulée"
 * #1 ^property[=].valueDateTime = "1900-01-01T00:00:00+01:00"
 * #1 ^property[+].code = #status
 * #1 ^property[=].valueCode = #active
+* #1 ^property[+].code = #natureActivite
+* #1 ^property[=].valueCode = #EML
+* #1 ^property[+].code = #typeEML
+* #1 ^property[=].valueCode = #05602
 * #2 "EML/05701"
 * #2 ^property[0].code = #dateValid
 * #2 ^property[=].valueDateTime = "1900-01-01T00:00:00+01:00"
