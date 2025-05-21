@@ -11,7 +11,7 @@
   <name value="Terminologies"/>
   <title value="Terminologies  de Santé"/>
   <status value="active"/>
-  <date value="2025-05-16T08:21:48+00:00"/>
+  <date value="2025-05-21T08:10:15+00:00"/>
   <publisher value="ANS"/>
   <contact>
     <name value="ANS"/>
@@ -23853,17 +23853,6 @@
         <valueString value="ConceptMap"/>
       </extension>
       <reference>
-        <reference value="ConceptMap/ASS-A32-StatutMotifPersonnePriseCharge"/>
-      </reference>
-      <name value="Ass A32 Statut Motif Personne Prise Charge"/>
-      <description value="Association du motif au statut de la personne prise en charge"/>
-      <exampleBoolean value="false"/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="ConceptMap"/>
-      </extension>
-      <reference>
         <reference value="ConceptMap/ASS-A11-CorresModeleCDA-XdsFormatCode-CISIS"/>
       </reference>
       <name value="ASS_A11-CorresModeleCDA-XdsFormatCode-CISIS"/>
@@ -23943,7 +23932,7 @@
       <reference>
         <reference value="ConceptMap/ASS-A22-AASA-ActiviteModaliteForme"/>
       </reference>
-      <name value="ASS_A22_ASA_ActiviteModaliteForme"/>
+      <name value="ASS_A22_AASA_ActiviteModaliteForme"/>
       <description value="Triplet activité modalité forme pour les Activités Soumises à Autorisation (ASA)"/>
       <exampleBoolean value="false"/>
     </resource>
@@ -24011,6 +24000,17 @@
       </reference>
       <name value="ASS_A30_TypeAutorisation_Profession_EPARS"/>
       <description value="Table d'association entre les types d'autorisations et les professions de santé, médico-sociales ou sociales"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ConceptMap"/>
+      </extension>
+      <reference>
+        <reference value="ConceptMap/ASS-A32-StatutMotifPersonnePriseCharge"/>
+      </reference>
+      <name value="ASS_A32_StatutMotifPersonnePriseCharge"/>
+      <description value="Association du motif au statut de la personne prise en charge"/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -24311,6 +24311,17 @@
       </reference>
       <name value="Jdv J368 Categorie Etablissement Cisis"/>
       <description value="JDV à l'image de l'ensemble des valeurs actives de la terminologie TRE_R66-CategorieEtablissement"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/jdv-j370-type-contrat-sejour-ms"/>
+      </reference>
+      <name value="Jdv J370 Type Contrat Sejour Ms"/>
+      <description value="Type de contrat conclu entre l’établissement/service et la personne/son représentant légal."/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -27312,6 +27323,17 @@
       </reference>
       <name value="Tre R390 Type Projet Personnalise"/>
       <description value="Cette nomenclature donne le type de projet personnalisé qui est un document co-construit par l'usager, son entourage familial et professionnel du médico-social."/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="CodeSystem"/>
+      </extension>
+      <reference>
+        <reference value="CodeSystem/tre-r393-type-contrat-sejour"/>
+      </reference>
+      <name value="Tre R393 Type Contrat Sejour"/>
+      <description value="Type de contrat conclu entre l’établissement/service et la personne/son représentant légal lors de son entrée en établissement"/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>

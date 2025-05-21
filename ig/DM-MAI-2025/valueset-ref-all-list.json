@@ -3618,6 +3618,19 @@
       "sources" : ["1.2.250.1.213.1.1.5.823"]
     },
     {
+      "url" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j370-type-contrat-sejour-ms",
+      "version" : "20250521120000",
+      "status" : "active",
+      "name" : "JdvJ370TypeContratSejourMs",
+      "title" : "Jdv J370 Type Contrat Sejour Ms",
+      "description" : "Type de contrat conclu entre l’établissement/service et la personne/son représentant légal.",
+      "systems" : [
+        "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r393-type-contrat-sejour"
+      ],
+      "oids" : ["1.2.250.1.213.3.4.223"],
+      "sources" : ["1.2.250.1.213.3.4.223"]
+    },
+    {
       "url" : "https://smt.esante.gouv.fr/terminologie-atc?vs",
       "version" : "20241114120000",
       "status" : "active",
@@ -3663,9 +3676,9 @@
       "systems" : ["https://smt.esante.gouv.fr/terminologie-nuva"],
       "uses" : {
       },
+      "ConceptMap-alignement-nuva-cipucd.html" : "Aligner les codes CIP de NUVA avec les codes CIP du CIP_UCD",
       "ConceptMap-alignement-nuva-bdpm.html" : "Aligner les codes CIS et CIP de NUVA avec les codes CIS et CIP du BDPM",
-      "ConceptMap-alignement-nuva-atc.html" : "Aligner les codes ATC de NUVA avec les codes ATC",
-      "ConceptMap-alignement-nuva-cipucd.html" : "Aligner les codes CIP de NUVA avec les codes CIP du CIP_UCD"
+      "ConceptMap-alignement-nuva-atc.html" : "Aligner les codes ATC de NUVA avec les codes ATC"
     },
     {
       "url" : "https://smt.esante.gouv.fr/terminologie-sms?vs",

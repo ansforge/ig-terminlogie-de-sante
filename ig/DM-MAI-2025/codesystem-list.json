@@ -2296,6 +2296,15 @@
       "oids" : ["1.2.250.1.213.3.3.258"]
     },
     {
+      "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r393-type-contrat-sejour",
+      "version" : "20250521120000",
+      "status" : "active",
+      "name" : "TreR393TypeContratSejour",
+      "title" : "Tre R393 Type Contrat Sejour",
+      "description" : "Type de contrat conclu entre l’établissement/service et la personne/son représentant légal lors de son entrée en établissement",
+      "oids" : ["1.2.250.1.213.3.3.259"]
+    },
+    {
       "url" : "https://smt.esante.gouv.fr/terminologie-SERAFINPH",
       "version" : "2023.1.0",
       "status" : "active",

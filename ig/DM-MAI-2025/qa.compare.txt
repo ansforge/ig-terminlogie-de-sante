@@ -1,12 +1,13 @@
 Terminologies : Validation Results
 =========================================
 
-err = 391, warn = 10409, info = 965
+err = 396, warn = 10410, info = 968
 $--
 Generated $--. FHIR version $-- for ans.fr.terminologies#$-- (canonical = https://interop.esante.gouv.fr/terminologies)
  Build Errors : 400 / 16 / 0
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/DM/fsh-generated/resources/CodeSystem-tre-r389-statut-bilan-projet-personnalise : 2 / 1 / 4
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/DM/fsh-generated/resources/CodeSystem-tre-r390-type-projet-personnalise : 2 / 1 / 4
+ /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/DM/fsh-generated/resources/CodeSystem-tre-r393-type-contrat-sejour : 2 / 1 / 4
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/DM/fsh-generated/resources/ConceptMap-ASS-A11-CorresModeleCDA-XdsFormatCode-CISIS : 0 / 0 / 1
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/DM/fsh-generated/resources/ConceptMap-ASS-A12-CorresMediaTypeCDANonStructure-XdsFormatCode-CISIS : 0 / 0 / 1
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/DM/fsh-generated/resources/ConceptMap-ASS-A13-TypeEvenement-FluxStandardise : 0 / 1 / 1
@@ -41,6 +42,7 @@ Generated $--. FHIR version $-- for ans.fr.terminologies#$-- (canonical = https:
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/DM/fsh-generated/resources/ValueSet-jdv-j366-statut-bilan-projet-personnalise-ms : 3 / 0 / 1
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/DM/fsh-generated/resources/ValueSet-jdv-j367-type-projet-personnalise-ms : 3 / 0 / 1
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/DM/fsh-generated/resources/ValueSet-jdv-j368-categorie-etablissement-cisis : 3 / 0 / 1
+ /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/DM/fsh-generated/resources/ValueSet-jdv-j370-type-contrat-sejour-ms : 3 / 0 / 1
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/DM/fsh-generated/resources/ValueSet-jdv-modele-document-cda : 0 / 0 / 1
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/DM/fsh-generated/resources/ValueSet-jdv-tre-r221-modele-document-cda-non-structure-all : 0 / 0 / 1
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/fsh-generated/resources/ImplementationGuide-ans.fr.terminologies : 0 / 0 / 1
@@ -1018,6 +1020,13 @@ INFORMATION: CodeSystem/tre-r390-type-projet-personnalise: CodeSystem.property[0
 INFORMATION: CodeSystem/tre-r390-type-projet-personnalise: CodeSystem.property[1]: This property has only a code ('dateMaj') and not a URI, so it has no clearly defined meaning in the terminology ecosystem
 INFORMATION: CodeSystem/tre-r390-type-projet-personnalise: CodeSystem.property[2]: This property has only a code ('dateFin') and not a URI, so it has no clearly defined meaning in the terminology ecosystem
 ERROR: /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/DM/fsh-generated/resources/CodeSystem-tre-r390-type-projet-personnalise: URL Mismatch https://interop.esante.gouv.fr/terminologies/CodeSystem/tre-r390-type-projet-personnalise vs https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r390-type-projet-personnalise
+== DM/fsh-generated/resources/CodeSystem-tre-r393-type-contrat-sejour.json ==
+ERROR: CodeSystem.where(url = 'https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r393-type-contrat-sejour'): Conformance resource /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/DM/fsh-generated/resources/CodeSystem-tre-r393-type-contrat-sejour.json - the canonical URL (https://interop.esante.gouv.fr/terminologies/CodeSystem/tre-r393-type-contrat-sejour) does not match the URL (https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r393-type-contrat-sejour)
+WARNING: CodeSystem/tre-r393-type-contrat-sejour: CodeSystem.valueSet: Canonical URL 'https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r393-type-contrat-sejour?vs' does not resolve
+INFORMATION: CodeSystem/tre-r393-type-contrat-sejour: CodeSystem.property[0]: This property has only a code ('dateValid') and not a URI, so it has no clearly defined meaning in the terminology ecosystem
+INFORMATION: CodeSystem/tre-r393-type-contrat-sejour: CodeSystem.property[1]: This property has only a code ('dateMaj') and not a URI, so it has no clearly defined meaning in the terminology ecosystem
+INFORMATION: CodeSystem/tre-r393-type-contrat-sejour: CodeSystem.property[2]: This property has only a code ('dateFin') and not a URI, so it has no clearly defined meaning in the terminology ecosystem
+ERROR: /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/DM/fsh-generated/resources/CodeSystem-tre-r393-type-contrat-sejour: URL Mismatch https://interop.esante.gouv.fr/terminologies/CodeSystem/tre-r393-type-contrat-sejour vs https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r393-type-contrat-sejour
 == DM/fsh-generated/resources/ConceptMap-ASS-A11-CorresModeleCDA-XdsFormatCode-CISIS.json ==
 == DM/fsh-generated/resources/ConceptMap-ASS-A12-CorresMediaTypeCDANonStructure-XdsFormatCode-CISIS.json ==
 == DM/fsh-generated/resources/ConceptMap-ASS-A13-TypeEvenement-FluxStandardise.json ==
@@ -1098,6 +1107,10 @@ ERROR: /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSou
 ERROR: ValueSet.where(url = 'https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j368-categorie-etablissement-cisis'): Conformance resource /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/DM/fsh-generated/resources/ValueSet-jdv-j368-categorie-etablissement-cisis.json - the canonical URL (https://interop.esante.gouv.fr/terminologies/ValueSet/jdv-j368-categorie-etablissement-cisis) does not match the URL (https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j368-categorie-etablissement-cisis)
 ERROR: ValueSet/jdv-j368-categorie-etablissement-cisis: ValueSet.compose.include[0].filter[0]: The value for a filter based on property 'status' must be a valid code from the system 'https://mos.esante.gouv.fr/NOS/TRE_R66-CategorieEtablissement/FHIR/TRE-R66-CategorieEtablissement', and 'active' is not (Unknown code 'active' in the CodeSystem 'https://mos.esante.gouv.fr/NOS/TRE_R66-CategorieEtablissement/FHIR/TRE-R66-CategorieEtablissement' version '20250425120000')
 ERROR: /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/DM/fsh-generated/resources/ValueSet-jdv-j368-categorie-etablissement-cisis: URL Mismatch https://interop.esante.gouv.fr/terminologies/ValueSet/jdv-j368-categorie-etablissement-cisis vs https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j368-categorie-etablissement-cisis
+== DM/fsh-generated/resources/ValueSet-jdv-j370-type-contrat-sejour-ms.json ==
+ERROR: ValueSet.where(url = 'https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j370-type-contrat-sejour-ms'): Conformance resource /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/DM/fsh-generated/resources/ValueSet-jdv-j370-type-contrat-sejour-ms.json - the canonical URL (https://interop.esante.gouv.fr/terminologies/ValueSet/jdv-j370-type-contrat-sejour-ms) does not match the URL (https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j370-type-contrat-sejour-ms)
+ERROR: ValueSet/jdv-j370-type-contrat-sejour-ms: ValueSet.compose.include[0].filter[0]: The value for a filter based on property 'status' must be a valid code from the system 'https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r393-type-contrat-sejour', and 'active' is not (Unknown code 'active' in the CodeSystem 'https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r393-type-contrat-sejour' version '20250521120000')
+ERROR: /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/DM/fsh-generated/resources/ValueSet-jdv-j370-type-contrat-sejour-ms: URL Mismatch https://interop.esante.gouv.fr/terminologies/ValueSet/jdv-j370-type-contrat-sejour-ms vs https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j370-type-contrat-sejour-ms
 == DM/fsh-generated/resources/ValueSet-jdv-modele-document-cda.json ==
 == DM/fsh-generated/resources/ValueSet-jdv-tre-r221-modele-document-cda-non-structure-all.json ==
 == fsh-generated/resources/ImplementationGuide-ans.fr.terminologies.json ==
