@@ -72,6 +72,10 @@ Description: "Type activité SMSSE régulée"
 * #2 ^property[=].valueDateTime = "1900-01-01T00:00:00+01:00"
 * #2 ^property[+].code = #status
 * #2 ^property[=].valueCode = #active
+* #2 ^property[+].code = #natureActivite
+* #2 ^property[=].valueCode = #EML
+* #2 ^property[+].code = #typeEML
+* #2 ^property[=].valueCode = #05701
 * #3 "EML/05702"
 * #3 ^property[0].code = #dateValid
 * #3 ^property[=].valueDateTime = "1900-01-01T00:00:00+01:00"
@@ -79,6 +83,10 @@ Description: "Type activité SMSSE régulée"
 * #3 ^property[=].valueDateTime = "1900-01-01T00:00:00+01:00"
 * #3 ^property[+].code = #status
 * #3 ^property[=].valueCode = #active
+* #3 ^property[+].code = #natureActivite
+* #3 ^property[=].valueCode = #EML
+* #3 ^property[+].code = #typeEML
+* #3 ^property[=].valueCode = #05702
 * #4 "EML/05705"
 * #4 ^property[0].code = #dateValid
 * #4 ^property[=].valueDateTime = "1900-01-01T00:00:00+01:00"
@@ -86,6 +94,10 @@ Description: "Type activité SMSSE régulée"
 * #4 ^property[=].valueDateTime = "1900-01-01T00:00:00+01:00"
 * #4 ^property[+].code = #status
 * #4 ^property[=].valueCode = #active
+* #4 ^property[+].code = #natureActivite
+* #4 ^property[=].valueCode = #EML
+* #4 ^property[+].code = #typeEML
+* #4 ^property[=].valueCode = #05705
 * #5 "EML/05706"
 * #5 ^property[0].code = #dateValid
 * #5 ^property[=].valueDateTime = "1900-01-01T00:00:00+01:00"
@@ -93,6 +105,10 @@ Description: "Type activité SMSSE régulée"
 * #5 ^property[=].valueDateTime = "1900-01-01T00:00:00+01:00"
 * #5 ^property[+].code = #status
 * #5 ^property[=].valueCode = #active
+* #5 ^property[+].code = #natureActivite
+* #5 ^property[=].valueCode = #EML
+* #5 ^property[+].code = #typeEML
+* #5 ^property[=].valueCode = #05706
 * #6 "EML/06201"
 * #6 ^property[0].code = #dateValid
 * #6 ^property[=].valueDateTime = "1900-01-01T00:00:00+01:00"
@@ -100,6 +116,10 @@ Description: "Type activité SMSSE régulée"
 * #6 ^property[=].valueDateTime = "1900-01-01T00:00:00+01:00"
 * #6 ^property[+].code = #status
 * #6 ^property[=].valueCode = #active
+* #6 ^property[+].code = #natureActivite
+* #6 ^property[=].valueCode = #EML
+* #6 ^property[+].code = #typeEML
+* #6 ^property[=].valueCode = #06201
 * #7 "EML/06301"
 * #7 ^property[0].code = #dateValid
 * #7 ^property[=].valueDateTime = "1900-01-01T00:00:00+01:00"
@@ -107,6 +127,10 @@ Description: "Type activité SMSSE régulée"
 * #7 ^property[=].valueDateTime = "1900-01-01T00:00:00+01:00"
 * #7 ^property[+].code = #status
 * #7 ^property[=].valueCode = #active
+* #7 ^property[+].code = #natureActivite
+* #7 ^property[=].valueCode = #EML
+* #7 ^property[+].code = #typeEML
+* #7 ^property[=].valueCode = #06301
 * #8 "EML/44901"
 * #8 ^property[0].code = #dateValid
 * #8 ^property[=].valueDateTime = "1900-01-01T00:00:00+01:00"
@@ -114,6 +138,10 @@ Description: "Type activité SMSSE régulée"
 * #8 ^property[=].valueDateTime = "1900-01-01T00:00:00+01:00"
 * #8 ^property[+].code = #status
 * #8 ^property[=].valueCode = #active
+* #8 ^property[+].code = #natureActivite
+* #8 ^property[=].valueCode = #EML
+* #8 ^property[+].code = #typeEML
+* #8 ^property[=].valueCode = #44901
 * #9 "ASR/01/00/44"
 * #9 ^property[0].code = #dateValid
 * #9 ^property[=].valueDateTime = "1900-01-01T00:00:00+01:00"
@@ -121,6 +149,8 @@ Description: "Type activité SMSSE régulée"
 * #9 ^property[=].valueDateTime = "1900-01-01T00:00:00+01:00"
 * #9 ^property[+].code = #status
 * #9 ^property[=].valueCode = #active
+* #9 ^property[+].code = #natureActivite
+* #9 ^property[=].valueCode = #ASR
 * #10 "ASR/01/10/40"
 * #10 ^property[0].code = #dateValid
 * #10 ^property[=].valueDateTime = "1900-01-01T00:00:00+01:00"
@@ -128,6 +158,8 @@ Description: "Type activité SMSSE régulée"
 * #10 ^property[=].valueDateTime = "1900-01-01T00:00:00+01:00"
 * #10 ^property[+].code = #status
 * #10 ^property[=].valueCode = #active
+* #10 ^property[+].code = #natureActivite
+* #10 ^property[=].valueCode = #ASR
 * #11 "ASR/01/B4/01"
 * #11 ^property[0].code = #dateValid
 * #11 ^property[=].valueDateTime = "1900-01-01T00:00:00+01:00"
@@ -135,6 +167,8 @@ Description: "Type activité SMSSE régulée"
 * #11 ^property[=].valueDateTime = "1900-01-01T00:00:00+01:00"
 * #11 ^property[+].code = #status
 * #11 ^property[=].valueCode = #active
+* #11 ^property[+].code = #natureActivite
+* #11 ^property[=].valueCode = #ASR
 * #12 "ASR/01/B4/03"
 * #12 ^property[0].code = #dateValid
 * #12 ^property[=].valueDateTime = "1900-01-01T00:00:00+01:00"
@@ -142,6 +176,8 @@ Description: "Type activité SMSSE régulée"
 * #12 ^property[=].valueDateTime = "1900-01-01T00:00:00+01:00"
 * #12 ^property[+].code = #status
 * #12 ^property[=].valueCode = #active
+* #12 ^property[+].code = #natureActivite
+* #12 ^property[=].valueCode = #ASR
 * #13 "ASR/01/B4/27"
 * #13 ^property[0].code = #dateValid
 * #13 ^property[=].valueDateTime = "1900-01-01T00:00:00+01:00"
@@ -149,6 +185,8 @@ Description: "Type activité SMSSE régulée"
 * #13 ^property[=].valueDateTime = "1900-01-01T00:00:00+01:00"
 * #13 ^property[+].code = #status
 * #13 ^property[=].valueCode = #active
+* #13 ^property[+].code = #natureActivite
+* #13 ^property[=].valueCode = #ASR
 * #14 "ASR/01/B4/28"
 * #14 ^property[0].code = #dateValid
 * #14 ^property[=].valueDateTime = "1900-01-01T00:00:00+01:00"
@@ -156,6 +194,8 @@ Description: "Type activité SMSSE régulée"
 * #14 ^property[=].valueDateTime = "1900-01-01T00:00:00+01:00"
 * #14 ^property[+].code = #status
 * #14 ^property[=].valueCode = #active
+* #14 ^property[+].code = #natureActivite
+* #14 ^property[=].valueCode = #ASR
 * #15 "ASR/01/B4/41"
 * #15 ^property[0].code = #dateValid
 * #15 ^property[=].valueDateTime = "1900-01-01T00:00:00+01:00"
@@ -163,6 +203,8 @@ Description: "Type activité SMSSE régulée"
 * #15 ^property[=].valueDateTime = "1900-01-01T00:00:00+01:00"
 * #15 ^property[+].code = #status
 * #15 ^property[=].valueCode = #active
+* #15 ^property[+].code = #natureActivite
+* #15 ^property[=].valueCode = #ASR
 * #16 "ASR/01/C6/39"
 * #16 ^property[0].code = #dateValid
 * #16 ^property[=].valueDateTime = "1900-01-01T00:00:00+01:00"
@@ -170,6 +212,8 @@ Description: "Type activité SMSSE régulée"
 * #16 ^property[=].valueDateTime = "1900-01-01T00:00:00+01:00"
 * #16 ^property[+].code = #status
 * #16 ^property[=].valueCode = #active
+* #16 ^property[+].code = #natureActivite
+* #16 ^property[=].valueCode = #ASR
 * #17 "ASR/01/P6/38"
 * #17 ^property[0].code = #dateValid
 * #17 ^property[=].valueDateTime = "1900-01-01T00:00:00+01:00"
@@ -177,6 +221,8 @@ Description: "Type activité SMSSE régulée"
 * #17 ^property[=].valueDateTime = "1900-01-01T00:00:00+01:00"
 * #17 ^property[+].code = #status
 * #17 ^property[=].valueCode = #active
+* #17 ^property[+].code = #natureActivite
+* #17 ^property[=].valueCode = #ASR
 * #18 "ASR/01/P6/39"
 * #18 ^property[0].code = #dateValid
 * #18 ^property[=].valueDateTime = "1900-01-01T00:00:00+01:00"
@@ -184,6 +230,8 @@ Description: "Type activité SMSSE régulée"
 * #18 ^property[=].valueDateTime = "1900-01-01T00:00:00+01:00"
 * #18 ^property[+].code = #status
 * #18 ^property[=].valueCode = #active
+* #18 ^property[+].code = #natureActivite
+* #18 ^property[=].valueCode = #ASR
 * #19 "ASR/01/P6/47"
 * #19 ^property[0].code = #dateValid
 * #19 ^property[=].valueDateTime = "1900-01-01T00:00:00+01:00"
@@ -191,6 +239,8 @@ Description: "Type activité SMSSE régulée"
 * #19 ^property[=].valueDateTime = "1900-01-01T00:00:00+01:00"
 * #19 ^property[+].code = #status
 * #19 ^property[=].valueCode = #active
+* #19 ^property[+].code = #natureActivite
+* #19 ^property[=].valueCode = #ASR
 * #20 "ASR/01/P6/48"
 * #20 ^property[0].code = #dateValid
 * #20 ^property[=].valueDateTime = "1900-01-01T00:00:00+01:00"
@@ -198,6 +248,8 @@ Description: "Type activité SMSSE régulée"
 * #20 ^property[=].valueDateTime = "1900-01-01T00:00:00+01:00"
 * #20 ^property[+].code = #status
 * #20 ^property[=].valueCode = #active
+* #20 ^property[+].code = #natureActivite
+* #20 ^property[=].valueCode = #ASR
 * #21 "ASR/01/P6/49"
 * #21 ^property[0].code = #dateValid
 * #21 ^property[=].valueDateTime = "1900-01-01T00:00:00+01:00"
@@ -205,6 +257,8 @@ Description: "Type activité SMSSE régulée"
 * #21 ^property[=].valueDateTime = "1900-01-01T00:00:00+01:00"
 * #21 ^property[+].code = #status
 * #21 ^property[=].valueCode = #active
+* #21 ^property[+].code = #natureActivite
+* #21 ^property[=].valueCode = #ASR
 * #22 "ASR/01/P7/40"
 * #22 ^property[0].code = #dateValid
 * #22 ^property[=].valueDateTime = "1900-01-01T00:00:00+01:00"
@@ -212,6 +266,8 @@ Description: "Type activité SMSSE régulée"
 * #22 ^property[=].valueDateTime = "1900-01-01T00:00:00+01:00"
 * #22 ^property[+].code = #status
 * #22 ^property[=].valueCode = #active
+* #22 ^property[+].code = #natureActivite
+* #22 ^property[=].valueCode = #ASR
 * #23 "ASR/02/B1/38"
 * #23 ^property[0].code = #dateValid
 * #23 ^property[=].valueDateTime = "1900-01-01T00:00:00+01:00"
@@ -219,6 +275,8 @@ Description: "Type activité SMSSE régulée"
 * #23 ^property[=].valueDateTime = "1900-01-01T00:00:00+01:00"
 * #23 ^property[+].code = #status
 * #23 ^property[=].valueCode = #active
+* #23 ^property[+].code = #natureActivite
+* #23 ^property[=].valueCode = #ASR
 * #24 "ASR/02/B1/39"
 * #24 ^property[0].code = #dateValid
 * #24 ^property[=].valueDateTime = "1900-01-01T00:00:00+01:00"
@@ -226,6 +284,8 @@ Description: "Type activité SMSSE régulée"
 * #24 ^property[=].valueDateTime = "1900-01-01T00:00:00+01:00"
 * #24 ^property[+].code = #status
 * #24 ^property[=].valueCode = #active
+* #24 ^property[+].code = #natureActivite
+* #24 ^property[=].valueCode = #ASR
 * #25 "ASR/02/B1/47"
 * #25 ^property[0].code = #dateValid
 * #25 ^property[=].valueDateTime = "1900-01-01T00:00:00+01:00"
@@ -233,6 +293,8 @@ Description: "Type activité SMSSE régulée"
 * #25 ^property[=].valueDateTime = "1900-01-01T00:00:00+01:00"
 * #25 ^property[+].code = #status
 * #25 ^property[=].valueCode = #active
+* #25 ^property[+].code = #natureActivite
+* #25 ^property[=].valueCode = #ASR
 * #26 "ASR/02/B1/48"
 * #26 ^property[0].code = #dateValid
 * #26 ^property[=].valueDateTime = "1900-01-01T00:00:00+01:00"
@@ -240,6 +302,8 @@ Description: "Type activité SMSSE régulée"
 * #26 ^property[=].valueDateTime = "1900-01-01T00:00:00+01:00"
 * #26 ^property[+].code = #status
 * #26 ^property[=].valueCode = #active
+* #26 ^property[+].code = #natureActivite
+* #26 ^property[=].valueCode = #ASR
 * #27 "ASR/02/B1/49"
 * #27 ^property[0].code = #dateValid
 * #27 ^property[=].valueDateTime = "1900-01-01T00:00:00+01:00"
@@ -247,6 +311,8 @@ Description: "Type activité SMSSE régulée"
 * #27 ^property[=].valueDateTime = "1900-01-01T00:00:00+01:00"
 * #27 ^property[+].code = #status
 * #27 ^property[=].valueCode = #active
+* #27 ^property[+].code = #natureActivite
+* #27 ^property[=].valueCode = #ASR
 * #28 "ASR/02/B2/39"
 * #28 ^property[0].code = #dateValid
 * #28 ^property[=].valueDateTime = "1900-01-01T00:00:00+01:00"
@@ -254,6 +320,8 @@ Description: "Type activité SMSSE régulée"
 * #28 ^property[=].valueDateTime = "1900-01-01T00:00:00+01:00"
 * #28 ^property[+].code = #status
 * #28 ^property[=].valueCode = #active
+* #28 ^property[+].code = #natureActivite
+* #28 ^property[=].valueCode = #ASR
 * #29 "ASR/02/D3/38"
 * #29 ^property[0].code = #dateValid
 * #29 ^property[=].valueDateTime = "1900-01-01T00:00:00+01:00"
@@ -261,6 +329,8 @@ Description: "Type activité SMSSE régulée"
 * #29 ^property[=].valueDateTime = "1900-01-01T00:00:00+01:00"
 * #29 ^property[+].code = #status
 * #29 ^property[=].valueCode = #active
+* #29 ^property[+].code = #natureActivite
+* #29 ^property[=].valueCode = #ASR
 * #30 "ASR/02/D3/39"
 * #30 ^property[0].code = #dateValid
 * #30 ^property[=].valueDateTime = "1900-01-01T00:00:00+01:00"
@@ -268,6 +338,8 @@ Description: "Type activité SMSSE régulée"
 * #30 ^property[=].valueDateTime = "1900-01-01T00:00:00+01:00"
 * #30 ^property[+].code = #status
 * #30 ^property[=].valueCode = #active
+* #30 ^property[+].code = #natureActivite
+* #30 ^property[=].valueCode = #ASR
 * #31 "ASR/02/E9/38"
 * #31 ^property[0].code = #dateValid
 * #31 ^property[=].valueDateTime = "1900-01-01T00:00:00+01:00"
@@ -275,6 +347,8 @@ Description: "Type activité SMSSE régulée"
 * #31 ^property[=].valueDateTime = "1900-01-01T00:00:00+01:00"
 * #31 ^property[+].code = #status
 * #31 ^property[=].valueCode = #active
+* #31 ^property[+].code = #natureActivite
+* #31 ^property[=].valueCode = #ASR
 * #32 "ASR/02/E9/39"
 * #32 ^property[0].code = #dateValid
 * #32 ^property[=].valueDateTime = "1900-01-01T00:00:00+01:00"
@@ -282,6 +356,8 @@ Description: "Type activité SMSSE régulée"
 * #32 ^property[=].valueDateTime = "1900-01-01T00:00:00+01:00"
 * #32 ^property[+].code = #status
 * #32 ^property[=].valueCode = #active
+* #32 ^property[+].code = #natureActivite
+* #32 ^property[=].valueCode = #ASR
 * #33 "ASR/02/H9/38"
 * #33 ^property[0].code = #dateValid
 * #33 ^property[=].valueDateTime = "1900-01-01T00:00:00+01:00"
@@ -289,6 +365,8 @@ Description: "Type activité SMSSE régulée"
 * #33 ^property[=].valueDateTime = "1900-01-01T00:00:00+01:00"
 * #33 ^property[+].code = #status
 * #33 ^property[=].valueCode = #active
+* #33 ^property[+].code = #natureActivite
+* #33 ^property[=].valueCode = #ASR
 * #34 "ASR/02/H9/39"
 * #34 ^property[0].code = #dateValid
 * #34 ^property[=].valueDateTime = "1900-01-01T00:00:00+01:00"
@@ -296,6 +374,8 @@ Description: "Type activité SMSSE régulée"
 * #34 ^property[=].valueDateTime = "1900-01-01T00:00:00+01:00"
 * #34 ^property[+].code = #status
 * #34 ^property[=].valueCode = #active
+* #34 ^property[+].code = #natureActivite
+* #34 ^property[=].valueCode = #ASR
 * #35 "ASR/02/V9/38"
 * #35 ^property[0].code = #dateValid
 * #35 ^property[=].valueDateTime = "1900-01-01T00:00:00+01:00"
@@ -303,6 +383,8 @@ Description: "Type activité SMSSE régulée"
 * #35 ^property[=].valueDateTime = "1900-01-01T00:00:00+01:00"
 * #35 ^property[+].code = #status
 * #35 ^property[=].valueCode = #active
+* #35 ^property[+].code = #natureActivite
+* #35 ^property[=].valueCode = #ASR
 * #36 "ASR/02/V9/39"
 * #36 ^property[0].code = #dateValid
 * #36 ^property[=].valueDateTime = "1900-01-01T00:00:00+01:00"
@@ -310,6 +392,8 @@ Description: "Type activité SMSSE régulée"
 * #36 ^property[=].valueDateTime = "1900-01-01T00:00:00+01:00"
 * #36 ^property[+].code = #status
 * #36 ^property[=].valueCode = #active
+* #36 ^property[+].code = #natureActivite
+* #36 ^property[=].valueCode = #ASR
 * #37 "ASR/02/V9/47"
 * #37 ^property[0].code = #dateValid
 * #37 ^property[=].valueDateTime = "1900-01-01T00:00:00+01:00"
@@ -317,6 +401,8 @@ Description: "Type activité SMSSE régulée"
 * #37 ^property[=].valueDateTime = "1900-01-01T00:00:00+01:00"
 * #37 ^property[+].code = #status
 * #37 ^property[=].valueCode = #active
+* #37 ^property[+].code = #natureActivite
+* #37 ^property[=].valueCode = #ASR
 * #38 "ASR/02/V9/48"
 * #38 ^property[0].code = #dateValid
 * #38 ^property[=].valueDateTime = "1900-01-01T00:00:00+01:00"
@@ -324,6 +410,8 @@ Description: "Type activité SMSSE régulée"
 * #38 ^property[=].valueDateTime = "1900-01-01T00:00:00+01:00"
 * #38 ^property[+].code = #status
 * #38 ^property[=].valueCode = #active
+* #38 ^property[+].code = #natureActivite
+* #38 ^property[=].valueCode = #ASR
 * #39 "ASR/02/V9/49"
 * #39 ^property[0].code = #dateValid
 * #39 ^property[=].valueDateTime = "1900-01-01T00:00:00+01:00"
@@ -331,6 +419,8 @@ Description: "Type activité SMSSE régulée"
 * #39 ^property[=].valueDateTime = "1900-01-01T00:00:00+01:00"
 * #39 ^property[+].code = #status
 * #39 ^property[=].valueCode = #active
+* #39 ^property[+].code = #natureActivite
+* #39 ^property[=].valueCode = #ASR
 * #40 "ASR/03/01/40"
 * #40 ^property[0].code = #dateValid
 * #40 ^property[=].valueDateTime = "1900-01-01T00:00:00+01:00"
@@ -338,6 +428,8 @@ Description: "Type activité SMSSE régulée"
 * #40 ^property[=].valueDateTime = "1900-01-01T00:00:00+01:00"
 * #40 ^property[+].code = #status
 * #40 ^property[=].valueCode = #active
+* #40 ^property[+].code = #natureActivite
+* #40 ^property[=].valueCode = #ASR
 * #41 "ASR/03/02/01"
 * #41 ^property[0].code = #dateValid
 * #41 ^property[=].valueDateTime = "1900-01-01T00:00:00+01:00"
@@ -345,6 +437,8 @@ Description: "Type activité SMSSE régulée"
 * #41 ^property[=].valueDateTime = "1900-01-01T00:00:00+01:00"
 * #41 ^property[+].code = #status
 * #41 ^property[=].valueCode = #active
+* #41 ^property[+].code = #natureActivite
+* #41 ^property[=].valueCode = #ASR
 * #42 "ASR/03/02/40"
 * #42 ^property[0].code = #dateValid
 * #42 ^property[=].valueDateTime = "1900-01-01T00:00:00+01:00"
@@ -352,6 +446,8 @@ Description: "Type activité SMSSE régulée"
 * #42 ^property[=].valueDateTime = "1900-01-01T00:00:00+01:00"
 * #42 ^property[+].code = #status
 * #42 ^property[=].valueCode = #active
+* #42 ^property[+].code = #natureActivite
+* #42 ^property[=].valueCode = #ASR
 * #43 "ASR/03/03/01"
 * #43 ^property[0].code = #dateValid
 * #43 ^property[=].valueDateTime = "1900-01-01T00:00:00+01:00"
@@ -359,6 +455,8 @@ Description: "Type activité SMSSE régulée"
 * #43 ^property[=].valueDateTime = "1900-01-01T00:00:00+01:00"
 * #43 ^property[+].code = #status
 * #43 ^property[=].valueCode = #active
+* #43 ^property[+].code = #natureActivite
+* #43 ^property[=].valueCode = #ASR
 * #44 "ASR/03/04/01"
 * #44 ^property[0].code = #dateValid
 * #44 ^property[=].valueDateTime = "1900-01-01T00:00:00+01:00"
@@ -366,6 +464,8 @@ Description: "Type activité SMSSE régulée"
 * #44 ^property[=].valueDateTime = "1900-01-01T00:00:00+01:00"
 * #44 ^property[+].code = #status
 * #44 ^property[=].valueCode = #active
+* #44 ^property[+].code = #natureActivite
+* #44 ^property[=].valueCode = #ASR
 * #45 "ASR/03/B8/00"
 * #45 ^property[0].code = #dateValid
 * #45 ^property[=].valueDateTime = "1900-01-01T00:00:00+01:00"
@@ -373,6 +473,8 @@ Description: "Type activité SMSSE régulée"
 * #45 ^property[=].valueDateTime = "1900-01-01T00:00:00+01:00"
 * #45 ^property[+].code = #status
 * #45 ^property[=].valueCode = #active
+* #45 ^property[+].code = #natureActivite
+* #45 ^property[=].valueCode = #ASR
 * #46 "ASR/03/C5/40"
 * #46 ^property[0].code = #dateValid
 * #46 ^property[=].valueDateTime = "1900-01-01T00:00:00+01:00"
@@ -380,6 +482,8 @@ Description: "Type activité SMSSE régulée"
 * #46 ^property[=].valueDateTime = "1900-01-01T00:00:00+01:00"
 * #46 ^property[+].code = #status
 * #46 ^property[=].valueCode = #active
+* #46 ^property[+].code = #natureActivite
+* #46 ^property[=].valueCode = #ASR
 * #47 "ASR/04/06/33"
 * #47 ^property[0].code = #dateValid
 * #47 ^property[=].valueDateTime = "1900-01-01T00:00:00+01:00"
@@ -387,6 +491,8 @@ Description: "Type activité SMSSE régulée"
 * #47 ^property[=].valueDateTime = "1900-01-01T00:00:00+01:00"
 * #47 ^property[+].code = #status
 * #47 ^property[=].valueCode = #active
+* #47 ^property[+].code = #natureActivite
+* #47 ^property[=].valueCode = #ASR
 * #48 "ASR/04/07/33"
 * #48 ^property[0].code = #dateValid
 * #48 ^property[=].valueDateTime = "1900-01-01T00:00:00+01:00"
@@ -394,6 +500,8 @@ Description: "Type activité SMSSE régulée"
 * #48 ^property[=].valueDateTime = "1900-01-01T00:00:00+01:00"
 * #48 ^property[+].code = #status
 * #48 ^property[=].valueCode = #active
+* #48 ^property[+].code = #natureActivite
+* #48 ^property[=].valueCode = #ASR
 * #49 "ASR/04/D2/00"
 * #49 ^property[0].code = #dateValid
 * #49 ^property[=].valueDateTime = "1900-01-01T00:00:00+01:00"
@@ -401,6 +509,8 @@ Description: "Type activité SMSSE régulée"
 * #49 ^property[=].valueDateTime = "1900-01-01T00:00:00+01:00"
 * #49 ^property[+].code = #status
 * #49 ^property[=].valueCode = #active
+* #49 ^property[+].code = #natureActivite
+* #49 ^property[=].valueCode = #ASR
 * #50 "ASR/07/E7/01"
 * #50 ^property[0].code = #dateValid
 * #50 ^property[=].valueDateTime = "1900-01-01T00:00:00+01:00"
@@ -408,6 +518,8 @@ Description: "Type activité SMSSE régulée"
 * #50 ^property[=].valueDateTime = "1900-01-01T00:00:00+01:00"
 * #50 ^property[+].code = #status
 * #50 ^property[=].valueCode = #active
+* #50 ^property[+].code = #natureActivite
+* #50 ^property[=].valueCode = #ASR
 * #51 "ASR/07/W5/01"
 * #51 ^property[0].code = #dateValid
 * #51 ^property[=].valueDateTime = "1900-01-01T00:00:00+01:00"
@@ -415,6 +527,8 @@ Description: "Type activité SMSSE régulée"
 * #51 ^property[=].valueDateTime = "1900-01-01T00:00:00+01:00"
 * #51 ^property[+].code = #status
 * #51 ^property[=].valueCode = #active
+* #51 ^property[+].code = #natureActivite
+* #51 ^property[=].valueCode = #ASR
 * #52 "ASR/07/W6/01"
 * #52 ^property[0].code = #dateValid
 * #52 ^property[=].valueDateTime = "1900-01-01T00:00:00+01:00"
@@ -422,6 +536,8 @@ Description: "Type activité SMSSE régulée"
 * #52 ^property[=].valueDateTime = "1900-01-01T00:00:00+01:00"
 * #52 ^property[+].code = #status
 * #52 ^property[=].valueCode = #active
+* #52 ^property[+].code = #natureActivite
+* #52 ^property[=].valueCode = #ASR
 * #53 "ASR/14/00/40"
 * #53 ^property[0].code = #dateValid
 * #53 ^property[=].valueDateTime = "1900-01-01T00:00:00+01:00"
@@ -429,6 +545,8 @@ Description: "Type activité SMSSE régulée"
 * #53 ^property[=].valueDateTime = "1900-01-01T00:00:00+01:00"
 * #53 ^property[+].code = #status
 * #53 ^property[=].valueCode = #active
+* #53 ^property[+].code = #natureActivite
+* #53 ^property[=].valueCode = #ASR
 * #54 "ASR/15/00/40"
 * #54 ^property[0].code = #dateValid
 * #54 ^property[=].valueDateTime = "1900-01-01T00:00:00+01:00"
@@ -436,6 +554,8 @@ Description: "Type activité SMSSE régulée"
 * #54 ^property[=].valueDateTime = "1900-01-01T00:00:00+01:00"
 * #54 ^property[+].code = #status
 * #54 ^property[=].valueCode = #active
+* #54 ^property[+].code = #natureActivite
+* #54 ^property[=].valueCode = #ASR
 * #55 "ASR/15/09/01"
 * #55 ^property[0].code = #dateValid
 * #55 ^property[=].valueDateTime = "1900-01-01T00:00:00+01:00"
@@ -443,6 +563,8 @@ Description: "Type activité SMSSE régulée"
 * #55 ^property[=].valueDateTime = "1900-01-01T00:00:00+01:00"
 * #55 ^property[+].code = #status
 * #55 ^property[=].valueCode = #active
+* #55 ^property[+].code = #natureActivite
+* #55 ^property[=].valueCode = #ASR
 * #56 "ASR/15/10/01"
 * #56 ^property[0].code = #dateValid
 * #56 ^property[=].valueDateTime = "1900-01-01T00:00:00+01:00"
@@ -450,6 +572,8 @@ Description: "Type activité SMSSE régulée"
 * #56 ^property[=].valueDateTime = "1900-01-01T00:00:00+01:00"
 * #56 ^property[+].code = #status
 * #56 ^property[=].valueCode = #active
+* #56 ^property[+].code = #natureActivite
+* #56 ^property[=].valueCode = #ASR
 * #57 "ASR/15/B7/01"
 * #57 ^property[0].code = #dateValid
 * #57 ^property[=].valueDateTime = "1900-01-01T00:00:00+01:00"
@@ -457,6 +581,8 @@ Description: "Type activité SMSSE régulée"
 * #57 ^property[=].valueDateTime = "1900-01-01T00:00:00+01:00"
 * #57 ^property[+].code = #status
 * #57 ^property[=].valueCode = #active
+* #57 ^property[+].code = #natureActivite
+* #57 ^property[=].valueCode = #ASR
 * #58 "ASR/15/B9/01"
 * #58 ^property[0].code = #dateValid
 * #58 ^property[=].valueDateTime = "1900-01-01T00:00:00+01:00"
@@ -464,6 +590,8 @@ Description: "Type activité SMSSE régulée"
 * #58 ^property[=].valueDateTime = "1900-01-01T00:00:00+01:00"
 * #58 ^property[+].code = #status
 * #58 ^property[=].valueCode = #active
+* #58 ^property[+].code = #natureActivite
+* #58 ^property[=].valueCode = #ASR
 * #59 "ASR/18/D6/00"
 * #59 ^property[0].code = #dateValid
 * #59 ^property[=].valueDateTime = "1900-01-01T00:00:00+01:00"
@@ -471,6 +599,8 @@ Description: "Type activité SMSSE régulée"
 * #59 ^property[=].valueDateTime = "1900-01-01T00:00:00+01:00"
 * #59 ^property[+].code = #status
 * #59 ^property[=].valueCode = #active
+* #59 ^property[+].code = #natureActivite
+* #59 ^property[=].valueCode = #ASR
 * #60 "ASR/18/D7/00"
 * #60 ^property[0].code = #dateValid
 * #60 ^property[=].valueDateTime = "1900-01-01T00:00:00+01:00"
@@ -478,6 +608,8 @@ Description: "Type activité SMSSE régulée"
 * #60 ^property[=].valueDateTime = "1900-01-01T00:00:00+01:00"
 * #60 ^property[+].code = #status
 * #60 ^property[=].valueCode = #active
+* #60 ^property[+].code = #natureActivite
+* #60 ^property[=].valueCode = #ASR
 * #61 "ASR/18/D8/00"
 * #61 ^property[0].code = #dateValid
 * #61 ^property[=].valueDateTime = "1900-01-01T00:00:00+01:00"
@@ -485,6 +617,8 @@ Description: "Type activité SMSSE régulée"
 * #61 ^property[=].valueDateTime = "1900-01-01T00:00:00+01:00"
 * #61 ^property[+].code = #status
 * #61 ^property[=].valueCode = #active
+* #61 ^property[+].code = #natureActivite
+* #61 ^property[=].valueCode = #ASR
 * #62 "ASR/18/D9/00"
 * #62 ^property[0].code = #dateValid
 * #62 ^property[=].valueDateTime = "1900-01-01T00:00:00+01:00"
@@ -492,6 +626,8 @@ Description: "Type activité SMSSE régulée"
 * #62 ^property[=].valueDateTime = "1900-01-01T00:00:00+01:00"
 * #62 ^property[+].code = #status
 * #62 ^property[=].valueCode = #active
+* #62 ^property[+].code = #natureActivite
+* #62 ^property[=].valueCode = #ASR
 * #63 "ASR/18/E1/00"
 * #63 ^property[0].code = #dateValid
 * #63 ^property[=].valueDateTime = "1900-01-01T00:00:00+01:00"
@@ -499,6 +635,8 @@ Description: "Type activité SMSSE régulée"
 * #63 ^property[=].valueDateTime = "1900-01-01T00:00:00+01:00"
 * #63 ^property[+].code = #status
 * #63 ^property[=].valueCode = #active
+* #63 ^property[+].code = #natureActivite
+* #63 ^property[=].valueCode = #ASR
 * #64 "ASR/18/E2/00"
 * #64 ^property[0].code = #dateValid
 * #64 ^property[=].valueDateTime = "1900-01-01T00:00:00+01:00"
@@ -506,6 +644,8 @@ Description: "Type activité SMSSE régulée"
 * #64 ^property[=].valueDateTime = "1900-01-01T00:00:00+01:00"
 * #64 ^property[+].code = #status
 * #64 ^property[=].valueCode = #active
+* #64 ^property[+].code = #natureActivite
+* #64 ^property[=].valueCode = #ASR
 * #65 "ASR/18/E3/00"
 * #65 ^property[0].code = #dateValid
 * #65 ^property[=].valueDateTime = "1900-01-01T00:00:00+01:00"
@@ -513,6 +653,8 @@ Description: "Type activité SMSSE régulée"
 * #65 ^property[=].valueDateTime = "1900-01-01T00:00:00+01:00"
 * #65 ^property[+].code = #status
 * #65 ^property[=].valueCode = #active
+* #65 ^property[+].code = #natureActivite
+* #65 ^property[=].valueCode = #ASR
 * #66 "ASR/18/U1/00"
 * #66 ^property[0].code = #dateValid
 * #66 ^property[=].valueDateTime = "1900-01-01T00:00:00+01:00"
@@ -520,6 +662,8 @@ Description: "Type activité SMSSE régulée"
 * #66 ^property[=].valueDateTime = "1900-01-01T00:00:00+01:00"
 * #66 ^property[+].code = #status
 * #66 ^property[=].valueCode = #active
+* #66 ^property[+].code = #natureActivite
+* #66 ^property[=].valueCode = #ASR
 * #67 "ASR/18/U2/00"
 * #67 ^property[0].code = #dateValid
 * #67 ^property[=].valueDateTime = "1900-01-01T00:00:00+01:00"
@@ -527,6 +671,8 @@ Description: "Type activité SMSSE régulée"
 * #67 ^property[=].valueDateTime = "1900-01-01T00:00:00+01:00"
 * #67 ^property[+].code = #status
 * #67 ^property[=].valueCode = #active
+* #67 ^property[+].code = #natureActivite
+* #67 ^property[=].valueCode = #ASR
 * #68 "ASR/18/U2/01"
 * #68 ^property[0].code = #dateValid
 * #68 ^property[=].valueDateTime = "1900-01-01T00:00:00+01:00"
@@ -534,6 +680,8 @@ Description: "Type activité SMSSE régulée"
 * #68 ^property[=].valueDateTime = "1900-01-01T00:00:00+01:00"
 * #68 ^property[+].code = #status
 * #68 ^property[=].valueCode = #active
+* #68 ^property[+].code = #natureActivite
+* #68 ^property[=].valueCode = #ASR
 * #69 "ASR/18/U3/00"
 * #69 ^property[0].code = #dateValid
 * #69 ^property[=].valueDateTime = "1900-01-01T00:00:00+01:00"
@@ -541,6 +689,8 @@ Description: "Type activité SMSSE régulée"
 * #69 ^property[=].valueDateTime = "1900-01-01T00:00:00+01:00"
 * #69 ^property[+].code = #status
 * #69 ^property[=].valueCode = #active
+* #69 ^property[+].code = #natureActivite
+* #69 ^property[=].valueCode = #ASR
 * #70 "ASR/18/U4/00"
 * #70 ^property[0].code = #dateValid
 * #70 ^property[=].valueDateTime = "1900-01-01T00:00:00+01:00"
@@ -548,6 +698,8 @@ Description: "Type activité SMSSE régulée"
 * #70 ^property[=].valueDateTime = "1900-01-01T00:00:00+01:00"
 * #70 ^property[+].code = #status
 * #70 ^property[=].valueCode = #active
+* #70 ^property[+].code = #natureActivite
+* #70 ^property[=].valueCode = #ASR
 * #71 "ASR/18/U5/00"
 * #71 ^property[0].code = #dateValid
 * #71 ^property[=].valueDateTime = "1900-01-01T00:00:00+01:00"
@@ -555,6 +707,8 @@ Description: "Type activité SMSSE régulée"
 * #71 ^property[=].valueDateTime = "1900-01-01T00:00:00+01:00"
 * #71 ^property[+].code = #status
 * #71 ^property[=].valueCode = #active
+* #71 ^property[+].code = #natureActivite
+* #71 ^property[=].valueCode = #ASR
 * #72 "ASR/18/U6/00"
 * #72 ^property[0].code = #dateValid
 * #72 ^property[=].valueDateTime = "1900-01-01T00:00:00+01:00"
@@ -562,6 +716,8 @@ Description: "Type activité SMSSE régulée"
 * #72 ^property[=].valueDateTime = "1900-01-01T00:00:00+01:00"
 * #72 ^property[+].code = #status
 * #72 ^property[=].valueCode = #active
+* #72 ^property[+].code = #natureActivite
+* #72 ^property[=].valueCode = #ASR
 * #73 "ASR/18/U8/00"
 * #73 ^property[0].code = #dateValid
 * #73 ^property[=].valueDateTime = "1900-01-01T00:00:00+01:00"
@@ -569,6 +725,8 @@ Description: "Type activité SMSSE régulée"
 * #73 ^property[=].valueDateTime = "1900-01-01T00:00:00+01:00"
 * #73 ^property[+].code = #status
 * #73 ^property[=].valueCode = #active
+* #73 ^property[+].code = #natureActivite
+* #73 ^property[=].valueCode = #ASR
 * #74 "ASR/18/U9/00"
 * #74 ^property[0].code = #dateValid
 * #74 ^property[=].valueDateTime = "1900-01-01T00:00:00+01:00"
@@ -576,6 +734,8 @@ Description: "Type activité SMSSE régulée"
 * #74 ^property[=].valueDateTime = "1900-01-01T00:00:00+01:00"
 * #74 ^property[+].code = #status
 * #74 ^property[=].valueCode = #active
+* #74 ^property[+].code = #natureActivite
+* #74 ^property[=].valueCode = #ASR
 * #75 "ASR/18/V1/00"
 * #75 ^property[0].code = #dateValid
 * #75 ^property[=].valueDateTime = "1900-01-01T00:00:00+01:00"
@@ -583,6 +743,8 @@ Description: "Type activité SMSSE régulée"
 * #75 ^property[=].valueDateTime = "1900-01-01T00:00:00+01:00"
 * #75 ^property[+].code = #status
 * #75 ^property[=].valueCode = #active
+* #75 ^property[+].code = #natureActivite
+* #75 ^property[=].valueCode = #ASR
 * #76 "ASR/18/V2/00"
 * #76 ^property[0].code = #dateValid
 * #76 ^property[=].valueDateTime = "1900-01-01T00:00:00+01:00"
@@ -590,6 +752,8 @@ Description: "Type activité SMSSE régulée"
 * #76 ^property[=].valueDateTime = "1900-01-01T00:00:00+01:00"
 * #76 ^property[+].code = #status
 * #76 ^property[=].valueCode = #active
+* #76 ^property[+].code = #natureActivite
+* #76 ^property[=].valueCode = #ASR
 * #77 "ASR/18/V3/00"
 * #77 ^property[0].code = #dateValid
 * #77 ^property[=].valueDateTime = "1900-01-01T00:00:00+01:00"
@@ -597,6 +761,8 @@ Description: "Type activité SMSSE régulée"
 * #77 ^property[=].valueDateTime = "1900-01-01T00:00:00+01:00"
 * #77 ^property[+].code = #status
 * #77 ^property[=].valueCode = #active
+* #77 ^property[+].code = #natureActivite
+* #77 ^property[=].valueCode = #ASR
 * #78 "ASR/18/V4/00"
 * #78 ^property[0].code = #dateValid
 * #78 ^property[=].valueDateTime = "1900-01-01T00:00:00+01:00"
@@ -604,6 +770,8 @@ Description: "Type activité SMSSE régulée"
 * #78 ^property[=].valueDateTime = "1900-01-01T00:00:00+01:00"
 * #78 ^property[+].code = #status
 * #78 ^property[=].valueCode = #active
+* #78 ^property[+].code = #natureActivite
+* #78 ^property[=].valueCode = #ASR
 * #79 "ASR/18/V5/00"
 * #79 ^property[0].code = #dateValid
 * #79 ^property[=].valueDateTime = "1900-01-01T00:00:00+01:00"
@@ -611,6 +779,8 @@ Description: "Type activité SMSSE régulée"
 * #79 ^property[=].valueDateTime = "1900-01-01T00:00:00+01:00"
 * #79 ^property[+].code = #status
 * #79 ^property[=].valueCode = #active
+* #79 ^property[+].code = #natureActivite
+* #79 ^property[=].valueCode = #ASR
 * #80 "ASR/18/V6/00"
 * #80 ^property[0].code = #dateValid
 * #80 ^property[=].valueDateTime = "1900-01-01T00:00:00+01:00"
@@ -618,6 +788,8 @@ Description: "Type activité SMSSE régulée"
 * #80 ^property[=].valueDateTime = "1900-01-01T00:00:00+01:00"
 * #80 ^property[+].code = #status
 * #80 ^property[=].valueCode = #active
+* #80 ^property[+].code = #natureActivite
+* #80 ^property[=].valueCode = #ASR
 * #81 "ASR/18/V7/00"
 * #81 ^property[0].code = #dateValid
 * #81 ^property[=].valueDateTime = "1900-01-01T00:00:00+01:00"
@@ -625,6 +797,8 @@ Description: "Type activité SMSSE régulée"
 * #81 ^property[=].valueDateTime = "1900-01-01T00:00:00+01:00"
 * #81 ^property[+].code = #status
 * #81 ^property[=].valueCode = #active
+* #81 ^property[+].code = #natureActivite
+* #81 ^property[=].valueCode = #ASR
 * #82 "ASR/R1/09/34"
 * #82 ^property[0].code = #dateValid
 * #82 ^property[=].valueDateTime = "1900-01-01T00:00:00+01:00"
@@ -632,6 +806,8 @@ Description: "Type activité SMSSE régulée"
 * #82 ^property[=].valueDateTime = "1900-01-01T00:00:00+01:00"
 * #82 ^property[+].code = #status
 * #82 ^property[=].valueCode = #active
+* #82 ^property[+].code = #natureActivite
+* #82 ^property[=].valueCode = #ASR
 * #83 "ASR/R1/09/36"
 * #83 ^property[0].code = #dateValid
 * #83 ^property[=].valueDateTime = "1900-01-01T00:00:00+01:00"
@@ -639,6 +815,8 @@ Description: "Type activité SMSSE régulée"
 * #83 ^property[=].valueDateTime = "1900-01-01T00:00:00+01:00"
 * #83 ^property[+].code = #status
 * #83 ^property[=].valueCode = #active
+* #83 ^property[+].code = #natureActivite
+* #83 ^property[=].valueCode = #ASR
 * #84 "ASR/R1/10/34"
 * #84 ^property[0].code = #dateValid
 * #84 ^property[=].valueDateTime = "1900-01-01T00:00:00+01:00"
@@ -646,6 +824,8 @@ Description: "Type activité SMSSE régulée"
 * #84 ^property[=].valueDateTime = "1900-01-01T00:00:00+01:00"
 * #84 ^property[+].code = #status
 * #84 ^property[=].valueCode = #active
+* #84 ^property[+].code = #natureActivite
+* #84 ^property[=].valueCode = #ASR
 * #85 "ASR/R1/10/36"
 * #85 ^property[0].code = #dateValid
 * #85 ^property[=].valueDateTime = "1900-01-01T00:00:00+01:00"
@@ -653,6 +833,8 @@ Description: "Type activité SMSSE régulée"
 * #85 ^property[=].valueDateTime = "1900-01-01T00:00:00+01:00"
 * #85 ^property[+].code = #status
 * #85 ^property[=].valueCode = #active
+* #85 ^property[+].code = #natureActivite
+* #85 ^property[=].valueCode = #ASR
 * #86 "ASR/R1/D4/01"
 * #86 ^property[0].code = #dateValid
 * #86 ^property[=].valueDateTime = "1900-01-01T00:00:00+01:00"
@@ -660,6 +842,8 @@ Description: "Type activité SMSSE régulée"
 * #86 ^property[=].valueDateTime = "1900-01-01T00:00:00+01:00"
 * #86 ^property[+].code = #status
 * #86 ^property[=].valueCode = #active
+* #86 ^property[+].code = #natureActivite
+* #86 ^property[=].valueCode = #ASR
 * #87 "ASR/R1/D5/01"
 * #87 ^property[0].code = #dateValid
 * #87 ^property[=].valueDateTime = "1900-01-01T00:00:00+01:00"
@@ -667,6 +851,8 @@ Description: "Type activité SMSSE régulée"
 * #87 ^property[=].valueDateTime = "1900-01-01T00:00:00+01:00"
 * #87 ^property[+].code = #status
 * #87 ^property[=].valueCode = #active
+* #87 ^property[+].code = #natureActivite
+* #87 ^property[=].valueCode = #ASR
 * #88 "ASR/R1/N0/01"
 * #88 ^property[0].code = #dateValid
 * #88 ^property[=].valueDateTime = "1900-01-01T00:00:00+01:00"
@@ -674,6 +860,8 @@ Description: "Type activité SMSSE régulée"
 * #88 ^property[=].valueDateTime = "1900-01-01T00:00:00+01:00"
 * #88 ^property[+].code = #status
 * #88 ^property[=].valueCode = #active
+* #88 ^property[+].code = #natureActivite
+* #88 ^property[=].valueCode = #ASR
 * #89 "ASR/R2/00/00"
 * #89 ^property[0].code = #dateValid
 * #89 ^property[=].valueDateTime = "1900-01-01T00:00:00+01:00"
@@ -681,6 +869,8 @@ Description: "Type activité SMSSE régulée"
 * #89 ^property[=].valueDateTime = "1900-01-01T00:00:00+01:00"
 * #89 ^property[+].code = #status
 * #89 ^property[=].valueCode = #active
+* #89 ^property[+].code = #natureActivite
+* #89 ^property[=].valueCode = #ASR
 * #90 "ASR/R2/00/24"
 * #90 ^property[0].code = #dateValid
 * #90 ^property[=].valueDateTime = "1900-01-01T00:00:00+01:00"
@@ -688,6 +878,8 @@ Description: "Type activité SMSSE régulée"
 * #90 ^property[=].valueDateTime = "1900-01-01T00:00:00+01:00"
 * #90 ^property[+].code = #status
 * #90 ^property[=].valueCode = #active
+* #90 ^property[+].code = #natureActivite
+* #90 ^property[=].valueCode = #ASR
 * #91 "ASR/R2/00/25"
 * #91 ^property[0].code = #dateValid
 * #91 ^property[=].valueDateTime = "1900-01-01T00:00:00+01:00"
@@ -695,6 +887,8 @@ Description: "Type activité SMSSE régulée"
 * #91 ^property[=].valueDateTime = "1900-01-01T00:00:00+01:00"
 * #91 ^property[+].code = #status
 * #91 ^property[=].valueCode = #active
+* #91 ^property[+].code = #natureActivite
+* #91 ^property[=].valueCode = #ASR
 * #92 "ASR/R3/00/00"
 * #92 ^property[0].code = #dateValid
 * #92 ^property[=].valueDateTime = "1900-01-01T00:00:00+01:00"
@@ -702,6 +896,8 @@ Description: "Type activité SMSSE régulée"
 * #92 ^property[=].valueDateTime = "1900-01-01T00:00:00+01:00"
 * #92 ^property[+].code = #status
 * #92 ^property[=].valueCode = #active
+* #92 ^property[+].code = #natureActivite
+* #92 ^property[=].valueCode = #ASR
 * #93 "ASR/R3/B5/00"
 * #93 ^property[0].code = #dateValid
 * #93 ^property[=].valueDateTime = "1900-01-01T00:00:00+01:00"
@@ -709,6 +905,8 @@ Description: "Type activité SMSSE régulée"
 * #93 ^property[=].valueDateTime = "1900-01-01T00:00:00+01:00"
 * #93 ^property[+].code = #status
 * #93 ^property[=].valueCode = #active
+* #93 ^property[+].code = #natureActivite
+* #93 ^property[=].valueCode = #ASR
 * #94 "ASR/R3/C4/00"
 * #94 ^property[0].code = #dateValid
 * #94 ^property[=].valueDateTime = "1900-01-01T00:00:00+01:00"
@@ -716,6 +914,8 @@ Description: "Type activité SMSSE régulée"
 * #94 ^property[=].valueDateTime = "1900-01-01T00:00:00+01:00"
 * #94 ^property[+].code = #status
 * #94 ^property[=].valueCode = #active
+* #94 ^property[+].code = #natureActivite
+* #94 ^property[=].valueCode = #ASR
 * #95 "ASR/R3/C9/00"
 * #95 ^property[0].code = #dateValid
 * #95 ^property[=].valueDateTime = "1900-01-01T00:00:00+01:00"
@@ -723,6 +923,8 @@ Description: "Type activité SMSSE régulée"
 * #95 ^property[=].valueDateTime = "1900-01-01T00:00:00+01:00"
 * #95 ^property[+].code = #status
 * #95 ^property[=].valueCode = #active
+* #95 ^property[+].code = #natureActivite
+* #95 ^property[=].valueCode = #ASR
 * #96 "ASR/R3/E4/00"
 * #96 ^property[0].code = #dateValid
 * #96 ^property[=].valueDateTime = "1900-01-01T00:00:00+01:00"
@@ -730,6 +932,8 @@ Description: "Type activité SMSSE régulée"
 * #96 ^property[=].valueDateTime = "1900-01-01T00:00:00+01:00"
 * #96 ^property[+].code = #status
 * #96 ^property[=].valueCode = #active
+* #96 ^property[+].code = #natureActivite
+* #96 ^property[=].valueCode = #ASR
 * #97 "ASR/R3/P8/00"
 * #97 ^property[0].code = #dateValid
 * #97 ^property[=].valueDateTime = "1900-01-01T00:00:00+01:00"
@@ -737,6 +941,8 @@ Description: "Type activité SMSSE régulée"
 * #97 ^property[=].valueDateTime = "1900-01-01T00:00:00+01:00"
 * #97 ^property[+].code = #status
 * #97 ^property[=].valueCode = #active
+* #97 ^property[+].code = #natureActivite
+* #97 ^property[=].valueCode = #ASR
 * #98 "ASR/R3/V8/00"
 * #98 ^property[0].code = #dateValid
 * #98 ^property[=].valueDateTime = "1900-01-01T00:00:00+01:00"
@@ -744,6 +950,8 @@ Description: "Type activité SMSSE régulée"
 * #98 ^property[=].valueDateTime = "1900-01-01T00:00:00+01:00"
 * #98 ^property[+].code = #status
 * #98 ^property[=].valueCode = #active
+* #98 ^property[+].code = #natureActivite
+* #98 ^property[=].valueCode = #ASR
 * #99 "ASR/R4/E8/00"
 * #99 ^property[0].code = #dateValid
 * #99 ^property[=].valueDateTime = "1900-01-01T00:00:00+01:00"
@@ -751,6 +959,8 @@ Description: "Type activité SMSSE régulée"
 * #99 ^property[=].valueDateTime = "1900-01-01T00:00:00+01:00"
 * #99 ^property[+].code = #status
 * #99 ^property[=].valueCode = #active
+* #99 ^property[+].code = #natureActivite
+* #99 ^property[=].valueCode = #ASR
 * #100 "ASR/R4/N1/01"
 * #100 ^property[0].code = #dateValid
 * #100 ^property[=].valueDateTime = "1900-01-01T00:00:00+01:00"
@@ -758,6 +968,8 @@ Description: "Type activité SMSSE régulée"
 * #100 ^property[=].valueDateTime = "1900-01-01T00:00:00+01:00"
 * #100 ^property[+].code = #status
 * #100 ^property[=].valueCode = #active
+* #100 ^property[+].code = #natureActivite
+* #100 ^property[=].valueCode = #ASR
 * #101 "ASR/R4/N2/01"
 * #101 ^property[0].code = #dateValid
 * #101 ^property[=].valueDateTime = "1900-01-01T00:00:00+01:00"
@@ -765,6 +977,8 @@ Description: "Type activité SMSSE régulée"
 * #101 ^property[=].valueDateTime = "1900-01-01T00:00:00+01:00"
 * #101 ^property[+].code = #status
 * #101 ^property[=].valueCode = #active
+* #101 ^property[+].code = #natureActivite
+* #101 ^property[=].valueCode = #ASR
 * #102 "ASR/R4/N2/03"
 * #102 ^property[0].code = #dateValid
 * #102 ^property[=].valueDateTime = "1900-01-01T00:00:00+01:00"
@@ -772,6 +986,8 @@ Description: "Type activité SMSSE régulée"
 * #102 ^property[=].valueDateTime = "1900-01-01T00:00:00+01:00"
 * #102 ^property[+].code = #status
 * #102 ^property[=].valueCode = #active
+* #102 ^property[+].code = #natureActivite
+* #102 ^property[=].valueCode = #ASR
 * #103 "ASR/R4/N3/01"
 * #103 ^property[0].code = #dateValid
 * #103 ^property[=].valueDateTime = "1900-01-01T00:00:00+01:00"
@@ -779,6 +995,8 @@ Description: "Type activité SMSSE régulée"
 * #103 ^property[=].valueDateTime = "1900-01-01T00:00:00+01:00"
 * #103 ^property[+].code = #status
 * #103 ^property[=].valueCode = #active
+* #103 ^property[+].code = #natureActivite
+* #103 ^property[=].valueCode = #ASR
 * #104 "ASR/R4/N4/00"
 * #104 ^property[0].code = #dateValid
 * #104 ^property[=].valueDateTime = "1900-01-01T00:00:00+01:00"
@@ -786,6 +1004,8 @@ Description: "Type activité SMSSE régulée"
 * #104 ^property[=].valueDateTime = "1900-01-01T00:00:00+01:00"
 * #104 ^property[+].code = #status
 * #104 ^property[=].valueCode = #active
+* #104 ^property[+].code = #natureActivite
+* #104 ^property[=].valueCode = #ASR
 * #105 "ASR/R4/W2/01"
 * #105 ^property[0].code = #dateValid
 * #105 ^property[=].valueDateTime = "1900-01-01T00:00:00+01:00"
@@ -793,6 +1013,8 @@ Description: "Type activité SMSSE régulée"
 * #105 ^property[=].valueDateTime = "1900-01-01T00:00:00+01:00"
 * #105 ^property[+].code = #status
 * #105 ^property[=].valueCode = #active
+* #105 ^property[+].code = #natureActivite
+* #105 ^property[=].valueCode = #ASR
 * #106 "ASR/R4/W2/03"
 * #106 ^property[0].code = #dateValid
 * #106 ^property[=].valueDateTime = "1900-01-01T00:00:00+01:00"
@@ -800,6 +1022,8 @@ Description: "Type activité SMSSE régulée"
 * #106 ^property[=].valueDateTime = "1900-01-01T00:00:00+01:00"
 * #106 ^property[+].code = #status
 * #106 ^property[=].valueCode = #active
+* #106 ^property[+].code = #natureActivite
+* #106 ^property[=].valueCode = #ASR
 * #107 "ASR/R4/W3/01"
 * #107 ^property[0].code = #dateValid
 * #107 ^property[=].valueDateTime = "1900-01-01T00:00:00+01:00"
@@ -807,6 +1031,8 @@ Description: "Type activité SMSSE régulée"
 * #107 ^property[=].valueDateTime = "1900-01-01T00:00:00+01:00"
 * #107 ^property[+].code = #status
 * #107 ^property[=].valueCode = #active
+* #107 ^property[+].code = #natureActivite
+* #107 ^property[=].valueCode = #ASR
 * #108 "ASR/R4/W3/03"
 * #108 ^property[0].code = #dateValid
 * #108 ^property[=].valueDateTime = "1900-01-01T00:00:00+01:00"
@@ -814,6 +1040,8 @@ Description: "Type activité SMSSE régulée"
 * #108 ^property[=].valueDateTime = "1900-01-01T00:00:00+01:00"
 * #108 ^property[+].code = #status
 * #108 ^property[=].valueCode = #active
+* #108 ^property[+].code = #natureActivite
+* #108 ^property[=].valueCode = #ASR
 * #109 "ASR/R5/30/01"
 * #109 ^property[0].code = #dateValid
 * #109 ^property[=].valueDateTime = "1900-01-01T00:00:00+01:00"
@@ -821,6 +1049,8 @@ Description: "Type activité SMSSE régulée"
 * #109 ^property[=].valueDateTime = "1900-01-01T00:00:00+01:00"
 * #109 ^property[+].code = #status
 * #109 ^property[=].valueCode = #active
+* #109 ^property[+].code = #natureActivite
+* #109 ^property[=].valueCode = #ASR
 * #110 "ASR/R5/F1/01"
 * #110 ^property[0].code = #dateValid
 * #110 ^property[=].valueDateTime = "1900-01-01T00:00:00+01:00"
@@ -828,6 +1058,8 @@ Description: "Type activité SMSSE régulée"
 * #110 ^property[=].valueDateTime = "1900-01-01T00:00:00+01:00"
 * #110 ^property[+].code = #status
 * #110 ^property[=].valueCode = #active
+* #110 ^property[+].code = #natureActivite
+* #110 ^property[=].valueCode = #ASR
 * #111 "ASR/R5/F2/01"
 * #111 ^property[0].code = #dateValid
 * #111 ^property[=].valueDateTime = "1900-01-01T00:00:00+01:00"
@@ -835,6 +1067,8 @@ Description: "Type activité SMSSE régulée"
 * #111 ^property[=].valueDateTime = "1900-01-01T00:00:00+01:00"
 * #111 ^property[+].code = #status
 * #111 ^property[=].valueCode = #active
+* #111 ^property[+].code = #natureActivite
+* #111 ^property[=].valueCode = #ASR
 * #112 "ASR/R5/F3/01"
 * #112 ^property[0].code = #dateValid
 * #112 ^property[=].valueDateTime = "1900-01-01T00:00:00+01:00"
@@ -842,6 +1076,8 @@ Description: "Type activité SMSSE régulée"
 * #112 ^property[=].valueDateTime = "1900-01-01T00:00:00+01:00"
 * #112 ^property[+].code = #status
 * #112 ^property[=].valueCode = #active
+* #112 ^property[+].code = #natureActivite
+* #112 ^property[=].valueCode = #ASR
 * #113 "ASR/R5/F5/01"
 * #113 ^property[0].code = #dateValid
 * #113 ^property[=].valueDateTime = "1900-01-01T00:00:00+01:00"
@@ -849,6 +1085,8 @@ Description: "Type activité SMSSE régulée"
 * #113 ^property[=].valueDateTime = "1900-01-01T00:00:00+01:00"
 * #113 ^property[+].code = #status
 * #113 ^property[=].valueCode = #active
+* #113 ^property[+].code = #natureActivite
+* #113 ^property[=].valueCode = #ASR
 * #114 "ASR/R5/F6/01"
 * #114 ^property[0].code = #dateValid
 * #114 ^property[=].valueDateTime = "1900-01-01T00:00:00+01:00"
@@ -856,6 +1094,8 @@ Description: "Type activité SMSSE régulée"
 * #114 ^property[=].valueDateTime = "1900-01-01T00:00:00+01:00"
 * #114 ^property[+].code = #status
 * #114 ^property[=].valueCode = #active
+* #114 ^property[+].code = #natureActivite
+* #114 ^property[=].valueCode = #ASR
 * #115 "ASR/R5/F7/01"
 * #115 ^property[0].code = #dateValid
 * #115 ^property[=].valueDateTime = "1900-01-01T00:00:00+01:00"
@@ -863,6 +1103,8 @@ Description: "Type activité SMSSE régulée"
 * #115 ^property[=].valueDateTime = "1900-01-01T00:00:00+01:00"
 * #115 ^property[+].code = #status
 * #115 ^property[=].valueCode = #active
+* #115 ^property[+].code = #natureActivite
+* #115 ^property[=].valueCode = #ASR
 * #116 "ASR/R5/F8/01"
 * #116 ^property[0].code = #dateValid
 * #116 ^property[=].valueDateTime = "1900-01-01T00:00:00+01:00"
@@ -870,6 +1112,8 @@ Description: "Type activité SMSSE régulée"
 * #116 ^property[=].valueDateTime = "1900-01-01T00:00:00+01:00"
 * #116 ^property[+].code = #status
 * #116 ^property[=].valueCode = #active
+* #116 ^property[+].code = #natureActivite
+* #116 ^property[=].valueCode = #ASR
 * #117 "ASR/R5/G1/01"
 * #117 ^property[0].code = #dateValid
 * #117 ^property[=].valueDateTime = "1900-01-01T00:00:00+01:00"
@@ -877,6 +1121,8 @@ Description: "Type activité SMSSE régulée"
 * #117 ^property[=].valueDateTime = "1900-01-01T00:00:00+01:00"
 * #117 ^property[+].code = #status
 * #117 ^property[=].valueCode = #active
+* #117 ^property[+].code = #natureActivite
+* #117 ^property[=].valueCode = #ASR
 * #118 "ASR/R5/G3/01"
 * #118 ^property[0].code = #dateValid
 * #118 ^property[=].valueDateTime = "1900-01-01T00:00:00+01:00"
@@ -884,6 +1130,8 @@ Description: "Type activité SMSSE régulée"
 * #118 ^property[=].valueDateTime = "1900-01-01T00:00:00+01:00"
 * #118 ^property[+].code = #status
 * #118 ^property[=].valueCode = #active
+* #118 ^property[+].code = #natureActivite
+* #118 ^property[=].valueCode = #ASR
 * #119 "ASR/R5/G5/01"
 * #119 ^property[0].code = #dateValid
 * #119 ^property[=].valueDateTime = "1900-01-01T00:00:00+01:00"
@@ -891,6 +1139,8 @@ Description: "Type activité SMSSE régulée"
 * #119 ^property[=].valueDateTime = "1900-01-01T00:00:00+01:00"
 * #119 ^property[+].code = #status
 * #119 ^property[=].valueCode = #active
+* #119 ^property[+].code = #natureActivite
+* #119 ^property[=].valueCode = #ASR
 * #120 "ASR/R5/G6/01"
 * #120 ^property[0].code = #dateValid
 * #120 ^property[=].valueDateTime = "1900-01-01T00:00:00+01:00"
@@ -898,6 +1148,8 @@ Description: "Type activité SMSSE régulée"
 * #120 ^property[=].valueDateTime = "1900-01-01T00:00:00+01:00"
 * #120 ^property[+].code = #status
 * #120 ^property[=].valueCode = #active
+* #120 ^property[+].code = #natureActivite
+* #120 ^property[=].valueCode = #ASR
 * #121 "ASR/R5/G9/01"
 * #121 ^property[0].code = #dateValid
 * #121 ^property[=].valueDateTime = "1900-01-01T00:00:00+01:00"
@@ -905,6 +1157,8 @@ Description: "Type activité SMSSE régulée"
 * #121 ^property[=].valueDateTime = "1900-01-01T00:00:00+01:00"
 * #121 ^property[+].code = #status
 * #121 ^property[=].valueCode = #active
+* #121 ^property[+].code = #natureActivite
+* #121 ^property[=].valueCode = #ASR
 * #122 "ASR/R5/H1/01"
 * #122 ^property[0].code = #dateValid
 * #122 ^property[=].valueDateTime = "1900-01-01T00:00:00+01:00"
@@ -912,6 +1166,8 @@ Description: "Type activité SMSSE régulée"
 * #122 ^property[=].valueDateTime = "1900-01-01T00:00:00+01:00"
 * #122 ^property[+].code = #status
 * #122 ^property[=].valueCode = #active
+* #122 ^property[+].code = #natureActivite
+* #122 ^property[=].valueCode = #ASR
 * #123 "ASR/R5/H4/01"
 * #123 ^property[0].code = #dateValid
 * #123 ^property[=].valueDateTime = "1900-01-01T00:00:00+01:00"
@@ -919,6 +1175,8 @@ Description: "Type activité SMSSE régulée"
 * #123 ^property[=].valueDateTime = "1900-01-01T00:00:00+01:00"
 * #123 ^property[+].code = #status
 * #123 ^property[=].valueCode = #active
+* #123 ^property[+].code = #natureActivite
+* #123 ^property[=].valueCode = #ASR
 * #124 "ASR/R5/H5/01"
 * #124 ^property[0].code = #dateValid
 * #124 ^property[=].valueDateTime = "1900-01-01T00:00:00+01:00"
@@ -926,6 +1184,8 @@ Description: "Type activité SMSSE régulée"
 * #124 ^property[=].valueDateTime = "1900-01-01T00:00:00+01:00"
 * #124 ^property[+].code = #status
 * #124 ^property[=].valueCode = #active
+* #124 ^property[+].code = #natureActivite
+* #124 ^property[=].valueCode = #ASR
 * #125 "ASR/R5/N5/01"
 * #125 ^property[0].code = #dateValid
 * #125 ^property[=].valueDateTime = "1900-01-01T00:00:00+01:00"
@@ -933,6 +1193,8 @@ Description: "Type activité SMSSE régulée"
 * #125 ^property[=].valueDateTime = "1900-01-01T00:00:00+01:00"
 * #125 ^property[+].code = #status
 * #125 ^property[=].valueCode = #active
+* #125 ^property[+].code = #natureActivite
+* #125 ^property[=].valueCode = #ASR
 * #126 "ASR/R5/N6/01"
 * #126 ^property[0].code = #dateValid
 * #126 ^property[=].valueDateTime = "1900-01-01T00:00:00+01:00"
@@ -940,6 +1202,8 @@ Description: "Type activité SMSSE régulée"
 * #126 ^property[=].valueDateTime = "1900-01-01T00:00:00+01:00"
 * #126 ^property[+].code = #status
 * #126 ^property[=].valueCode = #active
+* #126 ^property[+].code = #natureActivite
+* #126 ^property[=].valueCode = #ASR
 * #127 "ASR/R6/09/01"
 * #127 ^property[0].code = #dateValid
 * #127 ^property[=].valueDateTime = "1900-01-01T00:00:00+01:00"
@@ -947,6 +1211,8 @@ Description: "Type activité SMSSE régulée"
 * #127 ^property[=].valueDateTime = "1900-01-01T00:00:00+01:00"
 * #127 ^property[+].code = #status
 * #127 ^property[=].valueCode = #active
+* #127 ^property[+].code = #natureActivite
+* #127 ^property[=].valueCode = #ASR
 * #128 "ASR/R6/09/03"
 * #128 ^property[0].code = #dateValid
 * #128 ^property[=].valueDateTime = "1900-01-01T00:00:00+01:00"
@@ -954,6 +1220,8 @@ Description: "Type activité SMSSE régulée"
 * #128 ^property[=].valueDateTime = "1900-01-01T00:00:00+01:00"
 * #128 ^property[+].code = #status
 * #128 ^property[=].valueCode = #active
+* #128 ^property[+].code = #natureActivite
+* #128 ^property[=].valueCode = #ASR
 * #129 "ASR/R6/10/01"
 * #129 ^property[0].code = #dateValid
 * #129 ^property[=].valueDateTime = "1900-01-01T00:00:00+01:00"
@@ -961,6 +1229,8 @@ Description: "Type activité SMSSE régulée"
 * #129 ^property[=].valueDateTime = "1900-01-01T00:00:00+01:00"
 * #129 ^property[+].code = #status
 * #129 ^property[=].valueCode = #active
+* #129 ^property[+].code = #natureActivite
+* #129 ^property[=].valueCode = #ASR
 * #130 "ASR/R6/G8/01"
 * #130 ^property[0].code = #dateValid
 * #130 ^property[=].valueDateTime = "1900-01-01T00:00:00+01:00"
@@ -968,6 +1238,8 @@ Description: "Type activité SMSSE régulée"
 * #130 ^property[=].valueDateTime = "1900-01-01T00:00:00+01:00"
 * #130 ^property[+].code = #status
 * #130 ^property[=].valueCode = #active
+* #130 ^property[+].code = #natureActivite
+* #130 ^property[=].valueCode = #ASR
 * #131 "ASR/R6/W4/01"
 * #131 ^property[0].code = #dateValid
 * #131 ^property[=].valueDateTime = "1900-01-01T00:00:00+01:00"
@@ -975,6 +1247,8 @@ Description: "Type activité SMSSE régulée"
 * #131 ^property[=].valueDateTime = "1900-01-01T00:00:00+01:00"
 * #131 ^property[+].code = #status
 * #131 ^property[=].valueCode = #active
+* #131 ^property[+].code = #natureActivite
+* #131 ^property[=].valueCode = #ASR
 * #132 "ASR/R7/09/01"
 * #132 ^property[0].code = #dateValid
 * #132 ^property[=].valueDateTime = "1900-01-01T00:00:00+01:00"
@@ -982,6 +1256,8 @@ Description: "Type activité SMSSE régulée"
 * #132 ^property[=].valueDateTime = "1900-01-01T00:00:00+01:00"
 * #132 ^property[+].code = #status
 * #132 ^property[=].valueCode = #active
+* #132 ^property[+].code = #natureActivite
+* #132 ^property[=].valueCode = #ASR
 * #133 "ASR/R7/10/01"
 * #133 ^property[0].code = #dateValid
 * #133 ^property[=].valueDateTime = "1900-01-01T00:00:00+01:00"
@@ -989,6 +1265,8 @@ Description: "Type activité SMSSE régulée"
 * #133 ^property[=].valueDateTime = "1900-01-01T00:00:00+01:00"
 * #133 ^property[+].code = #status
 * #133 ^property[=].valueCode = #active
+* #133 ^property[+].code = #natureActivite
+* #133 ^property[=].valueCode = #ASR
 * #134 "ASR/R7/N7/01"
 * #134 ^property[0].code = #dateValid
 * #134 ^property[=].valueDateTime = "1900-01-01T00:00:00+01:00"
@@ -996,6 +1274,8 @@ Description: "Type activité SMSSE régulée"
 * #134 ^property[=].valueDateTime = "1900-01-01T00:00:00+01:00"
 * #134 ^property[+].code = #status
 * #134 ^property[=].valueCode = #active
+* #134 ^property[+].code = #natureActivite
+* #134 ^property[=].valueCode = #ASR
 * #135 "ASR/R7/N8/01"
 * #135 ^property[0].code = #dateValid
 * #135 ^property[=].valueDateTime = "1900-01-01T00:00:00+01:00"
@@ -1003,6 +1283,8 @@ Description: "Type activité SMSSE régulée"
 * #135 ^property[=].valueDateTime = "1900-01-01T00:00:00+01:00"
 * #135 ^property[+].code = #status
 * #135 ^property[=].valueCode = #active
+* #135 ^property[+].code = #natureActivite
+* #135 ^property[=].valueCode = #ASR
 * #136 "ASR/R7/N9/01"
 * #136 ^property[0].code = #dateValid
 * #136 ^property[=].valueDateTime = "1900-01-01T00:00:00+01:00"
@@ -1010,6 +1292,8 @@ Description: "Type activité SMSSE régulée"
 * #136 ^property[=].valueDateTime = "1900-01-01T00:00:00+01:00"
 * #136 ^property[+].code = #status
 * #136 ^property[=].valueCode = #active
+* #136 ^property[+].code = #natureActivite
+* #136 ^property[=].valueCode = #ASR
 * #137 "ASR/R7/P0/01"
 * #137 ^property[0].code = #dateValid
 * #137 ^property[=].valueDateTime = "1900-01-01T00:00:00+01:00"
@@ -1017,6 +1301,8 @@ Description: "Type activité SMSSE régulée"
 * #137 ^property[=].valueDateTime = "1900-01-01T00:00:00+01:00"
 * #137 ^property[+].code = #status
 * #137 ^property[=].valueCode = #active
+* #137 ^property[+].code = #natureActivite
+* #137 ^property[=].valueCode = #ASR
 * #138 "ASR/R7/P1/01"
 * #138 ^property[0].code = #dateValid
 * #138 ^property[=].valueDateTime = "1900-01-01T00:00:00+01:00"
@@ -1024,6 +1310,8 @@ Description: "Type activité SMSSE régulée"
 * #138 ^property[=].valueDateTime = "1900-01-01T00:00:00+01:00"
 * #138 ^property[+].code = #status
 * #138 ^property[=].valueCode = #active
+* #138 ^property[+].code = #natureActivite
+* #138 ^property[=].valueCode = #ASR
 * #139 "ASR/R7/P3/01"
 * #139 ^property[0].code = #dateValid
 * #139 ^property[=].valueDateTime = "1900-01-01T00:00:00+01:00"
@@ -1031,6 +1319,8 @@ Description: "Type activité SMSSE régulée"
 * #139 ^property[=].valueDateTime = "1900-01-01T00:00:00+01:00"
 * #139 ^property[+].code = #status
 * #139 ^property[=].valueCode = #active
+* #139 ^property[+].code = #natureActivite
+* #139 ^property[=].valueCode = #ASR
 * #140 "ASR/R8/P9/00"
 * #140 ^property[0].code = #dateValid
 * #140 ^property[=].valueDateTime = "1900-01-01T00:00:00+01:00"
@@ -1038,6 +1328,8 @@ Description: "Type activité SMSSE régulée"
 * #140 ^property[=].valueDateTime = "1900-01-01T00:00:00+01:00"
 * #140 ^property[+].code = #status
 * #140 ^property[=].valueCode = #active
+* #140 ^property[+].code = #natureActivite
+* #140 ^property[=].valueCode = #ASR
 * #141 "ASR/R9/09/01"
 * #141 ^property[0].code = #dateValid
 * #141 ^property[=].valueDateTime = "1900-01-01T00:00:00+01:00"
@@ -1045,6 +1337,8 @@ Description: "Type activité SMSSE régulée"
 * #141 ^property[=].valueDateTime = "1900-01-01T00:00:00+01:00"
 * #141 ^property[+].code = #status
 * #141 ^property[=].valueCode = #active
+* #141 ^property[+].code = #natureActivite
+* #141 ^property[=].valueCode = #ASR
 * #142 "ASR/R9/09/02"
 * #142 ^property[0].code = #dateValid
 * #142 ^property[=].valueDateTime = "1900-01-01T00:00:00+01:00"
@@ -1052,6 +1346,8 @@ Description: "Type activité SMSSE régulée"
 * #142 ^property[=].valueDateTime = "1900-01-01T00:00:00+01:00"
 * #142 ^property[+].code = #status
 * #142 ^property[=].valueCode = #active
+* #142 ^property[+].code = #natureActivite
+* #142 ^property[=].valueCode = #ASR
 * #143 "ASR/R9/09/37"
 * #143 ^property[0].code = #dateValid
 * #143 ^property[=].valueDateTime = "1900-01-01T00:00:00+01:00"
@@ -1059,6 +1355,8 @@ Description: "Type activité SMSSE régulée"
 * #143 ^property[=].valueDateTime = "1900-01-01T00:00:00+01:00"
 * #143 ^property[+].code = #status
 * #143 ^property[=].valueCode = #active
+* #143 ^property[+].code = #natureActivite
+* #143 ^property[=].valueCode = #ASR
 * #144 "ASR/R9/10/01"
 * #144 ^property[0].code = #dateValid
 * #144 ^property[=].valueDateTime = "1900-01-01T00:00:00+01:00"
@@ -1066,6 +1364,8 @@ Description: "Type activité SMSSE régulée"
 * #144 ^property[=].valueDateTime = "1900-01-01T00:00:00+01:00"
 * #144 ^property[+].code = #status
 * #144 ^property[=].valueCode = #active
+* #144 ^property[+].code = #natureActivite
+* #144 ^property[=].valueCode = #ASR
 * #145 "ASR/R9/10/02"
 * #145 ^property[0].code = #dateValid
 * #145 ^property[=].valueDateTime = "1900-01-01T00:00:00+01:00"
@@ -1073,6 +1373,8 @@ Description: "Type activité SMSSE régulée"
 * #145 ^property[=].valueDateTime = "1900-01-01T00:00:00+01:00"
 * #145 ^property[+].code = #status
 * #145 ^property[=].valueCode = #active
+* #145 ^property[+].code = #natureActivite
+* #145 ^property[=].valueCode = #ASR
 * #146 "ASR/R9/10/37"
 * #146 ^property[0].code = #dateValid
 * #146 ^property[=].valueDateTime = "1900-01-01T00:00:00+01:00"
@@ -1080,6 +1382,8 @@ Description: "Type activité SMSSE régulée"
 * #146 ^property[=].valueDateTime = "1900-01-01T00:00:00+01:00"
 * #146 ^property[+].code = #status
 * #146 ^property[=].valueCode = #active
+* #146 ^property[+].code = #natureActivite
+* #146 ^property[=].valueCode = #ASR
 * #147 "ASR/S1/09/30"
 * #147 ^property[0].code = #dateValid
 * #147 ^property[=].valueDateTime = "1900-01-01T00:00:00+01:00"
@@ -1087,6 +1391,8 @@ Description: "Type activité SMSSE régulée"
 * #147 ^property[=].valueDateTime = "1900-01-01T00:00:00+01:00"
 * #147 ^property[+].code = #status
 * #147 ^property[=].valueCode = #active
+* #147 ^property[+].code = #natureActivite
+* #147 ^property[=].valueCode = #ASR
 * #148 "ASR/S1/09/34"
 * #148 ^property[0].code = #dateValid
 * #148 ^property[=].valueDateTime = "1900-01-01T00:00:00+01:00"
@@ -1094,6 +1400,8 @@ Description: "Type activité SMSSE régulée"
 * #148 ^property[=].valueDateTime = "1900-01-01T00:00:00+01:00"
 * #148 ^property[+].code = #status
 * #148 ^property[=].valueCode = #active
+* #148 ^property[+].code = #natureActivite
+* #148 ^property[=].valueCode = #ASR
 * #149 "ASR/S1/10/30"
 * #149 ^property[0].code = #dateValid
 * #149 ^property[=].valueDateTime = "1900-01-01T00:00:00+01:00"
@@ -1101,6 +1409,8 @@ Description: "Type activité SMSSE régulée"
 * #149 ^property[=].valueDateTime = "1900-01-01T00:00:00+01:00"
 * #149 ^property[+].code = #status
 * #149 ^property[=].valueCode = #active
+* #149 ^property[+].code = #natureActivite
+* #149 ^property[=].valueCode = #ASR
 * #150 "ASR/S1/10/34"
 * #150 ^property[0].code = #dateValid
 * #150 ^property[=].valueDateTime = "1900-01-01T00:00:00+01:00"
@@ -1108,6 +1418,8 @@ Description: "Type activité SMSSE régulée"
 * #150 ^property[=].valueDateTime = "1900-01-01T00:00:00+01:00"
 * #150 ^property[+].code = #status
 * #150 ^property[=].valueCode = #active
+* #150 ^property[+].code = #natureActivite
+* #150 ^property[=].valueCode = #ASR
 * #151 "ASR/S2/09/32"
 * #151 ^property[0].code = #dateValid
 * #151 ^property[=].valueDateTime = "1900-01-01T00:00:00+01:00"
@@ -1115,6 +1427,8 @@ Description: "Type activité SMSSE régulée"
 * #151 ^property[=].valueDateTime = "1900-01-01T00:00:00+01:00"
 * #151 ^property[+].code = #status
 * #151 ^property[=].valueCode = #active
+* #151 ^property[+].code = #natureActivite
+* #151 ^property[=].valueCode = #ASR
 * #152 "ASR/S2/10/32"
 * #152 ^property[0].code = #dateValid
 * #152 ^property[=].valueDateTime = "1900-01-01T00:00:00+01:00"
@@ -1122,6 +1436,8 @@ Description: "Type activité SMSSE régulée"
 * #152 ^property[=].valueDateTime = "1900-01-01T00:00:00+01:00"
 * #152 ^property[+].code = #status
 * #152 ^property[=].valueCode = #active
+* #152 ^property[+].code = #natureActivite
+* #152 ^property[=].valueCode = #ASR
 * #153 "ASR/S3/00/31"
 * #153 ^property[0].code = #dateValid
 * #153 ^property[=].valueDateTime = "1900-01-01T00:00:00+01:00"
@@ -1129,6 +1445,8 @@ Description: "Type activité SMSSE régulée"
 * #153 ^property[=].valueDateTime = "1900-01-01T00:00:00+01:00"
 * #153 ^property[+].code = #status
 * #153 ^property[=].valueCode = #active
+* #153 ^property[+].code = #natureActivite
+* #153 ^property[=].valueCode = #ASR
 * #154 "ASR/S3/00/35"
 * #154 ^property[0].code = #dateValid
 * #154 ^property[=].valueDateTime = "1900-01-01T00:00:00+01:00"
@@ -1136,6 +1454,8 @@ Description: "Type activité SMSSE régulée"
 * #154 ^property[=].valueDateTime = "1900-01-01T00:00:00+01:00"
 * #154 ^property[+].code = #status
 * #154 ^property[=].valueCode = #active
+* #154 ^property[+].code = #natureActivite
+* #154 ^property[=].valueCode = #ASR
 * #155 "ASR/S3/00/42"
 * #155 ^property[0].code = #dateValid
 * #155 ^property[=].valueDateTime = "1900-01-01T00:00:00+01:00"
@@ -1143,6 +1463,8 @@ Description: "Type activité SMSSE régulée"
 * #155 ^property[=].valueDateTime = "1900-01-01T00:00:00+01:00"
 * #155 ^property[+].code = #status
 * #155 ^property[=].valueCode = #active
+* #155 ^property[+].code = #natureActivite
+* #155 ^property[=].valueCode = #ASR
 * #156 "ASR/S3/W1/01"
 * #156 ^property[0].code = #dateValid
 * #156 ^property[=].valueDateTime = "1900-01-01T00:00:00+01:00"
@@ -1150,6 +1472,8 @@ Description: "Type activité SMSSE régulée"
 * #156 ^property[=].valueDateTime = "1900-01-01T00:00:00+01:00"
 * #156 ^property[+].code = #status
 * #156 ^property[=].valueCode = #active
+* #156 ^property[+].code = #natureActivite
+* #156 ^property[=].valueCode = #ASR
 * #157 "ASR/S4/10/01"
 * #157 ^property[0].code = #dateValid
 * #157 ^property[=].valueDateTime = "1900-01-01T00:00:00+01:00"
@@ -1157,6 +1481,8 @@ Description: "Type activité SMSSE régulée"
 * #157 ^property[=].valueDateTime = "1900-01-01T00:00:00+01:00"
 * #157 ^property[+].code = #status
 * #157 ^property[=].valueCode = #active
+* #157 ^property[+].code = #natureActivite
+* #157 ^property[=].valueCode = #ASR
 * #158 "ASR/S4/C8/01"
 * #158 ^property[0].code = #dateValid
 * #158 ^property[=].valueDateTime = "1900-01-01T00:00:00+01:00"
@@ -1164,6 +1490,8 @@ Description: "Type activité SMSSE régulée"
 * #158 ^property[=].valueDateTime = "1900-01-01T00:00:00+01:00"
 * #158 ^property[+].code = #status
 * #158 ^property[=].valueCode = #active
+* #158 ^property[+].code = #natureActivite
+* #158 ^property[=].valueCode = #ASR
 * #159 "ASR/S4/U0/01"
 * #159 ^property[0].code = #dateValid
 * #159 ^property[=].valueDateTime = "1900-01-01T00:00:00+01:00"
@@ -1171,6 +1499,8 @@ Description: "Type activité SMSSE régulée"
 * #159 ^property[=].valueDateTime = "1900-01-01T00:00:00+01:00"
 * #159 ^property[+].code = #status
 * #159 ^property[=].valueCode = #active
+* #159 ^property[+].code = #natureActivite
+* #159 ^property[=].valueCode = #ASR
 * #160 "ASR/S5/00/28"
 * #160 ^property[0].code = #dateValid
 * #160 ^property[=].valueDateTime = "1900-01-01T00:00:00+01:00"
@@ -1178,6 +1508,8 @@ Description: "Type activité SMSSE régulée"
 * #160 ^property[=].valueDateTime = "1900-01-01T00:00:00+01:00"
 * #160 ^property[+].code = #status
 * #160 ^property[=].valueCode = #active
+* #160 ^property[+].code = #natureActivite
+* #160 ^property[=].valueCode = #ASR
 * #161 "ASR/S5/09/31"
 * #161 ^property[0].code = #dateValid
 * #161 ^property[=].valueDateTime = "1900-01-01T00:00:00+01:00"
@@ -1185,6 +1517,8 @@ Description: "Type activité SMSSE régulée"
 * #161 ^property[=].valueDateTime = "1900-01-01T00:00:00+01:00"
 * #161 ^property[+].code = #status
 * #161 ^property[=].valueCode = #active
+* #161 ^property[+].code = #natureActivite
+* #161 ^property[=].valueCode = #ASR
 * #162 "ASR/S5/10/31"
 * #162 ^property[0].code = #dateValid
 * #162 ^property[=].valueDateTime = "1900-01-01T00:00:00+01:00"
@@ -1192,6 +1526,8 @@ Description: "Type activité SMSSE régulée"
 * #162 ^property[=].valueDateTime = "1900-01-01T00:00:00+01:00"
 * #162 ^property[+].code = #status
 * #162 ^property[=].valueCode = #active
+* #162 ^property[+].code = #natureActivite
+* #162 ^property[=].valueCode = #ASR
 * #163 "ASR/S5/H8/03"
 * #163 ^property[0].code = #dateValid
 * #163 ^property[=].valueDateTime = "1900-01-01T00:00:00+01:00"
@@ -1199,6 +1535,8 @@ Description: "Type activité SMSSE régulée"
 * #163 ^property[=].valueDateTime = "1900-01-01T00:00:00+01:00"
 * #163 ^property[+].code = #status
 * #163 ^property[=].valueCode = #active
+* #163 ^property[+].code = #natureActivite
+* #163 ^property[=].valueCode = #ASR
 * #164 "ASR/S6/B3/00"
 * #164 ^property[0].code = #dateValid
 * #164 ^property[=].valueDateTime = "1900-01-01T00:00:00+01:00"
@@ -1206,6 +1544,8 @@ Description: "Type activité SMSSE régulée"
 * #164 ^property[=].valueDateTime = "1900-01-01T00:00:00+01:00"
 * #164 ^property[+].code = #status
 * #164 ^property[=].valueCode = #active
+* #164 ^property[+].code = #natureActivite
+* #164 ^property[=].valueCode = #ASR
 * #165 "ASR/S7/00/31"
 * #165 ^property[0].code = #dateValid
 * #165 ^property[=].valueDateTime = "1900-01-01T00:00:00+01:00"
@@ -1213,6 +1553,8 @@ Description: "Type activité SMSSE régulée"
 * #165 ^property[=].valueDateTime = "1900-01-01T00:00:00+01:00"
 * #165 ^property[+].code = #status
 * #165 ^property[=].valueCode = #active
+* #165 ^property[+].code = #natureActivite
+* #165 ^property[=].valueCode = #ASR
 * #166 "ASR/T0/00/00"
 * #166 ^property[0].code = #dateValid
 * #166 ^property[=].valueDateTime = "1900-01-01T00:00:00+01:00"
@@ -1220,6 +1562,8 @@ Description: "Type activité SMSSE régulée"
 * #166 ^property[=].valueDateTime = "1900-01-01T00:00:00+01:00"
 * #166 ^property[+].code = #status
 * #166 ^property[=].valueCode = #active
+* #166 ^property[+].code = #natureActivite
+* #166 ^property[=].valueCode = #ASR
 * #167 "ASR/T1/E5/00"
 * #167 ^property[0].code = #dateValid
 * #167 ^property[=].valueDateTime = "1900-01-01T00:00:00+01:00"
@@ -1227,6 +1571,8 @@ Description: "Type activité SMSSE régulée"
 * #167 ^property[=].valueDateTime = "1900-01-01T00:00:00+01:00"
 * #167 ^property[+].code = #status
 * #167 ^property[=].valueCode = #active
+* #167 ^property[+].code = #natureActivite
+* #167 ^property[=].valueCode = #ASR
 * #168 "ASR/T2/09/00"
 * #168 ^property[0].code = #dateValid
 * #168 ^property[=].valueDateTime = "1900-01-01T00:00:00+01:00"
@@ -1234,6 +1580,8 @@ Description: "Type activité SMSSE régulée"
 * #168 ^property[=].valueDateTime = "1900-01-01T00:00:00+01:00"
 * #168 ^property[+].code = #status
 * #168 ^property[=].valueCode = #active
+* #168 ^property[+].code = #natureActivite
+* #168 ^property[=].valueCode = #ASR
 * #169 "ASR/T3/C2/00"
 * #169 ^property[0].code = #dateValid
 * #169 ^property[=].valueDateTime = "1900-01-01T00:00:00+01:00"
@@ -1241,6 +1589,8 @@ Description: "Type activité SMSSE régulée"
 * #169 ^property[=].valueDateTime = "1900-01-01T00:00:00+01:00"
 * #169 ^property[+].code = #status
 * #169 ^property[=].valueCode = #active
+* #169 ^property[+].code = #natureActivite
+* #169 ^property[=].valueCode = #ASR
 * #170 "ASR/T3/C7/00"
 * #170 ^property[0].code = #dateValid
 * #170 ^property[=].valueDateTime = "1900-01-01T00:00:00+01:00"
@@ -1248,6 +1598,8 @@ Description: "Type activité SMSSE régulée"
 * #170 ^property[=].valueDateTime = "1900-01-01T00:00:00+01:00"
 * #170 ^property[+].code = #status
 * #170 ^property[=].valueCode = #active
+* #170 ^property[+].code = #natureActivite
+* #170 ^property[=].valueCode = #ASR
 * #171 "ASR/T3/P5/00"
 * #171 ^property[0].code = #dateValid
 * #171 ^property[=].valueDateTime = "1900-01-01T00:00:00+01:00"
@@ -1255,6 +1607,8 @@ Description: "Type activité SMSSE régulée"
 * #171 ^property[=].valueDateTime = "1900-01-01T00:00:00+01:00"
 * #171 ^property[+].code = #status
 * #171 ^property[=].valueCode = #active
+* #171 ^property[+].code = #natureActivite
+* #171 ^property[=].valueCode = #ASR
 * #172 "ASR/T4/09/00"
 * #172 ^property[0].code = #dateValid
 * #172 ^property[=].valueDateTime = "1900-01-01T00:00:00+01:00"
@@ -1262,6 +1616,8 @@ Description: "Type activité SMSSE régulée"
 * #172 ^property[=].valueDateTime = "1900-01-01T00:00:00+01:00"
 * #172 ^property[+].code = #status
 * #172 ^property[=].valueCode = #active
+* #172 ^property[+].code = #natureActivite
+* #172 ^property[=].valueCode = #ASR
 * #173 "ASR/T5/09/00"
 * #173 ^property[0].code = #dateValid
 * #173 ^property[=].valueDateTime = "1900-01-01T00:00:00+01:00"
@@ -1269,6 +1625,8 @@ Description: "Type activité SMSSE régulée"
 * #173 ^property[=].valueDateTime = "1900-01-01T00:00:00+01:00"
 * #173 ^property[+].code = #status
 * #173 ^property[=].valueCode = #active
+* #173 ^property[+].code = #natureActivite
+* #173 ^property[=].valueCode = #ASR
 * #174 "ASR/T6/09/00"
 * #174 ^property[0].code = #dateValid
 * #174 ^property[=].valueDateTime = "1900-01-01T00:00:00+01:00"
@@ -1276,6 +1634,8 @@ Description: "Type activité SMSSE régulée"
 * #174 ^property[=].valueDateTime = "1900-01-01T00:00:00+01:00"
 * #174 ^property[+].code = #status
 * #174 ^property[=].valueCode = #active
+* #174 ^property[+].code = #natureActivite
+* #174 ^property[=].valueCode = #ASR
 * #175 "ASR/T6/10/00"
 * #175 ^property[0].code = #dateValid
 * #175 ^property[=].valueDateTime = "1900-01-01T00:00:00+01:00"
@@ -1283,6 +1643,8 @@ Description: "Type activité SMSSE régulée"
 * #175 ^property[=].valueDateTime = "1900-01-01T00:00:00+01:00"
 * #175 ^property[+].code = #status
 * #175 ^property[=].valueCode = #active
+* #175 ^property[+].code = #natureActivite
+* #175 ^property[=].valueCode = #ASR
 * #176 "ASR/T8/09/00"
 * #176 ^property[0].code = #dateValid
 * #176 ^property[=].valueDateTime = "1900-01-01T00:00:00+01:00"
@@ -1290,6 +1652,8 @@ Description: "Type activité SMSSE régulée"
 * #176 ^property[=].valueDateTime = "1900-01-01T00:00:00+01:00"
 * #176 ^property[+].code = #status
 * #176 ^property[=].valueCode = #active
+* #176 ^property[+].code = #natureActivite
+* #176 ^property[=].valueCode = #ASR
 * #177 "ASR/T8/10/00"
 * #177 ^property[0].code = #dateValid
 * #177 ^property[=].valueDateTime = "1900-01-01T00:00:00+01:00"
@@ -1297,6 +1661,8 @@ Description: "Type activité SMSSE régulée"
 * #177 ^property[=].valueDateTime = "1900-01-01T00:00:00+01:00"
 * #177 ^property[+].code = #status
 * #177 ^property[=].valueCode = #active
+* #177 ^property[+].code = #natureActivite
+* #177 ^property[=].valueCode = #ASR
 * #178 "AS/01/00/01"
 * #178 ^property[0].code = #dateValid
 * #178 ^property[=].valueDateTime = "1900-01-01T00:00:00+01:00"
@@ -1304,6 +1670,8 @@ Description: "Type activité SMSSE régulée"
 * #178 ^property[=].valueDateTime = "1900-01-01T00:00:00+01:00"
 * #178 ^property[+].code = #status
 * #178 ^property[=].valueCode = #active
+* #178 ^property[+].code = #natureActivite
+* #178 ^property[=].valueCode = #AS
 * #179 "AS/01/00/02"
 * #179 ^property[0].code = #dateValid
 * #179 ^property[=].valueDateTime = "1900-01-01T00:00:00+01:00"
@@ -1311,6 +1679,8 @@ Description: "Type activité SMSSE régulée"
 * #179 ^property[=].valueDateTime = "1900-01-01T00:00:00+01:00"
 * #179 ^property[+].code = #status
 * #179 ^property[=].valueCode = #active
+* #179 ^property[+].code = #natureActivite
+* #179 ^property[=].valueCode = #AS
 * #180 "AS/01/00/05"
 * #180 ^property[0].code = #dateValid
 * #180 ^property[=].valueDateTime = "1900-01-01T00:00:00+01:00"
@@ -1318,6 +1688,8 @@ Description: "Type activité SMSSE régulée"
 * #180 ^property[=].valueDateTime = "1900-01-01T00:00:00+01:00"
 * #180 ^property[+].code = #status
 * #180 ^property[=].valueCode = #active
+* #180 ^property[+].code = #natureActivite
+* #180 ^property[=].valueCode = #AS
 * #181 "AS/01/00/06"
 * #181 ^property[0].code = #dateValid
 * #181 ^property[=].valueDateTime = "1900-01-01T00:00:00+01:00"
@@ -1325,6 +1697,8 @@ Description: "Type activité SMSSE régulée"
 * #181 ^property[=].valueDateTime = "1900-01-01T00:00:00+01:00"
 * #181 ^property[+].code = #status
 * #181 ^property[=].valueCode = #active
+* #181 ^property[+].code = #natureActivite
+* #181 ^property[=].valueCode = #AS
 * #182 "AS/02/00/01"
 * #182 ^property[0].code = #dateValid
 * #182 ^property[=].valueDateTime = "1900-01-01T00:00:00+01:00"
@@ -1332,6 +1706,8 @@ Description: "Type activité SMSSE régulée"
 * #182 ^property[=].valueDateTime = "1900-01-01T00:00:00+01:00"
 * #182 ^property[+].code = #status
 * #182 ^property[=].valueCode = #active
+* #182 ^property[+].code = #natureActivite
+* #182 ^property[=].valueCode = #AS
 * #183 "AS/02/00/07"
 * #183 ^property[0].code = #dateValid
 * #183 ^property[=].valueDateTime = "1900-01-01T00:00:00+01:00"
@@ -1339,6 +1715,8 @@ Description: "Type activité SMSSE régulée"
 * #183 ^property[=].valueDateTime = "1900-01-01T00:00:00+01:00"
 * #183 ^property[+].code = #status
 * #183 ^property[=].valueCode = #active
+* #183 ^property[+].code = #natureActivite
+* #183 ^property[=].valueCode = #AS
 * #184 "AS/03/01/01"
 * #184 ^property[0].code = #dateValid
 * #184 ^property[=].valueDateTime = "1900-01-01T00:00:00+01:00"
@@ -1346,6 +1724,8 @@ Description: "Type activité SMSSE régulée"
 * #184 ^property[=].valueDateTime = "1900-01-01T00:00:00+01:00"
 * #184 ^property[+].code = #status
 * #184 ^property[=].valueCode = #active
+* #184 ^property[+].code = #natureActivite
+* #184 ^property[=].valueCode = #AS
 * #185 "AS/03/01/02"
 * #185 ^property[0].code = #dateValid
 * #185 ^property[=].valueDateTime = "1900-01-01T00:00:00+01:00"
@@ -1353,6 +1733,8 @@ Description: "Type activité SMSSE régulée"
 * #185 ^property[=].valueDateTime = "1900-01-01T00:00:00+01:00"
 * #185 ^property[+].code = #status
 * #185 ^property[=].valueCode = #active
+* #185 ^property[+].code = #natureActivite
+* #185 ^property[=].valueCode = #AS
 * #186 "AS/03/01/05"
 * #186 ^property[0].code = #dateValid
 * #186 ^property[=].valueDateTime = "1900-01-01T00:00:00+01:00"
@@ -1360,6 +1742,8 @@ Description: "Type activité SMSSE régulée"
 * #186 ^property[=].valueDateTime = "1900-01-01T00:00:00+01:00"
 * #186 ^property[+].code = #status
 * #186 ^property[=].valueCode = #active
+* #186 ^property[+].code = #natureActivite
+* #186 ^property[=].valueCode = #AS
 * #187 "AS/03/02/01"
 * #187 ^property[0].code = #dateValid
 * #187 ^property[=].valueDateTime = "1900-01-01T00:00:00+01:00"
@@ -1367,6 +1751,8 @@ Description: "Type activité SMSSE régulée"
 * #187 ^property[=].valueDateTime = "1900-01-01T00:00:00+01:00"
 * #187 ^property[+].code = #status
 * #187 ^property[=].valueCode = #active
+* #187 ^property[+].code = #natureActivite
+* #187 ^property[=].valueCode = #AS
 * #188 "AS/03/03/01"
 * #188 ^property[0].code = #dateValid
 * #188 ^property[=].valueDateTime = "1900-01-01T00:00:00+01:00"
@@ -1374,6 +1760,8 @@ Description: "Type activité SMSSE régulée"
 * #188 ^property[=].valueDateTime = "1900-01-01T00:00:00+01:00"
 * #188 ^property[+].code = #status
 * #188 ^property[=].valueCode = #active
+* #188 ^property[+].code = #natureActivite
+* #188 ^property[=].valueCode = #AS
 * #189 "AS/03/04/01"
 * #189 ^property[0].code = #dateValid
 * #189 ^property[=].valueDateTime = "1900-01-01T00:00:00+01:00"
@@ -1381,6 +1769,8 @@ Description: "Type activité SMSSE régulée"
 * #189 ^property[=].valueDateTime = "1900-01-01T00:00:00+01:00"
 * #189 ^property[+].code = #status
 * #189 ^property[=].valueCode = #active
+* #189 ^property[+].code = #natureActivite
+* #189 ^property[=].valueCode = #AS
 * #190 "AS/03/05/08"
 * #190 ^property[0].code = #dateValid
 * #190 ^property[=].valueDateTime = "1900-01-01T00:00:00+01:00"
@@ -1388,6 +1778,8 @@ Description: "Type activité SMSSE régulée"
 * #190 ^property[=].valueDateTime = "1900-01-01T00:00:00+01:00"
 * #190 ^property[+].code = #status
 * #190 ^property[=].valueCode = #active
+* #190 ^property[+].code = #natureActivite
+* #190 ^property[=].valueCode = #AS
 * #191 "AS/04/06/01"
 * #191 ^property[0].code = #dateValid
 * #191 ^property[=].valueDateTime = "1900-01-01T00:00:00+01:00"
@@ -1395,6 +1787,8 @@ Description: "Type activité SMSSE régulée"
 * #191 ^property[=].valueDateTime = "1900-01-01T00:00:00+01:00"
 * #191 ^property[+].code = #status
 * #191 ^property[=].valueCode = #active
+* #191 ^property[+].code = #natureActivite
+* #191 ^property[=].valueCode = #AS
 * #192 "AS/04/06/03"
 * #192 ^property[0].code = #dateValid
 * #192 ^property[=].valueDateTime = "1900-01-01T00:00:00+01:00"
@@ -1402,6 +1796,8 @@ Description: "Type activité SMSSE régulée"
 * #192 ^property[=].valueDateTime = "1900-01-01T00:00:00+01:00"
 * #192 ^property[+].code = #status
 * #192 ^property[=].valueCode = #active
+* #192 ^property[+].code = #natureActivite
+* #192 ^property[=].valueCode = #AS
 * #193 "AS/04/06/04"
 * #193 ^property[0].code = #dateValid
 * #193 ^property[=].valueDateTime = "1900-01-01T00:00:00+01:00"
@@ -1409,6 +1805,8 @@ Description: "Type activité SMSSE régulée"
 * #193 ^property[=].valueDateTime = "1900-01-01T00:00:00+01:00"
 * #193 ^property[+].code = #status
 * #193 ^property[=].valueCode = #active
+* #193 ^property[+].code = #natureActivite
+* #193 ^property[=].valueCode = #AS
 * #194 "AS/04/06/05"
 * #194 ^property[0].code = #dateValid
 * #194 ^property[=].valueDateTime = "1900-01-01T00:00:00+01:00"
@@ -1416,6 +1814,8 @@ Description: "Type activité SMSSE régulée"
 * #194 ^property[=].valueDateTime = "1900-01-01T00:00:00+01:00"
 * #194 ^property[+].code = #status
 * #194 ^property[=].valueCode = #active
+* #194 ^property[+].code = #natureActivite
+* #194 ^property[=].valueCode = #AS
 * #195 "AS/04/06/09"
 * #195 ^property[0].code = #dateValid
 * #195 ^property[=].valueDateTime = "1900-01-01T00:00:00+01:00"
@@ -1423,6 +1823,8 @@ Description: "Type activité SMSSE régulée"
 * #195 ^property[=].valueDateTime = "1900-01-01T00:00:00+01:00"
 * #195 ^property[+].code = #status
 * #195 ^property[=].valueCode = #active
+* #195 ^property[+].code = #natureActivite
+* #195 ^property[=].valueCode = #AS
 * #196 "AS/04/06/10"
 * #196 ^property[0].code = #dateValid
 * #196 ^property[=].valueDateTime = "1900-01-01T00:00:00+01:00"
@@ -1430,6 +1832,8 @@ Description: "Type activité SMSSE régulée"
 * #196 ^property[=].valueDateTime = "1900-01-01T00:00:00+01:00"
 * #196 ^property[+].code = #status
 * #196 ^property[=].valueCode = #active
+* #196 ^property[+].code = #natureActivite
+* #196 ^property[=].valueCode = #AS
 * #197 "AS/04/06/11"
 * #197 ^property[0].code = #dateValid
 * #197 ^property[=].valueDateTime = "1900-01-01T00:00:00+01:00"
@@ -1437,6 +1841,8 @@ Description: "Type activité SMSSE régulée"
 * #197 ^property[=].valueDateTime = "1900-01-01T00:00:00+01:00"
 * #197 ^property[+].code = #status
 * #197 ^property[=].valueCode = #active
+* #197 ^property[+].code = #natureActivite
+* #197 ^property[=].valueCode = #AS
 * #198 "AS/04/06/12"
 * #198 ^property[0].code = #dateValid
 * #198 ^property[=].valueDateTime = "1900-01-01T00:00:00+01:00"
@@ -1444,6 +1850,8 @@ Description: "Type activité SMSSE régulée"
 * #198 ^property[=].valueDateTime = "1900-01-01T00:00:00+01:00"
 * #198 ^property[+].code = #status
 * #198 ^property[=].valueCode = #active
+* #198 ^property[+].code = #natureActivite
+* #198 ^property[=].valueCode = #AS
 * #199 "AS/04/07/01"
 * #199 ^property[0].code = #dateValid
 * #199 ^property[=].valueDateTime = "1900-01-01T00:00:00+01:00"
@@ -1451,6 +1859,8 @@ Description: "Type activité SMSSE régulée"
 * #199 ^property[=].valueDateTime = "1900-01-01T00:00:00+01:00"
 * #199 ^property[+].code = #status
 * #199 ^property[=].valueCode = #active
+* #199 ^property[+].code = #natureActivite
+* #199 ^property[=].valueCode = #AS
 * #200 "AS/04/07/03"
 * #200 ^property[0].code = #dateValid
 * #200 ^property[=].valueDateTime = "1900-01-01T00:00:00+01:00"
@@ -1458,6 +1868,8 @@ Description: "Type activité SMSSE régulée"
 * #200 ^property[=].valueDateTime = "1900-01-01T00:00:00+01:00"
 * #200 ^property[+].code = #status
 * #200 ^property[=].valueCode = #active
+* #200 ^property[+].code = #natureActivite
+* #200 ^property[=].valueCode = #AS
 * #201 "AS/04/07/04"
 * #201 ^property[0].code = #dateValid
 * #201 ^property[=].valueDateTime = "1900-01-01T00:00:00+01:00"
@@ -1465,6 +1877,8 @@ Description: "Type activité SMSSE régulée"
 * #201 ^property[=].valueDateTime = "1900-01-01T00:00:00+01:00"
 * #201 ^property[+].code = #status
 * #201 ^property[=].valueCode = #active
+* #201 ^property[+].code = #natureActivite
+* #201 ^property[=].valueCode = #AS
 * #202 "AS/04/07/05"
 * #202 ^property[0].code = #dateValid
 * #202 ^property[=].valueDateTime = "1900-01-01T00:00:00+01:00"
@@ -1472,6 +1886,8 @@ Description: "Type activité SMSSE régulée"
 * #202 ^property[=].valueDateTime = "1900-01-01T00:00:00+01:00"
 * #202 ^property[+].code = #status
 * #202 ^property[=].valueCode = #active
+* #202 ^property[+].code = #natureActivite
+* #202 ^property[=].valueCode = #AS
 * #203 "AS/04/07/09"
 * #203 ^property[0].code = #dateValid
 * #203 ^property[=].valueDateTime = "1900-01-01T00:00:00+01:00"
@@ -1479,6 +1895,8 @@ Description: "Type activité SMSSE régulée"
 * #203 ^property[=].valueDateTime = "1900-01-01T00:00:00+01:00"
 * #203 ^property[+].code = #status
 * #203 ^property[=].valueCode = #active
+* #203 ^property[+].code = #natureActivite
+* #203 ^property[=].valueCode = #AS
 * #204 "AS/04/07/10"
 * #204 ^property[0].code = #dateValid
 * #204 ^property[=].valueDateTime = "1900-01-01T00:00:00+01:00"
@@ -1486,6 +1904,8 @@ Description: "Type activité SMSSE régulée"
 * #204 ^property[=].valueDateTime = "1900-01-01T00:00:00+01:00"
 * #204 ^property[+].code = #status
 * #204 ^property[=].valueCode = #active
+* #204 ^property[+].code = #natureActivite
+* #204 ^property[=].valueCode = #AS
 * #205 "AS/04/07/11"
 * #205 ^property[0].code = #dateValid
 * #205 ^property[=].valueDateTime = "1900-01-01T00:00:00+01:00"
@@ -1493,6 +1913,8 @@ Description: "Type activité SMSSE régulée"
 * #205 ^property[=].valueDateTime = "1900-01-01T00:00:00+01:00"
 * #205 ^property[+].code = #status
 * #205 ^property[=].valueCode = #active
+* #205 ^property[+].code = #natureActivite
+* #205 ^property[=].valueCode = #AS
 * #206 "AS/04/07/12"
 * #206 ^property[0].code = #dateValid
 * #206 ^property[=].valueDateTime = "1900-01-01T00:00:00+01:00"
@@ -1500,6 +1922,8 @@ Description: "Type activité SMSSE régulée"
 * #206 ^property[=].valueDateTime = "1900-01-01T00:00:00+01:00"
 * #206 ^property[+].code = #status
 * #206 ^property[=].valueCode = #active
+* #206 ^property[+].code = #natureActivite
+* #206 ^property[=].valueCode = #AS
 * #207 "AS/04/08/03"
 * #207 ^property[0].code = #dateValid
 * #207 ^property[=].valueDateTime = "1900-01-01T00:00:00+01:00"
@@ -1507,6 +1931,8 @@ Description: "Type activité SMSSE régulée"
 * #207 ^property[=].valueDateTime = "1900-01-01T00:00:00+01:00"
 * #207 ^property[+].code = #status
 * #207 ^property[=].valueCode = #active
+* #207 ^property[+].code = #natureActivite
+* #207 ^property[=].valueCode = #AS
 * #208 "AS/07/00/01"
 * #208 ^property[0].code = #dateValid
 * #208 ^property[=].valueDateTime = "1900-01-01T00:00:00+01:00"
@@ -1514,6 +1940,8 @@ Description: "Type activité SMSSE régulée"
 * #208 ^property[=].valueDateTime = "1900-01-01T00:00:00+01:00"
 * #208 ^property[+].code = #status
 * #208 ^property[=].valueCode = #active
+* #208 ^property[+].code = #natureActivite
+* #208 ^property[=].valueCode = #AS
 * #209 "AS/09/09/01"
 * #209 ^property[0].code = #dateValid
 * #209 ^property[=].valueDateTime = "1900-01-01T00:00:00+01:00"
@@ -1521,6 +1949,8 @@ Description: "Type activité SMSSE régulée"
 * #209 ^property[=].valueDateTime = "1900-01-01T00:00:00+01:00"
 * #209 ^property[+].code = #status
 * #209 ^property[=].valueCode = #active
+* #209 ^property[+].code = #natureActivite
+* #209 ^property[=].valueCode = #AS
 * #210 "AS/09/10/01"
 * #210 ^property[0].code = #dateValid
 * #210 ^property[=].valueDateTime = "1900-01-01T00:00:00+01:00"
@@ -1528,6 +1958,8 @@ Description: "Type activité SMSSE régulée"
 * #210 ^property[=].valueDateTime = "1900-01-01T00:00:00+01:00"
 * #210 ^property[+].code = #status
 * #210 ^property[=].valueCode = #active
+* #210 ^property[+].code = #natureActivite
+* #210 ^property[=].valueCode = #AS
 * #211 "AS/09/76/01"
 * #211 ^property[0].code = #dateValid
 * #211 ^property[=].valueDateTime = "1900-01-01T00:00:00+01:00"
@@ -1535,6 +1967,8 @@ Description: "Type activité SMSSE régulée"
 * #211 ^property[=].valueDateTime = "1900-01-01T00:00:00+01:00"
 * #211 ^property[+].code = #status
 * #211 ^property[=].valueCode = #active
+* #211 ^property[+].code = #natureActivite
+* #211 ^property[=].valueCode = #AS
 * #212 "AS/10/09/01"
 * #212 ^property[0].code = #dateValid
 * #212 ^property[=].valueDateTime = "1900-01-01T00:00:00+01:00"
@@ -1542,6 +1976,8 @@ Description: "Type activité SMSSE régulée"
 * #212 ^property[=].valueDateTime = "1900-01-01T00:00:00+01:00"
 * #212 ^property[+].code = #status
 * #212 ^property[=].valueCode = #active
+* #212 ^property[+].code = #natureActivite
+* #212 ^property[=].valueCode = #AS
 * #213 "AS/10/10/01"
 * #213 ^property[0].code = #dateValid
 * #213 ^property[=].valueDateTime = "1900-01-01T00:00:00+01:00"
@@ -1549,6 +1985,8 @@ Description: "Type activité SMSSE régulée"
 * #213 ^property[=].valueDateTime = "1900-01-01T00:00:00+01:00"
 * #213 ^property[+].code = #status
 * #213 ^property[=].valueCode = #active
+* #213 ^property[+].code = #natureActivite
+* #213 ^property[=].valueCode = #AS
 * #214 "AS/11/81/00"
 * #214 ^property[0].code = #dateValid
 * #214 ^property[=].valueDateTime = "1900-01-01T00:00:00+01:00"
@@ -1556,6 +1994,8 @@ Description: "Type activité SMSSE régulée"
 * #214 ^property[=].valueDateTime = "1900-01-01T00:00:00+01:00"
 * #214 ^property[+].code = #status
 * #214 ^property[=].valueCode = #active
+* #214 ^property[+].code = #natureActivite
+* #214 ^property[=].valueCode = #AS
 * #215 "AS/11/82/00"
 * #215 ^property[0].code = #dateValid
 * #215 ^property[=].valueDateTime = "1900-01-01T00:00:00+01:00"
@@ -1563,6 +2003,8 @@ Description: "Type activité SMSSE régulée"
 * #215 ^property[=].valueDateTime = "1900-01-01T00:00:00+01:00"
 * #215 ^property[+].code = #status
 * #215 ^property[=].valueCode = #active
+* #215 ^property[+].code = #natureActivite
+* #215 ^property[=].valueCode = #AS
 * #216 "AS/11/83/00"
 * #216 ^property[0].code = #dateValid
 * #216 ^property[=].valueDateTime = "1900-01-01T00:00:00+01:00"
@@ -1570,6 +2012,8 @@ Description: "Type activité SMSSE régulée"
 * #216 ^property[=].valueDateTime = "1900-01-01T00:00:00+01:00"
 * #216 ^property[+].code = #status
 * #216 ^property[=].valueCode = #active
+* #216 ^property[+].code = #natureActivite
+* #216 ^property[=].valueCode = #AS
 * #217 "AS/12/00/01"
 * #217 ^property[0].code = #dateValid
 * #217 ^property[=].valueDateTime = "1900-01-01T00:00:00+01:00"
@@ -1577,6 +2021,8 @@ Description: "Type activité SMSSE régulée"
 * #217 ^property[=].valueDateTime = "1900-01-01T00:00:00+01:00"
 * #217 ^property[+].code = #status
 * #217 ^property[=].valueCode = #active
+* #217 ^property[+].code = #natureActivite
+* #217 ^property[=].valueCode = #AS
 * #218 "AS/12/00/02"
 * #218 ^property[0].code = #dateValid
 * #218 ^property[=].valueDateTime = "1900-01-01T00:00:00+01:00"
@@ -1584,6 +2030,8 @@ Description: "Type activité SMSSE régulée"
 * #218 ^property[=].valueDateTime = "1900-01-01T00:00:00+01:00"
 * #218 ^property[+].code = #status
 * #218 ^property[=].valueCode = #active
+* #218 ^property[+].code = #natureActivite
+* #218 ^property[=].valueCode = #AS
 * #219 "AS/12/00/15"
 * #219 ^property[0].code = #dateValid
 * #219 ^property[=].valueDateTime = "1900-01-01T00:00:00+01:00"
@@ -1591,6 +2039,8 @@ Description: "Type activité SMSSE régulée"
 * #219 ^property[=].valueDateTime = "1900-01-01T00:00:00+01:00"
 * #219 ^property[+].code = #status
 * #219 ^property[=].valueCode = #active
+* #219 ^property[+].code = #natureActivite
+* #219 ^property[=].valueCode = #AS
 * #220 "AS/12/10/00"
 * #220 ^property[0].code = #dateValid
 * #220 ^property[=].valueDateTime = "1900-01-01T00:00:00+01:00"
@@ -1598,6 +2048,8 @@ Description: "Type activité SMSSE régulée"
 * #220 ^property[=].valueDateTime = "1900-01-01T00:00:00+01:00"
 * #220 ^property[+].code = #status
 * #220 ^property[=].valueCode = #active
+* #220 ^property[+].code = #natureActivite
+* #220 ^property[=].valueCode = #AS
 * #221 "AS/12/87/00"
 * #221 ^property[0].code = #dateValid
 * #221 ^property[=].valueDateTime = "1900-01-01T00:00:00+01:00"
@@ -1605,6 +2057,8 @@ Description: "Type activité SMSSE régulée"
 * #221 ^property[=].valueDateTime = "1900-01-01T00:00:00+01:00"
 * #221 ^property[+].code = #status
 * #221 ^property[=].valueCode = #active
+* #221 ^property[+].code = #natureActivite
+* #221 ^property[=].valueCode = #AS
 * #222 "AS/12/88/00"
 * #222 ^property[0].code = #dateValid
 * #222 ^property[=].valueDateTime = "1900-01-01T00:00:00+01:00"
@@ -1612,6 +2066,8 @@ Description: "Type activité SMSSE régulée"
 * #222 ^property[=].valueDateTime = "1900-01-01T00:00:00+01:00"
 * #222 ^property[+].code = #status
 * #222 ^property[=].valueCode = #active
+* #222 ^property[+].code = #natureActivite
+* #222 ^property[=].valueCode = #AS
 * #223 "AS/13/99/00"
 * #223 ^property[0].code = #dateValid
 * #223 ^property[=].valueDateTime = "1900-01-01T00:00:00+01:00"
@@ -1619,6 +2075,8 @@ Description: "Type activité SMSSE régulée"
 * #223 ^property[=].valueDateTime = "1900-01-01T00:00:00+01:00"
 * #223 ^property[+].code = #status
 * #223 ^property[=].valueCode = #active
+* #223 ^property[+].code = #natureActivite
+* #223 ^property[=].valueCode = #AS
 * #224 "AS/14/22/00"
 * #224 ^property[0].code = #dateValid
 * #224 ^property[=].valueDateTime = "1900-01-01T00:00:00+01:00"
@@ -1626,6 +2084,8 @@ Description: "Type activité SMSSE régulée"
 * #224 ^property[=].valueDateTime = "1900-01-01T00:00:00+01:00"
 * #224 ^property[+].code = #status
 * #224 ^property[=].valueCode = #active
+* #224 ^property[+].code = #natureActivite
+* #224 ^property[=].valueCode = #AS
 * #225 "AS/14/23/13"
 * #225 ^property[0].code = #dateValid
 * #225 ^property[=].valueDateTime = "1900-01-01T00:00:00+01:00"
@@ -1633,6 +2093,8 @@ Description: "Type activité SMSSE régulée"
 * #225 ^property[=].valueDateTime = "1900-01-01T00:00:00+01:00"
 * #225 ^property[+].code = #status
 * #225 ^property[=].valueCode = #active
+* #225 ^property[+].code = #natureActivite
+* #225 ^property[=].valueCode = #AS
 * #226 "AS/14/23/14"
 * #226 ^property[0].code = #dateValid
 * #226 ^property[=].valueDateTime = "1900-01-01T00:00:00+01:00"
@@ -1640,6 +2102,8 @@ Description: "Type activité SMSSE régulée"
 * #226 ^property[=].valueDateTime = "1900-01-01T00:00:00+01:00"
 * #226 ^property[+].code = #status
 * #226 ^property[=].valueCode = #active
+* #226 ^property[+].code = #natureActivite
+* #226 ^property[=].valueCode = #AS
 * #227 "AS/14/24/14"
 * #227 ^property[0].code = #dateValid
 * #227 ^property[=].valueDateTime = "1900-01-01T00:00:00+01:00"
