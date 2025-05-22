@@ -13,6 +13,7 @@ Description: "Type de contrat conclu entre l’établissement/service et la pers
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value = "urn:oid:1.2.250.1.213.3.4.223"
 * ^version = "20250521120000"
+* ^language = #fr-FR
 * ^status = #active
 * ^experimental = false
 * ^date = "2025-05-21T18:02:28.249+00:00"
