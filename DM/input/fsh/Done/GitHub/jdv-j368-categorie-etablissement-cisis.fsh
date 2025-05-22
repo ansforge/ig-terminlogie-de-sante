@@ -13,6 +13,7 @@ Description: "JDV à l'image de l'ensemble des valeurs actives de la terminologi
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value = "urn:oid:1.2.250.1.213.1.1.5.823"
 * ^version = "20250422120000"
+* ^language = #fr-FR
 * ^status = #active
 * ^experimental = false
 * ^date = "2025-04-22T18:02:28.249+00:00"

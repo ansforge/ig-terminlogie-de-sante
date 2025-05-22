@@ -13,6 +13,7 @@ Description: "Cette nomenclature donne le type de projet personnalisé qui est u
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value = "urn:oid:1.2.250.1.213.3.4.221"
 * ^version = "20250422120000"
+* ^language = #fr-FR
 * ^status = #active
 * ^experimental = false
 * ^date = "2025-04-15T18:02:28.249+00:00"
