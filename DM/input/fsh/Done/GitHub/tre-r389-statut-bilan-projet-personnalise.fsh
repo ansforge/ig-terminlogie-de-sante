@@ -11,6 +11,7 @@ Description: "Statut du bilan du projet personnalisé."
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value = "urn:oid:1.2.250.1.213.3.3.257"
 * ^version = "20250418120000"
+* ^language = #fr-FR
 * ^status = #active
 * ^experimental = false
 * ^date = "2025-04-18T12:00:00+01:00"
