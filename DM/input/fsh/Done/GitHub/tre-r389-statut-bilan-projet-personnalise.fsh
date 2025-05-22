@@ -39,6 +39,10 @@ Description: "Statut du bilan du projet personnalisé."
 * ^property[=].uri = "http://hl7.org/fhir/concept-properties#retirementDate"
 * ^property[=].description = "Date de retrait du code"
 * ^property[=].type = #dateTime
+* ^property[=].type = #dateTime
+* ^filter[0].code = #status
+* ^filter[=].operator = #=
+* ^filter[=].value = "active"
 * #PARTIEL "Partiel"
 * #PARTIEL ^property[0].code = #dateValid
 * #PARTIEL ^property[=].valueDateTime = "2025-04-15T12:00:00+01:00"
