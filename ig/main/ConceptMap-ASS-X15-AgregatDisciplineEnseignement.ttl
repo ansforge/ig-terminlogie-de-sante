@@ -19,7 +19,7 @@
   fhir:title [ fhir:v "ASS_X15_AgregatDisciplineEnseignement"] ; # 
   fhir:status [ fhir:v "active"] ; # 
   fhir:experimental [ fhir:v false] ; # 
-  fhir:date [ fhir:v "2025-05-23T04:20:53+00:00"^^xsd:dateTime] ; # 
+  fhir:date [ fhir:v "2025-05-24T04:19:42+00:00"^^xsd:dateTime] ; # 
   fhir:publisher [ fhir:v "ANS"] ; # 
   fhir:contact ( [
      fhir:name [ fhir:v "ANS" ] ;
