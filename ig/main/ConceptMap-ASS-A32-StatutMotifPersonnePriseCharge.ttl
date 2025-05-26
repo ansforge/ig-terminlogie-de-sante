@@ -32,7 +32,7 @@
   ] ; # 
   fhir:version [ fhir:v "20250411120000"] ; # 
   fhir:name [ fhir:v "ASS_A32_StatutMotifPersonnePriseCharge"] ; # 
-  fhir:title [ fhir:v "Ass A32 Statut Motif Personne Prise Charge"] ; # 
+  fhir:title [ fhir:v "ASS_A32_StatutMotifPersonnePriseCharge"] ; # 
   fhir:status [ fhir:v "active"] ; # 
   fhir:experimental [ fhir:v false] ; # 
   fhir:date [ fhir:v "2025-04-11T12:00:00+01:00"^^xsd:dateTime] ; # 

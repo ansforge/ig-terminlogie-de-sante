@@ -111,7 +111,7 @@
     "type" : "ConceptMap",
     "url" : "https://mos.esante.gouv.fr/NOS/ASS_A22-AASA-ActiviteModaliteForme/FHIR/ASS-A22-AASA-ActiviteModaliteForme",
     "version" : "20200731120000",
-    "name" : "ASS_A22_ASA_ActiviteModaliteForme"
+    "name" : "ASS_A22_AASA_ActiviteModaliteForme"
   },
   {
     "id" : "ASS-A23-ASR-ActiviteModaliteForme",
@@ -4364,6 +4364,14 @@
     "oids" : ["1.2.250.1.213.3.3.258"]
   },
   {
+    "id" : "tre-r393-type-contrat-sejour",
+    "type" : "CodeSystem",
+    "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r393-type-contrat-sejour",
+    "version" : "20250521120000",
+    "name" : "TreR393TypeContratSejour",
+    "oids" : ["1.2.250.1.213.3.3.260"]
+  },
+  {
     "id" : "alignement-nuva-atc",
     "type" : "ConceptMap",
     "url" : "https://smt.esante.gouv.fr/fhir/ConceptMap/alignement-nuva-atc",
@@ -4407,6 +4415,14 @@
     "version" : "20250422120000",
     "name" : "JdvJ368CategorieEtablissementCisis",
     "oids" : ["1.2.250.1.213.1.1.5.823"]
+  },
+  {
+    "id" : "jdv-j370-type-contrat-sejour-ms",
+    "type" : "ValueSet",
+    "url" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j370-type-contrat-sejour-ms",
+    "version" : "20250521120000",
+    "name" : "JdvJ370TypeContratSejourMs",
+    "oids" : ["1.2.250.1.213.3.4.223"]
   },
   {
     "id" : "terminologie-SERAFINPH",

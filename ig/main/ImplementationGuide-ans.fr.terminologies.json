@@ -10,7 +10,7 @@
   "name" : "Terminologies",
   "title" : "Terminologies  de Santé",
   "status" : "active",
-  "date" : "2025-05-26T04:24:13+00:00",
+  "date" : "2025-05-26T13:27:16+00:00",
   "publisher" : "ANS",
   "contact" : [{
     "name" : "ANS",
@@ -32772,18 +32772,6 @@
         "valueString" : "ConceptMap"
       }],
       "reference" : {
-        "reference" : "ConceptMap/ASS-A32-StatutMotifPersonnePriseCharge"
-      },
-      "name" : "Ass A32 Statut Motif Personne Prise Charge",
-      "description" : "Association du motif au statut de la personne prise en charge",
-      "exampleBoolean" : false
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "ConceptMap"
-      }],
-      "reference" : {
         "reference" : "ConceptMap/ASS-A11-CorresModeleCDA-XdsFormatCode-CISIS"
       },
       "name" : "ASS_A11-CorresModeleCDA-XdsFormatCode-CISIS",
@@ -32870,7 +32858,7 @@
       "reference" : {
         "reference" : "ConceptMap/ASS-A22-AASA-ActiviteModaliteForme"
       },
-      "name" : "ASS_A22_ASA_ActiviteModaliteForme",
+      "name" : "ASS_A22_AASA_ActiviteModaliteForme",
       "description" : "Triplet activité modalité forme pour les Activités Soumises à Autorisation (ASA)",
       "exampleBoolean" : false
     },
@@ -32944,6 +32932,18 @@
       },
       "name" : "ASS_A30_TypeAutorisation_Profession_EPARS",
       "description" : "Table d'association entre les types d'autorisations et les professions de santé, médico-sociales ou sociales",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ConceptMap"
+      }],
+      "reference" : {
+        "reference" : "ConceptMap/ASS-A32-StatutMotifPersonnePriseCharge"
+      },
+      "name" : "ASS_A32_StatutMotifPersonnePriseCharge",
+      "description" : "Association du motif au statut de la personne prise en charge",
       "exampleBoolean" : false
     },
     {
@@ -33272,6 +33272,18 @@
       },
       "name" : "Jdv J368 Categorie Etablissement Cisis",
       "description" : "JDV à l'image de l'ensemble des valeurs actives de la terminologie TRE_R66-CategorieEtablissement",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      }],
+      "reference" : {
+        "reference" : "ValueSet/jdv-j370-type-contrat-sejour-ms"
+      },
+      "name" : "Jdv J370 Type Contrat Sejour Ms",
+      "description" : "Type de contrat conclu entre l’établissement/service et la personne/son représentant légal.",
       "exampleBoolean" : false
     },
     {
@@ -36546,6 +36558,18 @@
       },
       "name" : "Tre R390 Type Projet Personnalise",
       "description" : "Cette nomenclature donne le type de projet personnalisé qui est un document co-construit par l'usager, son entourage familial et professionnel du médico-social.",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "CodeSystem"
+      }],
+      "reference" : {
+        "reference" : "CodeSystem/tre-r393-type-contrat-sejour"
+      },
+      "name" : "Tre R393 Type Contrat Sejour",
+      "description" : "Type de contrat conclu entre l’établissement/service et la personne/son représentant légal lors de son entrée en établissement",
       "exampleBoolean" : false
     },
     {
