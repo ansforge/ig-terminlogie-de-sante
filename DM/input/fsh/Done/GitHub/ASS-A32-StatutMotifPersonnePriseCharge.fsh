@@ -11,7 +11,7 @@ Usage: #definition
 * identifier.value = "urn:oid:1.2.250.1.213.3.4.217"
 * version = "20250411120000"
 * name = "ASS_A32_StatutMotifPersonnePriseCharge"
-* title = "Ass A32 Statut Motif Personne Prise Charge"
+* title = "ASS_A32_StatutMotifPersonnePriseCharge"
 * experimental = false
 * status = #active
 * date = "2025-04-11T12:00:00+01:00"
