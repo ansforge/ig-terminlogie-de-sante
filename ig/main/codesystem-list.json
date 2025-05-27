@@ -299,7 +299,7 @@
     },
     {
       "url" : "https://mos.esante.gouv.fr/NOS/TRE_G19-SecteurActiviteADELI/FHIR/TRE-G19-SecteurActiviteADELI",
-      "version" : "20240726120000",
+      "version" : "20250523120000",
       "status" : "active",
       "name" : "TRE_G19_SecteurActiviteADELI",
       "title" : null,
@@ -326,7 +326,7 @@
     },
     {
       "url" : "https://mos.esante.gouv.fr/NOS/TRE_R02-SecteurActivite/FHIR/TRE-R02-SecteurActivite",
-      "version" : "20241213120000",
+      "version" : "20250523120000",
       "status" : "active",
       "name" : "TRE_R02_SecteurActivite",
       "title" : null,
@@ -416,7 +416,7 @@
     },
     {
       "url" : "https://mos.esante.gouv.fr/NOS/TRE_R17-TypeAutorisation/FHIR/TRE-R17-TypeAutorisation",
-      "version" : "20250131120000",
+      "version" : "20250523120000",
       "status" : "active",
       "name" : "TRE_R17_TypeAutorisation",
       "title" : null,
@@ -983,7 +983,7 @@
     },
     {
       "url" : "https://mos.esante.gouv.fr/NOS/TRE_R258-RelationPriseCharge/FHIR/TRE-R258-RelationPriseCharge",
-      "version" : "20240126120000",
+      "version" : "20250523120000",
       "status" : "active",
       "name" : "TRE_R258_RelationPriseCharge",
       "title" : null,
@@ -2153,7 +2153,7 @@
     },
     {
       "url" : "https://mos.esante.gouv.fr/NOS/TRE_R78-ProfilAccesReferentiel/FHIR/TRE-R78-ProfilAccesReferentiel",
-      "version" : "20231215120000",
+      "version" : "20250523120000",
       "status" : "active",
       "name" : "TRE_R78_ProfilAccesReferentiel",
       "title" : null,

@@ -2,7 +2,7 @@
 <RetrieveValueSetResponse xmlns="urn:ihe:iti:svs:2008"
                           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
    <ValueSet dateFin=""
-             dateMaj="20250131120000"
+             dateMaj="20250523120000"
              dateValid="20210625120000"
              description="Types d'autorisation d'exercice pour EPARS"
              displayName="JDV_J171_TypeAutorisation_EPARS"
@@ -54,7 +54,7 @@
                   displayName="Docteur en médecine spécialité psychiatrie"/>
          <Concept code="AM34"
                   codeSystem="1.2.250.1.213.1.6.1.14"
-                  displayName="Autorisation d'exercice d'audioprothésiste médecin"/>
+                  displayName="Diplôme, certificat ou titre permettant d'exercer la médecine en France"/>
          <Concept code="AM35"
                   codeSystem="1.2.250.1.213.1.6.1.14"
                   displayName="Autorisation d'user du titre de Chiropraxie"/>

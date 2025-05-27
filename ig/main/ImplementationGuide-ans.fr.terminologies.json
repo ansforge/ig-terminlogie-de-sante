@@ -10,7 +10,7 @@
   "name" : "Terminologies",
   "title" : "Terminologies  de Santé",
   "status" : "active",
-  "date" : "2025-05-26T13:27:16+00:00",
+  "date" : "2025-05-27T04:23:37+00:00",
   "publisher" : "ANS",
   "contact" : [{
     "name" : "ANS",
@@ -35839,7 +35839,7 @@
         "reference" : "ValueSet/JDV-J47-FunctionCode-CISIS"
       },
       "name" : "JDV_J47_FunctionCode_CISIS",
-      "description" : "Jeux de valeurs des Rôles fonctionnels HL7 et CI-SIS",
+      "description" : "Rôles fonctionnels",
       "exampleBoolean" : false
     },
     {

@@ -11,7 +11,7 @@
   <name value="Terminologies"/>
   <title value="Terminologies  de Santé"/>
   <status value="active"/>
-  <date value="2025-05-26T13:27:16+00:00"/>
+  <date value="2025-05-27T04:23:37+00:00"/>
   <publisher value="ANS"/>
   <contact>
     <name value="ANS"/>
@@ -26664,7 +26664,7 @@
         <reference value="ValueSet/JDV-J47-FunctionCode-CISIS"/>
       </reference>
       <name value="JDV_J47_FunctionCode_CISIS"/>
-      <description value="Jeux de valeurs des Rôles fonctionnels HL7 et CI-SIS"/>
+      <description value="Rôles fonctionnels"/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>

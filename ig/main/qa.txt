@@ -3,7 +3,7 @@ Terminologies : Validation Results
 
 err = 396, warn = 10410, info = 968
 IG Publisher Version: 1.8.26
-Generated Mon May 26 13:43:08 UTC 2025. FHIR version 4.0.1 for ans.fr.terminologies#0.1.0-ballot (canonical = https://interop.esante.gouv.fr/terminologies)
+Generated Tue May 27 04:35:22 UTC 2025. FHIR version 4.0.1 for ans.fr.terminologies#0.1.0-ballot (canonical = https://interop.esante.gouv.fr/terminologies)
  Build Errors : 400 / 16 / 0
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/DM/fsh-generated/resources/CodeSystem-tre-r389-statut-bilan-projet-personnalise : 2 / 1 / 4
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/DM/fsh-generated/resources/CodeSystem-tre-r390-type-projet-personnalise : 2 / 1 / 4
