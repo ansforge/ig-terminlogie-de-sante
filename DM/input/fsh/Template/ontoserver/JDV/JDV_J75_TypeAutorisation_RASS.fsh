@@ -1,18 +1,18 @@
 ValueSet: JDV_J75_TypeAutorisation_RASS
 Id: JDV-J75-TypeAutorisation-RASS
 Description: "Type d'autorisation d'exercice pour accès à l'exercice de la profession du RASS"
-* ^meta.versionId = "8"
-* ^meta.lastUpdated = "2025-02-10T16:06:08.364+00:00"
+* ^meta.versionId = "9"
+* ^meta.lastUpdated = "2025-05-26T17:00:37.157+00:00"
 * ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablevalueset"
 * ^extension.url = "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod"
 * ^extension.valuePeriod.start = "2019-08-30T12:00:00+01:00"
 * ^url = "https://mos.esante.gouv.fr/NOS/JDV_J75-TypeAutorisation-RASS/FHIR/JDV-J75-TypeAutorisation-RASS"
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value = "urn:oid:1.2.250.1.213.1.6.1.143"
-* ^version = "20250131120000"
+* ^version = "20250523120000"
 * ^status = #active
 * ^experimental = false
-* ^date = "2025-01-31T12:00:00+01:00"
+* ^date = "2025-05-23T12:00:00+01:00"
 * ^publisher = "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris"
 * $TRE-R17-TypeAutorisation#AM00 "Autre type d'autorisation"
 * $TRE-R17-TypeAutorisation#AM01 "Autorisation de plein exercice"
@@ -46,7 +46,7 @@ Description: "Type d'autorisation d'exercice pour accès à l'exercice de la pro
 * $TRE-R17-TypeAutorisation#AM31 "Autorisation d'exercice de psychologue diplôme étranger"
 * $TRE-R17-TypeAutorisation#AM32 "Autorisation préfectorale d'exercice de psychologue décret 90-259"
 * $TRE-R17-TypeAutorisation#AM33 "Docteur en médecine spécialité psychiatrie"
-* $TRE-R17-TypeAutorisation#AM34 "Autorisation d'exercice d'audioprothésiste pour médecin"
+* $TRE-R17-TypeAutorisation#AM34 "Diplôme, certificat ou titre permettant d'exercer la médecine en France"
 * $TRE-R17-TypeAutorisation#AM35 "Autorisation d'user du titre de Chiropraxie"
 * $TRE-R17-TypeAutorisation#AM36 "Autorisation d'exercice d'épithésiste pour chirurgien-dentiste"
 * $TRE-R17-TypeAutorisation#AM37 "Autorisation d'exercice d'épithésiste pour médecin stomatologue ou chirurgie maxillo-faciale"
