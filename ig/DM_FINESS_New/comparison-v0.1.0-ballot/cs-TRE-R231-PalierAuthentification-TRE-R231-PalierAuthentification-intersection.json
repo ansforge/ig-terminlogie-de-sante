@@ -1,11 +1,11 @@
 {
   "resourceType" : "CodeSystem",
-  "id" : "ee2b237f-11da-401c-8c12-08ff17af3192-246",
-  "url" : "http://hl7.org/fhir/comparison/CodeSystem/ee2b237f-11da-401c-8c12-08ff17af3192-246",
+  "id" : "c3ec7e94-82a3-44b3-ab7d-a88d03688050-246",
+  "url" : "http://hl7.org/fhir/comparison/CodeSystem/c3ec7e94-82a3-44b3-ab7d-a88d03688050-246",
   "name" : "IntersectionTRE_R231_PalierAuthentificationAndTRE_R231_PalierAuthentification",
   "title" : "Intersection of null And null",
   "status" : "active",
-  "date" : "2025-06-03T15:38:47+00:00",
+  "date" : "2025-06-03T16:20:34+00:00",
   "property" : [{
     "code" : "dateValid",
     "description" : "date de validité d'un code concept",
