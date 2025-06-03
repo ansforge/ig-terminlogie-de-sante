@@ -10,7 +10,7 @@
   "name" : "Terminologies",
   "title" : "Terminologies  de Santé",
   "status" : "active",
-  "date" : "2025-06-02T04:28:24+00:00",
+  "date" : "2025-06-03T04:24:10+00:00",
   "publisher" : "ANS",
   "contact" : [{
     "name" : "ANS",
@@ -36534,6 +36534,18 @@
       },
       "name" : "Standard Terms Data Base Dictionnaire européen multilingue de termes normalisés descripteurs de médicaments",
       "description" : "Les standard terms (ou listes de termes normalisés) ont été établis en réponse à une demande de la Commission européenne. Ils contiennent les formes pharmaceutiques, les voies et/ou les méthodes d’administration, les unités de présentation, ainsi que les conditionnements, les systèmes de fermeture et les dispositifs d’administration des médicaments à usage humain et/ou vétérinaire.",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "CodeSystem"
+      }],
+      "reference" : {
+        "reference" : "CodeSystem/terminologie-cisis"
+      },
+      "name" : "TerminologieCISIS - Terminologie des concepts non trouvés dans les autres terminologies",
+      "description" : "Terminologie multi-domaines créée et maintenue par l'ANS contenant les termes non trouvés dans les autres terminologies internationales ou nationales.",
       "exampleBoolean" : false
     },
     {

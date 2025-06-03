@@ -6,14 +6,14 @@
   "status" : "active",
   "package-id" : "ans.fr.terminologies",
   "ig-ver" : "0.1.0-ballot",
-  "date" : "Mon, 02 Jun, 2025 04:29:16 +0000",
-  "dateISO8601" : "2025-06-02T04:29:16+00:00",
-  "errs" : 756,
+  "date" : "Tue, 03 Jun, 2025 04:25:09 +0000",
+  "dateISO8601" : "2025-06-03T04:25:09+00:00",
+  "errs" : 760,
   "warnings" : 10330,
   "hints" : 978,
   "suppressed-hints" : 0,
   "suppressed-warnings" : 0,
   "version" : "4.0.1",
   "tool" : "5.0.0 (3)",
-  "maxMemory" : 10368186072
+  "maxMemory" : 8249591832
 }

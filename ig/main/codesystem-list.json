@@ -2278,6 +2278,15 @@
       "oids" : ["1.2.250.1.213.1.6.1.111"]
     },
     {
+      "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/terminologie-cisis",
+      "version" : "202505190000",
+      "status" : "active",
+      "name" : "TerminologieCISIS",
+      "title" : "TerminologieCISIS - Terminologie des concepts non trouvés dans les autres terminologies",
+      "description" : "Terminologie multi-domaines créée et maintenue par l'ANS contenant les termes non trouvés dans les autres terminologies internationales ou nationales.",
+      "oids" : ["1.2.250.1.213.1.1.4.322"]
+    },
+    {
       "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r389-statut-bilan-projet-personnalise",
       "version" : "20250418120000",
       "status" : "active",
@@ -2393,7 +2402,7 @@
     },
     {
       "url" : "https://smt.esante.gouv.fr/terminologie-nabm",
-      "version" : "V96",
+      "version" : "V97",
       "status" : "active",
       "name" : "NABM",
       "title" : "Nomenclature des actes de biologie médicale",

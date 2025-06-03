@@ -3,8 +3,8 @@
 <CodeSystem xmlns="http://hl7.org/fhir">
   <id value="terminologie-nabm"/>
   <meta>
-    <versionId value="8.1741372734190"/>
-    <lastUpdated value="2025-03-07T18:38:54.190+00:00"/>
+    <versionId value="9"/>
+    <lastUpdated value="2025-06-02T12:21:36.671+00:00"/>
     <profile value="http://hl7.org/fhir/StructureDefinition/shareablecodesystem"/>
   </meta>
   <text>
@@ -21,12 +21,12 @@
     <system value="https://smt.esante.gouv.fr/"/>
     <value value="terminologie-nabm"/>
   </identifier>
-  <version value="V96"/>
+  <version value="V97"/>
   <name value="NABM"/>
   <title value="Nomenclature des actes de biologie médicale"/>
   <status value="active"/>
   <experimental value="false"/>
-  <date value="2025-01-10T00:00:00+00:00"/>
+  <date value="2025-06-02T00:00:00+00:00"/>
   <publisher value="Agence du numérique en santé"/>
   <description value="La NABM est la terminologie de facturation des actes de biologie médicale. Elle décrit la liste des actes de biologie dans une arborescence en chapitres et sous-chapitres ainsi que des règles de facturation."/>
   <jurisdiction>
@@ -210,7 +210,7 @@
   </concept>
   <concept>
     <code value="2004"/>
-    <display value="UR.PROTEINURIE: DOSAGE"/>
+    <display value="PROTEINES TOTALES (PROTEINURIE):"/>
     <property>
       <code value="parent"/>
       <valueCode value="13-03"/>
@@ -221,7 +221,7 @@
     </property>
     <property>
       <code value="modified"/>
-      <valueString value="19/09/2019"/>
+      <valueString value="30/05/2025"/>
     </property>
     <property>
       <code value="type"/>
@@ -646,7 +646,7 @@
   </concept>
   <concept>
     <code value="1133"/>
-    <display value="UR.:ALBUMINURIE:DOSAGE"/>
+    <display value="ALBUMINE (ALBUMINURIE):"/>
     <property>
       <code value="parent"/>
       <valueCode value="13-03"/>
@@ -657,7 +657,7 @@
     </property>
     <property>
       <code value="modified"/>
-      <valueString value="19/09/2019"/>
+      <valueString value="30/05/2025"/>
     </property>
     <property>
       <code value="type"/>
@@ -3673,8 +3673,68 @@
     </property>
   </concept>
   <concept>
+    <code value="9011"/>
+    <display value="FORFAIT DE PRISE EN CHARGE PRE-ANALYTIQUE DU PATIENT EN CAS DE DEPISTAGE COVID"/>
+    <property>
+      <code value="parent"/>
+      <valueCode value="0"/>
+    </property>
+    <property>
+      <code value="created"/>
+      <valueString value="20/05/2025"/>
+    </property>
+    <property>
+      <code value="modified"/>
+      <valueString value="30/05/2025"/>
+    </property>
+    <property>
+      <code value="type"/>
+      <valueString value="code"/>
+    </property>
+    <property>
+      <code value="initativeBiologistePossible"/>
+      <valueBoolean value="false"/>
+    </property>
+    <property>
+      <code value="indicationMédicale"/>
+      <valueBoolean value="false"/>
+    </property>
+    <property>
+      <code value="remboursementTotal"/>
+      <valueBoolean value="false"/>
+    </property>
+    <property>
+      <code value="ententePréalable"/>
+      <valueBoolean value="false"/>
+    </property>
+    <property>
+      <code value="coeffB"/>
+      <valueString value="17"/>
+    </property>
+    <property>
+      <code value="codeIncompatible"/>
+      <valueCode value="9005"/>
+    </property>
+    <property>
+      <code value="codeIncompatible"/>
+      <valueCode value="9010"/>
+    </property>
+    <property>
+      <code value="acteReserve"/>
+      <valueBoolean value="false"/>
+    </property>
+    <property>
+      <code value="rmo"/>
+      <valueBoolean value="false"/>
+    </property>
+    <property>
+      <code value="examenSanguin"/>
+      <valueBoolean value="false"/>
+    </property>
+  </concept>
+  <concept>
     <code value="0592"/>
-    <display value="SANG : CREATININE"/>
+    <display value="CREATININE (CREATININEMIE):"/>
     <property>
       <code value="parent"/>
       <valueCode value="13-01"/>
@@ -3685,7 +3745,7 @@
     </property>
     <property>
       <code value="modified"/>
-      <valueString value="19/09/2019"/>
+      <valueString value="30/05/2025"/>
     </property>
     <property>
       <code value="type"/>
@@ -7425,7 +7485,7 @@
     </property>
     <property>
       <code value="modified"/>
-      <valueString value="02/08/2024"/>
+      <valueString value="30/05/2025"/>
     </property>
     <property>
       <code value="type"/>
@@ -7458,6 +7518,10 @@
     <property>
       <code value="codeIncompatible"/>
       <valueCode value="9005"/>
+    </property>
+    <property>
+      <code value="codeIncompatible"/>
+      <valueCode value="9011"/>
     </property>
     <property>
       <code value="acteReserve"/>
@@ -9690,6 +9754,10 @@
     <property>
       <code value="child"/>
       <valueCode value="4511"/>
+    </property>
+    <property>
+      <code value="child"/>
+      <valueCode value="9011"/>
     </property>
   </concept>
   <concept>
@@ -23704,7 +23772,7 @@
     </property>
     <property>
       <code value="modified"/>
-      <valueString value="13/07/2017"/>
+      <valueString value="11/03/2025"/>
     </property>
     <property>
       <code value="type"/>
@@ -23736,7 +23804,7 @@
     </property>
     <property>
       <code value="coeffB"/>
-      <valueString value="260"/>
+      <valueString value="320"/>
     </property>
     <property>
       <code value="acteReserve"/>
@@ -24589,7 +24657,7 @@
   </concept>
   <concept>
     <code value="4086"/>
-    <display value="DPN:SECONDE DETERMINATION PRENAT. DU GENOTYPE RHD F TAL A PARTIR DU SANG MATERN"/>
+    <display value="DPN:SECONDE DETERMINATION PRENAT.DU GENOTYPE RHD F TAL A PARTIR DU SANG MATERN"/>
     <property>
       <code value="parent"/>
       <valueCode value="0"/>
@@ -24600,7 +24668,7 @@
     </property>
     <property>
       <code value="modified"/>
-      <valueString value="13/07/2017"/>
+      <valueString value="11/03/2025"/>
     </property>
     <property>
       <code value="type"/>
@@ -24632,7 +24700,7 @@
     </property>
     <property>
       <code value="coeffB"/>
-      <valueString value="260"/>
+      <valueString value="320"/>
     </property>
     <property>
       <code value="acteReserve"/>
@@ -25668,7 +25736,7 @@
     </property>
     <property>
       <code value="modified"/>
-      <valueString value="10/09/2024"/>
+      <valueString value="11/03/2025"/>
     </property>
     <property>
       <code value="type"/>
@@ -25700,7 +25768,7 @@
     </property>
     <property>
       <code value="coeffB"/>
-      <valueString value="1000"/>
+      <valueString value="1150"/>
     </property>
     <property>
       <code value="acteReserve"/>
@@ -28885,7 +28953,7 @@
   </concept>
   <concept>
     <code value="4721"/>
-    <display value="RECHERCHE D'IGG ET D'IGM OU D'IG TOTAUX TESTS SERO. PAR IMMUNOCHROMATOGRAPHIE"/>
+    <display value="RECHERCHE D'IGG ET D'IGM OU D'IG TOTAUX PAR IMMUNOCHROMATOGRAPHIE (SARS-COV-2)"/>
     <property>
       <code value="parent"/>
       <valueCode value="07-06"/>
@@ -28896,7 +28964,7 @@
     </property>
     <property>
       <code value="modified"/>
-      <valueString value="01/03/2023"/>
+      <valueString value="30/05/2025"/>
     </property>
     <property>
       <code value="type"/>
@@ -29884,7 +29952,7 @@
     </property>
     <property>
       <code value="modified"/>
-      <valueString value="10/09/2024"/>
+      <valueString value="30/05/2025"/>
     </property>
     <property>
       <code value="type"/>
@@ -29912,11 +29980,7 @@
     </property>
     <property>
       <code value="coeffB"/>
-      <valueString value="15"/>
-    </property>
-    <property>
-      <code value="codeIncompatible"/>
-      <valueCode value="4274"/>
+      <valueString value="16"/>
     </property>
     <property>
       <code value="codeIncompatible"/>
@@ -29925,6 +29989,10 @@
     <property>
       <code value="codeIncompatible"/>
       <valueCode value="9010"/>
+    </property>
+    <property>
+      <code value="codeIncompatible"/>
+      <valueCode value="9011"/>
     </property>
     <property>
       <code value="acteReserve"/>
@@ -34060,7 +34128,7 @@
     </property>
     <property>
       <code value="modified"/>
-      <valueString value="10/09/2024"/>
+      <valueString value="11/03/2025"/>
     </property>
     <property>
       <code value="type"/>
@@ -34084,7 +34152,7 @@
     </property>
     <property>
       <code value="coeffB"/>
-      <valueString value="400"/>
+      <valueString value="460"/>
     </property>
     <property>
       <code value="acteReserve"/>
@@ -38216,7 +38284,7 @@
     </property>
     <property>
       <code value="modified"/>
-      <valueString value="10/09/2024"/>
+      <valueString value="11/03/2025"/>
     </property>
     <property>
       <code value="type"/>
@@ -38244,7 +38312,7 @@
     </property>
     <property>
       <code value="coeffB"/>
-      <valueString value="3"/>
+      <valueString value="2"/>
     </property>
     <property>
       <code value="acteReserve"/>
@@ -46725,7 +46793,7 @@
   </concept>
   <concept>
     <code value="0627"/>
-    <display value="UR. : CREATININE (CREATININURIE)"/>
+    <display value="CREATININE (CREATININURIE)"/>
     <property>
       <code value="parent"/>
       <valueCode value="13-03"/>
@@ -46736,7 +46804,7 @@
     </property>
     <property>
       <code value="modified"/>
-      <valueString value="01/04/2017"/>
+      <valueString value="30/05/2025"/>
     </property>
     <property>
       <code value="type"/>
@@ -46768,7 +46836,7 @@
     </property>
     <property>
       <code value="coeffB"/>
-      <valueString value="6"/>
+      <valueString value="9"/>
     </property>
     <property>
       <code value="codeIncompatible"/>
@@ -55120,10 +55188,6 @@
     </property>
     <property>
       <code value="child"/>
-      <valueCode value="4274"/>
-    </property>
-    <property>
-      <code value="child"/>
       <valueCode value="9009"/>
     </property>
     <property>
@@ -55696,74 +55760,6 @@
     </property>
   </concept>
   <concept>
-    <code value="4274"/>
-    <display value="DETECTION DE L'ANTIGENE DU VIRUS SARS-COV-2"/>
-    <property>
-      <code value="parent"/>
-      <valueCode value="19"/>
-    </property>
-    <property>
-      <code value="created"/>
-      <valueString value="16/10/2020"/>
-    </property>
-    <property>
-      <code value="modified"/>
-      <valueString value="01/03/2023"/>
-    </property>
-    <property>
-      <code value="type"/>
-      <valueString value="code"/>
-    </property>
-    <property>
-      <code value="initativeBiologistePossible"/>
-      <valueBoolean value="false"/>
-    </property>
-    <property>
-      <code value="indicationMédicale"/>
-      <valueBoolean value="true"/>
-    </property>
-    <property>
-      <code value="remboursementTotal"/>
-      <valueBoolean value="false"/>
-    </property>
-    <property>
-      <code value="ententePréalable"/>
-      <valueBoolean value="false"/>
-    </property>
-    <property>
-      <code value="aPourContingenceTechnique"/>
-      <valueCode value="CONTINGENCE_4"/>
-    </property>
-    <property>
-      <code value="nombreMaximumParFacturation"/>
-      <valueInteger value="1"/>
-    </property>
-    <property>
-      <code value="coeffB"/>
-      <valueString value="36"/>
-    </property>
-    <property>
-      <code value="codeIncompatible"/>
-      <valueCode value="9005"/>
-    </property>
-    <property>
-      <code value="codeIncompatible"/>
-      <valueCode value="9106"/>
-    </property>
-    <property>
-      <code value="acteReserve"/>
-      <valueBoolean value="true"/>
-    </property>
-    <property>
-      <code value="rmo"/>
-      <valueBoolean value="false"/>
-    </property>
-    <property>
-      <code value="examenSanguin"/>
-      <valueBoolean value="false"/>
-    </property>
-  </concept>
-  <concept>
     <code value="0668"/>
     <display value="ANTIDEPRESSEURS : RECHERCHE ET DOSAGE DANS UN AUTRE LIQUIDE BIOLOGIQUE QUE LE SG"/>
     <property>
@@ -56028,7 +56024,7 @@
     </property>
     <property>
       <code value="modified"/>
-      <valueString value="01/03/2023"/>
+      <valueString value="30/05/2025"/>
     </property>
     <property>
       <code value="type"/>
@@ -57108,7 +57104,7 @@
     </property>
     <property>
       <code value="modified"/>
-      <valueString value="10/09/2024"/>
+      <valueString value="11/03/2025"/>
     </property>
     <property>
       <code value="type"/>
@@ -57140,7 +57136,7 @@
     </property>
     <property>
       <code value="coeffB"/>
-      <valueString value="9"/>
+      <valueString value="13"/>
     </property>
     <property>
       <code value="codeIncompatible"/>
@@ -57361,7 +57357,7 @@
   </concept>
   <concept>
     <code value="5272"/>
-    <display value="DETECTION DES GENOMES DU VIRUS DE LA GRIPPE A ET B, ET DU SARS-COV-2 PAR RT-PCR"/>
+    <display value="DETECTION DU GENOME DES VIRUS INFLUENZA A ET B DE LA GRIPPE"/>
     <property>
       <code value="parent"/>
       <valueCode value="19"/>
@@ -57372,7 +57368,7 @@
     </property>
     <property>
       <code value="modified"/>
-      <valueString value="06/01/2021"/>
+      <valueString value="08/01/2025"/>
     </property>
     <property>
       <code value="type"/>
@@ -59188,10 +59184,6 @@
     </property>
     <property>
       <code value="codeIncompatible"/>
-      <valueCode value="4274"/>
-    </property>
-    <property>
-      <code value="codeIncompatible"/>
       <valueCode value="5273"/>
     </property>
     <property>
@@ -60632,7 +60624,7 @@
     </property>
     <property>
       <code value="modified"/>
-      <valueString value="13/04/2014"/>
+      <valueString value="11/03/2025"/>
     </property>
     <property>
       <code value="type"/>
@@ -60660,7 +60652,7 @@
     </property>
     <property>
       <code value="coeffB"/>
-      <valueString value="8"/>
+      <valueString value="11"/>
     </property>
     <property>
       <code value="acteReserve"/>

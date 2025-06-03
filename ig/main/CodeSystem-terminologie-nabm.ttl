@@ -10,8 +10,8 @@
   fhir:nodeRole fhir:treeRoot ;
   fhir:id [ fhir:v "terminologie-nabm"] ; # 
   fhir:meta [
-     fhir:versionId [ fhir:v "8.1741372734190" ] ;
-     fhir:lastUpdated [ fhir:v "2025-03-07T18:38:54.190+00:00"^^xsd:dateTime ] ;
+     fhir:versionId [ fhir:v "9" ] ;
+     fhir:lastUpdated [ fhir:v "2025-06-02T12:21:36.671+00:00"^^xsd:dateTime ] ;
      fhir:profile ( [
        fhir:v "http://hl7.org/fhir/StructureDefinition/shareablecodesystem"^^xsd:anyURI ;
        fhir:link <http://hl7.org/fhir/StructureDefinition/shareablecodesystem>
@@ -31,12 +31,12 @@
      fhir:system [ fhir:v "https://smt.esante.gouv.fr/"^^xsd:anyURI ] ;
      fhir:value [ fhir:v "terminologie-nabm" ]
   ] ) ; # 
-  fhir:version [ fhir:v "V96"] ; # 
+  fhir:version [ fhir:v "V97"] ; # 
   fhir:name [ fhir:v "NABM"] ; # 
   fhir:title [ fhir:v "Nomenclature des actes de biologie médicale"] ; # 
   fhir:status [ fhir:v "active"] ; # 
   fhir:experimental [ fhir:v false] ; # 
-  fhir:date [ fhir:v "2025-01-10T00:00:00+00:00"^^xsd:dateTime] ; # 
+  fhir:date [ fhir:v "2025-06-02T00:00:00+00:00"^^xsd:dateTime] ; # 
   fhir:publisher [ fhir:v "Agence du numérique en santé"] ; # 
   fhir:description [ fhir:v "La NABM est la terminologie de facturation des actes de biologie médicale. Elle décrit la liste des actes de biologie dans une arborescence en chapitres et sous-chapitres ainsi que des règles de facturation."] ; # 
   fhir:jurisdiction ( [
@@ -229,7 +229,7 @@
      ] )
   ] [
      fhir:code [ fhir:v "2004" ] ;
-     fhir:display [ fhir:v "UR.PROTEINURIE: DOSAGE" ] ;
+     fhir:display [ fhir:v "PROTEINES TOTALES (PROTEINURIE):" ] ;
      fhir:property ( [
        fhir:code [ fhir:v "parent" ] ;
        fhir:value [
@@ -246,7 +246,7 @@
        fhir:code [ fhir:v "modified" ] ;
        fhir:value [
          a fhir:string ;
-         fhir:v "19/09/2019"
+         fhir:v "30/05/2025"
        ]
      ] [
        fhir:code [ fhir:v "type" ] ;
@@ -869,7 +869,7 @@
      ] )
   ] [
      fhir:code [ fhir:v "1133" ] ;
-     fhir:display [ fhir:v "UR.:ALBUMINURIE:DOSAGE" ] ;
+     fhir:display [ fhir:v "ALBUMINE (ALBUMINURIE):" ] ;
      fhir:property ( [
        fhir:code [ fhir:v "parent" ] ;
        fhir:value [
@@ -886,7 +886,7 @@
        fhir:code [ fhir:v "modified" ] ;
        fhir:value [
          a fhir:string ;
-         fhir:v "19/09/2019"
+         fhir:v "30/05/2025"
        ]
      ] [
        fhir:code [ fhir:v "type" ] ;
@@ -5310,8 +5310,96 @@
        ]
      ] )
   ] [
+     fhir:code [ fhir:v "9011" ] ;
+     fhir:display [ fhir:v "FORFAIT DE PRISE EN CHARGE PRE-ANALYTIQUE DU PATIENT EN CAS DE DEPISTAGE COVID" ] ;
+     fhir:property ( [
+       fhir:code [ fhir:v "parent" ] ;
+       fhir:value [
+         a fhir:code ;
+         fhir:v "0"
+       ]
+     ] [
+       fhir:code [ fhir:v "created" ] ;
+       fhir:value [
+         a fhir:string ;
+         fhir:v "20/05/2025"
+       ]
+     ] [
+       fhir:code [ fhir:v "modified" ] ;
+       fhir:value [
+         a fhir:string ;
+         fhir:v "30/05/2025"
+       ]
+     ] [
+       fhir:code [ fhir:v "type" ] ;
+       fhir:value [
+         a fhir:string ;
+         fhir:v "code"
+       ]
+     ] [
+       fhir:code [ fhir:v "initativeBiologistePossible" ] ;
+       fhir:value [
+         a fhir:boolean ;
+         fhir:v false
+       ]
+     ] [
+       fhir:code [ fhir:v "indicationMédicale" ] ;
+       fhir:value [
+         a fhir:boolean ;
+         fhir:v false
+       ]
+     ] [
+       fhir:code [ fhir:v "remboursementTotal" ] ;
+       fhir:value [
+         a fhir:boolean ;
+         fhir:v false
+       ]
+     ] [
+       fhir:code [ fhir:v "ententePréalable" ] ;
+       fhir:value [
+         a fhir:boolean ;
+         fhir:v false
+       ]
+     ] [
+       fhir:code [ fhir:v "coeffB" ] ;
+       fhir:value [
+         a fhir:string ;
+         fhir:v "17"
+       ]
+     ] [
+       fhir:code [ fhir:v "codeIncompatible" ] ;
+       fhir:value [
+         a fhir:code ;
+         fhir:v "9005"
+       ]
+     ] [
+       fhir:code [ fhir:v "codeIncompatible" ] ;
+       fhir:value [
+         a fhir:code ;
+         fhir:v "9010"
+       ]
+     ] [
+       fhir:code [ fhir:v "acteReserve" ] ;
+       fhir:value [
+         a fhir:boolean ;
+         fhir:v false
+       ]
+     ] [
+       fhir:code [ fhir:v "rmo" ] ;
+       fhir:value [
+         a fhir:boolean ;
+         fhir:v false
+       ]
+     ] [
+       fhir:code [ fhir:v "examenSanguin" ] ;
+       fhir:value [
+         a fhir:boolean ;
+         fhir:v false
+       ]
+     ] )
+  ] [
      fhir:code [ fhir:v "0592" ] ;
-     fhir:display [ fhir:v "SANG : CREATININE" ] ;
+     fhir:display [ fhir:v "CREATININE (CREATININEMIE):" ] ;
      fhir:property ( [
        fhir:code [ fhir:v "parent" ] ;
        fhir:value [
@@ -5328,7 +5416,7 @@
        fhir:code [ fhir:v "modified" ] ;
        fhir:value [
          a fhir:string ;
-         fhir:v "19/09/2019"
+         fhir:v "30/05/2025"
        ]
      ] [
        fhir:code [ fhir:v "type" ] ;
@@ -10818,7 +10906,7 @@
        fhir:code [ fhir:v "modified" ] ;
        fhir:value [
          a fhir:string ;
-         fhir:v "02/08/2024"
+         fhir:v "30/05/2025"
        ]
      ] [
        fhir:code [ fhir:v "type" ] ;
@@ -10867,6 +10955,12 @@
        fhir:value [
          a fhir:code ;
          fhir:v "9005"
+       ]
+     ] [
+       fhir:code [ fhir:v "codeIncompatible" ] ;
+       fhir:value [
+         a fhir:code ;
+         fhir:v "9011"
        ]
      ] [
        fhir:code [ fhir:v "acteReserve" ] ;
@@ -14147,6 +14241,12 @@
        fhir:value [
          a fhir:code ;
          fhir:v "4511"
+       ]
+     ] [
+       fhir:code [ fhir:v "child" ] ;
+       fhir:value [
+         a fhir:code ;
+         fhir:v "9011"
        ]
      ] )
   ] [
@@ -34705,7 +34805,7 @@
        fhir:code [ fhir:v "modified" ] ;
        fhir:value [
          a fhir:string ;
-         fhir:v "13/07/2017"
+         fhir:v "11/03/2025"
        ]
      ] [
        fhir:code [ fhir:v "type" ] ;
@@ -34753,7 +34853,7 @@
        fhir:code [ fhir:v "coeffB" ] ;
        fhir:value [
          a fhir:string ;
-         fhir:v "260"
+         fhir:v "320"
        ]
      ] [
        fhir:code [ fhir:v "acteReserve" ] ;
@@ -36006,7 +36106,7 @@
      ] )
   ] [
      fhir:code [ fhir:v "4086" ] ;
-     fhir:display [ fhir:v "DPN:SECONDE DETERMINATION PRENAT. DU GENOTYPE RHD F TAL A PARTIR DU SANG MATERN" ] ;
+     fhir:display [ fhir:v "DPN:SECONDE DETERMINATION PRENAT.DU GENOTYPE RHD F TAL A PARTIR DU SANG MATERN" ] ;
      fhir:property ( [
        fhir:code [ fhir:v "parent" ] ;
        fhir:value [
@@ -36023,7 +36123,7 @@
        fhir:code [ fhir:v "modified" ] ;
        fhir:value [
          a fhir:string ;
-         fhir:v "13/07/2017"
+         fhir:v "11/03/2025"
        ]
      ] [
        fhir:code [ fhir:v "type" ] ;
@@ -36071,7 +36171,7 @@
        fhir:code [ fhir:v "coeffB" ] ;
        fhir:value [
          a fhir:string ;
-         fhir:v "260"
+         fhir:v "320"
        ]
      ] [
        fhir:code [ fhir:v "acteReserve" ] ;
@@ -37591,7 +37691,7 @@
        fhir:code [ fhir:v "modified" ] ;
        fhir:value [
          a fhir:string ;
-         fhir:v "10/09/2024"
+         fhir:v "11/03/2025"
        ]
      ] [
        fhir:code [ fhir:v "type" ] ;
@@ -37639,7 +37739,7 @@
        fhir:code [ fhir:v "coeffB" ] ;
        fhir:value [
          a fhir:string ;
-         fhir:v "1000"
+         fhir:v "1150"
        ]
      ] [
        fhir:code [ fhir:v "acteReserve" ] ;
@@ -42312,7 +42412,7 @@
      ] )
   ] [
      fhir:code [ fhir:v "4721" ] ;
-     fhir:display [ fhir:v "RECHERCHE D'IGG ET D'IGM OU D'IG TOTAUX TESTS SERO. PAR IMMUNOCHROMATOGRAPHIE" ] ;
+     fhir:display [ fhir:v "RECHERCHE D'IGG ET D'IGM OU D'IG TOTAUX PAR IMMUNOCHROMATOGRAPHIE (SARS-COV-2)" ] ;
      fhir:property ( [
        fhir:code [ fhir:v "parent" ] ;
        fhir:value [
@@ -42329,7 +42429,7 @@
        fhir:code [ fhir:v "modified" ] ;
        fhir:value [
          a fhir:string ;
-         fhir:v "01/03/2023"
+         fhir:v "30/05/2025"
        ]
      ] [
        fhir:code [ fhir:v "type" ] ;
@@ -43779,7 +43879,7 @@
        fhir:code [ fhir:v "modified" ] ;
        fhir:value [
          a fhir:string ;
-         fhir:v "10/09/2024"
+         fhir:v "30/05/2025"
        ]
      ] [
        fhir:code [ fhir:v "type" ] ;
@@ -43821,13 +43921,7 @@
        fhir:code [ fhir:v "coeffB" ] ;
        fhir:value [
          a fhir:string ;
-         fhir:v "15"
-       ]
-     ] [
-       fhir:code [ fhir:v "codeIncompatible" ] ;
-       fhir:value [
-         a fhir:code ;
-         fhir:v "4274"
+         fhir:v "16"
        ]
      ] [
        fhir:code [ fhir:v "codeIncompatible" ] ;
@@ -43840,6 +43934,12 @@
        fhir:value [
          a fhir:code ;
          fhir:v "9010"
+       ]
+     ] [
+       fhir:code [ fhir:v "codeIncompatible" ] ;
+       fhir:value [
+         a fhir:code ;
+         fhir:v "9011"
        ]
      ] [
        fhir:code [ fhir:v "acteReserve" ] ;
@@ -49903,7 +50003,7 @@
        fhir:code [ fhir:v "modified" ] ;
        fhir:value [
          a fhir:string ;
-         fhir:v "10/09/2024"
+         fhir:v "11/03/2025"
        ]
      ] [
        fhir:code [ fhir:v "type" ] ;
@@ -49939,7 +50039,7 @@
        fhir:code [ fhir:v "coeffB" ] ;
        fhir:value [
          a fhir:string ;
-         fhir:v "400"
+         fhir:v "460"
        ]
      ] [
        fhir:code [ fhir:v "acteReserve" ] ;
@@ -56007,7 +56107,7 @@
        fhir:code [ fhir:v "modified" ] ;
        fhir:value [
          a fhir:string ;
-         fhir:v "10/09/2024"
+         fhir:v "11/03/2025"
        ]
      ] [
        fhir:code [ fhir:v "type" ] ;
@@ -56049,7 +56149,7 @@
        fhir:code [ fhir:v "coeffB" ] ;
        fhir:value [
          a fhir:string ;
-         fhir:v "3"
+         fhir:v "2"
        ]
      ] [
        fhir:code [ fhir:v "acteReserve" ] ;
@@ -68496,7 +68596,7 @@
      ] )
   ] [
      fhir:code [ fhir:v "0627" ] ;
-     fhir:display [ fhir:v "UR. : CREATININE (CREATININURIE)" ] ;
+     fhir:display [ fhir:v "CREATININE (CREATININURIE)" ] ;
      fhir:property ( [
        fhir:code [ fhir:v "parent" ] ;
        fhir:value [
@@ -68513,7 +68613,7 @@
        fhir:code [ fhir:v "modified" ] ;
        fhir:value [
          a fhir:string ;
-         fhir:v "01/04/2017"
+         fhir:v "30/05/2025"
        ]
      ] [
        fhir:code [ fhir:v "type" ] ;
@@ -68561,7 +68661,7 @@
        fhir:code [ fhir:v "coeffB" ] ;
        fhir:value [
          a fhir:string ;
-         fhir:v "6"
+         fhir:v "9"
        ]
      ] [
        fhir:code [ fhir:v "codeIncompatible" ] ;
@@ -80827,12 +80927,6 @@
        fhir:code [ fhir:v "child" ] ;
        fhir:value [
          a fhir:code ;
-         fhir:v "4274"
-       ]
-     ] [
-       fhir:code [ fhir:v "child" ] ;
-       fhir:value [
-         a fhir:code ;
          fhir:v "9009"
        ]
      ] [
@@ -81675,106 +81769,6 @@
        ]
      ] )
   ] [
-     fhir:code [ fhir:v "4274" ] ;
-     fhir:display [ fhir:v "DETECTION DE L'ANTIGENE DU VIRUS SARS-COV-2" ] ;
-     fhir:property ( [
-       fhir:code [ fhir:v "parent" ] ;
-       fhir:value [
-         a fhir:code ;
-         fhir:v "19"
-       ]
-     ] [
-       fhir:code [ fhir:v "created" ] ;
-       fhir:value [
-         a fhir:string ;
-         fhir:v "16/10/2020"
-       ]
-     ] [
-       fhir:code [ fhir:v "modified" ] ;
-       fhir:value [
-         a fhir:string ;
-         fhir:v "01/03/2023"
-       ]
-     ] [
-       fhir:code [ fhir:v "type" ] ;
-       fhir:value [
-         a fhir:string ;
-         fhir:v "code"
-       ]
-     ] [
-       fhir:code [ fhir:v "initativeBiologistePossible" ] ;
-       fhir:value [
-         a fhir:boolean ;
-         fhir:v false
-       ]
-     ] [
-       fhir:code [ fhir:v "indicationMédicale" ] ;
-       fhir:value [
-         a fhir:boolean ;
-         fhir:v true
-       ]
-     ] [
-       fhir:code [ fhir:v "remboursementTotal" ] ;
-       fhir:value [
-         a fhir:boolean ;
-         fhir:v false
-       ]
-     ] [
-       fhir:code [ fhir:v "ententePréalable" ] ;
-       fhir:value [
-         a fhir:boolean ;
-         fhir:v false
-       ]
-     ] [
-       fhir:code [ fhir:v "aPourContingenceTechnique" ] ;
-       fhir:value [
-         a fhir:code ;
-         fhir:v "CONTINGENCE_4"
-       ]
-     ] [
-       fhir:code [ fhir:v "nombreMaximumParFacturation" ] ;
-       fhir:value [
-         a fhir:integer ;
-         fhir:v 1
-       ]
-     ] [
-       fhir:code [ fhir:v "coeffB" ] ;
-       fhir:value [
-         a fhir:string ;
-         fhir:v "36"
-       ]
-     ] [
-       fhir:code [ fhir:v "codeIncompatible" ] ;
-       fhir:value [
-         a fhir:code ;
-         fhir:v "9005"
-       ]
-     ] [
-       fhir:code [ fhir:v "codeIncompatible" ] ;
-       fhir:value [
-         a fhir:code ;
-         fhir:v "9106"
-       ]
-     ] [
-       fhir:code [ fhir:v "acteReserve" ] ;
-       fhir:value [
-         a fhir:boolean ;
-         fhir:v true
-       ]
-     ] [
-       fhir:code [ fhir:v "rmo" ] ;
-       fhir:value [
-         a fhir:boolean ;
-         fhir:v false
-       ]
-     ] [
-       fhir:code [ fhir:v "examenSanguin" ] ;
-       fhir:value [
-         a fhir:boolean ;
-         fhir:v false
-       ]
-     ] )
-  ] [
      fhir:code [ fhir:v "0668" ] ;
      fhir:display [ fhir:v "ANTIDEPRESSEURS : RECHERCHE ET DOSAGE DANS UN AUTRE LIQUIDE BIOLOGIQUE QUE LE SG" ] ;
      fhir:property ( [
@@ -82163,7 +82157,7 @@
        fhir:code [ fhir:v "modified" ] ;
        fhir:value [
          a fhir:string ;
-         fhir:v "01/03/2023"
+         fhir:v "30/05/2025"
        ]
      ] [
        fhir:code [ fhir:v "type" ] ;
@@ -83749,7 +83743,7 @@
        fhir:code [ fhir:v "modified" ] ;
        fhir:value [
          a fhir:string ;
-         fhir:v "10/09/2024"
+         fhir:v "11/03/2025"
        ]
      ] [
        fhir:code [ fhir:v "type" ] ;
@@ -83797,7 +83791,7 @@
        fhir:code [ fhir:v "coeffB" ] ;
        fhir:value [
          a fhir:string ;
-         fhir:v "9"
+         fhir:v "13"
        ]
      ] [
        fhir:code [ fhir:v "codeIncompatible" ] ;
@@ -84120,7 +84114,7 @@
      ] )
   ] [
      fhir:code [ fhir:v "5272" ] ;
-     fhir:display [ fhir:v "DETECTION DES GENOMES DU VIRUS DE LA GRIPPE A ET B, ET DU SARS-COV-2 PAR RT-PCR" ] ;
+     fhir:display [ fhir:v "DETECTION DU GENOME DES VIRUS INFLUENZA A ET B DE LA GRIPPE" ] ;
      fhir:property ( [
        fhir:code [ fhir:v "parent" ] ;
        fhir:value [
@@ -84137,7 +84131,7 @@
        fhir:code [ fhir:v "modified" ] ;
        fhir:value [
          a fhir:string ;
-         fhir:v "06/01/2021"
+         fhir:v "08/01/2025"
        ]
      ] [
        fhir:code [ fhir:v "type" ] ;
@@ -86811,12 +86805,6 @@
        fhir:code [ fhir:v "codeIncompatible" ] ;
        fhir:value [
          a fhir:code ;
-         fhir:v "4274"
-       ]
-     ] [
-       fhir:code [ fhir:v "codeIncompatible" ] ;
-       fhir:value [
-         a fhir:code ;
          fhir:v "5273"
        ]
      ] [
@@ -88931,7 +88919,7 @@
        fhir:code [ fhir:v "modified" ] ;
        fhir:value [
          a fhir:string ;
-         fhir:v "13/04/2014"
+         fhir:v "11/03/2025"
        ]
      ] [
        fhir:code [ fhir:v "type" ] ;
@@ -88973,7 +88961,7 @@
        fhir:code [ fhir:v "coeffB" ] ;
        fhir:value [
          a fhir:string ;
-         fhir:v "8"
+         fhir:v "11"
        ]
      ] [
        fhir:code [ fhir:v "acteReserve" ] ;

@@ -1,7 +1,7 @@
 Terminologies : Validation Results
 =========================================
 
-err = 756, warn = 10330, info = 978
+err = 760, warn = 10330, info = 978
 $--
 Generated $--. FHIR version $-- for ans.fr.terminologies#$-- (canonical = https://interop.esante.gouv.fr/terminologies)
  Build Errors : 400 / 16 / 0
@@ -104,7 +104,7 @@ Generated $--. FHIR version $-- for ans.fr.terminologies#$-- (canonical = https:
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_J143_AdministrativeGender_CISIS_JDV-J143-AdministrativeGender-CISIS : 0 / 1 / 1
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_J144_ParticipationType_CISIS_JDV-J144-ParticipationType-CISIS : 0 / 1 / 1
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_J145_MethodBodyWeight_ENS_JDV-J145-MethodBodyWeight-ENS : 0 / 1 / 1
- /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_J146_MethodBodyHeight_ENS_JDV-J146-MethodBodyHeight-ENS : 0 / 3 / 2
+ /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_J146_MethodBodyHeight_ENS_JDV-J146-MethodBodyHeight-ENS : 1 / 2 / 2
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_J147_MethodHeartrate_ENS_JDV-J147-MethodHeartrate-ENS : 0 / 1 / 1
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_J148_ReferenceRangeAppliesTo_CISIS_JDV-J148-ReferenceRangeAppliesTo-CISIS : 0 / 1 / 1
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_J149_BodySiteBP_ENS_JDV-J149-BodySiteBP-ENS : 0 / 1 / 1
@@ -260,7 +260,7 @@ Generated $--. FHIR version $-- for ans.fr.terminologies#$-- (canonical = https:
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_J48_ProfessionNonPS_CISIS_JDV-J48-ProfessionNonPS-CISIS : 0 / 1 / 1
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_J49_UcumUniteLongueur_JDV-J49-UcumUniteLongueur : 0 / 1 / 1
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_J50_AccessibiliteLieu_ROR_JDV-J50-AccessibiliteLieu-ROR : 0 / 1 / 1
- /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_J51_FamilleActiviteOperationnelle_ROR_JDV-J51-FamilleActiviteOperationnelle-ROR : 24 / 3 / 2
+ /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_J51_FamilleActiviteOperationnelle_ROR_JDV-J51-FamilleActiviteOperationnelle-ROR : 25 / 2 / 2
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_J52_AvailabilityStatus_CISIS_JDV-J52-AvailabilityStatus-CISIS : 0 / 1 / 1
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_J53_TypeRequeteGestionDossier_CISIS_JDV-J53-TypeRequeteGestionDossier-CISIS : 0 / 1 / 1
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_J54_Profession_ROR_JDV-J54-Profession-ROR : 0 / 1 / 1
@@ -583,6 +583,7 @@ Generated $--. FHIR version $-- for ans.fr.terminologies#$-- (canonical = https:
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/TRE/TRE_R95_UsagerTitre_TRE-R95-UsagerTitre : 0 / 1 / 4
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/TRE/TRE_R96_AutreFonctionSanitaire_TRE-R96-AutreFonctionSanitaire : 0 / 1 / 4
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/TRE/TRE_R97_DroitExerciceCompl_TRE-R97-DroitExerciceCompl : 0 / 1 / 4
+ /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/TRE/TerminologieCISIS_terminologie-cisis : 2 / 2 / 1
 </table>
 == n/a ==
 WARNING: input/sql/sql-add-info.json$.select[0].select[0].column[0]: This column is not defined as a collection, but the path statement 'system' might return multiple values for the column 'system' for some inputs
@@ -2118,7 +2119,8 @@ WARNING: ValueSet/JDV-J145-MethodBodyWeight-ENS: ValueSet: Published value sets 
 WARNING: ValueSet/JDV-J146-MethodBodyHeight-ENS: ValueSet.compose.include[0].system: No definition could be found for URL value 'https://smt.esante.gouv.fr/terminologie-ncit'
 INFORMATION: ValueSet/JDV-J146-MethodBodyHeight-ENS: ValueSet.compose.include[0].concept[0]: A definition for CodeSystem 'https://smt.esante.gouv.fr/terminologie-ncit' could not be found, so the code cannot be validated
 WARNING: ValueSet/JDV-J146-MethodBodyHeight-ENS: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.title is mandatory, but it is not present
-WARNING: ValueSet.where(id = 'JDV-J146-MethodBodyHeight-ENS'): Error from https://tx.fhir.org/r4: Unable to provide support for code system https://smt.esante.gouv.fr/terminologie-ncit
+ERROR: ValueSet.where(id = 'JDV-J146-MethodBodyHeight-ENS'): Error from https://smt.esante.gouv.fr/fhir: Error: [c55e4d87-c825-4e71-910f-9c7668ca8193]: A usable code system with URL https://smt.esante.gouv.fr/terminologie-ncit could not be resolved.
+Information: X-Request-Id: 69eb603c-b4f4-4a8f-bbf5-6eec7eea726a
 == input/ontoserver/JDV/JDV_J147_MethodHeartrate_ENS_JDV-J147-MethodHeartrate-ENS.json ==
 WARNING: ValueSet/JDV-J147-MethodHeartrate-ENS: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.title is mandatory, but it is not present
 == input/ontoserver/JDV/JDV_J148_ReferenceRangeAppliesTo_CISIS_JDV-J148-ReferenceRangeAppliesTo-CISIS.json ==
@@ -2512,7 +2514,8 @@ ERROR: ValueSet/JDV-J51-FamilleActiviteOperationnelle-ROR: ValueSet.compose.incl
 ERROR: ValueSet/JDV-J51-FamilleActiviteOperationnelle-ROR: ValueSet.compose.include[1].concept[23]: The code '065' is not valid in the system https://mos.esante.gouv.fr/NOS/TRE_R265-PrestationPilotageSerafin/FHIR/TRE-R265-PrestationPilotageSerafin (A definition for CodeSystem 'https://mos.esante.gouv.fr/NOS/TRE_R265-PrestationPilotageSerafin/FHIR/TRE-R265-PrestationPilotageSerafin' could not be found, so the code cannot be validated)
 ERROR: ValueSet/JDV-J51-FamilleActiviteOperationnelle-ROR: ValueSet.compose.include[1].concept[24]: The code '067' is not valid in the system https://mos.esante.gouv.fr/NOS/TRE_R265-PrestationPilotageSerafin/FHIR/TRE-R265-PrestationPilotageSerafin (A definition for CodeSystem 'https://mos.esante.gouv.fr/NOS/TRE_R265-PrestationPilotageSerafin/FHIR/TRE-R265-PrestationPilotageSerafin' could not be found, so the code cannot be validated)
 WARNING: ValueSet/JDV-J51-FamilleActiviteOperationnelle-ROR: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.title is mandatory, but it is not present
-WARNING: ValueSet.where(id = 'JDV-J51-FamilleActiviteOperationnelle-ROR'): Error from https://tx.fhir.org/r4: Unable to provide support for code system https://mos.esante.gouv.fr/NOS/TRE_R265-PrestationPilotageSerafin/FHIR/TRE-R265-PrestationPilotageSerafin
+ERROR: ValueSet.where(id = 'JDV-J51-FamilleActiviteOperationnelle-ROR'): Error from https://smt.esante.gouv.fr/fhir: Error: [65125b83-100f-447c-b4d5-9dc158f6558a]: A usable code system with URL https://mos.esante.gouv.fr/NOS/TRE_R265-PrestationPilotageSerafin/FHIR/TRE-R265-PrestationPilotageSerafin could not be resolved.
+Information: X-Request-Id: 8acfa22f-0cd8-42b3-8fb2-ef0ea88f61a9
 == input/ontoserver/JDV/JDV_J52_AvailabilityStatus_CISIS_JDV-J52-AvailabilityStatus-CISIS.json ==
 WARNING: ValueSet/JDV-J52-AvailabilityStatus-CISIS: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.title is mandatory, but it is not present
 == input/ontoserver/JDV/JDV_J53_TypeRequeteGestionDossier_CISIS_JDV-J53-TypeRequeteGestionDossier-CISIS.json ==
@@ -13632,3 +13635,8 @@ WARNING: CodeSystem/TRE-R97-DroitExerciceCompl: CodeSystem: Published code syste
 INFORMATION: CodeSystem/TRE-R97-DroitExerciceCompl: CodeSystem.property[0]: This property has only a code ('dateValid') and not a URI, so it has no clearly defined meaning in the terminology ecosystem
 INFORMATION: CodeSystem/TRE-R97-DroitExerciceCompl: CodeSystem.property[1]: This property has only a code ('dateMaj') and not a URI, so it has no clearly defined meaning in the terminology ecosystem
 INFORMATION: CodeSystem/TRE-R97-DroitExerciceCompl: CodeSystem.property[2]: This property has only a code ('dateFin') and not a URI, so it has no clearly defined meaning in the terminology ecosystem
+== input/ontoserver/TRE/TerminologieCISIS_terminologie-cisis.json ==
+ERROR: CodeSystem.where(url = 'https://smt.esante.gouv.fr/fhir/CodeSystem/terminologie-cisis'): Conformance resource /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/TRE/TerminologieCISIS_terminologie-cisis.json - the canonical URL (https://interop.esante.gouv.fr/terminologies/CodeSystem/terminologie-cisis) does not match the URL (https://smt.esante.gouv.fr/fhir/CodeSystem/terminologie-cisis)
+WARNING: CodeSystem/terminologie-cisis: CodeSystem.property[3].uri: No definition could be found for URL value 'https://smt.esante.gouv.fr/fhir/concept-properties#creationDate'
+WARNING: CodeSystem/terminologie-cisis: CodeSystem.property[3]: The base property uri 'https://smt.esante.gouv.fr/fhir/concept-properties' is not known for the property 'creationDate', so the property values can not be validated fully
+ERROR: /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/TRE/TerminologieCISIS_terminologie-cisis: URL Mismatch https://interop.esante.gouv.fr/terminologies/CodeSystem/terminologie-cisis vs https://smt.esante.gouv.fr/fhir/CodeSystem/terminologie-cisis

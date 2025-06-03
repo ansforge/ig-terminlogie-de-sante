@@ -18,7 +18,7 @@
   fhir:name [ fhir:v "Terminologies"] ; # 
   fhir:title [ fhir:v "Terminologies  de Santé"] ; # 
   fhir:status [ fhir:v "active"] ; # 
-  fhir:date [ fhir:v "2025-06-02T04:28:24+00:00"^^xsd:dateTime] ; # 
+  fhir:date [ fhir:v "2025-06-03T04:24:10+00:00"^^xsd:dateTime] ; # 
   fhir:publisher [ fhir:v "ANS"] ; # 
   fhir:contact ( [
      fhir:name [ fhir:v "ANS" ] ;
@@ -50344,6 +50344,24 @@
        ] ;
        fhir:name [ fhir:v "Standard Terms Data Base Dictionnaire européen multilingue de termes normalisés descripteurs de médicaments" ] ;
        fhir:description [ fhir:v "Les standard terms (ou listes de termes normalisés) ont été établis en réponse à une demande de la Commission européenne. Ils contiennent les formes pharmaceutiques, les voies et/ou les méthodes d’administration, les unités de présentation, ainsi que les conditionnements, les systèmes de fermeture et les dispositifs d’administration des médicaments à usage humain et/ou vétérinaire." ] ;
+       fhir:example [
+         a fhir:boolean ;
+         fhir:v false
+       ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [
+           a fhir:string ;
+           fhir:v "CodeSystem"
+         ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <https://interop.esante.gouv.fr/terminologies/CodeSystem/terminologie-cisis> ;
+         fhir:reference [ fhir:v "CodeSystem/terminologie-cisis" ]
+       ] ;
+       fhir:name [ fhir:v "TerminologieCISIS - Terminologie des concepts non trouvés dans les autres terminologies" ] ;
+       fhir:description [ fhir:v "Terminologie multi-domaines créée et maintenue par l'ANS contenant les termes non trouvés dans les autres terminologies internationales ou nationales." ] ;
        fhir:example [
          a fhir:boolean ;
          fhir:v false

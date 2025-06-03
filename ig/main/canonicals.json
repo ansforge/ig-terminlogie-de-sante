@@ -4348,6 +4348,14 @@
     "oids" : ["1.2.250.1.213.1.6.1.111"]
   },
   {
+    "id" : "terminologie-cisis",
+    "type" : "CodeSystem",
+    "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/terminologie-cisis",
+    "version" : "202505190000",
+    "name" : "TerminologieCISIS",
+    "oids" : ["1.2.250.1.213.1.1.4.322"]
+  },
+  {
     "id" : "tre-r389-statut-bilan-projet-personnalise",
     "type" : "CodeSystem",
     "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r389-statut-bilan-projet-personnalise",
@@ -4526,7 +4534,7 @@
     "id" : "terminologie-nabm",
     "type" : "CodeSystem",
     "url" : "https://smt.esante.gouv.fr/terminologie-nabm",
-    "version" : "V96",
+    "version" : "V97",
     "name" : "NABM",
     "oids" : ["1.2.250.1.215.300.2"]
   },

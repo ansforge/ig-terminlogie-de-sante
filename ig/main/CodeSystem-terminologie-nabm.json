@@ -2,8 +2,8 @@
   "resourceType" : "CodeSystem",
   "id" : "terminologie-nabm",
   "meta" : {
-    "versionId" : "8.1741372734190",
-    "lastUpdated" : "2025-03-07T18:38:54.190+00:00",
+    "versionId" : "9",
+    "lastUpdated" : "2025-06-02T12:21:36.671+00:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablecodesystem"]
   },
   "text" : {
@@ -21,12 +21,12 @@
     "system" : "https://smt.esante.gouv.fr/",
     "value" : "terminologie-nabm"
   }],
-  "version" : "V96",
+  "version" : "V97",
   "name" : "NABM",
   "title" : "Nomenclature des actes de biologie médicale",
   "status" : "active",
   "experimental" : false,
-  "date" : "2025-01-10T00:00:00+00:00",
+  "date" : "2025-06-02T00:00:00+00:00",
   "publisher" : "Agence du numérique en santé",
   "description" : "La NABM est la terminologie de facturation des actes de biologie médicale. Elle décrit la liste des actes de biologie dans une arborescence en chapitres et sous-chapitres ainsi que des règles de facturation.",
   "jurisdiction" : [{
@@ -210,7 +210,7 @@
   },
   {
     "code" : "2004",
-    "display" : "UR.PROTEINURIE: DOSAGE",
+    "display" : "PROTEINES TOTALES (PROTEINURIE):",
     "property" : [{
       "code" : "parent",
       "valueCode" : "13-03"
@@ -221,7 +221,7 @@
     },
     {
       "code" : "modified",
-      "valueString" : "19/09/2019"
+      "valueString" : "30/05/2025"
     },
     {
       "code" : "type",
@@ -646,7 +646,7 @@
   },
   {
     "code" : "1133",
-    "display" : "UR.:ALBUMINURIE:DOSAGE",
+    "display" : "ALBUMINE (ALBUMINURIE):",
     "property" : [{
       "code" : "parent",
       "valueCode" : "13-03"
@@ -657,7 +657,7 @@
     },
     {
       "code" : "modified",
-      "valueString" : "19/09/2019"
+      "valueString" : "30/05/2025"
     },
     {
       "code" : "type",
@@ -3673,8 +3673,68 @@
     }]
   },
   {
+    "code" : "9011",
+    "display" : "FORFAIT DE PRISE EN CHARGE PRE-ANALYTIQUE DU PATIENT EN CAS DE DEPISTAGE COVID",
+    "property" : [{
+      "code" : "parent",
+      "valueCode" : "0"
+    },
+    {
+      "code" : "created",
+      "valueString" : "20/05/2025"
+    },
+    {
+      "code" : "modified",
+      "valueString" : "30/05/2025"
+    },
+    {
+      "code" : "type",
+      "valueString" : "code"
+    },
+    {
+      "code" : "initativeBiologistePossible",
+      "valueBoolean" : false
+    },
+    {
+      "code" : "indicationMédicale",
+      "valueBoolean" : false
+    },
+    {
+      "code" : "remboursementTotal",
+      "valueBoolean" : false
+    },
+    {
+      "code" : "ententePréalable",
+      "valueBoolean" : false
+    },
+    {
+      "code" : "coeffB",
+      "valueString" : "17"
+    },
+    {
+      "code" : "codeIncompatible",
+      "valueCode" : "9005"
+    },
+    {
+      "code" : "codeIncompatible",
+      "valueCode" : "9010"
+    },
+    {
+      "code" : "acteReserve",
+      "valueBoolean" : false
+    },
+    {
+      "code" : "rmo",
+      "valueBoolean" : false
+    },
+    {
+      "code" : "examenSanguin",
+      "valueBoolean" : false
+    }]
+  },
+  {
     "code" : "0592",
-    "display" : "SANG : CREATININE",
+    "display" : "CREATININE (CREATININEMIE):",
     "property" : [{
       "code" : "parent",
       "valueCode" : "13-01"
@@ -3685,7 +3745,7 @@
     },
     {
       "code" : "modified",
-      "valueString" : "19/09/2019"
+      "valueString" : "30/05/2025"
     },
     {
       "code" : "type",
@@ -7425,7 +7485,7 @@
     },
     {
       "code" : "modified",
-      "valueString" : "02/08/2024"
+      "valueString" : "30/05/2025"
     },
     {
       "code" : "type",
@@ -7458,6 +7518,10 @@
     {
       "code" : "codeIncompatible",
       "valueCode" : "9005"
+    },
+    {
+      "code" : "codeIncompatible",
+      "valueCode" : "9011"
     },
     {
       "code" : "acteReserve",
@@ -9690,6 +9754,10 @@
     {
       "code" : "child",
       "valueCode" : "4511"
+    },
+    {
+      "code" : "child",
+      "valueCode" : "9011"
     }]
   },
   {
@@ -23704,7 +23772,7 @@
     },
     {
       "code" : "modified",
-      "valueString" : "13/07/2017"
+      "valueString" : "11/03/2025"
     },
     {
       "code" : "type",
@@ -23736,7 +23804,7 @@
     },
     {
       "code" : "coeffB",
-      "valueString" : "260"
+      "valueString" : "320"
     },
     {
       "code" : "acteReserve",
@@ -24589,7 +24657,7 @@
   },
   {
     "code" : "4086",
-    "display" : "DPN:SECONDE DETERMINATION PRENAT. DU GENOTYPE RHD F TAL A PARTIR DU SANG MATERN",
+    "display" : "DPN:SECONDE DETERMINATION PRENAT.DU GENOTYPE RHD F TAL A PARTIR DU SANG MATERN",
     "property" : [{
       "code" : "parent",
       "valueCode" : "0"
@@ -24600,7 +24668,7 @@
     },
     {
       "code" : "modified",
-      "valueString" : "13/07/2017"
+      "valueString" : "11/03/2025"
     },
     {
       "code" : "type",
@@ -24632,7 +24700,7 @@
     },
     {
       "code" : "coeffB",
-      "valueString" : "260"
+      "valueString" : "320"
     },
     {
       "code" : "acteReserve",
@@ -25668,7 +25736,7 @@
     },
     {
       "code" : "modified",
-      "valueString" : "10/09/2024"
+      "valueString" : "11/03/2025"
     },
     {
       "code" : "type",
@@ -25700,7 +25768,7 @@
     },
     {
       "code" : "coeffB",
-      "valueString" : "1000"
+      "valueString" : "1150"
     },
     {
       "code" : "acteReserve",
@@ -28885,7 +28953,7 @@
   },
   {
     "code" : "4721",
-    "display" : "RECHERCHE D'IGG ET D'IGM OU D'IG TOTAUX TESTS SERO. PAR IMMUNOCHROMATOGRAPHIE",
+    "display" : "RECHERCHE D'IGG ET D'IGM OU D'IG TOTAUX PAR IMMUNOCHROMATOGRAPHIE (SARS-COV-2)",
     "property" : [{
       "code" : "parent",
       "valueCode" : "07-06"
@@ -28896,7 +28964,7 @@
     },
     {
       "code" : "modified",
-      "valueString" : "01/03/2023"
+      "valueString" : "30/05/2025"
     },
     {
       "code" : "type",
@@ -29884,7 +29952,7 @@
     },
     {
       "code" : "modified",
-      "valueString" : "10/09/2024"
+      "valueString" : "30/05/2025"
     },
     {
       "code" : "type",
@@ -29912,11 +29980,7 @@
     },
     {
       "code" : "coeffB",
-      "valueString" : "15"
-    },
-    {
-      "code" : "codeIncompatible",
-      "valueCode" : "4274"
+      "valueString" : "16"
     },
     {
       "code" : "codeIncompatible",
@@ -29925,6 +29989,10 @@
     {
       "code" : "codeIncompatible",
       "valueCode" : "9010"
+    },
+    {
+      "code" : "codeIncompatible",
+      "valueCode" : "9011"
     },
     {
       "code" : "acteReserve",
@@ -34060,7 +34128,7 @@
     },
     {
       "code" : "modified",
-      "valueString" : "10/09/2024"
+      "valueString" : "11/03/2025"
     },
     {
       "code" : "type",
@@ -34084,7 +34152,7 @@
     },
     {
       "code" : "coeffB",
-      "valueString" : "400"
+      "valueString" : "460"
     },
     {
       "code" : "acteReserve",
@@ -38216,7 +38284,7 @@
     },
     {
       "code" : "modified",
-      "valueString" : "10/09/2024"
+      "valueString" : "11/03/2025"
     },
     {
       "code" : "type",
@@ -38244,7 +38312,7 @@
     },
     {
       "code" : "coeffB",
-      "valueString" : "3"
+      "valueString" : "2"
     },
     {
       "code" : "acteReserve",
@@ -46725,7 +46793,7 @@
   },
   {
     "code" : "0627",
-    "display" : "UR. : CREATININE (CREATININURIE)",
+    "display" : "CREATININE (CREATININURIE)",
     "property" : [{
       "code" : "parent",
       "valueCode" : "13-03"
@@ -46736,7 +46804,7 @@
     },
     {
       "code" : "modified",
-      "valueString" : "01/04/2017"
+      "valueString" : "30/05/2025"
     },
     {
       "code" : "type",
@@ -46768,7 +46836,7 @@
     },
     {
       "code" : "coeffB",
-      "valueString" : "6"
+      "valueString" : "9"
     },
     {
       "code" : "codeIncompatible",
@@ -55120,10 +55188,6 @@
     },
     {
       "code" : "child",
-      "valueCode" : "4274"
-    },
-    {
-      "code" : "child",
       "valueCode" : "9009"
     },
     {
@@ -55696,74 +55760,6 @@
     }]
   },
   {
-    "code" : "4274",
-    "display" : "DETECTION DE L'ANTIGENE DU VIRUS SARS-COV-2",
-    "property" : [{
-      "code" : "parent",
-      "valueCode" : "19"
-    },
-    {
-      "code" : "created",
-      "valueString" : "16/10/2020"
-    },
-    {
-      "code" : "modified",
-      "valueString" : "01/03/2023"
-    },
-    {
-      "code" : "type",
-      "valueString" : "code"
-    },
-    {
-      "code" : "initativeBiologistePossible",
-      "valueBoolean" : false
-    },
-    {
-      "code" : "indicationMédicale",
-      "valueBoolean" : true
-    },
-    {
-      "code" : "remboursementTotal",
-      "valueBoolean" : false
-    },
-    {
-      "code" : "ententePréalable",
-      "valueBoolean" : false
-    },
-    {
-      "code" : "aPourContingenceTechnique",
-      "valueCode" : "CONTINGENCE_4"
-    },
-    {
-      "code" : "nombreMaximumParFacturation",
-      "valueInteger" : 1
-    },
-    {
-      "code" : "coeffB",
-      "valueString" : "36"
-    },
-    {
-      "code" : "codeIncompatible",
-      "valueCode" : "9005"
-    },
-    {
-      "code" : "codeIncompatible",
-      "valueCode" : "9106"
-    },
-    {
-      "code" : "acteReserve",
-      "valueBoolean" : true
-    },
-    {
-      "code" : "rmo",
-      "valueBoolean" : false
-    },
-    {
-      "code" : "examenSanguin",
-      "valueBoolean" : false
-    }]
-  },
-  {
     "code" : "0668",
     "display" : "ANTIDEPRESSEURS : RECHERCHE ET DOSAGE DANS UN AUTRE LIQUIDE BIOLOGIQUE QUE LE SG",
     "property" : [{
@@ -56028,7 +56024,7 @@
     },
     {
       "code" : "modified",
-      "valueString" : "01/03/2023"
+      "valueString" : "30/05/2025"
     },
     {
       "code" : "type",
@@ -57108,7 +57104,7 @@
     },
     {
       "code" : "modified",
-      "valueString" : "10/09/2024"
+      "valueString" : "11/03/2025"
     },
     {
       "code" : "type",
@@ -57140,7 +57136,7 @@
     },
     {
       "code" : "coeffB",
-      "valueString" : "9"
+      "valueString" : "13"
     },
     {
       "code" : "codeIncompatible",
@@ -57361,7 +57357,7 @@
   },
   {
     "code" : "5272",
-    "display" : "DETECTION DES GENOMES DU VIRUS DE LA GRIPPE A ET B, ET DU SARS-COV-2 PAR RT-PCR",
+    "display" : "DETECTION DU GENOME DES VIRUS INFLUENZA A ET B DE LA GRIPPE",
     "property" : [{
       "code" : "parent",
       "valueCode" : "19"
@@ -57372,7 +57368,7 @@
     },
     {
       "code" : "modified",
-      "valueString" : "06/01/2021"
+      "valueString" : "08/01/2025"
     },
     {
       "code" : "type",
@@ -59188,10 +59184,6 @@
     },
     {
       "code" : "codeIncompatible",
-      "valueCode" : "4274"
-    },
-    {
-      "code" : "codeIncompatible",
       "valueCode" : "5273"
     },
     {
@@ -60632,7 +60624,7 @@
     },
     {
       "code" : "modified",
-      "valueString" : "13/04/2014"
+      "valueString" : "11/03/2025"
     },
     {
       "code" : "type",
@@ -60660,7 +60652,7 @@
     },
     {
       "code" : "coeffB",
-      "valueString" : "8"
+      "valueString" : "11"
     },
     {
       "code" : "acteReserve",
