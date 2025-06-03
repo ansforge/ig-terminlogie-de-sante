@@ -3,7 +3,7 @@
   "id" : "ASS-X12-CommuneDeptRegionOM",
   "text" : {
     "status" : "generated",
-    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ConceptMap ASS-X12-CommuneDeptRegionOM</b></p><a name=\"ASS-X12-CommuneDeptRegionOM\"> </a><a name=\"hcASS-X12-CommuneDeptRegionOM\"> </a><a name=\"ASS-X12-CommuneDeptRegionOM-fr-FR\"> </a><p>Mapping from (non spécifié) to (non spécifié)</p><br/></div>"
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Narratif généré : ConceptMap ASS-X12-CommuneDeptRegionOM</b></p><a name=\"ASS-X12-CommuneDeptRegionOM\"> </a><a name=\"hcASS-X12-CommuneDeptRegionOM\"> </a><a name=\"ASS-X12-CommuneDeptRegionOM-fr-FR\"> </a><p>Mapping from (non spécifié) to (non spécifié)</p><br/></div>"
   },
   "extension" : [{
     "url" : "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod",

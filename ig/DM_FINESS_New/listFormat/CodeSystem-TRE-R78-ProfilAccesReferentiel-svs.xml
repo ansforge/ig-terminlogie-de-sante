@@ -2,7 +2,7 @@
 <RetrieveValueSetResponse xmlns="urn:ihe:iti:svs:2008"
                           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
    <ValueSet dateFin=""
-             dateMaj="20231215120000"
+             dateMaj="20250523120000"
              dateValid="20160901000000"
              description="Profil d'accès aux référentiels"
              displayName="TRE_R78_ProfilAccesReferentiel"
@@ -252,6 +252,33 @@
                   displayName="Gestion de l'offre médico-sociale"
                   longDesignation="Gestion de l'offre médico-sociale"
                   shortDesignation="Gestion de l'offre médico-sociale"
+                  descriptionMetier=""/>
+         <concept code="CU28"
+                  codeSystem="1.2.250.1.213.1.6.1.66"
+                  dateFin=""
+                  dateMaj="20250523120000"
+                  dateValid="20250523120000"
+                  displayName="Pilotage de l'offre sanitaire"
+                  longDesignation="Pilotage de l'offre sanitaire"
+                  shortDesignation="Pilotage de l'offre sanitaire"
+                  descriptionMetier=""/>
+         <concept code="CU29"
+                  codeSystem="1.2.250.1.213.1.6.1.66"
+                  dateFin=""
+                  dateMaj="20250523120000"
+                  dateValid="20250523120000"
+                  displayName="Pilotage de l'offre médico-sociale"
+                  longDesignation="Pilotage de l'offre médico-sociale"
+                  shortDesignation="Pilotage de l'offre médico-sociale"
+                  descriptionMetier=""/>
+         <concept code="CU30"
+                  codeSystem="1.2.250.1.213.1.6.1.66"
+                  dateFin=""
+                  dateMaj="20250523120000"
+                  dateValid="20250523120000"
+                  displayName="Orientation sanitaire et médico-sociale sans disponibilité en lit"
+                  longDesignation="Orientation sanitaire et médico-sociale sans disponibilité en lit"
+                  shortDesignation="Orientation sanitaire et médico-sociale sans disponibilité en lit"
                   descriptionMetier=""/>
       </ConceptList>
    </ValueSet>

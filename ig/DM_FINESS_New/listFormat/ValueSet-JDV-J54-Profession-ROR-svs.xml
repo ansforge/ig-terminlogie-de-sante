@@ -2,7 +2,7 @@
 <RetrieveValueSetResponse xmlns="urn:ihe:iti:svs:2008"
                           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
    <ValueSet dateFin=""
-             dateMaj="20250425120000"
+             dateMaj="20250523120000"
              dateValid="20181026120000"
              description="Profession de santé - ROR"
              displayName="JDV_J54_Profession_ROR"
@@ -137,6 +137,12 @@
          <concept code="409"
                   codeSystem="1.2.250.1.213.1.6.1.110"
                   displayName="Maquilleur permanent"/>
+         <concept code="330"
+                  codeSystem="1.2.250.1.213.1.6.1.107"
+                  displayName="Coordonnateur de parcours"/>
+         <concept code="335"
+                  codeSystem="1.2.250.1.213.1.6.1.107"
+                  displayName="Gestionnaire alertes et urgences sanitaires"/>
          <concept code="350"
                   codeSystem="1.2.250.1.213.1.6.1.107"
                   displayName="Aide à domicile"/>

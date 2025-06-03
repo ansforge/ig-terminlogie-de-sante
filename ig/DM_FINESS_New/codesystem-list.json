@@ -290,7 +290,7 @@
     },
     {
       "url" : "https://mos.esante.gouv.fr/NOS/TRE_G19-SecteurActiviteADELI/FHIR/TRE-G19-SecteurActiviteADELI",
-      "version" : "20240726120000",
+      "version" : "20250523120000",
       "status" : "active",
       "name" : "TRE_G19_SecteurActiviteADELI",
       "title" : null,
@@ -317,7 +317,7 @@
     },
     {
       "url" : "https://mos.esante.gouv.fr/NOS/TRE_R02-SecteurActivite/FHIR/TRE-R02-SecteurActivite",
-      "version" : "20241213120000",
+      "version" : "20250523120000",
       "status" : "active",
       "name" : "TRE_R02_SecteurActivite",
       "title" : null,
@@ -407,7 +407,7 @@
     },
     {
       "url" : "https://mos.esante.gouv.fr/NOS/TRE_R17-TypeAutorisation/FHIR/TRE-R17-TypeAutorisation",
-      "version" : "20250131120000",
+      "version" : "20250523120000",
       "status" : "active",
       "name" : "TRE_R17_TypeAutorisation",
       "title" : null,
@@ -974,7 +974,7 @@
     },
     {
       "url" : "https://mos.esante.gouv.fr/NOS/TRE_R258-RelationPriseCharge/FHIR/TRE-R258-RelationPriseCharge",
-      "version" : "20240126120000",
+      "version" : "20250523120000",
       "status" : "active",
       "name" : "TRE_R258_RelationPriseCharge",
       "title" : null,
@@ -2144,7 +2144,7 @@
     },
     {
       "url" : "https://mos.esante.gouv.fr/NOS/TRE_R78-ProfilAccesReferentiel/FHIR/TRE-R78-ProfilAccesReferentiel",
-      "version" : "20231215120000",
+      "version" : "20250523120000",
       "status" : "active",
       "name" : "TRE_R78_ProfilAccesReferentiel",
       "title" : null,
@@ -2267,6 +2267,15 @@
       "title" : null,
       "description" : "Droit d'exercice complémentaire",
       "oids" : ["1.2.250.1.213.1.6.1.111"]
+    },
+    {
+      "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/terminologie-cisis",
+      "version" : "202505190000",
+      "status" : "active",
+      "name" : "TerminologieCISIS",
+      "title" : "TerminologieCISIS - Terminologie des concepts non trouvés dans les autres terminologies",
+      "description" : "Terminologie multi-domaines créée et maintenue par l'ANS contenant les termes non trouvés dans les autres terminologies internationales ou nationales.",
+      "oids" : ["1.2.250.1.213.1.1.4.322"]
     },
     {
       "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r347-activite-sanitaire-diverse-regulee",
@@ -2539,7 +2548,7 @@
     },
     {
       "url" : "https://smt.esante.gouv.fr/terminologie-bdpm",
-      "version" : "2025-05-05",
+      "version" : "2025-06-02",
       "status" : "active",
       "name" : "BDPM",
       "title" : "Base de données publique du médicament",
@@ -2609,7 +2618,7 @@
     },
     {
       "url" : "https://smt.esante.gouv.fr/terminologie-nabm",
-      "version" : "V96",
+      "version" : "V97",
       "status" : "active",
       "name" : "NABM",
       "title" : "Nomenclature des actes de biologie médicale",

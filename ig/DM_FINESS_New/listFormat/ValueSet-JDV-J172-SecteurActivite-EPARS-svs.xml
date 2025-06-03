@@ -2,7 +2,7 @@
 <RetrieveValueSetResponse xmlns="urn:ihe:iti:svs:2008"
                           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
    <ValueSet dateFin=""
-             dateMaj="20241213120000"
+             dateMaj="20250523120000"
              dateValid="20210625120000"
              description="Secteur d'activité pour EPARS"
              displayName="JDV_J172_SecteurActivite_EPARS"
@@ -193,7 +193,7 @@
                   displayName="Ordre professionnel de santé"/>
          <concept code="SA63"
                   codeSystem="1.2.250.1.71.4.2.4"
-                  displayName="Communauté professionnelle territoriale de santé et équipe de soins spécialisés"/>
+                  displayName="Structures de coordination et d'orientation"/>
          <concept code="SA68"
                   codeSystem="1.2.250.1.71.4.2.4"
                   displayName="Services départementaux d'incendie et de secours"/>

@@ -264,7 +264,7 @@
     "id" : "JDV-J02-XdsHealthcareFacilityTypeCode-CISIS",
     "type" : "ValueSet",
     "url" : "https://mos.esante.gouv.fr/NOS/JDV_J02-XdsHealthcareFacilityTypeCode-CISIS/FHIR/JDV-J02-XdsHealthcareFacilityTypeCode-CISIS",
-    "version" : "20241213120000",
+    "version" : "20250523120000",
     "name" : "JDV_J02_XdsHealthcareFacilityTypeCode_CISIS",
     "oids" : ["1.2.250.1.213.1.1.5.466"]
   },
@@ -272,7 +272,7 @@
     "id" : "JDV-J03-XdsContentTypeCode-CISIS",
     "type" : "ValueSet",
     "url" : "https://mos.esante.gouv.fr/NOS/JDV_J03-XdsContentTypeCode-CISIS/FHIR/JDV-J03-XdsContentTypeCode-CISIS",
-    "version" : "20241213120000",
+    "version" : "20250523120000",
     "name" : "JDV_J03_XdsContentTypeCode_CISIS",
     "oids" : ["1.2.250.1.213.1.1.5.464"]
   },
@@ -336,7 +336,7 @@
     "id" : "JDV-J101-SecteurActivite-RASS",
     "type" : "ValueSet",
     "url" : "https://mos.esante.gouv.fr/NOS/JDV_J101-SecteurActivite-RASS/FHIR/JDV-J101-SecteurActivite-RASS",
-    "version" : "20241213120000",
+    "version" : "20250523120000",
     "name" : "JDV_J101_SecteurActivite_RASS",
     "oids" : ["1.2.250.1.213.1.6.1.169"]
   },
@@ -536,7 +536,7 @@
     "id" : "JDV-J126-SecteurActivite-ENREG",
     "type" : "ValueSet",
     "url" : "https://mos.esante.gouv.fr/NOS/JDV_J126-SecteurActivite-ENREG/FHIR/JDV-J126-SecteurActivite-ENREG",
-    "version" : "20240726120000",
+    "version" : "20250523120000",
     "name" : "JDV_J126_SecteurActivite_ENREG",
     "oids" : ["1.2.250.1.213.1.6.1.212"]
   },
@@ -928,7 +928,7 @@
     "id" : "JDV-J171-TypeAutorisation-EPARS",
     "type" : "ValueSet",
     "url" : "https://mos.esante.gouv.fr/NOS/JDV_J171-TypeAutorisation-EPARS/FHIR/JDV-J171-TypeAutorisation-EPARS",
-    "version" : "20250131120000",
+    "version" : "20250523120000",
     "name" : "JDV_J171_TypeAutorisation_EPARS",
     "oids" : ["1.2.250.1.213.1.6.1.232"]
   },
@@ -936,7 +936,7 @@
     "id" : "JDV-J172-SecteurActivite-EPARS",
     "type" : "ValueSet",
     "url" : "https://mos.esante.gouv.fr/NOS/JDV_J172-SecteurActivite-EPARS/FHIR/JDV-J172-SecteurActivite-EPARS",
-    "version" : "20241213120000",
+    "version" : "20250523120000",
     "name" : "JDV_J172_SecteurActivite_EPARS",
     "oids" : ["1.2.250.1.213.1.6.1.233"]
   },
@@ -1032,7 +1032,7 @@
     "id" : "JDV-J186-ProfessionRessource-ROR",
     "type" : "ValueSet",
     "url" : "https://mos.esante.gouv.fr/NOS/JDV_J186-ProfessionRessource-ROR/FHIR/JDV-J186-ProfessionRessource-ROR",
-    "version" : "20250425120000",
+    "version" : "20250523120000",
     "name" : "JDV_J186_ProfessionRessource_ROR",
     "oids" : ["1.2.250.1.213.3.4.19"]
   },
@@ -1920,7 +1920,7 @@
     "id" : "JDV-J47-FunctionCode-CISIS",
     "type" : "ValueSet",
     "url" : "https://mos.esante.gouv.fr/NOS/JDV_J47-FunctionCode-CISIS/FHIR/JDV-J47-FunctionCode-CISIS",
-    "version" : "20241213120000",
+    "version" : "20250523120000",
     "name" : "JDV_J47_FunctionCode_CISIS",
     "oids" : ["1.2.250.1.213.1.1.5.124"]
   },
@@ -1976,7 +1976,7 @@
     "id" : "JDV-J54-Profession-ROR",
     "type" : "ValueSet",
     "url" : "https://mos.esante.gouv.fr/NOS/JDV_J54-Profession-ROR/FHIR/JDV-J54-Profession-ROR",
-    "version" : "20250425120000",
+    "version" : "20250523120000",
     "name" : "JDV_J54_Profession_ROR",
     "oids" : ["1.2.250.1.213.3.3.64"]
   },
@@ -2080,7 +2080,7 @@
     "id" : "JDV-J68-ProfilAccesReferentiel-ROR",
     "type" : "ValueSet",
     "url" : "https://mos.esante.gouv.fr/NOS/JDV_J68-ProfilAccesReferentiel-ROR/FHIR/JDV-J68-ProfilAccesReferentiel-ROR",
-    "version" : "20230127120000",
+    "version" : "20250523120000",
     "name" : "JDV_J68_ProfilAccesReferentiel_ROR",
     "oids" : ["1.2.250.1.213.3.3.66"]
   },
@@ -2136,7 +2136,7 @@
     "id" : "JDV-J75-TypeAutorisation-RASS",
     "type" : "ValueSet",
     "url" : "https://mos.esante.gouv.fr/NOS/JDV_J75-TypeAutorisation-RASS/FHIR/JDV-J75-TypeAutorisation-RASS",
-    "version" : "20250131120000",
+    "version" : "20250523120000",
     "name" : "JDV_J75_TypeAutorisation_RASS",
     "oids" : ["1.2.250.1.213.1.6.1.143"]
   },
@@ -2584,7 +2584,7 @@
     "id" : "TRE-G19-SecteurActiviteADELI",
     "type" : "CodeSystem",
     "url" : "https://mos.esante.gouv.fr/NOS/TRE_G19-SecteurActiviteADELI/FHIR/TRE-G19-SecteurActiviteADELI",
-    "version" : "20240726120000",
+    "version" : "20250523120000",
     "name" : "TRE_G19_SecteurActiviteADELI",
     "oids" : ["1.2.250.1.71.1.2.23"]
   },
@@ -2608,7 +2608,7 @@
     "id" : "TRE-R02-SecteurActivite",
     "type" : "CodeSystem",
     "url" : "https://mos.esante.gouv.fr/NOS/TRE_R02-SecteurActivite/FHIR/TRE-R02-SecteurActivite",
-    "version" : "20241213120000",
+    "version" : "20250523120000",
     "name" : "TRE_R02_SecteurActivite",
     "oids" : ["1.2.250.1.71.4.2.4"]
   },
@@ -2688,7 +2688,7 @@
     "id" : "TRE-R17-TypeAutorisation",
     "type" : "CodeSystem",
     "url" : "https://mos.esante.gouv.fr/NOS/TRE_R17-TypeAutorisation/FHIR/TRE-R17-TypeAutorisation",
-    "version" : "20250131120000",
+    "version" : "20250523120000",
     "name" : "TRE_R17_TypeAutorisation",
     "oids" : ["1.2.250.1.213.1.6.1.14"]
   },
@@ -3207,7 +3207,7 @@
     "id" : "TRE-R258-RelationPriseCharge",
     "type" : "CodeSystem",
     "url" : "https://mos.esante.gouv.fr/NOS/TRE_R258-RelationPriseCharge/FHIR/TRE-R258-RelationPriseCharge",
-    "version" : "20240126120000",
+    "version" : "20250523120000",
     "name" : "TRE_R258_RelationPriseCharge",
     "oids" : ["1.2.250.1.213.1.1.4.2.280"]
   },
@@ -4471,7 +4471,7 @@
     "id" : "TRE-R78-ProfilAccesReferentiel",
     "type" : "CodeSystem",
     "url" : "https://mos.esante.gouv.fr/NOS/TRE_R78-ProfilAccesReferentiel/FHIR/TRE-R78-ProfilAccesReferentiel",
-    "version" : "20231215120000",
+    "version" : "20250523120000",
     "name" : "TRE_R78_ProfilAccesReferentiel",
     "oids" : ["1.2.250.1.213.1.6.1.66"]
   },
@@ -4578,6 +4578,14 @@
     "version" : "20231215120000",
     "name" : "TRE_R97_DroitExerciceCompl",
     "oids" : ["1.2.250.1.213.1.6.1.111"]
+  },
+  {
+    "id" : "terminologie-cisis",
+    "type" : "CodeSystem",
+    "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/terminologie-cisis",
+    "version" : "202505190000",
+    "name" : "TerminologieCISIS",
+    "oids" : ["1.2.250.1.213.1.1.4.322"]
   },
   {
     "id" : "tre-r347-activite-sanitaire-diverse-regulee",
@@ -5057,6 +5065,78 @@
     "oids" : ["1.2.250.1.213.1.6.1.269"]
   },
   {
+    "id" : "jdv-j322-type-act-enseignement-regulee-finess",
+    "type" : "ValueSet",
+    "url" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j322-type-act-enseignement-regulee-finess",
+    "version" : "20250603120000",
+    "name" : "JdvJ322TypeActEnseignementReguleeFiness",
+    "oids" : ["1.2.250.1.213.1.6.1.330"]
+  },
+  {
+    "id" : "jdv-j331-type-act-sociale-regulee-finess",
+    "type" : "ValueSet",
+    "url" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j322-type-act-enseignement-regulee-finess",
+    "version" : "20250603120000",
+    "name" : "JdvJ331TypeActSocialeReguleeFiness",
+    "oids" : ["1.2.250.1.213.1.6.1.339"]
+  },
+  {
+    "id" : "jdv-j332-type-act-medico-sociale-regulee-finess",
+    "type" : "ValueSet",
+    "url" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j332-type-act-medico-sociale-regulee-finess",
+    "version" : "20250603120000",
+    "name" : "JdvJ332TypeActMedicoSocialeReguleeFiness",
+    "oids" : ["1.2.250.1.213.1.6.1.340"]
+  },
+  {
+    "id" : "jdv-j336-type-act-sanitaire-diverse-regulee-finess",
+    "type" : "ValueSet",
+    "url" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j336-type-act-sanitaire-diverse-regulee-finess",
+    "version" : "20250603120000",
+    "name" : "JdvJ336TypeActSanitaireDiverseReguleeFiness",
+    "oids" : ["1.2.250.1.213.1.6.1.344"]
+  },
+  {
+    "id" : "jdv-j340-type-act-de-soin-amf-finess",
+    "type" : "ValueSet",
+    "url" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j340-type-act-de-soin-amf-finess",
+    "version" : "20250603120000",
+    "name" : "JdvJ340TypeActDeSoinAmfFiness",
+    "oids" : ["1.2.250.1.213.1.6.1.348"]
+  },
+  {
+    "id" : "jdv-j341-type-act-autre-acte-soin-finess",
+    "type" : "ValueSet",
+    "url" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j341-type-act-autre-acte-soin-finess",
+    "version" : "20250603120000",
+    "name" : "JdvJ341TypeActAutreActeSoinFiness",
+    "oids" : ["1.2.250.1.213.1.6.1.349"]
+  },
+  {
+    "id" : "jdv-j342-type-act-soumise-a-reconnaissance-finess",
+    "type" : "ValueSet",
+    "url" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j342-type-act-soumise-a-reconnaissance-finess",
+    "version" : "20250603120000",
+    "name" : "JdvJ342TypeActSoumiseAReconnaissanceFiness",
+    "oids" : ["1.2.250.1.213.1.6.1.350"]
+  },
+  {
+    "id" : "jdv-j344-type-act-equipement-materiel-lourd-finess",
+    "type" : "ValueSet",
+    "url" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j344-type-act-equipement-materiel-lourd-finess",
+    "version" : "20250603120000",
+    "name" : "JdvJ344TypeActEquipementMaterielLourdFiness",
+    "oids" : ["1.2.250.1.213.1.6.1.352"]
+  },
+  {
+    "id" : "jdv-j350-type-act-de-soin-amm-finess",
+    "type" : "ValueSet",
+    "url" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j350-type-act-de-soin-amm-finess",
+    "version" : "20250603120000",
+    "name" : "JdvJ350TypeActDeSoinAmmFiness",
+    "oids" : ["1.2.250.1.213.1.6.1.358"]
+  },
+  {
     "id" : "jdv-j352-nature-capacite-finess",
     "type" : "ValueSet",
     "url" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j352-nature-capacite-finess",
@@ -5122,7 +5202,7 @@
     "id" : "terminologie-bdpm",
     "type" : "CodeSystem",
     "url" : "https://smt.esante.gouv.fr/terminologie-bdpm",
-    "version" : "2025-05-05",
+    "version" : "2025-06-02",
     "name" : "BDPM"
   },
   {
@@ -5198,7 +5278,7 @@
     "id" : "terminologie-nabm",
     "type" : "CodeSystem",
     "url" : "https://smt.esante.gouv.fr/terminologie-nabm",
-    "version" : "V96",
+    "version" : "V97",
     "name" : "NABM",
     "oids" : ["1.2.250.1.215.300.2"]
   },

@@ -1,0 +1,596 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE HTML>
+<html xml:lang="en" xmlns="http://www.w3.org/1999/xhtml" lang="en">
+  <head>
+    <meta content="text/html;charset=utf-8" http-equiv="Content-Type"/>
+    <title>Jdv J340 Type Act De Soin Amf Finess - Terminologies  de Santé (Publiées par l'ANS) v0.1.0</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta name="author" content="http://hl7.org/fhir"/>
+
+    <link href="fhir.css" rel="stylesheet"/>
+
+    <!-- Bootstrap core CSS -->
+    <link href="assets/css/bootstrap-fhir.css" rel="stylesheet"/>
+
+    <!-- Project extras -->
+    <link href="assets/css/project.css" rel="stylesheet"/>
+    <link href="assets/css/pygments-manni.css" rel="stylesheet"/>
+    <link href="assets/css/jquery-ui.css" rel="stylesheet"/>
+  	<link href="assets/css/prism.css" rel="stylesheet" />
+    <link rel="stylesheet" href="assets/css/style-ans.css"/>
+    <link rel="stylesheet" href="assets/css/style-add-ans.css"/>
+    <!-- Placeholder for child template CSS declarations -->
+
+    <script type="text/javascript" src="fhir-table-scripts.js"> </script>
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+    <script src="assets/js/html5shiv.js"></script>
+    <script src="assets/js/respond.min.js"></script>
+    <![endif]-->
+
+    <!-- Favicons -->
+    <link rel="fhir-logo" sizes="144x144" href="assets/ico/icon-fhir-144.png"/>
+    <link rel="fhir-logo" sizes="114x114" href="assets/ico/icon-fhir-114.png"/>
+    <link rel="fhir-logo" sizes="72x72" href="assets/ico/icon-fhir-72.png"/>
+    <link rel="fhir-logo" href="assets/ico/icon-fhir-57.png"/>
+    <link rel="shortcut icon" href="assets/ico/favicon.png"/>
+  </head>
+  <body onload="document.body.style.opacity='1'">
+
+	  <script src="assets/js/prism.js"></script>
+
+    <style type="text/css">h2{--heading-prefix:"8.9"}
+    h3,h4,h5,h6{--heading-prefix:"8.9"}</style>
+    <div id="segment-header" class="segment">  <!-- segment-header -->
+      <div class="container">  <!-- container -->
+        <!-- Placeholder for child template header declarations -->
+<div id="family-nav">
+    <a id="hl7-search-lnk" no-external="true" href="http://hl7.org/fhir"><img height="50" alt="Visit the FHIR website" src="assets/images/fhir-logo-www.png"/> </a>
+  </div>
+  <div id="ans-nav" style="line-height: 50px; float: left; margin-top: 4px; margin-bottom: 8px; color: #808080; ">
+    <a id="hl7-logo" no-external="true" href="https://esante.gouv.fr/"><img height="50" alt="ANS Logo" src="assets/images/logo-ANS.svg"/></a>
+  </div>
+
+        <div id="ig-status">
+          <p><span style="font-size:12pt;font-weight:bold">Terminologies  de Santé (Publiées par l&#39;ANS)</span>
+            <br/>
+            <span style="display:inline-block;">0.1.0 - ci-build
+
+
+
+  <img alt="France flag" src="assets/images/fra.svg" height="16" title="France"/>
+
+
+            </span>
+          </p>
+        </div>
+      </div> <!-- /container -->
+    </div>  <!-- /segment-header -->
+
+    <div id="segment-navbar" class="segment">  <!-- segment-navbar -->
+      <div id="stripe"> </div>
+      <div class="container">  <!-- container -->
+        <!-- HEADER CONTENT -->
+
+        <nav class="navbar navbar-inverse">
+          <!--status-bar-->
+          <div class="container">
+            <button data-target=".navbar-inverse-collapse" class="navbar-toggle" data-toggle="collapse" type="button">
+              <span class="icon-bar"> </span>
+              <span class="icon-bar"> </span>
+              <span class="icon-bar"> </span>
+            </button>
+            <a class="navbar-brand hidden" href="http://hl7.org/fhir/R4/index.html">FHIR</a>
+            <div class="nav-collapse collapse navbar-inverse-collapse">
+              <!-- menu.xml  -->
+
+<ul xmlns="http://www.w3.org/1999/xhtml" class="nav navbar-nav">
+  <li>
+    <a href="index.html">Accueil</a>
+  </li>
+  <li>
+    <a href="tre.html">Terminologies</a>
+  </li>
+  <li>
+    <a href="jdv.html">Jeux de valeurs</a>
+  </li>
+  <li>
+    <a href="namingSystem.html">Identifiants externes</a>
+  </li>
+  <li>
+    <a href="ass.html">Association</a>
+  </li>
+  <li class="dropdown">
+    <a data-toggle="dropdown" href="#" class="dropdown-toggle">Ressources
+      <b class="caret"></b>
+    </a>
+    <ul class="dropdown-menu">
+      <li>
+        <a href="telechargementNos.html">Téléchargement (NOS)</a>
+      </li>
+      <li>
+        <a href="securite.html">Sécurité</a>
+      </li>
+      <li>
+        <a href="downloads.html">Téléchargements et usage</a>
+      </li>
+      <li>
+        <a target="_blank" href="http://hl7.org/fhir/R4/index.html">Spécifications FHIR </a>
+      </li>
+      <li>
+        <a target="_blank" href="https://esante.gouv.fr/">Site de l&apos;ANS </a>
+      </li>
+    </ul>
+  </li>
+  <li>
+    <a href="about.html">A propos de ce guide</a>
+  </li>
+</ul>
+            </div>  <!-- /.nav-collapse -->
+          </div>  <!-- /.container -->
+        </nav>  <!-- /.navbar -->
+      <!-- /HEADER CONTENT -->
+      </div>  <!-- /container -->
+    </div>  <!-- /segment-navbar -->
+    <!--status-bar-->
+
+    <div id="segment-breadcrumb" class="segment">  <!-- segment-breadcrumb -->
+      <div class="container">  <!-- container -->
+        <ul class="breadcrumb">
+          <li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>Jdv J340 Type Act De Soin Amf Finess</b></li>
+
+          <span style="float:right;">
+
+            <a href="ValueSet-jdv-j336-type-act-sanitaire-diverse-regulee-finess.demande.html">&lt;prev</a> | 
+
+            <a href="#bottom">bottom</a>
+
+          | <a href="ValueSet-jdv-j340-type-act-de-soin-amf-finess-testing.html">next&gt;</a>
+
+          </span>
+
+        </ul>
+      </div>  <!-- /container -->
+    </div>  <!-- /segment-breadcrumb -->
+
+    <a name="top"> </a>
+    <div id="segment-content" class="segment">  <!-- segment-content -->
+      <div class="container">  <!-- container -->
+        <div class="row">
+          <div class="inner-wrapper">
+<div class="col-12">
+  <!--ReleaseHeader--><p id="publish-box">Terminologies  de Santé (Publiées par l'ANS) - Local Development build (v0.1.0) built by the FHIR (HL7® FHIR® Standard) Build Tools. See the <a href='https://interop.esante.gouv.fr/terminologies/history.html'>Directory of published versions</a></p><!--EndReleaseHeader-->
+  
+
+
+
+
+
+
+
+
+<ul class="nav nav-tabs">
+
+  <li class="active">
+    <a href="#">Narrative Content</a>
+  </li>
+
+
+
+  
+    <li>
+      <a href="ValueSet-jdv-j340-type-act-de-soin-amf-finess.xml.html">XML</a>
+    </li>
+  
+
+
+  
+    <li>
+      <a href="ValueSet-jdv-j340-type-act-de-soin-amf-finess.json.html">JSON</a>
+    </li>
+  
+
+
+  
+    <li>
+      <a href="ValueSet-jdv-j340-type-act-de-soin-amf-finess.ttl.html">TTL</a>
+    </li>
+  
+
+
+
+
+
+
+<li>
+  <a href="ValueSet-jdv-j340-type-act-de-soin-amf-finess.histoire.html">Historique</a>
+</li>
+
+
+
+<li>
+  <a href="ValueSet-jdv-j340-type-act-de-soin-amf-finess.demande.html">Demande</a>
+</li>
+
+
+
+  
+  <li>
+    <a href="ValueSet-jdv-j340-type-act-de-soin-amf-finess.tel.html">Telechargement</a>
+  </li>
+  
+
+
+
+
+
+
+
+
+
+
+</ul>
+
+  <a name="root"> </a>
+  <h2 id="root">ValueSet: 	  
+	  Jdv J340 Type Act De Soin Amf Finess
+	
+
+
+
+  </h2>
+
+  <table class="colsi">
+
+    <tr>
+      <td colspan="4"><i>Official URL</i>: <span class="copy-text">https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j340-type-act-de-soin-amf-finess<button title="Click to copy URL" class="btn-copy" data-clipboard-text="https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j340-type-act-de-soin-amf-finess"/></span>
+      </td>
+      <td><i>Version</i>:
+      <span class="copy-text">20250603120000<button title="Click to copy versioned URL" class="btn-copy" data-clipboard-text="https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j340-type-act-de-soin-amf-finess|20250603120000"/></span>
+      </td>
+    </tr>
+ 
+    <tr>
+
+
+
+
+
+
+
+      <td colspan="3">
+        
+          Active
+          
+            as of 2025-06-03
+          
+        
+      </td>
+
+
+      <td>
+        <i>Responsible:</i> 
+
+        Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris
+
+      </td>
+
+
+      <td><i>Computable Name</i>: <span style="font-family: monospace;">JdvJ340TypeActDeSoinAmfFiness</span></td>
+    </tr>
+
+ <!--   
+    <tr>
+      <td colspan="3">
+        <i>As active of:</i> 
+      </td>
+      <td colspan="2">
+        <i>RevisionDate:</i> 2025-06-03T18:02:28.249+00:00
+      </td>      
+    </tr>
+
+    
+
+    <tr>
+      <td colspan="5">
+        <i>dd:</i> -
+      </td>
+    </tr>
+    -->
+    
+
+    <tr>
+      <td colspan="5">
+        <i>Other Identifiers:</i> OID:1.2.250.1.213.1.6.1.348
+      </td>
+    </tr>
+
+
+    
+
+
+
+  </table>
+
+
+<p>
+<p>Jeu de valeurs FINESS reprenant les types d’activité de soin AMF</p>
+
+</p>
+
+
+  <p>
+    <b>References</b>
+  </p>
+  
+<p>Ce jeu de valeurs nest pas utilisé ici ; il peut être utilisé autre part (par exemple dans les spécifications et / ou implémentations qui utilisent ce contenu)</p>
+
+
+  <!-- insert intro if present -->
+
+
+
+  
+
+
+  <input type="hidden" id="idValue" value="jdv-j340-type-act-de-soin-amf-finess"/>
+  
+  
+<div class=""> 
+    <h3 class="accordion-heading"> 
+        Recherche en live sur le SMT 
+        <a class="accordion-toggle" data-toggle="collapse" href="#searchSmt" aria-expanded="true"><i class="gg-chevron-down"></i></a>
+    </h3>
+    <div class="accordion-body collapse in" id="searchSmt">
+        Indiquer un mot clé  puis taper sur "enter" :  
+        <input type="text" id="ontoSearch" style="height:auto;font-size:12px" class="search form-control" placeholder="Recherche"> 
+        <div class="language-plaintext highlighter-rouge">
+            <div class="highlight">
+                <pre class="highlight language-plaintext">
+                    <code class=" language-plaintext" id="requeteOnto">Requête sur le SMT</code>
+                </pre>
+            </div>
+        </div>    
+        <span class="counter" id="counterOnto"></span>    
+        <div id="resultOnto"></div>
+    </div>
+ </div>
+</div>
+
+
+<div id="orig">  
+  <a name="definition"> </a>
+
+<!-- Content Logical Definition heading in the fragment -->
+<div id="terminologit-search-content-valueset-cld" class="accordion-group">
+  <h3>Logical Definition (CLD)</h3>
+<div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"></p><a name="jdv-j340-type-act-de-soin-amf-finess"> </a><a name="hcjdv-j340-type-act-de-soin-amf-finess"> </a><a name="jdv-j340-type-act-de-soin-amf-finess-fr-FR"> </a>
+<div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px">version: 1; Dernière mise à jour : 2025-06-03 18:02:28+0000</p><p style="margin-bottom: 0px">Profil: <a href="http://hl7.org/fhir/R4/shareablevalueset.html">Shareable ValueSet</a></p></div>
+<ul><li>Include codes provenant de<a href="CodeSystem-tre-r392-type-act-smsse-regulee.html"><code>https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r392-type-act-smsse-regulee</code></a> où natureActivite  = AS</li></ul></div>
+</div> 
+
+  <p>&#160;</p>
+  <a name="expansion"> </a>
+  <h3 id="expansion">Expansion</h3>
+
+  <div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"/><p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion performed internally based on <a href="CodeSystem-tre-r392-type-act-smsse-regulee.html">codesystem Tre R392 Type Act Smsse Regulee v20250430120000 (CodeSystem)</a></p><p>Ce jeu de valeur (ValueSet) contient 244 concepts</p><table class="codes"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Système</b></td><td><b>Display (fr-FR)</b></td></tr><tr><td style="white-space:nowrap"><a name="x-https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r392-type-act-smsse-regulee-178"> </a>  <a href="CodeSystem-tre-r392-type-act-smsse-regulee.html#tre-r392-type-act-smsse-regulee-178">178</a></td><td>https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r392-type-act-smsse-regulee</td><td/></tr><tr><td style="white-space:nowrap"><a name="x-https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r392-type-act-smsse-regulee-179"> </a>  <a href="CodeSystem-tre-r392-type-act-smsse-regulee.html#tre-r392-type-act-smsse-regulee-179">179</a></td><td>https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r392-type-act-smsse-regulee</td><td/></tr><tr><td style="white-space:nowrap"><a name="x-https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r392-type-act-smsse-regulee-180"> </a>  <a href="CodeSystem-tre-r392-type-act-smsse-regulee.html#tre-r392-type-act-smsse-regulee-180">180</a></td><td>https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r392-type-act-smsse-regulee</td><td/></tr><tr><td style="white-space:nowrap"><a name="x-https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r392-type-act-smsse-regulee-181"> </a>  <a href="CodeSystem-tre-r392-type-act-smsse-regulee.html#tre-r392-type-act-smsse-regulee-181">181</a></td><td>https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r392-type-act-smsse-regulee</td><td/></tr><tr><td style="white-space:nowrap"><a name="x-https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r392-type-act-smsse-regulee-182"> </a>  <a href="CodeSystem-tre-r392-type-act-smsse-regulee.html#tre-r392-type-act-smsse-regulee-182">182</a></td><td>https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r392-type-act-smsse-regulee</td><td/></tr><tr><td style="white-space:nowrap"><a name="x-https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r392-type-act-smsse-regulee-183"> </a>  <a href="CodeSystem-tre-r392-type-act-smsse-regulee.html#tre-r392-type-act-smsse-regulee-183">183</a></td><td>https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r392-type-act-smsse-regulee</td><td/></tr><tr><td style="white-space:nowrap"><a name="x-https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r392-type-act-smsse-regulee-184"> </a>  <a href="CodeSystem-tre-r392-type-act-smsse-regulee.html#tre-r392-type-act-smsse-regulee-184">184</a></td><td>https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r392-type-act-smsse-regulee</td><td/></tr><tr><td style="white-space:nowrap"><a name="x-https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r392-type-act-smsse-regulee-185"> </a>  <a href="CodeSystem-tre-r392-type-act-smsse-regulee.html#tre-r392-type-act-smsse-regulee-185">185</a></td><td>https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r392-type-act-smsse-regulee</td><td/></tr><tr><td style="white-space:nowrap"><a name="x-https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r392-type-act-smsse-regulee-186"> </a>  <a href="CodeSystem-tre-r392-type-act-smsse-regulee.html#tre-r392-type-act-smsse-regulee-186">186</a></td><td>https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r392-type-act-smsse-regulee</td><td/></tr><tr><td style="white-space:nowrap"><a name="x-https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r392-type-act-smsse-regulee-187"> </a>  <a href="CodeSystem-tre-r392-type-act-smsse-regulee.html#tre-r392-type-act-smsse-regulee-187">187</a></td><td>https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r392-type-act-smsse-regulee</td><td/></tr><tr><td style="white-space:nowrap"><a name="x-https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r392-type-act-smsse-regulee-188"> </a>  <a href="CodeSystem-tre-r392-type-act-smsse-regulee.html#tre-r392-type-act-smsse-regulee-188">188</a></td><td>https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r392-type-act-smsse-regulee</td><td/></tr><tr><td style="white-space:nowrap"><a name="x-https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r392-type-act-smsse-regulee-189"> </a>  <a href="CodeSystem-tre-r392-type-act-smsse-regulee.html#tre-r392-type-act-smsse-regulee-189">189</a></td><td>https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r392-type-act-smsse-regulee</td><td/></tr><tr><td style="white-space:nowrap"><a name="x-https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r392-type-act-smsse-regulee-190"> </a>  <a href="CodeSystem-tre-r392-type-act-smsse-regulee.html#tre-r392-type-act-smsse-regulee-190">190</a></td><td>https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r392-type-act-smsse-regulee</td><td/></tr><tr><td style="white-space:nowrap"><a name="x-https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r392-type-act-smsse-regulee-191"> </a>  <a href="CodeSystem-tre-r392-type-act-smsse-regulee.html#tre-r392-type-act-smsse-regulee-191">191</a></td><td>https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r392-type-act-smsse-regulee</td><td/></tr><tr><td style="white-space:nowrap"><a name="x-https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r392-type-act-smsse-regulee-192"> </a>  <a href="CodeSystem-tre-r392-type-act-smsse-regulee.html#tre-r392-type-act-smsse-regulee-192">192</a></td><td>https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r392-type-act-smsse-regulee</td><td/></tr><tr><td style="white-space:nowrap"><a name="x-https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r392-type-act-smsse-regulee-193"> </a>  <a href="CodeSystem-tre-r392-type-act-smsse-regulee.html#tre-r392-type-act-smsse-regulee-193">193</a></td><td>https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r392-type-act-smsse-regulee</td><td/></tr><tr><td style="white-space:nowrap"><a name="x-https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r392-type-act-smsse-regulee-194"> </a>  <a href="CodeSystem-tre-r392-type-act-smsse-regulee.html#tre-r392-type-act-smsse-regulee-194">194</a></td><td>https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r392-type-act-smsse-regulee</td><td/></tr><tr><td style="white-space:nowrap"><a name="x-https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r392-type-act-smsse-regulee-195"> </a>  <a href="CodeSystem-tre-r392-type-act-smsse-regulee.html#tre-r392-type-act-smsse-regulee-195">195</a></td><td>https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r392-type-act-smsse-regulee</td><td/></tr><tr><td style="white-space:nowrap"><a name="x-https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r392-type-act-smsse-regulee-196"> </a>  <a href="CodeSystem-tre-r392-type-act-smsse-regulee.html#tre-r392-type-act-smsse-regulee-196">196</a></td><td>https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r392-type-act-smsse-regulee</td><td/></tr><tr><td style="white-space:nowrap"><a name="x-https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r392-type-act-smsse-regulee-197"> </a>  <a href="CodeSystem-tre-r392-type-act-smsse-regulee.html#tre-r392-type-act-smsse-regulee-197">197</a></td><td>https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r392-type-act-smsse-regulee</td><td/></tr><tr><td style="white-space:nowrap"><a name="x-https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r392-type-act-smsse-regulee-198"> </a>  <a href="CodeSystem-tre-r392-type-act-smsse-regulee.html#tre-r392-type-act-smsse-regulee-198">198</a></td><td>https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r392-type-act-smsse-regulee</td><td/></tr><tr><td style="white-space:nowrap"><a name="x-https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r392-type-act-smsse-regulee-199"> </a>  <a href="CodeSystem-tre-r392-type-act-smsse-regulee.html#tre-r392-type-act-smsse-regulee-199">199</a></td><td>https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r392-type-act-smsse-regulee</td><td/></tr><tr><td style="white-space:nowrap"><a name="x-https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r392-type-act-smsse-regulee-200"> </a>  <a href="CodeSystem-tre-r392-type-act-smsse-regulee.html#tre-r392-type-act-smsse-regulee-200">200</a></td><td>https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r392-type-act-smsse-regulee</td><td/></tr><tr><td style="white-space:nowrap"><a name="x-https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r392-type-act-smsse-regulee-201"> </a>  <a href="CodeSystem-tre-r392-type-act-smsse-regulee.html#tre-r392-type-act-smsse-regulee-201">201</a></td><td>https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r392-type-act-smsse-regulee</td><td/></tr><tr><td style="white-space:nowrap"><a name="x-https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r392-type-act-smsse-regulee-202"> </a>  <a href="CodeSystem-tre-r392-type-act-smsse-regulee.html#tre-r392-type-act-smsse-regulee-202">202</a></td><td>https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r392-type-act-smsse-regulee</td><td/></tr><tr><td style="white-space:nowrap"><a name="x-https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r392-type-act-smsse-regulee-203"> </a>  <a href="CodeSystem-tre-r392-type-act-smsse-regulee.html#tre-r392-type-act-smsse-regulee-203">203</a></td><td>https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r392-type-act-smsse-regulee</td><td/></tr><tr><td style="white-space:nowrap"><a name="x-https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r392-type-act-smsse-regulee-204"> </a>  <a href="CodeSystem-tre-r392-type-act-smsse-regulee.html#tre-r392-type-act-smsse-regulee-204">204</a></td><td>https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r392-type-act-smsse-regulee</td><td/></tr><tr><td style="white-space:nowrap"><a name="x-https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r392-type-act-smsse-regulee-205"> </a>  <a href="CodeSystem-tre-r392-type-act-smsse-regulee.html#tre-r392-type-act-smsse-regulee-205">205</a></td><td>https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r392-type-act-smsse-regulee</td><td/></tr><tr><td style="white-space:nowrap"><a name="x-https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r392-type-act-smsse-regulee-206"> </a>  <a href="CodeSystem-tre-r392-type-act-smsse-regulee.html#tre-r392-type-act-smsse-regulee-206">206</a></td><td>https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r392-type-act-smsse-regulee</td><td/></tr><tr><td style="white-space:nowrap"><a name="x-https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r392-type-act-smsse-regulee-207"> </a>  <a href="CodeSystem-tre-r392-type-act-smsse-regulee.html#tre-r392-type-act-smsse-regulee-207">207</a></td><td>https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r392-type-act-smsse-regulee</td><td/></tr><tr><td style="white-space:nowrap"><a name="x-https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r392-type-act-smsse-regulee-208"> </a>  <a href="CodeSystem-tre-r392-type-act-smsse-regulee.html#tre-r392-type-act-smsse-regulee-208">208</a></td><td>https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r392-type-act-smsse-regulee</td><td/></tr><tr><td style="white-space:nowrap"><a name="x-https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r392-type-act-smsse-regulee-209"> </a>  <a href="CodeSystem-tre-r392-type-act-smsse-regulee.html#tre-r392-type-act-smsse-regulee-209">209</a></td><td>https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r392-type-act-smsse-regulee</td><td/></tr><tr><td style="white-space:nowrap"><a name="x-https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r392-type-act-smsse-regulee-210"> </a>  <a href="CodeSystem-tre-r392-type-act-smsse-regulee.html#tre-r392-type-act-smsse-regulee-210">210</a></td><td>https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r392-type-act-smsse-regulee</td><td/></tr><tr><td style="white-space:nowrap"><a name="x-https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r392-type-act-smsse-regulee-211"> </a>  <a href="CodeSystem-tre-r392-type-act-smsse-regulee.html#tre-r392-type-act-smsse-regulee-211">211</a></td><td>https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r392-type-act-smsse-regulee</td><td/></tr><tr><td style="white-space:nowrap"><a name="x-https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r392-type-act-smsse-regulee-212"> </a>  <a href="CodeSystem-tre-r392-type-act-smsse-regulee.html#tre-r392-type-act-smsse-regulee-212">212</a></td><td>https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r392-type-act-smsse-regulee</td><td/></tr><tr><td style="white-space:nowrap"><a name="x-https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r392-type-act-smsse-regulee-213"> </a>  <a href="CodeSystem-tre-r392-type-act-smsse-regulee.html#tre-r392-type-act-smsse-regulee-213">213</a></td><td>https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r392-type-act-smsse-regulee</td><td/></tr><tr><td style="white-space:nowrap"><a name="x-https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r392-type-act-smsse-regulee-214"> </a>  <a href="CodeSystem-tre-r392-type-act-smsse-regulee.html#tre-r392-type-act-smsse-regulee-214">214</a></td><td>https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r392-type-act-smsse-regulee</td><td/></tr><tr><td style="white-space:nowrap"><a name="x-https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r392-type-act-smsse-regulee-215"> </a>  <a href="CodeSystem-tre-r392-type-act-smsse-regulee.html#tre-r392-type-act-smsse-regulee-215">215</a></td><td>https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r392-type-act-smsse-regulee</td><td/></tr><tr><td style="white-space:nowrap"><a name="x-https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r392-type-act-smsse-regulee-216"> </a>  <a href="CodeSystem-tre-r392-type-act-smsse-regulee.html#tre-r392-type-act-smsse-regulee-216">216</a></td><td>https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r392-type-act-smsse-regulee</td><td/></tr><tr><td style="white-space:nowrap"><a name="x-https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r392-type-act-smsse-regulee-217"> </a>  <a href="CodeSystem-tre-r392-type-act-smsse-regulee.html#tre-r392-type-act-smsse-regulee-217">217</a></td><td>https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r392-type-act-smsse-regulee</td><td/></tr><tr><td style="white-space:nowrap"><a name="x-https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r392-type-act-smsse-regulee-218"> </a>  <a href="CodeSystem-tre-r392-type-act-smsse-regulee.html#tre-r392-type-act-smsse-regulee-218">218</a></td><td>https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r392-type-act-smsse-regulee</td><td/></tr><tr><td style="white-space:nowrap"><a name="x-https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r392-type-act-smsse-regulee-219"> </a>  <a href="CodeSystem-tre-r392-type-act-smsse-regulee.html#tre-r392-type-act-smsse-regulee-219">219</a></td><td>https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r392-type-act-smsse-regulee</td><td/></tr><tr><td style="white-space:nowrap"><a name="x-https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r392-type-act-smsse-regulee-220"> </a>  <a href="CodeSystem-tre-r392-type-act-smsse-regulee.html#tre-r392-type-act-smsse-regulee-220">220</a></td><td>https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r392-type-act-smsse-regulee</td><td/></tr><tr><td style="white-space:nowrap"><a name="x-https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r392-type-act-smsse-regulee-221"> </a>  <a href="CodeSystem-tre-r392-type-act-smsse-regulee.html#tre-r392-type-act-smsse-regulee-221">221</a></td><td>https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r392-type-act-smsse-regulee</td><td/></tr><tr><td style="white-space:nowrap"><a name="x-https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r392-type-act-smsse-regulee-222"> </a>  <a href="CodeSystem-tre-r392-type-act-smsse-regulee.html#tre-r392-type-act-smsse-regulee-222">222</a></td><td>https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r392-type-act-smsse-regulee</td><td/></tr><tr><td style="white-space:nowrap"><a name="x-https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r392-type-act-smsse-regulee-223"> </a>  <a href="CodeSystem-tre-r392-type-act-smsse-regulee.html#tre-r392-type-act-smsse-regulee-223">223</a></td><td>https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r392-type-act-smsse-regulee</td><td/></tr><tr><td style="white-space:nowrap"><a name="x-https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r392-type-act-smsse-regulee-224"> </a>  <a href="CodeSystem-tre-r392-type-act-smsse-regulee.html#tre-r392-type-act-smsse-regulee-224">224</a></td><td>https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r392-type-act-smsse-regulee</td><td/></tr><tr><td style="white-space:nowrap"><a name="x-https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r392-type-act-smsse-regulee-225"> </a>  <a href="CodeSystem-tre-r392-type-act-smsse-regulee.html#tre-r392-type-act-smsse-regulee-225">225</a></td><td>https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r392-type-act-smsse-regulee</td><td/></tr><tr><td style="white-space:nowrap"><a name="x-https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r392-type-act-smsse-regulee-226"> </a>  <a href="CodeSystem-tre-r392-type-act-smsse-regulee.html#tre-r392-type-act-smsse-regulee-226">226</a></td><td>https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r392-type-act-smsse-regulee</td><td/></tr><tr><td style="white-space:nowrap"><a name="x-https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r392-type-act-smsse-regulee-227"> </a>  <a href="CodeSystem-tre-r392-type-act-smsse-regulee.html#tre-r392-type-act-smsse-regulee-227">227</a></td><td>https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r392-type-act-smsse-regulee</td><td/></tr><tr><td style="white-space:nowrap"><a name="x-https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r392-type-act-smsse-regulee-228"> </a>  <a href="CodeSystem-tre-r392-type-act-smsse-regulee.html#tre-r392-type-act-smsse-regulee-228">228</a></td><td>https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r392-type-act-smsse-regulee</td><td/></tr><tr><td style="white-space:nowrap"><a name="x-https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r392-type-act-smsse-regulee-229"> </a>  <a href="CodeSystem-tre-r392-type-act-smsse-regulee.html#tre-r392-type-act-smsse-regulee-229">229</a></td><td>https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r392-type-act-smsse-regulee</td><td/></tr><tr><td style="white-space:nowrap"><a name="x-https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r392-type-act-smsse-regulee-230"> </a>  <a href="CodeSystem-tre-r392-type-act-smsse-regulee.html#tre-r392-type-act-smsse-regulee-230">230</a></td><td>https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r392-type-act-smsse-regulee</td><td/></tr><tr><td style="white-space:nowrap"><a name="x-https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r392-type-act-smsse-regulee-231"> </a>  <a href="CodeSystem-tre-r392-type-act-smsse-regulee.html#tre-r392-type-act-smsse-regulee-231">231</a></td><td>https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r392-type-act-smsse-regulee</td><td/></tr><tr><td style="white-space:nowrap"><a name="x-https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r392-type-act-smsse-regulee-232"> </a>  <a href="CodeSystem-tre-r392-type-act-smsse-regulee.html#tre-r392-type-act-smsse-regulee-232">232</a></td><td>https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r392-type-act-smsse-regulee</td><td/></tr><tr><td style="white-space:nowrap"><a name="x-https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r392-type-act-smsse-regulee-233"> </a>  <a href="CodeSystem-tre-r392-type-act-smsse-regulee.html#tre-r392-type-act-smsse-regulee-233">233</a></td><td>https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r392-type-act-smsse-regulee</td><td/></tr><tr><td style="white-space:nowrap"><a name="x-https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r392-type-act-smsse-regulee-234"> </a>  <a href="CodeSystem-tre-r392-type-act-smsse-regulee.html#tre-r392-type-act-smsse-regulee-234">234</a></td><td>https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r392-type-act-smsse-regulee</td><td/></tr><tr><td style="white-space:nowrap"><a name="x-https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r392-type-act-smsse-regulee-235"> </a>  <a href="CodeSystem-tre-r392-type-act-smsse-regulee.html#tre-r392-type-act-smsse-regulee-235">235</a></td><td>https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r392-type-act-smsse-regulee</td><td/></tr><tr><td style="white-space:nowrap"><a name="x-https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r392-type-act-smsse-regulee-236"> </a>  <a href="CodeSystem-tre-r392-type-act-smsse-regulee.html#tre-r392-type-act-smsse-regulee-236">236</a></td><td>https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r392-type-act-smsse-regulee</td><td/></tr><tr><td style="white-space:nowrap"><a name="x-https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r392-type-act-smsse-regulee-237"> </a>  <a href="CodeSystem-tre-r392-type-act-smsse-regulee.html#tre-r392-type-act-smsse-regulee-237">237</a></td><td>https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r392-type-act-smsse-regulee</td><td/></tr><tr><td style="white-space:nowrap"><a name="x-https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r392-type-act-smsse-regulee-238"> </a>  <a href="CodeSystem-tre-r392-type-act-smsse-regulee.html#tre-r392-type-act-smsse-regulee-238">238</a></td><td>https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r392-type-act-smsse-regulee</td><td/></tr><tr><td style="white-space:nowrap"><a name="x-https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r392-type-act-smsse-regulee-239"> </a>  <a href="CodeSystem-tre-r392-type-act-smsse-regulee.html#tre-r392-type-act-smsse-regulee-239">239</a></td><td>https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r392-type-act-smsse-regulee</td><td/></tr><tr><td style="white-space:nowrap"><a name="x-https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r392-type-act-smsse-regulee-240"> </a>  <a href="CodeSystem-tre-r392-type-act-smsse-regulee.html#tre-r392-type-act-smsse-regulee-240">240</a></td><td>https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r392-type-act-smsse-regulee</td><td/></tr><tr><td style="white-space:nowrap"><a name="x-https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r392-type-act-smsse-regulee-241"> </a>  <a href="CodeSystem-tre-r392-type-act-smsse-regulee.html#tre-r392-type-act-smsse-regulee-241">241</a></td><td>https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r392-type-act-smsse-regulee</td><td/></tr><tr><td style="white-space:nowrap"><a name="x-https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r392-type-act-smsse-regulee-242"> </a>  <a href="CodeSystem-tre-r392-type-act-smsse-regulee.html#tre-r392-type-act-smsse-regulee-242">242</a></td><td>https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r392-type-act-smsse-regulee</td><td/></tr><tr><td style="white-space:nowrap"><a name="x-https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r392-type-act-smsse-regulee-243"> </a>  <a href="CodeSystem-tre-r392-type-act-smsse-regulee.html#tre-r392-type-act-smsse-regulee-243">243</a></td><td>https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r392-type-act-smsse-regulee</td><td/></tr><tr><td style="white-space:nowrap"><a name="x-https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r392-type-act-smsse-regulee-244"> </a>  <a href="CodeSystem-tre-r392-type-act-smsse-regulee.html#tre-r392-type-act-smsse-regulee-244">244</a></td><td>https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r392-type-act-smsse-regulee</td><td/></tr><tr><td style="white-space:nowrap"><a name="x-https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r392-type-act-smsse-regulee-245"> </a>  <a href="CodeSystem-tre-r392-type-act-smsse-regulee.html#tre-r392-type-act-smsse-regulee-245">245</a></td><td>https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r392-type-act-smsse-regulee</td><td/></tr><tr><td style="white-space:nowrap"><a name="x-https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r392-type-act-smsse-regulee-246"> </a>  <a href="CodeSystem-tre-r392-type-act-smsse-regulee.html#tre-r392-type-act-smsse-regulee-246">246</a></td><td>https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r392-type-act-smsse-regulee</td><td/></tr><tr><td style="white-space:nowrap"><a name="x-https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r392-type-act-smsse-regulee-247"> </a>  <a href="CodeSystem-tre-r392-type-act-smsse-regulee.html#tre-r392-type-act-smsse-regulee-247">247</a></td><td>https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r392-type-act-smsse-regulee</td><td/></tr><tr><td style="white-space:nowrap"><a name="x-https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r392-type-act-smsse-regulee-248"> </a>  <a href="CodeSystem-tre-r392-type-act-smsse-regulee.html#tre-r392-type-act-smsse-regulee-248">248</a></td><td>https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r392-type-act-smsse-regulee</td><td/></tr><tr><td style="white-space:nowrap"><a name="x-https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r392-type-act-smsse-regulee-249"> </a>  <a href="CodeSystem-tre-r392-type-act-smsse-regulee.html#tre-r392-type-act-smsse-regulee-249">249</a></td><td>https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r392-type-act-smsse-regulee</td><td/></tr><tr><td style="white-space:nowrap"><a name="x-https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r392-type-act-smsse-regulee-250"> </a>  <a href="CodeSystem-tre-r392-type-act-smsse-regulee.html#tre-r392-type-act-smsse-regulee-250">250</a></td><td>https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r392-type-act-smsse-regulee</td><td/></tr><tr><td style="white-space:nowrap"><a name="x-https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r392-type-act-smsse-regulee-251"> </a>  <a href="CodeSystem-tre-r392-type-act-smsse-regulee.html#tre-r392-type-act-smsse-regulee-251">251</a></td><td>https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r392-type-act-smsse-regulee</td><td/></tr><tr><td style="white-space:nowrap"><a name="x-https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r392-type-act-smsse-regulee-252"> </a>  <a href="CodeSystem-tre-r392-type-act-smsse-regulee.html#tre-r392-type-act-smsse-regulee-252">252</a></td><td>https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r392-type-act-smsse-regulee</td><td/></tr><tr><td style="white-space:nowrap"><a name="x-https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r392-type-act-smsse-regulee-253"> </a>  <a href="CodeSystem-tre-r392-type-act-smsse-regulee.html#tre-r392-type-act-smsse-regulee-253">253</a></td><td>https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r392-type-act-smsse-regulee</td><td/></tr><tr><td style="white-space:nowrap"><a name="x-https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r392-type-act-smsse-regulee-254"> </a>  <a href="CodeSystem-tre-r392-type-act-smsse-regulee.html#tre-r392-type-act-smsse-regulee-254">254</a></td><td>https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r392-type-act-smsse-regulee</td><td/></tr><tr><td style="white-space:nowrap"><a name="x-https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r392-type-act-smsse-regulee-255"> </a>  <a href="CodeSystem-tre-r392-type-act-smsse-regulee.html#tre-r392-type-act-smsse-regulee-255">255</a></td><td>https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r392-type-act-smsse-regulee</td><td/></tr><tr><td style="white-space:nowrap"><a name="x-https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r392-type-act-smsse-regulee-256"> </a>  <a href="CodeSystem-tre-r392-type-act-smsse-regulee.html#tre-r392-type-act-smsse-regulee-256">256</a></td><td>https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r392-type-act-smsse-regulee</td><td/></tr><tr><td style="white-space:nowrap"><a name="x-https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r392-type-act-smsse-regulee-257"> </a>  <a href="CodeSystem-tre-r392-type-act-smsse-regulee.html#tre-r392-type-act-smsse-regulee-257">257</a></td><td>https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r392-type-act-smsse-regulee</td><td/></tr><tr><td style="white-space:nowrap"><a name="x-https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r392-type-act-smsse-regulee-258"> </a>  <a href="CodeSystem-tre-r392-type-act-smsse-regulee.html#tre-r392-type-act-smsse-regulee-258">258</a></td><td>https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r392-type-act-smsse-regulee</td><td/></tr><tr><td style="white-space:nowrap"><a name="x-https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r392-type-act-smsse-regulee-259"> </a>  <a href="CodeSystem-tre-r392-type-act-smsse-regulee.html#tre-r392-type-act-smsse-regulee-259">259</a></td><td>https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r392-type-act-smsse-regulee</td><td/></tr><tr><td style="white-space:nowrap"><a name="x-https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r392-type-act-smsse-regulee-260"> </a>  <a href="CodeSystem-tre-r392-type-act-smsse-regulee.html#tre-r392-type-act-smsse-regulee-260">260</a></td><td>https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r392-type-act-smsse-regulee</td><td/></tr><tr><td style="white-space:nowrap"><a name="x-https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r392-type-act-smsse-regulee-261"> </a>  <a href="CodeSystem-tre-r392-type-act-smsse-regulee.html#tre-r392-type-act-smsse-regulee-261">261</a></td><td>https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r392-type-act-smsse-regulee</td><td/></tr><tr><td style="white-space:nowrap"><a name="x-https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r392-type-act-smsse-regulee-262"> </a>  <a href="CodeSystem-tre-r392-type-act-smsse-regulee.html#tre-r392-type-act-smsse-regulee-262">262</a></td><td>https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r392-type-act-smsse-regulee</td><td/></tr><tr><td style="white-space:nowrap"><a name="x-https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r392-type-act-smsse-regulee-263"> </a>  <a href="CodeSystem-tre-r392-type-act-smsse-regulee.html#tre-r392-type-act-smsse-regulee-263">263</a></td><td>https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r392-type-act-smsse-regulee</td><td/></tr><tr><td style="white-space:nowrap"><a name="x-https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r392-type-act-smsse-regulee-264"> </a>  <a href="CodeSystem-tre-r392-type-act-smsse-regulee.html#tre-r392-type-act-smsse-regulee-264">264</a></td><td>https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r392-type-act-smsse-regulee</td><td/></tr><tr><td style="white-space:nowrap"><a name="x-https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r392-type-act-smsse-regulee-265"> </a>  <a href="CodeSystem-tre-r392-type-act-smsse-regulee.html#tre-r392-type-act-smsse-regulee-265">265</a></td><td>https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r392-type-act-smsse-regulee</td><td/></tr><tr><td style="white-space:nowrap"><a name="x-https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r392-type-act-smsse-regulee-266"> </a>  <a href="CodeSystem-tre-r392-type-act-smsse-regulee.html#tre-r392-type-act-smsse-regulee-266">266</a></td><td>https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r392-type-act-smsse-regulee</td><td/></tr><tr><td style="white-space:nowrap"><a name="x-https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r392-type-act-smsse-regulee-267"> </a>  <a href="CodeSystem-tre-r392-type-act-smsse-regulee.html#tre-r392-type-act-smsse-regulee-267">267</a></td><td>https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r392-type-act-smsse-regulee</td><td/></tr><tr><td style="white-space:nowrap"><a name="x-https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r392-type-act-smsse-regulee-268"> </a>  <a href="CodeSystem-tre-r392-type-act-smsse-regulee.html#tre-r392-type-act-smsse-regulee-268">268</a></td><td>https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r392-type-act-smsse-regulee</td><td/></tr><tr><td style="white-space:nowrap"><a name="x-https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r392-type-act-smsse-regulee-269"> </a>  <a href="CodeSystem-tre-r392-type-act-smsse-regulee.html#tre-r392-type-act-smsse-regulee-269">269</a></td><td>https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r392-type-act-smsse-regulee</td><td/></tr><tr><td style="white-space:nowrap"><a name="x-https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r392-type-act-smsse-regulee-270"> </a>  <a href="CodeSystem-tre-r392-type-act-smsse-regulee.html#tre-r392-type-act-smsse-regulee-270">270</a></td><td>https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r392-type-act-smsse-regulee</td><td/></tr><tr><td style="white-space:nowrap"><a name="x-https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r392-type-act-smsse-regulee-271"> </a>  <a href="CodeSystem-tre-r392-type-act-smsse-regulee.html#tre-r392-type-act-smsse-regulee-271">271</a></td><td>https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r392-type-act-smsse-regulee</td><td/></tr><tr><td style="white-space:nowrap"><a name="x-https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r392-type-act-smsse-regulee-272"> </a>  <a href="CodeSystem-tre-r392-type-act-smsse-regulee.html#tre-r392-type-act-smsse-regulee-272">272</a></td><td>https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r392-type-act-smsse-regulee</td><td/></tr><tr><td style="white-space:nowrap"><a name="x-https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r392-type-act-smsse-regulee-273"> </a>  <a href="CodeSystem-tre-r392-type-act-smsse-regulee.html#tre-r392-type-act-smsse-regulee-273">273</a></td><td>https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r392-type-act-smsse-regulee</td><td/></tr><tr><td style="white-space:nowrap"><a name="x-https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r392-type-act-smsse-regulee-274"> </a>  <a href="CodeSystem-tre-r392-type-act-smsse-regulee.html#tre-r392-type-act-smsse-regulee-274">274</a></td><td>https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r392-type-act-smsse-regulee</td><td/></tr><tr><td style="white-space:nowrap"><a name="x-https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r392-type-act-smsse-regulee-275"> </a>  <a href="CodeSystem-tre-r392-type-act-smsse-regulee.html#tre-r392-type-act-smsse-regulee-275">275</a></td><td>https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r392-type-act-smsse-regulee</td><td/></tr><tr><td style="white-space:nowrap"><a name="x-https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r392-type-act-smsse-regulee-276"> </a>  <a href="CodeSystem-tre-r392-type-act-smsse-regulee.html#tre-r392-type-act-smsse-regulee-276">276</a></td><td>https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r392-type-act-smsse-regulee</td><td/></tr><tr><td style="white-space:nowrap"><a name="x-https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r392-type-act-smsse-regulee-277"> </a>  <a href="CodeSystem-tre-r392-type-act-smsse-regulee.html#tre-r392-type-act-smsse-regulee-277">277</a></td><td>https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r392-type-act-smsse-regulee</td><td/></tr><tr><td style="white-space:nowrap"><a name="x-https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r392-type-act-smsse-regulee-278"> </a>  <a href="CodeSystem-tre-r392-type-act-smsse-regulee.html#tre-r392-type-act-smsse-regulee-278">278</a></td><td>https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r392-type-act-smsse-regulee</td><td/></tr><tr><td style="white-space:nowrap"><a name="x-https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r392-type-act-smsse-regulee-279"> </a>  <a href="CodeSystem-tre-r392-type-act-smsse-regulee.html#tre-r392-type-act-smsse-regulee-279">279</a></td><td>https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r392-type-act-smsse-regulee</td><td/></tr><tr><td style="white-space:nowrap"><a name="x-https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r392-type-act-smsse-regulee-280"> </a>  <a href="CodeSystem-tre-r392-type-act-smsse-regulee.html#tre-r392-type-act-smsse-regulee-280">280</a></td><td>https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r392-type-act-smsse-regulee</td><td/></tr><tr><td style="white-space:nowrap"><a name="x-https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r392-type-act-smsse-regulee-281"> </a>  <a href="CodeSystem-tre-r392-type-act-smsse-regulee.html#tre-r392-type-act-smsse-regulee-281">281</a></td><td>https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r392-type-act-smsse-regulee</td><td/></tr><tr><td style="white-space:nowrap"><a name="x-https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r392-type-act-smsse-regulee-282"> </a>  <a href="CodeSystem-tre-r392-type-act-smsse-regulee.html#tre-r392-type-act-smsse-regulee-282">282</a></td><td>https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r392-type-act-smsse-regulee</td><td/></tr><tr><td style="white-space:nowrap"><a name="x-https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r392-type-act-smsse-regulee-283"> </a>  <a href="CodeSystem-tre-r392-type-act-smsse-regulee.html#tre-r392-type-act-smsse-regulee-283">283</a></td><td>https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r392-type-act-smsse-regulee</td><td/></tr><tr><td style="white-space:nowrap"><a name="x-https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r392-type-act-smsse-regulee-284"> </a>  <a href="CodeSystem-tre-r392-type-act-smsse-regulee.html#tre-r392-type-act-smsse-regulee-284">284</a></td><td>https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r392-type-act-smsse-regulee</td><td/></tr><tr><td style="white-space:nowrap"><a name="x-https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r392-type-act-smsse-regulee-285"> </a>  <a href="CodeSystem-tre-r392-type-act-smsse-regulee.html#tre-r392-type-act-smsse-regulee-285">285</a></td><td>https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r392-type-act-smsse-regulee</td><td/></tr><tr><td style="white-space:nowrap"><a name="x-https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r392-type-act-smsse-regulee-286"> </a>  <a href="CodeSystem-tre-r392-type-act-smsse-regulee.html#tre-r392-type-act-smsse-regulee-286">286</a></td><td>https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r392-type-act-smsse-regulee</td><td/></tr><tr><td style="white-space:nowrap"><a name="x-https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r392-type-act-smsse-regulee-287"> </a>  <a href="CodeSystem-tre-r392-type-act-smsse-regulee.html#tre-r392-type-act-smsse-regulee-287">287</a></td><td>https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r392-type-act-smsse-regulee</td><td/></tr><tr><td style="white-space:nowrap"><a name="x-https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r392-type-act-smsse-regulee-288"> </a>  <a href="CodeSystem-tre-r392-type-act-smsse-regulee.html#tre-r392-type-act-smsse-regulee-288">288</a></td><td>https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r392-type-act-smsse-regulee</td><td/></tr><tr><td style="white-space:nowrap"><a name="x-https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r392-type-act-smsse-regulee-289"> </a>  <a href="CodeSystem-tre-r392-type-act-smsse-regulee.html#tre-r392-type-act-smsse-regulee-289">289</a></td><td>https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r392-type-act-smsse-regulee</td><td/></tr><tr><td style="white-space:nowrap"><a name="x-https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r392-type-act-smsse-regulee-290"> </a>  <a href="CodeSystem-tre-r392-type-act-smsse-regulee.html#tre-r392-type-act-smsse-regulee-290">290</a></td><td>https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r392-type-act-smsse-regulee</td><td/></tr><tr><td style="white-space:nowrap"><a name="x-https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r392-type-act-smsse-regulee-291"> </a>  <a href="CodeSystem-tre-r392-type-act-smsse-regulee.html#tre-r392-type-act-smsse-regulee-291">291</a></td><td>https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r392-type-act-smsse-regulee</td><td/></tr><tr><td style="white-space:nowrap"><a name="x-https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r392-type-act-smsse-regulee-292"> </a>  <a href="CodeSystem-tre-r392-type-act-smsse-regulee.html#tre-r392-type-act-smsse-regulee-292">292</a></td><td>https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r392-type-act-smsse-regulee</td><td/></tr><tr><td style="white-space:nowrap"><a name="x-https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r392-type-act-smsse-regulee-293"> </a>  <a href="CodeSystem-tre-r392-type-act-smsse-regulee.html#tre-r392-type-act-smsse-regulee-293">293</a></td><td>https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r392-type-act-smsse-regulee</td><td/></tr><tr><td style="white-space:nowrap"><a name="x-https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r392-type-act-smsse-regulee-294"> </a>  <a href="CodeSystem-tre-r392-type-act-smsse-regulee.html#tre-r392-type-act-smsse-regulee-294">294</a></td><td>https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r392-type-act-smsse-regulee</td><td/></tr><tr><td style="white-space:nowrap"><a name="x-https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r392-type-act-smsse-regulee-295"> </a>  <a href="CodeSystem-tre-r392-type-act-smsse-regulee.html#tre-r392-type-act-smsse-regulee-295">295</a></td><td>https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r392-type-act-smsse-regulee</td><td/></tr><tr><td style="white-space:nowrap"><a name="x-https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r392-type-act-smsse-regulee-296"> </a>  <a href="CodeSystem-tre-r392-type-act-smsse-regulee.html#tre-r392-type-act-smsse-regulee-296">296</a></td><td>https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r392-type-act-smsse-regulee</td><td/></tr><tr><td style="white-space:nowrap"><a name="x-https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r392-type-act-smsse-regulee-297"> </a>  <a href="CodeSystem-tre-r392-type-act-smsse-regulee.html#tre-r392-type-act-smsse-regulee-297">297</a></td><td>https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r392-type-act-smsse-regulee</td><td/></tr><tr><td style="white-space:nowrap"><a name="x-https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r392-type-act-smsse-regulee-298"> </a>  <a href="CodeSystem-tre-r392-type-act-smsse-regulee.html#tre-r392-type-act-smsse-regulee-298">298</a></td><td>https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r392-type-act-smsse-regulee</td><td/></tr><tr><td style="white-space:nowrap"><a name="x-https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r392-type-act-smsse-regulee-299"> </a>  <a href="CodeSystem-tre-r392-type-act-smsse-regulee.html#tre-r392-type-act-smsse-regulee-299">299</a></td><td>https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r392-type-act-smsse-regulee</td><td/></tr><tr><td style="white-space:nowrap"><a name="x-https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r392-type-act-smsse-regulee-300"> </a>  <a href="CodeSystem-tre-r392-type-act-smsse-regulee.html#tre-r392-type-act-smsse-regulee-300">300</a></td><td>https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r392-type-act-smsse-regulee</td><td/></tr><tr><td style="white-space:nowrap"><a name="x-https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r392-type-act-smsse-regulee-301"> </a>  <a href="CodeSystem-tre-r392-type-act-smsse-regulee.html#tre-r392-type-act-smsse-regulee-301">301</a></td><td>https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r392-type-act-smsse-regulee</td><td/></tr><tr><td style="white-space:nowrap"><a name="x-https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r392-type-act-smsse-regulee-302"> </a>  <a href="CodeSystem-tre-r392-type-act-smsse-regulee.html#tre-r392-type-act-smsse-regulee-302">302</a></td><td>https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r392-type-act-smsse-regulee</td><td/></tr><tr><td style="white-space:nowrap"><a name="x-https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r392-type-act-smsse-regulee-303"> </a>  <a href="CodeSystem-tre-r392-type-act-smsse-regulee.html#tre-r392-type-act-smsse-regulee-303">303</a></td><td>https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r392-type-act-smsse-regulee</td><td/></tr><tr><td style="white-space:nowrap"><a name="x-https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r392-type-act-smsse-regulee-304"> </a>  <a href="CodeSystem-tre-r392-type-act-smsse-regulee.html#tre-r392-type-act-smsse-regulee-304">304</a></td><td>https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r392-type-act-smsse-regulee</td><td/></tr><tr><td style="white-space:nowrap"><a name="x-https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r392-type-act-smsse-regulee-305"> </a>  <a href="CodeSystem-tre-r392-type-act-smsse-regulee.html#tre-r392-type-act-smsse-regulee-305">305</a></td><td>https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r392-type-act-smsse-regulee</td><td/></tr><tr><td style="white-space:nowrap"><a name="x-https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r392-type-act-smsse-regulee-306"> </a>  <a href="CodeSystem-tre-r392-type-act-smsse-regulee.html#tre-r392-type-act-smsse-regulee-306">306</a></td><td>https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r392-type-act-smsse-regulee</td><td/></tr><tr><td style="white-space:nowrap"><a name="x-https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r392-type-act-smsse-regulee-307"> </a>  <a href="CodeSystem-tre-r392-type-act-smsse-regulee.html#tre-r392-type-act-smsse-regulee-307">307</a></td><td>https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r392-type-act-smsse-regulee</td><td/></tr><tr><td style="white-space:nowrap"><a name="x-https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r392-type-act-smsse-regulee-308"> </a>  <a href="CodeSystem-tre-r392-type-act-smsse-regulee.html#tre-r392-type-act-smsse-regulee-308">308</a></td><td>https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r392-type-act-smsse-regulee</td><td/></tr><tr><td style="white-space:nowrap"><a name="x-https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r392-type-act-smsse-regulee-309"> </a>  <a href="CodeSystem-tre-r392-type-act-smsse-regulee.html#tre-r392-type-act-smsse-regulee-309">309</a></td><td>https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r392-type-act-smsse-regulee</td><td/></tr><tr><td style="white-space:nowrap"><a name="x-https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r392-type-act-smsse-regulee-310"> </a>  <a href="CodeSystem-tre-r392-type-act-smsse-regulee.html#tre-r392-type-act-smsse-regulee-310">310</a></td><td>https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r392-type-act-smsse-regulee</td><td/></tr><tr><td style="white-space:nowrap"><a name="x-https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r392-type-act-smsse-regulee-311"> </a>  <a href="CodeSystem-tre-r392-type-act-smsse-regulee.html#tre-r392-type-act-smsse-regulee-311">311</a></td><td>https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r392-type-act-smsse-regulee</td><td/></tr><tr><td style="white-space:nowrap"><a name="x-https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r392-type-act-smsse-regulee-312"> </a>  <a href="CodeSystem-tre-r392-type-act-smsse-regulee.html#tre-r392-type-act-smsse-regulee-312">312</a></td><td>https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r392-type-act-smsse-regulee</td><td/></tr><tr><td style="white-space:nowrap"><a name="x-https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r392-type-act-smsse-regulee-313"> </a>  <a href="CodeSystem-tre-r392-type-act-smsse-regulee.html#tre-r392-type-act-smsse-regulee-313">313</a></td><td>https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r392-type-act-smsse-regulee</td><td/></tr><tr><td style="white-space:nowrap"><a name="x-https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r392-type-act-smsse-regulee-314"> </a>  <a href="CodeSystem-tre-r392-type-act-smsse-regulee.html#tre-r392-type-act-smsse-regulee-314">314</a></td><td>https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r392-type-act-smsse-regulee</td><td/></tr><tr><td style="white-space:nowrap"><a name="x-https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r392-type-act-smsse-regulee-315"> </a>  <a href="CodeSystem-tre-r392-type-act-smsse-regulee.html#tre-r392-type-act-smsse-regulee-315">315</a></td><td>https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r392-type-act-smsse-regulee</td><td/></tr><tr><td style="white-space:nowrap"><a name="x-https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r392-type-act-smsse-regulee-316"> </a>  <a href="CodeSystem-tre-r392-type-act-smsse-regulee.html#tre-r392-type-act-smsse-regulee-316">316</a></td><td>https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r392-type-act-smsse-regulee</td><td/></tr><tr><td style="white-space:nowrap"><a name="x-https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r392-type-act-smsse-regulee-317"> </a>  <a href="CodeSystem-tre-r392-type-act-smsse-regulee.html#tre-r392-type-act-smsse-regulee-317">317</a></td><td>https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r392-type-act-smsse-regulee</td><td/></tr><tr><td style="white-space:nowrap"><a name="x-https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r392-type-act-smsse-regulee-318"> </a>  <a href="CodeSystem-tre-r392-type-act-smsse-regulee.html#tre-r392-type-act-smsse-regulee-318">318</a></td><td>https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r392-type-act-smsse-regulee</td><td/></tr><tr><td style="white-space:nowrap"><a name="x-https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r392-type-act-smsse-regulee-319"> </a>  <a href="CodeSystem-tre-r392-type-act-smsse-regulee.html#tre-r392-type-act-smsse-regulee-319">319</a></td><td>https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r392-type-act-smsse-regulee</td><td/></tr><tr><td style="white-space:nowrap"><a name="x-https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r392-type-act-smsse-regulee-320"> </a>  <a href="CodeSystem-tre-r392-type-act-smsse-regulee.html#tre-r392-type-act-smsse-regulee-320">320</a></td><td>https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r392-type-act-smsse-regulee</td><td/></tr><tr><td style="white-space:nowrap"><a name="x-https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r392-type-act-smsse-regulee-321"> </a>  <a href="CodeSystem-tre-r392-type-act-smsse-regulee.html#tre-r392-type-act-smsse-regulee-321">321</a></td><td>https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r392-type-act-smsse-regulee</td><td/></tr><tr><td style="white-space:nowrap"><a name="x-https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r392-type-act-smsse-regulee-322"> </a>  <a href="CodeSystem-tre-r392-type-act-smsse-regulee.html#tre-r392-type-act-smsse-regulee-322">322</a></td><td>https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r392-type-act-smsse-regulee</td><td/></tr><tr><td style="white-space:nowrap"><a name="x-https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r392-type-act-smsse-regulee-323"> </a>  <a href="CodeSystem-tre-r392-type-act-smsse-regulee.html#tre-r392-type-act-smsse-regulee-323">323</a></td><td>https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r392-type-act-smsse-regulee</td><td/></tr><tr><td style="white-space:nowrap"><a name="x-https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r392-type-act-smsse-regulee-324"> </a>  <a href="CodeSystem-tre-r392-type-act-smsse-regulee.html#tre-r392-type-act-smsse-regulee-324">324</a></td><td>https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r392-type-act-smsse-regulee</td><td/></tr><tr><td style="white-space:nowrap"><a name="x-https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r392-type-act-smsse-regulee-325"> </a>  <a href="CodeSystem-tre-r392-type-act-smsse-regulee.html#tre-r392-type-act-smsse-regulee-325">325</a></td><td>https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r392-type-act-smsse-regulee</td><td/></tr><tr><td style="white-space:nowrap"><a name="x-https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r392-type-act-smsse-regulee-326"> </a>  <a href="CodeSystem-tre-r392-type-act-smsse-regulee.html#tre-r392-type-act-smsse-regulee-326">326</a></td><td>https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r392-type-act-smsse-regulee</td><td/></tr><tr><td style="white-space:nowrap"><a name="x-https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r392-type-act-smsse-regulee-327"> </a>  <a href="CodeSystem-tre-r392-type-act-smsse-regulee.html#tre-r392-type-act-smsse-regulee-327">327</a></td><td>https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r392-type-act-smsse-regulee</td><td/></tr><tr><td style="white-space:nowrap"><a name="x-https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r392-type-act-smsse-regulee-328"> </a>  <a href="CodeSystem-tre-r392-type-act-smsse-regulee.html#tre-r392-type-act-smsse-regulee-328">328</a></td><td>https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r392-type-act-smsse-regulee</td><td/></tr><tr><td style="white-space:nowrap"><a name="x-https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r392-type-act-smsse-regulee-329"> </a>  <a href="CodeSystem-tre-r392-type-act-smsse-regulee.html#tre-r392-type-act-smsse-regulee-329">329</a></td><td>https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r392-type-act-smsse-regulee</td><td/></tr><tr><td style="white-space:nowrap"><a name="x-https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r392-type-act-smsse-regulee-330"> </a>  <a href="CodeSystem-tre-r392-type-act-smsse-regulee.html#tre-r392-type-act-smsse-regulee-330">330</a></td><td>https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r392-type-act-smsse-regulee</td><td/></tr><tr><td style="white-space:nowrap"><a name="x-https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r392-type-act-smsse-regulee-331"> </a>  <a href="CodeSystem-tre-r392-type-act-smsse-regulee.html#tre-r392-type-act-smsse-regulee-331">331</a></td><td>https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r392-type-act-smsse-regulee</td><td/></tr><tr><td style="white-space:nowrap"><a name="x-https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r392-type-act-smsse-regulee-332"> </a>  <a href="CodeSystem-tre-r392-type-act-smsse-regulee.html#tre-r392-type-act-smsse-regulee-332">332</a></td><td>https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r392-type-act-smsse-regulee</td><td/></tr><tr><td style="white-space:nowrap"><a name="x-https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r392-type-act-smsse-regulee-333"> </a>  <a href="CodeSystem-tre-r392-type-act-smsse-regulee.html#tre-r392-type-act-smsse-regulee-333">333</a></td><td>https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r392-type-act-smsse-regulee</td><td/></tr><tr><td style="white-space:nowrap"><a name="x-https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r392-type-act-smsse-regulee-334"> </a>  <a href="CodeSystem-tre-r392-type-act-smsse-regulee.html#tre-r392-type-act-smsse-regulee-334">334</a></td><td>https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r392-type-act-smsse-regulee</td><td/></tr><tr><td style="white-space:nowrap"><a name="x-https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r392-type-act-smsse-regulee-335"> </a>  <a href="CodeSystem-tre-r392-type-act-smsse-regulee.html#tre-r392-type-act-smsse-regulee-335">335</a></td><td>https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r392-type-act-smsse-regulee</td><td/></tr><tr><td style="white-space:nowrap"><a name="x-https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r392-type-act-smsse-regulee-336"> </a>  <a href="CodeSystem-tre-r392-type-act-smsse-regulee.html#tre-r392-type-act-smsse-regulee-336">336</a></td><td>https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r392-type-act-smsse-regulee</td><td/></tr><tr><td style="white-space:nowrap"><a name="x-https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r392-type-act-smsse-regulee-337"> </a>  <a href="CodeSystem-tre-r392-type-act-smsse-regulee.html#tre-r392-type-act-smsse-regulee-337">337</a></td><td>https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r392-type-act-smsse-regulee</td><td/></tr><tr><td style="white-space:nowrap"><a name="x-https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r392-type-act-smsse-regulee-338"> </a>  <a href="CodeSystem-tre-r392-type-act-smsse-regulee.html#tre-r392-type-act-smsse-regulee-338">338</a></td><td>https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r392-type-act-smsse-regulee</td><td/></tr><tr><td style="white-space:nowrap"><a name="x-https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r392-type-act-smsse-regulee-339"> </a>  <a href="CodeSystem-tre-r392-type-act-smsse-regulee.html#tre-r392-type-act-smsse-regulee-339">339</a></td><td>https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r392-type-act-smsse-regulee</td><td/></tr><tr><td style="white-space:nowrap"><a name="x-https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r392-type-act-smsse-regulee-340"> </a>  <a href="CodeSystem-tre-r392-type-act-smsse-regulee.html#tre-r392-type-act-smsse-regulee-340">340</a></td><td>https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r392-type-act-smsse-regulee</td><td/></tr><tr><td style="white-space:nowrap"><a name="x-https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r392-type-act-smsse-regulee-341"> </a>  <a href="CodeSystem-tre-r392-type-act-smsse-regulee.html#tre-r392-type-act-smsse-regulee-341">341</a></td><td>https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r392-type-act-smsse-regulee</td><td/></tr><tr><td style="white-space:nowrap"><a name="x-https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r392-type-act-smsse-regulee-342"> </a>  <a href="CodeSystem-tre-r392-type-act-smsse-regulee.html#tre-r392-type-act-smsse-regulee-342">342</a></td><td>https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r392-type-act-smsse-regulee</td><td/></tr><tr><td style="white-space:nowrap"><a name="x-https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r392-type-act-smsse-regulee-343"> </a>  <a href="CodeSystem-tre-r392-type-act-smsse-regulee.html#tre-r392-type-act-smsse-regulee-343">343</a></td><td>https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r392-type-act-smsse-regulee</td><td/></tr><tr><td style="white-space:nowrap"><a name="x-https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r392-type-act-smsse-regulee-344"> </a>  <a href="CodeSystem-tre-r392-type-act-smsse-regulee.html#tre-r392-type-act-smsse-regulee-344">344</a></td><td>https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r392-type-act-smsse-regulee</td><td/></tr><tr><td style="white-space:nowrap"><a name="x-https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r392-type-act-smsse-regulee-345"> </a>  <a href="CodeSystem-tre-r392-type-act-smsse-regulee.html#tre-r392-type-act-smsse-regulee-345">345</a></td><td>https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r392-type-act-smsse-regulee</td><td/></tr><tr><td style="white-space:nowrap"><a name="x-https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r392-type-act-smsse-regulee-346"> </a>  <a href="CodeSystem-tre-r392-type-act-smsse-regulee.html#tre-r392-type-act-smsse-regulee-346">346</a></td><td>https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r392-type-act-smsse-regulee</td><td/></tr><tr><td style="white-space:nowrap"><a name="x-https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r392-type-act-smsse-regulee-347"> </a>  <a href="CodeSystem-tre-r392-type-act-smsse-regulee.html#tre-r392-type-act-smsse-regulee-347">347</a></td><td>https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r392-type-act-smsse-regulee</td><td/></tr><tr><td style="white-space:nowrap"><a name="x-https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r392-type-act-smsse-regulee-348"> </a>  <a href="CodeSystem-tre-r392-type-act-smsse-regulee.html#tre-r392-type-act-smsse-regulee-348">348</a></td><td>https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r392-type-act-smsse-regulee</td><td/></tr><tr><td style="white-space:nowrap"><a name="x-https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r392-type-act-smsse-regulee-349"> </a>  <a href="CodeSystem-tre-r392-type-act-smsse-regulee.html#tre-r392-type-act-smsse-regulee-349">349</a></td><td>https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r392-type-act-smsse-regulee</td><td/></tr><tr><td style="white-space:nowrap"><a name="x-https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r392-type-act-smsse-regulee-350"> </a>  <a href="CodeSystem-tre-r392-type-act-smsse-regulee.html#tre-r392-type-act-smsse-regulee-350">350</a></td><td>https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r392-type-act-smsse-regulee</td><td/></tr><tr><td style="white-space:nowrap"><a name="x-https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r392-type-act-smsse-regulee-351"> </a>  <a href="CodeSystem-tre-r392-type-act-smsse-regulee.html#tre-r392-type-act-smsse-regulee-351">351</a></td><td>https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r392-type-act-smsse-regulee</td><td/></tr><tr><td style="white-space:nowrap"><a name="x-https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r392-type-act-smsse-regulee-352"> </a>  <a href="CodeSystem-tre-r392-type-act-smsse-regulee.html#tre-r392-type-act-smsse-regulee-352">352</a></td><td>https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r392-type-act-smsse-regulee</td><td/></tr><tr><td style="white-space:nowrap"><a name="x-https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r392-type-act-smsse-regulee-353"> </a>  <a href="CodeSystem-tre-r392-type-act-smsse-regulee.html#tre-r392-type-act-smsse-regulee-353">353</a></td><td>https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r392-type-act-smsse-regulee</td><td/></tr><tr><td style="white-space:nowrap"><a name="x-https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r392-type-act-smsse-regulee-354"> </a>  <a href="CodeSystem-tre-r392-type-act-smsse-regulee.html#tre-r392-type-act-smsse-regulee-354">354</a></td><td>https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r392-type-act-smsse-regulee</td><td/></tr><tr><td style="white-space:nowrap"><a name="x-https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r392-type-act-smsse-regulee-355"> </a>  <a href="CodeSystem-tre-r392-type-act-smsse-regulee.html#tre-r392-type-act-smsse-regulee-355">355</a></td><td>https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r392-type-act-smsse-regulee</td><td/></tr><tr><td style="white-space:nowrap"><a name="x-https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r392-type-act-smsse-regulee-356"> </a>  <a href="CodeSystem-tre-r392-type-act-smsse-regulee.html#tre-r392-type-act-smsse-regulee-356">356</a></td><td>https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r392-type-act-smsse-regulee</td><td/></tr><tr><td style="white-space:nowrap"><a name="x-https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r392-type-act-smsse-regulee-357"> </a>  <a href="CodeSystem-tre-r392-type-act-smsse-regulee.html#tre-r392-type-act-smsse-regulee-357">357</a></td><td>https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r392-type-act-smsse-regulee</td><td/></tr><tr><td style="white-space:nowrap"><a name="x-https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r392-type-act-smsse-regulee-358"> </a>  <a href="CodeSystem-tre-r392-type-act-smsse-regulee.html#tre-r392-type-act-smsse-regulee-358">358</a></td><td>https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r392-type-act-smsse-regulee</td><td/></tr><tr><td style="white-space:nowrap"><a name="x-https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r392-type-act-smsse-regulee-359"> </a>  <a href="CodeSystem-tre-r392-type-act-smsse-regulee.html#tre-r392-type-act-smsse-regulee-359">359</a></td><td>https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r392-type-act-smsse-regulee</td><td/></tr><tr><td style="white-space:nowrap"><a name="x-https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r392-type-act-smsse-regulee-360"> </a>  <a href="CodeSystem-tre-r392-type-act-smsse-regulee.html#tre-r392-type-act-smsse-regulee-360">360</a></td><td>https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r392-type-act-smsse-regulee</td><td/></tr><tr><td style="white-space:nowrap"><a name="x-https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r392-type-act-smsse-regulee-361"> </a>  <a href="CodeSystem-tre-r392-type-act-smsse-regulee.html#tre-r392-type-act-smsse-regulee-361">361</a></td><td>https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r392-type-act-smsse-regulee</td><td/></tr><tr><td style="white-space:nowrap"><a name="x-https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r392-type-act-smsse-regulee-362"> </a>  <a href="CodeSystem-tre-r392-type-act-smsse-regulee.html#tre-r392-type-act-smsse-regulee-362">362</a></td><td>https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r392-type-act-smsse-regulee</td><td/></tr><tr><td style="white-space:nowrap"><a name="x-https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r392-type-act-smsse-regulee-363"> </a>  <a href="CodeSystem-tre-r392-type-act-smsse-regulee.html#tre-r392-type-act-smsse-regulee-363">363</a></td><td>https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r392-type-act-smsse-regulee</td><td/></tr><tr><td style="white-space:nowrap"><a name="x-https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r392-type-act-smsse-regulee-364"> </a>  <a href="CodeSystem-tre-r392-type-act-smsse-regulee.html#tre-r392-type-act-smsse-regulee-364">364</a></td><td>https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r392-type-act-smsse-regulee</td><td/></tr><tr><td style="white-space:nowrap"><a name="x-https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r392-type-act-smsse-regulee-365"> </a>  <a href="CodeSystem-tre-r392-type-act-smsse-regulee.html#tre-r392-type-act-smsse-regulee-365">365</a></td><td>https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r392-type-act-smsse-regulee</td><td/></tr><tr><td style="white-space:nowrap"><a name="x-https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r392-type-act-smsse-regulee-366"> </a>  <a href="CodeSystem-tre-r392-type-act-smsse-regulee.html#tre-r392-type-act-smsse-regulee-366">366</a></td><td>https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r392-type-act-smsse-regulee</td><td/></tr><tr><td style="white-space:nowrap"><a name="x-https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r392-type-act-smsse-regulee-367"> </a>  <a href="CodeSystem-tre-r392-type-act-smsse-regulee.html#tre-r392-type-act-smsse-regulee-367">367</a></td><td>https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r392-type-act-smsse-regulee</td><td/></tr><tr><td style="white-space:nowrap"><a name="x-https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r392-type-act-smsse-regulee-368"> </a>  <a href="CodeSystem-tre-r392-type-act-smsse-regulee.html#tre-r392-type-act-smsse-regulee-368">368</a></td><td>https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r392-type-act-smsse-regulee</td><td/></tr><tr><td style="white-space:nowrap"><a name="x-https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r392-type-act-smsse-regulee-369"> </a>  <a href="CodeSystem-tre-r392-type-act-smsse-regulee.html#tre-r392-type-act-smsse-regulee-369">369</a></td><td>https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r392-type-act-smsse-regulee</td><td/></tr><tr><td style="white-space:nowrap"><a name="x-https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r392-type-act-smsse-regulee-370"> </a>  <a href="CodeSystem-tre-r392-type-act-smsse-regulee.html#tre-r392-type-act-smsse-regulee-370">370</a></td><td>https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r392-type-act-smsse-regulee</td><td/></tr><tr><td style="white-space:nowrap"><a name="x-https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r392-type-act-smsse-regulee-371"> </a>  <a href="CodeSystem-tre-r392-type-act-smsse-regulee.html#tre-r392-type-act-smsse-regulee-371">371</a></td><td>https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r392-type-act-smsse-regulee</td><td/></tr><tr><td style="white-space:nowrap"><a name="x-https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r392-type-act-smsse-regulee-372"> </a>  <a href="CodeSystem-tre-r392-type-act-smsse-regulee.html#tre-r392-type-act-smsse-regulee-372">372</a></td><td>https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r392-type-act-smsse-regulee</td><td/></tr><tr><td style="white-space:nowrap"><a name="x-https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r392-type-act-smsse-regulee-373"> </a>  <a href="CodeSystem-tre-r392-type-act-smsse-regulee.html#tre-r392-type-act-smsse-regulee-373">373</a></td><td>https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r392-type-act-smsse-regulee</td><td/></tr><tr><td style="white-space:nowrap"><a name="x-https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r392-type-act-smsse-regulee-374"> </a>  <a href="CodeSystem-tre-r392-type-act-smsse-regulee.html#tre-r392-type-act-smsse-regulee-374">374</a></td><td>https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r392-type-act-smsse-regulee</td><td/></tr><tr><td style="white-space:nowrap"><a name="x-https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r392-type-act-smsse-regulee-375"> </a>  <a href="CodeSystem-tre-r392-type-act-smsse-regulee.html#tre-r392-type-act-smsse-regulee-375">375</a></td><td>https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r392-type-act-smsse-regulee</td><td/></tr><tr><td style="white-space:nowrap"><a name="x-https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r392-type-act-smsse-regulee-376"> </a>  <a href="CodeSystem-tre-r392-type-act-smsse-regulee.html#tre-r392-type-act-smsse-regulee-376">376</a></td><td>https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r392-type-act-smsse-regulee</td><td/></tr><tr><td style="white-space:nowrap"><a name="x-https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r392-type-act-smsse-regulee-377"> </a>  <a href="CodeSystem-tre-r392-type-act-smsse-regulee.html#tre-r392-type-act-smsse-regulee-377">377</a></td><td>https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r392-type-act-smsse-regulee</td><td/></tr><tr><td style="white-space:nowrap"><a name="x-https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r392-type-act-smsse-regulee-378"> </a>  <a href="CodeSystem-tre-r392-type-act-smsse-regulee.html#tre-r392-type-act-smsse-regulee-378">378</a></td><td>https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r392-type-act-smsse-regulee</td><td/></tr><tr><td style="white-space:nowrap"><a name="x-https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r392-type-act-smsse-regulee-379"> </a>  <a href="CodeSystem-tre-r392-type-act-smsse-regulee.html#tre-r392-type-act-smsse-regulee-379">379</a></td><td>https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r392-type-act-smsse-regulee</td><td/></tr><tr><td style="white-space:nowrap"><a name="x-https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r392-type-act-smsse-regulee-380"> </a>  <a href="CodeSystem-tre-r392-type-act-smsse-regulee.html#tre-r392-type-act-smsse-regulee-380">380</a></td><td>https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r392-type-act-smsse-regulee</td><td/></tr><tr><td style="white-space:nowrap"><a name="x-https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r392-type-act-smsse-regulee-381"> </a>  <a href="CodeSystem-tre-r392-type-act-smsse-regulee.html#tre-r392-type-act-smsse-regulee-381">381</a></td><td>https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r392-type-act-smsse-regulee</td><td/></tr><tr><td style="white-space:nowrap"><a name="x-https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r392-type-act-smsse-regulee-382"> </a>  <a href="CodeSystem-tre-r392-type-act-smsse-regulee.html#tre-r392-type-act-smsse-regulee-382">382</a></td><td>https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r392-type-act-smsse-regulee</td><td/></tr><tr><td style="white-space:nowrap"><a name="x-https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r392-type-act-smsse-regulee-383"> </a>  <a href="CodeSystem-tre-r392-type-act-smsse-regulee.html#tre-r392-type-act-smsse-regulee-383">383</a></td><td>https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r392-type-act-smsse-regulee</td><td/></tr><tr><td style="white-space:nowrap"><a name="x-https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r392-type-act-smsse-regulee-384"> </a>  <a href="CodeSystem-tre-r392-type-act-smsse-regulee.html#tre-r392-type-act-smsse-regulee-384">384</a></td><td>https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r392-type-act-smsse-regulee</td><td/></tr><tr><td style="white-space:nowrap"><a name="x-https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r392-type-act-smsse-regulee-385"> </a>  <a href="CodeSystem-tre-r392-type-act-smsse-regulee.html#tre-r392-type-act-smsse-regulee-385">385</a></td><td>https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r392-type-act-smsse-regulee</td><td/></tr><tr><td style="white-space:nowrap"><a name="x-https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r392-type-act-smsse-regulee-386"> </a>  <a href="CodeSystem-tre-r392-type-act-smsse-regulee.html#tre-r392-type-act-smsse-regulee-386">386</a></td><td>https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r392-type-act-smsse-regulee</td><td/></tr><tr><td style="white-space:nowrap"><a name="x-https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r392-type-act-smsse-regulee-387"> </a>  <a href="CodeSystem-tre-r392-type-act-smsse-regulee.html#tre-r392-type-act-smsse-regulee-387">387</a></td><td>https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r392-type-act-smsse-regulee</td><td/></tr><tr><td style="white-space:nowrap"><a name="x-https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r392-type-act-smsse-regulee-388"> </a>  <a href="CodeSystem-tre-r392-type-act-smsse-regulee.html#tre-r392-type-act-smsse-regulee-388">388</a></td><td>https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r392-type-act-smsse-regulee</td><td/></tr><tr><td style="white-space:nowrap"><a name="x-https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r392-type-act-smsse-regulee-389"> </a>  <a href="CodeSystem-tre-r392-type-act-smsse-regulee.html#tre-r392-type-act-smsse-regulee-389">389</a></td><td>https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r392-type-act-smsse-regulee</td><td/></tr><tr><td style="white-space:nowrap"><a name="x-https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r392-type-act-smsse-regulee-390"> </a>  <a href="CodeSystem-tre-r392-type-act-smsse-regulee.html#tre-r392-type-act-smsse-regulee-390">390</a></td><td>https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r392-type-act-smsse-regulee</td><td/></tr><tr><td style="white-space:nowrap"><a name="x-https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r392-type-act-smsse-regulee-391"> </a>  <a href="CodeSystem-tre-r392-type-act-smsse-regulee.html#tre-r392-type-act-smsse-regulee-391">391</a></td><td>https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r392-type-act-smsse-regulee</td><td/></tr><tr><td style="white-space:nowrap"><a name="x-https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r392-type-act-smsse-regulee-392"> </a>  <a href="CodeSystem-tre-r392-type-act-smsse-regulee.html#tre-r392-type-act-smsse-regulee-392">392</a></td><td>https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r392-type-act-smsse-regulee</td><td/></tr><tr><td style="white-space:nowrap"><a name="x-https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r392-type-act-smsse-regulee-393"> </a>  <a href="CodeSystem-tre-r392-type-act-smsse-regulee.html#tre-r392-type-act-smsse-regulee-393">393</a></td><td>https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r392-type-act-smsse-regulee</td><td/></tr><tr><td style="white-space:nowrap"><a name="x-https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r392-type-act-smsse-regulee-394"> </a>  <a href="CodeSystem-tre-r392-type-act-smsse-regulee.html#tre-r392-type-act-smsse-regulee-394">394</a></td><td>https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r392-type-act-smsse-regulee</td><td/></tr><tr><td style="white-space:nowrap"><a name="x-https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r392-type-act-smsse-regulee-395"> </a>  <a href="CodeSystem-tre-r392-type-act-smsse-regulee.html#tre-r392-type-act-smsse-regulee-395">395</a></td><td>https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r392-type-act-smsse-regulee</td><td/></tr><tr><td style="white-space:nowrap"><a name="x-https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r392-type-act-smsse-regulee-396"> </a>  <a href="CodeSystem-tre-r392-type-act-smsse-regulee.html#tre-r392-type-act-smsse-regulee-396">396</a></td><td>https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r392-type-act-smsse-regulee</td><td/></tr><tr><td style="white-space:nowrap"><a name="x-https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r392-type-act-smsse-regulee-397"> </a>  <a href="CodeSystem-tre-r392-type-act-smsse-regulee.html#tre-r392-type-act-smsse-regulee-397">397</a></td><td>https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r392-type-act-smsse-regulee</td><td/></tr><tr><td style="white-space:nowrap"><a name="x-https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r392-type-act-smsse-regulee-398"> </a>  <a href="CodeSystem-tre-r392-type-act-smsse-regulee.html#tre-r392-type-act-smsse-regulee-398">398</a></td><td>https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r392-type-act-smsse-regulee</td><td/></tr><tr><td style="white-space:nowrap"><a name="x-https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r392-type-act-smsse-regulee-399"> </a>  <a href="CodeSystem-tre-r392-type-act-smsse-regulee.html#tre-r392-type-act-smsse-regulee-399">399</a></td><td>https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r392-type-act-smsse-regulee</td><td/></tr><tr><td style="white-space:nowrap"><a name="x-https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r392-type-act-smsse-regulee-400"> </a>  <a href="CodeSystem-tre-r392-type-act-smsse-regulee.html#tre-r392-type-act-smsse-regulee-400">400</a></td><td>https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r392-type-act-smsse-regulee</td><td/></tr><tr><td style="white-space:nowrap"><a name="x-https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r392-type-act-smsse-regulee-401"> </a>  <a href="CodeSystem-tre-r392-type-act-smsse-regulee.html#tre-r392-type-act-smsse-regulee-401">401</a></td><td>https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r392-type-act-smsse-regulee</td><td/></tr><tr><td style="white-space:nowrap"><a name="x-https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r392-type-act-smsse-regulee-402"> </a>  <a href="CodeSystem-tre-r392-type-act-smsse-regulee.html#tre-r392-type-act-smsse-regulee-402">402</a></td><td>https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r392-type-act-smsse-regulee</td><td/></tr><tr><td style="white-space:nowrap"><a name="x-https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r392-type-act-smsse-regulee-403"> </a>  <a href="CodeSystem-tre-r392-type-act-smsse-regulee.html#tre-r392-type-act-smsse-regulee-403">403</a></td><td>https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r392-type-act-smsse-regulee</td><td/></tr><tr><td style="white-space:nowrap"><a name="x-https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r392-type-act-smsse-regulee-404"> </a>  <a href="CodeSystem-tre-r392-type-act-smsse-regulee.html#tre-r392-type-act-smsse-regulee-404">404</a></td><td>https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r392-type-act-smsse-regulee</td><td/></tr><tr><td style="white-space:nowrap"><a name="x-https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r392-type-act-smsse-regulee-405"> </a>  <a href="CodeSystem-tre-r392-type-act-smsse-regulee.html#tre-r392-type-act-smsse-regulee-405">405</a></td><td>https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r392-type-act-smsse-regulee</td><td/></tr><tr><td style="white-space:nowrap"><a name="x-https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r392-type-act-smsse-regulee-406"> </a>  <a href="CodeSystem-tre-r392-type-act-smsse-regulee.html#tre-r392-type-act-smsse-regulee-406">406</a></td><td>https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r392-type-act-smsse-regulee</td><td/></tr><tr><td style="white-space:nowrap"><a name="x-https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r392-type-act-smsse-regulee-407"> </a>  <a href="CodeSystem-tre-r392-type-act-smsse-regulee.html#tre-r392-type-act-smsse-regulee-407">407</a></td><td>https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r392-type-act-smsse-regulee</td><td/></tr><tr><td style="white-space:nowrap"><a name="x-https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r392-type-act-smsse-regulee-408"> </a>  <a href="CodeSystem-tre-r392-type-act-smsse-regulee.html#tre-r392-type-act-smsse-regulee-408">408</a></td><td>https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r392-type-act-smsse-regulee</td><td/></tr><tr><td style="white-space:nowrap"><a name="x-https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r392-type-act-smsse-regulee-409"> </a>  <a href="CodeSystem-tre-r392-type-act-smsse-regulee.html#tre-r392-type-act-smsse-regulee-409">409</a></td><td>https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r392-type-act-smsse-regulee</td><td/></tr><tr><td style="white-space:nowrap"><a name="x-https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r392-type-act-smsse-regulee-410"> </a>  <a href="CodeSystem-tre-r392-type-act-smsse-regulee.html#tre-r392-type-act-smsse-regulee-410">410</a></td><td>https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r392-type-act-smsse-regulee</td><td/></tr><tr><td style="white-space:nowrap"><a name="x-https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r392-type-act-smsse-regulee-411"> </a>  <a href="CodeSystem-tre-r392-type-act-smsse-regulee.html#tre-r392-type-act-smsse-regulee-411">411</a></td><td>https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r392-type-act-smsse-regulee</td><td/></tr><tr><td style="white-space:nowrap"><a name="x-https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r392-type-act-smsse-regulee-412"> </a>  <a href="CodeSystem-tre-r392-type-act-smsse-regulee.html#tre-r392-type-act-smsse-regulee-412">412</a></td><td>https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r392-type-act-smsse-regulee</td><td/></tr><tr><td style="white-space:nowrap"><a name="x-https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r392-type-act-smsse-regulee-413"> </a>  <a href="CodeSystem-tre-r392-type-act-smsse-regulee.html#tre-r392-type-act-smsse-regulee-413">413</a></td><td>https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r392-type-act-smsse-regulee</td><td/></tr><tr><td style="white-space:nowrap"><a name="x-https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r392-type-act-smsse-regulee-414"> </a>  <a href="CodeSystem-tre-r392-type-act-smsse-regulee.html#tre-r392-type-act-smsse-regulee-414">414</a></td><td>https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r392-type-act-smsse-regulee</td><td/></tr><tr><td style="white-space:nowrap"><a name="x-https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r392-type-act-smsse-regulee-415"> </a>  <a href="CodeSystem-tre-r392-type-act-smsse-regulee.html#tre-r392-type-act-smsse-regulee-415">415</a></td><td>https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r392-type-act-smsse-regulee</td><td/></tr><tr><td style="white-space:nowrap"><a name="x-https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r392-type-act-smsse-regulee-416"> </a>  <a href="CodeSystem-tre-r392-type-act-smsse-regulee.html#tre-r392-type-act-smsse-regulee-416">416</a></td><td>https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r392-type-act-smsse-regulee</td><td/></tr><tr><td style="white-space:nowrap"><a name="x-https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r392-type-act-smsse-regulee-417"> </a>  <a href="CodeSystem-tre-r392-type-act-smsse-regulee.html#tre-r392-type-act-smsse-regulee-417">417</a></td><td>https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r392-type-act-smsse-regulee</td><td/></tr><tr><td style="white-space:nowrap"><a name="x-https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r392-type-act-smsse-regulee-418"> </a>  <a href="CodeSystem-tre-r392-type-act-smsse-regulee.html#tre-r392-type-act-smsse-regulee-418">418</a></td><td>https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r392-type-act-smsse-regulee</td><td/></tr><tr><td style="white-space:nowrap"><a name="x-https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r392-type-act-smsse-regulee-419"> </a>  <a href="CodeSystem-tre-r392-type-act-smsse-regulee.html#tre-r392-type-act-smsse-regulee-419">419</a></td><td>https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r392-type-act-smsse-regulee</td><td/></tr><tr><td style="white-space:nowrap"><a name="x-https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r392-type-act-smsse-regulee-420"> </a>  <a href="CodeSystem-tre-r392-type-act-smsse-regulee.html#tre-r392-type-act-smsse-regulee-420">420</a></td><td>https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r392-type-act-smsse-regulee</td><td/></tr><tr><td style="white-space:nowrap"><a name="x-https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r392-type-act-smsse-regulee-421"> </a>  <a href="CodeSystem-tre-r392-type-act-smsse-regulee.html#tre-r392-type-act-smsse-regulee-421">421</a></td><td>https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r392-type-act-smsse-regulee</td><td/></tr></table></div>
+
+  <hr/>
+  <p>
+    Explanation of the columns that may appear on this page:
+  </p>
+  <table class="grid">
+    <tr>
+      <td>Level</td>
+      <td>A few code lists that FHIR defines are hierarchical - each code is assigned a level.
+          In this scheme, some codes are under other codes, and imply that the code they are under also applies</td>
+    </tr>
+    <tr>
+      <td>System</td>
+      <td>The source of the definition of the code (when the value set draws in codes defined elsewhere)</td>
+    </tr>
+    <tr>
+      <td>Code</td>
+      <td>The code (used as the code in the resource instance)</td>
+    </tr>
+    <tr>
+      <td>Display</td>
+      <td>The display (used in the <i>display</i> element of a <a href="http://hl7.org/fhir/R4/datatypes.html#Coding">Coding</a>). If there is no display, implementers should not simply display the code, but map the concept into their application</td>
+    </tr>
+    <tr>
+      <td>Definition</td>
+      <td>An explanation of the meaning of the concept</td>
+    </tr>
+    <tr>
+      <td>Comments</td>
+      <td>Additional notes about how to use the code</td>
+    </tr>
+  </table>
+</div>
+  
+
+  <!-- insert notes if present -->
+  
+
+
+
+  
+
+</div>
+</div>  <!-- /inner-wrapper -->
+</div>  <!-- /row -->
+</div>  <!-- /container -->
+</div>  <!-- /segment-content -->
+
+<script type="text/javascript" src="assets/js/jquery.js"> </script>     <!-- note keep space here, otherwise it will be transformed to empty tag -> fails -->
+<script type="text/javascript" src="assets/js/jquery-ui.min.js"> </script>
+
+<script type="text/javascript" src="assets/js/window-hash.js"> </script>
+<a name="bottom"> </a>
+<div id="segment-footer" igtool="footer" class="segment">  <!-- segment-footer -->
+<div class="container">  <!-- container -->
+
+<div style="background-color:var(--footer-nav-bg-color)">
+  <table style="width:100%">
+    <tbody>
+      <tr>
+        <td style="text-align:left">&#xA0;
+
+          <a href="ValueSet-jdv-j336-type-act-sanitaire-diverse-regulee-finess.demande.html">&lt;prev</a>
+
+        </td>
+        <td style="text-align:center">
+          <a href="#top">top</a>
+        </td>
+        <td style="text-align:right">&#xA0;
+
+          <a href="ValueSet-jdv-j340-type-act-de-soin-amf-finess-testing.html">next&gt;</a>
+
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+
+<div class="inner-wrapper">
+  <p>
+    IG &#169; 2020+ <a style="color:var(--footer-hyperlink-text-color)" href="https://esante.gouv.fr">ANS</a>.  Package ans.fr.terminologies#0.1.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Tue, Jun 3, 2025 15:31+0000">2025-06-03</span>
+    <br/>
+    <span style="color: var(--footer-highlight-text-color)"></span>
+      Liens: <a style="color: var(--footer-hyperlink-text-color)" href="toc.html">Table des matières </a> |
+<a style="color: var(--footer-hyperlink-text-color)" href="qa.html">QA </a> |
+<a style="color: var(--footer-hyperlink-text-color)" target="_blank" href="https://interop.esante.gouv.fr/terminologies/history.html">Historique des versions </a>
+ | <a style="color: var(--footer-hyperlink-text-color)" target="_blank" id="newissue" href="https://github.com/ansforge/IG-terminologie-de-sante/issues/new/choose?title=">New Issue</a>
+    </span>
+  </p>
+</div>  <!-- /inner-wrapper -->
+</div>  <!-- /container -->
+</div>  <!-- /segment-footer -->
+
+<div id="segment-post-footer" class="segment hidden">  <!-- segment-post-footer -->
+<div class="container">  <!-- container -->
+</div>  <!-- /container -->
+</div>  <!-- /segment-post-footer -->
+
+<!-- JS and analytics only. -->
+<!-- Bootstrap core JavaScript
+================================================== -->
+<!-- Placed at the end of the document so the pages load faster -->
+<script type="text/javascript" src="assets/js/bootstrap.min.js"> </script>
+<script type="text/javascript" src="assets/js/respond.min.js"> </script>
+<script type="text/javascript" src="assets/js/anchor.min.js"> </script>
+<script type="text/javascript" src="assets/js/clipboard.min.js"> </script>
+<script type="text/javascript" src="assets/js/clipboard-btn.js"> </script>
+
+<!-- Ajout ANS -->
+<script src="assets/js/app.js" type="text/javascript"> </script>
+<script src="assets/js/vendor.js" type="text/javascript"> </script>
+<script type="text/javascript" src="assets/js/addOnto.js"> </script>
+<!-- Fin ajout ANS -->
+
+<script type="text/javascript" src="assets/js/anchor-hover.js"> </script>
+
+
+<!-- Analytics Below
+================================================== -->
+
+
+<!-- AJOUT ANS -->
+
+<footer class="footer footer-principal" role="contentinfo">
+<div class="footer__region1">
+<div class="container">
+<div class="row">
+
+  <div class="col-md-6 col-lg-4 text-center text-md-left">
+    <div class="logos">        
+      <div class="logo logo--0">
+        <a href="https://solidarites-sante.gouv.fr" title="Ministère des Solidarités et de la Santé (nouvelle fenêtre)" target="_blank" rel="nofollow">
+          
+          <img src="assets/images/logo-ministere.svg" alt="Ministère des Solidarités et de la Santé" width="133" height="77" loading="lazy" />
+          
+        </a>
+      </div>
+  
+      <div class="logo logo--1">
+        <a href="https://esante.gouv.fr/" title="Agence du numérique en santé (nouvelle fenêtre)" target="_blank" rel="nofollow">
+          
+          <img src="assets/images/logo-ANS-footer.svg" alt="Agence du numérique en santé" width="106" height="74" loading="lazy" />
+        </a>
+      </div>
+    </div>
+  </div>
+  
+  <div class="col-md-6 col-lg-4 text-center text-md-left">
+    <p class="footer__title">Agence du Numérique en Santé</p>
+    <p>2-10 Rue d'Oradour-sur-Glane 75015 Paris</p>
+
+    <!-- <div class="m-social">
+      <ul class="m-social__list">        
+        <li class="m-social__item">
+          <a class="m-social__link" href="https://www.linkedin.com/company/agence-du-numerique-en-sante/" target="_blank" rel="nofollow">
+            <div class="m-social__icon">
+              <svg class="svg-icon svg-linkedin" aria-hidden="true" focusable="false"><use href="assets/images/icon-sprite.svg#linkedin"></use></svg>
+            </div>
+            <span class="sr-only">linkedin</span>
+          </a>
+        </li>
+        <li class="m-social__item">
+          <a class="m-social__link" href="https://twitter.com/esante_gouv_fr" target="_blank" rel="nofollow">
+            <div class="m-social__icon">
+              <svg class="svg-icon svg-twitter" aria-hidden="true" focusable="false"><use href="assets/images/icon-sprite.svg#twitter"></use></svg>
+            </div>
+            <span class="sr-only">twitter</span>
+          </a>
+        </li>
+        <li class="m-social__item">
+          <a class="m-social__link" href="https://www.youtube.com/channel/UCd1zuSaU5cE1lRCpwv_HSMA" target="_blank" rel="nofollow">
+            <div class="m-social__icon">
+              <svg class="svg-icon svg-youtube" aria-hidden="true" focusable="false"><use href="assets/images/icon-sprite.svg#youtube"></use></svg>
+            </div>
+            <span class="sr-only">youtube</span>
+          </a>
+        </li>
+        <li class="m-social__item">
+          <a class="m-social__link" href="https://esante.gouv.fr/rss.xml" target="_blank" rel="nofollow">
+            <div class="m-social__icon">
+              <svg class="svg-icon svg-rss" aria-hidden="true" focusable="false"><use href="assets/images/icon-sprite.svg#rss"></use></svg>
+            </div>
+            <span class="sr-only">rss</span>
+          </a>
+        </li>
+      </ul>
+    </div> -->
+  </div>
+  
+  <div class="col-6 col-lg-4">
+    <ul class="footer-list">
+      <li class="footer-list__item footer-list__item--hasIcon">
+        <a href="mailto:ci-sis@esante.gouv.fr" class="mailto-link">
+          <svg class="svg-icon svg-angle-right" aria-hidden="true" focusable="false"><use href="assets/images/icon-sprite.svg#angle-right"></use></svg>Contact</a>
+        </li>
+        <!-- <li class="footer-list__item">
+          <a href="https://interop-pprod.esante.gouv.fr/ci-sis-specifications/wp-content/uploads/CGU_espace_de_tests_v1.1.pdf" class="file-link">Mentions légales</a>
+        </li>
+         -->
+      </ul>
+    </div>
+
+  </div>
+</div>
+</div>
+
+<!-- <div class="footer__region2">
+<div class="container">
+  <div class="footer-contentinfo">
+    <ul class="footer-list footer-list--inline">
+
+    </ul>
+  </div>
+</div>
+</div> -->
+</footer>
+</body>
+</html>

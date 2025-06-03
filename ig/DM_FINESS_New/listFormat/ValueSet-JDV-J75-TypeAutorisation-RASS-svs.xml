@@ -2,7 +2,7 @@
 <RetrieveValueSetResponse xmlns="urn:ihe:iti:svs:2008"
                           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
    <ValueSet dateFin=""
-             dateMaj="20250131120000"
+             dateMaj="20250523120000"
              dateValid="20190830120000"
              description="Type d'autorisation d'exercice pour accès à l'exercice de la profession du RASS"
              displayName="JDV_J75_TypeAutorisation_RASS"
@@ -108,7 +108,7 @@
                   displayName="Docteur en médecine spécialité psychiatrie"/>
          <concept code="AM34"
                   codeSystem="1.2.250.1.213.1.6.1.14"
-                  displayName="Autorisation d'exercice d'audioprothésiste pour médecin"/>
+                  displayName="Diplôme, certificat ou titre permettant d'exercer la médecine en France"/>
          <concept code="AM35"
                   codeSystem="1.2.250.1.213.1.6.1.14"
                   displayName="Autorisation d'user du titre de Chiropraxie"/>

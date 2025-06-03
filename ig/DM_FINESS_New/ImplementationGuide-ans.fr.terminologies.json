@@ -3,7 +3,7 @@
   "id" : "ans.fr.terminologies",
   "text" : {
     "status" : "generated",
-    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ImplementationGuide ans.fr.terminologies</b></p><a name=\"ans.fr.terminologies\"> </a><a name=\"hcans.fr.terminologies\"> </a><a name=\"ans.fr.terminologies-fr-FR\"> </a><h2>Terminologies</h2><p>LURL officielle pour ce guide dimplémentation est : </p><pre>https://interop.esante.gouv.fr/terminologies/ImplementationGuide/ans.fr.terminologies</pre><div><p>Les nomenclatures des objets de Santé sont mises à disposition du secteur santé-social par l’agence du numérique en santé</p>\n</div></div>"
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Narratif généré : ImplementationGuide ans.fr.terminologies</b></p><a name=\"ans.fr.terminologies\"> </a><a name=\"hcans.fr.terminologies\"> </a><a name=\"ans.fr.terminologies-fr-FR\"> </a><h2>Terminologies</h2><p>LURL officielle pour ce guide dimplémentation est : </p><pre>https://interop.esante.gouv.fr/terminologies/ImplementationGuide/ans.fr.terminologies</pre><div><p>Les nomenclatures des objets de Santé sont mises à disposition du secteur santé-social par l’agence du numérique en santé</p>\n</div></div>"
   },
   "url" : "https://interop.esante.gouv.fr/terminologies/ImplementationGuide/ans.fr.terminologies",
   "version" : "0.1.0",
@@ -38,7 +38,7 @@
     }],
     "uri" : "http://terminology.hl7.org/ImplementationGuide/hl7.terminology",
     "packageId" : "hl7.terminology.r4",
-    "version" : "6.3.0"
+    "version" : "6.4.0"
   },
   {
     "id" : "hl7ext",
@@ -33196,6 +33196,114 @@
         "valueString" : "ValueSet"
       }],
       "reference" : {
+        "reference" : "ValueSet/jdv-j322-type-act-enseignement-regulee-finess"
+      },
+      "name" : "Jdv J322 Type Act Enseignement Regulee Finess",
+      "description" : "Jeu de valeurs FINESS reprenant les types d'activité d'enseignement régulée",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      }],
+      "reference" : {
+        "reference" : "ValueSet/jdv-j331-type-act-sociale-regulee-finess"
+      },
+      "name" : "Jdv J331 Type Act Sociale Regulee Finess",
+      "description" : "Jeu de valeurs FINESS reprenant les types d'activité sociale régulée",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      }],
+      "reference" : {
+        "reference" : "ValueSet/jdv-j332-type-act-medico-sociale-regulee-finess"
+      },
+      "name" : "Jdv J332 Type Act Medico Sociale Regulee Finess",
+      "description" : "Jeu de valeurs FINESS reprenant les types d'activité médico sociale régulée",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      }],
+      "reference" : {
+        "reference" : "ValueSet/jdv-j336-type-act-sanitaire-diverse-regulee-finess"
+      },
+      "name" : "Jdv J336 Type Act Sanitaire Diverse Regulee Finess",
+      "description" : "Jeu de valeurs FINESS reprenant les types d'activité sanitaire régulée",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      }],
+      "reference" : {
+        "reference" : "ValueSet/jdv-j340-type-act-de-soin-amf-finess"
+      },
+      "name" : "Jdv J340 Type Act De Soin Amf Finess",
+      "description" : "Jeu de valeurs FINESS reprenant les types d'activité de soin AMF",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      }],
+      "reference" : {
+        "reference" : "ValueSet/jdv-j341-type-act-autre-acte-soin-finess"
+      },
+      "name" : "Jdv J341 Type Act Autre Acte Soin Finess",
+      "description" : "Jeu de valeurs FINESS reprenant les types d'activité pour les autres actes de soin",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      }],
+      "reference" : {
+        "reference" : "ValueSet/jdv-j342-type-act-soumise-a-reconnaissance-finess"
+      },
+      "name" : "Jdv J342 Type Act Soumise A Reconnaissance Finess",
+      "description" : "Jeu de valeurs FINESS reprenant les types d'activité soumise à reconnaissance",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      }],
+      "reference" : {
+        "reference" : "ValueSet/jdv-j344-type-act-equipement-materiel-lourd-finess"
+      },
+      "name" : "Jdv J344 Type Act Equipement Materiel Lourd Finess",
+      "description" : "Jeu de valeurs FINESS reprenant les types d'activité associés aux équipements matériel lourds",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      }],
+      "reference" : {
+        "reference" : "ValueSet/jdv-j350-type-act-de-soin-amm-finess"
+      },
+      "name" : "Jdv J350 Type Act De Soin Amm Finess",
+      "description" : "Jeu de valeurs FINESS reprenant les types d'activité de soin AMM",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      }],
+      "reference" : {
         "reference" : "ValueSet/jdv-j352-nature-capacite-finess"
       },
       "name" : "Jdv J352 Nature Capacite Finess",
@@ -35803,7 +35911,7 @@
         "reference" : "ValueSet/JDV-J47-FunctionCode-CISIS"
       },
       "name" : "JDV_J47_FunctionCode_CISIS",
-      "description" : "Jeux de valeurs des Rôles fonctionnels HL7 et CI-SIS",
+      "description" : "Rôles fonctionnels",
       "exampleBoolean" : false
     },
     {
@@ -36483,6 +36591,18 @@
         "reference" : "CodeSystem/terminologie-standardterms"
       },
       "name" : "Standard Terms Data Base Dictionnaire européen multilingue de termes normalisés descripteurs de médicaments",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "CodeSystem"
+      }],
+      "reference" : {
+        "reference" : "CodeSystem/terminologie-cisis"
+      },
+      "name" : "TerminologieCISIS - Terminologie des concepts non trouvés dans les autres terminologies",
+      "description" : "Terminologie multi-domaines créée et maintenue par l'ANS contenant les termes non trouvés dans les autres terminologies internationales ou nationales.",
       "exampleBoolean" : false
     },
     {
