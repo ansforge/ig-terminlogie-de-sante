@@ -43,7 +43,9 @@ Description: "Nomenclature des modalités pour les activités de soin AMM"
 * #MO000 ^property[0].code = #dateValid
 * #MO000 ^property[=].valueDateTime = "1900-01-01T00:00:00+01:00"
 * #MO000 ^property[+].code = #dateMaj
-* #MO000 ^property[=].valueDateTime = "1900-01-01T00:00:00+01:00"										
+* #MO000 ^property[=].valueDateTime = "1900-01-01T00:00:00+01:00"
+* #MO000 ^property[+].code = #status
+* #MO000 ^property[=].valueCode = #active
 * #MO001 "AMP CLI - Prélèvements d'ovocytes en vue de leur conservation pour la réalisation ultérieure d'une assistance médicale à la procréation en application de l'Article L. 2141-12"
 * #MO001 ^property[0].code = #dateValid
 * #MO001 ^property[=].valueDateTime = "1900-01-01T00:00:00+01:00"
