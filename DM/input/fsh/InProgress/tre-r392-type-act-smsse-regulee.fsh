@@ -5882,7 +5882,7 @@ Description: "Type activité SMSSE régulée"
 * #648 ^property[=].valueDateTime = "1900-01-01T00:00:00+01:00"
 * #648 ^property[+].code = #status
 * #648 ^property[=].valueCode = #active
-* #648 ^property[+].code = #natureActiviteµ
+* #648 ^property[+].code = #natureActivite
 * #648 ^property[=].valueCode = #AMM
 * #649 "AMM/QA080/MO007/ME083/PTS00/DE000"
 * #649 ^property[0].code = #dateValid
