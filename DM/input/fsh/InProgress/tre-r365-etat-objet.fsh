@@ -41,6 +41,10 @@ Description: "Nomenclature des états élémentaires d'un objet du MOS organisé
 * ^property[=].uri = "http://hl7.org/fhir/concept-properties#retirementDate"
 * ^property[=].description = "Date de retrait du code"
 * ^property[=].type = #dateTime
+* ^property[+].code = #macroEtatAdministratif
+* ^property[=].uri = "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r386-macro-etat-objet-administratif"
+* ^property[=].description = "Macro-etat des structures FINESS qui dérivent de l'état de l'objet. Permet de distinguer les structures actives de celles inactives."
+* ^property[=].type = #code
 * #001 "Entrée dans le champ FINESS"
 * #001 ^property[0].code = #dateValid
 * #001 ^property[=].valueDateTime = "1900-01-01T00:00:00+01:00"
@@ -48,6 +52,8 @@ Description: "Nomenclature des états élémentaires d'un objet du MOS organisé
 * #001 ^property[=].valueDateTime = "1900-01-01T00:00:00+01:00"
 * #001 ^property[+].code = #status
 * #001 ^property[=].valueCode = #active
+* #001 ^property[+].code = #macroEtatAdministratif
+* #001 ^property[=].valueCode = #A
 * #002 "Sortie du champ FINESS"
 * #002 ^property[0].code = #dateValid
 * #002 ^property[=].valueDateTime = "1900-01-01T00:00:00+01:00"
@@ -55,6 +61,8 @@ Description: "Nomenclature des états élémentaires d'un objet du MOS organisé
 * #002 ^property[=].valueDateTime = "1900-01-01T00:00:00+01:00"
 * #002 ^property[+].code = #status
 * #002 ^property[=].valueCode = #active
+* #002 ^property[+].code = #macroEtatAdministratif
+* #002 ^property[=].valueCode = #I
 * #003 "Créée / immatriculée"
 * #003 ^designation.language = #fr-FR
 * #003 ^designation.use.system = "http://snomed.info/sct"
@@ -66,6 +74,8 @@ Description: "Nomenclature des états élémentaires d'un objet du MOS organisé
 * #003 ^property[=].valueDateTime = "1900-01-01T00:00:00+01:00"
 * #003 ^property[+].code = #status
 * #003 ^property[=].valueCode = #active
+* #003 ^property[+].code = #macroEtatAdministratif
+* #003 ^property[=].valueCode = #A
 * #004 "Cessée"
 * #004 ^property[0].code = #dateValid
 * #004 ^property[=].valueDateTime = "1900-01-01T00:00:00+01:00"
@@ -73,6 +83,8 @@ Description: "Nomenclature des états élémentaires d'un objet du MOS organisé
 * #004 ^property[=].valueDateTime = "1900-01-01T00:00:00+01:00"
 * #004 ^property[+].code = #status
 * #004 ^property[=].valueCode = #active
+* #004 ^property[+].code = #macroEtatAdministratif
+* #004 ^property[=].valueCode = #I
 * #005 "Fermée"
 * #005 ^property[0].code = #dateValid
 * #005 ^property[=].valueDateTime = "1900-01-01T00:00:00+01:00"
@@ -80,6 +92,8 @@ Description: "Nomenclature des états élémentaires d'un objet du MOS organisé
 * #005 ^property[=].valueDateTime = "1900-01-01T00:00:00+01:00"
 * #005 ^property[+].code = #status
 * #005 ^property[=].valueCode = #active
+* #005 ^property[+].code = #macroEtatAdministratif
+* #005 ^property[=].valueCode = #I
 * #007 "Première autorisation de l'EGE"
 * #007 ^property[0].code = #dateValid
 * #007 ^property[=].valueDateTime = "1900-01-01T00:00:00+01:00"
@@ -87,6 +101,8 @@ Description: "Nomenclature des états élémentaires d'un objet du MOS organisé
 * #007 ^property[=].valueDateTime = "1900-01-01T00:00:00+01:00"
 * #007 ^property[+].code = #status
 * #007 ^property[=].valueCode = #active
+* #007 ^property[+].code = #macroEtatAdministratif
+* #007 ^property[=].valueCode = #A
 * #010 "Activité autorisée"
 * #010 ^property[0].code = #dateValid
 * #010 ^property[=].valueDateTime = "1900-01-01T00:00:00+01:00"
@@ -94,6 +110,8 @@ Description: "Nomenclature des états élémentaires d'un objet du MOS organisé
 * #010 ^property[=].valueDateTime = "1900-01-01T00:00:00+01:00"
 * #010 ^property[+].code = #status
 * #010 ^property[=].valueCode = #active
+* #010 ^property[+].code = #macroEtatAdministratif
+* #010 ^property[=].valueCode = #A
 * #012 "Activité installée/meo"
 * #012 ^property[0].code = #dateValid
 * #012 ^property[=].valueDateTime = "1900-01-01T00:00:00+01:00"
@@ -101,6 +119,8 @@ Description: "Nomenclature des états élémentaires d'un objet du MOS organisé
 * #012 ^property[=].valueDateTime = "1900-01-01T00:00:00+01:00"
 * #012 ^property[+].code = #status
 * #012 ^property[=].valueCode = #active
+* #012 ^property[+].code = #macroEtatAdministratif
+* #012 ^property[=].valueCode = #A
 * #013 "Activité fermée"
 * #013 ^property[0].code = #dateValid
 * #013 ^property[=].valueDateTime = "1900-01-01T00:00:00+01:00"
@@ -108,6 +128,8 @@ Description: "Nomenclature des états élémentaires d'un objet du MOS organisé
 * #013 ^property[=].valueDateTime = "1900-01-01T00:00:00+01:00"
 * #013 ^property[+].code = #status
 * #013 ^property[=].valueCode = #active
+* #013 ^property[+].code = #macroEtatAdministratif
+* #013 ^property[=].valueCode = #I
 * #015 "Activité désinstallée"
 * #015 ^property[0].code = #dateValid
 * #015 ^property[=].valueDateTime = "1900-01-01T00:00:00+01:00"
@@ -115,6 +137,8 @@ Description: "Nomenclature des états élémentaires d'un objet du MOS organisé
 * #015 ^property[=].valueDateTime = "1900-01-01T00:00:00+01:00"
 * #015 ^property[+].code = #status
 * #015 ^property[=].valueCode = #active
+* #015 ^property[+].code = #macroEtatAdministratif
+* #015 ^property[=].valueCode = #I
 * #016 "Devient membre du groupe"
 * #016 ^property[0].code = #dateValid
 * #016 ^property[=].valueDateTime = "1900-01-01T00:00:00+01:00"
@@ -122,6 +146,8 @@ Description: "Nomenclature des états élémentaires d'un objet du MOS organisé
 * #016 ^property[=].valueDateTime = "1900-01-01T00:00:00+01:00"
 * #016 ^property[+].code = #status
 * #016 ^property[=].valueCode = #active
+* #016 ^property[+].code = #macroEtatAdministratif
+* #016 ^property[=].valueCode = #A
 * #017 "Sortie du groupe"
 * #017 ^property[0].code = #dateValid
 * #017 ^property[=].valueDateTime = "1900-01-01T00:00:00+01:00"
@@ -129,6 +155,8 @@ Description: "Nomenclature des états élémentaires d'un objet du MOS organisé
 * #017 ^property[=].valueDateTime = "1900-01-01T00:00:00+01:00"
 * #017 ^property[+].code = #status
 * #017 ^property[=].valueCode = #active
+* #017 ^property[+].code = #macroEtatAdministratif
+* #017 ^property[=].valueCode = #A
 * #018 "EGE fermée suite à cession"
 * #018 ^property[0].code = #dateValid
 * #018 ^property[=].valueDateTime = "1900-01-01T00:00:00+01:00"
@@ -136,6 +164,8 @@ Description: "Nomenclature des états élémentaires d'un objet du MOS organisé
 * #018 ^property[=].valueDateTime = "1900-01-01T00:00:00+01:00"
 * #018 ^property[+].code = #status
 * #018 ^property[=].valueCode = #active
+* #018 ^property[+].code = #macroEtatAdministratif
+* #018 ^property[=].valueCode = #I
 * #019 "EGE reprise"
 * #019 ^property[0].code = #dateValid
 * #019 ^property[=].valueDateTime = "1900-01-01T00:00:00+01:00"
@@ -143,6 +173,8 @@ Description: "Nomenclature des états élémentaires d'un objet du MOS organisé
 * #019 ^property[=].valueDateTime = "1900-01-01T00:00:00+01:00"
 * #019 ^property[+].code = #status
 * #019 ^property[=].valueCode = #active
+* #019 ^property[+].code = #macroEtatAdministratif
+* #019 ^property[=].valueCode = #A
 * #020 "PM-EJ fermée suite à cession"
 * #020 ^property[0].code = #dateValid
 * #020 ^property[=].valueDateTime = "1900-01-01T00:00:00+01:00"
@@ -150,6 +182,8 @@ Description: "Nomenclature des états élémentaires d'un objet du MOS organisé
 * #020 ^property[=].valueDateTime = "1900-01-01T00:00:00+01:00"
 * #020 ^property[+].code = #status
 * #020 ^property[=].valueCode = #active
+* #020 ^property[+].code = #macroEtatAdministratif
+* #020 ^property[=].valueCode = #I
 * #021 "Activité exercée cédée"
 * #021 ^property[0].code = #dateValid
 * #021 ^property[=].valueDateTime = "1900-01-01T00:00:00+01:00"
@@ -157,6 +191,8 @@ Description: "Nomenclature des états élémentaires d'un objet du MOS organisé
 * #021 ^property[=].valueDateTime = "1900-01-01T00:00:00+01:00"
 * #021 ^property[+].code = #status
 * #021 ^property[=].valueCode = #active
+* #021 ^property[+].code = #macroEtatAdministratif
+* #021 ^property[=].valueCode = #A
 * #022 "Activité exercée reprise"
 * #022 ^property[0].code = #dateValid
 * #022 ^property[=].valueDateTime = "1900-01-01T00:00:00+01:00"
@@ -164,6 +200,8 @@ Description: "Nomenclature des états élémentaires d'un objet du MOS organisé
 * #022 ^property[=].valueDateTime = "1900-01-01T00:00:00+01:00"
 * #022 ^property[+].code = #status
 * #022 ^property[=].valueCode = #active
+* #022 ^property[+].code = #macroEtatAdministratif
+* #022 ^property[=].valueCode = #A
 * #023 "Activité exercée fermée suite à regroupement"
 * #023 ^property[0].code = #dateValid
 * #023 ^property[=].valueDateTime = "1900-01-01T00:00:00+01:00"
@@ -171,6 +209,8 @@ Description: "Nomenclature des états élémentaires d'un objet du MOS organisé
 * #023 ^property[=].valueDateTime = "1900-01-01T00:00:00+01:00"
 * #023 ^property[+].code = #status
 * #023 ^property[=].valueCode = #active
+* #023 ^property[+].code = #macroEtatAdministratif
+* #023 ^property[=].valueCode = #I
 * #024 "Activité exercée regroupée"
 * #024 ^property[0].code = #dateValid
 * #024 ^property[=].valueDateTime = "1900-01-01T00:00:00+01:00"
@@ -178,6 +218,8 @@ Description: "Nomenclature des états élémentaires d'un objet du MOS organisé
 * #024 ^property[=].valueDateTime = "1900-01-01T00:00:00+01:00"
 * #024 ^property[+].code = #status
 * #024 ^property[=].valueCode = #active
+* #024 ^property[+].code = #macroEtatAdministratif
+* #024 ^property[=].valueCode = #A
 * #025 "Activité en injonction (suspendue)"
 * #025 ^property[0].code = #dateValid
 * #025 ^property[=].valueDateTime = "1900-01-01T00:00:00+01:00"
@@ -185,6 +227,8 @@ Description: "Nomenclature des états élémentaires d'un objet du MOS organisé
 * #025 ^property[=].valueDateTime = "1900-01-01T00:00:00+01:00"
 * #025 ^property[+].code = #status
 * #025 ^property[=].valueCode = #active
+* #025 ^property[+].code = #macroEtatAdministratif
+* #025 ^property[=].valueCode = #I
 * #027 "Fin de suspension, activité active"
 * #027 ^property[0].code = #dateValid
 * #027 ^property[=].valueDateTime = "1900-01-01T00:00:00+01:00"
@@ -192,6 +236,8 @@ Description: "Nomenclature des états élémentaires d'un objet du MOS organisé
 * #027 ^property[=].valueDateTime = "1900-01-01T00:00:00+01:00"
 * #027 ^property[+].code = #status
 * #027 ^property[=].valueCode = #active
+* #027 ^property[+].code = #macroEtatAdministratif
+* #027 ^property[=].valueCode = #A
 * #029 "Activité autorisée caduque (fermée)"
 * #029 ^property[0].code = #dateValid
 * #029 ^property[=].valueDateTime = "1900-01-01T00:00:00+01:00"
@@ -199,6 +245,8 @@ Description: "Nomenclature des états élémentaires d'un objet du MOS organisé
 * #029 ^property[=].valueDateTime = "1900-01-01T00:00:00+01:00"
 * #029 ^property[+].code = #status
 * #029 ^property[=].valueCode = #active
+* #029 ^property[+].code = #macroEtatAdministratif
+* #029 ^property[=].valueCode = #I
 * #030 "Titularité activité cédée"
 * #030 ^property[0].code = #dateValid
 * #030 ^property[=].valueDateTime = "1900-01-01T00:00:00+01:00"
@@ -206,6 +254,8 @@ Description: "Nomenclature des états élémentaires d'un objet du MOS organisé
 * #030 ^property[=].valueDateTime = "1900-01-01T00:00:00+01:00"
 * #030 ^property[+].code = #status
 * #030 ^property[=].valueCode = #active
+* #030 ^property[+].code = #macroEtatAdministratif
+* #030 ^property[=].valueCode = #I
 * #031 "Titularité activité reprise"
 * #031 ^property[0].code = #dateValid
 * #031 ^property[=].valueDateTime = "1900-01-01T00:00:00+01:00"
@@ -213,6 +263,8 @@ Description: "Nomenclature des états élémentaires d'un objet du MOS organisé
 * #031 ^property[=].valueDateTime = "1900-01-01T00:00:00+01:00"
 * #031 ^property[+].code = #status
 * #031 ^property[=].valueCode = #active
+* #031 ^property[+].code = #macroEtatAdministratif
+* #031 ^property[=].valueCode = #A
 * #032 "Activité fermée suite à regroupement (autorisée)"
 * #032 ^property[0].code = #dateValid
 * #032 ^property[=].valueDateTime = "1900-01-01T00:00:00+01:00"
@@ -220,6 +272,8 @@ Description: "Nomenclature des états élémentaires d'un objet du MOS organisé
 * #032 ^property[=].valueDateTime = "1900-01-01T00:00:00+01:00"
 * #032 ^property[+].code = #status
 * #032 ^property[=].valueCode = #active
+* #032 ^property[+].code = #macroEtatAdministratif
+* #032 ^property[=].valueCode = #I
 * #033 "Activité autorisée regroupée"
 * #033 ^property[0].code = #dateValid
 * #033 ^property[=].valueDateTime = "1900-01-01T00:00:00+01:00"
@@ -227,6 +281,8 @@ Description: "Nomenclature des états élémentaires d'un objet du MOS organisé
 * #033 ^property[=].valueDateTime = "1900-01-01T00:00:00+01:00"
 * #033 ^property[+].code = #status
 * #033 ^property[=].valueCode = #active
+* #033 ^property[+].code = #macroEtatAdministratif
+* #033 ^property[=].valueCode = #A
 * #034 "PM Pharmacie créée"
 * #034 ^property[0].code = #dateValid
 * #034 ^property[=].valueDateTime = "1900-01-01T00:00:00+01:00"
@@ -234,6 +290,8 @@ Description: "Nomenclature des états élémentaires d'un objet du MOS organisé
 * #034 ^property[=].valueDateTime = "1900-01-01T00:00:00+01:00"
 * #034 ^property[+].code = #status
 * #034 ^property[=].valueCode = #active
+* #034 ^property[+].code = #macroEtatAdministratif
+* #034 ^property[=].valueCode = #A
 * #035 "EGE Pharmacie créée"
 * #035 ^property[0].code = #dateValid
 * #035 ^property[=].valueDateTime = "1900-01-01T00:00:00+01:00"
@@ -241,6 +299,8 @@ Description: "Nomenclature des états élémentaires d'un objet du MOS organisé
 * #035 ^property[=].valueDateTime = "1900-01-01T00:00:00+01:00"
 * #035 ^property[+].code = #status
 * #035 ^property[=].valueCode = #active
+* #035 ^property[+].code = #macroEtatAdministratif
+* #035 ^property[=].valueCode = #A
 * #036 "EGE Pharmacie ouverte"
 * #036 ^property[0].code = #dateValid
 * #036 ^property[=].valueDateTime = "1900-01-01T00:00:00+01:00"
@@ -248,6 +308,8 @@ Description: "Nomenclature des états élémentaires d'un objet du MOS organisé
 * #036 ^property[=].valueDateTime = "1900-01-01T00:00:00+01:00"
 * #036 ^property[+].code = #status
 * #036 ^property[=].valueCode = #active
+* #036 ^property[+].code = #macroEtatAdministratif
+* #036 ^property[=].valueCode = #A
 * #037 "Nouveau titulaire"
 * #037 ^property[0].code = #dateValid
 * #037 ^property[=].valueDateTime = "1900-01-01T00:00:00+01:00"
@@ -255,6 +317,8 @@ Description: "Nomenclature des états élémentaires d'un objet du MOS organisé
 * #037 ^property[=].valueDateTime = "1900-01-01T00:00:00+01:00"
 * #037 ^property[+].code = #status
 * #037 ^property[=].valueCode = #active
+* #037 ^property[+].code = #macroEtatAdministratif
+* #037 ^property[=].valueCode = #A
 * #038 "EGE fermée provisoirement"
 * #038 ^property[0].code = #dateValid
 * #038 ^property[=].valueDateTime = "1900-01-01T00:00:00+01:00"
@@ -262,6 +326,8 @@ Description: "Nomenclature des états élémentaires d'un objet du MOS organisé
 * #038 ^property[=].valueDateTime = "1900-01-01T00:00:00+01:00"
 * #038 ^property[+].code = #status
 * #038 ^property[=].valueCode = #active
+* #038 ^property[+].code = #macroEtatAdministratif
+* #038 ^property[=].valueCode = #I
 * #039 "EGE réouverte"
 * #039 ^property[0].code = #dateValid
 * #039 ^property[=].valueDateTime = "1900-01-01T00:00:00+01:00"
@@ -269,6 +335,8 @@ Description: "Nomenclature des états élémentaires d'un objet du MOS organisé
 * #039 ^property[=].valueDateTime = "1900-01-01T00:00:00+01:00"
 * #039 ^property[+].code = #status
 * #039 ^property[=].valueCode = #active
+* #039 ^property[+].code = #macroEtatAdministratif
+* #039 ^property[=].valueCode = #A
 * #040 "Activitée fermée provisoirement"
 * #040 ^property[0].code = #dateValid
 * #040 ^property[=].valueDateTime = "1900-01-01T00:00:00+01:00"
@@ -276,6 +344,8 @@ Description: "Nomenclature des états élémentaires d'un objet du MOS organisé
 * #040 ^property[=].valueDateTime = "1900-01-01T00:00:00+01:00"
 * #040 ^property[+].code = #status
 * #040 ^property[=].valueCode = #active
+* #040 ^property[+].code = #macroEtatAdministratif
+* #040 ^property[=].valueCode = #I
 * #041 "Activitée réouverte"
 * #041 ^property[0].code = #dateValid
 * #041 ^property[=].valueDateTime = "1900-01-01T00:00:00+01:00"
@@ -283,6 +353,8 @@ Description: "Nomenclature des états élémentaires d'un objet du MOS organisé
 * #041 ^property[=].valueDateTime = "1900-01-01T00:00:00+01:00"
 * #041 ^property[+].code = #status
 * #041 ^property[=].valueCode = #active
+* #041 ^property[+].code = #macroEtatAdministratif
+* #041 ^property[=].valueCode = #A
 * #100 "Sortie définitivement champ FINESS"
 * #100 ^designation.language = #fr-FR
 * #100 ^designation.use.system = "http://snomed.info/sct"
@@ -294,6 +366,8 @@ Description: "Nomenclature des états élémentaires d'un objet du MOS organisé
 * #100 ^property[=].valueDateTime = "1900-01-01T00:00:00+01:00"
 * #100 ^property[+].code = #status
 * #100 ^property[=].valueCode = #active
+* #100 ^property[+].code = #macroEtatAdministratif
+* #100 ^property[=].valueCode = #I
 * #101 "Erreur d'enregistrement"
 * #101 ^designation.language = #fr-FR
 * #101 ^designation.use.system = "http://snomed.info/sct"
@@ -305,6 +379,8 @@ Description: "Nomenclature des états élémentaires d'un objet du MOS organisé
 * #101 ^property[=].valueDateTime = "1900-01-01T00:00:00+01:00"
 * #101 ^property[+].code = #status
 * #101 ^property[=].valueCode = #active
+* #101 ^property[+].code = #macroEtatAdministratif
+* #101 ^property[=].valueCode = #I
 * #102 "Sortie champ FINESS"
 * #102 ^designation.language = #fr-FR
 * #102 ^designation.use.system = "http://snomed.info/sct"
@@ -316,6 +392,8 @@ Description: "Nomenclature des états élémentaires d'un objet du MOS organisé
 * #102 ^property[=].valueDateTime = "1900-01-01T00:00:00+01:00"
 * #102 ^property[+].code = #status
 * #102 ^property[=].valueCode = #active
+* #102 ^property[+].code = #macroEtatAdministratif
+* #102 ^property[=].valueCode = #I
 * #103 "Sortie provisoirement champ FINESS"
 * #103 ^designation.language = #fr-FR
 * #103 ^designation.use.system = "http://snomed.info/sct"
@@ -327,3 +405,5 @@ Description: "Nomenclature des états élémentaires d'un objet du MOS organisé
 * #103 ^property[=].valueDateTime = "1900-01-01T00:00:00+01:00"
 * #103 ^property[+].code = #status
 * #103 ^property[=].valueCode = #active
+* #103 ^property[+].code = #macroEtatAdministratif
+* #103 ^property[=].valueCode = #I
