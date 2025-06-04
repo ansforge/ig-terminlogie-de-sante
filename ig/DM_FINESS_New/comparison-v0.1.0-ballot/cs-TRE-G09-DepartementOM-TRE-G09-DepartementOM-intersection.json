@@ -1,11 +1,11 @@
 {
   "resourceType" : "CodeSystem",
-  "id" : "c3ec7e94-82a3-44b3-ab7d-a88d03688050-72",
-  "url" : "http://hl7.org/fhir/comparison/CodeSystem/c3ec7e94-82a3-44b3-ab7d-a88d03688050-72",
+  "id" : "5d1b9a2d-3428-4aab-b434-63315f5a7e1e-72",
+  "url" : "http://hl7.org/fhir/comparison/CodeSystem/5d1b9a2d-3428-4aab-b434-63315f5a7e1e-72",
   "name" : "IntersectionTRE_G09_DepartementOMAndTRE_G09_DepartementOM",
   "title" : "Intersection of null And null",
   "status" : "active",
-  "date" : "2025-06-03T16:20:34+00:00",
+  "date" : "2025-06-04T08:10:46+00:00",
   "property" : [{
     "code" : "dateValid",
     "description" : "date de validité d'un code concept",
