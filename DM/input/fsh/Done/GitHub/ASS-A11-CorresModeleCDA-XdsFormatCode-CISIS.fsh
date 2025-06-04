@@ -9,7 +9,7 @@ Usage: #definition
 * title = "ASS_A11-CorresModeleCDA-XdsFormatCode-CISIS"
 * status = #active
 * experimental = false
-* description = "Lorsque le corps du CDA est structuré, la métadonnée 'formatCode' provient de l'élément 'templateId' (modèle du document CDA). La correspondance entre templateId et formatCode est assurée par cette table d'association"
+* description = "Pour le document CDA, la métadonnée XDS 'formatCode' est calculé à partir de l'élement CDA 'templateId'. La correspondance entre templateId et formatCode est assurée par cette table d'association."
 * useContext.code = $usage-context-type#task
 * useContext.valueCodeableConcept.text = "Pour la constitution des metadata XDS"
 * publisher = "ANS"
