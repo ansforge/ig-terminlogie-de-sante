@@ -16,10 +16,10 @@
     "oids" : ["2.16.840.1.113883.6.96"]
   },
   {
-    "id" : "900000000000207008-20250501",
+    "id" : "900000000000207008-20250601",
     "type" : "CodeSystem",
     "url" : "http://snomed.info/sct",
-    "version" : "http://snomed.info/sct/900000000000207008/version/20250501",
+    "version" : "http://snomed.info/sct/900000000000207008/version/20250601",
     "name" : "SNOMED_CT",
     "oids" : ["2.16.840.1.113883.6.96"]
   },
@@ -4458,7 +4458,7 @@
     "id" : "terminologie-bdpm",
     "type" : "CodeSystem",
     "url" : "https://smt.esante.gouv.fr/terminologie-bdpm",
-    "version" : "2025-05-05",
+    "version" : "2025-06-02",
     "name" : "BDPM"
   },
   {

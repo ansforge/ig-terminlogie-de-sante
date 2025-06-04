@@ -330,7 +330,7 @@ Generated $--. FHIR version $-- for ans.fr.terminologies#$-- (canonical = https:
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/TRE/NUVA_terminologie-nuva : 0 / 19 / 10
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/TRE/SERAFIN_PH_terminologie-SERAFINPH : 0 / 12 / 7
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/TRE/SNOMED_CT_11000315107-20240621 : 2 / 5 / 12
- /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/TRE/SNOMED_CT_900000000000207008-20250501 : 2 / 6 / 12
+ /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/TRE/SNOMED_CT_900000000000207008-20250601 : 2 / 6 / 12
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/TRE/ServiceType_service-type : 0 / 1 / 1
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/TRE/Standard_terms_EDQM_terminologie-standardterms : 0 / 49 / 26
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/TRE/TRE_A00_ProducteurDocNonPS_TRE-A00-ProducteurDocNonPS : 0 / 1 / 4
@@ -2119,8 +2119,8 @@ WARNING: ValueSet/JDV-J145-MethodBodyWeight-ENS: ValueSet: Published value sets 
 WARNING: ValueSet/JDV-J146-MethodBodyHeight-ENS: ValueSet.compose.include[0].system: No definition could be found for URL value 'https://smt.esante.gouv.fr/terminologie-ncit'
 INFORMATION: ValueSet/JDV-J146-MethodBodyHeight-ENS: ValueSet.compose.include[0].concept[0]: A definition for CodeSystem 'https://smt.esante.gouv.fr/terminologie-ncit' could not be found, so the code cannot be validated
 WARNING: ValueSet/JDV-J146-MethodBodyHeight-ENS: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.title is mandatory, but it is not present
-ERROR: ValueSet.where(id = 'JDV-J146-MethodBodyHeight-ENS'): Error from https://smt.esante.gouv.fr/fhir: Error: [c55e4d87-c825-4e71-910f-9c7668ca8193]: A usable code system with URL https://smt.esante.gouv.fr/terminologie-ncit could not be resolved.
-Information: X-Request-Id: 69eb603c-b4f4-4a8f-bbf5-6eec7eea726a
+ERROR: ValueSet.where(id = 'JDV-J146-MethodBodyHeight-ENS'): Error from https://smt.esante.gouv.fr/fhir: Error: [5c7b5e91-35d6-4336-831a-34e9781a0359]: A usable code system with URL https://smt.esante.gouv.fr/terminologie-ncit could not be resolved.
+Information: X-Request-Id: d5deb124-bf6e-480e-852d-d4c0e14fbf05
 == input/ontoserver/JDV/JDV_J147_MethodHeartrate_ENS_JDV-J147-MethodHeartrate-ENS.json ==
 WARNING: ValueSet/JDV-J147-MethodHeartrate-ENS: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.title is mandatory, but it is not present
 == input/ontoserver/JDV/JDV_J148_ReferenceRangeAppliesTo_CISIS_JDV-J148-ReferenceRangeAppliesTo-CISIS.json ==
@@ -2514,8 +2514,8 @@ ERROR: ValueSet/JDV-J51-FamilleActiviteOperationnelle-ROR: ValueSet.compose.incl
 ERROR: ValueSet/JDV-J51-FamilleActiviteOperationnelle-ROR: ValueSet.compose.include[1].concept[23]: The code '065' is not valid in the system https://mos.esante.gouv.fr/NOS/TRE_R265-PrestationPilotageSerafin/FHIR/TRE-R265-PrestationPilotageSerafin (A definition for CodeSystem 'https://mos.esante.gouv.fr/NOS/TRE_R265-PrestationPilotageSerafin/FHIR/TRE-R265-PrestationPilotageSerafin' could not be found, so the code cannot be validated)
 ERROR: ValueSet/JDV-J51-FamilleActiviteOperationnelle-ROR: ValueSet.compose.include[1].concept[24]: The code '067' is not valid in the system https://mos.esante.gouv.fr/NOS/TRE_R265-PrestationPilotageSerafin/FHIR/TRE-R265-PrestationPilotageSerafin (A definition for CodeSystem 'https://mos.esante.gouv.fr/NOS/TRE_R265-PrestationPilotageSerafin/FHIR/TRE-R265-PrestationPilotageSerafin' could not be found, so the code cannot be validated)
 WARNING: ValueSet/JDV-J51-FamilleActiviteOperationnelle-ROR: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.title is mandatory, but it is not present
-ERROR: ValueSet.where(id = 'JDV-J51-FamilleActiviteOperationnelle-ROR'): Error from https://smt.esante.gouv.fr/fhir: Error: [65125b83-100f-447c-b4d5-9dc158f6558a]: A usable code system with URL https://mos.esante.gouv.fr/NOS/TRE_R265-PrestationPilotageSerafin/FHIR/TRE-R265-PrestationPilotageSerafin could not be resolved.
-Information: X-Request-Id: 8acfa22f-0cd8-42b3-8fb2-ef0ea88f61a9
+ERROR: ValueSet.where(id = 'JDV-J51-FamilleActiviteOperationnelle-ROR'): Error from https://smt.esante.gouv.fr/fhir: Error: [8ba366e5-6c56-42fc-9856-26192c0d4b17]: A usable code system with URL https://mos.esante.gouv.fr/NOS/TRE_R265-PrestationPilotageSerafin/FHIR/TRE-R265-PrestationPilotageSerafin could not be resolved.
+Information: X-Request-Id: 1cd64ec0-e06b-4bfd-aab1-21fd1f566e33
 == input/ontoserver/JDV/JDV_J52_AvailabilityStatus_CISIS_JDV-J52-AvailabilityStatus-CISIS.json ==
 WARNING: ValueSet/JDV-J52-AvailabilityStatus-CISIS: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.title is mandatory, but it is not present
 == input/ontoserver/JDV/JDV_J53_TypeRequeteGestionDossier_CISIS_JDV-J53-TypeRequeteGestionDossier-CISIS.json ==
@@ -12284,23 +12284,23 @@ INFORMATION: CodeSystem/11000315107-20240621: CodeSystem.property[3]: The type o
 WARNING: CodeSystem/11000315107-20240621: CodeSystem.property[3]: This property has only the standard code ('child') but not the standard URI 'http://hl7.org/fhir/concept-properties#child', so it has no clearly defined meaning in the terminology ecosystem
 INFORMATION: CodeSystem/11000315107-20240621: CodeSystem.property[4]: The type of property 'code' is 'code', but no ValueSet information was found, so the codes will be validated as internal codes
 INFORMATION: CodeSystem/11000315107-20240621: CodeSystem.property[4]: This property has only a code ('moduleId') and not a URI, so it has no clearly defined meaning in the terminology ecosystem
-WARNING: Resource: The URL 'http://snomed.info/sct' is also used by 900000000000207008-20250501 in /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/TRE/SNOMED_CT_900000000000207008-20250501
-== input/ontoserver/TRE/SNOMED_CT_900000000000207008-20250501.json ==
-ERROR: CodeSystem/900000000000207008-20250501: CodeSystem.contained[0]/*Provenance/1*/.target[0]: Unable to resolve resource with reference '900000000000207008-20250501'
-INFORMATION: CodeSystem/900000000000207008-20250501: CodeSystem.contained[0]/*Provenance/1*/.activity: Reference to experimental CodeSystem http://hl7.org/fhir/w3c-provenance-activity-type|4.0.1
-INFORMATION: CodeSystem/900000000000207008-20250501: CodeSystem.contained[0]/*Provenance/1*/.agent[0].role[0]: Reference to experimental CodeSystem http://terminology.hl7.org/CodeSystem/extra-security-role-type|1.0.1
-ERROR: CodeSystem/900000000000207008-20250501: CodeSystem.extension[0]: The extension http://ontoserver.csiro.au/profiles/cs-provenance could not be found so is not allowed here
-WARNING: CodeSystem/900000000000207008-20250501: CodeSystem.extension[0].url: No definition could be found for URL value 'http://ontoserver.csiro.au/profiles/cs-provenance'
-WARNING: CodeSystem/900000000000207008-20250501: CodeSystem.valueSet: A definition could not be found for Canonical URL 'http://snomed.info/sct/900000000000207008/version/20250501?fhir_vs'
-INFORMATION: CodeSystem/900000000000207008-20250501: CodeSystem: Review the All Codes Value Set - incomplete CodeSystems generally should not have an all codes value set specified
-WARNING: CodeSystem/900000000000207008-20250501: CodeSystem.property[0]: This property has only the standard code ('inactive') but not the standard URI 'http://hl7.org/fhir/concept-properties#inactive', so it has no clearly defined meaning in the terminology ecosystem
-INFORMATION: CodeSystem/900000000000207008-20250501: CodeSystem.property[1]: This property has only a code ('sufficientlyDefined') and not a URI, so it has no clearly defined meaning in the terminology ecosystem
-INFORMATION: CodeSystem/900000000000207008-20250501: CodeSystem.property[2]: The type of property 'code' is 'code', but no ValueSet information was found, so the codes will be validated as internal codes
-WARNING: CodeSystem/900000000000207008-20250501: CodeSystem.property[2]: This property has only the standard code ('parent') but not the standard URI 'http://hl7.org/fhir/concept-properties#parent', so it has no clearly defined meaning in the terminology ecosystem
-INFORMATION: CodeSystem/900000000000207008-20250501: CodeSystem.property[3]: The type of property 'code' is 'code', but no ValueSet information was found, so the codes will be validated as internal codes
-WARNING: CodeSystem/900000000000207008-20250501: CodeSystem.property[3]: This property has only the standard code ('child') but not the standard URI 'http://hl7.org/fhir/concept-properties#child', so it has no clearly defined meaning in the terminology ecosystem
-INFORMATION: CodeSystem/900000000000207008-20250501: CodeSystem.property[4]: The type of property 'code' is 'code', but no ValueSet information was found, so the codes will be validated as internal codes
-INFORMATION: CodeSystem/900000000000207008-20250501: CodeSystem.property[4]: This property has only a code ('moduleId') and not a URI, so it has no clearly defined meaning in the terminology ecosystem
+WARNING: Resource: The URL 'http://snomed.info/sct' is also used by 900000000000207008-20250601 in /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/TRE/SNOMED_CT_900000000000207008-20250601
+== input/ontoserver/TRE/SNOMED_CT_900000000000207008-20250601.json ==
+ERROR: CodeSystem/900000000000207008-20250601: CodeSystem.contained[0]/*Provenance/1*/.target[0]: Unable to resolve resource with reference '900000000000207008-20250601'
+INFORMATION: CodeSystem/900000000000207008-20250601: CodeSystem.contained[0]/*Provenance/1*/.activity: Reference to experimental CodeSystem http://hl7.org/fhir/w3c-provenance-activity-type|4.0.1
+INFORMATION: CodeSystem/900000000000207008-20250601: CodeSystem.contained[0]/*Provenance/1*/.agent[0].role[0]: Reference to experimental CodeSystem http://terminology.hl7.org/CodeSystem/extra-security-role-type|1.0.1
+ERROR: CodeSystem/900000000000207008-20250601: CodeSystem.extension[0]: The extension http://ontoserver.csiro.au/profiles/cs-provenance could not be found so is not allowed here
+WARNING: CodeSystem/900000000000207008-20250601: CodeSystem.extension[0].url: No definition could be found for URL value 'http://ontoserver.csiro.au/profiles/cs-provenance'
+WARNING: CodeSystem/900000000000207008-20250601: CodeSystem.valueSet: A definition could not be found for Canonical URL 'http://snomed.info/sct/900000000000207008/version/20250601?fhir_vs'
+INFORMATION: CodeSystem/900000000000207008-20250601: CodeSystem: Review the All Codes Value Set - incomplete CodeSystems generally should not have an all codes value set specified
+WARNING: CodeSystem/900000000000207008-20250601: CodeSystem.property[0]: This property has only the standard code ('inactive') but not the standard URI 'http://hl7.org/fhir/concept-properties#inactive', so it has no clearly defined meaning in the terminology ecosystem
+INFORMATION: CodeSystem/900000000000207008-20250601: CodeSystem.property[1]: This property has only a code ('sufficientlyDefined') and not a URI, so it has no clearly defined meaning in the terminology ecosystem
+INFORMATION: CodeSystem/900000000000207008-20250601: CodeSystem.property[2]: The type of property 'code' is 'code', but no ValueSet information was found, so the codes will be validated as internal codes
+WARNING: CodeSystem/900000000000207008-20250601: CodeSystem.property[2]: This property has only the standard code ('parent') but not the standard URI 'http://hl7.org/fhir/concept-properties#parent', so it has no clearly defined meaning in the terminology ecosystem
+INFORMATION: CodeSystem/900000000000207008-20250601: CodeSystem.property[3]: The type of property 'code' is 'code', but no ValueSet information was found, so the codes will be validated as internal codes
+WARNING: CodeSystem/900000000000207008-20250601: CodeSystem.property[3]: This property has only the standard code ('child') but not the standard URI 'http://hl7.org/fhir/concept-properties#child', so it has no clearly defined meaning in the terminology ecosystem
+INFORMATION: CodeSystem/900000000000207008-20250601: CodeSystem.property[4]: The type of property 'code' is 'code', but no ValueSet information was found, so the codes will be validated as internal codes
+INFORMATION: CodeSystem/900000000000207008-20250601: CodeSystem.property[4]: This property has only a code ('moduleId') and not a URI, so it has no clearly defined meaning in the terminology ecosystem
 WARNING: Resource: The URL 'http://snomed.info/sct' has already been used by 11000315107-20240621 in /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/TRE/SNOMED_CT_11000315107-20240621
 == input/ontoserver/TRE/ServiceType_service-type.json ==
 WARNING: CodeSystem/service-type: CodeSystem.valueSet: There are multiple different potential matches for the url 'http://terminology.hl7.org/ValueSet/service-type'. It might be a good idea to fix to the correct version to reduce the likelihood of a wrong version being selected by an implementation/implementer, or use the [IG Parameter `pin-canonicals`](https://hl7.org/fhir/tools/CodeSystem-ig-parameters.html). Using version '1.0.1', found versions: 0.2.0, 1.0.1. Suggested fix: change the canonical reference from 'http://terminology.hl7.org/ValueSet/service-type' to 'http://terminology.hl7.org/ValueSet/service-type|1.0.1'
