@@ -1,11 +1,11 @@
 {
   "resourceType" : "ValueSet",
-  "id" : "5d1b9a2d-3428-4aab-b434-63315f5a7e1e-1494",
-  "url" : "http://hl7.org/fhir/comparison/ValueSet/5d1b9a2d-3428-4aab-b434-63315f5a7e1e-1494",
+  "id" : "82eb4569-4816-4cea-a3e3-13297148ed06-1494",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/82eb4569-4816-4cea-a3e3-13297148ed06-1494",
   "name" : "IntersectionJDV_J72_TypeProfessionFonction_MSSanteAndJDV_J72_TypeProfessionFonction_MSSante",
   "title" : "Intersection of null And null",
   "status" : "active",
-  "date" : "2025-06-04T08:10:46+00:00",
+  "date" : "2025-06-04T14:42:10+00:00",
   "compose" : {
     "include" : [{
       "concept" : [{

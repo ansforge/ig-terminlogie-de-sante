@@ -1,11 +1,11 @@
 {
   "resourceType" : "CodeSystem",
-  "id" : "5d1b9a2d-3428-4aab-b434-63315f5a7e1e-393",
-  "url" : "http://hl7.org/fhir/comparison/CodeSystem/5d1b9a2d-3428-4aab-b434-63315f5a7e1e-393",
+  "id" : "82eb4569-4816-4cea-a3e3-13297148ed06-393",
+  "url" : "http://hl7.org/fhir/comparison/CodeSystem/82eb4569-4816-4cea-a3e3-13297148ed06-393",
   "name" : "IntersectionTRE_R282_CNAMAmeliSecteurConventionnementAndTRE_R282_CNAMAmeliSecteurConventionnement",
   "title" : "Intersection of null And null",
   "status" : "active",
-  "date" : "2025-06-04T08:10:46+00:00",
+  "date" : "2025-06-04T14:42:09+00:00",
   "property" : [{
     "code" : "dateValid",
     "description" : "date de validité d'un code concept",
