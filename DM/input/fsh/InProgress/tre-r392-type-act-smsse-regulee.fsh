@@ -49,7 +49,7 @@ Description: "Type activité SMSSE régulée"
 * ^property[=].description = "Date de retrait du code"
 * ^property[=].type = #dateTime
 * ^property[+].code = #natureActivite
-* ^property[=].uri = "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r374-nature-activite-smsse-regulee"
+//* ^property[=].uri = "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r374-nature-activite-smsse-regulee"
 * ^property[=].description = "Propriété permettant de renseigner les grandes natures d'activité SMSSE exercées par les entités FINESS+"
 * ^property[=].type = #code
 * #1 "EML/05602"
