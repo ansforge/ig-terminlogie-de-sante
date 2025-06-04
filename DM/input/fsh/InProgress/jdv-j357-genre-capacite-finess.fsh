@@ -1,4 +1,4 @@
-Alias: $tre-r249-sexe = https://mos.esante.gouv.fr/NOS/TRE_R249-Sexe/FHIR/TRE-R249-Sexe
+Alias: $TRE-R332-GenreCapacite = https://mos.esante.gouv.fr/NOS/TRE_R332-GenreCapacite/FHIR/TRE-R332-GenreCapacite
 
 ValueSet: JdvJ357GenreCapaciteFiness
 Id: jdv-j357-genre-capacite-finess
@@ -17,4 +17,5 @@ Description: "Jeu de valeurs FINESS contenant les genres de capacités utilisés
 * ^experimental = false
 * ^date = "2025-05-16T18:02:28.249+00:00"
 * ^publisher = "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris"
-* include codes from system $tre-r249-sexe where GenreCapaciteFiness = "true"
+* $TRE-R332-GenreCapacite#01
+* $TRE-R332-GenreCapacite#02
