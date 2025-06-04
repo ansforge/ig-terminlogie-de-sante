@@ -42,7 +42,7 @@ Description: "Nomenclature des états élémentaires d'un objet du MOS organisé
 * ^property[=].description = "Date de retrait du code"
 * ^property[=].type = #dateTime
 * ^property[+].code = #macroEtatAdministratif
-* ^property[=].uri = "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r386-macro-etat-objet-administratif"
+//* ^property[=].uri = "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r386-macro-etat-objet-administratif"
 * ^property[=].description = "Macro-etat des structures FINESS qui dérivent de l'état de l'objet. Permet de distinguer les structures actives de celles inactives."
 * ^property[=].type = #code
 * #001 "Entrée dans le champ FINESS"
