@@ -1,11 +1,11 @@
 {
   "resourceType" : "CodeSystem",
-  "id" : "82eb4569-4816-4cea-a3e3-13297148ed06-794",
-  "url" : "http://hl7.org/fhir/comparison/CodeSystem/82eb4569-4816-4cea-a3e3-13297148ed06-794",
+  "id" : "c1891cf9-4174-4a1a-adcf-165a8bce07cd-794",
+  "url" : "http://hl7.org/fhir/comparison/CodeSystem/c1891cf9-4174-4a1a-adcf-165a8bce07cd-794",
   "name" : "UnionDictionnaire_SMS_Substance_Management_Services_AndDictionnaire_SMS_Substance_Management_Services_",
   "title" : "Union of Dictionnaire européen multilingue des substances entrant dans la composition de médicaments And Dictionnaire européen multilingue des substances entrant dans la composition de médicaments",
   "status" : "active",
-  "date" : "2025-06-04T14:42:09+00:00",
+  "date" : "2025-06-04T15:18:32+00:00",
   "filter" : [{
     "code" : "root",
     "operator" : ["="],

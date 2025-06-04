@@ -3,7 +3,7 @@ Terminologies : Validation Results
 
 err = 966, warn = 1168, info = 1070
 IG Publisher Version: 2.0.4
-Generated Wed Jun 04 14:51:35 UTC 2025. FHIR version 4.0.1 for ans.fr.terminologies#0.1.0 (canonical = https://interop.esante.gouv.fr/terminologies)
+Generated Wed Jun 04 15:28:34 UTC 2025. FHIR version 4.0.1 for ans.fr.terminologies#0.1.0 (canonical = https://interop.esante.gouv.fr/terminologies)
  Build Errors : 401 / 20 / 0
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/DM/fsh-generated/resources/CodeSystem-TRE-G09-DepartementOM : 0 / 1 / 4
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/DM/fsh-generated/resources/CodeSystem-TRE-R209-TypeActivite : 0 / 1 / 4
@@ -2770,7 +2770,7 @@ WARNING: ValueSet/JDV-J146-MethodBodyHeight-ENS: ValueSet.compose.include[0].sys
 INFORMATION: ValueSet/JDV-J146-MethodBodyHeight-ENS: ValueSet.compose.include[0].concept[0]: A definition for CodeSystem 'https://smt.esante.gouv.fr/terminologie-ncit' could not be found, so the code cannot be validated
 WARNING: ValueSet/JDV-J146-MethodBodyHeight-ENS: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.title is mandatory, but it is not present
 ERROR: ValueSet.where(id = 'JDV-J146-MethodBodyHeight-ENS'): Error from https://smt.esante.gouv.fr/fhir: Error: [0a9a5aec-ffcd-402a-9461-ac227a966286]: A usable code system with URL https://smt.esante.gouv.fr/terminologie-ncit could not be resolved.
-Information: X-Request-Id: 7b739531-d228-42c8-8a42-656a950fe340
+Information: X-Request-Id: e637c92d-fcde-42c3-ae6d-2f4b611972d2
 == input/ontoserver/JDV/JDV_J147_MethodHeartrate_ENS_JDV-J147-MethodHeartrate-ENS.json ==
 INFORMATION: ValueSet/JDV-J147-MethodHeartrate-ENS: ValueSet.compose.include[1].concept[0]: A definition for CodeSystem 'http://snomed.info/sct' version 'http://snomed.info/sct/11000315107' could not be found, so the code cannot be validated. Valid versions: [http://snomed.info/sct/11000315107/version/20240621]
 WARNING: ValueSet/JDV-J147-MethodHeartrate-ENS: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.title is mandatory, but it is not present
@@ -3182,8 +3182,8 @@ ERROR: ValueSet/JDV-J51-FamilleActiviteOperationnelle-ROR: ValueSet.compose.incl
 ERROR: ValueSet/JDV-J51-FamilleActiviteOperationnelle-ROR: ValueSet.compose.include[1].concept[23]: The code '065' is not valid in the system https://mos.esante.gouv.fr/NOS/TRE_R265-PrestationPilotageSerafin/FHIR/TRE-R265-PrestationPilotageSerafin (A definition for CodeSystem 'https://mos.esante.gouv.fr/NOS/TRE_R265-PrestationPilotageSerafin/FHIR/TRE-R265-PrestationPilotageSerafin' could not be found, so the code cannot be validated)
 ERROR: ValueSet/JDV-J51-FamilleActiviteOperationnelle-ROR: ValueSet.compose.include[1].concept[24]: The code '067' is not valid in the system https://mos.esante.gouv.fr/NOS/TRE_R265-PrestationPilotageSerafin/FHIR/TRE-R265-PrestationPilotageSerafin (A definition for CodeSystem 'https://mos.esante.gouv.fr/NOS/TRE_R265-PrestationPilotageSerafin/FHIR/TRE-R265-PrestationPilotageSerafin' could not be found, so the code cannot be validated)
 WARNING: ValueSet/JDV-J51-FamilleActiviteOperationnelle-ROR: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.title is mandatory, but it is not present
-ERROR: ValueSet.where(id = 'JDV-J51-FamilleActiviteOperationnelle-ROR'): Error from https://smt.esante.gouv.fr/fhir: Error: [f80a889e-d301-4dc9-99f6-a2570220b47d]: A usable code system with URL https://mos.esante.gouv.fr/NOS/TRE_R265-PrestationPilotageSerafin/FHIR/TRE-R265-PrestationPilotageSerafin could not be resolved.
-Information: X-Request-Id: a9912339-c2f7-4583-a86a-4d6694c575db
+ERROR: ValueSet.where(id = 'JDV-J51-FamilleActiviteOperationnelle-ROR'): Error from https://smt.esante.gouv.fr/fhir: Error: [332b77be-b3b8-4aef-b52b-15ad79d585c2]: A usable code system with URL https://mos.esante.gouv.fr/NOS/TRE_R265-PrestationPilotageSerafin/FHIR/TRE-R265-PrestationPilotageSerafin could not be resolved.
+Information: X-Request-Id: 57a97c03-80da-4301-b234-90ff1e682e06
 == input/ontoserver/JDV/JDV_J52_AvailabilityStatus_CISIS_JDV-J52-AvailabilityStatus-CISIS.json ==
 WARNING: ValueSet/JDV-J52-AvailabilityStatus-CISIS: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.title is mandatory, but it is not present
 == input/ontoserver/JDV/JDV_J53_TypeRequeteGestionDossier_CISIS_JDV-J53-TypeRequeteGestionDossier-CISIS.json ==

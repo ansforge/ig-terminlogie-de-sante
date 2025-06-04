@@ -1,11 +1,11 @@
 {
   "resourceType" : "CodeSystem",
-  "id" : "82eb4569-4816-4cea-a3e3-13297148ed06-759",
-  "url" : "http://hl7.org/fhir/comparison/CodeSystem/82eb4569-4816-4cea-a3e3-13297148ed06-759",
+  "id" : "c1891cf9-4174-4a1a-adcf-165a8bce07cd-759",
+  "url" : "http://hl7.org/fhir/comparison/CodeSystem/c1891cf9-4174-4a1a-adcf-165a8bce07cd-759",
   "name" : "IntersectionSERAFIN_PHAndSERAFIN_PH",
   "title" : "Intersection of Nomenclature des besoins et des prestations And Nomenclature des besoins et des prestations",
   "status" : "active",
-  "date" : "2025-06-04T14:42:09+00:00",
+  "date" : "2025-06-04T15:18:32+00:00",
   "filter" : [{
     "code" : "root",
     "operator" : ["="],

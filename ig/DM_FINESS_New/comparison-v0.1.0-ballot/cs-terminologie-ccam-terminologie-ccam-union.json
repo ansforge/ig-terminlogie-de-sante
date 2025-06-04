@@ -1,11 +1,11 @@
 {
   "resourceType" : "CodeSystem",
-  "id" : "82eb4569-4816-4cea-a3e3-13297148ed06-767",
-  "url" : "http://hl7.org/fhir/comparison/CodeSystem/82eb4569-4816-4cea-a3e3-13297148ed06-767",
+  "id" : "c1891cf9-4174-4a1a-adcf-165a8bce07cd-767",
+  "url" : "http://hl7.org/fhir/comparison/CodeSystem/c1891cf9-4174-4a1a-adcf-165a8bce07cd-767",
   "name" : "UnionCCAMAndCCAM",
   "title" : "Union of Classification Commune des Actes Médicaux And Classification Commune des Actes Médicaux",
   "status" : "active",
-  "date" : "2025-06-04T14:42:09+00:00",
+  "date" : "2025-06-04T15:18:32+00:00",
   "filter" : [{
     "code" : "root",
     "operator" : ["="],

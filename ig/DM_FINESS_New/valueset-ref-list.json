@@ -4496,7 +4496,7 @@
       "title" : "Jdv J357 Genre Capacite Finess",
       "description" : "Jeu de valeurs FINESS contenant les genres de capacités utilisés par FINESS",
       "systems" : [
-        "https://mos.esante.gouv.fr/NOS/TRE_R249-Sexe/FHIR/TRE-R249-Sexe"
+        "https://mos.esante.gouv.fr/NOS/TRE_R332-GenreCapacite/FHIR/TRE-R332-GenreCapacite"
       ],
       "oids" : ["1.2.250.1.213.1.6.1.365"],
       "sources" : ["1.2.250.1.213.1.6.1.365"]
@@ -4574,8 +4574,8 @@
       "uses" : {
       },
       "ConceptMap-alignement-nuva-atc.html" : "Aligner les codes ATC de NUVA avec les codes ATC",
-      "ConceptMap-alignement-nuva-bdpm.html" : "Aligner les codes CIS et CIP de NUVA avec les codes CIS et CIP du BDPM",
-      "ConceptMap-alignement-nuva-cipucd.html" : "Aligner les codes CIP de NUVA avec les codes CIP du CIP_UCD"
+      "ConceptMap-alignement-nuva-cipucd.html" : "Aligner les codes CIP de NUVA avec les codes CIP du CIP_UCD",
+      "ConceptMap-alignement-nuva-bdpm.html" : "Aligner les codes CIS et CIP de NUVA avec les codes CIS et CIP du BDPM"
     },
     {
       "url" : "https://smt.esante.gouv.fr/terminologie-sms?vs",

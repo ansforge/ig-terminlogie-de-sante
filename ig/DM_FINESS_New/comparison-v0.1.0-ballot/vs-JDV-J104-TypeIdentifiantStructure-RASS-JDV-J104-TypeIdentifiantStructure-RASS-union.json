@@ -1,11 +1,11 @@
 {
   "resourceType" : "ValueSet",
-  "id" : "82eb4569-4816-4cea-a3e3-13297148ed06-836",
-  "url" : "http://hl7.org/fhir/comparison/ValueSet/82eb4569-4816-4cea-a3e3-13297148ed06-836",
+  "id" : "c1891cf9-4174-4a1a-adcf-165a8bce07cd-836",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/c1891cf9-4174-4a1a-adcf-165a8bce07cd-836",
   "name" : "UnionJDV_J104_TypeIdentifiantStructure_RASSAndJDV_J104_TypeIdentifiantStructure_RASS",
   "title" : "Union of null And null",
   "status" : "active",
-  "date" : "2025-06-04T14:42:09+00:00",
+  "date" : "2025-06-04T15:18:32+00:00",
   "compose" : {
     "include" : [{
       "concept" : [{

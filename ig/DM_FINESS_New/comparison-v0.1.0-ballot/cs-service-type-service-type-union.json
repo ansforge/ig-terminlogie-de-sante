@@ -1,11 +1,11 @@
 {
   "resourceType" : "CodeSystem",
-  "id" : "82eb4569-4816-4cea-a3e3-13297148ed06-755",
-  "url" : "http://hl7.org/fhir/comparison/CodeSystem/82eb4569-4816-4cea-a3e3-13297148ed06-755",
+  "id" : "c1891cf9-4174-4a1a-adcf-165a8bce07cd-755",
+  "url" : "http://hl7.org/fhir/comparison/CodeSystem/c1891cf9-4174-4a1a-adcf-165a8bce07cd-755",
   "name" : "UnionServiceTypeAndServiceType",
   "title" : "Union of Service type And Service type",
   "status" : "draft",
-  "date" : "2025-06-04T14:42:09+00:00",
+  "date" : "2025-06-04T15:18:32+00:00",
   "concept" : [{
     "code" : "1",
     "display" : "Adoption/Permanent Care Info/Support",

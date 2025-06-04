@@ -1,11 +1,11 @@
 {
   "resourceType" : "CodeSystem",
-  "id" : "82eb4569-4816-4cea-a3e3-13297148ed06-798",
-  "url" : "http://hl7.org/fhir/comparison/CodeSystem/82eb4569-4816-4cea-a3e3-13297148ed06-798",
+  "id" : "c1891cf9-4174-4a1a-adcf-165a8bce07cd-798",
+  "url" : "http://hl7.org/fhir/comparison/CodeSystem/c1891cf9-4174-4a1a-adcf-165a8bce07cd-798",
   "name" : "IntersectionStandard_terms_EDQMAndStandard_terms_EDQM",
   "title" : "Intersection of Standard Terms Data Base Dictionnaire européen multilingue de termes normalisés descripteurs de médicaments And Standard Terms Data Base Dictionnaire européen multilingue de termes normalisés descripteurs de médicaments",
   "status" : "active",
-  "date" : "2025-06-04T14:42:09+00:00",
+  "date" : "2025-06-04T15:18:32+00:00",
   "filter" : [{
     "code" : "root",
     "operator" : ["="],

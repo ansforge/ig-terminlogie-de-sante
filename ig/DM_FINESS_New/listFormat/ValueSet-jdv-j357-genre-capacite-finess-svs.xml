@@ -9,6 +9,9 @@
              id="1.2.250.1.213.1.6.1.365"
              typeFichier="JDV"
              urlFichier="">
-      <ConceptList/>
+      <ConceptList>
+         <concept code="01" codeSystem="1.2.250.1.213.3.3.215" displayName=""/>
+         <concept code="02" codeSystem="1.2.250.1.213.3.3.215" displayName=""/>
+      </ConceptList>
    </ValueSet>
 </RetrieveValueSetResponse>

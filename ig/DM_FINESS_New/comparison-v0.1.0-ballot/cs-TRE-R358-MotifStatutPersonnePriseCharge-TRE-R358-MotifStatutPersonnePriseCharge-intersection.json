@@ -1,11 +1,11 @@
 {
   "resourceType" : "CodeSystem",
-  "id" : "82eb4569-4816-4cea-a3e3-13297148ed06-597",
-  "url" : "http://hl7.org/fhir/comparison/CodeSystem/82eb4569-4816-4cea-a3e3-13297148ed06-597",
+  "id" : "c1891cf9-4174-4a1a-adcf-165a8bce07cd-597",
+  "url" : "http://hl7.org/fhir/comparison/CodeSystem/c1891cf9-4174-4a1a-adcf-165a8bce07cd-597",
   "name" : "IntersectionTRE_R358_MotifStatutPersonnePriseChargeAndTRE_R358_MotifStatutPersonnePriseCharge",
   "title" : "Intersection of null And null",
   "status" : "active",
-  "date" : "2025-06-04T14:42:09+00:00",
+  "date" : "2025-06-04T15:18:31+00:00",
   "property" : [{
     "code" : "dateValid",
     "description" : "date de validité d'un code concept",
