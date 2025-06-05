@@ -11,7 +11,7 @@
   "title" : "ASS_A11-CorresModeleCDA-XdsFormatCode-CISIS",
   "status" : "active",
   "experimental" : false,
-  "date" : "2025-06-04T04:25:43+00:00",
+  "date" : "2025-06-05T04:25:37+00:00",
   "publisher" : "ANS",
   "contact" : [{
     "name" : "ANS",
@@ -20,7 +20,7 @@
       "value" : "https://esante.gouv.fr"
     }]
   }],
-  "description" : "Lorsque le corps du CDA est structuré, la métadonnée 'formatCode' provient de l'élément 'templateId' (modèle du document CDA). La correspondance entre templateId et formatCode est assurée par cette table d'association",
+  "description" : "Pour le document CDA, la métadonnée XDS 'formatCode' est calculé à partir de l'élement CDA 'templateId'. La correspondance entre templateId et formatCode est assurée par cette table d'association.",
   "useContext" : [{
     "code" : {
       "system" : "http://terminology.hl7.org/CodeSystem/usage-context-type",

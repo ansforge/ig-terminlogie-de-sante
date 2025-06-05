@@ -2119,8 +2119,8 @@ WARNING: ValueSet/JDV-J145-MethodBodyWeight-ENS: ValueSet: Published value sets 
 WARNING: ValueSet/JDV-J146-MethodBodyHeight-ENS: ValueSet.compose.include[0].system: No definition could be found for URL value 'https://smt.esante.gouv.fr/terminologie-ncit'
 INFORMATION: ValueSet/JDV-J146-MethodBodyHeight-ENS: ValueSet.compose.include[0].concept[0]: A definition for CodeSystem 'https://smt.esante.gouv.fr/terminologie-ncit' could not be found, so the code cannot be validated
 WARNING: ValueSet/JDV-J146-MethodBodyHeight-ENS: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.title is mandatory, but it is not present
-ERROR: ValueSet.where(id = 'JDV-J146-MethodBodyHeight-ENS'): Error from https://smt.esante.gouv.fr/fhir: Error: [5c7b5e91-35d6-4336-831a-34e9781a0359]: A usable code system with URL https://smt.esante.gouv.fr/terminologie-ncit could not be resolved.
-Information: X-Request-Id: d5deb124-bf6e-480e-852d-d4c0e14fbf05
+ERROR: ValueSet.where(id = 'JDV-J146-MethodBodyHeight-ENS'): Error from https://smt.esante.gouv.fr/fhir: Error: [081ee438-9088-4352-8d6c-e65f2bce0eaa]: A usable code system with URL https://smt.esante.gouv.fr/terminologie-ncit could not be resolved.
+Information: X-Request-Id: 0d405fde-46c0-4ba5-9374-c7d630b256fd
 == input/ontoserver/JDV/JDV_J147_MethodHeartrate_ENS_JDV-J147-MethodHeartrate-ENS.json ==
 WARNING: ValueSet/JDV-J147-MethodHeartrate-ENS: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.title is mandatory, but it is not present
 == input/ontoserver/JDV/JDV_J148_ReferenceRangeAppliesTo_CISIS_JDV-J148-ReferenceRangeAppliesTo-CISIS.json ==
@@ -2514,8 +2514,8 @@ ERROR: ValueSet/JDV-J51-FamilleActiviteOperationnelle-ROR: ValueSet.compose.incl
 ERROR: ValueSet/JDV-J51-FamilleActiviteOperationnelle-ROR: ValueSet.compose.include[1].concept[23]: The code '065' is not valid in the system https://mos.esante.gouv.fr/NOS/TRE_R265-PrestationPilotageSerafin/FHIR/TRE-R265-PrestationPilotageSerafin (A definition for CodeSystem 'https://mos.esante.gouv.fr/NOS/TRE_R265-PrestationPilotageSerafin/FHIR/TRE-R265-PrestationPilotageSerafin' could not be found, so the code cannot be validated)
 ERROR: ValueSet/JDV-J51-FamilleActiviteOperationnelle-ROR: ValueSet.compose.include[1].concept[24]: The code '067' is not valid in the system https://mos.esante.gouv.fr/NOS/TRE_R265-PrestationPilotageSerafin/FHIR/TRE-R265-PrestationPilotageSerafin (A definition for CodeSystem 'https://mos.esante.gouv.fr/NOS/TRE_R265-PrestationPilotageSerafin/FHIR/TRE-R265-PrestationPilotageSerafin' could not be found, so the code cannot be validated)
 WARNING: ValueSet/JDV-J51-FamilleActiviteOperationnelle-ROR: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.title is mandatory, but it is not present
-ERROR: ValueSet.where(id = 'JDV-J51-FamilleActiviteOperationnelle-ROR'): Error from https://smt.esante.gouv.fr/fhir: Error: [8ba366e5-6c56-42fc-9856-26192c0d4b17]: A usable code system with URL https://mos.esante.gouv.fr/NOS/TRE_R265-PrestationPilotageSerafin/FHIR/TRE-R265-PrestationPilotageSerafin could not be resolved.
-Information: X-Request-Id: 1cd64ec0-e06b-4bfd-aab1-21fd1f566e33
+ERROR: ValueSet.where(id = 'JDV-J51-FamilleActiviteOperationnelle-ROR'): Error from https://smt.esante.gouv.fr/fhir: Error: [fbb7f139-8942-4266-a6d3-678857dce6cb]: A usable code system with URL https://mos.esante.gouv.fr/NOS/TRE_R265-PrestationPilotageSerafin/FHIR/TRE-R265-PrestationPilotageSerafin could not be resolved.
+Information: X-Request-Id: cf7775af-409a-4efe-b842-1a16bbc3a4fa
 == input/ontoserver/JDV/JDV_J52_AvailabilityStatus_CISIS_JDV-J52-AvailabilityStatus-CISIS.json ==
 WARNING: ValueSet/JDV-J52-AvailabilityStatus-CISIS: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.title is mandatory, but it is not present
 == input/ontoserver/JDV/JDV_J53_TypeRequeteGestionDossier_CISIS_JDV-J53-TypeRequeteGestionDossier-CISIS.json ==
