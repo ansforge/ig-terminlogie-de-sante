@@ -10,7 +10,7 @@
   "name" : "Terminologies",
   "title" : "Terminologies  de Santé",
   "status" : "active",
-  "date" : "2025-06-05T04:25:37+00:00",
+  "date" : "2025-06-06T04:23:21+00:00",
   "publisher" : "ANS",
   "contact" : [{
     "name" : "ANS",
@@ -32739,18 +32739,6 @@
         "reference" : "ConceptMap/alignement-nuva-atc"
       },
       "name" : "Aligner les codes ATC de NUVA avec les codes ATC",
-      "description" : "Source des données SYADEM",
-      "exampleBoolean" : false
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "ConceptMap"
-      }],
-      "reference" : {
-        "reference" : "ConceptMap/alignement-nuva-cipucd"
-      },
-      "name" : "Aligner les codes CIP de NUVA avec les codes CIP du CIP_UCD",
       "description" : "Source des données SYADEM",
       "exampleBoolean" : false
     },

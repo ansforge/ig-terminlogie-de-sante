@@ -12,7 +12,7 @@
 </head>
 <body style="margin: 20px; background-color: #ffffff">
  <h1>Terminology Server Report for Terminologies</h1>
- <p>Generated Thu Jun 05 04:41:19 UTC 2025, FHIR version 4.0.1 for ans.fr.terminologies#0.1.0-ballot (canonical = <a href="https://interop.esante.gouv.fr/terminologies">https://interop.esante.gouv.fr/terminologies</a> (<a href="https://interop.esante.gouv.fr/terminologies/history.html">history</a>))</p>
+ <p>Generated Fri Jun 06 04:36:55 UTC 2025, FHIR version 4.0.1 for ans.fr.terminologies#0.1.0-ballot (canonical = <a href="https://interop.esante.gouv.fr/terminologies">https://interop.esante.gouv.fr/terminologies</a> (<a href="https://interop.esante.gouv.fr/terminologies/history.html">history</a>))</p>
 <p>This page provides a report on which terminology servers were used while publishing this IG. Note that terminology caching reduces the server hit count - this page only reports content that wasn't cached</p>
 <h2>Terminology Parameters</h2>
 <ul>
@@ -1019,20 +1019,6 @@
     <td>null</td>
     <td>http://loinc.org</td>
     <td>auth = , candidates=http://tx.fhir.org/r4|https://tx.ontoserver.csiro.au/fhir|https://terminologystandardsservice.ca/tx/fhir|http://tx.hl7europe.eu/r4|https://tx.fhir.ch/r4</td>
-  </tr>
-  <tr>
-    <td>System not handled by any servers. Using primary server</td>
-    <td>https://tx.fhir.org/r4</td>
-    <td>null</td>
-    <td>http://hl7.org/fhir/fhir-types</td>
-    <td>auth = , candidates=</td>
-  </tr>
-  <tr>
-    <td>Fallback: primary server</td>
-    <td>https://tx.fhir.org/r4</td>
-    <td>null</td>
-    <td>http://hl7.org/fhir/fhir-types</td>
-    <td>auth = , candidates=</td>
   </tr>
   <tr>
     <td>System not handled by any servers. Using primary server</td>
@@ -9417,42 +9403,14 @@
     <td>System not handled by any servers. Using primary server</td>
     <td>https://tx.fhir.org/r4</td>
     <td>null</td>
-    <td>https://smt.esante.gouv.fr/terminologie-ncit</td>
+    <td>https://smt-pprod.esante.gouv.fr/terminologie-ncit</td>
     <td>auth = , candidates=</td>
   </tr>
   <tr>
     <td>Fallback: primary server</td>
     <td>https://tx.fhir.org/r4</td>
     <td>null</td>
-    <td>https://smt.esante.gouv.fr/terminologie-ncit</td>
-    <td>auth = , candidates=</td>
-  </tr>
-  <tr>
-    <td>Found authoritative server https://smt.esante.gouv.fr/fhir</td>
-    <td>https://smt.esante.gouv.fr/fhir</td>
-    <td>null</td>
-    <td>https://smt.esante.gouv.fr/terminologie-atc</td>
-    <td>auth = https://smt.esante.gouv.fr/fhir, candidates=</td>
-  </tr>
-  <tr>
-    <td>Found authoritative server https://smt.esante.gouv.fr/fhir</td>
-    <td>https://smt.esante.gouv.fr/fhir</td>
-    <td>null</td>
-    <td>https://smt.esante.gouv.fr/terminologie-bdpm</td>
-    <td>auth = https://smt.esante.gouv.fr/fhir, candidates=</td>
-  </tr>
-  <tr>
-    <td>System not handled by any servers. Using primary server</td>
-    <td>https://tx.fhir.org/r4</td>
-    <td>null</td>
-    <td>https://smt.esante.gouv.fr/terminologie-cip_ucd</td>
-    <td>auth = , candidates=</td>
-  </tr>
-  <tr>
-    <td>Fallback: primary server</td>
-    <td>https://tx.fhir.org/r4</td>
-    <td>null</td>
-    <td>https://smt.esante.gouv.fr/terminologie-cip_ucd</td>
+    <td>https://smt-pprod.esante.gouv.fr/terminologie-ncit</td>
     <td>auth = , candidates=</td>
   </tr>
   <tr>
@@ -9815,7 +9773,7 @@
 </table>
 <h2>Primary Server: https://tx.fhir.org/r4</h2>
 <a href="https://tx.fhir.org/r4"></a>
-<p>Use Count: 614. Code Systems used: </p>
+<p>Use Count: 618. Code Systems used: </p>
 <table class="grid">
   <tr>
     <th>
@@ -9834,7 +9792,7 @@
   <tr>
     <td>http://hl7.org/fhir/fhir-types</td>
     <td>0</td>
-    <td>562</td>
+    <td>561</td>
     <td></td>
   </tr>
   <tr>
@@ -9862,6 +9820,12 @@
     <td></td>
   </tr>
   <tr>
+    <td>https://smt-pprod.esante.gouv.fr/terminologie-ncit</td>
+    <td>0</td>
+    <td>1</td>
+    <td></td>
+  </tr>
+  <tr>
     <td>https://smt.esante.gouv.fr/fhir/CodeSystem/1.2.250.1.213.1.1.4.322</td>
     <td>10</td>
     <td>4</td>
@@ -9870,16 +9834,22 @@
   <tr>
     <td>https://smt.esante.gouv.fr/terminologie-cip_ucd</td>
     <td>2</td>
-    <td>1</td>
+    <td>0</td>
     <td></td>
   </tr>
   <tr>
     <td>https://smt.esante.gouv.fr/terminologie-ncit</td>
     <td>11</td>
-    <td>6</td>
+    <td>5</td>
     <td></td>
   </tr>
 </table>
+<p>ValueSets fetched:</p>
+<ul>
+  <li>https://smt-pprod.esante.gouv.fr/terminologie-atc?vs</li>
+  <li>https://smt-pprod.esante.gouv.fr/terminologie-bdpm?vs</li>
+  <li>https://smt-pprod.esante.gouv.fr/terminologie-nuva?vs</li>
+</ul>
 <h2>Server: https://tx.fhir.org/r4</h2>
 <a href="https://tx.fhir.org/r4"></a>
 <p>Use Count: 138. Code Systems used: </p>
@@ -9951,7 +9921,7 @@
 </ul>
 <h2>Server: https://smt.esante.gouv.fr/fhir</h2>
 <a href="https://smt.esante.gouv.fr/fhir"></a>
-<p>Use Count: 111. Code Systems used: </p>
+<p>Use Count: 109. Code Systems used: </p>
 <table class="grid">
   <tr>
     <th>
@@ -10000,7 +9970,7 @@
   <tr>
     <td>https://smt.esante.gouv.fr/terminologie-atc</td>
     <td>1</td>
-    <td>1</td>
+    <td>0</td>
     <td>
       <a href="CodeSystem-terminologie-atc.html">Classification anatomique, thérapeutique et chimique</a>
     </td>
@@ -10008,7 +9978,7 @@
   <tr>
     <td>https://smt.esante.gouv.fr/terminologie-bdpm</td>
     <td>1</td>
-    <td>1</td>
+    <td>0</td>
     <td>
       <a href="CodeSystem-terminologie-bdpm.html">Base de données publique du médicament</a>
     </td>
