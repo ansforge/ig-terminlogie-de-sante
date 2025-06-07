@@ -14,7 +14,8 @@ version: 1.0.0
 #date: 2023-03
 fhirVersion: 4.0.1
 copyrightYear: 2020+
-releaseLabel: for-comment
+#releaseLabel: for-comment
+releaseLabel: final-text
 jurisdiction: urn:iso:std:iso:3166#FR
 
 dependencies:
