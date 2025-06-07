@@ -1,0 +1,21 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "da9a5b71-43a4-47b5-9fac-061de054efda-1248",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/da9a5b71-43a4-47b5-9fac-061de054efda-1248",
+  "name" : "IntersectionJDV_J234_GenreActivite_EPARSAndJDV_J234_GenreActivite_EPARS",
+  "title" : "Intersection of null And null",
+  "status" : "active",
+  "date" : "2025-06-07T12:12:40+00:00",
+  "compose" : {
+    "include" : [{
+      "concept" : [{
+        "code" : "GENR01",
+        "display" : "Activité de soin et de pharmacie"
+      },
+      {
+        "code" : "GENR02",
+        "display" : "Activité de soins ou de pharmacien en tant que remplaçant"
+      }]
+    }]
+  }
+}

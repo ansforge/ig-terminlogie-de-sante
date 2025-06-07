@@ -1,0 +1,33 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "da9a5b71-43a4-47b5-9fac-061de054efda-1356",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/da9a5b71-43a4-47b5-9fac-061de054efda-1356",
+  "name" : "IntersectionJDV_J28_OuvertureAnnuelle_RORAndJDV_J28_OuvertureAnnuelle_ROR",
+  "title" : "Intersection of null And null",
+  "status" : "active",
+  "date" : "2025-06-07T12:12:40+00:00",
+  "compose" : {
+    "include" : [{
+      "concept" : [{
+        "code" : "01",
+        "display" : "Semaine hors week-end jusqu'à 210 jours par an"
+      },
+      {
+        "code" : "02",
+        "display" : "Semaine et week-end (de 211 à 364 jours par an)"
+      },
+      {
+        "code" : "03",
+        "display" : "Année complète (365 jours par an)"
+      },
+      {
+        "code" : "04",
+        "display" : "Semaine hors week-end à partir de 210 jours"
+      },
+      {
+        "code" : "05",
+        "display" : "Week-end et vacances scolaires uniquement"
+      }]
+    }]
+  }
+}

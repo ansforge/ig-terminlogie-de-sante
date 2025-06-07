@@ -1,6 +1,6 @@
-<OID>;<Type fichier>;<Nom fichier>;<Description>;<URL fichier>;<Date valid>;<Date fin>;<Date MAJ>  
-1.2.250.1.213.1.1.5.806;JDV;JdvEvaluationAggirPaCisis;JDV Evaluation Aggir Pa CISIS;;20240918000000;;20250606103857
-<system>;<Code>;<Libellé> 
+<OID>;<Type fichier>;<Nom fichier>;<Description>;<URL fichier>;<Date valid>;<Date fin>;<Date MàJ>  
+1.2.250.1.213.1.1.5.806;JDV;JdvEvaluationAggirPaCisis.tabs;JDV Evaluation Aggir Pa CISIS;;20240918000000;;20250606103857
+<OID>;<Code>;<Libellé> 
 ;b160;Fonctions de la pensée
 ;b114;Fonctions d'orientation
 ;d5100;Se laver des parties du corps

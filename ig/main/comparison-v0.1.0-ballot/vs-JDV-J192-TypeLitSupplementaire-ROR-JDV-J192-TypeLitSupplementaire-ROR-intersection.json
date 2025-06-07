@@ -1,0 +1,25 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "da9a5b71-43a4-47b5-9fac-061de054efda-1113",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/da9a5b71-43a4-47b5-9fac-061de054efda-1113",
+  "name" : "IntersectionJDV_J192_TypeLitSupplementaire_RORAndJDV_J192_TypeLitSupplementaire_ROR",
+  "title" : "Intersection of null And null",
+  "status" : "active",
+  "date" : "2025-06-07T12:12:40+00:00",
+  "compose" : {
+    "include" : [{
+      "concept" : [{
+        "code" : "01",
+        "display" : "Mobilisé"
+      },
+      {
+        "code" : "02",
+        "display" : "Mobilisable sans ressources humaines"
+      },
+      {
+        "code" : "03",
+        "display" : "Mobilisable avec ressources humaines"
+      }]
+    }]
+  }
+}

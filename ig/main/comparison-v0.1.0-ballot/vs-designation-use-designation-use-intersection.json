@@ -1,0 +1,19 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "da9a5b71-43a4-47b5-9fac-061de054efda-1581",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/da9a5b71-43a4-47b5-9fac-061de054efda-1581",
+  "name" : "IntersectionDesignationUseAndDesignationUse",
+  "title" : "Intersection of Designation Use And Designation Use",
+  "status" : "active",
+  "date" : "2025-06-07T12:12:40+00:00",
+  "compose" : {
+    "include" : [{
+      "concept" : [{
+        "code" : "900000000000003001"
+      },
+      {
+        "code" : "900000000000013009"
+      }]
+    }]
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "da9a5b71-43a4-47b5-9fac-061de054efda-1362",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/da9a5b71-43a4-47b5-9fac-061de054efda-1362",
+  "name" : "IntersectionJDV_J281_StatutsRessourcesMSAndJDV_J281_StatutsRessourcesMS",
+  "title" : "Intersection of null And null",
+  "status" : "active",
+  "date" : "2025-06-07T12:12:40+00:00",
+  "compose" : {
+    "include" : [{
+      "concept" : [{
+        "code" : "TERMINE",
+        "display" : "Terminé"
+      },
+      {
+        "code" : "VALIDE",
+        "display" : "Validé"
+      },
+      {
+        "code" : "APPROUVE",
+        "display" : "Approuvé"
+      },
+      {
+        "code" : "PLANIFIE",
+        "display" : "Planifié"
+      },
+      {
+        "code" : "REALISE",
+        "display" : "Réalisé"
+      },
+      {
+        "code" : "ANNULE",
+        "display" : "Annulé"
+      }]
+    }]
+  }
+}

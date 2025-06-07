@@ -1,0 +1,27 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "da9a5b71-43a4-47b5-9fac-061de054efda-992",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/da9a5b71-43a4-47b5-9fac-061de054efda-992",
+  "name" : "UnionJDV_J152_MethodBodyTemperature_ENSAndJDV_J152_MethodBodyTemperature_ENS",
+  "title" : "Union of null And null",
+  "status" : "active",
+  "date" : "2025-06-07T12:12:40+00:00",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "FR"
+    }]
+  }],
+  "compose" : {
+    "include" : [{
+      "concept" : [{
+        "code" : "V03010102",
+        "display" : "THERMOMÈTRES NUMÉRIQUES"
+      },
+      {
+        "code" : "V0301010202",
+        "display" : "THERMOMÈTRES NUMÉRIQUES - MESURE SANS CONTACT"
+      }]
+    }]
+  }
+}

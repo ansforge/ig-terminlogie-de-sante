@@ -1,0 +1,99 @@
+{
+  "resourceType" : "CodeSystem",
+  "id" : "da9a5b71-43a4-47b5-9fac-061de054efda-261",
+  "url" : "http://hl7.org/fhir/comparison/CodeSystem/da9a5b71-43a4-47b5-9fac-061de054efda-261",
+  "name" : "IntersectionTRE_R237_GroupeTarifaireDependanceAndTRE_R237_GroupeTarifaireDependance",
+  "title" : "Intersection of null And null",
+  "status" : "active",
+  "date" : "2025-06-07T12:12:40+00:00",
+  "property" : [{
+    "code" : "dateValid",
+    "description" : "date de validité d'un code concept",
+    "type" : "dateTime"
+  },
+  {
+    "code" : "dateMaj",
+    "description" : "Date de mise à jour d'un code concept",
+    "type" : "dateTime"
+  },
+  {
+    "code" : "dateFin",
+    "description" : "Date de fin d'exploitation d'un code concept",
+    "type" : "dateTime"
+  },
+  {
+    "code" : "dateValid",
+    "description" : "date de validité d'un code concept",
+    "type" : "dateTime"
+  },
+  {
+    "code" : "dateMaj",
+    "description" : "Date de mise à jour d'un code concept",
+    "type" : "dateTime"
+  },
+  {
+    "code" : "dateFin",
+    "description" : "Date de fin d'exploitation d'un code concept",
+    "type" : "dateTime"
+  }],
+  "concept" : [{
+    "code" : "01",
+    "display" : "GIR 1-2",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2017-10-13T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2017-10-13T12:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2017-10-13T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2017-10-13T12:00:00+01:00"
+    }]
+  },
+  {
+    "code" : "02",
+    "display" : "GIR 3-4",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2017-10-13T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2017-10-13T12:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2017-10-13T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2017-10-13T12:00:00+01:00"
+    }]
+  },
+  {
+    "code" : "03",
+    "display" : "GIR 5-6",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2017-10-13T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2017-10-13T12:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2017-10-13T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2017-10-13T12:00:00+01:00"
+    }]
+  }]
+}

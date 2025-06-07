@@ -1,0 +1,27 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "da9a5b71-43a4-47b5-9fac-061de054efda-978",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/da9a5b71-43a4-47b5-9fac-061de054efda-978",
+  "name" : "IntersectionJDV_J148_ReferenceRangeAppliesTo_CISISAndJDV_J148_ReferenceRangeAppliesTo_CISIS",
+  "title" : "Intersection of null And null",
+  "status" : "retired",
+  "date" : "2025-06-07T12:12:40+00:00",
+  "compose" : {
+    "include" : [{
+      "concept" : [{
+        "code" : "F",
+        "display" : "Féminin"
+      },
+      {
+        "code" : "M",
+        "display" : "Masculin"
+      }]
+    },
+    {
+      "concept" : [{
+        "code" : "77386006",
+        "display" : "enceinte"
+      }]
+    }]
+  }
+}

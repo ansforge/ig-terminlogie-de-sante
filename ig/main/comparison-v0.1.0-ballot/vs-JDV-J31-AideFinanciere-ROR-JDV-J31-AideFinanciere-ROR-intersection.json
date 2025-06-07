@@ -1,0 +1,21 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "da9a5b71-43a4-47b5-9fac-061de054efda-1386",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/da9a5b71-43a4-47b5-9fac-061de054efda-1386",
+  "name" : "IntersectionJDV_J31_AideFinanciere_RORAndJDV_J31_AideFinanciere_ROR",
+  "title" : "Intersection of null And null",
+  "status" : "active",
+  "date" : "2025-06-07T12:12:40+00:00",
+  "compose" : {
+    "include" : [{
+      "concept" : [{
+        "code" : "01",
+        "display" : "Conventionné aides au logement"
+      },
+      {
+        "code" : "02",
+        "display" : "Habilité Aide Sociale"
+      }]
+    }]
+  }
+}

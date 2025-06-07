@@ -1,0 +1,21 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "da9a5b71-43a4-47b5-9fac-061de054efda-1179",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/da9a5b71-43a4-47b5-9fac-061de054efda-1179",
+  "name" : "IntersectionJDV_J212_OrientationParticuliere_RORAndJDV_J212_OrientationParticuliere_ROR",
+  "title" : "Intersection of null And null",
+  "status" : "active",
+  "date" : "2025-06-07T12:12:40+00:00",
+  "compose" : {
+    "include" : [{
+      "concept" : [{
+        "code" : "80",
+        "display" : "Homéopathie"
+      },
+      {
+        "code" : "81",
+        "display" : "Acupuncture"
+      }]
+    }]
+  }
+}
