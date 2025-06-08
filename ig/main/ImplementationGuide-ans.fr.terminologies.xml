@@ -11,7 +11,7 @@
   <name value="Terminologies"/>
   <title value="Terminologies  de Santé"/>
   <status value="active"/>
-  <date value="2025-06-07T12:01:06+00:00"/>
+  <date value="2025-06-08T04:29:43+00:00"/>
   <publisher value="ANS"/>
   <contact>
     <name value="ANS"/>
@@ -65,7 +65,7 @@
         <valueString value="releaselabel"/>
       </extension>
       <extension url="value">
-        <valueString value="for-comment"/>
+        <valueString value="final-text"/>
       </extension>
     </extension>
     <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
@@ -8588,7 +8588,7 @@
         <valueCode value="releaselabel"/>
       </extension>
       <extension url="value">
-        <valueString value="for-comment"/>
+        <valueString value="final-text"/>
       </extension>
     </extension>
     <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">

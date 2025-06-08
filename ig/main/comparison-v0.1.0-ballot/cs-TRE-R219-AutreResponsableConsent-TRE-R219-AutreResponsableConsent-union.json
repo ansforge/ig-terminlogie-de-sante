@@ -1,11 +1,11 @@
 {
   "resourceType" : "CodeSystem",
-  "id" : "da9a5b71-43a4-47b5-9fac-061de054efda-206",
-  "url" : "http://hl7.org/fhir/comparison/CodeSystem/da9a5b71-43a4-47b5-9fac-061de054efda-206",
+  "id" : "eaf9da8d-3ff6-4e3c-84fe-a82ad2874c82-206",
+  "url" : "http://hl7.org/fhir/comparison/CodeSystem/eaf9da8d-3ff6-4e3c-84fe-a82ad2874c82-206",
   "name" : "UnionTRE_R219_AutreResponsableConsentAndTRE_R219_AutreResponsableConsent",
   "title" : "Union of null And null",
   "status" : "active",
-  "date" : "2025-06-07T12:12:40+00:00",
+  "date" : "2025-06-08T04:39:50+00:00",
   "jurisdiction" : [{
     "coding" : [{
       "system" : "urn:iso:std:iso:3166",
