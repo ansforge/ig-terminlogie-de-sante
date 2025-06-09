@@ -1,11 +1,11 @@
 {
   "resourceType" : "CodeSystem",
-  "id" : "0f306c39-46f1-4a52-aebf-7e27aef4b4fe-675",
-  "url" : "http://hl7.org/fhir/comparison/CodeSystem/0f306c39-46f1-4a52-aebf-7e27aef4b4fe-675",
+  "id" : "26bcb0a2-0288-447c-82fa-085030a12a73-675",
+  "url" : "http://hl7.org/fhir/comparison/CodeSystem/26bcb0a2-0288-447c-82fa-085030a12a73-675",
   "name" : "IntersectionTRE_R62_DomaineAndTRE_R62_Domaine",
   "title" : "Intersection of null And null",
   "status" : "active",
-  "date" : "2025-06-09T04:42:46+00:00",
+  "date" : "2025-06-09T06:55:43+00:00",
   "property" : [{
     "code" : "dateValid",
     "description" : "date de validité d'un code concept",

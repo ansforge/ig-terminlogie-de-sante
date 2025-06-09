@@ -1,11 +1,11 @@
 {
   "resourceType" : "ValueSet",
-  "id" : "0f306c39-46f1-4a52-aebf-7e27aef4b4fe-1541",
-  "url" : "http://hl7.org/fhir/comparison/ValueSet/0f306c39-46f1-4a52-aebf-7e27aef4b4fe-1541",
+  "id" : "26bcb0a2-0288-447c-82fa-085030a12a73-1541",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/26bcb0a2-0288-447c-82fa-085030a12a73-1541",
   "name" : "UnionJDV_J88_AnneeUniversitaire_RASSAndJDV_J88_AnneeUniversitaire_RASS",
   "title" : "Union of null And null",
   "status" : "active",
-  "date" : "2025-06-09T04:42:46+00:00",
+  "date" : "2025-06-09T06:55:43+00:00",
   "jurisdiction" : [{
     "coding" : [{
       "system" : "urn:iso:std:iso:3166",

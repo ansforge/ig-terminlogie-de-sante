@@ -1,11 +1,11 @@
 {
   "resourceType" : "CodeSystem",
-  "id" : "0f306c39-46f1-4a52-aebf-7e27aef4b4fe-773",
-  "url" : "http://hl7.org/fhir/comparison/CodeSystem/0f306c39-46f1-4a52-aebf-7e27aef4b4fe-773",
+  "id" : "26bcb0a2-0288-447c-82fa-085030a12a73-773",
+  "url" : "http://hl7.org/fhir/comparison/CodeSystem/26bcb0a2-0288-447c-82fa-085030a12a73-773",
   "name" : "UnionCIM11_MMSAndCIM11_MMS",
   "title" : "Union of Classification internationale des maladies et des problèmes de santé connexes - 11ème révision And Classification internationale des maladies et des problèmes de santé connexes - 11ème révision",
   "status" : "active",
-  "date" : "2025-06-09T04:42:46+00:00",
+  "date" : "2025-06-09T06:55:43+00:00",
   "jurisdiction" : [{
     "coding" : [{
       "system" : "urn:iso:std:iso:3166",

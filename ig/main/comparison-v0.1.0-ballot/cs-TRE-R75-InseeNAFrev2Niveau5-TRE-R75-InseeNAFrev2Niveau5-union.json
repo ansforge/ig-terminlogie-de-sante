@@ -1,11 +1,11 @@
 {
   "resourceType" : "CodeSystem",
-  "id" : "0f306c39-46f1-4a52-aebf-7e27aef4b4fe-710",
-  "url" : "http://hl7.org/fhir/comparison/CodeSystem/0f306c39-46f1-4a52-aebf-7e27aef4b4fe-710",
+  "id" : "26bcb0a2-0288-447c-82fa-085030a12a73-710",
+  "url" : "http://hl7.org/fhir/comparison/CodeSystem/26bcb0a2-0288-447c-82fa-085030a12a73-710",
   "name" : "UnionTRE_R75_InseeNAFrev2Niveau5AndTRE_R75_InseeNAFrev2Niveau5",
   "title" : "Union of null And null",
   "status" : "active",
-  "date" : "2025-06-09T04:42:46+00:00",
+  "date" : "2025-06-09T06:55:43+00:00",
   "jurisdiction" : [{
     "coding" : [{
       "system" : "urn:iso:std:iso:3166",
