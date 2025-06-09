@@ -1,11 +1,11 @@
 {
   "resourceType" : "CodeSystem",
-  "id" : "eaf9da8d-3ff6-4e3c-84fe-a82ad2874c82-377",
-  "url" : "http://hl7.org/fhir/comparison/CodeSystem/eaf9da8d-3ff6-4e3c-84fe-a82ad2874c82-377",
+  "id" : "0f306c39-46f1-4a52-aebf-7e27aef4b4fe-377",
+  "url" : "http://hl7.org/fhir/comparison/CodeSystem/0f306c39-46f1-4a52-aebf-7e27aef4b4fe-377",
   "name" : "UnionTRE_R277_CategorieActiviteSanitaireReguleeAndTRE_R277_CategorieActiviteSanitaireRegulee",
   "title" : "Union of null And null",
   "status" : "active",
-  "date" : "2025-06-08T04:39:50+00:00",
+  "date" : "2025-06-09T04:42:46+00:00",
   "jurisdiction" : [{
     "coding" : [{
       "system" : "urn:iso:std:iso:3166",
