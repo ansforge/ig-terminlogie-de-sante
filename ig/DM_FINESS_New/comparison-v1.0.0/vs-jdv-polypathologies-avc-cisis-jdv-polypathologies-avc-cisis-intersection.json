@@ -1,0 +1,33 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "68764cdb-0e93-4ece-91d1-56364931b345-2397",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/68764cdb-0e93-4ece-91d1-56364931b345-2397",
+  "name" : "IntersectionJdvPolypathologiesAvcCisisAndJdvPolypathologiesAvcCisis",
+  "title" : "Intersection of JDV Polypathologies Avc CISIS And JDV Polypathologies Avc CISIS",
+  "status" : "active",
+  "date" : "2025-06-11T11:10:42+00:00",
+  "compose" : {
+    "include" : [{
+      "concept" : [{
+        "code" : "MED-320",
+        "display" : "Affection longue durée (ALD)"
+      },
+      {
+        "code" : "MED-321",
+        "display" : "Surhandicap"
+      },
+      {
+        "code" : "MED-322",
+        "display" : "Plurihandicap"
+      },
+      {
+        "code" : "MED-323",
+        "display" : "Polyhandicap"
+      },
+      {
+        "code" : "MED-324",
+        "display" : "Polypathologies"
+      }]
+    }]
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "68764cdb-0e93-4ece-91d1-56364931b345-2637",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/68764cdb-0e93-4ece-91d1-56364931b345-2637",
+  "name" : "IntersectionJdvStatutDocumentCisisAndJdvStatutDocumentCisis",
+  "title" : "Intersection of JDV Statut Document CISIS And JDV Statut Document CISIS",
+  "status" : "active",
+  "date" : "2025-06-11T11:10:42+00:00",
+  "compose" : {
+    "include" : [{
+      "concept" : [{
+        "code" : "385651009",
+        "display" : "en cours d'exécution"
+      },
+      {
+        "code" : "398166005",
+        "display" : "réalisé"
+      },
+      {
+        "code" : "9571008",
+        "display" : "approuvé"
+      },
+      {
+        "code" : "29179001",
+        "display" : "clôturé"
+      }]
+    }]
+  }
+}

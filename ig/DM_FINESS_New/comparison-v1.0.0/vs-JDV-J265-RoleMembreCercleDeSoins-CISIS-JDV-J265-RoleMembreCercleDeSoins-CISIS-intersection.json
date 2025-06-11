@@ -1,0 +1,39 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "68764cdb-0e93-4ece-91d1-56364931b345-1344",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/68764cdb-0e93-4ece-91d1-56364931b345-1344",
+  "name" : "IntersectionJDV_J265_RoleMembreCercleDeSoins_CISISAndJDV_J265_RoleMembreCercleDeSoins_CISIS",
+  "title" : "Intersection of null And null",
+  "status" : "active",
+  "date" : "2025-06-11T11:10:42+00:00",
+  "compose" : {
+    "include" : [{
+      "concept" : [{
+        "code" : "GUARD",
+        "display" : "Responsable légal"
+      },
+      {
+        "code" : "CAREGIVER",
+        "display" : "Aidant"
+      },
+      {
+        "code" : "NOK",
+        "display" : "personne de confiance"
+      },
+      {
+        "code" : "CON",
+        "display" : "Informateur"
+      },
+      {
+        "code" : "ECON",
+        "display" : "personne à prévenir en cas d'urgence"
+      }]
+    },
+    {
+      "concept" : [{
+        "code" : "PCP",
+        "display" : "Médecin traitant"
+      }]
+    }]
+  }
+}

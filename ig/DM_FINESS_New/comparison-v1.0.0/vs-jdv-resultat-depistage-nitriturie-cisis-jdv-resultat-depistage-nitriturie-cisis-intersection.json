@@ -1,0 +1,25 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "68764cdb-0e93-4ece-91d1-56364931b345-2508",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/68764cdb-0e93-4ece-91d1-56364931b345-2508",
+  "name" : "IntersectionJdvResultatDepistageNitriturieCisisAndJdvResultatDepistageNitriturieCisis",
+  "title" : "Intersection of JDV Resultat Depistage Nitriturie CISIS And JDV Resultat Depistage Nitriturie CISIS",
+  "status" : "active",
+  "date" : "2025-06-11T11:10:42+00:00",
+  "compose" : {
+    "include" : [{
+      "concept" : [{
+        "code" : "260385009",
+        "display" : "négatif"
+      },
+      {
+        "code" : "260405006",
+        "display" : "trace"
+      },
+      {
+        "code" : "10828004",
+        "display" : "positif"
+      }]
+    }]
+  }
+}

@@ -1,9 +1,0 @@
-{
-  "resourceType" : "ValueSet",
-  "id" : "c1891cf9-4174-4a1a-adcf-165a8bce07cd-1596",
-  "url" : "http://hl7.org/fhir/comparison/ValueSet/c1891cf9-4174-4a1a-adcf-165a8bce07cd-1596",
-  "name" : "IntersectionValueSet_CIPUCD_AllAndValueSet_CIPUCD_All",
-  "title" : "Intersection of null And null",
-  "status" : "active",
-  "date" : "2025-06-04T15:18:32+00:00"
-}

@@ -1,0 +1,47 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "68764cdb-0e93-4ece-91d1-56364931b345-2748",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/68764cdb-0e93-4ece-91d1-56364931b345-2748",
+  "name" : "IntersectionJdvTypeAnesthesieCisisAndJdvTypeAnesthesieCisis",
+  "title" : "Intersection of JDV Type Anesthesie CISIS And JDV Type Anesthesie CISIS",
+  "status" : "active",
+  "date" : "2025-06-11T11:10:42+00:00",
+  "compose" : {
+    "include" : [{
+      "concept" : [{
+        "code" : "MED-582",
+        "display" : "Anesthésie locorégionale péridurale ou épidurale"
+      },
+      {
+        "code" : "MED-583",
+        "display" : "Anesthésie locorégionale subarachnoïdienne (rachianesthésie)"
+      },
+      {
+        "code" : "MED-584",
+        "display" : "Anesthésie locorégionale plexique ou tronculaire"
+      },
+      {
+        "code" : "MED-585",
+        "display" : "Anesthésie locorégionale intraveineuse"
+      },
+      {
+        "code" : "MED-587",
+        "display" : "Hypnose"
+      },
+      {
+        "code" : "MED-588",
+        "display" : "Surveillance simple"
+      }]
+    },
+    {
+      "concept" : [{
+        "code" : "50697003",
+        "display" : "anesthésie générale"
+      },
+      {
+        "code" : "72641008",
+        "display" : "sédation"
+      }]
+    }]
+  }
+}

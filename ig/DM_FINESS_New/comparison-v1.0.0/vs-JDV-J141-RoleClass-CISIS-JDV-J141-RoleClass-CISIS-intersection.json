@@ -1,0 +1,21 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "68764cdb-0e93-4ece-91d1-56364931b345-963",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/68764cdb-0e93-4ece-91d1-56364931b345-963",
+  "name" : "IntersectionJDV_J141_RoleClass_CISISAndJDV_J141_RoleClass_CISIS",
+  "title" : "Intersection of null And null",
+  "status" : "active",
+  "date" : "2025-06-11T11:10:42+00:00",
+  "compose" : {
+    "include" : [{
+      "concept" : [{
+        "code" : "PROV",
+        "display" : "Professionnel de santé"
+      },
+      {
+        "code" : "AGNT",
+        "display" : "Professionnel caractérisé par son rôle"
+      }]
+    }]
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "68764cdb-0e93-4ece-91d1-56364931b345-2841",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/68764cdb-0e93-4ece-91d1-56364931b345-2841",
+  "name" : "IntersectionJdvTypeProduitSanguinLabileCisisAndJdvTypeProduitSanguinLabileCisis",
+  "title" : "Intersection of JDV Type Produit Sanguin Labile CISIS And JDV Type Produit Sanguin Labile CISIS",
+  "status" : "active",
+  "date" : "2025-06-11T11:10:42+00:00",
+  "compose" : {
+    "include" : [{
+      "concept" : [{
+        "code" : "C15409",
+        "display" : "transfusion de concentré de globules rouges"
+      },
+      {
+        "code" : "C15366",
+        "display" : "transfusion de plaquettes"
+      },
+      {
+        "code" : "C140042",
+        "display" : "transfusion de plasma"
+      }]
+    },
+    {
+      "concept" : [{
+        "code" : "GEN-092.03.06",
+        "display" : "Autre type de produit sanguin labile"
+      }]
+    }]
+  }
+}

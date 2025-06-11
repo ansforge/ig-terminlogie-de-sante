@@ -1,0 +1,16 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "68764cdb-0e93-4ece-91d1-56364931b345-2270",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/68764cdb-0e93-4ece-91d1-56364931b345-2270",
+  "name" : "UnionJdvModeleDocumentCdaAndJDV_ModeleDocumentCDA",
+  "title" : "Union of Jdv Modele Document Cda And JDV-ModeleDocumentCDA",
+  "status" : "active",
+  "date" : "2025-06-11T11:10:42+00:00",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "FR",
+      "display" : "France"
+    }]
+  }]
+}

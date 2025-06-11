@@ -1,0 +1,29 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "68764cdb-0e93-4ece-91d1-56364931b345-1824",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/68764cdb-0e93-4ece-91d1-56364931b345-1824",
+  "name" : "IntersectionJdvDensiteMammaireCisisAndJdvDensiteMammaireCisis",
+  "title" : "Intersection of JDV Densite Mammaire CISIS And JDV Densite Mammaire CISIS",
+  "status" : "active",
+  "date" : "2025-06-11T11:10:42+00:00",
+  "compose" : {
+    "include" : [{
+      "concept" : [{
+        "code" : "MED-039",
+        "display" : "a"
+      },
+      {
+        "code" : "MED-040",
+        "display" : "b"
+      },
+      {
+        "code" : "MED-041",
+        "display" : "c"
+      },
+      {
+        "code" : "MED-042",
+        "display" : "d"
+      }]
+    }]
+  }
+}

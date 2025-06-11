@@ -1,0 +1,31 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "68764cdb-0e93-4ece-91d1-56364931b345-2253",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/68764cdb-0e93-4ece-91d1-56364931b345-2253",
+  "name" : "IntersectionJdvModeSortieObpScmCisisAndJdvModeSortieObpScmCisis",
+  "title" : "Intersection of JDV Mode Sortie Obp Scm CISIS And JDV Mode Sortie Obp Scm CISIS",
+  "status" : "active",
+  "date" : "2025-06-11T11:10:42+00:00",
+  "compose" : {
+    "include" : [{
+      "concept" : [{
+        "code" : "GEN-092.06.09",
+        "display" : "Autre mode de sortie"
+      }]
+    },
+    {
+      "concept" : [{
+        "code" : "419620001",
+        "display" : "mort"
+      },
+      {
+        "code" : "160849004",
+        "display" : "retour au domicile"
+      },
+      {
+        "code" : "107724000",
+        "display" : "transfert du patient"
+      }]
+    }]
+  }
+}

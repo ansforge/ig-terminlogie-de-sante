@@ -1,0 +1,69 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "68764cdb-0e93-4ece-91d1-56364931b345-2040",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/68764cdb-0e93-4ece-91d1-56364931b345-2040",
+  "name" : "IntersectionMediaTypeAndMediaType",
+  "title" : "Intersection of MediaType And MediaType",
+  "status" : "active",
+  "date" : "2025-06-11T11:10:42+00:00",
+  "compose" : {
+    "include" : [{
+      "concept" : [{
+        "code" : "application/dicom",
+        "display" : "DICOM"
+      },
+      {
+        "code" : "application/msword",
+        "display" : "MSWORD"
+      },
+      {
+        "code" : "application/pdf",
+        "display" : "PDF"
+      },
+      {
+        "code" : "audio/basic",
+        "display" : "Basic Audio"
+      },
+      {
+        "code" : "audio/k32adpcm",
+        "display" : "K32ADPCM Audio"
+      },
+      {
+        "code" : "audio/mpeg",
+        "display" : "MPEG audio layer 3 MP3 Audio"
+      },
+      {
+        "code" : "image/gif",
+        "display" : "GIF Image"
+      },
+      {
+        "code" : "image/jpeg",
+        "display" : "JPEG Image"
+      },
+      {
+        "code" : "image/png",
+        "display" : "PNG Image"
+      },
+      {
+        "code" : "image/tiff",
+        "display" : "TIFF Image"
+      },
+      {
+        "code" : "text/html",
+        "display" : "HTML Text"
+      },
+      {
+        "code" : "text/plain",
+        "display" : "Plain Text"
+      },
+      {
+        "code" : "text/rtf",
+        "display" : "RTF Text"
+      },
+      {
+        "code" : "text/xml",
+        "display" : "XML Text"
+      }]
+    }]
+  }
+}

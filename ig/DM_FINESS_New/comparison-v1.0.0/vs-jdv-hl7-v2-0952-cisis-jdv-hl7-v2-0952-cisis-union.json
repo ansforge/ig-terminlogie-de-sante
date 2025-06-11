@@ -1,0 +1,43 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "68764cdb-0e93-4ece-91d1-56364931b345-2000",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/68764cdb-0e93-4ece-91d1-56364931b345-2000",
+  "name" : "UnionConfidentialityAndConfidentiality",
+  "title" : "Union of Confidentiality And Confidentiality",
+  "status" : "active",
+  "date" : "2025-06-11T11:10:42+00:00",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "FR"
+    }]
+  }],
+  "compose" : {
+    "include" : [{
+      "concept" : [{
+        "code" : "L",
+        "display" : "Bas"
+      },
+      {
+        "code" : "M",
+        "display" : "Modéré"
+      },
+      {
+        "code" : "N",
+        "display" : "Normal"
+      },
+      {
+        "code" : "R",
+        "display" : "Restreint"
+      },
+      {
+        "code" : "U",
+        "display" : "Non restreint"
+      },
+      {
+        "code" : "V",
+        "display" : "Très restreint"
+      }]
+    }]
+  }
+}

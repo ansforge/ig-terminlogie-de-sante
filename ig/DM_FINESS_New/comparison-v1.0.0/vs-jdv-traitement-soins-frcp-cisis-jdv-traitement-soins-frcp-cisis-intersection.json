@@ -1,0 +1,55 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "68764cdb-0e93-4ece-91d1-56364931b345-2706",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/68764cdb-0e93-4ece-91d1-56364931b345-2706",
+  "name" : "IntersectionJdvTraitementSoinsFrcpCisisAndJdvTraitementSoinsFrcpCisis",
+  "title" : "Intersection of JDV Traitement Soins Frcp CISIS And JDV Traitement Soins Frcp CISIS",
+  "status" : "active",
+  "date" : "2025-06-11T11:10:42+00:00",
+  "compose" : {
+    "include" : [{
+      "concept" : [{
+        "code" : "C3580",
+        "display" : "métastases osseuses"
+      },
+      {
+        "code" : "C3303",
+        "display" : "douleur"
+      },
+      {
+        "code" : "C15252",
+        "display" : "soins palliatifs"
+      },
+      {
+        "code" : "C63334",
+        "display" : "Radiologie interventionnelle"
+      },
+      {
+        "code" : "C15747",
+        "display" : "soins de support"
+      },
+      {
+        "code" : "C16832",
+        "display" : "oncologie médicale"
+      },
+      {
+        "code" : "C71326",
+        "display" : "préservation de la fertilité"
+      },
+      {
+        "code" : "C7201",
+        "display" : "tumeur rare"
+      }]
+    },
+    {
+      "concept" : [{
+        "code" : "ORG-129",
+        "display" : "Oncogénétique"
+      },
+      {
+        "code" : "ORG-130",
+        "display" : "Oncogériatrie"
+      }]
+    }]
+  }
+}

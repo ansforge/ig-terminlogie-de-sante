@@ -1,0 +1,31 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "68764cdb-0e93-4ece-91d1-56364931b345-1773",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/68764cdb-0e93-4ece-91d1-56364931b345-1773",
+  "name" : "IntersectionJdvComplicationPulmonaireCisisAndJdvComplicationPulmonaireCisis",
+  "title" : "Intersection of JDV Complication Pulmonaire CISIS And JDV Complication Pulmonaire CISIS",
+  "status" : "active",
+  "date" : "2025-06-11T11:10:42+00:00",
+  "compose" : {
+    "include" : [{
+      "concept" : [{
+        "code" : "J22",
+        "display" : "Infection aigüe des voies respiratoires inférieures, sans précision"
+      }]
+    },
+    {
+      "concept" : [{
+        "code" : "MED-511",
+        "display" : "Troubles respiratoires justifiant une ventilation assistée"
+      },
+      {
+        "code" : "MED-505",
+        "display" : "Troubles respiratoires justifiant une VNI"
+      },
+      {
+        "code" : "MED-506",
+        "display" : "Troubles respiratoires justifiant une trachéotomie"
+      }]
+    }]
+  }
+}

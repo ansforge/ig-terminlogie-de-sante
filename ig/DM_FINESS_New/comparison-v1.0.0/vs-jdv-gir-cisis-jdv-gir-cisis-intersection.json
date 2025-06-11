@@ -1,0 +1,37 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "68764cdb-0e93-4ece-91d1-56364931b345-1962",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/68764cdb-0e93-4ece-91d1-56364931b345-1962",
+  "name" : "IntersectionJdvGirCisisAndJdvGirCisis",
+  "title" : "Intersection of JDV Gir CISIS And JDV Gir CISIS",
+  "status" : "active",
+  "date" : "2025-06-11T11:10:42+00:00",
+  "compose" : {
+    "include" : [{
+      "concept" : [{
+        "code" : "MED-339",
+        "display" : "GIR-1"
+      },
+      {
+        "code" : "MED-340",
+        "display" : "GIR-2"
+      },
+      {
+        "code" : "MED-341",
+        "display" : "GIR-3"
+      },
+      {
+        "code" : "MED-342",
+        "display" : "GIR-4"
+      },
+      {
+        "code" : "MED-343",
+        "display" : "GIR-5"
+      },
+      {
+        "code" : "MED-344",
+        "display" : "GIR-6"
+      }]
+    }]
+  }
+}

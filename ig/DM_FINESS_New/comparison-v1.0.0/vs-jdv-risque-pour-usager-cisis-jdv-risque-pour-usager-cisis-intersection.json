@@ -1,0 +1,25 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "68764cdb-0e93-4ece-91d1-56364931b345-2535",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/68764cdb-0e93-4ece-91d1-56364931b345-2535",
+  "name" : "IntersectionJdvRisquePourUsagerCisisAndJdvRisquePourUsagerCisis",
+  "title" : "Intersection of JDV Risque Pour Usager CISIS And JDV Risque Pour Usager CISIS",
+  "status" : "active",
+  "date" : "2025-06-11T11:10:42+00:00",
+  "compose" : {
+    "include" : [{
+      "concept" : [{
+        "code" : "MED-281",
+        "display" : "Membre de la famille porteur du VHB"
+      },
+      {
+        "code" : "MED-282",
+        "display" : "Membre de la famille atteint d’une hépatite A (mais situation très ponctuelle)"
+      },
+      {
+        "code" : "MED-283",
+        "display" : "Facteurs de risque familiaux de tuberculose"
+      }]
+    }]
+  }
+}

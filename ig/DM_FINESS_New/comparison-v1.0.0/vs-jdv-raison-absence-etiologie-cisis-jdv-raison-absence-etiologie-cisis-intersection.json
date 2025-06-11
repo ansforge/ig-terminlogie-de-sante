@@ -1,0 +1,25 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "68764cdb-0e93-4ece-91d1-56364931b345-2433",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/68764cdb-0e93-4ece-91d1-56364931b345-2433",
+  "name" : "IntersectionJdvRaisonAbsenceEtiologieCisisAndJdvRaisonAbsenceEtiologieCisis",
+  "title" : "Intersection of JDV Raison Absence Etiologie CISIS And JDV Raison Absence Etiologie CISIS",
+  "status" : "active",
+  "date" : "2025-06-11T11:10:42+00:00",
+  "compose" : {
+    "include" : [{
+      "concept" : [{
+        "code" : "GEN-160",
+        "display" : "Raison inconnue"
+      },
+      {
+        "code" : "MED-471",
+        "display" : "Sans étiologie"
+      },
+      {
+        "code" : "MED-472",
+        "display" : "Bilan étiologique incomplet"
+      }]
+    }]
+  }
+}

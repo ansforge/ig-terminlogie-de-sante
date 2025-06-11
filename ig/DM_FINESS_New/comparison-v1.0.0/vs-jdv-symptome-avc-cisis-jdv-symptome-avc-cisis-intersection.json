@@ -1,0 +1,31 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "68764cdb-0e93-4ece-91d1-56364931b345-2658",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/68764cdb-0e93-4ece-91d1-56364931b345-2658",
+  "name" : "IntersectionJdvSymptomeAvcCisisAndJdvSymptomeAvcCisis",
+  "title" : "Intersection of JDV Symptome Avc CISIS And JDV Symptome Avc CISIS",
+  "status" : "active",
+  "date" : "2025-06-11T11:10:42+00:00",
+  "compose" : {
+    "include" : [{
+      "concept" : [{
+        "code" : "G25.9",
+        "display" : "Syndrome extrapyramidal et trouble de la motricité, sans précision"
+      },
+      {
+        "code" : "R27.0",
+        "display" : "Ataxie, sans précision"
+      },
+      {
+        "code" : "H53.9",
+        "display" : "Trouble de la vision, sans précision"
+      }]
+    },
+    {
+      "concept" : [{
+        "code" : "85972008",
+        "display" : "trouble sensoriel"
+      }]
+    }]
+  }
+}

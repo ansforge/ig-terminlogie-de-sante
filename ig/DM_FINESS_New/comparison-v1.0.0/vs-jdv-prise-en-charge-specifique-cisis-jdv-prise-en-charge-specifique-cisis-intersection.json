@@ -1,0 +1,21 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "68764cdb-0e93-4ece-91d1-56364931b345-2406",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/68764cdb-0e93-4ece-91d1-56364931b345-2406",
+  "name" : "IntersectionJdvPriseEnChargeSpecifiqueCisisAndJdvPriseEnChargeSpecifiqueCisis",
+  "title" : "Intersection of JDV Prise En Charge Specifique CISIS And JDV Prise En Charge Specifique CISIS",
+  "status" : "active",
+  "date" : "2025-06-11T11:10:42+00:00",
+  "compose" : {
+    "include" : [{
+      "concept" : [{
+        "code" : "ORG-130",
+        "display" : "Oncogériatrie"
+      },
+      {
+        "code" : "ORG-116",
+        "display" : "Pédiatrie"
+      }]
+    }]
+  }
+}

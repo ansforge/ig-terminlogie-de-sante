@@ -1,0 +1,73 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "68764cdb-0e93-4ece-91d1-56364931b345-1649",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/68764cdb-0e93-4ece-91d1-56364931b345-1649",
+  "name" : "UnionJdvAntecedantMedicalCisisAndJdvAntecedantMedicalCisis",
+  "title" : "Union of JDV Antecedant Medical CISIS And JDV Antecedant Medical CISIS",
+  "status" : "active",
+  "date" : "2025-06-11T11:10:42+00:00",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "FR"
+    }]
+  }],
+  "compose" : {
+    "include" : [{
+      "concept" : [{
+        "code" : "I63.9",
+        "display" : "Infarctus cérébral, sans précision"
+      },
+      {
+        "code" : "G45.9",
+        "display" : "Accident ischémique cérébral transitoire, sans précision"
+      },
+      {
+        "code" : "G93.2",
+        "display" : "Hypertension intracrânienne bénigne"
+      },
+      {
+        "code" : "I64",
+        "display" : "Accident vasculaire cérébral, non précisé comme étant hémorragique ou par infarctus"
+      },
+      {
+        "code" : "I60.9",
+        "display" : "Hémorragie sousarachnoïdienne, sans précision"
+      },
+      {
+        "code" : "I21.9",
+        "display" : "Infarctus du myocarde sans précision, prise en charge non précisée"
+      },
+      {
+        "code" : "I20.0",
+        "display" : "Angine de poitrine instable"
+      },
+      {
+        "code" : "I74.3",
+        "display" : "Embolie et thrombose des artères des membres inférieurs"
+      },
+      {
+        "code" : "I20.9",
+        "display" : "Angine de poitrine, sans précision"
+      },
+      {
+        "code" : "I48",
+        "display" : "Fibrillation et flutter auriculaires"
+      },
+      {
+        "code" : "F03",
+        "display" : "Démence, sans précision"
+      },
+      {
+        "code" : "C80",
+        "display" : "Tumeur maligne de siège non précisé"
+      }]
+    },
+    {
+      "concept" : [{
+        "code" : "MED-533",
+        "display" : "Comorbidité"
+      }]
+    }]
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "68764cdb-0e93-4ece-91d1-56364931b345-2153",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/68764cdb-0e93-4ece-91d1-56364931b345-2153",
+  "name" : "UnionJdvLieuAccouchementCisisAndJdvLieuAccouchementCisis",
+  "title" : "Union of JDV Lieu Accouchement CISIS And JDV Lieu Accouchement CISIS",
+  "status" : "active",
+  "date" : "2025-06-11T11:10:42+00:00",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "FR"
+    }]
+  }],
+  "compose" : {
+    "include" : [{
+      "concept" : [{
+        "code" : "GEN-310",
+        "display" : "Maternité"
+      },
+      {
+        "code" : "GEN-092.06.04",
+        "display" : "Autre lieu d'accouchement"
+      }]
+    },
+    {
+      "concept" : [{
+        "code" : "169813005",
+        "display" : "naissance à domicile"
+      }]
+    }]
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "68764cdb-0e93-4ece-91d1-56364931b345-2115",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/68764cdb-0e93-4ece-91d1-56364931b345-2115",
+  "name" : "IntersectionJdvInvestigationRealiseeAunvCisisAndJdvInvestigationRealiseeAunvCisis",
+  "title" : "Intersection of JDV Investigation Realisee Aunv CISIS And JDV Investigation Realisee Aunv CISIS",
+  "status" : "active",
+  "date" : "2025-06-11T11:10:42+00:00",
+  "compose" : {
+    "include" : [{
+      "concept" : [{
+        "code" : "DEQP003",
+        "display" : "ECG"
+      },
+      {
+        "code" : "ACQK001",
+        "display" : "Scannographie du crâne et de son contenu"
+      },
+      {
+        "code" : "ACQN001",
+        "display" : "Remnographie du crâne et de son contenu"
+      },
+      {
+        "code" : "EAQH002",
+        "display" : "Scanographie des vaisseaux encéphaliques"
+      },
+      {
+        "code" : "EAQJ001",
+        "display" : "Remnographie des vaisseaux encéphaliques"
+      }]
+    }]
+  }
+}

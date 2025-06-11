@@ -1,0 +1,33 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "68764cdb-0e93-4ece-91d1-56364931b345-1143",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/68764cdb-0e93-4ece-91d1-56364931b345-1143",
+  "name" : "IntersectionJDV_J20_ChampActivite_RORAndJDV_J20_ChampActivite_ROR",
+  "title" : "Intersection of null And null",
+  "status" : "active",
+  "date" : "2025-06-11T11:10:42+00:00",
+  "compose" : {
+    "include" : [{
+      "concept" : [{
+        "code" : "01",
+        "display" : "Médecine, Chirurgie, Obstétrique (MCO)"
+      },
+      {
+        "code" : "02",
+        "display" : "Soins Médicaux et de réadaptation (SMR)"
+      },
+      {
+        "code" : "03",
+        "display" : "Psychiatrie (PSY)"
+      },
+      {
+        "code" : "04",
+        "display" : "Médico-social (MS)"
+      },
+      {
+        "code" : "05",
+        "display" : "Ville"
+      }]
+    }]
+  }
+}

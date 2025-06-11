@@ -1,0 +1,25 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "68764cdb-0e93-4ece-91d1-56364931b345-1734",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/68764cdb-0e93-4ece-91d1-56364931b345-1734",
+  "name" : "IntersectionJdvClassificationAcr1CisisAndJdvClassificationAcr1Cisis",
+  "title" : "Intersection of JDV Classification Acr 1 CISIS And JDV Classification Acr 1 CISIS",
+  "status" : "active",
+  "date" : "2025-06-11T11:10:42+00:00",
+  "compose" : {
+    "include" : [{
+      "concept" : [{
+        "code" : "MED-048",
+        "display" : "Anormal BI-RADS ACR [0,3,4,5]"
+      },
+      {
+        "code" : "MED-129",
+        "display" : "Normal BI-RADS ACR 1"
+      },
+      {
+        "code" : "MED-130",
+        "display" : "Bénin BI-RADS ACR 2"
+      }]
+    }]
+  }
+}

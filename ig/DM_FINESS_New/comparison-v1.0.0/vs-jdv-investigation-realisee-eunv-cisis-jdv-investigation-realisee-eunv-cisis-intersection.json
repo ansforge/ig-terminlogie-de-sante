@@ -1,0 +1,49 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "68764cdb-0e93-4ece-91d1-56364931b345-2121",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/68764cdb-0e93-4ece-91d1-56364931b345-2121",
+  "name" : "IntersectionJdvInvestigationRealiseeEunvCisisAndJdvInvestigationRealiseeEunvCisis",
+  "title" : "Intersection of JDV Investigation Realisee Eunv CISIS And JDV Investigation Realisee Eunv CISIS",
+  "status" : "active",
+  "date" : "2025-06-11T11:10:42+00:00",
+  "compose" : {
+    "include" : [{
+      "concept" : [{
+        "code" : "DEQP003",
+        "display" : "ECG"
+      },
+      {
+        "code" : "DEQP004",
+        "display" : "Scope"
+      },
+      {
+        "code" : "DEQP005",
+        "display" : "Holter"
+      },
+      {
+        "code" : "DZQM006",
+        "display" : "Echographie transthoracique"
+      },
+      {
+        "code" : "DZQJ001",
+        "display" : "Echographie transoesophagienne"
+      },
+      {
+        "code" : "ACQN001",
+        "display" : "ARM Cervicale"
+      },
+      {
+        "code" : "EBQH006",
+        "display" : "Angiographie cervicale"
+      },
+      {
+        "code" : "EAQM004",
+        "display" : "Echo-Doppler cervical"
+      },
+      {
+        "code" : "EAQM002",
+        "display" : "DTC"
+      }]
+    }]
+  }
+}

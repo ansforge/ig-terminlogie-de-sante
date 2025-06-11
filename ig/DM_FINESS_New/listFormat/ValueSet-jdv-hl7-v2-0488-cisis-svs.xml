@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RetrieveValueSetResponse xmlns="urn:ihe:iti:svs:2008"
+                          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+   <ValueSet dateFin=""
+             dateMaj="20250606103858"
+             dateValid="20250319000000"
+             description="hl7VS-specimenCollectionMethod"
+             displayName="Hl7VSSpecimenCollectionMethod"
+             id="2.16.840.1.113883.21.328"
+             typeFichier="JDV"
+             urlFichier="">
+      <ConceptList>
+         <concept code="FNA" codeSystem="" displayName="Aspiration, Fine Needle"/>
+         <concept code="PNA" codeSystem="" displayName="Arterial puncture"/>
+         <concept code="BIO" codeSystem="" displayName="Biopsy"/>
+         <concept code="BCAE"
+                  codeSystem=""
+                  displayName="Blood Culture, Aerobic Bottle"/>
+         <concept code="BCAN"
+                  codeSystem=""
+                  displayName="Blood Culture, Anaerobic Bottle"/>
+         <concept code="BCPD"
+                  codeSystem=""
+                  displayName="Blood Culture, Pediatric Bottle"/>
+         <concept code="CAP" codeSystem="" displayName="Capillary Specimen"/>
+         <concept code="CATH" codeSystem="" displayName="Catheterized"/>
+         <concept code="EPLA" codeSystem="" displayName="Environmental, Plate"/>
+         <concept code="ESWA" codeSystem="" displayName="Environmental, Swab"/>
+         <concept code="LNA" codeSystem="" displayName="Line, Arterial"/>
+         <concept code="CVP" codeSystem="" displayName="Line, CVP"/>
+         <concept code="LNV" codeSystem="" displayName="Line, Venous"/>
+         <concept code="MARTL" codeSystem="" displayName="Martin-Lewis Agar"/>
+         <concept code="ML11" codeSystem="" displayName="Mod. Martin-Lewis Agar"/>
+         <concept code="PACE" codeSystem="" displayName="Pace, Gen-Probe"/>
+         <concept code="PIN" codeSystem="" displayName="Pinworm Prep"/>
+         <concept code="KOFFP" codeSystem="" displayName="Plate, Cough"/>
+         <concept code="MLP" codeSystem="" displayName="Plate, Martin-Lewis"/>
+         <concept code="NYP" codeSystem="" displayName="Plate, New York City"/>
+         <concept code="TMP" codeSystem="" displayName="Plate, Thayer-Martin"/>
+         <concept code="ANP" codeSystem="" displayName="Plates, Anaerobic"/>
+         <concept code="BAP" codeSystem="" displayName="Plates, Blood Agar"/>
+         <concept code="PRIME" codeSystem="" displayName="Pump Prime"/>
+         <concept code="PUMP" codeSystem="" displayName="Pump Specimen"/>
+         <concept code="QC5" codeSystem="" displayName="Quality Control For Micro"/>
+         <concept code="SCLP" codeSystem="" displayName="Scalp, Fetal Vein"/>
+         <concept code="SCRAPS" codeSystem="" displayName="Scrapings"/>
+         <concept code="SHA" codeSystem="" displayName="Shaving"/>
+         <concept code="SWA" codeSystem="" displayName="Swab"/>
+         <concept code="SWD" codeSystem="" displayName="Swab, Dacron tipped"/>
+         <concept code="WOOD" codeSystem="" displayName="Swab, Wooden Shaft"/>
+         <concept code="TMOT" codeSystem="" displayName="Transport Media,"/>
+         <concept code="TMAN" codeSystem="" displayName="Transport Media, Anaerobic"/>
+         <concept code="TMCH" codeSystem="" displayName="Transport Media, Chalamydia"/>
+         <concept code="TMM4" codeSystem="" displayName="Transport Media, M4"/>
+         <concept code="TMMY" codeSystem="" displayName="Transport Media, Mycoplasma"/>
+         <concept code="TMPV" codeSystem="" displayName="Transport Media, PVA"/>
+         <concept code="TMSC"
+                  codeSystem=""
+                  displayName="Transport Media, Stool Culture"/>
+         <concept code="TMUP" codeSystem="" displayName="Transport Media, Ureaplasma"/>
+         <concept code="TMVI" codeSystem="" displayName="Transport Media, Viral"/>
+         <concept code="VENIP" codeSystem="" displayName="Venipuncture"/>
+      </ConceptList>
+   </ValueSet>
+</RetrieveValueSetResponse>

@@ -1,0 +1,25 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "68764cdb-0e93-4ece-91d1-56364931b345-2172",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/68764cdb-0e93-4ece-91d1-56364931b345-2172",
+  "name" : "IntersectionJdvLocalisationPrelevementCcuCisisAndJdvLocalisationPrelevementCcuCisis",
+  "title" : "Intersection of JDV Localisation Prelevement Ccu CISIS And JDV Localisation Prelevement Ccu CISIS",
+  "status" : "active",
+  "date" : "2025-06-11T11:10:42+00:00",
+  "compose" : {
+    "include" : [{
+      "concept" : [{
+        "code" : "76784001",
+        "display" : "vagin"
+      },
+      {
+        "code" : "36973007",
+        "display" : "endocol utérin"
+      },
+      {
+        "code" : "28349006",
+        "display" : "exocol utérin"
+      }]
+    }]
+  }
+}

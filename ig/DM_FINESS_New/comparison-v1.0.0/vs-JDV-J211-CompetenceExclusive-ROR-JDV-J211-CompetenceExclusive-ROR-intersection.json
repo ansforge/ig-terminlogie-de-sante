@@ -1,0 +1,29 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "68764cdb-0e93-4ece-91d1-56364931b345-1182",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/68764cdb-0e93-4ece-91d1-56364931b345-1182",
+  "name" : "IntersectionJDV_J211_CompetenceExclusive_RORAndJDV_J211_CompetenceExclusive_ROR",
+  "title" : "Intersection of null And null",
+  "status" : "active",
+  "date" : "2025-06-11T11:10:42+00:00",
+  "compose" : {
+    "include" : [{
+      "concept" : [{
+        "code" : "CEX22",
+        "display" : "Gynécologie médicale et Obstétrique (CEX)"
+      },
+      {
+        "code" : "CEX24",
+        "display" : "Gynécologie médicale (CEX)"
+      },
+      {
+        "code" : "CEX26",
+        "display" : "Obstétrique (CEX)"
+      },
+      {
+        "code" : "CEX64",
+        "display" : "Urologie (CEX)"
+      }]
+    }]
+  }
+}

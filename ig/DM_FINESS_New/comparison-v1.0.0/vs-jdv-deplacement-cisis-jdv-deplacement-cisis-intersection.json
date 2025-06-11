@@ -1,0 +1,29 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "68764cdb-0e93-4ece-91d1-56364931b345-1827",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/68764cdb-0e93-4ece-91d1-56364931b345-1827",
+  "name" : "IntersectionJdvDeplacementCisisAndJdvDeplacementCisis",
+  "title" : "Intersection of JDV Deplacement CISIS And JDV Deplacement CISIS",
+  "status" : "active",
+  "date" : "2025-06-11T11:10:42+00:00",
+  "compose" : {
+    "include" : [{
+      "concept" : [{
+        "code" : "161898004",
+        "display" : "chutes"
+      },
+      {
+        "code" : "50239007",
+        "display" : "errance"
+      },
+      {
+        "code" : "248046000",
+        "display" : "fugue"
+      },
+      {
+        "code" : "386423001",
+        "display" : "contention physique"
+      }]
+    }]
+  }
+}

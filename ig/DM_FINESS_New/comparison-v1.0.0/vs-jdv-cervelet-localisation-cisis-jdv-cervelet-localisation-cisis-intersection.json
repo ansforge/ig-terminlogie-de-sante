@@ -1,0 +1,27 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "68764cdb-0e93-4ece-91d1-56364931b345-1719",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/68764cdb-0e93-4ece-91d1-56364931b345-1719",
+  "name" : "IntersectionJdvCerveletLocalisationCisisAndJdvCerveletLocalisationCisis",
+  "title" : "Intersection of JDV Cervelet Localisation CISIS And JDV Cervelet Localisation CISIS",
+  "status" : "active",
+  "date" : "2025-06-11T11:10:42+00:00",
+  "compose" : {
+    "include" : [{
+      "concept" : [{
+        "code" : "MED-493",
+        "display" : "Hémisphérique médial (noyaux)"
+      },
+      {
+        "code" : "MED-494",
+        "display" : "Hémisphérique latéral"
+      }]
+    },
+    {
+      "concept" : [{
+        "code" : "58501004",
+        "display" : "vermis cérebelleux"
+      }]
+    }]
+  }
+}
