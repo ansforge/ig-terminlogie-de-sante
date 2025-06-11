@@ -41951,6 +41951,18 @@
         "valueString" : "CodeSystem"
       }],
       "reference" : {
+        "reference" : "CodeSystem/tre-r278-engagement"
+      },
+      "name" : "Tre R278 Engagement",
+      "description" : "Nomenclature des engagements associés dans FINESS+ aux Personnes morales, aux entités géographique, aux groupements ou à leurs activités",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "CodeSystem"
+      }],
+      "reference" : {
         "reference" : "CodeSystem/tre-r347-activite-sanitaire-diverse-regulee"
       },
       "name" : "Tre R347 Activite Sanitaire Diverse Regulee",

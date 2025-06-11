@@ -1,11 +1,11 @@
 {
   "resourceType" : "CodeSystem",
-  "id" : "6f747092-6ba1-46ce-9c36-120e03b840ab-741",
-  "url" : "http://hl7.org/fhir/comparison/CodeSystem/6f747092-6ba1-46ce-9c36-120e03b840ab-741",
+  "id" : "598d4790-8074-4426-8d0d-a79ff5296634-741",
+  "url" : "http://hl7.org/fhir/comparison/CodeSystem/598d4790-8074-4426-8d0d-a79ff5296634-741",
   "name" : "IntersectionTRE_R89_RegroupementPaysAndTRE_R89_RegroupementPays",
   "title" : "Intersection of null And null",
   "status" : "active",
-  "date" : "2025-06-11T12:46:02+00:00",
+  "date" : "2025-06-11T14:49:30+00:00",
   "property" : [{
     "code" : "dateValid",
     "description" : "date de validité d'un code concept",

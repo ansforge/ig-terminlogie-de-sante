@@ -1,11 +1,11 @@
 {
   "resourceType" : "CodeSystem",
-  "id" : "6f747092-6ba1-46ce-9c36-120e03b840ab-734",
-  "url" : "http://hl7.org/fhir/comparison/CodeSystem/6f747092-6ba1-46ce-9c36-120e03b840ab-734",
+  "id" : "598d4790-8074-4426-8d0d-a79ff5296634-734",
+  "url" : "http://hl7.org/fhir/comparison/CodeSystem/598d4790-8074-4426-8d0d-a79ff5296634-734",
   "name" : "UnionTRE_R87_TypeCarteAndTRE_R87_TypeCarte",
   "title" : "Union of null And null",
   "status" : "active",
-  "date" : "2025-06-11T12:46:02+00:00",
+  "date" : "2025-06-11T14:49:30+00:00",
   "jurisdiction" : [{
     "coding" : [{
       "system" : "urn:iso:std:iso:3166",

@@ -1,11 +1,11 @@
 {
   "resourceType" : "CodeSystem",
-  "id" : "6f747092-6ba1-46ce-9c36-120e03b840ab-381",
-  "url" : "http://hl7.org/fhir/comparison/CodeSystem/6f747092-6ba1-46ce-9c36-120e03b840ab-381",
+  "id" : "598d4790-8074-4426-8d0d-a79ff5296634-381",
+  "url" : "http://hl7.org/fhir/comparison/CodeSystem/598d4790-8074-4426-8d0d-a79ff5296634-381",
   "name" : "IntersectionTRE_R278_FinessConventionAndTRE_R278_FinessConvention",
   "title" : "Intersection of null And null",
   "status" : "active",
-  "date" : "2025-06-11T12:46:02+00:00",
+  "date" : "2025-06-11T14:49:30+00:00",
   "property" : [{
     "code" : "dateValid",
     "description" : "date de validité d'un code concept",
@@ -256,6 +256,7 @@
   {
     "code" : "DIT",
     "display" : "Dispositif Intégré",
+    "definition" : "Cette convention identifie soit les ESMS ex-DITEP soit les ESMS fonctionnant en Dispositif Intégré mais n'entrant pas dans un \"dispositif partenarial\"",
     "designation" : [{
       "language" : "fr-FR",
       "use" : {
@@ -916,6 +917,64 @@
     {
       "code" : "dateMaj",
       "valueDateTime" : "2024-01-26T12:00:00+01:00"
+    }]
+  },
+  {
+    "code" : "MDI",
+    "display" : "Membre du Dispositif Intégré",
+    "definition" : "Cette convention identifie un membre simple (non porteur) du Dispositif Intégré dans le cas d'un dispositif partenarial\"",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "Membre Disp. Int."
+    }],
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2025-01-31T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2025-01-31T12:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2025-01-31T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2025-01-31T12:00:00+01:00"
+    }]
+  },
+  {
+    "code" : "PDI",
+    "display" : "Porteur du Dispositif Intégré",
+    "definition" : "Cette convention identifie le porteur du Dispositif Intégré dans le cas d'un dispositif partenarial\"",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "Porteur Disp. Int."
+    }],
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2025-01-31T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2025-01-31T12:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2025-01-31T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2025-01-31T12:00:00+01:00"
     }]
   }]
 }
