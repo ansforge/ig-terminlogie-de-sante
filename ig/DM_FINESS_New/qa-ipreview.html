@@ -12,6 +12,10 @@
 <code>https://smt-pprod.esante.gouv.fr/terminologie-ncit</code>        </a>
       </li>
       <li>
+        <a href="CodeSystem-tre-r392-type-act-smsse-regulee.html">
+<code>https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r374-nature-activite-smsse-regulee</code>        </a>
+      </li>
+      <li>
         <a href="CodeSystem-tre-r365-etat-objet.html">
 <code>https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r386-macro-etat-objet-administratif</code>        </a>
       </li>
@@ -354,12 +358,17 @@ This material derives from the HL7 Terminology (THO). THO is copyright &copy;198
               </li>
 
               <li>
+                <a href="http://terminology.hl7.org/6.4.0/CodeSystem-v3-ObservationMethod.html">ObservationMethod</a>
+:                 <a href="ValueSet-jdv-hl7-v3-ObservationMethod-cisis.html">ObservationMethod</a>
+              </li>
+
+              <li>
                 <a href="http://terminology.hl7.org/6.4.0/CodeSystem-v3-ObservationValue.html">ObservationValue</a>
 :                 <a href="CodeSystem-terminologie-atc.html">ATC</a>
 ,                 <a href="CodeSystem-terminologie-bdpm.html">BDPM</a>
-                <span onClick="document.getElementById('ips_26').innerHTML = document.getElementById('ips2_26').innerHTML" id="ips_26">
+                <span onClick="document.getElementById('ips_27').innerHTML = document.getElementById('ips2_27').innerHTML" id="ips_27">
 ... <span style="cursor: pointer; border: 1px grey solid; background-color: #fcdcb3; padding-left: 3px; padding-right: 3px; color: black">Show 15 more</span>                </span>
-                <span style="display: none" id="ips2_26">
+                <span style="display: none" id="ips2_27">
 , <a href="CodeSystem-terminologie-ccam.html">CCAM</a>, <a href="CodeSystem-terminologie-cim11-mms.html">CIM11_MMS</a>, <a href="CodeSystem-terminologie-cim-10.html">CIM_10_FR_PMSI</a>, <a href="CodeSystem-terminologie-cisp.html">CISP_2</a>, <a href="CodeSystem-terminologie-cladimed.html">ClaDiMed</a>, <a href="CodeSystem-terminologie-sms.html">Dictionnaire_SMS_Substance_Management_Services_</a>, <a href="CodeSystem-terminologie-emdn.html">EMDN</a>, <a href="ValueSet-jdv-hl7-v3-employmentStatusODH-cisis.html">EmploymentStatusODH</a>, <a href="NamingSystem-v3-loinc.html">LOINC</a>, <a href="CodeSystem-terminologie-nabm.html">NABM</a>, <a href="CodeSystem-terminologie-nuva.html">NUVA</a>, <a href="NamingSystem-Snomed-CT-core.html">Snomed_CT_core_900000000000207008</a>, <a href="CodeSystem-terminologie-standardterms.html">Standard_terms_EDQM</a>, <a href="CodeSystem-TRE-R13-CommuneOM.html">TRE_R13_CommuneOM</a> and <a href="ValueSet-jdv-hl7-v3-WorkScheduleODH-cisis.html">WorkScheduleODH</a>                </span>
               </li>
 
@@ -385,9 +394,9 @@ This material derives from the HL7 Terminology (THO). THO is copyright &copy;198
                 <a href="http://terminology.hl7.org/6.4.0/CodeSystem-v3-RoleCode.html">RoleCode</a>
 :                 <a href="ValueSet-jdv-hl7-v3-CoverageRoleType-cisis.html">CoverageRoleType</a>
 ,                 <a href="ValueSet-jdv-famille-femme-cisis.html">JdvFamilleFemmeCisis</a>
-                <span onClick="document.getElementById('ips_30').innerHTML = document.getElementById('ips2_30').innerHTML" id="ips_30">
+                <span onClick="document.getElementById('ips_31').innerHTML = document.getElementById('ips2_31').innerHTML" id="ips_31">
 ... <span style="cursor: pointer; border: 1px grey solid; background-color: #fcdcb3; padding-left: 3px; padding-right: 3px; color: black">Show 4 more</span>                </span>
-                <span style="display: none" id="ips2_30">
+                <span style="display: none" id="ips2_31">
 , <a href="ValueSet-jdv-famille-id-cisis.html">JdvFamilleIdCisis</a>, <a href="ValueSet-jdv-lien-assure-beneficiaire-cisis.html">JdvLienAssureBeneficiaireCisis</a>, <a href="ValueSet-jdv-hl7-v3-PersonalRelationshipRoleType-cisis.html">PersonalRelationshipRoleType</a> and <a href="ValueSet-jdv-hl7-v3-SpecimenRoleType-cisis.html">SpecimenRoleType</a>                </span>
               </li>
 
@@ -1091,6 +1100,8 @@ This material derives from the HL7 Terminology (THO). THO is copyright &copy;198
 * EntityCode: SpecimenAdditiveEntity
 
 * ObservationInterpretation: JdvIndicateurAnormaliteCisis and ObservationInterpretation
+
+* ObservationMethod: ObservationMethod
 
 * ObservationValue: ATC, BDPM... Show 15 more  , CCAM, CIM11_MMS, CIM_10_FR_PMSI, CISP_2, ClaDiMed, Dictionnaire_SMS_Substance_Management_Services_, EMDN, EmploymentStatusODH, LOINC, NABM, NUVA, Snomed_CT_core_900000000000207008, Standard_terms_EDQM, TRE_R13_CommuneOM and WorkScheduleODH 
 
@@ -11574,7 +11585,7 @@ Include les codes sont définis dans           <a href="http://dicom.nema.org/re
 
     IG &copy; 2020+           <a style="color:var(--footer-hyperlink-text-color)" href="https://esante.gouv.fr">ANS</a>
 .  Package ans.fr.terminologies#0.1.0 based on           <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>
-. Generated           <span title="Wed, Jun 11, 2025 10:57+0000">2025-06-11</span>
+. Generated           <span title="Wed, Jun 11, 2025 12:34+0000">2025-06-11</span>
 
               <br/>
 
@@ -11603,7 +11614,7 @@ Include les codes sont définis dans           <a href="http://dicom.nema.org/re
 
     IG &copy; 2020+           <a style="color:var(--footer-hyperlink-text-color)" href="https://esante.gouv.fr">ANS</a>
 .  Package ans.fr.terminologies#0.1.0 based on           <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>
-. Generated           <span title="Wed, Jun 11, 2025 10:57+0000">2025-06-11</span>
+. Generated           <span title="Wed, Jun 11, 2025 12:34+0000">2025-06-11</span>
 
               <br/>
 

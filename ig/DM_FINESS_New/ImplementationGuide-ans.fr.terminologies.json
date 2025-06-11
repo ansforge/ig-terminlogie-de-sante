@@ -41785,6 +41785,18 @@
         "valueString" : "ValueSet"
       }],
       "reference" : {
+        "reference" : "ValueSet/jdv-hl7-v3-ObservationMethod-cisis"
+      },
+      "name" : "ObservationMethod",
+      "description" : "ObservationMethod",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      }],
+      "reference" : {
         "reference" : "ValueSet/jdv-hl7-v3-ParticipationFunction-cisis"
       },
       "name" : "ParticipationFunction",

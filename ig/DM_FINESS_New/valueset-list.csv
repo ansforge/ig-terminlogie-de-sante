@@ -471,6 +471,7 @@ https://smt.esante.gouv.fr/fhir/ValueSet/jdv-hl7-v3-AdministrativeGender-cisis,2
 https://smt.esante.gouv.fr/fhir/ValueSet/jdv-hl7-v3-CoverageRoleType-cisis,20250606103858,active,"2.16.840.1.113883.1.11.18877",CoverageRoleType,CoverageRoleType,"CoverageRoleType",,"THO (V3)"
 https://smt.esante.gouv.fr/fhir/ValueSet/jdv-hl7-v3-MediaType-cisis,20250606103857,active,"2.16.840.1.113883.1.11.14824",MediaType,MediaType,"MediaType",,"THO (V3)"
 https://smt.esante.gouv.fr/fhir/ValueSet/jdv-hl7-v3-ObservationInterpretation-cisis,20250606103857,active,"2.16.840.1.113883.1.11.78",ObservationInterpretation,ObservationInterpretation,"ObservationInterpretation",,"THO (V3)"
+https://smt.esante.gouv.fr/fhir/ValueSet/jdv-hl7-v3-ObservationMethod-cisis,20250611085200,active,"2.16.840.1.113883.1.11.14079",ObservationMethod,ObservationMethod,"ObservationMethod",,"THO (V3)"
 https://smt.esante.gouv.fr/fhir/ValueSet/jdv-hl7-v3-ParticipationFunction-cisis,20250606103857,active,"2.16.840.1.113883.1.11.10267",ParticipationFunction,ParticipationFunction,"ParticipationFunction",,"THO (V3)"
 https://smt.esante.gouv.fr/fhir/ValueSet/jdv-hl7-v3-ParticipationType-cisis,20250606103858,active,"2.16.840.1.113883.1.11.10901",ParticipationType,ParticipationType,"ParticipationType",,"THO (V3)"
 https://smt.esante.gouv.fr/fhir/ValueSet/jdv-hl7-v3-PersonalRelationshipRoleType-cisis,20250606103857,active,"2.16.840.1.113883.1.11.19563",PersonalRelationshipRoleType,PersonalRelationshipRoleType,"PersonalRelationshipRoleType",,"THO (V3)"

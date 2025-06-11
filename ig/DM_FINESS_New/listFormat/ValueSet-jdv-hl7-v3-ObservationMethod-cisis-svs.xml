@@ -1,0 +1,536 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RetrieveValueSetResponse xmlns="urn:ihe:iti:svs:2008"
+                          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+   <ValueSet dateFin=""
+             dateMaj="20250611085200"
+             dateValid="20100101000000"
+             description="ObservationMethod"
+             displayName="ObservationMethod"
+             id="2.16.840.1.113883.1.11.14079"
+             typeFichier="JDV"
+             urlFichier="">
+      <ConceptList>
+         <concept code="0001" codeSystem="" displayName="Fixation complément"/>
+         <concept code="0002" codeSystem="" displayName="Tomographie axiale"/>
+         <concept code="0003"
+                  codeSystem=""
+                  displayName="Test de haut niveau de résistance aux aminosides sur gélose"/>
+         <concept code="0004" codeSystem="" displayName="Examen macroscopique"/>
+         <concept code="0005" codeSystem="" displayName="Résonnance magnétique"/>
+         <concept code="0006" codeSystem="" displayName="Morphométrie"/>
+         <concept code="0007"
+                  codeSystem=""
+                  displayName="Tomographie par émission de positrons"/>
+         <concept code="0008" codeSystem="" displayName="SAMHSA confirmation"/>
+         <concept code="0009" codeSystem="" displayName="SAMHSA dépistage"/>
+         <concept code="0010" codeSystem="" displayName="Neutralisation sérum"/>
+         <concept code="0011" codeSystem="" displayName="Titrimétrie"/>
+         <concept code="0012" codeSystem="" displayName="Ultrasonographie"/>
+         <concept code="0013" codeSystem="" displayName="Cristallographie Rayon X"/>
+         <concept code="0014" codeSystem="" displayName="Agglutination"/>
+         <concept code="0015"
+                  codeSystem=""
+                  displayName="Agglutination sur plaque tampon acidifié"/>
+         <concept code="0016" codeSystem="" displayName="Agglutination sur carte"/>
+         <concept code="0017" codeSystem="" displayName="Hémagglutination"/>
+         <concept code="0018" codeSystem="" displayName="Inhibition hémagglutination"/>
+         <concept code="0019" codeSystem="" displayName="Agglutination latex"/>
+         <concept code="0020" codeSystem="" displayName="Agglutination plaque"/>
+         <concept code="0021" codeSystem="" displayName="Agglutination rapide"/>
+         <concept code="0022" codeSystem="" displayName="Agglutination érythrocytes"/>
+         <concept code="0023" codeSystem="" displayName="Agglutination,rivanol"/>
+         <concept code="0024" codeSystem="" displayName="Agglutination en tube"/>
+         <concept code="0025" codeSystem="" displayName="Bioanalyse"/>
+         <concept code="0026" codeSystem="" displayName="Inoculation animal"/>
+         <concept code="0027" codeSystem="" displayName="Cytotoxicité"/>
+         <concept code="0030"
+                  codeSystem=""
+                  displayName="Inoculation intracérébrale à la souris"/>
+         <concept code="0031" codeSystem="" displayName="Analyse qualitative"/>
+         <concept code="0032" codeSystem="" displayName="Analyse quantitative"/>
+         <concept code="0033" codeSystem="" displayName="Méthode chimique"/>
+         <concept code="0034"
+                  codeSystem=""
+                  displayName="Test chimique d'absorption de lumière différentielle"/>
+         <concept code="0037" codeSystem="" displayName="Test sur bandelette"/>
+         <concept code="0038" codeSystem="" displayName="Chromatographie"/>
+         <concept code="0039" codeSystem="" displayName="Chromatographie d'affinité"/>
+         <concept code="0040"
+                  codeSystem=""
+                  displayName="Chromatographie phase gazeuse liquide"/>
+         <concept code="0041"
+                  codeSystem=""
+                  displayName="Chromatographie liquide haute pression"/>
+         <concept code="0042" codeSystem="" displayName="Chromatographie liquide"/>
+         <concept code="0043"
+                  codeSystem=""
+                  displayName="Chromatographie d'affinité à la protéine A"/>
+         <concept code="0044" codeSystem="" displayName="Coagulation"/>
+         <concept code="0045"
+                  codeSystem=""
+                  displayName="Temps de coagulation en tube"/>
+         <concept code="0046"
+                  codeSystem=""
+                  displayName="Coagulation induite par reptilase en tube"/>
+         <concept code="0047" codeSystem="" displayName="Comptage automatisé"/>
+         <concept code="0048" codeSystem="" displayName="Comptage manuel"/>
+         <concept code="0049"
+                  codeSystem=""
+                  displayName="Comptage plaquettaire de Rees-Ecker"/>
+         <concept code="0050" codeSystem="" displayName="Culture aérobie"/>
+         <concept code="0051" codeSystem="" displayName="Culture anaérobie"/>
+         <concept code="0052"
+                  codeSystem=""
+                  displayName="Culture sur embryon de poulet"/>
+         <concept code="0053"
+                  codeSystem=""
+                  displayName="Enrichissement secondaire retardé"/>
+         <concept code="0054" codeSystem="" displayName="Culture microaérophile"/>
+         <concept code="0061"
+                  codeSystem=""
+                  displayName="Culture cellulaire somatique"/>
+         <concept code="0062" codeSystem="" displayName="Diffusion gel Agar"/>
+         <concept code="0063" codeSystem="" displayName="Immunodiffusion"/>
+         <concept code="0064" codeSystem="" displayName="Électrophorèse"/>
+         <concept code="0065" codeSystem="" displayName="Électrophorèse gel agarose"/>
+         <concept code="0066" codeSystem="" displayName="Électrophorèse citrate agar"/>
+         <concept code="0067" codeSystem="" displayName="Immunoélectrophorèse"/>
+         <concept code="0068"
+                  codeSystem=""
+                  displayName="Électrophorèse sur gel de polyacrylamide"/>
+         <concept code="0069"
+                  codeSystem=""
+                  displayName="Électrophorèse sur gel d'amidon"/>
+         <concept code="0070" codeSystem="" displayName="ELISA"/>
+         <concept code="0071"
+                  codeSystem=""
+                  displayName="ELISA avec captude d'antigène"/>
+         <concept code="0072"
+                  codeSystem=""
+                  displayName="ELISA avec complexe avidine biotine péroxydase"/>
+         <concept code="0073" codeSystem="" displayName="ELISA avec cinétique"/>
+         <concept code="0074"
+                  codeSystem=""
+                  displayName="ELISA avec péroxydase-anti-péroxydase"/>
+         <concept code="0075"
+                  codeSystem=""
+                  displayName="Identification par galerie API 20 Strep"/>
+         <concept code="0076"
+                  codeSystem=""
+                  displayName="Identification par galerie API 20A"/>
+         <concept code="0077"
+                  codeSystem=""
+                  displayName="Identification par galerie API 20C AUX"/>
+         <concept code="0078"
+                  codeSystem=""
+                  displayName="Identification par galerie API 20E"/>
+         <concept code="0079"
+                  codeSystem=""
+                  displayName="Identification par galerie API 20NE"/>
+         <concept code="0080"
+                  codeSystem=""
+                  displayName="Identification par galerie API 50 CH"/>
+         <concept code="0081"
+                  codeSystem=""
+                  displayName="Identification par galerie API An-IDENT"/>
+         <concept code="0082"
+                  codeSystem=""
+                  displayName="Identification par galerie API Coryne"/>
+         <concept code="0083"
+                  codeSystem=""
+                  displayName="Identification par galerie API Rapid 20E"/>
+         <concept code="0084"
+                  codeSystem=""
+                  displayName="Identification par galerie API Staph"/>
+         <concept code="0085"
+                  codeSystem=""
+                  displayName="Identification par galerie API 20 Strep"/>
+         <concept code="0086" codeSystem="" displayName="Identification bactérienne"/>
+         <concept code="0087"
+                  codeSystem=""
+                  displayName="Identification par mini VIDAS"/>
+         <concept code="0088"
+                  codeSystem=""
+                  displayName="Identification par lysotypie"/>
+         <concept code="0089"
+                  codeSystem=""
+                  displayName="Identification par galerie QuadFERM+"/>
+         <concept code="0090"
+                  codeSystem=""
+                  displayName="Identification par galerie RAPIDEC Staph"/>
+         <concept code="0091"
+                  codeSystem=""
+                  displayName="Identification par agglutination latex Staphaurex"/>
+         <concept code="0092" codeSystem="" displayName="Identification par VIDAS"/>
+         <concept code="0093" codeSystem="" displayName="Identification par VITEK"/>
+         <concept code="0094" codeSystem="" displayName="Identification par VITEK 2"/>
+         <concept code="0095" codeSystem="" displayName="Coloration immune"/>
+         <concept code="0096" codeSystem="" displayName="Immunofluorescence directe"/>
+         <concept code="0097"
+                  codeSystem=""
+                  displayName="Immunofluorescence indirecte"/>
+         <concept code="0098"
+                  codeSystem=""
+                  displayName="Immunopéroxydase (complexe avidine-Biotine)"/>
+         <concept code="0099"
+                  codeSystem=""
+                  displayName="Immunopéroxydase (complexe péroxydase-antipéroxydase)"/>
+         <concept code="0100"
+                  codeSystem=""
+                  displayName="Immunopéroxydase (complexe Protéine A-péroxydase)"/>
+         <concept code="0101" codeSystem="" displayName="Immunoanalyse"/>
+         <concept code="0102"
+                  codeSystem=""
+                  displayName="Immunoanalyse qualitative à plusieurs étapes"/>
+         <concept code="0103"
+                  codeSystem=""
+                  displayName="Immunoanalyse qualitative à une étape"/>
+         <concept code="0104" codeSystem="" displayName="Radioimmunologie"/>
+         <concept code="0105"
+                  codeSystem=""
+                  displayName="Immunoanalyse semi-quantitative à plusieurs étapes"/>
+         <concept code="0106"
+                  codeSystem=""
+                  displayName="Immunoanalyse semi-quantitative à une étape"/>
+         <concept code="0107" codeSystem="" displayName="Microscopie"/>
+         <concept code="0108" codeSystem="" displayName="Microscopie fond noir"/>
+         <concept code="0109" codeSystem="" displayName="Microscopie électronique"/>
+         <concept code="0110"
+                  codeSystem=""
+                  displayName="Microscopie électronique, Tomographie numérique"/>
+         <concept code="0111"
+                  codeSystem=""
+                  displayName="Microscopie électronique en contraste de phase"/>
+         <concept code="0112"
+                  codeSystem=""
+                  displayName="Microscopie électronique sur section épaisse"/>
+         <concept code="0113"
+                  codeSystem=""
+                  displayName="Microscopie électronique sur section fine"/>
+         <concept code="0114"
+                  codeSystem=""
+                  displayName="Microscvopie en lumière directe"/>
+         <concept code="0115" codeSystem="" displayName="Microscopie à polarisation"/>
+         <concept code="0116"
+                  codeSystem=""
+                  displayName="Microscopie électronique à balayage"/>
+         <concept code="0117"
+                  codeSystem=""
+                  displayName="Microscopie électronique à transmission"/>
+         <concept code="0120" codeSystem="" displayName="ADN branché"/>
+         <concept code="0122" codeSystem="" displayName="Immunoblot"/>
+         <concept code="0123"
+                  codeSystem=""
+                  displayName="Hybridation moléculaire in situ"/>
+         <concept code="0126" codeSystem="" displayName="Sonde acide nucléique"/>
+         <concept code="0128"
+                  codeSystem=""
+                  displayName="Sonde acide nucléique avec amplification"/>
+         <concept code="0129"
+                  codeSystem=""
+                  displayName="Sonde acide nucléique avec amplification ciblée"/>
+         <concept code="0130" codeSystem="" displayName="Transcription inverse"/>
+         <concept code="0131"
+                  codeSystem=""
+                  displayName="Séquençage d'acides nucléiques"/>
+         <concept code="0132" codeSystem="" displayName="PCR"/>
+         <concept code="0134" codeSystem="" displayName="RFLP"/>
+         <concept code="0135" codeSystem="" displayName="Southern-blot"/>
+         <concept code="0138" codeSystem="" displayName="Western-Blot"/>
+         <concept code="0139" codeSystem="" displayName="Floculation"/>
+         <concept code="0140" codeSystem="" displayName="Immunoprécipitation"/>
+         <concept code="0141" codeSystem="" displayName="Test à l'anneau de lait"/>
+         <concept code="0142" codeSystem="" displayName="Précipitine"/>
+         <concept code="0143" codeSystem="" displayName="Coloration acide rapide"/>
+         <concept code="0144"
+                  codeSystem=""
+                  displayName="Coloration acide rapide/fluorochrome"/>
+         <concept code="0145"
+                  codeSystem=""
+                  displayName="Coloration acide rapide Kinyoun"/>
+         <concept code="0146"
+                  codeSystem=""
+                  displayName="Coloration acide Ziehl-Neelsen"/>
+         <concept code="0147"
+                  codeSystem=""
+                  displayName="Coloration phosphatase acide"/>
+         <concept code="0148" codeSystem="" displayName="Coloration acridine orange"/>
+         <concept code="0149"
+                  codeSystem=""
+                  displayName="Coloration orange brillant KH"/>
+         <concept code="0150" codeSystem="" displayName="Coloration rouge alizarine"/>
+         <concept code="0151" codeSystem="" displayName="Coloration bleu alcian"/>
+         <concept code="0152"
+                  codeSystem=""
+                  displayName="Coloration bleu alcian+acide périodique-Schiff"/>
+         <concept code="0153" codeSystem="" displayName="Coloration argentaffine"/>
+         <concept code="0154"
+                  codeSystem=""
+                  displayName="Coloration argent argentaffine"/>
+         <concept code="0155" codeSystem="" displayName="Coloration azur-éosine"/>
+         <concept code="0156" codeSystem="" displayName="Coloration fuchsine basique"/>
+         <concept code="0157" codeSystem="" displayName="Coloration Bennhold"/>
+         <concept code="0158"
+                  codeSystem=""
+                  displayName="Coloration rouge Congo/Bennhold"/>
+         <concept code="0159" codeSystem="" displayName="Coloration Bielschowsky"/>
+         <concept code="0160"
+                  codeSystem=""
+                  displayName="Coloration Argent/Bielschowsky"/>
+         <concept code="0161" codeSystem="" displayName="Décoloration"/>
+         <concept code="0162" codeSystem="" displayName="Coloration Bodian"/>
+         <concept code="0163" codeSystem="" displayName="Coloration Brown et Brenn"/>
+         <concept code="0164"
+                  codeSystem=""
+                  displayName="Coloration butyrate estérase"/>
+         <concept code="0165"
+                  codeSystem=""
+                  displayName="Préparation calcofluor blanc"/>
+         <concept code="0166" codeSystem="" displayName="Coloration carbol fuchsine"/>
+         <concept code="0167" codeSystem="" displayName="Coloration carmin"/>
+         <concept code="0168" codeSystem="" displayName="Coloration Churukian-Schenk"/>
+         <concept code="0169" codeSystem="" displayName="Coloration rouge Congo"/>
+         <concept code="0170"
+                  codeSystem=""
+                  displayName="Coloration violet de crésyl acétate"/>
+         <concept code="0171" codeSystem="" displayName="Coloration crystal violet"/>
+         <concept code="0172" codeSystem="" displayName="Coloration de Galantha"/>
+         <concept code="0173"
+                  codeSystem=""
+                  displayName="Coloration de Dieterle par imprégnation argentique"/>
+         <concept code="0174" codeSystem="" displayName="Coloration Fite-Faraco"/>
+         <concept code="0175" codeSystem="" displayName="Coloration Fontana-Masson"/>
+         <concept code="0176" codeSystem="" displayName="Coloration Fouchet"/>
+         <concept code="0177" codeSystem="" displayName="Coloration Gomori"/>
+         <concept code="0178"
+                  codeSystem=""
+                  displayName="Coloration méthénamine argent Gomori"/>
+         <concept code="0179"
+                  codeSystem=""
+                  displayName="Coloration trichrome Gomori-Wheatly"/>
+         <concept code="0180" codeSystem="" displayName="Coloration Gridley"/>
+         <concept code="0181" codeSystem="" displayName="Coloration argent Grimelius"/>
+         <concept code="0182" codeSystem="" displayName="Coloration de Grocott"/>
+         <concept code="0183"
+                  codeSystem=""
+                  displayName="Coloration méthénamine argent Grocott"/>
+         <concept code="0184"
+                  codeSystem=""
+                  displayName="Coloration à l'oxyde ferrique colloïdale de Hale"/>
+         <concept code="0185"
+                  codeSystem=""
+                  displayName="Coloration au fer colloïdale de Hale"/>
+         <concept code="0186" codeSystem="" displayName="Coloration Hansel"/>
+         <concept code="0187"
+                  codeSystem=""
+                  displayName="Coloration hématoxylline Harris+éosine"/>
+         <concept code="0188"
+                  codeSystem=""
+                  displayName="Coloration hématoxylline+éosine"/>
+         <concept code="0189" codeSystem="" displayName="Coloration Highman"/>
+         <concept code="0190" codeSystem="" displayName="Coloration Holzer"/>
+         <concept code="0191"
+                  codeSystem=""
+                  displayName="Coloration fer hématoxylline"/>
+         <concept code="0192" codeSystem="" displayName="Coloration Jones"/>
+         <concept code="0193"
+                  codeSystem=""
+                  displayName="Coloration méthénamine argent Jones"/>
+         <concept code="0194" codeSystem="" displayName="Coloration Kossa"/>
+         <concept code="0195"
+                  codeSystem=""
+                  displayName="Coloration Lawson-Van Gieson"/>
+         <concept code="0196"
+                  codeSystem=""
+                  displayName="Coloration bleu de méthylène Loeffler"/>
+         <concept code="0197"
+                  codeSystem=""
+                  displayName="Coloration Luxol bleu au violet crésyl"/>
+         <concept code="0198"
+                  codeSystem=""
+                  displayName="Coloration Luxol bleu à l'acide périodique-Schiff"/>
+         <concept code="0199"
+                  codeSystem=""
+                  displayName="Coloration tétrachrome MacNeal"/>
+         <concept code="0200"
+                  codeSystem=""
+                  displayName="Coloration Mallory-Heidenhain"/>
+         <concept code="0201" codeSystem="" displayName="Coloration trichrome Masson"/>
+         <concept code="0202"
+                  codeSystem=""
+                  displayName="Coloration Mayer mucicarmine"/>
+         <concept code="0203"
+                  codeSystem=""
+                  displayName="Coloration Mayer hématoxyline éosine"/>
+         <concept code="0204"
+                  codeSystem=""
+                  displayName="Coloration May-Grunwald Giemsa"/>
+         <concept code="0205"
+                  codeSystem=""
+                  displayName="Coloration au vert de méthyl"/>
+         <concept code="0206"
+                  codeSystem=""
+                  displayName="Coloration au vert de méthyl pyronine"/>
+         <concept code="0207"
+                  codeSystem=""
+                  displayName="Coloration trichrome Gomori-Wheatley"/>
+         <concept code="0208"
+                  codeSystem=""
+                  displayName="Coloration trichrome Masson modifié"/>
+         <concept code="0209"
+                  codeSystem=""
+                  displayName="Coloration trichrome modifié"/>
+         <concept code="0210"
+                  codeSystem=""
+                  displayName="Coloration pentachrome Movat"/>
+         <concept code="0211" codeSystem="" displayName="Coloration mucicarmine"/>
+         <concept code="0212" codeSystem="" displayName="Coloration rouge neutre"/>
+         <concept code="0213" codeSystem="" displayName="Coloration bleu nuit"/>
+         <concept code="0214"
+                  codeSystem=""
+                  displayName="Coloration estérase non spécifique"/>
+         <concept code="0215" codeSystem="" displayName="Coloration huile rouge O"/>
+         <concept code="0216" codeSystem="" displayName="Coloration orcéine"/>
+         <concept code="0217" codeSystem="" displayName="Coloration de Perls"/>
+         <concept code="0218"
+                  codeSystem=""
+                  displayName="Coloration hématoxyline phosphotungstique"/>
+         <concept code="0219"
+                  codeSystem=""
+                  displayName="Coloration ferrocyanure de potassium"/>
+         <concept code="0220" codeSystem="" displayName="Coloration bleu de Prusse"/>
+         <concept code="0221"
+                  codeSystem=""
+                  displayName="Coloration Bennhold modifiée"/>
+         <concept code="0222"
+                  codeSystem=""
+                  displayName="Coloration quinacrine fluorescente"/>
+         <concept code="0223" codeSystem="" displayName="Coloration réticuline"/>
+         <concept code="0224" codeSystem="" displayName="Coloration rhodamine"/>
+         <concept code="0225" codeSystem="" displayName="Coloration safranée"/>
+         <concept code="0226" codeSystem="" displayName="Coloration Schmorl"/>
+         <concept code="0227" codeSystem="" displayName="Coloration Sevier-Munger"/>
+         <concept code="0228" codeSystem="" displayName="Coloration argentique"/>
+         <concept code="0229"
+                  codeSystem=""
+                  displayName="Coloration estérase spécifique (Butyrate estérase)"/>
+         <concept code="0230" codeSystem="" displayName="Coloration Steiner"/>
+         <concept code="0231" codeSystem="" displayName="Coloration Soudan III"/>
+         <concept code="0232" codeSystem="" displayName="Coloration Soudan IV"/>
+         <concept code="0233"
+                  codeSystem=""
+                  displayName="Coloration bleu alcian sulfaté"/>
+         <concept code="0234" codeSystem="" displayName="Coloration supravitale"/>
+         <concept code="0235" codeSystem="" displayName="Coloration thioflavine-S"/>
+         <concept code="0236" codeSystem="" displayName="Coloration Giemsa 3µ"/>
+         <concept code="0237" codeSystem="" displayName="Coloration Vassar-Culling"/>
+         <concept code="0238" codeSystem="" displayName="Coloration vitale"/>
+         <concept code="0239" codeSystem="" displayName="Coloration Von Kossa"/>
+         <concept code="0240"
+                  codeSystem=""
+                  displayName="Antibiogramme méthode par diffusion"/>
+         <concept code="0241"
+                  codeSystem=""
+                  displayName="Antibiogramme méthode par automate BACTEC"/>
+         <concept code="0242"
+                  codeSystem=""
+                  displayName="Antibiogramme méthode par dilution"/>
+         <concept code="0243"
+                  codeSystem=""
+                  displayName="Concentration minimale bactéricide (CMB) par macrodilution (tube)"/>
+         <concept code="0244"
+                  codeSystem=""
+                  displayName="Concentration minimale bactéricide (CMB) par microdilution (plaque)"/>
+         <concept code="0245"
+                  codeSystem=""
+                  displayName="Concentration minimale inhibitrice (CMI) par macrodilution (tube)"/>
+         <concept code="0246"
+                  codeSystem=""
+                  displayName="Concentration minimale inhibitrice (CMI) par microdilution (plaque)"/>
+         <concept code="0247" codeSystem="" displayName="Turbidimétrie"/>
+         <concept code="0248" codeSystem="" displayName="Réfractométrie"/>
+         <concept code="0249"
+                  codeSystem=""
+                  displayName="Chromatographie couche mince"/>
+         <concept code="0250" codeSystem="" displayName="EMIT"/>
+         <concept code="0251" codeSystem="" displayName="Cytométrie de flux"/>
+         <concept code="0252"
+                  codeSystem=""
+                  displayName="Immunodiffusion radiale (RID)"/>
+         <concept code="0253" codeSystem="" displayName="PFIA"/>
+         <concept code="0254" codeSystem="" displayName="Immunofixation"/>
+         <concept code="0255" codeSystem="" displayName="Dialyse à l'équilibre"/>
+         <concept code="0256"
+                  codeSystem=""
+                  displayName="Elution acide de Kleihauer-Betke"/>
+         <concept code="0257"
+                  codeSystem=""
+                  displayName="Immunofluorescence anti-complément (ACIF)"/>
+         <concept code="0258"
+                  codeSystem=""
+                  displayName="Chromatographie phase gazeuse/Spectroscopie de masse (GC/MS)"/>
+         <concept code="0259" codeSystem="" displayName="Néphélométrie"/>
+         <concept code="0261"
+                  codeSystem=""
+                  displayName="Test de micro-lymphocytotoxicité"/>
+         <concept code="0262" codeSystem="" displayName="Spectrophotométrie"/>
+         <concept code="0263"
+                  codeSystem=""
+                  displayName="Spectrophotométrie d'absorption atomique (SAA)"/>
+         <concept code="0264" codeSystem="" displayName="Electrode ionique sélective"/>
+         <concept code="0265"
+                  codeSystem=""
+                  displayName="Chromatographie phase gazeuse (CG)"/>
+         <concept code="0266"
+                  codeSystem=""
+                  displayName="Isoélectrofocalisation (IEF)"/>
+         <concept code="0267" codeSystem="" displayName="Chimioluminescence"/>
+         <concept code="0268" codeSystem="" displayName="MEIA"/>
+         <concept code="0269"
+                  codeSystem=""
+                  displayName="Spectrométrie de masse à plasma à couplage inductif (ICP/MS)"/>
+         <concept code="0270" codeSystem="" displayName="IRMA"/>
+         <concept code="0271"
+                  codeSystem=""
+                  displayName="Coagulation par détection optique du caillot"/>
+         <concept code="0272"
+                  codeSystem=""
+                  displayName="Minimum Inhibitory Concentration"/>
+         <concept code="0273"
+                  codeSystem=""
+                  displayName="Viral Genotype Susceptibility"/>
+         <concept code="0274"
+                  codeSystem=""
+                  displayName="Viral Phenotype Susceptibility"/>
+         <concept code="0275" codeSystem="" displayName="Gradient Strip"/>
+         <concept code="0275a"
+                  codeSystem=""
+                  displayName="Minimum Lethal Concentration (MLC)"/>
+         <concept code="0276"
+                  codeSystem=""
+                  displayName="Slow Mycobacteria Susceptibility"/>
+         <concept code="0277" codeSystem="" displayName="Serum bactericidal titer"/>
+         <concept code="0278" codeSystem="" displayName="Agar screen"/>
+         <concept code="0279" codeSystem="" displayName="Disk induction"/>
+         <concept code="0280" codeSystem="" displayName="Susceptibility Testing"/>
+         <concept code="ALGM" codeSystem="" displayName="Algorithme"/>
+         <concept code="BYCL"
+                  codeSystem=""
+                  displayName="Analyse stastistique Bayésienne"/>
+         <concept code="GINT" codeSystem="" displayName="introspection globale"/>
+         <concept code="PCR" codeSystem="" displayName="PCR"/>
+         <concept code="VDOC"
+                  codeSystem=""
+                  displayName="Vérification à partir d'un document"/>
+         <concept code="VREG"
+                  codeSystem=""
+                  displayName="Vérification par requête électronique"/>
+         <concept code="VTOKEN"
+                  codeSystem=""
+                  displayName="Vérification au moyen d'un jeton électronique"/>
+         <concept code="VVOICE"
+                  codeSystem=""
+                  displayName="Vérification par voie orale"/>
+      </ConceptList>
+   </ValueSet>
+</RetrieveValueSetResponse>

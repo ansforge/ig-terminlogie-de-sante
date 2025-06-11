@@ -32127,6 +32127,17 @@
         <valueString value="ValueSet"/>
       </extension>
       <reference>
+        <reference value="ValueSet/jdv-hl7-v3-ObservationMethod-cisis"/>
+      </reference>
+      <name value="ObservationMethod"/>
+      <description value="ObservationMethod"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
         <reference value="ValueSet/jdv-hl7-v3-ParticipationFunction-cisis"/>
       </reference>
       <name value="ParticipationFunction"/>

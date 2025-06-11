@@ -58232,6 +58232,24 @@
          ]
        ] ) ;
        fhir:reference [
+         fhir:link <https://interop.esante.gouv.fr/terminologies/ValueSet/jdv-hl7-v3-ObservationMethod-cisis> ;
+         fhir:reference [ fhir:v "ValueSet/jdv-hl7-v3-ObservationMethod-cisis" ]
+       ] ;
+       fhir:name [ fhir:v "ObservationMethod" ] ;
+       fhir:description [ fhir:v "ObservationMethod" ] ;
+       fhir:example [
+         a fhir:boolean ;
+         fhir:v false
+       ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [
+           a fhir:string ;
+           fhir:v "ValueSet"
+         ]
+       ] ) ;
+       fhir:reference [
          fhir:link <https://interop.esante.gouv.fr/terminologies/ValueSet/jdv-hl7-v3-ParticipationFunction-cisis> ;
          fhir:reference [ fhir:v "ValueSet/jdv-hl7-v3-ParticipationFunction-cisis" ]
        ] ;

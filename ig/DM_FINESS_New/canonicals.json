@@ -6250,6 +6250,14 @@
     "oids" : ["2.16.840.1.113883.1.11.78"]
   },
   {
+    "id" : "jdv-hl7-v3-ObservationMethod-cisis",
+    "type" : "ValueSet",
+    "url" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-hl7-v3-ObservationMethod-cisis",
+    "version" : "20250611085200",
+    "name" : "ObservationMethod",
+    "oids" : ["2.16.840.1.113883.1.11.14079"]
+  },
+  {
     "id" : "jdv-hl7-v3-ParticipationFunction-cisis",
     "type" : "ValueSet",
     "url" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-hl7-v3-ParticipationFunction-cisis",
