@@ -31,20 +31,20 @@ Description: "Nomenclature des états élémentaires d'un objet du MOS organisé
 * ^property[=].type = #dateTime
 * ^property[+].code = #status
 * ^property[=].uri = "http://hl7.org/fhir/concept-properties#status"
-* ^property[=].description = "Statut d'un code concept"
+* ^property[=].description = "A code that indicates the status of the concept. Typical values are active, experimental, deprecated, and retired"
 * ^property[=].type = #code
 * ^property[+].code = #deprecationDate
 * ^property[=].uri = "http://hl7.org/fhir/concept-properties#deprecationDate"
-* ^property[=].description = "Date de dépréciation du code"
+* ^property[=].description = "The date at which a concept was deprecated. Concepts that are deprecated but not inactive can still be used, but their use is discouraged, and they should be expected to be made inactive in a future release. Property type is dateTime. Note that the status property may also be used to indicate that a concept is deprecated"
 * ^property[=].type = #dateTime
 * ^property[+].code = #retirementDate
 * ^property[=].uri = "http://hl7.org/fhir/concept-properties#retirementDate"
-* ^property[=].description = "Date de retrait du code"
+* ^property[=].description = "The date at which a concept was retired"
 * ^property[=].type = #dateTime
 * ^property[+].code = #macroEtatAdministratif
-//* ^property[=].uri = "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r386-macro-etat-objet-administratif"
-* ^property[=].description = "Macro-etat des structures FINESS qui dérivent de l'état de l'objet. Permet de distinguer les structures actives de celles inactives."
-* ^property[=].type = #code
+* ^property[=].uri = "https://smt.esante.gouv.fr/fhir/concept-properties#macroEtatAdministratif"
+* ^property[=].description = "Macro-état administratif (actif ou inactif) du code concept"
+* ^property[=].type = #Coding
 * #001 "Entrée dans le champ FINESS"
 * #001 ^property[0].code = #dateValid
 * #001 ^property[=].valueDateTime = "1900-01-01T00:00:00+01:00"
@@ -53,7 +53,9 @@ Description: "Nomenclature des états élémentaires d'un objet du MOS organisé
 * #001 ^property[+].code = #status
 * #001 ^property[=].valueCode = #active
 * #001 ^property[+].code = #macroEtatAdministratif
-* #001 ^property[=].valueCode = #A
+* #001 ^property[=].valueCoding.system = "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r386-macro-etat-objet-administratif"
+* #001 ^property[=].valueCoding.code = #A
+* #001 ^property[=].valueCoding.display = "Actif"
 * #002 "Sortie du champ FINESS"
 * #002 ^property[0].code = #dateValid
 * #002 ^property[=].valueDateTime = "1900-01-01T00:00:00+01:00"
@@ -62,7 +64,9 @@ Description: "Nomenclature des états élémentaires d'un objet du MOS organisé
 * #002 ^property[+].code = #status
 * #002 ^property[=].valueCode = #active
 * #002 ^property[+].code = #macroEtatAdministratif
-* #002 ^property[=].valueCode = #I
+* #002 ^property[=].valueCoding.system = "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r386-macro-etat-objet-administratif"
+* #002 ^property[=].valueCoding.code = #I
+* #002 ^property[=].valueCoding.display = "Inactif"
 * #003 "Créée / immatriculée"
 * #003 ^designation.language = #fr-FR
 * #003 ^designation.use.system = "http://snomed.info/sct"
@@ -75,7 +79,9 @@ Description: "Nomenclature des états élémentaires d'un objet du MOS organisé
 * #003 ^property[+].code = #status
 * #003 ^property[=].valueCode = #active
 * #003 ^property[+].code = #macroEtatAdministratif
-* #003 ^property[=].valueCode = #A
+* #003 ^property[=].valueCoding.system = "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r386-macro-etat-objet-administratif"
+* #003 ^property[=].valueCoding.code = #A
+* #003 ^property[=].valueCoding.display = "Actif"
 * #004 "Cessée"
 * #004 ^property[0].code = #dateValid
 * #004 ^property[=].valueDateTime = "1900-01-01T00:00:00+01:00"
@@ -84,7 +90,9 @@ Description: "Nomenclature des états élémentaires d'un objet du MOS organisé
 * #004 ^property[+].code = #status
 * #004 ^property[=].valueCode = #active
 * #004 ^property[+].code = #macroEtatAdministratif
-* #004 ^property[=].valueCode = #I
+* #004 ^property[=].valueCoding.system = "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r386-macro-etat-objet-administratif"
+* #004 ^property[=].valueCoding.code = #I
+* #004 ^property[=].valueCoding.display = "Inactif"
 * #005 "Fermée"
 * #005 ^property[0].code = #dateValid
 * #005 ^property[=].valueDateTime = "1900-01-01T00:00:00+01:00"
@@ -93,7 +101,9 @@ Description: "Nomenclature des états élémentaires d'un objet du MOS organisé
 * #005 ^property[+].code = #status
 * #005 ^property[=].valueCode = #active
 * #005 ^property[+].code = #macroEtatAdministratif
-* #005 ^property[=].valueCode = #I
+* #005 ^property[=].valueCoding.system = "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r386-macro-etat-objet-administratif"
+* #005 ^property[=].valueCoding.code = #I
+* #005 ^property[=].valueCoding.display = "Inactif"
 * #007 "Première autorisation de l'EGE"
 * #007 ^property[0].code = #dateValid
 * #007 ^property[=].valueDateTime = "1900-01-01T00:00:00+01:00"
@@ -102,7 +112,9 @@ Description: "Nomenclature des états élémentaires d'un objet du MOS organisé
 * #007 ^property[+].code = #status
 * #007 ^property[=].valueCode = #active
 * #007 ^property[+].code = #macroEtatAdministratif
-* #007 ^property[=].valueCode = #A
+* #007 ^property[=].valueCoding.system = "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r386-macro-etat-objet-administratif"
+* #007 ^property[=].valueCoding.code = #A
+* #007 ^property[=].valueCoding.display = "Actif"
 * #010 "Activité autorisée"
 * #010 ^property[0].code = #dateValid
 * #010 ^property[=].valueDateTime = "1900-01-01T00:00:00+01:00"
@@ -111,7 +123,9 @@ Description: "Nomenclature des états élémentaires d'un objet du MOS organisé
 * #010 ^property[+].code = #status
 * #010 ^property[=].valueCode = #active
 * #010 ^property[+].code = #macroEtatAdministratif
-* #010 ^property[=].valueCode = #A
+* #010 ^property[=].valueCoding.system = "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r386-macro-etat-objet-administratif"
+* #010 ^property[=].valueCoding.code = #A
+* #010 ^property[=].valueCoding.display = "Actif"
 * #012 "Activité installée/meo"
 * #012 ^property[0].code = #dateValid
 * #012 ^property[=].valueDateTime = "1900-01-01T00:00:00+01:00"
@@ -120,7 +134,9 @@ Description: "Nomenclature des états élémentaires d'un objet du MOS organisé
 * #012 ^property[+].code = #status
 * #012 ^property[=].valueCode = #active
 * #012 ^property[+].code = #macroEtatAdministratif
-* #012 ^property[=].valueCode = #A
+* #012 ^property[=].valueCoding.system = "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r386-macro-etat-objet-administratif"
+* #012 ^property[=].valueCoding.code = #A
+* #012 ^property[=].valueCoding.display = "Actif"
 * #013 "Activité fermée"
 * #013 ^property[0].code = #dateValid
 * #013 ^property[=].valueDateTime = "1900-01-01T00:00:00+01:00"
@@ -129,7 +145,9 @@ Description: "Nomenclature des états élémentaires d'un objet du MOS organisé
 * #013 ^property[+].code = #status
 * #013 ^property[=].valueCode = #active
 * #013 ^property[+].code = #macroEtatAdministratif
-* #013 ^property[=].valueCode = #I
+* #013 ^property[=].valueCoding.system = "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r386-macro-etat-objet-administratif"
+* #013 ^property[=].valueCoding.code = #I
+* #013 ^property[=].valueCoding.display = "Inactif"
 * #015 "Activité désinstallée"
 * #015 ^property[0].code = #dateValid
 * #015 ^property[=].valueDateTime = "1900-01-01T00:00:00+01:00"
@@ -138,7 +156,9 @@ Description: "Nomenclature des états élémentaires d'un objet du MOS organisé
 * #015 ^property[+].code = #status
 * #015 ^property[=].valueCode = #active
 * #015 ^property[+].code = #macroEtatAdministratif
-* #015 ^property[=].valueCode = #I
+* #015 ^property[=].valueCoding.system = "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r386-macro-etat-objet-administratif"
+* #015 ^property[=].valueCoding.code = #I
+* #015 ^property[=].valueCoding.display = "Inactif"
 * #016 "Devient membre du groupe"
 * #016 ^property[0].code = #dateValid
 * #016 ^property[=].valueDateTime = "1900-01-01T00:00:00+01:00"
@@ -147,7 +167,9 @@ Description: "Nomenclature des états élémentaires d'un objet du MOS organisé
 * #016 ^property[+].code = #status
 * #016 ^property[=].valueCode = #active
 * #016 ^property[+].code = #macroEtatAdministratif
-* #016 ^property[=].valueCode = #A
+* #016 ^property[=].valueCoding.system = "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r386-macro-etat-objet-administratif"
+* #016 ^property[=].valueCoding.code = #A
+* #016 ^property[=].valueCoding.display = "Actif"
 * #017 "Sortie du groupe"
 * #017 ^property[0].code = #dateValid
 * #017 ^property[=].valueDateTime = "1900-01-01T00:00:00+01:00"
@@ -156,7 +178,9 @@ Description: "Nomenclature des états élémentaires d'un objet du MOS organisé
 * #017 ^property[+].code = #status
 * #017 ^property[=].valueCode = #active
 * #017 ^property[+].code = #macroEtatAdministratif
-* #017 ^property[=].valueCode = #A
+* #017 ^property[=].valueCoding.system = "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r386-macro-etat-objet-administratif"
+* #017 ^property[=].valueCoding.code = #A
+* #017 ^property[=].valueCoding.display = "Actif"
 * #018 "EGE fermée suite à cession"
 * #018 ^property[0].code = #dateValid
 * #018 ^property[=].valueDateTime = "1900-01-01T00:00:00+01:00"
@@ -165,7 +189,9 @@ Description: "Nomenclature des états élémentaires d'un objet du MOS organisé
 * #018 ^property[+].code = #status
 * #018 ^property[=].valueCode = #active
 * #018 ^property[+].code = #macroEtatAdministratif
-* #018 ^property[=].valueCode = #I
+* #018 ^property[=].valueCoding.system = "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r386-macro-etat-objet-administratif"
+* #018 ^property[=].valueCoding.code = #I
+* #018 ^property[=].valueCoding.display = "Inactif"
 * #019 "EGE reprise"
 * #019 ^property[0].code = #dateValid
 * #019 ^property[=].valueDateTime = "1900-01-01T00:00:00+01:00"
@@ -174,7 +200,9 @@ Description: "Nomenclature des états élémentaires d'un objet du MOS organisé
 * #019 ^property[+].code = #status
 * #019 ^property[=].valueCode = #active
 * #019 ^property[+].code = #macroEtatAdministratif
-* #019 ^property[=].valueCode = #A
+* #019 ^property[=].valueCoding.system = "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r386-macro-etat-objet-administratif"
+* #019 ^property[=].valueCoding.code = #A
+* #019 ^property[=].valueCoding.display = "Actif"
 * #020 "PM-EJ fermée suite à cession"
 * #020 ^property[0].code = #dateValid
 * #020 ^property[=].valueDateTime = "1900-01-01T00:00:00+01:00"
@@ -183,7 +211,9 @@ Description: "Nomenclature des états élémentaires d'un objet du MOS organisé
 * #020 ^property[+].code = #status
 * #020 ^property[=].valueCode = #active
 * #020 ^property[+].code = #macroEtatAdministratif
-* #020 ^property[=].valueCode = #I
+* #020 ^property[=].valueCoding.system = "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r386-macro-etat-objet-administratif"
+* #020 ^property[=].valueCoding.code = #I
+* #020 ^property[=].valueCoding.display = "Inactif"
 * #021 "Activité exercée cédée"
 * #021 ^property[0].code = #dateValid
 * #021 ^property[=].valueDateTime = "1900-01-01T00:00:00+01:00"
@@ -192,7 +222,9 @@ Description: "Nomenclature des états élémentaires d'un objet du MOS organisé
 * #021 ^property[+].code = #status
 * #021 ^property[=].valueCode = #active
 * #021 ^property[+].code = #macroEtatAdministratif
-* #021 ^property[=].valueCode = #A
+* #021 ^property[=].valueCoding.system = "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r386-macro-etat-objet-administratif"
+* #021 ^property[=].valueCoding.code = #A
+* #021 ^property[=].valueCoding.display = "Actif"
 * #022 "Activité exercée reprise"
 * #022 ^property[0].code = #dateValid
 * #022 ^property[=].valueDateTime = "1900-01-01T00:00:00+01:00"
@@ -201,7 +233,9 @@ Description: "Nomenclature des états élémentaires d'un objet du MOS organisé
 * #022 ^property[+].code = #status
 * #022 ^property[=].valueCode = #active
 * #022 ^property[+].code = #macroEtatAdministratif
-* #022 ^property[=].valueCode = #A
+* #022 ^property[=].valueCoding.system = "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r386-macro-etat-objet-administratif"
+* #022 ^property[=].valueCoding.code = #A
+* #022 ^property[=].valueCoding.display = "Actif"
 * #023 "Activité exercée fermée suite à regroupement"
 * #023 ^property[0].code = #dateValid
 * #023 ^property[=].valueDateTime = "1900-01-01T00:00:00+01:00"
@@ -210,7 +244,9 @@ Description: "Nomenclature des états élémentaires d'un objet du MOS organisé
 * #023 ^property[+].code = #status
 * #023 ^property[=].valueCode = #active
 * #023 ^property[+].code = #macroEtatAdministratif
-* #023 ^property[=].valueCode = #I
+* #023 ^property[=].valueCoding.system = "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r386-macro-etat-objet-administratif"
+* #023 ^property[=].valueCoding.code = #I
+* #023 ^property[=].valueCoding.display = "Inactif"
 * #024 "Activité exercée regroupée"
 * #024 ^property[0].code = #dateValid
 * #024 ^property[=].valueDateTime = "1900-01-01T00:00:00+01:00"
@@ -219,7 +255,9 @@ Description: "Nomenclature des états élémentaires d'un objet du MOS organisé
 * #024 ^property[+].code = #status
 * #024 ^property[=].valueCode = #active
 * #024 ^property[+].code = #macroEtatAdministratif
-* #024 ^property[=].valueCode = #A
+* #024 ^property[=].valueCoding.system = "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r386-macro-etat-objet-administratif"
+* #024 ^property[=].valueCoding.code = #A
+* #024 ^property[=].valueCoding.display = "Actif"
 * #025 "Activité en injonction (suspendue)"
 * #025 ^property[0].code = #dateValid
 * #025 ^property[=].valueDateTime = "1900-01-01T00:00:00+01:00"
@@ -228,7 +266,9 @@ Description: "Nomenclature des états élémentaires d'un objet du MOS organisé
 * #025 ^property[+].code = #status
 * #025 ^property[=].valueCode = #active
 * #025 ^property[+].code = #macroEtatAdministratif
-* #025 ^property[=].valueCode = #I
+* #025 ^property[=].valueCoding.system = "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r386-macro-etat-objet-administratif"
+* #025 ^property[=].valueCoding.code = #I
+* #025 ^property[=].valueCoding.display = "Inactif"
 * #027 "Fin de suspension, activité active"
 * #027 ^property[0].code = #dateValid
 * #027 ^property[=].valueDateTime = "1900-01-01T00:00:00+01:00"
@@ -237,7 +277,9 @@ Description: "Nomenclature des états élémentaires d'un objet du MOS organisé
 * #027 ^property[+].code = #status
 * #027 ^property[=].valueCode = #active
 * #027 ^property[+].code = #macroEtatAdministratif
-* #027 ^property[=].valueCode = #A
+* #027 ^property[=].valueCoding.system = "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r386-macro-etat-objet-administratif"
+* #027 ^property[=].valueCoding.code = #A
+* #027 ^property[=].valueCoding.display = "Actif"
 * #029 "Activité autorisée caduque (fermée)"
 * #029 ^property[0].code = #dateValid
 * #029 ^property[=].valueDateTime = "1900-01-01T00:00:00+01:00"
@@ -246,7 +288,9 @@ Description: "Nomenclature des états élémentaires d'un objet du MOS organisé
 * #029 ^property[+].code = #status
 * #029 ^property[=].valueCode = #active
 * #029 ^property[+].code = #macroEtatAdministratif
-* #029 ^property[=].valueCode = #I
+* #029 ^property[=].valueCoding.system = "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r386-macro-etat-objet-administratif"
+* #029 ^property[=].valueCoding.code = #I
+* #029 ^property[=].valueCoding.display = "Inactif"
 * #030 "Titularité activité cédée"
 * #030 ^property[0].code = #dateValid
 * #030 ^property[=].valueDateTime = "1900-01-01T00:00:00+01:00"
@@ -255,7 +299,9 @@ Description: "Nomenclature des états élémentaires d'un objet du MOS organisé
 * #030 ^property[+].code = #status
 * #030 ^property[=].valueCode = #active
 * #030 ^property[+].code = #macroEtatAdministratif
-* #030 ^property[=].valueCode = #I
+* #030 ^property[=].valueCoding.system = "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r386-macro-etat-objet-administratif"
+* #030 ^property[=].valueCoding.code = #I
+* #030 ^property[=].valueCoding.display = "Inactif"
 * #031 "Titularité activité reprise"
 * #031 ^property[0].code = #dateValid
 * #031 ^property[=].valueDateTime = "1900-01-01T00:00:00+01:00"
@@ -264,7 +310,9 @@ Description: "Nomenclature des états élémentaires d'un objet du MOS organisé
 * #031 ^property[+].code = #status
 * #031 ^property[=].valueCode = #active
 * #031 ^property[+].code = #macroEtatAdministratif
-* #031 ^property[=].valueCode = #A
+* #031 ^property[=].valueCoding.system = "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r386-macro-etat-objet-administratif"
+* #031 ^property[=].valueCoding.code = #A
+* #031 ^property[=].valueCoding.display = "Actif"
 * #032 "Activité fermée suite à regroupement (autorisée)"
 * #032 ^property[0].code = #dateValid
 * #032 ^property[=].valueDateTime = "1900-01-01T00:00:00+01:00"
@@ -273,7 +321,9 @@ Description: "Nomenclature des états élémentaires d'un objet du MOS organisé
 * #032 ^property[+].code = #status
 * #032 ^property[=].valueCode = #active
 * #032 ^property[+].code = #macroEtatAdministratif
-* #032 ^property[=].valueCode = #I
+* #032 ^property[=].valueCoding.system = "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r386-macro-etat-objet-administratif"
+* #032 ^property[=].valueCoding.code = #I
+* #032 ^property[=].valueCoding.display = "Inactif"
 * #033 "Activité autorisée regroupée"
 * #033 ^property[0].code = #dateValid
 * #033 ^property[=].valueDateTime = "1900-01-01T00:00:00+01:00"
@@ -282,7 +332,9 @@ Description: "Nomenclature des états élémentaires d'un objet du MOS organisé
 * #033 ^property[+].code = #status
 * #033 ^property[=].valueCode = #active
 * #033 ^property[+].code = #macroEtatAdministratif
-* #033 ^property[=].valueCode = #A
+* #033 ^property[=].valueCoding.system = "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r386-macro-etat-objet-administratif"
+* #033 ^property[=].valueCoding.code = #A
+* #033 ^property[=].valueCoding.display = "Actif"
 * #034 "PM Pharmacie créée"
 * #034 ^property[0].code = #dateValid
 * #034 ^property[=].valueDateTime = "1900-01-01T00:00:00+01:00"
@@ -291,7 +343,9 @@ Description: "Nomenclature des états élémentaires d'un objet du MOS organisé
 * #034 ^property[+].code = #status
 * #034 ^property[=].valueCode = #active
 * #034 ^property[+].code = #macroEtatAdministratif
-* #034 ^property[=].valueCode = #A
+* #034 ^property[=].valueCoding.system = "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r386-macro-etat-objet-administratif"
+* #034 ^property[=].valueCoding.code = #A
+* #034 ^property[=].valueCoding.display = "Actif"
 * #035 "EGE Pharmacie créée"
 * #035 ^property[0].code = #dateValid
 * #035 ^property[=].valueDateTime = "1900-01-01T00:00:00+01:00"
@@ -300,7 +354,9 @@ Description: "Nomenclature des états élémentaires d'un objet du MOS organisé
 * #035 ^property[+].code = #status
 * #035 ^property[=].valueCode = #active
 * #035 ^property[+].code = #macroEtatAdministratif
-* #035 ^property[=].valueCode = #A
+* #035 ^property[=].valueCoding.system = "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r386-macro-etat-objet-administratif"
+* #035 ^property[=].valueCoding.code = #A
+* #035 ^property[=].valueCoding.display = "Actif"
 * #036 "EGE Pharmacie ouverte"
 * #036 ^property[0].code = #dateValid
 * #036 ^property[=].valueDateTime = "1900-01-01T00:00:00+01:00"
@@ -309,7 +365,9 @@ Description: "Nomenclature des états élémentaires d'un objet du MOS organisé
 * #036 ^property[+].code = #status
 * #036 ^property[=].valueCode = #active
 * #036 ^property[+].code = #macroEtatAdministratif
-* #036 ^property[=].valueCode = #A
+* #036 ^property[=].valueCoding.system = "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r386-macro-etat-objet-administratif"
+* #036 ^property[=].valueCoding.code = #A
+* #036 ^property[=].valueCoding.display = "Actif"
 * #037 "Nouveau titulaire"
 * #037 ^property[0].code = #dateValid
 * #037 ^property[=].valueDateTime = "1900-01-01T00:00:00+01:00"
@@ -318,7 +376,9 @@ Description: "Nomenclature des états élémentaires d'un objet du MOS organisé
 * #037 ^property[+].code = #status
 * #037 ^property[=].valueCode = #active
 * #037 ^property[+].code = #macroEtatAdministratif
-* #037 ^property[=].valueCode = #A
+* #037 ^property[=].valueCoding.system = "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r386-macro-etat-objet-administratif"
+* #037 ^property[=].valueCoding.code = #A
+* #037 ^property[=].valueCoding.display = "Actif"
 * #038 "EGE fermée provisoirement"
 * #038 ^property[0].code = #dateValid
 * #038 ^property[=].valueDateTime = "1900-01-01T00:00:00+01:00"
@@ -327,7 +387,9 @@ Description: "Nomenclature des états élémentaires d'un objet du MOS organisé
 * #038 ^property[+].code = #status
 * #038 ^property[=].valueCode = #active
 * #038 ^property[+].code = #macroEtatAdministratif
-* #038 ^property[=].valueCode = #I
+* #038 ^property[=].valueCoding.system = "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r386-macro-etat-objet-administratif"
+* #038 ^property[=].valueCoding.code = #I
+* #038 ^property[=].valueCoding.display = "Inactif"
 * #039 "EGE réouverte"
 * #039 ^property[0].code = #dateValid
 * #039 ^property[=].valueDateTime = "1900-01-01T00:00:00+01:00"
@@ -336,7 +398,9 @@ Description: "Nomenclature des états élémentaires d'un objet du MOS organisé
 * #039 ^property[+].code = #status
 * #039 ^property[=].valueCode = #active
 * #039 ^property[+].code = #macroEtatAdministratif
-* #039 ^property[=].valueCode = #A
+* #039 ^property[=].valueCoding.system = "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r386-macro-etat-objet-administratif"
+* #039 ^property[=].valueCoding.code = #A
+* #039 ^property[=].valueCoding.display = "Actif"
 * #040 "Activitée fermée provisoirement"
 * #040 ^property[0].code = #dateValid
 * #040 ^property[=].valueDateTime = "1900-01-01T00:00:00+01:00"
@@ -345,7 +409,9 @@ Description: "Nomenclature des états élémentaires d'un objet du MOS organisé
 * #040 ^property[+].code = #status
 * #040 ^property[=].valueCode = #active
 * #040 ^property[+].code = #macroEtatAdministratif
-* #040 ^property[=].valueCode = #I
+* #040 ^property[=].valueCoding.system = "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r386-macro-etat-objet-administratif"
+* #040 ^property[=].valueCoding.code = #I
+* #040 ^property[=].valueCoding.display = "Inactif"
 * #041 "Activitée réouverte"
 * #041 ^property[0].code = #dateValid
 * #041 ^property[=].valueDateTime = "1900-01-01T00:00:00+01:00"
@@ -354,7 +420,9 @@ Description: "Nomenclature des états élémentaires d'un objet du MOS organisé
 * #041 ^property[+].code = #status
 * #041 ^property[=].valueCode = #active
 * #041 ^property[+].code = #macroEtatAdministratif
-* #041 ^property[=].valueCode = #A
+* #041 ^property[=].valueCoding.system = "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r386-macro-etat-objet-administratif"
+* #041 ^property[=].valueCoding.code = #A
+* #041 ^property[=].valueCoding.display = "Actif"
 * #100 "Sortie définitivement champ FINESS"
 * #100 ^designation.language = #fr-FR
 * #100 ^designation.use.system = "http://snomed.info/sct"
@@ -367,7 +435,9 @@ Description: "Nomenclature des états élémentaires d'un objet du MOS organisé
 * #100 ^property[+].code = #status
 * #100 ^property[=].valueCode = #active
 * #100 ^property[+].code = #macroEtatAdministratif
-* #100 ^property[=].valueCode = #I
+* #100 ^property[=].valueCoding.system = "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r386-macro-etat-objet-administratif"
+* #100 ^property[=].valueCoding.code = #I
+* #100 ^property[=].valueCoding.display = "Inactif"
 * #101 "Erreur d'enregistrement"
 * #101 ^designation.language = #fr-FR
 * #101 ^designation.use.system = "http://snomed.info/sct"
@@ -380,7 +450,9 @@ Description: "Nomenclature des états élémentaires d'un objet du MOS organisé
 * #101 ^property[+].code = #status
 * #101 ^property[=].valueCode = #active
 * #101 ^property[+].code = #macroEtatAdministratif
-* #101 ^property[=].valueCode = #I
+* #101 ^property[=].valueCoding.system = "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r386-macro-etat-objet-administratif"
+* #101 ^property[=].valueCoding.code = #I
+* #101 ^property[=].valueCoding.display = "Inactif"
 * #102 "Sortie champ FINESS"
 * #102 ^designation.language = #fr-FR
 * #102 ^designation.use.system = "http://snomed.info/sct"
@@ -393,7 +465,9 @@ Description: "Nomenclature des états élémentaires d'un objet du MOS organisé
 * #102 ^property[+].code = #status
 * #102 ^property[=].valueCode = #active
 * #102 ^property[+].code = #macroEtatAdministratif
-* #102 ^property[=].valueCode = #I
+* #102 ^property[=].valueCoding.system = "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r386-macro-etat-objet-administratif"
+* #102 ^property[=].valueCoding.code = #I
+* #102 ^property[=].valueCoding.display = "Inactif"
 * #103 "Sortie provisoirement champ FINESS"
 * #103 ^designation.language = #fr-FR
 * #103 ^designation.use.system = "http://snomed.info/sct"
@@ -406,4 +480,6 @@ Description: "Nomenclature des états élémentaires d'un objet du MOS organisé
 * #103 ^property[+].code = #status
 * #103 ^property[=].valueCode = #active
 * #103 ^property[+].code = #macroEtatAdministratif
-* #103 ^property[=].valueCode = #I
+* #103 ^property[=].valueCoding.system = "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r386-macro-etat-objet-administratif"
+* #103 ^property[=].valueCoding.code = #I
+* #103 ^property[=].valueCoding.display = "Inactif"
