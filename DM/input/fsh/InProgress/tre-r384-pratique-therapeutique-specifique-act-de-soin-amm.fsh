@@ -29,15 +29,15 @@ Description: "Nomenclature des pratiques thérapeutiques spécifiques pour les a
 * ^property[=].type = #dateTime
 * ^property[+].code = #status
 * ^property[=].uri = "http://hl7.org/fhir/concept-properties#status"
-* ^property[=].description = "Statut d'un code concept"
+* ^property[=].description = "A code that indicates the status of the concept. Typical values are active, experimental, deprecated, and retired"
 * ^property[=].type = #code
 * ^property[+].code = #deprecationDate
 * ^property[=].uri = "http://hl7.org/fhir/concept-properties#deprecationDate"
-* ^property[=].description = "Date de dépréciation du code"
+* ^property[=].description = "The date at which a concept was deprecated. Concepts that are deprecated but not inactive can still be used, but their use is discouraged, and they should be expected to be made inactive in a future release. Property type is dateTime. Note that the status property may also be used to indicate that a concept is deprecated"
 * ^property[=].type = #dateTime
 * ^property[+].code = #retirementDate
 * ^property[=].uri = "http://hl7.org/fhir/concept-properties#retirementDate"
-* ^property[=].description = "Date de retrait du code"
+* ^property[=].description = "The date at which a concept was retired"
 * ^property[=].type = #dateTime
 * #PTS00 "Pas de pratique thérapeutique spécifique"
 * #PTS00 ^property[0].code = #dateValid
