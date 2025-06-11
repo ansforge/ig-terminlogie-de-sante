@@ -1,3 +1,5 @@
+Alias: $sct = http://snomed.info/sct
+
 CodeSystem: TreR278Engagement
 Id: tre-r278-engagement
 Title: "Tre R278 Engagement"
