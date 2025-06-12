@@ -18,7 +18,6 @@ Description: "Nomenclature des types de groupement utilisables dans FINESS. Grou
 * ^date = "2024-12-30T12:00:00+01:00"
 * ^publisher = "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris"
 * ^caseSensitive = false
-* ^valueSet = "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r387-type-groupement?vs"
 * ^content = #complete
 * ^property[0].code = #dateValid
 * ^property[=].description = "date de validité d'un code concept"
@@ -41,6 +40,9 @@ Description: "Nomenclature des types de groupement utilisables dans FINESS. Grou
 * ^property[=].uri = "http://hl7.org/fhir/concept-properties#retirementDate"
 * ^property[=].description = "The date at which a concept was retired"
 * ^property[=].type = #dateTime
+* ^property[+].code = #finess
+* ^property[=].description = "Permet de définir les codes concept de la TRE utilisés par FINESS"
+* ^property[=].type = #boolean
 * #01 "Groupement de coopération conventionnelle"
 * #01 ^designation.language = #fr-FR
 * #01 ^designation.use.system = "http://snomed.info/sct"
@@ -52,6 +54,8 @@ Description: "Nomenclature des types de groupement utilisables dans FINESS. Grou
 * #01 ^property[=].valueDateTime = "1900-01-01T00:00:00+01:00"
 * #01 ^property[+].code = #status
 * #01 ^property[=].valueCode = #active
+* #01 ^property[+].code = #finess
+* #01 ^property[=].valueBoolean = true
 * #02 "Groupement de coopération organique"
 * #02 ^designation.language = #fr-FR
 * #02 ^designation.use.system = "http://snomed.info/sct"
@@ -63,3 +67,5 @@ Description: "Nomenclature des types de groupement utilisables dans FINESS. Grou
 * #02 ^property[=].valueDateTime = "1900-01-01T00:00:00+01:00"
 * #02 ^property[+].code = #status
 * #02 ^property[=].valueCode = #active
+* #02 ^property[+].code = #finess
+* #02 ^property[=].valueBoolean = true
