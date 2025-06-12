@@ -11,7 +11,7 @@
   <name value="Terminologies"/>
   <title value="Terminologies  de Santé"/>
   <status value="active"/>
-  <date value="2025-06-12T04:25:32+00:00"/>
+  <date value="2025-06-12T12:04:27+00:00"/>
   <publisher value="ANS"/>
   <contact>
     <name value="ANS"/>
@@ -66,6 +66,14 @@
       </extension>
       <extension url="value">
         <valueString value="final-text"/>
+      </extension>
+    </extension>
+    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
+      <extension url="code">
+        <valueString value="pin-canonicals"/>
+      </extension>
+      <extension url="value">
+        <valueString value="pin-multiples"/>
       </extension>
     </extension>
     <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
@@ -8589,6 +8597,14 @@
       </extension>
       <extension url="value">
         <valueString value="final-text"/>
+      </extension>
+    </extension>
+    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
+      <extension url="code">
+        <valueCode value="pin-canonicals"/>
+      </extension>
+      <extension url="value">
+        <valueString value="pin-multiples"/>
       </extension>
     </extension>
     <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
@@ -18636,6 +18652,17 @@
       </reference>
       <name value="JDV Destination Obp Sne CISIS"/>
       <description value="JDV Destination Obp Sne CISIS"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/jdv-destination-transfert-cisis"/>
+      </reference>
+      <name value="JDV Destination Transfert CISIS"/>
+      <description value="JDV Destination Transfert CISIS"/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
