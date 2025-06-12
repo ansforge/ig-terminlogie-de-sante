@@ -1,9 +1,9 @@
-Alias: $tre-r64-agregat-categorie-etablissement-niv2 = https://mos.esante.gouv.fr/NOS/TRE_R64-AgregatCategorieEtablissementNiv2/FHIR/TRE-R64-AgregatCategorieEtablissementNiv2
+Alias: $tre-r64-categorie-entite-geographique-exercice-niv2 = https://mos.esante.gouv.fr/NOS/TRE_R64-AgregatCategorieEtablissementNiv2/FHIR/TRE-R64-AgregatCategorieEtablissementNiv2
 
-ValueSet: VsTreR64AgregatCategorieEtablissementNiv2All
-Id: vs-tre-r64-agregat-categorie-etablissement-niv2-all
-Title: "Vs Tre R64 Agregat Categorie Etablissement Niv2 All"
-Description: "Jeu de valeurs ALL contenant les agrégats de catégories d'établissements niveau 2"
+ValueSet: VsTreR64CategorieEntiteGeographiqueExerciceNiv2All
+Id: vs-tre-r64-categorie-entite-geographique-exercice-niv2-all
+Title: "Vs Tre R64 Categorie Entite Geographique Exercice Niv2 All"
+Description: "Jeu de valeurs ALL contenant les catégories des entités géographiques d'exercice de niveau 2"
 * ^meta.versionId = "1"
 * ^meta.lastUpdated = "2025-02-22T18:02:28.249+00:00"
 * ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablevalueset"
@@ -17,4 +17,4 @@ Description: "Jeu de valeurs ALL contenant les agrégats de catégories d'établ
 * ^experimental = false
 * ^date = "2025-02-22T18:02:28.249+00:00"
 * ^publisher = "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris"
-* include codes from system $tre-r64-agregat-categorie-etablissement-niv2
+* include codes from system $tre-r64-categorie-entite-geographique-exercice-niv2
