@@ -18,7 +18,6 @@ Description: "Nomenclature des types d’objets du MOS. Remarque : Cette nomencl
 * ^date = "2024-12-30T12:00:00+01:00"
 * ^publisher = "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris"
 * ^caseSensitive = false
-* ^valueSet = "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r366-type-objet?vs"
 * ^content = #complete
 * ^property[0].code = #dateValid
 * ^property[=].description = "date de validité d'un code concept"
@@ -41,6 +40,9 @@ Description: "Nomenclature des types d’objets du MOS. Remarque : Cette nomencl
 * ^property[=].uri = "http://hl7.org/fhir/concept-properties#retirementDate"
 * ^property[=].description = "The date at which a concept was retired"
 * ^property[=].type = #dateTime
+* ^property[+].code = #finess
+* ^property[=].description = "Permet de définir les codes concept de la TRE utilisés par FINESS"
+* ^property[=].type = #boolean
 * #AC "Activité"
 * #AC ^property[0].code = #dateValid
 * #AC ^property[=].valueDateTime = "1900-01-01T00:00:00+01:00"
@@ -48,6 +50,8 @@ Description: "Nomenclature des types d’objets du MOS. Remarque : Cette nomencl
 * #AC ^property[=].valueDateTime = "1900-01-01T00:00:00+01:00"
 * #AC ^property[+].code = #status
 * #AC ^property[=].valueCode = #active
+* #AC ^property[+].code = #finess
+* #AC ^property[=].valueBoolean = true
 * #EG "Entité géographique d'exercice FINESS"
 * #EG ^designation.language = #fr-FR
 * #EG ^designation.use.system = "http://snomed.info/sct"
@@ -59,6 +63,8 @@ Description: "Nomenclature des types d’objets du MOS. Remarque : Cette nomencl
 * #EG ^property[=].valueDateTime = "1900-01-01T00:00:00+01:00"
 * #EG ^property[+].code = #status
 * #EG ^property[=].valueCode = #active
+* #EG ^property[+].code = #finess
+* #EG ^property[=].valueBoolean = true
 * #EN "Entreprise INSEE"
 * #EN ^designation.language = #fr-FR
 * #EN ^designation.use.system = "http://snomed.info/sct"
@@ -70,6 +76,8 @@ Description: "Nomenclature des types d’objets du MOS. Remarque : Cette nomencl
 * #EN ^property[=].valueDateTime = "1900-01-01T00:00:00+01:00"
 * #EN ^property[+].code = #status
 * #EN ^property[=].valueCode = #active
+* #EN ^property[+].code = #finess
+* #EN ^property[=].valueBoolean = true
 * #ET "Etablissement INSEE"
 * #ET ^designation.language = #fr-FR
 * #ET ^designation.use.system = "http://snomed.info/sct"
@@ -81,6 +89,8 @@ Description: "Nomenclature des types d’objets du MOS. Remarque : Cette nomencl
 * #ET ^property[=].valueDateTime = "1900-01-01T00:00:00+01:00"
 * #ET ^property[+].code = #status
 * #ET ^property[=].valueCode = #active
+* #ET ^property[+].code = #finess
+* #ET ^property[=].valueBoolean = true
 * #GR "Groupement"
 * #GR ^designation.language = #fr-FR
 * #GR ^designation.use.system = "http://snomed.info/sct"
@@ -92,6 +102,8 @@ Description: "Nomenclature des types d’objets du MOS. Remarque : Cette nomencl
 * #GR ^property[=].valueDateTime = "1900-01-01T00:00:00+01:00"
 * #GR ^property[+].code = #status
 * #GR ^property[=].valueCode = #active
+* #GR ^property[+].code = #finess
+* #GR ^property[=].valueBoolean = true
 * #PM "Personne morale FINESS"
 * #PM ^designation.language = #fr-FR
 * #PM ^designation.use.system = "http://snomed.info/sct"
@@ -103,3 +115,5 @@ Description: "Nomenclature des types d’objets du MOS. Remarque : Cette nomencl
 * #PM ^property[=].valueDateTime = "1900-01-01T00:00:00+01:00"
 * #PM ^property[+].code = #status
 * #PM ^property[=].valueCode = #active
+* #PM ^property[+].code = #finess
+* #PM ^property[=].valueBoolean = true
