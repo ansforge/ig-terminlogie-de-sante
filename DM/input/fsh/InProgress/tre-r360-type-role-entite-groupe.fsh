@@ -18,7 +18,6 @@ Description: "Nomenclature des types de rôles que peuvent exercer des entités 
 * ^date = "2024-12-30T12:00:00+01:00"
 * ^publisher = "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris"
 * ^caseSensitive = false
-* ^valueSet = "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r360-type-role-entite-groupe?vs"
 * ^content = #complete
 * ^property[0].code = #dateValid
 * ^property[=].description = "date de validité d'un code concept"
@@ -41,6 +40,9 @@ Description: "Nomenclature des types de rôles que peuvent exercer des entités 
 * ^property[=].uri = "http://hl7.org/fhir/concept-properties#retirementDate"
 * ^property[=].description = "The date at which a concept was retired"
 * ^property[=].type = #dateTime
+* ^property[+].code = #finess
+* ^property[=].description = "Permet de définir les codes concept de la TRE utilisés par FINESS"
+* ^property[=].type = #boolean
 * #S "Entité support"
 * #S ^designation.language = #fr-FR
 * #S ^designation.use.system = "http://snomed.info/sct"
@@ -52,6 +54,8 @@ Description: "Nomenclature des types de rôles que peuvent exercer des entités 
 * #S ^property[=].valueDateTime = "1900-01-01T00:00:00+01:00"
 * #S ^property[+].code = #status
 * #S ^property[=].valueCode = #active
+* #S ^property[+].code = #finess
+* #S ^property[=].valueBoolean = true
 * #M "Membre simple"
 * #M ^designation.language = #fr-FR
 * #M ^designation.use.system = "http://snomed.info/sct"
@@ -63,6 +67,8 @@ Description: "Nomenclature des types de rôles que peuvent exercer des entités 
 * #M ^property[=].valueDateTime = "1900-01-01T00:00:00+01:00"
 * #M ^property[+].code = #status
 * #M ^property[=].valueCode = #active
+* #M ^property[+].code = #finess
+* #M ^property[=].valueBoolean = true
 * #T "Entité tête de groupe"
 * #T ^designation.language = #fr-FR
 * #T ^designation.use.system = "http://snomed.info/sct"
@@ -74,3 +80,5 @@ Description: "Nomenclature des types de rôles que peuvent exercer des entités 
 * #T ^property[=].valueDateTime = "1900-01-01T00:00:00+01:00"
 * #T ^property[+].code = #status
 * #T ^property[=].valueCode = #active
+* #T ^property[+].code = #finess
+* #T ^property[=].valueBoolean = true
