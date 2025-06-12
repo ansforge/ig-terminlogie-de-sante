@@ -1,8 +1,8 @@
-Alias: $tre-r276-forme-activite = https://mos.esante.gouv.fr/NOS/TRE_R276-FormeActivite/FHIR/TRE-R276-FormeActivite
+Alias: $tre-r276-forme-activite-smsse-regulee = https://mos.esante.gouv.fr/NOS/TRE_R276-FormeActivite/FHIR/TRE-R276-FormeActivite
 
-ValueSet: VsTreR276FormeActiviteAll
-Id: vs-tre-r276-forme-activite-all
-Title: "Vs Tre R276 Forme Activite All"
+ValueSet: VsTreR276FormeActiviteSmsseReguleeAll
+Id: vs-tre-r276-forme-activite-smsse-regulee-all
+Title: "Vs Tre R276 Forme Activite Smsse Regulee All"
 Description: "Jeu de valeurs ALL contenant les types d'organisation de prise en charge"
 * ^meta.versionId = "1"
 * ^meta.lastUpdated = "2025-02-22T18:02:28.249+00:00"
@@ -17,4 +17,4 @@ Description: "Jeu de valeurs ALL contenant les types d'organisation de prise en 
 * ^experimental = false
 * ^date = "2025-02-22T18:02:28.249+00:00"
 * ^publisher = "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris"
-* include codes from system $tre-r276-forme-activite
+* include codes from system $tre-r276-forme-activite-smsse-regulee

@@ -1,9 +1,9 @@
-Alias: $tre-r296-agregat-discipline-enseign-niv2 = https://mos.esante.gouv.fr/NOS/TRE_R296-AgregatDisciplineEnseignNiv2/FHIR/TRE-R296-AgregatDisciplineEnseignNiv2
+Alias: $tre-r296-agregat-activite-enseignement-regulee-niv2 = https://mos.esante.gouv.fr/NOS/TRE_R296-AgregatDisciplineEnseignNiv2/FHIR/TRE-R296-AgregatDisciplineEnseignNiv2
 
-ValueSet: VsTreR296AgregatDisciplineEnseignNiv2All
-Id: vs-tre-r296-agregat-discipline-enseign-niv2-all
-Title: "Vs Tre R296 Agregat Discipline Enseign Niv2 All"
-Description: "Jeu de valeurs ALL contenant les agrégats de disciplines pour l'enseignement niveau 2"
+ValueSet: VsTreR296AgregatActiviteEnseignementReguleeNiv2All
+Id: vs-tre-r296-agregat-activite-enseignement-regulee-niv2-all
+Title: "Vs Tre R296 Agregat Activite Enseignement Regulee Niv2 All"
+Description: "Jeu de valeurs ALL contenant les agrégats des activités régulées de niveau 2 pour l'enseignement"
 * ^meta.versionId = "1"
 * ^meta.lastUpdated = "2025-02-22T18:02:28.249+00:00"
 * ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablevalueset"
@@ -17,4 +17,4 @@ Description: "Jeu de valeurs ALL contenant les agrégats de disciplines pour l'e
 * ^experimental = false
 * ^date = "2025-02-22T18:02:28.249+00:00"
 * ^publisher = "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris"
-* include codes from system $tre-r296-agregat-discipline-enseign-niv2
+* include codes from system $tre-r296-agregat-activite-enseignement-regulee-niv2

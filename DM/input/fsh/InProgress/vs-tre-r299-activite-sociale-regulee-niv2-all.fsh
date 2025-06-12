@@ -1,9 +1,9 @@
-Alias: $tre-r299-agregat-discipline-equip-soc-niv2 = https://mos.esante.gouv.fr/NOS/TRE_R299-AgregatDisciplineEquipSocNiv2/FHIR/TRE-R299-AgregatDisciplineEquipSocNiv2
+Alias: $tre-r299-activite-sociale-regulee-niv2 = https://mos.esante.gouv.fr/NOS/TRE_R299-AgregatDisciplineEquipSocNiv2/FHIR/TRE-R299-AgregatDisciplineEquipSocNiv2
 
-ValueSet: VsTreR299AgregatDisciplineEquipSocNiv2All
-Id: vs-tre-r299-agregat-discipline-equip-soc-niv2-all
-Title: "Vs Tre R299 Agregat Discipline Equip Soc Niv2 All"
-Description: "Jeu de valeurs ALL contenant les agrégats de disciplines d'équipement pour le social niveau 2"
+ValueSet: VsTreR299ActiviteSocialeReguleeNiv2All
+Id: vs-tre-r299-activite-sociale-regulee-niv2-all
+Title: "Vs Tre R299 Activite Sociale Regulee Niv2 All"
+Description: "Jeu de valeurs ALL contenant les agrégats des activités régulées de niveau 2 pour le social"
 * ^meta.versionId = "1"
 * ^meta.lastUpdated = "2025-02-22T18:02:28.249+00:00"
 * ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablevalueset"
@@ -17,4 +17,4 @@ Description: "Jeu de valeurs ALL contenant les agrégats de disciplines d'équip
 * ^experimental = false
 * ^date = "2025-02-22T18:02:28.249+00:00"
 * ^publisher = "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris"
-* include codes from system $tre-r299-agregat-discipline-equip-soc-niv2
+* include codes from system $tre-r299-activite-sociale-regulee-niv2

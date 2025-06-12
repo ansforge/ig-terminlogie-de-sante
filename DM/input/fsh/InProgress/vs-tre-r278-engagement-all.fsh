@@ -1,20 +1,20 @@
-Alias: $tre-r279-clientele = https://mos.esante.gouv.fr/NOS/TRE_R279-Clientele/FHIR/TRE-R279-Clientele
+Alias: $tre-r278-engagement = https://mos.esante.gouv.fr/NOS/TRE_R278-FinessConvention/FHIR/TRE-R278-FinessConvention
 
-ValueSet: VsTreR279ClienteleAll
-Id: vs-tre-r279-clientele-all
-Title: "Vs Tre R279 Clientele All"
-Description: "Jeu de valeurs ALL contenant le référentiel des codes départements et collectivités d’outre-mer provenant du COG INSEE + Monaco"
+ValueSet: VsTreR278EngagementAll
+Id: vs-tre-r278-engagement-all
+Title: "Vs Tre R278 Engagement All"
+Description: "Jeu de valeurs ALL contenant les engagements FINESS"
 * ^meta.versionId = "1"
 * ^meta.lastUpdated = "2025-02-22T18:02:28.249+00:00"
 * ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablevalueset"
 * ^extension.url = "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod"
 * ^extension.valuePeriod.start = "2025-02-22T18:02:28.249+00:00"
-* ^url = "https://mos.esante.gouv.fr/NOS/TRE_R279-Clientele/FHIR/TRE-R279-Clientele?vs"
+* ^url = "https://mos.esante.gouv.fr/NOS/TRE_R278-FinessConvention/FHIR/TRE-R278-FinessConvention?vs"
 * ^identifier.system = "urn:ietf:rfc:3986"
-* ^identifier.value = "urn:oid:1.2.250.1.213.1.6.1.336"
+* ^identifier.value = "urn:oid:1.2.250.1.213.1.6.1.322"
 * ^version = "20250222120000"
 * ^status = #active
 * ^experimental = false
 * ^date = "2025-02-22T18:02:28.249+00:00"
 * ^publisher = "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris"
-* include codes from system $tre-r279-clientele
+* include codes from system $tre-r278-engagement

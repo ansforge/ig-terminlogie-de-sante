@@ -1,9 +1,9 @@
-Alias: $tre-r295-agregat-discipline-enseign-niv1 = https://mos.esante.gouv.fr/NOS/TRE_R295-AgregatDisciplineEnseignNiv1/FHIR/TRE-R295-AgregatDisciplineEnseignNiv1
+Alias: $tre-r295-agregat-activite-enseignement-regulee-niv1 = https://mos.esante.gouv.fr/NOS/TRE_R295-AgregatDisciplineEnseignNiv1/FHIR/TRE-R295-AgregatDisciplineEnseignNiv1
 
-ValueSet: VsTreR295AgregatDisciplineEnseignNiv1All
-Id: vs-tre-r295-agregat-discipline-enseign-niv1-all
-Title: "Vs Tre R295 Agregat Discipline Enseign Niv1 All"
-Description: "Jeu de valeurs ALL contenant les agrégats de disciplines pour l'enseignement niveau 1"
+ValueSet: VsTreR295AgregatActiviteEnseignementReguleeNiv1All
+Id: vs-tre-r295-agregat-activite-enseignement-regulee-niv1-all
+Title: "Vs Tre R295 Agregat Activite Enseignement Regulee Niv1 All"
+Description: "Jeu de valeurs ALL contenant les agrégats des activités régulées de niveau 1 pour l'enseignement"
 * ^meta.versionId = "1"
 * ^meta.lastUpdated = "2025-02-22T18:02:28.249+00:00"
 * ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablevalueset"
@@ -17,4 +17,4 @@ Description: "Jeu de valeurs ALL contenant les agrégats de disciplines pour l'e
 * ^experimental = false
 * ^date = "2025-02-22T18:02:28.249+00:00"
 * ^publisher = "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris"
-* include codes from system $tre-r295-agregat-discipline-enseign-niv1
+* include codes from system $tre-r295-agregat-activite-enseignement-regulee-niv1

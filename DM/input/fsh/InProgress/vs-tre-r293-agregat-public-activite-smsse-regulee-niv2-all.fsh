@@ -1,9 +1,9 @@
-Alias: $tre-r293-agregat-clientele-niv2 = https://mos.esante.gouv.fr/NOS/TRE_R293-AgregatClienteleNiv2/FHIR/TRE-R293-AgregatClienteleNiv2
+Alias: $tre-r293-agregat-public-activite-smsse-regulee-niv2 = https://mos.esante.gouv.fr/NOS/TRE_R293-AgregatClienteleNiv2/FHIR/TRE-R293-AgregatClienteleNiv2
 
-ValueSet: VsTreR293AgregatClienteleNiv2All
-Id: vs-tre-r293-agregat-clientele-niv2-all
-Title: "Vs Tre R293 Agregat Clientele Niv2 All"
-Description: "Jeu de valeurs ALL contenant les agrégats de clientèle niveau 2"
+ValueSet: VsTreR293AgregatPublicActiviteSmsseReguleeNiv2All
+Id: vs-tre-r293-agregat-public-activite-smsse-regulee-niv2-all
+Title: "Vs Tre R293 Agregat Public Activite Smsse Regulee Niv2 All"
+Description: "Jeu de valeurs ALL contenant les agrégats des activitées SMSSE régulées pour le public niveau 2"
 * ^meta.versionId = "1"
 * ^meta.lastUpdated = "2025-02-22T18:02:28.249+00:00"
 * ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablevalueset"
@@ -17,4 +17,4 @@ Description: "Jeu de valeurs ALL contenant les agrégats de clientèle niveau 2"
 * ^experimental = false
 * ^date = "2025-02-22T18:02:28.249+00:00"
 * ^publisher = "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris"
-* include codes from system $tre-r293-agregat-clientele-niv2
+* include codes from system $tre-r293-agregat-public-activite-smsse-regulee-niv2

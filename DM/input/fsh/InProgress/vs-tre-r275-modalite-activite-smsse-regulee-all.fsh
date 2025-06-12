@@ -1,8 +1,8 @@
-Alias: $tre-r275-modalite-activite = https://mos.esante.gouv.fr/NOS/TRE_R275-ModaliteActivite/FHIR/TRE-R275-ModaliteActivite
+Alias: $tre-r275-modalite-activite-smsse-regulee = https://mos.esante.gouv.fr/NOS/TRE_R275-ModaliteActivite/FHIR/TRE-R275-ModaliteActivite
 
-ValueSet: VsTreR275ModaliteActiviteAll
-Id: vs-tre-r275-modalite-activite-all
-Title: "Vs Tre R275 Modalite Activite All"
+ValueSet: VsTreR275ModaliteActiviteSmsseReguleeAll
+Id: vs-tre-r275-modalite-activite-smsse-regulee-all
+Title: "Vs Tre R275 Modalite Activite Smsse Regulee All"
 Description: "Jeu de valeurs ALL contenant les modes d'application ou types de soins encadrant une activité"
 * ^meta.versionId = "1"
 * ^meta.lastUpdated = "2025-02-22T18:02:28.249+00:00"
@@ -17,4 +17,4 @@ Description: "Jeu de valeurs ALL contenant les modes d'application ou types de s
 * ^experimental = false
 * ^date = "2025-02-22T18:02:28.249+00:00"
 * ^publisher = "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris"
-* include codes from system $tre-r275-modalite-activite
+* include codes from system $tre-r275-modalite-activite-smsse-regulee

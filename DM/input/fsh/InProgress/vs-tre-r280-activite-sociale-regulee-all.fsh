@@ -1,9 +1,9 @@
-Alias: $tre-r280-discipline-equipement-social = https://mos.esante.gouv.fr/NOS/TRE_R280-DisciplineEquipementSocial/FHIR/TRE-R280-DisciplineEquipementSocial
+Alias: $tre-r280-activite-sociale-regulee = https://mos.esante.gouv.fr/NOS/TRE_R280-DisciplineEquipementSocial/FHIR/TRE-R280-DisciplineEquipementSocial
 
-ValueSet: VsTreR280DisciplineEquipementSocialAll
-Id: vs-tre-r280-discipline-equipement-social-all
-Title: "Vs Tre R280 Discipline Equipement Social All"
-Description: "Jeu de valeurs ALL contenant les disciplines d'équipement pour le social"
+ValueSet: VsTreR280ActiviteSocialeReguleeAll
+Id: vs-tre-r280-activite-sociale-regulee-all
+Title: "Vs Tre R280 Activite Sociale Regulee All"
+Description: "Jeu de valeurs ALL contenant les activités régulées pour le social"
 * ^meta.versionId = "1"
 * ^meta.lastUpdated = "2025-02-22T18:02:28.249+00:00"
 * ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablevalueset"
@@ -17,4 +17,4 @@ Description: "Jeu de valeurs ALL contenant les disciplines d'équipement pour le
 * ^experimental = false
 * ^date = "2025-02-22T18:02:28.249+00:00"
 * ^publisher = "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris"
-* include codes from system $tre-r280-discipline-equipement-social
+* include codes from system $tre-r280-activite-sociale-regulee
