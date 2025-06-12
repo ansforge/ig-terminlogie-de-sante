@@ -1,11 +1,11 @@
 {
   "resourceType" : "ValueSet",
-  "id" : "598d4790-8074-4426-8d0d-a79ff5296634-2234",
-  "url" : "http://hl7.org/fhir/comparison/ValueSet/598d4790-8074-4426-8d0d-a79ff5296634-2234",
+  "id" : "4cd2faaa-145b-40ae-bc22-4d61a980e3fd-2234",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/4cd2faaa-145b-40ae-bc22-4d61a980e3fd-2234",
   "name" : "UnionJdvModeAdministrationCisisAndJdvModeAdministrationCisis",
   "title" : "Union of JDV Mode Administration CISIS And JDV Mode Administration CISIS",
   "status" : "active",
-  "date" : "2025-06-11T14:49:30+00:00",
+  "date" : "2025-06-12T14:18:27+00:00",
   "jurisdiction" : [{
     "coding" : [{
       "system" : "urn:iso:std:iso:3166",

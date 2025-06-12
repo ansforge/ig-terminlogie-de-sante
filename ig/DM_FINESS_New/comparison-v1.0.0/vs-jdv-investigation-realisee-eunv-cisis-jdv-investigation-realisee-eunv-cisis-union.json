@@ -1,11 +1,11 @@
 {
   "resourceType" : "ValueSet",
-  "id" : "598d4790-8074-4426-8d0d-a79ff5296634-2120",
-  "url" : "http://hl7.org/fhir/comparison/ValueSet/598d4790-8074-4426-8d0d-a79ff5296634-2120",
+  "id" : "4cd2faaa-145b-40ae-bc22-4d61a980e3fd-2120",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/4cd2faaa-145b-40ae-bc22-4d61a980e3fd-2120",
   "name" : "UnionJdvInvestigationRealiseeEunvCisisAndJdvInvestigationRealiseeEunvCisis",
   "title" : "Union of JDV Investigation Realisee Eunv CISIS And JDV Investigation Realisee Eunv CISIS",
   "status" : "active",
-  "date" : "2025-06-11T14:49:30+00:00",
+  "date" : "2025-06-12T14:18:27+00:00",
   "jurisdiction" : [{
     "coding" : [{
       "system" : "urn:iso:std:iso:3166",
@@ -16,39 +16,39 @@
     "include" : [{
       "concept" : [{
         "code" : "DEQP003",
-        "display" : "ECG"
+        "display" : "Électrocardiographie sur au moins 12 dérivations"
       },
       {
         "code" : "DEQP004",
-        "display" : "Scope"
+        "display" : "Surveillance continue de l'électrocardiogramme par oscilloscopie et/ou télésurveillance, par 24 heures"
       },
       {
         "code" : "DEQP005",
-        "display" : "Holter"
+        "display" : "Électrocardiographie sur au moins 2 dérivations, avec enregistrement continu pendant au moins 24 heures"
       },
       {
         "code" : "DZQM006",
-        "display" : "Echographie transthoracique"
+        "display" : "Échographie-doppler transthoracique du coeur et des vaisseaux intrathoraciques"
       },
       {
         "code" : "DZQJ001",
-        "display" : "Echographie transoesophagienne"
+        "display" : "Échographie-doppler du coeur et des vaisseaux intrathoraciques, par voie oesophagienne [Échocardiographie-doppler transoesophagienne]"
       },
       {
         "code" : "ACQN001",
-        "display" : "ARM Cervicale"
+        "display" : "Remnographie [IRM] du crâne et de son contenu, sans injection intraveineuse de produit de contraste"
       },
       {
         "code" : "EBQH006",
-        "display" : "Angiographie cervicale"
+        "display" : "Scanographie des vaisseaux cervicaux [Angioscanner cervical]"
       },
       {
         "code" : "EAQM004",
-        "display" : "Echo-Doppler cervical"
+        "display" : "Échographie-doppler transcrânienne des vaisseaux intracrâniens, sans épreuve pharmacodynamique"
       },
       {
         "code" : "EAQM002",
-        "display" : "DTC"
+        "display" : "Monitorage de la circulation artérielle intracrânienne par doppler pulsé transcrânien"
       }]
     }]
   }

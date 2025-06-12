@@ -1,11 +1,11 @@
 {
   "resourceType" : "ValueSet",
-  "id" : "598d4790-8074-4426-8d0d-a79ff5296634-1775",
-  "url" : "http://hl7.org/fhir/comparison/ValueSet/598d4790-8074-4426-8d0d-a79ff5296634-1775",
+  "id" : "4cd2faaa-145b-40ae-bc22-4d61a980e3fd-1775",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/4cd2faaa-145b-40ae-bc22-4d61a980e3fd-1775",
   "name" : "UnionJdvComplicationThromboemboliqueCisisAndJdvComplicationThromboemboliqueCisis",
   "title" : "Union of JDV Complication Thromboembolique CISIS And JDV Complication Thromboembolique CISIS",
   "status" : "active",
-  "date" : "2025-06-11T14:49:30+00:00",
+  "date" : "2025-06-12T14:18:27+00:00",
   "jurisdiction" : [{
     "coding" : [{
       "system" : "urn:iso:std:iso:3166",
@@ -20,7 +20,7 @@
       },
       {
         "code" : "I80.2",
-        "display" : "Thrombose veineuse profonde"
+        "display" : "Phlébite et thrombophlébite d'autres vaisseaux profonds des membres inférieurs"
       },
       {
         "code" : "I82.9",

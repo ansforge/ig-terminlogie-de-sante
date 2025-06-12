@@ -25310,6 +25310,17 @@
         <valueString value="ValueSet"/>
       </extension>
       <reference>
+        <reference value="ValueSet/jdv-destination-transfert-cisis"/>
+      </reference>
+      <name value="JDV Destination Transfert CISIS"/>
+      <description value="JDV Destination Transfert CISIS"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
         <reference value="ValueSet/jdv-detail-materiel-specialise-cisis"/>
       </reference>
       <name value="JDV Detail Materiel Specialise CISIS"/>
@@ -26069,6 +26080,94 @@
         <valueString value="ValueSet"/>
       </extension>
       <reference>
+        <reference value="ValueSet/jdv-j296-type-role-entite-groupe-finess"/>
+      </reference>
+      <name value="Jdv J296 Type Role Entite Groupe Finess"/>
+      <description value="Jeu de valeurs FINESS contenant les types de rôles que peuvent exercer des entités participants à des groupements"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/jdv-j297-type-evenement-administratif-finess"/>
+      </reference>
+      <name value="Jdv J297 Type Evenement Administratif Finess"/>
+      <description value="Jeu de valeurs FINESS contenant les événements affectant le cycle de vie des entités et activités enrgeistrées dans FINESS+"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/jdv-j298-macro-etat-objet-administratif-finess"/>
+      </reference>
+      <name value="Jdv J298 Macro Etat Objet Administratif Finess"/>
+      <description value="Jeu de valeurs FINESS contenant les macro-etat des structures FINESS qui dérivent de l'état de l'objet. Permet de distinguer les structures actives de celles inactives."/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/jdv-j299-systeme-information-finess"/>
+      </reference>
+      <name value="Jdv J299 Systeme Information Finess"/>
+      <description value="Jeu de valeurs FINESS contenant les systemes d'information en relation avec FINESS"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/jdv-j300-type-objet-finess"/>
+      </reference>
+      <name value="Jdv J300 Type Objet Finess"/>
+      <description value="Jeu de valeurs FINESS contenant les types d'objet enregistrés et manipulés dans FINESS+."/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/jdv-j305-type-groupement-finess"/>
+      </reference>
+      <name value="Jdv J305 Type Groupement Finess"/>
+      <description value="Jeu de valeurs FINESS contenant les types de groupement utilisables dans FINESS. Groupement de coopération conventionnelle ou Groupement de coopération organique"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/jdv-j310-categorie-entite-geographique-exercice-finess"/>
+      </reference>
+      <name value="Jdv J310 Categorie Entite Geographique Exercice Finess"/>
+      <description value="Jeu de valeurs FINESS contenant les catégories d'entité géographique d'exercice spécifiques à FINESS"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/jdv-j313-usage-adresse-finess"/>
+      </reference>
+      <name value="Jdv J313 Usage Adresse Finess"/>
+      <description value="Jeu de valeurs FINESS contenant les usages des adresses associées aux entités enregistrés dans FINESS+"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
         <reference value="ValueSet/jdv-j322-type-act-enseignement-regulee-finess"/>
       </reference>
       <name value="Jdv J322 Type Act Enseignement Regulee Finess"/>
@@ -26190,6 +26289,17 @@
         <valueString value="ValueSet"/>
       </extension>
       <reference>
+        <reference value="ValueSet/jdv-j354-habilitation-finess"/>
+      </reference>
+      <name value="Jdv J354 Habilitation Finess"/>
+      <description value="Jeu de valeurs FINESS contenant les habilitations associées aux capacités des structures FINESS"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
         <reference value="ValueSet/jdv-j357-genre-capacite-finess"/>
       </reference>
       <name value="Jdv J357 Genre Capacite Finess"/>
@@ -26216,6 +26326,17 @@
       </reference>
       <name value="Jdv J365 Type Fermeture Ege Finess"/>
       <description value="Jeu de valeurs FINESS contenant les types de fermeture dédiées aux entités géographiques FINESS"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/jdv-j371-etat-objet-administratif-finess"/>
+      </reference>
+      <name value="Jdv J371 Etat Objet Administratif Finess"/>
+      <description value="Jeu de valeurs FINESS contenant les états élémentaires que peuvent porter les entités et activités FINESS+"/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -35424,10 +35545,10 @@
         <valueString value="ValueSet"/>
       </extension>
       <reference>
-        <reference value="ValueSet/vs-tre-r209-type-activite-all"/>
+        <reference value="ValueSet/vs-tre-r209-mode-fonctionnement-all"/>
       </reference>
-      <name value="Vs Tre R209 Type Activite All"/>
-      <description value="Jeu de valeurs ALL contenant les types d'activité"/>
+      <name value="Vs Tre R209 Mode Fonctionnement All"/>
+      <description value="Jeu de valeurs ALL contenant les modes de fonctionnement"/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -35457,9 +35578,9 @@
         <valueString value="ValueSet"/>
       </extension>
       <reference>
-        <reference value="ValueSet/vs-tre-r275-modalite-activite-all"/>
+        <reference value="ValueSet/vs-tre-r275-modalite-activite-smsse-regulee-all"/>
       </reference>
-      <name value="Vs Tre R275 Modalite Activite All"/>
+      <name value="Vs Tre R275 Modalite Activite Smsse Regulee All"/>
       <description value="Jeu de valeurs ALL contenant les modes d'application ou types de soins encadrant une activité"/>
       <exampleBoolean value="false"/>
     </resource>
@@ -35468,9 +35589,9 @@
         <valueString value="ValueSet"/>
       </extension>
       <reference>
-        <reference value="ValueSet/vs-tre-r276-forme-activite-all"/>
+        <reference value="ValueSet/vs-tre-r276-forme-activite-smsse-regulee-all"/>
       </reference>
-      <name value="Vs Tre R276 Forme Activite All"/>
+      <name value="Vs Tre R276 Forme Activite Smsse Regulee All"/>
       <description value="Jeu de valeurs ALL contenant les types d'organisation de prise en charge"/>
       <exampleBoolean value="false"/>
     </resource>
@@ -35479,10 +35600,10 @@
         <valueString value="ValueSet"/>
       </extension>
       <reference>
-        <reference value="ValueSet/vs-tre-r278-finess-convention-all"/>
+        <reference value="ValueSet/vs-tre-r278-engagement-all"/>
       </reference>
-      <name value="Vs Tre R278 Finess Convention All"/>
-      <description value="Jeu de valeurs ALL contenant les conventions du domaine social FINESS"/>
+      <name value="Vs Tre R278 Engagement All"/>
+      <description value="Jeu de valeurs ALL contenant les engagements FINESS"/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -35490,10 +35611,10 @@
         <valueString value="ValueSet"/>
       </extension>
       <reference>
-        <reference value="ValueSet/vs-tre-r279-clientele-all"/>
+        <reference value="ValueSet/vs-tre-r279-public-activite-smsse-regulee-all"/>
       </reference>
-      <name value="Vs Tre R279 Clientele All"/>
-      <description value="Jeu de valeurs ALL contenant le référentiel des codes départements et collectivités d’outre-mer provenant du COG INSEE + Monaco"/>
+      <name value="Vs Tre R279 Public Activite Smsse Regulee All"/>
+      <description value="Jeu de valeurs ALL contenant les agrégats des activitées SMSSE régulées pour le public de niveau 1"/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -35501,10 +35622,10 @@
         <valueString value="ValueSet"/>
       </extension>
       <reference>
-        <reference value="ValueSet/vs-tre-r280-discipline-equipement-social-all"/>
+        <reference value="ValueSet/vs-tre-r280-activite-sociale-regulee-all"/>
       </reference>
-      <name value="Vs Tre R280 Discipline Equipement Social All"/>
-      <description value="Jeu de valeurs ALL contenant les disciplines d'équipement pour le social"/>
+      <name value="Vs Tre R280 Activite Sociale Regulee All"/>
+      <description value="Jeu de valeurs ALL contenant les activités régulées pour le social"/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -35512,9 +35633,9 @@
         <valueString value="ValueSet"/>
       </extension>
       <reference>
-        <reference value="ValueSet/vs-tre-r281-discipline-enseignement-all"/>
+        <reference value="ValueSet/vs-tre-r281-enseignement-regulee-all"/>
       </reference>
-      <name value="Vs Tre R281 Discipline Enseignement All"/>
+      <name value="Vs Tre R281 Enseignement Regulee All"/>
       <description value="Jeu de valeurs ALL contenant les disciplines pour l'enseignement"/>
       <exampleBoolean value="false"/>
     </resource>
@@ -35534,10 +35655,10 @@
         <valueString value="ValueSet"/>
       </extension>
       <reference>
-        <reference value="ValueSet/vs-tre-r293-agregat-clientele-niv2-all"/>
+        <reference value="ValueSet/vs-tre-r293-agregat-public-activite-smsse-regulee-niv2-all"/>
       </reference>
-      <name value="Vs Tre R293 Agregat Clientele Niv2 All"/>
-      <description value="Jeu de valeurs ALL contenant les agrégats de clientèle niveau 2"/>
+      <name value="Vs Tre R293 Agregat Public Activite Smsse Regulee Niv2 All"/>
+      <description value="Jeu de valeurs ALL contenant les agrégats des activitées SMSSE régulées pour le public niveau 2"/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -35545,10 +35666,10 @@
         <valueString value="ValueSet"/>
       </extension>
       <reference>
-        <reference value="ValueSet/vs-tre-r294-agregat-clientele-niv3-all"/>
+        <reference value="ValueSet/vs-tre-r294-public-activite-smsse-regulee-niv3-all"/>
       </reference>
-      <name value="Vs Tre R294 Agregat Clientele Niv3 All"/>
-      <description value="Jeu de valeurs ALL contenant les agrégats de clientèle niveau 3"/>
+      <name value="Vs Tre R294 Public Activite Smsse Regulee Niv3 All"/>
+      <description value="Jeu de valeurs ALL contenant les activités SMSSE régulées pour le public de niveau 3"/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -35556,10 +35677,10 @@
         <valueString value="ValueSet"/>
       </extension>
       <reference>
-        <reference value="ValueSet/vs-tre-r295-agregat-discipline-enseign-niv1-all"/>
+        <reference value="ValueSet/vs-tre-r295-agregat-activite-enseignement-regulee-niv1-all"/>
       </reference>
-      <name value="Vs Tre R295 Agregat Discipline Enseign Niv1 All"/>
-      <description value="Jeu de valeurs ALL contenant les agrégats de disciplines pour l'enseignement niveau 1"/>
+      <name value="Vs Tre R295 Agregat Activite Enseignement Regulee Niv1 All"/>
+      <description value="Jeu de valeurs ALL contenant les agrégats des activités régulées de niveau 1 pour l'enseignement"/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -35567,10 +35688,10 @@
         <valueString value="ValueSet"/>
       </extension>
       <reference>
-        <reference value="ValueSet/vs-tre-r296-agregat-discipline-enseign-niv2-all"/>
+        <reference value="ValueSet/vs-tre-r296-agregat-activite-enseignement-regulee-niv2-all"/>
       </reference>
-      <name value="Vs Tre R296 Agregat Discipline Enseign Niv2 All"/>
-      <description value="Jeu de valeurs ALL contenant les agrégats de disciplines pour l'enseignement niveau 2"/>
+      <name value="Vs Tre R296 Agregat Activite Enseignement Regulee Niv2 All"/>
+      <description value="Jeu de valeurs ALL contenant les agrégats des activités régulées de niveau 2 pour l'enseignement"/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -35578,10 +35699,10 @@
         <valueString value="ValueSet"/>
       </extension>
       <reference>
-        <reference value="ValueSet/vs-tre-r297-agregat-discipline-enseign-niv3-all"/>
+        <reference value="ValueSet/vs-tre-r297-agregat-activite-enseignement-regulee-niv3-all"/>
       </reference>
-      <name value="Vs Tre R297 Agregat Discipline Enseign Niv3 All"/>
-      <description value="Jeu de valeurs ALL contenant les agrégats de disciplines pour l'enseignement niveau 3"/>
+      <name value="Vs Tre R297 Agregat Activite Enseignement Regulee Niv3 All"/>
+      <description value="Jeu de valeurs ALL contenant les agrégats des activités régulées de niveau 3 pour l'enseignement"/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -35589,10 +35710,10 @@
         <valueString value="ValueSet"/>
       </extension>
       <reference>
-        <reference value="ValueSet/vs-tre-r298-agregat-discipline-equip-soc-niv1-all"/>
+        <reference value="ValueSet/vs-tre-r298-activite-sociale-regulee-niv1-all"/>
       </reference>
-      <name value="Vs Tre R298 Agregat Discipline Equip Soc Niv1 All"/>
-      <description value="Jeu de valeurs ALL contenant les agrégats de disciplines d'équipement pour le social niveau 1"/>
+      <name value="Vs Tre R298 Activite Sociale Regulee Niv1 All"/>
+      <description value="Jeu de valeurs ALL contenant les agrégats des activités régulées de niveau 1 pour le social"/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -35600,10 +35721,10 @@
         <valueString value="ValueSet"/>
       </extension>
       <reference>
-        <reference value="ValueSet/vs-tre-r299-agregat-discipline-equip-soc-niv2-all"/>
+        <reference value="ValueSet/vs-tre-r299-activite-sociale-regulee-niv2-all"/>
       </reference>
-      <name value="Vs Tre R299 Agregat Discipline Equip Soc Niv2 All"/>
-      <description value="Jeu de valeurs ALL contenant les agrégats de disciplines d'équipement pour le social niveau 2"/>
+      <name value="Vs Tre R299 Activite Sociale Regulee Niv2 All"/>
+      <description value="Jeu de valeurs ALL contenant les agrégats des activités régulées de niveau 2 pour le social"/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -35622,10 +35743,10 @@
         <valueString value="ValueSet"/>
       </extension>
       <reference>
-        <reference value="ValueSet/vs-tre-r300-agregat-discipline-equip-soc-niv3-all"/>
+        <reference value="ValueSet/vs-tre-r300-activite-sociale-regulee-niv3-all"/>
       </reference>
-      <name value="Vs Tre R300 Agregat Discipline Equip Soc Niv3 All"/>
-      <description value="Jeu de valeurs ALL contenant les agrégats de disciplines d'équipement pour le social niveau 3"/>
+      <name value="Vs Tre R300 Activite Sociale Regulee Niv3 All"/>
+      <description value="Jeu de valeurs ALL contenant les agrégats des activités régulées de niveau 3 pour le social"/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -35637,17 +35758,6 @@
       </reference>
       <name value="Vs Tre R347 Activite Sanitaire Diverse Regulee All"/>
       <description value="Jeu de valeurs ALL contenant les activités sanitaires, utilisé pour décrire les Activités Sanitaires Diverses Régulées (ASDR)"/>
-      <exampleBoolean value="false"/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="ValueSet"/>
-      </extension>
-      <reference>
-        <reference value="ValueSet/vs-tre-r360-type-role-entite-groupe-all"/>
-      </reference>
-      <name value="Vs Tre R360 Type Role Entite Groupe All"/>
-      <description value="Jeu de valeurs ALL contenant les types de rôles que peuvent exercer des entités participants à des groupements"/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -35681,28 +35791,6 @@
       </reference>
       <name value="Vs Tre R363 Type Engagement All"/>
       <description value="Jeu de valeurs ALL contenant les grands types d'engagement pouvant être associés dans FINESS+ à des structures ou des activités."/>
-      <exampleBoolean value="false"/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="ValueSet"/>
-      </extension>
-      <reference>
-        <reference value="ValueSet/vs-tre-r365-etat-objet-all"/>
-      </reference>
-      <name value="Vs Tre R365 Etat Objet All"/>
-      <description value="Jeu de valeurs ALL contenant les états élémentaires que peuvent porter les entités et activités FINESS+"/>
-      <exampleBoolean value="false"/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="ValueSet"/>
-      </extension>
-      <reference>
-        <reference value="ValueSet/vs-tre-r366-type-objet-all"/>
-      </reference>
-      <name value="Vs Tre R366 Type Objet All"/>
-      <description value="Jeu de valeurs ALL contenant les types d'objet enregistrés et manipulés dans FINESS+."/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -35776,54 +35864,10 @@
         <valueString value="ValueSet"/>
       </extension>
       <reference>
-        <reference value="ValueSet/vs-tre-r376-type-evenement-administratif-all"/>
-      </reference>
-      <name value="Vs Tre R376 Type Evenement Administratif All"/>
-      <description value="Jeu de valeurs ALL contenant les événements affectant le cycle de vie des entités et activités enrgeistrées dans FINESS+"/>
-      <exampleBoolean value="false"/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="ValueSet"/>
-      </extension>
-      <reference>
-        <reference value="ValueSet/vs-tre-r377-usage-adresse-all"/>
-      </reference>
-      <name value="Vs Tre R377 Usage Adresse All"/>
-      <description value="Jeu de valeurs ALL contenant les usages des adresses associées aux entités enregistrés dans FINESS+"/>
-      <exampleBoolean value="false"/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="ValueSet"/>
-      </extension>
-      <reference>
         <reference value="ValueSet/vs-tre-r378-motif-arrete-all"/>
       </reference>
       <name value="Vs Tre R378 Motif Arrete All"/>
       <description value="Jeu de valeurs ALL contenant les motifs des arrêtés enregsitrées dans FINESS+"/>
-      <exampleBoolean value="false"/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="ValueSet"/>
-      </extension>
-      <reference>
-        <reference value="ValueSet/vs-tre-r379-systeme-information-all"/>
-      </reference>
-      <name value="Vs Tre R379 Systeme Information All"/>
-      <description value="Jeu de valeurs ALL contenant les systemes d'information en relation avec FINESS"/>
-      <exampleBoolean value="false"/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="ValueSet"/>
-      </extension>
-      <reference>
-        <reference value="ValueSet/vs-tre-r380-habilitation-all"/>
-      </reference>
-      <name value="Vs Tre R380 Habilitation All"/>
-      <description value="Jeu de valeurs ALL contenant les habilitations associées aux capacités des structures FINESS"/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -35886,28 +35930,6 @@
         <valueString value="ValueSet"/>
       </extension>
       <reference>
-        <reference value="ValueSet/vs-tre-r386-macro-etat-objet-administratif-all"/>
-      </reference>
-      <name value="Vs Tre R386 Macro Etat Objet Administratif All"/>
-      <description value="Jeu de valeurs ALL contenant les macro-etat des structures FINESS qui dérivent de l'état de l'objet. Permet de distinguer les structures actives de celles inactives."/>
-      <exampleBoolean value="false"/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="ValueSet"/>
-      </extension>
-      <reference>
-        <reference value="ValueSet/vs-tre-r387-type-groupement-all"/>
-      </reference>
-      <name value="Vs Tre R387 Type Groupement All"/>
-      <description value="Jeu de valeurs ALL contenant les types de groupement utilisables dans FINESS. Groupement de coopération conventionnelle ou Groupement de coopération organique"/>
-      <exampleBoolean value="false"/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="ValueSet"/>
-      </extension>
-      <reference>
         <reference value="ValueSet/vs-tre-r388-type-logement-all"/>
       </reference>
       <name value="Vs Tre R388 Type Logement All"/>
@@ -35941,10 +35963,10 @@
         <valueString value="ValueSet"/>
       </extension>
       <reference>
-        <reference value="ValueSet/vs-tre-r63-agregat-categorie-etablissement-niv1-all"/>
+        <reference value="ValueSet/vs-tre-r63-categorie-entite-geographique-exercice-niv1-all"/>
       </reference>
-      <name value="Vs Tre R63 Agregat Categorie Etablissement Niv1 All"/>
-      <description value="Jeu de valeurs ALL contenant les agrégats de catégories d'établissements niveau 1"/>
+      <name value="Vs Tre R63 Categorie Entite Geographique Exercice Niv1 All"/>
+      <description value="Jeu de valeurs ALL contenant les catégories des entités géographiques d'exercice de niveau 1"/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -35952,10 +35974,10 @@
         <valueString value="ValueSet"/>
       </extension>
       <reference>
-        <reference value="ValueSet/vs-tre-r64-agregat-categorie-etablissement-niv2-all"/>
+        <reference value="ValueSet/vs-tre-r64-categorie-entite-geographique-exercice-niv2-all"/>
       </reference>
-      <name value="Vs Tre R64 Agregat Categorie Etablissement Niv2 All"/>
-      <description value="Jeu de valeurs ALL contenant les agrégats de catégories d'établissements niveau 2"/>
+      <name value="Vs Tre R64 Categorie Entite Geographique Exercice Niv2 All"/>
+      <description value="Jeu de valeurs ALL contenant les catégories des entités géographiques d'exercice de niveau 2"/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -35963,10 +35985,10 @@
         <valueString value="ValueSet"/>
       </extension>
       <reference>
-        <reference value="ValueSet/vs-tre-r65-agregat-categorie-etablissement-niv3-all"/>
+        <reference value="ValueSet/vs-tre-r65-categorie-entite-geographique-exercice-niv3-all"/>
       </reference>
-      <name value="Vs Tre R65 Agregat Categorie Etablissement Niv3 All"/>
-      <description value="Jeu de valeurs ALL contenant les agrégats de catégories d'établissements niveau 3"/>
+      <name value="Vs Tre R65 Categorie Entite Geographique Exercice Niv3 All"/>
+      <description value="Jeu de valeurs ALL contenant les catégories des entités géographiques d'exercice de niveau 3"/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>

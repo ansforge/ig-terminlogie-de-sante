@@ -1,11 +1,11 @@
 {
   "resourceType" : "ValueSet",
-  "id" : "598d4790-8074-4426-8d0d-a79ff5296634-2871",
-  "url" : "http://hl7.org/fhir/comparison/ValueSet/598d4790-8074-4426-8d0d-a79ff5296634-2871",
+  "id" : "4cd2faaa-145b-40ae-bc22-4d61a980e3fd-2871",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/4cd2faaa-145b-40ae-bc22-4d61a980e3fd-2871",
   "name" : "IntersectionJdvUfcvCodeEntreeCisisAndJdvUfcvCodeEntreeCisis",
   "title" : "Intersection of JDV UFCV Code Entree CISIS And JDV UFCV Code Entree CISIS",
   "status" : "active",
-  "date" : "2025-06-11T14:49:30+00:00",
+  "date" : "2025-06-12T14:18:27+00:00",
   "compose" : {
     "include" : [{
       "concept" : [{
@@ -118,11 +118,11 @@
       },
       {
         "code" : "GEN-409",
-        "display" : "Fréq. s/s aimant dernier contrôle"
+        "display" : "Tension batterie"
       },
       {
         "code" : "GEN-410",
-        "display" : "Tension batterie"
+        "display" : "Fréq. s/s aimant dernier contrôle"
       }]
     },
     {

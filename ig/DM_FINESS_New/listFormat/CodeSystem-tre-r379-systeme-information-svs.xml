@@ -2,7 +2,7 @@
 <RetrieveValueSetResponse xmlns="urn:ihe:iti:svs:2008"
                           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
    <ValueSet dateFin=""
-             dateMaj="20241230120000"
+             dateMaj="20250611120000"
              dateValid="19000101000000"
              description="Nomenclature des systemes d’information généralement déclarés pour définir les caractéristiques des identifiants ou des événements"
              displayName="TreR379SystemeInformation"

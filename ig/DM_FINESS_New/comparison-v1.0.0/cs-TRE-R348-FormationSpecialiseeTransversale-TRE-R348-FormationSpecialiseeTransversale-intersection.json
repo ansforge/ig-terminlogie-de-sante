@@ -1,11 +1,11 @@
 {
   "resourceType" : "CodeSystem",
-  "id" : "598d4790-8074-4426-8d0d-a79ff5296634-570",
-  "url" : "http://hl7.org/fhir/comparison/CodeSystem/598d4790-8074-4426-8d0d-a79ff5296634-570",
+  "id" : "4cd2faaa-145b-40ae-bc22-4d61a980e3fd-570",
+  "url" : "http://hl7.org/fhir/comparison/CodeSystem/4cd2faaa-145b-40ae-bc22-4d61a980e3fd-570",
   "name" : "IntersectionTRE_R348_FormationSpecialiseeTransversaleAndTRE_R348_FormationSpecialiseeTransversale",
   "title" : "Intersection of null And null",
   "status" : "active",
-  "date" : "2025-06-11T14:49:30+00:00",
+  "date" : "2025-06-12T14:18:26+00:00",
   "property" : [{
     "code" : "dateValid",
     "description" : "date de validité d'un code concept",
