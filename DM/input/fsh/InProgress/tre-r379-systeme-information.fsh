@@ -3,20 +3,19 @@ Id: tre-r379-systeme-information
 Title: "Tre R379 Systeme Information"
 Description: "Nomenclature des systemes d’information généralement déclarés pour définir les caractéristiques des identifiants ou des événements"
 * ^meta.versionId = "1"
-* ^meta.lastUpdated = "2024-12-30T12:00:00+01:00"
+* ^meta.lastUpdated = "2025-06-11T12:00:00+01:00"
 * ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablecodesystem"
 * ^extension.url = "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod"
 * ^extension.valuePeriod.start = "1900-01-01T00:00:00+01:00"
 * ^url = "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r379-systeme-information"
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value = "urn:oid:1.2.250.1.213.1.6.1.294"
-* ^version = "20241230120000"
+* ^version = "20250611120000"
 * ^status = #active
 * ^experimental = false
-* ^date = "2024-12-30T12:00:00+01:00"
+* ^date = "2025-06-11T12:00:00+01:00"
 * ^publisher = "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris"
 * ^caseSensitive = false
-* ^valueSet = "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r379-systeme-information?vs"
 * ^content = #complete
 * ^property[0].code = #dateValid
 * ^property[=].description = "date de validité d'un code concept"
@@ -39,6 +38,9 @@ Description: "Nomenclature des systemes d’information généralement déclaré
 * ^property[=].uri = "http://hl7.org/fhir/concept-properties#retirementDate"
 * ^property[=].description = "The date at which a concept was retired"
 * ^property[=].type = #dateTime
+* ^property[+].code = #finess
+* ^property[=].description = "Permet de définir les codes concept de la TRE utilisés par FINESS"
+* ^property[=].type = #boolean
 * #01 "FINESS"
 * #01 ^property[0].code = #dateValid
 * #01 ^property[=].valueDateTime = "1900-01-01T00:00:00+01:00"
@@ -46,6 +48,8 @@ Description: "Nomenclature des systemes d’information généralement déclaré
 * #01 ^property[=].valueDateTime = "1900-01-01T00:00:00+01:00"
 * #01 ^property[+].code = #status
 * #01 ^property[=].valueCode = #active
+* #01 ^property[+].code = #finess
+* #01 ^property[=].valueBoolean = true
 * #02 "ARHGOS"
 * #02 ^property[0].code = #dateValid
 * #02 ^property[=].valueDateTime = "1900-01-01T00:00:00+01:00"
@@ -53,6 +57,8 @@ Description: "Nomenclature des systemes d’information généralement déclaré
 * #02 ^property[=].valueDateTime = "1900-01-01T00:00:00+01:00"
 * #02 ^property[+].code = #status
 * #02 ^property[=].valueCode = #active
+* #02 ^property[+].code = #finess
+* #02 ^property[=].valueBoolean = true
 * #03 "SIRENE"
 * #03 ^property[0].code = #dateValid
 * #03 ^property[=].valueDateTime = "1900-01-01T00:00:00+01:00"
@@ -60,6 +66,8 @@ Description: "Nomenclature des systemes d’information généralement déclaré
 * #03 ^property[=].valueDateTime = "1900-01-01T00:00:00+01:00"
 * #03 ^property[+].code = #status
 * #03 ^property[=].valueCode = #active
+* #03 ^property[+].code = #finess
+* #03 ^property[=].valueBoolean = true
 * #04 "PHARMA-SI"
 * #04 ^property[0].code = #dateValid
 * #04 ^property[=].valueDateTime = "1900-01-01T00:00:00+01:00"
@@ -67,6 +75,8 @@ Description: "Nomenclature des systemes d’information généralement déclaré
 * #04 ^property[=].valueDateTime = "1900-01-01T00:00:00+01:00"
 * #04 ^property[+].code = #status
 * #04 ^property[=].valueCode = #active
+* #04 ^property[+].code = #finess
+* #04 ^property[=].valueBoolean = true
 * #05 "BIO2"
 * #05 ^property[0].code = #dateValid
 * #05 ^property[=].valueDateTime = "1900-01-01T00:00:00+01:00"
@@ -74,3 +84,5 @@ Description: "Nomenclature des systemes d’information généralement déclaré
 * #05 ^property[=].valueDateTime = "1900-01-01T00:00:00+01:00"
 * #05 ^property[+].code = #status
 * #05 ^property[=].valueCode = #active
+* #05 ^property[+].code = #finess
+* #05 ^property[=].valueBoolean = true
