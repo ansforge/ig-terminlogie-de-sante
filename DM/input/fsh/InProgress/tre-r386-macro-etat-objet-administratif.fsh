@@ -16,7 +16,6 @@ Description: "Nomenclature des macro-etat des structures FINESS qui dérivent de
 * ^date = "2024-12-30T12:00:00+01:00"
 * ^publisher = "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris"
 * ^caseSensitive = false
-* ^valueSet = "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r386-macro-etat-objet-administratif?vs"
 * ^content = #complete
 * ^property[0].code = #dateValid
 * ^property[=].description = "date de validité d'un code concept"
@@ -39,6 +38,9 @@ Description: "Nomenclature des macro-etat des structures FINESS qui dérivent de
 * ^property[=].uri = "http://hl7.org/fhir/concept-properties#retirementDate"
 * ^property[=].description = "The date at which a concept was retired"
 * ^property[=].type = #dateTime
+* ^property[+].code = #finess
+* ^property[=].description = "Permet de définir les codes concept de la TRE utilisés par FINESS"
+* ^property[=].type = #boolean
 * #A "Actif"
 * #A ^property[0].code = #dateValid
 * #A ^property[=].valueDateTime = "1900-01-01T00:00:00+01:00"
@@ -46,6 +48,8 @@ Description: "Nomenclature des macro-etat des structures FINESS qui dérivent de
 * #A ^property[=].valueDateTime = "1900-01-01T00:00:00+01:00"
 * #A ^property[+].code = #status
 * #A ^property[=].valueCode = #active
+* #A ^property[+].code = #finess
+* #A ^property[=].valueBoolean = true
 * #I "Inactif"
 * #I ^property[0].code = #dateValid
 * #I ^property[=].valueDateTime = "1900-01-01T00:00:00+01:00"
@@ -53,3 +57,5 @@ Description: "Nomenclature des macro-etat des structures FINESS qui dérivent de
 * #I ^property[=].valueDateTime = "1900-01-01T00:00:00+01:00"
 * #I ^property[+].code = #status
 * #I ^property[=].valueCode = #active
+* #I ^property[+].code = #finess
+* #I ^property[=].valueBoolean = true
