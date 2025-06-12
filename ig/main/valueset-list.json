@@ -5442,6 +5442,17 @@
       "sources" : ["2.16.840.1.113883.1.11.78"]
     },
     {
+      "url" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-hl7-v3-ObservationMethod-cisis",
+      "version" : "20250611085200",
+      "status" : "active",
+      "name" : "ObservationMethod",
+      "title" : "ObservationMethod",
+      "description" : "ObservationMethod",
+      "systems" : ["http://terminology.hl7.org/CodeSystem/v3-ObservationMethod"],
+      "oids" : ["2.16.840.1.113883.1.11.14079"],
+      "sources" : ["2.16.840.1.113883.1.11.14079"]
+    },
+    {
       "url" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-hl7-v3-ParticipationFunction-cisis",
       "version" : "20250606103857",
       "status" : "active",

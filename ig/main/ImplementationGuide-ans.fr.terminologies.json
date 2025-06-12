@@ -10,7 +10,7 @@
   "name" : "Terminologies",
   "title" : "Terminologies  de Santé",
   "status" : "active",
-  "date" : "2025-06-11T04:27:56+00:00",
+  "date" : "2025-06-12T04:25:32+00:00",
   "publisher" : "ANS",
   "contact" : [{
     "name" : "ANS",
@@ -32467,6 +32467,18 @@
       },
       "name" : "ObservationInterpretation",
       "description" : "ObservationInterpretation",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      }],
+      "reference" : {
+        "reference" : "ValueSet/jdv-hl7-v3-ObservationMethod-cisis"
+      },
+      "name" : "ObservationMethod",
+      "description" : "ObservationMethod",
       "exampleBoolean" : false
     },
     {

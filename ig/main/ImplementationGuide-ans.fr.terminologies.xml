@@ -11,7 +11,7 @@
   <name value="Terminologies"/>
   <title value="Terminologies  de Santé"/>
   <status value="active"/>
-  <date value="2025-06-11T04:27:56+00:00"/>
+  <date value="2025-06-12T04:25:32+00:00"/>
   <publisher value="ANS"/>
   <contact>
     <name value="ANS"/>
@@ -25323,6 +25323,17 @@
       </reference>
       <name value="ObservationInterpretation"/>
       <description value="ObservationInterpretation"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/jdv-hl7-v3-ObservationMethod-cisis"/>
+      </reference>
+      <name value="ObservationMethod"/>
+      <description value="ObservationMethod"/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
