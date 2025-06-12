@@ -18,7 +18,6 @@ Description: "Nomenclature des types des adresses"
 * ^date = "2024-12-30T12:00:00+01:00"
 * ^publisher = "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris"
 * ^caseSensitive = false
-* ^valueSet = "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r377-usage-adresse?vs"
 * ^content = #complete
 * ^property[0].code = #dateValid
 * ^property[=].description = "date de validité d'un code concept"
@@ -41,6 +40,9 @@ Description: "Nomenclature des types des adresses"
 * ^property[=].uri = "http://hl7.org/fhir/concept-properties#retirementDate"
 * ^property[=].description = "The date at which a concept was retired"
 * ^property[=].type = #dateTime
+* ^property[+].code = #finess
+* ^property[=].description = "Permet de définir les codes concept de la TRE utilisés par FINESS"
+* ^property[=].type = #boolean
 * #01 "Adresse administrative"
 * #01 ^designation.language = #fr-FR
 * #01 ^designation.use.system = "http://snomed.info/sct"
@@ -52,6 +54,8 @@ Description: "Nomenclature des types des adresses"
 * #01 ^property[=].valueDateTime = "1900-01-01T00:00:00+01:00"
 * #01 ^property[+].code = #status
 * #01 ^property[=].valueCode = #active
+* #01 ^property[+].code = #finess
+* #01 ^property[=].valueBoolean = true
 * #02 "Adresses de correspondance"
 * #02 ^designation.language = #fr-FR
 * #02 ^designation.use.system = "http://snomed.info/sct"
@@ -63,6 +67,8 @@ Description: "Nomenclature des types des adresses"
 * #02 ^property[=].valueDateTime = "1900-01-01T00:00:00+01:00"
 * #02 ^property[+].code = #status
 * #02 ^property[=].valueCode = #active
+* #02 ^property[+].code = #finess
+* #02 ^property[=].valueBoolean = true
 * #03 "Adresse géographique du lieu d'exercice"
 * #03 ^designation.language = #fr-FR
 * #03 ^designation.use.system = "http://snomed.info/sct"
@@ -74,6 +80,8 @@ Description: "Nomenclature des types des adresses"
 * #03 ^property[=].valueDateTime = "1900-01-01T00:00:00+01:00"
 * #03 ^property[+].code = #status
 * #03 ^property[=].valueCode = #active
+* #03 ^property[+].code = #finess
+* #03 ^property[=].valueBoolean = true
 * #04 "Adresse d'une annexe"
 * #04 ^designation.language = #fr-FR
 * #04 ^designation.use.system = "http://snomed.info/sct"
@@ -85,6 +93,8 @@ Description: "Nomenclature des types des adresses"
 * #04 ^property[=].valueDateTime = "1900-01-01T00:00:00+01:00"
 * #04 ^property[+].code = #status
 * #04 ^property[=].valueCode = #active
+* #04 ^property[+].code = #finess
+* #04 ^property[=].valueBoolean = true
 * #05 "Adresse de contact de crise"
 * #05 ^designation.language = #fr-FR
 * #05 ^designation.use.system = "http://snomed.info/sct"
@@ -96,6 +106,8 @@ Description: "Nomenclature des types des adresses"
 * #05 ^property[=].valueDateTime = "1900-01-01T00:00:00+01:00"
 * #05 ^property[+].code = #status
 * #05 ^property[=].valueCode = #active
+* #05 ^property[+].code = #finess
+* #05 ^property[=].valueBoolean = true
 * #06 "Adresse de l'accueil du lieu d'exercice"
 * #06 ^designation.language = #fr-FR
 * #06 ^designation.use.system = "http://snomed.info/sct"
@@ -107,3 +119,5 @@ Description: "Nomenclature des types des adresses"
 * #06 ^property[=].valueDateTime = "1900-01-01T00:00:00+01:00"
 * #06 ^property[+].code = #status
 * #06 ^property[=].valueCode = #active
+* #06 ^property[+].code = #finess
+* #06 ^property[=].valueBoolean = true
