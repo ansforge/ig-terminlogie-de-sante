@@ -37,8 +37,8 @@ Description: "Catégorie d'établissements"
 * ^property[=].uri = "http://hl7.org/fhir/concept-properties#retirementDate"
 * ^property[=].description = "Date Concept was retired"
 * ^property[=].type = #dateTime
-* ^property[+].code = #ror
-* ^property[=].description = "Permet de définir les codes concept de la TRE qui appartiennent au ROR"
+* ^property[+].code = #finess
+* ^property[=].description = "Permet de définir les codes concept de la TRE qui appartiennent à FINESS"
 * ^property[=].type = #boolean
 * #001 "Autres lits de m.R."
 * #001 ^designation[0].language = #fr-FR
@@ -4364,8 +4364,8 @@ Description: "Catégorie d'établissements"
 * #700 ^property[=].valueDateTime = "2024-10-25T12:00:00+01:00"
 * #700 ^property[+].code = #status
 * #700 ^property[=].valueCode = #active
-* #700 ^property[+].code = #ror
-* #700 ^property[=].valueBoolean = true
+* #700 ^property[+].code = #finess
+* #700 ^property[=].valueBoolean = false
 * #701 "Maison des adolescents (MDA)" "Catégorie créée à la demande du ROR. A date aucun enregistrement n'est prévu dans FINESS pour cette catégorie"
 * #701 ^designation[0].language = #fr-FR
 * #701 ^designation[=].use.system = "http://snomed.info/sct"
@@ -4377,8 +4377,8 @@ Description: "Catégorie d'établissements"
 * #701 ^property[=].valueDateTime = "2024-10-25T12:00:00+01:00"
 * #701 ^property[+].code = #status
 * #701 ^property[=].valueCode = #active
-* #701 ^property[+].code = #ror
-* #701 ^property[=].valueBoolean = true
+* #701 ^property[+].code = #finess
+* #701 ^property[=].valueBoolean = false
 * #702 "Point Accueil Ecoute Jeunes (PAEJ)" "Catégorie créée à la demande du ROR. A date aucun enregistrement n'est prévu dans FINESS pour cette catégorie"
 * #702 ^designation[0].language = #fr-FR
 * #702 ^designation[=].use.system = "http://snomed.info/sct"
@@ -4390,8 +4390,8 @@ Description: "Catégorie d'établissements"
 * #702 ^property[=].valueDateTime = "2024-10-25T12:00:00+01:00"
 * #702 ^property[+].code = #status
 * #702 ^property[=].valueCode = #active
-* #702 ^property[+].code = #ror
-* #702 ^property[=].valueBoolean = true
+* #702 ^property[+].code = #finess
+* #702 ^property[=].valueBoolean = false
 * #703 "Espace Santé Jeunes (ESJ)"
 * #703 ^designation[0].language = #fr-FR
 * #703 ^designation[=].use = $sct#900000000000013009
@@ -4402,5 +4402,5 @@ Description: "Catégorie d'établissements"
 * #703 ^property[=].valueDateTime = "2025-04-25T12:00:00+01:00"
 * #703 ^property[+].code = #status
 * #703 ^property[=].valueCode = #active
-* #703 ^property[+].code = #ror
-* #703 ^property[=].valueBoolean = true
+* #703 ^property[+].code = #finess
+* #703 ^property[=].valueBoolean = false
