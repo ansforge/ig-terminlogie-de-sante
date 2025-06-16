@@ -1,11 +1,11 @@
 {
   "resourceType" : "ValueSet",
-  "id" : "c4b2138b-579c-4093-8d91-3dc4d4c22045-1379",
-  "url" : "http://hl7.org/fhir/comparison/ValueSet/c4b2138b-579c-4093-8d91-3dc4d4c22045-1379",
+  "id" : "58ea2990-fa3c-4ab6-8cb3-d7118e1b8e9b-1379",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/58ea2990-fa3c-4ab6-8cb3-d7118e1b8e9b-1379",
   "name" : "UnionJDV_J285_Besoins_SERAFINAndJDV_J285_Besoins_SERAFIN",
   "title" : "Union of null And null",
   "status" : "active",
-  "date" : "2025-06-16T10:47:19+00:00",
+  "date" : "2025-06-16T15:42:16+00:00",
   "jurisdiction" : [{
     "coding" : [{
       "system" : "urn:iso:std:iso:3166",
