@@ -1,11 +1,11 @@
 {
   "resourceType" : "CodeSystem",
-  "id" : "4cd2faaa-145b-40ae-bc22-4d61a980e3fd-23",
-  "url" : "http://hl7.org/fhir/comparison/CodeSystem/4cd2faaa-145b-40ae-bc22-4d61a980e3fd-23",
+  "id" : "c4b2138b-579c-4093-8d91-3dc4d4c22045-23",
+  "url" : "http://hl7.org/fhir/comparison/CodeSystem/c4b2138b-579c-4093-8d91-3dc4d4c22045-23",
   "name" : "UnionTRE_A06_FormatCodeComplementaireAndTRE_A06_FormatCodeComplementaire",
   "title" : "Union of null And null",
   "status" : "active",
-  "date" : "2025-06-12T14:18:26+00:00",
+  "date" : "2025-06-16T10:47:18+00:00",
   "jurisdiction" : [{
     "coding" : [{
       "system" : "urn:iso:std:iso:3166",

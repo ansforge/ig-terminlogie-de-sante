@@ -1,11 +1,11 @@
 {
   "resourceType" : "CodeSystem",
-  "id" : "4cd2faaa-145b-40ae-bc22-4d61a980e3fd-192",
-  "url" : "http://hl7.org/fhir/comparison/CodeSystem/4cd2faaa-145b-40ae-bc22-4d61a980e3fd-192",
+  "id" : "c4b2138b-579c-4093-8d91-3dc4d4c22045-192",
+  "url" : "http://hl7.org/fhir/comparison/CodeSystem/c4b2138b-579c-4093-8d91-3dc4d4c22045-192",
   "name" : "IntersectionTRE_R214_SpecialiteUniteAndTRE_R214_SpecialiteUnite",
   "title" : "Intersection of null And null",
   "status" : "retired",
-  "date" : "2025-06-12T14:18:26+00:00",
+  "date" : "2025-06-16T10:47:19+00:00",
   "property" : [{
     "code" : "dateValid",
     "description" : "date de validité d'un code concept",

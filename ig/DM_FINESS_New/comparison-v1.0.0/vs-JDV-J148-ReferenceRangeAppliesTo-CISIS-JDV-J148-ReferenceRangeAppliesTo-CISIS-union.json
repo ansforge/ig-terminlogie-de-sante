@@ -1,11 +1,11 @@
 {
   "resourceType" : "ValueSet",
-  "id" : "4cd2faaa-145b-40ae-bc22-4d61a980e3fd-983",
-  "url" : "http://hl7.org/fhir/comparison/ValueSet/4cd2faaa-145b-40ae-bc22-4d61a980e3fd-983",
+  "id" : "c4b2138b-579c-4093-8d91-3dc4d4c22045-983",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/c4b2138b-579c-4093-8d91-3dc4d4c22045-983",
   "name" : "UnionJDV_J148_ReferenceRangeAppliesTo_CISISAndJDV_J148_ReferenceRangeAppliesTo_CISIS",
   "title" : "Union of null And null",
   "status" : "retired",
-  "date" : "2025-06-12T14:18:26+00:00",
+  "date" : "2025-06-16T10:47:19+00:00",
   "jurisdiction" : [{
     "coding" : [{
       "system" : "urn:iso:std:iso:3166",

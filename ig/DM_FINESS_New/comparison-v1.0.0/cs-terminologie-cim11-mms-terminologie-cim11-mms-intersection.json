@@ -1,11 +1,11 @@
 {
   "resourceType" : "CodeSystem",
-  "id" : "4cd2faaa-145b-40ae-bc22-4d61a980e3fd-777",
-  "url" : "http://hl7.org/fhir/comparison/CodeSystem/4cd2faaa-145b-40ae-bc22-4d61a980e3fd-777",
+  "id" : "c4b2138b-579c-4093-8d91-3dc4d4c22045-777",
+  "url" : "http://hl7.org/fhir/comparison/CodeSystem/c4b2138b-579c-4093-8d91-3dc4d4c22045-777",
   "name" : "IntersectionCIM11_MMSAndCIM11_MMS",
   "title" : "Intersection of Classification internationale des maladies et des problèmes de santé connexes - 11ème révision And Classification internationale des maladies et des problèmes de santé connexes - 11ème révision",
   "status" : "active",
-  "date" : "2025-06-12T14:18:26+00:00",
+  "date" : "2025-06-16T10:47:19+00:00",
   "filter" : [{
     "code" : "root",
     "operator" : ["="],

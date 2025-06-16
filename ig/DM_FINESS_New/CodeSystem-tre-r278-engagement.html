@@ -333,7 +333,7 @@
 <ul><li>Cette terminologie de référence (CodeSystem) nest pas utilisée ici; elle peut être utilisée ailleurs (par exemple spécifications et/ou implémentations qui utilisent ce contenu)</li></ul>
 
 
-  <div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"></p><a name="tre-r278-engagement"> </a><a name="hctre-r278-engagement"> </a><a name="tre-r278-engagement-fr-FR"> </a>
+  <div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"></p><a name="tre-r278-engagement"> </a><a name="hctre-r278-engagement"> </a>
 <div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px">version: 1; Dernière mise à jour : 2025-06-11 16:01:18+0000</p><p style="margin-bottom: 0px">Profil: <a href="http://hl7.org/fhir/R4/shareablecodesystem.html">Shareable CodeSystem</a></p></div><p><b>Propriétés</b></p><p><b>Cette terminologie de référence (CodeSystem) définit les propriétés suivantes pour ses concepts</b></p>
 <table class="grid"><tr><td><b>Nom</b></td><td><b>Code</b></td><td><b>URI</b></td><td><b>Type</b></td><td><b>Description</b></td></tr>
 <tr><td>dateValid</td>
@@ -371,13 +371,14 @@
 <td>https://smt.esante.gouv.fr/fhir/concept-properties#classeEngagement</td>
 <td>code</td>
 <td>Propriété permettant de renseigner les grands types d'engagement pour chaque type d'engagement présent dans cette TRE</td></tr></table><p><b>Concepts</b></p><p>This case-insensitive code system <code>https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r278-engagement</code> defines the following codes:</p>
-<table class="codes"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td><td><b>Définition</b></td><td><b>dateValid</b></td><td><b>dateMaj</b></td><td><b>dateFin</b></td><td><b>French (France) (fr)</b></td></tr>
+<table class="codes"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td><td><b>Définition</b></td><td><b>dateValid</b></td><td><b>dateMaj</b></td><td><b>dateFin</b></td><td><b>classeEngagement</b></td><td><b>French (France) (fr)</b></td></tr>
 <tr><td style="white-space:nowrap">ARRT<a name="tre-r278-engagement-ARRT"> </a></td>
 <td>Arrêté</td>
 <td></td>
 <td>1900-01-01T00:00:00+01:00</td>
 <td>1900-01-01T00:00:00+01:00</td>
 <td></td>
+<td>Engagement</td>
 <td></td></tr>
 <tr><td style="white-space:nowrap">CONV<a name="tre-r278-engagement-CONV"> </a></td>
 <td>Convention</td>
@@ -385,6 +386,7 @@
 <td>1900-01-01T00:00:00+01:00</td>
 <td>1900-01-01T00:00:00+01:00</td>
 <td></td>
+<td>Engagement</td>
 <td></td></tr>
 <tr><td style="white-space:nowrap">DISP<a name="tre-r278-engagement-DISP"> </a></td>
 <td>Dispositif</td>
@@ -392,6 +394,7 @@
 <td>1900-01-01T00:00:00+01:00</td>
 <td>1900-01-01T00:00:00+01:00</td>
 <td></td>
+<td>Engagement</td>
 <td></td></tr>
 <tr><td style="white-space:nowrap">LABL<a name="tre-r278-engagement-LABL"> </a></td>
 <td>Label</td>
@@ -399,6 +402,7 @@
 <td>1900-01-01T00:00:00+01:00</td>
 <td>1900-01-01T00:00:00+01:00</td>
 <td></td>
+<td>Engagement</td>
 <td></td></tr>
 <tr><td style="white-space:nowrap">ACI<a name="tre-r278-engagement-ACI"> </a></td>
 <td>Contrat tripartie CPTS/AM/ARS pour rémunération ACI</td>
@@ -406,6 +410,7 @@
 <td>2020-05-29T12:00:00+01:00</td>
 <td>2020-05-29T12:00:00+01:00</td>
 <td></td>
+<td>CONV</td>
 <td>Contrat ACI</td></tr>
 <tr><td style="white-space:nowrap">APL<a name="tre-r278-engagement-APL"> </a></td>
 <td>Aide Personalisée au Logement</td>
@@ -413,6 +418,7 @@
 <td>2018-10-26T12:00:00+01:00</td>
 <td>2018-10-26T12:00:00+01:00</td>
 <td></td>
+<td>CONV</td>
 <td></td></tr>
 <tr><td style="white-space:nowrap">ARR<a name="tre-r278-engagement-ARR"> </a></td>
 <td>Arrêté</td>
@@ -420,6 +426,7 @@
 <td>2024-01-01T12:00:00+01:00</td>
 <td>2024-01-01T12:00:00+01:00</td>
 <td></td>
+<td>ARRT</td>
 <td></td></tr>
 <tr><td style="white-space:nowrap">ASD<a name="tre-r278-engagement-ASD"> </a></td>
 <td>Convention aide sociale départementale</td>
@@ -427,6 +434,7 @@
 <td>2018-10-26T12:00:00+01:00</td>
 <td>2018-10-26T12:00:00+01:00</td>
 <td></td>
+<td>CONV</td>
 <td>Aide sociale Dépt.</td></tr>
 <tr><td style="white-space:nowrap">ASE<a name="tre-r278-engagement-ASE"> </a></td>
 <td>Convention aide sociale Etat</td>
@@ -434,6 +442,7 @@
 <td>2018-10-26T12:00:00+01:00</td>
 <td>2018-10-26T12:00:00+01:00</td>
 <td></td>
+<td>CONV</td>
 <td>Aide sociale Etat</td></tr>
 <tr><td style="white-space:nowrap">CPM<a name="tre-r278-engagement-CPM"> </a></td>
 <td>Signature d'une Convention d'Objectifs et de Moyens (CPOM)</td>
@@ -441,6 +450,7 @@
 <td>2018-10-26T12:00:00+01:00</td>
 <td>2018-10-26T12:00:00+01:00</td>
 <td></td>
+<td>CONV</td>
 <td>CPOM</td></tr>
 <tr><td style="white-space:nowrap">CPP<a name="tre-r278-engagement-CPP"> </a></td>
 <td>PFR Plateforme de répit financée par plusieurs financeurs</td>
@@ -448,6 +458,7 @@
 <td>2018-10-26T12:00:00+01:00</td>
 <td>2018-10-26T12:00:00+01:00</td>
 <td></td>
+<td>CONV</td>
 <td>PFR financée multi</td></tr>
 <tr><td style="white-space:nowrap">CPU<a name="tre-r278-engagement-CPU"> </a></td>
 <td>PFR Plateforme de répit financée par l'ARS uniquement</td>
@@ -455,6 +466,7 @@
 <td>2018-10-26T12:00:00+01:00</td>
 <td>2018-10-26T12:00:00+01:00</td>
 <td></td>
+<td>CONV</td>
 <td>PFR financée ARS</td></tr>
 <tr><td style="white-space:nowrap">DEA<a name="tre-r278-engagement-DEA"> </a></td>
 <td>Dispositif d'emploi accompagné</td>
@@ -462,6 +474,7 @@
 <td>2018-10-26T12:00:00+01:00</td>
 <td>2018-10-26T12:00:00+01:00</td>
 <td></td>
+<td>DISP</td>
 <td>Emploi accompagné</td></tr>
 <tr><td style="white-space:nowrap">DIS<a name="tre-r278-engagement-DIS"> </a></td>
 <td>Dispositif Article 51</td>
@@ -469,6 +482,7 @@
 <td>2023-01-27T12:00:00+01:00</td>
 <td>2023-01-27T12:00:00+01:00</td>
 <td></td>
+<td>DISP</td>
 <td>Dispositif Art. 51</td></tr>
 <tr><td style="white-space:nowrap">DIT<a name="tre-r278-engagement-DIT"> </a></td>
 <td>Dispositif Intégré</td>
@@ -476,6 +490,7 @@
 <td>2018-10-26T12:00:00+01:00</td>
 <td>2025-01-31T12:00:00+01:00</td>
 <td></td>
+<td>DISP</td>
 <td>Disp. Int.</td></tr>
 <tr><td style="white-space:nowrap">EMA<a name="tre-r278-engagement-EMA"> </a></td>
 <td>Equipe mobile d'appui pour la scolarisation jeunes handicap</td>
@@ -483,6 +498,7 @@
 <td>2020-01-31T12:00:00+01:00</td>
 <td>2020-01-31T12:00:00+01:00</td>
 <td></td>
+<td>DISP</td>
 <td></td></tr>
 <tr><td style="white-space:nowrap">EX1<a name="tre-r278-engagement-EX1"> </a></td>
 <td>Entrée dans l expérimentation de SPASAD seul</td>
@@ -490,6 +506,7 @@
 <td>2021-11-26T12:00:00+01:00</td>
 <td>2021-11-26T12:00:00+01:00</td>
 <td></td>
+<td>CONV</td>
 <td>Expé SPASAD seul</td></tr>
 <tr><td style="white-space:nowrap">EX2<a name="tre-r278-engagement-EX2"> </a></td>
 <td>Expérimentation SSIAD et/ou SAAD + SPASAD si GCSMS</td>
@@ -497,6 +514,7 @@
 <td>2021-11-26T12:00:00+01:00</td>
 <td>2021-11-26T12:00:00+01:00</td>
 <td></td>
+<td>CONV</td>
 <td>Expé Soins Aide GSMS</td></tr>
 <tr><td style="white-space:nowrap">EX3<a name="tre-r278-engagement-EX3"> </a></td>
 <td>Expériment. SSIAD et/ou SAAD + SPASAD si conv. Coopé.</td>
@@ -504,6 +522,7 @@
 <td>2021-11-26T12:00:00+01:00</td>
 <td>2021-11-26T12:00:00+01:00</td>
 <td></td>
+<td>CONV</td>
 <td>Exp Soins Aide Ccoop</td></tr>
 <tr><td style="white-space:nowrap">HPR<a name="tre-r278-engagement-HPR"> </a></td>
 <td>Hôpitaux de proximité</td>
@@ -511,6 +530,7 @@
 <td>2019-07-05T12:00:00+01:00</td>
 <td>2021-11-26T12:00:00+01:00</td>
 <td>2021-11-26T12:00:00+01:00</td>
+<td>LABL</td>
 <td>Hôpitaux de prox.</td></tr>
 <tr><td style="white-space:nowrap">JUS<a name="tre-r278-engagement-JUS"> </a></td>
 <td>Habilitation justice</td>
@@ -518,6 +538,7 @@
 <td>2018-10-26T12:00:00+01:00</td>
 <td>2018-10-26T12:00:00+01:00</td>
 <td></td>
+<td>CONV</td>
 <td></td></tr>
 <tr><td style="white-space:nowrap">MDI<a name="tre-r278-engagement-MDI"> </a></td>
 <td>Membre du Dispositif Intégré</td>
@@ -525,6 +546,7 @@
 <td>2025-01-31T12:00:00+01:00</td>
 <td>2025-01-31T12:00:00+01:00</td>
 <td></td>
+<td>DISP</td>
 <td>Membre Disp. Int.</td></tr>
 <tr><td style="white-space:nowrap">MIL<a name="tre-r278-engagement-MIL"> </a></td>
 <td>Conv hôpitaux militaires</td>
@@ -532,6 +554,7 @@
 <td>2018-10-26T12:00:00+01:00</td>
 <td>2018-10-26T12:00:00+01:00</td>
 <td></td>
+<td>CONV</td>
 <td>Conv. Hôp. militaire</td></tr>
 <tr><td style="white-space:nowrap">PAD<a name="tre-r278-engagement-PAD"> </a></td>
 <td>Convention tripartite étab personnes âgées dépendantes</td>
@@ -539,6 +562,7 @@
 <td>2021-11-26T12:00:00+01:00</td>
 <td>2021-11-26T12:00:00+01:00</td>
 <td>2021-11-26T12:00:00+01:00</td>
+<td>CONV</td>
 <td>conv.EHPAD</td></tr>
 <tr><td style="white-space:nowrap">PAP<a name="tre-r278-engagement-PAP"> </a></td>
 <td>Convention tripartie partielle étab pers âgées dépendantes</td>
@@ -546,6 +570,7 @@
 <td>2021-11-26T12:00:00+01:00</td>
 <td>2021-11-26T12:00:00+01:00</td>
 <td>2021-11-26T12:00:00+01:00</td>
+<td>CONV</td>
 <td>conv.EHPAD part.</td></tr>
 <tr><td style="white-space:nowrap">PCO<a name="tre-r278-engagement-PCO"> </a></td>
 <td>Plateforme coord. &amp; orientation pour enfants atteints de TND</td>
@@ -553,6 +578,7 @@
 <td>2020-01-31T12:00:00+01:00</td>
 <td>2020-01-31T12:00:00+01:00</td>
 <td></td>
+<td>CONV</td>
 <td>PCO TND</td></tr>
 <tr><td style="white-space:nowrap">PCP<a name="tre-r278-engagement-PCP"> </a></td>
 <td>Pôle de compétences et de prestations externalisées</td>
@@ -560,6 +586,7 @@
 <td>2018-10-26T12:00:00+01:00</td>
 <td>2018-10-26T12:00:00+01:00</td>
 <td></td>
+<td>DISP</td>
 <td>PCPE</td></tr>
 <tr><td style="white-space:nowrap">PEN<a name="tre-r278-engagement-PEN"> </a></td>
 <td>Convention établissement pénitentiaire</td>
@@ -567,6 +594,7 @@
 <td>2018-10-26T12:00:00+01:00</td>
 <td>2018-10-26T12:00:00+01:00</td>
 <td></td>
+<td>CONV</td>
 <td>Etab. Pénitentiaire</td></tr>
 <tr><td style="white-space:nowrap">PDI<a name="tre-r278-engagement-PDI"> </a></td>
 <td>Porteur du Dispositif Intégré</td>
@@ -574,6 +602,7 @@
 <td>2025-01-31T12:00:00+01:00</td>
 <td>2025-01-31T12:00:00+01:00</td>
 <td></td>
+<td>DISP</td>
 <td>Porteur Disp. Int.</td></tr>
 <tr><td style="white-space:nowrap">QAL<a name="tre-r278-engagement-QAL"> </a></td>
 <td>Agrément Qualité</td>
@@ -581,6 +610,7 @@
 <td>2018-10-26T12:00:00+01:00</td>
 <td>2018-10-26T12:00:00+01:00</td>
 <td></td>
+<td>CONV</td>
 <td></td></tr>
 <tr><td style="white-space:nowrap">REL<a name="tre-r278-engagement-REL"> </a></td>
 <td>Equipe relais</td>
@@ -588,6 +618,7 @@
 <td>2018-10-26T12:00:00+01:00</td>
 <td>2018-10-26T12:00:00+01:00</td>
 <td></td>
+<td>DISP</td>
 <td></td></tr>
 <tr><td style="white-space:nowrap">RSE<a name="tre-r278-engagement-RSE"> </a></td>
 <td>SAAD intervenant uniquement au sein de la résidence services</td>
@@ -595,6 +626,7 @@
 <td>2019-04-26T12:00:00+01:00</td>
 <td>2019-04-26T12:00:00+01:00</td>
 <td></td>
+<td>DISP</td>
 <td>Résidences services</td></tr>
 <tr><td style="white-space:nowrap">RUR<a name="tre-r278-engagement-RUR"> </a></td>
 <td>Maison d'Accueil Rurale pour Personnes Âgées (MARPA)</td>
@@ -602,6 +634,7 @@
 <td>2021-11-26T12:00:00+01:00</td>
 <td>2021-11-26T12:00:00+01:00</td>
 <td>2021-11-26T12:00:00+01:00</td>
+<td>LABL</td>
 <td>MARPA</td></tr>
 <tr><td style="white-space:nowrap">SAD<a name="tre-r278-engagement-SAD"> </a></td>
 <td>Convention SSIAD/SAAD (SAD)</td>
@@ -609,6 +642,7 @@
 <td>2024-01-26T12:00:00+01:00</td>
 <td>2024-01-26T12:00:00+01:00</td>
 <td></td>
+<td>CONV</td>
 <td></td></tr>
 <tr><td style="white-space:nowrap">SID<a name="tre-r278-engagement-SID"> </a></td>
 <td>Signature d'une convention de médicalisation avec un SSIAD</td>
@@ -616,6 +650,7 @@
 <td>2021-11-26T12:00:00+01:00</td>
 <td>2021-11-26T12:00:00+01:00</td>
 <td>2021-11-26T12:00:00+01:00</td>
+<td>CONV</td>
 <td>Convention SSIAD</td></tr>
 <tr><td style="white-space:nowrap">UEA<a name="tre-r278-engagement-UEA"> </a></td>
 <td>Unité d'enseignement élémentaire autisme</td>
@@ -623,6 +658,7 @@
 <td>2020-01-31T12:00:00+01:00</td>
 <td>2020-01-31T12:00:00+01:00</td>
 <td></td>
+<td>DISP</td>
 <td>UEEA</td></tr>
 <tr><td style="white-space:nowrap">UEE<a name="tre-r278-engagement-UEE"> </a></td>
 <td>Unité d'enseignement externe hors UEM</td>
@@ -630,6 +666,7 @@
 <td>2018-10-26T12:00:00+01:00</td>
 <td>2018-10-26T12:00:00+01:00</td>
 <td></td>
+<td>DISP</td>
 <td></td></tr>
 <tr><td style="white-space:nowrap">UEM<a name="tre-r278-engagement-UEM"> </a></td>
 <td>Unité d'enseignement en maternelle plan autisme</td>
@@ -637,6 +674,7 @@
 <td>2018-10-26T12:00:00+01:00</td>
 <td>2018-10-26T12:00:00+01:00</td>
 <td></td>
+<td>DISP</td>
 <td>UEM Plan Autisme</td></tr>
 <tr><td style="white-space:nowrap">UNI<a name="tre-r278-engagement-UNI"> </a></td>
 <td>Convention d'un CHR avec une Université</td>
@@ -644,6 +682,7 @@
 <td>2018-10-26T12:00:00+01:00</td>
 <td>2018-10-26T12:00:00+01:00</td>
 <td></td>
+<td>CONV</td>
 <td>Conv. CHR-Université</td></tr></table></div>
 </div>
   
@@ -693,7 +732,7 @@
 
 <div class="inner-wrapper">
   <p>
-    IG &#169; 2020+ <a style="color:var(--footer-hyperlink-text-color)" href="https://esante.gouv.fr">ANS</a>.  Package ans.fr.terminologies#0.1.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Thu, Jun 12, 2025 14:08+0000">2025-06-12</span>
+    IG &#169; 2020+ <a style="color:var(--footer-hyperlink-text-color)" href="https://esante.gouv.fr">ANS</a>.  Package ans.fr.terminologies#0.1.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Mon, Jun 16, 2025 10:40+0000">2025-06-16</span>
     <br/>
     <span style="color: var(--footer-highlight-text-color)"></span>
       Liens: <a style="color: var(--footer-hyperlink-text-color)" href="toc.html">Table des matières </a> |

@@ -1,11 +1,11 @@
 {
   "resourceType" : "CodeSystem",
-  "id" : "4cd2faaa-145b-40ae-bc22-4d61a980e3fd-689",
-  "url" : "http://hl7.org/fhir/comparison/CodeSystem/4cd2faaa-145b-40ae-bc22-4d61a980e3fd-689",
+  "id" : "c4b2138b-579c-4093-8d91-3dc4d4c22045-689",
+  "url" : "http://hl7.org/fhir/comparison/CodeSystem/c4b2138b-579c-4093-8d91-3dc4d4c22045-689",
   "name" : "UnionTRE_R66_CategorieEtablissementAndTRE_R66_CategorieEtablissement",
   "title" : "Union of null And null",
   "status" : "active",
-  "date" : "2025-06-12T14:18:26+00:00",
+  "date" : "2025-06-16T10:47:19+00:00",
   "jurisdiction" : [{
     "coding" : [{
       "system" : "urn:iso:std:iso:3166",
@@ -79,8 +79,8 @@
     "type" : "dateTime"
   },
   {
-    "code" : "ror",
-    "description" : "Permet de définir les codes concept de la TRE qui appartiennent au ROR",
+    "code" : "finess",
+    "description" : "Permet de définir les codes concept de la TRE qui appartiennent à FINESS",
     "type" : "boolean"
   }],
   "concept" : [{
@@ -14289,8 +14289,8 @@
       "valueCode" : "active"
     },
     {
-      "code" : "ror",
-      "valueBoolean" : true
+      "code" : "finess",
+      "valueBoolean" : false
     }]
   },
   {
@@ -14330,8 +14330,8 @@
       "valueCode" : "active"
     },
     {
-      "code" : "ror",
-      "valueBoolean" : true
+      "code" : "finess",
+      "valueBoolean" : false
     }]
   },
   {
@@ -14371,8 +14371,8 @@
       "valueCode" : "active"
     },
     {
-      "code" : "ror",
-      "valueBoolean" : true
+      "code" : "finess",
+      "valueBoolean" : false
     }]
   },
   {
@@ -14411,8 +14411,8 @@
       "valueCode" : "active"
     },
     {
-      "code" : "ror",
-      "valueBoolean" : true
+      "code" : "finess",
+      "valueBoolean" : false
     }]
   }]
 }
