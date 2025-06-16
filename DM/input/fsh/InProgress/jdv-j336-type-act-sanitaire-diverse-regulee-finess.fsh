@@ -17,4 +17,4 @@ Description: "Jeu de valeurs FINESS reprenant les types d'activité sanitaire r�
 * ^experimental = false
 * ^date = "2025-06-03T18:02:28.249+00:00"
 * ^publisher = "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris"
-* include codes from system $tre-r392-type-act-smsse-regule where natureActivite = "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r374-nature-activite-smsse-regulee|ASDR"
+* include codes from system $tre-r392-type-act-smsse-regule where natureActivite = "ASDR"
