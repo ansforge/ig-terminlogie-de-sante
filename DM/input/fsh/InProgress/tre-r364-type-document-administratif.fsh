@@ -41,9 +41,11 @@ Description: "Nomenclature des types de documents administratif ( exemple : agr�
 * ^property[=].description = "The date at which a concept was retired"
 * ^property[=].type = #dateTime
 * ^property[+].code = #informatif
+* ^property[=].uri = "http://hl7.org/fhir/concept-properties#informatif"
 * ^property[=].description = "Permet de définir les documents administratifs de type informatif"
 * ^property[=].type = #boolean
 * ^property[+].code = #justificatif
+* ^property[=].uri = "http://hl7.org/fhir/concept-properties#justificatif"
 * ^property[=].description = "Permet de définir les documents administratifs de type justificatif"
 * ^property[=].type = #boolean
 * #001 "Arrêté d'autorisation"
