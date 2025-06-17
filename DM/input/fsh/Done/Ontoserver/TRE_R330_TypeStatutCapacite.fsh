@@ -37,9 +37,9 @@ Description: "Permet de préciser le statut des capacités concernées"
 * ^property[=].uri = "http://hl7.org/fhir/concept-properties#retirementDate"
 * ^property[=].description = "Date Concept was retired"
 * ^property[=].type = #dateTime
-* ^property[+].code = #finess
-* ^property[=].uri = "http://hl7.org/fhir/concept-properties#finess"
-* ^property[=].description = "Permet de définir les codes concepts utilisés par FINESS+"
+* ^property[+].code = #JdvJ353TypeStatutCapaciteFiness
+* ^property[=].uri = "http://hl7.org/fhir/concept-properties#JdvJ353TypeStatutCapaciteFiness"
+* ^property[=].description = "Permet de définir les codes à inclure dans le JdvJ353TypeStatutCapaciteFiness"
 * ^property[=].type = #boolean
 * #01 "Installé" "Capacitaires physiquement installés de façon permanente dans une unité (capacitaires fermés compris)."
 * #01 ^property[0].code = #dateValid
@@ -101,7 +101,7 @@ Description: "Permet de préciser le statut des capacités concernées"
 * #08 ^property[=].valueDateTime = "2025-03-28T12:00:00+01:00"
 * #08 ^property[+].code = #status
 * #08 ^property[=].valueCode = #active
-* #08 ^property[+].code = #finess
+* #08 ^property[+].code = #JdvJ353TypeStatutCapaciteFiness
 * #08 ^property[=].valueBoolean = true
 * #09 "Autorisé"
 * #09 ^property[0].code = #dateValid
@@ -110,5 +110,5 @@ Description: "Permet de préciser le statut des capacités concernées"
 * #09 ^property[=].valueDateTime = "2025-03-28T12:00:00+01:00"
 * #09 ^property[+].code = #status
 * #09 ^property[=].valueCode = #active
-* #09 ^property[+].code = #finess
+* #09 ^property[+].code = #JdvJ353TypeStatutCapaciteFiness
 * #09 ^property[=].valueBoolean = true

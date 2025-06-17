@@ -41,7 +41,8 @@ Description: "Nomenclature des types de groupement utilisables dans FINESS. Grou
 * ^property[=].description = "The date at which a concept was retired"
 * ^property[=].type = #dateTime
 * ^property[+].code = #finess
-* ^property[=].description = "Permet de définir les codes concept de la TRE utilisés par FINESS"
+* ^property[=].uri = "http://hl7.org/fhir/concept-properties#finess"
+* ^property[=].description = "Permet de définir les codes concepts utilisés par FINESS+"
 * ^property[=].type = #boolean
 * #01 "Groupement de coopération conventionnelle"
 * #01 ^designation.language = #fr-FR

@@ -17,4 +17,4 @@ Description: "Jeu de valeurs FINESS contenant les types de fermeture dédiées a
 * ^experimental = false
 * ^date = "2025-02-22T18:02:28.249+00:00"
 * ^publisher = "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris"
-* include codes from system $tre-r286-type-fermeture where EGE = "true"
+* include codes from system $tre-r286-type-fermeture where JdvJ365TypeFermetureEgeFiness = "true"
