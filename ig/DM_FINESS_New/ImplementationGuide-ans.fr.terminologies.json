@@ -46095,6 +46095,18 @@
       "name" : "x_ActMoodDocumentObservation",
       "description" : "x_ActMoodDocumentObservation",
       "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      }],
+      "reference" : {
+        "reference" : "ValueSet/jdv-hl7-v3-xBasicConfidentialityKind-cisis"
+      },
+      "name" : "x_BasicConfidentialityKind",
+      "description" : "x_BasicConfidentialityKind",
+      "exampleBoolean" : false
     }],
     "page" : {
       "extension" : [{
