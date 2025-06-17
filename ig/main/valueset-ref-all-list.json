@@ -5661,6 +5661,17 @@
       "sources" : ["2.16.840.1.113883.1.11.18943"]
     },
     {
+      "url" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-hl7-v3-xBasicConfidentialityKind-cisis",
+      "version" : "20250616134739",
+      "status" : "active",
+      "name" : "XBasicConfidentialityKind",
+      "title" : "x_BasicConfidentialityKind",
+      "description" : "x_BasicConfidentialityKind",
+      "systems" : ["http://terminology.hl7.org/CodeSystem/v3-Confidentiality"],
+      "oids" : ["2.16.840.1.113883.1.11.16926"],
+      "sources" : ["2.16.840.1.113883.1.11.16926"]
+    },
+    {
       "url" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-human-substance-administration-site-cisis",
       "version" : "20250606103857",
       "status" : "active",

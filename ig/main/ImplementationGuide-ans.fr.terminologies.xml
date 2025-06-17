@@ -11,7 +11,7 @@
   <name value="Terminologies"/>
   <title value="Terminologies  de Santé"/>
   <status value="active"/>
-  <date value="2025-06-16T04:31:35+00:00"/>
+  <date value="2025-06-17T04:29:09+00:00"/>
   <publisher value="ANS"/>
   <contact>
     <name value="ANS"/>
@@ -28384,6 +28384,17 @@
       </reference>
       <name value="x_ActMoodDocumentObservation"/>
       <description value="x_ActMoodDocumentObservation"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/jdv-hl7-v3-xBasicConfidentialityKind-cisis"/>
+      </reference>
+      <name value="x_BasicConfidentialityKind"/>
+      <description value="x_BasicConfidentialityKind"/>
       <exampleBoolean value="false"/>
     </resource>
     <page>
