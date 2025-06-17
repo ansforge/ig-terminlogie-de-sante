@@ -45,7 +45,8 @@ Description: "Nomenclature des états élémentaires d'un objet du MOS organisé
 * ^property[=].description = "Macro-état administratif (actif ou inactif) du code concept"
 * ^property[=].type = #Coding
 * ^property[+].code = #finess
-* ^property[=].description = "Permet de définir les codes concept de la TRE utilisés par FINESS"
+* ^property[=].uri = "http://hl7.org/fhir/concept-properties#finess"
+* ^property[=].description = "Permet de définir les codes concepts utilisés par FINESS+"
 * ^property[=].type = #boolean
 * #001 "Entrée dans le champ FINESS"
 * #001 ^property[0].code = #dateValid

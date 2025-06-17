@@ -41,7 +41,8 @@ Description: "Nomenclature des types d’objets du MOS. Remarque : Cette nomencl
 * ^property[=].description = "The date at which a concept was retired"
 * ^property[=].type = #dateTime
 * ^property[+].code = #finess
-* ^property[=].description = "Permet de définir les codes concept de la TRE utilisés par FINESS"
+* ^property[=].uri = "http://hl7.org/fhir/concept-properties#finess"
+* ^property[=].description = "Permet de définir les codes concepts utilisés par FINESS+"
 * ^property[=].type = #boolean
 * #AC "Activité"
 * #AC ^property[0].code = #dateValid
