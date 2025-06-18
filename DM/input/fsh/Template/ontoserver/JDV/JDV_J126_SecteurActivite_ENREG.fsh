@@ -1,18 +1,18 @@
 ValueSet: JDV_J126_SecteurActivite_ENREG
 Id: JDV-J126-SecteurActivite-ENREG
 Description: "Table des Secteur d'activité des structures Siret uniquement utilisé par ENREG pour enregistrer les structures absentes des référentiels de l'ANS."
-* ^meta.versionId = "5"
-* ^meta.lastUpdated = "2024-07-26T17:01:41.534+00:00"
+* ^meta.versionId = "6"
+* ^meta.lastUpdated = "2025-05-26T17:00:32.496+00:00"
 * ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablevalueset"
 * ^extension.url = "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod"
 * ^extension.valuePeriod.start = "2020-11-27T12:00:00+01:00"
 * ^url = "https://mos.esante.gouv.fr/NOS/JDV_J126-SecteurActivite-ENREG/FHIR/JDV-J126-SecteurActivite-ENREG"
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value = "urn:oid:1.2.250.1.213.1.6.1.212"
-* ^version = "20240726120000"
+* ^version = "20250523120000"
 * ^status = #active
 * ^experimental = false
-* ^date = "2024-07-26T12:00:00+01:00"
+* ^date = "2025-05-23T12:00:00+01:00"
 * ^publisher = "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris"
 * $TRE-R02-SecteurActivite#SA09 "Exercice en société"
 * $TRE-R02-SecteurActivite#SA10 "Transporteur sanitaire"
@@ -44,4 +44,5 @@ Description: "Table des Secteur d'activité des structures Siret uniquement util
 * $TRE-R02-SecteurActivite#SA57 "Structure de coopération avec mission de coordination de soins"
 * $TRE-R02-SecteurActivite#SA58 "Entreprise de taxis"
 * $TRE-R02-SecteurActivite#SA62 "Ordre professionnel de santé"
+* $TRE-R02-SecteurActivite#SA63 "Structures de coordination et d'orientation"
 * $TRE-R02-SecteurActivite#SA68 "Services départementaux d'incendie et de secours"

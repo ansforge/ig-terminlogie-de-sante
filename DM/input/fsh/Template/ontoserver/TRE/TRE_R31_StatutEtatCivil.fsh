@@ -1,18 +1,18 @@
 CodeSystem: TRE_R31_StatutEtatCivil
 Id: TRE-R31-StatutEtatCivil
 Description: "Status de l'état civil"
-* ^meta.versionId = "4"
-* ^meta.lastUpdated = "2024-08-28T05:13:21.293+00:00"
+* ^meta.versionId = "5"
+* ^meta.lastUpdated = "2025-02-10T16:01:19.594+00:00"
 * ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablecodesystem"
 * ^extension.url = "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod"
 * ^extension.valuePeriod.start = "2013-06-28T00:00:00+01:00"
 * ^url = "https://mos.esante.gouv.fr/NOS/TRE_R31-StatutEtatCivil/FHIR/TRE-R31-StatutEtatCivil"
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value = "urn:oid:1.2.250.1.213.1.6.1.9"
-* ^version = "20240329120000"
+* ^version = "20250131120000"
 * ^status = #active
 * ^experimental = false
-* ^date = "2024-03-29T12:00:00+01:00"
+* ^date = "2025-01-31T12:00:00+01:00"
 * ^publisher = "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris"
 * ^caseSensitive = false
 * ^content = #complete
@@ -70,6 +70,11 @@ Description: "Status de l'état civil"
 * #FC ^property[=].valueDateTime = "2021-11-26T12:00:00+01:00"
 * #FC ^property[+].code = #dateMaj
 * #FC ^property[=].valueDateTime = "2021-11-26T12:00:00+01:00"
+* #FCP "Certifié par FranceConnect+" "FranceConnect+ est une version plus sécurisée de FranceConnect et propose une authentification renforcée permettant de limiter les risques d'usurpations d'identité grâce à l'identité numérique de La Poste."
+* #FCP ^property[0].code = #dateValid
+* #FCP ^property[=].valueDateTime = "2025-01-31T12:00:00+01:00"
+* #FCP ^property[+].code = #dateMaj
+* #FCP ^property[=].valueDateTime = "2025-01-31T12:00:00+01:00"
 * #NC "Non certifiable"
 * #NC ^property[0].code = #dateValid
 * #NC ^property[=].valueDateTime = "2007-07-25T15:04:44+01:00"

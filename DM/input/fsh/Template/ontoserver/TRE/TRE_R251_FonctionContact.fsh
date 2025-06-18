@@ -1,18 +1,18 @@
 CodeSystem: TRE_R251_FonctionContact
 Id: TRE-R251-FonctionContact
 Description: "Un titre, une position, une fonction de la personne contact dans l'organisation"
-* ^meta.versionId = "4"
-* ^meta.lastUpdated = "2024-08-28T05:12:48.174+00:00"
+* ^meta.versionId = "5"
+* ^meta.lastUpdated = "2025-02-10T16:01:17.785+00:00"
 * ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablecodesystem"
 * ^extension.url = "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod"
 * ^extension.valuePeriod.start = "2018-01-26T12:00:00+01:00"
 * ^url = "https://mos.esante.gouv.fr/NOS/TRE_R251-FonctionContact/FHIR/TRE-R251-FonctionContact"
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value = "urn:oid:1.2.250.1.213.3.3.48"
-* ^version = "20240426120000"
+* ^version = "20250131120000"
 * ^status = #active
 * ^experimental = false
-* ^date = "2024-04-26T12:00:00+01:00"
+* ^date = "2025-01-31T12:00:00+01:00"
 * ^publisher = "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris"
 * ^caseSensitive = false
 * ^content = #complete
@@ -194,3 +194,8 @@ Description: "Un titre, une position, une fonction de la personne contact dans l
 * #27 ^property[=].valueDateTime = "2024-04-26T12:00:00+01:00"
 * #27 ^property[+].code = #dateMaj
 * #27 ^property[=].valueDateTime = "2024-04-26T12:00:00+01:00"
+* #28 "Référent Handicap"
+* #28 ^property[0].code = #dateValid
+* #28 ^property[=].valueDateTime = "2025-01-31T12:00:00+01:00"
+* #28 ^property[+].code = #dateMaj
+* #28 ^property[=].valueDateTime = "2025-01-31T12:00:00+01:00"
