@@ -1,11 +1,11 @@
 {
   "resourceType" : "ValueSet",
-  "id" : "9b3848a6-9729-4792-8811-c3f08709403b-2031",
-  "url" : "http://hl7.org/fhir/comparison/ValueSet/9b3848a6-9729-4792-8811-c3f08709403b-2031",
+  "id" : "6db36f5d-dafa-4e4c-adfa-b6f861c86eed-2031",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/6db36f5d-dafa-4e4c-adfa-b6f861c86eed-2031",
   "name" : "IntersectionAdministrableDrugFormAndAdministrableDrugForm",
   "title" : "Intersection of AdministrableDrugForm And AdministrableDrugForm",
   "status" : "active",
-  "date" : "2025-06-18T08:34:16+00:00",
+  "date" : "2025-06-18T10:30:55+00:00",
   "compose" : {
     "include" : [{
       "concept" : [{

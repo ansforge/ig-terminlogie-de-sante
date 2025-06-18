@@ -1,11 +1,11 @@
 {
   "resourceType" : "ValueSet",
-  "id" : "9b3848a6-9729-4792-8811-c3f08709403b-1698",
-  "url" : "http://hl7.org/fhir/comparison/ValueSet/9b3848a6-9729-4792-8811-c3f08709403b-1698",
+  "id" : "6db36f5d-dafa-4e4c-adfa-b6f861c86eed-1698",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/6db36f5d-dafa-4e4c-adfa-b6f861c86eed-1698",
   "name" : "IntersectionJdvBatterieExamenCisisAndJdvBatterieExamenCisis",
   "title" : "Intersection of JDV Batterie Examen CISIS And JDV Batterie Examen CISIS",
   "status" : "active",
-  "date" : "2025-06-18T08:34:15+00:00",
+  "date" : "2025-06-18T10:30:55+00:00",
   "compose" : {
     "include" : [{
       "concept" : [{

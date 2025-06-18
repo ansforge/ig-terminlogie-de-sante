@@ -1,11 +1,11 @@
 {
   "resourceType" : "CodeSystem",
-  "id" : "9b3848a6-9729-4792-8811-c3f08709403b-450",
-  "url" : "http://hl7.org/fhir/comparison/CodeSystem/9b3848a6-9729-4792-8811-c3f08709403b-450",
+  "id" : "6db36f5d-dafa-4e4c-adfa-b6f861c86eed-450",
+  "url" : "http://hl7.org/fhir/comparison/CodeSystem/6db36f5d-dafa-4e4c-adfa-b6f861c86eed-450",
   "name" : "IntersectionTRE_R300_AgregatDisciplineEquipSocNiv3AndTRE_R300_AgregatDisciplineEquipSocNiv3",
   "title" : "Intersection of null And null",
   "status" : "active",
-  "date" : "2025-06-18T08:34:15+00:00",
+  "date" : "2025-06-18T10:30:54+00:00",
   "property" : [{
     "code" : "dateValid",
     "description" : "date de validité d'un code concept",
