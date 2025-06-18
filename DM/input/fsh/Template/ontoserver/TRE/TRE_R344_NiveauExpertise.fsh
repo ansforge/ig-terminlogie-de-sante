@@ -1,18 +1,18 @@
 CodeSystem: TRE_R344_NiveauExpertise
 Id: TRE-R344-NiveauExpertise
 Description: "Le niveau d'expertise atteste du niveau de ressources humaines et matérielles engagées dans la réalisation de l'offre et défini dans un cahier des charges officiel."
-* ^meta.versionId = "10"
-* ^meta.lastUpdated = "2024-12-19T19:11:49.598+00:00"
+* ^meta.versionId = "12"
+* ^meta.lastUpdated = "2025-04-25T18:12:45.703+00:00"
 * ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablecodesystem"
 * ^extension.url = "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod"
 * ^extension.valuePeriod.start = "2023-03-31T12:00:00+01:00"
 * ^url = "https://mos.esante.gouv.fr/NOS/TRE_R344-NiveauExpertise/FHIR/TRE-R344-NiveauExpertise"
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value = "urn:oid:1.2.250.1.213.3.3.228"
-* ^version = "20241213120000"
+* ^version = "20250425120000"
 * ^status = #active
 * ^experimental = false
-* ^date = "2024-12-13T12:00:00+01:00"
+* ^date = "2025-04-25T12:00:00+01:00"
 * ^publisher = "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris"
 * ^caseSensitive = false
 * ^content = #complete
@@ -25,11 +25,25 @@ Description: "Le niveau d'expertise atteste du niveau de ressources humaines et 
 * ^property[+].code = #dateFin
 * ^property[=].description = "Date de fin d'exploitation d'un code concept"
 * ^property[=].type = #dateTime
+* ^property[+].code = #deprecationDate
+* ^property[=].uri = "http://hl7.org/fhir/concept-properties#deprecationDate"
+* ^property[=].description = "Date Concept was deprecated"
+* ^property[=].type = #dateTime
+* ^property[+].code = #status
+* ^property[=].uri = "http://hl7.org/fhir/concept-properties#status"
+* ^property[=].description = "A property that indicates the status of the concept."
+* ^property[=].type = #code
+* ^property[+].code = #retirementDate
+* ^property[=].uri = "http://hl7.org/fhir/concept-properties#retirementDate"
+* ^property[=].description = "Date Concept was retired"
+* ^property[=].type = #dateTime
 * #10 "Centre de référence labellisé"
 * #10 ^property[0].code = #dateValid
 * #10 ^property[=].valueDateTime = "2023-03-31T12:00:00+01:00"
 * #10 ^property[+].code = #dateMaj
 * #10 ^property[=].valueDateTime = "2023-03-31T12:00:00+01:00"
+* #10 ^property[+].code = #status
+* #10 ^property[=].valueCode = #active
 * #11 "Centre de compétences labellisé"
 * #11 ^designation[0].language = #fr-FR
 * #11 ^designation[=].use.system = "http://snomed.info/sct"
@@ -39,6 +53,8 @@ Description: "Le niveau d'expertise atteste du niveau de ressources humaines et 
 * #11 ^property[=].valueDateTime = "2023-03-31T12:00:00+01:00"
 * #11 ^property[+].code = #dateMaj
 * #11 ^property[=].valueDateTime = "2023-09-22T12:00:00+01:00"
+* #11 ^property[+].code = #status
+* #11 ^property[=].valueCode = #active
 * #12 "Structure spécialisée labellisée"
 * #12 ^designation[0].language = #fr-FR
 * #12 ^designation[=].use.system = "http://snomed.info/sct"
@@ -48,16 +64,24 @@ Description: "Le niveau d'expertise atteste du niveau de ressources humaines et 
 * #12 ^property[=].valueDateTime = "2023-03-31T12:00:00+01:00"
 * #12 ^property[+].code = #dateMaj
 * #12 ^property[=].valueDateTime = "2023-09-22T12:00:00+01:00"
-* #13 "SMR Labellisé soins dédiées aux personnes en état de conscience altérée"
+* #12 ^property[+].code = #status
+* #12 ^property[=].valueCode = #active
+* #13 "SMR Labellisé réadaptation des personnes en état de conscience altérée"
 * #13 ^designation[0].language = #fr-FR
 * #13 ^designation[=].use.system = "http://snomed.info/sct"
 * #13 ^designation[=].use = $sct#900000000000013009
 * #13 ^designation[=].value = "SMR Labellisé conscience alt."
+* #13 ^designation[+].language = #fr-FR
+* #13 ^designation[=].use.system = "http://snomed.info/sct"
+* #13 ^designation[=].use = $sct#900000000000013009
+* #13 ^designation[=].value = "SMR Labellisé réadaptation des personnes en état de conscience altérée (ex EVC/EPR)"
 * #13 ^property[0].code = #dateValid
 * #13 ^property[=].valueDateTime = "2023-03-31T12:00:00+01:00"
 * #13 ^property[+].code = #dateMaj
-* #13 ^property[=].valueDateTime = "2023-03-31T12:00:00+01:00"
-* #14 "SMR Labellisé patients amputés, appareillés ou non"
+* #13 ^property[=].valueDateTime = "2025-04-25T12:00:00+01:00"
+* #13 ^property[+].code = #status
+* #13 ^property[=].valueCode = #active
+* #14 "SMR Labellisé réadaptation des patients amputés, appareillés ou non"
 * #14 ^designation[0].language = #fr-FR
 * #14 ^designation[=].use.system = "http://snomed.info/sct"
 * #14 ^designation[=].use = $sct#900000000000013009
@@ -65,34 +89,32 @@ Description: "Le niveau d'expertise atteste du niveau de ressources humaines et 
 * #14 ^property[0].code = #dateValid
 * #14 ^property[=].valueDateTime = "2023-03-31T12:00:00+01:00"
 * #14 ^property[+].code = #dateMaj
-* #14 ^property[=].valueDateTime = "2023-03-31T12:00:00+01:00"
-* #15 "SMR Labellisé affections cardio-vasculaires spécialisé réadaptation PREPAC"
+* #14 ^property[=].valueDateTime = "2025-04-25T12:00:00+01:00"
+* #14 ^property[+].code = #status
+* #14 ^property[=].valueCode = #active
+* #15 "SMR Labellisé réadaptation PREcoce Post-Aiguë Cardiologique (PREPAC)"
 * #15 ^designation[0].language = #fr-FR
 * #15 ^designation[=].use.system = "http://snomed.info/sct"
 * #15 ^designation[=].use = $sct#900000000000013009
 * #15 ^designation[=].value = "SMR Labellisé PREPAC"
-* #15 ^designation[+].language = #fr-FR
-* #15 ^designation[=].use.system = "http://snomed.info/sct"
-* #15 ^designation[=].use = $sct#900000000000013009
-* #15 ^designation[=].value = "SMR Labellisé affections cardio-vasculaires spécialisé réadaptation PREcoce Post-Aiguë Cardiologique (PREPAC)"
 * #15 ^property[0].code = #dateValid
 * #15 ^property[=].valueDateTime = "2023-03-31T12:00:00+01:00"
 * #15 ^property[+].code = #dateMaj
-* #15 ^property[=].valueDateTime = "2023-03-31T12:00:00+01:00"
-* #16 "SMR Labellisé affections respiratoires spécialisé réadaptation PREPAR"
+* #15 ^property[=].valueDateTime = "2025-04-25T12:00:00+01:00"
+* #15 ^property[+].code = #status
+* #15 ^property[=].valueCode = #active
+* #16 "SMR Labellisé réadaptation PREcoce Post-Aiguë Respiratoire (PREPAR)"
 * #16 ^designation[0].language = #fr-FR
 * #16 ^designation[=].use.system = "http://snomed.info/sct"
 * #16 ^designation[=].use = $sct#900000000000013009
 * #16 ^designation[=].value = "SMR Labellisé PREPAR"
-* #16 ^designation[+].language = #fr-FR
-* #16 ^designation[=].use.system = "http://snomed.info/sct"
-* #16 ^designation[=].use = $sct#900000000000013009
-* #16 ^designation[=].value = "SMR Labellisé affections respiratoires spécialisé réadaptation PREcoce Post-Aiguë Respiratoire (PREPAR)"
 * #16 ^property[0].code = #dateValid
 * #16 ^property[=].valueDateTime = "2023-03-31T12:00:00+01:00"
 * #16 ^property[+].code = #dateMaj
-* #16 ^property[=].valueDateTime = "2023-03-31T12:00:00+01:00"
-* #17 "SMR Labellisé affections du système nerveux spécialisé neuro-orthopédique"
+* #16 ^property[=].valueDateTime = "2025-04-25T12:00:00+01:00"
+* #16 ^property[+].code = #status
+* #16 ^property[=].valueCode = #active
+* #17 "SMR Labellisé réadaptation neuro-orthopédique"
 * #17 ^designation[0].language = #fr-FR
 * #17 ^designation[=].use.system = "http://snomed.info/sct"
 * #17 ^designation[=].use = $sct#900000000000013009
@@ -100,34 +122,32 @@ Description: "Le niveau d'expertise atteste du niveau de ressources humaines et 
 * #17 ^property[0].code = #dateValid
 * #17 ^property[=].valueDateTime = "2023-03-31T12:00:00+01:00"
 * #17 ^property[+].code = #dateMaj
-* #17 ^property[=].valueDateTime = "2023-03-31T12:00:00+01:00"
-* #18 "SMR Labellisé affections du système nerveux spécialisé SRPR"
+* #17 ^property[=].valueDateTime = "2025-04-25T12:00:00+01:00"
+* #17 ^property[+].code = #status
+* #17 ^property[=].valueCode = #active
+* #18 "SMR Labellisé réadaptation post-réanimation (SRPR)"
 * #18 ^designation[0].language = #fr-FR
 * #18 ^designation[=].use.system = "http://snomed.info/sct"
 * #18 ^designation[=].use = $sct#900000000000013009
 * #18 ^designation[=].value = "SMR Labellisé SRPR"
-* #18 ^designation[+].language = #fr-FR
-* #18 ^designation[=].use.system = "http://snomed.info/sct"
-* #18 ^designation[=].use = $sct#900000000000013009
-* #18 ^designation[=].value = "SMR Labellisé affections du système nerveux spécialisé réadaptation post-réanimation (SRPR)"
 * #18 ^property[0].code = #dateValid
 * #18 ^property[=].valueDateTime = "2023-03-31T12:00:00+01:00"
 * #18 ^property[+].code = #dateMaj
-* #18 ^property[=].valueDateTime = "2023-03-31T12:00:00+01:00"
-* #19 "SMR Labellisé affections du système nerveux spécialisé réadaptation PREPAN"
+* #18 ^property[=].valueDateTime = "2025-04-25T12:00:00+01:00"
+* #18 ^property[+].code = #status
+* #18 ^property[=].valueCode = #active
+* #19 "SMR Labellisé réadaptation PREcoce Post-Aiguë Neurologique (PREPAN)"
 * #19 ^designation[0].language = #fr-FR
 * #19 ^designation[=].use.system = "http://snomed.info/sct"
 * #19 ^designation[=].use = $sct#900000000000013009
 * #19 ^designation[=].value = "SMR Labellisé PREPAN"
-* #19 ^designation[+].language = #fr-FR
-* #19 ^designation[=].use.system = "http://snomed.info/sct"
-* #19 ^designation[=].use = $sct#900000000000013009
-* #19 ^designation[=].value = "SMR Labellisé affections du système nerveux spécialisé réadaptation PREcoce Post-Aiguë Neurologique (PREPAN)"
 * #19 ^property[0].code = #dateValid
 * #19 ^property[=].valueDateTime = "2023-03-31T12:00:00+01:00"
 * #19 ^property[+].code = #dateMaj
-* #19 ^property[=].valueDateTime = "2023-03-31T12:00:00+01:00"
-* #20 "SMR Labellisé système nerveux spécialisé patients cérébro-lésés"
+* #19 ^property[=].valueDateTime = "2025-04-25T12:00:00+01:00"
+* #19 ^property[+].code = #status
+* #19 ^property[=].valueCode = #active
+* #20 "SMR Labellisé réadaptation des troubles des patients cérébro-lésés"
 * #20 ^designation[0].language = #fr-FR
 * #20 ^designation[=].use.system = "http://snomed.info/sct"
 * #20 ^designation[=].use = $sct#900000000000013009
@@ -135,12 +155,14 @@ Description: "Le niveau d'expertise atteste du niveau de ressources humaines et 
 * #20 ^designation[+].language = #fr-FR
 * #20 ^designation[=].use.system = "http://snomed.info/sct"
 * #20 ^designation[=].use = $sct#900000000000013009
-* #20 ^designation[=].value = "SMR Labellisé affections du système nerveux spécialisé troubles cognitifs et comportementaux des patients cérébro-lésés"
+* #20 ^designation[=].value = "SMR Labellisé réadaptation des troubles cognitifs et comportementaux des patients cérébro-lésés"
 * #20 ^property[0].code = #dateValid
 * #20 ^property[=].valueDateTime = "2023-03-31T12:00:00+01:00"
 * #20 ^property[+].code = #dateMaj
-* #20 ^property[=].valueDateTime = "2023-03-31T12:00:00+01:00"
-* #21 "SMR Labellisé affections du système nerveux spécialisé lésions médullaires"
+* #20 ^property[=].valueDateTime = "2025-04-25T12:00:00+01:00"
+* #20 ^property[+].code = #status
+* #20 ^property[=].valueCode = #active
+* #21 "SMR Labellisé réadaptation des lésions médullaires"
 * #21 ^designation[0].language = #fr-FR
 * #21 ^designation[=].use.system = "http://snomed.info/sct"
 * #21 ^designation[=].use = $sct#900000000000013009
@@ -148,33 +170,35 @@ Description: "Le niveau d'expertise atteste du niveau de ressources humaines et 
 * #21 ^property[0].code = #dateValid
 * #21 ^property[=].valueDateTime = "2023-03-31T12:00:00+01:00"
 * #21 ^property[+].code = #dateMaj
-* #21 ^property[=].valueDateTime = "2023-09-22T12:00:00+01:00"
-* #22 "SMR Labellisé affections endocrino spécialisé obésités complexes"
+* #21 ^property[=].valueDateTime = "2025-04-25T12:00:00+01:00"
+* #21 ^property[+].code = #status
+* #21 ^property[=].valueCode = #active
+* #22 "SMR Labellisé réadaptation des obésités complexes"
 * #22 ^designation[0].language = #fr-FR
 * #22 ^designation[=].use.system = "http://snomed.info/sct"
 * #22 ^designation[=].use = $sct#900000000000013009
 * #22 ^designation[=].value = "SMR Labellisé obésité complexe"
-* #22 ^designation[+].language = #fr-FR
-* #22 ^designation[=].use.system = "http://snomed.info/sct"
-* #22 ^designation[=].use = $sct#900000000000013009
-* #22 ^designation[=].value = "SMR Labellisé affections endocrino-métaboliques et nutrition spécialisé obésités complexes"
 * #22 ^property[0].code = #dateValid
 * #22 ^property[=].valueDateTime = "2023-03-31T12:00:00+01:00"
 * #22 ^property[+].code = #dateMaj
-* #22 ^property[=].valueDateTime = "2023-03-31T12:00:00+01:00"
-* #23 "SMR Labellisé spécialisé troubles cognitifs liés à une conduite addictive"
+* #22 ^property[=].valueDateTime = "2025-04-25T12:00:00+01:00"
+* #22 ^property[+].code = #status
+* #22 ^property[=].valueCode = #active
+* #23 "SMR Labellisé réadaptation troubles cognitifs liés à une conduite addictive"
 * #23 ^designation[0].language = #fr-FR
 * #23 ^designation[=].use.system = "http://snomed.info/sct"
 * #23 ^designation[=].use = $sct#900000000000013009
 * #23 ^designation[=].value = "SMR Labellisé conduite addict."
 * #23 ^designation[+].language = #fr-FR
 * #23 ^designation[=].use = $sct#900000000000013009
-* #23 ^designation[=].value = "SMR Labellisé spécialisé troubles cognitifs sévères liés à une conduite addictive"
+* #23 ^designation[=].value = "SMR Labellisé réadaptation des troubles cognitifs sévères liés à une conduite addictive"
 * #23 ^property[0].code = #dateValid
 * #23 ^property[=].valueDateTime = "2023-03-31T12:00:00+01:00"
 * #23 ^property[+].code = #dateMaj
-* #23 ^property[=].valueDateTime = "2023-03-31T12:00:00+01:00"
-* #24 "SMR Labellisé prise en charge du polyhandicap"
+* #23 ^property[=].valueDateTime = "2025-04-25T12:00:00+01:00"
+* #23 ^property[+].code = #status
+* #23 ^property[=].valueCode = #active
+* #24 "SMR Labellisé réadaptation du polyhandicap"
 * #24 ^designation[0].language = #fr-FR
 * #24 ^designation[=].use.system = "http://snomed.info/sct"
 * #24 ^designation[=].use = $sct#900000000000013009
@@ -182,8 +206,10 @@ Description: "Le niveau d'expertise atteste du niveau de ressources humaines et 
 * #24 ^property[0].code = #dateValid
 * #24 ^property[=].valueDateTime = "2023-03-31T12:00:00+01:00"
 * #24 ^property[+].code = #dateMaj
-* #24 ^property[=].valueDateTime = "2023-03-31T12:00:00+01:00"
-* #25 "SMR Labellisé prise en charge des troubles du langage et des apprentissages"
+* #24 ^property[=].valueDateTime = "2025-04-25T12:00:00+01:00"
+* #24 ^property[+].code = #status
+* #24 ^property[=].valueCode = #active
+* #25 "SMR Labellisé réadaptation des troubles du langage et des apprentissages"
 * #25 ^designation[0].language = #fr-FR
 * #25 ^designation[=].use.system = "http://snomed.info/sct"
 * #25 ^designation[=].use = $sct#900000000000013009
@@ -191,7 +217,9 @@ Description: "Le niveau d'expertise atteste du niveau de ressources humaines et 
 * #25 ^property[0].code = #dateValid
 * #25 ^property[=].valueDateTime = "2023-03-31T12:00:00+01:00"
 * #25 ^property[+].code = #dateMaj
-* #25 ^property[=].valueDateTime = "2023-03-31T12:00:00+01:00"
+* #25 ^property[=].valueDateTime = "2025-04-25T12:00:00+01:00"
+* #25 ^property[+].code = #status
+* #25 ^property[=].valueCode = #active
 * #26 "Centre de recours pour chirurgie oncologique complexe"
 * #26 ^designation[0].language = #fr-FR
 * #26 ^designation[=].use.system = "http://snomed.info/sct"
@@ -201,6 +229,8 @@ Description: "Le niveau d'expertise atteste du niveau de ressources humaines et 
 * #26 ^property[=].valueDateTime = "2023-10-30T12:00:00+01:00"
 * #26 ^property[+].code = #dateMaj
 * #26 ^property[=].valueDateTime = "2023-10-30T12:00:00+01:00"
+* #26 ^property[+].code = #status
+* #26 ^property[=].valueCode = #active
 * #27 "Premier niveau de recours"
 * #27 ^designation[0].language = #fr-FR
 * #27 ^designation[=].use.system = "http://snomed.info/sct"
@@ -210,6 +240,8 @@ Description: "Le niveau d'expertise atteste du niveau de ressources humaines et 
 * #27 ^property[=].valueDateTime = "2024-03-29T12:00:00+01:00"
 * #27 ^property[+].code = #dateMaj
 * #27 ^property[=].valueDateTime = "2024-03-29T12:00:00+01:00"
+* #27 ^property[+].code = #status
+* #27 ^property[=].valueCode = #active
 * #28 "Deuxième niveau de recours"
 * #28 ^designation[0].language = #fr-FR
 * #28 ^designation[=].use.system = "http://snomed.info/sct"
@@ -219,6 +251,8 @@ Description: "Le niveau d'expertise atteste du niveau de ressources humaines et 
 * #28 ^property[=].valueDateTime = "2024-03-29T12:00:00+01:00"
 * #28 ^property[+].code = #dateMaj
 * #28 ^property[=].valueDateTime = "2024-03-29T12:00:00+01:00"
+* #28 ^property[+].code = #status
+* #28 ^property[=].valueCode = #active
 * #29 "Troisième niveau de recours"
 * #29 ^designation[0].language = #fr-FR
 * #29 ^designation[=].use.system = "http://snomed.info/sct"
@@ -228,6 +262,8 @@ Description: "Le niveau d'expertise atteste du niveau de ressources humaines et 
 * #29 ^property[=].valueDateTime = "2024-03-29T12:00:00+01:00"
 * #29 ^property[+].code = #dateMaj
 * #29 ^property[=].valueDateTime = "2024-03-29T12:00:00+01:00"
+* #29 ^property[+].code = #status
+* #29 ^property[=].valueCode = #active
 * #30 "Unité de réanimation pédiatrique de recours"
 * #30 ^designation[0].language = #fr-FR
 * #30 ^designation[=].use.system = "http://snomed.info/sct"
@@ -237,6 +273,8 @@ Description: "Le niveau d'expertise atteste du niveau de ressources humaines et 
 * #30 ^property[=].valueDateTime = "2024-01-26T12:00:00+01:00"
 * #30 ^property[+].code = #dateMaj
 * #30 ^property[=].valueDateTime = "2024-01-26T12:00:00+01:00"
+* #30 ^property[+].code = #status
+* #30 ^property[=].valueCode = #active
 * #31 "Filière endométriose - premier niveau de recours"
 * #31 ^designation[0].language = #fr-FR
 * #31 ^designation[=].use.system = "http://snomed.info/sct"
@@ -246,6 +284,8 @@ Description: "Le niveau d'expertise atteste du niveau de ressources humaines et 
 * #31 ^property[=].valueDateTime = "2024-03-29T12:00:00+01:00"
 * #31 ^property[+].code = #dateMaj
 * #31 ^property[=].valueDateTime = "2024-03-29T12:00:00+01:00"
+* #31 ^property[+].code = #status
+* #31 ^property[=].valueCode = #active
 * #32 "Filière endométriose - deuxième niveau de recours"
 * #32 ^designation[0].language = #fr-FR
 * #32 ^designation[=].use.system = "http://snomed.info/sct"
@@ -255,6 +295,8 @@ Description: "Le niveau d'expertise atteste du niveau de ressources humaines et 
 * #32 ^property[=].valueDateTime = "2024-03-29T12:00:00+01:00"
 * #32 ^property[+].code = #dateMaj
 * #32 ^property[=].valueDateTime = "2024-03-29T12:00:00+01:00"
+* #32 ^property[+].code = #status
+* #32 ^property[=].valueCode = #active
 * #33 "Filière endométriose - troisième niveau de recours"
 * #33 ^designation[0].language = #fr-FR
 * #33 ^designation[=].use.system = "http://snomed.info/sct"
@@ -264,11 +306,15 @@ Description: "Le niveau d'expertise atteste du niveau de ressources humaines et 
 * #33 ^property[=].valueDateTime = "2024-03-29T12:00:00+01:00"
 * #33 ^property[+].code = #dateMaj
 * #33 ^property[=].valueDateTime = "2024-03-29T12:00:00+01:00"
+* #33 ^property[+].code = #status
+* #33 ^property[=].valueCode = #active
 * #34 "Centre labellisé Covid-Long"
 * #34 ^property[0].code = #dateValid
 * #34 ^property[=].valueDateTime = "2024-04-26T12:00:00+01:00"
 * #34 ^property[+].code = #dateMaj
 * #34 ^property[=].valueDateTime = "2024-04-26T12:00:00+01:00"
+* #34 ^property[+].code = #status
+* #34 ^property[=].valueCode = #active
 * #35 "Centre de réhabilitation psychosociale - Centre de recours labellisé"
 * #35 ^designation[0].language = #fr-FR
 * #35 ^designation[=].use.system = "http://snomed.info/sct"
@@ -278,6 +324,8 @@ Description: "Le niveau d'expertise atteste du niveau de ressources humaines et 
 * #35 ^property[=].valueDateTime = "2024-06-28T12:00:00+01:00"
 * #35 ^property[+].code = #dateMaj
 * #35 ^property[=].valueDateTime = "2024-06-28T12:00:00+01:00"
+* #35 ^property[+].code = #status
+* #35 ^property[=].valueCode = #active
 * #36 "Centre de réhabilitation psychosociale - Centre de proximité labellisé"
 * #36 ^designation[0].language = #fr-FR
 * #36 ^designation[=].use.system = "http://snomed.info/sct"
@@ -287,6 +335,8 @@ Description: "Le niveau d'expertise atteste du niveau de ressources humaines et 
 * #36 ^property[=].valueDateTime = "2024-06-28T12:00:00+01:00"
 * #36 ^property[+].code = #dateMaj
 * #36 ^property[=].valueDateTime = "2024-06-28T12:00:00+01:00"
+* #36 ^property[+].code = #status
+* #36 ^property[=].valueCode = #active
 * #37 "Unité neuro-vasculaire (UNV) de territoire"
 * #37 ^designation[0].language = #fr-FR
 * #37 ^designation[=].use.system = "http://snomed.info/sct"
@@ -296,6 +346,8 @@ Description: "Le niveau d'expertise atteste du niveau de ressources humaines et 
 * #37 ^property[=].valueDateTime = "2024-07-26T12:00:00+01:00"
 * #37 ^property[+].code = #dateMaj
 * #37 ^property[=].valueDateTime = "2024-07-26T12:00:00+01:00"
+* #37 ^property[+].code = #status
+* #37 ^property[=].valueCode = #active
 * #38 "Unité neuro-vasculaire (UNV) de recours"
 * #38 ^designation[0].language = #fr-FR
 * #38 ^designation[=].use.system = "http://snomed.info/sct"
@@ -305,7 +357,9 @@ Description: "Le niveau d'expertise atteste du niveau de ressources humaines et 
 * #38 ^property[=].valueDateTime = "2024-07-26T12:00:00+01:00"
 * #38 ^property[+].code = #dateMaj
 * #38 ^property[=].valueDateTime = "2024-07-26T12:00:00+01:00"
-* #39 "Filière Obésité - Niveau 1 (Conventionné CSO)"
+* #38 ^property[+].code = #status
+* #38 ^property[=].valueCode = #active
+* #39 "Filière Obésité - Niveau 1 Conventionné Centres Spécialisés Obésité (CSO)"
 * #39 ^designation[0].language = #fr-FR
 * #39 ^designation[=].use.system = "http://snomed.info/sct"
 * #39 ^designation[=].use = $sct#900000000000013009
@@ -313,8 +367,10 @@ Description: "Le niveau d'expertise atteste du niveau de ressources humaines et 
 * #39 ^property[0].code = #dateValid
 * #39 ^property[=].valueDateTime = "2024-12-13T12:00:00+01:00"
 * #39 ^property[+].code = #dateMaj
-* #39 ^property[=].valueDateTime = "2024-12-13T12:00:00+01:00"
-* #40 "Filière Obésité - Niveau 2 (Conventionné CSO)"
+* #39 ^property[=].valueDateTime = "2025-01-31T12:00:00+01:00"
+* #39 ^property[+].code = #status
+* #39 ^property[=].valueCode = #active
+* #40 "Filière Obésité - Niveau 2 Conventionné Centres Spécialisés Obésité (CSO)"
 * #40 ^designation[0].language = #fr-FR
 * #40 ^designation[=].use.system = "http://snomed.info/sct"
 * #40 ^designation[=].use = $sct#900000000000013009
@@ -322,8 +378,10 @@ Description: "Le niveau d'expertise atteste du niveau de ressources humaines et 
 * #40 ^property[0].code = #dateValid
 * #40 ^property[=].valueDateTime = "2024-12-13T12:00:00+01:00"
 * #40 ^property[+].code = #dateMaj
-* #40 ^property[=].valueDateTime = "2024-12-13T12:00:00+01:00"
-* #41 "Filière Obésité - Niveau 3 (Conventionné CSO)"
+* #40 ^property[=].valueDateTime = "2025-01-31T12:00:00+01:00"
+* #40 ^property[+].code = #status
+* #40 ^property[=].valueCode = #active
+* #41 "Filière Obésité - Niveau 3 Conventionné Centres Spécialisés Obésité (CSO)"
 * #41 ^designation[0].language = #fr-FR
 * #41 ^designation[=].use.system = "http://snomed.info/sct"
 * #41 ^designation[=].use = $sct#900000000000013009
@@ -331,7 +389,9 @@ Description: "Le niveau d'expertise atteste du niveau de ressources humaines et 
 * #41 ^property[0].code = #dateValid
 * #41 ^property[=].valueDateTime = "2024-12-13T12:00:00+01:00"
 * #41 ^property[+].code = #dateMaj
-* #41 ^property[=].valueDateTime = "2024-12-13T12:00:00+01:00"
+* #41 ^property[=].valueDateTime = "2025-01-31T12:00:00+01:00"
+* #41 ^property[+].code = #status
+* #41 ^property[=].valueCode = #active
 * #42 "Filière Obésité - Niveau 3 (Centre Spécialisé Obésité)"
 * #42 ^designation[0].language = #fr-FR
 * #42 ^designation[=].use = $sct#900000000000013009
@@ -340,3 +400,5 @@ Description: "Le niveau d'expertise atteste du niveau de ressources humaines et 
 * #42 ^property[=].valueDateTime = "2024-12-13T12:00:00+01:00"
 * #42 ^property[+].code = #dateMaj
 * #42 ^property[=].valueDateTime = "2024-12-13T12:00:00+01:00"
+* #42 ^property[+].code = #status
+* #42 ^property[=].valueCode = #active

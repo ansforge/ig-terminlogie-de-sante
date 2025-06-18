@@ -1,18 +1,18 @@
 ValueSet: JDV_J55_CategorieEG_ROR
 Id: JDV-J55-CategorieEG-ROR
 Description: "Catégories d'établissements FINESS ou hors FINESS et secteurs d'activité des cabinets"
-* ^meta.versionId = "13"
-* ^meta.lastUpdated = "2024-10-31T18:01:47.204+00:00"
+* ^meta.versionId = "14"
+* ^meta.lastUpdated = "2025-04-25T17:01:54.660+00:00"
 * ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablevalueset"
 * ^extension.url = "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod"
 * ^extension.valuePeriod.start = "2019-01-25T12:00:00+01:00"
 * ^url = "https://mos.esante.gouv.fr/NOS/JDV_J55-CategorieEG-ROR/FHIR/JDV-J55-CategorieEG-ROR"
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value = "urn:oid:1.2.250.1.213.3.3.65"
-* ^version = "20241025120000"
+* ^version = "20250425120000"
 * ^status = #active
 * ^experimental = false
-* ^date = "2024-10-25T12:00:00+01:00"
+* ^date = "2025-04-25T12:00:00+01:00"
 * ^publisher = "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris"
 * $TRE-R66-CategorieEtablissement#101 "Centre hospitalier régional (CHR)"
 * $TRE-R66-CategorieEtablissement#106 "Centre hospitalier (ex Hôpital local)"
@@ -195,6 +195,7 @@ Description: "Catégories d'établissements FINESS ou hors FINESS et secteurs d'
 * $TRE-R66-CategorieEtablissement#700 "Maison sport-santé"
 * $TRE-R66-CategorieEtablissement#701 "Maison des adolescents (MDA)"
 * $TRE-R66-CategorieEtablissement#702 "Point Accueil Ecoute Jeunes (PAEJ)"
+* $TRE-R66-CategorieEtablissement#703 "Espace Santé Jeunes (ESJ)"
 * $TRE-R02-SecteurActivite#SA05 "Centre de santé"
 * $TRE-R02-SecteurActivite#SA07 "Cabinet individuel"
 * $TRE-R02-SecteurActivite#SA08 "Cabinet de groupe"

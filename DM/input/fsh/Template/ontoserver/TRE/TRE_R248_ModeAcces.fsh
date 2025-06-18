@@ -1,18 +1,18 @@
 CodeSystem: TRE_R248_ModeAcces
 Id: TRE-R248-ModeAcces
 Description: "Mode d'accès pour accéder à un SI santé avec données patients"
-* ^meta.versionId = "6"
-* ^meta.lastUpdated = "2024-12-19T19:11:47.276+00:00"
+* ^meta.versionId = "7"
+* ^meta.lastUpdated = "2025-02-10T16:01:16.721+00:00"
 * ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablecodesystem"
 * ^extension.url = "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod"
 * ^extension.valuePeriod.start = "2017-10-13T12:00:00+01:00"
 * ^url = "https://mos.esante.gouv.fr/NOS/TRE_R248-ModeAcces/FHIR/TRE-R248-ModeAcces"
 * ^identifier.system = "urn:ietf:rfc:3986"
-* ^identifier.value = "urn:oid:1.2.250.1.213.1.1.4.248"
-* ^version = "20241213120000"
+* ^identifier.value = "urn:oid:1.2.250.1.213.1.1.4.336"
+* ^version = "20250131120000"
 * ^status = #active
 * ^experimental = false
-* ^date = "2024-12-13T12:00:00+01:00"
+* ^date = "2025-01-31T12:00:00+01:00"
 * ^publisher = "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris"
 * ^caseSensitive = false
 * ^content = #complete

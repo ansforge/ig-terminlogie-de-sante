@@ -1,18 +1,18 @@
 ValueSet: JDV_J101_SecteurActivite_RASS
 Id: JDV-J101-SecteurActivite-RASS
 Description: "Secteurs d'activité des établissements avec la même activité dans le RASS"
-* ^meta.versionId = "8"
-* ^meta.lastUpdated = "2024-12-19T18:02:30.393+00:00"
+* ^meta.versionId = "9"
+* ^meta.lastUpdated = "2025-05-26T17:00:31.817+00:00"
 * ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablevalueset"
 * ^extension.url = "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod"
 * ^extension.valuePeriod.start = "2019-08-30T12:00:00+01:00"
 * ^url = "https://mos.esante.gouv.fr/NOS/JDV_J101-SecteurActivite-RASS/FHIR/JDV-J101-SecteurActivite-RASS"
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value = "urn:oid:1.2.250.1.213.1.6.1.169"
-* ^version = "20241213120000"
+* ^version = "20250523120000"
 * ^status = #active
 * ^experimental = false
-* ^date = "2024-12-13T12:00:00+01:00"
+* ^date = "2025-05-23T12:00:00+01:00"
 * ^publisher = "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris"
 * $TRE-R02-SecteurActivite#SA01 "Etablissement public de santé"
 * $TRE-R02-SecteurActivite#SA02 "Hôpital militaire du Service de santé des armées"
@@ -75,7 +75,7 @@ Description: "Secteurs d'activité des établissements avec la même activité d
 * $TRE-R02-SecteurActivite#SA60 "Centres médicaux SNCF"
 * $TRE-R02-SecteurActivite#SA61 "Structure Dispensatrice à domicile d'Oxygène à usage médical"
 * $TRE-R02-SecteurActivite#SA62 "Ordre professionnel de santé"
-* $TRE-R02-SecteurActivite#SA63 "Communauté professionnelle territoriale de santé et équipe de soins spécialisés"
+* $TRE-R02-SecteurActivite#SA63 "Structures de coordination et d'orientation"
 * $TRE-R02-SecteurActivite#SA64 "Société de téléconsultation"
 * $TRE-R02-SecteurActivite#SA65 "Antenne de pharmacie"
 * $TRE-R02-SecteurActivite#SA68 "Services départementaux d'incendie et de secours"

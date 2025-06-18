@@ -1,23 +1,23 @@
 ValueSet: JDV_J29_PublicPrisEnCharge_ROR
 Id: JDV-J29-PublicPrisEnCharge-ROR
 Description: "Public pris en charge - ROR"
-* ^meta.versionId = "3"
-* ^meta.lastUpdated = "2024-04-27T05:07:42.884+00:00"
+* ^meta.versionId = "4"
+* ^meta.lastUpdated = "2025-03-31T17:34:20.400+00:00"
 * ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablevalueset"
 * ^extension.url = "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod"
 * ^extension.valuePeriod.start = "2017-10-13T12:00:00+01:00"
 * ^url = "https://mos.esante.gouv.fr/NOS/JDV_J29-PublicPrisEnCharge-ROR/FHIR/JDV-J29-PublicPrisEnCharge-ROR"
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value = "urn:oid:1.2.250.1.213.3.3.30"
-* ^version = "20240426120000"
+* ^version = "20250328120000"
 * ^status = #active
 * ^experimental = false
-* ^date = "2024-04-26T12:00:00+01:00"
+* ^date = "2025-03-28T12:00:00+01:00"
 * ^publisher = "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris"
 * $TRE-R239-PublicPrisEnCharge#01 "Personnes âgées en perte d'autonomie (PA) et aidants"
 * $TRE-R239-PublicPrisEnCharge#02 "Personnes en situation de handicap (PH) et aidants"
 * $TRE-R239-PublicPrisEnCharge#03 "Personnes âgées autonomes"
-* $TRE-R239-PublicPrisEnCharge#04 "Personnes présentant une addiction"
+* $TRE-R239-PublicPrisEnCharge#04 "Personnes présentant une conduite addictive"
 * $TRE-R239-PublicPrisEnCharge#05 "Personnes handicapées vieillissantes"
 * $TRE-R239-PublicPrisEnCharge#06 "Personnes en situation de précarité"
 * $TRE-R239-PublicPrisEnCharge#07 "Tout public"
