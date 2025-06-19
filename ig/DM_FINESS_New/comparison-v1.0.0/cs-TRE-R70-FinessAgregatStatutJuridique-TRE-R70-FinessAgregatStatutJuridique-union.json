@@ -1,11 +1,11 @@
 {
   "resourceType" : "CodeSystem",
-  "id" : "e767ae11-c55f-4088-8e5e-006807d85d45-701",
-  "url" : "http://hl7.org/fhir/comparison/CodeSystem/e767ae11-c55f-4088-8e5e-006807d85d45-701",
+  "id" : "03274c62-abd5-41df-91f4-62c6d76d88a6-701",
+  "url" : "http://hl7.org/fhir/comparison/CodeSystem/03274c62-abd5-41df-91f4-62c6d76d88a6-701",
   "name" : "UnionTRE_R70_FinessAgregatStatutJuridiqueAndTRE_R70_FinessAgregatStatutJuridique",
   "title" : "Union of null And null",
   "status" : "active",
-  "date" : "2025-06-19T12:25:14+00:00",
+  "date" : "2025-06-19T14:27:46+00:00",
   "jurisdiction" : [{
     "coding" : [{
       "system" : "urn:iso:std:iso:3166",

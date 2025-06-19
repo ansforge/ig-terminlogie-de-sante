@@ -247,7 +247,7 @@
       <td colspan="4"><i>Official URL</i>: <span class="copy-text">https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r387-type-groupement<button title="Click to copy URL" class="btn-copy" data-clipboard-text="https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r387-type-groupement"/></span>
       </td>
       <td><i>Version</i>:
-      <span class="copy-text">20241230120000<button title="Click to copy versioned URL" class="btn-copy" data-clipboard-text="https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r387-type-groupement|20241230120000"/></span>
+      <span class="copy-text">20250619120000<button title="Click to copy versioned URL" class="btn-copy" data-clipboard-text="https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r387-type-groupement|20250619120000"/></span>
       </td>
     </tr>
  
@@ -263,7 +263,7 @@
         
           Active
           
-            as of 2024-12-30
+            as of 2025-06-19
           
         
       </td>
@@ -286,7 +286,7 @@
         <i>As active of:</i> 
       </td>
       <td colspan="2">
-        <i>RevisionDate:</i> 2024-12-30T12:00:00+01:00
+        <i>RevisionDate:</i> 2025-06-19T12:00:00+01:00
       </td>      
     </tr>
 
@@ -336,7 +336,7 @@
 
 
   <div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"></p><a name="tre-r387-type-groupement"> </a><a name="hctre-r387-type-groupement"> </a>
-<div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px">version: 1; Dernière mise à jour : 2024-12-30 12:00:00+0100</p><p style="margin-bottom: 0px">Profil: <a href="http://hl7.org/fhir/R4/shareablecodesystem.html">Shareable CodeSystem</a></p></div><p><b>Propriétés</b></p><p><b>Cette terminologie de référence (CodeSystem) définit les propriétés suivantes pour ses concepts</b></p>
+<div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px">version: 1; Dernière mise à jour : 2025-06-19 12:00:00+0100</p><p style="margin-bottom: 0px">Profil: <a href="http://hl7.org/fhir/R4/shareablecodesystem.html">Shareable CodeSystem</a></p></div><p><b>Propriétés</b></p><p><b>Cette terminologie de référence (CodeSystem) définit les propriétés suivantes pour ses concepts</b></p>
 <table class="grid"><tr><td><b>Nom</b></td><td><b>Code</b></td><td><b>URI</b></td><td><b>Type</b></td><td><b>Description</b></td></tr>
 <tr><td>dateValid</td>
 <td>dateValid</td>
@@ -372,14 +372,20 @@
 <td>finess</td>
 <td>http://hl7.org/fhir/concept-properties#finess</td>
 <td>boolean</td>
-<td>Permet de définir les codes concepts utilisés par FINESS+</td></tr></table><p><b>Concepts</b></p><p>This case-insensitive code system <code>https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r387-type-groupement</code> defines the following codes:</p>
-<table class="codes"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td><td><b>dateValid</b></td><td><b>dateMaj</b></td><td><b>status</b></td><td><b>finess</b></td><td><b>French (France) (fr)</b></td></tr>
+<td>Permet de définir les codes concepts utilisés par FINESS+</td></tr>
+<tr><td>hasTypeRoleMember</td>
+<td>hasTypeRoleMember</td>
+<td>http://hl7.org/fhir/concept-properties#hasTypeRoleMember</td>
+<td>Coding</td>
+<td>Type de rôle des membres des concepts type de groupement</td></tr></table><p><b>Concepts</b></p><p>This case-insensitive code system <code>https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r387-type-groupement</code> defines the following codes:</p>
+<table class="codes"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td><td><b>dateValid</b></td><td><b>dateMaj</b></td><td><b>status</b></td><td><b>finess</b></td><td><b>hasTypeRoleMember</b></td><td><b>French (France) (fr)</b></td></tr>
 <tr><td style="white-space:nowrap">01<a name="tre-r387-type-groupement-01"> </a></td>
 <td>Groupement de coopération conventionnelle</td>
 <td>1900-01-01T00:00:00+01:00</td>
 <td>1900-01-01T00:00:00+01:00</td>
 <td>active</td>
 <td>true</td>
+<td>M, S</td>
 <td>GCC</td></tr>
 <tr><td style="white-space:nowrap">02<a name="tre-r387-type-groupement-02"> </a></td>
 <td>Groupement de coopération organique</td>
@@ -387,6 +393,7 @@
 <td>1900-01-01T00:00:00+01:00</td>
 <td>active</td>
 <td>true</td>
+<td>M, T</td>
 <td>GCO</td></tr></table></div>
 </div>
   
@@ -436,7 +443,7 @@
 
 <div class="inner-wrapper">
   <p>
-    IG &#169; 2020+ <a style="color:var(--footer-hyperlink-text-color)" href="https://esante.gouv.fr">ANS</a>.  Package ans.fr.terminologies#0.1.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Thu, Jun 19, 2025 12:18+0000">2025-06-19</span>
+    IG &#169; 2020+ <a style="color:var(--footer-hyperlink-text-color)" href="https://esante.gouv.fr">ANS</a>.  Package ans.fr.terminologies#0.1.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Thu, Jun 19, 2025 14:17+0000">2025-06-19</span>
     <br/>
     <span style="color: var(--footer-highlight-text-color)"></span>
       Liens: <a style="color: var(--footer-hyperlink-text-color)" href="toc.html">Table des matières </a> |

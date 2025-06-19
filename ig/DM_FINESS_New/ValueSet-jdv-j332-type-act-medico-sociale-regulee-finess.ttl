@@ -19,7 +19,7 @@
   ] ; # 
   fhir:text [
      fhir:status [ fhir:v "generated" ] ;
-     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Narratif généré : EnsembleValeurs jdv-j332-type-act-medico-sociale-regulee-finess</b></p><a name=\"jdv-j332-type-act-medico-sociale-regulee-finess\"> </a><a name=\"hcjdv-j332-type-act-medico-sociale-regulee-finess\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">version: 1; Dernière mise à jour : 2025-06-03 18:02:28+0000</p><p style=\"margin-bottom: 0px\">Profil: <a href=\"http://hl7.org/fhir/R4/shareablevalueset.html\">Shareable ValueSet</a></p></div><ul><li>Include codes provenant de<a href=\"CodeSystem-tre-r392-type-act-smsse-regulee.html\"><code>https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r392-type-act-smsse-regulee</code></a> où natureActivite  = AMSR</li></ul></div>"^^rdf:XMLLiteral
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Narratif généré : EnsembleValeurs jdv-j332-type-act-medico-sociale-regulee-finess</b></p><a name=\"jdv-j332-type-act-medico-sociale-regulee-finess\"> </a><a name=\"hcjdv-j332-type-act-medico-sociale-regulee-finess\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">version: 1; Dernière mise à jour : 2025-06-03 18:02:28+0000</p><p style=\"margin-bottom: 0px\">Profil: <a href=\"http://hl7.org/fhir/R4/shareablevalueset.html\">Shareable ValueSet</a></p></div><ul><li>Include codes provenant de<a href=\"CodeSystem-tre-r392-type-act-smsse-regulee.html\"><code>https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r392-type-act-smsse-regulee</code></a> où natureActivite  = https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r374-nature-activite-smsse-regulee#AMSR</li></ul></div>"^^rdf:XMLLiteral
   ] ; # 
   fhir:extension ( [
      fhir:url [ fhir:v "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod"^^xsd:anyURI ] ;
@@ -47,7 +47,7 @@
        fhir:filter ( [
          fhir:property [ fhir:v "natureActivite" ] ;
          fhir:op [ fhir:v "=" ] ;
-         fhir:value [ fhir:v "AMSR" ]
+         fhir:value [ fhir:v "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r374-nature-activite-smsse-regulee#AMSR" ]
        ] )
      ] )
   ] . # 

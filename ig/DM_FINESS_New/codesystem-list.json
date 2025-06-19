@@ -2297,7 +2297,7 @@
     },
     {
       "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r360-type-role-entite-groupe",
-      "version" : "20241230120000",
+      "version" : "20250619120000",
       "status" : "active",
       "name" : "TreR360TypeRoleEntiteGroupe",
       "title" : "Tre R360 Type Role Entite Groupe",
@@ -2513,7 +2513,7 @@
     },
     {
       "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r387-type-groupement",
-      "version" : "20241230120000",
+      "version" : "20250619120000",
       "status" : "active",
       "name" : "TreR387TypeGroupement",
       "title" : "Tre R387 Type Groupement",

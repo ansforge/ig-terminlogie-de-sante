@@ -188,7 +188,7 @@
                   dateValid="19000101000000"
                   displayName="Autre document informatif"
                   longDesignation="Autre document informatif"
-                  shortDesignation="Autre document"
+                  shortDesignation="Autre document informatif"
                   descriptionMetier=""/>
       </ConceptList>
    </ValueSet>
