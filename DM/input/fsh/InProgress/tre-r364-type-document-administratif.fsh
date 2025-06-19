@@ -276,10 +276,6 @@ Description: "Nomenclature des types de documents administratif ( exemple : agr√
 * #105 ^property[+].code = #JdvJ295DocumentInformatifFiness
 * #105 ^property[=].valueBoolean = true
 * #106 "Autre document informatif"
-* #106 ^designation.language = #fr-FR
-* #106 ^designation.use.system = "http://snomed.info/sct"
-* #106 ^designation.use = $sct#900000000000013009
-* #106 ^designation.value = "Autre document"
 * #106 ^property[0].code = #dateValid
 * #106 ^property[=].valueDateTime = "1900-01-01T00:00:00+01:00"
 * #106 ^property[+].code = #dateMaj
