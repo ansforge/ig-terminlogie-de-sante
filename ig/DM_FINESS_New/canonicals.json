@@ -6524,7 +6524,7 @@
   {
     "id" : "jdv-j331-type-act-sociale-regulee-finess",
     "type" : "ValueSet",
-    "url" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j322-type-act-enseignement-regulee-finess",
+    "url" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j331-type-act-sociale-regulee-finess",
     "version" : "20250603120000",
     "name" : "JdvJ331TypeActSocialeReguleeFiness",
     "oids" : ["1.2.250.1.213.1.6.1.339"]

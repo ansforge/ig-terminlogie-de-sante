@@ -1,11 +1,11 @@
 {
   "resourceType" : "CodeSystem",
-  "id" : "4c268131-8ba8-4807-bb1d-69cf9eb5e5e2-504",
-  "url" : "http://hl7.org/fhir/comparison/CodeSystem/4c268131-8ba8-4807-bb1d-69cf9eb5e5e2-504",
+  "id" : "e767ae11-c55f-4088-8e5e-006807d85d45-504",
+  "url" : "http://hl7.org/fhir/comparison/CodeSystem/e767ae11-c55f-4088-8e5e-006807d85d45-504",
   "name" : "IntersectionTRE_R325_SituationProfessionnelleAndTRE_R325_SituationProfessionnelle",
   "title" : "Intersection of null And null",
   "status" : "active",
-  "date" : "2025-06-19T11:40:35+00:00",
+  "date" : "2025-06-19T12:25:14+00:00",
   "property" : [{
     "code" : "dateValid",
     "description" : "date de validité d'un code concept",

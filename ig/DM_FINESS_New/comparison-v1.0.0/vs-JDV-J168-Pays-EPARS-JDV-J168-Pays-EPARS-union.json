@@ -1,11 +1,11 @@
 {
   "resourceType" : "ValueSet",
-  "id" : "4c268131-8ba8-4807-bb1d-69cf9eb5e5e2-1046",
-  "url" : "http://hl7.org/fhir/comparison/ValueSet/4c268131-8ba8-4807-bb1d-69cf9eb5e5e2-1046",
+  "id" : "e767ae11-c55f-4088-8e5e-006807d85d45-1046",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/e767ae11-c55f-4088-8e5e-006807d85d45-1046",
   "name" : "UnionJDV_J168_Pays_EPARSAndJDV_J168_Pays_EPARS",
   "title" : "Union of null And null",
   "status" : "retired",
-  "date" : "2025-06-19T11:40:35+00:00",
+  "date" : "2025-06-19T12:25:14+00:00",
   "jurisdiction" : [{
     "coding" : [{
       "system" : "urn:iso:std:iso:3166",
