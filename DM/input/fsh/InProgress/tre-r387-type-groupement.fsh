@@ -1,21 +1,22 @@
 Alias: $sct = http://snomed.info/sct
+Alias: $tre-r360-type-role-entite-groupe = https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r360-type-role-entite-groupe
 
 CodeSystem: TreR387TypeGroupement
 Id: tre-r387-type-groupement
 Title: "Tre R387 Type Groupement"
 Description: "Nomenclature des types de groupement utilisables dans FINESS. Groupement de coopération conventionnelle ou Groupement de coopération organique"
 * ^meta.versionId = "1"
-* ^meta.lastUpdated = "2024-12-30T12:00:00+01:00"
+* ^meta.lastUpdated = "2025-06-19T12:00:00+01:00"
 * ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablecodesystem"
 * ^extension.url = "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod"
 * ^extension.valuePeriod.start = "1900-01-01T00:00:00+01:00"
 * ^url = "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r387-type-groupement"
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value = "urn:oid:1.2.250.1.213.1.6.1.302"
-* ^version = "20241230120000"
+* ^version = "20250619120000"
 * ^status = #active
 * ^experimental = false
-* ^date = "2024-12-30T12:00:00+01:00"
+* ^date = "2025-06-19T12:00:00+01:00"
 * ^publisher = "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris"
 * ^caseSensitive = false
 * ^content = #complete
@@ -44,6 +45,10 @@ Description: "Nomenclature des types de groupement utilisables dans FINESS. Grou
 * ^property[=].uri = "http://hl7.org/fhir/concept-properties#finess"
 * ^property[=].description = "Permet de définir les codes concepts utilisés par FINESS+"
 * ^property[=].type = #boolean
+* ^property[+].code = #hasTypeRoleMember
+* ^property[=].uri = "http://hl7.org/fhir/concept-properties#hasTypeRoleMember"
+* ^property[=].description = "Type de rôle des membres des concepts type de groupement"
+* ^property[=].type = #Coding
 * #01 "Groupement de coopération conventionnelle"
 * #01 ^designation.language = #fr-FR
 * #01 ^designation.use.system = "http://snomed.info/sct"
@@ -57,6 +62,10 @@ Description: "Nomenclature des types de groupement utilisables dans FINESS. Grou
 * #01 ^property[=].valueCode = #active
 * #01 ^property[+].code = #finess
 * #01 ^property[=].valueBoolean = true
+* #01 ^property[+].code = #hasTypeRoleMember
+* #01 ^property[=].valueCoding = $tre-r360-type-role-entite-groupe#M "Membre simple"
+* #01 ^property[+].code = #hasTypeRoleMember
+* #01 ^property[=].valueCoding = $tre-r360-type-role-entite-groupe#S "Entité support"
 * #02 "Groupement de coopération organique"
 * #02 ^designation.language = #fr-FR
 * #02 ^designation.use.system = "http://snomed.info/sct"
@@ -70,3 +79,7 @@ Description: "Nomenclature des types de groupement utilisables dans FINESS. Grou
 * #02 ^property[=].valueCode = #active
 * #02 ^property[+].code = #finess
 * #02 ^property[=].valueBoolean = true
+* #02 ^property[+].code = #hasTypeRoleMember
+* #02 ^property[=].valueCoding = $tre-r360-type-role-entite-groupe#M "Membre simple"
+* #02 ^property[+].code = #hasTypeRoleMember
+* #02 ^property[=].valueCoding = $tre-r360-type-role-entite-groupe#T "Entité tête de groupe"

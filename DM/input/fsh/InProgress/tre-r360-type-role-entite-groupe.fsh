@@ -1,21 +1,22 @@
 Alias: $sct = http://snomed.info/sct
+Alias: $tre-r387-type-groupement = https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r387-type-groupement
 
 CodeSystem: TreR360TypeRoleEntiteGroupe 
 Id: tre-r360-type-role-entite-groupe
 Title: "Tre R360 Type Role Entite Groupe"
 Description: "Nomenclature des types de rôles que peuvent exercer des entités participants à des groupements"
 * ^meta.versionId = "1"
-* ^meta.lastUpdated = "2024-12-30T12:00:00+01:00"
+* ^meta.lastUpdated = "2025-06-19T12:00:00+01:00"
 * ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablecodesystem"
 * ^extension.url = "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod"
 * ^extension.valuePeriod.start = "1900-01-01T00:00:00+01:00"
 * ^url = "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r360-type-role-entite-groupe"
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value = "urn:oid:1.2.250.1.213.1.6.1.254"
-* ^version = "20241230120000"
+* ^version = "20250619120000"
 * ^status = #active
 * ^experimental = false
-* ^date = "2024-12-30T12:00:00+01:00"
+* ^date = "2025-06-19T12:00:00+01:00"
 * ^publisher = "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris"
 * ^caseSensitive = false
 * ^content = #complete
@@ -44,6 +45,10 @@ Description: "Nomenclature des types de rôles que peuvent exercer des entités 
 * ^property[=].uri = "http://hl7.org/fhir/concept-properties#finess"
 * ^property[=].description = "Permet de définir les codes concepts utilisés par FINESS+"
 * ^property[=].type = #boolean
+* ^property[+].code = #isTypeRoleMemberOf
+* ^property[=].uri = "http://hl7.org/fhir/concept-properties#hasTypeRoleMember"
+* ^property[=].description = "Type de groupement"
+* ^property[=].type = #Coding
 * #S "Entité support"
 * #S ^designation.language = #fr-FR
 * #S ^designation.use.system = "http://snomed.info/sct"
@@ -57,6 +62,8 @@ Description: "Nomenclature des types de rôles que peuvent exercer des entités 
 * #S ^property[=].valueCode = #active
 * #S ^property[+].code = #finess
 * #S ^property[=].valueBoolean = true
+* #S ^property[+].code = #isTypeRoleMemberOf
+* #S ^property[=].valueCoding = $tre-r387-type-groupement#01 "Groupement de coopération conventionnelle"
 * #M "Membre simple"
 * #M ^designation.language = #fr-FR
 * #M ^designation.use.system = "http://snomed.info/sct"
@@ -70,6 +77,10 @@ Description: "Nomenclature des types de rôles que peuvent exercer des entités 
 * #M ^property[=].valueCode = #active
 * #M ^property[+].code = #finess
 * #M ^property[=].valueBoolean = true
+* #M ^property[+].code = #isTypeRoleMemberOf
+* #M ^property[=].valueCoding = $tre-r387-type-groupement#01 "Groupement de coopération conventionnelle"
+* #M ^property[+].code = #isTypeRoleMemberOf
+* #M ^property[=].valueCoding = $tre-r387-type-groupement#02 "Groupement de coopération organique"
 * #T "Entité tête de groupe"
 * #T ^designation.language = #fr-FR
 * #T ^designation.use.system = "http://snomed.info/sct"
@@ -83,3 +94,5 @@ Description: "Nomenclature des types de rôles que peuvent exercer des entités 
 * #T ^property[=].valueCode = #active
 * #T ^property[+].code = #finess
 * #T ^property[=].valueBoolean = true
+* #T ^property[+].code = #isTypeRoleMemberOf
+* #T ^property[=].valueCoding = $tre-r387-type-groupement#02 "Groupement de coopération organique"
