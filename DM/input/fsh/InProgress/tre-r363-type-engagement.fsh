@@ -16,7 +16,6 @@ Description: "Nomenclature des grands types d'engagement pouvant être associés
 * ^date = "2024-12-30T12:00:00+01:00"
 * ^publisher = "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris"
 * ^caseSensitive = false
-* ^valueSet = "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r363-type-engagement?vs"
 * ^content = #complete
 * ^property[0].code = #dateValid
 * ^property[=].description = "date de validité d'un code concept"
@@ -39,6 +38,10 @@ Description: "Nomenclature des grands types d'engagement pouvant être associés
 * ^property[=].uri = "http://hl7.org/fhir/concept-properties#retirementDate"
 * ^property[=].description = "The date at which a concept was retired"
 * ^property[=].type = #dateTime
+* ^property[+].code = #finess
+* ^property[=].uri = "http://hl7.org/fhir/concept-properties#finess"
+* ^property[=].description = "Permet de définir les codes concepts utilisés par FINESS+"
+* ^property[=].type = #boolean
 * #ARRT "Arrêté"
 * #ARRT ^property[0].code = #dateValid
 * #ARRT ^property[=].valueDateTime = "1900-01-01T00:00:00+01:00"
@@ -46,6 +49,8 @@ Description: "Nomenclature des grands types d'engagement pouvant être associés
 * #ARRT ^property[=].valueDateTime = "1900-01-01T00:00:00+01:00"
 * #ARRT ^property[+].code = #status
 * #ARRT ^property[=].valueCode = #active
+* #ARRT ^property[+].code = #finess
+* #ARRT ^property[=].valueBoolean = true
 * #CONV "Convention"
 * #CONV ^property[0].code = #dateValid
 * #CONV ^property[=].valueDateTime = "1900-01-01T00:00:00+01:00"
@@ -53,6 +58,8 @@ Description: "Nomenclature des grands types d'engagement pouvant être associés
 * #CONV ^property[=].valueDateTime = "1900-01-01T00:00:00+01:00"
 * #CONV ^property[+].code = #status
 * #CONV ^property[=].valueCode = #active
+* #CONV ^property[+].code = #finess
+* #CONV ^property[=].valueBoolean = true
 * #DISP "Dispositif"
 * #DISP ^property[0].code = #dateValid
 * #DISP ^property[=].valueDateTime = "1900-01-01T00:00:00+01:00"
@@ -60,6 +67,8 @@ Description: "Nomenclature des grands types d'engagement pouvant être associés
 * #DISP ^property[=].valueDateTime = "1900-01-01T00:00:00+01:00"
 * #DISP ^property[+].code = #status
 * #DISP ^property[=].valueCode = #active
+* #DISP ^property[+].code = #finess
+* #DISP ^property[=].valueBoolean = true
 * #LABL "Label"
 * #LABL ^property[0].code = #dateValid
 * #LABL ^property[=].valueDateTime = "1900-01-01T00:00:00+01:00"
@@ -67,3 +76,5 @@ Description: "Nomenclature des grands types d'engagement pouvant être associés
 * #LABL ^property[=].valueDateTime = "1900-01-01T00:00:00+01:00"
 * #LABL ^property[+].code = #status
 * #LABL ^property[=].valueCode = #active
+* #LABL ^property[+].code = #finess
+* #LABL ^property[=].valueBoolean = true
