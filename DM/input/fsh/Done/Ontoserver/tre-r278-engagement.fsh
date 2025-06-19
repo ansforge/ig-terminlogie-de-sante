@@ -1,4 +1,5 @@
 Alias: $sct = http://snomed.info/sct
+Alias: $tre-r363-type-engagement = https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r363-type-engagement
 
 CodeSystem: TreR278Engagement
 Id: tre-r278-engagement
@@ -40,38 +41,10 @@ Description: "Nomenclature des engagements associés dans FINESS+ aux Personnes 
 * ^property[=].uri = "http://hl7.org/fhir/concept-properties#retirementDate"
 * ^property[=].description = "The date at which a concept was retired"
 * ^property[=].type = #dateTime
-* ^property[+].code = #classeEngagement
-* ^property[=].uri = "https://smt.esante.gouv.fr/fhir/concept-properties#classeEngagement"
-* ^property[=].description = "Propriété permettant de renseigner les grands types d'engagement pour chaque type d'engagement présent dans cette TRE"
-* ^property[=].type = #code
-* #ARRT "Arrêté"
-* #ARRT ^property[0].code = #dateValid
-* #ARRT ^property[=].valueDateTime = "1900-01-01T00:00:00+01:00"
-* #ARRT ^property[+].code = #dateMaj
-* #ARRT ^property[=].valueDateTime = "1900-01-01T00:00:00+01:00"
-* #ARRT ^property[+].code = #classeEngagement
-* #ARRT ^property[=].valueCode = #Engagement
-* #CONV "Convention"
-* #CONV ^property[0].code = #dateValid
-* #CONV ^property[=].valueDateTime = "1900-01-01T00:00:00+01:00"
-* #CONV ^property[+].code = #dateMaj
-* #CONV ^property[=].valueDateTime = "1900-01-01T00:00:00+01:00"
-* #CONV ^property[+].code = #classeEngagement
-* #CONV ^property[=].valueCode = #Engagement
-* #DISP "Dispositif"
-* #DISP ^property[0].code = #dateValid
-* #DISP ^property[=].valueDateTime = "1900-01-01T00:00:00+01:00"
-* #DISP ^property[+].code = #dateMaj
-* #DISP ^property[=].valueDateTime = "1900-01-01T00:00:00+01:00"
-* #DISP ^property[+].code = #classeEngagement
-* #DISP ^property[=].valueCode = #Engagement
-* #LABL "Label"
-* #LABL ^property[0].code = #dateValid
-* #LABL ^property[=].valueDateTime = "1900-01-01T00:00:00+01:00"
-* #LABL ^property[+].code = #dateMaj
-* #LABL ^property[=].valueDateTime = "1900-01-01T00:00:00+01:00"
-* #LABL ^property[+].code = #classeEngagement
-* #LABL ^property[=].valueCode = #Engagement
+* ^property[+].code = #typeEngagement
+* ^property[=].uri = "https://smt.esante.gouv.fr/fhir/concept-properties#typeEngagement"
+* ^property[=].description = "Propriété permettant de renseigner les grands types d'engagement pour chaque engagement présent dans cette TRE"
+* ^property[=].type = #Coding
 * #ACI "Contrat tripartie CPTS/AM/ARS pour rémunération ACI" "ACI pour Accord Conventionnel Interprofessionnel. Cette convention est associée aux établissements Communauté Professionnelle Territoriale de Santé (CPTS) ayant signé un contrat tripartite avec l'Assurance Maladie (AM) et l'Agence Régionale de Santé (ARS)."
 * #ACI ^designation.language = #fr-FR
 * #ACI ^designation.use.system = "http://snomed.info/sct"
@@ -81,22 +54,22 @@ Description: "Nomenclature des engagements associés dans FINESS+ aux Personnes 
 * #ACI ^property[=].valueDateTime = "2020-05-29T12:00:00+01:00"
 * #ACI ^property[+].code = #dateMaj
 * #ACI ^property[=].valueDateTime = "2020-05-29T12:00:00+01:00"
-* #ACI ^property[+].code = #classeEngagement
-* #ACI ^property[=].valueCode = #CONV
+* #ACI ^property[+].code = #typeEngagement
+* #ACI ^property[=].valueCoding = $tre-r363-type-engagement#CONV "Convention"
 * #APL "Aide Personalisée au Logement"
 * #APL ^property[0].code = #dateValid
 * #APL ^property[=].valueDateTime = "2018-10-26T12:00:00+01:00"
 * #APL ^property[+].code = #dateMaj
 * #APL ^property[=].valueDateTime = "2018-10-26T12:00:00+01:00"
-* #APL ^property[+].code = #classeEngagement
-* #APL ^property[=].valueCode = #CONV
+* #APL ^property[+].code = #typeEngagement
+* #APL ^property[=].valueCoding = $tre-r363-type-engagement#CONV "Convention"
 * #ARR "Arrêté"
 * #ARR ^property[0].code = #dateValid
 * #ARR ^property[=].valueDateTime = "2024-01-01T12:00:00+01:00"
 * #ARR ^property[+].code = #dateMaj
 * #ARR ^property[=].valueDateTime = "2024-01-01T12:00:00+01:00"
-* #ARR ^property[+].code = #classeEngagement
-* #ARR ^property[=].valueCode = #ARRT
+* #ARR ^property[+].code = #typeEngagement
+* #ARR ^property[=].valueCoding = $tre-r363-type-engagement#ARRT "Arrêté"
 * #ASD "Convention aide sociale départementale"
 * #ASD ^designation.language = #fr-FR
 * #ASD ^designation.use.system = "http://snomed.info/sct"
@@ -106,8 +79,8 @@ Description: "Nomenclature des engagements associés dans FINESS+ aux Personnes 
 * #ASD ^property[=].valueDateTime = "2018-10-26T12:00:00+01:00"
 * #ASD ^property[+].code = #dateMaj
 * #ASD ^property[=].valueDateTime = "2018-10-26T12:00:00+01:00"
-* #ASD ^property[+].code = #classeEngagement
-* #ASD ^property[=].valueCode = #CONV
+* #ASD ^property[+].code = #typeEngagement
+* #ASD ^property[=].valueCoding = $tre-r363-type-engagement#CONV "Convention"
 * #ASE "Convention aide sociale Etat"
 * #ASE ^designation.language = #fr-FR
 * #ASE ^designation.use.system = "http://snomed.info/sct"
@@ -117,8 +90,8 @@ Description: "Nomenclature des engagements associés dans FINESS+ aux Personnes 
 * #ASE ^property[=].valueDateTime = "2018-10-26T12:00:00+01:00"
 * #ASE ^property[+].code = #dateMaj
 * #ASE ^property[=].valueDateTime = "2018-10-26T12:00:00+01:00"
-* #ASE ^property[+].code = #classeEngagement
-* #ASE ^property[=].valueCode = #CONV
+* #ASE ^property[+].code = #typeEngagement
+* #ASE ^property[=].valueCoding = $tre-r363-type-engagement#CONV "Convention"
 * #CPM "Signature d'une Convention d'Objectifs et de Moyens (CPOM)"
 * #CPM ^designation.language = #fr-FR
 * #CPM ^designation.use.system = "http://snomed.info/sct"
@@ -128,8 +101,8 @@ Description: "Nomenclature des engagements associés dans FINESS+ aux Personnes 
 * #CPM ^property[=].valueDateTime = "2018-10-26T12:00:00+01:00"
 * #CPM ^property[+].code = #dateMaj
 * #CPM ^property[=].valueDateTime = "2018-10-26T12:00:00+01:00"
-* #CPM ^property[+].code = #classeEngagement
-* #CPM ^property[=].valueCode = #CONV
+* #CPM ^property[+].code = #typeEngagement
+* #CPM ^property[=].valueCoding = $tre-r363-type-engagement#CONV "Convention"
 * #CPP "PFR Plateforme de répit financée par plusieurs financeurs"
 * #CPP ^designation.language = #fr-FR
 * #CPP ^designation.use.system = "http://snomed.info/sct"
@@ -139,8 +112,8 @@ Description: "Nomenclature des engagements associés dans FINESS+ aux Personnes 
 * #CPP ^property[=].valueDateTime = "2018-10-26T12:00:00+01:00"
 * #CPP ^property[+].code = #dateMaj
 * #CPP ^property[=].valueDateTime = "2018-10-26T12:00:00+01:00"
-* #CPP ^property[+].code = #classeEngagement
-* #CPP ^property[=].valueCode = #CONV
+* #CPP ^property[+].code = #typeEngagement
+* #CPP ^property[=].valueCoding = $tre-r363-type-engagement#CONV "Convention"
 * #CPU "PFR Plateforme de répit financée par l'ARS uniquement"
 * #CPU ^designation.language = #fr-FR
 * #CPU ^designation.use.system = "http://snomed.info/sct"
@@ -150,8 +123,8 @@ Description: "Nomenclature des engagements associés dans FINESS+ aux Personnes 
 * #CPU ^property[=].valueDateTime = "2018-10-26T12:00:00+01:00"
 * #CPU ^property[+].code = #dateMaj
 * #CPU ^property[=].valueDateTime = "2018-10-26T12:00:00+01:00"
-* #CPU ^property[+].code = #classeEngagement
-* #CPU ^property[=].valueCode = #CONV
+* #CPU ^property[+].code = #typeEngagement
+* #CPU ^property[=].valueCoding = $tre-r363-type-engagement#CONV "Convention"
 * #DEA "Dispositif d'emploi accompagné"
 * #DEA ^designation.language = #fr-FR
 * #DEA ^designation.use.system = "http://snomed.info/sct"
@@ -161,8 +134,8 @@ Description: "Nomenclature des engagements associés dans FINESS+ aux Personnes 
 * #DEA ^property[=].valueDateTime = "2018-10-26T12:00:00+01:00"
 * #DEA ^property[+].code = #dateMaj
 * #DEA ^property[=].valueDateTime = "2018-10-26T12:00:00+01:00"
-* #DEA ^property[+].code = #classeEngagement
-* #DEA ^property[=].valueCode = #DISP
+* #DEA ^property[+].code = #typeEngagement
+* #DEA ^property[=].valueCoding = $tre-r363-type-engagement#DISP "Dispositif"
 * #DIS "Dispositif Article 51"
 * #DIS ^designation.language = #fr-FR
 * #DIS ^designation.use.system = "http://snomed.info/sct"
@@ -172,8 +145,8 @@ Description: "Nomenclature des engagements associés dans FINESS+ aux Personnes 
 * #DIS ^property[=].valueDateTime = "2023-01-27T12:00:00+01:00"
 * #DIS ^property[+].code = #dateMaj
 * #DIS ^property[=].valueDateTime = "2023-01-27T12:00:00+01:00"
-* #DIS ^property[+].code = #classeEngagement
-* #DIS ^property[=].valueCode = #DISP
+* #DIS ^property[+].code = #typeEngagement
+* #DIS ^property[=].valueCoding = $tre-r363-type-engagement#DISP "Dispositif"
 * #DIT "Dispositif Intégré" "Cette convention identifie soit les ESMS ex-DITEP soit les ESMS fonctionnant en Dispositif Intégré mais n'entrant pas dans un \"dispositif partenarial\""
 * #DIT ^designation.language = #fr-FR
 * #DIT ^designation.use.system = "http://snomed.info/sct"
@@ -183,15 +156,15 @@ Description: "Nomenclature des engagements associés dans FINESS+ aux Personnes 
 * #DIT ^property[=].valueDateTime = "2018-10-26T12:00:00+01:00"
 * #DIT ^property[+].code = #dateMaj
 * #DIT ^property[=].valueDateTime = "2025-01-31T12:00:00+01:00"
-* #DIT ^property[+].code = #classeEngagement
-* #DIT ^property[=].valueCode = #DISP
+* #DIT ^property[+].code = #typeEngagement
+* #DIT ^property[=].valueCoding = $tre-r363-type-engagement#DISP "Dispositif"
 * #EMA "Equipe mobile d'appui pour la scolarisation jeunes handicap"
 * #EMA ^property[0].code = #dateValid
 * #EMA ^property[=].valueDateTime = "2020-01-31T12:00:00+01:00"
 * #EMA ^property[+].code = #dateMaj
 * #EMA ^property[=].valueDateTime = "2020-01-31T12:00:00+01:00"
-* #EMA ^property[+].code = #classeEngagement
-* #EMA ^property[=].valueCode = #DISP
+* #EMA ^property[+].code = #typeEngagement
+* #EMA ^property[=].valueCoding = $tre-r363-type-engagement#DISP "Dispositif"
 * #EX1 "Entrée dans l expérimentation de SPASAD seul"
 * #EX1 ^designation.language = #fr-FR
 * #EX1 ^designation.use.system = "http://snomed.info/sct"
@@ -201,8 +174,8 @@ Description: "Nomenclature des engagements associés dans FINESS+ aux Personnes 
 * #EX1 ^property[=].valueDateTime = "2021-11-26T12:00:00+01:00"
 * #EX1 ^property[+].code = #dateMaj
 * #EX1 ^property[=].valueDateTime = "2021-11-26T12:00:00+01:00"
-* #EX1 ^property[+].code = #classeEngagement
-* #EX1 ^property[=].valueCode = #CONV
+* #EX1 ^property[+].code = #typeEngagement
+* #EX1 ^property[=].valueCoding = $tre-r363-type-engagement#CONV "Convention"
 * #EX2 "Expérimentation SSIAD et/ou SAAD + SPASAD si GCSMS"
 * #EX2 ^designation.language = #fr-FR
 * #EX2 ^designation.use.system = "http://snomed.info/sct"
@@ -212,8 +185,8 @@ Description: "Nomenclature des engagements associés dans FINESS+ aux Personnes 
 * #EX2 ^property[=].valueDateTime = "2021-11-26T12:00:00+01:00"
 * #EX2 ^property[+].code = #dateMaj
 * #EX2 ^property[=].valueDateTime = "2021-11-26T12:00:00+01:00"
-* #EX2 ^property[+].code = #classeEngagement
-* #EX2 ^property[=].valueCode = #CONV
+* #EX2 ^property[+].code = #typeEngagement
+* #EX2 ^property[=].valueCoding = $tre-r363-type-engagement#CONV "Convention"
 * #EX3 "Expériment. SSIAD et/ou SAAD + SPASAD si conv. Coopé."
 * #EX3 ^designation.language = #fr-FR
 * #EX3 ^designation.use.system = "http://snomed.info/sct"
@@ -223,8 +196,8 @@ Description: "Nomenclature des engagements associés dans FINESS+ aux Personnes 
 * #EX3 ^property[=].valueDateTime = "2021-11-26T12:00:00+01:00"
 * #EX3 ^property[+].code = #dateMaj
 * #EX3 ^property[=].valueDateTime = "2021-11-26T12:00:00+01:00"
-* #EX3 ^property[+].code = #classeEngagement
-* #EX3 ^property[=].valueCode = #CONV
+* #EX3 ^property[+].code = #typeEngagement
+* #EX3 ^property[=].valueCoding = $tre-r363-type-engagement#CONV "Convention"
 * #HPR "Hôpitaux de proximité"
 * #HPR ^designation.language = #fr-FR
 * #HPR ^designation.use.system = "http://snomed.info/sct"
@@ -236,15 +209,15 @@ Description: "Nomenclature des engagements associés dans FINESS+ aux Personnes 
 * #HPR ^property[=].valueDateTime = "2021-11-26T12:00:00+01:00"
 * #HPR ^property[+].code = #dateMaj
 * #HPR ^property[=].valueDateTime = "2021-11-26T12:00:00+01:00"
-* #HPR ^property[+].code = #classeEngagement
-* #HPR ^property[=].valueCode = #LABL
+* #HPR ^property[+].code = #typeEngagement
+* #HPR ^property[=].valueCoding = $tre-r363-type-engagement#LABL "Label"
 * #JUS "Habilitation justice"
 * #JUS ^property[0].code = #dateValid
 * #JUS ^property[=].valueDateTime = "2018-10-26T12:00:00+01:00"
 * #JUS ^property[+].code = #dateMaj
 * #JUS ^property[=].valueDateTime = "2018-10-26T12:00:00+01:00"
-* #JUS ^property[+].code = #classeEngagement
-* #JUS ^property[=].valueCode = #CONV
+* #JUS ^property[+].code = #typeEngagement
+* #JUS ^property[=].valueCoding = $tre-r363-type-engagement#CONV "Convention"
 * #MDI "Membre du Dispositif Intégré" "Cette convention identifie un membre simple (non porteur) du Dispositif Intégré dans le cas d'un dispositif partenarial\""
 * #MDI ^designation.language = #fr-FR
 * #MDI ^designation.use.system = "http://snomed.info/sct"
@@ -254,8 +227,8 @@ Description: "Nomenclature des engagements associés dans FINESS+ aux Personnes 
 * #MDI ^property[=].valueDateTime = "2025-01-31T12:00:00+01:00"
 * #MDI ^property[+].code = #dateMaj
 * #MDI ^property[=].valueDateTime = "2025-01-31T12:00:00+01:00"
-* #MDI ^property[+].code = #classeEngagement
-* #MDI ^property[=].valueCode = #DISP
+* #MDI ^property[+].code = #typeEngagement
+* #MDI ^property[=].valueCoding = $tre-r363-type-engagement#DISP "Dispositif"
 * #MIL "Conv hôpitaux militaires"
 * #MIL ^designation.language = #fr-FR
 * #MIL ^designation.use.system = "http://snomed.info/sct"
@@ -265,8 +238,8 @@ Description: "Nomenclature des engagements associés dans FINESS+ aux Personnes 
 * #MIL ^property[=].valueDateTime = "2018-10-26T12:00:00+01:00"
 * #MIL ^property[+].code = #dateMaj
 * #MIL ^property[=].valueDateTime = "2018-10-26T12:00:00+01:00"
-* #MIL ^property[+].code = #classeEngagement
-* #MIL ^property[=].valueCode = #CONV
+* #MIL ^property[+].code = #typeEngagement
+* #MIL ^property[=].valueCoding = $tre-r363-type-engagement#CONV "Convention"
 * #PAD "Convention tripartite étab personnes âgées dépendantes"
 * #PAD ^designation.language = #fr-FR
 * #PAD ^designation.use.system = "http://snomed.info/sct"
@@ -278,8 +251,8 @@ Description: "Nomenclature des engagements associés dans FINESS+ aux Personnes 
 * #PAD ^property[=].valueDateTime = "2021-11-26T12:00:00+01:00"
 * #PAD ^property[+].code = #dateMaj
 * #PAD ^property[=].valueDateTime = "2021-11-26T12:00:00+01:00"
-* #PAD ^property[+].code = #classeEngagement
-* #PAD ^property[=].valueCode = #CONV
+* #PAD ^property[+].code = #typeEngagement
+* #PAD ^property[=].valueCoding = $tre-r363-type-engagement#CONV "Convention"
 * #PAP "Convention tripartie partielle étab pers âgées dépendantes"
 * #PAP ^designation.language = #fr-FR
 * #PAP ^designation.use.system = "http://snomed.info/sct"
@@ -291,8 +264,8 @@ Description: "Nomenclature des engagements associés dans FINESS+ aux Personnes 
 * #PAP ^property[=].valueDateTime = "2021-11-26T12:00:00+01:00"
 * #PAP ^property[+].code = #dateMaj
 * #PAP ^property[=].valueDateTime = "2021-11-26T12:00:00+01:00"
-* #PAP ^property[+].code = #classeEngagement
-* #PAP ^property[=].valueCode = #CONV
+* #PAP ^property[+].code = #typeEngagement
+* #PAP ^property[=].valueCoding = $tre-r363-type-engagement#CONV "Convention"
 * #PCO "Plateforme coord. & orientation pour enfants atteints de TND"
 * #PCO ^designation.language = #fr-FR
 * #PCO ^designation.use.system = "http://snomed.info/sct"
@@ -302,8 +275,8 @@ Description: "Nomenclature des engagements associés dans FINESS+ aux Personnes 
 * #PCO ^property[=].valueDateTime = "2020-01-31T12:00:00+01:00"
 * #PCO ^property[+].code = #dateMaj
 * #PCO ^property[=].valueDateTime = "2020-01-31T12:00:00+01:00"
-* #PCO ^property[+].code = #classeEngagement
-* #PCO ^property[=].valueCode = #CONV
+* #PCO ^property[+].code = #typeEngagement
+* #PCO ^property[=].valueCoding = $tre-r363-type-engagement#CONV "Convention"
 * #PCP "Pôle de compétences et de prestations externalisées"
 * #PCP ^designation.language = #fr-FR
 * #PCP ^designation.use.system = "http://snomed.info/sct"
@@ -313,8 +286,8 @@ Description: "Nomenclature des engagements associés dans FINESS+ aux Personnes 
 * #PCP ^property[=].valueDateTime = "2018-10-26T12:00:00+01:00"
 * #PCP ^property[+].code = #dateMaj
 * #PCP ^property[=].valueDateTime = "2018-10-26T12:00:00+01:00"
-* #PCP ^property[+].code = #classeEngagement
-* #PCP ^property[=].valueCode = #DISP
+* #PCP ^property[+].code = #typeEngagement
+* #PCP ^property[=].valueCoding = $tre-r363-type-engagement#DISP "Dispositif"
 * #PEN "Convention établissement pénitentiaire"
 * #PEN ^designation.language = #fr-FR
 * #PEN ^designation.use.system = "http://snomed.info/sct"
@@ -324,8 +297,8 @@ Description: "Nomenclature des engagements associés dans FINESS+ aux Personnes 
 * #PEN ^property[=].valueDateTime = "2018-10-26T12:00:00+01:00"
 * #PEN ^property[+].code = #dateMaj
 * #PEN ^property[=].valueDateTime = "2018-10-26T12:00:00+01:00"
-* #PEN ^property[+].code = #classeEngagement
-* #PEN ^property[=].valueCode = #CONV
+* #PEN ^property[+].code = #typeEngagement
+* #PEN ^property[=].valueCoding = $tre-r363-type-engagement#CONV "Convention"
 * #PDI "Porteur du Dispositif Intégré" "Cette convention identifie le porteur du Dispositif Intégré dans le cas d'un dispositif partenarial\""
 * #PDI ^designation.language = #fr-FR
 * #PDI ^designation.use = $sct#900000000000013009
@@ -334,22 +307,22 @@ Description: "Nomenclature des engagements associés dans FINESS+ aux Personnes 
 * #PDI ^property[=].valueDateTime = "2025-01-31T12:00:00+01:00"
 * #PDI ^property[+].code = #dateMaj
 * #PDI ^property[=].valueDateTime = "2025-01-31T12:00:00+01:00"
-* #PDI ^property[+].code = #classeEngagement
-* #PDI ^property[=].valueCode = #DISP
+* #PDI ^property[+].code = #typeEngagement
+* #PDI ^property[=].valueCoding = $tre-r363-type-engagement#DISP "Dispositif"
 * #QAL "Agrément Qualité"
 * #QAL ^property[0].code = #dateValid
 * #QAL ^property[=].valueDateTime = "2018-10-26T12:00:00+01:00"
 * #QAL ^property[+].code = #dateMaj
 * #QAL ^property[=].valueDateTime = "2018-10-26T12:00:00+01:00"
-* #QAL ^property[+].code = #classeEngagement
-* #QAL ^property[=].valueCode = #CONV
+* #QAL ^property[+].code = #typeEngagement
+* #QAL ^property[=].valueCoding = $tre-r363-type-engagement#CONV "Convention"
 * #REL "Equipe relais"
 * #REL ^property[0].code = #dateValid
 * #REL ^property[=].valueDateTime = "2018-10-26T12:00:00+01:00"
 * #REL ^property[+].code = #dateMaj
 * #REL ^property[=].valueDateTime = "2018-10-26T12:00:00+01:00"
-* #REL ^property[+].code = #classeEngagement
-* #REL ^property[=].valueCode = #DISP
+* #REL ^property[+].code = #typeEngagement
+* #REL ^property[=].valueCoding = $tre-r363-type-engagement#DISP "Dispositif"
 * #RSE "SAAD intervenant uniquement au sein de la résidence services"
 * #RSE ^designation.language = #fr-FR
 * #RSE ^designation.use.system = "http://snomed.info/sct"
@@ -359,8 +332,8 @@ Description: "Nomenclature des engagements associés dans FINESS+ aux Personnes 
 * #RSE ^property[=].valueDateTime = "2019-04-26T12:00:00+01:00"
 * #RSE ^property[+].code = #dateMaj
 * #RSE ^property[=].valueDateTime = "2019-04-26T12:00:00+01:00"
-* #RSE ^property[+].code = #classeEngagement
-* #RSE ^property[=].valueCode = #DISP
+* #RSE ^property[+].code = #typeEngagement
+* #RSE ^property[=].valueCoding = $tre-r363-type-engagement#DISP "Dispositif"
 * #RUR "Maison d'Accueil Rurale pour Personnes Âgées (MARPA)"
 * #RUR ^designation.language = #fr-FR
 * #RUR ^designation.use.system = "http://snomed.info/sct"
@@ -372,15 +345,15 @@ Description: "Nomenclature des engagements associés dans FINESS+ aux Personnes 
 * #RUR ^property[=].valueDateTime = "2021-11-26T12:00:00+01:00"
 * #RUR ^property[+].code = #dateMaj
 * #RUR ^property[=].valueDateTime = "2021-11-26T12:00:00+01:00"
-* #RUR ^property[+].code = #classeEngagement
-* #RUR ^property[=].valueCode = #LABL
+* #RUR ^property[+].code = #typeEngagement
+* #RUR ^property[=].valueCoding = $tre-r363-type-engagement#LABL "Label"
 * #SAD "Convention SSIAD/SAAD (SAD)" "Indique que l'établissement (ex-SSIAD ou ex-SAAD) a signé une convention avec un SAAS ou un SAA"
 * #SAD ^property[0].code = #dateValid
 * #SAD ^property[=].valueDateTime = "2024-01-26T12:00:00+01:00"
 * #SAD ^property[+].code = #dateMaj
 * #SAD ^property[=].valueDateTime = "2024-01-26T12:00:00+01:00"
-* #SAD ^property[+].code = #classeEngagement
-* #SAD ^property[=].valueCode = #CONV
+* #SAD ^property[+].code = #typeEngagement
+* #SAD ^property[=].valueCoding = $tre-r363-type-engagement#CONV "Convention"
 * #SID "Signature d'une convention de médicalisation avec un SSIAD"
 * #SID ^designation.language = #fr-FR
 * #SID ^designation.use.system = "http://snomed.info/sct"
@@ -392,8 +365,8 @@ Description: "Nomenclature des engagements associés dans FINESS+ aux Personnes 
 * #SID ^property[=].valueDateTime = "2021-11-26T12:00:00+01:00"
 * #SID ^property[+].code = #dateMaj
 * #SID ^property[=].valueDateTime = "2021-11-26T12:00:00+01:00"
-* #SID ^property[+].code = #classeEngagement
-* #SID ^property[=].valueCode = #CONV
+* #SID ^property[+].code = #typeEngagement
+* #SID ^property[=].valueCoding = $tre-r363-type-engagement#CONV "Convention"
 * #UEA "Unité d'enseignement élémentaire autisme"
 * #UEA ^designation.language = #fr-FR
 * #UEA ^designation.use.system = "http://snomed.info/sct"
@@ -403,15 +376,15 @@ Description: "Nomenclature des engagements associés dans FINESS+ aux Personnes 
 * #UEA ^property[=].valueDateTime = "2020-01-31T12:00:00+01:00"
 * #UEA ^property[+].code = #dateMaj
 * #UEA ^property[=].valueDateTime = "2020-01-31T12:00:00+01:00"
-* #UEA ^property[+].code = #classeEngagement
-* #UEA ^property[=].valueCode = #DISP
+* #UEA ^property[+].code = #typeEngagement
+* #UEA ^property[=].valueCoding = $tre-r363-type-engagement#DISP "Dispositif"
 * #UEE "Unité d'enseignement externe hors UEM"
 * #UEE ^property[0].code = #dateValid
 * #UEE ^property[=].valueDateTime = "2018-10-26T12:00:00+01:00"
 * #UEE ^property[+].code = #dateMaj
 * #UEE ^property[=].valueDateTime = "2018-10-26T12:00:00+01:00"
-* #UEE ^property[+].code = #classeEngagement
-* #UEE ^property[=].valueCode = #DISP
+* #UEE ^property[+].code = #typeEngagement
+* #UEE ^property[=].valueCoding = $tre-r363-type-engagement#DISP "Dispositif"
 * #UEM "Unité d'enseignement en maternelle plan autisme"
 * #UEM ^designation.language = #fr-FR
 * #UEM ^designation.use.system = "http://snomed.info/sct"
@@ -421,8 +394,8 @@ Description: "Nomenclature des engagements associés dans FINESS+ aux Personnes 
 * #UEM ^property[=].valueDateTime = "2018-10-26T12:00:00+01:00"
 * #UEM ^property[+].code = #dateMaj
 * #UEM ^property[=].valueDateTime = "2018-10-26T12:00:00+01:00"
-* #UEM ^property[+].code = #classeEngagement
-* #UEM ^property[=].valueCode = #DISP
+* #UEM ^property[+].code = #typeEngagement
+* #UEM ^property[=].valueCoding = $tre-r363-type-engagement#DISP "Dispositif"
 * #UNI "Convention d'un CHR avec une Université"
 * #UNI ^designation.language = #fr-FR
 * #UNI ^designation.use.system = "http://snomed.info/sct"
@@ -432,5 +405,5 @@ Description: "Nomenclature des engagements associés dans FINESS+ aux Personnes 
 * #UNI ^property[=].valueDateTime = "2018-10-26T12:00:00+01:00"
 * #UNI ^property[+].code = #dateMaj
 * #UNI ^property[=].valueDateTime = "2018-10-26T12:00:00+01:00"
-* #UNI ^property[+].code = #classeEngagement
-* #UNI ^property[=].valueCode = #CONV
+* #UNI ^property[+].code = #typeEngagement
+* #UNI ^property[=].valueCoding = $tre-r363-type-engagement#CONV "Convention"
