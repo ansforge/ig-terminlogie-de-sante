@@ -48299,6 +48299,24 @@
          ]
        ] ) ;
        fhir:reference [
+         fhir:link <https://interop.esante.gouv.fr/terminologies/ValueSet/jdv-j293-type-engagement-finess> ;
+         fhir:reference [ fhir:v "ValueSet/jdv-j293-type-engagement-finess" ]
+       ] ;
+       fhir:name [ fhir:v "Jdv J293 Type Engagement Finess" ] ;
+       fhir:description [ fhir:v "Jeu de valeurs FINESS contenant les grands types d'engagement pouvant être associés dans FINESS+ à des structures ou des activités." ] ;
+       fhir:example [
+         a fhir:boolean ;
+         fhir:v false
+       ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [
+           a fhir:string ;
+           fhir:v "ValueSet"
+         ]
+       ] ) ;
+       fhir:reference [
          fhir:link <https://interop.esante.gouv.fr/terminologies/ValueSet/jdv-j294-document-justificatif-finess> ;
          fhir:reference [ fhir:v "ValueSet/jdv-j294-document-justificatif-finess" ]
        ] ;
@@ -64210,24 +64228,6 @@
        ] ;
        fhir:name [ fhir:v "Vs Tre R362 Type Budget All" ] ;
        fhir:description [ fhir:v "Jeu de valeurs ALL contenant les types de budget associés aux Entités Géographiques d'Exercice (EGE) dans FINESS+." ] ;
-       fhir:example [
-         a fhir:boolean ;
-         fhir:v false
-       ]
-     ] [
-       fhir:extension ( [
-         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
-         fhir:value [
-           a fhir:string ;
-           fhir:v "ValueSet"
-         ]
-       ] ) ;
-       fhir:reference [
-         fhir:link <https://interop.esante.gouv.fr/terminologies/ValueSet/vs-tre-r363-type-engagement-all> ;
-         fhir:reference [ fhir:v "ValueSet/vs-tre-r363-type-engagement-all" ]
-       ] ;
-       fhir:name [ fhir:v "Vs Tre R363 Type Engagement All" ] ;
-       fhir:description [ fhir:v "Jeu de valeurs ALL contenant les grands types d'engagement pouvant être associés dans FINESS+ à des structures ou des activités." ] ;
        fhir:example [
          a fhir:boolean ;
          fhir:v false

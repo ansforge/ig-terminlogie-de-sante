@@ -3949,19 +3949,6 @@
       "sources" : ["1.2.250.1.213.1.6.1.265"]
     },
     {
-      "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r363-type-engagement?vs",
-      "version" : "20250222120000",
-      "status" : "active",
-      "name" : "VsTreR363TypeEngagementAll",
-      "title" : "Vs Tre R363 Type Engagement All",
-      "description" : "Jeu de valeurs ALL contenant les grands types d'engagement pouvant être associés dans FINESS+ à des structures ou des activités.",
-      "systems" : [
-        "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r363-type-engagement"
-      ],
-      "oids" : ["1.2.250.1.213.1.6.1.265"],
-      "sources" : ["1.2.250.1.213.1.6.1.265"]
-    },
-    {
       "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r370-role-relation-ege?vs",
       "version" : "20250222120000",
       "status" : "active",
@@ -6430,6 +6417,19 @@
       ],
       "oids" : ["1.2.250.1.213.1.1.5.731"],
       "sources" : ["1.2.250.1.213.1.1.5.731"]
+    },
+    {
+      "url" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j293-type-engagement-finess",
+      "version" : "20250619120000",
+      "status" : "active",
+      "name" : "JdvJ293TypeEngagementFiness",
+      "title" : "Jdv J293 Type Engagement Finess",
+      "description" : "Jeu de valeurs FINESS contenant les grands types d'engagement pouvant être associés dans FINESS+ à des structures ou des activités.",
+      "systems" : [
+        "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r363-type-engagement"
+      ],
+      "oids" : ["1.2.250.1.213.1.6.1.265"],
+      "sources" : ["1.2.250.1.213.1.6.1.265"]
     },
     {
       "url" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j294-document-justificatif-finess",

@@ -1,11 +1,11 @@
 {
   "resourceType" : "ValueSet",
-  "id" : "6db36f5d-dafa-4e4c-adfa-b6f861c86eed-1488",
-  "url" : "http://hl7.org/fhir/comparison/ValueSet/6db36f5d-dafa-4e4c-adfa-b6f861c86eed-1488",
+  "id" : "4c268131-8ba8-4807-bb1d-69cf9eb5e5e2-1488",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/4c268131-8ba8-4807-bb1d-69cf9eb5e5e2-1488",
   "name" : "IntersectionJDV_J67_TraitementDocument_CISISAndJDV_J67_TraitementDocument_CISIS",
   "title" : "Intersection of null And null",
   "status" : "active",
-  "date" : "2025-06-18T10:30:55+00:00",
+  "date" : "2025-06-19T11:40:35+00:00",
   "compose" : {
     "include" : [{
       "concept" : [{

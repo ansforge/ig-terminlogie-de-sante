@@ -35164,6 +35164,18 @@
         "valueString" : "ValueSet"
       }],
       "reference" : {
+        "reference" : "ValueSet/jdv-j293-type-engagement-finess"
+      },
+      "name" : "Jdv J293 Type Engagement Finess",
+      "description" : "Jeu de valeurs FINESS contenant les grands types d'engagement pouvant être associés dans FINESS+ à des structures ou des activités.",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      }],
+      "reference" : {
         "reference" : "ValueSet/jdv-j294-document-justificatif-finess"
       },
       "name" : "Jdv J294 Document Justificatif Finess",
@@ -45770,18 +45782,6 @@
       },
       "name" : "Vs Tre R362 Type Budget All",
       "description" : "Jeu de valeurs ALL contenant les types de budget associés aux Entités Géographiques d'Exercice (EGE) dans FINESS+.",
-      "exampleBoolean" : false
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "ValueSet"
-      }],
-      "reference" : {
-        "reference" : "ValueSet/vs-tre-r363-type-engagement-all"
-      },
-      "name" : "Vs Tre R363 Type Engagement All",
-      "description" : "Jeu de valeurs ALL contenant les grands types d'engagement pouvant être associés dans FINESS+ à des structures ou des activités.",
       "exampleBoolean" : false
     },
     {

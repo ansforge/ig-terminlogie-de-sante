@@ -8,7 +8,7 @@
     <profile value="http://hl7.org/fhir/StructureDefinition/shareablevalueset"/>
   </meta>
   <text>
-    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Narratif généré : EnsembleValeurs jdv-j310-categorie-entite-geographique-exercice-finess</b></p><a name="jdv-j310-categorie-entite-geographique-exercice-finess"> </a><a name="hcjdv-j310-categorie-entite-geographique-exercice-finess"> </a><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px">version: 1; Dernière mise à jour : 2025-06-11 18:02:28+0000</p><p style="margin-bottom: 0px">Profil: <a href="http://hl7.org/fhir/R4/shareablevalueset.html">Shareable ValueSet</a></p></div><ul><li>Include codes provenant de<a href="CodeSystem-TRE-R66-CategorieEtablissement.html"><code>https://mos.esante.gouv.fr/NOS/TRE_R66-CategorieEtablissement/FHIR/TRE-R66-CategorieEtablissement</code></a> où JdvJ310CategorieEntiteGeographiqueExerciceFiness  = true</li></ul></div>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Narratif généré : EnsembleValeurs jdv-j310-categorie-entite-geographique-exercice-finess</b></p><a name="jdv-j310-categorie-entite-geographique-exercice-finess"> </a><a name="hcjdv-j310-categorie-entite-geographique-exercice-finess"> </a><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px">version: 1; Dernière mise à jour : 2025-06-11 18:02:28+0000</p><p style="margin-bottom: 0px">Profil: <a href="http://hl7.org/fhir/R4/shareablevalueset.html">Shareable ValueSet</a></p></div><ul><li>Include codes provenant de<a href="CodeSystem-TRE-R66-CategorieEtablissement.html"><code>https://mos.esante.gouv.fr/NOS/TRE_R66-CategorieEtablissement/FHIR/TRE-R66-CategorieEtablissement</code></a> où code  matches (by regex) ^([0-6][0-9]{2})$</li></ul></div>
   </text>
   <extension url="http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod">
     <valuePeriod>
@@ -32,9 +32,9 @@
     <include>
       <system value="https://mos.esante.gouv.fr/NOS/TRE_R66-CategorieEtablissement/FHIR/TRE-R66-CategorieEtablissement"/>
       <filter>
-        <property value="JdvJ310CategorieEntiteGeographiqueExerciceFiness"/>
-        <op value="="/>
-        <value value="true"/>
+        <property value="code"/>
+        <op value="regex"/>
+        <value value="^([0-6][0-9]{2})$"/>
       </filter>
     </include>
   </compose>

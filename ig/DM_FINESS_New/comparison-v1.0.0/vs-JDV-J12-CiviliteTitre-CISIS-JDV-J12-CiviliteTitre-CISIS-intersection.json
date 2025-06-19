@@ -1,11 +1,11 @@
 {
   "resourceType" : "ValueSet",
-  "id" : "6db36f5d-dafa-4e4c-adfa-b6f861c86eed-891",
-  "url" : "http://hl7.org/fhir/comparison/ValueSet/6db36f5d-dafa-4e4c-adfa-b6f861c86eed-891",
+  "id" : "4c268131-8ba8-4807-bb1d-69cf9eb5e5e2-891",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/4c268131-8ba8-4807-bb1d-69cf9eb5e5e2-891",
   "name" : "IntersectionJDV_J12_CiviliteTitre_CISISAndJDV_J12_CiviliteTitre_CISIS",
   "title" : "Intersection of JDV J12 CiviliteTitre CISIS And JDV J12 CiviliteTitre CISIS",
   "status" : "retired",
-  "date" : "2025-06-18T10:30:54+00:00",
+  "date" : "2025-06-19T11:40:35+00:00",
   "compose" : {
     "include" : [{
       "concept" : [{
