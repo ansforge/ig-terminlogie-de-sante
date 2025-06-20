@@ -35,3 +35,70 @@ Description: "Destination d'usage du lieu"
 * #002 ^property[=].valueDateTime = "2025-06-20T12:00:00+01:00"
 * #002 ^property[+].code = #dateMaj
 * #002 ^property[=].valueDateTime = "2025-06-20T12:00:00+01:00"
+* #003 "Hébergement MS"
+* #003 ^property[0].code = #dateValid
+* #003 ^property[=].valueDateTime = "2025-06-20T12:00:00+01:00"
+* #003 ^property[+].code = #dateMaj
+* #003 ^property[=].valueDateTime = "2025-06-20T12:00:00+01:00"
+* #004 "Hébergement SMR"
+* #004 ^property[0].code = #dateValid
+* #004 ^property[=].valueDateTime = "2025-06-20T12:00:00+01:00"
+* #004 ^property[+].code = #dateMaj
+* #004 ^property[=].valueDateTime = "2025-06-20T12:00:00+01:00"
+* #005 "Adresse"
+* #005 ^property[0].code = #dateValid
+* #005 ^property[=].valueDateTime = "2025-06-20T12:00:00+01:00"
+* #005 ^property[+].code = #dateMaj
+* #005 ^property[=].valueDateTime = "2025-06-20T12:00:00+01:00"
+* #006 "Bloc opératoire"
+* #006 ^property[0].code = #dateValid
+* #006 ^property[=].valueDateTime = "2025-06-20T12:00:00+01:00"
+* #006 ^property[+].code = #dateMaj
+* #006 ^property[=].valueDateTime = "2025-06-20T12:00:00+01:00"
+* #007 "Caisson hyperbare"
+* #007 ^property[0].code = #dateValid
+* #007 ^property[=].valueDateTime = "2025-06-20T12:00:00+01:00"
+* #007 ^property[+].code = #dateMaj
+* #007 ^property[=].valueDateTime = "2025-06-20T12:00:00+01:00"
+* #008 "Chambre mortuaire"
+* #008 ^property[0].code = #dateValid
+* #008 ^property[=].valueDateTime = "2025-06-20T12:00:00+01:00"
+* #008 ^property[+].code = #dateMaj
+* #008 ^property[=].valueDateTime = "2025-06-20T12:00:00+01:00"
+* #009 "Plateau d’endoscopie"
+* #009 ^property[0].code = #dateValid
+* #009 ^property[=].valueDateTime = "2025-06-20T12:00:00+01:00"
+* #009 ^property[+].code = #dateMaj
+* #009 ^property[=].valueDateTime = "2025-06-20T12:00:00+01:00"
+* #010 "Plateau d’imagerie conventionnelle"
+* #010 ^designation[0].language = #fr-FR
+* #010 ^designation[=].use.system = "http://snomed.info/sct"
+* #010 ^designation[=].use = $sct#900000000000013009
+* #010 ^designation[=].value = "Plateau d’imagerie conv."
+* #010 ^property[0].code = #dateValid
+* #010 ^property[=].valueDateTime = "2025-06-20T12:00:00+01:00"
+* #010 ^property[+].code = #dateMaj
+* #010 ^property[=].valueDateTime = "2025-06-20T12:00:00+01:00"
+* #011 "Plateau d’imagerie interventionnelle"
+* #011 ^designation[0].language = #fr-FR
+* #011 ^designation[=].use.system = "http://snomed.info/sct"
+* #011 ^designation[=].use = $sct#900000000000013009
+* #011 ^designation[=].value = "Plateau d’imagerie inter."
+* #011 ^property[0].code = #dateValid
+* #011 ^property[=].valueDateTime = "2025-06-20T12:00:00+01:00"
+* #011 ^property[+].code = #dateMaj
+* #011 ^property[=].valueDateTime = "2025-06-20T12:00:00+01:00"
+* #012 "Plateau de réadaptation"
+* #012 ^property[0].code = #dateValid
+* #012 ^property[=].valueDateTime = "2025-06-20T12:00:00+01:00"
+* #012 ^property[+].code = #dateMaj
+* #012 ^property[=].valueDateTime = "2025-06-20T12:00:00+01:00"
+* #013 "Salle de travail (salle de naissance)"
+* #013 ^designation[0].language = #fr-FR
+* #013 ^designation[=].use.system = "http://snomed.info/sct"
+* #013 ^designation[=].use = $sct#900000000000013009
+* #013 ^designation[=].value = "Salle de travail"
+* #013 ^property[0].code = #dateValid
+* #013 ^property[=].valueDateTime = "2025-06-20T12:00:00+01:00"
+* #013 ^property[+].code = #dateMaj
+* #013 ^property[=].valueDateTime = "2025-06-20T12:00:00+01:00"
