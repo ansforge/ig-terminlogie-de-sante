@@ -2,8 +2,8 @@
   "resourceType" : "CodeSystem",
   "id" : "terminologie-nabm",
   "meta" : {
-    "versionId" : "9",
-    "lastUpdated" : "2025-06-02T12:21:36.671+00:00",
+    "versionId" : "10",
+    "lastUpdated" : "2025-06-20T09:16:14.308+00:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablecodesystem"]
   },
   "text" : {
@@ -21,12 +21,12 @@
     "system" : "https://smt.esante.gouv.fr/",
     "value" : "terminologie-nabm"
   }],
-  "version" : "V97",
+  "version" : "V98",
   "name" : "NABM",
   "title" : "Nomenclature des actes de biologie médicale",
   "status" : "active",
   "experimental" : false,
-  "date" : "2025-06-02T00:00:00+00:00",
+  "date" : "2025-06-20T00:00:00+00:00",
   "publisher" : "Agence du numérique en santé",
   "description" : "La NABM est la terminologie de facturation des actes de biologie médicale. Elle décrit la liste des actes de biologie dans une arborescence en chapitres et sous-chapitres ainsi que des règles de facturation.",
   "jurisdiction" : [{
@@ -38,7 +38,7 @@
   "copyright" : "[LOv2](https://github.com/etalab/licence-ouverte/blob/master/LO.md)",
   "valueSet" : "https://smt.esante.gouv.fr/terminologie-nabm?vs",
   "content" : "complete",
-  "count" : 1043,
+  "count" : 1050,
   "filter" : [{
     "code" : "root",
     "operator" : ["="],
@@ -221,7 +221,7 @@
     },
     {
       "code" : "modified",
-      "valueString" : "30/05/2025"
+      "valueString" : "19/06/2025"
     },
     {
       "code" : "type",
@@ -250,10 +250,6 @@
     {
       "code" : "coeffB",
       "valueString" : "6"
-    },
-    {
-      "code" : "codeIncompatible",
-      "valueCode" : "1133"
     },
     {
       "code" : "codeIncompatible",
@@ -646,7 +642,7 @@
   },
   {
     "code" : "1133",
-    "display" : "ALBUMINE (ALBUMINURIE):",
+    "display" : "ALBUMINE (ALBUMINURIE)",
     "property" : [{
       "code" : "parent",
       "valueCode" : "13-03"
@@ -657,7 +653,7 @@
     },
     {
       "code" : "modified",
-      "valueString" : "30/05/2025"
+      "valueString" : "19/06/2025"
     },
     {
       "code" : "type",
@@ -665,7 +661,7 @@
     },
     {
       "code" : "initativeBiologistePossible",
-      "valueBoolean" : false
+      "valueBoolean" : true
     },
     {
       "code" : "indicationMédicale",
@@ -686,10 +682,6 @@
     {
       "code" : "coeffB",
       "valueString" : "14"
-    },
-    {
-      "code" : "codeIncompatible",
-      "valueCode" : "2004"
     },
     {
       "code" : "acteReserve",
@@ -8817,7 +8809,7 @@
     },
     {
       "code" : "modified",
-      "valueString" : "22/02/2024"
+      "valueString" : "19/06/2025"
     },
     {
       "code" : "type",
@@ -8862,6 +8854,18 @@
     {
       "code" : "codeIncompatible",
       "valueCode" : "5302"
+    },
+    {
+      "code" : "codeIncompatible",
+      "valueCode" : "5312"
+    },
+    {
+      "code" : "codeIncompatible",
+      "valueCode" : "5311"
+    },
+    {
+      "code" : "codeIncompatible",
+      "valueCode" : "5313"
     },
     {
       "code" : "acteReserve",
@@ -8926,6 +8930,90 @@
     {
       "code" : "codeIncompatible",
       "valueCode" : "0638"
+    },
+    {
+      "code" : "acteReserve",
+      "valueBoolean" : false
+    },
+    {
+      "code" : "rmo",
+      "valueBoolean" : false
+    },
+    {
+      "code" : "examenSanguin",
+      "valueBoolean" : false
+    }]
+  },
+  {
+    "code" : "5313",
+    "display" : "C. TRACHOMATIS ET/OU N. GONORRHOEAE: 3 SITES (IST SANS ORDO)",
+    "property" : [{
+      "code" : "parent",
+      "valueCode" : "19"
+    },
+    {
+      "code" : "created",
+      "valueString" : "13/06/2025"
+    },
+    {
+      "code" : "modified",
+      "valueString" : "19/06/2025"
+    },
+    {
+      "code" : "type",
+      "valueString" : "code"
+    },
+    {
+      "code" : "initativeBiologistePossible",
+      "valueBoolean" : false
+    },
+    {
+      "code" : "indicationMédicale",
+      "valueBoolean" : false
+    },
+    {
+      "code" : "remboursementTotal",
+      "valueBoolean" : false
+    },
+    {
+      "code" : "ententePréalable",
+      "valueBoolean" : false
+    },
+    {
+      "code" : "aPourContingenceTechnique",
+      "valueCode" : "CONTINGENCE_4"
+    },
+    {
+      "code" : "nombreMaximumParFacturation",
+      "valueInteger" : 1
+    },
+    {
+      "code" : "coeffB",
+      "valueString" : "130"
+    },
+    {
+      "code" : "codeIncompatible",
+      "valueCode" : "5301"
+    },
+    {
+      "code" : "codeIncompatible",
+      "valueCode" : "5303"
+    },
+    {
+      "code" : "codeIncompatible",
+      "valueCode" : "5204"
+    },
+    {
+      "code" : "codeIncompatible",
+      "valueCode" : "5302"
+    },
+    {
+      "code" : "codeIncompatible",
+      "valueCode" : "5312"
+    },
+    {
+      "code" : "codeIncompatible",
+      "valueCode" : "5311"
     },
     {
       "code" : "acteReserve",
@@ -9506,6 +9594,90 @@
     {
       "code" : "codeIncompatible",
       "valueCode" : "0611"
+    },
+    {
+      "code" : "acteReserve",
+      "valueBoolean" : false
+    },
+    {
+      "code" : "rmo",
+      "valueBoolean" : false
+    },
+    {
+      "code" : "examenSanguin",
+      "valueBoolean" : false
+    }]
+  },
+  {
+    "code" : "5312",
+    "display" : "C. TRACHOMATIS ET/OU N. GONORRHOEAE: - 2 SITES (IST SANS ORDO)",
+    "property" : [{
+      "code" : "parent",
+      "valueCode" : "19"
+    },
+    {
+      "code" : "created",
+      "valueString" : "13/06/2025"
+    },
+    {
+      "code" : "modified",
+      "valueString" : "19/06/2025"
+    },
+    {
+      "code" : "type",
+      "valueString" : "code"
+    },
+    {
+      "code" : "initativeBiologistePossible",
+      "valueBoolean" : false
+    },
+    {
+      "code" : "indicationMédicale",
+      "valueBoolean" : false
+    },
+    {
+      "code" : "remboursementTotal",
+      "valueBoolean" : false
+    },
+    {
+      "code" : "ententePréalable",
+      "valueBoolean" : false
+    },
+    {
+      "code" : "aPourContingenceTechnique",
+      "valueCode" : "CONTINGENCE_4"
+    },
+    {
+      "code" : "nombreMaximumParFacturation",
+      "valueInteger" : 1
+    },
+    {
+      "code" : "coeffB",
+      "valueString" : "110"
+    },
+    {
+      "code" : "codeIncompatible",
+      "valueCode" : "5301"
+    },
+    {
+      "code" : "codeIncompatible",
+      "valueCode" : "5303"
+    },
+    {
+      "code" : "codeIncompatible",
+      "valueCode" : "5204"
+    },
+    {
+      "code" : "codeIncompatible",
+      "valueCode" : "5302"
+    },
+    {
+      "code" : "codeIncompatible",
+      "valueCode" : "5311"
+    },
+    {
+      "code" : "codeIncompatible",
+      "valueCode" : "5313"
     },
     {
       "code" : "acteReserve",
@@ -14606,6 +14778,98 @@
     {
       "code" : "coeffB",
       "valueString" : "110"
+    },
+    {
+      "code" : "acteReserve",
+      "valueBoolean" : false
+    },
+    {
+      "code" : "rmo",
+      "valueBoolean" : false
+    },
+    {
+      "code" : "examenSanguin",
+      "valueBoolean" : false
+    }]
+  },
+  {
+    "code" : "5311",
+    "display" : "C. TRACHOMATIS ET/OU N. GONORRHOEAE: - 1 SITE (IST SANS ORD)",
+    "property" : [{
+      "code" : "parent",
+      "valueCode" : "19"
+    },
+    {
+      "code" : "created",
+      "valueString" : "12/06/2025"
+    },
+    {
+      "code" : "modified",
+      "valueString" : "19/06/2025"
+    },
+    {
+      "code" : "type",
+      "valueString" : "code"
+    },
+    {
+      "code" : "initativeBiologistePossible",
+      "valueBoolean" : true
+    },
+    {
+      "code" : "indicationMédicale",
+      "valueBoolean" : false
+    },
+    {
+      "code" : "remboursementTotal",
+      "valueBoolean" : false
+    },
+    {
+      "code" : "ententePréalable",
+      "valueBoolean" : false
+    },
+    {
+      "code" : "aPourContingenceTechnique",
+      "valueCode" : "CONTINGENCE_4"
+    },
+    {
+      "code" : "nombreMaximumParFacturation",
+      "valueInteger" : 1
+    },
+    {
+      "code" : "coeffB",
+      "valueString" : "85"
+    },
+    {
+      "code" : "codeIncompatible",
+      "valueCode" : "5301"
+    },
+    {
+      "code" : "codeIncompatible",
+      "valueCode" : "5303"
+    },
+    {
+      "code" : "codeIncompatible",
+      "valueCode" : "5204"
+    },
+    {
+      "code" : "codeIncompatible",
+      "valueCode" : "5302"
+    },
+    {
+      "code" : "codeIncompatible",
+      "valueCode" : "5305"
+    },
+    {
+      "code" : "codeIncompatible",
+      "valueCode" : "5304"
+    },
+    {
+      "code" : "codeIncompatible",
+      "valueCode" : "5312"
+    },
+    {
+      "code" : "codeIncompatible",
+      "valueCode" : "5313"
     },
     {
       "code" : "acteReserve",
@@ -34476,7 +34740,7 @@
     },
     {
       "code" : "modified",
-      "valueString" : "10/09/2024"
+      "valueString" : "19/06/2025"
     },
     {
       "code" : "type",
@@ -34525,6 +34789,10 @@
     {
       "code" : "codeIncompatible",
       "valueCode" : "4712"
+    },
+    {
+      "code" : "codeIncompatible",
+      "valueCode" : "5500"
     },
     {
       "code" : "règleApplicable",
@@ -37124,7 +37392,7 @@
     },
     {
       "code" : "modified",
-      "valueString" : "22/02/2024"
+      "valueString" : "19/06/2025"
     },
     {
       "code" : "type",
@@ -37161,6 +37429,10 @@
     {
       "code" : "codeIncompatible",
       "valueCode" : "5304"
+    },
+    {
+      "code" : "codeIncompatible",
+      "valueCode" : "5311"
     },
     {
       "code" : "acteReserve",
@@ -38100,7 +38372,7 @@
     },
     {
       "code" : "modified",
-      "valueString" : "22/02/2024"
+      "valueString" : "19/06/2025"
     },
     {
       "code" : "type",
@@ -38137,6 +38409,10 @@
     {
       "code" : "codeIncompatible",
       "valueCode" : "5305"
+    },
+    {
+      "code" : "codeIncompatible",
+      "valueCode" : "5311"
     },
     {
       "code" : "acteReserve",
@@ -38340,7 +38616,7 @@
     },
     {
       "code" : "modified",
-      "valueString" : "29/06/2018"
+      "valueString" : "19/06/2025"
     },
     {
       "code" : "type",
@@ -38373,6 +38649,10 @@
     {
       "code" : "coeffB",
       "valueString" : "20"
+    },
+    {
+      "code" : "codeIncompatible",
+      "valueCode" : "1357"
     },
     {
       "code" : "acteReserve",
@@ -38716,6 +38996,70 @@
     }]
   },
   {
+    "code" : "5501",
+    "display" : "HEPATITE B (VHB): DEPISTAGE ET/OU DIAGNOSTIC IGM ANTI HBC (IST SANS ORDO)",
+    "property" : [{
+      "code" : "parent",
+      "valueCode" : "19"
+    },
+    {
+      "code" : "created",
+      "valueString" : "13/06/2025"
+    },
+    {
+      "code" : "modified",
+      "valueString" : "19/06/2025"
+    },
+    {
+      "code" : "type",
+      "valueString" : "code"
+    },
+    {
+      "code" : "initativeBiologistePossible",
+      "valueBoolean" : false
+    },
+    {
+      "code" : "indicationMédicale",
+      "valueBoolean" : false
+    },
+    {
+      "code" : "remboursementTotal",
+      "valueBoolean" : false
+    },
+    {
+      "code" : "ententePréalable",
+      "valueBoolean" : false
+    },
+    {
+      "code" : "aPourContingenceTechnique",
+      "valueCode" : "CONTINGENCE_1"
+    },
+    {
+      "code" : "nombreMaximumParFacturation",
+      "valueInteger" : 1
+    },
+    {
+      "code" : "coeffB",
+      "valueString" : "60"
+    },
+    {
+      "code" : "règleApplicable",
+      "valueCode" : "REGLESPECIFIQUE_3"
+    },
+    {
+      "code" : "acteReserve",
+      "valueBoolean" : false
+    },
+    {
+      "code" : "rmo",
+      "valueBoolean" : false
+    },
+    {
+      "code" : "examenSanguin",
+      "valueBoolean" : true
+    }]
+  },
+  {
     "code" : "1498",
     "display" : "MAI : AUTOAC SPECIF. D'AUTRES ORGANES PAR IFI",
     "property" : [{
@@ -38784,7 +39128,7 @@
     },
     {
       "code" : "modified",
-      "valueString" : "29/06/2018"
+      "valueString" : "19/06/2025"
     },
     {
       "code" : "type",
@@ -38817,6 +39161,10 @@
     {
       "code" : "coeffB",
       "valueString" : "20"
+    },
+    {
+      "code" : "codeIncompatible",
+      "valueCode" : "1356"
     },
     {
       "code" : "acteReserve",
@@ -39437,6 +39785,90 @@
     {
       "code" : "examenSanguin",
       "valueBoolean" : false
+    }]
+  },
+  {
+    "code" : "5500",
+    "display" : "HEPATITE B (VHB): DEPISTAGE ET/OU DIAGNOSTIC (IST SANS ORDO)",
+    "property" : [{
+      "code" : "parent",
+      "valueCode" : "19"
+    },
+    {
+      "code" : "created",
+      "valueString" : "13/06/2025"
+    },
+    {
+      "code" : "modified",
+      "valueString" : "19/06/2025"
+    },
+    {
+      "code" : "type",
+      "valueString" : "code"
+    },
+    {
+      "code" : "initativeBiologistePossible",
+      "valueBoolean" : false
+    },
+    {
+      "code" : "indicationMédicale",
+      "valueBoolean" : false
+    },
+    {
+      "code" : "remboursementTotal",
+      "valueBoolean" : false
+    },
+    {
+      "code" : "ententePréalable",
+      "valueBoolean" : false
+    },
+    {
+      "code" : "aPourContingenceTechnique",
+      "valueCode" : "CONTINGENCE_1"
+    },
+    {
+      "code" : "nombreMaximumParFacturation",
+      "valueInteger" : 1
+    },
+    {
+      "code" : "coeffB",
+      "valueString" : "100"
+    },
+    {
+      "code" : "codeIncompatible",
+      "valueCode" : "4715"
+    },
+    {
+      "code" : "codeIncompatible",
+      "valueCode" : "4500"
+    },
+    {
+      "code" : "codeIncompatible",
+      "valueCode" : "4714"
+    },
+    {
+      "code" : "codeIncompatible",
+      "valueCode" : "4711"
+    },
+    {
+      "code" : "codeIncompatible",
+      "valueCode" : "4712"
+    },
+    {
+      "code" : "règleApplicable",
+      "valueCode" : "REGLESPECIFIQUE_3"
+    },
+    {
+      "code" : "acteReserve",
+      "valueBoolean" : false
+    },
+    {
+      "code" : "rmo",
+      "valueBoolean" : false
+    },
+    {
+      "code" : "examenSanguin",
+      "valueBoolean" : true
     }]
   },
   {
@@ -40528,7 +40960,7 @@
     },
     {
       "code" : "modified",
-      "valueString" : "22/02/2024"
+      "valueString" : "19/06/2025"
     },
     {
       "code" : "type",
@@ -40577,6 +41009,18 @@
     {
       "code" : "codeIncompatible",
       "valueCode" : "5304"
+    },
+    {
+      "code" : "codeIncompatible",
+      "valueCode" : "5312"
+    },
+    {
+      "code" : "codeIncompatible",
+      "valueCode" : "5311"
+    },
+    {
+      "code" : "codeIncompatible",
+      "valueCode" : "5313"
     },
     {
       "code" : "acteReserve",
@@ -42513,7 +42957,7 @@
   },
   {
     "code" : "5303",
-    "display" : "C. TRACHOMATIS ET/OU N. GONORRHOEAE: AMPLIFCATION GENIQUE -  3 SITES",
+    "display" : "C. TRACHOMATIS ET/OU N. GONORRHOEAE: AMPLIFCATION GENIQUE - 3 SITES",
     "property" : [{
       "code" : "parent",
       "valueCode" : "19"
@@ -42524,7 +42968,7 @@
     },
     {
       "code" : "modified",
-      "valueString" : "21/09/2019"
+      "valueString" : "19/06/2025"
     },
     {
       "code" : "type",
@@ -42565,6 +43009,18 @@
     {
       "code" : "codeIncompatible",
       "valueCode" : "5302"
+    },
+    {
+      "code" : "codeIncompatible",
+      "valueCode" : "5312"
+    },
+    {
+      "code" : "codeIncompatible",
+      "valueCode" : "5311"
+    },
+    {
+      "code" : "codeIncompatible",
+      "valueCode" : "5313"
     },
     {
       "code" : "acteReserve",
@@ -43369,7 +43825,7 @@
   },
   {
     "code" : "5302",
-    "display" : "C. TRACHOMATIS ET/OU N. GONORRHOEAE: AMPLIFCATION GENIQUE -  2 SITES",
+    "display" : "C. TRACHOMATIS ET/OU N. GONORRHOEAE: AMPLIFCATION GENIQUE - 2 SITES",
     "property" : [{
       "code" : "parent",
       "valueCode" : "19"
@@ -43380,7 +43836,7 @@
     },
     {
       "code" : "modified",
-      "valueString" : "21/09/2019"
+      "valueString" : "19/06/2025"
     },
     {
       "code" : "type",
@@ -43421,6 +43877,18 @@
     {
       "code" : "codeIncompatible",
       "valueCode" : "5204"
+    },
+    {
+      "code" : "codeIncompatible",
+      "valueCode" : "5312"
+    },
+    {
+      "code" : "codeIncompatible",
+      "valueCode" : "5311"
+    },
+    {
+      "code" : "codeIncompatible",
+      "valueCode" : "5313"
     },
     {
       "code" : "acteReserve",
@@ -55317,6 +55785,26 @@
     {
       "code" : "child",
       "valueCode" : "5304"
+    },
+    {
+      "code" : "child",
+      "valueCode" : "5312"
+    },
+    {
+      "code" : "child",
+      "valueCode" : "5311"
+    },
+    {
+      "code" : "child",
+      "valueCode" : "5313"
+    },
+    {
+      "code" : "child",
+      "valueCode" : "5501"
+    },
+    {
+      "code" : "child",
+      "valueCode" : "5500"
     }]
   },
   {
@@ -56252,7 +56740,7 @@
     },
     {
       "code" : "modified",
-      "valueString" : "01/02/2019"
+      "valueString" : "19/06/2025"
     },
     {
       "code" : "type",
@@ -56301,6 +56789,10 @@
     {
       "code" : "codeIncompatible",
       "valueCode" : "4711"
+    },
+    {
+      "code" : "codeIncompatible",
+      "valueCode" : "5500"
     },
     {
       "code" : "règleApplicable",
@@ -59720,7 +60212,7 @@
     },
     {
       "code" : "modified",
-      "valueString" : "01/02/2019"
+      "valueString" : "19/06/2025"
     },
     {
       "code" : "type",
@@ -59769,6 +60261,10 @@
     {
       "code" : "codeIncompatible",
       "valueCode" : "4712"
+    },
+    {
+      "code" : "codeIncompatible",
+      "valueCode" : "5500"
     },
     {
       "code" : "règleApplicable",
@@ -59833,6 +60329,70 @@
     {
       "code" : "coeffB",
       "valueString" : "40"
+    },
+    {
+      "code" : "acteReserve",
+      "valueBoolean" : false
+    },
+    {
+      "code" : "rmo",
+      "valueBoolean" : false
+    },
+    {
+      "code" : "examenSanguin",
+      "valueBoolean" : true
+    }]
+  },
+  {
+    "code" : "1357",
+    "display" : "SYPHILIS: SD TEST NON TREPONEMIQUE(TNT) TITRAGE (VDRL, RPR,  ) (IST SANS ORDO)",
+    "property" : [{
+      "code" : "parent",
+      "valueCode" : "07-04"
+    },
+    {
+      "code" : "created",
+      "valueString" : "12/06/2025"
+    },
+    {
+      "code" : "modified",
+      "valueString" : "19/06/2025"
+    },
+    {
+      "code" : "type",
+      "valueString" : "code"
+    },
+    {
+      "code" : "initativeBiologistePossible",
+      "valueBoolean" : true
+    },
+    {
+      "code" : "indicationMédicale",
+      "valueBoolean" : false
+    },
+    {
+      "code" : "remboursementTotal",
+      "valueBoolean" : false
+    },
+    {
+      "code" : "ententePréalable",
+      "valueBoolean" : false
+    },
+    {
+      "code" : "aPourContingenceTechnique",
+      "valueCode" : "CONTINGENCE_4"
+    },
+    {
+      "code" : "nombreMaximumParFacturation",
+      "valueInteger" : 1
+    },
+    {
+      "code" : "coeffB",
+      "valueString" : "20"
+    },
+    {
+      "code" : "codeIncompatible",
+      "valueCode" : "1257"
     },
     {
       "code" : "acteReserve",
@@ -60824,7 +61384,7 @@
     },
     {
       "code" : "modified",
-      "valueString" : "05/01/2022"
+      "valueString" : "19/06/2025"
     },
     {
       "code" : "type",
@@ -60873,6 +61433,10 @@
     {
       "code" : "codeIncompatible",
       "valueCode" : "4712"
+    },
+    {
+      "code" : "codeIncompatible",
+      "valueCode" : "5500"
     },
     {
       "code" : "règleApplicable",
@@ -60941,6 +61505,70 @@
     {
       "code" : "codeIncompatible",
       "valueCode" : "3247"
+    },
+    {
+      "code" : "acteReserve",
+      "valueBoolean" : false
+    },
+    {
+      "code" : "rmo",
+      "valueBoolean" : false
+    },
+    {
+      "code" : "examenSanguin",
+      "valueBoolean" : true
+    }]
+  },
+  {
+    "code" : "1356",
+    "display" : "SYPHILIS:SD DE DEPISTAGE_ TEST TREPONEMIQUE (TT)(IST SANS ORDO",
+    "property" : [{
+      "code" : "parent",
+      "valueCode" : "07-04"
+    },
+    {
+      "code" : "created",
+      "valueString" : "16/06/2025"
+    },
+    {
+      "code" : "modified",
+      "valueString" : "19/06/2025"
+    },
+    {
+      "code" : "type",
+      "valueString" : "code"
+    },
+    {
+      "code" : "initativeBiologistePossible",
+      "valueBoolean" : false
+    },
+    {
+      "code" : "indicationMédicale",
+      "valueBoolean" : false
+    },
+    {
+      "code" : "remboursementTotal",
+      "valueBoolean" : false
+    },
+    {
+      "code" : "ententePréalable",
+      "valueBoolean" : false
+    },
+    {
+      "code" : "aPourContingenceTechnique",
+      "valueCode" : "CONTINGENCE_4"
+    },
+    {
+      "code" : "nombreMaximumParFacturation",
+      "valueInteger" : 1
+    },
+    {
+      "code" : "coeffB",
+      "valueString" : "20"
+    },
+    {
+      "code" : "codeIncompatible",
+      "valueCode" : "1256"
     },
     {
       "code" : "acteReserve",
@@ -62310,6 +62938,14 @@
     {
       "code" : "child",
       "valueCode" : "1336"
+    },
+    {
+      "code" : "child",
+      "valueCode" : "1356"
+    },
+    {
+      "code" : "child",
+      "valueCode" : "1357"
     }]
   },
   {
@@ -64586,7 +65222,7 @@
     },
     {
       "code" : "modified",
-      "valueString" : "01/02/2019"
+      "valueString" : "19/06/2025"
     },
     {
       "code" : "type",
@@ -64635,6 +65271,10 @@
     {
       "code" : "codeIncompatible",
       "valueCode" : "4712"
+    },
+    {
+      "code" : "codeIncompatible",
+      "valueCode" : "5500"
     },
     {
       "code" : "règleApplicable",

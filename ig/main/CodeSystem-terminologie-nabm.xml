@@ -3,8 +3,8 @@
 <CodeSystem xmlns="http://hl7.org/fhir">
   <id value="terminologie-nabm"/>
   <meta>
-    <versionId value="9"/>
-    <lastUpdated value="2025-06-02T12:21:36.671+00:00"/>
+    <versionId value="10"/>
+    <lastUpdated value="2025-06-20T09:16:14.308+00:00"/>
     <profile value="http://hl7.org/fhir/StructureDefinition/shareablecodesystem"/>
   </meta>
   <text>
@@ -21,12 +21,12 @@
     <system value="https://smt.esante.gouv.fr/"/>
     <value value="terminologie-nabm"/>
   </identifier>
-  <version value="V97"/>
+  <version value="V98"/>
   <name value="NABM"/>
   <title value="Nomenclature des actes de biologie médicale"/>
   <status value="active"/>
   <experimental value="false"/>
-  <date value="2025-06-02T00:00:00+00:00"/>
+  <date value="2025-06-20T00:00:00+00:00"/>
   <publisher value="Agence du numérique en santé"/>
   <description value="La NABM est la terminologie de facturation des actes de biologie médicale. Elle décrit la liste des actes de biologie dans une arborescence en chapitres et sous-chapitres ainsi que des règles de facturation."/>
   <jurisdiction>
@@ -38,7 +38,7 @@
   <copyright value="[LOv2](https://github.com/etalab/licence-ouverte/blob/master/LO.md)"/>
   <valueSet value="https://smt.esante.gouv.fr/terminologie-nabm?vs"/>
   <content value="complete"/>
-  <count value="1043"/>
+  <count value="1050"/>
   <filter>
     <code value="root"/>
     <operator value="="/>
@@ -221,7 +221,7 @@
     </property>
     <property>
       <code value="modified"/>
-      <valueString value="30/05/2025"/>
+      <valueString value="19/06/2025"/>
     </property>
     <property>
       <code value="type"/>
@@ -250,10 +250,6 @@
     <property>
       <code value="coeffB"/>
       <valueString value="6"/>
-    </property>
-    <property>
-      <code value="codeIncompatible"/>
-      <valueCode value="1133"/>
     </property>
     <property>
       <code value="codeIncompatible"/>
@@ -646,7 +642,7 @@
   </concept>
   <concept>
     <code value="1133"/>
-    <display value="ALBUMINE (ALBUMINURIE):"/>
+    <display value="ALBUMINE (ALBUMINURIE)"/>
     <property>
       <code value="parent"/>
       <valueCode value="13-03"/>
@@ -657,7 +653,7 @@
     </property>
     <property>
       <code value="modified"/>
-      <valueString value="30/05/2025"/>
+      <valueString value="19/06/2025"/>
     </property>
     <property>
       <code value="type"/>
@@ -665,7 +661,7 @@
     </property>
     <property>
       <code value="initativeBiologistePossible"/>
-      <valueBoolean value="false"/>
+      <valueBoolean value="true"/>
     </property>
     <property>
       <code value="indicationMédicale"/>
@@ -686,10 +682,6 @@
     <property>
       <code value="coeffB"/>
       <valueString value="14"/>
-    </property>
-    <property>
-      <code value="codeIncompatible"/>
-      <valueCode value="2004"/>
     </property>
     <property>
       <code value="acteReserve"/>
@@ -8817,7 +8809,7 @@
     </property>
     <property>
       <code value="modified"/>
-      <valueString value="22/02/2024"/>
+      <valueString value="19/06/2025"/>
     </property>
     <property>
       <code value="type"/>
@@ -8862,6 +8854,18 @@
     <property>
       <code value="codeIncompatible"/>
       <valueCode value="5302"/>
+    </property>
+    <property>
+      <code value="codeIncompatible"/>
+      <valueCode value="5312"/>
+    </property>
+    <property>
+      <code value="codeIncompatible"/>
+      <valueCode value="5311"/>
+    </property>
+    <property>
+      <code value="codeIncompatible"/>
+      <valueCode value="5313"/>
     </property>
     <property>
       <code value="acteReserve"/>
@@ -8926,6 +8930,90 @@
     <property>
       <code value="codeIncompatible"/>
       <valueCode value="0638"/>
+    </property>
+    <property>
+      <code value="acteReserve"/>
+      <valueBoolean value="false"/>
+    </property>
+    <property>
+      <code value="rmo"/>
+      <valueBoolean value="false"/>
+    </property>
+    <property>
+      <code value="examenSanguin"/>
+      <valueBoolean value="false"/>
+    </property>
+  </concept>
+  <concept>
+    <code value="5313"/>
+    <display value="C. TRACHOMATIS ET/OU N. GONORRHOEAE: 3 SITES (IST SANS ORDO)"/>
+    <property>
+      <code value="parent"/>
+      <valueCode value="19"/>
+    </property>
+    <property>
+      <code value="created"/>
+      <valueString value="13/06/2025"/>
+    </property>
+    <property>
+      <code value="modified"/>
+      <valueString value="19/06/2025"/>
+    </property>
+    <property>
+      <code value="type"/>
+      <valueString value="code"/>
+    </property>
+    <property>
+      <code value="initativeBiologistePossible"/>
+      <valueBoolean value="false"/>
+    </property>
+    <property>
+      <code value="indicationMédicale"/>
+      <valueBoolean value="false"/>
+    </property>
+    <property>
+      <code value="remboursementTotal"/>
+      <valueBoolean value="false"/>
+    </property>
+    <property>
+      <code value="ententePréalable"/>
+      <valueBoolean value="false"/>
+    </property>
+    <property>
+      <code value="aPourContingenceTechnique"/>
+      <valueCode value="CONTINGENCE_4"/>
+    </property>
+    <property>
+      <code value="nombreMaximumParFacturation"/>
+      <valueInteger value="1"/>
+    </property>
+    <property>
+      <code value="coeffB"/>
+      <valueString value="130"/>
+    </property>
+    <property>
+      <code value="codeIncompatible"/>
+      <valueCode value="5301"/>
+    </property>
+    <property>
+      <code value="codeIncompatible"/>
+      <valueCode value="5303"/>
+    </property>
+    <property>
+      <code value="codeIncompatible"/>
+      <valueCode value="5204"/>
+    </property>
+    <property>
+      <code value="codeIncompatible"/>
+      <valueCode value="5302"/>
+    </property>
+    <property>
+      <code value="codeIncompatible"/>
+      <valueCode value="5312"/>
+    </property>
+    <property>
+      <code value="codeIncompatible"/>
+      <valueCode value="5311"/>
     </property>
     <property>
       <code value="acteReserve"/>
@@ -9506,6 +9594,90 @@
     <property>
       <code value="codeIncompatible"/>
       <valueCode value="0611"/>
+    </property>
+    <property>
+      <code value="acteReserve"/>
+      <valueBoolean value="false"/>
+    </property>
+    <property>
+      <code value="rmo"/>
+      <valueBoolean value="false"/>
+    </property>
+    <property>
+      <code value="examenSanguin"/>
+      <valueBoolean value="false"/>
+    </property>
+  </concept>
+  <concept>
+    <code value="5312"/>
+    <display value="C. TRACHOMATIS ET/OU N. GONORRHOEAE: - 2 SITES (IST SANS ORDO)"/>
+    <property>
+      <code value="parent"/>
+      <valueCode value="19"/>
+    </property>
+    <property>
+      <code value="created"/>
+      <valueString value="13/06/2025"/>
+    </property>
+    <property>
+      <code value="modified"/>
+      <valueString value="19/06/2025"/>
+    </property>
+    <property>
+      <code value="type"/>
+      <valueString value="code"/>
+    </property>
+    <property>
+      <code value="initativeBiologistePossible"/>
+      <valueBoolean value="false"/>
+    </property>
+    <property>
+      <code value="indicationMédicale"/>
+      <valueBoolean value="false"/>
+    </property>
+    <property>
+      <code value="remboursementTotal"/>
+      <valueBoolean value="false"/>
+    </property>
+    <property>
+      <code value="ententePréalable"/>
+      <valueBoolean value="false"/>
+    </property>
+    <property>
+      <code value="aPourContingenceTechnique"/>
+      <valueCode value="CONTINGENCE_4"/>
+    </property>
+    <property>
+      <code value="nombreMaximumParFacturation"/>
+      <valueInteger value="1"/>
+    </property>
+    <property>
+      <code value="coeffB"/>
+      <valueString value="110"/>
+    </property>
+    <property>
+      <code value="codeIncompatible"/>
+      <valueCode value="5301"/>
+    </property>
+    <property>
+      <code value="codeIncompatible"/>
+      <valueCode value="5303"/>
+    </property>
+    <property>
+      <code value="codeIncompatible"/>
+      <valueCode value="5204"/>
+    </property>
+    <property>
+      <code value="codeIncompatible"/>
+      <valueCode value="5302"/>
+    </property>
+    <property>
+      <code value="codeIncompatible"/>
+      <valueCode value="5311"/>
+    </property>
+    <property>
+      <code value="codeIncompatible"/>
+      <valueCode value="5313"/>
     </property>
     <property>
       <code value="acteReserve"/>
@@ -14606,6 +14778,98 @@
     <property>
       <code value="coeffB"/>
       <valueString value="110"/>
+    </property>
+    <property>
+      <code value="acteReserve"/>
+      <valueBoolean value="false"/>
+    </property>
+    <property>
+      <code value="rmo"/>
+      <valueBoolean value="false"/>
+    </property>
+    <property>
+      <code value="examenSanguin"/>
+      <valueBoolean value="false"/>
+    </property>
+  </concept>
+  <concept>
+    <code value="5311"/>
+    <display value="C. TRACHOMATIS ET/OU N. GONORRHOEAE: - 1 SITE (IST SANS ORD)"/>
+    <property>
+      <code value="parent"/>
+      <valueCode value="19"/>
+    </property>
+    <property>
+      <code value="created"/>
+      <valueString value="12/06/2025"/>
+    </property>
+    <property>
+      <code value="modified"/>
+      <valueString value="19/06/2025"/>
+    </property>
+    <property>
+      <code value="type"/>
+      <valueString value="code"/>
+    </property>
+    <property>
+      <code value="initativeBiologistePossible"/>
+      <valueBoolean value="true"/>
+    </property>
+    <property>
+      <code value="indicationMédicale"/>
+      <valueBoolean value="false"/>
+    </property>
+    <property>
+      <code value="remboursementTotal"/>
+      <valueBoolean value="false"/>
+    </property>
+    <property>
+      <code value="ententePréalable"/>
+      <valueBoolean value="false"/>
+    </property>
+    <property>
+      <code value="aPourContingenceTechnique"/>
+      <valueCode value="CONTINGENCE_4"/>
+    </property>
+    <property>
+      <code value="nombreMaximumParFacturation"/>
+      <valueInteger value="1"/>
+    </property>
+    <property>
+      <code value="coeffB"/>
+      <valueString value="85"/>
+    </property>
+    <property>
+      <code value="codeIncompatible"/>
+      <valueCode value="5301"/>
+    </property>
+    <property>
+      <code value="codeIncompatible"/>
+      <valueCode value="5303"/>
+    </property>
+    <property>
+      <code value="codeIncompatible"/>
+      <valueCode value="5204"/>
+    </property>
+    <property>
+      <code value="codeIncompatible"/>
+      <valueCode value="5302"/>
+    </property>
+    <property>
+      <code value="codeIncompatible"/>
+      <valueCode value="5305"/>
+    </property>
+    <property>
+      <code value="codeIncompatible"/>
+      <valueCode value="5304"/>
+    </property>
+    <property>
+      <code value="codeIncompatible"/>
+      <valueCode value="5312"/>
+    </property>
+    <property>
+      <code value="codeIncompatible"/>
+      <valueCode value="5313"/>
     </property>
     <property>
       <code value="acteReserve"/>
@@ -34476,7 +34740,7 @@
     </property>
     <property>
       <code value="modified"/>
-      <valueString value="10/09/2024"/>
+      <valueString value="19/06/2025"/>
     </property>
     <property>
       <code value="type"/>
@@ -34525,6 +34789,10 @@
     <property>
       <code value="codeIncompatible"/>
       <valueCode value="4712"/>
+    </property>
+    <property>
+      <code value="codeIncompatible"/>
+      <valueCode value="5500"/>
     </property>
     <property>
       <code value="règleApplicable"/>
@@ -37124,7 +37392,7 @@
     </property>
     <property>
       <code value="modified"/>
-      <valueString value="22/02/2024"/>
+      <valueString value="19/06/2025"/>
     </property>
     <property>
       <code value="type"/>
@@ -37161,6 +37429,10 @@
     <property>
       <code value="codeIncompatible"/>
       <valueCode value="5304"/>
+    </property>
+    <property>
+      <code value="codeIncompatible"/>
+      <valueCode value="5311"/>
     </property>
     <property>
       <code value="acteReserve"/>
@@ -38100,7 +38372,7 @@
     </property>
     <property>
       <code value="modified"/>
-      <valueString value="22/02/2024"/>
+      <valueString value="19/06/2025"/>
     </property>
     <property>
       <code value="type"/>
@@ -38137,6 +38409,10 @@
     <property>
       <code value="codeIncompatible"/>
       <valueCode value="5305"/>
+    </property>
+    <property>
+      <code value="codeIncompatible"/>
+      <valueCode value="5311"/>
     </property>
     <property>
       <code value="acteReserve"/>
@@ -38340,7 +38616,7 @@
     </property>
     <property>
       <code value="modified"/>
-      <valueString value="29/06/2018"/>
+      <valueString value="19/06/2025"/>
     </property>
     <property>
       <code value="type"/>
@@ -38373,6 +38649,10 @@
     <property>
       <code value="coeffB"/>
       <valueString value="20"/>
+    </property>
+    <property>
+      <code value="codeIncompatible"/>
+      <valueCode value="1357"/>
     </property>
     <property>
       <code value="acteReserve"/>
@@ -38716,6 +38996,70 @@
     </property>
   </concept>
   <concept>
+    <code value="5501"/>
+    <display value="HEPATITE B (VHB): DEPISTAGE ET/OU DIAGNOSTIC IGM ANTI HBC (IST SANS ORDO)"/>
+    <property>
+      <code value="parent"/>
+      <valueCode value="19"/>
+    </property>
+    <property>
+      <code value="created"/>
+      <valueString value="13/06/2025"/>
+    </property>
+    <property>
+      <code value="modified"/>
+      <valueString value="19/06/2025"/>
+    </property>
+    <property>
+      <code value="type"/>
+      <valueString value="code"/>
+    </property>
+    <property>
+      <code value="initativeBiologistePossible"/>
+      <valueBoolean value="false"/>
+    </property>
+    <property>
+      <code value="indicationMédicale"/>
+      <valueBoolean value="false"/>
+    </property>
+    <property>
+      <code value="remboursementTotal"/>
+      <valueBoolean value="false"/>
+    </property>
+    <property>
+      <code value="ententePréalable"/>
+      <valueBoolean value="false"/>
+    </property>
+    <property>
+      <code value="aPourContingenceTechnique"/>
+      <valueCode value="CONTINGENCE_1"/>
+    </property>
+    <property>
+      <code value="nombreMaximumParFacturation"/>
+      <valueInteger value="1"/>
+    </property>
+    <property>
+      <code value="coeffB"/>
+      <valueString value="60"/>
+    </property>
+    <property>
+      <code value="règleApplicable"/>
+      <valueCode value="REGLESPECIFIQUE_3"/>
+    </property>
+    <property>
+      <code value="acteReserve"/>
+      <valueBoolean value="false"/>
+    </property>
+    <property>
+      <code value="rmo"/>
+      <valueBoolean value="false"/>
+    </property>
+    <property>
+      <code value="examenSanguin"/>
+      <valueBoolean value="true"/>
+    </property>
+  </concept>
+  <concept>
     <code value="1498"/>
     <display value="MAI : AUTOAC SPECIF. D'AUTRES ORGANES PAR IFI"/>
     <property>
@@ -38784,7 +39128,7 @@
     </property>
     <property>
       <code value="modified"/>
-      <valueString value="29/06/2018"/>
+      <valueString value="19/06/2025"/>
     </property>
     <property>
       <code value="type"/>
@@ -38817,6 +39161,10 @@
     <property>
       <code value="coeffB"/>
       <valueString value="20"/>
+    </property>
+    <property>
+      <code value="codeIncompatible"/>
+      <valueCode value="1356"/>
     </property>
     <property>
       <code value="acteReserve"/>
@@ -39437,6 +39785,90 @@
     <property>
       <code value="examenSanguin"/>
       <valueBoolean value="false"/>
+    </property>
+  </concept>
+  <concept>
+    <code value="5500"/>
+    <display value="HEPATITE B (VHB): DEPISTAGE ET/OU DIAGNOSTIC (IST SANS ORDO)"/>
+    <property>
+      <code value="parent"/>
+      <valueCode value="19"/>
+    </property>
+    <property>
+      <code value="created"/>
+      <valueString value="13/06/2025"/>
+    </property>
+    <property>
+      <code value="modified"/>
+      <valueString value="19/06/2025"/>
+    </property>
+    <property>
+      <code value="type"/>
+      <valueString value="code"/>
+    </property>
+    <property>
+      <code value="initativeBiologistePossible"/>
+      <valueBoolean value="false"/>
+    </property>
+    <property>
+      <code value="indicationMédicale"/>
+      <valueBoolean value="false"/>
+    </property>
+    <property>
+      <code value="remboursementTotal"/>
+      <valueBoolean value="false"/>
+    </property>
+    <property>
+      <code value="ententePréalable"/>
+      <valueBoolean value="false"/>
+    </property>
+    <property>
+      <code value="aPourContingenceTechnique"/>
+      <valueCode value="CONTINGENCE_1"/>
+    </property>
+    <property>
+      <code value="nombreMaximumParFacturation"/>
+      <valueInteger value="1"/>
+    </property>
+    <property>
+      <code value="coeffB"/>
+      <valueString value="100"/>
+    </property>
+    <property>
+      <code value="codeIncompatible"/>
+      <valueCode value="4715"/>
+    </property>
+    <property>
+      <code value="codeIncompatible"/>
+      <valueCode value="4500"/>
+    </property>
+    <property>
+      <code value="codeIncompatible"/>
+      <valueCode value="4714"/>
+    </property>
+    <property>
+      <code value="codeIncompatible"/>
+      <valueCode value="4711"/>
+    </property>
+    <property>
+      <code value="codeIncompatible"/>
+      <valueCode value="4712"/>
+    </property>
+    <property>
+      <code value="règleApplicable"/>
+      <valueCode value="REGLESPECIFIQUE_3"/>
+    </property>
+    <property>
+      <code value="acteReserve"/>
+      <valueBoolean value="false"/>
+    </property>
+    <property>
+      <code value="rmo"/>
+      <valueBoolean value="false"/>
+    </property>
+    <property>
+      <code value="examenSanguin"/>
+      <valueBoolean value="true"/>
     </property>
   </concept>
   <concept>
@@ -40528,7 +40960,7 @@
     </property>
     <property>
       <code value="modified"/>
-      <valueString value="22/02/2024"/>
+      <valueString value="19/06/2025"/>
     </property>
     <property>
       <code value="type"/>
@@ -40577,6 +41009,18 @@
     <property>
       <code value="codeIncompatible"/>
       <valueCode value="5304"/>
+    </property>
+    <property>
+      <code value="codeIncompatible"/>
+      <valueCode value="5312"/>
+    </property>
+    <property>
+      <code value="codeIncompatible"/>
+      <valueCode value="5311"/>
+    </property>
+    <property>
+      <code value="codeIncompatible"/>
+      <valueCode value="5313"/>
     </property>
     <property>
       <code value="acteReserve"/>
@@ -42513,7 +42957,7 @@
   </concept>
   <concept>
     <code value="5303"/>
-    <display value="C. TRACHOMATIS ET/OU N. GONORRHOEAE: AMPLIFCATION GENIQUE -  3 SITES"/>
+    <display value="C. TRACHOMATIS ET/OU N. GONORRHOEAE: AMPLIFCATION GENIQUE - 3 SITES"/>
     <property>
       <code value="parent"/>
       <valueCode value="19"/>
@@ -42524,7 +42968,7 @@
     </property>
     <property>
       <code value="modified"/>
-      <valueString value="21/09/2019"/>
+      <valueString value="19/06/2025"/>
     </property>
     <property>
       <code value="type"/>
@@ -42565,6 +43009,18 @@
     <property>
       <code value="codeIncompatible"/>
       <valueCode value="5302"/>
+    </property>
+    <property>
+      <code value="codeIncompatible"/>
+      <valueCode value="5312"/>
+    </property>
+    <property>
+      <code value="codeIncompatible"/>
+      <valueCode value="5311"/>
+    </property>
+    <property>
+      <code value="codeIncompatible"/>
+      <valueCode value="5313"/>
     </property>
     <property>
       <code value="acteReserve"/>
@@ -43369,7 +43825,7 @@
   </concept>
   <concept>
     <code value="5302"/>
-    <display value="C. TRACHOMATIS ET/OU N. GONORRHOEAE: AMPLIFCATION GENIQUE -  2 SITES"/>
+    <display value="C. TRACHOMATIS ET/OU N. GONORRHOEAE: AMPLIFCATION GENIQUE - 2 SITES"/>
     <property>
       <code value="parent"/>
       <valueCode value="19"/>
@@ -43380,7 +43836,7 @@
     </property>
     <property>
       <code value="modified"/>
-      <valueString value="21/09/2019"/>
+      <valueString value="19/06/2025"/>
     </property>
     <property>
       <code value="type"/>
@@ -43421,6 +43877,18 @@
     <property>
       <code value="codeIncompatible"/>
       <valueCode value="5204"/>
+    </property>
+    <property>
+      <code value="codeIncompatible"/>
+      <valueCode value="5312"/>
+    </property>
+    <property>
+      <code value="codeIncompatible"/>
+      <valueCode value="5311"/>
+    </property>
+    <property>
+      <code value="codeIncompatible"/>
+      <valueCode value="5313"/>
     </property>
     <property>
       <code value="acteReserve"/>
@@ -55318,6 +55786,26 @@
       <code value="child"/>
       <valueCode value="5304"/>
     </property>
+    <property>
+      <code value="child"/>
+      <valueCode value="5312"/>
+    </property>
+    <property>
+      <code value="child"/>
+      <valueCode value="5311"/>
+    </property>
+    <property>
+      <code value="child"/>
+      <valueCode value="5313"/>
+    </property>
+    <property>
+      <code value="child"/>
+      <valueCode value="5501"/>
+    </property>
+    <property>
+      <code value="child"/>
+      <valueCode value="5500"/>
+    </property>
   </concept>
   <concept>
     <code value="5278"/>
@@ -56252,7 +56740,7 @@
     </property>
     <property>
       <code value="modified"/>
-      <valueString value="01/02/2019"/>
+      <valueString value="19/06/2025"/>
     </property>
     <property>
       <code value="type"/>
@@ -56301,6 +56789,10 @@
     <property>
       <code value="codeIncompatible"/>
       <valueCode value="4711"/>
+    </property>
+    <property>
+      <code value="codeIncompatible"/>
+      <valueCode value="5500"/>
     </property>
     <property>
       <code value="règleApplicable"/>
@@ -59720,7 +60212,7 @@
     </property>
     <property>
       <code value="modified"/>
-      <valueString value="01/02/2019"/>
+      <valueString value="19/06/2025"/>
     </property>
     <property>
       <code value="type"/>
@@ -59769,6 +60261,10 @@
     <property>
       <code value="codeIncompatible"/>
       <valueCode value="4712"/>
+    </property>
+    <property>
+      <code value="codeIncompatible"/>
+      <valueCode value="5500"/>
     </property>
     <property>
       <code value="règleApplicable"/>
@@ -59833,6 +60329,70 @@
     <property>
       <code value="coeffB"/>
       <valueString value="40"/>
+    </property>
+    <property>
+      <code value="acteReserve"/>
+      <valueBoolean value="false"/>
+    </property>
+    <property>
+      <code value="rmo"/>
+      <valueBoolean value="false"/>
+    </property>
+    <property>
+      <code value="examenSanguin"/>
+      <valueBoolean value="true"/>
+    </property>
+  </concept>
+  <concept>
+    <code value="1357"/>
+    <display value="SYPHILIS: SD TEST NON TREPONEMIQUE(TNT) TITRAGE (VDRL, RPR,  ) (IST SANS ORDO)"/>
+    <property>
+      <code value="parent"/>
+      <valueCode value="07-04"/>
+    </property>
+    <property>
+      <code value="created"/>
+      <valueString value="12/06/2025"/>
+    </property>
+    <property>
+      <code value="modified"/>
+      <valueString value="19/06/2025"/>
+    </property>
+    <property>
+      <code value="type"/>
+      <valueString value="code"/>
+    </property>
+    <property>
+      <code value="initativeBiologistePossible"/>
+      <valueBoolean value="true"/>
+    </property>
+    <property>
+      <code value="indicationMédicale"/>
+      <valueBoolean value="false"/>
+    </property>
+    <property>
+      <code value="remboursementTotal"/>
+      <valueBoolean value="false"/>
+    </property>
+    <property>
+      <code value="ententePréalable"/>
+      <valueBoolean value="false"/>
+    </property>
+    <property>
+      <code value="aPourContingenceTechnique"/>
+      <valueCode value="CONTINGENCE_4"/>
+    </property>
+    <property>
+      <code value="nombreMaximumParFacturation"/>
+      <valueInteger value="1"/>
+    </property>
+    <property>
+      <code value="coeffB"/>
+      <valueString value="20"/>
+    </property>
+    <property>
+      <code value="codeIncompatible"/>
+      <valueCode value="1257"/>
     </property>
     <property>
       <code value="acteReserve"/>
@@ -60824,7 +61384,7 @@
     </property>
     <property>
       <code value="modified"/>
-      <valueString value="05/01/2022"/>
+      <valueString value="19/06/2025"/>
     </property>
     <property>
       <code value="type"/>
@@ -60873,6 +61433,10 @@
     <property>
       <code value="codeIncompatible"/>
       <valueCode value="4712"/>
+    </property>
+    <property>
+      <code value="codeIncompatible"/>
+      <valueCode value="5500"/>
     </property>
     <property>
       <code value="règleApplicable"/>
@@ -60941,6 +61505,70 @@
     <property>
       <code value="codeIncompatible"/>
       <valueCode value="3247"/>
+    </property>
+    <property>
+      <code value="acteReserve"/>
+      <valueBoolean value="false"/>
+    </property>
+    <property>
+      <code value="rmo"/>
+      <valueBoolean value="false"/>
+    </property>
+    <property>
+      <code value="examenSanguin"/>
+      <valueBoolean value="true"/>
+    </property>
+  </concept>
+  <concept>
+    <code value="1356"/>
+    <display value="SYPHILIS:SD DE DEPISTAGE_ TEST TREPONEMIQUE (TT)(IST SANS ORDO"/>
+    <property>
+      <code value="parent"/>
+      <valueCode value="07-04"/>
+    </property>
+    <property>
+      <code value="created"/>
+      <valueString value="16/06/2025"/>
+    </property>
+    <property>
+      <code value="modified"/>
+      <valueString value="19/06/2025"/>
+    </property>
+    <property>
+      <code value="type"/>
+      <valueString value="code"/>
+    </property>
+    <property>
+      <code value="initativeBiologistePossible"/>
+      <valueBoolean value="false"/>
+    </property>
+    <property>
+      <code value="indicationMédicale"/>
+      <valueBoolean value="false"/>
+    </property>
+    <property>
+      <code value="remboursementTotal"/>
+      <valueBoolean value="false"/>
+    </property>
+    <property>
+      <code value="ententePréalable"/>
+      <valueBoolean value="false"/>
+    </property>
+    <property>
+      <code value="aPourContingenceTechnique"/>
+      <valueCode value="CONTINGENCE_4"/>
+    </property>
+    <property>
+      <code value="nombreMaximumParFacturation"/>
+      <valueInteger value="1"/>
+    </property>
+    <property>
+      <code value="coeffB"/>
+      <valueString value="20"/>
+    </property>
+    <property>
+      <code value="codeIncompatible"/>
+      <valueCode value="1256"/>
     </property>
     <property>
       <code value="acteReserve"/>
@@ -62310,6 +62938,14 @@
     <property>
       <code value="child"/>
       <valueCode value="1336"/>
+    </property>
+    <property>
+      <code value="child"/>
+      <valueCode value="1356"/>
+    </property>
+    <property>
+      <code value="child"/>
+      <valueCode value="1357"/>
     </property>
   </concept>
   <concept>
@@ -64586,7 +65222,7 @@
     </property>
     <property>
       <code value="modified"/>
-      <valueString value="01/02/2019"/>
+      <valueString value="19/06/2025"/>
     </property>
     <property>
       <code value="type"/>
@@ -64635,6 +65271,10 @@
     <property>
       <code value="codeIncompatible"/>
       <valueCode value="4712"/>
+    </property>
+    <property>
+      <code value="codeIncompatible"/>
+      <valueCode value="5500"/>
     </property>
     <property>
       <code value="règleApplicable"/>

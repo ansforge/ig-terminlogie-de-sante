@@ -8127,7 +8127,7 @@
     "id" : "terminologie-nabm",
     "type" : "CodeSystem",
     "url" : "https://smt.esante.gouv.fr/terminologie-nabm",
-    "version" : "V97",
+    "version" : "V98",
     "name" : "NABM",
     "oids" : ["1.2.250.1.215.300.2"]
   },
