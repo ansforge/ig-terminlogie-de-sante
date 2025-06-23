@@ -2,13 +2,13 @@
   "resourceType" : "ValueSet",
   "id" : "jdv-resultat-depistage-glycemie-cisis",
   "meta" : {
-    "versionId" : "2",
-    "lastUpdated" : "2025-06-12T11:03:51.425+00:00",
+    "versionId" : "3",
+    "lastUpdated" : "2025-06-23T12:45:50.258+00:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset"]
   },
   "text" : {
     "status" : "generated",
-    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Narratif généré : EnsembleValeurs jdv-resultat-depistage-glycemie-cisis</b></p><a name=\"jdv-resultat-depistage-glycemie-cisis\"> </a><a name=\"hcjdv-resultat-depistage-glycemie-cisis\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">version: 2; Dernière mise à jour : 2025-06-12 11:03:51+0000</p><p style=\"margin-bottom: 0px\">Profil: <a href=\"http://hl7.org/fhir/R4/shareablevalueset.html\">Shareable ValueSet</a></p></div><ul><li>Include les codes sont définis dans <a href=\"http://www.snomed.org/\"><code>http://snomed.info/sct</code></a><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td><a href=\"http://snomed.info/id/17621005\">17621005</a></td><td>normal</td></tr><tr><td><a href=\"http://snomed.info/id/80394007\">80394007</a></td><td>hyperglycémie</td></tr><tr><td><a href=\"http://snomed.info/id/302866003\">302866003</a></td><td>hypoglycémie</td></tr></table></li></ul></div>"
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Narratif généré : EnsembleValeurs jdv-resultat-depistage-glycemie-cisis</b></p><a name=\"jdv-resultat-depistage-glycemie-cisis\"> </a><a name=\"hcjdv-resultat-depistage-glycemie-cisis\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">version: 3; Dernière mise à jour : 2025-06-23 12:45:50+0000</p><p style=\"margin-bottom: 0px\">Profil: <a href=\"http://hl7.org/fhir/R4/shareablevalueset.html\">Shareable ValueSet</a></p></div><ul><li>Include les codes sont définis dans <a href=\"http://www.snomed.org/\"><code>http://snomed.info/sct</code></a><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td><a href=\"http://snomed.info/id/17621005\">17621005</a></td><td>normal</td></tr><tr><td><a href=\"http://snomed.info/id/80394007\">80394007</a></td><td>hyperglycémie</td></tr><tr><td><a href=\"http://snomed.info/id/302866003\">302866003</a></td><td>hypoglycémie</td></tr></table></li></ul></div>"
   },
   "extension" : [{
     "url" : "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod",
@@ -21,12 +21,12 @@
     "system" : "urn:ietf:rfc:3986",
     "value" : "urn:oid:1.2.250.1.213.1.1.5.768"
   }],
-  "version" : "20250611134349",
+  "version" : "20250616134739",
   "name" : "JdvResultatDepistageGlycemieCisis",
   "title" : "JDV Resultat Depistage Glycemie CISIS",
   "status" : "active",
   "experimental" : false,
-  "date" : "2025-06-11T13:43:49+01:00",
+  "date" : "2025-06-16T13:47:39+01:00",
   "publisher" : "Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "description" : "JDV Resultat Depistage Glycemie CISIS",
   "compose" : {

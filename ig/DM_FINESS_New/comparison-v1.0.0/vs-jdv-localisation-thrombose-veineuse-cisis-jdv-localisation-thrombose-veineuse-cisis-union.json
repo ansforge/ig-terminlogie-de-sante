@@ -1,11 +1,11 @@
 {
   "resourceType" : "ValueSet",
-  "id" : "03274c62-abd5-41df-91f4-62c6d76d88a6-2174",
-  "url" : "http://hl7.org/fhir/comparison/ValueSet/03274c62-abd5-41df-91f4-62c6d76d88a6-2174",
+  "id" : "24e14820-0a63-4af8-be60-cbfbcf42f849-2174",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/24e14820-0a63-4af8-be60-cbfbcf42f849-2174",
   "name" : "UnionJdvLocalisationThromboseVeineuseCisisAndJdvLocalisationThromboseVeineuseCisis",
   "title" : "Union of JDV Localisation Thrombose Veineuse CISIS And JDV Localisation Thrombose Veineuse CISIS",
   "status" : "active",
-  "date" : "2025-06-19T14:27:47+00:00",
+  "date" : "2025-06-23T13:40:48+00:00",
   "jurisdiction" : [{
     "coding" : [{
       "system" : "urn:iso:std:iso:3166",

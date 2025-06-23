@@ -1,5 +1,5 @@
 <OID>;<Type fichier>;<Nom fichier>;<Description>;<URL fichier>;<Date valid>;<Date fin>;<Date MAJ>  
-1.2.250.1.213.1.1.5.780;JDV;JdvResultatDepistageNitriturieCisis;JDV Resultat Depistage Nitriturie CISIS;;20240307000000;;20250611134353
+1.2.250.1.213.1.1.5.780;JDV;JdvResultatDepistageNitriturieCisis;JDV Resultat Depistage Nitriturie CISIS;;20240307000000;;20250616134739
 <system>;<Code>;<Libellé> 
 2.16.840.1.113883.6.96;260385009;négatif
 2.16.840.1.113883.6.96;260405006;trace

@@ -1,11 +1,11 @@
 {
   "resourceType" : "ValueSet",
-  "id" : "03274c62-abd5-41df-91f4-62c6d76d88a6-2642",
-  "url" : "http://hl7.org/fhir/comparison/ValueSet/03274c62-abd5-41df-91f4-62c6d76d88a6-2642",
+  "id" : "24e14820-0a63-4af8-be60-cbfbcf42f849-2642",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/24e14820-0a63-4af8-be60-cbfbcf42f849-2642",
   "name" : "UnionJdvStatutGrossesseCisisAndJdvStatutGrossesseCisis",
   "title" : "Union of JDV Statut Grossesse CISIS And JDV Statut Grossesse CISIS",
   "status" : "active",
-  "date" : "2025-06-19T14:27:47+00:00",
+  "date" : "2025-06-23T13:40:48+00:00",
   "jurisdiction" : [{
     "coding" : [{
       "system" : "urn:iso:std:iso:3166",

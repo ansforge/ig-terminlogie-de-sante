@@ -2,13 +2,13 @@
   "resourceType" : "ValueSet",
   "id" : "jdv-bilan-technique-cisis",
   "meta" : {
-    "versionId" : "2",
-    "lastUpdated" : "2025-06-12T11:01:36.763+00:00",
+    "versionId" : "3",
+    "lastUpdated" : "2025-06-23T12:42:55.645+00:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset"]
   },
   "text" : {
     "status" : "extensions",
-    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Narratif généré : EnsembleValeurs jdv-bilan-technique-cisis</b></p><a name=\"jdv-bilan-technique-cisis\"> </a><a name=\"hcjdv-bilan-technique-cisis\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">version: 2; Dernière mise à jour : 2025-06-12 11:01:36+0000</p><p style=\"margin-bottom: 0px\">Profil: <a href=\"http://hl7.org/fhir/R4/shareablevalueset.html\">Shareable ValueSet</a></p></div><p>Ce jeu de valeur (ValueSet) inclut les codes selon les règles suivantes :</p><ul><li>Inclut les codes sont définis dans <a href=\"CodeSystem-terminologie-cisis.html\"><code>https://smt.esante.gouv.fr/fhir/CodeSystem/terminologie-cisis</code></a><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td><a href=\"CodeSystem-terminologie-cisis.html#terminologie-cisis-MED-034\">MED-034</a></td><td>Agrandissement</td></tr><tr><td><a href=\"CodeSystem-terminologie-cisis.html#terminologie-cisis-GEN-092.4604.4616\">GEN-092.04.16</a></td><td>Autres clichés</td></tr></table></li><li>Inclut les codes sont définis dans <a href=\"http://loinc.org\"><code>http://loinc.org</code></a><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td><a href=\"https://loinc.org/103892-6/\">103892-6</a></td><td>tomosynthèse mammaire numérique dépistage du sein</td></tr></table></li><li>Inclut les codes sont définis dans <a href=\"http://dicom.nema.org/resources/ontology/DCM\"><code>http://dicom.nema.org/resources/ontology/DCM</code></a><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Définition</b></td></tr><tr><td><a href=\"http://hl7.org/fhir/R4/codesystem-dicom-dcim.html#dicom-dcim-OT\">OT</a></td><td>Autre technique d'imagerie</td><td>Other Modality device</td></tr><tr><td><a href=\"http://hl7.org/fhir/R4/codesystem-dicom-dcim.html#dicom-dcim-US\">US</a></td><td>Echographie</td><td>Ultrasound device</td></tr></table></li></ul></div>"
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Narratif généré : EnsembleValeurs jdv-bilan-technique-cisis</b></p><a name=\"jdv-bilan-technique-cisis\"> </a><a name=\"hcjdv-bilan-technique-cisis\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">version: 3; Dernière mise à jour : 2025-06-23 12:42:55+0000</p><p style=\"margin-bottom: 0px\">Profil: <a href=\"http://hl7.org/fhir/R4/shareablevalueset.html\">Shareable ValueSet</a></p></div><p>Ce jeu de valeur (ValueSet) inclut les codes selon les règles suivantes :</p><ul><li>Inclut les codes sont définis dans <a href=\"CodeSystem-terminologie-cisis.html\"><code>https://smt.esante.gouv.fr/fhir/CodeSystem/terminologie-cisis</code></a><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td><a href=\"CodeSystem-terminologie-cisis.html#terminologie-cisis-MED-034\">MED-034</a></td><td>Agrandissement</td></tr><tr><td><a href=\"CodeSystem-terminologie-cisis.html#terminologie-cisis-GEN-092.4604.4616\">GEN-092.04.16</a></td><td>Autres clichés</td></tr></table></li><li>Inclut les codes sont définis dans <a href=\"http://loinc.org\"><code>http://loinc.org</code></a><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td><a href=\"https://loinc.org/103892-6/\">103892-6</a></td><td>tomosynthèse mammaire numérique dépistage du sein</td></tr></table></li><li>Inclut les codes sont définis dans <a href=\"http://dicom.nema.org/resources/ontology/DCM\"><code>http://dicom.nema.org/resources/ontology/DCM</code></a><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Définition</b></td></tr><tr><td><a href=\"http://hl7.org/fhir/R4/codesystem-dicom-dcim.html#dicom-dcim-OT\">OT</a></td><td>Autre technique d'imagerie</td><td>Other Modality device</td></tr><tr><td><a href=\"http://hl7.org/fhir/R4/codesystem-dicom-dcim.html#dicom-dcim-US\">US</a></td><td>Echographie</td><td>Ultrasound device</td></tr></table></li></ul></div>"
   },
   "extension" : [{
     "url" : "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod",
@@ -21,12 +21,12 @@
     "system" : "urn:ietf:rfc:3986",
     "value" : "urn:oid:1.2.250.1.213.1.1.5.84"
   }],
-  "version" : "20250611134353",
+  "version" : "20250616134740",
   "name" : "JdvBilanTechniqueCisis",
   "title" : "JDV Bilan Technique CISIS",
   "status" : "active",
   "experimental" : false,
-  "date" : "2025-06-11T13:43:53+01:00",
+  "date" : "2025-06-16T13:47:40+01:00",
   "publisher" : "Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "description" : "JDV Bilan Technique CISIS",
   "compose" : {

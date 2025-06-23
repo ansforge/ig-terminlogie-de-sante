@@ -1,11 +1,11 @@
 {
   "resourceType" : "CodeSystem",
-  "id" : "03274c62-abd5-41df-91f4-62c6d76d88a6-110",
-  "url" : "http://hl7.org/fhir/comparison/CodeSystem/03274c62-abd5-41df-91f4-62c6d76d88a6-110",
+  "id" : "24e14820-0a63-4af8-be60-cbfbcf42f849-110",
+  "url" : "http://hl7.org/fhir/comparison/CodeSystem/24e14820-0a63-4af8-be60-cbfbcf42f849-110",
   "name" : "UnionTRE_R03_AttributionParticuliereAndTRE_R03_AttributionParticuliere",
   "title" : "Union of null And null",
   "status" : "active",
-  "date" : "2025-06-19T14:27:46+00:00",
+  "date" : "2025-06-23T13:40:47+00:00",
   "jurisdiction" : [{
     "coding" : [{
       "system" : "urn:iso:std:iso:3166",

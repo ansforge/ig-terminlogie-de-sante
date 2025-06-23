@@ -2,13 +2,13 @@
   "resourceType" : "ValueSet",
   "id" : "jdv-immunization-approach-site-code-cisis",
   "meta" : {
-    "versionId" : "2",
-    "lastUpdated" : "2025-06-12T11:02:47.414+00:00",
+    "versionId" : "3",
+    "lastUpdated" : "2025-06-23T12:44:19.600+00:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset"]
   },
   "text" : {
     "status" : "generated",
-    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Narratif généré : EnsembleValeurs jdv-immunization-approach-site-code-cisis</b></p><a name=\"jdv-immunization-approach-site-code-cisis\"> </a><a name=\"hcjdv-immunization-approach-site-code-cisis\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">version: 2; Dernière mise à jour : 2025-06-12 11:02:47+0000</p><p style=\"margin-bottom: 0px\">Profil: <a href=\"http://hl7.org/fhir/R4/shareablevalueset.html\">Shareable ValueSet</a></p></div><ul><li>Include les codes sont définis dans <a href=\"http://www.snomed.org/\"><code>http://snomed.info/sct</code></a><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td><a href=\"http://snomed.info/id/64262003\">64262003</a></td><td>avant-bras droit</td></tr><tr><td><a href=\"http://snomed.info/id/66480008\">66480008</a></td><td>avant-bras gauche</td></tr><tr><td><a href=\"http://snomed.info/id/16217661000119109\">16217661000119109</a></td><td>deltoïde droit</td></tr><tr><td><a href=\"http://snomed.info/id/16217701000119102\">16217701000119102</a></td><td>deltoïde gauche</td></tr><tr><td><a href=\"http://snomed.info/id/91774008\">91774008</a></td><td>épaule droite</td></tr><tr><td><a href=\"http://snomed.info/id/91775009\">91775009</a></td><td>épaule gauche</td></tr><tr><td><a href=\"http://snomed.info/id/11207009\">11207009</a></td><td>cuisse droite</td></tr><tr><td><a href=\"http://snomed.info/id/61396006\">61396006</a></td><td>cuisse gauche</td></tr><tr><td><a href=\"http://snomed.info/id/723980000\">723980000</a></td><td>fesse droite</td></tr><tr><td><a href=\"http://snomed.info/id/723979003\">723979003</a></td><td>fesse gauche</td></tr></table></li></ul></div>"
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Narratif généré : EnsembleValeurs jdv-immunization-approach-site-code-cisis</b></p><a name=\"jdv-immunization-approach-site-code-cisis\"> </a><a name=\"hcjdv-immunization-approach-site-code-cisis\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">version: 3; Dernière mise à jour : 2025-06-23 12:44:19+0000</p><p style=\"margin-bottom: 0px\">Profil: <a href=\"http://hl7.org/fhir/R4/shareablevalueset.html\">Shareable ValueSet</a></p></div><ul><li>Include les codes sont définis dans <a href=\"http://www.snomed.org/\"><code>http://snomed.info/sct</code></a><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td><a href=\"http://snomed.info/id/64262003\">64262003</a></td><td>avant-bras droit</td></tr><tr><td><a href=\"http://snomed.info/id/66480008\">66480008</a></td><td>avant-bras gauche</td></tr><tr><td><a href=\"http://snomed.info/id/16217661000119109\">16217661000119109</a></td><td>deltoïde droit</td></tr><tr><td><a href=\"http://snomed.info/id/16217701000119102\">16217701000119102</a></td><td>deltoïde gauche</td></tr><tr><td><a href=\"http://snomed.info/id/91774008\">91774008</a></td><td>épaule droite</td></tr><tr><td><a href=\"http://snomed.info/id/91775009\">91775009</a></td><td>épaule gauche</td></tr><tr><td><a href=\"http://snomed.info/id/11207009\">11207009</a></td><td>cuisse droite</td></tr><tr><td><a href=\"http://snomed.info/id/61396006\">61396006</a></td><td>cuisse gauche</td></tr><tr><td><a href=\"http://snomed.info/id/723980000\">723980000</a></td><td>fesse droite</td></tr><tr><td><a href=\"http://snomed.info/id/723979003\">723979003</a></td><td>fesse gauche</td></tr></table></li></ul></div>"
   },
   "extension" : [{
     "url" : "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod",
@@ -21,12 +21,12 @@
     "system" : "urn:ietf:rfc:3986",
     "value" : "urn:oid:1.2.250.1.213.1.1.5.621"
   }],
-  "version" : "20250611134352",
+  "version" : "20250616134739",
   "name" : "JdvImmunizationApproachSiteCodeCisis",
   "title" : "JDV Immunization Approach Site Code CISIS",
   "status" : "active",
   "experimental" : false,
-  "date" : "2025-06-11T13:43:52+01:00",
+  "date" : "2025-06-16T13:47:39+01:00",
   "publisher" : "Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "description" : "JDV Immunization Approach Site Code CISIS",
   "compose" : {
