@@ -7,12 +7,12 @@ Usage: #definition
 * extension[=].valueBoolean = false
 * url = "https://mos.esante.gouv.fr/NOS/ASS_A30-TypeAutorisation-Profession-EPARS/FHIR/ASS-A30-TypeAutorisation-Profession-EPARS"
 * identifier.value = "urn:oid:1.2.250.1.213.1.6.1.252"
-* version = "20250131120000"
+* version = "20250623120000"
 * name = "ASS_A30_TypeAutorisation_Profession_EPARS"
 * title = "ASS_A30_TypeAutorisation_Profession_EPARS"
 * status = #active
 * experimental = false
-* date = "2025-01-31T12:00:00+01:00"
+* date = "2025-06-23T12:00:00+01:00"
 * publisher = "ANS"
 * contact.name = "ANS"
 * contact.telecom.system = #url
@@ -186,9 +186,6 @@ Usage: #definition
 * group[=].target = "https://mos.esante.gouv.fr/NOS/TRE_R95-UsagerTitre/FHIR/TRE-R95-UsagerTitre"
 * group[=].element[0].code = #AM27
 * group[=].element[=].target.code = #71
-* group[=].element[=].target.equivalence = #equivalent
-* group[=].element[+].code = #AM27
-* group[=].element[=].target.code = #72
 * group[=].element[=].target.equivalence = #equivalent
 * group[=].element[+].code = #AM27
 * group[=].element[=].target.code = #73
