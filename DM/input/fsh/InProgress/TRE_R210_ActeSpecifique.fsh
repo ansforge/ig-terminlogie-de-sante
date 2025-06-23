@@ -9,10 +9,10 @@ Description: "Action menée par un ou plusieurs acteur(s) de santé dans le cadr
 * ^url = "https://mos.esante.gouv.fr/NOS/TRE_R210-ActeSpecifique/FHIR/TRE-R210-ActeSpecifique"
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value = "urn:oid:1.2.250.1.213.3.3.11"
-* ^version = "20250425120000"
+* ^version = "20250623120000"
 * ^status = #active
 * ^experimental = false
-* ^date = "2025-04-25T12:00:00+01:00"
+* ^date = "2025-06-23T12:00:00+01:00"
 * ^publisher = "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris"
 * ^caseSensitive = false
 * ^content = #complete
@@ -6514,7 +6514,7 @@ Description: "Action menée par un ou plusieurs acteur(s) de santé dans le cadr
 * #0499 ^property[=].valueDateTime = "2017-07-07T10:00:00+01:00"
 * #0499 ^property[+].code = #status
 * #0499 ^property[=].valueCode = #deprecated
-* #0500 "Vaccination antirabique (rage)"
+* #0500 "Vaccination antirabique (rage) post-exposition "
 * #0500 ^designation[0].language = #fr-FR
 * #0500 ^designation[=].use.system = "http://snomed.info/sct"
 * #0500 ^designation[=].use = $sct#900000000000013009
@@ -6522,22 +6522,18 @@ Description: "Action menée par un ou plusieurs acteur(s) de santé dans le cadr
 * #0500 ^property[0].code = #dateValid
 * #0500 ^property[=].valueDateTime = "2015-04-08T00:00:00+01:00"
 * #0500 ^property[+].code = #dateMaj
-* #0500 ^property[=].valueDateTime = "2017-07-07T10:00:00+01:00"
+* #0500 ^property[=].valueDateTime = "2025-06-23T10:00:00+01:00"
 * #0500 ^property[+].code = #status
 * #0500 ^property[=].valueCode = #active
-* #0501 "Vaccinations internationales et conseils aux voyageurs" "Proposition d'une information médicale aux voyageurs sur les mesures individuelles de protection contre les maladies infectieuses et les maladies non-transmissibles, et/ou la vaccination sur site et la prescription d'antipaludéens, de répulsifs ou d'autres médicaments."
+* #0501 "Vaccinations des voyageurs" "Proposition d'une information médicale aux voyageurs sur les mesures individuelles de protection contre les maladies infectieuses et les maladies non-transmissibles, et/ou la vaccination sur site et la prescription d'antipaludéens, de répulsifs ou d'autres médicaments."
 * #0501 ^designation[0].language = #fr-FR
 * #0501 ^designation[=].use.system = "http://snomed.info/sct"
 * #0501 ^designation[=].use = $sct#900000000000013009
 * #0501 ^designation[=].value = "501"
-* #0501 ^designation[+].language = #fr-FR
-* #0501 ^designation[=].use.system = "http://snomed.info/sct"
-* #0501 ^designation[=].use = $sct#900000000000013009
-* #0501 ^designation[=].value = "Vaccinations internationales et conseils aux voyageurs (fièvre jaune, encéphalite…)"
 * #0501 ^property[0].code = #dateValid
 * #0501 ^property[=].valueDateTime = "2015-04-08T00:00:00+01:00"
 * #0501 ^property[+].code = #dateMaj
-* #0501 ^property[=].valueDateTime = "2024-01-26T12:00:00+01:00"
+* #0501 ^property[=].valueDateTime = "2025-06-23T12:00:00+01:00"
 * #0501 ^property[+].code = #status
 * #0501 ^property[=].valueCode = #active
 * #0502 "Ventilation en poumons séparés"
@@ -6651,10 +6647,14 @@ Description: "Action menée par un ou plusieurs acteur(s) de santé dans le cadr
 * #0510 ^designation[=].value = "510"
 * #0510 ^property[0].code = #dateValid
 * #0510 ^property[=].valueDateTime = "2015-05-18T00:00:00+01:00"
+* #0510 ^property[+].code = #dateFin
+* #0510 ^property[=].valueDateTime = "2025-06-23T12:00:00+01:00"
 * #0510 ^property[+].code = #dateMaj
-* #0510 ^property[=].valueDateTime = "2015-05-18T00:00:00+01:00"
+* #0510 ^property[=].valueDateTime = "2025-06-23T00:00:00+01:00"
+* #0510 ^property[+].code = #deprecationDate
+* #0510 ^property[=].valueDateTime = "2025-06-23T12:00:00+01:00"
 * #0510 ^property[+].code = #status
-* #0510 ^property[=].valueCode = #active
+* #0510 ^property[=].valueCode = #deprecated
 * #0511 "Hypnose"
 * #0511 ^designation[0].language = #fr-FR
 * #0511 ^designation[=].use.system = "http://snomed.info/sct"
@@ -11325,15 +11325,19 @@ Description: "Action menée par un ou plusieurs acteur(s) de santé dans le cadr
 * #0896 ^property[=].valueDateTime = "2019-03-29T12:00:00+01:00"
 * #0896 ^property[+].code = #status
 * #0896 ^property[=].valueCode = #active
-* #0897 "Vaccination contre la grippe"
+* #0897 "Vaccination épidémie Grippe"
 * #0897 ^designation[0].language = #fr-FR
 * #0897 ^designation[=].use.system = "http://snomed.info/sct"
 * #0897 ^designation[=].use = $sct#900000000000013009
 * #0897 ^designation[=].value = "897"
+* #0897 ^designation[+].language = #fr-FR
+* #0897 ^designation[=].use.system = "http://snomed.info/sct"
+* #0897 ^designation[=].use = $sct#900000000000013009
+* #0897 ^designation[=].value = "Vaccination épidémie saisonnière"
 * #0897 ^property[0].code = #dateValid
 * #0897 ^property[=].valueDateTime = "2019-03-29T12:00:00+01:00"
 * #0897 ^property[+].code = #dateMaj
-* #0897 ^property[=].valueDateTime = "2019-03-29T12:00:00+01:00"
+* #0897 ^property[=].valueDateTime = "2025-06-23T12:00:00+01:00"
 * #0897 ^property[+].code = #status
 * #0897 ^property[=].valueCode = #active
 * #0898 "Dépistage du diabète"
@@ -12704,11 +12708,11 @@ Description: "Action menée par un ou plusieurs acteur(s) de santé dans le cadr
 * #1012 ^property[=].valueDateTime = "2021-03-26T12:00:00+01:00"
 * #1012 ^property[+].code = #status
 * #1012 ^property[=].valueCode = #active
-* #1013 "Vaccination contre les maladies sexuellement transmissibles" "Organisation de la vaccination recommandée pour prévenir les infections par le virus VHB (hépatite B) et le papillomavirus."
+* #1013 "Vaccination contre les infections sexuellement transmissible (IST)" "Organisation de la vaccination recommandée pour prévenir les infections par le virus VHB (hépatite B) et le papillomavirus."
 * #1013 ^property[0].code = #dateValid
 * #1013 ^property[=].valueDateTime = "2021-06-25T12:00:00+01:00"
 * #1013 ^property[+].code = #dateMaj
-* #1013 ^property[=].valueDateTime = "2021-10-29T12:00:00+01:00"
+* #1013 ^property[=].valueDateTime = "2025-06-23T12:00:00+01:00"
 * #1013 ^property[+].code = #status
 * #1013 ^property[=].valueCode = #active
 * #1014 "Fourniture de matériel d'hygiène, de prévention et de RdRD" "Distribution de matériel de prévention (préservatifs, gel, digues dentaires, documentations, brochures…)"
@@ -14369,18 +14373,18 @@ Description: "Action menée par un ou plusieurs acteur(s) de santé dans le cadr
 * #1243 ^property[=].valueDateTime = "2022-10-28T12:00:00+01:00"
 * #1243 ^property[+].code = #status
 * #1243 ^property[=].valueCode = #active
-* #1244 "Pose d'implants contraceptifs" "Pose d'un dispositif contraceptif intra-utérin (DIU, stérilet), en cuivre ou hormonal."
+* #1244 "Pose et retrait d’implants contraceptifs" "Pose d'un dispositif contraceptif intra-utérin (DIU, stérilet), en cuivre ou hormonal."
 * #1244 ^property[0].code = #dateValid
 * #1244 ^property[=].valueDateTime = "2022-10-28T12:00:00+01:00"
 * #1244 ^property[+].code = #dateMaj
-* #1244 ^property[=].valueDateTime = "2022-10-28T12:00:00+01:00"
+* #1244 ^property[=].valueDateTime = "2025-06-23T12:00:00+01:00"
 * #1244 ^property[+].code = #status
 * #1244 ^property[=].valueCode = #active
-* #1245 "Pose de DIU"
+* #1245 "Pose et retrait de stérilet (DIU/SIU)"
 * #1245 ^property[0].code = #dateValid
 * #1245 ^property[=].valueDateTime = "2022-10-28T12:00:00+01:00"
 * #1245 ^property[+].code = #dateMaj
-* #1245 ^property[=].valueDateTime = "2022-10-28T12:00:00+01:00"
+* #1245 ^property[=].valueDateTime = "2025-06-23T12:00:00+01:00"
 * #1245 ^property[+].code = #status
 * #1245 ^property[=].valueCode = #active
 * #1246 "Pose de holter implantable" "Ensemble des moyens mis en oeuvre pour maintenir dans une position une lésion osseuse,"
@@ -14665,11 +14669,11 @@ Description: "Action menée par un ou plusieurs acteur(s) de santé dans le cadr
 * #1283 ^property[=].valueDateTime = "2023-05-26T12:00:00+01:00"
 * #1283 ^property[+].code = #status
 * #1283 ^property[=].valueCode = #active
-* #1284 "Programme d'ETP labellisée - Insuffisance rénale, dialyse" "Ensemble coordonné d'activités éducatives destinées aux patients et à leur entourage et animées par une équipe de professionnels de santé avec l'aide d'autres acteurs (éducateur en activité physique adaptée, psychologue, etc.) pour un atteint d'une insuffisance rénale chronique avec ou sans dialyse"
+* #1284 "Programme d'ETP labellisée - Maladie rénale chronique (MRC), dialyse" "Ensemble coordonné d'activités éducatives destinées aux patients et à leur entourage et animées par une équipe de professionnels de santé avec l'aide d'autres acteurs (éducateur en activité physique adaptée, psychologue, etc.) pour un atteint d'une insuffisance rénale chronique avec ou sans dialyse"
 * #1284 ^property[0].code = #dateValid
 * #1284 ^property[=].valueDateTime = "2023-01-27T12:00:00+01:00"
 * #1284 ^property[+].code = #dateMaj
-* #1284 ^property[=].valueDateTime = "2023-05-26T12:00:00+01:00"
+* #1284 ^property[=].valueDateTime = "2025-06-23T12:00:00+01:00"
 * #1284 ^property[+].code = #status
 * #1284 ^property[=].valueCode = #active
 * #1285 "Programme d'ETP labellisée - Maladies cardio-vasc et de l'app circulatoire" "Ensemble coordonné d'activités éducatives destinées aux patients et à leur entourage et animées par une équipe de professionnels de santé avec l'aide d'autres acteurs (éducateur en activité physique adaptée, psychologue, etc.) pour un patient présentant une maladie cardio-vasculaire"
@@ -15118,10 +15122,14 @@ Description: "Action menée par un ou plusieurs acteur(s) de santé dans le cadr
 * #1342 "Retrait de Dispositif Intra-Utérin (DIU) (stérilet) ou d'implant contraceptif"
 * #1342 ^property[0].code = #dateValid
 * #1342 ^property[=].valueDateTime = "2023-05-26T12:00:00+01:00"
+* #1342 ^property[+].code = #dateFin
+* #1342 ^property[=].valueDateTime = "2025-06-23T12:00:00+01:00"
 * #1342 ^property[+].code = #dateMaj
-* #1342 ^property[=].valueDateTime = "2023-05-26T12:00:00+01:00"
+* #1342 ^property[=].valueDateTime = "2025-06-23T12:00:00+01:00"
+* #1342 ^property[+].code = #deprecationDate
+* #1342 ^property[=].valueDateTime = "2025-06-23T12:00:00+01:00"
 * #1342 ^property[+].code = #status
-* #1342 ^property[=].valueCode = #active
+* #1342 ^property[=].valueCode = #deprecated
 * #1343 "Suivi à domicile de grossesse pathologique"
 * #1343 ^property[0].code = #dateValid
 * #1343 ^property[=].valueDateTime = "2023-05-26T12:00:00+01:00"
@@ -16228,11 +16236,11 @@ Description: "Action menée par un ou plusieurs acteur(s) de santé dans le cadr
 * #1488 ^property[=].valueDateTime = "2024-12-13T12:00:00+01:00"
 * #1488 ^property[+].code = #status
 * #1488 ^property[=].valueCode = #active
-* #1489 "Filière Obésité - Niveau 1 Conventionné Centres Spécialisés Obésité (CSO)"
+* #1489 "Filière Obésité - Niveau 1 Conventionné Centres Spécialisés Obésité (CSO)" "Intervention de premier niveau de recours dans la filière de soin coordonnée obésité, devant être conventionnée avec un centre spécialisé obésité (CSO)."
 * #1489 ^property[0].code = #dateValid
 * #1489 ^property[=].valueDateTime = "2024-12-13T12:00:00+01:00"
 * #1489 ^property[+].code = #dateMaj
-* #1489 ^property[=].valueDateTime = "2025-01-31T12:00:00+01:00"
+* #1489 ^property[=].valueDateTime = "2025-06-23T12:00:00+01:00"
 * #1489 ^property[+].code = #status
 * #1489 ^property[=].valueCode = #active
 * #1490 "Filière Obésité - Niveau 2 Conventionné Centres Spécialisés Obésité (CSO)"
@@ -16389,3 +16397,204 @@ Description: "Action menée par un ou plusieurs acteur(s) de santé dans le cadr
 * #1511 ^property[=].valueDateTime = "2025-04-25T12:00:00+01:00"
 * #1511 ^property[+].code = #status
 * #1511 ^property[=].valueCode = #active
+* #1512 "Consultation spécialisée en allaitement"
+* #1512 ^property[0].code = #dateValid
+* #1512 ^property[=].valueDateTime = "2025-06-23T12:00:00+01:00"
+* #1512 ^property[+].code = #dateMaj
+* #1512 ^property[=].valueDateTime = "2025-06-23T12:00:00+01:00"
+* #1512 ^property[+].code = #status
+* #1512 ^property[=].valueCode = #active
+* #1513 "Consultations néonatales pédiatriques"
+* #1513 ^property[0].code = #dateValid
+* #1513 ^property[=].valueDateTime = "2025-06-23T12:00:00+01:00"
+* #1513 ^property[+].code = #dateMaj
+* #1513 ^property[=].valueDateTime = "2025-06-23T12:00:00+01:00"
+* #1513 ^property[+].code = #status
+* #1513 ^property[=].valueCode = #active
+* #1514 "Dialyse longue nocturne"
+* #1514 ^property[0].code = #dateValid
+* #1514 ^property[=].valueDateTime = "2025-06-23T12:00:00+01:00"
+* #1514 ^property[+].code = #dateMaj
+* #1514 ^property[=].valueDateTime = "2025-06-23T12:00:00+01:00"
+* #1514 ^property[+].code = #status
+* #1514 ^property[=].valueCode = #active
+* #1515 "Diathermie et électrothérapie combinées en soins pelvi-périnéaux"
+* #1515 ^property[0].code = #dateValid
+* #1515 ^property[=].valueDateTime = "2025-06-23T12:00:00+01:00"
+* #1515 ^property[+].code = #dateMaj
+* #1515 ^property[=].valueDateTime = "2025-06-23T12:00:00+01:00"
+* #1515 ^property[+].code = #status
+* #1515 ^property[=].valueCode = #active
+* #1516 "Évaluation et adaptation diététique de nutrition artificielle" "Suivi et adaptation des apports nutritionnels en cas de nutrition entérale ou parentérale, en lien avec les besoins métaboliques et l’évolution clinique."
+* #1516 ^property[0].code = #dateValid
+* #1516 ^property[=].valueDateTime = "2025-06-23T12:00:00+01:00"
+* #1516 ^property[+].code = #dateMaj
+* #1516 ^property[=].valueDateTime = "2025-06-23T12:00:00+01:00"
+* #1516 ^property[+].code = #status
+* #1516 ^property[=].valueCode = #active
+* #1517 "Parcours surpoids et obésité pédiatrique « Mission : Retrouve ton Cap »" "Acte de soin encadré dans les dispositifs régionaux type « Mission Retrouve ton Cap », assurant une prise en charge gratuite ou partiellement remboursée dans le cadre d'un parcours de soins de prise en charge de l'obésité"
+* #1517 ^property[0].code = #dateValid
+* #1517 ^property[=].valueDateTime = "2025-06-23T12:00:00+01:00"
+* #1517 ^property[+].code = #dateMaj
+* #1517 ^property[=].valueDateTime = "2025-06-23T12:00:00+01:00"
+* #1517 ^property[+].code = #status
+* #1517 ^property[=].valueCode = #active
+* #1518 "Participation au dispositif HandiGynéco"
+* #1518 ^property[0].code = #dateValid
+* #1518 ^property[=].valueDateTime = "2025-06-23T12:00:00+01:00"
+* #1518 ^property[+].code = #dateMaj
+* #1518 ^property[=].valueDateTime = "2025-06-23T12:00:00+01:00"
+* #1518 ^property[+].code = #status
+* #1518 ^property[=].valueCode = #active
+* #1519 "Séance de préparation à la naissance et à la parentalité individuelle"
+* #1519 ^property[0].code = #dateValid
+* #1519 ^property[=].valueDateTime = "2025-06-23T12:00:00+01:00"
+* #1519 ^property[+].code = #dateMaj
+* #1519 ^property[=].valueDateTime = "2025-06-23T12:00:00+01:00"
+* #1519 ^property[+].code = #status
+* #1519 ^property[=].valueCode = #active
+* #1520 "Soin diététique et nutritionnel adulte pendant et après les traitements oncologiques" "Soins diététique pendant et aprés les traitements anticancéreux  (chimiothérapie, radiothérapie)  pour prévenir ou corriger les altérations nutritionnelles."
+* #1520 ^designation[0].language = #fr-FR
+* #1520 ^designation[=].use.system = "http://snomed.info/sct"
+* #1520 ^designation[=].use = $sct#900000000000013009
+* #1520 ^designation[=].value = "Soin diététique et nutritionnel adulte des traitements oncologiques"
+* #1520 ^property[0].code = #dateValid
+* #1520 ^property[=].valueDateTime = "2025-06-23T12:00:00+01:00"
+* #1520 ^property[+].code = #dateMaj
+* #1520 ^property[=].valueDateTime = "2025-06-23T12:00:00+01:00"
+* #1520 ^property[+].code = #status
+* #1520 ^property[=].valueCode = #active
+* #1521 "Soin diététique et nutritionnel des alimentations pauvres en FODMAPs" "Mise en œuvre encadrée d’un protocole alimentaire restreint puis réintroduction, pour soulager les symptômes intestinaux (notamment SII)."
+* #1521 ^property[0].code = #dateValid
+* #1521 ^property[=].valueDateTime = "2025-06-23T12:00:00+01:00"
+* #1521 ^property[+].code = #dateMaj
+* #1521 ^property[=].valueDateTime = "2025-06-23T12:00:00+01:00"
+* #1521 ^property[+].code = #status
+* #1521 ^property[=].valueCode = #active
+* #1522 "Soin diététique et nutritionnel des allergies alimentaires" "Adaptation de l’alimentation pour prévenir les réactions allergiques, garantir un bon état nutritionnel et une alimentation sûre, équilibrée et adaptée à leurs besoins spécifiques."
+* #1522 ^property[0].code = #dateValid
+* #1522 ^property[=].valueDateTime = "2025-06-23T12:00:00+01:00"
+* #1522 ^property[+].code = #dateMaj
+* #1522 ^property[=].valueDateTime = "2025-06-23T12:00:00+01:00"
+* #1522 ^property[+].code = #status
+* #1522 ^property[=].valueCode = #active
+* #1523 "Soin diététique et nutritionnel des personnes en situation de handicap" "Élaboration de stratégies nutritionnelles individualisées prenant en compte les troubles associés, les contraintes motrices, sensorielles ou cognitives."
+* #1523 ^property[0].code = #dateValid
+* #1523 ^property[=].valueDateTime = "2025-06-23T12:00:00+01:00"
+* #1523 ^property[+].code = #dateMaj
+* #1523 ^property[=].valueDateTime = "2025-06-23T12:00:00+01:00"
+* #1523 ^property[+].code = #status
+* #1523 ^property[=].valueCode = #active
+* #1524 "Soin diététique et nutritionnel des Troubles Alimentaires Pédiatriques (TAP)" "Ensemble des interventions de diététique visant à évaluer, prévenir et traiter les difficultés alimentaires chez l’enfant,  se manifestent par une altération de la prise alimentaire orale, inadaptée à l’âge de l’enfant, pouvant aller d’une simple sélectivité alimentaire à un refus complet de s’alimenter par voie orale"
+* #1524 ^property[0].code = #dateValid
+* #1524 ^property[=].valueDateTime = "2025-06-23T12:00:00+01:00"
+* #1524 ^property[+].code = #dateMaj
+* #1524 ^property[=].valueDateTime = "2025-06-23T12:00:00+01:00"
+* #1524 ^property[+].code = #status
+* #1524 ^property[=].valueCode = #active
+* #1525 "Soin diététique et nutritionnel des troubles de la déglutition ou dysphagies" "Prise en charge adaptée aux troubles de la mastication ou de la déglutition, visant la sécurité alimentaire, la texture adaptée et la prévention de la dénutrition."
+* #1525 ^property[0].code = #dateValid
+* #1525 ^property[=].valueDateTime = "2025-06-23T12:00:00+01:00"
+* #1525 ^property[+].code = #dateMaj
+* #1525 ^property[=].valueDateTime = "2025-06-23T12:00:00+01:00"
+* #1525 ^property[+].code = #status
+* #1525 ^property[=].valueCode = #active
+* #1526 "Soin diététique et nutritionnel pédiatrique pendant et après les traitements oncologiques" "Ensemble des interventions diététiques réalisées auprès d’enfants atteints de cancer, tout au long du parcours de soins, depuis le diagnostic jusqu’à la phase de rémission ou de suivi post-thérapeutique comprenant une évaluation nutritionnelle, l'adaptation des apports nutritionnels pour prévenir la dénutrition ou les excès."
+* #1526 ^designation[0].language = #fr-FR
+* #1526 ^designation[=].use.system = "http://snomed.info/sct"
+* #1526 ^designation[=].use = $sct#900000000000013009
+* #1526 ^designation[=].value = "Soin diététique et nutritionnel pédiatrique des traitements oncologiques"
+* #1526 ^property[0].code = #dateValid
+* #1526 ^property[=].valueDateTime = "2025-06-23T12:00:00+01:00"
+* #1526 ^property[+].code = #dateMaj
+* #1526 ^property[=].valueDateTime = "2025-06-23T12:00:00+01:00"
+* #1526 ^property[+].code = #status
+* #1526 ^property[=].valueCode = #active
+* #1527 "Soin diététique et nutritionnel pour la gestion des troubles hormonaux (hypothyroïdie, SOPK, endométriose)" "Suivi personnalisé visant à améliorer les symptômes, limiter les complications métaboliques, contribuer à l’équilibre hormonal et à la réduction des symptômes associés. et accompagner le vécu des patientes."
+* #1527 ^designation[0].language = #fr-FR
+* #1527 ^designation[=].use.system = "http://snomed.info/sct"
+* #1527 ^designation[=].use = $sct#900000000000013009
+* #1527 ^designation[=].value = "Soin diététique et nutritionnel pour la gestion des troubles hormonaux"
+* #1527 ^property[0].code = #dateValid
+* #1527 ^property[=].valueDateTime = "2025-06-23T12:00:00+01:00"
+* #1527 ^property[+].code = #dateMaj
+* #1527 ^property[=].valueDateTime = "2025-06-23T12:00:00+01:00"
+* #1527 ^property[+].code = #status
+* #1527 ^property[=].valueCode = #active
+* #1528 "Soin diététique et nutritionnel des diabètes" "Adaptation de l’alimentation aux besoins du patient atteint de diabète de type 1, 2 ou gestationnel, en lien avec les traitements et le mode de vie."
+* #1528 ^property[0].code = #dateValid
+* #1528 ^property[=].valueDateTime = "2025-06-23T12:00:00+01:00"
+* #1528 ^property[+].code = #dateMaj
+* #1528 ^property[=].valueDateTime = "2025-06-23T12:00:00+01:00"
+* #1528 ^property[+].code = #status
+* #1528 ^property[=].valueCode = #active
+* #1529 "Soins gynécologiques pour personnes en situation de handicap"
+* #1529 ^property[0].code = #dateValid
+* #1529 ^property[=].valueDateTime = "2025-06-23T12:00:00+01:00"
+* #1529 ^property[+].code = #dateMaj
+* #1529 ^property[=].valueDateTime = "2025-06-23T12:00:00+01:00"
+* #1529 ^property[+].code = #status
+* #1529 ^property[=].valueCode = #active
+* #1530 "Suivi post-accouchement à domicile"
+* #1530 ^property[0].code = #dateValid
+* #1530 ^property[=].valueDateTime = "2025-06-23T12:00:00+01:00"
+* #1530 ^property[+].code = #dateMaj
+* #1530 ^property[=].valueDateTime = "2025-06-23T12:00:00+01:00"
+* #1530 ^property[+].code = #status
+* #1530 ^property[=].valueCode = #active
+* #1531 "Suivi staturopondéral des nourrissons"
+* #1531 ^property[0].code = #dateValid
+* #1531 ^property[=].valueDateTime = "2025-06-23T12:00:00+01:00"
+* #1531 ^property[+].code = #dateMaj
+* #1531 ^property[=].valueDateTime = "2025-06-23T12:00:00+01:00"
+* #1531 ^property[+].code = #status
+* #1531 ^property[=].valueCode = #active
+* #1532 "Surveillance d'ictère néonatal par mesure transcutanée"
+* #1532 ^property[0].code = #dateValid
+* #1532 ^property[=].valueDateTime = "2025-06-23T12:00:00+01:00"
+* #1532 ^property[+].code = #dateMaj
+* #1532 ^property[=].valueDateTime = "2025-06-23T12:00:00+01:00"
+* #1532 ^property[+].code = #status
+* #1532 ^property[=].valueCode = #active
+* #1533 "Test de Guthrie hors établissement (test néonatal du buvard)"
+* #1533 ^property[0].code = #dateValid
+* #1533 ^property[=].valueDateTime = "2025-06-23T12:00:00+01:00"
+* #1533 ^property[+].code = #dateMaj
+* #1533 ^property[=].valueDateTime = "2025-06-23T12:00:00+01:00"
+* #1533 ^property[+].code = #status
+* #1533 ^property[=].valueCode = #active
+* #1534 "Vaccination contre la tuberculose"
+* #1534 ^property[0].code = #dateValid
+* #1534 ^property[=].valueDateTime = "2025-06-23T12:00:00+01:00"
+* #1534 ^property[+].code = #dateMaj
+* #1534 ^property[=].valueDateTime = "2025-06-23T12:00:00+01:00"
+* #1534 ^property[+].code = #status
+* #1534 ^property[=].valueCode = #active
+* #1535 "Vaccination du calendrier vaccinal de l’adolescent et de l’adulte"
+* #1535 ^property[0].code = #dateValid
+* #1535 ^property[=].valueDateTime = "2025-06-23T12:00:00+01:00"
+* #1535 ^property[+].code = #dateMaj
+* #1535 ^property[=].valueDateTime = "2025-06-23T12:00:00+01:00"
+* #1535 ^property[+].code = #status
+* #1535 ^property[=].valueCode = #active
+* #1536 "Vaccination du calendrier vaccinal du jeune enfant (0-12 ans)"
+* #1536 ^property[0].code = #dateValid
+* #1536 ^property[=].valueDateTime = "2025-06-23T12:00:00+01:00"
+* #1536 ^property[+].code = #dateMaj
+* #1536 ^property[=].valueDateTime = "2025-06-23T12:00:00+01:00"
+* #1536 ^property[+].code = #status
+* #1536 ^property[=].valueCode = #active
+* #1537 "Vaccination du calendrier vaccinal du sénior"
+* #1537 ^property[0].code = #dateValid
+* #1537 ^property[=].valueDateTime = "2025-06-23T12:00:00+01:00"
+* #1537 ^property[+].code = #dateMaj
+* #1537 ^property[=].valueDateTime = "2025-06-23T12:00:00+01:00"
+* #1537 ^property[+].code = #status
+* #1537 ^property[=].valueCode = #active
+* #1538 "Vaccination épidémie Covid"
+* #1538 ^property[0].code = #dateValid
+* #1538 ^property[=].valueDateTime = "2025-06-23T12:00:00+01:00"
+* #1538 ^property[+].code = #dateMaj
+* #1538 ^property[=].valueDateTime = "2025-06-23T12:00:00+01:00"
+* #1538 ^property[+].code = #status
+* #1538 ^property[=].valueCode = #active

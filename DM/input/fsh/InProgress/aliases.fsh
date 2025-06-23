@@ -12,3 +12,4 @@ Alias: $TRE_R96_AutreFonctionSanitaire = https://mos.esante.gouv.fr/NOS/TRE_R96-
 Alias: $TRE_R95_UsagerTitre = https://mos.esante.gouv.fr/NOS/TRE_R95-UsagerTitre/FHIR/TRE-R95-UsagerTitre
 Alias: $TRE_A05_TypeDocComplementaire = https://mos.esante.gouv.fr/NOS/TRE_A05-TypeDocComplementaire/FHIR/TRE-A05-TypeDocComplementaire
 Alias: $TRE_A12_NomenclatureASTM = https://mos.esante.gouv.fr/NOS/TRE_A12-NomenclatureASTM/FHIR/TRE-A12-NomenclatureASTM
+Alias: $TRE_R210_ActeSpecifique = https://mos.esante.gouv.fr/NOS/TRE_R210-ActeSpecifique/FHIR/TRE-R210-ActeSpecifique
