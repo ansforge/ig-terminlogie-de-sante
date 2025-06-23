@@ -300,7 +300,7 @@ Usage: #definition
 * group[=].element[+].code = #97694-4
 * group[=].element[=].target.code = #10
 * group[=].element[=].target.equivalence = #equivalent
-* group[=].element[+].code =#100967-9
+* group[=].element[+].code = #100967-9
 * group[=].element[=].target.code = #10
 * group[=].element[=].target.equivalence = #equivalent
 * group[+].source = "https://mos.esante.gouv.fr/NOS/TRE_A05-TypeDocComplementaire/FHIR/TRE-A05-TypeDocComplementaire"
