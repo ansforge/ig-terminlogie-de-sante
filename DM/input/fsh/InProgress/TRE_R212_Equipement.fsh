@@ -9,10 +9,10 @@ Description: "Equipement"
 * ^url = "https://mos.esante.gouv.fr/NOS/TRE_R212-Equipement/FHIR/TRE-R212-Equipement"
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value = "urn:oid:1.2.250.1.213.3.3.10"
-* ^version = "20250425120000"
+* ^version = "20250623120000"
 * ^status = #active
 * ^experimental = false
-* ^date = "2025-04-25T12:00:00+01:00"
+* ^date = "2025-06-23T12:00:00+01:00"
 * ^publisher = "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris"
 * ^caseSensitive = false
 * ^content = #complete
@@ -1593,18 +1593,18 @@ Description: "Equipement"
 * #172 ^property[=].valueDateTime = "2019-07-05T12:00:00+01:00"
 * #172 ^property[+].code = #status
 * #172 ^property[=].valueCode = #deprecated
-* #173 "SNP Array"
+* #173 "Polymorphisme mononucléotidique"
 * #173 ^property[0].code = #dateValid
 * #173 ^property[=].valueDateTime = "2019-03-29T12:00:00+01:00"
 * #173 ^property[+].code = #dateMaj
-* #173 ^property[=].valueDateTime = "2019-03-29T12:00:00+01:00"
+* #173 ^property[=].valueDateTime = "2025-06-23T12:00:00+01:00"
 * #173 ^property[+].code = #status
 * #173 ^property[=].valueCode = #active
-* #174 "CGH Array"
+* #174 "Hybridation génomique comparative (HGC)"
 * #174 ^property[0].code = #dateValid
 * #174 ^property[=].valueDateTime = "2019-03-29T12:00:00+01:00"
 * #174 ^property[+].code = #dateMaj
-* #174 ^property[=].valueDateTime = "2019-03-29T12:00:00+01:00"
+* #174 ^property[=].valueDateTime = "2025-06-23T12:00:00+01:00"
 * #174 ^property[+].code = #status
 * #174 ^property[=].valueCode = #active
 * #175 "Spectromètre de masse haute résolution"
