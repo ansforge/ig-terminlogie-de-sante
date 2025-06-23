@@ -9,10 +9,10 @@ Description: "Activite Operationnelle"
 * ^url = "https://mos.esante.gouv.fr/NOS/TRE_R211-ActiviteOperationnelle/FHIR/TRE-R211-ActiviteOperationnelle"
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value = "urn:oid:1.2.250.1.213.3.3.12"
-* ^version = "20250620120000"
+* ^version = "20250623120000"
 * ^status = #active
 * ^experimental = false
-* ^date = "2025-06-20T12:00:00+01:00"
+* ^date = "2025-06-23T12:00:00+01:00"
 * ^publisher = "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris"
 * ^caseSensitive = false
 * ^content = #complete
@@ -4352,11 +4352,11 @@ Description: "Activite Operationnelle"
 * #548 ^property[=].valueDateTime = "2024-06-28T12:00:00+01:00"
 * #548 ^property[+].code = #status
 * #548 ^property[=].valueCode = #active
-* #549 "Diététique et nutrition" "Branche médicale, exercée par des médecins nutritionnistes qui analyse les rapports entre les aliments et la santé, elle est axée sur l'assimilation et la transformation par le corps des nutriments en vue de leur utilisation métabolique."
+* #549 "Diététique et nutrition" "Dispensation des conseils nutritionnels  l’éducation et à la rééducation nutritionnelle des patients atteints de troubles du métabolisme ou de l’alimentation, par l’établissement d’un bilan diététique personnalisé et une éducation diététique adaptée. Les diététiciens contribuent à la définition, à l’évaluation et au contrôle de la qualité de l’alimentation servie en collectivité, ainsi qu’aux activités de prévention en santé publique relevant du champ de la nutrition."
 * #549 ^property[0].code = #dateValid
 * #549 ^property[=].valueDateTime = "2024-05-31T12:00:00+01:00"
 * #549 ^property[+].code = #dateMaj
-* #549 ^property[=].valueDateTime = "2025-06-20T12:00:00+01:00"
+* #549 ^property[=].valueDateTime = "2025-06-23T12:00:00+01:00"
 * #549 ^property[+].code = #status
 * #549 ^property[=].valueCode = #active
 * #550 "Accompagnement puériculteur à la périnatalité"
@@ -4597,11 +4597,11 @@ Description: "Activite Operationnelle"
 * #583 ^property[=].valueDateTime = "2025-06-20T12:00:00+01:00"
 * #583 ^property[+].code = #status
 * #583 ^property[=].valueCode = #active
-* #584 "Diététique des Troubles des Conduites Alimentaires (TCA)" "Prise en soin pluridisciplinaire des TCA (anorexie, boulimie, hyperphagie) avec travail sur la régulation alimentaire, l’image corporelle et les émotions."
+* #584 "Diététique des Troubles des Conduites Alimentaires (TCA)" "Prise en soin diététique  des troubles du comportement alimentaire (anorexie, boulimie, hyperphagie) comprenant  la régulation alimentaire, l’image corporelle et les émotions."
 * #584 ^property[0].code = #dateValid
 * #584 ^property[=].valueDateTime = "2025-06-20T12:00:00+01:00"
 * #584 ^property[+].code = #dateMaj
-* #584 ^property[=].valueDateTime = "2025-06-20T12:00:00+01:00"
+* #584 ^property[=].valueDateTime = "2025-06-23T12:00:00+01:00"
 * #584 ^property[+].code = #status
 * #584 ^property[=].valueCode = #active
 * #585 "Diététique orientation Dénutrition" "Accompagnement des patients à risque ou en situation de dénutrition pour prévenir ou corriger les déficits nutritionnels."
@@ -4611,14 +4611,14 @@ Description: "Activite Operationnelle"
 * #585 ^property[=].valueDateTime = "2025-06-20T12:00:00+01:00"
 * #585 ^property[+].code = #status
 * #585 ^property[=].valueCode = #active
-* #586 "Diététique orientation Gynécologie / Obstétrique" "Suivi diététique dans les contextes liés à la santé gynécologique (SOPK, endométriose, ménopause) ou obstétrique (grossesse, complications métaboliques, allaitement)."
+* #586 "Diététique orientation Gynécologie / Obstétrique" "Prise en charge nutritionnelle des femmes tout au long de leur parcours gynécologique et obstétrique, comprennant  notamment la grossesse, aux parturientes présentant des pathologies spécifiques (diabète gestationnel, troubles métaboliques, surpoids, dénutrition, etc.) ou gynécologique (SOPK, endométriose, ménopause) ou leur grossesse."
 * #586 ^property[0].code = #dateValid
 * #586 ^property[=].valueDateTime = "2025-06-20T12:00:00+01:00"
 * #586 ^property[+].code = #dateMaj
-* #586 ^property[=].valueDateTime = "2025-06-20T12:00:00+01:00"
+* #586 ^property[=].valueDateTime = "2025-06-23T12:00:00+01:00"
 * #586 ^property[+].code = #status
 * #586 ^property[=].valueCode = #active
-* #587 "Diététique orientation maladies inflammatoires et malabsorptives (MICI, SII, NASH)" "Prise en charge nutritionnelle individualisée visant à limiter les symptômes, prévenir les carences et adapter l’alimentation selon les phases évolutives de pathologies digestives chroniques."
+* #587 "Diététique orientation maladies inflammatoires et malabsorptives (MICI, SII, NASH)" "Prise en charge nutritionnelle individualisée visant à limiter les symptômes, prévenir les carences et adapter l’alimentation selon les phases évolutives de pathologies digestives inflammatoire chroniques."
 * #587 ^designation[0].language = #fr-FR
 * #587 ^designation[=].use.system = "http://snomed.info/sct"
 * #587 ^designation[=].use = $sct#900000000000013009
@@ -4626,14 +4626,14 @@ Description: "Activite Operationnelle"
 * #587 ^property[0].code = #dateValid
 * #587 ^property[=].valueDateTime = "2025-06-20T12:00:00+01:00"
 * #587 ^property[+].code = #dateMaj
-* #587 ^property[=].valueDateTime = "2025-06-20T12:00:00+01:00"
+* #587 ^property[=].valueDateTime = "2025-06-23T12:00:00+01:00"
 * #587 ^property[+].code = #status
 * #587 ^property[=].valueCode = #active
-* #588 "Diététique orientation Nutrition du sportif" "Optimisation de l’alimentation pour soutenir la performance, la récupération et la prévention des blessures, en lien avec les objectifs et le niveau de pratique."
+* #588 "Diététique orientation Nutrition du sportif" "Optimisation de l’alimentation pour soutenir la performance, la récupération et la prévention des blessures, chez le sportif  en lien avec les objectifs et le niveau de pratique."
 * #588 ^property[0].code = #dateValid
 * #588 ^property[=].valueDateTime = "2025-06-20T12:00:00+01:00"
 * #588 ^property[+].code = #dateMaj
-* #588 ^property[=].valueDateTime = "2025-06-20T12:00:00+01:00"
+* #588 ^property[=].valueDateTime = "2025-06-23T12:00:00+01:00"
 * #588 ^property[+].code = #status
 * #588 ^property[=].valueCode = #active
 * #589 "Diététique orientation Périnatalité" "Soutien nutritionnel dans le cadre du projet parental, de la grossesse, de l’allaitement, et de la diversification alimentaire du nourrisson."
