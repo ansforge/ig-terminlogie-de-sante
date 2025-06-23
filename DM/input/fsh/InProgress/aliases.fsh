@@ -23,4 +23,3 @@ Alias: $TRE_G16_ProfessionFormation = https://mos.esante.gouv.fr/NOS/TRE_G16-Pro
 Alias: $TRE_R01_EnsembleSavoirFaire-CISIS = https://mos.esante.gouv.fr/NOS/TRE_R01-EnsembleSavoirFaire-CISIS/FHIR/TRE-R01-EnsembleSavoirFaire-CISIS
 Alias: $TRE_G05_SousSectionTableauCNOP = https://mos.esante.gouv.fr/NOS/TRE_G05-SousSectionTableauCNOP/FHIR/TRE-G05-SousSectionTableauCNOP
 Alias: $TRE_R22_GenreActivite = https://mos.esante.gouv.fr/NOS/TRE_R22-GenreActivite/FHIR/TRE-R22-GenreActivite
-Alias: $TRE_R85_RolePriseCharge = https://mos.esante.gouv.fr/NOS/TRE_R85-RolePriseCharge/FHIR/TRE-R85-RolePriseCharge
