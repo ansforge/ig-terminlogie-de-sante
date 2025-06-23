@@ -3,3 +3,5 @@ Alias: $v3-ObservationValue = http://terminology.hl7.org/CodeSystem/v3-Observati
 Alias: $TRE_R343_FonctionLieu = https://mos.esante.gouv.fr/NOS/TRE_R343-FonctionLieu/FHIR/TRE-R343-FonctionLieu
 Alias: $TRE_R211_ActiviteOperationnelle = https://mos.esante.gouv.fr/NOS/TRE_R211-ActiviteOperationnelle/FHIR/TRE-R211-ActiviteOperationnelle
 Alias: $TRE_R212_Equipement = https://mos.esante.gouv.fr/NOS/TRE_R212-Equipement/FHIR/TRE-R212-Equipement
+Alias: $TRE_R210_ActeSpecifique = https://mos.esante.gouv.fr/NOS/TRE_R210-ActeSpecifique/FHIR/TRE-R210-ActeSpecifique
+Alias: $TRE_R356_ProfessionRessource = https://mos.esante.gouv.fr/NOS/TRE_R356-ProfessionRessource/FHIR/TRE-R356-ProfessionRessource
