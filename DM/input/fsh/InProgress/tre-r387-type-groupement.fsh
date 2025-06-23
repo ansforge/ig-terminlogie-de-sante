@@ -49,7 +49,7 @@ Description: "Nomenclature des types de groupement utilisables dans FINESS. Grou
 * ^property[=].uri = "http://hl7.org/fhir/concept-properties#hasTypeRoleMember"
 * ^property[=].description = "Type de rôle des membres des concepts type de groupement"
 * ^property[=].type = #Coding
-* #01 "Groupement de coopération conventionnelle"
+* #01 "Groupement de coopération conventionnelle" "La coopération conventionnelle ne donne pas lieu à la création d'une structure juridique.  Elle n'est matérialisée que par un engagement qui associe l'ensemble des membres du groupe. Une des personnes morales appartenant au groupe sera dite 'PM support'. Elle a un rôle particulier au sein du groupe notamment pour les échanges avec l'extérieur."
 * #01 ^designation.language = #fr-FR
 * #01 ^designation.use.system = "http://snomed.info/sct"
 * #01 ^designation.use = $sct#900000000000013009
@@ -66,7 +66,7 @@ Description: "Nomenclature des types de groupement utilisables dans FINESS. Grou
 * #01 ^property[=].valueCoding = $tre-r360-type-role-entite-groupe#M "Membre simple"
 * #01 ^property[+].code = #hasTypeRoleMember
 * #01 ^property[=].valueCoding = $tre-r360-type-role-entite-groupe#S "Entité support"
-* #02 "Groupement de coopération organique"
+* #02 "Groupement de coopération organique" " La coopération organique entre personnes morales se traduit par la création d’une nouvelle structure juridique dotée d’une personnalité morale. Elle s’adosse à différents supports juridiques dont par exemple le GCS (Groupement de Coopération Sanitaire) ou le Groupement de Coopération sociale et médico-sociale (GCSMS). Un GCO est donc représenté par une Personne Morale particulière dite 'tête de groupe'."
 * #02 ^designation.language = #fr-FR
 * #02 ^designation.use.system = "http://snomed.info/sct"
 * #02 ^designation.use = $sct#900000000000013009
