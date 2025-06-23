@@ -1,0 +1,27 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "b74bd7d8-dcb7-4f93-a7ba-b867d22e3b41-1898",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/b74bd7d8-dcb7-4f93-a7ba-b867d22e3b41-1898",
+  "name" : "UnionJdvEvaluationNeurocognitiveCisisAndJdvEvaluationNeurocognitiveCisis",
+  "title" : "Union of JDV Evaluation Neurocognitive CISIS And JDV Evaluation Neurocognitive CISIS",
+  "status" : "active",
+  "date" : "2025-06-23T15:02:06+00:00",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "FR"
+    }]
+  }],
+  "compose" : {
+    "include" : [{
+      "concept" : [{
+        "code" : "MED-337",
+        "display" : "Syndrome dysexécutif"
+      },
+      {
+        "code" : "MED-338",
+        "display" : "Détérioration intellectuelle"
+      }]
+    }]
+  }
+}

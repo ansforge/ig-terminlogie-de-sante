@@ -1,0 +1,31 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "b74bd7d8-dcb7-4f93-a7ba-b867d22e3b41-2850",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/b74bd7d8-dcb7-4f93-a7ba-b867d22e3b41-2850",
+  "name" : "IntersectionJdvTypeMotorisationCisisAndJdvTypeMotorisationCisis",
+  "title" : "Intersection of JDV Type Motorisation CISIS And JDV Type Motorisation CISIS",
+  "status" : "active",
+  "date" : "2025-06-23T15:02:06+00:00",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "FR"
+    }]
+  }],
+  "compose" : {
+    "include" : [{
+      "concept" : [{
+        "code" : "GEN-354",
+        "display" : "Véhicule thermique"
+      },
+      {
+        "code" : "GEN-355",
+        "display" : "Véhicule électrique"
+      },
+      {
+        "code" : "GEN-356",
+        "display" : "Véhicule hybride"
+      }]
+    }]
+  }
+}

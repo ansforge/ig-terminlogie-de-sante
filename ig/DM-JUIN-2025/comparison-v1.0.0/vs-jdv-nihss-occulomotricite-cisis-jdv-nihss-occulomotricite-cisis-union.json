@@ -1,0 +1,31 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "b74bd7d8-dcb7-4f93-a7ba-b867d22e3b41-2354",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/b74bd7d8-dcb7-4f93-a7ba-b867d22e3b41-2354",
+  "name" : "UnionJdvNihssOcculomotriciteCisisAndJdvNihssOcculomotriciteCisis",
+  "title" : "Union of JDV Nihss Occulomotricite CISIS And JDV Nihss Occulomotricite CISIS",
+  "status" : "active",
+  "date" : "2025-06-23T15:02:06+00:00",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "FR"
+    }]
+  }],
+  "compose" : {
+    "include" : [{
+      "concept" : [{
+        "code" : "LA6626-1",
+        "display" : "Normal"
+      },
+      {
+        "code" : "LA18446-7",
+        "display" : "Paralysie partielle (ce score est attribué quand l'oculomotricité est anormale pour 1 ou 2 yeux, mais sans déviation forcée, ni paralysie complète)."
+      },
+      {
+        "code" : "LA18447-5",
+        "display" : "Déviation forcée ou paralysie complète non vaincue par les manœuvres oculo céphaliques."
+      }]
+    }]
+  }
+}

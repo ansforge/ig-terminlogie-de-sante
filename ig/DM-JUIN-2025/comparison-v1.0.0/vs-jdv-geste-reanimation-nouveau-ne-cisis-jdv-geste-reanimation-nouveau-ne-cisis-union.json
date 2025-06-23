@@ -1,0 +1,57 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "b74bd7d8-dcb7-4f93-a7ba-b867d22e3b41-1964",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/b74bd7d8-dcb7-4f93-a7ba-b867d22e3b41-1964",
+  "name" : "UnionJdvGesteReanimationNouveauNeCisisAndJdvGesteReanimationNouveauNeCisis",
+  "title" : "Union of JDV Geste Reanimation Nouveau Ne CISIS And JDV Geste Reanimation Nouveau Ne CISIS",
+  "status" : "active",
+  "date" : "2025-06-23T15:02:06+00:00",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "FR"
+    }]
+  }],
+  "compose" : {
+    "include" : [{
+      "concept" : [{
+        "code" : "MED-1259",
+        "display" : "PPC nasale"
+      },
+      {
+        "code" : "MED-1260",
+        "display" : "Ventilation sur tube endotrachéal"
+      },
+      {
+        "code" : "MED-174",
+        "display" : "Geste technique spécialisé"
+      }]
+    },
+    {
+      "concept" : [{
+        "code" : "112798008",
+        "display" : "insertion d'un tube endotrachéal"
+      },
+      {
+        "code" : "83099006",
+        "display" : "massage cardiaque externe manuel à thorax fermé"
+      },
+      {
+        "code" : "1217591002",
+        "display" : "injection de médicament"
+      },
+      {
+        "code" : "427391006",
+        "display" : "clairance des sécrétions des voies respiratoires"
+      },
+      {
+        "code" : "425696007",
+        "display" : "assistance respiratoire manuelle par un ballon et un masque"
+      },
+      {
+        "code" : "5447007",
+        "display" : "transfusion"
+      }]
+    }]
+  }
+}

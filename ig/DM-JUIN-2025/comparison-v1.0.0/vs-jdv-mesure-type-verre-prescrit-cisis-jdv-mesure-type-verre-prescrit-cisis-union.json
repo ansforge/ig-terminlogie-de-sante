@@ -1,0 +1,43 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "b74bd7d8-dcb7-4f93-a7ba-b867d22e3b41-2219",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/b74bd7d8-dcb7-4f93-a7ba-b867d22e3b41-2219",
+  "name" : "UnionJdvMesureTypeVerrePrescritCisisAndJdvMesureTypeVerrePrescritCisis",
+  "title" : "Union of JDV Mesure Type Verre Prescrit CISIS And JDV Mesure Type Verre Prescrit CISIS",
+  "status" : "active",
+  "date" : "2025-06-23T15:02:06+00:00",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "FR"
+    }]
+  }],
+  "compose" : {
+    "include" : [{
+      "concept" : [{
+        "code" : "C80261",
+        "display" : "Monture"
+      }]
+    },
+    {
+      "concept" : [{
+        "code" : "GEN-292",
+        "display" : "Commentaire"
+      },
+      {
+        "code" : "MED-888",
+        "display" : "Intolérance aux verres progressifs"
+      }]
+    },
+    {
+      "concept" : [{
+        "code" : "28792-0",
+        "display" : "Ecart interpupillaire"
+      },
+      {
+        "code" : "64885-7",
+        "display" : "Types de verres"
+      }]
+    }]
+  }
+}

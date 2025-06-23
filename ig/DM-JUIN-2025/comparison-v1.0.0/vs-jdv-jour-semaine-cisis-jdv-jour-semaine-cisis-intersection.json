@@ -1,0 +1,47 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "b74bd7d8-dcb7-4f93-a7ba-b867d22e3b41-2151",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/b74bd7d8-dcb7-4f93-a7ba-b867d22e3b41-2151",
+  "name" : "IntersectionJdvJourSemaineCisisAndJdvJourSemaineCisis",
+  "title" : "Intersection of JDV Jour Semaine CISIS And JDV Jour Semaine CISIS",
+  "status" : "active",
+  "date" : "2025-06-23T15:02:06+00:00",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "FR"
+    }]
+  }],
+  "compose" : {
+    "include" : [{
+      "concept" : [{
+        "code" : "307145004",
+        "display" : "lundi"
+      },
+      {
+        "code" : "307147007",
+        "display" : "mardi"
+      },
+      {
+        "code" : "307148002",
+        "display" : "mercredi"
+      },
+      {
+        "code" : "307149005",
+        "display" : "jeudi"
+      },
+      {
+        "code" : "307150005",
+        "display" : "vendredi"
+      },
+      {
+        "code" : "307151009",
+        "display" : "samedi"
+      },
+      {
+        "code" : "307146003",
+        "display" : "dimanche"
+      }]
+    }]
+  }
+}

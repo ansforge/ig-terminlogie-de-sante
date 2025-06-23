@@ -1,0 +1,31 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "b74bd7d8-dcb7-4f93-a7ba-b867d22e3b41-2828",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/b74bd7d8-dcb7-4f93-a7ba-b867d22e3b41-2828",
+  "name" : "UnionJdvTypeInterventionCisisAndJdvTypeInterventionCisis",
+  "title" : "Union of JDV Type Intervention CISIS And JDV Type Intervention CISIS",
+  "status" : "active",
+  "date" : "2025-06-23T15:02:06+00:00",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "FR"
+    }]
+  }],
+  "compose" : {
+    "include" : [{
+      "concept" : [{
+        "code" : "387713003",
+        "display" : "intervention chirurgicale"
+      },
+      {
+        "code" : "2119009",
+        "display" : "réparation d'un vaisseau sanguin"
+      },
+      {
+        "code" : "1296925008",
+        "display" : "insertion d’endoprothèse"
+      }]
+    }]
+  }
+}

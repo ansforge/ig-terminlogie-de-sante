@@ -1,0 +1,31 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "b74bd7d8-dcb7-4f93-a7ba-b867d22e3b41-2496",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/b74bd7d8-dcb7-4f93-a7ba-b867d22e3b41-2496",
+  "name" : "IntersectionJdvResultatComparaisonCisisAndJdvResultatComparaisonCisis",
+  "title" : "Intersection of JDV Resultat Comparaison CISIS And JDV Resultat Comparaison CISIS",
+  "status" : "active",
+  "date" : "2025-06-23T15:02:06+00:00",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "FR"
+    }]
+  }],
+  "compose" : {
+    "include" : [{
+      "concept" : [{
+        "code" : "GEN-001",
+        "display" : "Apparue"
+      },
+      {
+        "code" : "GEN-002",
+        "display" : "Plus suspecte"
+      },
+      {
+        "code" : "GEN-003",
+        "display" : "Identique ou moins suspecte"
+      }]
+    }]
+  }
+}

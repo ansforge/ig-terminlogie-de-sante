@@ -1,0 +1,31 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "b74bd7d8-dcb7-4f93-a7ba-b867d22e3b41-2481",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/b74bd7d8-dcb7-4f93-a7ba-b867d22e3b41-2481",
+  "name" : "IntersectionJdvRencontreCs8CisisAndJdvRencontreCs8Cisis",
+  "title" : "Intersection of JDV Rencontre Cs8 CISIS And JDV Rencontre Cs8 CISIS",
+  "status" : "active",
+  "date" : "2025-06-23T15:02:06+00:00",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "FR"
+    }]
+  }],
+  "compose" : {
+    "include" : [{
+      "concept" : [{
+        "code" : "ORG-196",
+        "display" : "Lien avec le médecin de PMI après accord des parents"
+      },
+      {
+        "code" : "ORG-194",
+        "display" : "Orientation vers un autre professionnel de santé"
+      },
+      {
+        "code" : "ORG-195",
+        "display" : "Orientation vers une structure pluridisciplinaire (CAMPS centre de référence, réseau…)"
+      }]
+    }]
+  }
+}

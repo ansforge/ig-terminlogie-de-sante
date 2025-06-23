@@ -1,0 +1,47 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "b74bd7d8-dcb7-4f93-a7ba-b867d22e3b41-1982",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/b74bd7d8-dcb7-4f93-a7ba-b867d22e3b41-1982",
+  "name" : "UnionJdvHealthStatusCodeCisisAndJdvHealthStatusCodeCisis",
+  "title" : "Union of JDV Health Status Code CISIS And JDV Health Status Code CISIS",
+  "status" : "active",
+  "date" : "2025-06-23T15:02:06+00:00",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "FR"
+    }]
+  }],
+  "compose" : {
+    "include" : [{
+      "concept" : [{
+        "code" : "102499006",
+        "display" : "en forme"
+      },
+      {
+        "code" : "27624003",
+        "display" : "maladie chronique"
+      },
+      {
+        "code" : "271593001",
+        "display" : "moribond"
+      },
+      {
+        "code" : "161045001",
+        "display" : "incapacité : sévère"
+      },
+      {
+        "code" : "419620001",
+        "display" : "mort"
+      },
+      {
+        "code" : "21134002",
+        "display" : "incapacité"
+      },
+      {
+        "code" : "84387000",
+        "display" : "asymptomatique"
+      }]
+    }]
+  }
+}

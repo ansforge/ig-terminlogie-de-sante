@@ -1,0 +1,31 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "b74bd7d8-dcb7-4f93-a7ba-b867d22e3b41-1857",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/b74bd7d8-dcb7-4f93-a7ba-b867d22e3b41-1857",
+  "name" : "IntersectionJdvDocumentAnnexeFludrCisisAndJdvDocumentAnnexeFludrCisis",
+  "title" : "Intersection of JDV Document Annexe Fludr CISIS And JDV Document Annexe Fludr CISIS",
+  "status" : "active",
+  "date" : "2025-06-23T15:02:06+00:00",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "FR"
+    }]
+  }],
+  "compose" : {
+    "include" : [{
+      "concept" : [{
+        "code" : "GEN-371",
+        "display" : "Ordonnance de sortie"
+      },
+      {
+        "code" : "GEN-372",
+        "display" : "Copie du résumé du passage aux urgences"
+      },
+      {
+        "code" : "GEN-092.08.08",
+        "display" : "Autre document"
+      }]
+    }]
+  }
+}

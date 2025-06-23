@@ -1,0 +1,31 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "b74bd7d8-dcb7-4f93-a7ba-b867d22e3b41-2361",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/b74bd7d8-dcb7-4f93-a7ba-b867d22e3b41-2361",
+  "name" : "IntersectionJdvNihssQuestionsCisisAndJdvNihssQuestionsCisis",
+  "title" : "Intersection of JDV Nihss Questions CISIS And JDV Nihss Questions CISIS",
+  "status" : "active",
+  "date" : "2025-06-23T15:02:06+00:00",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "FR"
+    }]
+  }],
+  "compose" : {
+    "include" : [{
+      "concept" : [{
+        "code" : "LA18440-0",
+        "display" : "Répond aux deux questions correctement."
+      },
+      {
+        "code" : "LA18441-8",
+        "display" : "Ne répond correctement qu’à une seule question."
+      },
+      {
+        "code" : "LA18442-6",
+        "display" : "Ne répond correctement à aucune des deux questions."
+      }]
+    }]
+  }
+}

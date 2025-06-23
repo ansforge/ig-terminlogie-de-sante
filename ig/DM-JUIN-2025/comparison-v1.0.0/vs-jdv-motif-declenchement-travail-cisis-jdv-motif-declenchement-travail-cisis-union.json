@@ -1,0 +1,53 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "b74bd7d8-dcb7-4f93-a7ba-b867d22e3b41-2300",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/b74bd7d8-dcb7-4f93-a7ba-b867d22e3b41-2300",
+  "name" : "UnionJdvMotifDeclenchementTravailCisisAndJdvMotifDeclenchementTravailCisis",
+  "title" : "Union of JDV MotifDeclenchementTravail CISIS And JDV MotifDeclenchementTravail CISIS",
+  "status" : "active",
+  "date" : "2025-06-23T15:02:06+00:00",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "FR"
+    }]
+  }],
+  "compose" : {
+    "include" : [{
+      "concept" : [{
+        "code" : "O48",
+        "display" : "Grossesse prolongée"
+      },
+      {
+        "code" : "O42.9",
+        "display" : "Rupture prématurée des membranes, sans précision"
+      },
+      {
+        "code" : "P95",
+        "display" : "Mort fœtale (de cause non précisée)"
+      },
+      {
+        "code" : "O04",
+        "display" : "Avortement médical"
+      }]
+    },
+    {
+      "concept" : [{
+        "code" : "MED-1283",
+        "display" : "Sans indication médicale"
+      },
+      {
+        "code" : "MED-219",
+        "display" : "Cause Maternelle"
+      },
+      {
+        "code" : "MED-210",
+        "display" : "Cause Fœtale"
+      },
+      {
+        "code" : "GEN-092.01.06",
+        "display" : "Autre motif de déclenchement"
+      }]
+    }]
+  }
+}

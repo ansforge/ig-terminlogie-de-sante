@@ -1,0 +1,43 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "b74bd7d8-dcb7-4f93-a7ba-b867d22e3b41-1229",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/b74bd7d8-dcb7-4f93-a7ba-b867d22e3b41-1229",
+  "name" : "UnionJDV_J223_TypeDivisionTerritoriale_RORAndJDV_J223_TypeDivisionTerritoriale_ROR",
+  "title" : "Union of null And null",
+  "status" : "active",
+  "date" : "2025-06-23T15:02:06+00:00",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "FR"
+    }]
+  }],
+  "compose" : {
+    "include" : [{
+      "concept" : [{
+        "code" : "1",
+        "display" : "Région"
+      },
+      {
+        "code" : "2",
+        "display" : "Département"
+      },
+      {
+        "code" : "3",
+        "display" : "Commune"
+      },
+      {
+        "code" : "4",
+        "display" : "Territoire de Santé"
+      },
+      {
+        "code" : "5",
+        "display" : "Pays"
+      },
+      {
+        "code" : "6",
+        "display" : "Zone de Défense"
+      }]
+    }]
+  }
+}

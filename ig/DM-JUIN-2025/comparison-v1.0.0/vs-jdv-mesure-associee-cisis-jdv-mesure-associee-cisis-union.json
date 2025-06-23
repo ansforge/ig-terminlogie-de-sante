@@ -1,0 +1,41 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "b74bd7d8-dcb7-4f93-a7ba-b867d22e3b41-2204",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/b74bd7d8-dcb7-4f93-a7ba-b867d22e3b41-2204",
+  "name" : "UnionJdvMesureAssocieeCisisAndJdvMesureAssocieeCisis",
+  "title" : "Union of JDV Mesure Associee CISIS And JDV Mesure Associee CISIS",
+  "status" : "active",
+  "date" : "2025-06-23T15:02:06+00:00",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "FR"
+    }]
+  }],
+  "compose" : {
+    "include" : [{
+      "concept" : [{
+        "code" : "ORG-007",
+        "display" : "Prise en charge des conséquences neurocognitives et endocriniennes"
+      },
+      {
+        "code" : "ORG-171",
+        "display" : "Prise en charge des conséquences des tumeurs cérébrales et de leurs traitements"
+      },
+      {
+        "code" : "ORG-001",
+        "display" : "Prise en charge spécifique en oncogériatrie"
+      },
+      {
+        "code" : "GEN-092.04.11",
+        "display" : "Autre mesure"
+      }]
+    },
+    {
+      "concept" : [{
+        "code" : "408969000",
+        "display" : "prise en charge d'une contraception"
+      }]
+    }]
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "b74bd7d8-dcb7-4f93-a7ba-b867d22e3b41-1763",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/b74bd7d8-dcb7-4f93-a7ba-b867d22e3b41-1763",
+  "name" : "UnionJdvCodeProblemeCisisAndJdvCodeProblemeCisis",
+  "title" : "Union of JDV Code Probleme CISIS And JDV Code Probleme CISIS",
+  "status" : "active",
+  "date" : "2025-06-23T15:02:06+00:00",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "FR"
+    }]
+  }],
+  "compose" : {
+    "include" : [{
+      "concept" : [{
+        "code" : "404684003",
+        "display" : "constatation clinique"
+      },
+      {
+        "code" : "55607006",
+        "display" : "problème"
+      },
+      {
+        "code" : "64572001",
+        "display" : "maladie"
+      },
+      {
+        "code" : "418799008",
+        "display" : "symptôme rapporté par le patient ou le répondant"
+      },
+      {
+        "code" : "282291009",
+        "display" : "interprétation diagnostique"
+      }]
+    }]
+  }
+}

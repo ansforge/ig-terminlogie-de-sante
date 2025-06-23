@@ -1,0 +1,31 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "b74bd7d8-dcb7-4f93-a7ba-b867d22e3b41-2703",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/b74bd7d8-dcb7-4f93-a7ba-b867d22e3b41-2703",
+  "name" : "IntersectionJdvTnmPtnmPn1CisisAndJdvTnmPtnmPn1Cisis",
+  "title" : "Intersection of JDV Tnm Ptnm Pn 1 CISIS And JDV Tnm Ptnm Pn 1 CISIS",
+  "status" : "active",
+  "date" : "2025-06-23T15:02:06+00:00",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "FR"
+    }]
+  }],
+  "compose" : {
+    "include" : [{
+      "concept" : [{
+        "code" : "MED-795",
+        "display" : "Ganglions  lymphatiques régionaux non évaluables"
+      },
+      {
+        "code" : "MED-796",
+        "display" : "Pas de métastase ganglionnaire lymphatique régionale"
+      },
+      {
+        "code" : "MED-809",
+        "display" : "Métastase(s) dans les ganglions lymphatiques régionaux"
+      }]
+    }]
+  }
+}

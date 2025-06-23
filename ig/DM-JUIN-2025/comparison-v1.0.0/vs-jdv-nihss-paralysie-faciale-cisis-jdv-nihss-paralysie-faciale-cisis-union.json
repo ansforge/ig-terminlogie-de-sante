@@ -1,0 +1,35 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "b74bd7d8-dcb7-4f93-a7ba-b867d22e3b41-2357",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/b74bd7d8-dcb7-4f93-a7ba-b867d22e3b41-2357",
+  "name" : "UnionJdvnihss_paralysie_facialeCisisAndJdvnihss_paralysie_facialeCisis",
+  "title" : "Union of JDV nihss-paralysie-faciale CISIS And JDV nihss-paralysie-faciale CISIS",
+  "status" : "active",
+  "date" : "2025-06-23T15:02:06+00:00",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "FR"
+    }]
+  }],
+  "compose" : {
+    "include" : [{
+      "concept" : [{
+        "code" : "LA18452-5",
+        "display" : "Mobilité normale, symétrique."
+      },
+      {
+        "code" : "LA18453-3",
+        "display" : "Paralysie mineure (effacement du sillon nasogénien, asymétrie du sourire)."
+      },
+      {
+        "code" : "LA18454-1",
+        "display" : "Paralysie partielle (paralysie de la partie inférieure de la face, totale ou subtotale)."
+      },
+      {
+        "code" : "LA18455-8",
+        "display" : "Paralysie complète (facial supérieur et inférieur)."
+      }]
+    }]
+  }
+}

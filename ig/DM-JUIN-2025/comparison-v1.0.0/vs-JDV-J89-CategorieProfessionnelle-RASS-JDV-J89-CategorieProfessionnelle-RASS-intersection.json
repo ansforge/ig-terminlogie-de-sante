@@ -1,0 +1,35 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "b74bd7d8-dcb7-4f93-a7ba-b867d22e3b41-1563",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/b74bd7d8-dcb7-4f93-a7ba-b867d22e3b41-1563",
+  "name" : "IntersectionJDV_J89_CategorieProfessionnelle_RASSAndJDV_J89_CategorieProfessionnelle_RASS",
+  "title" : "Intersection of null And null",
+  "status" : "active",
+  "date" : "2025-06-23T15:02:06+00:00",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "FR"
+    }]
+  }],
+  "compose" : {
+    "include" : [{
+      "concept" : [{
+        "code" : "C",
+        "display" : "Civil"
+      },
+      {
+        "code" : "E",
+        "display" : "Etudiant"
+      },
+      {
+        "code" : "F",
+        "display" : "Fonctionnaire d'Etat ou de collectivité locale"
+      },
+      {
+        "code" : "M",
+        "display" : "Agent public"
+      }]
+    }]
+  }
+}
