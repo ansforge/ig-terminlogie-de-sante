@@ -8,5 +8,5 @@ Alias: $TRE_R356_ProfessionRessource = https://mos.esante.gouv.fr/NOS/TRE_R356-P
 Alias: $TRE_G15_ProfessionSante = https://mos.esante.gouv.fr/NOS/TRE_G15-ProfessionSante/FHIR/TRE-G15-ProfessionSante
 Alias: $TRE_R94_ProfessionSocial = https://mos.esante.gouv.fr/NOS/TRE_R94-ProfessionSocial/FHIR/TRE-R94-ProfessionSocial
 Alias: $TRE_R85_RolePriseCharge = https://mos.esante.gouv.fr/NOS/TRE_R85-RolePriseCharge/FHIR/TRE-R85-RolePriseCharge
-Alias: $TRE_R96-AutreFonctionSanitaire = https://mos.esante.gouv.fr/NOS/TRE_R96-AutreFonctionSanitaire/FHIR/TRE-R96-AutreFonctionSanitaire
+Alias: $TRE_R96_AutreFonctionSanitaire = https://mos.esante.gouv.fr/NOS/TRE_R96-AutreFonctionSanitaire/FHIR/TRE-R96-AutreFonctionSanitaire
 Alias: $TRE_R95_UsagerTitre = https://mos.esante.gouv.fr/NOS/TRE_R95-UsagerTitre/FHIR/TRE-R95-UsagerTitre
