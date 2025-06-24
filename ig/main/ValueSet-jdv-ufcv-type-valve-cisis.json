@@ -2,14 +2,14 @@
   "resourceType" : "ValueSet",
   "id" : "jdv-ufcv-type-valve-cisis",
   "meta" : {
-    "versionId" : "2",
-    "lastUpdated" : "2025-06-12T11:04:56.223+00:00",
+    "versionId" : "3",
+    "lastUpdated" : "2025-06-23T12:47:15.059+00:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset"]
   },
   "language" : "fr-FR",
   "text" : {
     "status" : "generated",
-    "div" : "<div xml:lang=\"fr-FR\" xmlns=\"http://www.w3.org/1999/xhtml\" lang=\"fr-FR\"><p class=\"res-header-id\"><b>Narratif généré : EnsembleValeurs jdv-ufcv-type-valve-cisis</b></p><a name=\"jdv-ufcv-type-valve-cisis\"> </a><a name=\"hcjdv-ufcv-type-valve-cisis\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">version: 2; Dernière mise à jour : 2025-06-12 11:04:56+0000; Langue : fr-FR</p><p style=\"margin-bottom: 0px\">Profil: <a href=\"http://hl7.org/fhir/R4/shareablevalueset.html\">Shareable ValueSet</a></p></div><ul><li>Include les codes sont définis dans <a href=\"CodeSystem-terminologie-emdn.html\"><code>https://smt.esante.gouv.fr/terminologie-emdn</code></a><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td>P070302</td><td>VALVES CARDIAQUES MÉCANIQUES</td></tr><tr><td>P070301</td><td>VALVES CARDIAQUES BIOLOGIQUES</td></tr><tr><td>P0703020302</td><td>VALVES MITRALES MÉCANIQUES, À DOUBLE AILETTE</td></tr><tr><td>P070301010204</td><td>VALVES TRICUSPIDES BIOLOGIQUES CHIRURGICALES MONTÉES SUR ARMATURE - VALVE D'ORIGINE NON ANIMALE</td></tr></table></li></ul></div>"
+    "div" : "<div xml:lang=\"fr-FR\" xmlns=\"http://www.w3.org/1999/xhtml\" lang=\"fr-FR\"><p class=\"res-header-id\"><b>Narratif généré : EnsembleValeurs jdv-ufcv-type-valve-cisis</b></p><a name=\"jdv-ufcv-type-valve-cisis\"> </a><a name=\"hcjdv-ufcv-type-valve-cisis\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">version: 3; Dernière mise à jour : 2025-06-23 12:47:15+0000; Langue : fr-FR</p><p style=\"margin-bottom: 0px\">Profil: <a href=\"http://hl7.org/fhir/R4/shareablevalueset.html\">Shareable ValueSet</a></p></div><ul><li>Include les codes sont définis dans <a href=\"CodeSystem-terminologie-emdn.html\"><code>https://smt.esante.gouv.fr/terminologie-emdn</code></a><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td>P070302</td><td>VALVES CARDIAQUES MÉCANIQUES</td></tr><tr><td>P070301</td><td>VALVES CARDIAQUES BIOLOGIQUES</td></tr><tr><td>P0703020302</td><td>VALVES MITRALES MÉCANIQUES, À DOUBLE AILETTE</td></tr><tr><td>P070301010204</td><td>VALVES TRICUSPIDES BIOLOGIQUES CHIRURGICALES MONTÉES SUR ARMATURE - VALVE D'ORIGINE NON ANIMALE</td></tr></table></li></ul></div>"
   },
   "extension" : [{
     "url" : "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod",
@@ -22,12 +22,12 @@
     "system" : "urn:ietf:rfc:3986",
     "value" : "urn:oid:1.2.250.1.213.1.1.4.2.9"
   }],
-  "version" : "20250611134354",
+  "version" : "20250616134740",
   "name" : "JdvUfcvTypetValveCisis",
   "title" : "JDV UFCV Type Valve CISIS",
   "status" : "active",
   "experimental" : false,
-  "date" : "2025-06-11T13:43:54+01:00",
+  "date" : "2025-06-16T13:47:40+01:00",
   "publisher" : "Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "description" : "JDV UFCV Type Valve CISIS",
   "jurisdiction" : [{

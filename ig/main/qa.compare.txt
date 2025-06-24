@@ -1,7 +1,7 @@
 Terminologies : Validation Results
 =========================================
 
-err = 866, warn = 10432, info = 1013
+err = 898, warn = 10432, info = 1028
 $--
 Generated $--. FHIR version $-- for ans.fr.terminologies#$-- (canonical = https://interop.esante.gouv.fr/terminologies)
  Build Errors : 401 / 16 / 0
@@ -342,6 +342,7 @@ Generated $--. FHIR version $-- for ans.fr.terminologies#$-- (canonical = https:
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JdvActiviteCisis_jdv-activite-cisis : 0 / 0 / 1
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JdvAddictionCisis_jdv-addiction-cisis : 0 / 0 / 1
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JdvAdditionGrandeurCisis_jdv-addition-grandeur-cisis : 0 / 0 / 1
+ /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JdvAgeCisis_jdv-age-cisis : 2 / 0 / 2
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JdvAgeDeSurvenueCisis_jdv-age-de-survenue-cisis : 0 / 0 / 1
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JdvAideAuDeplacementCisis_jdv-aide-au-deplacement-cisis : 0 / 0 / 1
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JdvAllergieVaccinCisis_jdv-allergie-vaccin-cisis : 0 / 0 / 1
@@ -360,7 +361,7 @@ Generated $--. FHIR version $-- for ans.fr.terminologies#$-- (canonical = https:
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JdvAspectLiquideAmniotiqueCisis_jdv-aspect-liquide-amniotique-cisis : 0 / 0 / 1
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JdvAutreRisqueCisis_jdv-autre-risque-cisis : 0 / 0 / 1
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JdvAutreSymptomeAvcCisis_jdv-autre-symptome-avc-cisis : 0 / 0 / 1
- /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JdvAutreSymptomeExNeuroCisis_jdv-autre-symptome-ex-neuro-cisis : 2 / 0 / 1
+ /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JdvAutreSymptomeExNeuroCisis_jdv-autre-symptome-ex-neuro-cisis : 0 / 0 / 1
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JdvAvisMedicalComplementaireCisis_jdv-avis-medical-complementaire-cisis : 0 / 0 / 1
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JdvAxamenComplementaireCisis_jdv-examen-complementaire-cisis : 0 / 1 / 1
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JdvBatterieExamenCisis_jdv-batterie-examen-cisis : 0 / 0 / 1
@@ -406,6 +407,7 @@ Generated $--. FHIR version $-- for ans.fr.terminologies#$-- (canonical = https:
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JdvDeficiencePhysiqueCisis_jdv-deficience-physique-cisis : 0 / 0 / 1
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JdvDelimitationActiviteCisis_jdv-delimitation-activite-cisis : 0 / 0 / 1
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JdvDensiteMammaireCisis_jdv-densite-mammaire-cisis : 0 / 0 / 1
+ /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JdvDepistageNeonatalCisis_jdv-depistage-neonatal-cisis : 2 / 0 / 2
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JdvDeplacementCisis_jdv-deplacement-cisis : 0 / 0 / 1
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JdvDestinationObpSneCisis_jdv-destination-obp-sne-cisis : 0 / 0 / 1
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JdvDestinationTransfertCisis_jdv-destination-transfert-cisis : 2 / 0 / 1
@@ -420,6 +422,7 @@ Generated $--. FHIR version $-- for ans.fr.terminologies#$-- (canonical = https:
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JdvEnfantExposeAuxEcransCs24Cisis_jdv-enfant-expose-aux-ecrans-cs24-cisis : 0 / 0 / 1
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JdvEtatNaissanceCisis_jdv-etat-naissance-cisis : 0 / 0 / 1
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JdvEtatPerineeCisis_jdv-etat-perinee-cisis : 0 / 0 / 1
+ /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JdvEtatPsychiqueCisis_jdv-etat-psychique-cisis : 2 / 0 / 2
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JdvEtiologieAvcCisis_jdv-etiologie-avc-cisis : 0 / 0 / 1
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JdvEtiologieHemorragieCisis_jdv-etiologie-hemorragie-cisis : 0 / 0 / 1
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JdvEtiologieInfarctusCisis_jdv-etiologie-infarctus-cisis : 0 / 0 / 1
@@ -431,6 +434,7 @@ Generated $--. FHIR version $-- for ans.fr.terminologies#$-- (canonical = https:
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JdvEvaluationNeurocognitiveCisis_jdv-evaluation-neurocognitive-cisis : 0 / 0 / 1
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JdvEvaluationSsiadCisis_jdv-evaluation-ssiad-cisis : 0 / 0 / 1
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JdvEvenementAccouchementCisis_jdv-evenement-accouchement-cisis : 0 / 0 / 1
+ /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JdvEvolutionCisis_jdv-evolution-cisis : 6 / 0 / 3
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JdvExamenBiochimieAunvCisis_jdv-examen-biochimie-aunv-cisis : 0 / 0 / 1
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JdvExamenBiochimieEunvCisis_jdv-examen-biochimie-eunv-cisis : 0 / 0 / 1
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JdvExamenCliniqueCisis_jdv-examen-clinique-cisis : 0 / 0 / 1
@@ -452,6 +456,7 @@ Generated $--. FHIR version $-- for ans.fr.terminologies#$-- (canonical = https:
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JdvGesteReanimationNouveauNeCisis_jdv-geste-reanimation-nouveau-ne-cisis : 0 / 0 / 1
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JdvGestionEffetSecondaireCisis_jdv-gestion-effet-secondaire-cisis : 1 / 1 / 2
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JdvGirCisis_jdv-gir-cisis : 0 / 0 / 1
+ /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JdvGraviteCisis_jdv-gravite-cisis : 2 / 0 / 2
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JdvGroupeRhesusCisis_jdv-groupe-rhesus-cisis : 0 / 0 / 1
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JdvHandicapDeficitDluDomCisis_jdv-handicap-deficit-dlu-dom-cisis : 0 / 0 / 1
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JdvHandicapDeficitDluEhpadCisis_jdv-handicap-deficit-dlu-ehpad-cisis : 0 / 0 / 1
@@ -464,6 +469,7 @@ Generated $--. FHIR version $-- for ans.fr.terminologies#$-- (canonical = https:
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JdvImmunizationRouteCodeCisis_jdv-immunization-route-code-cisis : 0 / 0 / 1
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JdvImpactMutationCisis_jdv-impact-mutation-cisis : 0 / 0 / 1
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JdvImportancCliniqueCisis_jdv-importance-clinique-cisis : 0 / 0 / 1
+ /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JdvImputabiliteCisis_jdv-imputabilite-cisis : 2 / 0 / 2
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JdvIndicateurAnormaliteCisis_jdv-indicateur-anormalite-cisis : 0 / 1 / 1
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JdvInfoDecesCs8Cisis_jdv-info-deces-cs8-cisis : 0 / 0 / 1
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JdvInfoPriseEnChargeCisis_jdv-info-prise-en-charge-cisis : 0 / 0 / 1
@@ -521,6 +527,7 @@ Generated $--. FHIR version $-- for ans.fr.terminologies#$-- (canonical = https:
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JdvModeSortieObpSnmCisis_jdv-mode-sortie-obp-snm-cisis : 0 / 0 / 1
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JdvModeleDocumentCdaCisis_jdv-modele-document-cda-cisis : 0 / 0 / 1
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JdvModeleDocumentCdaNonStructureCisis_jdv-modele-document-cda-non-structure-cisis : 0 / 0 / 1
+ /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JdvModificateurTopographiqueCisis_jdv-modificateur-topographique-cisis : 2 / 0 / 2
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JdvMorphologieCisis_jdv-morphologie-cisis : 0 / 0 / 2
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JdvMotifConsultationOphtalmologiqueCisis_jdv-motif-consultation-ophtalmologique-cisis : 0 / 0 / 1
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JdvMotifDeclenchementTravailCisis_jdv-motif-declenchement-travail-cisis : 0 / 0 / 1
@@ -534,6 +541,7 @@ Generated $--. FHIR version $-- for ans.fr.terminologies#$-- (canonical = https:
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JdvNatureMaterielEtudieCisis_jdv-nature-materiel-etudie-cisis : 0 / 0 / 1
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JdvNihssAtaxieCisis_jdv-nihss-ataxie-cisis : 0 / 0 / 1
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JdvNihssChampVisuelCisis_jdv-nihss-champ-visuel-cisis : 0 / 0 / 1
+ /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JdvNihssCommandesCisis_jdv-nihss-commandes-cisis : 2 / 0 / 1
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JdvNihssConscienceCisis_jdv-nihss-conscience-cisis : 0 / 0 / 1
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JdvNihssDysarthrieCisis_jdv-nihss-dysarthrie-cisis : 0 / 0 / 1
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JdvNihssFonctionCisis_jdv-nihss-fonction-cisis : 0 / 0 / 1
@@ -550,6 +558,7 @@ Generated $--. FHIR version $-- for ans.fr.terminologies#$-- (canonical = https:
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JdvObpResultatEvenementCisis_jdv-obp-resultat-evenement-cisis : 0 / 0 / 1
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JdvObpTestAuditionCisis_jdv-obp-test-audition-cisis : 0 / 0 / 1
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JdvObservationEnfantCisis_jdv-observation-enfant-cisis : 0 / 0 / 1
+ /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JdvObservationEtatPatientCisis_jdv-observation-etat-patient-cisis : 2 / 0 / 2
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JdvObservationGrossesseCisis_jdv-observation-grossesse-cisis : 0 / 0 / 1
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JdvOeilExamineCisis_jdv-oeil-examine-cisis : 0 / 0 / 1
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JdvOrganeCisis_jdv-organe-cisis : 155 / 2 / 2
@@ -577,6 +586,7 @@ Generated $--. FHIR version $-- for ans.fr.terminologies#$-- (canonical = https:
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JdvRcpAppareilCisis_jdv-rcp-appareil-cisis : 0 / 0 / 1
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JdvRcpOrganeCisis_jdv-rcp-organe-cisis : 13 / 2 / 2
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JdvReadaptationCisis_jdv-readaptation-cisis : 0 / 0 / 1
+ /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JdvRealisationActiviteCisis_jdv-realisation-activite-cisis : 2 / 0 / 2
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JdvRechercheAghbsCisis_jdv-recherche-aghbs-cisis : 0 / 0 / 1
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JdvReferenceRangeAppliesToCisis_jdv-reference-range-applies-to-cisis : 0 / 1 / 1
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JdvRegionAnatomiqueCisis_jdv-region-anatomique-cisis : 0 / 0 / 1
@@ -592,13 +602,16 @@ Generated $--. FHIR version $-- for ans.fr.terminologies#$-- (canonical = https:
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JdvResultatDepistageBilirubinurieCisis_jdv-resultat-depistage-bilirubinurie-cisis : 0 / 0 / 1
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JdvResultatDepistageCetonemieCisis_jdv-resultat-depistage-cetonemie-cisis : 0 / 0 / 1
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JdvResultatDepistageCholesterolCisis_jdv-resultat-depistage-cholesterol-cisis : 0 / 0 / 1
+ /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JdvResultatDepistageCisis_jdv-resultat-depistage-cisis : 2 / 0 / 2
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JdvResultatDepistageCorpsCetoniquesCisis_jdv-resultat-depistage-corps-cetoniques-cisis : 0 / 0 / 1
+ /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JdvResultatDepistageCrpCisis_jdv-resultat-depistage-crp-cisis : 2 / 0 / 2
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JdvResultatDepistageGlucoseCisis_jdv-resultat-depistage-glucose-cisis : 0 / 0 / 1
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JdvResultatDepistageGlycemieCisis_jdv-resultat-depistage-glycemie-cisis : 0 / 0 / 1
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JdvResultatDepistageHematurieCisis_jdv-resultat-depistage-hematurie-cisis : 4 / 0 / 1
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JdvResultatDepistageLeucocyturieCisis_jdv-resultat-depistage-leucocyturie-cisis : 0 / 0 / 1
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JdvResultatDepistageNitriturieCisis_jdv-resultat-depistage-nitriturie-cisis : 0 / 0 / 1
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JdvResultatDepistageProteinurieCisis_jdv-resultat-depistage-proteinurie-cisis : 0 / 0 / 1
+ /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JdvResultatDepistageRuptureMembranePhCisis_jdv-resultat-depistage-rupture-membrane-ph-cisis : 2 / 0 / 2
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JdvResultatDepistageSurditeCisis_jdv-resultat-depistage-surdite-cisis : 0 / 0 / 1
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JdvResultatDepistageUrobilinogenurieCisis_jdv-resultat-depistage-urobilinogenurie-cisis : 0 / 0 / 1
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JdvResultatEvaluationCisis_jdv-resultat-evaluation-cisis : 2 / 1 / 2
@@ -626,6 +639,7 @@ Generated $--. FHIR version $-- for ans.fr.terminologies#$-- (canonical = https:
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JdvScorePerformanceEcogCisis_jdv-score-performance-ecog-cisis : 0 / 0 / 1
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JdvScoreRankinCisis_jdv-score-rankin-cisis : 0 / 0 / 1
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JdvSecteurActiviteEmployeurCisis_jdv-secteur-activite-employeur-cisis : 2 / 2 / 2
+ /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JdvSedentariteCisis_jdv-sedentarite-cisis : 2 / 0 / 2
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JdvSeveriteObservationCisis_jdv-severite-observation-cisis : 0 / 0 / 1
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JdvSigneVitalCisis_jdv-signe-vital-cisis : 0 / 0 / 1
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JdvSigneVitalCs24Cisis_jdv-signe-vital-cs24-cisis : 0 / 0 / 1
@@ -645,6 +659,7 @@ Generated $--. FHIR version $-- for ans.fr.terminologies#$-- (canonical = https:
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JdvStatutGrossesseCisis_jdv-statut-grossesse-cisis : 0 / 0 / 1
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JdvStatutQuorumCisis_jdv-statut-quorum-cisis : 0 / 0 / 1
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JdvStatutResultatCisis_jdv-statut-resultat-cisis : 0 / 0 / 1
+ /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JdvStatutTabagiqueCisis_jdv-statut-tabagique-cisis : 2 / 0 / 2
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JdvStructureDeSoinsCisis_jdv-structure-de-soins-cisis : 0 / 0 / 1
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JdvSupportNutritionnelCisis_jdv-support-nutritionnel-cisis : 0 / 0 / 1
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JdvSymptomeAvcCisis_jdv-symptome-avc-cisis : 0 / 0 / 1
@@ -1451,7 +1466,7 @@ ERROR: ValueSet-jdv-modele-document-cda.html#/html/body/div/div/div/div/div/div/
 ERROR: ValueSet-jdv-modele-document-cda.html#/html/body/div/div/div/div/div/div/div/input/div/div/table/tr/td/a at Line 369, column 63839: The link 'CodeSystem-TRE-A11-IheFormatCode.html#TRE-A11-IheFormatCode-ConceptMap-ASS-A11-CorresModeleCDA-XdsFormatCode-CISIS.46html' for "ConceptMap-ASS-A11-CorresModeleCDA-XdsFormatCode-CISIS.html" cannot be resolved (valid targets: 59 targets)
 ERROR: ValueSet-jdv-modele-document-cda.html#/html/body/div/div/div/div/div/div/div/input/div/div/table/tr/td/a at Line 369, column 64136: The link 'CodeSystem-TRE-A11-IheFormatCode.html#TRE-A11-IheFormatCode-ConceptMap-ASS-A11-CorresModeleCDA-XdsFormatCode-CISIS.46html' for "ConceptMap-ASS-A11-CorresModeleCDA-XdsFormatCode-CISIS.html" cannot be resolved (valid targets: 59 targets)
 ERROR: ValueSet-jdv-modele-document-cda.html#/html/body/div/div/div/div/div/div/div/input/div/div/table/tr/td/a at Line 369, column 64432: The link 'CodeSystem-TRE-A11-IheFormatCode.html#TRE-A11-IheFormatCode-ConceptMap-ASS-A11-CorresModeleCDA-XdsFormatCode-CISIS.46html' for "ConceptMap-ASS-A11-CorresModeleCDA-XdsFormatCode-CISIS.html" cannot be resolved (valid targets: 59 targets)
-ERROR: ValueSet-jdv-route-of-administration-cisis.html#/html/body/div/div/div/div/div/div/div/input/div/div/div/ul/li/table/tr/td/a at Line 374, column 20915: The link 'CodeSystem-terminologie-standardterms.html#terminologie-standardterms-420287000' for "420287000" cannot be resolved (valid targets: 1308 targets)
+ERROR: ValueSet-jdv-route-of-administration-cisis.html#/html/body/div/div/div/div/div/div/div/input/div/div/div/ul/li/table/tr/td/a at Line 374, column 21330: The link 'CodeSystem-terminologie-standardterms.html#terminologie-standardterms-20090000' for "20090000" cannot be resolved (valid targets: 1308 targets)
 ERROR: downloads.html#/html/body/div/div/div/div/div/ul/li/a at Line 206, column 8: The link 'definitions.json.zip' for "JSON Définitions (zip)" cannot be resolved
 ERROR: downloads.html#/html/body/div/div/div/div/div/ul/li/a at Line 207, column 8: The link 'examples.json.zip' for "JSON Exemples (zip)" cannot be resolved
 ERROR: downloads.html#/html/body/div/div/div/div/div/ul/li/a at Line 208, column 8: The link 'definitions.xml.zip' for "XML Definitions (zip)" cannot be resolved
@@ -1977,8 +1992,8 @@ WARNING: ValueSet/JDV-J145-MethodBodyWeight-ENS: ValueSet: Published value sets 
 WARNING: ValueSet/JDV-J146-MethodBodyHeight-ENS: ValueSet.compose.include[0].system: No definition could be found for URL value 'https://smt.esante.gouv.fr/terminologie-ncit'
 INFORMATION: ValueSet/JDV-J146-MethodBodyHeight-ENS: ValueSet.compose.include[0].concept[0]: A definition for CodeSystem 'https://smt.esante.gouv.fr/terminologie-ncit' could not be found, so the code cannot be validated
 WARNING: ValueSet/JDV-J146-MethodBodyHeight-ENS: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.title is mandatory, but it is not present
-ERROR: ValueSet.where(id = 'JDV-J146-MethodBodyHeight-ENS'): Error from https://smt.esante.gouv.fr/fhir: Error: [e5d37c92-6971-4605-8291-c433b2b373b9]: A usable code system with URL https://smt.esante.gouv.fr/terminologie-ncit could not be resolved.
-Information: X-Request-Id: a299b076-7ffe-424f-92bd-fa3fc21d2d4c
+ERROR: ValueSet.where(id = 'JDV-J146-MethodBodyHeight-ENS'): Error from https://smt.esante.gouv.fr/fhir: Error: [710ec2d8-247a-400d-a608-90b0c74a6f60]: A usable code system with URL https://smt.esante.gouv.fr/terminologie-ncit could not be resolved.
+Information: X-Request-Id: 9896338b-6040-4ea6-a916-e5961166b310
 == input/ontoserver/JDV/JDV_J147_MethodHeartrate_ENS_JDV-J147-MethodHeartrate-ENS.json ==
 WARNING: ValueSet/JDV-J147-MethodHeartrate-ENS: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.title is mandatory, but it is not present
 == input/ontoserver/JDV/JDV_J148_ReferenceRangeAppliesTo_CISIS_JDV-J148-ReferenceRangeAppliesTo-CISIS.json ==
@@ -2368,8 +2383,8 @@ ERROR: ValueSet/JDV-J51-FamilleActiviteOperationnelle-ROR: ValueSet.compose.incl
 ERROR: ValueSet/JDV-J51-FamilleActiviteOperationnelle-ROR: ValueSet.compose.include[1].concept[23]: The code '065' is not valid in the system https://mos.esante.gouv.fr/NOS/TRE_R265-PrestationPilotageSerafin/FHIR/TRE-R265-PrestationPilotageSerafin (A definition for CodeSystem 'https://mos.esante.gouv.fr/NOS/TRE_R265-PrestationPilotageSerafin/FHIR/TRE-R265-PrestationPilotageSerafin' could not be found, so the code cannot be validated)
 ERROR: ValueSet/JDV-J51-FamilleActiviteOperationnelle-ROR: ValueSet.compose.include[1].concept[24]: The code '067' is not valid in the system https://mos.esante.gouv.fr/NOS/TRE_R265-PrestationPilotageSerafin/FHIR/TRE-R265-PrestationPilotageSerafin (A definition for CodeSystem 'https://mos.esante.gouv.fr/NOS/TRE_R265-PrestationPilotageSerafin/FHIR/TRE-R265-PrestationPilotageSerafin' could not be found, so the code cannot be validated)
 WARNING: ValueSet/JDV-J51-FamilleActiviteOperationnelle-ROR: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.title is mandatory, but it is not present
-ERROR: ValueSet.where(id = 'JDV-J51-FamilleActiviteOperationnelle-ROR'): Error from https://smt.esante.gouv.fr/fhir: Error: [2e8ed7ca-adf7-4310-9f10-26bdfe88c990]: A usable code system with URL https://mos.esante.gouv.fr/NOS/TRE_R265-PrestationPilotageSerafin/FHIR/TRE-R265-PrestationPilotageSerafin could not be resolved.
-Information: X-Request-Id: f1c8fa13-03ce-4d48-a19d-fa90647d7ada
+ERROR: ValueSet.where(id = 'JDV-J51-FamilleActiviteOperationnelle-ROR'): Error from https://smt.esante.gouv.fr/fhir: Error: [33a8442d-40c0-44db-915c-7534f473ec93]: A usable code system with URL https://mos.esante.gouv.fr/NOS/TRE_R265-PrestationPilotageSerafin/FHIR/TRE-R265-PrestationPilotageSerafin could not be resolved.
+Information: X-Request-Id: 579c4438-10a9-4f2b-99c2-eaa99d9f8946
 == input/ontoserver/JDV/JDV_J52_AvailabilityStatus_CISIS_JDV-J52-AvailabilityStatus-CISIS.json ==
 WARNING: ValueSet/JDV-J52-AvailabilityStatus-CISIS: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.title is mandatory, but it is not present
 == input/ontoserver/JDV/JDV_J53_TypeRequeteGestionDossier_CISIS_JDV-J53-TypeRequeteGestionDossier-CISIS.json ==
@@ -2479,6 +2494,10 @@ WARNING: ValueSet/JDV-J99-InseeNAFrav2Niveau5-RASS: ValueSet: Published value se
 == input/ontoserver/JDV/JdvActiviteCisis_jdv-activite-cisis.json ==
 == input/ontoserver/JDV/JdvAddictionCisis_jdv-addiction-cisis.json ==
 == input/ontoserver/JDV/JdvAdditionGrandeurCisis_jdv-addition-grandeur-cisis.json ==
+== input/ontoserver/JDV/JdvAgeCisis_jdv-age-cisis.json ==
+ERROR: ValueSet.where(url = 'https://smt.esante.gouv.fr/fhir/ValueSet/jdv-age-cisis'): Conformance resource /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JdvAgeCisis_jdv-age-cisis.json - the canonical URL (https://interop.esante.gouv.fr/terminologies/ValueSet/jdv-age-cisis) does not match the URL (https://smt.esante.gouv.fr/fhir/ValueSet/jdv-age-cisis)
+INFORMATION: ValueSet/jdv-age-cisis: ValueSet.compose.include[1]: This SNOMED-CT based include has some concepts with semantic tags (FSN terms) and some without (preferred terms) - check that this is what is intended (examples for FSN: [indéterminé(e)] and examples for no FSN: [néonatal, période de la vie entre la naissance et la mort, période fœtale, période postmortem])
+ERROR: /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JdvAgeCisis_jdv-age-cisis: URL Mismatch https://interop.esante.gouv.fr/terminologies/ValueSet/jdv-age-cisis vs https://smt.esante.gouv.fr/fhir/ValueSet/jdv-age-cisis
 == input/ontoserver/JDV/JdvAgeDeSurvenueCisis_jdv-age-de-survenue-cisis.json ==
 == input/ontoserver/JDV/JdvAideAuDeplacementCisis_jdv-aide-au-deplacement-cisis.json ==
 == input/ontoserver/JDV/JdvAllergieVaccinCisis_jdv-allergie-vaccin-cisis.json ==
@@ -2498,8 +2517,6 @@ WARNING: ValueSet/JDV-J99-InseeNAFrav2Niveau5-RASS: ValueSet: Published value se
 == input/ontoserver/JDV/JdvAutreRisqueCisis_jdv-autre-risque-cisis.json ==
 == input/ontoserver/JDV/JdvAutreSymptomeAvcCisis_jdv-autre-symptome-avc-cisis.json ==
 == input/ontoserver/JDV/JdvAutreSymptomeExNeuroCisis_jdv-autre-symptome-ex-neuro-cisis.json ==
-ERROR: ValueSet/jdv-autre-symptome-ex-neuro-cisis: ValueSet.compose.include[0].concept[11]: The code 'H57.04' is not valid in the system https://smt.esante.gouv.fr/terminologie-cim-10 (Unknown code 'H57.04' in the CodeSystem 'https://smt.esante.gouv.fr/terminologie-cim-10' version '2025-01-01')
-ERROR: ValueSet/jdv-autre-symptome-ex-neuro-cisis: ValueSet.compose.include[0].concept[12]: The code 'H57.03' is not valid in the system https://smt.esante.gouv.fr/terminologie-cim-10 (Unknown code 'H57.03' in the CodeSystem 'https://smt.esante.gouv.fr/terminologie-cim-10' version '2025-01-01')
 == input/ontoserver/JDV/JdvAvisMedicalComplementaireCisis_jdv-avis-medical-complementaire-cisis.json ==
 == input/ontoserver/JDV/JdvAxamenComplementaireCisis_jdv-examen-complementaire-cisis.json ==
 WARNING: ValueSet/jdv-examen-complementaire-cisis: ValueSet.compose.include[1]: There are multiple different potential matches for the url 'http://dicom.nema.org/resources/ontology/DCM'. It might be a good idea to fix to the correct version to reduce the likelihood of a wrong version being selected by an implementation/implementer, or use the [IG Parameter `pin-canonicals`](https://hl7.org/fhir/tools/CodeSystem-ig-parameters.html). Using version '2022.4.20221006', found versions: 01, 2022.4.20221006. Suggested fix: change the canonical reference from 'http://dicom.nema.org/resources/ontology/DCM' to 'http://dicom.nema.org/resources/ontology/DCM|2022.4.20221006'
@@ -2565,11 +2582,15 @@ ERROR: ValueSet/jdv-defaillance-materielle-cisis: ValueSet.compose.include[0].co
 ERROR: ValueSet/jdv-defaillance-materielle-cisis: ValueSet.compose.include[0].concept[6]: The code 'A191002' is not valid in the system https://www.imdrf.org (A definition for CodeSystem 'https://www.imdrf.org' could not be found, so the code cannot be validated)
 ERROR: ValueSet/jdv-defaillance-materielle-cisis: ValueSet.compose.include[0].concept[7]: The code 'A20' is not valid in the system https://www.imdrf.org (A definition for CodeSystem 'https://www.imdrf.org' could not be found, so the code cannot be validated)
 ERROR: ValueSet/jdv-defaillance-materielle-cisis: ValueSet.compose.include[0].concept[8]: The code 'A22' is not valid in the system https://www.imdrf.org (A definition for CodeSystem 'https://www.imdrf.org' could not be found, so the code cannot be validated)
-ERROR: ValueSet.where(id = 'jdv-defaillance-materielle-cisis'): Error from https://smt.esante.gouv.fr/fhir: Error: [e40b3e87-e4c9-41db-b638-2a1012fc1908]: A usable code system with URL https://www.imdrf.org could not be resolved.
-Information: X-Request-Id: 2376066e-4cc2-4ec1-af07-f13fc55ed4d4
+ERROR: ValueSet.where(id = 'jdv-defaillance-materielle-cisis'): Error from https://smt.esante.gouv.fr/fhir: Error: [a51fcba6-0b43-4202-84cb-6ff887b4528f]: A usable code system with URL https://www.imdrf.org could not be resolved.
+Information: X-Request-Id: 2302130b-394d-4b55-b8d1-a90a42e80769
 == input/ontoserver/JDV/JdvDeficiencePhysiqueCisis_jdv-deficience-physique-cisis.json ==
 == input/ontoserver/JDV/JdvDelimitationActiviteCisis_jdv-delimitation-activite-cisis.json ==
 == input/ontoserver/JDV/JdvDensiteMammaireCisis_jdv-densite-mammaire-cisis.json ==
+== input/ontoserver/JDV/JdvDepistageNeonatalCisis_jdv-depistage-neonatal-cisis.json ==
+ERROR: ValueSet.where(url = 'https://smt.esante.gouv.fr/fhir/ValueSet/jdv-depistage-neonatal-cisis'): Conformance resource /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JdvDepistageNeonatalCisis_jdv-depistage-neonatal-cisis.json - the canonical URL (https://interop.esante.gouv.fr/terminologies/ValueSet/jdv-depistage-neonatal-cisis) does not match the URL (https://smt.esante.gouv.fr/fhir/ValueSet/jdv-depistage-neonatal-cisis)
+INFORMATION: ValueSet/jdv-depistage-neonatal-cisis: ValueSet.compose.include[0]: This SNOMED-CT based include has some concepts with semantic tags (FSN terms) and some without (preferred terms) - check that this is what is intended (examples for FSN: [inconnu(e)] and examples for no FSN: [oui, non, non applicable])
+ERROR: /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JdvDepistageNeonatalCisis_jdv-depistage-neonatal-cisis: URL Mismatch https://interop.esante.gouv.fr/terminologies/ValueSet/jdv-depistage-neonatal-cisis vs https://smt.esante.gouv.fr/fhir/ValueSet/jdv-depistage-neonatal-cisis
 == input/ontoserver/JDV/JdvDeplacementCisis_jdv-deplacement-cisis.json ==
 == input/ontoserver/JDV/JdvDestinationObpSneCisis_jdv-destination-obp-sne-cisis.json ==
 == input/ontoserver/JDV/JdvDestinationTransfertCisis_jdv-destination-transfert-cisis.json ==
@@ -2587,6 +2608,10 @@ WARNING: ValueSet/jdv-encompassing-encounter-code-cisis: ValueSet.compose.includ
 == input/ontoserver/JDV/JdvEnfantExposeAuxEcransCs24Cisis_jdv-enfant-expose-aux-ecrans-cs24-cisis.json ==
 == input/ontoserver/JDV/JdvEtatNaissanceCisis_jdv-etat-naissance-cisis.json ==
 == input/ontoserver/JDV/JdvEtatPerineeCisis_jdv-etat-perinee-cisis.json ==
+== input/ontoserver/JDV/JdvEtatPsychiqueCisis_jdv-etat-psychique-cisis.json ==
+ERROR: ValueSet.where(url = 'https://smt.esante.gouv.fr/fhir/ValueSet/jdv-etat-psychique-cisis'): Conformance resource /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JdvEtatPsychiqueCisis_jdv-etat-psychique-cisis.json - the canonical URL (https://interop.esante.gouv.fr/terminologies/ValueSet/jdv-etat-psychique-cisis) does not match the URL (https://smt.esante.gouv.fr/fhir/ValueSet/jdv-etat-psychique-cisis)
+INFORMATION: ValueSet/jdv-etat-psychique-cisis: ValueSet.compose.include[0]: This SNOMED-CT based include has some concepts with semantic tags (FSN terms) and some without (preferred terms) - check that this is what is intended (examples for FSN: [désorienté(e)] and examples for no FSN: [capable de communiquer, bien orienté, sensation d'agitation, comportement non-conciliant, comportement suicidaire])
+ERROR: /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JdvEtatPsychiqueCisis_jdv-etat-psychique-cisis: URL Mismatch https://interop.esante.gouv.fr/terminologies/ValueSet/jdv-etat-psychique-cisis vs https://smt.esante.gouv.fr/fhir/ValueSet/jdv-etat-psychique-cisis
 == input/ontoserver/JDV/JdvEtiologieAvcCisis_jdv-etiologie-avc-cisis.json ==
 == input/ontoserver/JDV/JdvEtiologieHemorragieCisis_jdv-etiologie-hemorragie-cisis.json ==
 == input/ontoserver/JDV/JdvEtiologieInfarctusCisis_jdv-etiologie-infarctus-cisis.json ==
@@ -2625,6 +2650,15 @@ WARNING: ValueSet.where(id = 'jdv-evaluation-aggir-ph-cisis'): Error from https:
 == input/ontoserver/JDV/JdvEvaluationNeurocognitiveCisis_jdv-evaluation-neurocognitive-cisis.json ==
 == input/ontoserver/JDV/JdvEvaluationSsiadCisis_jdv-evaluation-ssiad-cisis.json ==
 == input/ontoserver/JDV/JdvEvenementAccouchementCisis_jdv-evenement-accouchement-cisis.json ==
+== input/ontoserver/JDV/JdvEvolutionCisis_jdv-evolution-cisis.json ==
+ERROR: ValueSet.where(url = 'https://smt.esante.gouv.fr/fhir/ValueSet/jdv-evolution-cisis'): Conformance resource /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JdvEvolutionCisis_jdv-evolution-cisis.json - the canonical URL (https://interop.esante.gouv.fr/terminologies/ValueSet/jdv-evolution-cisis) does not match the URL (https://smt.esante.gouv.fr/fhir/ValueSet/jdv-evolution-cisis)
+ERROR: ValueSet/jdv-evolution-cisis: ValueSet.compose.include[1].concept[0]: The code '1352007006' is not valid in the system http://snomed.info/sct (Unknown code '1352007006' in the CodeSystem 'http://snomed.info/sct' version 'http://snomed.info/sct/11000315107/version/20240621')
+INFORMATION: ValueSet/jdv-evolution-cisis: ValueSet.compose.include[1].concept[0]: Unknown code '1352007006' in the CodeSystem 'http://snomed.info/sct' version 'http://snomed.info/sct/11000315107/version/20240621'
+ERROR: ValueSet/jdv-evolution-cisis: ValueSet.compose.include[1].concept[1]: The code '1335890004' is not valid in the system http://snomed.info/sct (Unknown code '1335890004' in the CodeSystem 'http://snomed.info/sct' version 'http://snomed.info/sct/11000315107/version/20240621')
+ERROR: ValueSet/jdv-evolution-cisis: ValueSet.compose.include[1].concept[2]: The code '1336140009' is not valid in the system http://snomed.info/sct (Unknown code '1336140009' in the CodeSystem 'http://snomed.info/sct' version 'http://snomed.info/sct/11000315107/version/20240621')
+ERROR: ValueSet/jdv-evolution-cisis: ValueSet.compose.include[1].concept[3]: The code '1339036001' is not valid in the system http://snomed.info/sct (Unknown code '1339036001' in the CodeSystem 'http://snomed.info/sct' version 'http://snomed.info/sct/11000315107/version/20240621')
+INFORMATION: ValueSet/jdv-evolution-cisis: ValueSet.compose.include[1]: This SNOMED-CT based include has some concepts with semantic tags (FSN terms) and some without (preferred terms) - check that this is what is intended (examples for FSN: [inconnu(e)] and examples for no FSN: [guérison sans séquelle, guéri(e) de l’évènement indésirable avec séquelle, en cours de guérison de l’évènement indésirable, évènement indésirable persistant sans guérison, évènement indésirable causant la mort])
+ERROR: /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JdvEvolutionCisis_jdv-evolution-cisis: URL Mismatch https://interop.esante.gouv.fr/terminologies/ValueSet/jdv-evolution-cisis vs https://smt.esante.gouv.fr/fhir/ValueSet/jdv-evolution-cisis
 == input/ontoserver/JDV/JdvExamenBiochimieAunvCisis_jdv-examen-biochimie-aunv-cisis.json ==
 == input/ontoserver/JDV/JdvExamenBiochimieEunvCisis_jdv-examen-biochimie-eunv-cisis.json ==
 == input/ontoserver/JDV/JdvExamenCliniqueCisis_jdv-examen-clinique-cisis.json ==
@@ -2669,15 +2703,19 @@ ERROR: ValueSet/jdv-gene-cisis: ValueSet.compose.include[0].concept[20]: The cod
 ERROR: ValueSet/jdv-gene-cisis: ValueSet.compose.include[0].concept[21]: The code 'HGNC:5382' is not valid in the system http://www.genenames.org/geneId (A definition for CodeSystem 'http://www.genenames.org/geneId' could not be found, so the code cannot be validated)
 ERROR: ValueSet/jdv-gene-cisis: ValueSet.compose.include[0].concept[22]: The code 'HGNC:5383' is not valid in the system http://www.genenames.org/geneId (A definition for CodeSystem 'http://www.genenames.org/geneId' could not be found, so the code cannot be validated)
 ERROR: ValueSet/jdv-gene-cisis: ValueSet.compose.include[0].concept[23]: The code 'HGNC:8979' is not valid in the system http://www.genenames.org/geneId (A definition for CodeSystem 'http://www.genenames.org/geneId' could not be found, so the code cannot be validated)
-ERROR: ValueSet.where(id = 'jdv-gene-cisis'): Error from https://smt.esante.gouv.fr/fhir: Error: [9233568a-0041-427f-8379-5704c9455908]: A usable code system with URL http://www.genenames.org/geneId could not be resolved.
-Information: X-Request-Id: f64cf5cc-d786-4766-97c0-1501cf0ce973
+ERROR: ValueSet.where(id = 'jdv-gene-cisis'): Error from https://smt.esante.gouv.fr/fhir: Error: [374f7310-ce1e-4c90-860f-c28fb8e2761a]: A usable code system with URL http://www.genenames.org/geneId could not be resolved.
+Information: X-Request-Id: 30c9176b-2f81-42f9-9d70-6301d3c66218
 == input/ontoserver/JDV/JdvGesteReanimationNouveauNeCisis_jdv-geste-reanimation-nouveau-ne-cisis.json ==
 == input/ontoserver/JDV/JdvGestionEffetSecondaireCisis_jdv-gestion-effet-secondaire-cisis.json ==
 WARNING: ValueSet/jdv-gestion-effet-secondaire-cisis: ValueSet.compose.include[0].system: No definition could be found for URL value 'https://smt.esante.gouv.fr/terminologie-ncit'
 INFORMATION: ValueSet/jdv-gestion-effet-secondaire-cisis: ValueSet.compose.include[0].concept[0]: A definition for CodeSystem 'https://smt.esante.gouv.fr/terminologie-ncit' could not be found, so the code cannot be validated
-ERROR: ValueSet.where(id = 'jdv-gestion-effet-secondaire-cisis'): Error from https://smt.esante.gouv.fr/fhir: Error: [1c823971-3fbd-4bf8-8684-36ba16ad3550]: A usable code system with URL https://smt.esante.gouv.fr/terminologie-ncit could not be resolved.
-Information: X-Request-Id: fe6bfb9f-be6f-4731-a7cf-59de5a750d79
+ERROR: ValueSet.where(id = 'jdv-gestion-effet-secondaire-cisis'): Error from https://smt.esante.gouv.fr/fhir: Error: [7e89038f-a075-4fd9-858f-ae2abdb0cf9b]: A usable code system with URL https://smt.esante.gouv.fr/terminologie-ncit could not be resolved.
+Information: X-Request-Id: 2f3f05f3-90a9-4ddc-bd08-efb948dd52f1
 == input/ontoserver/JDV/JdvGirCisis_jdv-gir-cisis.json ==
+== input/ontoserver/JDV/JdvGraviteCisis_jdv-gravite-cisis.json ==
+ERROR: ValueSet.where(url = 'https://smt.esante.gouv.fr/fhir/ValueSet/jdv-gravite-cisis'): Conformance resource /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JdvGraviteCisis_jdv-gravite-cisis.json - the canonical URL (https://interop.esante.gouv.fr/terminologies/ValueSet/jdv-gravite-cisis) does not match the URL (https://smt.esante.gouv.fr/fhir/ValueSet/jdv-gravite-cisis)
+INFORMATION: ValueSet/jdv-gravite-cisis: ValueSet.compose.include[1]: This SNOMED-CT based include has some concepts with semantic tags (FSN terms) and some without (preferred terms) - check that this is what is intended (examples for FSN: [patient(e) hospitalisé(e)] and examples for no FSN: [gravité légère, invalidité, malformation congénitale, mise en jeu du pronostic vital, mort])
+ERROR: /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JdvGraviteCisis_jdv-gravite-cisis: URL Mismatch https://interop.esante.gouv.fr/terminologies/ValueSet/jdv-gravite-cisis vs https://smt.esante.gouv.fr/fhir/ValueSet/jdv-gravite-cisis
 == input/ontoserver/JDV/JdvGroupeRhesusCisis_jdv-groupe-rhesus-cisis.json ==
 == input/ontoserver/JDV/JdvHandicapDeficitDluDomCisis_jdv-handicap-deficit-dlu-dom-cisis.json ==
 == input/ontoserver/JDV/JdvHandicapDeficitDluEhpadCisis_jdv-handicap-deficit-dlu-ehpad-cisis.json ==
@@ -2691,6 +2729,10 @@ WARNING: ValueSet/jdv-imagerie-objectif-reference-cisis: ValueSet.compose.includ
 == input/ontoserver/JDV/JdvImmunizationRouteCodeCisis_jdv-immunization-route-code-cisis.json ==
 == input/ontoserver/JDV/JdvImpactMutationCisis_jdv-impact-mutation-cisis.json ==
 == input/ontoserver/JDV/JdvImportancCliniqueCisis_jdv-importance-clinique-cisis.json ==
+== input/ontoserver/JDV/JdvImputabiliteCisis_jdv-imputabilite-cisis.json ==
+ERROR: ValueSet.where(url = 'https://smt.esante.gouv.fr/fhir/ValueSet/jdv-imputabilite-cisis'): Conformance resource /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JdvImputabiliteCisis_jdv-imputabilite-cisis.json - the canonical URL (https://interop.esante.gouv.fr/terminologies/ValueSet/jdv-imputabilite-cisis) does not match the URL (https://smt.esante.gouv.fr/fhir/ValueSet/jdv-imputabilite-cisis)
+INFORMATION: ValueSet/jdv-imputabilite-cisis: ValueSet.compose.include[0]: This SNOMED-CT based include has some concepts with semantic tags (FSN terms) and some without (preferred terms) - check that this is what is intended (examples for FSN: [certain(e), incertain(e), indéterminé(e)] and examples for no FSN: [possible])
+ERROR: /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JdvImputabiliteCisis_jdv-imputabilite-cisis: URL Mismatch https://interop.esante.gouv.fr/terminologies/ValueSet/jdv-imputabilite-cisis vs https://smt.esante.gouv.fr/fhir/ValueSet/jdv-imputabilite-cisis
 == input/ontoserver/JDV/JdvIndicateurAnormaliteCisis_jdv-indicateur-anormalite-cisis.json ==
 WARNING: ValueSet/jdv-indicateur-anormalite-cisis: ValueSet.compose.include[0]: There are multiple different potential matches for the url 'http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation'. It might be a good idea to fix to the correct version to reduce the likelihood of a wrong version being selected by an implementation/implementer, or use the [IG Parameter `pin-canonicals`](https://hl7.org/fhir/tools/CodeSystem-ig-parameters.html). Using version '3.0.0', found versions: 2.1.0, 3.0.0. Suggested fix: change the canonical reference from 'http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation' to 'http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation|3.0.0'
 == input/ontoserver/JDV/JdvInfoDecesCs8Cisis_jdv-info-deces-cs8-cisis.json ==
@@ -2800,8 +2842,8 @@ WARNING: ValueSet/jdv-modalite-acquisition-cisis: ValueSet.compose.include[0]: T
 WARNING: ValueSet/jdv-modalite-demande-acte-imagerie-cisis: ValueSet.compose.include[0].system: No definition could be found for URL value 'https://smt.esante.gouv.fr/terminologie-ncit'
 INFORMATION: ValueSet/jdv-modalite-demande-acte-imagerie-cisis: ValueSet.compose.include[0].concept[0]: A definition for CodeSystem 'https://smt.esante.gouv.fr/terminologie-ncit' could not be found, so the code cannot be validated
 WARNING: ValueSet/jdv-modalite-demande-acte-imagerie-cisis: ValueSet.compose.include[2]: There are multiple different potential matches for the url 'http://dicom.nema.org/resources/ontology/DCM'. It might be a good idea to fix to the correct version to reduce the likelihood of a wrong version being selected by an implementation/implementer, or use the [IG Parameter `pin-canonicals`](https://hl7.org/fhir/tools/CodeSystem-ig-parameters.html). Using version '2022.4.20221006', found versions: 01, 2022.4.20221006. Suggested fix: change the canonical reference from 'http://dicom.nema.org/resources/ontology/DCM' to 'http://dicom.nema.org/resources/ontology/DCM|2022.4.20221006'
-ERROR: ValueSet.where(id = 'jdv-modalite-demande-acte-imagerie-cisis'): Error from https://smt.esante.gouv.fr/fhir: Error: [94527e61-1046-4bf8-86b9-2d4e689f65d4]: A usable code system with URL https://smt.esante.gouv.fr/terminologie-ncit could not be resolved.
-Information: X-Request-Id: ae2c2465-28f6-41c9-ac23-678e848901ad
+ERROR: ValueSet.where(id = 'jdv-modalite-demande-acte-imagerie-cisis'): Error from https://smt.esante.gouv.fr/fhir: Error: [a07731b6-14d2-4a26-922b-a50e0f46675c]: A usable code system with URL https://smt.esante.gouv.fr/terminologie-ncit could not be resolved.
+Information: X-Request-Id: 9a563cff-2622-41a5-be93-19d272435bb6
 == input/ontoserver/JDV/JdvModaliteEntreeCisis_jdv-modalite-entree-cisis.json ==
 == input/ontoserver/JDV/JdvModaliteSortieCisis_jdv-modalite-sortie-cisis.json ==
 == input/ontoserver/JDV/JdvModeAccouchementCisis_jdv-mode-accouchement-cisis.json ==
@@ -2817,6 +2859,10 @@ Information: X-Request-Id: ae2c2465-28f6-41c9-ac23-678e848901ad
 == input/ontoserver/JDV/JdvModeSortieObpSnmCisis_jdv-mode-sortie-obp-snm-cisis.json ==
 == input/ontoserver/JDV/JdvModeleDocumentCdaCisis_jdv-modele-document-cda-cisis.json ==
 == input/ontoserver/JDV/JdvModeleDocumentCdaNonStructureCisis_jdv-modele-document-cda-non-structure-cisis.json ==
+== input/ontoserver/JDV/JdvModificateurTopographiqueCisis_jdv-modificateur-topographique-cisis.json ==
+ERROR: ValueSet.where(url = 'https://smt.esante.gouv.fr/fhir/ValueSet/jdv-modificateur-topographique-cisis'): Conformance resource /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JdvModificateurTopographiqueCisis_jdv-modificateur-topographique-cisis.json - the canonical URL (https://interop.esante.gouv.fr/terminologies/ValueSet/jdv-modificateur-topographique-cisis) does not match the URL (https://smt.esante.gouv.fr/fhir/ValueSet/jdv-modificateur-topographique-cisis)
+INFORMATION: ValueSet/jdv-modificateur-topographique-cisis: ValueSet.compose.include[0]: This SNOMED-CT based include has some concepts with semantic tags (FSN terms) and some without (preferred terms) - check that this is what is intended (examples for FSN: [unilatéral(e), latéral(e), médian(e), antérieur(e), postérieur(e)] and examples for no FSN: [droit, gauche, bilatéral, céphalique, périphérique])
+ERROR: /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JdvModificateurTopographiqueCisis_jdv-modificateur-topographique-cisis: URL Mismatch https://interop.esante.gouv.fr/terminologies/ValueSet/jdv-modificateur-topographique-cisis vs https://smt.esante.gouv.fr/fhir/ValueSet/jdv-modificateur-topographique-cisis
 == input/ontoserver/JDV/JdvMorphologieCisis_jdv-morphologie-cisis.json ==
 INFORMATION: ValueSet/jdv-morphologie-cisis: ValueSet.compose.include[0]: The value set include has too many codes to validate (1,032), so each individual code has not been checked
 == input/ontoserver/JDV/JdvMotifConsultationOphtalmologiqueCisis_jdv-motif-consultation-ophtalmologique-cisis.json ==
@@ -2834,6 +2880,9 @@ WARNING: ValueSet.where(id = 'jdv-motif-echographie-cisis'): Error from https://
 == input/ontoserver/JDV/JdvNatureMaterielEtudieCisis_jdv-nature-materiel-etudie-cisis.json ==
 == input/ontoserver/JDV/JdvNihssAtaxieCisis_jdv-nihss-ataxie-cisis.json ==
 == input/ontoserver/JDV/JdvNihssChampVisuelCisis_jdv-nihss-champ-visuel-cisis.json ==
+== input/ontoserver/JDV/JdvNihssCommandesCisis_jdv-nihss-commandes-cisis.json ==
+ERROR: ValueSet.where(url = 'https://smt.esante.gouv.fr/fhir/ValueSet/jdv-nihss-commandes-cisis'): Conformance resource /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JdvNihssCommandesCisis_jdv-nihss-commandes-cisis.json - the canonical URL (https://interop.esante.gouv.fr/terminologies/ValueSet/jdv-nihss-commandes-cisis) does not match the URL (https://smt.esante.gouv.fr/fhir/ValueSet/jdv-nihss-commandes-cisis)
+ERROR: /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JdvNihssCommandesCisis_jdv-nihss-commandes-cisis: URL Mismatch https://interop.esante.gouv.fr/terminologies/ValueSet/jdv-nihss-commandes-cisis vs https://smt.esante.gouv.fr/fhir/ValueSet/jdv-nihss-commandes-cisis
 == input/ontoserver/JDV/JdvNihssConscienceCisis_jdv-nihss-conscience-cisis.json ==
 == input/ontoserver/JDV/JdvNihssDysarthrieCisis_jdv-nihss-dysarthrie-cisis.json ==
 == input/ontoserver/JDV/JdvNihssFonctionCisis_jdv-nihss-fonction-cisis.json ==
@@ -2851,6 +2900,10 @@ ERROR: ValueSet/jdv-objectif-activite-cisis: ValueSet.compose.include[0].concept
 == input/ontoserver/JDV/JdvObpResultatEvenementCisis_jdv-obp-resultat-evenement-cisis.json ==
 == input/ontoserver/JDV/JdvObpTestAuditionCisis_jdv-obp-test-audition-cisis.json ==
 == input/ontoserver/JDV/JdvObservationEnfantCisis_jdv-observation-enfant-cisis.json ==
+== input/ontoserver/JDV/JdvObservationEtatPatientCisis_jdv-observation-etat-patient-cisis.json ==
+ERROR: ValueSet.where(url = 'https://smt.esante.gouv.fr/fhir/ValueSet/jdv-observation-etat-patient-cisis'): Conformance resource /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JdvObservationEtatPatientCisis_jdv-observation-etat-patient-cisis.json - the canonical URL (https://interop.esante.gouv.fr/terminologies/ValueSet/jdv-observation-etat-patient-cisis) does not match the URL (https://smt.esante.gouv.fr/fhir/ValueSet/jdv-observation-etat-patient-cisis)
+INFORMATION: ValueSet/jdv-observation-etat-patient-cisis: ValueSet.compose.include[0]: This SNOMED-CT based include has some concepts with semantic tags (FSN terms) and some without (preferred terms) - check that this is what is intended (examples for FSN: [désorienté(e)] and examples for no FSN: [capable de communiquer, bien orienté, sensation d'agitation, comportement non-conciliant, comportement suicidaire])
+ERROR: /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JdvObservationEtatPatientCisis_jdv-observation-etat-patient-cisis: URL Mismatch https://interop.esante.gouv.fr/terminologies/ValueSet/jdv-observation-etat-patient-cisis vs https://smt.esante.gouv.fr/fhir/ValueSet/jdv-observation-etat-patient-cisis
 == input/ontoserver/JDV/JdvObservationGrossesseCisis_jdv-observation-grossesse-cisis.json ==
 == input/ontoserver/JDV/JdvOeilExamineCisis_jdv-oeil-examine-cisis.json ==
 == input/ontoserver/JDV/JdvOrganeCisis_jdv-organe-cisis.json ==
@@ -3065,6 +3118,10 @@ ERROR: ValueSet/jdv-rcp-organe-cisis: ValueSet.compose.include[1].concept[12]: T
 ERROR: ValueSet/jdv-rcp-organe-cisis: ValueSet.compose.include[1].concept[13]: The code 'C12664' is not valid in the system https://smt.esante.gouv.fr/terminologie-ncit (A definition for CodeSystem 'https://smt.esante.gouv.fr/terminologie-ncit' could not be found, so the code cannot be validated)
 WARNING: ValueSet.where(id = 'jdv-rcp-organe-cisis'): Error from https://tx.fhir.org/r4: Unable to provide support for code system https://smt.esante.gouv.fr/terminologie-cim-10
 == input/ontoserver/JDV/JdvReadaptationCisis_jdv-readaptation-cisis.json ==
+== input/ontoserver/JDV/JdvRealisationActiviteCisis_jdv-realisation-activite-cisis.json ==
+ERROR: ValueSet.where(url = 'https://smt.esante.gouv.fr/fhir/ValueSet/jdv-realisation-activite-cisis'): Conformance resource /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JdvRealisationActiviteCisis_jdv-realisation-activite-cisis.json - the canonical URL (https://interop.esante.gouv.fr/terminologies/ValueSet/jdv-realisation-activite-cisis) does not match the URL (https://smt.esante.gouv.fr/fhir/ValueSet/jdv-realisation-activite-cisis)
+INFORMATION: ValueSet/jdv-realisation-activite-cisis: ValueSet.compose.include[0]: This SNOMED-CT based include has some concepts with semantic tags (FSN terms) and some without (preferred terms) - check that this is what is intended (examples for FSN: [indépendant(e)] and examples for no FSN: [partiellement réussi, assisté, non])
+ERROR: /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JdvRealisationActiviteCisis_jdv-realisation-activite-cisis: URL Mismatch https://interop.esante.gouv.fr/terminologies/ValueSet/jdv-realisation-activite-cisis vs https://smt.esante.gouv.fr/fhir/ValueSet/jdv-realisation-activite-cisis
 == input/ontoserver/JDV/JdvRechercheAghbsCisis_jdv-recherche-aghbs-cisis.json ==
 == input/ontoserver/JDV/JdvReferenceRangeAppliesToCisis_jdv-reference-range-applies-to-cisis.json ==
 WARNING: ValueSet/jdv-reference-range-applies-to-cisis: ValueSet.compose.include[0]: There are multiple different potential matches for the url 'http://terminology.hl7.org/CodeSystem/v3-AdministrativeGender'. It might be a good idea to fix to the correct version to reduce the likelihood of a wrong version being selected by an implementation/implementer, or use the [IG Parameter `pin-canonicals`](https://hl7.org/fhir/tools/CodeSystem-ig-parameters.html). Using version '3.0.0', found versions: 2.1.0, 3.0.0. Suggested fix: change the canonical reference from 'http://terminology.hl7.org/CodeSystem/v3-AdministrativeGender' to 'http://terminology.hl7.org/CodeSystem/v3-AdministrativeGender|3.0.0'
@@ -3083,7 +3140,15 @@ ERROR: ValueSet/jdv-resultat-depistage-acide-ascorbique-cisis: ValueSet.compose.
 == input/ontoserver/JDV/JdvResultatDepistageBilirubinurieCisis_jdv-resultat-depistage-bilirubinurie-cisis.json ==
 == input/ontoserver/JDV/JdvResultatDepistageCetonemieCisis_jdv-resultat-depistage-cetonemie-cisis.json ==
 == input/ontoserver/JDV/JdvResultatDepistageCholesterolCisis_jdv-resultat-depistage-cholesterol-cisis.json ==
+== input/ontoserver/JDV/JdvResultatDepistageCisis_jdv-resultat-depistage-cisis.json ==
+ERROR: ValueSet.where(url = 'https://smt.esante.gouv.fr/fhir/ValueSet/jdv-resultat-depistage-cisis'): Conformance resource /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JdvResultatDepistageCisis_jdv-resultat-depistage-cisis.json - the canonical URL (https://interop.esante.gouv.fr/terminologies/ValueSet/jdv-resultat-depistage-cisis) does not match the URL (https://smt.esante.gouv.fr/fhir/ValueSet/jdv-resultat-depistage-cisis)
+INFORMATION: ValueSet/jdv-resultat-depistage-cisis: ValueSet.compose.include[0]: This SNOMED-CT based include has some concepts with semantic tags (FSN terms) and some without (preferred terms) - check that this is what is intended (examples for FSN: [indéterminé(e)] and examples for no FSN: [positif, négatif, échantillon insatisfaisant pour l'évaluation])
+ERROR: /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JdvResultatDepistageCisis_jdv-resultat-depistage-cisis: URL Mismatch https://interop.esante.gouv.fr/terminologies/ValueSet/jdv-resultat-depistage-cisis vs https://smt.esante.gouv.fr/fhir/ValueSet/jdv-resultat-depistage-cisis
 == input/ontoserver/JDV/JdvResultatDepistageCorpsCetoniquesCisis_jdv-resultat-depistage-corps-cetoniques-cisis.json ==
+== input/ontoserver/JDV/JdvResultatDepistageCrpCisis_jdv-resultat-depistage-crp-cisis.json ==
+ERROR: ValueSet.where(url = 'https://smt.esante.gouv.fr/fhir/ValueSet/jdv-resultat-depistage-crp-cisis'): Conformance resource /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JdvResultatDepistageCrpCisis_jdv-resultat-depistage-crp-cisis.json - the canonical URL (https://interop.esante.gouv.fr/terminologies/ValueSet/jdv-resultat-depistage-crp-cisis) does not match the URL (https://smt.esante.gouv.fr/fhir/ValueSet/jdv-resultat-depistage-crp-cisis)
+INFORMATION: ValueSet/jdv-resultat-depistage-crp-cisis: ValueSet.compose.include[0]: This SNOMED-CT based include has some concepts with semantic tags (FSN terms) and some without (preferred terms) - check that this is what is intended (examples for FSN: [indéterminé(e)] and examples for no FSN: [négatif, positif])
+ERROR: /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JdvResultatDepistageCrpCisis_jdv-resultat-depistage-crp-cisis: URL Mismatch https://interop.esante.gouv.fr/terminologies/ValueSet/jdv-resultat-depistage-crp-cisis vs https://smt.esante.gouv.fr/fhir/ValueSet/jdv-resultat-depistage-crp-cisis
 == input/ontoserver/JDV/JdvResultatDepistageGlucoseCisis_jdv-resultat-depistage-glucose-cisis.json ==
 == input/ontoserver/JDV/JdvResultatDepistageGlycemieCisis_jdv-resultat-depistage-glycemie-cisis.json ==
 == input/ontoserver/JDV/JdvResultatDepistageHematurieCisis_jdv-resultat-depistage-hematurie-cisis.json ==
@@ -3094,6 +3159,10 @@ ERROR: ValueSet/jdv-resultat-depistage-hematurie-cisis: ValueSet.compose.include
 == input/ontoserver/JDV/JdvResultatDepistageLeucocyturieCisis_jdv-resultat-depistage-leucocyturie-cisis.json ==
 == input/ontoserver/JDV/JdvResultatDepistageNitriturieCisis_jdv-resultat-depistage-nitriturie-cisis.json ==
 == input/ontoserver/JDV/JdvResultatDepistageProteinurieCisis_jdv-resultat-depistage-proteinurie-cisis.json ==
+== input/ontoserver/JDV/JdvResultatDepistageRuptureMembranePhCisis_jdv-resultat-depistage-rupture-membrane-ph-cisis.json ==
+ERROR: ValueSet.where(url = 'https://smt.esante.gouv.fr/fhir/ValueSet/jdv-resultat-depistage-rupture-membrane-ph-cisis'): Conformance resource /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JdvResultatDepistageRuptureMembranePhCisis_jdv-resultat-depistage-rupture-membrane-ph-cisis.json - the canonical URL (https://interop.esante.gouv.fr/terminologies/ValueSet/jdv-resultat-depistage-rupture-membrane-ph-cisis) does not match the URL (https://smt.esante.gouv.fr/fhir/ValueSet/jdv-resultat-depistage-rupture-membrane-ph-cisis)
+INFORMATION: ValueSet/jdv-resultat-depistage-rupture-membrane-ph-cisis: ValueSet.compose.include[0]: This SNOMED-CT based include has some concepts with semantic tags (FSN terms) and some without (preferred terms) - check that this is what is intended (examples for FSN: [indéterminé(e)] and examples for no FSN: [membranes amniotiques intactes, rupture prématurée des membranes])
+ERROR: /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JdvResultatDepistageRuptureMembranePhCisis_jdv-resultat-depistage-rupture-membrane-ph-cisis: URL Mismatch https://interop.esante.gouv.fr/terminologies/ValueSet/jdv-resultat-depistage-rupture-membrane-ph-cisis vs https://smt.esante.gouv.fr/fhir/ValueSet/jdv-resultat-depistage-rupture-membrane-ph-cisis
 == input/ontoserver/JDV/JdvResultatDepistageSurditeCisis_jdv-resultat-depistage-surdite-cisis.json ==
 == input/ontoserver/JDV/JdvResultatDepistageUrobilinogenurieCisis_jdv-resultat-depistage-urobilinogenurie-cisis.json ==
 == input/ontoserver/JDV/JdvResultatEvaluationCisis_jdv-resultat-evaluation-cisis.json ==
@@ -3109,8 +3178,8 @@ WARNING: ValueSet.where(id = 'jdv-resultat-evaluation-cisis'): Error from https:
 == input/ontoserver/JDV/JdvRoleInformateurCisis_jdv-role-informateur-cisis.json ==
 WARNING: ValueSet/jdv-role-informateur-cisis: ValueSet.compose.include[0]: There are multiple different potential matches for the url 'http://terminology.hl7.org/CodeSystem/v3-RoleClass'. It might be a good idea to fix to the correct version to reduce the likelihood of a wrong version being selected by an implementation/implementer, or use the [IG Parameter `pin-canonicals`](https://hl7.org/fhir/tools/CodeSystem-ig-parameters.html). Using version '4.0.0', found versions: 3.1.0, 4.0.0. Suggested fix: change the canonical reference from 'http://terminology.hl7.org/CodeSystem/v3-RoleClass' to 'http://terminology.hl7.org/CodeSystem/v3-RoleClass|4.0.0'
 == input/ontoserver/JDV/JdvRouteOfAdministrationCisis_jdv-route-of-administration-cisis.json ==
-ERROR: ValueSet/jdv-route-of-administration-cisis: ValueSet.compose.include[0].concept[81]: The code '420287000' is not valid in the system https://smt.esante.gouv.fr/terminologie-standardterms (Unknown code '420287000' in the CodeSystem 'https://smt.esante.gouv.fr/terminologie-standardterms' version '2024-06-20')
-ERROR: ValueSet.text.div: Hyperlink 'CodeSystem-terminologie-standardterms.html#terminologie-standardterms-420287000' at 'div/ul/li/table/tr/td/a' for '420287000' does not resolve
+ERROR: ValueSet/jdv-route-of-administration-cisis: ValueSet.compose.include[0].concept[82]: The code '20090000' is not valid in the system https://smt.esante.gouv.fr/terminologie-standardterms (Unknown code '20090000' in the CodeSystem 'https://smt.esante.gouv.fr/terminologie-standardterms' version '2024-06-20')
+ERROR: ValueSet.text.div: Hyperlink 'CodeSystem-terminologie-standardterms.html#terminologie-standardterms-20090000' at 'div/ul/li/table/tr/td/a' for '20090000' does not resolve
 == input/ontoserver/JDV/JdvScoreAsaCisis_jdv-score-asa-cisis.json ==
 == input/ontoserver/JDV/JdvScoreBradenActiviteCisis_jdv-score-braden-activite-cisis.json ==
 == input/ontoserver/JDV/JdvScoreBradenComponentCisis_jdv-score-braden-component-cisis.json ==
@@ -3133,6 +3202,10 @@ INFORMATION: ValueSet/jdv-secteur-activite-employeur-cisis: ValueSet.compose.inc
 ERROR: ValueSet/jdv-secteur-activite-employeur-cisis: ValueSet.compose.include[0].concept[1]: The code 'SCHOOL' is not valid in the system https://wiki.ihe.net/index.php/IHERoleCode_Vocabulary (A definition for CodeSystem 'https://wiki.ihe.net/index.php/IHERoleCode_Vocabulary' could not be found, so the code cannot be validated)
 ERROR: ValueSet/jdv-secteur-activite-employeur-cisis: ValueSet.compose.include[0].concept[2]: The code 'AFFILIATED' is not valid in the system https://wiki.ihe.net/index.php/IHERoleCode_Vocabulary (A definition for CodeSystem 'https://wiki.ihe.net/index.php/IHERoleCode_Vocabulary' could not be found, so the code cannot be validated)
 WARNING: ValueSet.where(id = 'jdv-secteur-activite-employeur-cisis'): Error from https://tx.fhir.org/r4: Unable to provide support for code system https://wiki.ihe.net/index.php/IHERoleCode_Vocabulary
+== input/ontoserver/JDV/JdvSedentariteCisis_jdv-sedentarite-cisis.json ==
+ERROR: ValueSet.where(url = 'https://smt.esante.gouv.fr/fhir/ValueSet/jdv-sedentarite-cisis'): Conformance resource /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JdvSedentariteCisis_jdv-sedentarite-cisis.json - the canonical URL (https://interop.esante.gouv.fr/terminologies/ValueSet/jdv-sedentarite-cisis) does not match the URL (https://smt.esante.gouv.fr/fhir/ValueSet/jdv-sedentarite-cisis)
+INFORMATION: ValueSet/jdv-sedentarite-cisis: ValueSet.compose.include[0]: This SNOMED-CT based include has some concepts with semantic tags (FSN terms) and some without (preferred terms) - check that this is what is intended (examples for FSN: [physiquement actif(-ve)] and examples for no FSN: [mode de vie sédentaire, fait peu d'exercice, fait de l'exercice régulièrement])
+ERROR: /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JdvSedentariteCisis_jdv-sedentarite-cisis: URL Mismatch https://interop.esante.gouv.fr/terminologies/ValueSet/jdv-sedentarite-cisis vs https://smt.esante.gouv.fr/fhir/ValueSet/jdv-sedentarite-cisis
 == input/ontoserver/JDV/JdvSeveriteObservationCisis_jdv-severite-observation-cisis.json ==
 == input/ontoserver/JDV/JdvSigneVitalCisis_jdv-signe-vital-cisis.json ==
 == input/ontoserver/JDV/JdvSigneVitalCs24Cisis_jdv-signe-vital-cs24-cisis.json ==
@@ -3203,6 +3276,10 @@ WARNING: ValueSet/jdv-specimen-type-cisis: ValueSet.compose.include[1]: There ar
 == input/ontoserver/JDV/JdvStatutGrossesseCisis_jdv-statut-grossesse-cisis.json ==
 == input/ontoserver/JDV/JdvStatutQuorumCisis_jdv-statut-quorum-cisis.json ==
 == input/ontoserver/JDV/JdvStatutResultatCisis_jdv-statut-resultat-cisis.json ==
+== input/ontoserver/JDV/JdvStatutTabagiqueCisis_jdv-statut-tabagique-cisis.json ==
+ERROR: ValueSet.where(url = 'https://smt.esante.gouv.fr/fhir/ValueSet/jdv-statut-tabagique-cisis'): Conformance resource /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JdvStatutTabagiqueCisis_jdv-statut-tabagique-cisis.json - the canonical URL (https://interop.esante.gouv.fr/terminologies/ValueSet/jdv-statut-tabagique-cisis) does not match the URL (https://smt.esante.gouv.fr/fhir/ValueSet/jdv-statut-tabagique-cisis)
+INFORMATION: ValueSet/jdv-statut-tabagique-cisis: ValueSet.compose.include[0]: This SNOMED-CT based include has some concepts with semantic tags (FSN terms) and some without (preferred terms) - check that this is what is intended (examples for FSN: [fumeur(-euse) quotidien(ne), fumeur(-euse) occasionnel(le), ancien(ne) fumeur(-euse)] and examples for no FSN: [n'a jamais fumé, Tobacco smoking consumption unknown, gros(se) fumeur(-euse) (plus de 20 cigarettes par jour), fumeur(-euse) modéré(e) (20 cigarettes ou moins par jour)])
+ERROR: /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JdvStatutTabagiqueCisis_jdv-statut-tabagique-cisis: URL Mismatch https://interop.esante.gouv.fr/terminologies/ValueSet/jdv-statut-tabagique-cisis vs https://smt.esante.gouv.fr/fhir/ValueSet/jdv-statut-tabagique-cisis
 == input/ontoserver/JDV/JdvStructureDeSoinsCisis_jdv-structure-de-soins-cisis.json ==
 == input/ontoserver/JDV/JdvSupportNutritionnelCisis_jdv-support-nutritionnel-cisis.json ==
 == input/ontoserver/JDV/JdvSymptomeAvcCisis_jdv-symptome-avc-cisis.json ==
@@ -3414,8 +3491,8 @@ ERROR: ValueSet/jdv-traitement-soins-frcp-cisis: ValueSet.compose.include[0].con
 ERROR: ValueSet/jdv-traitement-soins-frcp-cisis: ValueSet.compose.include[0].concept[5]: The code 'C16832' is not valid in the system https://smt.esante.gouv.fr/terminologie-ncit (A definition for CodeSystem 'https://smt.esante.gouv.fr/terminologie-ncit' could not be found, so the code cannot be validated)
 ERROR: ValueSet/jdv-traitement-soins-frcp-cisis: ValueSet.compose.include[0].concept[6]: The code 'C71326' is not valid in the system https://smt.esante.gouv.fr/terminologie-ncit (A definition for CodeSystem 'https://smt.esante.gouv.fr/terminologie-ncit' could not be found, so the code cannot be validated)
 ERROR: ValueSet/jdv-traitement-soins-frcp-cisis: ValueSet.compose.include[0].concept[7]: The code 'C7201' is not valid in the system https://smt.esante.gouv.fr/terminologie-ncit (A definition for CodeSystem 'https://smt.esante.gouv.fr/terminologie-ncit' could not be found, so the code cannot be validated)
-ERROR: ValueSet.where(id = 'jdv-traitement-soins-frcp-cisis'): Error from https://smt.esante.gouv.fr/fhir: Error: [aa852ded-a2d8-4db9-882c-7f591056c8fd]: A usable code system with URL https://smt.esante.gouv.fr/terminologie-ncit could not be resolved.
-Information: X-Request-Id: 94368543-a9fe-45be-82b4-b8a48d6d4d33
+ERROR: ValueSet.where(id = 'jdv-traitement-soins-frcp-cisis'): Error from https://smt.esante.gouv.fr/fhir: Error: [0d27ab40-dd79-4836-af47-a74088dee0ab]: A usable code system with URL https://smt.esante.gouv.fr/terminologie-ncit could not be resolved.
+Information: X-Request-Id: ec648747-337b-4e44-bba4-d79acd2a8d75
 == input/ontoserver/JDV/JdvTraitementSuiviCisis_jdv-traitement-suivi-cisis.json ==
 == input/ontoserver/JDV/JdvTransfertMutationCisis_jdv-transfert-mutation-cisis.json ==
 == input/ontoserver/JDV/JdvTroubleVisuelCisis_jdv-trouble-visuel-cisis.json ==
@@ -3438,8 +3515,8 @@ ERROR: ValueSet/jdv-trousse-ccu-cisis: ValueSet.compose.include[1].concept[13]: 
 ERROR: ValueSet/jdv-trousse-ccu-cisis: ValueSet.compose.include[1].concept[14]: The code 'VHEDMNGUR01LX' is not valid in the system https://smt.esante.gouv.fr/terminologie-tccr (A definition for CodeSystem 'https://smt.esante.gouv.fr/terminologie-tccr' could not be found, so the code cannot be validated)
 ERROR: ValueSet/jdv-trousse-ccu-cisis: ValueSet.compose.include[1].concept[15]: The code 'VHEDACGUP01LX' is not valid in the system https://smt.esante.gouv.fr/terminologie-tccr (A definition for CodeSystem 'https://smt.esante.gouv.fr/terminologie-tccr' could not be found, so the code cannot be validated)
 ERROR: ValueSet/jdv-trousse-ccu-cisis: ValueSet.compose.include[1].concept[16]: The code 'VHEDEBGUR01LX' is not valid in the system https://smt.esante.gouv.fr/terminologie-tccr (A definition for CodeSystem 'https://smt.esante.gouv.fr/terminologie-tccr' could not be found, so the code cannot be validated)
-ERROR: ValueSet.where(id = 'jdv-trousse-ccu-cisis'): Error from https://smt.esante.gouv.fr/fhir: Error: [92ea2597-7138-4c84-8dc6-a1a462d2f2d4]: A usable code system with URL https://smt.esante.gouv.fr/terminologie-tccr could not be resolved.
-Information: X-Request-Id: 22f577bf-9289-4fc8-9dfe-e6babd3e6115
+ERROR: ValueSet.where(id = 'jdv-trousse-ccu-cisis'): Error from https://smt.esante.gouv.fr/fhir: Error: [3ebcda94-9e03-4300-8bd2-169c22492318]: A usable code system with URL https://smt.esante.gouv.fr/terminologie-tccr could not be resolved.
+Information: X-Request-Id: 70fe8f0a-b4ac-46a1-ac1d-7860ee42b37e
 == input/ontoserver/JDV/JdvTumeurCisis_jdv-tumeur-cisis.json ==
 == input/ontoserver/JDV/JdvTypeAccompagnementSocioproCisis_jdv-type-accompagnement-sociopro-cisis.json ==
 == input/ontoserver/JDV/JdvTypeActeEunvCisis_jdv-type-acte-eunv-cisis.json ==
@@ -3667,8 +3744,8 @@ WARNING: ValueSet/jdv-type-produit-sanguin-labile-cisis: ValueSet.compose.includ
 INFORMATION: ValueSet/jdv-type-produit-sanguin-labile-cisis: ValueSet.compose.include[0].concept[0]: A definition for CodeSystem 'https://smt.esante.gouv.fr/terminologie-ncit' could not be found, so the code cannot be validated
 ERROR: ValueSet/jdv-type-produit-sanguin-labile-cisis: ValueSet.compose.include[0].concept[1]: The code 'C15366' is not valid in the system https://smt.esante.gouv.fr/terminologie-ncit (A definition for CodeSystem 'https://smt.esante.gouv.fr/terminologie-ncit' could not be found, so the code cannot be validated)
 ERROR: ValueSet/jdv-type-produit-sanguin-labile-cisis: ValueSet.compose.include[0].concept[2]: The code 'C140042' is not valid in the system https://smt.esante.gouv.fr/terminologie-ncit (A definition for CodeSystem 'https://smt.esante.gouv.fr/terminologie-ncit' could not be found, so the code cannot be validated)
-ERROR: ValueSet.where(id = 'jdv-type-produit-sanguin-labile-cisis'): Error from https://smt.esante.gouv.fr/fhir: Error: [9356dd2a-dc14-4acb-b7f9-ee0539cf5e0e]: A usable code system with URL https://smt.esante.gouv.fr/terminologie-ncit could not be resolved.
-Information: X-Request-Id: 994027cb-d6c5-4ac6-bdba-3179069588fd
+ERROR: ValueSet.where(id = 'jdv-type-produit-sanguin-labile-cisis'): Error from https://smt.esante.gouv.fr/fhir: Error: [48eb801b-2c91-4f61-9b7a-901d5afab2bd]: A usable code system with URL https://smt.esante.gouv.fr/terminologie-ncit could not be resolved.
+Information: X-Request-Id: 46594afe-bb3e-4a51-92ae-764f78a21108
 == input/ontoserver/JDV/JdvTypeRencontreCisis_jdv-type-rencontre-cisis.json ==
 == input/ontoserver/JDV/JdvTypeRencontreObpCisis_jdv-type-rencontre-obp-cisis.json ==
 == input/ontoserver/JDV/JdvTypeResultatCisis_jdv-type-resultat-cisis.json ==

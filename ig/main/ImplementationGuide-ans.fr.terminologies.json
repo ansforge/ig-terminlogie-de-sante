@@ -10,7 +10,7 @@
   "name" : "Terminologies",
   "title" : "Terminologies  de Santé",
   "status" : "active",
-  "date" : "2025-06-23T04:35:10+00:00",
+  "date" : "2025-06-24T04:29:26+00:00",
   "publisher" : "ANS",
   "contact" : [{
     "name" : "ANS",
@@ -24422,6 +24422,18 @@
         "valueString" : "ValueSet"
       }],
       "reference" : {
+        "reference" : "ValueSet/jdv-age-cisis"
+      },
+      "name" : "JDV Age CISIS",
+      "description" : "JDV Age CISIS",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      }],
+      "reference" : {
         "reference" : "ValueSet/jdv-age-de-survenue-cisis"
       },
       "name" : "JDV Age De Survenue CISIS",
@@ -25178,6 +25190,18 @@
         "valueString" : "ValueSet"
       }],
       "reference" : {
+        "reference" : "ValueSet/jdv-depistage-neonatal-cisis"
+      },
+      "name" : "Jdv Depistage Naonatal CISIS",
+      "description" : "Jdv Depistage Naonatal CISIS",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      }],
+      "reference" : {
         "reference" : "ValueSet/jdv-deplacement-cisis"
       },
       "name" : "JDV Deplacement CISIS",
@@ -25346,6 +25370,18 @@
         "valueString" : "ValueSet"
       }],
       "reference" : {
+        "reference" : "ValueSet/jdv-etat-psychique-cisis"
+      },
+      "name" : "JDV Etat Psychique CISIS",
+      "description" : "JDV Etat Psychique CISIS",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      }],
+      "reference" : {
         "reference" : "ValueSet/jdv-etiologie-avc-cisis"
       },
       "name" : "JDV Etiologie Avc CISIS",
@@ -25470,6 +25506,18 @@
       },
       "name" : "JDV Evenement Accouchement CISIS",
       "description" : "JDV Evenement Accouchement CISIS",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      }],
+      "reference" : {
+        "reference" : "ValueSet/jdv-evolution-cisis"
+      },
+      "name" : "JDV Evolution CISIS",
+      "description" : "JDV Evolution CISIS",
       "exampleBoolean" : false
     },
     {
@@ -25742,6 +25790,18 @@
         "valueString" : "ValueSet"
       }],
       "reference" : {
+        "reference" : "ValueSet/jdv-gravite-cisis"
+      },
+      "name" : "JDV Gravite CISIS",
+      "description" : "JDV Gravite CISIS",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      }],
+      "reference" : {
         "reference" : "ValueSet/jdv-groupe-rhesus-cisis"
       },
       "name" : "JDV Groupe Rhesus CISIS",
@@ -25878,6 +25938,18 @@
       },
       "name" : "JDV Importance Clinique CISIS",
       "description" : "JDV Importance Clinique CISIS",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      }],
+      "reference" : {
+        "reference" : "ValueSet/jdv-imputabilite-cisis"
+      },
+      "name" : "JDV Imputabilite CISIS",
+      "description" : "JDV Imputabilite CISIS",
       "exampleBoolean" : false
     },
     {
@@ -26666,6 +26738,18 @@
         "valueString" : "ValueSet"
       }],
       "reference" : {
+        "reference" : "ValueSet/jdv-modificateur-topographique-cisis"
+      },
+      "name" : "JDV Modificateur Topographique CISIS",
+      "description" : "JDV Modificateur Topographique CISIS",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      }],
+      "reference" : {
         "reference" : "ValueSet/jdv-morphologie-cisis"
       },
       "name" : "JDV Morphologie CISIS",
@@ -26814,6 +26898,18 @@
       },
       "name" : "JDV Nihss Champ Visuel CISIS",
       "description" : "JDV Nihss Champ Visuel CISIS",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      }],
+      "reference" : {
+        "reference" : "ValueSet/jdv-nihss-commandes-cisis"
+      },
+      "name" : "JDV Nihss Commandes CISIS",
+      "description" : "JDV Nihss Commandes CISIS",
       "exampleBoolean" : false
     },
     {
@@ -27030,6 +27126,18 @@
       },
       "name" : "JDV Observation Enfant CISIS",
       "description" : "JDV Observation Enfant CISIS",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      }],
+      "reference" : {
+        "reference" : "ValueSet/jdv-observation-etat-patient-cisis"
+      },
+      "name" : "JDV Observation Etat Patient CISIS",
+      "description" : "JDV Observation Etat Patient CISIS",
       "exampleBoolean" : false
     },
     {
@@ -27362,6 +27470,18 @@
         "valueString" : "ValueSet"
       }],
       "reference" : {
+        "reference" : "ValueSet/jdv-realisation-activite-cisis"
+      },
+      "name" : "JDV Realisation Activite CISIS",
+      "description" : "JDV Realisation Activite CISIS",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      }],
+      "reference" : {
         "reference" : "ValueSet/jdv-recherche-aghbs-cisis"
       },
       "name" : "JDV Recherche Aghbs CISIS",
@@ -27554,6 +27674,18 @@
         "valueString" : "ValueSet"
       }],
       "reference" : {
+        "reference" : "ValueSet/jdv-resultat-depistage-crp-cisis"
+      },
+      "name" : "JDV Resultat Depistage Crp CISIS",
+      "description" : "JDV Resultat Depistage Crp CISIS",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      }],
+      "reference" : {
         "reference" : "ValueSet/jdv-resultat-depistage-glucose-cisis"
       },
       "name" : "JDV Resultat Depistage Glucose CISIS",
@@ -27626,6 +27758,18 @@
         "valueString" : "ValueSet"
       }],
       "reference" : {
+        "reference" : "ValueSet/jdv-resultat-depistage-rupture-membrane-ph-cisis"
+      },
+      "name" : "JDV Resultat Depistage Rupture Membrane Ph CISIS",
+      "description" : "JDV Resultat Depistage Rupture Membrane Ph CISIS",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      }],
+      "reference" : {
         "reference" : "ValueSet/jdv-resultat-depistage-surdite-cisis"
       },
       "name" : "JDV Resultat Depistage Surdite CISIS",
@@ -27690,6 +27834,18 @@
       },
       "name" : "JDV Resultat Recherche Hpv Ccu CISIS",
       "description" : "JDV Resultat Recherche Hpv Ccu CISIS",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      }],
+      "reference" : {
+        "reference" : "ValueSet/jdv-resultat-depistage-cisis"
+      },
+      "name" : "JDV ResultatDepistage CISIS",
+      "description" : "JDV ResultatDepistage CISIS",
       "exampleBoolean" : false
     },
     {
@@ -27950,6 +28106,18 @@
         "valueString" : "ValueSet"
       }],
       "reference" : {
+        "reference" : "ValueSet/jdv-sedentarite-cisis"
+      },
+      "name" : "JDV Sedentarite CISIS",
+      "description" : "JDV Sedentarite CISIS",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      }],
+      "reference" : {
         "reference" : "ValueSet/jdv-severite-observation-cisis"
       },
       "name" : "JDV Severite Observation CISIS",
@@ -28170,6 +28338,18 @@
       },
       "name" : "JDV Statut Resultat CISIS",
       "description" : "JDV Statut Resultat CISIS",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      }],
+      "reference" : {
+        "reference" : "ValueSet/jdv-statut-tabagique-cisis"
+      },
+      "name" : "JDV Statut Tabagique CISIS",
+      "description" : "JDV Statut Tabagique CISIS",
       "exampleBoolean" : false
     },
     {

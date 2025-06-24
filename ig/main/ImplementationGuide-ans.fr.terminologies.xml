@@ -11,7 +11,7 @@
   <name value="Terminologies"/>
   <title value="Terminologies  de Santé"/>
   <status value="active"/>
-  <date value="2025-06-23T04:35:10+00:00"/>
+  <date value="2025-06-24T04:29:26+00:00"/>
   <publisher value="ANS"/>
   <contact>
     <name value="ANS"/>
@@ -17944,6 +17944,17 @@
         <valueString value="ValueSet"/>
       </extension>
       <reference>
+        <reference value="ValueSet/jdv-age-cisis"/>
+      </reference>
+      <name value="JDV Age CISIS"/>
+      <description value="JDV Age CISIS"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
         <reference value="ValueSet/jdv-age-de-survenue-cisis"/>
       </reference>
       <name value="JDV Age De Survenue CISIS"/>
@@ -18637,6 +18648,17 @@
         <valueString value="ValueSet"/>
       </extension>
       <reference>
+        <reference value="ValueSet/jdv-depistage-neonatal-cisis"/>
+      </reference>
+      <name value="Jdv Depistage Naonatal CISIS"/>
+      <description value="Jdv Depistage Naonatal CISIS"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
         <reference value="ValueSet/jdv-deplacement-cisis"/>
       </reference>
       <name value="JDV Deplacement CISIS"/>
@@ -18791,6 +18813,17 @@
         <valueString value="ValueSet"/>
       </extension>
       <reference>
+        <reference value="ValueSet/jdv-etat-psychique-cisis"/>
+      </reference>
+      <name value="JDV Etat Psychique CISIS"/>
+      <description value="JDV Etat Psychique CISIS"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
         <reference value="ValueSet/jdv-etiologie-avc-cisis"/>
       </reference>
       <name value="JDV Etiologie Avc CISIS"/>
@@ -18905,6 +18938,17 @@
       </reference>
       <name value="JDV Evenement Accouchement CISIS"/>
       <description value="JDV Evenement Accouchement CISIS"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/jdv-evolution-cisis"/>
+      </reference>
+      <name value="JDV Evolution CISIS"/>
+      <description value="JDV Evolution CISIS"/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -19154,6 +19198,17 @@
         <valueString value="ValueSet"/>
       </extension>
       <reference>
+        <reference value="ValueSet/jdv-gravite-cisis"/>
+      </reference>
+      <name value="JDV Gravite CISIS"/>
+      <description value="JDV Gravite CISIS"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
         <reference value="ValueSet/jdv-groupe-rhesus-cisis"/>
       </reference>
       <name value="JDV Groupe Rhesus CISIS"/>
@@ -19279,6 +19334,17 @@
       </reference>
       <name value="JDV Importance Clinique CISIS"/>
       <description value="JDV Importance Clinique CISIS"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/jdv-imputabilite-cisis"/>
+      </reference>
+      <name value="JDV Imputabilite CISIS"/>
+      <description value="JDV Imputabilite CISIS"/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -20001,6 +20067,17 @@
         <valueString value="ValueSet"/>
       </extension>
       <reference>
+        <reference value="ValueSet/jdv-modificateur-topographique-cisis"/>
+      </reference>
+      <name value="JDV Modificateur Topographique CISIS"/>
+      <description value="JDV Modificateur Topographique CISIS"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
         <reference value="ValueSet/jdv-morphologie-cisis"/>
       </reference>
       <name value="JDV Morphologie CISIS"/>
@@ -20137,6 +20214,17 @@
       </reference>
       <name value="JDV Nihss Champ Visuel CISIS"/>
       <description value="JDV Nihss Champ Visuel CISIS"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/jdv-nihss-commandes-cisis"/>
+      </reference>
+      <name value="JDV Nihss Commandes CISIS"/>
+      <description value="JDV Nihss Commandes CISIS"/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -20335,6 +20423,17 @@
       </reference>
       <name value="JDV Observation Enfant CISIS"/>
       <description value="JDV Observation Enfant CISIS"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/jdv-observation-etat-patient-cisis"/>
+      </reference>
+      <name value="JDV Observation Etat Patient CISIS"/>
+      <description value="JDV Observation Etat Patient CISIS"/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -20639,6 +20738,17 @@
         <valueString value="ValueSet"/>
       </extension>
       <reference>
+        <reference value="ValueSet/jdv-realisation-activite-cisis"/>
+      </reference>
+      <name value="JDV Realisation Activite CISIS"/>
+      <description value="JDV Realisation Activite CISIS"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
         <reference value="ValueSet/jdv-recherche-aghbs-cisis"/>
       </reference>
       <name value="JDV Recherche Aghbs CISIS"/>
@@ -20815,6 +20925,17 @@
         <valueString value="ValueSet"/>
       </extension>
       <reference>
+        <reference value="ValueSet/jdv-resultat-depistage-crp-cisis"/>
+      </reference>
+      <name value="JDV Resultat Depistage Crp CISIS"/>
+      <description value="JDV Resultat Depistage Crp CISIS"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
         <reference value="ValueSet/jdv-resultat-depistage-glucose-cisis"/>
       </reference>
       <name value="JDV Resultat Depistage Glucose CISIS"/>
@@ -20881,6 +21002,17 @@
         <valueString value="ValueSet"/>
       </extension>
       <reference>
+        <reference value="ValueSet/jdv-resultat-depistage-rupture-membrane-ph-cisis"/>
+      </reference>
+      <name value="JDV Resultat Depistage Rupture Membrane Ph CISIS"/>
+      <description value="JDV Resultat Depistage Rupture Membrane Ph CISIS"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
         <reference value="ValueSet/jdv-resultat-depistage-surdite-cisis"/>
       </reference>
       <name value="JDV Resultat Depistage Surdite CISIS"/>
@@ -20940,6 +21072,17 @@
       </reference>
       <name value="JDV Resultat Recherche Hpv Ccu CISIS"/>
       <description value="JDV Resultat Recherche Hpv Ccu CISIS"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/jdv-resultat-depistage-cisis"/>
+      </reference>
+      <name value="JDV ResultatDepistage CISIS"/>
+      <description value="JDV ResultatDepistage CISIS"/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -21178,6 +21321,17 @@
         <valueString value="ValueSet"/>
       </extension>
       <reference>
+        <reference value="ValueSet/jdv-sedentarite-cisis"/>
+      </reference>
+      <name value="JDV Sedentarite CISIS"/>
+      <description value="JDV Sedentarite CISIS"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
         <reference value="ValueSet/jdv-severite-observation-cisis"/>
       </reference>
       <name value="JDV Severite Observation CISIS"/>
@@ -21380,6 +21534,17 @@
       </reference>
       <name value="JDV Statut Resultat CISIS"/>
       <description value="JDV Statut Resultat CISIS"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/jdv-statut-tabagique-cisis"/>
+      </reference>
+      <name value="JDV Statut Tabagique CISIS"/>
+      <description value="JDV Statut Tabagique CISIS"/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
