@@ -1,11 +1,11 @@
 {
   "resourceType" : "ValueSet",
-  "id" : "bd96fffb-34b7-42b9-bf8c-6fe7c155df97-1031",
-  "url" : "http://hl7.org/fhir/comparison/ValueSet/bd96fffb-34b7-42b9-bf8c-6fe7c155df97-1031",
+  "id" : "a28af4a5-f03a-4096-bc69-a6c1d6c9fcbb-1031",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/a28af4a5-f03a-4096-bc69-a6c1d6c9fcbb-1031",
   "name" : "UnionJDV_J16_ActeSpecifique_RORAndJDV_J16_ActeSpecifique_ROR",
   "title" : "Union of null And null",
   "status" : "active",
-  "date" : "2025-06-25T14:57:40+00:00",
+  "date" : "2025-06-25T15:52:49+00:00",
   "jurisdiction" : [{
     "coding" : [{
       "system" : "urn:iso:std:iso:3166",
@@ -4637,6 +4637,14 @@
       {
         "code" : "1511",
         "display" : "Accompagnement précoce des déficiences"
+      },
+      {
+        "code" : "0897",
+        "display" : "Drainage Vaccination épidémie Grippe"
+      },
+      {
+        "code" : "0898",
+        "display" : "Dépistage du diabète"
       },
       {
         "code" : "1512",

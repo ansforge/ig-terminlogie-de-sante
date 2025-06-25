@@ -1807,6 +1807,12 @@
          <Concept code="0896"
                   codeSystem="1.2.250.1.213.3.3.11"
                   displayName="Drainage bronchique"/>
+         <Concept code="0897"
+                  codeSystem="1.2.250.1.213.3.3.11"
+                  displayName="Drainage Vaccination épidémie Grippe"/>
+         <Concept code="0898"
+                  codeSystem="1.2.250.1.213.3.3.11"
+                  displayName="Dépistage du diabète"/>
          <Concept code="0909"
                   codeSystem="1.2.250.1.213.3.3.11"
                   displayName="Prévention et gestion des maladies infectieuses transmissibles"/>

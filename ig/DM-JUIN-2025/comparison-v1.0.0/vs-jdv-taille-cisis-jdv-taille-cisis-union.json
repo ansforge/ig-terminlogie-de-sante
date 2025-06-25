@@ -1,11 +1,11 @@
 {
   "resourceType" : "ValueSet",
-  "id" : "bd96fffb-34b7-42b9-bf8c-6fe7c155df97-2681",
-  "url" : "http://hl7.org/fhir/comparison/ValueSet/bd96fffb-34b7-42b9-bf8c-6fe7c155df97-2681",
+  "id" : "a28af4a5-f03a-4096-bc69-a6c1d6c9fcbb-2681",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/a28af4a5-f03a-4096-bc69-a6c1d6c9fcbb-2681",
   "name" : "UnionJdvTailleCisisAndJdvTailleCisis",
   "title" : "Union of JDV Taille CISIS And JDV Taille CISIS",
   "status" : "active",
-  "date" : "2025-06-25T14:57:41+00:00",
+  "date" : "2025-06-25T15:52:49+00:00",
   "jurisdiction" : [{
     "coding" : [{
       "system" : "urn:iso:std:iso:3166",

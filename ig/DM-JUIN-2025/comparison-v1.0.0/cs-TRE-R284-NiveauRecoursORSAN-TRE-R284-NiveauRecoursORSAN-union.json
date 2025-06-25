@@ -1,11 +1,11 @@
 {
   "resourceType" : "CodeSystem",
-  "id" : "bd96fffb-34b7-42b9-bf8c-6fe7c155df97-398",
-  "url" : "http://hl7.org/fhir/comparison/CodeSystem/bd96fffb-34b7-42b9-bf8c-6fe7c155df97-398",
+  "id" : "a28af4a5-f03a-4096-bc69-a6c1d6c9fcbb-398",
+  "url" : "http://hl7.org/fhir/comparison/CodeSystem/a28af4a5-f03a-4096-bc69-a6c1d6c9fcbb-398",
   "name" : "UnionTRE_R284_NiveauRecoursORSANAndTRE_R284_NiveauRecoursORSAN",
   "title" : "Union of null And null",
   "status" : "active",
-  "date" : "2025-06-25T14:57:40+00:00",
+  "date" : "2025-06-25T15:52:48+00:00",
   "jurisdiction" : [{
     "coding" : [{
       "system" : "urn:iso:std:iso:3166",
