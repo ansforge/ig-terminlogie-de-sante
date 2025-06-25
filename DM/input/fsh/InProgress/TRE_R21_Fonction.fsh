@@ -383,10 +383,10 @@ Description: "Fonction"
 * #FON-59 ^property[=].valueDateTime = "2024-03-29T12:00:00+01:00"
 * #FON-59 ^property[+].code = #dateMaj
 * #FON-59 ^property[=].valueDateTime = "2024-03-29T12:00:00+01:00"
-* #FON-60 "Pharmacien remplaçant Bonnes Pratiques de Dispensation d'Oxygène"
+* #FON-60 "Pharmacien remplaçant BPDO"
 * #FON-60 ^designation[0].language = #fr-FR
 * #FON-60 ^designation[=].use = $sct#900000000000013009
-* #FON-60 ^designation[=].value = "Pharmacien remplaçant BPDO"
+* #FON-60 ^designation[=].value = "Pharmacien remplaçant Bonnes Pratiques de Dispensation d'Oxygène"
 * #FON-60 ^property[0].code = #dateValid
 * #FON-60 ^property[=].valueDateTime = "2025-06-23T12:00:00+01:00"
 * #FON-60 ^property[+].code = #dateMaj
