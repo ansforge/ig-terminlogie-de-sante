@@ -840,7 +840,7 @@
     "id" : "JDV-J16-ActeSpecifique-ROR",
     "type" : "ValueSet",
     "url" : "https://mos.esante.gouv.fr/NOS/JDV_J16-ActeSpecifique-ROR/FHIR/JDV-J16-ActeSpecifique-ROR",
-    "version" : "20250623120000",
+    "version" : "20250625120000",
     "name" : "JDV_J16_ActeSpecifique_ROR",
     "oids" : ["1.2.250.1.213.3.4.4"]
   },

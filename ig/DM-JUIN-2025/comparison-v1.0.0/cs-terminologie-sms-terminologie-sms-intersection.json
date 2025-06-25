@@ -1,11 +1,11 @@
 {
   "resourceType" : "CodeSystem",
-  "id" : "a28af4a5-f03a-4096-bc69-a6c1d6c9fcbb-801",
-  "url" : "http://hl7.org/fhir/comparison/CodeSystem/a28af4a5-f03a-4096-bc69-a6c1d6c9fcbb-801",
+  "id" : "56e47bdd-fcb8-49e4-af66-5177c8c36583-801",
+  "url" : "http://hl7.org/fhir/comparison/CodeSystem/56e47bdd-fcb8-49e4-af66-5177c8c36583-801",
   "name" : "IntersectionDictionnaire_SMS_Substance_Management_Services_AndDictionnaire_SMS_Substance_Management_Services_",
   "title" : "Intersection of Dictionnaire européen multilingue des substances entrant dans la composition de médicaments And Dictionnaire européen multilingue des substances entrant dans la composition de médicaments",
   "status" : "active",
-  "date" : "2025-06-25T15:52:49+00:00",
+  "date" : "2025-06-25T16:35:28+00:00",
   "jurisdiction" : [{
     "coding" : [{
       "system" : "urn:iso:std:iso:3166",

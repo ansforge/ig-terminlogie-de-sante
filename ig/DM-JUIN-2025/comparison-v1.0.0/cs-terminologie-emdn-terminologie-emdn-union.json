@@ -1,11 +1,11 @@
 {
   "resourceType" : "CodeSystem",
-  "id" : "a28af4a5-f03a-4096-bc69-a6c1d6c9fcbb-788",
-  "url" : "http://hl7.org/fhir/comparison/CodeSystem/a28af4a5-f03a-4096-bc69-a6c1d6c9fcbb-788",
+  "id" : "56e47bdd-fcb8-49e4-af66-5177c8c36583-788",
+  "url" : "http://hl7.org/fhir/comparison/CodeSystem/56e47bdd-fcb8-49e4-af66-5177c8c36583-788",
   "name" : "UnionEMDNAndEMDN",
   "title" : "Union of European Medical device nomenclature And European Medical device nomenclature",
   "status" : "active",
-  "date" : "2025-06-25T15:52:48+00:00",
+  "date" : "2025-06-25T16:35:28+00:00",
   "jurisdiction" : [{
     "coding" : [{
       "system" : "urn:iso:std:iso:3166",

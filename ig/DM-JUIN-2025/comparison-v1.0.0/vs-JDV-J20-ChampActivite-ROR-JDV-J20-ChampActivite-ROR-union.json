@@ -1,11 +1,11 @@
 {
   "resourceType" : "ValueSet",
-  "id" : "a28af4a5-f03a-4096-bc69-a6c1d6c9fcbb-1151",
-  "url" : "http://hl7.org/fhir/comparison/ValueSet/a28af4a5-f03a-4096-bc69-a6c1d6c9fcbb-1151",
+  "id" : "56e47bdd-fcb8-49e4-af66-5177c8c36583-1151",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/56e47bdd-fcb8-49e4-af66-5177c8c36583-1151",
   "name" : "UnionJDV_J20_ChampActivite_RORAndJDV_J20_ChampActivite_ROR",
   "title" : "Union of null And null",
   "status" : "active",
-  "date" : "2025-06-25T15:52:49+00:00",
+  "date" : "2025-06-25T16:35:28+00:00",
   "jurisdiction" : [{
     "coding" : [{
       "system" : "urn:iso:std:iso:3166",

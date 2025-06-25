@@ -1,11 +1,11 @@
 {
   "resourceType" : "ValueSet",
-  "id" : "a28af4a5-f03a-4096-bc69-a6c1d6c9fcbb-1595",
-  "url" : "http://hl7.org/fhir/comparison/ValueSet/a28af4a5-f03a-4096-bc69-a6c1d6c9fcbb-1595",
+  "id" : "56e47bdd-fcb8-49e4-af66-5177c8c36583-1595",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/56e47bdd-fcb8-49e4-af66-5177c8c36583-1595",
   "name" : "UnionJDV_TRE_R222_MediaTypeCorpsCDANonStructureAndJDV_TRE_R222_MediaTypeCorpsCDANonStructure",
   "title" : "Union of JDV-MediaTypeCorpsCDANonStructure And JDV-MediaTypeCorpsCDANonStructure",
   "status" : "active",
-  "date" : "2025-06-25T15:52:49+00:00",
+  "date" : "2025-06-25T16:35:28+00:00",
   "jurisdiction" : [{
     "coding" : [{
       "system" : "urn:iso:std:iso:3166",

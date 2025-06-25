@@ -1,11 +1,11 @@
 {
   "resourceType" : "CodeSystem",
-  "id" : "a28af4a5-f03a-4096-bc69-a6c1d6c9fcbb-248",
-  "url" : "http://hl7.org/fhir/comparison/CodeSystem/a28af4a5-f03a-4096-bc69-a6c1d6c9fcbb-248",
+  "id" : "56e47bdd-fcb8-49e4-af66-5177c8c36583-248",
+  "url" : "http://hl7.org/fhir/comparison/CodeSystem/56e47bdd-fcb8-49e4-af66-5177c8c36583-248",
   "name" : "UnionTRE_R232_TypeFermetureEJAndTRE_R232_TypeFermetureEJ",
   "title" : "Union of null And null",
   "status" : "retired",
-  "date" : "2025-06-25T15:52:48+00:00",
+  "date" : "2025-06-25T16:35:28+00:00",
   "jurisdiction" : [{
     "coding" : [{
       "system" : "urn:iso:std:iso:3166",
