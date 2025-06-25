@@ -344,7 +344,7 @@
     },
     {
       "url" : "https://mos.esante.gouv.fr/NOS/TRE_R04-TypeSavoirFaire/FHIR/TRE-R04-TypeSavoirFaire",
-      "version" : "20231215120000",
+      "version" : "20250625120000",
       "status" : "active",
       "name" : "TRE_R04_TypeSavoirFaire",
       "title" : null,
@@ -857,7 +857,7 @@
     },
     {
       "url" : "https://mos.esante.gouv.fr/NOS/TRE_R244-CategorieOrganisation/FHIR/TRE-R244-CategorieOrganisation",
-      "version" : "20250425120000",
+      "version" : "20250625120000",
       "status" : "active",
       "name" : "TRE_R244_CategorieOrganisation",
       "title" : null,
@@ -2312,6 +2312,15 @@
       "title" : "Tre R393 Type Contrat Sejour",
       "description" : "Type de contrat conclu entre l’établissement/service et la personne/son représentant légal lors de son entrée en établissement",
       "oids" : ["1.2.250.1.213.3.3.260"]
+    },
+    {
+      "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r394-competence-metier",
+      "version" : "20250625120000",
+      "status" : "active",
+      "name" : "TreR394CompetenceMetier",
+      "title" : "Tre R394 Competence Metier",
+      "description" : "Type de savoir-faire opérationnel, transversal ou spécifique, acquis et exercé à titre non exclusif dans le cadre d’une activité professionnelle reconnue.",
+      "oids" : ["1.2.250.1.213.1.6.1.375"]
     },
     {
       "url" : "https://smt.esante.gouv.fr/terminologie-SERAFINPH",

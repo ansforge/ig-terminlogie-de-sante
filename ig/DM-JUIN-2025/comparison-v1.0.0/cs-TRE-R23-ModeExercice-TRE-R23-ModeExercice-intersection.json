@@ -1,11 +1,11 @@
 {
   "resourceType" : "CodeSystem",
-  "id" : "b74bd7d8-dcb7-4f93-a7ba-b867d22e3b41-240",
-  "url" : "http://hl7.org/fhir/comparison/CodeSystem/b74bd7d8-dcb7-4f93-a7ba-b867d22e3b41-240",
+  "id" : "bd96fffb-34b7-42b9-bf8c-6fe7c155df97-240",
+  "url" : "http://hl7.org/fhir/comparison/CodeSystem/bd96fffb-34b7-42b9-bf8c-6fe7c155df97-240",
   "name" : "IntersectionTRE_R23_ModeExerciceAndTRE_R23_ModeExercice",
   "title" : "Intersection of null And null",
   "status" : "active",
-  "date" : "2025-06-23T15:02:05+00:00",
+  "date" : "2025-06-25T14:57:40+00:00",
   "jurisdiction" : [{
     "coding" : [{
       "system" : "urn:iso:std:iso:3166",

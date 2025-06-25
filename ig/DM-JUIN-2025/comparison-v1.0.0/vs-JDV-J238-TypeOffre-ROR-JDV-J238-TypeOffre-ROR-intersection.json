@@ -1,11 +1,11 @@
 {
   "resourceType" : "ValueSet",
-  "id" : "b74bd7d8-dcb7-4f93-a7ba-b867d22e3b41-1275",
-  "url" : "http://hl7.org/fhir/comparison/ValueSet/b74bd7d8-dcb7-4f93-a7ba-b867d22e3b41-1275",
+  "id" : "bd96fffb-34b7-42b9-bf8c-6fe7c155df97-1275",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/bd96fffb-34b7-42b9-bf8c-6fe7c155df97-1275",
   "name" : "IntersectionJDV_J238_TypeOffre_RORAndJDV_J238_TypeOffre_ROR",
   "title" : "Intersection of null And null",
   "status" : "active",
-  "date" : "2025-06-23T15:02:06+00:00",
+  "date" : "2025-06-25T14:57:40+00:00",
   "jurisdiction" : [{
     "coding" : [{
       "system" : "urn:iso:std:iso:3166",
@@ -632,7 +632,7 @@
       },
       {
         "code" : "157",
-        "display" : "Unité hospitalière de gynécologie"
+        "display" : "Unité hospitalière de gynécologie et/ou obstétrique"
       },
       {
         "code" : "158",
@@ -780,7 +780,7 @@
       },
       {
         "code" : "194",
-        "display" : "Cabinet de ville de gynécologie"
+        "display" : "Cabinet de ville de gynécologie et/ou obstétrique"
       },
       {
         "code" : "195",
@@ -948,7 +948,7 @@
       },
       {
         "code" : "236",
-        "display" : "Unité hospitalière d'orthopédie dento-faciale (odontologie)"
+        "display" : "Unité hospitalière d'odontologie"
       },
       {
         "code" : "237",

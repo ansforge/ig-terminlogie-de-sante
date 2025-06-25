@@ -18,7 +18,7 @@
   fhir:name [ fhir:v "Terminologies"] ; # 
   fhir:title [ fhir:v "Terminologies  de Santé"] ; # 
   fhir:status [ fhir:v "active"] ; # 
-  fhir:date [ fhir:v "2025-06-23T14:52:27+00:00"^^xsd:dateTime] ; # 
+  fhir:date [ fhir:v "2025-06-25T14:46:29+00:00"^^xsd:dateTime] ; # 
   fhir:publisher [ fhir:v "ANS"] ; # 
   fhir:contact ( [
      fhir:name [ fhir:v "ANS" ] ;
@@ -47014,8 +47014,8 @@
          fhir:link <https://interop.esante.gouv.fr/terminologies/ValueSet/jdv-contre-indication-cisis> ;
          fhir:reference [ fhir:v "ValueSet/jdv-contre-indication-cisis" ]
        ] ;
-       fhir:name [ fhir:v "JDV Contre-indication CISIS" ] ;
-       fhir:description [ fhir:v "JDV Contre-indication CISIS" ] ;
+       fhir:name [ fhir:v "JDV Contrindication CISIS" ] ;
+       fhir:description [ fhir:v "JDV Contrindication CISIS" ] ;
        fhir:example [
          a fhir:boolean ;
          fhir:v false
@@ -47032,8 +47032,8 @@
          fhir:link <https://interop.esante.gouv.fr/terminologies/ValueSet/jdv-contreindication-thrombolyse-cisis> ;
          fhir:reference [ fhir:v "ValueSet/jdv-contreindication-thrombolyse-cisis" ]
        ] ;
-       fhir:name [ fhir:v "JDV Contreindication Thrombolyse CISIS" ] ;
-       fhir:description [ fhir:v "JDV Contreindication Thrombolyse CISIS" ] ;
+       fhir:name [ fhir:v "JDV Contrindication Thrombolyse CISIS" ] ;
+       fhir:description [ fhir:v "JDV Contrindication Thrombolyse CISIS" ] ;
        fhir:example [
          a fhir:boolean ;
          fhir:v false
@@ -47158,8 +47158,8 @@
          fhir:link <https://interop.esante.gouv.fr/terminologies/ValueSet/jdv-depistage-neonatal-cisis> ;
          fhir:reference [ fhir:v "ValueSet/jdv-depistage-neonatal-cisis" ]
        ] ;
-       fhir:name [ fhir:v "Jdv Depistage Naonatal CISIS" ] ;
-       fhir:description [ fhir:v "Jdv Depistage Naonatal CISIS" ] ;
+       fhir:name [ fhir:v "Jdv Depistage Neonatal CISIS" ] ;
+       fhir:description [ fhir:v "Jdv Depistage Neonatal CISIS" ] ;
        fhir:example [
          a fhir:boolean ;
          fhir:v false
@@ -47302,8 +47302,8 @@
          fhir:link <https://interop.esante.gouv.fr/terminologies/ValueSet/jdv-disposition-pretherapeutique-cisis> ;
          fhir:reference [ fhir:v "ValueSet/jdv-disposition-pretherapeutique-cisis" ]
        ] ;
-       fhir:name [ fhir:v "JDV DispositionPretherapeutique CISIS" ] ;
-       fhir:description [ fhir:v "JDV DispositionPretherapeutique CISIS" ] ;
+       fhir:name [ fhir:v "JDV Disposition Pretherapeutique CISIS" ] ;
+       fhir:description [ fhir:v "JDV Disposition Pretherapeutique CISIS" ] ;
        fhir:example [
          a fhir:boolean ;
          fhir:v false
@@ -49531,6 +49531,24 @@
          ]
        ] ) ;
        fhir:reference [
+         fhir:link <https://interop.esante.gouv.fr/terminologies/ValueSet/jdv-motif-declenchement-travail-cisis> ;
+         fhir:reference [ fhir:v "ValueSet/jdv-motif-declenchement-travail-cisis" ]
+       ] ;
+       fhir:name [ fhir:v "JDV Motif Declenchement Travail CISIS" ] ;
+       fhir:description [ fhir:v "JDV Motif Declenchement Travail CISIS" ] ;
+       fhir:example [
+         a fhir:boolean ;
+         fhir:v false
+       ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [
+           a fhir:string ;
+           fhir:v "ValueSet"
+         ]
+       ] ) ;
+       fhir:reference [
          fhir:link <https://interop.esante.gouv.fr/terminologies/ValueSet/jdv-motif-diagnostic-cisis> ;
          fhir:reference [ fhir:v "ValueSet/jdv-motif-diagnostic-cisis" ]
        ] ;
@@ -49608,24 +49626,6 @@
        ] ;
        fhir:name [ fhir:v "JDV Motif Non Realisation Evenement CISIS" ] ;
        fhir:description [ fhir:v "JDV Motif Non Realisation Evenement CISIS" ] ;
-       fhir:example [
-         a fhir:boolean ;
-         fhir:v false
-       ]
-     ] [
-       fhir:extension ( [
-         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
-         fhir:value [
-           a fhir:string ;
-           fhir:v "ValueSet"
-         ]
-       ] ) ;
-       fhir:reference [
-         fhir:link <https://interop.esante.gouv.fr/terminologies/ValueSet/jdv-motif-declenchement-travail-cisis> ;
-         fhir:reference [ fhir:v "ValueSet/jdv-motif-declenchement-travail-cisis" ]
-       ] ;
-       fhir:name [ fhir:v "JDV MotifDeclenchementTravail CISIS" ] ;
-       fhir:description [ fhir:v "JDV MotifDeclenchementTravail CISIS" ] ;
        fhir:example [
          a fhir:boolean ;
          fhir:v false
@@ -49891,6 +49891,24 @@
          ]
        ] ) ;
        fhir:reference [
+         fhir:link <https://interop.esante.gouv.fr/terminologies/ValueSet/jdv-nihss-paralysie-faciale-cisis> ;
+         fhir:reference [ fhir:v "ValueSet/jdv-nihss-paralysie-faciale-cisis" ]
+       ] ;
+       fhir:name [ fhir:v "JDV Nihss Paralysie Faciale CISIS" ] ;
+       fhir:description [ fhir:v "JDV Nihss Paralysie Faciale CISIS" ] ;
+       fhir:example [
+         a fhir:boolean ;
+         fhir:v false
+       ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [
+           a fhir:string ;
+           fhir:v "ValueSet"
+         ]
+       ] ) ;
+       fhir:reference [
          fhir:link <https://interop.esante.gouv.fr/terminologies/ValueSet/jdv-nihss-questions-cisis> ;
          fhir:reference [ fhir:v "ValueSet/jdv-nihss-questions-cisis" ]
        ] ;
@@ -49909,29 +49927,11 @@
          ]
        ] ) ;
        fhir:reference [
-         fhir:link <https://interop.esante.gouv.fr/terminologies/ValueSet/jdv-nihss-paralysie-faciale-cisis> ;
-         fhir:reference [ fhir:v "ValueSet/jdv-nihss-paralysie-faciale-cisis" ]
-       ] ;
-       fhir:name [ fhir:v "JDV nihss-paralysie-faciale CISIS" ] ;
-       fhir:description [ fhir:v "JDV nihss-paralysie-faciale CISIS" ] ;
-       fhir:example [
-         a fhir:boolean ;
-         fhir:v false
-       ]
-     ] [
-       fhir:extension ( [
-         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
-         fhir:value [
-           a fhir:string ;
-           fhir:v "ValueSet"
-         ]
-       ] ) ;
-       fhir:reference [
          fhir:link <https://interop.esante.gouv.fr/terminologies/ValueSet/jdv-nihss-sensibilite-cisis> ;
          fhir:reference [ fhir:v "ValueSet/jdv-nihss-sensibilite-cisis" ]
        ] ;
-       fhir:name [ fhir:v "JDV nihss-sensibilite CISIS" ] ;
-       fhir:description [ fhir:v "JDV nihss-sensibilite CISIS" ] ;
+       fhir:name [ fhir:v "JDV Nihss Sensibilite CISIS" ] ;
+       fhir:description [ fhir:v "JDV Nihss Sensibilite CISIS" ] ;
        fhir:example [
          a fhir:boolean ;
          fhir:v false
@@ -50290,8 +50290,8 @@
          fhir:link <https://interop.esante.gouv.fr/terminologies/ValueSet/jdv-presentation-foetale-cisis> ;
          fhir:reference [ fhir:v "ValueSet/jdv-presentation-foetale-cisis" ]
        ] ;
-       fhir:name [ fhir:v "JDV PresentationFoetale CISIS" ] ;
-       fhir:description [ fhir:v "JDV PresentationFoetale CISIS" ] ;
+       fhir:name [ fhir:v "JDV Presentation Foetale CISIS" ] ;
+       fhir:description [ fhir:v "JDV Presentation Foetale CISIS" ] ;
        fhir:example [
          a fhir:boolean ;
          fhir:v false
@@ -50863,6 +50863,24 @@
          ]
        ] ) ;
        fhir:reference [
+         fhir:link <https://interop.esante.gouv.fr/terminologies/ValueSet/jdv-resultat-depistage-cisis> ;
+         fhir:reference [ fhir:v "ValueSet/jdv-resultat-depistage-cisis" ]
+       ] ;
+       fhir:name [ fhir:v "JDV Resultat Depistage CISIS" ] ;
+       fhir:description [ fhir:v "JDV Resultat Depistage CISIS" ] ;
+       fhir:example [
+         a fhir:boolean ;
+         fhir:v false
+       ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [
+           a fhir:string ;
+           fhir:v "ValueSet"
+         ]
+       ] ) ;
+       fhir:reference [
          fhir:link <https://interop.esante.gouv.fr/terminologies/ValueSet/jdv-resultat-depistage-corps-cetoniques-cisis> ;
          fhir:reference [ fhir:v "ValueSet/jdv-resultat-depistage-corps-cetoniques-cisis" ]
        ] ;
@@ -51120,24 +51138,6 @@
        ] ;
        fhir:name [ fhir:v "JDV Resultat Recherche Hpv Ccu CISIS" ] ;
        fhir:description [ fhir:v "JDV Resultat Recherche Hpv Ccu CISIS" ] ;
-       fhir:example [
-         a fhir:boolean ;
-         fhir:v false
-       ]
-     ] [
-       fhir:extension ( [
-         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
-         fhir:value [
-           a fhir:string ;
-           fhir:v "ValueSet"
-         ]
-       ] ) ;
-       fhir:reference [
-         fhir:link <https://interop.esante.gouv.fr/terminologies/ValueSet/jdv-resultat-depistage-cisis> ;
-         fhir:reference [ fhir:v "ValueSet/jdv-resultat-depistage-cisis" ]
-       ] ;
-       fhir:name [ fhir:v "JDV ResultatDepistage CISIS" ] ;
-       fhir:description [ fhir:v "JDV ResultatDepistage CISIS" ] ;
        fhir:example [
          a fhir:boolean ;
          fhir:v false
@@ -58714,6 +58714,24 @@
        ] ;
        fhir:name [ fhir:v "Tre R393 Type Contrat Sejour" ] ;
        fhir:description [ fhir:v "Type de contrat conclu entre l’établissement/service et la personne/son représentant légal lors de son entrée en établissement" ] ;
+       fhir:example [
+         a fhir:boolean ;
+         fhir:v false
+       ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [
+           a fhir:string ;
+           fhir:v "CodeSystem"
+         ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <https://interop.esante.gouv.fr/terminologies/CodeSystem/tre-r394-competence-metier> ;
+         fhir:reference [ fhir:v "CodeSystem/tre-r394-competence-metier" ]
+       ] ;
+       fhir:name [ fhir:v "Tre R394 Competence Metier" ] ;
+       fhir:description [ fhir:v "Type de savoir-faire opérationnel, transversal ou spécifique, acquis et exercé à titre non exclusif dans le cadre d’une activité professionnelle reconnue." ] ;
        fhir:example [
          a fhir:boolean ;
          fhir:v false

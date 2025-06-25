@@ -1,11 +1,11 @@
 {
   "resourceType" : "ValueSet",
-  "id" : "b74bd7d8-dcb7-4f93-a7ba-b867d22e3b41-2742",
-  "url" : "http://hl7.org/fhir/comparison/ValueSet/b74bd7d8-dcb7-4f93-a7ba-b867d22e3b41-2742",
+  "id" : "bd96fffb-34b7-42b9-bf8c-6fe7c155df97-2742",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/bd96fffb-34b7-42b9-bf8c-6fe7c155df97-2742",
   "name" : "IntersectionJdvTrousseCcuCisisAndJdvTrousseCcuCisis",
   "title" : "Intersection of JDV Trousse Ccu CISIS And JDV Trousse Ccu CISIS",
   "status" : "active",
-  "date" : "2025-06-23T15:02:06+00:00",
+  "date" : "2025-06-25T14:57:41+00:00",
   "jurisdiction" : [{
     "coding" : [{
       "system" : "urn:iso:std:iso:3166",
@@ -42,7 +42,7 @@
       },
       {
         "code" : "VHEDNGGUP01LX",
-        "display" : "GENOMICA - CLART HPV4S ()"
+        "display" : "GENOMICA -CLART HPV4S (?)"
       },
       {
         "code" : "VHEDB2GUP01LX",
@@ -58,11 +58,11 @@
       },
       {
         "code" : "VHEDHUGYA01LX",
-        "display" : "QIAGEN - Digene HC2 High - Risk HPV DNA (5197-1330/618111)"
+        "display" : "QIAGEN -Digene HC2 High - Risk HPV DNA (5197-1330; 618111)"
       },
       {
         "code" : "VHEDARGUR01LX",
-        "display" : "ROCHE DIAGNOSTICS - Cobas 4800 HPV Test (05235910190/05235901190)"
+        "display" : "ROCHE DIAGNOSTICS -Cobas 4800 HPV Test (05235910190; 05235901190)"
       },
       {
         "code" : "VHEDARGUR02LX",
@@ -82,11 +82,11 @@
       },
       {
         "code" : "VHEDACGUP01LX",
-        "display" : "Euroimmun EUROArray HPV"
+        "display" : "EUROIMMUN -EUROArray HPV (MN 2540-0505; MN 2540-0803; MN 2540-1005; MN 2540-2005)"
       },
       {
         "code" : "VHEDEBGUR01LX",
-        "display" : "AB ANALITICA Realquality RQ-HPV Screen"
+        "display" : "AB ANALITICA -REALQUALITY RQ-HPV Screen (RQ-123-4M; RQ-123-6M)"
       }]
     }]
   }

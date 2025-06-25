@@ -1,11 +1,11 @@
 {
   "resourceType" : "ValueSet",
-  "id" : "b74bd7d8-dcb7-4f93-a7ba-b867d22e3b41-2909",
-  "url" : "http://hl7.org/fhir/comparison/ValueSet/b74bd7d8-dcb7-4f93-a7ba-b867d22e3b41-2909",
+  "id" : "bd96fffb-34b7-42b9-bf8c-6fe7c155df97-2909",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/bd96fffb-34b7-42b9-bf8c-6fe7c155df97-2909",
   "name" : "UnionJdvUfcvLocalisationSondeCisisAndJdvUfcvLocalisationSondeCisis",
   "title" : "Union of JDV UFCV Localisation Sonde CISIS And JDV UFCV Localisation Sonde CISIS",
   "status" : "active",
-  "date" : "2025-06-23T15:02:06+00:00",
+  "date" : "2025-06-25T14:57:41+00:00",
   "jurisdiction" : [{
     "coding" : [{
       "system" : "urn:iso:std:iso:3166",

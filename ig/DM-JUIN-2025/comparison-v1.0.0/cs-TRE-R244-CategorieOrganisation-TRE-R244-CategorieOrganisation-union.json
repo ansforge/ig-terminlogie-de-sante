@@ -1,11 +1,11 @@
 {
   "resourceType" : "CodeSystem",
-  "id" : "b74bd7d8-dcb7-4f93-a7ba-b867d22e3b41-284",
-  "url" : "http://hl7.org/fhir/comparison/CodeSystem/b74bd7d8-dcb7-4f93-a7ba-b867d22e3b41-284",
+  "id" : "bd96fffb-34b7-42b9-bf8c-6fe7c155df97-284",
+  "url" : "http://hl7.org/fhir/comparison/CodeSystem/bd96fffb-34b7-42b9-bf8c-6fe7c155df97-284",
   "name" : "UnionTRE_R244_CategorieOrganisationAndTRE_R244_CategorieOrganisation",
   "title" : "Union of null And null",
   "status" : "active",
-  "date" : "2025-06-23T15:02:05+00:00",
+  "date" : "2025-06-25T14:57:40+00:00",
   "jurisdiction" : [{
     "coding" : [{
       "system" : "urn:iso:std:iso:3166",
@@ -5618,6 +5618,10 @@
       "valueDateTime" : "2024-10-25T12:00:00+01:00"
     },
     {
+      "code" : "dateMaj",
+      "valueDateTime" : "2025-06-25T12:00:00+01:00"
+    },
+    {
       "code" : "status",
       "valueCode" : "active"
     }]
@@ -6940,6 +6944,10 @@
     {
       "code" : "dateMaj",
       "valueDateTime" : "2025-01-31T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2025-06-25T12:00:00+01:00"
     },
     {
       "code" : "status",
@@ -8454,6 +8462,10 @@
       "valueDateTime" : "2025-01-31T12:00:00+01:00"
     },
     {
+      "code" : "dateMaj",
+      "valueDateTime" : "2025-06-25T12:00:00+01:00"
+    },
+    {
       "code" : "status",
       "valueCode" : "active"
     }]
@@ -9528,6 +9540,182 @@
     {
       "code" : "dateMaj",
       "valueDateTime" : "2025-04-25T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    }]
+  },
+  {
+    "code" : "268",
+    "display" : "Centre de lutte antituberculeuse (CLAT)",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "CLAT"
+    }],
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2025-06-25T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2025-06-25T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    }]
+  },
+  {
+    "code" : "269",
+    "display" : "Centre de vaccination",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2025-06-25T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2025-06-25T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    }]
+  },
+  {
+    "code" : "270",
+    "display" : "Centre de vaccination internationale",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "Centre vaccin. internationale"
+    }],
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2025-06-25T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2025-06-25T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    }]
+  },
+  {
+    "code" : "271",
+    "display" : "Dialyse à Domicile",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2025-06-25T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2025-06-25T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    }]
+  },
+  {
+    "code" : "272",
+    "display" : "Equipe de Liaison et de Soins en Addictologie (ELSA)",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "ELSA"
+    }],
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2025-06-25T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2025-06-25T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    }]
+  },
+  {
+    "code" : "273",
+    "display" : "Unité d’auto-dialyse assistée (UAD)",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "UAD"
+    }],
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2025-06-25T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2025-06-25T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    }]
+  },
+  {
+    "code" : "274",
+    "display" : "Unité de dialyse en centre lourd",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "Dialyse en centre lourd"
+    }],
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2025-06-25T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2025-06-25T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    }]
+  },
+  {
+    "code" : "275",
+    "display" : "Unité de dialyse Médicalisée (UDM)",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "UDM"
+    }],
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2025-06-25T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2025-06-25T12:00:00+01:00"
     },
     {
       "code" : "status",

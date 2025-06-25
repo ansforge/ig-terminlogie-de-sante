@@ -1,11 +1,11 @@
 {
   "resourceType" : "ValueSet",
-  "id" : "b74bd7d8-dcb7-4f93-a7ba-b867d22e3b41-1409",
-  "url" : "http://hl7.org/fhir/comparison/ValueSet/b74bd7d8-dcb7-4f93-a7ba-b867d22e3b41-1409",
+  "id" : "bd96fffb-34b7-42b9-bf8c-6fe7c155df97-1409",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/bd96fffb-34b7-42b9-bf8c-6fe7c155df97-1409",
   "name" : "UnionJDV_J34_CategorieOrganisation_RORAndJDV_J34_CategorieOrganisation_ROR",
   "title" : "Union of null And null",
   "status" : "active",
-  "date" : "2025-06-23T15:02:06+00:00",
+  "date" : "2025-06-25T14:57:40+00:00",
   "jurisdiction" : [{
     "coding" : [{
       "system" : "urn:iso:std:iso:3166",
@@ -632,7 +632,7 @@
       },
       {
         "code" : "157",
-        "display" : "Unité hospitalière de gynécologie"
+        "display" : "Unité hospitalière de gynécologie et/ou obstétrique"
       },
       {
         "code" : "158",
@@ -780,7 +780,7 @@
       },
       {
         "code" : "194",
-        "display" : "Cabinet de ville de gynécologie"
+        "display" : "Cabinet de ville de gynécologie et/ou obstétrique"
       },
       {
         "code" : "195",
@@ -948,7 +948,7 @@
       },
       {
         "code" : "236",
-        "display" : "Unité hospitalière d'orthopédie dento-faciale (odontologie)"
+        "display" : "Unité hospitalière d'odontologie"
       },
       {
         "code" : "237",
@@ -1073,6 +1073,38 @@
       {
         "code" : "267",
         "display" : "Equipe mobile d'endocrinologie, diabétologie, métabolisme et nutrition"
+      },
+      {
+        "code" : "268",
+        "display" : "Centre de lutte antituberculeuse (CLAT)"
+      },
+      {
+        "code" : "269",
+        "display" : "Centre de vaccination"
+      },
+      {
+        "code" : "270",
+        "display" : "Centre de vaccination internationale"
+      },
+      {
+        "code" : "271",
+        "display" : "Dialyse à Domicile"
+      },
+      {
+        "code" : "272",
+        "display" : "Equipe de Liaison et de Soins en Addictologie (ELSA)"
+      },
+      {
+        "code" : "273",
+        "display" : "Unité d’auto-dialyse assistée (UAD)"
+      },
+      {
+        "code" : "274",
+        "display" : "Unité de dialyse en centre lourd"
+      },
+      {
+        "code" : "275",
+        "display" : "Unité de dialyse Médicalisée (UDM)"
       }]
     }]
   }
