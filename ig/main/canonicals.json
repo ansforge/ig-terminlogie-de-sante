@@ -4965,8 +4965,8 @@
     "id" : "jdv-contre-indication-cisis",
     "type" : "ValueSet",
     "url" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-contre-indication-cisis",
-    "version" : "20250606103857",
-    "name" : "JdvContre_indicationCisis",
+    "version" : "20250616134739",
+    "name" : "JdvContreIndicationCisis",
     "oids" : ["1.2.250.1.213.1.1.5.659"]
   },
   {
@@ -6493,8 +6493,8 @@
     "id" : "jdv-nihss-paralysie-faciale-cisis",
     "type" : "ValueSet",
     "url" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-nihss-paralysie-faciale-cisis",
-    "version" : "20250611134353",
-    "name" : "Jdvnihss_paralysie_facialeCisis",
+    "version" : "20250616134740",
+    "name" : "JdvNihssParalysieFacialeCisis",
     "oids" : ["1.2.250.1.213.1.1.5.184"]
   },
   {
@@ -6509,8 +6509,8 @@
     "id" : "jdv-nihss-sensibilite-cisis",
     "type" : "ValueSet",
     "url" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-nihss-sensibilite-cisis",
-    "version" : "20250611134353",
-    "name" : "Jdvnihss_sensibiliteCisis",
+    "version" : "20250616134740",
+    "name" : "JdvNihssSensibiliteCisis",
     "oids" : ["1.2.250.1.213.1.1.5.190"]
   },
   {
