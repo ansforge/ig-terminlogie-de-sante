@@ -1,5 +1,3 @@
-Alias: $tre-r390-type-projet-personnalise = https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r390-type-projet-personnalise
-
 ValueSet: JdvJ367TypeProjetPersonnaliseMs
 Id: jdv-j367-type-projet-personnalise-ms
 Title: "Jdv J367 Type Projet Personnalise Ms"

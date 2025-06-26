@@ -1,5 +1,3 @@
-Alias: $tre-r393-type-contrat-sejour = https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r393-type-contrat-sejour
-
 ValueSet: JdvJ370TypeContratSejourMs
 Id: jdv-j370-type-contrat-sejour-ms
 Title: "Jdv J370 Type Contrat Sejour Ms"

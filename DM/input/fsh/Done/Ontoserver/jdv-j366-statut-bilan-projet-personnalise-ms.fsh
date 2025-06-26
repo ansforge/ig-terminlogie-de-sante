@@ -1,5 +1,3 @@
-Alias: $tre-r389-statut-bilan-projet-personnalise = https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r389-statut-bilan-projet-personnalise
-
 ValueSet: JdvJ366StatutBilanProjetPersonnaliseMs
 Id: jdv-j366-statut-bilan-projet-personnalise-ms
 Title: "Jdv J366 Statut Bilan Projet Personnalise Ms"

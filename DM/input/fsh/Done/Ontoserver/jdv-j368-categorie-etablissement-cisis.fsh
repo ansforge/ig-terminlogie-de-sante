@@ -1,5 +1,3 @@
-Alias: $tre-r66-categorie-etablissement = https://mos.esante.gouv.fr/NOS/TRE_R66-CategorieEtablissement/FHIR/TRE-R66-CategorieEtablissement
-
 ValueSet: JdvJ368CategorieEtablissementCisis
 Id: jdv-j368-categorie-etablissement-cisis
 Title: "Jdv J368 Categorie Etablissement Cisis"
