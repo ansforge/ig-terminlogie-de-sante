@@ -2,8 +2,8 @@
   "resourceType" : "CodeSystem",
   "id" : "terminologie-standardterms",
   "meta" : {
-    "versionId" : "6",
-    "lastUpdated" : "2025-03-17T13:00:17.744+00:00",
+    "versionId" : "7",
+    "lastUpdated" : "2025-06-26T08:43:48.525+00:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablecodesystem"]
   },
   "text" : {
@@ -21,12 +21,12 @@
     "system" : "https://smt.esante.gouv.fr/",
     "value" : "terminologie-standardterms"
   }],
-  "version" : "2024-06-20",
+  "version" : "2025-03-19",
   "name" : "Standard_terms_EDQM",
   "title" : "Standard Terms Data Base Dictionnaire européen multilingue de termes normalisés descripteurs de médicaments",
   "status" : "active",
   "experimental" : false,
-  "date" : "2024-08-29T00:00:00+00:00",
+  "date" : "2025-06-26T00:00:00+00:00",
   "publisher" : "Agence du numérique en santé",
   "description" : "Les standard terms (ou listes de termes normalisés) ont été établis en réponse à une demande de la Commission européenne. Ils contiennent les formes pharmaceutiques, les voies et/ou les méthodes d’administration, les unités de présentation, ainsi que les conditionnements, les systèmes de fermeture et les dispositifs d’administration des médicaments à usage humain et/ou vétérinaire.",
   "jurisdiction" : [{
@@ -38,7 +38,7 @@
   "copyright" : "[CC BY 4.0](https://creativecommons.org/licenses/by/4.0/legalcode)",
   "valueSet" : "https://smt.esante.gouv.fr/terminologie-standardterms?vs",
   "content" : "complete",
-  "count" : 1287,
+  "count" : 1297,
   "filter" : [{
     "code" : "root",
     "operator" : ["="],
@@ -4368,6 +4368,84 @@
     }]
   },
   {
+    "code" : "13197000",
+    "display" : "Granulés dans une capsule à ouvrir",
+    "definition" : "Préparation unidose constituée de granulés enfermés dans une capsule ressemblant à une gélule. La cvapsule doit être ouverte et tout son contenu doit être administré par voie orale. La capsule elle-même n'est pas avalée et est jetée après ouverture. Pour les préparations constituées d'une capsule qui peut être avalée entière ou ouverte, le terme « gélule » est  utilisé à la place.",
+    "designation" : [{
+      "language" : "en",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000003001",
+        "display" : "Fully specified name (core metadata concept)"
+      },
+      "value" : "Granules in capsule for opening"
+    }],
+    "property" : [{
+      "code" : "parent",
+      "valueCode" : "PDF"
+    },
+    {
+      "code" : "comment",
+      "valueString" : "Clear administration instructions are included in the product information, and the capsule should be imprinted such that it is obvious to the user that it is to be opened rather than swallowed whole. For safety reasons (i.e. in case the capsule itself is swallowed), the capsule is made from readily digestible materials."
+    },
+    {
+      "code" : "issued",
+      "valueString" : "2024-11-26 10:49:13"
+    },
+    {
+      "code" : "versionInfo",
+      "valueInteger" : 1
+    },
+    {
+      "code" : "status",
+      "valueString" : "Current"
+    },
+    {
+      "code" : "modified",
+      "valueString" : "2024-11-26 10:49:13"
+    },
+    {
+      "code" : "type",
+      "valueString" : "terms"
+    },
+    {
+      "code" : "domain",
+      "valueCode" : "H+V"
+    },
+    {
+      "code" : "class",
+      "valueCode" : "PDF"
+    },
+    {
+      "code" : "Has_Pharmaceutical_Transformation",
+      "valueCode" : "0042"
+    },
+    {
+      "code" : "Has_Pharmaceutical_Release_Characteristics",
+      "valueCode" : "0047"
+    },
+    {
+      "code" : "Has_Pharmaceutical_Basic_Dose_Form",
+      "valueCode" : "0053"
+    },
+    {
+      "code" : "Has_Pharmaceutical_Administration_Method",
+      "valueCode" : "0019"
+    },
+    {
+      "code" : "Has_Pharmaceutical_Administration_Method",
+      "valueCode" : "0007"
+    },
+    {
+      "code" : "Has_Pharmaceutical_State_Of_Matter",
+      "valueCode" : "0097"
+    },
+    {
+      "code" : "Has_Pharmaceutical_Intended_Site",
+      "valueCode" : "0031"
+    }]
+  },
+  {
     "code" : "10226000",
     "display" : "Comprimé à libération prolongée",
     "definition" : "Préparation solide en dose unique consistant en un comprimé montrant une libération plus lente de la (des) substance(s) active(s) que celle d'un comprimé à libération conventionnelle. La libération prolongée est obtenue par une formulation et/ou une méthode de fabrication particulière. Les comprimés à libération prolongée sont destinés à être utilisés par voie orale.",
@@ -5975,6 +6053,14 @@
     {
       "code" : "Linked_Pharmaceutical_Dose_Forms",
       "valueCode" : "13175000"
+    },
+    {
+      "code" : "Linked_Pharmaceutical_Dose_Forms",
+      "valueCode" : "13198000"
+    },
+    {
+      "code" : "Linked_Pharmaceutical_Dose_Forms",
+      "valueCode" : "13197000"
     }]
   },
   {
@@ -8510,6 +8596,10 @@
     {
       "code" : "child",
       "valueCode" : "15063000"
+    },
+    {
+      "code" : "child",
+      "valueCode" : "15064000"
     }]
   },
   {
@@ -9986,6 +10076,10 @@
     {
       "code" : "Linked_Combined_Term",
       "valueCode" : "50048050"
+    },
+    {
+      "code" : "Linked_Combined_Term",
+      "valueCode" : "13201000"
     }]
   },
   {
@@ -10322,6 +10416,10 @@
     {
       "code" : "Linked_Pharmaceutical_Dose_Forms",
       "valueCode" : "13177000"
+    },
+    {
+      "code" : "Linked_Pharmaceutical_Dose_Forms",
+      "valueCode" : "13198000"
     }]
   },
   {
@@ -10927,6 +11025,76 @@
     {
       "code" : "Linked_Combined_Term",
       "valueCode" : "50029750"
+    }]
+  },
+  {
+    "code" : "13196000",
+    "display" : "Solution sublinguale",
+    "definition" : "Préparation liquide unidose ou multidose consistant en une solution destinée à être utilisée par voie sublinguale.",
+    "designation" : [{
+      "language" : "en",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000003001",
+        "display" : "Fully specified name (core metadata concept)"
+      },
+      "value" : "Sublingual solution"
+    }],
+    "property" : [{
+      "code" : "parent",
+      "valueCode" : "PDF"
+    },
+    {
+      "code" : "issued",
+      "valueString" : "2024-11-06 15:24:04"
+    },
+    {
+      "code" : "versionInfo",
+      "valueInteger" : 1
+    },
+    {
+      "code" : "status",
+      "valueString" : "Current"
+    },
+    {
+      "code" : "modified",
+      "valueString" : "2024-11-06 15:24:04"
+    },
+    {
+      "code" : "type",
+      "valueString" : "terms"
+    },
+    {
+      "code" : "domain",
+      "valueCode" : "H+V"
+    },
+    {
+      "code" : "class",
+      "valueCode" : "PDF"
+    },
+    {
+      "code" : "Has_Pharmaceutical_Transformation",
+      "valueCode" : "0042"
+    },
+    {
+      "code" : "Has_Pharmaceutical_Release_Characteristics",
+      "valueCode" : "0047"
+    },
+    {
+      "code" : "Has_Pharmaceutical_Basic_Dose_Form",
+      "valueCode" : "0083"
+    },
+    {
+      "code" : "Has_Pharmaceutical_Administration_Method",
+      "valueCode" : "0004"
+    },
+    {
+      "code" : "Has_Pharmaceutical_State_Of_Matter",
+      "valueCode" : "0099"
+    },
+    {
+      "code" : "Has_Pharmaceutical_Intended_Site",
+      "valueCode" : "0118"
     }]
   },
   {
@@ -11583,6 +11751,10 @@
     {
       "code" : "Linked_Pharmaceutical_Dose_Forms",
       "valueCode" : "10900500"
+    },
+    {
+      "code" : "Linked_Pharmaceutical_Dose_Forms",
+      "valueCode" : "13200000"
     }]
   },
   {
@@ -15076,6 +15248,60 @@
     {
       "code" : "Linked_Patient_Friendly_Terms",
       "valueCode" : "13050"
+    }]
+  },
+  {
+    "code" : "13195000",
+    "display" : "Granulés pelliculés en sachet",
+    "definition" : "Médicament constitué de granulés pelliculés présentés dans un sachet.",
+    "designation" : [{
+      "language" : "en",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000003001",
+        "display" : "Fully specified name (core metadata concept)"
+      },
+      "value" : "Film-coated granules in sachet"
+    }],
+    "property" : [{
+      "code" : "parent",
+      "valueCode" : "CMT"
+    },
+    {
+      "code" : "issued",
+      "valueString" : "2024-10-16 12:02:21"
+    },
+    {
+      "code" : "versionInfo",
+      "valueInteger" : 1
+    },
+    {
+      "code" : "status",
+      "valueString" : "Current"
+    },
+    {
+      "code" : "modified",
+      "valueString" : "2024-10-16 12:02:21"
+    },
+    {
+      "code" : "type",
+      "valueString" : "terms"
+    },
+    {
+      "code" : "domain",
+      "valueCode" : "H+V"
+    },
+    {
+      "code" : "class",
+      "valueCode" : "CMT"
+    },
+    {
+      "code" : "Linked_Pharmaceutical_Dose_Forms",
+      "valueCode" : "13154000"
+    },
+    {
+      "code" : "Linked_Container",
+      "valueCode" : "30054000"
     }]
   },
   {
@@ -18693,6 +18919,10 @@
     {
       "code" : "Linked_Combined_Term",
       "valueCode" : "50060200"
+    },
+    {
+      "code" : "Linked_Combined_Term",
+      "valueCode" : "13194000"
     }]
   },
   {
@@ -21533,6 +21763,10 @@
     {
       "code" : "Linked_Combined_Term",
       "valueCode" : "50048050"
+    },
+    {
+      "code" : "Linked_Combined_Term",
+      "valueCode" : "13201000"
     }]
   },
   {
@@ -23023,6 +23257,60 @@
     }]
   },
   {
+    "code" : "13194000",
+    "display" : "Solution  à libération prolongée pour injection en stylo pré-rempli",
+    "definition" : "Médicament consistant en une solution injectable à libération prolongée présentée dans un stylo prérempli.",
+    "designation" : [{
+      "language" : "en",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000003001",
+        "display" : "Fully specified name (core metadata concept)"
+      },
+      "value" : "Prolonged-release solution for injection in pre-filled pen"
+    }],
+    "property" : [{
+      "code" : "parent",
+      "valueCode" : "CMT"
+    },
+    {
+      "code" : "issued",
+      "valueString" : "2024-10-16 12:00:36"
+    },
+    {
+      "code" : "versionInfo",
+      "valueInteger" : 1
+    },
+    {
+      "code" : "status",
+      "valueString" : "Current"
+    },
+    {
+      "code" : "modified",
+      "valueString" : "2024-10-24 17:55:24"
+    },
+    {
+      "code" : "type",
+      "valueString" : "terms"
+    },
+    {
+      "code" : "domain",
+      "valueCode" : "H+V"
+    },
+    {
+      "code" : "class",
+      "valueCode" : "CMT"
+    },
+    {
+      "code" : "Linked_Pharmaceutical_Dose_Forms",
+      "valueCode" : "13076000"
+    },
+    {
+      "code" : "Linked_Container",
+      "valueCode" : "30050000"
+    }]
+  },
+  {
     "code" : "13151000",
     "display" : "Tube pour comprimés",
     "definition" : "Récipient rigide et cylindrique qui est fermé à une extrémité, habituellement destiné à des comprimés fragiles tels que des comprimés effervescents, et qui est destiné à permettre la superposition des comprimés sur une seule colonne, réduisant ainsi la probabilité de dommages physiques causés par des impacts de l'un sur l'autre ou de la paroi du récipient. L'extrémité ouverte peut être refermée, et dans le cas d'un comprimé effervescent, un déshydratant est généralement intégré dans la fermeture.",
@@ -23908,6 +24196,10 @@
     {
       "code" : "child",
       "valueCode" : "13156000"
+    },
+    {
+      "code" : "child",
+      "valueCode" : "13199000"
     }]
   },
   {
@@ -24742,6 +25034,14 @@
       "valueCode" : "13175000"
     },
     {
+      "code" : "Linked_Pharmaceutical_Dose_Forms",
+      "valueCode" : "13198000"
+    },
+    {
+      "code" : "Linked_Pharmaceutical_Dose_Forms",
+      "valueCode" : "13197000"
+    },
+    {
       "code" : "Linked_Patient_Friendly_Terms",
       "valueCode" : "11050"
     },
@@ -25372,6 +25672,10 @@
     {
       "code" : "child",
       "valueCode" : "20089000"
+    },
+    {
+      "code" : "child",
+      "valueCode" : "20090000"
     }]
   },
   {
@@ -26659,6 +26963,10 @@
     {
       "code" : "Linked_Pharmaceutical_Dose_Forms",
       "valueCode" : "13184000"
+    },
+    {
+      "code" : "Linked_Pharmaceutical_Dose_Forms",
+      "valueCode" : "13198000"
     }]
   },
   {
@@ -29676,7 +29984,7 @@
     },
     {
       "code" : "comment",
-      "valueString" : "Term rejected. Such a term is not appropriate for safety reasons, owing to the risk of implying that the capsule itself is intended to be swallowed; for this reason, containers that themselves represent pharmaceutical dose forms are not encouraged."
+      "valueString" : "Term rejected. Certain preparations are available in the form of a capsule that must be opened, the contents administered, and the capsule discarded. Although it is not itself administered, the capsule is considered to be part of the pharmaceutical dose form and not an immediate container."
     },
     {
       "code" : "issued",
@@ -29684,7 +29992,7 @@
     },
     {
       "code" : "versionInfo",
-      "valueInteger" : 1
+      "valueInteger" : 2
     },
     {
       "code" : "status",
@@ -29692,7 +30000,7 @@
     },
     {
       "code" : "modified",
-      "valueString" : "2020-04-15 10:33:20"
+      "valueString" : "2024-11-26 11:00:53"
     },
     {
       "code" : "type",
@@ -29712,7 +30020,7 @@
     },
     {
       "code" : "replacement",
-      "valueCode" : "30057000"
+      "valueCode" : "13198000"
     }]
   },
   {
@@ -29975,6 +30283,10 @@
     {
       "code" : "Linked_Combined_Term",
       "valueCode" : "13110000"
+    },
+    {
+      "code" : "Linked_Combined_Term",
+      "valueCode" : "13201000"
     }]
   },
   {
@@ -34533,6 +34845,10 @@
     {
       "code" : "Linked_Combined_Term",
       "valueCode" : "50060100"
+    },
+    {
+      "code" : "Linked_Combined_Term",
+      "valueCode" : "13201000"
     }]
   },
   {
@@ -35248,6 +35564,10 @@
     {
       "code" : "Linked_Combined_Term",
       "valueCode" : "50048010"
+    },
+    {
+      "code" : "Linked_Combined_Term",
+      "valueCode" : "13201000"
     }]
   },
   {
@@ -38937,6 +39257,10 @@
     {
       "code" : "Linked_Pharmaceutical_Dose_Forms",
       "valueCode" : "13188000"
+    },
+    {
+      "code" : "Linked_Pharmaceutical_Dose_Forms",
+      "valueCode" : "13196000"
     }]
   },
   {
@@ -40005,7 +40329,7 @@
   {
     "code" : "13179000",
     "display" : "Granulés pour suspension buvable à libération modifiée",
-    "definition" : "Préparation solide consistant en des granulés destinés à être dispersés dans le liquide spécifié pour obtenir une suspension buvable à libération modifiée. \n         Le terme générique « Granules pour suspension buvable à libération modifiée » est uniquement utilisé lorsque les termes plus spécifiques « Granules pour suspension buvable gastrorésistante » ou « Granules pour suspension buvable à libération prolongée » ne s'appliquent pas.",
+    "definition" : "Préparation solide consistant en des granulés destinés à être dispersés dans le liquide spécifié pour obtenir une suspension buvable à libération modifiée. \nLe terme générique « Granules pour suspension buvable à libération modifiée » est uniquement utilisé lorsque les termes plus spécifiques « Granules pour suspension buvable gastrorésistante » ou « Granules pour suspension buvable à libération prolongée » ne s'appliquent pas.",
     "designation" : [{
       "language" : "en",
       "use" : {
@@ -46039,6 +46363,22 @@
     {
       "code" : "child",
       "valueCode" : "13188000"
+    },
+    {
+      "code" : "child",
+      "valueCode" : "13196000"
+    },
+    {
+      "code" : "child",
+      "valueCode" : "13198000"
+    },
+    {
+      "code" : "child",
+      "valueCode" : "13197000"
+    },
+    {
+      "code" : "child",
+      "valueCode" : "13200000"
     }]
   },
   {
@@ -46965,6 +47305,10 @@
     {
       "code" : "Has_Pharmaceutical_Intended_Site",
       "valueCode" : "0033"
+    },
+    {
+      "code" : "Linked_Combined_Term",
+      "valueCode" : "13194000"
     }]
   },
   {
@@ -48672,6 +49016,56 @@
     {
       "code" : "Linked_Patient_Friendly_Terms",
       "valueCode" : "21010"
+    }]
+  },
+  {
+    "code" : "15064000",
+    "display" : "Injecteur",
+    "definition" : "Unité de présentation utilisée pour représenter la quantité de produit contenue dans un dispositif injecteur unitaire.",
+    "designation" : [{
+      "language" : "en",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000003001",
+        "display" : "Fully specified name (core metadata concept)"
+      },
+      "value" : "Injector"
+    }],
+    "property" : [{
+      "code" : "parent",
+      "valueCode" : "UOP"
+    },
+    {
+      "code" : "comment",
+      "valueString" : "For example, to describe the quantity of a solution for injection in a single pre-filled injector: \"contains 1 mL per injector\"."
+    },
+    {
+      "code" : "issued",
+      "valueString" : "2025-01-10 11:44:15"
+    },
+    {
+      "code" : "versionInfo",
+      "valueInteger" : 1
+    },
+    {
+      "code" : "status",
+      "valueString" : "Current"
+    },
+    {
+      "code" : "modified",
+      "valueString" : "2025-01-10 11:44:15"
+    },
+    {
+      "code" : "type",
+      "valueString" : "terms"
+    },
+    {
+      "code" : "domain",
+      "valueCode" : "H+V"
+    },
+    {
+      "code" : "class",
+      "valueCode" : "UOP"
     }]
   },
   {
@@ -52987,6 +53381,76 @@
     }]
   },
   {
+    "code" : "13200000",
+    "display" : "Système d'administration intravésical",
+    "definition" : "Système d'administration solide unidose destiné à un usage intravésical qui libère son contenu de substance(s) active(s) sur une période de temps prolongée.",
+    "designation" : [{
+      "language" : "en",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000003001",
+        "display" : "Fully specified name (core metadata concept)"
+      },
+      "value" : "Intravesical delivery system"
+    }],
+    "property" : [{
+      "code" : "parent",
+      "valueCode" : "PDF"
+    },
+    {
+      "code" : "issued",
+      "valueString" : "2025-03-19 08:39:22"
+    },
+    {
+      "code" : "versionInfo",
+      "valueInteger" : 1
+    },
+    {
+      "code" : "status",
+      "valueString" : "Current"
+    },
+    {
+      "code" : "modified",
+      "valueString" : "2025-03-19 08:39:22"
+    },
+    {
+      "code" : "type",
+      "valueString" : "terms"
+    },
+    {
+      "code" : "domain",
+      "valueCode" : "H+V"
+    },
+    {
+      "code" : "class",
+      "valueCode" : "PDF"
+    },
+    {
+      "code" : "Has_Pharmaceutical_Transformation",
+      "valueCode" : "0042"
+    },
+    {
+      "code" : "Has_Pharmaceutical_Release_Characteristics",
+      "valueCode" : "0045"
+    },
+    {
+      "code" : "Has_Pharmaceutical_Basic_Dose_Form",
+      "valueCode" : "0095"
+    },
+    {
+      "code" : "Has_Pharmaceutical_Administration_Method",
+      "valueCode" : "0012"
+    },
+    {
+      "code" : "Has_Pharmaceutical_State_Of_Matter",
+      "valueCode" : "0101"
+    },
+    {
+      "code" : "Has_Pharmaceutical_Intended_Site",
+      "valueCode" : "0028"
+    }]
+  },
+  {
     "code" : "15018000",
     "display" : "Bouteille",
     "definition" : "Unité de présentation utilisée pour représenter la quantité de produit qui se trouve dans un seul récipient qui appartient à une catégorie de bouteille.",
@@ -54010,6 +54474,10 @@
     {
       "code" : "Linked_Pharmaceutical_Dose_Forms",
       "valueCode" : "10317500"
+    },
+    {
+      "code" : "Linked_Pharmaceutical_Dose_Forms",
+      "valueCode" : "13196000"
     }]
   },
   {
@@ -55768,6 +56236,10 @@
     {
       "code" : "Linked_Pharmaceutical_Dose_Forms",
       "valueCode" : "13175000"
+    },
+    {
+      "code" : "Linked_Pharmaceutical_Dose_Forms",
+      "valueCode" : "13197000"
     }]
   },
   {
@@ -57295,6 +57767,10 @@
     {
       "code" : "Linked_Pharmaceutical_Dose_Forms",
       "valueCode" : "11502500"
+    },
+    {
+      "code" : "Linked_Pharmaceutical_Dose_Forms",
+      "valueCode" : "13200000"
     }]
   },
   {
@@ -57731,6 +58207,10 @@
     {
       "code" : "Linked_Pharmaceutical_Dose_Forms",
       "valueCode" : "13174000"
+    },
+    {
+      "code" : "Linked_Pharmaceutical_Dose_Forms",
+      "valueCode" : "13196000"
     }]
   },
   {
@@ -65742,6 +66222,10 @@
     {
       "code" : "Linked_Container",
       "valueCode" : "13156000"
+    },
+    {
+      "code" : "Linked_Container",
+      "valueCode" : "13199000"
     }]
   },
   {
@@ -70632,6 +71116,18 @@
     {
       "code" : "Linked_Pharmaceutical_Dose_Forms",
       "valueCode" : "13174000"
+    },
+    {
+      "code" : "Linked_Pharmaceutical_Dose_Forms",
+      "valueCode" : "13196000"
+    },
+    {
+      "code" : "Linked_Pharmaceutical_Dose_Forms",
+      "valueCode" : "13198000"
+    },
+    {
+      "code" : "Linked_Pharmaceutical_Dose_Forms",
+      "valueCode" : "13197000"
     }]
   },
   {
@@ -73052,6 +73548,72 @@
     }]
   },
   {
+    "code" : "13201000",
+    "display" : "Poudre et solvant pour solution injectable en récipient multidose",
+    "definition" : "Médicament composé d'une poudre et d'un solvant pour solution injectable présenté dans un récipient multidose ; habituellement, la poudre est présentée dans le récipient multidose tandis que le solvant est présenté dans un récipient séparé et est ajouté à la poudre afin de préparer la solution injectable dans le récipient multidose.",
+    "designation" : [{
+      "language" : "en",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000003001",
+        "display" : "Fully specified name (core metadata concept)"
+      },
+      "value" : "Powder and solvent for solution for injection in multidose container"
+    }],
+    "property" : [{
+      "code" : "parent",
+      "valueCode" : "CMT"
+    },
+    {
+      "code" : "issued",
+      "valueString" : "2025-03-19 08:42:40"
+    },
+    {
+      "code" : "versionInfo",
+      "valueInteger" : 1
+    },
+    {
+      "code" : "status",
+      "valueString" : "Current"
+    },
+    {
+      "code" : "modified",
+      "valueString" : "2025-03-19 08:42:40"
+    },
+    {
+      "code" : "type",
+      "valueString" : "terms"
+    },
+    {
+      "code" : "domain",
+      "valueCode" : "H+V"
+    },
+    {
+      "code" : "class",
+      "valueCode" : "CMT"
+    },
+    {
+      "code" : "Linked_Pharmaceutical_Dose_Forms",
+      "valueCode" : "11205000"
+    },
+    {
+      "code" : "Linked_Pharmaceutical_Dose_Forms",
+      "valueCode" : "13035000"
+    },
+    {
+      "code" : "Linked_Pharmaceutical_Dose_Forms",
+      "valueCode" : "11201000"
+    },
+    {
+      "code" : "Linked_Combined_Pharmaceutical_Dose_Form",
+      "valueCode" : "11207000"
+    },
+    {
+      "code" : "Linked_Container",
+      "valueCode" : "30038000"
+    }]
+  },
+  {
     "code" : "50060700",
     "display" : "Solution pour injection/perfusion/utilisation rectale",
     "designation" : [{
@@ -74175,6 +74737,10 @@
     {
       "code" : "Linked_Pharmaceutical_Dose_Forms",
       "valueCode" : "13188000"
+    },
+    {
+      "code" : "Linked_Pharmaceutical_Dose_Forms",
+      "valueCode" : "13200000"
     }]
   },
   {
@@ -76056,6 +76622,10 @@
     {
       "code" : "Linked_Pharmaceutical_Dose_Forms",
       "valueCode" : "13174000"
+    },
+    {
+      "code" : "Linked_Pharmaceutical_Dose_Forms",
+      "valueCode" : "13198000"
     }]
   },
   {
@@ -77883,6 +78453,22 @@
     {
       "code" : "Linked_Pharmaceutical_Dose_Forms",
       "valueCode" : "13190000"
+    },
+    {
+      "code" : "Linked_Pharmaceutical_Dose_Forms",
+      "valueCode" : "13196000"
+    },
+    {
+      "code" : "Linked_Pharmaceutical_Dose_Forms",
+      "valueCode" : "13198000"
+    },
+    {
+      "code" : "Linked_Pharmaceutical_Dose_Forms",
+      "valueCode" : "13197000"
+    },
+    {
+      "code" : "Linked_Pharmaceutical_Dose_Forms",
+      "valueCode" : "13200000"
     }]
   },
   {
@@ -82072,6 +82658,10 @@
     {
       "code" : "Linked_Pharmaceutical_Dose_Forms",
       "valueCode" : "13177000"
+    },
+    {
+      "code" : "Linked_Pharmaceutical_Dose_Forms",
+      "valueCode" : "13197000"
     }]
   },
   {
@@ -83451,6 +84041,10 @@
     {
       "code" : "Linked_Combined_Term",
       "valueCode" : "13183000"
+    },
+    {
+      "code" : "Linked_Combined_Term",
+      "valueCode" : "13195000"
     }]
   },
   {
@@ -84430,6 +85024,10 @@
     {
       "code" : "Linked_Combined_Term",
       "valueCode" : "13155000"
+    },
+    {
+      "code" : "Linked_Combined_Term",
+      "valueCode" : "13195000"
     }]
   },
   {
@@ -86515,6 +87113,18 @@
     {
       "code" : "child",
       "valueCode" : "13192000"
+    },
+    {
+      "code" : "child",
+      "valueCode" : "13195000"
+    },
+    {
+      "code" : "child",
+      "valueCode" : "13201000"
+    },
+    {
+      "code" : "child",
+      "valueCode" : "13194000"
     }]
   },
   {
@@ -90404,6 +91014,10 @@
     {
       "code" : "Linked_Pharmaceutical_Dose_Forms",
       "valueCode" : "11901000"
+    },
+    {
+      "code" : "Linked_Pharmaceutical_Dose_Forms",
+      "valueCode" : "13200000"
     }]
   },
   {
@@ -91087,6 +91701,56 @@
     {
       "code" : "modified",
       "valueString" : "2022-04-26 12:30:46"
+    },
+    {
+      "code" : "type",
+      "valueString" : "terms"
+    },
+    {
+      "code" : "Linked_Packaging_Category",
+      "valueCode" : "0001"
+    },
+    {
+      "code" : "domain",
+      "valueCode" : "H+V"
+    },
+    {
+      "code" : "class",
+      "valueCode" : "CON"
+    }]
+  },
+  {
+    "code" : "13199000",
+    "display" : "Distributeur pré-rempli de doses",
+    "definition" : "Récipient , généralement multidose,  rempli équipé d'un dispositif permettant de distribuer une quantité déterminée de médicament, par exemple au moyen d'un compteur automatique. Le distributeur prérempli de doses  est destiné à être jeté lorsqu'il est vide. Les stylos préremplis, les seringues préremplies, les inhalateurs, les pompes doseuses, etc. sont exclus.",
+    "designation" : [{
+      "language" : "en",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000003001",
+        "display" : "Fully specified name (core metadata concept)"
+      },
+      "value" : "Pre-filled dose dispenser"
+    }],
+    "property" : [{
+      "code" : "parent",
+      "valueCode" : "CON"
+    },
+    {
+      "code" : "issued",
+      "valueString" : "2025-03-13 12:01:31"
+    },
+    {
+      "code" : "versionInfo",
+      "valueInteger" : 1
+    },
+    {
+      "code" : "status",
+      "valueString" : "Current"
+    },
+    {
+      "code" : "modified",
+      "valueString" : "2025-03-13 12:01:31"
     },
     {
       "code" : "type",
@@ -92496,7 +93160,7 @@
   {
     "code" : "20035000",
     "display" : "Voie intramusculaire",
-    "definition" : "Injection d'un produit pharmaceutique dans le tissu musculaire.",
+    "definition" : "Injection d'un produit pharmaceutique dans le tissu musculaire squelettique",
     "designation" : [{
       "language" : "en",
       "use" : {
@@ -92516,7 +93180,7 @@
     },
     {
       "code" : "versionInfo",
-      "valueInteger" : 1
+      "valueInteger" : 2
     },
     {
       "code" : "status",
@@ -92524,7 +93188,7 @@
     },
     {
       "code" : "modified",
-      "valueString" : "2015-03-11 07:59:05"
+      "valueString" : "2024-10-01 11:49:01"
     },
     {
       "code" : "type",
@@ -95007,6 +95671,52 @@
     }]
   },
   {
+    "code" : "20090000",
+    "display" : "voie intra-détrusorienne",
+    "definition" : "Injection d'un médicament dans le muscle détrusor de la vessie.",
+    "designation" : [{
+      "language" : "en",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000003001",
+        "display" : "Fully specified name (core metadata concept)"
+      },
+      "value" : "Intradetrusorial use"
+    }],
+    "property" : [{
+      "code" : "parent",
+      "valueCode" : "ROA"
+    },
+    {
+      "code" : "issued",
+      "valueString" : "2024-10-01 11:46:37"
+    },
+    {
+      "code" : "versionInfo",
+      "valueInteger" : 1
+    },
+    {
+      "code" : "status",
+      "valueString" : "Current"
+    },
+    {
+      "code" : "modified",
+      "valueString" : "2024-10-01 11:46:37"
+    },
+    {
+      "code" : "type",
+      "valueString" : "terms"
+    },
+    {
+      "code" : "domain",
+      "valueCode" : "H+V"
+    },
+    {
+      "code" : "class",
+      "valueCode" : "ROA"
+    }]
+  },
+  {
     "code" : "30029000",
     "display" : "Seringue",
     "definition" : "Appareil d'administration cylindrique avec canule, avec ou sans aiguille fixée (qui peut ou non être équipée d'un dispositif de sécurité de l'aiguille), et piston mobile avec tige utilisée pour l'administration, habituellement parentérale, d'une quantité mesurée avec précision d'une forme pharmaceutique liquide.",
@@ -95733,6 +96443,88 @@
     {
       "code" : "Linked_Container",
       "valueCode" : "30057000"
+    }]
+  },
+  {
+    "code" : "13198000",
+    "display" : "Poudre orale en capsule à ouvrir",
+    "definition" : "Préparation unidose constituée d'une poudre orale enfermée dans une capsule ressemblant à une gélule. La capsule doit être ouverte et tout son contenu doit être administré par voie orale. La capsule  elle-même n'est pas avalée et est jetée après ouverture. Pour les préparations constituées d'une capsule qui peut être avalée entière ou ouverte, le terme « gélule » est utilisé à la place.",
+    "designation" : [{
+      "language" : "en",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000003001",
+        "display" : "Fully specified name (core metadata concept)"
+      },
+      "value" : "Oral powder in capsule for opening"
+    }],
+    "property" : [{
+      "code" : "parent",
+      "valueCode" : "PDF"
+    },
+    {
+      "code" : "comment",
+      "valueString" : "Clear administration instructions are included in the product information, and the capsule should be imprinted such that it is obvious to the user that it is to be opened rather than swallowed whole. For safety reasons (i.e. in case the capsule itself is swallowed), the capsule is made from readily digestible materials."
+    },
+    {
+      "code" : "issued",
+      "valueString" : "2024-11-26 10:51:44"
+    },
+    {
+      "code" : "versionInfo",
+      "valueInteger" : 1
+    },
+    {
+      "code" : "status",
+      "valueString" : "Current"
+    },
+    {
+      "code" : "modified",
+      "valueString" : "2024-11-26 10:51:44"
+    },
+    {
+      "code" : "type",
+      "valueString" : "terms"
+    },
+    {
+      "code" : "domain",
+      "valueCode" : "H+V"
+    },
+    {
+      "code" : "class",
+      "valueCode" : "PDF"
+    },
+    {
+      "code" : "Has_Pharmaceutical_Transformation",
+      "valueCode" : "0042"
+    },
+    {
+      "code" : "Has_Pharmaceutical_Transformation",
+      "valueCode" : "0040"
+    },
+    {
+      "code" : "Has_Pharmaceutical_Transformation",
+      "valueCode" : "0039"
+    },
+    {
+      "code" : "Has_Pharmaceutical_Release_Characteristics",
+      "valueCode" : "0047"
+    },
+    {
+      "code" : "Has_Pharmaceutical_Basic_Dose_Form",
+      "valueCode" : "0066"
+    },
+    {
+      "code" : "Has_Pharmaceutical_Administration_Method",
+      "valueCode" : "0019"
+    },
+    {
+      "code" : "Has_Pharmaceutical_State_Of_Matter",
+      "valueCode" : "0097"
+    },
+    {
+      "code" : "Has_Pharmaceutical_Intended_Site",
+      "valueCode" : "0031"
     }]
   },
   {

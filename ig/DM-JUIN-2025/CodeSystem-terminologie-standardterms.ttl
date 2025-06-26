@@ -11,8 +11,8 @@
   fhir:nodeRole fhir:treeRoot ;
   fhir:id [ fhir:v "terminologie-standardterms"] ; # 
   fhir:meta [
-     fhir:versionId [ fhir:v "6" ] ;
-     fhir:lastUpdated [ fhir:v "2025-03-17T13:00:17.744+00:00"^^xsd:dateTime ] ;
+     fhir:versionId [ fhir:v "7" ] ;
+     fhir:lastUpdated [ fhir:v "2025-06-26T08:43:48.525+00:00"^^xsd:dateTime ] ;
      fhir:profile ( [
        fhir:v "http://hl7.org/fhir/StructureDefinition/shareablecodesystem"^^xsd:anyURI ;
        fhir:link <http://hl7.org/fhir/StructureDefinition/shareablecodesystem>
@@ -32,12 +32,12 @@
      fhir:system [ fhir:v "https://smt.esante.gouv.fr/"^^xsd:anyURI ] ;
      fhir:value [ fhir:v "terminologie-standardterms" ]
   ] ) ; # 
-  fhir:version [ fhir:v "2024-06-20"] ; # 
+  fhir:version [ fhir:v "2025-03-19"] ; # 
   fhir:name [ fhir:v "Standard_terms_EDQM"] ; # 
   fhir:title [ fhir:v "Standard Terms Data Base Dictionnaire européen multilingue de termes normalisés descripteurs de médicaments"] ; # 
   fhir:status [ fhir:v "active"] ; # 
   fhir:experimental [ fhir:v false] ; # 
-  fhir:date [ fhir:v "2024-08-29T00:00:00+00:00"^^xsd:dateTime] ; # 
+  fhir:date [ fhir:v "2025-06-26T00:00:00+00:00"^^xsd:dateTime] ; # 
   fhir:publisher [ fhir:v "Agence du numérique en santé"] ; # 
   fhir:description [ fhir:v "Les standard terms (ou listes de termes normalisés) ont été établis en réponse à une demande de la Commission européenne. Ils contiennent les formes pharmaceutiques, les voies et/ou les méthodes d’administration, les unités de présentation, ainsi que les conditionnements, les systèmes de fermeture et les dispositifs d’administration des médicaments à usage humain et/ou vétérinaire."] ; # 
   fhir:jurisdiction ( [
@@ -52,7 +52,7 @@
      fhir:link <https://smt.esante.gouv.fr/terminologie-standardterms?vs>
   ] ; # 
   fhir:content [ fhir:v "complete"] ; # 
-  fhir:count [ fhir:v "1287"^^xsd:nonNegativeInteger] ; # 
+  fhir:count [ fhir:v "1297"^^xsd:nonNegativeInteger] ; # 
   fhir:filter ( [
      fhir:code [ fhir:v "root" ] ;
      fhir:operator ( [ fhir:v "=" ] ) ;
@@ -6087,6 +6087,117 @@
        ]
      ] )
   ] [
+     fhir:code [ fhir:v "13197000" ] ;
+     fhir:display [ fhir:v "Granulés dans une capsule à ouvrir" ] ;
+     fhir:definition [ fhir:v "Préparation unidose constituée de granulés enfermés dans une capsule ressemblant à une gélule. La cvapsule doit être ouverte et tout son contenu doit être administré par voie orale. La capsule elle-même n'est pas avalée et est jetée après ouverture. Pour les préparations constituées d'une capsule qui peut être avalée entière ou ouverte, le terme « gélule » est  utilisé à la place." ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "en" ] ;
+       fhir:use [
+         a sct:900000000000003001 ;
+         fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "900000000000003001" ] ;
+         fhir:display [ fhir:v "Fully specified name (core metadata concept)" ]
+       ] ;
+       fhir:value [ fhir:v "Granules in capsule for opening" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "parent" ] ;
+       fhir:value [
+         a fhir:code ;
+         fhir:v "PDF"
+       ]
+     ] [
+       fhir:code [ fhir:v "comment" ] ;
+       fhir:value [
+         a fhir:string ;
+         fhir:v "Clear administration instructions are included in the product information, and the capsule should be imprinted such that it is obvious to the user that it is to be opened rather than swallowed whole. For safety reasons (i.e. in case the capsule itself is swallowed), the capsule is made from readily digestible materials."
+       ]
+     ] [
+       fhir:code [ fhir:v "issued" ] ;
+       fhir:value [
+         a fhir:string ;
+         fhir:v "2024-11-26 10:49:13"
+       ]
+     ] [
+       fhir:code [ fhir:v "versionInfo" ] ;
+       fhir:value [
+         a fhir:integer ;
+         fhir:v 1
+       ]
+     ] [
+       fhir:code [ fhir:v "status" ] ;
+       fhir:value [
+         a fhir:string ;
+         fhir:v "Current"
+       ]
+     ] [
+       fhir:code [ fhir:v "modified" ] ;
+       fhir:value [
+         a fhir:string ;
+         fhir:v "2024-11-26 10:49:13"
+       ]
+     ] [
+       fhir:code [ fhir:v "type" ] ;
+       fhir:value [
+         a fhir:string ;
+         fhir:v "terms"
+       ]
+     ] [
+       fhir:code [ fhir:v "domain" ] ;
+       fhir:value [
+         a fhir:code ;
+         fhir:v "H+V"
+       ]
+     ] [
+       fhir:code [ fhir:v "class" ] ;
+       fhir:value [
+         a fhir:code ;
+         fhir:v "PDF"
+       ]
+     ] [
+       fhir:code [ fhir:v "Has_Pharmaceutical_Transformation" ] ;
+       fhir:value [
+         a fhir:code ;
+         fhir:v "0042"
+       ]
+     ] [
+       fhir:code [ fhir:v "Has_Pharmaceutical_Release_Characteristics" ] ;
+       fhir:value [
+         a fhir:code ;
+         fhir:v "0047"
+       ]
+     ] [
+       fhir:code [ fhir:v "Has_Pharmaceutical_Basic_Dose_Form" ] ;
+       fhir:value [
+         a fhir:code ;
+         fhir:v "0053"
+       ]
+     ] [
+       fhir:code [ fhir:v "Has_Pharmaceutical_Administration_Method" ] ;
+       fhir:value [
+         a fhir:code ;
+         fhir:v "0019"
+       ]
+     ] [
+       fhir:code [ fhir:v "Has_Pharmaceutical_Administration_Method" ] ;
+       fhir:value [
+         a fhir:code ;
+         fhir:v "0007"
+       ]
+     ] [
+       fhir:code [ fhir:v "Has_Pharmaceutical_State_Of_Matter" ] ;
+       fhir:value [
+         a fhir:code ;
+         fhir:v "0097"
+       ]
+     ] [
+       fhir:code [ fhir:v "Has_Pharmaceutical_Intended_Site" ] ;
+       fhir:value [
+         a fhir:code ;
+         fhir:v "0031"
+       ]
+     ] )
+  ] [
      fhir:code [ fhir:v "10226000" ] ;
      fhir:display [ fhir:v "Comprimé à libération prolongée" ] ;
      fhir:definition [ fhir:v "Préparation solide en dose unique consistant en un comprimé montrant une libération plus lente de la (des) substance(s) active(s) que celle d'un comprimé à libération conventionnelle. La libération prolongée est obtenue par une formulation et/ou une méthode de fabrication particulière. Les comprimés à libération prolongée sont destinés à être utilisés par voie orale." ] ;
@@ -8392,6 +8503,18 @@
        fhir:value [
          a fhir:code ;
          fhir:v "13175000"
+       ]
+     ] [
+       fhir:code [ fhir:v "Linked_Pharmaceutical_Dose_Forms" ] ;
+       fhir:value [
+         a fhir:code ;
+         fhir:v "13198000"
+       ]
+     ] [
+       fhir:code [ fhir:v "Linked_Pharmaceutical_Dose_Forms" ] ;
+       fhir:value [
+         a fhir:code ;
+         fhir:v "13197000"
        ]
      ] )
   ] [
@@ -11989,6 +12112,12 @@
          a fhir:code ;
          fhir:v "15063000"
        ]
+     ] [
+       fhir:code [ fhir:v "child" ] ;
+       fhir:value [
+         a fhir:code ;
+         fhir:v "15064000"
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "0038" ] ;
@@ -14073,6 +14202,12 @@
          a fhir:code ;
          fhir:v "50048050"
        ]
+     ] [
+       fhir:code [ fhir:v "Linked_Combined_Term" ] ;
+       fhir:value [
+         a fhir:code ;
+         fhir:v "13201000"
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "0100" ] ;
@@ -14564,6 +14699,12 @@
        fhir:value [
          a fhir:code ;
          fhir:v "13177000"
+       ]
+     ] [
+       fhir:code [ fhir:v "Linked_Pharmaceutical_Dose_Forms" ] ;
+       fhir:value [
+         a fhir:code ;
+         fhir:v "13198000"
        ]
      ] )
   ] [
@@ -15430,6 +15571,105 @@
        fhir:value [
          a fhir:code ;
          fhir:v "50029750"
+       ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "13196000" ] ;
+     fhir:display [ fhir:v "Solution sublinguale" ] ;
+     fhir:definition [ fhir:v "Préparation liquide unidose ou multidose consistant en une solution destinée à être utilisée par voie sublinguale." ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "en" ] ;
+       fhir:use [
+         a sct:900000000000003001 ;
+         fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "900000000000003001" ] ;
+         fhir:display [ fhir:v "Fully specified name (core metadata concept)" ]
+       ] ;
+       fhir:value [ fhir:v "Sublingual solution" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "parent" ] ;
+       fhir:value [
+         a fhir:code ;
+         fhir:v "PDF"
+       ]
+     ] [
+       fhir:code [ fhir:v "issued" ] ;
+       fhir:value [
+         a fhir:string ;
+         fhir:v "2024-11-06 15:24:04"
+       ]
+     ] [
+       fhir:code [ fhir:v "versionInfo" ] ;
+       fhir:value [
+         a fhir:integer ;
+         fhir:v 1
+       ]
+     ] [
+       fhir:code [ fhir:v "status" ] ;
+       fhir:value [
+         a fhir:string ;
+         fhir:v "Current"
+       ]
+     ] [
+       fhir:code [ fhir:v "modified" ] ;
+       fhir:value [
+         a fhir:string ;
+         fhir:v "2024-11-06 15:24:04"
+       ]
+     ] [
+       fhir:code [ fhir:v "type" ] ;
+       fhir:value [
+         a fhir:string ;
+         fhir:v "terms"
+       ]
+     ] [
+       fhir:code [ fhir:v "domain" ] ;
+       fhir:value [
+         a fhir:code ;
+         fhir:v "H+V"
+       ]
+     ] [
+       fhir:code [ fhir:v "class" ] ;
+       fhir:value [
+         a fhir:code ;
+         fhir:v "PDF"
+       ]
+     ] [
+       fhir:code [ fhir:v "Has_Pharmaceutical_Transformation" ] ;
+       fhir:value [
+         a fhir:code ;
+         fhir:v "0042"
+       ]
+     ] [
+       fhir:code [ fhir:v "Has_Pharmaceutical_Release_Characteristics" ] ;
+       fhir:value [
+         a fhir:code ;
+         fhir:v "0047"
+       ]
+     ] [
+       fhir:code [ fhir:v "Has_Pharmaceutical_Basic_Dose_Form" ] ;
+       fhir:value [
+         a fhir:code ;
+         fhir:v "0083"
+       ]
+     ] [
+       fhir:code [ fhir:v "Has_Pharmaceutical_Administration_Method" ] ;
+       fhir:value [
+         a fhir:code ;
+         fhir:v "0004"
+       ]
+     ] [
+       fhir:code [ fhir:v "Has_Pharmaceutical_State_Of_Matter" ] ;
+       fhir:value [
+         a fhir:code ;
+         fhir:v "0099"
+       ]
+     ] [
+       fhir:code [ fhir:v "Has_Pharmaceutical_Intended_Site" ] ;
+       fhir:value [
+         a fhir:code ;
+         fhir:v "0118"
        ]
      ] )
   ] [
@@ -16366,6 +16606,12 @@
        fhir:value [
          a fhir:code ;
          fhir:v "10900500"
+       ]
+     ] [
+       fhir:code [ fhir:v "Linked_Pharmaceutical_Dose_Forms" ] ;
+       fhir:value [
+         a fhir:code ;
+         fhir:v "13200000"
        ]
      ] )
   ] [
@@ -21340,6 +21586,81 @@
        fhir:value [
          a fhir:code ;
          fhir:v "13050"
+       ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "13195000" ] ;
+     fhir:display [ fhir:v "Granulés pelliculés en sachet" ] ;
+     fhir:definition [ fhir:v "Médicament constitué de granulés pelliculés présentés dans un sachet." ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "en" ] ;
+       fhir:use [
+         a sct:900000000000003001 ;
+         fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "900000000000003001" ] ;
+         fhir:display [ fhir:v "Fully specified name (core metadata concept)" ]
+       ] ;
+       fhir:value [ fhir:v "Film-coated granules in sachet" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "parent" ] ;
+       fhir:value [
+         a fhir:code ;
+         fhir:v "CMT"
+       ]
+     ] [
+       fhir:code [ fhir:v "issued" ] ;
+       fhir:value [
+         a fhir:string ;
+         fhir:v "2024-10-16 12:02:21"
+       ]
+     ] [
+       fhir:code [ fhir:v "versionInfo" ] ;
+       fhir:value [
+         a fhir:integer ;
+         fhir:v 1
+       ]
+     ] [
+       fhir:code [ fhir:v "status" ] ;
+       fhir:value [
+         a fhir:string ;
+         fhir:v "Current"
+       ]
+     ] [
+       fhir:code [ fhir:v "modified" ] ;
+       fhir:value [
+         a fhir:string ;
+         fhir:v "2024-10-16 12:02:21"
+       ]
+     ] [
+       fhir:code [ fhir:v "type" ] ;
+       fhir:value [
+         a fhir:string ;
+         fhir:v "terms"
+       ]
+     ] [
+       fhir:code [ fhir:v "domain" ] ;
+       fhir:value [
+         a fhir:code ;
+         fhir:v "H+V"
+       ]
+     ] [
+       fhir:code [ fhir:v "class" ] ;
+       fhir:value [
+         a fhir:code ;
+         fhir:v "CMT"
+       ]
+     ] [
+       fhir:code [ fhir:v "Linked_Pharmaceutical_Dose_Forms" ] ;
+       fhir:value [
+         a fhir:code ;
+         fhir:v "13154000"
+       ]
+     ] [
+       fhir:code [ fhir:v "Linked_Container" ] ;
+       fhir:value [
+         a fhir:code ;
+         fhir:v "30054000"
        ]
      ] )
   ] [
@@ -26475,6 +26796,12 @@
          a fhir:code ;
          fhir:v "50060200"
        ]
+     ] [
+       fhir:code [ fhir:v "Linked_Combined_Term" ] ;
+       fhir:value [
+         a fhir:code ;
+         fhir:v "13194000"
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "30024000" ] ;
@@ -30528,6 +30855,12 @@
          a fhir:code ;
          fhir:v "50048050"
        ]
+     ] [
+       fhir:code [ fhir:v "Linked_Combined_Term" ] ;
+       fhir:value [
+         a fhir:code ;
+         fhir:v "13201000"
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "90001143" ] ;
@@ -32636,6 +32969,81 @@
        ]
      ] )
   ] [
+     fhir:code [ fhir:v "13194000" ] ;
+     fhir:display [ fhir:v "Solution  à libération prolongée pour injection en stylo pré-rempli" ] ;
+     fhir:definition [ fhir:v "Médicament consistant en une solution injectable à libération prolongée présentée dans un stylo prérempli." ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "en" ] ;
+       fhir:use [
+         a sct:900000000000003001 ;
+         fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "900000000000003001" ] ;
+         fhir:display [ fhir:v "Fully specified name (core metadata concept)" ]
+       ] ;
+       fhir:value [ fhir:v "Prolonged-release solution for injection in pre-filled pen" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "parent" ] ;
+       fhir:value [
+         a fhir:code ;
+         fhir:v "CMT"
+       ]
+     ] [
+       fhir:code [ fhir:v "issued" ] ;
+       fhir:value [
+         a fhir:string ;
+         fhir:v "2024-10-16 12:00:36"
+       ]
+     ] [
+       fhir:code [ fhir:v "versionInfo" ] ;
+       fhir:value [
+         a fhir:integer ;
+         fhir:v 1
+       ]
+     ] [
+       fhir:code [ fhir:v "status" ] ;
+       fhir:value [
+         a fhir:string ;
+         fhir:v "Current"
+       ]
+     ] [
+       fhir:code [ fhir:v "modified" ] ;
+       fhir:value [
+         a fhir:string ;
+         fhir:v "2024-10-24 17:55:24"
+       ]
+     ] [
+       fhir:code [ fhir:v "type" ] ;
+       fhir:value [
+         a fhir:string ;
+         fhir:v "terms"
+       ]
+     ] [
+       fhir:code [ fhir:v "domain" ] ;
+       fhir:value [
+         a fhir:code ;
+         fhir:v "H+V"
+       ]
+     ] [
+       fhir:code [ fhir:v "class" ] ;
+       fhir:value [
+         a fhir:code ;
+         fhir:v "CMT"
+       ]
+     ] [
+       fhir:code [ fhir:v "Linked_Pharmaceutical_Dose_Forms" ] ;
+       fhir:value [
+         a fhir:code ;
+         fhir:v "13076000"
+       ]
+     ] [
+       fhir:code [ fhir:v "Linked_Container" ] ;
+       fhir:value [
+         a fhir:code ;
+         fhir:v "30050000"
+       ]
+     ] )
+  ] [
      fhir:code [ fhir:v "13151000" ] ;
      fhir:display [ fhir:v "Tube pour comprimés" ] ;
      fhir:definition [ fhir:v "Récipient rigide et cylindrique qui est fermé à une extrémité, habituellement destiné à des comprimés fragiles tels que des comprimés effervescents, et qui est destiné à permettre la superposition des comprimés sur une seule colonne, réduisant ainsi la probabilité de dommages physiques causés par des impacts de l'un sur l'autre ou de la paroi du récipient. L'extrémité ouverte peut être refermée, et dans le cas d'un comprimé effervescent, un déshydratant est généralement intégré dans la fermeture." ] ;
@@ -33896,6 +34304,12 @@
          a fhir:code ;
          fhir:v "13156000"
        ]
+     ] [
+       fhir:code [ fhir:v "child" ] ;
+       fhir:value [
+         a fhir:code ;
+         fhir:v "13199000"
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "11107000" ] ;
@@ -35109,6 +35523,18 @@
          fhir:v "13175000"
        ]
      ] [
+       fhir:code [ fhir:v "Linked_Pharmaceutical_Dose_Forms" ] ;
+       fhir:value [
+         a fhir:code ;
+         fhir:v "13198000"
+       ]
+     ] [
+       fhir:code [ fhir:v "Linked_Pharmaceutical_Dose_Forms" ] ;
+       fhir:value [
+         a fhir:code ;
+         fhir:v "13197000"
+       ]
+     ] [
        fhir:code [ fhir:v "Linked_Patient_Friendly_Terms" ] ;
        fhir:value [
          a fhir:code ;
@@ -36038,6 +36464,12 @@
        fhir:value [
          a fhir:code ;
          fhir:v "20089000"
+       ]
+     ] [
+       fhir:code [ fhir:v "child" ] ;
+       fhir:value [
+         a fhir:code ;
+         fhir:v "20090000"
        ]
      ] )
   ] [
@@ -37880,6 +38312,12 @@
        fhir:value [
          a fhir:code ;
          fhir:v "13184000"
+       ]
+     ] [
+       fhir:code [ fhir:v "Linked_Pharmaceutical_Dose_Forms" ] ;
+       fhir:value [
+         a fhir:code ;
+         fhir:v "13198000"
        ]
      ] )
   ] [
@@ -42169,7 +42607,7 @@
        fhir:code [ fhir:v "comment" ] ;
        fhir:value [
          a fhir:string ;
-         fhir:v "Term rejected. Such a term is not appropriate for safety reasons, owing to the risk of implying that the capsule itself is intended to be swallowed; for this reason, containers that themselves represent pharmaceutical dose forms are not encouraged."
+         fhir:v "Term rejected. Certain preparations are available in the form of a capsule that must be opened, the contents administered, and the capsule discarded. Although it is not itself administered, the capsule is considered to be part of the pharmaceutical dose form and not an immediate container."
        ]
      ] [
        fhir:code [ fhir:v "issued" ] ;
@@ -42181,7 +42619,7 @@
        fhir:code [ fhir:v "versionInfo" ] ;
        fhir:value [
          a fhir:integer ;
-         fhir:v 1
+         fhir:v 2
        ]
      ] [
        fhir:code [ fhir:v "status" ] ;
@@ -42193,7 +42631,7 @@
        fhir:code [ fhir:v "modified" ] ;
        fhir:value [
          a fhir:string ;
-         fhir:v "2020-04-15 10:33:20"
+         fhir:v "2024-11-26 11:00:53"
        ]
      ] [
        fhir:code [ fhir:v "type" ] ;
@@ -42223,7 +42661,7 @@
        fhir:code [ fhir:v "replacement" ] ;
        fhir:value [
          a fhir:code ;
-         fhir:v "30057000"
+         fhir:v "13198000"
        ]
      ] )
   ] [
@@ -42587,6 +43025,12 @@
        fhir:value [
          a fhir:code ;
          fhir:v "13110000"
+       ]
+     ] [
+       fhir:code [ fhir:v "Linked_Combined_Term" ] ;
+       fhir:value [
+         a fhir:code ;
+         fhir:v "13201000"
        ]
      ] )
   ] [
@@ -48993,6 +49437,12 @@
          a fhir:code ;
          fhir:v "50060100"
        ]
+     ] [
+       fhir:code [ fhir:v "Linked_Combined_Term" ] ;
+       fhir:value [
+         a fhir:code ;
+         fhir:v "13201000"
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "12112000" ] ;
@@ -50029,6 +50479,12 @@
        fhir:value [
          a fhir:code ;
          fhir:v "50048010"
+       ]
+     ] [
+       fhir:code [ fhir:v "Linked_Combined_Term" ] ;
+       fhir:value [
+         a fhir:code ;
+         fhir:v "13201000"
        ]
      ] )
   ] [
@@ -55293,6 +55749,12 @@
          a fhir:code ;
          fhir:v "13188000"
        ]
+     ] [
+       fhir:code [ fhir:v "Linked_Pharmaceutical_Dose_Forms" ] ;
+       fhir:value [
+         a fhir:code ;
+         fhir:v "13196000"
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "10310000" ] ;
@@ -56796,7 +57258,7 @@
   ] [
      fhir:code [ fhir:v "13179000" ] ;
      fhir:display [ fhir:v "Granulés pour suspension buvable à libération modifiée" ] ;
-     fhir:definition [ fhir:v "Préparation solide consistant en des granulés destinés à être dispersés dans le liquide spécifié pour obtenir une suspension buvable à libération modifiée. \n         Le terme générique « Granules pour suspension buvable à libération modifiée » est uniquement utilisé lorsque les termes plus spécifiques « Granules pour suspension buvable gastrorésistante » ou « Granules pour suspension buvable à libération prolongée » ne s'appliquent pas." ] ;
+     fhir:definition [ fhir:v "Préparation solide consistant en des granulés destinés à être dispersés dans le liquide spécifié pour obtenir une suspension buvable à libération modifiée. \nLe terme générique « Granules pour suspension buvable à libération modifiée » est uniquement utilisé lorsque les termes plus spécifiques « Granules pour suspension buvable gastrorésistante » ou « Granules pour suspension buvable à libération prolongée » ne s'appliquent pas." ] ;
      fhir:designation ( [
        fhir:language [ fhir:v "en" ] ;
        fhir:use [
@@ -65531,6 +65993,30 @@
          a fhir:code ;
          fhir:v "13188000"
        ]
+     ] [
+       fhir:code [ fhir:v "child" ] ;
+       fhir:value [
+         a fhir:code ;
+         fhir:v "13196000"
+       ]
+     ] [
+       fhir:code [ fhir:v "child" ] ;
+       fhir:value [
+         a fhir:code ;
+         fhir:v "13198000"
+       ]
+     ] [
+       fhir:code [ fhir:v "child" ] ;
+       fhir:value [
+         a fhir:code ;
+         fhir:v "13197000"
+       ]
+     ] [
+       fhir:code [ fhir:v "child" ] ;
+       fhir:value [
+         a fhir:code ;
+         fhir:v "13200000"
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "30005000" ] ;
@@ -66829,6 +67315,12 @@
        fhir:value [
          a fhir:code ;
          fhir:v "0033"
+       ]
+     ] [
+       fhir:code [ fhir:v "Linked_Combined_Term" ] ;
+       fhir:value [
+         a fhir:code ;
+         fhir:v "13194000"
        ]
      ] )
   ] [
@@ -69236,6 +69728,75 @@
        fhir:value [
          a fhir:code ;
          fhir:v "21010"
+       ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "15064000" ] ;
+     fhir:display [ fhir:v "Injecteur" ] ;
+     fhir:definition [ fhir:v "Unité de présentation utilisée pour représenter la quantité de produit contenue dans un dispositif injecteur unitaire." ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "en" ] ;
+       fhir:use [
+         a sct:900000000000003001 ;
+         fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "900000000000003001" ] ;
+         fhir:display [ fhir:v "Fully specified name (core metadata concept)" ]
+       ] ;
+       fhir:value [ fhir:v "Injector" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "parent" ] ;
+       fhir:value [
+         a fhir:code ;
+         fhir:v "UOP"
+       ]
+     ] [
+       fhir:code [ fhir:v "comment" ] ;
+       fhir:value [
+         a fhir:string ;
+         fhir:v "For example, to describe the quantity of a solution for injection in a single pre-filled injector: \"contains 1 mL per injector\"."
+       ]
+     ] [
+       fhir:code [ fhir:v "issued" ] ;
+       fhir:value [
+         a fhir:string ;
+         fhir:v "2025-01-10 11:44:15"
+       ]
+     ] [
+       fhir:code [ fhir:v "versionInfo" ] ;
+       fhir:value [
+         a fhir:integer ;
+         fhir:v 1
+       ]
+     ] [
+       fhir:code [ fhir:v "status" ] ;
+       fhir:value [
+         a fhir:string ;
+         fhir:v "Current"
+       ]
+     ] [
+       fhir:code [ fhir:v "modified" ] ;
+       fhir:value [
+         a fhir:string ;
+         fhir:v "2025-01-10 11:44:15"
+       ]
+     ] [
+       fhir:code [ fhir:v "type" ] ;
+       fhir:value [
+         a fhir:string ;
+         fhir:v "terms"
+       ]
+     ] [
+       fhir:code [ fhir:v "domain" ] ;
+       fhir:value [
+         a fhir:code ;
+         fhir:v "H+V"
+       ]
+     ] [
+       fhir:code [ fhir:v "class" ] ;
+       fhir:value [
+         a fhir:code ;
+         fhir:v "UOP"
        ]
      ] )
   ] [
@@ -75310,6 +75871,105 @@
        ]
      ] )
   ] [
+     fhir:code [ fhir:v "13200000" ] ;
+     fhir:display [ fhir:v "Système d'administration intravésical" ] ;
+     fhir:definition [ fhir:v "Système d'administration solide unidose destiné à un usage intravésical qui libère son contenu de substance(s) active(s) sur une période de temps prolongée." ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "en" ] ;
+       fhir:use [
+         a sct:900000000000003001 ;
+         fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "900000000000003001" ] ;
+         fhir:display [ fhir:v "Fully specified name (core metadata concept)" ]
+       ] ;
+       fhir:value [ fhir:v "Intravesical delivery system" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "parent" ] ;
+       fhir:value [
+         a fhir:code ;
+         fhir:v "PDF"
+       ]
+     ] [
+       fhir:code [ fhir:v "issued" ] ;
+       fhir:value [
+         a fhir:string ;
+         fhir:v "2025-03-19 08:39:22"
+       ]
+     ] [
+       fhir:code [ fhir:v "versionInfo" ] ;
+       fhir:value [
+         a fhir:integer ;
+         fhir:v 1
+       ]
+     ] [
+       fhir:code [ fhir:v "status" ] ;
+       fhir:value [
+         a fhir:string ;
+         fhir:v "Current"
+       ]
+     ] [
+       fhir:code [ fhir:v "modified" ] ;
+       fhir:value [
+         a fhir:string ;
+         fhir:v "2025-03-19 08:39:22"
+       ]
+     ] [
+       fhir:code [ fhir:v "type" ] ;
+       fhir:value [
+         a fhir:string ;
+         fhir:v "terms"
+       ]
+     ] [
+       fhir:code [ fhir:v "domain" ] ;
+       fhir:value [
+         a fhir:code ;
+         fhir:v "H+V"
+       ]
+     ] [
+       fhir:code [ fhir:v "class" ] ;
+       fhir:value [
+         a fhir:code ;
+         fhir:v "PDF"
+       ]
+     ] [
+       fhir:code [ fhir:v "Has_Pharmaceutical_Transformation" ] ;
+       fhir:value [
+         a fhir:code ;
+         fhir:v "0042"
+       ]
+     ] [
+       fhir:code [ fhir:v "Has_Pharmaceutical_Release_Characteristics" ] ;
+       fhir:value [
+         a fhir:code ;
+         fhir:v "0045"
+       ]
+     ] [
+       fhir:code [ fhir:v "Has_Pharmaceutical_Basic_Dose_Form" ] ;
+       fhir:value [
+         a fhir:code ;
+         fhir:v "0095"
+       ]
+     ] [
+       fhir:code [ fhir:v "Has_Pharmaceutical_Administration_Method" ] ;
+       fhir:value [
+         a fhir:code ;
+         fhir:v "0012"
+       ]
+     ] [
+       fhir:code [ fhir:v "Has_Pharmaceutical_State_Of_Matter" ] ;
+       fhir:value [
+         a fhir:code ;
+         fhir:v "0101"
+       ]
+     ] [
+       fhir:code [ fhir:v "Has_Pharmaceutical_Intended_Site" ] ;
+       fhir:value [
+         a fhir:code ;
+         fhir:v "0028"
+       ]
+     ] )
+  ] [
      fhir:code [ fhir:v "15018000" ] ;
      fhir:display [ fhir:v "Bouteille" ] ;
      fhir:definition [ fhir:v "Unité de présentation utilisée pour représenter la quantité de produit qui se trouve dans un seul récipient qui appartient à une catégorie de bouteille." ] ;
@@ -76763,6 +77423,12 @@
        fhir:value [
          a fhir:code ;
          fhir:v "10317500"
+       ]
+     ] [
+       fhir:code [ fhir:v "Linked_Pharmaceutical_Dose_Forms" ] ;
+       fhir:value [
+         a fhir:code ;
+         fhir:v "13196000"
        ]
      ] )
   ] [
@@ -79248,6 +79914,12 @@
          a fhir:code ;
          fhir:v "13175000"
        ]
+     ] [
+       fhir:code [ fhir:v "Linked_Pharmaceutical_Dose_Forms" ] ;
+       fhir:value [
+         a fhir:code ;
+         fhir:v "13197000"
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "0116" ] ;
@@ -81414,6 +82086,12 @@
          a fhir:code ;
          fhir:v "11502500"
        ]
+     ] [
+       fhir:code [ fhir:v "Linked_Pharmaceutical_Dose_Forms" ] ;
+       fhir:value [
+         a fhir:code ;
+         fhir:v "13200000"
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "13181000" ] ;
@@ -82055,6 +82733,12 @@
        fhir:value [
          a fhir:code ;
          fhir:v "13174000"
+       ]
+     ] [
+       fhir:code [ fhir:v "Linked_Pharmaceutical_Dose_Forms" ] ;
+       fhir:value [
+         a fhir:code ;
+         fhir:v "13196000"
        ]
      ] )
   ] [
@@ -93440,6 +94124,12 @@
          a fhir:code ;
          fhir:v "13156000"
        ]
+     ] [
+       fhir:code [ fhir:v "Linked_Container" ] ;
+       fhir:value [
+         a fhir:code ;
+         fhir:v "13199000"
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "0110" ] ;
@@ -100545,6 +101235,24 @@
          a fhir:code ;
          fhir:v "13174000"
        ]
+     ] [
+       fhir:code [ fhir:v "Linked_Pharmaceutical_Dose_Forms" ] ;
+       fhir:value [
+         a fhir:code ;
+         fhir:v "13196000"
+       ]
+     ] [
+       fhir:code [ fhir:v "Linked_Pharmaceutical_Dose_Forms" ] ;
+       fhir:value [
+         a fhir:code ;
+         fhir:v "13198000"
+       ]
+     ] [
+       fhir:code [ fhir:v "Linked_Pharmaceutical_Dose_Forms" ] ;
+       fhir:value [
+         a fhir:code ;
+         fhir:v "13197000"
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "30022000" ] ;
@@ -103953,6 +104661,99 @@
        ]
      ] )
   ] [
+     fhir:code [ fhir:v "13201000" ] ;
+     fhir:display [ fhir:v "Poudre et solvant pour solution injectable en récipient multidose" ] ;
+     fhir:definition [ fhir:v "Médicament composé d'une poudre et d'un solvant pour solution injectable présenté dans un récipient multidose ; habituellement, la poudre est présentée dans le récipient multidose tandis que le solvant est présenté dans un récipient séparé et est ajouté à la poudre afin de préparer la solution injectable dans le récipient multidose." ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "en" ] ;
+       fhir:use [
+         a sct:900000000000003001 ;
+         fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "900000000000003001" ] ;
+         fhir:display [ fhir:v "Fully specified name (core metadata concept)" ]
+       ] ;
+       fhir:value [ fhir:v "Powder and solvent for solution for injection in multidose container" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "parent" ] ;
+       fhir:value [
+         a fhir:code ;
+         fhir:v "CMT"
+       ]
+     ] [
+       fhir:code [ fhir:v "issued" ] ;
+       fhir:value [
+         a fhir:string ;
+         fhir:v "2025-03-19 08:42:40"
+       ]
+     ] [
+       fhir:code [ fhir:v "versionInfo" ] ;
+       fhir:value [
+         a fhir:integer ;
+         fhir:v 1
+       ]
+     ] [
+       fhir:code [ fhir:v "status" ] ;
+       fhir:value [
+         a fhir:string ;
+         fhir:v "Current"
+       ]
+     ] [
+       fhir:code [ fhir:v "modified" ] ;
+       fhir:value [
+         a fhir:string ;
+         fhir:v "2025-03-19 08:42:40"
+       ]
+     ] [
+       fhir:code [ fhir:v "type" ] ;
+       fhir:value [
+         a fhir:string ;
+         fhir:v "terms"
+       ]
+     ] [
+       fhir:code [ fhir:v "domain" ] ;
+       fhir:value [
+         a fhir:code ;
+         fhir:v "H+V"
+       ]
+     ] [
+       fhir:code [ fhir:v "class" ] ;
+       fhir:value [
+         a fhir:code ;
+         fhir:v "CMT"
+       ]
+     ] [
+       fhir:code [ fhir:v "Linked_Pharmaceutical_Dose_Forms" ] ;
+       fhir:value [
+         a fhir:code ;
+         fhir:v "11205000"
+       ]
+     ] [
+       fhir:code [ fhir:v "Linked_Pharmaceutical_Dose_Forms" ] ;
+       fhir:value [
+         a fhir:code ;
+         fhir:v "13035000"
+       ]
+     ] [
+       fhir:code [ fhir:v "Linked_Pharmaceutical_Dose_Forms" ] ;
+       fhir:value [
+         a fhir:code ;
+         fhir:v "11201000"
+       ]
+     ] [
+       fhir:code [ fhir:v "Linked_Combined_Pharmaceutical_Dose_Form" ] ;
+       fhir:value [
+         a fhir:code ;
+         fhir:v "11207000"
+       ]
+     ] [
+       fhir:code [ fhir:v "Linked_Container" ] ;
+       fhir:value [
+         a fhir:code ;
+         fhir:v "30038000"
+       ]
+     ] )
+  ] [
      fhir:code [ fhir:v "50060700" ] ;
      fhir:display [ fhir:v "Solution pour injection/perfusion/utilisation rectale" ] ;
      fhir:designation ( [
@@ -105575,6 +106376,12 @@
        fhir:value [
          a fhir:code ;
          fhir:v "13188000"
+       ]
+     ] [
+       fhir:code [ fhir:v "Linked_Pharmaceutical_Dose_Forms" ] ;
+       fhir:value [
+         a fhir:code ;
+         fhir:v "13200000"
        ]
      ] )
   ] [
@@ -108266,6 +109073,12 @@
        fhir:value [
          a fhir:code ;
          fhir:v "13174000"
+       ]
+     ] [
+       fhir:code [ fhir:v "Linked_Pharmaceutical_Dose_Forms" ] ;
+       fhir:value [
+         a fhir:code ;
+         fhir:v "13198000"
        ]
      ] )
   ] [
@@ -110983,6 +111796,30 @@
        fhir:value [
          a fhir:code ;
          fhir:v "13190000"
+       ]
+     ] [
+       fhir:code [ fhir:v "Linked_Pharmaceutical_Dose_Forms" ] ;
+       fhir:value [
+         a fhir:code ;
+         fhir:v "13196000"
+       ]
+     ] [
+       fhir:code [ fhir:v "Linked_Pharmaceutical_Dose_Forms" ] ;
+       fhir:value [
+         a fhir:code ;
+         fhir:v "13198000"
+       ]
+     ] [
+       fhir:code [ fhir:v "Linked_Pharmaceutical_Dose_Forms" ] ;
+       fhir:value [
+         a fhir:code ;
+         fhir:v "13197000"
+       ]
+     ] [
+       fhir:code [ fhir:v "Linked_Pharmaceutical_Dose_Forms" ] ;
+       fhir:value [
+         a fhir:code ;
+         fhir:v "13200000"
        ]
      ] )
   ] [
@@ -116891,6 +117728,12 @@
          a fhir:code ;
          fhir:v "13177000"
        ]
+     ] [
+       fhir:code [ fhir:v "Linked_Pharmaceutical_Dose_Forms" ] ;
+       fhir:value [
+         a fhir:code ;
+         fhir:v "13197000"
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "20031700" ] ;
@@ -118854,6 +119697,12 @@
          a fhir:code ;
          fhir:v "13183000"
        ]
+     ] [
+       fhir:code [ fhir:v "Linked_Combined_Term" ] ;
+       fhir:value [
+         a fhir:code ;
+         fhir:v "13195000"
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "30026500" ] ;
@@ -120238,6 +121087,12 @@
        fhir:value [
          a fhir:code ;
          fhir:v "13155000"
+       ]
+     ] [
+       fhir:code [ fhir:v "Linked_Combined_Term" ] ;
+       fhir:value [
+         a fhir:code ;
+         fhir:v "13195000"
        ]
      ] )
   ] [
@@ -123206,6 +124061,24 @@
        fhir:value [
          a fhir:code ;
          fhir:v "13192000"
+       ]
+     ] [
+       fhir:code [ fhir:v "child" ] ;
+       fhir:value [
+         a fhir:code ;
+         fhir:v "13195000"
+       ]
+     ] [
+       fhir:code [ fhir:v "child" ] ;
+       fhir:value [
+         a fhir:code ;
+         fhir:v "13201000"
+       ]
+     ] [
+       fhir:code [ fhir:v "child" ] ;
+       fhir:value [
+         a fhir:code ;
+         fhir:v "13194000"
        ]
      ] )
   ] [
@@ -128691,6 +129564,12 @@
          a fhir:code ;
          fhir:v "11901000"
        ]
+     ] [
+       fhir:code [ fhir:v "Linked_Pharmaceutical_Dose_Forms" ] ;
+       fhir:value [
+         a fhir:code ;
+         fhir:v "13200000"
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "50050000" ] ;
@@ -129643,6 +130522,75 @@
        fhir:value [
          a fhir:string ;
          fhir:v "2022-04-26 12:30:46"
+       ]
+     ] [
+       fhir:code [ fhir:v "type" ] ;
+       fhir:value [
+         a fhir:string ;
+         fhir:v "terms"
+       ]
+     ] [
+       fhir:code [ fhir:v "Linked_Packaging_Category" ] ;
+       fhir:value [
+         a fhir:code ;
+         fhir:v "0001"
+       ]
+     ] [
+       fhir:code [ fhir:v "domain" ] ;
+       fhir:value [
+         a fhir:code ;
+         fhir:v "H+V"
+       ]
+     ] [
+       fhir:code [ fhir:v "class" ] ;
+       fhir:value [
+         a fhir:code ;
+         fhir:v "CON"
+       ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "13199000" ] ;
+     fhir:display [ fhir:v "Distributeur pré-rempli de doses" ] ;
+     fhir:definition [ fhir:v "Récipient , généralement multidose,  rempli équipé d'un dispositif permettant de distribuer une quantité déterminée de médicament, par exemple au moyen d'un compteur automatique. Le distributeur prérempli de doses  est destiné à être jeté lorsqu'il est vide. Les stylos préremplis, les seringues préremplies, les inhalateurs, les pompes doseuses, etc. sont exclus." ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "en" ] ;
+       fhir:use [
+         a sct:900000000000003001 ;
+         fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "900000000000003001" ] ;
+         fhir:display [ fhir:v "Fully specified name (core metadata concept)" ]
+       ] ;
+       fhir:value [ fhir:v "Pre-filled dose dispenser" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "parent" ] ;
+       fhir:value [
+         a fhir:code ;
+         fhir:v "CON"
+       ]
+     ] [
+       fhir:code [ fhir:v "issued" ] ;
+       fhir:value [
+         a fhir:string ;
+         fhir:v "2025-03-13 12:01:31"
+       ]
+     ] [
+       fhir:code [ fhir:v "versionInfo" ] ;
+       fhir:value [
+         a fhir:integer ;
+         fhir:v 1
+       ]
+     ] [
+       fhir:code [ fhir:v "status" ] ;
+       fhir:value [
+         a fhir:string ;
+         fhir:v "Current"
+       ]
+     ] [
+       fhir:code [ fhir:v "modified" ] ;
+       fhir:value [
+         a fhir:string ;
+         fhir:v "2025-03-13 12:01:31"
        ]
      ] [
        fhir:code [ fhir:v "type" ] ;
@@ -131629,7 +132577,7 @@
   ] [
      fhir:code [ fhir:v "20035000" ] ;
      fhir:display [ fhir:v "Voie intramusculaire" ] ;
-     fhir:definition [ fhir:v "Injection d'un produit pharmaceutique dans le tissu musculaire." ] ;
+     fhir:definition [ fhir:v "Injection d'un produit pharmaceutique dans le tissu musculaire squelettique" ] ;
      fhir:designation ( [
        fhir:language [ fhir:v "en" ] ;
        fhir:use [
@@ -131656,7 +132604,7 @@
        fhir:code [ fhir:v "versionInfo" ] ;
        fhir:value [
          a fhir:integer ;
-         fhir:v 1
+         fhir:v 2
        ]
      ] [
        fhir:code [ fhir:v "status" ] ;
@@ -131668,7 +132616,7 @@
        fhir:code [ fhir:v "modified" ] ;
        fhir:value [
          a fhir:string ;
-         fhir:v "2015-03-11 07:59:05"
+         fhir:v "2024-10-01 11:49:01"
        ]
      ] [
        fhir:code [ fhir:v "type" ] ;
@@ -135170,6 +136118,69 @@
        ]
      ] )
   ] [
+     fhir:code [ fhir:v "20090000" ] ;
+     fhir:display [ fhir:v "voie intra-détrusorienne" ] ;
+     fhir:definition [ fhir:v "Injection d'un médicament dans le muscle détrusor de la vessie." ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "en" ] ;
+       fhir:use [
+         a sct:900000000000003001 ;
+         fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "900000000000003001" ] ;
+         fhir:display [ fhir:v "Fully specified name (core metadata concept)" ]
+       ] ;
+       fhir:value [ fhir:v "Intradetrusorial use" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "parent" ] ;
+       fhir:value [
+         a fhir:code ;
+         fhir:v "ROA"
+       ]
+     ] [
+       fhir:code [ fhir:v "issued" ] ;
+       fhir:value [
+         a fhir:string ;
+         fhir:v "2024-10-01 11:46:37"
+       ]
+     ] [
+       fhir:code [ fhir:v "versionInfo" ] ;
+       fhir:value [
+         a fhir:integer ;
+         fhir:v 1
+       ]
+     ] [
+       fhir:code [ fhir:v "status" ] ;
+       fhir:value [
+         a fhir:string ;
+         fhir:v "Current"
+       ]
+     ] [
+       fhir:code [ fhir:v "modified" ] ;
+       fhir:value [
+         a fhir:string ;
+         fhir:v "2024-10-01 11:46:37"
+       ]
+     ] [
+       fhir:code [ fhir:v "type" ] ;
+       fhir:value [
+         a fhir:string ;
+         fhir:v "terms"
+       ]
+     ] [
+       fhir:code [ fhir:v "domain" ] ;
+       fhir:value [
+         a fhir:code ;
+         fhir:v "H+V"
+       ]
+     ] [
+       fhir:code [ fhir:v "class" ] ;
+       fhir:value [
+         a fhir:code ;
+         fhir:v "ROA"
+       ]
+     ] )
+  ] [
      fhir:code [ fhir:v "30029000" ] ;
      fhir:display [ fhir:v "Seringue" ] ;
      fhir:definition [ fhir:v "Appareil d'administration cylindrique avec canule, avec ou sans aiguille fixée (qui peut ou non être équipée d'un dispositif de sécurité de l'aiguille), et piston mobile avec tige utilisée pour l'administration, habituellement parentérale, d'une quantité mesurée avec précision d'une forme pharmaceutique liquide." ] ;
@@ -136195,6 +137206,123 @@
        fhir:value [
          a fhir:code ;
          fhir:v "30057000"
+       ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "13198000" ] ;
+     fhir:display [ fhir:v "Poudre orale en capsule à ouvrir" ] ;
+     fhir:definition [ fhir:v "Préparation unidose constituée d'une poudre orale enfermée dans une capsule ressemblant à une gélule. La capsule doit être ouverte et tout son contenu doit être administré par voie orale. La capsule  elle-même n'est pas avalée et est jetée après ouverture. Pour les préparations constituées d'une capsule qui peut être avalée entière ou ouverte, le terme « gélule » est utilisé à la place." ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "en" ] ;
+       fhir:use [
+         a sct:900000000000003001 ;
+         fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "900000000000003001" ] ;
+         fhir:display [ fhir:v "Fully specified name (core metadata concept)" ]
+       ] ;
+       fhir:value [ fhir:v "Oral powder in capsule for opening" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "parent" ] ;
+       fhir:value [
+         a fhir:code ;
+         fhir:v "PDF"
+       ]
+     ] [
+       fhir:code [ fhir:v "comment" ] ;
+       fhir:value [
+         a fhir:string ;
+         fhir:v "Clear administration instructions are included in the product information, and the capsule should be imprinted such that it is obvious to the user that it is to be opened rather than swallowed whole. For safety reasons (i.e. in case the capsule itself is swallowed), the capsule is made from readily digestible materials."
+       ]
+     ] [
+       fhir:code [ fhir:v "issued" ] ;
+       fhir:value [
+         a fhir:string ;
+         fhir:v "2024-11-26 10:51:44"
+       ]
+     ] [
+       fhir:code [ fhir:v "versionInfo" ] ;
+       fhir:value [
+         a fhir:integer ;
+         fhir:v 1
+       ]
+     ] [
+       fhir:code [ fhir:v "status" ] ;
+       fhir:value [
+         a fhir:string ;
+         fhir:v "Current"
+       ]
+     ] [
+       fhir:code [ fhir:v "modified" ] ;
+       fhir:value [
+         a fhir:string ;
+         fhir:v "2024-11-26 10:51:44"
+       ]
+     ] [
+       fhir:code [ fhir:v "type" ] ;
+       fhir:value [
+         a fhir:string ;
+         fhir:v "terms"
+       ]
+     ] [
+       fhir:code [ fhir:v "domain" ] ;
+       fhir:value [
+         a fhir:code ;
+         fhir:v "H+V"
+       ]
+     ] [
+       fhir:code [ fhir:v "class" ] ;
+       fhir:value [
+         a fhir:code ;
+         fhir:v "PDF"
+       ]
+     ] [
+       fhir:code [ fhir:v "Has_Pharmaceutical_Transformation" ] ;
+       fhir:value [
+         a fhir:code ;
+         fhir:v "0042"
+       ]
+     ] [
+       fhir:code [ fhir:v "Has_Pharmaceutical_Transformation" ] ;
+       fhir:value [
+         a fhir:code ;
+         fhir:v "0040"
+       ]
+     ] [
+       fhir:code [ fhir:v "Has_Pharmaceutical_Transformation" ] ;
+       fhir:value [
+         a fhir:code ;
+         fhir:v "0039"
+       ]
+     ] [
+       fhir:code [ fhir:v "Has_Pharmaceutical_Release_Characteristics" ] ;
+       fhir:value [
+         a fhir:code ;
+         fhir:v "0047"
+       ]
+     ] [
+       fhir:code [ fhir:v "Has_Pharmaceutical_Basic_Dose_Form" ] ;
+       fhir:value [
+         a fhir:code ;
+         fhir:v "0066"
+       ]
+     ] [
+       fhir:code [ fhir:v "Has_Pharmaceutical_Administration_Method" ] ;
+       fhir:value [
+         a fhir:code ;
+         fhir:v "0019"
+       ]
+     ] [
+       fhir:code [ fhir:v "Has_Pharmaceutical_State_Of_Matter" ] ;
+       fhir:value [
+         a fhir:code ;
+         fhir:v "0097"
+       ]
+     ] [
+       fhir:code [ fhir:v "Has_Pharmaceutical_Intended_Site" ] ;
+       fhir:value [
+         a fhir:code ;
+         fhir:v "0031"
        ]
      ] )
   ] [

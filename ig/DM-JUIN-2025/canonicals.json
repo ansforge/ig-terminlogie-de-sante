@@ -8293,7 +8293,7 @@
     "id" : "terminologie-standardterms",
     "type" : "CodeSystem",
     "url" : "https://smt.esante.gouv.fr/terminologie-standardterms",
-    "version" : "2024-06-20",
+    "version" : "2025-03-19",
     "name" : "Standard_terms_EDQM",
     "oids" : ["0.4.0.127.0.16.1.1.2.1"]
   },

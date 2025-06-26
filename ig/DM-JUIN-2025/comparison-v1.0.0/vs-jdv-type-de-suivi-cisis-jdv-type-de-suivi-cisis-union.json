@@ -1,11 +1,11 @@
 {
   "resourceType" : "ValueSet",
-  "id" : "56e47bdd-fcb8-49e4-af66-5177c8c36583-2792",
-  "url" : "http://hl7.org/fhir/comparison/ValueSet/56e47bdd-fcb8-49e4-af66-5177c8c36583-2792",
+  "id" : "b87dbbe9-7d7a-4587-90dd-e1c04408c4b7-2792",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/b87dbbe9-7d7a-4587-90dd-e1c04408c4b7-2792",
   "name" : "UnionJdvTypeDeSuiviCisisAndJdvTypeDeSuiviCisis",
   "title" : "Union of JDV Type De Suivi CISIS And JDV Type De Suivi CISIS",
   "status" : "active",
-  "date" : "2025-06-25T16:35:29+00:00",
+  "date" : "2025-06-26T13:09:32+00:00",
   "jurisdiction" : [{
     "coding" : [{
       "system" : "urn:iso:std:iso:3166",
