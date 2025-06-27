@@ -1,11 +1,11 @@
 {
   "resourceType" : "CodeSystem",
-  "id" : "24b8c1f8-0b19-4fa6-85e3-0ef911dc2599-653",
-  "url" : "http://hl7.org/fhir/comparison/CodeSystem/24b8c1f8-0b19-4fa6-85e3-0ef911dc2599-653",
+  "id" : "44092ef7-c330-4f27-9499-62200148cbc0-653",
+  "url" : "http://hl7.org/fhir/comparison/CodeSystem/44092ef7-c330-4f27-9499-62200148cbc0-653",
   "name" : "UnionTRE_R52_CapaciteDiplomeAndTRE_R52_CapaciteDiplome",
   "title" : "Union of null And null",
   "status" : "active",
-  "date" : "2025-06-27T11:37:36+00:00",
+  "date" : "2025-06-27T14:09:57+00:00",
   "jurisdiction" : [{
     "coding" : [{
       "system" : "urn:iso:std:iso:3166",
