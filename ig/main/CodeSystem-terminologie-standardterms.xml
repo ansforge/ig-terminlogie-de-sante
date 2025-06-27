@@ -3,8 +3,8 @@
 <CodeSystem xmlns="http://hl7.org/fhir">
   <id value="terminologie-standardterms"/>
   <meta>
-    <versionId value="6"/>
-    <lastUpdated value="2025-03-17T13:00:17.744+00:00"/>
+    <versionId value="7"/>
+    <lastUpdated value="2025-06-26T08:43:48.525+00:00"/>
     <profile value="http://hl7.org/fhir/StructureDefinition/shareablecodesystem"/>
   </meta>
   <text>
@@ -21,12 +21,12 @@
     <system value="https://smt.esante.gouv.fr/"/>
     <value value="terminologie-standardterms"/>
   </identifier>
-  <version value="2024-06-20"/>
+  <version value="2025-03-19"/>
   <name value="Standard_terms_EDQM"/>
   <title value="Standard Terms Data Base Dictionnaire européen multilingue de termes normalisés descripteurs de médicaments"/>
   <status value="active"/>
   <experimental value="false"/>
-  <date value="2024-08-29T00:00:00+00:00"/>
+  <date value="2025-06-26T00:00:00+00:00"/>
   <publisher value="Agence du numérique en santé"/>
   <description value="Les standard terms (ou listes de termes normalisés) ont été établis en réponse à une demande de la Commission européenne. Ils contiennent les formes pharmaceutiques, les voies et/ou les méthodes d’administration, les unités de présentation, ainsi que les conditionnements, les systèmes de fermeture et les dispositifs d’administration des médicaments à usage humain et/ou vétérinaire."/>
   <jurisdiction>
@@ -38,7 +38,7 @@
   <copyright value="[CC BY 4.0](https://creativecommons.org/licenses/by/4.0/legalcode)"/>
   <valueSet value="https://smt.esante.gouv.fr/terminologie-standardterms?vs"/>
   <content value="complete"/>
-  <count value="1287"/>
+  <count value="1297"/>
   <filter>
     <code value="root"/>
     <operator value="="/>
@@ -4368,6 +4368,84 @@
     </property>
   </concept>
   <concept>
+    <code value="13197000"/>
+    <display value="Granulés dans une capsule à ouvrir"/>
+    <definition value="Préparation unidose constituée de granulés enfermés dans une capsule ressemblant à une gélule. La cvapsule doit être ouverte et tout son contenu doit être administré par voie orale. La capsule elle-même n'est pas avalée et est jetée après ouverture. Pour les préparations constituées d'une capsule qui peut être avalée entière ou ouverte, le terme « gélule » est  utilisé à la place."/>
+    <designation>
+      <language value="en"/>
+      <use>
+        <system value="http://snomed.info/sct"/>
+        <code value="900000000000003001"/>
+        <display value="Fully specified name (core metadata concept)"/>
+      </use>
+      <value value="Granules in capsule for opening"/>
+    </designation>
+    <property>
+      <code value="parent"/>
+      <valueCode value="PDF"/>
+    </property>
+    <property>
+      <code value="comment"/>
+      <valueString value="Clear administration instructions are included in the product information, and the capsule should be imprinted such that it is obvious to the user that it is to be opened rather than swallowed whole. For safety reasons (i.e. in case the capsule itself is swallowed), the capsule is made from readily digestible materials."/>
+    </property>
+    <property>
+      <code value="issued"/>
+      <valueString value="2024-11-26 10:49:13"/>
+    </property>
+    <property>
+      <code value="versionInfo"/>
+      <valueInteger value="1"/>
+    </property>
+    <property>
+      <code value="status"/>
+      <valueString value="Current"/>
+    </property>
+    <property>
+      <code value="modified"/>
+      <valueString value="2024-11-26 10:49:13"/>
+    </property>
+    <property>
+      <code value="type"/>
+      <valueString value="terms"/>
+    </property>
+    <property>
+      <code value="domain"/>
+      <valueCode value="H+V"/>
+    </property>
+    <property>
+      <code value="class"/>
+      <valueCode value="PDF"/>
+    </property>
+    <property>
+      <code value="Has_Pharmaceutical_Transformation"/>
+      <valueCode value="0042"/>
+    </property>
+    <property>
+      <code value="Has_Pharmaceutical_Release_Characteristics"/>
+      <valueCode value="0047"/>
+    </property>
+    <property>
+      <code value="Has_Pharmaceutical_Basic_Dose_Form"/>
+      <valueCode value="0053"/>
+    </property>
+    <property>
+      <code value="Has_Pharmaceutical_Administration_Method"/>
+      <valueCode value="0019"/>
+    </property>
+    <property>
+      <code value="Has_Pharmaceutical_Administration_Method"/>
+      <valueCode value="0007"/>
+    </property>
+    <property>
+      <code value="Has_Pharmaceutical_State_Of_Matter"/>
+      <valueCode value="0097"/>
+    </property>
+    <property>
+      <code value="Has_Pharmaceutical_Intended_Site"/>
+      <valueCode value="0031"/>
+    </property>
+  </concept>
+  <concept>
     <code value="10226000"/>
     <display value="Comprimé à libération prolongée"/>
     <definition value="Préparation solide en dose unique consistant en un comprimé montrant une libération plus lente de la (des) substance(s) active(s) que celle d'un comprimé à libération conventionnelle. La libération prolongée est obtenue par une formulation et/ou une méthode de fabrication particulière. Les comprimés à libération prolongée sont destinés à être utilisés par voie orale."/>
@@ -5975,6 +6053,14 @@
     <property>
       <code value="Linked_Pharmaceutical_Dose_Forms"/>
       <valueCode value="13175000"/>
+    </property>
+    <property>
+      <code value="Linked_Pharmaceutical_Dose_Forms"/>
+      <valueCode value="13198000"/>
+    </property>
+    <property>
+      <code value="Linked_Pharmaceutical_Dose_Forms"/>
+      <valueCode value="13197000"/>
     </property>
   </concept>
   <concept>
@@ -8511,6 +8597,10 @@
       <code value="child"/>
       <valueCode value="15063000"/>
     </property>
+    <property>
+      <code value="child"/>
+      <valueCode value="15064000"/>
+    </property>
   </concept>
   <concept>
     <code value="0038"/>
@@ -9987,6 +10077,10 @@
       <code value="Linked_Combined_Term"/>
       <valueCode value="50048050"/>
     </property>
+    <property>
+      <code value="Linked_Combined_Term"/>
+      <valueCode value="13201000"/>
+    </property>
   </concept>
   <concept>
     <code value="0100"/>
@@ -10322,6 +10416,10 @@
     <property>
       <code value="Linked_Pharmaceutical_Dose_Forms"/>
       <valueCode value="13177000"/>
+    </property>
+    <property>
+      <code value="Linked_Pharmaceutical_Dose_Forms"/>
+      <valueCode value="13198000"/>
     </property>
   </concept>
   <concept>
@@ -10927,6 +11025,76 @@
     <property>
       <code value="Linked_Combined_Term"/>
       <valueCode value="50029750"/>
+    </property>
+  </concept>
+  <concept>
+    <code value="13196000"/>
+    <display value="Solution sublinguale"/>
+    <definition value="Préparation liquide unidose ou multidose consistant en une solution destinée à être utilisée par voie sublinguale."/>
+    <designation>
+      <language value="en"/>
+      <use>
+        <system value="http://snomed.info/sct"/>
+        <code value="900000000000003001"/>
+        <display value="Fully specified name (core metadata concept)"/>
+      </use>
+      <value value="Sublingual solution"/>
+    </designation>
+    <property>
+      <code value="parent"/>
+      <valueCode value="PDF"/>
+    </property>
+    <property>
+      <code value="issued"/>
+      <valueString value="2024-11-06 15:24:04"/>
+    </property>
+    <property>
+      <code value="versionInfo"/>
+      <valueInteger value="1"/>
+    </property>
+    <property>
+      <code value="status"/>
+      <valueString value="Current"/>
+    </property>
+    <property>
+      <code value="modified"/>
+      <valueString value="2024-11-06 15:24:04"/>
+    </property>
+    <property>
+      <code value="type"/>
+      <valueString value="terms"/>
+    </property>
+    <property>
+      <code value="domain"/>
+      <valueCode value="H+V"/>
+    </property>
+    <property>
+      <code value="class"/>
+      <valueCode value="PDF"/>
+    </property>
+    <property>
+      <code value="Has_Pharmaceutical_Transformation"/>
+      <valueCode value="0042"/>
+    </property>
+    <property>
+      <code value="Has_Pharmaceutical_Release_Characteristics"/>
+      <valueCode value="0047"/>
+    </property>
+    <property>
+      <code value="Has_Pharmaceutical_Basic_Dose_Form"/>
+      <valueCode value="0083"/>
+    </property>
+    <property>
+      <code value="Has_Pharmaceutical_Administration_Method"/>
+      <valueCode value="0004"/>
+    </property>
+    <property>
+      <code value="Has_Pharmaceutical_State_Of_Matter"/>
+      <valueCode value="0099"/>
+    </property>
+    <property>
+      <code value="Has_Pharmaceutical_Intended_Site"/>
+      <valueCode value="0118"/>
     </property>
   </concept>
   <concept>
@@ -11583,6 +11751,10 @@
     <property>
       <code value="Linked_Pharmaceutical_Dose_Forms"/>
       <valueCode value="10900500"/>
+    </property>
+    <property>
+      <code value="Linked_Pharmaceutical_Dose_Forms"/>
+      <valueCode value="13200000"/>
     </property>
   </concept>
   <concept>
@@ -15076,6 +15248,60 @@
     <property>
       <code value="Linked_Patient_Friendly_Terms"/>
       <valueCode value="13050"/>
+    </property>
+  </concept>
+  <concept>
+    <code value="13195000"/>
+    <display value="Granulés pelliculés en sachet"/>
+    <definition value="Médicament constitué de granulés pelliculés présentés dans un sachet."/>
+    <designation>
+      <language value="en"/>
+      <use>
+        <system value="http://snomed.info/sct"/>
+        <code value="900000000000003001"/>
+        <display value="Fully specified name (core metadata concept)"/>
+      </use>
+      <value value="Film-coated granules in sachet"/>
+    </designation>
+    <property>
+      <code value="parent"/>
+      <valueCode value="CMT"/>
+    </property>
+    <property>
+      <code value="issued"/>
+      <valueString value="2024-10-16 12:02:21"/>
+    </property>
+    <property>
+      <code value="versionInfo"/>
+      <valueInteger value="1"/>
+    </property>
+    <property>
+      <code value="status"/>
+      <valueString value="Current"/>
+    </property>
+    <property>
+      <code value="modified"/>
+      <valueString value="2024-10-16 12:02:21"/>
+    </property>
+    <property>
+      <code value="type"/>
+      <valueString value="terms"/>
+    </property>
+    <property>
+      <code value="domain"/>
+      <valueCode value="H+V"/>
+    </property>
+    <property>
+      <code value="class"/>
+      <valueCode value="CMT"/>
+    </property>
+    <property>
+      <code value="Linked_Pharmaceutical_Dose_Forms"/>
+      <valueCode value="13154000"/>
+    </property>
+    <property>
+      <code value="Linked_Container"/>
+      <valueCode value="30054000"/>
     </property>
   </concept>
   <concept>
@@ -18694,6 +18920,10 @@
       <code value="Linked_Combined_Term"/>
       <valueCode value="50060200"/>
     </property>
+    <property>
+      <code value="Linked_Combined_Term"/>
+      <valueCode value="13194000"/>
+    </property>
   </concept>
   <concept>
     <code value="30024000"/>
@@ -21534,6 +21764,10 @@
       <code value="Linked_Combined_Term"/>
       <valueCode value="50048050"/>
     </property>
+    <property>
+      <code value="Linked_Combined_Term"/>
+      <valueCode value="13201000"/>
+    </property>
   </concept>
   <concept>
     <code value="90001143"/>
@@ -23023,6 +23257,60 @@
     </property>
   </concept>
   <concept>
+    <code value="13194000"/>
+    <display value="Solution  à libération prolongée pour injection en stylo pré-rempli"/>
+    <definition value="Médicament consistant en une solution injectable à libération prolongée présentée dans un stylo prérempli."/>
+    <designation>
+      <language value="en"/>
+      <use>
+        <system value="http://snomed.info/sct"/>
+        <code value="900000000000003001"/>
+        <display value="Fully specified name (core metadata concept)"/>
+      </use>
+      <value value="Prolonged-release solution for injection in pre-filled pen"/>
+    </designation>
+    <property>
+      <code value="parent"/>
+      <valueCode value="CMT"/>
+    </property>
+    <property>
+      <code value="issued"/>
+      <valueString value="2024-10-16 12:00:36"/>
+    </property>
+    <property>
+      <code value="versionInfo"/>
+      <valueInteger value="1"/>
+    </property>
+    <property>
+      <code value="status"/>
+      <valueString value="Current"/>
+    </property>
+    <property>
+      <code value="modified"/>
+      <valueString value="2024-10-24 17:55:24"/>
+    </property>
+    <property>
+      <code value="type"/>
+      <valueString value="terms"/>
+    </property>
+    <property>
+      <code value="domain"/>
+      <valueCode value="H+V"/>
+    </property>
+    <property>
+      <code value="class"/>
+      <valueCode value="CMT"/>
+    </property>
+    <property>
+      <code value="Linked_Pharmaceutical_Dose_Forms"/>
+      <valueCode value="13076000"/>
+    </property>
+    <property>
+      <code value="Linked_Container"/>
+      <valueCode value="30050000"/>
+    </property>
+  </concept>
+  <concept>
     <code value="13151000"/>
     <display value="Tube pour comprimés"/>
     <definition value="Récipient rigide et cylindrique qui est fermé à une extrémité, habituellement destiné à des comprimés fragiles tels que des comprimés effervescents, et qui est destiné à permettre la superposition des comprimés sur une seule colonne, réduisant ainsi la probabilité de dommages physiques causés par des impacts de l'un sur l'autre ou de la paroi du récipient. L'extrémité ouverte peut être refermée, et dans le cas d'un comprimé effervescent, un déshydratant est généralement intégré dans la fermeture."/>
@@ -23909,6 +24197,10 @@
       <code value="child"/>
       <valueCode value="13156000"/>
     </property>
+    <property>
+      <code value="child"/>
+      <valueCode value="13199000"/>
+    </property>
   </concept>
   <concept>
     <code value="11107000"/>
@@ -24742,6 +25034,14 @@
       <valueCode value="13175000"/>
     </property>
     <property>
+      <code value="Linked_Pharmaceutical_Dose_Forms"/>
+      <valueCode value="13198000"/>
+    </property>
+    <property>
+      <code value="Linked_Pharmaceutical_Dose_Forms"/>
+      <valueCode value="13197000"/>
+    </property>
+    <property>
       <code value="Linked_Patient_Friendly_Terms"/>
       <valueCode value="11050"/>
     </property>
@@ -25372,6 +25672,10 @@
     <property>
       <code value="child"/>
       <valueCode value="20089000"/>
+    </property>
+    <property>
+      <code value="child"/>
+      <valueCode value="20090000"/>
     </property>
   </concept>
   <concept>
@@ -26659,6 +26963,10 @@
     <property>
       <code value="Linked_Pharmaceutical_Dose_Forms"/>
       <valueCode value="13184000"/>
+    </property>
+    <property>
+      <code value="Linked_Pharmaceutical_Dose_Forms"/>
+      <valueCode value="13198000"/>
     </property>
   </concept>
   <concept>
@@ -29676,7 +29984,7 @@
     </property>
     <property>
       <code value="comment"/>
-      <valueString value="Term rejected. Such a term is not appropriate for safety reasons, owing to the risk of implying that the capsule itself is intended to be swallowed; for this reason, containers that themselves represent pharmaceutical dose forms are not encouraged."/>
+      <valueString value="Term rejected. Certain preparations are available in the form of a capsule that must be opened, the contents administered, and the capsule discarded. Although it is not itself administered, the capsule is considered to be part of the pharmaceutical dose form and not an immediate container."/>
     </property>
     <property>
       <code value="issued"/>
@@ -29684,7 +29992,7 @@
     </property>
     <property>
       <code value="versionInfo"/>
-      <valueInteger value="1"/>
+      <valueInteger value="2"/>
     </property>
     <property>
       <code value="status"/>
@@ -29692,7 +30000,7 @@
     </property>
     <property>
       <code value="modified"/>
-      <valueString value="2020-04-15 10:33:20"/>
+      <valueString value="2024-11-26 11:00:53"/>
     </property>
     <property>
       <code value="type"/>
@@ -29712,7 +30020,7 @@
     </property>
     <property>
       <code value="replacement"/>
-      <valueCode value="30057000"/>
+      <valueCode value="13198000"/>
     </property>
   </concept>
   <concept>
@@ -29975,6 +30283,10 @@
     <property>
       <code value="Linked_Combined_Term"/>
       <valueCode value="13110000"/>
+    </property>
+    <property>
+      <code value="Linked_Combined_Term"/>
+      <valueCode value="13201000"/>
     </property>
   </concept>
   <concept>
@@ -34534,6 +34846,10 @@
       <code value="Linked_Combined_Term"/>
       <valueCode value="50060100"/>
     </property>
+    <property>
+      <code value="Linked_Combined_Term"/>
+      <valueCode value="13201000"/>
+    </property>
   </concept>
   <concept>
     <code value="12112000"/>
@@ -35248,6 +35564,10 @@
     <property>
       <code value="Linked_Combined_Term"/>
       <valueCode value="50048010"/>
+    </property>
+    <property>
+      <code value="Linked_Combined_Term"/>
+      <valueCode value="13201000"/>
     </property>
   </concept>
   <concept>
@@ -38938,6 +39258,10 @@
       <code value="Linked_Pharmaceutical_Dose_Forms"/>
       <valueCode value="13188000"/>
     </property>
+    <property>
+      <code value="Linked_Pharmaceutical_Dose_Forms"/>
+      <valueCode value="13196000"/>
+    </property>
   </concept>
   <concept>
     <code value="10310000"/>
@@ -40005,7 +40329,7 @@
   <concept>
     <code value="13179000"/>
     <display value="Granulés pour suspension buvable à libération modifiée"/>
-    <definition value="Préparation solide consistant en des granulés destinés à être dispersés dans le liquide spécifié pour obtenir une suspension buvable à libération modifiée. &#xA;         Le terme générique « Granules pour suspension buvable à libération modifiée » est uniquement utilisé lorsque les termes plus spécifiques « Granules pour suspension buvable gastrorésistante » ou « Granules pour suspension buvable à libération prolongée » ne s'appliquent pas."/>
+    <definition value="Préparation solide consistant en des granulés destinés à être dispersés dans le liquide spécifié pour obtenir une suspension buvable à libération modifiée. &#xA;Le terme générique « Granules pour suspension buvable à libération modifiée » est uniquement utilisé lorsque les termes plus spécifiques « Granules pour suspension buvable gastrorésistante » ou « Granules pour suspension buvable à libération prolongée » ne s'appliquent pas."/>
     <designation>
       <language value="en"/>
       <use>
@@ -46040,6 +46364,22 @@
       <code value="child"/>
       <valueCode value="13188000"/>
     </property>
+    <property>
+      <code value="child"/>
+      <valueCode value="13196000"/>
+    </property>
+    <property>
+      <code value="child"/>
+      <valueCode value="13198000"/>
+    </property>
+    <property>
+      <code value="child"/>
+      <valueCode value="13197000"/>
+    </property>
+    <property>
+      <code value="child"/>
+      <valueCode value="13200000"/>
+    </property>
   </concept>
   <concept>
     <code value="30005000"/>
@@ -46965,6 +47305,10 @@
     <property>
       <code value="Has_Pharmaceutical_Intended_Site"/>
       <valueCode value="0033"/>
+    </property>
+    <property>
+      <code value="Linked_Combined_Term"/>
+      <valueCode value="13194000"/>
     </property>
   </concept>
   <concept>
@@ -48672,6 +49016,56 @@
     <property>
       <code value="Linked_Patient_Friendly_Terms"/>
       <valueCode value="21010"/>
+    </property>
+  </concept>
+  <concept>
+    <code value="15064000"/>
+    <display value="Injecteur"/>
+    <definition value="Unité de présentation utilisée pour représenter la quantité de produit contenue dans un dispositif injecteur unitaire."/>
+    <designation>
+      <language value="en"/>
+      <use>
+        <system value="http://snomed.info/sct"/>
+        <code value="900000000000003001"/>
+        <display value="Fully specified name (core metadata concept)"/>
+      </use>
+      <value value="Injector"/>
+    </designation>
+    <property>
+      <code value="parent"/>
+      <valueCode value="UOP"/>
+    </property>
+    <property>
+      <code value="comment"/>
+      <valueString value="For example, to describe the quantity of a solution for injection in a single pre-filled injector: &quot;contains 1 mL per injector&quot;."/>
+    </property>
+    <property>
+      <code value="issued"/>
+      <valueString value="2025-01-10 11:44:15"/>
+    </property>
+    <property>
+      <code value="versionInfo"/>
+      <valueInteger value="1"/>
+    </property>
+    <property>
+      <code value="status"/>
+      <valueString value="Current"/>
+    </property>
+    <property>
+      <code value="modified"/>
+      <valueString value="2025-01-10 11:44:15"/>
+    </property>
+    <property>
+      <code value="type"/>
+      <valueString value="terms"/>
+    </property>
+    <property>
+      <code value="domain"/>
+      <valueCode value="H+V"/>
+    </property>
+    <property>
+      <code value="class"/>
+      <valueCode value="UOP"/>
     </property>
   </concept>
   <concept>
@@ -52987,6 +53381,76 @@
     </property>
   </concept>
   <concept>
+    <code value="13200000"/>
+    <display value="Système d'administration intravésical"/>
+    <definition value="Système d'administration solide unidose destiné à un usage intravésical qui libère son contenu de substance(s) active(s) sur une période de temps prolongée."/>
+    <designation>
+      <language value="en"/>
+      <use>
+        <system value="http://snomed.info/sct"/>
+        <code value="900000000000003001"/>
+        <display value="Fully specified name (core metadata concept)"/>
+      </use>
+      <value value="Intravesical delivery system"/>
+    </designation>
+    <property>
+      <code value="parent"/>
+      <valueCode value="PDF"/>
+    </property>
+    <property>
+      <code value="issued"/>
+      <valueString value="2025-03-19 08:39:22"/>
+    </property>
+    <property>
+      <code value="versionInfo"/>
+      <valueInteger value="1"/>
+    </property>
+    <property>
+      <code value="status"/>
+      <valueString value="Current"/>
+    </property>
+    <property>
+      <code value="modified"/>
+      <valueString value="2025-03-19 08:39:22"/>
+    </property>
+    <property>
+      <code value="type"/>
+      <valueString value="terms"/>
+    </property>
+    <property>
+      <code value="domain"/>
+      <valueCode value="H+V"/>
+    </property>
+    <property>
+      <code value="class"/>
+      <valueCode value="PDF"/>
+    </property>
+    <property>
+      <code value="Has_Pharmaceutical_Transformation"/>
+      <valueCode value="0042"/>
+    </property>
+    <property>
+      <code value="Has_Pharmaceutical_Release_Characteristics"/>
+      <valueCode value="0045"/>
+    </property>
+    <property>
+      <code value="Has_Pharmaceutical_Basic_Dose_Form"/>
+      <valueCode value="0095"/>
+    </property>
+    <property>
+      <code value="Has_Pharmaceutical_Administration_Method"/>
+      <valueCode value="0012"/>
+    </property>
+    <property>
+      <code value="Has_Pharmaceutical_State_Of_Matter"/>
+      <valueCode value="0101"/>
+    </property>
+    <property>
+      <code value="Has_Pharmaceutical_Intended_Site"/>
+      <valueCode value="0028"/>
+    </property>
+  </concept>
+  <concept>
     <code value="15018000"/>
     <display value="Bouteille"/>
     <definition value="Unité de présentation utilisée pour représenter la quantité de produit qui se trouve dans un seul récipient qui appartient à une catégorie de bouteille."/>
@@ -54010,6 +54474,10 @@
     <property>
       <code value="Linked_Pharmaceutical_Dose_Forms"/>
       <valueCode value="10317500"/>
+    </property>
+    <property>
+      <code value="Linked_Pharmaceutical_Dose_Forms"/>
+      <valueCode value="13196000"/>
     </property>
   </concept>
   <concept>
@@ -55769,6 +56237,10 @@
       <code value="Linked_Pharmaceutical_Dose_Forms"/>
       <valueCode value="13175000"/>
     </property>
+    <property>
+      <code value="Linked_Pharmaceutical_Dose_Forms"/>
+      <valueCode value="13197000"/>
+    </property>
   </concept>
   <concept>
     <code value="0116"/>
@@ -57296,6 +57768,10 @@
       <code value="Linked_Pharmaceutical_Dose_Forms"/>
       <valueCode value="11502500"/>
     </property>
+    <property>
+      <code value="Linked_Pharmaceutical_Dose_Forms"/>
+      <valueCode value="13200000"/>
+    </property>
   </concept>
   <concept>
     <code value="13181000"/>
@@ -57731,6 +58207,10 @@
     <property>
       <code value="Linked_Pharmaceutical_Dose_Forms"/>
       <valueCode value="13174000"/>
+    </property>
+    <property>
+      <code value="Linked_Pharmaceutical_Dose_Forms"/>
+      <valueCode value="13196000"/>
     </property>
   </concept>
   <concept>
@@ -65743,6 +66223,10 @@
       <code value="Linked_Container"/>
       <valueCode value="13156000"/>
     </property>
+    <property>
+      <code value="Linked_Container"/>
+      <valueCode value="13199000"/>
+    </property>
   </concept>
   <concept>
     <code value="0110"/>
@@ -70633,6 +71117,18 @@
       <code value="Linked_Pharmaceutical_Dose_Forms"/>
       <valueCode value="13174000"/>
     </property>
+    <property>
+      <code value="Linked_Pharmaceutical_Dose_Forms"/>
+      <valueCode value="13196000"/>
+    </property>
+    <property>
+      <code value="Linked_Pharmaceutical_Dose_Forms"/>
+      <valueCode value="13198000"/>
+    </property>
+    <property>
+      <code value="Linked_Pharmaceutical_Dose_Forms"/>
+      <valueCode value="13197000"/>
+    </property>
   </concept>
   <concept>
     <code value="30022000"/>
@@ -73052,6 +73548,72 @@
     </property>
   </concept>
   <concept>
+    <code value="13201000"/>
+    <display value="Poudre et solvant pour solution injectable en récipient multidose"/>
+    <definition value="Médicament composé d'une poudre et d'un solvant pour solution injectable présenté dans un récipient multidose ; habituellement, la poudre est présentée dans le récipient multidose tandis que le solvant est présenté dans un récipient séparé et est ajouté à la poudre afin de préparer la solution injectable dans le récipient multidose."/>
+    <designation>
+      <language value="en"/>
+      <use>
+        <system value="http://snomed.info/sct"/>
+        <code value="900000000000003001"/>
+        <display value="Fully specified name (core metadata concept)"/>
+      </use>
+      <value value="Powder and solvent for solution for injection in multidose container"/>
+    </designation>
+    <property>
+      <code value="parent"/>
+      <valueCode value="CMT"/>
+    </property>
+    <property>
+      <code value="issued"/>
+      <valueString value="2025-03-19 08:42:40"/>
+    </property>
+    <property>
+      <code value="versionInfo"/>
+      <valueInteger value="1"/>
+    </property>
+    <property>
+      <code value="status"/>
+      <valueString value="Current"/>
+    </property>
+    <property>
+      <code value="modified"/>
+      <valueString value="2025-03-19 08:42:40"/>
+    </property>
+    <property>
+      <code value="type"/>
+      <valueString value="terms"/>
+    </property>
+    <property>
+      <code value="domain"/>
+      <valueCode value="H+V"/>
+    </property>
+    <property>
+      <code value="class"/>
+      <valueCode value="CMT"/>
+    </property>
+    <property>
+      <code value="Linked_Pharmaceutical_Dose_Forms"/>
+      <valueCode value="11205000"/>
+    </property>
+    <property>
+      <code value="Linked_Pharmaceutical_Dose_Forms"/>
+      <valueCode value="13035000"/>
+    </property>
+    <property>
+      <code value="Linked_Pharmaceutical_Dose_Forms"/>
+      <valueCode value="11201000"/>
+    </property>
+    <property>
+      <code value="Linked_Combined_Pharmaceutical_Dose_Form"/>
+      <valueCode value="11207000"/>
+    </property>
+    <property>
+      <code value="Linked_Container"/>
+      <valueCode value="30038000"/>
+    </property>
+  </concept>
+  <concept>
     <code value="50060700"/>
     <display value="Solution pour injection/perfusion/utilisation rectale"/>
     <designation>
@@ -74175,6 +74737,10 @@
     <property>
       <code value="Linked_Pharmaceutical_Dose_Forms"/>
       <valueCode value="13188000"/>
+    </property>
+    <property>
+      <code value="Linked_Pharmaceutical_Dose_Forms"/>
+      <valueCode value="13200000"/>
     </property>
   </concept>
   <concept>
@@ -76057,6 +76623,10 @@
       <code value="Linked_Pharmaceutical_Dose_Forms"/>
       <valueCode value="13174000"/>
     </property>
+    <property>
+      <code value="Linked_Pharmaceutical_Dose_Forms"/>
+      <valueCode value="13198000"/>
+    </property>
   </concept>
   <concept>
     <code value="50029000"/>
@@ -77883,6 +78453,22 @@
     <property>
       <code value="Linked_Pharmaceutical_Dose_Forms"/>
       <valueCode value="13190000"/>
+    </property>
+    <property>
+      <code value="Linked_Pharmaceutical_Dose_Forms"/>
+      <valueCode value="13196000"/>
+    </property>
+    <property>
+      <code value="Linked_Pharmaceutical_Dose_Forms"/>
+      <valueCode value="13198000"/>
+    </property>
+    <property>
+      <code value="Linked_Pharmaceutical_Dose_Forms"/>
+      <valueCode value="13197000"/>
+    </property>
+    <property>
+      <code value="Linked_Pharmaceutical_Dose_Forms"/>
+      <valueCode value="13200000"/>
     </property>
   </concept>
   <concept>
@@ -82073,6 +82659,10 @@
       <code value="Linked_Pharmaceutical_Dose_Forms"/>
       <valueCode value="13177000"/>
     </property>
+    <property>
+      <code value="Linked_Pharmaceutical_Dose_Forms"/>
+      <valueCode value="13197000"/>
+    </property>
   </concept>
   <concept>
     <code value="20031700"/>
@@ -83452,6 +84042,10 @@
       <code value="Linked_Combined_Term"/>
       <valueCode value="13183000"/>
     </property>
+    <property>
+      <code value="Linked_Combined_Term"/>
+      <valueCode value="13195000"/>
+    </property>
   </concept>
   <concept>
     <code value="30026500"/>
@@ -84430,6 +85024,10 @@
     <property>
       <code value="Linked_Combined_Term"/>
       <valueCode value="13155000"/>
+    </property>
+    <property>
+      <code value="Linked_Combined_Term"/>
+      <valueCode value="13195000"/>
     </property>
   </concept>
   <concept>
@@ -86515,6 +87113,18 @@
     <property>
       <code value="child"/>
       <valueCode value="13192000"/>
+    </property>
+    <property>
+      <code value="child"/>
+      <valueCode value="13195000"/>
+    </property>
+    <property>
+      <code value="child"/>
+      <valueCode value="13201000"/>
+    </property>
+    <property>
+      <code value="child"/>
+      <valueCode value="13194000"/>
     </property>
   </concept>
   <concept>
@@ -90405,6 +91015,10 @@
       <code value="Linked_Pharmaceutical_Dose_Forms"/>
       <valueCode value="11901000"/>
     </property>
+    <property>
+      <code value="Linked_Pharmaceutical_Dose_Forms"/>
+      <valueCode value="13200000"/>
+    </property>
   </concept>
   <concept>
     <code value="50050000"/>
@@ -91087,6 +91701,56 @@
     <property>
       <code value="modified"/>
       <valueString value="2022-04-26 12:30:46"/>
+    </property>
+    <property>
+      <code value="type"/>
+      <valueString value="terms"/>
+    </property>
+    <property>
+      <code value="Linked_Packaging_Category"/>
+      <valueCode value="0001"/>
+    </property>
+    <property>
+      <code value="domain"/>
+      <valueCode value="H+V"/>
+    </property>
+    <property>
+      <code value="class"/>
+      <valueCode value="CON"/>
+    </property>
+  </concept>
+  <concept>
+    <code value="13199000"/>
+    <display value="Distributeur pré-rempli de doses"/>
+    <definition value="Récipient , généralement multidose,  rempli équipé d'un dispositif permettant de distribuer une quantité déterminée de médicament, par exemple au moyen d'un compteur automatique. Le distributeur prérempli de doses  est destiné à être jeté lorsqu'il est vide. Les stylos préremplis, les seringues préremplies, les inhalateurs, les pompes doseuses, etc. sont exclus."/>
+    <designation>
+      <language value="en"/>
+      <use>
+        <system value="http://snomed.info/sct"/>
+        <code value="900000000000003001"/>
+        <display value="Fully specified name (core metadata concept)"/>
+      </use>
+      <value value="Pre-filled dose dispenser"/>
+    </designation>
+    <property>
+      <code value="parent"/>
+      <valueCode value="CON"/>
+    </property>
+    <property>
+      <code value="issued"/>
+      <valueString value="2025-03-13 12:01:31"/>
+    </property>
+    <property>
+      <code value="versionInfo"/>
+      <valueInteger value="1"/>
+    </property>
+    <property>
+      <code value="status"/>
+      <valueString value="Current"/>
+    </property>
+    <property>
+      <code value="modified"/>
+      <valueString value="2025-03-13 12:01:31"/>
     </property>
     <property>
       <code value="type"/>
@@ -92496,7 +93160,7 @@
   <concept>
     <code value="20035000"/>
     <display value="Voie intramusculaire"/>
-    <definition value="Injection d'un produit pharmaceutique dans le tissu musculaire."/>
+    <definition value="Injection d'un produit pharmaceutique dans le tissu musculaire squelettique"/>
     <designation>
       <language value="en"/>
       <use>
@@ -92516,7 +93180,7 @@
     </property>
     <property>
       <code value="versionInfo"/>
-      <valueInteger value="1"/>
+      <valueInteger value="2"/>
     </property>
     <property>
       <code value="status"/>
@@ -92524,7 +93188,7 @@
     </property>
     <property>
       <code value="modified"/>
-      <valueString value="2015-03-11 07:59:05"/>
+      <valueString value="2024-10-01 11:49:01"/>
     </property>
     <property>
       <code value="type"/>
@@ -95007,6 +95671,52 @@
     </property>
   </concept>
   <concept>
+    <code value="20090000"/>
+    <display value="voie intra-détrusorienne"/>
+    <definition value="Injection d'un médicament dans le muscle détrusor de la vessie."/>
+    <designation>
+      <language value="en"/>
+      <use>
+        <system value="http://snomed.info/sct"/>
+        <code value="900000000000003001"/>
+        <display value="Fully specified name (core metadata concept)"/>
+      </use>
+      <value value="Intradetrusorial use"/>
+    </designation>
+    <property>
+      <code value="parent"/>
+      <valueCode value="ROA"/>
+    </property>
+    <property>
+      <code value="issued"/>
+      <valueString value="2024-10-01 11:46:37"/>
+    </property>
+    <property>
+      <code value="versionInfo"/>
+      <valueInteger value="1"/>
+    </property>
+    <property>
+      <code value="status"/>
+      <valueString value="Current"/>
+    </property>
+    <property>
+      <code value="modified"/>
+      <valueString value="2024-10-01 11:46:37"/>
+    </property>
+    <property>
+      <code value="type"/>
+      <valueString value="terms"/>
+    </property>
+    <property>
+      <code value="domain"/>
+      <valueCode value="H+V"/>
+    </property>
+    <property>
+      <code value="class"/>
+      <valueCode value="ROA"/>
+    </property>
+  </concept>
+  <concept>
     <code value="30029000"/>
     <display value="Seringue"/>
     <definition value="Appareil d'administration cylindrique avec canule, avec ou sans aiguille fixée (qui peut ou non être équipée d'un dispositif de sécurité de l'aiguille), et piston mobile avec tige utilisée pour l'administration, habituellement parentérale, d'une quantité mesurée avec précision d'une forme pharmaceutique liquide."/>
@@ -95733,6 +96443,88 @@
     <property>
       <code value="Linked_Container"/>
       <valueCode value="30057000"/>
+    </property>
+  </concept>
+  <concept>
+    <code value="13198000"/>
+    <display value="Poudre orale en capsule à ouvrir"/>
+    <definition value="Préparation unidose constituée d'une poudre orale enfermée dans une capsule ressemblant à une gélule. La capsule doit être ouverte et tout son contenu doit être administré par voie orale. La capsule  elle-même n'est pas avalée et est jetée après ouverture. Pour les préparations constituées d'une capsule qui peut être avalée entière ou ouverte, le terme « gélule » est utilisé à la place."/>
+    <designation>
+      <language value="en"/>
+      <use>
+        <system value="http://snomed.info/sct"/>
+        <code value="900000000000003001"/>
+        <display value="Fully specified name (core metadata concept)"/>
+      </use>
+      <value value="Oral powder in capsule for opening"/>
+    </designation>
+    <property>
+      <code value="parent"/>
+      <valueCode value="PDF"/>
+    </property>
+    <property>
+      <code value="comment"/>
+      <valueString value="Clear administration instructions are included in the product information, and the capsule should be imprinted such that it is obvious to the user that it is to be opened rather than swallowed whole. For safety reasons (i.e. in case the capsule itself is swallowed), the capsule is made from readily digestible materials."/>
+    </property>
+    <property>
+      <code value="issued"/>
+      <valueString value="2024-11-26 10:51:44"/>
+    </property>
+    <property>
+      <code value="versionInfo"/>
+      <valueInteger value="1"/>
+    </property>
+    <property>
+      <code value="status"/>
+      <valueString value="Current"/>
+    </property>
+    <property>
+      <code value="modified"/>
+      <valueString value="2024-11-26 10:51:44"/>
+    </property>
+    <property>
+      <code value="type"/>
+      <valueString value="terms"/>
+    </property>
+    <property>
+      <code value="domain"/>
+      <valueCode value="H+V"/>
+    </property>
+    <property>
+      <code value="class"/>
+      <valueCode value="PDF"/>
+    </property>
+    <property>
+      <code value="Has_Pharmaceutical_Transformation"/>
+      <valueCode value="0042"/>
+    </property>
+    <property>
+      <code value="Has_Pharmaceutical_Transformation"/>
+      <valueCode value="0040"/>
+    </property>
+    <property>
+      <code value="Has_Pharmaceutical_Transformation"/>
+      <valueCode value="0039"/>
+    </property>
+    <property>
+      <code value="Has_Pharmaceutical_Release_Characteristics"/>
+      <valueCode value="0047"/>
+    </property>
+    <property>
+      <code value="Has_Pharmaceutical_Basic_Dose_Form"/>
+      <valueCode value="0066"/>
+    </property>
+    <property>
+      <code value="Has_Pharmaceutical_Administration_Method"/>
+      <valueCode value="0019"/>
+    </property>
+    <property>
+      <code value="Has_Pharmaceutical_State_Of_Matter"/>
+      <valueCode value="0097"/>
+    </property>
+    <property>
+      <code value="Has_Pharmaceutical_Intended_Site"/>
+      <valueCode value="0031"/>
     </property>
   </concept>
   <concept>
