@@ -1,11 +1,11 @@
 {
   "resourceType" : "CodeSystem",
-  "id" : "b87dbbe9-7d7a-4587-90dd-e1c04408c4b7-809",
-  "url" : "http://hl7.org/fhir/comparison/CodeSystem/b87dbbe9-7d7a-4587-90dd-e1c04408c4b7-809",
+  "id" : "24b8c1f8-0b19-4fa6-85e3-0ef911dc2599-809",
+  "url" : "http://hl7.org/fhir/comparison/CodeSystem/24b8c1f8-0b19-4fa6-85e3-0ef911dc2599-809",
   "name" : "UnionTreR390TypeProjetPersonnaliseAndTreR390TypeProjetPersonnalise",
   "title" : "Union of Tre R390 Type Projet Personnalise And Tre R390 Type Projet Personnalise",
   "status" : "active",
-  "date" : "2025-06-26T13:09:31+00:00",
+  "date" : "2025-06-27T11:37:37+00:00",
   "jurisdiction" : [{
     "coding" : [{
       "system" : "urn:iso:std:iso:3166",

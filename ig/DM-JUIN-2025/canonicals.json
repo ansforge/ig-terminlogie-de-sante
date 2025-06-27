@@ -82,7 +82,7 @@
     "id" : "ASS-A14-FamilleActivite-ActiviteOperationnelle",
     "type" : "ConceptMap",
     "url" : "https://mos.esante.gouv.fr/NOS/ASS_A14-FamilleActivite-ActiviteOperationnelle/FHIR/ASS-A14-FamilleActivite-ActiviteOperationnelle",
-    "version" : "20240531120000",
+    "version" : "20250627120000",
     "name" : "ASS_A14_FamilleActivite_ActiviteOperationnelle"
   },
   {
