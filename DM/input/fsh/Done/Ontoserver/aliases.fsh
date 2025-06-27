@@ -3,6 +3,7 @@ Alias: $tre-r389-statut-bilan-projet-personnalise = https://smt.esante.gouv.fr/f
 Alias: $tre-r390-type-projet-personnalise = https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r390-type-projet-personnalise
 Alias: $tre-r393-type-contrat-sejour = https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r393-type-contrat-sejour
 Alias: $tre-r66-categorie-etablissement = https://mos.esante.gouv.fr/NOS/TRE_R66-CategorieEtablissement/FHIR/TRE-R66-CategorieEtablissement
+Alias: $tre-r394-competence-metier = https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r394-competence-metier
 Alias: $sct = http://snomed.info/sct
 Alias: $v3-ObservationValue = http://terminology.hl7.org/CodeSystem/v3-ObservationValue
 Alias: $TRE_R343_FonctionLieu = https://mos.esante.gouv.fr/NOS/TRE_R343-FonctionLieu/FHIR/TRE-R343-FonctionLieu
