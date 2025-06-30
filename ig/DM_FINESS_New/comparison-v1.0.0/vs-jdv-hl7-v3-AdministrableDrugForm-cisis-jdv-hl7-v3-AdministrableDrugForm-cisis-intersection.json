@@ -1,48 +1,48 @@
 {
   "resourceType" : "ValueSet",
-  "id" : "24e14820-0a63-4af8-be60-cbfbcf42f849-2031",
-  "url" : "http://hl7.org/fhir/comparison/ValueSet/24e14820-0a63-4af8-be60-cbfbcf42f849-2031",
+  "id" : "baeb6b5d-62d5-46e6-8312-a44ae2857eb5-2031",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/baeb6b5d-62d5-46e6-8312-a44ae2857eb5-2031",
   "name" : "IntersectionAdministrableDrugFormAndAdministrableDrugForm",
   "title" : "Intersection of AdministrableDrugForm And AdministrableDrugForm",
   "status" : "active",
-  "date" : "2025-06-23T13:40:48+00:00",
+  "date" : "2025-06-30T12:24:10+00:00",
   "compose" : {
     "include" : [{
       "concept" : [{
         "code" : "APPFUL",
-        "display" : "Applicatorful"
+        "display" : "Applicateur"
       },
       {
         "code" : "PUFF",
-        "display" : "Puff"
+        "display" : "Bouffée"
       },
       {
         "code" : "SCOOP",
-        "display" : "Scoops"
+        "display" : "Cuillère-mesure"
       },
       {
         "code" : "SPRY",
-        "display" : "Sprays"
+        "display" : "Pulvérisation"
       },
       {
         "code" : "DROP",
-        "display" : "Drops"
+        "display" : "Gouttes"
       },
       {
         "code" : "NDROP",
-        "display" : "Nasal Drops"
+        "display" : "Gouttes nasales"
       },
       {
         "code" : "OPDROP",
-        "display" : "Ophthalmic Drops"
+        "display" : "Gouttes ophtalmiques"
       },
       {
         "code" : "ORDROP",
-        "display" : "Oral Drops"
+        "display" : "Gouttes orales"
       },
       {
         "code" : "OTDROP",
-        "display" : "Otic Drops"
+        "display" : "Gouttes auriculaires"
       }]
     }]
   }

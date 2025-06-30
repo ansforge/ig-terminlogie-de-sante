@@ -1,11 +1,11 @@
 {
   "resourceType" : "ValueSet",
-  "id" : "24e14820-0a63-4af8-be60-cbfbcf42f849-1496",
-  "url" : "http://hl7.org/fhir/comparison/ValueSet/24e14820-0a63-4af8-be60-cbfbcf42f849-1496",
+  "id" : "baeb6b5d-62d5-46e6-8312-a44ae2857eb5-1496",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/baeb6b5d-62d5-46e6-8312-a44ae2857eb5-1496",
   "name" : "UnionJDV_J70_Equipement_SantefrAndJDV_J70_Equipement_Santefr",
   "title" : "Union of JDV J70 Equipement Santefr And JDV J70 Equipement Santefr",
   "status" : "retired",
-  "date" : "2025-06-23T13:40:47+00:00",
+  "date" : "2025-06-30T12:24:10+00:00",
   "jurisdiction" : [{
     "coding" : [{
       "system" : "urn:iso:std:iso:3166",

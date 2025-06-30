@@ -1,11 +1,11 @@
 {
   "resourceType" : "ValueSet",
-  "id" : "24e14820-0a63-4af8-be60-cbfbcf42f849-878",
-  "url" : "http://hl7.org/fhir/comparison/ValueSet/24e14820-0a63-4af8-be60-cbfbcf42f849-878",
+  "id" : "baeb6b5d-62d5-46e6-8312-a44ae2857eb5-878",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/baeb6b5d-62d5-46e6-8312-a44ae2857eb5-878",
   "name" : "UnionJDV_J116_GenreActivite_ENREGAndJDV_J116_GenreActivite_ENREG",
   "title" : "Union of null And null",
   "status" : "active",
-  "date" : "2025-06-23T13:40:47+00:00",
+  "date" : "2025-06-30T12:24:10+00:00",
   "jurisdiction" : [{
     "coding" : [{
       "system" : "urn:iso:std:iso:3166",

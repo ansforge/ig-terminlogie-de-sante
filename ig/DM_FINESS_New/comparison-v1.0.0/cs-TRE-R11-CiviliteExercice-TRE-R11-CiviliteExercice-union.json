@@ -1,11 +1,11 @@
 {
   "resourceType" : "CodeSystem",
-  "id" : "24e14820-0a63-4af8-be60-cbfbcf42f849-125",
-  "url" : "http://hl7.org/fhir/comparison/CodeSystem/24e14820-0a63-4af8-be60-cbfbcf42f849-125",
+  "id" : "baeb6b5d-62d5-46e6-8312-a44ae2857eb5-125",
+  "url" : "http://hl7.org/fhir/comparison/CodeSystem/baeb6b5d-62d5-46e6-8312-a44ae2857eb5-125",
   "name" : "UnionTRE_R11_CiviliteExerciceAndTRE_R11_CiviliteExercice",
   "title" : "Union of null And null",
   "status" : "active",
-  "date" : "2025-06-23T13:40:47+00:00",
+  "date" : "2025-06-30T12:24:09+00:00",
   "jurisdiction" : [{
     "coding" : [{
       "system" : "urn:iso:std:iso:3166",

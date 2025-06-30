@@ -1,11 +1,11 @@
 {
   "resourceType" : "CodeSystem",
-  "id" : "24e14820-0a63-4af8-be60-cbfbcf42f849-714",
-  "url" : "http://hl7.org/fhir/comparison/CodeSystem/24e14820-0a63-4af8-be60-cbfbcf42f849-714",
+  "id" : "baeb6b5d-62d5-46e6-8312-a44ae2857eb5-714",
+  "url" : "http://hl7.org/fhir/comparison/CodeSystem/baeb6b5d-62d5-46e6-8312-a44ae2857eb5-714",
   "name" : "IntersectionTRE_R75_InseeNAFrev2Niveau5AndTRE_R75_InseeNAFrev2Niveau5",
   "title" : "Intersection of null And null",
   "status" : "active",
-  "date" : "2025-06-23T13:40:47+00:00",
+  "date" : "2025-06-30T12:24:10+00:00",
   "property" : [{
     "code" : "dateValid",
     "description" : "date de validité d'un code concept",

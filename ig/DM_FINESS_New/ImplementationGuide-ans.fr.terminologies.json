@@ -34242,8 +34242,8 @@
       "reference" : {
         "reference" : "ValueSet/jdv-contre-indication-cisis"
       },
-      "name" : "JDV Contre-indication CISIS",
-      "description" : "JDV Contre-indication CISIS",
+      "name" : "JDV Contrindication CISIS",
+      "description" : "JDV Contrindication CISIS",
       "exampleBoolean" : false
     },
     {
@@ -34254,8 +34254,8 @@
       "reference" : {
         "reference" : "ValueSet/jdv-contreindication-thrombolyse-cisis"
       },
-      "name" : "JDV Contreindication Thrombolyse CISIS",
-      "description" : "JDV Contreindication Thrombolyse CISIS",
+      "name" : "JDV Contrindication Thrombolyse CISIS",
+      "description" : "JDV Contrindication Thrombolyse CISIS",
       "exampleBoolean" : false
     },
     {
@@ -34338,8 +34338,8 @@
       "reference" : {
         "reference" : "ValueSet/jdv-depistage-neonatal-cisis"
       },
-      "name" : "Jdv Depistage Naonatal CISIS",
-      "description" : "Jdv Depistage Naonatal CISIS",
+      "name" : "Jdv Depistage Neonatal CISIS",
+      "description" : "Jdv Depistage Neonatal CISIS",
       "exampleBoolean" : false
     },
     {
@@ -34434,8 +34434,8 @@
       "reference" : {
         "reference" : "ValueSet/jdv-disposition-pretherapeutique-cisis"
       },
-      "name" : "JDV DispositionPretherapeutique CISIS",
-      "description" : "JDV DispositionPretherapeutique CISIS",
+      "name" : "JDV Disposition Pretherapeutique CISIS",
+      "description" : "JDV Disposition Pretherapeutique CISIS",
       "exampleBoolean" : false
     },
     {
@@ -36184,6 +36184,18 @@
         "valueString" : "ValueSet"
       }],
       "reference" : {
+        "reference" : "ValueSet/jdv-motif-declenchement-travail-cisis"
+      },
+      "name" : "JDV Motif Declenchement Travail CISIS",
+      "description" : "JDV Motif Declenchement Travail CISIS",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      }],
+      "reference" : {
         "reference" : "ValueSet/jdv-motif-diagnostic-cisis"
       },
       "name" : "JDV Motif Diagnostic CISIS",
@@ -36236,18 +36248,6 @@
       },
       "name" : "JDV Motif Non Realisation Evenement CISIS",
       "description" : "JDV Motif Non Realisation Evenement CISIS",
-      "exampleBoolean" : false
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "ValueSet"
-      }],
-      "reference" : {
-        "reference" : "ValueSet/jdv-motif-declenchement-travail-cisis"
-      },
-      "name" : "JDV MotifDeclenchementTravail CISIS",
-      "description" : "JDV MotifDeclenchementTravail CISIS",
       "exampleBoolean" : false
     },
     {
@@ -36424,6 +36424,18 @@
         "valueString" : "ValueSet"
       }],
       "reference" : {
+        "reference" : "ValueSet/jdv-nihss-paralysie-faciale-cisis"
+      },
+      "name" : "JDV Nihss Paralysie Faciale CISIS",
+      "description" : "JDV Nihss Paralysie Faciale CISIS",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      }],
+      "reference" : {
         "reference" : "ValueSet/jdv-nihss-questions-cisis"
       },
       "name" : "JDV Nihss Questions CISIS",
@@ -36436,22 +36448,10 @@
         "valueString" : "ValueSet"
       }],
       "reference" : {
-        "reference" : "ValueSet/jdv-nihss-paralysie-faciale-cisis"
-      },
-      "name" : "JDV nihss-paralysie-faciale CISIS",
-      "description" : "JDV nihss-paralysie-faciale CISIS",
-      "exampleBoolean" : false
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "ValueSet"
-      }],
-      "reference" : {
         "reference" : "ValueSet/jdv-nihss-sensibilite-cisis"
       },
-      "name" : "JDV nihss-sensibilite CISIS",
-      "description" : "JDV nihss-sensibilite CISIS",
+      "name" : "JDV Nihss Sensibilite CISIS",
+      "description" : "JDV Nihss Sensibilite CISIS",
       "exampleBoolean" : false
     },
     {
@@ -36690,8 +36690,8 @@
       "reference" : {
         "reference" : "ValueSet/jdv-presentation-foetale-cisis"
       },
-      "name" : "JDV PresentationFoetale CISIS",
-      "description" : "JDV PresentationFoetale CISIS",
+      "name" : "JDV Presentation Foetale CISIS",
+      "description" : "JDV Presentation Foetale CISIS",
       "exampleBoolean" : false
     },
     {
@@ -37072,6 +37072,18 @@
         "valueString" : "ValueSet"
       }],
       "reference" : {
+        "reference" : "ValueSet/jdv-resultat-depistage-cisis"
+      },
+      "name" : "JDV Resultat Depistage CISIS",
+      "description" : "JDV Resultat Depistage CISIS",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      }],
+      "reference" : {
         "reference" : "ValueSet/jdv-resultat-depistage-corps-cetoniques-cisis"
       },
       "name" : "JDV Resultat Depistage Corps Cetoniques CISIS",
@@ -37244,18 +37256,6 @@
       },
       "name" : "JDV Resultat Recherche Hpv Ccu CISIS",
       "description" : "JDV Resultat Recherche Hpv Ccu CISIS",
-      "exampleBoolean" : false
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "ValueSet"
-      }],
-      "reference" : {
-        "reference" : "ValueSet/jdv-resultat-depistage-cisis"
-      },
-      "name" : "JDV ResultatDepistage CISIS",
-      "description" : "JDV ResultatDepistage CISIS",
       "exampleBoolean" : false
     },
     {
