@@ -1,4 +1,16 @@
 Alias: $tre-r374-nature-activite-smsse-regulee = https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r374-nature-activite-smsse-regulee
+Alias: $tre-r272-equipement-materiel-lourd = https://mos.esante.gouv.fr/NOS/TRE_R272-EquipementMaterielLourd/FHIR/TRE-R272-EquipementMaterielLourd
+Alias: $tre-r274-activite-sanitaire-regulee = https://mos.esante.gouv.fr/NOS/TRE_R274-ActiviteSanitaireRegulee/FHIR/TRE-R274-ActiviteSanitaireRegulee
+Alias: $tre-r275-modalite-activite = https://mos.esante.gouv.fr/NOS/TRE_R275-ModaliteActivite/FHIR/TRE-R275-ModaliteActivite
+Alias: $tre-r276-forme-activite = https://mos.esante.gouv.fr/NOS/TRE_R276-FormeActivite/FHIR/TRE-R276-FormeActivite
+Alias: $tre-r381-activite-amm = https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r381-activite-amm
+Alias: $tre-r382-modalite-act-de-soin-amm = https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r382-modalite-act-de-soin-amm
+Alias: $tre-r383-mention-act-de-soin-amm = https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r383-mention-act-de-soin-amm
+Alias: $tre-r384-pratique-therapeutique-specifique-act-de-soin-amm = https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r384-pratique-therapeutique-specifique-act-de-soin-amm
+Alias: $tre-r385-declaration-act-de-soin-amm = https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r385-declaration-act-de-soin-amm
+Alias: $tre-r347-activite-sanitaire-diverse-regulee = https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r347-activite-sanitaire-diverse-regulee
+Alias: $tre-r209-mode-fonctionnement = https://mos.esante.gouv.fr/NOS/TRE_R209-TypeActivite/FHIR/TRE-R209-TypeActivite
+Alias: $tre-r279-public = https://mos.esante.gouv.fr/NOS/TRE_R279-Clientele/FHIR/TRE-R279-Clientele
 
 CodeSystem: TreR392TypeActSmsseRegulee
 Id: tre-r392-type-act-smsse-regulee
@@ -45,6 +57,54 @@ Description: "Type activité SMSSE régulée"
 * ^property[=].uri = "https://smt.esante.gouv.fr/fhir/concept-properties#natureActivite"
 * ^property[=].description = "Propriété permettant de renseigner les grandes natures d'activité SMSSE exercées par les entités FINESS+"
 * ^property[=].type = #Coding
+* ^property[+].code = #typeEML
+* ^property[=].uri = "https://smt.esante.gouv.fr/fhir/concept-properties#typeEML"
+* ^property[=].description = "Propriété permettant de renseigner les équipements matériels lourds associés aux types d'activité"
+* ^property[=].type = #Coding
+* ^property[+].code = #activiteSanitaireRegulee
+* ^property[=].uri = "https://smt.esante.gouv.fr/fhir/concept-properties#activiteSanitaireRegulee"
+* ^property[=].description = "Propriété permettant de renseigner les activités sanitaires soumises à une régulation de la part de l’ARS associées aux types d'activité"
+* ^property[=].type = #Coding
+* ^property[+].code = #modaliteActivite
+* ^property[=].uri = "https://smt.esante.gouv.fr/fhir/concept-properties#modaliteActivite"
+* ^property[=].description = "Propriété permettant de renseigner les modes d’application ou types de soins encadrant une activité associés aux types d'activité"
+* ^property[=].type = #Coding
+* ^property[+].code = #formeActivite
+* ^property[=].uri = "https://smt.esante.gouv.fr/fhir/concept-properties#formeActivite"
+* ^property[=].description = "Propriété permettant de renseigner les types d’organisation de prise en charge associés aux types d'activité"
+* ^property[=].type = #Coding
+* ^property[+].code = #activiteAMM
+* ^property[=].uri = "https://smt.esante.gouv.fr/fhir/concept-properties#activiteAMM"
+* ^property[=].description = "Propriété permettant de renseigner les activités de soin AMM associées aux types d'activité"
+* ^property[=].type = #Coding
+* ^property[+].code = #modaliteAMM
+* ^property[=].uri = "https://smt.esante.gouv.fr/fhir/concept-properties#modaliteAMM"
+* ^property[=].description = "Propriété permettant de renseigner les modalités pour les activités de soin AMM associées aux types d'activité"
+* ^property[=].type = #Coding
+* ^property[+].code = #mentionAMM
+* ^property[=].uri = "https://smt.esante.gouv.fr/fhir/concept-properties#mentionAMM"
+* ^property[=].description = "Propriété permettant de renseigner les mentions pour les activités de soin AMM associées aux types d'activité"
+* ^property[=].type = #Coding
+* ^property[+].code = #pratiqueTherapeutiqueSpecifiqueAMM
+* ^property[=].uri = "https://smt.esante.gouv.fr/fhir/concept-properties#pratiqueTherapeutiqueSpecifiqueAMM"
+* ^property[=].description = "Propriété permettant de renseigner les pratiques thérapeutiques spécifiques pour les activités de soin AMM associées aux types d'activité"
+* ^property[=].type = #Coding
+* ^property[+].code = #declarationAMM
+* ^property[=].uri = "https://smt.esante.gouv.fr/fhir/concept-properties#declarationAMM"
+* ^property[=].description = "Propriété permettant de renseigner les déclarations pour les activités de soin AMM associées aux types d'activité"
+* ^property[=].type = #Coding
+* ^property[+].code = #activiteSanitaireDiverseRegulee
+* ^property[=].uri = "https://smt.esante.gouv.fr/fhir/concept-properties#activiteSanitaireDiverseRegulee"
+* ^property[=].description = "Propriété permettant de renseigner les activités sanitaires, utilisée pour décrire les Activités Sanitaires Diverses Régulées (ASDR), associées aux types d'activité"
+* ^property[=].type = #Coding
+* ^property[+].code = #modeFonctionnement
+* ^property[=].uri = "https://smt.esante.gouv.fr/fhir/concept-properties#modeFonctionnement"
+* ^property[=].description = "Propriété permettant de renseigner les modes de fonctionnement associés aux types d'activité"
+* ^property[=].type = #Coding
+* ^property[+].code = #clientele
+* ^property[=].uri = "https://smt.esante.gouv.fr/fhir/concept-properties#clientele"
+* ^property[=].description = "Propriété permettant de renseigner les clientèles associées aux types d'activité"
+* ^property[=].type = #Coding
 * #1 "EML/05602"
 * #1 ^property[0].code = #dateValid
 * #1 ^property[=].valueDateTime = "1900-01-01T00:00:00+01:00"
@@ -54,6 +114,8 @@ Description: "Type activité SMSSE régulée"
 * #1 ^property[=].valueCode = #active
 * #1 ^property[+].code = #natureActivite
 * #1 ^property[=].valueCoding = $tre-r374-nature-activite-smsse-regulee#EML "Equipement Matériel Lourd"
+* #1 ^property[+].code = #typeEML
+* #1 ^property[=].valueCoding = $tre-r272-equipement-materiel-lourd#05602 "Scanographe à utilisation médicale"
 * #2 "EML/05701"
 * #2 ^property[0].code = #dateValid
 * #2 ^property[=].valueDateTime = "1900-01-01T00:00:00+01:00"
@@ -63,6 +125,8 @@ Description: "Type activité SMSSE régulée"
 * #2 ^property[=].valueCode = #active
 * #2 ^property[+].code = #natureActivite
 * #2 ^property[=].valueCoding = $tre-r374-nature-activite-smsse-regulee#EML "Equipement Matériel Lourd"
+* #2 ^property[+].code = #typeEML
+* #2 ^property[=].valueCoding = $tre-r272-equipement-materiel-lourd#05701 "Caméra à scintillation sans détecteur d'émission de positons"
 * #3 "EML/05702"
 * #3 ^property[0].code = #dateValid
 * #3 ^property[=].valueDateTime = "1900-01-01T00:00:00+01:00"
@@ -72,6 +136,8 @@ Description: "Type activité SMSSE régulée"
 * #3 ^property[=].valueCode = #active
 * #3 ^property[+].code = #natureActivite
 * #3 ^property[=].valueCoding = $tre-r374-nature-activite-smsse-regulee#EML "Equipement Matériel Lourd"
+* #3 ^property[+].code = #typeEML
+* #3 ^property[=].valueCoding = $tre-r272-equipement-materiel-lourd#05702 "Caméra à scintillation avec détecteur d'émission de positons"
 * #4 "EML/05705"
 * #4 ^property[0].code = #dateValid
 * #4 ^property[=].valueDateTime = "1900-01-01T00:00:00+01:00"
@@ -81,6 +147,8 @@ Description: "Type activité SMSSE régulée"
 * #4 ^property[=].valueCode = #active
 * #4 ^property[+].code = #natureActivite
 * #4 ^property[=].valueCoding = $tre-r374-nature-activite-smsse-regulee#EML "Equipement Matériel Lourd"
+* #4 ^property[+].code = #typeEML
+* #4 ^property[=].valueCoding = $tre-r272-equipement-materiel-lourd#05705 "Tomographe à émissions"
 * #5 "EML/05706"
 * #5 ^property[0].code = #dateValid
 * #5 ^property[=].valueDateTime = "1900-01-01T00:00:00+01:00"
@@ -90,6 +158,8 @@ Description: "Type activité SMSSE régulée"
 * #5 ^property[=].valueCode = #active
 * #5 ^property[+].code = #natureActivite
 * #5 ^property[=].valueCoding = $tre-r374-nature-activite-smsse-regulee#EML "Equipement Matériel Lourd"
+* #5 ^property[+].code = #typeEML
+* #5 ^property[=].valueCoding = $tre-r272-equipement-materiel-lourd#05706 "Caméra à positons"
 * #6 "EML/06201"
 * #6 ^property[0].code = #dateValid
 * #6 ^property[=].valueDateTime = "1900-01-01T00:00:00+01:00"
@@ -99,6 +169,8 @@ Description: "Type activité SMSSE régulée"
 * #6 ^property[=].valueCode = #active
 * #6 ^property[+].code = #natureActivite
 * #6 ^property[=].valueCoding = $tre-r374-nature-activite-smsse-regulee#EML "Equipement Matériel Lourd"
+* #6 ^property[+].code = #typeEML
+* #6 ^property[=].valueCoding = $tre-r272-equipement-materiel-lourd#06201 "Appareil d'IRM à utilisation clinique"
 * #7 "EML/06301"
 * #7 ^property[0].code = #dateValid
 * #7 ^property[=].valueDateTime = "1900-01-01T00:00:00+01:00"
@@ -108,6 +180,8 @@ Description: "Type activité SMSSE régulée"
 * #7 ^property[=].valueCode = #active
 * #7 ^property[+].code = #natureActivite
 * #7 ^property[=].valueCoding = $tre-r374-nature-activite-smsse-regulee#EML "Equipement Matériel Lourd"
+* #7 ^property[+].code = #typeEML
+* #7 ^property[=].valueCoding = $tre-r272-equipement-materiel-lourd#06301 "Cyclotron à utilisation médicale"
 * #8 "EML/44901"
 * #8 ^property[0].code = #dateValid
 * #8 ^property[=].valueDateTime = "1900-01-01T00:00:00+01:00"
@@ -117,6 +191,8 @@ Description: "Type activité SMSSE régulée"
 * #8 ^property[=].valueCode = #active
 * #8 ^property[+].code = #natureActivite
 * #8 ^property[=].valueCoding = $tre-r374-nature-activite-smsse-regulee#EML "Equipement Matériel Lourd"
+* #8 ^property[+].code = #typeEML
+* #8 ^property[=].valueCoding = $tre-r272-equipement-materiel-lourd#44901 "Caisson hyperbare"
 * #9 "ASR/01/00/44"
 * #9 ^property[0].code = #dateValid
 * #9 ^property[=].valueDateTime = "1900-01-01T00:00:00+01:00"
@@ -126,6 +202,12 @@ Description: "Type activité SMSSE régulée"
 * #9 ^property[=].valueCode = #active
 * #9 ^property[+].code = #natureActivite
 * #9 ^property[=].valueCoding = $tre-r374-nature-activite-smsse-regulee#ASR "Activité Soumise à Reconnaissance contractuelle"
+* #9 ^property[+].code = #activiteSanitaireRegulee
+* #9 ^property[=].valueCoding = $tre-r274-activite-sanitaire-regulee#01 "Médecine"
+* #9 ^property[+].code = #modaliteActivite
+* #9 ^property[=].valueCoding = $tre-r275-modalite-activite#00 "Pas de modalité"
+* #9 ^property[+].code = #formeActivite
+* #9 ^property[=].valueCoding = $tre-r276-forme-activite#44 "Consultations d'évaluation pluri professionnelles post AVC"
 * #10 "ASR/01/10/40"
 * #10 ^property[0].code = #dateValid
 * #10 ^property[=].valueDateTime = "1900-01-01T00:00:00+01:00"
@@ -135,6 +217,12 @@ Description: "Type activité SMSSE régulée"
 * #10 ^property[=].valueCode = #active
 * #10 ^property[+].code = #natureActivite
 * #10 ^property[=].valueCoding = $tre-r374-nature-activite-smsse-regulee#ASR "Activité Soumise à Reconnaissance contractuelle"
+* #10 ^property[+].code = #activiteSanitaireRegulee
+* #10 ^property[=].valueCoding = $tre-r274-activite-sanitaire-regulee#01 "Médecine"
+* #10 ^property[+].code = #modaliteActivite
+* #10 ^property[=].valueCoding = $tre-r275-modalite-activite#10 "Pédiatrique"
+* #10 ^property[+].code = #formeActivite
+* #10 ^property[=].valueCoding = $tre-r276-forme-activite#40 "Ligne de garde PDSES Nuit totale"
 * #11 "ASR/01/B4/01"
 * #11 ^property[0].code = #dateValid
 * #11 ^property[=].valueDateTime = "1900-01-01T00:00:00+01:00"
@@ -144,6 +232,12 @@ Description: "Type activité SMSSE régulée"
 * #11 ^property[=].valueCode = #active
 * #11 ^property[+].code = #natureActivite
 * #11 ^property[=].valueCoding = $tre-r374-nature-activite-smsse-regulee#ASR "Activité Soumise à Reconnaissance contractuelle"
+* #11 ^property[+].code = #activiteSanitaireRegulee
+* #11 ^property[=].valueCoding = $tre-r274-activite-sanitaire-regulee#01 "Médecine"
+* #11 ^property[+].code = #modaliteActivite
+* #11 ^property[=].valueCoding = $tre-r275-modalite-activite#B4 "Gériatrie"
+* #11 ^property[+].code = #formeActivite
+* #11 ^property[=].valueCoding = $tre-r276-forme-activite#01 "Hospitalisation complète (24 heures consécutives ou plus)"
 * #12 "ASR/01/B4/03"
 * #12 ^property[0].code = #dateValid
 * #12 ^property[=].valueDateTime = "1900-01-01T00:00:00+01:00"
@@ -153,6 +247,12 @@ Description: "Type activité SMSSE régulée"
 * #12 ^property[=].valueCode = #active
 * #12 ^property[+].code = #natureActivite
 * #12 ^property[=].valueCoding = $tre-r374-nature-activite-smsse-regulee#ASR "Activité Soumise à Reconnaissance contractuelle"
+* #12 ^property[+].code = #activiteSanitaireRegulee
+* #12 ^property[=].valueCoding = $tre-r274-activite-sanitaire-regulee#01 "Médecine"
+* #12 ^property[+].code = #modaliteActivite
+* #12 ^property[=].valueCoding = $tre-r275-modalite-activite#B4 "Gériatrie"
+* #12 ^property[+].code = #formeActivite
+* #12 ^property[=].valueCoding = $tre-r276-forme-activite#03 "Hospitalisation à temps partiel de jour"
 * #13 "ASR/01/B4/27"
 * #13 ^property[0].code = #dateValid
 * #13 ^property[=].valueDateTime = "1900-01-01T00:00:00+01:00"
@@ -162,6 +262,12 @@ Description: "Type activité SMSSE régulée"
 * #13 ^property[=].valueCode = #active
 * #13 ^property[+].code = #natureActivite
 * #13 ^property[=].valueCoding = $tre-r374-nature-activite-smsse-regulee#ASR "Activité Soumise à Reconnaissance contractuelle"
+* #13 ^property[+].code = #activiteSanitaireRegulee
+* #13 ^property[=].valueCoding = $tre-r274-activite-sanitaire-regulee#01 "Médecine"
+* #13 ^property[+].code = #modaliteActivite
+* #13 ^property[=].valueCoding = $tre-r275-modalite-activite#B4 "Gériatrie"
+* #13 ^property[+].code = #formeActivite
+* #13 ^property[=].valueCoding = $tre-r276-forme-activite#27 "Consultations gériatriques avancées"
 * #14 "ASR/01/B4/28"
 * #14 ^property[0].code = #dateValid
 * #14 ^property[=].valueDateTime = "1900-01-01T00:00:00+01:00"
@@ -171,6 +277,12 @@ Description: "Type activité SMSSE régulée"
 * #14 ^property[=].valueCode = #active
 * #14 ^property[+].code = #natureActivite
 * #14 ^property[=].valueCoding = $tre-r374-nature-activite-smsse-regulee#ASR "Activité Soumise à Reconnaissance contractuelle"
+* #14 ^property[+].code = #activiteSanitaireRegulee
+* #14 ^property[=].valueCoding = $tre-r274-activite-sanitaire-regulee#01 "Médecine"
+* #14 ^property[+].code = #modaliteActivite
+* #14 ^property[=].valueCoding = $tre-r275-modalite-activite#B4 "Gériatrie"
+* #14 ^property[+].code = #formeActivite
+* #14 ^property[=].valueCoding = $tre-r276-forme-activite#28 "Equipe mobile"
 * #15 "ASR/01/B4/41"
 * #15 ^property[0].code = #dateValid
 * #15 ^property[=].valueDateTime = "1900-01-01T00:00:00+01:00"
@@ -4050,6 +4162,16 @@ Description: "Type activité SMSSE régulée"
 * #445 ^property[=].valueCode = #active
 * #445 ^property[+].code = #natureActivite
 * #445 ^property[=].valueCoding = $tre-r374-nature-activite-smsse-regulee#AMM "Activité de soin 'Activité-Modalité-Mention'"
+* #445 ^property[+].code = #activiteAMM
+* #445 ^property[=].valueCoding = $tre-r381-activite-amm#QA001 "Médecine"
+* #445 ^property[+].code = #modaliteAMM
+* #445 ^property[=].valueCoding = $tre-r382-modalite-act-de-soin-amm#MO000 "Pédiatrique"
+* #445 ^property[+].code = #mentionAMM
+* #445 ^property[=].valueCoding = $tre-r383-mention-act-de-soin-amm#ME000 "Pas de mention"
+* #445 ^property[+].code = #pratiqueTherapeutiqueSpecifiqueAMM
+* #445 ^property[=].valueCoding = $tre-r384-pratique-therapeutique-specifique-act-de-soin-amm#PTS00 "Pas de pratique thérapeutique spécifique"
+* #445 ^property[+].code = #declarationAMM
+* #445 ^property[=].valueCoding = $tre-r385-declaration-act-de-soin-amm#DE015 "Adultes"
 * #446 "AMM/QA001/MO000/ME000/PTS00/DE016"
 * #446 ^property[0].code = #dateValid
 * #446 ^property[=].valueDateTime = "1900-01-01T00:00:00+01:00"
@@ -4059,6 +4181,16 @@ Description: "Type activité SMSSE régulée"
 * #446 ^property[=].valueCode = #active
 * #446 ^property[+].code = #natureActivite
 * #446 ^property[=].valueCoding = $tre-r374-nature-activite-smsse-regulee#AMM "Activité de soin 'Activité-Modalité-Mention'"
+* #446 ^property[+].code = #activiteAMM
+* #446 ^property[=].valueCoding = $tre-r381-activite-amm#QA001 "Médecine"
+* #446 ^property[+].code = #modaliteAMM
+* #446 ^property[=].valueCoding = $tre-r382-modalite-act-de-soin-amm#MO000 "Pédiatrique"
+* #446 ^property[+].code = #mentionAMM
+* #446 ^property[=].valueCoding = $tre-r383-mention-act-de-soin-amm#ME000 "Pas de mention"
+* #446 ^property[+].code = #pratiqueTherapeutiqueSpecifiqueAMM
+* #446 ^property[=].valueCoding = $tre-r384-pratique-therapeutique-specifique-act-de-soin-amm#PTS00 "Pas de pratique thérapeutique spécifique"
+* #446 ^property[+].code = #declarationAMM
+* #446 ^property[=].valueCoding = $tre-r385-declaration-act-de-soin-amm#DE016 "Enfant et adolescent"
 * #447 "AMM/QA002/MO006/ME000/PTS11/DE023"
 * #447 ^property[0].code = #dateValid
 * #447 ^property[=].valueDateTime = "1900-01-01T00:00:00+01:00"
@@ -4068,6 +4200,16 @@ Description: "Type activité SMSSE régulée"
 * #447 ^property[=].valueCode = #active
 * #447 ^property[+].code = #natureActivite
 * #447 ^property[=].valueCoding = $tre-r374-nature-activite-smsse-regulee#AMM "Activité de soin 'Activité-Modalité-Mention'"
+* #447 ^property[+].code = #activiteAMM
+* #447 ^property[=].valueCoding = $tre-r381-activite-amm#QA002 "Chirurgie"
+* #447 ^property[+].code = #modaliteAMM
+* #447 ^property[=].valueCoding = $tre-r382-modalite-act-de-soin-amm#MO006 "Adultes"
+* #447 ^property[+].code = #mentionAMM
+* #447 ^property[=].valueCoding = $tre-r383-mention-act-de-soin-amm#ME000 "Pas de mention"
+* #447 ^property[+].code = #pratiqueTherapeutiqueSpecifiqueAMM
+* #447 ^property[=].valueCoding = $tre-r384-pratique-therapeutique-specifique-act-de-soin-amm#PTS11 "Maxillo-faciale, stomatologie et chirurgie orale"
+* #447 ^property[+].code = #declarationAMM
+* #447 ^property[=].valueCoding = $tre-r385-declaration-act-de-soin-amm#DE023 "Hospitalisation ambulatoire"
 * #448 "AMM/QA002/MO006/ME000/PTS11/DE022"
 * #448 ^property[0].code = #dateValid
 * #448 ^property[=].valueDateTime = "1900-01-01T00:00:00+01:00"
@@ -4077,6 +4219,16 @@ Description: "Type activité SMSSE régulée"
 * #448 ^property[=].valueCode = #active
 * #448 ^property[+].code = #natureActivite
 * #448 ^property[=].valueCoding = $tre-r374-nature-activite-smsse-regulee#AMM "Activité de soin 'Activité-Modalité-Mention'"
+* #448 ^property[+].code = #activiteAMM
+* #448 ^property[=].valueCoding = $tre-r381-activite-amm#QA002 "Chirurgie"
+* #448 ^property[+].code = #modaliteAMM
+* #448 ^property[=].valueCoding = $tre-r382-modalite-act-de-soin-amm#MO006 "Adultes"
+* #448 ^property[+].code = #mentionAMM
+* #448 ^property[=].valueCoding = $tre-r383-mention-act-de-soin-amm#ME000 "Pas de mention"
+* #448 ^property[+].code = #pratiqueTherapeutiqueSpecifiqueAMM
+* #448 ^property[=].valueCoding = $tre-r384-pratique-therapeutique-specifique-act-de-soin-amm#PTS11 "Maxillo-faciale, stomatologie et chirurgie orale"
+* #448 ^property[+].code = #declarationAMM
+* #448 ^property[=].valueCoding = $tre-r385-declaration-act-de-soin-amm#DE022 "Hospitalisation à temps complet"
 * #449 "AMM/QA002/MO006/ME000/PTS12/DE023"
 * #449 ^property[0].code = #dateValid
 * #449 ^property[=].valueDateTime = "1900-01-01T00:00:00+01:00"
@@ -4086,6 +4238,16 @@ Description: "Type activité SMSSE régulée"
 * #449 ^property[=].valueCode = #active
 * #449 ^property[+].code = #natureActivite
 * #449 ^property[=].valueCoding = $tre-r374-nature-activite-smsse-regulee#AMM "Activité de soin 'Activité-Modalité-Mention'"
+* #449 ^property[+].code = #activiteAMM
+* #449 ^property[=].valueCoding = $tre-r381-activite-amm#QA002 "Chirurgie"
+* #449 ^property[+].code = #modaliteAMM
+* #449 ^property[=].valueCoding = $tre-r382-modalite-act-de-soin-amm#MO006 "Adultes"
+* #449 ^property[+].code = #mentionAMM
+* #449 ^property[=].valueCoding = $tre-r383-mention-act-de-soin-amm#ME000 "Pas de mention"
+* #449 ^property[+].code = #pratiqueTherapeutiqueSpecifiqueAMM
+* #449 ^property[=].valueCoding = $tre-r384-pratique-therapeutique-specifique-act-de-soin-amm#PTS12 "Orthopédique et traumatologique"
+* #449 ^property[+].code = #declarationAMM
+* #449 ^property[=].valueCoding = $tre-r385-declaration-act-de-soin-amm#DE023 "Hospitalisation ambulatoire"
 * #450 "AMM/QA002/MO006/ME000/PTS12/DE022"
 * #450 ^property[0].code = #dateValid
 * #450 ^property[=].valueDateTime = "1900-01-01T00:00:00+01:00"
@@ -5949,6 +6111,19 @@ Description: "Type activité SMSSE régulée"
 * #656 ^property[=].valueCode = #active
 * #656 ^property[+].code = #natureActivite
 * #656 ^property[=].valueCoding = $tre-r374-nature-activite-smsse-regulee#AMM "Activité de soin 'Activité-Modalité-Mention'"
+* #657 "ASDR/023/02/990"
+* #657 ^property[0].code = #dateValid
+* #657 ^property[=].valueDateTime = "1900-01-01T00:00:00+01:00"
+* #657 ^property[+].code = #dateMaj
+* #657 ^property[=].valueDateTime = "1900-01-01T00:00:00+01:00"
+* #657 ^property[+].code = #status
+* #657 ^property[=].valueCode = #active
+* #657 ^property[+].code = #natureActivite
+* #657 ^property[=].valueCoding = $tre-r374-nature-activite-smsse-regulee#ASDR "Activité Sanitaire Diverse Régulée"
+* #657 ^property[+].code = #activiteSanitaireDiverseRegulee
+* #657 ^property[=].valueCoding = $tre-r347-activite-sanitaire-diverse-regulee#023 "Stérilisation"
+* #657 ^property[+].code = #clientele
+* #657 ^property[=].valueCoding = $tre-r279-public#990 "Toute Population"
 * #658 "ASDR/023/08/990"
 * #658 ^property[0].code = #dateValid
 * #658 ^property[=].valueDateTime = "1900-01-01T00:00:00+01:00"
@@ -5958,6 +6133,12 @@ Description: "Type activité SMSSE régulée"
 * #658 ^property[=].valueCode = #active
 * #658 ^property[+].code = #natureActivite
 * #658 ^property[=].valueCoding = $tre-r374-nature-activite-smsse-regulee#ASDR "Activité Sanitaire Diverse Régulée"
+* #658 ^property[+].code = #activiteSanitaireDiverseRegulee
+* #658 ^property[=].valueCoding = $tre-r347-activite-sanitaire-diverse-regulee#023 "Stérilisation"
+* #658 ^property[+].code = #modeFonctionnement
+* #658 ^property[=].valueCoding = $tre-r209-mode-fonctionnement#08 "Bloc opératoire (y compris obstétrical et gynécologique)"
+* #658 ^property[+].code = #clientele
+* #658 ^property[=].valueCoding = $tre-r279-public#990 "Toute Population"
 * #659 "ASDR/023/09/990"
 * #659 ^property[0].code = #dateValid
 * #659 ^property[=].valueDateTime = "1900-01-01T00:00:00+01:00"
@@ -5967,6 +6148,12 @@ Description: "Type activité SMSSE régulée"
 * #659 ^property[=].valueCode = #active
 * #659 ^property[+].code = #natureActivite
 * #659 ^property[=].valueCoding = $tre-r374-nature-activite-smsse-regulee#ASDR "Activité Sanitaire Diverse Régulée"
+* #659 ^property[+].code = #activiteSanitaireDiverseRegulee
+* #659 ^property[=].valueCoding = $tre-r347-activite-sanitaire-diverse-regulee#023 "Stérilisation"
+* #659 ^property[+].code = #modeFonctionnement
+* #659 ^property[=].valueCoding = $tre-r209-mode-fonctionnement#09 "Autre unité médico-tech (anesthé, explor fonct, rééduc et réadapt fonct, pharma)"
+* #659 ^property[+].code = #clientele
+* #659 ^property[=].valueCoding = $tre-r279-public#990 "Toute Population"
 * #660 "ASDR/034/32/990"
 * #660 ^property[0].code = #dateValid
 * #660 ^property[=].valueDateTime = "1900-01-01T00:00:00+01:00"
@@ -5976,6 +6163,12 @@ Description: "Type activité SMSSE régulée"
 * #660 ^property[=].valueCode = #active
 * #660 ^property[+].code = #natureActivite
 * #660 ^property[=].valueCoding = $tre-r374-nature-activite-smsse-regulee#ASDR "Activité Sanitaire Diverse Régulée"
+* #660 ^property[+].code = #activiteSanitaireDiverseRegulee
+* #660 ^property[=].valueCoding = $tre-r347-activite-sanitaire-diverse-regulee#034 "Radiostandard"
+* #660 ^property[+].code = #modeFonctionnement
+* #660 ^property[=].valueCoding = $tre-r209-mode-fonctionnement#32 "Radiologie"
+* #660 ^property[+].code = #clientele
+* #660 ^property[=].valueCoding = $tre-r279-public#990 "Toute Population"
 * #661 "ASDR/035/32/990"
 * #661 ^property[0].code = #dateValid
 * #661 ^property[=].valueDateTime = "1900-01-01T00:00:00+01:00"
