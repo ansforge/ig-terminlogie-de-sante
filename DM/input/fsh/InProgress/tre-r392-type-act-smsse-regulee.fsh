@@ -107,6 +107,14 @@ Description: "Type activité SMSSE régulée"
 * ^property[=].uri = "https://smt.esante.gouv.fr/fhir/concept-properties#clientele"
 * ^property[=].description = "Propriété permettant de renseigner les clientèles associées aux types d'activité"
 * ^property[=].type = #Coding
+* ^property[+].code = #activiteSocialeRegulee
+* ^property[=].uri = "https://smt.esante.gouv.fr/fhir/concept-properties#activiteSocialeRegulee"
+* ^property[=].description = "Propriété permettant de renseigner les activitées sociales régulées associées aux types d'activité"
+* ^property[=].type = #Coding
+* ^property[+].code = #activiteEnseignementRegulee
+* ^property[=].uri = "https://smt.esante.gouv.fr/fhir/concept-properties#activiteEnseignementRegulee"
+* ^property[=].description = "Propriété permettant de renseigner les activitées d'enseignement régulées associées aux types d'activité"
+* ^property[=].type = #Coding
 * #1 "EML/05602"
 * #1 ^property[0].code = #dateValid
 * #1 ^property[=].valueDateTime = "1900-01-01T00:00:00+01:00"
