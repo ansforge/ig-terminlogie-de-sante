@@ -11,6 +11,8 @@ Alias: $tre-r385-declaration-act-de-soin-amm = https://smt.esante.gouv.fr/fhir/C
 Alias: $tre-r347-activite-sanitaire-diverse-regulee = https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r347-activite-sanitaire-diverse-regulee
 Alias: $tre-r209-mode-fonctionnement = https://mos.esante.gouv.fr/NOS/TRE_R209-TypeActivite/FHIR/TRE-R209-TypeActivite
 Alias: $tre-r279-public = https://mos.esante.gouv.fr/NOS/TRE_R279-Clientele/FHIR/TRE-R279-Clientele
+Alias: $tre-r280-activite-sociale-regulee = https://mos.esante.gouv.fr/NOS/TRE_R280-DisciplineEquipementSocial/FHIR/TRE-R280-DisciplineEquipementSocial
+Alias: $tre-r281-activite-enseignement-regulee = https://mos.esante.gouv.fr/NOS/TRE_R281-DisciplineEnseignement/FHIR/TRE-R281-DisciplineEnseignement
 
 CodeSystem: TreR392TypeActSmsseRegulee
 Id: tre-r392-type-act-smsse-regulee
