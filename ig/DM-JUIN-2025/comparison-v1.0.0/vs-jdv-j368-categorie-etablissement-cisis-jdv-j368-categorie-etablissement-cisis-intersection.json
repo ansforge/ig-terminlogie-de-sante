@@ -1,11 +1,11 @@
 {
   "resourceType" : "ValueSet",
-  "id" : "33b13989-dfc2-4740-b5b9-f030ce0bdb71-2145",
-  "url" : "http://hl7.org/fhir/comparison/ValueSet/33b13989-dfc2-4740-b5b9-f030ce0bdb71-2145",
+  "id" : "23a0d0ca-eacc-46f2-9caf-f7badd0408ac-2145",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/23a0d0ca-eacc-46f2-9caf-f7badd0408ac-2145",
   "name" : "IntersectionJdvJ368CategorieEtablissementCisisAndJdvJ368CategorieEtablissementCisis",
   "title" : "Intersection of Jdv J368 Categorie Etablissement Cisis And Jdv J368 Categorie Etablissement Cisis",
   "status" : "active",
-  "date" : "2025-06-30T13:10:31+00:00",
+  "date" : "2025-06-30T14:27:10+00:00",
   "jurisdiction" : [{
     "coding" : [{
       "system" : "urn:iso:std:iso:3166",
