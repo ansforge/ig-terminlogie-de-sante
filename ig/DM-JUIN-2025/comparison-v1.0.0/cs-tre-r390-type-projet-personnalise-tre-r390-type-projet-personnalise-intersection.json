@@ -1,11 +1,11 @@
 {
   "resourceType" : "CodeSystem",
-  "id" : "44092ef7-c330-4f27-9499-62200148cbc0-810",
-  "url" : "http://hl7.org/fhir/comparison/CodeSystem/44092ef7-c330-4f27-9499-62200148cbc0-810",
+  "id" : "33b13989-dfc2-4740-b5b9-f030ce0bdb71-810",
+  "url" : "http://hl7.org/fhir/comparison/CodeSystem/33b13989-dfc2-4740-b5b9-f030ce0bdb71-810",
   "name" : "IntersectionTreR390TypeProjetPersonnaliseAndTreR390TypeProjetPersonnalise",
   "title" : "Intersection of Tre R390 Type Projet Personnalise And Tre R390 Type Projet Personnalise",
   "status" : "active",
-  "date" : "2025-06-27T14:09:58+00:00",
+  "date" : "2025-06-30T13:10:30+00:00",
   "jurisdiction" : [{
     "coding" : [{
       "system" : "urn:iso:std:iso:3166",
