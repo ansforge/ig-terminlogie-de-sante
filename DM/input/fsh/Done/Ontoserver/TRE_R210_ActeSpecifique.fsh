@@ -6514,7 +6514,7 @@ Description: "Action menée par un ou plusieurs acteur(s) de santé dans le cadr
 * #0499 ^property[=].valueDateTime = "2017-07-07T10:00:00+01:00"
 * #0499 ^property[+].code = #status
 * #0499 ^property[=].valueCode = #deprecated
-* #0500 "Vaccination antirabique (rage) post-exposition "
+* #0500 "Vaccination antirabique (rage) post-exposition"
 * #0500 ^designation[0].language = #fr-FR
 * #0500 ^designation[=].use.system = "http://snomed.info/sct"
 * #0500 ^designation[=].use = $sct#900000000000013009
