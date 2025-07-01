@@ -1,0 +1,31 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "27994b57-dc94-4757-8dac-7e080c7b4eb5-1991",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/27994b57-dc94-4757-8dac-7e080c7b4eb5-1991",
+  "name" : "UnionAllergyIntoleranceCriticalityAndAllergyIntoleranceCriticality",
+  "title" : "Union of Allergy Intolerance Criticality And Allergy Intolerance Criticality",
+  "status" : "active",
+  "date" : "2025-07-01T15:53:59+00:00",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "FR"
+    }]
+  }],
+  "compose" : {
+    "include" : [{
+      "concept" : [{
+        "code" : "low",
+        "display" : "Bas"
+      },
+      {
+        "code" : "high",
+        "display" : "Elevé"
+      },
+      {
+        "code" : "unable-to-assess",
+        "display" : "Impossible à évaluer"
+      }]
+    }]
+  }
+}

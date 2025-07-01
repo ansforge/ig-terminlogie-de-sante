@@ -1,0 +1,27 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "27994b57-dc94-4757-8dac-7e080c7b4eb5-1859",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/27994b57-dc94-4757-8dac-7e080c7b4eb5-1859",
+  "name" : "UnionJdvDureeAllaitementCisisAndJdvDureeAllaitementCisis",
+  "title" : "Union of JDV Duree Allaitement CISIS And JDV Duree Allaitement CISIS",
+  "status" : "active",
+  "date" : "2025-07-01T15:53:59+00:00",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "FR"
+    }]
+  }],
+  "compose" : {
+    "include" : [{
+      "concept" : [{
+        "code" : "PAT-054",
+        "display" : "Durée de l'allaitement"
+      },
+      {
+        "code" : "PAT-055",
+        "display" : "Durée de l'allaitement exclusif"
+      }]
+    }]
+  }
+}

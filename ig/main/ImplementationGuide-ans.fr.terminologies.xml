@@ -7,11 +7,11 @@
 </div></div>
   </text>
   <url value="https://interop.esante.gouv.fr/terminologies/ImplementationGuide/ans.fr.terminologies"/>
-  <version value="1.0.0"/>
+  <version value="1.1.0"/>
   <name value="Terminologies"/>
   <title value="Terminologies  de Santé"/>
   <status value="active"/>
-  <date value="2025-07-01T04:38:42+00:00"/>
+  <date value="2025-07-01T15:45:07+00:00"/>
   <publisher value="ANS"/>
   <contact>
     <name value="ANS"/>
@@ -17746,7 +17746,7 @@
         <valueString value="CodeSystem"/>
       </extension>
       <reference>
-        <reference value="CodeSystem/11000315107-20240621"/>
+        <reference value="CodeSystem/11000315107-20250621"/>
       </reference>
       <name value="French module"/>
       <description value="SNOMED CT is the most comprehensive and precise clinical health terminology product in the world, owned and distributed around the world by The International Health Terminology Standards Development Organisation (IHTSDO)."/>
@@ -25712,6 +25712,17 @@
       </reference>
       <name value="Tre R393 Type Contrat Sejour"/>
       <description value="Type de contrat conclu entre l’établissement/service et la personne/son représentant légal lors de son entrée en établissement"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="CodeSystem"/>
+      </extension>
+      <reference>
+        <reference value="CodeSystem/tre-r394-competence-metier"/>
+      </reference>
+      <name value="Tre R394 Competence Metier"/>
+      <description value="Type de savoir-faire opérationnel, transversal ou spécifique, acquis et exercé à titre non exclusif dans le cadre d’une activité professionnelle reconnue."/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>

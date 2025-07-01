@@ -1,0 +1,27 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "27994b57-dc94-4757-8dac-7e080c7b4eb5-1293",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/27994b57-dc94-4757-8dac-7e080c7b4eb5-1293",
+  "name" : "IntersectionJDV_J245_Civilite_CISISAndJDV_J245_Civilite_CISIS",
+  "title" : "Intersection of null And null",
+  "status" : "active",
+  "date" : "2025-07-01T15:53:58+00:00",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "FR"
+    }]
+  }],
+  "compose" : {
+    "include" : [{
+      "concept" : [{
+        "code" : "M",
+        "display" : "Monsieur"
+      },
+      {
+        "code" : "MME",
+        "display" : "Madame"
+      }]
+    }]
+  }
+}

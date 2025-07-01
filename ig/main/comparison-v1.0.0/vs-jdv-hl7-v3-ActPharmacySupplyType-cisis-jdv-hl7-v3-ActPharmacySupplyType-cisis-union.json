@@ -1,0 +1,35 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "27994b57-dc94-4757-8dac-7e080c7b4eb5-2021",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/27994b57-dc94-4757-8dac-7e080c7b4eb5-2021",
+  "name" : "UnionActPharmacySupplyTypeAndActPharmacySupplyType",
+  "title" : "Union of ActPharmacySupplyType And ActPharmacySupplyType",
+  "status" : "active",
+  "date" : "2025-07-01T15:53:59+00:00",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "FR"
+    }]
+  }],
+  "compose" : {
+    "include" : [{
+      "concept" : [{
+        "code" : "FFC",
+        "display" : "Première dispensation - complète"
+      },
+      {
+        "code" : "FFP",
+        "display" : "Première dispensation - partielle"
+      },
+      {
+        "code" : "RFP",
+        "display" : "Dispensation suivante - partielle"
+      },
+      {
+        "code" : "RFC",
+        "display" : "Dispensation suivante - complète"
+      }]
+    }]
+  }
+}

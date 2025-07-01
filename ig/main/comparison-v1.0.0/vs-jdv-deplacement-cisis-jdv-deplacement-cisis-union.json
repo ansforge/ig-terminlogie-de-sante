@@ -1,0 +1,35 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "27994b57-dc94-4757-8dac-7e080c7b4eb5-1835",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/27994b57-dc94-4757-8dac-7e080c7b4eb5-1835",
+  "name" : "UnionJdvDeplacementCisisAndJdvDeplacementCisis",
+  "title" : "Union of JDV Deplacement CISIS And JDV Deplacement CISIS",
+  "status" : "active",
+  "date" : "2025-07-01T15:53:59+00:00",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "FR"
+    }]
+  }],
+  "compose" : {
+    "include" : [{
+      "concept" : [{
+        "code" : "161898004",
+        "display" : "chutes"
+      },
+      {
+        "code" : "50239007",
+        "display" : "errance"
+      },
+      {
+        "code" : "248046000",
+        "display" : "fugue"
+      },
+      {
+        "code" : "386423001",
+        "display" : "contention physique"
+      }]
+    }]
+  }
+}

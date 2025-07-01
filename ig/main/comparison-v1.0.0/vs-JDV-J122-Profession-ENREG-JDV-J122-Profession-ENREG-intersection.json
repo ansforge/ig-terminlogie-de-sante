@@ -1,0 +1,23 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "27994b57-dc94-4757-8dac-7e080c7b4eb5-909",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/27994b57-dc94-4757-8dac-7e080c7b4eb5-909",
+  "name" : "IntersectionJDV_J122_Profession_ENREGAndJDV_J122_Profession_ENREG",
+  "title" : "Intersection of null And null",
+  "status" : "active",
+  "date" : "2025-07-01T15:53:58+00:00",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "FR"
+    }]
+  }],
+  "compose" : {
+    "include" : [{
+      "concept" : [{
+        "code" : "99",
+        "display" : "Acteur participant au système de santé caractérisé par rôle"
+      }]
+    }]
+  }
+}

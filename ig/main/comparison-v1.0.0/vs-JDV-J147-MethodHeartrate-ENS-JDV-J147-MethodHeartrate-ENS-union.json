@@ -1,0 +1,41 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "27994b57-dc94-4757-8dac-7e080c7b4eb5-989",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/27994b57-dc94-4757-8dac-7e080c7b4eb5-989",
+  "name" : "UnionJDV_J147_MethodHeartrate_ENSAndJDV_J147_MethodHeartrate_ENS",
+  "title" : "Union of null And null",
+  "status" : "active",
+  "date" : "2025-07-01T15:53:58+00:00",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "FR"
+    }]
+  }],
+  "compose" : {
+    "include" : [{
+      "concept" : [{
+        "code" : "C0205",
+        "display" : "DISPOSITIFS CARDIAQUES À VISÉE DIAGNOSTIQUE"
+      },
+      {
+        "code" : "Y210905",
+        "display" : "INTERFACES DE CAPTEURS EXTERNES"
+      },
+      {
+        "code" : "Z12030205",
+        "display" : "TENSIOMÈTRES NON INVASIFS"
+      },
+      {
+        "code" : "Z1203020408",
+        "display" : "OXYMÈTRES DE POULS"
+      }]
+    },
+    {
+      "concept" : [{
+        "code" : "8499008",
+        "display" : "pouls"
+      }]
+    }]
+  }
+}

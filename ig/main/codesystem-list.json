@@ -2,7 +2,7 @@
   "codeSystems" : [
     {
       "url" : "http://snomed.info/sct",
-      "version" : "http://snomed.info/sct/11000315107/version/20240621",
+      "version" : "http://snomed.info/sct/11000315107/version/20250621",
       "status" : "active",
       "name" : "SNOMED_CT",
       "title" : "French module",
@@ -344,7 +344,7 @@
     },
     {
       "url" : "https://mos.esante.gouv.fr/NOS/TRE_R04-TypeSavoirFaire/FHIR/TRE-R04-TypeSavoirFaire",
-      "version" : "20231215120000",
+      "version" : "20250625120000",
       "status" : "active",
       "name" : "TRE_R04_TypeSavoirFaire",
       "title" : null,
@@ -533,7 +533,7 @@
     },
     {
       "url" : "https://mos.esante.gouv.fr/NOS/TRE_R21-Fonction/FHIR/TRE-R21-Fonction",
-      "version" : "20240426120000",
+      "version" : "20250623120000",
       "status" : "active",
       "name" : "TRE_R21_Fonction",
       "title" : null,
@@ -542,7 +542,7 @@
     },
     {
       "url" : "https://mos.esante.gouv.fr/NOS/TRE_R210-ActeSpecifique/FHIR/TRE-R210-ActeSpecifique",
-      "version" : "20250131120000",
+      "version" : "20250623120000",
       "status" : "active",
       "name" : "TRE_R210_ActeSpecifique",
       "title" : null,
@@ -551,7 +551,7 @@
     },
     {
       "url" : "https://mos.esante.gouv.fr/NOS/TRE_R211-ActiviteOperationnelle/FHIR/TRE-R211-ActiviteOperationnelle",
-      "version" : "20250425120000",
+      "version" : "20250623120000",
       "status" : "active",
       "name" : "TRE_R211_ActiviteOperationnelle",
       "title" : null,
@@ -560,7 +560,7 @@
     },
     {
       "url" : "https://mos.esante.gouv.fr/NOS/TRE_R212-Equipement/FHIR/TRE-R212-Equipement",
-      "version" : "20250425120000",
+      "version" : "20250623120000",
       "status" : "active",
       "name" : "TRE_R212_Equipement",
       "title" : null,
@@ -857,7 +857,7 @@
     },
     {
       "url" : "https://mos.esante.gouv.fr/NOS/TRE_R244-CategorieOrganisation/FHIR/TRE-R244-CategorieOrganisation",
-      "version" : "20250425120000",
+      "version" : "20250625120000",
       "status" : "active",
       "name" : "TRE_R244_CategorieOrganisation",
       "title" : null,
@@ -1685,7 +1685,7 @@
     },
     {
       "url" : "https://mos.esante.gouv.fr/NOS/TRE_R343-FonctionLieu/FHIR/TRE-R343-FonctionLieu",
-      "version" : "20231215120000",
+      "version" : "20250620120000",
       "status" : "active",
       "name" : "TRE_R343_FonctionLieu",
       "title" : null,
@@ -1694,7 +1694,7 @@
     },
     {
       "url" : "https://mos.esante.gouv.fr/NOS/TRE_R344-NiveauExpertise/FHIR/TRE-R344-NiveauExpertise",
-      "version" : "20250425120000",
+      "version" : "20250623120000",
       "status" : "active",
       "name" : "TRE_R344_NiveauExpertise",
       "title" : null,
@@ -1775,7 +1775,7 @@
     },
     {
       "url" : "https://mos.esante.gouv.fr/NOS/TRE_R356-ProfessionRessource/FHIR/TRE-R356-ProfessionRessource",
-      "version" : "20250425120000",
+      "version" : "20250623120000",
       "status" : "active",
       "name" : "TRE_R356_ProfessionRessource",
       "title" : null,
@@ -2312,6 +2312,15 @@
       "title" : "Tre R393 Type Contrat Sejour",
       "description" : "Type de contrat conclu entre l’établissement/service et la personne/son représentant légal lors de son entrée en établissement",
       "oids" : ["1.2.250.1.213.3.3.260"]
+    },
+    {
+      "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r394-competence-metier",
+      "version" : "20250625120000",
+      "status" : "active",
+      "name" : "TreR394CompetenceMetier",
+      "title" : "Tre R394 Competence Metier",
+      "description" : "Type de savoir-faire opérationnel, transversal ou spécifique, acquis et exercé à titre non exclusif dans le cadre d’une activité professionnelle reconnue.",
+      "oids" : ["1.2.250.1.213.1.6.1.375"]
     },
     {
       "url" : "https://smt.esante.gouv.fr/terminologie-SERAFINPH",

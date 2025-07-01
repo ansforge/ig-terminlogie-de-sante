@@ -1,0 +1,35 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "27994b57-dc94-4757-8dac-7e080c7b4eb5-1121",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/27994b57-dc94-4757-8dac-7e080c7b4eb5-1121",
+  "name" : "UnionJDV_J190_GenreCapacite_RORAndJDV_J190_GenreCapacite_ROR",
+  "title" : "Union of null And null",
+  "status" : "active",
+  "date" : "2025-07-01T15:53:58+00:00",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "FR"
+    }]
+  }],
+  "compose" : {
+    "include" : [{
+      "concept" : [{
+        "code" : "01",
+        "display" : "Femme"
+      },
+      {
+        "code" : "02",
+        "display" : "Homme"
+      },
+      {
+        "code" : "03",
+        "display" : "Indifférencié"
+      },
+      {
+        "code" : "04",
+        "display" : "Indéterminé"
+      }]
+    }]
+  }
+}

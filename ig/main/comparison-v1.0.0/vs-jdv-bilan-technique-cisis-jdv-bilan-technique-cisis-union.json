@@ -1,0 +1,43 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "27994b57-dc94-4757-8dac-7e080c7b4eb5-1709",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/27994b57-dc94-4757-8dac-7e080c7b4eb5-1709",
+  "name" : "UnionJdvBilanTechniqueCisisAndJdvBilanTechniqueCisis",
+  "title" : "Union of JDV Bilan Technique CISIS And JDV Bilan Technique CISIS",
+  "status" : "active",
+  "date" : "2025-07-01T15:53:58+00:00",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "FR"
+    }]
+  }],
+  "compose" : {
+    "include" : [{
+      "concept" : [{
+        "code" : "MED-034",
+        "display" : "Agrandissement"
+      },
+      {
+        "code" : "GEN-092.04.16",
+        "display" : "Autres clichés"
+      }]
+    },
+    {
+      "concept" : [{
+        "code" : "103892-6",
+        "display" : "tomosynthèse mammaire numérique dépistage du sein"
+      }]
+    },
+    {
+      "concept" : [{
+        "code" : "OT",
+        "display" : "Autre technique d'imagerie"
+      },
+      {
+        "code" : "US",
+        "display" : "Echographie"
+      }]
+    }]
+  }
+}

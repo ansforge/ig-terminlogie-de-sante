@@ -1,0 +1,39 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "27994b57-dc94-4757-8dac-7e080c7b4eb5-1185",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/27994b57-dc94-4757-8dac-7e080c7b4eb5-1185",
+  "name" : "IntersectionJDV_J21_PalierAuthentificationActeurPPAndJDV_J21_PalierAuthentificationActeurPP",
+  "title" : "Intersection of null And null",
+  "status" : "active",
+  "date" : "2025-07-01T15:53:58+00:00",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "FR"
+    }]
+  }],
+  "compose" : {
+    "include" : [{
+      "concept" : [{
+        "code" : "APPPRIP1",
+        "display" : "Palier 1 de l'authentification privée des acteurs sanitaires, médico-sociaux et sociaux personnes physiques"
+      },
+      {
+        "code" : "APPPRIP2",
+        "display" : "Palier 2 de l'authentification privée des acteurs sanitaires, médico-sociaux et sociaux personnes physiques"
+      },
+      {
+        "code" : "APPPRIP3",
+        "display" : "Palier 3 de l'authentification privée des acteurs sanitaires, médico-sociaux et sociaux personnes physiques"
+      },
+      {
+        "code" : "APPPUBP2",
+        "display" : "Palier 2 de l'authentification publique des acteurs sanitaires, médico-sociaux et sociaux personnes physiques"
+      },
+      {
+        "code" : "APPPUBP3",
+        "display" : "Palier 3 de l'authentification publique des acteurs sanitaires, médico-sociaux et sociaux personnes physiques"
+      }]
+    }]
+  }
+}

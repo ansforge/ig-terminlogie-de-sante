@@ -1,0 +1,35 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "27994b57-dc94-4757-8dac-7e080c7b4eb5-1793",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/27994b57-dc94-4757-8dac-7e080c7b4eb5-1793",
+  "name" : "UnionJdvConditionnementCisisAndJdvConditionnementCisis",
+  "title" : "Union of JDV Conditionnement CISIS And JDV Conditionnement CISIS",
+  "status" : "active",
+  "date" : "2025-07-01T15:53:59+00:00",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "FR"
+    }]
+  }],
+  "compose" : {
+    "include" : [{
+      "concept" : [{
+        "code" : "C",
+        "display" : "Cytologie par étalement"
+      },
+      {
+        "code" : "H",
+        "display" : "Histologie et cytologie par inclusion"
+      },
+      {
+        "code" : "K",
+        "display" : "Matériel congelé – tissuthèque"
+      },
+      {
+        "code" : "X",
+        "display" : "Autres technique (Imagerie, radiologie, échographie,  tomodensitométrie, IRM…)"
+      }]
+    }]
+  }
+}

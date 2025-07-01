@@ -1,0 +1,43 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "27994b57-dc94-4757-8dac-7e080c7b4eb5-1997",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/27994b57-dc94-4757-8dac-7e080c7b4eb5-1997",
+  "name" : "UnionConditionClinicalStatusCodesAndConditionClinicalStatusCodes",
+  "title" : "Union of Condition Clinical Status Codes And Condition Clinical Status Codes",
+  "status" : "active",
+  "date" : "2025-07-01T15:53:59+00:00",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "FR"
+    }]
+  }],
+  "compose" : {
+    "include" : [{
+      "concept" : [{
+        "code" : "active",
+        "display" : "Actif"
+      },
+      {
+        "code" : "recurrence",
+        "display" : "Récurrent"
+      },
+      {
+        "code" : "relapse",
+        "display" : "Rechute"
+      },
+      {
+        "code" : "inactive",
+        "display" : "Inactif"
+      },
+      {
+        "code" : "remission",
+        "display" : "En rémission"
+      },
+      {
+        "code" : "resolved",
+        "display" : "Résolu"
+      }]
+    }]
+  }
+}

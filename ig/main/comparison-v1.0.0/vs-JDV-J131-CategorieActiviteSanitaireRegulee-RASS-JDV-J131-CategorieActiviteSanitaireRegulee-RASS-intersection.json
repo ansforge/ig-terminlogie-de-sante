@@ -1,0 +1,31 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "27994b57-dc94-4757-8dac-7e080c7b4eb5-939",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/27994b57-dc94-4757-8dac-7e080c7b4eb5-939",
+  "name" : "IntersectionJDV_J131_CategorieActiviteSanitaireRegulee_RASSAndJDV_J131_CategorieActiviteSanitaireRegulee_RASS",
+  "title" : "Intersection of null And null",
+  "status" : "active",
+  "date" : "2025-07-01T15:53:58+00:00",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "FR"
+    }]
+  }],
+  "compose" : {
+    "include" : [{
+      "concept" : [{
+        "code" : "01",
+        "display" : "Activité de soins"
+      },
+      {
+        "code" : "02",
+        "display" : "Activités de soins Soumises à Autorisation des DG d'ARS"
+      },
+      {
+        "code" : "03",
+        "display" : "Activités de soins Soumises à Reconnaissance contractuelle"
+      }]
+    }]
+  }
+}

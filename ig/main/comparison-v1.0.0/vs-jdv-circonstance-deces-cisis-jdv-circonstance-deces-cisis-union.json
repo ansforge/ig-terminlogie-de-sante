@@ -1,0 +1,35 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "27994b57-dc94-4757-8dac-7e080c7b4eb5-1736",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/27994b57-dc94-4757-8dac-7e080c7b4eb5-1736",
+  "name" : "UnionJdvCirconstanceDecesCisisAndJdvCirconstanceDecesCisis",
+  "title" : "Union of JDV Circonstance Deces CISIS And JDV Circonstance Deces CISIS",
+  "status" : "active",
+  "date" : "2025-07-01T15:53:58+00:00",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "FR"
+    }]
+  }],
+  "compose" : {
+    "include" : [{
+      "concept" : [{
+        "code" : "17766007",
+        "display" : "mort fœtale par asphyxie et/ou par anoxie, pas clair si noté avant ou après le début du travaile"
+      },
+      {
+        "code" : "44174001",
+        "display" : "mort fœtale par asphyxie et/ou par anoxie avant le début du travail"
+      },
+      {
+        "code" : "1762004",
+        "display" : "mort fœtale par asphyxie et/ou par anoxie pendant le travail"
+      },
+      {
+        "code" : "67313008",
+        "display" : "mort fœtale due à une interruption de grossesse"
+      }]
+    }]
+  }
+}
