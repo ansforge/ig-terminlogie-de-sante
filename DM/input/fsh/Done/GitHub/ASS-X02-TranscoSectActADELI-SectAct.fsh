@@ -7,12 +7,12 @@ Usage: #definition
 * extension[=].valueBoolean = false
 * url = "https://mos.esante.gouv.fr/NOS/ASS_X02-TranscoSectActADELI-SectAct/FHIR/ASS-X02-TranscoSectActADELI-SectAct"
 * identifier.value = "urn:oid:1.2.250.1.71.1.12.26"
-* version = "20240726120000"
+* version = "20250623120000"
 * name = "ASS_X02_TranscoSectActADELI_SectAct"
 * title = "ASS_X02_TranscoSectActADELI_SectAct"
 * experimental = false
 * status = #active
-* date = "2024-07-26T12:00:00+01:00"
+* date = "2025-06-23T12:00:00+01:00"
 * description = "Transco Secteur d'activité ADELI vers Secteur d'activité"
 * group.source = "https://mos.esante.gouv.fr/NOS/TRE_G19-SecteurActiviteADELI/FHIR/TRE-G19-SecteurActiviteADELI"
 * group.target = "https://mos.esante.gouv.fr/NOS/TRE_R02-SecteurActivite/FHIR/TRE-R02-SecteurActivite"
@@ -107,6 +107,9 @@ Usage: #definition
 * group.element[=].target.code = #SA28
 * group.element[=].target.equivalence = #equivalent
 * group.element[+].code = #71
+* group.element[=].target.code = #SA25
+* group.element[=].target.equivalence = #equivalent
+* group.element[+].code = #71
 * group.element[=].target.code = #SA29
 * group.element[=].target.equivalence = #equivalent
 * group.element[+].code = #75
@@ -120,6 +123,12 @@ Usage: #definition
 * group.element[=].target.equivalence = #equivalent
 * group.element[+].code = #86
 * group.element[=].target.code = #SA33
+* group.element[=].target.equivalence = #equivalent
+* group.element[+].code = #86
+* group.element[=].target.code = #SA38
+* group.element[=].target.equivalence = #equivalent
+* group.element[+].code = #86
+* group.element[=].target.code = #SA39
 * group.element[=].target.equivalence = #equivalent
 * group.element[+].code = #87
 * group.element[=].target.code = #SA34
