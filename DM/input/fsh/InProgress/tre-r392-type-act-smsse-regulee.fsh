@@ -10782,8 +10782,6 @@ Description: "Type activité SMSSE régulée"
 * #657 ^property[=].valueCoding = $tre-r374-nature-activite-smsse-regulee#ASDR
 * #657 ^property[+].code = #activiteSanitaireDiverseRegulee
 * #657 ^property[=].valueCoding = $tre-r347-activite-sanitaire-diverse-regulee#023
-* #657 ^property[+].code = #modeFonctionnement
-* #657 ^property[=].valueCoding = $tre-r209-mode-fonctionnement#02
 * #657 ^property[+].code = #clientele
 * #657 ^property[=].valueCoding = $tre-r279-public#990
 * #658 "ASDR/023/08/990"
@@ -17425,8 +17423,6 @@ Description: "Type activité SMSSE régulée"
 * #1100 ^property[=].valueCode = #active
 * #1100 ^property[+].code = #natureActivite
 * #1100 ^property[=].valueCoding = $tre-r374-nature-activite-smsse-regulee#ASDR
-* #1100 ^property[+].code = #activiteSanitaireDiverseRegulee
-* #1100 ^property[=].valueCoding = $tre-r347-activite-sanitaire-diverse-regulee#319
 * #1100 ^property[+].code = #modeFonctionnement
 * #1100 ^property[=].valueCoding = $tre-r209-mode-fonctionnement#16
 * #1100 ^property[+].code = #clientele
@@ -18265,8 +18261,6 @@ Description: "Type activité SMSSE régulée"
 * #1156 ^property[=].valueCode = #active
 * #1156 ^property[+].code = #natureActivite
 * #1156 ^property[=].valueCoding = $tre-r374-nature-activite-smsse-regulee#ASDR
-* #1156 ^property[+].code = #activiteSanitaireDiverseRegulee
-* #1156 ^property[=].valueCoding = $tre-r347-activite-sanitaire-diverse-regulee#508
 * #1156 ^property[+].code = #modeFonctionnement
 * #1156 ^property[=].valueCoding = $tre-r209-mode-fonctionnement#21
 * #1156 ^property[+].code = #clientele
@@ -20800,8 +20794,6 @@ Description: "Type activité SMSSE régulée"
 * #1325 ^property[=].valueCode = #active
 * #1325 ^property[+].code = #natureActivite
 * #1325 ^property[=].valueCoding = $tre-r374-nature-activite-smsse-regulee#ASDR
-* #1325 ^property[+].code = #activiteSanitaireDiverseRegulee
-* #1325 ^property[=].valueCoding = $tre-r347-activite-sanitaire-diverse-regulee#924
 * #1325 ^property[+].code = #modeFonctionnement
 * #1325 ^property[=].valueCoding = $tre-r209-mode-fonctionnement#21
 * #1325 ^property[+].code = #clientele
