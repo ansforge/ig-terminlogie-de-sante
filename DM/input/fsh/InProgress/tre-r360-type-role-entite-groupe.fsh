@@ -63,7 +63,7 @@ Description: "Nomenclature des types de rôles que peuvent exercer des entités 
 * #S ^property[+].code = #finess
 * #S ^property[=].valueBoolean = true
 * #S ^property[+].code = #isTypeRoleMemberOf
-* #S ^property[=].valueCoding = $tre-r387-type-groupement#01 "Groupement de coopération conventionnelle"
+* #S ^property[=].valueCoding = $tre-r387-type-groupement#01
 * #M "Membre simple"
 * #M ^designation.language = #fr-FR
 * #M ^designation.use.system = "http://snomed.info/sct"
@@ -78,9 +78,9 @@ Description: "Nomenclature des types de rôles que peuvent exercer des entités 
 * #M ^property[+].code = #finess
 * #M ^property[=].valueBoolean = true
 * #M ^property[+].code = #isTypeRoleMemberOf
-* #M ^property[=].valueCoding = $tre-r387-type-groupement#01 "Groupement de coopération conventionnelle"
+* #M ^property[=].valueCoding = $tre-r387-type-groupement#01
 * #M ^property[+].code = #isTypeRoleMemberOf
-* #M ^property[=].valueCoding = $tre-r387-type-groupement#02 "Groupement de coopération organique"
+* #M ^property[=].valueCoding = $tre-r387-type-groupement#02
 * #T "Entité tête de groupe"
 * #T ^designation.language = #fr-FR
 * #T ^designation.use.system = "http://snomed.info/sct"
@@ -95,4 +95,4 @@ Description: "Nomenclature des types de rôles que peuvent exercer des entités 
 * #T ^property[+].code = #finess
 * #T ^property[=].valueBoolean = true
 * #T ^property[+].code = #isTypeRoleMemberOf
-* #T ^property[=].valueCoding = $tre-r387-type-groupement#02 "Groupement de coopération organique"
+* #T ^property[=].valueCoding = $tre-r387-type-groupement#02
