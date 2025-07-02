@@ -50,6 +50,18 @@ for p in glob.iglob(dir_path_exemple+'*/CodeSystem-TRE*.json', recursive=True):
     except Exception as e:
         print(e)
 
+for p in glob.iglob(dir_path_exemple+'*/CodeSystem-tre*.json', recursive=True):
+    #Creation de l'arborescence
+    try :
+        if(os.path.isfile(p)):
+            print(p)
+            folder = os.path.basename(p).replace("CodeSystem-tre-", "TRE_").replace(".json","")
+            folderFhir = os.path.basename(p).replace("CodeSystem-tre", "TRE").replace(".json","")
+            create(dir_output, folder, folderFhir)
+    except Exception as e:
+        print(e)
+
+
 for p in glob.iglob(dir_path_exemple+'*/ValueSet-JDV*.json', recursive=True):
     #Creation de l'arborescence
     try :
@@ -57,6 +69,18 @@ for p in glob.iglob(dir_path_exemple+'*/ValueSet-JDV*.json', recursive=True):
             print(p)
             folder = os.path.basename(p).replace("ValueSet-JDV-", "JDV_").replace(".json","")
             folderFhir = os.path.basename(p).replace("ValueSet-JDV", "JDV").replace(".json","")
+            create(dir_output, folder, folderFhir)
+    except Exception as e:
+        print(e)
+
+
+for p in glob.iglob(dir_path_exemple+'*/ValueSet-jdv*.json', recursive=True):
+    #Creation de l'arborescence
+    try :
+        if(os.path.isfile(p)):
+            print(p)
+            folder = os.path.basename(p).replace("ValueSet-jdv-", "JDV_").replace(".json","")
+            folderFhir = os.path.basename(p).replace("ValueSet-jdv", "JDV").replace(".json","")
             create(dir_output, folder, folderFhir)
     except Exception as e:
         print(e)
