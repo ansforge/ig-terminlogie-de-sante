@@ -1,11 +1,11 @@
 {
   "resourceType" : "CodeSystem",
-  "id" : "27994b57-dc94-4757-8dac-7e080c7b4eb5-774",
-  "url" : "http://hl7.org/fhir/comparison/CodeSystem/27994b57-dc94-4757-8dac-7e080c7b4eb5-774",
+  "id" : "c1098bb6-0a54-4b41-90a9-84233ec63cb9-774",
+  "url" : "http://hl7.org/fhir/comparison/CodeSystem/c1098bb6-0a54-4b41-90a9-84233ec63cb9-774",
   "name" : "IntersectionCIM_10_FR_PMSIAndCIM_10_FR_PMSI",
   "title" : "Intersection of Classification internationale des maladies et des problèmes de santé connexes - 10ème révision - Version française à usage PMSI (Programme Médicalisé des Systèmes d'Information) And Classification internationale des maladies et des problèmes de santé connexes - 10ème révision - Version française à usage PMSI (Programme Médicalisé des Systèmes d'Information)",
   "status" : "active",
-  "date" : "2025-07-01T15:53:58+00:00",
+  "date" : "2025-07-02T04:44:23+00:00",
   "jurisdiction" : [{
     "coding" : [{
       "system" : "urn:iso:std:iso:3166",

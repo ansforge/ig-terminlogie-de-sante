@@ -1,11 +1,11 @@
 {
   "resourceType" : "ValueSet",
-  "id" : "27994b57-dc94-4757-8dac-7e080c7b4eb5-1094",
-  "url" : "http://hl7.org/fhir/comparison/ValueSet/27994b57-dc94-4757-8dac-7e080c7b4eb5-1094",
+  "id" : "c1098bb6-0a54-4b41-90a9-84233ec63cb9-1094",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/c1098bb6-0a54-4b41-90a9-84233ec63cb9-1094",
   "name" : "UnionJDV_J181_BesoinMobilite_MDPHAndJDV_J181_BesoinMobilite_MDPH",
   "title" : "Union of null And null",
   "status" : "active",
-  "date" : "2025-07-01T15:53:58+00:00",
+  "date" : "2025-07-02T04:44:24+00:00",
   "jurisdiction" : [{
     "coding" : [{
       "system" : "urn:iso:std:iso:3166",
