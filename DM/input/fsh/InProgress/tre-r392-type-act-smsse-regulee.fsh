@@ -6758,7 +6758,7 @@ Description: "Type activité SMSSE régulée"
 * #445 ^property[=].valueCoding = $tre-r382-modalite-act-de-soin-amm#MO000
 * #445 ^property[+].code = #mentionAMM
 * #445 ^property[=].valueCoding = $tre-r383-mention-act-de-soin-amm#ME000
-* #445 ^property[+].code = #ptsAMM
+* #445 ^property[+].code = #pratiqueTherapeutiqueSpecifiqueAMM
 * #445 ^property[=].valueCoding = $tre-r384-pratique-therapeutique-specifique-act-de-soin-amm#PTS00
 * #445 ^property[+].code = #declarationAMM
 * #445 ^property[=].valueCoding = $tre-r385-declaration-act-de-soin-amm#DE015
@@ -6777,7 +6777,7 @@ Description: "Type activité SMSSE régulée"
 * #446 ^property[=].valueCoding = $tre-r382-modalite-act-de-soin-amm#MO000
 * #446 ^property[+].code = #mentionAMM
 * #446 ^property[=].valueCoding = $tre-r383-mention-act-de-soin-amm#ME000
-* #446 ^property[+].code = #ptsAMM
+* #446 ^property[+].code = #pratiqueTherapeutiqueSpecifiqueAMM
 * #446 ^property[=].valueCoding = $tre-r384-pratique-therapeutique-specifique-act-de-soin-amm#PTS00
 * #446 ^property[+].code = #declarationAMM
 * #446 ^property[=].valueCoding = $tre-r385-declaration-act-de-soin-amm#DE016
@@ -6796,7 +6796,7 @@ Description: "Type activité SMSSE régulée"
 * #447 ^property[=].valueCoding = $tre-r382-modalite-act-de-soin-amm#MO006
 * #447 ^property[+].code = #mentionAMM
 * #447 ^property[=].valueCoding = $tre-r383-mention-act-de-soin-amm#ME000
-* #447 ^property[+].code = #ptsAMM
+* #447 ^property[+].code = #pratiqueTherapeutiqueSpecifiqueAMM
 * #447 ^property[=].valueCoding = $tre-r384-pratique-therapeutique-specifique-act-de-soin-amm#PTS11
 * #447 ^property[+].code = #declarationAMM
 * #447 ^property[=].valueCoding = $tre-r385-declaration-act-de-soin-amm#DE023
@@ -6815,7 +6815,7 @@ Description: "Type activité SMSSE régulée"
 * #448 ^property[=].valueCoding = $tre-r382-modalite-act-de-soin-amm#MO006
 * #448 ^property[+].code = #mentionAMM
 * #448 ^property[=].valueCoding = $tre-r383-mention-act-de-soin-amm#ME000
-* #448 ^property[+].code = #ptsAMM
+* #448 ^property[+].code = #pratiqueTherapeutiqueSpecifiqueAMM
 * #448 ^property[=].valueCoding = $tre-r384-pratique-therapeutique-specifique-act-de-soin-amm#PTS11
 * #448 ^property[+].code = #declarationAMM
 * #448 ^property[=].valueCoding = $tre-r385-declaration-act-de-soin-amm#DE022
@@ -6834,7 +6834,7 @@ Description: "Type activité SMSSE régulée"
 * #449 ^property[=].valueCoding = $tre-r382-modalite-act-de-soin-amm#MO006
 * #449 ^property[+].code = #mentionAMM
 * #449 ^property[=].valueCoding = $tre-r383-mention-act-de-soin-amm#ME000
-* #449 ^property[+].code = #ptsAMM
+* #449 ^property[+].code = #pratiqueTherapeutiqueSpecifiqueAMM
 * #449 ^property[=].valueCoding = $tre-r384-pratique-therapeutique-specifique-act-de-soin-amm#PTS12
 * #449 ^property[+].code = #declarationAMM
 * #449 ^property[=].valueCoding = $tre-r385-declaration-act-de-soin-amm#DE023
@@ -6853,7 +6853,7 @@ Description: "Type activité SMSSE régulée"
 * #450 ^property[=].valueCoding = $tre-r382-modalite-act-de-soin-amm#MO006
 * #450 ^property[+].code = #mentionAMM
 * #450 ^property[=].valueCoding = $tre-r383-mention-act-de-soin-amm#ME000
-* #450 ^property[+].code = #ptsAMM
+* #450 ^property[+].code = #pratiqueTherapeutiqueSpecifiqueAMM
 * #450 ^property[=].valueCoding = $tre-r384-pratique-therapeutique-specifique-act-de-soin-amm#PTS12
 * #450 ^property[+].code = #declarationAMM
 * #450 ^property[=].valueCoding = $tre-r385-declaration-act-de-soin-amm#DE022
@@ -6872,7 +6872,7 @@ Description: "Type activité SMSSE régulée"
 * #451 ^property[=].valueCoding = $tre-r382-modalite-act-de-soin-amm#MO006
 * #451 ^property[+].code = #mentionAMM
 * #451 ^property[=].valueCoding = $tre-r383-mention-act-de-soin-amm#ME000
-* #451 ^property[+].code = #ptsAMM
+* #451 ^property[+].code = #pratiqueTherapeutiqueSpecifiqueAMM
 * #451 ^property[=].valueCoding = $tre-r384-pratique-therapeutique-specifique-act-de-soin-amm#PTS13
 * #451 ^property[+].code = #declarationAMM
 * #451 ^property[=].valueCoding = $tre-r385-declaration-act-de-soin-amm#DE023
@@ -6891,7 +6891,7 @@ Description: "Type activité SMSSE régulée"
 * #452 ^property[=].valueCoding = $tre-r382-modalite-act-de-soin-amm#MO006
 * #452 ^property[+].code = #mentionAMM
 * #452 ^property[=].valueCoding = $tre-r383-mention-act-de-soin-amm#ME000
-* #452 ^property[+].code = #ptsAMM
+* #452 ^property[+].code = #pratiqueTherapeutiqueSpecifiqueAMM
 * #452 ^property[=].valueCoding = $tre-r384-pratique-therapeutique-specifique-act-de-soin-amm#PTS13
 * #452 ^property[+].code = #declarationAMM
 * #452 ^property[=].valueCoding = $tre-r385-declaration-act-de-soin-amm#DE022
@@ -6910,7 +6910,7 @@ Description: "Type activité SMSSE régulée"
 * #453 ^property[=].valueCoding = $tre-r382-modalite-act-de-soin-amm#MO006
 * #453 ^property[+].code = #mentionAMM
 * #453 ^property[=].valueCoding = $tre-r383-mention-act-de-soin-amm#ME000
-* #453 ^property[+].code = #ptsAMM
+* #453 ^property[+].code = #pratiqueTherapeutiqueSpecifiqueAMM
 * #453 ^property[=].valueCoding = $tre-r384-pratique-therapeutique-specifique-act-de-soin-amm#PTS14
 * #453 ^property[+].code = #declarationAMM
 * #453 ^property[=].valueCoding = $tre-r385-declaration-act-de-soin-amm#DE023
@@ -6929,7 +6929,7 @@ Description: "Type activité SMSSE régulée"
 * #454 ^property[=].valueCoding = $tre-r382-modalite-act-de-soin-amm#MO006
 * #454 ^property[+].code = #mentionAMM
 * #454 ^property[=].valueCoding = $tre-r383-mention-act-de-soin-amm#ME000
-* #454 ^property[+].code = #ptsAMM
+* #454 ^property[+].code = #pratiqueTherapeutiqueSpecifiqueAMM
 * #454 ^property[=].valueCoding = $tre-r384-pratique-therapeutique-specifique-act-de-soin-amm#PTS14
 * #454 ^property[+].code = #declarationAMM
 * #454 ^property[=].valueCoding = $tre-r385-declaration-act-de-soin-amm#DE022
@@ -6948,7 +6948,7 @@ Description: "Type activité SMSSE régulée"
 * #455 ^property[=].valueCoding = $tre-r382-modalite-act-de-soin-amm#MO006
 * #455 ^property[+].code = #mentionAMM
 * #455 ^property[=].valueCoding = $tre-r383-mention-act-de-soin-amm#ME000
-* #455 ^property[+].code = #ptsAMM
+* #455 ^property[+].code = #pratiqueTherapeutiqueSpecifiqueAMM
 * #455 ^property[=].valueCoding = $tre-r384-pratique-therapeutique-specifique-act-de-soin-amm#PTS15
 * #455 ^property[+].code = #declarationAMM
 * #455 ^property[=].valueCoding = $tre-r385-declaration-act-de-soin-amm#DE023
@@ -6967,7 +6967,7 @@ Description: "Type activité SMSSE régulée"
 * #456 ^property[=].valueCoding = $tre-r382-modalite-act-de-soin-amm#MO006
 * #456 ^property[+].code = #mentionAMM
 * #456 ^property[=].valueCoding = $tre-r383-mention-act-de-soin-amm#ME000
-* #456 ^property[+].code = #ptsAMM
+* #456 ^property[+].code = #pratiqueTherapeutiqueSpecifiqueAMM
 * #456 ^property[=].valueCoding = $tre-r384-pratique-therapeutique-specifique-act-de-soin-amm#PTS15
 * #456 ^property[+].code = #declarationAMM
 * #456 ^property[=].valueCoding = $tre-r385-declaration-act-de-soin-amm#DE022
@@ -6986,7 +6986,7 @@ Description: "Type activité SMSSE régulée"
 * #457 ^property[=].valueCoding = $tre-r382-modalite-act-de-soin-amm#MO006
 * #457 ^property[+].code = #mentionAMM
 * #457 ^property[=].valueCoding = $tre-r383-mention-act-de-soin-amm#ME000
-* #457 ^property[+].code = #ptsAMM
+* #457 ^property[+].code = #pratiqueTherapeutiqueSpecifiqueAMM
 * #457 ^property[=].valueCoding = $tre-r384-pratique-therapeutique-specifique-act-de-soin-amm#PTS16
 * #457 ^property[+].code = #declarationAMM
 * #457 ^property[=].valueCoding = $tre-r385-declaration-act-de-soin-amm#DE023
@@ -7005,7 +7005,7 @@ Description: "Type activité SMSSE régulée"
 * #458 ^property[=].valueCoding = $tre-r382-modalite-act-de-soin-amm#MO006
 * #458 ^property[+].code = #mentionAMM
 * #458 ^property[=].valueCoding = $tre-r383-mention-act-de-soin-amm#ME000
-* #458 ^property[+].code = #ptsAMM
+* #458 ^property[+].code = #pratiqueTherapeutiqueSpecifiqueAMM
 * #458 ^property[=].valueCoding = $tre-r384-pratique-therapeutique-specifique-act-de-soin-amm#PTS16
 * #458 ^property[+].code = #declarationAMM
 * #458 ^property[=].valueCoding = $tre-r385-declaration-act-de-soin-amm#DE022
@@ -7024,7 +7024,7 @@ Description: "Type activité SMSSE régulée"
 * #459 ^property[=].valueCoding = $tre-r382-modalite-act-de-soin-amm#MO006
 * #459 ^property[+].code = #mentionAMM
 * #459 ^property[=].valueCoding = $tre-r383-mention-act-de-soin-amm#ME000
-* #459 ^property[+].code = #ptsAMM
+* #459 ^property[+].code = #pratiqueTherapeutiqueSpecifiqueAMM
 * #459 ^property[=].valueCoding = $tre-r384-pratique-therapeutique-specifique-act-de-soin-amm#PTS17
 * #459 ^property[+].code = #declarationAMM
 * #459 ^property[=].valueCoding = $tre-r385-declaration-act-de-soin-amm#DE023
@@ -7043,7 +7043,7 @@ Description: "Type activité SMSSE régulée"
 * #460 ^property[=].valueCoding = $tre-r382-modalite-act-de-soin-amm#MO006
 * #460 ^property[+].code = #mentionAMM
 * #460 ^property[=].valueCoding = $tre-r383-mention-act-de-soin-amm#ME000
-* #460 ^property[+].code = #ptsAMM
+* #460 ^property[+].code = #pratiqueTherapeutiqueSpecifiqueAMM
 * #460 ^property[=].valueCoding = $tre-r384-pratique-therapeutique-specifique-act-de-soin-amm#PTS17
 * #460 ^property[+].code = #declarationAMM
 * #460 ^property[=].valueCoding = $tre-r385-declaration-act-de-soin-amm#DE022
@@ -7062,7 +7062,7 @@ Description: "Type activité SMSSE régulée"
 * #461 ^property[=].valueCoding = $tre-r382-modalite-act-de-soin-amm#MO006
 * #461 ^property[+].code = #mentionAMM
 * #461 ^property[=].valueCoding = $tre-r383-mention-act-de-soin-amm#ME000
-* #461 ^property[+].code = #ptsAMM
+* #461 ^property[+].code = #pratiqueTherapeutiqueSpecifiqueAMM
 * #461 ^property[=].valueCoding = $tre-r384-pratique-therapeutique-specifique-act-de-soin-amm#PTS18
 * #461 ^property[+].code = #declarationAMM
 * #461 ^property[=].valueCoding = $tre-r385-declaration-act-de-soin-amm#DE023
@@ -7081,7 +7081,7 @@ Description: "Type activité SMSSE régulée"
 * #462 ^property[=].valueCoding = $tre-r382-modalite-act-de-soin-amm#MO006
 * #462 ^property[+].code = #mentionAMM
 * #462 ^property[=].valueCoding = $tre-r383-mention-act-de-soin-amm#ME000
-* #462 ^property[+].code = #ptsAMM
+* #462 ^property[+].code = #pratiqueTherapeutiqueSpecifiqueAMM
 * #462 ^property[=].valueCoding = $tre-r384-pratique-therapeutique-specifique-act-de-soin-amm#PTS18
 * #462 ^property[+].code = #declarationAMM
 * #462 ^property[=].valueCoding = $tre-r385-declaration-act-de-soin-amm#DE022
@@ -7100,7 +7100,7 @@ Description: "Type activité SMSSE régulée"
 * #463 ^property[=].valueCoding = $tre-r382-modalite-act-de-soin-amm#MO006
 * #463 ^property[+].code = #mentionAMM
 * #463 ^property[=].valueCoding = $tre-r383-mention-act-de-soin-amm#ME000
-* #463 ^property[+].code = #ptsAMM
+* #463 ^property[+].code = #pratiqueTherapeutiqueSpecifiqueAMM
 * #463 ^property[=].valueCoding = $tre-r384-pratique-therapeutique-specifique-act-de-soin-amm#PTS19
 * #463 ^property[+].code = #declarationAMM
 * #463 ^property[=].valueCoding = $tre-r385-declaration-act-de-soin-amm#DE023
@@ -7119,7 +7119,7 @@ Description: "Type activité SMSSE régulée"
 * #464 ^property[=].valueCoding = $tre-r382-modalite-act-de-soin-amm#MO006
 * #464 ^property[+].code = #mentionAMM
 * #464 ^property[=].valueCoding = $tre-r383-mention-act-de-soin-amm#ME000
-* #464 ^property[+].code = #ptsAMM
+* #464 ^property[+].code = #pratiqueTherapeutiqueSpecifiqueAMM
 * #464 ^property[=].valueCoding = $tre-r384-pratique-therapeutique-specifique-act-de-soin-amm#PTS19
 * #464 ^property[+].code = #declarationAMM
 * #464 ^property[=].valueCoding = $tre-r385-declaration-act-de-soin-amm#DE022
@@ -7138,7 +7138,7 @@ Description: "Type activité SMSSE régulée"
 * #465 ^property[=].valueCoding = $tre-r382-modalite-act-de-soin-amm#MO006
 * #465 ^property[+].code = #mentionAMM
 * #465 ^property[=].valueCoding = $tre-r383-mention-act-de-soin-amm#ME000
-* #465 ^property[+].code = #ptsAMM
+* #465 ^property[+].code = #pratiqueTherapeutiqueSpecifiqueAMM
 * #465 ^property[=].valueCoding = $tre-r384-pratique-therapeutique-specifique-act-de-soin-amm#PTS20
 * #465 ^property[+].code = #declarationAMM
 * #465 ^property[=].valueCoding = $tre-r385-declaration-act-de-soin-amm#DE023
@@ -7157,7 +7157,7 @@ Description: "Type activité SMSSE régulée"
 * #466 ^property[=].valueCoding = $tre-r382-modalite-act-de-soin-amm#MO006
 * #466 ^property[+].code = #mentionAMM
 * #466 ^property[=].valueCoding = $tre-r383-mention-act-de-soin-amm#ME000
-* #466 ^property[+].code = #ptsAMM
+* #466 ^property[+].code = #pratiqueTherapeutiqueSpecifiqueAMM
 * #466 ^property[=].valueCoding = $tre-r384-pratique-therapeutique-specifique-act-de-soin-amm#PTS20
 * #466 ^property[+].code = #declarationAMM
 * #466 ^property[=].valueCoding = $tre-r385-declaration-act-de-soin-amm#DE022
@@ -7176,7 +7176,7 @@ Description: "Type activité SMSSE régulée"
 * #467 ^property[=].valueCoding = $tre-r382-modalite-act-de-soin-amm#MO006
 * #467 ^property[+].code = #mentionAMM
 * #467 ^property[=].valueCoding = $tre-r383-mention-act-de-soin-amm#ME000
-* #467 ^property[+].code = #ptsAMM
+* #467 ^property[+].code = #pratiqueTherapeutiqueSpecifiqueAMM
 * #467 ^property[=].valueCoding = $tre-r384-pratique-therapeutique-specifique-act-de-soin-amm#PTS21
 * #467 ^property[+].code = #declarationAMM
 * #467 ^property[=].valueCoding = $tre-r385-declaration-act-de-soin-amm#DE023
@@ -7195,7 +7195,7 @@ Description: "Type activité SMSSE régulée"
 * #468 ^property[=].valueCoding = $tre-r382-modalite-act-de-soin-amm#MO006
 * #468 ^property[+].code = #mentionAMM
 * #468 ^property[=].valueCoding = $tre-r383-mention-act-de-soin-amm#ME000
-* #468 ^property[+].code = #ptsAMM
+* #468 ^property[+].code = #pratiqueTherapeutiqueSpecifiqueAMM
 * #468 ^property[=].valueCoding = $tre-r384-pratique-therapeutique-specifique-act-de-soin-amm#PTS21
 * #468 ^property[+].code = #declarationAMM
 * #468 ^property[=].valueCoding = $tre-r385-declaration-act-de-soin-amm#DE022
@@ -7214,7 +7214,7 @@ Description: "Type activité SMSSE régulée"
 * #469 ^property[=].valueCoding = $tre-r382-modalite-act-de-soin-amm#MO007
 * #469 ^property[+].code = #mentionAMM
 * #469 ^property[=].valueCoding = $tre-r383-mention-act-de-soin-amm#ME000
-* #469 ^property[+].code = #ptsAMM
+* #469 ^property[+].code = #pratiqueTherapeutiqueSpecifiqueAMM
 * #469 ^property[=].valueCoding = $tre-r384-pratique-therapeutique-specifique-act-de-soin-amm#PTS00
 * #469 ^property[+].code = #declarationAMM
 * #469 ^property[=].valueCoding = $tre-r385-declaration-act-de-soin-amm#DE023
@@ -7233,7 +7233,7 @@ Description: "Type activité SMSSE régulée"
 * #470 ^property[=].valueCoding = $tre-r382-modalite-act-de-soin-amm#MO007
 * #470 ^property[+].code = #mentionAMM
 * #470 ^property[=].valueCoding = $tre-r383-mention-act-de-soin-amm#ME000
-* #470 ^property[+].code = #ptsAMM
+* #470 ^property[+].code = #pratiqueTherapeutiqueSpecifiqueAMM
 * #470 ^property[=].valueCoding = $tre-r384-pratique-therapeutique-specifique-act-de-soin-amm#PTS00
 * #470 ^property[+].code = #declarationAMM
 * #470 ^property[=].valueCoding = $tre-r385-declaration-act-de-soin-amm#DE022
@@ -7252,7 +7252,7 @@ Description: "Type activité SMSSE régulée"
 * #471 ^property[=].valueCoding = $tre-r382-modalite-act-de-soin-amm#MO011
 * #471 ^property[+].code = #mentionAMM
 * #471 ^property[=].valueCoding = $tre-r383-mention-act-de-soin-amm#ME000
-* #471 ^property[+].code = #ptsAMM
+* #471 ^property[+].code = #pratiqueTherapeutiqueSpecifiqueAMM
 * #471 ^property[=].valueCoding = $tre-r384-pratique-therapeutique-specifique-act-de-soin-amm#PTS00
 * #471 ^property[+].code = #declarationAMM
 * #471 ^property[=].valueCoding = $tre-r385-declaration-act-de-soin-amm#DE023
@@ -7271,7 +7271,7 @@ Description: "Type activité SMSSE régulée"
 * #472 ^property[=].valueCoding = $tre-r382-modalite-act-de-soin-amm#MO011
 * #472 ^property[+].code = #mentionAMM
 * #472 ^property[=].valueCoding = $tre-r383-mention-act-de-soin-amm#ME000
-* #472 ^property[+].code = #ptsAMM
+* #472 ^property[+].code = #pratiqueTherapeutiqueSpecifiqueAMM
 * #472 ^property[=].valueCoding = $tre-r384-pratique-therapeutique-specifique-act-de-soin-amm#PTS00
 * #472 ^property[+].code = #declarationAMM
 * #472 ^property[=].valueCoding = $tre-r385-declaration-act-de-soin-amm#DE022
@@ -7290,7 +7290,7 @@ Description: "Type activité SMSSE régulée"
 * #473 ^property[=].valueCoding = $tre-r382-modalite-act-de-soin-amm#MO016
 * #473 ^property[+].code = #mentionAMM
 * #473 ^property[=].valueCoding = $tre-r383-mention-act-de-soin-amm#ME000
-* #473 ^property[+].code = #ptsAMM
+* #473 ^property[+].code = #pratiqueTherapeutiqueSpecifiqueAMM
 * #473 ^property[=].valueCoding = $tre-r384-pratique-therapeutique-specifique-act-de-soin-amm#PTS00
 * #473 ^property[+].code = #declarationAMM
 * #473 ^property[=].valueCoding = $tre-r385-declaration-act-de-soin-amm#DE022
@@ -7309,7 +7309,7 @@ Description: "Type activité SMSSE régulée"
 * #474 ^property[=].valueCoding = $tre-r382-modalite-act-de-soin-amm#MO016
 * #474 ^property[+].code = #mentionAMM
 * #474 ^property[=].valueCoding = $tre-r383-mention-act-de-soin-amm#ME000
-* #474 ^property[+].code = #ptsAMM
+* #474 ^property[+].code = #pratiqueTherapeutiqueSpecifiqueAMM
 * #474 ^property[=].valueCoding = $tre-r384-pratique-therapeutique-specifique-act-de-soin-amm#PTS00
 * #474 ^property[+].code = #declarationAMM
 * #474 ^property[=].valueCoding = $tre-r385-declaration-act-de-soin-amm#DE024
@@ -7328,7 +7328,7 @@ Description: "Type activité SMSSE régulée"
 * #475 ^property[=].valueCoding = $tre-r382-modalite-act-de-soin-amm#MO017
 * #475 ^property[+].code = #mentionAMM
 * #475 ^property[=].valueCoding = $tre-r383-mention-act-de-soin-amm#ME000
-* #475 ^property[+].code = #ptsAMM
+* #475 ^property[+].code = #pratiqueTherapeutiqueSpecifiqueAMM
 * #475 ^property[=].valueCoding = $tre-r384-pratique-therapeutique-specifique-act-de-soin-amm#PTS00
 * #475 ^property[+].code = #declarationAMM
 * #475 ^property[=].valueCoding = $tre-r385-declaration-act-de-soin-amm#DE022
@@ -7347,7 +7347,7 @@ Description: "Type activité SMSSE régulée"
 * #476 ^property[=].valueCoding = $tre-r382-modalite-act-de-soin-amm#MO018
 * #476 ^property[+].code = #mentionAMM
 * #476 ^property[=].valueCoding = $tre-r383-mention-act-de-soin-amm#ME000
-* #476 ^property[+].code = #ptsAMM
+* #476 ^property[+].code = #pratiqueTherapeutiqueSpecifiqueAMM
 * #476 ^property[=].valueCoding = $tre-r384-pratique-therapeutique-specifique-act-de-soin-amm#PTS00
 * #476 ^property[+].code = #declarationAMM
 * #476 ^property[=].valueCoding = $tre-r385-declaration-act-de-soin-amm#DE022
@@ -7366,7 +7366,7 @@ Description: "Type activité SMSSE régulée"
 * #477 ^property[=].valueCoding = $tre-r382-modalite-act-de-soin-amm#MO019
 * #477 ^property[+].code = #mentionAMM
 * #477 ^property[=].valueCoding = $tre-r383-mention-act-de-soin-amm#ME000
-* #477 ^property[+].code = #ptsAMM
+* #477 ^property[+].code = #pratiqueTherapeutiqueSpecifiqueAMM
 * #477 ^property[=].valueCoding = $tre-r384-pratique-therapeutique-specifique-act-de-soin-amm#PTS00
 * #477 ^property[+].code = #declarationAMM
 * #477 ^property[=].valueCoding = $tre-r385-declaration-act-de-soin-amm#DE022
@@ -7385,7 +7385,7 @@ Description: "Type activité SMSSE régulée"
 * #478 ^property[=].valueCoding = $tre-r382-modalite-act-de-soin-amm#MO000
 * #478 ^property[+].code = #mentionAMM
 * #478 ^property[=].valueCoding = $tre-r383-mention-act-de-soin-amm#ME049
-* #478 ^property[+].code = #ptsAMM
+* #478 ^property[+].code = #pratiqueTherapeutiqueSpecifiqueAMM
 * #478 ^property[=].valueCoding = $tre-r384-pratique-therapeutique-specifique-act-de-soin-amm#PTS00
 * #478 ^property[+].code = #declarationAMM
 * #478 ^property[=].valueCoding = $tre-r385-declaration-act-de-soin-amm#DE025
@@ -7404,7 +7404,7 @@ Description: "Type activité SMSSE régulée"
 * #479 ^property[=].valueCoding = $tre-r382-modalite-act-de-soin-amm#MO000
 * #479 ^property[+].code = #mentionAMM
 * #479 ^property[=].valueCoding = $tre-r383-mention-act-de-soin-amm#ME070
-* #479 ^property[+].code = #ptsAMM
+* #479 ^property[+].code = #pratiqueTherapeutiqueSpecifiqueAMM
 * #479 ^property[=].valueCoding = $tre-r384-pratique-therapeutique-specifique-act-de-soin-amm#PTS00
 * #479 ^property[+].code = #declarationAMM
 * #479 ^property[=].valueCoding = $tre-r385-declaration-act-de-soin-amm#DE025
@@ -7423,7 +7423,7 @@ Description: "Type activité SMSSE régulée"
 * #480 ^property[=].valueCoding = $tre-r382-modalite-act-de-soin-amm#MO000
 * #480 ^property[+].code = #mentionAMM
 * #480 ^property[=].valueCoding = $tre-r383-mention-act-de-soin-amm#ME071
-* #480 ^property[+].code = #ptsAMM
+* #480 ^property[+].code = #pratiqueTherapeutiqueSpecifiqueAMM
 * #480 ^property[=].valueCoding = $tre-r384-pratique-therapeutique-specifique-act-de-soin-amm#PTS00
 * #480 ^property[+].code = #declarationAMM
 * #480 ^property[=].valueCoding = $tre-r385-declaration-act-de-soin-amm#DE025
@@ -7442,7 +7442,7 @@ Description: "Type activité SMSSE régulée"
 * #481 ^property[=].valueCoding = $tre-r382-modalite-act-de-soin-amm#MO000
 * #481 ^property[+].code = #mentionAMM
 * #481 ^property[=].valueCoding = $tre-r383-mention-act-de-soin-amm#ME072
-* #481 ^property[+].code = #ptsAMM
+* #481 ^property[+].code = #pratiqueTherapeutiqueSpecifiqueAMM
 * #481 ^property[=].valueCoding = $tre-r384-pratique-therapeutique-specifique-act-de-soin-amm#PTS00
 * #481 ^property[+].code = #declarationAMM
 * #481 ^property[=].valueCoding = $tre-r385-declaration-act-de-soin-amm#DE025
@@ -7461,7 +7461,7 @@ Description: "Type activité SMSSE régulée"
 * #482 ^property[=].valueCoding = $tre-r382-modalite-act-de-soin-amm#MO000
 * #482 ^property[+].code = #mentionAMM
 * #482 ^property[=].valueCoding = $tre-r383-mention-act-de-soin-amm#ME000
-* #482 ^property[+].code = #ptsAMM
+* #482 ^property[+].code = #pratiqueTherapeutiqueSpecifiqueAMM
 * #482 ^property[=].valueCoding = $tre-r384-pratique-therapeutique-specifique-act-de-soin-amm#PTS00
 * #482 ^property[+].code = #declarationAMM
 * #482 ^property[=].valueCoding = $tre-r385-declaration-act-de-soin-amm#DE000
@@ -7480,7 +7480,7 @@ Description: "Type activité SMSSE régulée"
 * #483 ^property[=].valueCoding = $tre-r382-modalite-act-de-soin-amm#MO006
 * #483 ^property[+].code = #mentionAMM
 * #483 ^property[=].valueCoding = $tre-r383-mention-act-de-soin-amm#ME000
-* #483 ^property[+].code = #ptsAMM
+* #483 ^property[+].code = #pratiqueTherapeutiqueSpecifiqueAMM
 * #483 ^property[=].valueCoding = $tre-r384-pratique-therapeutique-specifique-act-de-soin-amm#PTS00
 * #483 ^property[+].code = #declarationAMM
 * #483 ^property[=].valueCoding = $tre-r385-declaration-act-de-soin-amm#DE000
@@ -7499,7 +7499,7 @@ Description: "Type activité SMSSE régulée"
 * #484 ^property[=].valueCoding = $tre-r382-modalite-act-de-soin-amm#MO015
 * #484 ^property[+].code = #mentionAMM
 * #484 ^property[=].valueCoding = $tre-r383-mention-act-de-soin-amm#ME000
-* #484 ^property[+].code = #ptsAMM
+* #484 ^property[+].code = #pratiqueTherapeutiqueSpecifiqueAMM
 * #484 ^property[=].valueCoding = $tre-r384-pratique-therapeutique-specifique-act-de-soin-amm#PTS00
 * #484 ^property[+].code = #declarationAMM
 * #484 ^property[=].valueCoding = $tre-r385-declaration-act-de-soin-amm#DE000
@@ -7518,7 +7518,7 @@ Description: "Type activité SMSSE régulée"
 * #485 ^property[=].valueCoding = $tre-r382-modalite-act-de-soin-amm#MO006
 * #485 ^property[+].code = #mentionAMM
 * #485 ^property[=].valueCoding = $tre-r383-mention-act-de-soin-amm#ME000
-* #485 ^property[+].code = #ptsAMM
+* #485 ^property[+].code = #pratiqueTherapeutiqueSpecifiqueAMM
 * #485 ^property[=].valueCoding = $tre-r384-pratique-therapeutique-specifique-act-de-soin-amm#PTS00
 * #485 ^property[+].code = #declarationAMM
 * #485 ^property[=].valueCoding = $tre-r385-declaration-act-de-soin-amm#DE000
@@ -7537,7 +7537,7 @@ Description: "Type activité SMSSE régulée"
 * #486 ^property[=].valueCoding = $tre-r382-modalite-act-de-soin-amm#MO007
 * #486 ^property[+].code = #mentionAMM
 * #486 ^property[=].valueCoding = $tre-r383-mention-act-de-soin-amm#ME000
-* #486 ^property[+].code = #ptsAMM
+* #486 ^property[+].code = #pratiqueTherapeutiqueSpecifiqueAMM
 * #486 ^property[=].valueCoding = $tre-r384-pratique-therapeutique-specifique-act-de-soin-amm#PTS00
 * #486 ^property[+].code = #declarationAMM
 * #486 ^property[=].valueCoding = $tre-r385-declaration-act-de-soin-amm#DE000
@@ -7556,7 +7556,7 @@ Description: "Type activité SMSSE régulée"
 * #487 ^property[=].valueCoding = $tre-r382-modalite-act-de-soin-amm#MO003
 * #487 ^property[+].code = #mentionAMM
 * #487 ^property[=].valueCoding = $tre-r383-mention-act-de-soin-amm#ME009
-* #487 ^property[+].code = #ptsAMM
+* #487 ^property[+].code = #pratiqueTherapeutiqueSpecifiqueAMM
 * #487 ^property[=].valueCoding = $tre-r384-pratique-therapeutique-specifique-act-de-soin-amm#PTS00
 * #487 ^property[+].code = #declarationAMM
 * #487 ^property[=].valueCoding = $tre-r385-declaration-act-de-soin-amm#DE000
@@ -7575,7 +7575,7 @@ Description: "Type activité SMSSE régulée"
 * #488 ^property[=].valueCoding = $tre-r382-modalite-act-de-soin-amm#MO003
 * #488 ^property[+].code = #mentionAMM
 * #488 ^property[=].valueCoding = $tre-r383-mention-act-de-soin-amm#ME011
-* #488 ^property[+].code = #ptsAMM
+* #488 ^property[+].code = #pratiqueTherapeutiqueSpecifiqueAMM
 * #488 ^property[=].valueCoding = $tre-r384-pratique-therapeutique-specifique-act-de-soin-amm#PTS00
 * #488 ^property[+].code = #declarationAMM
 * #488 ^property[=].valueCoding = $tre-r385-declaration-act-de-soin-amm#DE000
@@ -7594,7 +7594,7 @@ Description: "Type activité SMSSE régulée"
 * #489 ^property[=].valueCoding = $tre-r382-modalite-act-de-soin-amm#MO003
 * #489 ^property[+].code = #mentionAMM
 * #489 ^property[=].valueCoding = $tre-r383-mention-act-de-soin-amm#ME012
-* #489 ^property[+].code = #ptsAMM
+* #489 ^property[+].code = #pratiqueTherapeutiqueSpecifiqueAMM
 * #489 ^property[=].valueCoding = $tre-r384-pratique-therapeutique-specifique-act-de-soin-amm#PTS00
 * #489 ^property[+].code = #declarationAMM
 * #489 ^property[=].valueCoding = $tre-r385-declaration-act-de-soin-amm#DE000
@@ -7613,7 +7613,7 @@ Description: "Type activité SMSSE régulée"
 * #490 ^property[=].valueCoding = $tre-r382-modalite-act-de-soin-amm#MO003
 * #490 ^property[+].code = #mentionAMM
 * #490 ^property[=].valueCoding = $tre-r383-mention-act-de-soin-amm#ME013
-* #490 ^property[+].code = #ptsAMM
+* #490 ^property[+].code = #pratiqueTherapeutiqueSpecifiqueAMM
 * #490 ^property[=].valueCoding = $tre-r384-pratique-therapeutique-specifique-act-de-soin-amm#PTS00
 * #490 ^property[+].code = #declarationAMM
 * #490 ^property[=].valueCoding = $tre-r385-declaration-act-de-soin-amm#DE000
@@ -7632,7 +7632,7 @@ Description: "Type activité SMSSE régulée"
 * #491 ^property[=].valueCoding = $tre-r382-modalite-act-de-soin-amm#MO004
 * #491 ^property[+].code = #mentionAMM
 * #491 ^property[=].valueCoding = $tre-r383-mention-act-de-soin-amm#ME014
-* #491 ^property[+].code = #ptsAMM
+* #491 ^property[+].code = #pratiqueTherapeutiqueSpecifiqueAMM
 * #491 ^property[=].valueCoding = $tre-r384-pratique-therapeutique-specifique-act-de-soin-amm#PTS00
 * #491 ^property[+].code = #declarationAMM
 * #491 ^property[=].valueCoding = $tre-r385-declaration-act-de-soin-amm#DE000
@@ -7651,7 +7651,7 @@ Description: "Type activité SMSSE régulée"
 * #492 ^property[=].valueCoding = $tre-r382-modalite-act-de-soin-amm#MO004
 * #492 ^property[+].code = #mentionAMM
 * #492 ^property[=].valueCoding = $tre-r383-mention-act-de-soin-amm#ME015
-* #492 ^property[+].code = #ptsAMM
+* #492 ^property[+].code = #pratiqueTherapeutiqueSpecifiqueAMM
 * #492 ^property[=].valueCoding = $tre-r384-pratique-therapeutique-specifique-act-de-soin-amm#PTS00
 * #492 ^property[+].code = #declarationAMM
 * #492 ^property[=].valueCoding = $tre-r385-declaration-act-de-soin-amm#DE000
@@ -7670,7 +7670,7 @@ Description: "Type activité SMSSE régulée"
 * #493 ^property[=].valueCoding = $tre-r382-modalite-act-de-soin-amm#MO005
 * #493 ^property[+].code = #mentionAMM
 * #493 ^property[=].valueCoding = $tre-r383-mention-act-de-soin-amm#ME000
-* #493 ^property[+].code = #ptsAMM
+* #493 ^property[+].code = #pratiqueTherapeutiqueSpecifiqueAMM
 * #493 ^property[=].valueCoding = $tre-r384-pratique-therapeutique-specifique-act-de-soin-amm#PTS00
 * #493 ^property[+].code = #declarationAMM
 * #493 ^property[=].valueCoding = $tre-r385-declaration-act-de-soin-amm#DE000
@@ -7689,7 +7689,7 @@ Description: "Type activité SMSSE régulée"
 * #494 ^property[=].valueCoding = $tre-r382-modalite-act-de-soin-amm#MO012
 * #494 ^property[+].code = #mentionAMM
 * #494 ^property[=].valueCoding = $tre-r383-mention-act-de-soin-amm#ME000
-* #494 ^property[+].code = #ptsAMM
+* #494 ^property[+].code = #pratiqueTherapeutiqueSpecifiqueAMM
 * #494 ^property[=].valueCoding = $tre-r384-pratique-therapeutique-specifique-act-de-soin-amm#PTS00
 * #494 ^property[+].code = #declarationAMM
 * #494 ^property[=].valueCoding = $tre-r385-declaration-act-de-soin-amm#DE000
@@ -7708,7 +7708,7 @@ Description: "Type activité SMSSE régulée"
 * #495 ^property[=].valueCoding = $tre-r382-modalite-act-de-soin-amm#MO013
 * #495 ^property[+].code = #mentionAMM
 * #495 ^property[=].valueCoding = $tre-r383-mention-act-de-soin-amm#ME000
-* #495 ^property[+].code = #ptsAMM
+* #495 ^property[+].code = #pratiqueTherapeutiqueSpecifiqueAMM
 * #495 ^property[=].valueCoding = $tre-r384-pratique-therapeutique-specifique-act-de-soin-amm#PTS00
 * #495 ^property[+].code = #declarationAMM
 * #495 ^property[=].valueCoding = $tre-r385-declaration-act-de-soin-amm#DE000
@@ -7727,7 +7727,7 @@ Description: "Type activité SMSSE régulée"
 * #496 ^property[=].valueCoding = $tre-r382-modalite-act-de-soin-amm#MO099
 * #496 ^property[+].code = #mentionAMM
 * #496 ^property[=].valueCoding = $tre-r383-mention-act-de-soin-amm#ME000
-* #496 ^property[+].code = #ptsAMM
+* #496 ^property[+].code = #pratiqueTherapeutiqueSpecifiqueAMM
 * #496 ^property[=].valueCoding = $tre-r384-pratique-therapeutique-specifique-act-de-soin-amm#PTS00
 * #496 ^property[+].code = #declarationAMM
 * #496 ^property[=].valueCoding = $tre-r385-declaration-act-de-soin-amm#DE000
@@ -7746,7 +7746,7 @@ Description: "Type activité SMSSE régulée"
 * #497 ^property[=].valueCoding = $tre-r382-modalite-act-de-soin-amm#MO026
 * #497 ^property[+].code = #mentionAMM
 * #497 ^property[=].valueCoding = $tre-r383-mention-act-de-soin-amm#ME000
-* #497 ^property[+].code = #ptsAMM
+* #497 ^property[+].code = #pratiqueTherapeutiqueSpecifiqueAMM
 * #497 ^property[=].valueCoding = $tre-r384-pratique-therapeutique-specifique-act-de-soin-amm#PTS00
 * #497 ^property[+].code = #declarationAMM
 * #497 ^property[=].valueCoding = $tre-r385-declaration-act-de-soin-amm#DE000
@@ -7765,7 +7765,7 @@ Description: "Type activité SMSSE régulée"
 * #498 ^property[=].valueCoding = $tre-r382-modalite-act-de-soin-amm#MO000
 * #498 ^property[+].code = #mentionAMM
 * #498 ^property[=].valueCoding = $tre-r383-mention-act-de-soin-amm#ME005
-* #498 ^property[+].code = #ptsAMM
+* #498 ^property[+].code = #pratiqueTherapeutiqueSpecifiqueAMM
 * #498 ^property[=].valueCoding = $tre-r384-pratique-therapeutique-specifique-act-de-soin-amm#PTS00
 * #498 ^property[+].code = #declarationAMM
 * #498 ^property[=].valueCoding = $tre-r385-declaration-act-de-soin-amm#DE000
@@ -7784,7 +7784,7 @@ Description: "Type activité SMSSE régulée"
 * #499 ^property[=].valueCoding = $tre-r382-modalite-act-de-soin-amm#MO000
 * #499 ^property[+].code = #mentionAMM
 * #499 ^property[=].valueCoding = $tre-r383-mention-act-de-soin-amm#ME006
-* #499 ^property[+].code = #ptsAMM
+* #499 ^property[+].code = #pratiqueTherapeutiqueSpecifiqueAMM
 * #499 ^property[=].valueCoding = $tre-r384-pratique-therapeutique-specifique-act-de-soin-amm#PTS00
 * #499 ^property[+].code = #declarationAMM
 * #499 ^property[=].valueCoding = $tre-r385-declaration-act-de-soin-amm#DE000
@@ -7803,7 +7803,7 @@ Description: "Type activité SMSSE régulée"
 * #500 ^property[=].valueCoding = $tre-r382-modalite-act-de-soin-amm#MO030
 * #500 ^property[+].code = #mentionAMM
 * #500 ^property[=].valueCoding = $tre-r383-mention-act-de-soin-amm#ME000
-* #500 ^property[+].code = #ptsAMM
+* #500 ^property[+].code = #pratiqueTherapeutiqueSpecifiqueAMM
 * #500 ^property[=].valueCoding = $tre-r384-pratique-therapeutique-specifique-act-de-soin-amm#PTS00
 * #500 ^property[+].code = #declarationAMM
 * #500 ^property[=].valueCoding = $tre-r385-declaration-act-de-soin-amm#DE000
@@ -7822,7 +7822,7 @@ Description: "Type activité SMSSE régulée"
 * #501 ^property[=].valueCoding = $tre-r382-modalite-act-de-soin-amm#MO031
 * #501 ^property[+].code = #mentionAMM
 * #501 ^property[=].valueCoding = $tre-r383-mention-act-de-soin-amm#ME065
-* #501 ^property[+].code = #ptsAMM
+* #501 ^property[+].code = #pratiqueTherapeutiqueSpecifiqueAMM
 * #501 ^property[=].valueCoding = $tre-r384-pratique-therapeutique-specifique-act-de-soin-amm#PTS00
 * #501 ^property[+].code = #declarationAMM
 * #501 ^property[=].valueCoding = $tre-r385-declaration-act-de-soin-amm#DE017
@@ -7841,7 +7841,7 @@ Description: "Type activité SMSSE régulée"
 * #502 ^property[=].valueCoding = $tre-r382-modalite-act-de-soin-amm#MO031
 * #502 ^property[+].code = #mentionAMM
 * #502 ^property[=].valueCoding = $tre-r383-mention-act-de-soin-amm#ME065
-* #502 ^property[+].code = #ptsAMM
+* #502 ^property[+].code = #pratiqueTherapeutiqueSpecifiqueAMM
 * #502 ^property[=].valueCoding = $tre-r384-pratique-therapeutique-specifique-act-de-soin-amm#PTS00
 * #502 ^property[+].code = #declarationAMM
 * #502 ^property[=].valueCoding = $tre-r385-declaration-act-de-soin-amm#DE018
@@ -7860,7 +7860,7 @@ Description: "Type activité SMSSE régulée"
 * #503 ^property[=].valueCoding = $tre-r382-modalite-act-de-soin-amm#MO031
 * #503 ^property[+].code = #mentionAMM
 * #503 ^property[=].valueCoding = $tre-r383-mention-act-de-soin-amm#ME064
-* #503 ^property[+].code = #ptsAMM
+* #503 ^property[+].code = #pratiqueTherapeutiqueSpecifiqueAMM
 * #503 ^property[=].valueCoding = $tre-r384-pratique-therapeutique-specifique-act-de-soin-amm#PTS00
 * #503 ^property[+].code = #declarationAMM
 * #503 ^property[=].valueCoding = $tre-r385-declaration-act-de-soin-amm#DE017
@@ -7879,7 +7879,7 @@ Description: "Type activité SMSSE régulée"
 * #504 ^property[=].valueCoding = $tre-r382-modalite-act-de-soin-amm#MO031
 * #504 ^property[+].code = #mentionAMM
 * #504 ^property[=].valueCoding = $tre-r383-mention-act-de-soin-amm#ME064
-* #504 ^property[+].code = #ptsAMM
+* #504 ^property[+].code = #pratiqueTherapeutiqueSpecifiqueAMM
 * #504 ^property[=].valueCoding = $tre-r384-pratique-therapeutique-specifique-act-de-soin-amm#PTS00
 * #504 ^property[+].code = #declarationAMM
 * #504 ^property[=].valueCoding = $tre-r385-declaration-act-de-soin-amm#DE018
@@ -7898,7 +7898,7 @@ Description: "Type activité SMSSE régulée"
 * #505 ^property[=].valueCoding = $tre-r382-modalite-act-de-soin-amm#MO031
 * #505 ^property[+].code = #mentionAMM
 * #505 ^property[=].valueCoding = $tre-r383-mention-act-de-soin-amm#ME067
-* #505 ^property[+].code = #ptsAMM
+* #505 ^property[+].code = #pratiqueTherapeutiqueSpecifiqueAMM
 * #505 ^property[=].valueCoding = $tre-r384-pratique-therapeutique-specifique-act-de-soin-amm#PTS00
 * #505 ^property[+].code = #declarationAMM
 * #505 ^property[=].valueCoding = $tre-r385-declaration-act-de-soin-amm#DE017
@@ -7917,7 +7917,7 @@ Description: "Type activité SMSSE régulée"
 * #506 ^property[=].valueCoding = $tre-r382-modalite-act-de-soin-amm#MO031
 * #506 ^property[+].code = #mentionAMM
 * #506 ^property[=].valueCoding = $tre-r383-mention-act-de-soin-amm#ME067
-* #506 ^property[+].code = #ptsAMM
+* #506 ^property[+].code = #pratiqueTherapeutiqueSpecifiqueAMM
 * #506 ^property[=].valueCoding = $tre-r384-pratique-therapeutique-specifique-act-de-soin-amm#PTS00
 * #506 ^property[+].code = #declarationAMM
 * #506 ^property[=].valueCoding = $tre-r385-declaration-act-de-soin-amm#DE018
@@ -7936,7 +7936,7 @@ Description: "Type activité SMSSE régulée"
 * #507 ^property[=].valueCoding = $tre-r382-modalite-act-de-soin-amm#MO032
 * #507 ^property[+].code = #mentionAMM
 * #507 ^property[=].valueCoding = $tre-r383-mention-act-de-soin-amm#ME065
-* #507 ^property[+].code = #ptsAMM
+* #507 ^property[+].code = #pratiqueTherapeutiqueSpecifiqueAMM
 * #507 ^property[=].valueCoding = $tre-r384-pratique-therapeutique-specifique-act-de-soin-amm#PTS00
 * #507 ^property[+].code = #declarationAMM
 * #507 ^property[=].valueCoding = $tre-r385-declaration-act-de-soin-amm#DE017
@@ -7955,7 +7955,7 @@ Description: "Type activité SMSSE régulée"
 * #508 ^property[=].valueCoding = $tre-r382-modalite-act-de-soin-amm#MO032
 * #508 ^property[+].code = #mentionAMM
 * #508 ^property[=].valueCoding = $tre-r383-mention-act-de-soin-amm#ME065
-* #508 ^property[+].code = #ptsAMM
+* #508 ^property[+].code = #pratiqueTherapeutiqueSpecifiqueAMM
 * #508 ^property[=].valueCoding = $tre-r384-pratique-therapeutique-specifique-act-de-soin-amm#PTS00
 * #508 ^property[+].code = #declarationAMM
 * #508 ^property[=].valueCoding = $tre-r385-declaration-act-de-soin-amm#DE018
@@ -7974,7 +7974,7 @@ Description: "Type activité SMSSE régulée"
 * #509 ^property[=].valueCoding = $tre-r382-modalite-act-de-soin-amm#MO032
 * #509 ^property[+].code = #mentionAMM
 * #509 ^property[=].valueCoding = $tre-r383-mention-act-de-soin-amm#ME064
-* #509 ^property[+].code = #ptsAMM
+* #509 ^property[+].code = #pratiqueTherapeutiqueSpecifiqueAMM
 * #509 ^property[=].valueCoding = $tre-r384-pratique-therapeutique-specifique-act-de-soin-amm#PTS00
 * #509 ^property[+].code = #declarationAMM
 * #509 ^property[=].valueCoding = $tre-r385-declaration-act-de-soin-amm#DE017
@@ -7993,7 +7993,7 @@ Description: "Type activité SMSSE régulée"
 * #510 ^property[=].valueCoding = $tre-r382-modalite-act-de-soin-amm#MO032
 * #510 ^property[+].code = #mentionAMM
 * #510 ^property[=].valueCoding = $tre-r383-mention-act-de-soin-amm#ME064
-* #510 ^property[+].code = #ptsAMM
+* #510 ^property[+].code = #pratiqueTherapeutiqueSpecifiqueAMM
 * #510 ^property[=].valueCoding = $tre-r384-pratique-therapeutique-specifique-act-de-soin-amm#PTS00
 * #510 ^property[+].code = #declarationAMM
 * #510 ^property[=].valueCoding = $tre-r385-declaration-act-de-soin-amm#DE018
@@ -8012,7 +8012,7 @@ Description: "Type activité SMSSE régulée"
 * #511 ^property[=].valueCoding = $tre-r382-modalite-act-de-soin-amm#MO032
 * #511 ^property[+].code = #mentionAMM
 * #511 ^property[=].valueCoding = $tre-r383-mention-act-de-soin-amm#ME066
-* #511 ^property[+].code = #ptsAMM
+* #511 ^property[+].code = #pratiqueTherapeutiqueSpecifiqueAMM
 * #511 ^property[=].valueCoding = $tre-r384-pratique-therapeutique-specifique-act-de-soin-amm#PTS00
 * #511 ^property[+].code = #declarationAMM
 * #511 ^property[=].valueCoding = $tre-r385-declaration-act-de-soin-amm#DE017
@@ -8031,7 +8031,7 @@ Description: "Type activité SMSSE régulée"
 * #512 ^property[=].valueCoding = $tre-r382-modalite-act-de-soin-amm#MO032
 * #512 ^property[+].code = #mentionAMM
 * #512 ^property[=].valueCoding = $tre-r383-mention-act-de-soin-amm#ME066
-* #512 ^property[+].code = #ptsAMM
+* #512 ^property[+].code = #pratiqueTherapeutiqueSpecifiqueAMM
 * #512 ^property[=].valueCoding = $tre-r384-pratique-therapeutique-specifique-act-de-soin-amm#PTS00
 * #512 ^property[+].code = #declarationAMM
 * #512 ^property[=].valueCoding = $tre-r385-declaration-act-de-soin-amm#DE018
@@ -8050,7 +8050,7 @@ Description: "Type activité SMSSE régulée"
 * #513 ^property[=].valueCoding = $tre-r382-modalite-act-de-soin-amm#MO006
 * #513 ^property[+].code = #mentionAMM
 * #513 ^property[=].valueCoding = $tre-r383-mention-act-de-soin-amm#ME016
-* #513 ^property[+].code = #ptsAMM
+* #513 ^property[+].code = #pratiqueTherapeutiqueSpecifiqueAMM
 * #513 ^property[=].valueCoding = $tre-r384-pratique-therapeutique-specifique-act-de-soin-amm#PTS00
 * #513 ^property[+].code = #declarationAMM
 * #513 ^property[=].valueCoding = $tre-r385-declaration-act-de-soin-amm#DE005
@@ -8069,7 +8069,7 @@ Description: "Type activité SMSSE régulée"
 * #514 ^property[=].valueCoding = $tre-r382-modalite-act-de-soin-amm#MO006
 * #514 ^property[+].code = #mentionAMM
 * #514 ^property[=].valueCoding = $tre-r383-mention-act-de-soin-amm#ME016
-* #514 ^property[+].code = #ptsAMM
+* #514 ^property[+].code = #pratiqueTherapeutiqueSpecifiqueAMM
 * #514 ^property[=].valueCoding = $tre-r384-pratique-therapeutique-specifique-act-de-soin-amm#PTS00
 * #514 ^property[+].code = #declarationAMM
 * #514 ^property[=].valueCoding = $tre-r385-declaration-act-de-soin-amm#DE006
@@ -8088,7 +8088,7 @@ Description: "Type activité SMSSE régulée"
 * #515 ^property[=].valueCoding = $tre-r382-modalite-act-de-soin-amm#MO006
 * #515 ^property[+].code = #mentionAMM
 * #515 ^property[=].valueCoding = $tre-r383-mention-act-de-soin-amm#ME016
-* #515 ^property[+].code = #ptsAMM
+* #515 ^property[+].code = #pratiqueTherapeutiqueSpecifiqueAMM
 * #515 ^property[=].valueCoding = $tre-r384-pratique-therapeutique-specifique-act-de-soin-amm#PTS00
 * #515 ^property[+].code = #declarationAMM
 * #515 ^property[=].valueCoding = $tre-r385-declaration-act-de-soin-amm#DE007
@@ -8107,7 +8107,7 @@ Description: "Type activité SMSSE régulée"
 * #516 ^property[=].valueCoding = $tre-r382-modalite-act-de-soin-amm#MO006
 * #516 ^property[+].code = #mentionAMM
 * #516 ^property[=].valueCoding = $tre-r383-mention-act-de-soin-amm#ME016
-* #516 ^property[+].code = #ptsAMM
+* #516 ^property[+].code = #pratiqueTherapeutiqueSpecifiqueAMM
 * #516 ^property[=].valueCoding = $tre-r384-pratique-therapeutique-specifique-act-de-soin-amm#PTS00
 * #516 ^property[+].code = #declarationAMM
 * #516 ^property[=].valueCoding = $tre-r385-declaration-act-de-soin-amm#DE008
@@ -8126,7 +8126,7 @@ Description: "Type activité SMSSE régulée"
 * #517 ^property[=].valueCoding = $tre-r382-modalite-act-de-soin-amm#MO006
 * #517 ^property[+].code = #mentionAMM
 * #517 ^property[=].valueCoding = $tre-r383-mention-act-de-soin-amm#ME016
-* #517 ^property[+].code = #ptsAMM
+* #517 ^property[+].code = #pratiqueTherapeutiqueSpecifiqueAMM
 * #517 ^property[=].valueCoding = $tre-r384-pratique-therapeutique-specifique-act-de-soin-amm#PTS00
 * #517 ^property[+].code = #declarationAMM
 * #517 ^property[=].valueCoding = $tre-r385-declaration-act-de-soin-amm#DE009
@@ -8145,7 +8145,7 @@ Description: "Type activité SMSSE régulée"
 * #518 ^property[=].valueCoding = $tre-r382-modalite-act-de-soin-amm#MO006
 * #518 ^property[+].code = #mentionAMM
 * #518 ^property[=].valueCoding = $tre-r383-mention-act-de-soin-amm#ME017
-* #518 ^property[+].code = #ptsAMM
+* #518 ^property[+].code = #pratiqueTherapeutiqueSpecifiqueAMM
 * #518 ^property[=].valueCoding = $tre-r384-pratique-therapeutique-specifique-act-de-soin-amm#PTS00
 * #518 ^property[+].code = #declarationAMM
 * #518 ^property[=].valueCoding = $tre-r385-declaration-act-de-soin-amm#DE000
@@ -8164,7 +8164,7 @@ Description: "Type activité SMSSE régulée"
 * #519 ^property[=].valueCoding = $tre-r382-modalite-act-de-soin-amm#MO006
 * #519 ^property[+].code = #mentionAMM
 * #519 ^property[=].valueCoding = $tre-r383-mention-act-de-soin-amm#ME018
-* #519 ^property[+].code = #ptsAMM
+* #519 ^property[+].code = #pratiqueTherapeutiqueSpecifiqueAMM
 * #519 ^property[=].valueCoding = $tre-r384-pratique-therapeutique-specifique-act-de-soin-amm#PTS00
 * #519 ^property[+].code = #declarationAMM
 * #519 ^property[=].valueCoding = $tre-r385-declaration-act-de-soin-amm#DE000
@@ -8183,7 +8183,7 @@ Description: "Type activité SMSSE régulée"
 * #520 ^property[=].valueCoding = $tre-r382-modalite-act-de-soin-amm#MO006
 * #520 ^property[+].code = #mentionAMM
 * #520 ^property[=].valueCoding = $tre-r383-mention-act-de-soin-amm#ME019
-* #520 ^property[+].code = #ptsAMM
+* #520 ^property[+].code = #pratiqueTherapeutiqueSpecifiqueAMM
 * #520 ^property[=].valueCoding = $tre-r384-pratique-therapeutique-specifique-act-de-soin-amm#PTS00
 * #520 ^property[+].code = #declarationAMM
 * #520 ^property[=].valueCoding = $tre-r385-declaration-act-de-soin-amm#DE000
@@ -8202,7 +8202,7 @@ Description: "Type activité SMSSE régulée"
 * #521 ^property[=].valueCoding = $tre-r382-modalite-act-de-soin-amm#MO006
 * #521 ^property[+].code = #mentionAMM
 * #521 ^property[=].valueCoding = $tre-r383-mention-act-de-soin-amm#ME020
-* #521 ^property[+].code = #ptsAMM
+* #521 ^property[+].code = #pratiqueTherapeutiqueSpecifiqueAMM
 * #521 ^property[=].valueCoding = $tre-r384-pratique-therapeutique-specifique-act-de-soin-amm#PTS00
 * #521 ^property[+].code = #declarationAMM
 * #521 ^property[=].valueCoding = $tre-r385-declaration-act-de-soin-amm#DE000
@@ -8221,7 +8221,7 @@ Description: "Type activité SMSSE régulée"
 * #522 ^property[=].valueCoding = $tre-r382-modalite-act-de-soin-amm#MO007
 * #522 ^property[+].code = #mentionAMM
 * #522 ^property[=].valueCoding = $tre-r383-mention-act-de-soin-amm#ME021
-* #522 ^property[+].code = #ptsAMM
+* #522 ^property[+].code = #pratiqueTherapeutiqueSpecifiqueAMM
 * #522 ^property[=].valueCoding = $tre-r384-pratique-therapeutique-specifique-act-de-soin-amm#PTS00
 * #522 ^property[+].code = #declarationAMM
 * #522 ^property[=].valueCoding = $tre-r385-declaration-act-de-soin-amm#DE005
@@ -8240,7 +8240,7 @@ Description: "Type activité SMSSE régulée"
 * #523 ^property[=].valueCoding = $tre-r382-modalite-act-de-soin-amm#MO007
 * #523 ^property[+].code = #mentionAMM
 * #523 ^property[=].valueCoding = $tre-r383-mention-act-de-soin-amm#ME021
-* #523 ^property[+].code = #ptsAMM
+* #523 ^property[+].code = #pratiqueTherapeutiqueSpecifiqueAMM
 * #523 ^property[=].valueCoding = $tre-r384-pratique-therapeutique-specifique-act-de-soin-amm#PTS00
 * #523 ^property[+].code = #declarationAMM
 * #523 ^property[=].valueCoding = $tre-r385-declaration-act-de-soin-amm#DE010
@@ -8259,7 +8259,7 @@ Description: "Type activité SMSSE régulée"
 * #524 ^property[=].valueCoding = $tre-r382-modalite-act-de-soin-amm#MO007
 * #524 ^property[+].code = #mentionAMM
 * #524 ^property[=].valueCoding = $tre-r383-mention-act-de-soin-amm#ME021
-* #524 ^property[+].code = #ptsAMM
+* #524 ^property[+].code = #pratiqueTherapeutiqueSpecifiqueAMM
 * #524 ^property[=].valueCoding = $tre-r384-pratique-therapeutique-specifique-act-de-soin-amm#PTS00
 * #524 ^property[+].code = #declarationAMM
 * #524 ^property[=].valueCoding = $tre-r385-declaration-act-de-soin-amm#DE009
@@ -8278,7 +8278,7 @@ Description: "Type activité SMSSE régulée"
 * #525 ^property[=].valueCoding = $tre-r382-modalite-act-de-soin-amm#MO007
 * #525 ^property[+].code = #mentionAMM
 * #525 ^property[=].valueCoding = $tre-r383-mention-act-de-soin-amm#ME022
-* #525 ^property[+].code = #ptsAMM
+* #525 ^property[+].code = #pratiqueTherapeutiqueSpecifiqueAMM
 * #525 ^property[=].valueCoding = $tre-r384-pratique-therapeutique-specifique-act-de-soin-amm#PTS00
 * #525 ^property[+].code = #declarationAMM
 * #525 ^property[=].valueCoding = $tre-r385-declaration-act-de-soin-amm#DE005
@@ -8297,7 +8297,7 @@ Description: "Type activité SMSSE régulée"
 * #526 ^property[=].valueCoding = $tre-r382-modalite-act-de-soin-amm#MO007
 * #526 ^property[+].code = #mentionAMM
 * #526 ^property[=].valueCoding = $tre-r383-mention-act-de-soin-amm#ME022
-* #526 ^property[+].code = #ptsAMM
+* #526 ^property[+].code = #pratiqueTherapeutiqueSpecifiqueAMM
 * #526 ^property[=].valueCoding = $tre-r384-pratique-therapeutique-specifique-act-de-soin-amm#PTS00
 * #526 ^property[+].code = #declarationAMM
 * #526 ^property[=].valueCoding = $tre-r385-declaration-act-de-soin-amm#DE010
@@ -8316,7 +8316,7 @@ Description: "Type activité SMSSE régulée"
 * #527 ^property[=].valueCoding = $tre-r382-modalite-act-de-soin-amm#MO007
 * #527 ^property[+].code = #mentionAMM
 * #527 ^property[=].valueCoding = $tre-r383-mention-act-de-soin-amm#ME022
-* #527 ^property[+].code = #ptsAMM
+* #527 ^property[+].code = #pratiqueTherapeutiqueSpecifiqueAMM
 * #527 ^property[=].valueCoding = $tre-r384-pratique-therapeutique-specifique-act-de-soin-amm#PTS00
 * #527 ^property[+].code = #declarationAMM
 * #527 ^property[=].valueCoding = $tre-r385-declaration-act-de-soin-amm#DE009
@@ -8335,7 +8335,7 @@ Description: "Type activité SMSSE régulée"
 * #528 ^property[=].valueCoding = $tre-r382-modalite-act-de-soin-amm#MO007
 * #528 ^property[+].code = #mentionAMM
 * #528 ^property[=].valueCoding = $tre-r383-mention-act-de-soin-amm#ME023
-* #528 ^property[+].code = #ptsAMM
+* #528 ^property[+].code = #pratiqueTherapeutiqueSpecifiqueAMM
 * #528 ^property[=].valueCoding = $tre-r384-pratique-therapeutique-specifique-act-de-soin-amm#PTS00
 * #528 ^property[+].code = #declarationAMM
 * #528 ^property[=].valueCoding = $tre-r385-declaration-act-de-soin-amm#DE000
@@ -8354,7 +8354,7 @@ Description: "Type activité SMSSE régulée"
 * #529 ^property[=].valueCoding = $tre-r382-modalite-act-de-soin-amm#MO007
 * #529 ^property[+].code = #mentionAMM
 * #529 ^property[=].valueCoding = $tre-r383-mention-act-de-soin-amm#ME024
-* #529 ^property[+].code = #ptsAMM
+* #529 ^property[+].code = #pratiqueTherapeutiqueSpecifiqueAMM
 * #529 ^property[=].valueCoding = $tre-r384-pratique-therapeutique-specifique-act-de-soin-amm#PTS00
 * #529 ^property[+].code = #declarationAMM
 * #529 ^property[=].valueCoding = $tre-r385-declaration-act-de-soin-amm#DE000
@@ -8373,7 +8373,7 @@ Description: "Type activité SMSSE régulée"
 * #530 ^property[=].valueCoding = $tre-r382-modalite-act-de-soin-amm#MO020
 * #530 ^property[+].code = #mentionAMM
 * #530 ^property[=].valueCoding = $tre-r383-mention-act-de-soin-amm#ME089
-* #530 ^property[+].code = #ptsAMM
+* #530 ^property[+].code = #pratiqueTherapeutiqueSpecifiqueAMM
 * #530 ^property[=].valueCoding = $tre-r384-pratique-therapeutique-specifique-act-de-soin-amm#PTS00
 * #530 ^property[+].code = #declarationAMM
 * #530 ^property[=].valueCoding = $tre-r385-declaration-act-de-soin-amm#DE017
@@ -8392,7 +8392,7 @@ Description: "Type activité SMSSE régulée"
 * #531 ^property[=].valueCoding = $tre-r382-modalite-act-de-soin-amm#MO020
 * #531 ^property[+].code = #mentionAMM
 * #531 ^property[=].valueCoding = $tre-r383-mention-act-de-soin-amm#ME089
-* #531 ^property[+].code = #ptsAMM
+* #531 ^property[+].code = #pratiqueTherapeutiqueSpecifiqueAMM
 * #531 ^property[=].valueCoding = $tre-r384-pratique-therapeutique-specifique-act-de-soin-amm#PTS00
 * #531 ^property[+].code = #declarationAMM
 * #531 ^property[=].valueCoding = $tre-r385-declaration-act-de-soin-amm#DE018
@@ -8411,7 +8411,7 @@ Description: "Type activité SMSSE régulée"
 * #532 ^property[=].valueCoding = $tre-r382-modalite-act-de-soin-amm#MO020
 * #532 ^property[+].code = #mentionAMM
 * #532 ^property[=].valueCoding = $tre-r383-mention-act-de-soin-amm#ME090
-* #532 ^property[+].code = #ptsAMM
+* #532 ^property[+].code = #pratiqueTherapeutiqueSpecifiqueAMM
 * #532 ^property[=].valueCoding = $tre-r384-pratique-therapeutique-specifique-act-de-soin-amm#PTS00
 * #532 ^property[+].code = #declarationAMM
 * #532 ^property[=].valueCoding = $tre-r385-declaration-act-de-soin-amm#DE017
@@ -8430,7 +8430,7 @@ Description: "Type activité SMSSE régulée"
 * #533 ^property[=].valueCoding = $tre-r382-modalite-act-de-soin-amm#MO020
 * #533 ^property[+].code = #mentionAMM
 * #533 ^property[=].valueCoding = $tre-r383-mention-act-de-soin-amm#ME090
-* #533 ^property[+].code = #ptsAMM
+* #533 ^property[+].code = #pratiqueTherapeutiqueSpecifiqueAMM
 * #533 ^property[=].valueCoding = $tre-r384-pratique-therapeutique-specifique-act-de-soin-amm#PTS00
 * #533 ^property[+].code = #declarationAMM
 * #533 ^property[=].valueCoding = $tre-r385-declaration-act-de-soin-amm#DE018
@@ -8449,7 +8449,7 @@ Description: "Type activité SMSSE régulée"
 * #534 ^property[=].valueCoding = $tre-r382-modalite-act-de-soin-amm#MO021
 * #534 ^property[+].code = #mentionAMM
 * #534 ^property[=].valueCoding = $tre-r383-mention-act-de-soin-amm#ME000
-* #534 ^property[+].code = #ptsAMM
+* #534 ^property[+].code = #pratiqueTherapeutiqueSpecifiqueAMM
 * #534 ^property[=].valueCoding = $tre-r384-pratique-therapeutique-specifique-act-de-soin-amm#PTS00
 * #534 ^property[+].code = #declarationAMM
 * #534 ^property[=].valueCoding = $tre-r385-declaration-act-de-soin-amm#DE017
@@ -8468,7 +8468,7 @@ Description: "Type activité SMSSE régulée"
 * #535 ^property[=].valueCoding = $tre-r382-modalite-act-de-soin-amm#MO021
 * #535 ^property[+].code = #mentionAMM
 * #535 ^property[=].valueCoding = $tre-r383-mention-act-de-soin-amm#ME000
-* #535 ^property[+].code = #ptsAMM
+* #535 ^property[+].code = #pratiqueTherapeutiqueSpecifiqueAMM
 * #535 ^property[=].valueCoding = $tre-r384-pratique-therapeutique-specifique-act-de-soin-amm#PTS00
 * #535 ^property[+].code = #declarationAMM
 * #535 ^property[=].valueCoding = $tre-r385-declaration-act-de-soin-amm#DE018
@@ -8487,7 +8487,7 @@ Description: "Type activité SMSSE régulée"
 * #536 ^property[=].valueCoding = $tre-r382-modalite-act-de-soin-amm#MO022
 * #536 ^property[+].code = #mentionAMM
 * #536 ^property[=].valueCoding = $tre-r383-mention-act-de-soin-amm#ME000
-* #536 ^property[+].code = #ptsAMM
+* #536 ^property[+].code = #pratiqueTherapeutiqueSpecifiqueAMM
 * #536 ^property[=].valueCoding = $tre-r384-pratique-therapeutique-specifique-act-de-soin-amm#PTS00
 * #536 ^property[+].code = #declarationAMM
 * #536 ^property[=].valueCoding = $tre-r385-declaration-act-de-soin-amm#DE017
@@ -8506,7 +8506,7 @@ Description: "Type activité SMSSE régulée"
 * #537 ^property[=].valueCoding = $tre-r382-modalite-act-de-soin-amm#MO022
 * #537 ^property[+].code = #mentionAMM
 * #537 ^property[=].valueCoding = $tre-r383-mention-act-de-soin-amm#ME000
-* #537 ^property[+].code = #ptsAMM
+* #537 ^property[+].code = #pratiqueTherapeutiqueSpecifiqueAMM
 * #537 ^property[=].valueCoding = $tre-r384-pratique-therapeutique-specifique-act-de-soin-amm#PTS00
 * #537 ^property[+].code = #declarationAMM
 * #537 ^property[=].valueCoding = $tre-r385-declaration-act-de-soin-amm#DE018
@@ -8525,7 +8525,7 @@ Description: "Type activité SMSSE régulée"
 * #538 ^property[=].valueCoding = $tre-r382-modalite-act-de-soin-amm#MO023
 * #538 ^property[+].code = #mentionAMM
 * #538 ^property[=].valueCoding = $tre-r383-mention-act-de-soin-amm#ME000
-* #538 ^property[+].code = #ptsAMM
+* #538 ^property[+].code = #pratiqueTherapeutiqueSpecifiqueAMM
 * #538 ^property[=].valueCoding = $tre-r384-pratique-therapeutique-specifique-act-de-soin-amm#PTS00
 * #538 ^property[+].code = #declarationAMM
 * #538 ^property[=].valueCoding = $tre-r385-declaration-act-de-soin-amm#DE017
@@ -8544,7 +8544,7 @@ Description: "Type activité SMSSE régulée"
 * #539 ^property[=].valueCoding = $tre-r382-modalite-act-de-soin-amm#MO023
 * #539 ^property[+].code = #mentionAMM
 * #539 ^property[=].valueCoding = $tre-r383-mention-act-de-soin-amm#ME000
-* #539 ^property[+].code = #ptsAMM
+* #539 ^property[+].code = #pratiqueTherapeutiqueSpecifiqueAMM
 * #539 ^property[=].valueCoding = $tre-r384-pratique-therapeutique-specifique-act-de-soin-amm#PTS00
 * #539 ^property[+].code = #declarationAMM
 * #539 ^property[=].valueCoding = $tre-r385-declaration-act-de-soin-amm#DE018
@@ -8563,7 +8563,7 @@ Description: "Type activité SMSSE régulée"
 * #540 ^property[=].valueCoding = $tre-r382-modalite-act-de-soin-amm#MO024
 * #540 ^property[+].code = #mentionAMM
 * #540 ^property[=].valueCoding = $tre-r383-mention-act-de-soin-amm#ME000
-* #540 ^property[+].code = #ptsAMM
+* #540 ^property[+].code = #pratiqueTherapeutiqueSpecifiqueAMM
 * #540 ^property[=].valueCoding = $tre-r384-pratique-therapeutique-specifique-act-de-soin-amm#PTS00
 * #540 ^property[+].code = #declarationAMM
 * #540 ^property[=].valueCoding = $tre-r385-declaration-act-de-soin-amm#DE000
@@ -8582,7 +8582,7 @@ Description: "Type activité SMSSE régulée"
 * #541 ^property[=].valueCoding = $tre-r382-modalite-act-de-soin-amm#MO025
 * #541 ^property[+].code = #mentionAMM
 * #541 ^property[=].valueCoding = $tre-r383-mention-act-de-soin-amm#ME000
-* #541 ^property[+].code = #ptsAMM
+* #541 ^property[+].code = #pratiqueTherapeutiqueSpecifiqueAMM
 * #541 ^property[=].valueCoding = $tre-r384-pratique-therapeutique-specifique-act-de-soin-amm#PTS00
 * #541 ^property[+].code = #declarationAMM
 * #541 ^property[=].valueCoding = $tre-r385-declaration-act-de-soin-amm#DE000
@@ -8601,7 +8601,7 @@ Description: "Type activité SMSSE régulée"
 * #542 ^property[=].valueCoding = $tre-r382-modalite-act-de-soin-amm#MO080
 * #542 ^property[+].code = #mentionAMM
 * #542 ^property[=].valueCoding = $tre-r383-mention-act-de-soin-amm#ME000
-* #542 ^property[+].code = #ptsAMM
+* #542 ^property[+].code = #pratiqueTherapeutiqueSpecifiqueAMM
 * #542 ^property[=].valueCoding = $tre-r384-pratique-therapeutique-specifique-act-de-soin-amm#PTS00
 * #542 ^property[+].code = #declarationAMM
 * #542 ^property[=].valueCoding = $tre-r385-declaration-act-de-soin-amm#DE000
@@ -8620,7 +8620,7 @@ Description: "Type activité SMSSE régulée"
 * #543 ^property[=].valueCoding = $tre-r382-modalite-act-de-soin-amm#MO075
 * #543 ^property[+].code = #mentionAMM
 * #543 ^property[=].valueCoding = $tre-r383-mention-act-de-soin-amm#ME000
-* #543 ^property[+].code = #ptsAMM
+* #543 ^property[+].code = #pratiqueTherapeutiqueSpecifiqueAMM
 * #543 ^property[=].valueCoding = $tre-r384-pratique-therapeutique-specifique-act-de-soin-amm#PTS00
 * #543 ^property[+].code = #declarationAMM
 * #543 ^property[=].valueCoding = $tre-r385-declaration-act-de-soin-amm#DE000
@@ -8639,7 +8639,7 @@ Description: "Type activité SMSSE régulée"
 * #544 ^property[=].valueCoding = $tre-r382-modalite-act-de-soin-amm#MO059
 * #544 ^property[+].code = #mentionAMM
 * #544 ^property[=].valueCoding = $tre-r383-mention-act-de-soin-amm#ME000
-* #544 ^property[+].code = #ptsAMM
+* #544 ^property[+].code = #pratiqueTherapeutiqueSpecifiqueAMM
 * #544 ^property[=].valueCoding = $tre-r384-pratique-therapeutique-specifique-act-de-soin-amm#PTS00
 * #544 ^property[+].code = #declarationAMM
 * #544 ^property[=].valueCoding = $tre-r385-declaration-act-de-soin-amm#DE000
@@ -8658,7 +8658,7 @@ Description: "Type activité SMSSE régulée"
 * #545 ^property[=].valueCoding = $tre-r382-modalite-act-de-soin-amm#MO074
 * #545 ^property[+].code = #mentionAMM
 * #545 ^property[=].valueCoding = $tre-r383-mention-act-de-soin-amm#ME000
-* #545 ^property[+].code = #ptsAMM
+* #545 ^property[+].code = #pratiqueTherapeutiqueSpecifiqueAMM
 * #545 ^property[=].valueCoding = $tre-r384-pratique-therapeutique-specifique-act-de-soin-amm#PTS00
 * #545 ^property[+].code = #declarationAMM
 * #545 ^property[=].valueCoding = $tre-r385-declaration-act-de-soin-amm#DE000
@@ -8677,7 +8677,7 @@ Description: "Type activité SMSSE régulée"
 * #546 ^property[=].valueCoding = $tre-r382-modalite-act-de-soin-amm#MO051
 * #546 ^property[+].code = #mentionAMM
 * #546 ^property[=].valueCoding = $tre-r383-mention-act-de-soin-amm#ME000
-* #546 ^property[+].code = #ptsAMM
+* #546 ^property[+].code = #pratiqueTherapeutiqueSpecifiqueAMM
 * #546 ^property[=].valueCoding = $tre-r384-pratique-therapeutique-specifique-act-de-soin-amm#PTS00
 * #546 ^property[+].code = #declarationAMM
 * #546 ^property[=].valueCoding = $tre-r385-declaration-act-de-soin-amm#DE000
@@ -8696,7 +8696,7 @@ Description: "Type activité SMSSE régulée"
 * #547 ^property[=].valueCoding = $tre-r382-modalite-act-de-soin-amm#MO054
 * #547 ^property[+].code = #mentionAMM
 * #547 ^property[=].valueCoding = $tre-r383-mention-act-de-soin-amm#ME000
-* #547 ^property[+].code = #ptsAMM
+* #547 ^property[+].code = #pratiqueTherapeutiqueSpecifiqueAMM
 * #547 ^property[=].valueCoding = $tre-r384-pratique-therapeutique-specifique-act-de-soin-amm#PTS00
 * #547 ^property[+].code = #declarationAMM
 * #547 ^property[=].valueCoding = $tre-r385-declaration-act-de-soin-amm#DE000
@@ -8715,7 +8715,7 @@ Description: "Type activité SMSSE régulée"
 * #548 ^property[=].valueCoding = $tre-r382-modalite-act-de-soin-amm#MO052
 * #548 ^property[+].code = #mentionAMM
 * #548 ^property[=].valueCoding = $tre-r383-mention-act-de-soin-amm#ME000
-* #548 ^property[+].code = #ptsAMM
+* #548 ^property[+].code = #pratiqueTherapeutiqueSpecifiqueAMM
 * #548 ^property[=].valueCoding = $tre-r384-pratique-therapeutique-specifique-act-de-soin-amm#PTS00
 * #548 ^property[+].code = #declarationAMM
 * #548 ^property[=].valueCoding = $tre-r385-declaration-act-de-soin-amm#DE000
@@ -8734,7 +8734,7 @@ Description: "Type activité SMSSE régulée"
 * #549 ^property[=].valueCoding = $tre-r382-modalite-act-de-soin-amm#MO076
 * #549 ^property[+].code = #mentionAMM
 * #549 ^property[=].valueCoding = $tre-r383-mention-act-de-soin-amm#ME000
-* #549 ^property[+].code = #ptsAMM
+* #549 ^property[+].code = #pratiqueTherapeutiqueSpecifiqueAMM
 * #549 ^property[=].valueCoding = $tre-r384-pratique-therapeutique-specifique-act-de-soin-amm#PTS00
 * #549 ^property[+].code = #declarationAMM
 * #549 ^property[=].valueCoding = $tre-r385-declaration-act-de-soin-amm#DE000
@@ -8753,7 +8753,7 @@ Description: "Type activité SMSSE régulée"
 * #550 ^property[=].valueCoding = $tre-r382-modalite-act-de-soin-amm#MO073
 * #550 ^property[+].code = #mentionAMM
 * #550 ^property[=].valueCoding = $tre-r383-mention-act-de-soin-amm#ME000
-* #550 ^property[+].code = #ptsAMM
+* #550 ^property[+].code = #pratiqueTherapeutiqueSpecifiqueAMM
 * #550 ^property[=].valueCoding = $tre-r384-pratique-therapeutique-specifique-act-de-soin-amm#PTS00
 * #550 ^property[+].code = #declarationAMM
 * #550 ^property[=].valueCoding = $tre-r385-declaration-act-de-soin-amm#DE000
@@ -8772,7 +8772,7 @@ Description: "Type activité SMSSE régulée"
 * #551 ^property[=].valueCoding = $tre-r382-modalite-act-de-soin-amm#MO049
 * #551 ^property[+].code = #mentionAMM
 * #551 ^property[=].valueCoding = $tre-r383-mention-act-de-soin-amm#ME000
-* #551 ^property[+].code = #ptsAMM
+* #551 ^property[+].code = #pratiqueTherapeutiqueSpecifiqueAMM
 * #551 ^property[=].valueCoding = $tre-r384-pratique-therapeutique-specifique-act-de-soin-amm#PTS00
 * #551 ^property[+].code = #declarationAMM
 * #551 ^property[=].valueCoding = $tre-r385-declaration-act-de-soin-amm#DE000
@@ -8791,7 +8791,7 @@ Description: "Type activité SMSSE régulée"
 * #552 ^property[=].valueCoding = $tre-r382-modalite-act-de-soin-amm#MO048
 * #552 ^property[+].code = #mentionAMM
 * #552 ^property[=].valueCoding = $tre-r383-mention-act-de-soin-amm#ME000
-* #552 ^property[+].code = #ptsAMM
+* #552 ^property[+].code = #pratiqueTherapeutiqueSpecifiqueAMM
 * #552 ^property[=].valueCoding = $tre-r384-pratique-therapeutique-specifique-act-de-soin-amm#PTS00
 * #552 ^property[+].code = #declarationAMM
 * #552 ^property[=].valueCoding = $tre-r385-declaration-act-de-soin-amm#DE000
@@ -8810,7 +8810,7 @@ Description: "Type activité SMSSE régulée"
 * #553 ^property[=].valueCoding = $tre-r382-modalite-act-de-soin-amm#MO047
 * #553 ^property[+].code = #mentionAMM
 * #553 ^property[=].valueCoding = $tre-r383-mention-act-de-soin-amm#ME000
-* #553 ^property[+].code = #ptsAMM
+* #553 ^property[+].code = #pratiqueTherapeutiqueSpecifiqueAMM
 * #553 ^property[=].valueCoding = $tre-r384-pratique-therapeutique-specifique-act-de-soin-amm#PTS00
 * #553 ^property[+].code = #declarationAMM
 * #553 ^property[=].valueCoding = $tre-r385-declaration-act-de-soin-amm#DE000
@@ -8829,7 +8829,7 @@ Description: "Type activité SMSSE régulée"
 * #554 ^property[=].valueCoding = $tre-r382-modalite-act-de-soin-amm#MO050
 * #554 ^property[+].code = #mentionAMM
 * #554 ^property[=].valueCoding = $tre-r383-mention-act-de-soin-amm#ME000
-* #554 ^property[+].code = #ptsAMM
+* #554 ^property[+].code = #pratiqueTherapeutiqueSpecifiqueAMM
 * #554 ^property[=].valueCoding = $tre-r384-pratique-therapeutique-specifique-act-de-soin-amm#PTS00
 * #554 ^property[+].code = #declarationAMM
 * #554 ^property[=].valueCoding = $tre-r385-declaration-act-de-soin-amm#DE000
@@ -8848,7 +8848,7 @@ Description: "Type activité SMSSE régulée"
 * #555 ^property[=].valueCoding = $tre-r382-modalite-act-de-soin-amm#MO001
 * #555 ^property[+].code = #mentionAMM
 * #555 ^property[=].valueCoding = $tre-r383-mention-act-de-soin-amm#ME000
-* #555 ^property[+].code = #ptsAMM
+* #555 ^property[+].code = #pratiqueTherapeutiqueSpecifiqueAMM
 * #555 ^property[=].valueCoding = $tre-r384-pratique-therapeutique-specifique-act-de-soin-amm#PTS00
 * #555 ^property[+].code = #declarationAMM
 * #555 ^property[=].valueCoding = $tre-r385-declaration-act-de-soin-amm#DE000
@@ -8867,7 +8867,7 @@ Description: "Type activité SMSSE régulée"
 * #556 ^property[=].valueCoding = $tre-r382-modalite-act-de-soin-amm#MO008
 * #556 ^property[+].code = #mentionAMM
 * #556 ^property[=].valueCoding = $tre-r383-mention-act-de-soin-amm#ME025
-* #556 ^property[+].code = #ptsAMM
+* #556 ^property[+].code = #pratiqueTherapeutiqueSpecifiqueAMM
 * #556 ^property[=].valueCoding = $tre-r384-pratique-therapeutique-specifique-act-de-soin-amm#PTS00
 * #556 ^property[+].code = #declarationAMM
 * #556 ^property[=].valueCoding = $tre-r385-declaration-act-de-soin-amm#DE000
@@ -8886,7 +8886,7 @@ Description: "Type activité SMSSE régulée"
 * #557 ^property[=].valueCoding = $tre-r382-modalite-act-de-soin-amm#MO008
 * #557 ^property[+].code = #mentionAMM
 * #557 ^property[=].valueCoding = $tre-r383-mention-act-de-soin-amm#ME025
-* #557 ^property[+].code = #ptsAMM
+* #557 ^property[+].code = #pratiqueTherapeutiqueSpecifiqueAMM
 * #557 ^property[=].valueCoding = $tre-r384-pratique-therapeutique-specifique-act-de-soin-amm#PTS00
 * #557 ^property[+].code = #declarationAMM
 * #557 ^property[=].valueCoding = $tre-r385-declaration-act-de-soin-amm#DE012
@@ -8905,7 +8905,7 @@ Description: "Type activité SMSSE régulée"
 * #558 ^property[=].valueCoding = $tre-r382-modalite-act-de-soin-amm#MO008
 * #558 ^property[+].code = #mentionAMM
 * #558 ^property[=].valueCoding = $tre-r383-mention-act-de-soin-amm#ME026
-* #558 ^property[+].code = #ptsAMM
+* #558 ^property[+].code = #pratiqueTherapeutiqueSpecifiqueAMM
 * #558 ^property[=].valueCoding = $tre-r384-pratique-therapeutique-specifique-act-de-soin-amm#PTS00
 * #558 ^property[+].code = #declarationAMM
 * #558 ^property[=].valueCoding = $tre-r385-declaration-act-de-soin-amm#DE000
@@ -8924,7 +8924,7 @@ Description: "Type activité SMSSE régulée"
 * #559 ^property[=].valueCoding = $tre-r382-modalite-act-de-soin-amm#MO008
 * #559 ^property[+].code = #mentionAMM
 * #559 ^property[=].valueCoding = $tre-r383-mention-act-de-soin-amm#ME026
-* #559 ^property[+].code = #ptsAMM
+* #559 ^property[+].code = #pratiqueTherapeutiqueSpecifiqueAMM
 * #559 ^property[=].valueCoding = $tre-r384-pratique-therapeutique-specifique-act-de-soin-amm#PTS00
 * #559 ^property[+].code = #declarationAMM
 * #559 ^property[=].valueCoding = $tre-r385-declaration-act-de-soin-amm#DE012
@@ -8943,7 +8943,7 @@ Description: "Type activité SMSSE régulée"
 * #560 ^property[=].valueCoding = $tre-r382-modalite-act-de-soin-amm#MO008
 * #560 ^property[+].code = #mentionAMM
 * #560 ^property[=].valueCoding = $tre-r383-mention-act-de-soin-amm#ME027
-* #560 ^property[+].code = #ptsAMM
+* #560 ^property[+].code = #pratiqueTherapeutiqueSpecifiqueAMM
 * #560 ^property[=].valueCoding = $tre-r384-pratique-therapeutique-specifique-act-de-soin-amm#PTS00
 * #560 ^property[+].code = #declarationAMM
 * #560 ^property[=].valueCoding = $tre-r385-declaration-act-de-soin-amm#DE000
@@ -8962,7 +8962,7 @@ Description: "Type activité SMSSE régulée"
 * #561 ^property[=].valueCoding = $tre-r382-modalite-act-de-soin-amm#MO008
 * #561 ^property[+].code = #mentionAMM
 * #561 ^property[=].valueCoding = $tre-r383-mention-act-de-soin-amm#ME027
-* #561 ^property[+].code = #ptsAMM
+* #561 ^property[+].code = #pratiqueTherapeutiqueSpecifiqueAMM
 * #561 ^property[=].valueCoding = $tre-r384-pratique-therapeutique-specifique-act-de-soin-amm#PTS00
 * #561 ^property[+].code = #declarationAMM
 * #561 ^property[=].valueCoding = $tre-r385-declaration-act-de-soin-amm#DE012
@@ -8981,7 +8981,7 @@ Description: "Type activité SMSSE régulée"
 * #562 ^property[=].valueCoding = $tre-r382-modalite-act-de-soin-amm#MO008
 * #562 ^property[+].code = #mentionAMM
 * #562 ^property[=].valueCoding = $tre-r383-mention-act-de-soin-amm#ME028
-* #562 ^property[+].code = #ptsAMM
+* #562 ^property[+].code = #pratiqueTherapeutiqueSpecifiqueAMM
 * #562 ^property[=].valueCoding = $tre-r384-pratique-therapeutique-specifique-act-de-soin-amm#PTS00
 * #562 ^property[+].code = #declarationAMM
 * #562 ^property[=].valueCoding = $tre-r385-declaration-act-de-soin-amm#DE000
@@ -9000,7 +9000,7 @@ Description: "Type activité SMSSE régulée"
 * #563 ^property[=].valueCoding = $tre-r382-modalite-act-de-soin-amm#MO008
 * #563 ^property[+].code = #mentionAMM
 * #563 ^property[=].valueCoding = $tre-r383-mention-act-de-soin-amm#ME028
-* #563 ^property[+].code = #ptsAMM
+* #563 ^property[+].code = #pratiqueTherapeutiqueSpecifiqueAMM
 * #563 ^property[=].valueCoding = $tre-r384-pratique-therapeutique-specifique-act-de-soin-amm#PTS00
 * #563 ^property[+].code = #declarationAMM
 * #563 ^property[=].valueCoding = $tre-r385-declaration-act-de-soin-amm#DE012
@@ -9019,7 +9019,7 @@ Description: "Type activité SMSSE régulée"
 * #564 ^property[=].valueCoding = $tre-r382-modalite-act-de-soin-amm#MO008
 * #564 ^property[+].code = #mentionAMM
 * #564 ^property[=].valueCoding = $tre-r383-mention-act-de-soin-amm#ME029
-* #564 ^property[+].code = #ptsAMM
+* #564 ^property[+].code = #pratiqueTherapeutiqueSpecifiqueAMM
 * #564 ^property[=].valueCoding = $tre-r384-pratique-therapeutique-specifique-act-de-soin-amm#PTS00
 * #564 ^property[+].code = #declarationAMM
 * #564 ^property[=].valueCoding = $tre-r385-declaration-act-de-soin-amm#DE000
@@ -9038,7 +9038,7 @@ Description: "Type activité SMSSE régulée"
 * #565 ^property[=].valueCoding = $tre-r382-modalite-act-de-soin-amm#MO008
 * #565 ^property[+].code = #mentionAMM
 * #565 ^property[=].valueCoding = $tre-r383-mention-act-de-soin-amm#ME029
-* #565 ^property[+].code = #ptsAMM
+* #565 ^property[+].code = #pratiqueTherapeutiqueSpecifiqueAMM
 * #565 ^property[=].valueCoding = $tre-r384-pratique-therapeutique-specifique-act-de-soin-amm#PTS00
 * #565 ^property[+].code = #declarationAMM
 * #565 ^property[=].valueCoding = $tre-r385-declaration-act-de-soin-amm#DE012
@@ -9057,7 +9057,7 @@ Description: "Type activité SMSSE régulée"
 * #566 ^property[=].valueCoding = $tre-r382-modalite-act-de-soin-amm#MO008
 * #566 ^property[+].code = #mentionAMM
 * #566 ^property[=].valueCoding = $tre-r383-mention-act-de-soin-amm#ME030
-* #566 ^property[+].code = #ptsAMM
+* #566 ^property[+].code = #pratiqueTherapeutiqueSpecifiqueAMM
 * #566 ^property[=].valueCoding = $tre-r384-pratique-therapeutique-specifique-act-de-soin-amm#PTS00
 * #566 ^property[+].code = #declarationAMM
 * #566 ^property[=].valueCoding = $tre-r385-declaration-act-de-soin-amm#DE000
@@ -9076,7 +9076,7 @@ Description: "Type activité SMSSE régulée"
 * #567 ^property[=].valueCoding = $tre-r382-modalite-act-de-soin-amm#MO008
 * #567 ^property[+].code = #mentionAMM
 * #567 ^property[=].valueCoding = $tre-r383-mention-act-de-soin-amm#ME030
-* #567 ^property[+].code = #ptsAMM
+* #567 ^property[+].code = #pratiqueTherapeutiqueSpecifiqueAMM
 * #567 ^property[=].valueCoding = $tre-r384-pratique-therapeutique-specifique-act-de-soin-amm#PTS00
 * #567 ^property[+].code = #declarationAMM
 * #567 ^property[=].valueCoding = $tre-r385-declaration-act-de-soin-amm#DE012
@@ -9095,7 +9095,7 @@ Description: "Type activité SMSSE régulée"
 * #568 ^property[=].valueCoding = $tre-r382-modalite-act-de-soin-amm#MO008
 * #568 ^property[+].code = #mentionAMM
 * #568 ^property[=].valueCoding = $tre-r383-mention-act-de-soin-amm#ME031
-* #568 ^property[+].code = #ptsAMM
+* #568 ^property[+].code = #pratiqueTherapeutiqueSpecifiqueAMM
 * #568 ^property[=].valueCoding = $tre-r384-pratique-therapeutique-specifique-act-de-soin-amm#PTS00
 * #568 ^property[+].code = #declarationAMM
 * #568 ^property[=].valueCoding = $tre-r385-declaration-act-de-soin-amm#DE000
@@ -9114,7 +9114,7 @@ Description: "Type activité SMSSE régulée"
 * #569 ^property[=].valueCoding = $tre-r382-modalite-act-de-soin-amm#MO008
 * #569 ^property[+].code = #mentionAMM
 * #569 ^property[=].valueCoding = $tre-r383-mention-act-de-soin-amm#ME032
-* #569 ^property[+].code = #ptsAMM
+* #569 ^property[+].code = #pratiqueTherapeutiqueSpecifiqueAMM
 * #569 ^property[=].valueCoding = $tre-r384-pratique-therapeutique-specifique-act-de-soin-amm#PTS01
 * #569 ^property[+].code = #declarationAMM
 * #569 ^property[=].valueCoding = $tre-r385-declaration-act-de-soin-amm#DE000
@@ -9133,7 +9133,7 @@ Description: "Type activité SMSSE régulée"
 * #570 ^property[=].valueCoding = $tre-r382-modalite-act-de-soin-amm#MO008
 * #570 ^property[+].code = #mentionAMM
 * #570 ^property[=].valueCoding = $tre-r383-mention-act-de-soin-amm#ME032
-* #570 ^property[+].code = #ptsAMM
+* #570 ^property[+].code = #pratiqueTherapeutiqueSpecifiqueAMM
 * #570 ^property[=].valueCoding = $tre-r384-pratique-therapeutique-specifique-act-de-soin-amm#PTS01
 * #570 ^property[+].code = #declarationAMM
 * #570 ^property[=].valueCoding = $tre-r385-declaration-act-de-soin-amm#DE013
@@ -9152,7 +9152,7 @@ Description: "Type activité SMSSE régulée"
 * #571 ^property[=].valueCoding = $tre-r382-modalite-act-de-soin-amm#MO008
 * #571 ^property[+].code = #mentionAMM
 * #571 ^property[=].valueCoding = $tre-r383-mention-act-de-soin-amm#ME032
-* #571 ^property[+].code = #ptsAMM
+* #571 ^property[+].code = #pratiqueTherapeutiqueSpecifiqueAMM
 * #571 ^property[=].valueCoding = $tre-r384-pratique-therapeutique-specifique-act-de-soin-amm#PTS02
 * #571 ^property[+].code = #declarationAMM
 * #571 ^property[=].valueCoding = $tre-r385-declaration-act-de-soin-amm#DE000
@@ -9171,7 +9171,7 @@ Description: "Type activité SMSSE régulée"
 * #572 ^property[=].valueCoding = $tre-r382-modalite-act-de-soin-amm#MO008
 * #572 ^property[+].code = #mentionAMM
 * #572 ^property[=].valueCoding = $tre-r383-mention-act-de-soin-amm#ME032
-* #572 ^property[+].code = #ptsAMM
+* #572 ^property[+].code = #pratiqueTherapeutiqueSpecifiqueAMM
 * #572 ^property[=].valueCoding = $tre-r384-pratique-therapeutique-specifique-act-de-soin-amm#PTS02
 * #572 ^property[+].code = #declarationAMM
 * #572 ^property[=].valueCoding = $tre-r385-declaration-act-de-soin-amm#DE013
@@ -9190,7 +9190,7 @@ Description: "Type activité SMSSE régulée"
 * #573 ^property[=].valueCoding = $tre-r382-modalite-act-de-soin-amm#MO008
 * #573 ^property[+].code = #mentionAMM
 * #573 ^property[=].valueCoding = $tre-r383-mention-act-de-soin-amm#ME032
-* #573 ^property[+].code = #ptsAMM
+* #573 ^property[+].code = #pratiqueTherapeutiqueSpecifiqueAMM
 * #573 ^property[=].valueCoding = $tre-r384-pratique-therapeutique-specifique-act-de-soin-amm#PTS03
 * #573 ^property[+].code = #declarationAMM
 * #573 ^property[=].valueCoding = $tre-r385-declaration-act-de-soin-amm#DE000
@@ -9209,7 +9209,7 @@ Description: "Type activité SMSSE régulée"
 * #574 ^property[=].valueCoding = $tre-r382-modalite-act-de-soin-amm#MO008
 * #574 ^property[+].code = #mentionAMM
 * #574 ^property[=].valueCoding = $tre-r383-mention-act-de-soin-amm#ME032
-* #574 ^property[+].code = #ptsAMM
+* #574 ^property[+].code = #pratiqueTherapeutiqueSpecifiqueAMM
 * #574 ^property[=].valueCoding = $tre-r384-pratique-therapeutique-specifique-act-de-soin-amm#PTS03
 * #574 ^property[+].code = #declarationAMM
 * #574 ^property[=].valueCoding = $tre-r385-declaration-act-de-soin-amm#DE013
@@ -9228,7 +9228,7 @@ Description: "Type activité SMSSE régulée"
 * #575 ^property[=].valueCoding = $tre-r382-modalite-act-de-soin-amm#MO008
 * #575 ^property[+].code = #mentionAMM
 * #575 ^property[=].valueCoding = $tre-r383-mention-act-de-soin-amm#ME032
-* #575 ^property[+].code = #ptsAMM
+* #575 ^property[+].code = #pratiqueTherapeutiqueSpecifiqueAMM
 * #575 ^property[=].valueCoding = $tre-r384-pratique-therapeutique-specifique-act-de-soin-amm#PTS04
 * #575 ^property[+].code = #declarationAMM
 * #575 ^property[=].valueCoding = $tre-r385-declaration-act-de-soin-amm#DE000
@@ -9247,7 +9247,7 @@ Description: "Type activité SMSSE régulée"
 * #576 ^property[=].valueCoding = $tre-r382-modalite-act-de-soin-amm#MO008
 * #576 ^property[+].code = #mentionAMM
 * #576 ^property[=].valueCoding = $tre-r383-mention-act-de-soin-amm#ME032
-* #576 ^property[+].code = #ptsAMM
+* #576 ^property[+].code = #pratiqueTherapeutiqueSpecifiqueAMM
 * #576 ^property[=].valueCoding = $tre-r384-pratique-therapeutique-specifique-act-de-soin-amm#PTS04
 * #576 ^property[+].code = #declarationAMM
 * #576 ^property[=].valueCoding = $tre-r385-declaration-act-de-soin-amm#DE013
@@ -9266,7 +9266,7 @@ Description: "Type activité SMSSE régulée"
 * #577 ^property[=].valueCoding = $tre-r382-modalite-act-de-soin-amm#MO008
 * #577 ^property[+].code = #mentionAMM
 * #577 ^property[=].valueCoding = $tre-r383-mention-act-de-soin-amm#ME032
-* #577 ^property[+].code = #ptsAMM
+* #577 ^property[+].code = #pratiqueTherapeutiqueSpecifiqueAMM
 * #577 ^property[=].valueCoding = $tre-r384-pratique-therapeutique-specifique-act-de-soin-amm#PTS05
 * #577 ^property[+].code = #declarationAMM
 * #577 ^property[=].valueCoding = $tre-r385-declaration-act-de-soin-amm#DE000
@@ -9285,7 +9285,7 @@ Description: "Type activité SMSSE régulée"
 * #578 ^property[=].valueCoding = $tre-r382-modalite-act-de-soin-amm#MO008
 * #578 ^property[+].code = #mentionAMM
 * #578 ^property[=].valueCoding = $tre-r383-mention-act-de-soin-amm#ME032
-* #578 ^property[+].code = #ptsAMM
+* #578 ^property[+].code = #pratiqueTherapeutiqueSpecifiqueAMM
 * #578 ^property[=].valueCoding = $tre-r384-pratique-therapeutique-specifique-act-de-soin-amm#PTS05
 * #578 ^property[+].code = #declarationAMM
 * #578 ^property[=].valueCoding = $tre-r385-declaration-act-de-soin-amm#DE013
@@ -9304,7 +9304,7 @@ Description: "Type activité SMSSE régulée"
 * #579 ^property[=].valueCoding = $tre-r382-modalite-act-de-soin-amm#MO008
 * #579 ^property[+].code = #mentionAMM
 * #579 ^property[=].valueCoding = $tre-r383-mention-act-de-soin-amm#ME032
-* #579 ^property[+].code = #ptsAMM
+* #579 ^property[+].code = #pratiqueTherapeutiqueSpecifiqueAMM
 * #579 ^property[=].valueCoding = $tre-r384-pratique-therapeutique-specifique-act-de-soin-amm#PTS06
 * #579 ^property[+].code = #declarationAMM
 * #579 ^property[=].valueCoding = $tre-r385-declaration-act-de-soin-amm#DE000
@@ -9323,7 +9323,7 @@ Description: "Type activité SMSSE régulée"
 * #580 ^property[=].valueCoding = $tre-r382-modalite-act-de-soin-amm#MO008
 * #580 ^property[+].code = #mentionAMM
 * #580 ^property[=].valueCoding = $tre-r383-mention-act-de-soin-amm#ME032
-* #580 ^property[+].code = #ptsAMM
+* #580 ^property[+].code = #pratiqueTherapeutiqueSpecifiqueAMM
 * #580 ^property[=].valueCoding = $tre-r384-pratique-therapeutique-specifique-act-de-soin-amm#PTS06
 * #580 ^property[+].code = #declarationAMM
 * #580 ^property[=].valueCoding = $tre-r385-declaration-act-de-soin-amm#DE013
@@ -9342,7 +9342,7 @@ Description: "Type activité SMSSE régulée"
 * #581 ^property[=].valueCoding = $tre-r382-modalite-act-de-soin-amm#MO008
 * #581 ^property[+].code = #mentionAMM
 * #581 ^property[=].valueCoding = $tre-r383-mention-act-de-soin-amm#ME033
-* #581 ^property[+].code = #ptsAMM
+* #581 ^property[+].code = #pratiqueTherapeutiqueSpecifiqueAMM
 * #581 ^property[=].valueCoding = $tre-r384-pratique-therapeutique-specifique-act-de-soin-amm#PTS00
 * #581 ^property[+].code = #declarationAMM
 * #581 ^property[=].valueCoding = $tre-r385-declaration-act-de-soin-amm#DE000
@@ -9361,7 +9361,7 @@ Description: "Type activité SMSSE régulée"
 * #582 ^property[=].valueCoding = $tre-r382-modalite-act-de-soin-amm#MO008
 * #582 ^property[+].code = #mentionAMM
 * #582 ^property[=].valueCoding = $tre-r383-mention-act-de-soin-amm#ME033
-* #582 ^property[+].code = #ptsAMM
+* #582 ^property[+].code = #pratiqueTherapeutiqueSpecifiqueAMM
 * #582 ^property[=].valueCoding = $tre-r384-pratique-therapeutique-specifique-act-de-soin-amm#PTS00
 * #582 ^property[+].code = #declarationAMM
 * #582 ^property[=].valueCoding = $tre-r385-declaration-act-de-soin-amm#DE013
@@ -9380,7 +9380,7 @@ Description: "Type activité SMSSE régulée"
 * #583 ^property[=].valueCoding = $tre-r382-modalite-act-de-soin-amm#MO008
 * #583 ^property[+].code = #mentionAMM
 * #583 ^property[=].valueCoding = $tre-r383-mention-act-de-soin-amm#ME034
-* #583 ^property[+].code = #ptsAMM
+* #583 ^property[+].code = #pratiqueTherapeutiqueSpecifiqueAMM
 * #583 ^property[=].valueCoding = $tre-r384-pratique-therapeutique-specifique-act-de-soin-amm#PTS00
 * #583 ^property[+].code = #declarationAMM
 * #583 ^property[=].valueCoding = $tre-r385-declaration-act-de-soin-amm#DE000
@@ -9399,7 +9399,7 @@ Description: "Type activité SMSSE régulée"
 * #584 ^property[=].valueCoding = $tre-r382-modalite-act-de-soin-amm#MO008
 * #584 ^property[+].code = #mentionAMM
 * #584 ^property[=].valueCoding = $tre-r383-mention-act-de-soin-amm#ME034
-* #584 ^property[+].code = #ptsAMM
+* #584 ^property[+].code = #pratiqueTherapeutiqueSpecifiqueAMM
 * #584 ^property[=].valueCoding = $tre-r384-pratique-therapeutique-specifique-act-de-soin-amm#PTS00
 * #584 ^property[+].code = #declarationAMM
 * #584 ^property[=].valueCoding = $tre-r385-declaration-act-de-soin-amm#DE013
@@ -9418,7 +9418,7 @@ Description: "Type activité SMSSE régulée"
 * #585 ^property[=].valueCoding = $tre-r382-modalite-act-de-soin-amm#MO008
 * #585 ^property[+].code = #mentionAMM
 * #585 ^property[=].valueCoding = $tre-r383-mention-act-de-soin-amm#ME035
-* #585 ^property[+].code = #ptsAMM
+* #585 ^property[+].code = #pratiqueTherapeutiqueSpecifiqueAMM
 * #585 ^property[=].valueCoding = $tre-r384-pratique-therapeutique-specifique-act-de-soin-amm#PTS00
 * #585 ^property[+].code = #declarationAMM
 * #585 ^property[=].valueCoding = $tre-r385-declaration-act-de-soin-amm#DE000
@@ -9437,7 +9437,7 @@ Description: "Type activité SMSSE régulée"
 * #586 ^property[=].valueCoding = $tre-r382-modalite-act-de-soin-amm#MO008
 * #586 ^property[+].code = #mentionAMM
 * #586 ^property[=].valueCoding = $tre-r383-mention-act-de-soin-amm#ME035
-* #586 ^property[+].code = #ptsAMM
+* #586 ^property[+].code = #pratiqueTherapeutiqueSpecifiqueAMM
 * #586 ^property[=].valueCoding = $tre-r384-pratique-therapeutique-specifique-act-de-soin-amm#PTS00
 * #586 ^property[+].code = #declarationAMM
 * #586 ^property[=].valueCoding = $tre-r385-declaration-act-de-soin-amm#DE013
@@ -9456,7 +9456,7 @@ Description: "Type activité SMSSE régulée"
 * #587 ^property[=].valueCoding = $tre-r382-modalite-act-de-soin-amm#MO008
 * #587 ^property[+].code = #mentionAMM
 * #587 ^property[=].valueCoding = $tre-r383-mention-act-de-soin-amm#ME036
-* #587 ^property[+].code = #ptsAMM
+* #587 ^property[+].code = #pratiqueTherapeutiqueSpecifiqueAMM
 * #587 ^property[=].valueCoding = $tre-r384-pratique-therapeutique-specifique-act-de-soin-amm#PTS07
 * #587 ^property[+].code = #declarationAMM
 * #587 ^property[=].valueCoding = $tre-r385-declaration-act-de-soin-amm#DE000
@@ -9475,7 +9475,7 @@ Description: "Type activité SMSSE régulée"
 * #588 ^property[=].valueCoding = $tre-r382-modalite-act-de-soin-amm#MO008
 * #588 ^property[+].code = #mentionAMM
 * #588 ^property[=].valueCoding = $tre-r383-mention-act-de-soin-amm#ME036
-* #588 ^property[+].code = #ptsAMM
+* #588 ^property[+].code = #pratiqueTherapeutiqueSpecifiqueAMM
 * #588 ^property[=].valueCoding = $tre-r384-pratique-therapeutique-specifique-act-de-soin-amm#PTS07
 * #588 ^property[+].code = #declarationAMM
 * #588 ^property[=].valueCoding = $tre-r385-declaration-act-de-soin-amm#DE013
@@ -9494,7 +9494,7 @@ Description: "Type activité SMSSE régulée"
 * #589 ^property[=].valueCoding = $tre-r382-modalite-act-de-soin-amm#MO008
 * #589 ^property[+].code = #mentionAMM
 * #589 ^property[=].valueCoding = $tre-r383-mention-act-de-soin-amm#ME036
-* #589 ^property[+].code = #ptsAMM
+* #589 ^property[+].code = #pratiqueTherapeutiqueSpecifiqueAMM
 * #589 ^property[=].valueCoding = $tre-r384-pratique-therapeutique-specifique-act-de-soin-amm#PTS08
 * #589 ^property[+].code = #declarationAMM
 * #589 ^property[=].valueCoding = $tre-r385-declaration-act-de-soin-amm#DE000
@@ -9513,7 +9513,7 @@ Description: "Type activité SMSSE régulée"
 * #590 ^property[=].valueCoding = $tre-r382-modalite-act-de-soin-amm#MO008
 * #590 ^property[+].code = #mentionAMM
 * #590 ^property[=].valueCoding = $tre-r383-mention-act-de-soin-amm#ME036
-* #590 ^property[+].code = #ptsAMM
+* #590 ^property[+].code = #pratiqueTherapeutiqueSpecifiqueAMM
 * #590 ^property[=].valueCoding = $tre-r384-pratique-therapeutique-specifique-act-de-soin-amm#PTS08
 * #590 ^property[+].code = #declarationAMM
 * #590 ^property[=].valueCoding = $tre-r385-declaration-act-de-soin-amm#DE013
@@ -9532,7 +9532,7 @@ Description: "Type activité SMSSE régulée"
 * #591 ^property[=].valueCoding = $tre-r382-modalite-act-de-soin-amm#MO008
 * #591 ^property[+].code = #mentionAMM
 * #591 ^property[=].valueCoding = $tre-r383-mention-act-de-soin-amm#ME037
-* #591 ^property[+].code = #ptsAMM
+* #591 ^property[+].code = #pratiqueTherapeutiqueSpecifiqueAMM
 * #591 ^property[=].valueCoding = $tre-r384-pratique-therapeutique-specifique-act-de-soin-amm#PTS00
 * #591 ^property[+].code = #declarationAMM
 * #591 ^property[=].valueCoding = $tre-r385-declaration-act-de-soin-amm#DE000
@@ -9551,7 +9551,7 @@ Description: "Type activité SMSSE régulée"
 * #592 ^property[=].valueCoding = $tre-r382-modalite-act-de-soin-amm#MO008
 * #592 ^property[+].code = #mentionAMM
 * #592 ^property[=].valueCoding = $tre-r383-mention-act-de-soin-amm#ME037
-* #592 ^property[+].code = #ptsAMM
+* #592 ^property[+].code = #pratiqueTherapeutiqueSpecifiqueAMM
 * #592 ^property[=].valueCoding = $tre-r384-pratique-therapeutique-specifique-act-de-soin-amm#PTS00
 * #592 ^property[+].code = #declarationAMM
 * #592 ^property[=].valueCoding = $tre-r385-declaration-act-de-soin-amm#DE014
@@ -9570,7 +9570,7 @@ Description: "Type activité SMSSE régulée"
 * #593 ^property[=].valueCoding = $tre-r382-modalite-act-de-soin-amm#MO009
 * #593 ^property[+].code = #mentionAMM
 * #593 ^property[=].valueCoding = $tre-r383-mention-act-de-soin-amm#ME038
-* #593 ^property[+].code = #ptsAMM
+* #593 ^property[+].code = #pratiqueTherapeutiqueSpecifiqueAMM
 * #593 ^property[=].valueCoding = $tre-r384-pratique-therapeutique-specifique-act-de-soin-amm#PTS00
 * #593 ^property[+].code = #declarationAMM
 * #593 ^property[=].valueCoding = $tre-r385-declaration-act-de-soin-amm#DE000
@@ -9589,7 +9589,7 @@ Description: "Type activité SMSSE régulée"
 * #594 ^property[=].valueCoding = $tre-r382-modalite-act-de-soin-amm#MO009
 * #594 ^property[+].code = #mentionAMM
 * #594 ^property[=].valueCoding = $tre-r383-mention-act-de-soin-amm#ME038
-* #594 ^property[+].code = #ptsAMM
+* #594 ^property[+].code = #pratiqueTherapeutiqueSpecifiqueAMM
 * #594 ^property[=].valueCoding = $tre-r384-pratique-therapeutique-specifique-act-de-soin-amm#PTS00
 * #594 ^property[+].code = #declarationAMM
 * #594 ^property[=].valueCoding = $tre-r385-declaration-act-de-soin-amm#DE012
@@ -9608,7 +9608,7 @@ Description: "Type activité SMSSE régulée"
 * #595 ^property[=].valueCoding = $tre-r382-modalite-act-de-soin-amm#MO009
 * #595 ^property[+].code = #mentionAMM
 * #595 ^property[=].valueCoding = $tre-r383-mention-act-de-soin-amm#ME039
-* #595 ^property[+].code = #ptsAMM
+* #595 ^property[+].code = #pratiqueTherapeutiqueSpecifiqueAMM
 * #595 ^property[=].valueCoding = $tre-r384-pratique-therapeutique-specifique-act-de-soin-amm#PTS00
 * #595 ^property[+].code = #declarationAMM
 * #595 ^property[=].valueCoding = $tre-r385-declaration-act-de-soin-amm#DE000
@@ -9627,7 +9627,7 @@ Description: "Type activité SMSSE régulée"
 * #596 ^property[=].valueCoding = $tre-r382-modalite-act-de-soin-amm#MO009
 * #596 ^property[+].code = #mentionAMM
 * #596 ^property[=].valueCoding = $tre-r383-mention-act-de-soin-amm#ME040
-* #596 ^property[+].code = #ptsAMM
+* #596 ^property[+].code = #pratiqueTherapeutiqueSpecifiqueAMM
 * #596 ^property[=].valueCoding = $tre-r384-pratique-therapeutique-specifique-act-de-soin-amm#PTS00
 * #596 ^property[+].code = #declarationAMM
 * #596 ^property[=].valueCoding = $tre-r385-declaration-act-de-soin-amm#DE000
@@ -9646,7 +9646,7 @@ Description: "Type activité SMSSE régulée"
 * #597 ^property[=].valueCoding = $tre-r382-modalite-act-de-soin-amm#MO009
 * #597 ^property[+].code = #mentionAMM
 * #597 ^property[=].valueCoding = $tre-r383-mention-act-de-soin-amm#ME041
-* #597 ^property[+].code = #ptsAMM
+* #597 ^property[+].code = #pratiqueTherapeutiqueSpecifiqueAMM
 * #597 ^property[=].valueCoding = $tre-r384-pratique-therapeutique-specifique-act-de-soin-amm#PTS00
 * #597 ^property[+].code = #declarationAMM
 * #597 ^property[=].valueCoding = $tre-r385-declaration-act-de-soin-amm#DE000
@@ -9665,7 +9665,7 @@ Description: "Type activité SMSSE régulée"
 * #598 ^property[=].valueCoding = $tre-r382-modalite-act-de-soin-amm#MO010
 * #598 ^property[+].code = #mentionAMM
 * #598 ^property[=].valueCoding = $tre-r383-mention-act-de-soin-amm#ME042
-* #598 ^property[+].code = #ptsAMM
+* #598 ^property[+].code = #pratiqueTherapeutiqueSpecifiqueAMM
 * #598 ^property[=].valueCoding = $tre-r384-pratique-therapeutique-specifique-act-de-soin-amm#PTS00
 * #598 ^property[+].code = #declarationAMM
 * #598 ^property[=].valueCoding = $tre-r385-declaration-act-de-soin-amm#DE000
@@ -9684,7 +9684,7 @@ Description: "Type activité SMSSE régulée"
 * #599 ^property[=].valueCoding = $tre-r382-modalite-act-de-soin-amm#MO010
 * #599 ^property[+].code = #mentionAMM
 * #599 ^property[=].valueCoding = $tre-r383-mention-act-de-soin-amm#ME043
-* #599 ^property[+].code = #ptsAMM
+* #599 ^property[+].code = #pratiqueTherapeutiqueSpecifiqueAMM
 * #599 ^property[=].valueCoding = $tre-r384-pratique-therapeutique-specifique-act-de-soin-amm#PTS00
 * #599 ^property[+].code = #declarationAMM
 * #599 ^property[=].valueCoding = $tre-r385-declaration-act-de-soin-amm#DE000
@@ -9703,7 +9703,7 @@ Description: "Type activité SMSSE régulée"
 * #600 ^property[=].valueCoding = $tre-r382-modalite-act-de-soin-amm#MO010
 * #600 ^property[+].code = #mentionAMM
 * #600 ^property[=].valueCoding = $tre-r383-mention-act-de-soin-amm#ME044
-* #600 ^property[+].code = #ptsAMM
+* #600 ^property[+].code = #pratiqueTherapeutiqueSpecifiqueAMM
 * #600 ^property[=].valueCoding = $tre-r384-pratique-therapeutique-specifique-act-de-soin-amm#PTS00
 * #600 ^property[+].code = #declarationAMM
 * #600 ^property[=].valueCoding = $tre-r385-declaration-act-de-soin-amm#DE000
@@ -9722,7 +9722,7 @@ Description: "Type activité SMSSE régulée"
 * #601 ^property[=].valueCoding = $tre-r382-modalite-act-de-soin-amm#MO026
 * #601 ^property[+].code = #mentionAMM
 * #601 ^property[=].valueCoding = $tre-r383-mention-act-de-soin-amm#ME000
-* #601 ^property[+].code = #ptsAMM
+* #601 ^property[+].code = #pratiqueTherapeutiqueSpecifiqueAMM
 * #601 ^property[=].valueCoding = $tre-r384-pratique-therapeutique-specifique-act-de-soin-amm#PTS00
 * #601 ^property[+].code = #declarationAMM
 * #601 ^property[=].valueCoding = $tre-r385-declaration-act-de-soin-amm#DE000
@@ -9741,7 +9741,7 @@ Description: "Type activité SMSSE régulée"
 * #602 ^property[=].valueCoding = $tre-r382-modalite-act-de-soin-amm#MO027
 * #602 ^property[+].code = #mentionAMM
 * #602 ^property[=].valueCoding = $tre-r383-mention-act-de-soin-amm#ME000
-* #602 ^property[+].code = #ptsAMM
+* #602 ^property[+].code = #pratiqueTherapeutiqueSpecifiqueAMM
 * #602 ^property[=].valueCoding = $tre-r384-pratique-therapeutique-specifique-act-de-soin-amm#PTS00
 * #602 ^property[+].code = #declarationAMM
 * #602 ^property[=].valueCoding = $tre-r385-declaration-act-de-soin-amm#DE000
@@ -9760,7 +9760,7 @@ Description: "Type activité SMSSE régulée"
 * #603 ^property[=].valueCoding = $tre-r382-modalite-act-de-soin-amm#MO000
 * #603 ^property[+].code = #mentionAMM
 * #603 ^property[=].valueCoding = $tre-r383-mention-act-de-soin-amm#ME001
-* #603 ^property[+].code = #ptsAMM
+* #603 ^property[+].code = #pratiqueTherapeutiqueSpecifiqueAMM
 * #603 ^property[=].valueCoding = $tre-r384-pratique-therapeutique-specifique-act-de-soin-amm#PTS00
 * #603 ^property[+].code = #declarationAMM
 * #603 ^property[=].valueCoding = $tre-r385-declaration-act-de-soin-amm#DE026
@@ -9779,7 +9779,7 @@ Description: "Type activité SMSSE régulée"
 * #604 ^property[=].valueCoding = $tre-r382-modalite-act-de-soin-amm#MO000
 * #604 ^property[+].code = #mentionAMM
 * #604 ^property[=].valueCoding = $tre-r383-mention-act-de-soin-amm#ME002
-* #604 ^property[+].code = #ptsAMM
+* #604 ^property[+].code = #pratiqueTherapeutiqueSpecifiqueAMM
 * #604 ^property[=].valueCoding = $tre-r384-pratique-therapeutique-specifique-act-de-soin-amm#PTS00
 * #604 ^property[+].code = #declarationAMM
 * #604 ^property[=].valueCoding = $tre-r385-declaration-act-de-soin-amm#DE026
@@ -9798,7 +9798,7 @@ Description: "Type activité SMSSE régulée"
 * #605 ^property[=].valueCoding = $tre-r382-modalite-act-de-soin-amm#MO000
 * #605 ^property[+].code = #mentionAMM
 * #605 ^property[=].valueCoding = $tre-r383-mention-act-de-soin-amm#ME003
-* #605 ^property[+].code = #ptsAMM
+* #605 ^property[+].code = #pratiqueTherapeutiqueSpecifiqueAMM
 * #605 ^property[=].valueCoding = $tre-r384-pratique-therapeutique-specifique-act-de-soin-amm#PTS00
 * #605 ^property[+].code = #declarationAMM
 * #605 ^property[=].valueCoding = $tre-r385-declaration-act-de-soin-amm#DE026
@@ -9817,7 +9817,7 @@ Description: "Type activité SMSSE régulée"
 * #606 ^property[=].valueCoding = $tre-r382-modalite-act-de-soin-amm#MO000
 * #606 ^property[+].code = #mentionAMM
 * #606 ^property[=].valueCoding = $tre-r383-mention-act-de-soin-amm#ME004
-* #606 ^property[+].code = #ptsAMM
+* #606 ^property[+].code = #pratiqueTherapeutiqueSpecifiqueAMM
 * #606 ^property[=].valueCoding = $tre-r384-pratique-therapeutique-specifique-act-de-soin-amm#PTS00
 * #606 ^property[+].code = #declarationAMM
 * #606 ^property[=].valueCoding = $tre-r385-declaration-act-de-soin-amm#DE026
@@ -9836,7 +9836,7 @@ Description: "Type activité SMSSE régulée"
 * #607 ^property[=].valueCoding = $tre-r382-modalite-act-de-soin-amm#MO060
 * #607 ^property[+].code = #mentionAMM
 * #607 ^property[=].valueCoding = $tre-r383-mention-act-de-soin-amm#ME000
-* #607 ^property[+].code = #ptsAMM
+* #607 ^property[+].code = #pratiqueTherapeutiqueSpecifiqueAMM
 * #607 ^property[=].valueCoding = $tre-r384-pratique-therapeutique-specifique-act-de-soin-amm#PTS00
 * #607 ^property[+].code = #declarationAMM
 * #607 ^property[=].valueCoding = $tre-r385-declaration-act-de-soin-amm#DE000
@@ -9855,7 +9855,7 @@ Description: "Type activité SMSSE régulée"
 * #608 ^property[=].valueCoding = $tre-r382-modalite-act-de-soin-amm#MOMAN
 * #608 ^property[+].code = #mentionAMM
 * #608 ^property[=].valueCoding = $tre-r383-mention-act-de-soin-amm#ME000
-* #608 ^property[+].code = #ptsAMM
+* #608 ^property[+].code = #pratiqueTherapeutiqueSpecifiqueAMM
 * #608 ^property[=].valueCoding = $tre-r384-pratique-therapeutique-specifique-act-de-soin-amm#PTS00
 * #608 ^property[+].code = #declarationAMM
 * #608 ^property[=].valueCoding = $tre-r385-declaration-act-de-soin-amm#DE000
@@ -9874,7 +9874,7 @@ Description: "Type activité SMSSE régulée"
 * #609 ^property[=].valueCoding = $tre-r382-modalite-act-de-soin-amm#MO062
 * #609 ^property[+].code = #mentionAMM
 * #609 ^property[=].valueCoding = $tre-r383-mention-act-de-soin-amm#ME000
-* #609 ^property[+].code = #ptsAMM
+* #609 ^property[+].code = #pratiqueTherapeutiqueSpecifiqueAMM
 * #609 ^property[=].valueCoding = $tre-r384-pratique-therapeutique-specifique-act-de-soin-amm#PTS00
 * #609 ^property[+].code = #declarationAMM
 * #609 ^property[=].valueCoding = $tre-r385-declaration-act-de-soin-amm#DE000
@@ -9893,7 +9893,7 @@ Description: "Type activité SMSSE régulée"
 * #610 ^property[=].valueCoding = $tre-r382-modalite-act-de-soin-amm#MOMAL
 * #610 ^property[+].code = #mentionAMM
 * #610 ^property[=].valueCoding = $tre-r383-mention-act-de-soin-amm#ME000
-* #610 ^property[+].code = #ptsAMM
+* #610 ^property[+].code = #pratiqueTherapeutiqueSpecifiqueAMM
 * #610 ^property[=].valueCoding = $tre-r384-pratique-therapeutique-specifique-act-de-soin-amm#PTS00
 * #610 ^property[+].code = #declarationAMM
 * #610 ^property[=].valueCoding = $tre-r385-declaration-act-de-soin-amm#DE000
@@ -9912,7 +9912,7 @@ Description: "Type activité SMSSE régulée"
 * #611 ^property[=].valueCoding = $tre-r382-modalite-act-de-soin-amm#MOMAM
 * #611 ^property[+].code = #mentionAMM
 * #611 ^property[=].valueCoding = $tre-r383-mention-act-de-soin-amm#ME000
-* #611 ^property[+].code = #ptsAMM
+* #611 ^property[+].code = #pratiqueTherapeutiqueSpecifiqueAMM
 * #611 ^property[=].valueCoding = $tre-r384-pratique-therapeutique-specifique-act-de-soin-amm#PTS00
 * #611 ^property[+].code = #declarationAMM
 * #611 ^property[=].valueCoding = $tre-r385-declaration-act-de-soin-amm#DE000
@@ -9931,7 +9931,7 @@ Description: "Type activité SMSSE régulée"
 * #612 ^property[=].valueCoding = $tre-r382-modalite-act-de-soin-amm#MOMAP
 * #612 ^property[+].code = #mentionAMM
 * #612 ^property[=].valueCoding = $tre-r383-mention-act-de-soin-amm#ME000
-* #612 ^property[+].code = #ptsAMM
+* #612 ^property[+].code = #pratiqueTherapeutiqueSpecifiqueAMM
 * #612 ^property[=].valueCoding = $tre-r384-pratique-therapeutique-specifique-act-de-soin-amm#PTS00
 * #612 ^property[+].code = #declarationAMM
 * #612 ^property[=].valueCoding = $tre-r385-declaration-act-de-soin-amm#DE000
@@ -9950,7 +9950,7 @@ Description: "Type activité SMSSE régulée"
 * #613 ^property[=].valueCoding = $tre-r382-modalite-act-de-soin-amm#MO000
 * #613 ^property[+].code = #mentionAMM
 * #613 ^property[=].valueCoding = $tre-r383-mention-act-de-soin-amm#ME045
-* #613 ^property[+].code = #ptsAMM
+* #613 ^property[+].code = #pratiqueTherapeutiqueSpecifiqueAMM
 * #613 ^property[=].valueCoding = $tre-r384-pratique-therapeutique-specifique-act-de-soin-amm#PTS00
 * #613 ^property[+].code = #declarationAMM
 * #613 ^property[=].valueCoding = $tre-r385-declaration-act-de-soin-amm#DE000
@@ -9969,7 +9969,7 @@ Description: "Type activité SMSSE régulée"
 * #614 ^property[=].valueCoding = $tre-r382-modalite-act-de-soin-amm#MO000
 * #614 ^property[+].code = #mentionAMM
 * #614 ^property[=].valueCoding = $tre-r383-mention-act-de-soin-amm#ME046
-* #614 ^property[+].code = #ptsAMM
+* #614 ^property[+].code = #pratiqueTherapeutiqueSpecifiqueAMM
 * #614 ^property[=].valueCoding = $tre-r384-pratique-therapeutique-specifique-act-de-soin-amm#PTS09
 * #614 ^property[+].code = #declarationAMM
 * #614 ^property[=].valueCoding = $tre-r385-declaration-act-de-soin-amm#DE000
@@ -9988,7 +9988,7 @@ Description: "Type activité SMSSE régulée"
 * #615 ^property[=].valueCoding = $tre-r382-modalite-act-de-soin-amm#MO000
 * #615 ^property[+].code = #mentionAMM
 * #615 ^property[=].valueCoding = $tre-r383-mention-act-de-soin-amm#ME046
-* #615 ^property[+].code = #ptsAMM
+* #615 ^property[+].code = #pratiqueTherapeutiqueSpecifiqueAMM
 * #615 ^property[=].valueCoding = $tre-r384-pratique-therapeutique-specifique-act-de-soin-amm#PTS10
 * #615 ^property[+].code = #declarationAMM
 * #615 ^property[=].valueCoding = $tre-r385-declaration-act-de-soin-amm#DE000
@@ -10007,7 +10007,7 @@ Description: "Type activité SMSSE régulée"
 * #616 ^property[=].valueCoding = $tre-r382-modalite-act-de-soin-amm#MO000
 * #616 ^property[+].code = #mentionAMM
 * #616 ^property[=].valueCoding = $tre-r383-mention-act-de-soin-amm#ME047
-* #616 ^property[+].code = #ptsAMM
+* #616 ^property[+].code = #pratiqueTherapeutiqueSpecifiqueAMM
 * #616 ^property[=].valueCoding = $tre-r384-pratique-therapeutique-specifique-act-de-soin-amm#PTS00
 * #616 ^property[+].code = #declarationAMM
 * #616 ^property[=].valueCoding = $tre-r385-declaration-act-de-soin-amm#DE000
@@ -10026,7 +10026,7 @@ Description: "Type activité SMSSE régulée"
 * #617 ^property[=].valueCoding = $tre-r382-modalite-act-de-soin-amm#MO000
 * #617 ^property[+].code = #mentionAMM
 * #617 ^property[=].valueCoding = $tre-r383-mention-act-de-soin-amm#ME048
-* #617 ^property[+].code = #ptsAMM
+* #617 ^property[+].code = #pratiqueTherapeutiqueSpecifiqueAMM
 * #617 ^property[=].valueCoding = $tre-r384-pratique-therapeutique-specifique-act-de-soin-amm#PTS00
 * #617 ^property[+].code = #declarationAMM
 * #617 ^property[=].valueCoding = $tre-r385-declaration-act-de-soin-amm#DE000
@@ -10045,7 +10045,7 @@ Description: "Type activité SMSSE régulée"
 * #618 ^property[=].valueCoding = $tre-r382-modalite-act-de-soin-amm#MO000
 * #618 ^property[+].code = #mentionAMM
 * #618 ^property[=].valueCoding = $tre-r383-mention-act-de-soin-amm#ME007
-* #618 ^property[+].code = #ptsAMM
+* #618 ^property[+].code = #pratiqueTherapeutiqueSpecifiqueAMM
 * #618 ^property[=].valueCoding = $tre-r384-pratique-therapeutique-specifique-act-de-soin-amm#PTS00
 * #618 ^property[+].code = #declarationAMM
 * #618 ^property[=].valueCoding = $tre-r385-declaration-act-de-soin-amm#DE000
@@ -10064,7 +10064,7 @@ Description: "Type activité SMSSE régulée"
 * #619 ^property[=].valueCoding = $tre-r382-modalite-act-de-soin-amm#MO000
 * #619 ^property[+].code = #mentionAMM
 * #619 ^property[=].valueCoding = $tre-r383-mention-act-de-soin-amm#ME008
-* #619 ^property[+].code = #ptsAMM
+* #619 ^property[+].code = #pratiqueTherapeutiqueSpecifiqueAMM
 * #619 ^property[=].valueCoding = $tre-r384-pratique-therapeutique-specifique-act-de-soin-amm#PTS00
 * #619 ^property[+].code = #declarationAMM
 * #619 ^property[=].valueCoding = $tre-r385-declaration-act-de-soin-amm#DE001
@@ -10083,7 +10083,7 @@ Description: "Type activité SMSSE régulée"
 * #620 ^property[=].valueCoding = $tre-r382-modalite-act-de-soin-amm#MO000
 * #620 ^property[+].code = #mentionAMM
 * #620 ^property[=].valueCoding = $tre-r383-mention-act-de-soin-amm#ME008
-* #620 ^property[+].code = #ptsAMM
+* #620 ^property[+].code = #pratiqueTherapeutiqueSpecifiqueAMM
 * #620 ^property[=].valueCoding = $tre-r384-pratique-therapeutique-specifique-act-de-soin-amm#PTS00
 * #620 ^property[+].code = #declarationAMM
 * #620 ^property[=].valueCoding = $tre-r385-declaration-act-de-soin-amm#DE002
@@ -10102,7 +10102,7 @@ Description: "Type activité SMSSE régulée"
 * #621 ^property[=].valueCoding = $tre-r382-modalite-act-de-soin-amm#MO000
 * #621 ^property[+].code = #mentionAMM
 * #621 ^property[=].valueCoding = $tre-r383-mention-act-de-soin-amm#ME008
-* #621 ^property[+].code = #ptsAMM
+* #621 ^property[+].code = #pratiqueTherapeutiqueSpecifiqueAMM
 * #621 ^property[=].valueCoding = $tre-r384-pratique-therapeutique-specifique-act-de-soin-amm#PTS00
 * #621 ^property[+].code = #declarationAMM
 * #621 ^property[=].valueCoding = $tre-r385-declaration-act-de-soin-amm#DE003
@@ -10121,7 +10121,7 @@ Description: "Type activité SMSSE régulée"
 * #622 ^property[=].valueCoding = $tre-r382-modalite-act-de-soin-amm#MO000
 * #622 ^property[+].code = #mentionAMM
 * #622 ^property[=].valueCoding = $tre-r383-mention-act-de-soin-amm#ME008
-* #622 ^property[+].code = #ptsAMM
+* #622 ^property[+].code = #pratiqueTherapeutiqueSpecifiqueAMM
 * #622 ^property[=].valueCoding = $tre-r384-pratique-therapeutique-specifique-act-de-soin-amm#PTS00
 * #622 ^property[+].code = #declarationAMM
 * #622 ^property[=].valueCoding = $tre-r385-declaration-act-de-soin-amm#DE004
@@ -10140,7 +10140,7 @@ Description: "Type activité SMSSE régulée"
 * #623 ^property[=].valueCoding = $tre-r382-modalite-act-de-soin-amm#MO000
 * #623 ^property[+].code = #mentionAMM
 * #623 ^property[=].valueCoding = $tre-r383-mention-act-de-soin-amm#ME050
-* #623 ^property[+].code = #ptsAMM
+* #623 ^property[+].code = #pratiqueTherapeutiqueSpecifiqueAMM
 * #623 ^property[=].valueCoding = $tre-r384-pratique-therapeutique-specifique-act-de-soin-amm#PTS00
 * #623 ^property[+].code = #declarationAMM
 * #623 ^property[=].valueCoding = $tre-r385-declaration-act-de-soin-amm#DE000
@@ -10159,7 +10159,7 @@ Description: "Type activité SMSSE régulée"
 * #624 ^property[=].valueCoding = $tre-r382-modalite-act-de-soin-amm#MO000
 * #624 ^property[+].code = #mentionAMM
 * #624 ^property[=].valueCoding = $tre-r383-mention-act-de-soin-amm#ME059
-* #624 ^property[+].code = #ptsAMM
+* #624 ^property[+].code = #pratiqueTherapeutiqueSpecifiqueAMM
 * #624 ^property[=].valueCoding = $tre-r384-pratique-therapeutique-specifique-act-de-soin-amm#PTS00
 * #624 ^property[+].code = #declarationAMM
 * #624 ^property[=].valueCoding = $tre-r385-declaration-act-de-soin-amm#DE000
@@ -10178,7 +10178,7 @@ Description: "Type activité SMSSE régulée"
 * #625 ^property[=].valueCoding = $tre-r382-modalite-act-de-soin-amm#MO000
 * #625 ^property[+].code = #mentionAMM
 * #625 ^property[=].valueCoding = $tre-r383-mention-act-de-soin-amm#ME051
-* #625 ^property[+].code = #ptsAMM
+* #625 ^property[+].code = #pratiqueTherapeutiqueSpecifiqueAMM
 * #625 ^property[=].valueCoding = $tre-r384-pratique-therapeutique-specifique-act-de-soin-amm#PTS00
 * #625 ^property[+].code = #declarationAMM
 * #625 ^property[=].valueCoding = $tre-r385-declaration-act-de-soin-amm#DE000
@@ -10197,7 +10197,7 @@ Description: "Type activité SMSSE régulée"
 * #626 ^property[=].valueCoding = $tre-r382-modalite-act-de-soin-amm#MO000
 * #626 ^property[+].code = #mentionAMM
 * #626 ^property[=].valueCoding = $tre-r383-mention-act-de-soin-amm#ME052
-* #626 ^property[+].code = #ptsAMM
+* #626 ^property[+].code = #pratiqueTherapeutiqueSpecifiqueAMM
 * #626 ^property[=].valueCoding = $tre-r384-pratique-therapeutique-specifique-act-de-soin-amm#PTS00
 * #626 ^property[+].code = #declarationAMM
 * #626 ^property[=].valueCoding = $tre-r385-declaration-act-de-soin-amm#DE000
@@ -10216,7 +10216,7 @@ Description: "Type activité SMSSE régulée"
 * #627 ^property[=].valueCoding = $tre-r382-modalite-act-de-soin-amm#MO000
 * #627 ^property[+].code = #mentionAMM
 * #627 ^property[=].valueCoding = $tre-r383-mention-act-de-soin-amm#ME053
-* #627 ^property[+].code = #ptsAMM
+* #627 ^property[+].code = #pratiqueTherapeutiqueSpecifiqueAMM
 * #627 ^property[=].valueCoding = $tre-r384-pratique-therapeutique-specifique-act-de-soin-amm#PTS00
 * #627 ^property[+].code = #declarationAMM
 * #627 ^property[=].valueCoding = $tre-r385-declaration-act-de-soin-amm#DE000
@@ -10235,7 +10235,7 @@ Description: "Type activité SMSSE régulée"
 * #628 ^property[=].valueCoding = $tre-r382-modalite-act-de-soin-amm#MO000
 * #628 ^property[+].code = #mentionAMM
 * #628 ^property[=].valueCoding = $tre-r383-mention-act-de-soin-amm#ME054
-* #628 ^property[+].code = #ptsAMM
+* #628 ^property[+].code = #pratiqueTherapeutiqueSpecifiqueAMM
 * #628 ^property[=].valueCoding = $tre-r384-pratique-therapeutique-specifique-act-de-soin-amm#PTS00
 * #628 ^property[+].code = #declarationAMM
 * #628 ^property[=].valueCoding = $tre-r385-declaration-act-de-soin-amm#DE000
@@ -10254,7 +10254,7 @@ Description: "Type activité SMSSE régulée"
 * #629 ^property[=].valueCoding = $tre-r382-modalite-act-de-soin-amm#MO000
 * #629 ^property[+].code = #mentionAMM
 * #629 ^property[=].valueCoding = $tre-r383-mention-act-de-soin-amm#ME055
-* #629 ^property[+].code = #ptsAMM
+* #629 ^property[+].code = #pratiqueTherapeutiqueSpecifiqueAMM
 * #629 ^property[=].valueCoding = $tre-r384-pratique-therapeutique-specifique-act-de-soin-amm#PTS00
 * #629 ^property[+].code = #declarationAMM
 * #629 ^property[=].valueCoding = $tre-r385-declaration-act-de-soin-amm#DE000
@@ -10273,7 +10273,7 @@ Description: "Type activité SMSSE régulée"
 * #630 ^property[=].valueCoding = $tre-r382-modalite-act-de-soin-amm#MO000
 * #630 ^property[+].code = #mentionAMM
 * #630 ^property[=].valueCoding = $tre-r383-mention-act-de-soin-amm#ME057
-* #630 ^property[+].code = #ptsAMM
+* #630 ^property[+].code = #pratiqueTherapeutiqueSpecifiqueAMM
 * #630 ^property[=].valueCoding = $tre-r384-pratique-therapeutique-specifique-act-de-soin-amm#PTS00
 * #630 ^property[+].code = #declarationAMM
 * #630 ^property[=].valueCoding = $tre-r385-declaration-act-de-soin-amm#DE000
@@ -10292,7 +10292,7 @@ Description: "Type activité SMSSE régulée"
 * #631 ^property[=].valueCoding = $tre-r382-modalite-act-de-soin-amm#MO000
 * #631 ^property[+].code = #mentionAMM
 * #631 ^property[=].valueCoding = $tre-r383-mention-act-de-soin-amm#ME058
-* #631 ^property[+].code = #ptsAMM
+* #631 ^property[+].code = #pratiqueTherapeutiqueSpecifiqueAMM
 * #631 ^property[=].valueCoding = $tre-r384-pratique-therapeutique-specifique-act-de-soin-amm#PTS00
 * #631 ^property[+].code = #declarationAMM
 * #631 ^property[=].valueCoding = $tre-r385-declaration-act-de-soin-amm#DE000
@@ -10311,7 +10311,7 @@ Description: "Type activité SMSSE régulée"
 * #632 ^property[=].valueCoding = $tre-r382-modalite-act-de-soin-amm#MO007
 * #632 ^property[+].code = #mentionAMM
 * #632 ^property[=].valueCoding = $tre-r383-mention-act-de-soin-amm#ME060
-* #632 ^property[+].code = #ptsAMM
+* #632 ^property[+].code = #pratiqueTherapeutiqueSpecifiqueAMM
 * #632 ^property[=].valueCoding = $tre-r384-pratique-therapeutique-specifique-act-de-soin-amm#PTS00
 * #632 ^property[+].code = #declarationAMM
 * #632 ^property[=].valueCoding = $tre-r385-declaration-act-de-soin-amm#DE000
@@ -10330,7 +10330,7 @@ Description: "Type activité SMSSE régulée"
 * #633 ^property[=].valueCoding = $tre-r382-modalite-act-de-soin-amm#MO007
 * #633 ^property[+].code = #mentionAMM
 * #633 ^property[=].valueCoding = $tre-r383-mention-act-de-soin-amm#ME061
-* #633 ^property[+].code = #ptsAMM
+* #633 ^property[+].code = #pratiqueTherapeutiqueSpecifiqueAMM
 * #633 ^property[=].valueCoding = $tre-r384-pratique-therapeutique-specifique-act-de-soin-amm#PTS00
 * #633 ^property[+].code = #declarationAMM
 * #633 ^property[=].valueCoding = $tre-r385-declaration-act-de-soin-amm#DE000
@@ -10349,7 +10349,7 @@ Description: "Type activité SMSSE régulée"
 * #634 ^property[=].valueCoding = $tre-r382-modalite-act-de-soin-amm#MO002
 * #634 ^property[+].code = #mentionAMM
 * #634 ^property[=].valueCoding = $tre-r383-mention-act-de-soin-amm#ME062
-* #634 ^property[+].code = #ptsAMM
+* #634 ^property[+].code = #pratiqueTherapeutiqueSpecifiqueAMM
 * #634 ^property[=].valueCoding = $tre-r384-pratique-therapeutique-specifique-act-de-soin-amm#PTS00
 * #634 ^property[+].code = #declarationAMM
 * #634 ^property[=].valueCoding = $tre-r385-declaration-act-de-soin-amm#DE000
@@ -10368,7 +10368,7 @@ Description: "Type activité SMSSE régulée"
 * #635 ^property[=].valueCoding = $tre-r382-modalite-act-de-soin-amm#MO002
 * #635 ^property[+].code = #mentionAMM
 * #635 ^property[=].valueCoding = $tre-r383-mention-act-de-soin-amm#ME056
-* #635 ^property[+].code = #ptsAMM
+* #635 ^property[+].code = #pratiqueTherapeutiqueSpecifiqueAMM
 * #635 ^property[=].valueCoding = $tre-r384-pratique-therapeutique-specifique-act-de-soin-amm#PTS00
 * #635 ^property[+].code = #declarationAMM
 * #635 ^property[=].valueCoding = $tre-r385-declaration-act-de-soin-amm#DE000
@@ -10387,7 +10387,7 @@ Description: "Type activité SMSSE régulée"
 * #636 ^property[=].valueCoding = $tre-r382-modalite-act-de-soin-amm#MO006
 * #636 ^property[+].code = #mentionAMM
 * #636 ^property[=].valueCoding = $tre-r383-mention-act-de-soin-amm#ME080
-* #636 ^property[+].code = #ptsAMM
+* #636 ^property[+].code = #pratiqueTherapeutiqueSpecifiqueAMM
 * #636 ^property[=].valueCoding = $tre-r384-pratique-therapeutique-specifique-act-de-soin-amm#PTS00
 * #636 ^property[+].code = #declarationAMM
 * #636 ^property[=].valueCoding = $tre-r385-declaration-act-de-soin-amm#DE000
@@ -10406,7 +10406,7 @@ Description: "Type activité SMSSE régulée"
 * #637 ^property[=].valueCoding = $tre-r382-modalite-act-de-soin-amm#MO006
 * #637 ^property[+].code = #mentionAMM
 * #637 ^property[=].valueCoding = $tre-r383-mention-act-de-soin-amm#ME085
-* #637 ^property[+].code = #ptsAMM
+* #637 ^property[+].code = #pratiqueTherapeutiqueSpecifiqueAMM
 * #637 ^property[=].valueCoding = $tre-r384-pratique-therapeutique-specifique-act-de-soin-amm#PTS00
 * #637 ^property[+].code = #declarationAMM
 * #637 ^property[=].valueCoding = $tre-r385-declaration-act-de-soin-amm#DE000
@@ -10425,7 +10425,7 @@ Description: "Type activité SMSSE régulée"
 * #638 ^property[=].valueCoding = $tre-r382-modalite-act-de-soin-amm#MO006
 * #638 ^property[+].code = #mentionAMM
 * #638 ^property[=].valueCoding = $tre-r383-mention-act-de-soin-amm#ME086
-* #638 ^property[+].code = #ptsAMM
+* #638 ^property[+].code = #pratiqueTherapeutiqueSpecifiqueAMM
 * #638 ^property[=].valueCoding = $tre-r384-pratique-therapeutique-specifique-act-de-soin-amm#PTS00
 * #638 ^property[+].code = #declarationAMM
 * #638 ^property[=].valueCoding = $tre-r385-declaration-act-de-soin-amm#DE000
@@ -10444,7 +10444,7 @@ Description: "Type activité SMSSE régulée"
 * #639 ^property[=].valueCoding = $tre-r382-modalite-act-de-soin-amm#MO006
 * #639 ^property[+].code = #mentionAMM
 * #639 ^property[=].valueCoding = $tre-r383-mention-act-de-soin-amm#ME087
-* #639 ^property[+].code = #ptsAMM
+* #639 ^property[+].code = #pratiqueTherapeutiqueSpecifiqueAMM
 * #639 ^property[=].valueCoding = $tre-r384-pratique-therapeutique-specifique-act-de-soin-amm#PTS00
 * #639 ^property[+].code = #declarationAMM
 * #639 ^property[=].valueCoding = $tre-r385-declaration-act-de-soin-amm#DE000
@@ -10463,7 +10463,7 @@ Description: "Type activité SMSSE régulée"
 * #640 ^property[=].valueCoding = $tre-r382-modalite-act-de-soin-amm#MO006
 * #640 ^property[+].code = #mentionAMM
 * #640 ^property[=].valueCoding = $tre-r383-mention-act-de-soin-amm#ME083
-* #640 ^property[+].code = #ptsAMM
+* #640 ^property[+].code = #pratiqueTherapeutiqueSpecifiqueAMM
 * #640 ^property[=].valueCoding = $tre-r384-pratique-therapeutique-specifique-act-de-soin-amm#PTS00
 * #640 ^property[+].code = #declarationAMM
 * #640 ^property[=].valueCoding = $tre-r385-declaration-act-de-soin-amm#DE000
@@ -10482,7 +10482,7 @@ Description: "Type activité SMSSE régulée"
 * #641 ^property[=].valueCoding = $tre-r382-modalite-act-de-soin-amm#MO006
 * #641 ^property[+].code = #mentionAMM
 * #641 ^property[=].valueCoding = $tre-r383-mention-act-de-soin-amm#ME084
-* #641 ^property[+].code = #ptsAMM
+* #641 ^property[+].code = #pratiqueTherapeutiqueSpecifiqueAMM
 * #641 ^property[=].valueCoding = $tre-r384-pratique-therapeutique-specifique-act-de-soin-amm#PTS00
 * #641 ^property[+].code = #declarationAMM
 * #641 ^property[=].valueCoding = $tre-r385-declaration-act-de-soin-amm#DE000
@@ -10501,7 +10501,7 @@ Description: "Type activité SMSSE régulée"
 * #642 ^property[=].valueCoding = $tre-r382-modalite-act-de-soin-amm#MO006
 * #642 ^property[+].code = #mentionAMM
 * #642 ^property[=].valueCoding = $tre-r383-mention-act-de-soin-amm#ME081
-* #642 ^property[+].code = #ptsAMM
+* #642 ^property[+].code = #pratiqueTherapeutiqueSpecifiqueAMM
 * #642 ^property[=].valueCoding = $tre-r384-pratique-therapeutique-specifique-act-de-soin-amm#PTS00
 * #642 ^property[+].code = #declarationAMM
 * #642 ^property[=].valueCoding = $tre-r385-declaration-act-de-soin-amm#DE000
@@ -10520,7 +10520,7 @@ Description: "Type activité SMSSE régulée"
 * #643 ^property[=].valueCoding = $tre-r382-modalite-act-de-soin-amm#MO006
 * #643 ^property[+].code = #mentionAMM
 * #643 ^property[=].valueCoding = $tre-r383-mention-act-de-soin-amm#ME082
-* #643 ^property[+].code = #ptsAMM
+* #643 ^property[+].code = #pratiqueTherapeutiqueSpecifiqueAMM
 * #643 ^property[=].valueCoding = $tre-r384-pratique-therapeutique-specifique-act-de-soin-amm#PTS00
 * #643 ^property[+].code = #declarationAMM
 * #643 ^property[=].valueCoding = $tre-r385-declaration-act-de-soin-amm#DE000
@@ -10539,7 +10539,7 @@ Description: "Type activité SMSSE régulée"
 * #644 ^property[=].valueCoding = $tre-r382-modalite-act-de-soin-amm#MO006
 * #644 ^property[+].code = #mentionAMM
 * #644 ^property[=].valueCoding = $tre-r383-mention-act-de-soin-amm#ME088
-* #644 ^property[+].code = #ptsAMM
+* #644 ^property[+].code = #pratiqueTherapeutiqueSpecifiqueAMM
 * #644 ^property[=].valueCoding = $tre-r384-pratique-therapeutique-specifique-act-de-soin-amm#PTS00
 * #644 ^property[+].code = #declarationAMM
 * #644 ^property[=].valueCoding = $tre-r385-declaration-act-de-soin-amm#DE000
@@ -10558,7 +10558,7 @@ Description: "Type activité SMSSE régulée"
 * #645 ^property[=].valueCoding = $tre-r382-modalite-act-de-soin-amm#MO007
 * #645 ^property[+].code = #mentionAMM
 * #645 ^property[=].valueCoding = $tre-r383-mention-act-de-soin-amm#ME080
-* #645 ^property[+].code = #ptsAMM
+* #645 ^property[+].code = #pratiqueTherapeutiqueSpecifiqueAMM
 * #645 ^property[=].valueCoding = $tre-r384-pratique-therapeutique-specifique-act-de-soin-amm#PTS00
 * #645 ^property[+].code = #declarationAMM
 * #645 ^property[=].valueCoding = $tre-r385-declaration-act-de-soin-amm#DE000
@@ -10577,7 +10577,7 @@ Description: "Type activité SMSSE régulée"
 * #646 ^property[=].valueCoding = $tre-r382-modalite-act-de-soin-amm#MO007
 * #646 ^property[+].code = #mentionAMM
 * #646 ^property[=].valueCoding = $tre-r383-mention-act-de-soin-amm#ME085
-* #646 ^property[+].code = #ptsAMM
+* #646 ^property[+].code = #pratiqueTherapeutiqueSpecifiqueAMM
 * #646 ^property[=].valueCoding = $tre-r384-pratique-therapeutique-specifique-act-de-soin-amm#PTS00
 * #646 ^property[+].code = #declarationAMM
 * #646 ^property[=].valueCoding = $tre-r385-declaration-act-de-soin-amm#DE000
@@ -10596,7 +10596,7 @@ Description: "Type activité SMSSE régulée"
 * #647 ^property[=].valueCoding = $tre-r382-modalite-act-de-soin-amm#MO007
 * #647 ^property[+].code = #mentionAMM
 * #647 ^property[=].valueCoding = $tre-r383-mention-act-de-soin-amm#ME086
-* #647 ^property[+].code = #ptsAMM
+* #647 ^property[+].code = #pratiqueTherapeutiqueSpecifiqueAMM
 * #647 ^property[=].valueCoding = $tre-r384-pratique-therapeutique-specifique-act-de-soin-amm#PTS00
 * #647 ^property[+].code = #declarationAMM
 * #647 ^property[=].valueCoding = $tre-r385-declaration-act-de-soin-amm#DE000
@@ -10615,7 +10615,7 @@ Description: "Type activité SMSSE régulée"
 * #648 ^property[=].valueCoding = $tre-r382-modalite-act-de-soin-amm#MO007
 * #648 ^property[+].code = #mentionAMM
 * #648 ^property[=].valueCoding = $tre-r383-mention-act-de-soin-amm#ME087
-* #648 ^property[+].code = #ptsAMM
+* #648 ^property[+].code = #pratiqueTherapeutiqueSpecifiqueAMM
 * #648 ^property[=].valueCoding = $tre-r384-pratique-therapeutique-specifique-act-de-soin-amm#PTS00
 * #648 ^property[+].code = #declarationAMM
 * #648 ^property[=].valueCoding = $tre-r385-declaration-act-de-soin-amm#DE000
@@ -10634,7 +10634,7 @@ Description: "Type activité SMSSE régulée"
 * #649 ^property[=].valueCoding = $tre-r382-modalite-act-de-soin-amm#MO007
 * #649 ^property[+].code = #mentionAMM
 * #649 ^property[=].valueCoding = $tre-r383-mention-act-de-soin-amm#ME083
-* #649 ^property[+].code = #ptsAMM
+* #649 ^property[+].code = #pratiqueTherapeutiqueSpecifiqueAMM
 * #649 ^property[=].valueCoding = $tre-r384-pratique-therapeutique-specifique-act-de-soin-amm#PTS00
 * #649 ^property[+].code = #declarationAMM
 * #649 ^property[=].valueCoding = $tre-r385-declaration-act-de-soin-amm#DE000
@@ -10653,7 +10653,7 @@ Description: "Type activité SMSSE régulée"
 * #650 ^property[=].valueCoding = $tre-r382-modalite-act-de-soin-amm#MO007
 * #650 ^property[+].code = #mentionAMM
 * #650 ^property[=].valueCoding = $tre-r383-mention-act-de-soin-amm#ME084
-* #650 ^property[+].code = #ptsAMM
+* #650 ^property[+].code = #pratiqueTherapeutiqueSpecifiqueAMM
 * #650 ^property[=].valueCoding = $tre-r384-pratique-therapeutique-specifique-act-de-soin-amm#PTS00
 * #650 ^property[+].code = #declarationAMM
 * #650 ^property[=].valueCoding = $tre-r385-declaration-act-de-soin-amm#DE000
@@ -10672,7 +10672,7 @@ Description: "Type activité SMSSE régulée"
 * #651 ^property[=].valueCoding = $tre-r382-modalite-act-de-soin-amm#MO007
 * #651 ^property[+].code = #mentionAMM
 * #651 ^property[=].valueCoding = $tre-r383-mention-act-de-soin-amm#ME082
-* #651 ^property[+].code = #ptsAMM
+* #651 ^property[+].code = #pratiqueTherapeutiqueSpecifiqueAMM
 * #651 ^property[=].valueCoding = $tre-r384-pratique-therapeutique-specifique-act-de-soin-amm#PTS00
 * #651 ^property[+].code = #declarationAMM
 * #651 ^property[=].valueCoding = $tre-r385-declaration-act-de-soin-amm#DE000
@@ -10691,7 +10691,7 @@ Description: "Type activité SMSSE régulée"
 * #652 ^property[=].valueCoding = $tre-r382-modalite-act-de-soin-amm#MO007
 * #652 ^property[+].code = #mentionAMM
 * #652 ^property[=].valueCoding = $tre-r383-mention-act-de-soin-amm#ME081
-* #652 ^property[+].code = #ptsAMM
+* #652 ^property[+].code = #pratiqueTherapeutiqueSpecifiqueAMM
 * #652 ^property[=].valueCoding = $tre-r384-pratique-therapeutique-specifique-act-de-soin-amm#PTS00
 * #652 ^property[+].code = #declarationAMM
 * #652 ^property[=].valueCoding = $tre-r385-declaration-act-de-soin-amm#DE000
@@ -10710,7 +10710,7 @@ Description: "Type activité SMSSE régulée"
 * #653 ^property[=].valueCoding = $tre-r382-modalite-act-de-soin-amm#MO007
 * #653 ^property[+].code = #mentionAMM
 * #653 ^property[=].valueCoding = $tre-r383-mention-act-de-soin-amm#ME088
-* #653 ^property[+].code = #ptsAMM
+* #653 ^property[+].code = #pratiqueTherapeutiqueSpecifiqueAMM
 * #653 ^property[=].valueCoding = $tre-r384-pratique-therapeutique-specifique-act-de-soin-amm#PTS00
 * #653 ^property[+].code = #declarationAMM
 * #653 ^property[=].valueCoding = $tre-r385-declaration-act-de-soin-amm#DE000
@@ -10729,7 +10729,7 @@ Description: "Type activité SMSSE régulée"
 * #654 ^property[=].valueCoding = $tre-r382-modalite-act-de-soin-amm#MO000
 * #654 ^property[+].code = #mentionAMM
 * #654 ^property[=].valueCoding = $tre-r383-mention-act-de-soin-amm#ME000
-* #654 ^property[+].code = #ptsAMM
+* #654 ^property[+].code = #pratiqueTherapeutiqueSpecifiqueAMM
 * #654 ^property[=].valueCoding = $tre-r384-pratique-therapeutique-specifique-act-de-soin-amm#PTS00
 * #654 ^property[+].code = #declarationAMM
 * #654 ^property[=].valueCoding = $tre-r385-declaration-act-de-soin-amm#DE000
@@ -10748,7 +10748,7 @@ Description: "Type activité SMSSE régulée"
 * #655 ^property[=].valueCoding = $tre-r382-modalite-act-de-soin-amm#MO000
 * #655 ^property[+].code = #mentionAMM
 * #655 ^property[=].valueCoding = $tre-r383-mention-act-de-soin-amm#ME000
-* #655 ^property[+].code = #ptsAMM
+* #655 ^property[+].code = #pratiqueTherapeutiqueSpecifiqueAMM
 * #655 ^property[=].valueCoding = $tre-r384-pratique-therapeutique-specifique-act-de-soin-amm#PTS00
 * #655 ^property[+].code = #declarationAMM
 * #655 ^property[=].valueCoding = $tre-r385-declaration-act-de-soin-amm#DE000
@@ -10767,7 +10767,7 @@ Description: "Type activité SMSSE régulée"
 * #656 ^property[=].valueCoding = $tre-r382-modalite-act-de-soin-amm#MO000
 * #656 ^property[+].code = #mentionAMM
 * #656 ^property[=].valueCoding = $tre-r383-mention-act-de-soin-amm#ME000
-* #656 ^property[+].code = #ptsAMM
+* #656 ^property[+].code = #pratiqueTherapeutiqueSpecifiqueAMM
 * #656 ^property[=].valueCoding = $tre-r384-pratique-therapeutique-specifique-act-de-soin-amm#PTS00
 * #656 ^property[+].code = #declarationAMM
 * #656 ^property[=].valueCoding = $tre-r385-declaration-act-de-soin-amm#DE000
