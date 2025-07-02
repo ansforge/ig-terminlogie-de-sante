@@ -1,11 +1,11 @@
 {
   "resourceType" : "CodeSystem",
-  "id" : "b5a30a37-6353-4636-a5b8-d8ef17f52dfc-3",
-  "url" : "http://hl7.org/fhir/comparison/CodeSystem/b5a30a37-6353-4636-a5b8-d8ef17f52dfc-3",
+  "id" : "8e46c36c-62bc-403f-a251-10d541b949f4-3",
+  "url" : "http://hl7.org/fhir/comparison/CodeSystem/8e46c36c-62bc-403f-a251-10d541b949f4-3",
   "name" : "IntersectionSNOMED_CTAndSNOMED_CT",
   "title" : "Intersection of French module And SNOMED CT core",
   "status" : "active",
-  "date" : "2025-07-02T12:25:17+00:00",
+  "date" : "2025-07-02T14:18:51+00:00",
   "filter" : [{
     "code" : "concept",
     "description" : "Includes all concept ids that have a transitive is-a relationship with the code provided as the value.",
