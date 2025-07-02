@@ -1,11 +1,11 @@
 {
   "resourceType" : "CodeSystem",
-  "id" : "baeb6b5d-62d5-46e6-8312-a44ae2857eb5-113",
-  "url" : "http://hl7.org/fhir/comparison/CodeSystem/baeb6b5d-62d5-46e6-8312-a44ae2857eb5-113",
+  "id" : "b5a30a37-6353-4636-a5b8-d8ef17f52dfc-113",
+  "url" : "http://hl7.org/fhir/comparison/CodeSystem/b5a30a37-6353-4636-a5b8-d8ef17f52dfc-113",
   "name" : "UnionTRE_R04_TypeSavoirFaireAndTRE_R04_TypeSavoirFaire",
   "title" : "Union of null And null",
   "status" : "active",
-  "date" : "2025-06-30T12:24:09+00:00",
+  "date" : "2025-07-02T12:25:17+00:00",
   "jurisdiction" : [{
     "coding" : [{
       "system" : "urn:iso:std:iso:3166",
@@ -300,6 +300,19 @@
     {
       "code" : "dateMaj",
       "valueDateTime" : "2023-10-30T12:00:00+01:00"
+    }]
+  },
+  {
+    "code" : "CM",
+    "display" : "Compétence métier",
+    "definition" : "La\u00a0compétence métier\u00a0désigne un type de savoir-faire opérationnel, transversal ou spécifique, acquis et exercé à titre non exclusif dans le cadre d’une activité professionnelle reconnue. Elle reflète une expertise fonctionnelle ou technique mobilisée dans l’exercice quotidien du professionnel de santé. Contrairement aux\u00a0spécialités ordinales\u00a0ou\u00a0compétences de médecines, la compétence métier n’est pas nécessairement encadrée par un diplôme ou une qualification ordinale, mais elle peut être attestée par l’expérience, des formations spécifiques, ou une reconnaissance institutionnelle (ex. : missions ANS, ARS, établissements de santé, etc.). Dans le cadre du modèle, la\u00a0classe CompétenceMetier\u00a0est représentée comme une spécialisation de la classe\u00a0SavoirFaire, i-e un TypeDeSavoirFaire et à ce titre, elle hérite des attributs et des associations de cette classe. Elle se distingue des autres types de savoir-faire par son ancrage dans les pratiques professionnelles et organisationnelles, plutôt que dans une logique de qualification médicale ou réglementaire.",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2025-06-25T15:04:43+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2025-06-25T15:04:43+01:00"
     }]
   }]
 }

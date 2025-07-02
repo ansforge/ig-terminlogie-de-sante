@@ -109,8 +109,7 @@
        fhir:value [
          a fhir:Coding ;
          fhir:system [ fhir:v "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r386-macro-etat-objet-administratif"^^xsd:anyURI ] ;
-         fhir:code [ fhir:v "A" ] ;
-         fhir:display [ fhir:v "Actif" ]
+         fhir:code [ fhir:v "A" ]
        ]
      ] [
        fhir:code [ fhir:v "finess" ] ;
@@ -145,8 +144,7 @@
        fhir:value [
          a fhir:Coding ;
          fhir:system [ fhir:v "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r386-macro-etat-objet-administratif"^^xsd:anyURI ] ;
-         fhir:code [ fhir:v "I" ] ;
-         fhir:display [ fhir:v "Inactif" ]
+         fhir:code [ fhir:v "I" ]
        ]
      ] [
        fhir:code [ fhir:v "finess" ] ;
@@ -190,8 +188,7 @@
        fhir:value [
          a fhir:Coding ;
          fhir:system [ fhir:v "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r386-macro-etat-objet-administratif"^^xsd:anyURI ] ;
-         fhir:code [ fhir:v "A" ] ;
-         fhir:display [ fhir:v "Actif" ]
+         fhir:code [ fhir:v "A" ]
        ]
      ] [
        fhir:code [ fhir:v "finess" ] ;
@@ -226,8 +223,7 @@
        fhir:value [
          a fhir:Coding ;
          fhir:system [ fhir:v "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r386-macro-etat-objet-administratif"^^xsd:anyURI ] ;
-         fhir:code [ fhir:v "I" ] ;
-         fhir:display [ fhir:v "Inactif" ]
+         fhir:code [ fhir:v "I" ]
        ]
      ] [
        fhir:code [ fhir:v "finess" ] ;
@@ -262,8 +258,7 @@
        fhir:value [
          a fhir:Coding ;
          fhir:system [ fhir:v "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r386-macro-etat-objet-administratif"^^xsd:anyURI ] ;
-         fhir:code [ fhir:v "I" ] ;
-         fhir:display [ fhir:v "Inactif" ]
+         fhir:code [ fhir:v "I" ]
        ]
      ] [
        fhir:code [ fhir:v "finess" ] ;
@@ -298,8 +293,7 @@
        fhir:value [
          a fhir:Coding ;
          fhir:system [ fhir:v "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r386-macro-etat-objet-administratif"^^xsd:anyURI ] ;
-         fhir:code [ fhir:v "A" ] ;
-         fhir:display [ fhir:v "Actif" ]
+         fhir:code [ fhir:v "A" ]
        ]
      ] [
        fhir:code [ fhir:v "finess" ] ;
@@ -334,8 +328,7 @@
        fhir:value [
          a fhir:Coding ;
          fhir:system [ fhir:v "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r386-macro-etat-objet-administratif"^^xsd:anyURI ] ;
-         fhir:code [ fhir:v "A" ] ;
-         fhir:display [ fhir:v "Actif" ]
+         fhir:code [ fhir:v "A" ]
        ]
      ] [
        fhir:code [ fhir:v "finess" ] ;
@@ -370,8 +363,7 @@
        fhir:value [
          a fhir:Coding ;
          fhir:system [ fhir:v "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r386-macro-etat-objet-administratif"^^xsd:anyURI ] ;
-         fhir:code [ fhir:v "A" ] ;
-         fhir:display [ fhir:v "Actif" ]
+         fhir:code [ fhir:v "A" ]
        ]
      ] [
        fhir:code [ fhir:v "finess" ] ;
@@ -406,8 +398,7 @@
        fhir:value [
          a fhir:Coding ;
          fhir:system [ fhir:v "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r386-macro-etat-objet-administratif"^^xsd:anyURI ] ;
-         fhir:code [ fhir:v "I" ] ;
-         fhir:display [ fhir:v "Inactif" ]
+         fhir:code [ fhir:v "I" ]
        ]
      ] [
        fhir:code [ fhir:v "finess" ] ;
@@ -442,8 +433,7 @@
        fhir:value [
          a fhir:Coding ;
          fhir:system [ fhir:v "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r386-macro-etat-objet-administratif"^^xsd:anyURI ] ;
-         fhir:code [ fhir:v "I" ] ;
-         fhir:display [ fhir:v "Inactif" ]
+         fhir:code [ fhir:v "I" ]
        ]
      ] [
        fhir:code [ fhir:v "finess" ] ;
@@ -478,8 +468,7 @@
        fhir:value [
          a fhir:Coding ;
          fhir:system [ fhir:v "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r386-macro-etat-objet-administratif"^^xsd:anyURI ] ;
-         fhir:code [ fhir:v "A" ] ;
-         fhir:display [ fhir:v "Actif" ]
+         fhir:code [ fhir:v "A" ]
        ]
      ] [
        fhir:code [ fhir:v "finess" ] ;
@@ -514,8 +503,7 @@
        fhir:value [
          a fhir:Coding ;
          fhir:system [ fhir:v "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r386-macro-etat-objet-administratif"^^xsd:anyURI ] ;
-         fhir:code [ fhir:v "A" ] ;
-         fhir:display [ fhir:v "Actif" ]
+         fhir:code [ fhir:v "A" ]
        ]
      ] [
        fhir:code [ fhir:v "finess" ] ;
@@ -550,8 +538,7 @@
        fhir:value [
          a fhir:Coding ;
          fhir:system [ fhir:v "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r386-macro-etat-objet-administratif"^^xsd:anyURI ] ;
-         fhir:code [ fhir:v "I" ] ;
-         fhir:display [ fhir:v "Inactif" ]
+         fhir:code [ fhir:v "I" ]
        ]
      ] [
        fhir:code [ fhir:v "finess" ] ;
@@ -586,8 +573,7 @@
        fhir:value [
          a fhir:Coding ;
          fhir:system [ fhir:v "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r386-macro-etat-objet-administratif"^^xsd:anyURI ] ;
-         fhir:code [ fhir:v "A" ] ;
-         fhir:display [ fhir:v "Actif" ]
+         fhir:code [ fhir:v "A" ]
        ]
      ] [
        fhir:code [ fhir:v "finess" ] ;
@@ -622,8 +608,7 @@
        fhir:value [
          a fhir:Coding ;
          fhir:system [ fhir:v "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r386-macro-etat-objet-administratif"^^xsd:anyURI ] ;
-         fhir:code [ fhir:v "I" ] ;
-         fhir:display [ fhir:v "Inactif" ]
+         fhir:code [ fhir:v "I" ]
        ]
      ] [
        fhir:code [ fhir:v "finess" ] ;
@@ -658,8 +643,7 @@
        fhir:value [
          a fhir:Coding ;
          fhir:system [ fhir:v "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r386-macro-etat-objet-administratif"^^xsd:anyURI ] ;
-         fhir:code [ fhir:v "A" ] ;
-         fhir:display [ fhir:v "Actif" ]
+         fhir:code [ fhir:v "A" ]
        ]
      ] [
        fhir:code [ fhir:v "finess" ] ;
@@ -694,8 +678,7 @@
        fhir:value [
          a fhir:Coding ;
          fhir:system [ fhir:v "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r386-macro-etat-objet-administratif"^^xsd:anyURI ] ;
-         fhir:code [ fhir:v "A" ] ;
-         fhir:display [ fhir:v "Actif" ]
+         fhir:code [ fhir:v "A" ]
        ]
      ] [
        fhir:code [ fhir:v "finess" ] ;
@@ -730,8 +713,7 @@
        fhir:value [
          a fhir:Coding ;
          fhir:system [ fhir:v "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r386-macro-etat-objet-administratif"^^xsd:anyURI ] ;
-         fhir:code [ fhir:v "I" ] ;
-         fhir:display [ fhir:v "Inactif" ]
+         fhir:code [ fhir:v "I" ]
        ]
      ] [
        fhir:code [ fhir:v "finess" ] ;
@@ -766,8 +748,7 @@
        fhir:value [
          a fhir:Coding ;
          fhir:system [ fhir:v "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r386-macro-etat-objet-administratif"^^xsd:anyURI ] ;
-         fhir:code [ fhir:v "A" ] ;
-         fhir:display [ fhir:v "Actif" ]
+         fhir:code [ fhir:v "A" ]
        ]
      ] [
        fhir:code [ fhir:v "finess" ] ;
@@ -802,8 +783,7 @@
        fhir:value [
          a fhir:Coding ;
          fhir:system [ fhir:v "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r386-macro-etat-objet-administratif"^^xsd:anyURI ] ;
-         fhir:code [ fhir:v "I" ] ;
-         fhir:display [ fhir:v "Inactif" ]
+         fhir:code [ fhir:v "I" ]
        ]
      ] [
        fhir:code [ fhir:v "finess" ] ;
@@ -838,8 +818,7 @@
        fhir:value [
          a fhir:Coding ;
          fhir:system [ fhir:v "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r386-macro-etat-objet-administratif"^^xsd:anyURI ] ;
-         fhir:code [ fhir:v "A" ] ;
-         fhir:display [ fhir:v "Actif" ]
+         fhir:code [ fhir:v "A" ]
        ]
      ] [
        fhir:code [ fhir:v "finess" ] ;
@@ -874,8 +853,7 @@
        fhir:value [
          a fhir:Coding ;
          fhir:system [ fhir:v "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r386-macro-etat-objet-administratif"^^xsd:anyURI ] ;
-         fhir:code [ fhir:v "I" ] ;
-         fhir:display [ fhir:v "Inactif" ]
+         fhir:code [ fhir:v "I" ]
        ]
      ] [
        fhir:code [ fhir:v "finess" ] ;
@@ -910,8 +888,7 @@
        fhir:value [
          a fhir:Coding ;
          fhir:system [ fhir:v "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r386-macro-etat-objet-administratif"^^xsd:anyURI ] ;
-         fhir:code [ fhir:v "I" ] ;
-         fhir:display [ fhir:v "Inactif" ]
+         fhir:code [ fhir:v "I" ]
        ]
      ] [
        fhir:code [ fhir:v "finess" ] ;
@@ -946,8 +923,7 @@
        fhir:value [
          a fhir:Coding ;
          fhir:system [ fhir:v "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r386-macro-etat-objet-administratif"^^xsd:anyURI ] ;
-         fhir:code [ fhir:v "A" ] ;
-         fhir:display [ fhir:v "Actif" ]
+         fhir:code [ fhir:v "A" ]
        ]
      ] [
        fhir:code [ fhir:v "finess" ] ;
@@ -982,8 +958,7 @@
        fhir:value [
          a fhir:Coding ;
          fhir:system [ fhir:v "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r386-macro-etat-objet-administratif"^^xsd:anyURI ] ;
-         fhir:code [ fhir:v "I" ] ;
-         fhir:display [ fhir:v "Inactif" ]
+         fhir:code [ fhir:v "I" ]
        ]
      ] [
        fhir:code [ fhir:v "finess" ] ;
@@ -1018,8 +993,7 @@
        fhir:value [
          a fhir:Coding ;
          fhir:system [ fhir:v "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r386-macro-etat-objet-administratif"^^xsd:anyURI ] ;
-         fhir:code [ fhir:v "A" ] ;
-         fhir:display [ fhir:v "Actif" ]
+         fhir:code [ fhir:v "A" ]
        ]
      ] [
        fhir:code [ fhir:v "finess" ] ;
@@ -1054,8 +1028,7 @@
        fhir:value [
          a fhir:Coding ;
          fhir:system [ fhir:v "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r386-macro-etat-objet-administratif"^^xsd:anyURI ] ;
-         fhir:code [ fhir:v "A" ] ;
-         fhir:display [ fhir:v "Actif" ]
+         fhir:code [ fhir:v "A" ]
        ]
      ] [
        fhir:code [ fhir:v "finess" ] ;
@@ -1090,8 +1063,7 @@
        fhir:value [
          a fhir:Coding ;
          fhir:system [ fhir:v "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r386-macro-etat-objet-administratif"^^xsd:anyURI ] ;
-         fhir:code [ fhir:v "A" ] ;
-         fhir:display [ fhir:v "Actif" ]
+         fhir:code [ fhir:v "A" ]
        ]
      ] [
        fhir:code [ fhir:v "finess" ] ;
@@ -1126,8 +1098,7 @@
        fhir:value [
          a fhir:Coding ;
          fhir:system [ fhir:v "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r386-macro-etat-objet-administratif"^^xsd:anyURI ] ;
-         fhir:code [ fhir:v "A" ] ;
-         fhir:display [ fhir:v "Actif" ]
+         fhir:code [ fhir:v "A" ]
        ]
      ] [
        fhir:code [ fhir:v "finess" ] ;
@@ -1162,8 +1133,7 @@
        fhir:value [
          a fhir:Coding ;
          fhir:system [ fhir:v "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r386-macro-etat-objet-administratif"^^xsd:anyURI ] ;
-         fhir:code [ fhir:v "A" ] ;
-         fhir:display [ fhir:v "Actif" ]
+         fhir:code [ fhir:v "A" ]
        ]
      ] [
        fhir:code [ fhir:v "finess" ] ;
@@ -1198,8 +1168,7 @@
        fhir:value [
          a fhir:Coding ;
          fhir:system [ fhir:v "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r386-macro-etat-objet-administratif"^^xsd:anyURI ] ;
-         fhir:code [ fhir:v "I" ] ;
-         fhir:display [ fhir:v "Inactif" ]
+         fhir:code [ fhir:v "I" ]
        ]
      ] [
        fhir:code [ fhir:v "finess" ] ;
@@ -1234,8 +1203,7 @@
        fhir:value [
          a fhir:Coding ;
          fhir:system [ fhir:v "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r386-macro-etat-objet-administratif"^^xsd:anyURI ] ;
-         fhir:code [ fhir:v "A" ] ;
-         fhir:display [ fhir:v "Actif" ]
+         fhir:code [ fhir:v "A" ]
        ]
      ] [
        fhir:code [ fhir:v "finess" ] ;
@@ -1270,8 +1238,7 @@
        fhir:value [
          a fhir:Coding ;
          fhir:system [ fhir:v "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r386-macro-etat-objet-administratif"^^xsd:anyURI ] ;
-         fhir:code [ fhir:v "I" ] ;
-         fhir:display [ fhir:v "Inactif" ]
+         fhir:code [ fhir:v "I" ]
        ]
      ] [
        fhir:code [ fhir:v "finess" ] ;
@@ -1306,8 +1273,7 @@
        fhir:value [
          a fhir:Coding ;
          fhir:system [ fhir:v "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r386-macro-etat-objet-administratif"^^xsd:anyURI ] ;
-         fhir:code [ fhir:v "A" ] ;
-         fhir:display [ fhir:v "Actif" ]
+         fhir:code [ fhir:v "A" ]
        ]
      ] [
        fhir:code [ fhir:v "finess" ] ;
@@ -1351,8 +1317,7 @@
        fhir:value [
          a fhir:Coding ;
          fhir:system [ fhir:v "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r386-macro-etat-objet-administratif"^^xsd:anyURI ] ;
-         fhir:code [ fhir:v "I" ] ;
-         fhir:display [ fhir:v "Inactif" ]
+         fhir:code [ fhir:v "I" ]
        ]
      ] [
        fhir:code [ fhir:v "finess" ] ;
@@ -1396,8 +1361,7 @@
        fhir:value [
          a fhir:Coding ;
          fhir:system [ fhir:v "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r386-macro-etat-objet-administratif"^^xsd:anyURI ] ;
-         fhir:code [ fhir:v "I" ] ;
-         fhir:display [ fhir:v "Inactif" ]
+         fhir:code [ fhir:v "I" ]
        ]
      ] [
        fhir:code [ fhir:v "finess" ] ;
@@ -1441,8 +1405,7 @@
        fhir:value [
          a fhir:Coding ;
          fhir:system [ fhir:v "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r386-macro-etat-objet-administratif"^^xsd:anyURI ] ;
-         fhir:code [ fhir:v "I" ] ;
-         fhir:display [ fhir:v "Inactif" ]
+         fhir:code [ fhir:v "I" ]
        ]
      ] [
        fhir:code [ fhir:v "finess" ] ;
@@ -1486,8 +1449,7 @@
        fhir:value [
          a fhir:Coding ;
          fhir:system [ fhir:v "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r386-macro-etat-objet-administratif"^^xsd:anyURI ] ;
-         fhir:code [ fhir:v "I" ] ;
-         fhir:display [ fhir:v "Inactif" ]
+         fhir:code [ fhir:v "I" ]
        ]
      ] [
        fhir:code [ fhir:v "finess" ] ;

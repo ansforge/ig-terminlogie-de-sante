@@ -1,11 +1,11 @@
 {
   "resourceType" : "ValueSet",
-  "id" : "baeb6b5d-62d5-46e6-8312-a44ae2857eb5-1053",
-  "url" : "http://hl7.org/fhir/comparison/ValueSet/baeb6b5d-62d5-46e6-8312-a44ae2857eb5-1053",
+  "id" : "b5a30a37-6353-4636-a5b8-d8ef17f52dfc-1062",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/b5a30a37-6353-4636-a5b8-d8ef17f52dfc-1062",
   "name" : "IntersectionJDV_J17_ActiviteOperationnelle_RORAndJDV_J17_ActiviteOperationnelle_ROR",
   "title" : "Intersection of null And null",
   "status" : "active",
-  "date" : "2025-06-30T12:24:10+00:00",
+  "date" : "2025-07-02T12:25:18+00:00",
   "compose" : {
     "include" : [{
       "concept" : [{
@@ -690,11 +690,11 @@
       },
       {
         "code" : "227",
-        "display" : "Psychiatrie de l'enfant"
+        "display" : "Psychiatrie de l’enfant (pédopsychiatrie)"
       },
       {
         "code" : "228",
-        "display" : "Psychiatrie de l'adolescent"
+        "display" : "Psychiatrie de l’adolescent (pédopsychiatrie)"
       },
       {
         "code" : "229",
@@ -1730,7 +1730,7 @@
       },
       {
         "code" : "510",
-        "display" : "Échographie gynécologique et obstétricale (dont échographie de grossesse)"
+        "display" : "Échographie obstétricale"
       },
       {
         "code" : "511",
@@ -1798,7 +1798,7 @@
       },
       {
         "code" : "527",
-        "display" : "Suivi gynécologique de prévention"
+        "display" : "Suivi gynécologique de prévention et contraception"
       },
       {
         "code" : "528",
@@ -1806,7 +1806,7 @@
       },
       {
         "code" : "529",
-        "display" : "Suivi post-natal"
+        "display" : "Suivi post-natal (dont séances post-natales)"
       },
       {
         "code" : "530",
@@ -1882,7 +1882,7 @@
       },
       {
         "code" : "549",
-        "display" : "Diététique"
+        "display" : "Diététique et nutrition"
       },
       {
         "code" : "550",

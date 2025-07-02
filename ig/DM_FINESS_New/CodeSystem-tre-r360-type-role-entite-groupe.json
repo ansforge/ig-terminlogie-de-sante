@@ -108,8 +108,7 @@
       "code" : "isTypeRoleMemberOf",
       "valueCoding" : {
         "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r387-type-groupement",
-        "code" : "01",
-        "display" : "Groupement de coopération conventionnelle"
+        "code" : "01"
       }
     }]
   },
@@ -144,16 +143,14 @@
       "code" : "isTypeRoleMemberOf",
       "valueCoding" : {
         "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r387-type-groupement",
-        "code" : "01",
-        "display" : "Groupement de coopération conventionnelle"
+        "code" : "01"
       }
     },
     {
       "code" : "isTypeRoleMemberOf",
       "valueCoding" : {
         "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r387-type-groupement",
-        "code" : "02",
-        "display" : "Groupement de coopération organique"
+        "code" : "02"
       }
     }]
   },
@@ -188,8 +185,7 @@
       "code" : "isTypeRoleMemberOf",
       "valueCoding" : {
         "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r387-type-groupement",
-        "code" : "02",
-        "display" : "Groupement de coopération organique"
+        "code" : "02"
       }
     }]
   }]

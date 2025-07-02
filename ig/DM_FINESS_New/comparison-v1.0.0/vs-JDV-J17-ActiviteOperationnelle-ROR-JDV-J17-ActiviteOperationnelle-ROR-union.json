@@ -1,11 +1,11 @@
 {
   "resourceType" : "ValueSet",
-  "id" : "baeb6b5d-62d5-46e6-8312-a44ae2857eb5-1052",
-  "url" : "http://hl7.org/fhir/comparison/ValueSet/baeb6b5d-62d5-46e6-8312-a44ae2857eb5-1052",
+  "id" : "b5a30a37-6353-4636-a5b8-d8ef17f52dfc-1061",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/b5a30a37-6353-4636-a5b8-d8ef17f52dfc-1061",
   "name" : "UnionJDV_J17_ActiviteOperationnelle_RORAndJDV_J17_ActiviteOperationnelle_ROR",
   "title" : "Union of null And null",
   "status" : "active",
-  "date" : "2025-06-30T12:24:10+00:00",
+  "date" : "2025-07-02T12:25:18+00:00",
   "jurisdiction" : [{
     "coding" : [{
       "system" : "urn:iso:std:iso:3166",
@@ -696,11 +696,11 @@
       },
       {
         "code" : "227",
-        "display" : "Psychiatrie de l'enfant"
+        "display" : "Psychiatrie de l’enfant (pédopsychiatrie)"
       },
       {
         "code" : "228",
-        "display" : "Psychiatrie de l'adolescent"
+        "display" : "Psychiatrie de l’adolescent (pédopsychiatrie)"
       },
       {
         "code" : "229",
@@ -1736,7 +1736,7 @@
       },
       {
         "code" : "510",
-        "display" : "Échographie gynécologique et obstétricale (dont échographie de grossesse)"
+        "display" : "Échographie obstétricale"
       },
       {
         "code" : "511",
@@ -1804,7 +1804,7 @@
       },
       {
         "code" : "527",
-        "display" : "Suivi gynécologique de prévention"
+        "display" : "Suivi gynécologique de prévention et contraception"
       },
       {
         "code" : "528",
@@ -1812,7 +1812,7 @@
       },
       {
         "code" : "529",
-        "display" : "Suivi post-natal"
+        "display" : "Suivi post-natal (dont séances post-natales)"
       },
       {
         "code" : "530",
@@ -1888,7 +1888,7 @@
       },
       {
         "code" : "549",
-        "display" : "Diététique"
+        "display" : "Diététique et nutrition"
       },
       {
         "code" : "550",
@@ -2021,6 +2021,46 @@
       {
         "code" : "582",
         "display" : "Orientation vers professionnel pour diagnostic"
+      },
+      {
+        "code" : "583",
+        "display" : "Dialyse péritonéale"
+      },
+      {
+        "code" : "584",
+        "display" : "Diététique des Troubles des Conduites Alimentaires (TCA)"
+      },
+      {
+        "code" : "585",
+        "display" : "Diététique orientation Dénutrition"
+      },
+      {
+        "code" : "586",
+        "display" : "Diététique orientation Gynécologie / Obstétrique"
+      },
+      {
+        "code" : "587",
+        "display" : "Diététique orientation maladies inflammatoires et malabsorptives (MICI, SII, NASH)"
+      },
+      {
+        "code" : "588",
+        "display" : "Diététique orientation Nutrition du sportif"
+      },
+      {
+        "code" : "589",
+        "display" : "Diététique orientation Périnatalité"
+      },
+      {
+        "code" : "590",
+        "display" : "Échographie gynécologique"
+      },
+      {
+        "code" : "591",
+        "display" : "Ostéopathie médicale"
+      },
+      {
+        "code" : "592",
+        "display" : "Prévention et lutte contre la tuberculose"
       }]
     }]
   }

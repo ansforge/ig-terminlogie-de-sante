@@ -109,7 +109,6 @@
       <valueCoding>
         <system value="https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r360-type-role-entite-groupe"/>
         <code value="M"/>
-        <display value="Membre simple"/>
       </valueCoding>
     </property>
     <property>
@@ -117,7 +116,6 @@
       <valueCoding>
         <system value="https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r360-type-role-entite-groupe"/>
         <code value="S"/>
-        <display value="Entité support"/>
       </valueCoding>
     </property>
   </concept>
@@ -154,7 +152,6 @@
       <valueCoding>
         <system value="https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r360-type-role-entite-groupe"/>
         <code value="M"/>
-        <display value="Membre simple"/>
       </valueCoding>
     </property>
     <property>
@@ -162,7 +159,6 @@
       <valueCoding>
         <system value="https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r360-type-role-entite-groupe"/>
         <code value="T"/>
-        <display value="Entité tête de groupe"/>
       </valueCoding>
     </property>
   </concept>

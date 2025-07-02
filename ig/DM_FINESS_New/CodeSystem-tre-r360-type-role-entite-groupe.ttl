@@ -124,8 +124,7 @@
        fhir:value [
          a fhir:Coding ;
          fhir:system [ fhir:v "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r387-type-groupement"^^xsd:anyURI ] ;
-         fhir:code [ fhir:v "01" ] ;
-         fhir:display [ fhir:v "Groupement de coopération conventionnelle" ]
+         fhir:code [ fhir:v "01" ]
        ]
      ] )
   ] [
@@ -169,16 +168,14 @@
        fhir:value [
          a fhir:Coding ;
          fhir:system [ fhir:v "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r387-type-groupement"^^xsd:anyURI ] ;
-         fhir:code [ fhir:v "01" ] ;
-         fhir:display [ fhir:v "Groupement de coopération conventionnelle" ]
+         fhir:code [ fhir:v "01" ]
        ]
      ] [
        fhir:code [ fhir:v "isTypeRoleMemberOf" ] ;
        fhir:value [
          a fhir:Coding ;
          fhir:system [ fhir:v "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r387-type-groupement"^^xsd:anyURI ] ;
-         fhir:code [ fhir:v "02" ] ;
-         fhir:display [ fhir:v "Groupement de coopération organique" ]
+         fhir:code [ fhir:v "02" ]
        ]
      ] )
   ] [
@@ -222,8 +219,7 @@
        fhir:value [
          a fhir:Coding ;
          fhir:system [ fhir:v "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r387-type-groupement"^^xsd:anyURI ] ;
-         fhir:code [ fhir:v "02" ] ;
-         fhir:display [ fhir:v "Groupement de coopération organique" ]
+         fhir:code [ fhir:v "02" ]
        ]
      ] )
   ] ) . # 

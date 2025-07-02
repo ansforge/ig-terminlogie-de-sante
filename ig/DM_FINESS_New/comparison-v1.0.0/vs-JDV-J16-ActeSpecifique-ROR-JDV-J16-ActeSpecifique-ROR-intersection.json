@@ -1,11 +1,11 @@
 {
   "resourceType" : "ValueSet",
-  "id" : "baeb6b5d-62d5-46e6-8312-a44ae2857eb5-1023",
-  "url" : "http://hl7.org/fhir/comparison/ValueSet/baeb6b5d-62d5-46e6-8312-a44ae2857eb5-1023",
+  "id" : "b5a30a37-6353-4636-a5b8-d8ef17f52dfc-1032",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/b5a30a37-6353-4636-a5b8-d8ef17f52dfc-1032",
   "name" : "IntersectionJDV_J16_ActeSpecifique_RORAndJDV_J16_ActeSpecifique_ROR",
   "title" : "Intersection of null And null",
   "status" : "active",
-  "date" : "2025-06-30T12:24:10+00:00",
+  "date" : "2025-07-02T12:25:18+00:00",
   "compose" : {
     "include" : [{
       "concept" : [{
@@ -1086,11 +1086,11 @@
       },
       {
         "code" : "0500",
-        "display" : "Vaccination antirabique (rage)"
+        "display" : "Vaccination antirabique (rage) post-exposition"
       },
       {
         "code" : "0501",
-        "display" : "Vaccinations internationales et conseils aux voyageurs (fièvre jaune, encéphalite…)"
+        "display" : "Vaccinations des voyageurs"
       },
       {
         "code" : "0503",
@@ -1107,10 +1107,6 @@
       {
         "code" : "0507",
         "display" : "Acupuncture"
-      },
-      {
-        "code" : "0510",
-        "display" : "Dialyse péritonéale"
       },
       {
         "code" : "0512",
@@ -2722,7 +2718,7 @@
       },
       {
         "code" : "1013",
-        "display" : "Vaccination contre les maladies sexuellement transmissibles"
+        "display" : "Vaccination contre les infections sexuellement transmissible (IST)"
       },
       {
         "code" : "1014",
@@ -3626,11 +3622,11 @@
       },
       {
         "code" : "1244",
-        "display" : "Pose d'implants contraceptifs"
+        "display" : "Pose et retrait d’implants contraceptifs"
       },
       {
         "code" : "1245",
-        "display" : "Pose de DIU"
+        "display" : "Pose et retrait de stérilet (DIU/SIU)"
       },
       {
         "code" : "1246",
@@ -3786,7 +3782,7 @@
       },
       {
         "code" : "1284",
-        "display" : "Programme d'ETP labellisée - Insuffisance rénale, dialyse"
+        "display" : "Programme d'ETP labellisée - Maladie rénale chronique (MRC), dialyse"
       },
       {
         "code" : "1285",
@@ -3999,10 +3995,6 @@
       {
         "code" : "1341",
         "display" : "Rééducation pelvi-périnéale"
-      },
-      {
-        "code" : "1342",
-        "display" : "Retrait de Dispositif Intra-Utérin (DIU) (stérilet) ou d'implant contraceptif"
       },
       {
         "code" : "1343",

@@ -109,16 +109,14 @@
       "code" : "hasTypeRoleMember",
       "valueCoding" : {
         "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r360-type-role-entite-groupe",
-        "code" : "M",
-        "display" : "Membre simple"
+        "code" : "M"
       }
     },
     {
       "code" : "hasTypeRoleMember",
       "valueCoding" : {
         "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r360-type-role-entite-groupe",
-        "code" : "S",
-        "display" : "Entité support"
+        "code" : "S"
       }
     }]
   },
@@ -154,16 +152,14 @@
       "code" : "hasTypeRoleMember",
       "valueCoding" : {
         "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r360-type-role-entite-groupe",
-        "code" : "M",
-        "display" : "Membre simple"
+        "code" : "M"
       }
     },
     {
       "code" : "hasTypeRoleMember",
       "valueCoding" : {
         "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r360-type-role-entite-groupe",
-        "code" : "T",
-        "display" : "Entité tête de groupe"
+        "code" : "T"
       }
     }]
   }]

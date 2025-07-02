@@ -95,7 +95,6 @@
       <valueCoding>
         <system value="https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r363-type-engagement"/>
         <code value="CONV"/>
-        <display value="Convention"/>
       </valueCoding>
     </property>
   </concept>
@@ -115,7 +114,6 @@
       <valueCoding>
         <system value="https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r363-type-engagement"/>
         <code value="CONV"/>
-        <display value="Convention"/>
       </valueCoding>
     </property>
   </concept>
@@ -135,7 +133,6 @@
       <valueCoding>
         <system value="https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r363-type-engagement"/>
         <code value="ARRT"/>
-        <display value="Arrêté"/>
       </valueCoding>
     </property>
   </concept>
@@ -163,7 +160,6 @@
       <valueCoding>
         <system value="https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r363-type-engagement"/>
         <code value="CONV"/>
-        <display value="Convention"/>
       </valueCoding>
     </property>
   </concept>
@@ -191,7 +187,6 @@
       <valueCoding>
         <system value="https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r363-type-engagement"/>
         <code value="CONV"/>
-        <display value="Convention"/>
       </valueCoding>
     </property>
   </concept>
@@ -219,7 +214,6 @@
       <valueCoding>
         <system value="https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r363-type-engagement"/>
         <code value="CONV"/>
-        <display value="Convention"/>
       </valueCoding>
     </property>
   </concept>
@@ -247,7 +241,6 @@
       <valueCoding>
         <system value="https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r363-type-engagement"/>
         <code value="CONV"/>
-        <display value="Convention"/>
       </valueCoding>
     </property>
   </concept>
@@ -275,7 +268,6 @@
       <valueCoding>
         <system value="https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r363-type-engagement"/>
         <code value="CONV"/>
-        <display value="Convention"/>
       </valueCoding>
     </property>
   </concept>
@@ -303,7 +295,6 @@
       <valueCoding>
         <system value="https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r363-type-engagement"/>
         <code value="DISP"/>
-        <display value="Dispositif"/>
       </valueCoding>
     </property>
   </concept>
@@ -331,7 +322,6 @@
       <valueCoding>
         <system value="https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r363-type-engagement"/>
         <code value="DISP"/>
-        <display value="Dispositif"/>
       </valueCoding>
     </property>
   </concept>
@@ -360,7 +350,6 @@
       <valueCoding>
         <system value="https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r363-type-engagement"/>
         <code value="DISP"/>
-        <display value="Dispositif"/>
       </valueCoding>
     </property>
   </concept>
@@ -380,7 +369,6 @@
       <valueCoding>
         <system value="https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r363-type-engagement"/>
         <code value="DISP"/>
-        <display value="Dispositif"/>
       </valueCoding>
     </property>
   </concept>
@@ -408,7 +396,6 @@
       <valueCoding>
         <system value="https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r363-type-engagement"/>
         <code value="CONV"/>
-        <display value="Convention"/>
       </valueCoding>
     </property>
   </concept>
@@ -436,7 +423,6 @@
       <valueCoding>
         <system value="https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r363-type-engagement"/>
         <code value="CONV"/>
-        <display value="Convention"/>
       </valueCoding>
     </property>
   </concept>
@@ -464,7 +450,6 @@
       <valueCoding>
         <system value="https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r363-type-engagement"/>
         <code value="CONV"/>
-        <display value="Convention"/>
       </valueCoding>
     </property>
   </concept>
@@ -496,7 +481,6 @@
       <valueCoding>
         <system value="https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r363-type-engagement"/>
         <code value="LABL"/>
-        <display value="Label"/>
       </valueCoding>
     </property>
   </concept>
@@ -516,7 +500,6 @@
       <valueCoding>
         <system value="https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r363-type-engagement"/>
         <code value="CONV"/>
-        <display value="Convention"/>
       </valueCoding>
     </property>
   </concept>
@@ -545,7 +528,6 @@
       <valueCoding>
         <system value="https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r363-type-engagement"/>
         <code value="DISP"/>
-        <display value="Dispositif"/>
       </valueCoding>
     </property>
   </concept>
@@ -573,7 +555,6 @@
       <valueCoding>
         <system value="https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r363-type-engagement"/>
         <code value="CONV"/>
-        <display value="Convention"/>
       </valueCoding>
     </property>
   </concept>
@@ -605,7 +586,6 @@
       <valueCoding>
         <system value="https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r363-type-engagement"/>
         <code value="CONV"/>
-        <display value="Convention"/>
       </valueCoding>
     </property>
   </concept>
@@ -637,7 +617,6 @@
       <valueCoding>
         <system value="https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r363-type-engagement"/>
         <code value="CONV"/>
-        <display value="Convention"/>
       </valueCoding>
     </property>
   </concept>
@@ -665,7 +644,6 @@
       <valueCoding>
         <system value="https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r363-type-engagement"/>
         <code value="CONV"/>
-        <display value="Convention"/>
       </valueCoding>
     </property>
   </concept>
@@ -693,7 +671,6 @@
       <valueCoding>
         <system value="https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r363-type-engagement"/>
         <code value="DISP"/>
-        <display value="Dispositif"/>
       </valueCoding>
     </property>
   </concept>
@@ -721,7 +698,6 @@
       <valueCoding>
         <system value="https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r363-type-engagement"/>
         <code value="CONV"/>
-        <display value="Convention"/>
       </valueCoding>
     </property>
   </concept>
@@ -750,7 +726,6 @@
       <valueCoding>
         <system value="https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r363-type-engagement"/>
         <code value="DISP"/>
-        <display value="Dispositif"/>
       </valueCoding>
     </property>
   </concept>
@@ -770,7 +745,6 @@
       <valueCoding>
         <system value="https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r363-type-engagement"/>
         <code value="CONV"/>
-        <display value="Convention"/>
       </valueCoding>
     </property>
   </concept>
@@ -790,7 +764,6 @@
       <valueCoding>
         <system value="https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r363-type-engagement"/>
         <code value="DISP"/>
-        <display value="Dispositif"/>
       </valueCoding>
     </property>
   </concept>
@@ -818,7 +791,6 @@
       <valueCoding>
         <system value="https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r363-type-engagement"/>
         <code value="DISP"/>
-        <display value="Dispositif"/>
       </valueCoding>
     </property>
   </concept>
@@ -850,7 +822,6 @@
       <valueCoding>
         <system value="https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r363-type-engagement"/>
         <code value="LABL"/>
-        <display value="Label"/>
       </valueCoding>
     </property>
   </concept>
@@ -871,7 +842,6 @@
       <valueCoding>
         <system value="https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r363-type-engagement"/>
         <code value="CONV"/>
-        <display value="Convention"/>
       </valueCoding>
     </property>
   </concept>
@@ -903,7 +873,6 @@
       <valueCoding>
         <system value="https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r363-type-engagement"/>
         <code value="CONV"/>
-        <display value="Convention"/>
       </valueCoding>
     </property>
   </concept>
@@ -931,7 +900,6 @@
       <valueCoding>
         <system value="https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r363-type-engagement"/>
         <code value="DISP"/>
-        <display value="Dispositif"/>
       </valueCoding>
     </property>
   </concept>
@@ -951,7 +919,6 @@
       <valueCoding>
         <system value="https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r363-type-engagement"/>
         <code value="DISP"/>
-        <display value="Dispositif"/>
       </valueCoding>
     </property>
   </concept>
@@ -979,7 +946,6 @@
       <valueCoding>
         <system value="https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r363-type-engagement"/>
         <code value="DISP"/>
-        <display value="Dispositif"/>
       </valueCoding>
     </property>
   </concept>
@@ -1007,7 +973,6 @@
       <valueCoding>
         <system value="https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r363-type-engagement"/>
         <code value="CONV"/>
-        <display value="Convention"/>
       </valueCoding>
     </property>
   </concept>

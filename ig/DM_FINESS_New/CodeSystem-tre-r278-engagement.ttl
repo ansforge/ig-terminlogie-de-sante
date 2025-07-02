@@ -108,8 +108,7 @@
        fhir:value [
          a fhir:Coding ;
          fhir:system [ fhir:v "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r363-type-engagement"^^xsd:anyURI ] ;
-         fhir:code [ fhir:v "CONV" ] ;
-         fhir:display [ fhir:v "Convention" ]
+         fhir:code [ fhir:v "CONV" ]
        ]
      ] )
   ] [
@@ -132,8 +131,7 @@
        fhir:value [
          a fhir:Coding ;
          fhir:system [ fhir:v "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r363-type-engagement"^^xsd:anyURI ] ;
-         fhir:code [ fhir:v "CONV" ] ;
-         fhir:display [ fhir:v "Convention" ]
+         fhir:code [ fhir:v "CONV" ]
        ]
      ] )
   ] [
@@ -156,8 +154,7 @@
        fhir:value [
          a fhir:Coding ;
          fhir:system [ fhir:v "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r363-type-engagement"^^xsd:anyURI ] ;
-         fhir:code [ fhir:v "ARRT" ] ;
-         fhir:display [ fhir:v "Arrêté" ]
+         fhir:code [ fhir:v "ARRT" ]
        ]
      ] )
   ] [
@@ -189,8 +186,7 @@
        fhir:value [
          a fhir:Coding ;
          fhir:system [ fhir:v "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r363-type-engagement"^^xsd:anyURI ] ;
-         fhir:code [ fhir:v "CONV" ] ;
-         fhir:display [ fhir:v "Convention" ]
+         fhir:code [ fhir:v "CONV" ]
        ]
      ] )
   ] [
@@ -222,8 +218,7 @@
        fhir:value [
          a fhir:Coding ;
          fhir:system [ fhir:v "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r363-type-engagement"^^xsd:anyURI ] ;
-         fhir:code [ fhir:v "CONV" ] ;
-         fhir:display [ fhir:v "Convention" ]
+         fhir:code [ fhir:v "CONV" ]
        ]
      ] )
   ] [
@@ -255,8 +250,7 @@
        fhir:value [
          a fhir:Coding ;
          fhir:system [ fhir:v "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r363-type-engagement"^^xsd:anyURI ] ;
-         fhir:code [ fhir:v "CONV" ] ;
-         fhir:display [ fhir:v "Convention" ]
+         fhir:code [ fhir:v "CONV" ]
        ]
      ] )
   ] [
@@ -288,8 +282,7 @@
        fhir:value [
          a fhir:Coding ;
          fhir:system [ fhir:v "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r363-type-engagement"^^xsd:anyURI ] ;
-         fhir:code [ fhir:v "CONV" ] ;
-         fhir:display [ fhir:v "Convention" ]
+         fhir:code [ fhir:v "CONV" ]
        ]
      ] )
   ] [
@@ -321,8 +314,7 @@
        fhir:value [
          a fhir:Coding ;
          fhir:system [ fhir:v "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r363-type-engagement"^^xsd:anyURI ] ;
-         fhir:code [ fhir:v "CONV" ] ;
-         fhir:display [ fhir:v "Convention" ]
+         fhir:code [ fhir:v "CONV" ]
        ]
      ] )
   ] [
@@ -354,8 +346,7 @@
        fhir:value [
          a fhir:Coding ;
          fhir:system [ fhir:v "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r363-type-engagement"^^xsd:anyURI ] ;
-         fhir:code [ fhir:v "DISP" ] ;
-         fhir:display [ fhir:v "Dispositif" ]
+         fhir:code [ fhir:v "DISP" ]
        ]
      ] )
   ] [
@@ -387,8 +378,7 @@
        fhir:value [
          a fhir:Coding ;
          fhir:system [ fhir:v "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r363-type-engagement"^^xsd:anyURI ] ;
-         fhir:code [ fhir:v "DISP" ] ;
-         fhir:display [ fhir:v "Dispositif" ]
+         fhir:code [ fhir:v "DISP" ]
        ]
      ] )
   ] [
@@ -421,8 +411,7 @@
        fhir:value [
          a fhir:Coding ;
          fhir:system [ fhir:v "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r363-type-engagement"^^xsd:anyURI ] ;
-         fhir:code [ fhir:v "DISP" ] ;
-         fhir:display [ fhir:v "Dispositif" ]
+         fhir:code [ fhir:v "DISP" ]
        ]
      ] )
   ] [
@@ -445,8 +434,7 @@
        fhir:value [
          a fhir:Coding ;
          fhir:system [ fhir:v "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r363-type-engagement"^^xsd:anyURI ] ;
-         fhir:code [ fhir:v "DISP" ] ;
-         fhir:display [ fhir:v "Dispositif" ]
+         fhir:code [ fhir:v "DISP" ]
        ]
      ] )
   ] [
@@ -478,8 +466,7 @@
        fhir:value [
          a fhir:Coding ;
          fhir:system [ fhir:v "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r363-type-engagement"^^xsd:anyURI ] ;
-         fhir:code [ fhir:v "CONV" ] ;
-         fhir:display [ fhir:v "Convention" ]
+         fhir:code [ fhir:v "CONV" ]
        ]
      ] )
   ] [
@@ -511,8 +498,7 @@
        fhir:value [
          a fhir:Coding ;
          fhir:system [ fhir:v "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r363-type-engagement"^^xsd:anyURI ] ;
-         fhir:code [ fhir:v "CONV" ] ;
-         fhir:display [ fhir:v "Convention" ]
+         fhir:code [ fhir:v "CONV" ]
        ]
      ] )
   ] [
@@ -544,8 +530,7 @@
        fhir:value [
          a fhir:Coding ;
          fhir:system [ fhir:v "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r363-type-engagement"^^xsd:anyURI ] ;
-         fhir:code [ fhir:v "CONV" ] ;
-         fhir:display [ fhir:v "Convention" ]
+         fhir:code [ fhir:v "CONV" ]
        ]
      ] )
   ] [
@@ -583,8 +568,7 @@
        fhir:value [
          a fhir:Coding ;
          fhir:system [ fhir:v "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r363-type-engagement"^^xsd:anyURI ] ;
-         fhir:code [ fhir:v "LABL" ] ;
-         fhir:display [ fhir:v "Label" ]
+         fhir:code [ fhir:v "LABL" ]
        ]
      ] )
   ] [
@@ -607,8 +591,7 @@
        fhir:value [
          a fhir:Coding ;
          fhir:system [ fhir:v "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r363-type-engagement"^^xsd:anyURI ] ;
-         fhir:code [ fhir:v "CONV" ] ;
-         fhir:display [ fhir:v "Convention" ]
+         fhir:code [ fhir:v "CONV" ]
        ]
      ] )
   ] [
@@ -641,8 +624,7 @@
        fhir:value [
          a fhir:Coding ;
          fhir:system [ fhir:v "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r363-type-engagement"^^xsd:anyURI ] ;
-         fhir:code [ fhir:v "DISP" ] ;
-         fhir:display [ fhir:v "Dispositif" ]
+         fhir:code [ fhir:v "DISP" ]
        ]
      ] )
   ] [
@@ -674,8 +656,7 @@
        fhir:value [
          a fhir:Coding ;
          fhir:system [ fhir:v "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r363-type-engagement"^^xsd:anyURI ] ;
-         fhir:code [ fhir:v "CONV" ] ;
-         fhir:display [ fhir:v "Convention" ]
+         fhir:code [ fhir:v "CONV" ]
        ]
      ] )
   ] [
@@ -713,8 +694,7 @@
        fhir:value [
          a fhir:Coding ;
          fhir:system [ fhir:v "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r363-type-engagement"^^xsd:anyURI ] ;
-         fhir:code [ fhir:v "CONV" ] ;
-         fhir:display [ fhir:v "Convention" ]
+         fhir:code [ fhir:v "CONV" ]
        ]
      ] )
   ] [
@@ -752,8 +732,7 @@
        fhir:value [
          a fhir:Coding ;
          fhir:system [ fhir:v "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r363-type-engagement"^^xsd:anyURI ] ;
-         fhir:code [ fhir:v "CONV" ] ;
-         fhir:display [ fhir:v "Convention" ]
+         fhir:code [ fhir:v "CONV" ]
        ]
      ] )
   ] [
@@ -785,8 +764,7 @@
        fhir:value [
          a fhir:Coding ;
          fhir:system [ fhir:v "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r363-type-engagement"^^xsd:anyURI ] ;
-         fhir:code [ fhir:v "CONV" ] ;
-         fhir:display [ fhir:v "Convention" ]
+         fhir:code [ fhir:v "CONV" ]
        ]
      ] )
   ] [
@@ -818,8 +796,7 @@
        fhir:value [
          a fhir:Coding ;
          fhir:system [ fhir:v "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r363-type-engagement"^^xsd:anyURI ] ;
-         fhir:code [ fhir:v "DISP" ] ;
-         fhir:display [ fhir:v "Dispositif" ]
+         fhir:code [ fhir:v "DISP" ]
        ]
      ] )
   ] [
@@ -851,8 +828,7 @@
        fhir:value [
          a fhir:Coding ;
          fhir:system [ fhir:v "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r363-type-engagement"^^xsd:anyURI ] ;
-         fhir:code [ fhir:v "CONV" ] ;
-         fhir:display [ fhir:v "Convention" ]
+         fhir:code [ fhir:v "CONV" ]
        ]
      ] )
   ] [
@@ -885,8 +861,7 @@
        fhir:value [
          a fhir:Coding ;
          fhir:system [ fhir:v "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r363-type-engagement"^^xsd:anyURI ] ;
-         fhir:code [ fhir:v "DISP" ] ;
-         fhir:display [ fhir:v "Dispositif" ]
+         fhir:code [ fhir:v "DISP" ]
        ]
      ] )
   ] [
@@ -909,8 +884,7 @@
        fhir:value [
          a fhir:Coding ;
          fhir:system [ fhir:v "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r363-type-engagement"^^xsd:anyURI ] ;
-         fhir:code [ fhir:v "CONV" ] ;
-         fhir:display [ fhir:v "Convention" ]
+         fhir:code [ fhir:v "CONV" ]
        ]
      ] )
   ] [
@@ -933,8 +907,7 @@
        fhir:value [
          a fhir:Coding ;
          fhir:system [ fhir:v "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r363-type-engagement"^^xsd:anyURI ] ;
-         fhir:code [ fhir:v "DISP" ] ;
-         fhir:display [ fhir:v "Dispositif" ]
+         fhir:code [ fhir:v "DISP" ]
        ]
      ] )
   ] [
@@ -966,8 +939,7 @@
        fhir:value [
          a fhir:Coding ;
          fhir:system [ fhir:v "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r363-type-engagement"^^xsd:anyURI ] ;
-         fhir:code [ fhir:v "DISP" ] ;
-         fhir:display [ fhir:v "Dispositif" ]
+         fhir:code [ fhir:v "DISP" ]
        ]
      ] )
   ] [
@@ -1005,8 +977,7 @@
        fhir:value [
          a fhir:Coding ;
          fhir:system [ fhir:v "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r363-type-engagement"^^xsd:anyURI ] ;
-         fhir:code [ fhir:v "LABL" ] ;
-         fhir:display [ fhir:v "Label" ]
+         fhir:code [ fhir:v "LABL" ]
        ]
      ] )
   ] [
@@ -1030,8 +1001,7 @@
        fhir:value [
          a fhir:Coding ;
          fhir:system [ fhir:v "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r363-type-engagement"^^xsd:anyURI ] ;
-         fhir:code [ fhir:v "CONV" ] ;
-         fhir:display [ fhir:v "Convention" ]
+         fhir:code [ fhir:v "CONV" ]
        ]
      ] )
   ] [
@@ -1069,8 +1039,7 @@
        fhir:value [
          a fhir:Coding ;
          fhir:system [ fhir:v "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r363-type-engagement"^^xsd:anyURI ] ;
-         fhir:code [ fhir:v "CONV" ] ;
-         fhir:display [ fhir:v "Convention" ]
+         fhir:code [ fhir:v "CONV" ]
        ]
      ] )
   ] [
@@ -1102,8 +1071,7 @@
        fhir:value [
          a fhir:Coding ;
          fhir:system [ fhir:v "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r363-type-engagement"^^xsd:anyURI ] ;
-         fhir:code [ fhir:v "DISP" ] ;
-         fhir:display [ fhir:v "Dispositif" ]
+         fhir:code [ fhir:v "DISP" ]
        ]
      ] )
   ] [
@@ -1126,8 +1094,7 @@
        fhir:value [
          a fhir:Coding ;
          fhir:system [ fhir:v "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r363-type-engagement"^^xsd:anyURI ] ;
-         fhir:code [ fhir:v "DISP" ] ;
-         fhir:display [ fhir:v "Dispositif" ]
+         fhir:code [ fhir:v "DISP" ]
        ]
      ] )
   ] [
@@ -1159,8 +1126,7 @@
        fhir:value [
          a fhir:Coding ;
          fhir:system [ fhir:v "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r363-type-engagement"^^xsd:anyURI ] ;
-         fhir:code [ fhir:v "DISP" ] ;
-         fhir:display [ fhir:v "Dispositif" ]
+         fhir:code [ fhir:v "DISP" ]
        ]
      ] )
   ] [
@@ -1192,8 +1158,7 @@
        fhir:value [
          a fhir:Coding ;
          fhir:system [ fhir:v "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r363-type-engagement"^^xsd:anyURI ] ;
-         fhir:code [ fhir:v "CONV" ] ;
-         fhir:display [ fhir:v "Convention" ]
+         fhir:code [ fhir:v "CONV" ]
        ]
      ] )
   ] ) . # 

@@ -1,11 +1,11 @@
 {
   "resourceType" : "ValueSet",
-  "id" : "baeb6b5d-62d5-46e6-8312-a44ae2857eb5-851",
-  "url" : "http://hl7.org/fhir/comparison/ValueSet/baeb6b5d-62d5-46e6-8312-a44ae2857eb5-851",
+  "id" : "b5a30a37-6353-4636-a5b8-d8ef17f52dfc-860",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/b5a30a37-6353-4636-a5b8-d8ef17f52dfc-860",
   "name" : "UnionJDV_J107_EnsembleSavoirFaire_RASSAndJDV_J107_EnsembleSavoirFaire_RASS",
   "title" : "Union of null And null",
   "status" : "active",
-  "date" : "2025-06-30T12:24:10+00:00",
+  "date" : "2025-07-02T12:25:18+00:00",
   "jurisdiction" : [{
     "coding" : [{
       "system" : "urn:iso:std:iso:3166",
@@ -1091,6 +1091,13 @@
       {
         "code" : "SST26",
         "display" : "Urgences pédiatriques"
+      }]
+    },
+    {
+      "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r394-competence-metier",
+      "concept" : [{
+        "code" : "CM0001",
+        "display" : "Certificat de décès"
       }]
     }]
   }

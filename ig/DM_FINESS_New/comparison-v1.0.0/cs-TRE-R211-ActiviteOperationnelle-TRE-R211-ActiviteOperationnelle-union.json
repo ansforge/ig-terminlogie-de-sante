@@ -1,11 +1,11 @@
 {
   "resourceType" : "CodeSystem",
-  "id" : "baeb6b5d-62d5-46e6-8312-a44ae2857eb5-182",
-  "url" : "http://hl7.org/fhir/comparison/CodeSystem/baeb6b5d-62d5-46e6-8312-a44ae2857eb5-182",
+  "id" : "b5a30a37-6353-4636-a5b8-d8ef17f52dfc-182",
+  "url" : "http://hl7.org/fhir/comparison/CodeSystem/b5a30a37-6353-4636-a5b8-d8ef17f52dfc-182",
   "name" : "UnionTRE_R211_ActiviteOperationnelleAndTRE_R211_ActiviteOperationnelle",
   "title" : "Union of null And null",
   "status" : "active",
-  "date" : "2025-06-30T12:24:09+00:00",
+  "date" : "2025-07-02T12:25:17+00:00",
   "jurisdiction" : [{
     "coding" : [{
       "system" : "urn:iso:std:iso:3166",
@@ -7569,6 +7569,10 @@
       "valueDateTime" : "2025-03-28T12:00:00+01:00"
     },
     {
+      "code" : "dateMaj",
+      "valueDateTime" : "2025-06-20T12:00:00+01:00"
+    },
+    {
       "code" : "status",
       "valueCode" : "active"
     }]
@@ -7596,6 +7600,10 @@
     {
       "code" : "dateMaj",
       "valueDateTime" : "2025-03-28T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2025-06-20T12:00:00+01:00"
     },
     {
       "code" : "status",
@@ -16080,6 +16088,10 @@
       "valueDateTime" : "2023-01-27T12:00:00+01:00"
     },
     {
+      "code" : "dateMaj",
+      "valueDateTime" : "2025-06-20T12:00:00+01:00"
+    },
+    {
       "code" : "status",
       "valueCode" : "active"
     }]
@@ -16578,6 +16590,10 @@
       "valueDateTime" : "2023-06-30T12:00:00+01:00"
     },
     {
+      "code" : "dateMaj",
+      "valueDateTime" : "2025-06-20T12:00:00+01:00"
+    },
+    {
       "code" : "status",
       "valueCode" : "active"
     }]
@@ -16634,6 +16650,10 @@
     {
       "code" : "dateMaj",
       "valueDateTime" : "2023-06-30T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2025-06-20T12:00:00+01:00"
     },
     {
       "code" : "status",
@@ -17225,6 +17245,10 @@
     {
       "code" : "dateMaj",
       "valueDateTime" : "2024-05-31T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2025-06-23T12:00:00+01:00"
     },
     {
       "code" : "status",
@@ -18151,6 +18175,180 @@
     {
       "code" : "dateMaj",
       "valueDateTime" : "2025-04-25T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    }]
+  },
+  {
+    "code" : "583",
+    "display" : "Dialyse péritonéale",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2025-06-20T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2025-06-20T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    }]
+  },
+  {
+    "code" : "584",
+    "display" : "Diététique des Troubles des Conduites Alimentaires (TCA)",
+    "definition" : "Prise en soin diététique  des troubles du comportement alimentaire (anorexie, boulimie, hyperphagie) comprenant  la régulation alimentaire, l’image corporelle et les émotions.",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2025-06-20T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2025-06-23T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    }]
+  },
+  {
+    "code" : "585",
+    "display" : "Diététique orientation Dénutrition",
+    "definition" : "Accompagnement des patients à risque ou en situation de dénutrition pour prévenir ou corriger les déficits nutritionnels.",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2025-06-20T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2025-06-20T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    }]
+  },
+  {
+    "code" : "586",
+    "display" : "Diététique orientation Gynécologie / Obstétrique",
+    "definition" : "Prise en charge nutritionnelle des femmes tout au long de leur parcours gynécologique et obstétrique, comprennant  notamment la grossesse, aux parturientes présentant des pathologies spécifiques (diabète gestationnel, troubles métaboliques, surpoids, dénutrition, etc.) ou gynécologique (SOPK, endométriose, ménopause) ou leur grossesse.",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2025-06-20T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2025-06-23T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    }]
+  },
+  {
+    "code" : "587",
+    "display" : "Diététique orientation maladies inflammatoires et malabsorptives (MICI, SII, NASH)",
+    "definition" : "Prise en charge nutritionnelle individualisée visant à limiter les symptômes, prévenir les carences et adapter l’alimentation selon les phases évolutives de pathologies digestives inflammatoire chroniques.",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "Diététique orientation maladies inflammatoires et malabsorptives"
+    }],
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2025-06-20T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2025-06-23T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    }]
+  },
+  {
+    "code" : "588",
+    "display" : "Diététique orientation Nutrition du sportif",
+    "definition" : "Optimisation de l’alimentation pour soutenir la performance, la récupération et la prévention des blessures, chez le sportif  en lien avec les objectifs et le niveau de pratique.",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2025-06-20T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2025-06-23T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    }]
+  },
+  {
+    "code" : "589",
+    "display" : "Diététique orientation Périnatalité",
+    "definition" : "Soutien nutritionnel dans le cadre du projet parental, de la grossesse, de l’allaitement, et de la diversification alimentaire du nourrisson.",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2025-06-20T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2025-06-20T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    }]
+  },
+  {
+    "code" : "590",
+    "display" : "Échographie gynécologique",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2025-06-20T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2025-06-20T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    }]
+  },
+  {
+    "code" : "591",
+    "display" : "Ostéopathie médicale",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2025-06-20T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2025-06-20T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    }]
+  },
+  {
+    "code" : "592",
+    "display" : "Prévention et lutte contre la tuberculose",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2025-06-20T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2025-06-20T12:00:00+01:00"
     },
     {
       "code" : "status",

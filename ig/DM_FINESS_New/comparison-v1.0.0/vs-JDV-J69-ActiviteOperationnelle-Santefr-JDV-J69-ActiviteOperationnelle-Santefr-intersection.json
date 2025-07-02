@@ -1,11 +1,11 @@
 {
   "resourceType" : "ValueSet",
-  "id" : "baeb6b5d-62d5-46e6-8312-a44ae2857eb5-1494",
-  "url" : "http://hl7.org/fhir/comparison/ValueSet/baeb6b5d-62d5-46e6-8312-a44ae2857eb5-1494",
+  "id" : "b5a30a37-6353-4636-a5b8-d8ef17f52dfc-1503",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/b5a30a37-6353-4636-a5b8-d8ef17f52dfc-1503",
   "name" : "IntersectionJDV_J69_ActiviteOperationnelle_SantefrAndJDV_J69_ActiviteOperationnelle_Santefr",
   "title" : "Intersection of JDV J69 ActiviteOperationnelle Santefr And JDV J69 ActiviteOperationnelle Santefr",
   "status" : "retired",
-  "date" : "2025-06-30T12:24:10+00:00",
+  "date" : "2025-07-02T12:25:18+00:00",
   "compose" : {
     "include" : [{
       "concept" : [{

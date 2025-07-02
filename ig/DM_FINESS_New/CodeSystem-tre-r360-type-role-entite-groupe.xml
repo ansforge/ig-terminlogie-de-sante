@@ -108,7 +108,6 @@
       <valueCoding>
         <system value="https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r387-type-groupement"/>
         <code value="01"/>
-        <display value="Groupement de coopération conventionnelle"/>
       </valueCoding>
     </property>
   </concept>
@@ -144,7 +143,6 @@
       <valueCoding>
         <system value="https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r387-type-groupement"/>
         <code value="01"/>
-        <display value="Groupement de coopération conventionnelle"/>
       </valueCoding>
     </property>
     <property>
@@ -152,7 +150,6 @@
       <valueCoding>
         <system value="https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r387-type-groupement"/>
         <code value="02"/>
-        <display value="Groupement de coopération organique"/>
       </valueCoding>
     </property>
   </concept>
@@ -188,7 +185,6 @@
       <valueCoding>
         <system value="https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r387-type-groupement"/>
         <code value="02"/>
-        <display value="Groupement de coopération organique"/>
       </valueCoding>
     </property>
   </concept>

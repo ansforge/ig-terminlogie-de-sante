@@ -1,11 +1,11 @@
 {
   "resourceType" : "CodeSystem",
-  "id" : "baeb6b5d-62d5-46e6-8312-a44ae2857eb5-563",
-  "url" : "http://hl7.org/fhir/comparison/CodeSystem/baeb6b5d-62d5-46e6-8312-a44ae2857eb5-563",
+  "id" : "b5a30a37-6353-4636-a5b8-d8ef17f52dfc-563",
+  "url" : "http://hl7.org/fhir/comparison/CodeSystem/b5a30a37-6353-4636-a5b8-d8ef17f52dfc-563",
   "name" : "UnionTRE_R344_NiveauExpertiseAndTRE_R344_NiveauExpertise",
   "title" : "Union of null And null",
   "status" : "active",
-  "date" : "2025-06-30T12:24:10+00:00",
+  "date" : "2025-07-02T12:25:17+00:00",
   "jurisdiction" : [{
     "coding" : [{
       "system" : "urn:iso:std:iso:3166",
@@ -1133,6 +1133,7 @@
   {
     "code" : "39",
     "display" : "Filière Obésité - Niveau 1 Conventionné Centres Spécialisés Obésité (CSO)",
+    "definition" : "Intervention de premier niveau de recours dans la filière de soin coordonnée obésité, devant être conventionnée avec un centre spécialisé obésité (CSO).",
     "designation" : [{
       "language" : "fr-FR",
       "use" : {
@@ -1160,6 +1161,10 @@
     {
       "code" : "dateMaj",
       "valueDateTime" : "2025-01-31T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2025-06-23T12:00:00+01:00"
     },
     {
       "code" : "status",

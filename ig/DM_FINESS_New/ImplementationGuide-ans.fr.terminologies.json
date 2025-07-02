@@ -33349,18 +33349,6 @@
     {
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "CodeSystem"
-      }],
-      "reference" : {
-        "reference" : "CodeSystem/11000315107-20240621"
-      },
-      "name" : "French module",
-      "description" : "SNOMED CT is the most comprehensive and precise clinical health terminology product in the world, owned and distributed around the world by The International Health Terminology Standards Development Organisation (IHTSDO).",
-      "exampleBoolean" : false
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "ValueSet"
       }],
       "reference" : {
@@ -35540,6 +35528,54 @@
       },
       "name" : "Jdv J365 Type Fermeture Ege Finess",
       "description" : "Jeu de valeurs FINESS contenant les types de fermeture dédiées aux entités géographiques FINESS",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      }],
+      "reference" : {
+        "reference" : "ValueSet/jdv-j366-statut-bilan-projet-personnalise-ms"
+      },
+      "name" : "Jdv J366 Statut Bilan Projet Personnalise Ms",
+      "description" : "Statut du bilan du projet personnalisé.",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      }],
+      "reference" : {
+        "reference" : "ValueSet/jdv-j367-type-projet-personnalise-ms"
+      },
+      "name" : "Jdv J367 Type Projet Personnalise Ms",
+      "description" : "Cette nomenclature donne le type de projet personnalisé qui est un document co-construit par l'usager, son entourage familial et professionnel du médico-social.",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      }],
+      "reference" : {
+        "reference" : "ValueSet/jdv-j368-categorie-etablissement-cisis"
+      },
+      "name" : "Jdv J368 Categorie Etablissement Cisis",
+      "description" : "JDV à l'image de l'ensemble des valeurs actives de la terminologie TRE_R66-CategorieEtablissement",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      }],
+      "reference" : {
+        "reference" : "ValueSet/jdv-j370-type-contrat-sejour-ms"
+      },
+      "name" : "Jdv J370 Type Contrat Sejour Ms",
+      "description" : "Type de contrat conclu entre l’établissement/service et la personne/son représentant légal.",
       "exampleBoolean" : false
     },
     {
@@ -42202,6 +42238,18 @@
     {
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "CodeSystem"
+      }],
+      "reference" : {
+        "reference" : "CodeSystem/900000000000207008-20250601"
+      },
+      "name" : "SNOMED CT core",
+      "description" : "SNOMED CT is the most comprehensive and precise clinical health terminology product in the world, owned and distributed around the world by The International Health Terminology Standards Development Organisation (IHTSDO).",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "NamingSystem"
       }],
       "reference" : {
@@ -42611,10 +42659,58 @@
         "valueString" : "CodeSystem"
       }],
       "reference" : {
+        "reference" : "CodeSystem/tre-r389-statut-bilan-projet-personnalise"
+      },
+      "name" : "Tre R389 Statut Bilan Projet Personnalise",
+      "description" : "Statut du bilan du projet personnalisé.",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "CodeSystem"
+      }],
+      "reference" : {
+        "reference" : "CodeSystem/tre-r390-type-projet-personnalise"
+      },
+      "name" : "Tre R390 Type Projet Personnalise",
+      "description" : "Cette nomenclature donne le type de projet personnalisé qui est un document co-construit par l'usager, son entourage familial et professionnel du médico-social.",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "CodeSystem"
+      }],
+      "reference" : {
         "reference" : "CodeSystem/tre-r392-type-act-smsse-regulee"
       },
       "name" : "Tre R392 Type Act Smsse Regulee",
       "description" : "Type activité SMSSE régulée",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "CodeSystem"
+      }],
+      "reference" : {
+        "reference" : "CodeSystem/tre-r393-type-contrat-sejour"
+      },
+      "name" : "Tre R393 Type Contrat Sejour",
+      "description" : "Type de contrat conclu entre l’établissement/service et la personne/son représentant légal lors de son entrée en établissement",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "CodeSystem"
+      }],
+      "reference" : {
+        "reference" : "CodeSystem/tre-r394-competence-metier"
+      },
+      "name" : "Tre R394 Competence Metier",
+      "description" : "Type de savoir-faire opérationnel, transversal ou spécifique, acquis et exercé à titre non exclusif dans le cadre d’une activité professionnelle reconnue.",
       "exampleBoolean" : false
     },
     {
@@ -43297,7 +43393,6 @@
         "reference" : "CodeSystem/TRE-R210-ActeSpecifique"
       },
       "name" : "TRE_R210_ActeSpecifique",
-      "description" : "Action menée par un ou plusieurs acteur(s) de santé dans le cadre d'une activité. Cet acte peut correspondre à une technique spécialisée ou traduire une expertise discriminante dans le parcours de santé.",
       "exampleBoolean" : false
     },
     {

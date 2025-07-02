@@ -797,6 +797,9 @@
          <concept code="SST26"
                   codeSystem="1.2.250.1.213.2.76"
                   displayName="Urgences pédiatriques"/>
+         <concept code="CM0001"
+                  codeSystem="1.2.250.1.213.1.6.1.375"
+                  displayName="Certificat de décès"/>
       </ConceptList>
    </ValueSet>
 </RetrieveValueSetResponse>

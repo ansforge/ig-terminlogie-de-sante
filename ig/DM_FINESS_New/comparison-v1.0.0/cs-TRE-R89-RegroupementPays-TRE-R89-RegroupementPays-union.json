@@ -1,11 +1,11 @@
 {
   "resourceType" : "CodeSystem",
-  "id" : "baeb6b5d-62d5-46e6-8312-a44ae2857eb5-740",
-  "url" : "http://hl7.org/fhir/comparison/CodeSystem/baeb6b5d-62d5-46e6-8312-a44ae2857eb5-740",
+  "id" : "b5a30a37-6353-4636-a5b8-d8ef17f52dfc-740",
+  "url" : "http://hl7.org/fhir/comparison/CodeSystem/b5a30a37-6353-4636-a5b8-d8ef17f52dfc-740",
   "name" : "UnionTRE_R89_RegroupementPaysAndTRE_R89_RegroupementPays",
   "title" : "Union of null And null",
   "status" : "active",
-  "date" : "2025-06-30T12:24:10+00:00",
+  "date" : "2025-07-02T12:25:17+00:00",
   "jurisdiction" : [{
     "coding" : [{
       "system" : "urn:iso:std:iso:3166",

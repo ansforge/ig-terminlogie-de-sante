@@ -1,11 +1,11 @@
 {
   "resourceType" : "ValueSet",
-  "id" : "baeb6b5d-62d5-46e6-8312-a44ae2857eb5-1022",
-  "url" : "http://hl7.org/fhir/comparison/ValueSet/baeb6b5d-62d5-46e6-8312-a44ae2857eb5-1022",
+  "id" : "b5a30a37-6353-4636-a5b8-d8ef17f52dfc-1031",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/b5a30a37-6353-4636-a5b8-d8ef17f52dfc-1031",
   "name" : "UnionJDV_J16_ActeSpecifique_RORAndJDV_J16_ActeSpecifique_ROR",
   "title" : "Union of null And null",
   "status" : "active",
-  "date" : "2025-06-30T12:24:10+00:00",
+  "date" : "2025-07-02T12:25:18+00:00",
   "jurisdiction" : [{
     "coding" : [{
       "system" : "urn:iso:std:iso:3166",
@@ -1092,11 +1092,11 @@
       },
       {
         "code" : "0500",
-        "display" : "Vaccination antirabique (rage)"
+        "display" : "Vaccination antirabique (rage) post-exposition"
       },
       {
         "code" : "0501",
-        "display" : "Vaccinations internationales et conseils aux voyageurs (fièvre jaune, encéphalite…)"
+        "display" : "Vaccinations des voyageurs"
       },
       {
         "code" : "0503",
@@ -2728,7 +2728,7 @@
       },
       {
         "code" : "1013",
-        "display" : "Vaccination contre les maladies sexuellement transmissibles"
+        "display" : "Vaccination contre les infections sexuellement transmissible (IST)"
       },
       {
         "code" : "1014",
@@ -3632,11 +3632,11 @@
       },
       {
         "code" : "1244",
-        "display" : "Pose d'implants contraceptifs"
+        "display" : "Pose et retrait d’implants contraceptifs"
       },
       {
         "code" : "1245",
-        "display" : "Pose de DIU"
+        "display" : "Pose et retrait de stérilet (DIU/SIU)"
       },
       {
         "code" : "1246",
@@ -3792,7 +3792,7 @@
       },
       {
         "code" : "1284",
-        "display" : "Programme d'ETP labellisée - Insuffisance rénale, dialyse"
+        "display" : "Programme d'ETP labellisée - Maladie rénale chronique (MRC), dialyse"
       },
       {
         "code" : "1285",
@@ -4637,6 +4637,122 @@
       {
         "code" : "1511",
         "display" : "Accompagnement précoce des déficiences"
+      },
+      {
+        "code" : "0897",
+        "display" : "Drainage Vaccination épidémie Grippe"
+      },
+      {
+        "code" : "0898",
+        "display" : "Dépistage du diabète"
+      },
+      {
+        "code" : "1512",
+        "display" : "Consultation spécialisée en allaitement"
+      },
+      {
+        "code" : "1513",
+        "display" : "Consultations néonatales pédiatriques"
+      },
+      {
+        "code" : "1514",
+        "display" : "Dialyse longue nocturne"
+      },
+      {
+        "code" : "1515",
+        "display" : "Diathermie et électrothérapie combinées en soins pelvi-périnéaux"
+      },
+      {
+        "code" : "1516",
+        "display" : "Évaluation et adaptation diététique de nutrition artificielle"
+      },
+      {
+        "code" : "1517",
+        "display" : "Parcours surpoids et obésité pédiatrique «\u00a0Mission : Retrouve ton Cap\u00a0»"
+      },
+      {
+        "code" : "1518",
+        "display" : "Participation au dispositif HandiGynéco"
+      },
+      {
+        "code" : "1519",
+        "display" : "Séance de préparation à la naissance et à la parentalité individuelle"
+      },
+      {
+        "code" : "1520",
+        "display" : "Soin diététique et nutritionnel adulte pendant et après les traitements oncologiques"
+      },
+      {
+        "code" : "1521",
+        "display" : "Soin diététique et nutritionnel des alimentations pauvres en FODMAPs"
+      },
+      {
+        "code" : "1522",
+        "display" : "Soin diététique et nutritionnel des allergies alimentaires"
+      },
+      {
+        "code" : "1523",
+        "display" : "Soin diététique et nutritionnel des personnes en situation de handicap"
+      },
+      {
+        "code" : "1524",
+        "display" : "Soin diététique et nutritionnel des Troubles Alimentaires Pédiatriques (TAP)"
+      },
+      {
+        "code" : "1525",
+        "display" : "Soin diététique et nutritionnel des troubles de la déglutition ou dysphagies"
+      },
+      {
+        "code" : "1526",
+        "display" : "Soin diététique et nutritionnel pédiatrique pendant et après les traitements oncologiques"
+      },
+      {
+        "code" : "1527",
+        "display" : "Soin diététique et nutritionnel pour la gestion des troubles hormonaux (hypothyroïdie, SOPK, endométriose)"
+      },
+      {
+        "code" : "1528",
+        "display" : "Soin diététique et nutritionnel\u00a0des diabètes"
+      },
+      {
+        "code" : "1529",
+        "display" : "Soins gynécologiques pour personnes en situation de handicap"
+      },
+      {
+        "code" : "1530",
+        "display" : "Suivi post-accouchement à domicile"
+      },
+      {
+        "code" : "1531",
+        "display" : "Suivi staturopondéral des nourrissons"
+      },
+      {
+        "code" : "1532",
+        "display" : "Surveillance d'ictère néonatal par mesure transcutanée"
+      },
+      {
+        "code" : "1533",
+        "display" : "Test de Guthrie hors établissement (test néonatal du buvard)"
+      },
+      {
+        "code" : "1534",
+        "display" : "Vaccination contre la tuberculose"
+      },
+      {
+        "code" : "1535",
+        "display" : "Vaccination du calendrier vaccinal de l’adolescent et de l’adulte"
+      },
+      {
+        "code" : "1536",
+        "display" : "Vaccination du calendrier vaccinal du jeune enfant (0-12 ans)"
+      },
+      {
+        "code" : "1537",
+        "display" : "Vaccination du calendrier vaccinal du sénior"
+      },
+      {
+        "code" : "1538",
+        "display" : "Vaccination épidémie Covid"
       }]
     }]
   }

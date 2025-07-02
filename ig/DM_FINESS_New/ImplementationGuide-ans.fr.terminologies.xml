@@ -24394,17 +24394,6 @@
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="CodeSystem"/>
-      </extension>
-      <reference>
-        <reference value="CodeSystem/11000315107-20240621"/>
-      </reference>
-      <name value="French module"/>
-      <description value="SNOMED CT is the most comprehensive and precise clinical health terminology product in the world, owned and distributed around the world by The International Health Terminology Standards Development Organisation (IHTSDO)."/>
-      <exampleBoolean value="false"/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
         <valueString value="ValueSet"/>
       </extension>
       <reference>
@@ -26403,6 +26392,50 @@
       </reference>
       <name value="Jdv J365 Type Fermeture Ege Finess"/>
       <description value="Jeu de valeurs FINESS contenant les types de fermeture dédiées aux entités géographiques FINESS"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/jdv-j366-statut-bilan-projet-personnalise-ms"/>
+      </reference>
+      <name value="Jdv J366 Statut Bilan Projet Personnalise Ms"/>
+      <description value="Statut du bilan du projet personnalisé."/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/jdv-j367-type-projet-personnalise-ms"/>
+      </reference>
+      <name value="Jdv J367 Type Projet Personnalise Ms"/>
+      <description value="Cette nomenclature donne le type de projet personnalisé qui est un document co-construit par l'usager, son entourage familial et professionnel du médico-social."/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/jdv-j368-categorie-etablissement-cisis"/>
+      </reference>
+      <name value="Jdv J368 Categorie Etablissement Cisis"/>
+      <description value="JDV à l'image de l'ensemble des valeurs actives de la terminologie TRE_R66-CategorieEtablissement"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/jdv-j370-type-contrat-sejour-ms"/>
+      </reference>
+      <name value="Jdv J370 Type Contrat Sejour Ms"/>
+      <description value="Type de contrat conclu entre l’établissement/service et la personne/son représentant légal."/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -32509,6 +32542,17 @@
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="CodeSystem"/>
+      </extension>
+      <reference>
+        <reference value="CodeSystem/900000000000207008-20250601"/>
+      </reference>
+      <name value="SNOMED CT core"/>
+      <description value="SNOMED CT is the most comprehensive and precise clinical health terminology product in the world, owned and distributed around the world by The International Health Terminology Standards Development Organisation (IHTSDO)."/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
         <valueString value="NamingSystem"/>
       </extension>
       <reference>
@@ -32884,10 +32928,54 @@
         <valueString value="CodeSystem"/>
       </extension>
       <reference>
+        <reference value="CodeSystem/tre-r389-statut-bilan-projet-personnalise"/>
+      </reference>
+      <name value="Tre R389 Statut Bilan Projet Personnalise"/>
+      <description value="Statut du bilan du projet personnalisé."/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="CodeSystem"/>
+      </extension>
+      <reference>
+        <reference value="CodeSystem/tre-r390-type-projet-personnalise"/>
+      </reference>
+      <name value="Tre R390 Type Projet Personnalise"/>
+      <description value="Cette nomenclature donne le type de projet personnalisé qui est un document co-construit par l'usager, son entourage familial et professionnel du médico-social."/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="CodeSystem"/>
+      </extension>
+      <reference>
         <reference value="CodeSystem/tre-r392-type-act-smsse-regulee"/>
       </reference>
       <name value="Tre R392 Type Act Smsse Regulee"/>
       <description value="Type activité SMSSE régulée"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="CodeSystem"/>
+      </extension>
+      <reference>
+        <reference value="CodeSystem/tre-r393-type-contrat-sejour"/>
+      </reference>
+      <name value="Tre R393 Type Contrat Sejour"/>
+      <description value="Type de contrat conclu entre l’établissement/service et la personne/son représentant légal lors de son entrée en établissement"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="CodeSystem"/>
+      </extension>
+      <reference>
+        <reference value="CodeSystem/tre-r394-competence-metier"/>
+      </reference>
+      <name value="Tre R394 Competence Metier"/>
+      <description value="Type de savoir-faire opérationnel, transversal ou spécifique, acquis et exercé à titre non exclusif dans le cadre d’une activité professionnelle reconnue."/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -33513,7 +33601,6 @@
         <reference value="CodeSystem/TRE-R210-ActeSpecifique"/>
       </reference>
       <name value="TRE_R210_ActeSpecifique"/>
-      <description value="Action menée par un ou plusieurs acteur(s) de santé dans le cadre d'une activité. Cet acte peut correspondre à une technique spécialisée ou traduire une expertise discriminante dans le parcours de santé."/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
