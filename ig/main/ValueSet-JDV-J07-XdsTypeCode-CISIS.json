@@ -2,8 +2,8 @@
   "resourceType" : "ValueSet",
   "id" : "JDV-J07-XdsTypeCode-CISIS",
   "meta" : {
-    "versionId" : "11",
-    "lastUpdated" : "2025-07-01T13:32:09.552+00:00",
+    "versionId" : "12",
+    "lastUpdated" : "2025-07-02T17:04:36.798+00:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset"]
   },
   "language" : "fr-FR",

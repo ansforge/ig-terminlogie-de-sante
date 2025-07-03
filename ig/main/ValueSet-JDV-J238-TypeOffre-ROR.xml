@@ -3,8 +3,8 @@
 <ValueSet xmlns="http://hl7.org/fhir">
   <id value="JDV-J238-TypeOffre-ROR"/>
   <meta>
-    <versionId value="16"/>
-    <lastUpdated value="2025-07-01T13:32:17.480+00:00"/>
+    <versionId value="17"/>
+    <lastUpdated value="2025-07-02T17:06:04.459+00:00"/>
     <profile value="http://hl7.org/fhir/StructureDefinition/shareablevalueset"/>
   </meta>
   <language value="fr-FR"/>

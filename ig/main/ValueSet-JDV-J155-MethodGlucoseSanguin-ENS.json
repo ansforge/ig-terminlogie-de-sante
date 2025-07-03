@@ -2,8 +2,8 @@
   "resourceType" : "ValueSet",
   "id" : "JDV-J155-MethodGlucoseSanguin-ENS",
   "meta" : {
-    "versionId" : "4",
-    "lastUpdated" : "2024-08-22T13:06:10.259+00:00",
+    "versionId" : "5",
+    "lastUpdated" : "2025-07-02T17:05:13.803+00:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset"]
   },
   "language" : "fr-FR",

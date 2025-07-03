@@ -2,8 +2,8 @@
   "resourceType" : "CodeSystem",
   "id" : "TRE-R348-FormationSpecialiseeTransversale",
   "meta" : {
-    "versionId" : "4",
-    "lastUpdated" : "2024-08-28T05:13:41.235+00:00",
+    "versionId" : "5",
+    "lastUpdated" : "2025-07-02T18:17:45.159+00:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablecodesystem"]
   },
   "text" : {
@@ -50,6 +50,24 @@
     "code" : "dateFin",
     "description" : "Date de fin d'exploitation d'un code concept",
     "type" : "dateTime"
+  },
+  {
+    "code" : "deprecationDate",
+    "uri" : "http://hl7.org/fhir/concept-properties#deprecationDate",
+    "description" : "Date Concept was deprecated",
+    "type" : "dateTime"
+  },
+  {
+    "code" : "status",
+    "uri" : "http://hl7.org/fhir/concept-properties#status",
+    "description" : "A property that indicates the status of the concept.",
+    "type" : "code"
+  },
+  {
+    "code" : "retirementDate",
+    "uri" : "http://hl7.org/fhir/concept-properties#retirementDate",
+    "description" : "Date Concept was retired",
+    "type" : "dateTime"
   }],
   "concept" : [{
     "code" : "FST01",
@@ -61,6 +79,10 @@
     {
       "code" : "dateMaj",
       "valueDateTime" : "2023-03-31T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
     }]
   },
   {
@@ -81,6 +103,10 @@
     {
       "code" : "dateMaj",
       "valueDateTime" : "2023-03-31T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
     }]
   },
   {
@@ -109,6 +135,10 @@
     {
       "code" : "dateMaj",
       "valueDateTime" : "2023-03-31T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
     }]
   },
   {
@@ -129,6 +159,10 @@
     {
       "code" : "dateMaj",
       "valueDateTime" : "2023-03-31T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
     }]
   },
   {
@@ -149,6 +183,10 @@
     {
       "code" : "dateMaj",
       "valueDateTime" : "2023-03-31T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
     }]
   },
   {
@@ -161,6 +199,10 @@
     {
       "code" : "dateMaj",
       "valueDateTime" : "2023-03-31T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
     }]
   },
   {
@@ -189,6 +231,10 @@
     {
       "code" : "dateMaj",
       "valueDateTime" : "2023-03-31T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
     }]
   },
   {
@@ -209,6 +255,10 @@
     {
       "code" : "dateMaj",
       "valueDateTime" : "2023-03-31T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
     }]
   },
   {
@@ -221,6 +271,10 @@
     {
       "code" : "dateMaj",
       "valueDateTime" : "2023-03-31T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
     }]
   },
   {
@@ -241,6 +295,10 @@
     {
       "code" : "dateMaj",
       "valueDateTime" : "2023-03-31T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
     }]
   },
   {
@@ -253,6 +311,10 @@
     {
       "code" : "dateMaj",
       "valueDateTime" : "2023-03-31T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
     }]
   },
   {
@@ -273,6 +335,10 @@
     {
       "code" : "dateMaj",
       "valueDateTime" : "2023-03-31T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
     }]
   },
   {
@@ -293,6 +359,10 @@
     {
       "code" : "dateMaj",
       "valueDateTime" : "2023-03-31T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
     }]
   },
   {
@@ -313,6 +383,10 @@
     {
       "code" : "dateMaj",
       "valueDateTime" : "2023-03-31T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
     }]
   },
   {
@@ -325,6 +399,10 @@
     {
       "code" : "dateMaj",
       "valueDateTime" : "2023-03-31T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
     }]
   },
   {
@@ -345,6 +423,10 @@
     {
       "code" : "dateMaj",
       "valueDateTime" : "2023-03-31T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
     }]
   },
   {
@@ -357,6 +439,10 @@
     {
       "code" : "dateMaj",
       "valueDateTime" : "2023-03-31T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
     }]
   },
   {
@@ -369,6 +455,10 @@
     {
       "code" : "dateMaj",
       "valueDateTime" : "2023-03-31T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
     }]
   },
   {
@@ -397,6 +487,10 @@
     {
       "code" : "dateMaj",
       "valueDateTime" : "2023-03-31T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
     }]
   },
   {
@@ -425,6 +519,10 @@
     {
       "code" : "dateMaj",
       "valueDateTime" : "2023-03-31T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
     }]
   },
   {
@@ -437,6 +535,10 @@
     {
       "code" : "dateMaj",
       "valueDateTime" : "2023-03-31T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
     }]
   },
   {
@@ -449,6 +551,10 @@
     {
       "code" : "dateMaj",
       "valueDateTime" : "2023-03-31T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
     }]
   },
   {
@@ -469,6 +575,10 @@
     {
       "code" : "dateMaj",
       "valueDateTime" : "2023-03-31T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
     }]
   },
   {
@@ -481,6 +591,10 @@
     {
       "code" : "dateMaj",
       "valueDateTime" : "2023-03-31T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
     }]
   },
   {
@@ -501,6 +615,10 @@
     {
       "code" : "dateMaj",
       "valueDateTime" : "2023-03-31T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
     }]
   },
   {
@@ -521,6 +639,10 @@
     {
       "code" : "dateMaj",
       "valueDateTime" : "2023-03-31T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
     }]
   }]
 }

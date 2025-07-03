@@ -1,11 +1,11 @@
 {
   "resourceType" : "ValueSet",
-  "id" : "c1098bb6-0a54-4b41-90a9-84233ec63cb9-1904",
-  "url" : "http://hl7.org/fhir/comparison/ValueSet/c1098bb6-0a54-4b41-90a9-84233ec63cb9-1904",
+  "id" : "8efd7c43-33e8-4c22-9094-24be55d42e92-1904",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/8efd7c43-33e8-4c22-9094-24be55d42e92-1904",
   "name" : "UnionJdvEvenementAccouchementCisisAndJdvEvenementAccouchementCisis",
   "title" : "Union of JDV Evenement Accouchement CISIS And JDV Evenement Accouchement CISIS",
   "status" : "active",
-  "date" : "2025-07-02T04:44:24+00:00",
+  "date" : "2025-07-03T04:41:00+00:00",
   "jurisdiction" : [{
     "coding" : [{
       "system" : "urn:iso:std:iso:3166",

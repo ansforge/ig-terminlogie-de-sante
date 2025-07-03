@@ -2,8 +2,8 @@
   "resourceType" : "CodeSystem",
   "id" : "TRE-R02-SecteurActivite",
   "meta" : {
-    "versionId" : "12",
-    "lastUpdated" : "2025-05-26T18:11:15.237+00:00",
+    "versionId" : "13",
+    "lastUpdated" : "2025-07-02T18:12:02.978+00:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablecodesystem"]
   },
   "text" : {

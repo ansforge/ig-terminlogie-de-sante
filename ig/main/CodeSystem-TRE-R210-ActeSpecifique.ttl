@@ -11,8 +11,8 @@
   fhir:nodeRole fhir:treeRoot ;
   fhir:id [ fhir:v "TRE-R210-ActeSpecifique"] ; # 
   fhir:meta [
-     fhir:versionId [ fhir:v "19" ] ;
-     fhir:lastUpdated [ fhir:v "2025-07-01T13:44:04.158+00:00"^^xsd:dateTime ] ;
+     fhir:versionId [ fhir:v "20" ] ;
+     fhir:lastUpdated [ fhir:v "2025-07-02T18:15:39.391+00:00"^^xsd:dateTime ] ;
      fhir:profile ( [
        fhir:v "http://hl7.org/fhir/StructureDefinition/shareablecodesystem"^^xsd:anyURI ;
        fhir:link <http://hl7.org/fhir/StructureDefinition/shareablecodesystem>

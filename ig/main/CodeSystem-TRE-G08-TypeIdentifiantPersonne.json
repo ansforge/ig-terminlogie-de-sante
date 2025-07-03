@@ -2,8 +2,8 @@
   "resourceType" : "CodeSystem",
   "id" : "TRE-G08-TypeIdentifiantPersonne",
   "meta" : {
-    "versionId" : "5",
-    "lastUpdated" : "2024-08-28T05:10:49.177+00:00",
+    "versionId" : "6",
+    "lastUpdated" : "2025-07-02T18:11:39.010+00:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablecodesystem"]
   },
   "text" : {
@@ -50,6 +50,24 @@
     "code" : "dateFin",
     "description" : "Date de fin d'exploitation d'un code concept",
     "type" : "dateTime"
+  },
+  {
+    "code" : "deprecationDate",
+    "uri" : "http://hl7.org/fhir/concept-properties#deprecationDate",
+    "description" : "Date Concept was deprecated",
+    "type" : "dateTime"
+  },
+  {
+    "code" : "status",
+    "uri" : "http://hl7.org/fhir/concept-properties#status",
+    "description" : "A property that indicates the status of the concept.",
+    "type" : "code"
+  },
+  {
+    "code" : "retirementDate",
+    "uri" : "http://hl7.org/fhir/concept-properties#retirementDate",
+    "description" : "Date Concept was retired",
+    "type" : "dateTime"
   }],
   "concept" : [{
     "code" : "0",
@@ -61,6 +79,10 @@
     {
       "code" : "dateMaj",
       "valueDateTime" : "2010-11-04T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
     }]
   },
   {
@@ -81,6 +103,10 @@
     {
       "code" : "dateMaj",
       "valueDateTime" : "2016-09-01T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
     }]
   },
   {
@@ -98,6 +124,14 @@
     {
       "code" : "dateMaj",
       "valueDateTime" : "2020-05-29T12:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2020-05-29T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "deprecated"
     }]
   },
   {
@@ -110,6 +144,10 @@
     {
       "code" : "dateMaj",
       "valueDateTime" : "2010-11-04T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
     }]
   },
   {
@@ -122,6 +160,10 @@
     {
       "code" : "dateMaj",
       "valueDateTime" : "2010-11-04T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
     }]
   },
   {
@@ -134,6 +176,10 @@
     {
       "code" : "dateMaj",
       "valueDateTime" : "2010-11-04T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
     }]
   },
   {
@@ -154,6 +200,10 @@
     {
       "code" : "dateMaj",
       "valueDateTime" : "2016-09-01T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
     }]
   },
   {
@@ -166,6 +216,10 @@
     {
       "code" : "dateMaj",
       "valueDateTime" : "2010-11-04T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
     }]
   },
   {
@@ -183,6 +237,14 @@
     {
       "code" : "dateMaj",
       "valueDateTime" : "2020-05-29T12:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2020-05-29T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "deprecated"
     }]
   },
   {
@@ -195,6 +257,10 @@
     {
       "code" : "dateMaj",
       "valueDateTime" : "2013-07-22T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
     }]
   },
   {
@@ -215,6 +281,10 @@
     {
       "code" : "dateMaj",
       "valueDateTime" : "2023-03-31T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
     }]
   }]
 }

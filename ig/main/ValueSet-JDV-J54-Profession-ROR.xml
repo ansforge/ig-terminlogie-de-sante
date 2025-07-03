@@ -3,8 +3,8 @@
 <ValueSet xmlns="http://hl7.org/fhir">
   <id value="JDV-J54-Profession-ROR"/>
   <meta>
-    <versionId value="5"/>
-    <lastUpdated value="2025-05-26T17:00:36.078+00:00"/>
+    <versionId value="6"/>
+    <lastUpdated value="2025-07-02T17:06:36.169+00:00"/>
     <profile value="http://hl7.org/fhir/StructureDefinition/shareablevalueset"/>
   </meta>
   <language value="fr-FR"/>

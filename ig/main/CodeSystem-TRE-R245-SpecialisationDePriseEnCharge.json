@@ -2,8 +2,8 @@
   "resourceType" : "CodeSystem",
   "id" : "TRE-R245-SpecialisationDePriseEnCharge",
   "meta" : {
-    "versionId" : "10",
-    "lastUpdated" : "2025-04-25T18:12:43.908+00:00",
+    "versionId" : "11",
+    "lastUpdated" : "2025-07-02T18:16:35.233+00:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablecodesystem"]
   },
   "text" : {

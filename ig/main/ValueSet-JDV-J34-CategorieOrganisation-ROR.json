@@ -2,8 +2,8 @@
   "resourceType" : "ValueSet",
   "id" : "JDV-J34-CategorieOrganisation-ROR",
   "meta" : {
-    "versionId" : "16",
-    "lastUpdated" : "2025-07-01T13:32:18.423+00:00",
+    "versionId" : "17",
+    "lastUpdated" : "2025-07-02T17:06:28.104+00:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset"]
   },
   "language" : "fr-FR",

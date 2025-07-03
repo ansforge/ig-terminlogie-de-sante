@@ -2,8 +2,8 @@
   "resourceType" : "ValueSet",
   "id" : "JDV-J285-Besoins-SERAFIN",
   "meta" : {
-    "versionId" : "5",
-    "lastUpdated" : "2024-12-19T18:02:42.087+00:00",
+    "versionId" : "6",
+    "lastUpdated" : "2025-07-02T17:06:23.626+00:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset"]
   },
   "language" : "fr-FR",

@@ -2,8 +2,8 @@
   "resourceType" : "ValueSet",
   "id" : "JDV-J18-EquipementSpecifique-ROR",
   "meta" : {
-    "versionId" : "16",
-    "lastUpdated" : "2025-07-01T13:32:14.964+00:00",
+    "versionId" : "17",
+    "lastUpdated" : "2025-07-02T17:05:38.372+00:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset"]
   },
   "language" : "fr-FR",

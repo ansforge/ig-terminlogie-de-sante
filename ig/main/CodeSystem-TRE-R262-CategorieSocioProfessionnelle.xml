@@ -3,8 +3,8 @@
 <CodeSystem xmlns="http://hl7.org/fhir">
   <id value="TRE-R262-CategorieSocioProfessionnelle"/>
   <meta>
-    <versionId value="4"/>
-    <lastUpdated value="2024-08-28T05:12:54.003+00:00"/>
+    <versionId value="5"/>
+    <lastUpdated value="2025-07-02T18:16:44.920+00:00"/>
     <profile value="http://hl7.org/fhir/StructureDefinition/shareablecodesystem"/>
   </meta>
   <text>
@@ -50,6 +50,24 @@
     <description value="Date de fin d'exploitation d'un code concept"/>
     <type value="dateTime"/>
   </property>
+  <property>
+    <code value="deprecationDate"/>
+    <uri value="http://hl7.org/fhir/concept-properties#deprecationDate"/>
+    <description value="Date Concept was deprecated"/>
+    <type value="dateTime"/>
+  </property>
+  <property>
+    <code value="status"/>
+    <uri value="http://hl7.org/fhir/concept-properties#status"/>
+    <description value="A property that indicates the status of the concept."/>
+    <type value="code"/>
+  </property>
+  <property>
+    <code value="retirementDate"/>
+    <uri value="http://hl7.org/fhir/concept-properties#retirementDate"/>
+    <description value="Date Concept was retired"/>
+    <type value="dateTime"/>
+  </property>
   <concept>
     <code value="AGRIC"/>
     <display value="Agriculteurs"/>
@@ -60,6 +78,10 @@
     <property>
       <code value="dateMaj"/>
       <valueDateTime value="2018-04-27T12:00:00+01:00"/>
+    </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
     </property>
   </concept>
   <concept>
@@ -81,6 +103,10 @@
       <code value="dateMaj"/>
       <valueDateTime value="2018-04-27T12:00:00+01:00"/>
     </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
+    </property>
   </concept>
   <concept>
     <code value="CPIS"/>
@@ -92,6 +118,10 @@
     <property>
       <code value="dateMaj"/>
       <valueDateTime value="2018-04-27T12:00:00+01:00"/>
+    </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
     </property>
   </concept>
   <concept>
@@ -105,6 +135,10 @@
       <code value="dateMaj"/>
       <valueDateTime value="2018-04-27T12:00:00+01:00"/>
     </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
+    </property>
   </concept>
   <concept>
     <code value="EMPLOYE"/>
@@ -116,6 +150,10 @@
     <property>
       <code value="dateMaj"/>
       <valueDateTime value="2018-04-27T12:00:00+01:00"/>
+    </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
     </property>
   </concept>
   <concept>
@@ -129,6 +167,10 @@
       <code value="dateMaj"/>
       <valueDateTime value="2018-04-27T12:00:00+01:00"/>
     </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
+    </property>
   </concept>
   <concept>
     <code value="RETRAITE"/>
@@ -140,6 +182,10 @@
     <property>
       <code value="dateMaj"/>
       <valueDateTime value="2018-04-27T12:00:00+01:00"/>
+    </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
     </property>
   </concept>
   <concept>
@@ -160,6 +206,10 @@
     <property>
       <code value="dateMaj"/>
       <valueDateTime value="2018-04-27T12:00:00+01:00"/>
+    </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
     </property>
   </concept>
 </CodeSystem>

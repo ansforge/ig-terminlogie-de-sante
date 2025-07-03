@@ -2,8 +2,8 @@
   "resourceType" : "ValueSet",
   "id" : "JDV-J286-ProfilUtilisateurReferentielNational-ROR",
   "meta" : {
-    "versionId" : "6",
-    "lastUpdated" : "2025-03-31T17:34:19.896+00:00",
+    "versionId" : "7",
+    "lastUpdated" : "2025-07-02T17:06:24.055+00:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset"]
   },
   "language" : "fr-FR",

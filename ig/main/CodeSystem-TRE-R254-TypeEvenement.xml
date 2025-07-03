@@ -3,8 +3,8 @@
 <CodeSystem xmlns="http://hl7.org/fhir">
   <id value="TRE-R254-TypeEvenement"/>
   <meta>
-    <versionId value="5"/>
-    <lastUpdated value="2024-08-28T05:12:49.784+00:00"/>
+    <versionId value="6"/>
+    <lastUpdated value="2025-07-02T18:16:40.556+00:00"/>
     <profile value="http://hl7.org/fhir/StructureDefinition/shareablecodesystem"/>
   </meta>
   <text>
@@ -50,6 +50,24 @@
     <description value="Date de fin d'exploitation d'un code concept"/>
     <type value="dateTime"/>
   </property>
+  <property>
+    <code value="deprecationDate"/>
+    <uri value="http://hl7.org/fhir/concept-properties#deprecationDate"/>
+    <description value="Date Concept was deprecated"/>
+    <type value="dateTime"/>
+  </property>
+  <property>
+    <code value="status"/>
+    <uri value="http://hl7.org/fhir/concept-properties#status"/>
+    <description value="A property that indicates the status of the concept."/>
+    <type value="code"/>
+  </property>
+  <property>
+    <code value="retirementDate"/>
+    <uri value="http://hl7.org/fhir/concept-properties#retirementDate"/>
+    <description value="Date Concept was retired"/>
+    <type value="dateTime"/>
+  </property>
   <concept>
     <code value="ADM"/>
     <display value="Admission d'un patient dans un établissement de santé"/>
@@ -60,6 +78,10 @@
     <property>
       <code value="dateMaj"/>
       <valueDateTime value="2018-03-30T12:00:00+01:00"/>
+    </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
     </property>
   </concept>
   <concept>
@@ -73,6 +95,10 @@
       <code value="dateMaj"/>
       <valueDateTime value="2020-08-28T12:00:00+01:00"/>
     </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
+    </property>
   </concept>
   <concept>
     <code value="CDM"/>
@@ -85,6 +111,10 @@
     <property>
       <code value="dateMaj"/>
       <valueDateTime value="2022-06-24T12:00:00+01:00"/>
+    </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
     </property>
   </concept>
   <concept>
@@ -106,6 +136,10 @@
       <code value="dateMaj"/>
       <valueDateTime value="2020-08-28T12:00:00+01:00"/>
     </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
+    </property>
   </concept>
   <concept>
     <code value="DEM"/>
@@ -117,6 +151,10 @@
     <property>
       <code value="dateMaj"/>
       <valueDateTime value="2020-08-28T12:00:00+01:00"/>
+    </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
     </property>
   </concept>
   <concept>
@@ -130,6 +168,10 @@
       <code value="dateMaj"/>
       <valueDateTime value="2018-03-30T12:00:00+01:00"/>
     </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
+    </property>
   </concept>
   <concept>
     <code value="ECH"/>
@@ -142,6 +184,10 @@
       <code value="dateMaj"/>
       <valueDateTime value="2019-12-13T12:00:00+01:00"/>
     </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
+    </property>
   </concept>
   <concept>
     <code value="ESD"/>
@@ -153,6 +199,10 @@
     <property>
       <code value="dateMaj"/>
       <valueDateTime value="2020-08-28T12:00:00+01:00"/>
+    </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
     </property>
   </concept>
   <concept>
@@ -174,6 +224,10 @@
       <code value="dateMaj"/>
       <valueDateTime value="2019-12-13T12:00:00+01:00"/>
     </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
+    </property>
   </concept>
   <concept>
     <code value="NOT"/>
@@ -186,6 +240,10 @@
       <code value="dateMaj"/>
       <valueDateTime value="2018-03-30T12:00:00+01:00"/>
     </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
+    </property>
   </concept>
   <concept>
     <code value="NRE"/>
@@ -197,6 +255,10 @@
     <property>
       <code value="dateMaj"/>
       <valueDateTime value="2020-08-28T12:00:00+01:00"/>
+    </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
     </property>
   </concept>
   <concept>
@@ -222,6 +284,14 @@
       <code value="dateMaj"/>
       <valueDateTime value="2020-08-28T12:00:00+01:00"/>
     </property>
+    <property>
+      <code value="deprecationDate"/>
+      <valueDateTime value="2020-08-28T12:00:00+01:00"/>
+    </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="deprecated"/>
+    </property>
   </concept>
   <concept>
     <code value="PER"/>
@@ -234,6 +304,10 @@
       <code value="dateMaj"/>
       <valueDateTime value="2019-12-13T12:00:00+01:00"/>
     </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
+    </property>
   </concept>
   <concept>
     <code value="POS"/>
@@ -245,6 +319,10 @@
     <property>
       <code value="dateMaj"/>
       <valueDateTime value="2019-12-13T12:00:00+01:00"/>
+    </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
     </property>
   </concept>
   <concept>
@@ -266,6 +344,10 @@
       <code value="dateMaj"/>
       <valueDateTime value="2020-08-28T12:00:00+01:00"/>
     </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
+    </property>
   </concept>
   <concept>
     <code value="REC"/>
@@ -277,6 +359,10 @@
     <property>
       <code value="dateMaj"/>
       <valueDateTime value="2020-08-28T12:00:00+01:00"/>
+    </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
     </property>
   </concept>
   <concept>
@@ -298,6 +384,10 @@
       <code value="dateMaj"/>
       <valueDateTime value="2020-08-28T12:00:00+01:00"/>
     </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
+    </property>
   </concept>
   <concept>
     <code value="SDM"/>
@@ -309,6 +399,10 @@
     <property>
       <code value="dateMaj"/>
       <valueDateTime value="2020-08-28T12:00:00+01:00"/>
+    </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
     </property>
   </concept>
   <concept>
@@ -322,6 +416,10 @@
       <code value="dateMaj"/>
       <valueDateTime value="2018-03-30T12:00:00+01:00"/>
     </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
+    </property>
   </concept>
   <concept>
     <code value="SSD"/>
@@ -334,6 +432,10 @@
       <code value="dateMaj"/>
       <valueDateTime value="2020-08-28T12:00:00+01:00"/>
     </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
+    </property>
   </concept>
   <concept>
     <code value="TRA"/>
@@ -345,6 +447,10 @@
     <property>
       <code value="dateMaj"/>
       <valueDateTime value="2020-08-28T12:00:00+01:00"/>
+    </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
     </property>
   </concept>
 </CodeSystem>

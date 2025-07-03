@@ -2,8 +2,8 @@
   "resourceType" : "CodeSystem",
   "id" : "TRE-R69-FinessAgregatStatutJuridiqueNiv2",
   "meta" : {
-    "versionId" : "1",
-    "lastUpdated" : "2024-08-28T05:14:08.141+00:00",
+    "versionId" : "2",
+    "lastUpdated" : "2025-07-02T18:18:41.782+00:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablecodesystem"]
   },
   "text" : {
@@ -50,6 +50,24 @@
     "code" : "dateFin",
     "description" : "Date de fin d'exploitation d'un code concept",
     "type" : "dateTime"
+  },
+  {
+    "code" : "deprecationDate",
+    "uri" : "http://hl7.org/fhir/concept-properties#deprecationDate",
+    "description" : "Date Concept was deprecated",
+    "type" : "dateTime"
+  },
+  {
+    "code" : "status",
+    "uri" : "http://hl7.org/fhir/concept-properties#status",
+    "description" : "A property that indicates the status of the concept.",
+    "type" : "code"
+  },
+  {
+    "code" : "retirementDate",
+    "uri" : "http://hl7.org/fhir/concept-properties#retirementDate",
+    "description" : "Date Concept was retired",
+    "type" : "dateTime"
   }],
   "concept" : [{
     "code" : "1100",
@@ -69,6 +87,10 @@
     {
       "code" : "dateMaj",
       "valueDateTime" : "1979-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
     }]
   },
   {
@@ -81,6 +103,10 @@
     {
       "code" : "dateMaj",
       "valueDateTime" : "1979-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
     }]
   },
   {
@@ -101,6 +127,10 @@
     {
       "code" : "dateMaj",
       "valueDateTime" : "1979-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
     }]
   },
   {
@@ -121,6 +151,10 @@
     {
       "code" : "dateMaj",
       "valueDateTime" : "1979-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
     }]
   },
   {
@@ -149,6 +183,10 @@
     {
       "code" : "dateMaj",
       "valueDateTime" : "1979-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
     }]
   }]
 }

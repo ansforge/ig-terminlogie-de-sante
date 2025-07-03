@@ -3,8 +3,8 @@
 <CodeSystem xmlns="http://hl7.org/fhir">
   <id value="TRE-R65-AgregatCategorieEtablissement"/>
   <meta>
-    <versionId value="6"/>
-    <lastUpdated value="2025-02-28T19:12:18.253+00:00"/>
+    <versionId value="7"/>
+    <lastUpdated value="2025-07-02T18:18:31.138+00:00"/>
     <profile value="http://hl7.org/fhir/StructureDefinition/shareablecodesystem"/>
   </meta>
   <text>

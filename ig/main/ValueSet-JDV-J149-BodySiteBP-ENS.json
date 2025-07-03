@@ -2,8 +2,8 @@
   "resourceType" : "ValueSet",
   "id" : "JDV-J149-BodySiteBP-ENS",
   "meta" : {
-    "versionId" : "4",
-    "lastUpdated" : "2024-10-31T18:01:35.501+00:00",
+    "versionId" : "5",
+    "lastUpdated" : "2025-07-02T17:05:10.084+00:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset"]
   },
   "language" : "fr-FR",

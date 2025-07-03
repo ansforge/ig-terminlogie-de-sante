@@ -3,8 +3,8 @@
 <CodeSystem xmlns="http://hl7.org/fhir">
   <id value="TRE-R369-ProfilUtilisateurReferentielNational"/>
   <meta>
-    <versionId value="6"/>
-    <lastUpdated value="2025-03-31T18:11:30.372+00:00"/>
+    <versionId value="7"/>
+    <lastUpdated value="2025-07-02T18:17:59.592+00:00"/>
     <profile value="http://hl7.org/fhir/StructureDefinition/shareablecodesystem"/>
   </meta>
   <text>

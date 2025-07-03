@@ -1,11 +1,11 @@
 {
   "resourceType" : "CodeSystem",
-  "id" : "c1098bb6-0a54-4b41-90a9-84233ec63cb9-317",
-  "url" : "http://hl7.org/fhir/comparison/CodeSystem/c1098bb6-0a54-4b41-90a9-84233ec63cb9-317",
+  "id" : "8efd7c43-33e8-4c22-9094-24be55d42e92-317",
+  "url" : "http://hl7.org/fhir/comparison/CodeSystem/8efd7c43-33e8-4c22-9094-24be55d42e92-317",
   "name" : "UnionTRE_R255_FluxStandardiseAndTRE_R255_FluxStandardise",
   "title" : "Union of null And null",
   "status" : "active",
-  "date" : "2025-07-02T04:44:23+00:00",
+  "date" : "2025-07-03T04:40:59+00:00",
   "jurisdiction" : [{
     "coding" : [{
       "system" : "urn:iso:std:iso:3166",
@@ -41,6 +41,24 @@
     "code" : "dateFin",
     "description" : "Date de fin d'exploitation d'un code concept",
     "type" : "dateTime"
+  },
+  {
+    "code" : "deprecationDate",
+    "uri" : "http://hl7.org/fhir/concept-properties#deprecationDate",
+    "description" : "Date Concept was deprecated",
+    "type" : "dateTime"
+  },
+  {
+    "code" : "status",
+    "uri" : "http://hl7.org/fhir/concept-properties#status",
+    "description" : "A property that indicates the status of the concept.",
+    "type" : "code"
+  },
+  {
+    "code" : "retirementDate",
+    "uri" : "http://hl7.org/fhir/concept-properties#retirementDate",
+    "description" : "Date Concept was retired",
+    "type" : "dateTime"
   }],
   "concept" : [{
     "code" : "ITI42-RQ",
@@ -60,6 +78,10 @@
     {
       "code" : "dateMaj",
       "valueDateTime" : "2018-03-30T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
     }]
   },
   {
@@ -80,6 +102,10 @@
     {
       "code" : "dateMaj",
       "valueDateTime" : "2018-03-30T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
     }]
   },
   {
@@ -100,6 +126,10 @@
     {
       "code" : "dateMaj",
       "valueDateTime" : "2018-03-30T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
     }]
   },
   {
@@ -120,6 +150,10 @@
     {
       "code" : "dateMaj",
       "valueDateTime" : "2018-03-30T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
     }]
   }]
 }

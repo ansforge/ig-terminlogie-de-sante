@@ -2,8 +2,8 @@
   "resourceType" : "ValueSet",
   "id" : "JDV-J221-NatureContact-ROR",
   "meta" : {
-    "versionId" : "5",
-    "lastUpdated" : "2024-12-19T18:02:37.848+00:00",
+    "versionId" : "6",
+    "lastUpdated" : "2025-07-02T17:05:55.584+00:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset"]
   },
   "language" : "fr-FR",

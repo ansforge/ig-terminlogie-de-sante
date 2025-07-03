@@ -3,8 +3,8 @@
 <CodeSystem xmlns="http://hl7.org/fhir">
   <id value="TRE-R258-RelationPriseCharge"/>
   <meta>
-    <versionId value="6"/>
-    <lastUpdated value="2025-05-26T18:11:17.438+00:00"/>
+    <versionId value="7"/>
+    <lastUpdated value="2025-07-02T18:16:42.739+00:00"/>
     <profile value="http://hl7.org/fhir/StructureDefinition/shareablecodesystem"/>
   </meta>
   <text>

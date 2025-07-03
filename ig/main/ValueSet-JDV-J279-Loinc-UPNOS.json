@@ -2,8 +2,8 @@
   "resourceType" : "ValueSet",
   "id" : "JDV-J279-Loinc-UPNOS",
   "meta" : {
-    "versionId" : "5",
-    "lastUpdated" : "2024-10-31T18:01:42.073+00:00",
+    "versionId" : "6",
+    "lastUpdated" : "2025-07-02T17:06:20.612+00:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset"]
   },
   "language" : "fr-FR",

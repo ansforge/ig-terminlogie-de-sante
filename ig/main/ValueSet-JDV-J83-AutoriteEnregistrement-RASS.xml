@@ -3,8 +3,8 @@
 <ValueSet xmlns="http://hl7.org/fhir">
   <id value="JDV-J83-AutoriteEnregistrement-RASS"/>
   <meta>
-    <versionId value="5"/>
-    <lastUpdated value="2024-06-28T16:10:10.141+00:00"/>
+    <versionId value="6"/>
+    <lastUpdated value="2025-07-02T17:06:52.028+00:00"/>
     <profile value="http://hl7.org/fhir/StructureDefinition/shareablevalueset"/>
   </meta>
   <language value="fr-FR"/>

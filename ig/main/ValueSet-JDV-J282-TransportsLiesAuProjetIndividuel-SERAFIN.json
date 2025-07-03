@@ -2,8 +2,8 @@
   "resourceType" : "ValueSet",
   "id" : "JDV-J282-TransportsLiesAuProjetIndividuel-SERAFIN",
   "meta" : {
-    "versionId" : "5",
-    "lastUpdated" : "2024-12-19T18:02:40.819+00:00",
+    "versionId" : "6",
+    "lastUpdated" : "2025-07-02T17:06:21.907+00:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset"]
   },
   "language" : "fr-FR",

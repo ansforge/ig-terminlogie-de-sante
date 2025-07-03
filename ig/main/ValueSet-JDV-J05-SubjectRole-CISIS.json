@@ -2,8 +2,8 @@
   "resourceType" : "ValueSet",
   "id" : "JDV-J05-SubjectRole-CISIS",
   "meta" : {
-    "versionId" : "14",
-    "lastUpdated" : "2025-07-01T13:32:08.970+00:00",
+    "versionId" : "15",
+    "lastUpdated" : "2025-07-02T17:04:35.347+00:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset"]
   },
   "language" : "fr-FR",

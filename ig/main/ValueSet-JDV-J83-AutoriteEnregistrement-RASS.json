@@ -2,8 +2,8 @@
   "resourceType" : "ValueSet",
   "id" : "JDV-J83-AutoriteEnregistrement-RASS",
   "meta" : {
-    "versionId" : "5",
-    "lastUpdated" : "2024-06-28T16:10:10.141+00:00",
+    "versionId" : "6",
+    "lastUpdated" : "2025-07-02T17:06:52.028+00:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset"]
   },
   "language" : "fr-FR",

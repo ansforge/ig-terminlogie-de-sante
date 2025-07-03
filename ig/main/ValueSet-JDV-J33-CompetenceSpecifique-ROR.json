@@ -2,8 +2,8 @@
   "resourceType" : "ValueSet",
   "id" : "JDV-J33-CompetenceSpecifique-ROR",
   "meta" : {
-    "versionId" : "3",
-    "lastUpdated" : "2024-04-27T05:07:44.547+00:00",
+    "versionId" : "4",
+    "lastUpdated" : "2025-07-02T17:06:26.994+00:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset"]
   },
   "language" : "fr-FR",

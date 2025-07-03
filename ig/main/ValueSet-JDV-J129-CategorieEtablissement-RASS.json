@@ -2,8 +2,8 @@
   "resourceType" : "ValueSet",
   "id" : "JDV-J129-CategorieEtablissement-RASS",
   "meta" : {
-    "versionId" : "12",
-    "lastUpdated" : "2024-10-31T18:01:34.510+00:00",
+    "versionId" : "13",
+    "lastUpdated" : "2025-07-02T17:04:57.875+00:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset"]
   },
   "language" : "fr-FR",

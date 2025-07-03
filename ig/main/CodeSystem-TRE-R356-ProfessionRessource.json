@@ -2,8 +2,8 @@
   "resourceType" : "CodeSystem",
   "id" : "TRE-R356-ProfessionRessource",
   "meta" : {
-    "versionId" : "7",
-    "lastUpdated" : "2025-07-01T10:02:18.779+00:00",
+    "versionId" : "8",
+    "lastUpdated" : "2025-07-02T18:17:53.567+00:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablecodesystem"]
   },
   "text" : {

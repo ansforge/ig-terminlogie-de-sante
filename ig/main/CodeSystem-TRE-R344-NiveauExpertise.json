@@ -2,8 +2,8 @@
   "resourceType" : "CodeSystem",
   "id" : "TRE-R344-NiveauExpertise",
   "meta" : {
-    "versionId" : "13",
-    "lastUpdated" : "2025-07-01T10:02:16.930+00:00",
+    "versionId" : "14",
+    "lastUpdated" : "2025-07-02T18:17:43.832+00:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablecodesystem"]
   },
   "text" : {

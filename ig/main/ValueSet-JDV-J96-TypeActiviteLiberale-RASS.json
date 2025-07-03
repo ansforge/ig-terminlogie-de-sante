@@ -2,8 +2,8 @@
   "resourceType" : "ValueSet",
   "id" : "JDV-J96-TypeActiviteLiberale-RASS",
   "meta" : {
-    "versionId" : "3",
-    "lastUpdated" : "2024-04-27T05:08:11.846+00:00",
+    "versionId" : "4",
+    "lastUpdated" : "2025-07-02T17:06:58.091+00:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset"]
   },
   "language" : "fr-FR",

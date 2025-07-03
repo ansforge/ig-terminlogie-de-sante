@@ -2,8 +2,8 @@
   "resourceType" : "ValueSet",
   "id" : "JDV-J56-AuthorSpecialty-DMP",
   "meta" : {
-    "versionId" : "6",
-    "lastUpdated" : "2024-09-29T19:01:23.509+00:00",
+    "versionId" : "7",
+    "lastUpdated" : "2025-07-02T17:06:38.272+00:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset"]
   },
   "language" : "fr-FR",

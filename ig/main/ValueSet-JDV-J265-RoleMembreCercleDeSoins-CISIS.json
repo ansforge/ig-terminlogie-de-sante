@@ -2,8 +2,8 @@
   "resourceType" : "ValueSet",
   "id" : "JDV-J265-RoleMembreCercleDeSoins-CISIS",
   "meta" : {
-    "versionId" : "1",
-    "lastUpdated" : "2024-07-26T17:01:55.366+00:00",
+    "versionId" : "2",
+    "lastUpdated" : "2025-07-02T17:06:17.936+00:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset"]
   },
   "language" : "fr-FR",

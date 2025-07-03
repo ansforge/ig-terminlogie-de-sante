@@ -10,8 +10,8 @@
   fhir:nodeRole fhir:treeRoot ;
   fhir:id [ fhir:v "JDV-J226-ModaliteAccueil-ROR"] ; # 
   fhir:meta [
-     fhir:versionId [ fhir:v "7" ] ;
-     fhir:lastUpdated [ fhir:v "2025-04-25T17:01:48.626+00:00"^^xsd:dateTime ] ;
+     fhir:versionId [ fhir:v "8" ] ;
+     fhir:lastUpdated [ fhir:v "2025-07-02T17:05:57.939+00:00"^^xsd:dateTime ] ;
      fhir:profile ( [
        fhir:v "http://hl7.org/fhir/StructureDefinition/shareablevalueset"^^xsd:anyURI ;
        fhir:link <http://hl7.org/fhir/StructureDefinition/shareablevalueset>

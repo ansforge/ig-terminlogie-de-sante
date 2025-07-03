@@ -3,8 +3,8 @@
 <CodeSystem xmlns="http://hl7.org/fhir">
   <id value="TRE-R231-PalierAuthentification"/>
   <meta>
-    <versionId value="4"/>
-    <lastUpdated value="2024-08-28T05:12:37.003+00:00"/>
+    <versionId value="5"/>
+    <lastUpdated value="2025-07-02T18:16:19.952+00:00"/>
     <profile value="http://hl7.org/fhir/StructureDefinition/shareablecodesystem"/>
   </meta>
   <text>
@@ -50,6 +50,24 @@
     <description value="Date de fin d'exploitation d'un code concept"/>
     <type value="dateTime"/>
   </property>
+  <property>
+    <code value="deprecationDate"/>
+    <uri value="http://hl7.org/fhir/concept-properties#deprecationDate"/>
+    <description value="Date Concept was deprecated"/>
+    <type value="dateTime"/>
+  </property>
+  <property>
+    <code value="status"/>
+    <uri value="http://hl7.org/fhir/concept-properties#status"/>
+    <description value="A property that indicates the status of the concept."/>
+    <type value="code"/>
+  </property>
+  <property>
+    <code value="retirementDate"/>
+    <uri value="http://hl7.org/fhir/concept-properties#retirementDate"/>
+    <description value="Date Concept was retired"/>
+    <type value="dateTime"/>
+  </property>
   <concept>
     <code value="APMPUBP2"/>
     <display value="Palier 2 authent. pub acteurs sanitaires, médico-sociaux et sociaux PM"/>
@@ -76,6 +94,10 @@
     <property>
       <code value="dateMaj"/>
       <valueDateTime value="2017-07-07T10:00:00+01:00"/>
+    </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
     </property>
   </concept>
   <concept>
@@ -105,6 +127,10 @@
       <code value="dateMaj"/>
       <valueDateTime value="2017-07-07T10:00:00+01:00"/>
     </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
+    </property>
   </concept>
   <concept>
     <code value="APPPRIP1"/>
@@ -132,6 +158,10 @@
     <property>
       <code value="dateMaj"/>
       <valueDateTime value="2017-07-07T10:00:00+01:00"/>
+    </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
     </property>
   </concept>
   <concept>
@@ -161,6 +191,10 @@
       <code value="dateMaj"/>
       <valueDateTime value="2017-07-07T10:00:00+01:00"/>
     </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
+    </property>
   </concept>
   <concept>
     <code value="APPPRIP3"/>
@@ -188,6 +222,10 @@
     <property>
       <code value="dateMaj"/>
       <valueDateTime value="2017-07-07T10:00:00+01:00"/>
+    </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
     </property>
   </concept>
   <concept>
@@ -217,6 +255,10 @@
       <code value="dateMaj"/>
       <valueDateTime value="2017-07-07T10:00:00+01:00"/>
     </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
+    </property>
   </concept>
   <concept>
     <code value="APPPUBP3"/>
@@ -244,6 +286,10 @@
     <property>
       <code value="dateMaj"/>
       <valueDateTime value="2017-07-07T10:00:00+01:00"/>
+    </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
     </property>
   </concept>
 </CodeSystem>

@@ -10,8 +10,8 @@
   fhir:nodeRole fhir:treeRoot ;
   fhir:id [ fhir:v "TRE-G15-ProfessionSante"] ; # 
   fhir:meta [
-     fhir:versionId [ fhir:v "9" ] ;
-     fhir:lastUpdated [ fhir:v "2025-03-31T18:11:14.345+00:00"^^xsd:dateTime ] ;
+     fhir:versionId [ fhir:v "10" ] ;
+     fhir:lastUpdated [ fhir:v "2025-07-02T18:11:48.373+00:00"^^xsd:dateTime ] ;
      fhir:profile ( [
        fhir:v "http://hl7.org/fhir/StructureDefinition/shareablecodesystem"^^xsd:anyURI ;
        fhir:link <http://hl7.org/fhir/StructureDefinition/shareablecodesystem>

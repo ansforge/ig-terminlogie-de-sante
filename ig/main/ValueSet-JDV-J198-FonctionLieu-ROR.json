@@ -2,8 +2,8 @@
   "resourceType" : "ValueSet",
   "id" : "JDV-J198-FonctionLieu-ROR",
   "meta" : {
-    "versionId" : "5",
-    "lastUpdated" : "2025-07-01T13:32:16.128+00:00",
+    "versionId" : "6",
+    "lastUpdated" : "2025-07-02T17:05:42.186+00:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset"]
   },
   "language" : "fr-FR",

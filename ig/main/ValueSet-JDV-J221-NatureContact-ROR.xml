@@ -3,8 +3,8 @@
 <ValueSet xmlns="http://hl7.org/fhir">
   <id value="JDV-J221-NatureContact-ROR"/>
   <meta>
-    <versionId value="5"/>
-    <lastUpdated value="2024-12-19T18:02:37.848+00:00"/>
+    <versionId value="6"/>
+    <lastUpdated value="2025-07-02T17:05:55.584+00:00"/>
     <profile value="http://hl7.org/fhir/StructureDefinition/shareablevalueset"/>
   </meta>
   <language value="fr-FR"/>

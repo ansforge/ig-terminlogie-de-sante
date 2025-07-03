@@ -2,8 +2,8 @@
   "resourceType" : "ValueSet",
   "id" : "JDV-J256-Pays",
   "meta" : {
-    "versionId" : "7",
-    "lastUpdated" : "2025-03-31T17:34:19.374+00:00",
+    "versionId" : "8",
+    "lastUpdated" : "2025-07-02T17:06:14.026+00:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset"]
   },
   "language" : "fr-FR",

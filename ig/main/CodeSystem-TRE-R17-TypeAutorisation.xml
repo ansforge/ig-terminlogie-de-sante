@@ -3,8 +3,8 @@
 <CodeSystem xmlns="http://hl7.org/fhir">
   <id value="TRE-R17-TypeAutorisation"/>
   <meta>
-    <versionId value="7"/>
-    <lastUpdated value="2025-05-26T18:11:16.708+00:00"/>
+    <versionId value="8"/>
+    <lastUpdated value="2025-07-02T18:13:34.590+00:00"/>
     <profile value="http://hl7.org/fhir/StructureDefinition/shareablecodesystem"/>
   </meta>
   <text>

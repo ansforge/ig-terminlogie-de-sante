@@ -2,8 +2,8 @@
   "resourceType" : "ValueSet",
   "id" : "JDV-J254-CategorieEtablissementESSMSPH",
   "meta" : {
-    "versionId" : "6",
-    "lastUpdated" : "2024-10-31T18:01:41.512+00:00",
+    "versionId" : "7",
+    "lastUpdated" : "2025-07-02T17:06:12.685+00:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset"]
   },
   "language" : "fr-FR",

@@ -2,8 +2,8 @@
   "resourceType" : "CodeSystem",
   "id" : "TRE-R329-NatureCapacite",
   "meta" : {
-    "versionId" : "5",
-    "lastUpdated" : "2025-03-31T18:11:28.898+00:00",
+    "versionId" : "6",
+    "lastUpdated" : "2025-07-02T18:17:34.963+00:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablecodesystem"]
   },
   "text" : {

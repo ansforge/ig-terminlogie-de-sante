@@ -1,11 +1,11 @@
 {
   "resourceType" : "CodeSystem",
-  "id" : "c1098bb6-0a54-4b41-90a9-84233ec63cb9-767",
-  "url" : "http://hl7.org/fhir/comparison/CodeSystem/c1098bb6-0a54-4b41-90a9-84233ec63cb9-767",
+  "id" : "8efd7c43-33e8-4c22-9094-24be55d42e92-767",
+  "url" : "http://hl7.org/fhir/comparison/CodeSystem/8efd7c43-33e8-4c22-9094-24be55d42e92-767",
   "name" : "UnionBDPMAndBDPM",
   "title" : "Union of Base de données publique du médicament And Base de données publique du médicament",
   "status" : "active",
-  "date" : "2025-07-02T04:44:23+00:00",
+  "date" : "2025-07-03T04:40:59+00:00",
   "jurisdiction" : [{
     "coding" : [{
       "system" : "urn:iso:std:iso:3166",

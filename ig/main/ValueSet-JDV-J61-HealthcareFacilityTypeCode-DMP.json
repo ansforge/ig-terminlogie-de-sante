@@ -2,8 +2,8 @@
   "resourceType" : "ValueSet",
   "id" : "JDV-J61-HealthcareFacilityTypeCode-DMP",
   "meta" : {
-    "versionId" : "5",
-    "lastUpdated" : "2024-09-29T19:01:25.780+00:00",
+    "versionId" : "6",
+    "lastUpdated" : "2025-07-02T17:06:41.147+00:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset"]
   },
   "language" : "fr-FR",

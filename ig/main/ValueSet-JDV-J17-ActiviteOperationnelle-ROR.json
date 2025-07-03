@@ -2,8 +2,8 @@
   "resourceType" : "ValueSet",
   "id" : "JDV-J17-ActiviteOperationnelle-ROR",
   "meta" : {
-    "versionId" : "15",
-    "lastUpdated" : "2025-07-01T13:32:14.190+00:00",
+    "versionId" : "16",
+    "lastUpdated" : "2025-07-02T17:05:32.590+00:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset"]
   },
   "language" : "fr-FR",

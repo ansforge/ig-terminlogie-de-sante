@@ -3,8 +3,8 @@
 <ValueSet xmlns="http://hl7.org/fhir">
   <id value="JDV-J264-ModeEtCentreDePriseEnCharge-MDPH"/>
   <meta>
-    <versionId value="1"/>
-    <lastUpdated value="2024-06-28T16:10:05.455+00:00"/>
+    <versionId value="2"/>
+    <lastUpdated value="2025-07-02T17:06:17.550+00:00"/>
     <profile value="http://hl7.org/fhir/StructureDefinition/shareablevalueset"/>
   </meta>
   <language value="fr-FR"/>

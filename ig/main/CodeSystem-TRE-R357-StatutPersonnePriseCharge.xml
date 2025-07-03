@@ -3,8 +3,8 @@
 <CodeSystem xmlns="http://hl7.org/fhir">
   <id value="TRE-R357-StatutPersonnePriseCharge"/>
   <meta>
-    <versionId value="4"/>
-    <lastUpdated value="2024-08-28T05:13:45.837+00:00"/>
+    <versionId value="5"/>
+    <lastUpdated value="2025-07-02T18:17:54.369+00:00"/>
     <profile value="http://hl7.org/fhir/StructureDefinition/shareablecodesystem"/>
   </meta>
   <text>
@@ -50,6 +50,24 @@
     <description value="Date de fin d'exploitation d'un code concept"/>
     <type value="dateTime"/>
   </property>
+  <property>
+    <code value="deprecationDate"/>
+    <uri value="http://hl7.org/fhir/concept-properties#deprecationDate"/>
+    <description value="Date Concept was deprecated"/>
+    <type value="dateTime"/>
+  </property>
+  <property>
+    <code value="status"/>
+    <uri value="http://hl7.org/fhir/concept-properties#status"/>
+    <description value="A property that indicates the status of the concept."/>
+    <type value="code"/>
+  </property>
+  <property>
+    <code value="retirementDate"/>
+    <uri value="http://hl7.org/fhir/concept-properties#retirementDate"/>
+    <description value="Date Concept was retired"/>
+    <type value="dateTime"/>
+  </property>
   <concept>
     <code value="37"/>
     <display value="Décision d'orientation annulée"/>
@@ -60,6 +78,10 @@
     <property>
       <code value="dateMaj"/>
       <valueDateTime value="2023-09-22T12:00:00+01:00"/>
+    </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
     </property>
   </concept>
   <concept>
@@ -73,6 +95,10 @@
       <code value="dateMaj"/>
       <valueDateTime value="2023-09-22T12:00:00+01:00"/>
     </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
+    </property>
   </concept>
   <concept>
     <code value="40"/>
@@ -85,6 +111,10 @@
       <code value="dateMaj"/>
       <valueDateTime value="2023-09-22T12:00:00+01:00"/>
     </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
+    </property>
   </concept>
   <concept>
     <code value="41"/>
@@ -96,6 +126,10 @@
     <property>
       <code value="dateMaj"/>
       <valueDateTime value="2023-09-22T12:00:00+01:00"/>
+    </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
     </property>
   </concept>
   <concept>
@@ -117,6 +151,10 @@
       <code value="dateMaj"/>
       <valueDateTime value="2023-09-22T12:00:00+01:00"/>
     </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
+    </property>
   </concept>
   <concept>
     <code value="43"/>
@@ -136,6 +174,10 @@
     <property>
       <code value="dateMaj"/>
       <valueDateTime value="2023-09-22T12:00:00+01:00"/>
+    </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
     </property>
   </concept>
   <concept>
@@ -157,6 +199,10 @@
       <code value="dateMaj"/>
       <valueDateTime value="2023-09-22T12:00:00+01:00"/>
     </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
+    </property>
   </concept>
   <concept>
     <code value="45"/>
@@ -168,6 +214,10 @@
     <property>
       <code value="dateMaj"/>
       <valueDateTime value="2023-06-30T12:00:00+01:00"/>
+    </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
     </property>
   </concept>
   <concept>
@@ -181,6 +231,10 @@
       <code value="dateMaj"/>
       <valueDateTime value="2023-06-30T12:00:00+01:00"/>
     </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
+    </property>
   </concept>
   <concept>
     <code value="47"/>
@@ -192,6 +246,10 @@
     <property>
       <code value="dateMaj"/>
       <valueDateTime value="2023-06-30T12:00:00+01:00"/>
+    </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
     </property>
   </concept>
   <concept>
@@ -205,6 +263,10 @@
       <code value="dateMaj"/>
       <valueDateTime value="2023-06-30T12:00:00+01:00"/>
     </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
+    </property>
   </concept>
   <concept>
     <code value="49"/>
@@ -216,6 +278,10 @@
     <property>
       <code value="dateMaj"/>
       <valueDateTime value="2023-06-30T12:00:00+01:00"/>
+    </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
     </property>
   </concept>
   <concept>
@@ -237,6 +303,10 @@
       <code value="dateMaj"/>
       <valueDateTime value="2023-09-22T12:00:00+01:00"/>
     </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
+    </property>
   </concept>
   <concept>
     <code value="54"/>
@@ -248,6 +318,10 @@
     <property>
       <code value="dateMaj"/>
       <valueDateTime value="2023-06-30T12:00:00+01:00"/>
+    </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
     </property>
   </concept>
   <concept>
@@ -269,6 +343,10 @@
       <code value="dateMaj"/>
       <valueDateTime value="2023-09-22T12:00:00+01:00"/>
     </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
+    </property>
   </concept>
   <concept>
     <code value="72"/>
@@ -288,6 +366,10 @@
     <property>
       <code value="dateMaj"/>
       <valueDateTime value="2023-09-22T12:00:00+01:00"/>
+    </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
     </property>
   </concept>
   <concept>
@@ -309,6 +391,10 @@
       <code value="dateMaj"/>
       <valueDateTime value="2023-06-30T12:00:00+01:00"/>
     </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
+    </property>
   </concept>
   <concept>
     <code value="181"/>
@@ -328,6 +414,10 @@
     <property>
       <code value="dateMaj"/>
       <valueDateTime value="2023-09-22T12:00:00+01:00"/>
+    </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
     </property>
   </concept>
   <concept>
@@ -349,6 +439,10 @@
       <code value="dateMaj"/>
       <valueDateTime value="2023-09-22T12:00:00+01:00"/>
     </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
+    </property>
   </concept>
   <concept>
     <code value="183"/>
@@ -368,6 +462,10 @@
     <property>
       <code value="dateMaj"/>
       <valueDateTime value="2023-09-22T12:00:00+01:00"/>
+    </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
     </property>
   </concept>
   <concept>
@@ -389,6 +487,10 @@
       <code value="dateMaj"/>
       <valueDateTime value="2023-09-22T12:00:00+01:00"/>
     </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
+    </property>
   </concept>
   <concept>
     <code value="185"/>
@@ -409,6 +511,10 @@
       <code value="dateMaj"/>
       <valueDateTime value="2023-09-22T12:00:00+01:00"/>
     </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
+    </property>
   </concept>
   <concept>
     <code value="186"/>
@@ -420,6 +526,10 @@
     <property>
       <code value="dateMaj"/>
       <valueDateTime value="2023-06-30T12:00:00+01:00"/>
+    </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
     </property>
   </concept>
   <concept>
@@ -441,6 +551,10 @@
       <code value="dateMaj"/>
       <valueDateTime value="2023-09-22T12:00:00+01:00"/>
     </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
+    </property>
   </concept>
   <concept>
     <code value="188"/>
@@ -452,6 +566,10 @@
     <property>
       <code value="dateMaj"/>
       <valueDateTime value="2023-06-30T12:00:00+01:00"/>
+    </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
     </property>
   </concept>
 </CodeSystem>

@@ -3,8 +3,8 @@
 <ValueSet xmlns="http://hl7.org/fhir">
   <id value="JDV-J279-Loinc-UPNOS"/>
   <meta>
-    <versionId value="5"/>
-    <lastUpdated value="2024-10-31T18:01:42.073+00:00"/>
+    <versionId value="6"/>
+    <lastUpdated value="2025-07-02T17:06:20.612+00:00"/>
     <profile value="http://hl7.org/fhir/StructureDefinition/shareablevalueset"/>
   </meta>
   <language value="fr-FR"/>

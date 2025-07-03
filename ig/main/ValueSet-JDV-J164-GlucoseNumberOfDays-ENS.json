@@ -2,8 +2,8 @@
   "resourceType" : "ValueSet",
   "id" : "JDV-J164-GlucoseNumberOfDays-ENS",
   "meta" : {
-    "versionId" : "4",
-    "lastUpdated" : "2024-12-19T18:02:34.358+00:00",
+    "versionId" : "5",
+    "lastUpdated" : "2025-07-02T17:05:22.232+00:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset"]
   },
   "language" : "fr-FR",

@@ -2,8 +2,8 @@
   "resourceType" : "CodeSystem",
   "id" : "TRE-R330-TypeStatutCapacite",
   "meta" : {
-    "versionId" : "8",
-    "lastUpdated" : "2025-03-31T18:11:29.663+00:00",
+    "versionId" : "9",
+    "lastUpdated" : "2025-07-02T18:17:36.165+00:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablecodesystem"]
   },
   "text" : {

@@ -2,8 +2,8 @@
   "resourceType" : "ValueSet",
   "id" : "JDV-J35-SpecialisationDePriseEnCharge-ROR",
   "meta" : {
-    "versionId" : "9",
-    "lastUpdated" : "2025-04-25T17:01:52.761+00:00",
+    "versionId" : "10",
+    "lastUpdated" : "2025-07-02T17:06:28.929+00:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset"]
   },
   "language" : "fr-FR",

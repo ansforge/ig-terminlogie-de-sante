@@ -3,8 +3,8 @@
 <CodeSystem xmlns="http://hl7.org/fhir">
   <id value="TRE-R02-SecteurActivite"/>
   <meta>
-    <versionId value="12"/>
-    <lastUpdated value="2025-05-26T18:11:15.237+00:00"/>
+    <versionId value="13"/>
+    <lastUpdated value="2025-07-02T18:12:02.978+00:00"/>
     <profile value="http://hl7.org/fhir/StructureDefinition/shareablecodesystem"/>
   </meta>
   <text>

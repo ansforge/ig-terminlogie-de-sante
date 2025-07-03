@@ -2,8 +2,8 @@
   "resourceType" : "ValueSet",
   "id" : "JDV-J264-ModeEtCentreDePriseEnCharge-MDPH",
   "meta" : {
-    "versionId" : "1",
-    "lastUpdated" : "2024-06-28T16:10:05.455+00:00",
+    "versionId" : "2",
+    "lastUpdated" : "2025-07-02T17:06:17.550+00:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset"]
   },
   "language" : "fr-FR",

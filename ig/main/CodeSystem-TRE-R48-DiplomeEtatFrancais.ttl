@@ -11,8 +11,8 @@
   fhir:nodeRole fhir:treeRoot ;
   fhir:id [ fhir:v "TRE-R48-DiplomeEtatFrancais"] ; # 
   fhir:meta [
-     fhir:versionId [ fhir:v "8" ] ;
-     fhir:lastUpdated [ fhir:v "2025-04-25T18:12:49.676+00:00"^^xsd:dateTime ] ;
+     fhir:versionId [ fhir:v "9" ] ;
+     fhir:lastUpdated [ fhir:v "2025-07-02T18:18:10.480+00:00"^^xsd:dateTime ] ;
      fhir:profile ( [
        fhir:v "http://hl7.org/fhir/StructureDefinition/shareablecodesystem"^^xsd:anyURI ;
        fhir:link <http://hl7.org/fhir/StructureDefinition/shareablecodesystem>

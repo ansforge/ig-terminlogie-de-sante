@@ -3,8 +3,8 @@
 <ValueSet xmlns="http://hl7.org/fhir">
   <id value="JDV-J66-TypeCode-DMP"/>
   <meta>
-    <versionId value="7"/>
-    <lastUpdated value="2024-10-31T18:01:47.739+00:00"/>
+    <versionId value="8"/>
+    <lastUpdated value="2025-07-02T17:06:44.012+00:00"/>
     <profile value="http://hl7.org/fhir/StructureDefinition/shareablevalueset"/>
   </meta>
   <language value="fr-FR"/>

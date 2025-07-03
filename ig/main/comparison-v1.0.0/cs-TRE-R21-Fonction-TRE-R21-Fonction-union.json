@@ -1,11 +1,11 @@
 {
   "resourceType" : "CodeSystem",
-  "id" : "c1098bb6-0a54-4b41-90a9-84233ec63cb9-176",
-  "url" : "http://hl7.org/fhir/comparison/CodeSystem/c1098bb6-0a54-4b41-90a9-84233ec63cb9-176",
+  "id" : "8efd7c43-33e8-4c22-9094-24be55d42e92-176",
+  "url" : "http://hl7.org/fhir/comparison/CodeSystem/8efd7c43-33e8-4c22-9094-24be55d42e92-176",
   "name" : "UnionTRE_R21_FonctionAndTRE_R21_Fonction",
   "title" : "Union of null And null",
   "status" : "active",
-  "date" : "2025-07-02T04:44:23+00:00",
+  "date" : "2025-07-03T04:40:59+00:00",
   "jurisdiction" : [{
     "coding" : [{
       "system" : "urn:iso:std:iso:3166",
@@ -41,6 +41,24 @@
     "code" : "dateFin",
     "description" : "Date de fin d'exploitation d'un code concept",
     "type" : "dateTime"
+  },
+  {
+    "code" : "deprecationDate",
+    "uri" : "http://hl7.org/fhir/concept-properties#deprecationDate",
+    "description" : "Date Concept was deprecated",
+    "type" : "dateTime"
+  },
+  {
+    "code" : "status",
+    "uri" : "http://hl7.org/fhir/concept-properties#status",
+    "description" : "A property that indicates the status of the concept.",
+    "type" : "code"
+  },
+  {
+    "code" : "retirementDate",
+    "uri" : "http://hl7.org/fhir/concept-properties#retirementDate",
+    "description" : "Date Concept was retired",
+    "type" : "dateTime"
   }],
   "concept" : [{
     "code" : "FON-01",
@@ -60,6 +78,10 @@
     {
       "code" : "dateMaj",
       "valueDateTime" : "2008-02-28T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
     }]
   },
   {
@@ -88,6 +110,10 @@
     {
       "code" : "dateMaj",
       "valueDateTime" : "2008-02-28T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
     }]
   },
   {
@@ -108,6 +134,10 @@
     {
       "code" : "dateMaj",
       "valueDateTime" : "2008-02-28T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
     }]
   },
   {
@@ -136,6 +166,10 @@
     {
       "code" : "dateMaj",
       "valueDateTime" : "2008-02-28T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
     }]
   },
   {
@@ -156,6 +190,10 @@
     {
       "code" : "dateMaj",
       "valueDateTime" : "2008-02-28T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
     }]
   },
   {
@@ -184,6 +222,10 @@
     {
       "code" : "dateMaj",
       "valueDateTime" : "2024-02-23T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
     }]
   },
   {
@@ -204,6 +246,10 @@
     {
       "code" : "dateMaj",
       "valueDateTime" : "2008-02-28T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
     }]
   },
   {
@@ -240,6 +286,14 @@
     {
       "code" : "dateMaj",
       "valueDateTime" : "2020-04-24T12:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2020-04-24T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "deprecated"
     }]
   },
   {
@@ -268,6 +322,14 @@
     {
       "code" : "dateMaj",
       "valueDateTime" : "2020-04-24T12:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2020-04-24T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "deprecated"
     }]
   },
   {
@@ -304,6 +366,14 @@
     {
       "code" : "dateMaj",
       "valueDateTime" : "2020-04-24T12:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2020-04-24T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "deprecated"
     }]
   },
   {
@@ -340,6 +410,14 @@
     {
       "code" : "dateMaj",
       "valueDateTime" : "2020-04-24T12:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2020-04-24T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "deprecated"
     }]
   },
   {
@@ -376,6 +454,14 @@
     {
       "code" : "dateMaj",
       "valueDateTime" : "2020-04-24T12:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2020-04-24T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "deprecated"
     }]
   },
   {
@@ -404,6 +490,14 @@
     {
       "code" : "dateMaj",
       "valueDateTime" : "2024-01-26T12:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2024-01-26T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "deprecated"
     }]
   },
   {
@@ -440,6 +534,14 @@
     {
       "code" : "dateMaj",
       "valueDateTime" : "2024-01-26T12:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2024-01-26T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "deprecated"
     }]
   },
   {
@@ -460,6 +562,10 @@
     {
       "code" : "dateMaj",
       "valueDateTime" : "2008-02-28T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
     }]
   },
   {
@@ -480,6 +586,10 @@
     {
       "code" : "dateMaj",
       "valueDateTime" : "2023-03-31T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
     }]
   },
   {
@@ -500,6 +610,10 @@
     {
       "code" : "dateMaj",
       "valueDateTime" : "2008-02-28T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
     }]
   },
   {
@@ -520,6 +634,10 @@
     {
       "code" : "dateMaj",
       "valueDateTime" : "2008-02-28T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
     }]
   },
   {
@@ -549,6 +667,10 @@
     {
       "code" : "dateMaj",
       "valueDateTime" : "2020-06-26T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
     }]
   },
   {
@@ -569,6 +691,10 @@
     {
       "code" : "dateMaj",
       "valueDateTime" : "2016-03-29T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
     }]
   },
   {
@@ -589,6 +715,10 @@
     {
       "code" : "dateMaj",
       "valueDateTime" : "2008-02-28T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
     }]
   },
   {
@@ -617,6 +747,14 @@
     {
       "code" : "dateMaj",
       "valueDateTime" : "2020-04-24T12:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2020-04-24T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "deprecated"
     }]
   },
   {
@@ -645,6 +783,14 @@
     {
       "code" : "dateMaj",
       "valueDateTime" : "2020-04-24T12:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2020-04-24T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "deprecated"
     }]
   },
   {
@@ -665,6 +811,10 @@
     {
       "code" : "dateMaj",
       "valueDateTime" : "2008-02-28T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
     }]
   },
   {
@@ -693,6 +843,14 @@
     {
       "code" : "dateMaj",
       "valueDateTime" : "2020-04-24T12:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2020-04-24T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "deprecated"
     }]
   },
   {
@@ -713,6 +871,10 @@
     {
       "code" : "dateMaj",
       "valueDateTime" : "2008-02-28T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
     }]
   },
   {
@@ -733,6 +895,10 @@
     {
       "code" : "dateMaj",
       "valueDateTime" : "2021-06-25T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
     }]
   },
   {
@@ -761,6 +927,14 @@
     {
       "code" : "dateMaj",
       "valueDateTime" : "2020-04-24T12:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2020-04-24T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "deprecated"
     }]
   },
   {
@@ -781,6 +955,10 @@
     {
       "code" : "dateMaj",
       "valueDateTime" : "2008-02-28T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
     }]
   },
   {
@@ -809,6 +987,10 @@
     {
       "code" : "dateMaj",
       "valueDateTime" : "2008-02-28T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
     }]
   },
   {
@@ -845,6 +1027,14 @@
     {
       "code" : "dateMaj",
       "valueDateTime" : "2020-04-24T12:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2020-04-24T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "deprecated"
     }]
   },
   {
@@ -865,6 +1055,10 @@
     {
       "code" : "dateMaj",
       "valueDateTime" : "2010-07-02T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
     }]
   },
   {
@@ -893,6 +1087,10 @@
     {
       "code" : "dateMaj",
       "valueDateTime" : "2010-07-16T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
     }]
   },
   {
@@ -913,6 +1111,10 @@
     {
       "code" : "dateMaj",
       "valueDateTime" : "2016-03-29T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
     }]
   },
   {
@@ -933,6 +1135,10 @@
     {
       "code" : "dateMaj",
       "valueDateTime" : "2016-09-01T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
     }]
   },
   {
@@ -953,6 +1159,10 @@
     {
       "code" : "dateMaj",
       "valueDateTime" : "2020-09-25T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
     }]
   },
   {
@@ -981,6 +1191,14 @@
     {
       "code" : "dateMaj",
       "valueDateTime" : "2020-09-25T12:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2020-09-25T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "deprecated"
     }]
   },
   {
@@ -1001,6 +1219,10 @@
     {
       "code" : "dateMaj",
       "valueDateTime" : "2016-09-01T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
     }]
   },
   {
@@ -1021,6 +1243,10 @@
     {
       "code" : "dateMaj",
       "valueDateTime" : "2016-03-21T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
     }]
   },
   {
@@ -1041,6 +1267,10 @@
     {
       "code" : "dateMaj",
       "valueDateTime" : "2016-03-21T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
     }]
   },
   {
@@ -1061,6 +1291,10 @@
     {
       "code" : "dateMaj",
       "valueDateTime" : "2016-03-21T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
     }]
   },
   {
@@ -1089,6 +1323,10 @@
     {
       "code" : "dateMaj",
       "valueDateTime" : "2017-10-13T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
     }]
   },
   {
@@ -1117,6 +1355,10 @@
     {
       "code" : "dateMaj",
       "valueDateTime" : "2017-10-13T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
     }]
   },
   {
@@ -1137,6 +1379,10 @@
     {
       "code" : "dateMaj",
       "valueDateTime" : "2018-06-29T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
     }]
   },
   {
@@ -1157,6 +1403,10 @@
     {
       "code" : "dateMaj",
       "valueDateTime" : "2019-08-30T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
     }]
   },
   {
@@ -1185,6 +1435,14 @@
     {
       "code" : "dateMaj",
       "valueDateTime" : "2023-03-31T12:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2023-03-31T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "deprecated"
     }]
   },
   {
@@ -1213,6 +1471,10 @@
     {
       "code" : "dateMaj",
       "valueDateTime" : "2023-05-26T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
     }]
   },
   {
@@ -1249,6 +1511,10 @@
     {
       "code" : "dateMaj",
       "valueDateTime" : "2019-10-25T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
     }]
   },
   {
@@ -1277,6 +1543,10 @@
     {
       "code" : "dateMaj",
       "valueDateTime" : "2019-10-25T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
     }]
   },
   {
@@ -1298,6 +1568,10 @@
     {
       "code" : "dateMaj",
       "valueDateTime" : "2020-10-30T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
     }]
   },
   {
@@ -1318,6 +1592,10 @@
     {
       "code" : "dateMaj",
       "valueDateTime" : "2024-03-29T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
     }]
   },
   {
@@ -1338,6 +1616,10 @@
     {
       "code" : "dateMaj",
       "valueDateTime" : "2024-03-29T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
     }]
   },
   {
@@ -1358,6 +1640,10 @@
     {
       "code" : "dateMaj",
       "valueDateTime" : "2008-02-28T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
     }]
   },
   {
@@ -1378,6 +1664,10 @@
     {
       "code" : "dateMaj",
       "valueDateTime" : "2025-06-23T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
     }]
   }]
 }
