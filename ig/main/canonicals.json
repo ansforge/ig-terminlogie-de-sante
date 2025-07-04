@@ -16,10 +16,10 @@
     "oids" : ["2.16.840.1.113883.6.96"]
   },
   {
-    "id" : "900000000000207008-20250601",
+    "id" : "900000000000207008-20250701",
     "type" : "CodeSystem",
     "url" : "http://snomed.info/sct",
-    "version" : "http://snomed.info/sct/900000000000207008/version/20250601",
+    "version" : "http://snomed.info/sct/900000000000207008/version/20250701",
     "name" : "SNOMED_CT",
     "oids" : ["2.16.840.1.113883.6.96"]
   },
@@ -4348,20 +4348,6 @@
     "oids" : ["1.2.250.1.213.1.6.1.111"]
   },
   {
-    "id" : "alignement-nuva-atc",
-    "type" : "ConceptMap",
-    "url" : "https://smt-pprod.esante.gouv.fr/fhir/ConceptMap/alignement-nuva-atc",
-    "version" : "1.0.930",
-    "name" : "Alignement_Codes_ATC_NUVA_ATC"
-  },
-  {
-    "id" : "alignement-nuva-bdpm",
-    "type" : "ConceptMap",
-    "url" : "https://smt-pprod.esante.gouv.fr/fhir/ConceptMap/alignement-nuva-bdpm",
-    "version" : "1.0.930",
-    "name" : "Alignement_Codes_CIP_CIS_NUVA_BDPM"
-  },
-  {
     "id" : "terminologie-cisis",
     "type" : "CodeSystem",
     "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/terminologie-cisis",
@@ -4400,6 +4386,20 @@
     "version" : "20250625120000",
     "name" : "TreR394CompetenceMetier",
     "oids" : ["1.2.250.1.213.1.6.1.375"]
+  },
+  {
+    "id" : "alignement-nuva-atc",
+    "type" : "ConceptMap",
+    "url" : "https://smt.esante.gouv.fr/fhir/ConceptMap/alignement-nuva-atc",
+    "version" : "1.0.939",
+    "name" : "Alignement_Codes_ATC_NUVA_ATC"
+  },
+  {
+    "id" : "alignement-nuva-bdpm",
+    "type" : "ConceptMap",
+    "url" : "https://smt.esante.gouv.fr/fhir/ConceptMap/alignement-nuva-bdpm",
+    "version" : "1.0.939",
+    "name" : "Alignement_Codes_CIP_CIS_NUVA_BDPM"
   },
   {
     "id" : "jdv-abord-veineux-central-cisis",
@@ -8263,7 +8263,7 @@
     "id" : "terminologie-nuva",
     "type" : "CodeSystem",
     "url" : "https://smt.esante.gouv.fr/terminologie-nuva",
-    "version" : "1.0.930",
+    "version" : "1.0.939",
     "name" : "NUVA",
     "oids" : ["1.3.6.1.4.1.48601.1"]
   },
