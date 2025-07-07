@@ -8,7 +8,7 @@
     },  
     {
     "name" : "system-version",
-    "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/11000315107
+    "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/11000315107"
   }
   ]
 }
