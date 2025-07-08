@@ -5816,8 +5816,8 @@
     },
     {
       "url" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-indicateur-anormalite-cisis",
-      "version" : "20250624152100",
-      "status" : "active",
+      "version" : "20250708100000",
+      "status" : "retired",
       "name" : "JdvIndicateurAnormaliteCisis",
       "title" : "JDV Indicateur Anormalite CISIS",
       "description" : "JDV Indicateur Anormalite CISIS",
@@ -9487,8 +9487,8 @@
       "systems" : ["https://smt.esante.gouv.fr/terminologie-nuva"],
       "uses" : {
       },
-      "ConceptMap-alignement-nuva-atc.html" : "Aligner les codes ATC de NUVA avec les codes ATC",
-      "ConceptMap-alignement-nuva-bdpm.html" : "Aligner les codes CIS et CIP de NUVA avec les codes CIS et CIP du BDPM"
+      "ConceptMap-alignement-nuva-bdpm.html" : "Aligner les codes CIS et CIP de NUVA avec les codes CIS et CIP du BDPM",
+      "ConceptMap-alignement-nuva-atc.html" : "Aligner les codes ATC de NUVA avec les codes ATC"
     },
     {
       "url" : "https://smt.esante.gouv.fr/terminologie-sms?vs",

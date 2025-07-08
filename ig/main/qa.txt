@@ -3,7 +3,7 @@ Terminologies : Validation Results
 
 err = 1158, warn = 10423, info = 1036
 IG Publisher Version: 2.0.8
-Generated Tue Jul 08 04:48:45 UTC 2025. FHIR version 4.0.1 for ans.fr.terminologies#1.1.0 (canonical = https://interop.esante.gouv.fr/terminologies)
+Generated Tue Jul 08 14:48:52 UTC 2025. FHIR version 4.0.1 for ans.fr.terminologies#1.1.0 (canonical = https://interop.esante.gouv.fr/terminologies)
  Build Errors : 384 / 16 / 0
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/DM/fsh-generated/resources/ConceptMap-ASS-A11-CorresModeleCDA-XdsFormatCode-CISIS : 0 / 0 / 1
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/DM/fsh-generated/resources/ConceptMap-ASS-A12-CorresMediaTypeCDANonStructure-XdsFormatCode-CISIS : 0 / 0 / 1
@@ -2242,8 +2242,8 @@ WARNING: ValueSet/JDV-J145-MethodBodyWeight-ENS: ValueSet: Published value sets 
 WARNING: ValueSet/JDV-J146-MethodBodyHeight-ENS: ValueSet.compose.include[0].system: No definition could be found for URL value 'https://smt.esante.gouv.fr/terminologie-ncit'
 INFORMATION: ValueSet/JDV-J146-MethodBodyHeight-ENS: ValueSet.compose.include[0].concept[0]: A definition for CodeSystem 'https://smt.esante.gouv.fr/terminologie-ncit' could not be found, so the code cannot be validated
 WARNING: ValueSet/JDV-J146-MethodBodyHeight-ENS: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.title is mandatory, but it is not present
-ERROR: ValueSet.where(id = 'JDV-J146-MethodBodyHeight-ENS'): Error from https://smt.esante.gouv.fr/fhir: Error: [1ed1e86e-9963-4fb5-9c1b-0739d91d77e1]: A usable code system with URL https://smt.esante.gouv.fr/terminologie-ncit could not be resolved.
-Information: X-Request-Id: 6c313031-4bc4-4e33-be73-c9c6b63691da
+ERROR: ValueSet.where(id = 'JDV-J146-MethodBodyHeight-ENS'): Error from https://smt.esante.gouv.fr/fhir: Error: [3dff0aa8-cd06-45fc-aecf-c895d06b3fe4]: A usable code system with URL https://smt.esante.gouv.fr/terminologie-ncit could not be resolved.
+Information: X-Request-Id: 97d86b4f-2e22-4ab0-8c2d-358dcf539c67
 == input/ontoserver/JDV/JDV_J147_MethodHeartrate_ENS_JDV-J147-MethodHeartrate-ENS.json ==
 WARNING: ValueSet/JDV-J147-MethodHeartrate-ENS: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.title is mandatory, but it is not present
 == input/ontoserver/JDV/JDV_J148_ReferenceRangeAppliesTo_CISIS_JDV-J148-ReferenceRangeAppliesTo-CISIS.json ==
@@ -2617,8 +2617,8 @@ ERROR: ValueSet/JDV-J51-FamilleActiviteOperationnelle-ROR: ValueSet.compose.incl
 ERROR: ValueSet/JDV-J51-FamilleActiviteOperationnelle-ROR: ValueSet.compose.include[1].concept[23]: The code '065' is not valid in the system https://mos.esante.gouv.fr/NOS/TRE_R265-PrestationPilotageSerafin/FHIR/TRE-R265-PrestationPilotageSerafin (A definition for CodeSystem 'https://mos.esante.gouv.fr/NOS/TRE_R265-PrestationPilotageSerafin/FHIR/TRE-R265-PrestationPilotageSerafin' could not be found, so the code cannot be validated)
 ERROR: ValueSet/JDV-J51-FamilleActiviteOperationnelle-ROR: ValueSet.compose.include[1].concept[24]: The code '067' is not valid in the system https://mos.esante.gouv.fr/NOS/TRE_R265-PrestationPilotageSerafin/FHIR/TRE-R265-PrestationPilotageSerafin (A definition for CodeSystem 'https://mos.esante.gouv.fr/NOS/TRE_R265-PrestationPilotageSerafin/FHIR/TRE-R265-PrestationPilotageSerafin' could not be found, so the code cannot be validated)
 WARNING: ValueSet/JDV-J51-FamilleActiviteOperationnelle-ROR: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.title is mandatory, but it is not present
-ERROR: ValueSet.where(id = 'JDV-J51-FamilleActiviteOperationnelle-ROR'): Error from https://smt.esante.gouv.fr/fhir: Error: [6d5c3ede-dbf0-4bf3-8fe8-76214a4f59a9]: A usable code system with URL https://mos.esante.gouv.fr/NOS/TRE_R265-PrestationPilotageSerafin/FHIR/TRE-R265-PrestationPilotageSerafin could not be resolved.
-Information: X-Request-Id: 736acb22-44a1-4b0a-95dd-780a6b0efd4f
+ERROR: ValueSet.where(id = 'JDV-J51-FamilleActiviteOperationnelle-ROR'): Error from https://smt.esante.gouv.fr/fhir: Error: [ded18773-94e4-442d-9362-b12303dd691d]: A usable code system with URL https://mos.esante.gouv.fr/NOS/TRE_R265-PrestationPilotageSerafin/FHIR/TRE-R265-PrestationPilotageSerafin could not be resolved.
+Information: X-Request-Id: 27831ad5-229b-4220-915c-7c6f7be1412b
 == input/ontoserver/JDV/JDV_J52_AvailabilityStatus_CISIS_JDV-J52-AvailabilityStatus-CISIS.json ==
 WARNING: ValueSet/JDV-J52-AvailabilityStatus-CISIS: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.title is mandatory, but it is not present
 == input/ontoserver/JDV/JDV_J53_TypeRequeteGestionDossier_CISIS_JDV-J53-TypeRequeteGestionDossier-CISIS.json ==
@@ -2816,8 +2816,8 @@ ERROR: ValueSet/jdv-defaillance-materielle-cisis: ValueSet.compose.include[0].co
 ERROR: ValueSet/jdv-defaillance-materielle-cisis: ValueSet.compose.include[0].concept[6]: The code 'A191002' is not valid in the system https://www.imdrf.org (A definition for CodeSystem 'https://www.imdrf.org' could not be found, so the code cannot be validated)
 ERROR: ValueSet/jdv-defaillance-materielle-cisis: ValueSet.compose.include[0].concept[7]: The code 'A20' is not valid in the system https://www.imdrf.org (A definition for CodeSystem 'https://www.imdrf.org' could not be found, so the code cannot be validated)
 ERROR: ValueSet/jdv-defaillance-materielle-cisis: ValueSet.compose.include[0].concept[8]: The code 'A22' is not valid in the system https://www.imdrf.org (A definition for CodeSystem 'https://www.imdrf.org' could not be found, so the code cannot be validated)
-ERROR: ValueSet.where(id = 'jdv-defaillance-materielle-cisis'): Error from https://smt.esante.gouv.fr/fhir: Error: [0a372fbb-4494-4b3c-8dc6-45bb172ebd3e]: A usable code system with URL https://www.imdrf.org could not be resolved.
-Information: X-Request-Id: 423a5309-6c00-41ba-ba15-0474c8bc1654
+ERROR: ValueSet.where(id = 'jdv-defaillance-materielle-cisis'): Error from https://smt.esante.gouv.fr/fhir: Error: [8430c273-5b19-4e2f-9643-0e6f678da84c]: A usable code system with URL https://www.imdrf.org could not be resolved.
+Information: X-Request-Id: 07511758-9798-48e4-9ac9-804381a2e30d
 == input/ontoserver/JDV/JdvDeficiencePhysiqueCisis_jdv-deficience-physique-cisis.json ==
 == input/ontoserver/JDV/JdvDelimitationActiviteCisis_jdv-delimitation-activite-cisis.json ==
 == input/ontoserver/JDV/JdvDensiteMammaireCisis_jdv-densite-mammaire-cisis.json ==
@@ -2905,14 +2905,14 @@ ERROR: ValueSet/jdv-gene-cisis: ValueSet.compose.include[0].concept[20]: The cod
 ERROR: ValueSet/jdv-gene-cisis: ValueSet.compose.include[0].concept[21]: The code 'HGNC:5382' is not valid in the system http://www.genenames.org/geneId (A definition for CodeSystem 'http://www.genenames.org/geneId' could not be found, so the code cannot be validated)
 ERROR: ValueSet/jdv-gene-cisis: ValueSet.compose.include[0].concept[22]: The code 'HGNC:5383' is not valid in the system http://www.genenames.org/geneId (A definition for CodeSystem 'http://www.genenames.org/geneId' could not be found, so the code cannot be validated)
 ERROR: ValueSet/jdv-gene-cisis: ValueSet.compose.include[0].concept[23]: The code 'HGNC:8979' is not valid in the system http://www.genenames.org/geneId (A definition for CodeSystem 'http://www.genenames.org/geneId' could not be found, so the code cannot be validated)
-ERROR: ValueSet.where(id = 'jdv-gene-cisis'): Error from https://smt.esante.gouv.fr/fhir: Error: [0e1146e0-1ce8-4d4b-ad8a-6bc031f5686c]: A usable code system with URL http://www.genenames.org/geneId could not be resolved.
-Information: X-Request-Id: 32decc3b-b1ef-452a-ad4c-9b956b99ddd2
+ERROR: ValueSet.where(id = 'jdv-gene-cisis'): Error from https://smt.esante.gouv.fr/fhir: Error: [36aa1298-674e-4359-ab52-06cdca6e0806]: A usable code system with URL http://www.genenames.org/geneId could not be resolved.
+Information: X-Request-Id: b9fe6418-c46e-4940-b1ab-9ae041c7ee9e
 == input/ontoserver/JDV/JdvGesteReanimationNouveauNeCisis_jdv-geste-reanimation-nouveau-ne-cisis.json ==
 == input/ontoserver/JDV/JdvGestionEffetSecondaireCisis_jdv-gestion-effet-secondaire-cisis.json ==
 WARNING: ValueSet/jdv-gestion-effet-secondaire-cisis: ValueSet.compose.include[0].system: No definition could be found for URL value 'https://smt.esante.gouv.fr/terminologie-ncit'
 INFORMATION: ValueSet/jdv-gestion-effet-secondaire-cisis: ValueSet.compose.include[0].concept[0]: A definition for CodeSystem 'https://smt.esante.gouv.fr/terminologie-ncit' could not be found, so the code cannot be validated
-ERROR: ValueSet.where(id = 'jdv-gestion-effet-secondaire-cisis'): Error from https://smt.esante.gouv.fr/fhir: Error: [f91d49bd-e277-4ffd-8a53-aed2956f6a95]: A usable code system with URL https://smt.esante.gouv.fr/terminologie-ncit could not be resolved.
-Information: X-Request-Id: 8bd7a161-3553-46a5-9152-0252a039166b
+ERROR: ValueSet.where(id = 'jdv-gestion-effet-secondaire-cisis'): Error from https://smt.esante.gouv.fr/fhir: Error: [a2931c03-acd3-47d0-882d-f31f77c8eb2c]: A usable code system with URL https://smt.esante.gouv.fr/terminologie-ncit could not be resolved.
+Information: X-Request-Id: 4f58132d-a35b-42bb-8a37-bf44e19c09da
 == input/ontoserver/JDV/JdvGirCisis_jdv-gir-cisis.json ==
 == input/ontoserver/JDV/JdvGraviteCisis_jdv-gravite-cisis.json ==
 ERROR: ValueSet.where(url = 'https://smt.esante.gouv.fr/fhir/ValueSet/jdv-gravite-cisis'): Conformance resource /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JdvGraviteCisis_jdv-gravite-cisis.json - the canonical URL (https://interop.esante.gouv.fr/terminologies/ValueSet/jdv-gravite-cisis) does not match the URL (https://smt.esante.gouv.fr/fhir/ValueSet/jdv-gravite-cisis)
@@ -3052,8 +3052,8 @@ WARNING: ValueSet/jdv-modalite-acquisition-cisis: ValueSet.compose.include[0]: T
 WARNING: ValueSet/jdv-modalite-demande-acte-imagerie-cisis: ValueSet.compose.include[0].system: No definition could be found for URL value 'https://smt.esante.gouv.fr/terminologie-ncit'
 INFORMATION: ValueSet/jdv-modalite-demande-acte-imagerie-cisis: ValueSet.compose.include[0].concept[0]: A definition for CodeSystem 'https://smt.esante.gouv.fr/terminologie-ncit' could not be found, so the code cannot be validated
 WARNING: ValueSet/jdv-modalite-demande-acte-imagerie-cisis: ValueSet.compose.include[2]: There are multiple different potential matches for the url 'http://dicom.nema.org/resources/ontology/DCM'. It might be a good idea to fix to the correct version to reduce the likelihood of a wrong version being selected by an implementation/implementer, or use the [IG Parameter `pin-canonicals`](https://hl7.org/fhir/tools/CodeSystem-ig-parameters.html). Using version '2022.4.20221006', found versions: 01, 2022.4.20221006. Suggested fix: change the canonical reference from 'http://dicom.nema.org/resources/ontology/DCM' to 'http://dicom.nema.org/resources/ontology/DCM|2022.4.20221006'
-ERROR: ValueSet.where(id = 'jdv-modalite-demande-acte-imagerie-cisis'): Error from https://smt.esante.gouv.fr/fhir: Error: [33348c65-12aa-40b8-bd8e-ef2614621c35]: A usable code system with URL https://smt.esante.gouv.fr/terminologie-ncit could not be resolved.
-Information: X-Request-Id: 21a113e4-8459-47f2-b504-a8c31803f3fa
+ERROR: ValueSet.where(id = 'jdv-modalite-demande-acte-imagerie-cisis'): Error from https://smt.esante.gouv.fr/fhir: Error: [e42b1b88-a4f9-4254-b8d9-27ebcdda89a1]: A usable code system with URL https://smt.esante.gouv.fr/terminologie-ncit could not be resolved.
+Information: X-Request-Id: 05e15605-5d2d-4383-b6fc-da4771940c8e
 == input/ontoserver/JDV/JdvModaliteEntreeCisis_jdv-modalite-entree-cisis.json ==
 == input/ontoserver/JDV/JdvModaliteSortieCisis_jdv-modalite-sortie-cisis.json ==
 == input/ontoserver/JDV/JdvModeAccouchementCisis_jdv-mode-accouchement-cisis.json ==
@@ -3702,8 +3702,8 @@ ERROR: ValueSet/jdv-traitement-soins-frcp-cisis: ValueSet.compose.include[0].con
 ERROR: ValueSet/jdv-traitement-soins-frcp-cisis: ValueSet.compose.include[0].concept[5]: The code 'C16832' is not valid in the system https://smt.esante.gouv.fr/terminologie-ncit (A definition for CodeSystem 'https://smt.esante.gouv.fr/terminologie-ncit' could not be found, so the code cannot be validated)
 ERROR: ValueSet/jdv-traitement-soins-frcp-cisis: ValueSet.compose.include[0].concept[6]: The code 'C71326' is not valid in the system https://smt.esante.gouv.fr/terminologie-ncit (A definition for CodeSystem 'https://smt.esante.gouv.fr/terminologie-ncit' could not be found, so the code cannot be validated)
 ERROR: ValueSet/jdv-traitement-soins-frcp-cisis: ValueSet.compose.include[0].concept[7]: The code 'C7201' is not valid in the system https://smt.esante.gouv.fr/terminologie-ncit (A definition for CodeSystem 'https://smt.esante.gouv.fr/terminologie-ncit' could not be found, so the code cannot be validated)
-ERROR: ValueSet.where(id = 'jdv-traitement-soins-frcp-cisis'): Error from https://smt.esante.gouv.fr/fhir: Error: [1ba41bb2-a04b-4c67-beef-f55b6f8092f0]: A usable code system with URL https://smt.esante.gouv.fr/terminologie-ncit could not be resolved.
-Information: X-Request-Id: 23c77702-6c75-4f46-a2e4-da111ee0582e
+ERROR: ValueSet.where(id = 'jdv-traitement-soins-frcp-cisis'): Error from https://smt.esante.gouv.fr/fhir: Error: [0a1aef2c-7c2f-4b45-b392-7d885f851ac3]: A usable code system with URL https://smt.esante.gouv.fr/terminologie-ncit could not be resolved.
+Information: X-Request-Id: 4d1ff582-26db-4ac8-99db-86b9c8103a58
 == input/ontoserver/JDV/JdvTraitementSuiviCisis_jdv-traitement-suivi-cisis.json ==
 == input/ontoserver/JDV/JdvTransfertMutationCisis_jdv-transfert-mutation-cisis.json ==
 == input/ontoserver/JDV/JdvTroubleVisuelCisis_jdv-trouble-visuel-cisis.json ==
@@ -3740,8 +3740,8 @@ ERROR: ValueSet/jdv-trousse-ccu-cisis: ValueSet.compose.include[1].concept[27]: 
 ERROR: ValueSet/jdv-trousse-ccu-cisis: ValueSet.compose.include[1].concept[28]: The code 'VHEDHVGUR03LX' is not valid in the system https://smt.esante.gouv.fr/terminologie-tccr (A definition for CodeSystem 'https://smt.esante.gouv.fr/terminologie-tccr' could not be found, so the code cannot be validated)
 ERROR: ValueSet/jdv-trousse-ccu-cisis: ValueSet.compose.include[1].concept[29]: The code 'VHEDHVGUR04LX' is not valid in the system https://smt.esante.gouv.fr/terminologie-tccr (A definition for CodeSystem 'https://smt.esante.gouv.fr/terminologie-tccr' could not be found, so the code cannot be validated)
 ERROR: ValueSet/jdv-trousse-ccu-cisis: ValueSet.compose.include[1].concept[30]: The code 'VHEDO7GUR01LX' is not valid in the system https://smt.esante.gouv.fr/terminologie-tccr (A definition for CodeSystem 'https://smt.esante.gouv.fr/terminologie-tccr' could not be found, so the code cannot be validated)
-ERROR: ValueSet.where(id = 'jdv-trousse-ccu-cisis'): Error from https://smt.esante.gouv.fr/fhir: Error: [90836184-0adc-4c1f-9e5f-f867aaded68c]: A usable code system with URL https://smt.esante.gouv.fr/terminologie-tccr could not be resolved.
-Information: X-Request-Id: 0629d84b-c5f6-4162-9509-317595117681
+ERROR: ValueSet.where(id = 'jdv-trousse-ccu-cisis'): Error from https://smt.esante.gouv.fr/fhir: Error: [62aaaeef-b9c3-4f3c-b6cd-ec39eb4befea]: A usable code system with URL https://smt.esante.gouv.fr/terminologie-tccr could not be resolved.
+Information: X-Request-Id: cf153fc9-da44-42ee-8c97-f34bd3247586
 == input/ontoserver/JDV/JdvTumeurCisis_jdv-tumeur-cisis.json ==
 == input/ontoserver/JDV/JdvTypeAccompagnementSocioproCisis_jdv-type-accompagnement-sociopro-cisis.json ==
 == input/ontoserver/JDV/JdvTypeActeEunvCisis_jdv-type-acte-eunv-cisis.json ==
@@ -3969,8 +3969,8 @@ WARNING: ValueSet/jdv-type-produit-sanguin-labile-cisis: ValueSet.compose.includ
 INFORMATION: ValueSet/jdv-type-produit-sanguin-labile-cisis: ValueSet.compose.include[0].concept[0]: A definition for CodeSystem 'https://smt.esante.gouv.fr/terminologie-ncit' could not be found, so the code cannot be validated
 ERROR: ValueSet/jdv-type-produit-sanguin-labile-cisis: ValueSet.compose.include[0].concept[1]: The code 'C15366' is not valid in the system https://smt.esante.gouv.fr/terminologie-ncit (A definition for CodeSystem 'https://smt.esante.gouv.fr/terminologie-ncit' could not be found, so the code cannot be validated)
 ERROR: ValueSet/jdv-type-produit-sanguin-labile-cisis: ValueSet.compose.include[0].concept[2]: The code 'C140042' is not valid in the system https://smt.esante.gouv.fr/terminologie-ncit (A definition for CodeSystem 'https://smt.esante.gouv.fr/terminologie-ncit' could not be found, so the code cannot be validated)
-ERROR: ValueSet.where(id = 'jdv-type-produit-sanguin-labile-cisis'): Error from https://smt.esante.gouv.fr/fhir: Error: [f0dba35a-220e-4bef-b6b2-1e558073c533]: A usable code system with URL https://smt.esante.gouv.fr/terminologie-ncit could not be resolved.
-Information: X-Request-Id: f8ae40eb-eebd-4ba7-8911-943bc5dc1610
+ERROR: ValueSet.where(id = 'jdv-type-produit-sanguin-labile-cisis'): Error from https://smt.esante.gouv.fr/fhir: Error: [7ba52dad-2c31-4b7b-b37a-195d97070ec7]: A usable code system with URL https://smt.esante.gouv.fr/terminologie-ncit could not be resolved.
+Information: X-Request-Id: 2b9f52b1-7a24-456b-9f3e-8738f367a94b
 == input/ontoserver/JDV/JdvTypeRencontreCisis_jdv-type-rencontre-cisis.json ==
 == input/ontoserver/JDV/JdvTypeRencontreObpCisis_jdv-type-rencontre-obp-cisis.json ==
 == input/ontoserver/JDV/JdvTypeResultatCisis_jdv-type-resultat-cisis.json ==
