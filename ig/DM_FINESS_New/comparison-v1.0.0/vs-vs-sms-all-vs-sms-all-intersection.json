@@ -1,9 +1,0 @@
-{
-  "resourceType" : "ValueSet",
-  "id" : "8e46c36c-62bc-403f-a251-10d541b949f4-2976",
-  "url" : "http://hl7.org/fhir/comparison/ValueSet/8e46c36c-62bc-403f-a251-10d541b949f4-2976",
-  "name" : "IntersectionValueSet_SMS_AllAndValueSet_SMS_All",
-  "title" : "Intersection of null And null",
-  "status" : "active",
-  "date" : "2025-07-02T14:18:52+00:00"
-}

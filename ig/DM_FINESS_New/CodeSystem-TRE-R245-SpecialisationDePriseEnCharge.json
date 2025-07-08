@@ -2,8 +2,8 @@
   "resourceType" : "CodeSystem",
   "id" : "TRE-R245-SpecialisationDePriseEnCharge",
   "meta" : {
-    "versionId" : "10",
-    "lastUpdated" : "2025-04-25T18:12:43.908+00:00",
+    "versionId" : "11",
+    "lastUpdated" : "2025-07-02T18:16:35.233+00:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablecodesystem"]
   },
   "text" : {
@@ -28,6 +28,12 @@
   "date" : "2025-04-25T12:00:00+01:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "description" : "Spécialisation de prise en charge",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "FR"
+    }]
+  }],
   "caseSensitive" : false,
   "content" : "complete",
   "property" : [{

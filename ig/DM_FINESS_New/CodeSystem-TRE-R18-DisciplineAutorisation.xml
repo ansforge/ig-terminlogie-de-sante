@@ -3,8 +3,8 @@
 <CodeSystem xmlns="http://hl7.org/fhir">
   <id value="TRE-R18-DisciplineAutorisation"/>
   <meta>
-    <versionId value="4"/>
-    <lastUpdated value="2024-08-28T05:12:10.575+00:00"/>
+    <versionId value="5"/>
+    <lastUpdated value="2025-07-02T18:13:35.623+00:00"/>
     <profile value="http://hl7.org/fhir/StructureDefinition/shareablecodesystem"/>
   </meta>
   <text>
@@ -27,6 +27,12 @@
   <date value="2023-12-15T12:00:00+01:00"/>
   <publisher value="Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris"/>
   <description value="Discipline d'autorisation"/>
+  <jurisdiction>
+    <coding>
+      <system value="urn:iso:std:iso:3166"/>
+      <code value="FR"/>
+    </coding>
+  </jurisdiction>
   <caseSensitive value="false"/>
   <content value="complete"/>
   <property>
@@ -44,6 +50,24 @@
     <description value="Date de fin d'exploitation d'un code concept"/>
     <type value="dateTime"/>
   </property>
+  <property>
+    <code value="deprecationDate"/>
+    <uri value="http://hl7.org/fhir/concept-properties#deprecationDate"/>
+    <description value="Date Concept was deprecated"/>
+    <type value="dateTime"/>
+  </property>
+  <property>
+    <code value="status"/>
+    <uri value="http://hl7.org/fhir/concept-properties#status"/>
+    <description value="A property that indicates the status of the concept."/>
+    <type value="code"/>
+  </property>
+  <property>
+    <code value="retirementDate"/>
+    <uri value="http://hl7.org/fhir/concept-properties#retirementDate"/>
+    <description value="Date Concept was retired"/>
+    <type value="dateTime"/>
+  </property>
   <concept>
     <code value="DAUT01"/>
     <display value="Biologie médicale"/>
@@ -54,6 +78,10 @@
     <property>
       <code value="dateMaj"/>
       <valueDateTime value="2016-09-01T00:00:00+01:00"/>
+    </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
     </property>
   </concept>
   <concept>
@@ -67,6 +95,10 @@
       <code value="dateMaj"/>
       <valueDateTime value="2016-09-01T00:00:00+01:00"/>
     </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
+    </property>
   </concept>
   <concept>
     <code value="DAUT03"/>
@@ -78,6 +110,10 @@
     <property>
       <code value="dateMaj"/>
       <valueDateTime value="2016-09-01T00:00:00+01:00"/>
+    </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
     </property>
   </concept>
   <concept>
@@ -99,6 +135,10 @@
       <code value="dateMaj"/>
       <valueDateTime value="2016-09-01T00:00:00+01:00"/>
     </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
+    </property>
   </concept>
   <concept>
     <code value="DAUT05"/>
@@ -118,6 +158,10 @@
     <property>
       <code value="dateMaj"/>
       <valueDateTime value="2016-09-01T00:00:00+01:00"/>
+    </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
     </property>
   </concept>
   <concept>
@@ -139,6 +183,10 @@
       <code value="dateMaj"/>
       <valueDateTime value="2016-09-01T00:00:00+01:00"/>
     </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
+    </property>
   </concept>
   <concept>
     <code value="DAUT07"/>
@@ -159,6 +207,10 @@
       <code value="dateMaj"/>
       <valueDateTime value="2016-09-01T00:00:00+01:00"/>
     </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
+    </property>
   </concept>
   <concept>
     <code value="DAUT08"/>
@@ -171,6 +223,10 @@
       <code value="dateMaj"/>
       <valueDateTime value="2016-09-01T00:00:00+01:00"/>
     </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
+    </property>
   </concept>
   <concept>
     <code value="DAUT09"/>
@@ -182,6 +238,10 @@
     <property>
       <code value="dateMaj"/>
       <valueDateTime value="2016-09-01T00:00:00+01:00"/>
+    </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
     </property>
   </concept>
   <concept>
@@ -203,6 +263,10 @@
       <code value="dateMaj"/>
       <valueDateTime value="2016-09-01T00:00:00+01:00"/>
     </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
+    </property>
   </concept>
   <concept>
     <code value="DAUT11"/>
@@ -214,6 +278,10 @@
     <property>
       <code value="dateMaj"/>
       <valueDateTime value="2016-09-01T00:00:00+01:00"/>
+    </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
     </property>
   </concept>
   <concept>
@@ -227,6 +295,10 @@
       <code value="dateMaj"/>
       <valueDateTime value="2016-09-01T00:00:00+01:00"/>
     </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
+    </property>
   </concept>
   <concept>
     <code value="DAUT13"/>
@@ -238,6 +310,10 @@
     <property>
       <code value="dateMaj"/>
       <valueDateTime value="2016-09-01T00:00:00+01:00"/>
+    </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
     </property>
   </concept>
   <concept>
@@ -259,6 +335,10 @@
       <code value="dateMaj"/>
       <valueDateTime value="2016-09-01T00:00:00+01:00"/>
     </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
+    </property>
   </concept>
   <concept>
     <code value="DAUT15"/>
@@ -279,6 +359,10 @@
       <code value="dateMaj"/>
       <valueDateTime value="2016-09-01T00:00:00+01:00"/>
     </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
+    </property>
   </concept>
   <concept>
     <code value="DAUT16"/>
@@ -290,6 +374,10 @@
     <property>
       <code value="dateMaj"/>
       <valueDateTime value="2016-09-01T00:00:00+01:00"/>
+    </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
     </property>
   </concept>
   <concept>
@@ -311,6 +399,10 @@
       <code value="dateMaj"/>
       <valueDateTime value="2016-09-01T00:00:00+01:00"/>
     </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
+    </property>
   </concept>
   <concept>
     <code value="DAUT18"/>
@@ -330,6 +422,10 @@
     <property>
       <code value="dateMaj"/>
       <valueDateTime value="2016-09-01T00:00:00+01:00"/>
+    </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
     </property>
   </concept>
   <concept>
@@ -351,6 +447,10 @@
       <code value="dateMaj"/>
       <valueDateTime value="2016-09-01T00:00:00+01:00"/>
     </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
+    </property>
   </concept>
   <concept>
     <code value="DAUT20"/>
@@ -371,6 +471,10 @@
       <code value="dateMaj"/>
       <valueDateTime value="2016-09-01T00:00:00+01:00"/>
     </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
+    </property>
   </concept>
   <concept>
     <code value="DAUT21"/>
@@ -382,6 +486,10 @@
     <property>
       <code value="dateMaj"/>
       <valueDateTime value="2008-02-28T00:00:00+01:00"/>
+    </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
     </property>
   </concept>
   <concept>
@@ -395,6 +503,10 @@
       <code value="dateMaj"/>
       <valueDateTime value="2008-02-28T00:00:00+01:00"/>
     </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
+    </property>
   </concept>
   <concept>
     <code value="DAUT23"/>
@@ -406,6 +518,10 @@
     <property>
       <code value="dateMaj"/>
       <valueDateTime value="2008-02-28T00:00:00+01:00"/>
+    </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
     </property>
   </concept>
   <concept>
@@ -419,6 +535,10 @@
       <code value="dateMaj"/>
       <valueDateTime value="2008-02-28T00:00:00+01:00"/>
     </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
+    </property>
   </concept>
   <concept>
     <code value="DAUT25"/>
@@ -430,6 +550,10 @@
     <property>
       <code value="dateMaj"/>
       <valueDateTime value="2016-04-28T00:00:00+01:00"/>
+    </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
     </property>
   </concept>
   <concept>
@@ -443,6 +567,10 @@
       <code value="dateMaj"/>
       <valueDateTime value="2008-02-28T00:00:00+01:00"/>
     </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
+    </property>
   </concept>
   <concept>
     <code value="DAUT27"/>
@@ -455,6 +583,10 @@
       <code value="dateMaj"/>
       <valueDateTime value="2008-02-28T00:00:00+01:00"/>
     </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
+    </property>
   </concept>
   <concept>
     <code value="DAUT28"/>
@@ -466,6 +598,10 @@
     <property>
       <code value="dateMaj"/>
       <valueDateTime value="2008-02-28T00:00:00+01:00"/>
+    </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
     </property>
   </concept>
   <concept>
@@ -487,6 +623,10 @@
       <code value="dateMaj"/>
       <valueDateTime value="2016-09-01T00:00:00+01:00"/>
     </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
+    </property>
   </concept>
   <concept>
     <code value="DAUT30"/>
@@ -498,6 +638,10 @@
     <property>
       <code value="dateMaj"/>
       <valueDateTime value="2008-02-28T00:00:00+01:00"/>
+    </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
     </property>
   </concept>
   <concept>
@@ -511,6 +655,10 @@
       <code value="dateMaj"/>
       <valueDateTime value="2008-02-28T00:00:00+01:00"/>
     </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
+    </property>
   </concept>
   <concept>
     <code value="DAUT32"/>
@@ -522,6 +670,10 @@
     <property>
       <code value="dateMaj"/>
       <valueDateTime value="2008-02-28T00:00:00+01:00"/>
+    </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
     </property>
   </concept>
   <concept>
@@ -535,6 +687,10 @@
       <code value="dateMaj"/>
       <valueDateTime value="2008-02-28T00:00:00+01:00"/>
     </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
+    </property>
   </concept>
   <concept>
     <code value="DAUT34"/>
@@ -547,6 +703,10 @@
       <code value="dateMaj"/>
       <valueDateTime value="2008-02-28T00:00:00+01:00"/>
     </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
+    </property>
   </concept>
   <concept>
     <code value="DAUT35"/>
@@ -558,6 +718,10 @@
     <property>
       <code value="dateMaj"/>
       <valueDateTime value="2008-02-28T00:00:00+01:00"/>
+    </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
     </property>
   </concept>
   <concept>
@@ -579,6 +743,10 @@
       <code value="dateMaj"/>
       <valueDateTime value="2008-02-28T00:00:00+01:00"/>
     </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
+    </property>
   </concept>
   <concept>
     <code value="DAUT37"/>
@@ -591,6 +759,10 @@
       <code value="dateMaj"/>
       <valueDateTime value="2008-02-28T00:00:00+01:00"/>
     </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
+    </property>
   </concept>
   <concept>
     <code value="DAUT38"/>
@@ -602,6 +774,10 @@
     <property>
       <code value="dateMaj"/>
       <valueDateTime value="2008-02-28T00:00:00+01:00"/>
+    </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
     </property>
   </concept>
   <concept>
@@ -623,6 +799,10 @@
       <code value="dateMaj"/>
       <valueDateTime value="2016-09-01T00:00:00+01:00"/>
     </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
+    </property>
   </concept>
   <concept>
     <code value="DAUT40"/>
@@ -635,6 +815,10 @@
       <code value="dateMaj"/>
       <valueDateTime value="2008-02-28T00:00:00+01:00"/>
     </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
+    </property>
   </concept>
   <concept>
     <code value="DAUT41"/>
@@ -646,6 +830,10 @@
     <property>
       <code value="dateMaj"/>
       <valueDateTime value="2008-02-28T00:00:00+01:00"/>
+    </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
     </property>
   </concept>
 </CodeSystem>

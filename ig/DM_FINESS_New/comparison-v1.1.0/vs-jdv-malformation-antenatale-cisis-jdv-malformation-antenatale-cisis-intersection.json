@@ -1,0 +1,25 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "dc7425aa-2d2f-4b7e-9ce2-4d8f876abacc-2229",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/dc7425aa-2d2f-4b7e-9ce2-4d8f876abacc-2229",
+  "name" : "IntersectionJdvMalformationAntenataleCisisAndJdvMalformationAntenataleCisis",
+  "title" : "Intersection of JDV Malformation Antenatale CISIS And JDV Malformation Antenatale CISIS",
+  "status" : "active",
+  "date" : "2025-07-08T14:29:06+00:00",
+  "compose" : {
+    "include" : [{
+      "concept" : [{
+        "code" : "373067005",
+        "display" : "non"
+      },
+      {
+        "code" : "50607009",
+        "display" : "unique"
+      },
+      {
+        "code" : "255204007",
+        "display" : "multiple"
+      }]
+    }]
+  }
+}

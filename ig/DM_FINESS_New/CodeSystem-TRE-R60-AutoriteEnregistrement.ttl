@@ -11,8 +11,8 @@
   fhir:nodeRole fhir:treeRoot ;
   fhir:id [ fhir:v "TRE-R60-AutoriteEnregistrement"] ; # 
   fhir:meta [
-     fhir:versionId [ fhir:v "6" ] ;
-     fhir:lastUpdated [ fhir:v "2024-08-28T05:14:02.284+00:00"^^xsd:dateTime ] ;
+     fhir:versionId [ fhir:v "7" ] ;
+     fhir:lastUpdated [ fhir:v "2025-07-02T18:18:27.409+00:00"^^xsd:dateTime ] ;
      fhir:profile ( [
        fhir:v "http://hl7.org/fhir/StructureDefinition/shareablecodesystem"^^xsd:anyURI ;
        fhir:link <http://hl7.org/fhir/StructureDefinition/shareablecodesystem>
@@ -41,6 +41,12 @@
   fhir:date [ fhir:v "2024-06-28T12:00:00+01:00"^^xsd:dateTime] ; # 
   fhir:publisher [ fhir:v "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris"] ; # 
   fhir:description [ fhir:v "Autorité d'enregistrement"] ; # 
+  fhir:jurisdiction ( [
+     fhir:coding ( [
+       fhir:system [ fhir:v "urn:iso:std:iso:3166"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "FR" ]
+     ] )
+  ] ) ; # 
   fhir:caseSensitive [ fhir:v false] ; # 
   fhir:content [ fhir:v "complete"] ; # 
   fhir:property ( [
@@ -54,6 +60,21 @@
   ] [
      fhir:code [ fhir:v "dateFin" ] ;
      fhir:description [ fhir:v "Date de fin d'exploitation d'un code concept" ] ;
+     fhir:type [ fhir:v "dateTime" ]
+  ] [
+     fhir:code [ fhir:v "deprecationDate" ] ;
+     fhir:uri [ fhir:v "http://hl7.org/fhir/concept-properties#deprecationDate"^^xsd:anyURI ] ;
+     fhir:description [ fhir:v "Date Concept was deprecated" ] ;
+     fhir:type [ fhir:v "dateTime" ]
+  ] [
+     fhir:code [ fhir:v "status" ] ;
+     fhir:uri [ fhir:v "http://hl7.org/fhir/concept-properties#status"^^xsd:anyURI ] ;
+     fhir:description [ fhir:v "A property that indicates the status of the concept." ] ;
+     fhir:type [ fhir:v "code" ]
+  ] [
+     fhir:code [ fhir:v "retirementDate" ] ;
+     fhir:uri [ fhir:v "http://hl7.org/fhir/concept-properties#retirementDate"^^xsd:anyURI ] ;
+     fhir:description [ fhir:v "Date Concept was retired" ] ;
      fhir:type [ fhir:v "dateTime" ]
   ] ) ; # 
   fhir:concept ( [
@@ -80,6 +101,12 @@
          a fhir:dateTime ;
          fhir:v "2016-09-01T00:00:00+01:00"^^xsd:dateTime
        ]
+     ] [
+       fhir:code [ fhir:v "status" ] ;
+       fhir:value [
+         a fhir:code ;
+         fhir:v "active"
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "ARS-02" ] ;
@@ -105,6 +132,12 @@
          a fhir:dateTime ;
          fhir:v "2016-09-01T00:00:00+01:00"^^xsd:dateTime
        ]
+     ] [
+       fhir:code [ fhir:v "status" ] ;
+       fhir:value [
+         a fhir:code ;
+         fhir:v "active"
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "ARS-03" ] ;
@@ -129,6 +162,12 @@
        fhir:value [
          a fhir:dateTime ;
          fhir:v "2016-09-01T00:00:00+01:00"^^xsd:dateTime
+       ]
+     ] [
+       fhir:code [ fhir:v "status" ] ;
+       fhir:value [
+         a fhir:code ;
+         fhir:v "active"
        ]
      ] )
   ] [
@@ -161,6 +200,18 @@
          a fhir:dateTime ;
          fhir:v "2023-07-28T09:00:00+01:00"^^xsd:dateTime
        ]
+     ] [
+       fhir:code [ fhir:v "deprecationDate" ] ;
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2023-07-28T09:00:00+01:00"^^xsd:dateTime
+       ]
+     ] [
+       fhir:code [ fhir:v "status" ] ;
+       fhir:value [
+         a fhir:code ;
+         fhir:v "deprecated"
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "ARS-05" ] ;
@@ -185,6 +236,12 @@
        fhir:value [
          a fhir:dateTime ;
          fhir:v "2023-07-28T09:00:00+01:00"^^xsd:dateTime
+       ]
+     ] [
+       fhir:code [ fhir:v "status" ] ;
+       fhir:value [
+         a fhir:code ;
+         fhir:v "active"
        ]
      ] )
   ] [
@@ -211,6 +268,12 @@
          a fhir:dateTime ;
          fhir:v "2023-07-28T09:00:00+01:00"^^xsd:dateTime
        ]
+     ] [
+       fhir:code [ fhir:v "status" ] ;
+       fhir:value [
+         a fhir:code ;
+         fhir:v "active"
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "ARS-11" ] ;
@@ -235,6 +298,12 @@
        fhir:value [
          a fhir:dateTime ;
          fhir:v "2016-09-01T00:00:00+01:00"^^xsd:dateTime
+       ]
+     ] [
+       fhir:code [ fhir:v "status" ] ;
+       fhir:value [
+         a fhir:code ;
+         fhir:v "active"
        ]
      ] )
   ] [
@@ -267,6 +336,18 @@
          a fhir:dateTime ;
          fhir:v "2016-01-01T00:00:00+01:00"^^xsd:dateTime
        ]
+     ] [
+       fhir:code [ fhir:v "deprecationDate" ] ;
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2016-01-01T00:00:00+01:00"^^xsd:dateTime
+       ]
+     ] [
+       fhir:code [ fhir:v "status" ] ;
+       fhir:value [
+         a fhir:code ;
+         fhir:v "deprecated"
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "ARS-22" ] ;
@@ -297,6 +378,18 @@
        fhir:value [
          a fhir:dateTime ;
          fhir:v "2016-01-01T00:00:00+01:00"^^xsd:dateTime
+       ]
+     ] [
+       fhir:code [ fhir:v "deprecationDate" ] ;
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2016-01-01T00:00:00+01:00"^^xsd:dateTime
+       ]
+     ] [
+       fhir:code [ fhir:v "status" ] ;
+       fhir:value [
+         a fhir:code ;
+         fhir:v "deprecated"
        ]
      ] )
   ] [
@@ -329,6 +422,18 @@
          a fhir:dateTime ;
          fhir:v "2016-01-01T00:00:00+01:00"^^xsd:dateTime
        ]
+     ] [
+       fhir:code [ fhir:v "deprecationDate" ] ;
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2016-01-01T00:00:00+01:00"^^xsd:dateTime
+       ]
+     ] [
+       fhir:code [ fhir:v "status" ] ;
+       fhir:value [
+         a fhir:code ;
+         fhir:v "deprecated"
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "ARS-24" ] ;
@@ -353,6 +458,12 @@
        fhir:value [
          a fhir:dateTime ;
          fhir:v "2024-06-28T12:00:00+01:00"^^xsd:dateTime
+       ]
+     ] [
+       fhir:code [ fhir:v "status" ] ;
+       fhir:value [
+         a fhir:code ;
+         fhir:v "active"
        ]
      ] )
   ] [
@@ -385,6 +496,18 @@
          a fhir:dateTime ;
          fhir:v "2016-01-01T00:00:00+01:00"^^xsd:dateTime
        ]
+     ] [
+       fhir:code [ fhir:v "deprecationDate" ] ;
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2016-01-01T00:00:00+01:00"^^xsd:dateTime
+       ]
+     ] [
+       fhir:code [ fhir:v "status" ] ;
+       fhir:value [
+         a fhir:code ;
+         fhir:v "deprecated"
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "ARS-26" ] ;
@@ -416,6 +539,18 @@
          a fhir:dateTime ;
          fhir:v "2016-01-01T00:00:00+01:00"^^xsd:dateTime
        ]
+     ] [
+       fhir:code [ fhir:v "deprecationDate" ] ;
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2016-01-01T00:00:00+01:00"^^xsd:dateTime
+       ]
+     ] [
+       fhir:code [ fhir:v "status" ] ;
+       fhir:value [
+         a fhir:code ;
+         fhir:v "deprecated"
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "ARS-27" ] ;
@@ -441,6 +576,12 @@
          a fhir:dateTime ;
          fhir:v "2016-09-01T00:00:00+01:00"^^xsd:dateTime
        ]
+     ] [
+       fhir:code [ fhir:v "status" ] ;
+       fhir:value [
+         a fhir:code ;
+         fhir:v "active"
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "ARS-28" ] ;
@@ -465,6 +606,12 @@
        fhir:value [
          a fhir:dateTime ;
          fhir:v "2016-09-01T00:00:00+01:00"^^xsd:dateTime
+       ]
+     ] [
+       fhir:code [ fhir:v "status" ] ;
+       fhir:value [
+         a fhir:code ;
+         fhir:v "active"
        ]
      ] )
   ] [
@@ -497,6 +644,18 @@
          a fhir:dateTime ;
          fhir:v "2016-01-01T00:00:00+01:00"^^xsd:dateTime
        ]
+     ] [
+       fhir:code [ fhir:v "deprecationDate" ] ;
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2016-01-01T00:00:00+01:00"^^xsd:dateTime
+       ]
+     ] [
+       fhir:code [ fhir:v "status" ] ;
+       fhir:value [
+         a fhir:code ;
+         fhir:v "deprecated"
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "ARS-32" ] ;
@@ -521,6 +680,12 @@
        fhir:value [
          a fhir:dateTime ;
          fhir:v "2016-09-01T00:00:00+01:00"^^xsd:dateTime
+       ]
+     ] [
+       fhir:code [ fhir:v "status" ] ;
+       fhir:value [
+         a fhir:code ;
+         fhir:v "active"
        ]
      ] )
   ] [
@@ -553,6 +718,18 @@
          a fhir:dateTime ;
          fhir:v "2016-01-01T00:00:00+01:00"^^xsd:dateTime
        ]
+     ] [
+       fhir:code [ fhir:v "deprecationDate" ] ;
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2016-01-01T00:00:00+01:00"^^xsd:dateTime
+       ]
+     ] [
+       fhir:code [ fhir:v "status" ] ;
+       fhir:value [
+         a fhir:code ;
+         fhir:v "deprecated"
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "ARS-42" ] ;
@@ -583,6 +760,18 @@
        fhir:value [
          a fhir:dateTime ;
          fhir:v "2016-01-01T00:00:00+01:00"^^xsd:dateTime
+       ]
+     ] [
+       fhir:code [ fhir:v "deprecationDate" ] ;
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2016-01-01T00:00:00+01:00"^^xsd:dateTime
+       ]
+     ] [
+       fhir:code [ fhir:v "status" ] ;
+       fhir:value [
+         a fhir:code ;
+         fhir:v "deprecated"
        ]
      ] )
   ] [
@@ -615,6 +804,18 @@
          a fhir:dateTime ;
          fhir:v "2016-01-01T00:00:00+01:00"^^xsd:dateTime
        ]
+     ] [
+       fhir:code [ fhir:v "deprecationDate" ] ;
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2016-01-01T00:00:00+01:00"^^xsd:dateTime
+       ]
+     ] [
+       fhir:code [ fhir:v "status" ] ;
+       fhir:value [
+         a fhir:code ;
+         fhir:v "deprecated"
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "ARS-44" ] ;
@@ -639,6 +840,12 @@
        fhir:value [
          a fhir:dateTime ;
          fhir:v "2024-06-28T12:00:00+01:00"^^xsd:dateTime
+       ]
+     ] [
+       fhir:code [ fhir:v "status" ] ;
+       fhir:value [
+         a fhir:code ;
+         fhir:v "active"
        ]
      ] )
   ] [
@@ -665,6 +872,12 @@
          a fhir:dateTime ;
          fhir:v "2016-09-01T00:00:00+01:00"^^xsd:dateTime
        ]
+     ] [
+       fhir:code [ fhir:v "status" ] ;
+       fhir:value [
+         a fhir:code ;
+         fhir:v "active"
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "ARS-53" ] ;
@@ -689,6 +902,12 @@
        fhir:value [
          a fhir:dateTime ;
          fhir:v "2016-09-01T00:00:00+01:00"^^xsd:dateTime
+       ]
+     ] [
+       fhir:code [ fhir:v "status" ] ;
+       fhir:value [
+         a fhir:code ;
+         fhir:v "active"
        ]
      ] )
   ] [
@@ -721,6 +940,18 @@
          a fhir:dateTime ;
          fhir:v "2016-01-01T00:00:00+01:00"^^xsd:dateTime
        ]
+     ] [
+       fhir:code [ fhir:v "deprecationDate" ] ;
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2016-01-01T00:00:00+01:00"^^xsd:dateTime
+       ]
+     ] [
+       fhir:code [ fhir:v "status" ] ;
+       fhir:value [
+         a fhir:code ;
+         fhir:v "deprecated"
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "ARS-72" ] ;
@@ -751,6 +982,18 @@
        fhir:value [
          a fhir:dateTime ;
          fhir:v "2016-01-01T00:00:00+01:00"^^xsd:dateTime
+       ]
+     ] [
+       fhir:code [ fhir:v "deprecationDate" ] ;
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2016-01-01T00:00:00+01:00"^^xsd:dateTime
+       ]
+     ] [
+       fhir:code [ fhir:v "status" ] ;
+       fhir:value [
+         a fhir:code ;
+         fhir:v "deprecated"
        ]
      ] )
   ] [
@@ -783,6 +1026,18 @@
          a fhir:dateTime ;
          fhir:v "2016-01-01T00:00:00+01:00"^^xsd:dateTime
        ]
+     ] [
+       fhir:code [ fhir:v "deprecationDate" ] ;
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2016-01-01T00:00:00+01:00"^^xsd:dateTime
+       ]
+     ] [
+       fhir:code [ fhir:v "status" ] ;
+       fhir:value [
+         a fhir:code ;
+         fhir:v "deprecated"
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "ARS-74" ] ;
@@ -814,6 +1069,18 @@
          a fhir:dateTime ;
          fhir:v "2016-01-01T00:00:00+01:00"^^xsd:dateTime
        ]
+     ] [
+       fhir:code [ fhir:v "deprecationDate" ] ;
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2016-01-01T00:00:00+01:00"^^xsd:dateTime
+       ]
+     ] [
+       fhir:code [ fhir:v "status" ] ;
+       fhir:value [
+         a fhir:code ;
+         fhir:v "deprecated"
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "ARS-75" ] ;
@@ -839,6 +1106,12 @@
          a fhir:dateTime ;
          fhir:v "2016-09-01T00:00:00+01:00"^^xsd:dateTime
        ]
+     ] [
+       fhir:code [ fhir:v "status" ] ;
+       fhir:value [
+         a fhir:code ;
+         fhir:v "active"
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "ARS-76" ] ;
@@ -863,6 +1136,12 @@
        fhir:value [
          a fhir:dateTime ;
          fhir:v "2016-09-01T00:00:00+01:00"^^xsd:dateTime
+       ]
+     ] [
+       fhir:code [ fhir:v "status" ] ;
+       fhir:value [
+         a fhir:code ;
+         fhir:v "active"
        ]
      ] )
   ] [
@@ -895,6 +1174,18 @@
          a fhir:dateTime ;
          fhir:v "2016-01-01T00:00:00+01:00"^^xsd:dateTime
        ]
+     ] [
+       fhir:code [ fhir:v "deprecationDate" ] ;
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2016-01-01T00:00:00+01:00"^^xsd:dateTime
+       ]
+     ] [
+       fhir:code [ fhir:v "status" ] ;
+       fhir:value [
+         a fhir:code ;
+         fhir:v "deprecated"
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "ARS-83" ] ;
@@ -926,6 +1217,18 @@
          a fhir:dateTime ;
          fhir:v "2016-01-01T00:00:00+01:00"^^xsd:dateTime
        ]
+     ] [
+       fhir:code [ fhir:v "deprecationDate" ] ;
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2016-01-01T00:00:00+01:00"^^xsd:dateTime
+       ]
+     ] [
+       fhir:code [ fhir:v "status" ] ;
+       fhir:value [
+         a fhir:code ;
+         fhir:v "deprecated"
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "ARS-84" ] ;
@@ -950,6 +1253,12 @@
        fhir:value [
          a fhir:dateTime ;
          fhir:v "2016-09-01T00:00:00+01:00"^^xsd:dateTime
+       ]
+     ] [
+       fhir:code [ fhir:v "status" ] ;
+       fhir:value [
+         a fhir:code ;
+         fhir:v "active"
        ]
      ] )
   ] [
@@ -982,6 +1291,18 @@
          a fhir:dateTime ;
          fhir:v "2016-01-01T00:00:00+01:00"^^xsd:dateTime
        ]
+     ] [
+       fhir:code [ fhir:v "deprecationDate" ] ;
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2016-01-01T00:00:00+01:00"^^xsd:dateTime
+       ]
+     ] [
+       fhir:code [ fhir:v "status" ] ;
+       fhir:value [
+         a fhir:code ;
+         fhir:v "deprecated"
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "ARS-93" ] ;
@@ -1007,6 +1328,12 @@
          a fhir:dateTime ;
          fhir:v "2016-09-01T00:00:00+01:00"^^xsd:dateTime
        ]
+     ] [
+       fhir:code [ fhir:v "status" ] ;
+       fhir:value [
+         a fhir:code ;
+         fhir:v "active"
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "ARS-94" ] ;
@@ -1031,6 +1358,12 @@
        fhir:value [
          a fhir:dateTime ;
          fhir:v "2016-09-01T00:00:00+01:00"^^xsd:dateTime
+       ]
+     ] [
+       fhir:code [ fhir:v "status" ] ;
+       fhir:value [
+         a fhir:code ;
+         fhir:v "active"
        ]
      ] )
   ] [
@@ -1065,6 +1398,12 @@
          a fhir:dateTime ;
          fhir:v "2024-03-29T12:00:00+01:00"^^xsd:dateTime
        ]
+     ] [
+       fhir:code [ fhir:v "status" ] ;
+       fhir:value [
+         a fhir:code ;
+         fhir:v "active"
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "CNOM" ] ;
@@ -1080,6 +1419,12 @@
        fhir:value [
          a fhir:dateTime ;
          fhir:v "2007-07-25T15:04:41+01:00"^^xsd:dateTime
+       ]
+     ] [
+       fhir:code [ fhir:v "status" ] ;
+       fhir:value [
+         a fhir:code ;
+         fhir:v "active"
        ]
      ] )
   ] [
@@ -1097,6 +1442,12 @@
          a fhir:dateTime ;
          fhir:v "2016-09-01T00:00:00+01:00"^^xsd:dateTime
        ]
+     ] [
+       fhir:code [ fhir:v "status" ] ;
+       fhir:value [
+         a fhir:code ;
+         fhir:v "active"
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "CNOP" ] ;
@@ -1112,6 +1463,12 @@
        fhir:value [
          a fhir:dateTime ;
          fhir:v "2007-07-25T15:04:41+01:00"^^xsd:dateTime
+       ]
+     ] [
+       fhir:code [ fhir:v "status" ] ;
+       fhir:value [
+         a fhir:code ;
+         fhir:v "active"
        ]
      ] )
   ] [
@@ -1129,6 +1486,12 @@
          a fhir:dateTime ;
          fhir:v "2016-09-01T00:00:00+01:00"^^xsd:dateTime
        ]
+     ] [
+       fhir:code [ fhir:v "status" ] ;
+       fhir:value [
+         a fhir:code ;
+         fhir:v "active"
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "CNOSF" ] ;
@@ -1144,6 +1507,12 @@
        fhir:value [
          a fhir:dateTime ;
          fhir:v "2007-07-25T15:04:41+01:00"^^xsd:dateTime
+       ]
+     ] [
+       fhir:code [ fhir:v "status" ] ;
+       fhir:value [
+         a fhir:code ;
+         fhir:v "active"
        ]
      ] )
   ] [
@@ -1162,6 +1531,12 @@
          a fhir:dateTime ;
          fhir:v "2020-06-26T12:00:00+01:00"^^xsd:dateTime
        ]
+     ] [
+       fhir:code [ fhir:v "status" ] ;
+       fhir:value [
+         a fhir:code ;
+         fhir:v "active"
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "ONCD" ] ;
@@ -1177,6 +1552,12 @@
        fhir:value [
          a fhir:dateTime ;
          fhir:v "2007-07-25T15:04:41+01:00"^^xsd:dateTime
+       ]
+     ] [
+       fhir:code [ fhir:v "status" ] ;
+       fhir:value [
+         a fhir:code ;
+         fhir:v "active"
        ]
      ] )
   ] [
@@ -1194,6 +1575,12 @@
          a fhir:dateTime ;
          fhir:v "2017-07-07T10:00:00+01:00"^^xsd:dateTime
        ]
+     ] [
+       fhir:code [ fhir:v "status" ] ;
+       fhir:value [
+         a fhir:code ;
+         fhir:v "active"
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "SSA" ] ;
@@ -1209,6 +1596,12 @@
        fhir:value [
          a fhir:dateTime ;
          fhir:v "2019-08-30T12:00:00+01:00"^^xsd:dateTime
+       ]
+     ] [
+       fhir:code [ fhir:v "status" ] ;
+       fhir:value [
+         a fhir:code ;
+         fhir:v "active"
        ]
      ] )
   ] ) . # 

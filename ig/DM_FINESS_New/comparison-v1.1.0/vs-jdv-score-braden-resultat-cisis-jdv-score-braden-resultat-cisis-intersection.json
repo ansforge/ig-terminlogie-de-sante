@@ -1,0 +1,29 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "dc7425aa-2d2f-4b7e-9ce2-4d8f876abacc-2640",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/dc7425aa-2d2f-4b7e-9ce2-4d8f876abacc-2640",
+  "name" : "IntersectionJdvScoreBradenResultatCisisAndJdvScoreBradenResultatCisis",
+  "title" : "Intersection of JDV Score Braden Resultat CISIS And JDV Score Braden Resultat CISIS",
+  "status" : "active",
+  "date" : "2025-07-08T14:29:06+00:00",
+  "compose" : {
+    "include" : [{
+      "concept" : [{
+        "code" : "MED-609",
+        "display" : "Risque faible (18 à 23)"
+      },
+      {
+        "code" : "MED-610",
+        "display" : "Risque modéré (14 à 17)"
+      },
+      {
+        "code" : "MED-611",
+        "display" : "Risque élevé (9 à 13)"
+      },
+      {
+        "code" : "MED-612",
+        "display" : "Risque très élevé (6 à 8)"
+      }]
+    }]
+  }
+}

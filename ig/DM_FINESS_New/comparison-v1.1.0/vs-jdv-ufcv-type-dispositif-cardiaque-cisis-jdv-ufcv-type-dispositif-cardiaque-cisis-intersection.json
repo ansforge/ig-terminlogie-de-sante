@@ -1,0 +1,25 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "dc7425aa-2d2f-4b7e-9ce2-4d8f876abacc-2988",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/dc7425aa-2d2f-4b7e-9ce2-4d8f876abacc-2988",
+  "name" : "IntersectionJdvUfcvTypeDispositifardiaqueCisisAndJdvUfcvTypeDispositifardiaqueCisis",
+  "title" : "Intersection of JDV UFCV Type Dispositif Cardiaque CISIS And JDV UFCV Type Dispositif Cardiaque CISIS",
+  "status" : "active",
+  "date" : "2025-07-08T14:29:06+00:00",
+  "compose" : {
+    "include" : [{
+      "concept" : [{
+        "code" : "J010101",
+        "display" : "STIMULATEURS CARDIAQUES IMPLANTABLES SIMPLE CHAMBRE"
+      },
+      {
+        "code" : "J010103",
+        "display" : "STIMULATEURS CARDIAQUES IMPLANTABLES DOUBLE CHAMBRE"
+      },
+      {
+        "code" : "J010104",
+        "display" : "STIMULATEURS CARDIAQUES IMPLANTABLES TRIPLE CHAMBRE"
+      }]
+    }]
+  }
+}

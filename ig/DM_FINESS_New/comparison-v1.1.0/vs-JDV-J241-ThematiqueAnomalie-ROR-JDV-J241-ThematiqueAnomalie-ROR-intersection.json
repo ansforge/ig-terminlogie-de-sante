@@ -1,0 +1,43 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "dc7425aa-2d2f-4b7e-9ce2-4d8f876abacc-1287",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/dc7425aa-2d2f-4b7e-9ce2-4d8f876abacc-1287",
+  "name" : "IntersectionJDV_J241_ThematiqueAnomalie_RORAndJDV_J241_ThematiqueAnomalie_ROR",
+  "title" : "Intersection of null And null",
+  "status" : "active",
+  "date" : "2025-07-08T14:29:06+00:00",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "FR"
+    }]
+  }],
+  "compose" : {
+    "include" : [{
+      "concept" : [{
+        "code" : "01",
+        "display" : "Complétude"
+      },
+      {
+        "code" : "02",
+        "display" : "Exhaustivité"
+      },
+      {
+        "code" : "03",
+        "display" : "Cohérence"
+      },
+      {
+        "code" : "04",
+        "display" : "Récence"
+      },
+      {
+        "code" : "05",
+        "display" : "Structuration"
+      },
+      {
+        "code" : "06",
+        "display" : "Exactitude"
+      }]
+    }]
+  }
+}

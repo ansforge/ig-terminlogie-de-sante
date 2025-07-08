@@ -3,8 +3,8 @@
 <CodeSystem xmlns="http://hl7.org/fhir">
   <id value="TRE-A06-FormatCodeComplementaire"/>
   <meta>
-    <versionId value="5"/>
-    <lastUpdated value="2024-08-28T05:10:39.424+00:00"/>
+    <versionId value="6"/>
+    <lastUpdated value="2025-07-02T18:11:26.409+00:00"/>
     <profile value="http://hl7.org/fhir/StructureDefinition/shareablecodesystem"/>
   </meta>
   <text>
@@ -27,6 +27,12 @@
   <date value="2024-07-26T12:00:00+01:00"/>
   <publisher value="Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris"/>
   <description value="formatCode en complément des nomenclatures internationales"/>
+  <jurisdiction>
+    <coding>
+      <system value="urn:iso:std:iso:3166"/>
+      <code value="FR"/>
+    </coding>
+  </jurisdiction>
   <caseSensitive value="false"/>
   <content value="complete"/>
   <property>
@@ -42,6 +48,24 @@
   <property>
     <code value="dateFin"/>
     <description value="Date de fin d'exploitation d'un code concept"/>
+    <type value="dateTime"/>
+  </property>
+  <property>
+    <code value="deprecationDate"/>
+    <uri value="http://hl7.org/fhir/concept-properties#deprecationDate"/>
+    <description value="Date Concept was deprecated"/>
+    <type value="dateTime"/>
+  </property>
+  <property>
+    <code value="status"/>
+    <uri value="http://hl7.org/fhir/concept-properties#status"/>
+    <description value="A property that indicates the status of the concept."/>
+    <type value="code"/>
+  </property>
+  <property>
+    <code value="retirementDate"/>
+    <uri value="http://hl7.org/fhir/concept-properties#retirementDate"/>
+    <description value="Date Concept was retired"/>
     <type value="dateTime"/>
   </property>
   <concept>
@@ -64,6 +88,10 @@
       <code value="dateMaj"/>
       <valueDateTime value="2022-07-29T12:00:00+01:00"/>
     </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
+    </property>
   </concept>
   <concept>
     <code value="urn:ans:ci-sis:cse-mde:2023"/>
@@ -75,6 +103,10 @@
     <property>
       <code value="dateMaj"/>
       <valueDateTime value="2023-01-27T12:00:00+01:00"/>
+    </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
     </property>
   </concept>
   <concept>
@@ -96,6 +128,10 @@
       <code value="dateMaj"/>
       <valueDateTime value="2017-07-07T10:00:00+01:00"/>
     </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
+    </property>
   </concept>
   <concept>
     <code value="urn:asip:ci-sis:avk:2009"/>
@@ -115,6 +151,10 @@
     <property>
       <code value="dateMaj"/>
       <valueDateTime value="2017-10-13T12:00:00+01:00"/>
+    </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
     </property>
   </concept>
   <concept>
@@ -136,6 +176,10 @@
       <code value="dateMaj"/>
       <valueDateTime value="2018-09-28T12:00:00+01:00"/>
     </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
+    </property>
   </concept>
   <concept>
     <code value="urn:asip:ci-sis:crh:2009"/>
@@ -151,6 +195,14 @@
     <property>
       <code value="dateMaj"/>
       <valueDateTime value="2017-07-07T10:00:00+01:00"/>
+    </property>
+    <property>
+      <code value="deprecationDate"/>
+      <valueDateTime value="2017-07-07T10:00:00+01:00"/>
+    </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="deprecated"/>
     </property>
   </concept>
   <concept>
@@ -172,6 +224,10 @@
       <code value="dateMaj"/>
       <valueDateTime value="2017-10-13T12:00:00+01:00"/>
     </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
+    </property>
   </concept>
   <concept>
     <code value="urn:asip:ci-sis:cr-anest:2020"/>
@@ -192,6 +248,10 @@
       <code value="dateMaj"/>
       <valueDateTime value="2020-12-17T12:00:00+01:00"/>
     </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
+    </property>
   </concept>
   <concept>
     <code value="urn:asip:ci-sis:cr-cpa:2020"/>
@@ -211,6 +271,10 @@
     <property>
       <code value="dateMaj"/>
       <valueDateTime value="2020-12-17T12:00:00+01:00"/>
+    </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
     </property>
   </concept>
   <concept>
@@ -236,6 +300,14 @@
       <code value="dateMaj"/>
       <valueDateTime value="2017-07-07T10:00:00+01:00"/>
     </property>
+    <property>
+      <code value="deprecationDate"/>
+      <valueDateTime value="2017-07-07T10:00:00+01:00"/>
+    </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="deprecated"/>
+    </property>
   </concept>
   <concept>
     <code value="urn:asip:ci-sis:cs9:2012"/>
@@ -259,6 +331,14 @@
     <property>
       <code value="dateMaj"/>
       <valueDateTime value="2017-07-07T10:00:00+01:00"/>
+    </property>
+    <property>
+      <code value="deprecationDate"/>
+      <valueDateTime value="2017-07-07T10:00:00+01:00"/>
+    </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="deprecated"/>
     </property>
   </concept>
   <concept>
@@ -284,6 +364,14 @@
       <code value="dateMaj"/>
       <valueDateTime value="2017-07-07T10:00:00+01:00"/>
     </property>
+    <property>
+      <code value="deprecationDate"/>
+      <valueDateTime value="2017-07-07T10:00:00+01:00"/>
+    </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="deprecated"/>
+    </property>
   </concept>
   <concept>
     <code value="urn:asip:ci-sis:cse-cs8:2017"/>
@@ -303,6 +391,10 @@
     <property>
       <code value="dateMaj"/>
       <valueDateTime value="2017-10-13T12:00:00+01:00"/>
+    </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
     </property>
   </concept>
   <concept>
@@ -324,6 +416,10 @@
       <code value="dateMaj"/>
       <valueDateTime value="2017-07-07T10:00:00+01:00"/>
     </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
+    </property>
   </concept>
   <concept>
     <code value="urn:asip:ci-sis:cse-cs24:2017"/>
@@ -343,6 +439,10 @@
     <property>
       <code value="dateMaj"/>
       <valueDateTime value="2017-07-07T10:00:00+01:00"/>
+    </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
     </property>
   </concept>
   <concept>
@@ -368,6 +468,14 @@
       <code value="dateMaj"/>
       <valueDateTime value="2017-07-07T10:00:00+01:00"/>
     </property>
+    <property>
+      <code value="deprecationDate"/>
+      <valueDateTime value="2017-07-07T10:00:00+01:00"/>
+    </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="deprecated"/>
+    </property>
   </concept>
   <concept>
     <code value="urn:asip:ci-sis:cva:2017"/>
@@ -391,6 +499,14 @@
     <property>
       <code value="dateMaj"/>
       <valueDateTime value="2019-10-25T12:00:00+01:00"/>
+    </property>
+    <property>
+      <code value="deprecationDate"/>
+      <valueDateTime value="2019-10-25T12:00:00+01:00"/>
+    </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="deprecated"/>
     </property>
   </concept>
   <concept>
@@ -420,6 +536,10 @@
       <code value="dateMaj"/>
       <valueDateTime value="2017-10-13T12:00:00+01:00"/>
     </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
+    </property>
   </concept>
   <concept>
     <code value="urn:asip:ci-sis:d2lm-fin:2017"/>
@@ -448,6 +568,10 @@
       <code value="dateMaj"/>
       <valueDateTime value="2017-10-13T12:00:00+01:00"/>
     </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
+    </property>
   </concept>
   <concept>
     <code value="urn:asip:ci-sis:dci:2009"/>
@@ -468,6 +592,10 @@
       <code value="dateMaj"/>
       <valueDateTime value="2017-10-13T12:00:00+01:00"/>
     </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
+    </property>
   </concept>
   <concept>
     <code value="urn:asip:ci-sis:dlu:2015"/>
@@ -487,6 +615,10 @@
     <property>
       <code value="dateMaj"/>
       <valueDateTime value="2020-09-25T12:00:00+01:00"/>
+    </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
     </property>
   </concept>
   <concept>
@@ -512,6 +644,14 @@
       <code value="dateMaj"/>
       <valueDateTime value="2024-04-26T12:00:00+01:00"/>
     </property>
+    <property>
+      <code value="deprecationDate"/>
+      <valueDateTime value="2024-04-26T12:00:00+01:00"/>
+    </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="deprecated"/>
+    </property>
   </concept>
   <concept>
     <code value="urn:asip:ci-sis:dlu-fludr-dom:2022"/>
@@ -535,6 +675,14 @@
     <property>
       <code value="dateMaj"/>
       <valueDateTime value="2024-04-26T12:00:00+01:00"/>
+    </property>
+    <property>
+      <code value="deprecationDate"/>
+      <valueDateTime value="2024-04-26T12:00:00+01:00"/>
+    </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="deprecated"/>
     </property>
   </concept>
   <concept>
@@ -560,6 +708,14 @@
       <code value="dateMaj"/>
       <valueDateTime value="2024-04-26T12:00:00+01:00"/>
     </property>
+    <property>
+      <code value="deprecationDate"/>
+      <valueDateTime value="2024-04-26T12:00:00+01:00"/>
+    </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="deprecated"/>
+    </property>
   </concept>
   <concept>
     <code value="urn:asip:ci-sis:export-dui:2023"/>
@@ -579,6 +735,10 @@
     <property>
       <code value="dateMaj"/>
       <valueDateTime value="2023-12-15T12:00:00+01:00"/>
+    </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
     </property>
   </concept>
   <concept>
@@ -600,6 +760,10 @@
       <code value="dateMaj"/>
       <valueDateTime value="2017-07-07T10:00:00+01:00"/>
     </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
+    </property>
   </concept>
   <concept>
     <code value="urn:asip:ci-sis:fludr:2017"/>
@@ -619,6 +783,10 @@
     <property>
       <code value="dateMaj"/>
       <valueDateTime value="2017-07-07T10:00:00+01:00"/>
+    </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
     </property>
   </concept>
   <concept>
@@ -640,6 +808,10 @@
       <code value="dateMaj"/>
       <valueDateTime value="2022-04-29T12:00:00+01:00"/>
     </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
+    </property>
   </concept>
   <concept>
     <code value="urn:asip:ci-sis:frcp:2011"/>
@@ -659,6 +831,10 @@
     <property>
       <code value="dateMaj"/>
       <valueDateTime value="2017-07-07T10:00:00+01:00"/>
+    </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
     </property>
   </concept>
   <concept>
@@ -680,6 +856,10 @@
       <code value="dateMaj"/>
       <valueDateTime value="2019-10-25T12:00:00+01:00"/>
     </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
+    </property>
   </concept>
   <concept>
     <code value="urn:asip:ci-sis:idap:2011"/>
@@ -699,6 +879,10 @@
     <property>
       <code value="dateMaj"/>
       <valueDateTime value="2020-01-31T12:00:00+01:00"/>
+    </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
     </property>
   </concept>
   <concept>
@@ -720,6 +904,10 @@
       <code value="dateMaj"/>
       <valueDateTime value="2017-07-07T10:00:00+01:00"/>
     </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
+    </property>
   </concept>
   <concept>
     <code value="urn:asip:ci-sis:ldl-ses:2017"/>
@@ -739,6 +927,10 @@
     <property>
       <code value="dateMaj"/>
       <valueDateTime value="2017-07-07T10:00:00+01:00"/>
+    </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
     </property>
   </concept>
   <concept>
@@ -760,6 +952,10 @@
     <property>
       <code value="dateMaj"/>
       <valueDateTime value="2022-07-29T12:00:00+01:00"/>
+    </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
     </property>
   </concept>
   <concept>
@@ -789,6 +985,10 @@
       <code value="dateMaj"/>
       <valueDateTime value="2017-07-07T10:00:00+01:00"/>
     </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
+    </property>
   </concept>
   <concept>
     <code value="urn:asip:ci-sis:ppp:2023"/>
@@ -808,6 +1008,10 @@
     <property>
       <code value="dateMaj"/>
       <valueDateTime value="2023-12-15T12:00:00+01:00"/>
+    </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
     </property>
   </concept>
   <concept>
@@ -829,6 +1033,10 @@
       <code value="dateMaj"/>
       <valueDateTime value="2017-07-07T10:00:00+01:00"/>
     </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
+    </property>
   </concept>
   <concept>
     <code value="urn:asip:ci-sis:pps-paerpa:2017"/>
@@ -848,6 +1056,10 @@
     <property>
       <code value="dateMaj"/>
       <valueDateTime value="2017-07-07T10:00:00+01:00"/>
+    </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
     </property>
   </concept>
   <concept>
@@ -869,6 +1081,10 @@
       <code value="dateMaj"/>
       <valueDateTime value="2017-10-13T12:00:00+01:00"/>
     </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
+    </property>
   </concept>
   <concept>
     <code value="urn:asip:ci-sis:psc:2009"/>
@@ -888,6 +1104,10 @@
     <property>
       <code value="dateMaj"/>
       <valueDateTime value="2017-10-13T12:00:00+01:00"/>
+    </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
     </property>
   </concept>
   <concept>
@@ -913,6 +1133,14 @@
       <code value="dateMaj"/>
       <valueDateTime value="2023-06-30T12:00:00+01:00"/>
     </property>
+    <property>
+      <code value="deprecationDate"/>
+      <valueDateTime value="2023-06-30T12:00:00+01:00"/>
+    </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="deprecated"/>
+    </property>
   </concept>
   <concept>
     <code value="urn:asip:ci-sis:sce:2012"/>
@@ -936,6 +1164,14 @@
     <property>
       <code value="dateMaj"/>
       <valueDateTime value="2023-06-30T12:00:00+01:00"/>
+    </property>
+    <property>
+      <code value="deprecationDate"/>
+      <valueDateTime value="2023-06-30T12:00:00+01:00"/>
+    </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="deprecated"/>
     </property>
   </concept>
   <concept>
@@ -961,6 +1197,14 @@
       <code value="dateMaj"/>
       <valueDateTime value="2023-06-30T12:00:00+01:00"/>
     </property>
+    <property>
+      <code value="deprecationDate"/>
+      <valueDateTime value="2023-06-30T12:00:00+01:00"/>
+    </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="deprecated"/>
+    </property>
   </concept>
   <concept>
     <code value="urn:asip:ci-sis:sdm-mr:2017"/>
@@ -980,6 +1224,10 @@
     <property>
       <code value="dateMaj"/>
       <valueDateTime value="2017-07-07T10:00:00+01:00"/>
+    </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
     </property>
   </concept>
   <concept>
@@ -1005,6 +1253,14 @@
       <code value="dateMaj"/>
       <valueDateTime value="2023-06-30T12:00:00+01:00"/>
     </property>
+    <property>
+      <code value="deprecationDate"/>
+      <valueDateTime value="2023-06-30T12:00:00+01:00"/>
+    </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="deprecated"/>
+    </property>
   </concept>
   <concept>
     <code value="urn:asip:ci-sis:snm:2012"/>
@@ -1029,6 +1285,14 @@
       <code value="dateMaj"/>
       <valueDateTime value="2023-06-30T12:00:00+01:00"/>
     </property>
+    <property>
+      <code value="deprecationDate"/>
+      <valueDateTime value="2023-06-30T12:00:00+01:00"/>
+    </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="deprecated"/>
+    </property>
   </concept>
   <concept>
     <code value="urn:asip:ci-sis:sunv:2013"/>
@@ -1048,6 +1312,10 @@
     <property>
       <code value="dateMaj"/>
       <valueDateTime value="2021-09-24T12:00:00+01:00"/>
+    </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
     </property>
   </concept>
   <concept>
@@ -1077,6 +1345,10 @@
       <code value="dateMaj"/>
       <valueDateTime value="2017-10-13T12:00:00+01:00"/>
     </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
+    </property>
   </concept>
   <concept>
     <code value="urn:asip:ci-sis:tlm-da:2020"/>
@@ -1096,6 +1368,10 @@
     <property>
       <code value="dateMaj"/>
       <valueDateTime value="2020-01-31T12:00:00+01:00"/>
+    </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
     </property>
   </concept>
   <concept>
@@ -1117,6 +1393,10 @@
       <code value="dateMaj"/>
       <valueDateTime value="2022-09-30T12:00:00+01:00"/>
     </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
+    </property>
   </concept>
   <concept>
     <code value="urn:asip:ci-sis:vac-note:2021"/>
@@ -1136,6 +1416,10 @@
     <property>
       <code value="dateMaj"/>
       <valueDateTime value="2021-04-30T12:00:00+01:00"/>
+    </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
     </property>
   </concept>
   <concept>
@@ -1157,6 +1441,10 @@
       <code value="dateMaj"/>
       <valueDateTime value="2017-07-07T10:00:00+01:00"/>
     </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
+    </property>
   </concept>
   <concept>
     <code value="urn:asipSante:modelesHorsProfils:2011"/>
@@ -1176,6 +1464,10 @@
     <property>
       <code value="dateMaj"/>
       <valueDateTime value="2017-10-13T12:00:00+01:00"/>
+    </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
     </property>
   </concept>
   <concept>
@@ -1197,6 +1489,10 @@
       <code value="dateMaj"/>
       <valueDateTime value="2023-06-30T12:00:00+01:00"/>
     </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
+    </property>
   </concept>
   <concept>
     <code value="urn:asip:ci-sis:obp-snm:2023"/>
@@ -1216,6 +1512,10 @@
     <property>
       <code value="dateMaj"/>
       <valueDateTime value="2023-06-30T12:00:00+01:00"/>
+    </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
     </property>
   </concept>
   <concept>
@@ -1237,6 +1537,10 @@
       <code value="dateMaj"/>
       <valueDateTime value="2023-06-30T12:00:00+01:00"/>
     </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
+    </property>
   </concept>
   <concept>
     <code value="urn:asip:ci-sis:obp-scm:2023"/>
@@ -1256,6 +1560,10 @@
     <property>
       <code value="dateMaj"/>
       <valueDateTime value="2023-06-30T12:00:00+01:00"/>
+    </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
     </property>
   </concept>
   <concept>
@@ -1277,6 +1585,10 @@
       <code value="dateMaj"/>
       <valueDateTime value="2023-06-30T12:00:00+01:00"/>
     </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
+    </property>
   </concept>
   <concept>
     <code value="urn:ans:ci-sis:feuille-de-style:2023"/>
@@ -1288,6 +1600,10 @@
     <property>
       <code value="dateMaj"/>
       <valueDateTime value="2023-07-28T09:00:00+01:00"/>
+    </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
     </property>
   </concept>
   <concept>
@@ -1309,6 +1625,10 @@
       <code value="dateMaj"/>
       <valueDateTime value="2024-04-26T12:00:00+01:00"/>
     </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
+    </property>
   </concept>
   <concept>
     <code value="urn:asip:ci-sis:ft-su:2024"/>
@@ -1328,6 +1648,10 @@
     <property>
       <code value="dateMaj"/>
       <valueDateTime value="2024-04-26T12:00:00+01:00"/>
+    </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
     </property>
   </concept>
   <concept>
@@ -1349,6 +1673,10 @@
       <code value="dateMaj"/>
       <valueDateTime value="2024-04-26T12:00:00+01:00"/>
     </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
+    </property>
   </concept>
   <concept>
     <code value="urn:ans:ci-sis:trod:2024"/>
@@ -1368,6 +1696,10 @@
     <property>
       <code value="dateMaj"/>
       <valueDateTime value="2024-07-26T12:00:00+01:00"/>
+    </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
     </property>
   </concept>
 </CodeSystem>

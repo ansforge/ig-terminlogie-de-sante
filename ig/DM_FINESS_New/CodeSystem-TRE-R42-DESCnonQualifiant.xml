@@ -3,8 +3,8 @@
 <CodeSystem xmlns="http://hl7.org/fhir">
   <id value="TRE-R42-DESCnonQualifiant"/>
   <meta>
-    <versionId value="5"/>
-    <lastUpdated value="2024-08-28T05:13:51.202+00:00"/>
+    <versionId value="6"/>
+    <lastUpdated value="2025-07-02T18:18:06.072+00:00"/>
     <profile value="http://hl7.org/fhir/StructureDefinition/shareablecodesystem"/>
   </meta>
   <text>
@@ -27,6 +27,12 @@
   <date value="2024-06-28T12:00:00+01:00"/>
   <publisher value="Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris"/>
   <description value="Savoir-faire liés aux DESC du groupe 1 non qualifiants"/>
+  <jurisdiction>
+    <coding>
+      <system value="urn:iso:std:iso:3166"/>
+      <code value="FR"/>
+    </coding>
+  </jurisdiction>
   <caseSensitive value="false"/>
   <content value="complete"/>
   <property>
@@ -42,6 +48,24 @@
   <property>
     <code value="dateFin"/>
     <description value="Date de fin d'exploitation d'un code concept"/>
+    <type value="dateTime"/>
+  </property>
+  <property>
+    <code value="deprecationDate"/>
+    <uri value="http://hl7.org/fhir/concept-properties#deprecationDate"/>
+    <description value="Date Concept was deprecated"/>
+    <type value="dateTime"/>
+  </property>
+  <property>
+    <code value="status"/>
+    <uri value="http://hl7.org/fhir/concept-properties#status"/>
+    <description value="A property that indicates the status of the concept."/>
+    <type value="code"/>
+  </property>
+  <property>
+    <code value="retirementDate"/>
+    <uri value="http://hl7.org/fhir/concept-properties#retirementDate"/>
+    <description value="Date Concept was retired"/>
     <type value="dateTime"/>
   </property>
   <concept>
@@ -63,6 +87,10 @@
       <code value="dateMaj"/>
       <valueDateTime value="2009-02-12T00:00:00+01:00"/>
     </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
+    </property>
   </concept>
   <concept>
     <code value="DSM201"/>
@@ -82,6 +110,10 @@
     <property>
       <code value="dateMaj"/>
       <valueDateTime value="2016-09-01T00:00:00+01:00"/>
+    </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
     </property>
   </concept>
   <concept>
@@ -103,6 +135,10 @@
       <code value="dateMaj"/>
       <valueDateTime value="2009-02-12T00:00:00+01:00"/>
     </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
+    </property>
   </concept>
   <concept>
     <code value="DSM203"/>
@@ -122,6 +158,10 @@
     <property>
       <code value="dateMaj"/>
       <valueDateTime value="2016-09-01T00:00:00+01:00"/>
+    </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
     </property>
   </concept>
   <concept>
@@ -143,6 +183,10 @@
       <code value="dateMaj"/>
       <valueDateTime value="2016-09-01T00:00:00+01:00"/>
     </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
+    </property>
   </concept>
   <concept>
     <code value="DSM205"/>
@@ -162,6 +206,10 @@
     <property>
       <code value="dateMaj"/>
       <valueDateTime value="2009-02-12T00:00:00+01:00"/>
+    </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
     </property>
   </concept>
   <concept>
@@ -183,6 +231,10 @@
       <code value="dateMaj"/>
       <valueDateTime value="2009-02-12T00:00:00+01:00"/>
     </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
+    </property>
   </concept>
   <concept>
     <code value="DSM207"/>
@@ -202,6 +254,10 @@
     <property>
       <code value="dateMaj"/>
       <valueDateTime value="2016-09-01T00:00:00+01:00"/>
+    </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
     </property>
   </concept>
   <concept>
@@ -223,6 +279,10 @@
       <code value="dateMaj"/>
       <valueDateTime value="2016-09-01T00:00:00+01:00"/>
     </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
+    </property>
   </concept>
   <concept>
     <code value="DSM209"/>
@@ -242,6 +302,10 @@
     <property>
       <code value="dateMaj"/>
       <valueDateTime value="2009-02-12T00:00:00+01:00"/>
+    </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
     </property>
   </concept>
   <concept>
@@ -263,6 +327,10 @@
       <code value="dateMaj"/>
       <valueDateTime value="2016-09-01T00:00:00+01:00"/>
     </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
+    </property>
   </concept>
   <concept>
     <code value="DSM211"/>
@@ -282,6 +350,10 @@
     <property>
       <code value="dateMaj"/>
       <valueDateTime value="2009-02-12T00:00:00+01:00"/>
+    </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
     </property>
   </concept>
   <concept>
@@ -303,6 +375,10 @@
       <code value="dateMaj"/>
       <valueDateTime value="2009-02-12T00:00:00+01:00"/>
     </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
+    </property>
   </concept>
   <concept>
     <code value="DSM213"/>
@@ -322,6 +398,10 @@
     <property>
       <code value="dateMaj"/>
       <valueDateTime value="2009-02-12T00:00:00+01:00"/>
+    </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
     </property>
   </concept>
   <concept>
@@ -343,6 +423,10 @@
       <code value="dateMaj"/>
       <valueDateTime value="2016-09-01T00:00:00+01:00"/>
     </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
+    </property>
   </concept>
   <concept>
     <code value="DSM215"/>
@@ -362,6 +446,10 @@
     <property>
       <code value="dateMaj"/>
       <valueDateTime value="2016-09-01T00:00:00+01:00"/>
+    </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
     </property>
   </concept>
   <concept>
@@ -383,6 +471,10 @@
       <code value="dateMaj"/>
       <valueDateTime value="2016-09-01T00:00:00+01:00"/>
     </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
+    </property>
   </concept>
   <concept>
     <code value="DSM217"/>
@@ -402,6 +494,10 @@
     <property>
       <code value="dateMaj"/>
       <valueDateTime value="2016-09-01T00:00:00+01:00"/>
+    </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
     </property>
   </concept>
   <concept>
@@ -423,6 +519,10 @@
       <code value="dateMaj"/>
       <valueDateTime value="2016-09-01T00:00:00+01:00"/>
     </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
+    </property>
   </concept>
   <concept>
     <code value="DSM219"/>
@@ -442,6 +542,10 @@
     <property>
       <code value="dateMaj"/>
       <valueDateTime value="2009-02-12T00:00:00+01:00"/>
+    </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
     </property>
   </concept>
   <concept>
@@ -463,6 +567,10 @@
       <code value="dateMaj"/>
       <valueDateTime value="2009-02-12T00:00:00+01:00"/>
     </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
+    </property>
   </concept>
   <concept>
     <code value="DSM221"/>
@@ -482,6 +590,10 @@
     <property>
       <code value="dateMaj"/>
       <valueDateTime value="2016-09-01T00:00:00+01:00"/>
+    </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
     </property>
   </concept>
   <concept>
@@ -503,6 +615,10 @@
       <code value="dateMaj"/>
       <valueDateTime value="2009-02-12T00:00:00+01:00"/>
     </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
+    </property>
   </concept>
   <concept>
     <code value="DSM223"/>
@@ -522,6 +638,10 @@
     <property>
       <code value="dateMaj"/>
       <valueDateTime value="2009-02-12T00:00:00+01:00"/>
+    </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
     </property>
   </concept>
   <concept>
@@ -543,6 +663,10 @@
       <code value="dateMaj"/>
       <valueDateTime value="2009-02-12T00:00:00+01:00"/>
     </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
+    </property>
   </concept>
   <concept>
     <code value="DSM225"/>
@@ -562,6 +686,10 @@
     <property>
       <code value="dateMaj"/>
       <valueDateTime value="2009-02-12T00:00:00+01:00"/>
+    </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
     </property>
   </concept>
   <concept>
@@ -583,6 +711,10 @@
       <code value="dateMaj"/>
       <valueDateTime value="2009-02-12T00:00:00+01:00"/>
     </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
+    </property>
   </concept>
   <concept>
     <code value="DSM227"/>
@@ -602,6 +734,10 @@
     <property>
       <code value="dateMaj"/>
       <valueDateTime value="2016-09-01T00:00:00+01:00"/>
+    </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
     </property>
   </concept>
   <concept>
@@ -623,6 +759,10 @@
       <code value="dateMaj"/>
       <valueDateTime value="2016-09-01T00:00:00+01:00"/>
     </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
+    </property>
   </concept>
   <concept>
     <code value="DSM229"/>
@@ -642,6 +782,10 @@
     <property>
       <code value="dateMaj"/>
       <valueDateTime value="2016-09-01T00:00:00+01:00"/>
+    </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
     </property>
   </concept>
   <concept>
@@ -663,6 +807,10 @@
       <code value="dateMaj"/>
       <valueDateTime value="2016-09-01T00:00:00+01:00"/>
     </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
+    </property>
   </concept>
   <concept>
     <code value="DSM231"/>
@@ -682,6 +830,10 @@
     <property>
       <code value="dateMaj"/>
       <valueDateTime value="2016-09-01T00:00:00+01:00"/>
+    </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
     </property>
   </concept>
   <concept>
@@ -703,6 +855,10 @@
       <code value="dateMaj"/>
       <valueDateTime value="2016-09-01T00:00:00+01:00"/>
     </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
+    </property>
   </concept>
   <concept>
     <code value="DSM233"/>
@@ -722,6 +878,10 @@
     <property>
       <code value="dateMaj"/>
       <valueDateTime value="2009-02-12T00:00:00+01:00"/>
+    </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
     </property>
   </concept>
   <concept>
@@ -743,6 +903,10 @@
       <code value="dateMaj"/>
       <valueDateTime value="2016-09-01T00:00:00+01:00"/>
     </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
+    </property>
   </concept>
   <concept>
     <code value="DSM235"/>
@@ -762,6 +926,10 @@
     <property>
       <code value="dateMaj"/>
       <valueDateTime value="2016-09-01T00:00:00+01:00"/>
+    </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
     </property>
   </concept>
   <concept>
@@ -783,6 +951,10 @@
       <code value="dateMaj"/>
       <valueDateTime value="2016-09-01T00:00:00+01:00"/>
     </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
+    </property>
   </concept>
   <concept>
     <code value="DSM237"/>
@@ -802,6 +974,10 @@
     <property>
       <code value="dateMaj"/>
       <valueDateTime value="2016-09-01T00:00:00+01:00"/>
+    </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
     </property>
   </concept>
   <concept>
@@ -823,6 +999,10 @@
       <code value="dateMaj"/>
       <valueDateTime value="2016-09-01T00:00:00+01:00"/>
     </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
+    </property>
   </concept>
   <concept>
     <code value="DSM239"/>
@@ -843,6 +1023,10 @@
       <code value="dateMaj"/>
       <valueDateTime value="2016-09-01T00:00:00+01:00"/>
     </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
+    </property>
   </concept>
   <concept>
     <code value="DSM240"/>
@@ -862,6 +1046,10 @@
     <property>
       <code value="dateMaj"/>
       <valueDateTime value="2016-09-01T00:00:00+01:00"/>
+    </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
     </property>
   </concept>
 </CodeSystem>

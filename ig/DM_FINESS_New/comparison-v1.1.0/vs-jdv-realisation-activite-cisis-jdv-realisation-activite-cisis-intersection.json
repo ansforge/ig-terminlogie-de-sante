@@ -1,0 +1,29 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "dc7425aa-2d2f-4b7e-9ce2-4d8f876abacc-2508",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/dc7425aa-2d2f-4b7e-9ce2-4d8f876abacc-2508",
+  "name" : "IntersectionJdvRealisationActiviteCisisAndJdvRealisationActiviteCisis",
+  "title" : "Intersection of JDV Realisation Activite CISIS And JDV Realisation Activite CISIS",
+  "status" : "active",
+  "date" : "2025-07-08T14:29:06+00:00",
+  "compose" : {
+    "include" : [{
+      "concept" : [{
+        "code" : "385670004",
+        "display" : "partiellement réussi"
+      },
+      {
+        "code" : "371152001",
+        "display" : "assisté"
+      },
+      {
+        "code" : "373067005",
+        "display" : "non"
+      },
+      {
+        "code" : "371153006",
+        "display" : "indépendant(e)"
+      }]
+    }]
+  }
+}

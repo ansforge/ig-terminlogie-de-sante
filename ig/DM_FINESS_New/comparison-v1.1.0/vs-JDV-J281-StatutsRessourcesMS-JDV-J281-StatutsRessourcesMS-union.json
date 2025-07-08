@@ -1,0 +1,63 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "dc7425aa-2d2f-4b7e-9ce2-4d8f876abacc-1379",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/dc7425aa-2d2f-4b7e-9ce2-4d8f876abacc-1379",
+  "name" : "UnionJDV_J281_StatutsRessourcesMSAndJDV_J281_StatutsRessourcesMS",
+  "title" : "Union of null And null",
+  "status" : "active",
+  "date" : "2025-07-08T14:29:06+00:00",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "FR"
+    }]
+  }],
+  "compose" : {
+    "include" : [{
+      "concept" : [{
+        "code" : "TERMINE",
+        "display" : "Terminé"
+      },
+      {
+        "code" : "VALIDE",
+        "display" : "Validé"
+      },
+      {
+        "code" : "APPROUVE",
+        "display" : "Approuvé"
+      },
+      {
+        "code" : "PLANIFIE",
+        "display" : "Planifié"
+      },
+      {
+        "code" : "REALISE",
+        "display" : "Réalisé"
+      },
+      {
+        "code" : "ANNULE",
+        "display" : "Annulé"
+      },
+      {
+        "code" : "ACTIF",
+        "display" : "Actif"
+      },
+      {
+        "code" : "NONDEBUTE",
+        "display" : "Non débuté"
+      },
+      {
+        "code" : "ENPREPARATION",
+        "display" : "En préparation"
+      },
+      {
+        "code" : "ENREALISATION",
+        "display" : "En réalisation"
+      },
+      {
+        "code" : "CREATION",
+        "display" : "Création"
+      }]
+    }]
+  }
+}

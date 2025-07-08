@@ -1,0 +1,41 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "dc7425aa-2d2f-4b7e-9ce2-4d8f876abacc-2910",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/dc7425aa-2d2f-4b7e-9ce2-4d8f876abacc-2910",
+  "name" : "IntersectionJdvTypePelevementOrigineCisisAndJdvTypePelevementOrigineCisis",
+  "title" : "Intersection of JDV Type Pelevement Origine CISIS And JDV Type Pelevement Origine CISIS",
+  "status" : "active",
+  "date" : "2025-07-08T14:29:06+00:00",
+  "compose" : {
+    "include" : [{
+      "concept" : [{
+        "code" : "A",
+        "display" : "Aspiration"
+      },
+      {
+        "code" : "B",
+        "display" : "Biopsie chirurgicale"
+      },
+      {
+        "code" : "C",
+        "display" : "Cytoponction non guidée par imagerie"
+      },
+      {
+        "code" : "F",
+        "display" : "Frottis par raclage, brossage ou écouvillonnage"
+      },
+      {
+        "code" : "L",
+        "display" : "Liquide spontanément émis ou de ponction (épanchement, urine, LCR,  kyste, bulle)"
+      },
+      {
+        "code" : "O",
+        "display" : "Pièce opératoire avec exérèse complète de l’organe"
+      },
+      {
+        "code" : "P",
+        "display" : "Ponction, biopsie et biopsie instrumentale non guidée par imagerie"
+      }]
+    }]
+  }
+}

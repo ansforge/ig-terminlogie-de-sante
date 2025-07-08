@@ -3,8 +3,8 @@
 <CodeSystem xmlns="http://hl7.org/fhir">
   <id value="TRE-R239-PublicPrisEnCharge"/>
   <meta>
-    <versionId value="5"/>
-    <lastUpdated value="2025-03-31T18:11:22.351+00:00"/>
+    <versionId value="6"/>
+    <lastUpdated value="2025-07-02T18:16:23.624+00:00"/>
     <profile value="http://hl7.org/fhir/StructureDefinition/shareablecodesystem"/>
   </meta>
   <text>
@@ -27,6 +27,12 @@
   <date value="2025-03-28T12:00:00+01:00"/>
   <publisher value="Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris"/>
   <description value="Public pris en charge"/>
+  <jurisdiction>
+    <coding>
+      <system value="urn:iso:std:iso:3166"/>
+      <code value="FR"/>
+    </coding>
+  </jurisdiction>
   <caseSensitive value="false"/>
   <content value="complete"/>
   <property>

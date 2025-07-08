@@ -3,8 +3,8 @@
 <CodeSystem xmlns="http://hl7.org/fhir">
   <id value="TRE-R49-DiplomeEtudeSpecialisee"/>
   <meta>
-    <versionId value="4"/>
-    <lastUpdated value="2024-08-28T05:13:54.950+00:00"/>
+    <versionId value="5"/>
+    <lastUpdated value="2025-07-02T18:18:13.236+00:00"/>
     <profile value="http://hl7.org/fhir/StructureDefinition/shareablecodesystem"/>
   </meta>
   <text>
@@ -27,6 +27,12 @@
   <date value="2024-05-31T12:00:00+01:00"/>
   <publisher value="Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris"/>
   <description value="Diplôme d'Etudes Spécialisées"/>
+  <jurisdiction>
+    <coding>
+      <system value="urn:iso:std:iso:3166"/>
+      <code value="FR"/>
+    </coding>
+  </jurisdiction>
   <caseSensitive value="false"/>
   <content value="complete"/>
   <property>
@@ -42,6 +48,24 @@
   <property>
     <code value="dateFin"/>
     <description value="Date de fin d'exploitation d'un code concept"/>
+    <type value="dateTime"/>
+  </property>
+  <property>
+    <code value="deprecationDate"/>
+    <uri value="http://hl7.org/fhir/concept-properties#deprecationDate"/>
+    <description value="Date Concept was deprecated"/>
+    <type value="dateTime"/>
+  </property>
+  <property>
+    <code value="status"/>
+    <uri value="http://hl7.org/fhir/concept-properties#status"/>
+    <description value="A property that indicates the status of the concept."/>
+    <type value="code"/>
+  </property>
+  <property>
+    <code value="retirementDate"/>
+    <uri value="http://hl7.org/fhir/concept-properties#retirementDate"/>
+    <description value="Date Concept was retired"/>
     <type value="dateTime"/>
   </property>
   <concept>
@@ -63,6 +87,10 @@
       <code value="dateMaj"/>
       <valueDateTime value="2017-10-23T00:00:00+01:00"/>
     </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
+    </property>
   </concept>
   <concept>
     <code value="DSD02"/>
@@ -82,6 +110,10 @@
     <property>
       <code value="dateMaj"/>
       <valueDateTime value="2017-10-23T00:00:00+01:00"/>
+    </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
     </property>
   </concept>
   <concept>
@@ -103,6 +135,10 @@
       <code value="dateMaj"/>
       <valueDateTime value="2016-09-01T00:00:00+01:00"/>
     </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
+    </property>
   </concept>
   <concept>
     <code value="DSM02"/>
@@ -115,6 +151,10 @@
       <code value="dateMaj"/>
       <valueDateTime value="2016-09-01T00:00:00+01:00"/>
     </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
+    </property>
   </concept>
   <concept>
     <code value="DSM03"/>
@@ -126,6 +166,10 @@
     <property>
       <code value="dateMaj"/>
       <valueDateTime value="2016-09-01T00:00:00+01:00"/>
+    </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
     </property>
   </concept>
   <concept>
@@ -147,6 +191,10 @@
       <code value="dateMaj"/>
       <valueDateTime value="2016-09-01T00:00:00+01:00"/>
     </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
+    </property>
   </concept>
   <concept>
     <code value="DSM05"/>
@@ -166,6 +214,10 @@
     <property>
       <code value="dateMaj"/>
       <valueDateTime value="2011-01-17T11:47:08+01:00"/>
+    </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
     </property>
   </concept>
   <concept>
@@ -187,6 +239,10 @@
       <code value="dateMaj"/>
       <valueDateTime value="2011-01-17T11:47:08+01:00"/>
     </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
+    </property>
   </concept>
   <concept>
     <code value="DSM07"/>
@@ -206,6 +262,10 @@
     <property>
       <code value="dateMaj"/>
       <valueDateTime value="2016-09-01T00:00:00+01:00"/>
+    </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
     </property>
   </concept>
   <concept>
@@ -227,6 +287,10 @@
       <code value="dateMaj"/>
       <valueDateTime value="2016-09-01T00:00:00+01:00"/>
     </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
+    </property>
   </concept>
   <concept>
     <code value="DSM09"/>
@@ -246,6 +310,10 @@
     <property>
       <code value="dateMaj"/>
       <valueDateTime value="2016-09-01T00:00:00+01:00"/>
+    </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
     </property>
   </concept>
   <concept>
@@ -267,6 +335,10 @@
       <code value="dateMaj"/>
       <valueDateTime value="2016-09-01T00:00:00+01:00"/>
     </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
+    </property>
   </concept>
   <concept>
     <code value="DSM11"/>
@@ -286,6 +358,10 @@
     <property>
       <code value="dateMaj"/>
       <valueDateTime value="2016-09-01T00:00:00+01:00"/>
+    </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
     </property>
   </concept>
   <concept>
@@ -307,6 +383,10 @@
       <code value="dateMaj"/>
       <valueDateTime value="2016-09-01T00:00:00+01:00"/>
     </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
+    </property>
   </concept>
   <concept>
     <code value="DSM13"/>
@@ -326,6 +406,10 @@
     <property>
       <code value="dateMaj"/>
       <valueDateTime value="2016-09-01T00:00:00+01:00"/>
+    </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
     </property>
   </concept>
   <concept>
@@ -347,6 +431,10 @@
       <code value="dateMaj"/>
       <valueDateTime value="2016-09-01T00:00:00+01:00"/>
     </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
+    </property>
   </concept>
   <concept>
     <code value="DSM15"/>
@@ -366,6 +454,10 @@
     <property>
       <code value="dateMaj"/>
       <valueDateTime value="2016-09-01T00:00:00+01:00"/>
+    </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
     </property>
   </concept>
   <concept>
@@ -387,6 +479,10 @@
       <code value="dateMaj"/>
       <valueDateTime value="2016-09-01T00:00:00+01:00"/>
     </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
+    </property>
   </concept>
   <concept>
     <code value="DSM17"/>
@@ -398,6 +494,10 @@
     <property>
       <code value="dateMaj"/>
       <valueDateTime value="2016-09-01T00:00:00+01:00"/>
+    </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
     </property>
   </concept>
   <concept>
@@ -411,6 +511,10 @@
       <code value="dateMaj"/>
       <valueDateTime value="2016-09-01T00:00:00+01:00"/>
     </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
+    </property>
   </concept>
   <concept>
     <code value="DSM19"/>
@@ -423,6 +527,10 @@
       <code value="dateMaj"/>
       <valueDateTime value="2016-09-01T00:00:00+01:00"/>
     </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
+    </property>
   </concept>
   <concept>
     <code value="DSM20"/>
@@ -434,6 +542,10 @@
     <property>
       <code value="dateMaj"/>
       <valueDateTime value="2011-01-17T11:47:08+01:00"/>
+    </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
     </property>
   </concept>
   <concept>
@@ -455,6 +567,10 @@
       <code value="dateMaj"/>
       <valueDateTime value="2016-09-01T00:00:00+01:00"/>
     </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
+    </property>
   </concept>
   <concept>
     <code value="DSM22"/>
@@ -475,6 +591,10 @@
       <code value="dateMaj"/>
       <valueDateTime value="2016-09-01T00:00:00+01:00"/>
     </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
+    </property>
   </concept>
   <concept>
     <code value="DSM23"/>
@@ -486,6 +606,10 @@
     <property>
       <code value="dateMaj"/>
       <valueDateTime value="2016-09-01T00:00:00+01:00"/>
+    </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
     </property>
   </concept>
   <concept>
@@ -499,6 +623,10 @@
       <code value="dateMaj"/>
       <valueDateTime value="2016-09-01T00:00:00+01:00"/>
     </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
+    </property>
   </concept>
   <concept>
     <code value="DSM25"/>
@@ -511,6 +639,10 @@
       <code value="dateMaj"/>
       <valueDateTime value="2016-09-01T00:00:00+01:00"/>
     </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
+    </property>
   </concept>
   <concept>
     <code value="DSM26"/>
@@ -522,6 +654,10 @@
     <property>
       <code value="dateMaj"/>
       <valueDateTime value="2016-09-01T00:00:00+01:00"/>
+    </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
     </property>
   </concept>
   <concept>
@@ -543,6 +679,10 @@
       <code value="dateMaj"/>
       <valueDateTime value="2016-09-01T00:00:00+01:00"/>
     </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
+    </property>
   </concept>
   <concept>
     <code value="DSM28"/>
@@ -554,6 +694,10 @@
     <property>
       <code value="dateMaj"/>
       <valueDateTime value="2011-01-17T11:47:08+01:00"/>
+    </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
     </property>
   </concept>
   <concept>
@@ -567,6 +711,10 @@
       <code value="dateMaj"/>
       <valueDateTime value="2011-01-17T11:47:08+01:00"/>
     </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
+    </property>
   </concept>
   <concept>
     <code value="DSM30"/>
@@ -579,6 +727,10 @@
       <code value="dateMaj"/>
       <valueDateTime value="2011-01-17T11:47:08+01:00"/>
     </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
+    </property>
   </concept>
   <concept>
     <code value="DSM31"/>
@@ -590,6 +742,10 @@
     <property>
       <code value="dateMaj"/>
       <valueDateTime value="2016-09-01T00:00:00+01:00"/>
+    </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
     </property>
   </concept>
   <concept>
@@ -611,6 +767,10 @@
       <code value="dateMaj"/>
       <valueDateTime value="2016-09-01T00:00:00+01:00"/>
     </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
+    </property>
   </concept>
   <concept>
     <code value="DSM33"/>
@@ -622,6 +782,10 @@
     <property>
       <code value="dateMaj"/>
       <valueDateTime value="2016-09-01T00:00:00+01:00"/>
+    </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
     </property>
   </concept>
   <concept>
@@ -643,6 +807,10 @@
       <code value="dateMaj"/>
       <valueDateTime value="2016-09-01T00:00:00+01:00"/>
     </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
+    </property>
   </concept>
   <concept>
     <code value="DSM35"/>
@@ -654,6 +822,10 @@
     <property>
       <code value="dateMaj"/>
       <valueDateTime value="2011-01-17T11:47:08+01:00"/>
+    </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
     </property>
   </concept>
   <concept>
@@ -675,6 +847,10 @@
       <code value="dateMaj"/>
       <valueDateTime value="2016-09-01T00:00:00+01:00"/>
     </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
+    </property>
   </concept>
   <concept>
     <code value="DSM37"/>
@@ -695,6 +871,10 @@
       <code value="dateMaj"/>
       <valueDateTime value="2016-09-01T00:00:00+01:00"/>
     </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
+    </property>
   </concept>
   <concept>
     <code value="DSM38"/>
@@ -706,6 +886,10 @@
     <property>
       <code value="dateMaj"/>
       <valueDateTime value="2016-09-01T00:00:00+01:00"/>
+    </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
     </property>
   </concept>
   <concept>
@@ -719,6 +903,10 @@
       <code value="dateMaj"/>
       <valueDateTime value="2011-01-17T11:47:08+01:00"/>
     </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
+    </property>
   </concept>
   <concept>
     <code value="DSM40"/>
@@ -730,6 +918,10 @@
     <property>
       <code value="dateMaj"/>
       <valueDateTime value="2011-01-17T11:47:08+01:00"/>
+    </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
     </property>
   </concept>
   <concept>
@@ -743,6 +935,10 @@
       <code value="dateMaj"/>
       <valueDateTime value="2011-01-17T11:47:08+01:00"/>
     </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
+    </property>
   </concept>
   <concept>
     <code value="DSM42"/>
@@ -754,6 +950,10 @@
     <property>
       <code value="dateMaj"/>
       <valueDateTime value="2016-09-01T00:00:00+01:00"/>
+    </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
     </property>
   </concept>
   <concept>
@@ -775,6 +975,10 @@
       <code value="dateMaj"/>
       <valueDateTime value="2016-09-01T00:00:00+01:00"/>
     </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
+    </property>
   </concept>
   <concept>
     <code value="DSM44"/>
@@ -786,6 +990,10 @@
     <property>
       <code value="dateMaj"/>
       <valueDateTime value="2011-01-17T11:47:08+01:00"/>
+    </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
     </property>
   </concept>
   <concept>
@@ -799,6 +1007,10 @@
       <code value="dateMaj"/>
       <valueDateTime value="2016-09-01T00:00:00+01:00"/>
     </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
+    </property>
   </concept>
   <concept>
     <code value="DSM46"/>
@@ -810,6 +1022,10 @@
     <property>
       <code value="dateMaj"/>
       <valueDateTime value="2011-01-17T11:47:08+01:00"/>
+    </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
     </property>
   </concept>
   <concept>
@@ -831,6 +1047,10 @@
       <code value="dateMaj"/>
       <valueDateTime value="2016-09-01T00:00:00+01:00"/>
     </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
+    </property>
   </concept>
   <concept>
     <code value="DSM48"/>
@@ -842,6 +1062,10 @@
     <property>
       <code value="dateMaj"/>
       <valueDateTime value="2011-01-17T11:47:08+01:00"/>
+    </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
     </property>
   </concept>
   <concept>
@@ -863,6 +1087,10 @@
       <code value="dateMaj"/>
       <valueDateTime value="2016-09-01T00:00:00+01:00"/>
     </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
+    </property>
   </concept>
   <concept>
     <code value="DSM50"/>
@@ -883,6 +1111,10 @@
       <code value="dateMaj"/>
       <valueDateTime value="2016-09-01T00:00:00+01:00"/>
     </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
+    </property>
   </concept>
   <concept>
     <code value="DSM51"/>
@@ -895,6 +1127,10 @@
       <code value="dateMaj"/>
       <valueDateTime value="2015-10-30T00:00:00+01:00"/>
     </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
+    </property>
   </concept>
   <concept>
     <code value="DSP04"/>
@@ -906,6 +1142,10 @@
     <property>
       <code value="dateMaj"/>
       <valueDateTime value="2016-09-01T00:00:00+01:00"/>
+    </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
     </property>
   </concept>
   <concept>
@@ -931,6 +1171,14 @@
       <code value="dateMaj"/>
       <valueDateTime value="2021-03-26T12:00:00+01:00"/>
     </property>
+    <property>
+      <code value="deprecationDate"/>
+      <valueDateTime value="2021-03-26T12:00:00+01:00"/>
+    </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="deprecated"/>
+    </property>
   </concept>
   <concept>
     <code value="DSP06"/>
@@ -943,6 +1191,10 @@
     <property>
       <code value="dateMaj"/>
       <valueDateTime value="2021-03-26T12:00:00+01:00"/>
+    </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
     </property>
   </concept>
   <concept>
@@ -969,6 +1221,14 @@
       <code value="dateMaj"/>
       <valueDateTime value="2021-03-26T12:00:00+01:00"/>
     </property>
+    <property>
+      <code value="deprecationDate"/>
+      <valueDateTime value="2021-03-26T12:00:00+01:00"/>
+    </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="deprecated"/>
+    </property>
   </concept>
   <concept>
     <code value="DSP08"/>
@@ -994,6 +1254,14 @@
       <code value="dateMaj"/>
       <valueDateTime value="2021-03-26T12:00:00+01:00"/>
     </property>
+    <property>
+      <code value="deprecationDate"/>
+      <valueDateTime value="2021-03-26T12:00:00+01:00"/>
+    </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="deprecated"/>
+    </property>
   </concept>
   <concept>
     <code value="DSP09"/>
@@ -1010,6 +1278,14 @@
     <property>
       <code value="dateMaj"/>
       <valueDateTime value="2021-03-26T12:00:00+01:00"/>
+    </property>
+    <property>
+      <code value="deprecationDate"/>
+      <valueDateTime value="2021-03-26T12:00:00+01:00"/>
+    </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="deprecated"/>
     </property>
   </concept>
   <concept>
@@ -1032,6 +1308,10 @@
       <code value="dateMaj"/>
       <valueDateTime value="2021-03-26T12:00:00+01:00"/>
     </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
+    </property>
   </concept>
   <concept>
     <code value="DSP11"/>
@@ -1052,6 +1332,10 @@
     <property>
       <code value="dateMaj"/>
       <valueDateTime value="2021-03-26T12:00:00+01:00"/>
+    </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
     </property>
   </concept>
   <concept>
@@ -1074,6 +1358,10 @@
       <code value="dateMaj"/>
       <valueDateTime value="2021-03-26T12:00:00+01:00"/>
     </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
+    </property>
   </concept>
   <concept>
     <code value="DSM52"/>
@@ -1085,6 +1373,10 @@
     <property>
       <code value="dateMaj"/>
       <valueDateTime value="2023-03-31T12:00:00+01:00"/>
+    </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
     </property>
   </concept>
   <concept>
@@ -1106,6 +1398,10 @@
       <code value="dateMaj"/>
       <valueDateTime value="2023-03-31T12:00:00+01:00"/>
     </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
+    </property>
   </concept>
   <concept>
     <code value="DSM54"/>
@@ -1125,6 +1421,10 @@
     <property>
       <code value="dateMaj"/>
       <valueDateTime value="2023-03-31T12:00:00+01:00"/>
+    </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
     </property>
   </concept>
   <concept>
@@ -1146,6 +1446,10 @@
       <code value="dateMaj"/>
       <valueDateTime value="2023-03-31T12:00:00+01:00"/>
     </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
+    </property>
   </concept>
   <concept>
     <code value="DSM56"/>
@@ -1165,6 +1469,10 @@
     <property>
       <code value="dateMaj"/>
       <valueDateTime value="2023-03-31T12:00:00+01:00"/>
+    </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
     </property>
   </concept>
   <concept>
@@ -1186,6 +1494,10 @@
       <code value="dateMaj"/>
       <valueDateTime value="2023-03-31T12:00:00+01:00"/>
     </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
+    </property>
   </concept>
   <concept>
     <code value="DSM58"/>
@@ -1205,6 +1517,10 @@
     <property>
       <code value="dateMaj"/>
       <valueDateTime value="2023-03-31T12:00:00+01:00"/>
+    </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
     </property>
   </concept>
   <concept>
@@ -1226,6 +1542,10 @@
       <code value="dateMaj"/>
       <valueDateTime value="2023-03-31T12:00:00+01:00"/>
     </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
+    </property>
   </concept>
   <concept>
     <code value="DSM60"/>
@@ -1237,6 +1557,10 @@
     <property>
       <code value="dateMaj"/>
       <valueDateTime value="2023-03-31T12:00:00+01:00"/>
+    </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
     </property>
   </concept>
   <concept>
@@ -1258,6 +1582,10 @@
       <code value="dateMaj"/>
       <valueDateTime value="2023-03-31T12:00:00+01:00"/>
     </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
+    </property>
   </concept>
   <concept>
     <code value="DSM62"/>
@@ -1277,6 +1605,10 @@
     <property>
       <code value="dateMaj"/>
       <valueDateTime value="2023-03-31T12:00:00+01:00"/>
+    </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
     </property>
   </concept>
   <concept>
@@ -1298,6 +1630,10 @@
       <code value="dateMaj"/>
       <valueDateTime value="2023-03-31T12:00:00+01:00"/>
     </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
+    </property>
   </concept>
   <concept>
     <code value="DSM64"/>
@@ -1318,6 +1654,10 @@
       <code value="dateMaj"/>
       <valueDateTime value="2023-03-31T12:00:00+01:00"/>
     </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
+    </property>
   </concept>
   <concept>
     <code value="DSM65"/>
@@ -1329,6 +1669,10 @@
     <property>
       <code value="dateMaj"/>
       <valueDateTime value="2023-03-31T12:00:00+01:00"/>
+    </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
     </property>
   </concept>
   <concept>
@@ -1350,6 +1694,10 @@
       <code value="dateMaj"/>
       <valueDateTime value="2023-03-31T12:00:00+01:00"/>
     </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
+    </property>
   </concept>
   <concept>
     <code value="DSM67"/>
@@ -1362,6 +1710,10 @@
       <code value="dateMaj"/>
       <valueDateTime value="2023-03-31T12:00:00+01:00"/>
     </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
+    </property>
   </concept>
   <concept>
     <code value="DSM68"/>
@@ -1373,6 +1725,10 @@
     <property>
       <code value="dateMaj"/>
       <valueDateTime value="2023-03-31T12:00:00+01:00"/>
+    </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
     </property>
   </concept>
   <concept>
@@ -1402,6 +1758,10 @@
       <code value="dateMaj"/>
       <valueDateTime value="2023-10-30T12:00:00+01:00"/>
     </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
+    </property>
   </concept>
   <concept>
     <code value="DSM70"/>
@@ -1422,6 +1782,10 @@
       <code value="dateMaj"/>
       <valueDateTime value="2023-03-31T12:00:00+01:00"/>
     </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
+    </property>
   </concept>
   <concept>
     <code value="DSM71"/>
@@ -1441,6 +1805,10 @@
     <property>
       <code value="dateMaj"/>
       <valueDateTime value="2023-03-31T12:00:00+01:00"/>
+    </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
     </property>
   </concept>
   <concept>
@@ -1470,6 +1838,10 @@
       <code value="dateMaj"/>
       <valueDateTime value="2023-03-31T12:00:00+01:00"/>
     </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
+    </property>
   </concept>
   <concept>
     <code value="DSM73"/>
@@ -1497,6 +1869,10 @@
     <property>
       <code value="dateMaj"/>
       <valueDateTime value="2023-03-31T12:00:00+01:00"/>
+    </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
     </property>
   </concept>
   <concept>
@@ -1526,6 +1902,10 @@
       <code value="dateMaj"/>
       <valueDateTime value="2023-03-31T12:00:00+01:00"/>
     </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
+    </property>
   </concept>
   <concept>
     <code value="DSM75"/>
@@ -1553,6 +1933,10 @@
     <property>
       <code value="dateMaj"/>
       <valueDateTime value="2023-03-31T12:00:00+01:00"/>
+    </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
     </property>
   </concept>
   <concept>
@@ -1582,6 +1966,10 @@
       <code value="dateMaj"/>
       <valueDateTime value="2023-03-31T12:00:00+01:00"/>
     </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
+    </property>
   </concept>
   <concept>
     <code value="DSM77"/>
@@ -1609,6 +1997,10 @@
     <property>
       <code value="dateMaj"/>
       <valueDateTime value="2023-03-31T12:00:00+01:00"/>
+    </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
     </property>
   </concept>
   <concept>
@@ -1638,6 +2030,10 @@
       <code value="dateMaj"/>
       <valueDateTime value="2023-03-31T12:00:00+01:00"/>
     </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
+    </property>
   </concept>
   <concept>
     <code value="DSM79"/>
@@ -1665,6 +2061,10 @@
     <property>
       <code value="dateMaj"/>
       <valueDateTime value="2023-10-30T12:00:00+01:00"/>
+    </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
     </property>
   </concept>
   <concept>
@@ -1694,6 +2094,10 @@
       <code value="dateMaj"/>
       <valueDateTime value="2023-03-31T12:00:00+01:00"/>
     </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
+    </property>
   </concept>
   <concept>
     <code value="DSM81"/>
@@ -1721,6 +2125,10 @@
     <property>
       <code value="dateMaj"/>
       <valueDateTime value="2023-03-31T12:00:00+01:00"/>
+    </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
     </property>
   </concept>
   <concept>
@@ -1750,6 +2158,10 @@
       <code value="dateMaj"/>
       <valueDateTime value="2023-03-31T12:00:00+01:00"/>
     </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
+    </property>
   </concept>
   <concept>
     <code value="DSM83"/>
@@ -1777,6 +2189,10 @@
     <property>
       <code value="dateMaj"/>
       <valueDateTime value="2023-03-31T12:00:00+01:00"/>
+    </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
     </property>
   </concept>
   <concept>
@@ -1806,6 +2222,10 @@
       <code value="dateMaj"/>
       <valueDateTime value="2023-03-31T12:00:00+01:00"/>
     </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
+    </property>
   </concept>
   <concept>
     <code value="DSM85"/>
@@ -1826,6 +2246,10 @@
       <code value="dateMaj"/>
       <valueDateTime value="2023-03-31T12:00:00+01:00"/>
     </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
+    </property>
   </concept>
   <concept>
     <code value="DSM86"/>
@@ -1845,6 +2269,10 @@
     <property>
       <code value="dateMaj"/>
       <valueDateTime value="2023-03-31T12:00:00+01:00"/>
+    </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
     </property>
   </concept>
   <concept>
@@ -1874,6 +2302,10 @@
       <code value="dateMaj"/>
       <valueDateTime value="2023-03-31T12:00:00+01:00"/>
     </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
+    </property>
   </concept>
   <concept>
     <code value="DSM88"/>
@@ -1902,6 +2334,10 @@
       <code value="dateMaj"/>
       <valueDateTime value="2023-03-31T12:00:00+01:00"/>
     </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
+    </property>
   </concept>
   <concept>
     <code value="DSM89"/>
@@ -1921,6 +2357,10 @@
     <property>
       <code value="dateMaj"/>
       <valueDateTime value="2023-03-31T12:00:00+01:00"/>
+    </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
     </property>
   </concept>
   <concept>
@@ -1942,6 +2382,10 @@
       <code value="dateMaj"/>
       <valueDateTime value="2023-03-31T12:00:00+01:00"/>
     </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
+    </property>
   </concept>
   <concept>
     <code value="DSM91"/>
@@ -1962,6 +2406,10 @@
       <code value="dateMaj"/>
       <valueDateTime value="2023-03-31T12:00:00+01:00"/>
     </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
+    </property>
   </concept>
   <concept>
     <code value="DSM92"/>
@@ -1981,6 +2429,10 @@
     <property>
       <code value="dateMaj"/>
       <valueDateTime value="2023-03-31T12:00:00+01:00"/>
+    </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
     </property>
   </concept>
   <concept>
@@ -2010,6 +2462,10 @@
       <code value="dateMaj"/>
       <valueDateTime value="2023-03-31T12:00:00+01:00"/>
     </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
+    </property>
   </concept>
   <concept>
     <code value="DSM94"/>
@@ -2029,6 +2485,10 @@
     <property>
       <code value="dateMaj"/>
       <valueDateTime value="2023-03-31T12:00:00+01:00"/>
+    </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
     </property>
   </concept>
   <concept>
@@ -2058,6 +2518,10 @@
       <code value="dateMaj"/>
       <valueDateTime value="2023-03-31T12:00:00+01:00"/>
     </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
+    </property>
   </concept>
   <concept>
     <code value="DSM96"/>
@@ -2086,6 +2550,10 @@
       <code value="dateMaj"/>
       <valueDateTime value="2023-03-31T12:00:00+01:00"/>
     </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
+    </property>
   </concept>
   <concept>
     <code value="DSM97"/>
@@ -2113,6 +2581,10 @@
     <property>
       <code value="dateMaj"/>
       <valueDateTime value="2023-03-31T12:00:00+01:00"/>
+    </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
     </property>
   </concept>
   <concept>
@@ -2143,6 +2615,10 @@
       <code value="dateMaj"/>
       <valueDateTime value="2023-03-31T12:00:00+01:00"/>
     </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
+    </property>
   </concept>
   <concept>
     <code value="DSM99"/>
@@ -2171,6 +2647,10 @@
     <property>
       <code value="dateMaj"/>
       <valueDateTime value="2023-03-31T12:00:00+01:00"/>
+    </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
     </property>
   </concept>
   <concept>
@@ -2201,6 +2681,10 @@
       <code value="dateMaj"/>
       <valueDateTime value="2023-03-31T12:00:00+01:00"/>
     </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
+    </property>
   </concept>
   <concept>
     <code value="DSM101"/>
@@ -2229,6 +2713,10 @@
     <property>
       <code value="dateMaj"/>
       <valueDateTime value="2023-03-31T12:00:00+01:00"/>
+    </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
     </property>
   </concept>
   <concept>
@@ -2259,6 +2747,10 @@
       <code value="dateMaj"/>
       <valueDateTime value="2023-03-31T12:00:00+01:00"/>
     </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
+    </property>
   </concept>
   <concept>
     <code value="DSM103"/>
@@ -2287,6 +2779,10 @@
     <property>
       <code value="dateMaj"/>
       <valueDateTime value="2023-03-31T12:00:00+01:00"/>
+    </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
     </property>
   </concept>
   <concept>
@@ -2317,6 +2813,10 @@
       <code value="dateMaj"/>
       <valueDateTime value="2023-03-31T12:00:00+01:00"/>
     </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
+    </property>
   </concept>
   <concept>
     <code value="DSM105"/>
@@ -2345,6 +2845,10 @@
     <property>
       <code value="dateMaj"/>
       <valueDateTime value="2023-03-31T12:00:00+01:00"/>
+    </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
     </property>
   </concept>
   <concept>
@@ -2375,6 +2879,10 @@
       <code value="dateMaj"/>
       <valueDateTime value="2023-03-31T12:00:00+01:00"/>
     </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
+    </property>
   </concept>
   <concept>
     <code value="DSM412"/>
@@ -2387,6 +2895,10 @@
     <property>
       <code value="dateMaj"/>
       <valueDateTime value="2024-05-31T12:00:00+01:00"/>
+    </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
     </property>
   </concept>
 </CodeSystem>

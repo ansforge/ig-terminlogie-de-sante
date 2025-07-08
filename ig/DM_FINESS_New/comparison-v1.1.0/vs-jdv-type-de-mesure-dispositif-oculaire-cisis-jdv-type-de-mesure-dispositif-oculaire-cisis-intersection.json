@@ -1,0 +1,39 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "dc7425aa-2d2f-4b7e-9ce2-4d8f876abacc-2844",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/dc7425aa-2d2f-4b7e-9ce2-4d8f876abacc-2844",
+  "name" : "IntersectionJdvTypeDeMesureDispositifOculaireCisisAndJdvTypeDeMesureDispositifOculaireCisis",
+  "title" : "Intersection of JDV Type De Mesure Dispositif Oculaire CISIS And JDV Type De Mesure Dispositif Oculaire CISIS",
+  "status" : "active",
+  "date" : "2025-07-08T14:29:06+00:00",
+  "compose" : {
+    "include" : [{
+      "concept" : [{
+        "code" : "MED-1179",
+        "display" : "Verres prescrits"
+      },
+      {
+        "code" : "MED-1067",
+        "display" : "Verres délivrés"
+      },
+      {
+        "code" : "MED-1068",
+        "display" : "Types de verres délivrés"
+      }]
+    },
+    {
+      "concept" : [{
+        "code" : "28818-3",
+        "display" : "Types de verres prescrits"
+      },
+      {
+        "code" : "28866-2",
+        "display" : "Lentilles prescrites"
+      },
+      {
+        "code" : "28868-8",
+        "display" : "Lentilles délivrées"
+      }]
+    }]
+  }
+}

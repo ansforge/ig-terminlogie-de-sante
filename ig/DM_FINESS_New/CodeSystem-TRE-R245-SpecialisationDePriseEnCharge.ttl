@@ -11,8 +11,8 @@
   fhir:nodeRole fhir:treeRoot ;
   fhir:id [ fhir:v "TRE-R245-SpecialisationDePriseEnCharge"] ; # 
   fhir:meta [
-     fhir:versionId [ fhir:v "10" ] ;
-     fhir:lastUpdated [ fhir:v "2025-04-25T18:12:43.908+00:00"^^xsd:dateTime ] ;
+     fhir:versionId [ fhir:v "11" ] ;
+     fhir:lastUpdated [ fhir:v "2025-07-02T18:16:35.233+00:00"^^xsd:dateTime ] ;
      fhir:profile ( [
        fhir:v "http://hl7.org/fhir/StructureDefinition/shareablecodesystem"^^xsd:anyURI ;
        fhir:link <http://hl7.org/fhir/StructureDefinition/shareablecodesystem>
@@ -41,6 +41,12 @@
   fhir:date [ fhir:v "2025-04-25T12:00:00+01:00"^^xsd:dateTime] ; # 
   fhir:publisher [ fhir:v "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris"] ; # 
   fhir:description [ fhir:v "Spécialisation de prise en charge"] ; # 
+  fhir:jurisdiction ( [
+     fhir:coding ( [
+       fhir:system [ fhir:v "urn:iso:std:iso:3166"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "FR" ]
+     ] )
+  ] ) ; # 
   fhir:caseSensitive [ fhir:v false] ; # 
   fhir:content [ fhir:v "complete"] ; # 
   fhir:property ( [

@@ -2,8 +2,8 @@
   "resourceType" : "CodeSystem",
   "id" : "TRE-R368-StatutRessource",
   "meta" : {
-    "versionId" : "2",
-    "lastUpdated" : "2025-04-25T18:12:48.060+00:00",
+    "versionId" : "3",
+    "lastUpdated" : "2025-07-02T18:17:58.996+00:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablecodesystem"]
   },
   "text" : {
@@ -28,6 +28,12 @@
   "date" : "2025-04-25T12:00:00+01:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "description" : "Caractérise le statut d'une ressource du médico-social au cours de son cycle de vie",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "FR"
+    }]
+  }],
   "caseSensitive" : false,
   "content" : "complete",
   "property" : [{

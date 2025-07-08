@@ -3,8 +3,8 @@
 <CodeSystem xmlns="http://hl7.org/fhir">
   <id value="TRE-R60-AutoriteEnregistrement"/>
   <meta>
-    <versionId value="6"/>
-    <lastUpdated value="2024-08-28T05:14:02.284+00:00"/>
+    <versionId value="7"/>
+    <lastUpdated value="2025-07-02T18:18:27.409+00:00"/>
     <profile value="http://hl7.org/fhir/StructureDefinition/shareablecodesystem"/>
   </meta>
   <text>
@@ -27,6 +27,12 @@
   <date value="2024-06-28T12:00:00+01:00"/>
   <publisher value="Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris"/>
   <description value="Autorité d'enregistrement"/>
+  <jurisdiction>
+    <coding>
+      <system value="urn:iso:std:iso:3166"/>
+      <code value="FR"/>
+    </coding>
+  </jurisdiction>
   <caseSensitive value="false"/>
   <content value="complete"/>
   <property>
@@ -42,6 +48,24 @@
   <property>
     <code value="dateFin"/>
     <description value="Date de fin d'exploitation d'un code concept"/>
+    <type value="dateTime"/>
+  </property>
+  <property>
+    <code value="deprecationDate"/>
+    <uri value="http://hl7.org/fhir/concept-properties#deprecationDate"/>
+    <description value="Date Concept was deprecated"/>
+    <type value="dateTime"/>
+  </property>
+  <property>
+    <code value="status"/>
+    <uri value="http://hl7.org/fhir/concept-properties#status"/>
+    <description value="A property that indicates the status of the concept."/>
+    <type value="code"/>
+  </property>
+  <property>
+    <code value="retirementDate"/>
+    <uri value="http://hl7.org/fhir/concept-properties#retirementDate"/>
+    <description value="Date Concept was retired"/>
     <type value="dateTime"/>
   </property>
   <concept>
@@ -63,6 +87,10 @@
       <code value="dateMaj"/>
       <valueDateTime value="2016-09-01T00:00:00+01:00"/>
     </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
+    </property>
   </concept>
   <concept>
     <code value="ARS-02"/>
@@ -83,6 +111,10 @@
       <code value="dateMaj"/>
       <valueDateTime value="2016-09-01T00:00:00+01:00"/>
     </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
+    </property>
   </concept>
   <concept>
     <code value="ARS-03"/>
@@ -102,6 +134,10 @@
     <property>
       <code value="dateMaj"/>
       <valueDateTime value="2016-09-01T00:00:00+01:00"/>
+    </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
     </property>
   </concept>
   <concept>
@@ -127,6 +163,14 @@
       <code value="dateMaj"/>
       <valueDateTime value="2023-07-28T09:00:00+01:00"/>
     </property>
+    <property>
+      <code value="deprecationDate"/>
+      <valueDateTime value="2023-07-28T09:00:00+01:00"/>
+    </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="deprecated"/>
+    </property>
   </concept>
   <concept>
     <code value="ARS-05"/>
@@ -146,6 +190,10 @@
     <property>
       <code value="dateMaj"/>
       <valueDateTime value="2023-07-28T09:00:00+01:00"/>
+    </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
     </property>
   </concept>
   <concept>
@@ -167,6 +215,10 @@
       <code value="dateMaj"/>
       <valueDateTime value="2023-07-28T09:00:00+01:00"/>
     </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
+    </property>
   </concept>
   <concept>
     <code value="ARS-11"/>
@@ -186,6 +238,10 @@
     <property>
       <code value="dateMaj"/>
       <valueDateTime value="2016-09-01T00:00:00+01:00"/>
+    </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
     </property>
   </concept>
   <concept>
@@ -211,6 +267,14 @@
       <code value="dateMaj"/>
       <valueDateTime value="2016-01-01T00:00:00+01:00"/>
     </property>
+    <property>
+      <code value="deprecationDate"/>
+      <valueDateTime value="2016-01-01T00:00:00+01:00"/>
+    </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="deprecated"/>
+    </property>
   </concept>
   <concept>
     <code value="ARS-22"/>
@@ -234,6 +298,14 @@
     <property>
       <code value="dateMaj"/>
       <valueDateTime value="2016-01-01T00:00:00+01:00"/>
+    </property>
+    <property>
+      <code value="deprecationDate"/>
+      <valueDateTime value="2016-01-01T00:00:00+01:00"/>
+    </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="deprecated"/>
     </property>
   </concept>
   <concept>
@@ -259,6 +331,14 @@
       <code value="dateMaj"/>
       <valueDateTime value="2016-01-01T00:00:00+01:00"/>
     </property>
+    <property>
+      <code value="deprecationDate"/>
+      <valueDateTime value="2016-01-01T00:00:00+01:00"/>
+    </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="deprecated"/>
+    </property>
   </concept>
   <concept>
     <code value="ARS-24"/>
@@ -278,6 +358,10 @@
     <property>
       <code value="dateMaj"/>
       <valueDateTime value="2024-06-28T12:00:00+01:00"/>
+    </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
     </property>
   </concept>
   <concept>
@@ -303,6 +387,14 @@
       <code value="dateMaj"/>
       <valueDateTime value="2016-01-01T00:00:00+01:00"/>
     </property>
+    <property>
+      <code value="deprecationDate"/>
+      <valueDateTime value="2016-01-01T00:00:00+01:00"/>
+    </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="deprecated"/>
+    </property>
   </concept>
   <concept>
     <code value="ARS-26"/>
@@ -327,6 +419,14 @@
       <code value="dateMaj"/>
       <valueDateTime value="2016-01-01T00:00:00+01:00"/>
     </property>
+    <property>
+      <code value="deprecationDate"/>
+      <valueDateTime value="2016-01-01T00:00:00+01:00"/>
+    </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="deprecated"/>
+    </property>
   </concept>
   <concept>
     <code value="ARS-27"/>
@@ -347,6 +447,10 @@
       <code value="dateMaj"/>
       <valueDateTime value="2016-09-01T00:00:00+01:00"/>
     </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
+    </property>
   </concept>
   <concept>
     <code value="ARS-28"/>
@@ -366,6 +470,10 @@
     <property>
       <code value="dateMaj"/>
       <valueDateTime value="2016-09-01T00:00:00+01:00"/>
+    </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
     </property>
   </concept>
   <concept>
@@ -391,6 +499,14 @@
       <code value="dateMaj"/>
       <valueDateTime value="2016-01-01T00:00:00+01:00"/>
     </property>
+    <property>
+      <code value="deprecationDate"/>
+      <valueDateTime value="2016-01-01T00:00:00+01:00"/>
+    </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="deprecated"/>
+    </property>
   </concept>
   <concept>
     <code value="ARS-32"/>
@@ -410,6 +526,10 @@
     <property>
       <code value="dateMaj"/>
       <valueDateTime value="2016-09-01T00:00:00+01:00"/>
+    </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
     </property>
   </concept>
   <concept>
@@ -435,6 +555,14 @@
       <code value="dateMaj"/>
       <valueDateTime value="2016-01-01T00:00:00+01:00"/>
     </property>
+    <property>
+      <code value="deprecationDate"/>
+      <valueDateTime value="2016-01-01T00:00:00+01:00"/>
+    </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="deprecated"/>
+    </property>
   </concept>
   <concept>
     <code value="ARS-42"/>
@@ -458,6 +586,14 @@
     <property>
       <code value="dateMaj"/>
       <valueDateTime value="2016-01-01T00:00:00+01:00"/>
+    </property>
+    <property>
+      <code value="deprecationDate"/>
+      <valueDateTime value="2016-01-01T00:00:00+01:00"/>
+    </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="deprecated"/>
     </property>
   </concept>
   <concept>
@@ -483,6 +619,14 @@
       <code value="dateMaj"/>
       <valueDateTime value="2016-01-01T00:00:00+01:00"/>
     </property>
+    <property>
+      <code value="deprecationDate"/>
+      <valueDateTime value="2016-01-01T00:00:00+01:00"/>
+    </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="deprecated"/>
+    </property>
   </concept>
   <concept>
     <code value="ARS-44"/>
@@ -502,6 +646,10 @@
     <property>
       <code value="dateMaj"/>
       <valueDateTime value="2024-06-28T12:00:00+01:00"/>
+    </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
     </property>
   </concept>
   <concept>
@@ -523,6 +671,10 @@
       <code value="dateMaj"/>
       <valueDateTime value="2016-09-01T00:00:00+01:00"/>
     </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
+    </property>
   </concept>
   <concept>
     <code value="ARS-53"/>
@@ -542,6 +694,10 @@
     <property>
       <code value="dateMaj"/>
       <valueDateTime value="2016-09-01T00:00:00+01:00"/>
+    </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
     </property>
   </concept>
   <concept>
@@ -567,6 +723,14 @@
       <code value="dateMaj"/>
       <valueDateTime value="2016-01-01T00:00:00+01:00"/>
     </property>
+    <property>
+      <code value="deprecationDate"/>
+      <valueDateTime value="2016-01-01T00:00:00+01:00"/>
+    </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="deprecated"/>
+    </property>
   </concept>
   <concept>
     <code value="ARS-72"/>
@@ -590,6 +754,14 @@
     <property>
       <code value="dateMaj"/>
       <valueDateTime value="2016-01-01T00:00:00+01:00"/>
+    </property>
+    <property>
+      <code value="deprecationDate"/>
+      <valueDateTime value="2016-01-01T00:00:00+01:00"/>
+    </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="deprecated"/>
     </property>
   </concept>
   <concept>
@@ -615,6 +787,14 @@
       <code value="dateMaj"/>
       <valueDateTime value="2016-01-01T00:00:00+01:00"/>
     </property>
+    <property>
+      <code value="deprecationDate"/>
+      <valueDateTime value="2016-01-01T00:00:00+01:00"/>
+    </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="deprecated"/>
+    </property>
   </concept>
   <concept>
     <code value="ARS-74"/>
@@ -639,6 +819,14 @@
       <code value="dateMaj"/>
       <valueDateTime value="2016-01-01T00:00:00+01:00"/>
     </property>
+    <property>
+      <code value="deprecationDate"/>
+      <valueDateTime value="2016-01-01T00:00:00+01:00"/>
+    </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="deprecated"/>
+    </property>
   </concept>
   <concept>
     <code value="ARS-75"/>
@@ -659,6 +847,10 @@
       <code value="dateMaj"/>
       <valueDateTime value="2016-09-01T00:00:00+01:00"/>
     </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
+    </property>
   </concept>
   <concept>
     <code value="ARS-76"/>
@@ -678,6 +870,10 @@
     <property>
       <code value="dateMaj"/>
       <valueDateTime value="2016-09-01T00:00:00+01:00"/>
+    </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
     </property>
   </concept>
   <concept>
@@ -703,6 +899,14 @@
       <code value="dateMaj"/>
       <valueDateTime value="2016-01-01T00:00:00+01:00"/>
     </property>
+    <property>
+      <code value="deprecationDate"/>
+      <valueDateTime value="2016-01-01T00:00:00+01:00"/>
+    </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="deprecated"/>
+    </property>
   </concept>
   <concept>
     <code value="ARS-83"/>
@@ -727,6 +931,14 @@
       <code value="dateMaj"/>
       <valueDateTime value="2016-01-01T00:00:00+01:00"/>
     </property>
+    <property>
+      <code value="deprecationDate"/>
+      <valueDateTime value="2016-01-01T00:00:00+01:00"/>
+    </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="deprecated"/>
+    </property>
   </concept>
   <concept>
     <code value="ARS-84"/>
@@ -746,6 +958,10 @@
     <property>
       <code value="dateMaj"/>
       <valueDateTime value="2016-09-01T00:00:00+01:00"/>
+    </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
     </property>
   </concept>
   <concept>
@@ -771,6 +987,14 @@
       <code value="dateMaj"/>
       <valueDateTime value="2016-01-01T00:00:00+01:00"/>
     </property>
+    <property>
+      <code value="deprecationDate"/>
+      <valueDateTime value="2016-01-01T00:00:00+01:00"/>
+    </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="deprecated"/>
+    </property>
   </concept>
   <concept>
     <code value="ARS-93"/>
@@ -791,6 +1015,10 @@
       <code value="dateMaj"/>
       <valueDateTime value="2016-09-01T00:00:00+01:00"/>
     </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
+    </property>
   </concept>
   <concept>
     <code value="ARS-94"/>
@@ -810,6 +1038,10 @@
     <property>
       <code value="dateMaj"/>
       <valueDateTime value="2016-09-01T00:00:00+01:00"/>
+    </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
     </property>
   </concept>
   <concept>
@@ -839,6 +1071,10 @@
       <code value="dateMaj"/>
       <valueDateTime value="2024-03-29T12:00:00+01:00"/>
     </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
+    </property>
   </concept>
   <concept>
     <code value="CNOM"/>
@@ -850,6 +1086,10 @@
     <property>
       <code value="dateMaj"/>
       <valueDateTime value="2007-07-25T15:04:41+01:00"/>
+    </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
     </property>
   </concept>
   <concept>
@@ -863,6 +1103,10 @@
       <code value="dateMaj"/>
       <valueDateTime value="2016-09-01T00:00:00+01:00"/>
     </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
+    </property>
   </concept>
   <concept>
     <code value="CNOP"/>
@@ -874,6 +1118,10 @@
     <property>
       <code value="dateMaj"/>
       <valueDateTime value="2007-07-25T15:04:41+01:00"/>
+    </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
     </property>
   </concept>
   <concept>
@@ -887,6 +1135,10 @@
       <code value="dateMaj"/>
       <valueDateTime value="2016-09-01T00:00:00+01:00"/>
     </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
+    </property>
   </concept>
   <concept>
     <code value="CNOSF"/>
@@ -898,6 +1150,10 @@
     <property>
       <code value="dateMaj"/>
       <valueDateTime value="2007-07-25T15:04:41+01:00"/>
+    </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
     </property>
   </concept>
   <concept>
@@ -912,6 +1168,10 @@
       <code value="dateMaj"/>
       <valueDateTime value="2020-06-26T12:00:00+01:00"/>
     </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
+    </property>
   </concept>
   <concept>
     <code value="ONCD"/>
@@ -923,6 +1183,10 @@
     <property>
       <code value="dateMaj"/>
       <valueDateTime value="2007-07-25T15:04:41+01:00"/>
+    </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
     </property>
   </concept>
   <concept>
@@ -936,6 +1200,10 @@
       <code value="dateMaj"/>
       <valueDateTime value="2017-07-07T10:00:00+01:00"/>
     </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
+    </property>
   </concept>
   <concept>
     <code value="SSA"/>
@@ -947,6 +1215,10 @@
     <property>
       <code value="dateMaj"/>
       <valueDateTime value="2019-08-30T12:00:00+01:00"/>
+    </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
     </property>
   </concept>
 </CodeSystem>

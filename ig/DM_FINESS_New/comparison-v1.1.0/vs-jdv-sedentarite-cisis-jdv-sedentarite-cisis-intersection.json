@@ -1,0 +1,29 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "dc7425aa-2d2f-4b7e-9ce2-4d8f876abacc-2667",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/dc7425aa-2d2f-4b7e-9ce2-4d8f876abacc-2667",
+  "name" : "IntersectionJdvSedentariteCisisAndJdvSedentariteCisis",
+  "title" : "Intersection of JDV Sedentarite CISIS And JDV Sedentarite CISIS",
+  "status" : "active",
+  "date" : "2025-07-08T14:29:06+00:00",
+  "compose" : {
+    "include" : [{
+      "concept" : [{
+        "code" : "415510005",
+        "display" : "mode de vie sédentaire"
+      },
+      {
+        "code" : "228446001",
+        "display" : "fait peu d'exercice"
+      },
+      {
+        "code" : "228447005",
+        "display" : "physiquement actif(-ve)"
+      },
+      {
+        "code" : "228448000",
+        "display" : "fait de l'exercice régulièrement"
+      }]
+    }]
+  }
+}

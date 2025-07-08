@@ -325,6 +325,87 @@
 
 
 
+<div style="display:inline-block" markdown="1">
+
+<h1 id="récupération--de--lensemble-des-types-dactivités-avec-leur-propriétés">Récupération  de  l’ensemble des types d’activités avec leur propriétés</h1>
+<p>La terminologie permet d’accéder aux type d’activité ainsi que leur propriétés</p>
+
+<h1 id="récupération-des-propriétés-pour-un-type-dactivité">Récupération des propriétés pour un type d’activité</h1>
+<p>Pour récupérer, les propriétés pour un type d’activité, vous pouvez faire une requête de type “<strong>*$lookup</strong>”.
+Il faut passer en paramètre :</p>
+<ul>
+  <li>system (URI de la temrinologie) : https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r392-type-act-smsse-regulee</li>
+  <li>code : Code du type de terminologie dans l’activité</li>
+  <li>property : La liste des propriétés souhaitées</li>
+</ul>
+
+<p>Vous trouverez ci-dessous un exemple  qui retourne les propiétés suivantes pour le code “14”</p>
+<ul>
+  <li>activiteSanitaireRegulee</li>
+  <li>modaliteActivite</li>
+  <li>formeActivite
+    <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>https://smt.esante.gouv.fr/fhir/CodeSystem/$lookup?system=https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r392-type-act-smsse-regulee&amp;code=14&amp;property=activiteSanitaireRegulee&amp;property=modaliteActivite&amp;property=formeActivite
+</code></pre></div>    </div>
+  </li>
+</ul>
+
+<h1 id="récupéreration--des-codes-dactivité-correspondant-à-des-propriétés">Récupéreration  des codes d’activité correspondant à des propriétés</h1>
+<p>Pour récupérer, les type d’activité coorespondant à des propriétés, vous pouvez faire une requête de type “<strong>*$expand</strong>”.
+Cette requête de type “post” prend en parametre :</p>
+<ul>
+  <li>l’URI de la terminologie</li>
+  <li>La liste des proprités ainsi que leurs valeurs</li>
+</ul>
+
+<p>Vous trouverez ci- dessous en exemple qui retourne la liste des types d’activités pour :</p>
+<ul>
+  <li>activiteSanitaireRegulee = 01</li>
+  <li>modaliteActivite = B4</li>
+</ul>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>POST https://smt.esante.gouv.fr/fhir/ValueSet/$expand HTTP/1.0
+Content-Type: application/fhir+json; fhirVersion=4.0;charset=UTF-8
+ 
+{
+    "resourceType": "Parameters",
+    "parameter": [
+        {
+            "name": "valueSet",
+            "resource": {
+                "resourceType": "ValueSet",
+                "compose": {
+                    "include": [
+                        {
+                            "system": "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r392-type-act-smsse-regulee",
+                            "filter" : [
+                                {
+                                    "property" : "activiteSanitaireRegulee",
+                                    "op" : "=",
+                                    "value" : "01"
+                                },
+ 
+                                {
+                                    "property" : "modaliteActivite",
+                                    "op" : "=",
+                                    "value" : "B4"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}
+
+</code></pre></div></div>
+
+
+</div>
+
+
+
+
   <p>
   This Code system is referenced in the content logical definition of the following value sets:
   </p>
@@ -99081,7 +99162,7 @@
 
 <div class="inner-wrapper">
   <p>
-    IG &#169; 2020+ <a style="color:var(--footer-hyperlink-text-color)" href="https://esante.gouv.fr">ANS</a>.  Package ans.fr.terminologies#0.1.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Wed, Jul 2, 2025 14:11+0000">2025-07-02</span>
+    IG &#169; 2020+ <a style="color:var(--footer-hyperlink-text-color)" href="https://esante.gouv.fr">ANS</a>.  Package ans.fr.terminologies#0.1.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Tue, Jul 8, 2025 14:19+0000">2025-07-08</span>
     <br/>
     <span style="color: var(--footer-highlight-text-color)"></span>
       Liens: <a style="color: var(--footer-hyperlink-text-color)" href="toc.html">Table des matières </a> |

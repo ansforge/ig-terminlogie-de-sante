@@ -1,0 +1,39 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "dc7425aa-2d2f-4b7e-9ce2-4d8f876abacc-1754",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/dc7425aa-2d2f-4b7e-9ce2-4d8f876abacc-1754",
+  "name" : "UnionJdvClassificationAcrCisisAndJdvClassificationAcrCisis",
+  "title" : "Union of JDV Classification Acr CISIS And JDV Classification Acr CISIS",
+  "status" : "active",
+  "date" : "2025-07-08T14:29:06+00:00",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "FR"
+    }]
+  }],
+  "compose" : {
+    "include" : [{
+      "concept" : [{
+        "code" : "MED-129",
+        "display" : "Normal BI-RADS ACR 1"
+      },
+      {
+        "code" : "MED-130",
+        "display" : "Bénin BI-RADS ACR 2"
+      },
+      {
+        "code" : "MED-131",
+        "display" : "Anormal BI-RADS ACR 3"
+      },
+      {
+        "code" : "MED-132",
+        "display" : "Anormal BI-RADS ACR 4"
+      },
+      {
+        "code" : "MED-133",
+        "display" : "Anormal BI-RADS ACR 5"
+      }]
+    }]
+  }
+}

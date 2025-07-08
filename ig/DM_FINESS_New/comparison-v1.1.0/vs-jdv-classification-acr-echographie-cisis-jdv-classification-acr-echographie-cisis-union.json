@@ -1,0 +1,39 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "dc7425aa-2d2f-4b7e-9ce2-4d8f876abacc-1757",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/dc7425aa-2d2f-4b7e-9ce2-4d8f876abacc-1757",
+  "name" : "UnionJdvClassificationAcrEchographieCisisAndJdvClassificationAcrEchographieCisis",
+  "title" : "Union of JDV Classification Acr Echographie CISIS And JDV Classification Acr Echographie CISIS",
+  "status" : "active",
+  "date" : "2025-07-08T14:29:06+00:00",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "FR"
+    }]
+  }],
+  "compose" : {
+    "include" : [{
+      "concept" : [{
+        "code" : "MED-1099",
+        "display" : "ACR 1"
+      },
+      {
+        "code" : "MED-1100",
+        "display" : "ACR 2"
+      },
+      {
+        "code" : "MED-1101",
+        "display" : "ACR 3"
+      },
+      {
+        "code" : "MED-1102",
+        "display" : "ACR 4"
+      },
+      {
+        "code" : "MED-1103",
+        "display" : "ACR 5"
+      }]
+    }]
+  }
+}

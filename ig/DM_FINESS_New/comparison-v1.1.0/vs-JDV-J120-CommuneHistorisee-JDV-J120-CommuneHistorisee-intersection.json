@@ -1,0 +1,9 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "dc7425aa-2d2f-4b7e-9ce2-4d8f876abacc-906",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/dc7425aa-2d2f-4b7e-9ce2-4d8f876abacc-906",
+  "name" : "IntersectionJDV_J120_CommuneHistoriseeAndJDV_J120_CommuneHistorisee",
+  "title" : "Intersection of null And null",
+  "status" : "active",
+  "date" : "2025-07-08T14:29:06+00:00"
+}

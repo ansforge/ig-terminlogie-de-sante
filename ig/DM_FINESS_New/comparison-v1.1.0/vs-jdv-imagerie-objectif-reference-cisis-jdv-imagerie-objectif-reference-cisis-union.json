@@ -1,0 +1,35 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "dc7425aa-2d2f-4b7e-9ce2-4d8f876abacc-2120",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/dc7425aa-2d2f-4b7e-9ce2-4d8f876abacc-2120",
+  "name" : "UnionJdvImagerieObjectifReferenceCisisAndJdvImagerieObjectifReferenceCisis",
+  "title" : "Union of JDV Imagerie Objectif Reference CISIS And JDV Imagerie Objectif Reference CISIS",
+  "status" : "active",
+  "date" : "2025-07-08T14:29:06+00:00",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "FR"
+    }]
+  }],
+  "compose" : {
+    "include" : [{
+      "concept" : [{
+        "code" : "121079",
+        "display" : "préliminaire"
+      },
+      {
+        "code" : "121080",
+        "display" : "Meilleure illustration de résultat"
+      },
+      {
+        "code" : "121112",
+        "display" : "Source de mesure"
+      },
+      {
+        "code" : "121200",
+        "display" : "Illustration de la ROI"
+      }]
+    }]
+  }
+}

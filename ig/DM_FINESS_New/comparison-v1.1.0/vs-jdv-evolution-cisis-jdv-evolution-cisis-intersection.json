@@ -1,0 +1,47 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "dc7425aa-2d2f-4b7e-9ce2-4d8f876abacc-1923",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/dc7425aa-2d2f-4b7e-9ce2-4d8f876abacc-1923",
+  "name" : "IntersectionJdvEvolutionCisisAndJdvEvolutionCisis",
+  "title" : "Intersection of JDV Evolution CISIS And JDV Evolution CISIS",
+  "status" : "active",
+  "date" : "2025-07-08T14:29:06+00:00",
+  "compose" : {
+    "include" : [{
+      "concept" : [{
+        "code" : "MED-1281",
+        "display" : "décès auquel l’effet a pu contribuer"
+      },
+      {
+        "code" : "MED-1282",
+        "display" : "décès sans rapport avec l’effet"
+      }]
+    },
+    {
+      "concept" : [{
+        "code" : "1352007006",
+        "display" : "guérison sans séquelle"
+      },
+      {
+        "code" : "1335890004",
+        "display" : "guéri(e) de l’évènement indésirable avec séquelle"
+      },
+      {
+        "code" : "1336140009",
+        "display" : "en cours de guérison de l’évènement indésirable"
+      },
+      {
+        "code" : "1339036001",
+        "display" : "évènement indésirable persistant sans guérison"
+      },
+      {
+        "code" : "405535005",
+        "display" : "évènement indésirable causant la mort"
+      },
+      {
+        "code" : "261665006",
+        "display" : "inconnu(e)"
+      }]
+    }]
+  }
+}

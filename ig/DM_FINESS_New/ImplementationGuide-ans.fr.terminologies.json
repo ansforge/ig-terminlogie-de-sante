@@ -38,7 +38,7 @@
     }],
     "uri" : "http://terminology.hl7.org/ImplementationGuide/hl7.terminology",
     "packageId" : "hl7.terminology.r4",
-    "version" : "6.4.0"
+    "version" : "6.5.0"
   },
   {
     "id" : "hl7ext",
@@ -42241,7 +42241,7 @@
         "valueString" : "CodeSystem"
       }],
       "reference" : {
-        "reference" : "CodeSystem/900000000000207008-20250601"
+        "reference" : "CodeSystem/900000000000207008-20250701"
       },
       "name" : "SNOMED CT core",
       "description" : "SNOMED CT is the most comprehensive and precise clinical health terminology product in the world, owned and distributed around the world by The International Health Terminology Standards Development Organisation (IHTSDO).",

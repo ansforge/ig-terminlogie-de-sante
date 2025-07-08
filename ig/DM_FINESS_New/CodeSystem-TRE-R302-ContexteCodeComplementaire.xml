@@ -3,8 +3,8 @@
 <CodeSystem xmlns="http://hl7.org/fhir">
   <id value="TRE-R302-ContexteCodeComplementaire"/>
   <meta>
-    <versionId value="3"/>
-    <lastUpdated value="2024-08-28T05:13:18.448+00:00"/>
+    <versionId value="4"/>
+    <lastUpdated value="2025-07-02T18:17:24.190+00:00"/>
     <profile value="http://hl7.org/fhir/StructureDefinition/shareablecodesystem"/>
   </meta>
   <text>
@@ -27,6 +27,12 @@
   <date value="2024-04-26T12:00:00+01:00"/>
   <publisher value="Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris"/>
   <description value="Liste des codes complémentaires utilisables dans un contexte particulier"/>
+  <jurisdiction>
+    <coding>
+      <system value="urn:iso:std:iso:3166"/>
+      <code value="FR"/>
+    </coding>
+  </jurisdiction>
   <caseSensitive value="false"/>
   <content value="complete"/>
   <property>
@@ -44,6 +50,24 @@
     <description value="Date de fin d'exploitation d'un code concept"/>
     <type value="dateTime"/>
   </property>
+  <property>
+    <code value="deprecationDate"/>
+    <uri value="http://hl7.org/fhir/concept-properties#deprecationDate"/>
+    <description value="Date Concept was deprecated"/>
+    <type value="dateTime"/>
+  </property>
+  <property>
+    <code value="status"/>
+    <uri value="http://hl7.org/fhir/concept-properties#status"/>
+    <description value="A property that indicates the status of the concept."/>
+    <type value="code"/>
+  </property>
+  <property>
+    <code value="retirementDate"/>
+    <uri value="http://hl7.org/fhir/concept-properties#retirementDate"/>
+    <description value="Date Concept was retired"/>
+    <type value="dateTime"/>
+  </property>
   <concept>
     <code value="01"/>
     <display value="Non renseigné"/>
@@ -54,6 +78,10 @@
     <property>
       <code value="dateMaj"/>
       <valueDateTime value="2020-08-28T12:00:00+01:00"/>
+    </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
     </property>
   </concept>
   <concept>
@@ -68,6 +96,10 @@
       <code value="dateMaj"/>
       <valueDateTime value="2020-08-28T12:00:00+01:00"/>
     </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
+    </property>
   </concept>
   <concept>
     <code value="AUT"/>
@@ -80,6 +112,10 @@
       <code value="dateMaj"/>
       <valueDateTime value="2020-11-27T12:00:00+01:00"/>
     </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
+    </property>
   </concept>
   <concept>
     <code value="CHA"/>
@@ -91,6 +127,10 @@
     <property>
       <code value="dateMaj"/>
       <valueDateTime value="2020-11-27T12:00:00+01:00"/>
+    </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
     </property>
   </concept>
   <concept>
@@ -111,6 +151,10 @@
     <property>
       <code value="dateMaj"/>
       <valueDateTime value="2020-11-27T12:00:00+01:00"/>
+    </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
     </property>
   </concept>
 </CodeSystem>

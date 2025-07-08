@@ -1,0 +1,47 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "dc7425aa-2d2f-4b7e-9ce2-4d8f876abacc-2048",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/dc7425aa-2d2f-4b7e-9ce2-4d8f876abacc-2048",
+  "name" : "UnionActStatusAndActStatus",
+  "title" : "Union of ActStatus And ActStatus",
+  "status" : "active",
+  "date" : "2025-07-08T14:29:06+00:00",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "FR"
+    }]
+  }],
+  "compose" : {
+    "include" : [{
+      "concept" : [{
+        "code" : "aborted",
+        "display" : "Arrêté (après son lancement)"
+      },
+      {
+        "code" : "active",
+        "display" : "Actif (en cours ou à venir)"
+      },
+      {
+        "code" : "cancelled",
+        "display" : "Annulé (avant son lancement)"
+      },
+      {
+        "code" : "completed",
+        "display" : "Terminé"
+      },
+      {
+        "code" : "held",
+        "display" : "En attente (avant son lancement)"
+      },
+      {
+        "code" : "new",
+        "display" : "En préparation"
+      },
+      {
+        "code" : "suspended",
+        "display" : "Suspendu (au cours de sa réalisation)"
+      }]
+    }]
+  }
+}

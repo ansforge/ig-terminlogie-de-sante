@@ -1,0 +1,41 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "dc7425aa-2d2f-4b7e-9ce2-4d8f876abacc-1712",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/dc7425aa-2d2f-4b7e-9ce2-4d8f876abacc-1712",
+  "name" : "UnionJdvBatterieExamenCisisAndJdvBatterieExamenCisis",
+  "title" : "Union of JDV Batterie Examen CISIS And JDV Batterie Examen CISIS",
+  "status" : "active",
+  "date" : "2025-07-08T14:29:06+00:00",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "FR"
+    }]
+  }],
+  "compose" : {
+    "include" : [{
+      "concept" : [{
+        "code" : "GEN-078",
+        "display" : "Dépistage de la trisomie 21"
+      },
+      {
+        "code" : "ORG-079",
+        "display" : "Nombre total d'échographies"
+      },
+      {
+        "code" : "ORG-080",
+        "display" : "Echographie morphologique"
+      },
+      {
+        "code" : "GEN-079",
+        "display" : "Entretien prénatal précoce"
+      }]
+    },
+    {
+      "concept" : [{
+        "code" : "51659-1",
+        "display" : "Hépatite B virus surface Ag [Présence/Seuil] Liquide biologique ; Qualitatif"
+      }]
+    }]
+  }
+}

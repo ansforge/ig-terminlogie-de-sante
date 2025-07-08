@@ -1,0 +1,33 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "dc7425aa-2d2f-4b7e-9ce2-4d8f876abacc-2789",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/dc7425aa-2d2f-4b7e-9ce2-4d8f876abacc-2789",
+  "name" : "UnionJdvTransfertMutationCisisAndJdvTransfertMutationCisis",
+  "title" : "Union of JDV Transfert Mutation CISIS And JDV Transfert Mutation CISIS",
+  "status" : "active",
+  "date" : "2025-07-08T14:29:06+00:00",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "FR"
+    }]
+  }],
+  "compose" : {
+    "include" : [{
+      "concept" : [{
+        "code" : "GEN-301",
+        "display" : "Pas de transfert ni mutation"
+      }]
+    },
+    {
+      "concept" : [{
+        "code" : "2603003",
+        "display" : "secondaire"
+      },
+      {
+        "code" : "88694003",
+        "display" : "immédiat"
+      }]
+    }]
+  }
+}

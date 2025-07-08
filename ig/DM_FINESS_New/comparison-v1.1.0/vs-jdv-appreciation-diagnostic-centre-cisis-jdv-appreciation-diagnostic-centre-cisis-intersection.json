@@ -1,0 +1,25 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "dc7425aa-2d2f-4b7e-9ce2-4d8f876abacc-1683",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/dc7425aa-2d2f-4b7e-9ce2-4d8f876abacc-1683",
+  "name" : "IntersectionJdvAppreciationDiagnosticCentreCisisAndJdvAppreciationDiagnosticCentreCisis",
+  "title" : "Intersection of JDV Appreciation Diagnostic Centre CISIS And JDV Appreciation Diagnostic Centre CISIS",
+  "status" : "active",
+  "date" : "2025-07-08T14:29:06+00:00",
+  "compose" : {
+    "include" : [{
+      "concept" : [{
+        "code" : "2667000",
+        "display" : "absent"
+      },
+      {
+        "code" : "71978007",
+        "display" : "inadéquat"
+      },
+      {
+        "code" : "88323005",
+        "display" : "adéquat"
+      }]
+    }]
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "dc7425aa-2d2f-4b7e-9ce2-4d8f876abacc-1257",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/dc7425aa-2d2f-4b7e-9ce2-4d8f876abacc-1257",
+  "name" : "IntersectionJDV_J231_XdsTypesIdentifiantsReferenceId_DMPAndJDV_J231_XdsTypesIdentifiantsReferenceId_DMP",
+  "title" : "Intersection of null And null",
+  "status" : "active",
+  "date" : "2025-07-08T14:29:06+00:00",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "FR"
+    }]
+  }],
+  "compose" : {
+    "include" : [{
+      "concept" : [{
+        "code" : "urn:ihe:iti:xds:2013:accession",
+        "display" : "accession"
+      },
+      {
+        "code" : "urn:ihe:iti:xds:2013:order",
+        "display" : "order"
+      },
+      {
+        "code" : "urn:ihe:iti:xds:2016:studyInstanceUID",
+        "display" : "studyInstanceUID"
+      }]
+    }]
+  }
+}

@@ -1,0 +1,73 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "dc7425aa-2d2f-4b7e-9ce2-4d8f876abacc-2451",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/dc7425aa-2d2f-4b7e-9ce2-4d8f876abacc-2451",
+  "name" : "IntersectionJdvPatientAdresseParCisisAndJdvPatientAdresseParCisis",
+  "title" : "Intersection of JDV Patient adresse par CISIS And JDV Patient adresse par CISIS",
+  "status" : "active",
+  "date" : "2025-07-08T14:29:06+00:00",
+  "compose" : {
+    "include" : [{
+      "concept" : [{
+        "code" : "G15_10/C23",
+        "display" : "Médecin - Gynécologie médicale et Obstétrique (C)"
+      },
+      {
+        "code" : "G15_10/C72",
+        "display" : "Médecin - Génétique médicale (C)"
+      },
+      {
+        "code" : "G15_10/SM54",
+        "display" : "Médecin - Médecine Générale (SM)"
+      }]
+    },
+    {
+      "concept" : [{
+        "code" : "ORG-019",
+        "display" : "Venu de lui-même"
+      },
+      {
+        "code" : "ORG-020",
+        "display" : "Association de patients"
+      },
+      {
+        "code" : "ORG-021",
+        "display" : "Pédiatre ville"
+      },
+      {
+        "code" : "ORG-022",
+        "display" : "Pédiatre hôpital"
+      },
+      {
+        "code" : "GEN-092.05.02",
+        "display" : "Autre spécialiste"
+      },
+      {
+        "code" : "ORG-025",
+        "display" : "Site de prise en charge"
+      },
+      {
+        "code" : "ORG-026",
+        "display" : "Centre pluridisciplinaire de diagnostic prénatal"
+      },
+      {
+        "code" : "ORG-182",
+        "display" : "Centre de référence maladies rares (CRM)"
+      },
+      {
+        "code" : "ORG-183",
+        "display" : "Centre de compétences maladies rares (CCM)"
+      },
+      {
+        "code" : "GEN-092.05.01",
+        "display" : "Autre personne"
+      }]
+    },
+    {
+      "concept" : [{
+        "code" : "223",
+        "display" : "Protection Maternelle et Infantile (P.M.I.)"
+      }]
+    }]
+  }
+}

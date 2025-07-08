@@ -1,0 +1,55 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "dc7425aa-2d2f-4b7e-9ce2-4d8f876abacc-1575",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/dc7425aa-2d2f-4b7e-9ce2-4d8f876abacc-1575",
+  "name" : "IntersectionJDV_J92_MotifFinActivite_RASSAndJDV_J92_MotifFinActivite_RASS",
+  "title" : "Intersection of null And null",
+  "status" : "active",
+  "date" : "2025-07-08T14:29:06+00:00",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "FR"
+    }]
+  }],
+  "compose" : {
+    "include" : [{
+      "concept" : [{
+        "code" : "AUT",
+        "display" : "Autre motif"
+      },
+      {
+        "code" : "CHA",
+        "display" : "Changement d'activité"
+      },
+      {
+        "code" : "CHL",
+        "display" : "Changement de lieu d'exercice"
+      },
+      {
+        "code" : "CHP",
+        "display" : "Changement de profession"
+      },
+      {
+        "code" : "DCD",
+        "display" : "Décès"
+      },
+      {
+        "code" : "ETR",
+        "display" : "Départ à l'étranger"
+      },
+      {
+        "code" : "RH",
+        "display" : "Retraite hospitalière"
+      },
+      {
+        "code" : "RL",
+        "display" : "Retraite libérale"
+      },
+      {
+        "code" : "RS",
+        "display" : "Retraite salariée"
+      }]
+    }]
+  }
+}

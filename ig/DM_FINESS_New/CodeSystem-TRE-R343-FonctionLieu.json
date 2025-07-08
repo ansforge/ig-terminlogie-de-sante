@@ -2,8 +2,8 @@
   "resourceType" : "CodeSystem",
   "id" : "TRE-R343-FonctionLieu",
   "meta" : {
-    "versionId" : "5",
-    "lastUpdated" : "2025-07-01T10:02:15.867+00:00",
+    "versionId" : "6",
+    "lastUpdated" : "2025-07-02T18:17:42.919+00:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablecodesystem"]
   },
   "text" : {
@@ -28,6 +28,12 @@
   "date" : "2025-06-20T12:00:00+01:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "description" : "Destination d'usage du lieu",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "FR"
+    }]
+  }],
   "caseSensitive" : false,
   "content" : "complete",
   "count" : 13,
@@ -45,6 +51,24 @@
     "code" : "dateFin",
     "description" : "Date de fin d'exploitation d'un code concept",
     "type" : "dateTime"
+  },
+  {
+    "code" : "deprecationDate",
+    "uri" : "http://hl7.org/fhir/concept-properties#deprecationDate",
+    "description" : "Date Concept was deprecated",
+    "type" : "dateTime"
+  },
+  {
+    "code" : "status",
+    "uri" : "http://hl7.org/fhir/concept-properties#status",
+    "description" : "A property that indicates the status of the concept.",
+    "type" : "code"
+  },
+  {
+    "code" : "retirementDate",
+    "uri" : "http://hl7.org/fhir/concept-properties#retirementDate",
+    "description" : "Date Concept was retired",
+    "type" : "dateTime"
   }],
   "concept" : [{
     "code" : "001",
@@ -56,6 +80,10 @@
     {
       "code" : "dateMaj",
       "valueDateTime" : "2025-06-20T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
     }]
   },
   {
@@ -68,6 +96,10 @@
     {
       "code" : "dateMaj",
       "valueDateTime" : "2025-06-20T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
     }]
   },
   {
@@ -80,6 +112,10 @@
     {
       "code" : "dateMaj",
       "valueDateTime" : "2025-06-20T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
     }]
   },
   {
@@ -92,6 +128,10 @@
     {
       "code" : "dateMaj",
       "valueDateTime" : "2025-06-20T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
     }]
   },
   {
@@ -104,6 +144,10 @@
     {
       "code" : "dateMaj",
       "valueDateTime" : "2025-06-20T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
     }]
   },
   {
@@ -116,6 +160,10 @@
     {
       "code" : "dateMaj",
       "valueDateTime" : "2025-06-20T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
     }]
   },
   {
@@ -128,6 +176,10 @@
     {
       "code" : "dateMaj",
       "valueDateTime" : "2025-06-20T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
     }]
   },
   {
@@ -140,6 +192,10 @@
     {
       "code" : "dateMaj",
       "valueDateTime" : "2025-06-20T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
     }]
   },
   {
@@ -152,6 +208,10 @@
     {
       "code" : "dateMaj",
       "valueDateTime" : "2025-06-20T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
     }]
   },
   {
@@ -172,6 +232,10 @@
     {
       "code" : "dateMaj",
       "valueDateTime" : "2025-06-20T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
     }]
   },
   {
@@ -192,6 +256,10 @@
     {
       "code" : "dateMaj",
       "valueDateTime" : "2025-06-20T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
     }]
   },
   {
@@ -204,6 +272,10 @@
     {
       "code" : "dateMaj",
       "valueDateTime" : "2025-06-20T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
     }]
   },
   {
@@ -224,6 +296,10 @@
     {
       "code" : "dateMaj",
       "valueDateTime" : "2025-06-20T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
     }]
   }]
 }

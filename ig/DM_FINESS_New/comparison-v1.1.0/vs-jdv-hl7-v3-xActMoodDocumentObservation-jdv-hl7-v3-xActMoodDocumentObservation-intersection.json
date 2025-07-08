@@ -1,0 +1,53 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "dc7425aa-2d2f-4b7e-9ce2-4d8f876abacc-2112",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/dc7425aa-2d2f-4b7e-9ce2-4d8f876abacc-2112",
+  "name" : "IntersectionXActMoodDocumentObservationAndXActMoodDocumentObservation",
+  "title" : "Intersection of x_ActMoodDocumentObservation And x_ActMoodDocumentObservation",
+  "status" : "active",
+  "date" : "2025-07-08T14:29:06+00:00",
+  "compose" : {
+    "include" : [{
+      "concept" : [{
+        "code" : "APT",
+        "display" : "Date et lieu confirmé"
+      },
+      {
+        "code" : "ARQ",
+        "display" : "Prévu mais non confirmé"
+      },
+      {
+        "code" : "DEF",
+        "display" : "Définition"
+      },
+      {
+        "code" : "EVN",
+        "display" : "Réalisé"
+      },
+      {
+        "code" : "GOL",
+        "display" : "But"
+      },
+      {
+        "code" : "INT",
+        "display" : "Prévu"
+      },
+      {
+        "code" : "PRMS",
+        "display" : "Planifié et confirmé"
+      },
+      {
+        "code" : "PRP",
+        "display" : "Proposition"
+      },
+      {
+        "code" : "RQO",
+        "display" : "Demande"
+      },
+      {
+        "code" : "RSK",
+        "display" : "Risque"
+      }]
+    }]
+  }
+}

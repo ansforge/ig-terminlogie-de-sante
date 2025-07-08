@@ -1,0 +1,29 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "dc7425aa-2d2f-4b7e-9ce2-4d8f876abacc-2805",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/dc7425aa-2d2f-4b7e-9ce2-4d8f876abacc-2805",
+  "name" : "IntersectionJdvTypeAccompagnementSocioproCisisAndJdvTypeAccompagnementSocioproCisis",
+  "title" : "Intersection of JDV Type Accompagnement Sociopro CISIS And JDV Type Accompagnement Sociopro CISIS",
+  "status" : "active",
+  "date" : "2025-07-08T14:29:06+00:00",
+  "compose" : {
+    "include" : [{
+      "concept" : [{
+        "code" : "PAT-024",
+        "display" : "Aide à domicile"
+      },
+      {
+        "code" : "PAT-026",
+        "display" : "Sortie de l’arrêt de travail (invalidité, retraite, médecine du travail)"
+      },
+      {
+        "code" : "PAT-027",
+        "display" : "Reprise du poste ou réinsertion professionnelle"
+      },
+      {
+        "code" : "GEN-092.04.08",
+        "display" : "Autre type d'accompagnement socioprofessionnel"
+      }]
+    }]
+  }
+}

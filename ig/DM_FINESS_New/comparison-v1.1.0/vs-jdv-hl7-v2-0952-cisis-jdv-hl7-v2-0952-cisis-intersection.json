@@ -1,0 +1,37 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "dc7425aa-2d2f-4b7e-9ce2-4d8f876abacc-2031",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/dc7425aa-2d2f-4b7e-9ce2-4d8f876abacc-2031",
+  "name" : "IntersectionConfidentialityAndConfidentiality",
+  "title" : "Intersection of Confidentiality And Confidentiality",
+  "status" : "active",
+  "date" : "2025-07-08T14:29:06+00:00",
+  "compose" : {
+    "include" : [{
+      "concept" : [{
+        "code" : "L",
+        "display" : "Bas"
+      },
+      {
+        "code" : "M",
+        "display" : "Modéré"
+      },
+      {
+        "code" : "N",
+        "display" : "Normal"
+      },
+      {
+        "code" : "R",
+        "display" : "Restreint"
+      },
+      {
+        "code" : "U",
+        "display" : "Non restreint"
+      },
+      {
+        "code" : "V",
+        "display" : "Très restreint"
+      }]
+    }]
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "dc7425aa-2d2f-4b7e-9ce2-4d8f876abacc-2148",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/dc7425aa-2d2f-4b7e-9ce2-4d8f876abacc-2148",
+  "name" : "IntersectionJdvInjectionPdcTepCisisAndJdvInjectionPdcTepCisis",
+  "title" : "Intersection of JDV Injection Pdc Tep CISIS And JDV Injection Pdc Tep CISIS",
+  "status" : "active",
+  "date" : "2025-07-08T14:29:06+00:00",
+  "compose" : {
+    "include" : [{
+      "concept" : [{
+        "code" : "MED-1153",
+        "display" : "avec injection de produit de contraste"
+      },
+      {
+        "code" : "MED-1154",
+        "display" : "sans injection de produit de contraste"
+      }]
+    }]
+  }
+}

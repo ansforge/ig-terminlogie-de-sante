@@ -1,0 +1,259 @@
+{
+  "resourceType" : "CodeSystem",
+  "id" : "dc7425aa-2d2f-4b7e-9ce2-4d8f876abacc-404",
+  "url" : "http://hl7.org/fhir/comparison/CodeSystem/dc7425aa-2d2f-4b7e-9ce2-4d8f876abacc-404",
+  "name" : "UnionTRE_R286_TypeFermetureAndTRE_R286_TypeFermeture",
+  "title" : "Union of null And null",
+  "status" : "active",
+  "date" : "2025-07-08T14:29:06+00:00",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "FR"
+    }]
+  }],
+  "property" : [{
+    "code" : "dateValid",
+    "description" : "date de validité d'un code concept",
+    "type" : "dateTime"
+  },
+  {
+    "code" : "dateMaj",
+    "description" : "Date de mise à jour d'un code concept",
+    "type" : "dateTime"
+  },
+  {
+    "code" : "dateFin",
+    "description" : "Date de fin d'exploitation d'un code concept",
+    "type" : "dateTime"
+  },
+  {
+    "code" : "dateValid",
+    "description" : "date de validité d'un code concept",
+    "type" : "dateTime"
+  },
+  {
+    "code" : "dateMaj",
+    "description" : "Date de mise à jour d'un code concept",
+    "type" : "dateTime"
+  },
+  {
+    "code" : "dateFin",
+    "description" : "Date de fin d'exploitation d'un code concept",
+    "type" : "dateTime"
+  },
+  {
+    "code" : "status",
+    "uri" : "http://hl7.org/fhir/concept-properties#status",
+    "description" : "Statut d'un code concept",
+    "type" : "code"
+  },
+  {
+    "code" : "deprecationDate",
+    "uri" : "http://hl7.org/fhir/concept-properties#deprecationDate",
+    "description" : "Date de dépréciation du code",
+    "type" : "dateTime"
+  },
+  {
+    "code" : "retirementDate",
+    "uri" : "http://hl7.org/fhir/concept-properties#retirementDate",
+    "description" : "Date de retrait du code",
+    "type" : "dateTime"
+  },
+  {
+    "code" : "JdvJ364TypeFermeturePmFiness",
+    "uri" : "http://hl7.org/fhir/concept-properties#JdvJ364TypeFermeturePmFiness",
+    "description" : "Permet de définir les codes à inclure dans le JdvJ364TypeFermeturePmFiness",
+    "type" : "boolean"
+  },
+  {
+    "code" : "JdvJ365TypeFermetureEgeFiness",
+    "uri" : "http://hl7.org/fhir/concept-properties#JdvJ365TypeFermetureEgeFiness",
+    "description" : "Permet de définir les codes à inclure dans le JdvJ365TypeFermetureEgeFiness",
+    "type" : "boolean"
+  }],
+  "concept" : [{
+    "code" : "DEF",
+    "display" : "Définitive",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2019-01-25T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2019-01-25T12:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2019-01-25T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2019-01-25T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    },
+    {
+      "code" : "JdvJ364TypeFermeturePmFiness",
+      "valueBoolean" : true
+    },
+    {
+      "code" : "JdvJ365TypeFermetureEgeFiness",
+      "valueBoolean" : true
+    }]
+  },
+  {
+    "code" : "ERR",
+    "display" : "Erreur",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2019-01-25T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2019-01-25T12:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2019-01-25T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2019-01-25T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    },
+    {
+      "code" : "JdvJ364TypeFermeturePmFiness",
+      "valueBoolean" : true
+    },
+    {
+      "code" : "JdvJ365TypeFermetureEgeFiness",
+      "valueBoolean" : true
+    }]
+  },
+  {
+    "code" : "NDI",
+    "display" : "Non défini",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2019-01-25T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2019-01-25T12:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2019-01-25T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2019-01-25T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    },
+    {
+      "code" : "JdvJ364TypeFermeturePmFiness",
+      "valueBoolean" : true
+    }]
+  },
+  {
+    "code" : "CHP",
+    "display" : "Sortie du champ FINESS",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2019-01-25T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2019-01-25T12:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2019-01-25T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2019-01-25T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    },
+    {
+      "code" : "JdvJ365TypeFermetureEgeFiness",
+      "valueBoolean" : true
+    }]
+  },
+  {
+    "code" : "EML",
+    "display" : "Ancienne autorisation fonctionnement EML",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "Anc autor fonct EML"
+    }],
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2019-01-25T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2019-01-25T12:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2019-01-25T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2019-01-25T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    },
+    {
+      "code" : "JdvJ365TypeFermetureEgeFiness",
+      "valueBoolean" : true
+    }]
+  },
+  {
+    "code" : "PRO",
+    "display" : "Provisoire",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2019-01-25T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2019-01-25T12:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2019-01-25T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2019-01-25T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    },
+    {
+      "code" : "JdvJ365TypeFermetureEgeFiness",
+      "valueBoolean" : true
+    }]
+  }]
+}

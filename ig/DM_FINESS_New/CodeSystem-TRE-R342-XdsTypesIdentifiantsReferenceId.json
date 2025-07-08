@@ -2,8 +2,8 @@
   "resourceType" : "CodeSystem",
   "id" : "TRE-R342-XdsTypesIdentifiantsReferenceId",
   "meta" : {
-    "versionId" : "4",
-    "lastUpdated" : "2024-08-28T05:13:39.052+00:00",
+    "versionId" : "5",
+    "lastUpdated" : "2025-07-02T18:17:42.330+00:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablecodesystem"]
   },
   "text" : {
@@ -28,6 +28,12 @@
   "date" : "2023-12-15T12:00:00+01:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "description" : "Types d'identifiants utilisés dans la métadonnée XDS referenceIdList de la fiche du document. Ces types d'identifiants sont spécifiés dans une terminologie incluse dans le profil XDS dans le Cadre Technique d'IHE IT Infrastructure.",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "FR"
+    }]
+  }],
   "caseSensitive" : false,
   "content" : "complete",
   "property" : [{
@@ -43,6 +49,24 @@
   {
     "code" : "dateFin",
     "description" : "Date de fin d'exploitation d'un code concept",
+    "type" : "dateTime"
+  },
+  {
+    "code" : "deprecationDate",
+    "uri" : "http://hl7.org/fhir/concept-properties#deprecationDate",
+    "description" : "Date Concept was deprecated",
+    "type" : "dateTime"
+  },
+  {
+    "code" : "status",
+    "uri" : "http://hl7.org/fhir/concept-properties#status",
+    "description" : "A property that indicates the status of the concept.",
+    "type" : "code"
+  },
+  {
+    "code" : "retirementDate",
+    "uri" : "http://hl7.org/fhir/concept-properties#retirementDate",
+    "description" : "Date Concept was retired",
     "type" : "dateTime"
   }],
   "concept" : [{
@@ -63,6 +87,10 @@
     {
       "code" : "dateMaj",
       "valueDateTime" : "2022-06-24T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
     }]
   },
   {
@@ -83,6 +111,10 @@
     {
       "code" : "dateMaj",
       "valueDateTime" : "2022-06-24T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
     }]
   },
   {
@@ -103,6 +135,10 @@
     {
       "code" : "dateMaj",
       "valueDateTime" : "2022-06-24T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
     }]
   },
   {
@@ -123,6 +159,10 @@
     {
       "code" : "dateMaj",
       "valueDateTime" : "2022-06-24T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
     }]
   },
   {
@@ -143,6 +183,10 @@
     {
       "code" : "dateMaj",
       "valueDateTime" : "2023-09-22T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
     }]
   },
   {
@@ -163,6 +207,10 @@
     {
       "code" : "dateMaj",
       "valueDateTime" : "2023-09-22T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
     }]
   },
   {
@@ -183,6 +231,10 @@
     {
       "code" : "dateMaj",
       "valueDateTime" : "2022-06-24T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
     }]
   }]
 }

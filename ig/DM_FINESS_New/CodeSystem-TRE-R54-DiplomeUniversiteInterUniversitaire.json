@@ -2,8 +2,8 @@
   "resourceType" : "CodeSystem",
   "id" : "TRE-R54-DiplomeUniversiteInterUniversitaire",
   "meta" : {
-    "versionId" : "8",
-    "lastUpdated" : "2024-08-28T05:13:58.584+00:00",
+    "versionId" : "9",
+    "lastUpdated" : "2025-07-02T18:18:20.052+00:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablecodesystem"]
   },
   "text" : {
@@ -28,6 +28,12 @@
   "date" : "2024-07-26T12:00:00+01:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "description" : "Diplôme d'Université ou Inter-Universitaire",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "FR"
+    }]
+  }],
   "caseSensitive" : false,
   "content" : "complete",
   "property" : [{
@@ -43,6 +49,24 @@
   {
     "code" : "dateFin",
     "description" : "Date de fin d'exploitation d'un code concept",
+    "type" : "dateTime"
+  },
+  {
+    "code" : "deprecationDate",
+    "uri" : "http://hl7.org/fhir/concept-properties#deprecationDate",
+    "description" : "Date Concept was deprecated",
+    "type" : "dateTime"
+  },
+  {
+    "code" : "status",
+    "uri" : "http://hl7.org/fhir/concept-properties#status",
+    "description" : "A property that indicates the status of the concept.",
+    "type" : "code"
+  },
+  {
+    "code" : "retirementDate",
+    "uri" : "http://hl7.org/fhir/concept-properties#retirementDate",
+    "description" : "Date Concept was retired",
     "type" : "dateTime"
   }],
   "concept" : [{
@@ -63,6 +87,10 @@
     {
       "code" : "dateMaj",
       "valueDateTime" : "2016-09-01T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
     }]
   },
   {
@@ -83,6 +111,10 @@
     {
       "code" : "dateMaj",
       "valueDateTime" : "2016-09-01T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
     }]
   },
   {
@@ -95,6 +127,10 @@
     {
       "code" : "dateMaj",
       "valueDateTime" : "2008-03-20T10:49:30+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
     }]
   },
   {
@@ -115,6 +151,10 @@
     {
       "code" : "dateMaj",
       "valueDateTime" : "2016-09-01T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
     }]
   },
   {
@@ -127,6 +167,10 @@
     {
       "code" : "dateMaj",
       "valueDateTime" : "2008-03-20T10:49:31+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
     }]
   },
   {
@@ -147,6 +191,10 @@
     {
       "code" : "dateMaj",
       "valueDateTime" : "2016-09-01T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
     }]
   },
   {
@@ -167,6 +215,10 @@
     {
       "code" : "dateMaj",
       "valueDateTime" : "2016-09-01T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
     }]
   },
   {
@@ -187,6 +239,10 @@
     {
       "code" : "dateMaj",
       "valueDateTime" : "2016-09-01T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
     }]
   },
   {
@@ -199,6 +255,10 @@
     {
       "code" : "dateMaj",
       "valueDateTime" : "2008-03-20T10:49:34+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
     }]
   },
   {
@@ -219,6 +279,10 @@
     {
       "code" : "dateMaj",
       "valueDateTime" : "2016-09-01T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
     }]
   },
   {
@@ -231,6 +295,10 @@
     {
       "code" : "dateMaj",
       "valueDateTime" : "2016-09-01T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
     }]
   },
   {
@@ -251,6 +319,10 @@
     {
       "code" : "dateMaj",
       "valueDateTime" : "2016-09-01T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
     }]
   },
   {
@@ -271,6 +343,10 @@
     {
       "code" : "dateMaj",
       "valueDateTime" : "2016-09-01T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
     }]
   },
   {
@@ -291,6 +367,10 @@
     {
       "code" : "dateMaj",
       "valueDateTime" : "2016-09-01T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
     }]
   },
   {
@@ -311,6 +391,10 @@
     {
       "code" : "dateMaj",
       "valueDateTime" : "2016-09-01T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
     }]
   },
   {
@@ -331,6 +415,10 @@
     {
       "code" : "dateMaj",
       "valueDateTime" : "2016-09-01T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
     }]
   },
   {
@@ -351,6 +439,10 @@
     {
       "code" : "dateMaj",
       "valueDateTime" : "2016-09-01T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
     }]
   },
   {
@@ -371,6 +463,10 @@
     {
       "code" : "dateMaj",
       "valueDateTime" : "2008-03-20T10:49:42+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
     }]
   },
   {
@@ -383,6 +479,10 @@
     {
       "code" : "dateMaj",
       "valueDateTime" : "2008-03-20T10:49:43+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
     }]
   },
   {
@@ -395,6 +495,10 @@
     {
       "code" : "dateMaj",
       "valueDateTime" : "2016-09-01T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
     }]
   },
   {
@@ -407,6 +511,10 @@
     {
       "code" : "dateMaj",
       "valueDateTime" : "2016-09-01T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
     }]
   },
   {
@@ -427,6 +535,10 @@
     {
       "code" : "dateMaj",
       "valueDateTime" : "2016-09-01T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
     }]
   },
   {
@@ -447,6 +559,10 @@
     {
       "code" : "dateMaj",
       "valueDateTime" : "2016-09-01T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
     }]
   },
   {
@@ -467,6 +583,10 @@
     {
       "code" : "dateMaj",
       "valueDateTime" : "2016-09-01T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
     }]
   },
   {
@@ -479,6 +599,10 @@
     {
       "code" : "dateMaj",
       "valueDateTime" : "2016-09-01T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
     }]
   },
   {
@@ -491,6 +615,10 @@
     {
       "code" : "dateMaj",
       "valueDateTime" : "2008-03-20T10:49:47+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
     }]
   },
   {
@@ -511,6 +639,10 @@
     {
       "code" : "dateMaj",
       "valueDateTime" : "2016-09-01T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
     }]
   },
   {
@@ -531,6 +663,10 @@
     {
       "code" : "dateMaj",
       "valueDateTime" : "2016-09-01T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
     }]
   },
   {
@@ -551,6 +687,10 @@
     {
       "code" : "dateMaj",
       "valueDateTime" : "2016-09-01T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
     }]
   },
   {
@@ -571,6 +711,10 @@
     {
       "code" : "dateMaj",
       "valueDateTime" : "2016-09-01T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
     }]
   },
   {
@@ -583,6 +727,10 @@
     {
       "code" : "dateMaj",
       "valueDateTime" : "2008-03-20T10:49:50+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
     }]
   },
   {
@@ -603,6 +751,10 @@
     {
       "code" : "dateMaj",
       "valueDateTime" : "2016-09-01T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
     }]
   },
   {
@@ -615,6 +767,10 @@
     {
       "code" : "dateMaj",
       "valueDateTime" : "2016-09-01T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
     }]
   },
   {
@@ -627,6 +783,10 @@
     {
       "code" : "dateMaj",
       "valueDateTime" : "2016-09-01T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
     }]
   },
   {
@@ -647,6 +807,10 @@
     {
       "code" : "dateMaj",
       "valueDateTime" : "2016-09-01T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
     }]
   },
   {
@@ -659,6 +823,10 @@
     {
       "code" : "dateMaj",
       "valueDateTime" : "2016-09-01T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
     }]
   },
   {
@@ -679,6 +847,10 @@
     {
       "code" : "dateMaj",
       "valueDateTime" : "2016-09-01T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
     }]
   },
   {
@@ -699,6 +871,10 @@
     {
       "code" : "dateMaj",
       "valueDateTime" : "2016-09-01T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
     }]
   },
   {
@@ -719,6 +895,10 @@
     {
       "code" : "dateMaj",
       "valueDateTime" : "2016-09-01T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
     }]
   },
   {
@@ -739,6 +919,10 @@
     {
       "code" : "dateMaj",
       "valueDateTime" : "2016-09-01T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
     }]
   },
   {
@@ -759,6 +943,10 @@
     {
       "code" : "dateMaj",
       "valueDateTime" : "2016-09-01T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
     }]
   },
   {
@@ -779,6 +967,10 @@
     {
       "code" : "dateMaj",
       "valueDateTime" : "2016-09-01T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
     }]
   },
   {
@@ -799,6 +991,10 @@
     {
       "code" : "dateMaj",
       "valueDateTime" : "2016-09-01T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
     }]
   },
   {
@@ -819,6 +1015,10 @@
     {
       "code" : "dateMaj",
       "valueDateTime" : "2017-10-13T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
     }]
   },
   {
@@ -839,6 +1039,10 @@
     {
       "code" : "dateMaj",
       "valueDateTime" : "2016-09-01T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
     }]
   },
   {
@@ -859,6 +1063,10 @@
     {
       "code" : "dateMaj",
       "valueDateTime" : "2016-09-01T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
     }]
   },
   {
@@ -879,6 +1087,10 @@
     {
       "code" : "dateMaj",
       "valueDateTime" : "2016-09-01T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
     }]
   },
   {
@@ -899,6 +1111,10 @@
     {
       "code" : "dateMaj",
       "valueDateTime" : "2016-09-01T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
     }]
   },
   {
@@ -919,6 +1135,10 @@
     {
       "code" : "dateMaj",
       "valueDateTime" : "2016-09-01T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
     }]
   },
   {
@@ -939,6 +1159,10 @@
     {
       "code" : "dateMaj",
       "valueDateTime" : "2016-09-01T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
     }]
   },
   {
@@ -959,6 +1183,10 @@
     {
       "code" : "dateMaj",
       "valueDateTime" : "2016-09-01T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
     }]
   },
   {
@@ -979,6 +1207,10 @@
     {
       "code" : "dateMaj",
       "valueDateTime" : "2016-09-01T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
     }]
   },
   {
@@ -999,6 +1231,10 @@
     {
       "code" : "dateMaj",
       "valueDateTime" : "2016-09-01T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
     }]
   },
   {
@@ -1019,6 +1255,10 @@
     {
       "code" : "dateMaj",
       "valueDateTime" : "2016-09-01T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
     }]
   },
   {
@@ -1039,6 +1279,10 @@
     {
       "code" : "dateMaj",
       "valueDateTime" : "2016-09-01T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
     }]
   },
   {
@@ -1059,6 +1303,10 @@
     {
       "code" : "dateMaj",
       "valueDateTime" : "2016-09-01T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
     }]
   },
   {
@@ -1079,6 +1327,10 @@
     {
       "code" : "dateMaj",
       "valueDateTime" : "2016-09-01T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
     }]
   },
   {
@@ -1099,6 +1351,10 @@
     {
       "code" : "dateMaj",
       "valueDateTime" : "2016-09-01T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
     }]
   },
   {
@@ -1119,6 +1375,10 @@
     {
       "code" : "dateMaj",
       "valueDateTime" : "2016-09-01T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
     }]
   },
   {
@@ -1139,6 +1399,10 @@
     {
       "code" : "dateMaj",
       "valueDateTime" : "2016-09-01T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
     }]
   },
   {
@@ -1159,6 +1423,10 @@
     {
       "code" : "dateMaj",
       "valueDateTime" : "2016-09-01T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
     }]
   },
   {
@@ -1179,6 +1447,10 @@
     {
       "code" : "dateMaj",
       "valueDateTime" : "2016-09-01T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
     }]
   },
   {
@@ -1191,6 +1463,10 @@
     {
       "code" : "dateMaj",
       "valueDateTime" : "2016-09-01T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
     }]
   },
   {
@@ -1219,6 +1495,10 @@
     {
       "code" : "dateMaj",
       "valueDateTime" : "2016-09-01T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
     }]
   },
   {
@@ -1239,6 +1519,10 @@
     {
       "code" : "dateMaj",
       "valueDateTime" : "2016-09-01T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
     }]
   },
   {
@@ -1251,6 +1535,10 @@
     {
       "code" : "dateMaj",
       "valueDateTime" : "2009-02-02T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
     }]
   },
   {
@@ -1271,6 +1559,10 @@
     {
       "code" : "dateMaj",
       "valueDateTime" : "2009-02-02T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
     }]
   },
   {
@@ -1291,6 +1583,10 @@
     {
       "code" : "dateMaj",
       "valueDateTime" : "2009-02-02T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
     }]
   },
   {
@@ -1303,6 +1599,10 @@
     {
       "code" : "dateMaj",
       "valueDateTime" : "2016-09-01T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
     }]
   },
   {
@@ -1323,6 +1623,10 @@
     {
       "code" : "dateMaj",
       "valueDateTime" : "2016-09-01T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
     }]
   },
   {
@@ -1343,6 +1647,10 @@
     {
       "code" : "dateMaj",
       "valueDateTime" : "2016-09-01T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
     }]
   },
   {
@@ -1363,6 +1671,10 @@
     {
       "code" : "dateMaj",
       "valueDateTime" : "2016-09-01T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
     }]
   },
   {
@@ -1383,6 +1695,10 @@
     {
       "code" : "dateMaj",
       "valueDateTime" : "2016-09-01T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
     }]
   },
   {
@@ -1403,6 +1719,10 @@
     {
       "code" : "dateMaj",
       "valueDateTime" : "2016-09-01T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
     }]
   },
   {
@@ -1423,6 +1743,10 @@
     {
       "code" : "dateMaj",
       "valueDateTime" : "2016-09-01T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
     }]
   },
   {
@@ -1435,6 +1759,10 @@
     {
       "code" : "dateMaj",
       "valueDateTime" : "2011-04-21T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
     }]
   },
   {
@@ -1447,6 +1775,10 @@
     {
       "code" : "dateMaj",
       "valueDateTime" : "2011-04-21T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
     }]
   },
   {
@@ -1459,6 +1791,10 @@
     {
       "code" : "dateMaj",
       "valueDateTime" : "2012-02-21T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
     }]
   },
   {
@@ -1479,6 +1815,10 @@
     {
       "code" : "dateMaj",
       "valueDateTime" : "2012-09-03T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
     }]
   },
   {
@@ -1491,6 +1831,10 @@
     {
       "code" : "dateMaj",
       "valueDateTime" : "2014-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
     }]
   },
   {
@@ -1511,6 +1855,10 @@
     {
       "code" : "dateMaj",
       "valueDateTime" : "2016-09-01T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
     }]
   },
   {
@@ -1523,6 +1871,10 @@
     {
       "code" : "dateMaj",
       "valueDateTime" : "2016-09-01T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
     }]
   },
   {
@@ -1543,6 +1895,10 @@
     {
       "code" : "dateMaj",
       "valueDateTime" : "2016-09-01T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
     }]
   },
   {
@@ -1555,6 +1911,10 @@
     {
       "code" : "dateMaj",
       "valueDateTime" : "2016-09-01T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
     }]
   },
   {
@@ -1567,6 +1927,10 @@
     {
       "code" : "dateMaj",
       "valueDateTime" : "2016-09-01T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
     }]
   },
   {
@@ -1587,6 +1951,10 @@
     {
       "code" : "dateMaj",
       "valueDateTime" : "2016-09-01T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
     }]
   },
   {
@@ -1599,6 +1967,10 @@
     {
       "code" : "dateMaj",
       "valueDateTime" : "2016-09-01T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
     }]
   },
   {
@@ -1619,6 +1991,10 @@
     {
       "code" : "dateMaj",
       "valueDateTime" : "2016-09-01T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
     }]
   },
   {
@@ -1639,6 +2015,10 @@
     {
       "code" : "dateMaj",
       "valueDateTime" : "2016-09-01T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
     }]
   },
   {
@@ -1651,6 +2031,10 @@
     {
       "code" : "dateMaj",
       "valueDateTime" : "2016-09-01T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
     }]
   },
   {
@@ -1663,6 +2047,10 @@
     {
       "code" : "dateMaj",
       "valueDateTime" : "2016-09-01T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
     }]
   },
   {
@@ -1683,6 +2071,10 @@
     {
       "code" : "dateMaj",
       "valueDateTime" : "2016-09-01T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
     }]
   },
   {
@@ -1703,6 +2095,10 @@
     {
       "code" : "dateMaj",
       "valueDateTime" : "2016-09-01T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
     }]
   },
   {
@@ -1723,6 +2119,10 @@
     {
       "code" : "dateMaj",
       "valueDateTime" : "2016-09-01T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
     }]
   },
   {
@@ -1743,6 +2143,10 @@
     {
       "code" : "dateMaj",
       "valueDateTime" : "2016-09-01T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
     }]
   },
   {
@@ -1763,6 +2167,10 @@
     {
       "code" : "dateMaj",
       "valueDateTime" : "2016-09-01T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
     }]
   },
   {
@@ -1775,6 +2183,10 @@
     {
       "code" : "dateMaj",
       "valueDateTime" : "2016-05-03T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
     }]
   },
   {
@@ -1787,6 +2199,10 @@
     {
       "code" : "dateMaj",
       "valueDateTime" : "2016-09-01T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
     }]
   },
   {
@@ -1807,6 +2223,10 @@
     {
       "code" : "dateMaj",
       "valueDateTime" : "2016-09-01T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
     }]
   },
   {
@@ -1819,6 +2239,10 @@
     {
       "code" : "dateMaj",
       "valueDateTime" : "2016-05-03T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
     }]
   },
   {
@@ -1839,6 +2263,10 @@
     {
       "code" : "dateMaj",
       "valueDateTime" : "2016-09-01T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
     }]
   },
   {
@@ -1859,6 +2287,10 @@
     {
       "code" : "dateMaj",
       "valueDateTime" : "2016-09-01T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
     }]
   },
   {
@@ -1879,6 +2311,10 @@
     {
       "code" : "dateMaj",
       "valueDateTime" : "2016-09-01T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
     }]
   },
   {
@@ -1899,6 +2335,10 @@
     {
       "code" : "dateMaj",
       "valueDateTime" : "2016-09-01T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
     }]
   },
   {
@@ -1919,6 +2359,10 @@
     {
       "code" : "dateMaj",
       "valueDateTime" : "2016-09-01T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
     }]
   },
   {
@@ -1947,6 +2391,10 @@
     {
       "code" : "dateMaj",
       "valueDateTime" : "2016-09-01T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
     }]
   },
   {
@@ -1967,6 +2415,10 @@
     {
       "code" : "dateMaj",
       "valueDateTime" : "2016-09-01T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
     }]
   },
   {
@@ -1987,6 +2439,10 @@
     {
       "code" : "dateMaj",
       "valueDateTime" : "2016-09-01T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
     }]
   },
   {
@@ -2007,6 +2463,10 @@
     {
       "code" : "dateMaj",
       "valueDateTime" : "2016-09-01T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
     }]
   },
   {
@@ -2035,6 +2495,10 @@
     {
       "code" : "dateMaj",
       "valueDateTime" : "2016-09-01T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
     }]
   },
   {
@@ -2055,6 +2519,10 @@
     {
       "code" : "dateMaj",
       "valueDateTime" : "2016-09-01T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
     }]
   },
   {
@@ -2067,6 +2535,10 @@
     {
       "code" : "dateMaj",
       "valueDateTime" : "2016-09-01T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
     }]
   },
   {
@@ -2079,6 +2551,10 @@
     {
       "code" : "dateMaj",
       "valueDateTime" : "2016-09-01T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
     }]
   },
   {
@@ -2099,6 +2575,10 @@
     {
       "code" : "dateMaj",
       "valueDateTime" : "2016-09-01T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
     }]
   },
   {
@@ -2119,6 +2599,10 @@
     {
       "code" : "dateMaj",
       "valueDateTime" : "2016-09-01T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
     }]
   },
   {
@@ -2139,6 +2623,10 @@
     {
       "code" : "dateMaj",
       "valueDateTime" : "2016-09-01T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
     }]
   },
   {
@@ -2159,6 +2647,10 @@
     {
       "code" : "dateMaj",
       "valueDateTime" : "2016-09-01T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
     }]
   },
   {
@@ -2179,6 +2671,10 @@
     {
       "code" : "dateMaj",
       "valueDateTime" : "2016-09-01T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
     }]
   },
   {
@@ -2199,6 +2695,10 @@
     {
       "code" : "dateMaj",
       "valueDateTime" : "2016-09-01T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
     }]
   },
   {
@@ -2219,6 +2719,10 @@
     {
       "code" : "dateMaj",
       "valueDateTime" : "2016-09-01T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
     }]
   },
   {
@@ -2231,6 +2735,10 @@
     {
       "code" : "dateMaj",
       "valueDateTime" : "2016-09-01T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
     }]
   },
   {
@@ -2251,6 +2759,10 @@
     {
       "code" : "dateMaj",
       "valueDateTime" : "2016-09-01T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
     }]
   },
   {
@@ -2271,6 +2783,10 @@
     {
       "code" : "dateMaj",
       "valueDateTime" : "2016-09-01T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
     }]
   },
   {
@@ -2291,6 +2807,10 @@
     {
       "code" : "dateMaj",
       "valueDateTime" : "2016-09-01T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
     }]
   },
   {
@@ -2311,6 +2831,10 @@
     {
       "code" : "dateMaj",
       "valueDateTime" : "2016-09-01T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
     }]
   },
   {
@@ -2331,6 +2855,10 @@
     {
       "code" : "dateMaj",
       "valueDateTime" : "2016-09-01T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
     }]
   },
   {
@@ -2351,6 +2879,10 @@
     {
       "code" : "dateMaj",
       "valueDateTime" : "2016-09-01T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
     }]
   },
   {
@@ -2371,6 +2903,10 @@
     {
       "code" : "dateMaj",
       "valueDateTime" : "2016-09-01T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
     }]
   },
   {
@@ -2391,6 +2927,10 @@
     {
       "code" : "dateMaj",
       "valueDateTime" : "2016-09-01T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
     }]
   },
   {
@@ -2411,6 +2951,10 @@
     {
       "code" : "dateMaj",
       "valueDateTime" : "2016-09-01T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
     }]
   },
   {
@@ -2423,6 +2967,10 @@
     {
       "code" : "dateMaj",
       "valueDateTime" : "2016-09-01T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
     }]
   },
   {
@@ -2435,6 +2983,10 @@
     {
       "code" : "dateMaj",
       "valueDateTime" : "2016-09-01T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
     }]
   },
   {
@@ -2455,6 +3007,10 @@
     {
       "code" : "dateMaj",
       "valueDateTime" : "2016-09-01T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
     }]
   },
   {
@@ -2475,6 +3031,10 @@
     {
       "code" : "dateMaj",
       "valueDateTime" : "2016-09-01T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
     }]
   },
   {
@@ -2495,6 +3055,10 @@
     {
       "code" : "dateMaj",
       "valueDateTime" : "2016-09-01T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
     }]
   },
   {
@@ -2507,6 +3071,10 @@
     {
       "code" : "dateMaj",
       "valueDateTime" : "2016-09-01T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
     }]
   },
   {
@@ -2527,6 +3095,10 @@
     {
       "code" : "dateMaj",
       "valueDateTime" : "2016-09-01T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
     }]
   },
   {
@@ -2547,6 +3119,10 @@
     {
       "code" : "dateMaj",
       "valueDateTime" : "2016-09-01T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
     }]
   },
   {
@@ -2567,6 +3143,10 @@
     {
       "code" : "dateMaj",
       "valueDateTime" : "2016-09-01T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
     }]
   },
   {
@@ -2587,6 +3167,10 @@
     {
       "code" : "dateMaj",
       "valueDateTime" : "2016-09-01T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
     }]
   },
   {
@@ -2607,6 +3191,10 @@
     {
       "code" : "dateMaj",
       "valueDateTime" : "2016-09-01T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
     }]
   },
   {
@@ -2627,6 +3215,10 @@
     {
       "code" : "dateMaj",
       "valueDateTime" : "2016-09-01T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
     }]
   },
   {
@@ -2647,6 +3239,10 @@
     {
       "code" : "dateMaj",
       "valueDateTime" : "2016-09-01T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
     }]
   },
   {
@@ -2667,6 +3263,10 @@
     {
       "code" : "dateMaj",
       "valueDateTime" : "2016-09-01T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
     }]
   },
   {
@@ -2679,6 +3279,10 @@
     {
       "code" : "dateMaj",
       "valueDateTime" : "2016-09-01T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
     }]
   },
   {
@@ -2691,6 +3295,10 @@
     {
       "code" : "dateMaj",
       "valueDateTime" : "2016-09-01T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
     }]
   },
   {
@@ -2711,6 +3319,10 @@
     {
       "code" : "dateMaj",
       "valueDateTime" : "2016-09-01T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
     }]
   },
   {
@@ -2723,6 +3335,10 @@
     {
       "code" : "dateMaj",
       "valueDateTime" : "2016-09-01T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
     }]
   },
   {
@@ -2743,6 +3359,10 @@
     {
       "code" : "dateMaj",
       "valueDateTime" : "2016-09-01T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
     }]
   },
   {
@@ -2763,6 +3383,10 @@
     {
       "code" : "dateMaj",
       "valueDateTime" : "2016-09-01T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
     }]
   },
   {
@@ -2783,6 +3407,10 @@
     {
       "code" : "dateMaj",
       "valueDateTime" : "2017-10-23T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
     }]
   },
   {
@@ -2795,6 +3423,10 @@
     {
       "code" : "dateMaj",
       "valueDateTime" : "2017-10-23T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
     }]
   },
   {
@@ -2815,6 +3447,10 @@
     {
       "code" : "dateMaj",
       "valueDateTime" : "2017-10-23T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
     }]
   },
   {
@@ -2835,6 +3471,10 @@
     {
       "code" : "dateMaj",
       "valueDateTime" : "2020-06-26T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
     }]
   },
   {
@@ -2855,6 +3495,10 @@
     {
       "code" : "dateMaj",
       "valueDateTime" : "2020-06-26T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
     }]
   },
   {
@@ -2875,6 +3519,10 @@
     {
       "code" : "dateMaj",
       "valueDateTime" : "2020-06-26T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
     }]
   },
   {
@@ -2903,6 +3551,10 @@
     {
       "code" : "dateMaj",
       "valueDateTime" : "2020-06-26T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
     }]
   },
   {
@@ -2923,6 +3575,10 @@
     {
       "code" : "dateMaj",
       "valueDateTime" : "2020-06-26T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
     }]
   },
   {
@@ -2951,6 +3607,10 @@
     {
       "code" : "dateMaj",
       "valueDateTime" : "2020-06-26T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
     }]
   },
   {
@@ -2980,6 +3640,10 @@
     {
       "code" : "dateMaj",
       "valueDateTime" : "2023-03-31T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
     }]
   },
   {
@@ -3001,6 +3665,10 @@
     {
       "code" : "dateMaj",
       "valueDateTime" : "2023-03-31T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
     }]
   },
   {
@@ -3022,6 +3690,10 @@
     {
       "code" : "dateMaj",
       "valueDateTime" : "2023-03-31T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
     }]
   },
   {
@@ -3043,6 +3715,10 @@
     {
       "code" : "dateMaj",
       "valueDateTime" : "2023-03-31T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
     }]
   },
   {
@@ -3056,6 +3732,10 @@
     {
       "code" : "dateMaj",
       "valueDateTime" : "2023-03-31T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
     }]
   },
   {
@@ -3085,6 +3765,10 @@
     {
       "code" : "dateMaj",
       "valueDateTime" : "2024-07-26T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
     }]
   },
   {
@@ -3114,6 +3798,10 @@
     {
       "code" : "dateMaj",
       "valueDateTime" : "2024-07-26T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
     }]
   },
   {
@@ -3135,6 +3823,10 @@
     {
       "code" : "dateMaj",
       "valueDateTime" : "2024-07-26T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
     }]
   },
   {
@@ -3155,6 +3847,10 @@
     {
       "code" : "dateMaj",
       "valueDateTime" : "2022-07-29T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
     }]
   },
   {
@@ -3175,6 +3871,10 @@
     {
       "code" : "dateMaj",
       "valueDateTime" : "2022-07-29T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
     }]
   },
   {
@@ -3187,6 +3887,10 @@
     {
       "code" : "dateMaj",
       "valueDateTime" : "2022-07-29T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
     }]
   },
   {
@@ -3199,6 +3903,10 @@
     {
       "code" : "dateMaj",
       "valueDateTime" : "2022-07-29T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
     }]
   },
   {
@@ -3219,6 +3927,10 @@
     {
       "code" : "dateMaj",
       "valueDateTime" : "2022-07-29T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
     }]
   },
   {
@@ -3239,6 +3951,10 @@
     {
       "code" : "dateMaj",
       "valueDateTime" : "2022-07-29T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
     }]
   },
   {
@@ -3259,6 +3975,10 @@
     {
       "code" : "dateMaj",
       "valueDateTime" : "2022-07-29T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
     }]
   },
   {
@@ -3279,6 +3999,10 @@
     {
       "code" : "dateMaj",
       "valueDateTime" : "2023-06-30T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
     }]
   },
   {
@@ -3307,6 +4031,10 @@
     {
       "code" : "dateMaj",
       "valueDateTime" : "2023-06-30T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
     }]
   },
   {
@@ -3335,6 +4063,10 @@
     {
       "code" : "dateMaj",
       "valueDateTime" : "2023-06-30T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
     }]
   },
   {
@@ -3363,6 +4095,10 @@
     {
       "code" : "dateMaj",
       "valueDateTime" : "2023-06-30T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
     }]
   },
   {
@@ -3383,6 +4119,10 @@
     {
       "code" : "dateMaj",
       "valueDateTime" : "2023-06-30T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
     }]
   },
   {
@@ -3403,6 +4143,10 @@
     {
       "code" : "dateMaj",
       "valueDateTime" : "2023-06-30T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
     }]
   },
   {
@@ -3431,6 +4175,10 @@
     {
       "code" : "dateMaj",
       "valueDateTime" : "2023-06-30T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
     }]
   },
   {
@@ -3451,6 +4199,10 @@
     {
       "code" : "dateMaj",
       "valueDateTime" : "2023-06-30T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
     }]
   },
   {
@@ -3471,6 +4223,10 @@
     {
       "code" : "dateMaj",
       "valueDateTime" : "2023-06-30T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
     }]
   },
   {
@@ -3491,6 +4247,10 @@
     {
       "code" : "dateMaj",
       "valueDateTime" : "2024-01-26T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
     }]
   },
   {
@@ -3511,6 +4271,10 @@
     {
       "code" : "dateMaj",
       "valueDateTime" : "2024-07-26T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
     }]
   },
   {
@@ -3531,6 +4295,10 @@
     {
       "code" : "dateMaj",
       "valueDateTime" : "2024-07-26T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
     }]
   },
   {
@@ -3551,6 +4319,10 @@
     {
       "code" : "dateMaj",
       "valueDateTime" : "2024-06-28T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
     }]
   },
   {
@@ -3571,6 +4343,10 @@
     {
       "code" : "dateMaj",
       "valueDateTime" : "2024-07-26T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
     }]
   }]
 }

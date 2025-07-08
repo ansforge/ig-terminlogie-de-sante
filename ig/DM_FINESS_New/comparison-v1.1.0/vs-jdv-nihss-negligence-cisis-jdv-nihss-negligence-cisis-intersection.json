@@ -1,0 +1,25 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "dc7425aa-2d2f-4b7e-9ce2-4d8f876abacc-2388",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/dc7425aa-2d2f-4b7e-9ce2-4d8f876abacc-2388",
+  "name" : "IntersectionJdvNihssNegligenceCisisAndJdvNihssNegligenceCisis",
+  "title" : "Intersection of JDV Nihss Negligence CISIS And JDV Nihss Negligence CISIS",
+  "status" : "active",
+  "date" : "2025-07-08T14:29:06+00:00",
+  "compose" : {
+    "include" : [{
+      "concept" : [{
+        "code" : "LA18478-0",
+        "display" : "Normal"
+      },
+      {
+        "code" : "LA18479-8",
+        "display" : "Extinction ou négligence visuelle, tactile, auditive, spatiale ou personnelle à la stimulation bilatérale simultanée dans une des modalités."
+      },
+      {
+        "code" : "LA18480-6",
+        "display" : "Héminégligence sévère ou portant sur plus d’une modalité sensorielle. Ne reconnaît pas sa propre main ou ne s’oriente que vers un côté de l’espace."
+      }]
+    }]
+  }
+}

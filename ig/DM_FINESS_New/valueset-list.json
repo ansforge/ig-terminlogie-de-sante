@@ -6368,8 +6368,8 @@
     },
     {
       "url" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-indicateur-anormalite-cisis",
-      "version" : "20250624152100",
-      "status" : "active",
+      "version" : "20250708100000",
+      "status" : "retired",
       "name" : "JdvIndicateurAnormaliteCisis",
       "title" : "JDV Indicateur Anormalite CISIS",
       "description" : "JDV Indicateur Anormalite CISIS",

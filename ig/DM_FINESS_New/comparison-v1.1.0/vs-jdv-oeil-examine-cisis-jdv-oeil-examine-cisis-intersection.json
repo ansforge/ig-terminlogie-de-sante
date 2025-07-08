@@ -1,0 +1,25 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "dc7425aa-2d2f-4b7e-9ce2-4d8f876abacc-2430",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/dc7425aa-2d2f-4b7e-9ce2-4d8f876abacc-2430",
+  "name" : "IntersectionJdvOeilExamineCisisAndJdvOeilExamineCisis",
+  "title" : "Intersection of JDV Oeil Examine CISIS And JDV Oeil Examine CISIS",
+  "status" : "active",
+  "date" : "2025-07-08T14:29:06+00:00",
+  "compose" : {
+    "include" : [{
+      "concept" : [{
+        "code" : "1290031003",
+        "display" : "œil gauche"
+      },
+      {
+        "code" : "1290032005",
+        "display" : "œil droit"
+      },
+      {
+        "code" : "40638003",
+        "display" : "les deux yeux"
+      }]
+    }]
+  }
+}

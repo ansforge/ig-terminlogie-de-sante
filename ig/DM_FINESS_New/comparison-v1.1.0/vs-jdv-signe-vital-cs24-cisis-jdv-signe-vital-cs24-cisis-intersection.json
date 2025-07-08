@@ -1,0 +1,29 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "dc7425aa-2d2f-4b7e-9ce2-4d8f876abacc-2676",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/dc7425aa-2d2f-4b7e-9ce2-4d8f876abacc-2676",
+  "name" : "IntersectionJdvSigneVitalCs24CisisAndJdvSigneVitalCs24Cisis",
+  "title" : "Intersection of JDV Signe Vital Cs24 CISIS And JDV Signe Vital Cs24 CISIS",
+  "status" : "active",
+  "date" : "2025-07-08T14:29:06+00:00",
+  "compose" : {
+    "include" : [{
+      "concept" : [{
+        "code" : "29463-7",
+        "display" : "Poids"
+      },
+      {
+        "code" : "8302-2",
+        "display" : "Taille"
+      },
+      {
+        "code" : "8287-5",
+        "display" : "Périmètre crânien"
+      },
+      {
+        "code" : "39156-5",
+        "display" : "Index de masse corporelle (IMC)"
+      }]
+    }]
+  }
+}

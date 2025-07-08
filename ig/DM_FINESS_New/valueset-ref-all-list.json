@@ -6427,8 +6427,8 @@
     },
     {
       "url" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-indicateur-anormalite-cisis",
-      "version" : "20250624152100",
-      "status" : "active",
+      "version" : "20250708100000",
+      "status" : "retired",
       "name" : "JdvIndicateurAnormaliteCisis",
       "title" : "JDV Indicateur Anormalite CISIS",
       "description" : "JDV Indicateur Anormalite CISIS",
@@ -10413,7 +10413,10 @@
       "name" : "ValueSet_ATC_All",
       "title" : null,
       "description" : "Ce jeu de valeurs inclut tous les codes concepts de la terminologie ATC",
-      "systems" : ["https://smt.esante.gouv.fr/terminologie-atc"]
+      "systems" : ["https://smt.esante.gouv.fr/terminologie-atc"],
+      "uses" : {
+      },
+      "ConceptMap-alignement-nuva-atc.html" : "Aligner les codes ATC de NUVA avec les codes ATC"
     },
     {
       "url" : "https://smt.esante.gouv.fr/terminologie-bdpm?vs",
@@ -10422,7 +10425,10 @@
       "name" : "ValueSet_BDPM_All",
       "title" : null,
       "description" : "Ce jeu de valeurs inclut tous les codes de la terminologie BDPM",
-      "systems" : ["https://smt.esante.gouv.fr/terminologie-bdpm"]
+      "systems" : ["https://smt.esante.gouv.fr/terminologie-bdpm"],
+      "uses" : {
+      },
+      "ConceptMap-alignement-nuva-bdpm.html" : "Aligner les codes CIS et CIP de NUVA avec les codes CIS et CIP du BDPM"
     },
     {
       "url" : "https://smt.esante.gouv.fr/terminologie-cip_ucd?vs",
@@ -10440,7 +10446,11 @@
       "name" : "ValueSet_NUVA_All",
       "title" : null,
       "description" : "Ce jeu de valeurs inclut tous les codes concepts de la terminologie NUVA",
-      "systems" : ["https://smt.esante.gouv.fr/terminologie-nuva"]
+      "systems" : ["https://smt.esante.gouv.fr/terminologie-nuva"],
+      "uses" : {
+      },
+      "ConceptMap-alignement-nuva-atc.html" : "Aligner les codes ATC de NUVA avec les codes ATC",
+      "ConceptMap-alignement-nuva-bdpm.html" : "Aligner les codes CIS et CIP de NUVA avec les codes CIS et CIP du BDPM"
     },
     {
       "url" : "https://smt.esante.gouv.fr/terminologie-sms?vs",

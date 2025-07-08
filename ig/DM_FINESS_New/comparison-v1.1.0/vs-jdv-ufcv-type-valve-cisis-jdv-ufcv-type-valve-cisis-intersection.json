@@ -1,0 +1,29 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "dc7425aa-2d2f-4b7e-9ce2-4d8f876abacc-2994",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/dc7425aa-2d2f-4b7e-9ce2-4d8f876abacc-2994",
+  "name" : "IntersectionJdvUfcvTypetValveCisisAndJdvUfcvTypetValveCisis",
+  "title" : "Intersection of JDV UFCV Type Valve CISIS And JDV UFCV Type Valve CISIS",
+  "status" : "active",
+  "date" : "2025-07-08T14:29:06+00:00",
+  "compose" : {
+    "include" : [{
+      "concept" : [{
+        "code" : "P070302",
+        "display" : "VALVES CARDIAQUES MÉCANIQUES"
+      },
+      {
+        "code" : "P070301",
+        "display" : "VALVES CARDIAQUES BIOLOGIQUES"
+      },
+      {
+        "code" : "P0703020302",
+        "display" : "VALVES MITRALES MÉCANIQUES, À DOUBLE AILETTE"
+      },
+      {
+        "code" : "P070301010204",
+        "display" : "VALVES TRICUSPIDES BIOLOGIQUES CHIRURGICALES MONTÉES SUR ARMATURE - VALVE D'ORIGINE NON ANIMALE"
+      }]
+    }]
+  }
+}

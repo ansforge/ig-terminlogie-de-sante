@@ -3,8 +3,8 @@
 <CodeSystem xmlns="http://hl7.org/fhir">
   <id value="TRE-R38-SpecialiteOrdinale"/>
   <meta>
-    <versionId value="6"/>
-    <lastUpdated value="2024-08-28T05:13:49.353+00:00"/>
+    <versionId value="7"/>
+    <lastUpdated value="2025-07-02T18:18:02.679+00:00"/>
     <profile value="http://hl7.org/fhir/StructureDefinition/shareablecodesystem"/>
   </meta>
   <text>
@@ -27,6 +27,12 @@
   <date value="2024-05-31T12:00:00+01:00"/>
   <publisher value="Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris"/>
   <description value="Spécialité ordinale"/>
+  <jurisdiction>
+    <coding>
+      <system value="urn:iso:std:iso:3166"/>
+      <code value="FR"/>
+    </coding>
+  </jurisdiction>
   <caseSensitive value="false"/>
   <content value="complete"/>
   <property>
@@ -42,6 +48,24 @@
   <property>
     <code value="dateFin"/>
     <description value="Date de fin d'exploitation d'un code concept"/>
+    <type value="dateTime"/>
+  </property>
+  <property>
+    <code value="deprecationDate"/>
+    <uri value="http://hl7.org/fhir/concept-properties#deprecationDate"/>
+    <description value="Date Concept was deprecated"/>
+    <type value="dateTime"/>
+  </property>
+  <property>
+    <code value="status"/>
+    <uri value="http://hl7.org/fhir/concept-properties#status"/>
+    <description value="A property that indicates the status of the concept."/>
+    <type value="code"/>
+  </property>
+  <property>
+    <code value="retirementDate"/>
+    <uri value="http://hl7.org/fhir/concept-properties#retirementDate"/>
+    <description value="Date Concept was retired"/>
     <type value="dateTime"/>
   </property>
   <concept>
@@ -63,6 +87,10 @@
       <code value="dateMaj"/>
       <valueDateTime value="2016-09-01T00:00:00+01:00"/>
     </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
+    </property>
   </concept>
   <concept>
     <code value="SCD02"/>
@@ -83,6 +111,10 @@
       <code value="dateMaj"/>
       <valueDateTime value="2016-09-01T00:00:00+01:00"/>
     </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
+    </property>
   </concept>
   <concept>
     <code value="SCD03"/>
@@ -102,6 +134,10 @@
     <property>
       <code value="dateMaj"/>
       <valueDateTime value="2016-09-01T00:00:00+01:00"/>
+    </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
     </property>
   </concept>
   <concept>
@@ -124,6 +160,10 @@
       <code value="dateMaj"/>
       <valueDateTime value="2020-03-30T12:00:00+01:00"/>
     </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
+    </property>
   </concept>
   <concept>
     <code value="SI02"/>
@@ -144,6 +184,10 @@
     <property>
       <code value="dateMaj"/>
       <valueDateTime value="2020-03-30T12:00:00+01:00"/>
+    </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
     </property>
   </concept>
   <concept>
@@ -174,6 +218,10 @@
       <code value="dateMaj"/>
       <valueDateTime value="2020-03-30T12:00:00+01:00"/>
     </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
+    </property>
   </concept>
   <concept>
     <code value="SI04"/>
@@ -194,6 +242,10 @@
     <property>
       <code value="dateMaj"/>
       <valueDateTime value="2020-03-30T12:00:00+01:00"/>
+    </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
     </property>
   </concept>
   <concept>
@@ -216,6 +268,10 @@
       <code value="dateMaj"/>
       <valueDateTime value="2023-10-30T12:00:00+01:00"/>
     </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
+    </property>
   </concept>
   <concept>
     <code value="SM01"/>
@@ -235,6 +291,10 @@
     <property>
       <code value="dateMaj"/>
       <valueDateTime value="2016-09-01T00:00:00+01:00"/>
+    </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
     </property>
   </concept>
   <concept>
@@ -256,6 +316,10 @@
       <code value="dateMaj"/>
       <valueDateTime value="2016-09-01T00:00:00+01:00"/>
     </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
+    </property>
   </concept>
   <concept>
     <code value="SM03"/>
@@ -275,6 +339,10 @@
     <property>
       <code value="dateMaj"/>
       <valueDateTime value="2015-12-28T00:00:00+01:00"/>
+    </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
     </property>
   </concept>
   <concept>
@@ -296,6 +364,10 @@
       <code value="dateMaj"/>
       <valueDateTime value="2016-09-01T00:00:00+01:00"/>
     </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
+    </property>
   </concept>
   <concept>
     <code value="SM05"/>
@@ -315,6 +387,10 @@
     <property>
       <code value="dateMaj"/>
       <valueDateTime value="2016-09-01T00:00:00+01:00"/>
+    </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
     </property>
   </concept>
   <concept>
@@ -336,6 +412,10 @@
       <code value="dateMaj"/>
       <valueDateTime value="2008-02-28T00:00:00+01:00"/>
     </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
+    </property>
   </concept>
   <concept>
     <code value="SM07"/>
@@ -355,6 +435,10 @@
     <property>
       <code value="dateMaj"/>
       <valueDateTime value="2016-09-01T00:00:00+01:00"/>
+    </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
     </property>
   </concept>
   <concept>
@@ -376,6 +460,10 @@
       <code value="dateMaj"/>
       <valueDateTime value="2016-09-01T00:00:00+01:00"/>
     </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
+    </property>
   </concept>
   <concept>
     <code value="SM09"/>
@@ -395,6 +483,10 @@
     <property>
       <code value="dateMaj"/>
       <valueDateTime value="2016-09-01T00:00:00+01:00"/>
+    </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
     </property>
   </concept>
   <concept>
@@ -416,6 +508,10 @@
       <code value="dateMaj"/>
       <valueDateTime value="2016-09-01T00:00:00+01:00"/>
     </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
+    </property>
   </concept>
   <concept>
     <code value="SM11"/>
@@ -435,6 +531,10 @@
     <property>
       <code value="dateMaj"/>
       <valueDateTime value="2016-09-01T00:00:00+01:00"/>
+    </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
     </property>
   </concept>
   <concept>
@@ -456,6 +556,10 @@
       <code value="dateMaj"/>
       <valueDateTime value="2008-02-28T00:00:00+01:00"/>
     </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
+    </property>
   </concept>
   <concept>
     <code value="SM13"/>
@@ -475,6 +579,10 @@
     <property>
       <code value="dateMaj"/>
       <valueDateTime value="2008-02-28T00:00:00+01:00"/>
+    </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
     </property>
   </concept>
   <concept>
@@ -496,6 +604,10 @@
       <code value="dateMaj"/>
       <valueDateTime value="2016-09-01T00:00:00+01:00"/>
     </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
+    </property>
   </concept>
   <concept>
     <code value="SM15"/>
@@ -515,6 +627,10 @@
     <property>
       <code value="dateMaj"/>
       <valueDateTime value="2016-09-01T00:00:00+01:00"/>
+    </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
     </property>
   </concept>
   <concept>
@@ -536,6 +652,10 @@
       <code value="dateMaj"/>
       <valueDateTime value="2016-09-01T00:00:00+01:00"/>
     </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
+    </property>
   </concept>
   <concept>
     <code value="SM17"/>
@@ -555,6 +675,10 @@
     <property>
       <code value="dateMaj"/>
       <valueDateTime value="2008-02-28T00:00:00+01:00"/>
+    </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
     </property>
   </concept>
   <concept>
@@ -576,6 +700,10 @@
       <code value="dateMaj"/>
       <valueDateTime value="2008-02-28T00:00:00+01:00"/>
     </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
+    </property>
   </concept>
   <concept>
     <code value="SM19"/>
@@ -595,6 +723,10 @@
     <property>
       <code value="dateMaj"/>
       <valueDateTime value="2008-02-28T00:00:00+01:00"/>
+    </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
     </property>
   </concept>
   <concept>
@@ -616,6 +748,10 @@
       <code value="dateMaj"/>
       <valueDateTime value="2016-09-01T00:00:00+01:00"/>
     </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
+    </property>
   </concept>
   <concept>
     <code value="SM21"/>
@@ -635,6 +771,10 @@
     <property>
       <code value="dateMaj"/>
       <valueDateTime value="2008-02-28T00:00:00+01:00"/>
+    </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
     </property>
   </concept>
   <concept>
@@ -656,6 +796,10 @@
       <code value="dateMaj"/>
       <valueDateTime value="2016-09-01T00:00:00+01:00"/>
     </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
+    </property>
   </concept>
   <concept>
     <code value="SM23"/>
@@ -675,6 +819,10 @@
     <property>
       <code value="dateMaj"/>
       <valueDateTime value="2016-09-01T00:00:00+01:00"/>
+    </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
     </property>
   </concept>
   <concept>
@@ -696,6 +844,10 @@
       <code value="dateMaj"/>
       <valueDateTime value="2016-09-01T00:00:00+01:00"/>
     </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
+    </property>
   </concept>
   <concept>
     <code value="SM25"/>
@@ -715,6 +867,10 @@
     <property>
       <code value="dateMaj"/>
       <valueDateTime value="2008-02-28T00:00:00+01:00"/>
+    </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
     </property>
   </concept>
   <concept>
@@ -736,6 +892,10 @@
       <code value="dateMaj"/>
       <valueDateTime value="2008-10-08T00:00:00+01:00"/>
     </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
+    </property>
   </concept>
   <concept>
     <code value="SM27"/>
@@ -755,6 +915,10 @@
     <property>
       <code value="dateMaj"/>
       <valueDateTime value="2008-02-28T00:00:00+01:00"/>
+    </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
     </property>
   </concept>
   <concept>
@@ -776,6 +940,10 @@
       <code value="dateMaj"/>
       <valueDateTime value="2008-02-28T00:00:00+01:00"/>
     </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
+    </property>
   </concept>
   <concept>
     <code value="SM29"/>
@@ -795,6 +963,10 @@
     <property>
       <code value="dateMaj"/>
       <valueDateTime value="2016-09-01T00:00:00+01:00"/>
+    </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
     </property>
   </concept>
   <concept>
@@ -816,6 +988,10 @@
       <code value="dateMaj"/>
       <valueDateTime value="2008-02-28T00:00:00+01:00"/>
     </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
+    </property>
   </concept>
   <concept>
     <code value="SM31"/>
@@ -835,6 +1011,10 @@
     <property>
       <code value="dateMaj"/>
       <valueDateTime value="2008-02-28T00:00:00+01:00"/>
+    </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
     </property>
   </concept>
   <concept>
@@ -856,6 +1036,10 @@
       <code value="dateMaj"/>
       <valueDateTime value="2008-02-28T00:00:00+01:00"/>
     </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
+    </property>
   </concept>
   <concept>
     <code value="SM33"/>
@@ -875,6 +1059,10 @@
     <property>
       <code value="dateMaj"/>
       <valueDateTime value="2008-02-28T00:00:00+01:00"/>
+    </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
     </property>
   </concept>
   <concept>
@@ -896,6 +1084,10 @@
       <code value="dateMaj"/>
       <valueDateTime value="2016-09-01T00:00:00+01:00"/>
     </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
+    </property>
   </concept>
   <concept>
     <code value="SM35"/>
@@ -915,6 +1107,10 @@
     <property>
       <code value="dateMaj"/>
       <valueDateTime value="2016-09-01T00:00:00+01:00"/>
+    </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
     </property>
   </concept>
   <concept>
@@ -936,6 +1132,10 @@
       <code value="dateMaj"/>
       <valueDateTime value="2016-09-01T00:00:00+01:00"/>
     </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
+    </property>
   </concept>
   <concept>
     <code value="SM37"/>
@@ -955,6 +1155,10 @@
     <property>
       <code value="dateMaj"/>
       <valueDateTime value="2016-09-01T00:00:00+01:00"/>
+    </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
     </property>
   </concept>
   <concept>
@@ -976,6 +1180,10 @@
       <code value="dateMaj"/>
       <valueDateTime value="2008-02-28T00:00:00+01:00"/>
     </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
+    </property>
   </concept>
   <concept>
     <code value="SM39"/>
@@ -995,6 +1203,10 @@
     <property>
       <code value="dateMaj"/>
       <valueDateTime value="2008-02-28T00:00:00+01:00"/>
+    </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
     </property>
   </concept>
   <concept>
@@ -1016,6 +1228,10 @@
       <code value="dateMaj"/>
       <valueDateTime value="2008-02-28T00:00:00+01:00"/>
     </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
+    </property>
   </concept>
   <concept>
     <code value="SM41"/>
@@ -1035,6 +1251,10 @@
     <property>
       <code value="dateMaj"/>
       <valueDateTime value="2008-02-28T00:00:00+01:00"/>
+    </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
     </property>
   </concept>
   <concept>
@@ -1056,6 +1276,10 @@
       <code value="dateMaj"/>
       <valueDateTime value="2008-02-28T00:00:00+01:00"/>
     </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
+    </property>
   </concept>
   <concept>
     <code value="SM43"/>
@@ -1075,6 +1299,10 @@
     <property>
       <code value="dateMaj"/>
       <valueDateTime value="2016-09-01T00:00:00+01:00"/>
+    </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
     </property>
   </concept>
   <concept>
@@ -1096,6 +1324,10 @@
       <code value="dateMaj"/>
       <valueDateTime value="2008-02-28T00:00:00+01:00"/>
     </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
+    </property>
   </concept>
   <concept>
     <code value="SM45"/>
@@ -1115,6 +1347,10 @@
     <property>
       <code value="dateMaj"/>
       <valueDateTime value="2008-02-28T00:00:00+01:00"/>
+    </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
     </property>
   </concept>
   <concept>
@@ -1136,6 +1372,10 @@
       <code value="dateMaj"/>
       <valueDateTime value="2018-01-26T12:00:00+01:00"/>
     </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
+    </property>
   </concept>
   <concept>
     <code value="SM47"/>
@@ -1155,6 +1395,10 @@
     <property>
       <code value="dateMaj"/>
       <valueDateTime value="2008-02-28T00:00:00+01:00"/>
+    </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
     </property>
   </concept>
   <concept>
@@ -1176,6 +1420,10 @@
       <code value="dateMaj"/>
       <valueDateTime value="2008-02-28T00:00:00+01:00"/>
     </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
+    </property>
   </concept>
   <concept>
     <code value="SM49"/>
@@ -1195,6 +1443,10 @@
     <property>
       <code value="dateMaj"/>
       <valueDateTime value="2016-09-01T00:00:00+01:00"/>
+    </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
     </property>
   </concept>
   <concept>
@@ -1216,6 +1468,10 @@
       <code value="dateMaj"/>
       <valueDateTime value="2008-02-28T00:00:00+01:00"/>
     </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
+    </property>
   </concept>
   <concept>
     <code value="SM51"/>
@@ -1235,6 +1491,10 @@
     <property>
       <code value="dateMaj"/>
       <valueDateTime value="2016-09-01T00:00:00+01:00"/>
+    </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
     </property>
   </concept>
   <concept>
@@ -1256,6 +1516,10 @@
       <code value="dateMaj"/>
       <valueDateTime value="2016-09-01T00:00:00+01:00"/>
     </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
+    </property>
   </concept>
   <concept>
     <code value="SM53"/>
@@ -1275,6 +1539,10 @@
     <property>
       <code value="dateMaj"/>
       <valueDateTime value="2008-10-08T00:00:00+01:00"/>
+    </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
     </property>
   </concept>
   <concept>
@@ -1296,6 +1564,10 @@
       <code value="dateMaj"/>
       <valueDateTime value="2008-10-08T00:00:00+01:00"/>
     </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
+    </property>
   </concept>
   <concept>
     <code value="SM55"/>
@@ -1315,6 +1587,10 @@
     <property>
       <code value="dateMaj"/>
       <valueDateTime value="2016-09-01T00:00:00+01:00"/>
+    </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
     </property>
   </concept>
   <concept>
@@ -1336,6 +1612,10 @@
       <code value="dateMaj"/>
       <valueDateTime value="2016-04-28T00:00:00+01:00"/>
     </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
+    </property>
   </concept>
   <concept>
     <code value="SM57"/>
@@ -1355,6 +1635,10 @@
     <property>
       <code value="dateMaj"/>
       <valueDateTime value="2018-03-30T12:00:00+01:00"/>
+    </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
     </property>
   </concept>
   <concept>
@@ -1376,6 +1660,10 @@
       <code value="dateMaj"/>
       <valueDateTime value="2018-03-30T12:00:00+01:00"/>
     </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
+    </property>
   </concept>
   <concept>
     <code value="SM59"/>
@@ -1395,6 +1683,10 @@
     <property>
       <code value="dateMaj"/>
       <valueDateTime value="2018-03-30T12:00:00+01:00"/>
+    </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
     </property>
   </concept>
   <concept>
@@ -1416,6 +1708,10 @@
       <code value="dateMaj"/>
       <valueDateTime value="2018-03-30T12:00:00+01:00"/>
     </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
+    </property>
   </concept>
   <concept>
     <code value="SM61"/>
@@ -1435,6 +1731,10 @@
     <property>
       <code value="dateMaj"/>
       <valueDateTime value="2018-03-30T12:00:00+01:00"/>
+    </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
     </property>
   </concept>
   <concept>
@@ -1456,6 +1756,10 @@
       <code value="dateMaj"/>
       <valueDateTime value="2019-04-26T12:00:00+01:00"/>
     </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
+    </property>
   </concept>
   <concept>
     <code value="SM63"/>
@@ -1475,6 +1779,10 @@
     <property>
       <code value="dateMaj"/>
       <valueDateTime value="2019-02-22T12:00:00+01:00"/>
+    </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
     </property>
   </concept>
   <concept>
@@ -1496,6 +1804,10 @@
       <code value="dateMaj"/>
       <valueDateTime value="2019-02-22T12:00:00+01:00"/>
     </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
+    </property>
   </concept>
   <concept>
     <code value="SM65"/>
@@ -1515,6 +1827,10 @@
     <property>
       <code value="dateMaj"/>
       <valueDateTime value="2019-02-22T12:00:00+01:00"/>
+    </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
     </property>
   </concept>
   <concept>
@@ -1536,6 +1852,10 @@
       <code value="dateMaj"/>
       <valueDateTime value="2019-02-22T12:00:00+01:00"/>
     </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
+    </property>
   </concept>
   <concept>
     <code value="SM67"/>
@@ -1555,6 +1875,10 @@
     <property>
       <code value="dateMaj"/>
       <valueDateTime value="2019-02-22T12:00:00+01:00"/>
+    </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
     </property>
   </concept>
   <concept>
@@ -1576,6 +1900,10 @@
       <code value="dateMaj"/>
       <valueDateTime value="2019-02-22T12:00:00+01:00"/>
     </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
+    </property>
   </concept>
   <concept>
     <code value="SM69"/>
@@ -1595,6 +1923,10 @@
     <property>
       <code value="dateMaj"/>
       <valueDateTime value="2019-02-22T12:00:00+01:00"/>
+    </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
     </property>
   </concept>
   <concept>
@@ -1616,6 +1948,10 @@
       <code value="dateMaj"/>
       <valueDateTime value="2019-02-22T12:00:00+01:00"/>
     </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
+    </property>
   </concept>
   <concept>
     <code value="SM71"/>
@@ -1635,6 +1971,10 @@
     <property>
       <code value="dateMaj"/>
       <valueDateTime value="2019-02-22T12:00:00+01:00"/>
+    </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
     </property>
   </concept>
   <concept>
@@ -1656,6 +1996,10 @@
       <code value="dateMaj"/>
       <valueDateTime value="2019-02-22T12:00:00+01:00"/>
     </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
+    </property>
   </concept>
   <concept>
     <code value="SM73"/>
@@ -1675,6 +2019,10 @@
     <property>
       <code value="dateMaj"/>
       <valueDateTime value="2023-10-30T12:00:00+01:00"/>
+    </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
     </property>
   </concept>
   <concept>
@@ -1704,6 +2052,10 @@
       <code value="dateMaj"/>
       <valueDateTime value="2024-05-31T12:00:00+01:00"/>
     </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
+    </property>
   </concept>
   <concept>
     <code value="SM75"/>
@@ -1723,6 +2075,10 @@
     <property>
       <code value="dateMaj"/>
       <valueDateTime value="2023-10-30T12:00:00+01:00"/>
+    </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
     </property>
   </concept>
   <concept>
@@ -1752,6 +2108,10 @@
       <code value="dateMaj"/>
       <valueDateTime value="2024-05-31T12:00:00+01:00"/>
     </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
+    </property>
   </concept>
   <concept>
     <code value="SM77"/>
@@ -1779,6 +2139,10 @@
     <property>
       <code value="dateMaj"/>
       <valueDateTime value="2024-05-31T12:00:00+01:00"/>
+    </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
     </property>
   </concept>
   <concept>
@@ -1808,6 +2172,10 @@
       <code value="dateMaj"/>
       <valueDateTime value="2024-05-31T12:00:00+01:00"/>
     </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
+    </property>
   </concept>
   <concept>
     <code value="SM79"/>
@@ -1835,6 +2203,10 @@
     <property>
       <code value="dateMaj"/>
       <valueDateTime value="2024-05-31T12:00:00+01:00"/>
+    </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
     </property>
   </concept>
   <concept>
@@ -1864,6 +2236,10 @@
       <code value="dateMaj"/>
       <valueDateTime value="2024-05-31T12:00:00+01:00"/>
     </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
+    </property>
   </concept>
   <concept>
     <code value="SM81"/>
@@ -1891,6 +2267,10 @@
     <property>
       <code value="dateMaj"/>
       <valueDateTime value="2024-05-31T12:00:00+01:00"/>
+    </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
     </property>
   </concept>
   <concept>
@@ -1920,6 +2300,10 @@
       <code value="dateMaj"/>
       <valueDateTime value="2024-05-31T12:00:00+01:00"/>
     </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
+    </property>
   </concept>
   <concept>
     <code value="SM83"/>
@@ -1939,6 +2323,10 @@
     <property>
       <code value="dateMaj"/>
       <valueDateTime value="2024-05-31T12:00:00+01:00"/>
+    </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
     </property>
   </concept>
   <concept>
@@ -1968,6 +2356,10 @@
       <code value="dateMaj"/>
       <valueDateTime value="2024-05-31T12:00:00+01:00"/>
     </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
+    </property>
   </concept>
   <concept>
     <code value="SM85"/>
@@ -1995,6 +2387,10 @@
     <property>
       <code value="dateMaj"/>
       <valueDateTime value="2024-05-31T12:00:00+01:00"/>
+    </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
     </property>
   </concept>
   <concept>
@@ -2024,6 +2420,10 @@
       <code value="dateMaj"/>
       <valueDateTime value="2024-05-31T12:00:00+01:00"/>
     </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
+    </property>
   </concept>
   <concept>
     <code value="SM87"/>
@@ -2043,6 +2443,10 @@
     <property>
       <code value="dateMaj"/>
       <valueDateTime value="2024-05-31T12:00:00+01:00"/>
+    </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
     </property>
   </concept>
   <concept>
@@ -2064,6 +2468,10 @@
       <code value="dateMaj"/>
       <valueDateTime value="2024-05-31T12:00:00+01:00"/>
     </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
+    </property>
   </concept>
   <concept>
     <code value="SM89"/>
@@ -2083,6 +2491,10 @@
     <property>
       <code value="dateMaj"/>
       <valueDateTime value="2024-05-31T12:00:00+01:00"/>
+    </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
     </property>
   </concept>
   <concept>
@@ -2104,6 +2516,10 @@
       <code value="dateMaj"/>
       <valueDateTime value="2024-05-31T12:00:00+01:00"/>
     </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
+    </property>
   </concept>
   <concept>
     <code value="SM91"/>
@@ -2124,6 +2540,10 @@
       <code value="dateMaj"/>
       <valueDateTime value="2024-05-31T12:00:00+01:00"/>
     </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
+    </property>
   </concept>
   <concept>
     <code value="SM92"/>
@@ -2143,6 +2563,10 @@
     <property>
       <code value="dateMaj"/>
       <valueDateTime value="2024-05-31T12:00:00+01:00"/>
+    </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
     </property>
   </concept>
   <concept>
@@ -2172,6 +2596,10 @@
       <code value="dateMaj"/>
       <valueDateTime value="2024-05-31T12:00:00+01:00"/>
     </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
+    </property>
   </concept>
   <concept>
     <code value="SM94"/>
@@ -2200,6 +2628,10 @@
       <code value="dateMaj"/>
       <valueDateTime value="2024-05-31T12:00:00+01:00"/>
     </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
+    </property>
   </concept>
   <concept>
     <code value="SM95"/>
@@ -2219,6 +2651,10 @@
     <property>
       <code value="dateMaj"/>
       <valueDateTime value="2024-05-31T12:00:00+01:00"/>
+    </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
     </property>
   </concept>
   <concept>
@@ -2244,6 +2680,14 @@
       <code value="dateMaj"/>
       <valueDateTime value="2018-03-30T12:00:00+01:00"/>
     </property>
+    <property>
+      <code value="deprecationDate"/>
+      <valueDateTime value="2018-03-30T12:00:00+01:00"/>
+    </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="deprecated"/>
+    </property>
   </concept>
   <concept>
     <code value="SP02"/>
@@ -2267,6 +2711,14 @@
     <property>
       <code value="dateMaj"/>
       <valueDateTime value="2018-03-30T12:00:00+01:00"/>
+    </property>
+    <property>
+      <code value="deprecationDate"/>
+      <valueDateTime value="2018-03-30T12:00:00+01:00"/>
+    </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="deprecated"/>
     </property>
   </concept>
   <concept>
@@ -2292,6 +2744,14 @@
       <code value="dateMaj"/>
       <valueDateTime value="2018-03-30T12:00:00+01:00"/>
     </property>
+    <property>
+      <code value="deprecationDate"/>
+      <valueDateTime value="2018-03-30T12:00:00+01:00"/>
+    </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="deprecated"/>
+    </property>
   </concept>
   <concept>
     <code value="SP04"/>
@@ -2315,6 +2775,14 @@
     <property>
       <code value="dateMaj"/>
       <valueDateTime value="2018-03-30T12:00:00+01:00"/>
+    </property>
+    <property>
+      <code value="deprecationDate"/>
+      <valueDateTime value="2018-03-30T12:00:00+01:00"/>
+    </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="deprecated"/>
     </property>
   </concept>
 </CodeSystem>

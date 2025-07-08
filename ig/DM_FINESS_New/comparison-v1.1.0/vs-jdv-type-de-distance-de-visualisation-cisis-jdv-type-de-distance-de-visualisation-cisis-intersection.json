@@ -1,0 +1,25 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "dc7425aa-2d2f-4b7e-9ce2-4d8f876abacc-2832",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/dc7425aa-2d2f-4b7e-9ce2-4d8f876abacc-2832",
+  "name" : "IntersectionJdvTypeDeDistanceDeVisualisationCisisAndJdvTypeDeDistanceDeVisualisationCisis",
+  "title" : "Intersection of JDV Type De Distance De Visualisation CISIS And JDV Type De Distance De Visualisation CISIS",
+  "status" : "active",
+  "date" : "2025-07-08T14:29:06+00:00",
+  "compose" : {
+    "include" : [{
+      "concept" : [{
+        "code" : "251743004",
+        "display" : "acuité visuelle de près"
+      },
+      {
+        "code" : "251739003",
+        "display" : "acuité visuelle à distance"
+      },
+      {
+        "code" : "418553009",
+        "display" : "acuité visuelle intermédiaire"
+      }]
+    }]
+  }
+}

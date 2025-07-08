@@ -1,0 +1,47 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "dc7425aa-2d2f-4b7e-9ce2-4d8f876abacc-2279",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/dc7425aa-2d2f-4b7e-9ce2-4d8f876abacc-2279",
+  "name" : "UnionJdvModaliteSortieCisisAndJdvModaliteSortieCisis",
+  "title" : "Union of JDV Modalite Sortie CISIS And JDV Modalite Sortie CISIS",
+  "status" : "active",
+  "date" : "2025-07-08T14:29:06+00:00",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "FR"
+    }]
+  }],
+  "compose" : {
+    "include" : [{
+      "concept" : [{
+        "code" : "GEN-092.06.01",
+        "display" : "Autre établissement de santé"
+      },
+      {
+        "code" : "GEN-092.06.03",
+        "display" : "Autre destination"
+      }]
+    },
+    {
+      "concept" : [{
+        "code" : "109",
+        "display" : "Etablissement de santé privé autorisé en SSR"
+      },
+      {
+        "code" : "127",
+        "display" : "Hospitalisation à Domicile"
+      },
+      {
+        "code" : "500",
+        "display" : "Etablissement d'hébergement pour personnes âgées dépendantes"
+      }]
+    },
+    {
+      "concept" : [{
+        "code" : "160849004",
+        "display" : "retour au domicile"
+      }]
+    }]
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "dc7425aa-2d2f-4b7e-9ce2-4d8f876abacc-1809",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/dc7425aa-2d2f-4b7e-9ce2-4d8f876abacc-1809",
+  "name" : "IntersectionJdvConduiteATenir3CisisAndJdvConduiteATenir3Cisis",
+  "title" : "Intersection of JDV Conduite A Tenir 3 CISIS And JDV Conduite A Tenir 3 CISIS",
+  "status" : "active",
+  "date" : "2025-07-08T14:29:06+00:00",
+  "compose" : {
+    "include" : [{
+      "concept" : [{
+        "code" : "MED-012",
+        "display" : "Avis spécialisé"
+      }]
+    },
+    {
+      "concept" : [{
+        "code" : "MR",
+        "display" : "IRM"
+      }]
+    },
+    {
+      "concept" : [{
+        "code" : "17636008",
+        "display" : "prélèvement d'échantillons"
+      }]
+    }]
+  }
+}
