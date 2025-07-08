@@ -90,7 +90,7 @@ async def main():
         if(not os.path.isfile('../DM/fsh-generated/resources/ConceptMap-'+ e_valueSet["id"] + ".json")) :
             ConceptMap = await client.reference('ConceptMap', e_conceptMaps ["id"]).to_resource()
             f =  open('../input/ontoserver/ASS/'+ e_conceptMaps["name"] + ".json", "w", encoding="utf-8") 
-            if((e_conceptMaps["name"].startswith("alignement"))   :
+            if(e_conceptMaps["name"].startswith("alignement"))   :
                 e_conceptMaps["content"] = "not-present"
                 f.write(json.dumps(e_conceptMaps))  
             else :
