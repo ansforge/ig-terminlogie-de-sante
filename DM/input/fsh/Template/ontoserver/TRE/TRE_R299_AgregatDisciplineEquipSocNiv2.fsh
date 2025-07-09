@@ -1,8 +1,8 @@
 CodeSystem: TRE_R299_AgregatDisciplineEquipSocNiv2
 Id: TRE-R299-AgregatDisciplineEquipSocNiv2
 Description: "Agrégats de disciplines d'équipement pour le social niveau 2"
-* ^meta.versionId = "4"
-* ^meta.lastUpdated = "2024-08-28T05:13:16.137+00:00"
+* ^meta.versionId = "5"
+* ^meta.lastUpdated = "2025-07-02T18:17:21.288+00:00"
 * ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablecodesystem"
 * ^extension.url = "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod"
 * ^extension.valuePeriod.start = "2020-06-26T12:00:00+01:00"
@@ -14,6 +14,7 @@ Description: "Agrégats de disciplines d'équipement pour le social niveau 2"
 * ^experimental = false
 * ^date = "2023-12-15T12:00:00+01:00"
 * ^publisher = "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris"
+* ^jurisdiction = urn:iso:std:iso:3166#FR
 * ^caseSensitive = false
 * ^content = #complete
 * ^property[0].code = #dateValid
@@ -25,16 +26,32 @@ Description: "Agrégats de disciplines d'équipement pour le social niveau 2"
 * ^property[+].code = #dateFin
 * ^property[=].description = "Date de fin d'exploitation d'un code concept"
 * ^property[=].type = #dateTime
+* ^property[+].code = #deprecationDate
+* ^property[=].uri = "http://hl7.org/fhir/concept-properties#deprecationDate"
+* ^property[=].description = "Date Concept was deprecated"
+* ^property[=].type = #dateTime
+* ^property[+].code = #status
+* ^property[=].uri = "http://hl7.org/fhir/concept-properties#status"
+* ^property[=].description = "A property that indicates the status of the concept."
+* ^property[=].type = #code
+* ^property[+].code = #retirementDate
+* ^property[=].uri = "http://hl7.org/fhir/concept-properties#retirementDate"
+* ^property[=].description = "Date Concept was retired"
+* ^property[=].type = #dateTime
 * #4300 "Adultes handicapés"
 * #4300 ^property[0].code = #dateValid
 * #4300 ^property[=].valueDateTime = "2020-06-26T12:00:00+01:00"
 * #4300 ^property[+].code = #dateMaj
 * #4300 ^property[=].valueDateTime = "2020-06-26T12:00:00+01:00"
+* #4300 ^property[+].code = #status
+* #4300 ^property[=].valueCode = #active
 * #4400 "Personnes âgées"
 * #4400 ^property[0].code = #dateValid
 * #4400 ^property[=].valueDateTime = "2020-06-26T12:00:00+01:00"
 * #4400 ^property[+].code = #dateMaj
 * #4400 ^property[=].valueDateTime = "2020-06-26T12:00:00+01:00"
+* #4400 ^property[+].code = #status
+* #4400 ^property[=].valueCode = #active
 * #4500 "Protection de l'enfance"
 * #4500 ^designation.language = #fr-FR
 * #4500 ^designation.use.system = "http://snomed.info/sct"
@@ -44,21 +61,29 @@ Description: "Agrégats de disciplines d'équipement pour le social niveau 2"
 * #4500 ^property[=].valueDateTime = "2020-06-26T12:00:00+01:00"
 * #4500 ^property[+].code = #dateMaj
 * #4500 ^property[=].valueDateTime = "2020-06-26T12:00:00+01:00"
+* #4500 ^property[+].code = #status
+* #4500 ^property[=].valueCode = #active
 * #4600 "Action sociale autres adultes"
 * #4600 ^property[0].code = #dateValid
 * #4600 ^property[=].valueDateTime = "2020-06-26T12:00:00+01:00"
 * #4600 ^property[+].code = #dateMaj
 * #4600 ^property[=].valueDateTime = "2020-06-26T12:00:00+01:00"
+* #4600 ^property[+].code = #status
+* #4600 ^property[=].valueCode = #active
 * #4700 "Enfance handicapée"
 * #4700 ^property[0].code = #dateValid
 * #4700 ^property[=].valueDateTime = "2020-06-26T12:00:00+01:00"
 * #4700 ^property[+].code = #dateMaj
 * #4700 ^property[=].valueDateTime = "2020-06-26T12:00:00+01:00"
+* #4700 ^property[+].code = #status
+* #4700 ^property[=].valueCode = #active
 * #4800 "Aide à la famille"
 * #4800 ^property[0].code = #dateValid
 * #4800 ^property[=].valueDateTime = "2020-06-26T12:00:00+01:00"
 * #4800 ^property[+].code = #dateMaj
 * #4800 ^property[=].valueDateTime = "2020-06-26T12:00:00+01:00"
+* #4800 ^property[+].code = #status
+* #4800 ^property[=].valueCode = #active
 * #4900 "Autres services du domaine social"
 * #4900 ^designation.language = #fr-FR
 * #4900 ^designation.use = $sct#900000000000013009
@@ -67,3 +92,5 @@ Description: "Agrégats de disciplines d'équipement pour le social niveau 2"
 * #4900 ^property[=].valueDateTime = "2020-06-26T12:00:00+01:00"
 * #4900 ^property[+].code = #dateMaj
 * #4900 ^property[=].valueDateTime = "2020-06-26T12:00:00+01:00"
+* #4900 ^property[+].code = #status
+* #4900 ^property[=].valueCode = #active

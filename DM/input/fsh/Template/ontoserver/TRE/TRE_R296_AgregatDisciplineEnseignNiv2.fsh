@@ -1,8 +1,8 @@
 CodeSystem: TRE_R296_AgregatDisciplineEnseignNiv2
 Id: TRE-R296-AgregatDisciplineEnseignNiv2
 Description: "Agrégats de disciplines pour l'enseignement niveau 2"
-* ^meta.versionId = "4"
-* ^meta.lastUpdated = "2024-08-28T05:13:14.420+00:00"
+* ^meta.versionId = "5"
+* ^meta.lastUpdated = "2025-07-02T18:17:19.541+00:00"
 * ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablecodesystem"
 * ^extension.url = "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod"
 * ^extension.valuePeriod.start = "2020-06-26T12:00:00+01:00"
@@ -14,6 +14,7 @@ Description: "Agrégats de disciplines pour l'enseignement niveau 2"
 * ^experimental = false
 * ^date = "2023-12-15T12:00:00+01:00"
 * ^publisher = "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris"
+* ^jurisdiction = urn:iso:std:iso:3166#FR
 * ^caseSensitive = false
 * ^content = #complete
 * ^property[0].code = #dateValid
@@ -25,6 +26,18 @@ Description: "Agrégats de disciplines pour l'enseignement niveau 2"
 * ^property[+].code = #dateFin
 * ^property[=].description = "Date de fin d'exploitation d'un code concept"
 * ^property[=].type = #dateTime
+* ^property[+].code = #deprecationDate
+* ^property[=].uri = "http://hl7.org/fhir/concept-properties#deprecationDate"
+* ^property[=].description = "Date Concept was deprecated"
+* ^property[=].type = #dateTime
+* ^property[+].code = #status
+* ^property[=].uri = "http://hl7.org/fhir/concept-properties#status"
+* ^property[=].description = "A property that indicates the status of the concept."
+* ^property[=].type = #code
+* ^property[+].code = #retirementDate
+* ^property[=].uri = "http://hl7.org/fhir/concept-properties#retirementDate"
+* ^property[=].description = "Date Concept was retired"
+* ^property[=].type = #dateTime
 * #2200 "Services Spécialisés d'Enseignement"
 * #2200 ^designation.language = #fr-FR
 * #2200 ^designation.use = $sct#900000000000013009
@@ -33,3 +46,5 @@ Description: "Agrégats de disciplines pour l'enseignement niveau 2"
 * #2200 ^property[=].valueDateTime = "2020-06-26T12:00:00+01:00"
 * #2200 ^property[+].code = #dateMaj
 * #2200 ^property[=].valueDateTime = "2020-06-26T12:00:00+01:00"
+* #2200 ^property[+].code = #status
+* #2200 ^property[=].valueCode = #active

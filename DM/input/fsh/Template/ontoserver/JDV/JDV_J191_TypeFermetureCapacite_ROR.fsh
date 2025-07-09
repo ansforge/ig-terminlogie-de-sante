@@ -1,9 +1,10 @@
 ValueSet: JDV_J191_TypeFermetureCapacite_ROR
 Id: JDV-J191-TypeFermetureCapacite-ROR
 Description: "Permet d'indiquer dans le ROR le statut de lits fermés, afin d'identifier le nombre de lits fermés qui peuvent être réactivés en cas de besoin et le nombre de ceux qui ne peuvent pas l'être"
-* ^meta.versionId = "3"
-* ^meta.lastUpdated = "2024-04-27T05:07:10.894+00:00"
+* ^meta.versionId = "4"
+* ^meta.lastUpdated = "2025-07-02T17:05:39.217+00:00"
 * ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablevalueset"
+* ^language = #fr-FR
 * ^extension.url = "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod"
 * ^extension.valuePeriod.start = "2022-05-27T12:00:00+01:00"
 * ^url = "https://mos.esante.gouv.fr/NOS/JDV_J191-TypeFermetureCapacite-ROR/FHIR/JDV-J191-TypeFermetureCapacite-ROR"
@@ -14,6 +15,7 @@ Description: "Permet d'indiquer dans le ROR le statut de lits fermés, afin d'id
 * ^experimental = false
 * ^date = "2022-05-27T12:00:00+01:00"
 * ^publisher = "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris"
+* ^jurisdiction = urn:iso:std:iso:3166#FR
 * $TRE-R333-TypeFermetureCapacite#01 "Réactivable"
 * $TRE-R333-TypeFermetureCapacite#02 "Non réactivable"
 * $TRE-R333-TypeFermetureCapacite#03 "Indéterminé"

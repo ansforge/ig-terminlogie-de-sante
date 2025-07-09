@@ -1,9 +1,10 @@
 ValueSet: JDV_J147_MethodHeartrate_ENS
 Id: JDV-J147-MethodHeartrate-ENS
 Description: "JDV pour la méthode de mesure de fréquence cardiaque"
-* ^meta.versionId = "4"
-* ^meta.lastUpdated = "2024-08-22T13:06:09.772+00:00"
+* ^meta.versionId = "5"
+* ^meta.lastUpdated = "2025-07-02T17:05:09.126+00:00"
 * ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablevalueset"
+* ^language = #fr-FR
 * ^extension.url = "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod"
 * ^extension.valuePeriod.start = "2021-04-30T12:00:00+01:00"
 * ^url = "https://mos.esante.gouv.fr/NOS/JDV_J147-MethodHeartrate-ENS/FHIR/JDV-J147-MethodHeartrate-ENS"
@@ -14,6 +15,7 @@ Description: "JDV pour la méthode de mesure de fréquence cardiaque"
 * ^experimental = false
 * ^date = "2024-07-26T12:00:00+01:00"
 * ^publisher = "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris"
+* ^jurisdiction = urn:iso:std:iso:3166#FR
 * $terminologie-emdn#C0205 "DISPOSITIFS CARDIAQUES À VISÉE DIAGNOSTIQUE"
 * $terminologie-emdn#Y210905 "INTERFACES DE CAPTEURS EXTERNES"
 * $terminologie-emdn#Z12030205 "TENSIOMÈTRES NON INVASIFS"

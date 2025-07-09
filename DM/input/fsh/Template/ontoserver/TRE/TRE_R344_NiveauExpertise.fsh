@@ -1,21 +1,23 @@
 CodeSystem: TRE_R344_NiveauExpertise
 Id: TRE-R344-NiveauExpertise
 Description: "Le niveau d'expertise atteste du niveau de ressources humaines et matérielles engagées dans la réalisation de l'offre et défini dans un cahier des charges officiel."
-* ^meta.versionId = "12"
-* ^meta.lastUpdated = "2025-04-25T18:12:45.703+00:00"
+* ^meta.versionId = "14"
+* ^meta.lastUpdated = "2025-07-02T18:17:43.832+00:00"
 * ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablecodesystem"
 * ^extension.url = "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod"
 * ^extension.valuePeriod.start = "2023-03-31T12:00:00+01:00"
 * ^url = "https://mos.esante.gouv.fr/NOS/TRE_R344-NiveauExpertise/FHIR/TRE-R344-NiveauExpertise"
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value = "urn:oid:1.2.250.1.213.3.3.228"
-* ^version = "20250425120000"
+* ^version = "20250623120000"
 * ^status = #active
 * ^experimental = false
-* ^date = "2025-04-25T12:00:00+01:00"
+* ^date = "2025-06-23T12:00:00+01:00"
 * ^publisher = "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris"
+* ^jurisdiction = urn:iso:std:iso:3166#FR
 * ^caseSensitive = false
 * ^content = #complete
+* ^count = 33
 * ^property[0].code = #dateValid
 * ^property[=].description = "date de validité d'un code concept"
 * ^property[=].type = #dateTime
@@ -359,7 +361,7 @@ Description: "Le niveau d'expertise atteste du niveau de ressources humaines et 
 * #38 ^property[=].valueDateTime = "2024-07-26T12:00:00+01:00"
 * #38 ^property[+].code = #status
 * #38 ^property[=].valueCode = #active
-* #39 "Filière Obésité - Niveau 1 Conventionné Centres Spécialisés Obésité (CSO)"
+* #39 "Filière Obésité - Niveau 1 Conventionné Centres Spécialisés Obésité (CSO)" "Intervention de premier niveau de recours dans la filière de soin coordonnée obésité, devant être conventionnée avec un centre spécialisé obésité (CSO)."
 * #39 ^designation[0].language = #fr-FR
 * #39 ^designation[=].use.system = "http://snomed.info/sct"
 * #39 ^designation[=].use = $sct#900000000000013009
@@ -367,7 +369,7 @@ Description: "Le niveau d'expertise atteste du niveau de ressources humaines et 
 * #39 ^property[0].code = #dateValid
 * #39 ^property[=].valueDateTime = "2024-12-13T12:00:00+01:00"
 * #39 ^property[+].code = #dateMaj
-* #39 ^property[=].valueDateTime = "2025-01-31T12:00:00+01:00"
+* #39 ^property[=].valueDateTime = "2025-06-23T12:00:00+01:00"
 * #39 ^property[+].code = #status
 * #39 ^property[=].valueCode = #active
 * #40 "Filière Obésité - Niveau 2 Conventionné Centres Spécialisés Obésité (CSO)"

@@ -1,8 +1,8 @@
 CodeSystem: TRE_R43_CapaciteSavoirFaire
 Id: TRE-R43-CapaciteSavoirFaire
 Description: "Capacité (savoir-faire)"
-* ^meta.versionId = "4"
-* ^meta.lastUpdated = "2024-08-28T05:13:51.765+00:00"
+* ^meta.versionId = "5"
+* ^meta.lastUpdated = "2025-07-02T18:18:06.757+00:00"
 * ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablecodesystem"
 * ^extension.url = "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod"
 * ^extension.valuePeriod.start = "2013-06-28T00:00:00+01:00"
@@ -14,6 +14,7 @@ Description: "Capacité (savoir-faire)"
 * ^experimental = false
 * ^date = "2023-12-15T12:00:00+01:00"
 * ^publisher = "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris"
+* ^jurisdiction = urn:iso:std:iso:3166#FR
 * ^caseSensitive = false
 * ^content = #complete
 * ^property[0].code = #dateValid
@@ -25,6 +26,18 @@ Description: "Capacité (savoir-faire)"
 * ^property[+].code = #dateFin
 * ^property[=].description = "Date de fin d'exploitation d'un code concept"
 * ^property[=].type = #dateTime
+* ^property[+].code = #deprecationDate
+* ^property[=].uri = "http://hl7.org/fhir/concept-properties#deprecationDate"
+* ^property[=].description = "Date Concept was deprecated"
+* ^property[=].type = #dateTime
+* ^property[+].code = #status
+* ^property[=].uri = "http://hl7.org/fhir/concept-properties#status"
+* ^property[=].description = "A property that indicates the status of the concept."
+* ^property[=].type = #code
+* ^property[+].code = #retirementDate
+* ^property[=].uri = "http://hl7.org/fhir/concept-properties#retirementDate"
+* ^property[=].description = "Date Concept was retired"
+* ^property[=].type = #dateTime
 * #CAPA01 "Addictologie clinique (CAPA)"
 * #CAPA01 ^designation.language = #fr-FR
 * #CAPA01 ^designation.use.system = "http://snomed.info/sct"
@@ -34,6 +47,8 @@ Description: "Capacité (savoir-faire)"
 * #CAPA01 ^property[=].valueDateTime = "2007-09-26T15:08:46+01:00"
 * #CAPA01 ^property[+].code = #dateMaj
 * #CAPA01 ^property[=].valueDateTime = "2016-09-01T00:00:00+01:00"
+* #CAPA01 ^property[+].code = #status
+* #CAPA01 ^property[=].valueCode = #active
 * #CAPA02 "Aide médicale urgente (CAPA)"
 * #CAPA02 ^designation.language = #fr-FR
 * #CAPA02 ^designation.use.system = "http://snomed.info/sct"
@@ -43,6 +58,8 @@ Description: "Capacité (savoir-faire)"
 * #CAPA02 ^property[=].valueDateTime = "2007-09-26T15:08:47+01:00"
 * #CAPA02 ^property[+].code = #dateMaj
 * #CAPA02 ^property[=].valueDateTime = "2016-09-01T00:00:00+01:00"
+* #CAPA02 ^property[+].code = #status
+* #CAPA02 ^property[=].valueCode = #active
 * #CAPA03 "Allergologie (CAPA)"
 * #CAPA03 ^designation.language = #fr-FR
 * #CAPA03 ^designation.use.system = "http://snomed.info/sct"
@@ -52,6 +69,8 @@ Description: "Capacité (savoir-faire)"
 * #CAPA03 ^property[=].valueDateTime = "2007-09-26T15:08:47+01:00"
 * #CAPA03 ^property[+].code = #dateMaj
 * #CAPA03 ^property[=].valueDateTime = "2008-02-28T00:00:00+01:00"
+* #CAPA03 ^property[+].code = #status
+* #CAPA03 ^property[=].valueCode = #active
 * #CAPA04 "Angéiologie (CAPA)"
 * #CAPA04 ^designation.language = #fr-FR
 * #CAPA04 ^designation.use.system = "http://snomed.info/sct"
@@ -61,6 +80,8 @@ Description: "Capacité (savoir-faire)"
 * #CAPA04 ^property[=].valueDateTime = "2007-09-26T15:08:47+01:00"
 * #CAPA04 ^property[+].code = #dateMaj
 * #CAPA04 ^property[=].valueDateTime = "2008-02-28T00:00:00+01:00"
+* #CAPA04 ^property[+].code = #status
+* #CAPA04 ^property[=].valueCode = #active
 * #CAPA05 "Evaluation et Traitement de la douleur (CAPA)"
 * #CAPA05 ^designation.language = #fr-FR
 * #CAPA05 ^designation.use.system = "http://snomed.info/sct"
@@ -70,6 +91,8 @@ Description: "Capacité (savoir-faire)"
 * #CAPA05 ^property[=].valueDateTime = "2007-09-26T15:08:47+01:00"
 * #CAPA05 ^property[+].code = #dateMaj
 * #CAPA05 ^property[=].valueDateTime = "2016-09-01T00:00:00+01:00"
+* #CAPA05 ^property[+].code = #status
+* #CAPA05 ^property[=].valueCode = #active
 * #CAPA06 "Gérontologie (CAPA)"
 * #CAPA06 ^designation.language = #fr-FR
 * #CAPA06 ^designation.use.system = "http://snomed.info/sct"
@@ -79,6 +102,8 @@ Description: "Capacité (savoir-faire)"
 * #CAPA06 ^property[=].valueDateTime = "2007-09-26T15:08:47+01:00"
 * #CAPA06 ^property[+].code = #dateMaj
 * #CAPA06 ^property[=].valueDateTime = "2008-02-28T00:00:00+01:00"
+* #CAPA06 ^property[+].code = #status
+* #CAPA06 ^property[=].valueCode = #active
 * #CAPA07 "Hydrologie et Climatologie médicales (CAPA)"
 * #CAPA07 ^designation.language = #fr-FR
 * #CAPA07 ^designation.use.system = "http://snomed.info/sct"
@@ -88,6 +113,8 @@ Description: "Capacité (savoir-faire)"
 * #CAPA07 ^property[=].valueDateTime = "2007-09-26T15:08:47+01:00"
 * #CAPA07 ^property[+].code = #dateMaj
 * #CAPA07 ^property[=].valueDateTime = "2008-02-28T00:00:00+01:00"
+* #CAPA07 ^property[+].code = #status
+* #CAPA07 ^property[=].valueCode = #active
 * #CAPA08 "Médecine aérospatiale (CAPA)"
 * #CAPA08 ^designation.language = #fr-FR
 * #CAPA08 ^designation.use.system = "http://snomed.info/sct"
@@ -97,6 +124,8 @@ Description: "Capacité (savoir-faire)"
 * #CAPA08 ^property[=].valueDateTime = "2007-09-26T15:08:47+01:00"
 * #CAPA08 ^property[+].code = #dateMaj
 * #CAPA08 ^property[=].valueDateTime = "2016-09-01T00:00:00+01:00"
+* #CAPA08 ^property[+].code = #status
+* #CAPA08 ^property[=].valueCode = #active
 * #CAPA09 "Médecine de catastrophe (CAPA)"
 * #CAPA09 ^designation.language = #fr-FR
 * #CAPA09 ^designation.use.system = "http://snomed.info/sct"
@@ -106,6 +135,8 @@ Description: "Capacité (savoir-faire)"
 * #CAPA09 ^property[=].valueDateTime = "2007-09-26T15:08:47+01:00"
 * #CAPA09 ^property[+].code = #dateMaj
 * #CAPA09 ^property[=].valueDateTime = "2016-09-01T00:00:00+01:00"
+* #CAPA09 ^property[+].code = #status
+* #CAPA09 ^property[=].valueCode = #active
 * #CAPA10 "Médecine et Biologie du sport (CAPA)"
 * #CAPA10 ^designation.language = #fr-FR
 * #CAPA10 ^designation.use.system = "http://snomed.info/sct"
@@ -115,6 +146,8 @@ Description: "Capacité (savoir-faire)"
 * #CAPA10 ^property[=].valueDateTime = "2007-09-26T15:08:47+01:00"
 * #CAPA10 ^property[+].code = #dateMaj
 * #CAPA10 ^property[=].valueDateTime = "2016-09-01T00:00:00+01:00"
+* #CAPA10 ^property[+].code = #status
+* #CAPA10 ^property[=].valueCode = #active
 * #CAPA11 "Médecine de santé au travail et Prévention des risques professionnels (CAPA)"
 * #CAPA11 ^designation.language = #fr-FR
 * #CAPA11 ^designation.use.system = "http://snomed.info/sct"
@@ -124,6 +157,8 @@ Description: "Capacité (savoir-faire)"
 * #CAPA11 ^property[=].valueDateTime = "2007-09-26T15:08:47+01:00"
 * #CAPA11 ^property[+].code = #dateMaj
 * #CAPA11 ^property[=].valueDateTime = "2016-09-01T00:00:00+01:00"
+* #CAPA11 ^property[+].code = #status
+* #CAPA11 ^property[=].valueCode = #active
 * #CAPA12 "Médecine pénitentiaire (CAPA)"
 * #CAPA12 ^designation.language = #fr-FR
 * #CAPA12 ^designation.use.system = "http://snomed.info/sct"
@@ -133,6 +168,8 @@ Description: "Capacité (savoir-faire)"
 * #CAPA12 ^property[=].valueDateTime = "2007-09-26T15:08:47+01:00"
 * #CAPA12 ^property[+].code = #dateMaj
 * #CAPA12 ^property[=].valueDateTime = "2016-09-01T00:00:00+01:00"
+* #CAPA12 ^property[+].code = #status
+* #CAPA12 ^property[=].valueCode = #active
 * #CAPA13 "Médecine tropicale (CAPA)"
 * #CAPA13 ^designation.language = #fr-FR
 * #CAPA13 ^designation.use.system = "http://snomed.info/sct"
@@ -142,6 +179,8 @@ Description: "Capacité (savoir-faire)"
 * #CAPA13 ^property[=].valueDateTime = "2007-09-26T15:08:47+01:00"
 * #CAPA13 ^property[+].code = #dateMaj
 * #CAPA13 ^property[=].valueDateTime = "2008-02-28T00:00:00+01:00"
+* #CAPA13 ^property[+].code = #status
+* #CAPA13 ^property[=].valueCode = #active
 * #CAPA14 "Pratiques médico-judiciaires (CAPA)"
 * #CAPA14 ^designation.language = #fr-FR
 * #CAPA14 ^designation.use.system = "http://snomed.info/sct"
@@ -151,6 +190,8 @@ Description: "Capacité (savoir-faire)"
 * #CAPA14 ^property[=].valueDateTime = "2007-09-26T15:08:46+01:00"
 * #CAPA14 ^property[+].code = #dateMaj
 * #CAPA14 ^property[=].valueDateTime = "2016-09-01T00:00:00+01:00"
+* #CAPA14 ^property[+].code = #status
+* #CAPA14 ^property[=].valueCode = #active
 * #CAPA15 "Technologie transfusionnelle (CAPA)"
 * #CAPA15 ^designation.language = #fr-FR
 * #CAPA15 ^designation.use.system = "http://snomed.info/sct"
@@ -160,6 +201,8 @@ Description: "Capacité (savoir-faire)"
 * #CAPA15 ^property[=].valueDateTime = "2007-09-26T15:08:46+01:00"
 * #CAPA15 ^property[+].code = #dateMaj
 * #CAPA15 ^property[=].valueDateTime = "2016-09-01T00:00:00+01:00"
+* #CAPA15 ^property[+].code = #status
+* #CAPA15 ^property[=].valueCode = #active
 * #CAPA16 "Toxicomanies et Alcoologies (CAPA)"
 * #CAPA16 ^designation.language = #fr-FR
 * #CAPA16 ^designation.use = $sct#900000000000013009
@@ -168,3 +211,5 @@ Description: "Capacité (savoir-faire)"
 * #CAPA16 ^property[=].valueDateTime = "2007-09-26T15:08:46+01:00"
 * #CAPA16 ^property[+].code = #dateMaj
 * #CAPA16 ^property[=].valueDateTime = "2016-09-01T00:00:00+01:00"
+* #CAPA16 ^property[+].code = #status
+* #CAPA16 ^property[=].valueCode = #active

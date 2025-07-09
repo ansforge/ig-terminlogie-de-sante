@@ -1,9 +1,10 @@
 ValueSet: JDV_J82_Langue_RASS
 Id: JDV-J82-Langue-RASS
 Description: "Langues (codes ISO-639) des professionnels du RASS"
-* ^meta.versionId = "4"
-* ^meta.lastUpdated = "2024-09-29T19:01:29.376+00:00"
+* ^meta.versionId = "5"
+* ^meta.lastUpdated = "2025-07-02T17:06:51.471+00:00"
 * ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablevalueset"
+* ^language = #fr-FR
 * ^extension.url = "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod"
 * ^extension.valuePeriod.start = "2019-08-30T12:00:00+01:00"
 * ^url = "https://mos.esante.gouv.fr/NOS/JDV_J82-Langue-RASS/FHIR/JDV-J82-Langue-RASS"
@@ -14,6 +15,7 @@ Description: "Langues (codes ISO-639) des professionnels du RASS"
 * ^experimental = false
 * ^date = "2024-09-27T12:00:00+01:00"
 * ^publisher = "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris"
+* ^jurisdiction = urn:iso:std:iso:3166#FR
 * $TRE-G00-Langue#aa "afar"
 * $TRE-G00-Langue#ab "abkhaze, abkhazien"
 * $TRE-G00-Langue#ae "avestique"

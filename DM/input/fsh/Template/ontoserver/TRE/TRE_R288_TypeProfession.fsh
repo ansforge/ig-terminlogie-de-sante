@@ -1,8 +1,8 @@
 CodeSystem: TRE_R288_TypeProfession
 Id: TRE-R288-TypeProfession
 Description: "Type de profession"
-* ^meta.versionId = "4"
-* ^meta.lastUpdated = "2024-08-28T05:13:09.933+00:00"
+* ^meta.versionId = "5"
+* ^meta.lastUpdated = "2025-07-02T18:17:15.048+00:00"
 * ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablecodesystem"
 * ^extension.url = "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod"
 * ^extension.valuePeriod.start = "2019-03-29T12:00:00+01:00"
@@ -14,6 +14,7 @@ Description: "Type de profession"
 * ^experimental = false
 * ^date = "2023-12-15T12:00:00+01:00"
 * ^publisher = "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris"
+* ^jurisdiction = urn:iso:std:iso:3166#FR
 * ^caseSensitive = false
 * ^content = #complete
 * ^property[0].code = #dateValid
@@ -24,6 +25,18 @@ Description: "Type de profession"
 * ^property[=].type = #dateTime
 * ^property[+].code = #dateFin
 * ^property[=].description = "Date de fin d'exploitation d'un code concept"
+* ^property[=].type = #dateTime
+* ^property[+].code = #deprecationDate
+* ^property[=].uri = "http://hl7.org/fhir/concept-properties#deprecationDate"
+* ^property[=].description = "Date Concept was deprecated"
+* ^property[=].type = #dateTime
+* ^property[+].code = #status
+* ^property[=].uri = "http://hl7.org/fhir/concept-properties#status"
+* ^property[=].description = "A property that indicates the status of the concept."
+* ^property[=].type = #code
+* ^property[+].code = #retirementDate
+* ^property[=].uri = "http://hl7.org/fhir/concept-properties#retirementDate"
+* ^property[=].description = "Date Concept was retired"
 * ^property[=].type = #dateTime
 * #P01 "Professionnel de santé"
 * #P01 ^designation[0].language = #fr-FR
@@ -38,6 +51,8 @@ Description: "Type de profession"
 * #P01 ^property[=].valueDateTime = "2019-03-29T12:00:00+01:00"
 * #P01 ^property[+].code = #dateMaj
 * #P01 ^property[=].valueDateTime = "2019-03-29T12:00:00+01:00"
+* #P01 ^property[+].code = #status
+* #P01 ^property[=].valueCode = #active
 * #P02 "Usager de titre professionnel"
 * #P02 ^designation[0].language = #fr-FR
 * #P02 ^designation[=].use.system = "http://snomed.info/sct"
@@ -47,6 +62,8 @@ Description: "Type de profession"
 * #P02 ^property[=].valueDateTime = "2019-03-29T12:00:00+01:00"
 * #P02 ^property[+].code = #dateMaj
 * #P02 ^property[=].valueDateTime = "2019-03-29T12:00:00+01:00"
+* #P02 ^property[+].code = #status
+* #P02 ^property[=].valueCode = #active
 * #P03 "Professionnel soumis à agrément"
 * #P03 ^designation[0].language = #fr-FR
 * #P03 ^designation[=].use.system = "http://snomed.info/sct"
@@ -56,6 +73,8 @@ Description: "Type de profession"
 * #P03 ^property[=].valueDateTime = "2019-03-29T12:00:00+01:00"
 * #P03 ^property[+].code = #dateMaj
 * #P03 ^property[=].valueDateTime = "2019-03-29T12:00:00+01:00"
+* #P03 ^property[+].code = #status
+* #P03 ^property[=].valueCode = #active
 * #P04 "Professionnel en formation"
 * #P04 ^designation[0].language = #fr-FR
 * #P04 ^designation[=].use = $sct#900000000000013009
@@ -67,13 +86,19 @@ Description: "Type de profession"
 * #P04 ^property[=].valueDateTime = "2019-03-29T12:00:00+01:00"
 * #P04 ^property[+].code = #dateMaj
 * #P04 ^property[=].valueDateTime = "2019-03-29T12:00:00+01:00"
+* #P04 ^property[+].code = #status
+* #P04 ^property[=].valueCode = #active
 * #P05 "Professionnel du social"
 * #P05 ^property[0].code = #dateValid
 * #P05 ^property[=].valueDateTime = "2019-03-29T12:00:00+01:00"
 * #P05 ^property[+].code = #dateMaj
 * #P05 ^property[=].valueDateTime = "2019-03-29T12:00:00+01:00"
+* #P05 ^property[+].code = #status
+* #P05 ^property[=].valueCode = #active
 * #P06 "Autre profession"
 * #P06 ^property[0].code = #dateValid
 * #P06 ^property[=].valueDateTime = "2019-07-05T12:00:00+01:00"
 * #P06 ^property[+].code = #dateMaj
 * #P06 ^property[=].valueDateTime = "2019-07-05T12:00:00+01:00"
+* #P06 ^property[+].code = #status
+* #P06 ^property[=].valueCode = #active

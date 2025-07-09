@@ -1,9 +1,10 @@
 ValueSet: JDV_J178_BesoinAideVieSociale_MDPH
 Id: JDV-J178-BesoinAideVieSociale-MDPH
 Description: "Caractérise les besoins d'aide de la personne en matière de vie sociale"
-* ^meta.versionId = "3"
-* ^meta.lastUpdated = "2024-04-27T05:07:04.631+00:00"
+* ^meta.versionId = "4"
+* ^meta.lastUpdated = "2025-07-02T17:05:30.452+00:00"
 * ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablevalueset"
+* ^language = #fr-FR
 * ^extension.url = "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod"
 * ^extension.valuePeriod.start = "2021-09-24T12:00:00+01:00"
 * ^url = "https://mos.esante.gouv.fr/NOS/JDV_J178-BesoinAideVieSociale-MDPH/FHIR/JDV-J178-BesoinAideVieSociale-MDPH"
@@ -14,6 +15,7 @@ Description: "Caractérise les besoins d'aide de la personne en matière de vie 
 * ^experimental = false
 * ^date = "2021-09-24T12:00:00+01:00"
 * ^publisher = "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris"
+* ^jurisdiction = urn:iso:std:iso:3166#FR
 * $TRE-R319-BesoinAideVieSociale#01 "Communiquer"
 * $TRE-R319-BesoinAideVieSociale#02 "Avoir des activités sportives et des loisirs"
 * $TRE-R319-BesoinAideVieSociale#03 "Relations avec les autres"

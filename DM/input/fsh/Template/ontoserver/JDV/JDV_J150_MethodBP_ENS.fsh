@@ -1,9 +1,10 @@
 ValueSet: JDV_J150_MethodBP_ENS
 Id: JDV-J150-MethodBP-ENS
 Description: "JDV pour la méthode de mesure de la pression artérielle"
-* ^meta.versionId = "3"
-* ^meta.lastUpdated = "2024-07-26T17:01:43.403+00:00"
+* ^meta.versionId = "4"
+* ^meta.lastUpdated = "2025-07-02T17:05:11.336+00:00"
 * ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablevalueset"
+* ^language = #fr-FR
 * ^extension.url = "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod"
 * ^extension.valuePeriod.start = "2021-04-30T12:00:00+01:00"
 * ^url = "https://mos.esante.gouv.fr/NOS/JDV_J150-MethodBP-ENS/FHIR/JDV-J150-MethodBP-ENS"
@@ -14,6 +15,7 @@ Description: "JDV pour la méthode de mesure de la pression artérielle"
 * ^experimental = false
 * ^date = "2024-07-26T12:00:00+01:00"
 * ^publisher = "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris"
+* ^jurisdiction = urn:iso:std:iso:3166#FR
 * $terminologie-emdn#Y210905 "INTERFACES DE CAPTEURS EXTERNES"
 * $terminologie-emdn#Z12050404 "ENREGISTREURS HOLTER DE LA PRESSION ARTÉRIELLE"
 * $terminologie-emdn#Z1203020501 "TENSIOMÈTRES OSCILLOMÉTRIQUES NON INVASIFS"

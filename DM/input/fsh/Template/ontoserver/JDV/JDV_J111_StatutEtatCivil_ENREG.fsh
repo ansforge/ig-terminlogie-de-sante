@@ -1,9 +1,10 @@
 ValueSet: JDV_J111_StatutEtatCivil_ENREG
 Id: JDV-J111-StatutEtatCivil-ENREG
 Description: "Statut de l'état civil pour ENREG"
-* ^meta.versionId = "3"
-* ^meta.lastUpdated = "2025-02-10T16:05:57.186+00:00"
+* ^meta.versionId = "4"
+* ^meta.lastUpdated = "2025-07-02T17:04:47.297+00:00"
 * ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablevalueset"
+* ^language = #fr-FR
 * ^extension.url = "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod"
 * ^extension.valuePeriod.start = "2020-05-29T12:00:00+01:00"
 * ^url = "https://mos.esante.gouv.fr/NOS/JDV_J111-StatutEtatCivil-ENREG/FHIR/JDV-J111-StatutEtatCivil-ENREG"
@@ -14,6 +15,7 @@ Description: "Statut de l'état civil pour ENREG"
 * ^experimental = false
 * ^date = "2025-01-31T12:00:00+01:00"
 * ^publisher = "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris"
+* ^jurisdiction = urn:iso:std:iso:3166#FR
 * $TRE-R31-StatutEtatCivil#AC "Demande de certification forcée par le guichet"
 * $TRE-R31-StatutEtatCivil#AN "Demande annulée"
 * $TRE-R31-StatutEtatCivil#C "Certifié INSEE"

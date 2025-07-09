@@ -1,9 +1,10 @@
 ValueSet: JDV_J19_ModePriseEnCharge_ROR
 Id: JDV-J19-ModePriseEnCharge-ROR
 Description: "Mode de la prise en charge - ROR"
-* ^meta.versionId = "3"
-* ^meta.lastUpdated = "2024-04-27T05:07:10.052+00:00"
+* ^meta.versionId = "4"
+* ^meta.lastUpdated = "2025-07-02T17:05:43.269+00:00"
 * ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablevalueset"
+* ^language = #fr-FR
 * ^extension.url = "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod"
 * ^extension.valuePeriod.start = "2016-09-01T00:00:00+01:00"
 * ^url = "https://mos.esante.gouv.fr/NOS/JDV_J19-ModePriseEnCharge-ROR/FHIR/JDV-J19-ModePriseEnCharge-ROR"
@@ -14,6 +15,7 @@ Description: "Mode de la prise en charge - ROR"
 * ^experimental = false
 * ^date = "2023-01-27T12:00:00+01:00"
 * ^publisher = "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris"
+* ^jurisdiction = urn:iso:std:iso:3166#FR
 * $TRE-R213-ModePriseEnCharge#01 "Accueil Permanence des soins en établissement de santé"
 * $TRE-R213-ModePriseEnCharge#02 "Accueil spécialisé"
 * $TRE-R213-ModePriseEnCharge#09 "Chirurgie ambulatoire"

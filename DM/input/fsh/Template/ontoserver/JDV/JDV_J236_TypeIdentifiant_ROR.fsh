@@ -1,9 +1,10 @@
 ValueSet: JDV_J236_TypeIdentifiant_ROR
 Id: JDV-J236-TypeIdentifiant-ROR
 Description: "Types d'identifiants utilisés dans le ROR"
-* ^meta.versionId = "3"
-* ^meta.lastUpdated = "2024-04-27T05:07:31.152+00:00"
+* ^meta.versionId = "4"
+* ^meta.lastUpdated = "2025-07-02T17:06:03.010+00:00"
 * ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablevalueset"
+* ^language = #fr-FR
 * ^extension.url = "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod"
 * ^extension.valuePeriod.start = "2023-03-31T12:00:00+01:00"
 * ^url = "https://mos.esante.gouv.fr/NOS/JDV_J236-TypeIdentifiant-ROR/FHIR/JDV-J236-TypeIdentifiant-ROR"
@@ -14,6 +15,7 @@ Description: "Types d'identifiants utilisés dans le ROR"
 * ^experimental = false
 * ^date = "2023-10-30T12:00:00+01:00"
 * ^publisher = "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris"
+* ^jurisdiction = urn:iso:std:iso:3166#FR
 * $TRE-R345-TypeIdentifiantAutre#42 "Identifiant fonctionnel de l'OI connu par l'instance ROR"
 * $TRE-R345-TypeIdentifiantAutre#43 "Identifiant interne de l'OI connu par l'instance ROR"
 * $TRE-R355-TypeIdentifiantOffre#35 "Identifiant fonctionnel de l'offre connu par l'instance ROR"

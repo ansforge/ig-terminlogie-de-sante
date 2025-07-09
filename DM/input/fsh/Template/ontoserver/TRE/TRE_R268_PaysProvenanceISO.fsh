@@ -1,8 +1,8 @@
 CodeSystem: TRE_R268_PaysProvenanceISO
 Id: TRE-R268-PaysProvenanceISO
 Description: "Référentiel des pays provenant de la norme ISO 3166"
-* ^meta.versionId = "5"
-* ^meta.lastUpdated = "2024-08-28T05:12:57.775+00:00"
+* ^meta.versionId = "6"
+* ^meta.lastUpdated = "2025-07-02T18:16:54.175+00:00"
 * ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablecodesystem"
 * ^extension.url = "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod"
 * ^extension.valuePeriod.start = "2018-06-29T12:00:00+01:00"
@@ -14,6 +14,7 @@ Description: "Référentiel des pays provenant de la norme ISO 3166"
 * ^experimental = false
 * ^date = "2024-01-26T12:00:00+01:00"
 * ^publisher = "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris"
+* ^jurisdiction = urn:iso:std:iso:3166#FR
 * ^caseSensitive = false
 * ^content = #complete
 * ^property[0].code = #dateValid
@@ -24,6 +25,18 @@ Description: "Référentiel des pays provenant de la norme ISO 3166"
 * ^property[=].type = #dateTime
 * ^property[+].code = #dateFin
 * ^property[=].description = "Date de fin d'exploitation d'un code concept"
+* ^property[=].type = #dateTime
+* ^property[+].code = #deprecationDate
+* ^property[=].uri = "http://hl7.org/fhir/concept-properties#deprecationDate"
+* ^property[=].description = "Date Concept was deprecated"
+* ^property[=].type = #dateTime
+* ^property[+].code = #status
+* ^property[=].uri = "http://hl7.org/fhir/concept-properties#status"
+* ^property[=].description = "A property that indicates the status of the concept."
+* ^property[=].type = #code
+* ^property[+].code = #retirementDate
+* ^property[=].uri = "http://hl7.org/fhir/concept-properties#retirementDate"
+* ^property[=].description = "Date Concept was retired"
 * ^property[=].type = #dateTime
 * #AD "la Principauté d'Andorre"
 * #AD ^designation[0].language = #fr-FR
@@ -38,6 +51,8 @@ Description: "Référentiel des pays provenant de la norme ISO 3166"
 * #AD ^property[=].valueDateTime = "2018-06-29T12:00:00+01:00"
 * #AD ^property[+].code = #dateMaj
 * #AD ^property[=].valueDateTime = "2024-01-26T12:00:00+01:00"
+* #AD ^property[+].code = #status
+* #AD ^property[=].valueCode = #active
 * #AE "les Émirats arabes unis"
 * #AE ^designation[0].language = #fr-FR
 * #AE ^designation[=].use.system = "http://snomed.info/sct"
@@ -51,6 +66,8 @@ Description: "Référentiel des pays provenant de la norme ISO 3166"
 * #AE ^property[=].valueDateTime = "2018-06-29T12:00:00+01:00"
 * #AE ^property[+].code = #dateMaj
 * #AE ^property[=].valueDateTime = "2024-01-26T12:00:00+01:00"
+* #AE ^property[+].code = #status
+* #AE ^property[=].valueCode = #active
 * #AF "la République islamique d'Afghanistan"
 * #AF ^designation[0].language = #fr-FR
 * #AF ^designation[=].use.system = "http://snomed.info/sct"
@@ -64,16 +81,22 @@ Description: "Référentiel des pays provenant de la norme ISO 3166"
 * #AF ^property[=].valueDateTime = "2018-06-29T12:00:00+01:00"
 * #AF ^property[+].code = #dateMaj
 * #AF ^property[=].valueDateTime = "2024-01-26T12:00:00+01:00"
+* #AF ^property[+].code = #status
+* #AF ^property[=].valueCode = #active
 * #AG "Antigua-et-Barbuda"
 * #AG ^property[0].code = #dateValid
 * #AG ^property[=].valueDateTime = "2018-06-29T12:00:00+01:00"
 * #AG ^property[+].code = #dateMaj
 * #AG ^property[=].valueDateTime = "2024-01-26T12:00:00+01:00"
+* #AG ^property[+].code = #status
+* #AG ^property[=].valueCode = #active
 * #AI "Anguilla"
 * #AI ^property[0].code = #dateValid
 * #AI ^property[=].valueDateTime = "2018-06-29T12:00:00+01:00"
 * #AI ^property[+].code = #dateMaj
 * #AI ^property[=].valueDateTime = "2024-01-26T12:00:00+01:00"
+* #AI ^property[+].code = #status
+* #AI ^property[=].valueCode = #active
 * #AQ "l'Antarctique"
 * #AQ ^designation[0].language = #fr-FR
 * #AQ ^designation[=].use.system = "http://snomed.info/sct"
@@ -87,6 +110,8 @@ Description: "Référentiel des pays provenant de la norme ISO 3166"
 * #AQ ^property[=].valueDateTime = "2019-05-29T12:00:00+01:00"
 * #AQ ^property[+].code = #dateMaj
 * #AQ ^property[=].valueDateTime = "2024-01-26T12:00:00+01:00"
+* #AQ ^property[+].code = #status
+* #AQ ^property[=].valueCode = #active
 * #AL "la République d'Albanie"
 * #AL ^designation[0].language = #fr-FR
 * #AL ^designation[=].use.system = "http://snomed.info/sct"
@@ -100,6 +125,8 @@ Description: "Référentiel des pays provenant de la norme ISO 3166"
 * #AL ^property[=].valueDateTime = "2018-06-29T12:00:00+01:00"
 * #AL ^property[+].code = #dateMaj
 * #AL ^property[=].valueDateTime = "2024-01-26T12:00:00+01:00"
+* #AL ^property[+].code = #status
+* #AL ^property[=].valueCode = #active
 * #AM "la République d'Arménie"
 * #AM ^designation[0].language = #fr-FR
 * #AM ^designation[=].use.system = "http://snomed.info/sct"
@@ -113,6 +140,8 @@ Description: "Référentiel des pays provenant de la norme ISO 3166"
 * #AM ^property[=].valueDateTime = "2018-06-29T12:00:00+01:00"
 * #AM ^property[+].code = #dateMaj
 * #AM ^property[=].valueDateTime = "2024-01-26T12:00:00+01:00"
+* #AM ^property[+].code = #status
+* #AM ^property[=].valueCode = #active
 * #AN "les Antilles néerlandaises"
 * #AN ^designation[0].language = #fr-FR
 * #AN ^designation[=].use.system = "http://snomed.info/sct"
@@ -124,6 +153,10 @@ Description: "Référentiel des pays provenant de la norme ISO 3166"
 * #AN ^property[=].valueDateTime = "2019-05-29T12:00:00+01:00"
 * #AN ^property[+].code = #dateMaj
 * #AN ^property[=].valueDateTime = "2024-01-26T12:00:00+01:00"
+* #AN ^property[+].code = #deprecationDate
+* #AN ^property[=].valueDateTime = "2019-05-29T12:00:00+01:00"
+* #AN ^property[+].code = #status
+* #AN ^property[=].valueCode = #deprecated
 * #AO "la République d'Angola"
 * #AO ^designation[0].language = #fr-FR
 * #AO ^designation[=].use.system = "http://snomed.info/sct"
@@ -137,6 +170,8 @@ Description: "Référentiel des pays provenant de la norme ISO 3166"
 * #AO ^property[=].valueDateTime = "2018-06-29T12:00:00+01:00"
 * #AO ^property[+].code = #dateMaj
 * #AO ^property[=].valueDateTime = "2024-01-26T12:00:00+01:00"
+* #AO ^property[+].code = #status
+* #AO ^property[=].valueCode = #active
 * #AR "la République argentine"
 * #AR ^designation[0].language = #fr-FR
 * #AR ^designation[=].use.system = "http://snomed.info/sct"
@@ -150,6 +185,8 @@ Description: "Référentiel des pays provenant de la norme ISO 3166"
 * #AR ^property[=].valueDateTime = "2018-06-29T12:00:00+01:00"
 * #AR ^property[+].code = #dateMaj
 * #AR ^property[=].valueDateTime = "2024-01-26T12:00:00+01:00"
+* #AR ^property[+].code = #status
+* #AR ^property[=].valueCode = #active
 * #AS "les Samoa américaines"
 * #AS ^designation[0].language = #fr-FR
 * #AS ^designation[=].use.system = "http://snomed.info/sct"
@@ -163,6 +200,8 @@ Description: "Référentiel des pays provenant de la norme ISO 3166"
 * #AS ^property[=].valueDateTime = "2018-06-29T12:00:00+01:00"
 * #AS ^property[+].code = #dateMaj
 * #AS ^property[=].valueDateTime = "2024-01-26T12:00:00+01:00"
+* #AS ^property[+].code = #status
+* #AS ^property[=].valueCode = #active
 * #AT "la République d'Autriche"
 * #AT ^designation[0].language = #fr-FR
 * #AT ^designation[=].use.system = "http://snomed.info/sct"
@@ -176,6 +215,8 @@ Description: "Référentiel des pays provenant de la norme ISO 3166"
 * #AT ^property[=].valueDateTime = "2018-06-29T12:00:00+01:00"
 * #AT ^property[+].code = #dateMaj
 * #AT ^property[=].valueDateTime = "2024-01-26T12:00:00+01:00"
+* #AT ^property[+].code = #status
+* #AT ^property[=].valueCode = #active
 * #AU "l'Australie"
 * #AU ^designation[0].language = #fr-FR
 * #AU ^designation[=].use.system = "http://snomed.info/sct"
@@ -189,6 +230,8 @@ Description: "Référentiel des pays provenant de la norme ISO 3166"
 * #AU ^property[=].valueDateTime = "2018-06-29T12:00:00+01:00"
 * #AU ^property[+].code = #dateMaj
 * #AU ^property[=].valueDateTime = "2024-01-26T12:00:00+01:00"
+* #AU ^property[+].code = #status
+* #AU ^property[=].valueCode = #active
 * #AX "les Îles Åland"
 * #AX ^designation[0].language = #fr-FR
 * #AX ^designation[=].use.system = "http://snomed.info/sct"
@@ -202,11 +245,15 @@ Description: "Référentiel des pays provenant de la norme ISO 3166"
 * #AX ^property[=].valueDateTime = "2019-05-29T12:00:00+01:00"
 * #AX ^property[+].code = #dateMaj
 * #AX ^property[=].valueDateTime = "2024-01-26T12:00:00+01:00"
+* #AX ^property[+].code = #status
+* #AX ^property[=].valueCode = #active
 * #AW "Aruba"
 * #AW ^property[0].code = #dateValid
 * #AW ^property[=].valueDateTime = "2018-06-29T12:00:00+01:00"
 * #AW ^property[+].code = #dateMaj
 * #AW ^property[=].valueDateTime = "2024-01-26T12:00:00+01:00"
+* #AW ^property[+].code = #status
+* #AW ^property[=].valueCode = #active
 * #AZ "la République d'Azerbaïdjan"
 * #AZ ^designation[0].language = #fr-FR
 * #AZ ^designation[=].use.system = "http://snomed.info/sct"
@@ -220,6 +267,8 @@ Description: "Référentiel des pays provenant de la norme ISO 3166"
 * #AZ ^property[=].valueDateTime = "2018-06-29T12:00:00+01:00"
 * #AZ ^property[+].code = #dateMaj
 * #AZ ^property[=].valueDateTime = "2024-01-26T12:00:00+01:00"
+* #AZ ^property[+].code = #status
+* #AZ ^property[=].valueCode = #active
 * #BA "la Bosnie-Herzégovine"
 * #BA ^designation[0].language = #fr-FR
 * #BA ^designation[=].use.system = "http://snomed.info/sct"
@@ -233,6 +282,8 @@ Description: "Référentiel des pays provenant de la norme ISO 3166"
 * #BA ^property[=].valueDateTime = "2018-06-29T12:00:00+01:00"
 * #BA ^property[+].code = #dateMaj
 * #BA ^property[=].valueDateTime = "2024-01-26T12:00:00+01:00"
+* #BA ^property[+].code = #status
+* #BA ^property[=].valueCode = #active
 * #BB "la Barbade"
 * #BB ^designation[0].language = #fr-FR
 * #BB ^designation[=].use.system = "http://snomed.info/sct"
@@ -246,6 +297,8 @@ Description: "Référentiel des pays provenant de la norme ISO 3166"
 * #BB ^property[=].valueDateTime = "2018-06-29T12:00:00+01:00"
 * #BB ^property[+].code = #dateMaj
 * #BB ^property[=].valueDateTime = "2024-01-26T12:00:00+01:00"
+* #BB ^property[+].code = #status
+* #BB ^property[=].valueCode = #active
 * #BD "la République populaire du Bangladesh"
 * #BD ^designation[0].language = #fr-FR
 * #BD ^designation[=].use.system = "http://snomed.info/sct"
@@ -259,6 +312,8 @@ Description: "Référentiel des pays provenant de la norme ISO 3166"
 * #BD ^property[=].valueDateTime = "2018-06-29T12:00:00+01:00"
 * #BD ^property[+].code = #dateMaj
 * #BD ^property[=].valueDateTime = "2024-01-26T12:00:00+01:00"
+* #BD ^property[+].code = #status
+* #BD ^property[=].valueCode = #active
 * #BE "le Royaume de Belgique"
 * #BE ^designation[0].language = #fr-FR
 * #BE ^designation[=].use.system = "http://snomed.info/sct"
@@ -272,6 +327,8 @@ Description: "Référentiel des pays provenant de la norme ISO 3166"
 * #BE ^property[=].valueDateTime = "2018-06-29T12:00:00+01:00"
 * #BE ^property[+].code = #dateMaj
 * #BE ^property[=].valueDateTime = "2024-01-26T12:00:00+01:00"
+* #BE ^property[+].code = #status
+* #BE ^property[=].valueCode = #active
 * #BF "le Burkina Faso"
 * #BF ^designation[0].language = #fr-FR
 * #BF ^designation[=].use.system = "http://snomed.info/sct"
@@ -285,6 +342,8 @@ Description: "Référentiel des pays provenant de la norme ISO 3166"
 * #BF ^property[=].valueDateTime = "2018-06-29T12:00:00+01:00"
 * #BF ^property[+].code = #dateMaj
 * #BF ^property[=].valueDateTime = "2024-01-26T12:00:00+01:00"
+* #BF ^property[+].code = #status
+* #BF ^property[=].valueCode = #active
 * #BG "la République de Bulgarie"
 * #BG ^designation[0].language = #fr-FR
 * #BG ^designation[=].use.system = "http://snomed.info/sct"
@@ -298,6 +357,8 @@ Description: "Référentiel des pays provenant de la norme ISO 3166"
 * #BG ^property[=].valueDateTime = "2018-06-29T12:00:00+01:00"
 * #BG ^property[+].code = #dateMaj
 * #BG ^property[=].valueDateTime = "2024-01-26T12:00:00+01:00"
+* #BG ^property[+].code = #status
+* #BG ^property[=].valueCode = #active
 * #BH "le Royaume de Bahreïn"
 * #BH ^designation[0].language = #fr-FR
 * #BH ^designation[=].use.system = "http://snomed.info/sct"
@@ -307,6 +368,8 @@ Description: "Référentiel des pays provenant de la norme ISO 3166"
 * #BH ^property[=].valueDateTime = "2018-06-29T12:00:00+01:00"
 * #BH ^property[+].code = #dateMaj
 * #BH ^property[=].valueDateTime = "2024-01-26T12:00:00+01:00"
+* #BH ^property[+].code = #status
+* #BH ^property[=].valueCode = #active
 * #BI "la République du Burundi"
 * #BI ^designation[0].language = #fr-FR
 * #BI ^designation[=].use.system = "http://snomed.info/sct"
@@ -320,6 +383,8 @@ Description: "Référentiel des pays provenant de la norme ISO 3166"
 * #BI ^property[=].valueDateTime = "2018-06-29T12:00:00+01:00"
 * #BI ^property[+].code = #dateMaj
 * #BI ^property[=].valueDateTime = "2024-01-26T12:00:00+01:00"
+* #BI ^property[+].code = #status
+* #BI ^property[=].valueCode = #active
 * #BJ "la République du Bénin"
 * #BJ ^designation[0].language = #fr-FR
 * #BJ ^designation[=].use.system = "http://snomed.info/sct"
@@ -333,11 +398,15 @@ Description: "Référentiel des pays provenant de la norme ISO 3166"
 * #BJ ^property[=].valueDateTime = "2018-06-29T12:00:00+01:00"
 * #BJ ^property[+].code = #dateMaj
 * #BJ ^property[=].valueDateTime = "2024-01-26T12:00:00+01:00"
+* #BJ ^property[+].code = #status
+* #BJ ^property[=].valueCode = #active
 * #BL "Saint-Barthélemy"
 * #BL ^property[0].code = #dateValid
 * #BL ^property[=].valueDateTime = "2018-06-29T12:00:00+01:00"
 * #BL ^property[+].code = #dateMaj
 * #BL ^property[=].valueDateTime = "2024-01-26T12:00:00+01:00"
+* #BL ^property[+].code = #status
+* #BL ^property[=].valueCode = #active
 * #BM "les Bermudes"
 * #BM ^designation[0].language = #fr-FR
 * #BM ^designation[=].use.system = "http://snomed.info/sct"
@@ -351,6 +420,8 @@ Description: "Référentiel des pays provenant de la norme ISO 3166"
 * #BM ^property[=].valueDateTime = "2018-06-29T12:00:00+01:00"
 * #BM ^property[+].code = #dateMaj
 * #BM ^property[=].valueDateTime = "2024-01-26T12:00:00+01:00"
+* #BM ^property[+].code = #status
+* #BM ^property[=].valueCode = #active
 * #BN "le Brunéi Darussalam"
 * #BN ^designation[0].language = #fr-FR
 * #BN ^designation[=].use.system = "http://snomed.info/sct"
@@ -364,6 +435,8 @@ Description: "Référentiel des pays provenant de la norme ISO 3166"
 * #BN ^property[=].valueDateTime = "2018-06-29T12:00:00+01:00"
 * #BN ^property[+].code = #dateMaj
 * #BN ^property[=].valueDateTime = "2024-01-26T12:00:00+01:00"
+* #BN ^property[+].code = #status
+* #BN ^property[=].valueCode = #active
 * #BO "l'État plurinational de Bolivie"
 * #BO ^designation[0].language = #fr-FR
 * #BO ^designation[=].use.system = "http://snomed.info/sct"
@@ -377,6 +450,8 @@ Description: "Référentiel des pays provenant de la norme ISO 3166"
 * #BO ^property[=].valueDateTime = "2018-06-29T12:00:00+01:00"
 * #BO ^property[+].code = #dateMaj
 * #BO ^property[=].valueDateTime = "2024-01-26T12:00:00+01:00"
+* #BO ^property[+].code = #status
+* #BO ^property[=].valueCode = #active
 * #BQ "Bonaire, Saint-Eustache et Saba"
 * #BQ ^designation[0].language = #fr-FR
 * #BQ ^designation[=].use.system = "http://snomed.info/sct"
@@ -386,6 +461,8 @@ Description: "Référentiel des pays provenant de la norme ISO 3166"
 * #BQ ^property[=].valueDateTime = "2018-06-29T12:00:00+01:00"
 * #BQ ^property[+].code = #dateMaj
 * #BQ ^property[=].valueDateTime = "2024-01-26T12:00:00+01:00"
+* #BQ ^property[+].code = #status
+* #BQ ^property[=].valueCode = #active
 * #BR "la République fédérative du Brésil"
 * #BR ^designation[0].language = #fr-FR
 * #BR ^designation[=].use.system = "http://snomed.info/sct"
@@ -399,6 +476,8 @@ Description: "Référentiel des pays provenant de la norme ISO 3166"
 * #BR ^property[=].valueDateTime = "2018-06-29T12:00:00+01:00"
 * #BR ^property[+].code = #dateMaj
 * #BR ^property[=].valueDateTime = "2024-01-26T12:00:00+01:00"
+* #BR ^property[+].code = #status
+* #BR ^property[=].valueCode = #active
 * #BS "le Commonwealth des Bahamas"
 * #BS ^designation[0].language = #fr-FR
 * #BS ^designation[=].use.system = "http://snomed.info/sct"
@@ -412,6 +491,8 @@ Description: "Référentiel des pays provenant de la norme ISO 3166"
 * #BS ^property[=].valueDateTime = "2018-06-29T12:00:00+01:00"
 * #BS ^property[+].code = #dateMaj
 * #BS ^property[=].valueDateTime = "2024-01-26T12:00:00+01:00"
+* #BS ^property[+].code = #status
+* #BS ^property[=].valueCode = #active
 * #BT "le Royaume du Bhoutan"
 * #BT ^designation[0].language = #fr-FR
 * #BT ^designation[=].use.system = "http://snomed.info/sct"
@@ -425,6 +506,8 @@ Description: "Référentiel des pays provenant de la norme ISO 3166"
 * #BT ^property[=].valueDateTime = "2018-06-29T12:00:00+01:00"
 * #BT ^property[+].code = #dateMaj
 * #BT ^property[=].valueDateTime = "2024-01-26T12:00:00+01:00"
+* #BT ^property[+].code = #status
+* #BT ^property[=].valueCode = #active
 * #BV "l'Île Bouvet"
 * #BV ^designation[0].language = #fr-FR
 * #BV ^designation[=].use.system = "http://snomed.info/sct"
@@ -438,6 +521,8 @@ Description: "Référentiel des pays provenant de la norme ISO 3166"
 * #BV ^property[=].valueDateTime = "2018-06-29T12:00:00+01:00"
 * #BV ^property[+].code = #dateMaj
 * #BV ^property[=].valueDateTime = "2024-01-26T12:00:00+01:00"
+* #BV ^property[+].code = #status
+* #BV ^property[=].valueCode = #active
 * #BW "la République du Botswana"
 * #BW ^designation[0].language = #fr-FR
 * #BW ^designation[=].use.system = "http://snomed.info/sct"
@@ -451,6 +536,8 @@ Description: "Référentiel des pays provenant de la norme ISO 3166"
 * #BW ^property[=].valueDateTime = "2018-06-29T12:00:00+01:00"
 * #BW ^property[+].code = #dateMaj
 * #BW ^property[=].valueDateTime = "2024-01-26T12:00:00+01:00"
+* #BW ^property[+].code = #status
+* #BW ^property[=].valueCode = #active
 * #BY "la République du Bélarus"
 * #BY ^designation[0].language = #fr-FR
 * #BY ^designation[=].use.system = "http://snomed.info/sct"
@@ -464,6 +551,8 @@ Description: "Référentiel des pays provenant de la norme ISO 3166"
 * #BY ^property[=].valueDateTime = "2018-06-29T12:00:00+01:00"
 * #BY ^property[+].code = #dateMaj
 * #BY ^property[=].valueDateTime = "2024-01-26T12:00:00+01:00"
+* #BY ^property[+].code = #status
+* #BY ^property[=].valueCode = #active
 * #BZ "le Belize"
 * #BZ ^designation[0].language = #fr-FR
 * #BZ ^designation[=].use.system = "http://snomed.info/sct"
@@ -477,6 +566,8 @@ Description: "Référentiel des pays provenant de la norme ISO 3166"
 * #BZ ^property[=].valueDateTime = "2018-06-29T12:00:00+01:00"
 * #BZ ^property[+].code = #dateMaj
 * #BZ ^property[=].valueDateTime = "2024-01-26T12:00:00+01:00"
+* #BZ ^property[+].code = #status
+* #BZ ^property[=].valueCode = #active
 * #CA "le Canada"
 * #CA ^designation[0].language = #fr-FR
 * #CA ^designation[=].use.system = "http://snomed.info/sct"
@@ -490,6 +581,8 @@ Description: "Référentiel des pays provenant de la norme ISO 3166"
 * #CA ^property[=].valueDateTime = "2018-06-29T12:00:00+01:00"
 * #CA ^property[+].code = #dateMaj
 * #CA ^property[=].valueDateTime = "2024-01-26T12:00:00+01:00"
+* #CA ^property[+].code = #status
+* #CA ^property[=].valueCode = #active
 * #CC "les Îles Cocos les Îles Keeling"
 * #CC ^designation[0].language = #fr-FR
 * #CC ^designation[=].use.system = "http://snomed.info/sct"
@@ -503,6 +596,8 @@ Description: "Référentiel des pays provenant de la norme ISO 3166"
 * #CC ^property[=].valueDateTime = "2018-06-29T12:00:00+01:00"
 * #CC ^property[+].code = #dateMaj
 * #CC ^property[=].valueDateTime = "2024-01-26T12:00:00+01:00"
+* #CC ^property[+].code = #status
+* #CC ^property[=].valueCode = #active
 * #CD "la République démocratique du Congo"
 * #CD ^designation[0].language = #fr-FR
 * #CD ^designation[=].use.system = "http://snomed.info/sct"
@@ -516,6 +611,8 @@ Description: "Référentiel des pays provenant de la norme ISO 3166"
 * #CD ^property[=].valueDateTime = "2018-06-29T12:00:00+01:00"
 * #CD ^property[+].code = #dateMaj
 * #CD ^property[=].valueDateTime = "2024-01-26T12:00:00+01:00"
+* #CD ^property[+].code = #status
+* #CD ^property[=].valueCode = #active
 * #CF "la République centrafricaine"
 * #CF ^designation[0].language = #fr-FR
 * #CF ^designation[=].use.system = "http://snomed.info/sct"
@@ -529,6 +626,8 @@ Description: "Référentiel des pays provenant de la norme ISO 3166"
 * #CF ^property[=].valueDateTime = "2018-06-29T12:00:00+01:00"
 * #CF ^property[+].code = #dateMaj
 * #CF ^property[=].valueDateTime = "2024-01-26T12:00:00+01:00"
+* #CF ^property[+].code = #status
+* #CF ^property[=].valueCode = #active
 * #CG "la République du Congo"
 * #CG ^designation[0].language = #fr-FR
 * #CG ^designation[=].use.system = "http://snomed.info/sct"
@@ -542,6 +641,8 @@ Description: "Référentiel des pays provenant de la norme ISO 3166"
 * #CG ^property[=].valueDateTime = "2018-06-29T12:00:00+01:00"
 * #CG ^property[+].code = #dateMaj
 * #CG ^property[=].valueDateTime = "2024-01-26T12:00:00+01:00"
+* #CG ^property[+].code = #status
+* #CG ^property[=].valueCode = #active
 * #CH "la Confédération suisse"
 * #CH ^designation[0].language = #fr-FR
 * #CH ^designation[=].use.system = "http://snomed.info/sct"
@@ -555,6 +656,8 @@ Description: "Référentiel des pays provenant de la norme ISO 3166"
 * #CH ^property[=].valueDateTime = "2018-06-29T12:00:00+01:00"
 * #CH ^property[+].code = #dateMaj
 * #CH ^property[=].valueDateTime = "2024-01-26T12:00:00+01:00"
+* #CH ^property[+].code = #status
+* #CH ^property[=].valueCode = #active
 * #CI "la République de Côte d'Ivoire"
 * #CI ^designation[0].language = #fr-FR
 * #CI ^designation[=].use.system = "http://snomed.info/sct"
@@ -568,6 +671,8 @@ Description: "Référentiel des pays provenant de la norme ISO 3166"
 * #CI ^property[=].valueDateTime = "2018-06-29T12:00:00+01:00"
 * #CI ^property[+].code = #dateMaj
 * #CI ^property[=].valueDateTime = "2024-01-26T12:00:00+01:00"
+* #CI ^property[+].code = #status
+* #CI ^property[=].valueCode = #active
 * #CK "les Îles Cook"
 * #CK ^designation[0].language = #fr-FR
 * #CK ^designation[=].use.system = "http://snomed.info/sct"
@@ -581,6 +686,8 @@ Description: "Référentiel des pays provenant de la norme ISO 3166"
 * #CK ^property[=].valueDateTime = "2018-06-29T12:00:00+01:00"
 * #CK ^property[+].code = #dateMaj
 * #CK ^property[=].valueDateTime = "2024-01-26T12:00:00+01:00"
+* #CK ^property[+].code = #status
+* #CK ^property[=].valueCode = #active
 * #CL "la République du Chili"
 * #CL ^designation[0].language = #fr-FR
 * #CL ^designation[=].use.system = "http://snomed.info/sct"
@@ -594,6 +701,8 @@ Description: "Référentiel des pays provenant de la norme ISO 3166"
 * #CL ^property[=].valueDateTime = "2018-06-29T12:00:00+01:00"
 * #CL ^property[+].code = #dateMaj
 * #CL ^property[=].valueDateTime = "2024-01-26T12:00:00+01:00"
+* #CL ^property[+].code = #status
+* #CL ^property[=].valueCode = #active
 * #CM "la République du Cameroun"
 * #CM ^designation[0].language = #fr-FR
 * #CM ^designation[=].use.system = "http://snomed.info/sct"
@@ -607,6 +716,8 @@ Description: "Référentiel des pays provenant de la norme ISO 3166"
 * #CM ^property[=].valueDateTime = "2018-06-29T12:00:00+01:00"
 * #CM ^property[+].code = #dateMaj
 * #CM ^property[=].valueDateTime = "2024-01-26T12:00:00+01:00"
+* #CM ^property[+].code = #status
+* #CM ^property[=].valueCode = #active
 * #CN "la République populaire de Chine"
 * #CN ^designation[0].language = #fr-FR
 * #CN ^designation[=].use.system = "http://snomed.info/sct"
@@ -620,6 +731,8 @@ Description: "Référentiel des pays provenant de la norme ISO 3166"
 * #CN ^property[=].valueDateTime = "2018-06-29T12:00:00+01:00"
 * #CN ^property[+].code = #dateMaj
 * #CN ^property[=].valueDateTime = "2024-01-26T12:00:00+01:00"
+* #CN ^property[+].code = #status
+* #CN ^property[=].valueCode = #active
 * #CO "la République de Colombie"
 * #CO ^designation[0].language = #fr-FR
 * #CO ^designation[=].use.system = "http://snomed.info/sct"
@@ -633,6 +746,8 @@ Description: "Référentiel des pays provenant de la norme ISO 3166"
 * #CO ^property[=].valueDateTime = "2018-06-29T12:00:00+01:00"
 * #CO ^property[+].code = #dateMaj
 * #CO ^property[=].valueDateTime = "2024-01-26T12:00:00+01:00"
+* #CO ^property[+].code = #status
+* #CO ^property[=].valueCode = #active
 * #CR "la République du Costa Rica"
 * #CR ^designation[0].language = #fr-FR
 * #CR ^designation[=].use.system = "http://snomed.info/sct"
@@ -646,6 +761,8 @@ Description: "Référentiel des pays provenant de la norme ISO 3166"
 * #CR ^property[=].valueDateTime = "2018-06-29T12:00:00+01:00"
 * #CR ^property[+].code = #dateMaj
 * #CR ^property[=].valueDateTime = "2024-01-26T12:00:00+01:00"
+* #CR ^property[+].code = #status
+* #CR ^property[=].valueCode = #active
 * #CU "la République de Cuba"
 * #CU ^designation[0].language = #fr-FR
 * #CU ^designation[=].use.system = "http://snomed.info/sct"
@@ -655,6 +772,8 @@ Description: "Référentiel des pays provenant de la norme ISO 3166"
 * #CU ^property[=].valueDateTime = "2018-06-29T12:00:00+01:00"
 * #CU ^property[+].code = #dateMaj
 * #CU ^property[=].valueDateTime = "2024-01-26T12:00:00+01:00"
+* #CU ^property[+].code = #status
+* #CU ^property[=].valueCode = #active
 * #CV "la République du Cabo Verde"
 * #CV ^designation[0].language = #fr-FR
 * #CV ^designation[=].use.system = "http://snomed.info/sct"
@@ -664,6 +783,8 @@ Description: "Référentiel des pays provenant de la norme ISO 3166"
 * #CV ^property[=].valueDateTime = "2018-06-29T12:00:00+01:00"
 * #CV ^property[+].code = #dateMaj
 * #CV ^property[=].valueDateTime = "2024-01-26T12:00:00+01:00"
+* #CV ^property[+].code = #status
+* #CV ^property[=].valueCode = #active
 * #CW "Curaçao"
 * #CW ^designation[0].language = #fr-FR
 * #CW ^designation[=].use.system = "http://snomed.info/sct"
@@ -673,6 +794,8 @@ Description: "Référentiel des pays provenant de la norme ISO 3166"
 * #CW ^property[=].valueDateTime = "2018-06-29T12:00:00+01:00"
 * #CW ^property[+].code = #dateMaj
 * #CW ^property[=].valueDateTime = "2024-01-26T12:00:00+01:00"
+* #CW ^property[+].code = #status
+* #CW ^property[=].valueCode = #active
 * #CX "l'Île Christmas"
 * #CX ^designation[0].language = #fr-FR
 * #CX ^designation[=].use.system = "http://snomed.info/sct"
@@ -686,6 +809,8 @@ Description: "Référentiel des pays provenant de la norme ISO 3166"
 * #CX ^property[=].valueDateTime = "2018-06-29T12:00:00+01:00"
 * #CX ^property[+].code = #dateMaj
 * #CX ^property[=].valueDateTime = "2024-01-26T12:00:00+01:00"
+* #CX ^property[+].code = #status
+* #CX ^property[=].valueCode = #active
 * #CY "la République de Chypre"
 * #CY ^designation[0].language = #fr-FR
 * #CY ^designation[=].use.system = "http://snomed.info/sct"
@@ -695,6 +820,8 @@ Description: "Référentiel des pays provenant de la norme ISO 3166"
 * #CY ^property[=].valueDateTime = "2018-06-29T12:00:00+01:00"
 * #CY ^property[+].code = #dateMaj
 * #CY ^property[=].valueDateTime = "2024-01-26T12:00:00+01:00"
+* #CY ^property[+].code = #status
+* #CY ^property[=].valueCode = #active
 * #CZ "la République tchèque"
 * #CZ ^designation[0].language = #fr-FR
 * #CZ ^designation[=].use.system = "http://snomed.info/sct"
@@ -704,6 +831,8 @@ Description: "Référentiel des pays provenant de la norme ISO 3166"
 * #CZ ^property[=].valueDateTime = "2018-06-29T12:00:00+01:00"
 * #CZ ^property[+].code = #dateMaj
 * #CZ ^property[=].valueDateTime = "2024-01-26T12:00:00+01:00"
+* #CZ ^property[+].code = #status
+* #CZ ^property[=].valueCode = #active
 * #DE "la République fédérale d'Allemagne"
 * #DE ^designation[0].language = #fr-FR
 * #DE ^designation[=].use.system = "http://snomed.info/sct"
@@ -717,6 +846,8 @@ Description: "Référentiel des pays provenant de la norme ISO 3166"
 * #DE ^property[=].valueDateTime = "2018-06-29T12:00:00+01:00"
 * #DE ^property[+].code = #dateMaj
 * #DE ^property[=].valueDateTime = "2024-01-26T12:00:00+01:00"
+* #DE ^property[+].code = #status
+* #DE ^property[=].valueCode = #active
 * #DJ "la République de Djibouti"
 * #DJ ^designation[0].language = #fr-FR
 * #DJ ^designation[=].use.system = "http://snomed.info/sct"
@@ -726,6 +857,8 @@ Description: "Référentiel des pays provenant de la norme ISO 3166"
 * #DJ ^property[=].valueDateTime = "2018-06-29T12:00:00+01:00"
 * #DJ ^property[+].code = #dateMaj
 * #DJ ^property[=].valueDateTime = "2024-01-26T12:00:00+01:00"
+* #DJ ^property[+].code = #status
+* #DJ ^property[=].valueCode = #active
 * #DK "le Royaume du Danemark"
 * #DK ^designation[0].language = #fr-FR
 * #DK ^designation[=].use.system = "http://snomed.info/sct"
@@ -739,6 +872,8 @@ Description: "Référentiel des pays provenant de la norme ISO 3166"
 * #DK ^property[=].valueDateTime = "2018-06-29T12:00:00+01:00"
 * #DK ^property[+].code = #dateMaj
 * #DK ^property[=].valueDateTime = "2024-01-26T12:00:00+01:00"
+* #DK ^property[+].code = #status
+* #DK ^property[=].valueCode = #active
 * #DM "le Commonwealth de Dominique"
 * #DM ^designation[0].language = #fr-FR
 * #DM ^designation[=].use.system = "http://snomed.info/sct"
@@ -752,6 +887,8 @@ Description: "Référentiel des pays provenant de la norme ISO 3166"
 * #DM ^property[=].valueDateTime = "2018-06-29T12:00:00+01:00"
 * #DM ^property[+].code = #dateMaj
 * #DM ^property[=].valueDateTime = "2024-01-26T12:00:00+01:00"
+* #DM ^property[+].code = #status
+* #DM ^property[=].valueCode = #active
 * #DO "la République dominicaine"
 * #DO ^designation[0].language = #fr-FR
 * #DO ^designation[=].use.system = "http://snomed.info/sct"
@@ -765,6 +902,8 @@ Description: "Référentiel des pays provenant de la norme ISO 3166"
 * #DO ^property[=].valueDateTime = "2018-06-29T12:00:00+01:00"
 * #DO ^property[+].code = #dateMaj
 * #DO ^property[=].valueDateTime = "2024-01-26T12:00:00+01:00"
+* #DO ^property[+].code = #status
+* #DO ^property[=].valueCode = #active
 * #DZ "la République algérienne démocratique et populaire"
 * #DZ ^designation[0].language = #fr-FR
 * #DZ ^designation[=].use.system = "http://snomed.info/sct"
@@ -778,6 +917,8 @@ Description: "Référentiel des pays provenant de la norme ISO 3166"
 * #DZ ^property[=].valueDateTime = "2018-06-29T12:00:00+01:00"
 * #DZ ^property[+].code = #dateMaj
 * #DZ ^property[=].valueDateTime = "2024-01-26T12:00:00+01:00"
+* #DZ ^property[+].code = #status
+* #DZ ^property[=].valueCode = #active
 * #EC "la République d'Équateur"
 * #EC ^designation[0].language = #fr-FR
 * #EC ^designation[=].use.system = "http://snomed.info/sct"
@@ -791,6 +932,8 @@ Description: "Référentiel des pays provenant de la norme ISO 3166"
 * #EC ^property[=].valueDateTime = "2018-06-29T12:00:00+01:00"
 * #EC ^property[+].code = #dateMaj
 * #EC ^property[=].valueDateTime = "2024-01-26T12:00:00+01:00"
+* #EC ^property[+].code = #status
+* #EC ^property[=].valueCode = #active
 * #EE "la République d'Estonie"
 * #EE ^designation[0].language = #fr-FR
 * #EE ^designation[=].use.system = "http://snomed.info/sct"
@@ -804,6 +947,8 @@ Description: "Référentiel des pays provenant de la norme ISO 3166"
 * #EE ^property[=].valueDateTime = "2018-06-29T12:00:00+01:00"
 * #EE ^property[+].code = #dateMaj
 * #EE ^property[=].valueDateTime = "2024-01-26T12:00:00+01:00"
+* #EE ^property[+].code = #status
+* #EE ^property[=].valueCode = #active
 * #EG "la République arabe d'Égypte"
 * #EG ^designation[0].language = #fr-FR
 * #EG ^designation[=].use.system = "http://snomed.info/sct"
@@ -817,6 +962,8 @@ Description: "Référentiel des pays provenant de la norme ISO 3166"
 * #EG ^property[=].valueDateTime = "2018-06-29T12:00:00+01:00"
 * #EG ^property[+].code = #dateMaj
 * #EG ^property[=].valueDateTime = "2024-01-26T12:00:00+01:00"
+* #EG ^property[+].code = #status
+* #EG ^property[=].valueCode = #active
 * #EH "le Sahara occidental"
 * #EH ^designation[0].language = #fr-FR
 * #EH ^designation[=].use.system = "http://snomed.info/sct"
@@ -830,6 +977,8 @@ Description: "Référentiel des pays provenant de la norme ISO 3166"
 * #EH ^property[=].valueDateTime = "2018-06-29T12:00:00+01:00"
 * #EH ^property[+].code = #dateMaj
 * #EH ^property[=].valueDateTime = "2024-01-26T12:00:00+01:00"
+* #EH ^property[+].code = #status
+* #EH ^property[=].valueCode = #active
 * #ER "l'État d'Érythrée"
 * #ER ^designation[0].language = #fr-FR
 * #ER ^designation[=].use.system = "http://snomed.info/sct"
@@ -843,6 +992,8 @@ Description: "Référentiel des pays provenant de la norme ISO 3166"
 * #ER ^property[=].valueDateTime = "2018-06-29T12:00:00+01:00"
 * #ER ^property[+].code = #dateMaj
 * #ER ^property[=].valueDateTime = "2024-01-26T12:00:00+01:00"
+* #ER ^property[+].code = #status
+* #ER ^property[=].valueCode = #active
 * #ES "le Royaume d'Espagne"
 * #ES ^designation[0].language = #fr-FR
 * #ES ^designation[=].use.system = "http://snomed.info/sct"
@@ -856,6 +1007,8 @@ Description: "Référentiel des pays provenant de la norme ISO 3166"
 * #ES ^property[=].valueDateTime = "2018-06-29T12:00:00+01:00"
 * #ES ^property[+].code = #dateMaj
 * #ES ^property[=].valueDateTime = "2024-01-26T12:00:00+01:00"
+* #ES ^property[+].code = #status
+* #ES ^property[=].valueCode = #active
 * #ET "la République fédérale démocratique d'Éthiopie"
 * #ET ^designation[0].language = #fr-FR
 * #ET ^designation[=].use.system = "http://snomed.info/sct"
@@ -869,6 +1022,8 @@ Description: "Référentiel des pays provenant de la norme ISO 3166"
 * #ET ^property[=].valueDateTime = "2018-06-29T12:00:00+01:00"
 * #ET ^property[+].code = #dateMaj
 * #ET ^property[=].valueDateTime = "2024-01-26T12:00:00+01:00"
+* #ET ^property[+].code = #status
+* #ET ^property[=].valueCode = #active
 * #FI "la République de Finlande"
 * #FI ^designation[0].language = #fr-FR
 * #FI ^designation[=].use.system = "http://snomed.info/sct"
@@ -882,6 +1037,8 @@ Description: "Référentiel des pays provenant de la norme ISO 3166"
 * #FI ^property[=].valueDateTime = "2018-06-29T12:00:00+01:00"
 * #FI ^property[+].code = #dateMaj
 * #FI ^property[=].valueDateTime = "2024-01-26T12:00:00+01:00"
+* #FI ^property[+].code = #status
+* #FI ^property[=].valueCode = #active
 * #FJ "la République des Fidji"
 * #FJ ^designation[0].language = #fr-FR
 * #FJ ^designation[=].use.system = "http://snomed.info/sct"
@@ -895,6 +1052,8 @@ Description: "Référentiel des pays provenant de la norme ISO 3166"
 * #FJ ^property[=].valueDateTime = "2018-06-29T12:00:00+01:00"
 * #FJ ^property[+].code = #dateMaj
 * #FJ ^property[=].valueDateTime = "2024-01-26T12:00:00+01:00"
+* #FJ ^property[+].code = #status
+* #FJ ^property[=].valueCode = #active
 * #FK "les Îles Falkland les Îles Malouines"
 * #FK ^designation[0].language = #fr-FR
 * #FK ^designation[=].use.system = "http://snomed.info/sct"
@@ -908,6 +1067,8 @@ Description: "Référentiel des pays provenant de la norme ISO 3166"
 * #FK ^property[=].valueDateTime = "2018-06-29T12:00:00+01:00"
 * #FK ^property[+].code = #dateMaj
 * #FK ^property[=].valueDateTime = "2024-01-26T12:00:00+01:00"
+* #FK ^property[+].code = #status
+* #FK ^property[=].valueCode = #active
 * #FM "les États fédérés de Micronésie"
 * #FM ^designation[0].language = #fr-FR
 * #FM ^designation[=].use.system = "http://snomed.info/sct"
@@ -917,6 +1078,8 @@ Description: "Référentiel des pays provenant de la norme ISO 3166"
 * #FM ^property[=].valueDateTime = "2018-06-29T12:00:00+01:00"
 * #FM ^property[+].code = #dateMaj
 * #FM ^property[=].valueDateTime = "2024-01-26T12:00:00+01:00"
+* #FM ^property[+].code = #status
+* #FM ^property[=].valueCode = #active
 * #FO "les Îles Féroé"
 * #FO ^designation[0].language = #fr-FR
 * #FO ^designation[=].use.system = "http://snomed.info/sct"
@@ -930,6 +1093,8 @@ Description: "Référentiel des pays provenant de la norme ISO 3166"
 * #FO ^property[=].valueDateTime = "2018-06-29T12:00:00+01:00"
 * #FO ^property[+].code = #dateMaj
 * #FO ^property[=].valueDateTime = "2024-01-26T12:00:00+01:00"
+* #FO ^property[+].code = #status
+* #FO ^property[=].valueCode = #active
 * #FR "la République française"
 * #FR ^designation[0].language = #fr-FR
 * #FR ^designation[=].use.system = "http://snomed.info/sct"
@@ -943,6 +1108,8 @@ Description: "Référentiel des pays provenant de la norme ISO 3166"
 * #FR ^property[=].valueDateTime = "2018-06-29T12:00:00+01:00"
 * #FR ^property[+].code = #dateMaj
 * #FR ^property[=].valueDateTime = "2024-01-26T12:00:00+01:00"
+* #FR ^property[+].code = #status
+* #FR ^property[=].valueCode = #active
 * #GA "la République gabonaise"
 * #GA ^designation[0].language = #fr-FR
 * #GA ^designation[=].use.system = "http://snomed.info/sct"
@@ -956,6 +1123,8 @@ Description: "Référentiel des pays provenant de la norme ISO 3166"
 * #GA ^property[=].valueDateTime = "2018-06-29T12:00:00+01:00"
 * #GA ^property[+].code = #dateMaj
 * #GA ^property[=].valueDateTime = "2024-01-26T12:00:00+01:00"
+* #GA ^property[+].code = #status
+* #GA ^property[=].valueCode = #active
 * #GB "le Royaume-Uni de Grande-Bretagne et d'Irlande du Nord"
 * #GB ^designation[0].language = #fr-FR
 * #GB ^designation[=].use.system = "http://snomed.info/sct"
@@ -969,6 +1138,8 @@ Description: "Référentiel des pays provenant de la norme ISO 3166"
 * #GB ^property[=].valueDateTime = "2018-06-29T12:00:00+01:00"
 * #GB ^property[+].code = #dateMaj
 * #GB ^property[=].valueDateTime = "2024-01-26T12:00:00+01:00"
+* #GB ^property[+].code = #status
+* #GB ^property[=].valueCode = #active
 * #GD "la Grenade"
 * #GD ^designation[0].language = #fr-FR
 * #GD ^designation[=].use.system = "http://snomed.info/sct"
@@ -982,6 +1153,8 @@ Description: "Référentiel des pays provenant de la norme ISO 3166"
 * #GD ^property[=].valueDateTime = "2018-06-29T12:00:00+01:00"
 * #GD ^property[+].code = #dateMaj
 * #GD ^property[=].valueDateTime = "2024-01-26T12:00:00+01:00"
+* #GD ^property[+].code = #status
+* #GD ^property[=].valueCode = #active
 * #GE "la Géorgie"
 * #GE ^designation[0].language = #fr-FR
 * #GE ^designation[=].use.system = "http://snomed.info/sct"
@@ -995,6 +1168,8 @@ Description: "Référentiel des pays provenant de la norme ISO 3166"
 * #GE ^property[=].valueDateTime = "2018-06-29T12:00:00+01:00"
 * #GE ^property[+].code = #dateMaj
 * #GE ^property[=].valueDateTime = "2024-01-26T12:00:00+01:00"
+* #GE ^property[+].code = #status
+* #GE ^property[=].valueCode = #active
 * #GF "la Guyane française"
 * #GF ^designation[0].language = #fr-FR
 * #GF ^designation[=].use.system = "http://snomed.info/sct"
@@ -1008,11 +1183,15 @@ Description: "Référentiel des pays provenant de la norme ISO 3166"
 * #GF ^property[=].valueDateTime = "2018-06-29T12:00:00+01:00"
 * #GF ^property[+].code = #dateMaj
 * #GF ^property[=].valueDateTime = "2024-01-26T12:00:00+01:00"
+* #GF ^property[+].code = #status
+* #GF ^property[=].valueCode = #active
 * #GG "Guernesey"
 * #GG ^property[0].code = #dateValid
 * #GG ^property[=].valueDateTime = "2018-06-29T12:00:00+01:00"
 * #GG ^property[+].code = #dateMaj
 * #GG ^property[=].valueDateTime = "2024-01-26T12:00:00+01:00"
+* #GG ^property[+].code = #status
+* #GG ^property[=].valueCode = #active
 * #GH "la République du Ghana"
 * #GH ^designation[0].language = #fr-FR
 * #GH ^designation[=].use.system = "http://snomed.info/sct"
@@ -1026,11 +1205,15 @@ Description: "Référentiel des pays provenant de la norme ISO 3166"
 * #GH ^property[=].valueDateTime = "2018-06-29T12:00:00+01:00"
 * #GH ^property[+].code = #dateMaj
 * #GH ^property[=].valueDateTime = "2024-01-26T12:00:00+01:00"
+* #GH ^property[+].code = #status
+* #GH ^property[=].valueCode = #active
 * #GI "Gibraltar"
 * #GI ^property[0].code = #dateValid
 * #GI ^property[=].valueDateTime = "2018-06-29T12:00:00+01:00"
 * #GI ^property[+].code = #dateMaj
 * #GI ^property[=].valueDateTime = "2024-01-26T12:00:00+01:00"
+* #GI ^property[+].code = #status
+* #GI ^property[=].valueCode = #active
 * #GL "le Groenland"
 * #GL ^designation[0].language = #fr-FR
 * #GL ^designation[=].use.system = "http://snomed.info/sct"
@@ -1044,6 +1227,8 @@ Description: "Référentiel des pays provenant de la norme ISO 3166"
 * #GL ^property[=].valueDateTime = "2018-06-29T12:00:00+01:00"
 * #GL ^property[+].code = #dateMaj
 * #GL ^property[=].valueDateTime = "2024-01-26T12:00:00+01:00"
+* #GL ^property[+].code = #status
+* #GL ^property[=].valueCode = #active
 * #GM "la République de Gambie"
 * #GM ^designation[0].language = #fr-FR
 * #GM ^designation[=].use.system = "http://snomed.info/sct"
@@ -1057,6 +1242,8 @@ Description: "Référentiel des pays provenant de la norme ISO 3166"
 * #GM ^property[=].valueDateTime = "2018-06-29T12:00:00+01:00"
 * #GM ^property[+].code = #dateMaj
 * #GM ^property[=].valueDateTime = "2024-01-26T12:00:00+01:00"
+* #GM ^property[+].code = #status
+* #GM ^property[=].valueCode = #active
 * #GN "la République de Guinée"
 * #GN ^designation[0].language = #fr-FR
 * #GN ^designation[=].use.system = "http://snomed.info/sct"
@@ -1070,6 +1257,8 @@ Description: "Référentiel des pays provenant de la norme ISO 3166"
 * #GN ^property[=].valueDateTime = "2018-06-29T12:00:00+01:00"
 * #GN ^property[+].code = #dateMaj
 * #GN ^property[=].valueDateTime = "2024-01-26T12:00:00+01:00"
+* #GN ^property[+].code = #status
+* #GN ^property[=].valueCode = #active
 * #GP "la Guadeloupe"
 * #GP ^designation[0].language = #fr-FR
 * #GP ^designation[=].use.system = "http://snomed.info/sct"
@@ -1083,6 +1272,8 @@ Description: "Référentiel des pays provenant de la norme ISO 3166"
 * #GP ^property[=].valueDateTime = "2018-06-29T12:00:00+01:00"
 * #GP ^property[+].code = #dateMaj
 * #GP ^property[=].valueDateTime = "2024-01-26T12:00:00+01:00"
+* #GP ^property[+].code = #status
+* #GP ^property[=].valueCode = #active
 * #GQ "la République de Guinée équatoriale"
 * #GQ ^designation[0].language = #fr-FR
 * #GQ ^designation[=].use.system = "http://snomed.info/sct"
@@ -1096,6 +1287,8 @@ Description: "Référentiel des pays provenant de la norme ISO 3166"
 * #GQ ^property[=].valueDateTime = "2018-06-29T12:00:00+01:00"
 * #GQ ^property[+].code = #dateMaj
 * #GQ ^property[=].valueDateTime = "2024-01-26T12:00:00+01:00"
+* #GQ ^property[+].code = #status
+* #GQ ^property[=].valueCode = #active
 * #GR "la République hellénique"
 * #GR ^designation[0].language = #fr-FR
 * #GR ^designation[=].use.system = "http://snomed.info/sct"
@@ -1109,6 +1302,8 @@ Description: "Référentiel des pays provenant de la norme ISO 3166"
 * #GR ^property[=].valueDateTime = "2018-06-29T12:00:00+01:00"
 * #GR ^property[+].code = #dateMaj
 * #GR ^property[=].valueDateTime = "2024-01-26T12:00:00+01:00"
+* #GR ^property[+].code = #status
+* #GR ^property[=].valueCode = #active
 * #GS "la Géorgie du Sud-et-les Îles Sandwich du Sud"
 * #GS ^designation[0].language = #fr-FR
 * #GS ^designation[=].use.system = "http://snomed.info/sct"
@@ -1122,6 +1317,8 @@ Description: "Référentiel des pays provenant de la norme ISO 3166"
 * #GS ^property[=].valueDateTime = "2018-06-29T12:00:00+01:00"
 * #GS ^property[+].code = #dateMaj
 * #GS ^property[=].valueDateTime = "2024-01-26T12:00:00+01:00"
+* #GS ^property[+].code = #status
+* #GS ^property[=].valueCode = #active
 * #GT "la République du Guatemala"
 * #GT ^designation[0].language = #fr-FR
 * #GT ^designation[=].use.system = "http://snomed.info/sct"
@@ -1135,11 +1332,15 @@ Description: "Référentiel des pays provenant de la norme ISO 3166"
 * #GT ^property[=].valueDateTime = "2018-06-29T12:00:00+01:00"
 * #GT ^property[+].code = #dateMaj
 * #GT ^property[=].valueDateTime = "2024-01-26T12:00:00+01:00"
+* #GT ^property[+].code = #status
+* #GT ^property[=].valueCode = #active
 * #GU "Guam"
 * #GU ^property[0].code = #dateValid
 * #GU ^property[=].valueDateTime = "2018-06-29T12:00:00+01:00"
 * #GU ^property[+].code = #dateMaj
 * #GU ^property[=].valueDateTime = "2024-01-26T12:00:00+01:00"
+* #GU ^property[+].code = #status
+* #GU ^property[=].valueCode = #active
 * #GW "la République de Guinée-Bissau"
 * #GW ^designation[0].language = #fr-FR
 * #GW ^designation[=].use.system = "http://snomed.info/sct"
@@ -1153,6 +1354,8 @@ Description: "Référentiel des pays provenant de la norme ISO 3166"
 * #GW ^property[=].valueDateTime = "2018-06-29T12:00:00+01:00"
 * #GW ^property[+].code = #dateMaj
 * #GW ^property[=].valueDateTime = "2024-01-26T12:00:00+01:00"
+* #GW ^property[+].code = #status
+* #GW ^property[=].valueCode = #active
 * #GY "la République coopérative du Guyana"
 * #GY ^designation[0].language = #fr-FR
 * #GY ^designation[=].use.system = "http://snomed.info/sct"
@@ -1166,6 +1369,8 @@ Description: "Référentiel des pays provenant de la norme ISO 3166"
 * #GY ^property[=].valueDateTime = "2018-06-29T12:00:00+01:00"
 * #GY ^property[+].code = #dateMaj
 * #GY ^property[=].valueDateTime = "2024-01-26T12:00:00+01:00"
+* #GY ^property[+].code = #status
+* #GY ^property[=].valueCode = #active
 * #HK "Hong Kong, Région administrative spéciale de Chine (la)"
 * #HK ^designation[0].language = #fr-FR
 * #HK ^designation[=].use.system = "http://snomed.info/sct"
@@ -1175,6 +1380,8 @@ Description: "Référentiel des pays provenant de la norme ISO 3166"
 * #HK ^property[=].valueDateTime = "2018-06-29T12:00:00+01:00"
 * #HK ^property[+].code = #dateMaj
 * #HK ^property[=].valueDateTime = "2024-01-26T12:00:00+01:00"
+* #HK ^property[+].code = #status
+* #HK ^property[=].valueCode = #active
 * #HM "l'Île Heard-et-Îles MacDonald"
 * #HM ^designation[0].language = #fr-FR
 * #HM ^designation[=].use.system = "http://snomed.info/sct"
@@ -1188,6 +1395,8 @@ Description: "Référentiel des pays provenant de la norme ISO 3166"
 * #HM ^property[=].valueDateTime = "2018-06-29T12:00:00+01:00"
 * #HM ^property[+].code = #dateMaj
 * #HM ^property[=].valueDateTime = "2024-01-26T12:00:00+01:00"
+* #HM ^property[+].code = #status
+* #HM ^property[=].valueCode = #active
 * #HN "la République du Honduras"
 * #HN ^designation[0].language = #fr-FR
 * #HN ^designation[=].use.system = "http://snomed.info/sct"
@@ -1201,6 +1410,8 @@ Description: "Référentiel des pays provenant de la norme ISO 3166"
 * #HN ^property[=].valueDateTime = "2018-06-29T12:00:00+01:00"
 * #HN ^property[+].code = #dateMaj
 * #HN ^property[=].valueDateTime = "2024-01-26T12:00:00+01:00"
+* #HN ^property[+].code = #status
+* #HN ^property[=].valueCode = #active
 * #HR "la République de Croatie"
 * #HR ^designation[0].language = #fr-FR
 * #HR ^designation[=].use.system = "http://snomed.info/sct"
@@ -1214,6 +1425,8 @@ Description: "Référentiel des pays provenant de la norme ISO 3166"
 * #HR ^property[=].valueDateTime = "2018-06-29T12:00:00+01:00"
 * #HR ^property[+].code = #dateMaj
 * #HR ^property[=].valueDateTime = "2024-01-26T12:00:00+01:00"
+* #HR ^property[+].code = #status
+* #HR ^property[=].valueCode = #active
 * #HT "la République d'Haïti"
 * #HT ^designation[0].language = #fr-FR
 * #HT ^designation[=].use.system = "http://snomed.info/sct"
@@ -1223,6 +1436,8 @@ Description: "Référentiel des pays provenant de la norme ISO 3166"
 * #HT ^property[=].valueDateTime = "2018-06-29T12:00:00+01:00"
 * #HT ^property[+].code = #dateMaj
 * #HT ^property[=].valueDateTime = "2024-01-26T12:00:00+01:00"
+* #HT ^property[+].code = #status
+* #HT ^property[=].valueCode = #active
 * #HU "la Hongrie"
 * #HU ^designation[0].language = #fr-FR
 * #HU ^designation[=].use.system = "http://snomed.info/sct"
@@ -1236,6 +1451,8 @@ Description: "Référentiel des pays provenant de la norme ISO 3166"
 * #HU ^property[=].valueDateTime = "2018-06-29T12:00:00+01:00"
 * #HU ^property[+].code = #dateMaj
 * #HU ^property[=].valueDateTime = "2024-01-26T12:00:00+01:00"
+* #HU ^property[+].code = #status
+* #HU ^property[=].valueCode = #active
 * #ID "la République d'Indonésie"
 * #ID ^designation[0].language = #fr-FR
 * #ID ^designation[=].use.system = "http://snomed.info/sct"
@@ -1249,6 +1466,8 @@ Description: "Référentiel des pays provenant de la norme ISO 3166"
 * #ID ^property[=].valueDateTime = "2018-06-29T12:00:00+01:00"
 * #ID ^property[+].code = #dateMaj
 * #ID ^property[=].valueDateTime = "2024-01-26T12:00:00+01:00"
+* #ID ^property[+].code = #status
+* #ID ^property[=].valueCode = #active
 * #IE "l'Irlande"
 * #IE ^designation[0].language = #fr-FR
 * #IE ^designation[=].use.system = "http://snomed.info/sct"
@@ -1262,6 +1481,8 @@ Description: "Référentiel des pays provenant de la norme ISO 3166"
 * #IE ^property[=].valueDateTime = "2018-06-29T12:00:00+01:00"
 * #IE ^property[+].code = #dateMaj
 * #IE ^property[=].valueDateTime = "2024-01-26T12:00:00+01:00"
+* #IE ^property[+].code = #status
+* #IE ^property[=].valueCode = #active
 * #IL "l'État d'Israël"
 * #IL ^designation[0].language = #fr-FR
 * #IL ^designation[=].use.system = "http://snomed.info/sct"
@@ -1271,11 +1492,15 @@ Description: "Référentiel des pays provenant de la norme ISO 3166"
 * #IL ^property[=].valueDateTime = "2018-06-29T12:00:00+01:00"
 * #IL ^property[+].code = #dateMaj
 * #IL ^property[=].valueDateTime = "2024-01-26T12:00:00+01:00"
+* #IL ^property[+].code = #status
+* #IL ^property[=].valueCode = #active
 * #IM "Île de Man"
 * #IM ^property[0].code = #dateValid
 * #IM ^property[=].valueDateTime = "2018-06-29T12:00:00+01:00"
 * #IM ^property[+].code = #dateMaj
 * #IM ^property[=].valueDateTime = "2024-01-26T12:00:00+01:00"
+* #IM ^property[+].code = #status
+* #IM ^property[=].valueCode = #active
 * #IN "la République de l'Inde"
 * #IN ^designation[0].language = #fr-FR
 * #IN ^designation[=].use.system = "http://snomed.info/sct"
@@ -1289,6 +1514,8 @@ Description: "Référentiel des pays provenant de la norme ISO 3166"
 * #IN ^property[=].valueDateTime = "2018-06-29T12:00:00+01:00"
 * #IN ^property[+].code = #dateMaj
 * #IN ^property[=].valueDateTime = "2024-01-26T12:00:00+01:00"
+* #IN ^property[+].code = #status
+* #IN ^property[=].valueCode = #active
 * #IO "le Territoire britannique de l'océan Indien"
 * #IO ^designation[0].language = #fr-FR
 * #IO ^designation[=].use.system = "http://snomed.info/sct"
@@ -1302,6 +1529,8 @@ Description: "Référentiel des pays provenant de la norme ISO 3166"
 * #IO ^property[=].valueDateTime = "2018-06-29T12:00:00+01:00"
 * #IO ^property[+].code = #dateMaj
 * #IO ^property[=].valueDateTime = "2024-01-26T12:00:00+01:00"
+* #IO ^property[+].code = #status
+* #IO ^property[=].valueCode = #active
 * #IQ "la République d'Iraq"
 * #IQ ^designation[0].language = #fr-FR
 * #IQ ^designation[=].use.system = "http://snomed.info/sct"
@@ -1315,6 +1544,8 @@ Description: "Référentiel des pays provenant de la norme ISO 3166"
 * #IQ ^property[=].valueDateTime = "2018-06-29T12:00:00+01:00"
 * #IQ ^property[+].code = #dateMaj
 * #IQ ^property[=].valueDateTime = "2024-01-26T12:00:00+01:00"
+* #IQ ^property[+].code = #status
+* #IQ ^property[=].valueCode = #active
 * #IR "la République islamique d'Iran"
 * #IR ^designation[0].language = #fr-FR
 * #IR ^designation[=].use.system = "http://snomed.info/sct"
@@ -1324,6 +1555,8 @@ Description: "Référentiel des pays provenant de la norme ISO 3166"
 * #IR ^property[=].valueDateTime = "2018-06-29T12:00:00+01:00"
 * #IR ^property[+].code = #dateMaj
 * #IR ^property[=].valueDateTime = "2024-01-26T12:00:00+01:00"
+* #IR ^property[+].code = #status
+* #IR ^property[=].valueCode = #active
 * #IS "l'Islande"
 * #IS ^designation[0].language = #fr-FR
 * #IS ^designation[=].use.system = "http://snomed.info/sct"
@@ -1337,6 +1570,8 @@ Description: "Référentiel des pays provenant de la norme ISO 3166"
 * #IS ^property[=].valueDateTime = "2018-06-29T12:00:00+01:00"
 * #IS ^property[+].code = #dateMaj
 * #IS ^property[=].valueDateTime = "2024-01-26T12:00:00+01:00"
+* #IS ^property[+].code = #status
+* #IS ^property[=].valueCode = #active
 * #IT "la République italienne"
 * #IT ^designation[0].language = #fr-FR
 * #IT ^designation[=].use.system = "http://snomed.info/sct"
@@ -1350,11 +1585,15 @@ Description: "Référentiel des pays provenant de la norme ISO 3166"
 * #IT ^property[=].valueDateTime = "2018-06-29T12:00:00+01:00"
 * #IT ^property[+].code = #dateMaj
 * #IT ^property[=].valueDateTime = "2024-01-26T12:00:00+01:00"
+* #IT ^property[+].code = #status
+* #IT ^property[=].valueCode = #active
 * #JE "Jersey"
 * #JE ^property[0].code = #dateValid
 * #JE ^property[=].valueDateTime = "2018-06-29T12:00:00+01:00"
 * #JE ^property[+].code = #dateMaj
 * #JE ^property[=].valueDateTime = "2024-01-26T12:00:00+01:00"
+* #JE ^property[+].code = #status
+* #JE ^property[=].valueCode = #active
 * #JM "la Jamaïque"
 * #JM ^designation[0].language = #fr-FR
 * #JM ^designation[=].use.system = "http://snomed.info/sct"
@@ -1368,6 +1607,8 @@ Description: "Référentiel des pays provenant de la norme ISO 3166"
 * #JM ^property[=].valueDateTime = "2018-06-29T12:00:00+01:00"
 * #JM ^property[+].code = #dateMaj
 * #JM ^property[=].valueDateTime = "2024-01-26T12:00:00+01:00"
+* #JM ^property[+].code = #status
+* #JM ^property[=].valueCode = #active
 * #JO "le Royaume hachémite de Jordanie"
 * #JO ^designation[0].language = #fr-FR
 * #JO ^designation[=].use.system = "http://snomed.info/sct"
@@ -1381,6 +1622,8 @@ Description: "Référentiel des pays provenant de la norme ISO 3166"
 * #JO ^property[=].valueDateTime = "2018-06-29T12:00:00+01:00"
 * #JO ^property[+].code = #dateMaj
 * #JO ^property[=].valueDateTime = "2024-01-26T12:00:00+01:00"
+* #JO ^property[+].code = #status
+* #JO ^property[=].valueCode = #active
 * #JP "le Japon"
 * #JP ^designation[0].language = #fr-FR
 * #JP ^designation[=].use.system = "http://snomed.info/sct"
@@ -1394,6 +1637,8 @@ Description: "Référentiel des pays provenant de la norme ISO 3166"
 * #JP ^property[=].valueDateTime = "2018-06-29T12:00:00+01:00"
 * #JP ^property[+].code = #dateMaj
 * #JP ^property[=].valueDateTime = "2024-01-26T12:00:00+01:00"
+* #JP ^property[+].code = #status
+* #JP ^property[=].valueCode = #active
 * #KE "la République du Kenya"
 * #KE ^designation[0].language = #fr-FR
 * #KE ^designation[=].use.system = "http://snomed.info/sct"
@@ -1407,6 +1652,8 @@ Description: "Référentiel des pays provenant de la norme ISO 3166"
 * #KE ^property[=].valueDateTime = "2018-06-29T12:00:00+01:00"
 * #KE ^property[+].code = #dateMaj
 * #KE ^property[=].valueDateTime = "2024-01-26T12:00:00+01:00"
+* #KE ^property[+].code = #status
+* #KE ^property[=].valueCode = #active
 * #KG "la République kirghize"
 * #KG ^designation[0].language = #fr-FR
 * #KG ^designation[=].use.system = "http://snomed.info/sct"
@@ -1420,6 +1667,8 @@ Description: "Référentiel des pays provenant de la norme ISO 3166"
 * #KG ^property[=].valueDateTime = "2018-06-29T12:00:00+01:00"
 * #KG ^property[+].code = #dateMaj
 * #KG ^property[=].valueDateTime = "2024-01-26T12:00:00+01:00"
+* #KG ^property[+].code = #status
+* #KG ^property[=].valueCode = #active
 * #KH "le Royaume du Cambodge"
 * #KH ^designation[0].language = #fr-FR
 * #KH ^designation[=].use.system = "http://snomed.info/sct"
@@ -1433,6 +1682,8 @@ Description: "Référentiel des pays provenant de la norme ISO 3166"
 * #KH ^property[=].valueDateTime = "2018-06-29T12:00:00+01:00"
 * #KH ^property[+].code = #dateMaj
 * #KH ^property[=].valueDateTime = "2024-01-26T12:00:00+01:00"
+* #KH ^property[+].code = #status
+* #KH ^property[=].valueCode = #active
 * #KI "la République de Kiribati"
 * #KI ^designation[0].language = #fr-FR
 * #KI ^designation[=].use.system = "http://snomed.info/sct"
@@ -1442,6 +1693,8 @@ Description: "Référentiel des pays provenant de la norme ISO 3166"
 * #KI ^property[=].valueDateTime = "2018-06-29T12:00:00+01:00"
 * #KI ^property[+].code = #dateMaj
 * #KI ^property[=].valueDateTime = "2024-01-26T12:00:00+01:00"
+* #KI ^property[+].code = #status
+* #KI ^property[=].valueCode = #active
 * #KM "l'Union des Comores"
 * #KM ^designation[0].language = #fr-FR
 * #KM ^designation[=].use.system = "http://snomed.info/sct"
@@ -1455,11 +1708,15 @@ Description: "Référentiel des pays provenant de la norme ISO 3166"
 * #KM ^property[=].valueDateTime = "2018-06-29T12:00:00+01:00"
 * #KM ^property[+].code = #dateMaj
 * #KM ^property[=].valueDateTime = "2024-01-26T12:00:00+01:00"
+* #KM ^property[+].code = #status
+* #KM ^property[=].valueCode = #active
 * #KN "Saint-Kitts-et-Nevis"
 * #KN ^property[0].code = #dateValid
 * #KN ^property[=].valueDateTime = "2018-06-29T12:00:00+01:00"
 * #KN ^property[+].code = #dateMaj
 * #KN ^property[=].valueDateTime = "2024-01-26T12:00:00+01:00"
+* #KN ^property[+].code = #status
+* #KN ^property[=].valueCode = #active
 * #KP "la République populaire démocratique de Corée"
 * #KP ^designation[0].language = #fr-FR
 * #KP ^designation[=].use.system = "http://snomed.info/sct"
@@ -1473,6 +1730,8 @@ Description: "Référentiel des pays provenant de la norme ISO 3166"
 * #KP ^property[=].valueDateTime = "2018-06-29T12:00:00+01:00"
 * #KP ^property[+].code = #dateMaj
 * #KP ^property[=].valueDateTime = "2024-01-26T12:00:00+01:00"
+* #KP ^property[+].code = #status
+* #KP ^property[=].valueCode = #active
 * #KR "la République de Corée"
 * #KR ^designation[0].language = #fr-FR
 * #KR ^designation[=].use.system = "http://snomed.info/sct"
@@ -1486,6 +1745,8 @@ Description: "Référentiel des pays provenant de la norme ISO 3166"
 * #KR ^property[=].valueDateTime = "2018-06-29T12:00:00+01:00"
 * #KR ^property[+].code = #dateMaj
 * #KR ^property[=].valueDateTime = "2024-01-26T12:00:00+01:00"
+* #KR ^property[+].code = #status
+* #KR ^property[=].valueCode = #active
 * #KW "l'État du Koweït"
 * #KW ^designation[0].language = #fr-FR
 * #KW ^designation[=].use.system = "http://snomed.info/sct"
@@ -1499,6 +1760,8 @@ Description: "Référentiel des pays provenant de la norme ISO 3166"
 * #KW ^property[=].valueDateTime = "2018-06-29T12:00:00+01:00"
 * #KW ^property[+].code = #dateMaj
 * #KW ^property[=].valueDateTime = "2024-01-26T12:00:00+01:00"
+* #KW ^property[+].code = #status
+* #KW ^property[=].valueCode = #active
 * #KY "les Îles Caïmans"
 * #KY ^designation[0].language = #fr-FR
 * #KY ^designation[=].use.system = "http://snomed.info/sct"
@@ -1512,6 +1775,8 @@ Description: "Référentiel des pays provenant de la norme ISO 3166"
 * #KY ^property[=].valueDateTime = "2018-06-29T12:00:00+01:00"
 * #KY ^property[+].code = #dateMaj
 * #KY ^property[=].valueDateTime = "2024-01-26T12:00:00+01:00"
+* #KY ^property[+].code = #status
+* #KY ^property[=].valueCode = #active
 * #KZ "la République du Kazakhstan"
 * #KZ ^designation[0].language = #fr-FR
 * #KZ ^designation[=].use.system = "http://snomed.info/sct"
@@ -1525,6 +1790,8 @@ Description: "Référentiel des pays provenant de la norme ISO 3166"
 * #KZ ^property[=].valueDateTime = "2018-06-29T12:00:00+01:00"
 * #KZ ^property[+].code = #dateMaj
 * #KZ ^property[=].valueDateTime = "2024-01-26T12:00:00+01:00"
+* #KZ ^property[+].code = #status
+* #KZ ^property[=].valueCode = #active
 * #LA "la République démocratique populaire lao"
 * #LA ^designation[0].language = #fr-FR
 * #LA ^designation[=].use.system = "http://snomed.info/sct"
@@ -1538,6 +1805,8 @@ Description: "Référentiel des pays provenant de la norme ISO 3166"
 * #LA ^property[=].valueDateTime = "2018-06-29T12:00:00+01:00"
 * #LA ^property[+].code = #dateMaj
 * #LA ^property[=].valueDateTime = "2024-01-26T12:00:00+01:00"
+* #LA ^property[+].code = #status
+* #LA ^property[=].valueCode = #active
 * #LB "la République libanaise"
 * #LB ^designation[0].language = #fr-FR
 * #LB ^designation[=].use.system = "http://snomed.info/sct"
@@ -1551,11 +1820,15 @@ Description: "Référentiel des pays provenant de la norme ISO 3166"
 * #LB ^property[=].valueDateTime = "2018-06-29T12:00:00+01:00"
 * #LB ^property[+].code = #dateMaj
 * #LB ^property[=].valueDateTime = "2024-01-26T12:00:00+01:00"
+* #LB ^property[+].code = #status
+* #LB ^property[=].valueCode = #active
 * #LC "Sainte-Lucie"
 * #LC ^property[0].code = #dateValid
 * #LC ^property[=].valueDateTime = "2018-06-29T12:00:00+01:00"
 * #LC ^property[+].code = #dateMaj
 * #LC ^property[=].valueDateTime = "2024-01-26T12:00:00+01:00"
+* #LC ^property[+].code = #status
+* #LC ^property[=].valueCode = #active
 * #LI "la Principauté du Liechtenstein"
 * #LI ^designation[0].language = #fr-FR
 * #LI ^designation[=].use.system = "http://snomed.info/sct"
@@ -1569,6 +1842,8 @@ Description: "Référentiel des pays provenant de la norme ISO 3166"
 * #LI ^property[=].valueDateTime = "2018-06-29T12:00:00+01:00"
 * #LI ^property[+].code = #dateMaj
 * #LI ^property[=].valueDateTime = "2024-01-26T12:00:00+01:00"
+* #LI ^property[+].code = #status
+* #LI ^property[=].valueCode = #active
 * #LK "la République socialiste démocratique du Sri Lanka"
 * #LK ^designation[0].language = #fr-FR
 * #LK ^designation[=].use.system = "http://snomed.info/sct"
@@ -1578,6 +1853,8 @@ Description: "Référentiel des pays provenant de la norme ISO 3166"
 * #LK ^property[=].valueDateTime = "2018-06-29T12:00:00+01:00"
 * #LK ^property[+].code = #dateMaj
 * #LK ^property[=].valueDateTime = "2024-01-26T12:00:00+01:00"
+* #LK ^property[+].code = #status
+* #LK ^property[=].valueCode = #active
 * #LR "la République du Libéria"
 * #LR ^designation[0].language = #fr-FR
 * #LR ^designation[=].use.system = "http://snomed.info/sct"
@@ -1591,6 +1868,8 @@ Description: "Référentiel des pays provenant de la norme ISO 3166"
 * #LR ^property[=].valueDateTime = "2018-06-29T12:00:00+01:00"
 * #LR ^property[+].code = #dateMaj
 * #LR ^property[=].valueDateTime = "2024-01-26T12:00:00+01:00"
+* #LR ^property[+].code = #status
+* #LR ^property[=].valueCode = #active
 * #LS "le Royaume du Lesotho"
 * #LS ^designation[0].language = #fr-FR
 * #LS ^designation[=].use.system = "http://snomed.info/sct"
@@ -1604,6 +1883,8 @@ Description: "Référentiel des pays provenant de la norme ISO 3166"
 * #LS ^property[=].valueDateTime = "2018-06-29T12:00:00+01:00"
 * #LS ^property[+].code = #dateMaj
 * #LS ^property[=].valueDateTime = "2024-01-26T12:00:00+01:00"
+* #LS ^property[+].code = #status
+* #LS ^property[=].valueCode = #active
 * #LT "la République de Lituanie"
 * #LT ^designation[0].language = #fr-FR
 * #LT ^designation[=].use.system = "http://snomed.info/sct"
@@ -1617,6 +1898,8 @@ Description: "Référentiel des pays provenant de la norme ISO 3166"
 * #LT ^property[=].valueDateTime = "2018-06-29T12:00:00+01:00"
 * #LT ^property[+].code = #dateMaj
 * #LT ^property[=].valueDateTime = "2024-01-26T12:00:00+01:00"
+* #LT ^property[+].code = #status
+* #LT ^property[=].valueCode = #active
 * #LU "le Grand-Duché de Luxembourg"
 * #LU ^designation[0].language = #fr-FR
 * #LU ^designation[=].use.system = "http://snomed.info/sct"
@@ -1630,6 +1913,8 @@ Description: "Référentiel des pays provenant de la norme ISO 3166"
 * #LU ^property[=].valueDateTime = "2018-06-29T12:00:00+01:00"
 * #LU ^property[+].code = #dateMaj
 * #LU ^property[=].valueDateTime = "2024-01-26T12:00:00+01:00"
+* #LU ^property[+].code = #status
+* #LU ^property[=].valueCode = #active
 * #LV "la République de Lettonie"
 * #LV ^designation[0].language = #fr-FR
 * #LV ^designation[=].use.system = "http://snomed.info/sct"
@@ -1643,6 +1928,8 @@ Description: "Référentiel des pays provenant de la norme ISO 3166"
 * #LV ^property[=].valueDateTime = "2018-06-29T12:00:00+01:00"
 * #LV ^property[+].code = #dateMaj
 * #LV ^property[=].valueDateTime = "2024-01-26T12:00:00+01:00"
+* #LV ^property[+].code = #status
+* #LV ^property[=].valueCode = #active
 * #LY "l'État de Libye"
 * #LY ^designation[0].language = #fr-FR
 * #LY ^designation[=].use.system = "http://snomed.info/sct"
@@ -1656,6 +1943,8 @@ Description: "Référentiel des pays provenant de la norme ISO 3166"
 * #LY ^property[=].valueDateTime = "2018-06-29T12:00:00+01:00"
 * #LY ^property[+].code = #dateMaj
 * #LY ^property[=].valueDateTime = "2024-01-26T12:00:00+01:00"
+* #LY ^property[+].code = #status
+* #LY ^property[=].valueCode = #active
 * #MA "le Royaume du Maroc"
 * #MA ^designation[0].language = #fr-FR
 * #MA ^designation[=].use.system = "http://snomed.info/sct"
@@ -1669,6 +1958,8 @@ Description: "Référentiel des pays provenant de la norme ISO 3166"
 * #MA ^property[=].valueDateTime = "2018-06-29T12:00:00+01:00"
 * #MA ^property[+].code = #dateMaj
 * #MA ^property[=].valueDateTime = "2024-01-26T12:00:00+01:00"
+* #MA ^property[+].code = #status
+* #MA ^property[=].valueCode = #active
 * #MC "la Principauté de Monaco"
 * #MC ^designation[0].language = #fr-FR
 * #MC ^designation[=].use.system = "http://snomed.info/sct"
@@ -1678,6 +1969,8 @@ Description: "Référentiel des pays provenant de la norme ISO 3166"
 * #MC ^property[=].valueDateTime = "2018-06-29T12:00:00+01:00"
 * #MC ^property[+].code = #dateMaj
 * #MC ^property[=].valueDateTime = "2024-01-26T12:00:00+01:00"
+* #MC ^property[+].code = #status
+* #MC ^property[=].valueCode = #active
 * #MD "la République de Moldova"
 * #MD ^designation[0].language = #fr-FR
 * #MD ^designation[=].use.system = "http://snomed.info/sct"
@@ -1691,6 +1984,8 @@ Description: "Référentiel des pays provenant de la norme ISO 3166"
 * #MD ^property[=].valueDateTime = "2018-06-29T12:00:00+01:00"
 * #MD ^property[+].code = #dateMaj
 * #MD ^property[=].valueDateTime = "2024-01-26T12:00:00+01:00"
+* #MD ^property[+].code = #status
+* #MD ^property[=].valueCode = #active
 * #ME "Monténégro (le)"
 * #ME ^designation[0].language = #fr-FR
 * #ME ^designation[=].use.system = "http://snomed.info/sct"
@@ -1700,6 +1995,8 @@ Description: "Référentiel des pays provenant de la norme ISO 3166"
 * #ME ^property[=].valueDateTime = "2018-06-29T12:00:00+01:00"
 * #ME ^property[+].code = #dateMaj
 * #ME ^property[=].valueDateTime = "2024-01-26T12:00:00+01:00"
+* #ME ^property[+].code = #status
+* #ME ^property[=].valueCode = #active
 * #MF "partie française Saint-Martin"
 * #MF ^designation[0].language = #fr-FR
 * #MF ^designation[=].use.system = "http://snomed.info/sct"
@@ -1713,6 +2010,8 @@ Description: "Référentiel des pays provenant de la norme ISO 3166"
 * #MF ^property[=].valueDateTime = "2018-06-29T12:00:00+01:00"
 * #MF ^property[+].code = #dateMaj
 * #MF ^property[=].valueDateTime = "2024-01-26T12:00:00+01:00"
+* #MF ^property[+].code = #status
+* #MF ^property[=].valueCode = #active
 * #MG "la République de Madagascar"
 * #MG ^designation[0].language = #fr-FR
 * #MG ^designation[=].use.system = "http://snomed.info/sct"
@@ -1722,6 +2021,8 @@ Description: "Référentiel des pays provenant de la norme ISO 3166"
 * #MG ^property[=].valueDateTime = "2018-06-29T12:00:00+01:00"
 * #MG ^property[+].code = #dateMaj
 * #MG ^property[=].valueDateTime = "2024-01-26T12:00:00+01:00"
+* #MG ^property[+].code = #status
+* #MG ^property[=].valueCode = #active
 * #MH "la République des Îles Marshall"
 * #MH ^designation[0].language = #fr-FR
 * #MH ^designation[=].use.system = "http://snomed.info/sct"
@@ -1735,6 +2036,8 @@ Description: "Référentiel des pays provenant de la norme ISO 3166"
 * #MH ^property[=].valueDateTime = "2018-06-29T12:00:00+01:00"
 * #MH ^property[+].code = #dateMaj
 * #MH ^property[=].valueDateTime = "2024-01-26T12:00:00+01:00"
+* #MH ^property[+].code = #status
+* #MH ^property[=].valueCode = #active
 * #MK "la République de Macédoine du Nord"
 * #MK ^designation[0].language = #fr-FR
 * #MK ^designation[=].use.system = "http://snomed.info/sct"
@@ -1748,6 +2051,8 @@ Description: "Référentiel des pays provenant de la norme ISO 3166"
 * #MK ^property[=].valueDateTime = "2018-06-29T12:00:00+01:00"
 * #MK ^property[+].code = #dateMaj
 * #MK ^property[=].valueDateTime = "2024-01-26T12:00:00+01:00"
+* #MK ^property[+].code = #status
+* #MK ^property[=].valueCode = #active
 * #ML "la République du Mali"
 * #ML ^designation[0].language = #fr-FR
 * #ML ^designation[=].use.system = "http://snomed.info/sct"
@@ -1761,6 +2066,8 @@ Description: "Référentiel des pays provenant de la norme ISO 3166"
 * #ML ^property[=].valueDateTime = "2018-06-29T12:00:00+01:00"
 * #ML ^property[+].code = #dateMaj
 * #ML ^property[=].valueDateTime = "2024-01-26T12:00:00+01:00"
+* #ML ^property[+].code = #status
+* #ML ^property[=].valueCode = #active
 * #MM "la République de l'Union du Myanmar"
 * #MM ^designation[0].language = #fr-FR
 * #MM ^designation[=].use.system = "http://snomed.info/sct"
@@ -1774,6 +2081,8 @@ Description: "Référentiel des pays provenant de la norme ISO 3166"
 * #MM ^property[=].valueDateTime = "2018-06-29T12:00:00+01:00"
 * #MM ^property[+].code = #dateMaj
 * #MM ^property[=].valueDateTime = "2024-01-26T12:00:00+01:00"
+* #MM ^property[+].code = #status
+* #MM ^property[=].valueCode = #active
 * #MN "la Mongolie"
 * #MN ^designation[0].language = #fr-FR
 * #MN ^designation[=].use.system = "http://snomed.info/sct"
@@ -1787,6 +2096,8 @@ Description: "Référentiel des pays provenant de la norme ISO 3166"
 * #MN ^property[=].valueDateTime = "2018-06-29T12:00:00+01:00"
 * #MN ^property[+].code = #dateMaj
 * #MN ^property[=].valueDateTime = "2024-01-26T12:00:00+01:00"
+* #MN ^property[+].code = #status
+* #MN ^property[=].valueCode = #active
 * #MO "Macao, Région administrative spéciale de Chine"
 * #MO ^designation[0].language = #fr-FR
 * #MO ^designation[=].use.system = "http://snomed.info/sct"
@@ -1796,6 +2107,8 @@ Description: "Référentiel des pays provenant de la norme ISO 3166"
 * #MO ^property[=].valueDateTime = "2018-06-29T12:00:00+01:00"
 * #MO ^property[+].code = #dateMaj
 * #MO ^property[=].valueDateTime = "2024-01-26T12:00:00+01:00"
+* #MO ^property[+].code = #status
+* #MO ^property[=].valueCode = #active
 * #MP "les Îles Mariannes du Nord"
 * #MP ^designation[0].language = #fr-FR
 * #MP ^designation[=].use.system = "http://snomed.info/sct"
@@ -1809,6 +2122,8 @@ Description: "Référentiel des pays provenant de la norme ISO 3166"
 * #MP ^property[=].valueDateTime = "2018-06-29T12:00:00+01:00"
 * #MP ^property[+].code = #dateMaj
 * #MP ^property[=].valueDateTime = "2024-01-26T12:00:00+01:00"
+* #MP ^property[+].code = #status
+* #MP ^property[=].valueCode = #active
 * #MQ "la Martinique"
 * #MQ ^designation[0].language = #fr-FR
 * #MQ ^designation[=].use.system = "http://snomed.info/sct"
@@ -1822,6 +2137,8 @@ Description: "Référentiel des pays provenant de la norme ISO 3166"
 * #MQ ^property[=].valueDateTime = "2018-06-29T12:00:00+01:00"
 * #MQ ^property[+].code = #dateMaj
 * #MQ ^property[=].valueDateTime = "2024-01-26T12:00:00+01:00"
+* #MQ ^property[+].code = #status
+* #MQ ^property[=].valueCode = #active
 * #MR "la République islamique de Mauritanie"
 * #MR ^designation[0].language = #fr-FR
 * #MR ^designation[=].use.system = "http://snomed.info/sct"
@@ -1835,11 +2152,15 @@ Description: "Référentiel des pays provenant de la norme ISO 3166"
 * #MR ^property[=].valueDateTime = "2018-06-29T12:00:00+01:00"
 * #MR ^property[+].code = #dateMaj
 * #MR ^property[=].valueDateTime = "2024-01-26T12:00:00+01:00"
+* #MR ^property[+].code = #status
+* #MR ^property[=].valueCode = #active
 * #MS "Montserrat"
 * #MS ^property[0].code = #dateValid
 * #MS ^property[=].valueDateTime = "2018-06-29T12:00:00+01:00"
 * #MS ^property[+].code = #dateMaj
 * #MS ^property[=].valueDateTime = "2024-01-26T12:00:00+01:00"
+* #MS ^property[+].code = #status
+* #MS ^property[=].valueCode = #active
 * #MT "la République de Malte"
 * #MT ^designation[0].language = #fr-FR
 * #MT ^designation[=].use.system = "http://snomed.info/sct"
@@ -1849,6 +2170,8 @@ Description: "Référentiel des pays provenant de la norme ISO 3166"
 * #MT ^property[=].valueDateTime = "2018-06-29T12:00:00+01:00"
 * #MT ^property[+].code = #dateMaj
 * #MT ^property[=].valueDateTime = "2024-01-26T12:00:00+01:00"
+* #MT ^property[+].code = #status
+* #MT ^property[=].valueCode = #active
 * #MU "la République de Maurice"
 * #MU ^designation[0].language = #fr-FR
 * #MU ^designation[=].use.system = "http://snomed.info/sct"
@@ -1858,6 +2181,8 @@ Description: "Référentiel des pays provenant de la norme ISO 3166"
 * #MU ^property[=].valueDateTime = "2018-06-29T12:00:00+01:00"
 * #MU ^property[+].code = #dateMaj
 * #MU ^property[=].valueDateTime = "2024-01-26T12:00:00+01:00"
+* #MU ^property[+].code = #status
+* #MU ^property[=].valueCode = #active
 * #MV "la République des Maldives"
 * #MV ^designation[0].language = #fr-FR
 * #MV ^designation[=].use.system = "http://snomed.info/sct"
@@ -1871,6 +2196,8 @@ Description: "Référentiel des pays provenant de la norme ISO 3166"
 * #MV ^property[=].valueDateTime = "2018-06-29T12:00:00+01:00"
 * #MV ^property[+].code = #dateMaj
 * #MV ^property[=].valueDateTime = "2024-01-26T12:00:00+01:00"
+* #MV ^property[+].code = #status
+* #MV ^property[=].valueCode = #active
 * #MW "la République du Malawi"
 * #MW ^designation[0].language = #fr-FR
 * #MW ^designation[=].use.system = "http://snomed.info/sct"
@@ -1884,6 +2211,8 @@ Description: "Référentiel des pays provenant de la norme ISO 3166"
 * #MW ^property[=].valueDateTime = "2018-06-29T12:00:00+01:00"
 * #MW ^property[+].code = #dateMaj
 * #MW ^property[=].valueDateTime = "2024-01-26T12:00:00+01:00"
+* #MW ^property[+].code = #status
+* #MW ^property[=].valueCode = #active
 * #MX "les États-Unis du Mexique"
 * #MX ^designation[0].language = #fr-FR
 * #MX ^designation[=].use.system = "http://snomed.info/sct"
@@ -1897,6 +2226,8 @@ Description: "Référentiel des pays provenant de la norme ISO 3166"
 * #MX ^property[=].valueDateTime = "2018-06-29T12:00:00+01:00"
 * #MX ^property[+].code = #dateMaj
 * #MX ^property[=].valueDateTime = "2024-01-26T12:00:00+01:00"
+* #MX ^property[+].code = #status
+* #MX ^property[=].valueCode = #active
 * #MY "la Malaisie"
 * #MY ^designation[0].language = #fr-FR
 * #MY ^designation[=].use.system = "http://snomed.info/sct"
@@ -1910,6 +2241,8 @@ Description: "Référentiel des pays provenant de la norme ISO 3166"
 * #MY ^property[=].valueDateTime = "2018-06-29T12:00:00+01:00"
 * #MY ^property[+].code = #dateMaj
 * #MY ^property[=].valueDateTime = "2024-01-26T12:00:00+01:00"
+* #MY ^property[+].code = #status
+* #MY ^property[=].valueCode = #active
 * #MZ "la République du Mozambique"
 * #MZ ^designation[0].language = #fr-FR
 * #MZ ^designation[=].use.system = "http://snomed.info/sct"
@@ -1923,6 +2256,8 @@ Description: "Référentiel des pays provenant de la norme ISO 3166"
 * #MZ ^property[=].valueDateTime = "2018-06-29T12:00:00+01:00"
 * #MZ ^property[+].code = #dateMaj
 * #MZ ^property[=].valueDateTime = "2024-01-26T12:00:00+01:00"
+* #MZ ^property[+].code = #status
+* #MZ ^property[=].valueCode = #active
 * #NA "la République de Namibie"
 * #NA ^designation[0].language = #fr-FR
 * #NA ^designation[=].use.system = "http://snomed.info/sct"
@@ -1936,6 +2271,8 @@ Description: "Référentiel des pays provenant de la norme ISO 3166"
 * #NA ^property[=].valueDateTime = "2018-06-29T12:00:00+01:00"
 * #NA ^property[+].code = #dateMaj
 * #NA ^property[=].valueDateTime = "2024-01-26T12:00:00+01:00"
+* #NA ^property[+].code = #status
+* #NA ^property[=].valueCode = #active
 * #NC "la Nouvelle-Calédonie"
 * #NC ^designation[0].language = #fr-FR
 * #NC ^designation[=].use.system = "http://snomed.info/sct"
@@ -1949,6 +2286,8 @@ Description: "Référentiel des pays provenant de la norme ISO 3166"
 * #NC ^property[=].valueDateTime = "2018-06-29T12:00:00+01:00"
 * #NC ^property[+].code = #dateMaj
 * #NC ^property[=].valueDateTime = "2024-01-26T12:00:00+01:00"
+* #NC ^property[+].code = #status
+* #NC ^property[=].valueCode = #active
 * #NE "la République du Niger"
 * #NE ^designation[0].language = #fr-FR
 * #NE ^designation[=].use.system = "http://snomed.info/sct"
@@ -1962,6 +2301,8 @@ Description: "Référentiel des pays provenant de la norme ISO 3166"
 * #NE ^property[=].valueDateTime = "2018-06-29T12:00:00+01:00"
 * #NE ^property[+].code = #dateMaj
 * #NE ^property[=].valueDateTime = "2024-01-26T12:00:00+01:00"
+* #NE ^property[+].code = #status
+* #NE ^property[=].valueCode = #active
 * #NF "l'Île Norfolk"
 * #NF ^designation[0].language = #fr-FR
 * #NF ^designation[=].use.system = "http://snomed.info/sct"
@@ -1975,6 +2316,8 @@ Description: "Référentiel des pays provenant de la norme ISO 3166"
 * #NF ^property[=].valueDateTime = "2018-06-29T12:00:00+01:00"
 * #NF ^property[+].code = #dateMaj
 * #NF ^property[=].valueDateTime = "2024-01-26T12:00:00+01:00"
+* #NF ^property[+].code = #status
+* #NF ^property[=].valueCode = #active
 * #NG "la République fédérale du Nigéria"
 * #NG ^designation[0].language = #fr-FR
 * #NG ^designation[=].use.system = "http://snomed.info/sct"
@@ -1988,6 +2331,8 @@ Description: "Référentiel des pays provenant de la norme ISO 3166"
 * #NG ^property[=].valueDateTime = "2018-06-29T12:00:00+01:00"
 * #NG ^property[+].code = #dateMaj
 * #NG ^property[=].valueDateTime = "2024-01-26T12:00:00+01:00"
+* #NG ^property[+].code = #status
+* #NG ^property[=].valueCode = #active
 * #NI "la République du Nicaragua"
 * #NI ^designation[0].language = #fr-FR
 * #NI ^designation[=].use.system = "http://snomed.info/sct"
@@ -2001,6 +2346,8 @@ Description: "Référentiel des pays provenant de la norme ISO 3166"
 * #NI ^property[=].valueDateTime = "2018-06-29T12:00:00+01:00"
 * #NI ^property[+].code = #dateMaj
 * #NI ^property[=].valueDateTime = "2024-01-26T12:00:00+01:00"
+* #NI ^property[+].code = #status
+* #NI ^property[=].valueCode = #active
 * #NL "le Royaume des Pays-Bas"
 * #NL ^designation[0].language = #fr-FR
 * #NL ^designation[=].use.system = "http://snomed.info/sct"
@@ -2014,6 +2361,8 @@ Description: "Référentiel des pays provenant de la norme ISO 3166"
 * #NL ^property[=].valueDateTime = "2018-06-29T12:00:00+01:00"
 * #NL ^property[+].code = #dateMaj
 * #NL ^property[=].valueDateTime = "2024-01-26T12:00:00+01:00"
+* #NL ^property[+].code = #status
+* #NL ^property[=].valueCode = #active
 * #NO "le Royaume de Norvège"
 * #NO ^designation[0].language = #fr-FR
 * #NO ^designation[=].use.system = "http://snomed.info/sct"
@@ -2027,6 +2376,8 @@ Description: "Référentiel des pays provenant de la norme ISO 3166"
 * #NO ^property[=].valueDateTime = "2018-06-29T12:00:00+01:00"
 * #NO ^property[+].code = #dateMaj
 * #NO ^property[=].valueDateTime = "2024-01-26T12:00:00+01:00"
+* #NO ^property[+].code = #status
+* #NO ^property[=].valueCode = #active
 * #NP "le Népal"
 * #NP ^designation[0].language = #fr-FR
 * #NP ^designation[=].use.system = "http://snomed.info/sct"
@@ -2040,6 +2391,8 @@ Description: "Référentiel des pays provenant de la norme ISO 3166"
 * #NP ^property[=].valueDateTime = "2018-06-29T12:00:00+01:00"
 * #NP ^property[+].code = #dateMaj
 * #NP ^property[=].valueDateTime = "2024-01-26T12:00:00+01:00"
+* #NP ^property[+].code = #status
+* #NP ^property[=].valueCode = #active
 * #NR "la République de Nauru"
 * #NR ^designation[0].language = #fr-FR
 * #NR ^designation[=].use.system = "http://snomed.info/sct"
@@ -2049,11 +2402,15 @@ Description: "Référentiel des pays provenant de la norme ISO 3166"
 * #NR ^property[=].valueDateTime = "2018-06-29T12:00:00+01:00"
 * #NR ^property[+].code = #dateMaj
 * #NR ^property[=].valueDateTime = "2024-01-26T12:00:00+01:00"
+* #NR ^property[+].code = #status
+* #NR ^property[=].valueCode = #active
 * #NU "Niue"
 * #NU ^property[0].code = #dateValid
 * #NU ^property[=].valueDateTime = "2018-06-29T12:00:00+01:00"
 * #NU ^property[+].code = #dateMaj
 * #NU ^property[=].valueDateTime = "2024-01-26T12:00:00+01:00"
+* #NU ^property[+].code = #status
+* #NU ^property[=].valueCode = #active
 * #NZ "la Nouvelle-Zélande"
 * #NZ ^designation[0].language = #fr-FR
 * #NZ ^designation[=].use.system = "http://snomed.info/sct"
@@ -2067,6 +2424,8 @@ Description: "Référentiel des pays provenant de la norme ISO 3166"
 * #NZ ^property[=].valueDateTime = "2018-06-29T12:00:00+01:00"
 * #NZ ^property[+].code = #dateMaj
 * #NZ ^property[=].valueDateTime = "2024-01-26T12:00:00+01:00"
+* #NZ ^property[+].code = #status
+* #NZ ^property[=].valueCode = #active
 * #OM "le Sultanat d'Oman"
 * #OM ^designation[0].language = #fr-FR
 * #OM ^designation[=].use.system = "http://snomed.info/sct"
@@ -2076,6 +2435,8 @@ Description: "Référentiel des pays provenant de la norme ISO 3166"
 * #OM ^property[=].valueDateTime = "2018-06-29T12:00:00+01:00"
 * #OM ^property[+].code = #dateMaj
 * #OM ^property[=].valueDateTime = "2024-01-26T12:00:00+01:00"
+* #OM ^property[+].code = #status
+* #OM ^property[=].valueCode = #active
 * #PA "la République du Panama"
 * #PA ^designation[0].language = #fr-FR
 * #PA ^designation[=].use.system = "http://snomed.info/sct"
@@ -2089,6 +2450,8 @@ Description: "Référentiel des pays provenant de la norme ISO 3166"
 * #PA ^property[=].valueDateTime = "2018-06-29T12:00:00+01:00"
 * #PA ^property[+].code = #dateMaj
 * #PA ^property[=].valueDateTime = "2024-01-26T12:00:00+01:00"
+* #PA ^property[+].code = #status
+* #PA ^property[=].valueCode = #active
 * #PE "la République du Pérou"
 * #PE ^designation[0].language = #fr-FR
 * #PE ^designation[=].use.system = "http://snomed.info/sct"
@@ -2102,6 +2465,8 @@ Description: "Référentiel des pays provenant de la norme ISO 3166"
 * #PE ^property[=].valueDateTime = "2018-06-29T12:00:00+01:00"
 * #PE ^property[+].code = #dateMaj
 * #PE ^property[=].valueDateTime = "2024-01-26T12:00:00+01:00"
+* #PE ^property[+].code = #status
+* #PE ^property[=].valueCode = #active
 * #PF "la Polynésie française"
 * #PF ^designation[0].language = #fr-FR
 * #PF ^designation[=].use.system = "http://snomed.info/sct"
@@ -2115,6 +2480,8 @@ Description: "Référentiel des pays provenant de la norme ISO 3166"
 * #PF ^property[=].valueDateTime = "2018-06-29T12:00:00+01:00"
 * #PF ^property[+].code = #dateMaj
 * #PF ^property[=].valueDateTime = "2024-01-26T12:00:00+01:00"
+* #PF ^property[+].code = #status
+* #PF ^property[=].valueCode = #active
 * #PG "l'État indépendant de Papouasie-Nouvelle-Guinée"
 * #PG ^designation[0].language = #fr-FR
 * #PG ^designation[=].use.system = "http://snomed.info/sct"
@@ -2128,6 +2495,8 @@ Description: "Référentiel des pays provenant de la norme ISO 3166"
 * #PG ^property[=].valueDateTime = "2018-06-29T12:00:00+01:00"
 * #PG ^property[+].code = #dateMaj
 * #PG ^property[=].valueDateTime = "2024-01-26T12:00:00+01:00"
+* #PG ^property[+].code = #status
+* #PG ^property[=].valueCode = #active
 * #PH "la République des Philippines"
 * #PH ^designation[0].language = #fr-FR
 * #PH ^designation[=].use.system = "http://snomed.info/sct"
@@ -2141,6 +2510,8 @@ Description: "Référentiel des pays provenant de la norme ISO 3166"
 * #PH ^property[=].valueDateTime = "2018-06-29T12:00:00+01:00"
 * #PH ^property[+].code = #dateMaj
 * #PH ^property[=].valueDateTime = "2024-01-26T12:00:00+01:00"
+* #PH ^property[+].code = #status
+* #PH ^property[=].valueCode = #active
 * #PK "la République islamique du Pakistan"
 * #PK ^designation[0].language = #fr-FR
 * #PK ^designation[=].use.system = "http://snomed.info/sct"
@@ -2154,6 +2525,8 @@ Description: "Référentiel des pays provenant de la norme ISO 3166"
 * #PK ^property[=].valueDateTime = "2018-06-29T12:00:00+01:00"
 * #PK ^property[+].code = #dateMaj
 * #PK ^property[=].valueDateTime = "2024-01-26T12:00:00+01:00"
+* #PK ^property[+].code = #status
+* #PK ^property[=].valueCode = #active
 * #PL "la République de Pologne"
 * #PL ^designation[0].language = #fr-FR
 * #PL ^designation[=].use.system = "http://snomed.info/sct"
@@ -2167,21 +2540,29 @@ Description: "Référentiel des pays provenant de la norme ISO 3166"
 * #PL ^property[=].valueDateTime = "2018-06-29T12:00:00+01:00"
 * #PL ^property[+].code = #dateMaj
 * #PL ^property[=].valueDateTime = "2024-01-26T12:00:00+01:00"
+* #PL ^property[+].code = #status
+* #PL ^property[=].valueCode = #active
 * #PM "Saint-Pierre-et-Miquelon"
 * #PM ^property[0].code = #dateValid
 * #PM ^property[=].valueDateTime = "2018-06-29T12:00:00+01:00"
 * #PM ^property[+].code = #dateMaj
 * #PM ^property[=].valueDateTime = "2024-01-26T12:00:00+01:00"
+* #PM ^property[+].code = #status
+* #PM ^property[=].valueCode = #active
 * #PN "Pitcairn"
 * #PN ^property[0].code = #dateValid
 * #PN ^property[=].valueDateTime = "2018-06-29T12:00:00+01:00"
 * #PN ^property[+].code = #dateMaj
 * #PN ^property[=].valueDateTime = "2024-01-26T12:00:00+01:00"
+* #PN ^property[+].code = #status
+* #PN ^property[=].valueCode = #active
 * #PR "Porto Rico"
 * #PR ^property[0].code = #dateValid
 * #PR ^property[=].valueDateTime = "2018-06-29T12:00:00+01:00"
 * #PR ^property[+].code = #dateMaj
 * #PR ^property[=].valueDateTime = "2024-01-26T12:00:00+01:00"
+* #PR ^property[+].code = #status
+* #PR ^property[=].valueCode = #active
 * #PS "l'État de Palestine"
 * #PS ^designation[0].language = #fr-FR
 * #PS ^designation[=].use.system = "http://snomed.info/sct"
@@ -2191,6 +2572,8 @@ Description: "Référentiel des pays provenant de la norme ISO 3166"
 * #PS ^property[=].valueDateTime = "2018-06-29T12:00:00+01:00"
 * #PS ^property[+].code = #dateMaj
 * #PS ^property[=].valueDateTime = "2024-01-26T12:00:00+01:00"
+* #PS ^property[+].code = #status
+* #PS ^property[=].valueCode = #active
 * #PT "la République portugaise"
 * #PT ^designation[0].language = #fr-FR
 * #PT ^designation[=].use.system = "http://snomed.info/sct"
@@ -2204,6 +2587,8 @@ Description: "Référentiel des pays provenant de la norme ISO 3166"
 * #PT ^property[=].valueDateTime = "2018-06-29T12:00:00+01:00"
 * #PT ^property[+].code = #dateMaj
 * #PT ^property[=].valueDateTime = "2024-01-26T12:00:00+01:00"
+* #PT ^property[+].code = #status
+* #PT ^property[=].valueCode = #active
 * #PW "la République des Palaos"
 * #PW ^designation[0].language = #fr-FR
 * #PW ^designation[=].use.system = "http://snomed.info/sct"
@@ -2217,6 +2602,8 @@ Description: "Référentiel des pays provenant de la norme ISO 3166"
 * #PW ^property[=].valueDateTime = "2018-06-29T12:00:00+01:00"
 * #PW ^property[+].code = #dateMaj
 * #PW ^property[=].valueDateTime = "2024-01-26T12:00:00+01:00"
+* #PW ^property[+].code = #status
+* #PW ^property[=].valueCode = #active
 * #PY "la République du Paraguay"
 * #PY ^designation[0].language = #fr-FR
 * #PY ^designation[=].use.system = "http://snomed.info/sct"
@@ -2230,6 +2617,8 @@ Description: "Référentiel des pays provenant de la norme ISO 3166"
 * #PY ^property[=].valueDateTime = "2018-06-29T12:00:00+01:00"
 * #PY ^property[+].code = #dateMaj
 * #PY ^property[=].valueDateTime = "2024-01-26T12:00:00+01:00"
+* #PY ^property[+].code = #status
+* #PY ^property[=].valueCode = #active
 * #QA "l'État du Qatar"
 * #QA ^designation[0].language = #fr-FR
 * #QA ^designation[=].use.system = "http://snomed.info/sct"
@@ -2243,6 +2632,8 @@ Description: "Référentiel des pays provenant de la norme ISO 3166"
 * #QA ^property[=].valueDateTime = "2018-06-29T12:00:00+01:00"
 * #QA ^property[+].code = #dateMaj
 * #QA ^property[=].valueDateTime = "2024-01-26T12:00:00+01:00"
+* #QA ^property[+].code = #status
+* #QA ^property[=].valueCode = #active
 * #RE "La Réunion"
 * #RE ^designation[0].language = #fr-FR
 * #RE ^designation[=].use.system = "http://snomed.info/sct"
@@ -2256,6 +2647,8 @@ Description: "Référentiel des pays provenant de la norme ISO 3166"
 * #RE ^property[=].valueDateTime = "2018-06-29T12:00:00+01:00"
 * #RE ^property[+].code = #dateMaj
 * #RE ^property[=].valueDateTime = "2024-01-26T12:00:00+01:00"
+* #RE ^property[+].code = #status
+* #RE ^property[=].valueCode = #active
 * #RO "la Roumanie"
 * #RO ^designation[0].language = #fr-FR
 * #RO ^designation[=].use.system = "http://snomed.info/sct"
@@ -2269,6 +2662,8 @@ Description: "Référentiel des pays provenant de la norme ISO 3166"
 * #RO ^property[=].valueDateTime = "2018-06-29T12:00:00+01:00"
 * #RO ^property[+].code = #dateMaj
 * #RO ^property[=].valueDateTime = "2024-01-26T12:00:00+01:00"
+* #RO ^property[+].code = #status
+* #RO ^property[=].valueCode = #active
 * #RS "la République de Serbie"
 * #RS ^designation[0].language = #fr-FR
 * #RS ^designation[=].use.system = "http://snomed.info/sct"
@@ -2282,6 +2677,8 @@ Description: "Référentiel des pays provenant de la norme ISO 3166"
 * #RS ^property[=].valueDateTime = "2018-06-29T12:00:00+01:00"
 * #RS ^property[+].code = #dateMaj
 * #RS ^property[=].valueDateTime = "2024-01-26T12:00:00+01:00"
+* #RS ^property[+].code = #status
+* #RS ^property[=].valueCode = #active
 * #RU "la Fédération de Russie"
 * #RU ^designation[0].language = #fr-FR
 * #RU ^designation[=].use.system = "http://snomed.info/sct"
@@ -2295,6 +2692,8 @@ Description: "Référentiel des pays provenant de la norme ISO 3166"
 * #RU ^property[=].valueDateTime = "2018-06-29T12:00:00+01:00"
 * #RU ^property[+].code = #dateMaj
 * #RU ^property[=].valueDateTime = "2024-01-26T12:00:00+01:00"
+* #RU ^property[+].code = #status
+* #RU ^property[=].valueCode = #active
 * #RW "la République du Rwanda"
 * #RW ^designation[0].language = #fr-FR
 * #RW ^designation[=].use.system = "http://snomed.info/sct"
@@ -2308,6 +2707,8 @@ Description: "Référentiel des pays provenant de la norme ISO 3166"
 * #RW ^property[=].valueDateTime = "2018-06-29T12:00:00+01:00"
 * #RW ^property[+].code = #dateMaj
 * #RW ^property[=].valueDateTime = "2024-01-26T12:00:00+01:00"
+* #RW ^property[+].code = #status
+* #RW ^property[=].valueCode = #active
 * #SA "le Royaume d'Arabie saoudite"
 * #SA ^designation[0].language = #fr-FR
 * #SA ^designation[=].use.system = "http://snomed.info/sct"
@@ -2321,6 +2722,8 @@ Description: "Référentiel des pays provenant de la norme ISO 3166"
 * #SA ^property[=].valueDateTime = "2018-06-29T12:00:00+01:00"
 * #SA ^property[+].code = #dateMaj
 * #SA ^property[=].valueDateTime = "2024-01-26T12:00:00+01:00"
+* #SA ^property[+].code = #status
+* #SA ^property[=].valueCode = #active
 * #SB "les Îles Salomon"
 * #SB ^designation[0].language = #fr-FR
 * #SB ^designation[=].use.system = "http://snomed.info/sct"
@@ -2334,6 +2737,8 @@ Description: "Référentiel des pays provenant de la norme ISO 3166"
 * #SB ^property[=].valueDateTime = "2018-06-29T12:00:00+01:00"
 * #SB ^property[+].code = #dateMaj
 * #SB ^property[=].valueDateTime = "2024-01-26T12:00:00+01:00"
+* #SB ^property[+].code = #status
+* #SB ^property[=].valueCode = #active
 * #SC "la République des Seychelles"
 * #SC ^designation[0].language = #fr-FR
 * #SC ^designation[=].use.system = "http://snomed.info/sct"
@@ -2347,6 +2752,8 @@ Description: "Référentiel des pays provenant de la norme ISO 3166"
 * #SC ^property[=].valueDateTime = "2018-06-29T12:00:00+01:00"
 * #SC ^property[+].code = #dateMaj
 * #SC ^property[=].valueDateTime = "2024-01-26T12:00:00+01:00"
+* #SC ^property[+].code = #status
+* #SC ^property[=].valueCode = #active
 * #SD "la République du Soudan"
 * #SD ^designation[0].language = #fr-FR
 * #SD ^designation[=].use.system = "http://snomed.info/sct"
@@ -2360,6 +2767,8 @@ Description: "Référentiel des pays provenant de la norme ISO 3166"
 * #SD ^property[=].valueDateTime = "2018-06-29T12:00:00+01:00"
 * #SD ^property[+].code = #dateMaj
 * #SD ^property[=].valueDateTime = "2024-01-26T12:00:00+01:00"
+* #SD ^property[+].code = #status
+* #SD ^property[=].valueCode = #active
 * #SE "le Royaume de Suède"
 * #SE ^designation[0].language = #fr-FR
 * #SE ^designation[=].use.system = "http://snomed.info/sct"
@@ -2373,6 +2782,8 @@ Description: "Référentiel des pays provenant de la norme ISO 3166"
 * #SE ^property[=].valueDateTime = "2018-06-29T12:00:00+01:00"
 * #SE ^property[+].code = #dateMaj
 * #SE ^property[=].valueDateTime = "2024-01-26T12:00:00+01:00"
+* #SE ^property[+].code = #status
+* #SE ^property[=].valueCode = #active
 * #SG "la République de Singapour"
 * #SG ^designation[0].language = #fr-FR
 * #SG ^designation[=].use.system = "http://snomed.info/sct"
@@ -2382,6 +2793,8 @@ Description: "Référentiel des pays provenant de la norme ISO 3166"
 * #SG ^property[=].valueDateTime = "2018-06-29T12:00:00+01:00"
 * #SG ^property[+].code = #dateMaj
 * #SG ^property[=].valueDateTime = "2024-01-26T12:00:00+01:00"
+* #SG ^property[+].code = #status
+* #SG ^property[=].valueCode = #active
 * #SH "Sainte-Hélène, Ascension et Tristan da Cunha"
 * #SH ^designation[0].language = #fr-FR
 * #SH ^designation[=].use.system = "http://snomed.info/sct"
@@ -2391,6 +2804,8 @@ Description: "Référentiel des pays provenant de la norme ISO 3166"
 * #SH ^property[=].valueDateTime = "2018-06-29T12:00:00+01:00"
 * #SH ^property[+].code = #dateMaj
 * #SH ^property[=].valueDateTime = "2024-01-26T12:00:00+01:00"
+* #SH ^property[+].code = #status
+* #SH ^property[=].valueCode = #active
 * #SI "la République de Slovénie"
 * #SI ^designation[0].language = #fr-FR
 * #SI ^designation[=].use.system = "http://snomed.info/sct"
@@ -2404,6 +2819,8 @@ Description: "Référentiel des pays provenant de la norme ISO 3166"
 * #SI ^property[=].valueDateTime = "2018-06-29T12:00:00+01:00"
 * #SI ^property[+].code = #dateMaj
 * #SI ^property[=].valueDateTime = "2024-01-26T12:00:00+01:00"
+* #SI ^property[+].code = #status
+* #SI ^property[=].valueCode = #active
 * #SJ "le Svalbard et l'Île Jan Mayen"
 * #SJ ^designation[0].language = #fr-FR
 * #SJ ^designation[=].use.system = "http://snomed.info/sct"
@@ -2417,6 +2834,8 @@ Description: "Référentiel des pays provenant de la norme ISO 3166"
 * #SJ ^property[=].valueDateTime = "2018-06-29T12:00:00+01:00"
 * #SJ ^property[+].code = #dateMaj
 * #SJ ^property[=].valueDateTime = "2024-01-26T12:00:00+01:00"
+* #SJ ^property[+].code = #status
+* #SJ ^property[=].valueCode = #active
 * #SK "la République slovaque"
 * #SK ^designation[0].language = #fr-FR
 * #SK ^designation[=].use.system = "http://snomed.info/sct"
@@ -2430,6 +2849,8 @@ Description: "Référentiel des pays provenant de la norme ISO 3166"
 * #SK ^property[=].valueDateTime = "2018-06-29T12:00:00+01:00"
 * #SK ^property[+].code = #dateMaj
 * #SK ^property[=].valueDateTime = "2024-01-26T12:00:00+01:00"
+* #SK ^property[+].code = #status
+* #SK ^property[=].valueCode = #active
 * #SL "la République de Sierra Leone"
 * #SL ^designation[0].language = #fr-FR
 * #SL ^designation[=].use.system = "http://snomed.info/sct"
@@ -2443,6 +2864,8 @@ Description: "Référentiel des pays provenant de la norme ISO 3166"
 * #SL ^property[=].valueDateTime = "2018-06-29T12:00:00+01:00"
 * #SL ^property[+].code = #dateMaj
 * #SL ^property[=].valueDateTime = "2024-01-26T12:00:00+01:00"
+* #SL ^property[+].code = #status
+* #SL ^property[=].valueCode = #active
 * #SM "la République de Saint-Marin"
 * #SM ^designation[0].language = #fr-FR
 * #SM ^designation[=].use.system = "http://snomed.info/sct"
@@ -2452,6 +2875,8 @@ Description: "Référentiel des pays provenant de la norme ISO 3166"
 * #SM ^property[=].valueDateTime = "2018-06-29T12:00:00+01:00"
 * #SM ^property[+].code = #dateMaj
 * #SM ^property[=].valueDateTime = "2024-01-26T12:00:00+01:00"
+* #SM ^property[+].code = #status
+* #SM ^property[=].valueCode = #active
 * #SN "la République du Sénégal"
 * #SN ^designation[0].language = #fr-FR
 * #SN ^designation[=].use.system = "http://snomed.info/sct"
@@ -2465,6 +2890,8 @@ Description: "Référentiel des pays provenant de la norme ISO 3166"
 * #SN ^property[=].valueDateTime = "2018-06-29T12:00:00+01:00"
 * #SN ^property[+].code = #dateMaj
 * #SN ^property[=].valueDateTime = "2024-01-26T12:00:00+01:00"
+* #SN ^property[+].code = #status
+* #SN ^property[=].valueCode = #active
 * #SO "la République fédérale de Somalie"
 * #SO ^designation[0].language = #fr-FR
 * #SO ^designation[=].use.system = "http://snomed.info/sct"
@@ -2478,6 +2905,8 @@ Description: "Référentiel des pays provenant de la norme ISO 3166"
 * #SO ^property[=].valueDateTime = "2018-06-29T12:00:00+01:00"
 * #SO ^property[+].code = #dateMaj
 * #SO ^property[=].valueDateTime = "2024-01-26T12:00:00+01:00"
+* #SO ^property[+].code = #status
+* #SO ^property[=].valueCode = #active
 * #SR "la République du Suriname"
 * #SR ^designation[0].language = #fr-FR
 * #SR ^designation[=].use.system = "http://snomed.info/sct"
@@ -2491,6 +2920,8 @@ Description: "Référentiel des pays provenant de la norme ISO 3166"
 * #SR ^property[=].valueDateTime = "2018-06-29T12:00:00+01:00"
 * #SR ^property[+].code = #dateMaj
 * #SR ^property[=].valueDateTime = "2024-01-26T12:00:00+01:00"
+* #SR ^property[+].code = #status
+* #SR ^property[=].valueCode = #active
 * #SS "la République du Soudan du Sud"
 * #SS ^designation[0].language = #fr-FR
 * #SS ^designation[=].use.system = "http://snomed.info/sct"
@@ -2504,6 +2935,8 @@ Description: "Référentiel des pays provenant de la norme ISO 3166"
 * #SS ^property[=].valueDateTime = "2018-06-29T12:00:00+01:00"
 * #SS ^property[+].code = #dateMaj
 * #SS ^property[=].valueDateTime = "2024-01-26T12:00:00+01:00"
+* #SS ^property[+].code = #status
+* #SS ^property[=].valueCode = #active
 * #ST "la République démocratique de Sao Tomé-et-Principe"
 * #ST ^designation[0].language = #fr-FR
 * #ST ^designation[=].use.system = "http://snomed.info/sct"
@@ -2513,6 +2946,8 @@ Description: "Référentiel des pays provenant de la norme ISO 3166"
 * #ST ^property[=].valueDateTime = "2018-06-29T12:00:00+01:00"
 * #ST ^property[+].code = #dateMaj
 * #ST ^property[=].valueDateTime = "2024-01-26T12:00:00+01:00"
+* #ST ^property[+].code = #status
+* #ST ^property[=].valueCode = #active
 * #SV "la République d'El Salvador"
 * #SV ^designation[0].language = #fr-FR
 * #SV ^designation[=].use.system = "http://snomed.info/sct"
@@ -2522,6 +2957,8 @@ Description: "Référentiel des pays provenant de la norme ISO 3166"
 * #SV ^property[=].valueDateTime = "2018-06-29T12:00:00+01:00"
 * #SV ^property[+].code = #dateMaj
 * #SV ^property[=].valueDateTime = "2024-01-26T12:00:00+01:00"
+* #SV ^property[+].code = #status
+* #SV ^property[=].valueCode = #active
 * #SX "partie néerlandaise Saint-Martin"
 * #SX ^designation[0].language = #fr-FR
 * #SX ^designation[=].use.system = "http://snomed.info/sct"
@@ -2535,6 +2972,8 @@ Description: "Référentiel des pays provenant de la norme ISO 3166"
 * #SX ^property[=].valueDateTime = "2018-06-29T12:00:00+01:00"
 * #SX ^property[+].code = #dateMaj
 * #SX ^property[=].valueDateTime = "2024-01-26T12:00:00+01:00"
+* #SX ^property[+].code = #status
+* #SX ^property[=].valueCode = #active
 * #SY "la République arabe syrienne"
 * #SY ^designation[0].language = #fr-FR
 * #SY ^designation[=].use.system = "http://snomed.info/sct"
@@ -2548,6 +2987,8 @@ Description: "Référentiel des pays provenant de la norme ISO 3166"
 * #SY ^property[=].valueDateTime = "2018-06-29T12:00:00+01:00"
 * #SY ^property[+].code = #dateMaj
 * #SY ^property[=].valueDateTime = "2024-01-26T12:00:00+01:00"
+* #SY ^property[+].code = #status
+* #SY ^property[=].valueCode = #active
 * #SZ "le Royaume d’Eswatini"
 * #SZ ^designation[0].language = #fr-FR
 * #SZ ^designation[=].use.system = "http://snomed.info/sct"
@@ -2561,6 +3002,8 @@ Description: "Référentiel des pays provenant de la norme ISO 3166"
 * #SZ ^property[=].valueDateTime = "2018-06-29T12:00:00+01:00"
 * #SZ ^property[+].code = #dateMaj
 * #SZ ^property[=].valueDateTime = "2024-01-26T12:00:00+01:00"
+* #SZ ^property[+].code = #status
+* #SZ ^property[=].valueCode = #active
 * #TC "les Îles Turks-et-Caïcos"
 * #TC ^designation[0].language = #fr-FR
 * #TC ^designation[=].use.system = "http://snomed.info/sct"
@@ -2574,6 +3017,8 @@ Description: "Référentiel des pays provenant de la norme ISO 3166"
 * #TC ^property[=].valueDateTime = "2018-06-29T12:00:00+01:00"
 * #TC ^property[+].code = #dateMaj
 * #TC ^property[=].valueDateTime = "2024-01-26T12:00:00+01:00"
+* #TC ^property[+].code = #status
+* #TC ^property[=].valueCode = #active
 * #TD "la République du Tchad"
 * #TD ^designation[0].language = #fr-FR
 * #TD ^designation[=].use.system = "http://snomed.info/sct"
@@ -2587,6 +3032,8 @@ Description: "Référentiel des pays provenant de la norme ISO 3166"
 * #TD ^property[=].valueDateTime = "2018-06-29T12:00:00+01:00"
 * #TD ^property[+].code = #dateMaj
 * #TD ^property[=].valueDateTime = "2024-01-26T12:00:00+01:00"
+* #TD ^property[+].code = #status
+* #TD ^property[=].valueCode = #active
 * #TF "les Terres australes françaises"
 * #TF ^designation[0].language = #fr-FR
 * #TF ^designation[=].use.system = "http://snomed.info/sct"
@@ -2600,6 +3047,8 @@ Description: "Référentiel des pays provenant de la norme ISO 3166"
 * #TF ^property[=].valueDateTime = "2018-06-29T12:00:00+01:00"
 * #TF ^property[+].code = #dateMaj
 * #TF ^property[=].valueDateTime = "2024-01-26T12:00:00+01:00"
+* #TF ^property[+].code = #status
+* #TF ^property[=].valueCode = #active
 * #TG "la République togolaise"
 * #TG ^designation[0].language = #fr-FR
 * #TG ^designation[=].use.system = "http://snomed.info/sct"
@@ -2613,6 +3062,8 @@ Description: "Référentiel des pays provenant de la norme ISO 3166"
 * #TG ^property[=].valueDateTime = "2018-06-29T12:00:00+01:00"
 * #TG ^property[+].code = #dateMaj
 * #TG ^property[=].valueDateTime = "2024-01-26T12:00:00+01:00"
+* #TG ^property[+].code = #status
+* #TG ^property[=].valueCode = #active
 * #TH "le Royaume de Thaïlande"
 * #TH ^designation[0].language = #fr-FR
 * #TH ^designation[=].use.system = "http://snomed.info/sct"
@@ -2626,6 +3077,8 @@ Description: "Référentiel des pays provenant de la norme ISO 3166"
 * #TH ^property[=].valueDateTime = "2018-06-29T12:00:00+01:00"
 * #TH ^property[+].code = #dateMaj
 * #TH ^property[=].valueDateTime = "2024-01-26T12:00:00+01:00"
+* #TH ^property[+].code = #status
+* #TH ^property[=].valueCode = #active
 * #TJ "la République du Tadjikistan"
 * #TJ ^designation[0].language = #fr-FR
 * #TJ ^designation[=].use.system = "http://snomed.info/sct"
@@ -2639,6 +3092,8 @@ Description: "Référentiel des pays provenant de la norme ISO 3166"
 * #TJ ^property[=].valueDateTime = "2018-06-29T12:00:00+01:00"
 * #TJ ^property[+].code = #dateMaj
 * #TJ ^property[=].valueDateTime = "2024-01-26T12:00:00+01:00"
+* #TJ ^property[+].code = #status
+* #TJ ^property[=].valueCode = #active
 * #TK "les Tokelau"
 * #TK ^designation[0].language = #fr-FR
 * #TK ^designation[=].use.system = "http://snomed.info/sct"
@@ -2652,6 +3107,8 @@ Description: "Référentiel des pays provenant de la norme ISO 3166"
 * #TK ^property[=].valueDateTime = "2018-06-29T12:00:00+01:00"
 * #TK ^property[+].code = #dateMaj
 * #TK ^property[=].valueDateTime = "2024-01-26T12:00:00+01:00"
+* #TK ^property[+].code = #status
+* #TK ^property[=].valueCode = #active
 * #TL "la République démocratique du Timor-Leste"
 * #TL ^designation[0].language = #fr-FR
 * #TL ^designation[=].use.system = "http://snomed.info/sct"
@@ -2665,6 +3122,8 @@ Description: "Référentiel des pays provenant de la norme ISO 3166"
 * #TL ^property[=].valueDateTime = "2018-06-29T12:00:00+01:00"
 * #TL ^property[+].code = #dateMaj
 * #TL ^property[=].valueDateTime = "2024-01-26T12:00:00+01:00"
+* #TL ^property[+].code = #status
+* #TL ^property[=].valueCode = #active
 * #TM "le Turkménistan"
 * #TM ^designation[0].language = #fr-FR
 * #TM ^designation[=].use.system = "http://snomed.info/sct"
@@ -2678,6 +3137,8 @@ Description: "Référentiel des pays provenant de la norme ISO 3166"
 * #TM ^property[=].valueDateTime = "2018-06-29T12:00:00+01:00"
 * #TM ^property[+].code = #dateMaj
 * #TM ^property[=].valueDateTime = "2024-01-26T12:00:00+01:00"
+* #TM ^property[+].code = #status
+* #TM ^property[=].valueCode = #active
 * #TN "la République tunisienne"
 * #TN ^designation[0].language = #fr-FR
 * #TN ^designation[=].use.system = "http://snomed.info/sct"
@@ -2691,6 +3152,8 @@ Description: "Référentiel des pays provenant de la norme ISO 3166"
 * #TN ^property[=].valueDateTime = "2018-06-29T12:00:00+01:00"
 * #TN ^property[+].code = #dateMaj
 * #TN ^property[=].valueDateTime = "2024-01-26T12:00:00+01:00"
+* #TN ^property[+].code = #status
+* #TN ^property[=].valueCode = #active
 * #TO "le Royaume des Tonga"
 * #TO ^designation[0].language = #fr-FR
 * #TO ^designation[=].use.system = "http://snomed.info/sct"
@@ -2704,6 +3167,8 @@ Description: "Référentiel des pays provenant de la norme ISO 3166"
 * #TO ^property[=].valueDateTime = "2018-06-29T12:00:00+01:00"
 * #TO ^property[+].code = #dateMaj
 * #TO ^property[=].valueDateTime = "2024-01-26T12:00:00+01:00"
+* #TO ^property[+].code = #status
+* #TO ^property[=].valueCode = #active
 * #TR "la République de Türkiye"
 * #TR ^designation[0].language = #fr-FR
 * #TR ^designation[=].use.system = "http://snomed.info/sct"
@@ -2717,6 +3182,8 @@ Description: "Référentiel des pays provenant de la norme ISO 3166"
 * #TR ^property[=].valueDateTime = "2018-06-29T12:00:00+01:00"
 * #TR ^property[+].code = #dateMaj
 * #TR ^property[=].valueDateTime = "2024-01-26T12:00:00+01:00"
+* #TR ^property[+].code = #status
+* #TR ^property[=].valueCode = #active
 * #TT "la République de Trinité-et-Tobago"
 * #TT ^designation[0].language = #fr-FR
 * #TT ^designation[=].use.system = "http://snomed.info/sct"
@@ -2730,6 +3197,8 @@ Description: "Référentiel des pays provenant de la norme ISO 3166"
 * #TT ^property[=].valueDateTime = "2018-06-29T12:00:00+01:00"
 * #TT ^property[+].code = #dateMaj
 * #TT ^property[=].valueDateTime = "2024-01-26T12:00:00+01:00"
+* #TT ^property[+].code = #status
+* #TT ^property[=].valueCode = #active
 * #TV "les Tuvalu"
 * #TV ^designation[0].language = #fr-FR
 * #TV ^designation[=].use.system = "http://snomed.info/sct"
@@ -2743,6 +3212,8 @@ Description: "Référentiel des pays provenant de la norme ISO 3166"
 * #TV ^property[=].valueDateTime = "2018-06-29T12:00:00+01:00"
 * #TV ^property[+].code = #dateMaj
 * #TV ^property[=].valueDateTime = "2024-01-26T12:00:00+01:00"
+* #TV ^property[+].code = #status
+* #TV ^property[=].valueCode = #active
 * #TW "Province de Chine Taïwan"
 * #TW ^designation[0].language = #fr-FR
 * #TW ^designation[=].use.system = "http://snomed.info/sct"
@@ -2756,6 +3227,8 @@ Description: "Référentiel des pays provenant de la norme ISO 3166"
 * #TW ^property[=].valueDateTime = "2018-06-29T12:00:00+01:00"
 * #TW ^property[+].code = #dateMaj
 * #TW ^property[=].valueDateTime = "2024-01-26T12:00:00+01:00"
+* #TW ^property[+].code = #status
+* #TW ^property[=].valueCode = #active
 * #TZ "la République-Unie de Tanzanie"
 * #TZ ^designation[0].language = #fr-FR
 * #TZ ^designation[=].use.system = "http://snomed.info/sct"
@@ -2769,6 +3242,8 @@ Description: "Référentiel des pays provenant de la norme ISO 3166"
 * #TZ ^property[=].valueDateTime = "2018-06-29T12:00:00+01:00"
 * #TZ ^property[+].code = #dateMaj
 * #TZ ^property[=].valueDateTime = "2024-01-26T12:00:00+01:00"
+* #TZ ^property[+].code = #status
+* #TZ ^property[=].valueCode = #active
 * #UA "l'Ukraine"
 * #UA ^designation[0].language = #fr-FR
 * #UA ^designation[=].use.system = "http://snomed.info/sct"
@@ -2782,6 +3257,8 @@ Description: "Référentiel des pays provenant de la norme ISO 3166"
 * #UA ^property[=].valueDateTime = "2018-06-29T12:00:00+01:00"
 * #UA ^property[+].code = #dateMaj
 * #UA ^property[=].valueDateTime = "2024-01-26T12:00:00+01:00"
+* #UA ^property[+].code = #status
+* #UA ^property[=].valueCode = #active
 * #UG "la République d'Ouganda"
 * #UG ^designation[0].language = #fr-FR
 * #UG ^designation[=].use.system = "http://snomed.info/sct"
@@ -2795,6 +3272,8 @@ Description: "Référentiel des pays provenant de la norme ISO 3166"
 * #UG ^property[=].valueDateTime = "2018-06-29T12:00:00+01:00"
 * #UG ^property[+].code = #dateMaj
 * #UG ^property[=].valueDateTime = "2024-01-26T12:00:00+01:00"
+* #UG ^property[+].code = #status
+* #UG ^property[=].valueCode = #active
 * #UM "les Îles mineures éloignées des États-Unis"
 * #UM ^designation[0].language = #fr-FR
 * #UM ^designation[=].use.system = "http://snomed.info/sct"
@@ -2808,6 +3287,8 @@ Description: "Référentiel des pays provenant de la norme ISO 3166"
 * #UM ^property[=].valueDateTime = "2019-05-29T12:00:00+01:00"
 * #UM ^property[+].code = #dateMaj
 * #UM ^property[=].valueDateTime = "2024-01-26T12:00:00+01:00"
+* #UM ^property[+].code = #status
+* #UM ^property[=].valueCode = #active
 * #US "les États-Unis d'Amérique"
 * #US ^designation[0].language = #fr-FR
 * #US ^designation[=].use.system = "http://snomed.info/sct"
@@ -2821,6 +3302,8 @@ Description: "Référentiel des pays provenant de la norme ISO 3166"
 * #US ^property[=].valueDateTime = "2018-06-29T12:00:00+01:00"
 * #US ^property[+].code = #dateMaj
 * #US ^property[=].valueDateTime = "2024-01-26T12:00:00+01:00"
+* #US ^property[+].code = #status
+* #US ^property[=].valueCode = #active
 * #UY "la République orientale de l'Uruguay"
 * #UY ^designation[0].language = #fr-FR
 * #UY ^designation[=].use.system = "http://snomed.info/sct"
@@ -2834,6 +3317,8 @@ Description: "Référentiel des pays provenant de la norme ISO 3166"
 * #UY ^property[=].valueDateTime = "2018-06-29T12:00:00+01:00"
 * #UY ^property[+].code = #dateMaj
 * #UY ^property[=].valueDateTime = "2024-01-26T12:00:00+01:00"
+* #UY ^property[+].code = #status
+* #UY ^property[=].valueCode = #active
 * #UZ "la République d'Ouzbékistan"
 * #UZ ^designation[0].language = #fr-FR
 * #UZ ^designation[=].use.system = "http://snomed.info/sct"
@@ -2847,6 +3332,8 @@ Description: "Référentiel des pays provenant de la norme ISO 3166"
 * #UZ ^property[=].valueDateTime = "2018-06-29T12:00:00+01:00"
 * #UZ ^property[+].code = #dateMaj
 * #UZ ^property[=].valueDateTime = "2024-01-26T12:00:00+01:00"
+* #UZ ^property[+].code = #status
+* #UZ ^property[=].valueCode = #active
 * #VA "le Saint-Siège"
 * #VA ^designation[0].language = #fr-FR
 * #VA ^designation[=].use.system = "http://snomed.info/sct"
@@ -2860,6 +3347,8 @@ Description: "Référentiel des pays provenant de la norme ISO 3166"
 * #VA ^property[=].valueDateTime = "2018-06-29T12:00:00+01:00"
 * #VA ^property[+].code = #dateMaj
 * #VA ^property[=].valueDateTime = "2024-01-26T12:00:00+01:00"
+* #VA ^property[+].code = #status
+* #VA ^property[=].valueCode = #active
 * #VC "Saint-Vincent-et-les Grenadines"
 * #VC ^designation[0].language = #fr-FR
 * #VC ^designation[=].use.system = "http://snomed.info/sct"
@@ -2869,6 +3358,8 @@ Description: "Référentiel des pays provenant de la norme ISO 3166"
 * #VC ^property[=].valueDateTime = "2018-06-29T12:00:00+01:00"
 * #VC ^property[+].code = #dateMaj
 * #VC ^property[=].valueDateTime = "2024-01-26T12:00:00+01:00"
+* #VC ^property[+].code = #status
+* #VC ^property[=].valueCode = #active
 * #VE "la République bolivarienne du Venezuela"
 * #VE ^designation[0].language = #fr-FR
 * #VE ^designation[=].use.system = "http://snomed.info/sct"
@@ -2882,6 +3373,8 @@ Description: "Référentiel des pays provenant de la norme ISO 3166"
 * #VE ^property[=].valueDateTime = "2018-06-29T12:00:00+01:00"
 * #VE ^property[+].code = #dateMaj
 * #VE ^property[=].valueDateTime = "2024-01-26T12:00:00+01:00"
+* #VE ^property[+].code = #status
+* #VE ^property[=].valueCode = #active
 * #VG "les Îles Vierges britanniques"
 * #VG ^designation[0].language = #fr-FR
 * #VG ^designation[=].use.system = "http://snomed.info/sct"
@@ -2895,6 +3388,8 @@ Description: "Référentiel des pays provenant de la norme ISO 3166"
 * #VG ^property[=].valueDateTime = "2018-06-29T12:00:00+01:00"
 * #VG ^property[+].code = #dateMaj
 * #VG ^property[=].valueDateTime = "2024-01-26T12:00:00+01:00"
+* #VG ^property[+].code = #status
+* #VG ^property[=].valueCode = #active
 * #VI "les Îles Vierges des États-Unis"
 * #VI ^designation[0].language = #fr-FR
 * #VI ^designation[=].use.system = "http://snomed.info/sct"
@@ -2908,6 +3403,8 @@ Description: "Référentiel des pays provenant de la norme ISO 3166"
 * #VI ^property[=].valueDateTime = "2018-06-29T12:00:00+01:00"
 * #VI ^property[+].code = #dateMaj
 * #VI ^property[=].valueDateTime = "2024-01-26T12:00:00+01:00"
+* #VI ^property[+].code = #status
+* #VI ^property[=].valueCode = #active
 * #VN "la République socialiste du Viet Nam"
 * #VN ^designation[0].language = #fr-FR
 * #VN ^designation[=].use.system = "http://snomed.info/sct"
@@ -2921,6 +3418,8 @@ Description: "Référentiel des pays provenant de la norme ISO 3166"
 * #VN ^property[=].valueDateTime = "2018-06-29T12:00:00+01:00"
 * #VN ^property[+].code = #dateMaj
 * #VN ^property[=].valueDateTime = "2024-01-26T12:00:00+01:00"
+* #VN ^property[+].code = #status
+* #VN ^property[=].valueCode = #active
 * #VU "la République du Vanuatu"
 * #VU ^designation[0].language = #fr-FR
 * #VU ^designation[=].use.system = "http://snomed.info/sct"
@@ -2934,6 +3433,8 @@ Description: "Référentiel des pays provenant de la norme ISO 3166"
 * #VU ^property[=].valueDateTime = "2018-06-29T12:00:00+01:00"
 * #VU ^property[+].code = #dateMaj
 * #VU ^property[=].valueDateTime = "2024-01-26T12:00:00+01:00"
+* #VU ^property[+].code = #status
+* #VU ^property[=].valueCode = #active
 * #WF "les Îles Wallis-et-Futuna"
 * #WF ^designation[0].language = #fr-FR
 * #WF ^designation[=].use.system = "http://snomed.info/sct"
@@ -2943,6 +3444,8 @@ Description: "Référentiel des pays provenant de la norme ISO 3166"
 * #WF ^property[=].valueDateTime = "2018-06-29T12:00:00+01:00"
 * #WF ^property[+].code = #dateMaj
 * #WF ^property[=].valueDateTime = "2024-01-26T12:00:00+01:00"
+* #WF ^property[+].code = #status
+* #WF ^property[=].valueCode = #active
 * #WS "l'État indépendant du Samoa"
 * #WS ^designation[0].language = #fr-FR
 * #WS ^designation[=].use.system = "http://snomed.info/sct"
@@ -2956,6 +3459,8 @@ Description: "Référentiel des pays provenant de la norme ISO 3166"
 * #WS ^property[=].valueDateTime = "2018-06-29T12:00:00+01:00"
 * #WS ^property[+].code = #dateMaj
 * #WS ^property[=].valueDateTime = "2024-01-26T12:00:00+01:00"
+* #WS ^property[+].code = #status
+* #WS ^property[=].valueCode = #active
 * #XK "KOSOVO"
 * #XK ^property[0].code = #dateValid
 * #XK ^property[=].valueDateTime = "2018-06-29T12:00:00+01:00"
@@ -2963,6 +3468,10 @@ Description: "Référentiel des pays provenant de la norme ISO 3166"
 * #XK ^property[=].valueDateTime = "2019-05-29T12:00:00+01:00"
 * #XK ^property[+].code = #dateMaj
 * #XK ^property[=].valueDateTime = "2021-03-26T12:00:00+01:00"
+* #XK ^property[+].code = #deprecationDate
+* #XK ^property[=].valueDateTime = "2019-05-29T12:00:00+01:00"
+* #XK ^property[+].code = #status
+* #XK ^property[=].valueCode = #deprecated
 * #YE "la République du Yémen"
 * #YE ^designation[0].language = #fr-FR
 * #YE ^designation[=].use.system = "http://snomed.info/sct"
@@ -2976,11 +3485,15 @@ Description: "Référentiel des pays provenant de la norme ISO 3166"
 * #YE ^property[=].valueDateTime = "2018-06-29T12:00:00+01:00"
 * #YE ^property[+].code = #dateMaj
 * #YE ^property[=].valueDateTime = "2024-01-26T12:00:00+01:00"
+* #YE ^property[+].code = #status
+* #YE ^property[=].valueCode = #active
 * #YT "Mayotte"
 * #YT ^property[0].code = #dateValid
 * #YT ^property[=].valueDateTime = "2018-06-29T12:00:00+01:00"
 * #YT ^property[+].code = #dateMaj
 * #YT ^property[=].valueDateTime = "2024-01-26T12:00:00+01:00"
+* #YT ^property[+].code = #status
+* #YT ^property[=].valueCode = #active
 * #ZA "la République sud-africaine"
 * #ZA ^designation[0].language = #fr-FR
 * #ZA ^designation[=].use.system = "http://snomed.info/sct"
@@ -2994,6 +3507,8 @@ Description: "Référentiel des pays provenant de la norme ISO 3166"
 * #ZA ^property[=].valueDateTime = "2018-06-29T12:00:00+01:00"
 * #ZA ^property[+].code = #dateMaj
 * #ZA ^property[=].valueDateTime = "2024-01-26T12:00:00+01:00"
+* #ZA ^property[+].code = #status
+* #ZA ^property[=].valueCode = #active
 * #ZM "la République de Zambie"
 * #ZM ^designation[0].language = #fr-FR
 * #ZM ^designation[=].use.system = "http://snomed.info/sct"
@@ -3007,6 +3522,8 @@ Description: "Référentiel des pays provenant de la norme ISO 3166"
 * #ZM ^property[=].valueDateTime = "2018-06-29T12:00:00+01:00"
 * #ZM ^property[+].code = #dateMaj
 * #ZM ^property[=].valueDateTime = "2024-01-26T12:00:00+01:00"
+* #ZM ^property[+].code = #status
+* #ZM ^property[=].valueCode = #active
 * #ZW "la République du Zimbabwe"
 * #ZW ^designation[0].language = #fr-FR
 * #ZW ^designation[=].use = $sct#900000000000013009
@@ -3018,3 +3535,5 @@ Description: "Référentiel des pays provenant de la norme ISO 3166"
 * #ZW ^property[=].valueDateTime = "2018-06-29T12:00:00+01:00"
 * #ZW ^property[+].code = #dateMaj
 * #ZW ^property[=].valueDateTime = "2024-01-26T12:00:00+01:00"
+* #ZW ^property[+].code = #status
+* #ZW ^property[=].valueCode = #active

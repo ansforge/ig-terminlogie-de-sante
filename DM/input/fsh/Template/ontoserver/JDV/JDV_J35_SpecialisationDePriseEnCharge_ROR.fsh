@@ -1,9 +1,10 @@
 ValueSet: JDV_J35_SpecialisationDePriseEnCharge_ROR
 Id: JDV-J35-SpecialisationDePriseEnCharge-ROR
 Description: "Spécialisation de prise en charge - ROR"
-* ^meta.versionId = "9"
-* ^meta.lastUpdated = "2025-04-25T17:01:52.761+00:00"
+* ^meta.versionId = "10"
+* ^meta.lastUpdated = "2025-07-02T17:06:28.929+00:00"
 * ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablevalueset"
+* ^language = #fr-FR
 * ^extension.url = "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod"
 * ^extension.valuePeriod.start = "2017-10-13T12:00:00+01:00"
 * ^url = "https://mos.esante.gouv.fr/NOS/JDV_J35-SpecialisationDePriseEnCharge-ROR/FHIR/JDV-J35-SpecialisationDePriseEnCharge-ROR"
@@ -14,6 +15,7 @@ Description: "Spécialisation de prise en charge - ROR"
 * ^experimental = false
 * ^date = "2025-04-25T12:00:00+01:00"
 * ^publisher = "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris"
+* ^jurisdiction = urn:iso:std:iso:3166#FR
 * $TRE-R245-SpecialisationDePriseEnCharge#01 "Troubles des conduites alimentaires (TCA)"
 * $TRE-R245-SpecialisationDePriseEnCharge#02 "Troubles du spectre de l'autisme"
 * $TRE-R245-SpecialisationDePriseEnCharge#03 "Troubles du déficit de l'attention avec ou sans hyperactivité (TDAH)"

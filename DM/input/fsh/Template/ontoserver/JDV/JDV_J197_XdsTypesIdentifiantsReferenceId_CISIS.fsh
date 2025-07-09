@@ -1,9 +1,10 @@
 ValueSet: JDV_J197_XdsTypesIdentifiantsReferenceId_CISIS
 Id: JDV-J197-XdsTypesIdentifiantsReferenceId-CISIS
 Description: "Types d'identifiants utilisés dans la métadonnée XDS referenceIdList de la fiche du document dans le cadre du CISIS"
-* ^meta.versionId = "3"
-* ^meta.lastUpdated = "2024-04-27T05:07:13.530+00:00"
+* ^meta.versionId = "4"
+* ^meta.lastUpdated = "2025-07-02T17:05:41.720+00:00"
 * ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablevalueset"
+* ^language = #fr-FR
 * ^extension.url = "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod"
 * ^extension.valuePeriod.start = "2022-06-24T12:00:00+01:00"
 * ^url = "https://mos.esante.gouv.fr/NOS/JDV_J197-XdsTypesIdentifiantsReferenceId-CISIS/FHIR/JDV-J197-XdsTypesIdentifiantsReferenceId-CISIS"
@@ -14,6 +15,7 @@ Description: "Types d'identifiants utilisés dans la métadonnée XDS referenceI
 * ^experimental = false
 * ^date = "2022-06-24T12:00:00+01:00"
 * ^publisher = "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris"
+* ^jurisdiction = urn:iso:std:iso:3166#FR
 * $TRE-R342-XdsTypesIdentifiantsReferenceId#urn:ihe:iti:xds:2013:uniqueId "uniqueId"
 * $TRE-R342-XdsTypesIdentifiantsReferenceId#urn:ihe:iti:xds:2013:accession "accession"
 * $TRE-R342-XdsTypesIdentifiantsReferenceId#urn:ihe:iti:xds:2013:referral "referral"

@@ -1,9 +1,10 @@
 ValueSet: JDV_J285_Besoins_SERAFIN
 Id: JDV-J285-Besoins-SERAFIN
 Description: "Liste des besoins provenant de la terminologie SERAFIN"
-* ^meta.versionId = "5"
-* ^meta.lastUpdated = "2024-12-19T18:02:42.087+00:00"
+* ^meta.versionId = "6"
+* ^meta.lastUpdated = "2025-07-02T17:06:23.626+00:00"
 * ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablevalueset"
+* ^language = #fr-FR
 * ^extension.url = "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod"
 * ^extension.valuePeriod.start = "2024-10-25T12:00:00+01:00"
 * ^url = "https://mos.esante.gouv.fr/NOS/JDV_J285-Besoins_SERAFIN/FHIR/JDV-J285-Besoins-SERAFIN"
@@ -14,6 +15,7 @@ Description: "Liste des besoins provenant de la terminologie SERAFIN"
 * ^experimental = false
 * ^date = "2024-10-25T12:00:00+01:00"
 * ^publisher = "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris"
+* ^jurisdiction = urn:iso:std:iso:3166#FR
 * $terminologie-SERAFINPH#1 "Besoins"
 * $terminologie-SERAFINPH#1.1 "Besoins en matière de santé somatique ou psychique"
 * $terminologie-SERAFINPH#1.1.1 "Besoins en matière de fonctions mentales, psychiques, cognitives et du système nerveux"

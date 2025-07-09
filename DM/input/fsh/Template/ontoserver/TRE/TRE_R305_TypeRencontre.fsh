@@ -1,8 +1,8 @@
 CodeSystem: TRE_R305_TypeRencontre
 Id: TRE-R305-TypeRencontre
 Description: "Type de rencontre"
-* ^meta.versionId = "4"
-* ^meta.lastUpdated = "2024-08-28T05:13:20.010+00:00"
+* ^meta.versionId = "5"
+* ^meta.lastUpdated = "2025-07-02T18:17:25.683+00:00"
 * ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablecodesystem"
 * ^extension.url = "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod"
 * ^extension.valuePeriod.start = "2021-03-26T12:00:00+01:00"
@@ -14,6 +14,7 @@ Description: "Type de rencontre"
 * ^experimental = false
 * ^date = "2023-12-15T12:00:00+01:00"
 * ^publisher = "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris"
+* ^jurisdiction = urn:iso:std:iso:3166#FR
 * ^caseSensitive = false
 * ^content = #complete
 * ^property[0].code = #dateValid
@@ -25,13 +26,29 @@ Description: "Type de rencontre"
 * ^property[+].code = #dateFin
 * ^property[=].description = "Date de fin d'exploitation d'un code concept"
 * ^property[=].type = #dateTime
+* ^property[+].code = #deprecationDate
+* ^property[=].uri = "http://hl7.org/fhir/concept-properties#deprecationDate"
+* ^property[=].description = "Date Concept was deprecated"
+* ^property[=].type = #dateTime
+* ^property[+].code = #status
+* ^property[=].uri = "http://hl7.org/fhir/concept-properties#status"
+* ^property[=].description = "A property that indicates the status of the concept."
+* ^property[=].type = #code
+* ^property[+].code = #retirementDate
+* ^property[=].uri = "http://hl7.org/fhir/concept-properties#retirementDate"
+* ^property[=].description = "Date Concept was retired"
+* ^property[=].type = #dateTime
 * #EXTERNE "Acte et consultation externe (établissement)"
 * #EXTERNE ^property[0].code = #dateValid
 * #EXTERNE ^property[=].valueDateTime = "2021-03-26T12:00:00+01:00"
 * #EXTERNE ^property[+].code = #dateMaj
 * #EXTERNE ^property[=].valueDateTime = "2021-03-26T12:00:00+01:00"
+* #EXTERNE ^property[+].code = #status
+* #EXTERNE ^property[=].valueCode = #active
 * #SEANCE "Séance (établissement ou libéral)"
 * #SEANCE ^property[0].code = #dateValid
 * #SEANCE ^property[=].valueDateTime = "2021-03-26T12:00:00+01:00"
 * #SEANCE ^property[+].code = #dateMaj
 * #SEANCE ^property[=].valueDateTime = "2021-03-26T12:00:00+01:00"
+* #SEANCE ^property[+].code = #status
+* #SEANCE ^property[=].valueCode = #active

@@ -1,8 +1,8 @@
 CodeSystem: TRE_R359_SurspecialiteTransversale
 Id: TRE-R359-SurspecialiteTransversale
 Description: "Surspécialité (compétence) acquise par l'interne à l'issue d'une Formation Spécialisée Transversale (FST)"
-* ^meta.versionId = "5"
-* ^meta.lastUpdated = "2024-08-28T05:13:47.085+00:00"
+* ^meta.versionId = "6"
+* ^meta.lastUpdated = "2025-07-02T18:17:56.514+00:00"
 * ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablecodesystem"
 * ^extension.url = "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod"
 * ^extension.valuePeriod.start = "2023-10-30T12:00:00+01:00"
@@ -14,6 +14,7 @@ Description: "Surspécialité (compétence) acquise par l'interne à l'issue d'u
 * ^experimental = false
 * ^date = "2024-05-31T12:00:00+01:00"
 * ^publisher = "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris"
+* ^jurisdiction = urn:iso:std:iso:3166#FR
 * ^caseSensitive = false
 * ^content = #complete
 * ^property[0].code = #dateValid
@@ -25,16 +26,32 @@ Description: "Surspécialité (compétence) acquise par l'interne à l'issue d'u
 * ^property[+].code = #dateFin
 * ^property[=].description = "Date de fin d'exploitation d'un code concept"
 * ^property[=].type = #dateTime
+* ^property[+].code = #deprecationDate
+* ^property[=].uri = "http://hl7.org/fhir/concept-properties#deprecationDate"
+* ^property[=].description = "Date Concept was deprecated"
+* ^property[=].type = #dateTime
+* ^property[+].code = #status
+* ^property[=].uri = "http://hl7.org/fhir/concept-properties#status"
+* ^property[=].description = "A property that indicates the status of the concept."
+* ^property[=].type = #code
+* ^property[+].code = #retirementDate
+* ^property[=].uri = "http://hl7.org/fhir/concept-properties#retirementDate"
+* ^property[=].description = "Date Concept was retired"
+* ^property[=].type = #dateTime
 * #SST01 "Addictologie"
 * #SST01 ^property[0].code = #dateValid
 * #SST01 ^property[=].valueDateTime = "2023-10-30T12:00:00+01:00"
 * #SST01 ^property[+].code = #dateMaj
 * #SST01 ^property[=].valueDateTime = "2023-10-30T12:00:00+01:00"
+* #SST01 ^property[+].code = #status
+* #SST01 ^property[=].valueCode = #active
 * #SST02 "Bio-informatique médicale"
 * #SST02 ^property[0].code = #dateValid
 * #SST02 ^property[=].valueDateTime = "2023-10-30T12:00:00+01:00"
 * #SST02 ^property[+].code = #dateMaj
 * #SST02 ^property[=].valueDateTime = "2024-05-31T12:00:00+01:00"
+* #SST02 ^property[+].code = #status
+* #SST02 ^property[=].valueCode = #active
 * #SST03 "Cancérologie déc. hémato-cancérologie pédiatrique"
 * #SST03 ^designation[0].language = #fr-FR
 * #SST03 ^designation[=].use.system = "http://snomed.info/sct"
@@ -48,6 +65,8 @@ Description: "Surspécialité (compétence) acquise par l'interne à l'issue d'u
 * #SST03 ^property[=].valueDateTime = "2023-10-30T12:00:00+01:00"
 * #SST03 ^property[+].code = #dateMaj
 * #SST03 ^property[=].valueDateTime = "2024-05-31T12:00:00+01:00"
+* #SST03 ^property[+].code = #status
+* #SST03 ^property[=].valueCode = #active
 * #SST04 "Cancérologie traitements médicaux des cancers"
 * #SST04 ^designation[0].language = #fr-FR
 * #SST04 ^designation[=].use.system = "http://snomed.info/sct"
@@ -57,6 +76,8 @@ Description: "Surspécialité (compétence) acquise par l'interne à l'issue d'u
 * #SST04 ^property[=].valueDateTime = "2023-10-30T12:00:00+01:00"
 * #SST04 ^property[+].code = #dateMaj
 * #SST04 ^property[=].valueDateTime = "2024-05-31T12:00:00+01:00"
+* #SST04 ^property[+].code = #status
+* #SST04 ^property[=].valueCode = #active
 * #SST05 "Cardiologie pédiatrique et congénitale"
 * #SST05 ^designation[0].language = #fr-FR
 * #SST05 ^designation[=].use.system = "http://snomed.info/sct"
@@ -66,11 +87,15 @@ Description: "Surspécialité (compétence) acquise par l'interne à l'issue d'u
 * #SST05 ^property[=].valueDateTime = "2023-10-30T12:00:00+01:00"
 * #SST05 ^property[+].code = #dateMaj
 * #SST05 ^property[=].valueDateTime = "2023-10-30T12:00:00+01:00"
+* #SST05 ^property[+].code = #status
+* #SST05 ^property[=].valueCode = #active
 * #SST06 "Chirurgie de la main"
 * #SST06 ^property[0].code = #dateValid
 * #SST06 ^property[=].valueDateTime = "2023-10-30T12:00:00+01:00"
 * #SST06 ^property[+].code = #dateMaj
 * #SST06 ^property[=].valueDateTime = "2023-10-30T12:00:00+01:00"
+* #SST06 ^property[+].code = #status
+* #SST06 ^property[=].valueCode = #active
 * #SST07 "Chirurgie en situation de guerre ou de catastrophe"
 * #SST07 ^designation[0].language = #fr-FR
 * #SST07 ^designation[=].use.system = "http://snomed.info/sct"
@@ -80,6 +105,8 @@ Description: "Surspécialité (compétence) acquise par l'interne à l'issue d'u
 * #SST07 ^property[=].valueDateTime = "2023-10-30T12:00:00+01:00"
 * #SST07 ^property[+].code = #dateMaj
 * #SST07 ^property[=].valueDateTime = "2024-05-31T12:00:00+01:00"
+* #SST07 ^property[+].code = #status
+* #SST07 ^property[=].valueCode = #active
 * #SST08 "Chirurgie orbito-palpébro-lacrymale"
 * #SST08 ^designation[0].language = #fr-FR
 * #SST08 ^designation[=].use.system = "http://snomed.info/sct"
@@ -89,11 +116,15 @@ Description: "Surspécialité (compétence) acquise par l'interne à l'issue d'u
 * #SST08 ^property[=].valueDateTime = "2023-10-30T12:00:00+01:00"
 * #SST08 ^property[+].code = #dateMaj
 * #SST08 ^property[=].valueDateTime = "2024-05-31T12:00:00+01:00"
+* #SST08 ^property[+].code = #status
+* #SST08 ^property[=].valueCode = #active
 * #SST09 "Douleur"
 * #SST09 ^property[0].code = #dateValid
 * #SST09 ^property[=].valueDateTime = "2023-10-30T12:00:00+01:00"
 * #SST09 ^property[+].code = #dateMaj
 * #SST09 ^property[=].valueDateTime = "2023-10-30T12:00:00+01:00"
+* #SST09 ^property[+].code = #status
+* #SST09 ^property[=].valueCode = #active
 * #SST10 "Expertise médicale-préjudice corporel"
 * #SST10 ^designation[0].language = #fr-FR
 * #SST10 ^designation[=].use.system = "http://snomed.info/sct"
@@ -103,11 +134,15 @@ Description: "Surspécialité (compétence) acquise par l'interne à l'issue d'u
 * #SST10 ^property[=].valueDateTime = "2023-10-30T12:00:00+01:00"
 * #SST10 ^property[+].code = #dateMaj
 * #SST10 ^property[=].valueDateTime = "2024-05-31T12:00:00+01:00"
+* #SST10 ^property[+].code = #status
+* #SST10 ^property[=].valueCode = #active
 * #SST11 "Foetopathologie"
 * #SST11 ^property[0].code = #dateValid
 * #SST11 ^property[=].valueDateTime = "2023-10-30T12:00:00+01:00"
 * #SST11 ^property[+].code = #dateMaj
 * #SST11 ^property[=].valueDateTime = "2023-10-30T12:00:00+01:00"
+* #SST11 ^property[+].code = #status
+* #SST11 ^property[=].valueCode = #active
 * #SST12 "Génétique et médecine moléculaire bioclinique"
 * #SST12 ^designation[0].language = #fr-FR
 * #SST12 ^designation[=].use.system = "http://snomed.info/sct"
@@ -117,11 +152,15 @@ Description: "Surspécialité (compétence) acquise par l'interne à l'issue d'u
 * #SST12 ^property[=].valueDateTime = "2023-10-30T12:00:00+01:00"
 * #SST12 ^property[+].code = #dateMaj
 * #SST12 ^property[=].valueDateTime = "2024-05-31T12:00:00+01:00"
+* #SST12 ^property[+].code = #status
+* #SST12 ^property[=].valueCode = #active
 * #SST13 "Hématologie bioclinique"
 * #SST13 ^property[0].code = #dateValid
 * #SST13 ^property[=].valueDateTime = "2023-10-30T12:00:00+01:00"
 * #SST13 ^property[+].code = #dateMaj
 * #SST13 ^property[=].valueDateTime = "2024-05-31T12:00:00+01:00"
+* #SST13 ^property[+].code = #status
+* #SST13 ^property[=].valueCode = #active
 * #SST14 "Hygiène-prévention de l'infection, résistances"
 * #SST14 ^designation[0].language = #fr-FR
 * #SST14 ^designation[=].use.system = "http://snomed.info/sct"
@@ -131,11 +170,15 @@ Description: "Surspécialité (compétence) acquise par l'interne à l'issue d'u
 * #SST14 ^property[=].valueDateTime = "2023-10-30T12:00:00+01:00"
 * #SST14 ^property[+].code = #dateMaj
 * #SST14 ^property[=].valueDateTime = "2024-05-31T12:00:00+01:00"
+* #SST14 ^property[+].code = #status
+* #SST14 ^property[=].valueCode = #active
 * #SST15 "Maladies allergiques"
 * #SST15 ^property[0].code = #dateValid
 * #SST15 ^property[=].valueDateTime = "2023-10-30T12:00:00+01:00"
 * #SST15 ^property[+].code = #dateMaj
 * #SST15 ^property[=].valueDateTime = "2023-10-30T12:00:00+01:00"
+* #SST15 ^property[+].code = #status
+* #SST15 ^property[=].valueCode = #active
 * #SST16 "Médecine hospitalière polyvalente"
 * #SST16 ^designation[0].language = #fr-FR
 * #SST16 ^designation[=].use.system = "http://snomed.info/sct"
@@ -145,16 +188,22 @@ Description: "Surspécialité (compétence) acquise par l'interne à l'issue d'u
 * #SST16 ^property[=].valueDateTime = "2023-10-30T12:00:00+01:00"
 * #SST16 ^property[+].code = #dateMaj
 * #SST16 ^property[=].valueDateTime = "2024-05-31T12:00:00+01:00"
+* #SST16 ^property[+].code = #status
+* #SST16 ^property[=].valueCode = #active
 * #SST17 "Médecine palliative"
 * #SST17 ^property[0].code = #dateValid
 * #SST17 ^property[=].valueDateTime = "2023-10-30T12:00:00+01:00"
 * #SST17 ^property[+].code = #dateMaj
 * #SST17 ^property[=].valueDateTime = "2023-10-30T12:00:00+01:00"
+* #SST17 ^property[+].code = #status
+* #SST17 ^property[=].valueCode = #active
 * #SST18 "Médecine scolaire"
 * #SST18 ^property[0].code = #dateValid
 * #SST18 ^property[=].valueDateTime = "2023-10-30T12:00:00+01:00"
 * #SST18 ^property[+].code = #dateMaj
 * #SST18 ^property[=].valueDateTime = "2023-10-30T12:00:00+01:00"
+* #SST18 ^property[+].code = #status
+* #SST18 ^property[=].valueCode = #active
 * #SST19 "Médecine en situation de guerre ou en SSE"
 * #SST19 ^designation[0].language = #fr-FR
 * #SST19 ^designation[=].use.system = "http://snomed.info/sct"
@@ -164,6 +213,8 @@ Description: "Surspécialité (compétence) acquise par l'interne à l'issue d'u
 * #SST19 ^property[=].valueDateTime = "2023-10-30T12:00:00+01:00"
 * #SST19 ^property[+].code = #dateMaj
 * #SST19 ^property[=].valueDateTime = "2024-05-31T12:00:00+01:00"
+* #SST19 ^property[+].code = #status
+* #SST19 ^property[=].valueCode = #active
 * #SST20 "Médecine et biologie de la reproduction-andrologie"
 * #SST20 ^designation[0].language = #fr-FR
 * #SST20 ^designation[=].use.system = "http://snomed.info/sct"
@@ -173,16 +224,22 @@ Description: "Surspécialité (compétence) acquise par l'interne à l'issue d'u
 * #SST20 ^property[=].valueDateTime = "2023-10-30T12:00:00+01:00"
 * #SST20 ^property[+].code = #dateMaj
 * #SST20 ^property[=].valueDateTime = "2024-05-31T12:00:00+01:00"
+* #SST20 ^property[+].code = #status
+* #SST20 ^property[=].valueCode = #active
 * #SST21 "Médecine du sport"
 * #SST21 ^property[0].code = #dateValid
 * #SST21 ^property[=].valueDateTime = "2023-10-30T12:00:00+01:00"
 * #SST21 ^property[+].code = #dateMaj
 * #SST21 ^property[=].valueDateTime = "2023-10-30T12:00:00+01:00"
+* #SST21 ^property[+].code = #status
+* #SST21 ^property[=].valueCode = #active
 * #SST22 "Nutrition appliquée"
 * #SST22 ^property[0].code = #dateValid
 * #SST22 ^property[=].valueDateTime = "2023-10-30T12:00:00+01:00"
 * #SST22 ^property[+].code = #dateMaj
 * #SST22 ^property[=].valueDateTime = "2023-10-30T12:00:00+01:00"
+* #SST22 ^property[+].code = #status
+* #SST22 ^property[=].valueCode = #active
 * #SST23 "Pharmacologie médicale/thérapeutique"
 * #SST23 ^designation[0].language = #fr-FR
 * #SST23 ^designation[=].use.system = "http://snomed.info/sct"
@@ -196,11 +253,15 @@ Description: "Surspécialité (compétence) acquise par l'interne à l'issue d'u
 * #SST23 ^property[=].valueDateTime = "2023-10-30T12:00:00+01:00"
 * #SST23 ^property[+].code = #dateMaj
 * #SST23 ^property[=].valueDateTime = "2024-05-31T12:00:00+01:00"
+* #SST23 ^property[+].code = #status
+* #SST23 ^property[=].valueCode = #active
 * #SST24 "Sommeil"
 * #SST24 ^property[0].code = #dateValid
 * #SST24 ^property[=].valueDateTime = "2023-10-30T12:00:00+01:00"
 * #SST24 ^property[+].code = #dateMaj
 * #SST24 ^property[=].valueDateTime = "2023-10-30T12:00:00+01:00"
+* #SST24 ^property[+].code = #status
+* #SST24 ^property[=].valueCode = #active
 * #SST25 "Thérapie cellulaire/transfusion"
 * #SST25 ^designation[0].language = #fr-FR
 * #SST25 ^designation[=].use = $sct#900000000000013009
@@ -212,8 +273,12 @@ Description: "Surspécialité (compétence) acquise par l'interne à l'issue d'u
 * #SST25 ^property[=].valueDateTime = "2023-10-30T12:00:00+01:00"
 * #SST25 ^property[+].code = #dateMaj
 * #SST25 ^property[=].valueDateTime = "2024-05-31T12:00:00+01:00"
+* #SST25 ^property[+].code = #status
+* #SST25 ^property[=].valueCode = #active
 * #SST26 "Urgences pédiatriques"
 * #SST26 ^property[0].code = #dateValid
 * #SST26 ^property[=].valueDateTime = "2023-10-30T12:00:00+01:00"
 * #SST26 ^property[+].code = #dateMaj
 * #SST26 ^property[=].valueDateTime = "2024-05-31T12:00:00+01:00"
+* #SST26 ^property[+].code = #status
+* #SST26 ^property[=].valueCode = #active

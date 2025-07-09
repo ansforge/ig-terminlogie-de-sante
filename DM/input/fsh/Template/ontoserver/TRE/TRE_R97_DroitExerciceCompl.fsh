@@ -1,8 +1,8 @@
 CodeSystem: TRE_R97_DroitExerciceCompl
 Id: TRE-R97-DroitExerciceCompl
 Description: "Droit d'exercice complémentaire"
-* ^meta.versionId = "4"
-* ^meta.lastUpdated = "2024-08-28T05:14:20.533+00:00"
+* ^meta.versionId = "5"
+* ^meta.lastUpdated = "2025-07-02T18:19:24.348+00:00"
 * ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablecodesystem"
 * ^extension.url = "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod"
 * ^extension.valuePeriod.start = "2015-05-29T15:58:30+01:00"
@@ -14,6 +14,7 @@ Description: "Droit d'exercice complémentaire"
 * ^experimental = false
 * ^date = "2023-12-15T12:00:00+01:00"
 * ^publisher = "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris"
+* ^jurisdiction = urn:iso:std:iso:3166#FR
 * ^caseSensitive = false
 * ^content = #complete
 * ^property[0].code = #dateValid
@@ -25,6 +26,18 @@ Description: "Droit d'exercice complémentaire"
 * ^property[+].code = #dateFin
 * ^property[=].description = "Date de fin d'exploitation d'un code concept"
 * ^property[=].type = #dateTime
+* ^property[+].code = #deprecationDate
+* ^property[=].uri = "http://hl7.org/fhir/concept-properties#deprecationDate"
+* ^property[=].description = "Date Concept was deprecated"
+* ^property[=].type = #dateTime
+* ^property[+].code = #status
+* ^property[=].uri = "http://hl7.org/fhir/concept-properties#status"
+* ^property[=].description = "A property that indicates the status of the concept."
+* ^property[=].type = #code
+* ^property[+].code = #retirementDate
+* ^property[=].uri = "http://hl7.org/fhir/concept-properties#retirementDate"
+* ^property[=].description = "Date Concept was retired"
+* ^property[=].type = #dateTime
 * #DEC01 "Addictologie (DEC)"
 * #DEC01 ^designation.language = #fr-FR
 * #DEC01 ^designation.use.system = "http://snomed.info/sct"
@@ -34,6 +47,8 @@ Description: "Droit d'exercice complémentaire"
 * #DEC01 ^property[=].valueDateTime = "2015-05-29T15:58:30+01:00"
 * #DEC01 ^property[+].code = #dateMaj
 * #DEC01 ^property[=].valueDateTime = "2019-02-22T12:00:00+01:00"
+* #DEC01 ^property[+].code = #status
+* #DEC01 ^property[=].valueCode = #active
 * #DEC02 "Allergologie et Immunologie clinique (DEC)"
 * #DEC02 ^designation.language = #fr-FR
 * #DEC02 ^designation.use.system = "http://snomed.info/sct"
@@ -43,6 +58,8 @@ Description: "Droit d'exercice complémentaire"
 * #DEC02 ^property[=].valueDateTime = "2015-05-29T15:58:30+01:00"
 * #DEC02 ^property[+].code = #dateMaj
 * #DEC02 ^property[=].valueDateTime = "2019-02-22T12:00:00+01:00"
+* #DEC02 ^property[+].code = #status
+* #DEC02 ^property[=].valueCode = #active
 * #DEC03 "Andrologie (DEC)"
 * #DEC03 ^designation.language = #fr-FR
 * #DEC03 ^designation.use.system = "http://snomed.info/sct"
@@ -52,6 +69,8 @@ Description: "Droit d'exercice complémentaire"
 * #DEC03 ^property[=].valueDateTime = "2015-05-29T15:58:30+01:00"
 * #DEC03 ^property[+].code = #dateMaj
 * #DEC03 ^property[=].valueDateTime = "2019-02-22T12:00:00+01:00"
+* #DEC03 ^property[+].code = #status
+* #DEC03 ^property[=].valueCode = #active
 * #DEC04 "Cancérologie, option traitements médicaux des cancers (DEC)"
 * #DEC04 ^designation.language = #fr-FR
 * #DEC04 ^designation.use.system = "http://snomed.info/sct"
@@ -61,6 +80,8 @@ Description: "Droit d'exercice complémentaire"
 * #DEC04 ^property[=].valueDateTime = "2015-05-29T15:58:30+01:00"
 * #DEC04 ^property[+].code = #dateMaj
 * #DEC04 ^property[=].valueDateTime = "2019-02-22T12:00:00+01:00"
+* #DEC04 ^property[+].code = #status
+* #DEC04 ^property[=].valueCode = #active
 * #DEC05 "Cancérologie, option chirurgie cancérologique (DEC)"
 * #DEC05 ^designation.language = #fr-FR
 * #DEC05 ^designation.use.system = "http://snomed.info/sct"
@@ -70,6 +91,8 @@ Description: "Droit d'exercice complémentaire"
 * #DEC05 ^property[=].valueDateTime = "2015-05-29T15:58:30+01:00"
 * #DEC05 ^property[+].code = #dateMaj
 * #DEC05 ^property[=].valueDateTime = "2019-02-22T12:00:00+01:00"
+* #DEC05 ^property[+].code = #status
+* #DEC05 ^property[=].valueCode = #active
 * #DEC06 "Cancérologie, option réseaux de cancérologie (DEC)"
 * #DEC06 ^designation.language = #fr-FR
 * #DEC06 ^designation.use.system = "http://snomed.info/sct"
@@ -79,6 +102,8 @@ Description: "Droit d'exercice complémentaire"
 * #DEC06 ^property[=].valueDateTime = "2015-05-29T15:58:30+01:00"
 * #DEC06 ^property[+].code = #dateMaj
 * #DEC06 ^property[=].valueDateTime = "2019-02-22T12:00:00+01:00"
+* #DEC06 ^property[+].code = #status
+* #DEC06 ^property[=].valueCode = #active
 * #DEC07 "Cancérologie, option biologie en cancérologie (DEC)"
 * #DEC07 ^designation.language = #fr-FR
 * #DEC07 ^designation.use.system = "http://snomed.info/sct"
@@ -88,6 +113,8 @@ Description: "Droit d'exercice complémentaire"
 * #DEC07 ^property[=].valueDateTime = "2015-05-29T15:58:30+01:00"
 * #DEC07 ^property[+].code = #dateMaj
 * #DEC07 ^property[=].valueDateTime = "2019-02-22T12:00:00+01:00"
+* #DEC07 ^property[+].code = #status
+* #DEC07 ^property[=].valueCode = #active
 * #DEC08 "Cancérologie, option imagerie en cancérologie (DEC)"
 * #DEC08 ^designation.language = #fr-FR
 * #DEC08 ^designation.use.system = "http://snomed.info/sct"
@@ -97,6 +124,8 @@ Description: "Droit d'exercice complémentaire"
 * #DEC08 ^property[=].valueDateTime = "2015-05-29T15:58:30+01:00"
 * #DEC08 ^property[+].code = #dateMaj
 * #DEC08 ^property[=].valueDateTime = "2019-02-22T12:00:00+01:00"
+* #DEC08 ^property[+].code = #status
+* #DEC08 ^property[=].valueCode = #active
 * #DEC09 "Dermatopathologie (DEC)"
 * #DEC09 ^designation.language = #fr-FR
 * #DEC09 ^designation.use.system = "http://snomed.info/sct"
@@ -106,6 +135,8 @@ Description: "Droit d'exercice complémentaire"
 * #DEC09 ^property[=].valueDateTime = "2015-05-29T15:58:30+01:00"
 * #DEC09 ^property[+].code = #dateMaj
 * #DEC09 ^property[=].valueDateTime = "2019-02-22T12:00:00+01:00"
+* #DEC09 ^property[+].code = #status
+* #DEC09 ^property[=].valueCode = #active
 * #DEC10 "Foetopathologie (DEC)"
 * #DEC10 ^designation.language = #fr-FR
 * #DEC10 ^designation.use.system = "http://snomed.info/sct"
@@ -115,6 +146,8 @@ Description: "Droit d'exercice complémentaire"
 * #DEC10 ^property[=].valueDateTime = "2015-05-29T15:58:30+01:00"
 * #DEC10 ^property[+].code = #dateMaj
 * #DEC10 ^property[=].valueDateTime = "2019-02-22T12:00:00+01:00"
+* #DEC10 ^property[+].code = #status
+* #DEC10 ^property[=].valueCode = #active
 * #DEC11 "Hémobiologie et Transfusion (DEC)"
 * #DEC11 ^designation.language = #fr-FR
 * #DEC11 ^designation.use.system = "http://snomed.info/sct"
@@ -124,6 +157,8 @@ Description: "Droit d'exercice complémentaire"
 * #DEC11 ^property[=].valueDateTime = "2015-05-29T15:58:30+01:00"
 * #DEC11 ^property[+].code = #dateMaj
 * #DEC11 ^property[=].valueDateTime = "2019-02-22T12:00:00+01:00"
+* #DEC11 ^property[+].code = #status
+* #DEC11 ^property[=].valueCode = #active
 * #DEC12 "Médecine de la douleur et Médecine palliative (DEC)"
 * #DEC12 ^designation.language = #fr-FR
 * #DEC12 ^designation.use.system = "http://snomed.info/sct"
@@ -133,6 +168,8 @@ Description: "Droit d'exercice complémentaire"
 * #DEC12 ^property[=].valueDateTime = "2015-05-29T15:58:30+01:00"
 * #DEC12 ^property[+].code = #dateMaj
 * #DEC12 ^property[=].valueDateTime = "2019-02-22T12:00:00+01:00"
+* #DEC12 ^property[+].code = #status
+* #DEC12 ^property[=].valueCode = #active
 * #DEC13 "Médecine de la reproduction (DEC)"
 * #DEC13 ^designation.language = #fr-FR
 * #DEC13 ^designation.use.system = "http://snomed.info/sct"
@@ -142,6 +179,8 @@ Description: "Droit d'exercice complémentaire"
 * #DEC13 ^property[=].valueDateTime = "2015-05-29T15:58:30+01:00"
 * #DEC13 ^property[+].code = #dateMaj
 * #DEC13 ^property[=].valueDateTime = "2019-02-22T12:00:00+01:00"
+* #DEC13 ^property[+].code = #status
+* #DEC13 ^property[=].valueCode = #active
 * #DEC14 "Médecine d'urgence (DEC)"
 * #DEC14 ^designation.language = #fr-FR
 * #DEC14 ^designation.use.system = "http://snomed.info/sct"
@@ -151,6 +190,8 @@ Description: "Droit d'exercice complémentaire"
 * #DEC14 ^property[=].valueDateTime = "2015-05-29T15:58:30+01:00"
 * #DEC14 ^property[+].code = #dateMaj
 * #DEC14 ^property[=].valueDateTime = "2019-02-22T12:00:00+01:00"
+* #DEC14 ^property[+].code = #status
+* #DEC14 ^property[=].valueCode = #active
 * #DEC15 "Médecine du sport (DEC)"
 * #DEC15 ^designation.language = #fr-FR
 * #DEC15 ^designation.use.system = "http://snomed.info/sct"
@@ -160,6 +201,8 @@ Description: "Droit d'exercice complémentaire"
 * #DEC15 ^property[=].valueDateTime = "2015-05-29T15:58:30+01:00"
 * #DEC15 ^property[+].code = #dateMaj
 * #DEC15 ^property[=].valueDateTime = "2019-02-22T12:00:00+01:00"
+* #DEC15 ^property[+].code = #status
+* #DEC15 ^property[=].valueCode = #active
 * #DEC16 "Médecine légale et Expertises médicales (DEC)"
 * #DEC16 ^designation.language = #fr-FR
 * #DEC16 ^designation.use.system = "http://snomed.info/sct"
@@ -169,6 +212,8 @@ Description: "Droit d'exercice complémentaire"
 * #DEC16 ^property[=].valueDateTime = "2015-05-29T15:58:30+01:00"
 * #DEC16 ^property[+].code = #dateMaj
 * #DEC16 ^property[=].valueDateTime = "2019-02-22T12:00:00+01:00"
+* #DEC16 ^property[+].code = #status
+* #DEC16 ^property[=].valueCode = #active
 * #DEC17 "Médecine vasculaire (DEC)"
 * #DEC17 ^designation.language = #fr-FR
 * #DEC17 ^designation.use.system = "http://snomed.info/sct"
@@ -178,6 +223,8 @@ Description: "Droit d'exercice complémentaire"
 * #DEC17 ^property[=].valueDateTime = "2015-05-29T15:58:30+01:00"
 * #DEC17 ^property[+].code = #dateMaj
 * #DEC17 ^property[=].valueDateTime = "2019-02-22T12:00:00+01:00"
+* #DEC17 ^property[+].code = #status
+* #DEC17 ^property[=].valueCode = #active
 * #DEC18 "Néonatologie (DEC)"
 * #DEC18 ^designation.language = #fr-FR
 * #DEC18 ^designation.use.system = "http://snomed.info/sct"
@@ -187,6 +234,8 @@ Description: "Droit d'exercice complémentaire"
 * #DEC18 ^property[=].valueDateTime = "2015-05-29T15:58:30+01:00"
 * #DEC18 ^property[+].code = #dateMaj
 * #DEC18 ^property[=].valueDateTime = "2019-02-22T12:00:00+01:00"
+* #DEC18 ^property[+].code = #status
+* #DEC18 ^property[=].valueCode = #active
 * #DEC19 "Neuropathologie (DEC)"
 * #DEC19 ^designation.language = #fr-FR
 * #DEC19 ^designation.use.system = "http://snomed.info/sct"
@@ -196,6 +245,8 @@ Description: "Droit d'exercice complémentaire"
 * #DEC19 ^property[=].valueDateTime = "2015-05-29T15:58:30+01:00"
 * #DEC19 ^property[+].code = #dateMaj
 * #DEC19 ^property[=].valueDateTime = "2019-02-22T12:00:00+01:00"
+* #DEC19 ^property[+].code = #status
+* #DEC19 ^property[=].valueCode = #active
 * #DEC20 "Nutrition (DEC)"
 * #DEC20 ^designation.language = #fr-FR
 * #DEC20 ^designation.use.system = "http://snomed.info/sct"
@@ -205,6 +256,8 @@ Description: "Droit d'exercice complémentaire"
 * #DEC20 ^property[=].valueDateTime = "2015-05-29T15:58:30+01:00"
 * #DEC20 ^property[+].code = #dateMaj
 * #DEC20 ^property[=].valueDateTime = "2019-02-22T12:00:00+01:00"
+* #DEC20 ^property[+].code = #status
+* #DEC20 ^property[=].valueCode = #active
 * #DEC21 "Orthopédie dento-maxillo-faciale (DEC)"
 * #DEC21 ^designation.language = #fr-FR
 * #DEC21 ^designation.use.system = "http://snomed.info/sct"
@@ -214,6 +267,8 @@ Description: "Droit d'exercice complémentaire"
 * #DEC21 ^property[=].valueDateTime = "2015-05-29T15:58:30+01:00"
 * #DEC21 ^property[+].code = #dateMaj
 * #DEC21 ^property[=].valueDateTime = "2019-02-22T12:00:00+01:00"
+* #DEC21 ^property[+].code = #status
+* #DEC21 ^property[=].valueCode = #active
 * #DEC22 "Pathologie infectieuse et tropicale, clinique et biologique (DEC)"
 * #DEC22 ^designation.language = #fr-FR
 * #DEC22 ^designation.use.system = "http://snomed.info/sct"
@@ -223,6 +278,8 @@ Description: "Droit d'exercice complémentaire"
 * #DEC22 ^property[=].valueDateTime = "2015-05-29T15:58:30+01:00"
 * #DEC22 ^property[+].code = #dateMaj
 * #DEC22 ^property[=].valueDateTime = "2019-02-22T12:00:00+01:00"
+* #DEC22 ^property[+].code = #status
+* #DEC22 ^property[=].valueCode = #active
 * #DEC23 "Pharmacologie clinique et Evaluation des thérapeutiques (DEC)"
 * #DEC23 ^designation.language = #fr-FR
 * #DEC23 ^designation.use.system = "http://snomed.info/sct"
@@ -232,6 +289,8 @@ Description: "Droit d'exercice complémentaire"
 * #DEC23 ^property[=].valueDateTime = "2015-05-29T15:58:30+01:00"
 * #DEC23 ^property[+].code = #dateMaj
 * #DEC23 ^property[=].valueDateTime = "2019-02-22T12:00:00+01:00"
+* #DEC23 ^property[+].code = #status
+* #DEC23 ^property[=].valueCode = #active
 * #DEC24 "Psychiatrie de l'enfant et de l'adolescent (DEC)"
 * #DEC24 ^designation.language = #fr-FR
 * #DEC24 ^designation.use = $sct#900000000000013009
@@ -240,3 +299,5 @@ Description: "Droit d'exercice complémentaire"
 * #DEC24 ^property[=].valueDateTime = "2015-05-29T15:58:30+01:00"
 * #DEC24 ^property[+].code = #dateMaj
 * #DEC24 ^property[=].valueDateTime = "2019-02-22T12:00:00+01:00"
+* #DEC24 ^property[+].code = #status
+* #DEC24 ^property[=].valueCode = #active

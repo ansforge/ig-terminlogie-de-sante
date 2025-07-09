@@ -1,8 +1,8 @@
 CodeSystem: TRE_R281_DisciplineEnseignement
 Id: TRE-R281-DisciplineEnseignement
 Description: "Disciplines pour l'enseignement"
-* ^meta.versionId = "5"
-* ^meta.lastUpdated = "2024-08-28T05:13:06.072+00:00"
+* ^meta.versionId = "6"
+* ^meta.lastUpdated = "2025-07-02T18:17:11.384+00:00"
 * ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablecodesystem"
 * ^extension.url = "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod"
 * ^extension.valuePeriod.start = "2018-10-26T12:00:00+01:00"
@@ -14,6 +14,7 @@ Description: "Disciplines pour l'enseignement"
 * ^experimental = false
 * ^date = "2024-03-29T12:00:00+01:00"
 * ^publisher = "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris"
+* ^jurisdiction = urn:iso:std:iso:3166#FR
 * ^caseSensitive = false
 * ^content = #complete
 * ^property[0].code = #dateValid
@@ -25,6 +26,18 @@ Description: "Disciplines pour l'enseignement"
 * ^property[+].code = #dateFin
 * ^property[=].description = "Date de fin d'exploitation d'un code concept"
 * ^property[=].type = #dateTime
+* ^property[+].code = #deprecationDate
+* ^property[=].uri = "http://hl7.org/fhir/concept-properties#deprecationDate"
+* ^property[=].description = "Date Concept was deprecated"
+* ^property[=].type = #dateTime
+* ^property[+].code = #status
+* ^property[=].uri = "http://hl7.org/fhir/concept-properties#status"
+* ^property[=].description = "A property that indicates the status of the concept."
+* ^property[=].type = #code
+* ^property[+].code = #retirementDate
+* ^property[=].uri = "http://hl7.org/fhir/concept-properties#retirementDate"
+* ^property[=].description = "Date Concept was retired"
+* ^property[=].type = #dateTime
 * #413 "Formation DE Ambulancier"
 * #413 ^designation.language = #fr-FR
 * #413 ^designation.use.system = "http://snomed.info/sct"
@@ -34,6 +47,8 @@ Description: "Disciplines pour l'enseignement"
 * #413 ^property[=].valueDateTime = "2018-10-26T12:00:00+01:00"
 * #413 ^property[+].code = #dateMaj
 * #413 ^property[=].valueDateTime = "2018-10-26T12:00:00+01:00"
+* #413 ^property[+].code = #status
+* #413 ^property[=].valueCode = #active
 * #414 "Formation DE Infirmier"
 * #414 ^designation.language = #fr-FR
 * #414 ^designation.use.system = "http://snomed.info/sct"
@@ -43,6 +58,8 @@ Description: "Disciplines pour l'enseignement"
 * #414 ^property[=].valueDateTime = "2018-10-26T12:00:00+01:00"
 * #414 ^property[+].code = #dateMaj
 * #414 ^property[=].valueDateTime = "2018-10-26T12:00:00+01:00"
+* #414 ^property[+].code = #status
+* #414 ^property[=].valueCode = #active
 * #415 "Formation DE Sage-Femme"
 * #415 ^designation.language = #fr-FR
 * #415 ^designation.use.system = "http://snomed.info/sct"
@@ -52,6 +69,8 @@ Description: "Disciplines pour l'enseignement"
 * #415 ^property[=].valueDateTime = "2018-10-26T12:00:00+01:00"
 * #415 ^property[+].code = #dateMaj
 * #415 ^property[=].valueDateTime = "2018-10-26T12:00:00+01:00"
+* #415 ^property[+].code = #status
+* #415 ^property[=].valueCode = #active
 * #416 "Formation DE Masseur-Kinésithérapeute"
 * #416 ^designation.language = #fr-FR
 * #416 ^designation.use.system = "http://snomed.info/sct"
@@ -61,6 +80,8 @@ Description: "Disciplines pour l'enseignement"
 * #416 ^property[=].valueDateTime = "2018-10-26T12:00:00+01:00"
 * #416 ^property[+].code = #dateMaj
 * #416 ^property[=].valueDateTime = "2018-10-26T12:00:00+01:00"
+* #416 ^property[+].code = #status
+* #416 ^property[=].valueCode = #active
 * #417 "Formation DE Technicien en laboratoire médical"
 * #417 ^designation.language = #fr-FR
 * #417 ^designation.use.system = "http://snomed.info/sct"
@@ -70,6 +91,8 @@ Description: "Disciplines pour l'enseignement"
 * #417 ^property[=].valueDateTime = "2018-10-26T12:00:00+01:00"
 * #417 ^property[+].code = #dateMaj
 * #417 ^property[=].valueDateTime = "2018-10-26T12:00:00+01:00"
+* #417 ^property[+].code = #status
+* #417 ^property[=].valueCode = #active
 * #418 "Formation DE Puéricultrice"
 * #418 ^designation.language = #fr-FR
 * #418 ^designation.use.system = "http://snomed.info/sct"
@@ -79,6 +102,8 @@ Description: "Disciplines pour l'enseignement"
 * #418 ^property[=].valueDateTime = "2018-10-26T12:00:00+01:00"
 * #418 ^property[+].code = #dateMaj
 * #418 ^property[=].valueDateTime = "2018-10-26T12:00:00+01:00"
+* #418 ^property[+].code = #status
+* #418 ^property[=].valueCode = #active
 * #419 "Formation DE Aide-Soignant"
 * #419 ^designation.language = #fr-FR
 * #419 ^designation.use.system = "http://snomed.info/sct"
@@ -88,6 +113,8 @@ Description: "Disciplines pour l'enseignement"
 * #419 ^property[=].valueDateTime = "2018-10-26T12:00:00+01:00"
 * #419 ^property[+].code = #dateMaj
 * #419 ^property[=].valueDateTime = "2018-10-26T12:00:00+01:00"
+* #419 ^property[+].code = #status
+* #419 ^property[=].valueCode = #active
 * #420 "Formation DE Pédicure-Podologue"
 * #420 ^designation.language = #fr-FR
 * #420 ^designation.use.system = "http://snomed.info/sct"
@@ -97,6 +124,8 @@ Description: "Disciplines pour l'enseignement"
 * #420 ^property[=].valueDateTime = "2018-10-26T12:00:00+01:00"
 * #420 ^property[+].code = #dateMaj
 * #420 ^property[=].valueDateTime = "2018-10-26T12:00:00+01:00"
+* #420 ^property[+].code = #status
+* #420 ^property[=].valueCode = #active
 * #421 "Formation DE ManipulateurElectro-radiologie médicale"
 * #421 ^designation.language = #fr-FR
 * #421 ^designation.use.system = "http://snomed.info/sct"
@@ -106,6 +135,8 @@ Description: "Disciplines pour l'enseignement"
 * #421 ^property[=].valueDateTime = "2018-10-26T12:00:00+01:00"
 * #421 ^property[+].code = #dateMaj
 * #421 ^property[=].valueDateTime = "2018-10-26T12:00:00+01:00"
+* #421 ^property[+].code = #status
+* #421 ^property[=].valueCode = #active
 * #422 "Formation DE Conseillère en Économie Sociale et Familiale"
 * #422 ^designation.language = #fr-FR
 * #422 ^designation.use.system = "http://snomed.info/sct"
@@ -115,6 +146,8 @@ Description: "Disciplines pour l'enseignement"
 * #422 ^property[=].valueDateTime = "2018-10-26T12:00:00+01:00"
 * #422 ^property[+].code = #dateMaj
 * #422 ^property[=].valueDateTime = "2018-10-26T12:00:00+01:00"
+* #422 ^property[+].code = #status
+* #422 ^property[=].valueCode = #active
 * #423 "Formation DE Ergothérapeute"
 * #423 ^designation.language = #fr-FR
 * #423 ^designation.use.system = "http://snomed.info/sct"
@@ -124,6 +157,8 @@ Description: "Disciplines pour l'enseignement"
 * #423 ^property[=].valueDateTime = "2018-10-26T12:00:00+01:00"
 * #423 ^property[+].code = #dateMaj
 * #423 ^property[=].valueDateTime = "2018-10-26T12:00:00+01:00"
+* #423 ^property[+].code = #status
+* #423 ^property[=].valueCode = #active
 * #424 "Formation DE Psychomotricien"
 * #424 ^designation.language = #fr-FR
 * #424 ^designation.use.system = "http://snomed.info/sct"
@@ -133,6 +168,8 @@ Description: "Disciplines pour l'enseignement"
 * #424 ^property[=].valueDateTime = "2018-10-26T12:00:00+01:00"
 * #424 ^property[+].code = #dateMaj
 * #424 ^property[=].valueDateTime = "2018-10-26T12:00:00+01:00"
+* #424 ^property[+].code = #status
+* #424 ^property[=].valueCode = #active
 * #425 "Formation DE Infirmier Anesthésiste"
 * #425 ^designation.language = #fr-FR
 * #425 ^designation.use.system = "http://snomed.info/sct"
@@ -142,6 +179,8 @@ Description: "Disciplines pour l'enseignement"
 * #425 ^property[=].valueDateTime = "2018-10-26T12:00:00+01:00"
 * #425 ^property[+].code = #dateMaj
 * #425 ^property[=].valueDateTime = "2018-10-26T12:00:00+01:00"
+* #425 ^property[+].code = #status
+* #425 ^property[=].valueCode = #active
 * #426 "Formation DE Infirmier Bloc Opératoire"
 * #426 ^designation.language = #fr-FR
 * #426 ^designation.use.system = "http://snomed.info/sct"
@@ -151,6 +190,8 @@ Description: "Disciplines pour l'enseignement"
 * #426 ^property[=].valueDateTime = "2018-10-26T12:00:00+01:00"
 * #426 ^property[+].code = #dateMaj
 * #426 ^property[=].valueDateTime = "2018-10-26T12:00:00+01:00"
+* #426 ^property[+].code = #status
+* #426 ^property[=].valueCode = #active
 * #427 "Formation Professionnel Secteur Psychiatrique"
 * #427 ^designation.language = #fr-FR
 * #427 ^designation.use.system = "http://snomed.info/sct"
@@ -162,6 +203,10 @@ Description: "Disciplines pour l'enseignement"
 * #427 ^property[=].valueDateTime = "2021-11-26T12:00:00+01:00"
 * #427 ^property[+].code = #dateMaj
 * #427 ^property[=].valueDateTime = "2021-11-26T12:00:00+01:00"
+* #427 ^property[+].code = #deprecationDate
+* #427 ^property[=].valueDateTime = "2021-11-26T12:00:00+01:00"
+* #427 ^property[+].code = #status
+* #427 ^property[=].valueCode = #deprecated
 * #428 "Formation Cadre de santé (Infirmier)"
 * #428 ^designation.language = #fr-FR
 * #428 ^designation.use.system = "http://snomed.info/sct"
@@ -171,6 +216,8 @@ Description: "Disciplines pour l'enseignement"
 * #428 ^property[=].valueDateTime = "2018-10-26T12:00:00+01:00"
 * #428 ^property[+].code = #dateMaj
 * #428 ^property[=].valueDateTime = "2018-10-26T12:00:00+01:00"
+* #428 ^property[+].code = #status
+* #428 ^property[=].valueCode = #active
 * #429 "Formation Cadres Infirmiers Secteur Psychiatrique"
 * #429 ^designation.language = #fr-FR
 * #429 ^designation.use.system = "http://snomed.info/sct"
@@ -182,6 +229,10 @@ Description: "Disciplines pour l'enseignement"
 * #429 ^property[=].valueDateTime = "2021-11-26T12:00:00+01:00"
 * #429 ^property[+].code = #dateMaj
 * #429 ^property[=].valueDateTime = "2021-11-26T12:00:00+01:00"
+* #429 ^property[+].code = #deprecationDate
+* #429 ^property[=].valueDateTime = "2021-11-26T12:00:00+01:00"
+* #429 ^property[+].code = #status
+* #429 ^property[=].valueCode = #deprecated
 * #430 "Formation Cadre de santé (Masseur-Kinésithérapeute)"
 * #430 ^designation.language = #fr-FR
 * #430 ^designation.use.system = "http://snomed.info/sct"
@@ -191,6 +242,8 @@ Description: "Disciplines pour l'enseignement"
 * #430 ^property[=].valueDateTime = "2018-10-26T12:00:00+01:00"
 * #430 ^property[+].code = #dateMaj
 * #430 ^property[=].valueDateTime = "2018-10-26T12:00:00+01:00"
+* #430 ^property[+].code = #status
+* #430 ^property[=].valueCode = #active
 * #431 "Formation Cadre de santé (Manip.Electro-Radiologie)"
 * #431 ^designation.language = #fr-FR
 * #431 ^designation.use.system = "http://snomed.info/sct"
@@ -200,6 +253,8 @@ Description: "Disciplines pour l'enseignement"
 * #431 ^property[=].valueDateTime = "2018-10-26T12:00:00+01:00"
 * #431 ^property[+].code = #dateMaj
 * #431 ^property[=].valueDateTime = "2018-10-26T12:00:00+01:00"
+* #431 ^property[+].code = #status
+* #431 ^property[=].valueCode = #active
 * #432 "Formation DE d'assistant de Service Social"
 * #432 ^designation.language = #fr-FR
 * #432 ^designation.use.system = "http://snomed.info/sct"
@@ -209,6 +264,8 @@ Description: "Disciplines pour l'enseignement"
 * #432 ^property[=].valueDateTime = "2018-10-26T12:00:00+01:00"
 * #432 ^property[+].code = #dateMaj
 * #432 ^property[=].valueDateTime = "2018-10-26T12:00:00+01:00"
+* #432 ^property[+].code = #status
+* #432 ^property[=].valueCode = #active
 * #433 "Formation DE d'éducateur spécialisé"
 * #433 ^designation.language = #fr-FR
 * #433 ^designation.use.system = "http://snomed.info/sct"
@@ -218,6 +275,8 @@ Description: "Disciplines pour l'enseignement"
 * #433 ^property[=].valueDateTime = "2018-10-26T12:00:00+01:00"
 * #433 ^property[+].code = #dateMaj
 * #433 ^property[=].valueDateTime = "2018-10-26T12:00:00+01:00"
+* #433 ^property[+].code = #status
+* #433 ^property[=].valueCode = #active
 * #434 "Formation DE technicien de l'intervention sociale familiale"
 * #434 ^designation.language = #fr-FR
 * #434 ^designation.use.system = "http://snomed.info/sct"
@@ -227,6 +286,8 @@ Description: "Disciplines pour l'enseignement"
 * #434 ^property[=].valueDateTime = "2018-10-26T12:00:00+01:00"
 * #434 ^property[+].code = #dateMaj
 * #434 ^property[=].valueDateTime = "2018-10-26T12:00:00+01:00"
+* #434 ^property[+].code = #status
+* #434 ^property[=].valueCode = #active
 * #435 "Formation DE d'éducateurs Jeunes Enfants"
 * #435 ^designation.language = #fr-FR
 * #435 ^designation.use.system = "http://snomed.info/sct"
@@ -236,6 +297,8 @@ Description: "Disciplines pour l'enseignement"
 * #435 ^property[=].valueDateTime = "2018-10-26T12:00:00+01:00"
 * #435 ^property[+].code = #dateMaj
 * #435 ^property[=].valueDateTime = "2018-10-26T12:00:00+01:00"
+* #435 ^property[+].code = #status
+* #435 ^property[=].valueCode = #active
 * #436 "Formation DE éducateur technique spécialisé"
 * #436 ^designation.language = #fr-FR
 * #436 ^designation.use.system = "http://snomed.info/sct"
@@ -245,6 +308,8 @@ Description: "Disciplines pour l'enseignement"
 * #436 ^property[=].valueDateTime = "2018-10-26T12:00:00+01:00"
 * #436 ^property[+].code = #dateMaj
 * #436 ^property[=].valueDateTime = "2018-10-26T12:00:00+01:00"
+* #436 ^property[+].code = #status
+* #436 ^property[=].valueCode = #active
 * #437 "Formation DE moniteur éducateurs"
 * #437 ^designation.language = #fr-FR
 * #437 ^designation.use.system = "http://snomed.info/sct"
@@ -254,6 +319,8 @@ Description: "Disciplines pour l'enseignement"
 * #437 ^property[=].valueDateTime = "2018-10-26T12:00:00+01:00"
 * #437 ^property[+].code = #dateMaj
 * #437 ^property[=].valueDateTime = "2018-10-26T12:00:00+01:00"
+* #437 ^property[+].code = #status
+* #437 ^property[=].valueCode = #active
 * #438 "Formation DE aide médico psychologique"
 * #438 ^designation.language = #fr-FR
 * #438 ^designation.use.system = "http://snomed.info/sct"
@@ -263,6 +330,8 @@ Description: "Disciplines pour l'enseignement"
 * #438 ^property[=].valueDateTime = "2018-10-26T12:00:00+01:00"
 * #438 ^property[+].code = #dateMaj
 * #438 ^property[=].valueDateTime = "2018-10-26T12:00:00+01:00"
+* #438 ^property[+].code = #status
+* #438 ^property[=].valueCode = #active
 * #439 "Formation DE fonction d'animation"
 * #439 ^designation.language = #fr-FR
 * #439 ^designation.use.system = "http://snomed.info/sct"
@@ -272,6 +341,8 @@ Description: "Disciplines pour l'enseignement"
 * #439 ^property[=].valueDateTime = "2018-10-26T12:00:00+01:00"
 * #439 ^property[+].code = #dateMaj
 * #439 ^property[=].valueDateTime = "2018-10-26T12:00:00+01:00"
+* #439 ^property[+].code = #status
+* #439 ^property[=].valueCode = #active
 * #440 "Formation CF Délégué Tutelle aux Prestations Sociales"
 * #440 ^designation.language = #fr-FR
 * #440 ^designation.use.system = "http://snomed.info/sct"
@@ -281,6 +352,8 @@ Description: "Disciplines pour l'enseignement"
 * #440 ^property[=].valueDateTime = "2018-10-26T12:00:00+01:00"
 * #440 ^property[+].code = #dateMaj
 * #440 ^property[=].valueDateTime = "2018-10-26T12:00:00+01:00"
+* #440 ^property[+].code = #status
+* #440 ^property[=].valueCode = #active
 * #441 "Formation DE Médiateur Familial"
 * #441 ^designation.language = #fr-FR
 * #441 ^designation.use.system = "http://snomed.info/sct"
@@ -290,6 +363,8 @@ Description: "Disciplines pour l'enseignement"
 * #441 ^property[=].valueDateTime = "2018-10-26T12:00:00+01:00"
 * #441 ^property[+].code = #dateMaj
 * #441 ^property[=].valueDateTime = "2018-10-26T12:00:00+01:00"
+* #441 ^property[+].code = #status
+* #441 ^property[=].valueCode = #active
 * #444 "Formation CA fonction encadrement unité intervention sociale"
 * #444 ^designation.language = #fr-FR
 * #444 ^designation.use.system = "http://snomed.info/sct"
@@ -299,6 +374,8 @@ Description: "Disciplines pour l'enseignement"
 * #444 ^property[=].valueDateTime = "2018-10-26T12:00:00+01:00"
 * #444 ^property[+].code = #dateMaj
 * #444 ^property[=].valueDateTime = "2018-10-26T12:00:00+01:00"
+* #444 ^property[+].code = #status
+* #444 ^property[=].valueCode = #active
 * #449 "Formation CA fonction directeur établissement social"
 * #449 ^designation.language = #fr-FR
 * #449 ^designation.use.system = "http://snomed.info/sct"
@@ -308,6 +385,8 @@ Description: "Disciplines pour l'enseignement"
 * #449 ^property[=].valueDateTime = "2018-10-26T12:00:00+01:00"
 * #449 ^property[+].code = #dateMaj
 * #449 ^property[=].valueDateTime = "2018-10-26T12:00:00+01:00"
+* #449 ^property[+].code = #status
+* #449 ^property[=].valueCode = #active
 * #453 "Formation Cadre de Santé (sans autre indication)"
 * #453 ^designation.language = #fr-FR
 * #453 ^designation.use.system = "http://snomed.info/sct"
@@ -317,6 +396,8 @@ Description: "Disciplines pour l'enseignement"
 * #453 ^property[=].valueDateTime = "2018-10-26T12:00:00+01:00"
 * #453 ^property[+].code = #dateMaj
 * #453 ^property[=].valueDateTime = "2018-10-26T12:00:00+01:00"
+* #453 ^property[+].code = #status
+* #453 ^property[=].valueCode = #active
 * #454 "Formation Cadre de santé (Sage-Femme)"
 * #454 ^designation.language = #fr-FR
 * #454 ^designation.use.system = "http://snomed.info/sct"
@@ -326,6 +407,8 @@ Description: "Disciplines pour l'enseignement"
 * #454 ^property[=].valueDateTime = "2018-10-26T12:00:00+01:00"
 * #454 ^property[+].code = #dateMaj
 * #454 ^property[=].valueDateTime = "2018-10-26T12:00:00+01:00"
+* #454 ^property[+].code = #status
+* #454 ^property[=].valueCode = #active
 * #456 "Formation DE Auxiliaire Puériculture"
 * #456 ^designation.language = #fr-FR
 * #456 ^designation.use.system = "http://snomed.info/sct"
@@ -335,6 +418,8 @@ Description: "Disciplines pour l'enseignement"
 * #456 ^property[=].valueDateTime = "2018-10-26T12:00:00+01:00"
 * #456 ^property[+].code = #dateMaj
 * #456 ^property[=].valueDateTime = "2018-10-26T12:00:00+01:00"
+* #456 ^property[+].code = #status
+* #456 ^property[=].valueCode = #active
 * #500 "Formation Personnels Admin.Santé Secteur Social"
 * #500 ^designation.language = #fr-FR
 * #500 ^designation.use.system = "http://snomed.info/sct"
@@ -344,6 +429,8 @@ Description: "Disciplines pour l'enseignement"
 * #500 ^property[=].valueDateTime = "2018-10-26T12:00:00+01:00"
 * #500 ^property[+].code = #dateMaj
 * #500 ^property[=].valueDateTime = "2018-10-26T12:00:00+01:00"
+* #500 ^property[+].code = #status
+* #500 ^property[=].valueCode = #active
 * #584 "Formation qualification Conseil Conjugal ou Familial"
 * #584 ^designation.language = #fr-FR
 * #584 ^designation.use.system = "http://snomed.info/sct"
@@ -353,6 +440,8 @@ Description: "Disciplines pour l'enseignement"
 * #584 ^property[=].valueDateTime = "2018-10-26T12:00:00+01:00"
 * #584 ^property[+].code = #dateMaj
 * #584 ^property[=].valueDateTime = "2018-10-26T12:00:00+01:00"
+* #584 ^property[+].code = #status
+* #584 ^property[=].valueCode = #active
 * #585 "Formation diplôme supérieur en Travail social"
 * #585 ^designation.language = #fr-FR
 * #585 ^designation.use.system = "http://snomed.info/sct"
@@ -362,6 +451,8 @@ Description: "Disciplines pour l'enseignement"
 * #585 ^property[=].valueDateTime = "2018-10-26T12:00:00+01:00"
 * #585 ^property[+].code = #dateMaj
 * #585 ^property[=].valueDateTime = "2018-10-26T12:00:00+01:00"
+* #585 ^property[+].code = #status
+* #585 ^property[=].valueCode = #active
 * #586 "Formation DE auxiliaire de vie sociale"
 * #586 ^designation.language = #fr-FR
 * #586 ^designation.use.system = "http://snomed.info/sct"
@@ -371,6 +462,8 @@ Description: "Disciplines pour l'enseignement"
 * #586 ^property[=].valueDateTime = "2018-10-26T12:00:00+01:00"
 * #586 ^property[+].code = #dateMaj
 * #586 ^property[=].valueDateTime = "2018-10-26T12:00:00+01:00"
+* #586 ^property[+].code = #status
+* #586 ^property[=].valueCode = #active
 * #587 "Formation DE Assistant Familial"
 * #587 ^designation.language = #fr-FR
 * #587 ^designation.use.system = "http://snomed.info/sct"
@@ -380,6 +473,8 @@ Description: "Disciplines pour l'enseignement"
 * #587 ^property[=].valueDateTime = "2018-10-26T12:00:00+01:00"
 * #587 ^property[+].code = #dateMaj
 * #587 ^property[=].valueDateTime = "2018-10-26T12:00:00+01:00"
+* #587 ^property[+].code = #status
+* #587 ^property[=].valueCode = #active
 * #588 "Formation DE Ingénierie Sociale"
 * #588 ^designation.language = #fr-FR
 * #588 ^designation.use.system = "http://snomed.info/sct"
@@ -389,6 +484,8 @@ Description: "Disciplines pour l'enseignement"
 * #588 ^property[=].valueDateTime = "2018-10-26T12:00:00+01:00"
 * #588 ^property[+].code = #dateMaj
 * #588 ^property[=].valueDateTime = "2018-10-26T12:00:00+01:00"
+* #588 ^property[+].code = #status
+* #588 ^property[=].valueCode = #active
 * #590 "Formation DE Accompagnant Éducatif et Social"
 * #590 ^designation.language = #fr-FR
 * #590 ^designation.use.system = "http://snomed.info/sct"
@@ -398,6 +495,8 @@ Description: "Disciplines pour l'enseignement"
 * #590 ^property[=].valueDateTime = "2018-10-26T12:00:00+01:00"
 * #590 ^property[+].code = #dateMaj
 * #590 ^property[=].valueDateTime = "2018-10-26T12:00:00+01:00"
+* #590 ^property[+].code = #status
+* #590 ^property[=].valueCode = #active
 * #591 "Formation DE Mandataire Judiciaire à la Protection des Majeurs"
 * #591 ^designation.language = #fr-FR
 * #591 ^designation.use.system = "http://snomed.info/sct"
@@ -407,6 +506,8 @@ Description: "Disciplines pour l'enseignement"
 * #591 ^property[=].valueDateTime = "2024-03-29T12:00:00+01:00"
 * #591 ^property[+].code = #dateMaj
 * #591 ^property[=].valueDateTime = "2024-03-29T12:00:00+01:00"
+* #591 ^property[+].code = #status
+* #591 ^property[=].valueCode = #active
 * #592 "Formation DE Délégué aux Prestations Familiales"
 * #592 ^designation.language = #fr-FR
 * #592 ^designation.use.system = "http://snomed.info/sct"
@@ -416,6 +517,8 @@ Description: "Disciplines pour l'enseignement"
 * #592 ^property[=].valueDateTime = "2024-03-29T12:00:00+01:00"
 * #592 ^property[+].code = #dateMaj
 * #592 ^property[=].valueDateTime = "2024-03-29T12:00:00+01:00"
+* #592 ^property[+].code = #status
+* #592 ^property[=].valueCode = #active
 * #597 "Formation Manipulateur Exploration Fonctionnelle"
 * #597 ^designation.language = #fr-FR
 * #597 ^designation.use.system = "http://snomed.info/sct"
@@ -425,6 +528,8 @@ Description: "Disciplines pour l'enseignement"
 * #597 ^property[=].valueDateTime = "2018-10-26T12:00:00+01:00"
 * #597 ^property[+].code = #dateMaj
 * #597 ^property[=].valueDateTime = "2018-10-26T12:00:00+01:00"
+* #597 ^property[+].code = #status
+* #597 ^property[=].valueCode = #active
 * #804 "Formation Cadre de santé (technicien LABM)"
 * #804 ^designation.language = #fr-FR
 * #804 ^designation.use.system = "http://snomed.info/sct"
@@ -434,6 +539,8 @@ Description: "Disciplines pour l'enseignement"
 * #804 ^property[=].valueDateTime = "2018-10-26T12:00:00+01:00"
 * #804 ^property[+].code = #dateMaj
 * #804 ^property[=].valueDateTime = "2018-10-26T12:00:00+01:00"
+* #804 ^property[+].code = #status
+* #804 ^property[=].valueCode = #active
 * #805 "Formation Cadre de santé (ergothérapeute)"
 * #805 ^designation.language = #fr-FR
 * #805 ^designation.use.system = "http://snomed.info/sct"
@@ -443,6 +550,8 @@ Description: "Disciplines pour l'enseignement"
 * #805 ^property[=].valueDateTime = "2018-10-26T12:00:00+01:00"
 * #805 ^property[+].code = #dateMaj
 * #805 ^property[=].valueDateTime = "2018-10-26T12:00:00+01:00"
+* #805 ^property[+].code = #status
+* #805 ^property[=].valueCode = #active
 * #880 "Formation Préparateur en Pharmacie Hospitalière"
 * #880 ^designation.language = #fr-FR
 * #880 ^designation.use.system = "http://snomed.info/sct"
@@ -452,6 +561,8 @@ Description: "Disciplines pour l'enseignement"
 * #880 ^property[=].valueDateTime = "2018-10-26T12:00:00+01:00"
 * #880 ^property[+].code = #dateMaj
 * #880 ^property[=].valueDateTime = "2018-10-26T12:00:00+01:00"
+* #880 ^property[+].code = #status
+* #880 ^property[=].valueCode = #active
 * #881 "Formation Cadre de Santé (diététicien)"
 * #881 ^designation.language = #fr-FR
 * #881 ^designation.use.system = "http://snomed.info/sct"
@@ -461,6 +572,8 @@ Description: "Disciplines pour l'enseignement"
 * #881 ^property[=].valueDateTime = "2018-10-26T12:00:00+01:00"
 * #881 ^property[+].code = #dateMaj
 * #881 ^property[=].valueDateTime = "2018-10-26T12:00:00+01:00"
+* #881 ^property[+].code = #status
+* #881 ^property[=].valueCode = #active
 * #882 "Formation Cadre de Santé (audioprothésiste)"
 * #882 ^designation.language = #fr-FR
 * #882 ^designation.use.system = "http://snomed.info/sct"
@@ -470,6 +583,8 @@ Description: "Disciplines pour l'enseignement"
 * #882 ^property[=].valueDateTime = "2018-10-26T12:00:00+01:00"
 * #882 ^property[+].code = #dateMaj
 * #882 ^property[=].valueDateTime = "2018-10-26T12:00:00+01:00"
+* #882 ^property[+].code = #status
+* #882 ^property[=].valueCode = #active
 * #883 "Formation Cadre de Santé (pédicure podologue)"
 * #883 ^designation.language = #fr-FR
 * #883 ^designation.use.system = "http://snomed.info/sct"
@@ -479,6 +594,8 @@ Description: "Disciplines pour l'enseignement"
 * #883 ^property[=].valueDateTime = "2018-10-26T12:00:00+01:00"
 * #883 ^property[+].code = #dateMaj
 * #883 ^property[=].valueDateTime = "2018-10-26T12:00:00+01:00"
+* #883 ^property[+].code = #status
+* #883 ^property[=].valueCode = #active
 * #884 "Formation Cadre de Santé (psychomotricien)"
 * #884 ^designation.language = #fr-FR
 * #884 ^designation.use.system = "http://snomed.info/sct"
@@ -488,6 +605,8 @@ Description: "Disciplines pour l'enseignement"
 * #884 ^property[=].valueDateTime = "2018-10-26T12:00:00+01:00"
 * #884 ^property[+].code = #dateMaj
 * #884 ^property[=].valueDateTime = "2018-10-26T12:00:00+01:00"
+* #884 ^property[+].code = #status
+* #884 ^property[=].valueCode = #active
 * #885 "Formation Cadre de Santé (opticien)"
 * #885 ^designation.language = #fr-FR
 * #885 ^designation.use.system = "http://snomed.info/sct"
@@ -497,6 +616,8 @@ Description: "Disciplines pour l'enseignement"
 * #885 ^property[=].valueDateTime = "2018-10-26T12:00:00+01:00"
 * #885 ^property[+].code = #dateMaj
 * #885 ^property[=].valueDateTime = "2018-10-26T12:00:00+01:00"
+* #885 ^property[+].code = #status
+* #885 ^property[=].valueCode = #active
 * #886 "Formation Cadre de Santé (orthophoniste)"
 * #886 ^designation.language = #fr-FR
 * #886 ^designation.use.system = "http://snomed.info/sct"
@@ -506,6 +627,8 @@ Description: "Disciplines pour l'enseignement"
 * #886 ^property[=].valueDateTime = "2018-10-26T12:00:00+01:00"
 * #886 ^property[+].code = #dateMaj
 * #886 ^property[=].valueDateTime = "2018-10-26T12:00:00+01:00"
+* #886 ^property[+].code = #status
+* #886 ^property[=].valueCode = #active
 * #887 "Formation Cadre de Santé (orthoptiste)"
 * #887 ^designation.language = #fr-FR
 * #887 ^designation.use.system = "http://snomed.info/sct"
@@ -515,6 +638,8 @@ Description: "Disciplines pour l'enseignement"
 * #887 ^property[=].valueDateTime = "2018-10-26T12:00:00+01:00"
 * #887 ^property[+].code = #dateMaj
 * #887 ^property[=].valueDateTime = "2018-10-26T12:00:00+01:00"
+* #887 ^property[+].code = #status
+* #887 ^property[=].valueCode = #active
 * #888 "Formation Cadre de Santé (préparateur pharmacie hospitalièr)"
 * #888 ^designation.language = #fr-FR
 * #888 ^designation.use = $sct#900000000000013009
@@ -523,3 +648,5 @@ Description: "Disciplines pour l'enseignement"
 * #888 ^property[=].valueDateTime = "2018-10-26T12:00:00+01:00"
 * #888 ^property[+].code = #dateMaj
 * #888 ^property[=].valueDateTime = "2018-10-26T12:00:00+01:00"
+* #888 ^property[+].code = #status
+* #888 ^property[=].valueCode = #active

@@ -1,9 +1,10 @@
 ValueSet: JDV_J93_RegionOM_RASS
 Id: JDV-J93-RegionOM-RASS
 Description: "Régions (outre-mer et Monaco inclus) dans le RASS"
-* ^meta.versionId = "4"
-* ^meta.lastUpdated = "2024-04-27T05:08:10.695+00:00"
+* ^meta.versionId = "5"
+* ^meta.lastUpdated = "2025-07-02T17:06:56.797+00:00"
 * ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablevalueset"
+* ^language = #fr-FR
 * ^extension.url = "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod"
 * ^extension.valuePeriod.start = "2019-08-30T12:00:00+01:00"
 * ^extension.valuePeriod.end = "2024-01-26T12:00:00+01:00"
@@ -15,6 +16,7 @@ Description: "Régions (outre-mer et Monaco inclus) dans le RASS"
 * ^experimental = false
 * ^date = "2024-01-26T12:00:00+01:00"
 * ^publisher = "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris"
+* ^jurisdiction = urn:iso:std:iso:3166#FR
 * $TRE-R30-RegionOM#01 "Guadeloupe"
 * $TRE-R30-RegionOM#02 "Martinique"
 * $TRE-R30-RegionOM#03 "Guyane"

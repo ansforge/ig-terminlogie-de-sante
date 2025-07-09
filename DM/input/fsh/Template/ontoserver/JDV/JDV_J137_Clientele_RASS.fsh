@@ -1,9 +1,10 @@
 ValueSet: JDV_J137_Clientele_RASS
 Id: JDV-J137-Clientele-RASS
 Description: "Population prise en charge par l'établissement dans le cadre"
-* ^meta.versionId = "5"
-* ^meta.lastUpdated = "2024-09-29T19:01:02.594+00:00"
+* ^meta.versionId = "6"
+* ^meta.lastUpdated = "2025-07-02T17:05:02.899+00:00"
 * ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablevalueset"
+* ^language = #fr-FR
 * ^extension.url = "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod"
 * ^extension.valuePeriod.start = "2020-11-27T12:00:00+01:00"
 * ^url = "https://mos.esante.gouv.fr/NOS/JDV_J137-Clientele-RASS/FHIR/JDV-J137-Clientele-RASS"
@@ -14,6 +15,7 @@ Description: "Population prise en charge par l'établissement dans le cadre"
 * ^experimental = false
 * ^date = "2024-09-27T12:00:00+01:00"
 * ^publisher = "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris"
+* ^jurisdiction = urn:iso:std:iso:3166#FR
 * $TRE-R279-Clientele#010 "Tous Types de Déficiences Pers.Handicap.(sans autre indic.)"
 * $TRE-R279-Clientele#011 "Handicap rare"
 * $TRE-R279-Clientele#040 "Aidants / aidés Personnes âgées"

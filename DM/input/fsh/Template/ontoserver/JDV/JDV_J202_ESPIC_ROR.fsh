@@ -1,9 +1,10 @@
 ValueSet: JDV_J202_ESPIC_ROR
 Id: JDV-J202-ESPIC-ROR
 Description: "Etablissement de santé privé d'intérêt collectif"
-* ^meta.versionId = "3"
-* ^meta.lastUpdated = "2024-04-27T05:07:15.842+00:00"
+* ^meta.versionId = "4"
+* ^meta.lastUpdated = "2025-07-02T17:05:44.697+00:00"
 * ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablevalueset"
+* ^language = #fr-FR
 * ^extension.url = "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod"
 * ^extension.valuePeriod.start = "2022-08-26T12:00:00+01:00"
 * ^url = "https://mos.esante.gouv.fr/NOS/JDV_J202-ESPIC-ROR/FHIR/JDV-J202-ESPIC-ROR"
@@ -14,6 +15,7 @@ Description: "Etablissement de santé privé d'intérêt collectif"
 * ^experimental = false
 * ^date = "2022-08-26T12:00:00+01:00"
 * ^publisher = "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris"
+* ^jurisdiction = urn:iso:std:iso:3166#FR
 * $TRE-R73-ESPIC#0 "Non concerné"
 * $TRE-R73-ESPIC#1 "Etablissement public de santé"
 * $TRE-R73-ESPIC#2 "PSPH par intégration"

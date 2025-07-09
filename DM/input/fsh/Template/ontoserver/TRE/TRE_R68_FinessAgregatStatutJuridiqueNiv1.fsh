@@ -1,8 +1,8 @@
 CodeSystem: TRE_R68_FinessAgregatStatutJuridiqueNiv1
 Id: TRE-R68-FinessAgregatStatutJuridiqueNiv1
 Description: "Agrégats de statuts juridiques FINESS niveau 1"
-* ^meta.versionId = "1"
-* ^meta.lastUpdated = "2024-08-28T05:14:07.558+00:00"
+* ^meta.versionId = "2"
+* ^meta.lastUpdated = "2025-07-02T18:18:41.253+00:00"
 * ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablecodesystem"
 * ^extension.url = "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod"
 * ^extension.valuePeriod.start = "1979-01-01T00:00:00+01:00"
@@ -14,6 +14,7 @@ Description: "Agrégats de statuts juridiques FINESS niveau 1"
 * ^experimental = false
 * ^date = "2023-12-15T12:00:00+01:00"
 * ^publisher = "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris"
+* ^jurisdiction = urn:iso:std:iso:3166#FR
 * ^caseSensitive = false
 * ^content = #complete
 * ^property[0].code = #dateValid
@@ -25,6 +26,18 @@ Description: "Agrégats de statuts juridiques FINESS niveau 1"
 * ^property[+].code = #dateFin
 * ^property[=].description = "Date de fin d'exploitation d'un code concept"
 * ^property[=].type = #dateTime
+* ^property[+].code = #deprecationDate
+* ^property[=].uri = "http://hl7.org/fhir/concept-properties#deprecationDate"
+* ^property[=].description = "Date Concept was deprecated"
+* ^property[=].type = #dateTime
+* ^property[+].code = #status
+* ^property[=].uri = "http://hl7.org/fhir/concept-properties#status"
+* ^property[=].description = "A property that indicates the status of the concept."
+* ^property[=].type = #code
+* ^property[+].code = #retirementDate
+* ^property[=].uri = "http://hl7.org/fhir/concept-properties#retirementDate"
+* ^property[=].description = "Date Concept was retired"
+* ^property[=].type = #dateTime
 * #1000 "Organismes et Etablissements Publics"
 * #1000 ^designation[0].language = #fr-FR
 * #1000 ^designation[=].use.system = "http://snomed.info/sct"
@@ -34,11 +47,15 @@ Description: "Agrégats de statuts juridiques FINESS niveau 1"
 * #1000 ^property[=].valueDateTime = "1979-01-01T00:00:00+01:00"
 * #1000 ^property[+].code = #dateMaj
 * #1000 ^property[=].valueDateTime = "1994-10-18T00:00:00+01:00"
+* #1000 ^property[+].code = #status
+* #1000 ^property[=].valueCode = #active
 * #2000 "Organismes Privés"
 * #2000 ^property[0].code = #dateValid
 * #2000 ^property[=].valueDateTime = "1979-01-01T00:00:00+01:00"
 * #2000 ^property[+].code = #dateMaj
 * #2000 ^property[=].valueDateTime = "1994-10-18T00:00:00+01:00"
+* #2000 ^property[+].code = #status
+* #2000 ^property[=].valueCode = #active
 * #3000 "Personne Morale de Droit Etranger"
 * #3000 ^designation[0].language = #fr-FR
 * #3000 ^designation[=].use = $sct#900000000000013009
@@ -50,3 +67,5 @@ Description: "Agrégats de statuts juridiques FINESS niveau 1"
 * #3000 ^property[=].valueDateTime = "1979-01-01T00:00:00+01:00"
 * #3000 ^property[+].code = #dateMaj
 * #3000 ^property[=].valueDateTime = "1994-10-18T00:00:00+01:00"
+* #3000 ^property[+].code = #status
+* #3000 ^property[=].valueCode = #active

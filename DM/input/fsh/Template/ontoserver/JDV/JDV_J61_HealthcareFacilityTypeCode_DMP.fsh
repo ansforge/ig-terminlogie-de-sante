@@ -1,9 +1,10 @@
 ValueSet: JDV_J61_HealthcareFacilityTypeCode_DMP
 Id: JDV-J61-HealthcareFacilityTypeCode-DMP
 Description: "Jeu de valeurs pour healthcareFacilityTypeCode"
-* ^meta.versionId = "5"
-* ^meta.lastUpdated = "2024-09-29T19:01:25.780+00:00"
+* ^meta.versionId = "6"
+* ^meta.lastUpdated = "2025-07-02T17:06:41.147+00:00"
 * ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablevalueset"
+* ^language = #fr-FR
 * ^extension.url = "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod"
 * ^extension.valuePeriod.start = "2019-01-18T12:00:00+01:00"
 * ^url = "https://mos.esante.gouv.fr/NOS/JDV_J61-HealthcareFacilityTypeCode-DMP/FHIR/JDV-J61-HealthcareFacilityTypeCode-DMP"
@@ -14,6 +15,7 @@ Description: "Jeu de valeurs pour healthcareFacilityTypeCode"
 * ^experimental = false
 * ^date = "2024-09-27T12:00:00+01:00"
 * ^publisher = "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris"
+* ^jurisdiction = urn:iso:std:iso:3166#FR
 * $TRE-A00-ProducteurDocNonPS#EXP_PATIENT "Expression personnelle du patient"
 * $TRE-A00-ProducteurDocNonPS#SNR "Service numérique référencé"
 * $TRE-R02-SecteurActivite#SA01 "Etablissement public de santé"

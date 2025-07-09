@@ -1,9 +1,10 @@
 ValueSet: JDV_J100_FinessStatutJuridique_RASS
 Id: JDV-J100-FinessStatutJuridique-RASS
 Description: "Statut juridique FINESS dans le RASS"
-* ^meta.versionId = "2"
-* ^meta.lastUpdated = "2024-04-27T05:06:04.465+00:00"
+* ^meta.versionId = "3"
+* ^meta.lastUpdated = "2025-07-02T17:04:37.970+00:00"
 * ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablevalueset"
+* ^language = #fr-FR
 * ^extension.url = "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod"
 * ^extension.valuePeriod.start = "2019-08-30T12:00:00+01:00"
 * ^url = "https://mos.esante.gouv.fr/NOS/JDV_J100-FinessStatutJuridique-RASS/FHIR/JDV-J100-FinessStatutJuridique-RASS"
@@ -14,6 +15,7 @@ Description: "Statut juridique FINESS dans le RASS"
 * ^experimental = false
 * ^date = "2020-04-24T12:00:00+01:00"
 * ^publisher = "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris"
+* ^jurisdiction = urn:iso:std:iso:3166#FR
 * $TRE-R72-FinessStatutJuridique#000 "En cours de vérification"
 * $TRE-R72-FinessStatutJuridique#01 "Etat"
 * $TRE-R72-FinessStatutJuridique#02 "Département"

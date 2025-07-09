@@ -1,9 +1,10 @@
 ValueSet: JDV_J06_XdsClassCode_CISIS
 Id: JDV-J06-XdsClassCode-CISIS
 Description: "XDS classCode CI-SIS"
-* ^meta.versionId = "3"
-* ^meta.lastUpdated = "2024-04-27T05:06:02.415+00:00"
+* ^meta.versionId = "4"
+* ^meta.lastUpdated = "2025-07-02T17:04:36.130+00:00"
 * ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablevalueset"
+* ^language = #fr-FR
 * ^extension.url = "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod"
 * ^extension.valuePeriod.start = "2012-11-12T00:00:00+01:00"
 * ^url = "https://mos.esante.gouv.fr/NOS/JDV_J06-XdsClassCode-CISIS/FHIR/JDV-J06-XdsClassCode-CISIS"
@@ -14,6 +15,7 @@ Description: "XDS classCode CI-SIS"
 * ^experimental = false
 * ^date = "2023-09-22T12:00:00+01:00"
 * ^publisher = "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris"
+* ^jurisdiction = urn:iso:std:iso:3166#FR
 * $TRE-A03-ClasseDocument#10 "Compte rendu"
 * $TRE-A03-ClasseDocument#11 "Synthèse"
 * $TRE-A03-ClasseDocument#31 "Imagerie médicale"

@@ -1,9 +1,10 @@
 ValueSet: JDV_J152_MethodBodyTemperature_ENS
 Id: JDV-J152-MethodBodyTemperature-ENS
 Description: "JDV pour la méthode de la mesure de la température"
-* ^meta.versionId = "3"
-* ^meta.lastUpdated = "2024-07-26T17:01:43.909+00:00"
+* ^meta.versionId = "4"
+* ^meta.lastUpdated = "2025-07-02T17:05:12.563+00:00"
 * ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablevalueset"
+* ^language = #fr-FR
 * ^extension.url = "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod"
 * ^extension.valuePeriod.start = "2021-04-30T12:00:00+01:00"
 * ^url = "https://mos.esante.gouv.fr/NOS/JDV_J152-MethodBodyTemperature-ENS/FHIR/JDV-J152-MethodBodyTemperature-ENS"
@@ -14,5 +15,6 @@ Description: "JDV pour la méthode de la mesure de la température"
 * ^experimental = false
 * ^date = "2024-07-26T12:00:00+01:00"
 * ^publisher = "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris"
+* ^jurisdiction = urn:iso:std:iso:3166#FR
 * $terminologie-emdn#V03010102 "THERMOMÈTRES NUMÉRIQUES"
 * $terminologie-emdn#V0301010202 "THERMOMÈTRES NUMÉRIQUES - MESURE SANS CONTACT"

@@ -1,8 +1,8 @@
 CodeSystem: TRE_R81_Civilite
 Id: TRE-R81-Civilite
 Description: "Civilité"
-* ^meta.versionId = "4"
-* ^meta.lastUpdated = "2024-08-28T05:14:13.447+00:00"
+* ^meta.versionId = "5"
+* ^meta.lastUpdated = "2025-07-02T18:19:14.696+00:00"
 * ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablecodesystem"
 * ^extension.url = "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod"
 * ^extension.valuePeriod.start = "2013-06-28T00:00:00+01:00"
@@ -14,6 +14,7 @@ Description: "Civilité"
 * ^experimental = false
 * ^date = "2023-12-15T12:00:00+01:00"
 * ^publisher = "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris"
+* ^jurisdiction = urn:iso:std:iso:3166#FR
 * ^caseSensitive = false
 * ^content = #complete
 * ^property[0].code = #dateValid
@@ -25,11 +26,25 @@ Description: "Civilité"
 * ^property[+].code = #dateFin
 * ^property[=].description = "Date de fin d'exploitation d'un code concept"
 * ^property[=].type = #dateTime
+* ^property[+].code = #deprecationDate
+* ^property[=].uri = "http://hl7.org/fhir/concept-properties#deprecationDate"
+* ^property[=].description = "Date Concept was deprecated"
+* ^property[=].type = #dateTime
+* ^property[+].code = #status
+* ^property[=].uri = "http://hl7.org/fhir/concept-properties#status"
+* ^property[=].description = "A property that indicates the status of the concept."
+* ^property[=].type = #code
+* ^property[+].code = #retirementDate
+* ^property[=].uri = "http://hl7.org/fhir/concept-properties#retirementDate"
+* ^property[=].description = "Date Concept was retired"
+* ^property[=].type = #dateTime
 * #M "Monsieur"
 * #M ^property[0].code = #dateValid
 * #M ^property[=].valueDateTime = "2007-07-25T15:04:35+01:00"
 * #M ^property[+].code = #dateMaj
 * #M ^property[=].valueDateTime = "2007-07-25T15:04:35+01:00"
+* #M ^property[+].code = #status
+* #M ^property[=].valueCode = #active
 * #MLLE "Mademoiselle"
 * #MLLE ^property[0].code = #dateValid
 * #MLLE ^property[=].valueDateTime = "2007-07-25T15:04:35+01:00"
@@ -37,8 +52,14 @@ Description: "Civilité"
 * #MLLE ^property[=].valueDateTime = "2016-09-01T00:00:00+01:00"
 * #MLLE ^property[+].code = #dateMaj
 * #MLLE ^property[=].valueDateTime = "2016-09-01T00:00:00+01:00"
+* #MLLE ^property[+].code = #deprecationDate
+* #MLLE ^property[=].valueDateTime = "2016-09-01T00:00:00+01:00"
+* #MLLE ^property[+].code = #status
+* #MLLE ^property[=].valueCode = #deprecated
 * #MME "Madame"
 * #MME ^property[0].code = #dateValid
 * #MME ^property[=].valueDateTime = "2007-07-25T15:04:35+01:00"
 * #MME ^property[+].code = #dateMaj
 * #MME ^property[=].valueDateTime = "2007-07-25T15:04:35+01:00"
+* #MME ^property[+].code = #status
+* #MME ^property[=].valueCode = #active

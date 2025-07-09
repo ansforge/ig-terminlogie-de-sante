@@ -1,9 +1,10 @@
 ValueSet: JDV_J166_Profession_EPARS
 Id: JDV-J166-Profession-EPARS
 Description: "Profession pour EPARS"
-* ^meta.versionId = "5"
-* ^meta.lastUpdated = "2025-02-10T16:05:59.389+00:00"
+* ^meta.versionId = "6"
+* ^meta.lastUpdated = "2025-07-02T17:05:23.134+00:00"
 * ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablevalueset"
+* ^language = #fr-FR
 * ^extension.url = "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod"
 * ^extension.valuePeriod.start = "2021-06-25T12:00:00+01:00"
 * ^url = "https://mos.esante.gouv.fr/NOS/JDV_J166-Profession-EPARS/FHIR/JDV-J166-Profession-EPARS"
@@ -14,6 +15,7 @@ Description: "Profession pour EPARS"
 * ^experimental = false
 * ^date = "2025-01-31T12:00:00+01:00"
 * ^publisher = "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris"
+* ^jurisdiction = urn:iso:std:iso:3166#FR
 * $TRE-G15-ProfessionSante#26 "Audioprothésiste"
 * $TRE-G15-ProfessionSante#28 "Opticien-Lunetier"
 * $TRE-G15-ProfessionSante#31 "Assistant dentaire"

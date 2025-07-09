@@ -1,8 +1,8 @@
 CodeSystem: TRE_R222_MediaTypeCorpsCDANonStructure
 Id: TRE-R222-MediaTypeCorpsCDANonStructure
 Description: "Identifiant des modèles de CDA non structurés"
-* ^meta.versionId = "4"
-* ^meta.lastUpdated = "2024-08-28T05:12:32.085+00:00"
+* ^meta.versionId = "5"
+* ^meta.lastUpdated = "2025-07-02T18:16:14.990+00:00"
 * ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablecodesystem"
 * ^extension.url = "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod"
 * ^extension.valuePeriod.start = "2016-09-01T00:00:00+01:00"
@@ -14,6 +14,7 @@ Description: "Identifiant des modèles de CDA non structurés"
 * ^experimental = false
 * ^date = "2023-12-15T12:00:00+01:00"
 * ^publisher = "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris"
+* ^jurisdiction = urn:iso:std:iso:3166#FR
 * ^caseSensitive = false
 * ^content = #complete
 * ^property[0].code = #dateValid
@@ -25,6 +26,18 @@ Description: "Identifiant des modèles de CDA non structurés"
 * ^property[+].code = #dateFin
 * ^property[=].description = "Date de fin d'exploitation d'un code concept"
 * ^property[=].type = #dateTime
+* ^property[+].code = #deprecationDate
+* ^property[=].uri = "http://hl7.org/fhir/concept-properties#deprecationDate"
+* ^property[=].description = "Date Concept was deprecated"
+* ^property[=].type = #dateTime
+* ^property[+].code = #status
+* ^property[=].uri = "http://hl7.org/fhir/concept-properties#status"
+* ^property[=].description = "A property that indicates the status of the concept."
+* ^property[=].type = #code
+* ^property[+].code = #retirementDate
+* ^property[=].uri = "http://hl7.org/fhir/concept-properties#retirementDate"
+* ^property[=].description = "Date Concept was retired"
+* ^property[=].type = #dateTime
 * #application/pdf "Document CDA à corps non structuré en Pdf/A-1"
 * #application/pdf ^designation.language = #fr-FR
 * #application/pdf ^designation.use.system = "http://snomed.info/sct"
@@ -34,6 +47,8 @@ Description: "Identifiant des modèles de CDA non structurés"
 * #application/pdf ^property[=].valueDateTime = "2016-09-01T00:00:00+01:00"
 * #application/pdf ^property[+].code = #dateMaj
 * #application/pdf ^property[=].valueDateTime = "2016-09-01T00:00:00+01:00"
+* #application/pdf ^property[+].code = #status
+* #application/pdf ^property[=].valueCode = #active
 * #text/plain "Document CDA à corps non structuré en texte brut"
 * #text/plain ^designation.language = #fr-FR
 * #text/plain ^designation.use.system = "http://snomed.info/sct"
@@ -43,6 +58,8 @@ Description: "Identifiant des modèles de CDA non structurés"
 * #text/plain ^property[=].valueDateTime = "2016-09-01T00:00:00+01:00"
 * #text/plain ^property[+].code = #dateMaj
 * #text/plain ^property[=].valueDateTime = "2016-09-01T00:00:00+01:00"
+* #text/plain ^property[+].code = #status
+* #text/plain ^property[=].valueCode = #active
 * #text/rtf "Document CDA à corps non structuré en format rtf"
 * #text/rtf ^designation.language = #fr-FR
 * #text/rtf ^designation.use.system = "http://snomed.info/sct"
@@ -52,6 +69,8 @@ Description: "Identifiant des modèles de CDA non structurés"
 * #text/rtf ^property[=].valueDateTime = "2016-09-01T00:00:00+01:00"
 * #text/rtf ^property[+].code = #dateMaj
 * #text/rtf ^property[=].valueDateTime = "2016-09-01T00:00:00+01:00"
+* #text/rtf ^property[+].code = #status
+* #text/rtf ^property[=].valueCode = #active
 * #image/jpeg "Document CDA à corps non structuré en format jpeg"
 * #image/jpeg ^designation.language = #fr-FR
 * #image/jpeg ^designation.use.system = "http://snomed.info/sct"
@@ -61,6 +80,8 @@ Description: "Identifiant des modèles de CDA non structurés"
 * #image/jpeg ^property[=].valueDateTime = "2016-09-01T00:00:00+01:00"
 * #image/jpeg ^property[+].code = #dateMaj
 * #image/jpeg ^property[=].valueDateTime = "2016-09-01T00:00:00+01:00"
+* #image/jpeg ^property[+].code = #status
+* #image/jpeg ^property[=].valueCode = #active
 * #image/tiff "Document CDA à corps non structuré en format tiff"
 * #image/tiff ^designation.language = #fr-FR
 * #image/tiff ^designation.use = $sct#900000000000013009
@@ -69,3 +90,5 @@ Description: "Identifiant des modèles de CDA non structurés"
 * #image/tiff ^property[=].valueDateTime = "2016-09-01T00:00:00+01:00"
 * #image/tiff ^property[+].code = #dateMaj
 * #image/tiff ^property[=].valueDateTime = "2016-09-01T00:00:00+01:00"
+* #image/tiff ^property[+].code = #status
+* #image/tiff ^property[=].valueCode = #active

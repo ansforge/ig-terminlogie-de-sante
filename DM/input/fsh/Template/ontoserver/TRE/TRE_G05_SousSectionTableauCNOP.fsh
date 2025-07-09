@@ -1,8 +1,8 @@
 CodeSystem: TRE_G05_SousSectionTableauCNOP
 Id: TRE-G05-SousSectionTableauCNOP
 Description: "Sous-Section du tableau de l'Ordre des Pharmaciens"
-* ^meta.versionId = "4"
-* ^meta.lastUpdated = "2024-08-28T05:10:48.044+00:00"
+* ^meta.versionId = "5"
+* ^meta.lastUpdated = "2025-07-02T18:11:37.813+00:00"
 * ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablecodesystem"
 * ^extension.url = "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod"
 * ^extension.valuePeriod.start = "2012-04-12T00:00:00+01:00"
@@ -14,6 +14,7 @@ Description: "Sous-Section du tableau de l'Ordre des Pharmaciens"
 * ^experimental = false
 * ^date = "2023-12-15T12:00:00+01:00"
 * ^publisher = "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris"
+* ^jurisdiction = urn:iso:std:iso:3166#FR
 * ^caseSensitive = false
 * ^content = #complete
 * ^property[0].code = #dateValid
@@ -25,6 +26,18 @@ Description: "Sous-Section du tableau de l'Ordre des Pharmaciens"
 * ^property[+].code = #dateFin
 * ^property[=].description = "Date de fin d'exploitation d'un code concept"
 * ^property[=].type = #dateTime
+* ^property[+].code = #deprecationDate
+* ^property[=].uri = "http://hl7.org/fhir/concept-properties#deprecationDate"
+* ^property[=].description = "Date Concept was deprecated"
+* ^property[=].type = #dateTime
+* ^property[+].code = #status
+* ^property[=].uri = "http://hl7.org/fhir/concept-properties#status"
+* ^property[=].description = "A property that indicates the status of the concept."
+* ^property[=].type = #code
+* ^property[+].code = #retirementDate
+* ^property[=].uri = "http://hl7.org/fhir/concept-properties#retirementDate"
+* ^property[=].description = "Date Concept was retired"
+* ^property[=].type = #dateTime
 * #A "Pharmacien titulaire d'officine"
 * #A ^designation.language = #fr-FR
 * #A ^designation.use.system = "http://snomed.info/sct"
@@ -34,6 +47,8 @@ Description: "Sous-Section du tableau de l'Ordre des Pharmaciens"
 * #A ^property[=].valueDateTime = "2000-12-19T00:00:00+01:00"
 * #A ^property[+].code = #dateMaj
 * #A ^property[=].valueDateTime = "2016-09-01T00:00:00+01:00"
+* #A ^property[+].code = #status
+* #A ^property[=].valueCode = #active
 * #B "Pharmacien d'entreprise - industrie"
 * #B ^designation.language = #fr-FR
 * #B ^designation.use.system = "http://snomed.info/sct"
@@ -43,6 +58,8 @@ Description: "Sous-Section du tableau de l'Ordre des Pharmaciens"
 * #B ^property[=].valueDateTime = "2000-12-19T00:00:00+01:00"
 * #B ^property[+].code = #dateMaj
 * #B ^property[=].valueDateTime = "2016-09-01T00:00:00+01:00"
+* #B ^property[+].code = #status
+* #B ^property[=].valueCode = #active
 * #C "Pharmacien d'entreprise - distribution"
 * #C ^designation.language = #fr-FR
 * #C ^designation.use.system = "http://snomed.info/sct"
@@ -52,6 +69,8 @@ Description: "Sous-Section du tableau de l'Ordre des Pharmaciens"
 * #C ^property[=].valueDateTime = "2000-12-19T00:00:00+01:00"
 * #C ^property[+].code = #dateMaj
 * #C ^property[=].valueDateTime = "2016-09-01T00:00:00+01:00"
+* #C ^property[+].code = #status
+* #C ^property[=].valueCode = #active
 * #D "Pharmacien adjoint, remplaçant ou gérant"
 * #D ^designation.language = #fr-FR
 * #D ^designation.use.system = "http://snomed.info/sct"
@@ -61,11 +80,15 @@ Description: "Sous-Section du tableau de l'Ordre des Pharmaciens"
 * #D ^property[=].valueDateTime = "2016-09-01T00:00:00+01:00"
 * #D ^property[+].code = #dateMaj
 * #D ^property[=].valueDateTime = "2016-09-01T00:00:00+01:00"
+* #D ^property[+].code = #status
+* #D ^property[=].valueCode = #active
 * #DA "Pharmacien adjoint"
 * #DA ^property[0].code = #dateValid
 * #DA ^property[=].valueDateTime = "2000-12-19T00:00:00+01:00"
 * #DA ^property[+].code = #dateMaj
 * #DA ^property[=].valueDateTime = "2019-10-01T12:00:00+01:00"
+* #DA ^property[+].code = #status
+* #DA ^property[=].valueCode = #active
 * #DH "Pharmacien d'établissement de santé"
 * #DH ^designation.language = #fr-FR
 * #DH ^designation.use.system = "http://snomed.info/sct"
@@ -77,6 +100,10 @@ Description: "Sous-Section du tableau de l'Ordre des Pharmaciens"
 * #DH ^property[=].valueDateTime = "2016-12-22T12:00:00+01:00"
 * #DH ^property[+].code = #dateMaj
 * #DH ^property[=].valueDateTime = "2016-12-22T12:00:00+01:00"
+* #DH ^property[+].code = #deprecationDate
+* #DH ^property[=].valueDateTime = "2016-12-22T12:00:00+01:00"
+* #DH ^property[+].code = #status
+* #DH ^property[=].valueCode = #deprecated
 * #DM "Pharmacien mutualiste ou minier"
 * #DM ^designation.language = #fr-FR
 * #DM ^designation.use.system = "http://snomed.info/sct"
@@ -86,6 +113,8 @@ Description: "Sous-Section du tableau de l'Ordre des Pharmaciens"
 * #DM ^property[=].valueDateTime = "2000-12-19T00:00:00+01:00"
 * #DM ^property[+].code = #dateMaj
 * #DM ^property[=].valueDateTime = "2019-10-01T12:00:00+01:00"
+* #DM ^property[+].code = #status
+* #DM ^property[=].valueCode = #active
 * #E "Pharmacien d'Outre-Mer"
 * #E ^designation.language = #fr-FR
 * #E ^designation.use.system = "http://snomed.info/sct"
@@ -95,6 +124,8 @@ Description: "Sous-Section du tableau de l'Ordre des Pharmaciens"
 * #E ^property[=].valueDateTime = "2000-12-19T00:00:00+01:00"
 * #E ^property[+].code = #dateMaj
 * #E ^property[=].valueDateTime = "2016-09-01T00:00:00+01:00"
+* #E ^property[+].code = #status
+* #E ^property[=].valueCode = #active
 * #EA "Pharmacien titulaire d'officine - OM"
 * #EA ^designation.language = #fr-FR
 * #EA ^designation.use.system = "http://snomed.info/sct"
@@ -104,6 +135,8 @@ Description: "Sous-Section du tableau de l'Ordre des Pharmaciens"
 * #EA ^property[=].valueDateTime = "2010-09-13T00:00:00+01:00"
 * #EA ^property[+].code = #dateMaj
 * #EA ^property[=].valueDateTime = "2016-09-01T00:00:00+01:00"
+* #EA ^property[+].code = #status
+* #EA ^property[=].valueCode = #active
 * #EB "Pharmacien d'entreprise - industrie - OM"
 * #EB ^designation.language = #fr-FR
 * #EB ^designation.use.system = "http://snomed.info/sct"
@@ -113,6 +146,8 @@ Description: "Sous-Section du tableau de l'Ordre des Pharmaciens"
 * #EB ^property[=].valueDateTime = "2010-09-13T00:00:00+01:00"
 * #EB ^property[+].code = #dateMaj
 * #EB ^property[=].valueDateTime = "2016-09-01T00:00:00+01:00"
+* #EB ^property[+].code = #status
+* #EB ^property[=].valueCode = #active
 * #EC "Pharmacien d'entreprise - distribution - OM"
 * #EC ^designation.language = #fr-FR
 * #EC ^designation.use.system = "http://snomed.info/sct"
@@ -122,16 +157,22 @@ Description: "Sous-Section du tableau de l'Ordre des Pharmaciens"
 * #EC ^property[=].valueDateTime = "2010-09-13T00:00:00+01:00"
 * #EC ^property[+].code = #dateMaj
 * #EC ^property[=].valueDateTime = "2016-09-01T00:00:00+01:00"
+* #EC ^property[+].code = #status
+* #EC ^property[=].valueCode = #active
 * #ED "Pharmacien adjoint - OM"
 * #ED ^property[0].code = #dateValid
 * #ED ^property[=].valueDateTime = "2010-09-13T00:00:00+01:00"
 * #ED ^property[+].code = #dateMaj
 * #ED ^property[=].valueDateTime = "2016-09-01T00:00:00+01:00"
+* #ED ^property[+].code = #status
+* #ED ^property[=].valueCode = #active
 * #EG "Pharmacien biologiste - OM"
 * #EG ^property[0].code = #dateValid
 * #EG ^property[=].valueDateTime = "2010-09-13T00:00:00+01:00"
 * #EG ^property[+].code = #dateMaj
 * #EG ^property[=].valueDateTime = "2016-09-01T00:00:00+01:00"
+* #EG ^property[+].code = #status
+* #EG ^property[=].valueCode = #active
 * #EH "Pharmacien d'établissement de santé - OM"
 * #EH ^designation.language = #fr-FR
 * #EH ^designation.use.system = "http://snomed.info/sct"
@@ -141,11 +182,15 @@ Description: "Sous-Section du tableau de l'Ordre des Pharmaciens"
 * #EH ^property[=].valueDateTime = "2010-09-13T00:00:00+01:00"
 * #EH ^property[+].code = #dateMaj
 * #EH ^property[=].valueDateTime = "2016-09-01T00:00:00+01:00"
+* #EH ^property[+].code = #status
+* #EH ^property[=].valueCode = #active
 * #G "Pharmacien biologiste"
 * #G ^property[0].code = #dateValid
 * #G ^property[=].valueDateTime = "2000-12-19T00:00:00+01:00"
 * #G ^property[+].code = #dateMaj
 * #G ^property[=].valueDateTime = "2016-09-01T00:00:00+01:00"
+* #G ^property[+].code = #status
+* #G ^property[=].valueCode = #active
 * #H "Pharmacien d'établissement de santé"
 * #H ^designation.language = #fr-FR
 * #H ^designation.use = $sct#900000000000013009
@@ -154,8 +199,12 @@ Description: "Sous-Section du tableau de l'Ordre des Pharmaciens"
 * #H ^property[=].valueDateTime = "2000-12-19T00:00:00+01:00"
 * #H ^property[+].code = #dateMaj
 * #H ^property[=].valueDateTime = "2016-09-01T00:00:00+01:00"
+* #H ^property[+].code = #status
+* #H ^property[=].valueCode = #active
 * #M "Pharmacien militaire"
 * #M ^property[0].code = #dateValid
 * #M ^property[=].valueDateTime = "2012-04-12T00:00:00+01:00"
 * #M ^property[+].code = #dateMaj
 * #M ^property[=].valueDateTime = "2016-09-01T00:00:00+01:00"
+* #M ^property[+].code = #status
+* #M ^property[=].valueCode = #active

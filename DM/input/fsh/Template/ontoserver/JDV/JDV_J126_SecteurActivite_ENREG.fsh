@@ -1,9 +1,10 @@
 ValueSet: JDV_J126_SecteurActivite_ENREG
 Id: JDV-J126-SecteurActivite-ENREG
 Description: "Table des Secteur d'activité des structures Siret uniquement utilisé par ENREG pour enregistrer les structures absentes des référentiels de l'ANS."
-* ^meta.versionId = "6"
-* ^meta.lastUpdated = "2025-05-26T17:00:32.496+00:00"
+* ^meta.versionId = "7"
+* ^meta.lastUpdated = "2025-07-02T17:04:55.408+00:00"
 * ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablevalueset"
+* ^language = #fr-FR
 * ^extension.url = "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod"
 * ^extension.valuePeriod.start = "2020-11-27T12:00:00+01:00"
 * ^url = "https://mos.esante.gouv.fr/NOS/JDV_J126-SecteurActivite-ENREG/FHIR/JDV-J126-SecteurActivite-ENREG"
@@ -14,6 +15,7 @@ Description: "Table des Secteur d'activité des structures Siret uniquement util
 * ^experimental = false
 * ^date = "2025-05-23T12:00:00+01:00"
 * ^publisher = "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris"
+* ^jurisdiction = urn:iso:std:iso:3166#FR
 * $TRE-R02-SecteurActivite#SA09 "Exercice en société"
 * $TRE-R02-SecteurActivite#SA10 "Transporteur sanitaire"
 * $TRE-R02-SecteurActivite#SA13 "Prévention et soins en entreprise"

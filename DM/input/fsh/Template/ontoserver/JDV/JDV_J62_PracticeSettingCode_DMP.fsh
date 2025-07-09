@@ -1,9 +1,10 @@
 ValueSet: JDV_J62_PracticeSettingCode_DMP
 Id: JDV-J62-PracticeSettingCode-DMP
 Description: "Jeu de valeurs pour practiceSettingCode"
-* ^meta.versionId = "3"
-* ^meta.lastUpdated = "2024-04-27T05:07:56.493+00:00"
+* ^meta.versionId = "4"
+* ^meta.lastUpdated = "2025-07-02T17:06:41.558+00:00"
 * ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablevalueset"
+* ^language = #fr-FR
 * ^extension.url = "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod"
 * ^extension.valuePeriod.start = "2019-01-18T12:00:00+01:00"
 * ^url = "https://mos.esante.gouv.fr/NOS/JDV_J62-PracticeSettingCode-DMP/FHIR/JDV-J62-PracticeSettingCode-DMP"
@@ -14,6 +15,7 @@ Description: "Jeu de valeurs pour practiceSettingCode"
 * ^experimental = false
 * ^date = "2023-09-22T12:00:00+01:00"
 * ^publisher = "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris"
+* ^jurisdiction = urn:iso:std:iso:3166#FR
 * $TRE-A00-ProducteurDocNonPS#EXP_PATIENT "Expression personnelle du patient"
 * $TRE-A00-ProducteurDocNonPS#SNR "Service numérique référencé"
 * $TRE-A01-CadreExercice#AMBULATOIRE "Ambulatoire"

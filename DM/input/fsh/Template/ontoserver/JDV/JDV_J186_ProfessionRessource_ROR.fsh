@@ -1,19 +1,21 @@
 ValueSet: JDV_J186_ProfessionRessource_ROR
 Id: JDV-J186-ProfessionRessource-ROR
 Description: "Profession Ressource des offres dans le ROR"
-* ^meta.versionId = "6"
-* ^meta.lastUpdated = "2025-05-26T17:00:34.881+00:00"
+* ^meta.versionId = "9"
+* ^meta.lastUpdated = "2025-07-02T17:05:36.499+00:00"
 * ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablevalueset"
+* ^language = #fr-FR
 * ^extension.url = "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod"
 * ^extension.valuePeriod.start = "2023-03-31T12:00:00+01:00"
 * ^url = "https://mos.esante.gouv.fr/NOS/JDV_J186-ProfessionRessource-ROR/FHIR/JDV-J186-ProfessionRessource-ROR"
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value = "urn:oid:1.2.250.1.213.3.4.19"
-* ^version = "20250523120000"
+* ^version = "20250623120000"
 * ^status = #active
 * ^experimental = false
-* ^date = "2025-05-23T12:00:00+01:00"
+* ^date = "2025-06-23T12:00:00+01:00"
 * ^publisher = "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris"
+* ^jurisdiction = urn:iso:std:iso:3166#FR
 * $TRE-G15-ProfessionSante#10 "Médecin"
 * $TRE-G15-ProfessionSante#21 "Pharmacien"
 * $TRE-G15-ProfessionSante#26 "Audioprothésiste"
@@ -160,3 +162,5 @@ Description: "Profession Ressource des offres dans le ROR"
 * $TRE-R356-ProfessionRessource#126 "Ophtalmologue pédiatrique"
 * $TRE-R356-ProfessionRessource#127 "Réanimateur néonatologiste"
 * $TRE-R356-ProfessionRessource#128 "Conseiller conjugal et familial"
+* $TRE-R356-ProfessionRessource#129 "Ergonome"
+* $TRE-R356-ProfessionRessource#130 "Psychologue du travail"

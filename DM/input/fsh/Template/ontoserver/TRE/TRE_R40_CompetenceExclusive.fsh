@@ -1,8 +1,8 @@
 CodeSystem: TRE_R40_CompetenceExclusive
 Id: TRE-R40-CompetenceExclusive
 Description: "Compétence exclusive"
-* ^meta.versionId = "4"
-* ^meta.lastUpdated = "2024-08-28T05:13:50.570+00:00"
+* ^meta.versionId = "5"
+* ^meta.lastUpdated = "2025-07-02T18:18:04.948+00:00"
 * ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablecodesystem"
 * ^extension.url = "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod"
 * ^extension.valuePeriod.start = "2013-06-28T00:00:00+01:00"
@@ -14,6 +14,7 @@ Description: "Compétence exclusive"
 * ^experimental = false
 * ^date = "2023-12-15T12:00:00+01:00"
 * ^publisher = "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris"
+* ^jurisdiction = urn:iso:std:iso:3166#FR
 * ^caseSensitive = false
 * ^content = #complete
 * ^property[0].code = #dateValid
@@ -25,6 +26,18 @@ Description: "Compétence exclusive"
 * ^property[+].code = #dateFin
 * ^property[=].description = "Date de fin d'exploitation d'un code concept"
 * ^property[=].type = #dateTime
+* ^property[+].code = #deprecationDate
+* ^property[=].uri = "http://hl7.org/fhir/concept-properties#deprecationDate"
+* ^property[=].description = "Date Concept was deprecated"
+* ^property[=].type = #dateTime
+* ^property[+].code = #status
+* ^property[=].uri = "http://hl7.org/fhir/concept-properties#status"
+* ^property[=].description = "A property that indicates the status of the concept."
+* ^property[=].type = #code
+* ^property[+].code = #retirementDate
+* ^property[=].uri = "http://hl7.org/fhir/concept-properties#retirementDate"
+* ^property[=].description = "Date Concept was retired"
+* ^property[=].type = #dateTime
 * #CEX22 "Gynécologie médicale et Obstétrique (CEX)"
 * #CEX22 ^designation.language = #fr-FR
 * #CEX22 ^designation.use.system = "http://snomed.info/sct"
@@ -34,6 +47,8 @@ Description: "Compétence exclusive"
 * #CEX22 ^property[=].valueDateTime = "2007-07-26T16:49:16+01:00"
 * #CEX22 ^property[+].code = #dateMaj
 * #CEX22 ^property[=].valueDateTime = "2016-09-01T00:00:00+01:00"
+* #CEX22 ^property[+].code = #status
+* #CEX22 ^property[=].valueCode = #active
 * #CEX24 "Gynécologie médicale (CEX)"
 * #CEX24 ^designation.language = #fr-FR
 * #CEX24 ^designation.use.system = "http://snomed.info/sct"
@@ -43,6 +58,8 @@ Description: "Compétence exclusive"
 * #CEX24 ^property[=].valueDateTime = "2007-07-26T16:49:16+01:00"
 * #CEX24 ^property[+].code = #dateMaj
 * #CEX24 ^property[=].valueDateTime = "2008-02-28T00:00:00+01:00"
+* #CEX24 ^property[+].code = #status
+* #CEX24 ^property[=].valueCode = #active
 * #CEX26 "Obstétrique (CEX)"
 * #CEX26 ^designation.language = #fr-FR
 * #CEX26 ^designation.use.system = "http://snomed.info/sct"
@@ -52,6 +69,8 @@ Description: "Compétence exclusive"
 * #CEX26 ^property[=].valueDateTime = "2007-07-26T16:49:16+01:00"
 * #CEX26 ^property[+].code = #dateMaj
 * #CEX26 ^property[=].valueDateTime = "2008-02-28T00:00:00+01:00"
+* #CEX26 ^property[+].code = #status
+* #CEX26 ^property[=].valueCode = #active
 * #CEX64 "Urologie (CEX)"
 * #CEX64 ^designation.language = #fr-FR
 * #CEX64 ^designation.use = $sct#900000000000013009
@@ -60,3 +79,5 @@ Description: "Compétence exclusive"
 * #CEX64 ^property[=].valueDateTime = "2007-07-26T16:49:16+01:00"
 * #CEX64 ^property[+].code = #dateMaj
 * #CEX64 ^property[=].valueDateTime = "2008-02-28T00:00:00+01:00"
+* #CEX64 ^property[+].code = #status
+* #CEX64 ^property[=].valueCode = #active

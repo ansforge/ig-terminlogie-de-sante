@@ -1,9 +1,10 @@
 ValueSet: JDV_J75_TypeAutorisation_RASS
 Id: JDV-J75-TypeAutorisation-RASS
 Description: "Type d'autorisation d'exercice pour accès à l'exercice de la profession du RASS"
-* ^meta.versionId = "9"
-* ^meta.lastUpdated = "2025-05-26T17:00:37.157+00:00"
+* ^meta.versionId = "10"
+* ^meta.lastUpdated = "2025-07-02T17:06:47.606+00:00"
 * ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablevalueset"
+* ^language = #fr-FR
 * ^extension.url = "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod"
 * ^extension.valuePeriod.start = "2019-08-30T12:00:00+01:00"
 * ^url = "https://mos.esante.gouv.fr/NOS/JDV_J75-TypeAutorisation-RASS/FHIR/JDV-J75-TypeAutorisation-RASS"
@@ -14,6 +15,7 @@ Description: "Type d'autorisation d'exercice pour accès à l'exercice de la pro
 * ^experimental = false
 * ^date = "2025-05-23T12:00:00+01:00"
 * ^publisher = "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris"
+* ^jurisdiction = urn:iso:std:iso:3166#FR
 * $TRE-R17-TypeAutorisation#AM00 "Autre type d'autorisation"
 * $TRE-R17-TypeAutorisation#AM01 "Autorisation de plein exercice"
 * $TRE-R17-TypeAutorisation#AM02 "Autorisation ministérielle d'exercice en qualité de PAC"

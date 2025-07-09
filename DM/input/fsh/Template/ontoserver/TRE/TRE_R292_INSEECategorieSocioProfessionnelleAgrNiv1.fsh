@@ -1,8 +1,8 @@
 CodeSystem: TRE_R292_INSEECategorieSocioProfessionnelleAgrNiv1
 Id: TRE-R292-INSEECategorieSocioProfessionnelleAgrNiv1
 Description: "Codes de niveau 1 des catégories socio-professionnelles de l'INSEE"
-* ^meta.versionId = "4"
-* ^meta.lastUpdated = "2024-08-28T05:13:12.174+00:00"
+* ^meta.versionId = "5"
+* ^meta.lastUpdated = "2025-07-02T18:17:17.064+00:00"
 * ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablecodesystem"
 * ^extension.url = "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod"
 * ^extension.valuePeriod.start = "2019-10-25T12:00:00+01:00"
@@ -14,6 +14,7 @@ Description: "Codes de niveau 1 des catégories socio-professionnelles de l'INSE
 * ^experimental = false
 * ^date = "2023-12-15T12:00:00+01:00"
 * ^publisher = "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris"
+* ^jurisdiction = urn:iso:std:iso:3166#FR
 * ^caseSensitive = false
 * ^content = #complete
 * ^property[0].code = #dateValid
@@ -25,6 +26,18 @@ Description: "Codes de niveau 1 des catégories socio-professionnelles de l'INSE
 * ^property[+].code = #dateFin
 * ^property[=].description = "Date de fin d'exploitation d'un code concept"
 * ^property[=].type = #dateTime
+* ^property[+].code = #deprecationDate
+* ^property[=].uri = "http://hl7.org/fhir/concept-properties#deprecationDate"
+* ^property[=].description = "Date Concept was deprecated"
+* ^property[=].type = #dateTime
+* ^property[+].code = #status
+* ^property[=].uri = "http://hl7.org/fhir/concept-properties#status"
+* ^property[=].description = "A property that indicates the status of the concept."
+* ^property[=].type = #code
+* ^property[+].code = #retirementDate
+* ^property[=].uri = "http://hl7.org/fhir/concept-properties#retirementDate"
+* ^property[=].description = "Date Concept was retired"
+* ^property[=].type = #dateTime
 * #1 "Agriculteurs exploitants"
 * #1 ^designation.language = #fr-FR
 * #1 ^designation.use.system = "http://snomed.info/sct"
@@ -34,6 +47,8 @@ Description: "Codes de niveau 1 des catégories socio-professionnelles de l'INSE
 * #1 ^property[=].valueDateTime = "2019-10-25T12:00:00+01:00"
 * #1 ^property[+].code = #dateMaj
 * #1 ^property[=].valueDateTime = "2019-10-25T12:00:00+01:00"
+* #1 ^property[+].code = #status
+* #1 ^property[=].valueCode = #active
 * #2 "Artisans, commerçants et chefs d'entreprise"
 * #2 ^designation.language = #fr-FR
 * #2 ^designation.use.system = "http://snomed.info/sct"
@@ -43,6 +58,8 @@ Description: "Codes de niveau 1 des catégories socio-professionnelles de l'INSE
 * #2 ^property[=].valueDateTime = "2019-10-25T12:00:00+01:00"
 * #2 ^property[+].code = #dateMaj
 * #2 ^property[=].valueDateTime = "2019-10-25T12:00:00+01:00"
+* #2 ^property[+].code = #status
+* #2 ^property[=].valueCode = #active
 * #3 "Cadres et professions intellectuelles supérieures"
 * #3 ^designation.language = #fr-FR
 * #3 ^designation.use.system = "http://snomed.info/sct"
@@ -52,6 +69,8 @@ Description: "Codes de niveau 1 des catégories socio-professionnelles de l'INSE
 * #3 ^property[=].valueDateTime = "2019-10-25T12:00:00+01:00"
 * #3 ^property[+].code = #dateMaj
 * #3 ^property[=].valueDateTime = "2019-10-25T12:00:00+01:00"
+* #3 ^property[+].code = #status
+* #3 ^property[=].valueCode = #active
 * #4 "Professions Intermédiaires"
 * #4 ^designation.language = #fr-FR
 * #4 ^designation.use.system = "http://snomed.info/sct"
@@ -61,6 +80,8 @@ Description: "Codes de niveau 1 des catégories socio-professionnelles de l'INSE
 * #4 ^property[=].valueDateTime = "2019-10-25T12:00:00+01:00"
 * #4 ^property[+].code = #dateMaj
 * #4 ^property[=].valueDateTime = "2019-10-25T12:00:00+01:00"
+* #4 ^property[+].code = #status
+* #4 ^property[=].valueCode = #active
 * #5 "Employés"
 * #5 ^designation.language = #fr-FR
 * #5 ^designation.use.system = "http://snomed.info/sct"
@@ -70,6 +91,8 @@ Description: "Codes de niveau 1 des catégories socio-professionnelles de l'INSE
 * #5 ^property[=].valueDateTime = "2019-10-25T12:00:00+01:00"
 * #5 ^property[+].code = #dateMaj
 * #5 ^property[=].valueDateTime = "2019-10-25T12:00:00+01:00"
+* #5 ^property[+].code = #status
+* #5 ^property[=].valueCode = #active
 * #6 "Ouvriers"
 * #6 ^designation.language = #fr-FR
 * #6 ^designation.use.system = "http://snomed.info/sct"
@@ -79,6 +102,8 @@ Description: "Codes de niveau 1 des catégories socio-professionnelles de l'INSE
 * #6 ^property[=].valueDateTime = "2019-10-25T12:00:00+01:00"
 * #6 ^property[+].code = #dateMaj
 * #6 ^property[=].valueDateTime = "2019-10-25T12:00:00+01:00"
+* #6 ^property[+].code = #status
+* #6 ^property[=].valueCode = #active
 * #7 "Retraités"
 * #7 ^designation.language = #fr-FR
 * #7 ^designation.use.system = "http://snomed.info/sct"
@@ -88,6 +113,8 @@ Description: "Codes de niveau 1 des catégories socio-professionnelles de l'INSE
 * #7 ^property[=].valueDateTime = "2019-10-25T12:00:00+01:00"
 * #7 ^property[+].code = #dateMaj
 * #7 ^property[=].valueDateTime = "2019-10-25T12:00:00+01:00"
+* #7 ^property[+].code = #status
+* #7 ^property[=].valueCode = #active
 * #8 "Autres personnes sans activité professionnelle"
 * #8 ^designation.language = #fr-FR
 * #8 ^designation.use = $sct#900000000000013009
@@ -96,3 +123,5 @@ Description: "Codes de niveau 1 des catégories socio-professionnelles de l'INSE
 * #8 ^property[=].valueDateTime = "2019-10-25T12:00:00+01:00"
 * #8 ^property[+].code = #dateMaj
 * #8 ^property[=].valueDateTime = "2019-10-25T12:00:00+01:00"
+* #8 ^property[+].code = #status
+* #8 ^property[=].valueCode = #active

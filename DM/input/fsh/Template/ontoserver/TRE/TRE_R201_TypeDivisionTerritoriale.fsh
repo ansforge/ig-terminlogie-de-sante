@@ -1,8 +1,8 @@
 CodeSystem: TRE_R201_TypeDivisionTerritoriale
 Id: TRE-R201-TypeDivisionTerritoriale
 Description: "Type de division territoriale"
-* ^meta.versionId = "4"
-* ^meta.lastUpdated = "2024-08-28T05:12:13.192+00:00"
+* ^meta.versionId = "5"
+* ^meta.lastUpdated = "2025-07-02T18:13:42.584+00:00"
 * ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablecodesystem"
 * ^extension.url = "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod"
 * ^extension.valuePeriod.start = "2015-03-25T00:00:00+01:00"
@@ -14,6 +14,7 @@ Description: "Type de division territoriale"
 * ^experimental = false
 * ^date = "2023-12-15T12:00:00+01:00"
 * ^publisher = "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris"
+* ^jurisdiction = urn:iso:std:iso:3166#FR
 * ^caseSensitive = false
 * ^content = #complete
 * ^property[0].code = #dateValid
@@ -25,33 +26,57 @@ Description: "Type de division territoriale"
 * ^property[+].code = #dateFin
 * ^property[=].description = "Date de fin d'exploitation d'un code concept"
 * ^property[=].type = #dateTime
+* ^property[+].code = #deprecationDate
+* ^property[=].uri = "http://hl7.org/fhir/concept-properties#deprecationDate"
+* ^property[=].description = "Date Concept was deprecated"
+* ^property[=].type = #dateTime
+* ^property[+].code = #status
+* ^property[=].uri = "http://hl7.org/fhir/concept-properties#status"
+* ^property[=].description = "A property that indicates the status of the concept."
+* ^property[=].type = #code
+* ^property[+].code = #retirementDate
+* ^property[=].uri = "http://hl7.org/fhir/concept-properties#retirementDate"
+* ^property[=].description = "Date Concept was retired"
+* ^property[=].type = #dateTime
 * #1 "Région"
 * #1 ^property[0].code = #dateValid
 * #1 ^property[=].valueDateTime = "2015-03-25T00:00:00+01:00"
 * #1 ^property[+].code = #dateMaj
 * #1 ^property[=].valueDateTime = "2018-04-27T12:00:00+01:00"
+* #1 ^property[+].code = #status
+* #1 ^property[=].valueCode = #active
 * #2 "Département"
 * #2 ^property[0].code = #dateValid
 * #2 ^property[=].valueDateTime = "2015-03-25T00:00:00+01:00"
 * #2 ^property[+].code = #dateMaj
 * #2 ^property[=].valueDateTime = "2018-04-27T12:00:00+01:00"
+* #2 ^property[+].code = #status
+* #2 ^property[=].valueCode = #active
 * #3 "Commune"
 * #3 ^property[0].code = #dateValid
 * #3 ^property[=].valueDateTime = "2015-03-25T00:00:00+01:00"
 * #3 ^property[+].code = #dateMaj
 * #3 ^property[=].valueDateTime = "2018-04-27T12:00:00+01:00"
+* #3 ^property[+].code = #status
+* #3 ^property[=].valueCode = #active
 * #4 "Territoire de Santé"
 * #4 ^property[0].code = #dateValid
 * #4 ^property[=].valueDateTime = "2015-03-25T00:00:00+01:00"
 * #4 ^property[+].code = #dateMaj
 * #4 ^property[=].valueDateTime = "2018-04-27T12:00:00+01:00"
+* #4 ^property[+].code = #status
+* #4 ^property[=].valueCode = #active
 * #5 "Pays"
 * #5 ^property[0].code = #dateValid
 * #5 ^property[=].valueDateTime = "2015-03-25T00:00:00+01:00"
 * #5 ^property[+].code = #dateMaj
 * #5 ^property[=].valueDateTime = "2018-04-27T12:00:00+01:00"
+* #5 ^property[+].code = #status
+* #5 ^property[=].valueCode = #active
 * #6 "Zone de Défense"
 * #6 ^property[0].code = #dateValid
 * #6 ^property[=].valueDateTime = "2018-04-27T12:00:00+01:00"
 * #6 ^property[+].code = #dateMaj
 * #6 ^property[=].valueDateTime = "2018-04-27T12:00:00+01:00"
+* #6 ^property[+].code = #status
+* #6 ^property[=].valueCode = #active

@@ -1,9 +1,10 @@
 ValueSet: JDV_J183_Diplome_EPARS
 Id: JDV-J183-Diplome-EPARS
 Description: "Diplômes pour l'application EPARS"
-* ^meta.versionId = "8"
-* ^meta.lastUpdated = "2024-09-29T19:01:13.795+00:00"
+* ^meta.versionId = "9"
+* ^meta.lastUpdated = "2025-07-02T17:05:35.228+00:00"
 * ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablevalueset"
+* ^language = #fr-FR
 * ^extension.url = "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod"
 * ^extension.valuePeriod.start = "2021-11-26T12:00:00+01:00"
 * ^url = "https://mos.esante.gouv.fr/NOS/JDV_J183-Diplome-EPARS/FHIR/JDV-J183-Diplome-EPARS"
@@ -14,6 +15,7 @@ Description: "Diplômes pour l'application EPARS"
 * ^experimental = false
 * ^date = "2024-09-27T12:00:00+01:00"
 * ^publisher = "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris"
+* ^jurisdiction = urn:iso:std:iso:3166#FR
 * $TRE-R48-DiplomeEtatFrancais#DE28 "DE Assistant de Service Social"
 * $TRE-R48-DiplomeEtatFrancais#DE29 "DE Audioprothésiste"
 * $TRE-R48-DiplomeEtatFrancais#DE30 "DE Ergothérapeute"

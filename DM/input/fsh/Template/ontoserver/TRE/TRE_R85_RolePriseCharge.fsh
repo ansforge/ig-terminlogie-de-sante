@@ -1,8 +1,8 @@
 CodeSystem: TRE_R85_RolePriseCharge
 Id: TRE-R85-RolePriseCharge
 Description: "Rôle dans la prise en charge des patients ou des usagers"
-* ^meta.versionId = "12"
-* ^meta.lastUpdated = "2025-03-31T18:11:31.880+00:00"
+* ^meta.versionId = "13"
+* ^meta.lastUpdated = "2025-07-02T18:19:17.085+00:00"
 * ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablecodesystem"
 * ^extension.url = "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod"
 * ^extension.valuePeriod.start = "2015-01-01T00:00:00+01:00"
@@ -14,6 +14,7 @@ Description: "Rôle dans la prise en charge des patients ou des usagers"
 * ^experimental = false
 * ^date = "2025-03-28T12:00:00+01:00"
 * ^publisher = "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris"
+* ^jurisdiction = urn:iso:std:iso:3166#FR
 * ^caseSensitive = false
 * ^content = #complete
 * ^property[0].code = #dateValid

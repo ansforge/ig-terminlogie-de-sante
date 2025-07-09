@@ -1,8 +1,8 @@
 CodeSystem: TRE_R74_ModeFixationTarifaire
 Id: TRE-R74-ModeFixationTarifaire
 Description: "Mode de fixation tarifaire"
-* ^meta.versionId = "6"
-* ^meta.lastUpdated = "2024-08-28T05:14:10.851+00:00"
+* ^meta.versionId = "7"
+* ^meta.lastUpdated = "2025-07-02T18:18:46.131+00:00"
 * ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablecodesystem"
 * ^extension.url = "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod"
 * ^extension.valuePeriod.start = "1999-11-02T00:00:00+01:00"
@@ -14,6 +14,7 @@ Description: "Mode de fixation tarifaire"
 * ^experimental = false
 * ^date = "2024-02-23T12:00:00+01:00"
 * ^publisher = "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris"
+* ^jurisdiction = urn:iso:std:iso:3166#FR
 * ^caseSensitive = false
 * ^content = #complete
 * ^property[0].code = #dateValid
@@ -25,6 +26,18 @@ Description: "Mode de fixation tarifaire"
 * ^property[+].code = #dateFin
 * ^property[=].description = "Date de fin d'exploitation d'un code concept"
 * ^property[=].type = #dateTime
+* ^property[+].code = #deprecationDate
+* ^property[=].uri = "http://hl7.org/fhir/concept-properties#deprecationDate"
+* ^property[=].description = "Date Concept was deprecated"
+* ^property[=].type = #dateTime
+* ^property[+].code = #status
+* ^property[=].uri = "http://hl7.org/fhir/concept-properties#status"
+* ^property[=].description = "A property that indicates the status of the concept."
+* ^property[=].type = #code
+* ^property[+].code = #retirementDate
+* ^property[=].uri = "http://hl7.org/fhir/concept-properties#retirementDate"
+* ^property[=].description = "Date Concept was retired"
+* ^property[=].type = #dateTime
 * #01 "Etablissement Tarif Libre"
 * #01 ^designation[0].language = #fr-FR
 * #01 ^designation[=].use.system = "http://snomed.info/sct"
@@ -34,6 +47,8 @@ Description: "Mode de fixation tarifaire"
 * #01 ^property[=].valueDateTime = "1999-11-02T00:00:00+01:00"
 * #01 ^property[+].code = #dateMaj
 * #01 ^property[=].valueDateTime = "2018-09-28T12:00:00+01:00"
+* #01 ^property[+].code = #status
+* #01 ^property[=].valueCode = #active
 * #02 "Autorité Ministérielle"
 * #02 ^designation[0].language = #fr-FR
 * #02 ^designation[=].use.system = "http://snomed.info/sct"
@@ -43,6 +58,8 @@ Description: "Mode de fixation tarifaire"
 * #02 ^property[=].valueDateTime = "1999-11-02T00:00:00+01:00"
 * #02 ^property[+].code = #dateMaj
 * #02 ^property[=].valueDateTime = "2018-09-28T12:00:00+01:00"
+* #02 ^property[+].code = #status
+* #02 ^property[=].valueCode = #active
 * #03 "ARS établissements Publics de santé dotation globale"
 * #03 ^designation[0].language = #fr-FR
 * #03 ^designation[=].use.system = "http://snomed.info/sct"
@@ -52,6 +69,8 @@ Description: "Mode de fixation tarifaire"
 * #03 ^property[=].valueDateTime = "1999-11-02T00:00:00+01:00"
 * #03 ^property[+].code = #dateMaj
 * #03 ^property[=].valueDateTime = "1999-09-21T00:00:00+01:00"
+* #03 ^property[+].code = #status
+* #03 ^property[=].valueCode = #active
 * #04 "ARS établissements PSPH dotation globale"
 * #04 ^designation[0].language = #fr-FR
 * #04 ^designation[=].use.system = "http://snomed.info/sct"
@@ -61,6 +80,8 @@ Description: "Mode de fixation tarifaire"
 * #04 ^property[=].valueDateTime = "1999-11-02T00:00:00+01:00"
 * #04 ^property[+].code = #dateMaj
 * #04 ^property[=].valueDateTime = "1999-09-21T00:00:00+01:00"
+* #04 ^property[+].code = #status
+* #04 ^property[=].valueCode = #active
 * #05 "ARS établissements médico-soc. non financés dotation globale"
 * #05 ^designation[0].language = #fr-FR
 * #05 ^designation[=].use.system = "http://snomed.info/sct"
@@ -74,6 +95,8 @@ Description: "Mode de fixation tarifaire"
 * #05 ^property[=].valueDateTime = "1999-11-02T00:00:00+01:00"
 * #05 ^property[+].code = #dateMaj
 * #05 ^property[=].valueDateTime = "2016-09-01T00:00:00+01:00"
+* #05 ^property[+].code = #status
+* #05 ^property[=].valueCode = #active
 * #06 "Tarif d'autorité"
 * #06 ^designation[0].language = #fr-FR
 * #06 ^designation[=].use.system = "http://snomed.info/sct"
@@ -83,6 +106,8 @@ Description: "Mode de fixation tarifaire"
 * #06 ^property[=].valueDateTime = "1999-11-02T00:00:00+01:00"
 * #06 ^property[+].code = #dateMaj
 * #06 ^property[=].valueDateTime = "1999-09-21T00:00:00+01:00"
+* #06 ^property[+].code = #status
+* #06 ^property[=].valueCode = #active
 * #07 "ARS établissements de santé non financés dotation globale"
 * #07 ^designation[0].language = #fr-FR
 * #07 ^designation[=].use.system = "http://snomed.info/sct"
@@ -96,6 +121,8 @@ Description: "Mode de fixation tarifaire"
 * #07 ^property[=].valueDateTime = "1999-11-02T00:00:00+01:00"
 * #07 ^property[+].code = #dateMaj
 * #07 ^property[=].valueDateTime = "1999-09-21T00:00:00+01:00"
+* #07 ^property[+].code = #status
+* #07 ^property[=].valueCode = #active
 * #08 "Président du Conseil Départemental ou métropole"
 * #08 ^designation[0].language = #fr-FR
 * #08 ^designation[=].use.system = "http://snomed.info/sct"
@@ -105,6 +132,8 @@ Description: "Mode de fixation tarifaire"
 * #08 ^property[=].valueDateTime = "1999-11-02T00:00:00+01:00"
 * #08 ^property[+].code = #dateMaj
 * #08 ^property[=].valueDateTime = "2024-02-23T12:00:00+01:00"
+* #08 ^property[+].code = #status
+* #08 ^property[=].valueCode = #active
 * #09 "ARS PCD mixte (2 arrêtés), habilité aide sociale"
 * #09 ^designation[0].language = #fr-FR
 * #09 ^designation[=].use.system = "http://snomed.info/sct"
@@ -114,6 +143,8 @@ Description: "Mode de fixation tarifaire"
 * #09 ^property[=].valueDateTime = "1999-11-02T00:00:00+01:00"
 * #09 ^property[+].code = #dateMaj
 * #09 ^property[=].valueDateTime = "2016-09-01T00:00:00+01:00"
+* #09 ^property[+].code = #status
+* #09 ^property[=].valueCode = #active
 * #10 "Autorité Conjointe Préfet ou ARS/PCD ou métropole (1 arrêté)"
 * #10 ^designation[0].language = #fr-FR
 * #10 ^designation[=].use.system = "http://snomed.info/sct"
@@ -123,6 +154,8 @@ Description: "Mode de fixation tarifaire"
 * #10 ^property[=].valueDateTime = "1999-11-02T00:00:00+01:00"
 * #10 ^property[+].code = #dateMaj
 * #10 ^property[=].valueDateTime = "2024-02-23T12:00:00+01:00"
+* #10 ^property[+].code = #status
+* #10 ^property[=].valueCode = #active
 * #11 "Tarifs ARS, PCD, hébergt libre"
 * #11 ^designation[0].language = #fr-FR
 * #11 ^designation[=].use.system = "http://snomed.info/sct"
@@ -136,6 +169,8 @@ Description: "Mode de fixation tarifaire"
 * #11 ^property[=].valueDateTime = "1999-11-02T00:00:00+01:00"
 * #11 ^property[+].code = #dateMaj
 * #11 ^property[=].valueDateTime = "2016-09-01T00:00:00+01:00"
+* #11 ^property[+].code = #status
+* #11 ^property[=].valueCode = #active
 * #14 "Organismes Nationaux de Sécurité Sociale"
 * #14 ^designation[0].language = #fr-FR
 * #14 ^designation[=].use.system = "http://snomed.info/sct"
@@ -145,6 +180,8 @@ Description: "Mode de fixation tarifaire"
 * #14 ^property[=].valueDateTime = "1999-11-02T00:00:00+01:00"
 * #14 ^property[+].code = #dateMaj
 * #14 ^property[=].valueDateTime = "2018-09-28T12:00:00+01:00"
+* #14 ^property[+].code = #status
+* #14 ^property[=].valueCode = #active
 * #15 "ARS privé hors PSPH sous dotation globale"
 * #15 ^designation[0].language = #fr-FR
 * #15 ^designation[=].use.system = "http://snomed.info/sct"
@@ -154,6 +191,8 @@ Description: "Mode de fixation tarifaire"
 * #15 ^property[=].valueDateTime = "1999-11-02T00:00:00+01:00"
 * #15 ^property[+].code = #dateMaj
 * #15 ^property[=].valueDateTime = "1999-01-12T00:00:00+01:00"
+* #15 ^property[+].code = #status
+* #15 ^property[=].valueCode = #active
 * #16 "CRAM homologué préfet de région"
 * #16 ^designation[0].language = #fr-FR
 * #16 ^designation[=].use.system = "http://snomed.info/sct"
@@ -165,6 +204,10 @@ Description: "Mode de fixation tarifaire"
 * #16 ^property[=].valueDateTime = "2001-12-31T00:00:00+01:00"
 * #16 ^property[+].code = #dateMaj
 * #16 ^property[=].valueDateTime = "2002-02-07T00:00:00+01:00"
+* #16 ^property[+].code = #deprecationDate
+* #16 ^property[=].valueDateTime = "2001-12-31T00:00:00+01:00"
+* #16 ^property[+].code = #status
+* #16 ^property[=].valueCode = #deprecated
 * #17 "Autorité mixte ARS PCD dotation globale"
 * #17 ^designation[0].language = #fr-FR
 * #17 ^designation[=].use.system = "http://snomed.info/sct"
@@ -174,6 +217,8 @@ Description: "Mode de fixation tarifaire"
 * #17 ^property[=].valueDateTime = "1999-11-02T00:00:00+01:00"
 * #17 ^property[+].code = #dateMaj
 * #17 ^property[=].valueDateTime = "2016-09-01T00:00:00+01:00"
+* #17 ^property[+].code = #status
+* #17 ^property[=].valueCode = #active
 * #18 "Autorité mixte ARS PCG Etab long séjour conv tripartite"
 * #18 ^designation[0].language = #fr-FR
 * #18 ^designation[=].use.system = "http://snomed.info/sct"
@@ -189,6 +234,10 @@ Description: "Mode de fixation tarifaire"
 * #18 ^property[=].valueDateTime = "2001-03-01T00:00:00+01:00"
 * #18 ^property[+].code = #dateMaj
 * #18 ^property[=].valueDateTime = "1999-09-21T00:00:00+01:00"
+* #18 ^property[+].code = #deprecationDate
+* #18 ^property[=].valueDateTime = "2001-03-01T00:00:00+01:00"
+* #18 ^property[+].code = #status
+* #18 ^property[=].valueCode = #deprecated
 * #19 "Autorité mixte préfet dpt PCG EHPA conv tripartite"
 * #19 ^designation[0].language = #fr-FR
 * #19 ^designation[=].use.system = "http://snomed.info/sct"
@@ -204,6 +253,10 @@ Description: "Mode de fixation tarifaire"
 * #19 ^property[=].valueDateTime = "2001-03-01T00:00:00+01:00"
 * #19 ^property[+].code = #dateMaj
 * #19 ^property[=].valueDateTime = "1999-09-21T00:00:00+01:00"
+* #19 ^property[+].code = #deprecationDate
+* #19 ^property[=].valueDateTime = "2001-03-01T00:00:00+01:00"
+* #19 ^property[+].code = #status
+* #19 ^property[=].valueCode = #deprecated
 * #20 "ARS PCG mixte, Accueil de jour PA, HAS"
 * #20 ^designation[0].language = #fr-FR
 * #20 ^designation[=].use.system = "http://snomed.info/sct"
@@ -215,6 +268,10 @@ Description: "Mode de fixation tarifaire"
 * #20 ^property[=].valueDateTime = "2015-04-24T00:00:00+01:00"
 * #20 ^property[+].code = #dateMaj
 * #20 ^property[=].valueDateTime = "2015-04-24T00:00:00+01:00"
+* #20 ^property[+].code = #deprecationDate
+* #20 ^property[=].valueDateTime = "2015-04-24T00:00:00+01:00"
+* #20 ^property[+].code = #status
+* #20 ^property[=].valueCode = #deprecated
 * #21 "ARS PCD mixte, Accueil de jour PA, HAS"
 * #21 ^designation[0].language = #fr-FR
 * #21 ^designation[=].use.system = "http://snomed.info/sct"
@@ -224,6 +281,8 @@ Description: "Mode de fixation tarifaire"
 * #21 ^property[=].valueDateTime = "2001-03-01T00:00:00+01:00"
 * #21 ^property[+].code = #dateMaj
 * #21 ^property[=].valueDateTime = "2016-09-01T00:00:00+01:00"
+* #21 ^property[+].code = #status
+* #21 ^property[=].valueCode = #active
 * #22 "Autorité mixte ARS PCD ESLD tripartite DG global"
 * #22 ^designation[0].language = #fr-FR
 * #22 ^designation[=].use.system = "http://snomed.info/sct"
@@ -233,6 +292,8 @@ Description: "Mode de fixation tarifaire"
 * #22 ^property[=].valueDateTime = "2001-03-01T00:00:00+01:00"
 * #22 ^property[+].code = #dateMaj
 * #22 ^property[=].valueDateTime = "2016-09-01T00:00:00+01:00"
+* #22 ^property[+].code = #status
+* #22 ^property[=].valueCode = #active
 * #23 "Autorité mixte ARS PCD ESLD tripartite DG partielle"
 * #23 ^designation[0].language = #fr-FR
 * #23 ^designation[=].use.system = "http://snomed.info/sct"
@@ -242,6 +303,8 @@ Description: "Mode de fixation tarifaire"
 * #23 ^property[=].valueDateTime = "2001-03-01T00:00:00+01:00"
 * #23 ^property[+].code = #dateMaj
 * #23 ^property[=].valueDateTime = "2016-09-01T00:00:00+01:00"
+* #23 ^property[+].code = #status
+* #23 ^property[=].valueCode = #active
 * #24 "ARS PCG mixte, Accueil de jour PA, nHAS, hébergement libre"
 * #24 ^designation[0].language = #fr-FR
 * #24 ^designation[=].use.system = "http://snomed.info/sct"
@@ -253,6 +316,10 @@ Description: "Mode de fixation tarifaire"
 * #24 ^property[=].valueDateTime = "2015-01-22T00:00:00+01:00"
 * #24 ^property[+].code = #dateMaj
 * #24 ^property[=].valueDateTime = "2015-01-22T00:00:00+01:00"
+* #24 ^property[+].code = #deprecationDate
+* #24 ^property[=].valueDateTime = "2015-01-22T00:00:00+01:00"
+* #24 ^property[+].code = #status
+* #24 ^property[=].valueCode = #deprecated
 * #25 "ARS PCD mixte, Accueil de jour PA, nHAS, hébergement libre"
 * #25 ^designation[0].language = #fr-FR
 * #25 ^designation[=].use.system = "http://snomed.info/sct"
@@ -262,6 +329,8 @@ Description: "Mode de fixation tarifaire"
 * #25 ^property[=].valueDateTime = "2001-03-01T00:00:00+01:00"
 * #25 ^property[+].code = #dateMaj
 * #25 ^property[=].valueDateTime = "2016-09-01T00:00:00+01:00"
+* #25 ^property[+].code = #status
+* #25 ^property[=].valueCode = #active
 * #26 "Logement Foyer convention partielle PAP (conv. EHPAD part.)"
 * #26 ^designation[0].language = #fr-FR
 * #26 ^designation[=].use.system = "http://snomed.info/sct"
@@ -277,6 +346,10 @@ Description: "Mode de fixation tarifaire"
 * #26 ^property[=].valueDateTime = "2014-07-07T00:00:00+01:00"
 * #26 ^property[+].code = #dateMaj
 * #26 ^property[=].valueDateTime = "2014-07-23T00:00:00+01:00"
+* #26 ^property[+].code = #deprecationDate
+* #26 ^property[=].valueDateTime = "2014-07-07T00:00:00+01:00"
+* #26 ^property[+].code = #status
+* #26 ^property[=].valueCode = #deprecated
 * #30 "Préfet de région établissements et services sociaux"
 * #30 ^designation[0].language = #fr-FR
 * #30 ^designation[=].use.system = "http://snomed.info/sct"
@@ -286,6 +359,8 @@ Description: "Mode de fixation tarifaire"
 * #30 ^property[=].valueDateTime = "2010-11-12T00:00:00+01:00"
 * #30 ^property[+].code = #dateMaj
 * #30 ^property[=].valueDateTime = "2016-09-01T00:00:00+01:00"
+* #30 ^property[+].code = #status
+* #30 ^property[=].valueCode = #active
 * #31 "Pdt Conseil Départemental-Subvention"
 * #31 ^designation[0].language = #fr-FR
 * #31 ^designation[=].use.system = "http://snomed.info/sct"
@@ -299,6 +374,8 @@ Description: "Mode de fixation tarifaire"
 * #31 ^property[=].valueDateTime = "2010-11-12T00:00:00+01:00"
 * #31 ^property[+].code = #dateMaj
 * #31 ^property[=].valueDateTime = "2018-09-28T12:00:00+01:00"
+* #31 ^property[+].code = #status
+* #31 ^property[=].valueCode = #active
 * #32 "Echelle tarifaire publique"
 * #32 ^designation[0].language = #fr-FR
 * #32 ^designation[=].use.system = "http://snomed.info/sct"
@@ -308,6 +385,8 @@ Description: "Mode de fixation tarifaire"
 * #32 ^property[=].valueDateTime = "2011-05-04T00:00:00+01:00"
 * #32 ^property[+].code = #dateMaj
 * #32 ^property[=].valueDateTime = "2011-05-13T00:00:00+01:00"
+* #32 ^property[+].code = #status
+* #32 ^property[=].valueCode = #active
 * #33 "Echelle tarifaire privée"
 * #33 ^designation[0].language = #fr-FR
 * #33 ^designation[=].use.system = "http://snomed.info/sct"
@@ -317,6 +396,8 @@ Description: "Mode de fixation tarifaire"
 * #33 ^property[=].valueDateTime = "2011-05-04T00:00:00+01:00"
 * #33 ^property[+].code = #dateMaj
 * #33 ^property[=].valueDateTime = "2011-05-13T00:00:00+01:00"
+* #33 ^property[+].code = #status
+* #33 ^property[=].valueCode = #active
 * #34 "ARS - DG dotation globale"
 * #34 ^designation[0].language = #fr-FR
 * #34 ^designation[=].use.system = "http://snomed.info/sct"
@@ -326,6 +407,8 @@ Description: "Mode de fixation tarifaire"
 * #34 ^property[=].valueDateTime = "2013-01-23T00:00:00+01:00"
 * #34 ^property[+].code = #dateMaj
 * #34 ^property[=].valueDateTime = "2013-01-23T00:00:00+01:00"
+* #34 ^property[+].code = #status
+* #34 ^property[=].valueCode = #active
 * #35 "Préfet de département Subvention"
 * #35 ^designation[0].language = #fr-FR
 * #35 ^designation[=].use.system = "http://snomed.info/sct"
@@ -335,6 +418,8 @@ Description: "Mode de fixation tarifaire"
 * #35 ^property[=].valueDateTime = "2016-09-01T00:00:00+01:00"
 * #35 ^property[+].code = #dateMaj
 * #35 ^property[=].valueDateTime = "2016-09-01T00:00:00+01:00"
+* #35 ^property[+].code = #status
+* #35 ^property[=].valueCode = #active
 * #36 "Tarifs conventionnels assurance maladie"
 * #36 ^designation[0].language = #fr-FR
 * #36 ^designation[=].use.system = "http://snomed.info/sct"
@@ -344,6 +429,8 @@ Description: "Mode de fixation tarifaire"
 * #36 ^property[=].valueDateTime = "2013-12-19T00:00:00+01:00"
 * #36 ^property[+].code = #dateMaj
 * #36 ^property[=].valueDateTime = "2013-12-19T00:00:00+01:00"
+* #36 ^property[+].code = #status
+* #36 ^property[=].valueCode = #active
 * #38 "Régime spécial de prévoyance"
 * #38 ^designation[0].language = #fr-FR
 * #38 ^designation[=].use.system = "http://snomed.info/sct"
@@ -353,6 +440,8 @@ Description: "Mode de fixation tarifaire"
 * #38 ^property[=].valueDateTime = "2021-11-26T12:00:00+01:00"
 * #38 ^property[+].code = #dateMaj
 * #38 ^property[=].valueDateTime = "2021-11-26T12:00:00+01:00"
+* #38 ^property[+].code = #status
+* #38 ^property[=].valueCode = #active
 * #40 "ARS-PCD, Tarif global, habilité aide sociale, recours PUI"
 * #40 ^designation[0].language = #fr-FR
 * #40 ^designation[=].use.system = "http://snomed.info/sct"
@@ -362,6 +451,8 @@ Description: "Mode de fixation tarifaire"
 * #40 ^property[=].valueDateTime = "2015-01-01T00:00:00+01:00"
 * #40 ^property[+].code = #dateMaj
 * #40 ^property[=].valueDateTime = "2016-09-01T00:00:00+01:00"
+* #40 ^property[+].code = #status
+* #40 ^property[=].valueCode = #active
 * #41 "ARS-PCD, Tarif global, habilité aide sociale sans PUI"
 * #41 ^designation[0].language = #fr-FR
 * #41 ^designation[=].use.system = "http://snomed.info/sct"
@@ -371,6 +462,8 @@ Description: "Mode de fixation tarifaire"
 * #41 ^property[=].valueDateTime = "2015-01-01T00:00:00+01:00"
 * #41 ^property[+].code = #dateMaj
 * #41 ^property[=].valueDateTime = "2016-09-01T00:00:00+01:00"
+* #41 ^property[+].code = #status
+* #41 ^property[=].valueCode = #active
 * #42 "ARS-PCD, Tarif global, non hab.aide sociale, recours PUI"
 * #42 ^designation[0].language = #fr-FR
 * #42 ^designation[=].use.system = "http://snomed.info/sct"
@@ -384,6 +477,8 @@ Description: "Mode de fixation tarifaire"
 * #42 ^property[=].valueDateTime = "2015-01-01T00:00:00+01:00"
 * #42 ^property[+].code = #dateMaj
 * #42 ^property[=].valueDateTime = "2016-09-01T00:00:00+01:00"
+* #42 ^property[+].code = #status
+* #42 ^property[=].valueCode = #active
 * #43 "ARS-PCD, Tarif global, non habilité aide sociale sans PUI"
 * #43 ^designation[0].language = #fr-FR
 * #43 ^designation[=].use.system = "http://snomed.info/sct"
@@ -393,6 +488,8 @@ Description: "Mode de fixation tarifaire"
 * #43 ^property[=].valueDateTime = "2015-01-01T00:00:00+01:00"
 * #43 ^property[+].code = #dateMaj
 * #43 ^property[=].valueDateTime = "2016-09-01T00:00:00+01:00"
+* #43 ^property[+].code = #status
+* #43 ^property[=].valueCode = #active
 * #44 "ARS-PCD, Tarif partiel, habilité aide sociale, recours PUI"
 * #44 ^designation[0].language = #fr-FR
 * #44 ^designation[=].use.system = "http://snomed.info/sct"
@@ -402,6 +499,8 @@ Description: "Mode de fixation tarifaire"
 * #44 ^property[=].valueDateTime = "2015-01-01T00:00:00+01:00"
 * #44 ^property[+].code = #dateMaj
 * #44 ^property[=].valueDateTime = "2016-09-01T00:00:00+01:00"
+* #44 ^property[+].code = #status
+* #44 ^property[=].valueCode = #active
 * #45 "ARS-PCD, Tarif partiel, habilité aide sociale sans PUI"
 * #45 ^designation[0].language = #fr-FR
 * #45 ^designation[=].use.system = "http://snomed.info/sct"
@@ -411,6 +510,8 @@ Description: "Mode de fixation tarifaire"
 * #45 ^property[=].valueDateTime = "2015-01-01T00:00:00+01:00"
 * #45 ^property[+].code = #dateMaj
 * #45 ^property[=].valueDateTime = "2016-09-01T00:00:00+01:00"
+* #45 ^property[+].code = #status
+* #45 ^property[=].valueCode = #active
 * #46 "ARS-PCD, Tarif partiel, non hab.aide sociale, recours PUI"
 * #46 ^designation[0].language = #fr-FR
 * #46 ^designation[=].use.system = "http://snomed.info/sct"
@@ -424,6 +525,8 @@ Description: "Mode de fixation tarifaire"
 * #46 ^property[=].valueDateTime = "2015-01-01T00:00:00+01:00"
 * #46 ^property[+].code = #dateMaj
 * #46 ^property[=].valueDateTime = "2016-09-01T00:00:00+01:00"
+* #46 ^property[+].code = #status
+* #46 ^property[=].valueCode = #active
 * #47 "ARS-PCD, Tarif partiel, non habilité aide sociale sans PUI"
 * #47 ^designation[0].language = #fr-FR
 * #47 ^designation[=].use.system = "http://snomed.info/sct"
@@ -433,6 +536,8 @@ Description: "Mode de fixation tarifaire"
 * #47 ^property[=].valueDateTime = "2015-01-01T00:00:00+01:00"
 * #47 ^property[+].code = #dateMaj
 * #47 ^property[=].valueDateTime = "2016-09-01T00:00:00+01:00"
+* #47 ^property[+].code = #status
+* #47 ^property[=].valueCode = #active
 * #48 "ARS-PCD, EHPA, dot globale de soins, habilité aide sociale"
 * #48 ^designation[0].language = #fr-FR
 * #48 ^designation[=].use.system = "http://snomed.info/sct"
@@ -446,6 +551,8 @@ Description: "Mode de fixation tarifaire"
 * #48 ^property[=].valueDateTime = "2015-01-01T00:00:00+01:00"
 * #48 ^property[+].code = #dateMaj
 * #48 ^property[=].valueDateTime = "2016-09-01T00:00:00+01:00"
+* #48 ^property[+].code = #status
+* #48 ^property[=].valueCode = #active
 * #49 "ARS-PCD, EHPA, dot globale soins, non habilité aide sociale"
 * #49 ^designation[0].language = #fr-FR
 * #49 ^designation[=].use.system = "http://snomed.info/sct"
@@ -458,6 +565,8 @@ Description: "Mode de fixation tarifaire"
 * #49 ^property[=].valueDateTime = "2015-01-01T00:00:00+01:00"
 * #49 ^property[+].code = #dateMaj
 * #49 ^property[=].valueDateTime = "2016-09-01T00:00:00+01:00"
+* #49 ^property[+].code = #status
+* #49 ^property[=].valueCode = #active
 * #50 "ARS-PCD, PUV, forfait soins, habilité aide sociale"
 * #50 ^designation[0].language = #fr-FR
 * #50 ^designation[=].use.system = "http://snomed.info/sct"
@@ -467,6 +576,8 @@ Description: "Mode de fixation tarifaire"
 * #50 ^property[=].valueDateTime = "2015-01-01T00:00:00+01:00"
 * #50 ^property[+].code = #dateMaj
 * #50 ^property[=].valueDateTime = "2016-09-01T00:00:00+01:00"
+* #50 ^property[+].code = #status
+* #50 ^property[=].valueCode = #active
 * #51 "ARS-PCD, PUV, forfait soins, non habilité aide sociale"
 * #51 ^designation[0].language = #fr-FR
 * #51 ^designation[=].use.system = "http://snomed.info/sct"
@@ -476,6 +587,8 @@ Description: "Mode de fixation tarifaire"
 * #51 ^property[=].valueDateTime = "2015-01-01T00:00:00+01:00"
 * #51 ^property[+].code = #dateMaj
 * #51 ^property[=].valueDateTime = "2016-09-01T00:00:00+01:00"
+* #51 ^property[+].code = #status
+* #51 ^property[=].valueCode = #active
 * #52 "ARS-PCD, LF, forfait soins, habilité aide sociale"
 * #52 ^designation[0].language = #fr-FR
 * #52 ^designation[=].use.system = "http://snomed.info/sct"
@@ -485,6 +598,8 @@ Description: "Mode de fixation tarifaire"
 * #52 ^property[=].valueDateTime = "2015-01-01T00:00:00+01:00"
 * #52 ^property[+].code = #dateMaj
 * #52 ^property[=].valueDateTime = "2016-09-01T00:00:00+01:00"
+* #52 ^property[+].code = #status
+* #52 ^property[=].valueCode = #active
 * #53 "ARS-PCD, LF, forfait soins, non habilité aide sociale"
 * #53 ^designation[0].language = #fr-FR
 * #53 ^designation[=].use.system = "http://snomed.info/sct"
@@ -494,6 +609,8 @@ Description: "Mode de fixation tarifaire"
 * #53 ^property[=].valueDateTime = "2015-01-01T00:00:00+01:00"
 * #53 ^property[+].code = #dateMaj
 * #53 ^property[=].valueDateTime = "2016-09-01T00:00:00+01:00"
+* #53 ^property[+].code = #status
+* #53 ^property[=].valueCode = #active
 * #54 "Tarif AM - Services de Soins Infirmiers A Domicile"
 * #54 ^designation[0].language = #fr-FR
 * #54 ^designation[=].use.system = "http://snomed.info/sct"
@@ -503,6 +620,8 @@ Description: "Mode de fixation tarifaire"
 * #54 ^property[=].valueDateTime = "2016-09-01T00:00:00+01:00"
 * #54 ^property[+].code = #dateMaj
 * #54 ^property[=].valueDateTime = "2018-09-28T12:00:00+01:00"
+* #54 ^property[+].code = #status
+* #54 ^property[=].valueCode = #active
 * #55 "ARS-PCD, PUV, convention SSIAD, non habilité à l'aide social"
 * #55 ^designation[0].language = #fr-FR
 * #55 ^designation[=].use.system = "http://snomed.info/sct"
@@ -512,6 +631,8 @@ Description: "Mode de fixation tarifaire"
 * #55 ^property[=].valueDateTime = "2018-09-28T12:00:00+01:00"
 * #55 ^property[+].code = #dateMaj
 * #55 ^property[=].valueDateTime = "2018-09-28T12:00:00+01:00"
+* #55 ^property[+].code = #status
+* #55 ^property[=].valueCode = #active
 * #56 "ARS-PCD, PUV, convention SSIAD, habilité à l'aide sociale"
 * #56 ^designation[0].language = #fr-FR
 * #56 ^designation[=].use.system = "http://snomed.info/sct"
@@ -521,6 +642,8 @@ Description: "Mode de fixation tarifaire"
 * #56 ^property[=].valueDateTime = "2018-09-28T12:00:00+01:00"
 * #56 ^property[+].code = #dateMaj
 * #56 ^property[=].valueDateTime = "2018-09-28T12:00:00+01:00"
+* #56 ^property[+].code = #status
+* #56 ^property[=].valueCode = #active
 * #57 "ARS /ARS PCD Dotation forfait ou prix de journée globalisés (CPOM)"
 * #57 ^designation[0].language = #fr-FR
 * #57 ^designation[=].use.system = "http://snomed.info/sct"
@@ -530,6 +653,8 @@ Description: "Mode de fixation tarifaire"
 * #57 ^property[=].valueDateTime = "2018-09-28T12:00:00+01:00"
 * #57 ^property[+].code = #dateMaj
 * #57 ^property[=].valueDateTime = "2020-01-31T12:00:00+01:00"
+* #57 ^property[+].code = #status
+* #57 ^property[=].valueCode = #active
 * #58 "ARS dotation forfait ou prix de journée globalisé hors CPOM"
 * #58 ^designation[0].language = #fr-FR
 * #58 ^designation[=].use = $sct#900000000000013009
@@ -538,8 +663,12 @@ Description: "Mode de fixation tarifaire"
 * #58 ^property[=].valueDateTime = "2018-09-28T12:00:00+01:00"
 * #58 ^property[+].code = #dateMaj
 * #58 ^property[=].valueDateTime = "2018-09-28T12:00:00+01:00"
+* #58 ^property[+].code = #status
+* #58 ^property[=].valueCode = #active
 * #99 "Indéterminé"
 * #99 ^property[0].code = #dateValid
 * #99 ^property[=].valueDateTime = "2002-01-01T00:00:00+01:00"
 * #99 ^property[+].code = #dateMaj
 * #99 ^property[=].valueDateTime = "2002-04-15T00:00:00+01:00"
+* #99 ^property[+].code = #status
+* #99 ^property[=].valueCode = #active

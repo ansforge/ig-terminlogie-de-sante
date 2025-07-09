@@ -1,8 +1,8 @@
 CodeSystem: TRE_R340_TypeCaracteristiqueEquipement
 Id: TRE-R340-TypeCaracteristiqueEquipement
 Description: "Type de caractéristique de l'équipement"
-* ^meta.versionId = "5"
-* ^meta.lastUpdated = "2024-08-28T05:13:37.958+00:00"
+* ^meta.versionId = "6"
+* ^meta.lastUpdated = "2025-07-02T18:17:41.300+00:00"
 * ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablecodesystem"
 * ^extension.url = "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod"
 * ^extension.valuePeriod.start = "2022-09-30T12:00:00+01:00"
@@ -14,6 +14,7 @@ Description: "Type de caractéristique de l'équipement"
 * ^experimental = false
 * ^date = "2024-03-29T12:00:00+01:00"
 * ^publisher = "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris"
+* ^jurisdiction = urn:iso:std:iso:3166#FR
 * ^caseSensitive = false
 * ^content = #complete
 * ^property[0].code = #dateValid
@@ -25,6 +26,18 @@ Description: "Type de caractéristique de l'équipement"
 * ^property[+].code = #dateFin
 * ^property[=].description = "Date de fin d'exploitation d'un code concept"
 * ^property[=].type = #dateTime
+* ^property[+].code = #deprecationDate
+* ^property[=].uri = "http://hl7.org/fhir/concept-properties#deprecationDate"
+* ^property[=].description = "Date Concept was deprecated"
+* ^property[=].type = #dateTime
+* ^property[+].code = #status
+* ^property[=].uri = "http://hl7.org/fhir/concept-properties#status"
+* ^property[=].description = "A property that indicates the status of the concept."
+* ^property[=].type = #code
+* ^property[+].code = #retirementDate
+* ^property[=].uri = "http://hl7.org/fhir/concept-properties#retirementDate"
+* ^property[=].description = "Date Concept was retired"
+* ^property[=].type = #dateTime
 * #001 "Poids maximum" "Poids maximum supporté par l'équipement"
 * #001 ^designation.language = #fr-FR
 * #001 ^designation.use.system = "http://snomed.info/sct"
@@ -34,6 +47,8 @@ Description: "Type de caractéristique de l'équipement"
 * #001 ^property[=].valueDateTime = "2022-09-30T12:00:00+01:00"
 * #001 ^property[+].code = #dateMaj
 * #001 ^property[=].valueDateTime = "2022-09-30T12:00:00+01:00"
+* #001 ^property[+].code = #status
+* #001 ^property[=].valueCode = #active
 * #002 "Diamètre maximum" "Diamètre maximum autorisé par l'équipement"
 * #002 ^designation.language = #fr-FR
 * #002 ^designation.use = $sct#900000000000013009
@@ -42,3 +57,5 @@ Description: "Type de caractéristique de l'équipement"
 * #002 ^property[=].valueDateTime = "2022-09-30T12:00:00+01:00"
 * #002 ^property[+].code = #dateMaj
 * #002 ^property[=].valueDateTime = "2022-09-30T12:00:00+01:00"
+* #002 ^property[+].code = #status
+* #002 ^property[=].valueCode = #active

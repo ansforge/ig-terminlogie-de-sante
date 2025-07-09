@@ -1,9 +1,10 @@
 ValueSet: JDV_J180_BesoinEntretienPersonnel_MDPH
 Id: JDV-J180-BesoinEntretienPersonnel-MDPH
 Description: "Caractérise les besoins d'aide de la personne en matière de scolarité, en lien avec l'entretien personnel"
-* ^meta.versionId = "3"
-* ^meta.lastUpdated = "2024-04-27T05:07:06.028+00:00"
+* ^meta.versionId = "4"
+* ^meta.lastUpdated = "2025-07-02T17:05:33.273+00:00"
 * ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablevalueset"
+* ^language = #fr-FR
 * ^extension.url = "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod"
 * ^extension.valuePeriod.start = "2021-09-24T12:00:00+01:00"
 * ^url = "https://mos.esante.gouv.fr/NOS/JDV_J180-BesoinEntretienPersonnel-MDPH/FHIR/JDV-J180-BesoinEntretienPersonnel-MDPH"
@@ -14,6 +15,7 @@ Description: "Caractérise les besoins d'aide de la personne en matière de scol
 * ^experimental = false
 * ^date = "2021-09-24T12:00:00+01:00"
 * ^publisher = "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris"
+* ^jurisdiction = urn:iso:std:iso:3166#FR
 * $TRE-R321-BesoinEntretienPersonnel#01 "Pour l'hygiène corporelle"
 * $TRE-R321-BesoinEntretienPersonnel#02 "Pour s'habiller"
 * $TRE-R321-BesoinEntretienPersonnel#03 "Pour les repas"

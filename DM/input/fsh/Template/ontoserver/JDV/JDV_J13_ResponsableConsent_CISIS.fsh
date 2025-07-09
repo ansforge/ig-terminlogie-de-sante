@@ -1,9 +1,10 @@
 ValueSet: JDV_J13_ResponsableConsent_CISIS
 Id: JDV-J13-ResponsableConsent-CISIS
 Description: "Responsable consentement - CI-SIS"
-* ^meta.versionId = "3"
-* ^meta.lastUpdated = "2024-04-27T05:06:40.644+00:00"
+* ^meta.versionId = "4"
+* ^meta.lastUpdated = "2025-07-02T17:05:04.456+00:00"
 * ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablevalueset"
+* ^language = #fr-FR
 * ^extension.url = "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod"
 * ^extension.valuePeriod.start = "2016-09-01T00:00:00+01:00"
 * ^url = "https://mos.esante.gouv.fr/NOS/JDV_J13-ResponsableConsent-CISIS/FHIR/JDV-J13-ResponsableConsent-CISIS"
@@ -14,6 +15,7 @@ Description: "Responsable consentement - CI-SIS"
 * ^experimental = false
 * ^date = "2020-04-24T12:00:00+01:00"
 * ^publisher = "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris"
+* ^jurisdiction = urn:iso:std:iso:3166#FR
 * $TRE-R216-HL7RoleCode#MTH "Mère"
 * $TRE-R216-HL7RoleCode#FTH "Père"
 * $TRE-R216-HL7RoleCode#STPMTH "Belle-mère - épouse du père ou de la mère"

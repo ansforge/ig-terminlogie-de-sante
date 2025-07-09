@@ -1,8 +1,8 @@
 CodeSystem: TRE_R269_AvailabilityStatusProvenanceOasis
 Id: TRE-R269-AvailabilityStatusProvenanceOasis
 Description: "Statut de l'objet provenant de la norme Oasis"
-* ^meta.versionId = "4"
-* ^meta.lastUpdated = "2024-08-28T05:12:58.515+00:00"
+* ^meta.versionId = "5"
+* ^meta.lastUpdated = "2025-07-02T18:16:54.822+00:00"
 * ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablecodesystem"
 * ^extension.url = "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod"
 * ^extension.valuePeriod.start = "2018-06-29T12:00:00+01:00"
@@ -14,6 +14,7 @@ Description: "Statut de l'objet provenant de la norme Oasis"
 * ^experimental = false
 * ^date = "2023-12-15T12:00:00+01:00"
 * ^publisher = "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris"
+* ^jurisdiction = urn:iso:std:iso:3166#FR
 * ^caseSensitive = false
 * ^content = #complete
 * ^property[0].code = #dateValid
@@ -25,6 +26,18 @@ Description: "Statut de l'objet provenant de la norme Oasis"
 * ^property[+].code = #dateFin
 * ^property[=].description = "Date de fin d'exploitation d'un code concept"
 * ^property[=].type = #dateTime
+* ^property[+].code = #deprecationDate
+* ^property[=].uri = "http://hl7.org/fhir/concept-properties#deprecationDate"
+* ^property[=].description = "Date Concept was deprecated"
+* ^property[=].type = #dateTime
+* ^property[+].code = #status
+* ^property[=].uri = "http://hl7.org/fhir/concept-properties#status"
+* ^property[=].description = "A property that indicates the status of the concept."
+* ^property[=].type = #code
+* ^property[+].code = #retirementDate
+* ^property[=].uri = "http://hl7.org/fhir/concept-properties#retirementDate"
+* ^property[=].description = "Date Concept was retired"
+* ^property[=].type = #dateTime
 * #urn:oasis:names:tc:ebxml-regrep:StatusType:Approved "Version à jour"
 * #urn:oasis:names:tc:ebxml-regrep:StatusType:Approved ^designation.language = #fr-FR
 * #urn:oasis:names:tc:ebxml-regrep:StatusType:Approved ^designation.use.system = "http://snomed.info/sct"
@@ -34,6 +47,8 @@ Description: "Statut de l'objet provenant de la norme Oasis"
 * #urn:oasis:names:tc:ebxml-regrep:StatusType:Approved ^property[=].valueDateTime = "2018-06-29T12:00:00+01:00"
 * #urn:oasis:names:tc:ebxml-regrep:StatusType:Approved ^property[+].code = #dateMaj
 * #urn:oasis:names:tc:ebxml-regrep:StatusType:Approved ^property[=].valueDateTime = "2018-06-29T12:00:00+01:00"
+* #urn:oasis:names:tc:ebxml-regrep:StatusType:Approved ^property[+].code = #status
+* #urn:oasis:names:tc:ebxml-regrep:StatusType:Approved ^property[=].valueCode = #active
 * #urn:oasis:names:tc:ebxml-regrep:StatusType:Deprecated "Version obsolète"
 * #urn:oasis:names:tc:ebxml-regrep:StatusType:Deprecated ^designation.language = #fr-FR
 * #urn:oasis:names:tc:ebxml-regrep:StatusType:Deprecated ^designation.use = $sct#900000000000013009
@@ -42,3 +57,5 @@ Description: "Statut de l'objet provenant de la norme Oasis"
 * #urn:oasis:names:tc:ebxml-regrep:StatusType:Deprecated ^property[=].valueDateTime = "2018-06-29T12:00:00+01:00"
 * #urn:oasis:names:tc:ebxml-regrep:StatusType:Deprecated ^property[+].code = #dateMaj
 * #urn:oasis:names:tc:ebxml-regrep:StatusType:Deprecated ^property[=].valueDateTime = "2018-06-29T12:00:00+01:00"
+* #urn:oasis:names:tc:ebxml-regrep:StatusType:Deprecated ^property[+].code = #status
+* #urn:oasis:names:tc:ebxml-regrep:StatusType:Deprecated ^property[=].valueCode = #active

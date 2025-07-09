@@ -1,8 +1,8 @@
 CodeSystem: TRE_R207_TypeOrganisationInterne
 Id: TRE-R207-TypeOrganisationInterne
 Description: "Type organisation interne"
-* ^meta.versionId = "4"
-* ^meta.lastUpdated = "2024-08-28T05:12:16.610+00:00"
+* ^meta.versionId = "5"
+* ^meta.lastUpdated = "2025-07-02T18:13:45.769+00:00"
 * ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablecodesystem"
 * ^extension.url = "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod"
 * ^extension.valuePeriod.start = "2015-03-25T00:00:00+01:00"
@@ -14,6 +14,7 @@ Description: "Type organisation interne"
 * ^experimental = false
 * ^date = "2023-12-15T12:00:00+01:00"
 * ^publisher = "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris"
+* ^jurisdiction = urn:iso:std:iso:3166#FR
 * ^caseSensitive = false
 * ^content = #complete
 * ^property[0].code = #dateValid
@@ -25,16 +26,32 @@ Description: "Type organisation interne"
 * ^property[+].code = #dateFin
 * ^property[=].description = "Date de fin d'exploitation d'un code concept"
 * ^property[=].type = #dateTime
+* ^property[+].code = #deprecationDate
+* ^property[=].uri = "http://hl7.org/fhir/concept-properties#deprecationDate"
+* ^property[=].description = "Date Concept was deprecated"
+* ^property[=].type = #dateTime
+* ^property[+].code = #status
+* ^property[=].uri = "http://hl7.org/fhir/concept-properties#status"
+* ^property[=].description = "A property that indicates the status of the concept."
+* ^property[=].type = #code
+* ^property[+].code = #retirementDate
+* ^property[=].uri = "http://hl7.org/fhir/concept-properties#retirementDate"
+* ^property[=].description = "Date Concept was retired"
+* ^property[=].type = #dateTime
 * #1 "Pôle"
 * #1 ^property[0].code = #dateValid
 * #1 ^property[=].valueDateTime = "2015-03-25T00:00:00+01:00"
 * #1 ^property[+].code = #dateMaj
 * #1 ^property[=].valueDateTime = "2015-03-25T00:00:00+01:00"
+* #1 ^property[+].code = #status
+* #1 ^property[=].valueCode = #active
 * #2 "Structure interne ou Service"
 * #2 ^property[0].code = #dateValid
 * #2 ^property[=].valueDateTime = "2015-03-25T00:00:00+01:00"
 * #2 ^property[+].code = #dateMaj
 * #2 ^property[=].valueDateTime = "2016-09-01T00:00:00+01:00"
+* #2 ^property[+].code = #status
+* #2 ^property[=].valueCode = #active
 * #3 "Unité fonctionnelle"
 * #3 ^designation.language = #fr-FR
 * #3 ^designation.use.system = "http://snomed.info/sct"
@@ -44,6 +61,8 @@ Description: "Type organisation interne"
 * #3 ^property[=].valueDateTime = "2015-03-25T00:00:00+01:00"
 * #3 ^property[+].code = #dateMaj
 * #3 ^property[=].valueDateTime = "2015-03-25T00:00:00+01:00"
+* #3 ^property[+].code = #status
+* #3 ^property[=].valueCode = #active
 * #4 "Unité élémentaire"
 * #4 ^designation.language = #fr-FR
 * #4 ^designation.use = $sct#900000000000013009
@@ -52,3 +71,5 @@ Description: "Type organisation interne"
 * #4 ^property[=].valueDateTime = "2015-03-25T00:00:00+01:00"
 * #4 ^property[+].code = #dateMaj
 * #4 ^property[=].valueDateTime = "2017-03-22T12:00:00+01:00"
+* #4 ^property[+].code = #status
+* #4 ^property[=].valueCode = #active

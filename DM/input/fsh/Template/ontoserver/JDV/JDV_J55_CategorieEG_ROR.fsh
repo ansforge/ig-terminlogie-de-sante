@@ -1,9 +1,10 @@
 ValueSet: JDV_J55_CategorieEG_ROR
 Id: JDV-J55-CategorieEG-ROR
 Description: "Catégories d'établissements FINESS ou hors FINESS et secteurs d'activité des cabinets"
-* ^meta.versionId = "14"
-* ^meta.lastUpdated = "2025-04-25T17:01:54.660+00:00"
+* ^meta.versionId = "15"
+* ^meta.lastUpdated = "2025-07-02T17:06:37.014+00:00"
 * ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablevalueset"
+* ^language = #fr-FR
 * ^extension.url = "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod"
 * ^extension.valuePeriod.start = "2019-01-25T12:00:00+01:00"
 * ^url = "https://mos.esante.gouv.fr/NOS/JDV_J55-CategorieEG-ROR/FHIR/JDV-J55-CategorieEG-ROR"
@@ -14,6 +15,7 @@ Description: "Catégories d'établissements FINESS ou hors FINESS et secteurs d'
 * ^experimental = false
 * ^date = "2025-04-25T12:00:00+01:00"
 * ^publisher = "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris"
+* ^jurisdiction = urn:iso:std:iso:3166#FR
 * $TRE-R66-CategorieEtablissement#101 "Centre hospitalier régional (CHR)"
 * $TRE-R66-CategorieEtablissement#106 "Centre hospitalier (ex Hôpital local)"
 * $TRE-R66-CategorieEtablissement#109 "Etablissement de santé privé autorisé en soins de suite et de réadaptation (SSR)"

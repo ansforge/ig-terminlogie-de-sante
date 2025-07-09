@@ -1,9 +1,10 @@
 ValueSet: JDV_J65_SubjectRole_DMP
 Id: JDV-J65-SubjectRole-DMP
 Description: "Jeu de valeurs pour subjectRole"
-* ^meta.versionId = "6"
-* ^meta.lastUpdated = "2024-09-29T19:01:27.996+00:00"
+* ^meta.versionId = "7"
+* ^meta.lastUpdated = "2025-07-02T17:06:43.421+00:00"
 * ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablevalueset"
+* ^language = #fr-FR
 * ^extension.url = "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod"
 * ^extension.valuePeriod.start = "2019-01-18T12:00:00+01:00"
 * ^url = "https://mos.esante.gouv.fr/NOS/JDV_J65-SubjectRole-DMP/FHIR/JDV-J65-SubjectRole-DMP"
@@ -14,6 +15,7 @@ Description: "Jeu de valeurs pour subjectRole"
 * ^experimental = false
 * ^date = "2024-09-27T12:00:00+01:00"
 * ^publisher = "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris"
+* ^jurisdiction = urn:iso:std:iso:3166#FR
 * $TRE-A00-ProducteurDocNonPS#ALIM_AM "Alimentation automatique à partir du Système d'Information de l'Assurance Maladie"
 * $TRE-A00-ProducteurDocNonPS#DISPOSITIF "Dispositif médical"
 * $TRE-A00-ProducteurDocNonPS#EXP_PATIENT "Expression personnelle du patient"

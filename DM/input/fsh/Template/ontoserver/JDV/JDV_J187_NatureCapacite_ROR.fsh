@@ -1,9 +1,10 @@
 ValueSet: JDV_J187_NatureCapacite_ROR
 Id: JDV-J187-NatureCapacite-ROR
 Description: "Permet d'indiquer dans le ROR si la capacité est exprimée en lits ou en places"
-* ^meta.versionId = "3"
-* ^meta.lastUpdated = "2024-04-27T05:07:08.736+00:00"
+* ^meta.versionId = "4"
+* ^meta.lastUpdated = "2025-07-02T17:05:36.897+00:00"
 * ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablevalueset"
+* ^language = #fr-FR
 * ^extension.url = "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod"
 * ^extension.valuePeriod.start = "2022-05-27T12:00:00+01:00"
 * ^url = "https://mos.esante.gouv.fr/NOS/JDV_J187-NatureCapacite-ROR/FHIR/JDV-J187-NatureCapacite-ROR"
@@ -14,5 +15,6 @@ Description: "Permet d'indiquer dans le ROR si la capacité est exprimée en lit
 * ^experimental = false
 * ^date = "2022-05-27T12:00:00+01:00"
 * ^publisher = "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris"
+* ^jurisdiction = urn:iso:std:iso:3166#FR
 * $TRE-R329-NatureCapacite#01 "Lit"
 * $TRE-R329-NatureCapacite#02 "Place"

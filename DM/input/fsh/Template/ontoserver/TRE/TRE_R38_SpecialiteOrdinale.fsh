@@ -1,8 +1,8 @@
 CodeSystem: TRE_R38_SpecialiteOrdinale
 Id: TRE-R38-SpecialiteOrdinale
 Description: "Spécialité ordinale"
-* ^meta.versionId = "6"
-* ^meta.lastUpdated = "2024-08-28T05:13:49.353+00:00"
+* ^meta.versionId = "7"
+* ^meta.lastUpdated = "2025-07-02T18:18:02.679+00:00"
 * ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablecodesystem"
 * ^extension.url = "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod"
 * ^extension.valuePeriod.start = "2015-12-28T00:00:00+01:00"
@@ -14,6 +14,7 @@ Description: "Spécialité ordinale"
 * ^experimental = false
 * ^date = "2024-05-31T12:00:00+01:00"
 * ^publisher = "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris"
+* ^jurisdiction = urn:iso:std:iso:3166#FR
 * ^caseSensitive = false
 * ^content = #complete
 * ^property[0].code = #dateValid
@@ -25,6 +26,18 @@ Description: "Spécialité ordinale"
 * ^property[+].code = #dateFin
 * ^property[=].description = "Date de fin d'exploitation d'un code concept"
 * ^property[=].type = #dateTime
+* ^property[+].code = #deprecationDate
+* ^property[=].uri = "http://hl7.org/fhir/concept-properties#deprecationDate"
+* ^property[=].description = "Date Concept was deprecated"
+* ^property[=].type = #dateTime
+* ^property[+].code = #status
+* ^property[=].uri = "http://hl7.org/fhir/concept-properties#status"
+* ^property[=].description = "A property that indicates the status of the concept."
+* ^property[=].type = #code
+* ^property[+].code = #retirementDate
+* ^property[=].uri = "http://hl7.org/fhir/concept-properties#retirementDate"
+* ^property[=].description = "Date Concept was retired"
+* ^property[=].type = #dateTime
 * #SCD01 "Orthopédie dento-faciale (SCD)"
 * #SCD01 ^designation[0].language = #fr-FR
 * #SCD01 ^designation[=].use.system = "http://snomed.info/sct"
@@ -34,6 +47,8 @@ Description: "Spécialité ordinale"
 * #SCD01 ^property[=].valueDateTime = "2007-07-26T00:00:00+01:00"
 * #SCD01 ^property[+].code = #dateMaj
 * #SCD01 ^property[=].valueDateTime = "2016-09-01T00:00:00+01:00"
+* #SCD01 ^property[+].code = #status
+* #SCD01 ^property[=].valueCode = #active
 * #SCD02 "Chirurgie orale (SCD)"
 * #SCD02 ^designation[0].language = #fr-FR
 * #SCD02 ^designation[=].use.system = "http://snomed.info/sct"
@@ -43,6 +58,8 @@ Description: "Spécialité ordinale"
 * #SCD02 ^property[=].valueDateTime = "2012-03-19T00:00:00+01:00"
 * #SCD02 ^property[+].code = #dateMaj
 * #SCD02 ^property[=].valueDateTime = "2016-09-01T00:00:00+01:00"
+* #SCD02 ^property[+].code = #status
+* #SCD02 ^property[=].valueCode = #active
 * #SCD03 "Médecine bucco-dentaire (SCD)"
 * #SCD03 ^designation[0].language = #fr-FR
 * #SCD03 ^designation[=].use.system = "http://snomed.info/sct"
@@ -52,6 +69,8 @@ Description: "Spécialité ordinale"
 * #SCD03 ^property[=].valueDateTime = "2012-03-19T00:00:00+01:00"
 * #SCD03 ^property[+].code = #dateMaj
 * #SCD03 ^property[=].valueDateTime = "2016-09-01T00:00:00+01:00"
+* #SCD03 ^property[+].code = #status
+* #SCD03 ^property[=].valueCode = #active
 * #SI01 "Exercice infirmier en pratique avancée pathologies chroniques stabilisées (SI)" "Exercice infirmier autorisé en pratique avancée pour les pathologies chroniques stabilisées.  La notion de spécialité ordinale a été introduite sachant qu'il est nécessaire de distinguer l'exercice d'IPA de celui d'infirmier et que le diplôme ne suffit  pas pour autoriser l'exercice d'IPA. Il faut 3 ans de pratique infirmière pour pouvoir exercer comme IPA; mais le cursus d'IPA peut être accessible dans le prolongement du DE d'infirmier.  Un IPA peut exercer des activités d'IPA dans plusieurs spécialités, mais aussi, plus fréquemment cumuler des activités d'IPA et d'activité d'infirmier polyvalent du niveau du DE Infirmier."
 * #SI01 ^designation[0].language = #fr-FR
 * #SI01 ^designation[=].use.system = "http://snomed.info/sct"
@@ -61,6 +80,8 @@ Description: "Spécialité ordinale"
 * #SI01 ^property[=].valueDateTime = "2019-10-25T12:00:00+01:00"
 * #SI01 ^property[+].code = #dateMaj
 * #SI01 ^property[=].valueDateTime = "2020-03-30T12:00:00+01:00"
+* #SI01 ^property[+].code = #status
+* #SI01 ^property[=].valueCode = #active
 * #SI02 "Exercice infirmier en pratique avancée oncologie et hémato-oncologie (SI)" "Exercice infirmier autorisé en pratique avancée en oncologie et hémato-oncologie  La notion de spécialité ordinale a été introduite sachant qu'il est nécessaire de distinguer l'exercice d'IPA de celui d'infirmier et que le diplôme ne suffit  pas pour autoriser l'exercice d'IPA. Il faut 3 ans de pratique infirmière pour pouvoir exercer comme IPA; mais le cursus d'IPA peut être accessible dans le prolongement du DE d'infirmier.  Un IPA peut exercer des activités d'IPA dans plusieurs spécialités, mais aussi, plus fréquemment cumuler des activités d'IPA et d'activité d'infirmier polyvalent du niveau du DE Infirmier."
 * #SI02 ^designation[0].language = #fr-FR
 * #SI02 ^designation[=].use.system = "http://snomed.info/sct"
@@ -70,6 +91,8 @@ Description: "Spécialité ordinale"
 * #SI02 ^property[=].valueDateTime = "2019-10-25T12:00:00+01:00"
 * #SI02 ^property[+].code = #dateMaj
 * #SI02 ^property[=].valueDateTime = "2020-03-30T12:00:00+01:00"
+* #SI02 ^property[+].code = #status
+* #SI02 ^property[=].valueCode = #active
 * #SI03 "Exercice infirmier en pratique avancée maladie rénale chronique (SI)" "Exercice infirmier autorisé en pratique avancée en maladie rénale. chronique, dialyse et transplantation rénale. La notion de spécialité ordinale a été introduite sachant qu'il est nécessaire de distinguer l'exercice d'IPA de celui d'infirmier et que le diplôme ne suffit  pas pour autoriser l'exercice d'IPA. Il faut 3 ans de pratique infirmière pour pouvoir exercer comme IPA; mais le cursus d'IPA peut être accessible dans le prolongement du DE d'infirmier.  Un IPA peut exercer des activités d'IPA dans plusieurs spécialités, mais aussi, plus fréquemment cumuler des activités d'IPA et d'activité d'infirmier polyvalent du niveau du DE Infirmier."
 * #SI03 ^designation[0].language = #fr-FR
 * #SI03 ^designation[=].use.system = "http://snomed.info/sct"
@@ -83,6 +106,8 @@ Description: "Spécialité ordinale"
 * #SI03 ^property[=].valueDateTime = "2019-10-25T12:00:00+01:00"
 * #SI03 ^property[+].code = #dateMaj
 * #SI03 ^property[=].valueDateTime = "2020-03-30T12:00:00+01:00"
+* #SI03 ^property[+].code = #status
+* #SI03 ^property[=].valueCode = #active
 * #SI04 "Exercice infirmier en pratique avancée santé mentale (SI)" "Exercice infirmier autorisé en pratique avancée en santé mentale. La notion de spécialité ordinale a été introduite sachant qu'il est nécessaire de distinguer l'exercice d'IPA de celui d'infirmier et que le diplôme ne suffit  pas pour autoriser l'exercice d'IPA. Il faut 3 ans de pratique infirmière pour pouvoir exercer comme IPA; mais le cursus d'IPA peut être accessible dans le prolongement du DE d'infirmier.  Un IPA peut exercer des activités d'IPA dans plusieurs spécialités, mais aussi, plus fréquemment cumuler des activités d'IPA et d'activité d'infirmier polyvalent du niveau du DE Infirmier."
 * #SI04 ^designation[0].language = #fr-FR
 * #SI04 ^designation[=].use.system = "http://snomed.info/sct"
@@ -92,6 +117,8 @@ Description: "Spécialité ordinale"
 * #SI04 ^property[=].valueDateTime = "2019-10-25T12:00:00+01:00"
 * #SI04 ^property[+].code = #dateMaj
 * #SI04 ^property[=].valueDateTime = "2020-03-30T12:00:00+01:00"
+* #SI04 ^property[+].code = #status
+* #SI04 ^property[=].valueCode = #active
 * #SI05 "Exercice infirmier en pratique avancée urgences (SI)" "Le décret n°2021-1384 du 25 octobre 2021 relatif à l'exercice en pratique avancée de la profession d'infirmiers (IPA) dans le domaine d'intervention des urgences a inscrit les « urgences » comme nouveau domaine d'intervention de l'infirmier en pratique avancé. C'est le 5e domaine d'exercice des IPA ainsi acté (après pathologies chroniques stabilisées ; oncologie et hémato-oncologie ; maladie rénale chronique, dialyse et transplantation rénale ; santé mentale)."
 * #SI05 ^designation[0].language = #fr-FR
 * #SI05 ^designation[=].use.system = "http://snomed.info/sct"
@@ -101,6 +128,8 @@ Description: "Spécialité ordinale"
 * #SI05 ^property[=].valueDateTime = "2022-08-26T12:00:00+01:00"
 * #SI05 ^property[+].code = #dateMaj
 * #SI05 ^property[=].valueDateTime = "2023-10-30T12:00:00+01:00"
+* #SI05 ^property[+].code = #status
+* #SI05 ^property[=].valueCode = #active
 * #SM01 "Anatomie et Cytologie pathologiques (SM)"
 * #SM01 ^designation[0].language = #fr-FR
 * #SM01 ^designation[=].use.system = "http://snomed.info/sct"
@@ -110,6 +139,8 @@ Description: "Spécialité ordinale"
 * #SM01 ^property[=].valueDateTime = "2007-07-26T16:49:16+01:00"
 * #SM01 ^property[+].code = #dateMaj
 * #SM01 ^property[=].valueDateTime = "2016-09-01T00:00:00+01:00"
+* #SM01 ^property[+].code = #status
+* #SM01 ^property[=].valueCode = #active
 * #SM02 "Anesthésie-réanimation (SM)"
 * #SM02 ^designation[0].language = #fr-FR
 * #SM02 ^designation[=].use.system = "http://snomed.info/sct"
@@ -119,6 +150,8 @@ Description: "Spécialité ordinale"
 * #SM02 ^property[=].valueDateTime = "2007-07-26T16:49:16+01:00"
 * #SM02 ^property[+].code = #dateMaj
 * #SM02 ^property[=].valueDateTime = "2016-09-01T00:00:00+01:00"
+* #SM02 ^property[+].code = #status
+* #SM02 ^property[=].valueCode = #active
 * #SM03 "Biologie médicale (SM)"
 * #SM03 ^designation[0].language = #fr-FR
 * #SM03 ^designation[=].use.system = "http://snomed.info/sct"
@@ -128,6 +161,8 @@ Description: "Spécialité ordinale"
 * #SM03 ^property[=].valueDateTime = "2007-07-26T16:49:16+01:00"
 * #SM03 ^property[+].code = #dateMaj
 * #SM03 ^property[=].valueDateTime = "2015-12-28T00:00:00+01:00"
+* #SM03 ^property[+].code = #status
+* #SM03 ^property[=].valueCode = #active
 * #SM04 "Cardiologie et Maladies vasculaires (SM)"
 * #SM04 ^designation[0].language = #fr-FR
 * #SM04 ^designation[=].use.system = "http://snomed.info/sct"
@@ -137,6 +172,8 @@ Description: "Spécialité ordinale"
 * #SM04 ^property[=].valueDateTime = "2007-07-26T16:49:16+01:00"
 * #SM04 ^property[+].code = #dateMaj
 * #SM04 ^property[=].valueDateTime = "2016-09-01T00:00:00+01:00"
+* #SM04 ^property[+].code = #status
+* #SM04 ^property[=].valueCode = #active
 * #SM05 "Chirurgie générale (SM)"
 * #SM05 ^designation[0].language = #fr-FR
 * #SM05 ^designation[=].use.system = "http://snomed.info/sct"
@@ -146,6 +183,8 @@ Description: "Spécialité ordinale"
 * #SM05 ^property[=].valueDateTime = "2007-07-26T16:49:16+01:00"
 * #SM05 ^property[+].code = #dateMaj
 * #SM05 ^property[=].valueDateTime = "2016-09-01T00:00:00+01:00"
+* #SM05 ^property[+].code = #status
+* #SM05 ^property[=].valueCode = #active
 * #SM06 "Chirurgie maxillo-faciale (SM)"
 * #SM06 ^designation[0].language = #fr-FR
 * #SM06 ^designation[=].use.system = "http://snomed.info/sct"
@@ -155,6 +194,8 @@ Description: "Spécialité ordinale"
 * #SM06 ^property[=].valueDateTime = "2007-07-26T16:49:16+01:00"
 * #SM06 ^property[+].code = #dateMaj
 * #SM06 ^property[=].valueDateTime = "2008-02-28T00:00:00+01:00"
+* #SM06 ^property[+].code = #status
+* #SM06 ^property[=].valueCode = #active
 * #SM07 "Chirurgie maxillo-faciale et Stomatologie (SM)"
 * #SM07 ^designation[0].language = #fr-FR
 * #SM07 ^designation[=].use.system = "http://snomed.info/sct"
@@ -164,6 +205,8 @@ Description: "Spécialité ordinale"
 * #SM07 ^property[=].valueDateTime = "2007-07-26T16:49:16+01:00"
 * #SM07 ^property[+].code = #dateMaj
 * #SM07 ^property[=].valueDateTime = "2016-09-01T00:00:00+01:00"
+* #SM07 ^property[+].code = #status
+* #SM07 ^property[=].valueCode = #active
 * #SM08 "Chirurgie orthopédique et Traumatologie (SM)"
 * #SM08 ^designation[0].language = #fr-FR
 * #SM08 ^designation[=].use.system = "http://snomed.info/sct"
@@ -173,6 +216,8 @@ Description: "Spécialité ordinale"
 * #SM08 ^property[=].valueDateTime = "2007-07-26T16:49:16+01:00"
 * #SM08 ^property[+].code = #dateMaj
 * #SM08 ^property[=].valueDateTime = "2016-09-01T00:00:00+01:00"
+* #SM08 ^property[+].code = #status
+* #SM08 ^property[=].valueCode = #active
 * #SM09 "Chirurgie infantile (SM)"
 * #SM09 ^designation[0].language = #fr-FR
 * #SM09 ^designation[=].use.system = "http://snomed.info/sct"
@@ -182,6 +227,8 @@ Description: "Spécialité ordinale"
 * #SM09 ^property[=].valueDateTime = "2007-07-26T16:49:16+01:00"
 * #SM09 ^property[+].code = #dateMaj
 * #SM09 ^property[=].valueDateTime = "2016-09-01T00:00:00+01:00"
+* #SM09 ^property[+].code = #status
+* #SM09 ^property[=].valueCode = #active
 * #SM10 "Chirurgie plastique reconstructrice et esthétique (SM)"
 * #SM10 ^designation[0].language = #fr-FR
 * #SM10 ^designation[=].use.system = "http://snomed.info/sct"
@@ -191,6 +238,8 @@ Description: "Spécialité ordinale"
 * #SM10 ^property[=].valueDateTime = "2007-07-26T16:49:16+01:00"
 * #SM10 ^property[+].code = #dateMaj
 * #SM10 ^property[=].valueDateTime = "2016-09-01T00:00:00+01:00"
+* #SM10 ^property[+].code = #status
+* #SM10 ^property[=].valueCode = #active
 * #SM11 "Chirurgie thoracique et cardio-vasculaire (SM)"
 * #SM11 ^designation[0].language = #fr-FR
 * #SM11 ^designation[=].use.system = "http://snomed.info/sct"
@@ -200,6 +249,8 @@ Description: "Spécialité ordinale"
 * #SM11 ^property[=].valueDateTime = "2007-07-26T16:49:16+01:00"
 * #SM11 ^property[+].code = #dateMaj
 * #SM11 ^property[=].valueDateTime = "2016-09-01T00:00:00+01:00"
+* #SM11 ^property[+].code = #status
+* #SM11 ^property[=].valueCode = #active
 * #SM12 "Chirurgie urologique (SM)"
 * #SM12 ^designation[0].language = #fr-FR
 * #SM12 ^designation[=].use.system = "http://snomed.info/sct"
@@ -209,6 +260,8 @@ Description: "Spécialité ordinale"
 * #SM12 ^property[=].valueDateTime = "2007-07-26T16:49:16+01:00"
 * #SM12 ^property[+].code = #dateMaj
 * #SM12 ^property[=].valueDateTime = "2008-02-28T00:00:00+01:00"
+* #SM12 ^property[+].code = #status
+* #SM12 ^property[=].valueCode = #active
 * #SM13 "Chirurgie vasculaire (SM)"
 * #SM13 ^designation[0].language = #fr-FR
 * #SM13 ^designation[=].use.system = "http://snomed.info/sct"
@@ -218,6 +271,8 @@ Description: "Spécialité ordinale"
 * #SM13 ^property[=].valueDateTime = "2007-07-26T16:49:16+01:00"
 * #SM13 ^property[+].code = #dateMaj
 * #SM13 ^property[=].valueDateTime = "2008-02-28T00:00:00+01:00"
+* #SM13 ^property[+].code = #status
+* #SM13 ^property[=].valueCode = #active
 * #SM14 "Chirurgie viscérale et digestive (SM)"
 * #SM14 ^designation[0].language = #fr-FR
 * #SM14 ^designation[=].use.system = "http://snomed.info/sct"
@@ -227,6 +282,8 @@ Description: "Spécialité ordinale"
 * #SM14 ^property[=].valueDateTime = "2007-07-26T16:49:16+01:00"
 * #SM14 ^property[+].code = #dateMaj
 * #SM14 ^property[=].valueDateTime = "2016-09-01T00:00:00+01:00"
+* #SM14 ^property[+].code = #status
+* #SM14 ^property[=].valueCode = #active
 * #SM15 "Dermatologie et Vénéréologie (SM)"
 * #SM15 ^designation[0].language = #fr-FR
 * #SM15 ^designation[=].use.system = "http://snomed.info/sct"
@@ -236,6 +293,8 @@ Description: "Spécialité ordinale"
 * #SM15 ^property[=].valueDateTime = "2007-07-26T16:49:16+01:00"
 * #SM15 ^property[+].code = #dateMaj
 * #SM15 ^property[=].valueDateTime = "2016-09-01T00:00:00+01:00"
+* #SM15 ^property[+].code = #status
+* #SM15 ^property[=].valueCode = #active
 * #SM16 "Endocrinologie et Métabolisme (SM)"
 * #SM16 ^designation[0].language = #fr-FR
 * #SM16 ^designation[=].use.system = "http://snomed.info/sct"
@@ -245,6 +304,8 @@ Description: "Spécialité ordinale"
 * #SM16 ^property[=].valueDateTime = "2007-07-26T16:49:16+01:00"
 * #SM16 ^property[+].code = #dateMaj
 * #SM16 ^property[=].valueDateTime = "2016-09-01T00:00:00+01:00"
+* #SM16 ^property[+].code = #status
+* #SM16 ^property[=].valueCode = #active
 * #SM17 "Génétique médicale (SM)"
 * #SM17 ^designation[0].language = #fr-FR
 * #SM17 ^designation[=].use.system = "http://snomed.info/sct"
@@ -254,6 +315,8 @@ Description: "Spécialité ordinale"
 * #SM17 ^property[=].valueDateTime = "2007-07-26T16:49:16+01:00"
 * #SM17 ^property[+].code = #dateMaj
 * #SM17 ^property[=].valueDateTime = "2008-02-28T00:00:00+01:00"
+* #SM17 ^property[+].code = #status
+* #SM17 ^property[=].valueCode = #active
 * #SM18 "Gériatrie (SM)"
 * #SM18 ^designation[0].language = #fr-FR
 * #SM18 ^designation[=].use.system = "http://snomed.info/sct"
@@ -263,6 +326,8 @@ Description: "Spécialité ordinale"
 * #SM18 ^property[=].valueDateTime = "2007-07-26T16:49:16+01:00"
 * #SM18 ^property[+].code = #dateMaj
 * #SM18 ^property[=].valueDateTime = "2008-02-28T00:00:00+01:00"
+* #SM18 ^property[+].code = #status
+* #SM18 ^property[=].valueCode = #active
 * #SM19 "Gynécologie médicale (SM)"
 * #SM19 ^designation[0].language = #fr-FR
 * #SM19 ^designation[=].use.system = "http://snomed.info/sct"
@@ -272,6 +337,8 @@ Description: "Spécialité ordinale"
 * #SM19 ^property[=].valueDateTime = "2007-07-26T16:49:16+01:00"
 * #SM19 ^property[+].code = #dateMaj
 * #SM19 ^property[=].valueDateTime = "2008-02-28T00:00:00+01:00"
+* #SM19 ^property[+].code = #status
+* #SM19 ^property[=].valueCode = #active
 * #SM20 "Gynécologie-obstétrique (SM)"
 * #SM20 ^designation[0].language = #fr-FR
 * #SM20 ^designation[=].use.system = "http://snomed.info/sct"
@@ -281,6 +348,8 @@ Description: "Spécialité ordinale"
 * #SM20 ^property[=].valueDateTime = "2007-07-26T16:49:16+01:00"
 * #SM20 ^property[+].code = #dateMaj
 * #SM20 ^property[=].valueDateTime = "2016-09-01T00:00:00+01:00"
+* #SM20 ^property[+].code = #status
+* #SM20 ^property[=].valueCode = #active
 * #SM21 "Hématologie (SM)"
 * #SM21 ^designation[0].language = #fr-FR
 * #SM21 ^designation[=].use.system = "http://snomed.info/sct"
@@ -290,6 +359,8 @@ Description: "Spécialité ordinale"
 * #SM21 ^property[=].valueDateTime = "2007-07-26T16:49:16+01:00"
 * #SM21 ^property[+].code = #dateMaj
 * #SM21 ^property[=].valueDateTime = "2008-02-28T00:00:00+01:00"
+* #SM21 ^property[+].code = #status
+* #SM21 ^property[=].valueCode = #active
 * #SM22 "Hématologie, option Maladie du sang (SM)"
 * #SM22 ^designation[0].language = #fr-FR
 * #SM22 ^designation[=].use.system = "http://snomed.info/sct"
@@ -299,6 +370,8 @@ Description: "Spécialité ordinale"
 * #SM22 ^property[=].valueDateTime = "2007-07-26T16:49:16+01:00"
 * #SM22 ^property[+].code = #dateMaj
 * #SM22 ^property[=].valueDateTime = "2016-09-01T00:00:00+01:00"
+* #SM22 ^property[+].code = #status
+* #SM22 ^property[=].valueCode = #active
 * #SM23 "Hématologie, option Onco-hématologie (SM)"
 * #SM23 ^designation[0].language = #fr-FR
 * #SM23 ^designation[=].use.system = "http://snomed.info/sct"
@@ -308,6 +381,8 @@ Description: "Spécialité ordinale"
 * #SM23 ^property[=].valueDateTime = "2007-07-26T16:49:16+01:00"
 * #SM23 ^property[+].code = #dateMaj
 * #SM23 ^property[=].valueDateTime = "2016-09-01T00:00:00+01:00"
+* #SM23 ^property[+].code = #status
+* #SM23 ^property[=].valueCode = #active
 * #SM24 "Gastro-entérologie et Hépatologie (SM)"
 * #SM24 ^designation[0].language = #fr-FR
 * #SM24 ^designation[=].use.system = "http://snomed.info/sct"
@@ -317,6 +392,8 @@ Description: "Spécialité ordinale"
 * #SM24 ^property[=].valueDateTime = "2007-07-26T16:49:16+01:00"
 * #SM24 ^property[+].code = #dateMaj
 * #SM24 ^property[=].valueDateTime = "2016-09-01T00:00:00+01:00"
+* #SM24 ^property[+].code = #status
+* #SM24 ^property[=].valueCode = #active
 * #SM25 "Médecine du travail (SM)"
 * #SM25 ^designation[0].language = #fr-FR
 * #SM25 ^designation[=].use.system = "http://snomed.info/sct"
@@ -326,6 +403,8 @@ Description: "Spécialité ordinale"
 * #SM25 ^property[=].valueDateTime = "2007-07-26T16:49:16+01:00"
 * #SM25 ^property[+].code = #dateMaj
 * #SM25 ^property[=].valueDateTime = "2008-02-28T00:00:00+01:00"
+* #SM25 ^property[+].code = #status
+* #SM25 ^property[=].valueCode = #active
 * #SM26 "Qualifié en Médecine générale (SM)"
 * #SM26 ^designation[0].language = #fr-FR
 * #SM26 ^designation[=].use.system = "http://snomed.info/sct"
@@ -335,6 +414,8 @@ Description: "Spécialité ordinale"
 * #SM26 ^property[=].valueDateTime = "2007-07-26T16:49:16+01:00"
 * #SM26 ^property[+].code = #dateMaj
 * #SM26 ^property[=].valueDateTime = "2008-10-08T00:00:00+01:00"
+* #SM26 ^property[+].code = #status
+* #SM26 ^property[=].valueCode = #active
 * #SM27 "Médecine interne (SM)"
 * #SM27 ^designation[0].language = #fr-FR
 * #SM27 ^designation[=].use.system = "http://snomed.info/sct"
@@ -344,6 +425,8 @@ Description: "Spécialité ordinale"
 * #SM27 ^property[=].valueDateTime = "2007-07-26T16:49:16+01:00"
 * #SM27 ^property[+].code = #dateMaj
 * #SM27 ^property[=].valueDateTime = "2008-02-28T00:00:00+01:00"
+* #SM27 ^property[+].code = #status
+* #SM27 ^property[=].valueCode = #active
 * #SM28 "Médecine nucléaire (SM)"
 * #SM28 ^designation[0].language = #fr-FR
 * #SM28 ^designation[=].use.system = "http://snomed.info/sct"
@@ -353,6 +436,8 @@ Description: "Spécialité ordinale"
 * #SM28 ^property[=].valueDateTime = "2007-07-26T16:49:16+01:00"
 * #SM28 ^property[+].code = #dateMaj
 * #SM28 ^property[=].valueDateTime = "2008-02-28T00:00:00+01:00"
+* #SM28 ^property[+].code = #status
+* #SM28 ^property[=].valueCode = #active
 * #SM29 "Médecine physique et de réadaptation (SM)"
 * #SM29 ^designation[0].language = #fr-FR
 * #SM29 ^designation[=].use.system = "http://snomed.info/sct"
@@ -362,6 +447,8 @@ Description: "Spécialité ordinale"
 * #SM29 ^property[=].valueDateTime = "2007-07-26T16:49:16+01:00"
 * #SM29 ^property[+].code = #dateMaj
 * #SM29 ^property[=].valueDateTime = "2016-09-01T00:00:00+01:00"
+* #SM29 ^property[+].code = #status
+* #SM29 ^property[=].valueCode = #active
 * #SM30 "Néphrologie (SM)"
 * #SM30 ^designation[0].language = #fr-FR
 * #SM30 ^designation[=].use.system = "http://snomed.info/sct"
@@ -371,6 +458,8 @@ Description: "Spécialité ordinale"
 * #SM30 ^property[=].valueDateTime = "2007-07-26T16:49:16+01:00"
 * #SM30 ^property[+].code = #dateMaj
 * #SM30 ^property[=].valueDateTime = "2008-02-28T00:00:00+01:00"
+* #SM30 ^property[+].code = #status
+* #SM30 ^property[=].valueCode = #active
 * #SM31 "Neuro-chirurgie (SM)"
 * #SM31 ^designation[0].language = #fr-FR
 * #SM31 ^designation[=].use.system = "http://snomed.info/sct"
@@ -380,6 +469,8 @@ Description: "Spécialité ordinale"
 * #SM31 ^property[=].valueDateTime = "2007-07-26T16:49:16+01:00"
 * #SM31 ^property[+].code = #dateMaj
 * #SM31 ^property[=].valueDateTime = "2008-02-28T00:00:00+01:00"
+* #SM31 ^property[+].code = #status
+* #SM31 ^property[=].valueCode = #active
 * #SM32 "Neurologie (SM)"
 * #SM32 ^designation[0].language = #fr-FR
 * #SM32 ^designation[=].use.system = "http://snomed.info/sct"
@@ -389,6 +480,8 @@ Description: "Spécialité ordinale"
 * #SM32 ^property[=].valueDateTime = "2007-07-26T16:49:16+01:00"
 * #SM32 ^property[+].code = #dateMaj
 * #SM32 ^property[=].valueDateTime = "2008-02-28T00:00:00+01:00"
+* #SM32 ^property[+].code = #status
+* #SM32 ^property[=].valueCode = #active
 * #SM33 "Neuro-psychiatrie (SM)"
 * #SM33 ^designation[0].language = #fr-FR
 * #SM33 ^designation[=].use.system = "http://snomed.info/sct"
@@ -398,6 +491,8 @@ Description: "Spécialité ordinale"
 * #SM33 ^property[=].valueDateTime = "2007-07-26T16:49:16+01:00"
 * #SM33 ^property[+].code = #dateMaj
 * #SM33 ^property[=].valueDateTime = "2008-02-28T00:00:00+01:00"
+* #SM33 ^property[+].code = #status
+* #SM33 ^property[=].valueCode = #active
 * #SM34 "ORL et Chirurgie cervico-faciale (SM)"
 * #SM34 ^designation[0].language = #fr-FR
 * #SM34 ^designation[=].use.system = "http://snomed.info/sct"
@@ -407,6 +502,8 @@ Description: "Spécialité ordinale"
 * #SM34 ^property[=].valueDateTime = "2007-07-26T16:49:16+01:00"
 * #SM34 ^property[+].code = #dateMaj
 * #SM34 ^property[=].valueDateTime = "2016-09-01T00:00:00+01:00"
+* #SM34 ^property[+].code = #status
+* #SM34 ^property[=].valueCode = #active
 * #SM35 "Oncologie, option Onco-hématologie (SM)"
 * #SM35 ^designation[0].language = #fr-FR
 * #SM35 ^designation[=].use.system = "http://snomed.info/sct"
@@ -416,6 +513,8 @@ Description: "Spécialité ordinale"
 * #SM35 ^property[=].valueDateTime = "2007-07-26T16:49:16+01:00"
 * #SM35 ^property[+].code = #dateMaj
 * #SM35 ^property[=].valueDateTime = "2016-09-01T00:00:00+01:00"
+* #SM35 ^property[+].code = #status
+* #SM35 ^property[=].valueCode = #active
 * #SM36 "Oncologie, option médicale (SM)"
 * #SM36 ^designation[0].language = #fr-FR
 * #SM36 ^designation[=].use.system = "http://snomed.info/sct"
@@ -425,6 +524,8 @@ Description: "Spécialité ordinale"
 * #SM36 ^property[=].valueDateTime = "2007-07-26T16:49:16+01:00"
 * #SM36 ^property[+].code = #dateMaj
 * #SM36 ^property[=].valueDateTime = "2016-09-01T00:00:00+01:00"
+* #SM36 ^property[+].code = #status
+* #SM36 ^property[=].valueCode = #active
 * #SM37 "Oncologie, option radiothérapie (SM)"
 * #SM37 ^designation[0].language = #fr-FR
 * #SM37 ^designation[=].use.system = "http://snomed.info/sct"
@@ -434,6 +535,8 @@ Description: "Spécialité ordinale"
 * #SM37 ^property[=].valueDateTime = "2007-07-26T16:49:16+01:00"
 * #SM37 ^property[+].code = #dateMaj
 * #SM37 ^property[=].valueDateTime = "2016-09-01T00:00:00+01:00"
+* #SM37 ^property[+].code = #status
+* #SM37 ^property[=].valueCode = #active
 * #SM38 "Ophtalmologie (SM)"
 * #SM38 ^designation[0].language = #fr-FR
 * #SM38 ^designation[=].use.system = "http://snomed.info/sct"
@@ -443,6 +546,8 @@ Description: "Spécialité ordinale"
 * #SM38 ^property[=].valueDateTime = "2007-07-26T16:49:16+01:00"
 * #SM38 ^property[+].code = #dateMaj
 * #SM38 ^property[=].valueDateTime = "2008-02-28T00:00:00+01:00"
+* #SM38 ^property[+].code = #status
+* #SM38 ^property[=].valueCode = #active
 * #SM39 "Oto-rhino-laryngologie (SM)"
 * #SM39 ^designation[0].language = #fr-FR
 * #SM39 ^designation[=].use.system = "http://snomed.info/sct"
@@ -452,6 +557,8 @@ Description: "Spécialité ordinale"
 * #SM39 ^property[=].valueDateTime = "2007-07-26T16:49:16+01:00"
 * #SM39 ^property[+].code = #dateMaj
 * #SM39 ^property[=].valueDateTime = "2008-02-28T00:00:00+01:00"
+* #SM39 ^property[+].code = #status
+* #SM39 ^property[=].valueCode = #active
 * #SM40 "Pédiatrie (SM)"
 * #SM40 ^designation[0].language = #fr-FR
 * #SM40 ^designation[=].use.system = "http://snomed.info/sct"
@@ -461,6 +568,8 @@ Description: "Spécialité ordinale"
 * #SM40 ^property[=].valueDateTime = "2007-07-26T16:49:16+01:00"
 * #SM40 ^property[+].code = #dateMaj
 * #SM40 ^property[=].valueDateTime = "2008-02-28T00:00:00+01:00"
+* #SM40 ^property[+].code = #status
+* #SM40 ^property[=].valueCode = #active
 * #SM41 "Pneumologie (SM)"
 * #SM41 ^designation[0].language = #fr-FR
 * #SM41 ^designation[=].use.system = "http://snomed.info/sct"
@@ -470,6 +579,8 @@ Description: "Spécialité ordinale"
 * #SM41 ^property[=].valueDateTime = "2007-07-26T16:49:16+01:00"
 * #SM41 ^property[+].code = #dateMaj
 * #SM41 ^property[=].valueDateTime = "2008-02-28T00:00:00+01:00"
+* #SM41 ^property[+].code = #status
+* #SM41 ^property[=].valueCode = #active
 * #SM42 "Psychiatrie (SM)"
 * #SM42 ^designation[0].language = #fr-FR
 * #SM42 ^designation[=].use.system = "http://snomed.info/sct"
@@ -479,6 +590,8 @@ Description: "Spécialité ordinale"
 * #SM42 ^property[=].valueDateTime = "2007-07-26T16:49:16+01:00"
 * #SM42 ^property[+].code = #dateMaj
 * #SM42 ^property[=].valueDateTime = "2008-02-28T00:00:00+01:00"
+* #SM42 ^property[+].code = #status
+* #SM42 ^property[=].valueCode = #active
 * #SM43 "Psychiatrie, option enfant et adolescent (SM)"
 * #SM43 ^designation[0].language = #fr-FR
 * #SM43 ^designation[=].use.system = "http://snomed.info/sct"
@@ -488,6 +601,8 @@ Description: "Spécialité ordinale"
 * #SM43 ^property[=].valueDateTime = "2007-07-26T16:49:16+01:00"
 * #SM43 ^property[+].code = #dateMaj
 * #SM43 ^property[=].valueDateTime = "2016-09-01T00:00:00+01:00"
+* #SM43 ^property[+].code = #status
+* #SM43 ^property[=].valueCode = #active
 * #SM44 "Radio-diagnostic (SM)"
 * #SM44 ^designation[0].language = #fr-FR
 * #SM44 ^designation[=].use.system = "http://snomed.info/sct"
@@ -497,6 +612,8 @@ Description: "Spécialité ordinale"
 * #SM44 ^property[=].valueDateTime = "2007-07-26T16:49:16+01:00"
 * #SM44 ^property[+].code = #dateMaj
 * #SM44 ^property[=].valueDateTime = "2008-02-28T00:00:00+01:00"
+* #SM44 ^property[+].code = #status
+* #SM44 ^property[=].valueCode = #active
 * #SM45 "Radio-thérapie (SM)"
 * #SM45 ^designation[0].language = #fr-FR
 * #SM45 ^designation[=].use.system = "http://snomed.info/sct"
@@ -506,6 +623,8 @@ Description: "Spécialité ordinale"
 * #SM45 ^property[=].valueDateTime = "2007-07-26T16:49:16+01:00"
 * #SM45 ^property[+].code = #dateMaj
 * #SM45 ^property[=].valueDateTime = "2008-02-28T00:00:00+01:00"
+* #SM45 ^property[+].code = #status
+* #SM45 ^property[=].valueCode = #active
 * #SM46 "Médecine intensive-réanimation (SM)"
 * #SM46 ^designation[0].language = #fr-FR
 * #SM46 ^designation[=].use.system = "http://snomed.info/sct"
@@ -515,6 +634,8 @@ Description: "Spécialité ordinale"
 * #SM46 ^property[=].valueDateTime = "2007-07-26T16:49:16+01:00"
 * #SM46 ^property[+].code = #dateMaj
 * #SM46 ^property[=].valueDateTime = "2018-01-26T12:00:00+01:00"
+* #SM46 ^property[+].code = #status
+* #SM46 ^property[=].valueCode = #active
 * #SM47 "Recherche médicale (SM)"
 * #SM47 ^designation[0].language = #fr-FR
 * #SM47 ^designation[=].use.system = "http://snomed.info/sct"
@@ -524,6 +645,8 @@ Description: "Spécialité ordinale"
 * #SM47 ^property[=].valueDateTime = "2007-07-26T16:49:16+01:00"
 * #SM47 ^property[+].code = #dateMaj
 * #SM47 ^property[=].valueDateTime = "2008-02-28T00:00:00+01:00"
+* #SM47 ^property[+].code = #status
+* #SM47 ^property[=].valueCode = #active
 * #SM48 "Rhumatologie (SM)"
 * #SM48 ^designation[0].language = #fr-FR
 * #SM48 ^designation[=].use.system = "http://snomed.info/sct"
@@ -533,6 +656,8 @@ Description: "Spécialité ordinale"
 * #SM48 ^property[=].valueDateTime = "2007-07-26T16:49:16+01:00"
 * #SM48 ^property[+].code = #dateMaj
 * #SM48 ^property[=].valueDateTime = "2008-02-28T00:00:00+01:00"
+* #SM48 ^property[+].code = #status
+* #SM48 ^property[=].valueCode = #active
 * #SM49 "Santé publique et Médecine sociale (SM)"
 * #SM49 ^designation[0].language = #fr-FR
 * #SM49 ^designation[=].use.system = "http://snomed.info/sct"
@@ -542,6 +667,8 @@ Description: "Spécialité ordinale"
 * #SM49 ^property[=].valueDateTime = "2007-07-26T16:49:16+01:00"
 * #SM49 ^property[+].code = #dateMaj
 * #SM49 ^property[=].valueDateTime = "2016-09-01T00:00:00+01:00"
+* #SM49 ^property[+].code = #status
+* #SM49 ^property[=].valueCode = #active
 * #SM50 "Stomatologie (SM)"
 * #SM50 ^designation[0].language = #fr-FR
 * #SM50 ^designation[=].use.system = "http://snomed.info/sct"
@@ -551,6 +678,8 @@ Description: "Spécialité ordinale"
 * #SM50 ^property[=].valueDateTime = "2007-07-26T16:49:16+01:00"
 * #SM50 ^property[+].code = #dateMaj
 * #SM50 ^property[=].valueDateTime = "2008-02-28T00:00:00+01:00"
+* #SM50 ^property[+].code = #status
+* #SM50 ^property[=].valueCode = #active
 * #SM51 "Gynéco-obstétrique et Gynéco-médicale, option Gynéco-obstétrique (SM)"
 * #SM51 ^designation[0].language = #fr-FR
 * #SM51 ^designation[=].use.system = "http://snomed.info/sct"
@@ -560,6 +689,8 @@ Description: "Spécialité ordinale"
 * #SM51 ^property[=].valueDateTime = "2007-07-26T16:49:16+01:00"
 * #SM51 ^property[+].code = #dateMaj
 * #SM51 ^property[=].valueDateTime = "2016-09-01T00:00:00+01:00"
+* #SM51 ^property[+].code = #status
+* #SM51 ^property[=].valueCode = #active
 * #SM52 "Gynéco-obstétrique et Gynéco-médicale, option Gynéco-médicale (SM)"
 * #SM52 ^designation[0].language = #fr-FR
 * #SM52 ^designation[=].use.system = "http://snomed.info/sct"
@@ -569,6 +700,8 @@ Description: "Spécialité ordinale"
 * #SM52 ^property[=].valueDateTime = "2007-07-26T16:49:16+01:00"
 * #SM52 ^property[+].code = #dateMaj
 * #SM52 ^property[=].valueDateTime = "2016-09-01T00:00:00+01:00"
+* #SM52 ^property[+].code = #status
+* #SM52 ^property[=].valueCode = #active
 * #SM53 "Spécialiste en Médecine générale (SM)"
 * #SM53 ^designation[0].language = #fr-FR
 * #SM53 ^designation[=].use.system = "http://snomed.info/sct"
@@ -578,6 +711,8 @@ Description: "Spécialité ordinale"
 * #SM53 ^property[=].valueDateTime = "2007-07-26T00:00:00+01:00"
 * #SM53 ^property[+].code = #dateMaj
 * #SM53 ^property[=].valueDateTime = "2008-10-08T00:00:00+01:00"
+* #SM53 ^property[+].code = #status
+* #SM53 ^property[=].valueCode = #active
 * #SM54 "Médecine générale (SM)"
 * #SM54 ^designation[0].language = #fr-FR
 * #SM54 ^designation[=].use.system = "http://snomed.info/sct"
@@ -587,6 +722,8 @@ Description: "Spécialité ordinale"
 * #SM54 ^property[=].valueDateTime = "2008-06-16T00:00:00+01:00"
 * #SM54 ^property[+].code = #dateMaj
 * #SM54 ^property[=].valueDateTime = "2008-10-08T00:00:00+01:00"
+* #SM54 ^property[+].code = #status
+* #SM54 ^property[=].valueCode = #active
 * #SM55 "Radio-diagnostic et Radio-thérapie (SM)"
 * #SM55 ^designation[0].language = #fr-FR
 * #SM55 ^designation[=].use.system = "http://snomed.info/sct"
@@ -596,6 +733,8 @@ Description: "Spécialité ordinale"
 * #SM55 ^property[=].valueDateTime = "2008-10-08T00:00:00+01:00"
 * #SM55 ^property[+].code = #dateMaj
 * #SM55 ^property[=].valueDateTime = "2016-09-01T00:00:00+01:00"
+* #SM55 ^property[+].code = #status
+* #SM55 ^property[=].valueCode = #active
 * #SM56 "Chirurgie orale (SM)"
 * #SM56 ^designation[0].language = #fr-FR
 * #SM56 ^designation[=].use.system = "http://snomed.info/sct"
@@ -605,6 +744,8 @@ Description: "Spécialité ordinale"
 * #SM56 ^property[=].valueDateTime = "2016-04-28T00:00:00+01:00"
 * #SM56 ^property[+].code = #dateMaj
 * #SM56 ^property[=].valueDateTime = "2016-04-28T00:00:00+01:00"
+* #SM56 ^property[+].code = #status
+* #SM56 ^property[=].valueCode = #active
 * #SM57 "Allergologie (SM)"
 * #SM57 ^designation[0].language = #fr-FR
 * #SM57 ^designation[=].use.system = "http://snomed.info/sct"
@@ -614,6 +755,8 @@ Description: "Spécialité ordinale"
 * #SM57 ^property[=].valueDateTime = "2018-03-30T12:00:00+01:00"
 * #SM57 ^property[+].code = #dateMaj
 * #SM57 ^property[=].valueDateTime = "2018-03-30T12:00:00+01:00"
+* #SM57 ^property[+].code = #status
+* #SM57 ^property[=].valueCode = #active
 * #SM58 "Maladies infectieuses et tropicales (SM)"
 * #SM58 ^designation[0].language = #fr-FR
 * #SM58 ^designation[=].use.system = "http://snomed.info/sct"
@@ -623,6 +766,8 @@ Description: "Spécialité ordinale"
 * #SM58 ^property[=].valueDateTime = "2018-03-30T12:00:00+01:00"
 * #SM58 ^property[+].code = #dateMaj
 * #SM58 ^property[=].valueDateTime = "2018-03-30T12:00:00+01:00"
+* #SM58 ^property[+].code = #status
+* #SM58 ^property[=].valueCode = #active
 * #SM59 "Médecine d'urgence (SM)"
 * #SM59 ^designation[0].language = #fr-FR
 * #SM59 ^designation[=].use.system = "http://snomed.info/sct"
@@ -632,6 +777,8 @@ Description: "Spécialité ordinale"
 * #SM59 ^property[=].valueDateTime = "2018-03-30T12:00:00+01:00"
 * #SM59 ^property[+].code = #dateMaj
 * #SM59 ^property[=].valueDateTime = "2018-03-30T12:00:00+01:00"
+* #SM59 ^property[+].code = #status
+* #SM59 ^property[=].valueCode = #active
 * #SM60 "Médecine légale et expertises médicales (SM)"
 * #SM60 ^designation[0].language = #fr-FR
 * #SM60 ^designation[=].use.system = "http://snomed.info/sct"
@@ -641,6 +788,8 @@ Description: "Spécialité ordinale"
 * #SM60 ^property[=].valueDateTime = "2018-03-30T12:00:00+01:00"
 * #SM60 ^property[+].code = #dateMaj
 * #SM60 ^property[=].valueDateTime = "2018-03-30T12:00:00+01:00"
+* #SM60 ^property[+].code = #status
+* #SM60 ^property[=].valueCode = #active
 * #SM61 "Médecine vasculaire (SM)"
 * #SM61 ^designation[0].language = #fr-FR
 * #SM61 ^designation[=].use.system = "http://snomed.info/sct"
@@ -650,6 +799,8 @@ Description: "Spécialité ordinale"
 * #SM61 ^property[=].valueDateTime = "2018-03-30T12:00:00+01:00"
 * #SM61 ^property[+].code = #dateMaj
 * #SM61 ^property[=].valueDateTime = "2018-03-30T12:00:00+01:00"
+* #SM61 ^property[+].code = #status
+* #SM61 ^property[=].valueCode = #active
 * #SM62 "Endocrinologie, diabétologie, nutrition (SM)"
 * #SM62 ^designation[0].language = #fr-FR
 * #SM62 ^designation[=].use.system = "http://snomed.info/sct"
@@ -659,6 +810,8 @@ Description: "Spécialité ordinale"
 * #SM62 ^property[=].valueDateTime = "2018-09-28T12:00:00+01:00"
 * #SM62 ^property[+].code = #dateMaj
 * #SM62 ^property[=].valueDateTime = "2019-04-26T12:00:00+01:00"
+* #SM62 ^property[+].code = #status
+* #SM62 ^property[=].valueCode = #active
 * #SM63 "Biologie médicale option biologie générale (SM)"
 * #SM63 ^designation[0].language = #fr-FR
 * #SM63 ^designation[=].use.system = "http://snomed.info/sct"
@@ -668,6 +821,8 @@ Description: "Spécialité ordinale"
 * #SM63 ^property[=].valueDateTime = "2019-02-22T12:00:00+01:00"
 * #SM63 ^property[+].code = #dateMaj
 * #SM63 ^property[=].valueDateTime = "2019-02-22T12:00:00+01:00"
+* #SM63 ^property[+].code = #status
+* #SM63 ^property[=].valueCode = #active
 * #SM64 "Biologie médicale option médecine moléculaire, génétique et pharmacologie (SM)"
 * #SM64 ^designation[0].language = #fr-FR
 * #SM64 ^designation[=].use.system = "http://snomed.info/sct"
@@ -677,6 +832,8 @@ Description: "Spécialité ordinale"
 * #SM64 ^property[=].valueDateTime = "2019-02-22T12:00:00+01:00"
 * #SM64 ^property[+].code = #dateMaj
 * #SM64 ^property[=].valueDateTime = "2019-02-22T12:00:00+01:00"
+* #SM64 ^property[+].code = #status
+* #SM64 ^property[=].valueCode = #active
 * #SM65 "Biologie médicale option hématologie et immunologie (SM)"
 * #SM65 ^designation[0].language = #fr-FR
 * #SM65 ^designation[=].use.system = "http://snomed.info/sct"
@@ -686,6 +843,8 @@ Description: "Spécialité ordinale"
 * #SM65 ^property[=].valueDateTime = "2019-02-22T12:00:00+01:00"
 * #SM65 ^property[+].code = #dateMaj
 * #SM65 ^property[=].valueDateTime = "2019-02-22T12:00:00+01:00"
+* #SM65 ^property[+].code = #status
+* #SM65 ^property[=].valueCode = #active
 * #SM66 "Biologie médicale option agents infectieux (SM)"
 * #SM66 ^designation[0].language = #fr-FR
 * #SM66 ^designation[=].use.system = "http://snomed.info/sct"
@@ -695,6 +854,8 @@ Description: "Spécialité ordinale"
 * #SM66 ^property[=].valueDateTime = "2019-02-22T12:00:00+01:00"
 * #SM66 ^property[+].code = #dateMaj
 * #SM66 ^property[=].valueDateTime = "2019-02-22T12:00:00+01:00"
+* #SM66 ^property[+].code = #status
+* #SM66 ^property[=].valueCode = #active
 * #SM67 "Biologie médicale option biologie de la reproduction (SM)"
 * #SM67 ^designation[0].language = #fr-FR
 * #SM67 ^designation[=].use.system = "http://snomed.info/sct"
@@ -704,6 +865,8 @@ Description: "Spécialité ordinale"
 * #SM67 ^property[=].valueDateTime = "2019-02-22T12:00:00+01:00"
 * #SM67 ^property[+].code = #dateMaj
 * #SM67 ^property[=].valueDateTime = "2019-02-22T12:00:00+01:00"
+* #SM67 ^property[+].code = #status
+* #SM67 ^property[=].valueCode = #active
 * #SM68 "Chirurgie maxillo-faciale (réforme 2017) (SM)"
 * #SM68 ^designation[0].language = #fr-FR
 * #SM68 ^designation[=].use.system = "http://snomed.info/sct"
@@ -713,6 +876,8 @@ Description: "Spécialité ordinale"
 * #SM68 ^property[=].valueDateTime = "2019-02-22T12:00:00+01:00"
 * #SM68 ^property[+].code = #dateMaj
 * #SM68 ^property[=].valueDateTime = "2019-02-22T12:00:00+01:00"
+* #SM68 ^property[+].code = #status
+* #SM68 ^property[=].valueCode = #active
 * #SM69 "Chirurgie pédiatrique option chirurgie viscérale pédiatrique (SM)"
 * #SM69 ^designation[0].language = #fr-FR
 * #SM69 ^designation[=].use.system = "http://snomed.info/sct"
@@ -722,6 +887,8 @@ Description: "Spécialité ordinale"
 * #SM69 ^property[=].valueDateTime = "2019-02-22T12:00:00+01:00"
 * #SM69 ^property[+].code = #dateMaj
 * #SM69 ^property[=].valueDateTime = "2019-02-22T12:00:00+01:00"
+* #SM69 ^property[+].code = #status
+* #SM69 ^property[=].valueCode = #active
 * #SM70 "Chirurgie pédiatrique option orthopédie pédiatrique (SM)"
 * #SM70 ^designation[0].language = #fr-FR
 * #SM70 ^designation[=].use.system = "http://snomed.info/sct"
@@ -731,6 +898,8 @@ Description: "Spécialité ordinale"
 * #SM70 ^property[=].valueDateTime = "2019-02-22T12:00:00+01:00"
 * #SM70 ^property[+].code = #dateMaj
 * #SM70 ^property[=].valueDateTime = "2019-02-22T12:00:00+01:00"
+* #SM70 ^property[+].code = #status
+* #SM70 ^property[=].valueCode = #active
 * #SM71 "Hématologie (réforme 2017) (SM)"
 * #SM71 ^designation[0].language = #fr-FR
 * #SM71 ^designation[=].use.system = "http://snomed.info/sct"
@@ -740,6 +909,8 @@ Description: "Spécialité ordinale"
 * #SM71 ^property[=].valueDateTime = "2019-02-22T12:00:00+01:00"
 * #SM71 ^property[+].code = #dateMaj
 * #SM71 ^property[=].valueDateTime = "2019-02-22T12:00:00+01:00"
+* #SM71 ^property[+].code = #status
+* #SM71 ^property[=].valueCode = #active
 * #SM72 "Médecine interne et immunologie clinique (SM)"
 * #SM72 ^designation[0].language = #fr-FR
 * #SM72 ^designation[=].use.system = "http://snomed.info/sct"
@@ -749,6 +920,8 @@ Description: "Spécialité ordinale"
 * #SM72 ^property[=].valueDateTime = "2019-02-22T12:00:00+01:00"
 * #SM72 ^property[+].code = #dateMaj
 * #SM72 ^property[=].valueDateTime = "2019-02-22T12:00:00+01:00"
+* #SM72 ^property[+].code = #status
+* #SM72 ^property[=].valueCode = #active
 * #SM73 "Médecine cardiovasculaire (SM)"
 * #SM73 ^designation[0].language = #fr-FR
 * #SM73 ^designation[=].use.system = "http://snomed.info/sct"
@@ -758,6 +931,8 @@ Description: "Spécialité ordinale"
 * #SM73 ^property[=].valueDateTime = "2023-10-30T12:00:00+01:00"
 * #SM73 ^property[+].code = #dateMaj
 * #SM73 ^property[=].valueDateTime = "2023-10-30T12:00:00+01:00"
+* #SM73 ^property[+].code = #status
+* #SM73 ^property[=].valueCode = #active
 * #SM74 "Radiologie imagerie médicale (SM)"
 * #SM74 ^designation[0].language = #fr-FR
 * #SM74 ^designation[=].use.system = "http://snomed.info/sct"
@@ -771,6 +946,8 @@ Description: "Spécialité ordinale"
 * #SM74 ^property[=].valueDateTime = "2023-10-30T12:00:00+01:00"
 * #SM74 ^property[+].code = #dateMaj
 * #SM74 ^property[=].valueDateTime = "2024-05-31T12:00:00+01:00"
+* #SM74 ^property[+].code = #status
+* #SM74 ^property[=].valueCode = #active
 * #SM75 "Santé publique (SM)"
 * #SM75 ^designation[0].language = #fr-FR
 * #SM75 ^designation[=].use.system = "http://snomed.info/sct"
@@ -780,6 +957,8 @@ Description: "Spécialité ordinale"
 * #SM75 ^property[=].valueDateTime = "2023-10-30T12:00:00+01:00"
 * #SM75 ^property[+].code = #dateMaj
 * #SM75 ^property[=].valueDateTime = "2023-10-30T12:00:00+01:00"
+* #SM75 ^property[+].code = #status
+* #SM75 ^property[=].valueCode = #active
 * #SM76 "Anesthésie-réanimation opt anesthésie-pédiatrique (SM)"
 * #SM76 ^designation[0].language = #fr-FR
 * #SM76 ^designation[=].use.system = "http://snomed.info/sct"
@@ -793,6 +972,8 @@ Description: "Spécialité ordinale"
 * #SM76 ^property[=].valueDateTime = "2023-10-30T12:00:00+01:00"
 * #SM76 ^property[+].code = #dateMaj
 * #SM76 ^property[=].valueDateTime = "2024-05-31T12:00:00+01:00"
+* #SM76 ^property[+].code = #status
+* #SM76 ^property[=].valueCode = #active
 * #SM77 "Chirurgie maxillo-faciale opt orthod dysmo max-fac (SM)"
 * #SM77 ^designation[0].language = #fr-FR
 * #SM77 ^designation[=].use.system = "http://snomed.info/sct"
@@ -806,6 +987,8 @@ Description: "Spécialité ordinale"
 * #SM77 ^property[=].valueDateTime = "2023-10-30T12:00:00+01:00"
 * #SM77 ^property[+].code = #dateMaj
 * #SM77 ^property[=].valueDateTime = "2024-05-31T12:00:00+01:00"
+* #SM77 ^property[+].code = #status
+* #SM77 ^property[=].valueCode = #active
 * #SM78 "Chirurgie viscérale et digestive opt endo chir (SM)"
 * #SM78 ^designation[0].language = #fr-FR
 * #SM78 ^designation[=].use.system = "http://snomed.info/sct"
@@ -819,6 +1002,8 @@ Description: "Spécialité ordinale"
 * #SM78 ^property[=].valueDateTime = "2023-10-30T12:00:00+01:00"
 * #SM78 ^property[+].code = #dateMaj
 * #SM78 ^property[=].valueDateTime = "2024-05-31T12:00:00+01:00"
+* #SM78 ^property[+].code = #status
+* #SM78 ^property[=].valueCode = #active
 * #SM79 "Méd cardiovasculaire opt card interventionnelle (SM)"
 * #SM79 ^designation[0].language = #fr-FR
 * #SM79 ^designation[=].use.system = "http://snomed.info/sct"
@@ -832,6 +1017,8 @@ Description: "Spécialité ordinale"
 * #SM79 ^property[=].valueDateTime = "2023-10-30T12:00:00+01:00"
 * #SM79 ^property[+].code = #dateMaj
 * #SM79 ^property[=].valueDateTime = "2024-05-31T12:00:00+01:00"
+* #SM79 ^property[+].code = #status
+* #SM79 ^property[=].valueCode = #active
 * #SM80 "Méd cardiovasculaire opt imagerie cardio d'expert (SM)"
 * #SM80 ^designation[0].language = #fr-FR
 * #SM80 ^designation[=].use.system = "http://snomed.info/sct"
@@ -845,6 +1032,8 @@ Description: "Spécialité ordinale"
 * #SM80 ^property[=].valueDateTime = "2023-10-30T12:00:00+01:00"
 * #SM80 ^property[+].code = #dateMaj
 * #SM80 ^property[=].valueDateTime = "2024-05-31T12:00:00+01:00"
+* #SM80 ^property[+].code = #status
+* #SM80 ^property[=].valueCode = #active
 * #SM81 "Méd cardiovasculaire opt rythmo inter stimu card (SM)"
 * #SM81 ^designation[0].language = #fr-FR
 * #SM81 ^designation[=].use.system = "http://snomed.info/sct"
@@ -858,6 +1047,8 @@ Description: "Spécialité ordinale"
 * #SM81 ^property[=].valueDateTime = "2023-10-30T12:00:00+01:00"
 * #SM81 ^property[+].code = #dateMaj
 * #SM81 ^property[=].valueDateTime = "2024-05-31T12:00:00+01:00"
+* #SM81 ^property[+].code = #status
+* #SM81 ^property[=].valueCode = #active
 * #SM82 "Médecine intensive-réanimation opt réa pédiatrique (SM)"
 * #SM82 ^designation[0].language = #fr-FR
 * #SM82 ^designation[=].use.system = "http://snomed.info/sct"
@@ -871,6 +1062,8 @@ Description: "Spécialité ordinale"
 * #SM82 ^property[=].valueDateTime = "2023-10-30T12:00:00+01:00"
 * #SM82 ^property[+].code = #dateMaj
 * #SM82 ^property[=].valueDateTime = "2024-05-31T12:00:00+01:00"
+* #SM82 ^property[+].code = #status
+* #SM82 ^property[=].valueCode = #active
 * #SM83 "Néphrologie option soins intensifs néphrologiques (SM)"
 * #SM83 ^designation[0].language = #fr-FR
 * #SM83 ^designation[=].use.system = "http://snomed.info/sct"
@@ -880,6 +1073,8 @@ Description: "Spécialité ordinale"
 * #SM83 ^property[=].valueDateTime = "2023-10-30T12:00:00+01:00"
 * #SM83 ^property[+].code = #dateMaj
 * #SM83 ^property[=].valueDateTime = "2024-05-31T12:00:00+01:00"
+* #SM83 ^property[+].code = #status
+* #SM83 ^property[=].valueCode = #active
 * #SM84 "Neurologie opt trait interv ischémie céréb aigüe (SM)"
 * #SM84 ^designation[0].language = #fr-FR
 * #SM84 ^designation[=].use.system = "http://snomed.info/sct"
@@ -893,6 +1088,8 @@ Description: "Spécialité ordinale"
 * #SM84 ^property[=].valueDateTime = "2023-10-30T12:00:00+01:00"
 * #SM84 ^property[+].code = #dateMaj
 * #SM84 ^property[=].valueDateTime = "2024-05-31T12:00:00+01:00"
+* #SM84 ^property[+].code = #status
+* #SM84 ^property[=].valueCode = #active
 * #SM85 "Ophtalmologie opt chir ophtalmopéd strabologique (SM)"
 * #SM85 ^designation[0].language = #fr-FR
 * #SM85 ^designation[=].use.system = "http://snomed.info/sct"
@@ -906,6 +1103,8 @@ Description: "Spécialité ordinale"
 * #SM85 ^property[=].valueDateTime = "2023-10-30T12:00:00+01:00"
 * #SM85 ^property[+].code = #dateMaj
 * #SM85 ^property[=].valueDateTime = "2024-05-31T12:00:00+01:00"
+* #SM85 ^property[+].code = #status
+* #SM85 ^property[=].valueCode = #active
 * #SM86 "ORL - chir cervico-faciale opt audiophonologie (SM)"
 * #SM86 ^designation[0].language = #fr-FR
 * #SM86 ^designation[=].use.system = "http://snomed.info/sct"
@@ -919,6 +1118,8 @@ Description: "Spécialité ordinale"
 * #SM86 ^property[=].valueDateTime = "2023-10-30T12:00:00+01:00"
 * #SM86 ^property[+].code = #dateMaj
 * #SM86 ^property[=].valueDateTime = "2024-05-31T12:00:00+01:00"
+* #SM86 ^property[+].code = #status
+* #SM86 ^property[=].valueCode = #active
 * #SM87 "Pédiatrie option néonatologie (SM)"
 * #SM87 ^designation[0].language = #fr-FR
 * #SM87 ^designation[=].use.system = "http://snomed.info/sct"
@@ -928,6 +1129,8 @@ Description: "Spécialité ordinale"
 * #SM87 ^property[=].valueDateTime = "2023-10-30T12:00:00+01:00"
 * #SM87 ^property[+].code = #dateMaj
 * #SM87 ^property[=].valueDateTime = "2024-05-31T12:00:00+01:00"
+* #SM87 ^property[+].code = #status
+* #SM87 ^property[=].valueCode = #active
 * #SM88 "Pédiatrie option neuropédiatrie (SM)"
 * #SM88 ^designation[0].language = #fr-FR
 * #SM88 ^designation[=].use.system = "http://snomed.info/sct"
@@ -937,6 +1140,8 @@ Description: "Spécialité ordinale"
 * #SM88 ^property[=].valueDateTime = "2023-10-30T12:00:00+01:00"
 * #SM88 ^property[+].code = #dateMaj
 * #SM88 ^property[=].valueDateTime = "2024-05-31T12:00:00+01:00"
+* #SM88 ^property[+].code = #status
+* #SM88 ^property[=].valueCode = #active
 * #SM89 "Pédiatrie option pneumopédiatrie (SM)"
 * #SM89 ^designation[0].language = #fr-FR
 * #SM89 ^designation[=].use.system = "http://snomed.info/sct"
@@ -946,6 +1151,8 @@ Description: "Spécialité ordinale"
 * #SM89 ^property[=].valueDateTime = "2023-10-30T12:00:00+01:00"
 * #SM89 ^property[+].code = #dateMaj
 * #SM89 ^property[=].valueDateTime = "2024-05-31T12:00:00+01:00"
+* #SM89 ^property[+].code = #status
+* #SM89 ^property[=].valueCode = #active
 * #SM90 "Pédiatrie option réanimation pédiatrique (SM)"
 * #SM90 ^designation[0].language = #fr-FR
 * #SM90 ^designation[=].use.system = "http://snomed.info/sct"
@@ -955,6 +1162,8 @@ Description: "Spécialité ordinale"
 * #SM90 ^property[=].valueDateTime = "2023-10-30T12:00:00+01:00"
 * #SM90 ^property[+].code = #dateMaj
 * #SM90 ^property[=].valueDateTime = "2024-05-31T12:00:00+01:00"
+* #SM90 ^property[+].code = #status
+* #SM90 ^property[=].valueCode = #active
 * #SM91 "Pneumologie option soins intensifs respiratoires (SM)"
 * #SM91 ^designation[0].language = #fr-FR
 * #SM91 ^designation[=].use.system = "http://snomed.info/sct"
@@ -964,6 +1173,8 @@ Description: "Spécialité ordinale"
 * #SM91 ^property[=].valueDateTime = "2023-10-30T12:00:00+01:00"
 * #SM91 ^property[+].code = #dateMaj
 * #SM91 ^property[=].valueDateTime = "2024-05-31T12:00:00+01:00"
+* #SM91 ^property[+].code = #status
+* #SM91 ^property[=].valueCode = #active
 * #SM92 "Psychiatrie option enfant et adolescent (SM)"
 * #SM92 ^designation[0].language = #fr-FR
 * #SM92 ^designation[=].use.system = "http://snomed.info/sct"
@@ -973,6 +1184,8 @@ Description: "Spécialité ordinale"
 * #SM92 ^property[=].valueDateTime = "2023-10-30T12:00:00+01:00"
 * #SM92 ^property[+].code = #dateMaj
 * #SM92 ^property[=].valueDateTime = "2024-05-31T12:00:00+01:00"
+* #SM92 ^property[+].code = #status
+* #SM92 ^property[=].valueCode = #active
 * #SM93 "Psychiatrie option psychiatrie de la personne âgée (SM)"
 * #SM93 ^designation[0].language = #fr-FR
 * #SM93 ^designation[=].use.system = "http://snomed.info/sct"
@@ -986,6 +1199,8 @@ Description: "Spécialité ordinale"
 * #SM93 ^property[=].valueDateTime = "2023-10-30T12:00:00+01:00"
 * #SM93 ^property[+].code = #dateMaj
 * #SM93 ^property[=].valueDateTime = "2024-05-31T12:00:00+01:00"
+* #SM93 ^property[+].code = #status
+* #SM93 ^property[=].valueCode = #active
 * #SM94 "Radiologie et imagerie médicale opt radio inter av (SM)"
 * #SM94 ^designation[0].language = #fr-FR
 * #SM94 ^designation[=].use.system = "http://snomed.info/sct"
@@ -998,6 +1213,8 @@ Description: "Spécialité ordinale"
 * #SM94 ^property[=].valueDateTime = "2023-10-30T12:00:00+01:00"
 * #SM94 ^property[+].code = #dateMaj
 * #SM94 ^property[=].valueDateTime = "2024-05-31T12:00:00+01:00"
+* #SM94 ^property[+].code = #status
+* #SM94 ^property[=].valueCode = #active
 * #SM95 "Santé publique option administration de la santé (SM)"
 * #SM95 ^designation[0].language = #fr-FR
 * #SM95 ^designation[=].use.system = "http://snomed.info/sct"
@@ -1007,6 +1224,8 @@ Description: "Spécialité ordinale"
 * #SM95 ^property[=].valueDateTime = "2023-10-30T12:00:00+01:00"
 * #SM95 ^property[+].code = #dateMaj
 * #SM95 ^property[=].valueDateTime = "2024-05-31T12:00:00+01:00"
+* #SM95 ^property[+].code = #status
+* #SM95 ^property[=].valueCode = #active
 * #SP01 "Radio-pharmacie (SP)"
 * #SP01 ^designation[0].language = #fr-FR
 * #SP01 ^designation[=].use.system = "http://snomed.info/sct"
@@ -1018,6 +1237,10 @@ Description: "Spécialité ordinale"
 * #SP01 ^property[=].valueDateTime = "2018-03-30T12:00:00+01:00"
 * #SP01 ^property[+].code = #dateMaj
 * #SP01 ^property[=].valueDateTime = "2018-03-30T12:00:00+01:00"
+* #SP01 ^property[+].code = #deprecationDate
+* #SP01 ^property[=].valueDateTime = "2018-03-30T12:00:00+01:00"
+* #SP01 ^property[+].code = #status
+* #SP01 ^property[=].valueCode = #deprecated
 * #SP02 "Hygiène (SP)"
 * #SP02 ^designation[0].language = #fr-FR
 * #SP02 ^designation[=].use.system = "http://snomed.info/sct"
@@ -1029,6 +1252,10 @@ Description: "Spécialité ordinale"
 * #SP02 ^property[=].valueDateTime = "2018-03-30T12:00:00+01:00"
 * #SP02 ^property[+].code = #dateMaj
 * #SP02 ^property[=].valueDateTime = "2018-03-30T12:00:00+01:00"
+* #SP02 ^property[+].code = #deprecationDate
+* #SP02 ^property[=].valueDateTime = "2018-03-30T12:00:00+01:00"
+* #SP02 ^property[+].code = #status
+* #SP02 ^property[=].valueCode = #deprecated
 * #SP03 "Pharmacovigilance (SP)"
 * #SP03 ^designation[0].language = #fr-FR
 * #SP03 ^designation[=].use.system = "http://snomed.info/sct"
@@ -1040,6 +1267,10 @@ Description: "Spécialité ordinale"
 * #SP03 ^property[=].valueDateTime = "2018-03-30T12:00:00+01:00"
 * #SP03 ^property[+].code = #dateMaj
 * #SP03 ^property[=].valueDateTime = "2018-03-30T12:00:00+01:00"
+* #SP03 ^property[+].code = #deprecationDate
+* #SP03 ^property[=].valueDateTime = "2018-03-30T12:00:00+01:00"
+* #SP03 ^property[+].code = #status
+* #SP03 ^property[=].valueCode = #deprecated
 * #SP04 "Hémovigilance (SP)"
 * #SP04 ^designation[0].language = #fr-FR
 * #SP04 ^designation[=].use = $sct#900000000000013009
@@ -1050,3 +1281,7 @@ Description: "Spécialité ordinale"
 * #SP04 ^property[=].valueDateTime = "2018-03-30T12:00:00+01:00"
 * #SP04 ^property[+].code = #dateMaj
 * #SP04 ^property[=].valueDateTime = "2018-03-30T12:00:00+01:00"
+* #SP04 ^property[+].code = #deprecationDate
+* #SP04 ^property[=].valueDateTime = "2018-03-30T12:00:00+01:00"
+* #SP04 ^property[+].code = #status
+* #SP04 ^property[=].valueCode = #deprecated

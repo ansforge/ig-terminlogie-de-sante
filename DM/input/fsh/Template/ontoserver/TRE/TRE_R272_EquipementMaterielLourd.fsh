@@ -1,8 +1,8 @@
 CodeSystem: TRE_R272_EquipementMaterielLourd
 Id: TRE-R272-EquipementMaterielLourd
 Description: "Equipements Matériels Lourds"
-* ^meta.versionId = "4"
-* ^meta.lastUpdated = "2024-08-28T05:13:00.147+00:00"
+* ^meta.versionId = "5"
+* ^meta.lastUpdated = "2025-07-02T18:16:56.526+00:00"
 * ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablecodesystem"
 * ^extension.url = "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod"
 * ^extension.valuePeriod.start = "2018-07-27T12:00:00+01:00"
@@ -14,6 +14,7 @@ Description: "Equipements Matériels Lourds"
 * ^experimental = false
 * ^date = "2023-12-15T12:00:00+01:00"
 * ^publisher = "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris"
+* ^jurisdiction = urn:iso:std:iso:3166#FR
 * ^caseSensitive = false
 * ^content = #complete
 * ^property[0].code = #dateValid
@@ -25,6 +26,18 @@ Description: "Equipements Matériels Lourds"
 * ^property[+].code = #dateFin
 * ^property[=].description = "Date de fin d'exploitation d'un code concept"
 * ^property[=].type = #dateTime
+* ^property[+].code = #deprecationDate
+* ^property[=].uri = "http://hl7.org/fhir/concept-properties#deprecationDate"
+* ^property[=].description = "Date Concept was deprecated"
+* ^property[=].type = #dateTime
+* ^property[+].code = #status
+* ^property[=].uri = "http://hl7.org/fhir/concept-properties#status"
+* ^property[=].description = "A property that indicates the status of the concept."
+* ^property[=].type = #code
+* ^property[+].code = #retirementDate
+* ^property[=].uri = "http://hl7.org/fhir/concept-properties#retirementDate"
+* ^property[=].description = "Date Concept was retired"
+* ^property[=].type = #dateTime
 * #05602 "Scanographe à utilisation médicale"
 * #05602 ^designation.language = #fr-FR
 * #05602 ^designation.use.system = "http://snomed.info/sct"
@@ -34,6 +47,8 @@ Description: "Equipements Matériels Lourds"
 * #05602 ^property[=].valueDateTime = "2018-07-27T12:00:00+01:00"
 * #05602 ^property[+].code = #dateMaj
 * #05602 ^property[=].valueDateTime = "2018-07-27T12:00:00+01:00"
+* #05602 ^property[+].code = #status
+* #05602 ^property[=].valueCode = #active
 * #05701 "Caméra à scintillation sans détecteur d'émission de positons"
 * #05701 ^designation.language = #fr-FR
 * #05701 ^designation.use.system = "http://snomed.info/sct"
@@ -43,6 +58,8 @@ Description: "Equipements Matériels Lourds"
 * #05701 ^property[=].valueDateTime = "2018-07-27T12:00:00+01:00"
 * #05701 ^property[+].code = #dateMaj
 * #05701 ^property[=].valueDateTime = "2018-07-27T12:00:00+01:00"
+* #05701 ^property[+].code = #status
+* #05701 ^property[=].valueCode = #active
 * #05702 "Caméra à scintillation avec détecteur d'émission de positons"
 * #05702 ^designation.language = #fr-FR
 * #05702 ^designation.use.system = "http://snomed.info/sct"
@@ -52,16 +69,22 @@ Description: "Equipements Matériels Lourds"
 * #05702 ^property[=].valueDateTime = "2018-07-27T12:00:00+01:00"
 * #05702 ^property[+].code = #dateMaj
 * #05702 ^property[=].valueDateTime = "2018-07-27T12:00:00+01:00"
+* #05702 ^property[+].code = #status
+* #05702 ^property[=].valueCode = #active
 * #05705 "Tomographe à émissions"
 * #05705 ^property[0].code = #dateValid
 * #05705 ^property[=].valueDateTime = "2018-07-27T12:00:00+01:00"
 * #05705 ^property[+].code = #dateMaj
 * #05705 ^property[=].valueDateTime = "2018-07-27T12:00:00+01:00"
+* #05705 ^property[+].code = #status
+* #05705 ^property[=].valueCode = #active
 * #05706 "Caméra à positons"
 * #05706 ^property[0].code = #dateValid
 * #05706 ^property[=].valueDateTime = "2018-07-27T12:00:00+01:00"
 * #05706 ^property[+].code = #dateMaj
 * #05706 ^property[=].valueDateTime = "2018-07-27T12:00:00+01:00"
+* #05706 ^property[+].code = #status
+* #05706 ^property[=].valueCode = #active
 * #06201 "Appareil d'IRM à utilisation clinique"
 * #06201 ^designation.language = #fr-FR
 * #06201 ^designation.use.system = "http://snomed.info/sct"
@@ -71,6 +94,8 @@ Description: "Equipements Matériels Lourds"
 * #06201 ^property[=].valueDateTime = "2018-07-27T12:00:00+01:00"
 * #06201 ^property[+].code = #dateMaj
 * #06201 ^property[=].valueDateTime = "2018-07-27T12:00:00+01:00"
+* #06201 ^property[+].code = #status
+* #06201 ^property[=].valueCode = #active
 * #06301 "Cyclotron à utilisation médicale"
 * #06301 ^designation.language = #fr-FR
 * #06301 ^designation.use = $sct#900000000000013009
@@ -79,8 +104,12 @@ Description: "Equipements Matériels Lourds"
 * #06301 ^property[=].valueDateTime = "2018-07-27T12:00:00+01:00"
 * #06301 ^property[+].code = #dateMaj
 * #06301 ^property[=].valueDateTime = "2018-07-27T12:00:00+01:00"
+* #06301 ^property[+].code = #status
+* #06301 ^property[=].valueCode = #active
 * #44901 "Caisson hyperbare"
 * #44901 ^property[0].code = #dateValid
 * #44901 ^property[=].valueDateTime = "2018-07-27T12:00:00+01:00"
 * #44901 ^property[+].code = #dateMaj
 * #44901 ^property[=].valueDateTime = "2018-07-27T12:00:00+01:00"
+* #44901 ^property[+].code = #status
+* #44901 ^property[=].valueCode = #active

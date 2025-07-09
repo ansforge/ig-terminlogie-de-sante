@@ -1,8 +1,8 @@
 CodeSystem: TRE_R300_AgregatDisciplineEquipSocNiv3
 Id: TRE-R300-AgregatDisciplineEquipSocNiv3
 Description: "Agrégats de disciplines d'équipement pour le social niveau 3"
-* ^meta.versionId = "4"
-* ^meta.lastUpdated = "2024-08-28T05:13:17.386+00:00"
+* ^meta.versionId = "5"
+* ^meta.lastUpdated = "2025-07-02T18:17:23.130+00:00"
 * ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablecodesystem"
 * ^extension.url = "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod"
 * ^extension.valuePeriod.start = "2020-06-26T12:00:00+01:00"
@@ -14,6 +14,7 @@ Description: "Agrégats de disciplines d'équipement pour le social niveau 3"
 * ^experimental = false
 * ^date = "2023-12-15T12:00:00+01:00"
 * ^publisher = "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris"
+* ^jurisdiction = urn:iso:std:iso:3166#FR
 * ^caseSensitive = false
 * ^content = #complete
 * ^property[0].code = #dateValid
@@ -25,6 +26,18 @@ Description: "Agrégats de disciplines d'équipement pour le social niveau 3"
 * ^property[+].code = #dateFin
 * ^property[=].description = "Date de fin d'exploitation d'un code concept"
 * ^property[=].type = #dateTime
+* ^property[+].code = #deprecationDate
+* ^property[=].uri = "http://hl7.org/fhir/concept-properties#deprecationDate"
+* ^property[=].description = "Date Concept was deprecated"
+* ^property[=].type = #dateTime
+* ^property[+].code = #status
+* ^property[=].uri = "http://hl7.org/fhir/concept-properties#status"
+* ^property[=].description = "A property that indicates the status of the concept."
+* ^property[=].type = #code
+* ^property[+].code = #retirementDate
+* ^property[=].uri = "http://hl7.org/fhir/concept-properties#retirementDate"
+* ^property[=].description = "Date Concept was retired"
+* ^property[=].type = #dateTime
 * #4310 "Insertion professionnelle et sociale des adultes handicapés"
 * #4310 ^designation.language = #fr-FR
 * #4310 ^designation.use.system = "http://snomed.info/sct"
@@ -34,6 +47,8 @@ Description: "Agrégats de disciplines d'équipement pour le social niveau 3"
 * #4310 ^property[=].valueDateTime = "2020-06-26T12:00:00+01:00"
 * #4310 ^property[+].code = #dateMaj
 * #4310 ^property[=].valueDateTime = "2020-06-26T12:00:00+01:00"
+* #4310 ^property[+].code = #status
+* #4310 ^property[=].valueCode = #active
 * #4320 "Hébergement des adultes handicapés"
 * #4320 ^designation.language = #fr-FR
 * #4320 ^designation.use.system = "http://snomed.info/sct"
@@ -43,6 +58,8 @@ Description: "Agrégats de disciplines d'équipement pour le social niveau 3"
 * #4320 ^property[=].valueDateTime = "2020-06-26T12:00:00+01:00"
 * #4320 ^property[+].code = #dateMaj
 * #4320 ^property[=].valueDateTime = "2020-06-26T12:00:00+01:00"
+* #4320 ^property[+].code = #status
+* #4320 ^property[=].valueCode = #active
 * #4330 "Accueil et accompagnement pour personnes handicapées"
 * #4330 ^designation.language = #fr-FR
 * #4330 ^designation.use.system = "http://snomed.info/sct"
@@ -52,6 +69,8 @@ Description: "Agrégats de disciplines d'équipement pour le social niveau 3"
 * #4330 ^property[=].valueDateTime = "2020-06-26T12:00:00+01:00"
 * #4330 ^property[+].code = #dateMaj
 * #4330 ^property[=].valueDateTime = "2020-06-26T12:00:00+01:00"
+* #4330 ^property[+].code = #status
+* #4330 ^property[=].valueCode = #active
 * #4410 "Soins médico sociaux aux personnes âgées"
 * #4410 ^designation.language = #fr-FR
 * #4410 ^designation.use.system = "http://snomed.info/sct"
@@ -61,11 +80,15 @@ Description: "Agrégats de disciplines d'équipement pour le social niveau 3"
 * #4410 ^property[=].valueDateTime = "2020-06-26T12:00:00+01:00"
 * #4410 ^property[+].code = #dateMaj
 * #4410 ^property[=].valueDateTime = "2020-06-26T12:00:00+01:00"
+* #4410 ^property[+].code = #status
+* #4410 ^property[=].valueCode = #active
 * #4420 "Hébergement personnes âgées"
 * #4420 ^property[0].code = #dateValid
 * #4420 ^property[=].valueDateTime = "2020-06-26T12:00:00+01:00"
 * #4420 ^property[+].code = #dateMaj
 * #4420 ^property[=].valueDateTime = "2020-06-26T12:00:00+01:00"
+* #4420 ^property[+].code = #status
+* #4420 ^property[=].valueCode = #active
 * #4510 "Accueil au titre de la protection de l'enfance"
 * #4510 ^designation.language = #fr-FR
 * #4510 ^designation.use.system = "http://snomed.info/sct"
@@ -75,6 +98,8 @@ Description: "Agrégats de disciplines d'équipement pour le social niveau 3"
 * #4510 ^property[=].valueDateTime = "2020-06-26T12:00:00+01:00"
 * #4510 ^property[+].code = #dateMaj
 * #4510 ^property[=].valueDateTime = "2020-06-26T12:00:00+01:00"
+* #4510 ^property[+].code = #status
+* #4510 ^property[=].valueCode = #active
 * #4520 "Observation orientation mineurs en difficulté"
 * #4520 ^designation.language = #fr-FR
 * #4520 ^designation.use.system = "http://snomed.info/sct"
@@ -84,6 +109,8 @@ Description: "Agrégats de disciplines d'équipement pour le social niveau 3"
 * #4520 ^property[=].valueDateTime = "2020-06-26T12:00:00+01:00"
 * #4520 ^property[+].code = #dateMaj
 * #4520 ^property[=].valueDateTime = "2020-06-26T12:00:00+01:00"
+* #4520 ^property[+].code = #status
+* #4520 ^property[=].valueCode = #active
 * #4530 "Soutien personnalisé enfants et ado en difficulté sociale"
 * #4530 ^designation.language = #fr-FR
 * #4530 ^designation.use.system = "http://snomed.info/sct"
@@ -93,6 +120,8 @@ Description: "Agrégats de disciplines d'équipement pour le social niveau 3"
 * #4530 ^property[=].valueDateTime = "2020-06-26T12:00:00+01:00"
 * #4530 ^property[+].code = #dateMaj
 * #4530 ^property[=].valueDateTime = "2020-06-26T12:00:00+01:00"
+* #4530 ^property[+].code = #status
+* #4530 ^property[=].valueCode = #active
 * #4610 "Réinsertion professionnelle et sociale adultes en difficulté"
 * #4610 ^designation.language = #fr-FR
 * #4610 ^designation.use.system = "http://snomed.info/sct"
@@ -102,6 +131,8 @@ Description: "Agrégats de disciplines d'équipement pour le social niveau 3"
 * #4610 ^property[=].valueDateTime = "2020-06-26T12:00:00+01:00"
 * #4610 ^property[+].code = #dateMaj
 * #4610 ^property[=].valueDateTime = "2020-06-26T12:00:00+01:00"
+* #4610 ^property[+].code = #status
+* #4610 ^property[=].valueCode = #active
 * #4620 "Hébergement des adultes en difficulté"
 * #4620 ^designation.language = #fr-FR
 * #4620 ^designation.use.system = "http://snomed.info/sct"
@@ -111,6 +142,8 @@ Description: "Agrégats de disciplines d'équipement pour le social niveau 3"
 * #4620 ^property[=].valueDateTime = "2020-06-26T12:00:00+01:00"
 * #4620 ^property[+].code = #dateMaj
 * #4620 ^property[=].valueDateTime = "2020-06-26T12:00:00+01:00"
+* #4620 ^property[+].code = #status
+* #4620 ^property[=].valueCode = #active
 * #4630 "Hébergement des autres adultes"
 * #4630 ^designation.language = #fr-FR
 * #4630 ^designation.use.system = "http://snomed.info/sct"
@@ -120,6 +153,8 @@ Description: "Agrégats de disciplines d'équipement pour le social niveau 3"
 * #4630 ^property[=].valueDateTime = "2020-06-26T12:00:00+01:00"
 * #4630 ^property[+].code = #dateMaj
 * #4630 ^property[=].valueDateTime = "2020-06-26T12:00:00+01:00"
+* #4630 ^property[+].code = #status
+* #4630 ^property[=].valueCode = #active
 * #4640 "Prise en charge des personnes en difficultés spécifiques"
 * #4640 ^designation.language = #fr-FR
 * #4640 ^designation.use.system = "http://snomed.info/sct"
@@ -129,6 +164,8 @@ Description: "Agrégats de disciplines d'équipement pour le social niveau 3"
 * #4640 ^property[=].valueDateTime = "2020-06-26T12:00:00+01:00"
 * #4640 ^property[+].code = #dateMaj
 * #4640 ^property[=].valueDateTime = "2020-06-26T12:00:00+01:00"
+* #4640 ^property[+].code = #status
+* #4640 ^property[=].valueCode = #active
 * #4650 "Mesures de protection des majeurs"
 * #4650 ^designation.language = #fr-FR
 * #4650 ^designation.use.system = "http://snomed.info/sct"
@@ -138,6 +175,8 @@ Description: "Agrégats de disciplines d'équipement pour le social niveau 3"
 * #4650 ^property[=].valueDateTime = "2020-06-26T12:00:00+01:00"
 * #4650 ^property[+].code = #dateMaj
 * #4650 ^property[=].valueDateTime = "2020-06-26T12:00:00+01:00"
+* #4650 ^property[+].code = #status
+* #4650 ^property[=].valueCode = #active
 * #4710 "Soins médico-sociaux enfance handicapée"
 * #4710 ^designation.language = #fr-FR
 * #4710 ^designation.use.system = "http://snomed.info/sct"
@@ -147,6 +186,8 @@ Description: "Agrégats de disciplines d'équipement pour le social niveau 3"
 * #4710 ^property[=].valueDateTime = "2020-06-26T12:00:00+01:00"
 * #4710 ^property[+].code = #dateMaj
 * #4710 ^property[=].valueDateTime = "2020-06-26T12:00:00+01:00"
+* #4710 ^property[+].code = #status
+* #4710 ^property[=].valueCode = #active
 * #4720 "Education spéciale enfance handicapée"
 * #4720 ^designation.language = #fr-FR
 * #4720 ^designation.use.system = "http://snomed.info/sct"
@@ -156,6 +197,8 @@ Description: "Agrégats de disciplines d'équipement pour le social niveau 3"
 * #4720 ^property[=].valueDateTime = "2020-06-26T12:00:00+01:00"
 * #4720 ^property[+].code = #dateMaj
 * #4720 ^property[=].valueDateTime = "2020-06-26T12:00:00+01:00"
+* #4720 ^property[+].code = #status
+* #4720 ^property[=].valueCode = #active
 * #4730 "Hébergement enfance handicapée"
 * #4730 ^designation.language = #fr-FR
 * #4730 ^designation.use.system = "http://snomed.info/sct"
@@ -165,6 +208,8 @@ Description: "Agrégats de disciplines d'équipement pour le social niveau 3"
 * #4730 ^property[=].valueDateTime = "2020-06-26T12:00:00+01:00"
 * #4730 ^property[+].code = #dateMaj
 * #4730 ^property[=].valueDateTime = "2020-06-26T12:00:00+01:00"
+* #4730 ^property[+].code = #status
+* #4730 ^property[=].valueCode = #active
 * #4740 "Education adaptée et accompagnement social et médico-social"
 * #4740 ^designation.language = #fr-FR
 * #4740 ^designation.use.system = "http://snomed.info/sct"
@@ -174,16 +219,22 @@ Description: "Agrégats de disciplines d'équipement pour le social niveau 3"
 * #4740 ^property[=].valueDateTime = "2020-06-26T12:00:00+01:00"
 * #4740 ^property[+].code = #dateMaj
 * #4740 ^property[=].valueDateTime = "2020-06-26T12:00:00+01:00"
+* #4740 ^property[+].code = #status
+* #4740 ^property[=].valueCode = #active
 * #4810 "Garde des enfants"
 * #4810 ^property[0].code = #dateValid
 * #4810 ^property[=].valueDateTime = "2020-06-26T12:00:00+01:00"
 * #4810 ^property[+].code = #dateMaj
 * #4810 ^property[=].valueDateTime = "2020-06-26T12:00:00+01:00"
+* #4810 ^property[+].code = #status
+* #4810 ^property[=].valueCode = #active
 * #4820 "Services à la famille"
 * #4820 ^property[0].code = #dateValid
 * #4820 ^property[=].valueDateTime = "2020-06-26T12:00:00+01:00"
 * #4820 ^property[+].code = #dateMaj
 * #4820 ^property[=].valueDateTime = "2020-06-26T12:00:00+01:00"
+* #4820 ^property[+].code = #status
+* #4820 ^property[=].valueCode = #active
 * #4910 "Services medico-sociaux à domicile"
 * #4910 ^designation.language = #fr-FR
 * #4910 ^designation.use.system = "http://snomed.info/sct"
@@ -193,6 +244,8 @@ Description: "Agrégats de disciplines d'équipement pour le social niveau 3"
 * #4910 ^property[=].valueDateTime = "2020-06-26T12:00:00+01:00"
 * #4910 ^property[+].code = #dateMaj
 * #4910 ^property[=].valueDateTime = "2020-06-26T12:00:00+01:00"
+* #4910 ^property[+].code = #status
+* #4910 ^property[=].valueCode = #active
 * #4920 "Recherche et administration domaine social"
 * #4920 ^designation.language = #fr-FR
 * #4920 ^designation.use.system = "http://snomed.info/sct"
@@ -202,6 +255,8 @@ Description: "Agrégats de disciplines d'équipement pour le social niveau 3"
 * #4920 ^property[=].valueDateTime = "2020-06-26T12:00:00+01:00"
 * #4920 ^property[+].code = #dateMaj
 * #4920 ^property[=].valueDateTime = "2020-06-26T12:00:00+01:00"
+* #4920 ^property[+].code = #status
+* #4920 ^property[=].valueCode = #active
 * #4930 "Activité expérimentale dans établissements sociaux"
 * #4930 ^designation.language = #fr-FR
 * #4930 ^designation.use.system = "http://snomed.info/sct"
@@ -211,6 +266,8 @@ Description: "Agrégats de disciplines d'équipement pour le social niveau 3"
 * #4930 ^property[=].valueDateTime = "2020-06-26T12:00:00+01:00"
 * #4930 ^property[+].code = #dateMaj
 * #4930 ^property[=].valueDateTime = "2020-06-26T12:00:00+01:00"
+* #4930 ^property[+].code = #status
+* #4930 ^property[=].valueCode = #active
 * #4940 "Activité des centres de ressources"
 * #4940 ^designation.language = #fr-FR
 * #4940 ^designation.use = $sct#900000000000013009
@@ -219,3 +276,5 @@ Description: "Agrégats de disciplines d'équipement pour le social niveau 3"
 * #4940 ^property[=].valueDateTime = "2020-06-26T12:00:00+01:00"
 * #4940 ^property[+].code = #dateMaj
 * #4940 ^property[=].valueDateTime = "2020-06-26T12:00:00+01:00"
+* #4940 ^property[+].code = #status
+* #4940 ^property[=].valueCode = #active

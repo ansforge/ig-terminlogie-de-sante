@@ -1,8 +1,8 @@
 CodeSystem: TRE_R231_PalierAuthentification
 Id: TRE-R231-PalierAuthentification
 Description: "Paliers des référentiels d'authentification de la PGSSI-S"
-* ^meta.versionId = "4"
-* ^meta.lastUpdated = "2024-08-28T05:12:37.003+00:00"
+* ^meta.versionId = "5"
+* ^meta.lastUpdated = "2025-07-02T18:16:19.952+00:00"
 * ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablecodesystem"
 * ^extension.url = "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod"
 * ^extension.valuePeriod.start = "2017-07-07T10:00:00+01:00"
@@ -14,6 +14,7 @@ Description: "Paliers des référentiels d'authentification de la PGSSI-S"
 * ^experimental = false
 * ^date = "2023-12-15T12:00:00+01:00"
 * ^publisher = "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris"
+* ^jurisdiction = urn:iso:std:iso:3166#FR
 * ^caseSensitive = false
 * ^content = #complete
 * ^property[0].code = #dateValid
@@ -24,6 +25,18 @@ Description: "Paliers des référentiels d'authentification de la PGSSI-S"
 * ^property[=].type = #dateTime
 * ^property[+].code = #dateFin
 * ^property[=].description = "Date de fin d'exploitation d'un code concept"
+* ^property[=].type = #dateTime
+* ^property[+].code = #deprecationDate
+* ^property[=].uri = "http://hl7.org/fhir/concept-properties#deprecationDate"
+* ^property[=].description = "Date Concept was deprecated"
+* ^property[=].type = #dateTime
+* ^property[+].code = #status
+* ^property[=].uri = "http://hl7.org/fhir/concept-properties#status"
+* ^property[=].description = "A property that indicates the status of the concept."
+* ^property[=].type = #code
+* ^property[+].code = #retirementDate
+* ^property[=].uri = "http://hl7.org/fhir/concept-properties#retirementDate"
+* ^property[=].description = "Date Concept was retired"
 * ^property[=].type = #dateTime
 * #APMPUBP2 "Palier 2 authent. pub acteurs sanitaires, médico-sociaux et sociaux PM"
 * #APMPUBP2 ^designation[0].language = #fr-FR
@@ -38,6 +51,8 @@ Description: "Paliers des référentiels d'authentification de la PGSSI-S"
 * #APMPUBP2 ^property[=].valueDateTime = "2017-07-07T10:00:00+01:00"
 * #APMPUBP2 ^property[+].code = #dateMaj
 * #APMPUBP2 ^property[=].valueDateTime = "2017-07-07T10:00:00+01:00"
+* #APMPUBP2 ^property[+].code = #status
+* #APMPUBP2 ^property[=].valueCode = #active
 * #APMPUBP3 "Palier 3 authent. pub acteurs sanitaires, médico-sociaux et sociaux PM"
 * #APMPUBP3 ^designation[0].language = #fr-FR
 * #APMPUBP3 ^designation[=].use.system = "http://snomed.info/sct"
@@ -51,6 +66,8 @@ Description: "Paliers des référentiels d'authentification de la PGSSI-S"
 * #APMPUBP3 ^property[=].valueDateTime = "2017-07-07T10:00:00+01:00"
 * #APMPUBP3 ^property[+].code = #dateMaj
 * #APMPUBP3 ^property[=].valueDateTime = "2017-07-07T10:00:00+01:00"
+* #APMPUBP3 ^property[+].code = #status
+* #APMPUBP3 ^property[=].valueCode = #active
 * #APPPRIP1 "Palier 1 authent. privée acteurs sanitaires, médico-sociaux et sociaux PP"
 * #APPPRIP1 ^designation[0].language = #fr-FR
 * #APPPRIP1 ^designation[=].use.system = "http://snomed.info/sct"
@@ -64,6 +81,8 @@ Description: "Paliers des référentiels d'authentification de la PGSSI-S"
 * #APPPRIP1 ^property[=].valueDateTime = "2017-07-07T10:00:00+01:00"
 * #APPPRIP1 ^property[+].code = #dateMaj
 * #APPPRIP1 ^property[=].valueDateTime = "2017-07-07T10:00:00+01:00"
+* #APPPRIP1 ^property[+].code = #status
+* #APPPRIP1 ^property[=].valueCode = #active
 * #APPPRIP2 "Palier 2 authent. privée acteurs sanitaires, médico-sociaux et sociaux PP"
 * #APPPRIP2 ^designation[0].language = #fr-FR
 * #APPPRIP2 ^designation[=].use.system = "http://snomed.info/sct"
@@ -77,6 +96,8 @@ Description: "Paliers des référentiels d'authentification de la PGSSI-S"
 * #APPPRIP2 ^property[=].valueDateTime = "2017-07-07T10:00:00+01:00"
 * #APPPRIP2 ^property[+].code = #dateMaj
 * #APPPRIP2 ^property[=].valueDateTime = "2017-07-07T10:00:00+01:00"
+* #APPPRIP2 ^property[+].code = #status
+* #APPPRIP2 ^property[=].valueCode = #active
 * #APPPRIP3 "Palier 3 authent. privée acteurs sanitaires, médico-sociaux et sociaux PP"
 * #APPPRIP3 ^designation[0].language = #fr-FR
 * #APPPRIP3 ^designation[=].use.system = "http://snomed.info/sct"
@@ -90,6 +111,8 @@ Description: "Paliers des référentiels d'authentification de la PGSSI-S"
 * #APPPRIP3 ^property[=].valueDateTime = "2017-07-07T10:00:00+01:00"
 * #APPPRIP3 ^property[+].code = #dateMaj
 * #APPPRIP3 ^property[=].valueDateTime = "2017-07-07T10:00:00+01:00"
+* #APPPRIP3 ^property[+].code = #status
+* #APPPRIP3 ^property[=].valueCode = #active
 * #APPPUBP2 "Palier 2 authent. pub acteurs sanitaires, médico-sociaux et sociaux PP"
 * #APPPUBP2 ^designation[0].language = #fr-FR
 * #APPPUBP2 ^designation[=].use.system = "http://snomed.info/sct"
@@ -103,6 +126,8 @@ Description: "Paliers des référentiels d'authentification de la PGSSI-S"
 * #APPPUBP2 ^property[=].valueDateTime = "2017-07-07T10:00:00+01:00"
 * #APPPUBP2 ^property[+].code = #dateMaj
 * #APPPUBP2 ^property[=].valueDateTime = "2017-07-07T10:00:00+01:00"
+* #APPPUBP2 ^property[+].code = #status
+* #APPPUBP2 ^property[=].valueCode = #active
 * #APPPUBP3 "Palier 3 authent. pub acteurs sanitaires, médico-sociaux et sociaux PP"
 * #APPPUBP3 ^designation[0].language = #fr-FR
 * #APPPUBP3 ^designation[=].use = $sct#900000000000013009
@@ -114,3 +139,5 @@ Description: "Paliers des référentiels d'authentification de la PGSSI-S"
 * #APPPUBP3 ^property[=].valueDateTime = "2017-07-07T10:00:00+01:00"
 * #APPPUBP3 ^property[+].code = #dateMaj
 * #APPPUBP3 ^property[=].valueDateTime = "2017-07-07T10:00:00+01:00"
+* #APPPUBP3 ^property[+].code = #status
+* #APPPUBP3 ^property[=].valueCode = #active

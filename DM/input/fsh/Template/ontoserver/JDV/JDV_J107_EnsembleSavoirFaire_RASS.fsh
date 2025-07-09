@@ -1,9 +1,10 @@
 ValueSet: JDV_J107_EnsembleSavoirFaire_RASS
 Id: JDV-J107-EnsembleSavoirFaire-RASS
 Description: "Ensemble des savoir-faire et compétences du RASS"
-* ^meta.versionId = "6"
-* ^meta.lastUpdated = "2024-10-31T18:01:33.270+00:00"
+* ^meta.versionId = "9"
+* ^meta.lastUpdated = "2025-07-02T17:04:44.812+00:00"
 * ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablevalueset"
+* ^language = #fr-FR
 * ^extension.url = "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod"
 * ^extension.valuePeriod.start = "2019-08-30T12:00:00+01:00"
 * ^url = "https://mos.esante.gouv.fr/NOS/JDV_J107-EnsembleSavoirFaire-RASS/FHIR/JDV-J107-EnsembleSavoirFaire-RASS"
@@ -14,6 +15,7 @@ Description: "Ensemble des savoir-faire et compétences du RASS"
 * ^experimental = false
 * ^date = "2024-10-25T12:00:00+01:00"
 * ^publisher = "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris"
+* ^jurisdiction = urn:iso:std:iso:3166#FR
 * $TRE-R38-SpecialiteOrdinale#SI01 "Exercice infirmier en pratique avancée pathologies chroniques stabilisées (SI)"
 * $TRE-R38-SpecialiteOrdinale#SI02 "Exercice infirmier en pratique avancée oncologie et hémato-oncologie (SI)"
 * $TRE-R38-SpecialiteOrdinale#SI03 "Exercice infirmier en pratique avancée maladie rénale chronique (SI)"
@@ -279,3 +281,4 @@ Description: "Ensemble des savoir-faire et compétences du RASS"
 * $TRE-R359-SurspecialiteTransversale#SST24 "Sommeil"
 * $TRE-R359-SurspecialiteTransversale#SST25 "Thérapie cellulaire/ transfusion"
 * $TRE-R359-SurspecialiteTransversale#SST26 "Urgences pédiatriques"
+* $tre-r394-competence-metier#CM0001 "Certificat de décès"

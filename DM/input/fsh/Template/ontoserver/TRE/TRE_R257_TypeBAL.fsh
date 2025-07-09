@@ -1,8 +1,8 @@
 CodeSystem: TRE_R257_TypeBAL
 Id: TRE-R257-TypeBAL
 Description: "Type de boîte aux lettres"
-* ^meta.versionId = "4"
-* ^meta.lastUpdated = "2024-08-28T05:12:51.395+00:00"
+* ^meta.versionId = "5"
+* ^meta.lastUpdated = "2025-07-02T18:16:42.167+00:00"
 * ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablecodesystem"
 * ^extension.url = "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod"
 * ^extension.valuePeriod.start = "2018-03-30T12:00:00+01:00"
@@ -14,6 +14,7 @@ Description: "Type de boîte aux lettres"
 * ^experimental = false
 * ^date = "2023-12-15T12:00:00+01:00"
 * ^publisher = "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris"
+* ^jurisdiction = urn:iso:std:iso:3166#FR
 * ^caseSensitive = false
 * ^content = #complete
 * ^property[0].code = #dateValid
@@ -25,6 +26,18 @@ Description: "Type de boîte aux lettres"
 * ^property[+].code = #dateFin
 * ^property[=].description = "Date de fin d'exploitation d'un code concept"
 * ^property[=].type = #dateTime
+* ^property[+].code = #deprecationDate
+* ^property[=].uri = "http://hl7.org/fhir/concept-properties#deprecationDate"
+* ^property[=].description = "Date Concept was deprecated"
+* ^property[=].type = #dateTime
+* ^property[+].code = #status
+* ^property[=].uri = "http://hl7.org/fhir/concept-properties#status"
+* ^property[=].description = "A property that indicates the status of the concept."
+* ^property[=].type = #code
+* ^property[+].code = #retirementDate
+* ^property[=].uri = "http://hl7.org/fhir/concept-properties#retirementDate"
+* ^property[=].description = "Date Concept was retired"
+* ^property[=].type = #dateTime
 * #PER "Boîte aux lettres personnelle"
 * #PER ^designation.language = #fr-FR
 * #PER ^designation.use.system = "http://snomed.info/sct"
@@ -34,6 +47,8 @@ Description: "Type de boîte aux lettres"
 * #PER ^property[=].valueDateTime = "2018-03-30T12:00:00+01:00"
 * #PER ^property[+].code = #dateMaj
 * #PER ^property[=].valueDateTime = "2018-03-30T12:00:00+01:00"
+* #PER ^property[+].code = #status
+* #PER ^property[=].valueCode = #active
 * #ORG "Boîte aux lettres organisationnelle"
 * #ORG ^designation.language = #fr-FR
 * #ORG ^designation.use.system = "http://snomed.info/sct"
@@ -43,6 +58,8 @@ Description: "Type de boîte aux lettres"
 * #ORG ^property[=].valueDateTime = "2018-03-30T12:00:00+01:00"
 * #ORG ^property[+].code = #dateMaj
 * #ORG ^property[=].valueDateTime = "2018-03-30T12:00:00+01:00"
+* #ORG ^property[+].code = #status
+* #ORG ^property[=].valueCode = #active
 * #APP "Boîte aux lettres applicative"
 * #APP ^designation.language = #fr-FR
 * #APP ^designation.use.system = "http://snomed.info/sct"
@@ -52,6 +69,8 @@ Description: "Type de boîte aux lettres"
 * #APP ^property[=].valueDateTime = "2018-03-30T12:00:00+01:00"
 * #APP ^property[+].code = #dateMaj
 * #APP ^property[=].valueDateTime = "2018-03-30T12:00:00+01:00"
+* #APP ^property[+].code = #status
+* #APP ^property[=].valueCode = #active
 * #CAB "Boîte aux lettres cabinet"
 * #CAB ^designation.language = #fr-FR
 * #CAB ^designation.use = $sct#900000000000013009
@@ -60,3 +79,5 @@ Description: "Type de boîte aux lettres"
 * #CAB ^property[=].valueDateTime = "2023-11-24T12:00:00+01:00"
 * #CAB ^property[+].code = #dateMaj
 * #CAB ^property[=].valueDateTime = "2023-11-24T12:00:00+01:00"
+* #CAB ^property[+].code = #status
+* #CAB ^property[=].valueCode = #active

@@ -1,8 +1,8 @@
 CodeSystem: TRE_G16_ProfessionFormation
 Id: TRE-G16-ProfessionFormation
 Description: "Professions en formation (carte CPF)"
-* ^meta.versionId = "4"
-* ^meta.lastUpdated = "2024-08-28T05:10:54.220+00:00"
+* ^meta.versionId = "5"
+* ^meta.lastUpdated = "2025-07-02T18:11:48.965+00:00"
 * ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablecodesystem"
 * ^extension.url = "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod"
 * ^extension.valuePeriod.start = "2000-12-13T00:00:00+01:00"
@@ -14,6 +14,7 @@ Description: "Professions en formation (carte CPF)"
 * ^experimental = false
 * ^date = "2023-12-15T12:00:00+01:00"
 * ^publisher = "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris"
+* ^jurisdiction = urn:iso:std:iso:3166#FR
 * ^caseSensitive = false
 * ^content = #complete
 * ^property[0].code = #dateValid
@@ -25,16 +26,32 @@ Description: "Professions en formation (carte CPF)"
 * ^property[+].code = #dateFin
 * ^property[=].description = "Date de fin d'exploitation d'un code concept"
 * ^property[=].type = #dateTime
+* ^property[+].code = #deprecationDate
+* ^property[=].uri = "http://hl7.org/fhir/concept-properties#deprecationDate"
+* ^property[=].description = "Date Concept was deprecated"
+* ^property[=].type = #dateTime
+* ^property[+].code = #status
+* ^property[=].uri = "http://hl7.org/fhir/concept-properties#status"
+* ^property[=].description = "A property that indicates the status of the concept."
+* ^property[=].type = #code
+* ^property[+].code = #retirementDate
+* ^property[=].uri = "http://hl7.org/fhir/concept-properties#retirementDate"
+* ^property[=].description = "Date Concept was retired"
+* ^property[=].type = #dateTime
 * #10 "Médecin en formation"
 * #10 ^property[0].code = #dateValid
 * #10 ^property[=].valueDateTime = "2000-12-13T00:00:00+01:00"
 * #10 ^property[+].code = #dateMaj
 * #10 ^property[=].valueDateTime = "2000-12-13T00:00:00+01:00"
+* #10 ^property[+].code = #status
+* #10 ^property[=].valueCode = #active
 * #21 "Pharmacien en formation"
 * #21 ^property[0].code = #dateValid
 * #21 ^property[=].valueDateTime = "2000-12-13T00:00:00+01:00"
 * #21 ^property[+].code = #dateMaj
 * #21 ^property[=].valueDateTime = "2000-12-13T00:00:00+01:00"
+* #21 ^property[+].code = #status
+* #21 ^property[=].valueCode = #active
 * #40 "Chirurgien-Dentiste en formation"
 * #40 ^designation.language = #fr-FR
 * #40 ^designation.use = $sct#900000000000013009
@@ -43,8 +60,12 @@ Description: "Professions en formation (carte CPF)"
 * #40 ^property[=].valueDateTime = "2000-12-13T00:00:00+01:00"
 * #40 ^property[+].code = #dateMaj
 * #40 ^property[=].valueDateTime = "2016-09-01T00:00:00+01:00"
+* #40 ^property[+].code = #status
+* #40 ^property[=].valueCode = #active
 * #50 "Sage-Femme en formation"
 * #50 ^property[0].code = #dateValid
 * #50 ^property[=].valueDateTime = "2000-12-13T00:00:00+01:00"
 * #50 ^property[+].code = #dateMaj
 * #50 ^property[=].valueDateTime = "2000-12-13T00:00:00+01:00"
+* #50 ^property[+].code = #status
+* #50 ^property[=].valueCode = #active

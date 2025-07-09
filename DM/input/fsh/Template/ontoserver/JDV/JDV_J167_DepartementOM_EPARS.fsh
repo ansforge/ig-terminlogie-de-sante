@@ -1,9 +1,10 @@
 ValueSet: JDV_J167_DepartementOM_EPARS
 Id: JDV-J167-DepartementOM-EPARS
 Description: "Département pour saisie dans EPARS"
-* ^meta.versionId = "4"
-* ^meta.lastUpdated = "2024-04-27T05:06:59.680+00:00"
+* ^meta.versionId = "5"
+* ^meta.lastUpdated = "2025-07-02T17:05:23.869+00:00"
 * ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablevalueset"
+* ^language = #fr-FR
 * ^extension.url = "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod"
 * ^extension.valuePeriod.start = "2021-06-25T12:00:00+01:00"
 * ^extension.valuePeriod.end = "2024-01-26T12:00:00+01:00"
@@ -15,6 +16,7 @@ Description: "Département pour saisie dans EPARS"
 * ^experimental = false
 * ^date = "2024-01-26T12:00:00+01:00"
 * ^publisher = "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris"
+* ^jurisdiction = urn:iso:std:iso:3166#FR
 * $TRE-G09-DepartementOM#01 "Ain"
 * $TRE-G09-DepartementOM#02 "Aisne"
 * $TRE-G09-DepartementOM#03 "Allier"

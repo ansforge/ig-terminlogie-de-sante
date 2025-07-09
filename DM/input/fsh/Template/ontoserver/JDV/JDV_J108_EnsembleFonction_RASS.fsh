@@ -1,19 +1,21 @@
 ValueSet: JDV_J108_EnsembleFonction_RASS
 Id: JDV-J108-EnsembleFonction-RASS
 Description: "Ensemble des fonctions et rôles du RASS"
-* ^meta.versionId = "10"
-* ^meta.lastUpdated = "2025-03-31T17:32:56.483+00:00"
+* ^meta.versionId = "13"
+* ^meta.lastUpdated = "2025-07-02T17:04:45.789+00:00"
 * ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablevalueset"
+* ^language = #fr-FR
 * ^extension.url = "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod"
 * ^extension.valuePeriod.start = "2019-08-30T12:00:00+01:00"
 * ^url = "https://mos.esante.gouv.fr/NOS/JDV_J108-EnsembleFonction-RASS/FHIR/JDV-J108-EnsembleFonction-RASS"
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value = "urn:oid:1.2.250.1.213.1.6.1.176"
-* ^version = "20250328120000"
+* ^version = "20250626120000"
 * ^status = #active
 * ^experimental = false
-* ^date = "2025-03-28T12:00:00+01:00"
+* ^date = "2025-06-26T12:00:00+01:00"
 * ^publisher = "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris"
+* ^jurisdiction = urn:iso:std:iso:3166#FR
 * $TRE-R21-Fonction#FON-01 "Titulaire de cabinet"
 * $TRE-R21-Fonction#FON-02 "Associé dans une société d'exercice (SEL ou SCP)"
 * $TRE-R21-Fonction#FON-03 "Titulaire d'officine"
@@ -54,6 +56,7 @@ Description: "Ensemble des fonctions et rôles du RASS"
 * $TRE-R21-Fonction#FON-57 "Docteur junior"
 * $TRE-R21-Fonction#FON-58 "Activité en piscine ou bassin"
 * $TRE-R21-Fonction#FON-59 "Gérant d'antenne"
+* $TRE-R21-Fonction#FON-60 "Pharmacien remplaçant BPDO"
 * $TRE-R21-Fonction#FON-AU "Fonction non définie"
 * $TRE-R96-AutreFonctionSanitaire#407 "Tatoueur"
 * $TRE-R96-AutreFonctionSanitaire#408 "Perceur corporel"

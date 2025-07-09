@@ -1,9 +1,10 @@
 ValueSet: JDV_J218_CNAMAmeliSecteurConventionnement_ROR
 Id: JDV-J218-CNAMAmeliSecteurConventionnement-ROR
 Description: "Secteur de conventionnement du professionnel libéral par la CNAM extracts ameli"
-* ^meta.versionId = "3"
-* ^meta.lastUpdated = "2024-04-27T05:07:22.722+00:00"
+* ^meta.versionId = "4"
+* ^meta.lastUpdated = "2025-07-02T17:05:53.303+00:00"
 * ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablevalueset"
+* ^language = #fr-FR
 * ^extension.url = "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod"
 * ^extension.valuePeriod.start = "2022-08-26T12:00:00+01:00"
 * ^url = "https://mos.esante.gouv.fr/NOS/JDV_J218-CNAMAmeliSecteurConventionnement-ROR/FHIR/JDV-J218-CNAMAmeliSecteurConventionnement-ROR"
@@ -14,6 +15,7 @@ Description: "Secteur de conventionnement du professionnel libéral par la CNAM 
 * ^experimental = false
 * ^date = "2022-08-26T12:00:00+01:00"
 * ^publisher = "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris"
+* ^jurisdiction = urn:iso:std:iso:3166#FR
 * $TRE-R282-CNAMAmeliSecteurConventionnement#nc "Non conventionné"
 * $TRE-R282-CNAMAmeliSecteurConventionnement#c1 "Secteur 1 ou conventionné"
 * $TRE-R282-CNAMAmeliSecteurConventionnement#c2 "Secteur 1 ou conventionné avec droit au dépassement permanent"

@@ -1,21 +1,23 @@
 CodeSystem: TRE_R211_ActiviteOperationnelle
 Id: TRE-R211-ActiviteOperationnelle
 Description: "Activite Operationnelle"
-* ^meta.versionId = "15"
-* ^meta.lastUpdated = "2025-04-25T18:12:28.675+00:00"
+* ^meta.versionId = "17"
+* ^meta.lastUpdated = "2025-07-02T18:15:58.944+00:00"
 * ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablecodesystem"
 * ^extension.url = "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod"
 * ^extension.valuePeriod.start = "2015-04-08T00:00:00+01:00"
 * ^url = "https://mos.esante.gouv.fr/NOS/TRE_R211-ActiviteOperationnelle/FHIR/TRE-R211-ActiviteOperationnelle"
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value = "urn:oid:1.2.250.1.213.3.3.12"
-* ^version = "20250425120000"
+* ^version = "20250623120000"
 * ^status = #active
 * ^experimental = false
-* ^date = "2025-04-25T12:00:00+01:00"
+* ^date = "2025-06-23T12:00:00+01:00"
 * ^publisher = "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris"
+* ^jurisdiction = urn:iso:std:iso:3166#FR
 * ^caseSensitive = false
 * ^content = #complete
+* ^count = 592
 * ^property[0].code = #dateValid
 * ^property[=].description = "date de validité d'un code concept"
 * ^property[=].type = #dateTime
@@ -1943,18 +1945,18 @@ Description: "Activite Operationnelle"
 * #226 ^property[=].valueDateTime = "2022-10-28T12:00:00+01:00"
 * #226 ^property[+].code = #status
 * #226 ^property[=].valueCode = #active
-* #227 "Psychiatrie de l’enfant" "Branche de la pédopsychiatrie, qui se concentre sur les troubles mentaux et les problèmes de santé mentale chez les enfants, généralement de la naissance jusqu'à l'adolescence. Cette discipline vise à comprendre, diagnostiquer et traiter les troubles psychiatriques qui apparaissent durant cette période cruciale de développement"
+* #227 "Psychiatrie de l’enfant (pédopsychiatrie)" "Branche de la pédopsychiatrie, qui se concentre sur les troubles mentaux et les problèmes de santé mentale chez les enfants, généralement de la naissance jusqu'à l'adolescence. Cette discipline vise à comprendre, diagnostiquer et traiter les troubles psychiatriques qui apparaissent durant cette période cruciale de développement"
 * #227 ^property[0].code = #dateValid
 * #227 ^property[=].valueDateTime = "2017-07-07T10:00:00+01:00"
 * #227 ^property[+].code = #dateMaj
-* #227 ^property[=].valueDateTime = "2025-03-28T12:00:00+01:00"
+* #227 ^property[=].valueDateTime = "2025-06-20T12:00:00+01:00"
 * #227 ^property[+].code = #status
 * #227 ^property[=].valueCode = #active
-* #228 "Psychiatrie de l’adolescent" "Branche de la pédopsychiatrie qui se concentre sur les troubles mentaux et les problèmes de santé mentale chez les adolescents, généralement âgés de 12 à 18 ans. Cette discipline vise à comprendre et à traiter les spécificités des troubles psychiatriques qui apparaissent durant cette période de transition entre l'enfance et l'âge adulte"
+* #228 "Psychiatrie de l’adolescent (pédopsychiatrie)" "Branche de la pédopsychiatrie qui se concentre sur les troubles mentaux et les problèmes de santé mentale chez les adolescents, généralement âgés de 12 à 18 ans. Cette discipline vise à comprendre et à traiter les spécificités des troubles psychiatriques qui apparaissent durant cette période de transition entre l'enfance et l'âge adulte"
 * #228 ^property[0].code = #dateValid
 * #228 ^property[=].valueDateTime = "2017-07-07T10:00:00+01:00"
 * #228 ^property[+].code = #dateMaj
-* #228 ^property[=].valueDateTime = "2025-03-28T12:00:00+01:00"
+* #228 ^property[=].valueDateTime = "2025-06-20T12:00:00+01:00"
 * #228 ^property[+].code = #status
 * #228 ^property[=].valueCode = #active
 * #229 "Psychiatrie adulte"
@@ -4068,11 +4070,11 @@ Description: "Activite Operationnelle"
 * #509 ^property[=].valueDateTime = "2023-01-27T12:00:00+01:00"
 * #509 ^property[+].code = #status
 * #509 ^property[=].valueCode = #active
-* #510 "Échographie gynécologique et obstétricale (dont échographie de grossesse)" "Echographie qui s'applique aux organes pelviens de la femme, en particulier l'utérus, les ovaires, les trompes de Fallope, ainsi que la vessie, le cul-de-sac de Douglas. L'échographie de la grossesse permettent de suivre l'évolution et le bon développement du futur bébé tout au long de ces neuf mois."
+* #510 "Échographie obstétricale" "Echographie qui s'applique aux organes pelviens de la femme, en particulier l'utérus, les ovaires, les trompes de Fallope, ainsi que la vessie, le cul-de-sac de Douglas. L'échographie de la grossesse permettent de suivre l'évolution et le bon développement du futur bébé tout au long de ces neuf mois."
 * #510 ^property[0].code = #dateValid
 * #510 ^property[=].valueDateTime = "2023-01-27T12:00:00+01:00"
 * #510 ^property[+].code = #dateMaj
-* #510 ^property[=].valueDateTime = "2023-01-27T12:00:00+01:00"
+* #510 ^property[=].valueDateTime = "2025-06-20T12:00:00+01:00"
 * #510 ^property[+].code = #status
 * #510 ^property[=].valueCode = #active
 * #511 "Accueil et hébergement spécialisé" "Service qui vise à offrir à un enfant ou un adolescent handicapé un hébergement dans un environnement psychologique, éducatif et affectif complémentaire à celui qu'il peut trouver dans sa propre famille."
@@ -4186,6 +4188,7 @@ Description: "Activite Operationnelle"
 * #525 ^property[=].valueCode = #active
 * #526 "Inform, éval, accomp et orient pour orientation professionnelle"
 * #526 ^designation.language = #fr-FR
+* #526 ^designation.use.system = "http://snomed.info/sct"
 * #526 ^designation.use = $sct#900000000000013009
 * #526 ^designation.value = "Informer, évaluer, accompagner et orienter dans le cadre d'une orientation professionnelle"
 * #526 ^property[0].code = #dateValid
@@ -4194,11 +4197,11 @@ Description: "Activite Operationnelle"
 * #526 ^property[=].valueDateTime = "2023-05-26T12:00:00+01:00"
 * #526 ^property[+].code = #status
 * #526 ^property[=].valueCode = #active
-* #527 "Suivi gynécologique de prévention" "Consultation gynécologique qui permet les frottis, le dépistage, la prescription d'examens, la prescription de tous les moyens de contraception, de poser et retirer un stérilet ou un implant contraceptif, de pratiquer les IVG médicamenteuses, et de vacciner l'entourage de la femme et du nouveau-né."
+* #527 "Suivi gynécologique de prévention et contraception" "Consultation gynécologique qui permet les frottis, le dépistage, la prescription d'examens, la prescription de tous les moyens de contraception, de poser et retirer un stérilet ou un implant contraceptif, de pratiquer les IVG médicamenteuses, et de vacciner l'entourage de la femme et du nouveau-né."
 * #527 ^property[0].code = #dateValid
 * #527 ^property[=].valueDateTime = "2023-05-26T12:00:00+01:00"
 * #527 ^property[+].code = #dateMaj
-* #527 ^property[=].valueDateTime = "2023-06-30T12:00:00+01:00"
+* #527 ^property[=].valueDateTime = "2025-06-20T12:00:00+01:00"
 * #527 ^property[+].code = #status
 * #527 ^property[=].valueCode = #active
 * #528 "Suivi neuropsychologique" "Ensemble des examens, tests et épreuves psychométriques qui permettent de déterminer le retentissement cognitivo-comportemental d'une pathologie connue, de contribuer au diagnostic, ou de contribuer à une expertise médico-légale."
@@ -4208,11 +4211,11 @@ Description: "Activite Operationnelle"
 * #528 ^property[=].valueDateTime = "2023-06-30T12:00:00+01:00"
 * #528 ^property[+].code = #status
 * #528 ^property[=].valueCode = #active
-* #529 "Suivi post-natal" "Actions de prévention et de suivi éducatif en cas de besoin particulier décelé pendant la grossesse ou après l'accouchement chez les parents ou chez l'enfant réalisé par les sages-femmes."
+* #529 "Suivi post-natal (dont séances post-natales)" "Actions de prévention et de suivi éducatif en cas de besoin particulier décelé pendant la grossesse ou après l'accouchement chez les parents ou chez l'enfant réalisé par les sages-femmes."
 * #529 ^property[0].code = #dateValid
 * #529 ^property[=].valueDateTime = "2023-05-26T12:00:00+01:00"
 * #529 ^property[+].code = #dateMaj
-* #529 ^property[=].valueDateTime = "2023-06-30T12:00:00+01:00"
+* #529 ^property[=].valueDateTime = "2025-06-20T12:00:00+01:00"
 * #529 ^property[+].code = #status
 * #529 ^property[=].valueCode = #active
 * #530 "Suivi prénatal (suivi de grossesse)" "Consultations et examens complémentaires qui permettent le suivi de la grossesse normale et l'amélioration de l'identification des situations à risques de complications maternelles, obstétricales et foetales pouvant potentiellement compliquer la grossesse (hors accouchement) afin d'en adapter si besoin le suivi."
@@ -4352,11 +4355,11 @@ Description: "Activite Operationnelle"
 * #548 ^property[=].valueDateTime = "2024-06-28T12:00:00+01:00"
 * #548 ^property[+].code = #status
 * #548 ^property[=].valueCode = #active
-* #549 "Diététique" "Branche médicale, exercée par des médecins nutritionnistes qui analyse les rapports entre les aliments et la santé, elle est axée sur l'assimilation et la transformation par le corps des nutriments en vue de leur utilisation métabolique."
+* #549 "Diététique et nutrition" "Dispensation des conseils nutritionnels  l’éducation et à la rééducation nutritionnelle des patients atteints de troubles du métabolisme ou de l’alimentation, par l’établissement d’un bilan diététique personnalisé et une éducation diététique adaptée. Les diététiciens contribuent à la définition, à l’évaluation et au contrôle de la qualité de l’alimentation servie en collectivité, ainsi qu’aux activités de prévention en santé publique relevant du champ de la nutrition."
 * #549 ^property[0].code = #dateValid
 * #549 ^property[=].valueDateTime = "2024-05-31T12:00:00+01:00"
 * #549 ^property[+].code = #dateMaj
-* #549 ^property[=].valueDateTime = "2024-05-31T12:00:00+01:00"
+* #549 ^property[=].valueDateTime = "2025-06-23T12:00:00+01:00"
 * #549 ^property[+].code = #status
 * #549 ^property[=].valueCode = #active
 * #550 "Accompagnement puériculteur à la périnatalité"
@@ -4590,3 +4593,76 @@ Description: "Activite Operationnelle"
 * #582 ^property[=].valueDateTime = "2025-04-25T12:00:00+01:00"
 * #582 ^property[+].code = #status
 * #582 ^property[=].valueCode = #active
+* #583 "Dialyse péritonéale"
+* #583 ^property[0].code = #dateValid
+* #583 ^property[=].valueDateTime = "2025-06-20T12:00:00+01:00"
+* #583 ^property[+].code = #dateMaj
+* #583 ^property[=].valueDateTime = "2025-06-20T12:00:00+01:00"
+* #583 ^property[+].code = #status
+* #583 ^property[=].valueCode = #active
+* #584 "Diététique des Troubles des Conduites Alimentaires (TCA)" "Prise en soin diététique  des troubles du comportement alimentaire (anorexie, boulimie, hyperphagie) comprenant  la régulation alimentaire, l’image corporelle et les émotions."
+* #584 ^property[0].code = #dateValid
+* #584 ^property[=].valueDateTime = "2025-06-20T12:00:00+01:00"
+* #584 ^property[+].code = #dateMaj
+* #584 ^property[=].valueDateTime = "2025-06-23T12:00:00+01:00"
+* #584 ^property[+].code = #status
+* #584 ^property[=].valueCode = #active
+* #585 "Diététique orientation Dénutrition" "Accompagnement des patients à risque ou en situation de dénutrition pour prévenir ou corriger les déficits nutritionnels."
+* #585 ^property[0].code = #dateValid
+* #585 ^property[=].valueDateTime = "2025-06-20T12:00:00+01:00"
+* #585 ^property[+].code = #dateMaj
+* #585 ^property[=].valueDateTime = "2025-06-20T12:00:00+01:00"
+* #585 ^property[+].code = #status
+* #585 ^property[=].valueCode = #active
+* #586 "Diététique orientation Gynécologie / Obstétrique" "Prise en charge nutritionnelle des femmes tout au long de leur parcours gynécologique et obstétrique, comprennant  notamment la grossesse, aux parturientes présentant des pathologies spécifiques (diabète gestationnel, troubles métaboliques, surpoids, dénutrition, etc.) ou gynécologique (SOPK, endométriose, ménopause) ou leur grossesse."
+* #586 ^property[0].code = #dateValid
+* #586 ^property[=].valueDateTime = "2025-06-20T12:00:00+01:00"
+* #586 ^property[+].code = #dateMaj
+* #586 ^property[=].valueDateTime = "2025-06-23T12:00:00+01:00"
+* #586 ^property[+].code = #status
+* #586 ^property[=].valueCode = #active
+* #587 "Diététique orientation maladies inflammatoires et malabsorptives (MICI, SII, NASH)" "Prise en charge nutritionnelle individualisée visant à limiter les symptômes, prévenir les carences et adapter l’alimentation selon les phases évolutives de pathologies digestives inflammatoire chroniques."
+* #587 ^designation.language = #fr-FR
+* #587 ^designation.use = $sct#900000000000013009
+* #587 ^designation.value = "Diététique orientation maladies inflammatoires et malabsorptives"
+* #587 ^property[0].code = #dateValid
+* #587 ^property[=].valueDateTime = "2025-06-20T12:00:00+01:00"
+* #587 ^property[+].code = #dateMaj
+* #587 ^property[=].valueDateTime = "2025-06-23T12:00:00+01:00"
+* #587 ^property[+].code = #status
+* #587 ^property[=].valueCode = #active
+* #588 "Diététique orientation Nutrition du sportif" "Optimisation de l’alimentation pour soutenir la performance, la récupération et la prévention des blessures, chez le sportif  en lien avec les objectifs et le niveau de pratique."
+* #588 ^property[0].code = #dateValid
+* #588 ^property[=].valueDateTime = "2025-06-20T12:00:00+01:00"
+* #588 ^property[+].code = #dateMaj
+* #588 ^property[=].valueDateTime = "2025-06-23T12:00:00+01:00"
+* #588 ^property[+].code = #status
+* #588 ^property[=].valueCode = #active
+* #589 "Diététique orientation Périnatalité" "Soutien nutritionnel dans le cadre du projet parental, de la grossesse, de l’allaitement, et de la diversification alimentaire du nourrisson."
+* #589 ^property[0].code = #dateValid
+* #589 ^property[=].valueDateTime = "2025-06-20T12:00:00+01:00"
+* #589 ^property[+].code = #dateMaj
+* #589 ^property[=].valueDateTime = "2025-06-20T12:00:00+01:00"
+* #589 ^property[+].code = #status
+* #589 ^property[=].valueCode = #active
+* #590 "Échographie gynécologique"
+* #590 ^property[0].code = #dateValid
+* #590 ^property[=].valueDateTime = "2025-06-20T12:00:00+01:00"
+* #590 ^property[+].code = #dateMaj
+* #590 ^property[=].valueDateTime = "2025-06-20T12:00:00+01:00"
+* #590 ^property[+].code = #status
+* #590 ^property[=].valueCode = #active
+* #591 "Ostéopathie médicale"
+* #591 ^property[0].code = #dateValid
+* #591 ^property[=].valueDateTime = "2025-06-20T12:00:00+01:00"
+* #591 ^property[+].code = #dateMaj
+* #591 ^property[=].valueDateTime = "2025-06-20T12:00:00+01:00"
+* #591 ^property[+].code = #status
+* #591 ^property[=].valueCode = #active
+* #592 "Prévention et lutte contre la tuberculose"
+* #592 ^property[0].code = #dateValid
+* #592 ^property[=].valueDateTime = "2025-06-20T12:00:00+01:00"
+* #592 ^property[+].code = #dateMaj
+* #592 ^property[=].valueDateTime = "2025-06-20T12:00:00+01:00"
+* #592 ^property[+].code = #status
+* #592 ^property[=].valueCode = #active

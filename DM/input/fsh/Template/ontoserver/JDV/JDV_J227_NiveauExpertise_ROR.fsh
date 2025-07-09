@@ -1,9 +1,10 @@
 ValueSet: JDV_J227_NiveauExpertise_ROR
 Id: JDV-J227-NiveauExpertise-ROR
 Description: "Niveau de ressources humaines et matérielles utiles pour la réalisation de l'offre"
-* ^meta.versionId = "11"
-* ^meta.lastUpdated = "2025-04-25T17:01:49.228+00:00"
+* ^meta.versionId = "12"
+* ^meta.lastUpdated = "2025-07-02T17:05:58.518+00:00"
 * ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablevalueset"
+* ^language = #fr-FR
 * ^extension.url = "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod"
 * ^extension.valuePeriod.start = "2022-08-26T12:00:00+01:00"
 * ^url = "https://mos.esante.gouv.fr/NOS/JDV_J227-NiveauExpertise-ROR/FHIR/JDV-J227-NiveauExpertise-ROR"
@@ -14,6 +15,7 @@ Description: "Niveau de ressources humaines et matérielles utiles pour la réal
 * ^experimental = false
 * ^date = "2025-04-25T12:00:00+01:00"
 * ^publisher = "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris"
+* ^jurisdiction = urn:iso:std:iso:3166#FR
 * $TRE-R253-TypeMaternite#01 "Maternité de type 1"
 * $TRE-R253-TypeMaternite#02 "Maternité de type 2A"
 * $TRE-R253-TypeMaternite#03 "Maternité de type 2B"

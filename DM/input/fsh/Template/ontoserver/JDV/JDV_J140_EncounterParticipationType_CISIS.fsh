@@ -1,9 +1,10 @@
 ValueSet: JDV_J140_EncounterParticipationType_CISIS
 Id: JDV-J140-EncounterParticipationType-CISIS
 Description: "JDV_J140-EncounterParticipationType-CISIS"
-* ^meta.versionId = "3"
-* ^meta.lastUpdated = "2024-04-27T05:06:46.634+00:00"
+* ^meta.versionId = "4"
+* ^meta.lastUpdated = "2025-07-02T17:05:04.909+00:00"
 * ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablevalueset"
+* ^language = #fr-FR
 * ^extension.url = "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod"
 * ^extension.valuePeriod.start = "2021-01-29T12:00:00+01:00"
 * ^url = "https://mos.esante.gouv.fr/NOS/JDV_J140-EncounterParticipationType-CISIS/FHIR/JDV-J140-EncounterParticipationType-CISIS"
@@ -14,6 +15,7 @@ Description: "JDV_J140-EncounterParticipationType-CISIS"
 * ^experimental = false
 * ^date = "2021-03-26T12:00:00+01:00"
 * ^publisher = "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris"
+* ^jurisdiction = urn:iso:std:iso:3166#FR
 * $TRE-A13-HL7ParticipationType#ADM "Responsable de l'admission"
 * $TRE-A13-HL7ParticipationType#ATND "Superviseur / Responsable des soins"
 * $TRE-A13-HL7ParticipationType#CON "Consultant"

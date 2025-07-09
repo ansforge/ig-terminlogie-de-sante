@@ -1,19 +1,21 @@
 ValueSet: JDV_J18_EquipementSpecifique_ROR
 Id: JDV-J18-EquipementSpecifique-ROR
 Description: "Equipement spécifique - ROR"
-* ^meta.versionId = "14"
-* ^meta.lastUpdated = "2025-04-25T17:01:47.224+00:00"
+* ^meta.versionId = "17"
+* ^meta.lastUpdated = "2025-07-02T17:05:38.372+00:00"
 * ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablevalueset"
+* ^language = #fr-FR
 * ^extension.url = "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod"
 * ^extension.valuePeriod.start = "2016-09-01T00:00:00+01:00"
 * ^url = "https://mos.esante.gouv.fr/NOS/JDV_J18-EquipementSpecifique-ROR/FHIR/JDV-J18-EquipementSpecifique-ROR"
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value = "urn:oid:1.2.250.1.213.3.4.6"
-* ^version = "20250425120000"
+* ^version = "20250623120000"
 * ^status = #active
 * ^experimental = false
-* ^date = "2025-04-25T12:00:00+01:00"
+* ^date = "2025-06-23T12:00:00+01:00"
 * ^publisher = "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris"
+* ^jurisdiction = urn:iso:std:iso:3166#FR
 * $TRE-R212-Equipement#003 "Angioscope"
 * $TRE-R212-Equipement#005 "Autotransfuseur"
 * $TRE-R212-Equipement#009 "Chambre à pression négative"
@@ -111,8 +113,8 @@ Description: "Equipement spécifique - ROR"
 * $TRE-R212-Equipement#168 "Cytomètre de flux"
 * $TRE-R212-Equipement#169 "Atelier de confection d'orthèse"
 * $TRE-R212-Equipement#170 "Atelier de confection aide technique"
-* $TRE-R212-Equipement#173 "SNP Array"
-* $TRE-R212-Equipement#174 "CGH Array"
+* $TRE-R212-Equipement#173 "Polymorphisme mononucléotidique"
+* $TRE-R212-Equipement#174 "Hybridation génomique comparative (HGC)"
 * $TRE-R212-Equipement#175 "Spectromètre de masse haute résolution"
 * $TRE-R212-Equipement#176 "Chromatographe haute performance en phase liquide"
 * $TRE-R212-Equipement#177 "Chromatographe en phase gazeuse"

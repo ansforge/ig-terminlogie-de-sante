@@ -1,9 +1,10 @@
 ValueSet: JDV_J212_OrientationParticuliere_ROR
 Id: JDV-J212-OrientationParticuliere-ROR
 Description: "Orientation particulière"
-* ^meta.versionId = "3"
-* ^meta.lastUpdated = "2024-04-27T05:07:20.262+00:00"
+* ^meta.versionId = "4"
+* ^meta.lastUpdated = "2025-07-02T17:05:50.258+00:00"
 * ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablevalueset"
+* ^language = #fr-FR
 * ^extension.url = "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod"
 * ^extension.valuePeriod.start = "2022-08-26T12:00:00+01:00"
 * ^url = "https://mos.esante.gouv.fr/NOS/JDV_J212-OrientationParticuliere-ROR/FHIR/JDV-J212-OrientationParticuliere-ROR"
@@ -14,5 +15,6 @@ Description: "Orientation particulière"
 * ^experimental = false
 * ^date = "2022-08-26T12:00:00+01:00"
 * ^publisher = "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris"
+* ^jurisdiction = urn:iso:std:iso:3166#FR
 * $TRE-G13-OrientationParticuliere#80 "Homéopathie"
 * $TRE-G13-OrientationParticuliere#81 "Acupuncture"
