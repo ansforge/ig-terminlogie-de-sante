@@ -1,4 +1,4 @@
-Alias: $tre-r278-engagement = https://mos.esante.gouv.fr/NOS/TRE_R278-FinessConvention/FHIR/TRE-R278-FinessConvention
+Alias: $tre-r278-engagement = https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r278-engagement
 
 ValueSet: VsTreR278EngagementAll
 Id: vs-tre-r278-engagement-all
@@ -9,7 +9,7 @@ Description: "Jeu de valeurs ALL contenant les engagements FINESS"
 * ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablevalueset"
 * ^extension.url = "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod"
 * ^extension.valuePeriod.start = "2025-02-22T18:02:28.249+00:00"
-* ^url = "https://mos.esante.gouv.fr/NOS/TRE_R278-FinessConvention/FHIR/TRE-R278-FinessConvention?vs"
+* ^url = "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r278-engagement?vs"
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value = "urn:oid:1.2.250.1.213.1.6.1.322"
 * ^version = "20250222120000"
