@@ -1,19 +1,21 @@
 ValueSet: JDV_J05_SubjectRole_CISIS
 Id: JDV-J05-SubjectRole-CISIS
 Description: "subjectRole CI-SIS"
-* ^meta.versionId = "12"
-* ^meta.lastUpdated = "2025-03-31T17:32:54.269+00:00"
+* ^meta.versionId = "15"
+* ^meta.lastUpdated = "2025-07-02T17:04:35.347+00:00"
 * ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablevalueset"
+* ^language = #fr-FR
 * ^extension.url = "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod"
 * ^extension.valuePeriod.start = "2012-10-06T00:00:00+01:00"
 * ^url = "https://mos.esante.gouv.fr/NOS/JDV_J05-SubjectRole-CISIS/FHIR/JDV-J05-SubjectRole-CISIS"
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value = "urn:oid:1.2.250.1.213.1.1.5.470"
-* ^version = "20250328120000"
+* ^version = "20250626120000"
 * ^status = #active
 * ^experimental = false
-* ^date = "2025-03-28T12:00:00+01:00"
+* ^date = "2025-06-26T12:00:00+01:00"
 * ^publisher = "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris"
+* ^jurisdiction = urn:iso:std:iso:3166#FR
 * $TRE-A00-ProducteurDocNonPS#ALIM_AM "Alimentation automatique à partir du Système d'Information de l'Assurance Maladie"
 * $TRE-A00-ProducteurDocNonPS#DISPOSITIF "Dispositif médical"
 * $TRE-A00-ProducteurDocNonPS#EXP_PATIENT "Expression personnelle du patient"
@@ -384,6 +386,7 @@ Description: "subjectRole CI-SIS"
 * $TRE-R21-Fonction#FON-57 "Docteur junior"
 * $TRE-R21-Fonction#FON-58 "Activité en piscine ou bassin"
 * $TRE-R21-Fonction#FON-59 "Gérant d'antenne"
+* $TRE-R21-Fonction#FON-60 "Pharmacien remplaçant Bonnes Pratiques de Dispensation d'Oxygène"
 * $TRE-R21-Fonction#FON-AU "Fonction non définie"
 * $TRE-R85-RolePriseCharge#300 "Assistant de service social (PAERPA)"
 * $TRE-R85-RolePriseCharge#301 "Coordination territoriale d'appui (PAERPA)"

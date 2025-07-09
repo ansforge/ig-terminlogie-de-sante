@@ -1,21 +1,23 @@
 CodeSystem: TRE_R244_CategorieOrganisation
 Id: TRE-R244-CategorieOrganisation
 Description: "Catégorie d'organisation"
-* ^meta.versionId = "15"
-* ^meta.lastUpdated = "2025-04-25T18:12:42.445+00:00"
+* ^meta.versionId = "17"
+* ^meta.lastUpdated = "2025-07-02T18:16:33.914+00:00"
 * ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablecodesystem"
 * ^extension.url = "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod"
 * ^extension.valuePeriod.start = "2017-10-13T12:00:00+01:00"
 * ^url = "https://mos.esante.gouv.fr/NOS/TRE_R244-CategorieOrganisation/FHIR/TRE-R244-CategorieOrganisation"
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value = "urn:oid:1.2.250.1.213.3.3.39"
-* ^version = "20250425120000"
+* ^version = "20250625120000"
 * ^status = #active
 * ^experimental = false
-* ^date = "2025-04-25T12:00:00+01:00"
+* ^date = "2025-06-25T12:00:00+01:00"
 * ^publisher = "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris"
+* ^jurisdiction = urn:iso:std:iso:3166#FR
 * ^caseSensitive = false
 * ^content = #complete
+* ^count = 275
 * ^property[0].code = #dateValid
 * ^property[=].description = "date de validité d'un code concept"
 * ^property[=].type = #dateTime
@@ -1689,15 +1691,11 @@ Description: "Catégorie d'organisation"
 * #156 ^property[=].valueDateTime = "2024-10-25T12:00:00+01:00"
 * #156 ^property[+].code = #status
 * #156 ^property[=].valueCode = #active
-* #157 "Unité hospitalière de gynécologie"
-* #157 ^designation[0].language = #fr-FR
-* #157 ^designation[=].use.system = "http://snomed.info/sct"
-* #157 ^designation[=].use = $sct#900000000000013009
-* #157 ^designation[=].value = "Unité de gynécologie"
+* #157 "Unité hospitalière de gynécologie et/ou obstétrique"
 * #157 ^property[0].code = #dateValid
 * #157 ^property[=].valueDateTime = "2024-10-25T12:00:00+01:00"
 * #157 ^property[+].code = #dateMaj
-* #157 ^property[=].valueDateTime = "2024-10-25T12:00:00+01:00"
+* #157 ^property[=].valueDateTime = "2025-06-25T12:00:00+01:00"
 * #157 ^property[+].code = #status
 * #157 ^property[=].valueCode = #active
 * #158 "Unité hospitalière de médecine vasculaire"
@@ -2091,15 +2089,11 @@ Description: "Catégorie d'organisation"
 * #193 ^property[=].valueDateTime = "2025-01-31T12:00:00+01:00"
 * #193 ^property[+].code = #status
 * #193 ^property[=].valueCode = #active
-* #194 "Cabinet de ville de gynécologie"
-* #194 ^designation[0].language = #fr-FR
-* #194 ^designation[=].use.system = "http://snomed.info/sct"
-* #194 ^designation[=].use = $sct#900000000000013009
-* #194 ^designation[=].value = "Cabinet de gynécologie"
+* #194 "Cabinet de ville de gynécologie et/ou obstétrique"
 * #194 ^property[0].code = #dateValid
 * #194 ^property[=].valueDateTime = "2025-01-31T12:00:00+01:00"
 * #194 ^property[+].code = #dateMaj
-* #194 ^property[=].valueDateTime = "2025-01-31T12:00:00+01:00"
+* #194 ^property[=].valueDateTime = "2025-06-25T12:00:00+01:00"
 * #194 ^property[+].code = #status
 * #194 ^property[=].valueCode = #active
 * #195 "Cabinet de ville de kinésithérapie"
@@ -2553,7 +2547,7 @@ Description: "Catégorie d'organisation"
 * #235 ^property[=].valueDateTime = "2025-01-31T12:00:00+01:00"
 * #235 ^property[+].code = #status
 * #235 ^property[=].valueCode = #active
-* #236 "Unité hospitalière d'orthopédie dento-faciale (odontologie)"
+* #236 "Unité hospitalière d'odontologie"
 * #236 ^designation[0].language = #fr-FR
 * #236 ^designation[=].use.system = "http://snomed.info/sct"
 * #236 ^designation[=].use = $sct#900000000000013009
@@ -2561,7 +2555,7 @@ Description: "Catégorie d'organisation"
 * #236 ^property[0].code = #dateValid
 * #236 ^property[=].valueDateTime = "2025-01-31T12:00:00+01:00"
 * #236 ^property[+].code = #dateMaj
-* #236 ^property[=].valueDateTime = "2025-01-31T12:00:00+01:00"
+* #236 ^property[=].valueDateTime = "2025-06-25T12:00:00+01:00"
 * #236 ^property[+].code = #status
 * #236 ^property[=].valueCode = #active
 * #237 "Unité hospitalière d'anesthésie"
@@ -2876,6 +2870,7 @@ Description: "Catégorie d'organisation"
 * #266 ^property[=].valueCode = #active
 * #267 "Equipe mobile d'endocrinologie, diabétologie, métabolisme et nutrition"
 * #267 ^designation[0].language = #fr-FR
+* #267 ^designation[=].use.system = "http://snomed.info/sct"
 * #267 ^designation[=].use = $sct#900000000000013009
 * #267 ^designation[=].value = "Equipe mobile d'endocrinologie"
 * #267 ^property[0].code = #dateValid
@@ -2884,3 +2879,82 @@ Description: "Catégorie d'organisation"
 * #267 ^property[=].valueDateTime = "2025-04-25T12:00:00+01:00"
 * #267 ^property[+].code = #status
 * #267 ^property[=].valueCode = #active
+* #268 "Centre de lutte antituberculeuse (CLAT)"
+* #268 ^designation[0].language = #fr-FR
+* #268 ^designation[=].use.system = "http://snomed.info/sct"
+* #268 ^designation[=].use = $sct#900000000000013009
+* #268 ^designation[=].value = "CLAT"
+* #268 ^property[0].code = #dateValid
+* #268 ^property[=].valueDateTime = "2025-06-25T12:00:00+01:00"
+* #268 ^property[+].code = #dateMaj
+* #268 ^property[=].valueDateTime = "2025-06-25T12:00:00+01:00"
+* #268 ^property[+].code = #status
+* #268 ^property[=].valueCode = #active
+* #269 "Centre de vaccination"
+* #269 ^property[0].code = #dateValid
+* #269 ^property[=].valueDateTime = "2025-06-25T12:00:00+01:00"
+* #269 ^property[+].code = #dateMaj
+* #269 ^property[=].valueDateTime = "2025-06-25T12:00:00+01:00"
+* #269 ^property[+].code = #status
+* #269 ^property[=].valueCode = #active
+* #270 "Centre de vaccination internationale"
+* #270 ^designation[0].language = #fr-FR
+* #270 ^designation[=].use.system = "http://snomed.info/sct"
+* #270 ^designation[=].use = $sct#900000000000013009
+* #270 ^designation[=].value = "Centre vaccin. internationale"
+* #270 ^property[0].code = #dateValid
+* #270 ^property[=].valueDateTime = "2025-06-25T12:00:00+01:00"
+* #270 ^property[+].code = #dateMaj
+* #270 ^property[=].valueDateTime = "2025-06-25T12:00:00+01:00"
+* #270 ^property[+].code = #status
+* #270 ^property[=].valueCode = #active
+* #271 "Dialyse à Domicile"
+* #271 ^property[0].code = #dateValid
+* #271 ^property[=].valueDateTime = "2025-06-25T12:00:00+01:00"
+* #271 ^property[+].code = #dateMaj
+* #271 ^property[=].valueDateTime = "2025-06-25T12:00:00+01:00"
+* #271 ^property[+].code = #status
+* #271 ^property[=].valueCode = #active
+* #272 "Equipe de Liaison et de Soins en Addictologie (ELSA)"
+* #272 ^designation[0].language = #fr-FR
+* #272 ^designation[=].use.system = "http://snomed.info/sct"
+* #272 ^designation[=].use = $sct#900000000000013009
+* #272 ^designation[=].value = "ELSA"
+* #272 ^property[0].code = #dateValid
+* #272 ^property[=].valueDateTime = "2025-06-25T12:00:00+01:00"
+* #272 ^property[+].code = #dateMaj
+* #272 ^property[=].valueDateTime = "2025-06-25T12:00:00+01:00"
+* #272 ^property[+].code = #status
+* #272 ^property[=].valueCode = #active
+* #273 "Unité d’auto-dialyse assistée (UAD)"
+* #273 ^designation[0].language = #fr-FR
+* #273 ^designation[=].use.system = "http://snomed.info/sct"
+* #273 ^designation[=].use = $sct#900000000000013009
+* #273 ^designation[=].value = "UAD"
+* #273 ^property[0].code = #dateValid
+* #273 ^property[=].valueDateTime = "2025-06-25T12:00:00+01:00"
+* #273 ^property[+].code = #dateMaj
+* #273 ^property[=].valueDateTime = "2025-06-25T12:00:00+01:00"
+* #273 ^property[+].code = #status
+* #273 ^property[=].valueCode = #active
+* #274 "Unité de dialyse en centre lourd"
+* #274 ^designation[0].language = #fr-FR
+* #274 ^designation[=].use.system = "http://snomed.info/sct"
+* #274 ^designation[=].use = $sct#900000000000013009
+* #274 ^designation[=].value = "Dialyse en centre lourd"
+* #274 ^property[0].code = #dateValid
+* #274 ^property[=].valueDateTime = "2025-06-25T12:00:00+01:00"
+* #274 ^property[+].code = #dateMaj
+* #274 ^property[=].valueDateTime = "2025-06-25T12:00:00+01:00"
+* #274 ^property[+].code = #status
+* #274 ^property[=].valueCode = #active
+* #275 "Unité de dialyse Médicalisée (UDM)"
+* #275 ^designation[0].language = #fr-FR
+* #275 ^designation[=].use = $sct#900000000000013009
+* #275 ^designation[=].value = "UDM"
+* #275 ^property[0].code = #dateValid
+* #275 ^property[=].valueDateTime = "2025-06-25T12:00:00+01:00"
+* #275 ^property[+].code = #dateMaj
+* #275 ^property[=].valueDateTime = "2025-06-25T12:00:00+01:00"
+* #275 ^property[+].code = #status
+* #275 ^property[=].valueCode = #active

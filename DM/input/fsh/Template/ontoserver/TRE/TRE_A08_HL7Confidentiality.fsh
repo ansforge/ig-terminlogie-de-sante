@@ -1,8 +1,8 @@
 CodeSystem: TRE_A08_HL7Confidentiality
 Id: TRE-A08-HL7Confidentiality
 Description: "HL7 confidentiality"
-* ^meta.versionId = "4"
-* ^meta.lastUpdated = "2024-08-28T05:10:40.770+00:00"
+* ^meta.versionId = "5"
+* ^meta.lastUpdated = "2025-07-02T18:11:27.598+00:00"
 * ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablecodesystem"
 * ^extension.url = "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod"
 * ^extension.valuePeriod.start = "2016-05-19T00:00:00+01:00"
@@ -14,6 +14,7 @@ Description: "HL7 confidentiality"
 * ^experimental = false
 * ^date = "2023-12-15T12:00:00+01:00"
 * ^publisher = "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris"
+* ^jurisdiction = urn:iso:std:iso:3166#FR
 * ^caseSensitive = false
 * ^content = #complete
 * ^property[0].code = #dateValid
@@ -25,6 +26,18 @@ Description: "HL7 confidentiality"
 * ^property[+].code = #dateFin
 * ^property[=].description = "Date de fin d'exploitation d'un code concept"
 * ^property[=].type = #dateTime
+* ^property[+].code = #deprecationDate
+* ^property[=].uri = "http://hl7.org/fhir/concept-properties#deprecationDate"
+* ^property[=].description = "Date Concept was deprecated"
+* ^property[=].type = #dateTime
+* ^property[+].code = #status
+* ^property[=].uri = "http://hl7.org/fhir/concept-properties#status"
+* ^property[=].description = "A property that indicates the status of the concept."
+* ^property[=].type = #code
+* ^property[+].code = #retirementDate
+* ^property[=].uri = "http://hl7.org/fhir/concept-properties#retirementDate"
+* ^property[=].description = "Date Concept was retired"
+* ^property[=].type = #dateTime
 * #N "Normal"
 * #N ^designation.language = #fr-FR
 * #N ^designation.use.system = "http://snomed.info/sct"
@@ -34,6 +47,8 @@ Description: "HL7 confidentiality"
 * #N ^property[=].valueDateTime = "2016-05-19T00:00:00+01:00"
 * #N ^property[+].code = #dateMaj
 * #N ^property[=].valueDateTime = "2016-05-19T00:00:00+01:00"
+* #N ^property[+].code = #status
+* #N ^property[=].valueCode = #active
 * #R "Restreint"
 * #R ^designation.language = #fr-FR
 * #R ^designation.use.system = "http://snomed.info/sct"
@@ -43,6 +58,8 @@ Description: "HL7 confidentiality"
 * #R ^property[=].valueDateTime = "2016-05-19T00:00:00+01:00"
 * #R ^property[+].code = #dateMaj
 * #R ^property[=].valueDateTime = "2016-05-19T00:00:00+01:00"
+* #R ^property[+].code = #status
+* #R ^property[=].valueCode = #active
 * #V "Très restreint"
 * #V ^designation.language = #fr-FR
 * #V ^designation.use = $sct#900000000000013009
@@ -51,3 +68,5 @@ Description: "HL7 confidentiality"
 * #V ^property[=].valueDateTime = "2016-05-19T00:00:00+01:00"
 * #V ^property[+].code = #dateMaj
 * #V ^property[=].valueDateTime = "2016-05-19T00:00:00+01:00"
+* #V ^property[+].code = #status
+* #V ^property[=].valueCode = #active

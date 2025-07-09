@@ -1,9 +1,10 @@
 ValueSet: JDV_J161_Lateralite_CISIS
 Id: JDV-J161-Lateralite-CISIS
 Description: "JDV pour spécifier la latéralité"
-* ^meta.versionId = "2"
-* ^meta.lastUpdated = "2024-04-27T05:06:57.033+00:00"
+* ^meta.versionId = "3"
+* ^meta.lastUpdated = "2025-07-02T17:05:19.289+00:00"
 * ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablevalueset"
+* ^language = #fr-FR
 * ^extension.url = "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod"
 * ^extension.valuePeriod.start = "2021-04-30T12:00:00+01:00"
 * ^url = "https://mos.esante.gouv.fr/NOS/JDV_J161-Lateralite-CISIS/FHIR/JDV-J161-Lateralite-CISIS"
@@ -14,6 +15,7 @@ Description: "JDV pour spécifier la latéralité"
 * ^experimental = false
 * ^date = "2023-06-30T12:00:00+01:00"
 * ^publisher = "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris"
+* ^jurisdiction = urn:iso:std:iso:3166#FR
 * SNOMED_CT#24028007 "droit"
 * SNOMED_CT#7771000 "gauche"
 * SNOMED_CT#51440002 "bilatéral"

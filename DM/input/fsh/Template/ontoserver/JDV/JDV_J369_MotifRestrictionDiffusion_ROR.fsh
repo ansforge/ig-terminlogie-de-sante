@@ -1,9 +1,10 @@
 ValueSet: JDV_J369_MotifRestrictionDiffusion_ROR
 Id: JDV-J369-MotifRestrictionDiffusion-ROR
 Description: "Nomenclature contenant les motifs de restriction de diffusion"
-* ^meta.versionId = "1"
-* ^meta.lastUpdated = "2025-04-25T17:01:53.268+00:00"
+* ^meta.versionId = "2"
+* ^meta.lastUpdated = "2025-07-02T17:06:29.503+00:00"
 * ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablevalueset"
+* ^language = #fr-FR
 * ^extension.url = "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod"
 * ^extension.valuePeriod.start = "2025-04-25T12:00:00+01:00"
 * ^url = "https://mos.esante.gouv.fr/NOS/JDV_J369-MotifRestrictionDiffusion-ROR/FHIR/JDV-J369-MotifRestrictionDiffusion-ROR"
@@ -14,5 +15,6 @@ Description: "Nomenclature contenant les motifs de restriction de diffusion"
 * ^experimental = false
 * ^date = "2025-04-25T12:00:00+01:00"
 * ^publisher = "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris"
+* ^jurisdiction = urn:iso:std:iso:3166#FR
 * $TRE-R391-MotifRestrictionDiffusion#OPP_DIF_PUB "Opposition à diffusion publique"
 * $TRE-R391-MotifRestrictionDiffusion#PS_DANGER "Professionnel en danger"

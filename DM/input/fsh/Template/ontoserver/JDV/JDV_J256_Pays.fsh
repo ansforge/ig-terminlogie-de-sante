@@ -1,9 +1,10 @@
 ValueSet: JDV_J256_Pays
 Id: JDV-J256-Pays
 Description: "Tous les codes actifs de la nomenclature du COG INSEE pays auquel on ajoute le code applicatif \"non renseigné\""
-* ^meta.versionId = "7"
-* ^meta.lastUpdated = "2025-03-31T17:34:19.374+00:00"
+* ^meta.versionId = "8"
+* ^meta.lastUpdated = "2025-07-02T17:06:14.026+00:00"
 * ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablevalueset"
+* ^language = #fr-FR
 * ^extension.url = "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod"
 * ^extension.valuePeriod.start = "2024-01-26T12:00:00+01:00"
 * ^url = "https://mos.esante.gouv.fr/NOS/JDV_J256-Pays/FHIR/JDV-J256-Pays"
@@ -14,6 +15,7 @@ Description: "Tous les codes actifs de la nomenclature du COG INSEE pays auquel 
 * ^experimental = false
 * ^date = "2025-03-28T12:00:00+01:00"
 * ^publisher = "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris"
+* ^jurisdiction = urn:iso:std:iso:3166#FR
 * $TRE-R20-Pays#99100 "France"
 * $TRE-R20-Pays#99101 "Danemark"
 * $TRE-R20-Pays#99102 "Islande"

@@ -1,8 +1,8 @@
 CodeSystem: TRE_R89_RegroupementPays
 Id: TRE-R89-RegroupementPays
 Description: "Regroupement de pays"
-* ^meta.versionId = "4"
-* ^meta.lastUpdated = "2024-08-28T05:14:17.543+00:00"
+* ^meta.versionId = "5"
+* ^meta.lastUpdated = "2025-07-02T18:19:20.868+00:00"
 * ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablecodesystem"
 * ^extension.url = "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod"
 * ^extension.valuePeriod.start = "2015-03-25T00:00:00+01:00"
@@ -14,6 +14,7 @@ Description: "Regroupement de pays"
 * ^experimental = false
 * ^date = "2023-12-15T12:00:00+01:00"
 * ^publisher = "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris"
+* ^jurisdiction = urn:iso:std:iso:3166#FR
 * ^caseSensitive = false
 * ^content = #complete
 * ^property[0].code = #dateValid
@@ -25,18 +26,36 @@ Description: "Regroupement de pays"
 * ^property[+].code = #dateFin
 * ^property[=].description = "Date de fin d'exploitation d'un code concept"
 * ^property[=].type = #dateTime
+* ^property[+].code = #deprecationDate
+* ^property[=].uri = "http://hl7.org/fhir/concept-properties#deprecationDate"
+* ^property[=].description = "Date Concept was deprecated"
+* ^property[=].type = #dateTime
+* ^property[+].code = #status
+* ^property[=].uri = "http://hl7.org/fhir/concept-properties#status"
+* ^property[=].description = "A property that indicates the status of the concept."
+* ^property[=].type = #code
+* ^property[+].code = #retirementDate
+* ^property[=].uri = "http://hl7.org/fhir/concept-properties#retirementDate"
+* ^property[=].description = "Date Concept was retired"
+* ^property[=].type = #dateTime
 * #FR "France"
 * #FR ^property[0].code = #dateValid
 * #FR ^property[=].valueDateTime = "2007-07-25T15:04:00+01:00"
 * #FR ^property[+].code = #dateMaj
 * #FR ^property[=].valueDateTime = "2007-07-25T15:04:00+01:00"
+* #FR ^property[+].code = #status
+* #FR ^property[=].valueCode = #active
 * #EEE "Espace Economique Européen et la Suisse"
 * #EEE ^property[0].code = #dateValid
 * #EEE ^property[=].valueDateTime = "2007-07-25T15:04:00+01:00"
 * #EEE ^property[+].code = #dateMaj
 * #EEE ^property[=].valueDateTime = "2007-07-25T15:04:00+01:00"
+* #EEE ^property[+].code = #status
+* #EEE ^property[=].valueCode = #active
 * #AU "Hors union européenne"
 * #AU ^property[0].code = #dateValid
 * #AU ^property[=].valueDateTime = "2007-07-25T15:04:00+01:00"
 * #AU ^property[+].code = #dateMaj
 * #AU ^property[=].valueDateTime = "2007-07-25T15:04:00+01:00"
+* #AU ^property[+].code = #status
+* #AU ^property[=].valueCode = #active

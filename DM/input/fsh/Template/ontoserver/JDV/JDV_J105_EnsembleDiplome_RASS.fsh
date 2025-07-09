@@ -1,9 +1,10 @@
 ValueSet: JDV_J105_EnsembleDiplome_RASS
 Id: JDV-J105-EnsembleDiplome-RASS
 Description: "Ensemble des diplômes et qualifications du RASS"
-* ^meta.versionId = "11"
-* ^meta.lastUpdated = "2025-04-25T17:01:41.318+00:00"
+* ^meta.versionId = "12"
+* ^meta.lastUpdated = "2025-07-02T17:04:42.840+00:00"
 * ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablevalueset"
+* ^language = #fr-FR
 * ^extension.url = "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod"
 * ^extension.valuePeriod.start = "2019-08-30T12:00:00+01:00"
 * ^url = "https://mos.esante.gouv.fr/NOS/JDV_J105-EnsembleDiplome-RASS/FHIR/JDV-J105-EnsembleDiplome-RASS"
@@ -14,6 +15,7 @@ Description: "Ensemble des diplômes et qualifications du RASS"
 * ^experimental = false
 * ^date = "2025-04-25T12:00:00+01:00"
 * ^publisher = "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris"
+* ^jurisdiction = urn:iso:std:iso:3166#FR
 * $TRE-R54-DiplomeUniversiteInterUniversitaire#DIP02 "Doctorat de 3ème cycle sciences Odontologiques"
 * $TRE-R54-DiplomeUniversiteInterUniversitaire#DIP38 "DIU Accueil des urgences service pédiatrique"
 * $TRE-R54-DiplomeUniversiteInterUniversitaire#DIP39 "DIU Arthroscopie"

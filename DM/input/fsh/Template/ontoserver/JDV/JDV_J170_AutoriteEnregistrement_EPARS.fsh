@@ -1,9 +1,10 @@
 ValueSet: JDV_J170_AutoriteEnregistrement_EPARS
 Id: JDV-J170-AutoriteEnregistrement-EPARS
 Description: "Liste des autorités d'enregistrement pour EPARS"
-* ^meta.versionId = "6"
-* ^meta.lastUpdated = "2025-02-10T16:05:59.833+00:00"
+* ^meta.versionId = "7"
+* ^meta.lastUpdated = "2025-07-02T17:05:27.389+00:00"
 * ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablevalueset"
+* ^language = #fr-FR
 * ^extension.url = "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod"
 * ^extension.valuePeriod.start = "2021-06-25T12:00:00+01:00"
 * ^url = "https://mos.esante.gouv.fr/NOS/JDV_J170-AutoriteEnregistrement-EPARS/FHIR/JDV-J170-AutoriteEnregistrement-EPARS"
@@ -14,6 +15,7 @@ Description: "Liste des autorités d'enregistrement pour EPARS"
 * ^experimental = false
 * ^date = "2025-01-31T12:00:00+01:00"
 * ^publisher = "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris"
+* ^jurisdiction = urn:iso:std:iso:3166#FR
 * $TRE-R60-AutoriteEnregistrement#ARS-01 "ARS-01 : Guadeloupe"
 * $TRE-R60-AutoriteEnregistrement#ARS-02 "ARS-02 : Martinique"
 * $TRE-R60-AutoriteEnregistrement#ARS-03 "ARS-03 : Guyane"

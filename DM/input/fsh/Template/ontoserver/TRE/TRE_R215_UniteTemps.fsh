@@ -1,8 +1,8 @@
 CodeSystem: TRE_R215_UniteTemps
 Id: TRE-R215-UniteTemps
 Description: "Unité de temps"
-* ^meta.versionId = "4"
-* ^meta.lastUpdated = "2024-08-28T05:12:27.253+00:00"
+* ^meta.versionId = "5"
+* ^meta.lastUpdated = "2025-07-02T18:16:07.785+00:00"
 * ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablecodesystem"
 * ^extension.url = "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod"
 * ^extension.valuePeriod.start = "2016-02-04T00:00:00+01:00"
@@ -15,6 +15,7 @@ Description: "Unité de temps"
 * ^experimental = false
 * ^date = "2023-12-15T12:00:00+01:00"
 * ^publisher = "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris"
+* ^jurisdiction = urn:iso:std:iso:3166#FR
 * ^caseSensitive = false
 * ^content = #complete
 * ^property[0].code = #dateValid
@@ -26,6 +27,18 @@ Description: "Unité de temps"
 * ^property[+].code = #dateFin
 * ^property[=].description = "Date de fin d'exploitation d'un code concept"
 * ^property[=].type = #dateTime
+* ^property[+].code = #deprecationDate
+* ^property[=].uri = "http://hl7.org/fhir/concept-properties#deprecationDate"
+* ^property[=].description = "Date Concept was deprecated"
+* ^property[=].type = #dateTime
+* ^property[+].code = #status
+* ^property[=].uri = "http://hl7.org/fhir/concept-properties#status"
+* ^property[=].description = "A property that indicates the status of the concept."
+* ^property[=].type = #code
+* ^property[+].code = #retirementDate
+* ^property[=].uri = "http://hl7.org/fhir/concept-properties#retirementDate"
+* ^property[=].description = "Date Concept was retired"
+* ^property[=].type = #dateTime
 * #a "année"
 * #a ^property[0].code = #dateValid
 * #a ^property[=].valueDateTime = "2016-02-04T00:00:00+01:00"
@@ -33,6 +46,10 @@ Description: "Unité de temps"
 * #a ^property[=].valueDateTime = "2017-10-13T12:00:00+01:00"
 * #a ^property[+].code = #dateMaj
 * #a ^property[=].valueDateTime = "2016-02-04T00:00:00+01:00"
+* #a ^property[+].code = #deprecationDate
+* #a ^property[=].valueDateTime = "2017-10-13T12:00:00+01:00"
+* #a ^property[+].code = #status
+* #a ^property[=].valueCode = #deprecated
 * #m "mois"
 * #m ^property[0].code = #dateValid
 * #m ^property[=].valueDateTime = "2016-02-04T00:00:00+01:00"
@@ -40,6 +57,10 @@ Description: "Unité de temps"
 * #m ^property[=].valueDateTime = "2017-10-13T12:00:00+01:00"
 * #m ^property[+].code = #dateMaj
 * #m ^property[=].valueDateTime = "2016-02-04T00:00:00+01:00"
+* #m ^property[+].code = #deprecationDate
+* #m ^property[=].valueDateTime = "2017-10-13T12:00:00+01:00"
+* #m ^property[+].code = #status
+* #m ^property[=].valueCode = #deprecated
 * #j "jour"
 * #j ^property[0].code = #dateValid
 * #j ^property[=].valueDateTime = "2016-02-04T00:00:00+01:00"
@@ -47,6 +68,10 @@ Description: "Unité de temps"
 * #j ^property[=].valueDateTime = "2017-10-13T12:00:00+01:00"
 * #j ^property[+].code = #dateMaj
 * #j ^property[=].valueDateTime = "2016-02-04T00:00:00+01:00"
+* #j ^property[+].code = #deprecationDate
+* #j ^property[=].valueDateTime = "2017-10-13T12:00:00+01:00"
+* #j ^property[+].code = #status
+* #j ^property[=].valueCode = #deprecated
 * #h "heure"
 * #h ^property[0].code = #dateValid
 * #h ^property[=].valueDateTime = "2016-02-04T00:00:00+01:00"
@@ -54,6 +79,10 @@ Description: "Unité de temps"
 * #h ^property[=].valueDateTime = "2017-10-13T12:00:00+01:00"
 * #h ^property[+].code = #dateMaj
 * #h ^property[=].valueDateTime = "2016-02-04T00:00:00+01:00"
+* #h ^property[+].code = #deprecationDate
+* #h ^property[=].valueDateTime = "2017-10-13T12:00:00+01:00"
+* #h ^property[+].code = #status
+* #h ^property[=].valueCode = #deprecated
 * #mn "minute"
 * #mn ^property[0].code = #dateValid
 * #mn ^property[=].valueDateTime = "2016-02-04T00:00:00+01:00"
@@ -61,6 +90,10 @@ Description: "Unité de temps"
 * #mn ^property[=].valueDateTime = "2017-10-13T12:00:00+01:00"
 * #mn ^property[+].code = #dateMaj
 * #mn ^property[=].valueDateTime = "2016-02-04T00:00:00+01:00"
+* #mn ^property[+].code = #deprecationDate
+* #mn ^property[=].valueDateTime = "2017-10-13T12:00:00+01:00"
+* #mn ^property[+].code = #status
+* #mn ^property[=].valueCode = #deprecated
 * #s "seconde"
 * #s ^property[0].code = #dateValid
 * #s ^property[=].valueDateTime = "2016-02-04T00:00:00+01:00"
@@ -68,6 +101,10 @@ Description: "Unité de temps"
 * #s ^property[=].valueDateTime = "2017-10-13T12:00:00+01:00"
 * #s ^property[+].code = #dateMaj
 * #s ^property[=].valueDateTime = "2016-02-04T00:00:00+01:00"
+* #s ^property[+].code = #deprecationDate
+* #s ^property[=].valueDateTime = "2017-10-13T12:00:00+01:00"
+* #s ^property[+].code = #status
+* #s ^property[=].valueCode = #deprecated
 * #ms "milliseconde"
 * #ms ^property[0].code = #dateValid
 * #ms ^property[=].valueDateTime = "2016-02-04T00:00:00+01:00"
@@ -75,3 +112,7 @@ Description: "Unité de temps"
 * #ms ^property[=].valueDateTime = "2017-10-13T12:00:00+01:00"
 * #ms ^property[+].code = #dateMaj
 * #ms ^property[=].valueDateTime = "2016-02-04T00:00:00+01:00"
+* #ms ^property[+].code = #deprecationDate
+* #ms ^property[=].valueDateTime = "2017-10-13T12:00:00+01:00"
+* #ms ^property[+].code = #status
+* #ms ^property[=].valueCode = #deprecated

@@ -1,9 +1,10 @@
 ValueSet: JDV_J59_ContentTypeCode_DMP
 Id: JDV-J59-ContentTypeCode-DMP
 Description: "Jeu de valeurs pour contentTypeCode"
-* ^meta.versionId = "6"
-* ^meta.lastUpdated = "2024-09-29T19:01:24.352+00:00"
+* ^meta.versionId = "7"
+* ^meta.lastUpdated = "2025-07-02T17:06:39.953+00:00"
 * ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablevalueset"
+* ^language = #fr-FR
 * ^extension.url = "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod"
 * ^extension.valuePeriod.start = "2019-01-18T12:00:00+01:00"
 * ^url = "https://mos.esante.gouv.fr/NOS/JDV_J59-ContentTypeCode-DMP/FHIR/JDV-J59-ContentTypeCode-DMP"
@@ -14,6 +15,7 @@ Description: "Jeu de valeurs pour contentTypeCode"
 * ^experimental = false
 * ^date = "2024-09-27T12:00:00+01:00"
 * ^publisher = "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris"
+* ^jurisdiction = urn:iso:std:iso:3166#FR
 * $TRE-A00-ProducteurDocNonPS#EXP_PATIENT "Expression personnelle du patient"
 * $TRE-R276-FormeActivite#05 "Hospitalisation à domicile (au domicile du patient)"
 * $TRE-R276-FormeActivite#11 "Centre postcure"

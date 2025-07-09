@@ -1,8 +1,8 @@
 CodeSystem: TRE_R32_StatutHospitalier
 Id: TRE-R32-StatutHospitalier
 Description: "Statut hospitalier"
-* ^meta.versionId = "4"
-* ^meta.lastUpdated = "2024-08-28T05:13:25.265+00:00"
+* ^meta.versionId = "5"
+* ^meta.lastUpdated = "2025-07-02T18:17:29.880+00:00"
 * ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablecodesystem"
 * ^extension.url = "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod"
 * ^extension.valuePeriod.start = "2007-07-25T15:04:44+01:00"
@@ -14,6 +14,7 @@ Description: "Statut hospitalier"
 * ^experimental = false
 * ^date = "2023-12-15T12:00:00+01:00"
 * ^publisher = "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris"
+* ^jurisdiction = urn:iso:std:iso:3166#FR
 * ^caseSensitive = false
 * ^content = #complete
 * ^property[0].code = #dateValid
@@ -24,6 +25,18 @@ Description: "Statut hospitalier"
 * ^property[=].type = #dateTime
 * ^property[+].code = #dateFin
 * ^property[=].description = "Date de fin d'exploitation d'un code concept"
+* ^property[=].type = #dateTime
+* ^property[+].code = #deprecationDate
+* ^property[=].uri = "http://hl7.org/fhir/concept-properties#deprecationDate"
+* ^property[=].description = "Date Concept was deprecated"
+* ^property[=].type = #dateTime
+* ^property[+].code = #status
+* ^property[=].uri = "http://hl7.org/fhir/concept-properties#status"
+* ^property[=].description = "A property that indicates the status of the concept."
+* ^property[=].type = #code
+* ^property[+].code = #retirementDate
+* ^property[=].uri = "http://hl7.org/fhir/concept-properties#retirementDate"
+* ^property[=].description = "Date Concept was retired"
 * ^property[=].type = #dateTime
 * #SH01 "Professeur des universités - Praticien hospitalier (PU-PH) (décret n° 84-135)"
 * #SH01 ^designation[0].language = #fr-FR
@@ -38,6 +51,8 @@ Description: "Statut hospitalier"
 * #SH01 ^property[=].valueDateTime = "2007-07-25T15:04:44+01:00"
 * #SH01 ^property[+].code = #dateMaj
 * #SH01 ^property[=].valueDateTime = "2016-09-01T00:00:00+01:00"
+* #SH01 ^property[+].code = #status
+* #SH01 ^property[=].valueCode = #active
 * #SH02 "Maître de conférences des universités - Praticien hospitalier (décret n° 84-135)"
 * #SH02 ^designation[0].language = #fr-FR
 * #SH02 ^designation[=].use.system = "http://snomed.info/sct"
@@ -51,6 +66,8 @@ Description: "Statut hospitalier"
 * #SH02 ^property[=].valueDateTime = "2007-07-25T15:04:44+01:00"
 * #SH02 ^property[+].code = #dateMaj
 * #SH02 ^property[=].valueDateTime = "2016-09-01T00:00:00+01:00"
+* #SH02 ^property[+].code = #status
+* #SH02 ^property[=].valueCode = #active
 * #SH03 "Chef de clinique des universités - Assistant des hôpitaux (décret n° 84-135)"
 * #SH03 ^designation[0].language = #fr-FR
 * #SH03 ^designation[=].use.system = "http://snomed.info/sct"
@@ -64,6 +81,8 @@ Description: "Statut hospitalier"
 * #SH03 ^property[=].valueDateTime = "2007-07-25T15:04:44+01:00"
 * #SH03 ^property[+].code = #dateMaj
 * #SH03 ^property[=].valueDateTime = "2016-09-01T00:00:00+01:00"
+* #SH03 ^property[+].code = #status
+* #SH03 ^property[=].valueCode = #active
 * #SH04 "Assistant hospitalier universitaire (AHU) (décret n° 84-135)"
 * #SH04 ^designation[0].language = #fr-FR
 * #SH04 ^designation[=].use.system = "http://snomed.info/sct"
@@ -77,6 +96,8 @@ Description: "Statut hospitalier"
 * #SH04 ^property[=].valueDateTime = "2007-07-25T15:04:44+01:00"
 * #SH04 ^property[+].code = #dateMaj
 * #SH04 ^property[=].valueDateTime = "2016-09-01T00:00:00+01:00"
+* #SH04 ^property[+].code = #status
+* #SH04 ^property[=].valueCode = #active
 * #SH05 "Professeur des universités - Praticien hospitalier des CSERD (décret n° 90-92)"
 * #SH05 ^designation[0].language = #fr-FR
 * #SH05 ^designation[=].use.system = "http://snomed.info/sct"
@@ -90,6 +111,8 @@ Description: "Statut hospitalier"
 * #SH05 ^property[=].valueDateTime = "2007-07-25T15:04:44+01:00"
 * #SH05 ^property[+].code = #dateMaj
 * #SH05 ^property[=].valueDateTime = "2016-09-01T00:00:00+01:00"
+* #SH05 ^property[+].code = #status
+* #SH05 ^property[=].valueCode = #active
 * #SH06 "Maître de conf des universités - Praticien hospit des CSERD (décret n° 90-92)"
 * #SH06 ^designation[0].language = #fr-FR
 * #SH06 ^designation[=].use.system = "http://snomed.info/sct"
@@ -103,6 +126,8 @@ Description: "Statut hospitalier"
 * #SH06 ^property[=].valueDateTime = "2007-07-25T15:04:44+01:00"
 * #SH06 ^property[+].code = #dateMaj
 * #SH06 ^property[=].valueDateTime = "2016-09-01T00:00:00+01:00"
+* #SH06 ^property[+].code = #status
+* #SH06 ^property[=].valueCode = #active
 * #SH07 "Assistant hospitalier universitaire (AHU) des CSERD (décret n° 90-92)"
 * #SH07 ^designation[0].language = #fr-FR
 * #SH07 ^designation[=].use.system = "http://snomed.info/sct"
@@ -116,6 +141,8 @@ Description: "Statut hospitalier"
 * #SH07 ^property[=].valueDateTime = "2007-07-25T15:04:44+01:00"
 * #SH07 ^property[+].code = #dateMaj
 * #SH07 ^property[=].valueDateTime = "2016-09-01T00:00:00+01:00"
+* #SH07 ^property[+].code = #status
+* #SH07 ^property[=].valueCode = #active
 * #SH08 "Praticien hospitalier temps plein (R6152-1 et suivants du CSP)"
 * #SH08 ^designation[0].language = #fr-FR
 * #SH08 ^designation[=].use.system = "http://snomed.info/sct"
@@ -129,6 +156,8 @@ Description: "Statut hospitalier"
 * #SH08 ^property[=].valueDateTime = "2007-07-25T15:04:44+01:00"
 * #SH08 ^property[+].code = #dateMaj
 * #SH08 ^property[=].valueDateTime = "2016-09-01T00:00:00+01:00"
+* #SH08 ^property[+].code = #status
+* #SH08 ^property[=].valueCode = #active
 * #SH09 "Praticien hospitalier temps partiel (R6152-201 et suivants du CSP)"
 * #SH09 ^designation[0].language = #fr-FR
 * #SH09 ^designation[=].use.system = "http://snomed.info/sct"
@@ -142,6 +171,8 @@ Description: "Statut hospitalier"
 * #SH09 ^property[=].valueDateTime = "2007-07-25T15:04:44+01:00"
 * #SH09 ^property[+].code = #dateMaj
 * #SH09 ^property[=].valueDateTime = "2016-09-01T00:00:00+01:00"
+* #SH09 ^property[+].code = #status
+* #SH09 ^property[=].valueCode = #active
 * #SH10 "Assistant des hôpitaux et Assistant associé (R6152-501 et suivants du CSP)"
 * #SH10 ^designation[0].language = #fr-FR
 * #SH10 ^designation[=].use.system = "http://snomed.info/sct"
@@ -155,6 +186,8 @@ Description: "Statut hospitalier"
 * #SH10 ^property[=].valueDateTime = "2007-07-25T15:04:44+01:00"
 * #SH10 ^property[+].code = #dateMaj
 * #SH10 ^property[=].valueDateTime = "2016-09-01T00:00:00+01:00"
+* #SH10 ^property[+].code = #status
+* #SH10 ^property[=].valueCode = #active
 * #SH11 "Praticien attaché et Praticien attaché associé (R6152-601 et suivants du CSP)"
 * #SH11 ^designation[0].language = #fr-FR
 * #SH11 ^designation[=].use.system = "http://snomed.info/sct"
@@ -168,6 +201,8 @@ Description: "Statut hospitalier"
 * #SH11 ^property[=].valueDateTime = "2007-07-25T15:04:44+01:00"
 * #SH11 ^property[+].code = #dateMaj
 * #SH11 ^property[=].valueDateTime = "2016-09-01T00:00:00+01:00"
+* #SH11 ^property[+].code = #status
+* #SH11 ^property[=].valueCode = #active
 * #SH12 "Praticien contractuel (R 6152-401 et suivants du CSP)"
 * #SH12 ^designation[0].language = #fr-FR
 * #SH12 ^designation[=].use.system = "http://snomed.info/sct"
@@ -177,6 +212,8 @@ Description: "Statut hospitalier"
 * #SH12 ^property[=].valueDateTime = "2007-07-25T15:04:44+01:00"
 * #SH12 ^property[+].code = #dateMaj
 * #SH12 ^property[=].valueDateTime = "2016-09-01T00:00:00+01:00"
+* #SH12 ^property[+].code = #status
+* #SH12 ^property[=].valueCode = #active
 * #SH13 "Praticien adjoint contractuel (décret n° 95-569)"
 * #SH13 ^designation[0].language = #fr-FR
 * #SH13 ^designation[=].use.system = "http://snomed.info/sct"
@@ -190,6 +227,8 @@ Description: "Statut hospitalier"
 * #SH13 ^property[=].valueDateTime = "2007-07-25T15:04:44+01:00"
 * #SH13 ^property[+].code = #dateMaj
 * #SH13 ^property[=].valueDateTime = "2016-09-01T00:00:00+01:00"
+* #SH13 ^property[+].code = #status
+* #SH13 ^property[=].valueCode = #active
 * #SH14 "Interne (R6153-1 et suivants du CSP)"
 * #SH14 ^designation[0].language = #fr-FR
 * #SH14 ^designation[=].use.system = "http://snomed.info/sct"
@@ -199,6 +238,8 @@ Description: "Statut hospitalier"
 * #SH14 ^property[=].valueDateTime = "2007-07-25T15:04:44+01:00"
 * #SH14 ^property[+].code = #dateMaj
 * #SH14 ^property[=].valueDateTime = "2016-09-01T00:00:00+01:00"
+* #SH14 ^property[+].code = #status
+* #SH14 ^property[=].valueCode = #active
 * #SH15 "Praticien Hospitalier-Universitaire (PHU) (décret n° 84-135)"
 * #SH15 ^designation[0].language = #fr-FR
 * #SH15 ^designation[=].use.system = "http://snomed.info/sct"
@@ -212,6 +253,8 @@ Description: "Statut hospitalier"
 * #SH15 ^property[=].valueDateTime = "2007-07-25T15:04:44+01:00"
 * #SH15 ^property[+].code = #dateMaj
 * #SH15 ^property[=].valueDateTime = "2016-09-01T00:00:00+01:00"
+* #SH15 ^property[+].code = #status
+* #SH15 ^property[=].valueCode = #active
 * #SH16 "Praticien hospitalier associé (R6152-1 et suivants du CSP)"
 * #SH16 ^designation[0].language = #fr-FR
 * #SH16 ^designation[=].use.system = "http://snomed.info/sct"
@@ -225,6 +268,8 @@ Description: "Statut hospitalier"
 * #SH16 ^property[=].valueDateTime = "2007-07-25T15:04:44+01:00"
 * #SH16 ^property[+].code = #dateMaj
 * #SH16 ^property[=].valueDateTime = "2016-09-01T00:00:00+01:00"
+* #SH16 ^property[+].code = #status
+* #SH16 ^property[=].valueCode = #active
 * #SH17 "Praticien hospitalier provisoire (abrogé depuis le 06/10/2006)"
 * #SH17 ^designation[0].language = #fr-FR
 * #SH17 ^designation[=].use.system = "http://snomed.info/sct"
@@ -237,6 +282,8 @@ Description: "Statut hospitalier"
 * #SH17 ^property[=].valueDateTime = "2007-07-25T00:00:00+01:00"
 * #SH17 ^property[+].code = #dateMaj
 * #SH17 ^property[=].valueDateTime = "2016-09-01T00:00:00+01:00"
+* #SH17 ^property[+].code = #status
+* #SH17 ^property[=].valueCode = #active
 * #SH18 "Clinicien hospitalier (R6152-701 et suivants du CSP)"
 * #SH18 ^designation[0].language = #fr-FR
 * #SH18 ^designation[=].use = $sct#900000000000013009
@@ -245,8 +292,12 @@ Description: "Statut hospitalier"
 * #SH18 ^property[=].valueDateTime = "2007-07-25T00:00:00+01:00"
 * #SH18 ^property[+].code = #dateMaj
 * #SH18 ^property[=].valueDateTime = "2016-09-01T00:00:00+01:00"
+* #SH18 ^property[+].code = #status
+* #SH18 ^property[=].valueCode = #active
 * #SH99 "Salarié hospitalier"
 * #SH99 ^property[0].code = #dateValid
 * #SH99 ^property[=].valueDateTime = "2007-07-25T15:04:44+01:00"
 * #SH99 ^property[+].code = #dateMaj
 * #SH99 ^property[=].valueDateTime = "2016-09-01T00:00:00+01:00"
+* #SH99 ^property[+].code = #status
+* #SH99 ^property[=].valueCode = #active

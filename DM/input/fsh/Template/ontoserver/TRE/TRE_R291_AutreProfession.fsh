@@ -1,8 +1,8 @@
 CodeSystem: TRE_R291_AutreProfession
 Id: TRE-R291-AutreProfession
 Description: "Liste de professionnels non membres d'une profession réglementée"
-* ^meta.versionId = "4"
-* ^meta.lastUpdated = "2024-08-28T05:13:11.570+00:00"
+* ^meta.versionId = "5"
+* ^meta.lastUpdated = "2025-07-02T18:17:16.527+00:00"
 * ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablecodesystem"
 * ^extension.url = "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod"
 * ^extension.valuePeriod.start = "2019-07-05T12:00:00+01:00"
@@ -14,6 +14,7 @@ Description: "Liste de professionnels non membres d'une profession réglementée
 * ^experimental = false
 * ^date = "2023-12-15T12:00:00+01:00"
 * ^publisher = "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris"
+* ^jurisdiction = urn:iso:std:iso:3166#FR
 * ^caseSensitive = false
 * ^content = #complete
 * ^property[0].code = #dateValid
@@ -24,6 +25,18 @@ Description: "Liste de professionnels non membres d'une profession réglementée
 * ^property[=].type = #dateTime
 * ^property[+].code = #dateFin
 * ^property[=].description = "Date de fin d'exploitation d'un code concept"
+* ^property[=].type = #dateTime
+* ^property[+].code = #deprecationDate
+* ^property[=].uri = "http://hl7.org/fhir/concept-properties#deprecationDate"
+* ^property[=].description = "Date Concept was deprecated"
+* ^property[=].type = #dateTime
+* ^property[+].code = #status
+* ^property[=].uri = "http://hl7.org/fhir/concept-properties#status"
+* ^property[=].description = "A property that indicates the status of the concept."
+* ^property[=].type = #code
+* ^property[+].code = #retirementDate
+* ^property[=].uri = "http://hl7.org/fhir/concept-properties#retirementDate"
+* ^property[=].description = "Date Concept was retired"
 * ^property[=].type = #dateTime
 * #950 "Acteur caractérisé par son rôle"
 * #950 ^designation.language = #fr-FR
@@ -36,6 +49,10 @@ Description: "Liste de professionnels non membres d'une profession réglementée
 * #950 ^property[=].valueDateTime = "2020-05-29T12:00:00+01:00"
 * #950 ^property[+].code = #dateMaj
 * #950 ^property[=].valueDateTime = "2020-05-29T12:00:00+01:00"
+* #950 ^property[+].code = #deprecationDate
+* #950 ^property[=].valueDateTime = "2020-05-29T12:00:00+01:00"
+* #950 ^property[+].code = #status
+* #950 ^property[=].valueCode = #deprecated
 * #99 "Acteur participant au système de santé caractérisé par rôle"
 * #99 ^designation.language = #fr-FR
 * #99 ^designation.use = $sct#900000000000013009
@@ -44,3 +61,5 @@ Description: "Liste de professionnels non membres d'une profession réglementée
 * #99 ^property[=].valueDateTime = "2019-07-05T12:00:00+01:00"
 * #99 ^property[+].code = #dateMaj
 * #99 ^property[=].valueDateTime = "2023-11-24T12:00:00+01:00"
+* #99 ^property[+].code = #status
+* #99 ^property[=].valueCode = #active

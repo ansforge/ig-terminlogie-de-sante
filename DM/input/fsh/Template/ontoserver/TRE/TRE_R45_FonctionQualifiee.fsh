@@ -1,8 +1,8 @@
 CodeSystem: TRE_R45_FonctionQualifiee
 Id: TRE-R45-FonctionQualifiee
 Description: "Fonction qualifiée"
-* ^meta.versionId = "4"
-* ^meta.lastUpdated = "2024-08-28T05:13:52.836+00:00"
+* ^meta.versionId = "5"
+* ^meta.lastUpdated = "2025-07-02T18:18:07.759+00:00"
 * ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablecodesystem"
 * ^extension.url = "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod"
 * ^extension.valuePeriod.start = "2013-06-28T00:00:00+01:00"
@@ -14,6 +14,7 @@ Description: "Fonction qualifiée"
 * ^experimental = false
 * ^date = "2023-12-15T12:00:00+01:00"
 * ^publisher = "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris"
+* ^jurisdiction = urn:iso:std:iso:3166#FR
 * ^caseSensitive = false
 * ^content = #complete
 * ^property[0].code = #dateValid
@@ -25,6 +26,18 @@ Description: "Fonction qualifiée"
 * ^property[+].code = #dateFin
 * ^property[=].description = "Date de fin d'exploitation d'un code concept"
 * ^property[=].type = #dateTime
+* ^property[+].code = #deprecationDate
+* ^property[=].uri = "http://hl7.org/fhir/concept-properties#deprecationDate"
+* ^property[=].description = "Date Concept was deprecated"
+* ^property[=].type = #dateTime
+* ^property[+].code = #status
+* ^property[=].uri = "http://hl7.org/fhir/concept-properties#status"
+* ^property[=].description = "A property that indicates the status of the concept."
+* ^property[=].type = #code
+* ^property[+].code = #retirementDate
+* ^property[=].uri = "http://hl7.org/fhir/concept-properties#retirementDate"
+* ^property[=].description = "Date Concept was retired"
+* ^property[=].type = #dateTime
 * #FQ01 "Expérience pratique art R.5124-16 du CSP Fabricant (FQ)"
 * #FQ01 ^designation.language = #fr-FR
 * #FQ01 ^designation.use.system = "http://snomed.info/sct"
@@ -34,6 +47,8 @@ Description: "Fonction qualifiée"
 * #FQ01 ^property[=].valueDateTime = "2007-07-26T00:00:00+01:00"
 * #FQ01 ^property[+].code = #dateMaj
 * #FQ01 ^property[=].valueDateTime = "2016-09-01T00:00:00+01:00"
+* #FQ01 ^property[+].code = #status
+* #FQ01 ^property[=].valueCode = #active
 * #FQ02 "Expérience pratique art R.5124-16 du CSP Exploitant (FQ)"
 * #FQ02 ^designation.language = #fr-FR
 * #FQ02 ^designation.use.system = "http://snomed.info/sct"
@@ -43,6 +58,8 @@ Description: "Fonction qualifiée"
 * #FQ02 ^property[=].valueDateTime = "2007-07-26T00:00:00+01:00"
 * #FQ02 ^property[+].code = #dateMaj
 * #FQ02 ^property[=].valueDateTime = "2016-09-01T00:00:00+01:00"
+* #FQ02 ^property[+].code = #status
+* #FQ02 ^property[=].valueCode = #active
 * #FQ03 "Expérience pratique art R.5124-16 du CSP Thérapie cellulaire (FQ)"
 * #FQ03 ^designation.language = #fr-FR
 * #FQ03 ^designation.use.system = "http://snomed.info/sct"
@@ -52,6 +69,8 @@ Description: "Fonction qualifiée"
 * #FQ03 ^property[=].valueDateTime = "2007-07-26T00:00:00+01:00"
 * #FQ03 ^property[+].code = #dateMaj
 * #FQ03 ^property[=].valueDateTime = "2016-09-01T00:00:00+01:00"
+* #FQ03 ^property[+].code = #status
+* #FQ03 ^property[=].valueCode = #active
 * #FQ04 "Expérience pratique art R.5124-18 du CSP Pharmacie (FQ)"
 * #FQ04 ^designation.language = #fr-FR
 * #FQ04 ^designation.use.system = "http://snomed.info/sct"
@@ -61,6 +80,8 @@ Description: "Fonction qualifiée"
 * #FQ04 ^property[=].valueDateTime = "2007-07-26T00:00:00+01:00"
 * #FQ04 ^property[+].code = #dateMaj
 * #FQ04 ^property[=].valueDateTime = "2016-09-01T00:00:00+01:00"
+* #FQ04 ^property[+].code = #status
+* #FQ04 ^property[=].valueCode = #active
 * #FQ05 "Expérience pratique art R.5141-129 du CSP Autovaccins (FQ)"
 * #FQ05 ^designation.language = #fr-FR
 * #FQ05 ^designation.use = $sct#900000000000013009
@@ -69,3 +90,5 @@ Description: "Fonction qualifiée"
 * #FQ05 ^property[=].valueDateTime = "2007-07-26T00:00:00+01:00"
 * #FQ05 ^property[+].code = #dateMaj
 * #FQ05 ^property[=].valueDateTime = "2016-09-01T00:00:00+01:00"
+* #FQ05 ^property[+].code = #status
+* #FQ05 ^property[=].valueCode = #active

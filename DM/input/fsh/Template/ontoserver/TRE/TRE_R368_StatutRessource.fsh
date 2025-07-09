@@ -1,8 +1,8 @@
 CodeSystem: TRE_R368_StatutRessource
 Id: TRE-R368-StatutRessource
 Description: "Caractérise le statut d'une ressource du médico-social au cours de son cycle de vie"
-* ^meta.versionId = "2"
-* ^meta.lastUpdated = "2025-04-25T18:12:48.060+00:00"
+* ^meta.versionId = "3"
+* ^meta.lastUpdated = "2025-07-02T18:17:58.996+00:00"
 * ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablecodesystem"
 * ^extension.url = "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod"
 * ^extension.valuePeriod.start = "2024-09-27T12:00:00+01:00"
@@ -14,6 +14,7 @@ Description: "Caractérise le statut d'une ressource du médico-social au cours 
 * ^experimental = false
 * ^date = "2025-04-25T12:00:00+01:00"
 * ^publisher = "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris"
+* ^jurisdiction = urn:iso:std:iso:3166#FR
 * ^caseSensitive = false
 * ^content = #complete
 * ^property[0].code = #dateValid

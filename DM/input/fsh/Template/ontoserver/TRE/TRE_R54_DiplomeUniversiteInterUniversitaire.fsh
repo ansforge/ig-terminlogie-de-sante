@@ -1,8 +1,8 @@
 CodeSystem: TRE_R54_DiplomeUniversiteInterUniversitaire
 Id: TRE-R54-DiplomeUniversiteInterUniversitaire
 Description: "Diplôme d'Université ou Inter-Universitaire"
-* ^meta.versionId = "8"
-* ^meta.lastUpdated = "2024-08-28T05:13:58.584+00:00"
+* ^meta.versionId = "9"
+* ^meta.lastUpdated = "2025-07-02T18:18:20.052+00:00"
 * ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablecodesystem"
 * ^extension.url = "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod"
 * ^extension.valuePeriod.start = "2015-12-29T00:00:00+01:00"
@@ -14,6 +14,7 @@ Description: "Diplôme d'Université ou Inter-Universitaire"
 * ^experimental = false
 * ^date = "2024-07-26T12:00:00+01:00"
 * ^publisher = "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris"
+* ^jurisdiction = urn:iso:std:iso:3166#FR
 * ^caseSensitive = false
 * ^content = #complete
 * ^property[0].code = #dateValid
@@ -25,6 +26,18 @@ Description: "Diplôme d'Université ou Inter-Universitaire"
 * ^property[+].code = #dateFin
 * ^property[=].description = "Date de fin d'exploitation d'un code concept"
 * ^property[=].type = #dateTime
+* ^property[+].code = #deprecationDate
+* ^property[=].uri = "http://hl7.org/fhir/concept-properties#deprecationDate"
+* ^property[=].description = "Date Concept was deprecated"
+* ^property[=].type = #dateTime
+* ^property[+].code = #status
+* ^property[=].uri = "http://hl7.org/fhir/concept-properties#status"
+* ^property[=].description = "A property that indicates the status of the concept."
+* ^property[=].type = #code
+* ^property[+].code = #retirementDate
+* ^property[=].uri = "http://hl7.org/fhir/concept-properties#retirementDate"
+* ^property[=].description = "Date Concept was retired"
+* ^property[=].type = #dateTime
 * #DIP02 "Doctorat de 3ème cycle sciences Odontologiques"
 * #DIP02 ^designation[0].language = #fr-FR
 * #DIP02 ^designation[=].use.system = "http://snomed.info/sct"
@@ -34,6 +47,8 @@ Description: "Diplôme d'Université ou Inter-Universitaire"
 * #DIP02 ^property[=].valueDateTime = "2008-03-20T10:49:16+01:00"
 * #DIP02 ^property[+].code = #dateMaj
 * #DIP02 ^property[=].valueDateTime = "2016-09-01T00:00:00+01:00"
+* #DIP02 ^property[+].code = #status
+* #DIP02 ^property[=].valueCode = #active
 * #DIP38 "DIU Accueil des urgences service pédiatrique"
 * #DIP38 ^designation[0].language = #fr-FR
 * #DIP38 ^designation[=].use.system = "http://snomed.info/sct"
@@ -43,11 +58,15 @@ Description: "Diplôme d'Université ou Inter-Universitaire"
 * #DIP38 ^property[=].valueDateTime = "2008-03-20T10:49:29+01:00"
 * #DIP38 ^property[+].code = #dateMaj
 * #DIP38 ^property[=].valueDateTime = "2016-09-01T00:00:00+01:00"
+* #DIP38 ^property[+].code = #status
+* #DIP38 ^property[=].valueCode = #active
 * #DIP39 "DIU Arthroscopie"
 * #DIP39 ^property[0].code = #dateValid
 * #DIP39 ^property[=].valueDateTime = "2008-03-20T10:49:30+01:00"
 * #DIP39 ^property[+].code = #dateMaj
 * #DIP39 ^property[=].valueDateTime = "2008-03-20T10:49:30+01:00"
+* #DIP39 ^property[+].code = #status
+* #DIP39 ^property[=].valueCode = #active
 * #DIP40 "DIU Cardiologie interventionnelle"
 * #DIP40 ^designation[0].language = #fr-FR
 * #DIP40 ^designation[=].use.system = "http://snomed.info/sct"
@@ -57,11 +76,15 @@ Description: "Diplôme d'Université ou Inter-Universitaire"
 * #DIP40 ^property[=].valueDateTime = "2008-03-20T10:49:31+01:00"
 * #DIP40 ^property[+].code = #dateMaj
 * #DIP40 ^property[=].valueDateTime = "2016-09-01T00:00:00+01:00"
+* #DIP40 ^property[+].code = #status
+* #DIP40 ^property[=].valueCode = #active
 * #DIP41 "DIU Acupuncture"
 * #DIP41 ^property[0].code = #dateValid
 * #DIP41 ^property[=].valueDateTime = "2008-03-20T10:49:31+01:00"
 * #DIP41 ^property[+].code = #dateMaj
 * #DIP41 ^property[=].valueDateTime = "2008-03-20T10:49:31+01:00"
+* #DIP41 ^property[+].code = #status
+* #DIP41 ^property[=].valueCode = #active
 * #DIP42 "DIU Médecine manuelle et Ostéopathie"
 * #DIP42 ^designation[0].language = #fr-FR
 * #DIP42 ^designation[=].use.system = "http://snomed.info/sct"
@@ -71,6 +94,8 @@ Description: "Diplôme d'Université ou Inter-Universitaire"
 * #DIP42 ^property[=].valueDateTime = "2008-03-20T10:49:32+01:00"
 * #DIP42 ^property[+].code = #dateMaj
 * #DIP42 ^property[=].valueDateTime = "2016-09-01T00:00:00+01:00"
+* #DIP42 ^property[+].code = #status
+* #DIP42 ^property[=].valueCode = #active
 * #DIP43 "DIU Médecine subaquatique et hyperbare"
 * #DIP43 ^designation[0].language = #fr-FR
 * #DIP43 ^designation[=].use.system = "http://snomed.info/sct"
@@ -80,6 +105,8 @@ Description: "Diplôme d'Université ou Inter-Universitaire"
 * #DIP43 ^property[=].valueDateTime = "2008-03-20T10:49:33+01:00"
 * #DIP43 ^property[+].code = #dateMaj
 * #DIP43 ^property[=].valueDateTime = "2016-09-01T00:00:00+01:00"
+* #DIP43 ^property[+].code = #status
+* #DIP43 ^property[=].valueCode = #active
 * #DIP44 "DIU Pathologie neuro-vasculaire"
 * #DIP44 ^designation[0].language = #fr-FR
 * #DIP44 ^designation[=].use.system = "http://snomed.info/sct"
@@ -89,11 +116,15 @@ Description: "Diplôme d'Université ou Inter-Universitaire"
 * #DIP44 ^property[=].valueDateTime = "2008-03-20T10:49:33+01:00"
 * #DIP44 ^property[+].code = #dateMaj
 * #DIP44 ^property[=].valueDateTime = "2016-09-01T00:00:00+01:00"
+* #DIP44 ^property[+].code = #status
+* #DIP44 ^property[=].valueCode = #active
 * #DIP45 "DIU Phoniatrie"
 * #DIP45 ^property[0].code = #dateValid
 * #DIP45 ^property[=].valueDateTime = "2008-03-20T10:49:34+01:00"
 * #DIP45 ^property[+].code = #dateMaj
 * #DIP45 ^property[=].valueDateTime = "2008-03-20T10:49:34+01:00"
+* #DIP45 ^property[+].code = #status
+* #DIP45 ^property[=].valueCode = #active
 * #DIP46 "DIU Réparation juridique du dommage corporel"
 * #DIP46 ^designation[0].language = #fr-FR
 * #DIP46 ^designation[=].use.system = "http://snomed.info/sct"
@@ -103,11 +134,15 @@ Description: "Diplôme d'Université ou Inter-Universitaire"
 * #DIP46 ^property[=].valueDateTime = "2008-03-20T10:49:35+01:00"
 * #DIP46 ^property[+].code = #dateMaj
 * #DIP46 ^property[=].valueDateTime = "2016-09-01T00:00:00+01:00"
+* #DIP46 ^property[+].code = #status
+* #DIP46 ^property[=].valueCode = #active
 * #DIP47 "DIU Veille et sommeil"
 * #DIP47 ^property[0].code = #dateValid
 * #DIP47 ^property[=].valueDateTime = "2008-03-20T10:49:35+01:00"
 * #DIP47 ^property[+].code = #dateMaj
 * #DIP47 ^property[=].valueDateTime = "2016-09-01T00:00:00+01:00"
+* #DIP47 ^property[+].code = #status
+* #DIP47 ^property[=].valueCode = #active
 * #DIP48 "DIU Dermatologie esthétique et Cosmétologie"
 * #DIP48 ^designation[0].language = #fr-FR
 * #DIP48 ^designation[=].use.system = "http://snomed.info/sct"
@@ -117,6 +152,8 @@ Description: "Diplôme d'Université ou Inter-Universitaire"
 * #DIP48 ^property[=].valueDateTime = "2008-03-20T10:49:36+01:00"
 * #DIP48 ^property[+].code = #dateMaj
 * #DIP48 ^property[=].valueDateTime = "2016-09-01T00:00:00+01:00"
+* #DIP48 ^property[+].code = #status
+* #DIP48 ^property[=].valueCode = #active
 * #DIP49 "DIU Pathologie du sommeil et de la vigilance"
 * #DIP49 ^designation[0].language = #fr-FR
 * #DIP49 ^designation[=].use.system = "http://snomed.info/sct"
@@ -126,6 +163,8 @@ Description: "Diplôme d'Université ou Inter-Universitaire"
 * #DIP49 ^property[=].valueDateTime = "2008-03-20T10:49:36+01:00"
 * #DIP49 ^property[+].code = #dateMaj
 * #DIP49 ^property[=].valueDateTime = "2016-09-01T00:00:00+01:00"
+* #DIP49 ^property[+].code = #status
+* #DIP49 ^property[=].valueCode = #active
 * #DIP50 "DIU Pathologie foetale et placentaire"
 * #DIP50 ^designation[0].language = #fr-FR
 * #DIP50 ^designation[=].use.system = "http://snomed.info/sct"
@@ -135,6 +174,8 @@ Description: "Diplôme d'Université ou Inter-Universitaire"
 * #DIP50 ^property[=].valueDateTime = "2008-03-20T10:49:37+01:00"
 * #DIP50 ^property[+].code = #dateMaj
 * #DIP50 ^property[=].valueDateTime = "2016-09-01T00:00:00+01:00"
+* #DIP50 ^property[+].code = #status
+* #DIP50 ^property[=].valueCode = #active
 * #DIP51 "DIU Soins palliatifs et accompagnement"
 * #DIP51 ^designation[0].language = #fr-FR
 * #DIP51 ^designation[=].use.system = "http://snomed.info/sct"
@@ -144,6 +185,8 @@ Description: "Diplôme d'Université ou Inter-Universitaire"
 * #DIP51 ^property[=].valueDateTime = "2008-03-20T10:49:38+01:00"
 * #DIP51 ^property[+].code = #dateMaj
 * #DIP51 ^property[=].valueDateTime = "2016-09-01T00:00:00+01:00"
+* #DIP51 ^property[+].code = #status
+* #DIP51 ^property[=].valueCode = #active
 * #DIP52 "DIU Tabacologie et d'Aide au sevrage tabagique"
 * #DIP52 ^designation[0].language = #fr-FR
 * #DIP52 ^designation[=].use.system = "http://snomed.info/sct"
@@ -153,6 +196,8 @@ Description: "Diplôme d'Université ou Inter-Universitaire"
 * #DIP52 ^property[=].valueDateTime = "2008-03-20T10:49:38+01:00"
 * #DIP52 ^property[+].code = #dateMaj
 * #DIP52 ^property[=].valueDateTime = "2016-09-01T00:00:00+01:00"
+* #DIP52 ^property[+].code = #status
+* #DIP52 ^property[=].valueCode = #active
 * #DIP53 "DIU Chirurgie réfractive et Chirurgie de la myopie"
 * #DIP53 ^designation[0].language = #fr-FR
 * #DIP53 ^designation[=].use.system = "http://snomed.info/sct"
@@ -162,6 +207,8 @@ Description: "Diplôme d'Université ou Inter-Universitaire"
 * #DIP53 ^property[=].valueDateTime = "2008-03-20T10:49:42+01:00"
 * #DIP53 ^property[+].code = #dateMaj
 * #DIP53 ^property[=].valueDateTime = "2016-09-01T00:00:00+01:00"
+* #DIP53 ^property[+].code = #status
+* #DIP53 ^property[=].valueCode = #active
 * #DIP54 "DIU Chirurgie de la main"
 * #DIP54 ^designation[0].language = #fr-FR
 * #DIP54 ^designation[=].use.system = "http://snomed.info/sct"
@@ -171,21 +218,29 @@ Description: "Diplôme d'Université ou Inter-Universitaire"
 * #DIP54 ^property[=].valueDateTime = "2008-03-20T10:49:42+01:00"
 * #DIP54 ^property[+].code = #dateMaj
 * #DIP54 ^property[=].valueDateTime = "2008-03-20T10:49:42+01:00"
+* #DIP54 ^property[+].code = #status
+* #DIP54 ^property[=].valueCode = #active
 * #DIP55 "DIU Proctologie"
 * #DIP55 ^property[0].code = #dateValid
 * #DIP55 ^property[=].valueDateTime = "2008-03-20T10:49:43+01:00"
 * #DIP55 ^property[+].code = #dateMaj
 * #DIP55 ^property[=].valueDateTime = "2008-03-20T10:49:43+01:00"
+* #DIP55 ^property[+].code = #status
+* #DIP55 ^property[=].valueCode = #active
 * #DIP56 "DIU Echocardiographie"
 * #DIP56 ^property[0].code = #dateValid
 * #DIP56 ^property[=].valueDateTime = "2008-03-20T10:49:44+01:00"
 * #DIP56 ^property[+].code = #dateMaj
 * #DIP56 ^property[=].valueDateTime = "2016-09-01T00:00:00+01:00"
+* #DIP56 ^property[+].code = #status
+* #DIP56 ^property[=].valueCode = #active
 * #DIP57 "DIU Echographie générale"
 * #DIP57 ^property[0].code = #dateValid
 * #DIP57 ^property[=].valueDateTime = "2008-03-20T10:49:44+01:00"
 * #DIP57 ^property[+].code = #dateMaj
 * #DIP57 ^property[=].valueDateTime = "2016-09-01T00:00:00+01:00"
+* #DIP57 ^property[+].code = #status
+* #DIP57 ^property[=].valueCode = #active
 * #DIP58 "DIU Echographie gynécologique et obstétricale"
 * #DIP58 ^designation[0].language = #fr-FR
 * #DIP58 ^designation[=].use.system = "http://snomed.info/sct"
@@ -195,6 +250,8 @@ Description: "Diplôme d'Université ou Inter-Universitaire"
 * #DIP58 ^property[=].valueDateTime = "2008-03-20T10:49:45+01:00"
 * #DIP58 ^property[+].code = #dateMaj
 * #DIP58 ^property[=].valueDateTime = "2016-09-01T00:00:00+01:00"
+* #DIP58 ^property[+].code = #status
+* #DIP58 ^property[=].valueCode = #active
 * #DIP59 "DU Adaptation de lentilles de contact"
 * #DIP59 ^designation[0].language = #fr-FR
 * #DIP59 ^designation[=].use.system = "http://snomed.info/sct"
@@ -204,6 +261,8 @@ Description: "Diplôme d'Université ou Inter-Universitaire"
 * #DIP59 ^property[=].valueDateTime = "2008-03-20T10:49:46+01:00"
 * #DIP59 ^property[+].code = #dateMaj
 * #DIP59 ^property[=].valueDateTime = "2016-09-01T00:00:00+01:00"
+* #DIP59 ^property[+].code = #status
+* #DIP59 ^property[=].valueCode = #active
 * #DIP60 "DU Angiographie et Pathologie rétinienne"
 * #DIP60 ^designation[0].language = #fr-FR
 * #DIP60 ^designation[=].use.system = "http://snomed.info/sct"
@@ -213,16 +272,22 @@ Description: "Diplôme d'Université ou Inter-Universitaire"
 * #DIP60 ^property[=].valueDateTime = "2008-03-20T10:49:46+01:00"
 * #DIP60 ^property[+].code = #dateMaj
 * #DIP60 ^property[=].valueDateTime = "2016-09-01T00:00:00+01:00"
+* #DIP60 ^property[+].code = #status
+* #DIP60 ^property[=].valueCode = #active
 * #DIP61 "DIU Stimulation cardiaque"
 * #DIP61 ^property[0].code = #dateValid
 * #DIP61 ^property[=].valueDateTime = "2008-03-20T10:49:47+01:00"
 * #DIP61 ^property[+].code = #dateMaj
 * #DIP61 ^property[=].valueDateTime = "2016-09-01T00:00:00+01:00"
+* #DIP61 ^property[+].code = #status
+* #DIP61 ^property[=].valueCode = #active
 * #DIP62 "DIU Mésothérapie"
 * #DIP62 ^property[0].code = #dateValid
 * #DIP62 ^property[=].valueDateTime = "2008-03-20T10:49:47+01:00"
 * #DIP62 ^property[+].code = #dateMaj
 * #DIP62 ^property[=].valueDateTime = "2008-03-20T10:49:47+01:00"
+* #DIP62 ^property[+].code = #status
+* #DIP62 ^property[=].valueCode = #active
 * #DIP63 "DU Réparation juridique du dommage corporel"
 * #DIP63 ^designation[0].language = #fr-FR
 * #DIP63 ^designation[=].use.system = "http://snomed.info/sct"
@@ -232,6 +297,8 @@ Description: "Diplôme d'Université ou Inter-Universitaire"
 * #DIP63 ^property[=].valueDateTime = "2008-03-20T10:49:48+01:00"
 * #DIP63 ^property[+].code = #dateMaj
 * #DIP63 ^property[=].valueDateTime = "2016-09-01T00:00:00+01:00"
+* #DIP63 ^property[+].code = #status
+* #DIP63 ^property[=].valueCode = #active
 * #DIP64 "DIU Echographie vasculaire et urinaire"
 * #DIP64 ^designation[0].language = #fr-FR
 * #DIP64 ^designation[=].use.system = "http://snomed.info/sct"
@@ -241,6 +308,8 @@ Description: "Diplôme d'Université ou Inter-Universitaire"
 * #DIP64 ^property[=].valueDateTime = "2008-03-20T10:49:49+01:00"
 * #DIP64 ^property[+].code = #dateMaj
 * #DIP64 ^property[=].valueDateTime = "2016-09-01T00:00:00+01:00"
+* #DIP64 ^property[+].code = #status
+* #DIP64 ^property[=].valueCode = #active
 * #DIP65 "DIU Imagerie vasculaire non invasive"
 * #DIP65 ^designation[0].language = #fr-FR
 * #DIP65 ^designation[=].use.system = "http://snomed.info/sct"
@@ -250,6 +319,8 @@ Description: "Diplôme d'Université ou Inter-Universitaire"
 * #DIP65 ^property[=].valueDateTime = "2008-03-20T10:49:49+01:00"
 * #DIP65 ^property[+].code = #dateMaj
 * #DIP65 ^property[=].valueDateTime = "2016-09-01T00:00:00+01:00"
+* #DIP65 ^property[+].code = #status
+* #DIP65 ^property[=].valueCode = #active
 * #DIP66 "DU Etudes de réparation du dommage corporel"
 * #DIP66 ^designation[0].language = #fr-FR
 * #DIP66 ^designation[=].use.system = "http://snomed.info/sct"
@@ -259,11 +330,15 @@ Description: "Diplôme d'Université ou Inter-Universitaire"
 * #DIP66 ^property[=].valueDateTime = "2008-03-20T10:49:50+01:00"
 * #DIP66 ^property[+].code = #dateMaj
 * #DIP66 ^property[=].valueDateTime = "2016-09-01T00:00:00+01:00"
+* #DIP66 ^property[+].code = #status
+* #DIP66 ^property[=].valueCode = #active
 * #DIP67 "DIU Soins palliatifs"
 * #DIP67 ^property[0].code = #dateValid
 * #DIP67 ^property[=].valueDateTime = "2008-03-20T10:49:50+01:00"
 * #DIP67 ^property[+].code = #dateMaj
 * #DIP67 ^property[=].valueDateTime = "2008-03-20T10:49:50+01:00"
+* #DIP67 ^property[+].code = #status
+* #DIP67 ^property[=].valueCode = #active
 * #DIP68 "DIU Chirurgie endocrinienne et métabolique"
 * #DIP68 ^designation[0].language = #fr-FR
 * #DIP68 ^designation[=].use.system = "http://snomed.info/sct"
@@ -273,16 +348,22 @@ Description: "Diplôme d'Université ou Inter-Universitaire"
 * #DIP68 ^property[=].valueDateTime = "2008-03-20T10:49:51+01:00"
 * #DIP68 ^property[+].code = #dateMaj
 * #DIP68 ^property[=].valueDateTime = "2016-09-01T00:00:00+01:00"
+* #DIP68 ^property[+].code = #status
+* #DIP68 ^property[=].valueCode = #active
 * #DIP69 "DIU Echographie vasculaire"
 * #DIP69 ^property[0].code = #dateValid
 * #DIP69 ^property[=].valueDateTime = "2008-03-20T10:49:52+01:00"
 * #DIP69 ^property[+].code = #dateMaj
 * #DIP69 ^property[=].valueDateTime = "2016-09-01T00:00:00+01:00"
+* #DIP69 ^property[+].code = #status
+* #DIP69 ^property[=].valueCode = #active
 * #DIP70 "DIU Sommeil et sa pathologie"
 * #DIP70 ^property[0].code = #dateValid
 * #DIP70 ^property[=].valueDateTime = "2008-03-20T10:49:52+01:00"
 * #DIP70 ^property[+].code = #dateMaj
 * #DIP70 ^property[=].valueDateTime = "2016-09-01T00:00:00+01:00"
+* #DIP70 ^property[+].code = #status
+* #DIP70 ^property[=].valueCode = #active
 * #DIP71 "DIU Chirurgie cancérologique digestive"
 * #DIP71 ^designation[0].language = #fr-FR
 * #DIP71 ^designation[=].use.system = "http://snomed.info/sct"
@@ -292,11 +373,15 @@ Description: "Diplôme d'Université ou Inter-Universitaire"
 * #DIP71 ^property[=].valueDateTime = "2008-03-20T10:49:53+01:00"
 * #DIP71 ^property[+].code = #dateMaj
 * #DIP71 ^property[=].valueDateTime = "2016-09-01T00:00:00+01:00"
+* #DIP71 ^property[+].code = #status
+* #DIP71 ^property[=].valueCode = #active
 * #DIP72 "DU ou DIU Médecine foetale"
 * #DIP72 ^property[0].code = #dateValid
 * #DIP72 ^property[=].valueDateTime = "2008-03-20T10:49:54+01:00"
 * #DIP72 ^property[+].code = #dateMaj
 * #DIP72 ^property[=].valueDateTime = "2016-09-01T00:00:00+01:00"
+* #DIP72 ^property[+].code = #status
+* #DIP72 ^property[=].valueCode = #active
 * #DIP75 "DU Indemnisation du dommage corporel Médecin conseil société d'assurance"
 * #DIP75 ^designation[0].language = #fr-FR
 * #DIP75 ^designation[=].use.system = "http://snomed.info/sct"
@@ -306,6 +391,8 @@ Description: "Diplôme d'Université ou Inter-Universitaire"
 * #DIP75 ^property[=].valueDateTime = "2008-03-20T10:49:55+01:00"
 * #DIP75 ^property[+].code = #dateMaj
 * #DIP75 ^property[=].valueDateTime = "2016-09-01T00:00:00+01:00"
+* #DIP75 ^property[+].code = #status
+* #DIP75 ^property[=].valueCode = #active
 * #DIP76 "DIU Physiopathologie exploration fonctionnel neurosensorielle"
 * #DIP76 ^designation[0].language = #fr-FR
 * #DIP76 ^designation[=].use.system = "http://snomed.info/sct"
@@ -315,6 +402,8 @@ Description: "Diplôme d'Université ou Inter-Universitaire"
 * #DIP76 ^property[=].valueDateTime = "2008-03-20T10:49:56+01:00"
 * #DIP76 ^property[+].code = #dateMaj
 * #DIP76 ^property[=].valueDateTime = "2016-09-01T00:00:00+01:00"
+* #DIP76 ^property[+].code = #status
+* #DIP76 ^property[=].valueCode = #active
 * #DIP77 "DIU Echographie abdominale et urinaire"
 * #DIP77 ^designation[0].language = #fr-FR
 * #DIP77 ^designation[=].use.system = "http://snomed.info/sct"
@@ -324,6 +413,8 @@ Description: "Diplôme d'Université ou Inter-Universitaire"
 * #DIP77 ^property[=].valueDateTime = "2008-03-20T10:49:57+01:00"
 * #DIP77 ^property[+].code = #dateMaj
 * #DIP77 ^property[=].valueDateTime = "2016-09-01T00:00:00+01:00"
+* #DIP77 ^property[+].code = #status
+* #DIP77 ^property[=].valueCode = #active
 * #DIP78 "DIU Explorations fonctionnelles digestives"
 * #DIP78 ^designation[0].language = #fr-FR
 * #DIP78 ^designation[=].use.system = "http://snomed.info/sct"
@@ -333,6 +424,8 @@ Description: "Diplôme d'Université ou Inter-Universitaire"
 * #DIP78 ^property[=].valueDateTime = "2008-03-20T10:49:57+01:00"
 * #DIP78 ^property[+].code = #dateMaj
 * #DIP78 ^property[=].valueDateTime = "2016-09-01T00:00:00+01:00"
+* #DIP78 ^property[+].code = #status
+* #DIP78 ^property[=].valueCode = #active
 * #DIP79 "DIU Chirurgie rétino-vitréenne"
 * #DIP79 ^designation[0].language = #fr-FR
 * #DIP79 ^designation[=].use.system = "http://snomed.info/sct"
@@ -342,6 +435,8 @@ Description: "Diplôme d'Université ou Inter-Universitaire"
 * #DIP79 ^property[=].valueDateTime = "2008-03-20T10:49:58+01:00"
 * #DIP79 ^property[+].code = #dateMaj
 * #DIP79 ^property[=].valueDateTime = "2016-09-01T00:00:00+01:00"
+* #DIP79 ^property[+].code = #status
+* #DIP79 ^property[=].valueCode = #active
 * #DIP80 "DIU Echocardiographie et doppler"
 * #DIP80 ^designation[0].language = #fr-FR
 * #DIP80 ^designation[=].use.system = "http://snomed.info/sct"
@@ -351,6 +446,8 @@ Description: "Diplôme d'Université ou Inter-Universitaire"
 * #DIP80 ^property[=].valueDateTime = "2008-03-20T10:49:59+01:00"
 * #DIP80 ^property[+].code = #dateMaj
 * #DIP80 ^property[=].valueDateTime = "2016-09-01T00:00:00+01:00"
+* #DIP80 ^property[+].code = #status
+* #DIP80 ^property[=].valueCode = #active
 * #DIP81 "DIU Médecine et Réanimation néonatales"
 * #DIP81 ^designation[0].language = #fr-FR
 * #DIP81 ^designation[=].use.system = "http://snomed.info/sct"
@@ -360,6 +457,8 @@ Description: "Diplôme d'Université ou Inter-Universitaire"
 * #DIP81 ^property[=].valueDateTime = "2008-03-20T10:49:59+01:00"
 * #DIP81 ^property[+].code = #dateMaj
 * #DIP81 ^property[=].valueDateTime = "2016-09-01T00:00:00+01:00"
+* #DIP81 ^property[+].code = #status
+* #DIP81 ^property[=].valueCode = #active
 * #DIP82 "DIU Médecine morphologique et anti-âge"
 * #DIP82 ^designation[0].language = #fr-FR
 * #DIP82 ^designation[=].use.system = "http://snomed.info/sct"
@@ -369,6 +468,8 @@ Description: "Diplôme d'Université ou Inter-Universitaire"
 * #DIP82 ^property[=].valueDateTime = "2008-03-20T10:50:00+01:00"
 * #DIP82 ^property[+].code = #dateMaj
 * #DIP82 ^property[=].valueDateTime = "2017-10-13T12:00:00+01:00"
+* #DIP82 ^property[+].code = #status
+* #DIP82 ^property[=].valueCode = #active
 * #DIP83 "DIU Chirurgie du pied et de la cheville"
 * #DIP83 ^designation[0].language = #fr-FR
 * #DIP83 ^designation[=].use.system = "http://snomed.info/sct"
@@ -378,6 +479,8 @@ Description: "Diplôme d'Université ou Inter-Universitaire"
 * #DIP83 ^property[=].valueDateTime = "2008-03-20T10:50:01+01:00"
 * #DIP83 ^property[+].code = #dateMaj
 * #DIP83 ^property[=].valueDateTime = "2016-09-01T00:00:00+01:00"
+* #DIP83 ^property[+].code = #status
+* #DIP83 ^property[=].valueCode = #active
 * #DIP84 "DDCD Diplôme de Chirurgien-Dentiste"
 * #DIP84 ^designation[0].language = #fr-FR
 * #DIP84 ^designation[=].use.system = "http://snomed.info/sct"
@@ -387,6 +490,8 @@ Description: "Diplôme d'Université ou Inter-Universitaire"
 * #DIP84 ^property[=].valueDateTime = "2008-03-20T10:50:02+01:00"
 * #DIP84 ^property[+].code = #dateMaj
 * #DIP84 ^property[=].valueDateTime = "2016-09-01T00:00:00+01:00"
+* #DIP84 ^property[+].code = #status
+* #DIP84 ^property[=].valueCode = #active
 * #DIP85 "DIU Angiographie et Pathologie rétinienne"
 * #DIP85 ^designation[0].language = #fr-FR
 * #DIP85 ^designation[=].use.system = "http://snomed.info/sct"
@@ -396,6 +501,8 @@ Description: "Diplôme d'Université ou Inter-Universitaire"
 * #DIP85 ^property[=].valueDateTime = "2008-03-20T10:49:11+01:00"
 * #DIP85 ^property[+].code = #dateMaj
 * #DIP85 ^property[=].valueDateTime = "2016-09-01T00:00:00+01:00"
+* #DIP85 ^property[+].code = #status
+* #DIP85 ^property[=].valueCode = #active
 * #DIP86 "DIU Réparation juridique du dommage corporel expertise médico-légale"
 * #DIP86 ^designation[0].language = #fr-FR
 * #DIP86 ^designation[=].use.system = "http://snomed.info/sct"
@@ -405,6 +512,8 @@ Description: "Diplôme d'Université ou Inter-Universitaire"
 * #DIP86 ^property[=].valueDateTime = "2008-03-20T10:49:12+01:00"
 * #DIP86 ^property[+].code = #dateMaj
 * #DIP86 ^property[=].valueDateTime = "2016-09-01T00:00:00+01:00"
+* #DIP86 ^property[+].code = #status
+* #DIP86 ^property[=].valueCode = #active
 * #DIP87 "DU Etudes médicales relatives à la réparation du dommage corporel"
 * #DIP87 ^designation[0].language = #fr-FR
 * #DIP87 ^designation[=].use.system = "http://snomed.info/sct"
@@ -414,6 +523,8 @@ Description: "Diplôme d'Université ou Inter-Universitaire"
 * #DIP87 ^property[=].valueDateTime = "2008-03-20T10:49:12+01:00"
 * #DIP87 ^property[+].code = #dateMaj
 * #DIP87 ^property[=].valueDateTime = "2016-09-01T00:00:00+01:00"
+* #DIP87 ^property[+].code = #status
+* #DIP87 ^property[=].valueCode = #active
 * #DIP88 "DIU Droit de l'expertise médico-légale"
 * #DIP88 ^designation[0].language = #fr-FR
 * #DIP88 ^designation[=].use.system = "http://snomed.info/sct"
@@ -423,6 +534,8 @@ Description: "Diplôme d'Université ou Inter-Universitaire"
 * #DIP88 ^property[=].valueDateTime = "2008-03-20T10:49:13+01:00"
 * #DIP88 ^property[+].code = #dateMaj
 * #DIP88 ^property[=].valueDateTime = "2016-09-01T00:00:00+01:00"
+* #DIP88 ^property[+].code = #status
+* #DIP88 ^property[=].valueCode = #active
 * #DIP89 "DIU Echographie, option Echographie de spécialité"
 * #DIP89 ^designation[0].language = #fr-FR
 * #DIP89 ^designation[=].use.system = "http://snomed.info/sct"
@@ -432,6 +545,8 @@ Description: "Diplôme d'Université ou Inter-Universitaire"
 * #DIP89 ^property[=].valueDateTime = "2008-03-20T10:49:14+01:00"
 * #DIP89 ^property[+].code = #dateMaj
 * #DIP89 ^property[=].valueDateTime = "2016-09-01T00:00:00+01:00"
+* #DIP89 ^property[+].code = #status
+* #DIP89 ^property[=].valueCode = #active
 * #DIP90 "DIU Echocardiographie cardiaque et vasculaire Méditerranéen"
 * #DIP90 ^designation[0].language = #fr-FR
 * #DIP90 ^designation[=].use.system = "http://snomed.info/sct"
@@ -441,6 +556,8 @@ Description: "Diplôme d'Université ou Inter-Universitaire"
 * #DIP90 ^property[=].valueDateTime = "2008-03-20T10:49:14+01:00"
 * #DIP90 ^property[+].code = #dateMaj
 * #DIP90 ^property[=].valueDateTime = "2016-09-01T00:00:00+01:00"
+* #DIP90 ^property[+].code = #status
+* #DIP90 ^property[=].valueCode = #active
 * #DIP91 "DIU Etudes approfondies polyarthrites-maladies"
 * #DIP91 ^designation[0].language = #fr-FR
 * #DIP91 ^designation[=].use.system = "http://snomed.info/sct"
@@ -450,6 +567,8 @@ Description: "Diplôme d'Université ou Inter-Universitaire"
 * #DIP91 ^property[=].valueDateTime = "2008-03-20T10:49:15+01:00"
 * #DIP91 ^property[+].code = #dateMaj
 * #DIP91 ^property[=].valueDateTime = "2016-09-01T00:00:00+01:00"
+* #DIP91 ^property[+].code = #status
+* #DIP91 ^property[=].valueCode = #active
 * #DIP92 "DIU Maladies respiratoires et allergiques de l'enfant"
 * #DIP92 ^designation[0].language = #fr-FR
 * #DIP92 ^designation[=].use.system = "http://snomed.info/sct"
@@ -459,6 +578,8 @@ Description: "Diplôme d'Université ou Inter-Universitaire"
 * #DIP92 ^property[=].valueDateTime = "2008-03-20T00:00:00+01:00"
 * #DIP92 ^property[+].code = #dateMaj
 * #DIP92 ^property[=].valueDateTime = "2016-09-01T00:00:00+01:00"
+* #DIP92 ^property[+].code = #status
+* #DIP92 ^property[=].valueCode = #active
 * #DIP93 "DIU Etudes maladies inflammatoires chroniques intestinales"
 * #DIP93 ^designation[0].language = #fr-FR
 * #DIP93 ^designation[=].use.system = "http://snomed.info/sct"
@@ -468,6 +589,8 @@ Description: "Diplôme d'Université ou Inter-Universitaire"
 * #DIP93 ^property[=].valueDateTime = "2008-05-27T00:00:00+01:00"
 * #DIP93 ^property[+].code = #dateMaj
 * #DIP93 ^property[=].valueDateTime = "2016-09-01T00:00:00+01:00"
+* #DIP93 ^property[+].code = #status
+* #DIP93 ^property[=].valueCode = #active
 * #DIP180 "DIU Dermato-esthétique, laser dermato-cosmétologie"
 * #DIP180 ^designation[0].language = #fr-FR
 * #DIP180 ^designation[=].use.system = "http://snomed.info/sct"
@@ -477,6 +600,8 @@ Description: "Diplôme d'Université ou Inter-Universitaire"
 * #DIP180 ^property[=].valueDateTime = "2007-07-25T00:00:00+01:00"
 * #DIP180 ^property[+].code = #dateMaj
 * #DIP180 ^property[=].valueDateTime = "2016-09-01T00:00:00+01:00"
+* #DIP180 ^property[+].code = #status
+* #DIP180 ^property[=].valueCode = #active
 * #DIP181 "DU Echo-cardiographie et écho-doppler cardiovasculaire"
 * #DIP181 ^designation[0].language = #fr-FR
 * #DIP181 ^designation[=].use.system = "http://snomed.info/sct"
@@ -486,6 +611,8 @@ Description: "Diplôme d'Université ou Inter-Universitaire"
 * #DIP181 ^property[=].valueDateTime = "2007-07-25T00:00:00+01:00"
 * #DIP181 ^property[+].code = #dateMaj
 * #DIP181 ^property[=].valueDateTime = "2016-09-01T00:00:00+01:00"
+* #DIP181 ^property[+].code = #status
+* #DIP181 ^property[=].valueCode = #active
 * #DIP182 "DU Gériatrie et Gérontologie médico-sociale"
 * #DIP182 ^designation[0].language = #fr-FR
 * #DIP182 ^designation[=].use.system = "http://snomed.info/sct"
@@ -495,6 +622,8 @@ Description: "Diplôme d'Université ou Inter-Universitaire"
 * #DIP182 ^property[=].valueDateTime = "2007-07-25T00:00:00+01:00"
 * #DIP182 ^property[+].code = #dateMaj
 * #DIP182 ^property[=].valueDateTime = "2016-09-01T00:00:00+01:00"
+* #DIP182 ^property[+].code = #status
+* #DIP182 ^property[=].valueCode = #active
 * #DIP183 "DIU Physiologie et Pathologie du sommeil"
 * #DIP183 ^designation[0].language = #fr-FR
 * #DIP183 ^designation[=].use.system = "http://snomed.info/sct"
@@ -504,6 +633,8 @@ Description: "Diplôme d'Université ou Inter-Universitaire"
 * #DIP183 ^property[=].valueDateTime = "2007-07-25T00:00:00+01:00"
 * #DIP183 ^property[+].code = #dateMaj
 * #DIP183 ^property[=].valueDateTime = "2016-09-01T00:00:00+01:00"
+* #DIP183 ^property[+].code = #status
+* #DIP183 ^property[=].valueCode = #active
 * #DIP184 "DIU, DU ou CU Radiologie oto-neuro-ophtalmologie"
 * #DIP184 ^designation[0].language = #fr-FR
 * #DIP184 ^designation[=].use.system = "http://snomed.info/sct"
@@ -513,6 +644,8 @@ Description: "Diplôme d'Université ou Inter-Universitaire"
 * #DIP184 ^property[=].valueDateTime = "2007-07-25T00:00:00+01:00"
 * #DIP184 ^property[+].code = #dateMaj
 * #DIP184 ^property[=].valueDateTime = "2016-09-01T00:00:00+01:00"
+* #DIP184 ^property[+].code = #status
+* #DIP184 ^property[=].valueCode = #active
 * #DIP185 "DU Gérontologie et Gériatrie"
 * #DIP185 ^designation[0].language = #fr-FR
 * #DIP185 ^designation[=].use.system = "http://snomed.info/sct"
@@ -522,6 +655,8 @@ Description: "Diplôme d'Université ou Inter-Universitaire"
 * #DIP185 ^property[=].valueDateTime = "2007-07-25T00:00:00+01:00"
 * #DIP185 ^property[+].code = #dateMaj
 * #DIP185 ^property[=].valueDateTime = "2016-09-01T00:00:00+01:00"
+* #DIP185 ^property[+].code = #status
+* #DIP185 ^property[=].valueCode = #active
 * #DIP186 "DU, Att Médecine orthopédique et thérapeutiques manuelles"
 * #DIP186 ^designation[0].language = #fr-FR
 * #DIP186 ^designation[=].use.system = "http://snomed.info/sct"
@@ -531,11 +666,15 @@ Description: "Diplôme d'Université ou Inter-Universitaire"
 * #DIP186 ^property[=].valueDateTime = "2007-07-25T00:00:00+01:00"
 * #DIP186 ^property[+].code = #dateMaj
 * #DIP186 ^property[=].valueDateTime = "2016-09-01T00:00:00+01:00"
+* #DIP186 ^property[+].code = #status
+* #DIP186 ^property[=].valueCode = #active
 * #DIP187 "DIU Sommeil et sa pathologie"
 * #DIP187 ^property[0].code = #dateValid
 * #DIP187 ^property[=].valueDateTime = "2007-07-25T00:00:00+01:00"
 * #DIP187 ^property[+].code = #dateMaj
 * #DIP187 ^property[=].valueDateTime = "2016-09-01T00:00:00+01:00"
+* #DIP187 ^property[+].code = #status
+* #DIP187 ^property[=].valueCode = #active
 * #DIP188 "DU Repar jurid dommage corporel, module SS et législation du trafic"
 * #DIP188 ^designation[0].language = #fr-FR
 * #DIP188 ^designation[=].use.system = "http://snomed.info/sct"
@@ -549,6 +688,8 @@ Description: "Diplôme d'Université ou Inter-Universitaire"
 * #DIP188 ^property[=].valueDateTime = "2007-07-25T00:00:00+01:00"
 * #DIP188 ^property[+].code = #dateMaj
 * #DIP188 ^property[=].valueDateTime = "2016-09-01T00:00:00+01:00"
+* #DIP188 ^property[+].code = #status
+* #DIP188 ^property[=].valueCode = #active
 * #DIP189 "DIU Pathologie chirurgicale rétino-vitréenne"
 * #DIP189 ^designation[0].language = #fr-FR
 * #DIP189 ^designation[=].use.system = "http://snomed.info/sct"
@@ -558,11 +699,15 @@ Description: "Diplôme d'Université ou Inter-Universitaire"
 * #DIP189 ^property[=].valueDateTime = "2007-07-25T00:00:00+01:00"
 * #DIP189 ^property[+].code = #dateMaj
 * #DIP189 ^property[=].valueDateTime = "2016-09-01T00:00:00+01:00"
+* #DIP189 ^property[+].code = #status
+* #DIP189 ^property[=].valueCode = #active
 * #DIP190 "DIU Coelio-chirurgie"
 * #DIP190 ^property[0].code = #dateValid
 * #DIP190 ^property[=].valueDateTime = "2007-07-25T00:00:00+01:00"
 * #DIP190 ^property[+].code = #dateMaj
 * #DIP190 ^property[=].valueDateTime = "2009-02-02T00:00:00+01:00"
+* #DIP190 ^property[+].code = #status
+* #DIP190 ^property[=].valueCode = #active
 * #DIP191 "DIU Rythmologie et stimulation cardiaque"
 * #DIP191 ^designation[0].language = #fr-FR
 * #DIP191 ^designation[=].use.system = "http://snomed.info/sct"
@@ -572,6 +717,8 @@ Description: "Diplôme d'Université ou Inter-Universitaire"
 * #DIP191 ^property[=].valueDateTime = "2007-07-25T00:00:00+01:00"
 * #DIP191 ^property[+].code = #dateMaj
 * #DIP191 ^property[=].valueDateTime = "2009-02-02T00:00:00+01:00"
+* #DIP191 ^property[+].code = #status
+* #DIP191 ^property[=].valueCode = #active
 * #DIP192 "DIU Proctologie médico-instrumentale"
 * #DIP192 ^designation[0].language = #fr-FR
 * #DIP192 ^designation[=].use.system = "http://snomed.info/sct"
@@ -581,11 +728,15 @@ Description: "Diplôme d'Université ou Inter-Universitaire"
 * #DIP192 ^property[=].valueDateTime = "2007-07-25T00:00:00+01:00"
 * #DIP192 ^property[+].code = #dateMaj
 * #DIP192 ^property[=].valueDateTime = "2009-02-02T00:00:00+01:00"
+* #DIP192 ^property[+].code = #status
+* #DIP192 ^property[=].valueCode = #active
 * #DIP193 "DU Echographie cardiologique"
 * #DIP193 ^property[0].code = #dateValid
 * #DIP193 ^property[=].valueDateTime = "2007-07-25T00:00:00+01:00"
 * #DIP193 ^property[+].code = #dateMaj
 * #DIP193 ^property[=].valueDateTime = "2016-09-01T00:00:00+01:00"
+* #DIP193 ^property[+].code = #status
+* #DIP193 ^property[=].valueCode = #active
 * #DIP199 "DIU Enseignement supérieur de Neuroradiologie"
 * #DIP199 ^designation[0].language = #fr-FR
 * #DIP199 ^designation[=].use.system = "http://snomed.info/sct"
@@ -595,6 +746,8 @@ Description: "Diplôme d'Université ou Inter-Universitaire"
 * #DIP199 ^property[=].valueDateTime = "2007-07-25T00:00:00+01:00"
 * #DIP199 ^property[+].code = #dateMaj
 * #DIP199 ^property[=].valueDateTime = "2016-09-01T00:00:00+01:00"
+* #DIP199 ^property[+].code = #status
+* #DIP199 ^property[=].valueCode = #active
 * #DIP201 "DU Méthodes ultrasonores en médecine"
 * #DIP201 ^designation[0].language = #fr-FR
 * #DIP201 ^designation[=].use.system = "http://snomed.info/sct"
@@ -604,6 +757,8 @@ Description: "Diplôme d'Université ou Inter-Universitaire"
 * #DIP201 ^property[=].valueDateTime = "2007-07-25T00:00:00+01:00"
 * #DIP201 ^property[+].code = #dateMaj
 * #DIP201 ^property[=].valueDateTime = "2016-09-01T00:00:00+01:00"
+* #DIP201 ^property[+].code = #status
+* #DIP201 ^property[=].valueCode = #active
 * #DIP206 "DIU Endoscopie digestive interventionnelle"
 * #DIP206 ^designation[0].language = #fr-FR
 * #DIP206 ^designation[=].use.system = "http://snomed.info/sct"
@@ -613,6 +768,8 @@ Description: "Diplôme d'Université ou Inter-Universitaire"
 * #DIP206 ^property[=].valueDateTime = "2007-07-25T00:00:00+01:00"
 * #DIP206 ^property[+].code = #dateMaj
 * #DIP206 ^property[=].valueDateTime = "2016-09-01T00:00:00+01:00"
+* #DIP206 ^property[+].code = #status
+* #DIP206 ^property[=].valueCode = #active
 * #DIP207 "DIU Pathologies osseuses médicales"
 * #DIP207 ^designation[0].language = #fr-FR
 * #DIP207 ^designation[=].use.system = "http://snomed.info/sct"
@@ -622,6 +779,8 @@ Description: "Diplôme d'Université ou Inter-Universitaire"
 * #DIP207 ^property[=].valueDateTime = "2007-07-25T00:00:00+01:00"
 * #DIP207 ^property[+].code = #dateMaj
 * #DIP207 ^property[=].valueDateTime = "2016-09-01T00:00:00+01:00"
+* #DIP207 ^property[+].code = #status
+* #DIP207 ^property[=].valueCode = #active
 * #DIP210 "DIU Médecine manuelle et orthopédique, Ostéopathie"
 * #DIP210 ^designation[0].language = #fr-FR
 * #DIP210 ^designation[=].use.system = "http://snomed.info/sct"
@@ -631,6 +790,8 @@ Description: "Diplôme d'Université ou Inter-Universitaire"
 * #DIP210 ^property[=].valueDateTime = "2007-07-25T00:00:00+01:00"
 * #DIP210 ^property[+].code = #dateMaj
 * #DIP210 ^property[=].valueDateTime = "2016-09-01T00:00:00+01:00"
+* #DIP210 ^property[+].code = #status
+* #DIP210 ^property[=].valueCode = #active
 * #DIP211 "DIU Expertises accidents médicaux"
 * #DIP211 ^designation[0].language = #fr-FR
 * #DIP211 ^designation[=].use.system = "http://snomed.info/sct"
@@ -640,21 +801,29 @@ Description: "Diplôme d'Université ou Inter-Universitaire"
 * #DIP211 ^property[=].valueDateTime = "2007-07-25T00:00:00+01:00"
 * #DIP211 ^property[+].code = #dateMaj
 * #DIP211 ^property[=].valueDateTime = "2016-09-01T00:00:00+01:00"
+* #DIP211 ^property[+].code = #status
+* #DIP211 ^property[=].valueCode = #active
 * #DIP216 "DIU Epileptologie"
 * #DIP216 ^property[0].code = #dateValid
 * #DIP216 ^property[=].valueDateTime = "2008-03-20T00:00:00+01:00"
 * #DIP216 ^property[+].code = #dateMaj
 * #DIP216 ^property[=].valueDateTime = "2011-04-21T00:00:00+01:00"
+* #DIP216 ^property[+].code = #status
+* #DIP216 ^property[=].valueCode = #active
 * #DIP219 "DIU Onco-urologie"
 * #DIP219 ^property[0].code = #dateValid
 * #DIP219 ^property[=].valueDateTime = "2008-03-20T00:00:00+01:00"
 * #DIP219 ^property[+].code = #dateMaj
 * #DIP219 ^property[=].valueDateTime = "2011-04-21T00:00:00+01:00"
+* #DIP219 ^property[+].code = #status
+* #DIP219 ^property[=].valueCode = #active
 * #DIP221 "DIU Echocardiographie"
 * #DIP221 ^property[0].code = #dateValid
 * #DIP221 ^property[=].valueDateTime = "2012-02-21T00:00:00+01:00"
 * #DIP221 ^property[+].code = #dateMaj
 * #DIP221 ^property[=].valueDateTime = "2012-02-21T00:00:00+01:00"
+* #DIP221 ^property[+].code = #status
+* #DIP221 ^property[=].valueCode = #active
 * #DIP222 "DIU Endocrinologie diabétologie pédiatrique"
 * #DIP222 ^designation[0].language = #fr-FR
 * #DIP222 ^designation[=].use.system = "http://snomed.info/sct"
@@ -664,11 +833,15 @@ Description: "Diplôme d'Université ou Inter-Universitaire"
 * #DIP222 ^property[=].valueDateTime = "2012-09-03T00:00:00+01:00"
 * #DIP222 ^property[+].code = #dateMaj
 * #DIP222 ^property[=].valueDateTime = "2012-09-03T00:00:00+01:00"
+* #DIP222 ^property[+].code = #status
+* #DIP222 ^property[=].valueCode = #active
 * #DIP224 "DIU Appareillage"
 * #DIP224 ^property[0].code = #dateValid
 * #DIP224 ^property[=].valueDateTime = "2014-01-01T00:00:00+01:00"
 * #DIP224 ^property[+].code = #dateMaj
 * #DIP224 ^property[=].valueDateTime = "2014-01-01T00:00:00+01:00"
+* #DIP224 ^property[+].code = #status
+* #DIP224 ^property[=].valueCode = #active
 * #DIP225 "DIU Aptitude à l'expertise médicale"
 * #DIP225 ^designation[0].language = #fr-FR
 * #DIP225 ^designation[=].use.system = "http://snomed.info/sct"
@@ -678,11 +851,15 @@ Description: "Diplôme d'Université ou Inter-Universitaire"
 * #DIP225 ^property[=].valueDateTime = "2014-01-01T00:00:00+01:00"
 * #DIP225 ^property[+].code = #dateMaj
 * #DIP225 ^property[=].valueDateTime = "2016-09-01T00:00:00+01:00"
+* #DIP225 ^property[+].code = #status
+* #DIP225 ^property[=].valueCode = #active
 * #DIP226 "DIU Neurophysiologie clinique"
 * #DIP226 ^property[0].code = #dateValid
 * #DIP226 ^property[=].valueDateTime = "2014-01-01T00:00:00+01:00"
 * #DIP226 ^property[+].code = #dateMaj
 * #DIP226 ^property[=].valueDateTime = "2016-09-01T00:00:00+01:00"
+* #DIP226 ^property[+].code = #status
+* #DIP226 ^property[=].valueCode = #active
 * #DIP227 "DIU Approfondissement soins palliatifs et soins d'accompagnement"
 * #DIP227 ^designation[0].language = #fr-FR
 * #DIP227 ^designation[=].use.system = "http://snomed.info/sct"
@@ -692,16 +869,22 @@ Description: "Diplôme d'Université ou Inter-Universitaire"
 * #DIP227 ^property[=].valueDateTime = "2015-01-01T00:00:00+01:00"
 * #DIP227 ^property[+].code = #dateMaj
 * #DIP227 ^property[=].valueDateTime = "2016-09-01T00:00:00+01:00"
+* #DIP227 ^property[+].code = #status
+* #DIP227 ^property[=].valueCode = #active
 * #DIP228 "DIU Migraine et céphalées"
 * #DIP228 ^property[0].code = #dateValid
 * #DIP228 ^property[=].valueDateTime = "2015-01-01T00:00:00+01:00"
 * #DIP228 ^property[+].code = #dateMaj
 * #DIP228 ^property[=].valueDateTime = "2016-09-01T00:00:00+01:00"
+* #DIP228 ^property[+].code = #status
+* #DIP228 ^property[=].valueCode = #active
 * #DIP229 "DIU Chirurgie du rachis"
 * #DIP229 ^property[0].code = #dateValid
 * #DIP229 ^property[=].valueDateTime = "2015-11-25T00:00:00+01:00"
 * #DIP229 ^property[+].code = #dateMaj
 * #DIP229 ^property[=].valueDateTime = "2016-09-01T00:00:00+01:00"
+* #DIP229 ^property[+].code = #status
+* #DIP229 ^property[=].valueCode = #active
 * #DIP234 "DIU Analyse du mouvement chez l'enfant et l'adolescent"
 * #DIP234 ^designation[0].language = #fr-FR
 * #DIP234 ^designation[=].use.system = "http://snomed.info/sct"
@@ -711,11 +894,15 @@ Description: "Diplôme d'Université ou Inter-Universitaire"
 * #DIP234 ^property[=].valueDateTime = "2016-05-03T00:00:00+01:00"
 * #DIP234 ^property[+].code = #dateMaj
 * #DIP234 ^property[=].valueDateTime = "2016-09-01T00:00:00+01:00"
+* #DIP234 ^property[+].code = #status
+* #DIP234 ^property[=].valueCode = #active
 * #DIP235 "DIU Biologie du vieillissement"
 * #DIP235 ^property[0].code = #dateValid
 * #DIP235 ^property[=].valueDateTime = "2016-05-03T00:00:00+01:00"
 * #DIP235 ^property[+].code = #dateMaj
 * #DIP235 ^property[=].valueDateTime = "2016-09-01T00:00:00+01:00"
+* #DIP235 ^property[+].code = #status
+* #DIP235 ^property[=].valueCode = #active
 * #DIP236 "DIU Cicatrisation des plaies aiguës et chroniques"
 * #DIP236 ^designation[0].language = #fr-FR
 * #DIP236 ^designation[=].use.system = "http://snomed.info/sct"
@@ -725,6 +912,8 @@ Description: "Diplôme d'Université ou Inter-Universitaire"
 * #DIP236 ^property[=].valueDateTime = "2016-05-03T00:00:00+01:00"
 * #DIP236 ^property[+].code = #dateMaj
 * #DIP236 ^property[=].valueDateTime = "2016-09-01T00:00:00+01:00"
+* #DIP236 ^property[+].code = #status
+* #DIP236 ^property[=].valueCode = #active
 * #DIP237 "DIU Dermatologie psychosomatique"
 * #DIP237 ^designation[0].language = #fr-FR
 * #DIP237 ^designation[=].use.system = "http://snomed.info/sct"
@@ -734,16 +923,22 @@ Description: "Diplôme d'Université ou Inter-Universitaire"
 * #DIP237 ^property[=].valueDateTime = "2016-05-03T00:00:00+01:00"
 * #DIP237 ^property[+].code = #dateMaj
 * #DIP237 ^property[=].valueDateTime = "2016-09-01T00:00:00+01:00"
+* #DIP237 ^property[+].code = #status
+* #DIP237 ^property[=].valueCode = #active
 * #DIP238 "DIU Education du patient"
 * #DIP238 ^property[0].code = #dateValid
 * #DIP238 ^property[=].valueDateTime = "2016-05-03T00:00:00+01:00"
 * #DIP238 ^property[+].code = #dateMaj
 * #DIP238 ^property[=].valueDateTime = "2016-09-01T00:00:00+01:00"
+* #DIP238 ^property[+].code = #status
+* #DIP238 ^property[=].valueCode = #active
 * #DIP239 "DIU Education pour la santé"
 * #DIP239 ^property[0].code = #dateValid
 * #DIP239 ^property[=].valueDateTime = "2016-05-03T00:00:00+01:00"
 * #DIP239 ^property[+].code = #dateMaj
 * #DIP239 ^property[=].valueDateTime = "2016-09-01T00:00:00+01:00"
+* #DIP239 ^property[+].code = #status
+* #DIP239 ^property[=].valueCode = #active
 * #DIP240 "DIU Ethique des professions de santé"
 * #DIP240 ^designation[0].language = #fr-FR
 * #DIP240 ^designation[=].use.system = "http://snomed.info/sct"
@@ -753,6 +948,8 @@ Description: "Diplôme d'Université ou Inter-Universitaire"
 * #DIP240 ^property[=].valueDateTime = "2016-05-03T00:00:00+01:00"
 * #DIP240 ^property[+].code = #dateMaj
 * #DIP240 ^property[=].valueDateTime = "2016-09-01T00:00:00+01:00"
+* #DIP240 ^property[+].code = #status
+* #DIP240 ^property[=].valueCode = #active
 * #DIP241 "DIU Ethique et pratiques médicales"
 * #DIP241 ^designation[0].language = #fr-FR
 * #DIP241 ^designation[=].use.system = "http://snomed.info/sct"
@@ -762,6 +959,8 @@ Description: "Diplôme d'Université ou Inter-Universitaire"
 * #DIP241 ^property[=].valueDateTime = "2016-05-03T00:00:00+01:00"
 * #DIP241 ^property[+].code = #dateMaj
 * #DIP241 ^property[=].valueDateTime = "2016-09-01T00:00:00+01:00"
+* #DIP241 ^property[+].code = #status
+* #DIP241 ^property[=].valueCode = #active
 * #DIP242 "DIU Evaluation en santé, accréditation démarche qualité"
 * #DIP242 ^designation[0].language = #fr-FR
 * #DIP242 ^designation[=].use.system = "http://snomed.info/sct"
@@ -771,6 +970,8 @@ Description: "Diplôme d'Université ou Inter-Universitaire"
 * #DIP242 ^property[=].valueDateTime = "2016-05-03T00:00:00+01:00"
 * #DIP242 ^property[+].code = #dateMaj
 * #DIP242 ^property[=].valueDateTime = "2016-09-01T00:00:00+01:00"
+* #DIP242 ^property[+].code = #status
+* #DIP242 ^property[=].valueCode = #active
 * #DIP243 "DIU Formation prise en charge douleur par professionnel de santé"
 * #DIP243 ^designation[0].language = #fr-FR
 * #DIP243 ^designation[=].use.system = "http://snomed.info/sct"
@@ -780,6 +981,8 @@ Description: "Diplôme d'Université ou Inter-Universitaire"
 * #DIP243 ^property[=].valueDateTime = "2016-05-03T00:00:00+01:00"
 * #DIP243 ^property[+].code = #dateMaj
 * #DIP243 ^property[=].valueDateTime = "2016-09-01T00:00:00+01:00"
+* #DIP243 ^property[+].code = #status
+* #DIP243 ^property[=].valueCode = #active
 * #DIP244 "DIU Nutrition et activité physique"
 * #DIP244 ^designation[0].language = #fr-FR
 * #DIP244 ^designation[=].use.system = "http://snomed.info/sct"
@@ -789,16 +992,22 @@ Description: "Diplôme d'Université ou Inter-Universitaire"
 * #DIP244 ^property[=].valueDateTime = "2016-05-03T00:00:00+01:00"
 * #DIP244 ^property[+].code = #dateMaj
 * #DIP244 ^property[=].valueDateTime = "2016-09-01T00:00:00+01:00"
+* #DIP244 ^property[+].code = #status
+* #DIP244 ^property[=].valueCode = #active
 * #DIP245 "DIU Posturologie"
 * #DIP245 ^property[0].code = #dateValid
 * #DIP245 ^property[=].valueDateTime = "2016-05-03T00:00:00+01:00"
 * #DIP245 ^property[+].code = #dateMaj
 * #DIP245 ^property[=].valueDateTime = "2016-05-03T00:00:00+01:00"
+* #DIP245 ^property[+].code = #status
+* #DIP245 ^property[=].valueCode = #active
 * #DIP246 "DIU Posturologie clinique"
 * #DIP246 ^property[0].code = #dateValid
 * #DIP246 ^property[=].valueDateTime = "2016-05-03T00:00:00+01:00"
 * #DIP246 ^property[+].code = #dateMaj
 * #DIP246 ^property[=].valueDateTime = "2016-09-01T00:00:00+01:00"
+* #DIP246 ^property[+].code = #status
+* #DIP246 ^property[=].valueCode = #active
 * #DIP247 "DIU Réflexion éthique et philosophique pour les soins"
 * #DIP247 ^designation[0].language = #fr-FR
 * #DIP247 ^designation[=].use.system = "http://snomed.info/sct"
@@ -808,11 +1017,15 @@ Description: "Diplôme d'Université ou Inter-Universitaire"
 * #DIP247 ^property[=].valueDateTime = "2016-05-03T00:00:00+01:00"
 * #DIP247 ^property[+].code = #dateMaj
 * #DIP247 ^property[=].valueDateTime = "2016-09-01T00:00:00+01:00"
+* #DIP247 ^property[+].code = #status
+* #DIP247 ^property[=].valueCode = #active
 * #DIP248 "DU Algologie"
 * #DIP248 ^property[0].code = #dateValid
 * #DIP248 ^property[=].valueDateTime = "2016-05-03T00:00:00+01:00"
 * #DIP248 ^property[+].code = #dateMaj
 * #DIP248 ^property[=].valueDateTime = "2016-05-03T00:00:00+01:00"
+* #DIP248 ^property[+].code = #status
+* #DIP248 ^property[=].valueCode = #active
 * #DIP249 "DU Amélioration de la prise en charge du diabète"
 * #DIP249 ^designation[0].language = #fr-FR
 * #DIP249 ^designation[=].use.system = "http://snomed.info/sct"
@@ -822,6 +1035,8 @@ Description: "Diplôme d'Université ou Inter-Universitaire"
 * #DIP249 ^property[=].valueDateTime = "2016-05-03T00:00:00+01:00"
 * #DIP249 ^property[+].code = #dateMaj
 * #DIP249 ^property[=].valueDateTime = "2016-09-01T00:00:00+01:00"
+* #DIP249 ^property[+].code = #status
+* #DIP249 ^property[=].valueCode = #active
 * #DIP250 "DU Anatomie chirurgicale et sectionnelle"
 * #DIP250 ^designation[0].language = #fr-FR
 * #DIP250 ^designation[=].use.system = "http://snomed.info/sct"
@@ -831,6 +1046,8 @@ Description: "Diplôme d'Université ou Inter-Universitaire"
 * #DIP250 ^property[=].valueDateTime = "2016-05-03T00:00:00+01:00"
 * #DIP250 ^property[+].code = #dateMaj
 * #DIP250 ^property[=].valueDateTime = "2016-09-01T00:00:00+01:00"
+* #DIP250 ^property[+].code = #status
+* #DIP250 ^property[=].valueCode = #active
 * #DIP251 "DU Anatomie et Biomécanique de l'appareil locomoteur"
 * #DIP251 ^designation[0].language = #fr-FR
 * #DIP251 ^designation[=].use.system = "http://snomed.info/sct"
@@ -840,6 +1057,8 @@ Description: "Diplôme d'Université ou Inter-Universitaire"
 * #DIP251 ^property[=].valueDateTime = "2016-05-03T00:00:00+01:00"
 * #DIP251 ^property[+].code = #dateMaj
 * #DIP251 ^property[=].valueDateTime = "2016-09-01T00:00:00+01:00"
+* #DIP251 ^property[+].code = #status
+* #DIP251 ^property[=].valueCode = #active
 * #DIP252 "DU Biomécanique de l'appareil locomoteur"
 * #DIP252 ^designation[0].language = #fr-FR
 * #DIP252 ^designation[=].use.system = "http://snomed.info/sct"
@@ -849,6 +1068,8 @@ Description: "Diplôme d'Université ou Inter-Universitaire"
 * #DIP252 ^property[=].valueDateTime = "2016-05-03T00:00:00+01:00"
 * #DIP252 ^property[+].code = #dateMaj
 * #DIP252 ^property[=].valueDateTime = "2016-09-01T00:00:00+01:00"
+* #DIP252 ^property[+].code = #status
+* #DIP252 ^property[=].valueCode = #active
 * #DIP253 "DU Biomécanique appareil locomoteur et mouvement"
 * #DIP253 ^designation[0].language = #fr-FR
 * #DIP253 ^designation[=].use.system = "http://snomed.info/sct"
@@ -858,6 +1079,8 @@ Description: "Diplôme d'Université ou Inter-Universitaire"
 * #DIP253 ^property[=].valueDateTime = "2016-05-03T00:00:00+01:00"
 * #DIP253 ^property[+].code = #dateMaj
 * #DIP253 ^property[=].valueDateTime = "2016-09-01T00:00:00+01:00"
+* #DIP253 ^property[+].code = #status
+* #DIP253 ^property[=].valueCode = #active
 * #DIP254 "DU Cicatrisation des plaies brûlures et nécroses"
 * #DIP254 ^designation[0].language = #fr-FR
 * #DIP254 ^designation[=].use.system = "http://snomed.info/sct"
@@ -871,6 +1094,8 @@ Description: "Diplôme d'Université ou Inter-Universitaire"
 * #DIP254 ^property[=].valueDateTime = "2016-05-03T00:00:00+01:00"
 * #DIP254 ^property[+].code = #dateMaj
 * #DIP254 ^property[=].valueDateTime = "2016-09-01T00:00:00+01:00"
+* #DIP254 ^property[+].code = #status
+* #DIP254 ^property[=].valueCode = #active
 * #DIP255 "DU Comprendre, organiser et promouvoir le travail en réseau"
 * #DIP255 ^designation[0].language = #fr-FR
 * #DIP255 ^designation[=].use.system = "http://snomed.info/sct"
@@ -880,6 +1105,8 @@ Description: "Diplôme d'Université ou Inter-Universitaire"
 * #DIP255 ^property[=].valueDateTime = "2016-05-03T00:00:00+01:00"
 * #DIP255 ^property[+].code = #dateMaj
 * #DIP255 ^property[=].valueDateTime = "2016-09-01T00:00:00+01:00"
+* #DIP255 ^property[+].code = #status
+* #DIP255 ^property[=].valueCode = #active
 * #DIP256 "DU Concept et méthodes en éducation pour la santé"
 * #DIP256 ^designation[0].language = #fr-FR
 * #DIP256 ^designation[=].use.system = "http://snomed.info/sct"
@@ -889,6 +1116,8 @@ Description: "Diplôme d'Université ou Inter-Universitaire"
 * #DIP256 ^property[=].valueDateTime = "2016-05-03T00:00:00+01:00"
 * #DIP256 ^property[+].code = #dateMaj
 * #DIP256 ^property[=].valueDateTime = "2016-09-01T00:00:00+01:00"
+* #DIP256 ^property[+].code = #status
+* #DIP256 ^property[=].valueCode = #active
 * #DIP257 "DU Education du patient à l'alliance thérapeutique"
 * #DIP257 ^designation[0].language = #fr-FR
 * #DIP257 ^designation[=].use.system = "http://snomed.info/sct"
@@ -898,6 +1127,8 @@ Description: "Diplôme d'Université ou Inter-Universitaire"
 * #DIP257 ^property[=].valueDateTime = "2016-05-03T00:00:00+01:00"
 * #DIP257 ^property[+].code = #dateMaj
 * #DIP257 ^property[=].valueDateTime = "2016-09-01T00:00:00+01:00"
+* #DIP257 ^property[+].code = #status
+* #DIP257 ^property[=].valueCode = #active
 * #DIP258 "DU DEA Psy de la cognition : acquisitions, représentations, communication"
 * #DIP258 ^designation[0].language = #fr-FR
 * #DIP258 ^designation[=].use.system = "http://snomed.info/sct"
@@ -911,6 +1142,8 @@ Description: "Diplôme d'Université ou Inter-Universitaire"
 * #DIP258 ^property[=].valueDateTime = "2016-05-03T00:00:00+01:00"
 * #DIP258 ^property[+].code = #dateMaj
 * #DIP258 ^property[=].valueDateTime = "2016-09-01T00:00:00+01:00"
+* #DIP258 ^property[+].code = #status
+* #DIP258 ^property[=].valueCode = #active
 * #DIP259 "DU Doctorat sensibilité et motricité podales"
 * #DIP259 ^designation[0].language = #fr-FR
 * #DIP259 ^designation[=].use.system = "http://snomed.info/sct"
@@ -920,16 +1153,22 @@ Description: "Diplôme d'Université ou Inter-Universitaire"
 * #DIP259 ^property[=].valueDateTime = "2016-05-03T00:00:00+01:00"
 * #DIP259 ^property[+].code = #dateMaj
 * #DIP259 ^property[=].valueDateTime = "2016-09-01T00:00:00+01:00"
+* #DIP259 ^property[+].code = #status
+* #DIP259 ^property[=].valueCode = #active
 * #DIP260 "DU Education du patient"
 * #DIP260 ^property[0].code = #dateValid
 * #DIP260 ^property[=].valueDateTime = "2016-05-03T00:00:00+01:00"
 * #DIP260 ^property[+].code = #dateMaj
 * #DIP260 ^property[=].valueDateTime = "2016-09-01T00:00:00+01:00"
+* #DIP260 ^property[+].code = #status
+* #DIP260 ^property[=].valueCode = #active
 * #DIP261 "DU Education thérapeutique"
 * #DIP261 ^property[0].code = #dateValid
 * #DIP261 ^property[=].valueDateTime = "2016-05-03T00:00:00+01:00"
 * #DIP261 ^property[+].code = #dateMaj
 * #DIP261 ^property[=].valueDateTime = "2016-09-01T00:00:00+01:00"
+* #DIP261 ^property[+].code = #status
+* #DIP261 ^property[=].valueCode = #active
 * #DIP262 "DU Education thérapeutique : expérimenter et formaliser"
 * #DIP262 ^designation[0].language = #fr-FR
 * #DIP262 ^designation[=].use.system = "http://snomed.info/sct"
@@ -939,6 +1178,8 @@ Description: "Diplôme d'Université ou Inter-Universitaire"
 * #DIP262 ^property[=].valueDateTime = "2016-05-03T00:00:00+01:00"
 * #DIP262 ^property[+].code = #dateMaj
 * #DIP262 ^property[=].valueDateTime = "2016-09-01T00:00:00+01:00"
+* #DIP262 ^property[+].code = #status
+* #DIP262 ^property[=].valueCode = #active
 * #DIP263 "DU Education thérapeutique et maladies chroniques"
 * #DIP263 ^designation[0].language = #fr-FR
 * #DIP263 ^designation[=].use.system = "http://snomed.info/sct"
@@ -948,6 +1189,8 @@ Description: "Diplôme d'Université ou Inter-Universitaire"
 * #DIP263 ^property[=].valueDateTime = "2016-05-03T00:00:00+01:00"
 * #DIP263 ^property[+].code = #dateMaj
 * #DIP263 ^property[=].valueDateTime = "2016-09-01T00:00:00+01:00"
+* #DIP263 ^property[+].code = #status
+* #DIP263 ^property[=].valueCode = #active
 * #DIP264 "DU Education du patient et maladies chroniques"
 * #DIP264 ^designation[0].language = #fr-FR
 * #DIP264 ^designation[=].use.system = "http://snomed.info/sct"
@@ -957,6 +1200,8 @@ Description: "Diplôme d'Université ou Inter-Universitaire"
 * #DIP264 ^property[=].valueDateTime = "2016-05-03T00:00:00+01:00"
 * #DIP264 ^property[+].code = #dateMaj
 * #DIP264 ^property[=].valueDateTime = "2016-09-01T00:00:00+01:00"
+* #DIP264 ^property[+].code = #status
+* #DIP264 ^property[=].valueCode = #active
 * #DIP265 "DU Education thérapeutique du patient"
 * #DIP265 ^designation[0].language = #fr-FR
 * #DIP265 ^designation[=].use.system = "http://snomed.info/sct"
@@ -966,6 +1211,8 @@ Description: "Diplôme d'Université ou Inter-Universitaire"
 * #DIP265 ^property[=].valueDateTime = "2016-05-03T00:00:00+01:00"
 * #DIP265 ^property[+].code = #dateMaj
 * #DIP265 ^property[=].valueDateTime = "2016-09-01T00:00:00+01:00"
+* #DIP265 ^property[+].code = #status
+* #DIP265 ^property[=].valueCode = #active
 * #DIP266 "DU Education thérapeutique et maladies ostéo-articulaires"
 * #DIP266 ^designation[0].language = #fr-FR
 * #DIP266 ^designation[=].use.system = "http://snomed.info/sct"
@@ -975,6 +1222,8 @@ Description: "Diplôme d'Université ou Inter-Universitaire"
 * #DIP266 ^property[=].valueDateTime = "2016-05-03T00:00:00+01:00"
 * #DIP266 ^property[+].code = #dateMaj
 * #DIP266 ^property[=].valueDateTime = "2016-09-01T00:00:00+01:00"
+* #DIP266 ^property[+].code = #status
+* #DIP266 ^property[=].valueCode = #active
 * #DIP267 "DU Education thérapeutique et prévention et maladies"
 * #DIP267 ^designation[0].language = #fr-FR
 * #DIP267 ^designation[=].use.system = "http://snomed.info/sct"
@@ -984,6 +1233,8 @@ Description: "Diplôme d'Université ou Inter-Universitaire"
 * #DIP267 ^property[=].valueDateTime = "2016-05-03T00:00:00+01:00"
 * #DIP267 ^property[+].code = #dateMaj
 * #DIP267 ^property[=].valueDateTime = "2016-09-01T00:00:00+01:00"
+* #DIP267 ^property[+].code = #status
+* #DIP267 ^property[=].valueCode = #active
 * #DIP268 "DU Effets indésirables des thérapies anticancéreuses"
 * #DIP268 ^designation[0].language = #fr-FR
 * #DIP268 ^designation[=].use.system = "http://snomed.info/sct"
@@ -993,11 +1244,15 @@ Description: "Diplôme d'Université ou Inter-Universitaire"
 * #DIP268 ^property[=].valueDateTime = "2016-05-03T00:00:00+01:00"
 * #DIP268 ^property[+].code = #dateMaj
 * #DIP268 ^property[=].valueDateTime = "2016-09-01T00:00:00+01:00"
+* #DIP268 ^property[+].code = #status
+* #DIP268 ^property[=].valueCode = #active
 * #DIP269 "DU Ethique médicale"
 * #DIP269 ^property[0].code = #dateValid
 * #DIP269 ^property[=].valueDateTime = "2016-05-03T00:00:00+01:00"
 * #DIP269 ^property[+].code = #dateMaj
 * #DIP269 ^property[=].valueDateTime = "2016-09-01T00:00:00+01:00"
+* #DIP269 ^property[+].code = #status
+* #DIP269 ^property[=].valueCode = #active
 * #DIP270 "DU Evaluation qualité des soins et la gestion des risques"
 * #DIP270 ^designation[0].language = #fr-FR
 * #DIP270 ^designation[=].use.system = "http://snomed.info/sct"
@@ -1007,6 +1262,8 @@ Description: "Diplôme d'Université ou Inter-Universitaire"
 * #DIP270 ^property[=].valueDateTime = "2016-05-03T00:00:00+01:00"
 * #DIP270 ^property[+].code = #dateMaj
 * #DIP270 ^property[=].valueDateTime = "2016-09-01T00:00:00+01:00"
+* #DIP270 ^property[+].code = #status
+* #DIP270 ^property[=].valueCode = #active
 * #DIP271 "DU Formation paramédicale en diabétologie"
 * #DIP271 ^designation[0].language = #fr-FR
 * #DIP271 ^designation[=].use.system = "http://snomed.info/sct"
@@ -1016,6 +1273,8 @@ Description: "Diplôme d'Université ou Inter-Universitaire"
 * #DIP271 ^property[=].valueDateTime = "2016-05-03T00:00:00+01:00"
 * #DIP271 ^property[+].code = #dateMaj
 * #DIP271 ^property[=].valueDateTime = "2016-09-01T00:00:00+01:00"
+* #DIP271 ^property[+].code = #status
+* #DIP271 ^property[=].valueCode = #active
 * #DIP272 "DU Hygiène et Epidémiologie infectieuse"
 * #DIP272 ^designation[0].language = #fr-FR
 * #DIP272 ^designation[=].use.system = "http://snomed.info/sct"
@@ -1025,6 +1284,8 @@ Description: "Diplôme d'Université ou Inter-Universitaire"
 * #DIP272 ^property[=].valueDateTime = "2016-05-03T00:00:00+01:00"
 * #DIP272 ^property[+].code = #dateMaj
 * #DIP272 ^property[=].valueDateTime = "2016-09-01T00:00:00+01:00"
+* #DIP272 ^property[+].code = #status
+* #DIP272 ^property[=].valueCode = #active
 * #DIP273 "DU Management des actions de santé publique"
 * #DIP273 ^designation[0].language = #fr-FR
 * #DIP273 ^designation[=].use.system = "http://snomed.info/sct"
@@ -1034,6 +1295,8 @@ Description: "Diplôme d'Université ou Inter-Universitaire"
 * #DIP273 ^property[=].valueDateTime = "2016-05-03T00:00:00+01:00"
 * #DIP273 ^property[+].code = #dateMaj
 * #DIP273 ^property[=].valueDateTime = "2016-09-01T00:00:00+01:00"
+* #DIP273 ^property[+].code = #status
+* #DIP273 ^property[=].valueCode = #active
 * #DIP274 "DU Nutrition appliquée aux activités physiques et sport"
 * #DIP274 ^designation[0].language = #fr-FR
 * #DIP274 ^designation[=].use.system = "http://snomed.info/sct"
@@ -1043,6 +1306,8 @@ Description: "Diplôme d'Université ou Inter-Universitaire"
 * #DIP274 ^property[=].valueDateTime = "2016-05-03T00:00:00+01:00"
 * #DIP274 ^property[+].code = #dateMaj
 * #DIP274 ^property[=].valueDateTime = "2016-09-01T00:00:00+01:00"
+* #DIP274 ^property[+].code = #status
+* #DIP274 ^property[=].valueCode = #active
 * #DIP275 "DU Nutrition et activités physiques et sportives"
 * #DIP275 ^designation[0].language = #fr-FR
 * #DIP275 ^designation[=].use.system = "http://snomed.info/sct"
@@ -1052,6 +1317,8 @@ Description: "Diplôme d'Université ou Inter-Universitaire"
 * #DIP275 ^property[=].valueDateTime = "2016-05-03T00:00:00+01:00"
 * #DIP275 ^property[+].code = #dateMaj
 * #DIP275 ^property[=].valueDateTime = "2016-09-01T00:00:00+01:00"
+* #DIP275 ^property[+].code = #status
+* #DIP275 ^property[=].valueCode = #active
 * #DIP276 "DU Perception actions et troubles apprentissages"
 * #DIP276 ^designation[0].language = #fr-FR
 * #DIP276 ^designation[=].use.system = "http://snomed.info/sct"
@@ -1061,6 +1328,8 @@ Description: "Diplôme d'Université ou Inter-Universitaire"
 * #DIP276 ^property[=].valueDateTime = "2016-05-03T00:00:00+01:00"
 * #DIP276 ^property[+].code = #dateMaj
 * #DIP276 ^property[=].valueDateTime = "2016-09-01T00:00:00+01:00"
+* #DIP276 ^property[+].code = #status
+* #DIP276 ^property[=].valueCode = #active
 * #DIP277 "DU Physiologie de la posture et du mouvement"
 * #DIP277 ^designation[0].language = #fr-FR
 * #DIP277 ^designation[=].use.system = "http://snomed.info/sct"
@@ -1070,6 +1339,8 @@ Description: "Diplôme d'Université ou Inter-Universitaire"
 * #DIP277 ^property[=].valueDateTime = "2016-05-03T00:00:00+01:00"
 * #DIP277 ^property[+].code = #dateMaj
 * #DIP277 ^property[=].valueDateTime = "2016-09-01T00:00:00+01:00"
+* #DIP277 ^property[+].code = #status
+* #DIP277 ^property[=].valueCode = #active
 * #DIP278 "DU Physiologie et physiopathologie du sport"
 * #DIP278 ^designation[0].language = #fr-FR
 * #DIP278 ^designation[=].use.system = "http://snomed.info/sct"
@@ -1079,16 +1350,22 @@ Description: "Diplôme d'Université ou Inter-Universitaire"
 * #DIP278 ^property[=].valueDateTime = "2016-05-03T00:00:00+01:00"
 * #DIP278 ^property[+].code = #dateMaj
 * #DIP278 ^property[=].valueDateTime = "2016-09-01T00:00:00+01:00"
+* #DIP278 ^property[+].code = #status
+* #DIP278 ^property[=].valueCode = #active
 * #DIP279 "DU Pied diabétique"
 * #DIP279 ^property[0].code = #dateValid
 * #DIP279 ^property[=].valueDateTime = "2016-05-03T00:00:00+01:00"
 * #DIP279 ^property[+].code = #dateMaj
 * #DIP279 ^property[=].valueDateTime = "2016-09-01T00:00:00+01:00"
+* #DIP279 ^property[+].code = #status
+* #DIP279 ^property[=].valueCode = #active
 * #DIP280 "DU Plaies et cicatrisations"
 * #DIP280 ^property[0].code = #dateValid
 * #DIP280 ^property[=].valueDateTime = "2016-05-03T00:00:00+01:00"
 * #DIP280 ^property[+].code = #dateMaj
 * #DIP280 ^property[=].valueDateTime = "2016-09-01T00:00:00+01:00"
+* #DIP280 ^property[+].code = #status
+* #DIP280 ^property[=].valueCode = #active
 * #DIP281 "DU Podologie médicale et du sport"
 * #DIP281 ^designation[0].language = #fr-FR
 * #DIP281 ^designation[=].use.system = "http://snomed.info/sct"
@@ -1098,6 +1375,8 @@ Description: "Diplôme d'Université ou Inter-Universitaire"
 * #DIP281 ^property[=].valueDateTime = "2016-05-03T00:00:00+01:00"
 * #DIP281 ^property[+].code = #dateMaj
 * #DIP281 ^property[=].valueDateTime = "2016-09-01T00:00:00+01:00"
+* #DIP281 ^property[+].code = #status
+* #DIP281 ^property[=].valueCode = #active
 * #DIP282 "DU Podologie appliquée au sport"
 * #DIP282 ^designation[0].language = #fr-FR
 * #DIP282 ^designation[=].use.system = "http://snomed.info/sct"
@@ -1107,6 +1386,8 @@ Description: "Diplôme d'Université ou Inter-Universitaire"
 * #DIP282 ^property[=].valueDateTime = "2016-05-03T00:00:00+01:00"
 * #DIP282 ^property[+].code = #dateMaj
 * #DIP282 ^property[=].valueDateTime = "2016-09-01T00:00:00+01:00"
+* #DIP282 ^property[+].code = #status
+* #DIP282 ^property[=].valueCode = #active
 * #DIP283 "DU Podologie appliquée aux activités physiques et sport"
 * #DIP283 ^designation[0].language = #fr-FR
 * #DIP283 ^designation[=].use.system = "http://snomed.info/sct"
@@ -1116,11 +1397,15 @@ Description: "Diplôme d'Université ou Inter-Universitaire"
 * #DIP283 ^property[=].valueDateTime = "2016-05-03T00:00:00+01:00"
 * #DIP283 ^property[+].code = #dateMaj
 * #DIP283 ^property[=].valueDateTime = "2016-09-01T00:00:00+01:00"
+* #DIP283 ^property[+].code = #status
+* #DIP283 ^property[=].valueCode = #active
 * #DIP284 "DU Podologie du sport"
 * #DIP284 ^property[0].code = #dateValid
 * #DIP284 ^property[=].valueDateTime = "2016-05-03T00:00:00+01:00"
 * #DIP284 ^property[+].code = #dateMaj
 * #DIP284 ^property[=].valueDateTime = "2016-09-01T00:00:00+01:00"
+* #DIP284 ^property[+].code = #status
+* #DIP284 ^property[=].valueCode = #active
 * #DIP285 "DU Pratique soignante en soins de suite et réadaptation"
 * #DIP285 ^designation[0].language = #fr-FR
 * #DIP285 ^designation[=].use.system = "http://snomed.info/sct"
@@ -1130,6 +1415,8 @@ Description: "Diplôme d'Université ou Inter-Universitaire"
 * #DIP285 ^property[=].valueDateTime = "2016-05-03T00:00:00+01:00"
 * #DIP285 ^property[+].code = #dateMaj
 * #DIP285 ^property[=].valueDateTime = "2016-09-01T00:00:00+01:00"
+* #DIP285 ^property[+].code = #status
+* #DIP285 ^property[=].valueCode = #active
 * #DIP286 "DU Prise en charge globale du pied diabétique"
 * #DIP286 ^designation[0].language = #fr-FR
 * #DIP286 ^designation[=].use.system = "http://snomed.info/sct"
@@ -1139,6 +1426,8 @@ Description: "Diplôme d'Université ou Inter-Universitaire"
 * #DIP286 ^property[=].valueDateTime = "2016-05-03T00:00:00+01:00"
 * #DIP286 ^property[+].code = #dateMaj
 * #DIP286 ^property[=].valueDateTime = "2016-09-01T00:00:00+01:00"
+* #DIP286 ^property[+].code = #status
+* #DIP286 ^property[=].valueCode = #active
 * #DIP287 "DU Prise en charge multidisciplinaire du patient diabétique"
 * #DIP287 ^designation[0].language = #fr-FR
 * #DIP287 ^designation[=].use.system = "http://snomed.info/sct"
@@ -1148,6 +1437,8 @@ Description: "Diplôme d'Université ou Inter-Universitaire"
 * #DIP287 ^property[=].valueDateTime = "2016-05-03T00:00:00+01:00"
 * #DIP287 ^property[+].code = #dateMaj
 * #DIP287 ^property[=].valueDateTime = "2016-09-01T00:00:00+01:00"
+* #DIP287 ^property[+].code = #status
+* #DIP287 ^property[=].valueCode = #active
 * #DIP288 "DU Problèmes éthiques soulevés par la prise en charge patient âgé"
 * #DIP288 ^designation[0].language = #fr-FR
 * #DIP288 ^designation[=].use.system = "http://snomed.info/sct"
@@ -1157,6 +1448,8 @@ Description: "Diplôme d'Université ou Inter-Universitaire"
 * #DIP288 ^property[=].valueDateTime = "2016-05-03T00:00:00+01:00"
 * #DIP288 ^property[+].code = #dateMaj
 * #DIP288 ^property[=].valueDateTime = "2016-09-01T00:00:00+01:00"
+* #DIP288 ^property[+].code = #status
+* #DIP288 ^property[=].valueCode = #active
 * #DIP289 "DU Promotion de la santé et éducation pour la santé"
 * #DIP289 ^designation[0].language = #fr-FR
 * #DIP289 ^designation[=].use.system = "http://snomed.info/sct"
@@ -1166,6 +1459,8 @@ Description: "Diplôme d'Université ou Inter-Universitaire"
 * #DIP289 ^property[=].valueDateTime = "2016-05-03T00:00:00+01:00"
 * #DIP289 ^property[+].code = #dateMaj
 * #DIP289 ^property[=].valueDateTime = "2016-09-01T00:00:00+01:00"
+* #DIP289 ^property[+].code = #status
+* #DIP289 ^property[=].valueCode = #active
 * #DIP290 "DU Promotion de la santé pour les activités physiques"
 * #DIP290 ^designation[0].language = #fr-FR
 * #DIP290 ^designation[=].use.system = "http://snomed.info/sct"
@@ -1175,6 +1470,8 @@ Description: "Diplôme d'Université ou Inter-Universitaire"
 * #DIP290 ^property[=].valueDateTime = "2016-05-03T00:00:00+01:00"
 * #DIP290 ^property[+].code = #dateMaj
 * #DIP290 ^property[=].valueDateTime = "2016-09-01T00:00:00+01:00"
+* #DIP290 ^property[+].code = #status
+* #DIP290 ^property[=].valueCode = #active
 * #DIP291 "DU Psychiatrie à l'usage du non spécialiste"
 * #DIP291 ^designation[0].language = #fr-FR
 * #DIP291 ^designation[=].use.system = "http://snomed.info/sct"
@@ -1184,6 +1481,8 @@ Description: "Diplôme d'Université ou Inter-Universitaire"
 * #DIP291 ^property[=].valueDateTime = "2016-05-03T00:00:00+01:00"
 * #DIP291 ^property[+].code = #dateMaj
 * #DIP291 ^property[=].valueDateTime = "2016-09-01T00:00:00+01:00"
+* #DIP291 ^property[+].code = #status
+* #DIP291 ^property[=].valueCode = #active
 * #DIP292 "DU Réharmonisation posturale en Podologie"
 * #DIP292 ^designation[0].language = #fr-FR
 * #DIP292 ^designation[=].use.system = "http://snomed.info/sct"
@@ -1193,16 +1492,22 @@ Description: "Diplôme d'Université ou Inter-Universitaire"
 * #DIP292 ^property[=].valueDateTime = "2016-05-03T00:00:00+01:00"
 * #DIP292 ^property[+].code = #dateMaj
 * #DIP292 ^property[=].valueDateTime = "2016-09-01T00:00:00+01:00"
+* #DIP292 ^property[+].code = #status
+* #DIP292 ^property[=].valueCode = #active
 * #DIP293 "DU Sécurité sociale"
 * #DIP293 ^property[0].code = #dateValid
 * #DIP293 ^property[=].valueDateTime = "2016-05-03T00:00:00+01:00"
 * #DIP293 ^property[+].code = #dateMaj
 * #DIP293 ^property[=].valueDateTime = "2016-09-01T00:00:00+01:00"
+* #DIP293 ^property[+].code = #status
+* #DIP293 ^property[=].valueCode = #active
 * #DIP294 "DU Sport et Nutrition"
 * #DIP294 ^property[0].code = #dateValid
 * #DIP294 ^property[=].valueDateTime = "2016-05-03T00:00:00+01:00"
 * #DIP294 ^property[+].code = #dateMaj
 * #DIP294 ^property[=].valueDateTime = "2016-09-01T00:00:00+01:00"
+* #DIP294 ^property[+].code = #status
+* #DIP294 ^property[=].valueCode = #active
 * #DIP295 "DU Sport et Podologie approche de la globalité fonctionnelle et posturale"
 * #DIP295 ^designation[0].language = #fr-FR
 * #DIP295 ^designation[=].use.system = "http://snomed.info/sct"
@@ -1212,11 +1517,15 @@ Description: "Diplôme d'Université ou Inter-Universitaire"
 * #DIP295 ^property[=].valueDateTime = "2016-05-03T00:00:00+01:00"
 * #DIP295 ^property[+].code = #dateMaj
 * #DIP295 ^property[=].valueDateTime = "2016-09-01T00:00:00+01:00"
+* #DIP295 ^property[+].code = #status
+* #DIP295 ^property[=].valueCode = #active
 * #DIP296 "DU Sport et santé"
 * #DIP296 ^property[0].code = #dateValid
 * #DIP296 ^property[=].valueDateTime = "2016-05-03T00:00:00+01:00"
 * #DIP296 ^property[+].code = #dateMaj
 * #DIP296 ^property[=].valueDateTime = "2016-09-01T00:00:00+01:00"
+* #DIP296 ^property[+].code = #status
+* #DIP296 ^property[=].valueCode = #active
 * #DIP297 "DU Sport et santé, option Podologie"
 * #DIP297 ^designation[0].language = #fr-FR
 * #DIP297 ^designation[=].use.system = "http://snomed.info/sct"
@@ -1226,6 +1535,8 @@ Description: "Diplôme d'Université ou Inter-Universitaire"
 * #DIP297 ^property[=].valueDateTime = "2016-05-03T00:00:00+01:00"
 * #DIP297 ^property[+].code = #dateMaj
 * #DIP297 ^property[=].valueDateTime = "2016-09-01T00:00:00+01:00"
+* #DIP297 ^property[+].code = #status
+* #DIP297 ^property[=].valueCode = #active
 * #DIP298 "DU Sport et santé avec AU Podologie appliquée au sport"
 * #DIP298 ^designation[0].language = #fr-FR
 * #DIP298 ^designation[=].use.system = "http://snomed.info/sct"
@@ -1235,6 +1546,8 @@ Description: "Diplôme d'Université ou Inter-Universitaire"
 * #DIP298 ^property[=].valueDateTime = "2016-05-03T00:00:00+01:00"
 * #DIP298 ^property[+].code = #dateMaj
 * #DIP298 ^property[=].valueDateTime = "2016-09-01T00:00:00+01:00"
+* #DIP298 ^property[+].code = #status
+* #DIP298 ^property[=].valueCode = #active
 * #DIP299 "Doctorat ès sciences plus option"
 * #DIP299 ^designation[0].language = #fr-FR
 * #DIP299 ^designation[=].use.system = "http://snomed.info/sct"
@@ -1244,11 +1557,15 @@ Description: "Diplôme d'Université ou Inter-Universitaire"
 * #DIP299 ^property[=].valueDateTime = "2017-10-23T00:00:00+01:00"
 * #DIP299 ^property[+].code = #dateMaj
 * #DIP299 ^property[=].valueDateTime = "2017-10-23T00:00:00+01:00"
+* #DIP299 ^property[+].code = #status
+* #DIP299 ^property[=].valueCode = #active
 * #DIP300 "DIU Soigner les soignants"
 * #DIP300 ^property[0].code = #dateValid
 * #DIP300 ^property[=].valueDateTime = "2017-10-23T00:00:00+01:00"
 * #DIP300 ^property[+].code = #dateMaj
 * #DIP300 ^property[=].valueDateTime = "2017-10-23T00:00:00+01:00"
+* #DIP300 ^property[+].code = #status
+* #DIP300 ^property[=].valueCode = #active
 * #DIP301 "DIU d'OCT en ophtalmologie"
 * #DIP301 ^designation[0].language = #fr-FR
 * #DIP301 ^designation[=].use.system = "http://snomed.info/sct"
@@ -1258,6 +1575,8 @@ Description: "Diplôme d'Université ou Inter-Universitaire"
 * #DIP301 ^property[=].valueDateTime = "2017-10-23T00:00:00+01:00"
 * #DIP301 ^property[+].code = #dateMaj
 * #DIP301 ^property[=].valueDateTime = "2017-10-23T00:00:00+01:00"
+* #DIP301 ^property[+].code = #status
+* #DIP301 ^property[=].valueCode = #active
 * #DIP308 "DIU Pratique médicale en station thermale"
 * #DIP308 ^designation[0].language = #fr-FR
 * #DIP308 ^designation[=].use.system = "http://snomed.info/sct"
@@ -1267,6 +1586,8 @@ Description: "Diplôme d'Université ou Inter-Universitaire"
 * #DIP308 ^property[=].valueDateTime = "2020-06-26T12:00:00+01:00"
 * #DIP308 ^property[+].code = #dateMaj
 * #DIP308 ^property[=].valueDateTime = "2020-06-26T12:00:00+01:00"
+* #DIP308 ^property[+].code = #status
+* #DIP308 ^property[=].valueCode = #active
 * #DIP309 "DU Ostéopathie clinique et fonctionnelle"
 * #DIP309 ^designation[0].language = #fr-FR
 * #DIP309 ^designation[=].use.system = "http://snomed.info/sct"
@@ -1276,6 +1597,8 @@ Description: "Diplôme d'Université ou Inter-Universitaire"
 * #DIP309 ^property[=].valueDateTime = "2020-06-26T12:00:00+01:00"
 * #DIP309 ^property[+].code = #dateMaj
 * #DIP309 ^property[=].valueDateTime = "2020-06-26T12:00:00+01:00"
+* #DIP309 ^property[+].code = #status
+* #DIP309 ^property[=].valueCode = #active
 * #DIP310 "DIU Pneumologie pédiatrique"
 * #DIP310 ^designation[0].language = #fr-FR
 * #DIP310 ^designation[=].use.system = "http://snomed.info/sct"
@@ -1285,6 +1608,8 @@ Description: "Diplôme d'Université ou Inter-Universitaire"
 * #DIP310 ^property[=].valueDateTime = "2020-06-26T12:00:00+01:00"
 * #DIP310 ^property[+].code = #dateMaj
 * #DIP310 ^property[=].valueDateTime = "2020-06-26T12:00:00+01:00"
+* #DIP310 ^property[+].code = #status
+* #DIP310 ^property[=].valueCode = #active
 * #DIP311 "DIU Médecine du Sommeil Appliquée Gérontologie"
 * #DIP311 ^designation[0].language = #fr-FR
 * #DIP311 ^designation[=].use.system = "http://snomed.info/sct"
@@ -1298,6 +1623,8 @@ Description: "Diplôme d'Université ou Inter-Universitaire"
 * #DIP311 ^property[=].valueDateTime = "2020-06-26T12:00:00+01:00"
 * #DIP311 ^property[+].code = #dateMaj
 * #DIP311 ^property[=].valueDateTime = "2020-06-26T12:00:00+01:00"
+* #DIP311 ^property[+].code = #status
+* #DIP311 ^property[=].valueCode = #active
 * #DIP312 "DIU Laryngo-Phoniatrie"
 * #DIP312 ^designation[0].language = #fr-FR
 * #DIP312 ^designation[=].use.system = "http://snomed.info/sct"
@@ -1307,6 +1634,8 @@ Description: "Diplôme d'Université ou Inter-Universitaire"
 * #DIP312 ^property[=].valueDateTime = "2020-06-26T12:00:00+01:00"
 * #DIP312 ^property[+].code = #dateMaj
 * #DIP312 ^property[=].valueDateTime = "2020-06-26T12:00:00+01:00"
+* #DIP312 ^property[+].code = #status
+* #DIP312 ^property[=].valueCode = #active
 * #DIP313 "DIU Echocardiog. et imag. cardiovasc. non invasive"
 * #DIP313 ^designation[0].language = #fr-FR
 * #DIP313 ^designation[=].use.system = "http://snomed.info/sct"
@@ -1320,6 +1649,8 @@ Description: "Diplôme d'Université ou Inter-Universitaire"
 * #DIP313 ^property[=].valueDateTime = "2020-06-26T12:00:00+01:00"
 * #DIP313 ^property[+].code = #dateMaj
 * #DIP313 ^property[=].valueDateTime = "2020-06-26T12:00:00+01:00"
+* #DIP313 ^property[+].code = #status
+* #DIP313 ^property[=].valueCode = #active
 * #DIP320 "DU ou DIU Ostéopathe université médecine reconnu CNOM" "1° de l'article 4 du décret n° 2007-435 du 25 mars 2007 relatif aux actes et aux conditions d'exercice de l'ostéopathie"
 * #DIP320 ^designation[0].language = #fr-FR
 * #DIP320 ^designation[=].use.system = "http://snomed.info/sct"
@@ -1333,6 +1664,8 @@ Description: "Diplôme d'Université ou Inter-Universitaire"
 * #DIP320 ^property[=].valueDateTime = "2023-03-31T12:00:00+01:00"
 * #DIP320 ^property[+].code = #dateMaj
 * #DIP320 ^property[=].valueDateTime = "2023-03-31T12:00:00+01:00"
+* #DIP320 ^property[+].code = #status
+* #DIP320 ^property[=].valueCode = #active
 * #DIP330 "DU Chiropraxie" "3° de l'article 4 du décret n° 2011-32 du 7 janvier 2011 relatif aux actes et aux conditions d'exercice de la chiropraxie"
 * #DIP330 ^designation[0].language = #fr-FR
 * #DIP330 ^designation[=].use.system = "http://snomed.info/sct"
@@ -1342,6 +1675,8 @@ Description: "Diplôme d'Université ou Inter-Universitaire"
 * #DIP330 ^property[=].valueDateTime = "2023-03-31T12:00:00+01:00"
 * #DIP330 ^property[+].code = #dateMaj
 * #DIP330 ^property[=].valueDateTime = "2023-03-31T12:00:00+01:00"
+* #DIP330 ^property[+].code = #status
+* #DIP330 ^property[=].valueCode = #active
 * #DIP344 "DU ou DIU Orthopédie" "Article D4364-10 du code de la santé publique (CSP) ; 1° b) de l'article 7 de l'arrêté du 1er février 2011 relatif aux professions de prothésiste et orthésiste"
 * #DIP344 ^designation[0].language = #fr-FR
 * #DIP344 ^designation[=].use.system = "http://snomed.info/sct"
@@ -1351,6 +1686,8 @@ Description: "Diplôme d'Université ou Inter-Universitaire"
 * #DIP344 ^property[=].valueDateTime = "2023-03-31T12:00:00+01:00"
 * #DIP344 ^property[+].code = #dateMaj
 * #DIP344 ^property[=].valueDateTime = "2023-03-31T12:00:00+01:00"
+* #DIP344 ^property[+].code = #status
+* #DIP344 ^property[=].valueCode = #active
 * #DIP346 "DU Prothèse Oculaire appliquée" "2° de l'article D4364-9 et 2° de l'article D4364-10-1 du code de la santé publique (CSP) + 1° de l'article 5 de l'arrêté du 1er février 2011 relatif aux professions de prothésiste et orthésiste"
 * #DIP346 ^designation[0].language = #fr-FR
 * #DIP346 ^designation[=].use.system = "http://snomed.info/sct"
@@ -1360,11 +1697,15 @@ Description: "Diplôme d'Université ou Inter-Universitaire"
 * #DIP346 ^property[=].valueDateTime = "2023-03-31T12:00:00+01:00"
 * #DIP346 ^property[+].code = #dateMaj
 * #DIP346 ^property[=].valueDateTime = "2023-03-31T12:00:00+01:00"
+* #DIP346 ^property[+].code = #status
+* #DIP346 ^property[=].valueCode = #active
 * #DIP347 "DU Prothèse faciale" "Article D4364-9 du code de la santé publique (CSP) ; article 6 de l'arrêté du 1er février 2011 relatif aux professions de prothésiste et orthésiste"
 * #DIP347 ^property[0].code = #dateValid
 * #DIP347 ^property[=].valueDateTime = "2023-03-31T12:00:00+01:00"
 * #DIP347 ^property[+].code = #dateMaj
 * #DIP347 ^property[=].valueDateTime = "2023-03-31T12:00:00+01:00"
+* #DIP347 ^property[+].code = #status
+* #DIP347 ^property[=].valueCode = #active
 * #DIP351 "DUT Génie biologique option analyses biologiques et biochimiques (avant 2023)" "Article L4352-2 2° du code de la santé publique (CSP) ; Arrêté du 21 octobre 1992"
 * #DIP351 ^designation[0].language = #fr-FR
 * #DIP351 ^designation[=].use.system = "http://snomed.info/sct"
@@ -1378,6 +1719,8 @@ Description: "Diplôme d'Université ou Inter-Universitaire"
 * #DIP351 ^property[=].valueDateTime = "2023-03-31T12:00:00+01:00"
 * #DIP351 ^property[+].code = #dateMaj
 * #DIP351 ^property[=].valueDateTime = "2024-07-26T12:00:00+01:00"
+* #DIP351 ^property[+].code = #status
+* #DIP351 ^property[=].valueCode = #active
 * #DIP365 "DUT Génie biologique option diététique (avant 2023)" "Article L4371-6 4° du code de la santé publique (CSP)"
 * #DIP365 ^designation[0].language = #fr-FR
 * #DIP365 ^designation[=].use.system = "http://snomed.info/sct"
@@ -1391,6 +1734,8 @@ Description: "Diplôme d'Université ou Inter-Universitaire"
 * #DIP365 ^property[=].valueDateTime = "2023-03-31T12:00:00+01:00"
 * #DIP365 ^property[+].code = #dateMaj
 * #DIP365 ^property[=].valueDateTime = "2024-07-26T12:00:00+01:00"
+* #DIP365 ^property[+].code = #status
+* #DIP365 ^property[=].valueCode = #active
 * #DIP369 "BUT Génie biologique parcours diététique et nutrition" "Article L4371-6 4° du code de la santé publique (CSP)"
 * #DIP369 ^designation[0].language = #fr-FR
 * #DIP369 ^designation[=].use.system = "http://snomed.info/sct"
@@ -1400,6 +1745,8 @@ Description: "Diplôme d'Université ou Inter-Universitaire"
 * #DIP369 ^property[=].valueDateTime = "2023-03-31T12:00:00+01:00"
 * #DIP369 ^property[+].code = #dateMaj
 * #DIP369 ^property[=].valueDateTime = "2024-07-26T12:00:00+01:00"
+* #DIP369 ^property[+].code = #status
+* #DIP369 ^property[=].valueCode = #active
 * #DIP391 "DU Ostéopathie Médecine Manuelle"
 * #DIP391 ^designation[0].language = #fr-FR
 * #DIP391 ^designation[=].use.system = "http://snomed.info/sct"
@@ -1409,6 +1756,8 @@ Description: "Diplôme d'Université ou Inter-Universitaire"
 * #DIP391 ^property[=].valueDateTime = "2022-07-29T12:00:00+01:00"
 * #DIP391 ^property[+].code = #dateMaj
 * #DIP391 ^property[=].valueDateTime = "2022-07-29T12:00:00+01:00"
+* #DIP391 ^property[+].code = #status
+* #DIP391 ^property[=].valueCode = #active
 * #DIP392 "DIU Médecine Manuelle - Ostéopathie Médicale"
 * #DIP392 ^designation[0].language = #fr-FR
 * #DIP392 ^designation[=].use.system = "http://snomed.info/sct"
@@ -1418,16 +1767,22 @@ Description: "Diplôme d'Université ou Inter-Universitaire"
 * #DIP392 ^property[=].valueDateTime = "2022-07-29T12:00:00+01:00"
 * #DIP392 ^property[+].code = #dateMaj
 * #DIP392 ^property[=].valueDateTime = "2022-07-29T12:00:00+01:00"
+* #DIP392 ^property[+].code = #status
+* #DIP392 ^property[=].valueCode = #active
 * #DIP393 "DIU Expertise médico-légale"
 * #DIP393 ^property[0].code = #dateValid
 * #DIP393 ^property[=].valueDateTime = "2022-07-29T12:00:00+01:00"
 * #DIP393 ^property[+].code = #dateMaj
 * #DIP393 ^property[=].valueDateTime = "2022-07-29T12:00:00+01:00"
+* #DIP393 ^property[+].code = #status
+* #DIP393 ^property[=].valueCode = #active
 * #DIP394 "DU ou DIU Phlébologie"
 * #DIP394 ^property[0].code = #dateValid
 * #DIP394 ^property[=].valueDateTime = "2022-07-29T12:00:00+01:00"
 * #DIP394 ^property[+].code = #dateMaj
 * #DIP394 ^property[=].valueDateTime = "2022-07-29T12:00:00+01:00"
+* #DIP394 ^property[+].code = #status
+* #DIP394 ^property[=].valueCode = #active
 * #DIP395 "DIU Pancréatologie médico-chirurgicale"
 * #DIP395 ^designation[0].language = #fr-FR
 * #DIP395 ^designation[=].use.system = "http://snomed.info/sct"
@@ -1437,6 +1792,8 @@ Description: "Diplôme d'Université ou Inter-Universitaire"
 * #DIP395 ^property[=].valueDateTime = "2022-07-29T12:00:00+01:00"
 * #DIP395 ^property[+].code = #dateMaj
 * #DIP395 ^property[=].valueDateTime = "2022-07-29T12:00:00+01:00"
+* #DIP395 ^property[+].code = #status
+* #DIP395 ^property[=].valueCode = #active
 * #DIP396 "DIU de Pathologie et chirurgie orbito-palpébro-lacrymales (OPL)"
 * #DIP396 ^designation[0].language = #fr-FR
 * #DIP396 ^designation[=].use.system = "http://snomed.info/sct"
@@ -1446,6 +1803,8 @@ Description: "Diplôme d'Université ou Inter-Universitaire"
 * #DIP396 ^property[=].valueDateTime = "2022-07-29T12:00:00+01:00"
 * #DIP396 ^property[+].code = #dateMaj
 * #DIP396 ^property[=].valueDateTime = "2022-07-29T12:00:00+01:00"
+* #DIP396 ^property[+].code = #status
+* #DIP396 ^property[=].valueCode = #active
 * #DIP397 "DIU Techniques avancées en phlébologie"
 * #DIP397 ^designation[0].language = #fr-FR
 * #DIP397 ^designation[=].use.system = "http://snomed.info/sct"
@@ -1455,6 +1814,8 @@ Description: "Diplôme d'Université ou Inter-Universitaire"
 * #DIP397 ^property[=].valueDateTime = "2022-07-29T12:00:00+01:00"
 * #DIP397 ^property[+].code = #dateMaj
 * #DIP397 ^property[=].valueDateTime = "2022-07-29T12:00:00+01:00"
+* #DIP397 ^property[+].code = #status
+* #DIP397 ^property[=].valueCode = #active
 * #DIP399 "DU Sciences du mouvement, posture et podologie"
 * #DIP399 ^designation[0].language = #fr-FR
 * #DIP399 ^designation[=].use.system = "http://snomed.info/sct"
@@ -1464,6 +1825,8 @@ Description: "Diplôme d'Université ou Inter-Universitaire"
 * #DIP399 ^property[=].valueDateTime = "2023-06-30T12:00:00+01:00"
 * #DIP399 ^property[+].code = #dateMaj
 * #DIP399 ^property[=].valueDateTime = "2023-06-30T12:00:00+01:00"
+* #DIP399 ^property[+].code = #status
+* #DIP399 ^property[=].valueCode = #active
 * #DIP400 "DU Init recherche professions sanitaires sociales"
 * #DIP400 ^designation[0].language = #fr-FR
 * #DIP400 ^designation[=].use.system = "http://snomed.info/sct"
@@ -1477,6 +1840,8 @@ Description: "Diplôme d'Université ou Inter-Universitaire"
 * #DIP400 ^property[=].valueDateTime = "2023-06-30T12:00:00+01:00"
 * #DIP400 ^property[+].code = #dateMaj
 * #DIP400 ^property[=].valueDateTime = "2023-06-30T12:00:00+01:00"
+* #DIP400 ^property[+].code = #status
+* #DIP400 ^property[=].valueCode = #active
 * #DIP401 "DU Enseignement pratique pluridis santé connectée"
 * #DIP401 ^designation[0].language = #fr-FR
 * #DIP401 ^designation[=].use.system = "http://snomed.info/sct"
@@ -1490,6 +1855,8 @@ Description: "Diplôme d'Université ou Inter-Universitaire"
 * #DIP401 ^property[=].valueDateTime = "2023-06-30T12:00:00+01:00"
 * #DIP401 ^property[+].code = #dateMaj
 * #DIP401 ^property[=].valueDateTime = "2023-06-30T12:00:00+01:00"
+* #DIP401 ^property[+].code = #status
+* #DIP401 ^property[=].valueCode = #active
 * #DIP402 "DU Evaluation biomécanique performance sportive"
 * #DIP402 ^designation[0].language = #fr-FR
 * #DIP402 ^designation[=].use.system = "http://snomed.info/sct"
@@ -1503,6 +1870,8 @@ Description: "Diplôme d'Université ou Inter-Universitaire"
 * #DIP402 ^property[=].valueDateTime = "2023-06-30T12:00:00+01:00"
 * #DIP402 ^property[+].code = #dateMaj
 * #DIP402 ^property[=].valueDateTime = "2023-06-30T12:00:00+01:00"
+* #DIP402 ^property[+].code = #status
+* #DIP402 ^property[=].valueCode = #active
 * #DIP403 "DU Podologie biomécanique et sport"
 * #DIP403 ^designation[0].language = #fr-FR
 * #DIP403 ^designation[=].use.system = "http://snomed.info/sct"
@@ -1512,6 +1881,8 @@ Description: "Diplôme d'Université ou Inter-Universitaire"
 * #DIP403 ^property[=].valueDateTime = "2023-06-30T12:00:00+01:00"
 * #DIP403 ^property[+].code = #dateMaj
 * #DIP403 ^property[=].valueDateTime = "2023-06-30T12:00:00+01:00"
+* #DIP403 ^property[+].code = #status
+* #DIP403 ^property[=].valueCode = #active
 * #DIP404 "DU Posture, mouvement et santé"
 * #DIP404 ^designation[0].language = #fr-FR
 * #DIP404 ^designation[=].use.system = "http://snomed.info/sct"
@@ -1521,6 +1892,8 @@ Description: "Diplôme d'Université ou Inter-Universitaire"
 * #DIP404 ^property[=].valueDateTime = "2023-06-30T12:00:00+01:00"
 * #DIP404 ^property[+].code = #dateMaj
 * #DIP404 ^property[=].valueDateTime = "2023-06-30T12:00:00+01:00"
+* #DIP404 ^property[+].code = #status
+* #DIP404 ^property[=].valueCode = #active
 * #DIP405 "DU P. diabétique rôle podologue parcours de soins"
 * #DIP405 ^designation[0].language = #fr-FR
 * #DIP405 ^designation[=].use.system = "http://snomed.info/sct"
@@ -1533,6 +1906,8 @@ Description: "Diplôme d'Université ou Inter-Universitaire"
 * #DIP405 ^property[=].valueDateTime = "2023-06-30T12:00:00+01:00"
 * #DIP405 ^property[+].code = #dateMaj
 * #DIP405 ^property[=].valueDateTime = "2023-06-30T12:00:00+01:00"
+* #DIP405 ^property[+].code = #status
+* #DIP405 ^property[=].valueCode = #active
 * #DIP406 "DU Podologie du sport"
 * #DIP406 ^designation[0].language = #fr-FR
 * #DIP406 ^designation[=].use.system = "http://snomed.info/sct"
@@ -1542,6 +1917,8 @@ Description: "Diplôme d'Université ou Inter-Universitaire"
 * #DIP406 ^property[=].valueDateTime = "2023-06-30T12:00:00+01:00"
 * #DIP406 ^property[+].code = #dateMaj
 * #DIP406 ^property[=].valueDateTime = "2023-06-30T12:00:00+01:00"
+* #DIP406 ^property[+].code = #status
+* #DIP406 ^property[=].valueCode = #active
 * #DIP407 "DU Ethique du numérique en santé"
 * #DIP407 ^designation[0].language = #fr-FR
 * #DIP407 ^designation[=].use.system = "http://snomed.info/sct"
@@ -1551,6 +1928,8 @@ Description: "Diplôme d'Université ou Inter-Universitaire"
 * #DIP407 ^property[=].valueDateTime = "2023-06-30T12:00:00+01:00"
 * #DIP407 ^property[+].code = #dateMaj
 * #DIP407 ^property[=].valueDateTime = "2023-06-30T12:00:00+01:00"
+* #DIP407 ^property[+].code = #status
+* #DIP407 ^property[=].valueCode = #active
 * #DIP408 "DIU Analyse du mouvement et de la marche"
 * #DIP408 ^designation[0].language = #fr-FR
 * #DIP408 ^designation[=].use.system = "http://snomed.info/sct"
@@ -1560,6 +1939,8 @@ Description: "Diplôme d'Université ou Inter-Universitaire"
 * #DIP408 ^property[=].valueDateTime = "2024-01-26T12:00:00+01:00"
 * #DIP408 ^property[+].code = #dateMaj
 * #DIP408 ^property[=].valueDateTime = "2024-01-26T12:00:00+01:00"
+* #DIP408 ^property[+].code = #status
+* #DIP408 ^property[=].valueCode = #active
 * #DIP410 "DUT Biologie appliquée option analyses biologiques et biochimiques"
 * #DIP410 ^designation[0].language = #fr-FR
 * #DIP410 ^designation[=].use.system = "http://snomed.info/sct"
@@ -1569,6 +1950,8 @@ Description: "Diplôme d'Université ou Inter-Universitaire"
 * #DIP410 ^property[=].valueDateTime = "2024-06-28T12:00:00+01:00"
 * #DIP410 ^property[+].code = #dateMaj
 * #DIP410 ^property[=].valueDateTime = "2024-07-26T12:00:00+01:00"
+* #DIP410 ^property[+].code = #status
+* #DIP410 ^property[=].valueCode = #active
 * #DIP411 "BUT Génie biologique parcours biologie médicale et biotechnologie"
 * #DIP411 ^designation[0].language = #fr-FR
 * #DIP411 ^designation[=].use.system = "http://snomed.info/sct"
@@ -1578,6 +1961,8 @@ Description: "Diplôme d'Université ou Inter-Universitaire"
 * #DIP411 ^property[=].valueDateTime = "2024-06-28T12:00:00+01:00"
 * #DIP411 ^property[+].code = #dateMaj
 * #DIP411 ^property[=].valueDateTime = "2024-07-26T12:00:00+01:00"
+* #DIP411 ^property[+].code = #status
+* #DIP411 ^property[=].valueCode = #active
 * #DIP413 "DU Analyses des milieux biologiques université de Corte"
 * #DIP413 ^designation[0].language = #fr-FR
 * #DIP413 ^designation[=].use.system = "http://snomed.info/sct"
@@ -1587,6 +1972,8 @@ Description: "Diplôme d'Université ou Inter-Universitaire"
 * #DIP413 ^property[=].valueDateTime = "2024-06-28T12:00:00+01:00"
 * #DIP413 ^property[+].code = #dateMaj
 * #DIP413 ^property[=].valueDateTime = "2024-06-28T12:00:00+01:00"
+* #DIP413 ^property[+].code = #status
+* #DIP413 ^property[=].valueCode = #active
 * #DIP416 "DUT Biologie appliquée option diététique"
 * #DIP416 ^designation[0].language = #fr-FR
 * #DIP416 ^designation[=].use = $sct#900000000000013009
@@ -1595,3 +1982,5 @@ Description: "Diplôme d'Université ou Inter-Universitaire"
 * #DIP416 ^property[=].valueDateTime = "2024-07-26T12:00:00+01:00"
 * #DIP416 ^property[+].code = #dateMaj
 * #DIP416 ^property[=].valueDateTime = "2024-07-26T12:00:00+01:00"
+* #DIP416 ^property[+].code = #status
+* #DIP416 ^property[=].valueCode = #active

@@ -1,9 +1,10 @@
 ValueSet: JDV_J232_Competence_ROR
 Id: JDV-J232-Competence-ROR
 Description: "Compétence"
-* ^meta.versionId = "4"
-* ^meta.lastUpdated = "2024-06-28T16:10:00.886+00:00"
+* ^meta.versionId = "5"
+* ^meta.lastUpdated = "2025-07-02T17:06:00.867+00:00"
 * ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablevalueset"
+* ^language = #fr-FR
 * ^extension.url = "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod"
 * ^extension.valuePeriod.start = "2022-08-26T12:00:00+01:00"
 * ^url = "https://mos.esante.gouv.fr/NOS/JDV_J232-Competence-ROR/FHIR/JDV-J232-Competence-ROR"
@@ -14,6 +15,7 @@ Description: "Compétence"
 * ^experimental = false
 * ^date = "2024-06-28T12:00:00+01:00"
 * ^publisher = "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris"
+* ^jurisdiction = urn:iso:std:iso:3166#FR
 * $TRE-R39-Competence#C01 "Anatomie et Cytologie pathologiques humaines (C)"
 * $TRE-R39-Competence#C03 "Anesthésie-réanimation (C)"
 * $TRE-R39-Competence#C05 "Médecine appliquée aux sports (C)"

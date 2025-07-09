@@ -1,8 +1,8 @@
 CodeSystem: TRE_R63_AgregatCategorieEtablissementNiv1
 Id: TRE-R63-AgregatCategorieEtablissementNiv1
 Description: "Agrégats de catégories d'établissements niveau 1"
-* ^meta.versionId = "4"
-* ^meta.lastUpdated = "2024-08-28T05:14:03.439+00:00"
+* ^meta.versionId = "5"
+* ^meta.lastUpdated = "2025-07-02T18:18:28.498+00:00"
 * ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablecodesystem"
 * ^extension.url = "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod"
 * ^extension.valuePeriod.start = "1979-01-01T00:00:00+01:00"
@@ -14,6 +14,7 @@ Description: "Agrégats de catégories d'établissements niveau 1"
 * ^experimental = false
 * ^date = "2023-12-15T12:00:00+01:00"
 * ^publisher = "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris"
+* ^jurisdiction = urn:iso:std:iso:3166#FR
 * ^caseSensitive = false
 * ^content = #complete
 * ^property[0].code = #dateValid
@@ -24,6 +25,18 @@ Description: "Agrégats de catégories d'établissements niveau 1"
 * ^property[=].type = #dateTime
 * ^property[+].code = #dateFin
 * ^property[=].description = "Date de fin d'exploitation d'un code concept"
+* ^property[=].type = #dateTime
+* ^property[+].code = #deprecationDate
+* ^property[=].uri = "http://hl7.org/fhir/concept-properties#deprecationDate"
+* ^property[=].description = "Date Concept was deprecated"
+* ^property[=].type = #dateTime
+* ^property[+].code = #status
+* ^property[=].uri = "http://hl7.org/fhir/concept-properties#status"
+* ^property[=].description = "A property that indicates the status of the concept."
+* ^property[=].type = #code
+* ^property[+].code = #retirementDate
+* ^property[=].uri = "http://hl7.org/fhir/concept-properties#retirementDate"
+* ^property[=].description = "Date Concept was retired"
 * ^property[=].type = #dateTime
 * #0100 "Etablissements d'administration"
 * #0100 ^designation[0].language = #fr-FR
@@ -36,6 +49,10 @@ Description: "Agrégats de catégories d'établissements niveau 1"
 * #0100 ^property[=].valueDateTime = "2021-03-26T12:00:00+01:00"
 * #0100 ^property[+].code = #dateMaj
 * #0100 ^property[=].valueDateTime = "2021-03-26T12:00:00+01:00"
+* #0100 ^property[+].code = #deprecationDate
+* #0100 ^property[=].valueDateTime = "2021-03-26T12:00:00+01:00"
+* #0100 ^property[+].code = #status
+* #0100 ^property[=].valueCode = #deprecated
 * #1000 "Etablissements Relevant de la Loi Hospitalière"
 * #1000 ^designation[0].language = #fr-FR
 * #1000 ^designation[=].use.system = "http://snomed.info/sct"
@@ -45,6 +62,8 @@ Description: "Agrégats de catégories d'établissements niveau 1"
 * #1000 ^property[=].valueDateTime = "1979-01-01T00:00:00+01:00"
 * #1000 ^property[+].code = #dateMaj
 * #1000 ^property[=].valueDateTime = "1979-01-01T00:00:00+01:00"
+* #1000 ^property[+].code = #status
+* #1000 ^property[=].valueCode = #active
 * #2000 "Autres Etablissements de Soins et Prévention"
 * #2000 ^designation[0].language = #fr-FR
 * #2000 ^designation[=].use.system = "http://snomed.info/sct"
@@ -58,6 +77,8 @@ Description: "Agrégats de catégories d'établissements niveau 1"
 * #2000 ^property[=].valueDateTime = "1979-01-01T00:00:00+01:00"
 * #2000 ^property[+].code = #dateMaj
 * #2000 ^property[=].valueDateTime = "1979-01-01T00:00:00+01:00"
+* #2000 ^property[+].code = #status
+* #2000 ^property[=].valueCode = #active
 * #3000 "Autres Etablissements à Caractère Sanitaire"
 * #3000 ^designation[0].language = #fr-FR
 * #3000 ^designation[=].use.system = "http://snomed.info/sct"
@@ -71,6 +92,8 @@ Description: "Agrégats de catégories d'établissements niveau 1"
 * #3000 ^property[=].valueDateTime = "1979-01-01T00:00:00+01:00"
 * #3000 ^property[+].code = #dateMaj
 * #3000 ^property[=].valueDateTime = "1979-01-01T00:00:00+01:00"
+* #3000 ^property[+].code = #status
+* #3000 ^property[=].valueCode = #active
 * #4000 "Etab.Serv.Soc.d'Accueil Hébergement Assistance Réadaptation"
 * #4000 ^designation[0].language = #fr-FR
 * #4000 ^designation[=].use.system = "http://snomed.info/sct"
@@ -84,6 +107,8 @@ Description: "Agrégats de catégories d'établissements niveau 1"
 * #4000 ^property[=].valueDateTime = "1979-01-01T00:00:00+01:00"
 * #4000 ^property[+].code = #dateMaj
 * #4000 ^property[=].valueDateTime = "1979-01-01T00:00:00+01:00"
+* #4000 ^property[+].code = #status
+* #4000 ^property[=].valueCode = #active
 * #5000 "Etablissements et Services Sociaux d'Aide à la Famille"
 * #5000 ^designation[0].language = #fr-FR
 * #5000 ^designation[=].use.system = "http://snomed.info/sct"
@@ -93,6 +118,8 @@ Description: "Agrégats de catégories d'établissements niveau 1"
 * #5000 ^property[=].valueDateTime = "1979-01-01T00:00:00+01:00"
 * #5000 ^property[+].code = #dateMaj
 * #5000 ^property[=].valueDateTime = "1979-01-01T00:00:00+01:00"
+* #5000 ^property[+].code = #status
+* #5000 ^property[=].valueCode = #active
 * #6000 "Etab.de Formation des Personnels Sanitaires et Sociaux"
 * #6000 ^designation[0].language = #fr-FR
 * #6000 ^designation[=].use = $sct#900000000000013009
@@ -104,3 +131,5 @@ Description: "Agrégats de catégories d'établissements niveau 1"
 * #6000 ^property[=].valueDateTime = "1979-01-01T00:00:00+01:00"
 * #6000 ^property[+].code = #dateMaj
 * #6000 ^property[=].valueDateTime = "1979-01-01T00:00:00+01:00"
+* #6000 ^property[+].code = #status
+* #6000 ^property[=].valueCode = #active

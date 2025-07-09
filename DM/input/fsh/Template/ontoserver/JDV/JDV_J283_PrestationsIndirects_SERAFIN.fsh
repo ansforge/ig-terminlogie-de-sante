@@ -1,9 +1,10 @@
 ValueSet: JDV_J283_PrestationsIndirects_SERAFIN
 Id: JDV-J283-PrestationsIndirects-SERAFIN
 Description: "Liste des prestations indirects provenant de la terminologie SERAFIN"
-* ^meta.versionId = "5"
-* ^meta.lastUpdated = "2024-12-19T18:02:41.253+00:00"
+* ^meta.versionId = "6"
+* ^meta.lastUpdated = "2025-07-02T17:06:22.396+00:00"
 * ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablevalueset"
+* ^language = #fr-FR
 * ^extension.url = "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod"
 * ^extension.valuePeriod.start = "2024-10-25T12:00:00+01:00"
 * ^url = "https://mos.esante.gouv.fr/NOS/JDV_J283-PrestationsIndirects_SERAFIN/FHIR/JDV-J283-PrestationsIndirects-SERAFIN"
@@ -14,6 +15,7 @@ Description: "Liste des prestations indirects provenant de la terminologie SERAF
 * ^experimental = false
 * ^date = "2024-10-25T12:00:00+01:00"
 * ^publisher = "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris"
+* ^jurisdiction = urn:iso:std:iso:3166#FR
 * $terminologie-SERAFINPH#3 "Prestations indirectes - Pilotage et fonctions supports"
 * $terminologie-SERAFINPH#3.1 "Fonctions Gérer, manager, coopérer"
 * $terminologie-SERAFINPH#3.1.1 "Gestion des ressources humaines"

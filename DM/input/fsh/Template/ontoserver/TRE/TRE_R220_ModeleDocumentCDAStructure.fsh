@@ -1,8 +1,8 @@
 CodeSystem: TRE_R220_ModeleDocumentCDAStructure
 Id: TRE-R220-ModeleDocumentCDAStructure
 Description: "Identifiant des modèles de CDA structurés"
-* ^meta.versionId = "7"
-* ^meta.lastUpdated = "2024-08-28T05:12:30.916+00:00"
+* ^meta.versionId = "8"
+* ^meta.lastUpdated = "2025-07-02T18:16:13.789+00:00"
 * ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablecodesystem"
 * ^extension.url = "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod"
 * ^extension.valuePeriod.start = "2016-09-01T00:00:00+01:00"
@@ -14,6 +14,7 @@ Description: "Identifiant des modèles de CDA structurés"
 * ^experimental = false
 * ^date = "2024-07-26T12:00:00+01:00"
 * ^publisher = "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris"
+* ^jurisdiction = urn:iso:std:iso:3166#FR
 * ^caseSensitive = false
 * ^content = #complete
 * ^property[0].code = #dateValid
@@ -24,6 +25,18 @@ Description: "Identifiant des modèles de CDA structurés"
 * ^property[=].type = #dateTime
 * ^property[+].code = #dateFin
 * ^property[=].description = "Date de fin d'exploitation d'un code concept"
+* ^property[=].type = #dateTime
+* ^property[+].code = #deprecationDate
+* ^property[=].uri = "http://hl7.org/fhir/concept-properties#deprecationDate"
+* ^property[=].description = "Date Concept was deprecated"
+* ^property[=].type = #dateTime
+* ^property[+].code = #status
+* ^property[=].uri = "http://hl7.org/fhir/concept-properties#status"
+* ^property[=].description = "A property that indicates the status of the concept."
+* ^property[=].type = #code
+* ^property[+].code = #retirementDate
+* ^property[=].uri = "http://hl7.org/fhir/concept-properties#retirementDate"
+* ^property[=].description = "Date Concept was retired"
 * ^property[=].type = #dateTime
 * #1.2.250.1.213.1.1.1.10 "Carnet de vaccination électronique"
 * #1.2.250.1.213.1.1.1.10 ^designation[0].language = #fr-FR
@@ -36,6 +49,10 @@ Description: "Identifiant des modèles de CDA structurés"
 * #1.2.250.1.213.1.1.1.10 ^property[=].valueDateTime = "2019-10-25T12:00:00+01:00"
 * #1.2.250.1.213.1.1.1.10 ^property[+].code = #dateMaj
 * #1.2.250.1.213.1.1.1.10 ^property[=].valueDateTime = "2019-10-25T12:00:00+01:00"
+* #1.2.250.1.213.1.1.1.10 ^property[+].code = #deprecationDate
+* #1.2.250.1.213.1.1.1.10 ^property[=].valueDateTime = "2019-10-25T12:00:00+01:00"
+* #1.2.250.1.213.1.1.1.10 ^property[+].code = #status
+* #1.2.250.1.213.1.1.1.10 ^property[=].valueCode = #deprecated
 * #1.2.250.1.213.1.1.1.12.1 "Synthèse antepartum"
 * #1.2.250.1.213.1.1.1.12.1 ^designation[0].language = #fr-FR
 * #1.2.250.1.213.1.1.1.12.1 ^designation[=].use.system = "http://snomed.info/sct"
@@ -45,6 +62,8 @@ Description: "Identifiant des modèles de CDA structurés"
 * #1.2.250.1.213.1.1.1.12.1 ^property[=].valueDateTime = "2016-09-01T00:00:00+01:00"
 * #1.2.250.1.213.1.1.1.12.1 ^property[+].code = #dateMaj
 * #1.2.250.1.213.1.1.1.12.1 ^property[=].valueDateTime = "2017-10-13T12:00:00+01:00"
+* #1.2.250.1.213.1.1.1.12.1 ^property[+].code = #status
+* #1.2.250.1.213.1.1.1.12.1 ^property[=].valueCode = #active
 * #1.2.250.1.213.1.1.1.12.2 "Synthèse Salle de Naissance Mère"
 * #1.2.250.1.213.1.1.1.12.2 ^designation[0].language = #fr-FR
 * #1.2.250.1.213.1.1.1.12.2 ^designation[=].use.system = "http://snomed.info/sct"
@@ -54,6 +73,8 @@ Description: "Identifiant des modèles de CDA structurés"
 * #1.2.250.1.213.1.1.1.12.2 ^property[=].valueDateTime = "2016-09-01T00:00:00+01:00"
 * #1.2.250.1.213.1.1.1.12.2 ^property[+].code = #dateMaj
 * #1.2.250.1.213.1.1.1.12.2 ^property[=].valueDateTime = "2017-10-13T12:00:00+01:00"
+* #1.2.250.1.213.1.1.1.12.2 ^property[+].code = #status
+* #1.2.250.1.213.1.1.1.12.2 ^property[=].valueCode = #active
 * #1.2.250.1.213.1.1.1.12.3 "Synthèse Salle de Naissance Enfant"
 * #1.2.250.1.213.1.1.1.12.3 ^designation[0].language = #fr-FR
 * #1.2.250.1.213.1.1.1.12.3 ^designation[=].use.system = "http://snomed.info/sct"
@@ -63,6 +84,8 @@ Description: "Identifiant des modèles de CDA structurés"
 * #1.2.250.1.213.1.1.1.12.3 ^property[=].valueDateTime = "2016-09-01T00:00:00+01:00"
 * #1.2.250.1.213.1.1.1.12.3 ^property[+].code = #dateMaj
 * #1.2.250.1.213.1.1.1.12.3 ^property[=].valueDateTime = "2017-10-13T12:00:00+01:00"
+* #1.2.250.1.213.1.1.1.12.3 ^property[+].code = #status
+* #1.2.250.1.213.1.1.1.12.3 ^property[=].valueCode = #active
 * #1.2.250.1.213.1.1.1.12.4 "Synthèse Suites de Couches Mère"
 * #1.2.250.1.213.1.1.1.12.4 ^designation[0].language = #fr-FR
 * #1.2.250.1.213.1.1.1.12.4 ^designation[=].use.system = "http://snomed.info/sct"
@@ -72,6 +95,8 @@ Description: "Identifiant des modèles de CDA structurés"
 * #1.2.250.1.213.1.1.1.12.4 ^property[=].valueDateTime = "2016-09-01T00:00:00+01:00"
 * #1.2.250.1.213.1.1.1.12.4 ^property[+].code = #dateMaj
 * #1.2.250.1.213.1.1.1.12.4 ^property[=].valueDateTime = "2017-10-13T12:00:00+01:00"
+* #1.2.250.1.213.1.1.1.12.4 ^property[+].code = #status
+* #1.2.250.1.213.1.1.1.12.4 ^property[=].valueCode = #active
 * #1.2.250.1.213.1.1.1.12.5 "Synthèse Enfant en Maternité" "Synthèse Enfant en Maternité"
 * #1.2.250.1.213.1.1.1.12.5 ^designation[0].language = #fr-FR
 * #1.2.250.1.213.1.1.1.12.5 ^designation[=].use.system = "http://snomed.info/sct"
@@ -81,6 +106,8 @@ Description: "Identifiant des modèles de CDA structurés"
 * #1.2.250.1.213.1.1.1.12.5 ^property[=].valueDateTime = "2016-09-01T00:00:00+01:00"
 * #1.2.250.1.213.1.1.1.12.5 ^property[+].code = #dateMaj
 * #1.2.250.1.213.1.1.1.12.5 ^property[=].valueDateTime = "2023-06-30T12:00:00+01:00"
+* #1.2.250.1.213.1.1.1.12.5 ^property[+].code = #status
+* #1.2.250.1.213.1.1.1.12.5 ^property[=].valueCode = #active
 * #1.2.250.1.213.1.1.1.13 "Synthèse médicale"
 * #1.2.250.1.213.1.1.1.13 ^designation[0].language = #fr-FR
 * #1.2.250.1.213.1.1.1.13 ^designation[=].use.system = "http://snomed.info/sct"
@@ -90,6 +117,8 @@ Description: "Identifiant des modèles de CDA structurés"
 * #1.2.250.1.213.1.1.1.13 ^property[=].valueDateTime = "2016-09-01T00:00:00+01:00"
 * #1.2.250.1.213.1.1.1.13 ^property[+].code = #dateMaj
 * #1.2.250.1.213.1.1.1.13 ^property[=].valueDateTime = "2017-10-13T12:00:00+01:00"
+* #1.2.250.1.213.1.1.1.13 ^property[+].code = #status
+* #1.2.250.1.213.1.1.1.13 ^property[=].valueCode = #active
 * #1.2.250.1.213.1.1.1.15 "Fiche d'admission en unité neuro-vasculaire"
 * #1.2.250.1.213.1.1.1.15 ^designation[0].language = #fr-FR
 * #1.2.250.1.213.1.1.1.15 ^designation[=].use.system = "http://snomed.info/sct"
@@ -99,6 +128,8 @@ Description: "Identifiant des modèles de CDA structurés"
 * #1.2.250.1.213.1.1.1.15 ^property[=].valueDateTime = "2016-09-01T00:00:00+01:00"
 * #1.2.250.1.213.1.1.1.15 ^property[+].code = #dateMaj
 * #1.2.250.1.213.1.1.1.15 ^property[=].valueDateTime = "2017-10-13T12:00:00+01:00"
+* #1.2.250.1.213.1.1.1.15 ^property[+].code = #status
+* #1.2.250.1.213.1.1.1.15 ^property[=].valueCode = #active
 * #1.2.250.1.213.1.1.1.16 "Fiche d'épisode de soin en unité neuro-vasculaire"
 * #1.2.250.1.213.1.1.1.16 ^designation[0].language = #fr-FR
 * #1.2.250.1.213.1.1.1.16 ^designation[=].use.system = "http://snomed.info/sct"
@@ -108,6 +139,8 @@ Description: "Identifiant des modèles de CDA structurés"
 * #1.2.250.1.213.1.1.1.16 ^property[=].valueDateTime = "2016-09-01T00:00:00+01:00"
 * #1.2.250.1.213.1.1.1.16 ^property[+].code = #dateMaj
 * #1.2.250.1.213.1.1.1.16 ^property[=].valueDateTime = "2017-10-13T12:00:00+01:00"
+* #1.2.250.1.213.1.1.1.16 ^property[+].code = #status
+* #1.2.250.1.213.1.1.1.16 ^property[=].valueCode = #active
 * #1.2.250.1.213.1.1.1.17 "Fiche de sortie d'unité neuro-vasculaire"
 * #1.2.250.1.213.1.1.1.17 ^designation[0].language = #fr-FR
 * #1.2.250.1.213.1.1.1.17 ^designation[=].use.system = "http://snomed.info/sct"
@@ -117,6 +150,8 @@ Description: "Identifiant des modèles de CDA structurés"
 * #1.2.250.1.213.1.1.1.17 ^property[=].valueDateTime = "2016-09-01T00:00:00+01:00"
 * #1.2.250.1.213.1.1.1.17 ^property[+].code = #dateMaj
 * #1.2.250.1.213.1.1.1.17 ^property[=].valueDateTime = "2021-09-24T12:00:00+01:00"
+* #1.2.250.1.213.1.1.1.17 ^property[+].code = #status
+* #1.2.250.1.213.1.1.1.17 ^property[=].valueCode = #active
 * #1.2.250.1.213.1.1.1.18 "Compte-rendu de rétinographie"
 * #1.2.250.1.213.1.1.1.18 ^designation[0].language = #fr-FR
 * #1.2.250.1.213.1.1.1.18 ^designation[=].use.system = "http://snomed.info/sct"
@@ -126,6 +161,8 @@ Description: "Identifiant des modèles de CDA structurés"
 * #1.2.250.1.213.1.1.1.18 ^property[=].valueDateTime = "2016-09-01T00:00:00+01:00"
 * #1.2.250.1.213.1.1.1.18 ^property[+].code = #dateMaj
 * #1.2.250.1.213.1.1.1.18 ^property[=].valueDateTime = "2017-10-13T12:00:00+01:00"
+* #1.2.250.1.213.1.1.1.18 ^property[+].code = #status
+* #1.2.250.1.213.1.1.1.18 ^property[=].valueCode = #active
 * #1.2.250.1.213.1.1.1.2.1.1 "Fiche patient à risque en cardiologie - Traitement AVK"
 * #1.2.250.1.213.1.1.1.2.1.1 ^designation[0].language = #fr-FR
 * #1.2.250.1.213.1.1.1.2.1.1 ^designation[=].use.system = "http://snomed.info/sct"
@@ -135,6 +172,8 @@ Description: "Identifiant des modèles de CDA structurés"
 * #1.2.250.1.213.1.1.1.2.1.1 ^property[=].valueDateTime = "2016-09-01T00:00:00+01:00"
 * #1.2.250.1.213.1.1.1.2.1.1 ^property[+].code = #dateMaj
 * #1.2.250.1.213.1.1.1.2.1.1 ^property[=].valueDateTime = "2017-10-13T12:00:00+01:00"
+* #1.2.250.1.213.1.1.1.2.1.1 ^property[+].code = #status
+* #1.2.250.1.213.1.1.1.2.1.1 ^property[=].valueCode = #active
 * #1.2.250.1.213.1.1.1.2.1.2 "Fiche patient à risque en cardiologie - Trait. antiagrég. plaquettaire, stent"
 * #1.2.250.1.213.1.1.1.2.1.2 ^designation[0].language = #fr-FR
 * #1.2.250.1.213.1.1.1.2.1.2 ^designation[=].use.system = "http://snomed.info/sct"
@@ -148,6 +187,8 @@ Description: "Identifiant des modèles de CDA structurés"
 * #1.2.250.1.213.1.1.1.2.1.2 ^property[=].valueDateTime = "2016-09-01T00:00:00+01:00"
 * #1.2.250.1.213.1.1.1.2.1.2 ^property[+].code = #dateMaj
 * #1.2.250.1.213.1.1.1.2.1.2 ^property[=].valueDateTime = "2017-10-13T12:00:00+01:00"
+* #1.2.250.1.213.1.1.1.2.1.2 ^property[+].code = #status
+* #1.2.250.1.213.1.1.1.2.1.2 ^property[=].valueCode = #active
 * #1.2.250.1.213.1.1.1.2.1.3 "Fiche patient à risque en cardiologie - Défibrillateur cardiaque interne"
 * #1.2.250.1.213.1.1.1.2.1.3 ^designation[0].language = #fr-FR
 * #1.2.250.1.213.1.1.1.2.1.3 ^designation[=].use.system = "http://snomed.info/sct"
@@ -157,6 +198,8 @@ Description: "Identifiant des modèles de CDA structurés"
 * #1.2.250.1.213.1.1.1.2.1.3 ^property[=].valueDateTime = "2016-09-01T00:00:00+01:00"
 * #1.2.250.1.213.1.1.1.2.1.3 ^property[+].code = #dateMaj
 * #1.2.250.1.213.1.1.1.2.1.3 ^property[=].valueDateTime = "2017-10-13T12:00:00+01:00"
+* #1.2.250.1.213.1.1.1.2.1.3 ^property[+].code = #status
+* #1.2.250.1.213.1.1.1.2.1.3 ^property[=].valueCode = #active
 * #1.2.250.1.213.1.1.1.2.1.4 "Fiche patient à risque en cardiologie - Porteur d'un stimulateur cardiaque"
 * #1.2.250.1.213.1.1.1.2.1.4 ^designation[0].language = #fr-FR
 * #1.2.250.1.213.1.1.1.2.1.4 ^designation[=].use.system = "http://snomed.info/sct"
@@ -166,6 +209,8 @@ Description: "Identifiant des modèles de CDA structurés"
 * #1.2.250.1.213.1.1.1.2.1.4 ^property[=].valueDateTime = "2016-09-01T00:00:00+01:00"
 * #1.2.250.1.213.1.1.1.2.1.4 ^property[+].code = #dateMaj
 * #1.2.250.1.213.1.1.1.2.1.4 ^property[=].valueDateTime = "2017-10-13T12:00:00+01:00"
+* #1.2.250.1.213.1.1.1.2.1.4 ^property[+].code = #status
+* #1.2.250.1.213.1.1.1.2.1.4 ^property[=].valueCode = #active
 * #1.2.250.1.213.1.1.1.2.1.5 "Fiche patient à risque en cardiologie - Porteur d'une prothèse valvulaire"
 * #1.2.250.1.213.1.1.1.2.1.5 ^designation[0].language = #fr-FR
 * #1.2.250.1.213.1.1.1.2.1.5 ^designation[=].use.system = "http://snomed.info/sct"
@@ -175,6 +220,8 @@ Description: "Identifiant des modèles de CDA structurés"
 * #1.2.250.1.213.1.1.1.2.1.5 ^property[=].valueDateTime = "2016-09-01T00:00:00+01:00"
 * #1.2.250.1.213.1.1.1.2.1.5 ^property[+].code = #dateMaj
 * #1.2.250.1.213.1.1.1.2.1.5 ^property[=].valueDateTime = "2017-10-13T12:00:00+01:00"
+* #1.2.250.1.213.1.1.1.2.1.5 ^property[+].code = #status
+* #1.2.250.1.213.1.1.1.2.1.5 ^property[=].valueCode = #active
 * #1.2.250.1.213.1.1.1.20 "Plan Personnalisé de Santé - PAERPA"
 * #1.2.250.1.213.1.1.1.20 ^designation[0].language = #fr-FR
 * #1.2.250.1.213.1.1.1.20 ^designation[=].use.system = "http://snomed.info/sct"
@@ -184,6 +231,8 @@ Description: "Identifiant des modèles de CDA structurés"
 * #1.2.250.1.213.1.1.1.20 ^property[=].valueDateTime = "2017-07-07T10:00:00+01:00"
 * #1.2.250.1.213.1.1.1.20 ^property[+].code = #dateMaj
 * #1.2.250.1.213.1.1.1.20 ^property[=].valueDateTime = "2017-07-07T10:00:00+01:00"
+* #1.2.250.1.213.1.1.1.20 ^property[+].code = #status
+* #1.2.250.1.213.1.1.1.20 ^property[=].valueCode = #active
 * #1.2.250.1.213.1.1.1.21 "Lettre de Liaison à l'entrée d'un établissement de santé"
 * #1.2.250.1.213.1.1.1.21 ^designation[0].language = #fr-FR
 * #1.2.250.1.213.1.1.1.21 ^designation[=].use.system = "http://snomed.info/sct"
@@ -193,6 +242,8 @@ Description: "Identifiant des modèles de CDA structurés"
 * #1.2.250.1.213.1.1.1.21 ^property[=].valueDateTime = "2017-07-07T10:00:00+01:00"
 * #1.2.250.1.213.1.1.1.21 ^property[+].code = #dateMaj
 * #1.2.250.1.213.1.1.1.21 ^property[=].valueDateTime = "2017-07-07T10:00:00+01:00"
+* #1.2.250.1.213.1.1.1.21 ^property[+].code = #status
+* #1.2.250.1.213.1.1.1.21 ^property[=].valueCode = #active
 * #1.2.250.1.213.1.1.1.22 "Document de liaison d'urgence"
 * #1.2.250.1.213.1.1.1.22 ^designation[0].language = #fr-FR
 * #1.2.250.1.213.1.1.1.22 ^designation[=].use.system = "http://snomed.info/sct"
@@ -202,6 +253,8 @@ Description: "Identifiant des modèles de CDA structurés"
 * #1.2.250.1.213.1.1.1.22 ^property[=].valueDateTime = "2017-07-07T10:00:00+01:00"
 * #1.2.250.1.213.1.1.1.22 ^property[+].code = #dateMaj
 * #1.2.250.1.213.1.1.1.22 ^property[=].valueDateTime = "2017-07-07T10:00:00+01:00"
+* #1.2.250.1.213.1.1.1.22 ^property[+].code = #status
+* #1.2.250.1.213.1.1.1.22 ^property[=].valueCode = #active
 * #1.2.250.1.213.1.1.1.23 "Fiche de liaison d'urgence -Transfert de l'EHPAD vers les urgences"
 * #1.2.250.1.213.1.1.1.23 ^designation[0].language = #fr-FR
 * #1.2.250.1.213.1.1.1.23 ^designation[=].use.system = "http://snomed.info/sct"
@@ -211,6 +264,8 @@ Description: "Identifiant des modèles de CDA structurés"
 * #1.2.250.1.213.1.1.1.23 ^property[=].valueDateTime = "2017-07-07T10:00:00+01:00"
 * #1.2.250.1.213.1.1.1.23 ^property[+].code = #dateMaj
 * #1.2.250.1.213.1.1.1.23 ^property[=].valueDateTime = "2017-07-07T10:00:00+01:00"
+* #1.2.250.1.213.1.1.1.23 ^property[+].code = #status
+* #1.2.250.1.213.1.1.1.23 ^property[=].valueCode = #active
 * #1.2.250.1.213.1.1.1.24 "Fiche de liaison d'urgence - Retour des urgences vers l'EHPAD"
 * #1.2.250.1.213.1.1.1.24 ^designation[0].language = #fr-FR
 * #1.2.250.1.213.1.1.1.24 ^designation[=].use.system = "http://snomed.info/sct"
@@ -220,6 +275,8 @@ Description: "Identifiant des modèles de CDA structurés"
 * #1.2.250.1.213.1.1.1.24 ^property[=].valueDateTime = "2017-07-07T10:00:00+01:00"
 * #1.2.250.1.213.1.1.1.24 ^property[+].code = #dateMaj
 * #1.2.250.1.213.1.1.1.24 ^property[=].valueDateTime = "2017-07-07T10:00:00+01:00"
+* #1.2.250.1.213.1.1.1.24 ^property[+].code = #status
+* #1.2.250.1.213.1.1.1.24 ^property[=].valueCode = #active
 * #1.2.250.1.213.1.1.1.25 "CR consultation d'évaluation pluri-professionnelle post AVC"
 * #1.2.250.1.213.1.1.1.25 ^designation[0].language = #fr-FR
 * #1.2.250.1.213.1.1.1.25 ^designation[=].use.system = "http://snomed.info/sct"
@@ -233,6 +290,8 @@ Description: "Identifiant des modèles de CDA structurés"
 * #1.2.250.1.213.1.1.1.25 ^property[=].valueDateTime = "2017-07-07T10:00:00+01:00"
 * #1.2.250.1.213.1.1.1.25 ^property[+].code = #dateMaj
 * #1.2.250.1.213.1.1.1.25 ^property[=].valueDateTime = "2017-07-07T10:00:00+01:00"
+* #1.2.250.1.213.1.1.1.25 ^property[+].code = #status
+* #1.2.250.1.213.1.1.1.25 ^property[=].valueCode = #active
 * #1.2.250.1.213.1.1.1.26 "Programme Personnalisé de Soins - Cancer"
 * #1.2.250.1.213.1.1.1.26 ^designation[0].language = #fr-FR
 * #1.2.250.1.213.1.1.1.26 ^designation[=].use.system = "http://snomed.info/sct"
@@ -242,6 +301,8 @@ Description: "Identifiant des modèles de CDA structurés"
 * #1.2.250.1.213.1.1.1.26 ^property[=].valueDateTime = "2017-07-07T10:00:00+01:00"
 * #1.2.250.1.213.1.1.1.26 ^property[+].code = #dateMaj
 * #1.2.250.1.213.1.1.1.26 ^property[=].valueDateTime = "2017-07-07T10:00:00+01:00"
+* #1.2.250.1.213.1.1.1.26 ^property[+].code = #status
+* #1.2.250.1.213.1.1.1.26 ^property[=].valueCode = #active
 * #1.2.250.1.213.1.1.1.27 "D2LM - Fiche d'interprétation nationale"
 * #1.2.250.1.213.1.1.1.27 ^designation[0].language = #fr-FR
 * #1.2.250.1.213.1.1.1.27 ^designation[=].use.system = "http://snomed.info/sct"
@@ -255,6 +316,8 @@ Description: "Identifiant des modèles de CDA structurés"
 * #1.2.250.1.213.1.1.1.27 ^property[=].valueDateTime = "2017-07-07T10:00:00+01:00"
 * #1.2.250.1.213.1.1.1.27 ^property[+].code = #dateMaj
 * #1.2.250.1.213.1.1.1.27 ^property[=].valueDateTime = "2017-10-13T12:00:00+01:00"
+* #1.2.250.1.213.1.1.1.27 ^property[+].code = #status
+* #1.2.250.1.213.1.1.1.27 ^property[=].valueCode = #active
 * #1.2.250.1.213.1.1.1.28 "D2LM - Fiche d'interprétation du bilan de diagnostic différé"
 * #1.2.250.1.213.1.1.1.28 ^designation[0].language = #fr-FR
 * #1.2.250.1.213.1.1.1.28 ^designation[=].use.system = "http://snomed.info/sct"
@@ -267,6 +330,8 @@ Description: "Identifiant des modèles de CDA structurés"
 * #1.2.250.1.213.1.1.1.28 ^property[=].valueDateTime = "2017-07-07T10:00:00+01:00"
 * #1.2.250.1.213.1.1.1.28 ^property[+].code = #dateMaj
 * #1.2.250.1.213.1.1.1.28 ^property[=].valueDateTime = "2017-10-13T12:00:00+01:00"
+* #1.2.250.1.213.1.1.1.28 ^property[+].code = #status
+* #1.2.250.1.213.1.1.1.28 ^property[=].valueCode = #active
 * #1.2.250.1.213.1.1.1.29 "Lettre de Liaison à la sortie de l'établissement de santé"
 * #1.2.250.1.213.1.1.1.29 ^designation[0].language = #fr-FR
 * #1.2.250.1.213.1.1.1.29 ^designation[=].use.system = "http://snomed.info/sct"
@@ -276,6 +341,8 @@ Description: "Identifiant des modèles de CDA structurés"
 * #1.2.250.1.213.1.1.1.29 ^property[=].valueDateTime = "2017-07-07T10:00:00+01:00"
 * #1.2.250.1.213.1.1.1.29 ^property[+].code = #dateMaj
 * #1.2.250.1.213.1.1.1.29 ^property[=].valueDateTime = "2017-07-07T10:00:00+01:00"
+* #1.2.250.1.213.1.1.1.29 ^property[+].code = #status
+* #1.2.250.1.213.1.1.1.29 ^property[=].valueCode = #active
 * #1.2.250.1.213.1.1.1.3.1 "Compte rendu d'hospitalisation"
 * #1.2.250.1.213.1.1.1.3.1 ^designation[0].language = #fr-FR
 * #1.2.250.1.213.1.1.1.3.1 ^designation[=].use.system = "http://snomed.info/sct"
@@ -287,6 +354,10 @@ Description: "Identifiant des modèles de CDA structurés"
 * #1.2.250.1.213.1.1.1.3.1 ^property[=].valueDateTime = "2017-07-07T10:00:00+01:00"
 * #1.2.250.1.213.1.1.1.3.1 ^property[+].code = #dateMaj
 * #1.2.250.1.213.1.1.1.3.1 ^property[=].valueDateTime = "2017-10-13T12:00:00+01:00"
+* #1.2.250.1.213.1.1.1.3.1 ^property[+].code = #deprecationDate
+* #1.2.250.1.213.1.1.1.3.1 ^property[=].valueDateTime = "2017-07-07T10:00:00+01:00"
+* #1.2.250.1.213.1.1.1.3.1 ^property[+].code = #status
+* #1.2.250.1.213.1.1.1.3.1 ^property[=].valueCode = #deprecated
 * #1.2.250.1.213.1.1.1.30 "Set de Données Minimum - Maladies Rares"
 * #1.2.250.1.213.1.1.1.30 ^designation[0].language = #fr-FR
 * #1.2.250.1.213.1.1.1.30 ^designation[=].use.system = "http://snomed.info/sct"
@@ -296,6 +367,8 @@ Description: "Identifiant des modèles de CDA structurés"
 * #1.2.250.1.213.1.1.1.30 ^property[=].valueDateTime = "2017-07-07T10:00:00+01:00"
 * #1.2.250.1.213.1.1.1.30 ^property[+].code = #dateMaj
 * #1.2.250.1.213.1.1.1.30 ^property[=].valueDateTime = "2017-07-07T10:00:00+01:00"
+* #1.2.250.1.213.1.1.1.30 ^property[+].code = #status
+* #1.2.250.1.213.1.1.1.30 ^property[=].valueCode = #active
 * #1.2.250.1.213.1.1.1.32 "Compte rendu de génétique moléculaire"
 * #1.2.250.1.213.1.1.1.32 ^designation[0].language = #fr-FR
 * #1.2.250.1.213.1.1.1.32 ^designation[=].use.system = "http://snomed.info/sct"
@@ -305,6 +378,8 @@ Description: "Identifiant des modèles de CDA structurés"
 * #1.2.250.1.213.1.1.1.32 ^property[=].valueDateTime = "2018-09-28T12:00:00+01:00"
 * #1.2.250.1.213.1.1.1.32 ^property[+].code = #dateMaj
 * #1.2.250.1.213.1.1.1.32 ^property[=].valueDateTime = "2018-09-28T12:00:00+01:00"
+* #1.2.250.1.213.1.1.1.32 ^property[+].code = #status
+* #1.2.250.1.213.1.1.1.32 ^property[=].valueCode = #active
 * #1.2.250.1.213.1.1.1.36 "Historique des remboursements"
 * #1.2.250.1.213.1.1.1.36 ^designation[0].language = #fr-FR
 * #1.2.250.1.213.1.1.1.36 ^designation[=].use.system = "http://snomed.info/sct"
@@ -314,6 +389,8 @@ Description: "Identifiant des modèles de CDA structurés"
 * #1.2.250.1.213.1.1.1.36 ^property[=].valueDateTime = "2019-10-25T12:00:00+01:00"
 * #1.2.250.1.213.1.1.1.36 ^property[+].code = #dateMaj
 * #1.2.250.1.213.1.1.1.36 ^property[=].valueDateTime = "2019-10-25T12:00:00+01:00"
+* #1.2.250.1.213.1.1.1.36 ^property[+].code = #status
+* #1.2.250.1.213.1.1.1.36 ^property[=].valueCode = #active
 * #1.2.250.1.213.1.1.1.37 "Historique des vaccinations"
 * #1.2.250.1.213.1.1.1.37 ^designation[0].language = #fr-FR
 * #1.2.250.1.213.1.1.1.37 ^designation[=].use.system = "http://snomed.info/sct"
@@ -323,6 +400,8 @@ Description: "Identifiant des modèles de CDA structurés"
 * #1.2.250.1.213.1.1.1.37 ^property[=].valueDateTime = "2019-10-25T12:00:00+01:00"
 * #1.2.250.1.213.1.1.1.37 ^property[+].code = #dateMaj
 * #1.2.250.1.213.1.1.1.37 ^property[=].valueDateTime = "2022-09-30T12:00:00+01:00"
+* #1.2.250.1.213.1.1.1.37 ^property[+].code = #status
+* #1.2.250.1.213.1.1.1.37 ^property[=].valueCode = #active
 * #1.2.250.1.213.1.1.1.38 "Demande d'acte de télémédecine"
 * #1.2.250.1.213.1.1.1.38 ^designation[0].language = #fr-FR
 * #1.2.250.1.213.1.1.1.38 ^designation[=].use.system = "http://snomed.info/sct"
@@ -332,6 +411,8 @@ Description: "Identifiant des modèles de CDA structurés"
 * #1.2.250.1.213.1.1.1.38 ^property[=].valueDateTime = "2020-01-31T12:00:00+01:00"
 * #1.2.250.1.213.1.1.1.38 ^property[+].code = #dateMaj
 * #1.2.250.1.213.1.1.1.38 ^property[=].valueDateTime = "2020-01-31T12:00:00+01:00"
+* #1.2.250.1.213.1.1.1.38 ^property[+].code = #status
+* #1.2.250.1.213.1.1.1.38 ^property[=].valueCode = #active
 * #1.2.250.1.213.1.1.1.39 "Prescription de médicaments"
 * #1.2.250.1.213.1.1.1.39 ^designation[0].language = #fr-FR
 * #1.2.250.1.213.1.1.1.39 ^designation[=].use.system = "http://snomed.info/sct"
@@ -341,6 +422,8 @@ Description: "Identifiant des modèles de CDA structurés"
 * #1.2.250.1.213.1.1.1.39 ^property[=].valueDateTime = "2020-12-17T12:00:00+01:00"
 * #1.2.250.1.213.1.1.1.39 ^property[+].code = #dateMaj
 * #1.2.250.1.213.1.1.1.39 ^property[=].valueDateTime = "2020-12-17T12:00:00+01:00"
+* #1.2.250.1.213.1.1.1.39 ^property[+].code = #status
+* #1.2.250.1.213.1.1.1.39 ^property[=].valueCode = #active
 * #1.2.250.1.213.1.1.1.40 "Compte rendu d'anesthésie"
 * #1.2.250.1.213.1.1.1.40 ^designation[0].language = #fr-FR
 * #1.2.250.1.213.1.1.1.40 ^designation[=].use.system = "http://snomed.info/sct"
@@ -350,6 +433,8 @@ Description: "Identifiant des modèles de CDA structurés"
 * #1.2.250.1.213.1.1.1.40 ^property[=].valueDateTime = "2020-12-17T12:00:00+01:00"
 * #1.2.250.1.213.1.1.1.40 ^property[+].code = #dateMaj
 * #1.2.250.1.213.1.1.1.40 ^property[=].valueDateTime = "2020-12-17T12:00:00+01:00"
+* #1.2.250.1.213.1.1.1.40 ^property[+].code = #status
+* #1.2.250.1.213.1.1.1.40 ^property[=].valueCode = #active
 * #1.2.250.1.213.1.1.1.41 "Compte rendu de consultation pré-anesthésique"
 * #1.2.250.1.213.1.1.1.41 ^designation[0].language = #fr-FR
 * #1.2.250.1.213.1.1.1.41 ^designation[=].use.system = "http://snomed.info/sct"
@@ -359,6 +444,8 @@ Description: "Identifiant des modèles de CDA structurés"
 * #1.2.250.1.213.1.1.1.41 ^property[=].valueDateTime = "2020-12-17T12:00:00+01:00"
 * #1.2.250.1.213.1.1.1.41 ^property[+].code = #dateMaj
 * #1.2.250.1.213.1.1.1.41 ^property[=].valueDateTime = "2020-12-17T12:00:00+01:00"
+* #1.2.250.1.213.1.1.1.41 ^property[+].code = #status
+* #1.2.250.1.213.1.1.1.41 ^property[=].valueCode = #active
 * #1.2.250.1.213.1.1.1.42 "CR de consultation en ophtalmologie - Bilan de réfraction"
 * #1.2.250.1.213.1.1.1.42 ^designation[0].language = #fr-FR
 * #1.2.250.1.213.1.1.1.42 ^designation[=].use.system = "http://snomed.info/sct"
@@ -368,6 +455,8 @@ Description: "Identifiant des modèles de CDA structurés"
 * #1.2.250.1.213.1.1.1.42 ^property[=].valueDateTime = "2020-12-17T12:00:00+01:00"
 * #1.2.250.1.213.1.1.1.42 ^property[+].code = #dateMaj
 * #1.2.250.1.213.1.1.1.42 ^property[=].valueDateTime = "2020-12-17T12:00:00+01:00"
+* #1.2.250.1.213.1.1.1.42 ^property[+].code = #status
+* #1.2.250.1.213.1.1.1.42 ^property[=].valueCode = #active
 * #1.2.250.1.213.1.1.1.43 "CR de consultation en ophtalmologie - Bilan cataracte"
 * #1.2.250.1.213.1.1.1.43 ^designation[0].language = #fr-FR
 * #1.2.250.1.213.1.1.1.43 ^designation[=].use.system = "http://snomed.info/sct"
@@ -377,6 +466,8 @@ Description: "Identifiant des modèles de CDA structurés"
 * #1.2.250.1.213.1.1.1.43 ^property[=].valueDateTime = "2020-12-17T12:00:00+01:00"
 * #1.2.250.1.213.1.1.1.43 ^property[+].code = #dateMaj
 * #1.2.250.1.213.1.1.1.43 ^property[=].valueDateTime = "2020-12-17T12:00:00+01:00"
+* #1.2.250.1.213.1.1.1.43 ^property[+].code = #status
+* #1.2.250.1.213.1.1.1.43 ^property[=].valueCode = #active
 * #1.2.250.1.213.1.1.1.44 "CR de consultation en ophtalmologie - Bilan DMLA"
 * #1.2.250.1.213.1.1.1.44 ^designation[0].language = #fr-FR
 * #1.2.250.1.213.1.1.1.44 ^designation[=].use.system = "http://snomed.info/sct"
@@ -386,6 +477,8 @@ Description: "Identifiant des modèles de CDA structurés"
 * #1.2.250.1.213.1.1.1.44 ^property[=].valueDateTime = "2020-12-17T12:00:00+01:00"
 * #1.2.250.1.213.1.1.1.44 ^property[+].code = #dateMaj
 * #1.2.250.1.213.1.1.1.44 ^property[=].valueDateTime = "2020-12-17T12:00:00+01:00"
+* #1.2.250.1.213.1.1.1.44 ^property[+].code = #status
+* #1.2.250.1.213.1.1.1.44 ^property[=].valueCode = #active
 * #1.2.250.1.213.1.1.1.45 "Compte-rendu d'imagerie médicale"
 * #1.2.250.1.213.1.1.1.45 ^designation[0].language = #fr-FR
 * #1.2.250.1.213.1.1.1.45 ^designation[=].use.system = "http://snomed.info/sct"
@@ -395,6 +488,8 @@ Description: "Identifiant des modèles de CDA structurés"
 * #1.2.250.1.213.1.1.1.45 ^property[=].valueDateTime = "2021-04-30T12:00:00+01:00"
 * #1.2.250.1.213.1.1.1.45 ^property[+].code = #dateMaj
 * #1.2.250.1.213.1.1.1.45 ^property[=].valueDateTime = "2021-04-30T12:00:00+01:00"
+* #1.2.250.1.213.1.1.1.45 ^property[+].code = #status
+* #1.2.250.1.213.1.1.1.45 ^property[=].valueCode = #active
 * #1.2.250.1.213.1.1.1.46 "Note de vaccination"
 * #1.2.250.1.213.1.1.1.46 ^designation[0].language = #fr-FR
 * #1.2.250.1.213.1.1.1.46 ^designation[=].use.system = "http://snomed.info/sct"
@@ -404,6 +499,8 @@ Description: "Identifiant des modèles de CDA structurés"
 * #1.2.250.1.213.1.1.1.46 ^property[=].valueDateTime = "2021-04-30T12:00:00+01:00"
 * #1.2.250.1.213.1.1.1.46 ^property[+].code = #dateMaj
 * #1.2.250.1.213.1.1.1.46 ^property[=].valueDateTime = "2021-04-30T12:00:00+01:00"
+* #1.2.250.1.213.1.1.1.46 ^property[+].code = #status
+* #1.2.250.1.213.1.1.1.46 ^property[=].valueCode = #active
 * #1.2.250.1.213.1.1.1.47 "Demande d'actes d'imagerie" "Demande d'actes d'imagerie"
 * #1.2.250.1.213.1.1.1.47 ^designation[0].language = #fr-FR
 * #1.2.250.1.213.1.1.1.47 ^designation[=].use.system = "http://snomed.info/sct"
@@ -413,6 +510,8 @@ Description: "Identifiant des modèles de CDA structurés"
 * #1.2.250.1.213.1.1.1.47 ^property[=].valueDateTime = "2021-12-17T12:00:00+01:00"
 * #1.2.250.1.213.1.1.1.47 ^property[+].code = #dateMaj
 * #1.2.250.1.213.1.1.1.47 ^property[=].valueDateTime = "2022-07-29T12:00:00+01:00"
+* #1.2.250.1.213.1.1.1.47 ^property[+].code = #status
+* #1.2.250.1.213.1.1.1.47 ^property[=].valueCode = #active
 * #1.2.250.1.213.1.1.1.48 "Document de liaison d'urgence DOM"
 * #1.2.250.1.213.1.1.1.48 ^designation[0].language = #fr-FR
 * #1.2.250.1.213.1.1.1.48 ^designation[=].use.system = "http://snomed.info/sct"
@@ -424,6 +523,10 @@ Description: "Identifiant des modèles de CDA structurés"
 * #1.2.250.1.213.1.1.1.48 ^property[=].valueDateTime = "2024-04-26T12:00:00+01:00"
 * #1.2.250.1.213.1.1.1.48 ^property[+].code = #dateMaj
 * #1.2.250.1.213.1.1.1.48 ^property[=].valueDateTime = "2024-04-26T12:00:00+01:00"
+* #1.2.250.1.213.1.1.1.48 ^property[+].code = #deprecationDate
+* #1.2.250.1.213.1.1.1.48 ^property[=].valueDateTime = "2024-04-26T12:00:00+01:00"
+* #1.2.250.1.213.1.1.1.48 ^property[+].code = #status
+* #1.2.250.1.213.1.1.1.48 ^property[=].valueCode = #deprecated
 * #1.2.250.1.213.1.1.1.49 "Fiche de liaison d'urgence -Transfert du domicile vers les urgences"
 * #1.2.250.1.213.1.1.1.49 ^designation[0].language = #fr-FR
 * #1.2.250.1.213.1.1.1.49 ^designation[=].use.system = "http://snomed.info/sct"
@@ -435,6 +538,10 @@ Description: "Identifiant des modèles de CDA structurés"
 * #1.2.250.1.213.1.1.1.49 ^property[=].valueDateTime = "2024-04-26T12:00:00+01:00"
 * #1.2.250.1.213.1.1.1.49 ^property[+].code = #dateMaj
 * #1.2.250.1.213.1.1.1.49 ^property[=].valueDateTime = "2024-04-26T12:00:00+01:00"
+* #1.2.250.1.213.1.1.1.49 ^property[+].code = #deprecationDate
+* #1.2.250.1.213.1.1.1.49 ^property[=].valueDateTime = "2024-04-26T12:00:00+01:00"
+* #1.2.250.1.213.1.1.1.49 ^property[+].code = #status
+* #1.2.250.1.213.1.1.1.49 ^property[=].valueCode = #deprecated
 * #1.2.250.1.213.1.1.1.56 "Plan personnalisé de prévention"
 * #1.2.250.1.213.1.1.1.56 ^designation[0].language = #fr-FR
 * #1.2.250.1.213.1.1.1.56 ^designation[=].use.system = "http://snomed.info/sct"
@@ -444,6 +551,8 @@ Description: "Identifiant des modèles de CDA structurés"
 * #1.2.250.1.213.1.1.1.56 ^property[=].valueDateTime = "2023-12-15T12:00:00+01:00"
 * #1.2.250.1.213.1.1.1.56 ^property[+].code = #dateMaj
 * #1.2.250.1.213.1.1.1.56 ^property[=].valueDateTime = "2023-12-15T12:00:00+01:00"
+* #1.2.250.1.213.1.1.1.56 ^property[+].code = #status
+* #1.2.250.1.213.1.1.1.56 ^property[=].valueCode = #active
 * #1.2.250.1.213.1.1.1.58 "Export du Dossier Usager informatisé"
 * #1.2.250.1.213.1.1.1.58 ^designation[0].language = #fr-FR
 * #1.2.250.1.213.1.1.1.58 ^designation[=].use.system = "http://snomed.info/sct"
@@ -453,6 +562,8 @@ Description: "Identifiant des modèles de CDA structurés"
 * #1.2.250.1.213.1.1.1.58 ^property[=].valueDateTime = "2023-12-15T12:00:00+01:00"
 * #1.2.250.1.213.1.1.1.58 ^property[+].code = #dateMaj
 * #1.2.250.1.213.1.1.1.58 ^property[=].valueDateTime = "2023-12-15T12:00:00+01:00"
+* #1.2.250.1.213.1.1.1.58 ^property[+].code = #status
+* #1.2.250.1.213.1.1.1.58 ^property[=].valueCode = #active
 * #1.2.250.1.213.1.1.1.59 "Test rapide d'orientation diagnostique"
 * #1.2.250.1.213.1.1.1.59 ^designation[0].language = #fr-FR
 * #1.2.250.1.213.1.1.1.59 ^designation[=].use.system = "http://snomed.info/sct"
@@ -462,6 +573,8 @@ Description: "Identifiant des modèles de CDA structurés"
 * #1.2.250.1.213.1.1.1.59 ^property[=].valueDateTime = "2024-07-26T12:00:00+01:00"
 * #1.2.250.1.213.1.1.1.59 ^property[+].code = #dateMaj
 * #1.2.250.1.213.1.1.1.59 ^property[=].valueDateTime = "2024-07-26T12:00:00+01:00"
+* #1.2.250.1.213.1.1.1.59 ^property[+].code = #status
+* #1.2.250.1.213.1.1.1.59 ^property[=].valueCode = #active
 * #1.2.250.1.213.1.1.1.5.1 "Certificat de santé du 8ème jour de l'enfant"
 * #1.2.250.1.213.1.1.1.5.1 ^designation[0].language = #fr-FR
 * #1.2.250.1.213.1.1.1.5.1 ^designation[=].use.system = "http://snomed.info/sct"
@@ -471,6 +584,8 @@ Description: "Identifiant des modèles de CDA structurés"
 * #1.2.250.1.213.1.1.1.5.1 ^property[=].valueDateTime = "2016-09-01T00:00:00+01:00"
 * #1.2.250.1.213.1.1.1.5.1 ^property[+].code = #dateMaj
 * #1.2.250.1.213.1.1.1.5.1 ^property[=].valueDateTime = "2017-10-13T12:00:00+01:00"
+* #1.2.250.1.213.1.1.1.5.1 ^property[+].code = #status
+* #1.2.250.1.213.1.1.1.5.1 ^property[=].valueCode = #active
 * #1.2.250.1.213.1.1.1.5.2 "Certificat de santé du 9ème mois de l'enfant"
 * #1.2.250.1.213.1.1.1.5.2 ^designation[0].language = #fr-FR
 * #1.2.250.1.213.1.1.1.5.2 ^designation[=].use.system = "http://snomed.info/sct"
@@ -480,6 +595,8 @@ Description: "Identifiant des modèles de CDA structurés"
 * #1.2.250.1.213.1.1.1.5.2 ^property[=].valueDateTime = "2016-09-01T00:00:00+01:00"
 * #1.2.250.1.213.1.1.1.5.2 ^property[+].code = #dateMaj
 * #1.2.250.1.213.1.1.1.5.2 ^property[=].valueDateTime = "2017-10-13T12:00:00+01:00"
+* #1.2.250.1.213.1.1.1.5.2 ^property[+].code = #status
+* #1.2.250.1.213.1.1.1.5.2 ^property[=].valueCode = #active
 * #1.2.250.1.213.1.1.1.5.3 "Certificat de santé du 24ème mois de l'enfant"
 * #1.2.250.1.213.1.1.1.5.3 ^designation[0].language = #fr-FR
 * #1.2.250.1.213.1.1.1.5.3 ^designation[=].use.system = "http://snomed.info/sct"
@@ -489,6 +606,8 @@ Description: "Identifiant des modèles de CDA structurés"
 * #1.2.250.1.213.1.1.1.5.3 ^property[=].valueDateTime = "2016-09-01T00:00:00+01:00"
 * #1.2.250.1.213.1.1.1.5.3 ^property[+].code = #dateMaj
 * #1.2.250.1.213.1.1.1.5.3 ^property[=].valueDateTime = "2017-10-13T12:00:00+01:00"
+* #1.2.250.1.213.1.1.1.5.3 ^property[+].code = #status
+* #1.2.250.1.213.1.1.1.5.3 ^property[=].valueCode = #active
 * #1.2.250.1.213.1.1.1.5.4 "Mesures de signes vitaux"
 * #1.2.250.1.213.1.1.1.5.4 ^designation[0].language = #fr-FR
 * #1.2.250.1.213.1.1.1.5.4 ^designation[=].use.system = "http://snomed.info/sct"
@@ -498,6 +617,8 @@ Description: "Identifiant des modèles de CDA structurés"
 * #1.2.250.1.213.1.1.1.5.4 ^property[=].valueDateTime = "2023-01-27T12:00:00+01:00"
 * #1.2.250.1.213.1.1.1.5.4 ^property[+].code = #dateMaj
 * #1.2.250.1.213.1.1.1.5.4 ^property[=].valueDateTime = "2023-01-27T12:00:00+01:00"
+* #1.2.250.1.213.1.1.1.5.4 ^property[+].code = #status
+* #1.2.250.1.213.1.1.1.5.4 ^property[=].valueCode = #active
 * #1.2.250.1.213.1.1.1.50 "Fiche de liaison d'urgence - Retour des urgences vers le domicile"
 * #1.2.250.1.213.1.1.1.50 ^designation[0].language = #fr-FR
 * #1.2.250.1.213.1.1.1.50 ^designation[=].use.system = "http://snomed.info/sct"
@@ -509,6 +630,10 @@ Description: "Identifiant des modèles de CDA structurés"
 * #1.2.250.1.213.1.1.1.50 ^property[=].valueDateTime = "2024-04-26T12:00:00+01:00"
 * #1.2.250.1.213.1.1.1.50 ^property[+].code = #dateMaj
 * #1.2.250.1.213.1.1.1.50 ^property[=].valueDateTime = "2024-04-26T12:00:00+01:00"
+* #1.2.250.1.213.1.1.1.50 ^property[+].code = #deprecationDate
+* #1.2.250.1.213.1.1.1.50 ^property[=].valueDateTime = "2024-04-26T12:00:00+01:00"
+* #1.2.250.1.213.1.1.1.50 ^property[+].code = #status
+* #1.2.250.1.213.1.1.1.50 ^property[=].valueCode = #deprecated
 * #1.2.250.1.213.1.1.1.51 "Synthèse médicale" "Synthèse médicale"
 * #1.2.250.1.213.1.1.1.51 ^designation[0].language = #fr-FR
 * #1.2.250.1.213.1.1.1.51 ^designation[=].use.system = "http://snomed.info/sct"
@@ -518,6 +643,8 @@ Description: "Identifiant des modèles de CDA structurés"
 * #1.2.250.1.213.1.1.1.51 ^property[=].valueDateTime = "2022-04-29T12:00:00+01:00"
 * #1.2.250.1.213.1.1.1.51 ^property[+].code = #dateMaj
 * #1.2.250.1.213.1.1.1.51 ^property[=].valueDateTime = "2024-04-26T12:00:00+01:00"
+* #1.2.250.1.213.1.1.1.51 ^property[+].code = #status
+* #1.2.250.1.213.1.1.1.51 ^property[=].valueCode = #active
 * #1.2.250.1.213.1.1.1.52 "Prescription d'actes de biologie médicale" "Prescription d'actes de biologie médicale"
 * #1.2.250.1.213.1.1.1.52 ^designation[0].language = #fr-FR
 * #1.2.250.1.213.1.1.1.52 ^designation[=].use.system = "http://snomed.info/sct"
@@ -527,6 +654,8 @@ Description: "Identifiant des modèles de CDA structurés"
 * #1.2.250.1.213.1.1.1.52 ^property[=].valueDateTime = "2022-07-29T12:00:00+01:00"
 * #1.2.250.1.213.1.1.1.52 ^property[+].code = #dateMaj
 * #1.2.250.1.213.1.1.1.52 ^property[=].valueDateTime = "2022-07-29T12:00:00+01:00"
+* #1.2.250.1.213.1.1.1.52 ^property[+].code = #status
+* #1.2.250.1.213.1.1.1.52 ^property[=].valueCode = #active
 * #1.2.250.1.213.1.1.1.54 "Dispensation médicamenteuse"
 * #1.2.250.1.213.1.1.1.54 ^designation[0].language = #fr-FR
 * #1.2.250.1.213.1.1.1.54 ^designation[=].use.system = "http://snomed.info/sct"
@@ -536,6 +665,8 @@ Description: "Identifiant des modèles de CDA structurés"
 * #1.2.250.1.213.1.1.1.54 ^property[=].valueDateTime = "2023-02-17T12:00:00+01:00"
 * #1.2.250.1.213.1.1.1.54 ^property[+].code = #dateMaj
 * #1.2.250.1.213.1.1.1.54 ^property[=].valueDateTime = "2023-02-17T12:00:00+01:00"
+* #1.2.250.1.213.1.1.1.54 ^property[+].code = #status
+* #1.2.250.1.213.1.1.1.54 ^property[=].valueCode = #active
 * #1.2.250.1.213.1.1.1.55 "CR d'examens biologiques"
 * #1.2.250.1.213.1.1.1.55 ^designation[0].language = #fr-FR
 * #1.2.250.1.213.1.1.1.55 ^designation[=].use.system = "http://snomed.info/sct"
@@ -545,6 +676,8 @@ Description: "Identifiant des modèles de CDA structurés"
 * #1.2.250.1.213.1.1.1.55 ^property[=].valueDateTime = "2023-07-28T09:00:00+01:00"
 * #1.2.250.1.213.1.1.1.55 ^property[+].code = #dateMaj
 * #1.2.250.1.213.1.1.1.55 ^property[=].valueDateTime = "2023-07-28T09:00:00+01:00"
+* #1.2.250.1.213.1.1.1.55 ^property[+].code = #status
+* #1.2.250.1.213.1.1.1.55 ^property[=].valueCode = #active
 * #1.2.250.1.213.1.1.1.57 "CR d'anatomie et de cytologie pathologiques"
 * #1.2.250.1.213.1.1.1.57 ^designation[0].language = #fr-FR
 * #1.2.250.1.213.1.1.1.57 ^designation[=].use.system = "http://snomed.info/sct"
@@ -554,6 +687,8 @@ Description: "Identifiant des modèles de CDA structurés"
 * #1.2.250.1.213.1.1.1.57 ^property[=].valueDateTime = "2024-01-26T12:00:00+01:00"
 * #1.2.250.1.213.1.1.1.57 ^property[+].code = #dateMaj
 * #1.2.250.1.213.1.1.1.57 ^property[=].valueDateTime = "2024-01-26T12:00:00+01:00"
+* #1.2.250.1.213.1.1.1.57 ^property[+].code = #status
+* #1.2.250.1.213.1.1.1.57 ^property[=].valueCode = #active
 * #1.2.250.1.213.1.1.1.60 "Document de liaison d'urgence"
 * #1.2.250.1.213.1.1.1.60 ^designation[0].language = #fr-FR
 * #1.2.250.1.213.1.1.1.60 ^designation[=].use.system = "http://snomed.info/sct"
@@ -563,6 +698,8 @@ Description: "Identifiant des modèles de CDA structurés"
 * #1.2.250.1.213.1.1.1.60 ^property[=].valueDateTime = "2024-04-26T12:00:00+01:00"
 * #1.2.250.1.213.1.1.1.60 ^property[+].code = #dateMaj
 * #1.2.250.1.213.1.1.1.60 ^property[=].valueDateTime = "2024-04-26T12:00:00+01:00"
+* #1.2.250.1.213.1.1.1.60 ^property[+].code = #status
+* #1.2.250.1.213.1.1.1.60 ^property[=].valueCode = #active
 * #1.2.250.1.213.1.1.1.61 "Fiche de transfert vers le service des urgences"
 * #1.2.250.1.213.1.1.1.61 ^designation[0].language = #fr-FR
 * #1.2.250.1.213.1.1.1.61 ^designation[=].use.system = "http://snomed.info/sct"
@@ -572,6 +709,8 @@ Description: "Identifiant des modèles de CDA structurés"
 * #1.2.250.1.213.1.1.1.61 ^property[=].valueDateTime = "2024-04-26T12:00:00+01:00"
 * #1.2.250.1.213.1.1.1.61 ^property[+].code = #dateMaj
 * #1.2.250.1.213.1.1.1.61 ^property[=].valueDateTime = "2024-04-26T12:00:00+01:00"
+* #1.2.250.1.213.1.1.1.61 ^property[+].code = #status
+* #1.2.250.1.213.1.1.1.61 ^property[=].valueCode = #active
 * #1.2.250.1.213.1.1.1.62 "Fiche de retour du service des urgences"
 * #1.2.250.1.213.1.1.1.62 ^designation[0].language = #fr-FR
 * #1.2.250.1.213.1.1.1.62 ^designation[=].use.system = "http://snomed.info/sct"
@@ -581,6 +720,8 @@ Description: "Identifiant des modèles de CDA structurés"
 * #1.2.250.1.213.1.1.1.62 ^property[=].valueDateTime = "2024-04-26T12:00:00+01:00"
 * #1.2.250.1.213.1.1.1.62 ^property[+].code = #dateMaj
 * #1.2.250.1.213.1.1.1.62 ^property[=].valueDateTime = "2024-04-26T12:00:00+01:00"
+* #1.2.250.1.213.1.1.1.62 ^property[+].code = #status
+* #1.2.250.1.213.1.1.1.62 ^property[=].valueCode = #active
 * #1.2.250.1.213.1.1.1.8 "Fiche de réunion de concertation pluridisciplinaire"
 * #1.2.250.1.213.1.1.1.8 ^designation[0].language = #fr-FR
 * #1.2.250.1.213.1.1.1.8 ^designation[=].use.system = "http://snomed.info/sct"
@@ -590,6 +731,8 @@ Description: "Identifiant des modèles de CDA structurés"
 * #1.2.250.1.213.1.1.1.8 ^property[=].valueDateTime = "2016-09-01T00:00:00+01:00"
 * #1.2.250.1.213.1.1.1.8 ^property[+].code = #dateMaj
 * #1.2.250.1.213.1.1.1.8 ^property[=].valueDateTime = "2017-10-13T12:00:00+01:00"
+* #1.2.250.1.213.1.1.1.8 ^property[+].code = #status
+* #1.2.250.1.213.1.1.1.8 ^property[=].valueCode = #active
 * #1.2.250.1.213.1.1.1.9 "Document d'information et de directives anticipées du patient"
 * #1.2.250.1.213.1.1.1.9 ^designation[0].language = #fr-FR
 * #1.2.250.1.213.1.1.1.9 ^designation[=].use.system = "http://snomed.info/sct"
@@ -599,6 +742,8 @@ Description: "Identifiant des modèles de CDA structurés"
 * #1.2.250.1.213.1.1.1.9 ^property[=].valueDateTime = "2016-09-01T00:00:00+01:00"
 * #1.2.250.1.213.1.1.1.9 ^property[+].code = #dateMaj
 * #1.2.250.1.213.1.1.1.9 ^property[=].valueDateTime = "2020-01-31T12:00:00+01:00"
+* #1.2.250.1.213.1.1.1.9 ^property[+].code = #status
+* #1.2.250.1.213.1.1.1.9 ^property[=].valueCode = #active
 * #1.3.6.1.4.1.19376.1.3.3 "Compte rendu structuré d'examens de biologie médicale"
 * #1.3.6.1.4.1.19376.1.3.3 ^designation[0].language = #fr-FR
 * #1.3.6.1.4.1.19376.1.3.3 ^designation[=].use.system = "http://snomed.info/sct"
@@ -610,6 +755,10 @@ Description: "Identifiant des modèles de CDA structurés"
 * #1.3.6.1.4.1.19376.1.3.3 ^property[=].valueDateTime = "2023-07-28T09:00:00+01:00"
 * #1.3.6.1.4.1.19376.1.3.3 ^property[+].code = #dateMaj
 * #1.3.6.1.4.1.19376.1.3.3 ^property[=].valueDateTime = "2023-07-28T09:00:00+01:00"
+* #1.3.6.1.4.1.19376.1.3.3 ^property[+].code = #deprecationDate
+* #1.3.6.1.4.1.19376.1.3.3 ^property[=].valueDateTime = "2023-07-28T09:00:00+01:00"
+* #1.3.6.1.4.1.19376.1.3.3 ^property[+].code = #status
+* #1.3.6.1.4.1.19376.1.3.3 ^property[=].valueCode = #deprecated
 * #1.3.6.1.4.1.19376.1.8.1.1.1 "Compte rendu d'anatomie et de cytologie pathologiques - Modèle générique"
 * #1.3.6.1.4.1.19376.1.8.1.1.1 ^designation[0].language = #fr-FR
 * #1.3.6.1.4.1.19376.1.8.1.1.1 ^designation[=].use.system = "http://snomed.info/sct"
@@ -621,6 +770,10 @@ Description: "Identifiant des modèles de CDA structurés"
 * #1.3.6.1.4.1.19376.1.8.1.1.1 ^property[=].valueDateTime = "2024-01-26T12:00:00+01:00"
 * #1.3.6.1.4.1.19376.1.8.1.1.1 ^property[+].code = #dateMaj
 * #1.3.6.1.4.1.19376.1.8.1.1.1 ^property[=].valueDateTime = "2024-01-26T12:00:00+01:00"
+* #1.3.6.1.4.1.19376.1.8.1.1.1 ^property[+].code = #deprecationDate
+* #1.3.6.1.4.1.19376.1.8.1.1.1 ^property[=].valueDateTime = "2024-01-26T12:00:00+01:00"
+* #1.3.6.1.4.1.19376.1.8.1.1.1 ^property[+].code = #status
+* #1.3.6.1.4.1.19376.1.8.1.1.1 ^property[=].valueCode = #deprecated
 * #1.3.6.1.4.1.19376.1.8.1.1.2.1 "Compte rendu d'anatomie et de cytologie pathologiques - Sein"
 * #1.3.6.1.4.1.19376.1.8.1.1.2.1 ^designation[0].language = #fr-FR
 * #1.3.6.1.4.1.19376.1.8.1.1.2.1 ^designation[=].use.system = "http://snomed.info/sct"
@@ -632,6 +785,10 @@ Description: "Identifiant des modèles de CDA structurés"
 * #1.3.6.1.4.1.19376.1.8.1.1.2.1 ^property[=].valueDateTime = "2024-01-26T12:00:00+01:00"
 * #1.3.6.1.4.1.19376.1.8.1.1.2.1 ^property[+].code = #dateMaj
 * #1.3.6.1.4.1.19376.1.8.1.1.2.1 ^property[=].valueDateTime = "2024-01-26T12:00:00+01:00"
+* #1.3.6.1.4.1.19376.1.8.1.1.2.1 ^property[+].code = #deprecationDate
+* #1.3.6.1.4.1.19376.1.8.1.1.2.1 ^property[=].valueDateTime = "2024-01-26T12:00:00+01:00"
+* #1.3.6.1.4.1.19376.1.8.1.1.2.1 ^property[+].code = #status
+* #1.3.6.1.4.1.19376.1.8.1.1.2.1 ^property[=].valueCode = #deprecated
 * #1.3.6.1.4.1.19376.1.8.1.1.2.2 "Compte rendu d'anatomie et de cytologie pathologiques - Côlon"
 * #1.3.6.1.4.1.19376.1.8.1.1.2.2 ^designation[0].language = #fr-FR
 * #1.3.6.1.4.1.19376.1.8.1.1.2.2 ^designation[=].use.system = "http://snomed.info/sct"
@@ -643,6 +800,10 @@ Description: "Identifiant des modèles de CDA structurés"
 * #1.3.6.1.4.1.19376.1.8.1.1.2.2 ^property[=].valueDateTime = "2024-01-26T12:00:00+01:00"
 * #1.3.6.1.4.1.19376.1.8.1.1.2.2 ^property[+].code = #dateMaj
 * #1.3.6.1.4.1.19376.1.8.1.1.2.2 ^property[=].valueDateTime = "2024-01-26T12:00:00+01:00"
+* #1.3.6.1.4.1.19376.1.8.1.1.2.2 ^property[+].code = #deprecationDate
+* #1.3.6.1.4.1.19376.1.8.1.1.2.2 ^property[=].valueDateTime = "2024-01-26T12:00:00+01:00"
+* #1.3.6.1.4.1.19376.1.8.1.1.2.2 ^property[+].code = #status
+* #1.3.6.1.4.1.19376.1.8.1.1.2.2 ^property[=].valueCode = #deprecated
 * #1.3.6.1.4.1.19376.1.8.1.1.2.3 "Compte rendu d'anatomie et de cytologie pathologiques - Prostate"
 * #1.3.6.1.4.1.19376.1.8.1.1.2.3 ^designation[0].language = #fr-FR
 * #1.3.6.1.4.1.19376.1.8.1.1.2.3 ^designation[=].use.system = "http://snomed.info/sct"
@@ -654,6 +815,10 @@ Description: "Identifiant des modèles de CDA structurés"
 * #1.3.6.1.4.1.19376.1.8.1.1.2.3 ^property[=].valueDateTime = "2024-01-26T12:00:00+01:00"
 * #1.3.6.1.4.1.19376.1.8.1.1.2.3 ^property[+].code = #dateMaj
 * #1.3.6.1.4.1.19376.1.8.1.1.2.3 ^property[=].valueDateTime = "2024-01-26T12:00:00+01:00"
+* #1.3.6.1.4.1.19376.1.8.1.1.2.3 ^property[+].code = #deprecationDate
+* #1.3.6.1.4.1.19376.1.8.1.1.2.3 ^property[=].valueDateTime = "2024-01-26T12:00:00+01:00"
+* #1.3.6.1.4.1.19376.1.8.1.1.2.3 ^property[+].code = #status
+* #1.3.6.1.4.1.19376.1.8.1.1.2.3 ^property[=].valueCode = #deprecated
 * #1.3.6.1.4.1.19376.1.8.1.1.2.4 "Compte rendu d'anatomie et de cytologie pathologiques - Thyroïde"
 * #1.3.6.1.4.1.19376.1.8.1.1.2.4 ^designation[0].language = #fr-FR
 * #1.3.6.1.4.1.19376.1.8.1.1.2.4 ^designation[=].use.system = "http://snomed.info/sct"
@@ -665,6 +830,10 @@ Description: "Identifiant des modèles de CDA structurés"
 * #1.3.6.1.4.1.19376.1.8.1.1.2.4 ^property[=].valueDateTime = "2024-01-26T12:00:00+01:00"
 * #1.3.6.1.4.1.19376.1.8.1.1.2.4 ^property[+].code = #dateMaj
 * #1.3.6.1.4.1.19376.1.8.1.1.2.4 ^property[=].valueDateTime = "2024-01-26T12:00:00+01:00"
+* #1.3.6.1.4.1.19376.1.8.1.1.2.4 ^property[+].code = #deprecationDate
+* #1.3.6.1.4.1.19376.1.8.1.1.2.4 ^property[=].valueDateTime = "2024-01-26T12:00:00+01:00"
+* #1.3.6.1.4.1.19376.1.8.1.1.2.4 ^property[+].code = #status
+* #1.3.6.1.4.1.19376.1.8.1.1.2.4 ^property[=].valueCode = #deprecated
 * #1.3.6.1.4.1.19376.1.8.1.1.2.5 "Compte rendu d'anatomie et de cytologie pathologiques - Poumon"
 * #1.3.6.1.4.1.19376.1.8.1.1.2.5 ^designation[0].language = #fr-FR
 * #1.3.6.1.4.1.19376.1.8.1.1.2.5 ^designation[=].use.system = "http://snomed.info/sct"
@@ -676,6 +845,10 @@ Description: "Identifiant des modèles de CDA structurés"
 * #1.3.6.1.4.1.19376.1.8.1.1.2.5 ^property[=].valueDateTime = "2024-01-26T12:00:00+01:00"
 * #1.3.6.1.4.1.19376.1.8.1.1.2.5 ^property[+].code = #dateMaj
 * #1.3.6.1.4.1.19376.1.8.1.1.2.5 ^property[=].valueDateTime = "2024-01-26T12:00:00+01:00"
+* #1.3.6.1.4.1.19376.1.8.1.1.2.5 ^property[+].code = #deprecationDate
+* #1.3.6.1.4.1.19376.1.8.1.1.2.5 ^property[=].valueDateTime = "2024-01-26T12:00:00+01:00"
+* #1.3.6.1.4.1.19376.1.8.1.1.2.5 ^property[+].code = #status
+* #1.3.6.1.4.1.19376.1.8.1.1.2.5 ^property[=].valueCode = #deprecated
 * #1.3.6.1.4.1.19376.1.8.1.1.2.6 "Compte rendu d'anatomie et de cytologie pathologiques - Mélanome cutané"
 * #1.3.6.1.4.1.19376.1.8.1.1.2.6 ^designation[0].language = #fr-FR
 * #1.3.6.1.4.1.19376.1.8.1.1.2.6 ^designation[=].use.system = "http://snomed.info/sct"
@@ -687,6 +860,10 @@ Description: "Identifiant des modèles de CDA structurés"
 * #1.3.6.1.4.1.19376.1.8.1.1.2.6 ^property[=].valueDateTime = "2024-01-26T12:00:00+01:00"
 * #1.3.6.1.4.1.19376.1.8.1.1.2.6 ^property[+].code = #dateMaj
 * #1.3.6.1.4.1.19376.1.8.1.1.2.6 ^property[=].valueDateTime = "2024-01-26T12:00:00+01:00"
+* #1.3.6.1.4.1.19376.1.8.1.1.2.6 ^property[+].code = #deprecationDate
+* #1.3.6.1.4.1.19376.1.8.1.1.2.6 ^property[=].valueDateTime = "2024-01-26T12:00:00+01:00"
+* #1.3.6.1.4.1.19376.1.8.1.1.2.6 ^property[+].code = #status
+* #1.3.6.1.4.1.19376.1.8.1.1.2.6 ^property[=].valueCode = #deprecated
 * #1.3.6.1.4.1.19376.1.8.1.1.2.7 "Compte rendu d'anatomie et de cytologie pathologiques - Rein"
 * #1.3.6.1.4.1.19376.1.8.1.1.2.7 ^designation[0].language = #fr-FR
 * #1.3.6.1.4.1.19376.1.8.1.1.2.7 ^designation[=].use.system = "http://snomed.info/sct"
@@ -698,6 +875,10 @@ Description: "Identifiant des modèles de CDA structurés"
 * #1.3.6.1.4.1.19376.1.8.1.1.2.7 ^property[=].valueDateTime = "2024-01-26T12:00:00+01:00"
 * #1.3.6.1.4.1.19376.1.8.1.1.2.7 ^property[+].code = #dateMaj
 * #1.3.6.1.4.1.19376.1.8.1.1.2.7 ^property[=].valueDateTime = "2024-01-26T12:00:00+01:00"
+* #1.3.6.1.4.1.19376.1.8.1.1.2.7 ^property[+].code = #deprecationDate
+* #1.3.6.1.4.1.19376.1.8.1.1.2.7 ^property[=].valueDateTime = "2024-01-26T12:00:00+01:00"
+* #1.3.6.1.4.1.19376.1.8.1.1.2.7 ^property[+].code = #status
+* #1.3.6.1.4.1.19376.1.8.1.1.2.7 ^property[=].valueCode = #deprecated
 * #1.3.6.1.4.1.19376.1.8.1.1.2.8 "Compte rendu d'anatomie et de cytologie pathologiques - Col de l'utérus"
 * #1.3.6.1.4.1.19376.1.8.1.1.2.8 ^designation[0].language = #fr-FR
 * #1.3.6.1.4.1.19376.1.8.1.1.2.8 ^designation[=].use.system = "http://snomed.info/sct"
@@ -709,6 +890,10 @@ Description: "Identifiant des modèles de CDA structurés"
 * #1.3.6.1.4.1.19376.1.8.1.1.2.8 ^property[=].valueDateTime = "2024-01-26T12:00:00+01:00"
 * #1.3.6.1.4.1.19376.1.8.1.1.2.8 ^property[+].code = #dateMaj
 * #1.3.6.1.4.1.19376.1.8.1.1.2.8 ^property[=].valueDateTime = "2024-01-26T12:00:00+01:00"
+* #1.3.6.1.4.1.19376.1.8.1.1.2.8 ^property[+].code = #deprecationDate
+* #1.3.6.1.4.1.19376.1.8.1.1.2.8 ^property[=].valueDateTime = "2024-01-26T12:00:00+01:00"
+* #1.3.6.1.4.1.19376.1.8.1.1.2.8 ^property[+].code = #status
+* #1.3.6.1.4.1.19376.1.8.1.1.2.8 ^property[=].valueCode = #deprecated
 * #1.3.6.1.4.1.19376.1.8.1.1.2.9 "Compte rendu d'anatomie et de cytologie pathologiques - Corps utérin"
 * #1.3.6.1.4.1.19376.1.8.1.1.2.9 ^designation[0].language = #fr-FR
 * #1.3.6.1.4.1.19376.1.8.1.1.2.9 ^designation[=].use.system = "http://snomed.info/sct"
@@ -720,6 +905,10 @@ Description: "Identifiant des modèles de CDA structurés"
 * #1.3.6.1.4.1.19376.1.8.1.1.2.9 ^property[=].valueDateTime = "2024-01-26T12:00:00+01:00"
 * #1.3.6.1.4.1.19376.1.8.1.1.2.9 ^property[+].code = #dateMaj
 * #1.3.6.1.4.1.19376.1.8.1.1.2.9 ^property[=].valueDateTime = "2024-01-26T12:00:00+01:00"
+* #1.3.6.1.4.1.19376.1.8.1.1.2.9 ^property[+].code = #deprecationDate
+* #1.3.6.1.4.1.19376.1.8.1.1.2.9 ^property[=].valueDateTime = "2024-01-26T12:00:00+01:00"
+* #1.3.6.1.4.1.19376.1.8.1.1.2.9 ^property[+].code = #status
+* #1.3.6.1.4.1.19376.1.8.1.1.2.9 ^property[=].valueCode = #deprecated
 * #1.3.6.1.4.1.19376.1.8.1.1.2.10 "Compte rendu d'anatomie et de cytologie pathologiques - Ovaires"
 * #1.3.6.1.4.1.19376.1.8.1.1.2.10 ^designation[0].language = #fr-FR
 * #1.3.6.1.4.1.19376.1.8.1.1.2.10 ^designation[=].use.system = "http://snomed.info/sct"
@@ -731,6 +920,10 @@ Description: "Identifiant des modèles de CDA structurés"
 * #1.3.6.1.4.1.19376.1.8.1.1.2.10 ^property[=].valueDateTime = "2024-01-26T12:00:00+01:00"
 * #1.3.6.1.4.1.19376.1.8.1.1.2.10 ^property[+].code = #dateMaj
 * #1.3.6.1.4.1.19376.1.8.1.1.2.10 ^property[=].valueDateTime = "2024-01-26T12:00:00+01:00"
+* #1.3.6.1.4.1.19376.1.8.1.1.2.10 ^property[+].code = #deprecationDate
+* #1.3.6.1.4.1.19376.1.8.1.1.2.10 ^property[=].valueDateTime = "2024-01-26T12:00:00+01:00"
+* #1.3.6.1.4.1.19376.1.8.1.1.2.10 ^property[+].code = #status
+* #1.3.6.1.4.1.19376.1.8.1.1.2.10 ^property[=].valueCode = #deprecated
 * #1.3.6.1.4.1.19376.1.8.1.1.2.11 "Compte rendu d'anatomie et de cytologie pathologiques - Oesophage"
 * #1.3.6.1.4.1.19376.1.8.1.1.2.11 ^designation[0].language = #fr-FR
 * #1.3.6.1.4.1.19376.1.8.1.1.2.11 ^designation[=].use.system = "http://snomed.info/sct"
@@ -742,6 +935,10 @@ Description: "Identifiant des modèles de CDA structurés"
 * #1.3.6.1.4.1.19376.1.8.1.1.2.11 ^property[=].valueDateTime = "2024-01-26T12:00:00+01:00"
 * #1.3.6.1.4.1.19376.1.8.1.1.2.11 ^property[+].code = #dateMaj
 * #1.3.6.1.4.1.19376.1.8.1.1.2.11 ^property[=].valueDateTime = "2024-01-26T12:00:00+01:00"
+* #1.3.6.1.4.1.19376.1.8.1.1.2.11 ^property[+].code = #deprecationDate
+* #1.3.6.1.4.1.19376.1.8.1.1.2.11 ^property[=].valueDateTime = "2024-01-26T12:00:00+01:00"
+* #1.3.6.1.4.1.19376.1.8.1.1.2.11 ^property[+].code = #status
+* #1.3.6.1.4.1.19376.1.8.1.1.2.11 ^property[=].valueCode = #deprecated
 * #1.3.6.1.4.1.19376.1.8.1.1.2.12 "Compte rendu d'anatomie et de cytologie pathologiques - Estomac"
 * #1.3.6.1.4.1.19376.1.8.1.1.2.12 ^designation[0].language = #fr-FR
 * #1.3.6.1.4.1.19376.1.8.1.1.2.12 ^designation[=].use.system = "http://snomed.info/sct"
@@ -753,6 +950,10 @@ Description: "Identifiant des modèles de CDA structurés"
 * #1.3.6.1.4.1.19376.1.8.1.1.2.12 ^property[=].valueDateTime = "2024-01-26T12:00:00+01:00"
 * #1.3.6.1.4.1.19376.1.8.1.1.2.12 ^property[+].code = #dateMaj
 * #1.3.6.1.4.1.19376.1.8.1.1.2.12 ^property[=].valueDateTime = "2024-01-26T12:00:00+01:00"
+* #1.3.6.1.4.1.19376.1.8.1.1.2.12 ^property[+].code = #deprecationDate
+* #1.3.6.1.4.1.19376.1.8.1.1.2.12 ^property[=].valueDateTime = "2024-01-26T12:00:00+01:00"
+* #1.3.6.1.4.1.19376.1.8.1.1.2.12 ^property[+].code = #status
+* #1.3.6.1.4.1.19376.1.8.1.1.2.12 ^property[=].valueCode = #deprecated
 * #1.3.6.1.4.1.19376.1.8.1.1.2.13 "Compte rendu d'anatomie et de cytologie pathologiques - Foie"
 * #1.3.6.1.4.1.19376.1.8.1.1.2.13 ^designation[0].language = #fr-FR
 * #1.3.6.1.4.1.19376.1.8.1.1.2.13 ^designation[=].use.system = "http://snomed.info/sct"
@@ -764,6 +965,10 @@ Description: "Identifiant des modèles de CDA structurés"
 * #1.3.6.1.4.1.19376.1.8.1.1.2.13 ^property[=].valueDateTime = "2024-01-26T12:00:00+01:00"
 * #1.3.6.1.4.1.19376.1.8.1.1.2.13 ^property[+].code = #dateMaj
 * #1.3.6.1.4.1.19376.1.8.1.1.2.13 ^property[=].valueDateTime = "2024-01-26T12:00:00+01:00"
+* #1.3.6.1.4.1.19376.1.8.1.1.2.13 ^property[+].code = #deprecationDate
+* #1.3.6.1.4.1.19376.1.8.1.1.2.13 ^property[=].valueDateTime = "2024-01-26T12:00:00+01:00"
+* #1.3.6.1.4.1.19376.1.8.1.1.2.13 ^property[+].code = #status
+* #1.3.6.1.4.1.19376.1.8.1.1.2.13 ^property[=].valueCode = #deprecated
 * #1.3.6.1.4.1.19376.1.8.1.1.2.14 "Compte rendu d'anatomie et de cytologie pathologiques - Pancréas"
 * #1.3.6.1.4.1.19376.1.8.1.1.2.14 ^designation[0].language = #fr-FR
 * #1.3.6.1.4.1.19376.1.8.1.1.2.14 ^designation[=].use.system = "http://snomed.info/sct"
@@ -775,6 +980,10 @@ Description: "Identifiant des modèles de CDA structurés"
 * #1.3.6.1.4.1.19376.1.8.1.1.2.14 ^property[=].valueDateTime = "2024-01-26T12:00:00+01:00"
 * #1.3.6.1.4.1.19376.1.8.1.1.2.14 ^property[+].code = #dateMaj
 * #1.3.6.1.4.1.19376.1.8.1.1.2.14 ^property[=].valueDateTime = "2024-01-26T12:00:00+01:00"
+* #1.3.6.1.4.1.19376.1.8.1.1.2.14 ^property[+].code = #deprecationDate
+* #1.3.6.1.4.1.19376.1.8.1.1.2.14 ^property[=].valueDateTime = "2024-01-26T12:00:00+01:00"
+* #1.3.6.1.4.1.19376.1.8.1.1.2.14 ^property[+].code = #status
+* #1.3.6.1.4.1.19376.1.8.1.1.2.14 ^property[=].valueCode = #deprecated
 * #1.3.6.1.4.1.19376.1.8.1.1.2.15 "Compte rendu d'anatomie et de cytologie pathologiques - Testicule"
 * #1.3.6.1.4.1.19376.1.8.1.1.2.15 ^designation[0].language = #fr-FR
 * #1.3.6.1.4.1.19376.1.8.1.1.2.15 ^designation[=].use.system = "http://snomed.info/sct"
@@ -786,6 +995,10 @@ Description: "Identifiant des modèles de CDA structurés"
 * #1.3.6.1.4.1.19376.1.8.1.1.2.15 ^property[=].valueDateTime = "2024-01-26T12:00:00+01:00"
 * #1.3.6.1.4.1.19376.1.8.1.1.2.15 ^property[+].code = #dateMaj
 * #1.3.6.1.4.1.19376.1.8.1.1.2.15 ^property[=].valueDateTime = "2024-01-26T12:00:00+01:00"
+* #1.3.6.1.4.1.19376.1.8.1.1.2.15 ^property[+].code = #deprecationDate
+* #1.3.6.1.4.1.19376.1.8.1.1.2.15 ^property[=].valueDateTime = "2024-01-26T12:00:00+01:00"
+* #1.3.6.1.4.1.19376.1.8.1.1.2.15 ^property[+].code = #status
+* #1.3.6.1.4.1.19376.1.8.1.1.2.15 ^property[=].valueCode = #deprecated
 * #1.3.6.1.4.1.19376.1.8.1.1.2.16 "Compte rendu d'anatomie et de cytologie pathologiques - Vessie"
 * #1.3.6.1.4.1.19376.1.8.1.1.2.16 ^designation[0].language = #fr-FR
 * #1.3.6.1.4.1.19376.1.8.1.1.2.16 ^designation[=].use.system = "http://snomed.info/sct"
@@ -797,6 +1010,10 @@ Description: "Identifiant des modèles de CDA structurés"
 * #1.3.6.1.4.1.19376.1.8.1.1.2.16 ^property[=].valueDateTime = "2024-01-26T12:00:00+01:00"
 * #1.3.6.1.4.1.19376.1.8.1.1.2.16 ^property[+].code = #dateMaj
 * #1.3.6.1.4.1.19376.1.8.1.1.2.16 ^property[=].valueDateTime = "2024-01-26T12:00:00+01:00"
+* #1.3.6.1.4.1.19376.1.8.1.1.2.16 ^property[+].code = #deprecationDate
+* #1.3.6.1.4.1.19376.1.8.1.1.2.16 ^property[=].valueDateTime = "2024-01-26T12:00:00+01:00"
+* #1.3.6.1.4.1.19376.1.8.1.1.2.16 ^property[+].code = #status
+* #1.3.6.1.4.1.19376.1.8.1.1.2.16 ^property[=].valueCode = #deprecated
 * #1.3.6.1.4.1.19376.1.8.1.1.2.17 "Compte rendu d'anatomie et de cytologie pathologiques - Cavité buccale"
 * #1.3.6.1.4.1.19376.1.8.1.1.2.17 ^designation[0].language = #fr-FR
 * #1.3.6.1.4.1.19376.1.8.1.1.2.17 ^designation[=].use.system = "http://snomed.info/sct"
@@ -808,6 +1025,10 @@ Description: "Identifiant des modèles de CDA structurés"
 * #1.3.6.1.4.1.19376.1.8.1.1.2.17 ^property[=].valueDateTime = "2024-01-26T12:00:00+01:00"
 * #1.3.6.1.4.1.19376.1.8.1.1.2.17 ^property[+].code = #dateMaj
 * #1.3.6.1.4.1.19376.1.8.1.1.2.17 ^property[=].valueDateTime = "2024-01-26T12:00:00+01:00"
+* #1.3.6.1.4.1.19376.1.8.1.1.2.17 ^property[+].code = #deprecationDate
+* #1.3.6.1.4.1.19376.1.8.1.1.2.17 ^property[=].valueDateTime = "2024-01-26T12:00:00+01:00"
+* #1.3.6.1.4.1.19376.1.8.1.1.2.17 ^property[+].code = #status
+* #1.3.6.1.4.1.19376.1.8.1.1.2.17 ^property[=].valueCode = #deprecated
 * #1.3.6.1.4.1.19376.1.8.1.1.2.18 "Compte rendu d'anatomie et de cytologie pathologiques - Pharynx"
 * #1.3.6.1.4.1.19376.1.8.1.1.2.18 ^designation[0].language = #fr-FR
 * #1.3.6.1.4.1.19376.1.8.1.1.2.18 ^designation[=].use.system = "http://snomed.info/sct"
@@ -819,6 +1040,10 @@ Description: "Identifiant des modèles de CDA structurés"
 * #1.3.6.1.4.1.19376.1.8.1.1.2.18 ^property[=].valueDateTime = "2024-01-26T12:00:00+01:00"
 * #1.3.6.1.4.1.19376.1.8.1.1.2.18 ^property[+].code = #dateMaj
 * #1.3.6.1.4.1.19376.1.8.1.1.2.18 ^property[=].valueDateTime = "2024-01-26T12:00:00+01:00"
+* #1.3.6.1.4.1.19376.1.8.1.1.2.18 ^property[+].code = #deprecationDate
+* #1.3.6.1.4.1.19376.1.8.1.1.2.18 ^property[=].valueDateTime = "2024-01-26T12:00:00+01:00"
+* #1.3.6.1.4.1.19376.1.8.1.1.2.18 ^property[+].code = #status
+* #1.3.6.1.4.1.19376.1.8.1.1.2.18 ^property[=].valueCode = #deprecated
 * #1.3.6.1.4.1.19376.1.8.1.1.2.19 "Compte rendu d'anatomie et de cytologie pathologiques - Glandes salivaires"
 * #1.3.6.1.4.1.19376.1.8.1.1.2.19 ^designation[0].language = #fr-FR
 * #1.3.6.1.4.1.19376.1.8.1.1.2.19 ^designation[=].use.system = "http://snomed.info/sct"
@@ -830,6 +1055,10 @@ Description: "Identifiant des modèles de CDA structurés"
 * #1.3.6.1.4.1.19376.1.8.1.1.2.19 ^property[=].valueDateTime = "2024-01-26T12:00:00+01:00"
 * #1.3.6.1.4.1.19376.1.8.1.1.2.19 ^property[+].code = #dateMaj
 * #1.3.6.1.4.1.19376.1.8.1.1.2.19 ^property[=].valueDateTime = "2024-01-26T12:00:00+01:00"
+* #1.3.6.1.4.1.19376.1.8.1.1.2.19 ^property[+].code = #deprecationDate
+* #1.3.6.1.4.1.19376.1.8.1.1.2.19 ^property[=].valueDateTime = "2024-01-26T12:00:00+01:00"
+* #1.3.6.1.4.1.19376.1.8.1.1.2.19 ^property[+].code = #status
+* #1.3.6.1.4.1.19376.1.8.1.1.2.19 ^property[=].valueCode = #deprecated
 * #1.3.6.1.4.1.19376.1.8.1.1.2.20 "Compte rendu d'anatomie et de cytologie pathologiques - Larynx"
 * #1.3.6.1.4.1.19376.1.8.1.1.2.20 ^designation[0].language = #fr-FR
 * #1.3.6.1.4.1.19376.1.8.1.1.2.20 ^designation[=].use = $sct#900000000000013009
@@ -840,3 +1069,7 @@ Description: "Identifiant des modèles de CDA structurés"
 * #1.3.6.1.4.1.19376.1.8.1.1.2.20 ^property[=].valueDateTime = "2024-01-26T12:00:00+01:00"
 * #1.3.6.1.4.1.19376.1.8.1.1.2.20 ^property[+].code = #dateMaj
 * #1.3.6.1.4.1.19376.1.8.1.1.2.20 ^property[=].valueDateTime = "2024-01-26T12:00:00+01:00"
+* #1.3.6.1.4.1.19376.1.8.1.1.2.20 ^property[+].code = #deprecationDate
+* #1.3.6.1.4.1.19376.1.8.1.1.2.20 ^property[=].valueDateTime = "2024-01-26T12:00:00+01:00"
+* #1.3.6.1.4.1.19376.1.8.1.1.2.20 ^property[+].code = #status
+* #1.3.6.1.4.1.19376.1.8.1.1.2.20 ^property[=].valueCode = #deprecated

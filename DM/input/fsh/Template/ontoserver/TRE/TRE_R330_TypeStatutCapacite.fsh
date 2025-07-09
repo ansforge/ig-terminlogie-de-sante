@@ -1,8 +1,8 @@
 CodeSystem: TRE_R330_TypeStatutCapacite
 Id: TRE-R330-TypeStatutCapacite
 Description: "Permet de préciser le statut des capacités concernées"
-* ^meta.versionId = "8"
-* ^meta.lastUpdated = "2025-03-31T18:11:29.663+00:00"
+* ^meta.versionId = "9"
+* ^meta.lastUpdated = "2025-07-02T18:17:36.165+00:00"
 * ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablecodesystem"
 * ^extension.url = "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod"
 * ^extension.valuePeriod.start = "2022-05-27T12:00:00+01:00"
@@ -14,6 +14,7 @@ Description: "Permet de préciser le statut des capacités concernées"
 * ^experimental = false
 * ^date = "2025-03-28T12:00:00+01:00"
 * ^publisher = "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris"
+* ^jurisdiction = urn:iso:std:iso:3166#FR
 * ^caseSensitive = false
 * ^content = #complete
 * ^property[0].code = #dateValid

@@ -1,9 +1,10 @@
 ValueSet: JDV_J136_DisciplineEquipementSocial_RASS
 Id: JDV-J136-DisciplineEquipementSocial-RASS
 Description: "Disciplines d'équipement pour le social dans le RASS"
-* ^meta.versionId = "3"
-* ^meta.lastUpdated = "2024-04-27T05:06:44.410+00:00"
+* ^meta.versionId = "4"
+* ^meta.lastUpdated = "2025-07-02T17:05:02.279+00:00"
 * ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablevalueset"
+* ^language = #fr-FR
 * ^extension.url = "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod"
 * ^extension.valuePeriod.start = "2020-11-27T12:00:00+01:00"
 * ^url = "https://mos.esante.gouv.fr/NOS/JDV_J136-DisciplineEquipementSocial-RASS/FHIR/JDV-J136-DisciplineEquipementSocial-RASS"
@@ -14,6 +15,7 @@ Description: "Disciplines d'équipement pour le social dans le RASS"
 * ^experimental = false
 * ^date = "2022-09-30T12:00:00+01:00"
 * ^publisher = "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris"
+* ^jurisdiction = urn:iso:std:iso:3166#FR
 * $TRE-R280-DisciplineEquipementSocial#177 "Section Cure Médicale (dont)"
 * $TRE-R280-DisciplineEquipementSocial#246 "Hébergement Accueil Mère Enfant"
 * $TRE-R280-DisciplineEquipementSocial#247 "Hébergement en centre parental"

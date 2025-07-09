@@ -1,8 +1,8 @@
 CodeSystem: TRE_R354_TypeIdentifiantRessourceOperationnelle
 Id: TRE-R354-TypeIdentifiantRessourceOperationnelle
 Description: "Type d'identifiant des ressources opérationnelles"
-* ^meta.versionId = "5"
-* ^meta.lastUpdated = "2024-08-28T05:13:44.108+00:00"
+* ^meta.versionId = "6"
+* ^meta.lastUpdated = "2025-07-02T18:17:51.362+00:00"
 * ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablecodesystem"
 * ^extension.url = "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod"
 * ^extension.valuePeriod.start = "2023-03-31T12:00:00+01:00"
@@ -14,6 +14,7 @@ Description: "Type d'identifiant des ressources opérationnelles"
 * ^experimental = false
 * ^date = "2024-03-29T12:00:00+01:00"
 * ^publisher = "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris"
+* ^jurisdiction = urn:iso:std:iso:3166#FR
 * ^caseSensitive = false
 * ^content = #complete
 * ^property[0].code = #dateValid
@@ -25,6 +26,18 @@ Description: "Type d'identifiant des ressources opérationnelles"
 * ^property[+].code = #dateFin
 * ^property[=].description = "Date de fin d'exploitation d'un code concept"
 * ^property[=].type = #dateTime
+* ^property[+].code = #deprecationDate
+* ^property[=].uri = "http://hl7.org/fhir/concept-properties#deprecationDate"
+* ^property[=].description = "Date Concept was deprecated"
+* ^property[=].type = #dateTime
+* ^property[+].code = #status
+* ^property[=].uri = "http://hl7.org/fhir/concept-properties#status"
+* ^property[=].description = "A property that indicates the status of the concept."
+* ^property[=].type = #code
+* ^property[+].code = #retirementDate
+* ^property[=].uri = "http://hl7.org/fhir/concept-properties#retirementDate"
+* ^property[=].description = "Date Concept was retired"
+* ^property[=].type = #dateTime
 * #25 "Identifiant du lieu de réalisation de l'offre connu par l'instance ROR" "Correspond à l'identifiant du lieu, appelé identifiant du point de saisie dans le service de synchronisation du capacitaire"
 * #25 ^designation.language = #fr-FR
 * #25 ^designation.use.system = "http://snomed.info/sct"
@@ -34,6 +47,8 @@ Description: "Type d'identifiant des ressources opérationnelles"
 * #25 ^property[=].valueDateTime = "2023-03-31T12:00:00+01:00"
 * #25 ^property[+].code = #dateMaj
 * #25 ^property[=].valueDateTime = "2023-03-31T12:00:00+01:00"
+* #25 ^property[+].code = #status
+* #25 ^property[=].valueCode = #active
 * #26 "Identifiant de la zone d'hébergement connu par l'établissement" "Identifiant connu par l'établissement dans son SI (Bed management, …) et correspondant à l'Id Externe de Synchro dans le service de synchronisation du capacitaire"
 * #26 ^designation.language = #fr-FR
 * #26 ^designation.use = $sct#900000000000013009
@@ -42,3 +57,5 @@ Description: "Type d'identifiant des ressources opérationnelles"
 * #26 ^property[=].valueDateTime = "2023-03-31T12:00:00+01:00"
 * #26 ^property[+].code = #dateMaj
 * #26 ^property[=].valueDateTime = "2023-03-31T12:00:00+01:00"
+* #26 ^property[+].code = #status
+* #26 ^property[=].valueCode = #active

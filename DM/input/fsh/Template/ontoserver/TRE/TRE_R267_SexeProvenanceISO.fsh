@@ -1,8 +1,8 @@
 CodeSystem: TRE_R267_SexeProvenanceISO
 Id: TRE-R267-SexeProvenanceISO
 Description: "Codes de représentation des sexes humains provenant de la norme ISO 5218"
-* ^meta.versionId = "4"
-* ^meta.lastUpdated = "2024-08-28T05:12:56.313+00:00"
+* ^meta.versionId = "5"
+* ^meta.lastUpdated = "2025-07-02T18:16:47.410+00:00"
 * ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablecodesystem"
 * ^extension.url = "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod"
 * ^extension.valuePeriod.start = "2018-06-29T12:00:00+01:00"
@@ -14,6 +14,7 @@ Description: "Codes de représentation des sexes humains provenant de la norme I
 * ^experimental = false
 * ^date = "2023-12-15T12:00:00+01:00"
 * ^publisher = "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris"
+* ^jurisdiction = urn:iso:std:iso:3166#FR
 * ^caseSensitive = false
 * ^content = #complete
 * ^property[0].code = #dateValid
@@ -25,6 +26,18 @@ Description: "Codes de représentation des sexes humains provenant de la norme I
 * ^property[+].code = #dateFin
 * ^property[=].description = "Date de fin d'exploitation d'un code concept"
 * ^property[=].type = #dateTime
+* ^property[+].code = #deprecationDate
+* ^property[=].uri = "http://hl7.org/fhir/concept-properties#deprecationDate"
+* ^property[=].description = "Date Concept was deprecated"
+* ^property[=].type = #dateTime
+* ^property[+].code = #status
+* ^property[=].uri = "http://hl7.org/fhir/concept-properties#status"
+* ^property[=].description = "A property that indicates the status of the concept."
+* ^property[=].type = #code
+* ^property[+].code = #retirementDate
+* ^property[=].uri = "http://hl7.org/fhir/concept-properties#retirementDate"
+* ^property[=].description = "Date Concept was retired"
+* ^property[=].type = #dateTime
 * #0 "Inconnu"
 * #0 ^designation.language = #fr-FR
 * #0 ^designation.use.system = "http://snomed.info/sct"
@@ -34,6 +47,8 @@ Description: "Codes de représentation des sexes humains provenant de la norme I
 * #0 ^property[=].valueDateTime = "2018-06-29T12:00:00+01:00"
 * #0 ^property[+].code = #dateMaj
 * #0 ^property[=].valueDateTime = "2018-06-29T12:00:00+01:00"
+* #0 ^property[+].code = #status
+* #0 ^property[=].valueCode = #active
 * #1 "Masculin"
 * #1 ^designation.language = #fr-FR
 * #1 ^designation.use.system = "http://snomed.info/sct"
@@ -43,6 +58,8 @@ Description: "Codes de représentation des sexes humains provenant de la norme I
 * #1 ^property[=].valueDateTime = "2018-06-29T12:00:00+01:00"
 * #1 ^property[+].code = #dateMaj
 * #1 ^property[=].valueDateTime = "2018-06-29T12:00:00+01:00"
+* #1 ^property[+].code = #status
+* #1 ^property[=].valueCode = #active
 * #2 "Féminin"
 * #2 ^designation.language = #fr-FR
 * #2 ^designation.use.system = "http://snomed.info/sct"
@@ -52,6 +69,8 @@ Description: "Codes de représentation des sexes humains provenant de la norme I
 * #2 ^property[=].valueDateTime = "2018-06-29T12:00:00+01:00"
 * #2 ^property[+].code = #dateMaj
 * #2 ^property[=].valueDateTime = "2018-06-29T12:00:00+01:00"
+* #2 ^property[+].code = #status
+* #2 ^property[=].valueCode = #active
 * #9 "Autre (sexe ni masculin, ni féminin)"
 * #9 ^designation.language = #fr-FR
 * #9 ^designation.use = $sct#900000000000013009
@@ -60,3 +79,5 @@ Description: "Codes de représentation des sexes humains provenant de la norme I
 * #9 ^property[=].valueDateTime = "2018-06-29T12:00:00+01:00"
 * #9 ^property[+].code = #dateMaj
 * #9 ^property[=].valueDateTime = "2018-06-29T12:00:00+01:00"
+* #9 ^property[+].code = #status
+* #9 ^property[=].valueCode = #active

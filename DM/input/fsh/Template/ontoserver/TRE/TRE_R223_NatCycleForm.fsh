@@ -1,8 +1,8 @@
 CodeSystem: TRE_R223_NatCycleForm
 Id: TRE-R223-NatCycleForm
 Description: "Nature du cycle de formation des étudiants"
-* ^meta.versionId = "4"
-* ^meta.lastUpdated = "2024-08-28T05:12:32.624+00:00"
+* ^meta.versionId = "5"
+* ^meta.lastUpdated = "2025-07-02T18:16:15.515+00:00"
 * ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablecodesystem"
 * ^extension.url = "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod"
 * ^extension.valuePeriod.start = "2017-03-22T12:00:00+01:00"
@@ -14,6 +14,7 @@ Description: "Nature du cycle de formation des étudiants"
 * ^experimental = false
 * ^date = "2023-12-15T12:00:00+01:00"
 * ^publisher = "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris"
+* ^jurisdiction = urn:iso:std:iso:3166#FR
 * ^caseSensitive = false
 * ^content = #complete
 * ^property[0].code = #dateValid
@@ -25,18 +26,36 @@ Description: "Nature du cycle de formation des étudiants"
 * ^property[+].code = #dateFin
 * ^property[=].description = "Date de fin d'exploitation d'un code concept"
 * ^property[=].type = #dateTime
+* ^property[+].code = #deprecationDate
+* ^property[=].uri = "http://hl7.org/fhir/concept-properties#deprecationDate"
+* ^property[=].description = "Date Concept was deprecated"
+* ^property[=].type = #dateTime
+* ^property[+].code = #status
+* ^property[=].uri = "http://hl7.org/fhir/concept-properties#status"
+* ^property[=].description = "A property that indicates the status of the concept."
+* ^property[=].type = #code
+* ^property[+].code = #retirementDate
+* ^property[=].uri = "http://hl7.org/fhir/concept-properties#retirementDate"
+* ^property[=].description = "Date Concept was retired"
+* ^property[=].type = #dateTime
 * #C2 "2ième cycle"
 * #C2 ^property[0].code = #dateValid
 * #C2 ^property[=].valueDateTime = "2017-03-22T12:00:00+01:00"
 * #C2 ^property[+].code = #dateMaj
 * #C2 ^property[=].valueDateTime = "2017-03-22T12:00:00+01:00"
+* #C2 ^property[+].code = #status
+* #C2 ^property[=].valueCode = #active
 * #C3C "3ième cycle court"
 * #C3C ^property[0].code = #dateValid
 * #C3C ^property[=].valueDateTime = "2017-03-22T12:00:00+01:00"
 * #C3C ^property[+].code = #dateMaj
 * #C3C ^property[=].valueDateTime = "2017-03-22T12:00:00+01:00"
+* #C3C ^property[+].code = #status
+* #C3C ^property[=].valueCode = #active
 * #C3L "3ième cycle long / internat"
 * #C3L ^property[0].code = #dateValid
 * #C3L ^property[=].valueDateTime = "2017-03-22T12:00:00+01:00"
 * #C3L ^property[+].code = #dateMaj
 * #C3L ^property[=].valueDateTime = "2017-03-22T12:00:00+01:00"
+* #C3L ^property[+].code = #status
+* #C3L ^property[=].valueCode = #active

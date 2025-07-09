@@ -1,8 +1,8 @@
 CodeSystem: TRE_R48_DiplomeEtatFrancais
 Id: TRE-R48-DiplomeEtatFrancais
 Description: "Diplôme de l'Etat français"
-* ^meta.versionId = "8"
-* ^meta.lastUpdated = "2025-04-25T18:12:49.676+00:00"
+* ^meta.versionId = "9"
+* ^meta.lastUpdated = "2025-07-02T18:18:10.480+00:00"
 * ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablecodesystem"
 * ^extension.url = "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod"
 * ^extension.valuePeriod.start = "2015-12-29T00:00:00+01:00"
@@ -14,6 +14,7 @@ Description: "Diplôme de l'Etat français"
 * ^experimental = false
 * ^date = "2025-04-25T12:00:00+01:00"
 * ^publisher = "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris"
+* ^jurisdiction = urn:iso:std:iso:3166#FR
 * ^caseSensitive = false
 * ^content = #complete
 * ^property[0].code = #dateValid

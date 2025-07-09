@@ -1,9 +1,10 @@
 ValueSet: JDV_J225_CanalCommunication_ROR
 Id: JDV-J225-CanalCommunication-ROR
 Description: "Canal de communication"
-* ^meta.versionId = "3"
-* ^meta.lastUpdated = "2024-04-27T05:07:26.406+00:00"
+* ^meta.versionId = "4"
+* ^meta.lastUpdated = "2025-07-02T17:05:57.437+00:00"
 * ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablevalueset"
+* ^language = #fr-FR
 * ^extension.url = "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod"
 * ^extension.valuePeriod.start = "2022-08-26T12:00:00+01:00"
 * ^url = "https://mos.esante.gouv.fr/NOS/JDV_J225-CanalCommunication-ROR/FHIR/JDV-J225-CanalCommunication-ROR"
@@ -14,6 +15,7 @@ Description: "Canal de communication"
 * ^experimental = false
 * ^date = "2022-08-26T12:00:00+01:00"
 * ^publisher = "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris"
+* ^jurisdiction = urn:iso:std:iso:3166#FR
 * $TRE-R200-CanalCommunication#1 "Téléphone mobile"
 * $TRE-R200-CanalCommunication#2 "Téléphone fixe"
 * $TRE-R200-CanalCommunication#3 "Courrier électronique"

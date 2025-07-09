@@ -1,9 +1,10 @@
 ValueSet: JDV_J71_ProfessionFonction_MSSante
 Id: JDV-J71-ProfessionFonction-MSSante
 Description: "Professions et fonctions MSSanté"
-* ^meta.versionId = "3"
-* ^meta.lastUpdated = "2024-04-27T05:08:01.117+00:00"
+* ^meta.versionId = "4"
+* ^meta.lastUpdated = "2025-07-02T17:06:45.415+00:00"
 * ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablevalueset"
+* ^language = #fr-FR
 * ^extension.url = "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod"
 * ^extension.valuePeriod.start = "2019-05-29T12:00:00+01:00"
 * ^url = "https://mos.esante.gouv.fr/NOS/JDV_J71-ProfessionFonction-MSSante/FHIR/JDV-J71-ProfessionFonction-MSSante"
@@ -14,6 +15,7 @@ Description: "Professions et fonctions MSSanté"
 * ^experimental = false
 * ^date = "2023-10-30T12:00:00+01:00"
 * ^publisher = "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris"
+* ^jurisdiction = urn:iso:std:iso:3166#FR
 * $TRE-G15-ProfessionSante#10 "Médecin"
 * $TRE-G15-ProfessionSante#21 "Pharmacien"
 * $TRE-G15-ProfessionSante#26 "Audioprothésiste"

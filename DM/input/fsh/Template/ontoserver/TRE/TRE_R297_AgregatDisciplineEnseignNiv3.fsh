@@ -1,8 +1,8 @@
 CodeSystem: TRE_R297_AgregatDisciplineEnseignNiv3
 Id: TRE-R297-AgregatDisciplineEnseignNiv3
 Description: "Agrégats de disciplines pour l'enseignement niveau 3"
-* ^meta.versionId = "4"
-* ^meta.lastUpdated = "2024-08-28T05:13:15.008+00:00"
+* ^meta.versionId = "5"
+* ^meta.lastUpdated = "2025-07-02T18:17:20.107+00:00"
 * ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablecodesystem"
 * ^extension.url = "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod"
 * ^extension.valuePeriod.start = "2020-06-26T12:00:00+01:00"
@@ -14,6 +14,7 @@ Description: "Agrégats de disciplines pour l'enseignement niveau 3"
 * ^experimental = false
 * ^date = "2023-12-15T12:00:00+01:00"
 * ^publisher = "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris"
+* ^jurisdiction = urn:iso:std:iso:3166#FR
 * ^caseSensitive = false
 * ^content = #complete
 * ^property[0].code = #dateValid
@@ -25,6 +26,18 @@ Description: "Agrégats de disciplines pour l'enseignement niveau 3"
 * ^property[+].code = #dateFin
 * ^property[=].description = "Date de fin d'exploitation d'un code concept"
 * ^property[=].type = #dateTime
+* ^property[+].code = #deprecationDate
+* ^property[=].uri = "http://hl7.org/fhir/concept-properties#deprecationDate"
+* ^property[=].description = "Date Concept was deprecated"
+* ^property[=].type = #dateTime
+* ^property[+].code = #status
+* ^property[=].uri = "http://hl7.org/fhir/concept-properties#status"
+* ^property[=].description = "A property that indicates the status of the concept."
+* ^property[=].type = #code
+* ^property[+].code = #retirementDate
+* ^property[=].uri = "http://hl7.org/fhir/concept-properties#retirementDate"
+* ^property[=].description = "Date Concept was retired"
+* ^property[=].type = #dateTime
 * #2210 "Formation des Personnels Sanitaires"
 * #2210 ^designation.language = #fr-FR
 * #2210 ^designation.use.system = "http://snomed.info/sct"
@@ -34,6 +47,8 @@ Description: "Agrégats de disciplines pour l'enseignement niveau 3"
 * #2210 ^property[=].valueDateTime = "2020-06-26T12:00:00+01:00"
 * #2210 ^property[+].code = #dateMaj
 * #2210 ^property[=].valueDateTime = "2020-06-26T12:00:00+01:00"
+* #2210 ^property[+].code = #status
+* #2210 ^property[=].valueCode = #active
 * #2220 "Formation des Personnels Sociaux"
 * #2220 ^designation.language = #fr-FR
 * #2220 ^designation.use.system = "http://snomed.info/sct"
@@ -43,6 +58,8 @@ Description: "Agrégats de disciplines pour l'enseignement niveau 3"
 * #2220 ^property[=].valueDateTime = "2020-06-26T12:00:00+01:00"
 * #2220 ^property[+].code = #dateMaj
 * #2220 ^property[=].valueDateTime = "2020-06-26T12:00:00+01:00"
+* #2220 ^property[+].code = #status
+* #2220 ^property[=].valueCode = #active
 * #2230 "Formation des Personnels Administratifs San. et Soc"
 * #2230 ^designation.language = #fr-FR
 * #2230 ^designation.use = $sct#900000000000013009
@@ -51,8 +68,12 @@ Description: "Agrégats de disciplines pour l'enseignement niveau 3"
 * #2230 ^property[=].valueDateTime = "2020-06-26T12:00:00+01:00"
 * #2230 ^property[+].code = #dateMaj
 * #2230 ^property[=].valueDateTime = "2020-06-26T12:00:00+01:00"
+* #2230 ^property[+].code = #status
+* #2230 ^property[=].valueCode = #active
 * #2240 "Formation de cadre de santé"
 * #2240 ^property[0].code = #dateValid
 * #2240 ^property[=].valueDateTime = "2020-06-26T12:00:00+01:00"
 * #2240 ^property[+].code = #dateMaj
 * #2240 ^property[=].valueDateTime = "2020-06-26T12:00:00+01:00"
+* #2240 ^property[+].code = #status
+* #2240 ^property[=].valueCode = #active

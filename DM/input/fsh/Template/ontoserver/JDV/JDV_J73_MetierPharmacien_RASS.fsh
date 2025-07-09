@@ -1,9 +1,10 @@
 ValueSet: JDV_J73_MetierPharmacien_RASS
 Id: JDV-J73-MetierPharmacien-RASS
 Description: "Ensemble des sections et sous-sections du tableau du CNOP dans le RASS"
-* ^meta.versionId = "3"
-* ^meta.lastUpdated = "2024-04-27T05:08:01.939+00:00"
+* ^meta.versionId = "4"
+* ^meta.lastUpdated = "2025-07-02T17:06:46.260+00:00"
 * ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablevalueset"
+* ^language = #fr-FR
 * ^extension.url = "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod"
 * ^extension.valuePeriod.start = "2019-07-05T12:00:00+01:00"
 * ^url = "https://mos.esante.gouv.fr/NOS/JDV_J73-MetierPharmacien-RASS/FHIR/JDV-J73-MetierPharmacien-RASS"
@@ -14,6 +15,7 @@ Description: "Ensemble des sections et sous-sections du tableau du CNOP dans le 
 * ^experimental = false
 * ^date = "2021-05-28T12:00:00+01:00"
 * ^publisher = "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris"
+* ^jurisdiction = urn:iso:std:iso:3166#FR
 * $TRE-R06-SectionTableauCNOP#A "Pharmacien titulaire d'officine"
 * $TRE-R06-SectionTableauCNOP#B "Pharmacien d'entreprise - industrie"
 * $TRE-R06-SectionTableauCNOP#C "Pharmacien d'entreprise - distribution"

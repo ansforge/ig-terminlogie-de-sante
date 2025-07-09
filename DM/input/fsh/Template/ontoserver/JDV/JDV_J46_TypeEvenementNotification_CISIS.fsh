@@ -1,9 +1,10 @@
 ValueSet: JDV_J46_TypeEvenementNotification_CISIS
 Id: JDV-J46-TypeEvenementNotification-CISIS
 Description: "Liste de types d'évènement pour lesquels une notification est possible"
-* ^meta.versionId = "3"
-* ^meta.lastUpdated = "2024-04-27T05:07:48.890+00:00"
+* ^meta.versionId = "4"
+* ^meta.lastUpdated = "2025-07-02T17:06:32.600+00:00"
 * ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablevalueset"
+* ^language = #fr-FR
 * ^extension.url = "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod"
 * ^extension.valuePeriod.start = "2018-03-30T12:00:00+01:00"
 * ^url = "https://mos.esante.gouv.fr/NOS/JDV_J46-TypeEvenementNotification-CISIS/FHIR/JDV-J46-TypeEvenementNotification-CISIS"
@@ -14,6 +15,7 @@ Description: "Liste de types d'évènement pour lesquels une notification est po
 * ^experimental = false
 * ^date = "2022-06-24T12:00:00+01:00"
 * ^publisher = "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris"
+* ^jurisdiction = urn:iso:std:iso:3166#FR
 * $TRE-R254-TypeEvenement#ADM "Admission d'un patient dans un établissement de santé"
 * $TRE-R254-TypeEvenement#AUT "Autorisation de paiement de la facture des dispositifs médicaux"
 * $TRE-R254-TypeEvenement#CDM "Commande de dispositifs médicaux"

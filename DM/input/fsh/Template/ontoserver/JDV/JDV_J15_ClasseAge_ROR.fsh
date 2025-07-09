@@ -1,9 +1,10 @@
 ValueSet: JDV_J15_ClasseAge_ROR
 Id: JDV-J15-ClasseAge-ROR
 Description: "Classe d'âge - ROR"
-* ^meta.versionId = "3"
-* ^meta.lastUpdated = "2024-04-27T05:06:50.688+00:00"
+* ^meta.versionId = "4"
+* ^meta.lastUpdated = "2025-07-02T17:05:18.899+00:00"
 * ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablevalueset"
+* ^language = #fr-FR
 * ^extension.url = "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod"
 * ^extension.valuePeriod.start = "2016-09-01T00:00:00+01:00"
 * ^url = "https://mos.esante.gouv.fr/NOS/JDV_J15-ClasseAge-ROR/FHIR/JDV-J15-ClasseAge-ROR"
@@ -14,6 +15,7 @@ Description: "Classe d'âge - ROR"
 * ^experimental = false
 * ^date = "2020-04-24T12:00:00+01:00"
 * ^publisher = "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris"
+* ^jurisdiction = urn:iso:std:iso:3166#FR
 * $TRE-R208-ClasseAge#01 "Nouveau né, jusqu'à 28 jours"
 * $TRE-R208-ClasseAge#02 "Nourrisson, avant 2 ans"
 * $TRE-R208-ClasseAge#03 "Enfant, avant 12 ans"

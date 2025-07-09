@@ -1,19 +1,21 @@
 ValueSet: JDV_J07_XdsTypeCode_CISIS
 Id: JDV-J07-XdsTypeCode-CISIS
 Description: "XDS typeCode CI-SIS"
-* ^meta.versionId = "9"
-* ^meta.lastUpdated = "2025-04-25T17:01:37.929+00:00"
+* ^meta.versionId = "12"
+* ^meta.lastUpdated = "2025-07-02T17:04:36.798+00:00"
 * ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablevalueset"
+* ^language = #fr-FR
 * ^extension.url = "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod"
 * ^extension.valuePeriod.start = "2013-01-23T00:00:00+01:00"
 * ^url = "https://mos.esante.gouv.fr/NOS/JDV_J07-XdsTypeCode-CISIS/FHIR/JDV-J07-XdsTypeCode-CISIS"
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value = "urn:oid:1.2.250.1.213.1.1.5.471"
-* ^version = "20250425120000"
+* ^version = "20250623120000"
 * ^status = #active
 * ^experimental = false
-* ^date = "2025-04-25T12:00:00+01:00"
+* ^date = "2025-06-23T12:00:00+01:00"
 * ^publisher = "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris"
+* ^jurisdiction = urn:iso:std:iso:3166#FR
 * $TRE-A05-TypeDocComplementaire#ATTEST-ASS-COMPL "Attestation assurance complémentaire"
 * $TRE-A05-TypeDocComplementaire#ATTEST-RESID "Attestation de résidence"
 * $TRE-A05-TypeDocComplementaire#ATTEST-HEBGT "Attestation d'hébergement"
@@ -129,4 +131,6 @@ Description: "XDS typeCode CI-SIS"
 * LOINC#78489-2 "Synthèse Enfant en Maternité"
 * LOINC#89233-1 "CR de grossesse"
 * LOINC#101881-1 "Carte d'implant"
+* LOINC#97694-4 "Note d'évaluation en médecine maternelle et fœtale"
+* LOINC#100967-9 "Rythme cardiaque fœtal"
 * $TRE-A12-NomenclatureASTM#E1762 "Full Document"

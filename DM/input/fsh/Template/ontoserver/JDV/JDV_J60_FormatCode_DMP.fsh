@@ -1,9 +1,10 @@
 ValueSet: JDV_J60_FormatCode_DMP
 Id: JDV-J60-FormatCode-DMP
 Description: "Jeu de valeurs pour métadonnée formatCode"
-* ^meta.versionId = "3"
-* ^meta.lastUpdated = "2024-09-29T19:01:25.029+00:00"
+* ^meta.versionId = "4"
+* ^meta.lastUpdated = "2025-07-02T17:06:40.516+00:00"
 * ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablevalueset"
+* ^language = #fr-FR
 * ^extension.url = "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod"
 * ^extension.valuePeriod.start = "2019-01-18T12:00:00+01:00"
 * ^url = "https://mos.esante.gouv.fr/NOS/JDV_J60-FormatCode-DMP/FHIR/JDV-J60-FormatCode-DMP"
@@ -14,6 +15,7 @@ Description: "Jeu de valeurs pour métadonnée formatCode"
 * ^experimental = false
 * ^date = "2024-09-27T12:00:00+01:00"
 * ^publisher = "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris"
+* ^jurisdiction = urn:iso:std:iso:3166#FR
 * $TRE-A06-FormatCodeComplementaire#urn:ans:ci-sis:bio-ep-bio:2022 "Prescription d'actes de biologie médicale"
 * $TRE-A06-FormatCodeComplementaire#urn:ans:ci-sis:img-da:2022 "Demande d'actes d'imagerie"
 * $TRE-A06-FormatCodeComplementaire#urn:asip:ci-sis:aunv:2013 "Fiche d'admission en unité neuro-vasculaire"

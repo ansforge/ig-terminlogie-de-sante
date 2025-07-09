@@ -47,6 +47,7 @@ Alias: $TRE-R45-FonctionQualifiee = https://mos.esante.gouv.fr/NOS/TRE_R45-Fonct
 Alias: $TRE-R97-DroitExerciceCompl = https://mos.esante.gouv.fr/NOS/TRE_R97-DroitExerciceCompl/FHIR/TRE-R97-DroitExerciceCompl
 Alias: $TRE-G13-OrientationParticuliere = https://mos.esante.gouv.fr/NOS/TRE_G13-OrientationParticuliere/FHIR/TRE-G13-OrientationParticuliere
 Alias: $TRE-R359-SurspecialiteTransversale = https://mos.esante.gouv.fr/NOS/TRE_R359-SurspecialiteTransversale/FHIR/TRE-R359-SurspecialiteTransversale
+Alias: $tre-r394-competence-metier = https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r394-competence-metier
 Alias: $TRE-R96-AutreFonctionSanitaire = https://mos.esante.gouv.fr/NOS/TRE_R96-AutreFonctionSanitaire/FHIR/TRE-R96-AutreFonctionSanitaire
 Alias: $TRE-A06-FormatCodeComplementaire = https://mos.esante.gouv.fr/NOS/TRE_A06-FormatCodeComplementaire/FHIR/TRE-A06-FormatCodeComplementaire
 Alias: $TRE-A11-IheFormatCode = https://mos.esante.gouv.fr/NOS/TRE_A11-IheFormatCode/FHIR/TRE-A11-IheFormatCode

@@ -1,9 +1,10 @@
 ValueSet: JDV_J121_RolePriseCharge_ENREG
 Id: JDV-J121-RolePriseCharge-ENREG
 Description: "Code des rôles et fonctions pour l'application ENREG"
-* ^meta.versionId = "8"
-* ^meta.lastUpdated = "2025-04-25T17:01:41.947+00:00"
+* ^meta.versionId = "9"
+* ^meta.lastUpdated = "2025-07-02T17:04:53.014+00:00"
 * ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablevalueset"
+* ^language = #fr-FR
 * ^extension.url = "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod"
 * ^extension.valuePeriod.start = "2020-06-26T12:00:00+01:00"
 * ^url = "https://mos.esante.gouv.fr/NOS/JDV_J121-RolePriseCharge-ENREG/FHIR/JDV-J121-RolePriseCharge-ENREG"
@@ -14,6 +15,7 @@ Description: "Code des rôles et fonctions pour l'application ENREG"
 * ^experimental = false
 * ^date = "2025-04-25T12:00:00+01:00"
 * ^publisher = "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris"
+* ^jurisdiction = urn:iso:std:iso:3166#FR
 * $TRE-R85-RolePriseCharge#307 "Mandataire judiciaire à la protection des majeurs (MJPM)"
 * $TRE-R85-RolePriseCharge#312 "Autre professionnel"
 * $TRE-R85-RolePriseCharge#313 "Aide-soignant"

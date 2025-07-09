@@ -1,9 +1,10 @@
 ValueSet: JDV_J92_MotifFinActivite_RASS
 Id: JDV-J92-MotifFinActivite-RASS
 Description: "Motifs de fin d'activité d'un professionnel du RASS"
-* ^meta.versionId = "3"
-* ^meta.lastUpdated = "2024-04-27T05:08:10.321+00:00"
+* ^meta.versionId = "4"
+* ^meta.lastUpdated = "2025-07-02T17:06:56.370+00:00"
 * ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablevalueset"
+* ^language = #fr-FR
 * ^extension.url = "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod"
 * ^extension.valuePeriod.start = "2019-08-30T12:00:00+01:00"
 * ^url = "https://mos.esante.gouv.fr/NOS/JDV_J92-MotifFinActivite-RASS/FHIR/JDV-J92-MotifFinActivite-RASS"
@@ -14,6 +15,7 @@ Description: "Motifs de fin d'activité d'un professionnel du RASS"
 * ^experimental = false
 * ^date = "2020-04-24T12:00:00+01:00"
 * ^publisher = "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris"
+* ^jurisdiction = urn:iso:std:iso:3166#FR
 * $TRE-R25-MotifFinActivite#AUT "Autre motif"
 * $TRE-R25-MotifFinActivite#CHA "Changement d'activité"
 * $TRE-R25-MotifFinActivite#CHL "Changement de lieu d'exercice"

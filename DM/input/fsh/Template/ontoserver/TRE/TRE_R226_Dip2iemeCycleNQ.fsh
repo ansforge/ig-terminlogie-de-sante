@@ -1,8 +1,8 @@
 CodeSystem: TRE_R226_Dip2iemeCycleNQ
 Id: TRE-R226-Dip2iemeCycleNQ
 Description: "Diplôme de 2ième cycle non qualifiant"
-* ^meta.versionId = "4"
-* ^meta.lastUpdated = "2024-08-28T05:12:34.441+00:00"
+* ^meta.versionId = "5"
+* ^meta.lastUpdated = "2025-07-02T18:16:17.422+00:00"
 * ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablecodesystem"
 * ^extension.url = "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod"
 * ^extension.valuePeriod.start = "2017-03-22T12:00:00+01:00"
@@ -14,6 +14,7 @@ Description: "Diplôme de 2ième cycle non qualifiant"
 * ^experimental = false
 * ^date = "2023-12-15T12:00:00+01:00"
 * ^publisher = "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris"
+* ^jurisdiction = urn:iso:std:iso:3166#FR
 * ^caseSensitive = false
 * ^content = #complete
 * ^property[0].code = #dateValid
@@ -24,6 +25,18 @@ Description: "Diplôme de 2ième cycle non qualifiant"
 * ^property[=].type = #dateTime
 * ^property[+].code = #dateFin
 * ^property[=].description = "Date de fin d'exploitation d'un code concept"
+* ^property[=].type = #dateTime
+* ^property[+].code = #deprecationDate
+* ^property[=].uri = "http://hl7.org/fhir/concept-properties#deprecationDate"
+* ^property[=].description = "Date Concept was deprecated"
+* ^property[=].type = #dateTime
+* ^property[+].code = #status
+* ^property[=].uri = "http://hl7.org/fhir/concept-properties#status"
+* ^property[=].description = "A property that indicates the status of the concept."
+* ^property[=].type = #code
+* ^property[+].code = #retirementDate
+* ^property[=].uri = "http://hl7.org/fhir/concept-properties#retirementDate"
+* ^property[=].description = "Date Concept was retired"
 * ^property[=].type = #dateTime
 * #DFASO "Dip de Formation approfondie Sc odontologiques"
 * #DFASO ^designation[0].language = #fr-FR
@@ -38,6 +51,8 @@ Description: "Diplôme de 2ième cycle non qualifiant"
 * #DFASO ^property[=].valueDateTime = "2017-03-22T12:00:00+01:00"
 * #DFASO ^property[+].code = #dateMaj
 * #DFASO ^property[=].valueDateTime = "2017-03-22T12:00:00+01:00"
+* #DFASO ^property[+].code = #status
+* #DFASO ^property[=].valueCode = #active
 * #DFASM "Dip de Formation approfondie Sc médicales"
 * #DFASM ^designation[0].language = #fr-FR
 * #DFASM ^designation[=].use = $sct#900000000000013009
@@ -49,3 +64,5 @@ Description: "Diplôme de 2ième cycle non qualifiant"
 * #DFASM ^property[=].valueDateTime = "2017-03-22T12:00:00+01:00"
 * #DFASM ^property[+].code = #dateMaj
 * #DFASM ^property[=].valueDateTime = "2017-03-22T12:00:00+01:00"
+* #DFASM ^property[+].code = #status
+* #DFASM ^property[=].valueCode = #active

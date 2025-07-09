@@ -1,9 +1,10 @@
 ValueSet: JDV_J228_TypeCaracteristiqueEquipement_ROR
 Id: JDV-J228-TypeCaracteristiqueEquipement-ROR
 Description: "Type de caractéristique équipement"
-* ^meta.versionId = "3"
-* ^meta.lastUpdated = "2024-04-27T05:07:27.552+00:00"
+* ^meta.versionId = "4"
+* ^meta.lastUpdated = "2025-07-02T17:05:58.978+00:00"
 * ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablevalueset"
+* ^language = #fr-FR
 * ^extension.url = "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod"
 * ^extension.valuePeriod.start = "2022-08-26T12:00:00+01:00"
 * ^url = "https://mos.esante.gouv.fr/NOS/JDV_J228-TypeCaracteristiqueEquipement-ROR/FHIR/JDV-J228-TypeCaracteristiqueEquipement-ROR"
@@ -14,5 +15,6 @@ Description: "Type de caractéristique équipement"
 * ^experimental = false
 * ^date = "2022-08-26T12:00:00+01:00"
 * ^publisher = "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris"
+* ^jurisdiction = urn:iso:std:iso:3166#FR
 * $TRE-R340-TypeCaracteristiqueEquipement#001 "Poids maximum"
 * $TRE-R340-TypeCaracteristiqueEquipement#002 "Diamètre maximum"

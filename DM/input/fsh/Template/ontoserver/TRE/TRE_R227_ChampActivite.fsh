@@ -1,8 +1,8 @@
 CodeSystem: TRE_R227_ChampActivite
 Id: TRE-R227-ChampActivite
 Description: "Champ d'activité"
-* ^meta.versionId = "4"
-* ^meta.lastUpdated = "2024-08-28T05:12:34.971+00:00"
+* ^meta.versionId = "5"
+* ^meta.lastUpdated = "2025-07-02T18:16:17.935+00:00"
 * ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablecodesystem"
 * ^extension.url = "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod"
 * ^extension.valuePeriod.start = "2017-03-22T12:00:00+01:00"
@@ -14,6 +14,7 @@ Description: "Champ d'activité"
 * ^experimental = false
 * ^date = "2023-12-15T12:00:00+01:00"
 * ^publisher = "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris"
+* ^jurisdiction = urn:iso:std:iso:3166#FR
 * ^caseSensitive = false
 * ^content = #complete
 * ^property[0].code = #dateValid
@@ -24,6 +25,18 @@ Description: "Champ d'activité"
 * ^property[=].type = #dateTime
 * ^property[+].code = #dateFin
 * ^property[=].description = "Date de fin d'exploitation d'un code concept"
+* ^property[=].type = #dateTime
+* ^property[+].code = #deprecationDate
+* ^property[=].uri = "http://hl7.org/fhir/concept-properties#deprecationDate"
+* ^property[=].description = "Date Concept was deprecated"
+* ^property[=].type = #dateTime
+* ^property[+].code = #status
+* ^property[=].uri = "http://hl7.org/fhir/concept-properties#status"
+* ^property[=].description = "A property that indicates the status of the concept."
+* ^property[=].type = #code
+* ^property[+].code = #retirementDate
+* ^property[=].uri = "http://hl7.org/fhir/concept-properties#retirementDate"
+* ^property[=].description = "Date Concept was retired"
 * ^property[=].type = #dateTime
 * #01 "Médecine Chirurgie Obstétrique (MCO)"
 * #01 ^designation[0].language = #fr-FR
@@ -37,6 +50,8 @@ Description: "Champ d'activité"
 * #01 ^property[=].valueDateTime = "2017-03-22T12:00:00+01:00"
 * #01 ^property[+].code = #dateMaj
 * #01 ^property[=].valueDateTime = "2017-03-22T12:00:00+01:00"
+* #01 ^property[+].code = #status
+* #01 ^property[=].valueCode = #active
 * #02 "Soins Médicaux et de réadaptation (SMR)"
 * #02 ^designation[0].language = #fr-FR
 * #02 ^designation[=].use.system = "http://snomed.info/sct"
@@ -46,6 +61,8 @@ Description: "Champ d'activité"
 * #02 ^property[=].valueDateTime = "2017-03-22T12:00:00+01:00"
 * #02 ^property[+].code = #dateMaj
 * #02 ^property[=].valueDateTime = "2023-06-30T12:00:00+01:00"
+* #02 ^property[+].code = #status
+* #02 ^property[=].valueCode = #active
 * #03 "Psychiatrie (PSY)"
 * #03 ^designation[0].language = #fr-FR
 * #03 ^designation[=].use.system = "http://snomed.info/sct"
@@ -55,6 +72,8 @@ Description: "Champ d'activité"
 * #03 ^property[=].valueDateTime = "2017-03-22T12:00:00+01:00"
 * #03 ^property[+].code = #dateMaj
 * #03 ^property[=].valueDateTime = "2017-03-22T12:00:00+01:00"
+* #03 ^property[+].code = #status
+* #03 ^property[=].valueCode = #active
 * #04 "Médico-social (MS)"
 * #04 ^designation[0].language = #fr-FR
 * #04 ^designation[=].use = $sct#900000000000013009
@@ -63,8 +82,12 @@ Description: "Champ d'activité"
 * #04 ^property[=].valueDateTime = "2017-10-13T12:00:00+01:00"
 * #04 ^property[+].code = #dateMaj
 * #04 ^property[=].valueDateTime = "2017-10-13T12:00:00+01:00"
+* #04 ^property[+].code = #status
+* #04 ^property[=].valueCode = #active
 * #05 "Ville"
 * #05 ^property[0].code = #dateValid
 * #05 ^property[=].valueDateTime = "2018-12-14T12:00:00+01:00"
 * #05 ^property[+].code = #dateMaj
 * #05 ^property[=].valueDateTime = "2023-06-30T12:00:00+01:00"
+* #05 ^property[+].code = #status
+* #05 ^property[=].valueCode = #active

@@ -1,8 +1,8 @@
 CodeSystem: TRE_R09_CategorieProfessionnelle
 Id: TRE-R09-CategorieProfessionnelle
 Description: "Catégorie professionnelle"
-* ^meta.versionId = "5"
-* ^meta.lastUpdated = "2024-08-28T05:11:01.560+00:00"
+* ^meta.versionId = "6"
+* ^meta.lastUpdated = "2025-07-02T18:12:05.935+00:00"
 * ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablecodesystem"
 * ^extension.url = "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod"
 * ^extension.valuePeriod.start = "2008-03-20T09:24:55+01:00"
@@ -14,6 +14,7 @@ Description: "Catégorie professionnelle"
 * ^experimental = false
 * ^date = "2024-04-26T12:00:00+01:00"
 * ^publisher = "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris"
+* ^jurisdiction = urn:iso:std:iso:3166#FR
 * ^caseSensitive = false
 * ^content = #complete
 * ^property[0].code = #dateValid
@@ -25,16 +26,32 @@ Description: "Catégorie professionnelle"
 * ^property[+].code = #dateFin
 * ^property[=].description = "Date de fin d'exploitation d'un code concept"
 * ^property[=].type = #dateTime
+* ^property[+].code = #deprecationDate
+* ^property[=].uri = "http://hl7.org/fhir/concept-properties#deprecationDate"
+* ^property[=].description = "Date Concept was deprecated"
+* ^property[=].type = #dateTime
+* ^property[+].code = #status
+* ^property[=].uri = "http://hl7.org/fhir/concept-properties#status"
+* ^property[=].description = "A property that indicates the status of the concept."
+* ^property[=].type = #code
+* ^property[+].code = #retirementDate
+* ^property[=].uri = "http://hl7.org/fhir/concept-properties#retirementDate"
+* ^property[=].description = "Date Concept was retired"
+* ^property[=].type = #dateTime
 * #C "Civil"
 * #C ^property[0].code = #dateValid
 * #C ^property[=].valueDateTime = "2007-07-25T15:04:35+01:00"
 * #C ^property[+].code = #dateMaj
 * #C ^property[=].valueDateTime = "2007-07-25T15:04:35+01:00"
+* #C ^property[+].code = #status
+* #C ^property[=].valueCode = #active
 * #E "Etudiant"
 * #E ^property[0].code = #dateValid
 * #E ^property[=].valueDateTime = "2015-12-21T00:00:00+01:00"
 * #E ^property[+].code = #dateMaj
 * #E ^property[=].valueDateTime = "2015-12-21T00:00:00+01:00"
+* #E ^property[+].code = #status
+* #E ^property[=].valueCode = #active
 * #F "Fonctionnaire d'Etat ou de collectivité locale"
 * #F ^designation.language = #fr-FR
 * #F ^designation.use = $sct#900000000000013009
@@ -43,8 +60,12 @@ Description: "Catégorie professionnelle"
 * #F ^property[=].valueDateTime = "2007-07-25T15:04:35+01:00"
 * #F ^property[+].code = #dateMaj
 * #F ^property[=].valueDateTime = "2016-09-01T00:00:00+01:00"
+* #F ^property[+].code = #status
+* #F ^property[=].valueCode = #active
 * #M "Agent public"
 * #M ^property[0].code = #dateValid
 * #M ^property[=].valueDateTime = "2007-07-25T15:04:35+01:00"
 * #M ^property[+].code = #dateMaj
 * #M ^property[=].valueDateTime = "2024-03-29T12:00:00+01:00"
+* #M ^property[+].code = #status
+* #M ^property[=].valueCode = #active

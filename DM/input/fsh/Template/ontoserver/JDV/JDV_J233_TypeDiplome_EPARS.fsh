@@ -1,9 +1,10 @@
 ValueSet: JDV_J233_TypeDiplome_EPARS
 Id: JDV-J233-TypeDiplome-EPARS
 Description: "Jeu de valeur intégrant les types de diplômes pour EPARS"
-* ^meta.versionId = "4"
-* ^meta.lastUpdated = "2025-04-25T17:01:49.683+00:00"
+* ^meta.versionId = "5"
+* ^meta.lastUpdated = "2025-07-02T17:06:01.303+00:00"
 * ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablevalueset"
+* ^language = #fr-FR
 * ^extension.url = "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod"
 * ^extension.valuePeriod.start = "2022-07-29T12:00:00+01:00"
 * ^url = "https://mos.esante.gouv.fr/NOS/JDV_J233-TypeDiplome-EPARS/FHIR/JDV-J233-TypeDiplome-EPARS"
@@ -14,6 +15,7 @@ Description: "Jeu de valeur intégrant les types de diplômes pour EPARS"
 * ^experimental = false
 * ^date = "2025-04-25T12:00:00+01:00"
 * ^publisher = "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris"
+* ^jurisdiction = urn:iso:std:iso:3166#FR
 * $TRE-R14-TypeDiplome#DE "Diplôme d'Etat français"
 * $TRE-R14-TypeDiplome#AU "Autre type de diplôme"
 * $TRE-R14-TypeDiplome#DU "Diplôme d'université (DU) ou inter-universitaire (DIU)"

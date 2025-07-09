@@ -1,9 +1,10 @@
 ValueSet: JDV_J01_XdsAuthorSpecialty_CISIS
 Id: JDV-J01-XdsAuthorSpecialty-CISIS
 Description: "XDS authorSpecialty CI-SIS"
-* ^meta.versionId = "8"
-* ^meta.lastUpdated = "2025-03-31T17:32:50.992+00:00"
+* ^meta.versionId = "9"
+* ^meta.lastUpdated = "2025-07-02T17:04:31.682+00:00"
 * ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablevalueset"
+* ^language = #fr-FR
 * ^extension.url = "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod"
 * ^extension.valuePeriod.start = "2012-11-12T00:00:00+01:00"
 * ^url = "https://mos.esante.gouv.fr/NOS/JDV_J01-XdsAuthorSpecialty-CISIS/FHIR/JDV-J01-XdsAuthorSpecialty-CISIS"
@@ -14,6 +15,7 @@ Description: "XDS authorSpecialty CI-SIS"
 * ^experimental = false
 * ^date = "2025-03-28T12:00:00+01:00"
 * ^publisher = "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris"
+* ^jurisdiction = urn:iso:std:iso:3166#FR
 * $TRE-A00-ProducteurDocNonPS#ALIM_AM "Alimentation automatique à partir du Système d'Information de l'Assurance Maladie"
 * $TRE-A00-ProducteurDocNonPS#DISPOSITIF "Dispositif médical"
 * $TRE-A00-ProducteurDocNonPS#EXP_PATIENT "Expression personnelle du patient"

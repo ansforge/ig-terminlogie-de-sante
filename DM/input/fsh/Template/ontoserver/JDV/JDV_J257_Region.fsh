@@ -1,9 +1,10 @@
 ValueSet: JDV_J257_Region
 Id: JDV-J257-Region
 Description: "Tous les codes actifs des régions et collectivités d'outre-mer actives + Monaco du COG INSEE"
-* ^meta.versionId = "4"
-* ^meta.lastUpdated = "2024-06-28T16:10:04.068+00:00"
+* ^meta.versionId = "5"
+* ^meta.lastUpdated = "2025-07-02T17:06:14.588+00:00"
 * ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablevalueset"
+* ^language = #fr-FR
 * ^extension.url = "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod"
 * ^extension.valuePeriod.start = "2024-01-26T12:00:00+01:00"
 * ^url = "https://mos.esante.gouv.fr/NOS/JDV_J257-Region/FHIR/JDV-J257-Region"
@@ -14,6 +15,7 @@ Description: "Tous les codes actifs des régions et collectivités d'outre-mer a
 * ^experimental = false
 * ^date = "2024-06-28T12:00:00+01:00"
 * ^publisher = "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris"
+* ^jurisdiction = urn:iso:std:iso:3166#FR
 * $TRE-R30-RegionOM#01 "Guadeloupe"
 * $TRE-R30-RegionOM#02 "Martinique"
 * $TRE-R30-RegionOM#03 "Guyane"

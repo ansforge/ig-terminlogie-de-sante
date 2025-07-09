@@ -1,8 +1,8 @@
 CodeSystem: TRE_R369_ProfilUtilisateurReferentielNational
 Id: TRE-R369-ProfilUtilisateurReferentielNational
 Description: "Profils utilisateur d'un référentiel national"
-* ^meta.versionId = "6"
-* ^meta.lastUpdated = "2025-03-31T18:11:30.372+00:00"
+* ^meta.versionId = "7"
+* ^meta.lastUpdated = "2025-07-02T18:17:59.592+00:00"
 * ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablecodesystem"
 * ^extension.url = "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod"
 * ^extension.valuePeriod.start = "2024-10-25T12:00:00+01:00"
@@ -14,6 +14,7 @@ Description: "Profils utilisateur d'un référentiel national"
 * ^experimental = false
 * ^date = "2025-03-28T12:00:00+01:00"
 * ^publisher = "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris"
+* ^jurisdiction = urn:iso:std:iso:3166#FR
 * ^caseSensitive = false
 * ^content = #complete
 * ^property[0].code = #dateValid

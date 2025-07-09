@@ -1,8 +1,8 @@
 CodeSystem: TRE_R248_ModeAcces
 Id: TRE-R248-ModeAcces
 Description: "Mode d'accès pour accéder à un SI santé avec données patients"
-* ^meta.versionId = "7"
-* ^meta.lastUpdated = "2025-02-10T16:01:16.721+00:00"
+* ^meta.versionId = "8"
+* ^meta.lastUpdated = "2025-07-02T18:16:36.264+00:00"
 * ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablecodesystem"
 * ^extension.url = "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod"
 * ^extension.valuePeriod.start = "2017-10-13T12:00:00+01:00"
@@ -14,6 +14,7 @@ Description: "Mode d'accès pour accéder à un SI santé avec données patients
 * ^experimental = false
 * ^date = "2025-01-31T12:00:00+01:00"
 * ^publisher = "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris"
+* ^jurisdiction = urn:iso:std:iso:3166#FR
 * ^caseSensitive = false
 * ^content = #complete
 * ^property[0].code = #dateValid
@@ -25,11 +26,25 @@ Description: "Mode d'accès pour accéder à un SI santé avec données patients
 * ^property[+].code = #dateFin
 * ^property[=].description = "Date de fin d'exploitation d'un code concept"
 * ^property[=].type = #dateTime
+* ^property[+].code = #deprecationDate
+* ^property[=].uri = "http://hl7.org/fhir/concept-properties#deprecationDate"
+* ^property[=].description = "Date Concept was deprecated"
+* ^property[=].type = #dateTime
+* ^property[+].code = #status
+* ^property[=].uri = "http://hl7.org/fhir/concept-properties#status"
+* ^property[=].description = "A property that indicates the status of the concept."
+* ^property[=].type = #code
+* ^property[+].code = #retirementDate
+* ^property[=].uri = "http://hl7.org/fhir/concept-properties#retirementDate"
+* ^property[=].description = "Date Concept was retired"
+* ^property[=].type = #dateTime
 * #normal "Accès normal"
 * #normal ^property[0].code = #dateValid
 * #normal ^property[=].valueDateTime = "2017-10-13T12:00:00+01:00"
 * #normal ^property[+].code = #dateMaj
 * #normal ^property[=].valueDateTime = "2017-10-13T12:00:00+01:00"
+* #normal ^property[+].code = #status
+* #normal ^property[=].valueCode = #active
 * #bris_de_glace "Accès en bris de glace"
 * #bris_de_glace ^designation.language = #fr-FR
 * #bris_de_glace ^designation.use.system = "http://snomed.info/sct"
@@ -39,6 +54,8 @@ Description: "Mode d'accès pour accéder à un SI santé avec données patients
 * #bris_de_glace ^property[=].valueDateTime = "2017-10-13T12:00:00+01:00"
 * #bris_de_glace ^property[+].code = #dateMaj
 * #bris_de_glace ^property[=].valueDateTime = "2017-10-13T12:00:00+01:00"
+* #bris_de_glace ^property[+].code = #status
+* #bris_de_glace ^property[=].valueCode = #active
 * #centre_15 "Accès par un centre de régulation médicale"
 * #centre_15 ^designation.language = #fr-FR
 * #centre_15 ^designation.use = $sct#900000000000013009
@@ -47,3 +64,5 @@ Description: "Mode d'accès pour accéder à un SI santé avec données patients
 * #centre_15 ^property[=].valueDateTime = "2017-10-13T12:00:00+01:00"
 * #centre_15 ^property[+].code = #dateMaj
 * #centre_15 ^property[=].valueDateTime = "2017-10-13T12:00:00+01:00"
+* #centre_15 ^property[+].code = #status
+* #centre_15 ^property[=].valueCode = #active

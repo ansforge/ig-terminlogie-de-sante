@@ -1,9 +1,10 @@
 ValueSet: JDV_J171_TypeAutorisation_EPARS
 Id: JDV-J171-TypeAutorisation-EPARS
 Description: "Types d'autorisation d'exercice pour EPARS"
-* ^meta.versionId = "8"
-* ^meta.lastUpdated = "2025-05-26T17:00:33.189+00:00"
+* ^meta.versionId = "9"
+* ^meta.lastUpdated = "2025-07-02T17:05:27.845+00:00"
 * ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablevalueset"
+* ^language = #fr-FR
 * ^extension.url = "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod"
 * ^extension.valuePeriod.start = "2021-06-25T12:00:00+01:00"
 * ^url = "https://mos.esante.gouv.fr/NOS/JDV_J171-TypeAutorisation-EPARS/FHIR/JDV-J171-TypeAutorisation-EPARS"
@@ -14,6 +15,7 @@ Description: "Types d'autorisation d'exercice pour EPARS"
 * ^experimental = false
 * ^date = "2025-05-23T12:00:00+01:00"
 * ^publisher = "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris"
+* ^jurisdiction = urn:iso:std:iso:3166#FR
 * $TRE-R17-TypeAutorisation#AM01 "Autorisation de plein exercice"
 * $TRE-R17-TypeAutorisation#AM14 "Arrangement France-Québec (art L 4111-3-1 CSP)"
 * $TRE-R17-TypeAutorisation#AM22 "Agrément Caisse Régionale d'Assurance Maladie"

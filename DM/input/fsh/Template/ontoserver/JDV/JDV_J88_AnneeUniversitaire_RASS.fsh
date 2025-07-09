@@ -1,9 +1,10 @@
 ValueSet: JDV_J88_AnneeUniversitaire_RASS
 Id: JDV-J88-AnneeUniversitaire-RASS
 Description: "Années universitaires des professionnels du RASS"
-* ^meta.versionId = "3"
-* ^meta.lastUpdated = "2024-04-27T05:08:08.762+00:00"
+* ^meta.versionId = "4"
+* ^meta.lastUpdated = "2025-07-02T17:06:54.476+00:00"
 * ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablevalueset"
+* ^language = #fr-FR
 * ^extension.url = "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod"
 * ^extension.valuePeriod.start = "2019-08-30T12:00:00+01:00"
 * ^url = "https://mos.esante.gouv.fr/NOS/JDV_J88-AnneeUniversitaire-RASS/FHIR/JDV-J88-AnneeUniversitaire-RASS"
@@ -14,6 +15,7 @@ Description: "Années universitaires des professionnels du RASS"
 * ^experimental = false
 * ^date = "2020-04-24T12:00:00+01:00"
 * ^publisher = "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris"
+* ^jurisdiction = urn:iso:std:iso:3166#FR
 * $TRE-R225-AnneeUniversitaire#AU1011 "2010-2011"
 * $TRE-R225-AnneeUniversitaire#AU1112 "2011-2012"
 * $TRE-R225-AnneeUniversitaire#AU1213 "2012-2013"

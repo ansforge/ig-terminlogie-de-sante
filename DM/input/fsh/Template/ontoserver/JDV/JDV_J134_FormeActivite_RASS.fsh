@@ -1,9 +1,10 @@
 ValueSet: JDV_J134_FormeActivite_RASS
 Id: JDV-J134-FormeActivite-RASS
 Description: "Type d'organisation de prise en charge du RASS"
-* ^meta.versionId = "4"
-* ^meta.lastUpdated = "2024-06-28T16:09:48.645+00:00"
+* ^meta.versionId = "5"
+* ^meta.lastUpdated = "2025-07-02T17:05:01.041+00:00"
 * ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablevalueset"
+* ^language = #fr-FR
 * ^extension.url = "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod"
 * ^extension.valuePeriod.start = "2020-11-27T12:00:00+01:00"
 * ^url = "https://mos.esante.gouv.fr/NOS/JDV_J134-FormeActivite-RASS/FHIR/JDV-J134-FormeActivite-RASS"
@@ -14,6 +15,7 @@ Description: "Type d'organisation de prise en charge du RASS"
 * ^experimental = false
 * ^date = "2024-06-28T12:00:00+01:00"
 * ^publisher = "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris"
+* ^jurisdiction = urn:iso:std:iso:3166#FR
 * $TRE-R276-FormeActivite#00 "Pas de forme"
 * $TRE-R276-FormeActivite#01 "Hospitalisation complète (24 heures consécutives ou plus)"
 * $TRE-R276-FormeActivite#02 "Hospitalisation à temps partiel de jour ou de nuit"

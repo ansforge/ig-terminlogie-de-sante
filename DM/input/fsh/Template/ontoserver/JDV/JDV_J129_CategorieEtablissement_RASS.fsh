@@ -1,9 +1,10 @@
 ValueSet: JDV_J129_CategorieEtablissement_RASS
 Id: JDV-J129-CategorieEtablissement-RASS
 Description: "Catégorie d'établissement du RASS"
-* ^meta.versionId = "12"
-* ^meta.lastUpdated = "2024-10-31T18:01:34.510+00:00"
+* ^meta.versionId = "13"
+* ^meta.lastUpdated = "2025-07-02T17:04:57.875+00:00"
 * ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablevalueset"
+* ^language = #fr-FR
 * ^extension.url = "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod"
 * ^extension.valuePeriod.start = "2020-11-27T12:00:00+01:00"
 * ^url = "https://mos.esante.gouv.fr/NOS/JDV_J129-CategorieEtablissement-RASS/FHIR/JDV-J129-CategorieEtablissement-RASS"
@@ -14,6 +15,7 @@ Description: "Catégorie d'établissement du RASS"
 * ^experimental = false
 * ^date = "2024-10-25T12:00:00+01:00"
 * ^publisher = "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris"
+* ^jurisdiction = urn:iso:std:iso:3166#FR
 * $TRE-R66-CategorieEtablissement#001 "Autres lits de m.R."
 * $TRE-R66-CategorieEtablissement#002 "Autres places de l-f."
 * $TRE-R66-CategorieEtablissement#003 "Autres lits de l-s"

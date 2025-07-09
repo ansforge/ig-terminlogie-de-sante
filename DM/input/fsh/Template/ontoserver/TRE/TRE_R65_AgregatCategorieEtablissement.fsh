@@ -1,8 +1,8 @@
 CodeSystem: TRE_R65_AgregatCategorieEtablissement
 Id: TRE-R65-AgregatCategorieEtablissement
 Description: "Agrégat de catégories d'établissements"
-* ^meta.versionId = "6"
-* ^meta.lastUpdated = "2025-02-28T19:12:18.253+00:00"
+* ^meta.versionId = "7"
+* ^meta.lastUpdated = "2025-07-02T18:18:31.138+00:00"
 * ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablecodesystem"
 * ^extension.url = "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod"
 * ^extension.valuePeriod.start = "1979-01-01T00:00:00+01:00"
@@ -14,6 +14,7 @@ Description: "Agrégat de catégories d'établissements"
 * ^experimental = false
 * ^date = "2025-02-28T12:00:00+01:00"
 * ^publisher = "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris"
+* ^jurisdiction = urn:iso:std:iso:3166#FR
 * ^caseSensitive = false
 * ^content = #complete
 * ^property[0].code = #dateValid

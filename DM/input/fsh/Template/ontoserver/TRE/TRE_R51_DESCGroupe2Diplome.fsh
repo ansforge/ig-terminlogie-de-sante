@@ -1,8 +1,8 @@
 CodeSystem: TRE_R51_DESCGroupe2Diplome
 Id: TRE-R51-DESCGroupe2Diplome
 Description: "DESC Groupe 2 (diplôme)"
-* ^meta.versionId = "4"
-* ^meta.lastUpdated = "2024-08-28T05:13:56.112+00:00"
+* ^meta.versionId = "5"
+* ^meta.lastUpdated = "2025-07-02T18:18:14.878+00:00"
 * ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablecodesystem"
 * ^extension.url = "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod"
 * ^extension.valuePeriod.start = "2011-01-17T11:47:08+01:00"
@@ -14,6 +14,7 @@ Description: "DESC Groupe 2 (diplôme)"
 * ^experimental = false
 * ^date = "2023-12-15T12:00:00+01:00"
 * ^publisher = "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris"
+* ^jurisdiction = urn:iso:std:iso:3166#FR
 * ^caseSensitive = false
 * ^content = #complete
 * ^property[0].code = #dateValid
@@ -25,6 +26,18 @@ Description: "DESC Groupe 2 (diplôme)"
 * ^property[+].code = #dateFin
 * ^property[=].description = "Date de fin d'exploitation d'un code concept"
 * ^property[=].type = #dateTime
+* ^property[+].code = #deprecationDate
+* ^property[=].uri = "http://hl7.org/fhir/concept-properties#deprecationDate"
+* ^property[=].description = "Date Concept was deprecated"
+* ^property[=].type = #dateTime
+* ^property[+].code = #status
+* ^property[=].uri = "http://hl7.org/fhir/concept-properties#status"
+* ^property[=].description = "A property that indicates the status of the concept."
+* ^property[=].type = #code
+* ^property[+].code = #retirementDate
+* ^property[=].uri = "http://hl7.org/fhir/concept-properties#retirementDate"
+* ^property[=].description = "Date Concept was retired"
+* ^property[=].type = #dateTime
 * #DSM400 "DESC2 Chirurgie infantile"
 * #DSM400 ^designation.language = #fr-FR
 * #DSM400 ^designation.use.system = "http://snomed.info/sct"
@@ -34,6 +47,8 @@ Description: "DESC Groupe 2 (diplôme)"
 * #DSM400 ^property[=].valueDateTime = "2007-07-25T15:04:42+01:00"
 * #DSM400 ^property[+].code = #dateMaj
 * #DSM400 ^property[=].valueDateTime = "2011-01-17T11:47:08+01:00"
+* #DSM400 ^property[+].code = #status
+* #DSM400 ^property[=].valueCode = #active
 * #DSM401 "DESC2 Chirurgie maxillo-faciale"
 * #DSM401 ^designation.language = #fr-FR
 * #DSM401 ^designation.use.system = "http://snomed.info/sct"
@@ -43,6 +58,8 @@ Description: "DESC Groupe 2 (diplôme)"
 * #DSM401 ^property[=].valueDateTime = "2007-07-25T15:04:42+01:00"
 * #DSM401 ^property[+].code = #dateMaj
 * #DSM401 ^property[=].valueDateTime = "2016-09-01T00:00:00+01:00"
+* #DSM401 ^property[+].code = #status
+* #DSM401 ^property[=].valueCode = #active
 * #DSM402 "DESC2 Chirurgie maxillo-faciale et Stomatologie"
 * #DSM402 ^designation.language = #fr-FR
 * #DSM402 ^designation.use.system = "http://snomed.info/sct"
@@ -52,6 +69,8 @@ Description: "DESC Groupe 2 (diplôme)"
 * #DSM402 ^property[=].valueDateTime = "2007-07-25T15:04:42+01:00"
 * #DSM402 ^property[+].code = #dateMaj
 * #DSM402 ^property[=].valueDateTime = "2016-09-01T00:00:00+01:00"
+* #DSM402 ^property[+].code = #status
+* #DSM402 ^property[=].valueCode = #active
 * #DSM403 "DESC2 Chirurgie de la face et du cou"
 * #DSM403 ^designation.language = #fr-FR
 * #DSM403 ^designation.use.system = "http://snomed.info/sct"
@@ -61,6 +80,8 @@ Description: "DESC Groupe 2 (diplôme)"
 * #DSM403 ^property[=].valueDateTime = "2007-07-25T15:04:42+01:00"
 * #DSM403 ^property[+].code = #dateMaj
 * #DSM403 ^property[=].valueDateTime = "2016-09-01T00:00:00+01:00"
+* #DSM403 ^property[+].code = #status
+* #DSM403 ^property[=].valueCode = #active
 * #DSM404 "DESC2 Chirurgie orthopédique et Traumatologie"
 * #DSM404 ^designation.language = #fr-FR
 * #DSM404 ^designation.use.system = "http://snomed.info/sct"
@@ -70,6 +91,8 @@ Description: "DESC Groupe 2 (diplôme)"
 * #DSM404 ^property[=].valueDateTime = "2007-07-25T15:04:42+01:00"
 * #DSM404 ^property[+].code = #dateMaj
 * #DSM404 ^property[=].valueDateTime = "2016-09-01T00:00:00+01:00"
+* #DSM404 ^property[+].code = #status
+* #DSM404 ^property[=].valueCode = #active
 * #DSM405 "DESC2 Chirurgie plastique, reconstructrice et esthétique"
 * #DSM405 ^designation.language = #fr-FR
 * #DSM405 ^designation.use.system = "http://snomed.info/sct"
@@ -79,6 +102,8 @@ Description: "DESC Groupe 2 (diplôme)"
 * #DSM405 ^property[=].valueDateTime = "2007-07-25T15:04:42+01:00"
 * #DSM405 ^property[+].code = #dateMaj
 * #DSM405 ^property[=].valueDateTime = "2016-09-01T00:00:00+01:00"
+* #DSM405 ^property[+].code = #status
+* #DSM405 ^property[=].valueCode = #active
 * #DSM406 "DESC2 Chirurgie thoracique et cardio-vasculaire"
 * #DSM406 ^designation.language = #fr-FR
 * #DSM406 ^designation.use.system = "http://snomed.info/sct"
@@ -88,6 +113,8 @@ Description: "DESC Groupe 2 (diplôme)"
 * #DSM406 ^property[=].valueDateTime = "2007-07-25T15:04:42+01:00"
 * #DSM406 ^property[+].code = #dateMaj
 * #DSM406 ^property[=].valueDateTime = "2016-09-01T00:00:00+01:00"
+* #DSM406 ^property[+].code = #status
+* #DSM406 ^property[=].valueCode = #active
 * #DSM407 "DESC2 Chirurgie urologique"
 * #DSM407 ^designation.language = #fr-FR
 * #DSM407 ^designation.use.system = "http://snomed.info/sct"
@@ -97,6 +124,8 @@ Description: "DESC Groupe 2 (diplôme)"
 * #DSM407 ^property[=].valueDateTime = "2007-07-25T15:04:42+01:00"
 * #DSM407 ^property[+].code = #dateMaj
 * #DSM407 ^property[=].valueDateTime = "2016-09-01T00:00:00+01:00"
+* #DSM407 ^property[+].code = #status
+* #DSM407 ^property[=].valueCode = #active
 * #DSM408 "DESC2 Chirurgie vasculaire"
 * #DSM408 ^designation.language = #fr-FR
 * #DSM408 ^designation.use.system = "http://snomed.info/sct"
@@ -106,6 +135,8 @@ Description: "DESC Groupe 2 (diplôme)"
 * #DSM408 ^property[=].valueDateTime = "2007-07-25T15:04:42+01:00"
 * #DSM408 ^property[+].code = #dateMaj
 * #DSM408 ^property[=].valueDateTime = "2016-09-01T00:00:00+01:00"
+* #DSM408 ^property[+].code = #status
+* #DSM408 ^property[=].valueCode = #active
 * #DSM409 "DESC2 Chirurgie viscérale et digestive"
 * #DSM409 ^designation.language = #fr-FR
 * #DSM409 ^designation.use = $sct#900000000000013009
@@ -114,13 +145,19 @@ Description: "DESC Groupe 2 (diplôme)"
 * #DSM409 ^property[=].valueDateTime = "2007-07-25T15:04:42+01:00"
 * #DSM409 ^property[+].code = #dateMaj
 * #DSM409 ^property[=].valueDateTime = "2016-09-01T00:00:00+01:00"
+* #DSM409 ^property[+].code = #status
+* #DSM409 ^property[=].valueCode = #active
 * #DSM410 "DESC2 Gériatrie"
 * #DSM410 ^property[0].code = #dateValid
 * #DSM410 ^property[=].valueDateTime = "2007-07-25T15:04:42+01:00"
 * #DSM410 ^property[+].code = #dateMaj
 * #DSM410 ^property[=].valueDateTime = "2011-01-17T11:47:08+01:00"
+* #DSM410 ^property[+].code = #status
+* #DSM410 ^property[=].valueCode = #active
 * #DSM411 "DESC2 Réanimation médicale"
 * #DSM411 ^property[0].code = #dateValid
 * #DSM411 ^property[=].valueDateTime = "2007-07-25T15:04:42+01:00"
 * #DSM411 ^property[+].code = #dateMaj
 * #DSM411 ^property[=].valueDateTime = "2016-09-01T00:00:00+01:00"
+* #DSM411 ^property[+].code = #status
+* #DSM411 ^property[=].valueCode = #active

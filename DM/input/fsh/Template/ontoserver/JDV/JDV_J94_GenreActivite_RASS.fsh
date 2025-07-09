@@ -1,9 +1,10 @@
 ValueSet: JDV_J94_GenreActivite_RASS
 Id: JDV-J94-GenreActivite-RASS
 Description: "Activités des professionnels RASS nécessitant des règles de gestion spécifiques"
-* ^meta.versionId = "4"
-* ^meta.lastUpdated = "2024-04-27T05:08:11.093+00:00"
+* ^meta.versionId = "5"
+* ^meta.lastUpdated = "2025-07-02T17:06:57.217+00:00"
 * ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablevalueset"
+* ^language = #fr-FR
 * ^extension.url = "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod"
 * ^extension.valuePeriod.start = "2019-08-30T12:00:00+01:00"
 * ^url = "https://mos.esante.gouv.fr/NOS/JDV_J94-GenreActivite-RASS/FHIR/JDV-J94-GenreActivite-RASS"
@@ -14,6 +15,7 @@ Description: "Activités des professionnels RASS nécessitant des règles de ges
 * ^experimental = false
 * ^date = "2024-03-29T12:00:00+01:00"
 * ^publisher = "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris"
+* ^jurisdiction = urn:iso:std:iso:3166#FR
 * $TRE-R22-GenreActivite#GENR01 "Activité de soin et de pharmacie"
 * $TRE-R22-GenreActivite#GENR02 "Activité de soins ou de pharmacien en tant que remplaçant"
 * $TRE-R22-GenreActivite#GENR03 "Remplacement dans une activité de soins"

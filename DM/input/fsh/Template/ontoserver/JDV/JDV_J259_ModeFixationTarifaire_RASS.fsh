@@ -1,9 +1,10 @@
 ValueSet: JDV_J259_ModeFixationTarifaire_RASS
 Id: JDV-J259-ModeFixationTarifaire-RASS
 Description: "Mode de fixation tarifaire du RASS"
-* ^meta.versionId = "1"
-* ^meta.lastUpdated = "2024-09-29T19:01:15.632+00:00"
+* ^meta.versionId = "2"
+* ^meta.lastUpdated = "2025-07-02T17:06:15.788+00:00"
 * ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablevalueset"
+* ^language = #fr-FR
 * ^extension.url = "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod"
 * ^extension.valuePeriod.start = "2024-09-27T12:00:00+01:00"
 * ^url = "https://mos.esante.gouv.fr/NOS/JDV_J259-ModeFixationTarifaire-RASS/FHIR/JDV-J259-ModeFixationTarifaire-RASS"
@@ -14,6 +15,7 @@ Description: "Mode de fixation tarifaire du RASS"
 * ^experimental = false
 * ^date = "2024-09-27T12:00:00+01:00"
 * ^publisher = "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris"
+* ^jurisdiction = urn:iso:std:iso:3166#FR
 * $TRE-R74-ModeFixationTarifaire#01 "Etablissement Tarif Libre"
 * $TRE-R74-ModeFixationTarifaire#02 "Autorité Ministérielle"
 * $TRE-R74-ModeFixationTarifaire#03 "ARS établissements publics de santé dotation globale"
