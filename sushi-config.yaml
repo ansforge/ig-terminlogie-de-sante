@@ -22,7 +22,7 @@ dependencies:
    hl7.fhir.uv.ips: 1.1.0
 
 parameters:
-    #pin-canonicals : pin-multiples
+    pin-canonicals : pin-multiples
     apply-version: false
     apply-contact : false
     apply-publisher : false
