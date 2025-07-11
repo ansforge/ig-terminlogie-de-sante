@@ -18,7 +18,6 @@ Description: "Nomenclature des activités sanitaires utilisée pour décrire les
 * ^date = "2025-02-20"
 * ^publisher = "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris"
 * ^caseSensitive = false
-* ^valueSet = "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r347-activite-sanitaire-diverse-regulee?vs"
 * ^content = #complete
 * ^hierarchyMeaning = #is-a
 * ^property[0].code = #parent
