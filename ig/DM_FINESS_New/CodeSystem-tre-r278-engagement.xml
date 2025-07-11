@@ -29,6 +29,7 @@
   <publisher value="Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris"/>
   <description value="Nomenclature des engagements associés dans FINESS+ aux Personnes morales, aux entités géographique, aux groupements ou à leurs activités"/>
   <caseSensitive value="false"/>
+  <valueSet value="https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r278-engagement?vs"/>
   <content value="complete"/>
   <count value="35"/>
   <property>

@@ -1136,8 +1136,8 @@
     },
     {
       "url" : "https://mos.esante.gouv.fr/NOS/TRE_R278-FinessConvention/FHIR/TRE-R278-FinessConvention",
-      "version" : "20250131120000",
-      "status" : "active",
+      "version" : "20250709120000",
+      "status" : "retired",
       "name" : "TRE_R278_FinessConvention",
       "title" : null,
       "description" : "Convention du domaine social FINESS",

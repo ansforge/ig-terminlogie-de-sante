@@ -1,11 +1,11 @@
 {
   "resourceType" : "CodeSystem",
-  "id" : "dc7425aa-2d2f-4b7e-9ce2-4d8f876abacc-612",
-  "url" : "http://hl7.org/fhir/comparison/CodeSystem/dc7425aa-2d2f-4b7e-9ce2-4d8f876abacc-612",
+  "id" : "aeaee321-a6a2-4478-96c1-4125c4ffc719-612",
+  "url" : "http://hl7.org/fhir/comparison/CodeSystem/aeaee321-a6a2-4478-96c1-4125c4ffc719-612",
   "name" : "IntersectionTRE_R37_TypeProfessionFonctionAndTRE_R37_TypeProfessionFonction",
   "title" : "Intersection of null And null",
   "status" : "active",
-  "date" : "2025-07-08T14:29:06+00:00",
+  "date" : "2025-07-11T07:38:31+00:00",
   "jurisdiction" : [{
     "coding" : [{
       "system" : "urn:iso:std:iso:3166",

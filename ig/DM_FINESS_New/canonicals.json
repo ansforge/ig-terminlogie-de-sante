@@ -3383,17 +3383,9 @@
     "id" : "TRE-R278-FinessConvention",
     "type" : "CodeSystem",
     "url" : "https://mos.esante.gouv.fr/NOS/TRE_R278-FinessConvention/FHIR/TRE-R278-FinessConvention",
-    "version" : "20250131120000",
+    "version" : "20250709120000",
     "name" : "TRE_R278_FinessConvention",
     "oids" : ["1.2.250.1.213.1.6.1.131"]
-  },
-  {
-    "id" : "vs-tre-r278-engagement-all",
-    "type" : "ValueSet",
-    "url" : "https://mos.esante.gouv.fr/NOS/TRE_R278-FinessConvention/FHIR/TRE-R278-FinessConvention?vs",
-    "version" : "20250222120000",
-    "name" : "VsTreR278EngagementAll",
-    "oids" : ["1.2.250.1.213.1.6.1.322"]
   },
   {
     "id" : "TRE-R279-Clientele",
@@ -4596,20 +4588,20 @@
     "oids" : ["1.2.250.1.213.1.6.1.131"]
   },
   {
+    "id" : "vs-tre-r278-engagement-all",
+    "type" : "ValueSet",
+    "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r278-engagement?vs",
+    "version" : "20250222120000",
+    "name" : "VsTreR278EngagementAll",
+    "oids" : ["1.2.250.1.213.1.6.1.322"]
+  },
+  {
     "id" : "tre-r347-activite-sanitaire-diverse-regulee",
     "type" : "CodeSystem",
     "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r347-activite-sanitaire-diverse-regulee",
     "version" : "20250220120000",
     "name" : "TreR347ActiviteSanitaireDiverseRegulee",
     "oids" : ["1.2.250.1.213.1.6.1.248"]
-  },
-  {
-    "id" : "vs-tre-r347-activite-sanitaire-diverse-regulee-all",
-    "type" : "ValueSet",
-    "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r347-activite-sanitaire-diverse-regulee?vs",
-    "version" : "20250222120000",
-    "name" : "VsTreR347ActiviteSanitaireDiverseReguleeAll",
-    "oids" : ["1.2.250.1.213.1.6.1.250"]
   },
   {
     "id" : "tre-r360-type-role-entite-groupe",
@@ -6506,6 +6498,14 @@
     "oids" : ["1.2.250.1.213.1.1.5.731"]
   },
   {
+    "id" : "jdv-j240-activite-sanitaire-diverse-regulee-finess",
+    "type" : "ValueSet",
+    "url" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j240-activite-sanitaire-diverse-regulee-finess",
+    "version" : "20250710120000",
+    "name" : "JdvJ240ActiviteSanitaireDiverseReguleeFiness",
+    "oids" : ["1.2.250.1.213.1.6.1.250"]
+  },
+  {
     "id" : "jdv-j293-type-engagement-finess",
     "type" : "ValueSet",
     "url" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j293-type-engagement-finess",
@@ -6616,6 +6616,30 @@
     "version" : "20250603120000",
     "name" : "JdvJ332TypeActMedicoSocialeReguleeFiness",
     "oids" : ["1.2.250.1.213.1.6.1.340"]
+  },
+  {
+    "id" : "jdv-j333-agregat-activite-sanitaire-diverse-regulee-niv1-finess",
+    "type" : "ValueSet",
+    "url" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j333-agregat-activite-sanitaire-diverse-regulee-niv1-finess",
+    "version" : "20250710120000",
+    "name" : "JdvJ333ActiviteSanitaireDiverseReguleeNiv1Finess",
+    "oids" : ["1.2.250.1.213.1.6.1.341"]
+  },
+  {
+    "id" : "jdv-j334-activite-sanitaire-diverse-regulee-niv2-finess",
+    "type" : "ValueSet",
+    "url" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j334-activite-sanitaire-diverse-regulee-niv2-finess",
+    "version" : "20250710120000",
+    "name" : "JdvJ334ActiviteSanitaireDiverseReguleeNiv2Finess",
+    "oids" : ["1.2.250.1.213.1.6.1.342"]
+  },
+  {
+    "id" : "jdv-j335-activite-sanitaire-diverse-regulee-niv3-finess",
+    "type" : "ValueSet",
+    "url" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j335-activite-sanitaire-diverse-regulee-niv3-finess",
+    "version" : "20250710120000",
+    "name" : "JdvJ335ActiviteSanitaireDiverseReguleeNiv3Finess",
+    "oids" : ["1.2.250.1.213.1.6.1.343"]
   },
   {
     "id" : "jdv-j336-type-act-sanitaire-diverse-regulee-finess",

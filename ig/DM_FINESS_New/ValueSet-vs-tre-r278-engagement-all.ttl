@@ -19,7 +19,7 @@
   ] ; # 
   fhir:text [
      fhir:status [ fhir:v "generated" ] ;
-     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Narratif généré : EnsembleValeurs vs-tre-r278-engagement-all</b></p><a name=\"vs-tre-r278-engagement-all\"> </a><a name=\"hcvs-tre-r278-engagement-all\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">version: 1; Dernière mise à jour : 2025-02-22 18:02:28+0000</p><p style=\"margin-bottom: 0px\">Profil: <a href=\"http://hl7.org/fhir/R4/shareablevalueset.html\">Shareable ValueSet</a></p></div><ul><li>Include tous les codes définis dans <a href=\"CodeSystem-TRE-R278-FinessConvention.html\"><code>https://mos.esante.gouv.fr/NOS/TRE_R278-FinessConvention/FHIR/TRE-R278-FinessConvention</code></a></li></ul></div>"^^rdf:XMLLiteral
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Narratif généré : EnsembleValeurs vs-tre-r278-engagement-all</b></p><a name=\"vs-tre-r278-engagement-all\"> </a><a name=\"hcvs-tre-r278-engagement-all\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">version: 1; Dernière mise à jour : 2025-02-22 18:02:28+0000</p><p style=\"margin-bottom: 0px\">Profil: <a href=\"http://hl7.org/fhir/R4/shareablevalueset.html\">Shareable ValueSet</a></p></div><ul><li>Include tous les codes définis dans <a href=\"CodeSystem-tre-r278-engagement.html\"><code>https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r278-engagement</code></a></li></ul></div>"^^rdf:XMLLiteral
   ] ; # 
   fhir:extension ( [
      fhir:url [ fhir:v "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod"^^xsd:anyURI ] ;
@@ -28,7 +28,7 @@
        fhir:start [ fhir:v "2025-02-22T18:02:28.249+00:00"^^xsd:dateTime ]
      ]
   ] ) ; # 
-  fhir:url [ fhir:v "https://mos.esante.gouv.fr/NOS/TRE_R278-FinessConvention/FHIR/TRE-R278-FinessConvention?vs"^^xsd:anyURI] ; # 
+  fhir:url [ fhir:v "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r278-engagement?vs"^^xsd:anyURI] ; # 
   fhir:identifier ( [
      fhir:system [ fhir:v "urn:ietf:rfc:3986"^^xsd:anyURI ] ;
      fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.6.1.322" ]
@@ -43,7 +43,7 @@
   fhir:description [ fhir:v "Jeu de valeurs ALL contenant les engagements FINESS"] ; # 
   fhir:compose [
      fhir:include ( [
-       fhir:system [ fhir:v "https://mos.esante.gouv.fr/NOS/TRE_R278-FinessConvention/FHIR/TRE-R278-FinessConvention"^^xsd:anyURI ]
+       fhir:system [ fhir:v "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r278-engagement"^^xsd:anyURI ]
      ] )
   ] . # 
 

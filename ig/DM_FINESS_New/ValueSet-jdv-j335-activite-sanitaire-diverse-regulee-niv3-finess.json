@@ -1,0 +1,290 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "jdv-j335-activite-sanitaire-diverse-regulee-niv3-finess",
+  "meta" : {
+    "versionId" : "1",
+    "lastUpdated" : "2025-07-10T18:02:28.249+00:00",
+    "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset"]
+  },
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Narratif généré : EnsembleValeurs jdv-j335-activite-sanitaire-diverse-regulee-niv3-finess</b></p><a name=\"jdv-j335-activite-sanitaire-diverse-regulee-niv3-finess\"> </a><a name=\"hcjdv-j335-activite-sanitaire-diverse-regulee-niv3-finess\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">version: 1; Dernière mise à jour : 2025-07-10 18:02:28+0000</p><p style=\"margin-bottom: 0px\">Profil: <a href=\"http://hl7.org/fhir/R4/shareablevalueset.html\">Shareable ValueSet</a></p></div><p>Ce jeu de valeur (ValueSet) inclut les codes selon les règles suivantes :</p><ul><li>Inclut codes provenant de<a href=\"CodeSystem-tre-r347-activite-sanitaire-diverse-regulee.html\"><code>https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r347-activite-sanitaire-diverse-regulee</code></a> où parent  = <a href=\"CodeSystem-tre-r347-activite-sanitaire-diverse-regulee.html#tre-r347-activite-sanitaire-diverse-regulee-0210\">0210</a></li><li>Inclut codes provenant de<a href=\"CodeSystem-tre-r347-activite-sanitaire-diverse-regulee.html\"><code>https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r347-activite-sanitaire-diverse-regulee</code></a> où parent  = <a href=\"CodeSystem-tre-r347-activite-sanitaire-diverse-regulee.html#tre-r347-activite-sanitaire-diverse-regulee-0220\">0220</a></li><li>Inclut codes provenant de<a href=\"CodeSystem-tre-r347-activite-sanitaire-diverse-regulee.html\"><code>https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r347-activite-sanitaire-diverse-regulee</code></a> où parent  = <a href=\"CodeSystem-tre-r347-activite-sanitaire-diverse-regulee.html#tre-r347-activite-sanitaire-diverse-regulee-0230\">0230</a></li><li>Inclut codes provenant de<a href=\"CodeSystem-tre-r347-activite-sanitaire-diverse-regulee.html\"><code>https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r347-activite-sanitaire-diverse-regulee</code></a> où parent  = <a href=\"CodeSystem-tre-r347-activite-sanitaire-diverse-regulee.html#tre-r347-activite-sanitaire-diverse-regulee-0240\">0240</a></li><li>Inclut codes provenant de<a href=\"CodeSystem-tre-r347-activite-sanitaire-diverse-regulee.html\"><code>https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r347-activite-sanitaire-diverse-regulee</code></a> où parent  = <a href=\"CodeSystem-tre-r347-activite-sanitaire-diverse-regulee.html#tre-r347-activite-sanitaire-diverse-regulee-0260\">0260</a></li><li>Inclut codes provenant de<a href=\"CodeSystem-tre-r347-activite-sanitaire-diverse-regulee.html\"><code>https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r347-activite-sanitaire-diverse-regulee</code></a> où parent  = <a href=\"CodeSystem-tre-r347-activite-sanitaire-diverse-regulee.html#tre-r347-activite-sanitaire-diverse-regulee-0270\">0270</a></li><li>Inclut codes provenant de<a href=\"CodeSystem-tre-r347-activite-sanitaire-diverse-regulee.html\"><code>https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r347-activite-sanitaire-diverse-regulee</code></a> où parent  = <a href=\"CodeSystem-tre-r347-activite-sanitaire-diverse-regulee.html#tre-r347-activite-sanitaire-diverse-regulee-0280\">0280</a></li><li>Inclut codes provenant de<a href=\"CodeSystem-tre-r347-activite-sanitaire-diverse-regulee.html\"><code>https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r347-activite-sanitaire-diverse-regulee</code></a> où parent  = <a href=\"CodeSystem-tre-r347-activite-sanitaire-diverse-regulee.html#tre-r347-activite-sanitaire-diverse-regulee-0290\">0290</a></li><li>Inclut codes provenant de<a href=\"CodeSystem-tre-r347-activite-sanitaire-diverse-regulee.html\"><code>https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r347-activite-sanitaire-diverse-regulee</code></a> où parent  = <a href=\"CodeSystem-tre-r347-activite-sanitaire-diverse-regulee.html#tre-r347-activite-sanitaire-diverse-regulee-0310\">0310</a></li><li>Inclut codes provenant de<a href=\"CodeSystem-tre-r347-activite-sanitaire-diverse-regulee.html\"><code>https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r347-activite-sanitaire-diverse-regulee</code></a> où parent  = <a href=\"CodeSystem-tre-r347-activite-sanitaire-diverse-regulee.html#tre-r347-activite-sanitaire-diverse-regulee-0320\">0320</a></li><li>Inclut codes provenant de<a href=\"CodeSystem-tre-r347-activite-sanitaire-diverse-regulee.html\"><code>https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r347-activite-sanitaire-diverse-regulee</code></a> où parent  = <a href=\"CodeSystem-tre-r347-activite-sanitaire-diverse-regulee.html#tre-r347-activite-sanitaire-diverse-regulee-0330\">0330</a></li><li>Inclut codes provenant de<a href=\"CodeSystem-tre-r347-activite-sanitaire-diverse-regulee.html\"><code>https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r347-activite-sanitaire-diverse-regulee</code></a> où parent  = <a href=\"CodeSystem-tre-r347-activite-sanitaire-diverse-regulee.html#tre-r347-activite-sanitaire-diverse-regulee-0340\">0340</a></li><li>Inclut codes provenant de<a href=\"CodeSystem-tre-r347-activite-sanitaire-diverse-regulee.html\"><code>https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r347-activite-sanitaire-diverse-regulee</code></a> où parent  = <a href=\"CodeSystem-tre-r347-activite-sanitaire-diverse-regulee.html#tre-r347-activite-sanitaire-diverse-regulee-0350\">0350</a></li><li>Inclut codes provenant de<a href=\"CodeSystem-tre-r347-activite-sanitaire-diverse-regulee.html\"><code>https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r347-activite-sanitaire-diverse-regulee</code></a> où parent  = <a href=\"CodeSystem-tre-r347-activite-sanitaire-diverse-regulee.html#tre-r347-activite-sanitaire-diverse-regulee-0360\">0360</a></li><li>Inclut codes provenant de<a href=\"CodeSystem-tre-r347-activite-sanitaire-diverse-regulee.html\"><code>https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r347-activite-sanitaire-diverse-regulee</code></a> où parent  = <a href=\"CodeSystem-tre-r347-activite-sanitaire-diverse-regulee.html#tre-r347-activite-sanitaire-diverse-regulee-0370\">0370</a></li><li>Inclut codes provenant de<a href=\"CodeSystem-tre-r347-activite-sanitaire-diverse-regulee.html\"><code>https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r347-activite-sanitaire-diverse-regulee</code></a> où parent  = <a href=\"CodeSystem-tre-r347-activite-sanitaire-diverse-regulee.html#tre-r347-activite-sanitaire-diverse-regulee-0380\">0380</a></li><li>Inclut codes provenant de<a href=\"CodeSystem-tre-r347-activite-sanitaire-diverse-regulee.html\"><code>https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r347-activite-sanitaire-diverse-regulee</code></a> où parent  = <a href=\"CodeSystem-tre-r347-activite-sanitaire-diverse-regulee.html#tre-r347-activite-sanitaire-diverse-regulee-0410\">0410</a></li><li>Inclut codes provenant de<a href=\"CodeSystem-tre-r347-activite-sanitaire-diverse-regulee.html\"><code>https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r347-activite-sanitaire-diverse-regulee</code></a> où parent  = <a href=\"CodeSystem-tre-r347-activite-sanitaire-diverse-regulee.html#tre-r347-activite-sanitaire-diverse-regulee-0420\">0420</a></li><li>Inclut codes provenant de<a href=\"CodeSystem-tre-r347-activite-sanitaire-diverse-regulee.html\"><code>https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r347-activite-sanitaire-diverse-regulee</code></a> où parent  = <a href=\"CodeSystem-tre-r347-activite-sanitaire-diverse-regulee.html#tre-r347-activite-sanitaire-diverse-regulee-0430\">0430</a></li><li>Inclut codes provenant de<a href=\"CodeSystem-tre-r347-activite-sanitaire-diverse-regulee.html\"><code>https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r347-activite-sanitaire-diverse-regulee</code></a> où parent  = <a href=\"CodeSystem-tre-r347-activite-sanitaire-diverse-regulee.html#tre-r347-activite-sanitaire-diverse-regulee-0440\">0440</a></li><li>Inclut codes provenant de<a href=\"CodeSystem-tre-r347-activite-sanitaire-diverse-regulee.html\"><code>https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r347-activite-sanitaire-diverse-regulee</code></a> où parent  = <a href=\"CodeSystem-tre-r347-activite-sanitaire-diverse-regulee.html#tre-r347-activite-sanitaire-diverse-regulee-0450\">0450</a></li><li>Inclut codes provenant de<a href=\"CodeSystem-tre-r347-activite-sanitaire-diverse-regulee.html\"><code>https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r347-activite-sanitaire-diverse-regulee</code></a> où parent  = <a href=\"CodeSystem-tre-r347-activite-sanitaire-diverse-regulee.html#tre-r347-activite-sanitaire-diverse-regulee-0460\">0460</a></li><li>Inclut codes provenant de<a href=\"CodeSystem-tre-r347-activite-sanitaire-diverse-regulee.html\"><code>https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r347-activite-sanitaire-diverse-regulee</code></a> où parent  = <a href=\"CodeSystem-tre-r347-activite-sanitaire-diverse-regulee.html#tre-r347-activite-sanitaire-diverse-regulee-0470\">0470</a></li><li>Inclut codes provenant de<a href=\"CodeSystem-tre-r347-activite-sanitaire-diverse-regulee.html\"><code>https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r347-activite-sanitaire-diverse-regulee</code></a> où parent  = <a href=\"CodeSystem-tre-r347-activite-sanitaire-diverse-regulee.html#tre-r347-activite-sanitaire-diverse-regulee-0480\">0480</a></li><li>Inclut codes provenant de<a href=\"CodeSystem-tre-r347-activite-sanitaire-diverse-regulee.html\"><code>https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r347-activite-sanitaire-diverse-regulee</code></a> où parent  = <a href=\"CodeSystem-tre-r347-activite-sanitaire-diverse-regulee.html#tre-r347-activite-sanitaire-diverse-regulee-0510\">0510</a></li><li>Inclut codes provenant de<a href=\"CodeSystem-tre-r347-activite-sanitaire-diverse-regulee.html\"><code>https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r347-activite-sanitaire-diverse-regulee</code></a> où parent  = <a href=\"CodeSystem-tre-r347-activite-sanitaire-diverse-regulee.html#tre-r347-activite-sanitaire-diverse-regulee-0520\">0520</a></li><li>Inclut codes provenant de<a href=\"CodeSystem-tre-r347-activite-sanitaire-diverse-regulee.html\"><code>https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r347-activite-sanitaire-diverse-regulee</code></a> où parent  = <a href=\"CodeSystem-tre-r347-activite-sanitaire-diverse-regulee.html#tre-r347-activite-sanitaire-diverse-regulee-0530\">0530</a></li><li>Inclut codes provenant de<a href=\"CodeSystem-tre-r347-activite-sanitaire-diverse-regulee.html\"><code>https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r347-activite-sanitaire-diverse-regulee</code></a> où parent  = <a href=\"CodeSystem-tre-r347-activite-sanitaire-diverse-regulee.html#tre-r347-activite-sanitaire-diverse-regulee-0610\">0610</a></li><li>Inclut codes provenant de<a href=\"CodeSystem-tre-r347-activite-sanitaire-diverse-regulee.html\"><code>https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r347-activite-sanitaire-diverse-regulee</code></a> où parent  = <a href=\"CodeSystem-tre-r347-activite-sanitaire-diverse-regulee.html#tre-r347-activite-sanitaire-diverse-regulee-0620\">0620</a></li><li>Inclut codes provenant de<a href=\"CodeSystem-tre-r347-activite-sanitaire-diverse-regulee.html\"><code>https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r347-activite-sanitaire-diverse-regulee</code></a> où parent  = <a href=\"CodeSystem-tre-r347-activite-sanitaire-diverse-regulee.html#tre-r347-activite-sanitaire-diverse-regulee-0630\">0630</a></li><li>Inclut codes provenant de<a href=\"CodeSystem-tre-r347-activite-sanitaire-diverse-regulee.html\"><code>https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r347-activite-sanitaire-diverse-regulee</code></a> où parent  = <a href=\"CodeSystem-tre-r347-activite-sanitaire-diverse-regulee.html#tre-r347-activite-sanitaire-diverse-regulee-0640\">0640</a></li><li>Inclut codes provenant de<a href=\"CodeSystem-tre-r347-activite-sanitaire-diverse-regulee.html\"><code>https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r347-activite-sanitaire-diverse-regulee</code></a> où parent  = <a href=\"CodeSystem-tre-r347-activite-sanitaire-diverse-regulee.html#tre-r347-activite-sanitaire-diverse-regulee-0660\">0660</a></li></ul></div>"
+  },
+  "extension" : [{
+    "url" : "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod",
+    "valuePeriod" : {
+      "start" : "2025-07-10T18:02:28.249+00:00"
+    }
+  }],
+  "url" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j335-activite-sanitaire-diverse-regulee-niv3-finess",
+  "identifier" : [{
+    "system" : "urn:ietf:rfc:3986",
+    "value" : "urn:oid:1.2.250.1.213.1.6.1.343"
+  }],
+  "version" : "20250710120000",
+  "name" : "JdvJ335ActiviteSanitaireDiverseReguleeNiv3Finess",
+  "title" : "Jdv J335 Activite Sanitaire Diverse Regulee Niv3 Finess",
+  "status" : "active",
+  "experimental" : false,
+  "date" : "2025-07-10T18:02:28.249+00:00",
+  "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
+  "description" : "Jeu de valeurs FINESS contenant les Activités Sanitaires Diverses Régulées (ASDR) de niveau 3",
+  "compose" : {
+    "include" : [{
+      "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r347-activite-sanitaire-diverse-regulee",
+      "filter" : [{
+        "property" : "parent",
+        "op" : "=",
+        "value" : "0210"
+      }]
+    },
+    {
+      "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r347-activite-sanitaire-diverse-regulee",
+      "filter" : [{
+        "property" : "parent",
+        "op" : "=",
+        "value" : "0220"
+      }]
+    },
+    {
+      "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r347-activite-sanitaire-diverse-regulee",
+      "filter" : [{
+        "property" : "parent",
+        "op" : "=",
+        "value" : "0230"
+      }]
+    },
+    {
+      "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r347-activite-sanitaire-diverse-regulee",
+      "filter" : [{
+        "property" : "parent",
+        "op" : "=",
+        "value" : "0240"
+      }]
+    },
+    {
+      "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r347-activite-sanitaire-diverse-regulee",
+      "filter" : [{
+        "property" : "parent",
+        "op" : "=",
+        "value" : "0260"
+      }]
+    },
+    {
+      "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r347-activite-sanitaire-diverse-regulee",
+      "filter" : [{
+        "property" : "parent",
+        "op" : "=",
+        "value" : "0270"
+      }]
+    },
+    {
+      "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r347-activite-sanitaire-diverse-regulee",
+      "filter" : [{
+        "property" : "parent",
+        "op" : "=",
+        "value" : "0280"
+      }]
+    },
+    {
+      "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r347-activite-sanitaire-diverse-regulee",
+      "filter" : [{
+        "property" : "parent",
+        "op" : "=",
+        "value" : "0290"
+      }]
+    },
+    {
+      "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r347-activite-sanitaire-diverse-regulee",
+      "filter" : [{
+        "property" : "parent",
+        "op" : "=",
+        "value" : "0310"
+      }]
+    },
+    {
+      "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r347-activite-sanitaire-diverse-regulee",
+      "filter" : [{
+        "property" : "parent",
+        "op" : "=",
+        "value" : "0320"
+      }]
+    },
+    {
+      "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r347-activite-sanitaire-diverse-regulee",
+      "filter" : [{
+        "property" : "parent",
+        "op" : "=",
+        "value" : "0330"
+      }]
+    },
+    {
+      "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r347-activite-sanitaire-diverse-regulee",
+      "filter" : [{
+        "property" : "parent",
+        "op" : "=",
+        "value" : "0340"
+      }]
+    },
+    {
+      "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r347-activite-sanitaire-diverse-regulee",
+      "filter" : [{
+        "property" : "parent",
+        "op" : "=",
+        "value" : "0350"
+      }]
+    },
+    {
+      "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r347-activite-sanitaire-diverse-regulee",
+      "filter" : [{
+        "property" : "parent",
+        "op" : "=",
+        "value" : "0360"
+      }]
+    },
+    {
+      "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r347-activite-sanitaire-diverse-regulee",
+      "filter" : [{
+        "property" : "parent",
+        "op" : "=",
+        "value" : "0370"
+      }]
+    },
+    {
+      "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r347-activite-sanitaire-diverse-regulee",
+      "filter" : [{
+        "property" : "parent",
+        "op" : "=",
+        "value" : "0380"
+      }]
+    },
+    {
+      "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r347-activite-sanitaire-diverse-regulee",
+      "filter" : [{
+        "property" : "parent",
+        "op" : "=",
+        "value" : "0410"
+      }]
+    },
+    {
+      "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r347-activite-sanitaire-diverse-regulee",
+      "filter" : [{
+        "property" : "parent",
+        "op" : "=",
+        "value" : "0420"
+      }]
+    },
+    {
+      "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r347-activite-sanitaire-diverse-regulee",
+      "filter" : [{
+        "property" : "parent",
+        "op" : "=",
+        "value" : "0430"
+      }]
+    },
+    {
+      "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r347-activite-sanitaire-diverse-regulee",
+      "filter" : [{
+        "property" : "parent",
+        "op" : "=",
+        "value" : "0440"
+      }]
+    },
+    {
+      "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r347-activite-sanitaire-diverse-regulee",
+      "filter" : [{
+        "property" : "parent",
+        "op" : "=",
+        "value" : "0450"
+      }]
+    },
+    {
+      "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r347-activite-sanitaire-diverse-regulee",
+      "filter" : [{
+        "property" : "parent",
+        "op" : "=",
+        "value" : "0460"
+      }]
+    },
+    {
+      "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r347-activite-sanitaire-diverse-regulee",
+      "filter" : [{
+        "property" : "parent",
+        "op" : "=",
+        "value" : "0470"
+      }]
+    },
+    {
+      "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r347-activite-sanitaire-diverse-regulee",
+      "filter" : [{
+        "property" : "parent",
+        "op" : "=",
+        "value" : "0480"
+      }]
+    },
+    {
+      "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r347-activite-sanitaire-diverse-regulee",
+      "filter" : [{
+        "property" : "parent",
+        "op" : "=",
+        "value" : "0510"
+      }]
+    },
+    {
+      "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r347-activite-sanitaire-diverse-regulee",
+      "filter" : [{
+        "property" : "parent",
+        "op" : "=",
+        "value" : "0520"
+      }]
+    },
+    {
+      "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r347-activite-sanitaire-diverse-regulee",
+      "filter" : [{
+        "property" : "parent",
+        "op" : "=",
+        "value" : "0530"
+      }]
+    },
+    {
+      "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r347-activite-sanitaire-diverse-regulee",
+      "filter" : [{
+        "property" : "parent",
+        "op" : "=",
+        "value" : "0610"
+      }]
+    },
+    {
+      "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r347-activite-sanitaire-diverse-regulee",
+      "filter" : [{
+        "property" : "parent",
+        "op" : "=",
+        "value" : "0620"
+      }]
+    },
+    {
+      "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r347-activite-sanitaire-diverse-regulee",
+      "filter" : [{
+        "property" : "parent",
+        "op" : "=",
+        "value" : "0630"
+      }]
+    },
+    {
+      "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r347-activite-sanitaire-diverse-regulee",
+      "filter" : [{
+        "property" : "parent",
+        "op" : "=",
+        "value" : "0640"
+      }]
+    },
+    {
+      "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r347-activite-sanitaire-diverse-regulee",
+      "filter" : [{
+        "property" : "parent",
+        "op" : "=",
+        "value" : "0660"
+      }]
+    }]
+  }
+}

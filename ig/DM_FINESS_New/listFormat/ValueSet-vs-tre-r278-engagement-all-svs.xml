@@ -8,7 +8,7 @@
              displayName="VsTreR278EngagementAll"
              id="1.2.250.1.213.1.6.1.322"
              typeFichier="JDV"
-             urlFichier="https://mos.esante.gouv.fr/NOS/TRE_R278-FinessConvention">
+             urlFichier="">
       <ConceptList/>
    </ValueSet>
 </RetrieveValueSetResponse>

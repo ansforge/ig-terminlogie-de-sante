@@ -125,7 +125,7 @@ https://mos.esante.gouv.fr/NOS/TRE_R274-ActiviteSanitaireRegulee/FHIR/TRE-R274-A
 https://mos.esante.gouv.fr/NOS/TRE_R275-ModaliteActivite/FHIR/TRE-R275-ModaliteActivite,20231215120000,active,"1.2.250.1.213.1.6.1.127",TRE_R275_ModaliteActivite,,"Mode d'application ou type de soins encadrant une activité",
 https://mos.esante.gouv.fr/NOS/TRE_R276-FormeActivite/FHIR/TRE-R276-FormeActivite,20240329120000,active,"1.2.250.1.213.1.6.1.128",TRE_R276_FormeActivite,,"Type d'organisation de prise en charge",
 https://mos.esante.gouv.fr/NOS/TRE_R277-CategorieActiviteSanitaireRegulee/FHIR/TRE-R277-CategorieActiviteSanitaireRegulee,20231215120000,active,"1.2.250.1.213.1.6.1.129",TRE_R277_CategorieActiviteSanitaireRegulee,,"Types d'activités autorisées",
-https://mos.esante.gouv.fr/NOS/TRE_R278-FinessConvention/FHIR/TRE-R278-FinessConvention,20250131120000,active,"1.2.250.1.213.1.6.1.131",TRE_R278_FinessConvention,,"Convention du domaine social FINESS",
+https://mos.esante.gouv.fr/NOS/TRE_R278-FinessConvention/FHIR/TRE-R278-FinessConvention,20250709120000,retired,"1.2.250.1.213.1.6.1.131",TRE_R278_FinessConvention,,"Convention du domaine social FINESS",
 https://mos.esante.gouv.fr/NOS/TRE_R279-Clientele/FHIR/TRE-R279-Clientele,20240927120000,active,"1.2.250.1.213.1.6.1.132",TRE_R279_Clientele,,"Clientèles",
 https://mos.esante.gouv.fr/NOS/TRE_R280-DisciplineEquipementSocial/FHIR/TRE-R280-DisciplineEquipementSocial,20231215120000,active,"1.2.250.1.213.1.6.1.133",TRE_R280_DisciplineEquipementSocial,,"Disciplines d'équipement pour le social",
 https://mos.esante.gouv.fr/NOS/TRE_R281-DisciplineEnseignement/FHIR/TRE-R281-DisciplineEnseignement,20240329120000,active,"1.2.250.1.213.1.6.1.134",TRE_R281_DisciplineEnseignement,,"Disciplines pour l'enseignement",
