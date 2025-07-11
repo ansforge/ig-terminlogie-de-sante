@@ -2369,7 +2369,7 @@
     },
     {
       "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r371-type-groupe-gcc",
-      "version" : "20241230120000",
+      "version" : "20250711120000",
       "status" : "active",
       "name" : "TreR371TypeGroupeGcc",
       "title" : "Tre R371 Type Groupe Gcc",
@@ -2378,7 +2378,7 @@
     },
     {
       "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r372-type-groupe-gco",
-      "version" : "20241230120000",
+      "version" : "202507110000",
       "status" : "active",
       "name" : "TreR372TypeGroupeGco",
       "title" : "Tre R372 Type Groupe Gco",

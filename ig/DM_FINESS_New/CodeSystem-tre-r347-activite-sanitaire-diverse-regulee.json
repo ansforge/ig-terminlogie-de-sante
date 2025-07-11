@@ -30,7 +30,6 @@
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "description" : "Nomenclature des activités sanitaires utilisée pour décrire les Activités Sanitaires Diverses Régulées (ASDR)",
   "caseSensitive" : false,
-  "valueSet" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r347-activite-sanitaire-diverse-regulee?vs",
   "hierarchyMeaning" : "is-a",
   "content" : "complete",
   "count" : 452,

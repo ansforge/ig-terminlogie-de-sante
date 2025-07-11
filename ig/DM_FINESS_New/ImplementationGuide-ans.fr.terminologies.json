@@ -35236,6 +35236,18 @@
         "valueString" : "ValueSet"
       }],
       "reference" : {
+        "reference" : "ValueSet/jdv-j289-type-groupe-gco-finess"
+      },
+      "name" : "Jdv J289 Type Groupe Gco Finess",
+      "description" : "Jeu de valeurs Finess contenant les types de Groupement de Coopération Organique (GCO).",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      }],
+      "reference" : {
         "reference" : "ValueSet/jdv-j293-type-engagement-finess"
       },
       "name" : "Jdv J293 Type Engagement Finess",
@@ -35336,6 +35348,18 @@
       },
       "name" : "Jdv J305 Type Groupement Finess",
       "description" : "Jeu de valeurs FINESS contenant les types de groupement utilisables dans FINESS. Groupement de coopération conventionnelle ou Groupement de coopération organique",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      }],
+      "reference" : {
+        "reference" : "ValueSet/jdv-j306-type-groupe-gcc-finess"
+      },
+      "name" : "Jdv J306 Type Groupe Gcc Finess",
+      "description" : "Jeu de valeurs FINESS contenant les types de Groupement de Coopération conventionnelle (GCC).",
       "exampleBoolean" : false
     },
     {
@@ -46105,30 +46129,6 @@
       },
       "name" : "Vs Tre R370 Role Relation Ege All",
       "description" : "Jeu de valeurs ALL contenant les types de rôle existant entre les Entités Géographiques d'Exercice (EGE) au sein d'une PM-SMSSE.",
-      "exampleBoolean" : false
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "ValueSet"
-      }],
-      "reference" : {
-        "reference" : "ValueSet/vs-tre-r371-type-groupe-gcc-all"
-      },
-      "name" : "Vs Tre R371 Type Groupe Gcc All",
-      "description" : "Jeu de valeurs ALL contenant les types de Groupement de Coopération conventionnelle (GCC).",
-      "exampleBoolean" : false
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "ValueSet"
-      }],
-      "reference" : {
-        "reference" : "ValueSet/vs-tre-r372-type-groupe-gco-all"
-      },
-      "name" : "Vs Tre R372 Type Groupe Gco All",
-      "description" : "Jeu de valeurs ALL contenant les types de Groupement de Coopération Organique (GCO).",
       "exampleBoolean" : false
     },
     {

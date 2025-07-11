@@ -48407,6 +48407,24 @@
          ]
        ] ) ;
        fhir:reference [
+         fhir:link <https://interop.esante.gouv.fr/terminologies/ValueSet/jdv-j289-type-groupe-gco-finess> ;
+         fhir:reference [ fhir:v "ValueSet/jdv-j289-type-groupe-gco-finess" ]
+       ] ;
+       fhir:name [ fhir:v "Jdv J289 Type Groupe Gco Finess" ] ;
+       fhir:description [ fhir:v "Jeu de valeurs Finess contenant les types de Groupement de Coopération Organique (GCO)." ] ;
+       fhir:example [
+         a fhir:boolean ;
+         fhir:v false
+       ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [
+           a fhir:string ;
+           fhir:v "ValueSet"
+         ]
+       ] ) ;
+       fhir:reference [
          fhir:link <https://interop.esante.gouv.fr/terminologies/ValueSet/jdv-j293-type-engagement-finess> ;
          fhir:reference [ fhir:v "ValueSet/jdv-j293-type-engagement-finess" ]
        ] ;
@@ -48556,6 +48574,24 @@
        ] ;
        fhir:name [ fhir:v "Jdv J305 Type Groupement Finess" ] ;
        fhir:description [ fhir:v "Jeu de valeurs FINESS contenant les types de groupement utilisables dans FINESS. Groupement de coopération conventionnelle ou Groupement de coopération organique" ] ;
+       fhir:example [
+         a fhir:boolean ;
+         fhir:v false
+       ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [
+           a fhir:string ;
+           fhir:v "ValueSet"
+         ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <https://interop.esante.gouv.fr/terminologies/ValueSet/jdv-j306-type-groupe-gcc-finess> ;
+         fhir:reference [ fhir:v "ValueSet/jdv-j306-type-groupe-gcc-finess" ]
+       ] ;
+       fhir:name [ fhir:v "Jdv J306 Type Groupe Gcc Finess" ] ;
+       fhir:description [ fhir:v "Jeu de valeurs FINESS contenant les types de Groupement de Coopération conventionnelle (GCC)." ] ;
        fhir:example [
          a fhir:boolean ;
          fhir:v false
@@ -64713,42 +64749,6 @@
        ] ;
        fhir:name [ fhir:v "Vs Tre R370 Role Relation Ege All" ] ;
        fhir:description [ fhir:v "Jeu de valeurs ALL contenant les types de rôle existant entre les Entités Géographiques d'Exercice (EGE) au sein d'une PM-SMSSE." ] ;
-       fhir:example [
-         a fhir:boolean ;
-         fhir:v false
-       ]
-     ] [
-       fhir:extension ( [
-         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
-         fhir:value [
-           a fhir:string ;
-           fhir:v "ValueSet"
-         ]
-       ] ) ;
-       fhir:reference [
-         fhir:link <https://interop.esante.gouv.fr/terminologies/ValueSet/vs-tre-r371-type-groupe-gcc-all> ;
-         fhir:reference [ fhir:v "ValueSet/vs-tre-r371-type-groupe-gcc-all" ]
-       ] ;
-       fhir:name [ fhir:v "Vs Tre R371 Type Groupe Gcc All" ] ;
-       fhir:description [ fhir:v "Jeu de valeurs ALL contenant les types de Groupement de Coopération conventionnelle (GCC)." ] ;
-       fhir:example [
-         a fhir:boolean ;
-         fhir:v false
-       ]
-     ] [
-       fhir:extension ( [
-         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
-         fhir:value [
-           a fhir:string ;
-           fhir:v "ValueSet"
-         ]
-       ] ) ;
-       fhir:reference [
-         fhir:link <https://interop.esante.gouv.fr/terminologies/ValueSet/vs-tre-r372-type-groupe-gco-all> ;
-         fhir:reference [ fhir:v "ValueSet/vs-tre-r372-type-groupe-gco-all" ]
-       ] ;
-       fhir:name [ fhir:v "Vs Tre R372 Type Groupe Gco All" ] ;
-       fhir:description [ fhir:v "Jeu de valeurs ALL contenant les types de Groupement de Coopération Organique (GCO)." ] ;
        fhir:example [
          a fhir:boolean ;
          fhir:v false

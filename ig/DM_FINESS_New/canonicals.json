@@ -4695,33 +4695,17 @@
     "id" : "tre-r371-type-groupe-gcc",
     "type" : "CodeSystem",
     "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r371-type-groupe-gcc",
-    "version" : "20241230120000",
+    "version" : "20250711120000",
     "name" : "TreR371TypeGroupeGcc",
     "oids" : ["1.2.250.1.213.1.6.1.287"]
-  },
-  {
-    "id" : "vs-tre-r371-type-groupe-gcc-all",
-    "type" : "ValueSet",
-    "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r371-type-groupe-gcc?vs",
-    "version" : "20250222120000",
-    "name" : "VsTreR371TypeGroupeGccAll",
-    "oids" : ["1.2.250.1.213.1.6.1.314"]
   },
   {
     "id" : "tre-r372-type-groupe-gco",
     "type" : "CodeSystem",
     "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r372-type-groupe-gco",
-    "version" : "20241230120000",
+    "version" : "202507110000",
     "name" : "TreR372TypeGroupeGco",
     "oids" : ["1.2.250.1.213.1.6.1.288"]
-  },
-  {
-    "id" : "vs-tre-r372-type-groupe-gco-all",
-    "type" : "ValueSet",
-    "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r372-type-groupe-gco?vs",
-    "version" : "20250222120000",
-    "name" : "VsTreR372TypeGroupeGcoAll",
-    "oids" : ["1.2.250.1.213.1.6.1.262"]
   },
   {
     "id" : "tre-r373-type-personne-morale",
@@ -6506,6 +6490,14 @@
     "oids" : ["1.2.250.1.213.1.6.1.250"]
   },
   {
+    "id" : "jdv-j289-type-groupe-gco-finess",
+    "type" : "ValueSet",
+    "url" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j289-type-groupe-gco-finess",
+    "version" : "20250711120000",
+    "name" : "JdvJ289TypeGroupeGcoFiness",
+    "oids" : ["1.2.250.1.213.1.6.1.262"]
+  },
+  {
     "id" : "jdv-j293-type-engagement-finess",
     "type" : "ValueSet",
     "url" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j293-type-engagement-finess",
@@ -6576,6 +6568,14 @@
     "version" : "20250611120000",
     "name" : "JdvJ305TypeGroupementFiness",
     "oids" : ["1.2.250.1.213.1.6.1.313"]
+  },
+  {
+    "id" : "jdv-j306-type-groupe-gcc-finess",
+    "type" : "ValueSet",
+    "url" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j306-type-groupe-gcc-finess",
+    "version" : "20250711120000",
+    "name" : "JdvJ306TypeGroupeGccFiness",
+    "oids" : ["1.2.250.1.213.1.6.1.314"]
   },
   {
     "id" : "jdv-j310-categorie-entite-geographique-exercice-finess",

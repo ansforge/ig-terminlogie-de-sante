@@ -3950,32 +3950,6 @@
       "sources" : ["1.2.250.1.213.1.6.1.320"]
     },
     {
-      "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r371-type-groupe-gcc?vs",
-      "version" : "20250222120000",
-      "status" : "active",
-      "name" : "VsTreR371TypeGroupeGccAll",
-      "title" : "Vs Tre R371 Type Groupe Gcc All",
-      "description" : "Jeu de valeurs ALL contenant les types de Groupement de Coopération conventionnelle (GCC).",
-      "systems" : [
-        "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r371-type-groupe-gcc"
-      ],
-      "oids" : ["1.2.250.1.213.1.6.1.314"],
-      "sources" : ["1.2.250.1.213.1.6.1.314"]
-    },
-    {
-      "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r372-type-groupe-gco?vs",
-      "version" : "20250222120000",
-      "status" : "active",
-      "name" : "VsTreR372TypeGroupeGcoAll",
-      "title" : "Vs Tre R372 Type Groupe Gco All",
-      "description" : "Jeu de valeurs ALL contenant les types de Groupement de Coopération Organique (GCO).",
-      "systems" : [
-        "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r372-type-groupe-gco"
-      ],
-      "oids" : ["1.2.250.1.213.1.6.1.262"],
-      "sources" : ["1.2.250.1.213.1.6.1.262"]
-    },
-    {
       "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r373-type-personne-morale?vs",
       "version" : "20250222120000",
       "status" : "active",
@@ -6496,6 +6470,19 @@
       "sources" : ["1.2.250.1.213.1.6.1.250"]
     },
     {
+      "url" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j289-type-groupe-gco-finess",
+      "version" : "20250711120000",
+      "status" : "active",
+      "name" : "JdvJ289TypeGroupeGcoFiness",
+      "title" : "Jdv J289 Type Groupe Gco Finess",
+      "description" : "Jeu de valeurs Finess contenant les types de Groupement de Coopération Organique (GCO).",
+      "systems" : [
+        "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r372-type-groupe-gco"
+      ],
+      "oids" : ["1.2.250.1.213.1.6.1.262"],
+      "sources" : ["1.2.250.1.213.1.6.1.262"]
+    },
+    {
       "url" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j293-type-engagement-finess",
       "version" : "20250619120000",
       "status" : "active",
@@ -6611,6 +6598,19 @@
       ],
       "oids" : ["1.2.250.1.213.1.6.1.313"],
       "sources" : ["1.2.250.1.213.1.6.1.313"]
+    },
+    {
+      "url" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j306-type-groupe-gcc-finess",
+      "version" : "20250711120000",
+      "status" : "active",
+      "name" : "JdvJ306TypeGroupeGccFiness",
+      "title" : "Jdv J306 Type Groupe Gcc Finess",
+      "description" : "Jeu de valeurs FINESS contenant les types de Groupement de Coopération conventionnelle (GCC).",
+      "systems" : [
+        "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r371-type-groupe-gcc"
+      ],
+      "oids" : ["1.2.250.1.213.1.6.1.314"],
+      "sources" : ["1.2.250.1.213.1.6.1.314"]
     },
     {
       "url" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j310-categorie-entite-geographique-exercice-finess",

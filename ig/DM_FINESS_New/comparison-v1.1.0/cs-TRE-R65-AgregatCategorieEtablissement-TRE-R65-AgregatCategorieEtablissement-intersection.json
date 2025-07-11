@@ -1,11 +1,11 @@
 {
   "resourceType" : "CodeSystem",
-  "id" : "aeaee321-a6a2-4478-96c1-4125c4ffc719-687",
-  "url" : "http://hl7.org/fhir/comparison/CodeSystem/aeaee321-a6a2-4478-96c1-4125c4ffc719-687",
+  "id" : "290193a2-9e58-4284-bad5-cabd24c45b39-687",
+  "url" : "http://hl7.org/fhir/comparison/CodeSystem/290193a2-9e58-4284-bad5-cabd24c45b39-687",
   "name" : "IntersectionTRE_R65_AgregatCategorieEtablissementAndTRE_R65_AgregatCategorieEtablissement",
   "title" : "Intersection of null And null",
   "status" : "active",
-  "date" : "2025-07-11T07:38:31+00:00",
+  "date" : "2025-07-11T10:16:35+00:00",
   "property" : [{
     "code" : "dateValid",
     "description" : "date de validité d'un code concept",

@@ -1,11 +1,11 @@
 {
   "resourceType" : "CodeSystem",
-  "id" : "aeaee321-a6a2-4478-96c1-4125c4ffc719-786",
-  "url" : "http://hl7.org/fhir/comparison/CodeSystem/aeaee321-a6a2-4478-96c1-4125c4ffc719-786",
+  "id" : "290193a2-9e58-4284-bad5-cabd24c45b39-786",
+  "url" : "http://hl7.org/fhir/comparison/CodeSystem/290193a2-9e58-4284-bad5-cabd24c45b39-786",
   "name" : "IntersectionClaDiMedAndClaDiMed",
   "title" : "Intersection of Classification des dispositifs médicaux And Classification des dispositifs médicaux",
   "status" : "active",
-  "date" : "2025-07-11T07:38:31+00:00",
+  "date" : "2025-07-11T10:16:36+00:00",
   "filter" : [{
     "code" : "root",
     "operator" : ["="],
