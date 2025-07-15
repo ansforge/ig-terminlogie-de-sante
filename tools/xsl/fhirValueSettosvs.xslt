@@ -20,6 +20,7 @@
                 typeFichier="JDV"
                 urlFichier="{substring-before(/f:ValueSet/f:url/@value,'/FHIR')}"
                 >
+                <xsl:variable name="extInfo" select="document('./codesystems.xml')"/>                
                 <ConceptList>
                     <xsl:for-each select='//f:concept'>
                         <xsl:variable name="uriCodeSystem" select="../f:system/@value"/>
