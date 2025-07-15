@@ -1,4 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <codesystems>
     <codesystem oid='2.16.840.1.113883.6.1' uri='http://loinc.org' name='LOINC'/>
+    <codesystem oid='1.2.250.1.213.2.13' uri='https://smt.esante.gouv.fr/terminologie-PCS/' />
+    <codesystem oid='1.2.250.1.213.2.11' uri='https://smt.esante.gouv.fr/terminologie-adicap' />
+    <codesystem oid='2.16.840.1.113883.3.26.1.1' uri='https://smt.esante.gouv.fr/terminologie-ncit' />
+    <codesystem oid='1.2.840.10008.2.16.4' uri='http://dicom.nema.org/resources/ontology/DCM' />
+    <codesystem oid='2.16.840.1.113883.6.8' uri='http://unitsofmeasure.org' />
+    <codesystem oid='2.16.840.1.113883.6.163' uri='https://www.meddra.org' />
 </codesystems>

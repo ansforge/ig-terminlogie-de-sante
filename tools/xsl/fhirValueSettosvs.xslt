@@ -33,7 +33,7 @@
                                         <xsl:value-of select="$extInfo//*:codesystem[@uri = $uriCodeSystem]/@oid"/>
                                 </xsl:when>                                
                                 <xsl:otherwise>
-                                   Not Found:<xsl:value-of select="$uriCodeSystem"/>
+                                  <xsl:value-of select="$uriCodeSystem"/>
                                 </xsl:otherwise>
                             </xsl:choose>
                         </xsl:variable>    
