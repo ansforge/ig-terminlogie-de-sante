@@ -22,10 +22,23 @@
                 >
                 <ConceptList>
                     <xsl:for-each select='//f:concept'>
-
+                        <xsl:variable name="uriCodeSystem" select="../f:system/@value"/>
+                        <xsl:variable name='codeSystemCalc'>
+                            <xsl:choose>
+                                <xsl:when test="substring-after(document(concat('https://smt.esante.gouv.fr/fhir/CodeSystem?url=', ../f:system/@value,'&amp;_format=application/fhir+xml'))//f:CodeSystem/f:identifier[f:system/@value='urn:ietf:rfc:3986']/f:value/@value,'oid:') ">
+                                        <xsl:value-of select="substring-after(document(concat('https://smt.esante.gouv.fr/fhir/CodeSystem?url=', ../f:system/@value,'&amp;_format=application/fhir+xml'))//f:CodeSystem/f:identifier[f:system/@value='urn:ietf:rfc:3986']/f:value/@value,'oid:')"/>
+                                </xsl:when>
+                               <xsl:when test="exists($extInfo//*:codesystem[@uri = $uriCodeSystem]/@oid) ">
+                                        <xsl:value-of select="$extInfo//*:codesystem[@uri = $uriCodeSystem]/@oid"/>
+                                </xsl:when>                                
+                                <xsl:otherwise>
+                                   Not Found:<xsl:value-of select="$uriCodeSystem"/>
+                                </xsl:otherwise>
+                            </xsl:choose>
+                        </xsl:variable>    
                         <Concept 
                             code='{f:code/@value}' 
-                            codeSystem="{substring-after(document(concat('https://smt.esante.gouv.fr/fhir/CodeSystem?url=', ../f:system/@value,'&amp;_format=application/fhir+xml'))//f:CodeSystem/f:identifier[f:system/@value='urn:ietf:rfc:3986']/f:value/@value,'oid:')}"
+                            codeSystem="{$codeSystemCalc}"
                             displayName='{f:display/@value}'
   
                             />
