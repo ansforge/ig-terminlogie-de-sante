@@ -3,4 +3,4 @@
 <OID>;<Code>;<Libellé>
 1.2.250.1.213.1.1.4.322;MED-034;Agrandissement
 1.2.250.1.213.1.1.4.322;MED-035;Cliché(s) supplémentaire(s)
-;US;Échographie
+1.2.840.10008.2.16.4;US;Échographie

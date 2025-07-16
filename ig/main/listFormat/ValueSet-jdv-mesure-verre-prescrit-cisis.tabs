@@ -10,5 +10,5 @@
 1.2.250.1.213.1.1.4.322;MED-1073;Prisme - puissance - verre prescrit
 1.2.250.1.213.1.1.4.322;MED-1074;Prisme - orientation base - verre prescrit
 1.2.250.1.213.1.1.4.322;MED-1075;Prisme - axe en degrés - verre prescrit
-;74712-1;Date de fin de validité
-;95324-0;Type de prisme
+2.16.840.1.113883.6.1;74712-1;Date de fin de validité
+2.16.840.1.113883.6.1;95324-0;Type de prisme

@@ -5,4 +5,4 @@
 1.2.250.1.213.1.1.4.322;ORG-079;Nombre total d'échographies
 1.2.250.1.213.1.1.4.322;ORG-080;Echographie morphologique
 1.2.250.1.213.1.1.4.322;GEN-079;Entretien prénatal précoce
-;51659-1;Hépatite B virus surface Ag [Présence/Seuil] Liquide biologique ; Qualitatif
+2.16.840.1.113883.6.1;51659-1;Hépatite B virus surface Ag [Présence/Seuil] Liquide biologique ; Qualitatif
