@@ -45,10 +45,6 @@ Description: "Nomenclature des types de rôles que peuvent exercer des entités 
 * ^property[=].uri = "http://hl7.org/fhir/concept-properties#finess"
 * ^property[=].description = "Permet de définir les codes concepts utilisés par FINESS+"
 * ^property[=].type = #boolean
-* ^property[+].code = #isTypeRoleMemberOf
-* ^property[=].uri = "http://hl7.org/fhir/concept-properties#hasTypeRoleMember"
-* ^property[=].description = "Type de groupement"
-* ^property[=].type = #Coding
 * #S "Entité support"
 * #S ^designation.language = #fr-FR
 * #S ^designation.use.system = "http://snomed.info/sct"
@@ -62,8 +58,6 @@ Description: "Nomenclature des types de rôles que peuvent exercer des entités 
 * #S ^property[=].valueCode = #active
 * #S ^property[+].code = #finess
 * #S ^property[=].valueBoolean = true
-* #S ^property[+].code = #isTypeRoleMemberOf
-* #S ^property[=].valueCoding = $tre-r387-type-groupement#01
 * #M "Membre simple"
 * #M ^designation.language = #fr-FR
 * #M ^designation.use.system = "http://snomed.info/sct"
@@ -77,10 +71,6 @@ Description: "Nomenclature des types de rôles que peuvent exercer des entités 
 * #M ^property[=].valueCode = #active
 * #M ^property[+].code = #finess
 * #M ^property[=].valueBoolean = true
-* #M ^property[+].code = #isTypeRoleMemberOf
-* #M ^property[=].valueCoding = $tre-r387-type-groupement#01
-* #M ^property[+].code = #isTypeRoleMemberOf
-* #M ^property[=].valueCoding = $tre-r387-type-groupement#02
 * #T "Entité tête de groupe"
 * #T ^designation.language = #fr-FR
 * #T ^designation.use.system = "http://snomed.info/sct"
@@ -94,5 +84,3 @@ Description: "Nomenclature des types de rôles que peuvent exercer des entités 
 * #T ^property[=].valueCode = #active
 * #T ^property[+].code = #finess
 * #T ^property[=].valueBoolean = true
-* #T ^property[+].code = #isTypeRoleMemberOf
-* #T ^property[=].valueCoding = $tre-r387-type-groupement#02

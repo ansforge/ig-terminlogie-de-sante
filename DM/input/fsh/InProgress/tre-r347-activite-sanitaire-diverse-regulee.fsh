@@ -49,6 +49,10 @@ Description: "Nomenclature des activités sanitaires utilisée pour décrire les
 * ^property[=].uri = "http://hl7.org/fhir/concept-properties#retirementDate"
 * ^property[=].description = "The date at which a concept was retired"
 * ^property[=].type = #dateTime
+* ^property[+].code = #niveau
+* ^property[=].uri = "http://hl7.org/fhir/concept-properties#niveau"
+* ^property[=].description = "Permet d'indiquer le niveau hiérarchique du code"
+* ^property[=].type = #integer
 * #0200 "Hospitalisation"
 * #0200 ^property[0].code = #dateValid
 * #0200 ^property[=].valueDateTime = "1979-01-01T00:00:00+01:00"
@@ -58,6 +62,8 @@ Description: "Nomenclature des activités sanitaires utilisée pour décrire les
 * #0200 ^property[=].valueCode = #deprecated
 * #0200 ^property[+].code = #deprecationDate
 * #0200 ^property[=].valueDateTime = "2017-06-07T00:00:00+01:00"
+* #0200 ^property[+].code = #niveau
+* #0200 ^property[=].valueInteger = 1
 * #0300 "Disciplines Spécifiques"
 * #0300 ^designation.language = #fr-FR
 * #0300 ^designation.use.system = "http://snomed.info/sct"
@@ -69,6 +75,8 @@ Description: "Nomenclature des activités sanitaires utilisée pour décrire les
 * #0300 ^property[=].valueDateTime = "1979-01-01T00:00:00+01:00"
 * #0300 ^property[+].code = #status
 * #0300 ^property[=].valueCode = #active
+* #0300 ^property[+].code = #niveau
+* #0300 ^property[=].valueInteger = 1
 * #0400 "Disciplines Médico-Techniques"
 * #0400 ^designation.language = #fr-FR
 * #0400 ^designation.use.system = "http://snomed.info/sct"
@@ -80,6 +88,8 @@ Description: "Nomenclature des activités sanitaires utilisée pour décrire les
 * #0400 ^property[=].valueDateTime = "1979-01-01T00:00:00+01:00"
 * #0400 ^property[+].code = #status
 * #0400 ^property[=].valueCode = #active
+* #0400 ^property[+].code = #niveau
+* #0400 ^property[=].valueInteger = 1
 * #0500 "Accueil et Réception des Urgences"
 * #0500 ^designation.language = #fr-FR
 * #0500 ^designation.use.system = "http://snomed.info/sct"
@@ -93,6 +103,8 @@ Description: "Nomenclature des activités sanitaires utilisée pour décrire les
 * #0500 ^property[=].valueCode = #deprecated
 * #0500 ^property[+].code = #deprecationDate
 * #0500 ^property[=].valueDateTime = "2017-06-07T00:00:00+01:00"
+* #0500 ^property[+].code = #niveau
+* #0500 ^property[=].valueInteger = 1
 * #0600 "Autres Disciplines Sanitaires"
 * #0600 ^designation.language = #fr-FR
 * #0600 ^designation.use.system = "http://snomed.info/sct"
@@ -104,6 +116,8 @@ Description: "Nomenclature des activités sanitaires utilisée pour décrire les
 * #0600 ^property[=].valueDateTime = "1979-01-01T00:00:00+01:00"
 * #0600 ^property[+].code = #status
 * #0600 ^property[=].valueCode = #active
+* #0600 ^property[+].code = #niveau
+* #0600 ^property[=].valueInteger = 1
 * #0210 "Médecine"
 * #0210 ^property[0].code = #parent
 * #0210 ^property[=].valueCode = #0200
@@ -115,6 +129,8 @@ Description: "Nomenclature des activités sanitaires utilisée pour décrire les
 * #0210 ^property[=].valueCode = #deprecated
 * #0210 ^property[+].code = #deprecationDate
 * #0210 ^property[=].valueDateTime = "2017-06-07T00:00:00+01:00"
+* #0210 ^property[+].code = #niveau
+* #0210 ^property[=].valueInteger = 2
 * #0220 "Chirurgie"
 * #0220 ^property[0].code = #parent
 * #0220 ^property[=].valueCode = #0200
@@ -126,6 +142,8 @@ Description: "Nomenclature des activités sanitaires utilisée pour décrire les
 * #0220 ^property[=].valueCode = #deprecated
 * #0220 ^property[+].code = #deprecationDate
 * #0220 ^property[=].valueDateTime = "2017-06-07T00:00:00+01:00"
+* #0220 ^property[+].code = #niveau
+* #0220 ^property[=].valueInteger = 2
 * #0230 "Gynécologie Obstétrique"
 * #0230 ^designation.language = #fr-FR
 * #0230 ^designation.use.system = "http://snomed.info/sct"
@@ -141,6 +159,8 @@ Description: "Nomenclature des activités sanitaires utilisée pour décrire les
 * #0230 ^property[=].valueCode = #deprecated
 * #0230 ^property[+].code = #deprecationDate
 * #0230 ^property[=].valueDateTime = "2017-06-07T00:00:00+01:00"
+* #0230 ^property[+].code = #niveau
+* #0230 ^property[=].valueInteger = 2
 * #0240 "Neuro-chirurgie"
 * #0240 ^property[0].code = #parent
 * #0240 ^property[=].valueCode = #0200
@@ -152,6 +172,8 @@ Description: "Nomenclature des activités sanitaires utilisée pour décrire les
 * #0240 ^property[=].valueCode = #deprecated
 * #0240 ^property[+].code = #deprecationDate
 * #0240 ^property[=].valueDateTime = "2017-06-07T00:00:00+01:00"
+* #0240 ^property[+].code = #niveau
+* #0240 ^property[=].valueInteger = 2
 * #0260 "Soins de Suite et de Réadaptation"
 * #0260 ^designation.language = #fr-FR
 * #0260 ^designation.use.system = "http://snomed.info/sct"
@@ -167,6 +189,8 @@ Description: "Nomenclature des activités sanitaires utilisée pour décrire les
 * #0260 ^property[=].valueCode = #deprecated
 * #0260 ^property[+].code = #deprecationDate
 * #0260 ^property[=].valueDateTime = "2017-06-07T00:00:00+01:00"
+* #0260 ^property[+].code = #niveau
+* #0260 ^property[=].valueInteger = 2
 * #0270 "Soins de Longue Durée"
 * #0270 ^designation.language = #fr-FR
 * #0270 ^designation.use.system = "http://snomed.info/sct"
@@ -182,6 +206,8 @@ Description: "Nomenclature des activités sanitaires utilisée pour décrire les
 * #0270 ^property[=].valueCode = #deprecated
 * #0270 ^property[+].code = #deprecationDate
 * #0270 ^property[=].valueDateTime = "2017-06-07T00:00:00+01:00"
+* #0270 ^property[+].code = #niveau
+* #0270 ^property[=].valueInteger = 2
 * #0280 "Psychiatrie Adulte"
 * #0280 ^property[0].code = #parent
 * #0280 ^property[=].valueCode = #0200
@@ -193,6 +219,8 @@ Description: "Nomenclature des activités sanitaires utilisée pour décrire les
 * #0280 ^property[=].valueCode = #deprecated
 * #0280 ^property[+].code = #deprecationDate
 * #0280 ^property[=].valueDateTime = "2017-06-07T00:00:00+01:00"
+* #0280 ^property[+].code = #niveau
+* #0280 ^property[=].valueInteger = 2
 * #0290 "Psychiatrie Infanto-juvénile"
 * #0290 ^designation.language = #fr-FR
 * #0290 ^designation.use.system = "http://snomed.info/sct"
@@ -208,6 +236,8 @@ Description: "Nomenclature des activités sanitaires utilisée pour décrire les
 * #0290 ^property[=].valueCode = #deprecated
 * #0290 ^property[+].code = #deprecationDate
 * #0290 ^property[=].valueDateTime = "2017-06-07T00:00:00+01:00"
+* #0290 ^property[+].code = #niveau
+* #0290 ^property[=].valueInteger = 2
 * #0310 "Dialyse"
 * #0310 ^property[0].code = #parent
 * #0310 ^property[=].valueCode = #0300
@@ -219,6 +249,8 @@ Description: "Nomenclature des activités sanitaires utilisée pour décrire les
 * #0310 ^property[=].valueCode = #deprecated
 * #0310 ^property[+].code = #deprecationDate
 * #0310 ^property[=].valueDateTime = "2017-06-07T00:00:00+01:00"
+* #0310 ^property[+].code = #niveau
+* #0310 ^property[=].valueInteger = 2
 * #0320 "Chimiothérapie"
 * #0320 ^property[0].code = #parent
 * #0320 ^property[=].valueCode = #0300
@@ -228,6 +260,8 @@ Description: "Nomenclature des activités sanitaires utilisée pour décrire les
 * #0320 ^property[=].valueDateTime = "1979-01-01T00:00:00+01:00"
 * #0320 ^property[+].code = #status
 * #0320 ^property[=].valueCode = #active
+* #0320 ^property[+].code = #niveau
+* #0320 ^property[=].valueInteger = 2
 * #0330 "Hospitalisation de Jour en Gynéco-Obstétrique"
 * #0330 ^designation.language = #fr-FR
 * #0330 ^designation.use.system = "http://snomed.info/sct"
@@ -241,6 +275,8 @@ Description: "Nomenclature des activités sanitaires utilisée pour décrire les
 * #0330 ^property[=].valueDateTime = "1979-01-01T00:00:00+01:00"
 * #0330 ^property[+].code = #status
 * #0330 ^property[=].valueCode = #active
+* #0330 ^property[+].code = #niveau
+* #0330 ^property[=].valueInteger = 2
 * #0340 "Prévention, Prophylaxie, Conseil"
 * #0340 ^designation.language = #fr-FR
 * #0340 ^designation.use.system = "http://snomed.info/sct"
@@ -254,6 +290,8 @@ Description: "Nomenclature des activités sanitaires utilisée pour décrire les
 * #0340 ^property[=].valueDateTime = "1979-01-01T00:00:00+01:00"
 * #0340 ^property[+].code = #status
 * #0340 ^property[=].valueCode = #active
+* #0340 ^property[+].code = #niveau
+* #0340 ^property[=].valueInteger = 2
 * #0350 "Aide aux Insuffisants Respiratoires"
 * #0350 ^designation.language = #fr-FR
 * #0350 ^designation.use.system = "http://snomed.info/sct"
@@ -267,6 +305,8 @@ Description: "Nomenclature des activités sanitaires utilisée pour décrire les
 * #0350 ^property[=].valueDateTime = "1979-01-01T00:00:00+01:00"
 * #0350 ^property[+].code = #status
 * #0350 ^property[=].valueCode = #active
+* #0350 ^property[+].code = #niveau
+* #0350 ^property[=].valueInteger = 2
 * #0360 "Autres Traitements Spécialisés à Domicile"
 * #0360 ^designation.language = #fr-FR
 * #0360 ^designation.use.system = "http://snomed.info/sct"
@@ -282,6 +322,8 @@ Description: "Nomenclature des activités sanitaires utilisée pour décrire les
 * #0360 ^property[=].valueCode = #deprecated
 * #0360 ^property[+].code = #deprecationDate
 * #0360 ^property[=].valueDateTime = "2017-06-07T00:00:00+01:00"
+* #0360 ^property[+].code = #niveau
+* #0360 ^property[=].valueInteger = 2
 * #0370 "structures de psychiatrie hors carte sanitaire"
 * #0370 ^designation.language = #fr-FR
 * #0370 ^designation.use.system = "http://snomed.info/sct"
@@ -295,6 +337,8 @@ Description: "Nomenclature des activités sanitaires utilisée pour décrire les
 * #0370 ^property[=].valueDateTime = "2001-10-01T00:00:00+01:00"
 * #0370 ^property[+].code = #status
 * #0370 ^property[=].valueCode = #active
+* #0370 ^property[+].code = #niveau
+* #0370 ^property[=].valueInteger = 2
 * #0380 "disciplines de cures thermales"
 * #0380 ^designation.language = #fr-FR
 * #0380 ^designation.use.system = "http://snomed.info/sct"
@@ -308,6 +352,8 @@ Description: "Nomenclature des activités sanitaires utilisée pour décrire les
 * #0380 ^property[=].valueDateTime = "1979-01-01T00:00:00+01:00"
 * #0380 ^property[+].code = #status
 * #0380 ^property[=].valueCode = #active
+* #0380 ^property[+].code = #niveau
+* #0380 ^property[=].valueInteger = 2
 * #0410 "Blocs Opératoires et Obstétricaux"
 * #0410 ^designation.language = #fr-FR
 * #0410 ^designation.use.system = "http://snomed.info/sct"
@@ -323,6 +369,8 @@ Description: "Nomenclature des activités sanitaires utilisée pour décrire les
 * #0410 ^property[=].valueCode = #deprecated
 * #0410 ^property[+].code = #deprecationDate
 * #0410 ^property[=].valueDateTime = "2017-06-07T00:00:00+01:00"
+* #0410 ^property[+].code = #niveau
+* #0410 ^property[=].valueInteger = 2
 * #0420 "Anesthésiologie et Réveil"
 * #0420 ^designation.language = #fr-FR
 * #0420 ^designation.use.system = "http://snomed.info/sct"
@@ -338,6 +386,8 @@ Description: "Nomenclature des activités sanitaires utilisée pour décrire les
 * #0420 ^property[=].valueCode = #deprecated
 * #0420 ^property[+].code = #deprecationDate
 * #0420 ^property[=].valueDateTime = "2017-06-07T00:00:00+01:00"
+* #0420^property[+].code = #niveau
+* #0420 ^property[=].valueInteger = 2
 * #0430 "Imagerie"
 * #0430 ^property[0].code = #parent
 * #0430 ^property[=].valueCode = #0400
@@ -349,6 +399,8 @@ Description: "Nomenclature des activités sanitaires utilisée pour décrire les
 * #0430 ^property[=].valueCode = #deprecated
 * #0430 ^property[+].code = #deprecationDate
 * #0430 ^property[=].valueDateTime = "2017-06-07T00:00:00+01:00"
+* #0430 ^property[+].code = #niveau
+* #0430 ^property[=].valueInteger = 2
 * #0440 "Radiothérapie"
 * #0440 ^property[0].code = #parent
 * #0440 ^property[=].valueCode = #0400
@@ -360,6 +412,8 @@ Description: "Nomenclature des activités sanitaires utilisée pour décrire les
 * #0440 ^property[=].valueCode = #deprecated
 * #0440 ^property[+].code = #deprecationDate
 * #0440 ^property[=].valueDateTime = "2017-06-07T00:00:00+01:00"
+* #0440 ^property[+].code = #niveau
+* #0440 ^property[=].valueInteger = 2
 * #0450 "Exploration Fonctionnelle"
 * #0450 ^designation.language = #fr-FR
 * #0450 ^designation.use.system = "http://snomed.info/sct"
@@ -375,6 +429,8 @@ Description: "Nomenclature des activités sanitaires utilisée pour décrire les
 * #0450 ^property[=].valueCode = #deprecated
 * #0450 ^property[+].code = #deprecationDate
 * #0450 ^property[=].valueDateTime = "2017-06-07T00:00:00+01:00"
+* #0450 ^property[+].code = #niveau
+* #0450 ^property[=].valueInteger = 2
 * #0460 "Techniques de Rééducation et de Réadaptation Fonctionnelle"
 * #0460 ^designation.language = #fr-FR
 * #0460 ^designation.use.system = "http://snomed.info/sct"
@@ -390,6 +446,8 @@ Description: "Nomenclature des activités sanitaires utilisée pour décrire les
 * #0460 ^property[=].valueCode = #deprecated
 * #0460 ^property[+].code = #deprecationDate
 * #0460 ^property[=].valueDateTime = "2017-06-07T00:00:00+01:00"
+* #0460 ^property[+].code = #niveau
+* #0460 ^property[=].valueInteger = 2
 * #0470 "Analyses Médicales Biologiques"
 * #0470 ^designation.language = #fr-FR
 * #0470 ^designation.use.system = "http://snomed.info/sct"
@@ -403,6 +461,8 @@ Description: "Nomenclature des activités sanitaires utilisée pour décrire les
 * #0470 ^property[=].valueDateTime = "1979-01-01T00:00:00+01:00"
 * #0470 ^property[+].code = #status
 * #0470 ^property[=].valueCode = #active
+* #0470 ^property[+].code = #niveau
+* #0470 ^property[=].valueInteger = 2
 * #0480 "Pharmacie et autres Biens Médicaux"
 * #0480 ^designation.language = #fr-FR
 * #0480 ^designation.use.system = "http://snomed.info/sct"
@@ -416,6 +476,8 @@ Description: "Nomenclature des activités sanitaires utilisée pour décrire les
 * #0480 ^property[=].valueDateTime = "1979-01-01T00:00:00+01:00"
 * #0480 ^property[+].code = #status
 * #0480 ^property[=].valueCode = #active
+* #0480 ^property[+].code = #niveau
+* #0480 ^property[=].valueInteger = 2
 * #0510 "Urgence"
 * #0510 ^property[0].code = #parent
 * #0510 ^property[=].valueCode = #0500
@@ -427,6 +489,8 @@ Description: "Nomenclature des activités sanitaires utilisée pour décrire les
 * #0510 ^property[=].valueCode = #deprecated
 * #0510 ^property[+].code = #deprecationDate
 * #0510 ^property[=].valueDateTime = "2017-06-07T00:00:00+01:00"
+* #0510 ^property[+].code = #niveau
+* #0510 ^property[=].valueInteger = 2
 * #0520 "Urgence Chirurgicale"
 * #0520 ^property[0].code = #parent
 * #0520 ^property[=].valueCode = #0500
@@ -438,6 +502,8 @@ Description: "Nomenclature des activités sanitaires utilisée pour décrire les
 * #0520 ^property[=].valueCode = #deprecated
 * #0520 ^property[+].code = #deprecationDate
 * #0520 ^property[=].valueDateTime = "1999-06-17T00:00:00+01:00"
+* #0520 ^property[+].code = #niveau
+* #0520 ^property[=].valueInteger = 2
 * #0530 "SAMU - SMUR"
 * #0530 ^property[0].code = #parent
 * #0530 ^property[=].valueCode = #0500
@@ -449,6 +515,8 @@ Description: "Nomenclature des activités sanitaires utilisée pour décrire les
 * #0530 ^property[=].valueCode = #deprecated
 * #0530 ^property[+].code = #deprecationDate
 * #0530 ^property[=].valueDateTime = "2017-06-07T00:00:00+01:00"
+* #0530 ^property[+].code = #niveau
+* #0530 ^property[=].valueInteger = 2
 * #0610 "Services Extérieurs"
 * #0610 ^property[0].code = #parent
 * #0610 ^property[=].valueCode = #0600
@@ -460,6 +528,8 @@ Description: "Nomenclature des activités sanitaires utilisée pour décrire les
 * #0610 ^property[=].valueCode = #deprecated
 * #0610 ^property[+].code = #deprecationDate
 * #0610 ^property[=].valueDateTime = "1994-09-19T00:00:00+01:00"
+* #0610 ^property[+].code = #niveau
+* #0610 ^property[=].valueInteger = 2
 * #0620 "Transport des Malades"
 * #0620 ^designation.language = #fr-FR
 * #0620 ^designation.use.system = "http://snomed.info/sct"
@@ -473,6 +543,8 @@ Description: "Nomenclature des activités sanitaires utilisée pour décrire les
 * #0620 ^property[=].valueDateTime = "1979-01-01T00:00:00+01:00"
 * #0620 ^property[+].code = #status
 * #0620 ^property[=].valueCode = #active
+* #0620 ^property[+].code = #niveau
+* #0620 ^property[=].valueInteger = 2
 * #0630 "Stockage d'Organes et de Produits Humains"
 * #0630 ^designation.language = #fr-FR
 * #0630 ^designation.use.system = "http://snomed.info/sct"
@@ -486,6 +558,8 @@ Description: "Nomenclature des activités sanitaires utilisée pour décrire les
 * #0630 ^property[=].valueDateTime = "1979-01-01T00:00:00+01:00"
 * #0630 ^property[+].code = #status
 * #0630 ^property[=].valueCode = #active
+* #0630 ^property[+].code = #niveau
+* #0630 ^property[=].valueInteger = 2
 * #0640 "Enseignement et Recherche"
 * #0640 ^designation.language = #fr-FR
 * #0640 ^designation.use.system = "http://snomed.info/sct"
@@ -501,6 +575,8 @@ Description: "Nomenclature des activités sanitaires utilisée pour décrire les
 * #0640 ^property[=].valueCode = #deprecated
 * #0640 ^property[+].code = #deprecationDate
 * #0640 ^property[=].valueDateTime = "2017-06-07T00:00:00+01:00"
+* #0640 ^property[+].code = #niveau
+* #0640 ^property[=].valueInteger = 2
 * #0660 "Autres Disciplines"
 * #0660 ^property[0].code = #parent
 * #0660 ^property[=].valueCode = #0600
@@ -512,6 +588,8 @@ Description: "Nomenclature des activités sanitaires utilisée pour décrire les
 * #0660 ^property[=].valueCode = #deprecated
 * #0660 ^property[+].code = #deprecationDate
 * #0660 ^property[=].valueDateTime = "2017-06-07T00:00:00+01:00"
+* #0660 ^property[+].code = #niveau
+* #0660 ^property[=].valueInteger = 2
 * #0211 "Médecine Générale"
 * #0211 ^property[0].code = #parent
 * #0211 ^property[=].valueCode = #0210
