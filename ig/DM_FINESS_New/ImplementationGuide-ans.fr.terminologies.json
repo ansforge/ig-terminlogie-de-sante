@@ -42395,18 +42395,6 @@
         "valueString" : "CodeSystem"
       }],
       "reference" : {
-        "reference" : "CodeSystem/tre-r278-engagement"
-      },
-      "name" : "Tre R278 Engagement",
-      "description" : "Nomenclature des engagements associés dans FINESS+ aux Personnes morales, aux entités géographique, aux groupements ou à leurs activités",
-      "exampleBoolean" : false
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "CodeSystem"
-      }],
-      "reference" : {
         "reference" : "CodeSystem/tre-r347-activite-sanitaire-diverse-regulee"
       },
       "name" : "Tre R347 Activite Sanitaire Diverse Regulee",
@@ -42623,18 +42611,6 @@
         "valueString" : "CodeSystem"
       }],
       "reference" : {
-        "reference" : "CodeSystem/tre-r380-habilitation"
-      },
-      "name" : "Tre R380 Habilitation",
-      "description" : "Nomenclature des habilitations associées aux capacités des structures FINESS",
-      "exampleBoolean" : false
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "CodeSystem"
-      }],
-      "reference" : {
         "reference" : "CodeSystem/tre-r381-activite-amm"
       },
       "name" : "Tre R381 Activite Amm",
@@ -42783,6 +42759,18 @@
       },
       "name" : "Tre R394 Competence Metier",
       "description" : "Type de savoir-faire opérationnel, transversal ou spécifique, acquis et exercé à titre non exclusif dans le cadre d’une activité professionnelle reconnue.",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "CodeSystem"
+      }],
+      "reference" : {
+        "reference" : "CodeSystem/tre-r395-engagement"
+      },
+      "name" : "Tre R395 Engagement",
+      "description" : "Nomenclature des engagements associés dans FINESS+ aux Personnes morales, aux entités géographique, aux groupements ou à leurs activités",
       "exampleBoolean" : false
     },
     {
@@ -45933,18 +45921,6 @@
         "valueString" : "ValueSet"
       }],
       "reference" : {
-        "reference" : "ValueSet/vs-tre-r278-engagement-all"
-      },
-      "name" : "Vs Tre R278 Engagement All",
-      "description" : "Jeu de valeurs ALL contenant les engagements FINESS",
-      "exampleBoolean" : false
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "ValueSet"
-      }],
-      "reference" : {
         "reference" : "ValueSet/vs-tre-r279-public-activite-smsse-regulee-all"
       },
       "name" : "Vs Tre R279 Public Activite Smsse Regulee All",
@@ -46261,6 +46237,18 @@
       },
       "name" : "Vs Tre R392 Type Act Smsse Regulee All",
       "description" : "Jeu de valeurs ALL contenant l'ensemble des codes pour les types d'activitées SMSSE régulées",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      }],
+      "reference" : {
+        "reference" : "ValueSet/vs-tre-r395-engagement-all"
+      },
+      "name" : "Vs Tre R395 Engagement All",
+      "description" : "Jeu de valeurs ALL contenant les engagements FINESS",
       "exampleBoolean" : false
     },
     {

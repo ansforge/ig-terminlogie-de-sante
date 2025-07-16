@@ -59148,24 +59148,6 @@
          ]
        ] ) ;
        fhir:reference [
-         fhir:link <https://interop.esante.gouv.fr/terminologies/CodeSystem/tre-r278-engagement> ;
-         fhir:reference [ fhir:v "CodeSystem/tre-r278-engagement" ]
-       ] ;
-       fhir:name [ fhir:v "Tre R278 Engagement" ] ;
-       fhir:description [ fhir:v "Nomenclature des engagements associés dans FINESS+ aux Personnes morales, aux entités géographique, aux groupements ou à leurs activités" ] ;
-       fhir:example [
-         a fhir:boolean ;
-         fhir:v false
-       ]
-     ] [
-       fhir:extension ( [
-         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
-         fhir:value [
-           a fhir:string ;
-           fhir:v "CodeSystem"
-         ]
-       ] ) ;
-       fhir:reference [
          fhir:link <https://interop.esante.gouv.fr/terminologies/CodeSystem/tre-r347-activite-sanitaire-diverse-regulee> ;
          fhir:reference [ fhir:v "CodeSystem/tre-r347-activite-sanitaire-diverse-regulee" ]
        ] ;
@@ -59490,24 +59472,6 @@
          ]
        ] ) ;
        fhir:reference [
-         fhir:link <https://interop.esante.gouv.fr/terminologies/CodeSystem/tre-r380-habilitation> ;
-         fhir:reference [ fhir:v "CodeSystem/tre-r380-habilitation" ]
-       ] ;
-       fhir:name [ fhir:v "Tre R380 Habilitation" ] ;
-       fhir:description [ fhir:v "Nomenclature des habilitations associées aux capacités des structures FINESS" ] ;
-       fhir:example [
-         a fhir:boolean ;
-         fhir:v false
-       ]
-     ] [
-       fhir:extension ( [
-         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
-         fhir:value [
-           a fhir:string ;
-           fhir:v "CodeSystem"
-         ]
-       ] ) ;
-       fhir:reference [
          fhir:link <https://interop.esante.gouv.fr/terminologies/CodeSystem/tre-r381-activite-amm> ;
          fhir:reference [ fhir:v "CodeSystem/tre-r381-activite-amm" ]
        ] ;
@@ -59729,6 +59693,24 @@
        ] ;
        fhir:name [ fhir:v "Tre R394 Competence Metier" ] ;
        fhir:description [ fhir:v "Type de savoir-faire opérationnel, transversal ou spécifique, acquis et exercé à titre non exclusif dans le cadre d’une activité professionnelle reconnue." ] ;
+       fhir:example [
+         a fhir:boolean ;
+         fhir:v false
+       ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [
+           a fhir:string ;
+           fhir:v "CodeSystem"
+         ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <https://interop.esante.gouv.fr/terminologies/CodeSystem/tre-r395-engagement> ;
+         fhir:reference [ fhir:v "CodeSystem/tre-r395-engagement" ]
+       ] ;
+       fhir:name [ fhir:v "Tre R395 Engagement" ] ;
+       fhir:description [ fhir:v "Nomenclature des engagements associés dans FINESS+ aux Personnes morales, aux entités géographique, aux groupements ou à leurs activités" ] ;
        fhir:example [
          a fhir:boolean ;
          fhir:v false
@@ -64456,24 +64438,6 @@
          ]
        ] ) ;
        fhir:reference [
-         fhir:link <https://interop.esante.gouv.fr/terminologies/ValueSet/vs-tre-r278-engagement-all> ;
-         fhir:reference [ fhir:v "ValueSet/vs-tre-r278-engagement-all" ]
-       ] ;
-       fhir:name [ fhir:v "Vs Tre R278 Engagement All" ] ;
-       fhir:description [ fhir:v "Jeu de valeurs ALL contenant les engagements FINESS" ] ;
-       fhir:example [
-         a fhir:boolean ;
-         fhir:v false
-       ]
-     ] [
-       fhir:extension ( [
-         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
-         fhir:value [
-           a fhir:string ;
-           fhir:v "ValueSet"
-         ]
-       ] ) ;
-       fhir:reference [
          fhir:link <https://interop.esante.gouv.fr/terminologies/ValueSet/vs-tre-r279-public-activite-smsse-regulee-all> ;
          fhir:reference [ fhir:v "ValueSet/vs-tre-r279-public-activite-smsse-regulee-all" ]
        ] ;
@@ -64947,6 +64911,24 @@
        ] ;
        fhir:name [ fhir:v "Vs Tre R392 Type Act Smsse Regulee All" ] ;
        fhir:description [ fhir:v "Jeu de valeurs ALL contenant l'ensemble des codes pour les types d'activitées SMSSE régulées" ] ;
+       fhir:example [
+         a fhir:boolean ;
+         fhir:v false
+       ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [
+           a fhir:string ;
+           fhir:v "ValueSet"
+         ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <https://interop.esante.gouv.fr/terminologies/ValueSet/vs-tre-r395-engagement-all> ;
+         fhir:reference [ fhir:v "ValueSet/vs-tre-r395-engagement-all" ]
+       ] ;
+       fhir:name [ fhir:v "Vs Tre R395 Engagement All" ] ;
+       fhir:description [ fhir:v "Jeu de valeurs ALL contenant les engagements FINESS" ] ;
        fhir:example [
          a fhir:boolean ;
          fhir:v false

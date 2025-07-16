@@ -1,11 +1,11 @@
 {
   "resourceType" : "CodeSystem",
-  "id" : "bb1913d6-42c5-40c9-a9bb-9750d1fdfd0e-266",
-  "url" : "http://hl7.org/fhir/comparison/CodeSystem/bb1913d6-42c5-40c9-a9bb-9750d1fdfd0e-266",
+  "id" : "610a6052-3c32-4df3-8c5c-032632e78ce8-266",
+  "url" : "http://hl7.org/fhir/comparison/CodeSystem/610a6052-3c32-4df3-8c5c-032632e78ce8-266",
   "name" : "UnionTRE_R239_PublicPrisEnChargeAndTRE_R239_PublicPrisEnCharge",
   "title" : "Union of null And null",
   "status" : "active",
-  "date" : "2025-07-16T12:49:54+00:00",
+  "date" : "2025-07-16T15:17:48+00:00",
   "jurisdiction" : [{
     "coding" : [{
       "system" : "urn:iso:std:iso:3166",

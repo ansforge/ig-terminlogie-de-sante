@@ -2278,15 +2278,6 @@
       "oids" : ["1.2.250.1.213.1.1.4.322"]
     },
     {
-      "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r278-engagement",
-      "version" : "20250611120000",
-      "status" : "active",
-      "name" : "TreR278Engagement",
-      "title" : "Tre R278 Engagement",
-      "description" : "Nomenclature des engagements associés dans FINESS+ aux Personnes morales, aux entités géographique, aux groupements ou à leurs activités",
-      "oids" : ["1.2.250.1.213.1.6.1.131"]
-    },
-    {
       "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r347-activite-sanitaire-diverse-regulee",
       "version" : "20250220120000",
       "status" : "active",
@@ -2449,15 +2440,6 @@
       "oids" : ["1.2.250.1.213.1.6.1.294"]
     },
     {
-      "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r380-habilitation",
-      "version" : "20241230120000",
-      "status" : "active",
-      "name" : "TreR380Habilitation",
-      "title" : "Tre R380 Habilitation",
-      "description" : "Nomenclature des habilitations associées aux capacités des structures FINESS",
-      "oids" : ["1.2.250.1.213.1.6.1.295"]
-    },
-    {
       "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r381-activite-amm",
       "version" : "20241230120000",
       "status" : "active",
@@ -2573,6 +2555,15 @@
       "title" : "Tre R394 Competence Metier",
       "description" : "Type de savoir-faire opérationnel, transversal ou spécifique, acquis et exercé à titre non exclusif dans le cadre d’une activité professionnelle reconnue.",
       "oids" : ["1.2.250.1.213.1.6.1.375"]
+    },
+    {
+      "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r395-engagement",
+      "version" : "20250716120000",
+      "status" : "active",
+      "name" : "TreR395Engagement",
+      "title" : "Tre R395 Engagement",
+      "description" : "Nomenclature des engagements associés dans FINESS+ aux Personnes morales, aux entités géographique, aux groupements ou à leurs activités",
+      "oids" : ["1.2.250.1.213.1.6.1.376"]
     },
     {
       "url" : "https://smt.esante.gouv.fr/terminologie-SERAFINPH",
