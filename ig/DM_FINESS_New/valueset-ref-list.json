@@ -6551,8 +6551,8 @@
       "systems" : [
         "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r363-type-engagement"
       ],
-      "oids" : ["1.2.250.1.213.1.6.1.265"],
-      "sources" : ["1.2.250.1.213.1.6.1.265"]
+      "oids" : ["1.2.250.1.213.1.6.1.267"],
+      "sources" : ["1.2.250.1.213.1.6.1.267"]
     },
     {
       "url" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j294-document-justificatif-finess",
@@ -6564,8 +6564,8 @@
       "systems" : [
         "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r364-type-document-administratif"
       ],
-      "oids" : ["1.2.250.1.213.1.6.1.269"],
-      "sources" : ["1.2.250.1.213.1.6.1.269"]
+      "oids" : ["1.2.250.1.213.1.6.1.268"],
+      "sources" : ["1.2.250.1.213.1.6.1.268"]
     },
     {
       "url" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j295-document-informatif-finess",
@@ -6737,7 +6737,7 @@
       "sources" : ["1.2.250.1.213.1.6.1.340"]
     },
     {
-      "url" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j333-agregat-activite-sanitaire-diverse-regulee-niv1-finess",
+      "url" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j333-activite-sanitaire-diverse-regulee-niv1-finess",
       "version" : "20250710120000",
       "status" : "active",
       "name" : "JdvJ333ActiviteSanitaireDiverseReguleeNiv1Finess",
@@ -10488,8 +10488,8 @@
       "systems" : ["https://smt.esante.gouv.fr/terminologie-nuva"],
       "uses" : {
       },
-      "ConceptMap-alignement-nuva-bdpm.html" : "Aligner les codes CIS et CIP de NUVA avec les codes CIS et CIP du BDPM",
-      "ConceptMap-alignement-nuva-atc.html" : "Aligner les codes ATC de NUVA avec les codes ATC"
+      "ConceptMap-alignement-nuva-atc.html" : "Aligner les codes ATC de NUVA avec les codes ATC",
+      "ConceptMap-alignement-nuva-bdpm.html" : "Aligner les codes CIS et CIP de NUVA avec les codes CIS et CIP du BDPM"
     },
     {
       "url" : "https://smt.esante.gouv.fr/terminologie-sms?vs",

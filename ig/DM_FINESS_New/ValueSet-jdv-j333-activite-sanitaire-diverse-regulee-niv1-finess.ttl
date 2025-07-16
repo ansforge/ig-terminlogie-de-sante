@@ -6,9 +6,9 @@
 
 # - resource -------------------------------------------------------------------
 
-<https://interop.esante.gouv.fr/terminologies/ValueSet/jdv-j333-agregat-activite-sanitaire-diverse-regulee-niv1-finess> a fhir:ValueSet ;
+<https://interop.esante.gouv.fr/terminologies/ValueSet/jdv-j333-activite-sanitaire-diverse-regulee-niv1-finess> a fhir:ValueSet ;
   fhir:nodeRole fhir:treeRoot ;
-  fhir:id [ fhir:v "jdv-j333-agregat-activite-sanitaire-diverse-regulee-niv1-finess"] ; # 
+  fhir:id [ fhir:v "jdv-j333-activite-sanitaire-diverse-regulee-niv1-finess"] ; # 
   fhir:meta [
      fhir:versionId [ fhir:v "1" ] ;
      fhir:lastUpdated [ fhir:v "2025-07-10T18:02:28.249+00:00"^^xsd:dateTime ] ;
@@ -19,7 +19,7 @@
   ] ; # 
   fhir:text [
      fhir:status [ fhir:v "generated" ] ;
-     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Narratif généré : EnsembleValeurs jdv-j333-agregat-activite-sanitaire-diverse-regulee-niv1-finess</b></p><a name=\"jdv-j333-agregat-activite-sanitaire-diverse-regulee-niv1-finess\"> </a><a name=\"hcjdv-j333-agregat-activite-sanitaire-diverse-regulee-niv1-finess\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">version: 1; Dernière mise à jour : 2025-07-10 18:02:28+0000</p><p style=\"margin-bottom: 0px\">Profil: <a href=\"http://hl7.org/fhir/R4/shareablevalueset.html\">Shareable ValueSet</a></p></div><ul><li>Include codes provenant de<a href=\"CodeSystem-tre-r347-activite-sanitaire-diverse-regulee.html\"><code>https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r347-activite-sanitaire-diverse-regulee</code></a> où parent nexiste pas</li></ul></div>"^^rdf:XMLLiteral
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Narratif généré : EnsembleValeurs jdv-j333-activite-sanitaire-diverse-regulee-niv1-finess</b></p><a name=\"jdv-j333-activite-sanitaire-diverse-regulee-niv1-finess\"> </a><a name=\"hcjdv-j333-activite-sanitaire-diverse-regulee-niv1-finess\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">version: 1; Dernière mise à jour : 2025-07-10 18:02:28+0000</p><p style=\"margin-bottom: 0px\">Profil: <a href=\"http://hl7.org/fhir/R4/shareablevalueset.html\">Shareable ValueSet</a></p></div><ul><li>Include codes provenant de<a href=\"CodeSystem-tre-r347-activite-sanitaire-diverse-regulee.html\"><code>https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r347-activite-sanitaire-diverse-regulee</code></a> où niveau  = 1</li></ul></div>"^^rdf:XMLLiteral
   ] ; # 
   fhir:extension ( [
      fhir:url [ fhir:v "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod"^^xsd:anyURI ] ;
@@ -28,7 +28,7 @@
        fhir:start [ fhir:v "2025-07-10T18:02:28.249+00:00"^^xsd:dateTime ]
      ]
   ] ) ; # 
-  fhir:url [ fhir:v "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j333-agregat-activite-sanitaire-diverse-regulee-niv1-finess"^^xsd:anyURI] ; # 
+  fhir:url [ fhir:v "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j333-activite-sanitaire-diverse-regulee-niv1-finess"^^xsd:anyURI] ; # 
   fhir:identifier ( [
      fhir:system [ fhir:v "urn:ietf:rfc:3986"^^xsd:anyURI ] ;
      fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.6.1.341" ]
@@ -45,9 +45,9 @@
      fhir:include ( [
        fhir:system [ fhir:v "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r347-activite-sanitaire-diverse-regulee"^^xsd:anyURI ] ;
        fhir:filter ( [
-         fhir:property [ fhir:v "parent" ] ;
-         fhir:op [ fhir:v "exists" ] ;
-         fhir:value [ fhir:v "false" ]
+         fhir:property [ fhir:v "niveau" ] ;
+         fhir:op [ fhir:v "=" ] ;
+         fhir:value [ fhir:v "1" ]
        ] )
      ] )
   ] . # 

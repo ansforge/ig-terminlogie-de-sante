@@ -6503,7 +6503,7 @@
     "url" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j293-type-engagement-finess",
     "version" : "20250619120000",
     "name" : "JdvJ293TypeEngagementFiness",
-    "oids" : ["1.2.250.1.213.1.6.1.265"]
+    "oids" : ["1.2.250.1.213.1.6.1.267"]
   },
   {
     "id" : "jdv-j294-document-justificatif-finess",
@@ -6511,7 +6511,7 @@
     "url" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j294-document-justificatif-finess",
     "version" : "20250222120000",
     "name" : "JdvJ294DocumentJustificatifFiness",
-    "oids" : ["1.2.250.1.213.1.6.1.269"]
+    "oids" : ["1.2.250.1.213.1.6.1.268"]
   },
   {
     "id" : "jdv-j295-document-informatif-finess",
@@ -6618,9 +6618,9 @@
     "oids" : ["1.2.250.1.213.1.6.1.340"]
   },
   {
-    "id" : "jdv-j333-agregat-activite-sanitaire-diverse-regulee-niv1-finess",
+    "id" : "jdv-j333-activite-sanitaire-diverse-regulee-niv1-finess",
     "type" : "ValueSet",
-    "url" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j333-agregat-activite-sanitaire-diverse-regulee-niv1-finess",
+    "url" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j333-activite-sanitaire-diverse-regulee-niv1-finess",
     "version" : "20250710120000",
     "name" : "JdvJ333ActiviteSanitaireDiverseReguleeNiv1Finess",
     "oids" : ["1.2.250.1.213.1.6.1.341"]

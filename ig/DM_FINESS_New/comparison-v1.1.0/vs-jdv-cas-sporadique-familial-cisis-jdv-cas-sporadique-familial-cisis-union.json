@@ -1,11 +1,11 @@
 {
   "resourceType" : "ValueSet",
-  "id" : "290193a2-9e58-4284-bad5-cabd24c45b39-1721",
-  "url" : "http://hl7.org/fhir/comparison/ValueSet/290193a2-9e58-4284-bad5-cabd24c45b39-1721",
+  "id" : "bb1913d6-42c5-40c9-a9bb-9750d1fdfd0e-1721",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/bb1913d6-42c5-40c9-a9bb-9750d1fdfd0e-1721",
   "name" : "UnionJdvCasSporadiqueFamilialCisisAndJdvCasSporadiqueFamilialCisis",
   "title" : "Union of JDV Cas Sporadique Familial CISIS And JDV Cas Sporadique Familial CISIS",
   "status" : "active",
-  "date" : "2025-07-11T10:16:36+00:00",
+  "date" : "2025-07-16T12:49:54+00:00",
   "jurisdiction" : [{
     "coding" : [{
       "system" : "urn:iso:std:iso:3166",

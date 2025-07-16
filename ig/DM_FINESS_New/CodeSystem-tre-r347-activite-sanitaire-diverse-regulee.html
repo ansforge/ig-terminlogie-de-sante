@@ -332,7 +332,7 @@
   
 <ul>
  <li><a href="ValueSet-jdv-j240-activite-sanitaire-diverse-regulee-finess.html">JdvJ240ActiviteSanitaireDiverseReguleeFiness</a></li>
- <li><a href="ValueSet-jdv-j333-agregat-activite-sanitaire-diverse-regulee-niv1-finess.html">JdvJ333ActiviteSanitaireDiverseReguleeNiv1Finess</a></li>
+ <li><a href="ValueSet-jdv-j333-activite-sanitaire-diverse-regulee-niv1-finess.html">JdvJ333ActiviteSanitaireDiverseReguleeNiv1Finess</a></li>
  <li><a href="ValueSet-jdv-j334-activite-sanitaire-diverse-regulee-niv2-finess.html">JdvJ334ActiviteSanitaireDiverseReguleeNiv2Finess</a></li>
  <li><a href="ValueSet-jdv-j335-activite-sanitaire-diverse-regulee-niv3-finess.html">JdvJ335ActiviteSanitaireDiverseReguleeNiv3Finess</a></li>
 </ul>
@@ -380,8 +380,13 @@
 <td>retirementDate</td>
 <td>http://hl7.org/fhir/concept-properties#retirementDate</td>
 <td>dateTime</td>
-<td>The date at which a concept was retired</td></tr></table><p><b>Concepts</b></p><p>This case-insensitive code system <code>https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r347-activite-sanitaire-diverse-regulee</code> defines the following codes in a Is-A hierarchy:</p>
-<table class="codes"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td><td><b>Déprécié</b></td><td><b>Parent</b></td><td><b>dateValid</b></td><td><b>dateMaj</b></td><td><b>status</b></td><td><b>deprecationDate</b></td><td><b>French (France) (fr)</b></td></tr>
+<td>The date at which a concept was retired</td></tr>
+<tr><td>niveau</td>
+<td>niveau</td>
+<td>http://hl7.org/fhir/concept-properties#niveau</td>
+<td>integer</td>
+<td>Permet d'indiquer le niveau hiérarchique du code</td></tr></table><p><b>Concepts</b></p><p>This case-insensitive code system <code>https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r347-activite-sanitaire-diverse-regulee</code> defines the following codes in a Is-A hierarchy:</p>
+<table class="codes"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td><td><b>Déprécié</b></td><td><b>Parent</b></td><td><b>dateValid</b></td><td><b>dateMaj</b></td><td><b>status</b></td><td><b>deprecationDate</b></td><td><b>niveau</b></td><td><b>French (France) (fr)</b></td></tr>
 <tr style="background-color: #ffeeee"><td style="white-space:nowrap">0200<a name="tre-r347-activite-sanitaire-diverse-regulee-0200"> </a></td>
 <td>Hospitalisation</td>
 <td>Déprécié</td>
@@ -390,6 +395,7 @@
 <td>2017-06-07T00:00:00+01:00</td>
 <td>deprecated</td>
 <td>2017-06-07T00:00:00+01:00</td>
+<td>1</td>
 <td></td></tr>
 <tr><td style="white-space:nowrap">0300<a name="tre-r347-activite-sanitaire-diverse-regulee-0300"> </a></td>
 <td>Disciplines Spécifiques</td>
@@ -399,6 +405,7 @@
 <td>1979-01-01T00:00:00+01:00</td>
 <td>active</td>
 <td></td>
+<td>1</td>
 <td>Disc. Spécifiques</td></tr>
 <tr><td style="white-space:nowrap">0400<a name="tre-r347-activite-sanitaire-diverse-regulee-0400"> </a></td>
 <td>Disciplines Médico-Techniques</td>
@@ -408,6 +415,7 @@
 <td>1979-01-01T00:00:00+01:00</td>
 <td>active</td>
 <td></td>
+<td>1</td>
 <td>Disc. Médico-Techn.</td></tr>
 <tr style="background-color: #ffeeee"><td style="white-space:nowrap">0500<a name="tre-r347-activite-sanitaire-diverse-regulee-0500"> </a></td>
 <td>Accueil et Réception des Urgences</td>
@@ -417,6 +425,7 @@
 <td>2017-06-07T00:00:00+01:00</td>
 <td>deprecated</td>
 <td>2017-06-07T00:00:00+01:00</td>
+<td>1</td>
 <td>Accueil et Urgences</td></tr>
 <tr><td style="white-space:nowrap">0600<a name="tre-r347-activite-sanitaire-diverse-regulee-0600"> </a></td>
 <td>Autres Disciplines Sanitaires</td>
@@ -426,6 +435,7 @@
 <td>1979-01-01T00:00:00+01:00</td>
 <td>active</td>
 <td></td>
+<td>1</td>
 <td>Autres Disc. Sanit.</td></tr>
 <tr style="background-color: #ffeeee"><td style="white-space:nowrap">0210<a name="tre-r347-activite-sanitaire-diverse-regulee-0210"> </a></td>
 <td>Médecine</td>
@@ -435,6 +445,7 @@
 <td>2017-06-07T00:00:00+01:00</td>
 <td>deprecated</td>
 <td>2017-06-07T00:00:00+01:00</td>
+<td>2</td>
 <td></td></tr>
 <tr style="background-color: #ffeeee"><td style="white-space:nowrap">0220<a name="tre-r347-activite-sanitaire-diverse-regulee-0220"> </a></td>
 <td>Chirurgie</td>
@@ -444,6 +455,7 @@
 <td>2017-06-07T00:00:00+01:00</td>
 <td>deprecated</td>
 <td>2017-06-07T00:00:00+01:00</td>
+<td>2</td>
 <td></td></tr>
 <tr style="background-color: #ffeeee"><td style="white-space:nowrap">0230<a name="tre-r347-activite-sanitaire-diverse-regulee-0230"> </a></td>
 <td>Gynécologie Obstétrique</td>
@@ -453,6 +465,7 @@
 <td>2017-06-07T00:00:00+01:00</td>
 <td>deprecated</td>
 <td>2017-06-07T00:00:00+01:00</td>
+<td>2</td>
 <td>Gynéco. Obstétrique</td></tr>
 <tr style="background-color: #ffeeee"><td style="white-space:nowrap">0240<a name="tre-r347-activite-sanitaire-diverse-regulee-0240"> </a></td>
 <td>Neuro-chirurgie</td>
@@ -462,6 +475,7 @@
 <td>2017-06-07T00:00:00+01:00</td>
 <td>deprecated</td>
 <td>2017-06-07T00:00:00+01:00</td>
+<td>2</td>
 <td></td></tr>
 <tr style="background-color: #ffeeee"><td style="white-space:nowrap">0260<a name="tre-r347-activite-sanitaire-diverse-regulee-0260"> </a></td>
 <td>Soins de Suite et de Réadaptation</td>
@@ -471,6 +485,7 @@
 <td>2017-06-07T00:00:00+01:00</td>
 <td>deprecated</td>
 <td>2017-06-07T00:00:00+01:00</td>
+<td>2</td>
 <td>Soins Suite Réadap.</td></tr>
 <tr style="background-color: #ffeeee"><td style="white-space:nowrap">0270<a name="tre-r347-activite-sanitaire-diverse-regulee-0270"> </a></td>
 <td>Soins de Longue Durée</td>
@@ -480,6 +495,7 @@
 <td>2017-06-07T00:00:00+01:00</td>
 <td>deprecated</td>
 <td>2017-06-07T00:00:00+01:00</td>
+<td>2</td>
 <td>Soins Longue Durée</td></tr>
 <tr style="background-color: #ffeeee"><td style="white-space:nowrap">0280<a name="tre-r347-activite-sanitaire-diverse-regulee-0280"> </a></td>
 <td>Psychiatrie Adulte</td>
@@ -489,6 +505,7 @@
 <td>2017-06-07T00:00:00+01:00</td>
 <td>deprecated</td>
 <td>2017-06-07T00:00:00+01:00</td>
+<td>2</td>
 <td></td></tr>
 <tr style="background-color: #ffeeee"><td style="white-space:nowrap">0290<a name="tre-r347-activite-sanitaire-diverse-regulee-0290"> </a></td>
 <td>Psychiatrie Infanto-juvénile</td>
@@ -498,6 +515,7 @@
 <td>2017-06-07T00:00:00+01:00</td>
 <td>deprecated</td>
 <td>2017-06-07T00:00:00+01:00</td>
+<td>2</td>
 <td>Psy.Infanto-juvénile</td></tr>
 <tr style="background-color: #ffeeee"><td style="white-space:nowrap">0310<a name="tre-r347-activite-sanitaire-diverse-regulee-0310"> </a></td>
 <td>Dialyse</td>
@@ -507,6 +525,7 @@
 <td>2017-06-07T00:00:00+01:00</td>
 <td>deprecated</td>
 <td>2017-06-07T00:00:00+01:00</td>
+<td>2</td>
 <td></td></tr>
 <tr><td style="white-space:nowrap">0320<a name="tre-r347-activite-sanitaire-diverse-regulee-0320"> </a></td>
 <td>Chimiothérapie</td>
@@ -516,6 +535,7 @@
 <td>1979-01-01T00:00:00+01:00</td>
 <td>active</td>
 <td></td>
+<td>2</td>
 <td></td></tr>
 <tr><td style="white-space:nowrap">0330<a name="tre-r347-activite-sanitaire-diverse-regulee-0330"> </a></td>
 <td>Hospitalisation de Jour en Gynéco-Obstétrique</td>
@@ -525,6 +545,7 @@
 <td>1979-01-01T00:00:00+01:00</td>
 <td>active</td>
 <td></td>
+<td>2</td>
 <td>Hospit. Gynéco.Obst.</td></tr>
 <tr><td style="white-space:nowrap">0340<a name="tre-r347-activite-sanitaire-diverse-regulee-0340"> </a></td>
 <td>Prévention, Prophylaxie, Conseil</td>
@@ -534,6 +555,7 @@
 <td>1979-01-01T00:00:00+01:00</td>
 <td>active</td>
 <td></td>
+<td>2</td>
 <td>Prév.Proph. Conseil</td></tr>
 <tr><td style="white-space:nowrap">0350<a name="tre-r347-activite-sanitaire-diverse-regulee-0350"> </a></td>
 <td>Aide aux Insuffisants Respiratoires</td>
@@ -543,6 +565,7 @@
 <td>1979-01-01T00:00:00+01:00</td>
 <td>active</td>
 <td></td>
+<td>2</td>
 <td>Aide Insuff. Resp.</td></tr>
 <tr style="background-color: #ffeeee"><td style="white-space:nowrap">0360<a name="tre-r347-activite-sanitaire-diverse-regulee-0360"> </a></td>
 <td>Autres Traitements Spécialisés à Domicile</td>
@@ -552,6 +575,7 @@
 <td>2017-06-07T00:00:00+01:00</td>
 <td>deprecated</td>
 <td>2017-06-07T00:00:00+01:00</td>
+<td>2</td>
 <td>Autres Trait.Spé.Dom</td></tr>
 <tr><td style="white-space:nowrap">0370<a name="tre-r347-activite-sanitaire-diverse-regulee-0370"> </a></td>
 <td>structures de psychiatrie hors carte sanitaire</td>
@@ -561,6 +585,7 @@
 <td>2001-10-01T00:00:00+01:00</td>
 <td>active</td>
 <td></td>
+<td>2</td>
 <td>psychiatrie HCS</td></tr>
 <tr><td style="white-space:nowrap">0380<a name="tre-r347-activite-sanitaire-diverse-regulee-0380"> </a></td>
 <td>disciplines de cures thermales</td>
@@ -570,6 +595,7 @@
 <td>1979-01-01T00:00:00+01:00</td>
 <td>active</td>
 <td></td>
+<td>2</td>
 <td>Cures thermales</td></tr>
 <tr style="background-color: #ffeeee"><td style="white-space:nowrap">0410<a name="tre-r347-activite-sanitaire-diverse-regulee-0410"> </a></td>
 <td>Blocs Opératoires et Obstétricaux</td>
@@ -579,6 +605,7 @@
 <td>2017-06-07T00:00:00+01:00</td>
 <td>deprecated</td>
 <td>2017-06-07T00:00:00+01:00</td>
+<td>2</td>
 <td>Blocs Opératoires</td></tr>
 <tr style="background-color: #ffeeee"><td style="white-space:nowrap">0420<a name="tre-r347-activite-sanitaire-diverse-regulee-0420"> </a></td>
 <td>Anesthésiologie et Réveil</td>
@@ -588,6 +615,7 @@
 <td>2017-06-07T00:00:00+01:00</td>
 <td>deprecated</td>
 <td>2017-06-07T00:00:00+01:00</td>
+<td>2</td>
 <td>Anesthésiologie</td></tr>
 <tr style="background-color: #ffeeee"><td style="white-space:nowrap">0430<a name="tre-r347-activite-sanitaire-diverse-regulee-0430"> </a></td>
 <td>Imagerie</td>
@@ -597,6 +625,7 @@
 <td>2017-06-07T00:00:00+01:00</td>
 <td>deprecated</td>
 <td>2017-06-07T00:00:00+01:00</td>
+<td>2</td>
 <td></td></tr>
 <tr style="background-color: #ffeeee"><td style="white-space:nowrap">0440<a name="tre-r347-activite-sanitaire-diverse-regulee-0440"> </a></td>
 <td>Radiothérapie</td>
@@ -606,6 +635,7 @@
 <td>2017-06-07T00:00:00+01:00</td>
 <td>deprecated</td>
 <td>2017-06-07T00:00:00+01:00</td>
+<td>2</td>
 <td></td></tr>
 <tr style="background-color: #ffeeee"><td style="white-space:nowrap">0450<a name="tre-r347-activite-sanitaire-diverse-regulee-0450"> </a></td>
 <td>Exploration Fonctionnelle</td>
@@ -615,6 +645,7 @@
 <td>2017-06-07T00:00:00+01:00</td>
 <td>deprecated</td>
 <td>2017-06-07T00:00:00+01:00</td>
+<td>2</td>
 <td>Explo. Fonctionnelle</td></tr>
 <tr style="background-color: #ffeeee"><td style="white-space:nowrap">0460<a name="tre-r347-activite-sanitaire-diverse-regulee-0460"> </a></td>
 <td>Techniques de Rééducation et de Réadaptation Fonctionnelle</td>
@@ -624,6 +655,7 @@
 <td>2017-06-07T00:00:00+01:00</td>
 <td>deprecated</td>
 <td>2017-06-07T00:00:00+01:00</td>
+<td>2</td>
 <td>Techn.Rééduc.Réadapt</td></tr>
 <tr><td style="white-space:nowrap">0470<a name="tre-r347-activite-sanitaire-diverse-regulee-0470"> </a></td>
 <td>Analyses Médicales Biologiques</td>
@@ -633,6 +665,7 @@
 <td>1979-01-01T00:00:00+01:00</td>
 <td>active</td>
 <td></td>
+<td>2</td>
 <td>Ana.Méd. Biologiques</td></tr>
 <tr><td style="white-space:nowrap">0480<a name="tre-r347-activite-sanitaire-diverse-regulee-0480"> </a></td>
 <td>Pharmacie et autres Biens Médicaux</td>
@@ -642,6 +675,7 @@
 <td>1979-01-01T00:00:00+01:00</td>
 <td>active</td>
 <td></td>
+<td>2</td>
 <td>Pharmacie Biens Méd.</td></tr>
 <tr style="background-color: #ffeeee"><td style="white-space:nowrap">0510<a name="tre-r347-activite-sanitaire-diverse-regulee-0510"> </a></td>
 <td>Urgence</td>
@@ -651,6 +685,7 @@
 <td>2017-06-07T00:00:00+01:00</td>
 <td>deprecated</td>
 <td>2017-06-07T00:00:00+01:00</td>
+<td>2</td>
 <td></td></tr>
 <tr style="background-color: #ffeeee"><td style="white-space:nowrap">0520<a name="tre-r347-activite-sanitaire-diverse-regulee-0520"> </a></td>
 <td>Urgence Chirurgicale</td>
@@ -660,6 +695,7 @@
 <td>1999-06-17T00:00:00+01:00</td>
 <td>deprecated</td>
 <td>1999-06-17T00:00:00+01:00</td>
+<td>2</td>
 <td></td></tr>
 <tr style="background-color: #ffeeee"><td style="white-space:nowrap">0530<a name="tre-r347-activite-sanitaire-diverse-regulee-0530"> </a></td>
 <td>SAMU - SMUR</td>
@@ -669,6 +705,7 @@
 <td>2017-06-07T00:00:00+01:00</td>
 <td>deprecated</td>
 <td>2017-06-07T00:00:00+01:00</td>
+<td>2</td>
 <td></td></tr>
 <tr style="background-color: #ffeeee"><td style="white-space:nowrap">0610<a name="tre-r347-activite-sanitaire-diverse-regulee-0610"> </a></td>
 <td>Services Extérieurs</td>
@@ -678,6 +715,7 @@
 <td>1994-09-19T00:00:00+01:00</td>
 <td>deprecated</td>
 <td>1994-09-19T00:00:00+01:00</td>
+<td>2</td>
 <td></td></tr>
 <tr><td style="white-space:nowrap">0620<a name="tre-r347-activite-sanitaire-diverse-regulee-0620"> </a></td>
 <td>Transport des Malades</td>
@@ -687,6 +725,7 @@
 <td>1979-01-01T00:00:00+01:00</td>
 <td>active</td>
 <td></td>
+<td>2</td>
 <td>Transp. des Malades</td></tr>
 <tr><td style="white-space:nowrap">0630<a name="tre-r347-activite-sanitaire-diverse-regulee-0630"> </a></td>
 <td>Stockage d'Organes et de Produits Humains</td>
@@ -696,6 +735,7 @@
 <td>1979-01-01T00:00:00+01:00</td>
 <td>active</td>
 <td></td>
+<td>2</td>
 <td>Stock.Org.Prdts.Hum.</td></tr>
 <tr style="background-color: #ffeeee"><td style="white-space:nowrap">0640<a name="tre-r347-activite-sanitaire-diverse-regulee-0640"> </a></td>
 <td>Enseignement et Recherche</td>
@@ -705,6 +745,7 @@
 <td>2017-06-07T00:00:00+01:00</td>
 <td>deprecated</td>
 <td>2017-06-07T00:00:00+01:00</td>
+<td>2</td>
 <td>Enseig. et Recherche</td></tr>
 <tr style="background-color: #ffeeee"><td style="white-space:nowrap">0660<a name="tre-r347-activite-sanitaire-diverse-regulee-0660"> </a></td>
 <td>Autres Disciplines</td>
@@ -714,6 +755,7 @@
 <td>2017-06-07T00:00:00+01:00</td>
 <td>deprecated</td>
 <td>2017-06-07T00:00:00+01:00</td>
+<td>2</td>
 <td></td></tr>
 <tr style="background-color: #ffeeee"><td style="white-space:nowrap">0211<a name="tre-r347-activite-sanitaire-diverse-regulee-0211"> </a></td>
 <td>Médecine Générale</td>
@@ -723,6 +765,7 @@
 <td>2017-06-07T00:00:00+01:00</td>
 <td>deprecated</td>
 <td>2017-06-07T00:00:00+01:00</td>
+<td>3</td>
 <td></td></tr>
 <tr style="background-color: #ffeeee"><td style="white-space:nowrap">0212<a name="tre-r347-activite-sanitaire-diverse-regulee-0212"> </a></td>
 <td>Pédiatrie</td>
@@ -732,6 +775,7 @@
 <td>2017-06-07T00:00:00+01:00</td>
 <td>deprecated</td>
 <td>2017-06-07T00:00:00+01:00</td>
+<td>3</td>
 <td></td></tr>
 <tr style="background-color: #ffeeee"><td style="white-space:nowrap">0213<a name="tre-r347-activite-sanitaire-diverse-regulee-0213"> </a></td>
 <td>Spécialités Médicales</td>
@@ -741,6 +785,7 @@
 <td>2017-06-07T00:00:00+01:00</td>
 <td>deprecated</td>
 <td>2017-06-07T00:00:00+01:00</td>
+<td>3</td>
 <td>Spéc. Médicales</td></tr>
 <tr style="background-color: #ffeeee"><td style="white-space:nowrap">0214<a name="tre-r347-activite-sanitaire-diverse-regulee-0214"> </a></td>
 <td>Réanimation Médicale</td>
@@ -750,6 +795,7 @@
 <td>2017-06-07T00:00:00+01:00</td>
 <td>deprecated</td>
 <td>2017-06-07T00:00:00+01:00</td>
+<td>3</td>
 <td></td></tr>
 <tr style="background-color: #ffeeee"><td style="white-space:nowrap">0215<a name="tre-r347-activite-sanitaire-diverse-regulee-0215"> </a></td>
 <td>Surveillance Continue Médicale</td>
@@ -759,6 +805,7 @@
 <td>2017-06-07T00:00:00+01:00</td>
 <td>deprecated</td>
 <td>2017-06-07T00:00:00+01:00</td>
+<td>3</td>
 <td>Surv. Cont. Médicale</td></tr>
 <tr style="background-color: #ffeeee"><td style="white-space:nowrap">0221<a name="tre-r347-activite-sanitaire-diverse-regulee-0221"> </a></td>
 <td>Chirurgie Générale</td>
@@ -768,6 +815,7 @@
 <td>2017-06-07T00:00:00+01:00</td>
 <td>deprecated</td>
 <td>2017-06-07T00:00:00+01:00</td>
+<td>3</td>
 <td></td></tr>
 <tr style="background-color: #ffeeee"><td style="white-space:nowrap">0222<a name="tre-r347-activite-sanitaire-diverse-regulee-0222"> </a></td>
 <td>Chirurgie Infantile</td>
@@ -777,6 +825,7 @@
 <td>2017-06-07T00:00:00+01:00</td>
 <td>deprecated</td>
 <td>2017-06-07T00:00:00+01:00</td>
+<td>3</td>
 <td></td></tr>
 <tr style="background-color: #ffeeee"><td style="white-space:nowrap">0223<a name="tre-r347-activite-sanitaire-diverse-regulee-0223"> </a></td>
 <td>Spécialités Chirurgicales</td>
@@ -786,6 +835,7 @@
 <td>2017-06-07T00:00:00+01:00</td>
 <td>deprecated</td>
 <td>2017-06-07T00:00:00+01:00</td>
+<td>3</td>
 <td>Spéc. Chirurgicales</td></tr>
 <tr style="background-color: #ffeeee"><td style="white-space:nowrap">0224<a name="tre-r347-activite-sanitaire-diverse-regulee-0224"> </a></td>
 <td>Réanimation Chirurgicale</td>
@@ -795,6 +845,7 @@
 <td>2017-06-07T00:00:00+01:00</td>
 <td>deprecated</td>
 <td>2017-06-07T00:00:00+01:00</td>
+<td>3</td>
 <td>Réa. Chirurgicale</td></tr>
 <tr style="background-color: #ffeeee"><td style="white-space:nowrap">0225<a name="tre-r347-activite-sanitaire-diverse-regulee-0225"> </a></td>
 <td>Surveillance Continue Chirurgicale</td>
@@ -804,6 +855,7 @@
 <td>2017-06-07T00:00:00+01:00</td>
 <td>deprecated</td>
 <td>2017-06-07T00:00:00+01:00</td>
+<td>3</td>
 <td>Surv. Continue Chir.</td></tr>
 <tr style="background-color: #ffeeee"><td style="white-space:nowrap">0231<a name="tre-r347-activite-sanitaire-diverse-regulee-0231"> </a></td>
 <td>Gynécologie Obstétrique</td>
@@ -813,6 +865,7 @@
 <td>2017-06-07T00:00:00+01:00</td>
 <td>deprecated</td>
 <td>2017-06-07T00:00:00+01:00</td>
+<td>3</td>
 <td>Gynéco. Obstétrique</td></tr>
 <tr style="background-color: #ffeeee"><td style="white-space:nowrap">0241<a name="tre-r347-activite-sanitaire-diverse-regulee-0241"> </a></td>
 <td>Neuro-chirurgie</td>
@@ -822,6 +875,7 @@
 <td>2017-06-07T00:00:00+01:00</td>
 <td>deprecated</td>
 <td>2017-06-07T00:00:00+01:00</td>
+<td>3</td>
 <td></td></tr>
 <tr style="background-color: #ffeeee"><td style="white-space:nowrap">0261<a name="tre-r347-activite-sanitaire-diverse-regulee-0261"> </a></td>
 <td>Maladie à Evolution Prolongée</td>
@@ -831,6 +885,7 @@
 <td>2017-06-07T00:00:00+01:00</td>
 <td>deprecated</td>
 <td>2017-06-07T00:00:00+01:00</td>
+<td>3</td>
 <td>Maladie Evol.Prolong</td></tr>
 <tr style="background-color: #ffeeee"><td style="white-space:nowrap">0262<a name="tre-r347-activite-sanitaire-diverse-regulee-0262"> </a></td>
 <td>Convalescence, Repos, Régime</td>
@@ -840,6 +895,7 @@
 <td>2017-06-07T00:00:00+01:00</td>
 <td>deprecated</td>
 <td>2017-06-07T00:00:00+01:00</td>
+<td>3</td>
 <td>Convalescence</td></tr>
 <tr style="background-color: #ffeeee"><td style="white-space:nowrap">0263<a name="tre-r347-activite-sanitaire-diverse-regulee-0263"> </a></td>
 <td>Rééducation Fonctionnelle et Réadaptation</td>
@@ -849,6 +905,7 @@
 <td>2017-06-07T00:00:00+01:00</td>
 <td>deprecated</td>
 <td>2017-06-07T00:00:00+01:00</td>
+<td>3</td>
 <td>Rééduc.Fonct.Réadap.</td></tr>
 <tr style="background-color: #ffeeee"><td style="white-space:nowrap">0264<a name="tre-r347-activite-sanitaire-diverse-regulee-0264"> </a></td>
 <td>Lutte contre la Tuberculose et les Maladies Respiratoires</td>
@@ -858,6 +915,7 @@
 <td>2017-06-07T00:00:00+01:00</td>
 <td>deprecated</td>
 <td>2017-06-07T00:00:00+01:00</td>
+<td>3</td>
 <td>Tuberculose Mal.Resp</td></tr>
 <tr style="background-color: #ffeeee"><td style="white-space:nowrap">0265<a name="tre-r347-activite-sanitaire-diverse-regulee-0265"> </a></td>
 <td>Cures Thermales</td>
@@ -867,6 +925,7 @@
 <td>2017-06-07T00:00:00+01:00</td>
 <td>deprecated</td>
 <td>2017-06-07T00:00:00+01:00</td>
+<td>3</td>
 <td></td></tr>
 <tr style="background-color: #ffeeee"><td style="white-space:nowrap">0266<a name="tre-r347-activite-sanitaire-diverse-regulee-0266"> </a></td>
 <td>Cures Médicales</td>
@@ -876,6 +935,7 @@
 <td>2017-06-07T00:00:00+01:00</td>
 <td>deprecated</td>
 <td>2017-06-07T00:00:00+01:00</td>
+<td>3</td>
 <td></td></tr>
 <tr style="background-color: #ffeeee"><td style="white-space:nowrap">0267<a name="tre-r347-activite-sanitaire-diverse-regulee-0267"> </a></td>
 <td>Cures Médicales pour Enfants</td>
@@ -885,6 +945,7 @@
 <td>2017-06-07T00:00:00+01:00</td>
 <td>deprecated</td>
 <td>2017-06-07T00:00:00+01:00</td>
+<td>3</td>
 <td>Cures Médicales Enf.</td></tr>
 <tr style="background-color: #ffeeee"><td style="white-space:nowrap">0268<a name="tre-r347-activite-sanitaire-diverse-regulee-0268"> </a></td>
 <td>Post-Cure pour Alcooliques</td>
@@ -894,6 +955,7 @@
 <td>2017-06-07T00:00:00+01:00</td>
 <td>deprecated</td>
 <td>2017-06-07T00:00:00+01:00</td>
+<td>3</td>
 <td>Post-Cure Alcoolique</td></tr>
 <tr style="background-color: #ffeeee"><td style="white-space:nowrap">0271<a name="tre-r347-activite-sanitaire-diverse-regulee-0271"> </a></td>
 <td>Soins de Longue Durée</td>
@@ -903,6 +965,7 @@
 <td>2017-06-07T00:00:00+01:00</td>
 <td>deprecated</td>
 <td>2017-06-07T00:00:00+01:00</td>
+<td>3</td>
 <td>Soins Longue Durée</td></tr>
 <tr style="background-color: #ffeeee"><td style="white-space:nowrap">0281<a name="tre-r347-activite-sanitaire-diverse-regulee-0281"> </a></td>
 <td>Psychiatrie Adulte</td>
@@ -912,6 +975,7 @@
 <td>2017-06-07T00:00:00+01:00</td>
 <td>deprecated</td>
 <td>2017-06-07T00:00:00+01:00</td>
+<td>3</td>
 <td></td></tr>
 <tr style="background-color: #ffeeee"><td style="white-space:nowrap">0291<a name="tre-r347-activite-sanitaire-diverse-regulee-0291"> </a></td>
 <td>Psychiatrie Infanto-juvénile</td>
@@ -921,6 +985,7 @@
 <td>2017-06-07T00:00:00+01:00</td>
 <td>deprecated</td>
 <td>2017-06-07T00:00:00+01:00</td>
+<td>3</td>
 <td>Psy.Infanto-juvénile</td></tr>
 <tr style="background-color: #ffeeee"><td style="white-space:nowrap">0311<a name="tre-r347-activite-sanitaire-diverse-regulee-0311"> </a></td>
 <td>Dialyse</td>
@@ -930,6 +995,7 @@
 <td>2017-06-07T00:00:00+01:00</td>
 <td>deprecated</td>
 <td>2017-06-07T00:00:00+01:00</td>
+<td>3</td>
 <td></td></tr>
 <tr><td style="white-space:nowrap">0321<a name="tre-r347-activite-sanitaire-diverse-regulee-0321"> </a></td>
 <td>Chimiothérapie</td>
@@ -939,6 +1005,7 @@
 <td>1979-01-01T00:00:00+01:00</td>
 <td>active</td>
 <td></td>
+<td>3</td>
 <td></td></tr>
 <tr><td style="white-space:nowrap">0331<a name="tre-r347-activite-sanitaire-diverse-regulee-0331"> </a></td>
 <td>Hospitalisation de Jour en Gynéco-Obstétrique</td>
@@ -948,6 +1015,7 @@
 <td>1979-01-01T00:00:00+01:00</td>
 <td>active</td>
 <td></td>
+<td>3</td>
 <td>Hospit. Gynéco.Obst.</td></tr>
 <tr><td style="white-space:nowrap">0341<a name="tre-r347-activite-sanitaire-diverse-regulee-0341"> </a></td>
 <td>Examens Systématique et Dépistage</td>
@@ -957,6 +1025,7 @@
 <td>1979-01-01T00:00:00+01:00</td>
 <td>active</td>
 <td></td>
+<td>3</td>
 <td>Examens Dépistage</td></tr>
 <tr><td style="white-space:nowrap">0342<a name="tre-r347-activite-sanitaire-diverse-regulee-0342"> </a></td>
 <td>Prévention et Conseil</td>
@@ -966,6 +1035,7 @@
 <td>1979-01-01T00:00:00+01:00</td>
 <td>active</td>
 <td></td>
+<td>3</td>
 <td>Prévention Conseil</td></tr>
 <tr><td style="white-space:nowrap">0343<a name="tre-r347-activite-sanitaire-diverse-regulee-0343"> </a></td>
 <td>Soins Divers</td>
@@ -975,6 +1045,7 @@
 <td>1979-01-01T00:00:00+01:00</td>
 <td>active</td>
 <td></td>
+<td>3</td>
 <td></td></tr>
 <tr><td style="white-space:nowrap">0351<a name="tre-r347-activite-sanitaire-diverse-regulee-0351"> </a></td>
 <td>Aide aux Insuffisants Respiratoires</td>
@@ -984,6 +1055,7 @@
 <td>1979-01-01T00:00:00+01:00</td>
 <td>active</td>
 <td></td>
+<td>3</td>
 <td>Aide Insuff. Resp.</td></tr>
 <tr style="background-color: #ffeeee"><td style="white-space:nowrap">0361<a name="tre-r347-activite-sanitaire-diverse-regulee-0361"> </a></td>
 <td>Autres Traitements Spécialisés à Domicile</td>
@@ -993,6 +1065,7 @@
 <td>2017-06-07T00:00:00+01:00</td>
 <td>deprecated</td>
 <td>2017-06-07T00:00:00+01:00</td>
+<td>3</td>
 <td>Autres Trait.Spé.Dom</td></tr>
 <tr><td style="white-space:nowrap">0371<a name="tre-r347-activite-sanitaire-diverse-regulee-0371"> </a></td>
 <td>structures de psychiatrie sans hébergement</td>
@@ -1002,6 +1075,7 @@
 <td>2001-10-01T00:00:00+01:00</td>
 <td>active</td>
 <td></td>
+<td>3</td>
 <td>psychiatrie ss hebgt</td></tr>
 <tr style="background-color: #ffeeee"><td style="white-space:nowrap">0372<a name="tre-r347-activite-sanitaire-diverse-regulee-0372"> </a></td>
 <td>psychiatrie en milieu pénitentiaire</td>
@@ -1011,6 +1085,7 @@
 <td>2017-06-07T00:00:00+01:00</td>
 <td>deprecated</td>
 <td>2017-06-07T00:00:00+01:00</td>
+<td>3</td>
 <td>psychiatrie prison</td></tr>
 <tr><td style="white-space:nowrap">0381<a name="tre-r347-activite-sanitaire-diverse-regulee-0381"> </a></td>
 <td>disciplines de cures thermales</td>
@@ -1020,6 +1095,7 @@
 <td>1979-01-01T00:00:00+01:00</td>
 <td>active</td>
 <td></td>
+<td>3</td>
 <td>cures thermales</td></tr>
 <tr style="background-color: #ffeeee"><td style="white-space:nowrap">0411<a name="tre-r347-activite-sanitaire-diverse-regulee-0411"> </a></td>
 <td>Blocs Opératoires et Obstétricaux</td>
@@ -1029,6 +1105,7 @@
 <td>2017-06-07T00:00:00+01:00</td>
 <td>deprecated</td>
 <td>2017-06-07T00:00:00+01:00</td>
+<td>3</td>
 <td>Blocs Opératoires</td></tr>
 <tr style="background-color: #ffeeee"><td style="white-space:nowrap">0421<a name="tre-r347-activite-sanitaire-diverse-regulee-0421"> </a></td>
 <td>Anesthésiologie et Réveil</td>
@@ -1038,6 +1115,7 @@
 <td>2017-06-07T00:00:00+01:00</td>
 <td>deprecated</td>
 <td>2017-06-07T00:00:00+01:00</td>
+<td>3</td>
 <td>Anesthésiologie</td></tr>
 <tr style="background-color: #ffeeee"><td style="white-space:nowrap">0431<a name="tre-r347-activite-sanitaire-diverse-regulee-0431"> </a></td>
 <td>Imagerie</td>
@@ -1047,6 +1125,7 @@
 <td>2017-06-07T00:00:00+01:00</td>
 <td>deprecated</td>
 <td>2017-06-07T00:00:00+01:00</td>
+<td>3</td>
 <td></td></tr>
 <tr style="background-color: #ffeeee"><td style="white-space:nowrap">0441<a name="tre-r347-activite-sanitaire-diverse-regulee-0441"> </a></td>
 <td>Radiothérapie</td>
@@ -1056,6 +1135,7 @@
 <td>2017-06-07T00:00:00+01:00</td>
 <td>deprecated</td>
 <td>2017-06-07T00:00:00+01:00</td>
+<td>3</td>
 <td></td></tr>
 <tr style="background-color: #ffeeee"><td style="white-space:nowrap">0451<a name="tre-r347-activite-sanitaire-diverse-regulee-0451"> </a></td>
 <td>Exploration Fonctionnelle</td>
@@ -1065,6 +1145,7 @@
 <td>2017-06-07T00:00:00+01:00</td>
 <td>deprecated</td>
 <td>2017-06-07T00:00:00+01:00</td>
+<td>3</td>
 <td>Explo. Fonctionnelle</td></tr>
 <tr style="background-color: #ffeeee"><td style="white-space:nowrap">0461<a name="tre-r347-activite-sanitaire-diverse-regulee-0461"> </a></td>
 <td>Techniques de Rééducation et de Réadaptation Fonctionnelle</td>
@@ -1074,6 +1155,7 @@
 <td>2017-06-07T00:00:00+01:00</td>
 <td>deprecated</td>
 <td>2017-06-07T00:00:00+01:00</td>
+<td>3</td>
 <td>Techn.Rééduc.Réadapt</td></tr>
 <tr><td style="white-space:nowrap">0471<a name="tre-r347-activite-sanitaire-diverse-regulee-0471"> </a></td>
 <td>Analyses Médicales Biologiques</td>
@@ -1083,6 +1165,7 @@
 <td>1979-01-01T00:00:00+01:00</td>
 <td>active</td>
 <td></td>
+<td>3</td>
 <td>Ana.Méd. Biologiques</td></tr>
 <tr><td style="white-space:nowrap">0481<a name="tre-r347-activite-sanitaire-diverse-regulee-0481"> </a></td>
 <td>Pharmacie et autres biens médicaux</td>
@@ -1092,6 +1175,7 @@
 <td>1979-01-01T00:00:00+01:00</td>
 <td>active</td>
 <td></td>
+<td>3</td>
 <td>Pharmacie Biens Méd.</td></tr>
 <tr style="background-color: #ffeeee"><td style="white-space:nowrap">0511<a name="tre-r347-activite-sanitaire-diverse-regulee-0511"> </a></td>
 <td>Urgence</td>
@@ -1101,6 +1185,7 @@
 <td>2017-06-07T00:00:00+01:00</td>
 <td>deprecated</td>
 <td>2017-06-07T00:00:00+01:00</td>
+<td>3</td>
 <td></td></tr>
 <tr style="background-color: #ffeeee"><td style="white-space:nowrap">0521<a name="tre-r347-activite-sanitaire-diverse-regulee-0521"> </a></td>
 <td>Urgence Chirurgicale</td>
@@ -1110,6 +1195,7 @@
 <td>1999-06-17T00:00:00+01:00</td>
 <td>deprecated</td>
 <td>1999-06-17T00:00:00+01:00</td>
+<td>3</td>
 <td></td></tr>
 <tr style="background-color: #ffeeee"><td style="white-space:nowrap">0531<a name="tre-r347-activite-sanitaire-diverse-regulee-0531"> </a></td>
 <td>SAMU - SMUR</td>
@@ -1119,6 +1205,7 @@
 <td>2017-06-07T00:00:00+01:00</td>
 <td>deprecated</td>
 <td>2017-06-07T00:00:00+01:00</td>
+<td>3</td>
 <td></td></tr>
 <tr><td style="white-space:nowrap">0621<a name="tre-r347-activite-sanitaire-diverse-regulee-0621"> </a></td>
 <td>Transport des Malades</td>
@@ -1128,6 +1215,7 @@
 <td>1979-01-01T00:00:00+01:00</td>
 <td>active</td>
 <td></td>
+<td>3</td>
 <td>Transp. des Malades</td></tr>
 <tr><td style="white-space:nowrap">0631<a name="tre-r347-activite-sanitaire-diverse-regulee-0631"> </a></td>
 <td>Stockage d'Organes et de Produits Humains</td>
@@ -1137,6 +1225,7 @@
 <td>1979-01-01T00:00:00+01:00</td>
 <td>active</td>
 <td></td>
+<td>3</td>
 <td>Stock.Org.Prdts.Hum.</td></tr>
 <tr style="background-color: #ffeeee"><td style="white-space:nowrap">0641<a name="tre-r347-activite-sanitaire-diverse-regulee-0641"> </a></td>
 <td>Enseignement</td>
@@ -1146,6 +1235,7 @@
 <td>2017-06-07T00:00:00+01:00</td>
 <td>deprecated</td>
 <td>2017-06-07T00:00:00+01:00</td>
+<td>3</td>
 <td></td></tr>
 <tr style="background-color: #ffeeee"><td style="white-space:nowrap">0642<a name="tre-r347-activite-sanitaire-diverse-regulee-0642"> </a></td>
 <td>Recherche</td>
@@ -1155,6 +1245,7 @@
 <td>2017-06-07T00:00:00+01:00</td>
 <td>deprecated</td>
 <td>2017-06-07T00:00:00+01:00</td>
+<td>3</td>
 <td></td></tr>
 <tr style="background-color: #ffeeee"><td style="white-space:nowrap">0661<a name="tre-r347-activite-sanitaire-diverse-regulee-0661"> </a></td>
 <td>Autres Disciplines</td>
@@ -1164,6 +1255,7 @@
 <td>2017-06-07T00:00:00+01:00</td>
 <td>deprecated</td>
 <td>2017-06-07T00:00:00+01:00</td>
+<td>3</td>
 <td></td></tr>
 <tr style="background-color: #ffeeee"><td style="white-space:nowrap">023<a name="tre-r347-activite-sanitaire-diverse-regulee-023"> </a></td>
 <td>Stérilisation</td>
@@ -1173,6 +1265,7 @@
 <td>2017-06-07T00:00:00+01:00</td>
 <td>deprecated</td>
 <td>2017-06-07T00:00:00+01:00</td>
+<td>4</td>
 <td></td></tr>
 <tr style="background-color: #ffeeee"><td style="white-space:nowrap">034<a name="tre-r347-activite-sanitaire-diverse-regulee-034"> </a></td>
 <td>Radiostandard</td>
@@ -1182,6 +1275,7 @@
 <td>2017-06-07T00:00:00+01:00</td>
 <td>deprecated</td>
 <td>2017-06-07T00:00:00+01:00</td>
+<td>4</td>
 <td></td></tr>
 <tr style="background-color: #ffeeee"><td style="white-space:nowrap">035<a name="tre-r347-activite-sanitaire-diverse-regulee-035"> </a></td>
 <td>Scanographie X</td>
@@ -1191,6 +1285,7 @@
 <td>2017-06-07T00:00:00+01:00</td>
 <td>deprecated</td>
 <td>2017-06-07T00:00:00+01:00</td>
+<td>4</td>
 <td></td></tr>
 <tr style="background-color: #ffeeee"><td style="white-space:nowrap">036<a name="tre-r347-activite-sanitaire-diverse-regulee-036"> </a></td>
 <td>Neuroradiologie</td>
@@ -1200,6 +1295,7 @@
 <td>2017-06-07T00:00:00+01:00</td>
 <td>deprecated</td>
 <td>2017-06-07T00:00:00+01:00</td>
+<td>4</td>
 <td></td></tr>
 <tr style="background-color: #ffeeee"><td style="white-space:nowrap">037<a name="tre-r347-activite-sanitaire-diverse-regulee-037"> </a></td>
 <td>Hémodynamique</td>
@@ -1209,6 +1305,7 @@
 <td>2017-06-07T00:00:00+01:00</td>
 <td>deprecated</td>
 <td>2017-06-07T00:00:00+01:00</td>
+<td>4</td>
 <td></td></tr>
 <tr style="background-color: #ffeeee"><td style="white-space:nowrap">038<a name="tre-r347-activite-sanitaire-diverse-regulee-038"> </a></td>
 <td>Radiothérapie de Contact</td>
@@ -1218,6 +1315,7 @@
 <td>2017-06-07T00:00:00+01:00</td>
 <td>deprecated</td>
 <td>2017-06-07T00:00:00+01:00</td>
+<td>4</td>
 <td>Radioth.de Contact</td></tr>
 <tr style="background-color: #ffeeee"><td style="white-space:nowrap">039<a name="tre-r347-activite-sanitaire-diverse-regulee-039"> </a></td>
 <td>Radiothérapie Externe(Césium Cobalt)</td>
@@ -1227,6 +1325,7 @@
 <td>2017-06-07T00:00:00+01:00</td>
 <td>deprecated</td>
 <td>2017-06-07T00:00:00+01:00</td>
+<td>4</td>
 <td>Radioth. Externe</td></tr>
 <tr style="background-color: #ffeeee"><td style="white-space:nowrap">041<a name="tre-r347-activite-sanitaire-diverse-regulee-041"> </a></td>
 <td>Radiothérapie Haute Énergie</td>
@@ -1236,6 +1335,7 @@
 <td>2017-06-07T00:00:00+01:00</td>
 <td>deprecated</td>
 <td>2017-06-07T00:00:00+01:00</td>
+<td>4</td>
 <td>Radioth.Hte Energie</td></tr>
 <tr style="background-color: #ffeeee"><td style="white-space:nowrap">043<a name="tre-r347-activite-sanitaire-diverse-regulee-043"> </a></td>
 <td>Curiethérapie</td>
@@ -1245,6 +1345,7 @@
 <td>2017-06-07T00:00:00+01:00</td>
 <td>deprecated</td>
 <td>2017-06-07T00:00:00+01:00</td>
+<td>4</td>
 <td></td></tr>
 <tr style="background-color: #ffeeee"><td style="white-space:nowrap">044<a name="tre-r347-activite-sanitaire-diverse-regulee-044"> </a></td>
 <td>Autre Radiothérapie Spécialisée</td>
@@ -1254,6 +1355,7 @@
 <td>2017-06-07T00:00:00+01:00</td>
 <td>deprecated</td>
 <td>2017-06-07T00:00:00+01:00</td>
+<td>4</td>
 <td>Autre Radiothérapie</td></tr>
 <tr style="background-color: #ffeeee"><td style="white-space:nowrap">045<a name="tre-r347-activite-sanitaire-diverse-regulee-045"> </a></td>
 <td>Exploration Fonctionnelle Cardiovasculaire</td>
@@ -1263,6 +1365,7 @@
 <td>2017-06-07T00:00:00+01:00</td>
 <td>deprecated</td>
 <td>2017-06-07T00:00:00+01:00</td>
+<td>4</td>
 <td>Explor.Fonct.Cardio</td></tr>
 <tr style="background-color: #ffeeee"><td style="white-space:nowrap">046<a name="tre-r347-activite-sanitaire-diverse-regulee-046"> </a></td>
 <td>Exploration Fonctionnelle Néphrologique</td>
@@ -1272,6 +1375,7 @@
 <td>2017-06-07T00:00:00+01:00</td>
 <td>deprecated</td>
 <td>2017-06-07T00:00:00+01:00</td>
+<td>4</td>
 <td>Explor.Fonct.Néphro.</td></tr>
 <tr style="background-color: #ffeeee"><td style="white-space:nowrap">047<a name="tre-r347-activite-sanitaire-diverse-regulee-047"> </a></td>
 <td>Exploration Fonctionnelle Pneumologique</td>
@@ -1281,6 +1385,7 @@
 <td>2017-06-07T00:00:00+01:00</td>
 <td>deprecated</td>
 <td>2017-06-07T00:00:00+01:00</td>
+<td>4</td>
 <td>Explor.Fonct.Pneum.</td></tr>
 <tr style="background-color: #ffeeee"><td style="white-space:nowrap">048<a name="tre-r347-activite-sanitaire-diverse-regulee-048"> </a></td>
 <td>Exploration Fonctionnelle Neurologique</td>
@@ -1290,6 +1395,7 @@
 <td>2017-06-07T00:00:00+01:00</td>
 <td>deprecated</td>
 <td>2017-06-07T00:00:00+01:00</td>
+<td>4</td>
 <td>Explor.Fonct.Neurol.</td></tr>
 <tr style="background-color: #ffeeee"><td style="white-space:nowrap">049<a name="tre-r347-activite-sanitaire-diverse-regulee-049"> </a></td>
 <td>Exploration Fonctionnelle Tube Digestif</td>
@@ -1299,6 +1405,7 @@
 <td>2017-06-07T00:00:00+01:00</td>
 <td>deprecated</td>
 <td>2017-06-07T00:00:00+01:00</td>
+<td>4</td>
 <td>Explor.Fonct.T.Diges</td></tr>
 <tr style="background-color: #ffeeee"><td style="white-space:nowrap">050<a name="tre-r347-activite-sanitaire-diverse-regulee-050"> </a></td>
 <td>Exploration Fonctionnelle Fonctionnelle Spécialisée</td>
@@ -1308,6 +1415,7 @@
 <td>2017-06-07T00:00:00+01:00</td>
 <td>deprecated</td>
 <td>2017-06-07T00:00:00+01:00</td>
+<td>4</td>
 <td>Autr.Explor.Fonct.Sp</td></tr>
 <tr style="background-color: #ffeeee"><td style="white-space:nowrap">051<a name="tre-r347-activite-sanitaire-diverse-regulee-051"> </a></td>
 <td>Exploration Fonctionnelle Cardiovasculaire Néphrologique</td>
@@ -1317,6 +1425,7 @@
 <td>2017-06-07T00:00:00+01:00</td>
 <td>deprecated</td>
 <td>2017-06-07T00:00:00+01:00</td>
+<td>4</td>
 <td>Expl.Fonc.Card.Néph.</td></tr>
 <tr style="background-color: #ffeeee"><td style="white-space:nowrap">052<a name="tre-r347-activite-sanitaire-diverse-regulee-052"> </a></td>
 <td>Exploration Fonctionnelle Cardiovasculaire Pneumologique.</td>
@@ -1326,6 +1435,7 @@
 <td>2017-06-07T00:00:00+01:00</td>
 <td>deprecated</td>
 <td>2017-06-07T00:00:00+01:00</td>
+<td>4</td>
 <td>Expl.Fonc.Card.Pneu</td></tr>
 <tr style="background-color: #ffeeee"><td style="white-space:nowrap">053<a name="tre-r347-activite-sanitaire-diverse-regulee-053"> </a></td>
 <td>Exploration Fonctionnelle Fonctionnelle Polyvalente</td>
@@ -1335,6 +1445,7 @@
 <td>2017-06-07T00:00:00+01:00</td>
 <td>deprecated</td>
 <td>2017-06-07T00:00:00+01:00</td>
+<td>4</td>
 <td>Autr.Explor.Fonc.Pol</td></tr>
 <tr style="background-color: #ffeeee"><td style="white-space:nowrap">055<a name="tre-r347-activite-sanitaire-diverse-regulee-055"> </a></td>
 <td>Réadaption-Rééducation Fonctionnelle Polyvalente</td>
@@ -1344,6 +1455,7 @@
 <td>2017-06-07T00:00:00+01:00</td>
 <td>deprecated</td>
 <td>2017-06-07T00:00:00+01:00</td>
+<td>4</td>
 <td>Réadapt-Rééduc.Fonct</td></tr>
 <tr style="background-color: #ffeeee"><td style="white-space:nowrap">056<a name="tre-r347-activite-sanitaire-diverse-regulee-056"> </a></td>
 <td>Ergothérapie</td>
@@ -1353,6 +1465,7 @@
 <td>2017-06-07T00:00:00+01:00</td>
 <td>deprecated</td>
 <td>2017-06-07T00:00:00+01:00</td>
+<td>4</td>
 <td></td></tr>
 <tr style="background-color: #ffeeee"><td style="white-space:nowrap">057<a name="tre-r347-activite-sanitaire-diverse-regulee-057"> </a></td>
 <td>Hydrothérapie</td>
@@ -1362,6 +1475,7 @@
 <td>2017-06-07T00:00:00+01:00</td>
 <td>deprecated</td>
 <td>2017-06-07T00:00:00+01:00</td>
+<td>4</td>
 <td></td></tr>
 <tr style="background-color: #ffeeee"><td style="white-space:nowrap">058<a name="tre-r347-activite-sanitaire-diverse-regulee-058"> </a></td>
 <td>Kinésithérapie</td>
@@ -1371,6 +1485,7 @@
 <td>2017-06-07T00:00:00+01:00</td>
 <td>deprecated</td>
 <td>2017-06-07T00:00:00+01:00</td>
+<td>4</td>
 <td></td></tr>
 <tr style="background-color: #ffeeee"><td style="white-space:nowrap">059<a name="tre-r347-activite-sanitaire-diverse-regulee-059"> </a></td>
 <td>Orthophonie</td>
@@ -1380,6 +1495,7 @@
 <td>2017-06-07T00:00:00+01:00</td>
 <td>deprecated</td>
 <td>2017-06-07T00:00:00+01:00</td>
+<td>4</td>
 <td></td></tr>
 <tr style="background-color: #ffeeee"><td style="white-space:nowrap">060<a name="tre-r347-activite-sanitaire-diverse-regulee-060"> </a></td>
 <td>Orthoptie</td>
@@ -1389,6 +1505,7 @@
 <td>2017-06-07T00:00:00+01:00</td>
 <td>deprecated</td>
 <td>2017-06-07T00:00:00+01:00</td>
+<td>4</td>
 <td></td></tr>
 <tr style="background-color: #ffeeee"><td style="white-space:nowrap">061<a name="tre-r347-activite-sanitaire-diverse-regulee-061"> </a></td>
 <td>Autre Rééducation Spécialisée</td>
@@ -1398,6 +1515,7 @@
 <td>2017-06-07T00:00:00+01:00</td>
 <td>deprecated</td>
 <td>2017-06-07T00:00:00+01:00</td>
+<td>4</td>
 <td>Autre Rééduc.Spécial</td></tr>
 <tr style="background-color: #ffeeee"><td style="white-space:nowrap">062<a name="tre-r347-activite-sanitaire-diverse-regulee-062"> </a></td>
 <td>Anatomie Cytologie Pathologiques</td>
@@ -1407,6 +1525,7 @@
 <td>2017-06-07T00:00:00+01:00</td>
 <td>deprecated</td>
 <td>2017-06-07T00:00:00+01:00</td>
+<td>4</td>
 <td>Anat.Cytol.Pathol.</td></tr>
 <tr style="background-color: #ffeeee"><td style="white-space:nowrap">063<a name="tre-r347-activite-sanitaire-diverse-regulee-063"> </a></td>
 <td>Bactériologie</td>
@@ -1416,6 +1535,7 @@
 <td>2017-06-07T00:00:00+01:00</td>
 <td>deprecated</td>
 <td>2017-06-07T00:00:00+01:00</td>
+<td>4</td>
 <td></td></tr>
 <tr style="background-color: #ffeeee"><td style="white-space:nowrap">064<a name="tre-r347-activite-sanitaire-diverse-regulee-064"> </a></td>
 <td>Biochimie</td>
@@ -1425,6 +1545,7 @@
 <td>2017-06-07T00:00:00+01:00</td>
 <td>deprecated</td>
 <td>2017-06-07T00:00:00+01:00</td>
+<td>4</td>
 <td></td></tr>
 <tr style="background-color: #ffeeee"><td style="white-space:nowrap">065<a name="tre-r347-activite-sanitaire-diverse-regulee-065"> </a></td>
 <td>Biophysique</td>
@@ -1434,6 +1555,7 @@
 <td>2017-06-07T00:00:00+01:00</td>
 <td>deprecated</td>
 <td>2017-06-07T00:00:00+01:00</td>
+<td>4</td>
 <td></td></tr>
 <tr style="background-color: #ffeeee"><td style="white-space:nowrap">067<a name="tre-r347-activite-sanitaire-diverse-regulee-067"> </a></td>
 <td>Coprologie</td>
@@ -1443,6 +1565,7 @@
 <td>2017-06-07T00:00:00+01:00</td>
 <td>deprecated</td>
 <td>2017-06-07T00:00:00+01:00</td>
+<td>4</td>
 <td></td></tr>
 <tr style="background-color: #ffeeee"><td style="white-space:nowrap">068<a name="tre-r347-activite-sanitaire-diverse-regulee-068"> </a></td>
 <td>Cytologie</td>
@@ -1452,6 +1575,7 @@
 <td>2017-06-07T00:00:00+01:00</td>
 <td>deprecated</td>
 <td>2017-06-07T00:00:00+01:00</td>
+<td>4</td>
 <td></td></tr>
 <tr style="background-color: #ffeeee"><td style="white-space:nowrap">069<a name="tre-r347-activite-sanitaire-diverse-regulee-069"> </a></td>
 <td>Cytogénétique</td>
@@ -1461,6 +1585,7 @@
 <td>2017-06-07T00:00:00+01:00</td>
 <td>deprecated</td>
 <td>2017-06-07T00:00:00+01:00</td>
+<td>4</td>
 <td>Cyto-Génétique</td></tr>
 <tr style="background-color: #ffeeee"><td style="white-space:nowrap">070<a name="tre-r347-activite-sanitaire-diverse-regulee-070"> </a></td>
 <td>Embryologie</td>
@@ -1470,6 +1595,7 @@
 <td>2017-06-07T00:00:00+01:00</td>
 <td>deprecated</td>
 <td>2017-06-07T00:00:00+01:00</td>
+<td>4</td>
 <td></td></tr>
 <tr style="background-color: #ffeeee"><td style="white-space:nowrap">071<a name="tre-r347-activite-sanitaire-diverse-regulee-071"> </a></td>
 <td>Enzymologie</td>
@@ -1479,6 +1605,7 @@
 <td>2017-06-07T00:00:00+01:00</td>
 <td>deprecated</td>
 <td>2017-06-07T00:00:00+01:00</td>
+<td>4</td>
 <td>Enzymlogie</td></tr>
 <tr style="background-color: #ffeeee"><td style="white-space:nowrap">072<a name="tre-r347-activite-sanitaire-diverse-regulee-072"> </a></td>
 <td>Hématologie</td>
@@ -1488,6 +1615,7 @@
 <td>2017-06-07T00:00:00+01:00</td>
 <td>deprecated</td>
 <td>2017-06-07T00:00:00+01:00</td>
+<td>4</td>
 <td></td></tr>
 <tr style="background-color: #ffeeee"><td style="white-space:nowrap">073<a name="tre-r347-activite-sanitaire-diverse-regulee-073"> </a></td>
 <td>Histologie</td>
@@ -1497,6 +1625,7 @@
 <td>2017-06-07T00:00:00+01:00</td>
 <td>deprecated</td>
 <td>2017-06-07T00:00:00+01:00</td>
+<td>4</td>
 <td></td></tr>
 <tr style="background-color: #ffeeee"><td style="white-space:nowrap">074<a name="tre-r347-activite-sanitaire-diverse-regulee-074"> </a></td>
 <td>Hormonologie</td>
@@ -1506,6 +1635,7 @@
 <td>2017-06-07T00:00:00+01:00</td>
 <td>deprecated</td>
 <td>2017-06-07T00:00:00+01:00</td>
+<td>4</td>
 <td></td></tr>
 <tr style="background-color: #ffeeee"><td style="white-space:nowrap">076<a name="tre-r347-activite-sanitaire-diverse-regulee-076"> </a></td>
 <td>Immunologie</td>
@@ -1515,6 +1645,7 @@
 <td>2017-06-07T00:00:00+01:00</td>
 <td>deprecated</td>
 <td>2017-06-07T00:00:00+01:00</td>
+<td>4</td>
 <td></td></tr>
 <tr style="background-color: #ffeeee"><td style="white-space:nowrap">077<a name="tre-r347-activite-sanitaire-diverse-regulee-077"> </a></td>
 <td>Bactériologie-Vitro Parasitologie</td>
@@ -1524,6 +1655,7 @@
 <td>2017-06-07T00:00:00+01:00</td>
 <td>deprecated</td>
 <td>2017-06-07T00:00:00+01:00</td>
+<td>4</td>
 <td>Bact.-Vitro Parasito</td></tr>
 <tr style="background-color: #ffeeee"><td style="white-space:nowrap">078<a name="tre-r347-activite-sanitaire-diverse-regulee-078"> </a></td>
 <td>Mycologie</td>
@@ -1533,6 +1665,7 @@
 <td>2017-06-07T00:00:00+01:00</td>
 <td>deprecated</td>
 <td>2017-06-07T00:00:00+01:00</td>
+<td>4</td>
 <td></td></tr>
 <tr style="background-color: #ffeeee"><td style="white-space:nowrap">079<a name="tre-r347-activite-sanitaire-diverse-regulee-079"> </a></td>
 <td>Parasitologie</td>
@@ -1542,6 +1675,7 @@
 <td>2017-06-07T00:00:00+01:00</td>
 <td>deprecated</td>
 <td>2017-06-07T00:00:00+01:00</td>
+<td>4</td>
 <td></td></tr>
 <tr style="background-color: #ffeeee"><td style="white-space:nowrap">080<a name="tre-r347-activite-sanitaire-diverse-regulee-080"> </a></td>
 <td>Pharmacologie</td>
@@ -1551,6 +1685,7 @@
 <td>2017-06-07T00:00:00+01:00</td>
 <td>deprecated</td>
 <td>2017-06-07T00:00:00+01:00</td>
+<td>4</td>
 <td></td></tr>
 <tr style="background-color: #ffeeee"><td style="white-space:nowrap">081<a name="tre-r347-activite-sanitaire-diverse-regulee-081"> </a></td>
 <td>Sérologie</td>
@@ -1560,6 +1695,7 @@
 <td>2017-06-07T00:00:00+01:00</td>
 <td>deprecated</td>
 <td>2017-06-07T00:00:00+01:00</td>
+<td>4</td>
 <td></td></tr>
 <tr style="background-color: #ffeeee"><td style="white-space:nowrap">082<a name="tre-r347-activite-sanitaire-diverse-regulee-082"> </a></td>
 <td>Toxicologie</td>
@@ -1569,6 +1705,7 @@
 <td>2017-06-07T00:00:00+01:00</td>
 <td>deprecated</td>
 <td>2017-06-07T00:00:00+01:00</td>
+<td>4</td>
 <td></td></tr>
 <tr style="background-color: #ffeeee"><td style="white-space:nowrap">083<a name="tre-r347-activite-sanitaire-diverse-regulee-083"> </a></td>
 <td>Virologie</td>
@@ -1578,6 +1715,7 @@
 <td>2017-06-07T00:00:00+01:00</td>
 <td>deprecated</td>
 <td>2017-06-07T00:00:00+01:00</td>
+<td>4</td>
 <td></td></tr>
 <tr><td style="white-space:nowrap">084<a name="tre-r347-activite-sanitaire-diverse-regulee-084"> </a></td>
 <td>Biologie Médicale</td>
@@ -1587,6 +1725,7 @@
 <td>1979-01-01T00:00:00+01:00</td>
 <td>active</td>
 <td></td>
+<td>4</td>
 <td></td></tr>
 <tr style="background-color: #ffeeee"><td style="white-space:nowrap">085<a name="tre-r347-activite-sanitaire-diverse-regulee-085"> </a></td>
 <td>Autre discipline de biologie médicale spécialisée</td>
@@ -1596,6 +1735,7 @@
 <td>2017-06-07T00:00:00+01:00</td>
 <td>deprecated</td>
 <td>2017-06-07T00:00:00+01:00</td>
+<td>4</td>
 <td>Autre Disc.Biologie</td></tr>
 <tr><td style="white-space:nowrap">086<a name="tre-r347-activite-sanitaire-diverse-regulee-086"> </a></td>
 <td>Activité de vaccination gratuite</td>
@@ -1605,6 +1745,7 @@
 <td>1979-01-01T00:00:00+01:00</td>
 <td>active</td>
 <td></td>
+<td>4</td>
 <td>Act vaccination grat</td></tr>
 <tr><td style="white-space:nowrap">087<a name="tre-r347-activite-sanitaire-diverse-regulee-087"> </a></td>
 <td>Consultation Anti-Tabac</td>
@@ -1614,6 +1755,7 @@
 <td>1979-01-01T00:00:00+01:00</td>
 <td>active</td>
 <td></td>
+<td>4</td>
 <td>Consult.Anti-Tabac</td></tr>
 <tr style="background-color: #ffeeee"><td style="white-space:nowrap">088<a name="tre-r347-activite-sanitaire-diverse-regulee-088"> </a></td>
 <td>Médecine Légale</td>
@@ -1623,6 +1765,7 @@
 <td>2017-06-07T00:00:00+01:00</td>
 <td>deprecated</td>
 <td>2017-06-07T00:00:00+01:00</td>
+<td>4</td>
 <td></td></tr>
 <tr><td style="white-space:nowrap">089<a name="tre-r347-activite-sanitaire-diverse-regulee-089"> </a></td>
 <td>Médecine Préventive Santé Publique</td>
@@ -1632,6 +1775,7 @@
 <td>1979-01-01T00:00:00+01:00</td>
 <td>active</td>
 <td></td>
+<td>4</td>
 <td>Médec.Prévent.San.Pu</td></tr>
 <tr style="background-color: #ffeeee"><td style="white-space:nowrap">090<a name="tre-r347-activite-sanitaire-diverse-regulee-090"> </a></td>
 <td>Autres Consultations Soins Externes</td>
@@ -1641,6 +1785,7 @@
 <td>1994-09-19T00:00:00+01:00</td>
 <td>deprecated</td>
 <td>1994-09-19T00:00:00+01:00</td>
+<td>4</td>
 <td>Autres Consult.Soins</td></tr>
 <tr style="background-color: #ffeeee"><td style="white-space:nowrap">091<a name="tre-r347-activite-sanitaire-diverse-regulee-091"> </a></td>
 <td>Fabrication Préparation Produits Pharmaceutiques</td>
@@ -1650,6 +1795,7 @@
 <td>2017-06-07T00:00:00+01:00</td>
 <td>deprecated</td>
 <td>2017-06-07T00:00:00+01:00</td>
+<td>4</td>
 <td>Fabric.Prép.Prod.Pha</td></tr>
 <tr style="background-color: #ffeeee"><td style="white-space:nowrap">092<a name="tre-r347-activite-sanitaire-diverse-regulee-092"> </a></td>
 <td>Distribution de Produits Pharmaceutiques</td>
@@ -1659,6 +1805,7 @@
 <td>2017-06-07T00:00:00+01:00</td>
 <td>deprecated</td>
 <td>2017-06-07T00:00:00+01:00</td>
+<td>4</td>
 <td>Distr.Prod.Pharmac.</td></tr>
 <tr style="background-color: #ffeeee"><td style="white-space:nowrap">093<a name="tre-r347-activite-sanitaire-diverse-regulee-093"> </a></td>
 <td>Distribution autres Biens Médicaux</td>
@@ -1668,6 +1815,7 @@
 <td>2017-06-07T00:00:00+01:00</td>
 <td>deprecated</td>
 <td>2017-06-07T00:00:00+01:00</td>
+<td>4</td>
 <td>Distr.autre.Bien.Méd</td></tr>
 <tr style="background-color: #ffeeee"><td style="white-space:nowrap">094<a name="tre-r347-activite-sanitaire-diverse-regulee-094"> </a></td>
 <td>Pharmacocinétique</td>
@@ -1677,6 +1825,7 @@
 <td>2017-06-07T00:00:00+01:00</td>
 <td>deprecated</td>
 <td>2017-06-07T00:00:00+01:00</td>
+<td>4</td>
 <td></td></tr>
 <tr style="background-color: #ffeeee"><td style="white-space:nowrap">095<a name="tre-r347-activite-sanitaire-diverse-regulee-095"> </a></td>
 <td>Fabrication Autres Biens Médicaux Prothèses</td>
@@ -1686,6 +1835,7 @@
 <td>2017-06-07T00:00:00+01:00</td>
 <td>deprecated</td>
 <td>2017-06-07T00:00:00+01:00</td>
+<td>4</td>
 <td>Fabric.Bien Méd.Prot</td></tr>
 <tr style="background-color: #ffeeee"><td style="white-space:nowrap">096<a name="tre-r347-activite-sanitaire-diverse-regulee-096"> </a></td>
 <td>Prélèvement Scientifique Vérification Diagnostic</td>
@@ -1695,6 +1845,7 @@
 <td>2017-06-07T00:00:00+01:00</td>
 <td>deprecated</td>
 <td>2017-06-07T00:00:00+01:00</td>
+<td>4</td>
 <td>Prél.Scien.Vérif.Dia</td></tr>
 <tr style="background-color: #ffeeee"><td style="white-space:nowrap">097<a name="tre-r347-activite-sanitaire-diverse-regulee-097"> </a></td>
 <td>Anesthésiologie</td>
@@ -1704,6 +1855,7 @@
 <td>2017-06-07T00:00:00+01:00</td>
 <td>deprecated</td>
 <td>2017-06-07T00:00:00+01:00</td>
+<td>4</td>
 <td></td></tr>
 <tr style="background-color: #ffeeee"><td style="white-space:nowrap">098<a name="tre-r347-activite-sanitaire-diverse-regulee-098"> </a></td>
 <td>Parasitologie et Mycologie</td>
@@ -1713,6 +1865,7 @@
 <td>2017-06-07T00:00:00+01:00</td>
 <td>deprecated</td>
 <td>2017-06-07T00:00:00+01:00</td>
+<td>4</td>
 <td>Parasit.Mycologie</td></tr>
 <tr style="background-color: #ffeeee"><td style="white-space:nowrap">099<a name="tre-r347-activite-sanitaire-diverse-regulee-099"> </a></td>
 <td>Activité Pharmaco-Toxico-Vigilance</td>
@@ -1722,6 +1875,7 @@
 <td>2017-06-07T00:00:00+01:00</td>
 <td>deprecated</td>
 <td>2017-06-07T00:00:00+01:00</td>
+<td>4</td>
 <td>Activ.Phar.Toxi.Vig.</td></tr>
 <tr style="background-color: #ffeeee"><td style="white-space:nowrap">100<a name="tre-r347-activite-sanitaire-diverse-regulee-100"> </a></td>
 <td>Radio-Immunologie</td>
@@ -1731,6 +1885,7 @@
 <td>2017-06-07T00:00:00+01:00</td>
 <td>deprecated</td>
 <td>2017-06-07T00:00:00+01:00</td>
+<td>4</td>
 <td></td></tr>
 <tr style="background-color: #ffeeee"><td style="white-space:nowrap">101<a name="tre-r347-activite-sanitaire-diverse-regulee-101"> </a></td>
 <td>Médecine Générale ou Médecine Interne</td>
@@ -1740,6 +1895,7 @@
 <td>1994-09-19T00:00:00+01:00</td>
 <td>deprecated</td>
 <td>1994-09-19T00:00:00+01:00</td>
+<td>4</td>
 <td>Méd. Génér. Méd.Int.</td></tr>
 <tr style="background-color: #ffeeee"><td style="white-space:nowrap">102<a name="tre-r347-activite-sanitaire-diverse-regulee-102"> </a></td>
 <td>Maladie Infectieuse et Parasitaire</td>
@@ -1749,6 +1905,7 @@
 <td>2017-06-07T00:00:00+01:00</td>
 <td>deprecated</td>
 <td>2017-06-07T00:00:00+01:00</td>
+<td>4</td>
 <td>Malad.Infect.Parasit</td></tr>
 <tr style="background-color: #ffeeee"><td style="white-space:nowrap">103<a name="tre-r347-activite-sanitaire-diverse-regulee-103"> </a></td>
 <td>Centre AntiPoison</td>
@@ -1758,6 +1915,7 @@
 <td>2017-06-07T00:00:00+01:00</td>
 <td>deprecated</td>
 <td>2017-06-07T00:00:00+01:00</td>
+<td>4</td>
 <td>Centre Anti-Poison</td></tr>
 <tr style="background-color: #ffeeee"><td style="white-space:nowrap">104<a name="tre-r347-activite-sanitaire-diverse-regulee-104"> </a></td>
 <td>Réanimation Médicale Adultes</td>
@@ -1767,6 +1925,7 @@
 <td>2017-06-07T00:00:00+01:00</td>
 <td>deprecated</td>
 <td>2017-06-07T00:00:00+01:00</td>
+<td>4</td>
 <td>Réanim.Médic.Adultes</td></tr>
 <tr style="background-color: #ffeeee"><td style="white-space:nowrap">105<a name="tre-r347-activite-sanitaire-diverse-regulee-105"> </a></td>
 <td>Réanimation Polyvalente</td>
@@ -1776,6 +1935,7 @@
 <td>2017-06-07T00:00:00+01:00</td>
 <td>deprecated</td>
 <td>2017-06-07T00:00:00+01:00</td>
+<td>4</td>
 <td>Réanimation Polyval.</td></tr>
 <tr style="background-color: #ffeeee"><td style="white-space:nowrap">106<a name="tre-r347-activite-sanitaire-diverse-regulee-106"> </a></td>
 <td>Surveillance Continue Médicale</td>
@@ -1785,6 +1945,7 @@
 <td>2017-06-07T00:00:00+01:00</td>
 <td>deprecated</td>
 <td>2017-06-07T00:00:00+01:00</td>
+<td>4</td>
 <td>Surveil.Cont.Médical</td></tr>
 <tr style="background-color: #ffeeee"><td style="white-space:nowrap">107<a name="tre-r347-activite-sanitaire-diverse-regulee-107"> </a></td>
 <td>SURVEILLANCE CONTINUE POLYV.</td>
@@ -1794,6 +1955,7 @@
 <td>1994-09-19T00:00:00+01:00</td>
 <td>deprecated</td>
 <td>1994-09-19T00:00:00+01:00</td>
+<td>4</td>
 <td>SURVEILLANCE CONTINU</td></tr>
 <tr style="background-color: #ffeeee"><td style="white-space:nowrap">108<a name="tre-r347-activite-sanitaire-diverse-regulee-108"> </a></td>
 <td>Pédiatrie</td>
@@ -1803,6 +1965,7 @@
 <td>2017-06-07T00:00:00+01:00</td>
 <td>deprecated</td>
 <td>2017-06-07T00:00:00+01:00</td>
+<td>4</td>
 <td></td></tr>
 <tr style="background-color: #ffeeee"><td style="white-space:nowrap">109<a name="tre-r347-activite-sanitaire-diverse-regulee-109"> </a></td>
 <td>Médecine de l'Adolescent</td>
@@ -1812,6 +1975,7 @@
 <td>2017-06-07T00:00:00+01:00</td>
 <td>deprecated</td>
 <td>2017-06-07T00:00:00+01:00</td>
+<td>4</td>
 <td>Médecine Adolescent</td></tr>
 <tr style="background-color: #ffeeee"><td style="white-space:nowrap">111<a name="tre-r347-activite-sanitaire-diverse-regulee-111"> </a></td>
 <td>PEDIATRIE NOURRISSONS</td>
@@ -1821,6 +1985,7 @@
 <td>1994-09-19T00:00:00+01:00</td>
 <td>deprecated</td>
 <td>1994-09-19T00:00:00+01:00</td>
+<td>4</td>
 <td>PEDIATRIE NOURRISSON</td></tr>
 <tr style="background-color: #ffeeee"><td style="white-space:nowrap">112<a name="tre-r347-activite-sanitaire-diverse-regulee-112"> </a></td>
 <td>Néonatalogie</td>
@@ -1830,6 +1995,7 @@
 <td>2017-06-07T00:00:00+01:00</td>
 <td>deprecated</td>
 <td>2017-06-07T00:00:00+01:00</td>
+<td>4</td>
 <td></td></tr>
 <tr style="background-color: #ffeeee"><td style="white-space:nowrap">113<a name="tre-r347-activite-sanitaire-diverse-regulee-113"> </a></td>
 <td>Médecine Gériatrique</td>
@@ -1839,6 +2005,7 @@
 <td>2017-06-07T00:00:00+01:00</td>
 <td>deprecated</td>
 <td>2017-06-07T00:00:00+01:00</td>
+<td>4</td>
 <td></td></tr>
 <tr style="background-color: #ffeeee"><td style="white-space:nowrap">115<a name="tre-r347-activite-sanitaire-diverse-regulee-115"> </a></td>
 <td>ALLERGOLOGIE</td>
@@ -1848,6 +2015,7 @@
 <td>1994-06-06T00:00:00+01:00</td>
 <td>deprecated</td>
 <td>1994-06-06T00:00:00+01:00</td>
+<td>4</td>
 <td></td></tr>
 <tr style="background-color: #ffeeee"><td style="white-space:nowrap">117<a name="tre-r347-activite-sanitaire-diverse-regulee-117"> </a></td>
 <td>Dermatologie-Vénérologie</td>
@@ -1857,6 +2025,7 @@
 <td>2017-06-07T00:00:00+01:00</td>
 <td>deprecated</td>
 <td>2017-06-07T00:00:00+01:00</td>
+<td>4</td>
 <td>Dermato-Vénérologie</td></tr>
 <tr style="background-color: #ffeeee"><td style="white-space:nowrap">119<a name="tre-r347-activite-sanitaire-diverse-regulee-119"> </a></td>
 <td>Endocrino-Diabetologie</td>
@@ -1866,6 +2035,7 @@
 <td>2017-06-07T00:00:00+01:00</td>
 <td>deprecated</td>
 <td>2017-06-07T00:00:00+01:00</td>
+<td>4</td>
 <td>Endocrino-Diabétol.</td></tr>
 <tr style="background-color: #ffeeee"><td style="white-space:nowrap">122<a name="tre-r347-activite-sanitaire-diverse-regulee-122"> </a></td>
 <td>Maladies Métaboliques Nutrition</td>
@@ -1875,6 +2045,7 @@
 <td>2017-06-07T00:00:00+01:00</td>
 <td>deprecated</td>
 <td>2017-06-07T00:00:00+01:00</td>
+<td>4</td>
 <td>Malad.Métabol.Nutri</td></tr>
 <tr style="background-color: #ffeeee"><td style="white-space:nowrap">123<a name="tre-r347-activite-sanitaire-diverse-regulee-123"> </a></td>
 <td>Hématologie Maladies du Sang</td>
@@ -1884,6 +2055,7 @@
 <td>2017-06-07T00:00:00+01:00</td>
 <td>deprecated</td>
 <td>2017-06-07T00:00:00+01:00</td>
+<td>4</td>
 <td>Hémato.et Malad.Sang</td></tr>
 <tr style="background-color: #ffeeee"><td style="white-space:nowrap">124<a name="tre-r347-activite-sanitaire-diverse-regulee-124"> </a></td>
 <td>Hépato-Gastro-Entérologie</td>
@@ -1893,6 +2065,7 @@
 <td>2017-06-07T00:00:00+01:00</td>
 <td>deprecated</td>
 <td>2017-06-07T00:00:00+01:00</td>
+<td>4</td>
 <td>Hépato-Gastro-Entéro</td></tr>
 <tr style="background-color: #ffeeee"><td style="white-space:nowrap">126<a name="tre-r347-activite-sanitaire-diverse-regulee-126"> </a></td>
 <td>MEDECINE CARCINOLOGIQUE</td>
@@ -1902,6 +2075,7 @@
 <td>1994-09-19T00:00:00+01:00</td>
 <td>deprecated</td>
 <td>1994-09-19T00:00:00+01:00</td>
+<td>4</td>
 <td>MEDECINE CARCINOLOGI</td></tr>
 <tr style="background-color: #ffeeee"><td style="white-space:nowrap">127<a name="tre-r347-activite-sanitaire-diverse-regulee-127"> </a></td>
 <td>Médecine Cardio-Vasculaire</td>
@@ -1911,6 +2085,7 @@
 <td>2017-06-07T00:00:00+01:00</td>
 <td>deprecated</td>
 <td>2017-06-07T00:00:00+01:00</td>
+<td>4</td>
 <td>Méd. Cardio-Vascul.</td></tr>
 <tr style="background-color: #ffeeee"><td style="white-space:nowrap">129<a name="tre-r347-activite-sanitaire-diverse-regulee-129"> </a></td>
 <td>Neurologie</td>
@@ -1920,6 +2095,7 @@
 <td>2017-06-07T00:00:00+01:00</td>
 <td>deprecated</td>
 <td>2017-06-07T00:00:00+01:00</td>
+<td>4</td>
 <td></td></tr>
 <tr style="background-color: #ffeeee"><td style="white-space:nowrap">130<a name="tre-r347-activite-sanitaire-diverse-regulee-130"> </a></td>
 <td>Pneumologie</td>
@@ -1929,6 +2105,7 @@
 <td>2017-06-07T00:00:00+01:00</td>
 <td>deprecated</td>
 <td>2017-06-07T00:00:00+01:00</td>
+<td>4</td>
 <td></td></tr>
 <tr style="background-color: #ffeeee"><td style="white-space:nowrap">133<a name="tre-r347-activite-sanitaire-diverse-regulee-133"> </a></td>
 <td>Rhumatologie</td>
@@ -1938,6 +2115,7 @@
 <td>2017-06-07T00:00:00+01:00</td>
 <td>deprecated</td>
 <td>2017-06-07T00:00:00+01:00</td>
+<td>4</td>
 <td></td></tr>
 <tr style="background-color: #ffeeee"><td style="white-space:nowrap">134<a name="tre-r347-activite-sanitaire-diverse-regulee-134"> </a></td>
 <td>RADIOTHER. &amp; MEDEC. NUCLEAIRE</td>
@@ -1947,6 +2125,7 @@
 <td>1994-06-06T00:00:00+01:00</td>
 <td>deprecated</td>
 <td>1994-06-06T00:00:00+01:00</td>
+<td>4</td>
 <td>RADIOTHER. &amp; MEDEC.</td></tr>
 <tr style="background-color: #ffeeee"><td style="white-space:nowrap">135<a name="tre-r347-activite-sanitaire-diverse-regulee-135"> </a></td>
 <td>RADIOTHERAPIE</td>
@@ -1956,6 +2135,7 @@
 <td>1994-09-19T00:00:00+01:00</td>
 <td>deprecated</td>
 <td>1994-09-19T00:00:00+01:00</td>
+<td>4</td>
 <td></td></tr>
 <tr style="background-color: #ffeeee"><td style="white-space:nowrap">136<a name="tre-r347-activite-sanitaire-diverse-regulee-136"> </a></td>
 <td>Médecine Nucléaire</td>
@@ -1965,6 +2145,7 @@
 <td>2017-06-07T00:00:00+01:00</td>
 <td>deprecated</td>
 <td>2017-06-07T00:00:00+01:00</td>
+<td>4</td>
 <td></td></tr>
 <tr style="background-color: #ffeeee"><td style="white-space:nowrap">137<a name="tre-r347-activite-sanitaire-diverse-regulee-137"> </a></td>
 <td>Chirurgie Générale</td>
@@ -1974,6 +2155,7 @@
 <td>2017-06-07T00:00:00+01:00</td>
 <td>deprecated</td>
 <td>2017-06-07T00:00:00+01:00</td>
+<td>4</td>
 <td></td></tr>
 <tr style="background-color: #ffeeee"><td style="white-space:nowrap">138<a name="tre-r347-activite-sanitaire-diverse-regulee-138"> </a></td>
 <td>Chirurgie Infantile</td>
@@ -1983,6 +2165,7 @@
 <td>2017-06-07T00:00:00+01:00</td>
 <td>deprecated</td>
 <td>2017-06-07T00:00:00+01:00</td>
+<td>4</td>
 <td></td></tr>
 <tr style="background-color: #ffeeee"><td style="white-space:nowrap">141<a name="tre-r347-activite-sanitaire-diverse-regulee-141"> </a></td>
 <td>Réanimation Chirurgicale Adultes</td>
@@ -1992,6 +2175,7 @@
 <td>2017-06-07T00:00:00+01:00</td>
 <td>deprecated</td>
 <td>2017-06-07T00:00:00+01:00</td>
+<td>4</td>
 <td>Réanim.Chirur.Adult.</td></tr>
 <tr style="background-color: #ffeeee"><td style="white-space:nowrap">142<a name="tre-r347-activite-sanitaire-diverse-regulee-142"> </a></td>
 <td>Surveillance Continue Chirurgicale</td>
@@ -2001,6 +2185,7 @@
 <td>2017-06-07T00:00:00+01:00</td>
 <td>deprecated</td>
 <td>2017-06-07T00:00:00+01:00</td>
+<td>4</td>
 <td>Surveil.Cont.Chirur.</td></tr>
 <tr style="background-color: #ffeeee"><td style="white-space:nowrap">143<a name="tre-r347-activite-sanitaire-diverse-regulee-143"> </a></td>
 <td>SPECIALITE CHIRURGICALE</td>
@@ -2010,6 +2195,7 @@
 <td>1994-09-19T00:00:00+01:00</td>
 <td>deprecated</td>
 <td>1994-09-19T00:00:00+01:00</td>
+<td>4</td>
 <td>SPECIALITE CHIRURGI</td></tr>
 <tr style="background-color: #ffeeee"><td style="white-space:nowrap">144<a name="tre-r347-activite-sanitaire-diverse-regulee-144"> </a></td>
 <td>Chirurgie Carcinologie</td>
@@ -2019,6 +2205,7 @@
 <td>2017-06-07T00:00:00+01:00</td>
 <td>deprecated</td>
 <td>2017-06-07T00:00:00+01:00</td>
+<td>4</td>
 <td>Chirur. Carcinologie</td></tr>
 <tr style="background-color: #ffeeee"><td style="white-space:nowrap">145<a name="tre-r347-activite-sanitaire-diverse-regulee-145"> </a></td>
 <td>Traitement des Grands Brûlés</td>
@@ -2028,6 +2215,7 @@
 <td>2017-06-07T00:00:00+01:00</td>
 <td>deprecated</td>
 <td>2017-06-07T00:00:00+01:00</td>
+<td>4</td>
 <td>Trait. Grands Brulés</td></tr>
 <tr style="background-color: #ffeeee"><td style="white-space:nowrap">146<a name="tre-r347-activite-sanitaire-diverse-regulee-146"> </a></td>
 <td>Chirurgie Digestive</td>
@@ -2037,6 +2225,7 @@
 <td>2017-06-07T00:00:00+01:00</td>
 <td>deprecated</td>
 <td>2017-06-07T00:00:00+01:00</td>
+<td>4</td>
 <td></td></tr>
 <tr style="background-color: #ffeeee"><td style="white-space:nowrap">147<a name="tre-r347-activite-sanitaire-diverse-regulee-147"> </a></td>
 <td>Chirurgie Thoracique Cardio-Vasculaire</td>
@@ -2046,6 +2235,7 @@
 <td>2017-06-07T00:00:00+01:00</td>
 <td>deprecated</td>
 <td>2017-06-07T00:00:00+01:00</td>
+<td>4</td>
 <td>Chir.Thorac.Card.Vas</td></tr>
 <tr style="background-color: #ffeeee"><td style="white-space:nowrap">148<a name="tre-r347-activite-sanitaire-diverse-regulee-148"> </a></td>
 <td>CHIRURGIE THORACO-PULMONAIRE</td>
@@ -2055,6 +2245,7 @@
 <td>1994-09-19T00:00:00+01:00</td>
 <td>deprecated</td>
 <td>1994-09-19T00:00:00+01:00</td>
+<td>4</td>
 <td>CHIRURGIE THORACO-PU</td></tr>
 <tr style="background-color: #ffeeee"><td style="white-space:nowrap">149<a name="tre-r347-activite-sanitaire-diverse-regulee-149"> </a></td>
 <td>Chirurgie Vasculaire</td>
@@ -2064,6 +2255,7 @@
 <td>2017-06-07T00:00:00+01:00</td>
 <td>deprecated</td>
 <td>2017-06-07T00:00:00+01:00</td>
+<td>4</td>
 <td></td></tr>
 <tr style="background-color: #ffeeee"><td style="white-space:nowrap">150<a name="tre-r347-activite-sanitaire-diverse-regulee-150"> </a></td>
 <td>CHIRURGIE CARDIO-VASCULAIRE</td>
@@ -2073,6 +2265,7 @@
 <td>1994-09-19T00:00:00+01:00</td>
 <td>deprecated</td>
 <td>1994-09-19T00:00:00+01:00</td>
+<td>4</td>
 <td>CHIRURGIE CARDIO-VAS</td></tr>
 <tr style="background-color: #ffeeee"><td style="white-space:nowrap">151<a name="tre-r347-activite-sanitaire-diverse-regulee-151"> </a></td>
 <td>Neurochirurgie</td>
@@ -2082,6 +2275,7 @@
 <td>2017-06-07T00:00:00+01:00</td>
 <td>deprecated</td>
 <td>2017-06-07T00:00:00+01:00</td>
+<td>4</td>
 <td></td></tr>
 <tr style="background-color: #ffeeee"><td style="white-space:nowrap">152<a name="tre-r347-activite-sanitaire-diverse-regulee-152"> </a></td>
 <td>Orthopédie-Traumatologie</td>
@@ -2091,6 +2285,7 @@
 <td>2017-06-07T00:00:00+01:00</td>
 <td>deprecated</td>
 <td>2017-06-07T00:00:00+01:00</td>
+<td>4</td>
 <td>Orthopédie-Traumato.</td></tr>
 <tr style="background-color: #ffeeee"><td style="white-space:nowrap">153<a name="tre-r347-activite-sanitaire-diverse-regulee-153"> </a></td>
 <td>Actes d'explantation de prothèses PIP</td>
@@ -2100,6 +2295,7 @@
 <td>2017-06-07T00:00:00+01:00</td>
 <td>deprecated</td>
 <td>2017-06-07T00:00:00+01:00</td>
+<td>4</td>
 <td>Explantation PIP</td></tr>
 <tr style="background-color: #ffeeee"><td style="white-space:nowrap">154<a name="tre-r347-activite-sanitaire-diverse-regulee-154"> </a></td>
 <td>Chirurgie Plastique Reconstructive</td>
@@ -2109,6 +2305,7 @@
 <td>2017-06-07T00:00:00+01:00</td>
 <td>deprecated</td>
 <td>2017-06-07T00:00:00+01:00</td>
+<td>4</td>
 <td>Chir.Plastiq.Reconst</td></tr>
 <tr style="background-color: #ffeeee"><td style="white-space:nowrap">155<a name="tre-r347-activite-sanitaire-diverse-regulee-155"> </a></td>
 <td>ORL ET OPHTALMOLOGIE</td>
@@ -2118,6 +2315,7 @@
 <td>1994-06-06T00:00:00+01:00</td>
 <td>deprecated</td>
 <td>1994-06-06T00:00:00+01:00</td>
+<td>4</td>
 <td></td></tr>
 <tr style="background-color: #ffeeee"><td style="white-space:nowrap">156<a name="tre-r347-activite-sanitaire-diverse-regulee-156"> </a></td>
 <td>Oto-rhino-laryngologie</td>
@@ -2127,6 +2325,7 @@
 <td>2017-06-07T00:00:00+01:00</td>
 <td>deprecated</td>
 <td>2017-06-07T00:00:00+01:00</td>
+<td>4</td>
 <td>O. R. L.</td></tr>
 <tr style="background-color: #ffeeee"><td style="white-space:nowrap">157<a name="tre-r347-activite-sanitaire-diverse-regulee-157"> </a></td>
 <td>Ophtalmologie</td>
@@ -2136,6 +2335,7 @@
 <td>2017-06-07T00:00:00+01:00</td>
 <td>deprecated</td>
 <td>2017-06-07T00:00:00+01:00</td>
+<td>4</td>
 <td></td></tr>
 <tr style="background-color: #ffeeee"><td style="white-space:nowrap">158<a name="tre-r347-activite-sanitaire-diverse-regulee-158"> </a></td>
 <td>Stomatologie Chirurgie Maxillo-faciale</td>
@@ -2145,6 +2345,7 @@
 <td>2017-06-07T00:00:00+01:00</td>
 <td>deprecated</td>
 <td>2017-06-07T00:00:00+01:00</td>
+<td>4</td>
 <td>Stomat.Chir.Max-Fac</td></tr>
 <tr style="background-color: #ffeeee"><td style="white-space:nowrap">159<a name="tre-r347-activite-sanitaire-diverse-regulee-159"> </a></td>
 <td>Stomatologie</td>
@@ -2154,6 +2355,7 @@
 <td>2017-06-07T00:00:00+01:00</td>
 <td>deprecated</td>
 <td>2017-06-07T00:00:00+01:00</td>
+<td>4</td>
 <td></td></tr>
 <tr style="background-color: #ffeeee"><td style="white-space:nowrap">161<a name="tre-r347-activite-sanitaire-diverse-regulee-161"> </a></td>
 <td>Urologie</td>
@@ -2163,6 +2365,7 @@
 <td>2017-06-07T00:00:00+01:00</td>
 <td>deprecated</td>
 <td>2017-06-07T00:00:00+01:00</td>
+<td>4</td>
 <td></td></tr>
 <tr style="background-color: #ffeeee"><td style="white-space:nowrap">162<a name="tre-r347-activite-sanitaire-diverse-regulee-162"> </a></td>
 <td>ORL-OPHTALMOLOG.&amp; STOMATOLOGIE</td>
@@ -2172,6 +2375,7 @@
 <td>1994-06-06T00:00:00+01:00</td>
 <td>deprecated</td>
 <td>1994-06-06T00:00:00+01:00</td>
+<td>4</td>
 <td>ORL-OPHTALMOLOG.&amp; ST</td></tr>
 <tr style="background-color: #ffeeee"><td style="white-space:nowrap">163<a name="tre-r347-activite-sanitaire-diverse-regulee-163"> </a></td>
 <td>Gynéco.&amp; Obstétrique</td>
@@ -2181,6 +2385,7 @@
 <td>2017-06-07T00:00:00+01:00</td>
 <td>deprecated</td>
 <td>2017-06-07T00:00:00+01:00</td>
+<td>4</td>
 <td></td></tr>
 <tr style="background-color: #ffeeee"><td style="white-space:nowrap">164<a name="tre-r347-activite-sanitaire-diverse-regulee-164"> </a></td>
 <td>Gynécologie Médicale</td>
@@ -2190,6 +2395,7 @@
 <td>2017-06-07T00:00:00+01:00</td>
 <td>deprecated</td>
 <td>2017-06-07T00:00:00+01:00</td>
+<td>4</td>
 <td></td></tr>
 <tr style="background-color: #ffeeee"><td style="white-space:nowrap">165<a name="tre-r347-activite-sanitaire-diverse-regulee-165"> </a></td>
 <td>Gynécologie Obstétrique</td>
@@ -2199,6 +2405,7 @@
 <td>2017-06-07T00:00:00+01:00</td>
 <td>deprecated</td>
 <td>2017-06-07T00:00:00+01:00</td>
+<td>4</td>
 <td>gynéco Obstétrique</td></tr>
 <tr style="background-color: #ffeeee"><td style="white-space:nowrap">166<a name="tre-r347-activite-sanitaire-diverse-regulee-166"> </a></td>
 <td>Chroniques Convalescence Indifférencié</td>
@@ -2208,6 +2415,7 @@
 <td>2017-06-07T00:00:00+01:00</td>
 <td>deprecated</td>
 <td>2017-06-07T00:00:00+01:00</td>
+<td>4</td>
 <td>Chroniq.Conval.Ind.</td></tr>
 <tr style="background-color: #ffeeee"><td style="white-space:nowrap">167<a name="tre-r347-activite-sanitaire-diverse-regulee-167"> </a></td>
 <td>Chroniques</td>
@@ -2217,6 +2425,7 @@
 <td>2017-06-07T00:00:00+01:00</td>
 <td>deprecated</td>
 <td>2017-06-07T00:00:00+01:00</td>
+<td>4</td>
 <td></td></tr>
 <tr style="background-color: #ffeeee"><td style="white-space:nowrap">168<a name="tre-r347-activite-sanitaire-diverse-regulee-168"> </a></td>
 <td>Repos-Convalescence Régime Indifférencié</td>
@@ -2226,6 +2435,7 @@
 <td>2017-06-07T00:00:00+01:00</td>
 <td>deprecated</td>
 <td>2017-06-07T00:00:00+01:00</td>
+<td>4</td>
 <td>Repos-Conval.Rég.ind</td></tr>
 <tr style="background-color: #ffeeee"><td style="white-space:nowrap">169<a name="tre-r347-activite-sanitaire-diverse-regulee-169"> </a></td>
 <td>Repos</td>
@@ -2235,6 +2445,7 @@
 <td>2017-06-07T00:00:00+01:00</td>
 <td>deprecated</td>
 <td>2017-06-07T00:00:00+01:00</td>
+<td>4</td>
 <td></td></tr>
 <tr style="background-color: #ffeeee"><td style="white-space:nowrap">170<a name="tre-r347-activite-sanitaire-diverse-regulee-170"> </a></td>
 <td>Convalescence</td>
@@ -2244,6 +2455,7 @@
 <td>2017-06-07T00:00:00+01:00</td>
 <td>deprecated</td>
 <td>2017-06-07T00:00:00+01:00</td>
+<td>4</td>
 <td></td></tr>
 <tr style="background-color: #ffeeee"><td style="white-space:nowrap">171<a name="tre-r347-activite-sanitaire-diverse-regulee-171"> </a></td>
 <td>Régime</td>
@@ -2253,6 +2465,7 @@
 <td>2017-06-07T00:00:00+01:00</td>
 <td>deprecated</td>
 <td>2017-06-07T00:00:00+01:00</td>
+<td>4</td>
 <td></td></tr>
 <tr style="background-color: #ffeeee"><td style="white-space:nowrap">172<a name="tre-r347-activite-sanitaire-diverse-regulee-172"> </a></td>
 <td>Rééducation Fonctionnelle Réadaptation Polyvalente</td>
@@ -2262,6 +2475,7 @@
 <td>2017-06-07T00:00:00+01:00</td>
 <td>deprecated</td>
 <td>2017-06-07T00:00:00+01:00</td>
+<td>4</td>
 <td>Rééduc.Fonct.Réadapt</td></tr>
 <tr><td style="white-space:nowrap">173<a name="tre-r347-activite-sanitaire-diverse-regulee-173"> </a></td>
 <td>Cure Thermale</td>
@@ -2271,6 +2485,7 @@
 <td>1979-01-01T00:00:00+01:00</td>
 <td>active</td>
 <td></td>
+<td>4</td>
 <td></td></tr>
 <tr style="background-color: #ffeeee"><td style="white-space:nowrap">174<a name="tre-r347-activite-sanitaire-diverse-regulee-174"> </a></td>
 <td>MEDEC.GEN. &amp; SPECIALITE MEDIC.</td>
@@ -2280,6 +2495,7 @@
 <td>1994-09-19T00:00:00+01:00</td>
 <td>deprecated</td>
 <td>1994-09-19T00:00:00+01:00</td>
+<td>4</td>
 <td>MEDEC.GEN. &amp; SPECIAL</td></tr>
 <tr style="background-color: #ffeeee"><td style="white-space:nowrap">176<a name="tre-r347-activite-sanitaire-diverse-regulee-176"> </a></td>
 <td>Long Séjour Personnes Ayant Perdu Leur Autonomie de Vie</td>
@@ -2289,6 +2505,7 @@
 <td>2017-06-07T00:00:00+01:00</td>
 <td>deprecated</td>
 <td>2017-06-07T00:00:00+01:00</td>
+<td>4</td>
 <td>Long Séjour Pers.Ag.</td></tr>
 <tr style="background-color: #ffeeee"><td style="white-space:nowrap">178<a name="tre-r347-activite-sanitaire-diverse-regulee-178"> </a></td>
 <td>Rééducation Fonctionnelle Réadaptation Motrice</td>
@@ -2298,6 +2515,7 @@
 <td>2017-06-07T00:00:00+01:00</td>
 <td>deprecated</td>
 <td>2017-06-07T00:00:00+01:00</td>
+<td>4</td>
 <td>Rééd.Fonc.Réad.Mot.</td></tr>
 <tr style="background-color: #ffeeee"><td style="white-space:nowrap">179<a name="tre-r347-activite-sanitaire-diverse-regulee-179"> </a></td>
 <td>Rééducation Fonctionnelle Réadaptation Neurologique</td>
@@ -2307,6 +2525,7 @@
 <td>2017-06-07T00:00:00+01:00</td>
 <td>deprecated</td>
 <td>2017-06-07T00:00:00+01:00</td>
+<td>4</td>
 <td>Rééd.Fonc.Réad.Neuro</td></tr>
 <tr style="background-color: #ffeeee"><td style="white-space:nowrap">180<a name="tre-r347-activite-sanitaire-diverse-regulee-180"> </a></td>
 <td>Rééducation des Affections Respiratoires</td>
@@ -2316,6 +2535,7 @@
 <td>2017-06-07T00:00:00+01:00</td>
 <td>deprecated</td>
 <td>2017-06-07T00:00:00+01:00</td>
+<td>4</td>
 <td>Rééduc.Affect.Respir</td></tr>
 <tr style="background-color: #ffeeee"><td style="white-space:nowrap">181<a name="tre-r347-activite-sanitaire-diverse-regulee-181"> </a></td>
 <td>Chirurgie Générale Spécialités Chirurgicales</td>
@@ -2325,6 +2545,7 @@
 <td>2017-06-07T00:00:00+01:00</td>
 <td>deprecated</td>
 <td>2017-06-07T00:00:00+01:00</td>
+<td>4</td>
 <td>Chir.Gén.Spéc.Chirur</td></tr>
 <tr style="background-color: #ffeeee"><td style="white-space:nowrap">182<a name="tre-r347-activite-sanitaire-diverse-regulee-182"> </a></td>
 <td>Rééducat. Maladies Cardio-Vasculaires</td>
@@ -2334,6 +2555,7 @@
 <td>2017-06-07T00:00:00+01:00</td>
 <td>deprecated</td>
 <td>2017-06-07T00:00:00+01:00</td>
+<td>4</td>
 <td>Rééd.Malad.Card-Vasc</td></tr>
 <tr style="background-color: #ffeeee"><td style="white-space:nowrap">183<a name="tre-r347-activite-sanitaire-diverse-regulee-183"> </a></td>
 <td>OBSTETRIQUE SANS CHIRURGIE</td>
@@ -2343,6 +2565,7 @@
 <td>1994-06-06T00:00:00+01:00</td>
 <td>deprecated</td>
 <td>1994-06-06T00:00:00+01:00</td>
+<td>4</td>
 <td>OBSTETRIQUE SANS CHI</td></tr>
 <tr style="background-color: #ffeeee"><td style="white-space:nowrap">184<a name="tre-r347-activite-sanitaire-diverse-regulee-184"> </a></td>
 <td>Rééducation des Affections Hépato-Digestives</td>
@@ -2352,6 +2575,7 @@
 <td>2017-06-07T00:00:00+01:00</td>
 <td>deprecated</td>
 <td>2017-06-07T00:00:00+01:00</td>
+<td>4</td>
 <td>Rééd.Affec.Hép.Diges</td></tr>
 <tr style="background-color: #ffeeee"><td style="white-space:nowrap">185<a name="tre-r347-activite-sanitaire-diverse-regulee-185"> </a></td>
 <td>Repos-Convalescence Indifférenciés</td>
@@ -2361,6 +2585,7 @@
 <td>2017-06-07T00:00:00+01:00</td>
 <td>deprecated</td>
 <td>2017-06-07T00:00:00+01:00</td>
+<td>4</td>
 <td>Repos-Conval.Indif.</td></tr>
 <tr style="background-color: #ffeeee"><td style="white-space:nowrap">186<a name="tre-r347-activite-sanitaire-diverse-regulee-186"> </a></td>
 <td>REEDUCATION PERSONNE AGEE</td>
@@ -2370,6 +2595,7 @@
 <td>2000-07-28T00:00:00+01:00</td>
 <td>deprecated</td>
 <td>2000-07-28T00:00:00+01:00</td>
+<td>4</td>
 <td>REEDUCATION PERSONNE</td></tr>
 <tr style="background-color: #ffeeee"><td style="white-space:nowrap">187<a name="tre-r347-activite-sanitaire-diverse-regulee-187"> </a></td>
 <td>Rééducation Fonctionnelle Réadaptation</td>
@@ -2379,6 +2605,7 @@
 <td>2017-06-07T00:00:00+01:00</td>
 <td>deprecated</td>
 <td>2017-06-07T00:00:00+01:00</td>
+<td>4</td>
 <td>Rééduc.Fonct.Réadapt</td></tr>
 <tr style="background-color: #ffeeee"><td style="white-space:nowrap">189<a name="tre-r347-activite-sanitaire-diverse-regulee-189"> </a></td>
 <td>Cure Thermale des Voies Respiratoires</td>
@@ -2388,6 +2615,7 @@
 <td>2017-06-07T00:00:00+01:00</td>
 <td>deprecated</td>
 <td>2017-06-07T00:00:00+01:00</td>
+<td>4</td>
 <td>Cure Therm.Voie Resp</td></tr>
 <tr style="background-color: #ffeeee"><td style="white-space:nowrap">191<a name="tre-r347-activite-sanitaire-diverse-regulee-191"> </a></td>
 <td>CURE THERM.AFFECT.HEPATO-DIGES</td>
@@ -2397,6 +2625,7 @@
 <td>1994-09-19T00:00:00+01:00</td>
 <td>deprecated</td>
 <td>1994-09-19T00:00:00+01:00</td>
+<td>4</td>
 <td>CURE THERM.AFFECT.HE</td></tr>
 <tr style="background-color: #ffeeee"><td style="white-space:nowrap">192<a name="tre-r347-activite-sanitaire-diverse-regulee-192"> </a></td>
 <td>CURE THERM.APPAREIL URINAIRE</td>
@@ -2406,6 +2635,7 @@
 <td>1994-09-19T00:00:00+01:00</td>
 <td>deprecated</td>
 <td>1994-09-19T00:00:00+01:00</td>
+<td>4</td>
 <td>CURE THERM.APPAREIL</td></tr>
 <tr style="background-color: #ffeeee"><td style="white-space:nowrap">193<a name="tre-r347-activite-sanitaire-diverse-regulee-193"> </a></td>
 <td>Cure Thermale Rhumatologie Séquel.Traum.Ostéo-articaires</td>
@@ -2415,6 +2645,7 @@
 <td>2017-06-07T00:00:00+01:00</td>
 <td>deprecated</td>
 <td>2017-06-07T00:00:00+01:00</td>
+<td>4</td>
 <td>Cur.Therm.Rhum.Traum</td></tr>
 <tr style="background-color: #ffeeee"><td style="white-space:nowrap">194<a name="tre-r347-activite-sanitaire-diverse-regulee-194"> </a></td>
 <td>Cure Thermale en Dermatologie</td>
@@ -2424,6 +2655,7 @@
 <td>2017-06-07T00:00:00+01:00</td>
 <td>deprecated</td>
 <td>2017-06-07T00:00:00+01:00</td>
+<td>4</td>
 <td>Cur.Thermale Dermato</td></tr>
 <tr style="background-color: #ffeeee"><td style="white-space:nowrap">195<a name="tre-r347-activite-sanitaire-diverse-regulee-195"> </a></td>
 <td>Soins aux Toxicomanes</td>
@@ -2433,6 +2665,7 @@
 <td>2003-09-10T00:00:00+01:00</td>
 <td>deprecated</td>
 <td>2003-09-10T00:00:00+01:00</td>
+<td>4</td>
 <td>Soins Toxicomanes</td></tr>
 <tr style="background-color: #ffeeee"><td style="white-space:nowrap">196<a name="tre-r347-activite-sanitaire-diverse-regulee-196"> </a></td>
 <td>Lutte Contre l'Alcoolisme</td>
@@ -2442,6 +2675,7 @@
 <td>2003-09-10T00:00:00+01:00</td>
 <td>deprecated</td>
 <td>2003-09-10T00:00:00+01:00</td>
+<td>4</td>
 <td>Lutte Contre Alcool.</td></tr>
 <tr><td style="white-space:nowrap">197<a name="tre-r347-activite-sanitaire-diverse-regulee-197"> </a></td>
 <td>Activité dentaire unique</td>
@@ -2451,6 +2685,7 @@
 <td>1979-01-01T00:00:00+01:00</td>
 <td>active</td>
 <td></td>
+<td>4</td>
 <td>Act dentaire unique</td></tr>
 <tr style="background-color: #ffeeee"><td style="white-space:nowrap">198<a name="tre-r347-activite-sanitaire-diverse-regulee-198"> </a></td>
 <td>Oncologie</td>
@@ -2460,6 +2695,7 @@
 <td>2017-06-07T00:00:00+01:00</td>
 <td>deprecated</td>
 <td>2017-06-07T00:00:00+01:00</td>
+<td>4</td>
 <td></td></tr>
 <tr><td style="white-space:nowrap">200<a name="tre-r347-activite-sanitaire-diverse-regulee-200"> </a></td>
 <td>Transfusion Sanguine (Laboratoire)</td>
@@ -2469,6 +2705,7 @@
 <td>1979-01-01T00:00:00+01:00</td>
 <td>active</td>
 <td></td>
+<td>4</td>
 <td>Transfusion Sanguine</td></tr>
 <tr style="background-color: #ffeeee"><td style="white-space:nowrap">201<a name="tre-r347-activite-sanitaire-diverse-regulee-201"> </a></td>
 <td>Banque de Sperme</td>
@@ -2478,6 +2715,7 @@
 <td>2017-06-07T00:00:00+01:00</td>
 <td>deprecated</td>
 <td>2017-06-07T00:00:00+01:00</td>
+<td>4</td>
 <td></td></tr>
 <tr style="background-color: #ffeeee"><td style="white-space:nowrap">202<a name="tre-r347-activite-sanitaire-diverse-regulee-202"> </a></td>
 <td>Banque d'Organes</td>
@@ -2487,6 +2725,7 @@
 <td>2017-06-07T00:00:00+01:00</td>
 <td>deprecated</td>
 <td>2017-06-07T00:00:00+01:00</td>
+<td>4</td>
 <td></td></tr>
 <tr><td style="white-space:nowrap">203<a name="tre-r347-activite-sanitaire-diverse-regulee-203"> </a></td>
 <td>Dispensaire de Soins</td>
@@ -2496,6 +2735,7 @@
 <td>1979-01-01T00:00:00+01:00</td>
 <td>active</td>
 <td></td>
+<td>4</td>
 <td></td></tr>
 <tr><td style="white-space:nowrap">204<a name="tre-r347-activite-sanitaire-diverse-regulee-204"> </a></td>
 <td>Activité infirmière unique</td>
@@ -2505,6 +2745,7 @@
 <td>1979-01-01T00:00:00+01:00</td>
 <td>active</td>
 <td></td>
+<td>4</td>
 <td>Act infirmière uniq</td></tr>
 <tr><td style="white-space:nowrap">205<a name="tre-r347-activite-sanitaire-diverse-regulee-205"> </a></td>
 <td>Act inform dépistage diag infections sexuellmnt transmissibl</td>
@@ -2514,6 +2755,7 @@
 <td>1979-01-01T00:00:00+01:00</td>
 <td>active</td>
 <td></td>
+<td>4</td>
 <td>Act infect sex trans</td></tr>
 <tr style="background-color: #ffeeee"><td style="white-space:nowrap">206<a name="tre-r347-activite-sanitaire-diverse-regulee-206"> </a></td>
 <td>Lutte Antihansénienne</td>
@@ -2523,6 +2765,7 @@
 <td>2017-06-07T00:00:00+01:00</td>
 <td>deprecated</td>
 <td>2017-06-07T00:00:00+01:00</td>
+<td>4</td>
 <td>Lutte Anti-Hansenien</td></tr>
 <tr style="background-color: #ffeeee"><td style="white-space:nowrap">207<a name="tre-r347-activite-sanitaire-diverse-regulee-207"> </a></td>
 <td>S.A.M.U Centre 15</td>
@@ -2532,6 +2775,7 @@
 <td>2017-06-07T00:00:00+01:00</td>
 <td>deprecated</td>
 <td>2017-06-07T00:00:00+01:00</td>
+<td>4</td>
 <td>S.A.M.U - Centre 15</td></tr>
 <tr style="background-color: #ffeeee"><td style="white-space:nowrap">208<a name="tre-r347-activite-sanitaire-diverse-regulee-208"> </a></td>
 <td>S.M.U.R. U.M.H.</td>
@@ -2541,6 +2785,7 @@
 <td>2017-06-07T00:00:00+01:00</td>
 <td>deprecated</td>
 <td>2017-06-07T00:00:00+01:00</td>
+<td>4</td>
 <td>S.M.U.R. - U.M.H.</td></tr>
 <tr><td style="white-space:nowrap">209<a name="tre-r347-activite-sanitaire-diverse-regulee-209"> </a></td>
 <td>Ambulances</td>
@@ -2550,6 +2795,7 @@
 <td>1979-01-01T00:00:00+01:00</td>
 <td>active</td>
 <td></td>
+<td>4</td>
 <td></td></tr>
 <tr style="background-color: #ffeeee"><td style="white-space:nowrap">211<a name="tre-r347-activite-sanitaire-diverse-regulee-211"> </a></td>
 <td>Accueil et Traitement des Urgences Médico-Chirurgicales</td>
@@ -2559,6 +2805,7 @@
 <td>1999-06-17T00:00:00+01:00</td>
 <td>deprecated</td>
 <td>1999-06-17T00:00:00+01:00</td>
+<td>4</td>
 <td>Acc.Trait.Urg.Méd.Ch</td></tr>
 <tr style="background-color: #ffeeee"><td style="white-space:nowrap">214<a name="tre-r347-activite-sanitaire-diverse-regulee-214"> </a></td>
 <td>Postcure pour Alcooliques</td>
@@ -2568,6 +2815,7 @@
 <td>2017-06-07T00:00:00+01:00</td>
 <td>deprecated</td>
 <td>2017-06-07T00:00:00+01:00</td>
+<td>4</td>
 <td>PostCure pour Alcool</td></tr>
 <tr style="background-color: #ffeeee"><td style="white-space:nowrap">217<a name="tre-r347-activite-sanitaire-diverse-regulee-217"> </a></td>
 <td>Lutte Contre La Tuberculose Indifférenciée</td>
@@ -2577,6 +2825,7 @@
 <td>2017-06-07T00:00:00+01:00</td>
 <td>deprecated</td>
 <td>2017-06-07T00:00:00+01:00</td>
+<td>4</td>
 <td>Lutte Tuber.Indif.</td></tr>
 <tr><td style="white-space:nowrap">218<a name="tre-r347-activite-sanitaire-diverse-regulee-218"> </a></td>
 <td>Activité de lutte anti tuberculose</td>
@@ -2586,6 +2835,7 @@
 <td>1979-01-01T00:00:00+01:00</td>
 <td>active</td>
 <td></td>
+<td>4</td>
 <td>Act lutte antituberc</td></tr>
 <tr style="background-color: #ffeeee"><td style="white-space:nowrap">219<a name="tre-r347-activite-sanitaire-diverse-regulee-219"> </a></td>
 <td>Lutte Ctre la Tuberculose Pulmonaire</td>
@@ -2595,6 +2845,7 @@
 <td>2017-06-07T00:00:00+01:00</td>
 <td>deprecated</td>
 <td>2017-06-07T00:00:00+01:00</td>
+<td>4</td>
 <td>Lutte Ctre Tuber.Pul</td></tr>
 <tr style="background-color: #ffeeee"><td style="white-space:nowrap">220<a name="tre-r347-activite-sanitaire-diverse-regulee-220"> </a></td>
 <td>Lutte Ctre Tuberculose Extra-Pulmonaire</td>
@@ -2604,6 +2855,7 @@
 <td>2017-06-07T00:00:00+01:00</td>
 <td>deprecated</td>
 <td>2017-06-07T00:00:00+01:00</td>
+<td>4</td>
 <td>Lutte Ctre Tubercul.</td></tr>
 <tr style="background-color: #ffeeee"><td style="white-space:nowrap">221<a name="tre-r347-activite-sanitaire-diverse-regulee-221"> </a></td>
 <td>Cure et Repos en Prévention</td>
@@ -2613,6 +2865,7 @@
 <td>2017-06-07T00:00:00+01:00</td>
 <td>deprecated</td>
 <td>2017-06-07T00:00:00+01:00</td>
+<td>4</td>
 <td>Cure Repos Prévent.</td></tr>
 <tr style="background-color: #ffeeee"><td style="white-space:nowrap">222<a name="tre-r347-activite-sanitaire-diverse-regulee-222"> </a></td>
 <td>Traitements Préventifs de la Tuberculose</td>
@@ -2622,6 +2875,7 @@
 <td>2017-06-07T00:00:00+01:00</td>
 <td>deprecated</td>
 <td>2017-06-07T00:00:00+01:00</td>
+<td>4</td>
 <td>Trait.Prév.Tuberc.</td></tr>
 <tr style="background-color: #ffeeee"><td style="white-space:nowrap">223<a name="tre-r347-activite-sanitaire-diverse-regulee-223"> </a></td>
 <td>Médecine Générale ou Polyvalente</td>
@@ -2631,6 +2885,7 @@
 <td>2017-06-07T00:00:00+01:00</td>
 <td>deprecated</td>
 <td>2017-06-07T00:00:00+01:00</td>
+<td>4</td>
 <td>Médecine Gén.Polyv.</td></tr>
 <tr style="background-color: #ffeeee"><td style="white-space:nowrap">224<a name="tre-r347-activite-sanitaire-diverse-regulee-224"> </a></td>
 <td>Observation et Traitement Pneumoconioses</td>
@@ -2640,6 +2895,7 @@
 <td>2017-06-07T00:00:00+01:00</td>
 <td>deprecated</td>
 <td>2017-06-07T00:00:00+01:00</td>
+<td>4</td>
 <td>Obs.Trait.Pneumocon.</td></tr>
 <tr style="background-color: #ffeeee"><td style="white-space:nowrap">225<a name="tre-r347-activite-sanitaire-diverse-regulee-225"> </a></td>
 <td>Médecine Interne Spécialités Médicales</td>
@@ -2649,6 +2905,7 @@
 <td>2017-06-07T00:00:00+01:00</td>
 <td>deprecated</td>
 <td>2017-06-07T00:00:00+01:00</td>
+<td>4</td>
 <td>Méd.Int.Spéc.Médic.</td></tr>
 <tr style="background-color: #ffeeee"><td style="white-space:nowrap">226<a name="tre-r347-activite-sanitaire-diverse-regulee-226"> </a></td>
 <td>Accueil Orientation. des Malades.Tuberculo Pulmonaires</td>
@@ -2658,6 +2915,7 @@
 <td>2017-06-07T00:00:00+01:00</td>
 <td>deprecated</td>
 <td>2017-06-07T00:00:00+01:00</td>
+<td>4</td>
 <td>Acc.Orient.Tuberc.Pu</td></tr>
 <tr style="background-color: #ffeeee"><td style="white-space:nowrap">227<a name="tre-r347-activite-sanitaire-diverse-regulee-227"> </a></td>
 <td>Postcure pour Tuberculeux</td>
@@ -2667,6 +2925,7 @@
 <td>2017-06-07T00:00:00+01:00</td>
 <td>deprecated</td>
 <td>2017-06-07T00:00:00+01:00</td>
+<td>4</td>
 <td>Postcure pour Tuber</td></tr>
 <tr style="background-color: #ffeeee"><td style="white-space:nowrap">230<a name="tre-r347-activite-sanitaire-diverse-regulee-230"> </a></td>
 <td>Psychiatrie Générale</td>
@@ -2676,6 +2935,7 @@
 <td>2017-06-07T00:00:00+01:00</td>
 <td>deprecated</td>
 <td>2017-06-07T00:00:00+01:00</td>
+<td>4</td>
 <td></td></tr>
 <tr><td style="white-space:nowrap">231<a name="tre-r347-activite-sanitaire-diverse-regulee-231"> </a></td>
 <td>centre médico-psychologique adulte</td>
@@ -2685,6 +2945,7 @@
 <td>2001-10-01T00:00:00+01:00</td>
 <td>active</td>
 <td></td>
+<td>4</td>
 <td>CMP adulte</td></tr>
 <tr><td style="white-space:nowrap">232<a name="tre-r347-activite-sanitaire-diverse-regulee-232"> </a></td>
 <td>centre médico-psychologique infanto-juvénile</td>
@@ -2694,6 +2955,7 @@
 <td>2001-10-01T00:00:00+01:00</td>
 <td>active</td>
 <td></td>
+<td>4</td>
 <td>CMP infanto-juv</td></tr>
 <tr><td style="white-space:nowrap">233<a name="tre-r347-activite-sanitaire-diverse-regulee-233"> </a></td>
 <td>Centre d'accueil thérapeutique à temps partiel adulte</td>
@@ -2703,6 +2965,7 @@
 <td>2001-10-01T00:00:00+01:00</td>
 <td>active</td>
 <td></td>
+<td>4</td>
 <td>CATTP adulte</td></tr>
 <tr><td style="white-space:nowrap">234<a name="tre-r347-activite-sanitaire-diverse-regulee-234"> </a></td>
 <td>Centre d'accueil thérapeutique à temps partiel infanto-juv</td>
@@ -2712,6 +2975,7 @@
 <td>2001-10-01T00:00:00+01:00</td>
 <td>active</td>
 <td></td>
+<td>4</td>
 <td>CATTP infanto-juv</td></tr>
 <tr style="background-color: #ffeeee"><td style="white-space:nowrap">235<a name="tre-r347-activite-sanitaire-diverse-regulee-235"> </a></td>
 <td>soins intensifs de néonatologie</td>
@@ -2721,6 +2985,7 @@
 <td>2017-06-07T00:00:00+01:00</td>
 <td>deprecated</td>
 <td>2017-06-07T00:00:00+01:00</td>
+<td>4</td>
 <td>soin intensif neonat</td></tr>
 <tr style="background-color: #ffeeee"><td style="white-space:nowrap">236<a name="tre-r347-activite-sanitaire-diverse-regulee-236"> </a></td>
 <td>Psychiatrie Infanto-Juvenile</td>
@@ -2730,6 +2995,7 @@
 <td>2017-06-07T00:00:00+01:00</td>
 <td>deprecated</td>
 <td>2017-06-07T00:00:00+01:00</td>
+<td>4</td>
 <td>Psychiatrie Inf.Juv.</td></tr>
 <tr><td style="white-space:nowrap">237<a name="tre-r347-activite-sanitaire-diverse-regulee-237"> </a></td>
 <td>centre d'accueil permanent adulte</td>
@@ -2739,6 +3005,7 @@
 <td>2001-10-01T00:00:00+01:00</td>
 <td>active</td>
 <td></td>
+<td>4</td>
 <td>ctre accueil perm A</td></tr>
 <tr><td style="white-space:nowrap">238<a name="tre-r347-activite-sanitaire-diverse-regulee-238"> </a></td>
 <td>centre d'accueil permanent infanto-juvénile</td>
@@ -2748,6 +3015,7 @@
 <td>2001-10-01T00:00:00+01:00</td>
 <td>active</td>
 <td></td>
+<td>4</td>
 <td>ctre accueil perm IJ</td></tr>
 <tr style="background-color: #ffeeee"><td style="white-space:nowrap">240<a name="tre-r347-activite-sanitaire-diverse-regulee-240"> </a></td>
 <td>POST-CURE POUR TOXICOMANES</td>
@@ -2757,6 +3025,7 @@
 <td>2000-07-28T00:00:00+01:00</td>
 <td>deprecated</td>
 <td>2000-07-28T00:00:00+01:00</td>
+<td>4</td>
 <td>POST-CURE POUR TOXIC</td></tr>
 <tr><td style="white-space:nowrap">241<a name="tre-r347-activite-sanitaire-diverse-regulee-241"> </a></td>
 <td>Hygiène Alimentaire</td>
@@ -2766,6 +3035,7 @@
 <td>1979-01-01T00:00:00+01:00</td>
 <td>active</td>
 <td></td>
+<td>4</td>
 <td></td></tr>
 <tr style="background-color: #ffeeee"><td style="white-space:nowrap">244<a name="tre-r347-activite-sanitaire-diverse-regulee-244"> </a></td>
 <td>hospitalisation psychiatrique à domicile adulte</td>
@@ -2775,6 +3045,7 @@
 <td>2017-06-07T00:00:00+01:00</td>
 <td>deprecated</td>
 <td>2017-06-07T00:00:00+01:00</td>
+<td>4</td>
 <td>HAD psychiatrie A</td></tr>
 <tr style="background-color: #ffeeee"><td style="white-space:nowrap">245<a name="tre-r347-activite-sanitaire-diverse-regulee-245"> </a></td>
 <td>hospitalisation psychiatrique à domicile infanto-juv</td>
@@ -2784,6 +3055,7 @@
 <td>2017-06-07T00:00:00+01:00</td>
 <td>deprecated</td>
 <td>2017-06-07T00:00:00+01:00</td>
+<td>4</td>
 <td>HAD psychiatrie IJ</td></tr>
 <tr style="background-color: #ffeeee"><td style="white-space:nowrap">252<a name="tre-r347-activite-sanitaire-diverse-regulee-252"> </a></td>
 <td>Pouponnière à Caractère Sanitaire</td>
@@ -2793,6 +3065,7 @@
 <td>2017-06-07T00:00:00+01:00</td>
 <td>deprecated</td>
 <td>2017-06-07T00:00:00+01:00</td>
+<td>4</td>
 <td>Pouponnière Cara.San</td></tr>
 <tr style="background-color: #ffeeee"><td style="white-space:nowrap">263<a name="tre-r347-activite-sanitaire-diverse-regulee-263"> </a></td>
 <td>Placement familial sanitaire</td>
@@ -2802,6 +3075,7 @@
 <td>2017-06-07T00:00:00+01:00</td>
 <td>deprecated</td>
 <td>2017-06-07T00:00:00+01:00</td>
+<td>4</td>
 <td>Plact familial sanit</td></tr>
 <tr style="background-color: #ffeeee"><td style="white-space:nowrap">265<a name="tre-r347-activite-sanitaire-diverse-regulee-265"> </a></td>
 <td>COLONIE A CARACTERE SANITAIRE</td>
@@ -2811,6 +3085,7 @@
 <td>2000-07-28T00:00:00+01:00</td>
 <td>deprecated</td>
 <td>2000-07-28T00:00:00+01:00</td>
+<td>4</td>
 <td>COLONIE A CARACTERE</td></tr>
 <tr style="background-color: #ffeeee"><td style="white-space:nowrap">302<a name="tre-r347-activite-sanitaire-diverse-regulee-302"> </a></td>
 <td>CHIMIOTHER.EN HEMATOL.&amp; CANCER</td>
@@ -2820,6 +3095,7 @@
 <td>2000-07-31T00:00:00+01:00</td>
 <td>deprecated</td>
 <td>2000-07-31T00:00:00+01:00</td>
+<td>4</td>
 <td>CHIMIOTHER.EN HEMATO</td></tr>
 <tr style="background-color: #ffeeee"><td style="white-space:nowrap">303<a name="tre-r347-activite-sanitaire-diverse-regulee-303"> </a></td>
 <td>Urgence Médicale</td>
@@ -2829,6 +3105,7 @@
 <td>1999-06-17T00:00:00+01:00</td>
 <td>deprecated</td>
 <td>1999-06-17T00:00:00+01:00</td>
+<td>4</td>
 <td></td></tr>
 <tr style="background-color: #ffeeee"><td style="white-space:nowrap">307<a name="tre-r347-activite-sanitaire-diverse-regulee-307"> </a></td>
 <td>Urgence Chirurgicale (SERV.PORTE)</td>
@@ -2838,6 +3115,7 @@
 <td>1999-06-17T00:00:00+01:00</td>
 <td>deprecated</td>
 <td>1999-06-17T00:00:00+01:00</td>
+<td>4</td>
 <td>Urgence Chirurgicale</td></tr>
 <tr style="background-color: #ffeeee"><td style="white-space:nowrap">308<a name="tre-r347-activite-sanitaire-diverse-regulee-308"> </a></td>
 <td>Urgence Indifférenciée</td>
@@ -2847,6 +3125,7 @@
 <td>1999-06-17T00:00:00+01:00</td>
 <td>deprecated</td>
 <td>1999-06-17T00:00:00+01:00</td>
+<td>4</td>
 <td>Urgence Indiffér.</td></tr>
 <tr><td style="white-space:nowrap">309<a name="tre-r347-activite-sanitaire-diverse-regulee-309"> </a></td>
 <td>Interruption Volontaire de Grossesse</td>
@@ -2856,6 +3135,7 @@
 <td>1979-01-01T00:00:00+01:00</td>
 <td>active</td>
 <td></td>
+<td>4</td>
 <td>I.V.G.</td></tr>
 <tr style="background-color: #ffeeee"><td style="white-space:nowrap">310<a name="tre-r347-activite-sanitaire-diverse-regulee-310"> </a></td>
 <td>Examens de Santé et Bilans</td>
@@ -2865,6 +3145,7 @@
 <td>2017-06-07T00:00:00+01:00</td>
 <td>deprecated</td>
 <td>2017-06-07T00:00:00+01:00</td>
+<td>4</td>
 <td>Examens Santé Bilans</td></tr>
 <tr style="background-color: #ffeeee"><td style="white-space:nowrap">312<a name="tre-r347-activite-sanitaire-diverse-regulee-312"> </a></td>
 <td>Néphrologie</td>
@@ -2874,6 +3155,7 @@
 <td>2017-06-07T00:00:00+01:00</td>
 <td>deprecated</td>
 <td>2017-06-07T00:00:00+01:00</td>
+<td>4</td>
 <td></td></tr>
 <tr style="background-color: #ffeeee"><td style="white-space:nowrap">362<a name="tre-r347-activite-sanitaire-diverse-regulee-362"> </a></td>
 <td>Chirurgie Obstétrique Indifférenciées</td>
@@ -2883,6 +3165,7 @@
 <td>2017-06-07T00:00:00+01:00</td>
 <td>deprecated</td>
 <td>2017-06-07T00:00:00+01:00</td>
+<td>4</td>
 <td>Chirurgie Obst.Ind.</td></tr>
 <tr><td style="white-space:nowrap">384<a name="tre-r347-activite-sanitaire-diverse-regulee-384"> </a></td>
 <td>Protection Maternelle &amp; Infantile</td>
@@ -2892,6 +3175,7 @@
 <td>1979-01-01T00:00:00+01:00</td>
 <td>active</td>
 <td></td>
+<td>4</td>
 <td>P.M.I</td></tr>
 <tr><td style="white-space:nowrap">385<a name="tre-r347-activite-sanitaire-diverse-regulee-385"> </a></td>
 <td>Consultations Prénuptiale Prénatale et Postnatale</td>
@@ -2901,6 +3185,7 @@
 <td>1979-01-01T00:00:00+01:00</td>
 <td>active</td>
 <td></td>
+<td>4</td>
 <td>Consult.Prénup.Préna</td></tr>
 <tr><td style="white-space:nowrap">386<a name="tre-r347-activite-sanitaire-diverse-regulee-386"> </a></td>
 <td>Consultations Protection Infantile</td>
@@ -2910,6 +3195,7 @@
 <td>1979-01-01T00:00:00+01:00</td>
 <td>active</td>
 <td></td>
+<td>4</td>
 <td>Consult.Protec.Infan</td></tr>
 <tr style="background-color: #ffeeee"><td style="white-space:nowrap">387<a name="tre-r347-activite-sanitaire-diverse-regulee-387"> </a></td>
 <td>Consultations de Nourrissons</td>
@@ -2919,6 +3205,7 @@
 <td>1994-09-19T00:00:00+01:00</td>
 <td>deprecated</td>
 <td>1994-09-19T00:00:00+01:00</td>
+<td>4</td>
 <td>Consult. Nourrisson</td></tr>
 <tr style="background-color: #ffeeee"><td style="white-space:nowrap">388<a name="tre-r347-activite-sanitaire-diverse-regulee-388"> </a></td>
 <td>Consultations de deuxième age</td>
@@ -2928,6 +3215,7 @@
 <td>1994-09-19T00:00:00+01:00</td>
 <td>deprecated</td>
 <td>1994-09-19T00:00:00+01:00</td>
+<td>4</td>
 <td>Consult. 2ème âge</td></tr>
 <tr style="background-color: #ffeeee"><td style="white-space:nowrap">389<a name="tre-r347-activite-sanitaire-diverse-regulee-389"> </a></td>
 <td>Lutte contre la Stérilité</td>
@@ -2937,6 +3225,7 @@
 <td>2017-06-07T00:00:00+01:00</td>
 <td>deprecated</td>
 <td>2017-06-07T00:00:00+01:00</td>
+<td>4</td>
 <td>Lutte Ctre Stérilité</td></tr>
 <tr><td style="white-space:nowrap">390<a name="tre-r347-activite-sanitaire-diverse-regulee-390"> </a></td>
 <td>Consultation en Conseil Génétique</td>
@@ -2946,6 +3235,7 @@
 <td>1979-01-01T00:00:00+01:00</td>
 <td>active</td>
 <td></td>
+<td>4</td>
 <td>Consult.Conseil Géné</td></tr>
 <tr><td style="white-space:nowrap">391<a name="tre-r347-activite-sanitaire-diverse-regulee-391"> </a></td>
 <td>Consultation de Planification ou Éducation Familiale</td>
@@ -2955,6 +3245,7 @@
 <td>1979-01-01T00:00:00+01:00</td>
 <td>active</td>
 <td></td>
+<td>4</td>
 <td>Consultation Planif.</td></tr>
 <tr><td style="white-space:nowrap">392<a name="tre-r347-activite-sanitaire-diverse-regulee-392"> </a></td>
 <td>Information Consultation ou Conseil familial</td>
@@ -2964,6 +3255,7 @@
 <td>1979-01-01T00:00:00+01:00</td>
 <td>active</td>
 <td></td>
+<td>4</td>
 <td>Inf.Conseil Familial</td></tr>
 <tr style="background-color: #ffeeee"><td style="white-space:nowrap">394<a name="tre-r347-activite-sanitaire-diverse-regulee-394"> </a></td>
 <td>Lactarium</td>
@@ -2973,6 +3265,7 @@
 <td>2017-06-07T00:00:00+01:00</td>
 <td>deprecated</td>
 <td>2017-06-07T00:00:00+01:00</td>
+<td>4</td>
 <td></td></tr>
 <tr><td style="white-space:nowrap">395<a name="tre-r347-activite-sanitaire-diverse-regulee-395"> </a></td>
 <td>Guidance Parentale</td>
@@ -2982,6 +3275,7 @@
 <td>1979-01-01T00:00:00+01:00</td>
 <td>active</td>
 <td></td>
+<td>4</td>
 <td></td></tr>
 <tr><td style="white-space:nowrap">396<a name="tre-r347-activite-sanitaire-diverse-regulee-396"> </a></td>
 <td>Guidance infantile</td>
@@ -2991,6 +3285,7 @@
 <td>1979-01-01T00:00:00+01:00</td>
 <td>active</td>
 <td></td>
+<td>4</td>
 <td></td></tr>
 <tr style="background-color: #ffeeee"><td style="white-space:nowrap">401<a name="tre-r347-activite-sanitaire-diverse-regulee-401"> </a></td>
 <td>unité de proximité accueil traitement orientation urgences</td>
@@ -3000,6 +3295,7 @@
 <td>2017-06-07T00:00:00+01:00</td>
 <td>deprecated</td>
 <td>2017-06-07T00:00:00+01:00</td>
+<td>4</td>
 <td>UPATOU</td></tr>
 <tr style="background-color: #ffeeee"><td style="white-space:nowrap">402<a name="tre-r347-activite-sanitaire-diverse-regulee-402"> </a></td>
 <td>service accueil et traitement urgences</td>
@@ -3009,6 +3305,7 @@
 <td>2017-06-07T00:00:00+01:00</td>
 <td>deprecated</td>
 <td>2017-06-07T00:00:00+01:00</td>
+<td>4</td>
 <td>SAU</td></tr>
 <tr style="background-color: #ffeeee"><td style="white-space:nowrap">403<a name="tre-r347-activite-sanitaire-diverse-regulee-403"> </a></td>
 <td>pôle spécialisé urgence en pédiatrie</td>
@@ -3018,6 +3315,7 @@
 <td>2017-06-07T00:00:00+01:00</td>
 <td>deprecated</td>
 <td>2017-06-07T00:00:00+01:00</td>
+<td>4</td>
 <td>POSU pédiatrie</td></tr>
 <tr style="background-color: #ffeeee"><td style="white-space:nowrap">404<a name="tre-r347-activite-sanitaire-diverse-regulee-404"> </a></td>
 <td>pôle spécialisé urgence en ophtalmologie</td>
@@ -3027,6 +3325,7 @@
 <td>2017-06-07T00:00:00+01:00</td>
 <td>deprecated</td>
 <td>2017-06-07T00:00:00+01:00</td>
+<td>4</td>
 <td>POSU ophtalmologie</td></tr>
 <tr style="background-color: #ffeeee"><td style="white-space:nowrap">405<a name="tre-r347-activite-sanitaire-diverse-regulee-405"> </a></td>
 <td>pôle spécialisé urgence en cardiologie</td>
@@ -3036,6 +3335,7 @@
 <td>2017-06-07T00:00:00+01:00</td>
 <td>deprecated</td>
 <td>2017-06-07T00:00:00+01:00</td>
+<td>4</td>
 <td>POSU cardiologie</td></tr>
 <tr style="background-color: #ffeeee"><td style="white-space:nowrap">406<a name="tre-r347-activite-sanitaire-diverse-regulee-406"> </a></td>
 <td>pôle spécialisé urgence en traumatologie</td>
@@ -3045,6 +3345,7 @@
 <td>2017-06-07T00:00:00+01:00</td>
 <td>deprecated</td>
 <td>2017-06-07T00:00:00+01:00</td>
+<td>4</td>
 <td>POSU traumatologie</td></tr>
 <tr style="background-color: #ffeeee"><td style="white-space:nowrap">407<a name="tre-r347-activite-sanitaire-diverse-regulee-407"> </a></td>
 <td>pôle spécialisé urgence en SOS main</td>
@@ -3054,6 +3355,7 @@
 <td>2017-06-07T00:00:00+01:00</td>
 <td>deprecated</td>
 <td>2017-06-07T00:00:00+01:00</td>
+<td>4</td>
 <td>POSU SOS main</td></tr>
 <tr style="background-color: #ffeeee"><td style="white-space:nowrap">408<a name="tre-r347-activite-sanitaire-diverse-regulee-408"> </a></td>
 <td>pôle spécialisé urgence en neurochirurgie</td>
@@ -3063,6 +3365,7 @@
 <td>2017-06-07T00:00:00+01:00</td>
 <td>deprecated</td>
 <td>2017-06-07T00:00:00+01:00</td>
+<td>4</td>
 <td>POSU neurochirurgie</td></tr>
 <tr style="background-color: #ffeeee"><td style="white-space:nowrap">409<a name="tre-r347-activite-sanitaire-diverse-regulee-409"> </a></td>
 <td>autre pôle spécialisé urgence non dénommé ailleurs</td>
@@ -3072,6 +3375,7 @@
 <td>2017-06-07T00:00:00+01:00</td>
 <td>deprecated</td>
 <td>2017-06-07T00:00:00+01:00</td>
+<td>4</td>
 <td>Autre POSU NDA</td></tr>
 <tr><td style="white-space:nowrap">446<a name="tre-r347-activite-sanitaire-diverse-regulee-446"> </a></td>
 <td>Médecine Scolaire</td>
@@ -3081,6 +3385,7 @@
 <td>1979-01-01T00:00:00+01:00</td>
 <td>active</td>
 <td></td>
+<td>4</td>
 <td></td></tr>
 <tr><td style="white-space:nowrap">447<a name="tre-r347-activite-sanitaire-diverse-regulee-447"> </a></td>
 <td>Médecine Universitaire</td>
@@ -3090,6 +3395,7 @@
 <td>1979-01-01T00:00:00+01:00</td>
 <td>active</td>
 <td></td>
+<td>4</td>
 <td>Médecine Universit.</td></tr>
 <tr><td style="white-space:nowrap">448<a name="tre-r347-activite-sanitaire-diverse-regulee-448"> </a></td>
 <td>Médecine Sportive</td>
@@ -3099,6 +3405,7 @@
 <td>1979-01-01T00:00:00+01:00</td>
 <td>active</td>
 <td></td>
+<td>4</td>
 <td></td></tr>
 <tr style="background-color: #ffeeee"><td style="white-space:nowrap">452<a name="tre-r347-activite-sanitaire-diverse-regulee-452"> </a></td>
 <td>Aide Aux Insuffisants Respiratoires</td>
@@ -3108,6 +3415,7 @@
 <td>2017-06-07T00:00:00+01:00</td>
 <td>deprecated</td>
 <td>2017-06-07T00:00:00+01:00</td>
+<td>4</td>
 <td>Aide Insuf.Respir.</td></tr>
 <tr style="background-color: #ffeeee"><td style="white-space:nowrap">457<a name="tre-r347-activite-sanitaire-diverse-regulee-457"> </a></td>
 <td>Cure Médic.Spécialisée Contre Tuberculose Indifférenciée</td>
@@ -3117,6 +3425,7 @@
 <td>2017-06-07T00:00:00+01:00</td>
 <td>deprecated</td>
 <td>2017-06-07T00:00:00+01:00</td>
+<td>4</td>
 <td>Cur.Méd.Spé.Tub.Inf.</td></tr>
 <tr style="background-color: #ffeeee"><td style="white-space:nowrap">458<a name="tre-r347-activite-sanitaire-diverse-regulee-458"> </a></td>
 <td>Cure Médic.Spécialisée Contre Tuberculose Pulmonaire.</td>
@@ -3126,6 +3435,7 @@
 <td>2017-06-07T00:00:00+01:00</td>
 <td>deprecated</td>
 <td>2017-06-07T00:00:00+01:00</td>
+<td>4</td>
 <td>Cur.Méd.Spé.Tub.Pulm</td></tr>
 <tr style="background-color: #ffeeee"><td style="white-space:nowrap">459<a name="tre-r347-activite-sanitaire-diverse-regulee-459"> </a></td>
 <td>Cure Médic. Spécialisée Contre Tuberculose Extra-Pulmonaire</td>
@@ -3135,6 +3445,7 @@
 <td>2017-06-07T00:00:00+01:00</td>
 <td>deprecated</td>
 <td>2017-06-07T00:00:00+01:00</td>
+<td>4</td>
 <td>Cur.Méd.Spé.Tub.Ex.P</td></tr>
 <tr style="background-color: #ffeeee"><td style="white-space:nowrap">460<a name="tre-r347-activite-sanitaire-diverse-regulee-460"> </a></td>
 <td>Cure Médic.Spécialisée Contre Tuberculose(Préventorium)</td>
@@ -3144,6 +3455,7 @@
 <td>2017-06-07T00:00:00+01:00</td>
 <td>deprecated</td>
 <td>2017-06-07T00:00:00+01:00</td>
+<td>4</td>
 <td>Cure Méd.S.Tub(Prév)</td></tr>
 <tr style="background-color: #ffeeee"><td style="white-space:nowrap">462<a name="tre-r347-activite-sanitaire-diverse-regulee-462"> </a></td>
 <td>Cure Médicale Spécialisée Pour Enfants</td>
@@ -3153,6 +3465,7 @@
 <td>2017-06-07T00:00:00+01:00</td>
 <td>deprecated</td>
 <td>2017-06-07T00:00:00+01:00</td>
+<td>4</td>
 <td>Cure Méd.Spéc.Enft.</td></tr>
 <tr style="background-color: #ffeeee"><td style="white-space:nowrap">463<a name="tre-r347-activite-sanitaire-diverse-regulee-463"> </a></td>
 <td>Cure Médic. Spécialisée Tous Ages</td>
@@ -3162,6 +3475,7 @@
 <td>2017-06-07T00:00:00+01:00</td>
 <td>deprecated</td>
 <td>2017-06-07T00:00:00+01:00</td>
+<td>4</td>
 <td>Cure Méd.Spé.tous Ag</td></tr>
 <tr style="background-color: #ffeeee"><td style="white-space:nowrap">464<a name="tre-r347-activite-sanitaire-diverse-regulee-464"> </a></td>
 <td>Cure Médic.Spéc.Pneumologique Pr Enfant</td>
@@ -3171,6 +3485,7 @@
 <td>2017-06-07T00:00:00+01:00</td>
 <td>deprecated</td>
 <td>2017-06-07T00:00:00+01:00</td>
+<td>4</td>
 <td>Cure Méd.Sp.Pneu.Enf</td></tr>
 <tr style="background-color: #ffeeee"><td style="white-space:nowrap">465<a name="tre-r347-activite-sanitaire-diverse-regulee-465"> </a></td>
 <td>Cure Médic.Spéc.Pneumologique.Pr Tous Ages</td>
@@ -3180,6 +3495,7 @@
 <td>2017-06-07T00:00:00+01:00</td>
 <td>deprecated</td>
 <td>2017-06-07T00:00:00+01:00</td>
+<td>4</td>
 <td>Cure Méd.S.Pneu.T.Ag</td></tr>
 <tr style="background-color: #ffeeee"><td style="white-space:nowrap">466<a name="tre-r347-activite-sanitaire-diverse-regulee-466"> </a></td>
 <td>Convalescence &amp; Réadaptation Personnes Âgées</td>
@@ -3189,6 +3505,7 @@
 <td>2017-06-07T00:00:00+01:00</td>
 <td>deprecated</td>
 <td>2017-06-07T00:00:00+01:00</td>
+<td>4</td>
 <td>Conval. Réadapt.P.A.</td></tr>
 <tr style="background-color: #ffeeee"><td style="white-space:nowrap">467<a name="tre-r347-activite-sanitaire-diverse-regulee-467"> </a></td>
 <td>Cure Médicale Spécialisée Cardiologie Pr Enfant</td>
@@ -3198,6 +3515,7 @@
 <td>2017-06-07T00:00:00+01:00</td>
 <td>deprecated</td>
 <td>2017-06-07T00:00:00+01:00</td>
+<td>4</td>
 <td>Cure Méd.Sp.Card.Enf</td></tr>
 <tr style="background-color: #ffeeee"><td style="white-space:nowrap">468<a name="tre-r347-activite-sanitaire-diverse-regulee-468"> </a></td>
 <td>Cure Médicale Spécialisée Cardiologie Tous ages</td>
@@ -3207,6 +3525,7 @@
 <td>2017-06-07T00:00:00+01:00</td>
 <td>deprecated</td>
 <td>2017-06-07T00:00:00+01:00</td>
+<td>4</td>
 <td>Cure Méd.Sp.Card.T.A</td></tr>
 <tr style="background-color: #ffeeee"><td style="white-space:nowrap">471<a name="tre-r347-activite-sanitaire-diverse-regulee-471"> </a></td>
 <td>Médecine Générale et Spécialités Médicales</td>
@@ -3216,6 +3535,7 @@
 <td>2017-06-07T00:00:00+01:00</td>
 <td>deprecated</td>
 <td>2017-06-07T00:00:00+01:00</td>
+<td>4</td>
 <td>Médec.Génér.Spé.Méd.</td></tr>
 <tr style="background-color: #ffeeee"><td style="white-space:nowrap">472<a name="tre-r347-activite-sanitaire-diverse-regulee-472"> </a></td>
 <td>Médecine de la Reproduction (y c A.M.P.)</td>
@@ -3225,6 +3545,7 @@
 <td>2017-06-07T00:00:00+01:00</td>
 <td>deprecated</td>
 <td>2017-06-07T00:00:00+01:00</td>
+<td>4</td>
 <td>Médecine Reproduct.</td></tr>
 <tr style="background-color: #ffeeee"><td style="white-space:nowrap">499<a name="tre-r347-activite-sanitaire-diverse-regulee-499"> </a></td>
 <td>Atelier thérapeutique</td>
@@ -3234,6 +3555,7 @@
 <td>1986-11-24T00:00:00+01:00</td>
 <td>deprecated</td>
 <td>1986-11-24T00:00:00+01:00</td>
+<td>4</td>
 <td>Atelier therapeutiqu</td></tr>
 <tr style="background-color: #ffeeee"><td style="white-space:nowrap">552<a name="tre-r347-activite-sanitaire-diverse-regulee-552"> </a></td>
 <td>Entraînement à l'Hémodialyse à Domicile</td>
@@ -3243,6 +3565,7 @@
 <td>2017-06-07T00:00:00+01:00</td>
 <td>deprecated</td>
 <td>2017-06-07T00:00:00+01:00</td>
+<td>4</td>
 <td>Ent.Hémo.Aut.Dia.Dom</td></tr>
 <tr style="background-color: #ffeeee"><td style="white-space:nowrap">553<a name="tre-r347-activite-sanitaire-diverse-regulee-553"> </a></td>
 <td>Entraînement à la Dialyse Péritonéale à Domicile</td>
@@ -3252,6 +3575,7 @@
 <td>2017-06-07T00:00:00+01:00</td>
 <td>deprecated</td>
 <td>2017-06-07T00:00:00+01:00</td>
+<td>4</td>
 <td>Ent.Dia.Périt.Dom.</td></tr>
 <tr style="background-color: #ffeeee"><td style="white-space:nowrap">554<a name="tre-r347-activite-sanitaire-diverse-regulee-554"> </a></td>
 <td>Entraînement à la Dialyse Péritonéale Continue</td>
@@ -3261,6 +3585,7 @@
 <td>2017-06-07T00:00:00+01:00</td>
 <td>deprecated</td>
 <td>2017-06-07T00:00:00+01:00</td>
+<td>4</td>
 <td>Ent.Dialyse Périton.</td></tr>
 <tr style="background-color: #ffeeee"><td style="white-space:nowrap">555<a name="tre-r347-activite-sanitaire-diverse-regulee-555"> </a></td>
 <td>Dialyse Péritonéale</td>
@@ -3270,6 +3595,7 @@
 <td>2017-06-07T00:00:00+01:00</td>
 <td>deprecated</td>
 <td>2017-06-07T00:00:00+01:00</td>
+<td>4</td>
 <td></td></tr>
 <tr style="background-color: #ffeeee"><td style="white-space:nowrap">556<a name="tre-r347-activite-sanitaire-diverse-regulee-556"> </a></td>
 <td>Dialyse Péritonéale Continue</td>
@@ -3279,6 +3605,7 @@
 <td>2017-06-07T00:00:00+01:00</td>
 <td>deprecated</td>
 <td>2017-06-07T00:00:00+01:00</td>
+<td>4</td>
 <td>Dialyse Péritonéale</td></tr>
 <tr style="background-color: #ffeeee"><td style="white-space:nowrap">557<a name="tre-r347-activite-sanitaire-diverse-regulee-557"> </a></td>
 <td>orl et stomatologie</td>
@@ -3288,6 +3615,7 @@
 <td>1994-06-06T00:00:00+01:00</td>
 <td>deprecated</td>
 <td>1994-06-06T00:00:00+01:00</td>
+<td>4</td>
 <td>O.R.L et stomatologi</td></tr>
 <tr style="background-color: #ffeeee"><td style="white-space:nowrap">593<a name="tre-r347-activite-sanitaire-diverse-regulee-593"> </a></td>
 <td>Accueil de l'Enfant Accomp.la Mère Convalescente</td>
@@ -3297,6 +3625,7 @@
 <td>2017-06-07T00:00:00+01:00</td>
 <td>deprecated</td>
 <td>2017-06-07T00:00:00+01:00</td>
+<td>4</td>
 <td>Accueil Enf.Mère</td></tr>
 <tr style="background-color: #ffeeee"><td style="white-space:nowrap">594<a name="tre-r347-activite-sanitaire-diverse-regulee-594"> </a></td>
 <td>Repos Prénatal</td>
@@ -3306,6 +3635,7 @@
 <td>2017-06-07T00:00:00+01:00</td>
 <td>deprecated</td>
 <td>2017-06-07T00:00:00+01:00</td>
+<td>4</td>
 <td></td></tr>
 <tr style="background-color: #ffeeee"><td style="white-space:nowrap">595<a name="tre-r347-activite-sanitaire-diverse-regulee-595"> </a></td>
 <td>Convalescence Postnatale</td>
@@ -3315,6 +3645,7 @@
 <td>2017-06-07T00:00:00+01:00</td>
 <td>deprecated</td>
 <td>2017-06-07T00:00:00+01:00</td>
+<td>4</td>
 <td>Convales.Post-Natale</td></tr>
 <tr style="background-color: #ffeeee"><td style="white-space:nowrap">596<a name="tre-r347-activite-sanitaire-diverse-regulee-596"> </a></td>
 <td>Médecine du Travail</td>
@@ -3324,6 +3655,7 @@
 <td>2017-06-07T00:00:00+01:00</td>
 <td>deprecated</td>
 <td>2017-06-07T00:00:00+01:00</td>
+<td>4</td>
 <td></td></tr>
 <tr style="background-color: #ffeeee"><td style="white-space:nowrap">599<a name="tre-r347-activite-sanitaire-diverse-regulee-599"> </a></td>
 <td>médecine générale (app.Respiratoire)</td>
@@ -3333,6 +3665,7 @@
 <td>1994-06-06T00:00:00+01:00</td>
 <td>deprecated</td>
 <td>1994-06-06T00:00:00+01:00</td>
+<td>4</td>
 <td>med.Generale(app.Res</td></tr>
 <tr style="background-color: #ffeeee"><td style="white-space:nowrap">604<a name="tre-r347-activite-sanitaire-diverse-regulee-604"> </a></td>
 <td>Cure Médicale Non Spécialisée Pr Enfant (MECS)</td>
@@ -3342,6 +3675,7 @@
 <td>2017-06-07T00:00:00+01:00</td>
 <td>deprecated</td>
 <td>2017-06-07T00:00:00+01:00</td>
+<td>4</td>
 <td>Cur.Méd.non.Sp.Enf.P</td></tr>
 <tr style="background-color: #ffeeee"><td style="white-space:nowrap">605<a name="tre-r347-activite-sanitaire-diverse-regulee-605"> </a></td>
 <td>M.E.C.S. Non spec. Temporaire</td>
@@ -3351,6 +3685,7 @@
 <td>2017-06-07T00:00:00+01:00</td>
 <td>deprecated</td>
 <td>2017-06-07T00:00:00+01:00</td>
+<td>4</td>
 <td>Cur.Méd.non.Sp.Enf.T</td></tr>
 <tr style="background-color: #ffeeee"><td style="white-space:nowrap">606<a name="tre-r347-activite-sanitaire-diverse-regulee-606"> </a></td>
 <td>Cure Thermale Pr Enfants (MECS Ouv Permanence)</td>
@@ -3360,6 +3695,7 @@
 <td>2017-06-07T00:00:00+01:00</td>
 <td>deprecated</td>
 <td>2017-06-07T00:00:00+01:00</td>
+<td>4</td>
 <td>Cur.Therm.Enfants P.</td></tr>
 <tr style="background-color: #ffeeee"><td style="white-space:nowrap">607<a name="tre-r347-activite-sanitaire-diverse-regulee-607"> </a></td>
 <td>Cure Thermale Pr Enfants (MECS Ouv.de Façon Temporaire)</td>
@@ -3369,6 +3705,7 @@
 <td>2017-06-07T00:00:00+01:00</td>
 <td>deprecated</td>
 <td>2017-06-07T00:00:00+01:00</td>
+<td>4</td>
 <td>Cur.Therm.Enfants T.</td></tr>
 <tr style="background-color: #ffeeee"><td style="white-space:nowrap">608<a name="tre-r347-activite-sanitaire-diverse-regulee-608"> </a></td>
 <td>Cure Médicale Pr Enfants voies Resp.(Permanente)</td>
@@ -3378,6 +3715,7 @@
 <td>2017-06-07T00:00:00+01:00</td>
 <td>deprecated</td>
 <td>2017-06-07T00:00:00+01:00</td>
+<td>4</td>
 <td>Cur.Méd.Enf.Aff.Chro</td></tr>
 <tr style="background-color: #ffeeee"><td style="white-space:nowrap">609<a name="tre-r347-activite-sanitaire-diverse-regulee-609"> </a></td>
 <td>Cure Médicale Pr Enfants Atteints d'Affect.Chroniques</td>
@@ -3387,6 +3725,7 @@
 <td>2017-06-07T00:00:00+01:00</td>
 <td>deprecated</td>
 <td>2017-06-07T00:00:00+01:00</td>
+<td>4</td>
 <td>Cur.Méd.Enf.Aff.Chro</td></tr>
 <tr style="background-color: #ffeeee"><td style="white-space:nowrap">610<a name="tre-r347-activite-sanitaire-diverse-regulee-610"> </a></td>
 <td>Cure Médicale Pr Enfants Conval.En Rhumatismes Aigus</td>
@@ -3396,6 +3735,7 @@
 <td>2017-06-07T00:00:00+01:00</td>
 <td>deprecated</td>
 <td>2017-06-07T00:00:00+01:00</td>
+<td>4</td>
 <td>Cur.Méd.Enf.Rhum.Aig</td></tr>
 <tr style="background-color: #ffeeee"><td style="white-space:nowrap">611<a name="tre-r347-activite-sanitaire-diverse-regulee-611"> </a></td>
 <td>Cure Médicale Pr Enfants Convales.de Rhumatismes Aigus Tempo</td>
@@ -3405,6 +3745,7 @@
 <td>2017-06-07T00:00:00+01:00</td>
 <td>deprecated</td>
 <td>2017-06-07T00:00:00+01:00</td>
+<td>4</td>
 <td>Cur.Méd.Enf.Conv.Rhu</td></tr>
 <tr style="background-color: #ffeeee"><td style="white-space:nowrap">612<a name="tre-r347-activite-sanitaire-diverse-regulee-612"> </a></td>
 <td>Cure Médicale Pr Enfants Diabétiques (MECS Permanente)</td>
@@ -3414,6 +3755,7 @@
 <td>2017-06-07T00:00:00+01:00</td>
 <td>deprecated</td>
 <td>2017-06-07T00:00:00+01:00</td>
+<td>4</td>
 <td>Cur.Méd.Enf.Diabét.P</td></tr>
 <tr style="background-color: #ffeeee"><td style="white-space:nowrap">613<a name="tre-r347-activite-sanitaire-diverse-regulee-613"> </a></td>
 <td>Cure Médicale Pr Enfants Diabétiques (MECS Temporaire)</td>
@@ -3423,6 +3765,7 @@
 <td>2017-06-07T00:00:00+01:00</td>
 <td>deprecated</td>
 <td>2017-06-07T00:00:00+01:00</td>
+<td>4</td>
 <td>Cur.Méd.Enf.Diabét.T</td></tr>
 <tr style="background-color: #ffeeee"><td style="white-space:nowrap">614<a name="tre-r347-activite-sanitaire-diverse-regulee-614"> </a></td>
 <td>Cure Médicale Pr Enfants Épileptiques (MECS Permanente)</td>
@@ -3432,6 +3775,7 @@
 <td>2017-06-07T00:00:00+01:00</td>
 <td>deprecated</td>
 <td>2017-06-07T00:00:00+01:00</td>
+<td>4</td>
 <td>Cur.Méd.Enf.Epilèp.P</td></tr>
 <tr style="background-color: #ffeeee"><td style="white-space:nowrap">615<a name="tre-r347-activite-sanitaire-diverse-regulee-615"> </a></td>
 <td>Cure Médicale Pr Enfants Épileptiques (MECS Temporaire)</td>
@@ -3441,6 +3785,7 @@
 <td>2017-06-07T00:00:00+01:00</td>
 <td>deprecated</td>
 <td>2017-06-07T00:00:00+01:00</td>
+<td>4</td>
 <td>Cur.Méd.Enf.Epilèp.T</td></tr>
 <tr style="background-color: #ffeeee"><td style="white-space:nowrap">616<a name="tre-r347-activite-sanitaire-diverse-regulee-616"> </a></td>
 <td>Cure Médicale Pr Enfants Temp.Somat.Psycho</td>
@@ -3450,6 +3795,7 @@
 <td>2017-06-07T00:00:00+01:00</td>
 <td>deprecated</td>
 <td>2017-06-07T00:00:00+01:00</td>
+<td>4</td>
 <td>Cur.Méd.Enf.Déf.S.Ps</td></tr>
 <tr style="background-color: #ffeeee"><td style="white-space:nowrap">618<a name="tre-r347-activite-sanitaire-diverse-regulee-618"> </a></td>
 <td>Cure Médicale Pr Enfants Hémophiles (MECS Permanente)</td>
@@ -3459,6 +3805,7 @@
 <td>2017-06-07T00:00:00+01:00</td>
 <td>deprecated</td>
 <td>2017-06-07T00:00:00+01:00</td>
+<td>4</td>
 <td>Cur.Méd.Enf.Hémoph.P</td></tr>
 <tr style="background-color: #ffeeee"><td style="white-space:nowrap">619<a name="tre-r347-activite-sanitaire-diverse-regulee-619"> </a></td>
 <td>Cure Médicale Pr Enfants Hémophiles (MECS.Temporaire)</td>
@@ -3468,6 +3815,7 @@
 <td>2017-06-07T00:00:00+01:00</td>
 <td>deprecated</td>
 <td>2017-06-07T00:00:00+01:00</td>
+<td>4</td>
 <td>Cur.Méd.Enf.Hémoph.T</td></tr>
 <tr style="background-color: #ffeeee"><td style="white-space:nowrap">620<a name="tre-r347-activite-sanitaire-diverse-regulee-620"> </a></td>
 <td>Cure Médicale Pr Enfants Infirmes Orthopédique (Permanente)</td>
@@ -3477,6 +3825,7 @@
 <td>2017-06-07T00:00:00+01:00</td>
 <td>deprecated</td>
 <td>2017-06-07T00:00:00+01:00</td>
+<td>4</td>
 <td>Cur.Méd.Enf.Inf.Or.P</td></tr>
 <tr style="background-color: #ffeeee"><td style="white-space:nowrap">621<a name="tre-r347-activite-sanitaire-diverse-regulee-621"> </a></td>
 <td>Cure Médicale Pr Enfants Infirmes Orthopédique (Temporaire)</td>
@@ -3486,6 +3835,7 @@
 <td>2017-06-07T00:00:00+01:00</td>
 <td>deprecated</td>
 <td>2017-06-07T00:00:00+01:00</td>
+<td>4</td>
 <td>Cur.Méd.Enf.Inf.Or.T</td></tr>
 <tr style="background-color: #ffeeee"><td style="white-space:nowrap">622<a name="tre-r347-activite-sanitaire-diverse-regulee-622"> </a></td>
 <td>Cure Médicale Pr Enfants Énurétiques (MECS Permanence)</td>
@@ -3495,6 +3845,7 @@
 <td>2017-06-07T00:00:00+01:00</td>
 <td>deprecated</td>
 <td>2017-06-07T00:00:00+01:00</td>
+<td>4</td>
 <td>Cur.Méd.Enf.Enurét.P</td></tr>
 <tr style="background-color: #ffeeee"><td style="white-space:nowrap">623<a name="tre-r347-activite-sanitaire-diverse-regulee-623"> </a></td>
 <td>Cure Médicale Pr Enfants Énurétiques (MECS Temporaire.)</td>
@@ -3504,6 +3855,7 @@
 <td>2017-06-07T00:00:00+01:00</td>
 <td>deprecated</td>
 <td>2017-06-07T00:00:00+01:00</td>
+<td>4</td>
 <td>Cur.Méd.Enf.Enurét.T</td></tr>
 <tr style="background-color: #ffeeee"><td style="white-space:nowrap">624<a name="tre-r347-activite-sanitaire-diverse-regulee-624"> </a></td>
 <td>Cure Médicale Spécialisée Pr Enfants (MECS Permanente)</td>
@@ -3513,6 +3865,7 @@
 <td>2017-06-07T00:00:00+01:00</td>
 <td>deprecated</td>
 <td>2017-06-07T00:00:00+01:00</td>
+<td>4</td>
 <td>Cur.Méd.Spéc.Enf.P</td></tr>
 <tr style="background-color: #ffeeee"><td style="white-space:nowrap">625<a name="tre-r347-activite-sanitaire-diverse-regulee-625"> </a></td>
 <td>Cure Médicale Spécialisée Pr Enfants (MECS .Temporaire)</td>
@@ -3522,6 +3875,7 @@
 <td>2017-06-07T00:00:00+01:00</td>
 <td>deprecated</td>
 <td>2017-06-07T00:00:00+01:00</td>
+<td>4</td>
 <td>Cur.Méd.Spéc.Enf.T</td></tr>
 <tr style="background-color: #ffeeee"><td style="white-space:nowrap">627<a name="tre-r347-activite-sanitaire-diverse-regulee-627"> </a></td>
 <td>Moyen Séjour Indifférencié</td>
@@ -3531,6 +3885,7 @@
 <td>2017-06-07T00:00:00+01:00</td>
 <td>deprecated</td>
 <td>2017-06-07T00:00:00+01:00</td>
+<td>4</td>
 <td>Moyen Séjour Indif.</td></tr>
 <tr style="background-color: #ffeeee"><td style="white-space:nowrap">631<a name="tre-r347-activite-sanitaire-diverse-regulee-631"> </a></td>
 <td>Chirurgie Gynécologique</td>
@@ -3540,6 +3895,7 @@
 <td>2017-06-07T00:00:00+01:00</td>
 <td>deprecated</td>
 <td>2017-06-07T00:00:00+01:00</td>
+<td>4</td>
 <td>Chir.Gynécologique</td></tr>
 <tr style="background-color: #ffeeee"><td style="white-space:nowrap">634<a name="tre-r347-activite-sanitaire-diverse-regulee-634"> </a></td>
 <td>Laboratoire de Radio-Isotopes</td>
@@ -3549,6 +3905,7 @@
 <td>2017-06-07T00:00:00+01:00</td>
 <td>deprecated</td>
 <td>2017-06-07T00:00:00+01:00</td>
+<td>4</td>
 <td>Labo.Radio-Isotopes</td></tr>
 <tr style="background-color: #ffeeee"><td style="white-space:nowrap">635<a name="tre-r347-activite-sanitaire-diverse-regulee-635"> </a></td>
 <td>Réanimation Néonatale</td>
@@ -3558,6 +3915,7 @@
 <td>2017-06-07T00:00:00+01:00</td>
 <td>deprecated</td>
 <td>2017-06-07T00:00:00+01:00</td>
+<td>4</td>
 <td>Réa. Néonatale</td></tr>
 <tr style="background-color: #ffeeee"><td style="white-space:nowrap">636<a name="tre-r347-activite-sanitaire-diverse-regulee-636"> </a></td>
 <td>Réanimation Pédiatrique Polyvalente</td>
@@ -3567,6 +3925,7 @@
 <td>2017-06-07T00:00:00+01:00</td>
 <td>deprecated</td>
 <td>2017-06-07T00:00:00+01:00</td>
+<td>4</td>
 <td>Réa.Pédiatr.Polyv.</td></tr>
 <tr style="background-color: #ffeeee"><td style="white-space:nowrap">638<a name="tre-r347-activite-sanitaire-diverse-regulee-638"> </a></td>
 <td>Surveillance Continue Pédiatrique</td>
@@ -3576,6 +3935,7 @@
 <td>2017-06-07T00:00:00+01:00</td>
 <td>deprecated</td>
 <td>2017-06-07T00:00:00+01:00</td>
+<td>4</td>
 <td>Surveil.Cont.Pédiat.</td></tr>
 <tr style="background-color: #ffeeee"><td style="white-space:nowrap">639<a name="tre-r347-activite-sanitaire-diverse-regulee-639"> </a></td>
 <td>Surveillance Continue Néphrologie</td>
@@ -3585,6 +3945,7 @@
 <td>1994-09-19T00:00:00+01:00</td>
 <td>deprecated</td>
 <td>1994-09-19T00:00:00+01:00</td>
+<td>4</td>
 <td>Surveil.Cont.Néphro.</td></tr>
 <tr style="background-color: #ffeeee"><td style="white-space:nowrap">641<a name="tre-r347-activite-sanitaire-diverse-regulee-641"> </a></td>
 <td>réanimation en cardiologie</td>
@@ -3594,6 +3955,7 @@
 <td>1994-09-19T00:00:00+01:00</td>
 <td>deprecated</td>
 <td>1994-09-19T00:00:00+01:00</td>
+<td>4</td>
 <td>Reanimation en cardi</td></tr>
 <tr style="background-color: #ffeeee"><td style="white-space:nowrap">645<a name="tre-r347-activite-sanitaire-diverse-regulee-645"> </a></td>
 <td>Oxygénothérapie Isolée</td>
@@ -3603,6 +3965,7 @@
 <td>2017-06-07T00:00:00+01:00</td>
 <td>deprecated</td>
 <td>2017-06-07T00:00:00+01:00</td>
+<td>4</td>
 <td>Oxygénothérapie Isol</td></tr>
 <tr style="background-color: #ffeeee"><td style="white-space:nowrap">646<a name="tre-r347-activite-sanitaire-diverse-regulee-646"> </a></td>
 <td>Assistance Ventilée Sans Trachéotomie</td>
@@ -3612,6 +3975,7 @@
 <td>2017-06-07T00:00:00+01:00</td>
 <td>deprecated</td>
 <td>2017-06-07T00:00:00+01:00</td>
+<td>4</td>
 <td>Assis.Ventil.S.Trac</td></tr>
 <tr style="background-color: #ffeeee"><td style="white-space:nowrap">647<a name="tre-r347-activite-sanitaire-diverse-regulee-647"> </a></td>
 <td>assistance vent.Endotracheale</td>
@@ -3621,6 +3985,7 @@
 <td>2017-06-07T00:00:00+01:00</td>
 <td>deprecated</td>
 <td>2017-06-07T00:00:00+01:00</td>
+<td>4</td>
 <td>Assis.Ventil.Endotr.</td></tr>
 <tr style="background-color: #ffeeee"><td style="white-space:nowrap">648<a name="tre-r347-activite-sanitaire-diverse-regulee-648"> </a></td>
 <td>Trachéotomie Isolée</td>
@@ -3630,6 +3995,7 @@
 <td>2017-06-07T00:00:00+01:00</td>
 <td>deprecated</td>
 <td>2017-06-07T00:00:00+01:00</td>
+<td>4</td>
 <td></td></tr>
 <tr style="background-color: #ffeeee"><td style="white-space:nowrap">651<a name="tre-r347-activite-sanitaire-diverse-regulee-651"> </a></td>
 <td>Cure Thermale des Affect.des Muqueuses Bucco-Linguales</td>
@@ -3639,6 +4005,7 @@
 <td>2017-06-07T00:00:00+01:00</td>
 <td>deprecated</td>
 <td>2017-06-07T00:00:00+01:00</td>
+<td>4</td>
 <td>Cur.Therm.Aff.Buc.L.</td></tr>
 <tr style="background-color: #ffeeee"><td style="white-space:nowrap">663<a name="tre-r347-activite-sanitaire-diverse-regulee-663"> </a></td>
 <td>Nutrition Parentale Enfants</td>
@@ -3648,6 +4015,7 @@
 <td>2017-06-07T00:00:00+01:00</td>
 <td>deprecated</td>
 <td>2017-06-07T00:00:00+01:00</td>
+<td>4</td>
 <td>Nutr. Parent.Enfants</td></tr>
 <tr style="background-color: #ffeeee"><td style="white-space:nowrap">664<a name="tre-r347-activite-sanitaire-diverse-regulee-664"> </a></td>
 <td>Nutrition Parentale Adultes</td>
@@ -3657,6 +4025,7 @@
 <td>2017-06-07T00:00:00+01:00</td>
 <td>deprecated</td>
 <td>2017-06-07T00:00:00+01:00</td>
+<td>4</td>
 <td>Nutr.Parent.Adultes</td></tr>
 <tr style="background-color: #ffeeee"><td style="white-space:nowrap">665<a name="tre-r347-activite-sanitaire-diverse-regulee-665"> </a></td>
 <td>Fabrication Distribution Produit Pharmaceutiques</td>
@@ -3666,6 +4035,7 @@
 <td>2017-06-07T00:00:00+01:00</td>
 <td>deprecated</td>
 <td>2017-06-07T00:00:00+01:00</td>
+<td>4</td>
 <td>Fabr.Distr.Pro.Phar.</td></tr>
 <tr><td style="white-space:nowrap">666<a name="tre-r347-activite-sanitaire-diverse-regulee-666"> </a></td>
 <td>Dispensation à Domicile d'Oxygène à usage médical</td>
@@ -3675,6 +4045,7 @@
 <td>1979-01-01T00:00:00+01:00</td>
 <td>active</td>
 <td></td>
+<td>4</td>
 <td>Disp.dom.oxy.médic.</td></tr>
 <tr style="background-color: #ffeeee"><td style="white-space:nowrap">715<a name="tre-r347-activite-sanitaire-diverse-regulee-715"> </a></td>
 <td>Surveillance Par Monitorage (Mort Subite du Nourrisson)</td>
@@ -3684,6 +4055,7 @@
 <td>2017-06-07T00:00:00+01:00</td>
 <td>deprecated</td>
 <td>2017-06-07T00:00:00+01:00</td>
+<td>4</td>
 <td>Surv.Mort Sub.Nour.</td></tr>
 <tr style="background-color: #ffeeee"><td style="white-space:nowrap">717<a name="tre-r347-activite-sanitaire-diverse-regulee-717"> </a></td>
 <td>Soins Hautement Spécialisés en Médecine</td>
@@ -3693,6 +4065,7 @@
 <td>2017-06-07T00:00:00+01:00</td>
 <td>deprecated</td>
 <td>2017-06-07T00:00:00+01:00</td>
+<td>4</td>
 <td>Soins Haut.Spé.Méd.</td></tr>
 <tr style="background-color: #ffeeee"><td style="white-space:nowrap">718<a name="tre-r347-activite-sanitaire-diverse-regulee-718"> </a></td>
 <td>Soins Hautement Spécialisés en Chirurgie</td>
@@ -3702,6 +4075,7 @@
 <td>2017-06-07T00:00:00+01:00</td>
 <td>deprecated</td>
 <td>2017-06-07T00:00:00+01:00</td>
+<td>4</td>
 <td>Soins Haut.Spé.Chir.</td></tr>
 <tr style="background-color: #ffeeee"><td style="white-space:nowrap">719<a name="tre-r347-activite-sanitaire-diverse-regulee-719"> </a></td>
 <td>Soins Hautement Spécialisés en Gynécologie</td>
@@ -3711,6 +4085,7 @@
 <td>2017-06-07T00:00:00+01:00</td>
 <td>deprecated</td>
 <td>2017-06-07T00:00:00+01:00</td>
+<td>4</td>
 <td>Soins Haut.Spé.Gyné.</td></tr>
 <tr style="background-color: #ffeeee"><td style="white-space:nowrap">720<a name="tre-r347-activite-sanitaire-diverse-regulee-720"> </a></td>
 <td>réanimation néonatale</td>
@@ -3720,6 +4095,7 @@
 <td>1994-06-06T00:00:00+01:00</td>
 <td>deprecated</td>
 <td>1994-06-06T00:00:00+01:00</td>
+<td>4</td>
 <td>Réanimation Néonatal</td></tr>
 <tr style="background-color: #ffeeee"><td style="white-space:nowrap">721<a name="tre-r347-activite-sanitaire-diverse-regulee-721"> </a></td>
 <td>Radiothérapie Métabolique</td>
@@ -3729,6 +4105,7 @@
 <td>2017-06-07T00:00:00+01:00</td>
 <td>deprecated</td>
 <td>2025-02-20T00:00:00+01:00</td>
+<td>4</td>
 <td>Radiothérapie Métab.</td></tr>
 <tr style="background-color: #ffeeee"><td style="white-space:nowrap">722<a name="tre-r347-activite-sanitaire-diverse-regulee-722"> </a></td>
 <td>Maladies Infect.Tropic.Exotiq.</td>
@@ -3738,6 +4115,7 @@
 <td>1994-09-19T00:00:00+01:00</td>
 <td>deprecated</td>
 <td>1994-09-19T00:00:00+01:00</td>
+<td>4</td>
 <td>Maladies Infect.Trop</td></tr>
 <tr style="background-color: #ffeeee"><td style="white-space:nowrap">723<a name="tre-r347-activite-sanitaire-diverse-regulee-723"> </a></td>
 <td>Auto dialyse</td>
@@ -3747,6 +4125,7 @@
 <td>2017-06-07T00:00:00+01:00</td>
 <td>deprecated</td>
 <td>2017-06-07T00:00:00+01:00</td>
+<td>4</td>
 <td>Autodialyse</td></tr>
 <tr style="background-color: #ffeeee"><td style="white-space:nowrap">724<a name="tre-r347-activite-sanitaire-diverse-regulee-724"> </a></td>
 <td>Suivi de Grossesse</td>
@@ -3756,6 +4135,7 @@
 <td>2017-06-07T00:00:00+01:00</td>
 <td>deprecated</td>
 <td>2017-06-07T00:00:00+01:00</td>
+<td>4</td>
 <td></td></tr>
 <tr style="background-color: #ffeeee"><td style="white-space:nowrap">725<a name="tre-r347-activite-sanitaire-diverse-regulee-725"> </a></td>
 <td>Suivi Pré et Post Opératoire</td>
@@ -3765,6 +4145,7 @@
 <td>2017-06-07T00:00:00+01:00</td>
 <td>deprecated</td>
 <td>2017-06-07T00:00:00+01:00</td>
+<td>4</td>
 <td>Suivi Pré Post-Opér.</td></tr>
 <tr><td style="white-space:nowrap">726<a name="tre-r347-activite-sanitaire-diverse-regulee-726"> </a></td>
 <td>Consultations Multidisciplinaires</td>
@@ -3774,6 +4155,7 @@
 <td>1979-01-01T00:00:00+01:00</td>
 <td>active</td>
 <td></td>
+<td>4</td>
 <td>Consult.Multidiscip.</td></tr>
 <tr><td style="white-space:nowrap">727<a name="tre-r347-activite-sanitaire-diverse-regulee-727"> </a></td>
 <td>Consultation Externes Indifférenciées</td>
@@ -3783,6 +4165,7 @@
 <td>1979-01-01T00:00:00+01:00</td>
 <td>active</td>
 <td></td>
+<td>4</td>
 <td>Consult.Externes ind</td></tr>
 <tr style="background-color: #ffeeee"><td style="white-space:nowrap">728<a name="tre-r347-activite-sanitaire-diverse-regulee-728"> </a></td>
 <td>cardiologie infantile</td>
@@ -3792,6 +4175,7 @@
 <td>1994-09-19T00:00:00+01:00</td>
 <td>deprecated</td>
 <td>1994-09-19T00:00:00+01:00</td>
+<td>4</td>
 <td>cardiologie infantil</td></tr>
 <tr style="background-color: #ffeeee"><td style="white-space:nowrap">731<a name="tre-r347-activite-sanitaire-diverse-regulee-731"> </a></td>
 <td>Spécialités Pédiatriques</td>
@@ -3801,6 +4185,7 @@
 <td>2017-06-07T00:00:00+01:00</td>
 <td>deprecated</td>
 <td>2017-06-07T00:00:00+01:00</td>
+<td>4</td>
 <td>Spécial.Pédiatriques</td></tr>
 <tr style="background-color: #ffeeee"><td style="white-space:nowrap">737<a name="tre-r347-activite-sanitaire-diverse-regulee-737"> </a></td>
 <td>Convalescence et Réadaptation</td>
@@ -3810,6 +4195,7 @@
 <td>2017-06-07T00:00:00+01:00</td>
 <td>deprecated</td>
 <td>2017-06-07T00:00:00+01:00</td>
+<td>4</td>
 <td>Conval. Réadaptation</td></tr>
 <tr style="background-color: #ffeeee"><td style="white-space:nowrap">738<a name="tre-r347-activite-sanitaire-diverse-regulee-738"> </a></td>
 <td>Rééduc.Fonct.Réadapt.Motrice (Orient.Rhumatologie)</td>
@@ -3819,6 +4205,7 @@
 <td>2017-06-07T00:00:00+01:00</td>
 <td>deprecated</td>
 <td>2017-06-07T00:00:00+01:00</td>
+<td>4</td>
 <td>Ré.F.Réa.Mot.Rhumato</td></tr>
 <tr style="background-color: #ffeeee"><td style="white-space:nowrap">739<a name="tre-r347-activite-sanitaire-diverse-regulee-739"> </a></td>
 <td>Rééduc.Fonct.Réadapt.Motrice (Orient.Traumatologie)</td>
@@ -3828,6 +4215,7 @@
 <td>2017-06-07T00:00:00+01:00</td>
 <td>deprecated</td>
 <td>2017-06-07T00:00:00+01:00</td>
+<td>4</td>
 <td>Ré.F.Réa.Mot.Traumat</td></tr>
 <tr style="background-color: #ffeeee"><td style="white-space:nowrap">740<a name="tre-r347-activite-sanitaire-diverse-regulee-740"> </a></td>
 <td>Accueil Traitement Urgence Médicale</td>
@@ -3837,6 +4225,7 @@
 <td>1999-06-17T00:00:00+01:00</td>
 <td>deprecated</td>
 <td>1999-06-17T00:00:00+01:00</td>
+<td>4</td>
 <td>Acc.Trai.Urgence Méd</td></tr>
 <tr style="background-color: #ffeeee"><td style="white-space:nowrap">741<a name="tre-r347-activite-sanitaire-diverse-regulee-741"> </a></td>
 <td>Accueil Traitement Urgence Chirurgicale</td>
@@ -3846,6 +4235,7 @@
 <td>1999-06-17T00:00:00+01:00</td>
 <td>deprecated</td>
 <td>1999-06-17T00:00:00+01:00</td>
+<td>4</td>
 <td>Acc.Trai.Urgence Chi</td></tr>
 <tr style="background-color: #ffeeee"><td style="white-space:nowrap">742<a name="tre-r347-activite-sanitaire-diverse-regulee-742"> </a></td>
 <td>Accueil Traitement Urgence Spécialisé</td>
@@ -3855,6 +4245,7 @@
 <td>1999-06-17T00:00:00+01:00</td>
 <td>deprecated</td>
 <td>1999-06-17T00:00:00+01:00</td>
+<td>4</td>
 <td>Acc.Trai.Urgence Spé</td></tr>
 <tr style="background-color: #ffeeee"><td style="white-space:nowrap">743<a name="tre-r347-activite-sanitaire-diverse-regulee-743"> </a></td>
 <td>Immuno-Hématologie</td>
@@ -3864,6 +4255,7 @@
 <td>2017-06-07T00:00:00+01:00</td>
 <td>deprecated</td>
 <td>2017-06-07T00:00:00+01:00</td>
+<td>4</td>
 <td></td></tr>
 <tr style="background-color: #ffeeee"><td style="white-space:nowrap">744<a name="tre-r347-activite-sanitaire-diverse-regulee-744"> </a></td>
 <td>Immuno-Sérologie</td>
@@ -3873,6 +4265,7 @@
 <td>2017-06-07T00:00:00+01:00</td>
 <td>deprecated</td>
 <td>2017-06-07T00:00:00+01:00</td>
+<td>4</td>
 <td></td></tr>
 <tr style="background-color: #ffeeee"><td style="white-space:nowrap">745<a name="tre-r347-activite-sanitaire-diverse-regulee-745"> </a></td>
 <td>Hémostase</td>
@@ -3882,6 +4275,7 @@
 <td>2017-06-07T00:00:00+01:00</td>
 <td>deprecated</td>
 <td>2017-06-07T00:00:00+01:00</td>
+<td>4</td>
 <td></td></tr>
 <tr style="background-color: #ffeeee"><td style="white-space:nowrap">746<a name="tre-r347-activite-sanitaire-diverse-regulee-746"> </a></td>
 <td>Hématologie et Hémostase</td>
@@ -3891,6 +4285,7 @@
 <td>2017-06-07T00:00:00+01:00</td>
 <td>deprecated</td>
 <td>2017-06-07T00:00:00+01:00</td>
+<td>4</td>
 <td>Hémato. et Hémostase</td></tr>
 <tr style="background-color: #ffeeee"><td style="white-space:nowrap">747<a name="tre-r347-activite-sanitaire-diverse-regulee-747"> </a></td>
 <td>Chimie</td>
@@ -3900,6 +4295,7 @@
 <td>2017-06-07T00:00:00+01:00</td>
 <td>deprecated</td>
 <td>2017-06-07T00:00:00+01:00</td>
+<td>4</td>
 <td></td></tr>
 <tr style="background-color: #ffeeee"><td style="white-space:nowrap">748<a name="tre-r347-activite-sanitaire-diverse-regulee-748"> </a></td>
 <td>Bactériologie &amp; Virologie</td>
@@ -3909,6 +4305,7 @@
 <td>2017-06-07T00:00:00+01:00</td>
 <td>deprecated</td>
 <td>2017-06-07T00:00:00+01:00</td>
+<td>4</td>
 <td>Bactério. Virologie</td></tr>
 <tr style="background-color: #ffeeee"><td style="white-space:nowrap">749<a name="tre-r347-activite-sanitaire-diverse-regulee-749"> </a></td>
 <td>Laboratoire de Radio-isotopes (Méd.Nucléaire)</td>
@@ -3918,6 +4315,7 @@
 <td>2017-06-07T00:00:00+01:00</td>
 <td>deprecated</td>
 <td>2017-06-07T00:00:00+01:00</td>
+<td>4</td>
 <td>Lab.Radio-Isotopes</td></tr>
 <tr style="background-color: #ffeeee"><td style="white-space:nowrap">750<a name="tre-r347-activite-sanitaire-diverse-regulee-750"> </a></td>
 <td>Tomographie</td>
@@ -3927,6 +4325,7 @@
 <td>2017-06-07T00:00:00+01:00</td>
 <td>deprecated</td>
 <td>2017-06-07T00:00:00+01:00</td>
+<td>4</td>
 <td></td></tr>
 <tr style="background-color: #ffeeee"><td style="white-space:nowrap">751<a name="tre-r347-activite-sanitaire-diverse-regulee-751"> </a></td>
 <td>Radiologie Vasculaire</td>
@@ -3936,6 +4335,7 @@
 <td>2017-06-07T00:00:00+01:00</td>
 <td>deprecated</td>
 <td>2017-06-07T00:00:00+01:00</td>
+<td>4</td>
 <td>Radio. Vasculaire</td></tr>
 <tr style="background-color: #ffeeee"><td style="white-space:nowrap">752<a name="tre-r347-activite-sanitaire-diverse-regulee-752"> </a></td>
 <td>Échographie sans Autre Indication</td>
@@ -3945,6 +4345,7 @@
 <td>2017-06-07T00:00:00+01:00</td>
 <td>deprecated</td>
 <td>2017-06-07T00:00:00+01:00</td>
+<td>4</td>
 <td>Echographie S.A.I.</td></tr>
 <tr style="background-color: #ffeeee"><td style="white-space:nowrap">753<a name="tre-r347-activite-sanitaire-diverse-regulee-753"> </a></td>
 <td>Imagerie Par Résonance Magnétique (IRM)</td>
@@ -3954,6 +4355,7 @@
 <td>2017-06-07T00:00:00+01:00</td>
 <td>deprecated</td>
 <td>2017-06-07T00:00:00+01:00</td>
+<td>4</td>
 <td>Imagerie Réson.Magné</td></tr>
 <tr style="background-color: #ffeeee"><td style="white-space:nowrap">754<a name="tre-r347-activite-sanitaire-diverse-regulee-754"> </a></td>
 <td>Autre Activité Spécialisées Imagerie Médicale</td>
@@ -3963,6 +4365,7 @@
 <td>2017-06-07T00:00:00+01:00</td>
 <td>deprecated</td>
 <td>2017-06-07T00:00:00+01:00</td>
+<td>4</td>
 <td>Act.Spé.Imag.Médical</td></tr>
 <tr style="background-color: #ffeeee"><td style="white-space:nowrap">755<a name="tre-r347-activite-sanitaire-diverse-regulee-755"> </a></td>
 <td>Explorations Fonctionnelles en O.R.L.</td>
@@ -3972,6 +4375,7 @@
 <td>2017-06-07T00:00:00+01:00</td>
 <td>deprecated</td>
 <td>2017-06-07T00:00:00+01:00</td>
+<td>4</td>
 <td>Explor. Fonct. ORL</td></tr>
 <tr style="background-color: #ffeeee"><td style="white-space:nowrap">756<a name="tre-r347-activite-sanitaire-diverse-regulee-756"> </a></td>
 <td>Exploration Fonctionnelles en Ophtalmologie</td>
@@ -3981,6 +4385,7 @@
 <td>2017-06-07T00:00:00+01:00</td>
 <td>deprecated</td>
 <td>2017-06-07T00:00:00+01:00</td>
+<td>4</td>
 <td>Explor. Fonct.Ophtal</td></tr>
 <tr style="background-color: #ffeeee"><td style="white-space:nowrap">757<a name="tre-r347-activite-sanitaire-diverse-regulee-757"> </a></td>
 <td>Activité de Recherch.Expérim.ds Serv.Médico-Techn.</td>
@@ -3990,6 +4395,7 @@
 <td>2017-06-07T00:00:00+01:00</td>
 <td>deprecated</td>
 <td>2017-06-07T00:00:00+01:00</td>
+<td>4</td>
 <td>Act.Serv.Médicotech.</td></tr>
 <tr style="background-color: #ffeeee"><td style="white-space:nowrap">758<a name="tre-r347-activite-sanitaire-diverse-regulee-758"> </a></td>
 <td>Département d'information médicale</td>
@@ -3999,6 +4405,7 @@
 <td>2017-06-07T00:00:00+01:00</td>
 <td>deprecated</td>
 <td>2017-06-07T00:00:00+01:00</td>
+<td>4</td>
 <td>Départ.d'Information</td></tr>
 <tr style="background-color: #ffeeee"><td style="white-space:nowrap">759<a name="tre-r347-activite-sanitaire-diverse-regulee-759"> </a></td>
 <td>Centre d'Hémobiologie</td>
@@ -4008,6 +4415,7 @@
 <td>2017-06-07T00:00:00+01:00</td>
 <td>deprecated</td>
 <td>2017-06-07T00:00:00+01:00</td>
+<td>4</td>
 <td>Ctre d'Hémobiologie</td></tr>
 <tr style="background-color: #ffeeee"><td style="white-space:nowrap">760<a name="tre-r347-activite-sanitaire-diverse-regulee-760"> </a></td>
 <td>Salle de Réveil</td>
@@ -4017,6 +4425,7 @@
 <td>2017-06-07T00:00:00+01:00</td>
 <td>deprecated</td>
 <td>2017-06-07T00:00:00+01:00</td>
+<td>4</td>
 <td></td></tr>
 <tr style="background-color: #ffeeee"><td style="white-space:nowrap">761<a name="tre-r347-activite-sanitaire-diverse-regulee-761"> </a></td>
 <td>Anesthésiologie &amp; Salle Réveil</td>
@@ -4026,6 +4435,7 @@
 <td>2017-06-07T00:00:00+01:00</td>
 <td>deprecated</td>
 <td>2017-06-07T00:00:00+01:00</td>
+<td>4</td>
 <td>Anesthésio.Sal.Réve.</td></tr>
 <tr style="background-color: #ffeeee"><td style="white-space:nowrap">762<a name="tre-r347-activite-sanitaire-diverse-regulee-762"> </a></td>
 <td>Bloc Opératoire et Stérilisation Indifférenciées</td>
@@ -4035,6 +4445,7 @@
 <td>2017-06-07T00:00:00+01:00</td>
 <td>deprecated</td>
 <td>2017-06-07T00:00:00+01:00</td>
+<td>4</td>
 <td>Bloc Opér.Stér.Indif</td></tr>
 <tr style="background-color: #ffeeee"><td style="white-space:nowrap">763<a name="tre-r347-activite-sanitaire-diverse-regulee-763"> </a></td>
 <td>Pharmacie &amp; Stérilisation</td>
@@ -4044,6 +4455,7 @@
 <td>2017-06-07T00:00:00+01:00</td>
 <td>deprecated</td>
 <td>2017-06-07T00:00:00+01:00</td>
+<td>4</td>
 <td>Pharmacie &amp; Stérilis</td></tr>
 <tr style="background-color: #ffeeee"><td style="white-space:nowrap">797<a name="tre-r347-activite-sanitaire-diverse-regulee-797"> </a></td>
 <td>Hémodialyse et Hémofiltration Pr Chroniques Adultes</td>
@@ -4053,6 +4465,7 @@
 <td>2017-06-07T00:00:00+01:00</td>
 <td>deprecated</td>
 <td>2017-06-07T00:00:00+01:00</td>
+<td>4</td>
 <td>Hémod.Hémofil.Adulte</td></tr>
 <tr style="background-color: #ffeeee"><td style="white-space:nowrap">798<a name="tre-r347-activite-sanitaire-diverse-regulee-798"> </a></td>
 <td>Hémodialyse et Hémofiltration Pr Chroniques Enfants</td>
@@ -4062,6 +4475,7 @@
 <td>2017-06-07T00:00:00+01:00</td>
 <td>deprecated</td>
 <td>2017-06-07T00:00:00+01:00</td>
+<td>4</td>
 <td>Hémod.Hémofil.Enfant</td></tr>
 <tr style="background-color: #ffeeee"><td style="white-space:nowrap">799<a name="tre-r347-activite-sanitaire-diverse-regulee-799"> </a></td>
 <td>Assistance Ventilatoire Avec Prothèse Extra-Thoracique</td>
@@ -4071,6 +4485,7 @@
 <td>2017-06-07T00:00:00+01:00</td>
 <td>deprecated</td>
 <td>2017-06-07T00:00:00+01:00</td>
+<td>4</td>
 <td>Assist.Vent.Ins.Resp</td></tr>
 <tr style="background-color: #ffeeee"><td style="white-space:nowrap">800<a name="tre-r347-activite-sanitaire-diverse-regulee-800"> </a></td>
 <td>Assistance ventilatoire Par Pres.Posit.Cont.ou Techn.Respir.</td>
@@ -4080,6 +4495,7 @@
 <td>2017-06-07T00:00:00+01:00</td>
 <td>deprecated</td>
 <td>2017-06-07T00:00:00+01:00</td>
+<td>4</td>
 <td>Assist.Vent.Techniq.</td></tr>
 <tr style="background-color: #ffeeee"><td style="white-space:nowrap">801<a name="tre-r347-activite-sanitaire-diverse-regulee-801"> </a></td>
 <td>Insulinothérapie</td>
@@ -4089,6 +4505,7 @@
 <td>2017-06-07T00:00:00+01:00</td>
 <td>deprecated</td>
 <td>2017-06-07T00:00:00+01:00</td>
+<td>4</td>
 <td></td></tr>
 <tr style="background-color: #ffeeee"><td style="white-space:nowrap">802<a name="tre-r347-activite-sanitaire-diverse-regulee-802"> </a></td>
 <td>Autres Traitements Spécialisés à Domicile</td>
@@ -4098,6 +4515,7 @@
 <td>2017-06-07T00:00:00+01:00</td>
 <td>deprecated</td>
 <td>2017-06-07T00:00:00+01:00</td>
+<td>4</td>
 <td>Trait.Spéc.Domicile</td></tr>
 <tr style="background-color: #ffeeee"><td style="white-space:nowrap">803<a name="tre-r347-activite-sanitaire-diverse-regulee-803"> </a></td>
 <td>Psychiatrie arriérés profonds</td>
@@ -4107,6 +4525,7 @@
 <td>1994-06-06T00:00:00+01:00</td>
 <td>deprecated</td>
 <td>1994-06-06T00:00:00+01:00</td>
+<td>4</td>
 <td>Psychiatrie arriérés</td></tr>
 <tr><td style="white-space:nowrap">806<a name="tre-r347-activite-sanitaire-diverse-regulee-806"> </a></td>
 <td>atelier thérapeutique adulte</td>
@@ -4116,6 +4535,7 @@
 <td>2001-10-01T00:00:00+01:00</td>
 <td>active</td>
 <td></td>
+<td>4</td>
 <td>Atelier thérapeut A</td></tr>
 <tr><td style="white-space:nowrap">807<a name="tre-r347-activite-sanitaire-diverse-regulee-807"> </a></td>
 <td>atelier thérapeutique infanto-juvenile</td>
@@ -4125,6 +4545,7 @@
 <td>2001-10-01T00:00:00+01:00</td>
 <td>active</td>
 <td></td>
+<td>4</td>
 <td>Atelier thérapeut IJ</td></tr>
 <tr style="background-color: #ffeeee"><td style="white-space:nowrap">808<a name="tre-r347-activite-sanitaire-diverse-regulee-808"> </a></td>
 <td>Psychiatrie en Milieu Pénitentiaire</td>
@@ -4134,6 +4555,7 @@
 <td>2017-06-07T00:00:00+01:00</td>
 <td>deprecated</td>
 <td>2017-06-07T00:00:00+01:00</td>
+<td>4</td>
 <td>Psychiatrie prison</td></tr>
 <tr style="background-color: #ffeeee"><td style="white-space:nowrap">811<a name="tre-r347-activite-sanitaire-diverse-regulee-811"> </a></td>
 <td>Immunologie Tissulaire Auto-Immunité</td>
@@ -4143,6 +4565,7 @@
 <td>2017-06-07T00:00:00+01:00</td>
 <td>deprecated</td>
 <td>2017-06-07T00:00:00+01:00</td>
+<td>4</td>
 <td>Imuno.Tiss.Auto.Immu</td></tr>
 <tr style="background-color: #ffeeee"><td style="white-space:nowrap">812<a name="tre-r347-activite-sanitaire-diverse-regulee-812"> </a></td>
 <td>Sérologie Virale</td>
@@ -4152,6 +4575,7 @@
 <td>2017-06-07T00:00:00+01:00</td>
 <td>deprecated</td>
 <td>2017-06-07T00:00:00+01:00</td>
+<td>4</td>
 <td></td></tr>
 <tr style="background-color: #ffeeee"><td style="white-space:nowrap">813<a name="tre-r347-activite-sanitaire-diverse-regulee-813"> </a></td>
 <td>Sérologie Bactérienne</td>
@@ -4161,6 +4585,7 @@
 <td>2017-06-07T00:00:00+01:00</td>
 <td>deprecated</td>
 <td>2017-06-07T00:00:00+01:00</td>
+<td>4</td>
 <td>Sérologie Bactérien.</td></tr>
 <tr style="background-color: #ffeeee"><td style="white-space:nowrap">814<a name="tre-r347-activite-sanitaire-diverse-regulee-814"> </a></td>
 <td>Sérologie Parasitaire et Mycologique.</td>
@@ -4170,6 +4595,7 @@
 <td>2017-06-07T00:00:00+01:00</td>
 <td>deprecated</td>
 <td>2017-06-07T00:00:00+01:00</td>
+<td>4</td>
 <td>Sérologie Para.Mycol</td></tr>
 <tr style="background-color: #ffeeee"><td style="white-space:nowrap">815<a name="tre-r347-activite-sanitaire-diverse-regulee-815"> </a></td>
 <td>Échocardiologie</td>
@@ -4179,6 +4605,7 @@
 <td>2017-06-07T00:00:00+01:00</td>
 <td>deprecated</td>
 <td>2017-06-07T00:00:00+01:00</td>
+<td>4</td>
 <td>Echocardiologie</td></tr>
 <tr style="background-color: #ffeeee"><td style="white-space:nowrap">816<a name="tre-r347-activite-sanitaire-diverse-regulee-816"> </a></td>
 <td>Échographie Abdominale</td>
@@ -4188,6 +4615,7 @@
 <td>2017-06-07T00:00:00+01:00</td>
 <td>deprecated</td>
 <td>2017-06-07T00:00:00+01:00</td>
+<td>4</td>
 <td>Echographie Abdomina</td></tr>
 <tr style="background-color: #ffeeee"><td style="white-space:nowrap">817<a name="tre-r347-activite-sanitaire-diverse-regulee-817"> </a></td>
 <td>Échographie en Obstétrique</td>
@@ -4197,6 +4625,7 @@
 <td>2017-06-07T00:00:00+01:00</td>
 <td>deprecated</td>
 <td>2017-06-07T00:00:00+01:00</td>
+<td>4</td>
 <td>Échographie Obstétri</td></tr>
 <tr style="background-color: #ffeeee"><td style="white-space:nowrap">818<a name="tre-r347-activite-sanitaire-diverse-regulee-818"> </a></td>
 <td>Échographie Vasculaire</td>
@@ -4206,6 +4635,7 @@
 <td>2017-06-07T00:00:00+01:00</td>
 <td>deprecated</td>
 <td>2017-06-07T00:00:00+01:00</td>
+<td>4</td>
 <td>Échographie Vasculai</td></tr>
 <tr style="background-color: #ffeeee"><td style="white-space:nowrap">819<a name="tre-r347-activite-sanitaire-diverse-regulee-819"> </a></td>
 <td>Autres écographies</td>
@@ -4215,6 +4645,7 @@
 <td>2017-06-07T00:00:00+01:00</td>
 <td>deprecated</td>
 <td>2017-06-07T00:00:00+01:00</td>
+<td>4</td>
 <td>Autres Échographies</td></tr>
 <tr style="background-color: #ffeeee"><td style="white-space:nowrap">820<a name="tre-r347-activite-sanitaire-diverse-regulee-820"> </a></td>
 <td>Collecte de Sang</td>
@@ -4224,6 +4655,7 @@
 <td>2017-06-07T00:00:00+01:00</td>
 <td>deprecated</td>
 <td>2017-06-07T00:00:00+01:00</td>
+<td>4</td>
 <td></td></tr>
 <tr style="background-color: #ffeeee"><td style="white-space:nowrap">821<a name="tre-r347-activite-sanitaire-diverse-regulee-821"> </a></td>
 <td>Stockage, Distribution de Sang</td>
@@ -4233,6 +4665,7 @@
 <td>2017-06-07T00:00:00+01:00</td>
 <td>deprecated</td>
 <td>2017-06-07T00:00:00+01:00</td>
+<td>4</td>
 <td>Stock.Distribut.Sang</td></tr>
 <tr style="background-color: #ffeeee"><td style="white-space:nowrap">822<a name="tre-r347-activite-sanitaire-diverse-regulee-822"> </a></td>
 <td>Production de Produits Sanguins</td>
@@ -4242,6 +4675,7 @@
 <td>2017-06-07T00:00:00+01:00</td>
 <td>deprecated</td>
 <td>2017-06-07T00:00:00+01:00</td>
+<td>4</td>
 <td>Product.Produit Sang</td></tr>
 <tr><td style="white-space:nowrap">823<a name="tre-r347-activite-sanitaire-diverse-regulee-823"> </a></td>
 <td>Activité de Transfusion Sanguine</td>
@@ -4251,6 +4685,7 @@
 <td>1979-01-01T00:00:00+01:00</td>
 <td>active</td>
 <td></td>
+<td>4</td>
 <td>Act.Transf.Sanguine </td></tr>
 <tr><td style="white-space:nowrap">824<a name="tre-r347-activite-sanitaire-diverse-regulee-824"> </a></td>
 <td>Pharmacie d'Établissement</td>
@@ -4260,6 +4695,7 @@
 <td>1979-01-01T00:00:00+01:00</td>
 <td>active</td>
 <td></td>
+<td>4</td>
 <td>Pharmacie d'Etab.</td></tr>
 <tr style="background-color: #ffeeee"><td style="white-space:nowrap">828<a name="tre-r347-activite-sanitaire-diverse-regulee-828"> </a></td>
 <td>Cure Thermale Maladies Cardio-artérielles</td>
@@ -4269,6 +4705,7 @@
 <td>2017-06-07T00:00:00+01:00</td>
 <td>deprecated</td>
 <td>2017-06-07T00:00:00+01:00</td>
+<td>4</td>
 <td>Cur.Therm.Mal.Cardio</td></tr>
 <tr style="background-color: #ffeeee"><td style="white-space:nowrap">829<a name="tre-r347-activite-sanitaire-diverse-regulee-829"> </a></td>
 <td>Cure thermale en Neurologie</td>
@@ -4278,6 +4715,7 @@
 <td>2017-06-07T00:00:00+01:00</td>
 <td>deprecated</td>
 <td>2017-06-07T00:00:00+01:00</td>
+<td>4</td>
 <td>Cur.Therm.Neurologie</td></tr>
 <tr style="background-color: #ffeeee"><td style="white-space:nowrap">830<a name="tre-r347-activite-sanitaire-diverse-regulee-830"> </a></td>
 <td>Cure Thermale des Affections Psychosomatiques</td>
@@ -4287,6 +4725,7 @@
 <td>2017-06-07T00:00:00+01:00</td>
 <td>deprecated</td>
 <td>2017-06-07T00:00:00+01:00</td>
+<td>4</td>
 <td>Cur.Therm.Affec.Psy.</td></tr>
 <tr style="background-color: #ffeeee"><td style="white-space:nowrap">831<a name="tre-r347-activite-sanitaire-diverse-regulee-831"> </a></td>
 <td>Cure Thermale en Phlébologie</td>
@@ -4296,6 +4735,7 @@
 <td>2017-06-07T00:00:00+01:00</td>
 <td>deprecated</td>
 <td>2017-06-07T00:00:00+01:00</td>
+<td>4</td>
 <td>Cur.Therm.Phlébolog.</td></tr>
 <tr style="background-color: #ffeeee"><td style="white-space:nowrap">832<a name="tre-r347-activite-sanitaire-diverse-regulee-832"> </a></td>
 <td>Cure Thermale Pr Troubles du Développement chez l'enfant</td>
@@ -4305,6 +4745,7 @@
 <td>2017-06-07T00:00:00+01:00</td>
 <td>deprecated</td>
 <td>2017-06-07T00:00:00+01:00</td>
+<td>4</td>
 <td>Cur.Therm.Troub.Enf.</td></tr>
 <tr style="background-color: #ffeeee"><td style="white-space:nowrap">833<a name="tre-r347-activite-sanitaire-diverse-regulee-833"> </a></td>
 <td>Cure Thermale en Gynécologie</td>
@@ -4314,6 +4755,7 @@
 <td>2017-06-07T00:00:00+01:00</td>
 <td>deprecated</td>
 <td>2017-06-07T00:00:00+01:00</td>
+<td>4</td>
 <td>Cur.Therm.Gynécolog.</td></tr>
 <tr style="background-color: #ffeeee"><td style="white-space:nowrap">834<a name="tre-r347-activite-sanitaire-diverse-regulee-834"> </a></td>
 <td>Cure Thermale Pr Maladies de l'Appar.Digest.Mal.Métabolques</td>
@@ -4323,6 +4765,7 @@
 <td>2017-06-07T00:00:00+01:00</td>
 <td>deprecated</td>
 <td>2017-06-07T00:00:00+01:00</td>
+<td>4</td>
 <td>Cur.Therm.App.Digest</td></tr>
 <tr style="background-color: #ffeeee"><td style="white-space:nowrap">835<a name="tre-r347-activite-sanitaire-diverse-regulee-835"> </a></td>
 <td>Cure Thermale Pr Maladies de l'Appar.Urinaire Mal.Métabol.</td>
@@ -4332,6 +4775,7 @@
 <td>2017-06-07T00:00:00+01:00</td>
 <td>deprecated</td>
 <td>2017-06-07T00:00:00+01:00</td>
+<td>4</td>
 <td>Cur.Therm.App.Urin.</td></tr>
 <tr><td style="white-space:nowrap">850<a name="tre-r347-activite-sanitaire-diverse-regulee-850"> </a></td>
 <td>Activité médicale et paramédicale</td>
@@ -4341,6 +4785,7 @@
 <td>2013-12-19T00:00:00+01:00</td>
 <td>active</td>
 <td></td>
+<td>4</td>
 <td>Act médic paramédic</td></tr>
 <tr><td style="white-space:nowrap">851<a name="tre-r347-activite-sanitaire-diverse-regulee-851"> </a></td>
 <td>Activité médicale autre que dentaire unique</td>
@@ -4350,6 +4795,7 @@
 <td>2013-12-19T00:00:00+01:00</td>
 <td>active</td>
 <td></td>
+<td>4</td>
 <td>Act méd aut dent uni</td></tr>
 <tr><td style="white-space:nowrap">852<a name="tre-r347-activite-sanitaire-diverse-regulee-852"> </a></td>
 <td>Activité paramédicale autre qu'activité infirmière unique</td>
@@ -4359,6 +4805,7 @@
 <td>2013-12-19T00:00:00+01:00</td>
 <td>active</td>
 <td></td>
+<td>4</td>
 <td>Act para aut inf uni</td></tr>
 <tr><td style="white-space:nowrap">853<a name="tre-r347-activite-sanitaire-diverse-regulee-853"> </a></td>
 <td>Activité de lutte contre la lèpre</td>
@@ -4368,6 +4815,7 @@
 <td>2013-12-19T00:00:00+01:00</td>
 <td>active</td>
 <td></td>
+<td>4</td>
 <td>Act lutte contr lèpr</td></tr>
 <tr><td style="white-space:nowrap">854<a name="tre-r347-activite-sanitaire-diverse-regulee-854"> </a></td>
 <td>Activité sage-femme en maison de naissance</td>
@@ -4377,6 +4825,7 @@
 <td>2019-08-01T00:00:00+01:00</td>
 <td>active</td>
 <td></td>
+<td>4</td>
 <td>Act maison naissance</td></tr>
 <tr style="background-color: #ffeeee"><td style="white-space:nowrap">949<a name="tre-r347-activite-sanitaire-diverse-regulee-949"> </a></td>
 <td>Recherche Chirurgicale ou Chirurgie Expérimentale</td>
@@ -4386,6 +4835,7 @@
 <td>2017-06-07T00:00:00+01:00</td>
 <td>deprecated</td>
 <td>2017-06-07T00:00:00+01:00</td>
+<td>4</td>
 <td>Rech.Chir.Chir.Exp.</td></tr>
 <tr style="background-color: #ffeeee"><td style="white-space:nowrap">950<a name="tre-r347-activite-sanitaire-diverse-regulee-950"> </a></td>
 <td>Enseignement Médical</td>
@@ -4395,6 +4845,7 @@
 <td>2017-06-07T00:00:00+01:00</td>
 <td>deprecated</td>
 <td>2017-06-07T00:00:00+01:00</td>
+<td>4</td>
 <td></td></tr>
 <tr style="background-color: #ffeeee"><td style="white-space:nowrap">951<a name="tre-r347-activite-sanitaire-diverse-regulee-951"> </a></td>
 <td>Enseignement Autre (Ex:Éducation Sanitaire)</td>
@@ -4404,6 +4855,7 @@
 <td>2017-06-07T00:00:00+01:00</td>
 <td>deprecated</td>
 <td>2017-06-07T00:00:00+01:00</td>
+<td>4</td>
 <td>Enseignement Autre</td></tr>
 <tr style="background-color: #ffeeee"><td style="white-space:nowrap">952<a name="tre-r347-activite-sanitaire-diverse-regulee-952"> </a></td>
 <td>Recherche Médicale</td>
@@ -4413,6 +4865,7 @@
 <td>2017-06-07T00:00:00+01:00</td>
 <td>deprecated</td>
 <td>2017-06-07T00:00:00+01:00</td>
+<td>4</td>
 <td></td></tr>
 <tr style="background-color: #ffeeee"><td style="white-space:nowrap">953<a name="tre-r347-activite-sanitaire-diverse-regulee-953"> </a></td>
 <td>Recherche Pharmacologique</td>
@@ -4422,6 +4875,7 @@
 <td>2017-06-07T00:00:00+01:00</td>
 <td>deprecated</td>
 <td>2017-06-07T00:00:00+01:00</td>
+<td>4</td>
 <td>Recherche Pharmacolo</td></tr>
 <tr style="background-color: #ffeeee"><td style="white-space:nowrap">954<a name="tre-r347-activite-sanitaire-diverse-regulee-954"> </a></td>
 <td>Recherche Pharmaceutique</td>
@@ -4431,6 +4885,7 @@
 <td>2017-06-07T00:00:00+01:00</td>
 <td>deprecated</td>
 <td>2017-06-07T00:00:00+01:00</td>
+<td>4</td>
 <td>Recherche Pharmaceut</td></tr>
 <tr style="background-color: #ffeeee"><td style="white-space:nowrap">955<a name="tre-r347-activite-sanitaire-diverse-regulee-955"> </a></td>
 <td>Recherche Odontologique</td>
@@ -4440,6 +4895,7 @@
 <td>2017-06-07T00:00:00+01:00</td>
 <td>deprecated</td>
 <td>2017-06-07T00:00:00+01:00</td>
+<td>4</td>
 <td>Recherche Odontologi</td></tr>
 <tr style="background-color: #ffeeee"><td style="white-space:nowrap">956<a name="tre-r347-activite-sanitaire-diverse-regulee-956"> </a></td>
 <td>Recherche Toxicologique</td>
@@ -4449,6 +4905,7 @@
 <td>2017-06-07T00:00:00+01:00</td>
 <td>deprecated</td>
 <td>2017-06-07T00:00:00+01:00</td>
+<td>4</td>
 <td>Recherche Toxicologi</td></tr></table></div>
 </div>
   
@@ -4498,7 +4955,7 @@
 
 <div class="inner-wrapper">
   <p>
-    IG &#169; 2020+ <a style="color:var(--footer-hyperlink-text-color)" href="https://esante.gouv.fr">ANS</a>.  Package ans.fr.terminologies#0.1.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Fri, Jul 11, 2025 10:09+0000">2025-07-11</span>
+    IG &#169; 2020+ <a style="color:var(--footer-hyperlink-text-color)" href="https://esante.gouv.fr">ANS</a>.  Package ans.fr.terminologies#0.1.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Wed, Jul 16, 2025 12:42+0000">2025-07-16</span>
     <br/>
     <span style="color: var(--footer-highlight-text-color)"></span>
       Liens: <a style="color: var(--footer-hyperlink-text-color)" href="toc.html">Table des matières </a> |

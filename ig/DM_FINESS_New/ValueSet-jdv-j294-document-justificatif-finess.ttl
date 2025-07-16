@@ -31,7 +31,7 @@
   fhir:url [ fhir:v "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j294-document-justificatif-finess"^^xsd:anyURI] ; # 
   fhir:identifier ( [
      fhir:system [ fhir:v "urn:ietf:rfc:3986"^^xsd:anyURI ] ;
-     fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.6.1.269" ]
+     fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.6.1.268" ]
   ] ) ; # 
   fhir:version [ fhir:v "20250222120000"] ; # 
   fhir:name [ fhir:v "JdvJ294DocumentJustificatifFiness"] ; # 
