@@ -386,8 +386,8 @@ Description: "Nomenclature des activités sanitaires utilisée pour décrire les
 * #0420 ^property[=].valueCode = #deprecated
 * #0420 ^property[+].code = #deprecationDate
 * #0420 ^property[=].valueDateTime = "2017-06-07T00:00:00+01:00"
+* #0420 ^property[+].code = #niveau
 * #0420 ^property[=].valueInteger = 2
-* #0420^property[+].code = #niveau
 * #0430 "Imagerie"
 * #0430 ^property[0].code = #parent
 * #0430 ^property[=].valueCode = #0400
