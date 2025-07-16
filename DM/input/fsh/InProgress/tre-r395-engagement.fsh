@@ -1,22 +1,22 @@
 Alias: $sct = http://snomed.info/sct
 Alias: $tre-r363-type-engagement = https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r363-type-engagement
 
-CodeSystem: TreR278Engagement
-Id: tre-r278-engagement
-Title: "Tre R278 Engagement"
+CodeSystem: TreR395Engagement
+Id: tre-r395-engagement
+Title: "Tre R395 Engagement"
 Description: "Nomenclature des engagements associés dans FINESS+ aux Personnes morales, aux entités géographique, aux groupements ou à leurs activités"
 * ^meta.versionId = "1"
-* ^meta.lastUpdated = "2025-06-11T16:01:18.884+00:00"
+* ^meta.lastUpdated = "2025-07-16T16:01:18.884+00:00"
 * ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablecodesystem"
 * ^extension.url = "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod"
-* ^extension.valuePeriod.start = "2018-10-26T12:00:00+01:00"
-* ^url = "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r278-engagement"
+* ^extension.valuePeriod.start = "2025-07-16T12:00:00+01:00"
+* ^url = "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r395-engagement"
 * ^identifier.system = "urn:ietf:rfc:3986"
-* ^identifier.value = "urn:oid:1.2.250.1.213.1.6.1.131"
-* ^version = "20250611120000"
+* ^identifier.value = "urn:oid:1.2.250.1.213.1.6.1.376"
+* ^version = "20250716120000"
 * ^status = #active
 * ^experimental = false
-* ^date = "2025-06-11T12:00:00+01:00"
+* ^date = "2025-07-16T12:00:00+01:00"
 * ^publisher = "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris"
 * ^caseSensitive = false
 * ^valueSet = "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r278-engagement?vs"
