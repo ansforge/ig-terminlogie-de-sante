@@ -1,11 +1,11 @@
 {
   "resourceType" : "ValueSet",
-  "id" : "610a6052-3c32-4df3-8c5c-032632e78ce8-1170",
-  "url" : "http://hl7.org/fhir/comparison/ValueSet/610a6052-3c32-4df3-8c5c-032632e78ce8-1170",
+  "id" : "4a786e0e-102d-4938-a221-87a4054bdd27-1170",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/4a786e0e-102d-4938-a221-87a4054bdd27-1170",
   "name" : "IntersectionJDV_J204_NiveauRecoursORSAN_RORAndJDV_J204_NiveauRecoursORSAN_ROR",
   "title" : "Intersection of null And null",
   "status" : "active",
-  "date" : "2025-07-16T15:17:49+00:00",
+  "date" : "2025-07-17T14:32:10+00:00",
   "jurisdiction" : [{
     "coding" : [{
       "system" : "urn:iso:std:iso:3166",

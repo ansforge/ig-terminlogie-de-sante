@@ -48857,6 +48857,24 @@
          ]
        ] ) ;
        fhir:reference [
+         fhir:link <https://interop.esante.gouv.fr/terminologies/ValueSet/jdv-j351-appareil-amm-finess> ;
+         fhir:reference [ fhir:v "ValueSet/jdv-j351-appareil-amm-finess" ]
+       ] ;
+       fhir:name [ fhir:v "Jdv J351 Appareil Amm Finess" ] ;
+       fhir:description [ fhir:v "Liste des appareils AMM vus de FINESS" ] ;
+       fhir:example [
+         a fhir:boolean ;
+         fhir:v false
+       ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [
+           a fhir:string ;
+           fhir:v "ValueSet"
+         ]
+       ] ) ;
+       fhir:reference [
          fhir:link <https://interop.esante.gouv.fr/terminologies/ValueSet/jdv-j352-nature-capacite-finess> ;
          fhir:reference [ fhir:v "ValueSet/jdv-j352-nature-capacite-finess" ]
        ] ;

@@ -6795,6 +6795,19 @@
       "sources" : ["1.2.250.1.213.1.6.1.358"]
     },
     {
+      "url" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j351-appareil-amm-finess",
+      "version" : "20250717120000",
+      "status" : "active",
+      "name" : "JdvJ351AppareilAmmFiness",
+      "title" : "Jdv J351 Appareil Amm Finess",
+      "description" : "Liste des appareils AMM vus de FINESS",
+      "systems" : [
+        "https://mos.esante.gouv.fr/NOS/TRE_R212-Equipement/FHIR/TRE-R212-Equipement"
+      ],
+      "oids" : ["1.2.250.1.213.1.6.1.359"],
+      "sources" : ["1.2.250.1.213.1.6.1.359"]
+    },
+    {
       "url" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j352-nature-capacite-finess",
       "version" : "20250516120000",
       "status" : "active",

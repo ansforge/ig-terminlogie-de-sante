@@ -26399,6 +26399,17 @@
         <valueString value="ValueSet"/>
       </extension>
       <reference>
+        <reference value="ValueSet/jdv-j351-appareil-amm-finess"/>
+      </reference>
+      <name value="Jdv J351 Appareil Amm Finess"/>
+      <description value="Liste des appareils AMM vus de FINESS"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
         <reference value="ValueSet/jdv-j352-nature-capacite-finess"/>
       </reference>
       <name value="Jdv J352 Nature Capacite Finess"/>

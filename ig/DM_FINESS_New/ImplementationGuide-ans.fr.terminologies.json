@@ -35536,6 +35536,18 @@
         "valueString" : "ValueSet"
       }],
       "reference" : {
+        "reference" : "ValueSet/jdv-j351-appareil-amm-finess"
+      },
+      "name" : "Jdv J351 Appareil Amm Finess",
+      "description" : "Liste des appareils AMM vus de FINESS",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      }],
+      "reference" : {
         "reference" : "ValueSet/jdv-j352-nature-capacite-finess"
       },
       "name" : "Jdv J352 Nature Capacite Finess",

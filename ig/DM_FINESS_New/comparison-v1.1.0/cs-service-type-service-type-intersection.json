@@ -1,11 +1,11 @@
 {
   "resourceType" : "CodeSystem",
-  "id" : "610a6052-3c32-4df3-8c5c-032632e78ce8-759",
-  "url" : "http://hl7.org/fhir/comparison/CodeSystem/610a6052-3c32-4df3-8c5c-032632e78ce8-759",
+  "id" : "4a786e0e-102d-4938-a221-87a4054bdd27-759",
+  "url" : "http://hl7.org/fhir/comparison/CodeSystem/4a786e0e-102d-4938-a221-87a4054bdd27-759",
   "name" : "IntersectionServiceTypeAndServiceType",
   "title" : "Intersection of Service type And Service type",
   "status" : "draft",
-  "date" : "2025-07-16T15:17:48+00:00",
+  "date" : "2025-07-17T14:32:10+00:00",
   "concept" : [{
     "code" : "1",
     "display" : "Adoption/Permanent Care Info/Support",

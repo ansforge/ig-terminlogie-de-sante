@@ -1,11 +1,11 @@
 {
   "resourceType" : "CodeSystem",
-  "id" : "610a6052-3c32-4df3-8c5c-032632e78ce8-185",
-  "url" : "http://hl7.org/fhir/comparison/CodeSystem/610a6052-3c32-4df3-8c5c-032632e78ce8-185",
+  "id" : "4a786e0e-102d-4938-a221-87a4054bdd27-185",
+  "url" : "http://hl7.org/fhir/comparison/CodeSystem/4a786e0e-102d-4938-a221-87a4054bdd27-185",
   "name" : "UnionTRE_R212_EquipementAndTRE_R212_Equipement",
   "title" : "Union of null And null",
   "status" : "active",
-  "date" : "2025-07-16T15:17:48+00:00",
+  "date" : "2025-07-17T14:32:09+00:00",
   "jurisdiction" : [{
     "coding" : [{
       "system" : "urn:iso:std:iso:3166",
@@ -77,6 +77,12 @@
     "uri" : "http://hl7.org/fhir/concept-properties#retirementDate",
     "description" : "Date Concept was retired",
     "type" : "dateTime"
+  },
+  {
+    "code" : "finess",
+    "uri" : "http://hl7.org/fhir/concept-properties#finess",
+    "description" : "Permet de définir les codes concepts utilisés par FINESS+",
+    "type" : "boolean"
   }],
   "concept" : [{
     "code" : "001",
@@ -7819,6 +7825,118 @@
     {
       "code" : "status",
       "valueCode" : "active"
+    }]
+  },
+  {
+    "code" : "230",
+    "display" : "Imagerie par Résonance Magnétique",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "IRM"
+    }],
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2025-07-17T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2025-07-17T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    },
+    {
+      "code" : "finess",
+      "valueBoolean" : true
+    }]
+  },
+  {
+    "code" : "231",
+    "display" : "Scanner",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "SCANNER"
+    }],
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2025-07-17T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2025-07-17T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    },
+    {
+      "code" : "finess",
+      "valueBoolean" : true
+    }]
+  },
+  {
+    "code" : "232",
+    "display" : "Tomographie par Émission Monophotonique",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "TEMP"
+    }],
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2025-07-17T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2025-07-17T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    },
+    {
+      "code" : "finess",
+      "valueBoolean" : true
+    }]
+  },
+  {
+    "code" : "233",
+    "display" : "Tomographie par Émission de Positons",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "TEP"
+    }],
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2025-07-17T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2025-07-17T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    },
+    {
+      "code" : "finess",
+      "valueBoolean" : true
     }]
   }]
 }
