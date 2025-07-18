@@ -560,7 +560,7 @@
     },
     {
       "url" : "https://mos.esante.gouv.fr/NOS/TRE_R212-Equipement/FHIR/TRE-R212-Equipement",
-      "version" : "20250623120000",
+      "version" : "20250717120000",
       "status" : "active",
       "name" : "TRE_R212_Equipement",
       "title" : null,
