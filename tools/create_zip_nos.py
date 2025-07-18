@@ -62,7 +62,7 @@ for p in glob.iglob(dir_path_exemple+'*/CodeSystem-tre*.json', recursive=True):
         print(e)
 
 
-for p in glob.iglob(dir_path_exemple+'*/ValueSet-JDV*.json', recursive=True):
+for p in glob.iglob(dir_path_exemple+'*/ValueSet-JDV-J*.json', recursive=True):
     #Creation de l'arborescence
     try :
         if(os.path.isfile(p)):
@@ -74,7 +74,7 @@ for p in glob.iglob(dir_path_exemple+'*/ValueSet-JDV*.json', recursive=True):
         print(e)
 
 
-for p in glob.iglob(dir_path_exemple+'*/ValueSet-jdv*.json', recursive=True):
+for p in glob.iglob(dir_path_exemple+'*/ValueSet-jdv-j*.json', recursive=True):
     #Creation de l'arborescence
     try :
         if(os.path.isfile(p)):
