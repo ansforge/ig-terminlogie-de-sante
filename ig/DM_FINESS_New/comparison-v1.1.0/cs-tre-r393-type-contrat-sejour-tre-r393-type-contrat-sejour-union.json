@@ -1,11 +1,11 @@
 {
   "resourceType" : "CodeSystem",
-  "id" : "4a786e0e-102d-4938-a221-87a4054bdd27-812",
-  "url" : "http://hl7.org/fhir/comparison/CodeSystem/4a786e0e-102d-4938-a221-87a4054bdd27-812",
+  "id" : "a21150dc-0ce2-4c3d-ba9c-5ec6ebbb8c1d-812",
+  "url" : "http://hl7.org/fhir/comparison/CodeSystem/a21150dc-0ce2-4c3d-ba9c-5ec6ebbb8c1d-812",
   "name" : "UnionTreR393TypeContratSejourAndTreR393TypeContratSejour",
   "title" : "Union of Tre R393 Type Contrat Sejour And Tre R393 Type Contrat Sejour",
   "status" : "active",
-  "date" : "2025-07-17T14:32:10+00:00",
+  "date" : "2025-07-18T07:57:59+00:00",
   "jurisdiction" : [{
     "coding" : [{
       "system" : "urn:iso:std:iso:3166",
