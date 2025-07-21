@@ -264,7 +264,7 @@
     "id" : "JDV-J01-XdsAuthorSpecialty-CISIS",
     "type" : "ValueSet",
     "url" : "https://mos.esante.gouv.fr/NOS/JDV_J01-XdsAuthorSpecialty-CISIS/FHIR/JDV-J01-XdsAuthorSpecialty-CISIS",
-    "version" : "20250328120000",
+    "version" : "20250721120000",
     "name" : "JDV_J01_XdsAuthorSpecialty_CISIS",
     "oids" : ["1.2.250.1.213.1.1.5.461"]
   },
@@ -296,7 +296,7 @@
     "id" : "JDV-J05-SubjectRole-CISIS",
     "type" : "ValueSet",
     "url" : "https://mos.esante.gouv.fr/NOS/JDV_J05-SubjectRole-CISIS/FHIR/JDV-J05-SubjectRole-CISIS",
-    "version" : "20250626120000",
+    "version" : "20250721120000",
     "name" : "JDV_J05_SubjectRole_CISIS",
     "oids" : ["1.2.250.1.213.1.1.5.470"]
   },
@@ -4271,7 +4271,7 @@
     "id" : "TRE-R85-RolePriseCharge",
     "type" : "CodeSystem",
     "url" : "https://mos.esante.gouv.fr/NOS/TRE_R85-RolePriseCharge/FHIR/TRE-R85-RolePriseCharge",
-    "version" : "20250328120000",
+    "version" : "20250721120000",
     "name" : "TRE_R85_RolePriseCharge",
     "oids" : ["1.2.250.1.213.1.6.1.107"]
   },
