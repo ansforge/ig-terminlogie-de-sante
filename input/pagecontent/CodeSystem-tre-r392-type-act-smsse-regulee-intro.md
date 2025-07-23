@@ -1,7 +1,7 @@
-# Récupération  de  l'ensemble des types d'activités avec leur propriétés
+### Récupération  de  l'ensemble des types d'activités avec leur propriétés
 La terminologie permet d'accéder aux type d'activité ainsi que leur propriétés 
 
-# Récupération des propriétés pour un type d'activité
+### Récupération des propriétés pour un type d'activité
 Pour récupérer, les propriétés pour un type d'activité, vous pouvez faire une requête de type "***$lookup**".
 Il faut passer en paramètre : 
 - system (URI de la temrinologie) : https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r392-type-act-smsse-regulee
@@ -16,7 +16,7 @@ Vous trouverez ci-dessous un exemple  qui retourne les propiétés suivantes pou
 https://smt.esante.gouv.fr/fhir/CodeSystem/$lookup?system=https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r392-type-act-smsse-regulee&code=14&property=activiteSanitaireRegulee&property=modaliteActivite&property=formeActivite
 ```
 
-# Récupéreration  des codes d'activité correspondant à des propriétés
+### Récupéreration  des codes d'activité correspondant à des propriétés
 Pour récupérer, les type d'activité coorespondant à des propriétés, vous pouvez faire une requête de type "***$expand**".
 Cette requête de type "post" prend en parametre : 
 - l'URI de la terminologie
