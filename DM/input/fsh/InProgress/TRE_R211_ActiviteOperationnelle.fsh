@@ -2524,7 +2524,7 @@ Description: "Activite Operationnelle"
 * #307 ^property[=].valueDateTime = "2018-01-26T12:00:00+01:00"
 * #307 ^property[+].code = #status
 * #307 ^property[=].valueCode = #active
-* #308 "Soutien à la parentalité et accompagnement familial"
+* #308 "Soutien à la parentalité et accompagnement familial" "Ensemble d’actions visant à accompagner les parents dans leur rôle éducatif, affectif et social, en tenant compte des besoins spécifiques de l’enfant et du contexte familial en renforcant les compétences parentales, favorisant les relations parents-enfants, prévenant les difficultés éducatives ou relationnelles, soutenant les familles confrontées à des problématiques spécifiques (handicap, maladie, précarité, troubles du développement, etc.). Cette orientation est étayée par la réalisation de formations continues spécifiques auprès de cette population (appuyées de données probantes) et d’une expérience professionnelle."
 * #308 ^property[0].code = #dateValid
 * #308 ^property[=].valueDateTime = "2018-01-26T12:00:00+01:00"
 * #308 ^property[+].code = #dateMaj
