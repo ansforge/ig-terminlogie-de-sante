@@ -57,8 +57,8 @@ jobs:
         
       # Downloads the newest version of the IG Publisher, this could probable be cached.
       - name: 📥 Download IG Publisher
-        run: wget -q https://github.com/HL7/fhir-ig-publisher/releases/latest/download/publisher.jar 
-     #   run: wget -q https://github.com/HL7/fhir-ig-publisher/releases/download/1.8.10/publisher.jar
+        #run: wget -q https://github.com/HL7/fhir-ig-publisher/releases/latest/download/publisher.jar 
+        run: wget -q https://github.com/HL7/fhir-ig-publisher/releases/download/2.0.9/publisher.jar
 
 
 
