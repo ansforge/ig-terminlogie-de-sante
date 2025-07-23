@@ -39,6 +39,18 @@
     "name" : "Terminologies"
   },
   {
+    "id" : "ADICAP",
+    "type" : "NamingSystem",
+    "url" : "https://interop.esante.gouv.fr/terminologies/NamingSystem/ADICAP",
+    "name" : "ADICAP"
+  },
+  {
+    "id" : "PCS",
+    "type" : "NamingSystem",
+    "url" : "https://interop.esante.gouv.fr/terminologies/NamingSystem/PCS",
+    "name" : "PCS"
+  },
+  {
     "id" : "Snomed-CT-core",
     "type" : "NamingSystem",
     "url" : "https://interop.esante.gouv.fr/terminologies/NamingSystem/Snomed-CT-core",
@@ -792,7 +804,7 @@
     "id" : "JDV-J154-TypeGlucose-ENS",
     "type" : "ValueSet",
     "url" : "https://mos.esante.gouv.fr/NOS/JDV_J154-TypeGlucose-ENS/FHIR/JDV-J154-TypeGlucose-ENS",
-    "version" : "20250425120000",
+    "version" : "20250723120000",
     "name" : "JDV_J154_TypeGlucose_ENS",
     "oids" : ["1.2.250.1.213.1.1.5.609"]
   },
@@ -920,7 +932,7 @@
     "id" : "JDV-J17-ActiviteOperationnelle-ROR",
     "type" : "ValueSet",
     "url" : "https://mos.esante.gouv.fr/NOS/JDV_J17-ActiviteOperationnelle-ROR/FHIR/JDV-J17-ActiviteOperationnelle-ROR",
-    "version" : "20250620120000",
+    "version" : "20250723120000",
     "name" : "JDV_J17_ActiviteOperationnelle_ROR",
     "oids" : ["1.2.250.1.213.3.4.5"]
   },
@@ -1848,7 +1860,7 @@
     "id" : "JDV-J34-CategorieOrganisation-ROR",
     "type" : "ValueSet",
     "url" : "https://mos.esante.gouv.fr/NOS/JDV_J34-CategorieOrganisation-ROR/FHIR/JDV-J34-CategorieOrganisation-ROR",
-    "version" : "20250710120000",
+    "version" : "20250723120000",
     "name" : "JDV_J34_CategorieOrganisation_ROR",
     "oids" : ["1.2.250.1.213.3.3.40"]
   },
@@ -2800,7 +2812,7 @@
     "id" : "TRE-R210-ActeSpecifique",
     "type" : "CodeSystem",
     "url" : "https://mos.esante.gouv.fr/NOS/TRE_R210-ActeSpecifique/FHIR/TRE-R210-ActeSpecifique",
-    "version" : "20250623120000",
+    "version" : "20250723120000",
     "name" : "TRE_R210_ActeSpecifique",
     "oids" : ["1.2.250.1.213.3.3.11"]
   },
@@ -2808,7 +2820,7 @@
     "id" : "TRE-R211-ActiviteOperationnelle",
     "type" : "CodeSystem",
     "url" : "https://mos.esante.gouv.fr/NOS/TRE_R211-ActiviteOperationnelle/FHIR/TRE-R211-ActiviteOperationnelle",
-    "version" : "20250623120000",
+    "version" : "20250723120000",
     "name" : "TRE_R211_ActiviteOperationnelle",
     "oids" : ["1.2.250.1.213.3.3.12"]
   },
