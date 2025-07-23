@@ -9,10 +9,10 @@ Description: "Action menée par un ou plusieurs acteur(s) de santé dans le cadr
 * ^url = "https://mos.esante.gouv.fr/NOS/TRE_R210-ActeSpecifique/FHIR/TRE-R210-ActeSpecifique"
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value = "urn:oid:1.2.250.1.213.3.3.11"
-* ^version = "20250623120000"
+* ^version = "20250723120000"
 * ^status = #active
 * ^experimental = false
-* ^date = "2025-06-23T12:00:00+01:00"
+* ^date = "2025-07-23T12:00:00+01:00"
 * ^publisher = "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris"
 * ^caseSensitive = false
 * ^content = #complete
@@ -7039,7 +7039,7 @@ Description: "Action menée par un ou plusieurs acteur(s) de santé dans le cadr
 * #0542 ^property[=].valueDateTime = "2017-07-07T10:00:00+01:00"
 * #0542 ^property[+].code = #status
 * #0542 ^property[=].valueCode = #active
-* #0543 "Thérapie de groupe ou atelier à médiation animale"
+* #0543 "Thérapie de groupe ou atelier à médiation animale" "Consiste à utiliser la présence d'animaux dans un cadre thérapeutique pour favoriser le bien-être et la santé des participants. Cette pratique, encadrée par des professionnels formés, vise à améliorer les interactions sociales, réduire le stress, et stimuler les capacités cognitives et émotionnelles des personnes"
 * #0543 ^designation[0].language = #fr-FR
 * #0543 ^designation[=].use.system = "http://snomed.info/sct"
 * #0543 ^designation[=].use = $sct#900000000000013009
@@ -7047,7 +7047,7 @@ Description: "Action menée par un ou plusieurs acteur(s) de santé dans le cadr
 * #0543 ^property[0].code = #dateValid
 * #0543 ^property[=].valueDateTime = "2016-11-02T00:00:00+01:00"
 * #0543 ^property[+].code = #dateMaj
-* #0543 ^property[=].valueDateTime = "2017-07-07T10:00:00+01:00"
+* #0543 ^property[=].valueDateTime = "2025-07-23T10:00:00+01:00"
 * #0543 ^property[+].code = #status
 * #0543 ^property[=].valueCode = #active
 * #0544 "Thérapie de groupe ou atelier à médiation artistique musicale"
@@ -9315,7 +9315,7 @@ Description: "Action menée par un ou plusieurs acteur(s) de santé dans le cadr
 * #0722 ^property[=].valueDateTime = "2018-06-29T12:00:00+01:00"
 * #0722 ^property[+].code = #status
 * #0722 ^property[=].valueCode = #active
-* #0723 "Accompagnement à l'insertion ou la réinsertion professionnelle"
+* #0723 "Accompagnement à l'insertion ou la réinsertion professionnelle" "Ensemble des actions visant à soutenir les personnes en situation de handicap, de maladie ou de vulnérabilité sociale dans leur accès, maintien ou retour à l’emploi. Cet accompagnement inclut l’évaluation des compétences, l’orientation professionnelle, la formation, l’adaptation des postes de travail et la coordination avec les acteurs médico-sociaux, afin de favoriser une intégration professionnelle durable et adaptée aux capacités de la personne"
 * #0723 ^designation[0].language = #fr-FR
 * #0723 ^designation[=].use.system = "http://snomed.info/sct"
 * #0723 ^designation[=].use = $sct#900000000000013009
@@ -9323,7 +9323,7 @@ Description: "Action menée par un ou plusieurs acteur(s) de santé dans le cadr
 * #0723 ^property[0].code = #dateValid
 * #0723 ^property[=].valueDateTime = "2018-01-26T12:00:00+01:00"
 * #0723 ^property[+].code = #dateMaj
-* #0723 ^property[=].valueDateTime = "2025-03-28T12:00:00+01:00"
+* #0723 ^property[=].valueDateTime = "2025-07-23T12:00:00+01:00"
 * #0723 ^property[+].code = #status
 * #0723 ^property[=].valueCode = #active
 * #0724 "Soins des plaies et pansements complexes ou longs (durée supérieure à 1h)"
@@ -9378,7 +9378,7 @@ Description: "Action menée par un ou plusieurs acteur(s) de santé dans le cadr
 * #0727 ^property[=].valueDateTime = "2018-10-26T12:00:00+01:00"
 * #0727 ^property[+].code = #status
 * #0727 ^property[=].valueCode = #deprecated
-* #0728 "Apprentissage des techniques d'aide à la mobilité pour personne déf. visuelle"
+* #0728 "Apprentissage des techniques d'aide à la mobilité pour personne déf. visuelle" "Consiste à enseigner l'utilisation d'outils et de méthodes pour améliorer l'autonomie et la sécurité des déplacements. Cela inclut l'utilisation de la canne longue, de la canne de signalement, des chiens-guides, et des dispositifs GPS adaptés. Cet apprentissage est encadré et vise à compenser les limitations visuelles pour favoriser l'intégration sociale et la mobilité indépendante. Cette orientation est étayée par la réalisation de formations continues spécifiques auprès de cette population (appuyées de données probantes) et d’une expérience professionnelle"
 * #0728 ^designation[0].language = #fr-FR
 * #0728 ^designation[=].use.system = "http://snomed.info/sct"
 * #0728 ^designation[=].use = $sct#900000000000013009
@@ -9390,7 +9390,7 @@ Description: "Action menée par un ou plusieurs acteur(s) de santé dans le cadr
 * #0728 ^property[0].code = #dateValid
 * #0728 ^property[=].valueDateTime = "2018-01-26T12:00:00+01:00"
 * #0728 ^property[+].code = #dateMaj
-* #0728 ^property[=].valueDateTime = "2018-01-26T12:00:00+01:00"
+* #0728 ^property[=].valueDateTime = "2025-07-23T12:00:00+01:00"
 * #0728 ^property[+].code = #status
 * #0728 ^property[=].valueCode = #active
 * #0729 "Mesure du volume vésical par échographe portable (Bladder-scan)"
@@ -9913,7 +9913,7 @@ Description: "Action menée par un ou plusieurs acteur(s) de santé dans le cadr
 * #0772 ^property[=].valueDateTime = "2018-10-26T12:00:00+01:00"
 * #0772 ^property[+].code = #status
 * #0772 ^property[=].valueCode = #deprecated
-* #0773 "Accompagnement logico-mathématique"
+* #0773 "Accompagnement logico-mathématique" "Soutien apporté aux personnes, notamment aux enfants, présentant des troubles du raisonnement logico-mathématique, tels que la dyscalculie. Cet accompagnement vise à développer les compétences nécessaires à l'apprentissage des mathématiques et à améliorer la logique générale. Cette orientation est étayée par la réalisation de formations continues spécifiques auprès de cette population (appuyées de données probantes) et d’une expérience professionnelle."
 * #0773 ^designation[0].language = #fr-FR
 * #0773 ^designation[=].use.system = "http://snomed.info/sct"
 * #0773 ^designation[=].use = $sct#900000000000013009
@@ -9921,7 +9921,7 @@ Description: "Action menée par un ou plusieurs acteur(s) de santé dans le cadr
 * #0773 ^property[0].code = #dateValid
 * #0773 ^property[=].valueDateTime = "2018-03-30T12:00:00+01:00"
 * #0773 ^property[+].code = #dateMaj
-* #0773 ^property[=].valueDateTime = "2018-03-30T12:00:00+01:00"
+* #0773 ^property[=].valueDateTime = "2025-07-23T12:00:00+01:00"
 * #0773 ^property[+].code = #status
 * #0773 ^property[=].valueCode = #active
 * #0774 "Atelier de stimulation cognitive dont atelier mémoire"
@@ -9972,7 +9972,7 @@ Description: "Action menée par un ou plusieurs acteur(s) de santé dans le cadr
 * #0777 ^property[=].valueDateTime = "2018-12-14T12:00:00+01:00"
 * #0777 ^property[+].code = #status
 * #0777 ^property[=].valueCode = #active
-* #0778 "Evaluation du logement"
+* #0778 "Evaluation du logement" "Consiste à examiner les conditions de vie d'une personne en situation de handicap ou de vulnérabilité afin de déterminer les aménagements nécessaires pour garantir sa sécurité, son autonomie et son confort. Cette évaluation est réalisée par des professionnels, et prend en compte les besoins spécifiques de la personne."
 * #0778 ^designation[0].language = #fr-FR
 * #0778 ^designation[=].use.system = "http://snomed.info/sct"
 * #0778 ^designation[=].use = $sct#900000000000013009
@@ -9980,10 +9980,10 @@ Description: "Action menée par un ou plusieurs acteur(s) de santé dans le cadr
 * #0778 ^property[0].code = #dateValid
 * #0778 ^property[=].valueDateTime = "2018-03-30T12:00:00+01:00"
 * #0778 ^property[+].code = #dateMaj
-* #0778 ^property[=].valueDateTime = "2018-03-30T12:00:00+01:00"
+* #0778 ^property[=].valueDateTime = "2025-07-23T12:00:00+01:00"
 * #0778 ^property[+].code = #status
 * #0778 ^property[=].valueCode = #active
-* #0779 "Suivi de l'adaptation du logement"
+* #0779 "Suivi de l'adaptation du logement" "Consiste à vérifier régulièrement les aménagements réalisés dans le logement d'une personne en situation de handicap ou de perte d'autonomie, afin de s'assurer qu'ils répondent toujours à ses besoins."
 * #0779 ^designation[0].language = #fr-FR
 * #0779 ^designation[=].use.system = "http://snomed.info/sct"
 * #0779 ^designation[=].use = $sct#900000000000013009
@@ -9991,7 +9991,7 @@ Description: "Action menée par un ou plusieurs acteur(s) de santé dans le cadr
 * #0779 ^property[0].code = #dateValid
 * #0779 ^property[=].valueDateTime = "2018-03-30T12:00:00+01:00"
 * #0779 ^property[+].code = #dateMaj
-* #0779 ^property[=].valueDateTime = "2018-03-30T12:00:00+01:00"
+* #0779 ^property[=].valueDateTime = "2025-07-23T12:00:00+01:00"
 * #0779 ^property[+].code = #status
 * #0779 ^property[=].valueCode = #active
 * #0780 "Accompagnement à l'utilisation des équipements (dont domotique)"
@@ -10123,7 +10123,7 @@ Description: "Action menée par un ou plusieurs acteur(s) de santé dans le cadr
 * #0790 ^property[=].valueDateTime = "2019-03-29T12:00:00+01:00"
 * #0790 ^property[+].code = #status
 * #0790 ^property[=].valueCode = #deprecated
-* #0791 "Adaptation du poste de travail en milieu ordinaire"
+* #0791 "Adaptation du poste de travail en milieu ordinaire" "Aménagement et ajustement des conditions de travail d'un salarié en situation de handicap pour maintenir son emploi dans de bonnes conditions. Cela peut inclure des ajustements de la charge de travail, des horaires, des outils ou de l'environnement de travail. Cette adaptation est encadrée par le Code du travail et les recommandations du médecin du travail"
 * #0791 ^designation[0].language = #fr-FR
 * #0791 ^designation[=].use.system = "http://snomed.info/sct"
 * #0791 ^designation[=].use = $sct#900000000000013009
@@ -10131,7 +10131,7 @@ Description: "Action menée par un ou plusieurs acteur(s) de santé dans le cadr
 * #0791 ^property[0].code = #dateValid
 * #0791 ^property[=].valueDateTime = "2018-03-30T12:00:00+01:00"
 * #0791 ^property[+].code = #dateMaj
-* #0791 ^property[=].valueDateTime = "2018-03-30T12:00:00+01:00"
+* #0791 ^property[=].valueDateTime = "2025-07-23T12:00:00+01:00"
 * #0791 ^property[+].code = #status
 * #0791 ^property[=].valueCode = #active
 * #0792 "Activité professionnelle - Conditionnement, emballage, montage"
@@ -10524,7 +10524,7 @@ Description: "Action menée par un ou plusieurs acteur(s) de santé dans le cadr
 * #0825 ^property[=].valueDateTime = "2018-06-29T12:00:00+01:00"
 * #0825 ^property[+].code = #status
 * #0825 ^property[=].valueCode = #active
-* #0826 "Evaluation pluri-professionnelle post-Accident Vasculaire Cérébral (AVC)"
+* #0826 "Evaluation pluri-professionnelle post-Accident Vasculaire Cérébral (AVC)" "Consiste à réaliser une évaluation globale des besoins médicaux, fonctionnels et sociaux des personnes ayant subi un AVC. Cette évaluation est effectuée par une équipe de professionnels de santé et vise à adapter la prise en charge et le suivi des patients pour prévenir les complications et favoriser la réinsertion. Elle doit être réalisée dans les six mois suivant l'accident, et au plus tard dans l'année"
 * #0826 ^designation[0].language = #fr-FR
 * #0826 ^designation[=].use.system = "http://snomed.info/sct"
 * #0826 ^designation[=].use = $sct#900000000000013009
@@ -10532,7 +10532,7 @@ Description: "Action menée par un ou plusieurs acteur(s) de santé dans le cadr
 * #0826 ^property[0].code = #dateValid
 * #0826 ^property[=].valueDateTime = "2018-06-29T12:00:00+01:00"
 * #0826 ^property[+].code = #dateMaj
-* #0826 ^property[=].valueDateTime = "2018-06-29T12:00:00+01:00"
+* #0826 ^property[=].valueDateTime = "2025-07-23T12:00:00+01:00"
 * #0826 ^property[+].code = #status
 * #0826 ^property[=].valueCode = #active
 * #0827 "Analyse instrumentale de la marche" "Analyse simultanée des paramètres temporo-spatiaux, électromyographiques, cinématiques et cinétiques du pas, de la marche ou de la course."
@@ -12350,7 +12350,7 @@ Description: "Action menée par un ou plusieurs acteur(s) de santé dans le cadr
 * #0975 ^property[=].valueDateTime = "2020-01-31T12:00:00+01:00"
 * #0975 ^property[+].code = #status
 * #0975 ^property[=].valueCode = #active
-* #0976 "Evaluation des besoins d'adaptation du véhicule"
+* #0976 "Evaluation des besoins d'adaptation du véhicule" "Consiste à identifier et à recommander les modifications nécessaires pour permettre à une personne en situation de handicap de conduire ou d'utiliser un véhicule en toute sécurité. Cette évaluation est réalisée par des professionnels, et prend en compte les capacités et les limitations de la personne"
 * #0976 ^designation[0].language = #fr-FR
 * #0976 ^designation[=].use.system = "http://snomed.info/sct"
 * #0976 ^designation[=].use = $sct#900000000000013009
@@ -12358,7 +12358,7 @@ Description: "Action menée par un ou plusieurs acteur(s) de santé dans le cadr
 * #0976 ^property[0].code = #dateValid
 * #0976 ^property[=].valueDateTime = "2020-06-26T12:00:00+01:00"
 * #0976 ^property[+].code = #dateMaj
-* #0976 ^property[=].valueDateTime = "2020-06-26T12:00:00+01:00"
+* #0976 ^property[=].valueDateTime = "2025-07-23T12:00:00+01:00"
 * #0976 ^property[+].code = #status
 * #0976 ^property[=].valueCode = #active
 * #0977 "Prise en charge de la lombalgie (protocole de coopération)"
@@ -15803,11 +15803,11 @@ Description: "Action menée par un ou plusieurs acteur(s) de santé dans le cadr
 * #1433 ^property[=].valueDateTime = "2024-06-28T12:00:00+01:00"
 * #1433 ^property[+].code = #status
 * #1433 ^property[=].valueCode = #active
-* #1434 "Guidance parentale (psychoéducation)"
+* #1434 "Guidance parentale (psychoéducation)" "Désigne l'accompagnement et le soutien apportés aux parents pour les aider à mieux comprendre et gérer les besoins de leurs enfants, notamment en cas de difficultés éducatives ou de troubles du comportement. Cet accompagnement vise à renforcer les compétences parentales et à favoriser un environnement familial sain et sécurisant"
 * #1434 ^property[0].code = #dateValid
 * #1434 ^property[=].valueDateTime = "2024-06-28T12:00:00+01:00"
 * #1434 ^property[+].code = #dateMaj
-* #1434 ^property[=].valueDateTime = "2024-06-28T12:00:00+01:00"
+* #1434 ^property[=].valueDateTime = "2025-07-23T12:00:00+01:00"
 * #1434 ^property[+].code = #status
 * #1434 ^property[=].valueCode = #active
 * #1435 "Index de pression systolique (IPS)"
@@ -16285,109 +16285,109 @@ Description: "Action menée par un ou plusieurs acteur(s) de santé dans le cadr
 * #1495 ^property[=].valueDateTime = "2025-01-31T12:00:00+01:00"
 * #1495 ^property[+].code = #status
 * #1495 ^property[=].valueCode = #active
-* #1496 "Accompagnement des troubles de l'écriture"
+* #1496 "Accompagnement des troubles de l'écriture" "Consiste à évaluer, soutenir et développer les compétences graphomotrices des personnes en difficulté, afin de favoriser leur autonomie, leur inclusion scolaire, sociale et professionnelle. Cet accompagnement comprend la mise en place de stratégies compensatoires, l’adaptation de l’environnement et des outils (dont numériques), ainsi que des interventions de rééducation et de réadaptation personnalisées.Cette orientation est étayée par la réalisation de formations continues spécifiques auprès de cette population (appuyées de données probantes) et d’une expérience professionnelle"
 * #1496 ^property[0].code = #dateValid
 * #1496 ^property[=].valueDateTime = "2025-03-28T12:00:00+01:00"
 * #1496 ^property[+].code = #dateMaj
-* #1496 ^property[=].valueDateTime = "2025-03-28T12:00:00+01:00"
+* #1496 ^property[=].valueDateTime = "2025-07-23T12:00:00+01:00"
 * #1496 ^property[+].code = #status
 * #1496 ^property[=].valueCode = #active
-* #1497 "Accompagnement ergothérapique à l'accès aux nouvelles technologies"
+* #1497 "Accompagnement ergothérapique à l'accès aux nouvelles technologies" "L'accès à des nouvelles technologies, telles que l’impression 3D et/ou la robotique et/ou le gaming, nécessitent l’acquisition de compétences spécifiques en ergothérapie sur ces technologies en particulier, étayée par l’analyse ergothérapeutique spécifique : interaction personne-environnement-activité."
 * #1497 ^property[0].code = #dateValid
 * #1497 ^property[=].valueDateTime = "2025-03-28T12:00:00+01:00"
 * #1497 ^property[+].code = #dateMaj
-* #1497 ^property[=].valueDateTime = "2025-03-28T12:00:00+01:00"
+* #1497 ^property[=].valueDateTime = "2025-07-23T12:00:00+01:00"
 * #1497 ^property[+].code = #status
 * #1497 ^property[=].valueCode = #active
-* #1498 "Accompagnement ergothérapique auprès des proches aidants (proches et professionnels) : apprentissage de techniques d'accompagnement"
+* #1498 "Accompagnement ergothérapique auprès des proches aidants (proches et professionnels) : apprentissage de techniques d'accompagnement" "Apprentissage de techniques d’accompagnement ergothérapique qui vise à améliorer la compréhension de l’impact de la pathologie dans le quotidien et à mettre en place des stratégies d’adaptation visant l’amélioration de la qualité de vie et la participation.  Cet accompagnement inclut l’évaluation des compétences, l’orientation professionnelle, la formation, l’adaptation des postes de travail et la coordination avec les acteurs médico-sociaux, afin de favoriser une intégration professionnelle durable et adaptée aux capacités de la personne.Cette orientation est étayée par la réalisation de formations continues spécifiques auprès de cette population (appuyées de données probantes) et d’une expérience professionnelle"
 * #1498 ^property[0].code = #dateValid
 * #1498 ^property[=].valueDateTime = "2025-03-28T12:00:00+01:00"
 * #1498 ^property[+].code = #dateMaj
-* #1498 ^property[=].valueDateTime = "2025-03-28T12:00:00+01:00"
+* #1498 ^property[=].valueDateTime = "2025-07-23T12:00:00+01:00"
 * #1498 ^property[+].code = #status
 * #1498 ^property[=].valueCode = #active
-* #1499 "Accompagnement ergothérapique dans le cadre de déficiences visuelles"
+* #1499 "Accompagnement ergothérapique dans le cadre de déficiences visuelles" "Intervention de l’ergothérapeute qui vise à optimiser l’autonomie et la participation des personnes atteintes de déficience visuelle. Cela inclut l’évaluation des capacités résiduelles, l’adaptation de l’environnement, l’apprentissage de stratégies compensatoires, et la préconisation d’aides techniques pour faciliter les activités quotidiennes, professionnelles et sociales en toute sécurité. Cette orientation est étayée par la réalisation de formations continues spécifiques auprès de cette population (appuyées de données probantes) et d’une expérience professionnelle"
 * #1499 ^property[0].code = #dateValid
 * #1499 ^property[=].valueDateTime = "2025-03-28T12:00:00+01:00"
 * #1499 ^property[+].code = #dateMaj
-* #1499 ^property[=].valueDateTime = "2025-03-28T12:00:00+01:00"
+* #1499 ^property[=].valueDateTime = "2025-07-23T12:00:00+01:00"
 * #1499 ^property[+].code = #status
 * #1499 ^property[=].valueCode = #active
-* #1500 "Accompagnement ergothérapique dans le cadre de maladies neuro-évolutives (SLA, SEP, Parkinson, Alzheimer, PNM)"
+* #1500 "Accompagnement ergothérapique dans le cadre de maladies neuro-évolutives (SLA, SEP, Parkinson, Alzheimer, PNM)" "Accompagnement ergothérapeutique qui vise à maintenir l’autonomie et la qualité de vie des patients en adaptant leur environnement, en proposant des aides techniques et en compensant les déficits fonctionnels. Cet accompagnement inclut l’évaluation des compétences, l’orientation professionnelle, la formation, l’adaptation des postes de travail et la coordination avec les acteurs médico-sociaux, afin de favoriser une intégration professionnelle durable et adaptée aux capacités de la personne."
 * #1500 ^property[0].code = #dateValid
 * #1500 ^property[=].valueDateTime = "2025-03-28T12:00:00+01:00"
 * #1500 ^property[+].code = #dateMaj
-* #1500 ^property[=].valueDateTime = "2025-03-28T12:00:00+01:00"
+* #1500 ^property[=].valueDateTime = "2025-07-23T12:00:00+01:00"
 * #1500 ^property[+].code = #status
 * #1500 ^property[=].valueCode = #active
-* #1501 "Accompagnement ergothérapique dans le cadre de particularités sensorielles (TND)"
+* #1501 "Accompagnement ergothérapique dans le cadre de particularités sensorielles (TND)" "Intervention de l’ergothérapeute visant à évaluer, adapter et optimiser l’environnement et les activités des personnes présentant des troubles neurodéveloppementaux (TND) avec des particularités sensorielles (désigne une façon atypique de percevoir, traiter et réagir aux stimuli sensoriels (bruits, lumières, textures, odeurs, mouvements, etc.).)  Cet accompagnement vise à favoriser l’autonomie, la participation sociale et le bien-être en proposant des stratégies de compensation, des aménagements spécifiques et un travail sur la régulation sensorielle. Cette orientation est étayée par la réalisation de formations continues spécifiques auprès de cette population (appuyées de données probantes) et d’une expérience professionnelle"
 * #1501 ^property[0].code = #dateValid
 * #1501 ^property[=].valueDateTime = "2025-03-28T12:00:00+01:00"
 * #1501 ^property[+].code = #dateMaj
-* #1501 ^property[=].valueDateTime = "2025-03-28T12:00:00+01:00"
+* #1501 ^property[=].valueDateTime = "2025-07-23T12:00:00+01:00"
 * #1501 ^property[+].code = #status
 * #1501 ^property[=].valueCode = #active
-* #1502 "Accompagnement ergothérapique dans le cadre de pathologies neurologiques (AVC, TCE)"
+* #1502 "Accompagnement ergothérapique dans le cadre de pathologies neurologiques (AVC, TCE)" "Intervention de l’ergothérapeute visant à restaurer l’autonomie et la qualité de vie des patients atteints d’affections neurologiques (AVC, traumatisme crânien). Il évalue les déficits moteurs, cognitifs et sensoriels, met en place des stratégies de compensation, adapte l’environnement et préconise des aides techniques pour optimiser la réadaptation et la réinsertion sociale et professionnelle.Cette orientation est étayée par la réalisation de formations continues spécifiques auprès de cette population (appuyées de données probantes) et d’une expérience professionnelle"
 * #1502 ^property[0].code = #dateValid
 * #1502 ^property[=].valueDateTime = "2025-03-28T12:00:00+01:00"
 * #1502 ^property[+].code = #dateMaj
-* #1502 ^property[=].valueDateTime = "2025-03-28T12:00:00+01:00"
+* #1502 ^property[=].valueDateTime = "2025-07-23T12:00:00+01:00"
 * #1502 ^property[+].code = #status
 * #1502 ^property[=].valueCode = #active
-* #1503 "Accompagnement ergothérapique de rééducation/réadaptation en situation de vie quotidienne post-hospitalisation (RAD)"
+* #1503 "Accompagnement ergothérapique de rééducation/réadaptation en situation de vie quotidienne post-hospitalisation (RAD)" "Intervention d’un ergothérapeute visant à favoriser l’autonomie et la sécurité du patient dans ses activités quotidiennes après une hospitalisation. Il inclut l’évaluation des capacités et besoins, l’adaptation de l’environnement, la rééducation fonctionnelle et l’apprentissage de stratégies compensatoires, en concertation avec l’entourage et les professionnels de santé.Cette orientation est étayée par la réalisation de formations continues spécifiques auprès de cette population (appuyées de données probantes) et d’une expérience professionnelle"
 * #1503 ^property[0].code = #dateValid
 * #1503 ^property[=].valueDateTime = "2025-03-28T12:00:00+01:00"
 * #1503 ^property[+].code = #dateMaj
-* #1503 ^property[=].valueDateTime = "2025-03-28T12:00:00+01:00"
+* #1503 ^property[=].valueDateTime = "2025-07-23T12:00:00+01:00"
 * #1503 ^property[+].code = #status
 * #1503 ^property[=].valueCode = #active
-* #1504 "Accompagnement ergothérapique des troubles alimentaires"
+* #1504 "Accompagnement ergothérapique des troubles alimentaires" "Intervention ergothérapeutique qui consiste à évaluer et adapter l’environnement, les postures, les gestes et les outils liés à l’alimentation afin de favoriser une prise des repas sécurisée, autonome et adaptée aux capacités sensori-motrices et cognitives du patient. Cette orientation est étayée par la réalisation de formations continues spécifiques auprès de cette population (appuyées de données probantes) et d’une expérience professionnelle"
 * #1504 ^property[0].code = #dateValid
 * #1504 ^property[=].valueDateTime = "2025-03-28T12:00:00+01:00"
 * #1504 ^property[+].code = #dateMaj
-* #1504 ^property[=].valueDateTime = "2025-03-28T12:00:00+01:00"
+* #1504 ^property[=].valueDateTime = "2025-07-23T12:00:00+01:00"
 * #1504 ^property[+].code = #status
 * #1504 ^property[=].valueCode = #active
-* #1505 "Accompagnement ergothérapique pour la prévention de la chute et ses conséquences : désadaptation psychomotrice"
+* #1505 "Accompagnement ergothérapique pour la prévention de la chute et ses conséquences : désadaptation psychomotrice" "Dans le cadre de la prévention secondaire ou tertiaire des chutes, le facteur “peur de chuter” est systématiquement pris en compte par l’ergothérapeute. L’accompagnement ergothérapique de la Désadaptation PsychoMotrice (DPM) inclue les dimensions psychologiques (dont la peur) ; motrices et posturales. Cet accompagnement vise la prévention des risques de perte d’autonomie, les risques de grabatisation et les risques de l’alitement prolongé (risques d’escarres, prévention des déformations par le positionnement au lit, etc)."
 * #1505 ^property[0].code = #dateValid
 * #1505 ^property[=].valueDateTime = "2025-03-28T12:00:00+01:00"
 * #1505 ^property[+].code = #dateMaj
-* #1505 ^property[=].valueDateTime = "2025-03-28T12:00:00+01:00"
+* #1505 ^property[=].valueDateTime = "2025-07-23T12:00:00+01:00"
 * #1505 ^property[+].code = #status
 * #1505 ^property[=].valueCode = #active
-* #1506 "Evaluation et accompagnement à la mise en place de communication augmentative-alternative"
+* #1506 "Evaluation et accompagnement à la mise en place de communication augmentative-alternative" "Consiste à identifier les besoins de communication des personnes ayant des troubles de la communication et à mettre en place des outils et stratégies adaptés pour améliorer leur capacité à interagir. Cela inclut l'utilisation de supports visuels, de technologies d'assistance, et de méthodes gestuelles ou symboliques. Cette démarche est encadrée par des professionnels, et vise à favoriser l'autonomie et la participation sociale des personnes concernées"
 * #1506 ^property[0].code = #dateValid
 * #1506 ^property[=].valueDateTime = "2025-03-28T12:00:00+01:00"
 * #1506 ^property[+].code = #dateMaj
-* #1506 ^property[=].valueDateTime = "2025-03-28T12:00:00+01:00"
+* #1506 ^property[=].valueDateTime = "2025-07-23T12:00:00+01:00"
 * #1506 ^property[+].code = #status
 * #1506 ^property[=].valueCode = #active
-* #1507 "Programme de prévention primaire ergothérapique « Bien vieillir » (TaPasS)"
+* #1507 "Programme de prévention primaire ergothérapique « Bien vieillir » (TaPasS)" "Initiative visant à optimiser la participation sociale et la qualité de vie des personnes âgées vivant à domicile. Inspiré du modèle américain Lifestyle Redesign®, ce programme propose des activités significatives et des stratégies pour surmonter les obstacles liés au vieillissement. Il est coordonné par des ergothérapeutes et se déroule sur une période de 6 à 9 mois, avec des séances de groupe hebdomadaires et des séances individuelles mensuelles"
 * #1507 ^property[0].code = #dateValid
 * #1507 ^property[=].valueDateTime = "2025-03-28T12:00:00+01:00"
 * #1507 ^property[+].code = #dateMaj
-* #1507 ^property[=].valueDateTime = "2025-03-28T12:00:00+01:00"
+* #1507 ^property[=].valueDateTime = "2025-07-23T12:00:00+01:00"
 * #1507 ^property[+].code = #status
 * #1507 ^property[=].valueCode = #active
-* #1508 "Accompagnement ergothérapique en milieu scolaire"
+* #1508 "Accompagnement ergothérapique en milieu scolaire" "Interventions adaptées aux élèves en situation de handicap pour améliorer leur participation aux activités scolaires et leur autonomie. Les ergothérapeutes évaluent les besoins des élèves, proposent des aménagements de l'environnement scolaire et des stratégies pour faciliter l'apprentissage.Cette orientation est étayée par la réalisation de formations continues spécifiques auprès de cette population (appuyées de données probantes) et d’une expérience professionnelle"
 * #1508 ^property[0].code = #dateValid
 * #1508 ^property[=].valueDateTime = "2025-03-28T12:00:00+01:00"
 * #1508 ^property[+].code = #dateMaj
-* #1508 ^property[=].valueDateTime = "2025-03-28T12:00:00+01:00"
+* #1508 ^property[=].valueDateTime = "2025-07-23T12:00:00+01:00"
 * #1508 ^property[+].code = #status
 * #1508 ^property[=].valueCode = #active
-* #1509 "Accompagnement ergothérapique en réhabilitation psycho-sociale"
+* #1509 "Accompagnement ergothérapique en réhabilitation psycho-sociale" "Consiste à mettre en œuvre des interventions visant à améliorer l'autonomie, l'intégration sociale et la qualité de vie des personnes ayant des troubles psychiques. Les ergothérapeutes évaluent les capacités et les besoins des patients, et proposent des activités thérapeutiques adaptées pour favoriser leur réinsertion sociale et professionnelle. Cette orientation est étayée par la réalisation de formations continues spécifiques auprès de cette population (appuyées de données probantes) et d’une expérience professionnelle"
 * #1509 ^property[0].code = #dateValid
 * #1509 ^property[=].valueDateTime = "2025-03-28T12:00:00+01:00"
 * #1509 ^property[+].code = #dateMaj
-* #1509 ^property[=].valueDateTime = "2025-03-28T12:00:00+01:00"
+* #1509 ^property[=].valueDateTime = "2025-07-23T12:00:00+01:00"
 * #1509 ^property[+].code = #status
 * #1509 ^property[=].valueCode = #active
-* #1510 "Evaluation et accompagnement ergothérapique au positionnement au fauteuil roulant (MCPAA) et positionnement au lit"
+* #1510 "Evaluation et accompagnement ergothérapique au positionnement au fauteuil roulant (MCPAA) et positionnement au lit" "Consiste à analyser et ajuster la posture des personnes en situation de handicap pour prévenir les complications liées à une mauvaise position. Cela inclut l'utilisation de fauteuils roulants adaptés et de dispositifs de positionnement au lit pour assurer confort, sécurité et autonomie. Cette démarche est réalisée par des ergothérapeutes et est encadrée par des recommandations professionnelles. Le positionnement au fauteuil roulant au travers de la MCPAA nécessite l’acquisition de compétences spécifiques en ergothérapie par des formations complémentaires, cela est également valable concernant le positionnement au lit à visée préventive (douleurs, inconfort, risque de déformation, risques d’escarres)"
 * #1510 ^property[0].code = #dateValid
 * #1510 ^property[=].valueDateTime = "2025-03-28T12:00:00+01:00"
 * #1510 ^property[+].code = #dateMaj
-* #1510 ^property[=].valueDateTime = "2025-03-28T12:00:00+01:00"
+* #1510 ^property[=].valueDateTime = "2025-07-23T12:00:00+01:00"
 * #1510 ^property[+].code = #status
 * #1510 ^property[=].valueCode = #active
 * #1511 "Accompagnement précoce des déficiences"
