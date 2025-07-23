@@ -1,0 +1,22 @@
+ValueSet: JDV_J154_TypeGlucose_ENS
+Id: JDV-J154-TypeGlucose-ENS
+Description: "JDV pour caractériser le type de glucose"
+* ^meta.versionId = "9"
+* ^meta.lastUpdated = "2025-07-02T17:05:12.965+00:00"
+* ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablevalueset"
+* ^language = #fr-FR
+* ^extension.url = "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod"
+* ^extension.valuePeriod.start = "2021-04-30T12:00:00+01:00"
+* ^url = "https://mos.esante.gouv.fr/NOS/JDV_J154-TypeGlucose-ENS/FHIR/JDV-J154-TypeGlucose-ENS"
+* ^identifier.system = "urn:ietf:rfc:3986"
+* ^identifier.value = "urn:oid:1.2.250.1.213.1.1.5.609"
+* ^version = "20250723120000"
+* ^status = #active
+* ^experimental = false
+* ^date = "2025-07-23T12:00:00+01:00"
+* ^publisher = "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris"
+* ^jurisdiction = urn:iso:std:iso:3166#FR
+* LOINC#2345-7 "Glucose [Masse/Volume] Sérum/Plasma ; Numérique"
+* LOINC#4548-4 "Hémoglobine A1c/hémoglobine totale [Fraction massique] Sang ; Numérique"
+* LOINC#99504-3 "Glucose [Masse/Volume] Liquide interstitiel ; Numérique"
+* $1.2.250.1.213.1.1.4.322#MED-972 "Index de gestion de glycémie (IGG)"
