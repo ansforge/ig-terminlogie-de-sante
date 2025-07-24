@@ -19,7 +19,7 @@
   fhir:title [ fhir:v "ASS_X10_AgregatCategorieEtablissement"] ; # 
   fhir:status [ fhir:v "active"] ; # 
   fhir:experimental [ fhir:v false] ; # 
-  fhir:date [ fhir:v "2025-07-20T04:41:57+00:00"^^xsd:dateTime] ; # 
+  fhir:date [ fhir:v "2025-07-24T04:40:46+00:00"^^xsd:dateTime] ; # 
   fhir:publisher [ fhir:v "ANS"] ; # 
   fhir:contact ( [
      fhir:name [ fhir:v "ANS" ] ;

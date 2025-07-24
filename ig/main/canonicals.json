@@ -39,6 +39,24 @@
     "name" : "Terminologies"
   },
   {
+    "id" : "ADICAP",
+    "type" : "NamingSystem",
+    "url" : "https://interop.esante.gouv.fr/terminologies/NamingSystem/ADICAP",
+    "name" : "ADICAP"
+  },
+  {
+    "id" : "NCIT",
+    "type" : "NamingSystem",
+    "url" : "https://interop.esante.gouv.fr/terminologies/NamingSystem/NCIT",
+    "name" : "NCIT"
+  },
+  {
+    "id" : "PCS",
+    "type" : "NamingSystem",
+    "url" : "https://interop.esante.gouv.fr/terminologies/NamingSystem/PCS",
+    "name" : "PCS"
+  },
+  {
     "id" : "Snomed-CT-core",
     "type" : "NamingSystem",
     "url" : "https://interop.esante.gouv.fr/terminologies/NamingSystem/Snomed-CT-core",
