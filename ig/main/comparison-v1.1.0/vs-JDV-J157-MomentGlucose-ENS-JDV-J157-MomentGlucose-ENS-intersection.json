@@ -1,0 +1,45 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "6e80de06-0bc2-4c3d-bd8e-7bceae418507-1026",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/6e80de06-0bc2-4c3d-bd8e-7bceae418507-1026",
+  "name" : "IntersectionJDV_J157_MomentGlucose_ENSAndJDV_J157_MomentGlucose_ENS",
+  "title" : "Intersection of null And null",
+  "status" : "active",
+  "date" : "2025-07-25T10:43:21+00:00",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "FR"
+    }]
+  }],
+  "compose" : {
+    "include" : [{
+      "concept" : [{
+        "code" : "16915-1",
+        "display" : "Glucose [Masse/volume] Serum/Plasma --post prandial"
+      },
+      {
+        "code" : "53049-3",
+        "display" : "Glucose [Masse/volume] Serum/Plasma --à jeun"
+      },
+      {
+        "code" : "88365-2",
+        "display" : "Glucose [Masse/volume] dans le sang --avant repas"
+      },
+      {
+        "code" : "LA11865-5",
+        "display" : "Après exercice"
+      },
+      {
+        "code" : "LA46-8",
+        "display" : "Autre"
+      }]
+    },
+    {
+      "concept" : [{
+        "code" : "MED-1278",
+        "display" : "Lors d'un malaise"
+      }]
+    }]
+  }
+}

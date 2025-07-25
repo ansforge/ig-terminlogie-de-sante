@@ -1,0 +1,35 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "6e80de06-0bc2-4c3d-bd8e-7bceae418507-1263",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/6e80de06-0bc2-4c3d-bd8e-7bceae418507-1263",
+  "name" : "IntersectionJDV_J233_TypeDiplome_EPARSAndJDV_J233_TypeDiplome_EPARS",
+  "title" : "Intersection of null And null",
+  "status" : "active",
+  "date" : "2025-07-25T10:43:21+00:00",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "FR"
+    }]
+  }],
+  "compose" : {
+    "include" : [{
+      "concept" : [{
+        "code" : "DE",
+        "display" : "Diplôme d'Etat français"
+      },
+      {
+        "code" : "AU",
+        "display" : "Autre type de diplôme"
+      },
+      {
+        "code" : "DU",
+        "display" : "Diplôme d'université (DU) ou inter-universitaire (DIU)"
+      },
+      {
+        "code" : "ATT",
+        "display" : "Attestation"
+      }]
+    }]
+  }
+}

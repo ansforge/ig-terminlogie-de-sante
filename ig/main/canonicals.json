@@ -35,7 +35,7 @@
     "id" : "ans.fr.terminologies",
     "type" : "ImplementationGuide",
     "url" : "https://interop.esante.gouv.fr/terminologies/ImplementationGuide/ans.fr.terminologies",
-    "version" : "1.1.0",
+    "version" : "1.2.0",
     "name" : "Terminologies"
   },
   {
@@ -282,7 +282,7 @@
     "id" : "JDV-J01-XdsAuthorSpecialty-CISIS",
     "type" : "ValueSet",
     "url" : "https://mos.esante.gouv.fr/NOS/JDV_J01-XdsAuthorSpecialty-CISIS/FHIR/JDV-J01-XdsAuthorSpecialty-CISIS",
-    "version" : "20250328120000",
+    "version" : "20250721120000",
     "name" : "JDV_J01_XdsAuthorSpecialty_CISIS",
     "oids" : ["1.2.250.1.213.1.1.5.461"]
   },
@@ -314,7 +314,7 @@
     "id" : "JDV-J05-SubjectRole-CISIS",
     "type" : "ValueSet",
     "url" : "https://mos.esante.gouv.fr/NOS/JDV_J05-SubjectRole-CISIS/FHIR/JDV-J05-SubjectRole-CISIS",
-    "version" : "20250626120000",
+    "version" : "20250721120000",
     "name" : "JDV_J05_SubjectRole_CISIS",
     "oids" : ["1.2.250.1.213.1.1.5.470"]
   },
@@ -810,7 +810,7 @@
     "id" : "JDV-J154-TypeGlucose-ENS",
     "type" : "ValueSet",
     "url" : "https://mos.esante.gouv.fr/NOS/JDV_J154-TypeGlucose-ENS/FHIR/JDV-J154-TypeGlucose-ENS",
-    "version" : "20250425120000",
+    "version" : "20250723120000",
     "name" : "JDV_J154_TypeGlucose_ENS",
     "oids" : ["1.2.250.1.213.1.1.5.609"]
   },
@@ -938,7 +938,7 @@
     "id" : "JDV-J17-ActiviteOperationnelle-ROR",
     "type" : "ValueSet",
     "url" : "https://mos.esante.gouv.fr/NOS/JDV_J17-ActiviteOperationnelle-ROR/FHIR/JDV-J17-ActiviteOperationnelle-ROR",
-    "version" : "20250620120000",
+    "version" : "20250723120000",
     "name" : "JDV_J17_ActiviteOperationnelle_ROR",
     "oids" : ["1.2.250.1.213.3.4.5"]
   },
@@ -1058,7 +1058,7 @@
     "id" : "JDV-J186-ProfessionRessource-ROR",
     "type" : "ValueSet",
     "url" : "https://mos.esante.gouv.fr/NOS/JDV_J186-ProfessionRessource-ROR/FHIR/JDV-J186-ProfessionRessource-ROR",
-    "version" : "20250623120000",
+    "version" : "20250710120000",
     "name" : "JDV_J186_ProfessionRessource_ROR",
     "oids" : ["1.2.250.1.213.3.4.19"]
   },
@@ -1410,7 +1410,7 @@
     "id" : "JDV-J226-ModaliteAccueil-ROR",
     "type" : "ValueSet",
     "url" : "https://mos.esante.gouv.fr/NOS/JDV_J226-ModaliteAccueil-ROR/FHIR/JDV-J226-ModaliteAccueil-ROR",
-    "version" : "20250425120000",
+    "version" : "20250709120000",
     "name" : "JDV_J226_ModaliteAccueil_ROR",
     "oids" : ["1.2.250.1.213.3.4.58"]
   },
@@ -1506,7 +1506,7 @@
     "id" : "JDV-J238-TypeOffre-ROR",
     "type" : "ValueSet",
     "url" : "https://mos.esante.gouv.fr/NOS/JDV_J238-TypeOffre-ROR/FHIR/JDV-J238-TypeOffre-ROR",
-    "version" : "20250625120000",
+    "version" : "20250710120000",
     "name" : "JDV_J238_TypeOffre_ROR",
     "oids" : ["1.2.250.1.213.3.4.65"]
   },
@@ -1866,7 +1866,7 @@
     "id" : "JDV-J34-CategorieOrganisation-ROR",
     "type" : "ValueSet",
     "url" : "https://mos.esante.gouv.fr/NOS/JDV_J34-CategorieOrganisation-ROR/FHIR/JDV-J34-CategorieOrganisation-ROR",
-    "version" : "20250625120000",
+    "version" : "20250723120000",
     "name" : "JDV_J34_CategorieOrganisation_ROR",
     "oids" : ["1.2.250.1.213.3.3.40"]
   },
@@ -2698,7 +2698,7 @@
     "id" : "TRE-R16-LieuFormation",
     "type" : "CodeSystem",
     "url" : "https://mos.esante.gouv.fr/NOS/TRE_R16-LieuFormation/FHIR/TRE-R16-LieuFormation",
-    "version" : "20240927120000",
+    "version" : "20250709120000",
     "name" : "TRE_R16_LieuFormation",
     "oids" : ["1.2.250.1.213.1.6.1.35"]
   },
@@ -2818,7 +2818,7 @@
     "id" : "TRE-R210-ActeSpecifique",
     "type" : "CodeSystem",
     "url" : "https://mos.esante.gouv.fr/NOS/TRE_R210-ActeSpecifique/FHIR/TRE-R210-ActeSpecifique",
-    "version" : "20250623120000",
+    "version" : "20250723120000",
     "name" : "TRE_R210_ActeSpecifique",
     "oids" : ["1.2.250.1.213.3.3.11"]
   },
@@ -2826,7 +2826,7 @@
     "id" : "TRE-R211-ActiviteOperationnelle",
     "type" : "CodeSystem",
     "url" : "https://mos.esante.gouv.fr/NOS/TRE_R211-ActiviteOperationnelle/FHIR/TRE-R211-ActiviteOperationnelle",
-    "version" : "20250623120000",
+    "version" : "20250723120000",
     "name" : "TRE_R211_ActiviteOperationnelle",
     "oids" : ["1.2.250.1.213.3.3.12"]
   },
@@ -2834,7 +2834,7 @@
     "id" : "TRE-R212-Equipement",
     "type" : "CodeSystem",
     "url" : "https://mos.esante.gouv.fr/NOS/TRE_R212-Equipement/FHIR/TRE-R212-Equipement",
-    "version" : "20250623120000",
+    "version" : "20250717120000",
     "name" : "TRE_R212_Equipement",
     "oids" : ["1.2.250.1.213.3.3.10"]
   },
@@ -3105,7 +3105,7 @@
     "id" : "TRE-R244-CategorieOrganisation",
     "type" : "CodeSystem",
     "url" : "https://mos.esante.gouv.fr/NOS/TRE_R244-CategorieOrganisation/FHIR/TRE-R244-CategorieOrganisation",
-    "version" : "20250625120000",
+    "version" : "20250710120000",
     "name" : "TRE_R244_CategorieOrganisation",
     "oids" : ["1.2.250.1.213.3.3.39"]
   },
@@ -3801,7 +3801,7 @@
     "id" : "TRE-R338-ModaliteAccueil",
     "type" : "CodeSystem",
     "url" : "https://mos.esante.gouv.fr/NOS/TRE_R338-ModaliteAccueil/FHIR/TRE-R338-ModaliteAccueil",
-    "version" : "20250425120000",
+    "version" : "20250709120000",
     "name" : "TRE_R338_ModaliteAccueil",
     "oids" : ["1.2.250.1.213.3.3.221"]
   },
@@ -3921,7 +3921,7 @@
     "id" : "TRE-R356-ProfessionRessource",
     "type" : "CodeSystem",
     "url" : "https://mos.esante.gouv.fr/NOS/TRE_R356-ProfessionRessource/FHIR/TRE-R356-ProfessionRessource",
-    "version" : "20250623120000",
+    "version" : "20250710120000",
     "name" : "TRE_R356_ProfessionRessource",
     "oids" : ["1.2.250.1.213.3.3.246"]
   },
@@ -4289,7 +4289,7 @@
     "id" : "TRE-R85-RolePriseCharge",
     "type" : "CodeSystem",
     "url" : "https://mos.esante.gouv.fr/NOS/TRE_R85-RolePriseCharge/FHIR/TRE-R85-RolePriseCharge",
-    "version" : "20250328120000",
+    "version" : "20250721120000",
     "name" : "TRE_R85_RolePriseCharge",
     "oids" : ["1.2.250.1.213.1.6.1.107"]
   },

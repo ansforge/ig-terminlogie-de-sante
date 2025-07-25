@@ -1,0 +1,37 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "6e80de06-0bc2-4c3d-bd8e-7bceae418507-2276",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/6e80de06-0bc2-4c3d-bd8e-7bceae418507-2276",
+  "name" : "UnionJdvModaliteEntreeCisisAndJdvModaliteEntreeCisis",
+  "title" : "Union of JDV Modalite Entree CISIS And JDV Modalite Entree CISIS",
+  "status" : "active",
+  "date" : "2025-07-25T10:43:22+00:00",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "FR"
+    }]
+  }],
+  "compose" : {
+    "include" : [{
+      "concept" : [{
+        "code" : "GEN-092.06.07",
+        "display" : "Autre modalité d'entrée"
+      }]
+    },
+    {
+      "concept" : [{
+        "code" : "183452005",
+        "display" : "hospitalisation en urgence"
+      },
+      {
+        "code" : "8715000",
+        "display" : "hospitalisation programmée"
+      },
+      {
+        "code" : "107724000",
+        "display" : "transfert du patient"
+      }]
+    }]
+  }
+}

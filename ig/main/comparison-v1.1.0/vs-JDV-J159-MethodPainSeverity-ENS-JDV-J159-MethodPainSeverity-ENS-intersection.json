@@ -1,0 +1,31 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "6e80de06-0bc2-4c3d-bd8e-7bceae418507-1032",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/6e80de06-0bc2-4c3d-bd8e-7bceae418507-1032",
+  "name" : "IntersectionJDV_J159_MethodPainSeverity_ENSAndJDV_J159_MethodPainSeverity_ENS",
+  "title" : "Intersection of null And null",
+  "status" : "active",
+  "date" : "2025-07-25T10:43:21+00:00",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "FR"
+    }]
+  }],
+  "compose" : {
+    "include" : [{
+      "concept" : [{
+        "code" : "C21082",
+        "display" : "échelle numérique de la douleur"
+      },
+      {
+        "code" : "C121547",
+        "display" : "échelle visuelle analogique"
+      },
+      {
+        "code" : "C21133",
+        "display" : "échelle d'évaluation verbale"
+      }]
+    }]
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "6e80de06-0bc2-4c3d-bd8e-7bceae418507-2529",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/6e80de06-0bc2-4c3d-bd8e-7bceae418507-2529",
+  "name" : "IntersectionJdvReperageTroubleNeurodeveloppementCisisAndJdvReperageTroubleNeurodeveloppementCisis",
+  "title" : "Intersection of JDV Reperage Trouble Neurodeveloppement CISIS And JDV Reperage Trouble Neurodeveloppement CISIS",
+  "status" : "active",
+  "date" : "2025-07-25T10:43:22+00:00",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "FR"
+    }]
+  }],
+  "compose" : {
+    "include" : [{
+      "concept" : [{
+        "code" : "ORG-197",
+        "display" : "Orientation vers une plateforme de coordination et d'orientation"
+      }]
+    },
+    {
+      "concept" : [{
+        "code" : "860642002",
+        "display" : "absence de trouble neurodéveloppemental"
+      }]
+    }]
+  }
+}

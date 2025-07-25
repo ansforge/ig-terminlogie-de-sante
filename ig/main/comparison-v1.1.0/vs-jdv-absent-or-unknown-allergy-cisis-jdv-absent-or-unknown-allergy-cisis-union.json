@@ -1,0 +1,39 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "6e80de06-0bc2-4c3d-bd8e-7bceae418507-1610",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/6e80de06-0bc2-4c3d-bd8e-7bceae418507-1610",
+  "name" : "UnionJdvAbsentOrUnknownAllergyCisisAndJdvAbsentOrUnknownAllergyCisis",
+  "title" : "Union of JDV Absent Or Unknown Allergy CISIS And JDV Absent Or Unknown Allergy CISIS",
+  "status" : "active",
+  "date" : "2025-07-25T10:43:21+00:00",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "FR"
+    }]
+  }],
+  "compose" : {
+    "include" : [{
+      "concept" : [{
+        "code" : "no-allergy-info",
+        "display" : "Pas d’information sur les allergies/hypersensibilités"
+      },
+      {
+        "code" : "no-known-allergies",
+        "display" : "Pas d'allergie/hypersensibilité connue"
+      },
+      {
+        "code" : "no-known-medication-allergies",
+        "display" : "Pas d'allergie médicamenteuse connue"
+      },
+      {
+        "code" : "no-known-environmental-allergies",
+        "display" : "Pas d'allergie environnementale connue"
+      },
+      {
+        "code" : "no-known-food-allergies",
+        "display" : "Pas d'allergie alimentaire connue"
+      }]
+    }]
+  }
+}

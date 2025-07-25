@@ -1,0 +1,27 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "6e80de06-0bc2-4c3d-bd8e-7bceae418507-1514",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/6e80de06-0bc2-4c3d-bd8e-7bceae418507-1514",
+  "name" : "UnionJDV_J72_TypeProfessionFonction_MSSanteAndJDV_J72_TypeProfessionFonction_MSSante",
+  "title" : "Union of null And null",
+  "status" : "active",
+  "date" : "2025-07-25T10:43:21+00:00",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "FR"
+    }]
+  }],
+  "compose" : {
+    "include" : [{
+      "concept" : [{
+        "code" : "01",
+        "display" : "Professionnel de santé (PS)"
+      },
+      {
+        "code" : "06",
+        "display" : "Rôle dans la prise en charge"
+      }]
+    }]
+  }
+}

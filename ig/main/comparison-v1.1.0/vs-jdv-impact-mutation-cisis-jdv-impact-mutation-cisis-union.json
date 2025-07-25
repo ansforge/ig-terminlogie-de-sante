@@ -1,0 +1,27 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "6e80de06-0bc2-4c3d-bd8e-7bceae418507-2129",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/6e80de06-0bc2-4c3d-bd8e-7bceae418507-2129",
+  "name" : "UnionJdvImpactMutationCisisAndJdvImpactMutationCisis",
+  "title" : "Union of JDV Impact Mutation CISIS And JDV Impact Mutation CISIS",
+  "status" : "active",
+  "date" : "2025-07-25T10:43:22+00:00",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "FR"
+    }]
+  }],
+  "compose" : {
+    "include" : [{
+      "concept" : [{
+        "code" : "83185005",
+        "display" : "sensibilité"
+      },
+      {
+        "code" : "30714006",
+        "display" : "résistance"
+      }]
+    }]
+  }
+}

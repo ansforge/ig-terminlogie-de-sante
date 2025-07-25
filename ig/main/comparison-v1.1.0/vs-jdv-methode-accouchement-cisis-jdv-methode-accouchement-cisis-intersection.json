@@ -1,0 +1,37 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "6e80de06-0bc2-4c3d-bd8e-7bceae418507-2259",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/6e80de06-0bc2-4c3d-bd8e-7bceae418507-2259",
+  "name" : "IntersectionJdvMethodeAccouchementCisisAndJdvMethodeAccouchementCisis",
+  "title" : "Intersection of JDV Methode Accouchement CISIS And JDV Methode Accouchement CISIS",
+  "status" : "active",
+  "date" : "2025-07-25T10:43:22+00:00",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "FR"
+    }]
+  }],
+  "compose" : {
+    "include" : [{
+      "concept" : [{
+        "code" : "MED-1273",
+        "display" : "Césarienne programmée"
+      },
+      {
+        "code" : "MED-1253",
+        "display" : "Césarienne pendant travail"
+      }]
+    },
+    {
+      "concept" : [{
+        "code" : "700000006",
+        "display" : "voie basse spontanée"
+      },
+      {
+        "code" : "236974004",
+        "display" : "voie basse instrumentale"
+      }]
+    }]
+  }
+}

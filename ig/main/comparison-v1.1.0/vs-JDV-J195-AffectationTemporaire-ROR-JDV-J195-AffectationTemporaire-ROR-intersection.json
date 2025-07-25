@@ -1,0 +1,31 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "6e80de06-0bc2-4c3d-bd8e-7bceae418507-1140",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/6e80de06-0bc2-4c3d-bd8e-7bceae418507-1140",
+  "name" : "IntersectionJDV_J195_AffectationTemporaire_RORAndJDV_J195_AffectationTemporaire_ROR",
+  "title" : "Intersection of null And null",
+  "status" : "active",
+  "date" : "2025-07-25T10:43:21+00:00",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "FR"
+    }]
+  }],
+  "compose" : {
+    "include" : [{
+      "concept" : [{
+        "code" : "01",
+        "display" : "Aucune"
+      },
+      {
+        "code" : "02",
+        "display" : "Covid+"
+      },
+      {
+        "code" : "03",
+        "display" : "Covid-"
+      }]
+    }]
+  }
+}

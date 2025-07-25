@@ -1,0 +1,27 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "6e80de06-0bc2-4c3d-bd8e-7bceae418507-3000",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/6e80de06-0bc2-4c3d-bd8e-7bceae418507-3000",
+  "name" : "IntersectionJdvUsageDrogueCisisAndJdvUsageDrogueCisis",
+  "title" : "Intersection of JDV Usage Drogue CISIS And JDV Usage Drogue CISIS",
+  "status" : "active",
+  "date" : "2025-07-25T10:43:22+00:00",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "FR"
+    }]
+  }],
+  "compose" : {
+    "include" : [{
+      "concept" : [{
+        "code" : "20045000",
+        "display" : "Voie intraveineuse"
+      },
+      {
+        "code" : "20049000",
+        "display" : "Voie nasale"
+      }]
+    }]
+  }
+}
