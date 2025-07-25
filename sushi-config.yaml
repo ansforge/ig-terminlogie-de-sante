@@ -19,7 +19,7 @@ releaseLabel: final-text
 jurisdiction: urn:iso:std:iso:3166#FR
 
 dependencies:
-   hl7.fhir.uv.ips: 1.2.0
+   hl7.fhir.uv.ips: 1.1.0
 
 parameters:
     pin-canonicals : pin-multiples
