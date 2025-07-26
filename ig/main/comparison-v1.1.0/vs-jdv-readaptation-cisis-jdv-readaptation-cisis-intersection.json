@@ -1,11 +1,11 @@
 {
   "resourceType" : "ValueSet",
-  "id" : "6e80de06-0bc2-4c3d-bd8e-7bceae418507-2505",
-  "url" : "http://hl7.org/fhir/comparison/ValueSet/6e80de06-0bc2-4c3d-bd8e-7bceae418507-2505",
+  "id" : "9c121fb2-4588-442f-8b8b-dee48ac3c1b3-2505",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/9c121fb2-4588-442f-8b8b-dee48ac3c1b3-2505",
   "name" : "IntersectionJdvReadaptationCisisAndJdvReadaptationCisis",
   "title" : "Intersection of JDV Readaptation CISIS And JDV Readaptation CISIS",
   "status" : "active",
-  "date" : "2025-07-25T10:43:22+00:00",
+  "date" : "2025-07-26T04:44:31+00:00",
   "jurisdiction" : [{
     "coding" : [{
       "system" : "urn:iso:std:iso:3166",
