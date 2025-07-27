@@ -1,11 +1,11 @@
 {
   "resourceType" : "ValueSet",
-  "id" : "9c121fb2-4588-442f-8b8b-dee48ac3c1b3-3017",
-  "url" : "http://hl7.org/fhir/comparison/ValueSet/9c121fb2-4588-442f-8b8b-dee48ac3c1b3-3017",
+  "id" : "73d45f3d-9972-46d5-a64e-c163b9c84468-3017",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/73d45f3d-9972-46d5-a64e-c163b9c84468-3017",
   "name" : "UnionValueSet_ATC_AllAndValueSet_ATC_All",
   "title" : "Union of null And null",
   "status" : "active",
-  "date" : "2025-07-26T04:44:31+00:00",
+  "date" : "2025-07-27T04:49:16+00:00",
   "jurisdiction" : [{
     "coding" : [{
       "system" : "urn:iso:std:iso:3166",
