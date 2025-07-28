@@ -24,10 +24,6 @@ Description: "Nomenclature des activités sanitaires utilisée pour décrire les
 * ^property[=].uri = "http://hl7.org/fhir/concept-properties#parent"
 * ^property[=].description = "An immediate parent of the concept in the hierarchy"
 * ^property[=].type = #code
-* ^property[+].code = #child
-* ^property[=].uri = "http://hl7.org/fhir/concept-properties#child"
-* ^property[=].description = "An immediate child of the concept in the hierarchy"
-* ^property[=].type = #code
 * ^property[+].code = #dateValid
 * ^property[=].description = "date de validité d'un code concept"
 * ^property[=].type = #dateTime
