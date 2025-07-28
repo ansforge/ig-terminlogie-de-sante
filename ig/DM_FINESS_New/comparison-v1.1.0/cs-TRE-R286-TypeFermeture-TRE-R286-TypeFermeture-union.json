@@ -1,11 +1,11 @@
 {
   "resourceType" : "CodeSystem",
-  "id" : "abdcfdc2-2300-4d38-b9c1-97871a5eea5c-404",
-  "url" : "http://hl7.org/fhir/comparison/CodeSystem/abdcfdc2-2300-4d38-b9c1-97871a5eea5c-404",
+  "id" : "09af29ef-0e08-4eff-8dc5-226aaf28acff-404",
+  "url" : "http://hl7.org/fhir/comparison/CodeSystem/09af29ef-0e08-4eff-8dc5-226aaf28acff-404",
   "name" : "UnionTRE_R286_TypeFermetureAndTRE_R286_TypeFermeture",
   "title" : "Union of null And null",
   "status" : "active",
-  "date" : "2025-07-28T10:01:35+00:00",
+  "date" : "2025-07-28T16:18:45+00:00",
   "jurisdiction" : [{
     "coding" : [{
       "system" : "urn:iso:std:iso:3166",
@@ -61,14 +61,14 @@
     "type" : "dateTime"
   },
   {
-    "code" : "JdvJ364TypeFermeturePmFiness",
-    "uri" : "http://hl7.org/fhir/concept-properties#JdvJ364TypeFermeturePmFiness",
+    "code" : "BTypeFermeturePmFiness",
+    "uri" : "http://hl7.org/fhir/concept-properties#BTypeFermeturePmFiness",
     "description" : "Permet de définir les codes à inclure dans le JdvJ364TypeFermeturePmFiness",
     "type" : "boolean"
   },
   {
-    "code" : "JdvJ365TypeFermetureEgeFiness",
-    "uri" : "http://hl7.org/fhir/concept-properties#JdvJ365TypeFermetureEgeFiness",
+    "code" : "BTypeFermetureEgeFiness",
+    "uri" : "http://hl7.org/fhir/concept-properties#BTypeFermetureEgeFiness",
     "description" : "Permet de définir les codes à inclure dans le JdvJ365TypeFermetureEgeFiness",
     "type" : "boolean"
   }],
@@ -96,11 +96,11 @@
       "valueCode" : "active"
     },
     {
-      "code" : "JdvJ364TypeFermeturePmFiness",
+      "code" : "BTypeFermeturePmFiness",
       "valueBoolean" : true
     },
     {
-      "code" : "JdvJ365TypeFermetureEgeFiness",
+      "code" : "BTypeFermetureEgeFiness",
       "valueBoolean" : true
     }]
   },
@@ -128,11 +128,11 @@
       "valueCode" : "active"
     },
     {
-      "code" : "JdvJ364TypeFermeturePmFiness",
+      "code" : "BTypeFermeturePmFiness",
       "valueBoolean" : true
     },
     {
-      "code" : "JdvJ365TypeFermetureEgeFiness",
+      "code" : "BTypeFermetureEgeFiness",
       "valueBoolean" : true
     }]
   },
@@ -160,7 +160,7 @@
       "valueCode" : "active"
     },
     {
-      "code" : "JdvJ364TypeFermeturePmFiness",
+      "code" : "BTypeFermeturePmFiness",
       "valueBoolean" : true
     }]
   },
@@ -188,7 +188,7 @@
       "valueCode" : "active"
     },
     {
-      "code" : "JdvJ365TypeFermetureEgeFiness",
+      "code" : "BTypeFermetureEgeFiness",
       "valueBoolean" : true
     }]
   },
@@ -224,7 +224,7 @@
       "valueCode" : "active"
     },
     {
-      "code" : "JdvJ365TypeFermetureEgeFiness",
+      "code" : "BTypeFermetureEgeFiness",
       "valueBoolean" : true
     }]
   },
@@ -252,7 +252,7 @@
       "valueCode" : "active"
     },
     {
-      "code" : "JdvJ365TypeFermetureEgeFiness",
+      "code" : "BTypeFermetureEgeFiness",
       "valueBoolean" : true
     }]
   }]

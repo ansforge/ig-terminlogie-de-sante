@@ -1,11 +1,11 @@
 {
   "resourceType" : "CodeSystem",
-  "id" : "abdcfdc2-2300-4d38-b9c1-97871a5eea5c-672",
-  "url" : "http://hl7.org/fhir/comparison/CodeSystem/abdcfdc2-2300-4d38-b9c1-97871a5eea5c-672",
+  "id" : "09af29ef-0e08-4eff-8dc5-226aaf28acff-672",
+  "url" : "http://hl7.org/fhir/comparison/CodeSystem/09af29ef-0e08-4eff-8dc5-226aaf28acff-672",
   "name" : "IntersectionTRE_R58_AutreTypeDiplomeAndTRE_R58_AutreTypeDiplome",
   "title" : "Intersection of null And null",
   "status" : "active",
-  "date" : "2025-07-28T10:01:35+00:00",
+  "date" : "2025-07-28T16:18:45+00:00",
   "jurisdiction" : [{
     "coding" : [{
       "system" : "urn:iso:std:iso:3166",
