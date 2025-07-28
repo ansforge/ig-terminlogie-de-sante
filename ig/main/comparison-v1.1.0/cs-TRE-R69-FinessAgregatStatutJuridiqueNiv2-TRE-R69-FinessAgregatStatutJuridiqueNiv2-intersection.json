@@ -1,11 +1,11 @@
 {
   "resourceType" : "CodeSystem",
-  "id" : "2d6844a9-9c8d-4149-9082-0bc265ab9342-699",
-  "url" : "http://hl7.org/fhir/comparison/CodeSystem/2d6844a9-9c8d-4149-9082-0bc265ab9342-699",
+  "id" : "6d7e7949-f883-4020-85b8-4f0301e9d270-699",
+  "url" : "http://hl7.org/fhir/comparison/CodeSystem/6d7e7949-f883-4020-85b8-4f0301e9d270-699",
   "name" : "IntersectionTRE_R69_FinessAgregatStatutJuridiqueNiv2AndTRE_R69_FinessAgregatStatutJuridiqueNiv2",
   "title" : "Intersection of null And null",
   "status" : "active",
-  "date" : "2025-07-28T04:56:01+00:00",
+  "date" : "2025-07-28T13:12:12+00:00",
   "jurisdiction" : [{
     "coding" : [{
       "system" : "urn:iso:std:iso:3166",

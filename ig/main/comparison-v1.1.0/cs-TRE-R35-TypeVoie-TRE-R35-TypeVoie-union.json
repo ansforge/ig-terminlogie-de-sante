@@ -1,11 +1,11 @@
 {
   "resourceType" : "CodeSystem",
-  "id" : "2d6844a9-9c8d-4149-9082-0bc265ab9342-575",
-  "url" : "http://hl7.org/fhir/comparison/CodeSystem/2d6844a9-9c8d-4149-9082-0bc265ab9342-575",
+  "id" : "6d7e7949-f883-4020-85b8-4f0301e9d270-575",
+  "url" : "http://hl7.org/fhir/comparison/CodeSystem/6d7e7949-f883-4020-85b8-4f0301e9d270-575",
   "name" : "UnionTRE_R35_TypeVoieAndTRE_R35_TypeVoie",
   "title" : "Union of null And null",
   "status" : "retired",
-  "date" : "2025-07-28T04:56:01+00:00",
+  "date" : "2025-07-28T13:12:12+00:00",
   "jurisdiction" : [{
     "coding" : [{
       "system" : "urn:iso:std:iso:3166",
