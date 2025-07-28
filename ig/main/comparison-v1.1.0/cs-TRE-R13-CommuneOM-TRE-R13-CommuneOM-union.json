@@ -1,11 +1,11 @@
 {
   "resourceType" : "CodeSystem",
-  "id" : "73d45f3d-9972-46d5-a64e-c163b9c84468-128",
-  "url" : "http://hl7.org/fhir/comparison/CodeSystem/73d45f3d-9972-46d5-a64e-c163b9c84468-128",
+  "id" : "2d6844a9-9c8d-4149-9082-0bc265ab9342-128",
+  "url" : "http://hl7.org/fhir/comparison/CodeSystem/2d6844a9-9c8d-4149-9082-0bc265ab9342-128",
   "name" : "UnionTRE_R13_CommuneOMAndTRE_R13_CommuneOM",
   "title" : "Union of null And null",
   "status" : "active",
-  "date" : "2025-07-27T04:49:14+00:00",
+  "date" : "2025-07-28T04:56:00+00:00",
   "jurisdiction" : [{
     "coding" : [{
       "system" : "urn:iso:std:iso:3166",

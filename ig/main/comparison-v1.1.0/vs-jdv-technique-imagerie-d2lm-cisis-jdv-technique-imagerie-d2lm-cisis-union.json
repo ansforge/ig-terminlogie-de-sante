@@ -1,11 +1,11 @@
 {
   "resourceType" : "ValueSet",
-  "id" : "73d45f3d-9972-46d5-a64e-c163b9c84468-2747",
-  "url" : "http://hl7.org/fhir/comparison/ValueSet/73d45f3d-9972-46d5-a64e-c163b9c84468-2747",
+  "id" : "2d6844a9-9c8d-4149-9082-0bc265ab9342-2747",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/2d6844a9-9c8d-4149-9082-0bc265ab9342-2747",
   "name" : "UnionJdvTechniqueImagerieD2lmCisisAndJdvTechniqueImagerieD2lmCisis",
   "title" : "Union of JDV Technique Imagerie D2lm CISIS And JDV Technique Imagerie D2lm CISIS",
   "status" : "active",
-  "date" : "2025-07-27T04:49:16+00:00",
+  "date" : "2025-07-28T04:56:02+00:00",
   "jurisdiction" : [{
     "coding" : [{
       "system" : "urn:iso:std:iso:3166",
