@@ -398,11 +398,11 @@
     },
     {
       "url" : "https://mos.esante.gouv.fr/NOS/TRE_R16-LieuFormation/FHIR/TRE-R16-LieuFormation",
-      "version" : "20240927120000",
+      "version" : "20250709120000",
       "status" : "active",
       "name" : "TRE_R16_LieuFormation",
       "title" : null,
-      "description" : "Lieu de formation",
+      "description" : null,
       "oids" : ["1.2.250.1.213.1.6.1.35"]
     },
     {
@@ -533,7 +533,7 @@
     },
     {
       "url" : "https://mos.esante.gouv.fr/NOS/TRE_R210-ActeSpecifique/FHIR/TRE-R210-ActeSpecifique",
-      "version" : "20250623120000",
+      "version" : "20250723120000",
       "status" : "active",
       "name" : "TRE_R210_ActeSpecifique",
       "title" : null,
@@ -542,7 +542,7 @@
     },
     {
       "url" : "https://mos.esante.gouv.fr/NOS/TRE_R211-ActiviteOperationnelle/FHIR/TRE-R211-ActiviteOperationnelle",
-      "version" : "20250623120000",
+      "version" : "20250723120000",
       "status" : "active",
       "name" : "TRE_R211_ActiviteOperationnelle",
       "title" : null,
@@ -848,7 +848,7 @@
     },
     {
       "url" : "https://mos.esante.gouv.fr/NOS/TRE_R244-CategorieOrganisation/FHIR/TRE-R244-CategorieOrganisation",
-      "version" : "20250625120000",
+      "version" : "20250710120000",
       "status" : "active",
       "name" : "TRE_R244_CategorieOrganisation",
       "title" : null,
@@ -1631,7 +1631,7 @@
     },
     {
       "url" : "https://mos.esante.gouv.fr/NOS/TRE_R338-ModaliteAccueil/FHIR/TRE-R338-ModaliteAccueil",
-      "version" : "20250425120000",
+      "version" : "20250709120000",
       "status" : "active",
       "name" : "TRE_R338_ModaliteAccueil",
       "title" : null,
@@ -1766,7 +1766,7 @@
     },
     {
       "url" : "https://mos.esante.gouv.fr/NOS/TRE_R356-ProfessionRessource/FHIR/TRE-R356-ProfessionRessource",
-      "version" : "20250623120000",
+      "version" : "20250710120000",
       "status" : "active",
       "name" : "TRE_R356_ProfessionRessource",
       "title" : null,
@@ -2180,7 +2180,7 @@
     },
     {
       "url" : "https://mos.esante.gouv.fr/NOS/TRE_R85-RolePriseCharge/FHIR/TRE-R85-RolePriseCharge",
-      "version" : "20250328120000",
+      "version" : "20250721120000",
       "status" : "active",
       "name" : "TRE_R85_RolePriseCharge",
       "title" : null,

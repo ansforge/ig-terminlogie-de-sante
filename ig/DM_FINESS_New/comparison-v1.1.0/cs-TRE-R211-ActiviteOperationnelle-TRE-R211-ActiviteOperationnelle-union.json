@@ -1,11 +1,11 @@
 {
   "resourceType" : "CodeSystem",
-  "id" : "a21150dc-0ce2-4c3d-ba9c-5ec6ebbb8c1d-182",
-  "url" : "http://hl7.org/fhir/comparison/CodeSystem/a21150dc-0ce2-4c3d-ba9c-5ec6ebbb8c1d-182",
+  "id" : "abdcfdc2-2300-4d38-b9c1-97871a5eea5c-182",
+  "url" : "http://hl7.org/fhir/comparison/CodeSystem/abdcfdc2-2300-4d38-b9c1-97871a5eea5c-182",
   "name" : "UnionTRE_R211_ActiviteOperationnelleAndTRE_R211_ActiviteOperationnelle",
   "title" : "Union of null And null",
   "status" : "active",
-  "date" : "2025-07-18T07:57:58+00:00",
+  "date" : "2025-07-28T10:01:34+00:00",
   "jurisdiction" : [{
     "coding" : [{
       "system" : "urn:iso:std:iso:3166",
@@ -9870,6 +9870,7 @@
   {
     "code" : "308",
     "display" : "Accompagnements à la parentalité",
+    "definition" : "Ensemble d’actions visant à accompagner les parents dans leur rôle éducatif, affectif et social, en tenant compte des besoins spécifiques de l’enfant et du contexte familial en renforcant les compétences parentales, favorisant les relations parents-enfants, prévenant les difficultés éducatives ou relationnelles, soutenant les familles confrontées à des problématiques spécifiques (handicap, maladie, précarité, troubles du développement, etc.). Cette orientation est étayée par la réalisation de formations continues spécifiques auprès de cette population (appuyées de données probantes) et d’une expérience professionnelle.",
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2018-01-26T12:00:00+01:00"
@@ -9889,6 +9890,10 @@
     {
       "code" : "dateMaj",
       "valueDateTime" : "2018-01-26T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2025-07-23T12:00:00+01:00"
     },
     {
       "code" : "status",
@@ -12628,6 +12633,7 @@
   {
     "code" : "401",
     "display" : "Evaluation du logement et préconisation d'adaptation pour le maintien à domicile",
+    "definition" : "Analyse de l’environnement domestique d’une personne en situation de perte d’autonomie, de handicap ou présentant des limitations fonctionnelles, afin d’identifier les obstacles à son maintien à domicile dans des conditions optimales de sécurité, d’autonomie et de qualité de vie. Elle vise à préconiser des aménagements et des aides techniques adaptés, permettant à la personne de réaliser ses activités quotidiennes dans un cadre sécurisé. Cette orientation est étayée par la réalisation de formations continues spécifiques auprès de cette population (appuyées de données probantes) et d’une expérience professionnelle",
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2019-03-29T12:00:00+01:00"
@@ -12647,6 +12653,10 @@
     {
       "code" : "dateMaj",
       "valueDateTime" : "2019-03-29T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2025-07-23T12:00:00+01:00"
     },
     {
       "code" : "status",
@@ -17460,6 +17470,7 @@
   {
     "code" : "558",
     "display" : "Ergothérapie",
+    "definition" : "Activité professionelle qui contribue, par la rééducation, la réadaptation et la réinsertion, au traitement des déficiences, des incapacités et des situations de handicap",
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2024-06-28T12:00:00+01:00"
@@ -17479,6 +17490,10 @@
     {
       "code" : "dateMaj",
       "valueDateTime" : "2024-06-28T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2025-07-23T12:00:00+01:00"
     },
     {
       "code" : "status",
@@ -17908,6 +17923,7 @@
   {
     "code" : "574",
     "display" : "Ergothérapie orientation accompagnement dans le cadre des maladies chroniques",
+    "definition" : "Accompagnement en ergothérapie centré sur l’impact de maladies chroniques (affection de longue durée qui évolue dans le temps, souvent lentement, et qui a un impact durable sur la vie quotidienne de la personne) dans le quotidien de la personne\u00a0: gestion de la fatigue et/ou la gestion de la douleur et/ou la gestion du sommeil en lien avec les activités de vie la personne dans son environnement. Il vise à favoriser la qualité de vie, l’équilibre de vie.",
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2025-03-28T12:00:00+01:00"
@@ -17927,6 +17943,10 @@
     {
       "code" : "dateMaj",
       "valueDateTime" : "2025-03-28T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2025-07-23T12:00:00+01:00"
     },
     {
       "code" : "status",
@@ -17936,6 +17956,7 @@
   {
     "code" : "575",
     "display" : "Ergothérapie orientation compensation matérielle dans l’environnement de la personne",
+    "definition" : "Accompagnement en ergothérapie de personnes dans l’accès à l'ensemble des aides techniques, équipements et aménagements destinés à compenser une perte de fonction, une limitation d’activité ou une situation de handicap. Cela inclus l’apprentissage d’utilisation des compensations matérielles et la prise en compte de l’environnement de la personne jusqu’à intervenir dans celui-ci.",
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2025-03-28T12:00:00+01:00"
@@ -17955,6 +17976,10 @@
     {
       "code" : "dateMaj",
       "valueDateTime" : "2025-03-28T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2025-07-23T12:00:00+01:00"
     },
     {
       "code" : "status",
@@ -17964,6 +17989,7 @@
   {
     "code" : "576",
     "display" : "Ergothérapie orientation Gériatrie",
+    "definition" : "Accompagnement en ergothérapie concerne la prise en charge des personnes âgées, notamment celles confrontées à des pertes d’autonomie, des pathologies chroniques ou neurodégénératives (comme la maladie d'Alzheimer, Parkinson, ou des troubles cognitifs), ainsi qu'à la prévention du vieillissement pathologique. Cette orientation est étayée par la réalisation de formations continues spécifiques auprès de cette population (appuyées de données probantes) et d’une expérience professionnelle",
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2025-03-28T12:00:00+01:00"
@@ -17983,6 +18009,10 @@
     {
       "code" : "dateMaj",
       "valueDateTime" : "2025-03-28T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2025-07-23T12:00:00+01:00"
     },
     {
       "code" : "status",
@@ -17992,6 +18022,7 @@
   {
     "code" : "577",
     "display" : "Ergothérapie orientation Neurologie",
+    "definition" : "Accompagnement en ergothérapie auprès de personnes avec des pathologies neurologiques innées ou acquises (dépistage ; repérage ; évaluation permettant le diagnostic ergothérapique ; réévaluation). Cette orientation est étayée par la réalisation de formations continues spécifiques auprès de cette population (appuyées de données probantes) et d’une expérience professionnelle.",
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2025-03-28T12:00:00+01:00"
@@ -18011,6 +18042,10 @@
     {
       "code" : "dateMaj",
       "valueDateTime" : "2025-03-28T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2025-07-23T12:00:00+01:00"
     },
     {
       "code" : "status",
@@ -18020,6 +18055,7 @@
   {
     "code" : "578",
     "display" : "Ergothérapie orientation Pédiatrie",
+    "definition" : "Accompagnement en ergothérapie des enfants, de la naissance à l’adolescence, présentant des troubles du développement, des déficiences physiques, sensorielles, cognitives ou psychiques, ainsi que des situations de handicap, afin de favoriser leur autonomie et leur participation dans les activités de la vie quotidienne, scolaire et sociale. Cette orientation est étayée par la réalisation de formations continues spécifiques auprès de cette population (appuyées de données probantes) et d’une expérience professionnelle.",
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2025-03-28T12:00:00+01:00"
@@ -18039,6 +18075,10 @@
     {
       "code" : "dateMaj",
       "valueDateTime" : "2025-03-28T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2025-07-23T12:00:00+01:00"
     },
     {
       "code" : "status",
@@ -18048,6 +18088,7 @@
   {
     "code" : "579",
     "display" : "Ergothérapie orientation Psychiatrie et Santé mentale",
+    "definition" : "Accompagnement en ergothérapie  concerne l’accompagnement des personnes présentant des troubles psychiques ou psychiatriques afin de favoriser leur autonomie, leur bien-être et leur inclusion sociale. L’ergothérapeute intervient en évaluant et en renforçant les capacités fonctionnelles, cognitives, émotionnelles et sociales des patients dans le cadre d’un projet thérapeutique global. Cette orientation est étayée par la réalisation de formations continues spécifiques auprès de cette population (appuyées de données probantes) et d’une expérience professionnelle",
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2025-03-28T12:00:00+01:00"
@@ -18067,6 +18108,10 @@
     {
       "code" : "dateMaj",
       "valueDateTime" : "2025-03-28T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2025-07-23T12:00:00+01:00"
     },
     {
       "code" : "status",
@@ -18076,6 +18121,7 @@
   {
     "code" : "580",
     "display" : "Evaluation en ergothérapie par l’analyse d’activité et accompagnement dans l’environnement de la personne",
+    "definition" : "Evaluation fonctionnelle et accompagnement en ergothérapie au travers de mises en situation d’activité réelles (via l’analyse d’activité) en milieu écologique (sur l’ensemble des lieux de vie ((domicile, établissements médico-sociaux, etc.) et d’activité de la personne (établissements scolaires, lieux de formation, milieu professionnel, milieu sportif, de loisirs, etc.)",
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2025-03-28T12:00:00+01:00"
@@ -18095,6 +18141,10 @@
     {
       "code" : "dateMaj",
       "valueDateTime" : "2025-03-28T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2025-07-23T12:00:00+01:00"
     },
     {
       "code" : "status",
@@ -18104,6 +18154,7 @@
   {
     "code" : "581",
     "display" : "Interventions éducatives pour renforcer l’autorégulation",
+    "definition" : "Consiste à mettre en place des stratégies et des activités visant à aider les personnes, notamment les enfants et les adolescents, à mieux gérer leurs émotions, leurs comportements et leurs pensées. Ces interventions sont particulièrement utiles pour les élèves présentant des troubles du spectre de l'autisme (TSA) et d'autres troubles du neurodéveloppement. Elles sont encadrées par des professionnels, et s'appuient sur des principes de métacognition et d'autodétermination. Cette orientation est étayée par la réalisation de formations continues spécifiques auprès de cette population (appuyées de données probantes) et d’une expérience professionnelle",
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2025-03-28T12:00:00+01:00"
@@ -18123,6 +18174,10 @@
     {
       "code" : "dateMaj",
       "valueDateTime" : "2025-03-28T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2025-07-23T12:00:00+01:00"
     },
     {
       "code" : "status",

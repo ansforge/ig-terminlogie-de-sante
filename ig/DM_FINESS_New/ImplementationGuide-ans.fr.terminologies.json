@@ -32770,6 +32770,17 @@
     {
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "NamingSystem"
+      }],
+      "reference" : {
+        "reference" : "NamingSystem/ADICAP"
+      },
+      "name" : "ADICAP",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "ValueSet"
       }],
       "reference" : {
@@ -42180,6 +42191,17 @@
     {
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "NamingSystem"
+      }],
+      "reference" : {
+        "reference" : "NamingSystem/NCIT"
+      },
+      "name" : "NCIT",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "CodeSystem"
       }],
       "reference" : {
@@ -42257,6 +42279,17 @@
       },
       "name" : "ParticipationType",
       "description" : "ParticipationType",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "NamingSystem"
+      }],
+      "reference" : {
+        "reference" : "NamingSystem/PCS"
+      },
+      "name" : "PCS",
       "exampleBoolean" : false
     },
     {
@@ -43297,7 +43330,6 @@
         "reference" : "CodeSystem/TRE-R16-LieuFormation"
       },
       "name" : "TRE_R16_LieuFormation",
-      "description" : "Lieu de formation",
       "exampleBoolean" : false
     },
     {

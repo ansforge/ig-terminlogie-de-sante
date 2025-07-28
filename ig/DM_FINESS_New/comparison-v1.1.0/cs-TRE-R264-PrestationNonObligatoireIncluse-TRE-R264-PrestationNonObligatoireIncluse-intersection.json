@@ -1,11 +1,11 @@
 {
   "resourceType" : "CodeSystem",
-  "id" : "a21150dc-0ce2-4c3d-ba9c-5ec6ebbb8c1d-345",
-  "url" : "http://hl7.org/fhir/comparison/CodeSystem/a21150dc-0ce2-4c3d-ba9c-5ec6ebbb8c1d-345",
+  "id" : "abdcfdc2-2300-4d38-b9c1-97871a5eea5c-345",
+  "url" : "http://hl7.org/fhir/comparison/CodeSystem/abdcfdc2-2300-4d38-b9c1-97871a5eea5c-345",
   "name" : "IntersectionTRE_R264_PrestationNonObligatoireIncluseAndTRE_R264_PrestationNonObligatoireIncluse",
   "title" : "Intersection of null And null",
   "status" : "active",
-  "date" : "2025-07-18T07:57:58+00:00",
+  "date" : "2025-07-28T10:01:34+00:00",
   "jurisdiction" : [{
     "coding" : [{
       "system" : "urn:iso:std:iso:3166",

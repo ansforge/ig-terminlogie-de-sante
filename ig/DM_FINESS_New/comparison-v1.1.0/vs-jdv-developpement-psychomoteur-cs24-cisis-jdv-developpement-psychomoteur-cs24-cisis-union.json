@@ -1,11 +1,11 @@
 {
   "resourceType" : "ValueSet",
-  "id" : "a21150dc-0ce2-4c3d-ba9c-5ec6ebbb8c1d-1859",
-  "url" : "http://hl7.org/fhir/comparison/ValueSet/a21150dc-0ce2-4c3d-ba9c-5ec6ebbb8c1d-1859",
+  "id" : "abdcfdc2-2300-4d38-b9c1-97871a5eea5c-1859",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/abdcfdc2-2300-4d38-b9c1-97871a5eea5c-1859",
   "name" : "UnionJdvDeveloppementPsychomoteurCs24CisisAndJdvDeveloppementPsychomoteurCs24Cisis",
   "title" : "Union of JDV Developpement Psychomoteur Cs24 CISIS And JDV Developpement Psychomoteur Cs24 CISIS",
   "status" : "active",
-  "date" : "2025-07-18T07:57:59+00:00",
+  "date" : "2025-07-28T10:01:35+00:00",
   "jurisdiction" : [{
     "coding" : [{
       "system" : "urn:iso:std:iso:3166",

@@ -1,11 +1,11 @@
 {
   "resourceType" : "ValueSet",
-  "id" : "a21150dc-0ce2-4c3d-ba9c-5ec6ebbb8c1d-1412",
-  "url" : "http://hl7.org/fhir/comparison/ValueSet/a21150dc-0ce2-4c3d-ba9c-5ec6ebbb8c1d-1412",
+  "id" : "abdcfdc2-2300-4d38-b9c1-97871a5eea5c-1412",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/abdcfdc2-2300-4d38-b9c1-97871a5eea5c-1412",
   "name" : "UnionJDV_J34_CategorieOrganisation_RORAndJDV_J34_CategorieOrganisation_ROR",
   "title" : "Union of null And null",
   "status" : "active",
-  "date" : "2025-07-18T07:57:59+00:00",
+  "date" : "2025-07-28T10:01:35+00:00",
   "jurisdiction" : [{
     "coding" : [{
       "system" : "urn:iso:std:iso:3166",
@@ -268,7 +268,7 @@
       },
       {
         "code" : "65",
-        "display" : "Pôles de compétences et de prestations externalisées (PCPE)"
+        "display" : "Pôle de compétences et de prestations externalisées (PCPE)"
       },
       {
         "code" : "66",
@@ -956,7 +956,7 @@
       },
       {
         "code" : "238",
-        "display" : "Unité de médecine polyvalente"
+        "display" : "Unité hospitalière de médecine polyvalente"
       },
       {
         "code" : "239",
@@ -1105,6 +1105,18 @@
       {
         "code" : "275",
         "display" : "Unité de dialyse Médicalisée (UDM)"
+      },
+      {
+        "code" : "276",
+        "display" : "Unité d’Accueil et de Soins pour personnes Sourdes et malentendantes (UASS)"
+      },
+      {
+        "code" : "277",
+        "display" : "Equipe de coordination hospitalière de tissus et/ou d’organes"
+      },
+      {
+        "code" : "278",
+        "display" : "Unité Hospitalière de Courte Durée (UHCD)"
       }]
     }]
   }

@@ -1,10 +1,10 @@
 Terminologies : Validation Results
 =========================================
 
-err = 2505, warn = 1573, info = 1734
+err = 2606, warn = 1594, info = 1734
 $--
 Generated $--. FHIR version $-- for ans.fr.terminologies#$-- (canonical = https://interop.esante.gouv.fr/terminologies)
- Build Errors : 385 / 21 / 0
+ Build Errors : 406 / 25 / 0
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/DM/fsh-generated/resources/CodeSystem-TRE-G09-DepartementOM : 0 / 1 / 4
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/DM/fsh-generated/resources/CodeSystem-TRE-R209-TypeActivite : 0 / 1 / 4
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/DM/fsh-generated/resources/CodeSystem-TRE-R212-Equipement : 1 / 2 / 4
@@ -40,31 +40,31 @@ Generated $--. FHIR version $-- for ans.fr.terminologies#$-- (canonical = https:
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/DM/fsh-generated/resources/CodeSystem-TRE-R72-FinessStatutJuridique : 0 / 1 / 4
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/DM/fsh-generated/resources/CodeSystem-TRE-R73-ESPIC : 0 / 1 / 4
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/DM/fsh-generated/resources/CodeSystem-TRE-R74-ModeFixationTarifaire : 0 / 1 / 4
- /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/DM/fsh-generated/resources/CodeSystem-tre-r347-activite-sanitaire-diverse-regulee : 3 / 2 / 4
- /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/DM/fsh-generated/resources/CodeSystem-tre-r360-type-role-entite-groupe : 3 / 1 / 4
+ /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/DM/fsh-generated/resources/CodeSystem-tre-r347-activite-sanitaire-diverse-regulee : 2 / 3 / 4
+ /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/DM/fsh-generated/resources/CodeSystem-tre-r360-type-role-entite-groupe : 2 / 2 / 4
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/DM/fsh-generated/resources/CodeSystem-tre-r361-fonction-publique : 2 / 0 / 4
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/DM/fsh-generated/resources/CodeSystem-tre-r362-type-budget : 2 / 0 / 4
- /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/DM/fsh-generated/resources/CodeSystem-tre-r363-type-engagement : 3 / 1 / 4
- /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/DM/fsh-generated/resources/CodeSystem-tre-r364-type-document-administratif : 4 / 2 / 4
- /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/DM/fsh-generated/resources/CodeSystem-tre-r365-etat-objet : 3 / 3 / 4
- /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/DM/fsh-generated/resources/CodeSystem-tre-r366-type-objet : 3 / 1 / 4
+ /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/DM/fsh-generated/resources/CodeSystem-tre-r363-type-engagement : 2 / 2 / 4
+ /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/DM/fsh-generated/resources/CodeSystem-tre-r364-type-document-administratif : 2 / 4 / 4
+ /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/DM/fsh-generated/resources/CodeSystem-tre-r365-etat-objet : 2 / 4 / 4
+ /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/DM/fsh-generated/resources/CodeSystem-tre-r366-type-objet : 2 / 2 / 4
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/DM/fsh-generated/resources/CodeSystem-tre-r370-role-relation-ege : 2 / 0 / 4
- /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/DM/fsh-generated/resources/CodeSystem-tre-r371-type-groupe-gcc : 3 / 1 / 4
- /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/DM/fsh-generated/resources/CodeSystem-tre-r372-type-groupe-gco : 3 / 1 / 4
+ /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/DM/fsh-generated/resources/CodeSystem-tre-r371-type-groupe-gcc : 2 / 2 / 4
+ /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/DM/fsh-generated/resources/CodeSystem-tre-r372-type-groupe-gco : 2 / 2 / 4
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/DM/fsh-generated/resources/CodeSystem-tre-r373-type-personne-morale : 2 / 0 / 4
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/DM/fsh-generated/resources/CodeSystem-tre-r374-nature-activite-smsse-regulee : 2 / 1 / 4
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/DM/fsh-generated/resources/CodeSystem-tre-r375-mode-financement : 2 / 0 / 4
- /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/DM/fsh-generated/resources/CodeSystem-tre-r376-type-evenement-administratif : 3 / 1 / 4
- /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/DM/fsh-generated/resources/CodeSystem-tre-r377-usage-adresse : 3 / 1 / 4
+ /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/DM/fsh-generated/resources/CodeSystem-tre-r376-type-evenement-administratif : 2 / 2 / 4
+ /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/DM/fsh-generated/resources/CodeSystem-tre-r377-usage-adresse : 2 / 2 / 4
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/DM/fsh-generated/resources/CodeSystem-tre-r378-motif-arrete : 2 / 0 / 4
- /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/DM/fsh-generated/resources/CodeSystem-tre-r379-systeme-information : 3 / 1 / 4
+ /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/DM/fsh-generated/resources/CodeSystem-tre-r379-systeme-information : 2 / 2 / 4
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/DM/fsh-generated/resources/CodeSystem-tre-r381-activite-amm : 2 / 0 / 4
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/DM/fsh-generated/resources/CodeSystem-tre-r382-modalite-act-de-soin-amm : 2 / 3 / 4
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/DM/fsh-generated/resources/CodeSystem-tre-r383-mention-act-de-soin-amm : 2 / 0 / 4
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/DM/fsh-generated/resources/CodeSystem-tre-r384-pratique-therapeutique-specifique-act-de-soin-amm : 2 / 0 / 4
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/DM/fsh-generated/resources/CodeSystem-tre-r385-declaration-act-de-soin-amm : 2 / 0 / 4
- /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/DM/fsh-generated/resources/CodeSystem-tre-r386-macro-etat-objet-administratif : 3 / 1 / 4
- /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/DM/fsh-generated/resources/CodeSystem-tre-r387-type-groupement : 4 / 3 / 4
+ /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/DM/fsh-generated/resources/CodeSystem-tre-r386-macro-etat-objet-administratif : 2 / 2 / 4
+ /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/DM/fsh-generated/resources/CodeSystem-tre-r387-type-groupement : 2 / 5 / 4
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/DM/fsh-generated/resources/CodeSystem-tre-r388-type-logement : 2 / 0 / 4
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/DM/fsh-generated/resources/CodeSystem-tre-r392-type-act-smsse-regulee : 2 / 30 / 615
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/DM/fsh-generated/resources/CodeSystem-tre-r395-engagement : 2 / 2 / 4
@@ -350,7 +350,7 @@ Generated $--. FHIR version $-- for ans.fr.terminologies#$-- (canonical = https:
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_J232_Competence_ROR_JDV-J232-Competence-ROR : 0 / 1 / 1
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_J233_TypeDiplome_EPARS_JDV-J233-TypeDiplome-EPARS : 0 / 1 / 1
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_J234_GenreActivite_EPARS_JDV-J234-GenreActivite-EPARS : 0 / 1 / 1
- /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_J235_LieuFormation_EPARS_JDV-J235-LieuFormation-EPARS : 0 / 1 / 1
+ /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_J235_LieuFormation_EPARS_JDV-J235-LieuFormation-EPARS : 110 / 2 / 1
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_J236_TypeIdentifiant_ROR_JDV-J236-TypeIdentifiant-ROR : 0 / 1 / 1
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_J237_RegionOM_ROR_JDV-J237-RegionOM-ROR : 0 / 1 / 1
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_J238_TypeOffre_ROR_JDV-J238-TypeOffre-ROR : 0 / 1 / 1
@@ -916,7 +916,10 @@ Generated $--. FHIR version $-- for ans.fr.terminologies#$-- (canonical = https:
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/WorkScheduleODH_jdv-hl7-v3-WorkScheduleODH-cisis : 2 / 0 / 1
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/XActMoodDocumentObservation_jdv-hl7-v3-xActMoodDocumentObservation : 2 / 0 / 1
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/XBasicConfidentialityKind_jdv-hl7-v3-xBasicConfidentialityKind-cisis : 2 / 0 / 1
+ /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/NamingSystem/ADICAP : 1 / 0 / 1
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/NamingSystem/LOINC : 1 / 0 / 1
+ /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/NamingSystem/NCIT : 1 / 0 / 1
+ /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/NamingSystem/PCS : 1 / 0 / 1
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/NamingSystem/Snomed_CT_core_900000000000207008 : 1 / 0 / 1
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/TRE/ATC : 3 / 14 / 9
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/TRE/BDPM : 3 / 34 / 27
@@ -975,7 +978,7 @@ Generated $--. FHIR version $-- for ans.fr.terminologies#$-- (canonical = https:
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/TRE/TRE_R11_CiviliteExercice : 0 / 1 / 4
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/TRE/TRE_R13_CommuneOM : 3 / 2 / 4
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/TRE/TRE_R14_TypeDiplome : 0 / 1 / 4
- /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/TRE/TRE_R16_LieuFormation : 0 / 1 / 4
+ /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/TRE/TRE_R16_LieuFormation : 3 / 2 / 4
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/TRE/TRE_R17_TypeAutorisation : 0 / 1 / 4
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/TRE/TRE_R18_DisciplineAutorisation : 0 / 1 / 4
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/TRE/TRE_R200_CanalCommunication : 0 / 1 / 4
@@ -1174,9 +1177,34 @@ WARNING: Unable to find ImplementationGuide.definition.resource.description for 
 WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource CodeSystem/terminologie-nabm.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
 WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource CodeSystem/terminologie-standardterms.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
 WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource CodeSystem/TRE-R13-CommuneOM.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource CodeSystem/TRE-R16-LieuFormation.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
 WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource CodeSystem/TRE-R210-ActeSpecifique.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource NamingSystem/ADICAP.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
 WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource NamingSystem/v3-loinc.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource NamingSystem/NCIT.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource NamingSystem/PCS.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
 WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource NamingSystem/Snomed-CT-core.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+ERROR: NamingSystem-ADICAP-testing.html#/html/body/div/div/div/div/div/ul/li/a at Line 214, column 4: The link 'NamingSystem-ADICAP.demande.html' for "Demande" cannot be resolved
+ERROR: NamingSystem-ADICAP.change.history.html#/html/body/div/div/div/div/div/ul/li/a at Line 215, column 4: The link 'NamingSystem-ADICAP.demande.html' for "Demande" cannot be resolved
+ERROR: NamingSystem-ADICAP.histoire.html#/html/body/div/div/div/div/div/ul/li/a at Line 219, column 4: The link 'NamingSystem-ADICAP.demande.html' for "Demande" cannot be resolved
+ERROR: NamingSystem-ADICAP.html#/html/body/div/div/div/div/div/ul/li/a at Line 214, column 4: The link 'NamingSystem-ADICAP.demande.html' for "Demande" cannot be resolved
+ERROR: NamingSystem-ADICAP.json.html#/html/body/div/div/div/div/div/ul/li/a at Line 216, column 4: The link 'NamingSystem-ADICAP.demande.html' for "Demande" cannot be resolved
+ERROR: NamingSystem-ADICAP.ttl.html#/html/body/div/div/div/div/div/ul/li/a at Line 216, column 4: The link 'NamingSystem-ADICAP.demande.html' for "Demande" cannot be resolved
+ERROR: NamingSystem-ADICAP.xml.html#/html/body/div/div/div/div/div/ul/li/a at Line 216, column 4: The link 'NamingSystem-ADICAP.demande.html' for "Demande" cannot be resolved
+ERROR: NamingSystem-NCIT-testing.html#/html/body/div/div/div/div/div/ul/li/a at Line 214, column 4: The link 'NamingSystem-NCIT.demande.html' for "Demande" cannot be resolved
+ERROR: NamingSystem-NCIT.change.history.html#/html/body/div/div/div/div/div/ul/li/a at Line 215, column 4: The link 'NamingSystem-NCIT.demande.html' for "Demande" cannot be resolved
+ERROR: NamingSystem-NCIT.histoire.html#/html/body/div/div/div/div/div/ul/li/a at Line 219, column 4: The link 'NamingSystem-NCIT.demande.html' for "Demande" cannot be resolved
+ERROR: NamingSystem-NCIT.html#/html/body/div/div/div/div/div/ul/li/a at Line 214, column 4: The link 'NamingSystem-NCIT.demande.html' for "Demande" cannot be resolved
+ERROR: NamingSystem-NCIT.json.html#/html/body/div/div/div/div/div/ul/li/a at Line 216, column 4: The link 'NamingSystem-NCIT.demande.html' for "Demande" cannot be resolved
+ERROR: NamingSystem-NCIT.ttl.html#/html/body/div/div/div/div/div/ul/li/a at Line 216, column 4: The link 'NamingSystem-NCIT.demande.html' for "Demande" cannot be resolved
+ERROR: NamingSystem-NCIT.xml.html#/html/body/div/div/div/div/div/ul/li/a at Line 216, column 4: The link 'NamingSystem-NCIT.demande.html' for "Demande" cannot be resolved
+ERROR: NamingSystem-PCS-testing.html#/html/body/div/div/div/div/div/ul/li/a at Line 214, column 4: The link 'NamingSystem-PCS.demande.html' for "Demande" cannot be resolved
+ERROR: NamingSystem-PCS.change.history.html#/html/body/div/div/div/div/div/ul/li/a at Line 215, column 4: The link 'NamingSystem-PCS.demande.html' for "Demande" cannot be resolved
+ERROR: NamingSystem-PCS.histoire.html#/html/body/div/div/div/div/div/ul/li/a at Line 219, column 4: The link 'NamingSystem-PCS.demande.html' for "Demande" cannot be resolved
+ERROR: NamingSystem-PCS.html#/html/body/div/div/div/div/div/ul/li/a at Line 214, column 4: The link 'NamingSystem-PCS.demande.html' for "Demande" cannot be resolved
+ERROR: NamingSystem-PCS.json.html#/html/body/div/div/div/div/div/ul/li/a at Line 216, column 4: The link 'NamingSystem-PCS.demande.html' for "Demande" cannot be resolved
+ERROR: NamingSystem-PCS.ttl.html#/html/body/div/div/div/div/div/ul/li/a at Line 216, column 4: The link 'NamingSystem-PCS.demande.html' for "Demande" cannot be resolved
+ERROR: NamingSystem-PCS.xml.html#/html/body/div/div/div/div/div/ul/li/a at Line 216, column 4: The link 'NamingSystem-PCS.demande.html' for "Demande" cannot be resolved
 ERROR: NamingSystem-Snomed-CT-core-testing.html#/html/body/div/div/div/div/div/ul/li/a at Line 214, column 4: The link 'NamingSystem-Snomed-CT-core.demande.html' for "Demande" cannot be resolved
 ERROR: NamingSystem-Snomed-CT-core.change.history.html#/html/body/div/div/div/div/div/ul/li/a at Line 215, column 4: The link 'NamingSystem-Snomed-CT-core.demande.html' for "Demande" cannot be resolved
 ERROR: NamingSystem-Snomed-CT-core.histoire.html#/html/body/div/div/div/div/div/ul/li/a at Line 219, column 4: The link 'NamingSystem-Snomed-CT-core.demande.html' for "Demande" cannot be resolved
@@ -1757,20 +1785,20 @@ INFORMATION: CodeSystem/TRE-R74-ModeFixationTarifaire: CodeSystem.property[1]: T
 INFORMATION: CodeSystem/TRE-R74-ModeFixationTarifaire: CodeSystem.property[2]: This property has only a code ('dateFin') and not a URI, so it has no clearly defined meaning in the terminology ecosystem
 == DM/fsh-generated/resources/CodeSystem-tre-r347-activite-sanitaire-diverse-regulee.json ==
 ERROR: CodeSystem.where(url = 'https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r347-activite-sanitaire-diverse-regulee'): Conformance resource /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/DM/fsh-generated/resources/CodeSystem-tre-r347-activite-sanitaire-diverse-regulee.json - the canonical URL (https://interop.esante.gouv.fr/terminologies/CodeSystem/tre-r347-activite-sanitaire-diverse-regulee) does not match the URL (https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r347-activite-sanitaire-diverse-regulee)
+WARNING: CodeSystem/tre-r347-activite-sanitaire-diverse-regulee: CodeSystem.property[7].uri: No definition could be found for URL value 'https://smt.esante.gouv.fr/fhir/concept-properties#niveau'
 WARNING: CodeSystem/tre-r347-activite-sanitaire-diverse-regulee: CodeSystem.concept[429].designation[0].value: value should not start or finish with whitespace 'Act.Transf.Sanguine '
-INFORMATION: CodeSystem/tre-r347-activite-sanitaire-diverse-regulee: CodeSystem.property[2]: This property has only a code ('dateValid') and not a URI, so it has no clearly defined meaning in the terminology ecosystem
-INFORMATION: CodeSystem/tre-r347-activite-sanitaire-diverse-regulee: CodeSystem.property[3]: This property has only a code ('dateMaj') and not a URI, so it has no clearly defined meaning in the terminology ecosystem
-INFORMATION: CodeSystem/tre-r347-activite-sanitaire-diverse-regulee: CodeSystem.property[4]: This property has only a code ('dateFin') and not a URI, so it has no clearly defined meaning in the terminology ecosystem
-WARNING: CodeSystem/tre-r347-activite-sanitaire-diverse-regulee: CodeSystem.property[8]: The uri 'http://hl7.org/fhir/concept-properties#niveau' for the property 'niveau' implies a property with that URI exists in the CodeSystem FHIR Defined Concept Properties for http://hl7.org/fhir/concept-properties, or the code 'niveau' does, but neither were found
-ERROR: CodeSystem/tre-r347-activite-sanitaire-diverse-regulee: CodeSystem.property[8]: Unknown CodeSystem Property 'http://hl7.org/fhir/concept-properties#niveau'. If you are creating your own property, do not create it in the HL7 namespace
+INFORMATION: CodeSystem/tre-r347-activite-sanitaire-diverse-regulee: CodeSystem.property[1]: This property has only a code ('dateValid') and not a URI, so it has no clearly defined meaning in the terminology ecosystem
+INFORMATION: CodeSystem/tre-r347-activite-sanitaire-diverse-regulee: CodeSystem.property[2]: This property has only a code ('dateMaj') and not a URI, so it has no clearly defined meaning in the terminology ecosystem
+INFORMATION: CodeSystem/tre-r347-activite-sanitaire-diverse-regulee: CodeSystem.property[3]: This property has only a code ('dateFin') and not a URI, so it has no clearly defined meaning in the terminology ecosystem
+WARNING: CodeSystem/tre-r347-activite-sanitaire-diverse-regulee: CodeSystem.property[7]: The base property uri 'https://smt.esante.gouv.fr/fhir/concept-properties' is not known for the property 'niveau', so the property values can not be validated fully
 ERROR: /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/DM/fsh-generated/resources/CodeSystem-tre-r347-activite-sanitaire-diverse-regulee: URL Mismatch https://interop.esante.gouv.fr/terminologies/CodeSystem/tre-r347-activite-sanitaire-diverse-regulee vs https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r347-activite-sanitaire-diverse-regulee
 == DM/fsh-generated/resources/CodeSystem-tre-r360-type-role-entite-groupe.json ==
 ERROR: CodeSystem.where(url = 'https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r360-type-role-entite-groupe'): Conformance resource /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/DM/fsh-generated/resources/CodeSystem-tre-r360-type-role-entite-groupe.json - the canonical URL (https://interop.esante.gouv.fr/terminologies/CodeSystem/tre-r360-type-role-entite-groupe) does not match the URL (https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r360-type-role-entite-groupe)
+WARNING: CodeSystem/tre-r360-type-role-entite-groupe: CodeSystem.property[6].uri: No definition could be found for URL value 'https://smt.esante.gouv.fr/fhir/concept-properties#finess'
 INFORMATION: CodeSystem/tre-r360-type-role-entite-groupe: CodeSystem.property[0]: This property has only a code ('dateValid') and not a URI, so it has no clearly defined meaning in the terminology ecosystem
 INFORMATION: CodeSystem/tre-r360-type-role-entite-groupe: CodeSystem.property[1]: This property has only a code ('dateMaj') and not a URI, so it has no clearly defined meaning in the terminology ecosystem
 INFORMATION: CodeSystem/tre-r360-type-role-entite-groupe: CodeSystem.property[2]: This property has only a code ('dateFin') and not a URI, so it has no clearly defined meaning in the terminology ecosystem
-WARNING: CodeSystem/tre-r360-type-role-entite-groupe: CodeSystem.property[6]: The uri 'http://hl7.org/fhir/concept-properties#finess' for the property 'finess' implies a property with that URI exists in the CodeSystem FHIR Defined Concept Properties for http://hl7.org/fhir/concept-properties, or the code 'finess' does, but neither were found
-ERROR: CodeSystem/tre-r360-type-role-entite-groupe: CodeSystem.property[6]: Unknown CodeSystem Property 'http://hl7.org/fhir/concept-properties#finess'. If you are creating your own property, do not create it in the HL7 namespace
+WARNING: CodeSystem/tre-r360-type-role-entite-groupe: CodeSystem.property[6]: The base property uri 'https://smt.esante.gouv.fr/fhir/concept-properties' is not known for the property 'finess', so the property values can not be validated fully
 ERROR: /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/DM/fsh-generated/resources/CodeSystem-tre-r360-type-role-entite-groupe: URL Mismatch https://interop.esante.gouv.fr/terminologies/CodeSystem/tre-r360-type-role-entite-groupe vs https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r360-type-role-entite-groupe
 == DM/fsh-generated/resources/CodeSystem-tre-r361-fonction-publique.json ==
 ERROR: CodeSystem.where(url = 'https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r361-fonction-publique'): Conformance resource /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/DM/fsh-generated/resources/CodeSystem-tre-r361-fonction-publique.json - the canonical URL (https://interop.esante.gouv.fr/terminologies/CodeSystem/tre-r361-fonction-publique) does not match the URL (https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r361-fonction-publique)
@@ -1786,39 +1814,39 @@ INFORMATION: CodeSystem/tre-r362-type-budget: CodeSystem.property[2]: This prope
 ERROR: /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/DM/fsh-generated/resources/CodeSystem-tre-r362-type-budget: URL Mismatch https://interop.esante.gouv.fr/terminologies/CodeSystem/tre-r362-type-budget vs https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r362-type-budget
 == DM/fsh-generated/resources/CodeSystem-tre-r363-type-engagement.json ==
 ERROR: CodeSystem.where(url = 'https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r363-type-engagement'): Conformance resource /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/DM/fsh-generated/resources/CodeSystem-tre-r363-type-engagement.json - the canonical URL (https://interop.esante.gouv.fr/terminologies/CodeSystem/tre-r363-type-engagement) does not match the URL (https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r363-type-engagement)
+WARNING: CodeSystem/tre-r363-type-engagement: CodeSystem.property[6].uri: No definition could be found for URL value 'https://smt.esante.gouv.fr/fhir/concept-properties#finess'
 INFORMATION: CodeSystem/tre-r363-type-engagement: CodeSystem.property[0]: This property has only a code ('dateValid') and not a URI, so it has no clearly defined meaning in the terminology ecosystem
 INFORMATION: CodeSystem/tre-r363-type-engagement: CodeSystem.property[1]: This property has only a code ('dateMaj') and not a URI, so it has no clearly defined meaning in the terminology ecosystem
 INFORMATION: CodeSystem/tre-r363-type-engagement: CodeSystem.property[2]: This property has only a code ('dateFin') and not a URI, so it has no clearly defined meaning in the terminology ecosystem
-WARNING: CodeSystem/tre-r363-type-engagement: CodeSystem.property[6]: The uri 'http://hl7.org/fhir/concept-properties#finess' for the property 'finess' implies a property with that URI exists in the CodeSystem FHIR Defined Concept Properties for http://hl7.org/fhir/concept-properties, or the code 'finess' does, but neither were found
-ERROR: CodeSystem/tre-r363-type-engagement: CodeSystem.property[6]: Unknown CodeSystem Property 'http://hl7.org/fhir/concept-properties#finess'. If you are creating your own property, do not create it in the HL7 namespace
+WARNING: CodeSystem/tre-r363-type-engagement: CodeSystem.property[6]: The base property uri 'https://smt.esante.gouv.fr/fhir/concept-properties' is not known for the property 'finess', so the property values can not be validated fully
 ERROR: /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/DM/fsh-generated/resources/CodeSystem-tre-r363-type-engagement: URL Mismatch https://interop.esante.gouv.fr/terminologies/CodeSystem/tre-r363-type-engagement vs https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r363-type-engagement
 == DM/fsh-generated/resources/CodeSystem-tre-r364-type-document-administratif.json ==
 ERROR: CodeSystem.where(url = 'https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r364-type-document-administratif'): Conformance resource /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/DM/fsh-generated/resources/CodeSystem-tre-r364-type-document-administratif.json - the canonical URL (https://interop.esante.gouv.fr/terminologies/CodeSystem/tre-r364-type-document-administratif) does not match the URL (https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r364-type-document-administratif)
+WARNING: CodeSystem/tre-r364-type-document-administratif: CodeSystem.property[6].uri: No definition could be found for URL value 'https://smt.esante.gouv.fr/fhir/concept-properties#JdvJ295DocumentInformatifFiness'
+WARNING: CodeSystem/tre-r364-type-document-administratif: CodeSystem.property[7].uri: No definition could be found for URL value 'https://smt.esante.gouv.fr/fhir/concept-properties#JdvJ294DocumentJustificatifFiness'
 INFORMATION: CodeSystem/tre-r364-type-document-administratif: CodeSystem.property[0]: This property has only a code ('dateValid') and not a URI, so it has no clearly defined meaning in the terminology ecosystem
 INFORMATION: CodeSystem/tre-r364-type-document-administratif: CodeSystem.property[1]: This property has only a code ('dateMaj') and not a URI, so it has no clearly defined meaning in the terminology ecosystem
 INFORMATION: CodeSystem/tre-r364-type-document-administratif: CodeSystem.property[2]: This property has only a code ('dateFin') and not a URI, so it has no clearly defined meaning in the terminology ecosystem
-WARNING: CodeSystem/tre-r364-type-document-administratif: CodeSystem.property[6]: The uri 'http://hl7.org/fhir/concept-properties#JdvJ295DocumentInformatifFiness' for the property 'JdvJ295DocumentInformatifFiness' implies a property with that URI exists in the CodeSystem FHIR Defined Concept Properties for http://hl7.org/fhir/concept-properties, or the code 'JdvJ295DocumentInformatifFiness' does, but neither were found
-ERROR: CodeSystem/tre-r364-type-document-administratif: CodeSystem.property[6]: Unknown CodeSystem Property 'http://hl7.org/fhir/concept-properties#JdvJ295DocumentInformatifFiness'. If you are creating your own property, do not create it in the HL7 namespace
-WARNING: CodeSystem/tre-r364-type-document-administratif: CodeSystem.property[7]: The uri 'http://hl7.org/fhir/concept-properties#JdvJ294DocumentJustificatifFiness' for the property 'JdvJ294DocumentJustificatifFiness' implies a property with that URI exists in the CodeSystem FHIR Defined Concept Properties for http://hl7.org/fhir/concept-properties, or the code 'JdvJ294DocumentJustificatifFiness' does, but neither were found
-ERROR: CodeSystem/tre-r364-type-document-administratif: CodeSystem.property[7]: Unknown CodeSystem Property 'http://hl7.org/fhir/concept-properties#JdvJ294DocumentJustificatifFiness'. If you are creating your own property, do not create it in the HL7 namespace
+WARNING: CodeSystem/tre-r364-type-document-administratif: CodeSystem.property[6]: The base property uri 'https://smt.esante.gouv.fr/fhir/concept-properties' is not known for the property 'JdvJ295DocumentInformatifFiness', so the property values can not be validated fully
+WARNING: CodeSystem/tre-r364-type-document-administratif: CodeSystem.property[7]: The base property uri 'https://smt.esante.gouv.fr/fhir/concept-properties' is not known for the property 'JdvJ294DocumentJustificatifFiness', so the property values can not be validated fully
 ERROR: /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/DM/fsh-generated/resources/CodeSystem-tre-r364-type-document-administratif: URL Mismatch https://interop.esante.gouv.fr/terminologies/CodeSystem/tre-r364-type-document-administratif vs https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r364-type-document-administratif
 == DM/fsh-generated/resources/CodeSystem-tre-r365-etat-objet.json ==
 ERROR: CodeSystem.where(url = 'https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r365-etat-objet'): Conformance resource /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/DM/fsh-generated/resources/CodeSystem-tre-r365-etat-objet.json - the canonical URL (https://interop.esante.gouv.fr/terminologies/CodeSystem/tre-r365-etat-objet) does not match the URL (https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r365-etat-objet)
 WARNING: CodeSystem/tre-r365-etat-objet: CodeSystem.property[6].uri: No definition could be found for URL value 'https://smt.esante.gouv.fr/fhir/concept-properties#macroEtatAdministratif'
+WARNING: CodeSystem/tre-r365-etat-objet: CodeSystem.property[7].uri: No definition could be found for URL value 'https://smt.esante.gouv.fr/fhir/concept-properties#finess'
 INFORMATION: CodeSystem/tre-r365-etat-objet: CodeSystem.property[0]: This property has only a code ('dateValid') and not a URI, so it has no clearly defined meaning in the terminology ecosystem
 INFORMATION: CodeSystem/tre-r365-etat-objet: CodeSystem.property[1]: This property has only a code ('dateMaj') and not a URI, so it has no clearly defined meaning in the terminology ecosystem
 INFORMATION: CodeSystem/tre-r365-etat-objet: CodeSystem.property[2]: This property has only a code ('dateFin') and not a URI, so it has no clearly defined meaning in the terminology ecosystem
 WARNING: CodeSystem/tre-r365-etat-objet: CodeSystem.property[6]: The base property uri 'https://smt.esante.gouv.fr/fhir/concept-properties' is not known for the property 'macroEtatAdministratif', so the property values can not be validated fully
-WARNING: CodeSystem/tre-r365-etat-objet: CodeSystem.property[7]: The uri 'http://hl7.org/fhir/concept-properties#finess' for the property 'finess' implies a property with that URI exists in the CodeSystem FHIR Defined Concept Properties for http://hl7.org/fhir/concept-properties, or the code 'finess' does, but neither were found
-ERROR: CodeSystem/tre-r365-etat-objet: CodeSystem.property[7]: Unknown CodeSystem Property 'http://hl7.org/fhir/concept-properties#finess'. If you are creating your own property, do not create it in the HL7 namespace
+WARNING: CodeSystem/tre-r365-etat-objet: CodeSystem.property[7]: The base property uri 'https://smt.esante.gouv.fr/fhir/concept-properties' is not known for the property 'finess', so the property values can not be validated fully
 ERROR: /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/DM/fsh-generated/resources/CodeSystem-tre-r365-etat-objet: URL Mismatch https://interop.esante.gouv.fr/terminologies/CodeSystem/tre-r365-etat-objet vs https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r365-etat-objet
 == DM/fsh-generated/resources/CodeSystem-tre-r366-type-objet.json ==
 ERROR: CodeSystem.where(url = 'https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r366-type-objet'): Conformance resource /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/DM/fsh-generated/resources/CodeSystem-tre-r366-type-objet.json - the canonical URL (https://interop.esante.gouv.fr/terminologies/CodeSystem/tre-r366-type-objet) does not match the URL (https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r366-type-objet)
+WARNING: CodeSystem/tre-r366-type-objet: CodeSystem.property[6].uri: No definition could be found for URL value 'https://smt.esante.gouv.fr/fhir/concept-properties#finess'
 INFORMATION: CodeSystem/tre-r366-type-objet: CodeSystem.property[0]: This property has only a code ('dateValid') and not a URI, so it has no clearly defined meaning in the terminology ecosystem
 INFORMATION: CodeSystem/tre-r366-type-objet: CodeSystem.property[1]: This property has only a code ('dateMaj') and not a URI, so it has no clearly defined meaning in the terminology ecosystem
 INFORMATION: CodeSystem/tre-r366-type-objet: CodeSystem.property[2]: This property has only a code ('dateFin') and not a URI, so it has no clearly defined meaning in the terminology ecosystem
-WARNING: CodeSystem/tre-r366-type-objet: CodeSystem.property[6]: The uri 'http://hl7.org/fhir/concept-properties#finess' for the property 'finess' implies a property with that URI exists in the CodeSystem FHIR Defined Concept Properties for http://hl7.org/fhir/concept-properties, or the code 'finess' does, but neither were found
-ERROR: CodeSystem/tre-r366-type-objet: CodeSystem.property[6]: Unknown CodeSystem Property 'http://hl7.org/fhir/concept-properties#finess'. If you are creating your own property, do not create it in the HL7 namespace
+WARNING: CodeSystem/tre-r366-type-objet: CodeSystem.property[6]: The base property uri 'https://smt.esante.gouv.fr/fhir/concept-properties' is not known for the property 'finess', so the property values can not be validated fully
 ERROR: /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/DM/fsh-generated/resources/CodeSystem-tre-r366-type-objet: URL Mismatch https://interop.esante.gouv.fr/terminologies/CodeSystem/tre-r366-type-objet vs https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r366-type-objet
 == DM/fsh-generated/resources/CodeSystem-tre-r370-role-relation-ege.json ==
 ERROR: CodeSystem.where(url = 'https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r370-role-relation-ege'): Conformance resource /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/DM/fsh-generated/resources/CodeSystem-tre-r370-role-relation-ege.json - the canonical URL (https://interop.esante.gouv.fr/terminologies/CodeSystem/tre-r370-role-relation-ege) does not match the URL (https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r370-role-relation-ege)
@@ -1828,19 +1856,19 @@ INFORMATION: CodeSystem/tre-r370-role-relation-ege: CodeSystem.property[2]: This
 ERROR: /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/DM/fsh-generated/resources/CodeSystem-tre-r370-role-relation-ege: URL Mismatch https://interop.esante.gouv.fr/terminologies/CodeSystem/tre-r370-role-relation-ege vs https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r370-role-relation-ege
 == DM/fsh-generated/resources/CodeSystem-tre-r371-type-groupe-gcc.json ==
 ERROR: CodeSystem.where(url = 'https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r371-type-groupe-gcc'): Conformance resource /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/DM/fsh-generated/resources/CodeSystem-tre-r371-type-groupe-gcc.json - the canonical URL (https://interop.esante.gouv.fr/terminologies/CodeSystem/tre-r371-type-groupe-gcc) does not match the URL (https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r371-type-groupe-gcc)
+WARNING: CodeSystem/tre-r371-type-groupe-gcc: CodeSystem.property[6].uri: No definition could be found for URL value 'https://smt.esante.gouv.fr/fhir/concept-properties#finess'
 INFORMATION: CodeSystem/tre-r371-type-groupe-gcc: CodeSystem.property[0]: This property has only a code ('dateValid') and not a URI, so it has no clearly defined meaning in the terminology ecosystem
 INFORMATION: CodeSystem/tre-r371-type-groupe-gcc: CodeSystem.property[1]: This property has only a code ('dateMaj') and not a URI, so it has no clearly defined meaning in the terminology ecosystem
 INFORMATION: CodeSystem/tre-r371-type-groupe-gcc: CodeSystem.property[2]: This property has only a code ('dateFin') and not a URI, so it has no clearly defined meaning in the terminology ecosystem
-WARNING: CodeSystem/tre-r371-type-groupe-gcc: CodeSystem.property[6]: The uri 'http://hl7.org/fhir/concept-properties#finess' for the property 'finess' implies a property with that URI exists in the CodeSystem FHIR Defined Concept Properties for http://hl7.org/fhir/concept-properties, or the code 'finess' does, but neither were found
-ERROR: CodeSystem/tre-r371-type-groupe-gcc: CodeSystem.property[6]: Unknown CodeSystem Property 'http://hl7.org/fhir/concept-properties#finess'. If you are creating your own property, do not create it in the HL7 namespace
+WARNING: CodeSystem/tre-r371-type-groupe-gcc: CodeSystem.property[6]: The base property uri 'https://smt.esante.gouv.fr/fhir/concept-properties' is not known for the property 'finess', so the property values can not be validated fully
 ERROR: /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/DM/fsh-generated/resources/CodeSystem-tre-r371-type-groupe-gcc: URL Mismatch https://interop.esante.gouv.fr/terminologies/CodeSystem/tre-r371-type-groupe-gcc vs https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r371-type-groupe-gcc
 == DM/fsh-generated/resources/CodeSystem-tre-r372-type-groupe-gco.json ==
 ERROR: CodeSystem.where(url = 'https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r372-type-groupe-gco'): Conformance resource /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/DM/fsh-generated/resources/CodeSystem-tre-r372-type-groupe-gco.json - the canonical URL (https://interop.esante.gouv.fr/terminologies/CodeSystem/tre-r372-type-groupe-gco) does not match the URL (https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r372-type-groupe-gco)
+WARNING: CodeSystem/tre-r372-type-groupe-gco: CodeSystem.property[6].uri: No definition could be found for URL value 'https://smt.esante.gouv.fr/fhir/concept-properties#finess'
 INFORMATION: CodeSystem/tre-r372-type-groupe-gco: CodeSystem.property[0]: This property has only a code ('dateValid') and not a URI, so it has no clearly defined meaning in the terminology ecosystem
 INFORMATION: CodeSystem/tre-r372-type-groupe-gco: CodeSystem.property[1]: This property has only a code ('dateMaj') and not a URI, so it has no clearly defined meaning in the terminology ecosystem
 INFORMATION: CodeSystem/tre-r372-type-groupe-gco: CodeSystem.property[2]: This property has only a code ('dateFin') and not a URI, so it has no clearly defined meaning in the terminology ecosystem
-WARNING: CodeSystem/tre-r372-type-groupe-gco: CodeSystem.property[6]: The uri 'http://hl7.org/fhir/concept-properties#finess' for the property 'finess' implies a property with that URI exists in the CodeSystem FHIR Defined Concept Properties for http://hl7.org/fhir/concept-properties, or the code 'finess' does, but neither were found
-ERROR: CodeSystem/tre-r372-type-groupe-gco: CodeSystem.property[6]: Unknown CodeSystem Property 'http://hl7.org/fhir/concept-properties#finess'. If you are creating your own property, do not create it in the HL7 namespace
+WARNING: CodeSystem/tre-r372-type-groupe-gco: CodeSystem.property[6]: The base property uri 'https://smt.esante.gouv.fr/fhir/concept-properties' is not known for the property 'finess', so the property values can not be validated fully
 ERROR: /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/DM/fsh-generated/resources/CodeSystem-tre-r372-type-groupe-gco: URL Mismatch https://interop.esante.gouv.fr/terminologies/CodeSystem/tre-r372-type-groupe-gco vs https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r372-type-groupe-gco
 == DM/fsh-generated/resources/CodeSystem-tre-r373-type-personne-morale.json ==
 ERROR: CodeSystem.where(url = 'https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r373-type-personne-morale'): Conformance resource /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/DM/fsh-generated/resources/CodeSystem-tre-r373-type-personne-morale.json - the canonical URL (https://interop.esante.gouv.fr/terminologies/CodeSystem/tre-r373-type-personne-morale) does not match the URL (https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r373-type-personne-morale)
@@ -1863,19 +1891,19 @@ INFORMATION: CodeSystem/tre-r375-mode-financement: CodeSystem.property[2]: This 
 ERROR: /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/DM/fsh-generated/resources/CodeSystem-tre-r375-mode-financement: URL Mismatch https://interop.esante.gouv.fr/terminologies/CodeSystem/tre-r375-mode-financement vs https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r375-mode-financement
 == DM/fsh-generated/resources/CodeSystem-tre-r376-type-evenement-administratif.json ==
 ERROR: CodeSystem.where(url = 'https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r376-type-evenement-administratif'): Conformance resource /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/DM/fsh-generated/resources/CodeSystem-tre-r376-type-evenement-administratif.json - the canonical URL (https://interop.esante.gouv.fr/terminologies/CodeSystem/tre-r376-type-evenement-administratif) does not match the URL (https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r376-type-evenement-administratif)
+WARNING: CodeSystem/tre-r376-type-evenement-administratif: CodeSystem.property[6].uri: No definition could be found for URL value 'https://smt.esante.gouv.fr/fhir/concept-properties#finess'
 INFORMATION: CodeSystem/tre-r376-type-evenement-administratif: CodeSystem.property[0]: This property has only a code ('dateValid') and not a URI, so it has no clearly defined meaning in the terminology ecosystem
 INFORMATION: CodeSystem/tre-r376-type-evenement-administratif: CodeSystem.property[1]: This property has only a code ('dateMaj') and not a URI, so it has no clearly defined meaning in the terminology ecosystem
 INFORMATION: CodeSystem/tre-r376-type-evenement-administratif: CodeSystem.property[2]: This property has only a code ('dateFin') and not a URI, so it has no clearly defined meaning in the terminology ecosystem
-WARNING: CodeSystem/tre-r376-type-evenement-administratif: CodeSystem.property[6]: The uri 'http://hl7.org/fhir/concept-properties#finess' for the property 'finess' implies a property with that URI exists in the CodeSystem FHIR Defined Concept Properties for http://hl7.org/fhir/concept-properties, or the code 'finess' does, but neither were found
-ERROR: CodeSystem/tre-r376-type-evenement-administratif: CodeSystem.property[6]: Unknown CodeSystem Property 'http://hl7.org/fhir/concept-properties#finess'. If you are creating your own property, do not create it in the HL7 namespace
+WARNING: CodeSystem/tre-r376-type-evenement-administratif: CodeSystem.property[6]: The base property uri 'https://smt.esante.gouv.fr/fhir/concept-properties' is not known for the property 'finess', so the property values can not be validated fully
 ERROR: /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/DM/fsh-generated/resources/CodeSystem-tre-r376-type-evenement-administratif: URL Mismatch https://interop.esante.gouv.fr/terminologies/CodeSystem/tre-r376-type-evenement-administratif vs https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r376-type-evenement-administratif
 == DM/fsh-generated/resources/CodeSystem-tre-r377-usage-adresse.json ==
 ERROR: CodeSystem.where(url = 'https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r377-usage-adresse'): Conformance resource /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/DM/fsh-generated/resources/CodeSystem-tre-r377-usage-adresse.json - the canonical URL (https://interop.esante.gouv.fr/terminologies/CodeSystem/tre-r377-usage-adresse) does not match the URL (https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r377-usage-adresse)
+WARNING: CodeSystem/tre-r377-usage-adresse: CodeSystem.property[6].uri: No definition could be found for URL value 'https://smt.esante.gouv.fr/fhir/concept-properties#finess'
 INFORMATION: CodeSystem/tre-r377-usage-adresse: CodeSystem.property[0]: This property has only a code ('dateValid') and not a URI, so it has no clearly defined meaning in the terminology ecosystem
 INFORMATION: CodeSystem/tre-r377-usage-adresse: CodeSystem.property[1]: This property has only a code ('dateMaj') and not a URI, so it has no clearly defined meaning in the terminology ecosystem
 INFORMATION: CodeSystem/tre-r377-usage-adresse: CodeSystem.property[2]: This property has only a code ('dateFin') and not a URI, so it has no clearly defined meaning in the terminology ecosystem
-WARNING: CodeSystem/tre-r377-usage-adresse: CodeSystem.property[6]: The uri 'http://hl7.org/fhir/concept-properties#finess' for the property 'finess' implies a property with that URI exists in the CodeSystem FHIR Defined Concept Properties for http://hl7.org/fhir/concept-properties, or the code 'finess' does, but neither were found
-ERROR: CodeSystem/tre-r377-usage-adresse: CodeSystem.property[6]: Unknown CodeSystem Property 'http://hl7.org/fhir/concept-properties#finess'. If you are creating your own property, do not create it in the HL7 namespace
+WARNING: CodeSystem/tre-r377-usage-adresse: CodeSystem.property[6]: The base property uri 'https://smt.esante.gouv.fr/fhir/concept-properties' is not known for the property 'finess', so the property values can not be validated fully
 ERROR: /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/DM/fsh-generated/resources/CodeSystem-tre-r377-usage-adresse: URL Mismatch https://interop.esante.gouv.fr/terminologies/CodeSystem/tre-r377-usage-adresse vs https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r377-usage-adresse
 == DM/fsh-generated/resources/CodeSystem-tre-r378-motif-arrete.json ==
 ERROR: CodeSystem.where(url = 'https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r378-motif-arrete'): Conformance resource /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/DM/fsh-generated/resources/CodeSystem-tre-r378-motif-arrete.json - the canonical URL (https://interop.esante.gouv.fr/terminologies/CodeSystem/tre-r378-motif-arrete) does not match the URL (https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r378-motif-arrete)
@@ -1885,11 +1913,11 @@ INFORMATION: CodeSystem/tre-r378-motif-arrete: CodeSystem.property[2]: This prop
 ERROR: /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/DM/fsh-generated/resources/CodeSystem-tre-r378-motif-arrete: URL Mismatch https://interop.esante.gouv.fr/terminologies/CodeSystem/tre-r378-motif-arrete vs https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r378-motif-arrete
 == DM/fsh-generated/resources/CodeSystem-tre-r379-systeme-information.json ==
 ERROR: CodeSystem.where(url = 'https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r379-systeme-information'): Conformance resource /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/DM/fsh-generated/resources/CodeSystem-tre-r379-systeme-information.json - the canonical URL (https://interop.esante.gouv.fr/terminologies/CodeSystem/tre-r379-systeme-information) does not match the URL (https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r379-systeme-information)
+WARNING: CodeSystem/tre-r379-systeme-information: CodeSystem.property[6].uri: No definition could be found for URL value 'https://smt.esante.gouv.fr/fhir/concept-properties#finess'
 INFORMATION: CodeSystem/tre-r379-systeme-information: CodeSystem.property[0]: This property has only a code ('dateValid') and not a URI, so it has no clearly defined meaning in the terminology ecosystem
 INFORMATION: CodeSystem/tre-r379-systeme-information: CodeSystem.property[1]: This property has only a code ('dateMaj') and not a URI, so it has no clearly defined meaning in the terminology ecosystem
 INFORMATION: CodeSystem/tre-r379-systeme-information: CodeSystem.property[2]: This property has only a code ('dateFin') and not a URI, so it has no clearly defined meaning in the terminology ecosystem
-WARNING: CodeSystem/tre-r379-systeme-information: CodeSystem.property[6]: The uri 'http://hl7.org/fhir/concept-properties#finess' for the property 'finess' implies a property with that URI exists in the CodeSystem FHIR Defined Concept Properties for http://hl7.org/fhir/concept-properties, or the code 'finess' does, but neither were found
-ERROR: CodeSystem/tre-r379-systeme-information: CodeSystem.property[6]: Unknown CodeSystem Property 'http://hl7.org/fhir/concept-properties#finess'. If you are creating your own property, do not create it in the HL7 namespace
+WARNING: CodeSystem/tre-r379-systeme-information: CodeSystem.property[6]: The base property uri 'https://smt.esante.gouv.fr/fhir/concept-properties' is not known for the property 'finess', so the property values can not be validated fully
 ERROR: /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/DM/fsh-generated/resources/CodeSystem-tre-r379-systeme-information: URL Mismatch https://interop.esante.gouv.fr/terminologies/CodeSystem/tre-r379-systeme-information vs https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r379-systeme-information
 == DM/fsh-generated/resources/CodeSystem-tre-r381-activite-amm.json ==
 ERROR: CodeSystem.where(url = 'https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r381-activite-amm'): Conformance resource /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/DM/fsh-generated/resources/CodeSystem-tre-r381-activite-amm.json - the canonical URL (https://interop.esante.gouv.fr/terminologies/CodeSystem/tre-r381-activite-amm) does not match the URL (https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r381-activite-amm)
@@ -1926,22 +1954,22 @@ INFORMATION: CodeSystem/tre-r385-declaration-act-de-soin-amm: CodeSystem.propert
 ERROR: /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/DM/fsh-generated/resources/CodeSystem-tre-r385-declaration-act-de-soin-amm: URL Mismatch https://interop.esante.gouv.fr/terminologies/CodeSystem/tre-r385-declaration-act-de-soin-amm vs https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r385-declaration-act-de-soin-amm
 == DM/fsh-generated/resources/CodeSystem-tre-r386-macro-etat-objet-administratif.json ==
 ERROR: CodeSystem.where(url = 'https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r386-macro-etat-objet-administratif'): Conformance resource /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/DM/fsh-generated/resources/CodeSystem-tre-r386-macro-etat-objet-administratif.json - the canonical URL (https://interop.esante.gouv.fr/terminologies/CodeSystem/tre-r386-macro-etat-objet-administratif) does not match the URL (https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r386-macro-etat-objet-administratif)
+WARNING: CodeSystem/tre-r386-macro-etat-objet-administratif: CodeSystem.property[6].uri: No definition could be found for URL value 'https://smt.esante.gouv.fr/fhir/concept-properties#finess'
 INFORMATION: CodeSystem/tre-r386-macro-etat-objet-administratif: CodeSystem.property[0]: This property has only a code ('dateValid') and not a URI, so it has no clearly defined meaning in the terminology ecosystem
 INFORMATION: CodeSystem/tre-r386-macro-etat-objet-administratif: CodeSystem.property[1]: This property has only a code ('dateMaj') and not a URI, so it has no clearly defined meaning in the terminology ecosystem
 INFORMATION: CodeSystem/tre-r386-macro-etat-objet-administratif: CodeSystem.property[2]: This property has only a code ('dateFin') and not a URI, so it has no clearly defined meaning in the terminology ecosystem
-WARNING: CodeSystem/tre-r386-macro-etat-objet-administratif: CodeSystem.property[6]: The uri 'http://hl7.org/fhir/concept-properties#finess' for the property 'finess' implies a property with that URI exists in the CodeSystem FHIR Defined Concept Properties for http://hl7.org/fhir/concept-properties, or the code 'finess' does, but neither were found
-ERROR: CodeSystem/tre-r386-macro-etat-objet-administratif: CodeSystem.property[6]: Unknown CodeSystem Property 'http://hl7.org/fhir/concept-properties#finess'. If you are creating your own property, do not create it in the HL7 namespace
+WARNING: CodeSystem/tre-r386-macro-etat-objet-administratif: CodeSystem.property[6]: The base property uri 'https://smt.esante.gouv.fr/fhir/concept-properties' is not known for the property 'finess', so the property values can not be validated fully
 ERROR: /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/DM/fsh-generated/resources/CodeSystem-tre-r386-macro-etat-objet-administratif: URL Mismatch https://interop.esante.gouv.fr/terminologies/CodeSystem/tre-r386-macro-etat-objet-administratif vs https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r386-macro-etat-objet-administratif
 == DM/fsh-generated/resources/CodeSystem-tre-r387-type-groupement.json ==
 ERROR: CodeSystem.where(url = 'https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r387-type-groupement'): Conformance resource /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/DM/fsh-generated/resources/CodeSystem-tre-r387-type-groupement.json - the canonical URL (https://interop.esante.gouv.fr/terminologies/CodeSystem/tre-r387-type-groupement) does not match the URL (https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r387-type-groupement)
+WARNING: CodeSystem/tre-r387-type-groupement: CodeSystem.property[6].uri: No definition could be found for URL value 'https://smt.esante.gouv.fr/fhir/concept-properties#finess'
+WARNING: CodeSystem/tre-r387-type-groupement: CodeSystem.property[7].uri: No definition could be found for URL value 'https://smt.esante.gouv.fr/fhir/concept-properties#hasTypeRoleMember'
 WARNING: CodeSystem/tre-r387-type-groupement: CodeSystem.concept[1].definition: value should not start or finish with whitespace ' La coopération organique entre personnes morales se traduit par la création d’une nouvelle structure juridique dotée d’une personnalité morale. Elle s’adosse à différents supports juridiques dont par exemple le GCS (Groupement de Coopération Sanitaire) ou le Groupement de Coopération sociale et médico-sociale (GCSMS). Un GCO est donc représenté par une Personne Morale particulière dite 'tête de groupe'.'
 INFORMATION: CodeSystem/tre-r387-type-groupement: CodeSystem.property[0]: This property has only a code ('dateValid') and not a URI, so it has no clearly defined meaning in the terminology ecosystem
 INFORMATION: CodeSystem/tre-r387-type-groupement: CodeSystem.property[1]: This property has only a code ('dateMaj') and not a URI, so it has no clearly defined meaning in the terminology ecosystem
 INFORMATION: CodeSystem/tre-r387-type-groupement: CodeSystem.property[2]: This property has only a code ('dateFin') and not a URI, so it has no clearly defined meaning in the terminology ecosystem
-WARNING: CodeSystem/tre-r387-type-groupement: CodeSystem.property[6]: The uri 'http://hl7.org/fhir/concept-properties#finess' for the property 'finess' implies a property with that URI exists in the CodeSystem FHIR Defined Concept Properties for http://hl7.org/fhir/concept-properties, or the code 'finess' does, but neither were found
-ERROR: CodeSystem/tre-r387-type-groupement: CodeSystem.property[6]: Unknown CodeSystem Property 'http://hl7.org/fhir/concept-properties#finess'. If you are creating your own property, do not create it in the HL7 namespace
-WARNING: CodeSystem/tre-r387-type-groupement: CodeSystem.property[7]: The uri 'http://hl7.org/fhir/concept-properties#hasTypeRoleMember' for the property 'hasTypeRoleMember' implies a property with that URI exists in the CodeSystem FHIR Defined Concept Properties for http://hl7.org/fhir/concept-properties, or the code 'hasTypeRoleMember' does, but neither were found
-ERROR: CodeSystem/tre-r387-type-groupement: CodeSystem.property[7]: Unknown CodeSystem Property 'http://hl7.org/fhir/concept-properties#hasTypeRoleMember'. If you are creating your own property, do not create it in the HL7 namespace
+WARNING: CodeSystem/tre-r387-type-groupement: CodeSystem.property[6]: The base property uri 'https://smt.esante.gouv.fr/fhir/concept-properties' is not known for the property 'finess', so the property values can not be validated fully
+WARNING: CodeSystem/tre-r387-type-groupement: CodeSystem.property[7]: The base property uri 'https://smt.esante.gouv.fr/fhir/concept-properties' is not known for the property 'hasTypeRoleMember', so the property values can not be validated fully
 ERROR: /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/DM/fsh-generated/resources/CodeSystem-tre-r387-type-groupement: URL Mismatch https://interop.esante.gouv.fr/terminologies/CodeSystem/tre-r387-type-groupement vs https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r387-type-groupement
 == DM/fsh-generated/resources/CodeSystem-tre-r388-type-logement.json ==
 ERROR: CodeSystem.where(url = 'https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r388-type-logement'): Conformance resource /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/DM/fsh-generated/resources/CodeSystem-tre-r388-type-logement.json - the canonical URL (https://interop.esante.gouv.fr/terminologies/CodeSystem/tre-r388-type-logement) does not match the URL (https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r388-type-logement)
@@ -3385,8 +3413,8 @@ WARNING: ValueSet/JDV-J146-MethodBodyHeight-ENS: ValueSet.compose.include[0].sys
 INFORMATION: ValueSet/JDV-J146-MethodBodyHeight-ENS: ValueSet.compose.include[0].concept[0]: A definition for CodeSystem 'https://smt.esante.gouv.fr/terminologie-ncit' could not be found, so the code cannot be validated
 WARNING: ValueSet/JDV-J146-MethodBodyHeight-ENS: ValueSet.compose.include[1]: The terminology server https://smt.esante.gouv.fr/fhir used for the CodeSystem https://smt.esante.gouv.fr/terminologie-emdn does not support batch validation (tx version Not Known), so the codes have not been validated
 WARNING: ValueSet/JDV-J146-MethodBodyHeight-ENS: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.title is mandatory, but it is not present
-ERROR: ValueSet.where(id = 'JDV-J146-MethodBodyHeight-ENS'): Error from https://smt.esante.gouv.fr/fhir: Error: [9c9770ec-7caf-4732-b354-85566dfa98cf]: A usable code system with URL https://smt.esante.gouv.fr/terminologie-ncit could not be resolved.
-Information: X-Request-Id: da7433d4-c2b4-48dd-a229-173355cad339
+ERROR: ValueSet.where(id = 'JDV-J146-MethodBodyHeight-ENS'): Error from https://smt.esante.gouv.fr/fhir: Error: [326ed7e3-5491-45cf-812d-e3dfa216b1c4]: A usable code system with URL https://smt.esante.gouv.fr/terminologie-ncit could not be resolved.
+Information: X-Request-Id: 27116f0d-2065-49f8-8532-65ca55b2fb7c
 == input/ontoserver/JDV/JDV_J147_MethodHeartrate_ENS_JDV-J147-MethodHeartrate-ENS.json ==
 WARNING: ValueSet/JDV-J147-MethodHeartrate-ENS: ValueSet.compose.include[0]: The terminology server https://smt.esante.gouv.fr/fhir used for the CodeSystem https://smt.esante.gouv.fr/terminologie-emdn does not support batch validation (tx version Not Known), so the codes have not been validated
 WARNING: ValueSet/JDV-J147-MethodHeartrate-ENS: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.title is mandatory, but it is not present
@@ -4789,7 +4817,118 @@ WARNING: ValueSet/JDV-J233-TypeDiplome-EPARS: ValueSet: Published value sets SHO
 == input/ontoserver/JDV/JDV_J234_GenreActivite_EPARS_JDV-J234-GenreActivite-EPARS.json ==
 WARNING: ValueSet/JDV-J234-GenreActivite-EPARS: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.title is mandatory, but it is not present
 == input/ontoserver/JDV/JDV_J235_LieuFormation_EPARS_JDV-J235-LieuFormation-EPARS.json ==
+WARNING: ValueSet/JDV-J235-LieuFormation-EPARS: ValueSet.compose.include[0]: The terminology server https://smt.esante.gouv.fr/fhir used for the CodeSystem https://mos.esante.gouv.fr/NOS/TRE_R16-LieuFormation/FHIR/TRE-R16-LieuFormation does not support batch validation (tx version Not Known), so the codes have not been validated
 WARNING: ValueSet/JDV-J235-LieuFormation-EPARS: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.title is mandatory, but it is not present
+ERROR: ValueSet.text.div: Hyperlink 'CodeSystem-TRE-R16-LieuFormation.html#TRE-R16-LieuFormation-DP01' at 'div/ul/li/table/tr/td/a' for 'DP01' does not resolve
+ERROR: ValueSet.text.div: Hyperlink 'CodeSystem-TRE-R16-LieuFormation.html#TRE-R16-LieuFormation-DP02' at 'div/ul/li/table/tr/td/a' for 'DP02' does not resolve
+ERROR: ValueSet.text.div: Hyperlink 'CodeSystem-TRE-R16-LieuFormation.html#TRE-R16-LieuFormation-DP03' at 'div/ul/li/table/tr/td/a' for 'DP03' does not resolve
+ERROR: ValueSet.text.div: Hyperlink 'CodeSystem-TRE-R16-LieuFormation.html#TRE-R16-LieuFormation-DP04' at 'div/ul/li/table/tr/td/a' for 'DP04' does not resolve
+ERROR: ValueSet.text.div: Hyperlink 'CodeSystem-TRE-R16-LieuFormation.html#TRE-R16-LieuFormation-DP05' at 'div/ul/li/table/tr/td/a' for 'DP05' does not resolve
+ERROR: ValueSet.text.div: Hyperlink 'CodeSystem-TRE-R16-LieuFormation.html#TRE-R16-LieuFormation-DP06' at 'div/ul/li/table/tr/td/a' for 'DP06' does not resolve
+ERROR: ValueSet.text.div: Hyperlink 'CodeSystem-TRE-R16-LieuFormation.html#TRE-R16-LieuFormation-DP07' at 'div/ul/li/table/tr/td/a' for 'DP07' does not resolve
+ERROR: ValueSet.text.div: Hyperlink 'CodeSystem-TRE-R16-LieuFormation.html#TRE-R16-LieuFormation-DP08' at 'div/ul/li/table/tr/td/a' for 'DP08' does not resolve
+ERROR: ValueSet.text.div: Hyperlink 'CodeSystem-TRE-R16-LieuFormation.html#TRE-R16-LieuFormation-DP09' at 'div/ul/li/table/tr/td/a' for 'DP09' does not resolve
+ERROR: ValueSet.text.div: Hyperlink 'CodeSystem-TRE-R16-LieuFormation.html#TRE-R16-LieuFormation-DP10' at 'div/ul/li/table/tr/td/a' for 'DP10' does not resolve
+ERROR: ValueSet.text.div: Hyperlink 'CodeSystem-TRE-R16-LieuFormation.html#TRE-R16-LieuFormation-DP11' at 'div/ul/li/table/tr/td/a' for 'DP11' does not resolve
+ERROR: ValueSet.text.div: Hyperlink 'CodeSystem-TRE-R16-LieuFormation.html#TRE-R16-LieuFormation-DP12' at 'div/ul/li/table/tr/td/a' for 'DP12' does not resolve
+ERROR: ValueSet.text.div: Hyperlink 'CodeSystem-TRE-R16-LieuFormation.html#TRE-R16-LieuFormation-DP13' at 'div/ul/li/table/tr/td/a' for 'DP13' does not resolve
+ERROR: ValueSet.text.div: Hyperlink 'CodeSystem-TRE-R16-LieuFormation.html#TRE-R16-LieuFormation-DP14' at 'div/ul/li/table/tr/td/a' for 'DP14' does not resolve
+ERROR: ValueSet.text.div: Hyperlink 'CodeSystem-TRE-R16-LieuFormation.html#TRE-R16-LieuFormation-DP15' at 'div/ul/li/table/tr/td/a' for 'DP15' does not resolve
+ERROR: ValueSet.text.div: Hyperlink 'CodeSystem-TRE-R16-LieuFormation.html#TRE-R16-LieuFormation-DP16' at 'div/ul/li/table/tr/td/a' for 'DP16' does not resolve
+ERROR: ValueSet.text.div: Hyperlink 'CodeSystem-TRE-R16-LieuFormation.html#TRE-R16-LieuFormation-DP17' at 'div/ul/li/table/tr/td/a' for 'DP17' does not resolve
+ERROR: ValueSet.text.div: Hyperlink 'CodeSystem-TRE-R16-LieuFormation.html#TRE-R16-LieuFormation-DP18' at 'div/ul/li/table/tr/td/a' for 'DP18' does not resolve
+ERROR: ValueSet.text.div: Hyperlink 'CodeSystem-TRE-R16-LieuFormation.html#TRE-R16-LieuFormation-DP19' at 'div/ul/li/table/tr/td/a' for 'DP19' does not resolve
+ERROR: ValueSet.text.div: Hyperlink 'CodeSystem-TRE-R16-LieuFormation.html#TRE-R16-LieuFormation-DP21' at 'div/ul/li/table/tr/td/a' for 'DP21' does not resolve
+ERROR: ValueSet.text.div: Hyperlink 'CodeSystem-TRE-R16-LieuFormation.html#TRE-R16-LieuFormation-DP22' at 'div/ul/li/table/tr/td/a' for 'DP22' does not resolve
+ERROR: ValueSet.text.div: Hyperlink 'CodeSystem-TRE-R16-LieuFormation.html#TRE-R16-LieuFormation-DP23' at 'div/ul/li/table/tr/td/a' for 'DP23' does not resolve
+ERROR: ValueSet.text.div: Hyperlink 'CodeSystem-TRE-R16-LieuFormation.html#TRE-R16-LieuFormation-DP24' at 'div/ul/li/table/tr/td/a' for 'DP24' does not resolve
+ERROR: ValueSet.text.div: Hyperlink 'CodeSystem-TRE-R16-LieuFormation.html#TRE-R16-LieuFormation-DP25' at 'div/ul/li/table/tr/td/a' for 'DP25' does not resolve
+ERROR: ValueSet.text.div: Hyperlink 'CodeSystem-TRE-R16-LieuFormation.html#TRE-R16-LieuFormation-DP26' at 'div/ul/li/table/tr/td/a' for 'DP26' does not resolve
+ERROR: ValueSet.text.div: Hyperlink 'CodeSystem-TRE-R16-LieuFormation.html#TRE-R16-LieuFormation-DP27' at 'div/ul/li/table/tr/td/a' for 'DP27' does not resolve
+ERROR: ValueSet.text.div: Hyperlink 'CodeSystem-TRE-R16-LieuFormation.html#TRE-R16-LieuFormation-DP28' at 'div/ul/li/table/tr/td/a' for 'DP28' does not resolve
+ERROR: ValueSet.text.div: Hyperlink 'CodeSystem-TRE-R16-LieuFormation.html#TRE-R16-LieuFormation-DP29' at 'div/ul/li/table/tr/td/a' for 'DP29' does not resolve
+ERROR: ValueSet.text.div: Hyperlink 'CodeSystem-TRE-R16-LieuFormation.html#TRE-R16-LieuFormation-DP2A' at 'div/ul/li/table/tr/td/a' for 'DP2A' does not resolve
+ERROR: ValueSet.text.div: Hyperlink 'CodeSystem-TRE-R16-LieuFormation.html#TRE-R16-LieuFormation-DP2B' at 'div/ul/li/table/tr/td/a' for 'DP2B' does not resolve
+ERROR: ValueSet.text.div: Hyperlink 'CodeSystem-TRE-R16-LieuFormation.html#TRE-R16-LieuFormation-DP30' at 'div/ul/li/table/tr/td/a' for 'DP30' does not resolve
+ERROR: ValueSet.text.div: Hyperlink 'CodeSystem-TRE-R16-LieuFormation.html#TRE-R16-LieuFormation-DP31' at 'div/ul/li/table/tr/td/a' for 'DP31' does not resolve
+ERROR: ValueSet.text.div: Hyperlink 'CodeSystem-TRE-R16-LieuFormation.html#TRE-R16-LieuFormation-DP32' at 'div/ul/li/table/tr/td/a' for 'DP32' does not resolve
+ERROR: ValueSet.text.div: Hyperlink 'CodeSystem-TRE-R16-LieuFormation.html#TRE-R16-LieuFormation-DP33' at 'div/ul/li/table/tr/td/a' for 'DP33' does not resolve
+ERROR: ValueSet.text.div: Hyperlink 'CodeSystem-TRE-R16-LieuFormation.html#TRE-R16-LieuFormation-DP34' at 'div/ul/li/table/tr/td/a' for 'DP34' does not resolve
+ERROR: ValueSet.text.div: Hyperlink 'CodeSystem-TRE-R16-LieuFormation.html#TRE-R16-LieuFormation-DP35' at 'div/ul/li/table/tr/td/a' for 'DP35' does not resolve
+ERROR: ValueSet.text.div: Hyperlink 'CodeSystem-TRE-R16-LieuFormation.html#TRE-R16-LieuFormation-DP36' at 'div/ul/li/table/tr/td/a' for 'DP36' does not resolve
+ERROR: ValueSet.text.div: Hyperlink 'CodeSystem-TRE-R16-LieuFormation.html#TRE-R16-LieuFormation-DP37' at 'div/ul/li/table/tr/td/a' for 'DP37' does not resolve
+ERROR: ValueSet.text.div: Hyperlink 'CodeSystem-TRE-R16-LieuFormation.html#TRE-R16-LieuFormation-DP38' at 'div/ul/li/table/tr/td/a' for 'DP38' does not resolve
+ERROR: ValueSet.text.div: Hyperlink 'CodeSystem-TRE-R16-LieuFormation.html#TRE-R16-LieuFormation-DP39' at 'div/ul/li/table/tr/td/a' for 'DP39' does not resolve
+ERROR: ValueSet.text.div: Hyperlink 'CodeSystem-TRE-R16-LieuFormation.html#TRE-R16-LieuFormation-DP40' at 'div/ul/li/table/tr/td/a' for 'DP40' does not resolve
+ERROR: ValueSet.text.div: Hyperlink 'CodeSystem-TRE-R16-LieuFormation.html#TRE-R16-LieuFormation-DP41' at 'div/ul/li/table/tr/td/a' for 'DP41' does not resolve
+ERROR: ValueSet.text.div: Hyperlink 'CodeSystem-TRE-R16-LieuFormation.html#TRE-R16-LieuFormation-DP42' at 'div/ul/li/table/tr/td/a' for 'DP42' does not resolve
+ERROR: ValueSet.text.div: Hyperlink 'CodeSystem-TRE-R16-LieuFormation.html#TRE-R16-LieuFormation-DP43' at 'div/ul/li/table/tr/td/a' for 'DP43' does not resolve
+ERROR: ValueSet.text.div: Hyperlink 'CodeSystem-TRE-R16-LieuFormation.html#TRE-R16-LieuFormation-DP44' at 'div/ul/li/table/tr/td/a' for 'DP44' does not resolve
+ERROR: ValueSet.text.div: Hyperlink 'CodeSystem-TRE-R16-LieuFormation.html#TRE-R16-LieuFormation-DP45' at 'div/ul/li/table/tr/td/a' for 'DP45' does not resolve
+ERROR: ValueSet.text.div: Hyperlink 'CodeSystem-TRE-R16-LieuFormation.html#TRE-R16-LieuFormation-DP46' at 'div/ul/li/table/tr/td/a' for 'DP46' does not resolve
+ERROR: ValueSet.text.div: Hyperlink 'CodeSystem-TRE-R16-LieuFormation.html#TRE-R16-LieuFormation-DP47' at 'div/ul/li/table/tr/td/a' for 'DP47' does not resolve
+ERROR: ValueSet.text.div: Hyperlink 'CodeSystem-TRE-R16-LieuFormation.html#TRE-R16-LieuFormation-DP48' at 'div/ul/li/table/tr/td/a' for 'DP48' does not resolve
+ERROR: ValueSet.text.div: Hyperlink 'CodeSystem-TRE-R16-LieuFormation.html#TRE-R16-LieuFormation-DP49' at 'div/ul/li/table/tr/td/a' for 'DP49' does not resolve
+ERROR: ValueSet.text.div: Hyperlink 'CodeSystem-TRE-R16-LieuFormation.html#TRE-R16-LieuFormation-DP50' at 'div/ul/li/table/tr/td/a' for 'DP50' does not resolve
+ERROR: ValueSet.text.div: Hyperlink 'CodeSystem-TRE-R16-LieuFormation.html#TRE-R16-LieuFormation-DP51' at 'div/ul/li/table/tr/td/a' for 'DP51' does not resolve
+ERROR: ValueSet.text.div: Hyperlink 'CodeSystem-TRE-R16-LieuFormation.html#TRE-R16-LieuFormation-DP52' at 'div/ul/li/table/tr/td/a' for 'DP52' does not resolve
+ERROR: ValueSet.text.div: Hyperlink 'CodeSystem-TRE-R16-LieuFormation.html#TRE-R16-LieuFormation-DP53' at 'div/ul/li/table/tr/td/a' for 'DP53' does not resolve
+ERROR: ValueSet.text.div: Hyperlink 'CodeSystem-TRE-R16-LieuFormation.html#TRE-R16-LieuFormation-DP54' at 'div/ul/li/table/tr/td/a' for 'DP54' does not resolve
+ERROR: ValueSet.text.div: Hyperlink 'CodeSystem-TRE-R16-LieuFormation.html#TRE-R16-LieuFormation-DP55' at 'div/ul/li/table/tr/td/a' for 'DP55' does not resolve
+ERROR: ValueSet.text.div: Hyperlink 'CodeSystem-TRE-R16-LieuFormation.html#TRE-R16-LieuFormation-DP56' at 'div/ul/li/table/tr/td/a' for 'DP56' does not resolve
+ERROR: ValueSet.text.div: Hyperlink 'CodeSystem-TRE-R16-LieuFormation.html#TRE-R16-LieuFormation-DP57' at 'div/ul/li/table/tr/td/a' for 'DP57' does not resolve
+ERROR: ValueSet.text.div: Hyperlink 'CodeSystem-TRE-R16-LieuFormation.html#TRE-R16-LieuFormation-DP58' at 'div/ul/li/table/tr/td/a' for 'DP58' does not resolve
+ERROR: ValueSet.text.div: Hyperlink 'CodeSystem-TRE-R16-LieuFormation.html#TRE-R16-LieuFormation-DP59' at 'div/ul/li/table/tr/td/a' for 'DP59' does not resolve
+ERROR: ValueSet.text.div: Hyperlink 'CodeSystem-TRE-R16-LieuFormation.html#TRE-R16-LieuFormation-DP60' at 'div/ul/li/table/tr/td/a' for 'DP60' does not resolve
+ERROR: ValueSet.text.div: Hyperlink 'CodeSystem-TRE-R16-LieuFormation.html#TRE-R16-LieuFormation-DP61' at 'div/ul/li/table/tr/td/a' for 'DP61' does not resolve
+ERROR: ValueSet.text.div: Hyperlink 'CodeSystem-TRE-R16-LieuFormation.html#TRE-R16-LieuFormation-DP62' at 'div/ul/li/table/tr/td/a' for 'DP62' does not resolve
+ERROR: ValueSet.text.div: Hyperlink 'CodeSystem-TRE-R16-LieuFormation.html#TRE-R16-LieuFormation-DP63' at 'div/ul/li/table/tr/td/a' for 'DP63' does not resolve
+ERROR: ValueSet.text.div: Hyperlink 'CodeSystem-TRE-R16-LieuFormation.html#TRE-R16-LieuFormation-DP64' at 'div/ul/li/table/tr/td/a' for 'DP64' does not resolve
+ERROR: ValueSet.text.div: Hyperlink 'CodeSystem-TRE-R16-LieuFormation.html#TRE-R16-LieuFormation-DP65' at 'div/ul/li/table/tr/td/a' for 'DP65' does not resolve
+ERROR: ValueSet.text.div: Hyperlink 'CodeSystem-TRE-R16-LieuFormation.html#TRE-R16-LieuFormation-DP66' at 'div/ul/li/table/tr/td/a' for 'DP66' does not resolve
+ERROR: ValueSet.text.div: Hyperlink 'CodeSystem-TRE-R16-LieuFormation.html#TRE-R16-LieuFormation-DP67' at 'div/ul/li/table/tr/td/a' for 'DP67' does not resolve
+ERROR: ValueSet.text.div: Hyperlink 'CodeSystem-TRE-R16-LieuFormation.html#TRE-R16-LieuFormation-DP68' at 'div/ul/li/table/tr/td/a' for 'DP68' does not resolve
+ERROR: ValueSet.text.div: Hyperlink 'CodeSystem-TRE-R16-LieuFormation.html#TRE-R16-LieuFormation-DP69' at 'div/ul/li/table/tr/td/a' for 'DP69' does not resolve
+ERROR: ValueSet.text.div: Hyperlink 'CodeSystem-TRE-R16-LieuFormation.html#TRE-R16-LieuFormation-DP70' at 'div/ul/li/table/tr/td/a' for 'DP70' does not resolve
+ERROR: ValueSet.text.div: Hyperlink 'CodeSystem-TRE-R16-LieuFormation.html#TRE-R16-LieuFormation-DP71' at 'div/ul/li/table/tr/td/a' for 'DP71' does not resolve
+ERROR: ValueSet.text.div: Hyperlink 'CodeSystem-TRE-R16-LieuFormation.html#TRE-R16-LieuFormation-DP72' at 'div/ul/li/table/tr/td/a' for 'DP72' does not resolve
+ERROR: ValueSet.text.div: Hyperlink 'CodeSystem-TRE-R16-LieuFormation.html#TRE-R16-LieuFormation-DP73' at 'div/ul/li/table/tr/td/a' for 'DP73' does not resolve
+ERROR: ValueSet.text.div: Hyperlink 'CodeSystem-TRE-R16-LieuFormation.html#TRE-R16-LieuFormation-DP74' at 'div/ul/li/table/tr/td/a' for 'DP74' does not resolve
+ERROR: ValueSet.text.div: Hyperlink 'CodeSystem-TRE-R16-LieuFormation.html#TRE-R16-LieuFormation-DP75' at 'div/ul/li/table/tr/td/a' for 'DP75' does not resolve
+ERROR: ValueSet.text.div: Hyperlink 'CodeSystem-TRE-R16-LieuFormation.html#TRE-R16-LieuFormation-DP76' at 'div/ul/li/table/tr/td/a' for 'DP76' does not resolve
+ERROR: ValueSet.text.div: Hyperlink 'CodeSystem-TRE-R16-LieuFormation.html#TRE-R16-LieuFormation-DP77' at 'div/ul/li/table/tr/td/a' for 'DP77' does not resolve
+ERROR: ValueSet.text.div: Hyperlink 'CodeSystem-TRE-R16-LieuFormation.html#TRE-R16-LieuFormation-DP78' at 'div/ul/li/table/tr/td/a' for 'DP78' does not resolve
+ERROR: ValueSet.text.div: Hyperlink 'CodeSystem-TRE-R16-LieuFormation.html#TRE-R16-LieuFormation-DP79' at 'div/ul/li/table/tr/td/a' for 'DP79' does not resolve
+ERROR: ValueSet.text.div: Hyperlink 'CodeSystem-TRE-R16-LieuFormation.html#TRE-R16-LieuFormation-DP80' at 'div/ul/li/table/tr/td/a' for 'DP80' does not resolve
+ERROR: ValueSet.text.div: Hyperlink 'CodeSystem-TRE-R16-LieuFormation.html#TRE-R16-LieuFormation-DP81' at 'div/ul/li/table/tr/td/a' for 'DP81' does not resolve
+ERROR: ValueSet.text.div: Hyperlink 'CodeSystem-TRE-R16-LieuFormation.html#TRE-R16-LieuFormation-DP82' at 'div/ul/li/table/tr/td/a' for 'DP82' does not resolve
+ERROR: ValueSet.text.div: Hyperlink 'CodeSystem-TRE-R16-LieuFormation.html#TRE-R16-LieuFormation-DP83' at 'div/ul/li/table/tr/td/a' for 'DP83' does not resolve
+ERROR: ValueSet.text.div: Hyperlink 'CodeSystem-TRE-R16-LieuFormation.html#TRE-R16-LieuFormation-DP84' at 'div/ul/li/table/tr/td/a' for 'DP84' does not resolve
+ERROR: ValueSet.text.div: Hyperlink 'CodeSystem-TRE-R16-LieuFormation.html#TRE-R16-LieuFormation-DP85' at 'div/ul/li/table/tr/td/a' for 'DP85' does not resolve
+ERROR: ValueSet.text.div: Hyperlink 'CodeSystem-TRE-R16-LieuFormation.html#TRE-R16-LieuFormation-DP86' at 'div/ul/li/table/tr/td/a' for 'DP86' does not resolve
+ERROR: ValueSet.text.div: Hyperlink 'CodeSystem-TRE-R16-LieuFormation.html#TRE-R16-LieuFormation-DP87' at 'div/ul/li/table/tr/td/a' for 'DP87' does not resolve
+ERROR: ValueSet.text.div: Hyperlink 'CodeSystem-TRE-R16-LieuFormation.html#TRE-R16-LieuFormation-DP88' at 'div/ul/li/table/tr/td/a' for 'DP88' does not resolve
+ERROR: ValueSet.text.div: Hyperlink 'CodeSystem-TRE-R16-LieuFormation.html#TRE-R16-LieuFormation-DP89' at 'div/ul/li/table/tr/td/a' for 'DP89' does not resolve
+ERROR: ValueSet.text.div: Hyperlink 'CodeSystem-TRE-R16-LieuFormation.html#TRE-R16-LieuFormation-DP90' at 'div/ul/li/table/tr/td/a' for 'DP90' does not resolve
+ERROR: ValueSet.text.div: Hyperlink 'CodeSystem-TRE-R16-LieuFormation.html#TRE-R16-LieuFormation-DP91' at 'div/ul/li/table/tr/td/a' for 'DP91' does not resolve
+ERROR: ValueSet.text.div: Hyperlink 'CodeSystem-TRE-R16-LieuFormation.html#TRE-R16-LieuFormation-DP92' at 'div/ul/li/table/tr/td/a' for 'DP92' does not resolve
+ERROR: ValueSet.text.div: Hyperlink 'CodeSystem-TRE-R16-LieuFormation.html#TRE-R16-LieuFormation-DP93' at 'div/ul/li/table/tr/td/a' for 'DP93' does not resolve
+ERROR: ValueSet.text.div: Hyperlink 'CodeSystem-TRE-R16-LieuFormation.html#TRE-R16-LieuFormation-DP94' at 'div/ul/li/table/tr/td/a' for 'DP94' does not resolve
+ERROR: ValueSet.text.div: Hyperlink 'CodeSystem-TRE-R16-LieuFormation.html#TRE-R16-LieuFormation-DP95' at 'div/ul/li/table/tr/td/a' for 'DP95' does not resolve
+ERROR: ValueSet.text.div: Hyperlink 'CodeSystem-TRE-R16-LieuFormation.html#TRE-R16-LieuFormation-DP971' at 'div/ul/li/table/tr/td/a' for 'DP971' does not resolve
+ERROR: ValueSet.text.div: Hyperlink 'CodeSystem-TRE-R16-LieuFormation.html#TRE-R16-LieuFormation-DP972' at 'div/ul/li/table/tr/td/a' for 'DP972' does not resolve
+ERROR: ValueSet.text.div: Hyperlink 'CodeSystem-TRE-R16-LieuFormation.html#TRE-R16-LieuFormation-DP973' at 'div/ul/li/table/tr/td/a' for 'DP973' does not resolve
+ERROR: ValueSet.text.div: Hyperlink 'CodeSystem-TRE-R16-LieuFormation.html#TRE-R16-LieuFormation-DP974' at 'div/ul/li/table/tr/td/a' for 'DP974' does not resolve
+ERROR: ValueSet.text.div: Hyperlink 'CodeSystem-TRE-R16-LieuFormation.html#TRE-R16-LieuFormation-DP975' at 'div/ul/li/table/tr/td/a' for 'DP975' does not resolve
+ERROR: ValueSet.text.div: Hyperlink 'CodeSystem-TRE-R16-LieuFormation.html#TRE-R16-LieuFormation-DP976' at 'div/ul/li/table/tr/td/a' for 'DP976' does not resolve
+ERROR: ValueSet.text.div: Hyperlink 'CodeSystem-TRE-R16-LieuFormation.html#TRE-R16-LieuFormation-DP977' at 'div/ul/li/table/tr/td/a' for 'DP977' does not resolve
+ERROR: ValueSet.text.div: Hyperlink 'CodeSystem-TRE-R16-LieuFormation.html#TRE-R16-LieuFormation-DP978' at 'div/ul/li/table/tr/td/a' for 'DP978' does not resolve
+ERROR: ValueSet.text.div: Hyperlink 'CodeSystem-TRE-R16-LieuFormation.html#TRE-R16-LieuFormation-DP984' at 'div/ul/li/table/tr/td/a' for 'DP984' does not resolve
+ERROR: ValueSet.text.div: Hyperlink 'CodeSystem-TRE-R16-LieuFormation.html#TRE-R16-LieuFormation-DP986' at 'div/ul/li/table/tr/td/a' for 'DP986' does not resolve
+ERROR: ValueSet.text.div: Hyperlink 'CodeSystem-TRE-R16-LieuFormation.html#TRE-R16-LieuFormation-DP987' at 'div/ul/li/table/tr/td/a' for 'DP987' does not resolve
+ERROR: ValueSet.text.div: Hyperlink 'CodeSystem-TRE-R16-LieuFormation.html#TRE-R16-LieuFormation-DP988' at 'div/ul/li/table/tr/td/a' for 'DP988' does not resolve
+ERROR: ValueSet.text.div: Hyperlink 'CodeSystem-TRE-R16-LieuFormation.html#TRE-R16-LieuFormation-DP989' at 'div/ul/li/table/tr/td/a' for 'DP989' does not resolve
+ERROR: ValueSet.text.div: Hyperlink 'CodeSystem-TRE-R16-LieuFormation.html#TRE-R16-LieuFormation-U999' at 'div/ul/li/table/tr/td/a' for 'U999' does not resolve
 == input/ontoserver/JDV/JDV_J236_TypeIdentifiant_ROR_JDV-J236-TypeIdentifiant-ROR.json ==
 WARNING: ValueSet/JDV-J236-TypeIdentifiant-ROR: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.title is mandatory, but it is not present
 == input/ontoserver/JDV/JDV_J237_RegionOM_ROR_JDV-J237-RegionOM-ROR.json ==
@@ -4932,8 +5071,8 @@ WARNING: ValueSet/JDV-J51-FamilleActiviteOperationnelle-ROR: ValueSet.compose.in
 INFORMATION: ValueSet/JDV-J51-FamilleActiviteOperationnelle-ROR: ValueSet.compose.include[1].concept[0]: A definition for CodeSystem 'https://mos.esante.gouv.fr/NOS/TRE_R265-PrestationPilotageSerafin/FHIR/TRE-R265-PrestationPilotageSerafin' could not be found, so the code cannot be validated
 WARNING: ValueSet/JDV-J51-FamilleActiviteOperationnelle-ROR: ValueSet.compose.include[1]: The terminology server https://tx.fhir.org/r4 used for the CodeSystem https://mos.esante.gouv.fr/NOS/TRE_R265-PrestationPilotageSerafin/FHIR/TRE-R265-PrestationPilotageSerafin does not support batch validation (tx version Not Known), so the codes have not been validated
 WARNING: ValueSet/JDV-J51-FamilleActiviteOperationnelle-ROR: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.title is mandatory, but it is not present
-ERROR: ValueSet.where(id = 'JDV-J51-FamilleActiviteOperationnelle-ROR'): Error from https://smt.esante.gouv.fr/fhir: Error: [03530a66-bb4b-43fc-aba1-852ef4430972]: A usable code system with URL https://mos.esante.gouv.fr/NOS/TRE_R265-PrestationPilotageSerafin/FHIR/TRE-R265-PrestationPilotageSerafin could not be resolved.
-Information: X-Request-Id: 93fdc458-a103-44eb-a3aa-b4ec25e8e3d4
+ERROR: ValueSet.where(id = 'JDV-J51-FamilleActiviteOperationnelle-ROR'): Error from https://smt.esante.gouv.fr/fhir: Error: [3ee87939-ca66-4363-b90c-0d76512dad8d]: A usable code system with URL https://mos.esante.gouv.fr/NOS/TRE_R265-PrestationPilotageSerafin/FHIR/TRE-R265-PrestationPilotageSerafin could not be resolved.
+Information: X-Request-Id: f9e9b74f-aa67-4c84-bc05-0640d2547419
 == input/ontoserver/JDV/JDV_J52_AvailabilityStatus_CISIS_JDV-J52-AvailabilityStatus-CISIS.json ==
 WARNING: ValueSet/JDV-J52-AvailabilityStatus-CISIS: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.title is mandatory, but it is not present
 == input/ontoserver/JDV/JDV_J53_TypeRequeteGestionDossier_CISIS_JDV-J53-TypeRequeteGestionDossier-CISIS.json ==
@@ -5336,8 +5475,8 @@ WARNING: ValueSet/jdv-defaillance-materielle-cisis: ValueSet.compose.include[0].
 INFORMATION: ValueSet/jdv-defaillance-materielle-cisis: ValueSet.compose.include[0].concept[0]: A definition for CodeSystem 'https://www.imdrf.org' could not be found, so the code cannot be validated
 WARNING: ValueSet/jdv-defaillance-materielle-cisis: ValueSet.compose.include[0]: The terminology server https://tx.fhir.org/r4 used for the CodeSystem https://www.imdrf.org does not support batch validation (tx version Not Known), so the codes have not been validated
 WARNING: ValueSet/jdv-defaillance-materielle-cisis: ValueSet.compose.include[1]: The terminology server https://smt.esante.gouv.fr/fhir used for the CodeSystem https://smt.esante.gouv.fr/terminologie-emdn does not support batch validation (tx version Not Known), so the codes have not been validated
-ERROR: ValueSet.where(id = 'jdv-defaillance-materielle-cisis'): Error from https://smt.esante.gouv.fr/fhir: Error: [a8219862-cb90-44ec-84e1-1f0dc252bd24]: A usable code system with URL https://www.imdrf.org could not be resolved.
-Information: X-Request-Id: 23b1d7c3-f6c1-4760-a11c-10545175e09f
+ERROR: ValueSet.where(id = 'jdv-defaillance-materielle-cisis'): Error from https://smt.esante.gouv.fr/fhir: Error: [c495deba-fbd0-41e1-bfa8-d65c00b6b635]: A usable code system with URL https://www.imdrf.org could not be resolved.
+Information: X-Request-Id: 549ce3ae-2337-404c-901d-42a54c7ea8df
 ERROR: /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JdvDefaillanceMaterielleCisis_jdv-defaillance-materielle-cisis: URL Mismatch https://interop.esante.gouv.fr/terminologies/ValueSet/jdv-defaillance-materielle-cisis vs https://smt.esante.gouv.fr/fhir/ValueSet/jdv-defaillance-materielle-cisis
 == input/ontoserver/JDV/JdvDeficiencePhysiqueCisis_jdv-deficience-physique-cisis.json ==
 ERROR: ValueSet.where(url = 'https://smt.esante.gouv.fr/fhir/ValueSet/jdv-deficience-physique-cisis'): Conformance resource /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JdvDeficiencePhysiqueCisis_jdv-deficience-physique-cisis.json - the canonical URL (https://interop.esante.gouv.fr/terminologies/ValueSet/jdv-deficience-physique-cisis) does not match the URL (https://smt.esante.gouv.fr/fhir/ValueSet/jdv-deficience-physique-cisis)
@@ -5522,8 +5661,8 @@ ERROR: /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSou
 ERROR: ValueSet.where(url = 'https://smt.esante.gouv.fr/fhir/ValueSet/jdv-gene-cisis'): Conformance resource /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JdvGeneCisis_jdv-gene-cisis.json - the canonical URL (https://interop.esante.gouv.fr/terminologies/ValueSet/jdv-gene-cisis) does not match the URL (https://smt.esante.gouv.fr/fhir/ValueSet/jdv-gene-cisis)
 INFORMATION: ValueSet/jdv-gene-cisis: ValueSet.compose.include[0].concept[0]: A definition for CodeSystem 'http://www.genenames.org/geneId' could not be found, so the code cannot be validated
 WARNING: ValueSet/jdv-gene-cisis: ValueSet.compose.include[0]: The terminology server https://tx.fhir.org/r4 used for the CodeSystem http://www.genenames.org/geneId does not support batch validation (tx version Not Known), so the codes have not been validated
-ERROR: ValueSet.where(id = 'jdv-gene-cisis'): Error from https://smt.esante.gouv.fr/fhir: Error: [8d8e7cec-ed65-424d-8b50-ed51d3243a3d]: A usable code system with URL http://www.genenames.org/geneId could not be resolved.
-Information: X-Request-Id: c8ecb7a9-3e25-4059-9955-7569b48da718
+ERROR: ValueSet.where(id = 'jdv-gene-cisis'): Error from https://smt.esante.gouv.fr/fhir: Error: [e07d9b7f-3bcc-4be5-b51a-8bb70aa2f73e]: A usable code system with URL http://www.genenames.org/geneId could not be resolved.
+Information: X-Request-Id: cc973742-b52f-487f-831a-9c9ff2e23c59
 ERROR: /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JdvGeneCisis_jdv-gene-cisis: URL Mismatch https://interop.esante.gouv.fr/terminologies/ValueSet/jdv-gene-cisis vs https://smt.esante.gouv.fr/fhir/ValueSet/jdv-gene-cisis
 == input/ontoserver/JDV/JdvGesteReanimationNouveauNeCisis_jdv-geste-reanimation-nouveau-ne-cisis.json ==
 ERROR: ValueSet.where(url = 'https://smt.esante.gouv.fr/fhir/ValueSet/jdv-geste-reanimation-nouveau-ne-cisis'): Conformance resource /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JdvGesteReanimationNouveauNeCisis_jdv-geste-reanimation-nouveau-ne-cisis.json - the canonical URL (https://interop.esante.gouv.fr/terminologies/ValueSet/jdv-geste-reanimation-nouveau-ne-cisis) does not match the URL (https://smt.esante.gouv.fr/fhir/ValueSet/jdv-geste-reanimation-nouveau-ne-cisis)
@@ -5533,8 +5672,8 @@ ERROR: /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSou
 ERROR: ValueSet.where(url = 'https://smt.esante.gouv.fr/fhir/ValueSet/jdv-gestion-effet-secondaire-cisis'): Conformance resource /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JdvGestionEffetSecondaireCisis_jdv-gestion-effet-secondaire-cisis.json - the canonical URL (https://interop.esante.gouv.fr/terminologies/ValueSet/jdv-gestion-effet-secondaire-cisis) does not match the URL (https://smt.esante.gouv.fr/fhir/ValueSet/jdv-gestion-effet-secondaire-cisis)
 WARNING: ValueSet/jdv-gestion-effet-secondaire-cisis: ValueSet.compose.include[0].system: No definition could be found for URL value 'https://smt.esante.gouv.fr/terminologie-ncit'
 INFORMATION: ValueSet/jdv-gestion-effet-secondaire-cisis: ValueSet.compose.include[0].concept[0]: A definition for CodeSystem 'https://smt.esante.gouv.fr/terminologie-ncit' could not be found, so the code cannot be validated
-ERROR: ValueSet.where(id = 'jdv-gestion-effet-secondaire-cisis'): Error from https://smt.esante.gouv.fr/fhir: Error: [27c4c2d0-6112-41a7-b617-f12cf4cdc3d3]: A usable code system with URL https://smt.esante.gouv.fr/terminologie-ncit could not be resolved.
-Information: X-Request-Id: 5a282c39-d643-495b-912b-758f05d0c8a2
+ERROR: ValueSet.where(id = 'jdv-gestion-effet-secondaire-cisis'): Error from https://smt.esante.gouv.fr/fhir: Error: [559b594c-49ac-44c0-acbd-9a721a524b91]: A usable code system with URL https://smt.esante.gouv.fr/terminologie-ncit could not be resolved.
+Information: X-Request-Id: d2758fcd-eb09-4b2a-9088-100664cbc429
 ERROR: /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JdvGestionEffetSecondaireCisis_jdv-gestion-effet-secondaire-cisis: URL Mismatch https://interop.esante.gouv.fr/terminologies/ValueSet/jdv-gestion-effet-secondaire-cisis vs https://smt.esante.gouv.fr/fhir/ValueSet/jdv-gestion-effet-secondaire-cisis
 == input/ontoserver/JDV/JdvGirCisis_jdv-gir-cisis.json ==
 ERROR: ValueSet.where(url = 'https://smt.esante.gouv.fr/fhir/ValueSet/jdv-gir-cisis'): Conformance resource /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JdvGirCisis_jdv-gir-cisis.json - the canonical URL (https://interop.esante.gouv.fr/terminologies/ValueSet/jdv-gir-cisis) does not match the URL (https://smt.esante.gouv.fr/fhir/ValueSet/jdv-gir-cisis)
@@ -5797,8 +5936,8 @@ ERROR: /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSou
 ERROR: ValueSet.where(url = 'https://smt.esante.gouv.fr/fhir/ValueSet/jdv-modalite-demande-acte-imagerie-cisis'): Conformance resource /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JdvModaliteDemandeActeImagerieCisis_jdv-modalite-demande-acte-imagerie-cisis.json - the canonical URL (https://interop.esante.gouv.fr/terminologies/ValueSet/jdv-modalite-demande-acte-imagerie-cisis) does not match the URL (https://smt.esante.gouv.fr/fhir/ValueSet/jdv-modalite-demande-acte-imagerie-cisis)
 WARNING: ValueSet/jdv-modalite-demande-acte-imagerie-cisis: ValueSet.compose.include[0].system: No definition could be found for URL value 'https://smt.esante.gouv.fr/terminologie-ncit'
 INFORMATION: ValueSet/jdv-modalite-demande-acte-imagerie-cisis: ValueSet.compose.include[0].concept[0]: A definition for CodeSystem 'https://smt.esante.gouv.fr/terminologie-ncit' could not be found, so the code cannot be validated
-ERROR: ValueSet.where(id = 'jdv-modalite-demande-acte-imagerie-cisis'): Error from https://smt.esante.gouv.fr/fhir: Error: [13084b3c-c2cd-4309-b450-10cdfc8c436e]: A usable code system with URL https://smt.esante.gouv.fr/terminologie-ncit could not be resolved.
-Information: X-Request-Id: 225ef7fc-0e84-414e-b1bb-925b4ee99863
+ERROR: ValueSet.where(id = 'jdv-modalite-demande-acte-imagerie-cisis'): Error from https://smt.esante.gouv.fr/fhir: Error: [146f42ff-aebb-4f2a-bcbc-44d31ce9932d]: A usable code system with URL https://smt.esante.gouv.fr/terminologie-ncit could not be resolved.
+Information: X-Request-Id: 09c22ec3-b1f4-429e-8bd9-9777de7b779d
 ERROR: /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JdvModaliteDemandeActeImagerieCisis_jdv-modalite-demande-acte-imagerie-cisis: URL Mismatch https://interop.esante.gouv.fr/terminologies/ValueSet/jdv-modalite-demande-acte-imagerie-cisis vs https://smt.esante.gouv.fr/fhir/ValueSet/jdv-modalite-demande-acte-imagerie-cisis
 == input/ontoserver/JDV/JdvModaliteEntreeCisis_jdv-modalite-entree-cisis.json ==
 ERROR: ValueSet.where(url = 'https://smt.esante.gouv.fr/fhir/ValueSet/jdv-modalite-entree-cisis'): Conformance resource /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JdvModaliteEntreeCisis_jdv-modalite-entree-cisis.json - the canonical URL (https://interop.esante.gouv.fr/terminologies/ValueSet/jdv-modalite-entree-cisis) does not match the URL (https://smt.esante.gouv.fr/fhir/ValueSet/jdv-modalite-entree-cisis)
@@ -6452,8 +6591,8 @@ ERROR: ValueSet.where(url = 'https://smt.esante.gouv.fr/fhir/ValueSet/jdv-traite
 WARNING: ValueSet/jdv-traitement-soins-frcp-cisis: ValueSet.compose.include[0].system: No definition could be found for URL value 'https://smt.esante.gouv.fr/terminologie-ncit'
 INFORMATION: ValueSet/jdv-traitement-soins-frcp-cisis: ValueSet.compose.include[0].concept[0]: A definition for CodeSystem 'https://smt.esante.gouv.fr/terminologie-ncit' could not be found, so the code cannot be validated
 WARNING: ValueSet/jdv-traitement-soins-frcp-cisis: ValueSet.compose.include[0]: The terminology server https://tx.fhir.org/r4 used for the CodeSystem https://smt.esante.gouv.fr/terminologie-ncit does not support batch validation (tx version Not Known), so the codes have not been validated
-ERROR: ValueSet.where(id = 'jdv-traitement-soins-frcp-cisis'): Error from https://smt.esante.gouv.fr/fhir: Error: [bd30472f-87b3-4d04-a736-5d63331aea35]: A usable code system with URL https://smt.esante.gouv.fr/terminologie-ncit could not be resolved.
-Information: X-Request-Id: c798f0ee-dead-4e4d-891f-251add8fb289
+ERROR: ValueSet.where(id = 'jdv-traitement-soins-frcp-cisis'): Error from https://smt.esante.gouv.fr/fhir: Error: [9eba4f34-7d3f-41ad-8e30-83d182b8cfc0]: A usable code system with URL https://smt.esante.gouv.fr/terminologie-ncit could not be resolved.
+Information: X-Request-Id: 55375aba-b0ad-46be-a1c8-5b16c30d3b5e
 ERROR: /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JdvTraitementSoinsFrcpCisis_jdv-traitement-soins-frcp-cisis: URL Mismatch https://interop.esante.gouv.fr/terminologies/ValueSet/jdv-traitement-soins-frcp-cisis vs https://smt.esante.gouv.fr/fhir/ValueSet/jdv-traitement-soins-frcp-cisis
 == input/ontoserver/JDV/JdvTraitementSuiviCisis_jdv-traitement-suivi-cisis.json ==
 ERROR: ValueSet.where(url = 'https://smt.esante.gouv.fr/fhir/ValueSet/jdv-traitement-suivi-cisis'): Conformance resource /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JdvTraitementSuiviCisis_jdv-traitement-suivi-cisis.json - the canonical URL (https://interop.esante.gouv.fr/terminologies/ValueSet/jdv-traitement-suivi-cisis) does not match the URL (https://smt.esante.gouv.fr/fhir/ValueSet/jdv-traitement-suivi-cisis)
@@ -6471,8 +6610,8 @@ ERROR: ValueSet.where(url = 'https://smt.esante.gouv.fr/fhir/ValueSet/jdv-trouss
 WARNING: ValueSet/jdv-trousse-ccu-cisis: ValueSet.compose.include[1].system: No definition could be found for URL value 'https://smt.esante.gouv.fr/terminologie-tccr'
 INFORMATION: ValueSet/jdv-trousse-ccu-cisis: ValueSet.compose.include[1].concept[0]: A definition for CodeSystem 'https://smt.esante.gouv.fr/terminologie-tccr' could not be found, so the code cannot be validated
 WARNING: ValueSet/jdv-trousse-ccu-cisis: ValueSet.compose.include[1]: The terminology server https://tx.fhir.org/r4 used for the CodeSystem https://smt.esante.gouv.fr/terminologie-tccr does not support batch validation (tx version Not Known), so the codes have not been validated
-ERROR: ValueSet.where(id = 'jdv-trousse-ccu-cisis'): Error from https://smt.esante.gouv.fr/fhir: Error: [38d0f508-fa06-42c3-82d6-56a2e5898e73]: A usable code system with URL https://smt.esante.gouv.fr/terminologie-tccr could not be resolved.
-Information: X-Request-Id: 36c6dba1-aa68-4661-902b-c884fa5572fd
+ERROR: ValueSet.where(id = 'jdv-trousse-ccu-cisis'): Error from https://smt.esante.gouv.fr/fhir: Error: [87d878f3-cb06-4ff9-8cfc-ba5bbd664dbc]: A usable code system with URL https://smt.esante.gouv.fr/terminologie-tccr could not be resolved.
+Information: X-Request-Id: 6f3dd563-9f35-4756-80b3-8891883c5329
 ERROR: /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JdvTrousseCcuCisis_jdv-trousse-ccu-cisis: URL Mismatch https://interop.esante.gouv.fr/terminologies/ValueSet/jdv-trousse-ccu-cisis vs https://smt.esante.gouv.fr/fhir/ValueSet/jdv-trousse-ccu-cisis
 == input/ontoserver/JDV/JdvTumeurCisis_jdv-tumeur-cisis.json ==
 ERROR: ValueSet.where(url = 'https://smt.esante.gouv.fr/fhir/ValueSet/jdv-tumeur-cisis'): Conformance resource /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JdvTumeurCisis_jdv-tumeur-cisis.json - the canonical URL (https://interop.esante.gouv.fr/terminologies/ValueSet/jdv-tumeur-cisis) does not match the URL (https://smt.esante.gouv.fr/fhir/ValueSet/jdv-tumeur-cisis)
@@ -6629,8 +6768,8 @@ ERROR: ValueSet.where(url = 'https://smt.esante.gouv.fr/fhir/ValueSet/jdv-type-p
 WARNING: ValueSet/jdv-type-produit-sanguin-labile-cisis: ValueSet.compose.include[0].system: No definition could be found for URL value 'https://smt.esante.gouv.fr/terminologie-ncit'
 INFORMATION: ValueSet/jdv-type-produit-sanguin-labile-cisis: ValueSet.compose.include[0].concept[0]: A definition for CodeSystem 'https://smt.esante.gouv.fr/terminologie-ncit' could not be found, so the code cannot be validated
 WARNING: ValueSet/jdv-type-produit-sanguin-labile-cisis: ValueSet.compose.include[0]: The terminology server https://tx.fhir.org/r4 used for the CodeSystem https://smt.esante.gouv.fr/terminologie-ncit does not support batch validation (tx version Not Known), so the codes have not been validated
-ERROR: ValueSet.where(id = 'jdv-type-produit-sanguin-labile-cisis'): Error from https://smt.esante.gouv.fr/fhir: Error: [ce6c2390-dbd5-4470-abf7-bc8ea6588481]: A usable code system with URL https://smt.esante.gouv.fr/terminologie-ncit could not be resolved.
-Information: X-Request-Id: 48ea626f-bc09-401d-b06c-6c278e4da872
+ERROR: ValueSet.where(id = 'jdv-type-produit-sanguin-labile-cisis'): Error from https://smt.esante.gouv.fr/fhir: Error: [a7f7e7c9-19a4-4e26-80ce-3cb131d87b68]: A usable code system with URL https://smt.esante.gouv.fr/terminologie-ncit could not be resolved.
+Information: X-Request-Id: b9a15330-6624-42b6-ac77-e5b167d73595
 ERROR: /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JdvTypeProduitSanguinLabileCisis_jdv-type-produit-sanguin-labile-cisis: URL Mismatch https://interop.esante.gouv.fr/terminologies/ValueSet/jdv-type-produit-sanguin-labile-cisis vs https://smt.esante.gouv.fr/fhir/ValueSet/jdv-type-produit-sanguin-labile-cisis
 == input/ontoserver/JDV/JdvTypeRencontreCisis_jdv-type-rencontre-cisis.json ==
 ERROR: ValueSet.where(url = 'https://smt.esante.gouv.fr/fhir/ValueSet/jdv-type-rencontre-cisis'): Conformance resource /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JdvTypeRencontreCisis_jdv-type-rencontre-cisis.json - the canonical URL (https://interop.esante.gouv.fr/terminologies/ValueSet/jdv-type-rencontre-cisis) does not match the URL (https://smt.esante.gouv.fr/fhir/ValueSet/jdv-type-rencontre-cisis)
@@ -6827,8 +6966,14 @@ ERROR: /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSou
 == input/ontoserver/JDV/XBasicConfidentialityKind_jdv-hl7-v3-xBasicConfidentialityKind-cisis.json ==
 ERROR: ValueSet.where(url = 'https://smt.esante.gouv.fr/fhir/ValueSet/jdv-hl7-v3-xBasicConfidentialityKind-cisis'): Conformance resource /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/XBasicConfidentialityKind_jdv-hl7-v3-xBasicConfidentialityKind-cisis.json - the canonical URL (https://interop.esante.gouv.fr/terminologies/ValueSet/jdv-hl7-v3-xBasicConfidentialityKind-cisis) does not match the URL (https://smt.esante.gouv.fr/fhir/ValueSet/jdv-hl7-v3-xBasicConfidentialityKind-cisis)
 ERROR: /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/XBasicConfidentialityKind_jdv-hl7-v3-xBasicConfidentialityKind-cisis: URL Mismatch https://interop.esante.gouv.fr/terminologies/ValueSet/jdv-hl7-v3-xBasicConfidentialityKind-cisis vs https://smt.esante.gouv.fr/fhir/ValueSet/jdv-hl7-v3-xBasicConfidentialityKind-cisis
+== input/ontoserver/NamingSystem/ADICAP.json ==
+ERROR: NamingSystem/ADICAP: NamingSystem.meta.tag[0].display: Wrong Display Name 'Resource encoded in summary mode' for http://terminology.hl7.org/CodeSystem/v3-ObservationValue#SUBSETTED. There are no valid display names found for language(s) 'fr-FR'. Default display is 'subsetted'
 == input/ontoserver/NamingSystem/LOINC.json ==
 ERROR: NamingSystem/v3-loinc: NamingSystem.meta.tag[0].display: Wrong Display Name 'Resource encoded in summary mode' for http://terminology.hl7.org/CodeSystem/v3-ObservationValue#SUBSETTED. There are no valid display names found for language(s) 'fr-FR'. Default display is 'subsetted'
+== input/ontoserver/NamingSystem/NCIT.json ==
+ERROR: NamingSystem/NCIT: NamingSystem.meta.tag[0].display: Wrong Display Name 'Resource encoded in summary mode' for http://terminology.hl7.org/CodeSystem/v3-ObservationValue#SUBSETTED. There are no valid display names found for language(s) 'fr-FR'. Default display is 'subsetted'
+== input/ontoserver/NamingSystem/PCS.json ==
+ERROR: NamingSystem/PCS: NamingSystem.meta.tag[0].display: Wrong Display Name 'Resource encoded in summary mode' for http://terminology.hl7.org/CodeSystem/v3-ObservationValue#SUBSETTED. There are no valid display names found for language(s) 'fr-FR'. Default display is 'subsetted'
 == input/ontoserver/NamingSystem/Snomed_CT_core_900000000000207008.json ==
 ERROR: NamingSystem/Snomed-CT-core: NamingSystem.meta.tag[0].display: Wrong Display Name 'Resource encoded in summary mode' for http://terminology.hl7.org/CodeSystem/v3-ObservationValue#SUBSETTED. There are no valid display names found for language(s) 'fr-FR'. Default display is 'subsetted'
 == input/ontoserver/TRE/ATC.json ==
@@ -7609,7 +7754,11 @@ INFORMATION: CodeSystem/TRE-R14-TypeDiplome: CodeSystem.property[0]: This proper
 INFORMATION: CodeSystem/TRE-R14-TypeDiplome: CodeSystem.property[1]: This property has only a code ('dateMaj') and not a URI, so it has no clearly defined meaning in the terminology ecosystem
 INFORMATION: CodeSystem/TRE-R14-TypeDiplome: CodeSystem.property[2]: This property has only a code ('dateFin') and not a URI, so it has no clearly defined meaning in the terminology ecosystem
 == input/ontoserver/TRE/TRE_R16_LieuFormation.json ==
+ERROR: CodeSystem/TRE-R16-LieuFormation: CodeSystem: CodeSystem.description: minimum required = 1, but only found 0 (from http://hl7.org/fhir/StructureDefinition/shareablecodesystem|4.0.1)
+ERROR: CodeSystem/TRE-R16-LieuFormation: CodeSystem: CodeSystem.concept: minimum required = 1, but only found 0 (from http://hl7.org/fhir/StructureDefinition/shareablecodesystem|4.0.1)
+ERROR: CodeSystem/TRE-R16-LieuFormation: CodeSystem.meta.tag[0].display: Wrong Display Name 'Resource encoded in summary mode' for http://terminology.hl7.org/CodeSystem/v3-ObservationValue#SUBSETTED. There are no valid display names found for language(s) 'fr-FR'. Default display is 'subsetted'
 WARNING: CodeSystem/TRE-R16-LieuFormation: CodeSystem: Published code systems SHOULD conform to the ShareableCodeSystem profile, which says that the element CodeSystem.title is mandatory, but it is not present
+WARNING: CodeSystem/TRE-R16-LieuFormation: CodeSystem: Published code systems SHOULD conform to the ShareableCodeSystem profile, which says that the element CodeSystem.description is mandatory, but it is not present
 INFORMATION: CodeSystem/TRE-R16-LieuFormation: CodeSystem.property[0]: This property has only a code ('dateValid') and not a URI, so it has no clearly defined meaning in the terminology ecosystem
 INFORMATION: CodeSystem/TRE-R16-LieuFormation: CodeSystem.property[1]: This property has only a code ('dateMaj') and not a URI, so it has no clearly defined meaning in the terminology ecosystem
 INFORMATION: CodeSystem/TRE-R16-LieuFormation: CodeSystem.property[2]: This property has only a code ('dateFin') and not a URI, so it has no clearly defined meaning in the terminology ecosystem

@@ -1,11 +1,11 @@
 {
   "resourceType" : "CodeSystem",
-  "id" : "a21150dc-0ce2-4c3d-ba9c-5ec6ebbb8c1d-284",
-  "url" : "http://hl7.org/fhir/comparison/CodeSystem/a21150dc-0ce2-4c3d-ba9c-5ec6ebbb8c1d-284",
+  "id" : "abdcfdc2-2300-4d38-b9c1-97871a5eea5c-284",
+  "url" : "http://hl7.org/fhir/comparison/CodeSystem/abdcfdc2-2300-4d38-b9c1-97871a5eea5c-284",
   "name" : "UnionTRE_R244_CategorieOrganisationAndTRE_R244_CategorieOrganisation",
   "title" : "Union of null And null",
   "status" : "active",
-  "date" : "2025-07-18T07:57:58+00:00",
+  "date" : "2025-07-28T10:01:34+00:00",
   "jurisdiction" : [{
     "coding" : [{
       "system" : "urn:iso:std:iso:3166",
@@ -2397,6 +2397,10 @@
     {
       "code" : "dateMaj",
       "valueDateTime" : "2018-01-26T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2025-07-10T12:00:00+01:00"
     },
     {
       "code" : "status",
@@ -8502,6 +8506,10 @@
       "valueDateTime" : "2025-01-31T12:00:00+01:00"
     },
     {
+      "code" : "dateMaj",
+      "valueDateTime" : "2025-07-10T12:00:00+01:00"
+    },
+    {
       "code" : "status",
       "valueCode" : "active"
     }]
@@ -9784,6 +9792,78 @@
     {
       "code" : "dateMaj",
       "valueDateTime" : "2025-06-25T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    }]
+  },
+  {
+    "code" : "276",
+    "display" : "Unité d’Accueil et de Soins pour personnes Sourdes et malentendantes (UASS)",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "UASS"
+    }],
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2025-07-10T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2025-07-10T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    }]
+  },
+  {
+    "code" : "277",
+    "display" : "Equipe de coordination hospitalière de tissus et/ou d’organes",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "Equipe organes tissus"
+    }],
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2025-07-10T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2025-07-10T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    }]
+  },
+  {
+    "code" : "278",
+    "display" : "Unité Hospitalière de Courte Durée (UHCD)",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "UHCD"
+    }],
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2025-07-10T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2025-07-10T12:00:00+01:00"
     },
     {
       "code" : "status",

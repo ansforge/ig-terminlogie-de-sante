@@ -44704,6 +44704,23 @@
          fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
          fhir:value [
            a fhir:string ;
+           fhir:v "NamingSystem"
+         ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <https://interop.esante.gouv.fr/terminologies/NamingSystem/ADICAP> ;
+         fhir:reference [ fhir:v "NamingSystem/ADICAP" ]
+       ] ;
+       fhir:name [ fhir:v "ADICAP" ] ;
+       fhir:example [
+         a fhir:boolean ;
+         fhir:v false
+       ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [
+           a fhir:string ;
            fhir:v "ValueSet"
          ]
        ] ) ;
@@ -58824,6 +58841,23 @@
          fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
          fhir:value [
            a fhir:string ;
+           fhir:v "NamingSystem"
+         ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <https://interop.esante.gouv.fr/terminologies/NamingSystem/NCIT> ;
+         fhir:reference [ fhir:v "NamingSystem/NCIT" ]
+       ] ;
+       fhir:name [ fhir:v "NCIT" ] ;
+       fhir:example [
+         a fhir:boolean ;
+         fhir:v false
+       ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [
+           a fhir:string ;
            fhir:v "CodeSystem"
          ]
        ] ) ;
@@ -58939,6 +58973,23 @@
        ] ;
        fhir:name [ fhir:v "ParticipationType" ] ;
        fhir:description [ fhir:v "ParticipationType" ] ;
+       fhir:example [
+         a fhir:boolean ;
+         fhir:v false
+       ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [
+           a fhir:string ;
+           fhir:v "NamingSystem"
+         ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <https://interop.esante.gouv.fr/terminologies/NamingSystem/PCS> ;
+         fhir:reference [ fhir:v "NamingSystem/PCS" ]
+       ] ;
+       fhir:name [ fhir:v "PCS" ] ;
        fhir:example [
          a fhir:boolean ;
          fhir:v false
@@ -60501,7 +60552,6 @@
          fhir:reference [ fhir:v "CodeSystem/TRE-R16-LieuFormation" ]
        ] ;
        fhir:name [ fhir:v "TRE_R16_LieuFormation" ] ;
-       fhir:description [ fhir:v "Lieu de formation" ] ;
        fhir:example [
          a fhir:boolean ;
          fhir:v false

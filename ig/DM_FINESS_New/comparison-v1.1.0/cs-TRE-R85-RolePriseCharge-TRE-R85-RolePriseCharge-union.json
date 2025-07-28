@@ -1,11 +1,11 @@
 {
   "resourceType" : "CodeSystem",
-  "id" : "a21150dc-0ce2-4c3d-ba9c-5ec6ebbb8c1d-728",
-  "url" : "http://hl7.org/fhir/comparison/CodeSystem/a21150dc-0ce2-4c3d-ba9c-5ec6ebbb8c1d-728",
+  "id" : "abdcfdc2-2300-4d38-b9c1-97871a5eea5c-728",
+  "url" : "http://hl7.org/fhir/comparison/CodeSystem/abdcfdc2-2300-4d38-b9c1-97871a5eea5c-728",
   "name" : "UnionTRE_R85_RolePriseChargeAndTRE_R85_RolePriseCharge",
   "title" : "Union of null And null",
   "status" : "active",
-  "date" : "2025-07-18T07:57:58+00:00",
+  "date" : "2025-07-28T10:01:35+00:00",
   "jurisdiction" : [{
     "coding" : [{
       "system" : "urn:iso:std:iso:3166",
@@ -2491,6 +2491,22 @@
     {
       "code" : "dateMaj",
       "valueDateTime" : "2025-03-28T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    }]
+  },
+  {
+    "code" : "373",
+    "display" : "Technicien d’études cliniques",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2025-07-21T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2025-07-21T12:00:00+01:00"
     },
     {
       "code" : "status",

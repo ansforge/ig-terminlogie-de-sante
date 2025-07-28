@@ -23864,6 +23864,16 @@
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="NamingSystem"/>
+      </extension>
+      <reference>
+        <reference value="NamingSystem/ADICAP"/>
+      </reference>
+      <name value="ADICAP"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
         <valueString value="ValueSet"/>
       </extension>
       <reference>
@@ -32489,6 +32499,16 @@
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="NamingSystem"/>
+      </extension>
+      <reference>
+        <reference value="NamingSystem/NCIT"/>
+      </reference>
+      <name value="NCIT"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
         <valueString value="CodeSystem"/>
       </extension>
       <reference>
@@ -32560,6 +32580,16 @@
       </reference>
       <name value="ParticipationType"/>
       <description value="ParticipationType"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="NamingSystem"/>
+      </extension>
+      <reference>
+        <reference value="NamingSystem/PCS"/>
+      </reference>
+      <name value="PCS"/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -33513,7 +33543,6 @@
         <reference value="CodeSystem/TRE-R16-LieuFormation"/>
       </reference>
       <name value="TRE_R16_LieuFormation"/>
-      <description value="Lieu de formation"/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
