@@ -17,4 +17,4 @@ Description: "Jeu de valeurs FINESS permettant de préciser le statut des capaci
 * ^experimental = false
 * ^date = "2025-05-16T18:02:28.249+00:00"
 * ^publisher = "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris"
-* include codes from system $tre-r330-type-statut-capacite where JdvJ353TypeStatutCapaciteFiness = "true"
+* include codes from system $tre-r330-type-statut-capacite where BTypeStatutCapaciteFiness = "true"
