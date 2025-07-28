@@ -42,7 +42,7 @@ Description: "Nomenclature des types de rôles que peuvent exercer des entités 
 * ^property[=].description = "The date at which a concept was retired"
 * ^property[=].type = #dateTime
 * ^property[+].code = #finess
-* ^property[=].uri = "http://hl7.org/fhir/concept-properties#finess"
+* ^property[=].uri = "https://smt.esante.gouv.fr/fhir/concept-properties#finess"
 * ^property[=].description = "Permet de définir les codes concepts utilisés par FINESS+"
 * ^property[=].type = #boolean
 * #S "Entité support"

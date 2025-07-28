@@ -42,11 +42,11 @@ Description: "Nomenclature des types de groupement utilisables dans FINESS. Grou
 * ^property[=].description = "The date at which a concept was retired"
 * ^property[=].type = #dateTime
 * ^property[+].code = #finess
-* ^property[=].uri = "http://hl7.org/fhir/concept-properties#finess"
+* ^property[=].uri = "https://smt.esante.gouv.fr/fhir/concept-properties#finess"
 * ^property[=].description = "Permet de définir les codes concepts utilisés par FINESS+"
 * ^property[=].type = #boolean
 * ^property[+].code = #hasTypeRoleMember
-* ^property[=].uri = "http://hl7.org/fhir/concept-properties#hasTypeRoleMember"
+* ^property[=].uri = "https://smt.esante.gouv.fr/fhir/concept-properties#hasTypeRoleMember"
 * ^property[=].description = "Type de rôle des membres des concepts type de groupement"
 * ^property[=].type = #Coding
 * #01 "Groupement de coopération conventionnelle" "La coopération conventionnelle ne donne pas lieu à la création d'une structure juridique.  Elle n'est matérialisée que par un engagement qui associe l'ensemble des membres du groupe. Une des personnes morales appartenant au groupe sera dite 'PM support'. Elle a un rôle particulier au sein du groupe notamment pour les échanges avec l'extérieur."

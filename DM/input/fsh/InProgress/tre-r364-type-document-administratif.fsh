@@ -41,11 +41,11 @@ Description: "Nomenclature des types de documents administratif ( exemple : agr�
 * ^property[=].description = "The date at which a concept was retired"
 * ^property[=].type = #dateTime
 * ^property[+].code = #JdvJ295DocumentInformatifFiness
-* ^property[=].uri = "http://hl7.org/fhir/concept-properties#JdvJ295DocumentInformatifFiness"
+* ^property[=].uri = "https://smt.esante.gouv.fr/fhir/concept-properties#JdvJ295DocumentInformatifFiness"
 * ^property[=].description = "Permet de définir les codes à inclure dans le JdvJ295DocumentInformatifFiness"
 * ^property[=].type = #boolean
 * ^property[+].code = #JdvJ294DocumentJustificatifFiness
-* ^property[=].uri = "http://hl7.org/fhir/concept-properties#JdvJ294DocumentJustificatifFiness"
+* ^property[=].uri = "https://smt.esante.gouv.fr/fhir/concept-properties#JdvJ294DocumentJustificatifFiness"
 * ^property[=].description = "Permet de définir les codes à inclure dans le JdvJ294DocumentJustificatifFiness"
 * ^property[=].type = #boolean
 * #001 "Arrêté d'autorisation"

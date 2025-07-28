@@ -50,7 +50,7 @@ Description: "Nomenclature des activités sanitaires utilisée pour décrire les
 * ^property[=].description = "The date at which a concept was retired"
 * ^property[=].type = #dateTime
 * ^property[+].code = #niveau
-* ^property[=].uri = "http://hl7.org/fhir/concept-properties#niveau"
+* ^property[=].uri = "https://smt.esante.gouv.fr/fhir/concept-properties#niveau"
 * ^property[=].description = "Permet d'indiquer le niveau hiérarchique du code"
 * ^property[=].type = #integer
 * #0200 "Hospitalisation"
