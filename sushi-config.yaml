@@ -57,10 +57,8 @@ parameters:
       - https://smt.esante.gouv.fr/fhir
       - https://mos.esante.gouv.fr/NOS
     special-url:
-      - http://snomed.info/sct
-      - https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r389-statut-bilan-projet-personnalise
-      - https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r390-type-projet-personnalise
-      - https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r393-type-contrat-sejour
+"""      - "" || Url"
+      - https://interop.esante.gouv.fr/terminologies/ImplementationGuide/ans.fr.terminologies
       - https://mos.esante.gouv.fr/NOS/ASS_A11-CorresModeleCDA-XdsFormatCode-CISIS
       - https://mos.esante.gouv.fr/NOS/ASS_A12_CorresMediaTypeCDANonStructure-XdsFormatCode-CISIS
       - https://mos.esante.gouv.fr/NOS/ASS_A13-TypeEvenement-FluxStandardise/FHIR/ASS-A13-TypeEvenement-FluxStandardise
@@ -92,14 +90,10 @@ parameters:
       - https://mos.esante.gouv.fr/NOS/JDV_J120-CommuneHistorisee/FHIR/JDV-J120-CommuneHistorisee
       - https://mos.esante.gouv.fr/NOS/JDV_J124-Commune/FHIR/JDV-J124-Commune
       - https://mos.esante.gouv.fr/NOS/JDV-MediaTypeCorpsCDANonStructure?vs
-      - https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j366-statut-bilan-projet-personnalise-ms
-      - https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j367-type-projet-personnalise-ms
-      - https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j368-categorie-etablissement-cisis
-      - https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j370-type-contrat-sejour-ms
       - https://mos.esante.gouv.fr/NOS/JDV-ModeleDocumentCDA
       - https://mos.esante.gouv.fr/NOS/TRE_R221-ModeleDocumentCDANonStructure/FHIR/TRE-R221-ModeleDocumentCDANonStructure?vs
-      - https://smt-pprod.esante.gouv.fr/fhir/ConceptMap/alignement-nuva-atc
-      - https://smt-pprod.esante.gouv.fr/fhir/ConceptMap/alignement-nuva-bdpm
+      - https://smt.esante.gouv.fr/fhir/ConceptMap/alignement-nuva-atc
+      - https://smt.esante.gouv.fr/fhir/ConceptMap/alignement-nuva-bdpm
       - https://smt.esante.gouv.fr/fhir/ValueSet/jdv-hl7-v3-ActEncounterCode-cisis
       - https://smt.esante.gouv.fr/fhir/ValueSet/jdv-hl7-v3-ActMoodIntent-cisis
       - https://smt.esante.gouv.fr/fhir/ValueSet/jdv-hl7-v3-ActMood-cisis
@@ -394,6 +388,7 @@ parameters:
       - https://smt.esante.gouv.fr/fhir/ValueSet/jdv-activite-cisis
       - https://smt.esante.gouv.fr/fhir/ValueSet/jdv-addiction-cisis
       - https://smt.esante.gouv.fr/fhir/ValueSet/jdv-addition-grandeur-cisis
+      - https://smt.esante.gouv.fr/fhir/ValueSet/jdv-age-cisis
       - https://smt.esante.gouv.fr/fhir/ValueSet/jdv-age-de-survenue-cisis
       - https://smt.esante.gouv.fr/fhir/ValueSet/jdv-aide-au-deplacement-cisis
       - https://smt.esante.gouv.fr/fhir/ValueSet/jdv-allergie-vaccin-cisis
@@ -458,8 +453,10 @@ parameters:
       - https://smt.esante.gouv.fr/fhir/ValueSet/jdv-deficience-physique-cisis
       - https://smt.esante.gouv.fr/fhir/ValueSet/jdv-delimitation-activite-cisis
       - https://smt.esante.gouv.fr/fhir/ValueSet/jdv-densite-mammaire-cisis
+      - https://smt.esante.gouv.fr/fhir/ValueSet/jdv-depistage-neonatal-cisis
       - https://smt.esante.gouv.fr/fhir/ValueSet/jdv-deplacement-cisis
       - https://smt.esante.gouv.fr/fhir/ValueSet/jdv-destination-obp-sne-cisis
+      - https://smt.esante.gouv.fr/fhir/ValueSet/jdv-destination-transfert-cisis
       - https://smt.esante.gouv.fr/fhir/ValueSet/jdv-detail-materiel-specialise-cisis
       - https://smt.esante.gouv.fr/fhir/ValueSet/jdv-detail-ressource-immobiliere-utilisee-cisis
       - https://smt.esante.gouv.fr/fhir/ValueSet/jdv-developpement-psychomoteur-cs24-cisis
@@ -471,6 +468,7 @@ parameters:
       - https://smt.esante.gouv.fr/fhir/ValueSet/jdv-enfant-expose-aux-ecrans-cs24-cisis
       - https://smt.esante.gouv.fr/fhir/ValueSet/jdv-etat-naissance-cisis
       - https://smt.esante.gouv.fr/fhir/ValueSet/jdv-etat-perinee-cisis
+      - https://smt.esante.gouv.fr/fhir/ValueSet/jdv-etat-psychique-cisis
       - https://smt.esante.gouv.fr/fhir/ValueSet/jdv-etiologie-avc-cisis
       - https://smt.esante.gouv.fr/fhir/ValueSet/jdv-etiologie-hemorragie-cisis
       - https://smt.esante.gouv.fr/fhir/ValueSet/jdv-etiologie-infarctus-cisis
@@ -482,6 +480,7 @@ parameters:
       - https://smt.esante.gouv.fr/fhir/ValueSet/jdv-evaluation-neurocognitive-cisis
       - https://smt.esante.gouv.fr/fhir/ValueSet/jdv-evaluation-ssiad-cisis
       - https://smt.esante.gouv.fr/fhir/ValueSet/jdv-evenement-accouchement-cisis
+      - https://smt.esante.gouv.fr/fhir/ValueSet/jdv-evolution-cisis
       - https://smt.esante.gouv.fr/fhir/ValueSet/jdv-examen-biochimie-aunv-cisis
       - https://smt.esante.gouv.fr/fhir/ValueSet/jdv-examen-biochimie-eunv-cisis
       - https://smt.esante.gouv.fr/fhir/ValueSet/jdv-examen-clinique-cisis
@@ -503,6 +502,7 @@ parameters:
       - https://smt.esante.gouv.fr/fhir/ValueSet/jdv-geste-reanimation-nouveau-ne-cisis
       - https://smt.esante.gouv.fr/fhir/ValueSet/jdv-gestion-effet-secondaire-cisis
       - https://smt.esante.gouv.fr/fhir/ValueSet/jdv-gir-cisis
+      - https://smt.esante.gouv.fr/fhir/ValueSet/jdv-gravite-cisis
       - https://smt.esante.gouv.fr/fhir/ValueSet/jdv-groupe-rhesus-cisis
       - https://smt.esante.gouv.fr/fhir/ValueSet/jdv-handicap-deficit-dlu-dom-cisis
       - https://smt.esante.gouv.fr/fhir/ValueSet/jdv-handicap-deficit-dlu-ehpad-cisis
@@ -515,6 +515,7 @@ parameters:
       - https://smt.esante.gouv.fr/fhir/ValueSet/jdv-immunization-route-code-cisis
       - https://smt.esante.gouv.fr/fhir/ValueSet/jdv-impact-mutation-cisis
       - https://smt.esante.gouv.fr/fhir/ValueSet/jdv-importance-clinique-cisis
+      - https://smt.esante.gouv.fr/fhir/ValueSet/jdv-imputabilite-cisis
       - https://smt.esante.gouv.fr/fhir/ValueSet/jdv-indicateur-anormalite-cisis
       - https://smt.esante.gouv.fr/fhir/ValueSet/jdv-info-deces-cs8-cisis
       - https://smt.esante.gouv.fr/fhir/ValueSet/jdv-info-prise-en-charge-cisis
@@ -525,6 +526,10 @@ parameters:
       - https://smt.esante.gouv.fr/fhir/ValueSet/jdv-investigation-realisee-eunv-cisis
       - https://smt.esante.gouv.fr/fhir/ValueSet/jdv-investigation-realisee-sunv-cisis
       - https://smt.esante.gouv.fr/fhir/ValueSet/jdv-issue-grossesse-cisis
+      - https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j366-statut-bilan-projet-personnalise-ms
+      - https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j367-type-projet-personnalise-ms
+      - https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j368-categorie-etablissement-cisis
+      - https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j370-type-contrat-sejour-ms
       - https://smt.esante.gouv.fr/fhir/ValueSet/jdv-jour-semaine-cisis
       - https://smt.esante.gouv.fr/fhir/ValueSet/jdv-juridique-cisis
       - https://smt.esante.gouv.fr/fhir/ValueSet/jdv-lateralite-cisis
@@ -572,6 +577,7 @@ parameters:
       - https://smt.esante.gouv.fr/fhir/ValueSet/jdv-mode-sortie-obp-snm-cisis
       - https://smt.esante.gouv.fr/fhir/ValueSet/jdv-modele-document-cda-cisis
       - https://smt.esante.gouv.fr/fhir/ValueSet/jdv-modele-document-cda-non-structure-cisis
+      - https://smt.esante.gouv.fr/fhir/ValueSet/jdv-modificateur-topographique-cisis
       - https://smt.esante.gouv.fr/fhir/ValueSet/jdv-morphologie-cisis
       - https://smt.esante.gouv.fr/fhir/ValueSet/jdv-motif-consultation-ophtalmologique-cisis
       - https://smt.esante.gouv.fr/fhir/ValueSet/jdv-motif-declenchement-travail-cisis
@@ -585,6 +591,7 @@ parameters:
       - https://smt.esante.gouv.fr/fhir/ValueSet/jdv-nature-materiel-etudie-cisis
       - https://smt.esante.gouv.fr/fhir/ValueSet/jdv-nihss-ataxie-cisis
       - https://smt.esante.gouv.fr/fhir/ValueSet/jdv-nihss-champ-visuel-cisis
+      - https://smt.esante.gouv.fr/fhir/ValueSet/jdv-nihss-commandes-cisis
       - https://smt.esante.gouv.fr/fhir/ValueSet/jdv-nihss-conscience-cisis
       - https://smt.esante.gouv.fr/fhir/ValueSet/jdv-nihss-dysarthrie-cisis
       - https://smt.esante.gouv.fr/fhir/ValueSet/jdv-nihss-fonction-cisis
@@ -593,7 +600,9 @@ parameters:
       - https://smt.esante.gouv.fr/fhir/ValueSet/jdv-nihss-motricite-membre-superieur-cisis
       - https://smt.esante.gouv.fr/fhir/ValueSet/jdv-nihss-negligence-cisis
       - https://smt.esante.gouv.fr/fhir/ValueSet/jdv-nihss-occulomotricite-cisis
+      - https://smt.esante.gouv.fr/fhir/ValueSet/jdv-nihss-paralysie-faciale-cisis
       - https://smt.esante.gouv.fr/fhir/ValueSet/jdv-nihss-questions-cisis
+      - https://smt.esante.gouv.fr/fhir/ValueSet/jdv-nihss-sensibilite-cisis
       - https://smt.esante.gouv.fr/fhir/ValueSet/jdv-niveau-dependance-cisis
       - https://smt.esante.gouv.fr/fhir/ValueSet/jdv-niveau-etude-cisis
       - https://smt.esante.gouv.fr/fhir/ValueSet/jdv-nvpo-cisis
@@ -601,6 +610,7 @@ parameters:
       - https://smt.esante.gouv.fr/fhir/ValueSet/jdv-obp-resultat-evenement-cisis
       - https://smt.esante.gouv.fr/fhir/ValueSet/jdv-obp-test-audition-cisis
       - https://smt.esante.gouv.fr/fhir/ValueSet/jdv-observation-enfant-cisis
+      - https://smt.esante.gouv.fr/fhir/ValueSet/jdv-observation-etat-patient-cisis
       - https://smt.esante.gouv.fr/fhir/ValueSet/jdv-observation-grossesse-cisis
       - https://smt.esante.gouv.fr/fhir/ValueSet/jdv-oeil-examine-cisis
       - https://smt.esante.gouv.fr/fhir/ValueSet/jdv-organe-cisis
@@ -628,6 +638,7 @@ parameters:
       - https://smt.esante.gouv.fr/fhir/ValueSet/jdv-rcp-appareil-cisis
       - https://smt.esante.gouv.fr/fhir/ValueSet/jdv-rcp-organe-cisis
       - https://smt.esante.gouv.fr/fhir/ValueSet/jdv-readaptation-cisis
+      - https://smt.esante.gouv.fr/fhir/ValueSet/jdv-realisation-activite-cisis
       - https://smt.esante.gouv.fr/fhir/ValueSet/jdv-recherche-aghbs-cisis
       - https://smt.esante.gouv.fr/fhir/ValueSet/jdv-reference-range-applies-to-cisis
       - https://smt.esante.gouv.fr/fhir/ValueSet/jdv-region-anatomique-cisis
@@ -643,13 +654,16 @@ parameters:
       - https://smt.esante.gouv.fr/fhir/ValueSet/jdv-resultat-depistage-bilirubinurie-cisis
       - https://smt.esante.gouv.fr/fhir/ValueSet/jdv-resultat-depistage-cetonemie-cisis
       - https://smt.esante.gouv.fr/fhir/ValueSet/jdv-resultat-depistage-cholesterol-cisis
+      - https://smt.esante.gouv.fr/fhir/ValueSet/jdv-resultat-depistage-cisis
       - https://smt.esante.gouv.fr/fhir/ValueSet/jdv-resultat-depistage-corps-cetoniques-cisis
+      - https://smt.esante.gouv.fr/fhir/ValueSet/jdv-resultat-depistage-crp-cisis
       - https://smt.esante.gouv.fr/fhir/ValueSet/jdv-resultat-depistage-glucose-cisis
       - https://smt.esante.gouv.fr/fhir/ValueSet/jdv-resultat-depistage-glycemie-cisis
       - https://smt.esante.gouv.fr/fhir/ValueSet/jdv-resultat-depistage-hematurie-cisis
       - https://smt.esante.gouv.fr/fhir/ValueSet/jdv-resultat-depistage-leucocyturie-cisis
       - https://smt.esante.gouv.fr/fhir/ValueSet/jdv-resultat-depistage-nitriturie-cisis
       - https://smt.esante.gouv.fr/fhir/ValueSet/jdv-resultat-depistage-proteinurie-cisis
+      - https://smt.esante.gouv.fr/fhir/ValueSet/jdv-resultat-depistage-rupture-membrane-ph-cisis
       - https://smt.esante.gouv.fr/fhir/ValueSet/jdv-resultat-depistage-surdite-cisis
       - https://smt.esante.gouv.fr/fhir/ValueSet/jdv-resultat-depistage-urobilinogenurie-cisis
       - https://smt.esante.gouv.fr/fhir/ValueSet/jdv-resultat-evaluation-cisis
@@ -677,6 +691,7 @@ parameters:
       - https://smt.esante.gouv.fr/fhir/ValueSet/jdv-score-performance-ecog-cisis
       - https://smt.esante.gouv.fr/fhir/ValueSet/jdv-score-rankin-cisis
       - https://smt.esante.gouv.fr/fhir/ValueSet/jdv-secteur-activite-employeur-cisis
+      - https://smt.esante.gouv.fr/fhir/ValueSet/jdv-sedentarite-cisis
       - https://smt.esante.gouv.fr/fhir/ValueSet/jdv-severite-observation-cisis
       - https://smt.esante.gouv.fr/fhir/ValueSet/jdv-signe-vital-cisis
       - https://smt.esante.gouv.fr/fhir/ValueSet/jdv-signe-vital-cs24-cisis
@@ -696,6 +711,7 @@ parameters:
       - https://smt.esante.gouv.fr/fhir/ValueSet/jdv-statut-grossesse-cisis
       - https://smt.esante.gouv.fr/fhir/ValueSet/jdv-statut-quorum-cisis
       - https://smt.esante.gouv.fr/fhir/ValueSet/jdv-statut-resultat-cisis
+      - https://smt.esante.gouv.fr/fhir/ValueSet/jdv-statut-tabagique-cisis
       - https://smt.esante.gouv.fr/fhir/ValueSet/jdv-structure-de-soins-cisis
       - https://smt.esante.gouv.fr/fhir/ValueSet/jdv-support-nutritionnel-cisis
       - https://smt.esante.gouv.fr/fhir/ValueSet/jdv-symptome-avc-cisis
@@ -791,10 +807,9 @@ parameters:
       - https://smt.esante.gouv.fr/fhir/ValueSet/jdv-vaccin-cse9-cisis
       - https://smt.esante.gouv.fr/fhir/ValueSet/jdv-vie-en-collectivite-cisis
       - https://smt.esante.gouv.fr/fhir/ValueSet/jdv-voie-abord-cisis
-      - https://smt.esante.gouv.fr/fhir/ValueSet/jdv-nihss-paralysie-faciale-cisis
-      - https://smt.esante.gouv.fr/fhir/ValueSet/jdv-nihss-sensibilite-cisis
       - https://smt.esante.gouv.fr/fhir/ValueSet/jdv-hl7-v3-MediaType-cisis
       - https://smt.esante.gouv.fr/fhir/ValueSet/jdv-hl7-v3-ObservationInterpretation-cisis
+      - https://smt.esante.gouv.fr/fhir/ValueSet/jdv-hl7-v3-ObservationMethod-cisis
       - https://smt.esante.gouv.fr/fhir/ValueSet/jdv-hl7-v3-ParticipationFunction-cisis
       - https://smt.esante.gouv.fr/fhir/ValueSet/jdv-hl7-v3-ParticipationType-cisis
       - https://smt.esante.gouv.fr/fhir/ValueSet/jdv-hl7-v3-PersonalRelationshipRoleType-cisis
@@ -812,7 +827,11 @@ parameters:
       - https://smt.esante.gouv.fr/terminologie-sms?vs
       - https://smt.esante.gouv.fr/fhir/ValueSet/jdv-hl7-v3-WorkScheduleODH-cisis
       - https://smt.esante.gouv.fr/fhir/ValueSet/jdv-hl7-v3-xActMoodDocumentObservation
+      - https://smt.esante.gouv.fr/fhir/ValueSet/jdv-hl7-v3-xBasicConfidentialityKind-cisis
+      - https://interop.esante.gouv.fr/terminologies/NamingSystem/ADICAP
       - https://interop.esante.gouv.fr/terminologies/NamingSystem/v3-loinc
+      - https://interop.esante.gouv.fr/terminologies/NamingSystem/NCIT
+      - https://interop.esante.gouv.fr/terminologies/NamingSystem/PCS
       - https://interop.esante.gouv.fr/terminologies/NamingSystem/Snomed-CT-core
       - https://smt.esante.gouv.fr/terminologie-atc
       - https://smt.esante.gouv.fr/terminologie-bdpm
@@ -827,7 +846,6 @@ parameters:
       - https://smt.esante.gouv.fr/terminologie-nabm
       - https://smt.esante.gouv.fr/terminologie-nuva
       - https://smt.esante.gouv.fr/terminologie-SERAFINPH
-      - http://snomed.info/sct
       - http://snomed.info/sct
       - http://terminology.hl7.org/CodeSystem/service-type
       - https://smt.esante.gouv.fr/terminologie-standardterms
@@ -1082,7 +1100,10 @@ parameters:
       - https://mos.esante.gouv.fr/NOS/TRE_R96-AutreFonctionSanitaire/FHIR/TRE-R96-AutreFonctionSanitaire
       - https://mos.esante.gouv.fr/NOS/TRE_R97-DroitExerciceCompl/FHIR/TRE-R97-DroitExerciceCompl
       - https://smt.esante.gouv.fr/fhir/CodeSystem/terminologie-cisis
-
+      - https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r389-statut-bilan-projet-personnalise
+      - https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r390-type-projet-personnalise
+      - https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r393-type-contrat-sejour
+      - https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r394-competence-metier
 
       
 pages:
