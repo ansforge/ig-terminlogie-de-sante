@@ -35,7 +35,7 @@
   </jurisdiction>
   <caseSensitive value="false"/>
   <content value="complete"/>
-  <count value="275"/>
+  <count value="278"/>
   <property>
     <code value="dateValid"/>
     <description value="date de validité d'un code concept"/>

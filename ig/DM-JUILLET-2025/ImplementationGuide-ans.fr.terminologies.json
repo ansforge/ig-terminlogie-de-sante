@@ -10,7 +10,7 @@
   "name" : "Terminologies",
   "title" : "Terminologies  de Santé",
   "status" : "active",
-  "date" : "2025-07-23T12:37:58+00:00",
+  "date" : "2025-07-29T13:59:59+00:00",
   "publisher" : "ANS",
   "contact" : [{
     "name" : "ANS",
@@ -32644,6 +32644,17 @@
       },
       "name" : "MediaType",
       "description" : "MediaType",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "NamingSystem"
+      }],
+      "reference" : {
+        "reference" : "NamingSystem/NCIT"
+      },
+      "name" : "NCIT",
       "exampleBoolean" : false
     },
     {

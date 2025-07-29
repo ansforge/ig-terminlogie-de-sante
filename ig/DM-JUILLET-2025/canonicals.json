@@ -45,6 +45,12 @@
     "name" : "ADICAP"
   },
   {
+    "id" : "NCIT",
+    "type" : "NamingSystem",
+    "url" : "https://interop.esante.gouv.fr/terminologies/NamingSystem/NCIT",
+    "name" : "NCIT"
+  },
+  {
     "id" : "PCS",
     "type" : "NamingSystem",
     "url" : "https://interop.esante.gouv.fr/terminologies/NamingSystem/PCS",
@@ -804,7 +810,7 @@
     "id" : "JDV-J154-TypeGlucose-ENS",
     "type" : "ValueSet",
     "url" : "https://mos.esante.gouv.fr/NOS/JDV_J154-TypeGlucose-ENS/FHIR/JDV-J154-TypeGlucose-ENS",
-    "version" : "20250723120000",
+    "version" : "20250728120000",
     "name" : "JDV_J154_TypeGlucose_ENS",
     "oids" : ["1.2.250.1.213.1.1.5.609"]
   },
@@ -828,7 +834,7 @@
     "id" : "JDV-J157-MomentGlucose-ENS",
     "type" : "ValueSet",
     "url" : "https://mos.esante.gouv.fr/NOS/JDV_J157-MomentGlucose-ENS/FHIR/JDV-J157-MomentGlucose-ENS",
-    "version" : "20250425120000",
+    "version" : "20250728120000",
     "name" : "JDV_J157_MomentGlucose_ENS",
     "oids" : ["1.2.250.1.213.1.1.5.612"]
   },
@@ -884,7 +890,7 @@
     "id" : "JDV-J164-GlucoseNumberOfDays-ENS",
     "type" : "ValueSet",
     "url" : "https://mos.esante.gouv.fr/NOS/JDV_J164-GlucoseNumberOfDays-ENS/FHIR/JDV-J164-GlucoseNumberOfDays-ENS",
-    "version" : "20241213120000",
+    "version" : "20250728120000",
     "name" : "JDV_J164_GlucoseNumberOfDays_ENS",
     "oids" : ["1.2.250.1.213.1.1.5.640"]
   },
