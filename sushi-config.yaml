@@ -57,7 +57,6 @@ parameters:
       - https://smt.esante.gouv.fr/fhir
       - https://mos.esante.gouv.fr/NOS
     special-url:
-"""      - "" || Url"
       - https://interop.esante.gouv.fr/terminologies/ImplementationGuide/ans.fr.terminologies
       - https://mos.esante.gouv.fr/NOS/ASS_A11-CorresModeleCDA-XdsFormatCode-CISIS
       - https://mos.esante.gouv.fr/NOS/ASS_A12_CorresMediaTypeCDANonStructure-XdsFormatCode-CISIS
