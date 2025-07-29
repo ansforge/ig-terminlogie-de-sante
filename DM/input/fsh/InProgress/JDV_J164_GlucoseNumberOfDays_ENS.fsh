@@ -14,8 +14,8 @@ Description: "Liste fermée des codes utilisables pour la mesure du taux de gluc
 * ^date = "2024-12-13T12:00:00+01:00"
 * ^publisher = "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris"
 * ^jurisdiction = urn:iso:std:iso:3166#FR
-* https://smt.esante.gouv.fr/fhir/CodeSystem/terminologie-cisis##GEN-275 "7j"
-* https://smt.esante.gouv.fr/fhir/CodeSystem/terminologie-cisis##GEN-276 "14j"
-* https://smt.esante.gouv.fr/fhir/CodeSystem/terminologie-cisis##GEN-277 "30j"
-* https://smt.esante.gouv.fr/fhir/CodeSystem/terminologie-cisis##GEN-278 "90j"
-* https://smt.esante.gouv.fr/fhir/CodeSystem/terminologie-cisis##GEN-092.08.05 "Autre(s) nombre de jours"
+* https://smt.esante.gouv.fr/fhir/CodeSystem/terminologie-cisis#GEN-275 "7j"
+* https://smt.esante.gouv.fr/fhir/CodeSystem/terminologie-cisis#GEN-276 "14j"
+* https://smt.esante.gouv.fr/fhir/CodeSystem/terminologie-cisis#GEN-277 "30j"
+* https://smt.esante.gouv.fr/fhir/CodeSystem/terminologie-cisis#GEN-278 "90j"
+* https://smt.esante.gouv.fr/fhir/CodeSystem/terminologie-cisis#GEN-092.08.05 "Autre(s) nombre de jours"
