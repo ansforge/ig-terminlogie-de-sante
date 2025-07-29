@@ -6,4 +6,4 @@
 2.16.840.1.113883.6.1;88365-2;Glucose [Masse/volume] dans le sang --avant repas
 2.16.840.1.113883.6.1;LA11865-5;Après exercice
 2.16.840.1.113883.6.1;LA46-8;Autre
-https://smt.esante.gouv.fr/fhir/CodeSystem/1.2.250.1.213.1.1.4.322;MED-1278;Lors d'un malaise
+1.2.250.1.213.1.1.4.322;MED-1278;Lors d'un malaise

@@ -26,7 +26,7 @@
                   codeSystem="2.16.840.1.113883.6.1"
                   displayName="Autre"/>
          <Concept code="MED-1278"
-                  codeSystem="https://smt.esante.gouv.fr/fhir/CodeSystem/1.2.250.1.213.1.1.4.322"
+                  codeSystem="1.2.250.1.213.1.1.4.322"
                   displayName="Lors d'un malaise"/>
       </ConceptList>
    </ValueSet>

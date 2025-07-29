@@ -1,11 +1,11 @@
 {
   "resourceType" : "CodeSystem",
-  "id" : "4de36b61-a956-4be3-813d-32d70fc36350-710",
-  "url" : "http://hl7.org/fhir/comparison/CodeSystem/4de36b61-a956-4be3-813d-32d70fc36350-710",
+  "id" : "e5588741-1adb-40d2-a3be-ddb1fd274f3b-710",
+  "url" : "http://hl7.org/fhir/comparison/CodeSystem/e5588741-1adb-40d2-a3be-ddb1fd274f3b-710",
   "name" : "UnionTRE_R74_ModeFixationTarifaireAndTRE_R74_ModeFixationTarifaire",
   "title" : "Union of null And null",
   "status" : "active",
-  "date" : "2025-07-29T06:36:15+00:00",
+  "date" : "2025-07-29T15:40:35+00:00",
   "jurisdiction" : [{
     "coding" : [{
       "system" : "urn:iso:std:iso:3166",
