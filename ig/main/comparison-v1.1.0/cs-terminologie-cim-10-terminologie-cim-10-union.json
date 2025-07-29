@@ -1,11 +1,11 @@
 {
   "resourceType" : "CodeSystem",
-  "id" : "6d7e7949-f883-4020-85b8-4f0301e9d270-773",
-  "url" : "http://hl7.org/fhir/comparison/CodeSystem/6d7e7949-f883-4020-85b8-4f0301e9d270-773",
+  "id" : "4de36b61-a956-4be3-813d-32d70fc36350-773",
+  "url" : "http://hl7.org/fhir/comparison/CodeSystem/4de36b61-a956-4be3-813d-32d70fc36350-773",
   "name" : "UnionCIM_10_FR_PMSIAndCIM_10_FR_PMSI",
   "title" : "Union of Classification internationale des maladies et des problèmes de santé connexes - 10ème révision - Version française à usage PMSI (Programme Médicalisé des Systèmes d'Information) And Classification internationale des maladies et des problèmes de santé connexes - 10ème révision - Version française à usage PMSI (Programme Médicalisé des Systèmes d'Information)",
   "status" : "active",
-  "date" : "2025-07-28T13:12:12+00:00",
+  "date" : "2025-07-29T06:36:15+00:00",
   "jurisdiction" : [{
     "coding" : [{
       "system" : "urn:iso:std:iso:3166",

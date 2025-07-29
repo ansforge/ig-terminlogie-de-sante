@@ -1,11 +1,11 @@
 {
   "resourceType" : "ValueSet",
-  "id" : "6d7e7949-f883-4020-85b8-4f0301e9d270-1331",
-  "url" : "http://hl7.org/fhir/comparison/ValueSet/6d7e7949-f883-4020-85b8-4f0301e9d270-1331",
+  "id" : "4de36b61-a956-4be3-813d-32d70fc36350-1331",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/4de36b61-a956-4be3-813d-32d70fc36350-1331",
   "name" : "UnionJDV_J257_RegionAndJDV_J257_Region",
   "title" : "Union of null And null",
   "status" : "active",
-  "date" : "2025-07-28T13:12:13+00:00",
+  "date" : "2025-07-29T06:36:16+00:00",
   "jurisdiction" : [{
     "coding" : [{
       "system" : "urn:iso:std:iso:3166",

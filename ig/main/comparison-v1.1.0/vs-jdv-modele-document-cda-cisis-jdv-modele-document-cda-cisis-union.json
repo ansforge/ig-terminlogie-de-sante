@@ -1,11 +1,11 @@
 {
   "resourceType" : "ValueSet",
-  "id" : "6d7e7949-f883-4020-85b8-4f0301e9d270-2315",
-  "url" : "http://hl7.org/fhir/comparison/ValueSet/6d7e7949-f883-4020-85b8-4f0301e9d270-2315",
+  "id" : "4de36b61-a956-4be3-813d-32d70fc36350-2315",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/4de36b61-a956-4be3-813d-32d70fc36350-2315",
   "name" : "UnionJdvModeleDocumentCdaCisisAndJdvModeleDocumentCdaCisis",
   "title" : "Union of Jdv Modele Document CDA CISIS And Jdv Modele Document CDA CISIS",
   "status" : "active",
-  "date" : "2025-07-28T13:12:13+00:00",
+  "date" : "2025-07-29T06:36:16+00:00",
   "jurisdiction" : [{
     "coding" : [{
       "system" : "urn:iso:std:iso:3166",
