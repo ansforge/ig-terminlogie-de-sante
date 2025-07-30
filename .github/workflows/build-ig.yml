@@ -30,7 +30,8 @@ jobs:
 
       - name: Suppression des fichiers templates
         run : |
-          rm  -rf ./igSource/DM/input/fsh/Template/*.fsh    
+          rm  -rf ./igSource/DM/input/fsh/Template/*.fsh
+          rm  -rf ./igSource/DM/input/fsh/Template/FINESS_KEREVAL_20250718/*.fsh       
           rm  -rf ./igSource/DM/input/fsh/Template/ontoserver/TRE/*.fsh
           rm  -rf ./igSource/DM/input/fsh/Template/ontoserver/JDV/*.fsh
           
