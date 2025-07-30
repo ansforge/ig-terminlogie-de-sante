@@ -1,11 +1,11 @@
 {
   "resourceType" : "ValueSet",
-  "id" : "09af29ef-0e08-4eff-8dc5-226aaf28acff-2177",
-  "url" : "http://hl7.org/fhir/comparison/ValueSet/09af29ef-0e08-4eff-8dc5-226aaf28acff-2177",
+  "id" : "4b851480-9c7d-4f4e-975f-2ec93ef04d93-2177",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/4b851480-9c7d-4f4e-975f-2ec93ef04d93-2177",
   "name" : "UnionJdvJ370TypeContratSejourMsAndJdvJ370TypeContratSejourMs",
   "title" : "Union of Jdv J370 Type Contrat Sejour Ms And Jdv J370 Type Contrat Sejour Ms",
   "status" : "active",
-  "date" : "2025-07-28T16:18:46+00:00",
+  "date" : "2025-07-30T10:03:11+00:00",
   "jurisdiction" : [{
     "coding" : [{
       "system" : "urn:iso:std:iso:3166",

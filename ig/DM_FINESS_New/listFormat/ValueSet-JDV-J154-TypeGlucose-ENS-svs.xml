@@ -20,7 +20,7 @@
                   codeSystem=""
                   displayName="Glucose [Masse/Volume] Liquide interstitiel ; Numérique"/>
          <concept code="MED-972"
-                  codeSystem=""
+                  codeSystem="1.2.250.1.213.1.1.4.322"
                   displayName="Index de gestion de glycémie (IGG)"/>
       </ConceptList>
    </ValueSet>

@@ -948,13 +948,13 @@
     },
     {
       "url" : "https://mos.esante.gouv.fr/NOS/JDV_J154-TypeGlucose-ENS/FHIR/JDV-J154-TypeGlucose-ENS",
-      "version" : "20250723120000",
+      "version" : "20250728120000",
       "status" : "active",
       "name" : "JDV_J154_TypeGlucose_ENS",
       "title" : null,
       "description" : "JDV pour caractériser le type de glucose",
       "systems" : [
-        "https://smt.esante.gouv.fr/fhir/CodeSystem/1.2.250.1.213.1.1.4.322",
+        "https://smt.esante.gouv.fr/fhir/CodeSystem/terminologie-cisis",
         "http://loinc.org"
       ],
       "oids" : ["1.2.250.1.213.1.1.5.609"],
@@ -987,13 +987,13 @@
     },
     {
       "url" : "https://mos.esante.gouv.fr/NOS/JDV_J157-MomentGlucose-ENS/FHIR/JDV-J157-MomentGlucose-ENS",
-      "version" : "20250425120000",
+      "version" : "20250728120000",
       "status" : "active",
       "name" : "JDV_J157_MomentGlucose_ENS",
       "title" : null,
       "description" : "JDV pour caractériser le moment de la mesure de glucose",
       "systems" : [
-        "https://smt.esante.gouv.fr/fhir/CodeSystem/1.2.250.1.213.1.1.4.322",
+        "https://smt.esante.gouv.fr/fhir/CodeSystem/terminologie-cisis",
         "http://loinc.org"
       ],
       "oids" : ["1.2.250.1.213.1.1.5.612"],
@@ -1071,13 +1071,13 @@
     },
     {
       "url" : "https://mos.esante.gouv.fr/NOS/JDV_J164-GlucoseNumberOfDays-ENS/FHIR/JDV-J164-GlucoseNumberOfDays-ENS",
-      "version" : "20241213120000",
+      "version" : "20250728120000",
       "status" : "active",
       "name" : "JDV_J164_GlucoseNumberOfDays_ENS",
       "title" : null,
       "description" : "Liste fermée des codes utilisables pour la mesure du taux de glucose interstitiel et de l'index de gestion de glycémie (IGG) avec le profil ENS_ObservationGlucose",
       "systems" : [
-        "https://smt.esante.gouv.fr/fhir/CodeSystem/1.2.250.1.213.1.1.4.322"
+        "https://smt.esante.gouv.fr/fhir/CodeSystem/terminologie-cisis"
       ],
       "oids" : ["1.2.250.1.213.1.1.5.640"],
       "sources" : ["1.2.250.1.213.1.1.5.640"]

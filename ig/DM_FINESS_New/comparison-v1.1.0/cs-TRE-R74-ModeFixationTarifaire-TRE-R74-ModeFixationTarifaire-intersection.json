@@ -1,11 +1,11 @@
 {
   "resourceType" : "CodeSystem",
-  "id" : "09af29ef-0e08-4eff-8dc5-226aaf28acff-711",
-  "url" : "http://hl7.org/fhir/comparison/CodeSystem/09af29ef-0e08-4eff-8dc5-226aaf28acff-711",
+  "id" : "4b851480-9c7d-4f4e-975f-2ec93ef04d93-711",
+  "url" : "http://hl7.org/fhir/comparison/CodeSystem/4b851480-9c7d-4f4e-975f-2ec93ef04d93-711",
   "name" : "IntersectionTRE_R74_ModeFixationTarifaireAndTRE_R74_ModeFixationTarifaire",
   "title" : "Intersection of null And null",
   "status" : "active",
-  "date" : "2025-07-28T16:18:45+00:00",
+  "date" : "2025-07-30T10:03:10+00:00",
   "property" : [{
     "code" : "dateValid",
     "description" : "date de validité d'un code concept",

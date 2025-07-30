@@ -21,7 +21,9 @@
                   displayName="Glucose [Masse/volume] dans le sang --avant repas"/>
          <concept code="LA11865-5" codeSystem="" displayName="Après exercice"/>
          <concept code="LA46-8" codeSystem="" displayName="Autre"/>
-         <concept code="MED-1278" codeSystem="" displayName="Lors d'un malaise"/>
+         <concept code="MED-1278"
+                  codeSystem="1.2.250.1.213.1.1.4.322"
+                  displayName="Lors d'un malaise"/>
       </ConceptList>
    </ValueSet>
 </RetrieveValueSetResponse>
