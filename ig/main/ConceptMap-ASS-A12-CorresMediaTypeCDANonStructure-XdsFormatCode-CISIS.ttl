@@ -19,7 +19,7 @@
   fhir:title [ fhir:v "ASS_A12_CorresMediaTypeCDANonStructure-XdsFormatCode-CISIS"] ; # 
   fhir:status [ fhir:v "active"] ; # 
   fhir:experimental [ fhir:v false] ; # 
-  fhir:date [ fhir:v "2025-08-08T07:21:08+00:00"^^xsd:dateTime] ; # 
+  fhir:date [ fhir:v "2025-08-08T08:07:08+00:00"^^xsd:dateTime] ; # 
   fhir:publisher [ fhir:v "ANS"] ; # 
   fhir:contact ( [
      fhir:name [ fhir:v "ANS" ] ;
