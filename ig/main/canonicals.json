@@ -45,6 +45,12 @@
     "name" : "ADICAP"
   },
   {
+    "id" : "MEDDRA",
+    "type" : "NamingSystem",
+    "url" : "https://interop.esante.gouv.fr/terminologies/NamingSystem/MEDDRA",
+    "name" : "MEDDRA"
+  },
+  {
     "id" : "NCIT",
     "type" : "NamingSystem",
     "url" : "https://interop.esante.gouv.fr/terminologies/NamingSystem/NCIT",
@@ -61,6 +67,12 @@
     "type" : "NamingSystem",
     "url" : "https://interop.esante.gouv.fr/terminologies/NamingSystem/Snomed-CT-core",
     "name" : "Snomed_CT_core_900000000000207008"
+  },
+  {
+    "id" : "UCUM",
+    "type" : "NamingSystem",
+    "url" : "https://interop.esante.gouv.fr/terminologies/NamingSystem/UCUM",
+    "name" : "UCUM"
   },
   {
     "id" : "v3-loinc",

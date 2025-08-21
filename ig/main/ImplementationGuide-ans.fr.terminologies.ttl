@@ -18,7 +18,7 @@
   fhir:name [ fhir:v "Terminologies"] ; # 
   fhir:title [ fhir:v "Terminologies  de Santé"] ; # 
   fhir:status [ fhir:v "active"] ; # 
-  fhir:date [ fhir:v "2025-08-20T04:22:12+00:00"^^xsd:dateTime] ; # 
+  fhir:date [ fhir:v "2025-08-21T04:21:51+00:00"^^xsd:dateTime] ; # 
   fhir:publisher [ fhir:v "ANS"] ; # 
   fhir:contact ( [
      fhir:name [ fhir:v "ANS" ] ;
@@ -46387,6 +46387,23 @@
          fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
          fhir:value [
            a fhir:string ;
+           fhir:v "NamingSystem"
+         ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <https://interop.esante.gouv.fr/terminologies/NamingSystem/MEDDRA> ;
+         fhir:reference [ fhir:v "NamingSystem/MEDDRA" ]
+       ] ;
+       fhir:name [ fhir:v "MEDDRA" ] ;
+       fhir:example [
+         a fhir:boolean ;
+         fhir:v false
+       ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [
+           a fhir:string ;
            fhir:v "ValueSet"
          ]
        ] ) ;
@@ -51342,6 +51359,23 @@
        ] ;
        fhir:name [ fhir:v "TRE_R97_DroitExerciceCompl" ] ;
        fhir:description [ fhir:v "Droit d'exercice complémentaire" ] ;
+       fhir:example [
+         a fhir:boolean ;
+         fhir:v false
+       ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [
+           a fhir:string ;
+           fhir:v "NamingSystem"
+         ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <https://interop.esante.gouv.fr/terminologies/NamingSystem/UCUM> ;
+         fhir:reference [ fhir:v "NamingSystem/UCUM" ]
+       ] ;
+       fhir:name [ fhir:v "UCUM" ] ;
        fhir:example [
          a fhir:boolean ;
          fhir:v false

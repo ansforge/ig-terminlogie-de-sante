@@ -11,7 +11,7 @@
   <name value="Terminologies"/>
   <title value="Terminologies  de Santé"/>
   <status value="active"/>
-  <date value="2025-08-20T04:22:12+00:00"/>
+  <date value="2025-08-21T04:21:51+00:00"/>
   <publisher value="ANS"/>
   <contact>
     <name value="ANS"/>
@@ -25810,6 +25810,16 @@
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="NamingSystem"/>
+      </extension>
+      <reference>
+        <reference value="NamingSystem/MEDDRA"/>
+      </reference>
+      <name value="MEDDRA"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
         <valueString value="ValueSet"/>
       </extension>
       <reference>
@@ -28838,6 +28848,16 @@
       </reference>
       <name value="TRE_R97_DroitExerciceCompl"/>
       <description value="Droit d'exercice complémentaire"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="NamingSystem"/>
+      </extension>
+      <reference>
+        <reference value="NamingSystem/UCUM"/>
+      </reference>
+      <name value="UCUM"/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
