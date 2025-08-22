@@ -10,7 +10,7 @@
   "name" : "Terminologies",
   "title" : "Terminologies  de Santé",
   "status" : "active",
-  "date" : "2025-08-21T04:21:51+00:00",
+  "date" : "2025-08-22T04:21:48+00:00",
   "publisher" : "ANS",
   "contact" : [{
     "name" : "ANS",
@@ -24712,6 +24712,17 @@
     {
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "NamingSystem"
+      }],
+      "reference" : {
+        "reference" : "NamingSystem/IHERoleCodeVocabulary"
+      },
+      "name" : "IHERoleCode_Vocabulary",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "ValueSet"
       }],
       "reference" : {
@@ -33259,6 +33270,17 @@
       },
       "name" : "RoleClassIngredientEntity",
       "description" : "RoleClassIngredientEntity",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "NamingSystem"
+      }],
+      "reference" : {
+        "reference" : "NamingSystem/SERAFIN"
+      },
+      "name" : "SERAFIN",
       "exampleBoolean" : false
     },
     {

@@ -45,6 +45,12 @@
     "name" : "ADICAP"
   },
   {
+    "id" : "IHERoleCodeVocabulary",
+    "type" : "NamingSystem",
+    "url" : "https://interop.esante.gouv.fr/terminologies/NamingSystem/IHERoleCodeVocabulary",
+    "name" : "IHERoleCode_Vocabulary"
+  },
+  {
     "id" : "MEDDRA",
     "type" : "NamingSystem",
     "url" : "https://interop.esante.gouv.fr/terminologies/NamingSystem/MEDDRA",
@@ -61,6 +67,12 @@
     "type" : "NamingSystem",
     "url" : "https://interop.esante.gouv.fr/terminologies/NamingSystem/PCS",
     "name" : "PCS"
+  },
+  {
+    "id" : "SERAFIN",
+    "type" : "NamingSystem",
+    "url" : "https://interop.esante.gouv.fr/terminologies/NamingSystem/SERAFIN",
+    "name" : "SERAFIN"
   },
   {
     "id" : "Snomed-CT-core",

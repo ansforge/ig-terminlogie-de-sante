@@ -11,7 +11,7 @@
   <name value="Terminologies"/>
   <title value="Terminologies  de Santé"/>
   <status value="active"/>
-  <date value="2025-08-21T04:21:51+00:00"/>
+  <date value="2025-08-22T04:21:48+00:00"/>
   <publisher value="ANS"/>
   <contact>
     <name value="ANS"/>
@@ -18122,6 +18122,16 @@
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="NamingSystem"/>
+      </extension>
+      <reference>
+        <reference value="NamingSystem/IHERoleCodeVocabulary"/>
+      </reference>
+      <name value="IHERoleCode_Vocabulary"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
         <valueString value="ValueSet"/>
       </extension>
       <reference>
@@ -25957,6 +25967,16 @@
       </reference>
       <name value="RoleClassIngredientEntity"/>
       <description value="RoleClassIngredientEntity"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="NamingSystem"/>
+      </extension>
+      <reference>
+        <reference value="NamingSystem/SERAFIN"/>
+      </reference>
+      <name value="SERAFIN"/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>

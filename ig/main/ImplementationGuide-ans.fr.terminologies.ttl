@@ -18,7 +18,7 @@
   fhir:name [ fhir:v "Terminologies"] ; # 
   fhir:title [ fhir:v "Terminologies  de Santé"] ; # 
   fhir:status [ fhir:v "active"] ; # 
-  fhir:date [ fhir:v "2025-08-21T04:21:51+00:00"^^xsd:dateTime] ; # 
+  fhir:date [ fhir:v "2025-08-22T04:21:48+00:00"^^xsd:dateTime] ; # 
   fhir:publisher [ fhir:v "ANS"] ; # 
   fhir:contact ( [
      fhir:name [ fhir:v "ANS" ] ;
@@ -33806,6 +33806,23 @@
          fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
          fhir:value [
            a fhir:string ;
+           fhir:v "NamingSystem"
+         ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <https://interop.esante.gouv.fr/terminologies/NamingSystem/IHERoleCodeVocabulary> ;
+         fhir:reference [ fhir:v "NamingSystem/IHERoleCodeVocabulary" ]
+       ] ;
+       fhir:name [ fhir:v "IHERoleCode_Vocabulary" ] ;
+       fhir:example [
+         a fhir:boolean ;
+         fhir:v false
+       ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [
+           a fhir:string ;
            fhir:v "ValueSet"
          ]
        ] ) ;
@@ -46627,6 +46644,23 @@
        ] ;
        fhir:name [ fhir:v "RoleClassIngredientEntity" ] ;
        fhir:description [ fhir:v "RoleClassIngredientEntity" ] ;
+       fhir:example [
+         a fhir:boolean ;
+         fhir:v false
+       ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [
+           a fhir:string ;
+           fhir:v "NamingSystem"
+         ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <https://interop.esante.gouv.fr/terminologies/NamingSystem/SERAFIN> ;
+         fhir:reference [ fhir:v "NamingSystem/SERAFIN" ]
+       ] ;
+       fhir:name [ fhir:v "SERAFIN" ] ;
        fhir:example [
          a fhir:boolean ;
          fhir:v false
