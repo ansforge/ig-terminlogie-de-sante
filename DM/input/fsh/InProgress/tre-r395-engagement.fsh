@@ -16,7 +16,7 @@ Description: "Nomenclature des engagements associés dans FINESS+ aux Personnes 
 * ^version = "20250716120000"
 * ^status = #active
 * ^experimental = false
-* ^date = "2025-07-16"
+* ^date = "2025-07-16T12:00:00.000+00:00"
 * ^publisher = "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris"
 * ^caseSensitive = false
 * ^hierarchyMeaning = #is-a
