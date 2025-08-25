@@ -15,7 +15,7 @@ Description: "Convention du domaine social FINESS"
 * ^version = "20250822120000"
 * ^status = #retired
 * ^experimental = false
-* ^date = "2025-08-221T12:00:00+01:00"
+* ^date = "2025-08-22T12:00:00+01:00"
 * ^publisher = "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris"
 * ^jurisdiction = urn:iso:std:iso:3166#FR
 * ^caseSensitive = false
