@@ -3,7 +3,7 @@ Alias: $tre-r395-engagement = https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r39
 ValueSet: JdvJ314EngagementFiness
 Id: jdv-j314-engagement-finess
 Title: "Jdv J314 Engagement Finess"
-Description: "Jeu de valeurs FINESS contenant les engagements pouvant être associés dans FINESS+ à des structures ou des activités."
+Description: "Jeu de valeurs FINESS contenant les engagements, de tous les types d'engagement confondus, pouvant être associés dans FINESS+ à des structures ou des activités."
 * ^meta.versionId = "1"
 * ^meta.lastUpdated = "2025-06-19T18:02:28.249+00:00"
 * ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablevalueset"
