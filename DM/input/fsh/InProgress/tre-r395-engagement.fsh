@@ -1,5 +1,4 @@
 Alias: $sct = http://snomed.info/sct
-Alias: $tre-r363-type-engagement = https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r363-type-engagement
 
 CodeSystem: TreR395Engagement
 Id: tre-r395-engagement
