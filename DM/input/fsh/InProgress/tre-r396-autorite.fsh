@@ -17,7 +17,6 @@ Description: "liste des autorités structurée en plusieurs types d'autorités :
 * ^experimental = false
 * ^date = "2025-08-25T12:00:00+01:00"
 * ^publisher = "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris"
-* ^jurisdiction = urn:iso:std:iso:3166#FR
 * ^caseSensitive = false
 * ^content = #complete
 * ^hierarchyMeaning = #is-a
