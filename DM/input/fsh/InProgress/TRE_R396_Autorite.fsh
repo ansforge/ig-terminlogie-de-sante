@@ -58,11 +58,11 @@ Description: "liste des autorités structurée en plusieurs types d'autorités :
 * ^property[=].uri = "https://smt.esante.gouv.fr/fhir/concept-properties#AutoriteRegulationFiness"
 * ^property[=].description = "Permet de définir les codes à inclure dans les Jdv287TypeAutoriteRegulationFiness  Jdv360AutoriteRegulationFiness"
 * ^property[=].type = #boolean
-* ^property[+].code = #AutoriteEnregistrementRASS
+* ^property[+].code = #AutoriteEnregistrementEpars
 * ^property[=].uri = "https://smt.esante.gouv.fr/fhir/concept-properties#AutoriteEnregistrementEpars"
 * ^property[=].description = "Permet de définir les codes à inclure dans le JDV_J170-AutoriteEnregistrement-EPARS"
 * ^property[=].type = #boolean
-* ^property[+].code = #AutoriteEnregistrementRASS
+* ^property[+].code = #AutoriteEnregistrementRass
 * ^property[=].uri = "https://smt.esante.gouv.fr/fhir/concept-properties#AutoriteEnregistrementRass"
 * ^property[=].description = "Permet de définir les codes à inclure dans le JDV_J83-AutoriteEnregistrement-RASS"
 * ^property[=].type = #boolean
