@@ -1,8 +1,8 @@
 ValueSet: JDV_J17_ActiviteOperationnelle_ROR
 Id: JDV-J17-ActiviteOperationnelle-ROR
 Description: "Activité Operationnelle - ROR"
-* ^meta.versionId = "16"
-* ^meta.lastUpdated = "2025-07-02T17:05:32.590+00:00"
+* ^meta.versionId = "19"
+* ^meta.lastUpdated = "2025-07-25T09:32:11.307+00:00"
 * ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablevalueset"
 * ^language = #fr-FR
 * ^extension.url = "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod"
@@ -10,10 +10,10 @@ Description: "Activité Operationnelle - ROR"
 * ^url = "https://mos.esante.gouv.fr/NOS/JDV_J17-ActiviteOperationnelle-ROR/FHIR/JDV-J17-ActiviteOperationnelle-ROR"
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value = "urn:oid:1.2.250.1.213.3.4.5"
-* ^version = "20250620120000"
+* ^version = "20250723120000"
 * ^status = #active
 * ^experimental = false
-* ^date = "2025-06-20T12:00:00+01:00"
+* ^date = "2025-07-23T12:00:00+01:00"
 * ^publisher = "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris"
 * ^jurisdiction = urn:iso:std:iso:3166#FR
 * $TRE-R211-ActiviteOperationnelle#001 "Addictologie comportementale (sans substance)"
@@ -266,7 +266,7 @@ Description: "Activité Operationnelle - ROR"
 * $TRE-R211-ActiviteOperationnelle#305 "Accompagnements pour mener sa vie professionnelle"
 * $TRE-R211-ActiviteOperationnelle#306 "Activités visant la stimulation cognitivo-comportementale"
 * $TRE-R211-ActiviteOperationnelle#307 "Organisation d'activités péri-scolaires-péri-professionnelles"
-* $TRE-R211-ActiviteOperationnelle#308 "Accompagnements à la parentalité"
+* $TRE-R211-ActiviteOperationnelle#308 "Soutien à la parentalité et accompagnement familial"
 * $TRE-R211-ActiviteOperationnelle#309 "Accompagnements à la vie affective et sexuelle"
 * $TRE-R211-ActiviteOperationnelle#310 "Accompagnements pour l'exercice des mandats électoraux, la représentation des pairs"
 * $TRE-R211-ActiviteOperationnelle#311 "Accompagnements pour la pair aidance"

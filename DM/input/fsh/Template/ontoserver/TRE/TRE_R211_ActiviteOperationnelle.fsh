@@ -1,18 +1,18 @@
 CodeSystem: TRE_R211_ActiviteOperationnelle
 Id: TRE-R211-ActiviteOperationnelle
 Description: "Activite Operationnelle"
-* ^meta.versionId = "17"
-* ^meta.lastUpdated = "2025-07-02T18:15:58.944+00:00"
+* ^meta.versionId = "20"
+* ^meta.lastUpdated = "2025-07-25T09:46:06.636+00:00"
 * ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablecodesystem"
 * ^extension.url = "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod"
 * ^extension.valuePeriod.start = "2015-04-08T00:00:00+01:00"
 * ^url = "https://mos.esante.gouv.fr/NOS/TRE_R211-ActiviteOperationnelle/FHIR/TRE-R211-ActiviteOperationnelle"
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value = "urn:oid:1.2.250.1.213.3.3.12"
-* ^version = "20250623120000"
+* ^version = "20250723120000"
 * ^status = #active
 * ^experimental = false
-* ^date = "2025-06-23T12:00:00+01:00"
+* ^date = "2025-07-23T12:00:00+01:00"
 * ^publisher = "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris"
 * ^jurisdiction = urn:iso:std:iso:3166#FR
 * ^caseSensitive = false
@@ -2524,11 +2524,11 @@ Description: "Activite Operationnelle"
 * #307 ^property[=].valueDateTime = "2018-01-26T12:00:00+01:00"
 * #307 ^property[+].code = #status
 * #307 ^property[=].valueCode = #active
-* #308 "Accompagnements à la parentalité"
+* #308 "Soutien à la parentalité et accompagnement familial" "Ensemble d’actions visant à accompagner les parents dans leur rôle éducatif, affectif et social, en tenant compte des besoins spécifiques de l’enfant et du contexte familial en renforcant les compétences parentales, favorisant les relations parents-enfants, prévenant les difficultés éducatives ou relationnelles, soutenant les familles confrontées à des problématiques spécifiques (handicap, maladie, précarité, troubles du développement, etc.). Cette orientation est étayée par la réalisation de formations continues spécifiques auprès de cette population (appuyées de données probantes) et d’une expérience professionnelle."
 * #308 ^property[0].code = #dateValid
 * #308 ^property[=].valueDateTime = "2018-01-26T12:00:00+01:00"
 * #308 ^property[+].code = #dateMaj
-* #308 ^property[=].valueDateTime = "2018-01-26T12:00:00+01:00"
+* #308 ^property[=].valueDateTime = "2025-07-23T12:00:00+01:00"
 * #308 ^property[+].code = #status
 * #308 ^property[=].valueCode = #active
 * #309 "Accompagnements à la vie affective et sexuelle" "Information et accompagnements à la vie affective et sexuelle (inclut l'entretien contraception / pré-IVG etc.)"
@@ -3219,11 +3219,11 @@ Description: "Activite Operationnelle"
 * #400 ^property[=].valueDateTime = "2019-03-29T12:00:00+01:00"
 * #400 ^property[+].code = #status
 * #400 ^property[=].valueCode = #active
-* #401 "Evaluation du logement et préconisation d'adaptation pour le maintien à domicile"
+* #401 "Evaluation du logement et préconisation d'adaptation pour le maintien à domicile" "Analyse de l’environnement domestique d’une personne en situation de perte d’autonomie, de handicap ou présentant des limitations fonctionnelles, afin d’identifier les obstacles à son maintien à domicile dans des conditions optimales de sécurité, d’autonomie et de qualité de vie. Elle vise à préconiser des aménagements et des aides techniques adaptés, permettant à la personne de réaliser ses activités quotidiennes dans un cadre sécurisé. Cette orientation est étayée par la réalisation de formations continues spécifiques auprès de cette population (appuyées de données probantes) et d’une expérience professionnelle"
 * #401 ^property[0].code = #dateValid
 * #401 ^property[=].valueDateTime = "2019-03-29T12:00:00+01:00"
 * #401 ^property[+].code = #dateMaj
-* #401 ^property[=].valueDateTime = "2019-03-29T12:00:00+01:00"
+* #401 ^property[=].valueDateTime = "2025-07-23T12:00:00+01:00"
 * #401 ^property[+].code = #status
 * #401 ^property[=].valueCode = #active
 * #402 "Accompagnement à l'autonomie pour la mobilité et les déplacements" "Services visant à aider les personnes âgées, handicapées ou atteintes de pathologies chroniques à se déplacer en dehors de leur domicile, favorisant ainsi leur autonomie et leur inclusion sociale. Ces services englobent l'accompagnement dans les transports et l'aide à la mobilité pour les activités quotidiennes, à condition que la prestation soit réalisée à partir ou à destination du domicile, les transports de groupe étant exclus."
@@ -4418,11 +4418,11 @@ Description: "Activite Operationnelle"
 * #557 ^property[=].valueDateTime = "2025-01-31T12:00:00+01:00"
 * #557 ^property[+].code = #status
 * #557 ^property[=].valueCode = #active
-* #558 "Ergothérapie"
+* #558 "Ergothérapie" "Activité professionelle qui contribue, par la rééducation, la réadaptation et la réinsertion, au traitement des déficiences, des incapacités et des situations de handicap"
 * #558 ^property[0].code = #dateValid
 * #558 ^property[=].valueDateTime = "2024-06-28T12:00:00+01:00"
 * #558 ^property[+].code = #dateMaj
-* #558 ^property[=].valueDateTime = "2024-06-28T12:00:00+01:00"
+* #558 ^property[=].valueDateTime = "2025-07-23T12:00:00+01:00"
 * #558 ^property[+].code = #status
 * #558 ^property[=].valueCode = #active
 * #559 "Kinésithérapie orientation Fonctions sexuelles et de la reproduction"
@@ -4530,60 +4530,60 @@ Description: "Activite Operationnelle"
 * #573 ^property[=].valueDateTime = "2024-09-27T12:00:00+01:00"
 * #573 ^property[+].code = #status
 * #573 ^property[=].valueCode = #active
-* #574 "Ergothérapie orientation accompagnement dans le cadre des maladies chroniques"
+* #574 "Ergothérapie orientation accompagnement dans le cadre des maladies chroniques" "Accompagnement en ergothérapie centré sur l’impact de maladies chroniques (affection de longue durée qui évolue dans le temps, souvent lentement, et qui a un impact durable sur la vie quotidienne de la personne) dans le quotidien de la personne : gestion de la fatigue et/ou la gestion de la douleur et/ou la gestion du sommeil en lien avec les activités de vie la personne dans son environnement. Il vise à favoriser la qualité de vie, l’équilibre de vie."
 * #574 ^property[0].code = #dateValid
 * #574 ^property[=].valueDateTime = "2025-03-28T12:00:00+01:00"
 * #574 ^property[+].code = #dateMaj
-* #574 ^property[=].valueDateTime = "2025-03-28T12:00:00+01:00"
+* #574 ^property[=].valueDateTime = "2025-07-23T12:00:00+01:00"
 * #574 ^property[+].code = #status
 * #574 ^property[=].valueCode = #active
-* #575 "Ergothérapie orientation compensation matérielle dans l’environnement de la personne"
+* #575 "Ergothérapie orientation compensation matérielle dans l’environnement de la personne" "Accompagnement en ergothérapie de personnes dans l’accès à l'ensemble des aides techniques, équipements et aménagements destinés à compenser une perte de fonction, une limitation d’activité ou une situation de handicap. Cela inclus l’apprentissage d’utilisation des compensations matérielles et la prise en compte de l’environnement de la personne jusqu’à intervenir dans celui-ci."
 * #575 ^property[0].code = #dateValid
 * #575 ^property[=].valueDateTime = "2025-03-28T12:00:00+01:00"
 * #575 ^property[+].code = #dateMaj
-* #575 ^property[=].valueDateTime = "2025-03-28T12:00:00+01:00"
+* #575 ^property[=].valueDateTime = "2025-07-23T12:00:00+01:00"
 * #575 ^property[+].code = #status
 * #575 ^property[=].valueCode = #active
-* #576 "Ergothérapie orientation Gériatrie"
+* #576 "Ergothérapie orientation Gériatrie" "Accompagnement en ergothérapie concerne la prise en charge des personnes âgées, notamment celles confrontées à des pertes d’autonomie, des pathologies chroniques ou neurodégénératives (comme la maladie d'Alzheimer, Parkinson, ou des troubles cognitifs), ainsi qu'à la prévention du vieillissement pathologique. Cette orientation est étayée par la réalisation de formations continues spécifiques auprès de cette population (appuyées de données probantes) et d’une expérience professionnelle"
 * #576 ^property[0].code = #dateValid
 * #576 ^property[=].valueDateTime = "2025-03-28T12:00:00+01:00"
 * #576 ^property[+].code = #dateMaj
-* #576 ^property[=].valueDateTime = "2025-03-28T12:00:00+01:00"
+* #576 ^property[=].valueDateTime = "2025-07-23T12:00:00+01:00"
 * #576 ^property[+].code = #status
 * #576 ^property[=].valueCode = #active
-* #577 "Ergothérapie orientation Neurologie"
+* #577 "Ergothérapie orientation Neurologie" "Accompagnement en ergothérapie auprès de personnes avec des pathologies neurologiques innées ou acquises (dépistage ; repérage ; évaluation permettant le diagnostic ergothérapique ; réévaluation). Cette orientation est étayée par la réalisation de formations continues spécifiques auprès de cette population (appuyées de données probantes) et d’une expérience professionnelle."
 * #577 ^property[0].code = #dateValid
 * #577 ^property[=].valueDateTime = "2025-03-28T12:00:00+01:00"
 * #577 ^property[+].code = #dateMaj
-* #577 ^property[=].valueDateTime = "2025-03-28T12:00:00+01:00"
+* #577 ^property[=].valueDateTime = "2025-07-23T12:00:00+01:00"
 * #577 ^property[+].code = #status
 * #577 ^property[=].valueCode = #active
-* #578 "Ergothérapie orientation Pédiatrie"
+* #578 "Ergothérapie orientation Pédiatrie" "Accompagnement en ergothérapie des enfants, de la naissance à l’adolescence, présentant des troubles du développement, des déficiences physiques, sensorielles, cognitives ou psychiques, ainsi que des situations de handicap, afin de favoriser leur autonomie et leur participation dans les activités de la vie quotidienne, scolaire et sociale. Cette orientation est étayée par la réalisation de formations continues spécifiques auprès de cette population (appuyées de données probantes) et d’une expérience professionnelle."
 * #578 ^property[0].code = #dateValid
 * #578 ^property[=].valueDateTime = "2025-03-28T12:00:00+01:00"
 * #578 ^property[+].code = #dateMaj
-* #578 ^property[=].valueDateTime = "2025-03-28T12:00:00+01:00"
+* #578 ^property[=].valueDateTime = "2025-07-23T12:00:00+01:00"
 * #578 ^property[+].code = #status
 * #578 ^property[=].valueCode = #active
-* #579 "Ergothérapie orientation Psychiatrie et Santé mentale"
+* #579 "Ergothérapie orientation Psychiatrie et Santé mentale" "Accompagnement en ergothérapie  concerne l’accompagnement des personnes présentant des troubles psychiques ou psychiatriques afin de favoriser leur autonomie, leur bien-être et leur inclusion sociale. L’ergothérapeute intervient en évaluant et en renforçant les capacités fonctionnelles, cognitives, émotionnelles et sociales des patients dans le cadre d’un projet thérapeutique global. Cette orientation est étayée par la réalisation de formations continues spécifiques auprès de cette population (appuyées de données probantes) et d’une expérience professionnelle"
 * #579 ^property[0].code = #dateValid
 * #579 ^property[=].valueDateTime = "2025-03-28T12:00:00+01:00"
 * #579 ^property[+].code = #dateMaj
-* #579 ^property[=].valueDateTime = "2025-03-28T12:00:00+01:00"
+* #579 ^property[=].valueDateTime = "2025-07-23T12:00:00+01:00"
 * #579 ^property[+].code = #status
 * #579 ^property[=].valueCode = #active
-* #580 "Evaluation en ergothérapie par l’analyse d’activité et accompagnement dans l’environnement de la personne"
+* #580 "Evaluation en ergothérapie par l’analyse d’activité et accompagnement dans l’environnement de la personne" "Evaluation fonctionnelle et accompagnement en ergothérapie au travers de mises en situation d’activité réelles (via l’analyse d’activité) en milieu écologique (sur l’ensemble des lieux de vie ((domicile, établissements médico-sociaux, etc.) et d’activité de la personne (établissements scolaires, lieux de formation, milieu professionnel, milieu sportif, de loisirs, etc.)"
 * #580 ^property[0].code = #dateValid
 * #580 ^property[=].valueDateTime = "2025-03-28T12:00:00+01:00"
 * #580 ^property[+].code = #dateMaj
-* #580 ^property[=].valueDateTime = "2025-03-28T12:00:00+01:00"
+* #580 ^property[=].valueDateTime = "2025-07-23T12:00:00+01:00"
 * #580 ^property[+].code = #status
 * #580 ^property[=].valueCode = #active
-* #581 "Interventions éducatives pour renforcer l’autorégulation"
+* #581 "Interventions éducatives pour renforcer l’autorégulation" "Consiste à mettre en place des stratégies et des activités visant à aider les personnes, notamment les enfants et les adolescents, à mieux gérer leurs émotions, leurs comportements et leurs pensées. Ces interventions sont particulièrement utiles pour les élèves présentant des troubles du spectre de l'autisme (TSA) et d'autres troubles du neurodéveloppement. Elles sont encadrées par des professionnels, et s'appuient sur des principes de métacognition et d'autodétermination. Cette orientation est étayée par la réalisation de formations continues spécifiques auprès de cette population (appuyées de données probantes) et d’une expérience professionnelle"
 * #581 ^property[0].code = #dateValid
 * #581 ^property[=].valueDateTime = "2025-03-28T12:00:00+01:00"
 * #581 ^property[+].code = #dateMaj
-* #581 ^property[=].valueDateTime = "2025-03-28T12:00:00+01:00"
+* #581 ^property[=].valueDateTime = "2025-07-23T12:00:00+01:00"
 * #581 ^property[+].code = #status
 * #581 ^property[=].valueCode = #active
 * #582 "Orientation vers professionnel pour diagnostic"

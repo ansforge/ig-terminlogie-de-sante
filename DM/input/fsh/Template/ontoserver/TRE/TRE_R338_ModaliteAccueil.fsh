@@ -1,22 +1,23 @@
 CodeSystem: TRE_R338_ModaliteAccueil
 Id: TRE-R338-ModaliteAccueil
 Description: "Modalités d'accueil"
-* ^meta.versionId = "9"
-* ^meta.lastUpdated = "2025-07-02T18:17:40.293+00:00"
+* ^meta.versionId = "12"
+* ^meta.lastUpdated = "2025-07-25T09:46:19.854+00:00"
 * ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablecodesystem"
 * ^extension.url = "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod"
 * ^extension.valuePeriod.start = "2022-09-30T12:00:00+01:00"
 * ^url = "https://mos.esante.gouv.fr/NOS/TRE_R338-ModaliteAccueil/FHIR/TRE-R338-ModaliteAccueil"
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value = "urn:oid:1.2.250.1.213.3.3.221"
-* ^version = "20250425120000"
+* ^version = "20250709120000"
 * ^status = #active
 * ^experimental = false
-* ^date = "2025-04-25T12:00:00+01:00"
+* ^date = "2025-07-09T12:00:00+01:00"
 * ^publisher = "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris"
 * ^jurisdiction = urn:iso:std:iso:3166#FR
 * ^caseSensitive = false
 * ^content = #complete
+* ^count = 20
 * ^property[0].code = #dateValid
 * ^property[=].description = "date de validité d'un code concept"
 * ^property[=].type = #dateTime
@@ -202,3 +203,10 @@ Description: "Modalités d'accueil"
 * #19 ^property[=].valueDateTime = "2025-04-25T12:00:00+01:00"
 * #19 ^property[+].code = #status
 * #19 ^property[=].valueCode = #active
+* #20 "Accueil en unité protégée"
+* #20 ^property[0].code = #dateValid
+* #20 ^property[=].valueDateTime = "2025-07-09T12:00:00+01:00"
+* #20 ^property[+].code = #dateMaj
+* #20 ^property[=].valueDateTime = "2025-07-09T12:00:00+01:00"
+* #20 ^property[+].code = #status
+* #20 ^property[=].valueCode = #active

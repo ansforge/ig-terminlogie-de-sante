@@ -1,23 +1,23 @@
 CodeSystem: TRE_R244_CategorieOrganisation
 Id: TRE-R244-CategorieOrganisation
 Description: "Catégorie d'organisation"
-* ^meta.versionId = "17"
-* ^meta.lastUpdated = "2025-07-02T18:16:33.914+00:00"
+* ^meta.versionId = "20"
+* ^meta.lastUpdated = "2025-07-25T09:46:18.655+00:00"
 * ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablecodesystem"
 * ^extension.url = "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod"
 * ^extension.valuePeriod.start = "2017-10-13T12:00:00+01:00"
 * ^url = "https://mos.esante.gouv.fr/NOS/TRE_R244-CategorieOrganisation/FHIR/TRE-R244-CategorieOrganisation"
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value = "urn:oid:1.2.250.1.213.3.3.39"
-* ^version = "20250625120000"
+* ^version = "20250710120000"
 * ^status = #active
 * ^experimental = false
-* ^date = "2025-06-25T12:00:00+01:00"
+* ^date = "2025-07-10T12:00:00+01:00"
 * ^publisher = "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris"
 * ^jurisdiction = urn:iso:std:iso:3166#FR
 * ^caseSensitive = false
 * ^content = #complete
-* ^count = 275
+* ^count = 278
 * ^property[0].code = #dateValid
 * ^property[=].description = "date de validité d'un code concept"
 * ^property[=].type = #dateTime
@@ -731,7 +731,7 @@ Description: "Catégorie d'organisation"
 * #64 ^property[=].valueDateTime = "2023-05-26T12:00:00+01:00"
 * #64 ^property[+].code = #status
 * #64 ^property[=].valueCode = #active
-* #65 "Pôles de compétences et de prestations externalisées (PCPE)"
+* #65 "Pôle de compétences et de prestations externalisées (PCPE)"
 * #65 ^designation[0].language = #fr-FR
 * #65 ^designation[=].use.system = "http://snomed.info/sct"
 * #65 ^designation[=].use = $sct#900000000000013009
@@ -739,7 +739,7 @@ Description: "Catégorie d'organisation"
 * #65 ^property[0].code = #dateValid
 * #65 ^property[=].valueDateTime = "2018-01-26T12:00:00+01:00"
 * #65 ^property[+].code = #dateMaj
-* #65 ^property[=].valueDateTime = "2018-01-26T12:00:00+01:00"
+* #65 ^property[=].valueDateTime = "2025-07-10T12:00:00+01:00"
 * #65 ^property[+].code = #status
 * #65 ^property[=].valueCode = #active
 * #66 "Equipe Relai Handicap rare"
@@ -2569,11 +2569,15 @@ Description: "Catégorie d'organisation"
 * #237 ^property[=].valueDateTime = "2025-01-31T12:00:00+01:00"
 * #237 ^property[+].code = #status
 * #237 ^property[=].valueCode = #active
-* #238 "Unité de médecine polyvalente"
+* #238 "Unité hospitalière de médecine polyvalente"
+* #238 ^designation[0].language = #fr-FR
+* #238 ^designation[=].use.system = "http://snomed.info/sct"
+* #238 ^designation[=].use = $sct#900000000000013009
+* #238 ^designation[=].value = "Unité de médecine polyvalente"
 * #238 ^property[0].code = #dateValid
 * #238 ^property[=].valueDateTime = "2025-01-31T12:00:00+01:00"
 * #238 ^property[+].code = #dateMaj
-* #238 ^property[=].valueDateTime = "2025-01-31T12:00:00+01:00"
+* #238 ^property[=].valueDateTime = "2025-07-10T12:00:00+01:00"
 * #238 ^property[+].code = #status
 * #238 ^property[=].valueCode = #active
 * #239 "Unité hospitalière de médecine nucléaire"
@@ -2950,6 +2954,7 @@ Description: "Catégorie d'organisation"
 * #274 ^property[=].valueCode = #active
 * #275 "Unité de dialyse Médicalisée (UDM)"
 * #275 ^designation[0].language = #fr-FR
+* #275 ^designation[=].use.system = "http://snomed.info/sct"
 * #275 ^designation[=].use = $sct#900000000000013009
 * #275 ^designation[=].value = "UDM"
 * #275 ^property[0].code = #dateValid
@@ -2958,3 +2963,35 @@ Description: "Catégorie d'organisation"
 * #275 ^property[=].valueDateTime = "2025-06-25T12:00:00+01:00"
 * #275 ^property[+].code = #status
 * #275 ^property[=].valueCode = #active
+* #276 "Unité d’Accueil et de Soins pour personnes Sourdes et malentendantes (UASS)"
+* #276 ^designation[0].language = #fr-FR
+* #276 ^designation[=].use.system = "http://snomed.info/sct"
+* #276 ^designation[=].use = $sct#900000000000013009
+* #276 ^designation[=].value = "UASS"
+* #276 ^property[0].code = #dateValid
+* #276 ^property[=].valueDateTime = "2025-07-10T12:00:00+01:00"
+* #276 ^property[+].code = #dateMaj
+* #276 ^property[=].valueDateTime = "2025-07-10T12:00:00+01:00"
+* #276 ^property[+].code = #status
+* #276 ^property[=].valueCode = #active
+* #277 "Equipe de coordination hospitalière de tissus et/ou d’organes"
+* #277 ^designation[0].language = #fr-FR
+* #277 ^designation[=].use.system = "http://snomed.info/sct"
+* #277 ^designation[=].use = $sct#900000000000013009
+* #277 ^designation[=].value = "Equipe organes tissus"
+* #277 ^property[0].code = #dateValid
+* #277 ^property[=].valueDateTime = "2025-07-10T12:00:00+01:00"
+* #277 ^property[+].code = #dateMaj
+* #277 ^property[=].valueDateTime = "2025-07-10T12:00:00+01:00"
+* #277 ^property[+].code = #status
+* #277 ^property[=].valueCode = #active
+* #278 "Unité Hospitalière de Courte Durée (UHCD)"
+* #278 ^designation[0].language = #fr-FR
+* #278 ^designation[=].use = $sct#900000000000013009
+* #278 ^designation[=].value = "UHCD"
+* #278 ^property[0].code = #dateValid
+* #278 ^property[=].valueDateTime = "2025-07-10T12:00:00+01:00"
+* #278 ^property[+].code = #dateMaj
+* #278 ^property[=].valueDateTime = "2025-07-10T12:00:00+01:00"
+* #278 ^property[+].code = #status
+* #278 ^property[=].valueCode = #active

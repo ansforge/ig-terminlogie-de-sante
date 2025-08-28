@@ -1,8 +1,8 @@
 ValueSet: JDV_J226_ModaliteAccueil_ROR
 Id: JDV-J226-ModaliteAccueil-ROR
 Description: "Modalité d'accueil"
-* ^meta.versionId = "8"
-* ^meta.lastUpdated = "2025-07-02T17:05:57.939+00:00"
+* ^meta.versionId = "11"
+* ^meta.lastUpdated = "2025-07-25T09:32:12.736+00:00"
 * ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablevalueset"
 * ^language = #fr-FR
 * ^extension.url = "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod"
@@ -10,10 +10,10 @@ Description: "Modalité d'accueil"
 * ^url = "https://mos.esante.gouv.fr/NOS/JDV_J226-ModaliteAccueil-ROR/FHIR/JDV-J226-ModaliteAccueil-ROR"
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value = "urn:oid:1.2.250.1.213.3.4.58"
-* ^version = "20250425120000"
+* ^version = "20250709120000"
 * ^status = #active
 * ^experimental = false
-* ^date = "2025-04-25T12:00:00+01:00"
+* ^date = "2025-07-09T12:00:00+01:00"
 * ^publisher = "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris"
 * ^jurisdiction = urn:iso:std:iso:3166#FR
 * $TRE-R338-ModaliteAccueil#01 "Accueil séquentiel accepté"
@@ -35,3 +35,4 @@ Description: "Modalité d'accueil"
 * $TRE-R338-ModaliteAccueil#17 "HandiBloc"
 * $TRE-R338-ModaliteAccueil#18 "Intra-hospitalier"
 * $TRE-R338-ModaliteAccueil#19 "Extra-hospitalier"
+* $TRE-R338-ModaliteAccueil#20 "Accueil en unité protégée"

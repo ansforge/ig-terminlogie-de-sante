@@ -1,8 +1,8 @@
 ValueSet: JDV_J238_TypeOffre_ROR
 Id: JDV-J238-TypeOffre-ROR
 Description: "Prestations que peut réaliser une structure et qui permettent de répondre au besoin de santé d'une personne"
-* ^meta.versionId = "17"
-* ^meta.lastUpdated = "2025-07-02T17:06:04.459+00:00"
+* ^meta.versionId = "20"
+* ^meta.lastUpdated = "2025-07-25T09:32:13.906+00:00"
 * ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablevalueset"
 * ^language = #fr-FR
 * ^extension.url = "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod"
@@ -10,10 +10,10 @@ Description: "Prestations que peut réaliser une structure et qui permettent de 
 * ^url = "https://mos.esante.gouv.fr/NOS/JDV_J238-TypeOffre-ROR/FHIR/JDV-J238-TypeOffre-ROR"
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value = "urn:oid:1.2.250.1.213.3.4.65"
-* ^version = "20250625120000"
+* ^version = "20250710120000"
 * ^status = #active
 * ^experimental = false
-* ^date = "2025-06-25T12:00:00+01:00"
+* ^date = "2025-07-10T12:00:00+01:00"
 * ^publisher = "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris"
 * ^jurisdiction = urn:iso:std:iso:3166#FR
 * $TRE-R244-CategorieOrganisation#01 "Appartement thérapeutique"
@@ -79,7 +79,7 @@ Description: "Prestations que peut réaliser une structure et qui permettent de 
 * $TRE-R244-CategorieOrganisation#62 "Centre médico-psycho-pédagogique (CMPP)"
 * $TRE-R244-CategorieOrganisation#63 "Jardin d'enfants spécialisé"
 * $TRE-R244-CategorieOrganisation#64 "Bureau d'Aide Psychologique Universitaire (B.A.P.U.)"
-* $TRE-R244-CategorieOrganisation#65 "Pôles de compétences et de prestations externalisées (PCPE)"
+* $TRE-R244-CategorieOrganisation#65 "Pôle de compétences et de prestations externalisées (PCPE)"
 * $TRE-R244-CategorieOrganisation#66 "Equipe Relai Handicap rare"
 * $TRE-R244-CategorieOrganisation#67 "Lieu de vie et d'accueil (hors ESMS)"
 * $TRE-R244-CategorieOrganisation#68 "Unité d'hospitalisation fermée"
@@ -251,7 +251,7 @@ Description: "Prestations que peut réaliser une structure et qui permettent de 
 * $TRE-R244-CategorieOrganisation#235 "Unité hospitalière de médecine générale"
 * $TRE-R244-CategorieOrganisation#236 "Unité hospitalière d'odontologie"
 * $TRE-R244-CategorieOrganisation#237 "Unité hospitalière d'anesthésie"
-* $TRE-R244-CategorieOrganisation#238 "Unité de médecine polyvalente"
+* $TRE-R244-CategorieOrganisation#238 "Unité hospitalière de médecine polyvalente"
 * $TRE-R244-CategorieOrganisation#239 "Unité hospitalière de médecine nucléaire"
 * $TRE-R244-CategorieOrganisation#240 "Unité hospitalière de médecine du travail"
 * $TRE-R244-CategorieOrganisation#241 "Unité hospitalière de chirurgie pédiatrique"
@@ -289,3 +289,6 @@ Description: "Prestations que peut réaliser une structure et qui permettent de 
 * $TRE-R244-CategorieOrganisation#273 "Unité d’auto-dialyse assistée (UAD)"
 * $TRE-R244-CategorieOrganisation#274 "Unité de dialyse en centre lourd"
 * $TRE-R244-CategorieOrganisation#275 "Unité de dialyse Médicalisée (UDM)"
+* $TRE-R244-CategorieOrganisation#276 "Unité d’Accueil et de Soins pour personnes Sourdes et malentendantes (UASS)"
+* $TRE-R244-CategorieOrganisation#277 "Equipe de coordination hospitalière de tissus et/ou d’organes"
+* $TRE-R244-CategorieOrganisation#278 "Unité Hospitalière de Courte Durée (UHCD)"

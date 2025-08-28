@@ -1,22 +1,23 @@
 CodeSystem: TRE_R85_RolePriseCharge
 Id: TRE-R85-RolePriseCharge
 Description: "Rôle dans la prise en charge des patients ou des usagers"
-* ^meta.versionId = "13"
-* ^meta.lastUpdated = "2025-07-02T18:19:17.085+00:00"
+* ^meta.versionId = "16"
+* ^meta.lastUpdated = "2025-07-25T09:46:24.725+00:00"
 * ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablecodesystem"
 * ^extension.url = "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod"
 * ^extension.valuePeriod.start = "2015-01-01T00:00:00+01:00"
 * ^url = "https://mos.esante.gouv.fr/NOS/TRE_R85-RolePriseCharge/FHIR/TRE-R85-RolePriseCharge"
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value = "urn:oid:1.2.250.1.213.1.6.1.107"
-* ^version = "20250328120000"
+* ^version = "20250721120000"
 * ^status = #active
 * ^experimental = false
-* ^date = "2025-03-28T12:00:00+01:00"
+* ^date = "2025-07-21T12:00:00+01:00"
 * ^publisher = "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris"
 * ^jurisdiction = urn:iso:std:iso:3166#FR
 * ^caseSensitive = false
 * ^content = #complete
+* ^count = 74
 * ^property[0].code = #dateValid
 * ^property[=].description = "date de validité d'un code concept"
 * ^property[=].type = #dateTime
@@ -711,3 +712,10 @@ Description: "Rôle dans la prise en charge des patients ou des usagers"
 * #372 ^property[=].valueDateTime = "2025-03-28T12:00:00+01:00"
 * #372 ^property[+].code = #status
 * #372 ^property[=].valueCode = #active
+* #373 "Technicien d’études cliniques"
+* #373 ^property[0].code = #dateValid
+* #373 ^property[=].valueDateTime = "2025-07-21T12:00:00+01:00"
+* #373 ^property[+].code = #dateMaj
+* #373 ^property[=].valueDateTime = "2025-07-21T12:00:00+01:00"
+* #373 ^property[+].code = #status
+* #373 ^property[=].valueCode = #active
