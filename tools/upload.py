@@ -87,12 +87,15 @@ async def main():
     list_conceptMaps = await resources.fetch()  
     for e_conceptMaps in list_conceptMaps :
         print (e_conceptMaps["name"])
-        if(not os.path.isfile('../DM/fsh-generated/resources/ConceptMap-'+ e_valueSet["id"] + ".json")) :
+        if(not os.path.isfile('../DM/fsh-generated/resources/ConceptMap-'+ e_conceptMaps["id"] + ".json")) :
             ConceptMap = await client.reference('ConceptMap', e_conceptMaps ["id"]).to_resource()
             f =  open('../input/ontoserver/ASS/'+ e_conceptMaps["name"] + ".json", "w", encoding="utf-8") 
-            if(e_conceptMaps["name"].startswith("alignement"))   :
+
+            
+            if(e_conceptMaps["name"].startswith("Alignement"))   :
                 e_conceptMaps["content"] = "not-present"
-                f.write(json.dumps(e_conceptMaps))  
+                if(  e_conceptMaps["id"] != "alignement-nuva-atc")
+                    f.write(json.dumps(e_conceptMaps))  
             else :
                 f.write(json.dumps(ConceptMap))                    
  
