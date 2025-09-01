@@ -4430,13 +4430,6 @@
     "oids" : ["1.2.250.1.213.1.6.1.375"]
   },
   {
-    "id" : "alignement-nuva-atc",
-    "type" : "ConceptMap",
-    "url" : "https://smt.esante.gouv.fr/fhir/ConceptMap/alignement-nuva-atc",
-    "version" : "1.0.946",
-    "name" : "Alignement_Codes_ATC_NUVA_ATC"
-  },
-  {
     "id" : "alignement-nuva-bdpm",
     "type" : "ConceptMap",
     "url" : "https://smt.esante.gouv.fr/fhir/ConceptMap/alignement-nuva-bdpm",

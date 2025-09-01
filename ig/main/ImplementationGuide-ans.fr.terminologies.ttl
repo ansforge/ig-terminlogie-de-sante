@@ -18,7 +18,7 @@
   fhir:name [ fhir:v "Terminologies"] ; # 
   fhir:title [ fhir:v "Terminologies  de Santé"] ; # 
   fhir:status [ fhir:v "active"] ; # 
-  fhir:date [ fhir:v "2025-08-22T04:21:48+00:00"^^xsd:dateTime] ; # 
+  fhir:date [ fhir:v "2025-09-01T15:36:33+00:00"^^xsd:dateTime] ; # 
   fhir:publisher [ fhir:v "ANS"] ; # 
   fhir:contact ( [
      fhir:name [ fhir:v "ANS" ] ;
@@ -32918,29 +32918,10 @@
          ]
        ] ) ;
        fhir:reference [
-         fhir:link <https://interop.esante.gouv.fr/terminologies/ConceptMap/alignement-nuva-atc> ;
-         fhir:reference [ fhir:v "ConceptMap/alignement-nuva-atc" ]
-       ] ;
-       fhir:name [ fhir:v "Aligner les codes ATC de NUVA avec les codes ATC" ] ;
-       fhir:description [ fhir:v "Source des données SYADEM" ] ;
-       fhir:example [
-         a fhir:boolean ;
-         fhir:v false
-       ]
-     ] [
-       fhir:extension ( [
-         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
-         fhir:value [
-           a fhir:string ;
-           fhir:v "ConceptMap"
-         ]
-       ] ) ;
-       fhir:reference [
          fhir:link <https://interop.esante.gouv.fr/terminologies/ConceptMap/alignement-nuva-bdpm> ;
          fhir:reference [ fhir:v "ConceptMap/alignement-nuva-bdpm" ]
        ] ;
        fhir:name [ fhir:v "Aligner les codes CIS et CIP de NUVA avec les codes CIS et CIP du BDPM" ] ;
-       fhir:description [ fhir:v "Source des données SYADEM" ] ;
        fhir:example [
          a fhir:boolean ;
          fhir:v false

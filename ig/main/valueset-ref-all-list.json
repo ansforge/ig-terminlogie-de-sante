@@ -9451,10 +9451,7 @@
       "name" : "ValueSet_ATC_All",
       "title" : null,
       "description" : "Ce jeu de valeurs inclut tous les codes concepts de la terminologie ATC",
-      "systems" : ["https://smt.esante.gouv.fr/terminologie-atc"],
-      "uses" : {
-      },
-      "ConceptMap-alignement-nuva-atc.html" : "Aligner les codes ATC de NUVA avec les codes ATC"
+      "systems" : ["https://smt.esante.gouv.fr/terminologie-atc"]
     },
     {
       "url" : "https://smt.esante.gouv.fr/terminologie-bdpm?vs",
@@ -9487,7 +9484,6 @@
       "systems" : ["https://smt.esante.gouv.fr/terminologie-nuva"],
       "uses" : {
       },
-      "ConceptMap-alignement-nuva-atc.html" : "Aligner les codes ATC de NUVA avec les codes ATC",
       "ConceptMap-alignement-nuva-bdpm.html" : "Aligner les codes CIS et CIP de NUVA avec les codes CIS et CIP du BDPM"
     },
     {

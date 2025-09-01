@@ -11,7 +11,7 @@
   <name value="Terminologies"/>
   <title value="Terminologies  de Santé"/>
   <status value="active"/>
-  <date value="2025-08-22T04:21:48+00:00"/>
+  <date value="2025-09-01T15:36:33+00:00"/>
   <publisher value="ANS"/>
   <contact>
     <name value="ANS"/>
@@ -17583,21 +17583,9 @@
         <valueString value="ConceptMap"/>
       </extension>
       <reference>
-        <reference value="ConceptMap/alignement-nuva-atc"/>
-      </reference>
-      <name value="Aligner les codes ATC de NUVA avec les codes ATC"/>
-      <description value="Source des données SYADEM"/>
-      <exampleBoolean value="false"/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="ConceptMap"/>
-      </extension>
-      <reference>
         <reference value="ConceptMap/alignement-nuva-bdpm"/>
       </reference>
       <name value="Aligner les codes CIS et CIP de NUVA avec les codes CIS et CIP du BDPM"/>
-      <description value="Source des données SYADEM"/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
