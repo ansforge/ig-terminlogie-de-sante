@@ -94,7 +94,7 @@ async def main():
             
             if(e_conceptMaps["name"].startswith("Alignement"))   :
                 e_conceptMaps["content"] = "not-present"
-                if(  e_conceptMaps["id"] != "alignement-nuva-atc")
+                if(  e_conceptMaps["id"] != "alignement-nuva-atc") : 
                     f.write(json.dumps(e_conceptMaps))  
             else :
                 f.write(json.dumps(ConceptMap))                    
