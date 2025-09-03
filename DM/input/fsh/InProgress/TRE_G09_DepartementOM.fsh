@@ -316,7 +316,6 @@ Description: "Référentiel des codes départements et collectivités d’outre-
 * #2A ^property[=].valueDateTime = "2007-07-25T15:04:36+01:00"
 * #2A ^property[+].code = #dateMaj
 * #2A ^property[=].valueDateTime = "2024-01-26T12:00:00+01:00"
-* #2A ^property[=].valueCoding.system = "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r396-autorite"
 * #2A  ^property[+].code = #autoriteEpars
 * #2A  ^property[=].valueCoding.system = "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r396-autorite"
 * #2A  ^property[=].valueCoding.code = #ARS-94
