@@ -1367,17 +1367,6 @@ Description: "liste des autorités structurée en plusieurs types d'autorités :
 * #DRHIL-11 ^property[=].valueCode = #05
 * #DRHIL-11 ^property[+].code = #AutoriteRegulationFiness
 * #DRHIL-11 ^property[=].valueBoolean = true
-
-
-
-
-
-
-
-
-
-
-
 * #CD-01 "CD-01 : Conseil départemental de l'Ain"
 * #CD-01 ^designation[0].language = #fr-FR
 * #CD-01 ^designation[=].use.system = "http://snomed.info/sct"
