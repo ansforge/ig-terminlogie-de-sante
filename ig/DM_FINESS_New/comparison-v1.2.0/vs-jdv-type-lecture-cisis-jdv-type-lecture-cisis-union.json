@@ -1,0 +1,27 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "cac924be-fde2-4b92-9c88-b7f4864ca532-2894",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/cac924be-fde2-4b92-9c88-b7f4864ca532-2894",
+  "name" : "UnionJdvTypeLectureCisisAndJdvTypeLectureCisis",
+  "title" : "Union of JDV Type Lecture CISIS And JDV Type Lecture CISIS",
+  "status" : "active",
+  "date" : "2025-09-04T08:20:30+00:00",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "FR"
+    }]
+  }],
+  "compose" : {
+    "include" : [{
+      "concept" : [{
+        "code" : "MED-024",
+        "display" : "Films"
+      },
+      {
+        "code" : "MED-025",
+        "display" : "Console d'interprétation"
+      }]
+    }]
+  }
+}

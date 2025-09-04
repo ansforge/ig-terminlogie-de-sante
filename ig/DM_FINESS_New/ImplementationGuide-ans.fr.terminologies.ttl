@@ -22304,7 +22304,7 @@
        fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/ig-internal-dependency"^^xsd:anyURI ] ;
        fhir:value [
          a fhir:code ;
-         fhir:v "hl7.fhir.uv.tools.r4#0.5.0"
+         fhir:v "hl7.fhir.uv.tools.r4#0.7.1"
        ]
      ] [
        fhir:extension ( [
@@ -44761,29 +44761,10 @@
          ]
        ] ) ;
        fhir:reference [
-         fhir:link <https://interop.esante.gouv.fr/terminologies/ConceptMap/alignement-nuva-atc> ;
-         fhir:reference [ fhir:v "ConceptMap/alignement-nuva-atc" ]
-       ] ;
-       fhir:name [ fhir:v "Aligner les codes ATC de NUVA avec les codes ATC" ] ;
-       fhir:description [ fhir:v "Source des données SYADEM" ] ;
-       fhir:example [
-         a fhir:boolean ;
-         fhir:v false
-       ]
-     ] [
-       fhir:extension ( [
-         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
-         fhir:value [
-           a fhir:string ;
-           fhir:v "ConceptMap"
-         ]
-       ] ) ;
-       fhir:reference [
          fhir:link <https://interop.esante.gouv.fr/terminologies/ConceptMap/alignement-nuva-bdpm> ;
          fhir:reference [ fhir:v "ConceptMap/alignement-nuva-bdpm" ]
        ] ;
        fhir:name [ fhir:v "Aligner les codes CIS et CIP de NUVA avec les codes CIS et CIP du BDPM" ] ;
-       fhir:description [ fhir:v "Source des données SYADEM" ] ;
        fhir:example [
          a fhir:boolean ;
          fhir:v false
@@ -45621,6 +45602,23 @@
        ] ;
        fhir:name [ fhir:v "hl7VS-specimenCollectionMethod" ] ;
        fhir:description [ fhir:v "hl7VS-specimenCollectionMethod" ] ;
+       fhir:example [
+         a fhir:boolean ;
+         fhir:v false
+       ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [
+           a fhir:string ;
+           fhir:v "NamingSystem"
+         ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <https://interop.esante.gouv.fr/terminologies/NamingSystem/IHERoleCodeVocabulary> ;
+         fhir:reference [ fhir:v "NamingSystem/IHERoleCodeVocabulary" ]
+       ] ;
+       fhir:name [ fhir:v "IHERoleCode_Vocabulary" ] ;
        fhir:example [
          a fhir:boolean ;
          fhir:v false
@@ -48424,6 +48422,24 @@
          ]
        ] ) ;
        fhir:reference [
+         fhir:link <https://interop.esante.gouv.fr/terminologies/ValueSet/jdv-j287-type-autorisation-regulation-finess> ;
+         fhir:reference [ fhir:v "ValueSet/jdv-j287-type-autorisation-regulation-finess" ]
+       ] ;
+       fhir:name [ fhir:v "Jdv J287 Type Autorisation Regulation Finess" ] ;
+       fhir:description [ fhir:v "Jeu de valeurs FINESS contenant les types d'autorité de régulation pour Finess" ] ;
+       fhir:example [
+         a fhir:boolean ;
+         fhir:v false
+       ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [
+           a fhir:string ;
+           fhir:v "ValueSet"
+         ]
+       ] ) ;
+       fhir:reference [
          fhir:link <https://interop.esante.gouv.fr/terminologies/ValueSet/jdv-j289-type-groupe-gco-finess> ;
          fhir:reference [ fhir:v "ValueSet/jdv-j289-type-groupe-gco-finess" ]
        ] ;
@@ -48645,6 +48661,24 @@
        ] ;
        fhir:name [ fhir:v "Jdv J313 Usage Adresse Finess" ] ;
        fhir:description [ fhir:v "Jeu de valeurs FINESS contenant les usages des adresses associées aux entités enregistrés dans FINESS+" ] ;
+       fhir:example [
+         a fhir:boolean ;
+         fhir:v false
+       ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [
+           a fhir:string ;
+           fhir:v "ValueSet"
+         ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <https://interop.esante.gouv.fr/terminologies/ValueSet/jdv-j314-engagement-finess> ;
+         fhir:reference [ fhir:v "ValueSet/jdv-j314-engagement-finess" ]
+       ] ;
+       fhir:name [ fhir:v "Jdv J314 Engagement Finess" ] ;
+       fhir:description [ fhir:v "Jeu de valeurs FINESS contenant les engagements, de tous les types d'engagement confondus, pouvant être associés dans FINESS+ à des structures ou des activités." ] ;
        fhir:example [
          a fhir:boolean ;
          fhir:v false
@@ -48964,6 +48998,60 @@
          ]
        ] ) ;
        fhir:reference [
+         fhir:link <https://interop.esante.gouv.fr/terminologies/ValueSet/jdv-j359-autorisation-enregistrement-finess> ;
+         fhir:reference [ fhir:v "ValueSet/jdv-j359-autorisation-enregistrement-finess" ]
+       ] ;
+       fhir:name [ fhir:v "Jdv J358 Autorisation Enregistrement Finess" ] ;
+       fhir:description [ fhir:v "Jeu de valeurs FINESS contenant les autorité d'enregistrement pour Finess" ] ;
+       fhir:example [
+         a fhir:boolean ;
+         fhir:v false
+       ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [
+           a fhir:string ;
+           fhir:v "ValueSet"
+         ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <https://interop.esante.gouv.fr/terminologies/ValueSet/jdv-j358-type-autorisation-enregistrement-finess> ;
+         fhir:reference [ fhir:v "ValueSet/jdv-j358-type-autorisation-enregistrement-finess" ]
+       ] ;
+       fhir:name [ fhir:v "Jdv J358 Type Autorisation Enregistrement Finess" ] ;
+       fhir:description [ fhir:v "Jeu de valeurs FINESS contenant les types d'autorité d'enregistrement pour Finess" ] ;
+       fhir:example [
+         a fhir:boolean ;
+         fhir:v false
+       ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [
+           a fhir:string ;
+           fhir:v "ValueSet"
+         ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <https://interop.esante.gouv.fr/terminologies/ValueSet/jdv-j360-type-autorisation-regulation-finess> ;
+         fhir:reference [ fhir:v "ValueSet/jdv-j360-type-autorisation-regulation-finess" ]
+       ] ;
+       fhir:name [ fhir:v "Jdv J360 Type Autorisation Regulation Finess" ] ;
+       fhir:description [ fhir:v "Jeu de valeurs FINESS contenant les autorités de régulation pour Finess" ] ;
+       fhir:example [
+         a fhir:boolean ;
+         fhir:v false
+       ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [
+           a fhir:string ;
+           fhir:v "ValueSet"
+         ]
+       ] ) ;
+       fhir:reference [
          fhir:link <https://interop.esante.gouv.fr/terminologies/ValueSet/jdv-j364-type-fermeture-pm-finess> ;
          fhir:reference [ fhir:v "ValueSet/jdv-j364-type-fermeture-pm-finess" ]
        ] ;
@@ -49077,6 +49165,78 @@
        ] ;
        fhir:name [ fhir:v "Jdv J371 Etat Objet Administratif Finess" ] ;
        fhir:description [ fhir:v "Jeu de valeurs FINESS contenant les états élémentaires que peuvent porter les entités et activités FINESS+" ] ;
+       fhir:example [
+         a fhir:boolean ;
+         fhir:v false
+       ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [
+           a fhir:string ;
+           fhir:v "ValueSet"
+         ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <https://interop.esante.gouv.fr/terminologies/ValueSet/jdv-j372-conventiont-rass> ;
+         fhir:reference [ fhir:v "ValueSet/jdv-j372-conventiont-rass" ]
+       ] ;
+       fhir:name [ fhir:v "Jdv J372 Convention Rass" ] ;
+       fhir:description [ fhir:v "Jeu de valeurs RASS contenant les engagements de type Convention." ] ;
+       fhir:example [
+         a fhir:boolean ;
+         fhir:v false
+       ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [
+           a fhir:string ;
+           fhir:v "ValueSet"
+         ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <https://interop.esante.gouv.fr/terminologies/ValueSet/jdv-j373-type-autorite> ;
+         fhir:reference [ fhir:v "ValueSet/jdv-j373-type-autorite" ]
+       ] ;
+       fhir:name [ fhir:v "Jdv J373 Type Autorité" ] ;
+       fhir:description [ fhir:v "Jeu de valeurs contenant les différents types d'autorité (actifs ou inactifs)" ] ;
+       fhir:example [
+         a fhir:boolean ;
+         fhir:v false
+       ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [
+           a fhir:string ;
+           fhir:v "ValueSet"
+         ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <https://interop.esante.gouv.fr/terminologies/ValueSet/jdv-j374-autorite> ;
+         fhir:reference [ fhir:v "ValueSet/jdv-j374-autorite" ]
+       ] ;
+       fhir:name [ fhir:v "Jdv J374 Autorité" ] ;
+       fhir:description [ fhir:v "Jeu de valeurs contenant la liste des autorités quelque soit la catégorie d'autorité et quelque soir l'état de l'autorité active ou inactive)" ] ;
+       fhir:example [
+         a fhir:boolean ;
+         fhir:v false
+       ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [
+           a fhir:string ;
+           fhir:v "ValueSet"
+         ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <https://interop.esante.gouv.fr/terminologies/ValueSet/jdv-j375-ordre> ;
+         fhir:reference [ fhir:v "ValueSet/jdv-j375-ordre" ]
+       ] ;
+       fhir:name [ fhir:v "Jdv J375 ordre" ] ;
+       fhir:description [ fhir:v "Jeu de valeurs comportant uniquement les autorités de type Ordre." ] ;
        fhir:example [
          a fhir:boolean ;
          fhir:v false
@@ -58823,6 +58983,23 @@
          fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
          fhir:value [
            a fhir:string ;
+           fhir:v "NamingSystem"
+         ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <https://interop.esante.gouv.fr/terminologies/NamingSystem/MEDDRA> ;
+         fhir:reference [ fhir:v "NamingSystem/MEDDRA" ]
+       ] ;
+       fhir:name [ fhir:v "MEDDRA" ] ;
+       fhir:example [
+         a fhir:boolean ;
+         fhir:v false
+       ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [
+           a fhir:string ;
            fhir:v "ValueSet"
          ]
        ] ) ;
@@ -59044,6 +59221,23 @@
        ] ;
        fhir:name [ fhir:v "RoleClassIngredientEntity" ] ;
        fhir:description [ fhir:v "RoleClassIngredientEntity" ] ;
+       fhir:example [
+         a fhir:boolean ;
+         fhir:v false
+       ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [
+           a fhir:string ;
+           fhir:v "NamingSystem"
+         ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <https://interop.esante.gouv.fr/terminologies/NamingSystem/SERAFIN> ;
+         fhir:reference [ fhir:v "NamingSystem/SERAFIN" ]
+       ] ;
+       fhir:name [ fhir:v "SERAFIN" ] ;
        fhir:example [
          a fhir:boolean ;
          fhir:v false
@@ -59780,6 +59974,24 @@
        ] ;
        fhir:name [ fhir:v "Tre R395 Engagement" ] ;
        fhir:description [ fhir:v "Nomenclature des engagements associés dans FINESS+ aux Personnes morales, aux entités géographique, aux groupements ou à leurs activités" ] ;
+       fhir:example [
+         a fhir:boolean ;
+         fhir:v false
+       ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [
+           a fhir:string ;
+           fhir:v "CodeSystem"
+         ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <https://interop.esante.gouv.fr/terminologies/CodeSystem/tre-r396-autorite> ;
+         fhir:reference [ fhir:v "CodeSystem/tre-r396-autorite" ]
+       ] ;
+       fhir:name [ fhir:v "Tre R396 Autorite" ] ;
+       fhir:description [ fhir:v "liste des autorités structurée en plusieurs types d'autorités : Ordres, ARS, ..." ] ;
        fhir:example [
          a fhir:boolean ;
          fhir:v false
@@ -64277,6 +64489,23 @@
        ] ;
        fhir:name [ fhir:v "TRE_R97_DroitExerciceCompl" ] ;
        fhir:description [ fhir:v "Droit d'exercice complémentaire" ] ;
+       fhir:example [
+         a fhir:boolean ;
+         fhir:v false
+       ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [
+           a fhir:string ;
+           fhir:v "NamingSystem"
+         ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <https://interop.esante.gouv.fr/terminologies/NamingSystem/UCUM> ;
+         fhir:reference [ fhir:v "NamingSystem/UCUM" ]
+       ] ;
+       fhir:name [ fhir:v "UCUM" ] ;
        fhir:example [
          a fhir:boolean ;
          fhir:v false

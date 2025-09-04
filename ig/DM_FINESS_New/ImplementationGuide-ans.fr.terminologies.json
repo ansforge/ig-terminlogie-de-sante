@@ -16355,7 +16355,7 @@
     },
     {
       "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-internal-dependency",
-      "valueCode" : "hl7.fhir.uv.tools.r4#0.5.0"
+      "valueCode" : "hl7.fhir.uv.tools.r4#0.7.1"
     },
     {
       "extension" : [{
@@ -32808,22 +32808,9 @@
         "valueString" : "ConceptMap"
       }],
       "reference" : {
-        "reference" : "ConceptMap/alignement-nuva-atc"
-      },
-      "name" : "Aligner les codes ATC de NUVA avec les codes ATC",
-      "description" : "Source des données SYADEM",
-      "exampleBoolean" : false
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "ConceptMap"
-      }],
-      "reference" : {
         "reference" : "ConceptMap/alignement-nuva-bdpm"
       },
       "name" : "Aligner les codes CIS et CIP de NUVA avec les codes CIS et CIP du BDPM",
-      "description" : "Source des données SYADEM",
       "exampleBoolean" : false
     },
     {
@@ -33379,6 +33366,17 @@
       },
       "name" : "hl7VS-specimenCollectionMethod",
       "description" : "hl7VS-specimenCollectionMethod",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "NamingSystem"
+      }],
+      "reference" : {
+        "reference" : "NamingSystem/IHERoleCodeVocabulary"
+      },
+      "name" : "IHERoleCode_Vocabulary",
       "exampleBoolean" : false
     },
     {
@@ -35247,6 +35245,18 @@
         "valueString" : "ValueSet"
       }],
       "reference" : {
+        "reference" : "ValueSet/jdv-j287-type-autorisation-regulation-finess"
+      },
+      "name" : "Jdv J287 Type Autorisation Regulation Finess",
+      "description" : "Jeu de valeurs FINESS contenant les types d'autorité de régulation pour Finess",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      }],
+      "reference" : {
         "reference" : "ValueSet/jdv-j289-type-groupe-gco-finess"
       },
       "name" : "Jdv J289 Type Groupe Gco Finess",
@@ -35395,6 +35405,18 @@
       },
       "name" : "Jdv J313 Usage Adresse Finess",
       "description" : "Jeu de valeurs FINESS contenant les usages des adresses associées aux entités enregistrés dans FINESS+",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      }],
+      "reference" : {
+        "reference" : "ValueSet/jdv-j314-engagement-finess"
+      },
+      "name" : "Jdv J314 Engagement Finess",
+      "description" : "Jeu de valeurs FINESS contenant les engagements, de tous les types d'engagement confondus, pouvant être associés dans FINESS+ à des structures ou des activités.",
       "exampleBoolean" : false
     },
     {
@@ -35607,6 +35629,42 @@
         "valueString" : "ValueSet"
       }],
       "reference" : {
+        "reference" : "ValueSet/jdv-j359-autorisation-enregistrement-finess"
+      },
+      "name" : "Jdv J358 Autorisation Enregistrement Finess",
+      "description" : "Jeu de valeurs FINESS contenant les autorité d'enregistrement pour Finess",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      }],
+      "reference" : {
+        "reference" : "ValueSet/jdv-j358-type-autorisation-enregistrement-finess"
+      },
+      "name" : "Jdv J358 Type Autorisation Enregistrement Finess",
+      "description" : "Jeu de valeurs FINESS contenant les types d'autorité d'enregistrement pour Finess",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      }],
+      "reference" : {
+        "reference" : "ValueSet/jdv-j360-type-autorisation-regulation-finess"
+      },
+      "name" : "Jdv J360 Type Autorisation Regulation Finess",
+      "description" : "Jeu de valeurs FINESS contenant les autorités de régulation pour Finess",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      }],
+      "reference" : {
         "reference" : "ValueSet/jdv-j364-type-fermeture-pm-finess"
       },
       "name" : "Jdv J364 Type Fermeture Pm Finess",
@@ -35683,6 +35741,54 @@
       },
       "name" : "Jdv J371 Etat Objet Administratif Finess",
       "description" : "Jeu de valeurs FINESS contenant les états élémentaires que peuvent porter les entités et activités FINESS+",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      }],
+      "reference" : {
+        "reference" : "ValueSet/jdv-j372-conventiont-rass"
+      },
+      "name" : "Jdv J372 Convention Rass",
+      "description" : "Jeu de valeurs RASS contenant les engagements de type Convention.",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      }],
+      "reference" : {
+        "reference" : "ValueSet/jdv-j373-type-autorite"
+      },
+      "name" : "Jdv J373 Type Autorité",
+      "description" : "Jeu de valeurs contenant les différents types d'autorité (actifs ou inactifs)",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      }],
+      "reference" : {
+        "reference" : "ValueSet/jdv-j374-autorite"
+      },
+      "name" : "Jdv J374 Autorité",
+      "description" : "Jeu de valeurs contenant la liste des autorités quelque soit la catégorie d'autorité et quelque soir l'état de l'autorité active ou inactive)",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      }],
+      "reference" : {
+        "reference" : "ValueSet/jdv-j375-ordre"
+      },
+      "name" : "Jdv J375 ordre",
+      "description" : "Jeu de valeurs comportant uniquement les autorités de type Ordre.",
       "exampleBoolean" : false
     },
     {
@@ -42179,6 +42285,17 @@
     {
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "NamingSystem"
+      }],
+      "reference" : {
+        "reference" : "NamingSystem/MEDDRA"
+      },
+      "name" : "MEDDRA",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "ValueSet"
       }],
       "reference" : {
@@ -42326,6 +42443,17 @@
       },
       "name" : "RoleClassIngredientEntity",
       "description" : "RoleClassIngredientEntity",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "NamingSystem"
+      }],
+      "reference" : {
+        "reference" : "NamingSystem/SERAFIN"
+      },
+      "name" : "SERAFIN",
       "exampleBoolean" : false
     },
     {
@@ -42816,6 +42944,18 @@
       },
       "name" : "Tre R395 Engagement",
       "description" : "Nomenclature des engagements associés dans FINESS+ aux Personnes morales, aux entités géographique, aux groupements ou à leurs activités",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "CodeSystem"
+      }],
+      "reference" : {
+        "reference" : "CodeSystem/tre-r396-autorite"
+      },
+      "name" : "Tre R396 Autorite",
+      "description" : "liste des autorités structurée en plusieurs types d'autorités : Ordres, ARS, ...",
       "exampleBoolean" : false
     },
     {
@@ -45813,6 +45953,17 @@
       },
       "name" : "TRE_R97_DroitExerciceCompl",
       "description" : "Droit d'exercice complémentaire",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "NamingSystem"
+      }],
+      "reference" : {
+        "reference" : "NamingSystem/UCUM"
+      },
+      "name" : "UCUM",
       "exampleBoolean" : false
     },
     {

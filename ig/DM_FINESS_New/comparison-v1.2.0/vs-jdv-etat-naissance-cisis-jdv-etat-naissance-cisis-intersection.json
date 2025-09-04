@@ -1,0 +1,31 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "cac924be-fde2-4b92-9c88-b7f4864ca532-1881",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/cac924be-fde2-4b92-9c88-b7f4864ca532-1881",
+  "name" : "IntersectionJdvEtatNaissanceCisisAndJdvEtatNaissanceCisis",
+  "title" : "Intersection of JDV Etat Naissance CISIS And JDV Etat Naissance CISIS",
+  "status" : "active",
+  "date" : "2025-09-04T08:20:30+00:00",
+  "compose" : {
+    "include" : [{
+      "concept" : [{
+        "code" : "P95",
+        "display" : "Mort fœtale (de cause non précisée)"
+      }]
+    },
+    {
+      "concept" : [{
+        "code" : "281050002",
+        "display" : "naissance vivante"
+      },
+      {
+        "code" : "391181005",
+        "display" : "mort néonatale précoce"
+      },
+      {
+        "code" : "240297000",
+        "display" : "mort infantile"
+      }]
+    }]
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "cac924be-fde2-4b92-9c88-b7f4864ca532-2469",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/cac924be-fde2-4b92-9c88-b7f4864ca532-2469",
+  "name" : "IntersectionJdvProfessionCisisAndJdvProfessionCisis",
+  "title" : "Intersection of JDV Profession CISIS And JDV Profession CISIS",
+  "status" : "active",
+  "date" : "2025-09-04T08:20:30+00:00",
+  "compose" : {
+    "include" : [{
+      "concept" : [{
+        "code" : "1",
+        "display" : "Agriculteur"
+      },
+      {
+        "code" : "2",
+        "display" : "Artisan, commerçant ou chef d'entreprise"
+      },
+      {
+        "code" : "3",
+        "display" : "Cadre ou profession intellectuelle supérieure"
+      },
+      {
+        "code" : "4",
+        "display" : "Profession intermédiaire"
+      },
+      {
+        "code" : "5",
+        "display" : "Employé"
+      },
+      {
+        "code" : "6",
+        "display" : "Ouvrier"
+      }]
+    }]
+  }
+}

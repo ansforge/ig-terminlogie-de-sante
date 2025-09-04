@@ -1,0 +1,25 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "cac924be-fde2-4b92-9c88-b7f4864ca532-1608",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/cac924be-fde2-4b92-9c88-b7f4864ca532-1608",
+  "name" : "IntersectionJdvAbordVeineuxPeripheriqueCisisAndJdvAbordVeineuxPeripheriqueCisis",
+  "title" : "Intersection of JDV Abord Veineux Peripherique CISIS And JDV Abord Veineux Peripherique CISIS",
+  "status" : "active",
+  "date" : "2025-09-04T08:20:29+00:00",
+  "compose" : {
+    "include" : [{
+      "concept" : [{
+        "code" : "181387000",
+        "display" : "veines du membre supérieur entier"
+      },
+      {
+        "code" : "244412003",
+        "display" : "veines du membre inférieur entier"
+      },
+      {
+        "code" : "82121006",
+        "display" : "veine cervicale"
+      }]
+    }]
+  }
+}

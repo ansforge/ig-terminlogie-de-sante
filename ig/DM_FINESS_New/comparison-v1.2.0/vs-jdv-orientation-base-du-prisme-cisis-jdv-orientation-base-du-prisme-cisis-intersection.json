@@ -1,0 +1,29 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "cac924be-fde2-4b92-9c88-b7f4864ca532-2436",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/cac924be-fde2-4b92-9c88-b7f4864ca532-2436",
+  "name" : "IntersectionJdvOrientationBaseDuPrismeCisisAndJdvOrientationBaseDuPrismeCisis",
+  "title" : "Intersection of JDV Orientation Base Du Prisme CISIS And JDV Orientation Base Du Prisme CISIS",
+  "status" : "active",
+  "date" : "2025-09-04T08:20:30+00:00",
+  "compose" : {
+    "include" : [{
+      "concept" : [{
+        "code" : "260521003",
+        "display" : "interne"
+      },
+      {
+        "code" : "261074009",
+        "display" : "externe"
+      },
+      {
+        "code" : "264217000",
+        "display" : "supérieure"
+      },
+      {
+        "code" : "261089000",
+        "display" : "inférieure"
+      }]
+    }]
+  }
+}

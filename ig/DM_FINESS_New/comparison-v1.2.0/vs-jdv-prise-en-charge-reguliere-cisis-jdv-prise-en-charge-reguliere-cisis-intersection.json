@@ -1,0 +1,23 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "cac924be-fde2-4b92-9c88-b7f4864ca532-2463",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/cac924be-fde2-4b92-9c88-b7f4864ca532-2463",
+  "name" : "IntersectionJdvPriseEnChargeReguliereCisisAndJdvPriseEnChargeReguliereCisis",
+  "title" : "Intersection of JDV Prise En Charge Reguliere CISIS And JDV Prise En Charge Reguliere CISIS",
+  "status" : "active",
+  "date" : "2025-09-04T08:20:30+00:00",
+  "compose" : {
+    "include" : [{
+      "concept" : [{
+        "code" : "ORG-163",
+        "display" : "Consultation de spécialité"
+      }]
+    },
+    {
+      "concept" : [{
+        "code" : "409073007",
+        "display" : "éducation"
+      }]
+    }]
+  }
+}

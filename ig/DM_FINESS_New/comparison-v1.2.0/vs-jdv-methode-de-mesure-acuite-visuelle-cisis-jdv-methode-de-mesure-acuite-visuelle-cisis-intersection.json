@@ -1,0 +1,41 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "cac924be-fde2-4b92-9c88-b7f4864ca532-2262",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/cac924be-fde2-4b92-9c88-b7f4864ca532-2262",
+  "name" : "IntersectionJdvMethodeDeMesureAcuiteVisuelleCisisAndJdvMethodeDeMesureAcuiteVisuelleCisis",
+  "title" : "Intersection of JDV Methode De Mesure Acuite Visuelle CISIS And JDV Methode De Mesure Acuite Visuelle CISIS",
+  "status" : "active",
+  "date" : "2025-09-04T08:20:30+00:00",
+  "compose" : {
+    "include" : [{
+      "concept" : [{
+        "code" : "C117877",
+        "display" : "Tableau de l'Oeil ETDRS"
+      },
+      {
+        "code" : "C130175",
+        "display" : "Tableau optométrique de Jaeger"
+      },
+      {
+        "code" : "C158246",
+        "display" : "Tableau des yeux de Sloan"
+      }]
+    },
+    {
+      "concept" : [{
+        "code" : "MED-1177",
+        "display" : "Réfracteur"
+      }]
+    },
+    {
+      "concept" : [{
+        "code" : "252973004",
+        "display" : "échelle de Snellen"
+      },
+      {
+        "code" : "252872008",
+        "display" : "test du double prisme Maddox"
+      }]
+    }]
+  }
+}

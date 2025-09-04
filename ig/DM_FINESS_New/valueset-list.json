@@ -1170,7 +1170,7 @@
       "title" : null,
       "description" : "Liste des autorités d'enregistrement pour EPARS",
       "systems" : [
-        "https://mos.esante.gouv.fr/NOS/TRE_R60-AutoriteEnregistrement/FHIR/TRE-R60-AutoriteEnregistrement"
+        "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r396-autorite"
       ],
       "oids" : ["1.2.250.1.213.1.6.1.231"],
       "sources" : ["1.2.250.1.213.1.6.1.231"]
@@ -3296,7 +3296,7 @@
       "title" : null,
       "description" : "Autorités d'enregistrement des acteurs de santé du RASS",
       "systems" : [
-        "https://mos.esante.gouv.fr/NOS/TRE_R60-AutoriteEnregistrement/FHIR/TRE-R60-AutoriteEnregistrement"
+        "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r396-autorite"
       ],
       "oids" : ["1.2.250.1.213.1.6.1.151"],
       "sources" : ["1.2.250.1.213.1.6.1.151"]
@@ -6470,6 +6470,58 @@
       "sources" : ["1.2.250.1.213.1.6.1.250"]
     },
     {
+      "url" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j287-type-autorisation-regulation-finess",
+      "version" : "20250826120000",
+      "status" : "active",
+      "name" : "JdvJ287TypeAutorisationRegulationFiness",
+      "title" : "Jdv J287 Type Autorisation Regulation Finess",
+      "description" : "Jeu de valeurs FINESS contenant les types d'autorité de régulation pour Finess",
+      "systems" : [
+        "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r396-autorite"
+      ],
+      "oids" : ["1.2.250.1.213.1.6.1.249"],
+      "sources" : ["1.2.250.1.213.1.6.1.249"]
+    },
+    {
+      "url" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j287-type-autorisation-regulation-finess",
+      "version" : "20250826120000",
+      "status" : "active",
+      "name" : "JdvJ358TypeAutorisationEnregistrementFiness",
+      "title" : "Jdv J358 Type Autorisation Enregistrement Finess",
+      "description" : "Jeu de valeurs FINESS contenant les types d'autorité d'enregistrement pour Finess",
+      "systems" : [
+        "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r396-autorite"
+      ],
+      "oids" : ["1.2.250.1.213.1.6.1.366"],
+      "sources" : ["1.2.250.1.213.1.6.1.366"]
+    },
+    {
+      "url" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j287-type-autorisation-regulation-finess",
+      "version" : "20250826120000",
+      "status" : "active",
+      "name" : "JdvJ359AutorisationEnregistrementFiness",
+      "title" : "Jdv J358 Autorisation Enregistrement Finess",
+      "description" : "Jeu de valeurs FINESS contenant les autorité d'enregistrement pour Finess",
+      "systems" : [
+        "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r396-autorite"
+      ],
+      "oids" : ["1.2.250.1.213.1.6.1.367"],
+      "sources" : ["1.2.250.1.213.1.6.1.367"]
+    },
+    {
+      "url" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j287-type-autorisation-regulation-finess",
+      "version" : "20250826120000",
+      "status" : "active",
+      "name" : "JdvJ360AutorisationRegulationFiness",
+      "title" : "Jdv J360 Type Autorisation Regulation Finess",
+      "description" : "Jeu de valeurs FINESS contenant les autorités de régulation pour Finess",
+      "systems" : [
+        "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r396-autorite"
+      ],
+      "oids" : ["1.2.250.1.213.1.6.1.368"],
+      "sources" : ["1.2.250.1.213.1.6.1.368"]
+    },
+    {
       "url" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j289-type-groupe-gco-finess",
       "version" : "20250711120000",
       "status" : "active",
@@ -6490,10 +6542,36 @@
       "title" : "Jdv J293 Type Engagement Finess",
       "description" : "Jeu de valeurs FINESS contenant les grands types d'engagement pouvant être associés dans FINESS+ à des structures ou des activités.",
       "systems" : [
-        "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r363-type-engagement"
+        "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r395-engagement"
       ],
       "oids" : ["1.2.250.1.213.1.6.1.267"],
       "sources" : ["1.2.250.1.213.1.6.1.267"]
+    },
+    {
+      "url" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j293-type-engagement-finess",
+      "version" : "20250619120000",
+      "status" : "active",
+      "name" : "JdvJ314EngagementFiness",
+      "title" : "Jdv J314 Engagement Finess",
+      "description" : "Jeu de valeurs FINESS contenant les engagements, de tous les types d'engagement confondus, pouvant être associés dans FINESS+ à des structures ou des activités.",
+      "systems" : [
+        "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r395-engagement"
+      ],
+      "oids" : ["OID:1.2.250.1.213.1.6.1.322"],
+      "sources" : ["OID:1.2.250.1.213.1.6.1.322"]
+    },
+    {
+      "url" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j293-type-engagement-finess",
+      "version" : "20250822120000",
+      "status" : "active",
+      "name" : "JdvJ372ConventionRass",
+      "title" : "Jdv J372 Convention Rass",
+      "description" : "Jeu de valeurs RASS contenant les engagements de type Convention.",
+      "systems" : [
+        "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r395-engagement"
+      ],
+      "oids" : ["1.2.250.1.213.1.6.1.377"],
+      "sources" : ["1.2.250.1.213.1.6.1.377"]
     },
     {
       "url" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j294-document-justificatif-finess",
@@ -6949,6 +7027,45 @@
       ],
       "oids" : ["1.2.250.1.213.1.6.1.305"],
       "sources" : ["1.2.250.1.213.1.6.1.305"]
+    },
+    {
+      "url" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j373-type-autorite",
+      "version" : "2025080120000",
+      "status" : "active",
+      "name" : "JdvJ373TypeAutorite",
+      "title" : "Jdv J373 Type Autorité",
+      "description" : "Jeu de valeurs contenant les différents types d'autorité (actifs ou inactifs)",
+      "systems" : [
+        "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r396-autorite"
+      ],
+      "oids" : ["1.2.250.1.213.1.6.1.379"],
+      "sources" : ["1.2.250.1.213.1.6.1.379"]
+    },
+    {
+      "url" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j374-autorite",
+      "version" : "2025080120000",
+      "status" : "active",
+      "name" : "JdvJ374Autorite",
+      "title" : "Jdv J374 Autorité",
+      "description" : "Jeu de valeurs contenant la liste des autorités quelque soit la catégorie d'autorité et quelque soir l'état de l'autorité active ou inactive)",
+      "systems" : [
+        "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r396-autorite"
+      ],
+      "oids" : ["1.2.250.1.213.1.6.1.380"],
+      "sources" : ["1.2.250.1.213.1.6.1.380"]
+    },
+    {
+      "url" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j375-ordre",
+      "version" : "20250826120000",
+      "status" : "active",
+      "name" : "JdvJ375Ordre",
+      "title" : "Jdv J375 ordre",
+      "description" : "Jeu de valeurs comportant uniquement les autorités de type Ordre.",
+      "systems" : [
+        "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r396-autorite"
+      ],
+      "oids" : ["1.2.250.1.213.1.6.1.381"],
+      "sources" : ["1.2.250.1.213.1.6.1.381"]
     },
     {
       "url" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-jour-semaine-cisis",

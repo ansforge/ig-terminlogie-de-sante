@@ -1,0 +1,21 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "cac924be-fde2-4b92-9c88-b7f4864ca532-2586",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/cac924be-fde2-4b92-9c88-b7f4864ca532-2586",
+  "name" : "IntersectionJdvResultatDepistageSurditeCisisAndJdvResultatDepistageSurditeCisis",
+  "title" : "Intersection of JDV Resultat Depistage Surdite CISIS And JDV Resultat Depistage Surdite CISIS",
+  "status" : "active",
+  "date" : "2025-09-04T08:20:30+00:00",
+  "compose" : {
+    "include" : [{
+      "concept" : [{
+        "code" : "MED-178",
+        "display" : "Test auditif normal"
+      },
+      {
+        "code" : "MED-179",
+        "display" : "Audition à recontrôler"
+      }]
+    }]
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "cac924be-fde2-4b92-9c88-b7f4864ca532-2847",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/cac924be-fde2-4b92-9c88-b7f4864ca532-2847",
+  "name" : "IntersectionJdvTypeDePrismeCisisAndJdvTypeDePrismeCisis",
+  "title" : "Intersection of JDV Type De Prisme CISIS And JDV Type De Prisme CISIS",
+  "status" : "active",
+  "date" : "2025-09-04T08:20:30+00:00",
+  "compose" : {
+    "include" : [{
+      "concept" : [{
+        "code" : "MED-1216",
+        "display" : "Prisme intégré"
+      },
+      {
+        "code" : "MED-1217",
+        "display" : "Prisme souple"
+      }]
+    }]
+  }
+}

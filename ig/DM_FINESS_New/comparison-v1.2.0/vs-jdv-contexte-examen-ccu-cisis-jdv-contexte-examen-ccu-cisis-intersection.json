@@ -1,0 +1,37 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "cac924be-fde2-4b92-9c88-b7f4864ca532-1815",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/cac924be-fde2-4b92-9c88-b7f4864ca532-1815",
+  "name" : "IntersectionJdvContexteExamenCcuCisisAndJdvContexteExamenCcuCisis",
+  "title" : "Intersection of JDV Contexte Examen Ccu CISIS And JDV Contexte Examen Ccu CISIS",
+  "status" : "active",
+  "date" : "2025-09-04T08:20:30+00:00",
+  "compose" : {
+    "include" : [{
+      "concept" : [{
+        "code" : "MED-1210",
+        "display" : "Test HPV-HR de dépistage primaire réalisé sur prélèvement cervico-utérin"
+      },
+      {
+        "code" : "MED-1211",
+        "display" : "Test HPV-HR de dépistage primaire réalisé sur un auto-prélèvement"
+      },
+      {
+        "code" : "MED-1212",
+        "display" : "Test HPV-HR réalisé en réflexe après examen cytologique anormal (ASCUS - AGC) de dépistage primaire"
+      },
+      {
+        "code" : "MED-1213",
+        "display" : "Test HPV-HR de contrôle"
+      },
+      {
+        "code" : "MED-1214",
+        "display" : "Examen cytologique de dépistage primaire"
+      },
+      {
+        "code" : "MED-1215",
+        "display" : "Examen cytologique de contrôle"
+      }]
+    }]
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "cac924be-fde2-4b92-9c88-b7f4864ca532-1629",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/cac924be-fde2-4b92-9c88-b7f4864ca532-1629",
+  "name" : "IntersectionJdvAccesArtereCisisAndJdvAccesArtereCisis",
+  "title" : "Intersection of JDV Acces Artere CISIS And JDV Acces Artere CISIS",
+  "status" : "active",
+  "date" : "2025-09-04T08:20:29+00:00",
+  "compose" : {
+    "include" : [{
+      "concept" : [{
+        "code" : "244332003",
+        "display" : "artère fémorale entière"
+      },
+      {
+        "code" : "181332001",
+        "display" : "artère radiale entière"
+      }]
+    }]
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "cac924be-fde2-4b92-9c88-b7f4864ca532-2580",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/cac924be-fde2-4b92-9c88-b7f4864ca532-2580",
+  "name" : "IntersectionJdvResultatDepistageProteinurieCisisAndJdvResultatDepistageProteinurieCisis",
+  "title" : "Intersection of JDV Resultat Depistage Proteinurie CISIS And JDV Resultat Depistage Proteinurie CISIS",
+  "status" : "active",
+  "date" : "2025-09-04T08:20:30+00:00",
+  "compose" : {
+    "include" : [{
+      "concept" : [{
+        "code" : "260385009",
+        "display" : "négatif(-ive)"
+      },
+      {
+        "code" : "10828004",
+        "display" : "positif(-ive)"
+      }]
+    }]
+  }
+}

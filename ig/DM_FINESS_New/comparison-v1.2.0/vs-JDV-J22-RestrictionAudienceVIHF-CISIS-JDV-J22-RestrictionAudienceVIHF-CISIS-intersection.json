@@ -1,0 +1,23 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "cac924be-fde2-4b92-9c88-b7f4864ca532-1221",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/cac924be-fde2-4b92-9c88-b7f4864ca532-1221",
+  "name" : "IntersectionJDV_J22_RestrictionAudienceVIHF_CISISAndJDV_J22_RestrictionAudienceVIHF_CISIS",
+  "title" : "Intersection of null And null",
+  "status" : "active",
+  "date" : "2025-09-04T08:20:29+00:00",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "FR"
+    }]
+  }],
+  "compose" : {
+    "include" : [{
+      "concept" : [{
+        "code" : "INVISIBLE_REPRESENTANTS_LEGAUX",
+        "display" : "Non visible par les représentants légaux du patient"
+      }]
+    }]
+  }
+}

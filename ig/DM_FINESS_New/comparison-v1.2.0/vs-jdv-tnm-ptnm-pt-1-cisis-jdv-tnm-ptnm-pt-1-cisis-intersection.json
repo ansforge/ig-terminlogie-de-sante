@@ -1,0 +1,37 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "cac924be-fde2-4b92-9c88-b7f4864ca532-2766",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/cac924be-fde2-4b92-9c88-b7f4864ca532-2766",
+  "name" : "IntersectionJdvTnmPtnmPt1CisisAndJdvTnmPtnmPt1Cisis",
+  "title" : "Intersection of JDV Tnm Ptnm Pt 1 CISIS And JDV Tnm Ptnm Pt 1 CISIS",
+  "status" : "active",
+  "date" : "2025-09-04T08:20:30+00:00",
+  "compose" : {
+    "include" : [{
+      "concept" : [{
+        "code" : "MED-787",
+        "display" : "Évaluation impossible"
+      },
+      {
+        "code" : "MED-788",
+        "display" : "Pas de tumeur retrouvée"
+      },
+      {
+        "code" : "MED-805",
+        "display" : "Tumeur <= 2 cm"
+      },
+      {
+        "code" : "MED-806",
+        "display" : "Tumeur > 2 cm et <= 5 cm"
+      },
+      {
+        "code" : "MED-807",
+        "display" : "Tumeur > 5 cm et <= 10 cm"
+      },
+      {
+        "code" : "MED-808",
+        "display" : "Tumeur > 10 cm"
+      }]
+    }]
+  }
+}

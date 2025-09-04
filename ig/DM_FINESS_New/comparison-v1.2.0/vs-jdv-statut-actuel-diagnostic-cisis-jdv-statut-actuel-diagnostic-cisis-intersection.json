@@ -1,0 +1,39 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "cac924be-fde2-4b92-9c88-b7f4864ca532-2706",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/cac924be-fde2-4b92-9c88-b7f4864ca532-2706",
+  "name" : "IntersectionJdvStatutActuelDiagnosticCisisAndJdvStatutActuelDiagnosticCisis",
+  "title" : "Intersection of JDV Statut Actuel Diagnostic CISIS And JDV Statut Actuel Diagnostic CISIS",
+  "status" : "active",
+  "date" : "2025-09-04T08:20:30+00:00",
+  "compose" : {
+    "include" : [{
+      "concept" : [{
+        "code" : "MED-1313",
+        "display" : "Apparenté non porteur"
+      }]
+    },
+    {
+      "concept" : [{
+        "code" : "2931005",
+        "display" : "diagnostic probable"
+      },
+      {
+        "code" : "385651009",
+        "display" : "en cours d'exécution"
+      },
+      {
+        "code" : "42425007",
+        "display" : "équivoque"
+      },
+      {
+        "code" : "255545003",
+        "display" : "diagnostic définitif"
+      },
+      {
+        "code" : "723511001",
+        "display" : "réfuté"
+      }]
+    }]
+  }
+}

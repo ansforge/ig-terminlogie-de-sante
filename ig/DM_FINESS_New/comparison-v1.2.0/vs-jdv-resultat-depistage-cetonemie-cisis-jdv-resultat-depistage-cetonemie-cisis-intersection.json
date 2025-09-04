@@ -1,0 +1,21 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "cac924be-fde2-4b92-9c88-b7f4864ca532-2550",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/cac924be-fde2-4b92-9c88-b7f4864ca532-2550",
+  "name" : "IntersectionJdvResultatDepistageCetonemieCisisAndJdvResultatDepistageCetonemieCisis",
+  "title" : "Intersection of JDV Resultat Depistage Cetonemie CISIS And JDV Resultat Depistage Cetonemie CISIS",
+  "status" : "active",
+  "date" : "2025-09-04T08:20:30+00:00",
+  "compose" : {
+    "include" : [{
+      "concept" : [{
+        "code" : "17621005",
+        "display" : "normal"
+      },
+      {
+        "code" : "274783007",
+        "display" : "cétonurie"
+      }]
+    }]
+  }
+}

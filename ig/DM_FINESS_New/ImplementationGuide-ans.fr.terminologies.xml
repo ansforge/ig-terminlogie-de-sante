@@ -11905,7 +11905,7 @@
       </extension>
     </extension>
     <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-internal-dependency">
-      <valueCode value="hl7.fhir.uv.tools.r4#0.5.0"/>
+      <valueCode value="hl7.fhir.uv.tools.r4#0.7.1"/>
     </extension>
     <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
       <extension url="code">
@@ -23899,21 +23899,9 @@
         <valueString value="ConceptMap"/>
       </extension>
       <reference>
-        <reference value="ConceptMap/alignement-nuva-atc"/>
-      </reference>
-      <name value="Aligner les codes ATC de NUVA avec les codes ATC"/>
-      <description value="Source des données SYADEM"/>
-      <exampleBoolean value="false"/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="ConceptMap"/>
-      </extension>
-      <reference>
         <reference value="ConceptMap/alignement-nuva-bdpm"/>
       </reference>
       <name value="Aligner les codes CIS et CIP de NUVA avec les codes CIS et CIP du BDPM"/>
-      <description value="Source des données SYADEM"/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -24422,6 +24410,16 @@
       </reference>
       <name value="hl7VS-specimenCollectionMethod"/>
       <description value="hl7VS-specimenCollectionMethod"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="NamingSystem"/>
+      </extension>
+      <reference>
+        <reference value="NamingSystem/IHERoleCodeVocabulary"/>
+      </reference>
+      <name value="IHERoleCode_Vocabulary"/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -26134,6 +26132,17 @@
         <valueString value="ValueSet"/>
       </extension>
       <reference>
+        <reference value="ValueSet/jdv-j287-type-autorisation-regulation-finess"/>
+      </reference>
+      <name value="Jdv J287 Type Autorisation Regulation Finess"/>
+      <description value="Jeu de valeurs FINESS contenant les types d'autorité de régulation pour Finess"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
         <reference value="ValueSet/jdv-j289-type-groupe-gco-finess"/>
       </reference>
       <name value="Jdv J289 Type Groupe Gco Finess"/>
@@ -26270,6 +26279,17 @@
       </reference>
       <name value="Jdv J313 Usage Adresse Finess"/>
       <description value="Jeu de valeurs FINESS contenant les usages des adresses associées aux entités enregistrés dans FINESS+"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/jdv-j314-engagement-finess"/>
+      </reference>
+      <name value="Jdv J314 Engagement Finess"/>
+      <description value="Jeu de valeurs FINESS contenant les engagements, de tous les types d'engagement confondus, pouvant être associés dans FINESS+ à des structures ou des activités."/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -26464,6 +26484,39 @@
         <valueString value="ValueSet"/>
       </extension>
       <reference>
+        <reference value="ValueSet/jdv-j359-autorisation-enregistrement-finess"/>
+      </reference>
+      <name value="Jdv J358 Autorisation Enregistrement Finess"/>
+      <description value="Jeu de valeurs FINESS contenant les autorité d'enregistrement pour Finess"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/jdv-j358-type-autorisation-enregistrement-finess"/>
+      </reference>
+      <name value="Jdv J358 Type Autorisation Enregistrement Finess"/>
+      <description value="Jeu de valeurs FINESS contenant les types d'autorité d'enregistrement pour Finess"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/jdv-j360-type-autorisation-regulation-finess"/>
+      </reference>
+      <name value="Jdv J360 Type Autorisation Regulation Finess"/>
+      <description value="Jeu de valeurs FINESS contenant les autorités de régulation pour Finess"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
         <reference value="ValueSet/jdv-j364-type-fermeture-pm-finess"/>
       </reference>
       <name value="Jdv J364 Type Fermeture Pm Finess"/>
@@ -26534,6 +26587,50 @@
       </reference>
       <name value="Jdv J371 Etat Objet Administratif Finess"/>
       <description value="Jeu de valeurs FINESS contenant les états élémentaires que peuvent porter les entités et activités FINESS+"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/jdv-j372-conventiont-rass"/>
+      </reference>
+      <name value="Jdv J372 Convention Rass"/>
+      <description value="Jeu de valeurs RASS contenant les engagements de type Convention."/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/jdv-j373-type-autorite"/>
+      </reference>
+      <name value="Jdv J373 Type Autorité"/>
+      <description value="Jeu de valeurs contenant les différents types d'autorité (actifs ou inactifs)"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/jdv-j374-autorite"/>
+      </reference>
+      <name value="Jdv J374 Autorité"/>
+      <description value="Jeu de valeurs contenant la liste des autorités quelque soit la catégorie d'autorité et quelque soir l'état de l'autorité active ou inactive)"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/jdv-j375-ordre"/>
+      </reference>
+      <name value="Jdv J375 ordre"/>
+      <description value="Jeu de valeurs comportant uniquement les autorités de type Ordre."/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -32488,6 +32585,16 @@
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="NamingSystem"/>
+      </extension>
+      <reference>
+        <reference value="NamingSystem/MEDDRA"/>
+      </reference>
+      <name value="MEDDRA"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
         <valueString value="ValueSet"/>
       </extension>
       <reference>
@@ -32623,6 +32730,16 @@
       </reference>
       <name value="RoleClassIngredientEntity"/>
       <description value="RoleClassIngredientEntity"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="NamingSystem"/>
+      </extension>
+      <reference>
+        <reference value="NamingSystem/SERAFIN"/>
+      </reference>
+      <name value="SERAFIN"/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -33072,6 +33189,17 @@
       </reference>
       <name value="Tre R395 Engagement"/>
       <description value="Nomenclature des engagements associés dans FINESS+ aux Personnes morales, aux entités géographique, aux groupements ou à leurs activités"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="CodeSystem"/>
+      </extension>
+      <reference>
+        <reference value="CodeSystem/tre-r396-autorite"/>
+      </reference>
+      <name value="Tre R396 Autorite"/>
+      <description value="liste des autorités structurée en plusieurs types d'autorités : Ordres, ARS, ..."/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -35819,6 +35947,16 @@
       </reference>
       <name value="TRE_R97_DroitExerciceCompl"/>
       <description value="Droit d'exercice complémentaire"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="NamingSystem"/>
+      </extension>
+      <reference>
+        <reference value="NamingSystem/UCUM"/>
+      </reference>
+      <name value="UCUM"/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>

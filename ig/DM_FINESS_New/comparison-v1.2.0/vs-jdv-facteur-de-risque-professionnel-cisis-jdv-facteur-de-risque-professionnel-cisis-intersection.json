@@ -1,0 +1,29 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "cac924be-fde2-4b92-9c88-b7f4864ca532-1959",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/cac924be-fde2-4b92-9c88-b7f4864ca532-1959",
+  "name" : "IntersectionJdvFacteurDeRisqueProfessionnelCisisAndJdvFacteurDeRisqueProfessionnelCisis",
+  "title" : "Intersection of JDV Facteur De Risque Professionnel CISIS And JDV Facteur De Risque Professionnel CISIS",
+  "status" : "active",
+  "date" : "2025-09-04T08:20:30+00:00",
+  "compose" : {
+    "include" : [{
+      "concept" : [{
+        "code" : "83581005",
+        "display" : "silice colloidale"
+      },
+      {
+        "code" : "16369005",
+        "display" : "Asbestos"
+      },
+      {
+        "code" : "61010005",
+        "display" : "solvant"
+      },
+      {
+        "code" : "59545008",
+        "display" : "pesticide"
+      }]
+    }]
+  }
+}

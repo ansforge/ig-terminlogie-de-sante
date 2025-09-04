@@ -1,9 +1,0 @@
-{
-  "resourceType" : "ValueSet",
-  "id" : "4b851480-9c7d-4f4e-975f-2ec93ef04d93-3027",
-  "url" : "http://hl7.org/fhir/comparison/ValueSet/4b851480-9c7d-4f4e-975f-2ec93ef04d93-3027",
-  "name" : "IntersectionValueSet_EDQM_AllAndValueSet_EDQM_All",
-  "title" : "Intersection of null And null",
-  "status" : "active",
-  "date" : "2025-07-30T10:03:11+00:00"
-}

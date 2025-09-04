@@ -1,0 +1,31 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "cac924be-fde2-4b92-9c88-b7f4864ca532-1644",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/cac924be-fde2-4b92-9c88-b7f4864ca532-1644",
+  "name" : "IntersectionJdvAddictionCisisAndJdvAddictionCisis",
+  "title" : "Intersection of JDV Addiction CISIS And JDV Addiction CISIS",
+  "status" : "active",
+  "date" : "2025-09-04T08:20:29+00:00",
+  "compose" : {
+    "include" : [{
+      "concept" : [{
+        "code" : "GEN-092.01.04",
+        "display" : "Autre addiction"
+      }]
+    },
+    {
+      "concept" : [{
+        "code" : "11343-1",
+        "display" : "Consommation de drogue non médicales"
+      },
+      {
+        "code" : "74011-8",
+        "display" : "Consommation tabagique"
+      },
+      {
+        "code" : "74013-4",
+        "display" : "Consommation d'alcool"
+      }]
+    }]
+  }
+}

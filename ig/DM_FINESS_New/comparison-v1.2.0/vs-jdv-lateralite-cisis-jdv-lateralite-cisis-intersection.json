@@ -1,0 +1,29 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "cac924be-fde2-4b92-9c88-b7f4864ca532-2187",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/cac924be-fde2-4b92-9c88-b7f4864ca532-2187",
+  "name" : "IntersectionJdvLateraliteCisisAndJdvLateraliteCisis",
+  "title" : "Intersection of JDV Lateralite CISIS And JDV Lateralite CISIS",
+  "status" : "active",
+  "date" : "2025-09-04T08:20:30+00:00",
+  "compose" : {
+    "include" : [{
+      "concept" : [{
+        "code" : "24028007",
+        "display" : "droit"
+      },
+      {
+        "code" : "7771000",
+        "display" : "gauche"
+      },
+      {
+        "code" : "51440002",
+        "display" : "bilatéral"
+      },
+      {
+        "code" : "385432009",
+        "display" : "non applicable"
+      }]
+    }]
+  }
+}

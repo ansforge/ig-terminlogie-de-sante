@@ -1,0 +1,61 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "cac924be-fde2-4b92-9c88-b7f4864ca532-1974",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/cac924be-fde2-4b92-9c88-b7f4864ca532-1974",
+  "name" : "IntersectionJdvFonctionEtudieeScintigraphieCisisAndJdvFonctionEtudieeScintigraphieCisis",
+  "title" : "Intersection of JDV Fonction Etudiee Scintigraphie CISIS And JDV Fonction Etudiee Scintigraphie CISIS",
+  "status" : "active",
+  "date" : "2025-09-04T08:20:30+00:00",
+  "compose" : {
+    "include" : [{
+      "concept" : [{
+        "code" : "MED-1141",
+        "display" : "Cardiaque : Perfusion myocardique"
+      },
+      {
+        "code" : "MED-1142",
+        "display" : "Cardiaque : FEVG"
+      },
+      {
+        "code" : "MED-1143",
+        "display" : "Osseuse"
+      },
+      {
+        "code" : "MED-1144",
+        "display" : "Pulmonaire"
+      },
+      {
+        "code" : "MED-1145",
+        "display" : "Endocrinienne"
+      },
+      {
+        "code" : "MED-1146",
+        "display" : "Uro-Néphrologie"
+      },
+      {
+        "code" : "MED-1147",
+        "display" : "Digestive"
+      },
+      {
+        "code" : "MED-1148",
+        "display" : "Neurologique"
+      },
+      {
+        "code" : "MED-1149",
+        "display" : "Hématologie"
+      },
+      {
+        "code" : "MED-1150",
+        "display" : "Lymphoscintigraphie"
+      },
+      {
+        "code" : "MED-1151",
+        "display" : "Scintigraphie aux leucocytes marqués"
+      },
+      {
+        "code" : "GEN-092.04.19",
+        "display" : "Autre fonction étudiée"
+      }]
+    }]
+  }
+}

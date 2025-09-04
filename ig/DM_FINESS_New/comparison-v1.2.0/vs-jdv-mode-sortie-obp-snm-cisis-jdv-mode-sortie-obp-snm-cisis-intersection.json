@@ -1,0 +1,31 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "cac924be-fde2-4b92-9c88-b7f4864ca532-2313",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/cac924be-fde2-4b92-9c88-b7f4864ca532-2313",
+  "name" : "IntersectionJdvModeSortieObpSnmCisisAndJdvModeSortieObpSnmCisis",
+  "title" : "Intersection of JDV Mode Sortie Obp Snm CISIS And JDV Mode Sortie Obp Snm CISIS",
+  "status" : "active",
+  "date" : "2025-09-04T08:20:30+00:00",
+  "compose" : {
+    "include" : [{
+      "concept" : [{
+        "code" : "MED-1176",
+        "display" : "Suites de couches"
+      }]
+    },
+    {
+      "concept" : [{
+        "code" : "419620001",
+        "display" : "mort"
+      },
+      {
+        "code" : "107724000",
+        "display" : "transfert du patient"
+      },
+      {
+        "code" : "385432009",
+        "display" : "non applicable"
+      }]
+    }]
+  }
+}

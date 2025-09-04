@@ -1,0 +1,27 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "cac924be-fde2-4b92-9c88-b7f4864ca532-2351",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/cac924be-fde2-4b92-9c88-b7f4864ca532-2351",
+  "name" : "UnionJdvNatureDiscussionCisisAndJdvNatureDiscussionCisis",
+  "title" : "Union of JDV Nature Discussion CISIS And JDV Nature Discussion CISIS",
+  "status" : "active",
+  "date" : "2025-09-04T08:20:30+00:00",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "FR"
+    }]
+  }],
+  "compose" : {
+    "include" : [{
+      "concept" : [{
+        "code" : "ORG-117",
+        "display" : "RCP Appareil - Organes"
+      },
+      {
+        "code" : "ORG-132",
+        "display" : "RCP Transversale et de soins de support"
+      }]
+    }]
+  }
+}

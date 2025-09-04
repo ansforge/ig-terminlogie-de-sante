@@ -1,0 +1,4535 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sct: <http://snomed.info/id/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<https://interop.esante.gouv.fr/terminologies/CodeSystem/tre-r396-autorite> a fhir:CodeSystem ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "tre-r396-autorite"] ; # 
+  fhir:meta [
+     fhir:versionId [ fhir:v "8" ] ;
+     fhir:lastUpdated [ fhir:v "2025-08-25T18:18:27.409+00:00"^^xsd:dateTime ] ;
+     fhir:profile ( [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/shareablecodesystem"^^xsd:anyURI ;
+       fhir:link <http://hl7.org/fhir/StructureDefinition/shareablecodesystem>
+     ] )
+  ] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Narratif généré : CodeSystem tre-r396-autorite</b></p><a name=\"tre-r396-autorite\"> </a><a name=\"hctre-r396-autorite\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">version: 8; Dernière mise à jour : 2025-08-25 18:18:27+0000</p><p style=\"margin-bottom: 0px\">Profil: <a href=\"http://hl7.org/fhir/R4/shareablecodesystem.html\">Shareable CodeSystem</a></p></div><p><b>Propriétés</b></p><p><b>Cette terminologie de référence (CodeSystem) définit les propriétés suivantes pour ses concepts</b></p><table class=\"grid\"><tr><td><b>Nom</b></td><td><b>Code</b></td><td><b>URI</b></td><td><b>Type</b></td><td><b>Description</b></td></tr><tr><td>Parent</td><td>parent</td><td>http://hl7.org/fhir/concept-properties#parent</td><td>code</td><td>An immediate parent of the concept in the hierarchy</td></tr><tr><td>dateValid</td><td>dateValid</td><td/><td>dateTime</td><td>date de validité d'un code concept</td></tr><tr><td>dateMaj</td><td>dateMaj</td><td/><td>dateTime</td><td>Date de mise à jour d'un code concept</td></tr><tr><td>dateFin</td><td>dateFin</td><td/><td>dateTime</td><td>Date de fin d'exploitation d'un code concept</td></tr><tr><td>deprecationDate</td><td>deprecationDate</td><td>http://hl7.org/fhir/concept-properties#deprecationDate</td><td>dateTime</td><td>Date Concept was deprecated</td></tr><tr><td>status</td><td>status</td><td>http://hl7.org/fhir/concept-properties#status</td><td>code</td><td>A property that indicates the status of the concept.</td></tr><tr><td>retirementDate</td><td>retirementDate</td><td>http://hl7.org/fhir/concept-properties#retirementDate</td><td>dateTime</td><td>Date Concept was retired</td></tr><tr><td>niveau</td><td>niveau</td><td>https://smt.esante.gouv.fr/fhir/concept-properties#niveau</td><td>integer</td><td>Permet d'indiquer le niveau hiérarchique du code</td></tr><tr><td>AutoriteEnregistrementFiness</td><td>AutoriteEnregistrementFiness</td><td>https://smt.esante.gouv.fr/fhir/concept-properties#AutoriteEnregistrementFiness</td><td>boolean</td><td>Permet de définir les codes à inclure dans les Jdv358TypeAutoriteEnregistrementFiness  Jdv359AutoriteEnregistrementFiness</td></tr><tr><td>AutoriteRegulationFiness</td><td>AutoriteRegulationFiness</td><td>https://smt.esante.gouv.fr/fhir/concept-properties#AutoriteRegulationFiness</td><td>boolean</td><td>Permet de définir les codes à inclure dans les Jdv287TypeAutoriteRegulationFiness  Jdv360AutoriteRegulationFiness</td></tr><tr><td>AutoriteEnregistrementEpars</td><td>AutoriteEnregistrementEpars</td><td>https://smt.esante.gouv.fr/fhir/concept-properties#AutoriteEnregistrementEpars</td><td>boolean</td><td>Permet de définir les codes à inclure dans le JDV_J170-AutoriteEnregistrement-EPARS</td></tr><tr><td>AutoriteEnregistrementRass</td><td>AutoriteEnregistrementRass</td><td>https://smt.esante.gouv.fr/fhir/concept-properties#AutoriteEnregistrementRass</td><td>boolean</td><td>Permet de définir les codes à inclure dans le JDV_J83-AutoriteEnregistrement-RASS</td></tr></table><p><b>Concepts</b></p><p>This case-insensitive code system <code>https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r396-autorite</code> defines the following codes in a Is-A hierarchy:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Définition</b></td><td><b>Déprécié</b></td><td><b>Parent</b></td><td><b>dateValid</b></td><td><b>dateMaj</b></td><td><b>dateFin</b></td><td><b>deprecationDate</b></td><td><b>status</b></td><td><b>niveau</b></td><td><b>AutoriteEnregistrementFiness</b></td><td><b>AutoriteRegulationFiness</b></td><td><b>AutoriteEnregistrementEpars</b></td><td><b>AutoriteEnregistrementRass</b></td><td><b>French (France) (fr)</b></td></tr><tr><td style=\"white-space:nowrap\">01<a name=\"tre-r396-autorite-01\"> </a></td><td>Conseil de l'Ordre</td><td/><td/><td/><td>2016-03-22T00:00:00+01:00</td><td>2016-03-22T00:00:00+01:00</td><td/><td/><td>active</td><td>1</td><td/><td/><td/><td/><td>Ordre</td></tr><tr><td style=\"white-space:nowrap\">02<a name=\"tre-r396-autorite-02\"> </a></td><td>Agence Régional de Santé</td><td/><td/><td/><td>2016-03-22T00:00:00+01:00</td><td>2016-03-22T00:00:00+01:00</td><td/><td/><td>active</td><td>1</td><td>true</td><td>true</td><td/><td/><td>ARS</td></tr><tr><td style=\"white-space:nowrap\">03<a name=\"tre-r396-autorite-03\"> </a></td><td>Structure</td><td/><td/><td/><td>2016-03-22T00:00:00+01:00</td><td>2016-03-22T00:00:00+01:00</td><td/><td/><td>active</td><td>1</td><td/><td/><td/><td/><td/></tr><tr><td style=\"white-space:nowrap\">04<a name=\"tre-r396-autorite-04\"> </a></td><td>Directions régionales de l'économie de l'emploi du travail et des solidarités</td><td/><td/><td/><td>2016-03-22T00:00:00+01:00</td><td>2016-03-22T00:00:00+01:00</td><td/><td/><td>active</td><td>1</td><td>true</td><td>true</td><td/><td/><td>DREETS</td></tr><tr><td style=\"white-space:nowrap\">05<a name=\"tre-r396-autorite-05\"> </a></td><td>Direction régionale et interdépartementale de l'Hébergement et du Logement</td><td/><td/><td/><td>2016-03-22T00:00:00+01:00</td><td>2016-03-22T00:00:00+01:00</td><td/><td/><td>active</td><td>1</td><td>true</td><td/><td/><td/><td>DRHIL</td></tr><tr><td style=\"white-space:nowrap\">06<a name=\"tre-r396-autorite-06\"> </a></td><td>Conseil départemental</td><td/><td/><td/><td>2016-03-22T00:00:00+01:00</td><td>2016-03-22T00:00:00+01:00</td><td/><td/><td>active</td><td>1</td><td>true</td><td>true</td><td/><td/><td>CD</td></tr><tr><td style=\"white-space:nowrap\">07<a name=\"tre-r396-autorite-07\"> </a></td><td>Direction Départementale de l'Emploi, du Travail et des Solidarités</td><td/><td/><td/><td>2016-03-22T00:00:00+01:00</td><td>2016-03-22T00:00:00+01:00</td><td/><td/><td>active</td><td>1</td><td/><td>true</td><td/><td/><td>DDETS</td></tr><tr><td style=\"white-space:nowrap\">08<a name=\"tre-r396-autorite-08\"> </a></td><td>Services des Armées</td><td/><td/><td/><td>2016-03-22T00:00:00+01:00</td><td>2016-03-22T00:00:00+01:00</td><td/><td/><td>active</td><td>1</td><td/><td/><td/><td/><td>ARMEE</td></tr><tr><td style=\"white-space:nowrap\">ARS-01<a name=\"tre-r396-autorite-ARS-01\"> </a></td><td>ARS-01 : Guadeloupe</td><td/><td/><td>02</td><td>2015-01-01T00:00:00+01:00</td><td>2016-09-01T00:00:00+01:00</td><td/><td/><td>active</td><td>2</td><td>true</td><td>true</td><td>true</td><td>true</td><td>ARS Guadeloupe</td></tr><tr><td style=\"white-space:nowrap\">ARS-02<a name=\"tre-r396-autorite-ARS-02\"> </a></td><td>ARS-02 : Martinique</td><td/><td/><td>02</td><td>2015-01-01T00:00:00+01:00</td><td>2016-09-01T00:00:00+01:00</td><td/><td/><td>active</td><td>2</td><td>true</td><td>true</td><td>true</td><td>true</td><td>ARS Martinique</td></tr><tr><td style=\"white-space:nowrap\">ARS-03<a name=\"tre-r396-autorite-ARS-03\"> </a></td><td>ARS-03 : Guyane</td><td/><td/><td>02</td><td>2015-01-01T00:00:00+01:00</td><td>2016-09-01T00:00:00+01:00</td><td/><td/><td>active</td><td>2</td><td>true</td><td>true</td><td>true</td><td>true</td><td>ARS Guyane</td></tr><tr style=\"background-color: #ffeeee\"><td style=\"white-space:nowrap\">ARS-04<a name=\"tre-r396-autorite-ARS-04\"> </a></td><td>ARS-04 : Océan Indien (La Réunion et Mayotte)</td><td/><td>Déprécié</td><td>02</td><td>2015-01-01T00:00:00+01:00</td><td>2023-07-28T09:00:00+01:00</td><td>2023-07-28T09:00:00+01:00</td><td>2023-07-28T09:00:00+01:00</td><td>deprecated</td><td>2</td><td/><td/><td/><td/><td>ARS Océan Indien</td></tr><tr><td style=\"white-space:nowrap\">ARS-05<a name=\"tre-r396-autorite-ARS-05\"> </a></td><td>ARS-05 : La Réunion</td><td/><td/><td>02</td><td>2023-07-28T09:00:00+01:00</td><td>2023-07-28T09:00:00+01:00</td><td/><td/><td>active</td><td>2</td><td>true</td><td>true</td><td>true</td><td>true</td><td>ARS Réunion</td></tr><tr><td style=\"white-space:nowrap\">ARS-06<a name=\"tre-r396-autorite-ARS-06\"> </a></td><td>ARS-06 : Mayotte</td><td/><td/><td>02</td><td>2023-07-28T09:00:00+01:00</td><td>2023-07-28T09:00:00+01:00</td><td/><td/><td>active</td><td>2</td><td>true</td><td>true</td><td>true</td><td>true</td><td>ARS Mayotte</td></tr><tr><td style=\"white-space:nowrap\">ARS-11<a name=\"tre-r396-autorite-ARS-11\"> </a></td><td>ARS-11 : Ile-de-France</td><td/><td/><td>02</td><td>2015-01-01T00:00:00+01:00</td><td>2016-09-01T00:00:00+01:00</td><td/><td/><td>active</td><td>2</td><td>true</td><td>true</td><td>true</td><td>true</td><td>ARS Ile-de-France</td></tr><tr style=\"background-color: #ffeeee\"><td style=\"white-space:nowrap\">ARS-21<a name=\"tre-r396-autorite-ARS-21\"> </a></td><td>ARS-21 : Champagne-Ardenne</td><td/><td>Déprécié</td><td>02</td><td>2015-01-01T00:00:00+01:00</td><td>2016-01-01T00:00:00+01:00</td><td>2016-01-01T00:00:00+01:00</td><td>2016-01-01T00:00:00+01:00</td><td>deprecated</td><td>2</td><td/><td/><td/><td/><td>ARS Champagne-Ardenne</td></tr><tr style=\"background-color: #ffeeee\"><td style=\"white-space:nowrap\">ARS-22<a name=\"tre-r396-autorite-ARS-22\"> </a></td><td>ARS-22 : Picardie</td><td/><td>Déprécié</td><td>02</td><td>2015-01-01T00:00:00+01:00</td><td>2016-01-01T00:00:00+01:00</td><td>2016-01-01T00:00:00+01:00</td><td>2016-01-01T00:00:00+01:00</td><td>deprecated</td><td>2</td><td/><td/><td/><td/><td>ARS Picardie</td></tr><tr style=\"background-color: #ffeeee\"><td style=\"white-space:nowrap\">ARS-23<a name=\"tre-r396-autorite-ARS-23\"> </a></td><td>ARS-23 : Haute-Normandie</td><td/><td>Déprécié</td><td>02</td><td>2015-01-01T00:00:00+01:00</td><td>2016-01-01T00:00:00+01:00</td><td>2016-01-01T00:00:00+01:00</td><td>2016-01-01T00:00:00+01:00</td><td>deprecated</td><td>2</td><td/><td/><td/><td/><td>ARS Haute-Normandie</td></tr><tr><td style=\"white-space:nowrap\">ARS-24<a name=\"tre-r396-autorite-ARS-24\"> </a></td><td>ARS-24 : Centre-Val de Loire</td><td/><td/><td>02</td><td>2015-01-01T00:00:00+01:00</td><td>2024-06-28T12:00:00+01:00</td><td/><td/><td>active</td><td>2</td><td>true</td><td>true</td><td>true</td><td>true</td><td>ARS Centre-Val de Loire</td></tr><tr style=\"background-color: #ffeeee\"><td style=\"white-space:nowrap\">ARS-25<a name=\"tre-r396-autorite-ARS-25\"> </a></td><td>ARS-25 : Basse-Normandie</td><td/><td>Déprécié</td><td>02</td><td>2015-01-01T00:00:00+01:00</td><td>2016-01-01T00:00:00+01:00</td><td>2016-01-01T00:00:00+01:00</td><td>2016-01-01T00:00:00+01:00</td><td>deprecated</td><td>2</td><td/><td/><td/><td/><td>ARS Basse-Normandie</td></tr><tr style=\"background-color: #ffeeee\"><td style=\"white-space:nowrap\">ARS-26<a name=\"tre-r396-autorite-ARS-26\"> </a></td><td>ARS-26 : Bourgogne</td><td/><td>Déprécié</td><td>02</td><td>2015-01-01T00:00:00+01:00</td><td>2016-01-01T00:00:00+01:00</td><td>2016-01-01T00:00:00+01:00</td><td>2016-01-01T00:00:00+01:00</td><td>deprecated</td><td>2</td><td/><td/><td/><td/><td>ARS Bourgogne</td></tr><tr><td style=\"white-space:nowrap\">ARS-27<a name=\"tre-r396-autorite-ARS-27\"> </a></td><td>ARS-27 : Bourgogne-Franche-Comté</td><td/><td/><td>02</td><td>2016-01-01T00:00:00+01:00</td><td>2016-09-01T00:00:00+01:00</td><td/><td/><td>active</td><td>2</td><td>true</td><td>true</td><td>true</td><td>true</td><td>ARS Bourgogne-Franche-Comté</td></tr><tr><td style=\"white-space:nowrap\">ARS-28<a name=\"tre-r396-autorite-ARS-28\"> </a></td><td>ARS-28 : Normandie</td><td/><td/><td>02</td><td>2016-01-01T00:00:00+01:00</td><td>2016-09-01T00:00:00+01:00</td><td/><td/><td>active</td><td>2</td><td>true</td><td>true</td><td>true</td><td>true</td><td>ARS Normandie</td></tr><tr style=\"background-color: #ffeeee\"><td style=\"white-space:nowrap\">ARS-31<a name=\"tre-r396-autorite-ARS-31\"> </a></td><td>ARS-31 : Nord-Pas-de-Calais</td><td/><td>Déprécié</td><td>02</td><td>2015-01-01T00:00:00+01:00</td><td>2016-01-01T00:00:00+01:00</td><td>2016-01-01T00:00:00+01:00</td><td>2016-01-01T00:00:00+01:00</td><td>deprecated</td><td>2</td><td/><td/><td/><td/><td>ARS Nord-Pas-de-Calais</td></tr><tr><td style=\"white-space:nowrap\">ARS-32<a name=\"tre-r396-autorite-ARS-32\"> </a></td><td>ARS-32 : Hauts-de-France</td><td/><td/><td>02</td><td>2016-01-01T00:00:00+01:00</td><td>2016-09-01T00:00:00+01:00</td><td/><td/><td>active</td><td>2</td><td>true</td><td>true</td><td>true</td><td>true</td><td>ARS Hauts-de-France</td></tr><tr style=\"background-color: #ffeeee\"><td style=\"white-space:nowrap\">ARS-41<a name=\"tre-r396-autorite-ARS-41\"> </a></td><td>ARS-41 : Lorraine</td><td/><td>Déprécié</td><td>02</td><td>2015-01-01T00:00:00+01:00</td><td>2016-01-01T00:00:00+01:00</td><td>2016-01-01T00:00:00+01:00</td><td>2016-01-01T00:00:00+01:00</td><td>deprecated</td><td>2</td><td/><td/><td/><td/><td>ARS Lorraine</td></tr><tr style=\"background-color: #ffeeee\"><td style=\"white-space:nowrap\">ARS-42<a name=\"tre-r396-autorite-ARS-42\"> </a></td><td>ARS-42 : Alsace</td><td/><td>Déprécié</td><td>02</td><td>2015-01-01T00:00:00+01:00</td><td>2016-01-01T00:00:00+01:00</td><td>2016-01-01T00:00:00+01:00</td><td>2016-01-01T00:00:00+01:00</td><td>deprecated</td><td>2</td><td/><td/><td/><td/><td>ARS Alsace</td></tr><tr style=\"background-color: #ffeeee\"><td style=\"white-space:nowrap\">ARS-43<a name=\"tre-r396-autorite-ARS-43\"> </a></td><td>ARS-43 : Franche-Comté</td><td/><td>Déprécié</td><td>02</td><td>2015-01-01T00:00:00+01:00</td><td>2016-01-01T00:00:00+01:00</td><td>2016-01-01T00:00:00+01:00</td><td>2016-01-01T00:00:00+01:00</td><td>deprecated</td><td>2</td><td/><td/><td/><td/><td>ARS Franche-Comté</td></tr><tr><td style=\"white-space:nowrap\">ARS-44<a name=\"tre-r396-autorite-ARS-44\"> </a></td><td>ARS-44 : Grand Est</td><td/><td/><td>02</td><td>2016-01-01T00:00:00+01:00</td><td>2024-06-28T12:00:00+01:00</td><td/><td/><td>active</td><td>2</td><td>true</td><td>true</td><td>true</td><td>true</td><td>ARS Grand Est</td></tr><tr><td style=\"white-space:nowrap\">ARS-52<a name=\"tre-r396-autorite-ARS-52\"> </a></td><td>ARS-52 : Pays de la Loire</td><td/><td/><td>02</td><td>2016-01-01T00:00:00+01:00</td><td>2016-09-01T00:00:00+01:00</td><td/><td/><td>active</td><td>2</td><td>true</td><td>true</td><td>true</td><td>true</td><td>ARS Pays de la Loire</td></tr><tr><td style=\"white-space:nowrap\">ARS-53<a name=\"tre-r396-autorite-ARS-53\"> </a></td><td>ARS-53 : Bretagne</td><td/><td/><td>02</td><td>2016-01-01T00:00:00+01:00</td><td>2016-09-01T00:00:00+01:00</td><td/><td/><td>active</td><td>2</td><td>true</td><td>true</td><td>true</td><td>true</td><td>ARS Bretagne</td></tr><tr style=\"background-color: #ffeeee\"><td style=\"white-space:nowrap\">ARS-54<a name=\"tre-r396-autorite-ARS-54\"> </a></td><td>ARS-54 : Poitou-Charentes</td><td/><td>Déprécié</td><td>02</td><td>2015-01-01T00:00:00+01:00</td><td>2016-01-01T00:00:00+01:00</td><td>2016-01-01T00:00:00+01:00</td><td>2016-01-01T00:00:00+01:00</td><td>deprecated</td><td>2</td><td/><td/><td/><td/><td>ARS Poitou-Charentes</td></tr><tr style=\"background-color: #ffeeee\"><td style=\"white-space:nowrap\">ARS-72<a name=\"tre-r396-autorite-ARS-72\"> </a></td><td>ARS-72 : Aquitaine</td><td/><td>Déprécié</td><td>02</td><td>2015-01-01T00:00:00+01:00</td><td>2016-01-01T00:00:00+01:00</td><td>2016-01-01T00:00:00+01:00</td><td>2016-01-01T00:00:00+01:00</td><td>deprecated</td><td>2</td><td/><td/><td/><td/><td>ARS Aquitaine</td></tr><tr style=\"background-color: #ffeeee\"><td style=\"white-space:nowrap\">ARS-73<a name=\"tre-r396-autorite-ARS-73\"> </a></td><td>ARS-73 : Midi-Pyrénées</td><td/><td>Déprécié</td><td>02</td><td>2015-01-01T00:00:00+01:00</td><td>2016-01-01T00:00:00+01:00</td><td>2016-01-01T00:00:00+01:00</td><td>2016-01-01T00:00:00+01:00</td><td>deprecated</td><td>2</td><td/><td/><td/><td/><td>ARS Midi-Pyrénées</td></tr><tr style=\"background-color: #ffeeee\"><td style=\"white-space:nowrap\">ARS-74<a name=\"tre-r396-autorite-ARS-74\"> </a></td><td>ARS-74 : Limousin</td><td/><td>Déprécié</td><td>02</td><td>2015-01-01T00:00:00+01:00</td><td>2016-01-01T00:00:00+01:00</td><td>2016-01-01T00:00:00+01:00</td><td>2016-01-01T00:00:00+01:00</td><td>deprecated</td><td>2</td><td/><td/><td/><td/><td>ARS Limousin</td></tr><tr><td style=\"white-space:nowrap\">ARS-75<a name=\"tre-r396-autorite-ARS-75\"> </a></td><td>ARS-75 : Nouvelle-Aquitaine</td><td/><td/><td>02</td><td>2016-01-01T00:00:00+01:00</td><td>2016-09-01T00:00:00+01:00</td><td/><td/><td>active</td><td>2</td><td>true</td><td>true</td><td>true</td><td>true</td><td>ARS Nouvelle-Aquitaine</td></tr><tr><td style=\"white-space:nowrap\">ARS-76<a name=\"tre-r396-autorite-ARS-76\"> </a></td><td>ARS-76 : Occitanie</td><td/><td/><td>02</td><td>2016-01-01T00:00:00+01:00</td><td>2016-09-01T00:00:00+01:00</td><td/><td/><td>active</td><td>2</td><td>true</td><td>true</td><td>true</td><td>true</td><td>ARS Occitanie</td></tr><tr style=\"background-color: #ffeeee\"><td style=\"white-space:nowrap\">ARS-82<a name=\"tre-r396-autorite-ARS-82\"> </a></td><td>ARS-82 : Rhône-Alpes</td><td/><td>Déprécié</td><td>02</td><td>2015-01-01T00:00:00+01:00</td><td>2016-01-01T00:00:00+01:00</td><td>2016-01-01T00:00:00+01:00</td><td>2016-01-01T00:00:00+01:00</td><td>deprecated</td><td>2</td><td/><td/><td/><td/><td>ARS Rhône-Alpes</td></tr><tr style=\"background-color: #ffeeee\"><td style=\"white-space:nowrap\">ARS-83<a name=\"tre-r396-autorite-ARS-83\"> </a></td><td>ARS-83 : Auvergne</td><td/><td>Déprécié</td><td>02</td><td>2015-01-01T00:00:00+01:00</td><td>2016-01-01T00:00:00+01:00</td><td>2016-01-01T00:00:00+01:00</td><td>2016-01-01T00:00:00+01:00</td><td>deprecated</td><td>2</td><td/><td/><td/><td/><td>ARS Auvergne</td></tr><tr><td style=\"white-space:nowrap\">ARS-84<a name=\"tre-r396-autorite-ARS-84\"> </a></td><td>ARS-84 : Auvergne-Rhône-Alpes</td><td/><td/><td>02</td><td>2016-01-01T00:00:00+01:00</td><td>2016-09-01T00:00:00+01:00</td><td/><td/><td>active</td><td>2</td><td>true</td><td>true</td><td>true</td><td>true</td><td>ARS Auvergne-Rhône-Alpes</td></tr><tr style=\"background-color: #ffeeee\"><td style=\"white-space:nowrap\">ARS-91<a name=\"tre-r396-autorite-ARS-91\"> </a></td><td>ARS-91 : Languedoc-Roussillon</td><td/><td>Déprécié</td><td>02</td><td>2015-01-01T00:00:00+01:00</td><td>2016-01-01T00:00:00+01:00</td><td>2016-01-01T00:00:00+01:00</td><td>2016-01-01T00:00:00+01:00</td><td>deprecated</td><td>2</td><td/><td/><td/><td/><td>ARS Languedoc-Roussillon</td></tr><tr><td style=\"white-space:nowrap\">ARS-93<a name=\"tre-r396-autorite-ARS-93\"> </a></td><td>ARS-93 : Provence-Alpes-Côte d'Azur</td><td/><td/><td>02</td><td>2015-01-01T00:00:00+01:00</td><td>2016-09-01T00:00:00+01:00</td><td/><td/><td>active</td><td>2</td><td>true</td><td>true</td><td>true</td><td>true</td><td>ARS PACA</td></tr><tr><td style=\"white-space:nowrap\">ARS-94<a name=\"tre-r396-autorite-ARS-94\"> </a></td><td>ARS-94 : Corse</td><td/><td/><td>02</td><td>2015-01-01T00:00:00+01:00</td><td>2016-09-01T00:00:00+01:00</td><td/><td/><td>active</td><td>2</td><td>true</td><td>true</td><td>true</td><td>true</td><td>ARS Corse</td></tr><tr><td style=\"white-space:nowrap\">AT-975<a name=\"tre-r396-autorite-AT-975\"> </a></td><td>AT-975 : ATS de Saint-Pierre-Et-Miquelon</td><td/><td/><td>02</td><td>2022-04-29T12:00:00+01:00</td><td>2024-03-29T12:00:00+01:00</td><td/><td/><td>active</td><td>2</td><td>true</td><td>true</td><td/><td>true</td><td>ATS Saint-Pierre-Et-Miquelon</td></tr><tr><td style=\"white-space:nowrap\">CNOM<a name=\"tre-r396-autorite-CNOM\"> </a></td><td>Ordre des médecins</td><td/><td/><td>01</td><td>2007-07-25T15:04:41+01:00</td><td>2007-07-25T15:04:41+01:00</td><td/><td/><td>active</td><td>2</td><td/><td/><td/><td>true</td><td/></tr><tr><td style=\"white-space:nowrap\">CNOMK<a name=\"tre-r396-autorite-CNOMK\"> </a></td><td>Ordre des masseurs-kinésithérapeutes</td><td/><td/><td>01</td><td>2016-09-01T00:00:00+01:00</td><td>2016-09-01T00:00:00+01:00</td><td/><td/><td>active</td><td>2</td><td/><td/><td/><td>true</td><td/></tr><tr><td style=\"white-space:nowrap\">CNOP<a name=\"tre-r396-autorite-CNOP\"> </a></td><td>Ordre des pharmaciens</td><td/><td/><td>01</td><td>2007-07-25T15:04:41+01:00</td><td>2007-07-25T15:04:41+01:00</td><td/><td/><td>active</td><td>2</td><td/><td/><td/><td>true</td><td/></tr><tr><td style=\"white-space:nowrap\">CNOPP<a name=\"tre-r396-autorite-CNOPP\"> </a></td><td>Ordre des pédicures-podologues</td><td/><td/><td>01</td><td>2016-09-01T00:00:00+01:00</td><td>2016-09-01T00:00:00+01:00</td><td/><td/><td>active</td><td>2</td><td/><td/><td/><td>true</td><td/></tr><tr><td style=\"white-space:nowrap\">CNOSF<a name=\"tre-r396-autorite-CNOSF\"> </a></td><td>Ordre des sages-femmes</td><td/><td/><td>01</td><td>2007-07-25T15:04:41+01:00</td><td>2007-07-25T15:04:41+01:00</td><td/><td/><td>active</td><td>2</td><td/><td/><td/><td>true</td><td/></tr><tr><td style=\"white-space:nowrap\">ENREG<a name=\"tre-r396-autorite-ENREG\"> </a></td><td>Enregistrement par les AE locales (Structures)</td><td>Code et libellé pour l'application ENREG en tant que application  déléguée pour l'enregistrement des professionnels à rôle par les  autorités d'enregistrement locales</td><td/><td>03</td><td>2020-06-26T12:00:00+01:00</td><td>2020-06-26T12:00:00+01:00</td><td/><td/><td>active</td><td>2</td><td/><td/><td/><td>true</td><td/></tr><tr><td style=\"white-space:nowrap\">ONCD<a name=\"tre-r396-autorite-ONCD\"> </a></td><td>Ordre des chirurgiens-dentistes</td><td/><td/><td>01</td><td>2007-07-25T15:04:41+01:00</td><td>2007-07-25T15:04:41+01:00</td><td/><td/><td>active</td><td>2</td><td/><td/><td/><td>true</td><td/></tr><tr><td style=\"white-space:nowrap\">ONI<a name=\"tre-r396-autorite-ONI\"> </a></td><td>Ordre des infirmiers</td><td/><td/><td>01</td><td>2017-07-07T10:00:00+01:00</td><td>2017-07-07T10:00:00+01:00</td><td/><td/><td>active</td><td>2</td><td/><td/><td/><td>true</td><td/></tr><tr><td style=\"white-space:nowrap\">DREETS-01<a name=\"tre-r396-autorite-DREETS-01\"> </a></td><td>DREETS-01 : Direction de l'économie de l'emploi du travail et des solidarités Guadeloupe</td><td/><td/><td>04</td><td>2024-01-01T12:00:00+01:00</td><td>2024-01-01T12:00:00+01:00</td><td/><td/><td>active</td><td>2</td><td/><td>true</td><td/><td/><td>DEETS Guadeloupe</td></tr><tr><td style=\"white-space:nowrap\">DREETS-02<a name=\"tre-r396-autorite-DREETS-02\"> </a></td><td>DREETS-02 :  Direction de l'économie de l'emploi du travail et des solidarités Martinique</td><td/><td/><td>04</td><td>2024-01-01T12:00:00+01:00</td><td>2024-01-01T12:00:00+01:00</td><td/><td/><td>active</td><td>2</td><td/><td>true</td><td/><td/><td>DEETS Martinique</td></tr><tr><td style=\"white-space:nowrap\">DREETS-03<a name=\"tre-r396-autorite-DREETS-03\"> </a></td><td>DREETS-03 :  Direction générale cohésion et population Guyane</td><td/><td/><td>04</td><td>2024-01-01T12:00:00+01:00</td><td>2024-01-01T12:00:00+01:00</td><td/><td/><td>active</td><td>2</td><td/><td>true</td><td/><td/><td>DGCOPOP Guyanee</td></tr><tr><td style=\"white-space:nowrap\">DREETS-05<a name=\"tre-r396-autorite-DREETS-05\"> </a></td><td>DREETS-05 :  Direction de l'économie de l'emploi du travail et des solidarités de La Réunion</td><td/><td/><td>04</td><td>2024-01-01T12:00:00+01:00</td><td>2024-01-01T12:00:00+01:00</td><td/><td/><td>active</td><td>2</td><td/><td>true</td><td/><td/><td>DEETS Réunion</td></tr><tr><td style=\"white-space:nowrap\">DREETS-06<a name=\"tre-r396-autorite-DREETS-06\"> </a></td><td>DREETS-06 : Direction de l'économie de l'emploi du travail et des solidarités Mayotte</td><td/><td/><td>04</td><td>2024-01-01T12:00:00+01:00</td><td>2024-01-01T12:00:00+01:00</td><td/><td/><td>active</td><td>2</td><td/><td>true</td><td/><td/><td>DREETS Mayotte</td></tr><tr><td style=\"white-space:nowrap\">DREETS-11<a name=\"tre-r396-autorite-DREETS-11\"> </a></td><td>DREETS-11 : Direction régionale interdépartementale de l'économie de l'emploi du travail et des solidarités d'Ile de France</td><td/><td/><td>04</td><td>2024-01-01T12:00:00+01:00</td><td>2024-01-01T12:00:00+01:00</td><td/><td/><td>active</td><td>2</td><td/><td>true</td><td/><td/><td>DREETS Ile de France</td></tr><tr><td style=\"white-space:nowrap\">DREETS-24<a name=\"tre-r396-autorite-DREETS-24\"> </a></td><td>DREETS-24 :  Direction régionale interdépartementale de l'économie de l'emploi du travail et des solidarités Centre-Val de Loire</td><td/><td/><td>04</td><td>2024-01-01T12:00:00+01:00</td><td>2024-01-01T12:00:00+01:00</td><td/><td/><td>active</td><td>2</td><td/><td>true</td><td/><td/><td>DREETS Centre-Val de Loire</td></tr><tr><td style=\"white-space:nowrap\">DREETS-27<a name=\"tre-r396-autorite-DREETS-27\"> </a></td><td>DREETS-27 :  Direction régionale interdépartementale de l'économie de l'emploi du travail et des solidarités Bourgogne-Franche-Comté</td><td/><td/><td>04</td><td>2024-01-01T12:00:00+01:00</td><td>2024-01-01T12:00:00+01:00</td><td/><td/><td>active</td><td>2</td><td/><td>true</td><td/><td/><td>DREETS Bourgogne-Franche-Comté</td></tr><tr><td style=\"white-space:nowrap\">DREETS-28<a name=\"tre-r396-autorite-DREETS-28\"> </a></td><td>DREETS-28 Direction régionale interdépartementale de l'économie de l'emploi du travail et des solidarités Normandie</td><td/><td/><td>04</td><td>2024-01-01T12:00:00+01:00</td><td>2024-01-01T12:00:00+01:00</td><td/><td/><td>active</td><td>2</td><td/><td>true</td><td/><td/><td>DREETS Normandie</td></tr><tr><td style=\"white-space:nowrap\">DREETS-32<a name=\"tre-r396-autorite-DREETS-32\"> </a></td><td>DREETS-32 Direction régionale interdépartementale de l'économie de l'emploi du travail et des solidarités Hauts-de-France</td><td/><td/><td>04</td><td>2024-01-01T12:00:00+01:00</td><td>2024-01-01T12:00:00+01:00</td><td/><td/><td>active</td><td>2</td><td/><td>true</td><td/><td/><td>DREETS Hauts-de-France</td></tr><tr><td style=\"white-space:nowrap\">DREETS-44<a name=\"tre-r396-autorite-DREETS-44\"> </a></td><td>DREETS-44 Direction régionale interdépartementale de l'économie de l'emploi du travail et des solidarités Grand Est</td><td/><td/><td>04</td><td>2024-01-01T12:00:00+01:00</td><td>2024-01-01T12:00:00+01:00</td><td/><td/><td>active</td><td>2</td><td/><td>true</td><td/><td/><td>DREETS Grand Est</td></tr><tr><td style=\"white-space:nowrap\">DREETS-52<a name=\"tre-r396-autorite-DREETS-52\"> </a></td><td>DREETS-52 Direction régionale interdépartementale de l'économie de l'emploi du travail et des solidarités Pays de la Loire</td><td/><td/><td>04</td><td>2024-01-01T12:00:00+01:00</td><td>2024-01-01T12:00:00+01:00</td><td/><td/><td>active</td><td>2</td><td/><td>true</td><td/><td/><td>DREETS Pays de la Loire</td></tr><tr><td style=\"white-space:nowrap\">DREETS-53<a name=\"tre-r396-autorite-DREETS-53\"> </a></td><td>DREETS-53 Direction régionale interdépartementale de l'économie de l'emploi du travail et des solidarités Bretagne</td><td/><td/><td>04</td><td>2024-01-01T12:00:00+01:00</td><td>2024-01-01T12:00:00+01:00</td><td/><td/><td>active</td><td>2</td><td/><td>true</td><td/><td/><td>DREETS Bretagne</td></tr><tr><td style=\"white-space:nowrap\">DREETS-75<a name=\"tre-r396-autorite-DREETS-75\"> </a></td><td>DREETS-75 Direction régionale interdépartementale de l'économie de l'emploi du travail et des solidarités Nouvelle-Aquitaine</td><td/><td/><td>04</td><td>2024-01-01T12:00:00+01:00</td><td>2024-01-01T12:00:00+01:00</td><td/><td/><td>active</td><td>2</td><td/><td>true</td><td/><td/><td>DREETS Nouvelle-Aquitaine</td></tr><tr><td style=\"white-space:nowrap\">DREETS-76<a name=\"tre-r396-autorite-DREETS-76\"> </a></td><td>DREETS-76 Direction régionale interdépartementale de l'économie de l'emploi du travail et des solidarités Occitanie</td><td/><td/><td>04</td><td>2024-01-01T12:00:00+01:00</td><td>2024-01-01T12:00:00+01:00</td><td/><td/><td>active</td><td>2</td><td/><td>true</td><td/><td/><td>DREETS Occitanie</td></tr><tr><td style=\"white-space:nowrap\">DREETS-84<a name=\"tre-r396-autorite-DREETS-84\"> </a></td><td>DREETS-84 Direction régionale interdépartementale de l'économie de l'emploi du travail et des solidarités Auvergne-Rhône-Alpes</td><td/><td/><td>04</td><td>2024-01-01T12:00:00+01:00</td><td>2024-01-01T12:00:00+01:00</td><td/><td/><td>active</td><td>2</td><td/><td>true</td><td/><td/><td>DREETS Auvergne-Rhône-Alpes</td></tr><tr><td style=\"white-space:nowrap\">DREETS-93<a name=\"tre-r396-autorite-DREETS-93\"> </a></td><td>DREETS-93 Direction régionale interdépartementale de l'économie de l'emploi du travail et des solidarités Provence-Alpes-Côte d'Azur</td><td/><td/><td>04</td><td>2024-01-01T12:00:00+01:00</td><td>2024-01-01T12:00:00+01:00</td><td/><td/><td>active</td><td>2</td><td/><td>true</td><td/><td/><td>DREETS PACA</td></tr><tr><td style=\"white-space:nowrap\">DREETS-94<a name=\"tre-r396-autorite-DREETS-94\"> </a></td><td>DREETS-94 Direction régionale interdépartementale de l'économie de l'emploi du travail et des solidarités de Corse</td><td/><td/><td>04</td><td>2024-01-01T12:00:00+01:00</td><td>2024-01-01T12:00:00+01:00</td><td/><td/><td>active</td><td>2</td><td/><td>true</td><td/><td/><td>DREETS de Corse</td></tr><tr><td style=\"white-space:nowrap\">DRHIL-11<a name=\"tre-r396-autorite-DRHIL-11\"> </a></td><td>DRHIL-11 : Direction régionale et interdépartementale de l'Hébergement et du Logement Ile de France</td><td/><td/><td>05</td><td>2024-01-01T12:00:00+01:00</td><td>2024-01-01T12:00:00+01:00</td><td/><td/><td>active</td><td>2</td><td/><td>true</td><td/><td/><td>DRHIL Ile de France</td></tr><tr><td style=\"white-space:nowrap\">CD-01<a name=\"tre-r396-autorite-CD-01\"> </a></td><td>CD-01 : Conseil départemental de l'Ain</td><td/><td/><td>06</td><td>2024-01-01T12:00:00+01:00</td><td>2024-01-01T12:00:00+01:00</td><td/><td/><td>active</td><td>2</td><td/><td>true</td><td/><td/><td>CD Ain</td></tr><tr><td style=\"white-space:nowrap\">CD-02<a name=\"tre-r396-autorite-CD-02\"> </a></td><td>CD-02 : Conseil départemental del'Aisne</td><td/><td/><td>06</td><td>2024-01-01T12:00:00+01:00</td><td>2024-01-01T12:00:00+01:00</td><td/><td/><td>active</td><td>2</td><td/><td>true</td><td/><td/><td>CD Aisne</td></tr><tr><td style=\"white-space:nowrap\">CD-03<a name=\"tre-r396-autorite-CD-03\"> </a></td><td>CD-03 : Conseil départemental de l'Allier</td><td/><td/><td>06</td><td>2024-01-01T12:00:00+01:00</td><td>2024-01-01T12:00:00+01:00</td><td/><td/><td>active</td><td>2</td><td/><td>true</td><td/><td/><td>CD Allier</td></tr><tr><td style=\"white-space:nowrap\">CD-15<a name=\"tre-r396-autorite-CD-15\"> </a></td><td>CD-15 : Conseil départemental du Cantal</td><td/><td/><td>06</td><td>2024-01-01T12:00:00+01:00</td><td>2024-01-01T12:00:00+01:00</td><td/><td/><td>active</td><td>2</td><td>true</td><td/><td/><td/><td>CD Cantal</td></tr><tr><td style=\"white-space:nowrap\">CD-54<a name=\"tre-r396-autorite-CD-54\"> </a></td><td>CD-54 : Conseil départemental de Meurthe et Moselle</td><td/><td/><td>06</td><td>2024-01-01T12:00:00+01:00</td><td>2024-01-01T12:00:00+01:00</td><td/><td/><td>active</td><td>2</td><td>true</td><td/><td/><td/><td>CD Meurthe et Moselle</td></tr><tr><td style=\"white-space:nowrap\">CD-58<a name=\"tre-r396-autorite-CD-58\"> </a></td><td>CD-58 : Conseil départemental de la Nièvre</td><td/><td/><td>06</td><td>2024-01-01T12:00:00+01:00</td><td>2024-01-01T12:00:00+01:00</td><td/><td/><td>active</td><td>2</td><td>true</td><td/><td/><td/><td>CD Nièvre</td></tr><tr><td style=\"white-space:nowrap\">CD-94<a name=\"tre-r396-autorite-CD-94\"> </a></td><td>CD-94 : Conseil départemental du Val de Marne</td><td/><td/><td>06</td><td>2024-01-01T12:00:00+01:00</td><td>2024-01-01T12:00:00+01:00</td><td/><td/><td>active</td><td>2</td><td>true</td><td/><td/><td/><td>CD Val de Marne</td></tr><tr><td style=\"white-space:nowrap\">CD-95<a name=\"tre-r396-autorite-CD-95\"> </a></td><td>CD-95 : Conseil départemental du Val d'Oise</td><td/><td/><td>06</td><td>2024-01-01T12:00:00+01:00</td><td>2024-01-01T12:00:00+01:00</td><td/><td/><td>active</td><td>2</td><td/><td>true</td><td/><td/><td>CD Val d'Oise</td></tr><tr><td style=\"white-space:nowrap\">DDETS-01<a name=\"tre-r396-autorite-DDETS-01\"> </a></td><td>DDETS-01 : Direction départementale de l'emploi, du travail et des solidarités Ain</td><td/><td/><td>07</td><td>2024-01-01T12:00:00+01:00</td><td>2024-01-01T12:00:00+01:00</td><td/><td/><td>active</td><td>2</td><td/><td>true</td><td/><td/><td>DDETS Ain</td></tr><tr><td style=\"white-space:nowrap\">DDETS-02<a name=\"tre-r396-autorite-DDETS-02\"> </a></td><td>DDETS-02 : Direction départementale de l'emploi, du travail et des solidarités Aisne</td><td/><td/><td>07</td><td>2024-01-01T12:00:00+01:00</td><td>2024-01-01T12:00:00+01:00</td><td/><td/><td>active</td><td>2</td><td/><td>true</td><td/><td/><td>DDETS Aisne</td></tr><tr><td style=\"white-space:nowrap\">DDETS-03<a name=\"tre-r396-autorite-DDETS-03\"> </a></td><td>DDETS-03 : Direction départementale de l'emploi, du travail et des solidarités Allier</td><td/><td/><td>07</td><td>2024-01-01T12:00:00+01:00</td><td>2024-01-01T12:00:00+01:00</td><td/><td/><td>active</td><td>2</td><td/><td>true</td><td/><td/><td>DDETS Allier</td></tr><tr><td style=\"white-space:nowrap\">DDETS-95<a name=\"tre-r396-autorite-DDETS-95\"> </a></td><td>DDETS-95 :Direction départementale de l'emploi, du travail et des solidarités Val d'Oise</td><td/><td/><td>07</td><td>2024-01-01T12:00:00+01:00</td><td>2024-01-01T12:00:00+01:00</td><td/><td/><td>active</td><td>2</td><td/><td>true</td><td/><td/><td>DEETS Val d'Oise</td></tr><tr><td style=\"white-space:nowrap\">SSA<a name=\"tre-r396-autorite-SSA\"> </a></td><td>Service de santé des armées</td><td/><td/><td>08</td><td>2019-08-30T12:00:00+01:00</td><td>2019-08-30T12:00:00+01:00</td><td/><td/><td>active</td><td>2</td><td/><td/><td/><td>true</td><td/></tr></table></div>"^^rdf:XMLLiteral
+  ] ; # 
+  fhir:extension ( [
+     fhir:url [ fhir:v "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod"^^xsd:anyURI ] ;
+     fhir:value [
+       a fhir:Period ;
+       fhir:start [ fhir:v "2016-02-02T00:00:00+01:00"^^xsd:dateTime ]
+     ]
+  ] ) ; # 
+  fhir:url [ fhir:v "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r396-autorite"^^xsd:anyURI] ; # 
+  fhir:identifier ( [
+     fhir:system [ fhir:v "urn:ietf:rfc:3986"^^xsd:anyURI ] ;
+     fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.6.1.378" ]
+  ] ) ; # 
+  fhir:version [ fhir:v "20250825120000"] ; # 
+  fhir:name [ fhir:v "TreR396Autorite"] ; # 
+  fhir:title [ fhir:v "Tre R396 Autorite"] ; # 
+  fhir:status [ fhir:v "active"] ; # 
+  fhir:experimental [ fhir:v false] ; # 
+  fhir:date [ fhir:v "2025-08-25T12:00:00+01:00"^^xsd:dateTime] ; # 
+  fhir:publisher [ fhir:v "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris"] ; # 
+  fhir:description [ fhir:v "liste des autorités structurée en plusieurs types d'autorités : Ordres, ARS, ..."] ; # 
+  fhir:caseSensitive [ fhir:v false] ; # 
+  fhir:hierarchyMeaning [ fhir:v "is-a"] ; # 
+  fhir:content [ fhir:v "complete"] ; # 
+  fhir:count [ fhir:v "84"^^xsd:nonNegativeInteger] ; # 
+  fhir:property ( [
+     fhir:code [ fhir:v "parent" ] ;
+     fhir:uri [ fhir:v "http://hl7.org/fhir/concept-properties#parent"^^xsd:anyURI ] ;
+     fhir:description [ fhir:v "An immediate parent of the concept in the hierarchy" ] ;
+     fhir:type [ fhir:v "code" ]
+  ] [
+     fhir:code [ fhir:v "dateValid" ] ;
+     fhir:description [ fhir:v "date de validité d'un code concept" ] ;
+     fhir:type [ fhir:v "dateTime" ]
+  ] [
+     fhir:code [ fhir:v "dateMaj" ] ;
+     fhir:description [ fhir:v "Date de mise à jour d'un code concept" ] ;
+     fhir:type [ fhir:v "dateTime" ]
+  ] [
+     fhir:code [ fhir:v "dateFin" ] ;
+     fhir:description [ fhir:v "Date de fin d'exploitation d'un code concept" ] ;
+     fhir:type [ fhir:v "dateTime" ]
+  ] [
+     fhir:code [ fhir:v "deprecationDate" ] ;
+     fhir:uri [ fhir:v "http://hl7.org/fhir/concept-properties#deprecationDate"^^xsd:anyURI ] ;
+     fhir:description [ fhir:v "Date Concept was deprecated" ] ;
+     fhir:type [ fhir:v "dateTime" ]
+  ] [
+     fhir:code [ fhir:v "status" ] ;
+     fhir:uri [ fhir:v "http://hl7.org/fhir/concept-properties#status"^^xsd:anyURI ] ;
+     fhir:description [ fhir:v "A property that indicates the status of the concept." ] ;
+     fhir:type [ fhir:v "code" ]
+  ] [
+     fhir:code [ fhir:v "retirementDate" ] ;
+     fhir:uri [ fhir:v "http://hl7.org/fhir/concept-properties#retirementDate"^^xsd:anyURI ] ;
+     fhir:description [ fhir:v "Date Concept was retired" ] ;
+     fhir:type [ fhir:v "dateTime" ]
+  ] [
+     fhir:code [ fhir:v "niveau" ] ;
+     fhir:uri [ fhir:v "https://smt.esante.gouv.fr/fhir/concept-properties#niveau"^^xsd:anyURI ] ;
+     fhir:description [ fhir:v "Permet d'indiquer le niveau hiérarchique du code" ] ;
+     fhir:type [ fhir:v "integer" ]
+  ] [
+     fhir:code [ fhir:v "AutoriteEnregistrementFiness" ] ;
+     fhir:uri [ fhir:v "https://smt.esante.gouv.fr/fhir/concept-properties#AutoriteEnregistrementFiness"^^xsd:anyURI ] ;
+     fhir:description [ fhir:v "Permet de définir les codes à inclure dans les Jdv358TypeAutoriteEnregistrementFiness  Jdv359AutoriteEnregistrementFiness" ] ;
+     fhir:type [ fhir:v "boolean" ]
+  ] [
+     fhir:code [ fhir:v "AutoriteRegulationFiness" ] ;
+     fhir:uri [ fhir:v "https://smt.esante.gouv.fr/fhir/concept-properties#AutoriteRegulationFiness"^^xsd:anyURI ] ;
+     fhir:description [ fhir:v "Permet de définir les codes à inclure dans les Jdv287TypeAutoriteRegulationFiness  Jdv360AutoriteRegulationFiness" ] ;
+     fhir:type [ fhir:v "boolean" ]
+  ] [
+     fhir:code [ fhir:v "AutoriteEnregistrementEpars" ] ;
+     fhir:uri [ fhir:v "https://smt.esante.gouv.fr/fhir/concept-properties#AutoriteEnregistrementEpars"^^xsd:anyURI ] ;
+     fhir:description [ fhir:v "Permet de définir les codes à inclure dans le JDV_J170-AutoriteEnregistrement-EPARS" ] ;
+     fhir:type [ fhir:v "boolean" ]
+  ] [
+     fhir:code [ fhir:v "AutoriteEnregistrementRass" ] ;
+     fhir:uri [ fhir:v "https://smt.esante.gouv.fr/fhir/concept-properties#AutoriteEnregistrementRass"^^xsd:anyURI ] ;
+     fhir:description [ fhir:v "Permet de définir les codes à inclure dans le JDV_J83-AutoriteEnregistrement-RASS" ] ;
+     fhir:type [ fhir:v "boolean" ]
+  ] ) ; # 
+  fhir:concept ( [
+     fhir:code [ fhir:v "01" ] ;
+     fhir:display [ fhir:v "Conseil de l'Ordre" ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "fr-FR" ] ;
+       fhir:use [
+         a sct:900000000000003001 ;
+         fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "900000000000003001" ]
+       ] ;
+       fhir:value [ fhir:v "Ordre" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2016-03-22T00:00:00+01:00"^^xsd:dateTime
+       ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2016-03-22T00:00:00+01:00"^^xsd:dateTime
+       ]
+     ] [
+       fhir:code [ fhir:v "status" ] ;
+       fhir:value [
+         a fhir:code ;
+         fhir:v "active"
+       ]
+     ] [
+       fhir:code [ fhir:v "niveau" ] ;
+       fhir:value [
+         a fhir:integer ;
+         fhir:v 1
+       ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "02" ] ;
+     fhir:display [ fhir:v "Agence Régional de Santé" ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "fr-FR" ] ;
+       fhir:use [
+         a sct:900000000000003001 ;
+         fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "900000000000003001" ]
+       ] ;
+       fhir:value [ fhir:v "ARS" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2016-03-22T00:00:00+01:00"^^xsd:dateTime
+       ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2016-03-22T00:00:00+01:00"^^xsd:dateTime
+       ]
+     ] [
+       fhir:code [ fhir:v "status" ] ;
+       fhir:value [
+         a fhir:code ;
+         fhir:v "active"
+       ]
+     ] [
+       fhir:code [ fhir:v "niveau" ] ;
+       fhir:value [
+         a fhir:integer ;
+         fhir:v 1
+       ]
+     ] [
+       fhir:code [ fhir:v "AutoriteEnregistrementFiness" ] ;
+       fhir:value [
+         a fhir:boolean ;
+         fhir:v true
+       ]
+     ] [
+       fhir:code [ fhir:v "AutoriteRegulationFiness" ] ;
+       fhir:value [
+         a fhir:boolean ;
+         fhir:v true
+       ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "03" ] ;
+     fhir:display [ fhir:v "Structure" ] ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2016-03-22T00:00:00+01:00"^^xsd:dateTime
+       ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2016-03-22T00:00:00+01:00"^^xsd:dateTime
+       ]
+     ] [
+       fhir:code [ fhir:v "status" ] ;
+       fhir:value [
+         a fhir:code ;
+         fhir:v "active"
+       ]
+     ] [
+       fhir:code [ fhir:v "niveau" ] ;
+       fhir:value [
+         a fhir:integer ;
+         fhir:v 1
+       ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "04" ] ;
+     fhir:display [ fhir:v "Directions régionales de l'économie de l'emploi du travail et des solidarités" ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "fr-FR" ] ;
+       fhir:use [
+         a sct:900000000000003001 ;
+         fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "900000000000003001" ]
+       ] ;
+       fhir:value [ fhir:v "DREETS" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2016-03-22T00:00:00+01:00"^^xsd:dateTime
+       ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2016-03-22T00:00:00+01:00"^^xsd:dateTime
+       ]
+     ] [
+       fhir:code [ fhir:v "status" ] ;
+       fhir:value [
+         a fhir:code ;
+         fhir:v "active"
+       ]
+     ] [
+       fhir:code [ fhir:v "niveau" ] ;
+       fhir:value [
+         a fhir:integer ;
+         fhir:v 1
+       ]
+     ] [
+       fhir:code [ fhir:v "AutoriteEnregistrementFiness" ] ;
+       fhir:value [
+         a fhir:boolean ;
+         fhir:v true
+       ]
+     ] [
+       fhir:code [ fhir:v "AutoriteRegulationFiness" ] ;
+       fhir:value [
+         a fhir:boolean ;
+         fhir:v true
+       ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "05" ] ;
+     fhir:display [ fhir:v "Direction régionale et interdépartementale de l'Hébergement et du Logement" ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "fr-FR" ] ;
+       fhir:use [
+         a sct:900000000000003001 ;
+         fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "900000000000003001" ]
+       ] ;
+       fhir:value [ fhir:v "DRHIL" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2016-03-22T00:00:00+01:00"^^xsd:dateTime
+       ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2016-03-22T00:00:00+01:00"^^xsd:dateTime
+       ]
+     ] [
+       fhir:code [ fhir:v "status" ] ;
+       fhir:value [
+         a fhir:code ;
+         fhir:v "active"
+       ]
+     ] [
+       fhir:code [ fhir:v "niveau" ] ;
+       fhir:value [
+         a fhir:integer ;
+         fhir:v 1
+       ]
+     ] [
+       fhir:code [ fhir:v "AutoriteEnregistrementFiness" ] ;
+       fhir:value [
+         a fhir:boolean ;
+         fhir:v true
+       ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "06" ] ;
+     fhir:display [ fhir:v "Conseil départemental" ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "fr-FR" ] ;
+       fhir:use [
+         a sct:900000000000003001 ;
+         fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "900000000000003001" ]
+       ] ;
+       fhir:value [ fhir:v "CD" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2016-03-22T00:00:00+01:00"^^xsd:dateTime
+       ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2016-03-22T00:00:00+01:00"^^xsd:dateTime
+       ]
+     ] [
+       fhir:code [ fhir:v "status" ] ;
+       fhir:value [
+         a fhir:code ;
+         fhir:v "active"
+       ]
+     ] [
+       fhir:code [ fhir:v "niveau" ] ;
+       fhir:value [
+         a fhir:integer ;
+         fhir:v 1
+       ]
+     ] [
+       fhir:code [ fhir:v "AutoriteEnregistrementFiness" ] ;
+       fhir:value [
+         a fhir:boolean ;
+         fhir:v true
+       ]
+     ] [
+       fhir:code [ fhir:v "AutoriteRegulationFiness" ] ;
+       fhir:value [
+         a fhir:boolean ;
+         fhir:v true
+       ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "07" ] ;
+     fhir:display [ fhir:v "Direction Départementale de l'Emploi, du Travail et des Solidarités" ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "fr-FR" ] ;
+       fhir:use [
+         a sct:900000000000003001 ;
+         fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "900000000000003001" ]
+       ] ;
+       fhir:value [ fhir:v "DDETS" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2016-03-22T00:00:00+01:00"^^xsd:dateTime
+       ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2016-03-22T00:00:00+01:00"^^xsd:dateTime
+       ]
+     ] [
+       fhir:code [ fhir:v "status" ] ;
+       fhir:value [
+         a fhir:code ;
+         fhir:v "active"
+       ]
+     ] [
+       fhir:code [ fhir:v "niveau" ] ;
+       fhir:value [
+         a fhir:integer ;
+         fhir:v 1
+       ]
+     ] [
+       fhir:code [ fhir:v "AutoriteRegulationFiness" ] ;
+       fhir:value [
+         a fhir:boolean ;
+         fhir:v true
+       ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "08" ] ;
+     fhir:display [ fhir:v "Services des Armées" ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "fr-FR" ] ;
+       fhir:use [
+         a sct:900000000000003001 ;
+         fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "900000000000003001" ]
+       ] ;
+       fhir:value [ fhir:v "ARMEE" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2016-03-22T00:00:00+01:00"^^xsd:dateTime
+       ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2016-03-22T00:00:00+01:00"^^xsd:dateTime
+       ]
+     ] [
+       fhir:code [ fhir:v "status" ] ;
+       fhir:value [
+         a fhir:code ;
+         fhir:v "active"
+       ]
+     ] [
+       fhir:code [ fhir:v "niveau" ] ;
+       fhir:value [
+         a fhir:integer ;
+         fhir:v 1
+       ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "ARS-01" ] ;
+     fhir:display [ fhir:v "ARS-01 : Guadeloupe" ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "fr-FR" ] ;
+       fhir:use [
+         a sct:900000000000013009 ;
+         fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "900000000000013009" ]
+       ] ;
+       fhir:value [ fhir:v "ARS Guadeloupe" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2015-01-01T00:00:00+01:00"^^xsd:dateTime
+       ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2016-09-01T00:00:00+01:00"^^xsd:dateTime
+       ]
+     ] [
+       fhir:code [ fhir:v "status" ] ;
+       fhir:value [
+         a fhir:code ;
+         fhir:v "active"
+       ]
+     ] [
+       fhir:code [ fhir:v "niveau" ] ;
+       fhir:value [
+         a fhir:integer ;
+         fhir:v 2
+       ]
+     ] [
+       fhir:code [ fhir:v "parent" ] ;
+       fhir:value [
+         a fhir:code ;
+         fhir:v "02"
+       ]
+     ] [
+       fhir:code [ fhir:v "AutoriteEnregistrementFiness" ] ;
+       fhir:value [
+         a fhir:boolean ;
+         fhir:v true
+       ]
+     ] [
+       fhir:code [ fhir:v "AutoriteRegulationFiness" ] ;
+       fhir:value [
+         a fhir:boolean ;
+         fhir:v true
+       ]
+     ] [
+       fhir:code [ fhir:v "AutoriteEnregistrementEpars" ] ;
+       fhir:value [
+         a fhir:boolean ;
+         fhir:v true
+       ]
+     ] [
+       fhir:code [ fhir:v "AutoriteEnregistrementRass" ] ;
+       fhir:value [
+         a fhir:boolean ;
+         fhir:v true
+       ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "ARS-02" ] ;
+     fhir:display [ fhir:v "ARS-02 : Martinique" ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "fr-FR" ] ;
+       fhir:use [
+         a sct:900000000000013009 ;
+         fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "900000000000013009" ]
+       ] ;
+       fhir:value [ fhir:v "ARS Martinique" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2015-01-01T00:00:00+01:00"^^xsd:dateTime
+       ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2016-09-01T00:00:00+01:00"^^xsd:dateTime
+       ]
+     ] [
+       fhir:code [ fhir:v "status" ] ;
+       fhir:value [
+         a fhir:code ;
+         fhir:v "active"
+       ]
+     ] [
+       fhir:code [ fhir:v "niveau" ] ;
+       fhir:value [
+         a fhir:integer ;
+         fhir:v 2
+       ]
+     ] [
+       fhir:code [ fhir:v "parent" ] ;
+       fhir:value [
+         a fhir:code ;
+         fhir:v "02"
+       ]
+     ] [
+       fhir:code [ fhir:v "AutoriteEnregistrementFiness" ] ;
+       fhir:value [
+         a fhir:boolean ;
+         fhir:v true
+       ]
+     ] [
+       fhir:code [ fhir:v "AutoriteRegulationFiness" ] ;
+       fhir:value [
+         a fhir:boolean ;
+         fhir:v true
+       ]
+     ] [
+       fhir:code [ fhir:v "AutoriteEnregistrementEpars" ] ;
+       fhir:value [
+         a fhir:boolean ;
+         fhir:v true
+       ]
+     ] [
+       fhir:code [ fhir:v "AutoriteEnregistrementRass" ] ;
+       fhir:value [
+         a fhir:boolean ;
+         fhir:v true
+       ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "ARS-03" ] ;
+     fhir:display [ fhir:v "ARS-03 : Guyane" ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "fr-FR" ] ;
+       fhir:use [
+         a sct:900000000000013009 ;
+         fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "900000000000013009" ]
+       ] ;
+       fhir:value [ fhir:v "ARS Guyane" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2015-01-01T00:00:00+01:00"^^xsd:dateTime
+       ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2016-09-01T00:00:00+01:00"^^xsd:dateTime
+       ]
+     ] [
+       fhir:code [ fhir:v "status" ] ;
+       fhir:value [
+         a fhir:code ;
+         fhir:v "active"
+       ]
+     ] [
+       fhir:code [ fhir:v "niveau" ] ;
+       fhir:value [
+         a fhir:integer ;
+         fhir:v 2
+       ]
+     ] [
+       fhir:code [ fhir:v "parent" ] ;
+       fhir:value [
+         a fhir:code ;
+         fhir:v "02"
+       ]
+     ] [
+       fhir:code [ fhir:v "AutoriteEnregistrementFiness" ] ;
+       fhir:value [
+         a fhir:boolean ;
+         fhir:v true
+       ]
+     ] [
+       fhir:code [ fhir:v "AutoriteRegulationFiness" ] ;
+       fhir:value [
+         a fhir:boolean ;
+         fhir:v true
+       ]
+     ] [
+       fhir:code [ fhir:v "AutoriteEnregistrementEpars" ] ;
+       fhir:value [
+         a fhir:boolean ;
+         fhir:v true
+       ]
+     ] [
+       fhir:code [ fhir:v "AutoriteEnregistrementRass" ] ;
+       fhir:value [
+         a fhir:boolean ;
+         fhir:v true
+       ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "ARS-04" ] ;
+     fhir:display [ fhir:v "ARS-04 : Océan Indien (La Réunion et Mayotte)" ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "fr-FR" ] ;
+       fhir:use [
+         a sct:900000000000013009 ;
+         fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "900000000000013009" ]
+       ] ;
+       fhir:value [ fhir:v "ARS Océan Indien" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2015-01-01T00:00:00+01:00"^^xsd:dateTime
+       ]
+     ] [
+       fhir:code [ fhir:v "dateFin" ] ;
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2023-07-28T09:00:00+01:00"^^xsd:dateTime
+       ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2023-07-28T09:00:00+01:00"^^xsd:dateTime
+       ]
+     ] [
+       fhir:code [ fhir:v "deprecationDate" ] ;
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2023-07-28T09:00:00+01:00"^^xsd:dateTime
+       ]
+     ] [
+       fhir:code [ fhir:v "status" ] ;
+       fhir:value [
+         a fhir:code ;
+         fhir:v "deprecated"
+       ]
+     ] [
+       fhir:code [ fhir:v "niveau" ] ;
+       fhir:value [
+         a fhir:integer ;
+         fhir:v 2
+       ]
+     ] [
+       fhir:code [ fhir:v "parent" ] ;
+       fhir:value [
+         a fhir:code ;
+         fhir:v "02"
+       ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "ARS-05" ] ;
+     fhir:display [ fhir:v "ARS-05 : La Réunion" ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "fr-FR" ] ;
+       fhir:use [
+         a sct:900000000000013009 ;
+         fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "900000000000013009" ]
+       ] ;
+       fhir:value [ fhir:v "ARS Réunion" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2023-07-28T09:00:00+01:00"^^xsd:dateTime
+       ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2023-07-28T09:00:00+01:00"^^xsd:dateTime
+       ]
+     ] [
+       fhir:code [ fhir:v "status" ] ;
+       fhir:value [
+         a fhir:code ;
+         fhir:v "active"
+       ]
+     ] [
+       fhir:code [ fhir:v "niveau" ] ;
+       fhir:value [
+         a fhir:integer ;
+         fhir:v 2
+       ]
+     ] [
+       fhir:code [ fhir:v "parent" ] ;
+       fhir:value [
+         a fhir:code ;
+         fhir:v "02"
+       ]
+     ] [
+       fhir:code [ fhir:v "AutoriteEnregistrementFiness" ] ;
+       fhir:value [
+         a fhir:boolean ;
+         fhir:v true
+       ]
+     ] [
+       fhir:code [ fhir:v "AutoriteRegulationFiness" ] ;
+       fhir:value [
+         a fhir:boolean ;
+         fhir:v true
+       ]
+     ] [
+       fhir:code [ fhir:v "AutoriteEnregistrementEpars" ] ;
+       fhir:value [
+         a fhir:boolean ;
+         fhir:v true
+       ]
+     ] [
+       fhir:code [ fhir:v "AutoriteEnregistrementRass" ] ;
+       fhir:value [
+         a fhir:boolean ;
+         fhir:v true
+       ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "ARS-06" ] ;
+     fhir:display [ fhir:v "ARS-06 : Mayotte" ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "fr-FR" ] ;
+       fhir:use [
+         a sct:900000000000013009 ;
+         fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "900000000000013009" ]
+       ] ;
+       fhir:value [ fhir:v "ARS Mayotte" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2023-07-28T09:00:00+01:00"^^xsd:dateTime
+       ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2023-07-28T09:00:00+01:00"^^xsd:dateTime
+       ]
+     ] [
+       fhir:code [ fhir:v "status" ] ;
+       fhir:value [
+         a fhir:code ;
+         fhir:v "active"
+       ]
+     ] [
+       fhir:code [ fhir:v "niveau" ] ;
+       fhir:value [
+         a fhir:integer ;
+         fhir:v 2
+       ]
+     ] [
+       fhir:code [ fhir:v "parent" ] ;
+       fhir:value [
+         a fhir:code ;
+         fhir:v "02"
+       ]
+     ] [
+       fhir:code [ fhir:v "AutoriteEnregistrementFiness" ] ;
+       fhir:value [
+         a fhir:boolean ;
+         fhir:v true
+       ]
+     ] [
+       fhir:code [ fhir:v "AutoriteRegulationFiness" ] ;
+       fhir:value [
+         a fhir:boolean ;
+         fhir:v true
+       ]
+     ] [
+       fhir:code [ fhir:v "AutoriteEnregistrementEpars" ] ;
+       fhir:value [
+         a fhir:boolean ;
+         fhir:v true
+       ]
+     ] [
+       fhir:code [ fhir:v "AutoriteEnregistrementRass" ] ;
+       fhir:value [
+         a fhir:boolean ;
+         fhir:v true
+       ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "ARS-11" ] ;
+     fhir:display [ fhir:v "ARS-11 : Ile-de-France" ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "fr-FR" ] ;
+       fhir:use [
+         a sct:900000000000013009 ;
+         fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "900000000000013009" ]
+       ] ;
+       fhir:value [ fhir:v "ARS Ile-de-France" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2015-01-01T00:00:00+01:00"^^xsd:dateTime
+       ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2016-09-01T00:00:00+01:00"^^xsd:dateTime
+       ]
+     ] [
+       fhir:code [ fhir:v "status" ] ;
+       fhir:value [
+         a fhir:code ;
+         fhir:v "active"
+       ]
+     ] [
+       fhir:code [ fhir:v "niveau" ] ;
+       fhir:value [
+         a fhir:integer ;
+         fhir:v 2
+       ]
+     ] [
+       fhir:code [ fhir:v "parent" ] ;
+       fhir:value [
+         a fhir:code ;
+         fhir:v "02"
+       ]
+     ] [
+       fhir:code [ fhir:v "AutoriteEnregistrementFiness" ] ;
+       fhir:value [
+         a fhir:boolean ;
+         fhir:v true
+       ]
+     ] [
+       fhir:code [ fhir:v "AutoriteRegulationFiness" ] ;
+       fhir:value [
+         a fhir:boolean ;
+         fhir:v true
+       ]
+     ] [
+       fhir:code [ fhir:v "AutoriteEnregistrementEpars" ] ;
+       fhir:value [
+         a fhir:boolean ;
+         fhir:v true
+       ]
+     ] [
+       fhir:code [ fhir:v "AutoriteEnregistrementRass" ] ;
+       fhir:value [
+         a fhir:boolean ;
+         fhir:v true
+       ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "ARS-21" ] ;
+     fhir:display [ fhir:v "ARS-21 : Champagne-Ardenne" ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "fr-FR" ] ;
+       fhir:use [
+         a sct:900000000000013009 ;
+         fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "900000000000013009" ]
+       ] ;
+       fhir:value [ fhir:v "ARS Champagne-Ardenne" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2015-01-01T00:00:00+01:00"^^xsd:dateTime
+       ]
+     ] [
+       fhir:code [ fhir:v "dateFin" ] ;
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2016-01-01T00:00:00+01:00"^^xsd:dateTime
+       ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2016-01-01T00:00:00+01:00"^^xsd:dateTime
+       ]
+     ] [
+       fhir:code [ fhir:v "deprecationDate" ] ;
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2016-01-01T00:00:00+01:00"^^xsd:dateTime
+       ]
+     ] [
+       fhir:code [ fhir:v "status" ] ;
+       fhir:value [
+         a fhir:code ;
+         fhir:v "deprecated"
+       ]
+     ] [
+       fhir:code [ fhir:v "niveau" ] ;
+       fhir:value [
+         a fhir:integer ;
+         fhir:v 2
+       ]
+     ] [
+       fhir:code [ fhir:v "parent" ] ;
+       fhir:value [
+         a fhir:code ;
+         fhir:v "02"
+       ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "ARS-22" ] ;
+     fhir:display [ fhir:v "ARS-22 : Picardie" ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "fr-FR" ] ;
+       fhir:use [
+         a sct:900000000000013009 ;
+         fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "900000000000013009" ]
+       ] ;
+       fhir:value [ fhir:v "ARS Picardie" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2015-01-01T00:00:00+01:00"^^xsd:dateTime
+       ]
+     ] [
+       fhir:code [ fhir:v "dateFin" ] ;
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2016-01-01T00:00:00+01:00"^^xsd:dateTime
+       ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2016-01-01T00:00:00+01:00"^^xsd:dateTime
+       ]
+     ] [
+       fhir:code [ fhir:v "deprecationDate" ] ;
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2016-01-01T00:00:00+01:00"^^xsd:dateTime
+       ]
+     ] [
+       fhir:code [ fhir:v "status" ] ;
+       fhir:value [
+         a fhir:code ;
+         fhir:v "deprecated"
+       ]
+     ] [
+       fhir:code [ fhir:v "niveau" ] ;
+       fhir:value [
+         a fhir:integer ;
+         fhir:v 2
+       ]
+     ] [
+       fhir:code [ fhir:v "parent" ] ;
+       fhir:value [
+         a fhir:code ;
+         fhir:v "02"
+       ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "ARS-23" ] ;
+     fhir:display [ fhir:v "ARS-23 : Haute-Normandie" ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "fr-FR" ] ;
+       fhir:use [
+         a sct:900000000000013009 ;
+         fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "900000000000013009" ]
+       ] ;
+       fhir:value [ fhir:v "ARS Haute-Normandie" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2015-01-01T00:00:00+01:00"^^xsd:dateTime
+       ]
+     ] [
+       fhir:code [ fhir:v "dateFin" ] ;
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2016-01-01T00:00:00+01:00"^^xsd:dateTime
+       ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2016-01-01T00:00:00+01:00"^^xsd:dateTime
+       ]
+     ] [
+       fhir:code [ fhir:v "deprecationDate" ] ;
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2016-01-01T00:00:00+01:00"^^xsd:dateTime
+       ]
+     ] [
+       fhir:code [ fhir:v "status" ] ;
+       fhir:value [
+         a fhir:code ;
+         fhir:v "deprecated"
+       ]
+     ] [
+       fhir:code [ fhir:v "niveau" ] ;
+       fhir:value [
+         a fhir:integer ;
+         fhir:v 2
+       ]
+     ] [
+       fhir:code [ fhir:v "parent" ] ;
+       fhir:value [
+         a fhir:code ;
+         fhir:v "02"
+       ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "ARS-24" ] ;
+     fhir:display [ fhir:v "ARS-24 : Centre-Val de Loire" ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "fr-FR" ] ;
+       fhir:use [
+         a sct:900000000000013009 ;
+         fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "900000000000013009" ]
+       ] ;
+       fhir:value [ fhir:v "ARS Centre-Val de Loire" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2015-01-01T00:00:00+01:00"^^xsd:dateTime
+       ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2024-06-28T12:00:00+01:00"^^xsd:dateTime
+       ]
+     ] [
+       fhir:code [ fhir:v "status" ] ;
+       fhir:value [
+         a fhir:code ;
+         fhir:v "active"
+       ]
+     ] [
+       fhir:code [ fhir:v "niveau" ] ;
+       fhir:value [
+         a fhir:integer ;
+         fhir:v 2
+       ]
+     ] [
+       fhir:code [ fhir:v "parent" ] ;
+       fhir:value [
+         a fhir:code ;
+         fhir:v "02"
+       ]
+     ] [
+       fhir:code [ fhir:v "AutoriteEnregistrementFiness" ] ;
+       fhir:value [
+         a fhir:boolean ;
+         fhir:v true
+       ]
+     ] [
+       fhir:code [ fhir:v "AutoriteRegulationFiness" ] ;
+       fhir:value [
+         a fhir:boolean ;
+         fhir:v true
+       ]
+     ] [
+       fhir:code [ fhir:v "AutoriteEnregistrementEpars" ] ;
+       fhir:value [
+         a fhir:boolean ;
+         fhir:v true
+       ]
+     ] [
+       fhir:code [ fhir:v "AutoriteEnregistrementRass" ] ;
+       fhir:value [
+         a fhir:boolean ;
+         fhir:v true
+       ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "ARS-25" ] ;
+     fhir:display [ fhir:v "ARS-25 : Basse-Normandie" ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "fr-FR" ] ;
+       fhir:use [
+         a sct:900000000000013009 ;
+         fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "900000000000013009" ]
+       ] ;
+       fhir:value [ fhir:v "ARS Basse-Normandie" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2015-01-01T00:00:00+01:00"^^xsd:dateTime
+       ]
+     ] [
+       fhir:code [ fhir:v "dateFin" ] ;
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2016-01-01T00:00:00+01:00"^^xsd:dateTime
+       ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2016-01-01T00:00:00+01:00"^^xsd:dateTime
+       ]
+     ] [
+       fhir:code [ fhir:v "deprecationDate" ] ;
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2016-01-01T00:00:00+01:00"^^xsd:dateTime
+       ]
+     ] [
+       fhir:code [ fhir:v "status" ] ;
+       fhir:value [
+         a fhir:code ;
+         fhir:v "deprecated"
+       ]
+     ] [
+       fhir:code [ fhir:v "niveau" ] ;
+       fhir:value [
+         a fhir:integer ;
+         fhir:v 2
+       ]
+     ] [
+       fhir:code [ fhir:v "parent" ] ;
+       fhir:value [
+         a fhir:code ;
+         fhir:v "02"
+       ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "ARS-26" ] ;
+     fhir:display [ fhir:v "ARS-26 : Bourgogne" ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "fr-FR" ] ;
+       fhir:use [
+         a sct:900000000000013009 ;
+         fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "900000000000013009" ]
+       ] ;
+       fhir:value [ fhir:v "ARS Bourgogne" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2015-01-01T00:00:00+01:00"^^xsd:dateTime
+       ]
+     ] [
+       fhir:code [ fhir:v "dateFin" ] ;
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2016-01-01T00:00:00+01:00"^^xsd:dateTime
+       ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2016-01-01T00:00:00+01:00"^^xsd:dateTime
+       ]
+     ] [
+       fhir:code [ fhir:v "deprecationDate" ] ;
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2016-01-01T00:00:00+01:00"^^xsd:dateTime
+       ]
+     ] [
+       fhir:code [ fhir:v "status" ] ;
+       fhir:value [
+         a fhir:code ;
+         fhir:v "deprecated"
+       ]
+     ] [
+       fhir:code [ fhir:v "niveau" ] ;
+       fhir:value [
+         a fhir:integer ;
+         fhir:v 2
+       ]
+     ] [
+       fhir:code [ fhir:v "parent" ] ;
+       fhir:value [
+         a fhir:code ;
+         fhir:v "02"
+       ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "ARS-27" ] ;
+     fhir:display [ fhir:v "ARS-27 : Bourgogne-Franche-Comté" ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "fr-FR" ] ;
+       fhir:use [
+         a sct:900000000000013009 ;
+         fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "900000000000013009" ]
+       ] ;
+       fhir:value [ fhir:v "ARS Bourgogne-Franche-Comté" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2016-01-01T00:00:00+01:00"^^xsd:dateTime
+       ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2016-09-01T00:00:00+01:00"^^xsd:dateTime
+       ]
+     ] [
+       fhir:code [ fhir:v "status" ] ;
+       fhir:value [
+         a fhir:code ;
+         fhir:v "active"
+       ]
+     ] [
+       fhir:code [ fhir:v "niveau" ] ;
+       fhir:value [
+         a fhir:integer ;
+         fhir:v 2
+       ]
+     ] [
+       fhir:code [ fhir:v "parent" ] ;
+       fhir:value [
+         a fhir:code ;
+         fhir:v "02"
+       ]
+     ] [
+       fhir:code [ fhir:v "AutoriteEnregistrementFiness" ] ;
+       fhir:value [
+         a fhir:boolean ;
+         fhir:v true
+       ]
+     ] [
+       fhir:code [ fhir:v "AutoriteRegulationFiness" ] ;
+       fhir:value [
+         a fhir:boolean ;
+         fhir:v true
+       ]
+     ] [
+       fhir:code [ fhir:v "AutoriteEnregistrementEpars" ] ;
+       fhir:value [
+         a fhir:boolean ;
+         fhir:v true
+       ]
+     ] [
+       fhir:code [ fhir:v "AutoriteEnregistrementRass" ] ;
+       fhir:value [
+         a fhir:boolean ;
+         fhir:v true
+       ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "ARS-28" ] ;
+     fhir:display [ fhir:v "ARS-28 : Normandie" ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "fr-FR" ] ;
+       fhir:use [
+         a sct:900000000000013009 ;
+         fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "900000000000013009" ]
+       ] ;
+       fhir:value [ fhir:v "ARS Normandie" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2016-01-01T00:00:00+01:00"^^xsd:dateTime
+       ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2016-09-01T00:00:00+01:00"^^xsd:dateTime
+       ]
+     ] [
+       fhir:code [ fhir:v "status" ] ;
+       fhir:value [
+         a fhir:code ;
+         fhir:v "active"
+       ]
+     ] [
+       fhir:code [ fhir:v "niveau" ] ;
+       fhir:value [
+         a fhir:integer ;
+         fhir:v 2
+       ]
+     ] [
+       fhir:code [ fhir:v "parent" ] ;
+       fhir:value [
+         a fhir:code ;
+         fhir:v "02"
+       ]
+     ] [
+       fhir:code [ fhir:v "AutoriteEnregistrementFiness" ] ;
+       fhir:value [
+         a fhir:boolean ;
+         fhir:v true
+       ]
+     ] [
+       fhir:code [ fhir:v "AutoriteRegulationFiness" ] ;
+       fhir:value [
+         a fhir:boolean ;
+         fhir:v true
+       ]
+     ] [
+       fhir:code [ fhir:v "AutoriteEnregistrementEpars" ] ;
+       fhir:value [
+         a fhir:boolean ;
+         fhir:v true
+       ]
+     ] [
+       fhir:code [ fhir:v "AutoriteEnregistrementRass" ] ;
+       fhir:value [
+         a fhir:boolean ;
+         fhir:v true
+       ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "ARS-31" ] ;
+     fhir:display [ fhir:v "ARS-31 : Nord-Pas-de-Calais" ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "fr-FR" ] ;
+       fhir:use [
+         a sct:900000000000013009 ;
+         fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "900000000000013009" ]
+       ] ;
+       fhir:value [ fhir:v "ARS Nord-Pas-de-Calais" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2015-01-01T00:00:00+01:00"^^xsd:dateTime
+       ]
+     ] [
+       fhir:code [ fhir:v "dateFin" ] ;
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2016-01-01T00:00:00+01:00"^^xsd:dateTime
+       ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2016-01-01T00:00:00+01:00"^^xsd:dateTime
+       ]
+     ] [
+       fhir:code [ fhir:v "deprecationDate" ] ;
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2016-01-01T00:00:00+01:00"^^xsd:dateTime
+       ]
+     ] [
+       fhir:code [ fhir:v "status" ] ;
+       fhir:value [
+         a fhir:code ;
+         fhir:v "deprecated"
+       ]
+     ] [
+       fhir:code [ fhir:v "niveau" ] ;
+       fhir:value [
+         a fhir:integer ;
+         fhir:v 2
+       ]
+     ] [
+       fhir:code [ fhir:v "parent" ] ;
+       fhir:value [
+         a fhir:code ;
+         fhir:v "02"
+       ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "ARS-32" ] ;
+     fhir:display [ fhir:v "ARS-32 : Hauts-de-France" ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "fr-FR" ] ;
+       fhir:use [
+         a sct:900000000000013009 ;
+         fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "900000000000013009" ]
+       ] ;
+       fhir:value [ fhir:v "ARS Hauts-de-France" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2016-01-01T00:00:00+01:00"^^xsd:dateTime
+       ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2016-09-01T00:00:00+01:00"^^xsd:dateTime
+       ]
+     ] [
+       fhir:code [ fhir:v "status" ] ;
+       fhir:value [
+         a fhir:code ;
+         fhir:v "active"
+       ]
+     ] [
+       fhir:code [ fhir:v "niveau" ] ;
+       fhir:value [
+         a fhir:integer ;
+         fhir:v 2
+       ]
+     ] [
+       fhir:code [ fhir:v "parent" ] ;
+       fhir:value [
+         a fhir:code ;
+         fhir:v "02"
+       ]
+     ] [
+       fhir:code [ fhir:v "AutoriteEnregistrementFiness" ] ;
+       fhir:value [
+         a fhir:boolean ;
+         fhir:v true
+       ]
+     ] [
+       fhir:code [ fhir:v "AutoriteRegulationFiness" ] ;
+       fhir:value [
+         a fhir:boolean ;
+         fhir:v true
+       ]
+     ] [
+       fhir:code [ fhir:v "AutoriteEnregistrementEpars" ] ;
+       fhir:value [
+         a fhir:boolean ;
+         fhir:v true
+       ]
+     ] [
+       fhir:code [ fhir:v "AutoriteEnregistrementRass" ] ;
+       fhir:value [
+         a fhir:boolean ;
+         fhir:v true
+       ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "ARS-41" ] ;
+     fhir:display [ fhir:v "ARS-41 : Lorraine" ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "fr-FR" ] ;
+       fhir:use [
+         a sct:900000000000013009 ;
+         fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "900000000000013009" ]
+       ] ;
+       fhir:value [ fhir:v "ARS Lorraine" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2015-01-01T00:00:00+01:00"^^xsd:dateTime
+       ]
+     ] [
+       fhir:code [ fhir:v "dateFin" ] ;
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2016-01-01T00:00:00+01:00"^^xsd:dateTime
+       ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2016-01-01T00:00:00+01:00"^^xsd:dateTime
+       ]
+     ] [
+       fhir:code [ fhir:v "deprecationDate" ] ;
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2016-01-01T00:00:00+01:00"^^xsd:dateTime
+       ]
+     ] [
+       fhir:code [ fhir:v "status" ] ;
+       fhir:value [
+         a fhir:code ;
+         fhir:v "deprecated"
+       ]
+     ] [
+       fhir:code [ fhir:v "niveau" ] ;
+       fhir:value [
+         a fhir:integer ;
+         fhir:v 2
+       ]
+     ] [
+       fhir:code [ fhir:v "parent" ] ;
+       fhir:value [
+         a fhir:code ;
+         fhir:v "02"
+       ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "ARS-42" ] ;
+     fhir:display [ fhir:v "ARS-42 : Alsace" ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "fr-FR" ] ;
+       fhir:use [
+         a sct:900000000000013009 ;
+         fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "900000000000013009" ]
+       ] ;
+       fhir:value [ fhir:v "ARS Alsace" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2015-01-01T00:00:00+01:00"^^xsd:dateTime
+       ]
+     ] [
+       fhir:code [ fhir:v "dateFin" ] ;
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2016-01-01T00:00:00+01:00"^^xsd:dateTime
+       ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2016-01-01T00:00:00+01:00"^^xsd:dateTime
+       ]
+     ] [
+       fhir:code [ fhir:v "deprecationDate" ] ;
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2016-01-01T00:00:00+01:00"^^xsd:dateTime
+       ]
+     ] [
+       fhir:code [ fhir:v "status" ] ;
+       fhir:value [
+         a fhir:code ;
+         fhir:v "deprecated"
+       ]
+     ] [
+       fhir:code [ fhir:v "niveau" ] ;
+       fhir:value [
+         a fhir:integer ;
+         fhir:v 2
+       ]
+     ] [
+       fhir:code [ fhir:v "parent" ] ;
+       fhir:value [
+         a fhir:code ;
+         fhir:v "02"
+       ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "ARS-43" ] ;
+     fhir:display [ fhir:v "ARS-43 : Franche-Comté" ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "fr-FR" ] ;
+       fhir:use [
+         a sct:900000000000013009 ;
+         fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "900000000000013009" ]
+       ] ;
+       fhir:value [ fhir:v "ARS Franche-Comté" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2015-01-01T00:00:00+01:00"^^xsd:dateTime
+       ]
+     ] [
+       fhir:code [ fhir:v "dateFin" ] ;
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2016-01-01T00:00:00+01:00"^^xsd:dateTime
+       ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2016-01-01T00:00:00+01:00"^^xsd:dateTime
+       ]
+     ] [
+       fhir:code [ fhir:v "deprecationDate" ] ;
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2016-01-01T00:00:00+01:00"^^xsd:dateTime
+       ]
+     ] [
+       fhir:code [ fhir:v "status" ] ;
+       fhir:value [
+         a fhir:code ;
+         fhir:v "deprecated"
+       ]
+     ] [
+       fhir:code [ fhir:v "niveau" ] ;
+       fhir:value [
+         a fhir:integer ;
+         fhir:v 2
+       ]
+     ] [
+       fhir:code [ fhir:v "parent" ] ;
+       fhir:value [
+         a fhir:code ;
+         fhir:v "02"
+       ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "ARS-44" ] ;
+     fhir:display [ fhir:v "ARS-44 : Grand Est" ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "fr-FR" ] ;
+       fhir:use [
+         a sct:900000000000013009 ;
+         fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "900000000000013009" ]
+       ] ;
+       fhir:value [ fhir:v "ARS Grand Est" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2016-01-01T00:00:00+01:00"^^xsd:dateTime
+       ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2024-06-28T12:00:00+01:00"^^xsd:dateTime
+       ]
+     ] [
+       fhir:code [ fhir:v "status" ] ;
+       fhir:value [
+         a fhir:code ;
+         fhir:v "active"
+       ]
+     ] [
+       fhir:code [ fhir:v "niveau" ] ;
+       fhir:value [
+         a fhir:integer ;
+         fhir:v 2
+       ]
+     ] [
+       fhir:code [ fhir:v "parent" ] ;
+       fhir:value [
+         a fhir:code ;
+         fhir:v "02"
+       ]
+     ] [
+       fhir:code [ fhir:v "AutoriteEnregistrementFiness" ] ;
+       fhir:value [
+         a fhir:boolean ;
+         fhir:v true
+       ]
+     ] [
+       fhir:code [ fhir:v "AutoriteRegulationFiness" ] ;
+       fhir:value [
+         a fhir:boolean ;
+         fhir:v true
+       ]
+     ] [
+       fhir:code [ fhir:v "AutoriteEnregistrementEpars" ] ;
+       fhir:value [
+         a fhir:boolean ;
+         fhir:v true
+       ]
+     ] [
+       fhir:code [ fhir:v "AutoriteEnregistrementRass" ] ;
+       fhir:value [
+         a fhir:boolean ;
+         fhir:v true
+       ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "ARS-52" ] ;
+     fhir:display [ fhir:v "ARS-52 : Pays de la Loire" ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "fr-FR" ] ;
+       fhir:use [
+         a sct:900000000000013009 ;
+         fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "900000000000013009" ]
+       ] ;
+       fhir:value [ fhir:v "ARS Pays de la Loire" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2016-01-01T00:00:00+01:00"^^xsd:dateTime
+       ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2016-09-01T00:00:00+01:00"^^xsd:dateTime
+       ]
+     ] [
+       fhir:code [ fhir:v "status" ] ;
+       fhir:value [
+         a fhir:code ;
+         fhir:v "active"
+       ]
+     ] [
+       fhir:code [ fhir:v "niveau" ] ;
+       fhir:value [
+         a fhir:integer ;
+         fhir:v 2
+       ]
+     ] [
+       fhir:code [ fhir:v "parent" ] ;
+       fhir:value [
+         a fhir:code ;
+         fhir:v "02"
+       ]
+     ] [
+       fhir:code [ fhir:v "AutoriteEnregistrementFiness" ] ;
+       fhir:value [
+         a fhir:boolean ;
+         fhir:v true
+       ]
+     ] [
+       fhir:code [ fhir:v "AutoriteRegulationFiness" ] ;
+       fhir:value [
+         a fhir:boolean ;
+         fhir:v true
+       ]
+     ] [
+       fhir:code [ fhir:v "AutoriteEnregistrementEpars" ] ;
+       fhir:value [
+         a fhir:boolean ;
+         fhir:v true
+       ]
+     ] [
+       fhir:code [ fhir:v "AutoriteEnregistrementRass" ] ;
+       fhir:value [
+         a fhir:boolean ;
+         fhir:v true
+       ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "ARS-53" ] ;
+     fhir:display [ fhir:v "ARS-53 : Bretagne" ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "fr-FR" ] ;
+       fhir:use [
+         a sct:900000000000013009 ;
+         fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "900000000000013009" ]
+       ] ;
+       fhir:value [ fhir:v "ARS Bretagne" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2016-01-01T00:00:00+01:00"^^xsd:dateTime
+       ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2016-09-01T00:00:00+01:00"^^xsd:dateTime
+       ]
+     ] [
+       fhir:code [ fhir:v "status" ] ;
+       fhir:value [
+         a fhir:code ;
+         fhir:v "active"
+       ]
+     ] [
+       fhir:code [ fhir:v "niveau" ] ;
+       fhir:value [
+         a fhir:integer ;
+         fhir:v 2
+       ]
+     ] [
+       fhir:code [ fhir:v "parent" ] ;
+       fhir:value [
+         a fhir:code ;
+         fhir:v "02"
+       ]
+     ] [
+       fhir:code [ fhir:v "AutoriteEnregistrementFiness" ] ;
+       fhir:value [
+         a fhir:boolean ;
+         fhir:v true
+       ]
+     ] [
+       fhir:code [ fhir:v "AutoriteRegulationFiness" ] ;
+       fhir:value [
+         a fhir:boolean ;
+         fhir:v true
+       ]
+     ] [
+       fhir:code [ fhir:v "AutoriteEnregistrementEpars" ] ;
+       fhir:value [
+         a fhir:boolean ;
+         fhir:v true
+       ]
+     ] [
+       fhir:code [ fhir:v "AutoriteEnregistrementRass" ] ;
+       fhir:value [
+         a fhir:boolean ;
+         fhir:v true
+       ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "ARS-54" ] ;
+     fhir:display [ fhir:v "ARS-54 : Poitou-Charentes" ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "fr-FR" ] ;
+       fhir:use [
+         a sct:900000000000013009 ;
+         fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "900000000000013009" ]
+       ] ;
+       fhir:value [ fhir:v "ARS Poitou-Charentes" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2015-01-01T00:00:00+01:00"^^xsd:dateTime
+       ]
+     ] [
+       fhir:code [ fhir:v "dateFin" ] ;
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2016-01-01T00:00:00+01:00"^^xsd:dateTime
+       ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2016-01-01T00:00:00+01:00"^^xsd:dateTime
+       ]
+     ] [
+       fhir:code [ fhir:v "deprecationDate" ] ;
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2016-01-01T00:00:00+01:00"^^xsd:dateTime
+       ]
+     ] [
+       fhir:code [ fhir:v "status" ] ;
+       fhir:value [
+         a fhir:code ;
+         fhir:v "deprecated"
+       ]
+     ] [
+       fhir:code [ fhir:v "niveau" ] ;
+       fhir:value [
+         a fhir:integer ;
+         fhir:v 2
+       ]
+     ] [
+       fhir:code [ fhir:v "parent" ] ;
+       fhir:value [
+         a fhir:code ;
+         fhir:v "02"
+       ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "ARS-72" ] ;
+     fhir:display [ fhir:v "ARS-72 : Aquitaine" ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "fr-FR" ] ;
+       fhir:use [
+         a sct:900000000000013009 ;
+         fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "900000000000013009" ]
+       ] ;
+       fhir:value [ fhir:v "ARS Aquitaine" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2015-01-01T00:00:00+01:00"^^xsd:dateTime
+       ]
+     ] [
+       fhir:code [ fhir:v "dateFin" ] ;
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2016-01-01T00:00:00+01:00"^^xsd:dateTime
+       ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2016-01-01T00:00:00+01:00"^^xsd:dateTime
+       ]
+     ] [
+       fhir:code [ fhir:v "deprecationDate" ] ;
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2016-01-01T00:00:00+01:00"^^xsd:dateTime
+       ]
+     ] [
+       fhir:code [ fhir:v "status" ] ;
+       fhir:value [
+         a fhir:code ;
+         fhir:v "deprecated"
+       ]
+     ] [
+       fhir:code [ fhir:v "niveau" ] ;
+       fhir:value [
+         a fhir:integer ;
+         fhir:v 2
+       ]
+     ] [
+       fhir:code [ fhir:v "parent" ] ;
+       fhir:value [
+         a fhir:code ;
+         fhir:v "02"
+       ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "ARS-73" ] ;
+     fhir:display [ fhir:v "ARS-73 : Midi-Pyrénées" ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "fr-FR" ] ;
+       fhir:use [
+         a sct:900000000000013009 ;
+         fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "900000000000013009" ]
+       ] ;
+       fhir:value [ fhir:v "ARS Midi-Pyrénées" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2015-01-01T00:00:00+01:00"^^xsd:dateTime
+       ]
+     ] [
+       fhir:code [ fhir:v "dateFin" ] ;
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2016-01-01T00:00:00+01:00"^^xsd:dateTime
+       ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2016-01-01T00:00:00+01:00"^^xsd:dateTime
+       ]
+     ] [
+       fhir:code [ fhir:v "deprecationDate" ] ;
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2016-01-01T00:00:00+01:00"^^xsd:dateTime
+       ]
+     ] [
+       fhir:code [ fhir:v "status" ] ;
+       fhir:value [
+         a fhir:code ;
+         fhir:v "deprecated"
+       ]
+     ] [
+       fhir:code [ fhir:v "niveau" ] ;
+       fhir:value [
+         a fhir:integer ;
+         fhir:v 2
+       ]
+     ] [
+       fhir:code [ fhir:v "parent" ] ;
+       fhir:value [
+         a fhir:code ;
+         fhir:v "02"
+       ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "ARS-74" ] ;
+     fhir:display [ fhir:v "ARS-74 : Limousin" ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "fr-FR" ] ;
+       fhir:use [
+         a sct:900000000000013009 ;
+         fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "900000000000013009" ]
+       ] ;
+       fhir:value [ fhir:v "ARS Limousin" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2015-01-01T00:00:00+01:00"^^xsd:dateTime
+       ]
+     ] [
+       fhir:code [ fhir:v "dateFin" ] ;
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2016-01-01T00:00:00+01:00"^^xsd:dateTime
+       ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2016-01-01T00:00:00+01:00"^^xsd:dateTime
+       ]
+     ] [
+       fhir:code [ fhir:v "deprecationDate" ] ;
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2016-01-01T00:00:00+01:00"^^xsd:dateTime
+       ]
+     ] [
+       fhir:code [ fhir:v "status" ] ;
+       fhir:value [
+         a fhir:code ;
+         fhir:v "deprecated"
+       ]
+     ] [
+       fhir:code [ fhir:v "niveau" ] ;
+       fhir:value [
+         a fhir:integer ;
+         fhir:v 2
+       ]
+     ] [
+       fhir:code [ fhir:v "parent" ] ;
+       fhir:value [
+         a fhir:code ;
+         fhir:v "02"
+       ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "ARS-75" ] ;
+     fhir:display [ fhir:v "ARS-75 : Nouvelle-Aquitaine" ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "fr-FR" ] ;
+       fhir:use [
+         a sct:900000000000013009 ;
+         fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "900000000000013009" ]
+       ] ;
+       fhir:value [ fhir:v "ARS Nouvelle-Aquitaine" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2016-01-01T00:00:00+01:00"^^xsd:dateTime
+       ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2016-09-01T00:00:00+01:00"^^xsd:dateTime
+       ]
+     ] [
+       fhir:code [ fhir:v "status" ] ;
+       fhir:value [
+         a fhir:code ;
+         fhir:v "active"
+       ]
+     ] [
+       fhir:code [ fhir:v "niveau" ] ;
+       fhir:value [
+         a fhir:integer ;
+         fhir:v 2
+       ]
+     ] [
+       fhir:code [ fhir:v "parent" ] ;
+       fhir:value [
+         a fhir:code ;
+         fhir:v "02"
+       ]
+     ] [
+       fhir:code [ fhir:v "AutoriteEnregistrementFiness" ] ;
+       fhir:value [
+         a fhir:boolean ;
+         fhir:v true
+       ]
+     ] [
+       fhir:code [ fhir:v "AutoriteRegulationFiness" ] ;
+       fhir:value [
+         a fhir:boolean ;
+         fhir:v true
+       ]
+     ] [
+       fhir:code [ fhir:v "AutoriteEnregistrementEpars" ] ;
+       fhir:value [
+         a fhir:boolean ;
+         fhir:v true
+       ]
+     ] [
+       fhir:code [ fhir:v "AutoriteEnregistrementRass" ] ;
+       fhir:value [
+         a fhir:boolean ;
+         fhir:v true
+       ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "ARS-76" ] ;
+     fhir:display [ fhir:v "ARS-76 : Occitanie" ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "fr-FR" ] ;
+       fhir:use [
+         a sct:900000000000013009 ;
+         fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "900000000000013009" ]
+       ] ;
+       fhir:value [ fhir:v "ARS Occitanie" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2016-01-01T00:00:00+01:00"^^xsd:dateTime
+       ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2016-09-01T00:00:00+01:00"^^xsd:dateTime
+       ]
+     ] [
+       fhir:code [ fhir:v "status" ] ;
+       fhir:value [
+         a fhir:code ;
+         fhir:v "active"
+       ]
+     ] [
+       fhir:code [ fhir:v "niveau" ] ;
+       fhir:value [
+         a fhir:integer ;
+         fhir:v 2
+       ]
+     ] [
+       fhir:code [ fhir:v "parent" ] ;
+       fhir:value [
+         a fhir:code ;
+         fhir:v "02"
+       ]
+     ] [
+       fhir:code [ fhir:v "AutoriteEnregistrementFiness" ] ;
+       fhir:value [
+         a fhir:boolean ;
+         fhir:v true
+       ]
+     ] [
+       fhir:code [ fhir:v "AutoriteRegulationFiness" ] ;
+       fhir:value [
+         a fhir:boolean ;
+         fhir:v true
+       ]
+     ] [
+       fhir:code [ fhir:v "AutoriteEnregistrementEpars" ] ;
+       fhir:value [
+         a fhir:boolean ;
+         fhir:v true
+       ]
+     ] [
+       fhir:code [ fhir:v "AutoriteEnregistrementRass" ] ;
+       fhir:value [
+         a fhir:boolean ;
+         fhir:v true
+       ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "ARS-82" ] ;
+     fhir:display [ fhir:v "ARS-82 : Rhône-Alpes" ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "fr-FR" ] ;
+       fhir:use [
+         a sct:900000000000013009 ;
+         fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "900000000000013009" ]
+       ] ;
+       fhir:value [ fhir:v "ARS Rhône-Alpes" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2015-01-01T00:00:00+01:00"^^xsd:dateTime
+       ]
+     ] [
+       fhir:code [ fhir:v "dateFin" ] ;
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2016-01-01T00:00:00+01:00"^^xsd:dateTime
+       ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2016-01-01T00:00:00+01:00"^^xsd:dateTime
+       ]
+     ] [
+       fhir:code [ fhir:v "deprecationDate" ] ;
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2016-01-01T00:00:00+01:00"^^xsd:dateTime
+       ]
+     ] [
+       fhir:code [ fhir:v "status" ] ;
+       fhir:value [
+         a fhir:code ;
+         fhir:v "deprecated"
+       ]
+     ] [
+       fhir:code [ fhir:v "niveau" ] ;
+       fhir:value [
+         a fhir:integer ;
+         fhir:v 2
+       ]
+     ] [
+       fhir:code [ fhir:v "parent" ] ;
+       fhir:value [
+         a fhir:code ;
+         fhir:v "02"
+       ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "ARS-83" ] ;
+     fhir:display [ fhir:v "ARS-83 : Auvergne" ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "fr-FR" ] ;
+       fhir:use [
+         a sct:900000000000013009 ;
+         fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "900000000000013009" ]
+       ] ;
+       fhir:value [ fhir:v "ARS Auvergne" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2015-01-01T00:00:00+01:00"^^xsd:dateTime
+       ]
+     ] [
+       fhir:code [ fhir:v "dateFin" ] ;
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2016-01-01T00:00:00+01:00"^^xsd:dateTime
+       ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2016-01-01T00:00:00+01:00"^^xsd:dateTime
+       ]
+     ] [
+       fhir:code [ fhir:v "deprecationDate" ] ;
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2016-01-01T00:00:00+01:00"^^xsd:dateTime
+       ]
+     ] [
+       fhir:code [ fhir:v "status" ] ;
+       fhir:value [
+         a fhir:code ;
+         fhir:v "deprecated"
+       ]
+     ] [
+       fhir:code [ fhir:v "niveau" ] ;
+       fhir:value [
+         a fhir:integer ;
+         fhir:v 2
+       ]
+     ] [
+       fhir:code [ fhir:v "parent" ] ;
+       fhir:value [
+         a fhir:code ;
+         fhir:v "02"
+       ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "ARS-84" ] ;
+     fhir:display [ fhir:v "ARS-84 : Auvergne-Rhône-Alpes" ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "fr-FR" ] ;
+       fhir:use [
+         a sct:900000000000013009 ;
+         fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "900000000000013009" ]
+       ] ;
+       fhir:value [ fhir:v "ARS Auvergne-Rhône-Alpes" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2016-01-01T00:00:00+01:00"^^xsd:dateTime
+       ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2016-09-01T00:00:00+01:00"^^xsd:dateTime
+       ]
+     ] [
+       fhir:code [ fhir:v "status" ] ;
+       fhir:value [
+         a fhir:code ;
+         fhir:v "active"
+       ]
+     ] [
+       fhir:code [ fhir:v "niveau" ] ;
+       fhir:value [
+         a fhir:integer ;
+         fhir:v 2
+       ]
+     ] [
+       fhir:code [ fhir:v "parent" ] ;
+       fhir:value [
+         a fhir:code ;
+         fhir:v "02"
+       ]
+     ] [
+       fhir:code [ fhir:v "AutoriteEnregistrementFiness" ] ;
+       fhir:value [
+         a fhir:boolean ;
+         fhir:v true
+       ]
+     ] [
+       fhir:code [ fhir:v "AutoriteRegulationFiness" ] ;
+       fhir:value [
+         a fhir:boolean ;
+         fhir:v true
+       ]
+     ] [
+       fhir:code [ fhir:v "AutoriteEnregistrementEpars" ] ;
+       fhir:value [
+         a fhir:boolean ;
+         fhir:v true
+       ]
+     ] [
+       fhir:code [ fhir:v "AutoriteEnregistrementRass" ] ;
+       fhir:value [
+         a fhir:boolean ;
+         fhir:v true
+       ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "ARS-91" ] ;
+     fhir:display [ fhir:v "ARS-91 : Languedoc-Roussillon" ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "fr-FR" ] ;
+       fhir:use [
+         a sct:900000000000013009 ;
+         fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "900000000000013009" ]
+       ] ;
+       fhir:value [ fhir:v "ARS Languedoc-Roussillon" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2015-01-01T00:00:00+01:00"^^xsd:dateTime
+       ]
+     ] [
+       fhir:code [ fhir:v "dateFin" ] ;
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2016-01-01T00:00:00+01:00"^^xsd:dateTime
+       ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2016-01-01T00:00:00+01:00"^^xsd:dateTime
+       ]
+     ] [
+       fhir:code [ fhir:v "deprecationDate" ] ;
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2016-01-01T00:00:00+01:00"^^xsd:dateTime
+       ]
+     ] [
+       fhir:code [ fhir:v "status" ] ;
+       fhir:value [
+         a fhir:code ;
+         fhir:v "deprecated"
+       ]
+     ] [
+       fhir:code [ fhir:v "niveau" ] ;
+       fhir:value [
+         a fhir:integer ;
+         fhir:v 2
+       ]
+     ] [
+       fhir:code [ fhir:v "parent" ] ;
+       fhir:value [
+         a fhir:code ;
+         fhir:v "02"
+       ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "ARS-93" ] ;
+     fhir:display [ fhir:v "ARS-93 : Provence-Alpes-Côte d'Azur" ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "fr-FR" ] ;
+       fhir:use [
+         a sct:900000000000013009 ;
+         fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "900000000000013009" ]
+       ] ;
+       fhir:value [ fhir:v "ARS PACA" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2015-01-01T00:00:00+01:00"^^xsd:dateTime
+       ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2016-09-01T00:00:00+01:00"^^xsd:dateTime
+       ]
+     ] [
+       fhir:code [ fhir:v "status" ] ;
+       fhir:value [
+         a fhir:code ;
+         fhir:v "active"
+       ]
+     ] [
+       fhir:code [ fhir:v "niveau" ] ;
+       fhir:value [
+         a fhir:integer ;
+         fhir:v 2
+       ]
+     ] [
+       fhir:code [ fhir:v "parent" ] ;
+       fhir:value [
+         a fhir:code ;
+         fhir:v "02"
+       ]
+     ] [
+       fhir:code [ fhir:v "AutoriteEnregistrementFiness" ] ;
+       fhir:value [
+         a fhir:boolean ;
+         fhir:v true
+       ]
+     ] [
+       fhir:code [ fhir:v "AutoriteRegulationFiness" ] ;
+       fhir:value [
+         a fhir:boolean ;
+         fhir:v true
+       ]
+     ] [
+       fhir:code [ fhir:v "AutoriteEnregistrementEpars" ] ;
+       fhir:value [
+         a fhir:boolean ;
+         fhir:v true
+       ]
+     ] [
+       fhir:code [ fhir:v "AutoriteEnregistrementRass" ] ;
+       fhir:value [
+         a fhir:boolean ;
+         fhir:v true
+       ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "ARS-94" ] ;
+     fhir:display [ fhir:v "ARS-94 : Corse" ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "fr-FR" ] ;
+       fhir:use [
+         a sct:900000000000013009 ;
+         fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "900000000000013009" ]
+       ] ;
+       fhir:value [ fhir:v "ARS Corse" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2015-01-01T00:00:00+01:00"^^xsd:dateTime
+       ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2016-09-01T00:00:00+01:00"^^xsd:dateTime
+       ]
+     ] [
+       fhir:code [ fhir:v "status" ] ;
+       fhir:value [
+         a fhir:code ;
+         fhir:v "active"
+       ]
+     ] [
+       fhir:code [ fhir:v "niveau" ] ;
+       fhir:value [
+         a fhir:integer ;
+         fhir:v 2
+       ]
+     ] [
+       fhir:code [ fhir:v "parent" ] ;
+       fhir:value [
+         a fhir:code ;
+         fhir:v "02"
+       ]
+     ] [
+       fhir:code [ fhir:v "AutoriteEnregistrementFiness" ] ;
+       fhir:value [
+         a fhir:boolean ;
+         fhir:v true
+       ]
+     ] [
+       fhir:code [ fhir:v "AutoriteRegulationFiness" ] ;
+       fhir:value [
+         a fhir:boolean ;
+         fhir:v true
+       ]
+     ] [
+       fhir:code [ fhir:v "AutoriteEnregistrementEpars" ] ;
+       fhir:value [
+         a fhir:boolean ;
+         fhir:v true
+       ]
+     ] [
+       fhir:code [ fhir:v "AutoriteEnregistrementRass" ] ;
+       fhir:value [
+         a fhir:boolean ;
+         fhir:v true
+       ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "AT-975" ] ;
+     fhir:display [ fhir:v "AT-975 : ATS de Saint-Pierre-Et-Miquelon" ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "fr-FR" ] ;
+       fhir:use [
+         a sct:900000000000013009 ;
+         fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "900000000000013009" ]
+       ] ;
+       fhir:value [ fhir:v "ATS Saint-Pierre-Et-Miquelon" ]
+     ] [
+       fhir:language [ fhir:v "fr-FR" ] ;
+       fhir:use [
+         a sct:900000000000013009 ;
+         fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "900000000000013009" ]
+       ] ;
+       fhir:value [ fhir:v "AT-975 : Agence territoriale de santé de Saint-Pierre-Et-Miquelon" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2022-04-29T12:00:00+01:00"^^xsd:dateTime
+       ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2024-03-29T12:00:00+01:00"^^xsd:dateTime
+       ]
+     ] [
+       fhir:code [ fhir:v "status" ] ;
+       fhir:value [
+         a fhir:code ;
+         fhir:v "active"
+       ]
+     ] [
+       fhir:code [ fhir:v "niveau" ] ;
+       fhir:value [
+         a fhir:integer ;
+         fhir:v 2
+       ]
+     ] [
+       fhir:code [ fhir:v "parent" ] ;
+       fhir:value [
+         a fhir:code ;
+         fhir:v "02"
+       ]
+     ] [
+       fhir:code [ fhir:v "AutoriteEnregistrementFiness" ] ;
+       fhir:value [
+         a fhir:boolean ;
+         fhir:v true
+       ]
+     ] [
+       fhir:code [ fhir:v "AutoriteRegulationFiness" ] ;
+       fhir:value [
+         a fhir:boolean ;
+         fhir:v true
+       ]
+     ] [
+       fhir:code [ fhir:v "AutoriteEnregistrementRass" ] ;
+       fhir:value [
+         a fhir:boolean ;
+         fhir:v true
+       ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "CNOM" ] ;
+     fhir:display [ fhir:v "Ordre des médecins" ] ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2007-07-25T15:04:41+01:00"^^xsd:dateTime
+       ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2007-07-25T15:04:41+01:00"^^xsd:dateTime
+       ]
+     ] [
+       fhir:code [ fhir:v "status" ] ;
+       fhir:value [
+         a fhir:code ;
+         fhir:v "active"
+       ]
+     ] [
+       fhir:code [ fhir:v "niveau" ] ;
+       fhir:value [
+         a fhir:integer ;
+         fhir:v 2
+       ]
+     ] [
+       fhir:code [ fhir:v "parent" ] ;
+       fhir:value [
+         a fhir:code ;
+         fhir:v "01"
+       ]
+     ] [
+       fhir:code [ fhir:v "AutoriteEnregistrementRass" ] ;
+       fhir:value [
+         a fhir:boolean ;
+         fhir:v true
+       ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "CNOMK" ] ;
+     fhir:display [ fhir:v "Ordre des masseurs-kinésithérapeutes" ] ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2016-09-01T00:00:00+01:00"^^xsd:dateTime
+       ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2016-09-01T00:00:00+01:00"^^xsd:dateTime
+       ]
+     ] [
+       fhir:code [ fhir:v "status" ] ;
+       fhir:value [
+         a fhir:code ;
+         fhir:v "active"
+       ]
+     ] [
+       fhir:code [ fhir:v "niveau" ] ;
+       fhir:value [
+         a fhir:integer ;
+         fhir:v 2
+       ]
+     ] [
+       fhir:code [ fhir:v "parent" ] ;
+       fhir:value [
+         a fhir:code ;
+         fhir:v "01"
+       ]
+     ] [
+       fhir:code [ fhir:v "AutoriteEnregistrementRass" ] ;
+       fhir:value [
+         a fhir:boolean ;
+         fhir:v true
+       ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "CNOP" ] ;
+     fhir:display [ fhir:v "Ordre des pharmaciens" ] ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2007-07-25T15:04:41+01:00"^^xsd:dateTime
+       ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2007-07-25T15:04:41+01:00"^^xsd:dateTime
+       ]
+     ] [
+       fhir:code [ fhir:v "status" ] ;
+       fhir:value [
+         a fhir:code ;
+         fhir:v "active"
+       ]
+     ] [
+       fhir:code [ fhir:v "niveau" ] ;
+       fhir:value [
+         a fhir:integer ;
+         fhir:v 2
+       ]
+     ] [
+       fhir:code [ fhir:v "parent" ] ;
+       fhir:value [
+         a fhir:code ;
+         fhir:v "01"
+       ]
+     ] [
+       fhir:code [ fhir:v "AutoriteEnregistrementRass" ] ;
+       fhir:value [
+         a fhir:boolean ;
+         fhir:v true
+       ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "CNOPP" ] ;
+     fhir:display [ fhir:v "Ordre des pédicures-podologues" ] ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2016-09-01T00:00:00+01:00"^^xsd:dateTime
+       ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2016-09-01T00:00:00+01:00"^^xsd:dateTime
+       ]
+     ] [
+       fhir:code [ fhir:v "status" ] ;
+       fhir:value [
+         a fhir:code ;
+         fhir:v "active"
+       ]
+     ] [
+       fhir:code [ fhir:v "niveau" ] ;
+       fhir:value [
+         a fhir:integer ;
+         fhir:v 2
+       ]
+     ] [
+       fhir:code [ fhir:v "parent" ] ;
+       fhir:value [
+         a fhir:code ;
+         fhir:v "01"
+       ]
+     ] [
+       fhir:code [ fhir:v "AutoriteEnregistrementRass" ] ;
+       fhir:value [
+         a fhir:boolean ;
+         fhir:v true
+       ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "CNOSF" ] ;
+     fhir:display [ fhir:v "Ordre des sages-femmes" ] ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2007-07-25T15:04:41+01:00"^^xsd:dateTime
+       ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2007-07-25T15:04:41+01:00"^^xsd:dateTime
+       ]
+     ] [
+       fhir:code [ fhir:v "status" ] ;
+       fhir:value [
+         a fhir:code ;
+         fhir:v "active"
+       ]
+     ] [
+       fhir:code [ fhir:v "niveau" ] ;
+       fhir:value [
+         a fhir:integer ;
+         fhir:v 2
+       ]
+     ] [
+       fhir:code [ fhir:v "parent" ] ;
+       fhir:value [
+         a fhir:code ;
+         fhir:v "01"
+       ]
+     ] [
+       fhir:code [ fhir:v "AutoriteEnregistrementRass" ] ;
+       fhir:value [
+         a fhir:boolean ;
+         fhir:v true
+       ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "ENREG" ] ;
+     fhir:display [ fhir:v "Enregistrement par les AE locales (Structures)" ] ;
+     fhir:definition [ fhir:v "Code et libellé pour l'application ENREG en tant que application  déléguée pour l'enregistrement des professionnels à rôle par les  autorités d'enregistrement locales" ] ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2020-06-26T12:00:00+01:00"^^xsd:dateTime
+       ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2020-06-26T12:00:00+01:00"^^xsd:dateTime
+       ]
+     ] [
+       fhir:code [ fhir:v "status" ] ;
+       fhir:value [
+         a fhir:code ;
+         fhir:v "active"
+       ]
+     ] [
+       fhir:code [ fhir:v "niveau" ] ;
+       fhir:value [
+         a fhir:integer ;
+         fhir:v 2
+       ]
+     ] [
+       fhir:code [ fhir:v "parent" ] ;
+       fhir:value [
+         a fhir:code ;
+         fhir:v "03"
+       ]
+     ] [
+       fhir:code [ fhir:v "AutoriteEnregistrementRass" ] ;
+       fhir:value [
+         a fhir:boolean ;
+         fhir:v true
+       ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "ONCD" ] ;
+     fhir:display [ fhir:v "Ordre des chirurgiens-dentistes" ] ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2007-07-25T15:04:41+01:00"^^xsd:dateTime
+       ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2007-07-25T15:04:41+01:00"^^xsd:dateTime
+       ]
+     ] [
+       fhir:code [ fhir:v "status" ] ;
+       fhir:value [
+         a fhir:code ;
+         fhir:v "active"
+       ]
+     ] [
+       fhir:code [ fhir:v "niveau" ] ;
+       fhir:value [
+         a fhir:integer ;
+         fhir:v 2
+       ]
+     ] [
+       fhir:code [ fhir:v "parent" ] ;
+       fhir:value [
+         a fhir:code ;
+         fhir:v "01"
+       ]
+     ] [
+       fhir:code [ fhir:v "AutoriteEnregistrementRass" ] ;
+       fhir:value [
+         a fhir:boolean ;
+         fhir:v true
+       ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "ONI" ] ;
+     fhir:display [ fhir:v "Ordre des infirmiers" ] ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2017-07-07T10:00:00+01:00"^^xsd:dateTime
+       ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2017-07-07T10:00:00+01:00"^^xsd:dateTime
+       ]
+     ] [
+       fhir:code [ fhir:v "status" ] ;
+       fhir:value [
+         a fhir:code ;
+         fhir:v "active"
+       ]
+     ] [
+       fhir:code [ fhir:v "niveau" ] ;
+       fhir:value [
+         a fhir:integer ;
+         fhir:v 2
+       ]
+     ] [
+       fhir:code [ fhir:v "parent" ] ;
+       fhir:value [
+         a fhir:code ;
+         fhir:v "01"
+       ]
+     ] [
+       fhir:code [ fhir:v "AutoriteEnregistrementRass" ] ;
+       fhir:value [
+         a fhir:boolean ;
+         fhir:v true
+       ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "DREETS-01" ] ;
+     fhir:display [ fhir:v "DREETS-01 : Direction de l'économie de l'emploi du travail et des solidarités Guadeloupe" ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "fr-FR" ] ;
+       fhir:use [
+         a sct:900000000000003001 ;
+         fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "900000000000003001" ]
+       ] ;
+       fhir:value [ fhir:v "DEETS Guadeloupe" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2024-01-01T12:00:00+01:00"^^xsd:dateTime
+       ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2024-01-01T12:00:00+01:00"^^xsd:dateTime
+       ]
+     ] [
+       fhir:code [ fhir:v "status" ] ;
+       fhir:value [
+         a fhir:code ;
+         fhir:v "active"
+       ]
+     ] [
+       fhir:code [ fhir:v "niveau" ] ;
+       fhir:value [
+         a fhir:integer ;
+         fhir:v 2
+       ]
+     ] [
+       fhir:code [ fhir:v "parent" ] ;
+       fhir:value [
+         a fhir:code ;
+         fhir:v "04"
+       ]
+     ] [
+       fhir:code [ fhir:v "AutoriteRegulationFiness" ] ;
+       fhir:value [
+         a fhir:boolean ;
+         fhir:v true
+       ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "DREETS-02" ] ;
+     fhir:display [ fhir:v "DREETS-02 :  Direction de l'économie de l'emploi du travail et des solidarités Martinique" ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "fr-FR" ] ;
+       fhir:use [
+         a sct:900000000000003001 ;
+         fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "900000000000003001" ]
+       ] ;
+       fhir:value [ fhir:v "DEETS Martinique" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2024-01-01T12:00:00+01:00"^^xsd:dateTime
+       ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2024-01-01T12:00:00+01:00"^^xsd:dateTime
+       ]
+     ] [
+       fhir:code [ fhir:v "status" ] ;
+       fhir:value [
+         a fhir:code ;
+         fhir:v "active"
+       ]
+     ] [
+       fhir:code [ fhir:v "niveau" ] ;
+       fhir:value [
+         a fhir:integer ;
+         fhir:v 2
+       ]
+     ] [
+       fhir:code [ fhir:v "parent" ] ;
+       fhir:value [
+         a fhir:code ;
+         fhir:v "04"
+       ]
+     ] [
+       fhir:code [ fhir:v "AutoriteRegulationFiness" ] ;
+       fhir:value [
+         a fhir:boolean ;
+         fhir:v true
+       ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "DREETS-03" ] ;
+     fhir:display [ fhir:v "DREETS-03 :  Direction générale cohésion et population Guyane" ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "fr-FR" ] ;
+       fhir:use [
+         a sct:900000000000003001 ;
+         fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "900000000000003001" ]
+       ] ;
+       fhir:value [ fhir:v "DGCOPOP Guyanee" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2024-01-01T12:00:00+01:00"^^xsd:dateTime
+       ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2024-01-01T12:00:00+01:00"^^xsd:dateTime
+       ]
+     ] [
+       fhir:code [ fhir:v "status" ] ;
+       fhir:value [
+         a fhir:code ;
+         fhir:v "active"
+       ]
+     ] [
+       fhir:code [ fhir:v "niveau" ] ;
+       fhir:value [
+         a fhir:integer ;
+         fhir:v 2
+       ]
+     ] [
+       fhir:code [ fhir:v "parent" ] ;
+       fhir:value [
+         a fhir:code ;
+         fhir:v "04"
+       ]
+     ] [
+       fhir:code [ fhir:v "AutoriteRegulationFiness" ] ;
+       fhir:value [
+         a fhir:boolean ;
+         fhir:v true
+       ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "DREETS-05" ] ;
+     fhir:display [ fhir:v "DREETS-05 :  Direction de l'économie de l'emploi du travail et des solidarités de La Réunion" ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "fr-FR" ] ;
+       fhir:use [
+         a sct:900000000000003001 ;
+         fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "900000000000003001" ]
+       ] ;
+       fhir:value [ fhir:v "DEETS Réunion" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2024-01-01T12:00:00+01:00"^^xsd:dateTime
+       ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2024-01-01T12:00:00+01:00"^^xsd:dateTime
+       ]
+     ] [
+       fhir:code [ fhir:v "status" ] ;
+       fhir:value [
+         a fhir:code ;
+         fhir:v "active"
+       ]
+     ] [
+       fhir:code [ fhir:v "niveau" ] ;
+       fhir:value [
+         a fhir:integer ;
+         fhir:v 2
+       ]
+     ] [
+       fhir:code [ fhir:v "parent" ] ;
+       fhir:value [
+         a fhir:code ;
+         fhir:v "04"
+       ]
+     ] [
+       fhir:code [ fhir:v "AutoriteRegulationFiness" ] ;
+       fhir:value [
+         a fhir:boolean ;
+         fhir:v true
+       ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "DREETS-06" ] ;
+     fhir:display [ fhir:v "DREETS-06 : Direction de l'économie de l'emploi du travail et des solidarités Mayotte" ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "fr-FR" ] ;
+       fhir:use [
+         a sct:900000000000003001 ;
+         fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "900000000000003001" ]
+       ] ;
+       fhir:value [ fhir:v "DREETS Mayotte" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2024-01-01T12:00:00+01:00"^^xsd:dateTime
+       ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2024-01-01T12:00:00+01:00"^^xsd:dateTime
+       ]
+     ] [
+       fhir:code [ fhir:v "status" ] ;
+       fhir:value [
+         a fhir:code ;
+         fhir:v "active"
+       ]
+     ] [
+       fhir:code [ fhir:v "niveau" ] ;
+       fhir:value [
+         a fhir:integer ;
+         fhir:v 2
+       ]
+     ] [
+       fhir:code [ fhir:v "parent" ] ;
+       fhir:value [
+         a fhir:code ;
+         fhir:v "04"
+       ]
+     ] [
+       fhir:code [ fhir:v "AutoriteRegulationFiness" ] ;
+       fhir:value [
+         a fhir:boolean ;
+         fhir:v true
+       ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "DREETS-11" ] ;
+     fhir:display [ fhir:v "DREETS-11 : Direction régionale interdépartementale de l'économie de l'emploi du travail et des solidarités d'Ile de France" ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "fr-FR" ] ;
+       fhir:use [
+         a sct:900000000000003001 ;
+         fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "900000000000003001" ]
+       ] ;
+       fhir:value [ fhir:v "DREETS Ile de France" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2024-01-01T12:00:00+01:00"^^xsd:dateTime
+       ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2024-01-01T12:00:00+01:00"^^xsd:dateTime
+       ]
+     ] [
+       fhir:code [ fhir:v "status" ] ;
+       fhir:value [
+         a fhir:code ;
+         fhir:v "active"
+       ]
+     ] [
+       fhir:code [ fhir:v "niveau" ] ;
+       fhir:value [
+         a fhir:integer ;
+         fhir:v 2
+       ]
+     ] [
+       fhir:code [ fhir:v "parent" ] ;
+       fhir:value [
+         a fhir:code ;
+         fhir:v "04"
+       ]
+     ] [
+       fhir:code [ fhir:v "AutoriteRegulationFiness" ] ;
+       fhir:value [
+         a fhir:boolean ;
+         fhir:v true
+       ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "DREETS-24" ] ;
+     fhir:display [ fhir:v "DREETS-24 :  Direction régionale interdépartementale de l'économie de l'emploi du travail et des solidarités Centre-Val de Loire" ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "fr-FR" ] ;
+       fhir:use [
+         a sct:900000000000003001 ;
+         fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "900000000000003001" ]
+       ] ;
+       fhir:value [ fhir:v "DREETS Centre-Val de Loire" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2024-01-01T12:00:00+01:00"^^xsd:dateTime
+       ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2024-01-01T12:00:00+01:00"^^xsd:dateTime
+       ]
+     ] [
+       fhir:code [ fhir:v "status" ] ;
+       fhir:value [
+         a fhir:code ;
+         fhir:v "active"
+       ]
+     ] [
+       fhir:code [ fhir:v "niveau" ] ;
+       fhir:value [
+         a fhir:integer ;
+         fhir:v 2
+       ]
+     ] [
+       fhir:code [ fhir:v "parent" ] ;
+       fhir:value [
+         a fhir:code ;
+         fhir:v "04"
+       ]
+     ] [
+       fhir:code [ fhir:v "AutoriteRegulationFiness" ] ;
+       fhir:value [
+         a fhir:boolean ;
+         fhir:v true
+       ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "DREETS-27" ] ;
+     fhir:display [ fhir:v "DREETS-27 :  Direction régionale interdépartementale de l'économie de l'emploi du travail et des solidarités Bourgogne-Franche-Comté" ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "fr-FR" ] ;
+       fhir:use [
+         a sct:900000000000003001 ;
+         fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "900000000000003001" ]
+       ] ;
+       fhir:value [ fhir:v "DREETS Bourgogne-Franche-Comté" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2024-01-01T12:00:00+01:00"^^xsd:dateTime
+       ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2024-01-01T12:00:00+01:00"^^xsd:dateTime
+       ]
+     ] [
+       fhir:code [ fhir:v "status" ] ;
+       fhir:value [
+         a fhir:code ;
+         fhir:v "active"
+       ]
+     ] [
+       fhir:code [ fhir:v "niveau" ] ;
+       fhir:value [
+         a fhir:integer ;
+         fhir:v 2
+       ]
+     ] [
+       fhir:code [ fhir:v "parent" ] ;
+       fhir:value [
+         a fhir:code ;
+         fhir:v "04"
+       ]
+     ] [
+       fhir:code [ fhir:v "AutoriteRegulationFiness" ] ;
+       fhir:value [
+         a fhir:boolean ;
+         fhir:v true
+       ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "DREETS-28" ] ;
+     fhir:display [ fhir:v "DREETS-28 Direction régionale interdépartementale de l'économie de l'emploi du travail et des solidarités Normandie" ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "fr-FR" ] ;
+       fhir:use [
+         a sct:900000000000003001 ;
+         fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "900000000000003001" ]
+       ] ;
+       fhir:value [ fhir:v "DREETS Normandie" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2024-01-01T12:00:00+01:00"^^xsd:dateTime
+       ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2024-01-01T12:00:00+01:00"^^xsd:dateTime
+       ]
+     ] [
+       fhir:code [ fhir:v "status" ] ;
+       fhir:value [
+         a fhir:code ;
+         fhir:v "active"
+       ]
+     ] [
+       fhir:code [ fhir:v "niveau" ] ;
+       fhir:value [
+         a fhir:integer ;
+         fhir:v 2
+       ]
+     ] [
+       fhir:code [ fhir:v "parent" ] ;
+       fhir:value [
+         a fhir:code ;
+         fhir:v "04"
+       ]
+     ] [
+       fhir:code [ fhir:v "AutoriteRegulationFiness" ] ;
+       fhir:value [
+         a fhir:boolean ;
+         fhir:v true
+       ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "DREETS-32" ] ;
+     fhir:display [ fhir:v "DREETS-32 Direction régionale interdépartementale de l'économie de l'emploi du travail et des solidarités Hauts-de-France" ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "fr-FR" ] ;
+       fhir:use [
+         a sct:900000000000003001 ;
+         fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "900000000000003001" ]
+       ] ;
+       fhir:value [ fhir:v "DREETS Hauts-de-France" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2024-01-01T12:00:00+01:00"^^xsd:dateTime
+       ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2024-01-01T12:00:00+01:00"^^xsd:dateTime
+       ]
+     ] [
+       fhir:code [ fhir:v "status" ] ;
+       fhir:value [
+         a fhir:code ;
+         fhir:v "active"
+       ]
+     ] [
+       fhir:code [ fhir:v "niveau" ] ;
+       fhir:value [
+         a fhir:integer ;
+         fhir:v 2
+       ]
+     ] [
+       fhir:code [ fhir:v "parent" ] ;
+       fhir:value [
+         a fhir:code ;
+         fhir:v "04"
+       ]
+     ] [
+       fhir:code [ fhir:v "AutoriteRegulationFiness" ] ;
+       fhir:value [
+         a fhir:boolean ;
+         fhir:v true
+       ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "DREETS-44" ] ;
+     fhir:display [ fhir:v "DREETS-44 Direction régionale interdépartementale de l'économie de l'emploi du travail et des solidarités Grand Est" ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "fr-FR" ] ;
+       fhir:use [
+         a sct:900000000000003001 ;
+         fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "900000000000003001" ]
+       ] ;
+       fhir:value [ fhir:v "DREETS Grand Est" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2024-01-01T12:00:00+01:00"^^xsd:dateTime
+       ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2024-01-01T12:00:00+01:00"^^xsd:dateTime
+       ]
+     ] [
+       fhir:code [ fhir:v "status" ] ;
+       fhir:value [
+         a fhir:code ;
+         fhir:v "active"
+       ]
+     ] [
+       fhir:code [ fhir:v "niveau" ] ;
+       fhir:value [
+         a fhir:integer ;
+         fhir:v 2
+       ]
+     ] [
+       fhir:code [ fhir:v "parent" ] ;
+       fhir:value [
+         a fhir:code ;
+         fhir:v "04"
+       ]
+     ] [
+       fhir:code [ fhir:v "AutoriteRegulationFiness" ] ;
+       fhir:value [
+         a fhir:boolean ;
+         fhir:v true
+       ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "DREETS-52" ] ;
+     fhir:display [ fhir:v "DREETS-52 Direction régionale interdépartementale de l'économie de l'emploi du travail et des solidarités Pays de la Loire" ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "fr-FR" ] ;
+       fhir:use [
+         a sct:900000000000003001 ;
+         fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "900000000000003001" ]
+       ] ;
+       fhir:value [ fhir:v "DREETS Pays de la Loire" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2024-01-01T12:00:00+01:00"^^xsd:dateTime
+       ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2024-01-01T12:00:00+01:00"^^xsd:dateTime
+       ]
+     ] [
+       fhir:code [ fhir:v "status" ] ;
+       fhir:value [
+         a fhir:code ;
+         fhir:v "active"
+       ]
+     ] [
+       fhir:code [ fhir:v "niveau" ] ;
+       fhir:value [
+         a fhir:integer ;
+         fhir:v 2
+       ]
+     ] [
+       fhir:code [ fhir:v "parent" ] ;
+       fhir:value [
+         a fhir:code ;
+         fhir:v "04"
+       ]
+     ] [
+       fhir:code [ fhir:v "AutoriteRegulationFiness" ] ;
+       fhir:value [
+         a fhir:boolean ;
+         fhir:v true
+       ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "DREETS-53" ] ;
+     fhir:display [ fhir:v "DREETS-53 Direction régionale interdépartementale de l'économie de l'emploi du travail et des solidarités Bretagne" ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "fr-FR" ] ;
+       fhir:use [
+         a sct:900000000000003001 ;
+         fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "900000000000003001" ]
+       ] ;
+       fhir:value [ fhir:v "DREETS Bretagne" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2024-01-01T12:00:00+01:00"^^xsd:dateTime
+       ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2024-01-01T12:00:00+01:00"^^xsd:dateTime
+       ]
+     ] [
+       fhir:code [ fhir:v "status" ] ;
+       fhir:value [
+         a fhir:code ;
+         fhir:v "active"
+       ]
+     ] [
+       fhir:code [ fhir:v "niveau" ] ;
+       fhir:value [
+         a fhir:integer ;
+         fhir:v 2
+       ]
+     ] [
+       fhir:code [ fhir:v "parent" ] ;
+       fhir:value [
+         a fhir:code ;
+         fhir:v "04"
+       ]
+     ] [
+       fhir:code [ fhir:v "AutoriteRegulationFiness" ] ;
+       fhir:value [
+         a fhir:boolean ;
+         fhir:v true
+       ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "DREETS-75" ] ;
+     fhir:display [ fhir:v "DREETS-75 Direction régionale interdépartementale de l'économie de l'emploi du travail et des solidarités Nouvelle-Aquitaine" ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "fr-FR" ] ;
+       fhir:use [
+         a sct:900000000000003001 ;
+         fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "900000000000003001" ]
+       ] ;
+       fhir:value [ fhir:v "DREETS Nouvelle-Aquitaine" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2024-01-01T12:00:00+01:00"^^xsd:dateTime
+       ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2024-01-01T12:00:00+01:00"^^xsd:dateTime
+       ]
+     ] [
+       fhir:code [ fhir:v "status" ] ;
+       fhir:value [
+         a fhir:code ;
+         fhir:v "active"
+       ]
+     ] [
+       fhir:code [ fhir:v "niveau" ] ;
+       fhir:value [
+         a fhir:integer ;
+         fhir:v 2
+       ]
+     ] [
+       fhir:code [ fhir:v "parent" ] ;
+       fhir:value [
+         a fhir:code ;
+         fhir:v "04"
+       ]
+     ] [
+       fhir:code [ fhir:v "AutoriteRegulationFiness" ] ;
+       fhir:value [
+         a fhir:boolean ;
+         fhir:v true
+       ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "DREETS-76" ] ;
+     fhir:display [ fhir:v "DREETS-76 Direction régionale interdépartementale de l'économie de l'emploi du travail et des solidarités Occitanie" ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "fr-FR" ] ;
+       fhir:use [
+         a sct:900000000000003001 ;
+         fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "900000000000003001" ]
+       ] ;
+       fhir:value [ fhir:v "DREETS Occitanie" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2024-01-01T12:00:00+01:00"^^xsd:dateTime
+       ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2024-01-01T12:00:00+01:00"^^xsd:dateTime
+       ]
+     ] [
+       fhir:code [ fhir:v "status" ] ;
+       fhir:value [
+         a fhir:code ;
+         fhir:v "active"
+       ]
+     ] [
+       fhir:code [ fhir:v "niveau" ] ;
+       fhir:value [
+         a fhir:integer ;
+         fhir:v 2
+       ]
+     ] [
+       fhir:code [ fhir:v "parent" ] ;
+       fhir:value [
+         a fhir:code ;
+         fhir:v "04"
+       ]
+     ] [
+       fhir:code [ fhir:v "AutoriteRegulationFiness" ] ;
+       fhir:value [
+         a fhir:boolean ;
+         fhir:v true
+       ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "DREETS-84" ] ;
+     fhir:display [ fhir:v "DREETS-84 Direction régionale interdépartementale de l'économie de l'emploi du travail et des solidarités Auvergne-Rhône-Alpes" ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "fr-FR" ] ;
+       fhir:use [
+         a sct:900000000000003001 ;
+         fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "900000000000003001" ]
+       ] ;
+       fhir:value [ fhir:v "DREETS Auvergne-Rhône-Alpes" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2024-01-01T12:00:00+01:00"^^xsd:dateTime
+       ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2024-01-01T12:00:00+01:00"^^xsd:dateTime
+       ]
+     ] [
+       fhir:code [ fhir:v "status" ] ;
+       fhir:value [
+         a fhir:code ;
+         fhir:v "active"
+       ]
+     ] [
+       fhir:code [ fhir:v "niveau" ] ;
+       fhir:value [
+         a fhir:integer ;
+         fhir:v 2
+       ]
+     ] [
+       fhir:code [ fhir:v "parent" ] ;
+       fhir:value [
+         a fhir:code ;
+         fhir:v "04"
+       ]
+     ] [
+       fhir:code [ fhir:v "AutoriteRegulationFiness" ] ;
+       fhir:value [
+         a fhir:boolean ;
+         fhir:v true
+       ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "DREETS-93" ] ;
+     fhir:display [ fhir:v "DREETS-93 Direction régionale interdépartementale de l'économie de l'emploi du travail et des solidarités Provence-Alpes-Côte d'Azur" ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "fr-FR" ] ;
+       fhir:use [
+         a sct:900000000000003001 ;
+         fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "900000000000003001" ]
+       ] ;
+       fhir:value [ fhir:v "DREETS PACA" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2024-01-01T12:00:00+01:00"^^xsd:dateTime
+       ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2024-01-01T12:00:00+01:00"^^xsd:dateTime
+       ]
+     ] [
+       fhir:code [ fhir:v "status" ] ;
+       fhir:value [
+         a fhir:code ;
+         fhir:v "active"
+       ]
+     ] [
+       fhir:code [ fhir:v "niveau" ] ;
+       fhir:value [
+         a fhir:integer ;
+         fhir:v 2
+       ]
+     ] [
+       fhir:code [ fhir:v "parent" ] ;
+       fhir:value [
+         a fhir:code ;
+         fhir:v "04"
+       ]
+     ] [
+       fhir:code [ fhir:v "AutoriteRegulationFiness" ] ;
+       fhir:value [
+         a fhir:boolean ;
+         fhir:v true
+       ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "DREETS-94" ] ;
+     fhir:display [ fhir:v "DREETS-94 Direction régionale interdépartementale de l'économie de l'emploi du travail et des solidarités de Corse" ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "fr-FR" ] ;
+       fhir:use [
+         a sct:900000000000003001 ;
+         fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "900000000000003001" ]
+       ] ;
+       fhir:value [ fhir:v "DREETS de Corse" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2024-01-01T12:00:00+01:00"^^xsd:dateTime
+       ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2024-01-01T12:00:00+01:00"^^xsd:dateTime
+       ]
+     ] [
+       fhir:code [ fhir:v "status" ] ;
+       fhir:value [
+         a fhir:code ;
+         fhir:v "active"
+       ]
+     ] [
+       fhir:code [ fhir:v "niveau" ] ;
+       fhir:value [
+         a fhir:integer ;
+         fhir:v 2
+       ]
+     ] [
+       fhir:code [ fhir:v "parent" ] ;
+       fhir:value [
+         a fhir:code ;
+         fhir:v "04"
+       ]
+     ] [
+       fhir:code [ fhir:v "AutoriteRegulationFiness" ] ;
+       fhir:value [
+         a fhir:boolean ;
+         fhir:v true
+       ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "DRHIL-11" ] ;
+     fhir:display [ fhir:v "DRHIL-11 : Direction régionale et interdépartementale de l'Hébergement et du Logement Ile de France" ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "fr-FR" ] ;
+       fhir:use [
+         a sct:900000000000003001 ;
+         fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "900000000000003001" ]
+       ] ;
+       fhir:value [ fhir:v "DRHIL Ile de France" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2024-01-01T12:00:00+01:00"^^xsd:dateTime
+       ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2024-01-01T12:00:00+01:00"^^xsd:dateTime
+       ]
+     ] [
+       fhir:code [ fhir:v "status" ] ;
+       fhir:value [
+         a fhir:code ;
+         fhir:v "active"
+       ]
+     ] [
+       fhir:code [ fhir:v "niveau" ] ;
+       fhir:value [
+         a fhir:integer ;
+         fhir:v 2
+       ]
+     ] [
+       fhir:code [ fhir:v "parent" ] ;
+       fhir:value [
+         a fhir:code ;
+         fhir:v "05"
+       ]
+     ] [
+       fhir:code [ fhir:v "AutoriteRegulationFiness" ] ;
+       fhir:value [
+         a fhir:boolean ;
+         fhir:v true
+       ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "CD-01" ] ;
+     fhir:display [ fhir:v "CD-01 : Conseil départemental de l'Ain" ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "fr-FR" ] ;
+       fhir:use [
+         a sct:900000000000003001 ;
+         fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "900000000000003001" ]
+       ] ;
+       fhir:value [ fhir:v "CD Ain" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2024-01-01T12:00:00+01:00"^^xsd:dateTime
+       ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2024-01-01T12:00:00+01:00"^^xsd:dateTime
+       ]
+     ] [
+       fhir:code [ fhir:v "status" ] ;
+       fhir:value [
+         a fhir:code ;
+         fhir:v "active"
+       ]
+     ] [
+       fhir:code [ fhir:v "niveau" ] ;
+       fhir:value [
+         a fhir:integer ;
+         fhir:v 2
+       ]
+     ] [
+       fhir:code [ fhir:v "parent" ] ;
+       fhir:value [
+         a fhir:code ;
+         fhir:v "06"
+       ]
+     ] [
+       fhir:code [ fhir:v "AutoriteRegulationFiness" ] ;
+       fhir:value [
+         a fhir:boolean ;
+         fhir:v true
+       ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "CD-02" ] ;
+     fhir:display [ fhir:v "CD-02 : Conseil départemental del'Aisne" ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "fr-FR" ] ;
+       fhir:use [
+         a sct:900000000000003001 ;
+         fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "900000000000003001" ]
+       ] ;
+       fhir:value [ fhir:v "CD Aisne" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2024-01-01T12:00:00+01:00"^^xsd:dateTime
+       ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2024-01-01T12:00:00+01:00"^^xsd:dateTime
+       ]
+     ] [
+       fhir:code [ fhir:v "status" ] ;
+       fhir:value [
+         a fhir:code ;
+         fhir:v "active"
+       ]
+     ] [
+       fhir:code [ fhir:v "niveau" ] ;
+       fhir:value [
+         a fhir:integer ;
+         fhir:v 2
+       ]
+     ] [
+       fhir:code [ fhir:v "parent" ] ;
+       fhir:value [
+         a fhir:code ;
+         fhir:v "06"
+       ]
+     ] [
+       fhir:code [ fhir:v "AutoriteRegulationFiness" ] ;
+       fhir:value [
+         a fhir:boolean ;
+         fhir:v true
+       ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "CD-03" ] ;
+     fhir:display [ fhir:v "CD-03 : Conseil départemental de l'Allier" ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "fr-FR" ] ;
+       fhir:use [
+         a sct:900000000000003001 ;
+         fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "900000000000003001" ]
+       ] ;
+       fhir:value [ fhir:v "CD Allier" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2024-01-01T12:00:00+01:00"^^xsd:dateTime
+       ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2024-01-01T12:00:00+01:00"^^xsd:dateTime
+       ]
+     ] [
+       fhir:code [ fhir:v "status" ] ;
+       fhir:value [
+         a fhir:code ;
+         fhir:v "active"
+       ]
+     ] [
+       fhir:code [ fhir:v "niveau" ] ;
+       fhir:value [
+         a fhir:integer ;
+         fhir:v 2
+       ]
+     ] [
+       fhir:code [ fhir:v "parent" ] ;
+       fhir:value [
+         a fhir:code ;
+         fhir:v "06"
+       ]
+     ] [
+       fhir:code [ fhir:v "AutoriteRegulationFiness" ] ;
+       fhir:value [
+         a fhir:boolean ;
+         fhir:v true
+       ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "CD-15" ] ;
+     fhir:display [ fhir:v "CD-15 : Conseil départemental du Cantal" ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "fr-FR" ] ;
+       fhir:use [
+         a sct:900000000000003001 ;
+         fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "900000000000003001" ]
+       ] ;
+       fhir:value [ fhir:v "CD Cantal" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2024-01-01T12:00:00+01:00"^^xsd:dateTime
+       ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2024-01-01T12:00:00+01:00"^^xsd:dateTime
+       ]
+     ] [
+       fhir:code [ fhir:v "status" ] ;
+       fhir:value [
+         a fhir:code ;
+         fhir:v "active"
+       ]
+     ] [
+       fhir:code [ fhir:v "niveau" ] ;
+       fhir:value [
+         a fhir:integer ;
+         fhir:v 2
+       ]
+     ] [
+       fhir:code [ fhir:v "parent" ] ;
+       fhir:value [
+         a fhir:code ;
+         fhir:v "06"
+       ]
+     ] [
+       fhir:code [ fhir:v "AutoriteEnregistrementFiness" ] ;
+       fhir:value [
+         a fhir:boolean ;
+         fhir:v true
+       ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "CD-54" ] ;
+     fhir:display [ fhir:v "CD-54 : Conseil départemental de Meurthe et Moselle" ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "fr-FR" ] ;
+       fhir:use [
+         a sct:900000000000003001 ;
+         fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "900000000000003001" ]
+       ] ;
+       fhir:value [ fhir:v "CD Meurthe et Moselle" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2024-01-01T12:00:00+01:00"^^xsd:dateTime
+       ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2024-01-01T12:00:00+01:00"^^xsd:dateTime
+       ]
+     ] [
+       fhir:code [ fhir:v "status" ] ;
+       fhir:value [
+         a fhir:code ;
+         fhir:v "active"
+       ]
+     ] [
+       fhir:code [ fhir:v "niveau" ] ;
+       fhir:value [
+         a fhir:integer ;
+         fhir:v 2
+       ]
+     ] [
+       fhir:code [ fhir:v "parent" ] ;
+       fhir:value [
+         a fhir:code ;
+         fhir:v "06"
+       ]
+     ] [
+       fhir:code [ fhir:v "AutoriteEnregistrementFiness" ] ;
+       fhir:value [
+         a fhir:boolean ;
+         fhir:v true
+       ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "CD-58" ] ;
+     fhir:display [ fhir:v "CD-58 : Conseil départemental de la Nièvre" ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "fr-FR" ] ;
+       fhir:use [
+         a sct:900000000000003001 ;
+         fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "900000000000003001" ]
+       ] ;
+       fhir:value [ fhir:v "CD Nièvre" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2024-01-01T12:00:00+01:00"^^xsd:dateTime
+       ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2024-01-01T12:00:00+01:00"^^xsd:dateTime
+       ]
+     ] [
+       fhir:code [ fhir:v "status" ] ;
+       fhir:value [
+         a fhir:code ;
+         fhir:v "active"
+       ]
+     ] [
+       fhir:code [ fhir:v "niveau" ] ;
+       fhir:value [
+         a fhir:integer ;
+         fhir:v 2
+       ]
+     ] [
+       fhir:code [ fhir:v "parent" ] ;
+       fhir:value [
+         a fhir:code ;
+         fhir:v "06"
+       ]
+     ] [
+       fhir:code [ fhir:v "AutoriteEnregistrementFiness" ] ;
+       fhir:value [
+         a fhir:boolean ;
+         fhir:v true
+       ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "CD-94" ] ;
+     fhir:display [ fhir:v "CD-94 : Conseil départemental du Val de Marne" ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "fr-FR" ] ;
+       fhir:use [
+         a sct:900000000000003001 ;
+         fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "900000000000003001" ]
+       ] ;
+       fhir:value [ fhir:v "CD Val de Marne" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2024-01-01T12:00:00+01:00"^^xsd:dateTime
+       ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2024-01-01T12:00:00+01:00"^^xsd:dateTime
+       ]
+     ] [
+       fhir:code [ fhir:v "status" ] ;
+       fhir:value [
+         a fhir:code ;
+         fhir:v "active"
+       ]
+     ] [
+       fhir:code [ fhir:v "niveau" ] ;
+       fhir:value [
+         a fhir:integer ;
+         fhir:v 2
+       ]
+     ] [
+       fhir:code [ fhir:v "parent" ] ;
+       fhir:value [
+         a fhir:code ;
+         fhir:v "06"
+       ]
+     ] [
+       fhir:code [ fhir:v "AutoriteEnregistrementFiness" ] ;
+       fhir:value [
+         a fhir:boolean ;
+         fhir:v true
+       ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "CD-95" ] ;
+     fhir:display [ fhir:v "CD-95 : Conseil départemental du Val d'Oise" ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "fr-FR" ] ;
+       fhir:use [
+         a sct:900000000000003001 ;
+         fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "900000000000003001" ]
+       ] ;
+       fhir:value [ fhir:v "CD Val d'Oise" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2024-01-01T12:00:00+01:00"^^xsd:dateTime
+       ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2024-01-01T12:00:00+01:00"^^xsd:dateTime
+       ]
+     ] [
+       fhir:code [ fhir:v "status" ] ;
+       fhir:value [
+         a fhir:code ;
+         fhir:v "active"
+       ]
+     ] [
+       fhir:code [ fhir:v "niveau" ] ;
+       fhir:value [
+         a fhir:integer ;
+         fhir:v 2
+       ]
+     ] [
+       fhir:code [ fhir:v "parent" ] ;
+       fhir:value [
+         a fhir:code ;
+         fhir:v "06"
+       ]
+     ] [
+       fhir:code [ fhir:v "AutoriteRegulationFiness" ] ;
+       fhir:value [
+         a fhir:boolean ;
+         fhir:v true
+       ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "DDETS-01" ] ;
+     fhir:display [ fhir:v "DDETS-01 : Direction départementale de l'emploi, du travail et des solidarités Ain" ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "fr-FR" ] ;
+       fhir:use [
+         a sct:900000000000003001 ;
+         fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "900000000000003001" ]
+       ] ;
+       fhir:value [ fhir:v "DDETS Ain" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2024-01-01T12:00:00+01:00"^^xsd:dateTime
+       ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2024-01-01T12:00:00+01:00"^^xsd:dateTime
+       ]
+     ] [
+       fhir:code [ fhir:v "status" ] ;
+       fhir:value [
+         a fhir:code ;
+         fhir:v "active"
+       ]
+     ] [
+       fhir:code [ fhir:v "niveau" ] ;
+       fhir:value [
+         a fhir:integer ;
+         fhir:v 2
+       ]
+     ] [
+       fhir:code [ fhir:v "parent" ] ;
+       fhir:value [
+         a fhir:code ;
+         fhir:v "07"
+       ]
+     ] [
+       fhir:code [ fhir:v "AutoriteRegulationFiness" ] ;
+       fhir:value [
+         a fhir:boolean ;
+         fhir:v true
+       ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "DDETS-02" ] ;
+     fhir:display [ fhir:v "DDETS-02 : Direction départementale de l'emploi, du travail et des solidarités Aisne" ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "fr-FR" ] ;
+       fhir:use [
+         a sct:900000000000003001 ;
+         fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "900000000000003001" ]
+       ] ;
+       fhir:value [ fhir:v "DDETS Aisne" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2024-01-01T12:00:00+01:00"^^xsd:dateTime
+       ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2024-01-01T12:00:00+01:00"^^xsd:dateTime
+       ]
+     ] [
+       fhir:code [ fhir:v "status" ] ;
+       fhir:value [
+         a fhir:code ;
+         fhir:v "active"
+       ]
+     ] [
+       fhir:code [ fhir:v "niveau" ] ;
+       fhir:value [
+         a fhir:integer ;
+         fhir:v 2
+       ]
+     ] [
+       fhir:code [ fhir:v "parent" ] ;
+       fhir:value [
+         a fhir:code ;
+         fhir:v "07"
+       ]
+     ] [
+       fhir:code [ fhir:v "AutoriteRegulationFiness" ] ;
+       fhir:value [
+         a fhir:boolean ;
+         fhir:v true
+       ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "DDETS-03" ] ;
+     fhir:display [ fhir:v "DDETS-03 : Direction départementale de l'emploi, du travail et des solidarités Allier" ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "fr-FR" ] ;
+       fhir:use [
+         a sct:900000000000003001 ;
+         fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "900000000000003001" ]
+       ] ;
+       fhir:value [ fhir:v "DDETS Allier" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2024-01-01T12:00:00+01:00"^^xsd:dateTime
+       ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2024-01-01T12:00:00+01:00"^^xsd:dateTime
+       ]
+     ] [
+       fhir:code [ fhir:v "status" ] ;
+       fhir:value [
+         a fhir:code ;
+         fhir:v "active"
+       ]
+     ] [
+       fhir:code [ fhir:v "niveau" ] ;
+       fhir:value [
+         a fhir:integer ;
+         fhir:v 2
+       ]
+     ] [
+       fhir:code [ fhir:v "parent" ] ;
+       fhir:value [
+         a fhir:code ;
+         fhir:v "07"
+       ]
+     ] [
+       fhir:code [ fhir:v "AutoriteRegulationFiness" ] ;
+       fhir:value [
+         a fhir:boolean ;
+         fhir:v true
+       ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "DDETS-95" ] ;
+     fhir:display [ fhir:v "DDETS-95 :Direction départementale de l'emploi, du travail et des solidarités Val d'Oise" ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "fr-FR" ] ;
+       fhir:use [
+         a sct:900000000000003001 ;
+         fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "900000000000003001" ]
+       ] ;
+       fhir:value [ fhir:v "DEETS Val d'Oise" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2024-01-01T12:00:00+01:00"^^xsd:dateTime
+       ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2024-01-01T12:00:00+01:00"^^xsd:dateTime
+       ]
+     ] [
+       fhir:code [ fhir:v "status" ] ;
+       fhir:value [
+         a fhir:code ;
+         fhir:v "active"
+       ]
+     ] [
+       fhir:code [ fhir:v "niveau" ] ;
+       fhir:value [
+         a fhir:integer ;
+         fhir:v 2
+       ]
+     ] [
+       fhir:code [ fhir:v "parent" ] ;
+       fhir:value [
+         a fhir:code ;
+         fhir:v "07"
+       ]
+     ] [
+       fhir:code [ fhir:v "AutoriteRegulationFiness" ] ;
+       fhir:value [
+         a fhir:boolean ;
+         fhir:v true
+       ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "SSA" ] ;
+     fhir:display [ fhir:v "Service de santé des armées" ] ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2019-08-30T12:00:00+01:00"^^xsd:dateTime
+       ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2019-08-30T12:00:00+01:00"^^xsd:dateTime
+       ]
+     ] [
+       fhir:code [ fhir:v "status" ] ;
+       fhir:value [
+         a fhir:code ;
+         fhir:v "active"
+       ]
+     ] [
+       fhir:code [ fhir:v "niveau" ] ;
+       fhir:value [
+         a fhir:integer ;
+         fhir:v 2
+       ]
+     ] [
+       fhir:code [ fhir:v "parent" ] ;
+       fhir:value [
+         a fhir:code ;
+         fhir:v "08"
+       ]
+     ] [
+       fhir:code [ fhir:v "AutoriteEnregistrementRass" ] ;
+       fhir:value [
+         a fhir:boolean ;
+         fhir:v true
+       ]
+     ] )
+  ] ) . # 
+
+# -------------------------------------------------------------------------------------
+

@@ -1,0 +1,25 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "cac924be-fde2-4b92-9c88-b7f4864ca532-2544",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/cac924be-fde2-4b92-9c88-b7f4864ca532-2544",
+  "name" : "IntersectionJdvResultatDepistageBilirubinemieCisisAndJdvResultatDepistageBilirubinemieCisis",
+  "title" : "Intersection of JDV Resultat Depistage Bilirubinemie CISIS And JDV Resultat Depistage Bilirubinemie CISIS",
+  "status" : "active",
+  "date" : "2025-09-04T08:20:30+00:00",
+  "compose" : {
+    "include" : [{
+      "concept" : [{
+        "code" : "75976002",
+        "display" : "risque faible de"
+      },
+      {
+        "code" : "25594002",
+        "display" : "risque modéré de"
+      },
+      {
+        "code" : "15508007",
+        "display" : "risque élevé de"
+      }]
+    }]
+  }
+}

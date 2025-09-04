@@ -1,0 +1,33 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "cac924be-fde2-4b92-9c88-b7f4864ca532-2232",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/cac924be-fde2-4b92-9c88-b7f4864ca532-2232",
+  "name" : "IntersectionJdvMediatypeCorpsCdaNonStructureCisisAndJdvMediatypeCorpsCdaNonStructureCisis",
+  "title" : "Intersection of Jdv Mediatype Corps Cda Non Structure CISIS And Jdv Mediatype Corps Cda Non Structure CISIS",
+  "status" : "active",
+  "date" : "2025-09-04T08:20:30+00:00",
+  "compose" : {
+    "include" : [{
+      "concept" : [{
+        "code" : "application/pdf",
+        "display" : "PDF"
+      },
+      {
+        "code" : "text/plain",
+        "display" : "Plain Text"
+      },
+      {
+        "code" : "text/rtf",
+        "display" : "RTF Text"
+      },
+      {
+        "code" : "image/jpeg",
+        "display" : "JPEG Image"
+      },
+      {
+        "code" : "image/tiff",
+        "display" : "TIFF Image"
+      }]
+    }]
+  }
+}

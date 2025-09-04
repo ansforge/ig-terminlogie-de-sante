@@ -1,0 +1,31 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "cac924be-fde2-4b92-9c88-b7f4864ca532-2310",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/cac924be-fde2-4b92-9c88-b7f4864ca532-2310",
+  "name" : "IntersectionJdvModeSortieObpSneCisisAndJdvModeSortieObpSneCisis",
+  "title" : "Intersection of JDV Mode Sortie Obp Sne CISIS And JDV Mode Sortie Obp Sne CISIS",
+  "status" : "active",
+  "date" : "2025-09-04T08:20:30+00:00",
+  "compose" : {
+    "include" : [{
+      "concept" : [{
+        "code" : "GEN-302",
+        "display" : "Avec sa mère"
+      },
+      {
+        "code" : "GEN-092.06.09",
+        "display" : "Autre mode de sortie"
+      }]
+    },
+    {
+      "concept" : [{
+        "code" : "419620001",
+        "display" : "mort"
+      },
+      {
+        "code" : "107724000",
+        "display" : "transfert du patient"
+      }]
+    }]
+  }
+}

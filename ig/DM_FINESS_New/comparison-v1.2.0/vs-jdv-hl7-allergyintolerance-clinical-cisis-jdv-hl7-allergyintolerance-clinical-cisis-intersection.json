@@ -1,0 +1,25 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "cac924be-fde2-4b92-9c88-b7f4864ca532-2016",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/cac924be-fde2-4b92-9c88-b7f4864ca532-2016",
+  "name" : "IntersectionAllergyIntoleranceClinicalStatusCodesAndAllergyIntoleranceClinicalStatusCodes",
+  "title" : "Intersection of AllergyIntolerance Clinical Status Codes And AllergyIntolerance Clinical Status Codes",
+  "status" : "active",
+  "date" : "2025-09-04T08:20:30+00:00",
+  "compose" : {
+    "include" : [{
+      "concept" : [{
+        "code" : "active",
+        "display" : "Actif"
+      },
+      {
+        "code" : "inactive",
+        "display" : "Inactif"
+      },
+      {
+        "code" : "resolved",
+        "display" : "Résolu"
+      }]
+    }]
+  }
+}

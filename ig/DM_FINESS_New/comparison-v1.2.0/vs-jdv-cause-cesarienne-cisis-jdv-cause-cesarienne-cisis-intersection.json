@@ -1,0 +1,25 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "cac924be-fde2-4b92-9c88-b7f4864ca532-1728",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/cac924be-fde2-4b92-9c88-b7f4864ca532-1728",
+  "name" : "IntersectionJdvCauseCesarienneCisisAndJdvCauseCesarienneCisis",
+  "title" : "Intersection of JDV Cause Cesarienne CISIS And JDV Cause Cesarienne CISIS",
+  "status" : "active",
+  "date" : "2025-09-04T08:20:29+00:00",
+  "compose" : {
+    "include" : [{
+      "concept" : [{
+        "code" : "MED-219",
+        "display" : "Cause maternelle"
+      },
+      {
+        "code" : "MED-210",
+        "display" : "Cause fœtale"
+      },
+      {
+        "code" : "MED-1272",
+        "display" : "Cause materno-fœtale"
+      }]
+    }]
+  }
+}

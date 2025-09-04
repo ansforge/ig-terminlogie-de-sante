@@ -1,0 +1,35 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "cac924be-fde2-4b92-9c88-b7f4864ca532-929",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/cac924be-fde2-4b92-9c88-b7f4864ca532-929",
+  "name" : "UnionJDV_J128_TypeCarte_RASSAndJDV_J128_TypeCarte_RASS",
+  "title" : "Union of null And null",
+  "status" : "active",
+  "date" : "2025-09-04T08:20:29+00:00",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "FR"
+    }]
+  }],
+  "compose" : {
+    "include" : [{
+      "concept" : [{
+        "code" : "CPA",
+        "display" : "Carte de Personnel Autorisé (CDA/CPA)"
+      },
+      {
+        "code" : "CPE",
+        "display" : "Carte de Personnel d'Etablissement de santé (CDE/CPE)"
+      },
+      {
+        "code" : "CPF",
+        "display" : "Carte de Professionnel de Santé en Formation (CPF)"
+      },
+      {
+        "code" : "CPS",
+        "display" : "Carte de Professionnel de Santé (CPS)"
+      }]
+    }]
+  }
+}

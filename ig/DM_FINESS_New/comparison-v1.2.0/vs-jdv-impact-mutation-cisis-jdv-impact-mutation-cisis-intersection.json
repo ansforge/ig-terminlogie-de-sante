@@ -1,0 +1,21 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "cac924be-fde2-4b92-9c88-b7f4864ca532-2130",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/cac924be-fde2-4b92-9c88-b7f4864ca532-2130",
+  "name" : "IntersectionJdvImpactMutationCisisAndJdvImpactMutationCisis",
+  "title" : "Intersection of JDV Impact Mutation CISIS And JDV Impact Mutation CISIS",
+  "status" : "active",
+  "date" : "2025-09-04T08:20:30+00:00",
+  "compose" : {
+    "include" : [{
+      "concept" : [{
+        "code" : "83185005",
+        "display" : "sensibilité"
+      },
+      {
+        "code" : "30714006",
+        "display" : "résistance"
+      }]
+    }]
+  }
+}
