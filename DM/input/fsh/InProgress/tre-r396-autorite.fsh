@@ -581,6 +581,7 @@ Description: "liste des autorités structurée en plusieurs types d'autorités :
 * #ARS-42 ^property[+].code = #niveau
 * #ARS-42 ^property[=].valueInteger = 2
 * #ARS-42 ^property[+].code = #parent
+* #ARS-42 ^property[=].valueCode = #02
 * #ARS-43 "ARS-43 : Franche-Comté"
 * #ARS-43 ^designation[0].language = #fr-FR
 * #ARS-43 ^designation[=].use.system = "http://snomed.info/sct"
