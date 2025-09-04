@@ -24,7 +24,7 @@ Description: "liste des autorités structurée en plusieurs types d'autorités :
 * ^property[=].uri = "http://hl7.org/fhir/concept-properties#parent"
 * ^property[=].description = "An immediate parent of the concept in the hierarchy"
 * ^property[=].type = #code
-* ^property[0].code = #dateValid
+* ^property[+].code = #dateValid
 * ^property[=].description = "date de validité d'un code concept"
 * ^property[=].type = #dateTime
 * ^property[+].code = #dateMaj
