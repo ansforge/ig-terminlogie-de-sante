@@ -78,7 +78,7 @@ async def main():
         if(not os.path.isfile('../DM/fsh-generated/resources/ValueSet-'+ e_valueSet["id"] + ".json")) :
             ValueSet = await client.reference('ValueSet', e_valueSet["id"]).to_resource()
             ValueSet["language"] = "fr-FR"
-            if(e_valueSet["id"] !="designation-use")
+            if(e_valueSet["id"] !="designation-use") :
                 with open('../input/ontoserver/JDV/'+ e_valueSet["name"]    + "_" +  e_valueSet["id"] + ".json", "w", encoding="utf-8") as f:
                     f.write(json.dumps(ValueSet))       
 
