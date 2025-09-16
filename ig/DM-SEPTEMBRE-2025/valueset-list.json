@@ -1343,7 +1343,7 @@
     },
     {
       "url" : "https://mos.esante.gouv.fr/NOS/JDV_J185-TypeFermeture-ROR/FHIR/JDV-J185-TypeFermeture-ROR",
-      "version" : "20220930120000",
+      "version" : "20250915120000",
       "status" : "active",
       "name" : "JDV_J185_TypeFermeture_ROR",
       "title" : null,
@@ -1582,7 +1582,7 @@
     },
     {
       "url" : "https://mos.esante.gouv.fr/NOS/JDV_J201-TypeFermeture-ROR/FHIR/JDV-J201-TypeFermeture-ROR",
-      "version" : "20220826120000",
+      "version" : "20250915120000",
       "status" : "active",
       "name" : "JDV_J201_TypeFermeture_ROR",
       "title" : null,

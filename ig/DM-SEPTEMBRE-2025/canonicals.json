@@ -24,6 +24,14 @@
     "oids" : ["2.16.840.1.113883.6.96"]
   },
   {
+    "id" : "900000000000207008-20250901",
+    "type" : "CodeSystem",
+    "url" : "http://snomed.info/sct",
+    "version" : "http://snomed.info/sct/900000000000207008/version/20250901",
+    "name" : "SNOMED_CT",
+    "oids" : ["2.16.840.1.113883.6.96"]
+  },
+  {
     "id" : "service-type",
     "type" : "CodeSystem",
     "url" : "http://terminology.hl7.org/CodeSystem/service-type",
@@ -1074,7 +1082,7 @@
     "id" : "JDV-J185-TypeFermeture-ROR",
     "type" : "ValueSet",
     "url" : "https://mos.esante.gouv.fr/NOS/JDV_J185-TypeFermeture-ROR/FHIR/JDV-J185-TypeFermeture-ROR",
-    "version" : "20220930120000",
+    "version" : "20250915120000",
     "name" : "JDV_J185_TypeFermeture_ROR",
     "oids" : ["1.2.250.1.213.3.4.18"]
   },
@@ -1218,7 +1226,7 @@
     "id" : "JDV-J201-TypeFermeture-ROR",
     "type" : "ValueSet",
     "url" : "https://mos.esante.gouv.fr/NOS/JDV_J201-TypeFermeture-ROR/FHIR/JDV-J201-TypeFermeture-ROR",
-    "version" : "20220826120000",
+    "version" : "20250915120000",
     "name" : "JDV_J201_TypeFermeture_ROR",
     "oids" : ["1.2.250.1.213.3.4.33"]
   },
@@ -3449,7 +3457,7 @@
     "id" : "TRE-R286-TypeFermeture",
     "type" : "CodeSystem",
     "url" : "https://mos.esante.gouv.fr/NOS/TRE_R286-TypeFermeture/FHIR/TRE-R286-TypeFermeture",
-    "version" : "20231215120000",
+    "version" : "20250915120000",
     "name" : "TRE_R286_TypeFermeture",
     "oids" : ["1.2.250.1.213.1.6.1.136"]
   },
@@ -4433,14 +4441,14 @@
     "id" : "alignement-nuva-atc",
     "type" : "ConceptMap",
     "url" : "https://smt.esante.gouv.fr/fhir/ConceptMap/alignement-nuva-atc",
-    "version" : "1.0.946",
+    "version" : "1.0.992",
     "name" : "Alignement_Codes_ATC_NUVA_ATC"
   },
   {
     "id" : "alignement-nuva-bdpm",
     "type" : "ConceptMap",
     "url" : "https://smt.esante.gouv.fr/fhir/ConceptMap/alignement-nuva-bdpm",
-    "version" : "1.0.946",
+    "version" : "1.0.992",
     "name" : "Alignement_Codes_CIP_CIS_NUVA_BDPM"
   },
   {
@@ -8221,7 +8229,7 @@
     "id" : "terminologie-bdpm",
     "type" : "CodeSystem",
     "url" : "https://smt.esante.gouv.fr/terminologie-bdpm",
-    "version" : "2025-07-01",
+    "version" : "2025-09-05",
     "name" : "BDPM"
   },
   {
@@ -8235,7 +8243,7 @@
     "id" : "terminologie-ccam",
     "type" : "CodeSystem",
     "url" : "https://smt.esante.gouv.fr/terminologie-ccam",
-    "version" : "v7810",
+    "version" : "v79.10",
     "name" : "CCAM",
     "oids" : ["1.2.250.1.215.300.1"]
   },
@@ -8297,7 +8305,7 @@
     "id" : "terminologie-nabm",
     "type" : "CodeSystem",
     "url" : "https://smt.esante.gouv.fr/terminologie-nabm",
-    "version" : "V98",
+    "version" : "V99",
     "name" : "NABM",
     "oids" : ["1.2.250.1.215.300.2"]
   },
@@ -8305,7 +8313,7 @@
     "id" : "terminologie-nuva",
     "type" : "CodeSystem",
     "url" : "https://smt.esante.gouv.fr/terminologie-nuva",
-    "version" : "1.0.946",
+    "version" : "1.0.992",
     "name" : "NUVA",
     "oids" : ["1.3.6.1.4.1.48601.1"]
   },
@@ -8320,7 +8328,7 @@
     "id" : "terminologie-sms",
     "type" : "CodeSystem",
     "url" : "https://smt.esante.gouv.fr/terminologie-sms",
-    "version" : "2025-07",
+    "version" : "2025-09",
     "name" : "Dictionnaire_SMS_Substance_Management_Services_",
     "oids" : ["2.16.840.1.113883.3.6905.2"]
   },
