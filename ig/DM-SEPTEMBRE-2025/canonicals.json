@@ -1074,7 +1074,7 @@
     "id" : "JDV-J183-Diplome-EPARS",
     "type" : "ValueSet",
     "url" : "https://mos.esante.gouv.fr/NOS/JDV_J183-Diplome-EPARS/FHIR/JDV-J183-Diplome-EPARS",
-    "version" : "20250828120000",
+    "version" : "20250917120000",
     "name" : "JDV_J183_Diplome_EPARS",
     "oids" : ["1.2.250.1.213.1.6.1.240"]
   },

@@ -2,7 +2,7 @@
 <RetrieveValueSetResponse xmlns="urn:ihe:iti:svs:2008"
                           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
    <ValueSet dateFin=""
-             dateMaj="20250828120000"
+             dateMaj="20250917120000"
              dateValid="20211126120000"
              description="Diplômes pour l'application EPARS"
              displayName="JDV_J183_Diplome_EPARS"
@@ -82,9 +82,6 @@
          <Concept code="DIP338"
                   codeSystem="1.2.250.1.213.1.6.1.53"
                   displayName="Titre ministres du commerce, économie et finances, enseignement sup et santé"/>
-         <Concept code="DIP339"
-                  codeSystem="1.2.250.1.213.1.6.1.53"
-                  displayName="BTS Orthoprothésiste"/>
          <Concept code="DIP340"
                   codeSystem="1.2.250.1.213.1.6.1.53"
                   displayName="BTS Prothésiste-Orthésiste"/>

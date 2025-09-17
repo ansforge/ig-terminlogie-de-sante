@@ -1,5 +1,5 @@
 <OID>;<Type fichier>;<Nom fichier>;<Description>;<URL fichier>;<Date valid>;<Date fin>;<Date MàJ>  
-1.2.250.1.213.1.6.1.240;JDV;JDV_J183_Diplome_EPARS.tabs;Diplômes pour l'application EPARS;https://mos.esante.gouv.fr/NOS/JDV_J183-Diplome-EPARS;20211126120000;;20250828120000
+1.2.250.1.213.1.6.1.240;JDV;JDV_J183_Diplome_EPARS.tabs;Diplômes pour l'application EPARS;https://mos.esante.gouv.fr/NOS/JDV_J183-Diplome-EPARS;20211126120000;;20250917120000
 <OID>;<Code>;<Libellé>
 1.2.250.1.213.1.6.1.31;DE28;DE Assistant de Service Social
 1.2.250.1.213.1.6.1.31;DE29;DE Audioprothésiste
@@ -25,7 +25,6 @@
 1.2.250.1.213.1.6.1.53;DIP336;Certificat d'études Ecole des métiers d'optique
 1.2.250.1.213.1.6.1.53;DIP337;Diplôme écoles nat prof section Optique-lunetterie
 1.2.250.1.213.1.6.1.53;DIP338;Titre ministres du commerce, économie et finances, enseignement sup et santé
-1.2.250.1.213.1.6.1.53;DIP339;BTS Orthoprothésiste
 1.2.250.1.213.1.6.1.53;DIP340;BTS Prothésiste-Orthésiste
 1.2.250.1.213.1.6.1.53;DIP341;BTS Podo-Orthésiste
 1.2.250.1.213.1.6.1.53;DIP342;Titre d'Orthopédiste-Orthésiste obtenu avant 2007
