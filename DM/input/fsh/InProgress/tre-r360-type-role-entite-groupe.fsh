@@ -1,6 +1,5 @@
 Alias: $sct = http://snomed.info/sct
 Alias: $tre-r387-type-groupement = https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r387-type-groupement
-
 CodeSystem: TreR360TypeRoleEntiteGroupe 
 Id: tre-r360-type-role-entite-groupe
 Title: "Tre R360 Type Role Entite Groupe"
