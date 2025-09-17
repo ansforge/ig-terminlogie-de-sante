@@ -71,16 +71,3 @@ Description: "Nomenclature des types de rôles que peuvent exercer des entités 
 * #M ^property[=].valueCode = #active
 * #M ^property[+].code = #finess
 * #M ^property[=].valueBoolean = true
-* #T "Entité tête de groupe"
-* #T ^designation.language = #fr-FR
-* #T ^designation.use.system = "http://snomed.info/sct"
-* #T ^designation.use = $sct#900000000000013009
-* #T ^designation.value = "Tête de groupe"
-* #T ^property[0].code = #dateValid
-* #T ^property[=].valueDateTime = "1900-01-01T00:00:00+01:00"
-* #T ^property[+].code = #dateMaj
-* #T ^property[=].valueDateTime = "1900-01-01T00:00:00+01:00"
-* #T ^property[+].code = #status
-* #T ^property[=].valueCode = #active
-* #T ^property[+].code = #finess
-* #T ^property[=].valueBoolean = true
