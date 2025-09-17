@@ -81,5 +81,3 @@ Description: "Nomenclature des types de groupement utilisables dans FINESS. Grou
 * #02 ^property[=].valueBoolean = true
 * #02 ^property[+].code = #hasTypeRoleMember
 * #02 ^property[=].valueCoding = $tre-r360-type-role-entite-groupe#M
-* #02 ^property[+].code = #hasTypeRoleMember
-* #02 ^property[=].valueCoding = $tre-r360-type-role-entite-groupe#T
