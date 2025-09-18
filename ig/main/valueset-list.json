@@ -1,17 +1,6 @@
 {
   "codeSystems" : [
     {
-      "url" : "http://hl7.org/fhir/ValueSet/designation-use",
-      "version" : "4.0.1",
-      "status" : "active",
-      "name" : "DesignationUse",
-      "title" : "Designation Use",
-      "description" : "Details of how a designation would be used",
-      "systems" : ["http://snomed.info/sct"],
-      "oids" : ["2.16.840.1.113883.4.642.3.264"],
-      "sources" : ["2.16.840.1.113883.4.642.3.264"]
-    },
-    {
       "url" : "https://mos.esante.gouv.fr/NOS/JDV-MediaTypeCorpsCDANonStructure?vs",
       "version" : "1.1.0",
       "status" : "active",

@@ -19,6 +19,15 @@
       "oids" : ["2.16.840.1.113883.6.96"]
     },
     {
+      "url" : "http://snomed.info/sct",
+      "version" : "http://snomed.info/sct/900000000000207008/version/20250901",
+      "status" : "active",
+      "name" : "SNOMED_CT",
+      "title" : "SNOMED CT core",
+      "description" : "SNOMED CT is the most comprehensive and precise clinical health terminology product in the world, owned and distributed around the world by The International Health Terminology Standards Development Organisation (IHTSDO).",
+      "oids" : ["2.16.840.1.113883.6.96"]
+    },
+    {
       "url" : "http://terminology.hl7.org/CodeSystem/service-type",
       "version" : "1.1.0",
       "status" : "draft",
@@ -393,7 +402,7 @@
       "status" : "active",
       "name" : "TRE_R13_CommuneOM",
       "title" : null,
-      "description" : "",
+      "description" : null,
       "oids" : ["1.2.250.1.213.2.23"]
     },
     {
@@ -2336,7 +2345,7 @@
       "status" : "active",
       "name" : "ATC",
       "title" : "Classification anatomique, thérapeutique et chimique",
-      "description" : "",
+      "description" : null,
       "oids" : ["2.16.840.1.113883.6.73"]
     },
     {
@@ -2345,15 +2354,15 @@
       "status" : "active",
       "name" : "BDPM",
       "title" : "Base de données publique du médicament",
-      "description" : ""
+      "description" : null
     },
     {
       "url" : "https://smt.esante.gouv.fr/terminologie-ccam",
-      "version" : "v7810",
+      "version" : "v79.10",
       "status" : "active",
       "name" : "CCAM",
       "title" : "Classification Commune des Actes Médicaux",
-      "description" : "",
+      "description" : null,
       "oids" : ["1.2.250.1.215.300.1"]
     },
     {
@@ -2362,7 +2371,7 @@
       "status" : "active",
       "name" : "CIM_10_FR_PMSI",
       "title" : "Classification internationale des maladies et des problèmes de santé connexes - 10ème révision - Version française à usage PMSI (Programme Médicalisé des Systèmes d'Information)",
-      "description" : "",
+      "description" : null,
       "oids" : ["2.16.840.1.113883.6.3"]
     },
     {
@@ -2371,7 +2380,7 @@
       "status" : "active",
       "name" : "CIM11_MMS",
       "title" : "Classification internationale des maladies et des problèmes de santé connexes - 11ème révision",
-      "description" : "",
+      "description" : null,
       "oids" : ["2.16.840.1.113883.6.347"]
     },
     {
@@ -2389,7 +2398,7 @@
       "status" : "active",
       "name" : "ClaDiMed",
       "title" : "Classification des dispositifs médicaux",
-      "description" : "",
+      "description" : null,
       "oids" : ["1.2.250.1.213.2.65"]
     },
     {
@@ -2398,7 +2407,7 @@
       "status" : "active",
       "name" : "EMDN",
       "title" : "European Medical device nomenclature",
-      "description" : "",
+      "description" : null,
       "oids" : ["1.2.250.1.213.2.68"]
     },
     {
@@ -2433,7 +2442,7 @@
       "status" : "active",
       "name" : "Dictionnaire_SMS_Substance_Management_Services_",
       "title" : "Dictionnaire européen multilingue des substances entrant dans la composition de médicaments",
-      "description" : "",
+      "description" : null,
       "oids" : ["2.16.840.1.113883.3.6905.2"]
     },
     {
