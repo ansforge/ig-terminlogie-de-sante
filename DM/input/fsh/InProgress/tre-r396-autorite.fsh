@@ -1519,7 +1519,7 @@ Description: "liste des autorités structurée en plusieurs types d'autorités :
 * #DDETS-01 ^property[=].valueInteger = 2
 * #DDETS-01 ^property[+].code = #parent
 * #DDETS-01 ^property[=].valueCode = #07
-* #DDETS-01 ^property[+].code = #AutoriteEnregistrementFiness
+* #DDETS-01 ^property[+].code = #AutoriteRegulationFiness
 * #DDETS-01 ^property[=].valueBoolean = true
 * #DDETS-02 "DDETS-02 : Direction départementale de l'emploi, du travail et des solidarités Aisne"
 * #DDETS-02 ^designation[0].language = #fr-FR
@@ -1536,7 +1536,7 @@ Description: "liste des autorités structurée en plusieurs types d'autorités :
 * #DDETS-02 ^property[=].valueInteger = 2
 * #DDETS-02 ^property[+].code = #parent
 * #DDETS-02 ^property[=].valueCode = #07
-* #DDETS-02 ^property[+].code = #AutoriteEnregistrementFiness
+* #DDETS-02 ^property[+].code = #AutoriteRegulationFiness
 * #DDETS-02 ^property[=].valueBoolean = true
 * #DDETS-03 "DDETS-03 : Direction départementale de l'emploi, du travail et des solidarités Allier"
 * #DDETS-03 ^designation[0].language = #fr-FR
@@ -1553,7 +1553,7 @@ Description: "liste des autorités structurée en plusieurs types d'autorités :
 * #DDETS-03 ^property[=].valueInteger = 2
 * #DDETS-03 ^property[+].code = #parent
 * #DDETS-03 ^property[=].valueCode = #07
-* #DDETS-03 ^property[+].code = #AutoriteEnregistrementFiness
+* #DDETS-03 ^property[+].code = #AutoriteRegulationFiness
 * #DDETS-03 ^property[=].valueBoolean = true
 * #DDETS-95 "DDETS-95 :Direction départementale de l'emploi, du travail et des solidarités Val d'Oise"
 * #DDETS-95 ^designation[0].language = #fr-FR
@@ -1570,7 +1570,7 @@ Description: "liste des autorités structurée en plusieurs types d'autorités :
 * #DDETS-95 ^property[=].valueInteger = 2
 * #DDETS-95 ^property[+].code = #parent
 * #DDETS-95 ^property[=].valueCode = #07
-* #DDETS-95 ^property[+].code = #AutoriteEnregistrementFiness
+* #DDETS-95 ^property[+].code = #AutoriteRegulationFiness
 * #DDETS-95 ^property[=].valueBoolean = true
 * #SSA "Service de santé des armées"
 * #SSA ^property[0].code = #dateValid
