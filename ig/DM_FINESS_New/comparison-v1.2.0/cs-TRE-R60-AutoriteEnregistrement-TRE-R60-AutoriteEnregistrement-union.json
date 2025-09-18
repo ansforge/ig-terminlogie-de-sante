@@ -1,11 +1,11 @@
 {
   "resourceType" : "CodeSystem",
-  "id" : "804ab973-c32d-4289-9fad-27f2082b67ed-674",
-  "url" : "http://hl7.org/fhir/comparison/CodeSystem/804ab973-c32d-4289-9fad-27f2082b67ed-674",
+  "id" : "7629c57d-ce48-446f-960b-911a63980bad-674",
+  "url" : "http://hl7.org/fhir/comparison/CodeSystem/7629c57d-ce48-446f-960b-911a63980bad-674",
   "name" : "UnionTRE_R60_AutoriteEnregistrementAndTRE_R60_AutoriteEnregistrement",
   "title" : "Union of null And null",
   "status" : "active",
-  "date" : "2025-09-18T11:10:16+00:00",
+  "date" : "2025-09-18T14:12:58+00:00",
   "jurisdiction" : [{
     "coding" : [{
       "system" : "urn:iso:std:iso:3166",
