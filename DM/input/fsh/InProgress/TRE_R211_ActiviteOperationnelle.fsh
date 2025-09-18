@@ -9,10 +9,10 @@ Description: "Activite Operationnelle"
 * ^url = "https://mos.esante.gouv.fr/NOS/TRE_R211-ActiviteOperationnelle/FHIR/TRE-R211-ActiviteOperationnelle"
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value = "urn:oid:1.2.250.1.213.3.3.12"
-* ^version = "20250828120000"
+* ^version = "20250918120000"
 * ^status = #active
 * ^experimental = false
-* ^date = "2025-08-28T12:00:00+01:00"
+* ^date = "2025-09-18T12:00:00+01:00"
 * ^publisher = "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris"
 * ^jurisdiction = urn:iso:std:iso:3166#FR
 * ^caseSensitive = false
@@ -4597,11 +4597,11 @@ Description: "Activite Operationnelle"
 * #582 ^property[=].valueDateTime = "2025-04-25T12:00:00+01:00"
 * #582 ^property[+].code = #status
 * #582 ^property[=].valueCode = #active
-* #583 "Dialyse péritonéale"
+* #583 "Dialyse péritonéale" "Technique d’épuration extrarénale réalisée au domicile ou en établissement, qui utilise le péritoine comme membrane de dialyse après injection d’une solution de dialyse dans la cavité abdominale, elle constitue une alternative à l’hémodialyse, permettant une autonomie accrue du patient et une efficacité comparable en termes de survie et de qualité de vie."
 * #583 ^property[0].code = #dateValid
 * #583 ^property[=].valueDateTime = "2025-06-20T12:00:00+01:00"
 * #583 ^property[+].code = #dateMaj
-* #583 ^property[=].valueDateTime = "2025-06-20T12:00:00+01:00"
+* #583 ^property[=].valueDateTime = "2025-09-18T12:00:00+01:00"
 * #583 ^property[+].code = #status
 * #583 ^property[=].valueCode = #active
 * #584 "Diététique des Troubles des Conduites Alimentaires (TCA)" "Prise en soin diététique  des troubles du comportement alimentaire (anorexie, boulimie, hyperphagie) comprenant  la régulation alimentaire, l’image corporelle et les émotions."
@@ -4656,11 +4656,11 @@ Description: "Activite Operationnelle"
 * #590 ^property[=].valueDateTime = "2025-06-20T12:00:00+01:00"
 * #590 ^property[+].code = #status
 * #590 ^property[=].valueCode = #active
-* #591 "Ostéopathie médicale"
+* #591 "Ostéopathie médicale" "Pratique médicale (réservée aux médecins), utilisant des techniques manuelles de manipulations musculo-squelettiques à visée diagnostique et thérapeutique. L’ostéopathie médicale est reconnue comme acte médical par le Conseil national de l’Ordre des médecins "
 * #591 ^property[0].code = #dateValid
 * #591 ^property[=].valueDateTime = "2025-06-20T12:00:00+01:00"
 * #591 ^property[+].code = #dateMaj
-* #591 ^property[=].valueDateTime = "2025-06-20T12:00:00+01:00"
+* #591 ^property[=].valueDateTime = "2025-09-18T12:00:00+01:00"
 * #591 ^property[+].code = #status
 * #591 ^property[=].valueCode = #active
 * #592 "Prévention et lutte contre la tuberculose"
