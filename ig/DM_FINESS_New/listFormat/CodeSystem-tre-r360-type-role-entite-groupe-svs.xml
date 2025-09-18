@@ -28,15 +28,6 @@
                   longDesignation="Membre simple"
                   shortDesignation="Membre"
                   descriptionMetier=""/>
-         <concept code="T"
-                  codeSystem="1.2.250.1.213.1.6.1.254"
-                  dateFin=""
-                  dateMaj="19000101000000"
-                  dateValid="19000101000000"
-                  displayName="Entité tête de groupe"
-                  longDesignation="Entité tête de groupe"
-                  shortDesignation="Tête de groupe"
-                  descriptionMetier=""/>
       </ConceptList>
    </ValueSet>
 </RetrieveValueSetResponse>

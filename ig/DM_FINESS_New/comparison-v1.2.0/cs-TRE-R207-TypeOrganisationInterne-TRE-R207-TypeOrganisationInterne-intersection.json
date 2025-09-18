@@ -1,11 +1,11 @@
 {
   "resourceType" : "CodeSystem",
-  "id" : "cac924be-fde2-4b92-9c88-b7f4864ca532-168",
-  "url" : "http://hl7.org/fhir/comparison/CodeSystem/cac924be-fde2-4b92-9c88-b7f4864ca532-168",
+  "id" : "08631b6e-9a42-4814-9df9-beb43bf8a22b-168",
+  "url" : "http://hl7.org/fhir/comparison/CodeSystem/08631b6e-9a42-4814-9df9-beb43bf8a22b-168",
   "name" : "IntersectionTRE_R207_TypeOrganisationInterneAndTRE_R207_TypeOrganisationInterne",
   "title" : "Intersection of null And null",
   "status" : "active",
-  "date" : "2025-09-04T08:20:29+00:00",
+  "date" : "2025-09-18T06:38:11+00:00",
   "jurisdiction" : [{
     "coding" : [{
       "system" : "urn:iso:std:iso:3166",

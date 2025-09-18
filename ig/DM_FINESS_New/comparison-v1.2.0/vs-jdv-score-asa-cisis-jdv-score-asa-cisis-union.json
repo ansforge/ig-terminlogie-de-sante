@@ -1,11 +1,11 @@
 {
   "resourceType" : "ValueSet",
-  "id" : "cac924be-fde2-4b92-9c88-b7f4864ca532-2615",
-  "url" : "http://hl7.org/fhir/comparison/ValueSet/cac924be-fde2-4b92-9c88-b7f4864ca532-2615",
+  "id" : "08631b6e-9a42-4814-9df9-beb43bf8a22b-2615",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/08631b6e-9a42-4814-9df9-beb43bf8a22b-2615",
   "name" : "UnionJdvScoreAsaCisisAndJdvScoreAsaCisis",
   "title" : "Union of JDV Score Asa CISIS And JDV Score Asa CISIS",
   "status" : "active",
-  "date" : "2025-09-04T08:20:30+00:00",
+  "date" : "2025-09-18T06:38:12+00:00",
   "jurisdiction" : [{
     "coding" : [{
       "system" : "urn:iso:std:iso:3166",
