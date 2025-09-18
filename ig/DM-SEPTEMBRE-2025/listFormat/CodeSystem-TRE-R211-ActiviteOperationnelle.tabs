@@ -1,5 +1,5 @@
 <OID>;<Type fichier>;<Nom fichier>;<Description>;<URL fichier>;<Date valid>;<Date fin>;<Date MàJ>
-1.2.250.1.213.3.3.12;TRE;TRE_R211_ActiviteOperationnelle.tabs;Activite Operationnelle;https://mos.esante.gouv.fr/NOS/TRE_R211-ActiviteOperationnelle;20150408000000;;20250828120000
+1.2.250.1.213.3.3.12;TRE;TRE_R211_ActiviteOperationnelle.tabs;Activite Operationnelle;https://mos.esante.gouv.fr/NOS/TRE_R211-ActiviteOperationnelle;20150408000000;;20250918120000
 <OID>;<Code>;<Libellé adapté>;<Libellé court>;<Libellé long>;<Date valid>;<Date fin>;<Date MàJ> 
 1.2.250.1.213.3.3.12;001;Addictologie comportementale (sans substance);Addictologie comportementale (sans substance);Addictologie comportementale (sans substance);20150408000000;;20230526120000
 1.2.250.1.213.3.3.12;002;Addictologie sans précision;Addictologie sans précision;Addictologie sans précision;20150408000000;20190705120000;20190705120000
@@ -583,7 +583,7 @@
 1.2.250.1.213.3.3.12;580;Evaluation en ergothérapie par l’analyse d’activité et accompagnement dans l’environnement de la personne;Evaluation en ergothérapie par l’analyse d’activité et accompagnement dans l’environnement de la personne;Evaluation en ergothérapie par l’analyse d’activité et accompagnement dans l’environnement de la personne;20250328120000;;20250723120000
 1.2.250.1.213.3.3.12;581;Interventions éducatives pour renforcer l’autorégulation;Interventions éducatives pour renforcer l’autorégulation;Interventions éducatives pour renforcer l’autorégulation;20250328120000;;20250723120000
 1.2.250.1.213.3.3.12;582;Orientation vers professionnel pour diagnostic;Orientation vers professionnel pour diagnostic;Orientation vers professionnel pour diagnostic;20250425120000;;20250425120000
-1.2.250.1.213.3.3.12;583;Dialyse péritonéale;Dialyse péritonéale;Dialyse péritonéale;20250620120000;;20250620120000
+1.2.250.1.213.3.3.12;583;Dialyse péritonéale;Dialyse péritonéale;Dialyse péritonéale;20250620120000;;20250918120000
 1.2.250.1.213.3.3.12;584;Diététique des Troubles des Conduites Alimentaires (TCA);Diététique des Troubles des Conduites Alimentaires (TCA);Diététique des Troubles des Conduites Alimentaires (TCA);20250620120000;;20250623120000
 1.2.250.1.213.3.3.12;585;Diététique orientation Dénutrition;Diététique orientation Dénutrition;Diététique orientation Dénutrition;20250620120000;;20250620120000
 1.2.250.1.213.3.3.12;586;Diététique orientation Gynécologie / Obstétrique;Diététique orientation Gynécologie / Obstétrique;Diététique orientation Gynécologie / Obstétrique;20250620120000;;20250623120000
@@ -591,7 +591,7 @@
 1.2.250.1.213.3.3.12;588;Diététique orientation Nutrition du sportif;Diététique orientation Nutrition du sportif;Diététique orientation Nutrition du sportif;20250620120000;;20250623120000
 1.2.250.1.213.3.3.12;589;Diététique orientation Périnatalité;Diététique orientation Périnatalité;Diététique orientation Périnatalité;20250620120000;;20250620120000
 1.2.250.1.213.3.3.12;590;Échographie gynécologique;Échographie gynécologique;Échographie gynécologique;20250620120000;;20250620120000
-1.2.250.1.213.3.3.12;591;Ostéopathie médicale;Ostéopathie médicale;Ostéopathie médicale;20250620120000;;20250620120000
+1.2.250.1.213.3.3.12;591;Ostéopathie médicale;Ostéopathie médicale;Ostéopathie médicale;20250620120000;;20250918120000
 1.2.250.1.213.3.3.12;592;Prévention et lutte contre la tuberculose;Prévention et lutte contre la tuberculose;Prévention et lutte contre la tuberculose;20250620120000;;20250620120000
 1.2.250.1.213.3.3.12;593;Prise en charge coordonnée des patients atteints de maladies rares;Prise en charge coordonnée des patients atteints de maladies rares;Prise en charge coordonnée des patients atteints de maladies rares;20250828120000;;20250828120000
 1.2.250.1.213.3.3.12;594;Coordination hospitalière de prélèvement de tissus;Coordination hospitalière de prélèvement de tissus;Coordination hospitalière de prélèvement de tissus;20250828120000;;20250828120000
