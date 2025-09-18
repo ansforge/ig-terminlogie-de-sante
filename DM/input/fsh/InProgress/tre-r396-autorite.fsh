@@ -49,13 +49,13 @@ Description: "liste des autorités structurée en plusieurs types d'autorités :
 * ^property[=].uri = "https://smt.esante.gouv.fr/fhir/concept-properties#niveau"
 * ^property[=].description = "Permet d'indiquer le niveau hiérarchique du code"
 * ^property[=].type = #integer
-* ^property[+].code = #AutoriteEnregistrementFiness
-* ^property[=].uri = "https://smt.esante.gouv.fr/fhir/concept-properties#AutoriteEnregistrementFiness"
-* ^property[=].description = "Permet de définir les codes à inclure dans les Jdv358TypeAutoriteEnregistrementFiness  Jdv359AutoriteEnregistrementFiness"
-* ^property[=].type = #boolean
 * ^property[+].code = #AutoriteRegulationFiness
 * ^property[=].uri = "https://smt.esante.gouv.fr/fhir/concept-properties#AutoriteRegulationFiness"
-* ^property[=].description = "Permet de définir les codes à inclure dans les Jdv287TypeAutoriteRegulationFiness  Jdv360AutoriteRegulationFiness"
+* ^property[=].description = "Permet de définir les codes à inclure dans les Jdv358TypeAutoriteRegulationFiness  Jdv359AutoriteRegulationFiness"
+* ^property[=].type = #boolean
+* ^property[+].code = #AutoriteEnregistrementFiness
+* ^property[=].uri = "https://smt.esante.gouv.fr/fhir/concept-properties#AutoriteEnregistrementFiness"
+* ^property[=].description = "Permet de définir les codes à inclure dans les Jdv287TypeAutoriteEnregistrementFiness  Jdv360AutoriteEnregistrementFiness"
 * ^property[=].type = #boolean
 * ^property[+].code = #AutoriteEnregistrementEpars
 * ^property[=].uri = "https://smt.esante.gouv.fr/fhir/concept-properties#AutoriteEnregistrementEpars"
@@ -91,9 +91,9 @@ Description: "liste des autorités structurée en plusieurs types d'autorités :
 * #02 ^property[=].valueCode = #active
 * #02 ^property[+].code = #niveau
 * #02 ^property[=].valueInteger = 1
-* #02 ^property[+].code = #AutoriteEnregistrementFiness
-* #02 ^property[=].valueBoolean = true
 * #02 ^property[+].code = #AutoriteRegulationFiness
+* #02 ^property[=].valueBoolean = true
+* #02 ^property[+].code = #AutoriteEnregistrementFiness
 * #02 ^property[=].valueBoolean = true
 * #03 "Structure"
 * #03 ^property[0].code = #dateValid
@@ -117,9 +117,9 @@ Description: "liste des autorités structurée en plusieurs types d'autorités :
 * #04 ^property[=].valueCode = #active
 * #04 ^property[+].code = #niveau
 * #04 ^property[=].valueInteger = 1
-* #04 ^property[+].code = #AutoriteEnregistrementFiness
-* #04 ^property[=].valueBoolean = true
 * #04 ^property[+].code = #AutoriteRegulationFiness
+* #04 ^property[=].valueBoolean = true
+* #04 ^property[+].code = #AutoriteEnregistrementFiness
 * #04 ^property[=].valueBoolean = true
 * #05 "Direction régionale et interdépartementale de l'Hébergement et du Logement"
 * #05 ^designation[0].language = #fr-FR
@@ -134,7 +134,7 @@ Description: "liste des autorités structurée en plusieurs types d'autorités :
 * #05 ^property[=].valueCode = #active
 * #05 ^property[+].code = #niveau
 * #05 ^property[=].valueInteger = 1
-* #05 ^property[+].code = #AutoriteEnregistrementFiness
+* #05 ^property[+].code = #AutoriteRegulationFiness
 * #05 ^property[=].valueBoolean = true
 * #06 "Conseil départemental"
 * #06 ^designation[0].language = #fr-FR
@@ -149,9 +149,9 @@ Description: "liste des autorités structurée en plusieurs types d'autorités :
 * #06 ^property[=].valueCode = #active
 * #06 ^property[+].code = #niveau
 * #06 ^property[=].valueInteger = 1
-* #06 ^property[+].code = #AutoriteEnregistrementFiness
-* #06 ^property[=].valueBoolean = true
 * #06 ^property[+].code = #AutoriteRegulationFiness
+* #06 ^property[=].valueBoolean = true
+* #06 ^property[+].code = #AutoriteEnregistrementFiness
 * #06 ^property[=].valueBoolean = true
 * #07 "Direction Départementale de l'Emploi, du Travail et des Solidarités"
 * #07 ^designation[0].language = #fr-FR
@@ -166,7 +166,7 @@ Description: "liste des autorités structurée en plusieurs types d'autorités :
 * #07 ^property[=].valueCode = #active
 * #07 ^property[+].code = #niveau
 * #07 ^property[=].valueInteger = 1
-* #07 ^property[+].code = #AutoriteRegulationFiness
+* #07 ^property[+].code = #AutoriteEnregistrementFiness
 * #07 ^property[=].valueBoolean = true
 * #08 "Services des Armées"
 * #08 ^designation[0].language = #fr-FR
@@ -196,9 +196,9 @@ Description: "liste des autorités structurée en plusieurs types d'autorités :
 * #ARS-01 ^property[=].valueInteger = 2
 * #ARS-01 ^property[+].code = #parent
 * #ARS-01 ^property[=].valueCode = #02
-* #ARS-01 ^property[+].code = #AutoriteEnregistrementFiness
-* #ARS-01 ^property[=].valueBoolean = true
 * #ARS-01 ^property[+].code = #AutoriteRegulationFiness
+* #ARS-01 ^property[=].valueBoolean = true
+* #ARS-01 ^property[+].code = #AutoriteEnregistrementFiness
 * #ARS-01 ^property[=].valueBoolean = true
 * #ARS-01 ^property[+].code = #AutoriteEnregistrementEpars
 * #ARS-01 ^property[=].valueBoolean = true
@@ -219,9 +219,9 @@ Description: "liste des autorités structurée en plusieurs types d'autorités :
 * #ARS-02 ^property[=].valueInteger = 2
 * #ARS-02 ^property[+].code = #parent
 * #ARS-02 ^property[=].valueCode = #02
-* #ARS-02 ^property[+].code = #AutoriteEnregistrementFiness
-* #ARS-02 ^property[=].valueBoolean = true
 * #ARS-02 ^property[+].code = #AutoriteRegulationFiness
+* #ARS-02 ^property[=].valueBoolean = true
+* #ARS-02 ^property[+].code = #AutoriteEnregistrementFiness
 * #ARS-02 ^property[=].valueBoolean = true
 * #ARS-02 ^property[+].code = #AutoriteEnregistrementEpars
 * #ARS-02 ^property[=].valueBoolean = true
@@ -242,9 +242,9 @@ Description: "liste des autorités structurée en plusieurs types d'autorités :
 * #ARS-03 ^property[=].valueInteger = 2
 * #ARS-03 ^property[+].code = #parent
 * #ARS-03 ^property[=].valueCode = #02
-* #ARS-03 ^property[+].code = #AutoriteEnregistrementFiness
-* #ARS-03 ^property[=].valueBoolean = true
 * #ARS-03 ^property[+].code = #AutoriteRegulationFiness
+* #ARS-03 ^property[=].valueBoolean = true
+* #ARS-03 ^property[+].code = #AutoriteEnregistrementFiness
 * #ARS-03 ^property[=].valueBoolean = true
 * #ARS-03 ^property[+].code = #AutoriteEnregistrementEpars
 * #ARS-03 ^property[=].valueBoolean = true
@@ -284,9 +284,9 @@ Description: "liste des autorités structurée en plusieurs types d'autorités :
 * #ARS-05 ^property[=].valueInteger = 2
 * #ARS-05 ^property[+].code = #parent
 * #ARS-05 ^property[=].valueCode = #02
-* #ARS-05 ^property[+].code = #AutoriteEnregistrementFiness
-* #ARS-05 ^property[=].valueBoolean = true
 * #ARS-05 ^property[+].code = #AutoriteRegulationFiness
+* #ARS-05 ^property[=].valueBoolean = true
+* #ARS-05 ^property[+].code = #AutoriteEnregistrementFiness
 * #ARS-05 ^property[=].valueBoolean = true
 * #ARS-05 ^property[+].code = #AutoriteEnregistrementEpars
 * #ARS-05 ^property[=].valueBoolean = true
@@ -307,9 +307,9 @@ Description: "liste des autorités structurée en plusieurs types d'autorités :
 * #ARS-06 ^property[=].valueInteger = 2
 * #ARS-06 ^property[+].code = #parent
 * #ARS-06 ^property[=].valueCode = #02
-* #ARS-06 ^property[+].code = #AutoriteEnregistrementFiness
-* #ARS-06 ^property[=].valueBoolean = true
 * #ARS-06 ^property[+].code = #AutoriteRegulationFiness
+* #ARS-06 ^property[=].valueBoolean = true
+* #ARS-06 ^property[+].code = #AutoriteEnregistrementFiness
 * #ARS-06 ^property[=].valueBoolean = true
 * #ARS-06 ^property[+].code = #AutoriteEnregistrementEpars
 * #ARS-06 ^property[=].valueBoolean = true
@@ -330,9 +330,9 @@ Description: "liste des autorités structurée en plusieurs types d'autorités :
 * #ARS-11 ^property[=].valueInteger = 2
 * #ARS-11 ^property[+].code = #parent
 * #ARS-11 ^property[=].valueCode = #02
-* #ARS-11 ^property[+].code = #AutoriteEnregistrementFiness
-* #ARS-11 ^property[=].valueBoolean = true
 * #ARS-11 ^property[+].code = #AutoriteRegulationFiness
+* #ARS-11 ^property[=].valueBoolean = true
+* #ARS-11 ^property[+].code = #AutoriteEnregistrementFiness
 * #ARS-11 ^property[=].valueBoolean = true
 * #ARS-11 ^property[+].code = #AutoriteEnregistrementEpars
 * #ARS-11 ^property[=].valueBoolean = true
@@ -410,9 +410,9 @@ Description: "liste des autorités structurée en plusieurs types d'autorités :
 * #ARS-24 ^property[=].valueInteger = 2
 * #ARS-24 ^property[+].code = #parent
 * #ARS-24 ^property[=].valueCode = #02
-* #ARS-24 ^property[+].code = #AutoriteEnregistrementFiness
-* #ARS-24 ^property[=].valueBoolean = true
 * #ARS-24 ^property[+].code = #AutoriteRegulationFiness
+* #ARS-24 ^property[=].valueBoolean = true
+* #ARS-24 ^property[+].code = #AutoriteEnregistrementFiness
 * #ARS-24 ^property[=].valueBoolean = true
 * #ARS-24 ^property[+].code = #AutoriteEnregistrementEpars
 * #ARS-24 ^property[=].valueBoolean = true
@@ -471,9 +471,9 @@ Description: "liste des autorités structurée en plusieurs types d'autorités :
 * #ARS-27 ^property[=].valueInteger = 2
 * #ARS-27 ^property[+].code = #parent
 * #ARS-27 ^property[=].valueCode = #02
-* #ARS-27 ^property[+].code = #AutoriteEnregistrementFiness
-* #ARS-27 ^property[=].valueBoolean = true
 * #ARS-27 ^property[+].code = #AutoriteRegulationFiness
+* #ARS-27 ^property[=].valueBoolean = true
+* #ARS-27 ^property[+].code = #AutoriteEnregistrementFiness
 * #ARS-27 ^property[=].valueBoolean = true
 * #ARS-27 ^property[+].code = #AutoriteEnregistrementEpars
 * #ARS-27 ^property[=].valueBoolean = true
@@ -494,9 +494,9 @@ Description: "liste des autorités structurée en plusieurs types d'autorités :
 * #ARS-28 ^property[=].valueInteger = 2
 * #ARS-28 ^property[+].code = #parent
 * #ARS-28 ^property[=].valueCode = #02
-* #ARS-28 ^property[+].code = #AutoriteEnregistrementFiness
-* #ARS-28 ^property[=].valueBoolean = true
 * #ARS-28 ^property[+].code = #AutoriteRegulationFiness
+* #ARS-28 ^property[=].valueBoolean = true
+* #ARS-28 ^property[+].code = #AutoriteEnregistrementFiness
 * #ARS-28 ^property[=].valueBoolean = true
 * #ARS-28 ^property[+].code = #AutoriteEnregistrementEpars
 * #ARS-28 ^property[=].valueBoolean = true
@@ -536,9 +536,9 @@ Description: "liste des autorités structurée en plusieurs types d'autorités :
 * #ARS-32 ^property[=].valueInteger = 2
 * #ARS-32 ^property[+].code = #parent
 * #ARS-32 ^property[=].valueCode = #02
-* #ARS-32 ^property[+].code = #AutoriteEnregistrementFiness
-* #ARS-32 ^property[=].valueBoolean = true
 * #ARS-32 ^property[+].code = #AutoriteRegulationFiness
+* #ARS-32 ^property[=].valueBoolean = true
+* #ARS-32 ^property[+].code = #AutoriteEnregistrementFiness
 * #ARS-32 ^property[=].valueBoolean = true
 * #ARS-32 ^property[+].code = #AutoriteEnregistrementEpars
 * #ARS-32 ^property[=].valueBoolean = true
@@ -616,9 +616,9 @@ Description: "liste des autorités structurée en plusieurs types d'autorités :
 * #ARS-44 ^property[=].valueInteger = 2
 * #ARS-44 ^property[+].code = #parent
 * #ARS-44 ^property[=].valueCode = #02
-* #ARS-44 ^property[+].code = #AutoriteEnregistrementFiness
-* #ARS-44 ^property[=].valueBoolean = true
 * #ARS-44 ^property[+].code = #AutoriteRegulationFiness
+* #ARS-44 ^property[=].valueBoolean = true
+* #ARS-44 ^property[+].code = #AutoriteEnregistrementFiness
 * #ARS-44 ^property[=].valueBoolean = true
 * #ARS-44 ^property[+].code = #AutoriteEnregistrementEpars
 * #ARS-44 ^property[=].valueBoolean = true
@@ -639,9 +639,9 @@ Description: "liste des autorités structurée en plusieurs types d'autorités :
 * #ARS-52 ^property[=].valueInteger = 2
 * #ARS-52 ^property[+].code = #parent
 * #ARS-52 ^property[=].valueCode = #02
-* #ARS-52 ^property[+].code = #AutoriteEnregistrementFiness
-* #ARS-52 ^property[=].valueBoolean = true
 * #ARS-52 ^property[+].code = #AutoriteRegulationFiness
+* #ARS-52 ^property[=].valueBoolean = true
+* #ARS-52 ^property[+].code = #AutoriteEnregistrementFiness
 * #ARS-52 ^property[=].valueBoolean = true
 * #ARS-52 ^property[+].code = #AutoriteEnregistrementEpars
 * #ARS-52 ^property[=].valueBoolean = true
@@ -662,9 +662,9 @@ Description: "liste des autorités structurée en plusieurs types d'autorités :
 * #ARS-53 ^property[=].valueInteger = 2
 * #ARS-53 ^property[+].code = #parent
 * #ARS-53 ^property[=].valueCode = #02
-* #ARS-53 ^property[+].code = #AutoriteEnregistrementFiness
-* #ARS-53 ^property[=].valueBoolean = true
 * #ARS-53 ^property[+].code = #AutoriteRegulationFiness
+* #ARS-53 ^property[=].valueBoolean = true
+* #ARS-53 ^property[+].code = #AutoriteEnregistrementFiness
 * #ARS-53 ^property[=].valueBoolean = true
 * #ARS-53 ^property[+].code = #AutoriteEnregistrementEpars
 * #ARS-53 ^property[=].valueBoolean = true
@@ -761,9 +761,9 @@ Description: "liste des autorités structurée en plusieurs types d'autorités :
 * #ARS-75 ^property[=].valueInteger = 2
 * #ARS-75 ^property[+].code = #parent
 * #ARS-75 ^property[=].valueCode = #02
-* #ARS-75 ^property[+].code = #AutoriteEnregistrementFiness
-* #ARS-75 ^property[=].valueBoolean = true
 * #ARS-75 ^property[+].code = #AutoriteRegulationFiness
+* #ARS-75 ^property[=].valueBoolean = true
+* #ARS-75 ^property[+].code = #AutoriteEnregistrementFiness
 * #ARS-75 ^property[=].valueBoolean = true
 * #ARS-75 ^property[+].code = #AutoriteEnregistrementEpars
 * #ARS-75 ^property[=].valueBoolean = true
@@ -784,9 +784,9 @@ Description: "liste des autorités structurée en plusieurs types d'autorités :
 * #ARS-76 ^property[=].valueInteger = 2
 * #ARS-76 ^property[+].code = #parent
 * #ARS-76 ^property[=].valueCode = #02
-* #ARS-76 ^property[+].code = #AutoriteEnregistrementFiness
-* #ARS-76 ^property[=].valueBoolean = true
 * #ARS-76 ^property[+].code = #AutoriteRegulationFiness
+* #ARS-76 ^property[=].valueBoolean = true
+* #ARS-76 ^property[+].code = #AutoriteEnregistrementFiness
 * #ARS-76 ^property[=].valueBoolean = true
 * #ARS-76 ^property[+].code = #AutoriteEnregistrementEpars
 * #ARS-76 ^property[=].valueBoolean = true
@@ -845,9 +845,9 @@ Description: "liste des autorités structurée en plusieurs types d'autorités :
 * #ARS-84 ^property[=].valueInteger = 2
 * #ARS-84 ^property[+].code = #parent
 * #ARS-84 ^property[=].valueCode = #02
-* #ARS-84 ^property[+].code = #AutoriteEnregistrementFiness
-* #ARS-84 ^property[=].valueBoolean = true
 * #ARS-84 ^property[+].code = #AutoriteRegulationFiness
+* #ARS-84 ^property[=].valueBoolean = true
+* #ARS-84 ^property[+].code = #AutoriteEnregistrementFiness
 * #ARS-84 ^property[=].valueBoolean = true
 * #ARS-84 ^property[+].code = #AutoriteEnregistrementEpars
 * #ARS-84 ^property[=].valueBoolean = true
@@ -887,9 +887,9 @@ Description: "liste des autorités structurée en plusieurs types d'autorités :
 * #ARS-93 ^property[=].valueInteger = 2
 * #ARS-93 ^property[+].code = #parent
 * #ARS-93 ^property[=].valueCode = #02
-* #ARS-93 ^property[+].code = #AutoriteEnregistrementFiness
-* #ARS-93 ^property[=].valueBoolean = true
 * #ARS-93 ^property[+].code = #AutoriteRegulationFiness
+* #ARS-93 ^property[=].valueBoolean = true
+* #ARS-93 ^property[+].code = #AutoriteEnregistrementFiness
 * #ARS-93 ^property[=].valueBoolean = true
 * #ARS-93 ^property[+].code = #AutoriteEnregistrementEpars
 * #ARS-93 ^property[=].valueBoolean = true
@@ -910,9 +910,9 @@ Description: "liste des autorités structurée en plusieurs types d'autorités :
 * #ARS-94 ^property[=].valueInteger = 2
 * #ARS-94 ^property[+].code = #parent
 * #ARS-94 ^property[=].valueCode = #02
-* #ARS-94 ^property[+].code = #AutoriteEnregistrementFiness
-* #ARS-94 ^property[=].valueBoolean = true
 * #ARS-94 ^property[+].code = #AutoriteRegulationFiness
+* #ARS-94 ^property[=].valueBoolean = true
+* #ARS-94 ^property[+].code = #AutoriteEnregistrementFiness
 * #ARS-94 ^property[=].valueBoolean = true
 * #ARS-94 ^property[+].code = #AutoriteEnregistrementEpars
 * #ARS-94 ^property[=].valueBoolean = true
@@ -935,9 +935,9 @@ Description: "liste des autorités structurée en plusieurs types d'autorités :
 * #AT-975 ^property[=].valueInteger = 2
 * #AT-975 ^property[+].code = #parent
 * #AT-975 ^property[=].valueCode = #02
-* #AT-975 ^property[+].code = #AutoriteEnregistrementFiness
-* #AT-975 ^property[=].valueBoolean = true
 * #AT-975 ^property[+].code = #AutoriteRegulationFiness
+* #AT-975 ^property[=].valueBoolean = true
+* #AT-975 ^property[+].code = #AutoriteEnregistrementFiness
 * #AT-975 ^property[=].valueBoolean = true
 * #AT-975 ^property[+].code = #AutoriteEnregistrementRass
 * #AT-975 ^property[=].valueBoolean = true
@@ -1060,7 +1060,7 @@ Description: "liste des autorités structurée en plusieurs types d'autorités :
 * #DREETS-01 ^property[=].valueInteger = 2
 * #DREETS-01 ^property[+].code = #parent
 * #DREETS-01 ^property[=].valueCode = #04
-* #DREETS-01 ^property[+].code = #AutoriteRegulationFiness
+* #DREETS-01 ^property[+].code = #AutoriteEnregistrementFiness
 * #DREETS-01 ^property[=].valueBoolean = true
 * #DREETS-02 "DREETS-02 :  Direction de l'économie de l'emploi du travail et des solidarités Martinique"
 * #DREETS-02 ^designation[0].language = #fr-FR
@@ -1077,7 +1077,7 @@ Description: "liste des autorités structurée en plusieurs types d'autorités :
 * #DREETS-02 ^property[=].valueInteger = 2
 * #DREETS-02 ^property[+].code = #parent
 * #DREETS-02 ^property[=].valueCode = #04
-* #DREETS-02 ^property[+].code = #AutoriteRegulationFiness
+* #DREETS-02 ^property[+].code = #AutoriteEnregistrementFiness
 * #DREETS-02 ^property[=].valueBoolean = true
 * #DREETS-03 "DREETS-03 :  Direction générale cohésion et population Guyane"
 * #DREETS-03 ^designation[0].language = #fr-FR
@@ -1094,7 +1094,7 @@ Description: "liste des autorités structurée en plusieurs types d'autorités :
 * #DREETS-03 ^property[=].valueInteger = 2
 * #DREETS-03 ^property[+].code = #parent
 * #DREETS-03 ^property[=].valueCode = #04
-* #DREETS-03 ^property[+].code = #AutoriteRegulationFiness
+* #DREETS-03 ^property[+].code = #AutoriteEnregistrementFiness
 * #DREETS-03 ^property[=].valueBoolean = true
 * #DREETS-05 "DREETS-05 :  Direction de l'économie de l'emploi du travail et des solidarités de La Réunion"
 * #DREETS-05 ^designation[0].language = #fr-FR
@@ -1111,7 +1111,7 @@ Description: "liste des autorités structurée en plusieurs types d'autorités :
 * #DREETS-05 ^property[=].valueInteger = 2
 * #DREETS-05 ^property[+].code = #parent
 * #DREETS-05 ^property[=].valueCode = #04
-* #DREETS-05 ^property[+].code = #AutoriteRegulationFiness
+* #DREETS-05 ^property[+].code = #AutoriteEnregistrementFiness
 * #DREETS-05 ^property[=].valueBoolean = true
 * #DREETS-06 "DREETS-06 : Direction de l'économie de l'emploi du travail et des solidarités Mayotte"
 * #DREETS-06 ^designation[0].language = #fr-FR
@@ -1128,7 +1128,7 @@ Description: "liste des autorités structurée en plusieurs types d'autorités :
 * #DREETS-06 ^property[=].valueInteger = 2
 * #DREETS-06 ^property[+].code = #parent
 * #DREETS-06 ^property[=].valueCode = #04
-* #DREETS-06 ^property[+].code = #AutoriteRegulationFiness
+* #DREETS-06 ^property[+].code = #AutoriteEnregistrementFiness
 * #DREETS-06 ^property[=].valueBoolean = true
 * #DREETS-11 "DREETS-11 : Direction régionale interdépartementale de l'économie de l'emploi du travail et des solidarités d'Ile de France"
 * #DREETS-11 ^designation[0].language = #fr-FR
@@ -1145,7 +1145,7 @@ Description: "liste des autorités structurée en plusieurs types d'autorités :
 * #DREETS-11 ^property[=].valueInteger = 2
 * #DREETS-11 ^property[+].code = #parent
 * #DREETS-11 ^property[=].valueCode = #04
-* #DREETS-11 ^property[+].code = #AutoriteRegulationFiness
+* #DREETS-11 ^property[+].code = #AutoriteEnregistrementFiness
 * #DREETS-11 ^property[=].valueBoolean = true
 * #DREETS-24 "DREETS-24 :  Direction régionale interdépartementale de l'économie de l'emploi du travail et des solidarités Centre-Val de Loire"
 * #DREETS-24 ^designation[0].language = #fr-FR
@@ -1162,7 +1162,7 @@ Description: "liste des autorités structurée en plusieurs types d'autorités :
 * #DREETS-24 ^property[=].valueInteger = 2
 * #DREETS-24 ^property[+].code = #parent
 * #DREETS-24 ^property[=].valueCode = #04
-* #DREETS-24 ^property[+].code = #AutoriteRegulationFiness
+* #DREETS-24 ^property[+].code = #AutoriteEnregistrementFiness
 * #DREETS-24 ^property[=].valueBoolean = true
 * #DREETS-27 "DREETS-27 :  Direction régionale interdépartementale de l'économie de l'emploi du travail et des solidarités Bourgogne-Franche-Comté"
 * #DREETS-27 ^designation[0].language = #fr-FR
@@ -1179,7 +1179,7 @@ Description: "liste des autorités structurée en plusieurs types d'autorités :
 * #DREETS-27 ^property[=].valueInteger = 2
 * #DREETS-27 ^property[+].code = #parent
 * #DREETS-27 ^property[=].valueCode = #04
-* #DREETS-27 ^property[+].code = #AutoriteRegulationFiness
+* #DREETS-27 ^property[+].code = #AutoriteEnregistrementFiness
 * #DREETS-27 ^property[=].valueBoolean = true
 * #DREETS-28 "DREETS-28 Direction régionale interdépartementale de l'économie de l'emploi du travail et des solidarités Normandie"
 * #DREETS-28 ^designation[0].language = #fr-FR
@@ -1196,7 +1196,7 @@ Description: "liste des autorités structurée en plusieurs types d'autorités :
 * #DREETS-28 ^property[=].valueInteger = 2
 * #DREETS-28 ^property[+].code = #parent
 * #DREETS-28 ^property[=].valueCode = #04
-* #DREETS-28 ^property[+].code = #AutoriteRegulationFiness
+* #DREETS-28 ^property[+].code = #AutoriteEnregistrementFiness
 * #DREETS-28 ^property[=].valueBoolean = true
 * #DREETS-32 "DREETS-32 Direction régionale interdépartementale de l'économie de l'emploi du travail et des solidarités Hauts-de-France"
 * #DREETS-32 ^designation[0].language = #fr-FR
@@ -1213,7 +1213,7 @@ Description: "liste des autorités structurée en plusieurs types d'autorités :
 * #DREETS-32 ^property[=].valueInteger = 2
 * #DREETS-32 ^property[+].code = #parent
 * #DREETS-32 ^property[=].valueCode = #04
-* #DREETS-32 ^property[+].code = #AutoriteRegulationFiness
+* #DREETS-32 ^property[+].code = #AutoriteEnregistrementFiness
 * #DREETS-32 ^property[=].valueBoolean = true
 * #DREETS-44 "DREETS-44 Direction régionale interdépartementale de l'économie de l'emploi du travail et des solidarités Grand Est"
 * #DREETS-44 ^designation[0].language = #fr-FR
@@ -1230,7 +1230,7 @@ Description: "liste des autorités structurée en plusieurs types d'autorités :
 * #DREETS-44 ^property[=].valueInteger = 2
 * #DREETS-44 ^property[+].code = #parent
 * #DREETS-44 ^property[=].valueCode = #04
-* #DREETS-44 ^property[+].code = #AutoriteRegulationFiness
+* #DREETS-44 ^property[+].code = #AutoriteEnregistrementFiness
 * #DREETS-44 ^property[=].valueBoolean = true
 * #DREETS-52 "DREETS-52 Direction régionale interdépartementale de l'économie de l'emploi du travail et des solidarités Pays de la Loire"
 * #DREETS-52 ^designation[0].language = #fr-FR
@@ -1247,7 +1247,7 @@ Description: "liste des autorités structurée en plusieurs types d'autorités :
 * #DREETS-52 ^property[=].valueInteger = 2
 * #DREETS-52 ^property[+].code = #parent
 * #DREETS-52 ^property[=].valueCode = #04
-* #DREETS-52 ^property[+].code = #AutoriteRegulationFiness
+* #DREETS-52 ^property[+].code = #AutoriteEnregistrementFiness
 * #DREETS-52 ^property[=].valueBoolean = true
 * #DREETS-53 "DREETS-53 Direction régionale interdépartementale de l'économie de l'emploi du travail et des solidarités Bretagne"
 * #DREETS-53 ^designation[0].language = #fr-FR
@@ -1264,7 +1264,7 @@ Description: "liste des autorités structurée en plusieurs types d'autorités :
 * #DREETS-53 ^property[=].valueInteger = 2
 * #DREETS-53 ^property[+].code = #parent
 * #DREETS-53 ^property[=].valueCode = #04
-* #DREETS-53 ^property[+].code = #AutoriteRegulationFiness
+* #DREETS-53 ^property[+].code = #AutoriteEnregistrementFiness
 * #DREETS-53 ^property[=].valueBoolean = true
 * #DREETS-75 "DREETS-75 Direction régionale interdépartementale de l'économie de l'emploi du travail et des solidarités Nouvelle-Aquitaine"
 * #DREETS-75 ^designation[0].language = #fr-FR
@@ -1281,7 +1281,7 @@ Description: "liste des autorités structurée en plusieurs types d'autorités :
 * #DREETS-75 ^property[=].valueInteger = 2
 * #DREETS-75 ^property[+].code = #parent
 * #DREETS-75 ^property[=].valueCode = #04
-* #DREETS-75 ^property[+].code = #AutoriteRegulationFiness
+* #DREETS-75 ^property[+].code = #AutoriteEnregistrementFiness
 * #DREETS-75 ^property[=].valueBoolean = true
 * #DREETS-76 "DREETS-76 Direction régionale interdépartementale de l'économie de l'emploi du travail et des solidarités Occitanie"
 * #DREETS-76 ^designation[0].language = #fr-FR
@@ -1298,7 +1298,7 @@ Description: "liste des autorités structurée en plusieurs types d'autorités :
 * #DREETS-76 ^property[=].valueInteger = 2
 * #DREETS-76 ^property[+].code = #parent
 * #DREETS-76 ^property[=].valueCode = #04
-* #DREETS-76 ^property[+].code = #AutoriteRegulationFiness
+* #DREETS-76 ^property[+].code = #AutoriteEnregistrementFiness
 * #DREETS-76 ^property[=].valueBoolean = true
 * #DREETS-84 "DREETS-84 Direction régionale interdépartementale de l'économie de l'emploi du travail et des solidarités Auvergne-Rhône-Alpes"
 * #DREETS-84 ^designation[0].language = #fr-FR
@@ -1315,7 +1315,7 @@ Description: "liste des autorités structurée en plusieurs types d'autorités :
 * #DREETS-84 ^property[=].valueInteger = 2
 * #DREETS-84 ^property[+].code = #parent
 * #DREETS-84 ^property[=].valueCode = #04
-* #DREETS-84 ^property[+].code = #AutoriteRegulationFiness
+* #DREETS-84 ^property[+].code = #AutoriteEnregistrementFiness
 * #DREETS-84 ^property[=].valueBoolean = true
 * #DREETS-93 "DREETS-93 Direction régionale interdépartementale de l'économie de l'emploi du travail et des solidarités Provence-Alpes-Côte d'Azur"
 * #DREETS-93 ^designation[0].language = #fr-FR
@@ -1332,7 +1332,7 @@ Description: "liste des autorités structurée en plusieurs types d'autorités :
 * #DREETS-93 ^property[=].valueInteger = 2
 * #DREETS-93 ^property[+].code = #parent
 * #DREETS-93 ^property[=].valueCode = #04
-* #DREETS-93 ^property[+].code = #AutoriteRegulationFiness
+* #DREETS-93 ^property[+].code = #AutoriteEnregistrementFiness
 * #DREETS-93 ^property[=].valueBoolean = true
 * #DREETS-94 "DREETS-94 Direction régionale interdépartementale de l'économie de l'emploi du travail et des solidarités de Corse"
 * #DREETS-94 ^designation[0].language = #fr-FR
@@ -1349,7 +1349,7 @@ Description: "liste des autorités structurée en plusieurs types d'autorités :
 * #DREETS-94 ^property[=].valueInteger = 2
 * #DREETS-94 ^property[+].code = #parent
 * #DREETS-94 ^property[=].valueCode = #04
-* #DREETS-94 ^property[+].code = #AutoriteRegulationFiness
+* #DREETS-94 ^property[+].code = #AutoriteEnregistrementFiness
 * #DREETS-94 ^property[=].valueBoolean = true
 * #DRHIL-11 "DRHIL-11 : Direction régionale et interdépartementale de l'Hébergement et du Logement Ile de France"
 * #DRHIL-11 ^designation[0].language = #fr-FR
@@ -1366,7 +1366,7 @@ Description: "liste des autorités structurée en plusieurs types d'autorités :
 * #DRHIL-11 ^property[=].valueInteger = 2
 * #DRHIL-11 ^property[+].code = #parent
 * #DRHIL-11 ^property[=].valueCode = #05
-* #DRHIL-11 ^property[+].code = #AutoriteRegulationFiness
+* #DRHIL-11 ^property[+].code = #AutoriteEnregistrementFiness
 * #DRHIL-11 ^property[=].valueBoolean = true
 * #CD-01 "CD-01 : Conseil départemental de l'Ain"
 * #CD-01 ^designation[0].language = #fr-FR
@@ -1383,7 +1383,7 @@ Description: "liste des autorités structurée en plusieurs types d'autorités :
 * #CD-01 ^property[=].valueInteger = 2
 * #CD-01 ^property[+].code = #parent
 * #CD-01 ^property[=].valueCode = #06
-* #CD-01 ^property[+].code = #AutoriteRegulationFiness
+* #CD-01 ^property[+].code = #AutoriteEnregistrementFiness
 * #CD-01 ^property[=].valueBoolean = true
 * #CD-02 "CD-02 : Conseil départemental del'Aisne"
 * #CD-02 ^designation[0].language = #fr-FR
@@ -1400,7 +1400,7 @@ Description: "liste des autorités structurée en plusieurs types d'autorités :
 * #CD-02 ^property[=].valueInteger = 2
 * #CD-02 ^property[+].code = #parent
 * #CD-02 ^property[=].valueCode = #06
-* #CD-02 ^property[+].code = #AutoriteRegulationFiness
+* #CD-02 ^property[+].code = #AutoriteEnregistrementFiness
 * #CD-02 ^property[=].valueBoolean = true
 * #CD-03 "CD-03 : Conseil départemental de l'Allier"
 * #CD-03 ^designation[0].language = #fr-FR
@@ -1417,7 +1417,7 @@ Description: "liste des autorités structurée en plusieurs types d'autorités :
 * #CD-03 ^property[=].valueInteger = 2
 * #CD-03 ^property[+].code = #parent
 * #CD-03 ^property[=].valueCode = #06
-* #CD-03 ^property[+].code = #AutoriteRegulationFiness
+* #CD-03 ^property[+].code = #AutoriteEnregistrementFiness
 * #CD-03 ^property[=].valueBoolean = true
 * #CD-15 "CD-15 : Conseil départemental du Cantal"
 * #CD-15 ^designation[0].language = #fr-FR
@@ -1434,7 +1434,7 @@ Description: "liste des autorités structurée en plusieurs types d'autorités :
 * #CD-15 ^property[=].valueInteger = 2
 * #CD-15 ^property[+].code = #parent
 * #CD-15 ^property[=].valueCode = #06
-* #CD-15 ^property[+].code = #AutoriteEnregistrementFiness
+* #CD-15 ^property[+].code = #AutoriteRegulationFiness
 * #CD-15 ^property[=].valueBoolean = true
 * #CD-54 "CD-54 : Conseil départemental de Meurthe et Moselle"
 * #CD-54 ^designation[0].language = #fr-FR
@@ -1451,7 +1451,7 @@ Description: "liste des autorités structurée en plusieurs types d'autorités :
 * #CD-54 ^property[=].valueInteger = 2
 * #CD-54 ^property[+].code = #parent
 * #CD-54 ^property[=].valueCode = #06
-* #CD-54 ^property[+].code = #AutoriteEnregistrementFiness
+* #CD-54 ^property[+].code = #AutoriteRegulationFiness
 * #CD-54 ^property[=].valueBoolean = true
 * #CD-58 "CD-58 : Conseil départemental de la Nièvre"
 * #CD-58 ^designation[0].language = #fr-FR
@@ -1468,7 +1468,7 @@ Description: "liste des autorités structurée en plusieurs types d'autorités :
 * #CD-58 ^property[=].valueInteger = 2
 * #CD-58 ^property[+].code = #parent
 * #CD-58 ^property[=].valueCode = #06
-* #CD-58 ^property[+].code = #AutoriteEnregistrementFiness
+* #CD-58 ^property[+].code = #AutoriteRegulationFiness
 * #CD-58 ^property[=].valueBoolean = true
 * #CD-94 "CD-94 : Conseil départemental du Val de Marne"
 * #CD-94 ^designation[0].language = #fr-FR
@@ -1485,7 +1485,7 @@ Description: "liste des autorités structurée en plusieurs types d'autorités :
 * #CD-94 ^property[=].valueInteger = 2
 * #CD-94 ^property[+].code = #parent
 * #CD-94 ^property[=].valueCode = #06
-* #CD-94 ^property[+].code = #AutoriteEnregistrementFiness
+* #CD-94 ^property[+].code = #AutoriteRegulationFiness
 * #CD-94 ^property[=].valueBoolean = true
 * #CD-95 "CD-95 : Conseil départemental du Val d'Oise"
 * #CD-95 ^designation[0].language = #fr-FR
@@ -1502,7 +1502,7 @@ Description: "liste des autorités structurée en plusieurs types d'autorités :
 * #CD-95 ^property[=].valueInteger = 2
 * #CD-95 ^property[+].code = #parent
 * #CD-95 ^property[=].valueCode = #06
-* #CD-95 ^property[+].code = #AutoriteRegulationFiness
+* #CD-95 ^property[+].code = #AutoriteEnregistrementFiness
 * #CD-95 ^property[=].valueBoolean = true
 * #DDETS-01 "DDETS-01 : Direction départementale de l'emploi, du travail et des solidarités Ain"
 * #DDETS-01 ^designation[0].language = #fr-FR
@@ -1519,7 +1519,7 @@ Description: "liste des autorités structurée en plusieurs types d'autorités :
 * #DDETS-01 ^property[=].valueInteger = 2
 * #DDETS-01 ^property[+].code = #parent
 * #DDETS-01 ^property[=].valueCode = #07
-* #DDETS-01 ^property[+].code = #AutoriteRegulationFiness
+* #DDETS-01 ^property[+].code = #AutoriteEnregistrementFiness
 * #DDETS-01 ^property[=].valueBoolean = true
 * #DDETS-02 "DDETS-02 : Direction départementale de l'emploi, du travail et des solidarités Aisne"
 * #DDETS-02 ^designation[0].language = #fr-FR
@@ -1536,7 +1536,7 @@ Description: "liste des autorités structurée en plusieurs types d'autorités :
 * #DDETS-02 ^property[=].valueInteger = 2
 * #DDETS-02 ^property[+].code = #parent
 * #DDETS-02 ^property[=].valueCode = #07
-* #DDETS-02 ^property[+].code = #AutoriteRegulationFiness
+* #DDETS-02 ^property[+].code = #AutoriteEnregistrementFiness
 * #DDETS-02 ^property[=].valueBoolean = true
 * #DDETS-03 "DDETS-03 : Direction départementale de l'emploi, du travail et des solidarités Allier"
 * #DDETS-03 ^designation[0].language = #fr-FR
@@ -1553,7 +1553,7 @@ Description: "liste des autorités structurée en plusieurs types d'autorités :
 * #DDETS-03 ^property[=].valueInteger = 2
 * #DDETS-03 ^property[+].code = #parent
 * #DDETS-03 ^property[=].valueCode = #07
-* #DDETS-03 ^property[+].code = #AutoriteRegulationFiness
+* #DDETS-03 ^property[+].code = #AutoriteEnregistrementFiness
 * #DDETS-03 ^property[=].valueBoolean = true
 * #DDETS-95 "DDETS-95 :Direction départementale de l'emploi, du travail et des solidarités Val d'Oise"
 * #DDETS-95 ^designation[0].language = #fr-FR
@@ -1570,7 +1570,7 @@ Description: "liste des autorités structurée en plusieurs types d'autorités :
 * #DDETS-95 ^property[=].valueInteger = 2
 * #DDETS-95 ^property[+].code = #parent
 * #DDETS-95 ^property[=].valueCode = #07
-* #DDETS-95 ^property[+].code = #AutoriteRegulationFiness
+* #DDETS-95 ^property[+].code = #AutoriteEnregistrementFiness
 * #DDETS-95 ^property[=].valueBoolean = true
 * #SSA "Service de santé des armées"
 * #SSA ^property[0].code = #dateValid
