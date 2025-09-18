@@ -1,11 +1,11 @@
 {
   "resourceType" : "ValueSet",
-  "id" : "7629c57d-ce48-446f-960b-911a63980bad-2933",
-  "url" : "http://hl7.org/fhir/comparison/ValueSet/7629c57d-ce48-446f-960b-911a63980bad-2933",
+  "id" : "3365f355-d5d6-4f85-b955-94611ea59fd3-2933",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/3365f355-d5d6-4f85-b955-94611ea59fd3-2933",
   "name" : "UnionJdvTypeSondeGastriqueCisisAndJdvTypeSondeGastriqueCisis",
   "title" : "Union of JDV Type Sonde Gastrique CISIS And JDV Type Sonde Gastrique CISIS",
   "status" : "active",
-  "date" : "2025-09-18T14:12:59+00:00",
+  "date" : "2025-09-18T16:42:13+00:00",
   "jurisdiction" : [{
     "coding" : [{
       "system" : "urn:iso:std:iso:3166",

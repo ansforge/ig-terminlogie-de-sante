@@ -1,11 +1,11 @@
 {
   "resourceType" : "CodeSystem",
-  "id" : "7629c57d-ce48-446f-960b-911a63980bad-783",
-  "url" : "http://hl7.org/fhir/comparison/CodeSystem/7629c57d-ce48-446f-960b-911a63980bad-783",
+  "id" : "3365f355-d5d6-4f85-b955-94611ea59fd3-783",
+  "url" : "http://hl7.org/fhir/comparison/CodeSystem/3365f355-d5d6-4f85-b955-94611ea59fd3-783",
   "name" : "IntersectionCISP_2AndCISP_2",
   "title" : "Intersection of Classification internationale des soins primaires - 2ème version And Classification internationale des soins primaires - 2ème version",
   "status" : "active",
-  "date" : "2025-09-18T14:12:58+00:00",
+  "date" : "2025-09-18T16:42:13+00:00",
   "filter" : [{
     "code" : "root",
     "operator" : ["="],
