@@ -1,11 +1,11 @@
 {
   "resourceType" : "ValueSet",
-  "id" : "08631b6e-9a42-4814-9df9-beb43bf8a22b-2183",
-  "url" : "http://hl7.org/fhir/comparison/ValueSet/08631b6e-9a42-4814-9df9-beb43bf8a22b-2183",
+  "id" : "804ab973-c32d-4289-9fad-27f2082b67ed-2183",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/804ab973-c32d-4289-9fad-27f2082b67ed-2183",
   "name" : "UnionJdvJuridiqueCisisAndJdvJuridiqueCisis",
   "title" : "Union of JDV Juridique CISIS And JDV Juridique CISIS",
   "status" : "active",
-  "date" : "2025-09-18T06:38:11+00:00",
+  "date" : "2025-09-18T11:10:17+00:00",
   "jurisdiction" : [{
     "coding" : [{
       "system" : "urn:iso:std:iso:3166",

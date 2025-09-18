@@ -6525,36 +6525,12 @@
     "oids" : ["1.2.250.1.213.1.6.1.250"]
   },
   {
-    "id" : "jdv-j287-type-autorisation-regulation-finess",
+    "id" : "jdv-j287-type-autorite-regulation-finess",
     "type" : "ValueSet",
-    "url" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j287-type-autorisation-regulation-finess",
+    "url" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j287-type-autorite-regulation-finess",
     "version" : "20250826120000",
-    "name" : "JdvJ287TypeAutorisationRegulationFiness",
+    "name" : "JdvJ287TypeAutoriteRegulationFiness",
     "oids" : ["1.2.250.1.213.1.6.1.249"]
-  },
-  {
-    "id" : "jdv-j358-type-autorisation-enregistrement-finess",
-    "type" : "ValueSet",
-    "url" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j287-type-autorisation-regulation-finess",
-    "version" : "20250826120000",
-    "name" : "JdvJ358TypeAutorisationEnregistrementFiness",
-    "oids" : ["1.2.250.1.213.1.6.1.366"]
-  },
-  {
-    "id" : "jdv-j359-autorisation-enregistrement-finess",
-    "type" : "ValueSet",
-    "url" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j287-type-autorisation-regulation-finess",
-    "version" : "20250826120000",
-    "name" : "JdvJ359AutorisationEnregistrementFiness",
-    "oids" : ["1.2.250.1.213.1.6.1.367"]
-  },
-  {
-    "id" : "jdv-j360-type-autorisation-regulation-finess",
-    "type" : "ValueSet",
-    "url" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j287-type-autorisation-regulation-finess",
-    "version" : "20250826120000",
-    "name" : "JdvJ360AutorisationRegulationFiness",
-    "oids" : ["1.2.250.1.213.1.6.1.368"]
   },
   {
     "id" : "jdv-j289-type-groupe-gco-finess",
@@ -6811,6 +6787,30 @@
     "version" : "20250516120000",
     "name" : "JdvJ357GenreCapaciteFiness",
     "oids" : ["1.2.250.1.213.1.6.1.365"]
+  },
+  {
+    "id" : "jdv-j358-type-autorite-enregistrement-finess",
+    "type" : "ValueSet",
+    "url" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j358-type-autorite-enregistrement-finess",
+    "version" : "20250826120000",
+    "name" : "JdvJ358TypeAutoriteEnregistrementFiness",
+    "oids" : ["1.2.250.1.213.1.6.1.366"]
+  },
+  {
+    "id" : "jdv-j359-autorite-enregistrement-finess",
+    "type" : "ValueSet",
+    "url" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j359-autorite-enregistrement-finess",
+    "version" : "20250917120000",
+    "name" : "JdvJ359AutoriteEnregistrementFiness",
+    "oids" : ["1.2.250.1.213.1.6.1.367"]
+  },
+  {
+    "id" : "jdv-j360-autorite-regulation-finess",
+    "type" : "ValueSet",
+    "url" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j360-autorite-regulation-finess",
+    "version" : "20250826120000",
+    "name" : "JdvJ360AutoriteRegulationFiness",
+    "oids" : ["1.2.250.1.213.1.6.1.368"]
   },
   {
     "id" : "jdv-j364-type-fermeture-pm-finess",

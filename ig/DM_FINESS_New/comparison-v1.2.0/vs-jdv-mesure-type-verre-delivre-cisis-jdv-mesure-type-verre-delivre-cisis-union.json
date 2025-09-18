@@ -1,11 +1,11 @@
 {
   "resourceType" : "ValueSet",
-  "id" : "08631b6e-9a42-4814-9df9-beb43bf8a22b-2246",
-  "url" : "http://hl7.org/fhir/comparison/ValueSet/08631b6e-9a42-4814-9df9-beb43bf8a22b-2246",
+  "id" : "804ab973-c32d-4289-9fad-27f2082b67ed-2246",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/804ab973-c32d-4289-9fad-27f2082b67ed-2246",
   "name" : "UnionJdvMesureTypeVerreDelivreCisisAndJdvMesureTypeVerreDelivreCisis",
   "title" : "Union of JDV Mesure Type Verre Delivre CISIS And JDV Mesure Type Verre Delivre CISIS",
   "status" : "active",
-  "date" : "2025-09-18T06:38:11+00:00",
+  "date" : "2025-09-18T11:10:17+00:00",
   "jurisdiction" : [{
     "coding" : [{
       "system" : "urn:iso:std:iso:3166",

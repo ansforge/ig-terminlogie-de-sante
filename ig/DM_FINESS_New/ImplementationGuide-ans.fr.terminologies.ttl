@@ -48422,10 +48422,10 @@
          ]
        ] ) ;
        fhir:reference [
-         fhir:link <https://interop.esante.gouv.fr/terminologies/ValueSet/jdv-j287-type-autorisation-regulation-finess> ;
-         fhir:reference [ fhir:v "ValueSet/jdv-j287-type-autorisation-regulation-finess" ]
+         fhir:link <https://interop.esante.gouv.fr/terminologies/ValueSet/jdv-j287-type-autorite-regulation-finess> ;
+         fhir:reference [ fhir:v "ValueSet/jdv-j287-type-autorite-regulation-finess" ]
        ] ;
-       fhir:name [ fhir:v "Jdv J287 Type Autorisation Regulation Finess" ] ;
+       fhir:name [ fhir:v "Jdv J287 Type Autorite Regulation Finess" ] ;
        fhir:description [ fhir:v "Jeu de valeurs FINESS contenant les types d'autorité de régulation pour Finess" ] ;
        fhir:example [
          a fhir:boolean ;
@@ -48998,28 +48998,10 @@
          ]
        ] ) ;
        fhir:reference [
-         fhir:link <https://interop.esante.gouv.fr/terminologies/ValueSet/jdv-j359-autorisation-enregistrement-finess> ;
-         fhir:reference [ fhir:v "ValueSet/jdv-j359-autorisation-enregistrement-finess" ]
+         fhir:link <https://interop.esante.gouv.fr/terminologies/ValueSet/jdv-j358-type-autorite-enregistrement-finess> ;
+         fhir:reference [ fhir:v "ValueSet/jdv-j358-type-autorite-enregistrement-finess" ]
        ] ;
-       fhir:name [ fhir:v "Jdv J358 Autorisation Enregistrement Finess" ] ;
-       fhir:description [ fhir:v "Jeu de valeurs FINESS contenant les autorité d'enregistrement pour Finess" ] ;
-       fhir:example [
-         a fhir:boolean ;
-         fhir:v false
-       ]
-     ] [
-       fhir:extension ( [
-         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
-         fhir:value [
-           a fhir:string ;
-           fhir:v "ValueSet"
-         ]
-       ] ) ;
-       fhir:reference [
-         fhir:link <https://interop.esante.gouv.fr/terminologies/ValueSet/jdv-j358-type-autorisation-enregistrement-finess> ;
-         fhir:reference [ fhir:v "ValueSet/jdv-j358-type-autorisation-enregistrement-finess" ]
-       ] ;
-       fhir:name [ fhir:v "Jdv J358 Type Autorisation Enregistrement Finess" ] ;
+       fhir:name [ fhir:v "Jdv J358 Type Autorite Enregistrement Finess" ] ;
        fhir:description [ fhir:v "Jeu de valeurs FINESS contenant les types d'autorité d'enregistrement pour Finess" ] ;
        fhir:example [
          a fhir:boolean ;
@@ -49034,10 +49016,28 @@
          ]
        ] ) ;
        fhir:reference [
-         fhir:link <https://interop.esante.gouv.fr/terminologies/ValueSet/jdv-j360-type-autorisation-regulation-finess> ;
-         fhir:reference [ fhir:v "ValueSet/jdv-j360-type-autorisation-regulation-finess" ]
+         fhir:link <https://interop.esante.gouv.fr/terminologies/ValueSet/jdv-j359-autorite-enregistrement-finess> ;
+         fhir:reference [ fhir:v "ValueSet/jdv-j359-autorite-enregistrement-finess" ]
        ] ;
-       fhir:name [ fhir:v "Jdv J360 Type Autorisation Regulation Finess" ] ;
+       fhir:name [ fhir:v "Jdv J359 Autorite Enregistrement Finess" ] ;
+       fhir:description [ fhir:v "Jeu de valeurs FINESS contenant les autorité d'enregistrement pour Finess" ] ;
+       fhir:example [
+         a fhir:boolean ;
+         fhir:v false
+       ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [
+           a fhir:string ;
+           fhir:v "ValueSet"
+         ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <https://interop.esante.gouv.fr/terminologies/ValueSet/jdv-j360-autorite-regulation-finess> ;
+         fhir:reference [ fhir:v "ValueSet/jdv-j360-autorite-regulation-finess" ]
+       ] ;
+       fhir:name [ fhir:v "Jdv J360 Autorite Regulation Finess" ] ;
        fhir:description [ fhir:v "Jeu de valeurs FINESS contenant les autorités de régulation pour Finess" ] ;
        fhir:example [
          a fhir:boolean ;
