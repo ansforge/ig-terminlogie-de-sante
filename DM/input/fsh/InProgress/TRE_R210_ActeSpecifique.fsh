@@ -9,10 +9,10 @@ Description: "Action menée par un ou plusieurs acteur(s) de santé dans le cadr
 * ^url = "https://mos.esante.gouv.fr/NOS/TRE_R210-ActeSpecifique/FHIR/TRE-R210-ActeSpecifique"
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value = "urn:oid:1.2.250.1.213.3.3.11"
-* ^version = "20250918120000"
+* ^version = "20250919120000"
 * ^status = #active
 * ^experimental = false
-* ^date = "2025-09-18T12:00:00+01:00"
+* ^date = "2025-09-19T12:00:00+01:00"
 * ^publisher = "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris"
 * ^caseSensitive = false
 * ^content = #complete
@@ -734,10 +734,14 @@ Description: "Action menée par un ou plusieurs acteur(s) de santé dans le cadr
 * #0055 ^designation[=].value = "55"
 * #0055 ^property[0].code = #dateValid
 * #0055 ^property[=].valueDateTime = "2015-04-08T00:00:00+01:00"
+* #0055 ^property[+].code = #dateFin
+* #0055 ^property[=].valueDateTime = "2025-09-19T12:00:00+01:00"
 * #0055 ^property[+].code = #dateMaj
-* #0055 ^property[=].valueDateTime = "2015-04-08T00:00:00+01:00"
+* #0055 ^property[=].valueDateTime = "2025-09-19T00:00:00+01:00"
+* #0055 ^property[+].code = #deprecationDate
+* #0055 ^property[=].valueDateTime = "2025-09-19T12:00:00+01:00"
 * #0055 ^property[+].code = #status
-* #0055 ^property[=].valueCode = #active
+* #0055 ^property[=].valueCode = #deprecated
 * #0056 "Chirurgie carcinologique ophtalmologique"
 * #0056 ^designation[0].language = #fr-FR
 * #0056 ^designation[=].use.system = "http://snomed.info/sct"
@@ -5014,7 +5018,7 @@ Description: "Action menée par un ou plusieurs acteur(s) de santé dans le cadr
 * #0383 ^property[=].valueDateTime = "2015-04-08T00:00:00+01:00"
 * #0383 ^property[+].code = #status
 * #0383 ^property[=].valueCode = #active
-* #0384 "Prélèvement d'organes à coeur battant"
+* #0384 "Prélèvement d'organes à coeur battant (mort cérébrale)"
 * #0384 ^designation[0].language = #fr-FR
 * #0384 ^designation[=].use.system = "http://snomed.info/sct"
 * #0384 ^designation[=].use = $sct#900000000000013009
@@ -5022,7 +5026,7 @@ Description: "Action menée par un ou plusieurs acteur(s) de santé dans le cadr
 * #0384 ^property[0].code = #dateValid
 * #0384 ^property[=].valueDateTime = "2015-04-08T00:00:00+01:00"
 * #0384 ^property[+].code = #dateMaj
-* #0384 ^property[=].valueDateTime = "2015-04-08T00:00:00+01:00"
+* #0384 ^property[=].valueDateTime = "2025-09-19T00:00:00+01:00"
 * #0384 ^property[+].code = #status
 * #0384 ^property[=].valueCode = #active
 * #0385 "Prélèvement d'organes sur personne vivante : foie"
@@ -5404,10 +5408,14 @@ Description: "Action menée par un ou plusieurs acteur(s) de santé dans le cadr
 * #0413 ^designation[=].value = "413"
 * #0413 ^property[0].code = #dateValid
 * #0413 ^property[=].valueDateTime = "2015-04-08T00:00:00+01:00"
+* #0413 ^property[+].code = #dateFin
+* #0413 ^property[=].valueDateTime = "2025-09-19T12:00:00+01:00"
 * #0413 ^property[+].code = #dateMaj
-* #0413 ^property[=].valueDateTime = "2015-04-08T00:00:00+01:00"
+* #0413 ^property[=].valueDateTime = "2025-09-19T00:00:00+01:00"
+* #0413 ^property[+].code = #deprecationDate
+* #0413 ^property[=].valueDateTime = "2025-09-19T12:00:00+01:00"
 * #0413 ^property[+].code = #status
-* #0413 ^property[=].valueCode = #active
+* #0413 ^property[=].valueCode = #deprecated
 * #0414 "Réhabilitation respiratoire"
 * #0414 ^designation[0].language = #fr-FR
 * #0414 ^designation[=].use.system = "http://snomed.info/sct"
@@ -5737,10 +5745,14 @@ Description: "Action menée par un ou plusieurs acteur(s) de santé dans le cadr
 * #0440 ^designation[=].value = "440"
 * #0440 ^property[0].code = #dateValid
 * #0440 ^property[=].valueDateTime = "2015-04-08T00:00:00+01:00"
+* #0440 ^property[+].code = #dateFin
+* #0440 ^property[=].valueDateTime = "2025-09-19T00:00:00+01:00"
 * #0440 ^property[+].code = #dateMaj
-* #0440 ^property[=].valueDateTime = "2015-04-08T00:00:00+01:00"
+* #0440 ^property[=].valueDateTime = "2025-09-19T00:00:00+01:00"
+* #0440 ^property[+].code = #deprecationDate
+* #0440 ^property[=].valueDateTime = "2025-09-19T00:00:00+01:00"
 * #0440 ^property[+].code = #status
-* #0440 ^property[=].valueCode = #active
+* #0440 ^property[=].valueCode = #deprecated
 * #0441 "Soins avec administration de MEOPA" "Soins réalisés avec administration d'un mélange gazeux analgésique de MEOPA (Mélange Equimolaire Oxygène Protoxyde d'Azote)"
 * #0441 ^designation[0].language = #fr-FR
 * #0441 ^designation[=].use.system = "http://snomed.info/sct"
@@ -9422,10 +9434,14 @@ Description: "Action menée par un ou plusieurs acteur(s) de santé dans le cadr
 * #0731 ^designation[=].value = "731"
 * #0731 ^property[0].code = #dateValid
 * #0731 ^property[=].valueDateTime = "2018-01-26T12:00:00+01:00"
+* #0731 ^property[+].code = #dateFin
+* #0731 ^property[=].valueDateTime = "2025-09-19T12:00:00+01:00"
 * #0731 ^property[+].code = #dateMaj
-* #0731 ^property[=].valueDateTime = "2018-01-26T12:00:00+01:00"
+* #0731 ^property[=].valueDateTime = "2025-09-19T12:00:00+01:00"
+* #0731 ^property[+].code = #deprecationDate
+* #0731 ^property[=].valueDateTime = "2025-09-19T12:00:00+01:00"
 * #0731 ^property[+].code = #status
-* #0731 ^property[=].valueCode = #active
+* #0731 ^property[=].valueCode = #deprecated
 * #0732 "Confection d'orthèse du membre supérieur" "Moulage, fabrication, essayage et suivi du dispositif médical adapté, destiné à compenser une fonction absente ou déficitaire au niveau du membre supérieur : épaule, coude, poignet, main."
 * #0732 ^designation[0].language = #fr-FR
 * #0732 ^designation[=].use.system = "http://snomed.info/sct"
@@ -10344,7 +10360,7 @@ Description: "Action menée par un ou plusieurs acteur(s) de santé dans le cadr
 * #0809 ^property[=].valueDateTime = "2018-05-31T12:00:00+01:00"
 * #0809 ^property[+].code = #status
 * #0809 ^property[=].valueCode = #active
-* #0810 "Préparation à la naissance et à la parentalité" "Accompagnement global de la femme et du couple en favorisant leur participation active dans le projet de naissance, par une approche éducative et préventive, en développant les connaissances et les aptitudes nécessaires sur les modalités d'accouchement, les possibilités de suivi pendant la période postnatale, y compris les conditions d'un retour précoce à domicile, le recours en cas de difficultés, les soins essentiels ainsi que les pratiques parentales à l'égard de l'enfant à élever. La préparation à la naissance et à la parentalité complète le suivi médical."
+* #0810 "Séance de préparation à la naissance et à la parentalité en groupe" "Accompagnement global de la femme et du couple en favorisant leur participation active dans le projet de naissance, par une approche éducative et préventive, en développant les connaissances et les aptitudes nécessaires sur les modalités d'accouchement, les possibilités de suivi pendant la période postnatale, y compris les conditions d'un retour précoce à domicile, le recours en cas de difficultés, les soins essentiels ainsi que les pratiques parentales à l'égard de l'enfant à élever. La préparation à la naissance et à la parentalité complète le suivi médical."
 * #0810 ^designation[0].language = #fr-FR
 * #0810 ^designation[=].use.system = "http://snomed.info/sct"
 * #0810 ^designation[=].use = $sct#900000000000013009
@@ -10352,7 +10368,7 @@ Description: "Action menée par un ou plusieurs acteur(s) de santé dans le cadr
 * #0810 ^property[0].code = #dateValid
 * #0810 ^property[=].valueDateTime = "2018-03-30T12:00:00+01:00"
 * #0810 ^property[+].code = #dateMaj
-* #0810 ^property[=].valueDateTime = "2023-10-30T12:00:00+01:00"
+* #0810 ^property[=].valueDateTime = "2025-09-19T12:00:00+01:00"
 * #0810 ^property[+].code = #status
 * #0810 ^property[=].valueCode = #active
 * #0811 "Accompagnement de la parentalité"
@@ -10491,7 +10507,7 @@ Description: "Action menée par un ou plusieurs acteur(s) de santé dans le cadr
 * #0822 ^property[=].valueDateTime = "2018-10-26T12:00:00+01:00"
 * #0822 ^property[+].code = #status
 * #0822 ^property[=].valueCode = #active
-* #0823 "Méthode de détente activo-passive"
+* #0823 "Méthode de détente activo-passive" "Décrit les méthodes de détente activo-passives basées sur le mouvement lent et alternant temps actif/temps repos. Les différentes techniques de détente activo-passive sont le Yoga, le Tai-Chi et le QI-Gong"
 * #0823 ^designation[0].language = #fr-FR
 * #0823 ^designation[=].use.system = "http://snomed.info/sct"
 * #0823 ^designation[=].use = $sct#900000000000013009
@@ -10499,7 +10515,7 @@ Description: "Action menée par un ou plusieurs acteur(s) de santé dans le cadr
 * #0823 ^property[0].code = #dateValid
 * #0823 ^property[=].valueDateTime = "2018-05-31T12:00:00+01:00"
 * #0823 ^property[+].code = #dateMaj
-* #0823 ^property[=].valueDateTime = "2018-05-31T12:00:00+01:00"
+* #0823 ^property[=].valueDateTime = "2025-09-19T12:00:00+01:00"
 * #0823 ^property[+].code = #status
 * #0823 ^property[=].valueCode = #active
 * #0824 "Téléassistance"
@@ -11288,10 +11304,14 @@ Description: "Action menée par un ou plusieurs acteur(s) de santé dans le cadr
 * #0893 ^designation[=].value = "893"
 * #0893 ^property[0].code = #dateValid
 * #0893 ^property[=].valueDateTime = "2019-03-29T12:00:00+01:00"
+* #0893 ^property[+].code = #dateFin
+* #0893 ^property[=].valueDateTime = "2025-09-19T12:00:00+01:00"
 * #0893 ^property[+].code = #dateMaj
-* #0893 ^property[=].valueDateTime = "2023-06-30T12:00:00+01:00"
+* #0893 ^property[=].valueDateTime = "2025-09-19T12:00:00+01:00"
+* #0893 ^property[+].code = #deprecationDate
+* #0893 ^property[=].valueDateTime = "2025-09-19T12:00:00+01:00"
 * #0893 ^property[+].code = #status
-* #0893 ^property[=].valueCode = #active
+* #0893 ^property[=].valueCode = #deprecated
 * #0894 "Réadaptation anorectale"
 * #0894 ^designation[0].language = #fr-FR
 * #0894 ^designation[=].use.system = "http://snomed.info/sct"
@@ -11754,7 +11774,7 @@ Description: "Action menée par un ou plusieurs acteur(s) de santé dans le cadr
 * #0931 ^property[=].valueDateTime = "2019-07-05T12:00:00+01:00"
 * #0931 ^property[+].code = #status
 * #0931 ^property[=].valueCode = #active
-* #0932 "Tests Rapides d'Orientation Diagnostique (TROD)" "Le TROD est un dispositif médical in vitro pouvant permettre le dépistage rapide en ambulatoire du VIH, de l'hépatite B et C, du diabète (évaluation de la glycémie), du COVID, de la grippe ou de l'angine. Il est destiné à être utilisé par un professionnel de santé ou par une personne formée, selon les dispositions des arrêtés fixant les conditions de réalisation des TROD et définissant les structures éligibles."
+* #0932 "Test Rapide d’Orientation Diagnostique (TROD) VIH / Hépatite B / Hépatite C" "Le TROD est un dispositif médical in vitro pouvant permettre le dépistage rapide en ambulatoire du VIH, de l'hépatite B et C, du diabète (évaluation de la glycémie), du COVID, de la grippe ou de l'angine. Il est destiné à être utilisé par un professionnel de santé ou par une personne formée, selon les dispositions des arrêtés fixant les conditions de réalisation des TROD et définissant les structures éligibles."
 * #0932 ^designation[0].language = #fr-FR
 * #0932 ^designation[=].use.system = "http://snomed.info/sct"
 * #0932 ^designation[=].use = $sct#900000000000013009
@@ -11762,7 +11782,7 @@ Description: "Action menée par un ou plusieurs acteur(s) de santé dans le cadr
 * #0932 ^property[0].code = #dateValid
 * #0932 ^property[=].valueDateTime = "2019-07-05T12:00:00+01:00"
 * #0932 ^property[+].code = #dateMaj
-* #0932 ^property[=].valueDateTime = "2019-07-05T12:00:00+01:00"
+* #0932 ^property[=].valueDateTime = "2025-09-19T12:00:00+01:00"
 * #0932 ^property[+].code = #status
 * #0932 ^property[=].valueCode = #active
 * #0933 "Echo-doppler artériel de l'aorte"
@@ -13427,10 +13447,14 @@ Description: "Action menée par un ou plusieurs acteur(s) de santé dans le cadr
 * #1113 "Thérapie manuelle"
 * #1113 ^property[0].code = #dateValid
 * #1113 ^property[=].valueDateTime = "2022-06-24T12:00:00+01:00"
+* #1113 ^property[+].code = #dateFin
+* #1113 ^property[=].valueDateTime = "2025-09-19T12:00:00+01:00"
 * #1113 ^property[+].code = #dateMaj
-* #1113 ^property[=].valueDateTime = "2022-06-24T12:00:00+01:00"
+* #1113 ^property[=].valueDateTime = "2025-09-19T12:00:00+01:00"
+* #1113 ^property[+].code = #deprecationDate
+* #1113 ^property[=].valueDateTime = "2025-09-19T12:00:00+01:00"
 * #1113 ^property[+].code = #status
-* #1113 ^property[=].valueCode = #active
+* #1113 ^property[=].valueCode = #deprecated
 * #1114 "Abords vasculaires pour hémodialyse" "Pose d'abords vasculaire nécessaire pour permettre des branchements répétés au rein artificiel (ligne artérielle et ligne veineuse). Ces abords comprennent la fistule artérioveineuse (FAV), les pontages artérioveineux (PAV) prothétiques, les cathéters veineux centraux (CVC)"
 * #1114 ^property[0].code = #dateValid
 * #1114 ^property[=].valueDateTime = "2022-06-24T12:00:00+01:00"
@@ -16201,11 +16225,11 @@ Description: "Action menée par un ou plusieurs acteur(s) de santé dans le cadr
 * #1483 ^property[=].valueDateTime = "2024-10-25T12:00:00+01:00"
 * #1483 ^property[+].code = #status
 * #1483 ^property[=].valueCode = #active
-* #1484 "Télésurveillance médicale de l'insuffisance rénale"
+* #1484 "Télésurveillance médicale de la maladie rénale chronique (MRC)"
 * #1484 ^property[0].code = #dateValid
 * #1484 ^property[=].valueDateTime = "2024-10-25T12:00:00+01:00"
 * #1484 ^property[+].code = #dateMaj
-* #1484 ^property[=].valueDateTime = "2024-10-25T12:00:00+01:00"
+* #1484 ^property[=].valueDateTime = "2025-09-19T12:00:00+01:00"
 * #1484 ^property[+].code = #status
 * #1484 ^property[=].valueCode = #active
 * #1485 "Télésurveillance médicale de l'insuffisance respiratoire"
@@ -16598,3 +16622,87 @@ Description: "Action menée par un ou plusieurs acteur(s) de santé dans le cadr
 * #1538 ^property[=].valueDateTime = "2025-06-23T12:00:00+01:00"
 * #1538 ^property[+].code = #status
 * #1538 ^property[=].valueCode = #active
+* #1539 "Test Rapide d’Orientation Diagnostique (TROD) Covid-19"
+* #1539 ^property[0].code = #dateValid
+* #1539 ^property[=].valueDateTime = "2025-09-19T12:00:00+01:00"
+* #1539 ^property[+].code = #dateMaj
+* #1539 ^property[=].valueDateTime = "2025-09-19T12:00:00+01:00"
+* #1539 ^property[+].code = #status
+* #1539 ^property[=].valueCode = #active
+* #1540 "Test Rapide d’Orientation Diagnostique (TROD) Grippe"
+* #1540 ^property[0].code = #dateValid
+* #1540 ^property[=].valueDateTime = "2025-09-19T12:00:00+01:00"
+* #1540 ^property[+].code = #dateMaj
+* #1540 ^property[=].valueDateTime = "2025-09-19T12:00:00+01:00"
+* #1540 ^property[+].code = #status
+* #1540 ^property[=].valueCode = #active
+* #1541 "Test Rapide d’Orientation Diagnostique (TROD) Virus respiratoire syncytial (VRS)"
+* #1541 ^property[0].code = #dateValid
+* #1541 ^property[=].valueDateTime = "2025-09-19T12:00:00+01:00"
+* #1541 ^property[+].code = #dateMaj
+* #1541 ^property[=].valueDateTime = "2025-09-19T12:00:00+01:00"
+* #1541 ^property[+].code = #status
+* #1541 ^property[=].valueCode = #active
+* #1542 "Test Rapide d’Orientation Diagnostique (TROD) Angine"
+* #1542 ^property[0].code = #dateValid
+* #1542 ^property[=].valueDateTime = "2025-09-19T12:00:00+01:00"
+* #1542 ^property[+].code = #dateMaj
+* #1542 ^property[=].valueDateTime = "2025-09-19T12:00:00+01:00"
+* #1542 ^property[+].code = #status
+* #1542 ^property[=].valueCode = #active
+* #1543 "Test Rapide d’Orientation Diagnostique (TROD) Syphilis"
+* #1543 ^property[0].code = #dateValid
+* #1543 ^property[=].valueDateTime = "2025-09-19T12:00:00+01:00"
+* #1543 ^property[+].code = #dateMaj
+* #1543 ^property[=].valueDateTime = "2025-09-19T12:00:00+01:00"
+* #1543 ^property[+].code = #status
+* #1543 ^property[=].valueCode = #active
+* #1544 "Test Rapide d’Orientation Diagnostique (TROD) Cystite"
+* #1544 ^property[0].code = #dateValid
+* #1544 ^property[=].valueDateTime = "2025-09-19T12:00:00+01:00"
+* #1544 ^property[+].code = #dateMaj
+* #1544 ^property[=].valueDateTime = "2025-09-19T12:00:00+01:00"
+* #1544 ^property[+].code = #status
+* #1544 ^property[=].valueCode = #active
+* #1545 "Chirurgie de l’allongement osseux"
+* #1545 ^property[0].code = #dateValid
+* #1545 ^property[=].valueDateTime = "2025-09-19T12:00:00+01:00"
+* #1545 ^property[+].code = #dateMaj
+* #1545 ^property[=].valueDateTime = "2025-09-19T12:00:00+01:00"
+* #1545 ^property[+].code = #status
+* #1545 ^property[=].valueCode = #active
+* #1546 "Correction des malformations congénitales de la main"
+* #1546 ^property[0].code = #dateValid
+* #1546 ^property[=].valueDateTime = "2025-09-19T12:00:00+01:00"
+* #1546 ^property[+].code = #dateMaj
+* #1546 ^property[=].valueDateTime = "2025-09-19T12:00:00+01:00"
+* #1546 ^property[+].code = #status
+* #1546 ^property[=].valueCode = #active
+* #1547 "Accueil saisonnier possible"
+* #1547 ^property[0].code = #dateValid
+* #1547 ^property[=].valueDateTime = "2025-09-19T12:00:00+01:00"
+* #1547 ^property[+].code = #dateMaj
+* #1547 ^property[=].valueDateTime = "2025-09-19T12:00:00+01:00"
+* #1547 ^property[+].code = #status
+* #1547 ^property[=].valueCode = #active
+* #1548 "Accueil saisonnier uniquement"
+* #1548 ^property[0].code = #dateValid
+* #1548 ^property[=].valueDateTime = "2025-09-19T12:00:00+01:00"
+* #1548 ^property[+].code = #dateMaj
+* #1548 ^property[=].valueDateTime = "2025-09-19T12:00:00+01:00"
+* #1548 ^property[+].code = #status
+* #1548 ^property[=].valueCode = #active
+* #1549 "Autodialyse simple"
+* #1549 ^property[0].code = #dateValid
+* #1549 ^property[=].valueDateTime = "2025-09-19T12:00:00+01:00"
+* #1549 ^property[+].code = #dateMaj
+* #1549 ^property[=].valueDateTime = "2025-09-19T12:00:00+01:00"
+* #1549 ^property[+].code = #status
+* #1549 ^property[=].valueCode = #active
+* #1550 "Autodialyse assistée"
+* #1550 ^property[0].code = #dateValid
+* #1550 ^property[=].valueDateTime = "2025-09-19T12:00:00+01:00"
+* #1550 ^property[+].code = #dateMaj
+* #1550 ^property[=].valueDateTime = "2025-09-19T12:00:00+01:00"
+* #1550 ^property[+].code = #status
+* #1550 ^property[=].valueCode = #active
