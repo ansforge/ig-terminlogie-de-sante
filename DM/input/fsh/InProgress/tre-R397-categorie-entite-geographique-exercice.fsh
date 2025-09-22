@@ -24,6 +24,10 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * ^property[=].description = "An immediate parent of the concept in the hierarchy"
 * ^property[=].uri = "http://hl7.org/fhir/concept-properties#parent"
 * ^property[=].type = #code
+* ^property[+].code = #domaine
+* ^property[=].uri = "https://smt.esante.gouv.fr/fhir/concept-properties#domaine"
+* ^property[=].description = "Domaine de la categorie d etablissement"
+* ^property[=].type = #Coding
 * ^property[+].code = #dateValid
 * ^property[=].description = "date de validité d'un code concept"
 * ^property[=].type = #dateTime
@@ -53,7 +57,7 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * ^property[=].uri = "http://hl7.org/fhir/concept-properties#JdvJ310CategorieEntiteGeographiqueExerciceFiness"
 * ^property[=].description = "Permet de définir les codes à inclure dans le JdvJ310CategorieEntiteGeographiqueExerciceFiness"
 * #0100 "Etablissements d'administration"
-* #0100  ^property[+].code = #niveau
+* #0100 ^property[0].code = #niveau
 * #0100 ^property[=].valueInteger =  1
 * #0100 ^designation[0].language = #fr-FR
 * #0100 ^designation[=].use.system = "http://snomed.info/sct"
@@ -66,7 +70,7 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #0100 ^property[+].code = #dateMaj
 * #0100 ^property[=].valueDateTime = "2021-03-26T12:00:00+01:00"
 * #1000 "Etablissements Relevant de la Loi Hospitalière"
-* #1000 ^property[+].code = #niveau
+* #1000 ^property[0].code = #niveau
 * #1000 ^property[=].valueInteger =  1
 * #1000 ^designation[0].language = #fr-FR
 * #1000 ^designation[=].use.system = "http://snomed.info/sct"
@@ -77,7 +81,7 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #1000 ^property[+].code = #dateMaj
 * #1000 ^property[=].valueDateTime = "1979-01-01T00:00:00+01:00"
 * #2000 "Autres Etablissements de Soins et Prévention"
-* #2000 ^property[+].code = #niveau
+* #2000 ^property[0].code = #niveau
 * #2000 ^property[=].valueInteger =  1
 * #2000 ^designation[0].language = #fr-FR
 * #2000 ^designation[=].use.system = "http://snomed.info/sct"
@@ -92,7 +96,7 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #2000 ^property[+].code = #dateMaj
 * #2000 ^property[=].valueDateTime = "1979-01-01T00:00:00+01:00"
 * #3000 "Autres Etablissements à Caractère Sanitaire"
-* #3000 ^property[+].code = #niveau
+* #3000 ^property[0].code = #niveau
 * #3000 ^property[=].valueInteger =  1
 * #3000 ^designation[0].language = #fr-FR
 * #3000 ^designation[=].use.system = "http://snomed.info/sct"
@@ -107,7 +111,7 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #3000 ^property[+].code = #dateMaj
 * #3000 ^property[=].valueDateTime = "1979-01-01T00:00:00+01:00"
 * #4000 "Etab.Serv.Soc.d'Accueil Hébergement Assistance Réadaptation"
-* #4000 ^property[+].code = #niveau
+* #4000 ^property[0].code = #niveau
 * #4000 ^property[=].valueInteger =  1
 * #4000 ^designation[0].language = #fr-FR
 * #4000 ^designation[=].use.system = "http://snomed.info/sct"
@@ -122,7 +126,7 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #4000 ^property[+].code = #dateMaj
 * #4000 ^property[=].valueDateTime = "1979-01-01T00:00:00+01:00"
 * #5000 "Etablissements et Services Sociaux d'Aide à la Famille"
-* #5000 ^property[+].code = #niveau
+* #5000 ^property[0].code = #niveau
 * #5000 ^property[=].valueInteger =  1
 * #5000 ^designation[0].language = #fr-FR
 * #5000 ^designation[=].use.system = "http://snomed.info/sct"
@@ -133,7 +137,7 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #5000 ^property[+].code = #dateMaj
 * #5000 ^property[=].valueDateTime = "1979-01-01T00:00:00+01:00"
 * #6000 "Etab.de Formation des Personnels Sanitaires et Sociaux"
-* #6000 ^property[+].code = #niveau
+* #6000 ^property[0].code = #niveau
 * #6000 ^property[=].valueInteger =  1
 * #6000 ^designation[0].language = #fr-FR
 * #6000 ^designation[=].use = $sct#900000000000013009
@@ -7189,3 +7193,24 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #703 ^property[=].valueDateTime = "2025-04-25T12:00:00+01:00"
 * #703 ^property[+].code = #status
 * #703 ^property[=].valueCode = #active
+* #0100 ^property[+].code = #domaine
+* #0100 ^property[=].valueCoding.system = "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine/"
+* #0100 ^property[=].valueCoding.code = #ADM
+* #1000 ^property[+].code = #domaine
+* #1000 ^property[=].valueCoding.system = "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine/"
+* #1000 ^property[=].valueCoding.code = #SAN
+* #2000 ^property[+].code = #domaine
+* #2000 ^property[=].valueCoding.system = "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine/"
+* #2000 ^property[=].valueCoding.code = #SAN
+* #3000 ^property[+].code = #domaine
+* #3000 ^property[=].valueCoding.system = "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine/"
+* #3000 ^property[=].valueCoding.code = #SAN
+* #4000 ^property[+].code = #domaine
+* #4000 ^property[=].valueCoding.system = "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine/"
+* #4000 ^property[=].valueCoding.code = #SOC
+* #5000 ^property[+].code = #domaine
+* #5000 ^property[=].valueCoding.system = "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine/"
+* #5000 ^property[=].valueCoding.code = #SOC
+* #6000 ^property[+].code = #domaine
+* #6000 ^property[=].valueCoding.system = "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine/"
+* #6000 ^property[=].valueCoding.code = #ENS
