@@ -1,6 +1,6 @@
 ValueSet: JDV_J185_TypeFermeture_ROR
 Id: JDV-J185-TypeFermeture-ROR
-Description: "Destination d'usage du lieu pour le lieu de réalisation de l'offre, les seules valeurs acceptées par le ROR pour les Organisations internes et les offres"
+Description: "Les seules valeurs acceptées par le ROR pour les Organisations internes et les offres"
 * ^meta.versionId = "4"
 * ^meta.lastUpdated = "2025-07-02T17:05:35.688+00:00"
 * ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablevalueset"
