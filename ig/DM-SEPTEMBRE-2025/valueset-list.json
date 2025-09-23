@@ -1347,7 +1347,7 @@
       "status" : "active",
       "name" : "JDV_J185_TypeFermeture_ROR",
       "title" : null,
-      "description" : "Destination d'usage du lieu pour le lieu de réalisation de l'offre, les seules valeurs acceptées par le ROR pour les Organisations internes et les offres",
+      "description" : "Les seules valeurs acceptées par le ROR pour les Organisations internes et les offres",
       "systems" : [
         "https://mos.esante.gouv.fr/NOS/TRE_R286-TypeFermeture/FHIR/TRE-R286-TypeFermeture"
       ],
@@ -1586,7 +1586,7 @@
       "status" : "active",
       "name" : "JDV_J201_TypeFermeture_ROR",
       "title" : null,
-      "description" : "Type de fermeture, codes provenant du FINESS pour les EJ et EG, les différentes valeurs que peuvent nous envoyer FINESS (il en existe davantage)",
+      "description" : "Différentes valeurs de type de fermeture que peuvent envoyer FINESS au ROR (il en existe davantage)",
       "systems" : [
         "https://mos.esante.gouv.fr/NOS/TRE_R286-TypeFermeture/FHIR/TRE-R286-TypeFermeture"
       ],

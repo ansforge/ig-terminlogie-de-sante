@@ -27,7 +27,7 @@
   <experimental value="false"/>
   <date value="2025-09-23T12:00:00+01:00"/>
   <publisher value="Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris"/>
-  <description value="Type de fermeture, codes provenant du FINESS pour les EJ et EG, les différentes valeurs que peuvent nous envoyer FINESS (il en existe davantage)"/>
+  <description value="Différentes valeurs de type de fermeture que peuvent envoyer FINESS au ROR (il en existe davantage)"/>
   <jurisdiction>
     <coding>
       <system value="urn:iso:std:iso:3166"/>
