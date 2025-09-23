@@ -306,7 +306,7 @@ Description: "Rôle dans la prise en charge des patients ou des usagers"
 * #328 ^property[=].valueDateTime = "2025-09-19T12:00:00+01:00"
 * #328 ^property[+].code = #status
 * #328 ^property[=].valueCode = #active
-* #329 "Conseiller en génétique" "CASF Articles D451-88 à D451-93 https://www.insee.fr/fr/metadonnees/pcsese2017/rubriqueRegroupee/422e?champRecherche=true"
+* #329 "Conseiller en génétique" "Ref juridique : CSP Articles R1132-1 à R1132-20 Le ou la conseiller(ère) en génétique (CG) délivre un conseil génétique aux patients et/ou à leurs familles concernées par une affection génétique, qu’ils en soient atteints, susceptibles de l’être ou de la transmettre. Il ou elle leur apporte les informations nécessaires et appropriées pour leur permettre de prendre des décisions éclairées et autonomes concernant leur prise en charge. Il/elle les accompagne tout au long de leur parcours en assurant leur suivi. Il ou elle exerce sous la responsabilité d’un médecin qualifié en génétique. Prérequis règlementaires pour exercer le métier : Être titulaire du diplôme de conseiller en génétique et/ou d’une autorisation d’exercice de la profession de conseiller en génétique selon l’arrêté du 10 avril 2008."
 * #329 ^property[0].code = #dateValid
 * #329 ^property[=].valueDateTime = "2020-06-26T12:00:00+01:00"
 * #329 ^property[+].code = #dateMaj
