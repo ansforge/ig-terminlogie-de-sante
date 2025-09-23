@@ -1,3 +1,4 @@
+
 Alias: $sct = http://snomed.info/sct
 
 CodeSystem : TreR397CategorieEntiteGeographiqueExercice
@@ -20,7 +21,11 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * ^caseSensitive = false
 * ^content = #complete
 * ^hierarchyMeaning = #is-a
-* ^property[0].code = #parent
+* ^property[0].code = #niveau
+* ^property[=].uri = "https://smt.esante.gouv.fr/fhir/concept-properties#niveau"
+* ^property[=].description = "Permet d'indiquer le niveau hiérarchique du code"
+* ^property[=].type = #integer
+* ^property[+].code = #parent
 * ^property[=].description = "An immediate parent of the concept in the hierarchy"
 * ^property[=].uri = "http://hl7.org/fhir/concept-properties#parent"
 * ^property[=].type = #code
@@ -49,16 +54,12 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * ^property[=].uri = "http://hl7.org/fhir/concept-properties#retirementDate"
 * ^property[=].description = "Date Concept was retired"
 * ^property[=].type = #dateTime
-*  ^property[+].code = #niveau
-* ^property[=].uri = "https://smt.esante.gouv.fr/fhir/concept-properties#niveau"
-* ^property[=].description = "Permet d'indiquer le niveau hiérarchique du code"
-* ^property[=].type = #integer
-* ^property[+].code = #JdvJ310CategorieEntiteGeographiqueExerciceFiness
-* ^property[=].uri = "http://hl7.org/fhir/concept-properties#JdvJ310CategorieEntiteGeographiqueExerciceFiness"
-* ^property[=].description = "Permet de définir les codes à inclure dans le JdvJ310CategorieEntiteGeographiqueExerciceFiness"
 * #0100 "Etablissements d'administration"
 * #0100 ^property[0].code = #niveau
 * #0100 ^property[=].valueInteger =  1
+* #0100 ^property[+].code = #domaine
+* #0100 ^property[=].valueCoding.system = "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine/"
+* #0100 ^property[=].valueCoding.code = #ADM
 * #0100 ^designation[0].language = #fr-FR
 * #0100 ^designation[=].use.system = "http://snomed.info/sct"
 * #0100 ^designation[=].use = $sct#900000000000013009
@@ -69,9 +70,26 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #0100 ^property[=].valueDateTime = "2021-03-26T12:00:00+01:00"
 * #0100 ^property[+].code = #dateMaj
 * #0100 ^property[=].valueDateTime = "2021-03-26T12:00:00+01:00"
+* #0110 "Etablissements d'Administration"
+* #0110 ^property[0].code = #niveau
+* #0110 ^property[=].valueInteger =  2
+* #0110 ^property[+].code = #parent
+* #0110 ^property[=].valueCode = #0100
+* #0110 ^designation[0].language = #fr-FR
+* #0110 ^designation[=].use = $sct#900000000000013009
+* #0110 ^designation[=].value = "Etab.Administration"
+* #0110 ^property[+].code = #dateValid
+* #0110 ^property[=].valueDateTime = "2023-01-27T12:00:00+01:00"
+* #0110 ^property[+].code = #dateFin
+* #0110 ^property[=].valueDateTime = "2023-01-27T12:00:00+01:00"
+* #0110 ^property[+].code = #dateMaj
+* #0110 ^property[=].valueDateTime = "2023-01-27T12:00:00+01:00"
 * #1000 "Etablissements Relevant de la Loi Hospitalière"
 * #1000 ^property[0].code = #niveau
 * #1000 ^property[=].valueInteger =  1
+* #1000 ^property[+].code = #domaine
+* #1000 ^property[=].valueCoding.system = "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine/"
+* #1000 ^property[=].valueCoding.code = #SAN
 * #1000 ^designation[0].language = #fr-FR
 * #1000 ^designation[=].use.system = "http://snomed.info/sct"
 * #1000 ^designation[=].use = $sct#900000000000013009
@@ -80,9 +98,25 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #1000 ^property[=].valueDateTime = "1979-01-01T00:00:00+01:00"
 * #1000 ^property[+].code = #dateMaj
 * #1000 ^property[=].valueDateTime = "1979-01-01T00:00:00+01:00"
+* #110 "Etablissements d'Administration"
+* #110 ^property[0].code = #niveau
+* #110 ^property[=].valueInteger =  2
+* #110 ^designation[0].language = #fr-FR
+* #110 ^designation[=].use.system = "http://snomed.info/sct"
+* #110 ^designation[=].use = $sct#900000000000013009
+* #110 ^designation[=].value = "Etab.Administration"
+* #110 ^property[+].code = #dateValid
+* #110 ^property[=].valueDateTime = "1979-01-01T00:00:00+01:00"
+* #110 ^property[+].code = #dateFin
+* #110 ^property[=].valueDateTime = "2019-10-01T12:00:00+01:00"
+* #110 ^property[+].code = #dateMaj
+* #110 ^property[=].valueDateTime = "2019-10-01T12:00:00+01:00"
 * #2000 "Autres Etablissements de Soins et Prévention"
 * #2000 ^property[0].code = #niveau
 * #2000 ^property[=].valueInteger =  1
+* #2000 ^property[+].code = #domaine
+* #2000 ^property[=].valueCoding.system = "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine/"
+* #2000 ^property[=].valueCoding.code = #SAN
 * #2000 ^designation[0].language = #fr-FR
 * #2000 ^designation[=].use.system = "http://snomed.info/sct"
 * #2000 ^designation[=].use = $sct#900000000000013009
@@ -98,6 +132,9 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #3000 "Autres Etablissements à Caractère Sanitaire"
 * #3000 ^property[0].code = #niveau
 * #3000 ^property[=].valueInteger =  1
+* #3000 ^property[+].code = #domaine
+* #3000 ^property[=].valueCoding.system = "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine/"
+* #3000 ^property[=].valueCoding.code = #SAN
 * #3000 ^designation[0].language = #fr-FR
 * #3000 ^designation[=].use.system = "http://snomed.info/sct"
 * #3000 ^designation[=].use = $sct#900000000000013009
@@ -113,6 +150,9 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #4000 "Etab.Serv.Soc.d'Accueil Hébergement Assistance Réadaptation"
 * #4000 ^property[0].code = #niveau
 * #4000 ^property[=].valueInteger =  1
+* #4000 ^property[+].code = #domaine
+* #4000 ^property[=].valueCoding.system = "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine/"
+* #4000 ^property[=].valueCoding.code = #SOC
 * #4000 ^designation[0].language = #fr-FR
 * #4000 ^designation[=].use.system = "http://snomed.info/sct"
 * #4000 ^designation[=].use = $sct#900000000000013009
@@ -128,6 +168,9 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #5000 "Etablissements et Services Sociaux d'Aide à la Famille"
 * #5000 ^property[0].code = #niveau
 * #5000 ^property[=].valueInteger =  1
+* #5000 ^property[+].code = #domaine
+* #5000 ^property[=].valueCoding.system = "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine/"
+* #5000 ^property[=].valueCoding.code = #SOC
 * #5000 ^designation[0].language = #fr-FR
 * #5000 ^designation[=].use.system = "http://snomed.info/sct"
 * #5000 ^designation[=].use = $sct#900000000000013009
@@ -139,6 +182,9 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #6000 "Etab.de Formation des Personnels Sanitaires et Sociaux"
 * #6000 ^property[0].code = #niveau
 * #6000 ^property[=].valueInteger =  1
+* #6000 ^property[+].code = #domaine
+* #6000 ^property[=].valueCoding.system = "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine/"
+* #6000 ^property[=].valueCoding.code = #ENS
 * #6000 ^designation[0].language = #fr-FR
 * #6000 ^designation[=].use = $sct#900000000000013009
 * #6000 ^designation[=].value = "Etab.Form.San & Soc"
@@ -149,38 +195,11 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #6000 ^property[=].valueDateTime = "1979-01-01T00:00:00+01:00"
 * #6000 ^property[+].code = #dateMaj
 * #6000 ^property[=].valueDateTime = "1979-01-01T00:00:00+01:00"
-* #0110 "Etablissements d'Administration"
-* #0110 ^property[0].code = #parent
-* #0110 ^property[=].valueCode = #0100
-* #0110 ^property[+].code = #niveau
-* #0110 ^property[=].valueInteger =  2
-* #0110 ^designation[0].language = #fr-FR
-* #0110 ^designation[=].use = $sct#900000000000013009
-* #0110 ^designation[=].value = "Etab.Administration"
-* #0110 ^property[+].code = #dateValid
-* #0110 ^property[=].valueDateTime = "2023-01-27T12:00:00+01:00"
-* #0110 ^property[+].code = #dateFin
-* #0110 ^property[=].valueDateTime = "2023-01-27T12:00:00+01:00"
-* #0110 ^property[+].code = #dateMaj
-* #0110 ^property[=].valueDateTime = "2023-01-27T12:00:00+01:00"
-* #110 "Etablissements d'Administration"
-* #110 ^property[+].code = #niveau
-* #110 ^property[=].valueInteger =  2
-* #110 ^designation[0].language = #fr-FR
-* #110 ^designation[=].use.system = "http://snomed.info/sct"
-* #110 ^designation[=].use = $sct#900000000000013009
-* #110 ^designation[=].value = "Etab.Administration"
-* #110 ^property[+].code = #dateValid
-* #110 ^property[=].valueDateTime = "1979-01-01T00:00:00+01:00"
-* #110 ^property[+].code = #dateFin
-* #110 ^property[=].valueDateTime = "2019-10-01T12:00:00+01:00"
-* #110 ^property[+].code = #dateMaj
-* #110 ^property[=].valueDateTime = "2019-10-01T12:00:00+01:00"
 * #1100 "Etablissements Hospitaliers"
-* #1100 ^property[0].code = #parent
-* #1100 ^property[=].valueCode = #1000
-* #1100 ^property[+].code = #niveau
+* #1100 ^property[0].code = #niveau
 * #1100 ^property[=].valueInteger =  2
+* #1100 ^property[+].code = #parent
+* #1100 ^property[=].valueCode = #1000
 * #1100 ^designation[0].language = #fr-FR
 * #1100 ^designation[=].use.system = "http://snomed.info/sct"
 * #1100 ^designation[=].use = $sct#900000000000013009
@@ -190,10 +209,10 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #1100 ^property[+].code = #dateMaj
 * #1100 ^property[=].valueDateTime = "1979-01-01T00:00:00+01:00"
 * #1200 "Autres Etablissements Relevant de la Loi Hospitalière"
-* #1200 ^property[0].code = #parent
-* #1200 ^property[=].valueCode = #1000
-* #1200 ^property[+].code = #niveau
+* #1200 ^property[0].code = #niveau
 * #1200 ^property[=].valueInteger =  2
+* #1200 ^property[+].code = #parent
+* #1200 ^property[=].valueCode = #1000
 * #1200 ^designation[0].language = #fr-FR
 * #1200 ^designation[=].use.system = "http://snomed.info/sct"
 * #1200 ^designation[=].use = $sct#900000000000013009
@@ -203,19 +222,19 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #1200 ^property[+].code = #dateMaj
 * #1200 ^property[=].valueDateTime = "1979-01-01T00:00:00+01:00"
 * #2100 "Cabinets Libéraux"
-* #2100 ^property[0].code = #parent
-* #2100 ^property[=].valueCode = #2000
-* #2100 ^property[+].code = #niveau
+* #2100 ^property[0].code = #niveau
 * #2100 ^property[=].valueInteger =  2
+* #2100 ^property[+].code = #parent
+* #2100 ^property[=].valueCode = #2000
 * #2100 ^property[+].code = #dateValid
 * #2100 ^property[=].valueDateTime = "1979-01-01T00:00:00+01:00"
 * #2100 ^property[+].code = #dateMaj
 * #2100 ^property[=].valueDateTime = "1979-01-01T00:00:00+01:00"
 * #2200 "Autres Etablissements de Soins et Prévention"
-* #2200 ^property[0].code = #parent
-* #2200 ^property[=].valueCode = #2000
-* #2200 ^property[+].code = #niveau
+* #2200 ^property[0].code = #niveau
 * #2200 ^property[=].valueInteger =  2
+* #2200 ^property[+].code = #parent
+* #2200 ^property[=].valueCode = #2000
 * #2200 ^designation[0].language = #fr-FR
 * #2200 ^designation[=].use.system = "http://snomed.info/sct"
 * #2200 ^designation[=].use = $sct#900000000000013009
@@ -229,10 +248,10 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #2200 ^property[+].code = #dateMaj
 * #2200 ^property[=].valueDateTime = "1979-01-01T00:00:00+01:00"
 * #3100 "Laboratoires de Biologie Médicale"
-* #3100 ^property[0].code = #parent
-* #3100 ^property[=].valueCode = #3000
-* #3100 ^property[+].code = #niveau
+* #3100 ^property[0].code = #niveau
 * #3100 ^property[=].valueInteger =  2
+* #3100 ^property[+].code = #parent
+* #3100 ^property[=].valueCode = #3000
 * #3100 ^designation[0].language = #fr-FR
 * #3100 ^designation[=].use.system = "http://snomed.info/sct"
 * #3100 ^designation[=].use = $sct#900000000000013009
@@ -242,10 +261,10 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #3100 ^property[+].code = #dateMaj
 * #3100 ^property[=].valueDateTime = "1979-01-01T00:00:00+01:00"
 * #3200 "Commerce de Biens à Usage Médicaux"
-* #3200 ^property[0].code = #parent
-* #3200 ^property[=].valueCode = #3000
-* #3200 ^property[+].code = #niveau
+* #3200 ^property[0].code = #niveau
 * #3200 ^property[=].valueInteger =  2
+* #3200 ^property[+].code = #parent
+* #3200 ^property[=].valueCode = #3000
 * #3200 ^designation[0].language = #fr-FR
 * #3200 ^designation[=].use.system = "http://snomed.info/sct"
 * #3200 ^designation[=].use = $sct#900000000000013009
@@ -255,10 +274,10 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #3200 ^property[+].code = #dateMaj
 * #3200 ^property[=].valueDateTime = "1979-01-01T00:00:00+01:00"
 * #3400 "Autres Etablissements à Caractère Sanitaire"
-* #3400 ^property[0].code = #parent
-* #3400 ^property[=].valueCode = #3000
-* #3400 ^property[+].code = #niveau
+* #3400 ^property[0].code = #niveau
 * #3400 ^property[=].valueInteger =  2
+* #3400 ^property[+].code = #parent
+* #3400 ^property[=].valueCode = #3000
 * #3400 ^designation[0].language = #fr-FR
 * #3400 ^designation[=].use.system = "http://snomed.info/sct"
 * #3400 ^designation[=].use = $sct#900000000000013009
@@ -272,10 +291,10 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #3400 ^property[+].code = #dateMaj
 * #3400 ^property[=].valueDateTime = "1979-01-01T00:00:00+01:00"
 * #4100 "Etab.et Serv.pour l'Enfance et la Jeunesse Handicapée"
-* #4100 ^property[0].code = #parent
-* #4100 ^property[=].valueCode = #4000
-* #4100 ^property[+].code = #niveau
+* #4100 ^property[0].code = #niveau
 * #4100 ^property[=].valueInteger =  2
+* #4100 ^property[+].code = #parent
+* #4100 ^property[=].valueCode = #4000
 * #4100 ^designation[0].language = #fr-FR
 * #4100 ^designation[=].use.system = "http://snomed.info/sct"
 * #4100 ^designation[=].use = $sct#900000000000013009
@@ -289,10 +308,10 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #4100 ^property[+].code = #dateMaj
 * #4100 ^property[=].valueDateTime = "1979-01-01T00:00:00+01:00"
 * #4200 "Etablissements ou Classes d'Enseignement Spécial"
-* #4200 ^property[0].code = #parent
-* #4200 ^property[=].valueCode = #4000
-* #4200 ^property[+].code = #niveau
+* #4200 ^property[0].code = #niveau
 * #4200 ^property[=].valueInteger =  2
+* #4200 ^property[+].code = #parent
+* #4200 ^property[=].valueCode = #4000
 * #4200 ^designation[0].language = #fr-FR
 * #4200 ^designation[=].use.system = "http://snomed.info/sct"
 * #4200 ^designation[=].use = $sct#900000000000013009
@@ -304,10 +323,10 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #4200 ^property[+].code = #dateMaj
 * #4200 ^property[=].valueDateTime = "2021-03-26T12:00:00+01:00"
 * #4300 "Etablissements et Services pour Adultes Handicapés"
-* #4300 ^property[0].code = #parent
-* #4300 ^property[=].valueCode = #4000
-* #4300 ^property[+].code = #niveau
+* #4300 ^property[0].code = #niveau
 * #4300 ^property[=].valueInteger =  2
+* #4300 ^property[+].code = #parent
+* #4300 ^property[=].valueCode = #4000
 * #4300 ^designation[0].language = #fr-FR
 * #4300 ^designation[=].use.system = "http://snomed.info/sct"
 * #4300 ^designation[=].use = $sct#900000000000013009
@@ -317,10 +336,10 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #4300 ^property[+].code = #dateMaj
 * #4300 ^property[=].valueDateTime = "1979-01-01T00:00:00+01:00"
 * #4400 "Etablissements et Services pour Personnes Agées"
-* #4400 ^property[0].code = #parent
-* #4400 ^property[=].valueCode = #4000
-* #4400 ^property[+].code = #niveau
+* #4400 ^property[0].code = #niveau
 * #4400 ^property[=].valueInteger =  2
+* #4400 ^property[+].code = #parent
+* #4400 ^property[=].valueCode = #4000
 * #4400 ^designation[0].language = #fr-FR
 * #4400 ^designation[=].use.system = "http://snomed.info/sct"
 * #4400 ^designation[=].use = $sct#900000000000013009
@@ -334,10 +353,10 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #4400 ^property[+].code = #dateMaj
 * #4400 ^property[=].valueDateTime = "1979-01-01T00:00:00+01:00"
 * #4500 "Etab.et Serv.Sociaux Concourant à la Protection de l'Enfance"
-* #4500 ^property[0].code = #parent
-* #4500 ^property[=].valueCode = #4000
-* #4500 ^property[+].code = #niveau
+* #4500 ^property[0].code = #niveau
 * #4500 ^property[=].valueInteger =  2
+* #4500 ^property[+].code = #parent
+* #4500 ^property[=].valueCode = #4000
 * #4500 ^designation[0].language = #fr-FR
 * #4500 ^designation[=].use.system = "http://snomed.info/sct"
 * #4500 ^designation[=].use = $sct#900000000000013009
@@ -351,10 +370,10 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #4500 ^property[+].code = #dateMaj
 * #4500 ^property[=].valueDateTime = "1979-01-01T00:00:00+01:00"
 * #4600 "Autres Etab. Accueil, Hébergement, Réadaptation et Services"
-* #4600 ^property[0].code = #parent
-* #4600 ^property[=].valueCode = #4000
-* #4600 ^property[+].code = #niveau
+* #4600 ^property[0].code = #niveau
 * #4600 ^property[=].valueInteger =  2
+* #4600 ^property[+].code = #parent
+* #4600 ^property[=].valueCode = #4000
 * #4600 ^designation[0].language = #fr-FR
 * #4600 ^designation[=].use.system = "http://snomed.info/sct"
 * #4600 ^designation[=].use = $sct#900000000000013009
@@ -367,10 +386,10 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #4600 ^property[+].code = #dateMaj
 * #4600 ^property[=].valueDateTime = "1979-01-01T00:00:00+01:00"
 * #5100 "Etablissements et Services Sociaux d'Aide à la Famille"
-* #5100 ^property[0].code = #parent
-* #5100 ^property[=].valueCode = #5000
-* #5100 ^property[+].code = #niveau
+* #5100 ^property[0].code = #niveau
 * #5100 ^property[=].valueInteger =  2
+* #5100 ^property[+].code = #parent
+* #5100 ^property[=].valueCode = #5000
 * #5100 ^designation[0].language = #fr-FR
 * #5100 ^designation[=].use.system = "http://snomed.info/sct"
 * #5100 ^designation[=].use = $sct#900000000000013009
@@ -380,10 +399,10 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #5100 ^property[+].code = #dateMaj
 * #5100 ^property[=].valueDateTime = "2018-12-14T12:00:00+01:00"
 * #6100 "Etablissements de Formation des Personnels Sanitaires"
-* #6100 ^property[0].code = #parent
-* #6100 ^property[=].valueCode = #6000
-* #6100 ^property[+].code = #niveau
+* #6100 ^property[0].code = #niveau
 * #6100 ^property[=].valueInteger =  2
+* #6100 ^property[+].code = #parent
+* #6100 ^property[=].valueCode = #6000
 * #6100 ^designation[0].language = #fr-FR
 * #6100 ^designation[=].use.system = "http://snomed.info/sct"
 * #6100 ^designation[=].use = $sct#900000000000013009
@@ -393,10 +412,10 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #6100 ^property[+].code = #dateMaj
 * #6100 ^property[=].valueDateTime = "1979-01-01T00:00:00+01:00"
 * #6200 "Etablissements de Formation des Personnels Sociaux"
-* #6200 ^property[0].code = #parent
-* #6200 ^property[=].valueCode = #6000
-* #6200 ^property[+].code = #niveau
+* #6200 ^property[0].code = #niveau
 * #6200 ^property[=].valueInteger =  2
+* #6200 ^property[+].code = #parent
+* #6200 ^property[=].valueCode = #6000
 * #6200 ^designation[0].language = #fr-FR
 * #6200 ^designation[=].use.system = "http://snomed.info/sct"
 * #6200 ^designation[=].use = $sct#900000000000013009
@@ -406,10 +425,10 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #6200 ^property[+].code = #dateMaj
 * #6200 ^property[=].valueDateTime = "1979-01-01T00:00:00+01:00"
 * #6300 "Etablissements de Formation Polyvalente"
-* #6300 ^property[0].code = #parent
-* #6300 ^property[=].valueCode = #6000
-* #6300 ^property[+].code = #niveau
+* #6300 ^property[0].code = #niveau
 * #6300 ^property[=].valueInteger =  2
+* #6300 ^property[+].code = #parent
+* #6300 ^property[=].valueCode = #6000
 * #6300 ^designation[0].language = #fr-FR
 * #6300 ^designation[=].use.system = "http://snomed.info/sct"
 * #6300 ^designation[=].use = $sct#900000000000013009
@@ -419,10 +438,10 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #6300 ^property[+].code = #dateMaj
 * #6300 ^property[=].valueDateTime = "1979-01-01T00:00:00+01:00"
 * #0101 "Etablissements d'Administration"
-* #0101 ^property[0].code = #parent
-* #0101 ^property[=].valueCode = #0110
-* #0101 ^property[+].code = #niveau
+* #0101 ^property[0].code = #niveau
 * #0101 ^property[=].valueInteger =  3
+* #0101 ^property[+].code = #parent
+* #0101 ^property[=].valueCode = #0110
 * #0101 ^designation[0].language = #fr-FR
 * #0101 ^designation[=].use.system = "http://snomed.info/sct"
 * #0101 ^designation[=].use = $sct#900000000000013009
@@ -434,10 +453,10 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #0101 ^property[+].code = #dateMaj
 * #0101 ^property[=].valueDateTime = "2021-03-26T12:00:00+01:00"
 * #1101 "Centres Hospitaliers Régionaux"
-* #1101 ^property[0].code = #parent
-* #1101 ^property[=].valueCode = #1100
-* #1101 ^property[+].code = #niveau
+* #1101 ^property[0].code = #niveau
 * #1101 ^property[=].valueInteger =  3
+* #1101 ^property[+].code = #parent
+* #1101 ^property[=].valueCode = #1100
 * #1101 ^designation[0].language = #fr-FR
 * #1101 ^designation[=].use.system = "http://snomed.info/sct"
 * #1101 ^designation[=].use = $sct#900000000000013009
@@ -447,19 +466,19 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #1101 ^property[+].code = #dateMaj
 * #1101 ^property[=].valueDateTime = "1979-01-01T00:00:00+01:00"
 * #1102 "Centres Hospitaliers"
-* #1102 ^property[0].code = #parent
-* #1102 ^property[=].valueCode = #1100
-* #1102 ^property[+].code = #niveau
+* #1102 ^property[0].code = #niveau
 * #1102 ^property[=].valueInteger =  3
+* #1102 ^property[+].code = #parent
+* #1102 ^property[=].valueCode = #1100
 * #1102 ^property[+].code = #dateValid
 * #1102 ^property[=].valueDateTime = "1979-01-01T00:00:00+01:00"
 * #1102 ^property[+].code = #dateMaj
 * #1102 ^property[=].valueDateTime = "1979-01-01T00:00:00+01:00"
 * #1103 "Centres Hospitaliers Spécialisés Lutte Maladies Mentales"
-* #1103 ^property[0].code = #parent
-* #1103 ^property[=].valueCode = #1100
-* #1103 ^property[+].code = #niveau
+* #1103 ^property[0].code = #niveau
 * #1103 ^property[=].valueInteger =  3
+* #1103 ^property[+].code = #parent
+* #1103 ^property[=].valueCode = #1100
 * #1103 ^designation[0].language = #fr-FR
 * #1103 ^designation[=].use.system = "http://snomed.info/sct"
 * #1103 ^designation[=].use = $sct#900000000000013009
@@ -473,10 +492,10 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #1103 ^property[+].code = #dateMaj
 * #1103 ^property[=].valueDateTime = "1979-01-01T00:00:00+01:00"
 * #1104 "Centres de Lutte contre le Cancer"
-* #1104 ^property[0].code = #parent
-* #1104 ^property[=].valueCode = #1100
-* #1104 ^property[+].code = #niveau
+* #1104 ^property[0].code = #niveau
 * #1104 ^property[=].valueInteger =  3
+* #1104 ^property[+].code = #parent
+* #1104 ^property[=].valueCode = #1100
 * #1104 ^designation[0].language = #fr-FR
 * #1104 ^designation[=].use.system = "http://snomed.info/sct"
 * #1104 ^designation[=].use = $sct#900000000000013009
@@ -486,19 +505,19 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #1104 ^property[+].code = #dateMaj
 * #1104 ^property[=].valueDateTime = "1979-01-01T00:00:00+01:00"
 * #1106 "Hôpitaux Locaux"
-* #1106 ^property[0].code = #parent
-* #1106 ^property[=].valueCode = #1100
-* #1106 ^property[+].code = #niveau
+* #1106 ^property[0].code = #niveau
 * #1106 ^property[=].valueInteger =  3
+* #1106 ^property[+].code = #parent
+* #1106 ^property[=].valueCode = #1100
 * #1106 ^property[+].code = #dateValid
 * #1106 ^property[=].valueDateTime = "1979-01-01T00:00:00+01:00"
 * #1106 ^property[+].code = #dateMaj
 * #1106 ^property[=].valueDateTime = "1979-01-01T00:00:00+01:00"
 * #1107 "Etablissements de santé privé autorisés en SSR"
-* #1107 ^property[0].code = #parent
-* #1107 ^property[=].valueCode = #1100
-* #1107 ^property[+].code = #niveau
+* #1107 ^property[0].code = #niveau
 * #1107 ^property[=].valueInteger =  3
+* #1107 ^property[+].code = #parent
+* #1107 ^property[=].valueCode = #1100
 * #1107 ^designation[0].language = #fr-FR
 * #1107 ^designation[=].use.system = "http://snomed.info/sct"
 * #1107 ^designation[=].use = $sct#900000000000013009
@@ -508,10 +527,10 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #1107 ^property[+].code = #dateMaj
 * #1107 ^property[=].valueDateTime = "2018-12-14T12:00:00+01:00"
 * #1108 "Centre de Moyen et de Long Séjour"
-* #1108 ^property[0].code = #parent
-* #1108 ^property[=].valueCode = #1100
-* #1108 ^property[+].code = #niveau
+* #1108 ^property[0].code = #niveau
 * #1108 ^property[=].valueInteger =  3
+* #1108 ^property[+].code = #parent
+* #1108 ^property[=].valueCode = #1100
 * #1108 ^designation[0].language = #fr-FR
 * #1108 ^designation[=].use.system = "http://snomed.info/sct"
 * #1108 ^designation[=].use = $sct#900000000000013009
@@ -521,10 +540,10 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #1108 ^property[+].code = #dateMaj
 * #1108 ^property[=].valueDateTime = "1979-01-01T00:00:00+01:00"
 * #1109 "Etablissements de Soins de Longue Durée"
-* #1109 ^property[0].code = #parent
-* #1109 ^property[=].valueCode = #1100
-* #1109 ^property[+].code = #niveau
+* #1109 ^property[0].code = #niveau
 * #1109 ^property[=].valueInteger =  3
+* #1109 ^property[+].code = #parent
+* #1109 ^property[=].valueCode = #1100
 * #1109 ^designation[0].language = #fr-FR
 * #1109 ^designation[=].use.system = "http://snomed.info/sct"
 * #1109 ^designation[=].use = $sct#900000000000013009
@@ -534,10 +553,10 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #1109 ^property[+].code = #dateMaj
 * #1109 ^property[=].valueDateTime = "1979-01-01T00:00:00+01:00"
 * #1110 "Etablissements de Soins de Courte Durée"
-* #1110 ^property[0].code = #parent
-* #1110 ^property[=].valueCode = #1100
-* #1110 ^property[+].code = #niveau
+* #1110 ^property[0].code = #niveau
 * #1110 ^property[=].valueInteger =  3
+* #1110 ^property[+].code = #parent
+* #1110 ^property[=].valueCode = #1100
 * #1110 ^designation[0].language = #fr-FR
 * #1110 ^designation[=].use.system = "http://snomed.info/sct"
 * #1110 ^designation[=].use = $sct#900000000000013009
@@ -547,10 +566,10 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #1110 ^property[+].code = #dateMaj
 * #1110 ^property[=].valueDateTime = "1979-01-01T00:00:00+01:00"
 * #1111 "Autres Etablissements de Lutte contre les Maladies Mentales"
-* #1111 ^property[0].code = #parent
-* #1111 ^property[=].valueCode = #1100
-* #1111 ^property[+].code = #niveau
+* #1111 ^property[0].code = #niveau
 * #1111 ^property[=].valueInteger =  3
+* #1111 ^property[+].code = #parent
+* #1111 ^property[=].valueCode = #1100
 * #1111 ^designation[0].language = #fr-FR
 * #1111 ^designation[=].use.system = "http://snomed.info/sct"
 * #1111 ^designation[=].use = $sct#900000000000013009
@@ -564,10 +583,10 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #1111 ^property[+].code = #dateMaj
 * #1111 ^property[=].valueDateTime = "1979-01-01T00:00:00+01:00"
 * #1112 "Etablissements d'Enfants à Caractère Sanitaire"
-* #1112 ^property[0].code = #parent
-* #1112 ^property[=].valueCode = #1100
-* #1112 ^property[+].code = #niveau
+* #1112 ^property[0].code = #niveau
 * #1112 ^property[=].valueInteger =  3
+* #1112 ^property[+].code = #parent
+* #1112 ^property[=].valueCode = #1100
 * #1112 ^designation[0].language = #fr-FR
 * #1112 ^designation[=].use.system = "http://snomed.info/sct"
 * #1112 ^designation[=].use = $sct#900000000000013009
@@ -579,10 +598,10 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #1112 ^property[+].code = #dateMaj
 * #1112 ^property[=].valueDateTime = "2021-03-26T12:00:00+01:00"
 * #1113 "Etablissements de Lutte contre l'Alcoolisme"
-* #1113 ^property[0].code = #parent
-* #1113 ^property[=].valueCode = #1100
-* #1113 ^property[+].code = #niveau
+* #1113 ^property[0].code = #niveau
 * #1113 ^property[=].valueInteger =  3
+* #1113 ^property[+].code = #parent
+* #1113 ^property[=].valueCode = #1100
 * #1113 ^designation[0].language = #fr-FR
 * #1113 ^designation[=].use.system = "http://snomed.info/sct"
 * #1113 ^designation[=].use = $sct#900000000000013009
@@ -594,10 +613,10 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #1113 ^property[+].code = #dateMaj
 * #1113 ^property[=].valueDateTime = "2021-03-26T12:00:00+01:00"
 * #1201 "Traitements et Soins à Domicile"
-* #1201 ^property[0].code = #parent
-* #1201 ^property[=].valueCode = #1200
-* #1201 ^property[+].code = #niveau
+* #1201 ^property[0].code = #niveau
 * #1201 ^property[=].valueInteger =  3
+* #1201 ^property[+].code = #parent
+* #1201 ^property[=].valueCode = #1200
 * #1201 ^designation[0].language = #fr-FR
 * #1201 ^designation[=].use.system = "http://snomed.info/sct"
 * #1201 ^designation[=].use = $sct#900000000000013009
@@ -607,28 +626,28 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #1201 ^property[+].code = #dateMaj
 * #1201 ^property[=].valueDateTime = "1979-01-01T00:00:00+01:00"
 * #1202 "Santé Mentale"
-* #1202 ^property[0].code = #parent
-* #1202 ^property[=].valueCode = #1200
-* #1202 ^property[+].code = #niveau
+* #1202 ^property[0].code = #niveau
 * #1202 ^property[=].valueInteger =  3
+* #1202 ^property[+].code = #parent
+* #1202 ^property[=].valueCode = #1200
 * #1202 ^property[+].code = #dateValid
 * #1202 ^property[=].valueDateTime = "1979-01-01T00:00:00+01:00"
 * #1202 ^property[+].code = #dateMaj
 * #1202 ^property[=].valueDateTime = "1979-01-01T00:00:00+01:00"
 * #1203 "Dialyse ambulatoire"
-* #1203 ^property[0].code = #parent
-* #1203 ^property[=].valueCode = #1200
-* #1203 ^property[+].code = #niveau
+* #1203 ^property[0].code = #niveau
 * #1203 ^property[=].valueInteger =  3
+* #1203 ^property[+].code = #parent
+* #1203 ^property[=].valueCode = #1200
 * #1203 ^property[+].code = #dateValid
 * #1203 ^property[=].valueDateTime = "1979-01-01T00:00:00+01:00"
 * #1203 ^property[+].code = #dateMaj
 * #1203 ^property[=].valueDateTime = "1979-01-01T00:00:00+01:00"
 * #1204 "Urgence et Réanimation"
-* #1204 ^property[0].code = #parent
-* #1204 ^property[=].valueCode = #1200
-* #1204 ^property[+].code = #niveau
+* #1204 ^property[0].code = #niveau
 * #1204 ^property[=].valueInteger =  3
+* #1204 ^property[+].code = #parent
+* #1204 ^property[=].valueCode = #1200
 * #1204 ^designation[0].language = #fr-FR
 * #1204 ^designation[=].use.system = "http://snomed.info/sct"
 * #1204 ^designation[=].use = $sct#900000000000013009
@@ -640,10 +659,10 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #1204 ^property[+].code = #dateMaj
 * #1204 ^property[=].valueDateTime = "2021-03-26T12:00:00+01:00"
 * #1205 "Autres Etablissements Relevant de la Loi Hospitalière"
-* #1205 ^property[0].code = #parent
-* #1205 ^property[=].valueCode = #1200
-* #1205 ^property[+].code = #niveau
+* #1205 ^property[0].code = #niveau
 * #1205 ^property[=].valueInteger =  3
+* #1205 ^property[+].code = #parent
+* #1205 ^property[=].valueCode = #1200
 * #1205 ^designation[0].language = #fr-FR
 * #1205 ^designation[=].use.system = "http://snomed.info/sct"
 * #1205 ^designation[=].use = $sct#900000000000013009
@@ -657,10 +676,10 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #1205 ^property[+].code = #dateMaj
 * #1205 ^property[=].valueDateTime = "1979-01-01T00:00:00+01:00"
 * #2101 "Cabinets Libéraux de Médecins"
-* #2101 ^property[0].code = #parent
-* #2101 ^property[=].valueCode = #2100
-* #2101 ^property[+].code = #niveau
+* #2101 ^property[0].code = #niveau
 * #2101 ^property[=].valueInteger =  3
+* #2101 ^property[+].code = #parent
+* #2101 ^property[=].valueCode = #2100
 * #2101 ^designation[0].language = #fr-FR
 * #2101 ^designation[=].use.system = "http://snomed.info/sct"
 * #2101 ^designation[=].use = $sct#900000000000013009
@@ -672,10 +691,10 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #2101 ^property[+].code = #dateMaj
 * #2101 ^property[=].valueDateTime = "2021-03-26T12:00:00+01:00"
 * #2102 "Cabinet de Groupe"
-* #2102 ^property[0].code = #parent
-* #2102 ^property[=].valueCode = #2100
-* #2102 ^property[+].code = #niveau
+* #2102 ^property[0].code = #niveau
 * #2102 ^property[=].valueInteger =  3
+* #2102 ^property[+].code = #parent
+* #2102 ^property[=].valueCode = #2100
 * #2102 ^designation[0].language = #fr-FR
 * #2102 ^designation[=].use.system = "http://snomed.info/sct"
 * #2102 ^designation[=].use = $sct#900000000000013009
@@ -687,10 +706,10 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #2102 ^property[+].code = #dateMaj
 * #2102 ^property[=].valueDateTime = "2021-03-26T12:00:00+01:00"
 * #2103 "Autres structures d'exercice libéral"
-* #2103 ^property[0].code = #parent
-* #2103 ^property[=].valueCode = #2100
-* #2103 ^property[+].code = #niveau
+* #2103 ^property[0].code = #niveau
 * #2103 ^property[=].valueInteger =  3
+* #2103 ^property[+].code = #parent
+* #2103 ^property[=].valueCode = #2100
 * #2103 ^designation[0].language = #fr-FR
 * #2103 ^designation[=].use.system = "http://snomed.info/sct"
 * #2103 ^designation[=].use = $sct#900000000000013009
@@ -700,10 +719,10 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #2103 ^property[+].code = #dateMaj
 * #2103 ^property[=].valueDateTime = "2012-03-28T00:00:00+01:00"
 * #2105 "Cabinet d'Auxiliaires Médicaux"
-* #2105 ^property[0].code = #parent
-* #2105 ^property[=].valueCode = #2100
-* #2105 ^property[+].code = #niveau
+* #2105 ^property[0].code = #niveau
 * #2105 ^property[=].valueInteger =  3
+* #2105 ^property[+].code = #parent
+* #2105 ^property[=].valueCode = #2100
 * #2105 ^designation[0].language = #fr-FR
 * #2105 ^designation[=].use.system = "http://snomed.info/sct"
 * #2105 ^designation[=].use = $sct#900000000000013009
@@ -719,10 +738,10 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #2105 ^property[+].code = #dateMaj
 * #2105 ^property[=].valueDateTime = "2021-03-26T12:00:00+01:00"
 * #2201 "Dispensaires ou Centres de Soins"
-* #2201 ^property[0].code = #parent
-* #2201 ^property[=].valueCode = #2200
-* #2201 ^property[+].code = #niveau
+* #2201 ^property[0].code = #niveau
 * #2201 ^property[=].valueInteger =  3
+* #2201 ^property[+].code = #parent
+* #2201 ^property[=].valueCode = #2200
 * #2201 ^designation[0].language = #fr-FR
 * #2201 ^designation[=].use.system = "http://snomed.info/sct"
 * #2201 ^designation[=].use = $sct#900000000000013009
@@ -732,10 +751,10 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #2201 ^property[+].code = #dateMaj
 * #2201 ^property[=].valueDateTime = "1979-01-01T00:00:00+01:00"
 * #2202 "Etablissements de PMI et de Planification Familiale"
-* #2202 ^property[0].code = #parent
-* #2202 ^property[=].valueCode = #2200
-* #2202 ^property[+].code = #niveau
+* #2202 ^property[0].code = #niveau
 * #2202 ^property[=].valueInteger =  3
+* #2202 ^property[+].code = #parent
+* #2202 ^property[=].valueCode = #2200
 * #2202 ^designation[0].language = #fr-FR
 * #2202 ^designation[=].use.system = "http://snomed.info/sct"
 * #2202 ^designation[=].use = $sct#900000000000013009
@@ -745,10 +764,10 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #2202 ^property[+].code = #dateMaj
 * #2202 ^property[=].valueDateTime = "1979-01-01T00:00:00+01:00"
 * #2203 "Etablissements de Soins Dentaires"
-* #2203 ^property[0].code = #parent
-* #2203 ^property[=].valueCode = #2200
-* #2203 ^property[+].code = #niveau
+* #2203 ^property[0].code = #niveau
 * #2203 ^property[=].valueInteger =  3
+* #2203 ^property[+].code = #parent
+* #2203 ^property[=].valueCode = #2200
 * #2203 ^designation[0].language = #fr-FR
 * #2203 ^designation[=].use.system = "http://snomed.info/sct"
 * #2203 ^designation[=].use = $sct#900000000000013009
@@ -760,10 +779,10 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #2203 ^property[+].code = #dateMaj
 * #2203 ^property[=].valueDateTime = "2021-03-26T12:00:00+01:00"
 * #2204 "Etablissements ne relevant pas de la Loi Hospitalière"
-* #2204 ^property[0].code = #parent
-* #2204 ^property[=].valueCode = #2200
-* #2204 ^property[+].code = #niveau
+* #2204 ^property[0].code = #niveau
 * #2204 ^property[=].valueInteger =  3
+* #2204 ^property[+].code = #parent
+* #2204 ^property[=].valueCode = #2200
 * #2204 ^designation[0].language = #fr-FR
 * #2204 ^designation[=].use.system = "http://snomed.info/sct"
 * #2204 ^designation[=].use = $sct#900000000000013009
@@ -773,10 +792,10 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #2204 ^property[+].code = #dateMaj
 * #2204 ^property[=].valueDateTime = "1979-01-01T00:00:00+01:00"
 * #2205 "Etab.de soins relevant du service de santé des armées"
-* #2205 ^property[0].code = #parent
-* #2205 ^property[=].valueCode = #2200
-* #2205 ^property[+].code = #niveau
+* #2205 ^property[0].code = #niveau
 * #2205 ^property[=].valueInteger =  3
+* #2205 ^property[+].code = #parent
+* #2205 ^property[=].valueCode = #2200
 * #2205 ^designation[0].language = #fr-FR
 * #2205 ^designation[=].use.system = "http://snomed.info/sct"
 * #2205 ^designation[=].use = $sct#900000000000013009
@@ -790,19 +809,19 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #2205 ^property[+].code = #dateMaj
 * #2205 ^property[=].valueDateTime = "1999-06-17T00:00:00+01:00"
 * #2206 "Centres de Santé"
-* #2206 ^property[0].code = #parent
-* #2206 ^property[=].valueCode = #2200
-* #2206 ^property[+].code = #niveau
+* #2206 ^property[0].code = #niveau
 * #2206 ^property[=].valueInteger =  3
+* #2206 ^property[+].code = #parent
+* #2206 ^property[=].valueCode = #2200
 * #2206 ^property[+].code = #dateValid
 * #2206 ^property[=].valueDateTime = "2013-12-19T00:00:00+01:00"
 * #2206 ^property[+].code = #dateMaj
 * #2206 ^property[=].valueDateTime = "2013-12-19T00:00:00+01:00"
 * #3101 "Laboratoires de Biologie Médicale"
-* #3101 ^property[0].code = #parent
-* #3101 ^property[=].valueCode = #3100
-* #3101 ^property[+].code = #niveau
+* #3101 ^property[0].code = #niveau
 * #3101 ^property[=].valueInteger =  3
+* #3101 ^property[+].code = #parent
+* #3101 ^property[=].valueCode = #3100
 * #3101 ^designation[0].language = #fr-FR
 * #3101 ^designation[=].use.system = "http://snomed.info/sct"
 * #3101 ^designation[=].use = $sct#900000000000013009
@@ -812,10 +831,10 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #3101 ^property[+].code = #dateMaj
 * #3101 ^property[=].valueDateTime = "1979-01-01T00:00:00+01:00"
 * #3201 "Commerce de Biens à Usage Médicaux"
-* #3201 ^property[0].code = #parent
-* #3201 ^property[=].valueCode = #3200
-* #3201 ^property[+].code = #niveau
+* #3201 ^property[0].code = #niveau
 * #3201 ^property[=].valueInteger =  3
+* #3201 ^property[+].code = #parent
+* #3201 ^property[=].valueCode = #3200
 * #3201 ^designation[0].language = #fr-FR
 * #3201 ^designation[=].use.system = "http://snomed.info/sct"
 * #3201 ^designation[=].use = $sct#900000000000013009
@@ -825,10 +844,10 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #3201 ^property[+].code = #dateMaj
 * #3201 ^property[=].valueDateTime = "1979-01-01T00:00:00+01:00"
 * #3202 "Commerce de Biens Médicaux"
-* #3202 ^property[0].code = #parent
-* #3202 ^property[=].valueCode = #3200
-* #3202 ^property[+].code = #niveau
+* #3202 ^property[0].code = #niveau
 * #3202 ^property[=].valueInteger =  3
+* #3202 ^property[+].code = #parent
+* #3202 ^property[=].valueCode = #3200
 * #3202 ^designation[0].language = #fr-FR
 * #3202 ^designation[=].use.system = "http://snomed.info/sct"
 * #3202 ^designation[=].use = $sct#900000000000013009
@@ -840,19 +859,19 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #3202 ^property[+].code = #dateMaj
 * #3202 ^property[=].valueDateTime = "2021-03-26T12:00:00+01:00"
 * #3401 "Transfusion Sanguine"
-* #3401 ^property[0].code = #parent
-* #3401 ^property[=].valueCode = #3400
-* #3401 ^property[+].code = #niveau
+* #3401 ^property[0].code = #niveau
 * #3401 ^property[=].valueInteger =  3
+* #3401 ^property[+].code = #parent
+* #3401 ^property[=].valueCode = #3400
 * #3401 ^property[+].code = #dateValid
 * #3401 ^property[=].valueDateTime = "1979-01-01T00:00:00+01:00"
 * #3401 ^property[+].code = #dateMaj
 * #3401 ^property[=].valueDateTime = "1979-01-01T00:00:00+01:00"
 * #3402 "Conservation et Stockage d'autres Produits Humains"
-* #3402 ^property[0].code = #parent
-* #3402 ^property[=].valueCode = #3400
-* #3402 ^property[+].code = #niveau
+* #3402 ^property[0].code = #niveau
 * #3402 ^property[=].valueInteger =  3
+* #3402 ^property[+].code = #parent
+* #3402 ^property[=].valueCode = #3400
 * #3402 ^designation[0].language = #fr-FR
 * #3402 ^designation[=].use.system = "http://snomed.info/sct"
 * #3402 ^designation[=].use = $sct#900000000000013009
@@ -864,10 +883,10 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #3402 ^property[+].code = #dateMaj
 * #3402 ^property[=].valueDateTime = "2021-03-26T12:00:00+01:00"
 * #3403 "Centre Antipoison"
-* #3403 ^property[0].code = #parent
-* #3403 ^property[=].valueCode = #3400
-* #3403 ^property[+].code = #niveau
+* #3403 ^property[0].code = #niveau
 * #3403 ^property[=].valueInteger =  3
+* #3403 ^property[+].code = #parent
+* #3403 ^property[=].valueCode = #3400
 * #3403 ^designation[0].language = #fr-FR
 * #3403 ^designation[=].use.system = "http://snomed.info/sct"
 * #3403 ^designation[=].use = $sct#900000000000013009
@@ -883,10 +902,10 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #3403 ^property[+].code = #dateMaj
 * #3403 ^property[=].valueDateTime = "2021-03-26T12:00:00+01:00"
 * #3404 "Service d'Ambulances"
-* #3404 ^property[0].code = #parent
-* #3404 ^property[=].valueCode = #3400
-* #3404 ^property[+].code = #niveau
+* #3404 ^property[0].code = #niveau
 * #3404 ^property[=].valueInteger =  3
+* #3404 ^property[+].code = #parent
+* #3404 ^property[=].valueCode = #3400
 * #3404 ^designation[0].language = #fr-FR
 * #3404 ^designation[=].use.system = "http://snomed.info/sct"
 * #3404 ^designation[=].use = $sct#900000000000013009
@@ -898,10 +917,10 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #3404 ^property[+].code = #dateMaj
 * #3404 ^property[=].valueDateTime = "2021-03-26T12:00:00+01:00"
 * #3405 "Installations autonomes de chirurgie esthétique"
-* #3405 ^property[0].code = #parent
-* #3405 ^property[=].valueCode = #3400
-* #3405 ^property[+].code = #niveau
+* #3405 ^property[0].code = #niveau
 * #3405 ^property[=].valueInteger =  3
+* #3405 ^property[+].code = #parent
+* #3405 ^property[=].valueCode = #3400
 * #3405 ^designation[0].language = #fr-FR
 * #3405 ^designation[=].use.system = "http://snomed.info/sct"
 * #3405 ^designation[=].use = $sct#900000000000013009
@@ -911,19 +930,19 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #3405 ^property[+].code = #dateMaj
 * #3405 ^property[=].valueDateTime = "2015-06-05T00:00:00+01:00"
 * #3406 "Maisons de Naissance"
-* #3406 ^property[0].code = #parent
-* #3406 ^property[=].valueCode = #3400
-* #3406 ^property[+].code = #niveau
+* #3406 ^property[0].code = #niveau
 * #3406 ^property[=].valueInteger =  3
+* #3406 ^property[+].code = #parent
+* #3406 ^property[=].valueCode = #3400
 * #3406 ^property[+].code = #dateValid
 * #3406 ^property[=].valueDateTime = "2019-08-30T12:00:00+01:00"
 * #3406 ^property[+].code = #dateMaj
 * #3406 ^property[=].valueDateTime = "2019-08-30T12:00:00+01:00"
 * #3407 "Etablissements Expérimentaux en Santé"
-* #3407 ^property[0].code = #parent
-* #3407 ^property[=].valueCode = #3400
-* #3407 ^property[+].code = #niveau
+* #3407 ^property[0].code = #niveau
 * #3407 ^property[=].valueInteger =  3
+* #3407 ^property[+].code = #parent
+* #3407 ^property[=].valueCode = #3400
 * #3407 ^designation[0].language = #fr-FR
 * #3407 ^designation[=].use.system = "http://snomed.info/sct"
 * #3407 ^designation[=].use = $sct#900000000000013009
@@ -933,10 +952,10 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #3407 ^property[+].code = #dateMaj
 * #3407 ^property[=].valueDateTime = "2020-08-28T12:00:00+01:00"
 * #3408 "Centre de ressources transverse"
-* #3408 ^property[0].code = #parent
-* #3408 ^property[=].valueCode = #3400
-* #3408 ^property[+].code = #niveau
+* #3408 ^property[0].code = #niveau
 * #3408 ^property[=].valueInteger =  3
+* #3408 ^property[+].code = #parent
+* #3408 ^property[=].valueCode = #3400
 * #3408 ^designation[0].language = #fr-FR
 * #3408 ^designation[=].use.system = "http://snomed.info/sct"
 * #3408 ^designation[=].use = $sct#900000000000013009
@@ -946,10 +965,10 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #3408 ^property[+].code = #dateMaj
 * #3408 ^property[=].valueDateTime = "2022-01-28T12:00:00+01:00"
 * #3409 "Services de Prévention et de Santé au Travail (SPST)"
-* #3409 ^property[0].code = #parent
-* #3409 ^property[=].valueCode = #3400
-* #3409 ^property[+].code = #niveau
+* #3409 ^property[0].code = #niveau
 * #3409 ^property[=].valueInteger =  3
+* #3409 ^property[+].code = #parent
+* #3409 ^property[=].valueCode = #3400
 * #3409 ^designation[0].language = #fr-FR
 * #3409 ^designation[=].use.system = "http://snomed.info/sct"
 * #3409 ^designation[=].use = $sct#900000000000013009
@@ -959,10 +978,10 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #3409 ^property[+].code = #dateMaj
 * #3409 ^property[=].valueDateTime = "2023-05-26T12:00:00+01:00"
 * #3410 "Services d'incendie et de secours"
-* #3410 ^property[0].code = #parent
-* #3410 ^property[=].valueCode = #3400
-* #3410 ^property[+].code = #niveau
+* #3410 ^property[0].code = #niveau
 * #3410 ^property[=].valueInteger =  3
+* #3410 ^property[+].code = #parent
+* #3410 ^property[=].valueCode = #3400
 * #3410 ^designation[0].language = #fr-FR
 * #3410 ^designation[=].use.system = "http://snomed.info/sct"
 * #3410 ^designation[=].use = $sct#900000000000013009
@@ -972,10 +991,10 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #3410 ^property[+].code = #dateMaj
 * #3410 ^property[=].valueDateTime = "2024-06-28T12:00:00+01:00"
 * #4101 "Etab.Educ.Spéciale pour Déficients Mentaux et Handicapés"
-* #4101 ^property[0].code = #parent
-* #4101 ^property[=].valueCode = #4100
-* #4101 ^property[+].code = #niveau
+* #4101 ^property[0].code = #niveau
 * #4101 ^property[=].valueInteger =  3
+* #4101 ^property[+].code = #parent
+* #4101 ^property[=].valueCode = #4100
 * #4101 ^designation[0].language = #fr-FR
 * #4101 ^designation[=].use.system = "http://snomed.info/sct"
 * #4101 ^designation[=].use = $sct#900000000000013009
@@ -989,10 +1008,10 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #4101 ^property[+].code = #dateMaj
 * #4101 ^property[=].valueDateTime = "1979-01-01T00:00:00+01:00"
 * #4102 "Etab.Educ Spéciale pour Enfants Trouble Conduite et Comport"
-* #4102 ^property[0].code = #parent
-* #4102 ^property[=].valueCode = #4100
-* #4102 ^property[+].code = #niveau
+* #4102 ^property[0].code = #niveau
 * #4102 ^property[=].valueInteger =  3
+* #4102 ^property[+].code = #parent
+* #4102 ^property[=].valueCode = #4100
 * #4102 ^designation[0].language = #fr-FR
 * #4102 ^designation[=].use.system = "http://snomed.info/sct"
 * #4102 ^designation[=].use = $sct#900000000000013009
@@ -1006,10 +1025,10 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #4102 ^property[+].code = #dateMaj
 * #4102 ^property[=].valueDateTime = "1979-01-01T00:00:00+01:00"
 * #4103 "Etablissements d'Education Spéciale pour Handicapés Moteurs"
-* #4103 ^property[0].code = #parent
-* #4103 ^property[=].valueCode = #4100
-* #4103 ^property[+].code = #niveau
+* #4103 ^property[0].code = #niveau
 * #4103 ^property[=].valueInteger =  3
+* #4103 ^property[+].code = #parent
+* #4103 ^property[=].valueCode = #4100
 * #4103 ^designation[0].language = #fr-FR
 * #4103 ^designation[=].use.system = "http://snomed.info/sct"
 * #4103 ^designation[=].use = $sct#900000000000013009
@@ -1023,10 +1042,10 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #4103 ^property[+].code = #dateMaj
 * #4103 ^property[=].valueDateTime = "1979-01-01T00:00:00+01:00"
 * #4104 "Etab.Education Spéciale pour Déficients Sensoriels"
-* #4104 ^property[0].code = #parent
-* #4104 ^property[=].valueCode = #4100
-* #4104 ^property[+].code = #niveau
+* #4104 ^property[0].code = #niveau
 * #4104 ^property[=].valueInteger =  3
+* #4104 ^property[+].code = #parent
+* #4104 ^property[=].valueCode = #4100
 * #4104 ^designation[0].language = #fr-FR
 * #4104 ^designation[=].use.system = "http://snomed.info/sct"
 * #4104 ^designation[=].use = $sct#900000000000013009
@@ -1040,10 +1059,10 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #4104 ^property[+].code = #dateMaj
 * #4104 ^property[=].valueDateTime = "1979-01-01T00:00:00+01:00"
 * #4105 "Etablissements et Services Hébergement Enfants Handicapés"
-* #4105 ^property[0].code = #parent
-* #4105 ^property[=].valueCode = #4100
-* #4105 ^property[+].code = #niveau
+* #4105 ^property[0].code = #niveau
 * #4105 ^property[=].valueInteger =  3
+* #4105 ^property[+].code = #parent
+* #4105 ^property[=].valueCode = #4100
 * #4105 ^designation[0].language = #fr-FR
 * #4105 ^designation[=].use.system = "http://snomed.info/sct"
 * #4105 ^designation[=].use = $sct#900000000000013009
@@ -1057,10 +1076,10 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #4105 ^property[+].code = #dateMaj
 * #4105 ^property[=].valueDateTime = "1979-01-01T00:00:00+01:00"
 * #4106 "Services à Domicile ou Ambulatoires pour Handicapés"
-* #4106 ^property[0].code = #parent
-* #4106 ^property[=].valueCode = #4100
-* #4106 ^property[+].code = #niveau
+* #4106 ^property[0].code = #niveau
 * #4106 ^property[=].valueInteger =  3
+* #4106 ^property[+].code = #parent
+* #4106 ^property[=].valueCode = #4100
 * #4106 ^designation[0].language = #fr-FR
 * #4106 ^designation[=].use.system = "http://snomed.info/sct"
 * #4106 ^designation[=].use = $sct#900000000000013009
@@ -1070,10 +1089,10 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #4106 ^property[+].code = #dateMaj
 * #4106 ^property[=].valueDateTime = "1979-01-01T00:00:00+01:00"
 * #4107 "Etab. Expérimentaux en Faveur de l'Enfance Handicapée"
-* #4107 ^property[0].code = #parent
-* #4107 ^property[=].valueCode = #4100
-* #4107 ^property[+].code = #niveau
+* #4107 ^property[0].code = #niveau
 * #4107 ^property[=].valueInteger =  3
+* #4107 ^property[+].code = #parent
+* #4107 ^property[=].valueCode = #4100
 * #4107 ^designation[0].language = #fr-FR
 * #4107 ^designation[=].use.system = "http://snomed.info/sct"
 * #4107 ^designation[=].use = $sct#900000000000013009
@@ -1087,10 +1106,10 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #4107 ^property[+].code = #dateMaj
 * #4107 ^property[=].valueDateTime = "1979-01-01T00:00:00+01:00"
 * #4201 "Etablissements ou Classes de Pré-Élémentaire et Élémentaire"
-* #4201 ^property[0].code = #parent
-* #4201 ^property[=].valueCode = #4200
-* #4201 ^property[+].code = #niveau
+* #4201 ^property[0].code = #niveau
 * #4201 ^property[=].valueInteger =  3
+* #4201 ^property[+].code = #parent
+* #4201 ^property[=].valueCode = #4200
 * #4201 ^designation[0].language = #fr-FR
 * #4201 ^designation[=].use.system = "http://snomed.info/sct"
 * #4201 ^designation[=].use = $sct#900000000000013009
@@ -1102,10 +1121,10 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #4201 ^property[+].code = #dateMaj
 * #4201 ^property[=].valueDateTime = "2021-03-26T12:00:00+01:00"
 * #4202 "Etablissements d'Enseignement Secondaire"
-* #4202 ^property[0].code = #parent
-* #4202 ^property[=].valueCode = #4200
-* #4202 ^property[+].code = #niveau
+* #4202 ^property[0].code = #niveau
 * #4202 ^property[=].valueInteger =  3
+* #4202 ^property[+].code = #parent
+* #4202 ^property[=].valueCode = #4200
 * #4202 ^designation[0].language = #fr-FR
 * #4202 ^designation[=].use.system = "http://snomed.info/sct"
 * #4202 ^designation[=].use = $sct#900000000000013009
@@ -1117,10 +1136,10 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #4202 ^property[+].code = #dateMaj
 * #4202 ^property[=].valueDateTime = "2021-03-26T12:00:00+01:00"
 * #4301 "Etab. et Services d'Hébergement pour Adultes Handicapés"
-* #4301 ^property[0].code = #parent
-* #4301 ^property[=].valueCode = #4300
-* #4301 ^property[+].code = #niveau
+* #4301 ^property[0].code = #niveau
 * #4301 ^property[=].valueInteger =  3
+* #4301 ^property[+].code = #parent
+* #4301 ^property[=].valueCode = #4300
 * #4301 ^designation[0].language = #fr-FR
 * #4301 ^designation[=].use.system = "http://snomed.info/sct"
 * #4301 ^designation[=].use = $sct#900000000000013009
@@ -1134,10 +1153,10 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #4301 ^property[+].code = #dateMaj
 * #4301 ^property[=].valueDateTime = "1979-01-01T00:00:00+01:00"
 * #4302 "Etab.et Services de Travail Protégé pour Adultes Handicapés"
-* #4302 ^property[0].code = #parent
-* #4302 ^property[=].valueCode = #4300
-* #4302 ^property[+].code = #niveau
+* #4302 ^property[0].code = #niveau
 * #4302 ^property[=].valueInteger =  3
+* #4302 ^property[+].code = #parent
+* #4302 ^property[=].valueCode = #4300
 * #4302 ^designation[0].language = #fr-FR
 * #4302 ^designation[=].use.system = "http://snomed.info/sct"
 * #4302 ^designation[=].use = $sct#900000000000013009
@@ -1151,10 +1170,10 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #4302 ^property[+].code = #dateMaj
 * #4302 ^property[=].valueDateTime = "1979-01-01T00:00:00+01:00"
 * #4303 "Etab.et Services de Réinsertion Prof pour Adultes Handicapés"
-* #4303 ^property[0].code = #parent
-* #4303 ^property[=].valueCode = #4300
-* #4303 ^property[+].code = #niveau
+* #4303 ^property[0].code = #niveau
 * #4303 ^property[=].valueInteger =  3
+* #4303 ^property[+].code = #parent
+* #4303 ^property[=].valueCode = #4300
 * #4303 ^designation[0].language = #fr-FR
 * #4303 ^designation[=].use.system = "http://snomed.info/sct"
 * #4303 ^designation[=].use = $sct#900000000000013009
@@ -1168,10 +1187,10 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #4303 ^property[+].code = #dateMaj
 * #4303 ^property[=].valueDateTime = "1979-01-01T00:00:00+01:00"
 * #4304 "Etab.Expérimentaux en Faveur des Adultes Handicapés"
-* #4304 ^property[0].code = #parent
-* #4304 ^property[=].valueCode = #4300
-* #4304 ^property[+].code = #niveau
+* #4304 ^property[0].code = #niveau
 * #4304 ^property[=].valueInteger =  3
+* #4304 ^property[+].code = #parent
+* #4304 ^property[=].valueCode = #4300
 * #4304 ^designation[0].language = #fr-FR
 * #4304 ^designation[=].use.system = "http://snomed.info/sct"
 * #4304 ^designation[=].use = $sct#900000000000013009
@@ -1185,10 +1204,10 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #4304 ^property[+].code = #dateMaj
 * #4304 ^property[=].valueDateTime = "1979-01-01T00:00:00+01:00"
 * #4305 "Services de Maintien à Domicile pour Handicapés"
-* #4305 ^property[0].code = #parent
-* #4305 ^property[=].valueCode = #4300
-* #4305 ^property[+].code = #niveau
+* #4305 ^property[0].code = #niveau
 * #4305 ^property[=].valueInteger =  3
+* #4305 ^property[+].code = #parent
+* #4305 ^property[=].valueCode = #4300
 * #4305 ^designation[0].language = #fr-FR
 * #4305 ^designation[=].use.system = "http://snomed.info/sct"
 * #4305 ^designation[=].use = $sct#900000000000013009
@@ -1198,10 +1217,10 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #4305 ^property[+].code = #dateMaj
 * #4305 ^property[=].valueDateTime = "1979-01-01T00:00:00+01:00"
 * #4401 "Etablissements d'Hébergement pour Personnes Âgées"
-* #4401 ^property[0].code = #parent
-* #4401 ^property[=].valueCode = #4400
-* #4401 ^property[+].code = #niveau
+* #4401 ^property[0].code = #niveau
 * #4401 ^property[=].valueInteger =  3
+* #4401 ^property[+].code = #parent
+* #4401 ^property[=].valueCode = #4400
 * #4401 ^designation[0].language = #fr-FR
 * #4401 ^designation[=].use.system = "http://snomed.info/sct"
 * #4401 ^designation[=].use = $sct#900000000000013009
@@ -1211,10 +1230,10 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #4401 ^property[+].code = #dateMaj
 * #4401 ^property[=].valueDateTime = "1979-01-01T00:00:00+01:00"
 * #4402 "Services de Maintien à Domicile pour Personnes Âgées"
-* #4402 ^property[0].code = #parent
-* #4402 ^property[=].valueCode = #4400
-* #4402 ^property[+].code = #niveau
+* #4402 ^property[0].code = #niveau
 * #4402 ^property[=].valueInteger =  3
+* #4402 ^property[+].code = #parent
+* #4402 ^property[=].valueCode = #4400
 * #4402 ^designation[0].language = #fr-FR
 * #4402 ^designation[=].use.system = "http://snomed.info/sct"
 * #4402 ^designation[=].use = $sct#900000000000013009
@@ -1224,10 +1243,10 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #4402 ^property[+].code = #dateMaj
 * #4402 ^property[=].valueDateTime = "1979-01-01T00:00:00+01:00"
 * #4403 "Services Sociaux en Faveur des Personnes Âgées"
-* #4403 ^property[0].code = #parent
-* #4403 ^property[=].valueCode = #4400
-* #4403 ^property[+].code = #niveau
+* #4403 ^property[0].code = #niveau
 * #4403 ^property[=].valueInteger =  3
+* #4403 ^property[+].code = #parent
+* #4403 ^property[=].valueCode = #4400
 * #4403 ^designation[0].language = #fr-FR
 * #4403 ^designation[=].use.system = "http://snomed.info/sct"
 * #4403 ^designation[=].use = $sct#900000000000013009
@@ -1239,10 +1258,10 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #4403 ^property[+].code = #dateMaj
 * #4403 ^property[=].valueDateTime = "2021-03-26T12:00:00+01:00"
 * #4404 "Etablissements Expérimentaux en Faveur des Personnes Âgées"
-* #4404 ^property[0].code = #parent
-* #4404 ^property[=].valueCode = #4400
-* #4404 ^property[+].code = #niveau
+* #4404 ^property[0].code = #niveau
 * #4404 ^property[=].valueInteger =  3
+* #4404 ^property[+].code = #parent
+* #4404 ^property[=].valueCode = #4400
 * #4404 ^designation[0].language = #fr-FR
 * #4404 ^designation[=].use.system = "http://snomed.info/sct"
 * #4404 ^designation[=].use = $sct#900000000000013009
@@ -1252,10 +1271,10 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #4404 ^property[+].code = #dateMaj
 * #4404 ^property[=].valueDateTime = "1979-01-01T00:00:00+01:00"
 * #4501 "Etablissements de l'Aide Sociale à l'Enfance"
-* #4501 ^property[0].code = #parent
-* #4501 ^property[=].valueCode = #4500
-* #4501 ^property[+].code = #niveau
+* #4501 ^property[0].code = #niveau
 * #4501 ^property[=].valueInteger =  3
+* #4501 ^property[+].code = #parent
+* #4501 ^property[=].valueCode = #4500
 * #4501 ^designation[0].language = #fr-FR
 * #4501 ^designation[=].use.system = "http://snomed.info/sct"
 * #4501 ^designation[=].use = $sct#900000000000013009
@@ -1265,10 +1284,10 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #4501 ^property[+].code = #dateMaj
 * #4501 ^property[=].valueDateTime = "1979-01-01T00:00:00+01:00"
 * #4502 "Etab.et Services du Ministère de la Justice pour Mineurs"
-* #4502 ^property[0].code = #parent
-* #4502 ^property[=].valueCode = #4500
-* #4502 ^property[+].code = #niveau
+* #4502 ^property[0].code = #niveau
 * #4502 ^property[=].valueInteger =  3
+* #4502 ^property[+].code = #parent
+* #4502 ^property[=].valueCode = #4500
 * #4502 ^designation[0].language = #fr-FR
 * #4502 ^designation[=].use.system = "http://snomed.info/sct"
 * #4502 ^designation[=].use = $sct#900000000000013009
@@ -1282,10 +1301,10 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #4502 ^property[+].code = #dateMaj
 * #4502 ^property[=].valueDateTime = "1979-01-01T00:00:00+01:00"
 * #4504 "Services Concourant à la Protection de l'Enfance"
-* #4504 ^property[0].code = #parent
-* #4504 ^property[=].valueCode = #4500
-* #4504 ^property[+].code = #niveau
+* #4504 ^property[0].code = #niveau
 * #4504 ^property[=].valueInteger =  3
+* #4504 ^property[+].code = #parent
+* #4504 ^property[=].valueCode = #4500
 * #4504 ^designation[0].language = #fr-FR
 * #4504 ^designation[=].use.system = "http://snomed.info/sct"
 * #4504 ^designation[=].use = $sct#900000000000013009
@@ -1295,10 +1314,10 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #4504 ^property[+].code = #dateMaj
 * #4504 ^property[=].valueDateTime = "1979-01-01T00:00:00+01:00"
 * #4505 "Etab. Expérimentaux en Faveur de l'Enfance Protégée"
-* #4505 ^property[0].code = #parent
-* #4505 ^property[=].valueCode = #4500
-* #4505 ^property[+].code = #niveau
+* #4505 ^property[0].code = #niveau
 * #4505 ^property[=].valueInteger =  3
+* #4505 ^property[+].code = #parent
+* #4505 ^property[=].valueCode = #4500
 * #4505 ^designation[0].language = #fr-FR
 * #4505 ^designation[=].use.system = "http://snomed.info/sct"
 * #4505 ^designation[=].use = $sct#900000000000013009
@@ -1312,10 +1331,10 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #4505 ^property[+].code = #dateMaj
 * #4505 ^property[=].valueDateTime = "1979-01-01T00:00:00+01:00"
 * #4601 "Etablissements pour Adultes et Familles en Difficulté"
-* #4601 ^property[0].code = #parent
-* #4601 ^property[=].valueCode = #4600
-* #4601 ^property[+].code = #niveau
+* #4601 ^property[0].code = #niveau
 * #4601 ^property[=].valueInteger =  3
+* #4601 ^property[+].code = #parent
+* #4601 ^property[=].valueCode = #4600
 * #4601 ^designation[0].language = #fr-FR
 * #4601 ^designation[=].use.system = "http://snomed.info/sct"
 * #4601 ^designation[=].use = $sct#900000000000013009
@@ -1325,10 +1344,10 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #4601 ^property[+].code = #dateMaj
 * #4601 ^property[=].valueDateTime = "1979-01-01T00:00:00+01:00"
 * #4602 "Autres Etablissements Sociaux d'Hébergement et d'Accueil"
-* #4602 ^property[0].code = #parent
-* #4602 ^property[=].valueCode = #4600
-* #4602 ^property[+].code = #niveau
+* #4602 ^property[0].code = #niveau
 * #4602 ^property[=].valueInteger =  3
+* #4602 ^property[+].code = #parent
+* #4602 ^property[=].valueCode = #4600
 * #4602 ^designation[0].language = #fr-FR
 * #4602 ^designation[=].use.system = "http://snomed.info/sct"
 * #4602 ^designation[=].use = $sct#900000000000013009
@@ -1342,10 +1361,10 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #4602 ^property[+].code = #dateMaj
 * #4602 ^property[=].valueDateTime = "1979-01-01T00:00:00+01:00"
 * #4603 "Etablissements Expérimentaux en Faveur des Adultes"
-* #4603 ^property[0].code = #parent
-* #4603 ^property[=].valueCode = #4600
-* #4603 ^property[+].code = #niveau
+* #4603 ^property[0].code = #niveau
 * #4603 ^property[=].valueInteger =  3
+* #4603 ^property[+].code = #parent
+* #4603 ^property[=].valueCode = #4600
 * #4603 ^designation[0].language = #fr-FR
 * #4603 ^designation[=].use.system = "http://snomed.info/sct"
 * #4603 ^designation[=].use = $sct#900000000000013009
@@ -1355,10 +1374,10 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #4603 ^property[+].code = #dateMaj
 * #4603 ^property[=].valueDateTime = "1979-01-01T00:00:00+01:00"
 * #4604 "Autres Etablissements médico-sociaux"
-* #4604 ^property[0].code = #parent
-* #4604 ^property[=].valueCode = #4600
-* #4604 ^property[+].code = #niveau
+* #4604 ^property[0].code = #niveau
 * #4604 ^property[=].valueInteger =  3
+* #4604 ^property[+].code = #parent
+* #4604 ^property[=].valueCode = #4600
 * #4604 ^designation[0].language = #fr-FR
 * #4604 ^designation[=].use.system = "http://snomed.info/sct"
 * #4604 ^designation[=].use = $sct#900000000000013009
@@ -1372,10 +1391,10 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #4604 ^property[+].code = #dateMaj
 * #4604 ^property[=].valueDateTime = "1999-06-17T00:00:00+01:00"
 * #4605 "Etablissements et services multi-clientèles"
-* #4605 ^property[0].code = #parent
-* #4605 ^property[=].valueCode = #4600
-* #4605 ^property[+].code = #niveau
+* #4605 ^property[0].code = #niveau
 * #4605 ^property[=].valueInteger =  3
+* #4605 ^property[+].code = #parent
+* #4605 ^property[=].valueCode = #4600
 * #4605 ^designation[0].language = #fr-FR
 * #4605 ^designation[=].use.system = "http://snomed.info/sct"
 * #4605 ^designation[=].use = $sct#900000000000013009
@@ -1385,10 +1404,10 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #4605 ^property[+].code = #dateMaj
 * #4605 ^property[=].valueDateTime = "2002-01-01T00:00:00+01:00"
 * #4606 "Centres de ressources"
-* #4606 ^property[0].code = #parent
-* #4606 ^property[=].valueCode = #4600
-* #4606 ^property[+].code = #niveau
+* #4606 ^property[0].code = #niveau
 * #4606 ^property[=].valueInteger =  3
+* #4606 ^property[+].code = #parent
+* #4606 ^property[=].valueCode = #4600
 * #4606 ^designation[0].language = #fr-FR
 * #4606 ^designation[=].use.system = "http://snomed.info/sct"
 * #4606 ^designation[=].use = $sct#900000000000013009
@@ -1398,10 +1417,10 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #4606 ^property[+].code = #dateMaj
 * #4606 ^property[=].valueDateTime = "2002-01-01T00:00:00+01:00"
 * #4607 "Logements en Structure Collective"
-* #4607 ^property[0].code = #parent
-* #4607 ^property[=].valueCode = #4600
-* #4607 ^property[+].code = #niveau
+* #4607 ^property[0].code = #niveau
 * #4607 ^property[=].valueInteger =  3
+* #4607 ^property[+].code = #parent
+* #4607 ^property[=].valueCode = #4600
 * #4607 ^designation[0].language = #fr-FR
 * #4607 ^designation[=].use.system = "http://snomed.info/sct"
 * #4607 ^designation[=].use = $sct#900000000000013009
@@ -1411,10 +1430,10 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #4607 ^property[+].code = #dateMaj
 * #4607 ^property[=].valueDateTime = "2009-01-21T00:00:00+01:00"
 * #4608 "Protection des majeurs"
-* #4608 ^property[0].code = #parent
-* #4608 ^property[=].valueCode = #4600
-* #4608 ^property[+].code = #niveau
+* #4608 ^property[0].code = #niveau
 * #4608 ^property[=].valueInteger =  3
+* #4608 ^property[+].code = #parent
+* #4608 ^property[=].valueCode = #4600
 * #4608 ^designation[0].language = #fr-FR
 * #4608 ^designation[=].use.system = "http://snomed.info/sct"
 * #4608 ^designation[=].use = $sct#900000000000013009
@@ -1424,10 +1443,10 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #4608 ^property[+].code = #dateMaj
 * #4608 ^property[=].valueDateTime = "2010-11-12T00:00:00+01:00"
 * #4609 "Centres prestataires de services pr personnes cérébro-lésées"
-* #4609 ^property[0].code = #parent
-* #4609 ^property[=].valueCode = #4600
-* #4609 ^property[+].code = #niveau
+* #4609 ^property[0].code = #niveau
 * #4609 ^property[=].valueInteger =  3
+* #4609 ^property[+].code = #parent
+* #4609 ^property[=].valueCode = #4600
 * #4609 ^designation[0].language = #fr-FR
 * #4609 ^designation[=].use.system = "http://snomed.info/sct"
 * #4609 ^designation[=].use = $sct#900000000000013009
@@ -1441,10 +1460,10 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #4609 ^property[+].code = #dateMaj
 * #4609 ^property[=].valueDateTime = "2012-11-05T00:00:00+01:00"
 * #5101 "Etablissements Garde d'Enfants d'Age pré-Scolaire"
-* #5101 ^property[0].code = #parent
-* #5101 ^property[=].valueCode = #5100
-* #5101 ^property[+].code = #niveau
+* #5101 ^property[0].code = #niveau
 * #5101 ^property[=].valueInteger =  3
+* #5101 ^property[+].code = #parent
+* #5101 ^property[=].valueCode = #5100
 * #5101 ^designation[0].language = #fr-FR
 * #5101 ^designation[=].use.system = "http://snomed.info/sct"
 * #5101 ^designation[=].use = $sct#900000000000013009
@@ -1460,10 +1479,10 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #5101 ^property[+].code = #dateMaj
 * #5101 ^property[=].valueDateTime = "2021-03-26T12:00:00+01:00"
 * #5102 "Etablissements d'Hébergement pour Enfants d'Age Scolaire"
-* #5102 ^property[0].code = #parent
-* #5102 ^property[=].valueCode = #5100
-* #5102 ^property[+].code = #niveau
+* #5102 ^property[0].code = #niveau
 * #5102 ^property[=].valueInteger =  3
+* #5102 ^property[+].code = #parent
+* #5102 ^property[=].valueCode = #5100
 * #5102 ^designation[0].language = #fr-FR
 * #5102 ^designation[=].use.system = "http://snomed.info/sct"
 * #5102 ^designation[=].use = $sct#900000000000013009
@@ -1479,10 +1498,10 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #5102 ^property[+].code = #dateMaj
 * #5102 ^property[=].valueDateTime = "2021-03-26T12:00:00+01:00"
 * #5103 "Etablissements Sociaux pour Loisirs et Vacances"
-* #5103 ^property[0].code = #parent
-* #5103 ^property[=].valueCode = #5100
-* #5103 ^property[+].code = #niveau
+* #5103 ^property[0].code = #niveau
 * #5103 ^property[=].valueInteger =  3
+* #5103 ^property[+].code = #parent
+* #5103 ^property[=].valueCode = #5100
 * #5103 ^designation[0].language = #fr-FR
 * #5103 ^designation[=].use.system = "http://snomed.info/sct"
 * #5103 ^designation[=].use = $sct#900000000000013009
@@ -1494,10 +1513,10 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #5103 ^property[+].code = #dateMaj
 * #5103 ^property[=].valueDateTime = "2021-03-26T12:00:00+01:00"
 * #5104 "Etablissements ou Services Divers d'Aide à la Famille"
-* #5104 ^property[0].code = #parent
-* #5104 ^property[=].valueCode = #5100
-* #5104 ^property[+].code = #niveau
+* #5104 ^property[0].code = #niveau
 * #5104 ^property[=].valueInteger =  3
+* #5104 ^property[+].code = #parent
+* #5104 ^property[=].valueCode = #5100
 * #5104 ^designation[0].language = #fr-FR
 * #5104 ^designation[=].use.system = "http://snomed.info/sct"
 * #5104 ^designation[=].use = $sct#900000000000013009
@@ -1507,10 +1526,10 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #5104 ^property[+].code = #dateMaj
 * #5104 ^property[=].valueDateTime = "1979-01-01T00:00:00+01:00"
 * #6101 "Etablissements de Formation des Personnels Sanitaires"
-* #6101 ^property[0].code = #parent
-* #6101 ^property[=].valueCode = #6100
-* #6101 ^property[+].code = #niveau
+* #6101 ^property[0].code = #niveau
 * #6101 ^property[=].valueInteger =  3
+* #6101 ^property[+].code = #parent
+* #6101 ^property[=].valueCode = #6100
 * #6101 ^designation[0].language = #fr-FR
 * #6101 ^designation[=].use.system = "http://snomed.info/sct"
 * #6101 ^designation[=].use = $sct#900000000000013009
@@ -1520,10 +1539,10 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #6101 ^property[+].code = #dateMaj
 * #6101 ^property[=].valueDateTime = "1979-01-01T00:00:00+01:00"
 * #6102 "Etablissements de Formation des Personnels Techniques"
-* #6102 ^property[0].code = #parent
-* #6102 ^property[=].valueCode = #6100
-* #6102 ^property[+].code = #niveau
+* #6102 ^property[0].code = #niveau
 * #6102 ^property[=].valueInteger =  3
+* #6102 ^property[+].code = #parent
+* #6102 ^property[=].valueCode = #6100
 * #6102 ^designation[0].language = #fr-FR
 * #6102 ^designation[=].use.system = "http://snomed.info/sct"
 * #6102 ^designation[=].use = $sct#900000000000013009
@@ -1535,10 +1554,10 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #6102 ^property[+].code = #dateMaj
 * #6102 ^property[=].valueDateTime = "2021-03-26T12:00:00+01:00"
 * #6103 "Autres Etablissements de Formation des Personnels Techniques"
-* #6103 ^property[0].code = #parent
-* #6103 ^property[=].valueCode = #6100
-* #6103 ^property[+].code = #niveau
+* #6103 ^property[0].code = #niveau
 * #6103 ^property[=].valueInteger =  3
+* #6103 ^property[+].code = #parent
+* #6103 ^property[=].valueCode = #6100
 * #6103 ^designation[0].language = #fr-FR
 * #6103 ^designation[=].use.system = "http://snomed.info/sct"
 * #6103 ^designation[=].use = $sct#900000000000013009
@@ -1553,10 +1572,10 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #6103 ^property[+].code = #dateMaj
 * #6103 ^property[=].valueDateTime = "2021-03-26T12:00:00+01:00"
 * #6201 "Etablissements de Formation des Personnels Sociaux"
-* #6201 ^property[0].code = #parent
-* #6201 ^property[=].valueCode = #6200
-* #6201 ^property[+].code = #niveau
+* #6201 ^property[0].code = #niveau
 * #6201 ^property[=].valueInteger =  3
+* #6201 ^property[+].code = #parent
+* #6201 ^property[=].valueCode = #6200
 * #6201 ^designation[0].language = #fr-FR
 * #6201 ^designation[=].use.system = "http://snomed.info/sct"
 * #6201 ^designation[=].use = $sct#900000000000013009
@@ -1566,10 +1585,10 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #6201 ^property[+].code = #dateMaj
 * #6201 ^property[=].valueDateTime = "1979-01-01T00:00:00+01:00"
 * #6301 "Etablissements de Formation Polyvalente"
-* #6301 ^property[0].code = #parent
-* #6301 ^property[=].valueCode = #6300
-* #6301 ^property[+].code = #niveau
+* #6301 ^property[0].code = #niveau
 * #6301 ^property[=].valueInteger =  3
+* #6301 ^property[+].code = #parent
+* #6301 ^property[=].valueCode = #6300
 * #6301 ^designation[0].language = #fr-FR
 * #6301 ^designation[=].use = $sct#900000000000013009
 * #6301 ^designation[=].value = "Etab.Form.Polyval."
@@ -1578,10 +1597,10 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #6301 ^property[+].code = #dateMaj
 * #6301 ^property[=].valueDateTime = "1979-01-01T00:00:00+01:00"
 * #001 "Autres lits de m.R."
-* #001 ^property[0].code = #parent
-* #001 ^property[=].valueCode = #4401
-* #001 ^property[+].code = #niveau
+* #001 ^property[0].code = #niveau
 * #001 ^property[=].valueInteger =  4
+* #001 ^property[+].code = #parent
+* #001 ^property[=].valueCode = #4401
 * #001 ^designation[0].language = #fr-FR
 * #001 ^designation[=].use.system = "http://snomed.info/sct"
 * #001 ^designation[=].use = $sct#900000000000013009
@@ -1599,10 +1618,10 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #001 ^property[+].code = #JdvJ310CategorieEntiteGeographiqueExerciceFiness
 * #001 ^property[=].valueBoolean = true
 * #002 "Autres places de l-f."
-* #002 ^property[0].code = #parent
-* #002 ^property[=].valueCode = #4401
-* #002 ^property[+].code = #niveau
+* #002 ^property[0].code = #niveau
 * #002 ^property[=].valueInteger =  4
+* #002 ^property[+].code = #parent
+* #002 ^property[=].valueCode = #4401
 * #002 ^designation[0].language = #fr-FR
 * #002 ^designation[=].use.system = "http://snomed.info/sct"
 * #002 ^designation[=].use = $sct#900000000000013009
@@ -1618,10 +1637,10 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #002 ^property[+].code = #status
 * #002 ^property[=].valueCode = #deprecated
 * #003 "Autres lits de l-s"
-* #003 ^property[0].code = #parent
-* #003 ^property[=].valueCode = #1109
-* #003 ^property[+].code = #niveau
+* #003 ^property[0].code = #niveau
 * #003 ^property[=].valueInteger =  4
+* #003 ^property[+].code = #parent
+* #003 ^property[=].valueCode = #1109
 * #003 ^property[+].code = #dateValid
 * #003 ^property[=].valueDateTime = "1979-01-01T00:00:00+01:00"
 * #003 ^property[+].code = #dateFin
@@ -1633,10 +1652,10 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #003 ^property[+].code = #status
 * #003 ^property[=].valueCode = #deprecated
 * #101 "Centre Hospitalier Régional (C.H.R.)"
-* #101 ^property[0].code = #parent
-* #101 ^property[=].valueCode = #1101
-* #101 ^property[+].code = #niveau
+* #101 ^property[0].code = #niveau
 * #101 ^property[=].valueInteger =  4
+* #101 ^property[+].code = #parent
+* #101 ^property[=].valueCode = #1101
 * #101 ^designation[0].language = #fr-FR
 * #101 ^designation[=].use.system = "http://snomed.info/sct"
 * #101 ^designation[=].use = $sct#900000000000013009
@@ -1652,10 +1671,10 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #101 ^property[+].code = #status
 * #101 ^property[=].valueCode = #active
 * #106 "Centre hospitalier, ex Hôpital local"
-* #106 ^property[0].code = #parent
-* #106 ^property[=].valueCode = #1106
-* #106 ^property[+].code = #niveau
+* #106 ^property[0].code = #niveau
 * #106 ^property[=].valueInteger =  4
+* #106 ^property[+].code = #parent
+* #106 ^property[=].valueCode = #1106
 * #106 ^designation[0].language = #fr-FR
 * #106 ^designation[=].use.system = "http://snomed.info/sct"
 * #106 ^designation[=].use = $sct#900000000000013009
@@ -1671,10 +1690,10 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #106 ^property[+].code = #status
 * #106 ^property[=].valueCode = #active
 * #108 "Etablissement de Convalescence et de Repos"
-* #108 ^property[0].code = #parent
-* #108 ^property[=].valueCode = #1107
-* #108 ^property[+].code = #niveau
+* #108 ^property[0].code = #niveau
 * #108 ^property[=].valueInteger =  4
+* #108 ^property[+].code = #parent
+* #108 ^property[=].valueCode = #1107
 * #108 ^designation[0].language = #fr-FR
 * #108 ^designation[=].use.system = "http://snomed.info/sct"
 * #108 ^designation[=].use = $sct#900000000000013009
@@ -1690,10 +1709,10 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #108 ^property[+].code = #status
 * #108 ^property[=].valueCode = #deprecated
 * #109 "Etablissement de santé privé autorisé en SSR"
-* #109 ^property[0].code = #parent
-* #109 ^property[=].valueCode = #1107
-* #109 ^property[+].code = #niveau
+* #109 ^property[0].code = #niveau
 * #109 ^property[=].valueInteger =  4
+* #109 ^property[+].code = #parent
+* #109 ^property[=].valueCode = #1107
 * #109 ^designation[0].language = #fr-FR
 * #109 ^designation[=].use.system = "http://snomed.info/sct"
 * #109 ^designation[=].use = $sct#900000000000013009
@@ -1709,10 +1728,10 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #109 ^property[+].code = #status
 * #109 ^property[=].valueCode = #active
 * #112 "Centre de Convalescence Cure ou Réadaptation"
-* #112 ^property[0].code = #parent
-* #112 ^property[=].valueCode = #1107
-* #112 ^property[+].code = #niveau
+* #112 ^property[0].code = #niveau
 * #112 ^property[=].valueInteger =  4
+* #112 ^property[+].code = #parent
+* #112 ^property[=].valueCode = #1107
 * #112 ^designation[0].language = #fr-FR
 * #112 ^designation[=].use.system = "http://snomed.info/sct"
 * #112 ^designation[=].use = $sct#900000000000013009
@@ -1732,10 +1751,10 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #112 ^property[+].code = #status
 * #112 ^property[=].valueCode = #deprecated
 * #114 "Hôpital des armées"
-* #114 ^property[0].code = #parent
-* #114 ^property[=].valueCode = #2205
-* #114 ^property[+].code = #niveau
+* #114 ^property[0].code = #niveau
 * #114 ^property[=].valueInteger =  4
+* #114 ^property[+].code = #parent
+* #114 ^property[=].valueCode = #2205
 * #114 ^designation[0].language = #fr-FR
 * #114 ^designation[=].use.system = "http://snomed.info/sct"
 * #114 ^designation[=].use = $sct#900000000000013009
@@ -1747,10 +1766,10 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #114 ^property[+].code = #status
 * #114 ^property[=].valueCode = #active
 * #115 "Etablissement de Soins du Service de Santé des Armées"
-* #115 ^property[0].code = #parent
-* #115 ^property[=].valueCode = #2205
-* #115 ^property[+].code = #niveau
+* #115 ^property[0].code = #niveau
 * #115 ^property[=].valueInteger =  4
+* #115 ^property[+].code = #parent
+* #115 ^property[=].valueCode = #2205
 * #115 ^designation[0].language = #fr-FR
 * #115 ^designation[=].use.system = "http://snomed.info/sct"
 * #115 ^designation[=].use = $sct#900000000000013009
@@ -1766,10 +1785,10 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #115 ^property[+].code = #status
 * #115 ^property[=].valueCode = #active
 * #119 "Maison de Régime"
-* #119 ^property[0].code = #parent
-* #119 ^property[=].valueCode = #1107
-* #119 ^property[+].code = #niveau
+* #119 ^property[0].code = #niveau
 * #119 ^property[=].valueInteger =  4
+* #119 ^property[+].code = #parent
+* #119 ^property[=].valueCode = #1107
 * #119 ^property[+].code = #dateValid
 * #119 ^property[=].valueDateTime = "1979-01-01T00:00:00+01:00"
 * #119 ^property[+].code = #dateFin
@@ -1781,10 +1800,10 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #119 ^property[+].code = #status
 * #119 ^property[=].valueCode = #deprecated
 * #122 "Etablissement Soins Obstétriques Chirurgico-Gynécologiques"
-* #122 ^property[0].code = #parent
-* #122 ^property[=].valueCode = #1110
-* #122 ^property[+].code = #niveau
+* #122 ^property[0].code = #niveau
 * #122 ^property[=].valueInteger =  4
+* #122 ^property[+].code = #parent
+* #122 ^property[=].valueCode = #1110
 * #122 ^designation[0].language = #fr-FR
 * #122 ^designation[=].use.system = "http://snomed.info/sct"
 * #122 ^designation[=].use = $sct#900000000000013009
@@ -1800,10 +1819,10 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #122 ^property[+].code = #status
 * #122 ^property[=].valueCode = #active
 * #124 "Centre de Santé"
-* #124 ^property[0].code = #parent
-* #124 ^property[=].valueCode = #2206
-* #124 ^property[+].code = #niveau
+* #124 ^property[0].code = #niveau
 * #124 ^property[=].valueInteger =  4
+* #124 ^property[+].code = #parent
+* #124 ^property[=].valueCode = #2206
 * #124 ^property[+].code = #dateValid
 * #124 ^property[=].valueDateTime = "2013-12-19T00:00:00+01:00"
 * #124 ^property[+].code = #dateMaj
@@ -1811,10 +1830,10 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #124 ^property[+].code = #status
 * #124 ^property[=].valueCode = #active
 * #125 "Centre de Santé Dentaire"
-* #125 ^property[0].code = #parent
-* #125 ^property[=].valueCode = #2206
-* #125 ^property[+].code = #niveau
+* #125 ^property[0].code = #niveau
 * #125 ^property[=].valueInteger =  4
+* #125 ^property[+].code = #parent
+* #125 ^property[=].valueCode = #2206
 * #125 ^designation[0].language = #fr-FR
 * #125 ^designation[=].use.system = "http://snomed.info/sct"
 * #125 ^designation[=].use = $sct#900000000000013009
@@ -1830,10 +1849,10 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #125 ^property[+].code = #status
 * #125 ^property[=].valueCode = #deprecated
 * #126 "Etablissement Thermal"
-* #126 ^property[0].code = #parent
-* #126 ^property[=].valueCode = #1205
-* #126 ^property[+].code = #niveau
+* #126 ^property[0].code = #niveau
 * #126 ^property[=].valueInteger =  4
+* #126 ^property[+].code = #parent
+* #126 ^property[=].valueCode = #1205
 * #126 ^designation[0].language = #fr-FR
 * #126 ^designation[=].use.system = "http://snomed.info/sct"
 * #126 ^designation[=].use = $sct#900000000000013009
@@ -1845,10 +1864,10 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #126 ^property[+].code = #status
 * #126 ^property[=].valueCode = #active
 * #127 "Hospitalisation à Domicile"
-* #127 ^property[0].code = #parent
-* #127 ^property[=].valueCode = #1201
-* #127 ^property[+].code = #niveau
+* #127 ^property[0].code = #niveau
 * #127 ^property[=].valueInteger =  4
+* #127 ^property[+].code = #parent
+* #127 ^property[=].valueCode = #1201
 * #127 ^designation[0].language = #fr-FR
 * #127 ^designation[=].use.system = "http://snomed.info/sct"
 * #127 ^designation[=].use = $sct#900000000000013009
@@ -1864,10 +1883,10 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #127 ^property[+].code = #status
 * #127 ^property[=].valueCode = #active
 * #128 "Etablissement de Soins Chirurgicaux"
-* #128 ^property[0].code = #parent
-* #128 ^property[=].valueCode = #1110
-* #128 ^property[+].code = #niveau
+* #128 ^property[0].code = #niveau
 * #128 ^property[=].valueInteger =  4
+* #128 ^property[+].code = #parent
+* #128 ^property[=].valueCode = #1110
 * #128 ^designation[0].language = #fr-FR
 * #128 ^designation[=].use.system = "http://snomed.info/sct"
 * #128 ^designation[=].use = $sct#900000000000013009
@@ -1879,10 +1898,10 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #128 ^property[+].code = #status
 * #128 ^property[=].valueCode = #active
 * #129 "Etablissement de Soins Médicaux"
-* #129 ^property[0].code = #parent
-* #129 ^property[=].valueCode = #1110
-* #129 ^property[+].code = #niveau
+* #129 ^property[0].code = #niveau
 * #129 ^property[=].valueInteger =  4
+* #129 ^property[+].code = #parent
+* #129 ^property[=].valueCode = #1110
 * #129 ^designation[0].language = #fr-FR
 * #129 ^designation[=].use.system = "http://snomed.info/sct"
 * #129 ^designation[=].use = $sct#900000000000013009
@@ -1894,10 +1913,10 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #129 ^property[+].code = #status
 * #129 ^property[=].valueCode = #active
 * #130 "Centre de Soins Médicaux"
-* #130 ^property[0].code = #parent
-* #130 ^property[=].valueCode = #2206
-* #130 ^property[+].code = #niveau
+* #130 ^property[0].code = #niveau
 * #130 ^property[=].valueInteger =  4
+* #130 ^property[+].code = #parent
+* #130 ^property[=].valueCode = #2206
 * #130 ^designation[0].language = #fr-FR
 * #130 ^designation[=].use.system = "http://snomed.info/sct"
 * #130 ^designation[=].use = $sct#900000000000013009
@@ -1913,10 +1932,10 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #130 ^property[+].code = #status
 * #130 ^property[=].valueCode = #deprecated
 * #131 "Centre de Lutte Contre Cancer"
-* #131 ^property[0].code = #parent
-* #131 ^property[=].valueCode = #1104
-* #131 ^property[+].code = #niveau
+* #131 ^property[0].code = #niveau
 * #131 ^property[=].valueInteger =  4
+* #131 ^property[+].code = #parent
+* #131 ^property[=].valueCode = #1104
 * #131 ^designation[0].language = #fr-FR
 * #131 ^designation[=].use.system = "http://snomed.info/sct"
 * #131 ^designation[=].use = $sct#900000000000013009
@@ -1928,10 +1947,10 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #131 ^property[+].code = #status
 * #131 ^property[=].valueCode = #active
 * #132 "Etablissement de Transfusion Sanguine"
-* #132 ^property[0].code = #parent
-* #132 ^property[=].valueCode = #3401
-* #132 ^property[+].code = #niveau
+* #132 ^property[0].code = #niveau
 * #132 ^property[=].valueInteger =  4
+* #132 ^property[+].code = #parent
+* #132 ^property[=].valueCode = #3401
 * #132 ^designation[0].language = #fr-FR
 * #132 ^designation[=].use.system = "http://snomed.info/sct"
 * #132 ^designation[=].use = $sct#900000000000013009
@@ -1943,10 +1962,10 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #132 ^property[+].code = #status
 * #132 ^property[=].valueCode = #active
 * #135 "Etablissement Réadaptation Fonctionnelle"
-* #135 ^property[0].code = #parent
-* #135 ^property[=].valueCode = #1107
-* #135 ^property[+].code = #niveau
+* #135 ^property[0].code = #niveau
 * #135 ^property[=].valueInteger =  4
+* #135 ^property[+].code = #parent
+* #135 ^property[=].valueCode = #1107
 * #135 ^designation[0].language = #fr-FR
 * #135 ^designation[=].use.system = "http://snomed.info/sct"
 * #135 ^designation[=].use = $sct#900000000000013009
@@ -1962,10 +1981,10 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #135 ^property[+].code = #status
 * #135 ^property[=].valueCode = #deprecated
 * #136 "Banque de Sperme"
-* #136 ^property[0].code = #parent
-* #136 ^property[=].valueCode = #3402
-* #136 ^property[+].code = #niveau
+* #136 ^property[0].code = #niveau
 * #136 ^property[=].valueInteger =  4
+* #136 ^property[+].code = #parent
+* #136 ^property[=].valueCode = #3402
 * #136 ^property[+].code = #dateValid
 * #136 ^property[=].valueDateTime = "1979-01-01T00:00:00+01:00"
 * #136 ^property[+].code = #dateFin
@@ -1977,10 +1996,10 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #136 ^property[+].code = #status
 * #136 ^property[=].valueCode = #deprecated
 * #137 "Banque d'Organes"
-* #137 ^property[0].code = #parent
-* #137 ^property[=].valueCode = #3402
-* #137 ^property[+].code = #niveau
+* #137 ^property[0].code = #niveau
 * #137 ^property[=].valueInteger =  4
+* #137 ^property[+].code = #parent
+* #137 ^property[=].valueCode = #3402
 * #137 ^property[+].code = #dateValid
 * #137 ^property[=].valueDateTime = "1979-01-01T00:00:00+01:00"
 * #137 ^property[+].code = #dateFin
@@ -1992,10 +2011,10 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #137 ^property[+].code = #status
 * #137 ^property[=].valueCode = #deprecated
 * #138 "Centre de Dialyse Périodique"
-* #138 ^property[0].code = #parent
-* #138 ^property[=].valueCode = #1203
-* #138 ^property[+].code = #niveau
+* #138 ^property[0].code = #niveau
 * #138 ^property[=].valueInteger =  4
+* #138 ^property[+].code = #parent
+* #138 ^property[=].valueCode = #1203
 * #138 ^designation[0].language = #fr-FR
 * #138 ^designation[=].use.system = "http://snomed.info/sct"
 * #138 ^designation[=].use = $sct#900000000000013009
@@ -2011,10 +2030,10 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #138 ^property[+].code = #status
 * #138 ^property[=].valueCode = #deprecated
 * #139 "Centre de Dialyse et d'entraînement à la Dialyse"
-* #139 ^property[0].code = #parent
-* #139 ^property[=].valueCode = #1203
-* #139 ^property[+].code = #niveau
+* #139 ^property[0].code = #niveau
 * #139 ^property[=].valueInteger =  4
+* #139 ^property[+].code = #parent
+* #139 ^property[=].valueCode = #1203
 * #139 ^designation[0].language = #fr-FR
 * #139 ^designation[=].use.system = "http://snomed.info/sct"
 * #139 ^designation[=].use = $sct#900000000000013009
@@ -2030,10 +2049,10 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #139 ^property[+].code = #status
 * #139 ^property[=].valueCode = #deprecated
 * #140 "Centre d'Entraînement à la Dialyse"
-* #140 ^property[0].code = #parent
-* #140 ^property[=].valueCode = #1203
-* #140 ^property[+].code = #niveau
+* #140 ^property[0].code = #niveau
 * #140 ^property[=].valueInteger =  4
+* #140 ^property[+].code = #parent
+* #140 ^property[=].valueCode = #1203
 * #140 ^designation[0].language = #fr-FR
 * #140 ^designation[=].use.system = "http://snomed.info/sct"
 * #140 ^designation[=].use = $sct#900000000000013009
@@ -2049,10 +2068,10 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #140 ^property[+].code = #status
 * #140 ^property[=].valueCode = #deprecated
 * #141 "Centre de dialyse"
-* #141 ^property[0].code = #parent
-* #141 ^property[=].valueCode = #1203
-* #141 ^property[+].code = #niveau
+* #141 ^property[0].code = #niveau
 * #141 ^property[=].valueInteger =  4
+* #141 ^property[+].code = #parent
+* #141 ^property[=].valueCode = #1203
 * #141 ^designation[0].language = #fr-FR
 * #141 ^designation[=].use.system = "http://snomed.info/sct"
 * #141 ^designation[=].use = $sct#900000000000013009
@@ -2064,10 +2083,10 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #141 ^property[+].code = #status
 * #141 ^property[=].valueCode = #active
 * #142 "Dispensaire Antituberculeux"
-* #142 ^property[0].code = #parent
-* #142 ^property[=].valueCode = #2201
-* #142 ^property[+].code = #niveau
+* #142 ^property[0].code = #niveau
 * #142 ^property[=].valueInteger =  4
+* #142 ^property[+].code = #parent
+* #142 ^property[=].valueCode = #2201
 * #142 ^designation[0].language = #fr-FR
 * #142 ^designation[=].use.system = "http://snomed.info/sct"
 * #142 ^designation[=].use = $sct#900000000000013009
@@ -2079,10 +2098,10 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #142 ^property[+].code = #status
 * #142 ^property[=].valueCode = #active
 * #143 "Centre de Vaccination BCG"
-* #143 ^property[0].code = #parent
-* #143 ^property[=].valueCode = #2201
-* #143 ^property[+].code = #niveau
+* #143 ^property[0].code = #niveau
 * #143 ^property[=].valueInteger =  4
+* #143 ^property[+].code = #parent
+* #143 ^property[=].valueCode = #2201
 * #143 ^designation[0].language = #fr-FR
 * #143 ^designation[=].use.system = "http://snomed.info/sct"
 * #143 ^designation[=].use = $sct#900000000000013009
@@ -2094,10 +2113,10 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #143 ^property[+].code = #status
 * #143 ^property[=].valueCode = #active
 * #144 "Etablissement de Lutte Contre la Tuberculose"
-* #144 ^property[0].code = #parent
-* #144 ^property[=].valueCode = #1107
-* #144 ^property[+].code = #niveau
+* #144 ^property[0].code = #niveau
 * #144 ^property[=].valueInteger =  4
+* #144 ^property[+].code = #parent
+* #144 ^property[=].valueCode = #1107
 * #144 ^designation[0].language = #fr-FR
 * #144 ^designation[=].use.system = "http://snomed.info/sct"
 * #144 ^designation[=].use = $sct#900000000000013009
@@ -2113,10 +2132,10 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #144 ^property[+].code = #status
 * #144 ^property[=].valueCode = #deprecated
 * #146 "Structure d'Alternative à la dialyse en centre"
-* #146 ^property[0].code = #parent
-* #146 ^property[=].valueCode = #1203
-* #146 ^property[+].code = #niveau
+* #146 ^property[0].code = #niveau
 * #146 ^property[=].valueInteger =  4
+* #146 ^property[+].code = #parent
+* #146 ^property[=].valueCode = #1203
 * #146 ^designation[0].language = #fr-FR
 * #146 ^designation[=].use.system = "http://snomed.info/sct"
 * #146 ^designation[=].use = $sct#900000000000013009
@@ -2128,10 +2147,10 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #146 ^property[+].code = #status
 * #146 ^property[=].valueCode = #active
 * #156 "Centre Médico-Psychologique (C.M.P.)"
-* #156 ^property[0].code = #parent
-* #156 ^property[=].valueCode = #1111
-* #156 ^property[+].code = #niveau
+* #156 ^property[0].code = #niveau
 * #156 ^property[=].valueInteger =  4
+* #156 ^property[+].code = #parent
+* #156 ^property[=].valueCode = #1111
 * #156 ^designation[0].language = #fr-FR
 * #156 ^designation[=].use.system = "http://snomed.info/sct"
 * #156 ^designation[=].use = $sct#900000000000013009
@@ -2147,10 +2166,10 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #156 ^property[+].code = #status
 * #156 ^property[=].valueCode = #active
 * #157 "Centre de Postcure"
-* #157 ^property[0].code = #parent
-* #157 ^property[=].valueCode = #1111
-* #157 ^property[+].code = #niveau
+* #157 ^property[0].code = #niveau
 * #157 ^property[=].valueInteger =  4
+* #157 ^property[+].code = #parent
+* #157 ^property[=].valueCode = #1111
 * #157 ^designation[0].language = #fr-FR
 * #157 ^designation[=].use.system = "http://snomed.info/sct"
 * #157 ^designation[=].use = $sct#900000000000013009
@@ -2166,10 +2185,10 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #157 ^property[+].code = #status
 * #157 ^property[=].valueCode = #deprecated
 * #159 "Centre Parental"
-* #159 ^property[0].code = #parent
-* #159 ^property[=].valueCode = #4501
-* #159 ^property[+].code = #niveau
+* #159 ^property[0].code = #niveau
 * #159 ^property[=].valueInteger =  4
+* #159 ^property[+].code = #parent
+* #159 ^property[=].valueCode = #4501
 * #159 ^property[+].code = #dateValid
 * #159 ^property[=].valueDateTime = "2020-06-26T12:00:00+01:00"
 * #159 ^property[+].code = #dateMaj
@@ -2177,10 +2196,10 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #159 ^property[+].code = #status
 * #159 ^property[=].valueCode = #active
 * #160 "Centre de Soins Spécifiques pour Toxicomanes (C.S.S.T.)"
-* #160 ^property[0].code = #parent
-* #160 ^property[=].valueCode = #4604
-* #160 ^property[+].code = #niveau
+* #160 ^property[0].code = #niveau
 * #160 ^property[=].valueInteger =  4
+* #160 ^property[+].code = #parent
+* #160 ^property[=].valueCode = #4604
 * #160 ^designation[0].language = #fr-FR
 * #160 ^designation[=].use.system = "http://snomed.info/sct"
 * #160 ^designation[=].use = $sct#900000000000013009
@@ -2200,10 +2219,10 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #160 ^property[+].code = #status
 * #160 ^property[=].valueCode = #deprecated
 * #161 "Maison de Santé pour Maladies Mentales"
-* #161 ^property[0].code = #parent
-* #161 ^property[=].valueCode = #1111
-* #161 ^property[+].code = #niveau
+* #161 ^property[0].code = #niveau
 * #161 ^property[=].valueInteger =  4
+* #161 ^property[+].code = #parent
+* #161 ^property[=].valueCode = #1111
 * #161 ^designation[0].language = #fr-FR
 * #161 ^designation[=].use.system = "http://snomed.info/sct"
 * #161 ^designation[=].use = $sct#900000000000013009
@@ -2215,10 +2234,10 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #161 ^property[+].code = #status
 * #161 ^property[=].valueCode = #active
 * #162 "Centre de Cure Ambulatoire en Alcoologie (C.C.A.A.)"
-* #162 ^property[0].code = #parent
-* #162 ^property[=].valueCode = #4604
-* #162 ^property[+].code = #niveau
+* #162 ^property[0].code = #niveau
 * #162 ^property[=].valueInteger =  4
+* #162 ^property[+].code = #parent
+* #162 ^property[=].valueCode = #4604
 * #162 ^designation[0].language = #fr-FR
 * #162 ^designation[=].use.system = "http://snomed.info/sct"
 * #162 ^designation[=].use = $sct#900000000000013009
@@ -2238,10 +2257,10 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #162 ^property[+].code = #status
 * #162 ^property[=].valueCode = #deprecated
 * #163 "Maison d'Enfants à Caractère Sanitaire Temporaire"
-* #163 ^property[0].code = #parent
-* #163 ^property[=].valueCode = #1112
-* #163 ^property[+].code = #niveau
+* #163 ^property[0].code = #niveau
 * #163 ^property[=].valueInteger =  4
+* #163 ^property[+].code = #parent
+* #163 ^property[=].valueCode = #1112
 * #163 ^designation[0].language = #fr-FR
 * #163 ^designation[=].use.system = "http://snomed.info/sct"
 * #163 ^designation[=].use = $sct#900000000000013009
@@ -2261,10 +2280,10 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #163 ^property[+].code = #status
 * #163 ^property[=].valueCode = #deprecated
 * #164 "Etablissements Expérimentaux Accueil de la Petite Enfance"
-* #164 ^property[0].code = #parent
-* #164 ^property[=].valueCode = #5101
-* #164 ^property[+].code = #niveau
+* #164 ^property[0].code = #niveau
 * #164 ^property[=].valueInteger =  4
+* #164 ^property[+].code = #parent
+* #164 ^property[=].valueCode = #5101
 * #164 ^designation[0].language = #fr-FR
 * #164 ^designation[=].use.system = "http://snomed.info/sct"
 * #164 ^designation[=].use = $sct#900000000000013009
@@ -2284,10 +2303,10 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #164 ^property[+].code = #status
 * #164 ^property[=].valueCode = #deprecated
 * #165 "Appartement de Coordination Thérapeutique (A.C.T.)"
-* #165 ^property[0].code = #parent
-* #165 ^property[=].valueCode = #4604
-* #165 ^property[+].code = #niveau
+* #165 ^property[0].code = #niveau
 * #165 ^property[=].valueInteger =  4
+* #165 ^property[+].code = #parent
+* #165 ^property[=].valueCode = #4604
 * #165 ^designation[0].language = #fr-FR
 * #165 ^designation[=].use.system = "http://snomed.info/sct"
 * #165 ^designation[=].use = $sct#900000000000013009
@@ -2303,10 +2322,10 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #165 ^property[+].code = #status
 * #165 ^property[=].valueCode = #active
 * #166 "Etablissement d'Accueil Mère-Enfant"
-* #166 ^property[0].code = #parent
-* #166 ^property[=].valueCode = #4501
-* #166 ^property[+].code = #niveau
+* #166 ^property[0].code = #niveau
 * #166 ^property[=].valueInteger =  4
+* #166 ^property[+].code = #parent
+* #166 ^property[=].valueCode = #4501
 * #166 ^designation[0].language = #fr-FR
 * #166 ^designation[=].use.system = "http://snomed.info/sct"
 * #166 ^designation[=].use = $sct#900000000000013009
@@ -2318,10 +2337,10 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #166 ^property[+].code = #status
 * #166 ^property[=].valueCode = #active
 * #167 "Crèche Collective"
-* #167 ^property[0].code = #parent
-* #167 ^property[=].valueCode = #5101
-* #167 ^property[+].code = #niveau
+* #167 ^property[0].code = #niveau
 * #167 ^property[=].valueInteger =  4
+* #167 ^property[+].code = #parent
+* #167 ^property[=].valueCode = #5101
 * #167 ^property[+].code = #dateValid
 * #167 ^property[=].valueDateTime = "1979-01-01T00:00:00+01:00"
 * #167 ^property[+].code = #dateFin
@@ -2333,10 +2352,10 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #167 ^property[+].code = #status
 * #167 ^property[=].valueCode = #deprecated
 * #168 "Service Accueil Familial pour la Petite Enfance"
-* #168 ^property[0].code = #parent
-* #168 ^property[=].valueCode = #5101
-* #168 ^property[+].code = #niveau
+* #168 ^property[0].code = #niveau
 * #168 ^property[=].valueInteger =  4
+* #168 ^property[+].code = #parent
+* #168 ^property[=].valueCode = #5101
 * #168 ^designation[0].language = #fr-FR
 * #168 ^designation[=].use.system = "http://snomed.info/sct"
 * #168 ^designation[=].use = $sct#900000000000013009
@@ -2352,10 +2371,10 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #168 ^property[+].code = #status
 * #168 ^property[=].valueCode = #deprecated
 * #169 "Crèche Multi Accueil Collectif et Familial"
-* #169 ^property[0].code = #parent
-* #169 ^property[=].valueCode = #5101
-* #169 ^property[+].code = #niveau
+* #169 ^property[0].code = #niveau
 * #169 ^property[=].valueInteger =  4
+* #169 ^property[+].code = #parent
+* #169 ^property[=].valueCode = #5101
 * #169 ^designation[0].language = #fr-FR
 * #169 ^designation[=].use.system = "http://snomed.info/sct"
 * #169 ^designation[=].use = $sct#900000000000013009
@@ -2375,10 +2394,10 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #169 ^property[+].code = #status
 * #169 ^property[=].valueCode = #deprecated
 * #170 "Halte Garderie"
-* #170 ^property[0].code = #parent
-* #170 ^property[=].valueCode = #5101
-* #170 ^property[+].code = #niveau
+* #170 ^property[0].code = #niveau
 * #170 ^property[=].valueInteger =  4
+* #170 ^property[+].code = #parent
+* #170 ^property[=].valueCode = #5101
 * #170 ^designation[0].language = #fr-FR
 * #170 ^designation[=].use.system = "http://snomed.info/sct"
 * #170 ^designation[=].use = $sct#900000000000013009
@@ -2394,10 +2413,10 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #170 ^property[+].code = #status
 * #170 ^property[=].valueCode = #deprecated
 * #171 "Garderie et Jardin d'Enfants"
-* #171 ^property[0].code = #parent
-* #171 ^property[=].valueCode = #5101
-* #171 ^property[+].code = #niveau
+* #171 ^property[0].code = #niveau
 * #171 ^property[=].valueInteger =  4
+* #171 ^property[+].code = #parent
+* #171 ^property[=].valueCode = #5101
 * #171 ^designation[0].language = #fr-FR
 * #171 ^designation[=].use.system = "http://snomed.info/sct"
 * #171 ^designation[=].use = $sct#900000000000013009
@@ -2417,10 +2436,10 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #171 ^property[+].code = #status
 * #171 ^property[=].valueCode = #deprecated
 * #172 "Pouponnière à Caractère Social"
-* #172 ^property[0].code = #parent
-* #172 ^property[=].valueCode = #4501
-* #172 ^property[+].code = #niveau
+* #172 ^property[0].code = #niveau
 * #172 ^property[=].valueInteger =  4
+* #172 ^property[+].code = #parent
+* #172 ^property[=].valueCode = #4501
 * #172 ^designation[0].language = #fr-FR
 * #172 ^designation[=].use.system = "http://snomed.info/sct"
 * #172 ^designation[=].use = $sct#900000000000013009
@@ -2432,10 +2451,10 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #172 ^property[+].code = #status
 * #172 ^property[=].valueCode = #active
 * #173 "Pouponnière à Caractère Sanitaire"
-* #173 ^property[0].code = #parent
-* #173 ^property[=].valueCode = #1112
-* #173 ^property[+].code = #niveau
+* #173 ^property[0].code = #niveau
 * #173 ^property[=].valueInteger =  4
+* #173 ^property[+].code = #parent
+* #173 ^property[=].valueCode = #1112
 * #173 ^designation[0].language = #fr-FR
 * #173 ^designation[=].use.system = "http://snomed.info/sct"
 * #173 ^designation[=].use = $sct#900000000000013009
@@ -2451,10 +2470,10 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #173 ^property[+].code = #status
 * #173 ^property[=].valueCode = #deprecated
 * #174 "Etablissement d'Accueil Collectif Régulier et Occasionnel"
-* #174 ^property[0].code = #parent
-* #174 ^property[=].valueCode = #5101
-* #174 ^property[+].code = #niveau
+* #174 ^property[0].code = #niveau
 * #174 ^property[=].valueInteger =  4
+* #174 ^property[+].code = #parent
+* #174 ^property[=].valueCode = #5101
 * #174 ^designation[0].language = #fr-FR
 * #174 ^designation[=].use.system = "http://snomed.info/sct"
 * #174 ^designation[=].use = $sct#900000000000013009
@@ -2470,10 +2489,10 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #174 ^property[+].code = #status
 * #174 ^property[=].valueCode = #deprecated
 * #175 "Foyer de l'Enfance"
-* #175 ^property[0].code = #parent
-* #175 ^property[=].valueCode = #4501
-* #175 ^property[+].code = #niveau
+* #175 ^property[0].code = #niveau
 * #175 ^property[=].valueInteger =  4
+* #175 ^property[+].code = #parent
+* #175 ^property[=].valueCode = #4501
 * #175 ^property[+].code = #dateValid
 * #175 ^property[=].valueDateTime = "1979-01-01T00:00:00+01:00"
 * #175 ^property[+].code = #dateMaj
@@ -2481,10 +2500,10 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #175 ^property[+].code = #status
 * #175 ^property[=].valueCode = #active
 * #176 "Village d'Enfants"
-* #176 ^property[0].code = #parent
-* #176 ^property[=].valueCode = #4501
-* #176 ^property[+].code = #niveau
+* #176 ^property[0].code = #niveau
 * #176 ^property[=].valueInteger =  4
+* #176 ^property[+].code = #parent
+* #176 ^property[=].valueCode = #4501
 * #176 ^property[+].code = #dateValid
 * #176 ^property[=].valueDateTime = "1979-01-01T00:00:00+01:00"
 * #176 ^property[+].code = #dateMaj
@@ -2492,10 +2511,10 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #176 ^property[+].code = #status
 * #176 ^property[=].valueCode = #active
 * #177 "Maison d'Enfants à Caractère Social"
-* #177 ^property[0].code = #parent
-* #177 ^property[=].valueCode = #4501
-* #177 ^property[+].code = #niveau
+* #177 ^property[0].code = #niveau
 * #177 ^property[=].valueInteger =  4
+* #177 ^property[+].code = #parent
+* #177 ^property[=].valueCode = #4501
 * #177 ^designation[0].language = #fr-FR
 * #177 ^designation[=].use.system = "http://snomed.info/sct"
 * #177 ^designation[=].use = $sct#900000000000013009
@@ -2507,10 +2526,10 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #177 ^property[+].code = #status
 * #177 ^property[=].valueCode = #active
 * #178 "Ctre.Accueil- Accomp.Réduc.Risq.Usag. Drogues (C.A.A.R.U.D.)"
-* #178 ^property[0].code = #parent
-* #178 ^property[=].valueCode = #4604
-* #178 ^property[+].code = #niveau
+* #178 ^property[0].code = #niveau
 * #178 ^property[=].valueInteger =  4
+* #178 ^property[+].code = #parent
+* #178 ^property[=].valueCode = #4604
 * #178 ^designation[0].language = #fr-FR
 * #178 ^designation[=].use.system = "http://snomed.info/sct"
 * #178 ^designation[=].use = $sct#900000000000013009
@@ -2526,10 +2545,10 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #178 ^property[+].code = #status
 * #178 ^property[=].valueCode = #active
 * #179 "Maison d'Enfants à Caractère Sanitaire Permanente"
-* #179 ^property[0].code = #parent
-* #179 ^property[=].valueCode = #1112
-* #179 ^property[+].code = #niveau
+* #179 ^property[0].code = #niveau
 * #179 ^property[=].valueInteger =  4
+* #179 ^property[+].code = #parent
+* #179 ^property[=].valueCode = #1112
 * #179 ^designation[0].language = #fr-FR
 * #179 ^designation[=].use.system = "http://snomed.info/sct"
 * #179 ^designation[=].use = $sct#900000000000013009
@@ -2549,10 +2568,10 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #179 ^property[+].code = #status
 * #179 ^property[=].valueCode = #deprecated
 * #180 "Lits Halte Soins Santé (L.H.S.S.)"
-* #180 ^property[0].code = #parent
-* #180 ^property[=].valueCode = #4604
-* #180 ^property[+].code = #niveau
+* #180 ^property[0].code = #niveau
 * #180 ^property[=].valueInteger =  4
+* #180 ^property[+].code = #parent
+* #180 ^property[=].valueCode = #4604
 * #180 ^designation[0].language = #fr-FR
 * #180 ^designation[=].use.system = "http://snomed.info/sct"
 * #180 ^designation[=].use = $sct#900000000000013009
@@ -2568,10 +2587,10 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #180 ^property[+].code = #status
 * #180 ^property[=].valueCode = #active
 * #181 "Maison Familiale de Vacances"
-* #181 ^property[0].code = #parent
-* #181 ^property[=].valueCode = #5103
-* #181 ^property[+].code = #niveau
+* #181 ^property[0].code = #niveau
 * #181 ^property[=].valueInteger =  4
+* #181 ^property[+].code = #parent
+* #181 ^property[=].valueCode = #5103
 * #181 ^designation[0].language = #fr-FR
 * #181 ^designation[=].use.system = "http://snomed.info/sct"
 * #181 ^designation[=].use = $sct#900000000000013009
@@ -2587,10 +2606,10 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #181 ^property[+].code = #status
 * #181 ^property[=].valueCode = #deprecated
 * #182 "Service d'Éducation Spéciale et de Soins à Domicile"
-* #182 ^property[0].code = #parent
-* #182 ^property[=].valueCode = #4106
-* #182 ^property[+].code = #niveau
+* #182 ^property[0].code = #niveau
 * #182 ^property[=].valueInteger =  4
+* #182 ^property[+].code = #parent
+* #182 ^property[=].valueCode = #4106
 * #182 ^designation[0].language = #fr-FR
 * #182 ^designation[=].use.system = "http://snomed.info/sct"
 * #182 ^designation[=].use = $sct#900000000000013009
@@ -2606,10 +2625,10 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #182 ^property[+].code = #status
 * #182 ^property[=].valueCode = #active
 * #183 "Institut Médico-Educatif (I.M.E.)"
-* #183 ^property[0].code = #parent
-* #183 ^property[=].valueCode = #4101
-* #183 ^property[+].code = #niveau
+* #183 ^property[0].code = #niveau
 * #183 ^property[=].valueInteger =  4
+* #183 ^property[+].code = #parent
+* #183 ^property[=].valueCode = #4101
 * #183 ^designation[0].language = #fr-FR
 * #183 ^designation[=].use.system = "http://snomed.info/sct"
 * #183 ^designation[=].use = $sct#900000000000013009
@@ -2625,10 +2644,10 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #183 ^property[+].code = #status
 * #183 ^property[=].valueCode = #active
 * #184 "Institut Médico-Pédagogique (I.M.P.)"
-* #184 ^property[0].code = #parent
-* #184 ^property[=].valueCode = #4101
-* #184 ^property[+].code = #niveau
+* #184 ^property[0].code = #niveau
 * #184 ^property[=].valueInteger =  4
+* #184 ^property[+].code = #parent
+* #184 ^property[=].valueCode = #4101
 * #184 ^designation[0].language = #fr-FR
 * #184 ^designation[=].use.system = "http://snomed.info/sct"
 * #184 ^designation[=].use = $sct#900000000000013009
@@ -2648,10 +2667,10 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #184 ^property[+].code = #status
 * #184 ^property[=].valueCode = #deprecated
 * #185 "Institut Médico-Professionnel (I.M.Pro.)"
-* #185 ^property[0].code = #parent
-* #185 ^property[=].valueCode = #4101
-* #185 ^property[+].code = #niveau
+* #185 ^property[0].code = #niveau
 * #185 ^property[=].valueInteger =  4
+* #185 ^property[+].code = #parent
+* #185 ^property[=].valueCode = #4101
 * #185 ^designation[0].language = #fr-FR
 * #185 ^designation[=].use.system = "http://snomed.info/sct"
 * #185 ^designation[=].use = $sct#900000000000013009
@@ -2671,10 +2690,10 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #185 ^property[+].code = #status
 * #185 ^property[=].valueCode = #deprecated
 * #186 "Institut Thérapeutique Éducatif et Pédagogique (I.T.E.P.)"
-* #186 ^property[0].code = #parent
-* #186 ^property[=].valueCode = #4102
-* #186 ^property[+].code = #niveau
+* #186 ^property[0].code = #niveau
 * #186 ^property[=].valueInteger =  4
+* #186 ^property[+].code = #parent
+* #186 ^property[=].valueCode = #4102
 * #186 ^designation[0].language = #fr-FR
 * #186 ^designation[=].use.system = "http://snomed.info/sct"
 * #186 ^designation[=].use = $sct#900000000000013009
@@ -2690,10 +2709,10 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #186 ^property[+].code = #status
 * #186 ^property[=].valueCode = #active
 * #188 "Etablissement pour Enfants ou Adolescents Polyhandicapés"
-* #188 ^property[0].code = #parent
-* #188 ^property[=].valueCode = #4101
-* #188 ^property[+].code = #niveau
+* #188 ^property[0].code = #niveau
 * #188 ^property[=].valueInteger =  4
+* #188 ^property[+].code = #parent
+* #188 ^property[=].valueCode = #4101
 * #188 ^designation[0].language = #fr-FR
 * #188 ^designation[=].use.system = "http://snomed.info/sct"
 * #188 ^designation[=].use = $sct#900000000000013009
@@ -2705,10 +2724,10 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #188 ^property[+].code = #status
 * #188 ^property[=].valueCode = #active
 * #189 "Centre Médico-Psycho-Pédagogique (C.M.P.P.)"
-* #189 ^property[0].code = #parent
-* #189 ^property[=].valueCode = #4106
-* #189 ^property[+].code = #niveau
+* #189 ^property[0].code = #niveau
 * #189 ^property[=].valueInteger =  4
+* #189 ^property[+].code = #parent
+* #189 ^property[=].valueCode = #4106
 * #189 ^designation[0].language = #fr-FR
 * #189 ^designation[=].use.system = "http://snomed.info/sct"
 * #189 ^designation[=].use = $sct#900000000000013009
@@ -2724,10 +2743,10 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #189 ^property[+].code = #status
 * #189 ^property[=].valueCode = #active
 * #190 "Centre Action Médico-Sociale Précoce (C.A.M.S.P.)"
-* #190 ^property[0].code = #parent
-* #190 ^property[=].valueCode = #4106
-* #190 ^property[+].code = #niveau
+* #190 ^property[0].code = #niveau
 * #190 ^property[=].valueInteger =  4
+* #190 ^property[+].code = #parent
+* #190 ^property[=].valueCode = #4106
 * #190 ^designation[0].language = #fr-FR
 * #190 ^designation[=].use.system = "http://snomed.info/sct"
 * #190 ^designation[=].use = $sct#900000000000013009
@@ -2743,10 +2762,10 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #190 ^property[+].code = #status
 * #190 ^property[=].valueCode = #active
 * #191 "Etablissement pour Déficients Moteurs Cérébraux"
-* #191 ^property[0].code = #parent
-* #191 ^property[=].valueCode = #4103
-* #191 ^property[+].code = #niveau
+* #191 ^property[0].code = #niveau
 * #191 ^property[=].valueInteger =  4
+* #191 ^property[+].code = #parent
+* #191 ^property[=].valueCode = #4103
 * #191 ^designation[0].language = #fr-FR
 * #191 ^designation[=].use.system = "http://snomed.info/sct"
 * #191 ^designation[=].use = $sct#900000000000013009
@@ -2762,10 +2781,10 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #191 ^property[+].code = #status
 * #191 ^property[=].valueCode = #deprecated
 * #192 "Institut d'éducation motrice"
-* #192 ^property[0].code = #parent
-* #192 ^property[=].valueCode = #4103
-* #192 ^property[+].code = #niveau
+* #192 ^property[0].code = #niveau
 * #192 ^property[=].valueInteger =  4
+* #192 ^property[+].code = #parent
+* #192 ^property[=].valueCode = #4103
 * #192 ^designation[0].language = #fr-FR
 * #192 ^designation[=].use.system = "http://snomed.info/sct"
 * #192 ^designation[=].use = $sct#900000000000013009
@@ -2777,10 +2796,10 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #192 ^property[+].code = #status
 * #192 ^property[=].valueCode = #active
 * #193 "Etablissement pour Déficients Moteurs et Moteurs Cérébraux"
-* #193 ^property[0].code = #parent
-* #193 ^property[=].valueCode = #4103
-* #193 ^property[+].code = #niveau
+* #193 ^property[0].code = #niveau
 * #193 ^property[=].valueInteger =  4
+* #193 ^property[+].code = #parent
+* #193 ^property[=].valueCode = #4103
 * #193 ^designation[0].language = #fr-FR
 * #193 ^designation[=].use.system = "http://snomed.info/sct"
 * #193 ^designation[=].use = $sct#900000000000013009
@@ -2796,10 +2815,10 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #193 ^property[+].code = #status
 * #193 ^property[=].valueCode = #deprecated
 * #194 "Institut pour Déficients Visuels"
-* #194 ^property[0].code = #parent
-* #194 ^property[=].valueCode = #4104
-* #194 ^property[+].code = #niveau
+* #194 ^property[0].code = #niveau
 * #194 ^property[=].valueInteger =  4
+* #194 ^property[+].code = #parent
+* #194 ^property[=].valueCode = #4104
 * #194 ^designation[0].language = #fr-FR
 * #194 ^designation[=].use.system = "http://snomed.info/sct"
 * #194 ^designation[=].use = $sct#900000000000013009
@@ -2811,10 +2830,10 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #194 ^property[+].code = #status
 * #194 ^property[=].valueCode = #active
 * #195 "Institut pour Déficients Auditifs"
-* #195 ^property[0].code = #parent
-* #195 ^property[=].valueCode = #4104
-* #195 ^property[+].code = #niveau
+* #195 ^property[0].code = #niveau
 * #195 ^property[=].valueInteger =  4
+* #195 ^property[+].code = #parent
+* #195 ^property[=].valueCode = #4104
 * #195 ^designation[0].language = #fr-FR
 * #195 ^designation[=].use.system = "http://snomed.info/sct"
 * #195 ^designation[=].use = $sct#900000000000013009
@@ -2826,10 +2845,10 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #195 ^property[+].code = #status
 * #195 ^property[=].valueCode = #active
 * #196 "Institut d'Education Sensorielle Sourd-Aveugle"
-* #196 ^property[0].code = #parent
-* #196 ^property[=].valueCode = #4104
-* #196 ^property[+].code = #niveau
+* #196 ^property[0].code = #niveau
 * #196 ^property[=].valueInteger =  4
+* #196 ^property[+].code = #parent
+* #196 ^property[=].valueCode = #4104
 * #196 ^designation[0].language = #fr-FR
 * #196 ^designation[=].use.system = "http://snomed.info/sct"
 * #196 ^designation[=].use = $sct#900000000000013009
@@ -2845,10 +2864,10 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #196 ^property[+].code = #status
 * #196 ^property[=].valueCode = #active
 * #197 "Centre soins accompagnement prévention addictologie (CSAPA)"
-* #197 ^property[0].code = #parent
-* #197 ^property[=].valueCode = #4604
-* #197 ^property[+].code = #niveau
+* #197 ^property[0].code = #niveau
 * #197 ^property[=].valueInteger =  4
+* #197 ^property[+].code = #parent
+* #197 ^property[=].valueCode = #4604
 * #197 ^designation[0].language = #fr-FR
 * #197 ^designation[=].use.system = "http://snomed.info/sct"
 * #197 ^designation[=].use = $sct#900000000000013009
@@ -2864,10 +2883,10 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #197 ^property[+].code = #status
 * #197 ^property[=].valueCode = #active
 * #198 "Établissement et Service de Préorientation"
-* #198 ^property[0].code = #parent
-* #198 ^property[=].valueCode = #4303
-* #198 ^property[+].code = #niveau
+* #198 ^property[0].code = #niveau
 * #198 ^property[=].valueInteger =  4
+* #198 ^property[+].code = #parent
+* #198 ^property[=].valueCode = #4303
 * #198 ^designation[0].language = #fr-FR
 * #198 ^designation[=].use.system = "http://snomed.info/sct"
 * #198 ^designation[=].use = $sct#900000000000013009
@@ -2879,10 +2898,10 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #198 ^property[+].code = #status
 * #198 ^property[=].valueCode = #active
 * #199 "Hospice"
-* #199 ^property[0].code = #parent
-* #199 ^property[=].valueCode = #4401
-* #199 ^property[+].code = #niveau
+* #199 ^property[0].code = #niveau
 * #199 ^property[=].valueInteger =  4
+* #199 ^property[+].code = #parent
+* #199 ^property[=].valueCode = #4401
 * #199 ^property[+].code = #dateValid
 * #199 ^property[=].valueDateTime = "1979-01-01T00:00:00+01:00"
 * #199 ^property[+].code = #dateFin
@@ -2894,10 +2913,10 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #199 ^property[+].code = #status
 * #199 ^property[=].valueCode = #deprecated
 * #200 "Maison de Retraite"
-* #200 ^property[0].code = #parent
-* #200 ^property[=].valueCode = #4401
-* #200 ^property[+].code = #niveau
+* #200 ^property[0].code = #niveau
 * #200 ^property[=].valueInteger =  4
+* #200 ^property[+].code = #parent
+* #200 ^property[=].valueCode = #4401
 * #200 ^property[+].code = #dateValid
 * #200 ^property[=].valueDateTime = "1979-01-01T00:00:00+01:00"
 * #200 ^property[+].code = #dateFin
@@ -2909,10 +2928,10 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #200 ^property[+].code = #status
 * #200 ^property[=].valueCode = #deprecated
 * #202 "Résidences autonomie"
-* #202 ^property[0].code = #parent
-* #202 ^property[=].valueCode = #4401
-* #202 ^property[+].code = #niveau
+* #202 ^property[0].code = #niveau
 * #202 ^property[=].valueInteger =  4
+* #202 ^property[+].code = #parent
+* #202 ^property[=].valueCode = #4401
 * #202 ^property[+].code = #dateValid
 * #202 ^property[=].valueDateTime = "1979-01-01T00:00:00+01:00"
 * #202 ^property[+].code = #dateMaj
@@ -2920,10 +2939,10 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #202 ^property[+].code = #status
 * #202 ^property[=].valueCode = #active
 * #205 "Foyer Club Restaurant"
-* #205 ^property[0].code = #parent
-* #205 ^property[=].valueCode = #4403
-* #205 ^property[+].code = #niveau
+* #205 ^property[0].code = #niveau
 * #205 ^property[=].valueInteger =  4
+* #205 ^property[+].code = #parent
+* #205 ^property[=].valueCode = #4403
 * #205 ^designation[0].language = #fr-FR
 * #205 ^designation[=].use.system = "http://snomed.info/sct"
 * #205 ^designation[=].use = $sct#900000000000013009
@@ -2939,10 +2958,10 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #205 ^property[+].code = #status
 * #205 ^property[=].valueCode = #deprecated
 * #207 "Centre de Jour pour Personnes Agées"
-* #207 ^property[0].code = #parent
-* #207 ^property[=].valueCode = #4402
-* #207 ^property[+].code = #niveau
+* #207 ^property[0].code = #niveau
 * #207 ^property[=].valueInteger =  4
+* #207 ^property[+].code = #parent
+* #207 ^property[=].valueCode = #4402
 * #207 ^designation[0].language = #fr-FR
 * #207 ^designation[=].use.system = "http://snomed.info/sct"
 * #207 ^designation[=].use = $sct#900000000000013009
@@ -2958,10 +2977,10 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #207 ^property[+].code = #status
 * #207 ^property[=].valueCode = #active
 * #208 "Service d'Aide Ménagère à Domicile"
-* #208 ^property[0].code = #parent
-* #208 ^property[=].valueCode = #4403
-* #208 ^property[+].code = #niveau
+* #208 ^property[0].code = #niveau
 * #208 ^property[=].valueInteger =  4
+* #208 ^property[+].code = #parent
+* #208 ^property[=].valueCode = #4403
 * #208 ^designation[0].language = #fr-FR
 * #208 ^designation[=].use.system = "http://snomed.info/sct"
 * #208 ^designation[=].use = $sct#900000000000013009
@@ -2981,10 +3000,10 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #208 ^property[+].code = #status
 * #208 ^property[=].valueCode = #deprecated
 * #209 "Service autonomie aide et soins (SAAS)"
-* #209 ^property[0].code = #parent
-* #209 ^property[=].valueCode = #4605
-* #209 ^property[+].code = #niveau
+* #209 ^property[0].code = #niveau
 * #209 ^property[=].valueInteger =  4
+* #209 ^property[+].code = #parent
+* #209 ^property[=].valueCode = #4605
 * #209 ^designation[0].language = #fr-FR
 * #209 ^designation[=].use.system = "http://snomed.info/sct"
 * #209 ^designation[=].use = $sct#900000000000013009
@@ -3000,10 +3019,10 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #209 ^property[+].code = #status
 * #209 ^property[=].valueCode = #active
 * #212 "Alarme Médico-Sociale"
-* #212 ^property[0].code = #parent
-* #212 ^property[=].valueCode = #4403
-* #212 ^property[+].code = #niveau
+* #212 ^property[0].code = #niveau
 * #212 ^property[=].valueInteger =  4
+* #212 ^property[+].code = #parent
+* #212 ^property[=].valueCode = #4403
 * #212 ^designation[0].language = #fr-FR
 * #212 ^designation[=].use.system = "http://snomed.info/sct"
 * #212 ^designation[=].use = $sct#900000000000013009
@@ -3019,10 +3038,10 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #212 ^property[+].code = #status
 * #212 ^property[=].valueCode = #deprecated
 * #213 "Lits d'Accueil Médicalisés (L.A.M.)"
-* #213 ^property[0].code = #parent
-* #213 ^property[=].valueCode = #4604
-* #213 ^property[+].code = #niveau
+* #213 ^property[0].code = #niveau
 * #213 ^property[=].valueInteger =  4
+* #213 ^property[+].code = #parent
+* #213 ^property[=].valueCode = #4604
 * #213 ^designation[0].language = #fr-FR
 * #213 ^designation[=].use.system = "http://snomed.info/sct"
 * #213 ^designation[=].use = $sct#900000000000013009
@@ -3034,10 +3053,10 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #213 ^property[+].code = #status
 * #213 ^property[=].valueCode = #active
 * #214 "Centre Hébergement & Réinsertion Sociale (C.H.R.S.)"
-* #214 ^property[0].code = #parent
-* #214 ^property[=].valueCode = #4601
-* #214 ^property[+].code = #niveau
+* #214 ^property[0].code = #niveau
 * #214 ^property[=].valueInteger =  4
+* #214 ^property[+].code = #parent
+* #214 ^property[=].valueCode = #4601
 * #214 ^designation[0].language = #fr-FR
 * #214 ^designation[=].use.system = "http://snomed.info/sct"
 * #214 ^designation[=].use = $sct#900000000000013009
@@ -3053,10 +3072,10 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #214 ^property[+].code = #status
 * #214 ^property[=].valueCode = #active
 * #215 "Maison Relai"
-* #215 ^property[0].code = #parent
-* #215 ^property[=].valueCode = #4601
-* #215 ^property[+].code = #niveau
+* #215 ^property[0].code = #niveau
 * #215 ^property[=].valueInteger =  4
+* #215 ^property[+].code = #parent
+* #215 ^property[=].valueCode = #4601
 * #215 ^designation[0].language = #fr-FR
 * #215 ^designation[=].use.system = "http://snomed.info/sct"
 * #215 ^designation[=].use = $sct#900000000000013009
@@ -3072,10 +3091,10 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #215 ^property[+].code = #status
 * #215 ^property[=].valueCode = #deprecated
 * #216 "Résidence Hôtelière à Vocation Sociale (R.H.V.S)"
-* #216 ^property[0].code = #parent
-* #216 ^property[=].valueCode = #4601
-* #216 ^property[+].code = #niveau
+* #216 ^property[0].code = #niveau
 * #216 ^property[=].valueInteger =  4
+* #216 ^property[+].code = #parent
+* #216 ^property[=].valueCode = #4601
 * #216 ^designation[0].language = #fr-FR
 * #216 ^designation[=].use.system = "http://snomed.info/sct"
 * #216 ^designation[=].use = $sct#900000000000013009
@@ -3087,10 +3106,10 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #216 ^property[+].code = #status
 * #216 ^property[=].valueCode = #active
 * #217 "Cité de Transit"
-* #217 ^property[0].code = #parent
-* #217 ^property[=].valueCode = #4601
-* #217 ^property[+].code = #niveau
+* #217 ^property[0].code = #niveau
 * #217 ^property[=].valueInteger =  4
+* #217 ^property[+].code = #parent
+* #217 ^property[=].valueCode = #4601
 * #217 ^property[+].code = #dateValid
 * #217 ^property[=].valueDateTime = "1979-01-01T00:00:00+01:00"
 * #217 ^property[+].code = #dateFin
@@ -3102,10 +3121,10 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #217 ^property[+].code = #status
 * #217 ^property[=].valueCode = #deprecated
 * #218 "Aire Station Nomades"
-* #218 ^property[0].code = #parent
-* #218 ^property[=].valueCode = #4602
-* #218 ^property[+].code = #niveau
+* #218 ^property[0].code = #niveau
 * #218 ^property[=].valueInteger =  4
+* #218 ^property[+].code = #parent
+* #218 ^property[=].valueCode = #4602
 * #218 ^property[+].code = #dateValid
 * #218 ^property[=].valueDateTime = "1979-01-01T00:00:00+01:00"
 * #218 ^property[+].code = #dateMaj
@@ -3113,10 +3132,10 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #218 ^property[+].code = #status
 * #218 ^property[=].valueCode = #active
 * #219 "Autre Centre d'Accueil"
-* #219 ^property[0].code = #parent
-* #219 ^property[=].valueCode = #4601
-* #219 ^property[+].code = #niveau
+* #219 ^property[0].code = #niveau
 * #219 ^property[=].valueInteger =  4
+* #219 ^property[+].code = #parent
+* #219 ^property[=].valueCode = #4601
 * #219 ^designation[0].language = #fr-FR
 * #219 ^designation[=].use.system = "http://snomed.info/sct"
 * #219 ^designation[=].use = $sct#900000000000013009
@@ -3128,10 +3147,10 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #219 ^property[+].code = #status
 * #219 ^property[=].valueCode = #active
 * #220 "Centre Social"
-* #220 ^property[0].code = #parent
-* #220 ^property[=].valueCode = #5104
-* #220 ^property[+].code = #niveau
+* #220 ^property[0].code = #niveau
 * #220 ^property[=].valueInteger =  4
+* #220 ^property[+].code = #parent
+* #220 ^property[=].valueCode = #5104
 * #220 ^designation[0].language = #fr-FR
 * #220 ^designation[=].use.system = "http://snomed.info/sct"
 * #220 ^designation[=].use = $sct#900000000000013009
@@ -3143,10 +3162,10 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #220 ^property[+].code = #status
 * #220 ^property[=].valueCode = #active
 * #221 "Bureau d'Aide Psychologique Universitaire (B.A.P.U.)"
-* #221 ^property[0].code = #parent
-* #221 ^property[=].valueCode = #4106
-* #221 ^property[+].code = #niveau
+* #221 ^property[0].code = #niveau
 * #221 ^property[=].valueInteger =  4
+* #221 ^property[+].code = #parent
+* #221 ^property[=].valueCode = #4106
 * #221 ^designation[0].language = #fr-FR
 * #221 ^designation[=].use.system = "http://snomed.info/sct"
 * #221 ^designation[=].use = $sct#900000000000013009
@@ -3162,10 +3181,10 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #221 ^property[+].code = #status
 * #221 ^property[=].valueCode = #active
 * #223 "Protection Maternelle et Infantile (P.M.I.)"
-* #223 ^property[0].code = #parent
-* #223 ^property[=].valueCode = #2202
-* #223 ^property[+].code = #niveau
+* #223 ^property[0].code = #niveau
 * #223 ^property[=].valueInteger =  4
+* #223 ^property[+].code = #parent
+* #223 ^property[=].valueCode = #2202
 * #223 ^designation[0].language = #fr-FR
 * #223 ^designation[=].use.system = "http://snomed.info/sct"
 * #223 ^designation[=].use = $sct#900000000000013009
@@ -3181,10 +3200,10 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #223 ^property[+].code = #status
 * #223 ^property[=].valueCode = #active
 * #224 "Etablissement de Consultation Pré et Post-natale"
-* #224 ^property[0].code = #parent
-* #224 ^property[=].valueCode = #2202
-* #224 ^property[+].code = #niveau
+* #224 ^property[0].code = #niveau
 * #224 ^property[=].valueInteger =  4
+* #224 ^property[+].code = #parent
+* #224 ^property[=].valueCode = #2202
 * #224 ^designation[0].language = #fr-FR
 * #224 ^designation[=].use.system = "http://snomed.info/sct"
 * #224 ^designation[=].use = $sct#900000000000013009
@@ -3196,10 +3215,10 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #224 ^property[+].code = #status
 * #224 ^property[=].valueCode = #active
 * #225 "Consultations de Nourrissons"
-* #225 ^property[0].code = #parent
-* #225 ^property[=].valueCode = #2202
-* #225 ^property[+].code = #niveau
+* #225 ^property[0].code = #niveau
 * #225 ^property[=].valueInteger =  4
+* #225 ^property[+].code = #parent
+* #225 ^property[=].valueCode = #2202
 * #225 ^designation[0].language = #fr-FR
 * #225 ^designation[=].use.system = "http://snomed.info/sct"
 * #225 ^designation[=].use = $sct#900000000000013009
@@ -3215,10 +3234,10 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #225 ^property[+].code = #status
 * #225 ^property[=].valueCode = #deprecated
 * #228 "Centre de Santé Sexuelle"
-* #228 ^property[0].code = #parent
-* #228 ^property[=].valueCode = #2202
-* #228 ^property[+].code = #niveau
+* #228 ^property[0].code = #niveau
 * #228 ^property[=].valueInteger =  4
+* #228 ^property[+].code = #parent
+* #228 ^property[=].valueCode = #2202
 * #228 ^designation[0].language = #fr-FR
 * #228 ^designation[=].use.system = "http://snomed.info/sct"
 * #228 ^designation[=].use = $sct#900000000000013009
@@ -3230,10 +3249,10 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #228 ^property[+].code = #status
 * #228 ^property[=].valueCode = #active
 * #229 "Consultation Problèmes naissance"
-* #229 ^property[0].code = #parent
-* #229 ^property[=].valueCode = #2202
-* #229 ^property[+].code = #niveau
+* #229 ^property[0].code = #niveau
 * #229 ^property[=].valueInteger =  4
+* #229 ^property[+].code = #parent
+* #229 ^property[=].valueCode = #2202
 * #229 ^designation[0].language = #fr-FR
 * #229 ^designation[=].use.system = "http://snomed.info/sct"
 * #229 ^designation[=].use = $sct#900000000000013009
@@ -3249,10 +3268,10 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #229 ^property[+].code = #status
 * #229 ^property[=].valueCode = #deprecated
 * #230 "Etablissement Consultation Protection Infantile"
-* #230 ^property[0].code = #parent
-* #230 ^property[=].valueCode = #2202
-* #230 ^property[+].code = #niveau
+* #230 ^property[0].code = #niveau
 * #230 ^property[=].valueInteger =  4
+* #230 ^property[+].code = #parent
+* #230 ^property[=].valueCode = #2202
 * #230 ^designation[0].language = #fr-FR
 * #230 ^designation[=].use.system = "http://snomed.info/sct"
 * #230 ^designation[=].use = $sct#900000000000013009
@@ -3264,10 +3283,10 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #230 ^property[+].code = #status
 * #230 ^property[=].valueCode = #active
 * #231 "Etablissement Information Consultation Conseil Familial"
-* #231 ^property[0].code = #parent
-* #231 ^property[=].valueCode = #2202
-* #231 ^property[+].code = #niveau
+* #231 ^property[0].code = #niveau
 * #231 ^property[=].valueInteger =  4
+* #231 ^property[+].code = #parent
+* #231 ^property[=].valueCode = #2202
 * #231 ^designation[0].language = #fr-FR
 * #231 ^designation[=].use.system = "http://snomed.info/sct"
 * #231 ^designation[=].use = $sct#900000000000013009
@@ -3283,10 +3302,10 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #231 ^property[+].code = #status
 * #231 ^property[=].valueCode = #active
 * #233 "Lactarium"
-* #233 ^property[0].code = #parent
-* #233 ^property[=].valueCode = #3402
-* #233 ^property[+].code = #niveau
+* #233 ^property[0].code = #niveau
 * #233 ^property[=].valueInteger =  4
+* #233 ^property[+].code = #parent
+* #233 ^property[=].valueCode = #3402
 * #233 ^property[+].code = #dateValid
 * #233 ^property[=].valueDateTime = "1979-01-01T00:00:00+01:00"
 * #233 ^property[+].code = #dateFin
@@ -3298,10 +3317,10 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #233 ^property[+].code = #status
 * #233 ^property[=].valueCode = #deprecated
 * #236 "Centre Placement Familial Socio-Educatif (C.P.F.S.E.)"
-* #236 ^property[0].code = #parent
-* #236 ^property[=].valueCode = #4501
-* #236 ^property[+].code = #niveau
+* #236 ^property[0].code = #niveau
 * #236 ^property[=].valueInteger =  4
+* #236 ^property[+].code = #parent
+* #236 ^property[=].valueCode = #4501
 * #236 ^designation[0].language = #fr-FR
 * #236 ^designation[=].use.system = "http://snomed.info/sct"
 * #236 ^designation[=].use = $sct#900000000000013009
@@ -3317,10 +3336,10 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #236 ^property[+].code = #status
 * #236 ^property[=].valueCode = #active
 * #237 "Centre de Placement Familial Spécialisé"
-* #237 ^property[0].code = #parent
-* #237 ^property[=].valueCode = #4301
-* #237 ^property[+].code = #niveau
+* #237 ^property[0].code = #niveau
 * #237 ^property[=].valueInteger =  4
+* #237 ^property[+].code = #parent
+* #237 ^property[=].valueCode = #4301
 * #237 ^designation[0].language = #fr-FR
 * #237 ^designation[=].use.system = "http://snomed.info/sct"
 * #237 ^designation[=].use = $sct#900000000000013009
@@ -3336,10 +3355,10 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #237 ^property[+].code = #status
 * #237 ^property[=].valueCode = #deprecated
 * #238 "Centre d'Accueil Familial Spécialisé"
-* #238 ^property[0].code = #parent
-* #238 ^property[=].valueCode = #4105
-* #238 ^property[+].code = #niveau
+* #238 ^property[0].code = #niveau
 * #238 ^property[=].valueInteger =  4
+* #238 ^property[+].code = #parent
+* #238 ^property[=].valueCode = #4105
 * #238 ^designation[0].language = #fr-FR
 * #238 ^designation[=].use.system = "http://snomed.info/sct"
 * #238 ^designation[=].use = $sct#900000000000013009
@@ -3351,10 +3370,10 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #238 ^property[+].code = #status
 * #238 ^property[=].valueCode = #active
 * #241 "Établissement de Placement"
-* #241 ^property[0].code = #parent
-* #241 ^property[=].valueCode = #4502
-* #241 ^property[+].code = #niveau
+* #241 ^property[0].code = #niveau
 * #241 ^property[=].valueInteger =  4
+* #241 ^property[+].code = #parent
+* #241 ^property[=].valueCode = #4502
 * #241 ^property[+].code = #dateValid
 * #241 ^property[=].valueDateTime = "1979-01-01T00:00:00+01:00"
 * #241 ^property[+].code = #dateMaj
@@ -3362,10 +3381,10 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #241 ^property[+].code = #status
 * #241 ^property[=].valueCode = #active
 * #242 "Service d’Activité de Jour"
-* #242 ^property[0].code = #parent
-* #242 ^property[=].valueCode = #4502
-* #242 ^property[+].code = #niveau
+* #242 ^property[0].code = #niveau
 * #242 ^property[=].valueInteger =  4
+* #242 ^property[+].code = #parent
+* #242 ^property[=].valueCode = #4502
 * #242 ^property[+].code = #dateValid
 * #242 ^property[=].valueDateTime = "2024-10-25T12:00:00+01:00"
 * #242 ^property[+].code = #dateMaj
@@ -3373,10 +3392,10 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #242 ^property[+].code = #status
 * #242 ^property[=].valueCode = #active
 * #246 "Etablissement et Service d'Aide par le Travail (E.S.A.T.)"
-* #246 ^property[0].code = #parent
-* #246 ^property[=].valueCode = #4302
-* #246 ^property[+].code = #niveau
+* #246 ^property[0].code = #niveau
 * #246 ^property[=].valueInteger =  4
+* #246 ^property[+].code = #parent
+* #246 ^property[=].valueCode = #4302
 * #246 ^designation[0].language = #fr-FR
 * #246 ^designation[=].use.system = "http://snomed.info/sct"
 * #246 ^designation[=].use = $sct#900000000000013009
@@ -3392,10 +3411,10 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #246 ^property[+].code = #status
 * #246 ^property[=].valueCode = #active
 * #247 "Entreprise adaptée"
-* #247 ^property[0].code = #parent
-* #247 ^property[=].valueCode = #4302
-* #247 ^property[+].code = #niveau
+* #247 ^property[0].code = #niveau
 * #247 ^property[=].valueInteger =  4
+* #247 ^property[+].code = #parent
+* #247 ^property[=].valueCode = #4302
 * #247 ^property[+].code = #dateValid
 * #247 ^property[=].valueDateTime = "1979-01-01T00:00:00+01:00"
 * #247 ^property[+].code = #dateMaj
@@ -3403,10 +3422,10 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #247 ^property[+].code = #status
 * #247 ^property[=].valueCode = #active
 * #249 "Établissement et Service de Réadaptation Professionnelle"
-* #249 ^property[0].code = #parent
-* #249 ^property[=].valueCode = #4303
-* #249 ^property[+].code = #niveau
+* #249 ^property[0].code = #niveau
 * #249 ^property[=].valueInteger =  4
+* #249 ^property[+].code = #parent
+* #249 ^property[=].valueCode = #4303
 * #249 ^designation[0].language = #fr-FR
 * #249 ^designation[=].use.system = "http://snomed.info/sct"
 * #249 ^designation[=].use = $sct#900000000000013009
@@ -3418,10 +3437,10 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #249 ^property[+].code = #status
 * #249 ^property[=].valueCode = #active
 * #250 "Centre Réentrainement au travail"
-* #250 ^property[0].code = #parent
-* #250 ^property[=].valueCode = #4303
-* #250 ^property[+].code = #niveau
+* #250 ^property[0].code = #niveau
 * #250 ^property[=].valueInteger =  4
+* #250 ^property[+].code = #parent
+* #250 ^property[=].valueCode = #4303
 * #250 ^designation[0].language = #fr-FR
 * #250 ^designation[=].use.system = "http://snomed.info/sct"
 * #250 ^designation[=].use = $sct#900000000000013009
@@ -3441,10 +3460,10 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #250 ^property[+].code = #status
 * #250 ^property[=].valueCode = #deprecated
 * #251 "Maison Vacances pour Handicapés"
-* #251 ^property[0].code = #parent
-* #251 ^property[=].valueCode = #4301
-* #251 ^property[+].code = #niveau
+* #251 ^property[0].code = #niveau
 * #251 ^property[=].valueInteger =  4
+* #251 ^property[+].code = #parent
+* #251 ^property[=].valueCode = #4301
 * #251 ^designation[0].language = #fr-FR
 * #251 ^designation[=].use.system = "http://snomed.info/sct"
 * #251 ^designation[=].use = $sct#900000000000013009
@@ -3464,10 +3483,10 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #251 ^property[+].code = #status
 * #251 ^property[=].valueCode = #deprecated
 * #252 "Foyer Hébergement Adultes Handicapés"
-* #252 ^property[0].code = #parent
-* #252 ^property[=].valueCode = #4301
-* #252 ^property[+].code = #niveau
+* #252 ^property[0].code = #niveau
 * #252 ^property[=].valueInteger =  4
+* #252 ^property[+].code = #parent
+* #252 ^property[=].valueCode = #4301
 * #252 ^designation[0].language = #fr-FR
 * #252 ^designation[=].use.system = "http://snomed.info/sct"
 * #252 ^designation[=].use = $sct#900000000000013009
@@ -3487,10 +3506,10 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #252 ^property[+].code = #status
 * #252 ^property[=].valueCode = #deprecated
 * #253 "Foyer d'Accueil Polyvalent pour Adultes Handicapés"
-* #253 ^property[0].code = #parent
-* #253 ^property[=].valueCode = #4301
-* #253 ^property[+].code = #niveau
+* #253 ^property[0].code = #niveau
 * #253 ^property[=].valueInteger =  4
+* #253 ^property[+].code = #parent
+* #253 ^property[=].valueCode = #4301
 * #253 ^designation[0].language = #fr-FR
 * #253 ^designation[=].use.system = "http://snomed.info/sct"
 * #253 ^designation[=].use = $sct#900000000000013009
@@ -3506,10 +3525,10 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #253 ^property[+].code = #status
 * #253 ^property[=].valueCode = #deprecated
 * #255 "Maison d'Accueil Spécialisée (M.A.S.)"
-* #255 ^property[0].code = #parent
-* #255 ^property[=].valueCode = #4301
-* #255 ^property[+].code = #niveau
+* #255 ^property[0].code = #niveau
 * #255 ^property[=].valueInteger =  4
+* #255 ^property[+].code = #parent
+* #255 ^property[=].valueCode = #4301
 * #255 ^designation[0].language = #fr-FR
 * #255 ^designation[=].use.system = "http://snomed.info/sct"
 * #255 ^designation[=].use = $sct#900000000000013009
@@ -3525,10 +3544,10 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #255 ^property[+].code = #status
 * #255 ^property[=].valueCode = #active
 * #256 "Foyer Travailleurs Migrants non transformé en Résidence Soc."
-* #256 ^property[0].code = #parent
-* #256 ^property[=].valueCode = #4602
-* #256 ^property[+].code = #niveau
+* #256 ^property[0].code = #niveau
 * #256 ^property[=].valueInteger =  4
+* #256 ^property[+].code = #parent
+* #256 ^property[=].valueCode = #4602
 * #256 ^designation[0].language = #fr-FR
 * #256 ^designation[=].use.system = "http://snomed.info/sct"
 * #256 ^designation[=].use = $sct#900000000000013009
@@ -3544,10 +3563,10 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #256 ^property[+].code = #status
 * #256 ^property[=].valueCode = #active
 * #257 "Foyers de jeunes travailleurs"
-* #257 ^property[0].code = #parent
-* #257 ^property[=].valueCode = #4602
-* #257 ^property[+].code = #niveau
+* #257 ^property[0].code = #niveau
 * #257 ^property[=].valueInteger =  4
+* #257 ^property[+].code = #parent
+* #257 ^property[=].valueCode = #4602
 * #257 ^designation[0].language = #fr-FR
 * #257 ^designation[=].use.system = "http://snomed.info/sct"
 * #257 ^designation[=].use = $sct#900000000000013009
@@ -3559,10 +3578,10 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #257 ^property[+].code = #status
 * #257 ^property[=].valueCode = #active
 * #258 "Maisons Relais - Pensions de Famille"
-* #258 ^property[0].code = #parent
-* #258 ^property[=].valueCode = #4607
-* #258 ^property[+].code = #niveau
+* #258 ^property[0].code = #niveau
 * #258 ^property[=].valueInteger =  4
+* #258 ^property[+].code = #parent
+* #258 ^property[=].valueCode = #4607
 * #258 ^designation[0].language = #fr-FR
 * #258 ^designation[=].use.system = "http://snomed.info/sct"
 * #258 ^designation[=].use = $sct#900000000000013009
@@ -3578,10 +3597,10 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #258 ^property[+].code = #status
 * #258 ^property[=].valueCode = #active
 * #259 "Autres résidences sociales"
-* #259 ^property[0].code = #parent
-* #259 ^property[=].valueCode = #4607
-* #259 ^property[+].code = #niveau
+* #259 ^property[0].code = #niveau
 * #259 ^property[=].valueInteger =  4
+* #259 ^property[+].code = #parent
+* #259 ^property[=].valueCode = #4607
 * #259 ^property[+].code = #dateValid
 * #259 ^property[=].valueDateTime = "2009-01-21T00:00:00+01:00"
 * #259 ^property[+].code = #dateMaj
@@ -3589,10 +3608,10 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #259 ^property[+].code = #status
 * #259 ^property[=].valueCode = #active
 * #261 "D.D.A.S.S."
-* #261 ^property[0].code = #parent
-* #261 ^property[=].valueCode = #0101
-* #261 ^property[+].code = #niveau
+* #261 ^property[0].code = #niveau
 * #261 ^property[=].valueInteger =  4
+* #261 ^property[+].code = #parent
+* #261 ^property[=].valueCode = #0101
 * #261 ^designation[0].language = #fr-FR
 * #261 ^designation[=].use.system = "http://snomed.info/sct"
 * #261 ^designation[=].use = $sct#900000000000013009
@@ -3608,10 +3627,10 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #261 ^property[+].code = #status
 * #261 ^property[=].valueCode = #deprecated
 * #262 "Etablissement Régional d'Enseignement Adapté"
-* #262 ^property[0].code = #parent
-* #262 ^property[=].valueCode = #4202
-* #262 ^property[+].code = #niveau
+* #262 ^property[0].code = #niveau
 * #262 ^property[=].valueInteger =  4
+* #262 ^property[+].code = #parent
+* #262 ^property[=].valueCode = #4202
 * #262 ^designation[0].language = #fr-FR
 * #262 ^designation[=].use.system = "http://snomed.info/sct"
 * #262 ^designation[=].use = $sct#900000000000013009
@@ -3627,10 +3646,10 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #262 ^property[+].code = #status
 * #262 ^property[=].valueCode = #deprecated
 * #265 "Section Education Spéciale Classe Atelier"
-* #265 ^property[0].code = #parent
-* #265 ^property[=].valueCode = #4202
-* #265 ^property[+].code = #niveau
+* #265 ^property[0].code = #niveau
 * #265 ^property[=].valueInteger =  4
+* #265 ^property[+].code = #parent
+* #265 ^property[=].valueCode = #4202
 * #265 ^designation[0].language = #fr-FR
 * #265 ^designation[=].use.system = "http://snomed.info/sct"
 * #265 ^designation[=].use = $sct#900000000000013009
@@ -3650,10 +3669,10 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #265 ^property[+].code = #status
 * #265 ^property[=].valueCode = #deprecated
 * #266 "Dispensaire Antivénérien"
-* #266 ^property[0].code = #parent
-* #266 ^property[=].valueCode = #2201
-* #266 ^property[+].code = #niveau
+* #266 ^property[0].code = #niveau
 * #266 ^property[=].valueInteger =  4
+* #266 ^property[+].code = #parent
+* #266 ^property[=].valueCode = #2201
 * #266 ^designation[0].language = #fr-FR
 * #266 ^designation[=].use.system = "http://snomed.info/sct"
 * #266 ^designation[=].use = $sct#900000000000013009
@@ -3665,10 +3684,10 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #266 ^property[+].code = #status
 * #266 ^property[=].valueCode = #active
 * #267 "Dispensaire Antihansénien"
-* #267 ^property[0].code = #parent
-* #267 ^property[=].valueCode = #2201
-* #267 ^property[+].code = #niveau
+* #267 ^property[0].code = #niveau
 * #267 ^property[=].valueInteger =  4
+* #267 ^property[+].code = #parent
+* #267 ^property[=].valueCode = #2201
 * #267 ^designation[0].language = #fr-FR
 * #267 ^designation[=].use.system = "http://snomed.info/sct"
 * #267 ^designation[=].use = $sct#900000000000013009
@@ -3680,10 +3699,10 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #267 ^property[+].code = #status
 * #267 ^property[=].valueCode = #active
 * #268 "Centre Médico-Scolaire"
-* #268 ^property[0].code = #parent
-* #268 ^property[=].valueCode = #2201
-* #268 ^property[+].code = #niveau
+* #268 ^property[0].code = #niveau
 * #268 ^property[=].valueInteger =  4
+* #268 ^property[+].code = #parent
+* #268 ^property[=].valueCode = #2201
 * #268 ^designation[0].language = #fr-FR
 * #268 ^designation[=].use.system = "http://snomed.info/sct"
 * #268 ^designation[=].use = $sct#900000000000013009
@@ -3695,10 +3714,10 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #268 ^property[+].code = #status
 * #268 ^property[=].valueCode = #active
 * #269 "Centre de Médecine Universitaire"
-* #269 ^property[0].code = #parent
-* #269 ^property[=].valueCode = #2201
-* #269 ^property[+].code = #niveau
+* #269 ^property[0].code = #niveau
 * #269 ^property[=].valueInteger =  4
+* #269 ^property[+].code = #parent
+* #269 ^property[=].valueCode = #2201
 * #269 ^designation[0].language = #fr-FR
 * #269 ^designation[=].use.system = "http://snomed.info/sct"
 * #269 ^designation[=].use = $sct#900000000000013009
@@ -3710,10 +3729,10 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #269 ^property[+].code = #status
 * #269 ^property[=].valueCode = #active
 * #270 "Centre de Médecine Sportive"
-* #270 ^property[0].code = #parent
-* #270 ^property[=].valueCode = #2201
-* #270 ^property[+].code = #niveau
+* #270 ^property[0].code = #niveau
 * #270 ^property[=].valueInteger =  4
+* #270 ^property[+].code = #parent
+* #270 ^property[=].valueCode = #2201
 * #270 ^designation[0].language = #fr-FR
 * #270 ^designation[=].use.system = "http://snomed.info/sct"
 * #270 ^designation[=].use = $sct#900000000000013009
@@ -3725,10 +3744,10 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #270 ^property[+].code = #status
 * #270 ^property[=].valueCode = #active
 * #271 "Maison d'accueil Hospitalière"
-* #271 ^property[0].code = #parent
-* #271 ^property[=].valueCode = #4602
-* #271 ^property[+].code = #niveau
+* #271 ^property[0].code = #niveau
 * #271 ^property[=].valueInteger =  4
+* #271 ^property[+].code = #parent
+* #271 ^property[=].valueCode = #4602
 * #271 ^property[+].code = #dateValid
 * #271 ^property[=].valueDateTime = "1979-01-01T00:00:00+01:00"
 * #271 ^property[+].code = #dateMaj
@@ -3736,10 +3755,10 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #271 ^property[+].code = #status
 * #271 ^property[=].valueCode = #active
 * #272 "Ecole d'ambulanciers"
-* #272 ^property[0].code = #parent
-* #272 ^property[=].valueCode = #6103
-* #272 ^property[+].code = #niveau
+* #272 ^property[0].code = #niveau
 * #272 ^property[=].valueInteger =  4
+* #272 ^property[+].code = #parent
+* #272 ^property[=].valueCode = #6103
 * #272 ^property[+].code = #dateValid
 * #272 ^property[=].valueDateTime = "1901-01-01T00:00:00+01:00"
 * #272 ^property[+].code = #dateFin
@@ -3751,10 +3770,10 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #272 ^property[+].code = #status
 * #272 ^property[=].valueCode = #deprecated
 * #273 "Institut de formation en soins infirmiers (I.F.S.I.)"
-* #273 ^property[0].code = #parent
-* #273 ^property[=].valueCode = #6101
-* #273 ^property[+].code = #niveau
+* #273 ^property[0].code = #niveau
 * #273 ^property[=].valueInteger =  4
+* #273 ^property[+].code = #parent
+* #273 ^property[=].valueCode = #6101
 * #273 ^designation[0].language = #fr-FR
 * #273 ^designation[=].use.system = "http://snomed.info/sct"
 * #273 ^designation[=].use = $sct#900000000000013009
@@ -3774,10 +3793,10 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #273 ^property[+].code = #status
 * #273 ^property[=].valueCode = #deprecated
 * #274 "Ecole de sages_femmes"
-* #274 ^property[0].code = #parent
-* #274 ^property[=].valueCode = #6101
-* #274 ^property[+].code = #niveau
+* #274 ^property[0].code = #niveau
 * #274 ^property[=].valueInteger =  4
+* #274 ^property[+].code = #parent
+* #274 ^property[=].valueCode = #6101
 * #274 ^designation[0].language = #fr-FR
 * #274 ^designation[=].use.system = "http://snomed.info/sct"
 * #274 ^designation[=].use = $sct#900000000000013009
@@ -3797,10 +3816,10 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #274 ^property[+].code = #status
 * #274 ^property[=].valueCode = #deprecated
 * #275 "Ecole de masseurs-kinésithérapeutes"
-* #275 ^property[0].code = #parent
-* #275 ^property[=].valueCode = #6101
-* #275 ^property[+].code = #niveau
+* #275 ^property[0].code = #niveau
 * #275 ^property[=].valueInteger =  4
+* #275 ^property[+].code = #parent
+* #275 ^property[=].valueCode = #6101
 * #275 ^designation[0].language = #fr-FR
 * #275 ^designation[=].use.system = "http://snomed.info/sct"
 * #275 ^designation[=].use = $sct#900000000000013009
@@ -3816,10 +3835,10 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #275 ^property[+].code = #status
 * #275 ^property[=].valueCode = #deprecated
 * #276 "Ecole de laborantins d'analyses médicales"
-* #276 ^property[0].code = #parent
-* #276 ^property[=].valueCode = #6102
-* #276 ^property[+].code = #niveau
+* #276 ^property[0].code = #niveau
 * #276 ^property[=].valueInteger =  4
+* #276 ^property[+].code = #parent
+* #276 ^property[=].valueCode = #6102
 * #276 ^designation[0].language = #fr-FR
 * #276 ^designation[=].use.system = "http://snomed.info/sct"
 * #276 ^designation[=].use = $sct#900000000000013009
@@ -3835,10 +3854,10 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #276 ^property[+].code = #status
 * #276 ^property[=].valueCode = #deprecated
 * #277 "Ecole de péricultrices"
-* #277 ^property[0].code = #parent
-* #277 ^property[=].valueCode = #6101
-* #277 ^property[+].code = #niveau
+* #277 ^property[0].code = #niveau
 * #277 ^property[=].valueInteger =  4
+* #277 ^property[+].code = #parent
+* #277 ^property[=].valueCode = #6101
 * #277 ^designation[0].language = #fr-FR
 * #277 ^designation[=].use.system = "http://snomed.info/sct"
 * #277 ^designation[=].use = $sct#900000000000013009
@@ -3858,10 +3877,10 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #277 ^property[+].code = #status
 * #277 ^property[=].valueCode = #deprecated
 * #278 "Etablissement de formation polyvalent"
-* #278 ^property[0].code = #parent
-* #278 ^property[=].valueCode = #6103
-* #278 ^property[+].code = #niveau
+* #278 ^property[0].code = #niveau
 * #278 ^property[=].valueInteger =  4
+* #278 ^property[+].code = #parent
+* #278 ^property[=].valueCode = #6103
 * #278 ^designation[0].language = #fr-FR
 * #278 ^designation[=].use.system = "http://snomed.info/sct"
 * #278 ^designation[=].use = $sct#900000000000013009
@@ -3877,10 +3896,10 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #278 ^property[+].code = #status
 * #278 ^property[=].valueCode = #deprecated
 * #279 "Ecole de service social"
-* #279 ^property[0].code = #parent
-* #279 ^property[=].valueCode = #6201
-* #279 ^property[+].code = #niveau
+* #279 ^property[0].code = #niveau
 * #279 ^property[=].valueInteger =  4
+* #279 ^property[+].code = #parent
+* #279 ^property[=].valueCode = #6201
 * #279 ^designation[0].language = #fr-FR
 * #279 ^designation[=].use.system = "http://snomed.info/sct"
 * #279 ^designation[=].use = $sct#900000000000013009
@@ -3896,10 +3915,10 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #279 ^property[+].code = #status
 * #279 ^property[=].valueCode = #deprecated
 * #280 "Ecole d'éducateurs spécialisés"
-* #280 ^property[0].code = #parent
-* #280 ^property[=].valueCode = #6201
-* #280 ^property[+].code = #niveau
+* #280 ^property[0].code = #niveau
 * #280 ^property[=].valueInteger =  4
+* #280 ^property[+].code = #parent
+* #280 ^property[=].valueCode = #6201
 * #280 ^designation[0].language = #fr-FR
 * #280 ^designation[=].use.system = "http://snomed.info/sct"
 * #280 ^designation[=].use = $sct#900000000000013009
@@ -3915,10 +3934,10 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #280 ^property[+].code = #status
 * #280 ^property[=].valueCode = #deprecated
 * #281 "Centre de formation d'aides soignants"
-* #281 ^property[0].code = #parent
-* #281 ^property[=].valueCode = #6103
-* #281 ^property[+].code = #niveau
+* #281 ^property[0].code = #niveau
 * #281 ^property[=].valueInteger =  4
+* #281 ^property[+].code = #parent
+* #281 ^property[=].valueCode = #6103
 * #281 ^designation[0].language = #fr-FR
 * #281 ^designation[=].use.system = "http://snomed.info/sct"
 * #281 ^designation[=].use = $sct#900000000000013009
@@ -3938,10 +3957,10 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #281 ^property[+].code = #status
 * #281 ^property[=].valueCode = #deprecated
 * #282 "Ecole de pédicures-podologues"
-* #282 ^property[0].code = #parent
-* #282 ^property[=].valueCode = #6101
-* #282 ^property[+].code = #niveau
+* #282 ^property[0].code = #niveau
 * #282 ^property[=].valueInteger =  4
+* #282 ^property[+].code = #parent
+* #282 ^property[=].valueCode = #6101
 * #282 ^designation[0].language = #fr-FR
 * #282 ^designation[=].use.system = "http://snomed.info/sct"
 * #282 ^designation[=].use = $sct#900000000000013009
@@ -3957,10 +3976,10 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #282 ^property[+].code = #status
 * #282 ^property[=].valueCode = #deprecated
 * #283 "Ecole de manipulateurs d'électro-radiologie"
-* #283 ^property[0].code = #parent
-* #283 ^property[=].valueCode = #6102
-* #283 ^property[+].code = #niveau
+* #283 ^property[0].code = #niveau
 * #283 ^property[=].valueInteger =  4
+* #283 ^property[+].code = #parent
+* #283 ^property[=].valueCode = #6102
 * #283 ^designation[0].language = #fr-FR
 * #283 ^designation[=].use.system = "http://snomed.info/sct"
 * #283 ^designation[=].use = $sct#900000000000013009
@@ -3980,10 +3999,10 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #283 ^property[+].code = #status
 * #283 ^property[=].valueCode = #deprecated
 * #284 "Ecole de travailleuses familiales"
-* #284 ^property[0].code = #parent
-* #284 ^property[=].valueCode = #6201
-* #284 ^property[+].code = #niveau
+* #284 ^property[0].code = #niveau
 * #284 ^property[=].valueInteger =  4
+* #284 ^property[+].code = #parent
+* #284 ^property[=].valueCode = #6201
 * #284 ^designation[0].language = #fr-FR
 * #284 ^designation[=].use.system = "http://snomed.info/sct"
 * #284 ^designation[=].use = $sct#900000000000013009
@@ -3999,10 +4018,10 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #284 ^property[+].code = #status
 * #284 ^property[=].valueCode = #deprecated
 * #285 "Centres de Loisirs sans Hébergement"
-* #285 ^property[0].code = #parent
-* #285 ^property[=].valueCode = #5103
-* #285 ^property[+].code = #niveau
+* #285 ^property[0].code = #niveau
 * #285 ^property[=].valueInteger =  4
+* #285 ^property[+].code = #parent
+* #285 ^property[=].valueCode = #5103
 * #285 ^designation[0].language = #fr-FR
 * #285 ^designation[=].use.system = "http://snomed.info/sct"
 * #285 ^designation[=].use = $sct#900000000000013009
@@ -4022,10 +4041,10 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #285 ^property[+].code = #status
 * #285 ^property[=].valueCode = #deprecated
 * #286 "Club Equipe de Prévention"
-* #286 ^property[0].code = #parent
-* #286 ^property[=].valueCode = #4504
-* #286 ^property[+].code = #niveau
+* #286 ^property[0].code = #niveau
 * #286 ^property[=].valueInteger =  4
+* #286 ^property[+].code = #parent
+* #286 ^property[=].valueCode = #4504
 * #286 ^designation[0].language = #fr-FR
 * #286 ^designation[=].use.system = "http://snomed.info/sct"
 * #286 ^designation[=].use = $sct#900000000000013009
@@ -4041,10 +4060,10 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #286 ^property[+].code = #status
 * #286 ^property[=].valueCode = #active
 * #289 "Centre de Soins Infirmiers"
-* #289 ^property[0].code = #parent
-* #289 ^property[=].valueCode = #2206
-* #289 ^property[+].code = #niveau
+* #289 ^property[0].code = #niveau
 * #289 ^property[=].valueInteger =  4
+* #289 ^property[+].code = #parent
+* #289 ^property[=].valueCode = #2206
 * #289 ^designation[0].language = #fr-FR
 * #289 ^designation[=].use.system = "http://snomed.info/sct"
 * #289 ^designation[=].use = $sct#900000000000013009
@@ -4060,10 +4079,10 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #289 ^property[+].code = #status
 * #289 ^property[=].valueCode = #deprecated
 * #292 "Centre Hospitalier Spécialisé lutte Maladies Mentales"
-* #292 ^property[0].code = #parent
-* #292 ^property[=].valueCode = #1103
-* #292 ^property[+].code = #niveau
+* #292 ^property[0].code = #niveau
 * #292 ^property[=].valueInteger =  4
+* #292 ^property[+].code = #parent
+* #292 ^property[=].valueCode = #1103
 * #292 ^designation[0].language = #fr-FR
 * #292 ^designation[=].use.system = "http://snomed.info/sct"
 * #292 ^designation[=].use = $sct#900000000000013009
@@ -4079,10 +4098,10 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #292 ^property[+].code = #status
 * #292 ^property[=].valueCode = #active
 * #294 "Centre de Consultations Cancer"
-* #294 ^property[0].code = #parent
-* #294 ^property[=].valueCode = #2201
-* #294 ^property[+].code = #niveau
+* #294 ^property[0].code = #niveau
 * #294 ^property[=].valueInteger =  4
+* #294 ^property[+].code = #parent
+* #294 ^property[=].valueCode = #2201
 * #294 ^designation[0].language = #fr-FR
 * #294 ^designation[=].use.system = "http://snomed.info/sct"
 * #294 ^designation[=].use = $sct#900000000000013009
@@ -4094,10 +4113,10 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #294 ^property[+].code = #status
 * #294 ^property[=].valueCode = #active
 * #295 "Service AEMO et AED"
-* #295 ^property[0].code = #parent
-* #295 ^property[=].valueCode = #4504
-* #295 ^property[+].code = #niveau
+* #295 ^property[0].code = #niveau
 * #295 ^property[=].valueInteger =  4
+* #295 ^property[+].code = #parent
+* #295 ^property[=].valueCode = #4504
 * #295 ^property[+].code = #dateValid
 * #295 ^property[=].valueDateTime = "1979-01-01T00:00:00+01:00"
 * #295 ^property[+].code = #dateMaj
@@ -4105,10 +4124,10 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #295 ^property[+].code = #status
 * #295 ^property[=].valueCode = #active
 * #297 "Dispensaire Polyvalent"
-* #297 ^property[0].code = #parent
-* #297 ^property[=].valueCode = #2201
-* #297 ^property[+].code = #niveau
+* #297 ^property[0].code = #niveau
 * #297 ^property[=].valueInteger =  4
+* #297 ^property[+].code = #parent
+* #297 ^property[=].valueCode = #2201
 * #297 ^designation[0].language = #fr-FR
 * #297 ^designation[=].use.system = "http://snomed.info/sct"
 * #297 ^designation[=].use = $sct#900000000000013009
@@ -4124,10 +4143,10 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #297 ^property[+].code = #status
 * #297 ^property[=].valueCode = #deprecated
 * #300 "Ecoles Formant aux Professions Sanitaires"
-* #300 ^property[0].code = #parent
-* #300 ^property[=].valueCode = #6101
-* #300 ^property[+].code = #niveau
+* #300 ^property[0].code = #niveau
 * #300 ^property[=].valueInteger =  4
+* #300 ^property[+].code = #parent
+* #300 ^property[=].valueCode = #6101
 * #300 ^designation[0].language = #fr-FR
 * #300 ^designation[=].use.system = "http://snomed.info/sct"
 * #300 ^designation[=].use = $sct#900000000000013009
@@ -4143,10 +4162,10 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #300 ^property[+].code = #status
 * #300 ^property[=].valueCode = #active
 * #303 "Ecole de conseillers en économie sociale et familiale"
-* #303 ^property[0].code = #parent
-* #303 ^property[=].valueCode = #6201
-* #303 ^property[+].code = #niveau
+* #303 ^property[0].code = #niveau
 * #303 ^property[=].valueInteger =  4
+* #303 ^property[+].code = #parent
+* #303 ^property[=].valueCode = #6201
 * #303 ^designation[0].language = #fr-FR
 * #303 ^designation[=].use.system = "http://snomed.info/sct"
 * #303 ^designation[=].use = $sct#900000000000013009
@@ -4162,10 +4181,10 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #303 ^property[+].code = #status
 * #303 ^property[=].valueCode = #deprecated
 * #304 "Ecole d'ergothérapeutes"
-* #304 ^property[0].code = #parent
-* #304 ^property[=].valueCode = #6101
-* #304 ^property[+].code = #niveau
+* #304 ^property[0].code = #niveau
 * #304 ^property[=].valueInteger =  4
+* #304 ^property[+].code = #parent
+* #304 ^property[=].valueCode = #6101
 * #304 ^designation[0].language = #fr-FR
 * #304 ^designation[=].use.system = "http://snomed.info/sct"
 * #304 ^designation[=].use = $sct#900000000000013009
@@ -4181,10 +4200,10 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #304 ^property[+].code = #status
 * #304 ^property[=].valueCode = #deprecated
 * #305 "Ecole de psycho-motriciens"
-* #305 ^property[0].code = #parent
-* #305 ^property[=].valueCode = #6101
-* #305 ^property[+].code = #niveau
+* #305 ^property[0].code = #niveau
 * #305 ^property[=].valueInteger =  4
+* #305 ^property[+].code = #parent
+* #305 ^property[=].valueCode = #6101
 * #305 ^designation[0].language = #fr-FR
 * #305 ^designation[=].use.system = "http://snomed.info/sct"
 * #305 ^designation[=].use = $sct#900000000000013009
@@ -4204,10 +4223,10 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #305 ^property[+].code = #status
 * #305 ^property[=].valueCode = #deprecated
 * #306 "Ecole d'infirmiers anesthésistes"
-* #306 ^property[0].code = #parent
-* #306 ^property[=].valueCode = #6101
-* #306 ^property[+].code = #niveau
+* #306 ^property[0].code = #niveau
 * #306 ^property[=].valueInteger =  4
+* #306 ^property[+].code = #parent
+* #306 ^property[=].valueCode = #6101
 * #306 ^designation[0].language = #fr-FR
 * #306 ^designation[=].use.system = "http://snomed.info/sct"
 * #306 ^designation[=].use = $sct#900000000000013009
@@ -4223,10 +4242,10 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #306 ^property[+].code = #status
 * #306 ^property[=].valueCode = #deprecated
 * #307 "Ecole d'infirmiers de bloc opératoire"
-* #307 ^property[0].code = #parent
-* #307 ^property[=].valueCode = #6101
-* #307 ^property[+].code = #niveau
+* #307 ^property[0].code = #niveau
 * #307 ^property[=].valueInteger =  4
+* #307 ^property[+].code = #parent
+* #307 ^property[=].valueCode = #6101
 * #307 ^designation[0].language = #fr-FR
 * #307 ^designation[=].use.system = "http://snomed.info/sct"
 * #307 ^designation[=].use = $sct#900000000000013009
@@ -4242,10 +4261,10 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #307 ^property[+].code = #status
 * #307 ^property[=].valueCode = #deprecated
 * #308 "Centre de formation professionnelle de secteur psychiatrique"
-* #308 ^property[0].code = #parent
-* #308 ^property[=].valueCode = #6101
-* #308 ^property[+].code = #niveau
+* #308 ^property[0].code = #niveau
 * #308 ^property[=].valueInteger =  4
+* #308 ^property[+].code = #parent
+* #308 ^property[=].valueCode = #6101
 * #308 ^designation[0].language = #fr-FR
 * #308 ^designation[=].use.system = "http://snomed.info/sct"
 * #308 ^designation[=].use = $sct#900000000000013009
@@ -4261,10 +4280,10 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #308 ^property[+].code = #status
 * #308 ^property[=].valueCode = #deprecated
 * #309 "Ecole de cadres infirmiers"
-* #309 ^property[0].code = #parent
-* #309 ^property[=].valueCode = #6101
-* #309 ^property[+].code = #niveau
+* #309 ^property[0].code = #niveau
 * #309 ^property[=].valueInteger =  4
+* #309 ^property[+].code = #parent
+* #309 ^property[=].valueCode = #6101
 * #309 ^designation[0].language = #fr-FR
 * #309 ^designation[=].use.system = "http://snomed.info/sct"
 * #309 ^designation[=].use = $sct#900000000000013009
@@ -4280,10 +4299,10 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #309 ^property[+].code = #status
 * #309 ^property[=].valueCode = #deprecated
 * #310 "Ecole de cadres de secteur psychiatrique"
-* #310 ^property[0].code = #parent
-* #310 ^property[=].valueCode = #6101
-* #310 ^property[+].code = #niveau
+* #310 ^property[0].code = #niveau
 * #310 ^property[=].valueInteger =  4
+* #310 ^property[+].code = #parent
+* #310 ^property[=].valueCode = #6101
 * #310 ^designation[0].language = #fr-FR
 * #310 ^designation[=].use.system = "http://snomed.info/sct"
 * #310 ^designation[=].use = $sct#900000000000013009
@@ -4299,10 +4318,10 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #310 ^property[+].code = #status
 * #310 ^property[=].valueCode = #deprecated
 * #311 "Ecole de cadres de masseurs-kinésithérapeutes"
-* #311 ^property[0].code = #parent
-* #311 ^property[=].valueCode = #6101
-* #311 ^property[+].code = #niveau
+* #311 ^property[0].code = #niveau
 * #311 ^property[=].valueInteger =  4
+* #311 ^property[+].code = #parent
+* #311 ^property[=].valueCode = #6101
 * #311 ^designation[0].language = #fr-FR
 * #311 ^designation[=].use.system = "http://snomed.info/sct"
 * #311 ^designation[=].use = $sct#900000000000013009
@@ -4318,10 +4337,10 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #311 ^property[+].code = #status
 * #311 ^property[=].valueCode = #deprecated
 * #312 "Ecole de cadres de manipulateurs d'électro-radiologie"
-* #312 ^property[0].code = #parent
-* #312 ^property[=].valueCode = #6102
-* #312 ^property[+].code = #niveau
+* #312 ^property[0].code = #niveau
 * #312 ^property[=].valueInteger =  4
+* #312 ^property[+].code = #parent
+* #312 ^property[=].valueCode = #6102
 * #312 ^designation[0].language = #fr-FR
 * #312 ^designation[=].use.system = "http://snomed.info/sct"
 * #312 ^designation[=].use = $sct#900000000000013009
@@ -4341,10 +4360,10 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #312 ^property[+].code = #status
 * #312 ^property[=].valueCode = #deprecated
 * #313 "Ecole d'éducateurs de jeunes enfants"
-* #313 ^property[0].code = #parent
-* #313 ^property[=].valueCode = #6201
-* #313 ^property[+].code = #niveau
+* #313 ^property[0].code = #niveau
 * #313 ^property[=].valueInteger =  4
+* #313 ^property[+].code = #parent
+* #313 ^property[=].valueCode = #6201
 * #313 ^designation[0].language = #fr-FR
 * #313 ^designation[=].use.system = "http://snomed.info/sct"
 * #313 ^designation[=].use = $sct#900000000000013009
@@ -4360,10 +4379,10 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #313 ^property[+].code = #status
 * #313 ^property[=].valueCode = #deprecated
 * #314 "Ecole d'éducateurs techniques spécialisés"
-* #314 ^property[0].code = #parent
-* #314 ^property[=].valueCode = #6201
-* #314 ^property[+].code = #niveau
+* #314 ^property[0].code = #niveau
 * #314 ^property[=].valueInteger =  4
+* #314 ^property[+].code = #parent
+* #314 ^property[=].valueCode = #6201
 * #314 ^designation[0].language = #fr-FR
 * #314 ^designation[=].use.system = "http://snomed.info/sct"
 * #314 ^designation[=].use = $sct#900000000000013009
@@ -4379,10 +4398,10 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #314 ^property[+].code = #status
 * #314 ^property[=].valueCode = #deprecated
 * #315 "Ecole de moniteurs-éducateurs"
-* #315 ^property[0].code = #parent
-* #315 ^property[=].valueCode = #6201
-* #315 ^property[+].code = #niveau
+* #315 ^property[0].code = #niveau
 * #315 ^property[=].valueInteger =  4
+* #315 ^property[+].code = #parent
+* #315 ^property[=].valueCode = #6201
 * #315 ^designation[0].language = #fr-FR
 * #315 ^designation[=].use.system = "http://snomed.info/sct"
 * #315 ^designation[=].use = $sct#900000000000013009
@@ -4398,10 +4417,10 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #315 ^property[+].code = #status
 * #315 ^property[=].valueCode = #deprecated
 * #316 "Ecole d'aides médico-psychologiques"
-* #316 ^property[0].code = #parent
-* #316 ^property[=].valueCode = #6201
-* #316 ^property[+].code = #niveau
+* #316 ^property[0].code = #niveau
 * #316 ^property[=].valueInteger =  4
+* #316 ^property[+].code = #parent
+* #316 ^property[=].valueCode = #6201
 * #316 ^designation[0].language = #fr-FR
 * #316 ^designation[=].use.system = "http://snomed.info/sct"
 * #316 ^designation[=].use = $sct#900000000000013009
@@ -4417,10 +4436,10 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #316 ^property[+].code = #status
 * #316 ^property[=].valueCode = #deprecated
 * #317 "Ecole d'animateurs socio-éducatifs"
-* #317 ^property[0].code = #parent
-* #317 ^property[=].valueCode = #6201
-* #317 ^property[+].code = #niveau
+* #317 ^property[0].code = #niveau
 * #317 ^property[=].valueInteger =  4
+* #317 ^property[+].code = #parent
+* #317 ^property[=].valueCode = #6201
 * #317 ^designation[0].language = #fr-FR
 * #317 ^designation[=].use.system = "http://snomed.info/sct"
 * #317 ^designation[=].use = $sct#900000000000013009
@@ -4436,10 +4455,10 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #317 ^property[+].code = #status
 * #317 ^property[=].valueCode = #deprecated
 * #319 "Inst. régional de formation des travailleurs sociaux"
-* #319 ^property[0].code = #parent
-* #319 ^property[=].valueCode = #6201
-* #319 ^property[+].code = #niveau
+* #319 ^property[0].code = #niveau
 * #319 ^property[=].valueInteger =  4
+* #319 ^property[+].code = #parent
+* #319 ^property[=].valueCode = #6201
 * #319 ^designation[0].language = #fr-FR
 * #319 ^designation[=].use.system = "http://snomed.info/sct"
 * #319 ^designation[=].use = $sct#900000000000013009
@@ -4459,10 +4478,10 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #319 ^property[+].code = #status
 * #319 ^property[=].valueCode = #deprecated
 * #320 "S.A.M.U. et Centre 15"
-* #320 ^property[0].code = #parent
-* #320 ^property[=].valueCode = #1204
-* #320 ^property[+].code = #niveau
+* #320 ^property[0].code = #niveau
 * #320 ^property[=].valueInteger =  4
+* #320 ^property[+].code = #parent
+* #320 ^property[=].valueCode = #1204
 * #320 ^designation[0].language = #fr-FR
 * #320 ^designation[=].use.system = "http://snomed.info/sct"
 * #320 ^designation[=].use = $sct#900000000000013009
@@ -4482,10 +4501,10 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #320 ^property[+].code = #status
 * #320 ^property[=].valueCode = #deprecated
 * #321 "Unité Mobile Hospitalière"
-* #321 ^property[0].code = #parent
-* #321 ^property[=].valueCode = #1204
-* #321 ^property[+].code = #niveau
+* #321 ^property[0].code = #niveau
 * #321 ^property[=].valueInteger =  4
+* #321 ^property[+].code = #parent
+* #321 ^property[=].valueCode = #1204
 * #321 ^designation[0].language = #fr-FR
 * #321 ^designation[=].use.system = "http://snomed.info/sct"
 * #321 ^designation[=].use = $sct#900000000000013009
@@ -4501,10 +4520,10 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #321 ^property[+].code = #status
 * #321 ^property[=].valueCode = #deprecated
 * #322 "Centre Rég.Informatiq.Hospit."
-* #322 ^property[0].code = #parent
-* #322 ^property[=].valueCode = #0101
-* #322 ^property[+].code = #niveau
+* #322 ^property[0].code = #niveau
 * #322 ^property[=].valueInteger =  4
+* #322 ^property[+].code = #parent
+* #322 ^property[=].valueCode = #0101
 * #322 ^designation[0].language = #fr-FR
 * #322 ^designation[=].use.system = "http://snomed.info/sct"
 * #322 ^designation[=].use = $sct#900000000000013009
@@ -4524,10 +4543,10 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #322 ^property[+].code = #status
 * #322 ^property[=].valueCode = #deprecated
 * #324 "Logement Foyer non Spécialisé"
-* #324 ^property[0].code = #parent
-* #324 ^property[=].valueCode = #4602
-* #324 ^property[+].code = #niveau
+* #324 ^property[0].code = #niveau
 * #324 ^property[=].valueInteger =  4
+* #324 ^property[+].code = #parent
+* #324 ^property[=].valueCode = #4602
 * #324 ^designation[0].language = #fr-FR
 * #324 ^designation[=].use.system = "http://snomed.info/sct"
 * #324 ^designation[=].use = $sct#900000000000013009
@@ -4539,10 +4558,10 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #324 ^property[+].code = #status
 * #324 ^property[=].valueCode = #active
 * #326 "Ecole de cadres"
-* #326 ^property[0].code = #parent
-* #326 ^property[=].valueCode = #6101
-* #326 ^property[+].code = #niveau
+* #326 ^property[0].code = #niveau
 * #326 ^property[=].valueInteger =  4
+* #326 ^property[+].code = #parent
+* #326 ^property[=].valueCode = #6101
 * #326 ^property[+].code = #dateValid
 * #326 ^property[=].valueDateTime = "1901-01-01T00:00:00+01:00"
 * #326 ^property[+].code = #dateFin
@@ -4554,10 +4573,10 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #326 ^property[+].code = #status
 * #326 ^property[=].valueCode = #deprecated
 * #327 "Service d'Ambulances"
-* #327 ^property[0].code = #parent
-* #327 ^property[=].valueCode = #3404
-* #327 ^property[+].code = #niveau
+* #327 ^property[0].code = #niveau
 * #327 ^property[=].valueInteger =  4
+* #327 ^property[+].code = #parent
+* #327 ^property[=].valueCode = #3404
 * #327 ^designation[0].language = #fr-FR
 * #327 ^designation[=].use.system = "http://snomed.info/sct"
 * #327 ^designation[=].use = $sct#900000000000013009
@@ -4573,10 +4592,10 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #327 ^property[+].code = #status
 * #327 ^property[=].valueCode = #deprecated
 * #328 "Centre Consultation Soins Dentaire"
-* #328 ^property[0].code = #parent
-* #328 ^property[=].valueCode = #2203
-* #328 ^property[+].code = #niveau
+* #328 ^property[0].code = #niveau
 * #328 ^property[=].valueInteger =  4
+* #328 ^property[+].code = #parent
+* #328 ^property[=].valueCode = #2203
 * #328 ^designation[0].language = #fr-FR
 * #328 ^designation[=].use.system = "http://snomed.info/sct"
 * #328 ^designation[=].use = $sct#900000000000013009
@@ -4596,10 +4615,10 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #328 ^property[+].code = #status
 * #328 ^property[=].valueCode = #deprecated
 * #329 "Sectorisation Psychiatrique"
-* #329 ^property[0].code = #parent
-* #329 ^property[=].valueCode = #1202
-* #329 ^property[+].code = #niveau
+* #329 ^property[0].code = #niveau
 * #329 ^property[=].valueInteger =  4
+* #329 ^property[+].code = #parent
+* #329 ^property[=].valueCode = #1202
 * #329 ^designation[0].language = #fr-FR
 * #329 ^designation[=].use.system = "http://snomed.info/sct"
 * #329 ^designation[=].use = $sct#900000000000013009
@@ -4615,10 +4634,10 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #329 ^property[+].code = #status
 * #329 ^property[=].valueCode = #deprecated
 * #330 "Ecoles Formant aux Professions Sociales"
-* #330 ^property[0].code = #parent
-* #330 ^property[=].valueCode = #6201
-* #330 ^property[+].code = #niveau
+* #330 ^property[0].code = #niveau
 * #330 ^property[=].valueInteger =  4
+* #330 ^property[+].code = #parent
+* #330 ^property[=].valueCode = #6201
 * #330 ^designation[0].language = #fr-FR
 * #330 ^designation[=].use.system = "http://snomed.info/sct"
 * #330 ^designation[=].use = $sct#900000000000013009
@@ -4634,10 +4653,10 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #330 ^property[+].code = #status
 * #330 ^property[=].valueCode = #active
 * #340 "Service mandataire judiciaire à la protection des majeurs"
-* #340 ^property[0].code = #parent
-* #340 ^property[=].valueCode = #4608
-* #340 ^property[+].code = #niveau
+* #340 ^property[0].code = #niveau
 * #340 ^property[=].valueInteger =  4
+* #340 ^property[+].code = #parent
+* #340 ^property[=].valueCode = #4608
 * #340 ^designation[0].language = #fr-FR
 * #340 ^designation[=].use.system = "http://snomed.info/sct"
 * #340 ^designation[=].use = $sct#900000000000013009
@@ -4649,10 +4668,10 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #340 ^property[+].code = #status
 * #340 ^property[=].valueCode = #active
 * #341 "Service dédié mesures d'accompagnement social personnalisé"
-* #341 ^property[0].code = #parent
-* #341 ^property[=].valueCode = #4608
-* #341 ^property[+].code = #niveau
+* #341 ^property[0].code = #niveau
 * #341 ^property[=].valueInteger =  4
+* #341 ^property[+].code = #parent
+* #341 ^property[=].valueCode = #4608
 * #341 ^designation[0].language = #fr-FR
 * #341 ^designation[=].use.system = "http://snomed.info/sct"
 * #341 ^designation[=].use = $sct#900000000000013009
@@ -4668,10 +4687,10 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #341 ^property[+].code = #status
 * #341 ^property[=].valueCode = #active
 * #342 "Service d'information et de soutien aux tuteurs familiaux"
-* #342 ^property[0].code = #parent
-* #342 ^property[=].valueCode = #4608
-* #342 ^property[+].code = #niveau
+* #342 ^property[0].code = #niveau
 * #342 ^property[=].valueInteger =  4
+* #342 ^property[+].code = #parent
+* #342 ^property[=].valueCode = #4608
 * #342 ^designation[0].language = #fr-FR
 * #342 ^designation[=].use.system = "http://snomed.info/sct"
 * #342 ^designation[=].use = $sct#900000000000013009
@@ -4683,10 +4702,10 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #342 ^property[+].code = #status
 * #342 ^property[=].valueCode = #active
 * #343 "Equipe Préparation et Suite Reclassement (EPSR)"
-* #343 ^property[0].code = #parent
-* #343 ^property[=].valueCode = #4303
-* #343 ^property[+].code = #niveau
+* #343 ^property[0].code = #niveau
 * #343 ^property[=].valueInteger =  4
+* #343 ^property[+].code = #parent
+* #343 ^property[=].valueCode = #4303
 * #343 ^designation[0].language = #fr-FR
 * #343 ^designation[=].use.system = "http://snomed.info/sct"
 * #343 ^designation[=].use = $sct#900000000000013009
@@ -4706,10 +4725,10 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #343 ^property[+].code = #status
 * #343 ^property[=].valueCode = #deprecated
 * #344 "Service délégué aux prestations familiales"
-* #344 ^property[0].code = #parent
-* #344 ^property[=].valueCode = #4504
-* #344 ^property[+].code = #niveau
+* #344 ^property[0].code = #niveau
 * #344 ^property[=].valueInteger =  4
+* #344 ^property[+].code = #parent
+* #344 ^property[=].valueCode = #4504
 * #344 ^designation[0].language = #fr-FR
 * #344 ^designation[=].use.system = "http://snomed.info/sct"
 * #344 ^designation[=].use = $sct#900000000000013009
@@ -4721,10 +4740,10 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #344 ^property[+].code = #status
 * #344 ^property[=].valueCode = #active
 * #345 "Service Tutelle Prestation Sociale"
-* #345 ^property[0].code = #parent
-* #345 ^property[=].valueCode = #5104
-* #345 ^property[+].code = #niveau
+* #345 ^property[0].code = #niveau
 * #345 ^property[=].valueInteger =  4
+* #345 ^property[+].code = #parent
+* #345 ^property[=].valueCode = #5104
 * #345 ^designation[0].language = #fr-FR
 * #345 ^designation[=].use.system = "http://snomed.info/sct"
 * #345 ^designation[=].use = $sct#900000000000013009
@@ -4740,10 +4759,10 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #345 ^property[+].code = #status
 * #345 ^property[=].valueCode = #active
 * #346 "Service de Travailleuses Familiales"
-* #346 ^property[0].code = #parent
-* #346 ^property[=].valueCode = #5104
-* #346 ^property[+].code = #niveau
+* #346 ^property[0].code = #niveau
 * #346 ^property[=].valueInteger =  4
+* #346 ^property[+].code = #parent
+* #346 ^property[=].valueCode = #5104
 * #346 ^designation[0].language = #fr-FR
 * #346 ^designation[=].use.system = "http://snomed.info/sct"
 * #346 ^designation[=].use = $sct#900000000000013009
@@ -4759,10 +4778,10 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #346 ^property[+].code = #status
 * #346 ^property[=].valueCode = #deprecated
 * #347 "Centre d'Examens de Santé"
-* #347 ^property[0].code = #parent
-* #347 ^property[=].valueCode = #2201
-* #347 ^property[+].code = #niveau
+* #347 ^property[0].code = #niveau
 * #347 ^property[=].valueInteger =  4
+* #347 ^property[+].code = #parent
+* #347 ^property[=].valueCode = #2201
 * #347 ^designation[0].language = #fr-FR
 * #347 ^designation[=].use.system = "http://snomed.info/sct"
 * #347 ^designation[=].use = $sct#900000000000013009
@@ -4774,10 +4793,10 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #347 ^property[+].code = #status
 * #347 ^property[=].valueCode = #active
 * #349 "Ecole de cadres de sages-femmes"
-* #349 ^property[0].code = #parent
-* #349 ^property[=].valueCode = #6101
-* #349 ^property[+].code = #niveau
+* #349 ^property[0].code = #niveau
 * #349 ^property[=].valueInteger =  4
+* #349 ^property[+].code = #parent
+* #349 ^property[=].valueCode = #6101
 * #349 ^designation[0].language = #fr-FR
 * #349 ^designation[=].use.system = "http://snomed.info/sct"
 * #349 ^designation[=].use = $sct#900000000000013009
@@ -4793,10 +4812,10 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #349 ^property[+].code = #status
 * #349 ^property[=].valueCode = #deprecated
 * #350 "Centre de formation d'auxiliaires de puériculture"
-* #350 ^property[0].code = #parent
-* #350 ^property[=].valueCode = #6101
-* #350 ^property[+].code = #niveau
+* #350 ^property[0].code = #niveau
 * #350 ^property[=].valueInteger =  4
+* #350 ^property[+].code = #parent
+* #350 ^property[=].valueCode = #6101
 * #350 ^designation[0].language = #fr-FR
 * #350 ^designation[=].use.system = "http://snomed.info/sct"
 * #350 ^designation[=].use = $sct#900000000000013009
@@ -4812,10 +4831,10 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #350 ^property[+].code = #status
 * #350 ^property[=].valueCode = #deprecated
 * #352 "Centre de Psychothérapie"
-* #352 ^property[0].code = #parent
-* #352 ^property[=].valueCode = #1111
-* #352 ^property[+].code = #niveau
+* #352 ^property[0].code = #niveau
 * #352 ^property[=].valueInteger =  4
+* #352 ^property[+].code = #parent
+* #352 ^property[=].valueCode = #1111
 * #352 ^designation[0].language = #fr-FR
 * #352 ^designation[=].use.system = "http://snomed.info/sct"
 * #352 ^designation[=].use = $sct#900000000000013009
@@ -4831,10 +4850,10 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #352 ^property[+].code = #status
 * #352 ^property[=].valueCode = #deprecated
 * #353 "Hôpital de Jour Spécialités Médicales"
-* #353 ^property[0].code = #parent
-* #353 ^property[=].valueCode = #1205
-* #353 ^property[+].code = #niveau
+* #353 ^property[0].code = #niveau
 * #353 ^property[=].valueInteger =  4
+* #353 ^property[+].code = #parent
+* #353 ^property[=].valueCode = #1205
 * #353 ^designation[0].language = #fr-FR
 * #353 ^designation[=].use.system = "http://snomed.info/sct"
 * #353 ^designation[=].use = $sct#900000000000013009
@@ -4850,10 +4869,10 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #353 ^property[+].code = #status
 * #353 ^property[=].valueCode = #deprecated
 * #354 "Service de Soins Infirmiers A Domicile (S.S.I.A.D)"
-* #354 ^property[0].code = #parent
-* #354 ^property[=].valueCode = #4605
-* #354 ^property[+].code = #niveau
+* #354 ^property[0].code = #niveau
 * #354 ^property[=].valueInteger =  4
+* #354 ^property[+].code = #parent
+* #354 ^property[=].valueCode = #4605
 * #354 ^designation[0].language = #fr-FR
 * #354 ^designation[=].use.system = "http://snomed.info/sct"
 * #354 ^designation[=].use = $sct#900000000000013009
@@ -4869,10 +4888,10 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #354 ^property[+].code = #status
 * #354 ^property[=].valueCode = #active
 * #355 "Centre Hospitalier (C.H.)"
-* #355 ^property[0].code = #parent
-* #355 ^property[=].valueCode = #1102
-* #355 ^property[+].code = #niveau
+* #355 ^property[0].code = #niveau
 * #355 ^property[=].valueInteger =  4
+* #355 ^property[+].code = #parent
+* #355 ^property[=].valueCode = #1102
 * #355 ^designation[0].language = #fr-FR
 * #355 ^designation[=].use.system = "http://snomed.info/sct"
 * #355 ^designation[=].use = $sct#900000000000013009
@@ -4888,10 +4907,10 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #355 ^property[+].code = #status
 * #355 ^property[=].valueCode = #active
 * #357 "Association Aide aux Insuffisants Respiratoires"
-* #357 ^property[0].code = #parent
-* #357 ^property[=].valueCode = #1201
-* #357 ^property[+].code = #niveau
+* #357 ^property[0].code = #niveau
 * #357 ^property[=].valueInteger =  4
+* #357 ^property[+].code = #parent
+* #357 ^property[=].valueCode = #1201
 * #357 ^designation[0].language = #fr-FR
 * #357 ^designation[=].use.system = "http://snomed.info/sct"
 * #357 ^designation[=].use = $sct#900000000000013009
@@ -4911,10 +4930,10 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #357 ^property[+].code = #status
 * #357 ^property[=].valueCode = #deprecated
 * #359 "Centre Circonscription Sanitaire et Sociale"
-* #359 ^property[0].code = #parent
-* #359 ^property[=].valueCode = #5104
-* #359 ^property[+].code = #niveau
+* #359 ^property[0].code = #niveau
 * #359 ^property[=].valueInteger =  4
+* #359 ^property[+].code = #parent
+* #359 ^property[=].valueCode = #5104
 * #359 ^designation[0].language = #fr-FR
 * #359 ^designation[=].use.system = "http://snomed.info/sct"
 * #359 ^designation[=].use = $sct#900000000000013009
@@ -4926,10 +4945,10 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #359 ^property[+].code = #status
 * #359 ^property[=].valueCode = #active
 * #361 "Centre de Cure Médicale"
-* #361 ^property[0].code = #parent
-* #361 ^property[=].valueCode = #1107
-* #361 ^property[+].code = #niveau
+* #361 ^property[0].code = #niveau
 * #361 ^property[=].valueInteger =  4
+* #361 ^property[+].code = #parent
+* #361 ^property[=].valueCode = #1107
 * #361 ^designation[0].language = #fr-FR
 * #361 ^designation[=].use.system = "http://snomed.info/sct"
 * #361 ^designation[=].use = $sct#900000000000013009
@@ -4945,10 +4964,10 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #361 ^property[+].code = #status
 * #361 ^property[=].valueCode = #deprecated
 * #362 "Etablissement de Soins Longue Durée"
-* #362 ^property[0].code = #parent
-* #362 ^property[=].valueCode = #1109
-* #362 ^property[+].code = #niveau
+* #362 ^property[0].code = #niveau
 * #362 ^property[=].valueInteger =  4
+* #362 ^property[+].code = #parent
+* #362 ^property[=].valueCode = #1109
 * #362 ^designation[0].language = #fr-FR
 * #362 ^designation[=].use.system = "http://snomed.info/sct"
 * #362 ^designation[=].use = $sct#900000000000013009
@@ -4960,10 +4979,10 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #362 ^property[+].code = #status
 * #362 ^property[=].valueCode = #active
 * #363 "Centre moyen et long séjour"
-* #363 ^property[0].code = #parent
-* #363 ^property[=].valueCode = #1108
-* #363 ^property[+].code = #niveau
+* #363 ^property[0].code = #niveau
 * #363 ^property[=].valueInteger =  4
+* #363 ^property[+].code = #parent
+* #363 ^property[=].valueCode = #1108
 * #363 ^designation[0].language = #fr-FR
 * #363 ^designation[=].use.system = "http://snomed.info/sct"
 * #363 ^designation[=].use = $sct#900000000000013009
@@ -4983,10 +5002,10 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #363 ^property[+].code = #status
 * #363 ^property[=].valueCode = #deprecated
 * #365 "Etablissement de Soins Pluridisciplinaire"
-* #365 ^property[0].code = #parent
-* #365 ^property[=].valueCode = #1110
-* #365 ^property[+].code = #niveau
+* #365 ^property[0].code = #niveau
 * #365 ^property[=].valueInteger =  4
+* #365 ^property[+].code = #parent
+* #365 ^property[=].valueCode = #1110
 * #365 ^designation[0].language = #fr-FR
 * #365 ^designation[=].use.system = "http://snomed.info/sct"
 * #365 ^designation[=].use = $sct#900000000000013009
@@ -4998,10 +5017,10 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #365 ^property[+].code = #status
 * #365 ^property[=].valueCode = #active
 * #366 "Atelier Thérapeutique"
-* #366 ^property[0].code = #parent
-* #366 ^property[=].valueCode = #1111
-* #366 ^property[+].code = #niveau
+* #366 ^property[0].code = #niveau
 * #366 ^property[=].valueInteger =  4
+* #366 ^property[+].code = #parent
+* #366 ^property[=].valueCode = #1111
 * #366 ^designation[0].language = #fr-FR
 * #366 ^designation[=].use.system = "http://snomed.info/sct"
 * #366 ^designation[=].use = $sct#900000000000013009
@@ -5013,10 +5032,10 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #366 ^property[+].code = #status
 * #366 ^property[=].valueCode = #active
 * #367 "Maison d'Enfants non Conventionnée ni Habilitée"
-* #367 ^property[0].code = #parent
-* #367 ^property[=].valueCode = #5102
-* #367 ^property[+].code = #niveau
+* #367 ^property[0].code = #niveau
 * #367 ^property[=].valueInteger =  4
+* #367 ^property[+].code = #parent
+* #367 ^property[=].valueCode = #5102
 * #367 ^designation[0].language = #fr-FR
 * #367 ^designation[=].use.system = "http://snomed.info/sct"
 * #367 ^designation[=].use = $sct#900000000000013009
@@ -5036,10 +5055,10 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #367 ^property[+].code = #status
 * #367 ^property[=].valueCode = #deprecated
 * #368 "Service de Repas à Domicile"
-* #368 ^property[0].code = #parent
-* #368 ^property[=].valueCode = #4403
-* #368 ^property[+].code = #niveau
+* #368 ^property[0].code = #niveau
 * #368 ^property[=].valueInteger =  4
+* #368 ^property[+].code = #parent
+* #368 ^property[=].valueCode = #4403
 * #368 ^designation[0].language = #fr-FR
 * #368 ^designation[=].use.system = "http://snomed.info/sct"
 * #368 ^designation[=].use = $sct#900000000000013009
@@ -5055,10 +5074,10 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #368 ^property[+].code = #status
 * #368 ^property[=].valueCode = #deprecated
 * #369 "Centre Adaptation Vie Active (C.A.V.A.)"
-* #369 ^property[0].code = #parent
-* #369 ^property[=].valueCode = #4601
-* #369 ^property[+].code = #niveau
+* #369 ^property[0].code = #niveau
 * #369 ^property[=].valueInteger =  4
+* #369 ^property[+].code = #parent
+* #369 ^property[=].valueCode = #4601
 * #369 ^designation[0].language = #fr-FR
 * #369 ^designation[=].use.system = "http://snomed.info/sct"
 * #369 ^designation[=].use = $sct#900000000000013009
@@ -5078,10 +5097,10 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #369 ^property[+].code = #status
 * #369 ^property[=].valueCode = #deprecated
 * #370 "Etablissement Expérimental pour personnes handicapées"
-* #370 ^property[0].code = #parent
-* #370 ^property[=].valueCode = #4301
-* #370 ^property[+].code = #niveau
+* #370 ^property[0].code = #niveau
 * #370 ^property[=].valueInteger =  4
+* #370 ^property[+].code = #parent
+* #370 ^property[=].valueCode = #4301
 * #370 ^designation[0].language = #fr-FR
 * #370 ^designation[=].use.system = "http://snomed.info/sct"
 * #370 ^designation[=].use = $sct#900000000000013009
@@ -5093,10 +5112,10 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #370 ^property[+].code = #status
 * #370 ^property[=].valueCode = #active
 * #371 "Service Action Socio-Educative pour Familles en difficulté"
-* #371 ^property[0].code = #parent
-* #371 ^property[=].valueCode = #4601
-* #371 ^property[+].code = #niveau
+* #371 ^property[0].code = #niveau
 * #371 ^property[=].valueInteger =  4
+* #371 ^property[+].code = #parent
+* #371 ^property[=].valueCode = #4601
 * #371 ^designation[0].language = #fr-FR
 * #371 ^designation[=].use.system = "http://snomed.info/sct"
 * #371 ^designation[=].use = $sct#900000000000013009
@@ -5116,10 +5135,10 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #371 ^property[+].code = #status
 * #371 ^property[=].valueCode = #deprecated
 * #373 "Centre de formation supérieure des travailleurs sociaux"
-* #373 ^property[0].code = #parent
-* #373 ^property[=].valueCode = #6201
-* #373 ^property[+].code = #niveau
+* #373 ^property[0].code = #niveau
 * #373 ^property[=].valueInteger =  4
+* #373 ^property[+].code = #parent
+* #373 ^property[=].valueCode = #6201
 * #373 ^designation[0].language = #fr-FR
 * #373 ^designation[=].use.system = "http://snomed.info/sct"
 * #373 ^designation[=].use = $sct#900000000000013009
@@ -5135,10 +5154,10 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #373 ^property[+].code = #status
 * #373 ^property[=].valueCode = #deprecated
 * #374 "Ecole Nationale Santé Publique (E.N.S.P.)"
-* #374 ^property[0].code = #parent
-* #374 ^property[=].valueCode = #6301
-* #374 ^property[+].code = #niveau
+* #374 ^property[0].code = #niveau
 * #374 ^property[=].valueInteger =  4
+* #374 ^property[+].code = #parent
+* #374 ^property[=].valueCode = #6301
 * #374 ^designation[0].language = #fr-FR
 * #374 ^designation[=].use.system = "http://snomed.info/sct"
 * #374 ^designation[=].use = $sct#900000000000013009
@@ -5154,10 +5173,10 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #374 ^property[+].code = #status
 * #374 ^property[=].valueCode = #active
 * #375 "Classe d'Adaptation"
-* #375 ^property[0].code = #parent
-* #375 ^property[=].valueCode = #4201
-* #375 ^property[+].code = #niveau
+* #375 ^property[0].code = #niveau
 * #375 ^property[=].valueInteger =  4
+* #375 ^property[+].code = #parent
+* #375 ^property[=].valueCode = #4201
 * #375 ^property[+].code = #dateValid
 * #375 ^property[=].valueDateTime = "1979-01-01T00:00:00+01:00"
 * #375 ^property[+].code = #dateFin
@@ -5169,10 +5188,10 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #375 ^property[+].code = #status
 * #375 ^property[=].valueCode = #deprecated
 * #376 "Classe Spéciale Ecole Primaire"
-* #376 ^property[0].code = #parent
-* #376 ^property[=].valueCode = #4201
-* #376 ^property[+].code = #niveau
+* #376 ^property[0].code = #niveau
 * #376 ^property[=].valueInteger =  4
+* #376 ^property[+].code = #parent
+* #376 ^property[=].valueCode = #4201
 * #376 ^designation[0].language = #fr-FR
 * #376 ^designation[=].use.system = "http://snomed.info/sct"
 * #376 ^designation[=].use = $sct#900000000000013009
@@ -5192,10 +5211,10 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #376 ^property[+].code = #status
 * #376 ^property[=].valueCode = #deprecated
 * #377 "Etablissement Expérimental pour Enfance Handicapée"
-* #377 ^property[0].code = #parent
-* #377 ^property[=].valueCode = #4107
-* #377 ^property[+].code = #niveau
+* #377 ^property[0].code = #niveau
 * #377 ^property[=].valueInteger =  4
+* #377 ^property[+].code = #parent
+* #377 ^property[=].valueCode = #4107
 * #377 ^designation[0].language = #fr-FR
 * #377 ^designation[=].use.system = "http://snomed.info/sct"
 * #377 ^designation[=].use = $sct#900000000000013009
@@ -5211,10 +5230,10 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #377 ^property[+].code = #status
 * #377 ^property[=].valueCode = #deprecated
 * #378 "Etablissement Expérimental Enfance Protégée"
-* #378 ^property[0].code = #parent
-* #378 ^property[=].valueCode = #4505
-* #378 ^property[+].code = #niveau
+* #378 ^property[0].code = #niveau
 * #378 ^property[=].valueInteger =  4
+* #378 ^property[+].code = #parent
+* #378 ^property[=].valueCode = #4505
 * #378 ^designation[0].language = #fr-FR
 * #378 ^designation[=].use.system = "http://snomed.info/sct"
 * #378 ^designation[=].use = $sct#900000000000013009
@@ -5226,10 +5245,10 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #378 ^property[+].code = #status
 * #378 ^property[=].valueCode = #active
 * #379 "Etablissement Expérimental pour Adultes Handicapés"
-* #379 ^property[0].code = #parent
-* #379 ^property[=].valueCode = #4304
-* #379 ^property[+].code = #niveau
+* #379 ^property[0].code = #niveau
 * #379 ^property[=].valueInteger =  4
+* #379 ^property[+].code = #parent
+* #379 ^property[=].valueCode = #4304
 * #379 ^designation[0].language = #fr-FR
 * #379 ^designation[=].use.system = "http://snomed.info/sct"
 * #379 ^designation[=].use = $sct#900000000000013009
@@ -5245,10 +5264,10 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #379 ^property[+].code = #status
 * #379 ^property[=].valueCode = #deprecated
 * #380 "Etablissement Expérimental Autres Adultes"
-* #380 ^property[0].code = #parent
-* #380 ^property[=].valueCode = #4603
-* #380 ^property[+].code = #niveau
+* #380 ^property[0].code = #niveau
 * #380 ^property[=].valueInteger =  4
+* #380 ^property[+].code = #parent
+* #380 ^property[=].valueCode = #4603
 * #380 ^designation[0].language = #fr-FR
 * #380 ^designation[=].use.system = "http://snomed.info/sct"
 * #380 ^designation[=].use = $sct#900000000000013009
@@ -5260,10 +5279,10 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #380 ^property[+].code = #status
 * #380 ^property[=].valueCode = #active
 * #381 "Etablissement Expérimental pour Personnes Agées"
-* #381 ^property[0].code = #parent
-* #381 ^property[=].valueCode = #4404
-* #381 ^property[+].code = #niveau
+* #381 ^property[0].code = #niveau
 * #381 ^property[=].valueInteger =  4
+* #381 ^property[+].code = #parent
+* #381 ^property[=].valueCode = #4404
 * #381 ^designation[0].language = #fr-FR
 * #381 ^designation[=].use.system = "http://snomed.info/sct"
 * #381 ^designation[=].use = $sct#900000000000013009
@@ -5279,10 +5298,10 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #381 ^property[+].code = #status
 * #381 ^property[=].valueCode = #active
 * #382 "Foyer de Vie pour Adultes Handicapés"
-* #382 ^property[0].code = #parent
-* #382 ^property[=].valueCode = #4301
-* #382 ^property[+].code = #niveau
+* #382 ^property[0].code = #niveau
 * #382 ^property[=].valueInteger =  4
+* #382 ^property[+].code = #parent
+* #382 ^property[=].valueCode = #4301
 * #382 ^designation[0].language = #fr-FR
 * #382 ^designation[=].use.system = "http://snomed.info/sct"
 * #382 ^designation[=].use = $sct#900000000000013009
@@ -5298,10 +5317,10 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #382 ^property[+].code = #status
 * #382 ^property[=].valueCode = #deprecated
 * #386 "Ecole Secondaire Spéciale"
-* #386 ^property[0].code = #parent
-* #386 ^property[=].valueCode = #4202
-* #386 ^property[+].code = #niveau
+* #386 ^property[0].code = #niveau
 * #386 ^property[=].valueInteger =  4
+* #386 ^property[+].code = #parent
+* #386 ^property[=].valueCode = #4202
 * #386 ^designation[0].language = #fr-FR
 * #386 ^designation[=].use.system = "http://snomed.info/sct"
 * #386 ^designation[=].use = $sct#900000000000013009
@@ -5317,10 +5336,10 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #386 ^property[+].code = #status
 * #386 ^property[=].valueCode = #deprecated
 * #390 "Etablissement d'Accueil Temporaire d'Enfants Handicapés"
-* #390 ^property[0].code = #parent
-* #390 ^property[=].valueCode = #4105
-* #390 ^property[+].code = #niveau
+* #390 ^property[0].code = #niveau
 * #390 ^property[=].valueInteger =  4
+* #390 ^property[+].code = #parent
+* #390 ^property[=].valueCode = #4105
 * #390 ^designation[0].language = #fr-FR
 * #390 ^designation[=].use.system = "http://snomed.info/sct"
 * #390 ^designation[=].use = $sct#900000000000013009
@@ -5332,10 +5351,10 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #390 ^property[+].code = #status
 * #390 ^property[=].valueCode = #active
 * #393 "Autre résidence But lucratif pr personnes Âgées"
-* #393 ^property[0].code = #parent
-* #393 ^property[=].valueCode = #4401
-* #393 ^property[+].code = #niveau
+* #393 ^property[0].code = #niveau
 * #393 ^property[=].valueInteger =  4
+* #393 ^property[+].code = #parent
+* #393 ^property[=].valueCode = #4401
 * #393 ^designation[0].language = #fr-FR
 * #393 ^designation[=].use.system = "http://snomed.info/sct"
 * #393 ^designation[=].use = $sct#900000000000013009
@@ -5355,10 +5374,10 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #393 ^property[+].code = #status
 * #393 ^property[=].valueCode = #deprecated
 * #394 "Etablissement d'Accueil Temporaire pour Personnes Agées"
-* #394 ^property[0].code = #parent
-* #394 ^property[=].valueCode = #4401
-* #394 ^property[+].code = #niveau
+* #394 ^property[0].code = #niveau
 * #394 ^property[=].valueInteger =  4
+* #394 ^property[+].code = #parent
+* #394 ^property[=].valueCode = #4401
 * #394 ^designation[0].language = #fr-FR
 * #394 ^designation[=].use.system = "http://snomed.info/sct"
 * #394 ^designation[=].use = $sct#900000000000013009
@@ -5378,10 +5397,10 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #394 ^property[+].code = #status
 * #394 ^property[=].valueCode = #deprecated
 * #395 "Etablissement d'Accueil Temporaire pour Adultes Handicapés"
-* #395 ^property[0].code = #parent
-* #395 ^property[=].valueCode = #4301
-* #395 ^property[+].code = #niveau
+* #395 ^property[0].code = #niveau
 * #395 ^property[=].valueInteger =  4
+* #395 ^property[+].code = #parent
+* #395 ^property[=].valueCode = #4301
 * #395 ^designation[0].language = #fr-FR
 * #395 ^designation[=].use.system = "http://snomed.info/sct"
 * #395 ^designation[=].use = $sct#900000000000013009
@@ -5393,10 +5412,10 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #395 ^property[+].code = #status
 * #395 ^property[=].valueCode = #active
 * #396 "Foyer Hébergement Enfants et Adolescents Handicapés"
-* #396 ^property[0].code = #parent
-* #396 ^property[=].valueCode = #4105
-* #396 ^property[+].code = #niveau
+* #396 ^property[0].code = #niveau
 * #396 ^property[=].valueInteger =  4
+* #396 ^property[+].code = #parent
+* #396 ^property[=].valueCode = #4105
 * #396 ^designation[0].language = #fr-FR
 * #396 ^designation[=].use.system = "http://snomed.info/sct"
 * #396 ^designation[=].use = $sct#900000000000013009
@@ -5412,10 +5431,10 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #396 ^property[+].code = #status
 * #396 ^property[=].valueCode = #active
 * #397 "Service Auxiliaire de Vie pour Handicapés"
-* #397 ^property[0].code = #parent
-* #397 ^property[=].valueCode = #4305
-* #397 ^property[+].code = #niveau
+* #397 ^property[0].code = #niveau
 * #397 ^property[=].valueInteger =  4
+* #397 ^property[+].code = #parent
+* #397 ^property[=].valueCode = #4305
 * #397 ^designation[0].language = #fr-FR
 * #397 ^designation[=].use.system = "http://snomed.info/sct"
 * #397 ^designation[=].use = $sct#900000000000013009
@@ -5431,10 +5450,10 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #397 ^property[+].code = #status
 * #397 ^property[=].valueCode = #deprecated
 * #398 "Crèche Parentale"
-* #398 ^property[0].code = #parent
-* #398 ^property[=].valueCode = #5101
-* #398 ^property[+].code = #niveau
+* #398 ^property[0].code = #niveau
 * #398 ^property[=].valueInteger =  4
+* #398 ^property[+].code = #parent
+* #398 ^property[=].valueCode = #5101
 * #398 ^property[+].code = #dateValid
 * #398 ^property[=].valueDateTime = "1979-01-01T00:00:00+01:00"
 * #398 ^property[+].code = #dateFin
@@ -5446,10 +5465,10 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #398 ^property[+].code = #status
 * #398 ^property[=].valueCode = #deprecated
 * #399 "Halte Garderie Parentale"
-* #399 ^property[0].code = #parent
-* #399 ^property[=].valueCode = #5101
-* #399 ^property[+].code = #niveau
+* #399 ^property[0].code = #niveau
 * #399 ^property[=].valueInteger =  4
+* #399 ^property[+].code = #parent
+* #399 ^property[=].valueCode = #5101
 * #399 ^designation[0].language = #fr-FR
 * #399 ^designation[=].use.system = "http://snomed.info/sct"
 * #399 ^designation[=].use = $sct#900000000000013009
@@ -5465,10 +5484,10 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #399 ^property[+].code = #status
 * #399 ^property[=].valueCode = #deprecated
 * #400 "Centre de Services pour Associations"
-* #400 ^property[0].code = #parent
-* #400 ^property[=].valueCode = #5104
-* #400 ^property[+].code = #niveau
+* #400 ^property[0].code = #niveau
 * #400 ^property[=].valueInteger =  4
+* #400 ^property[+].code = #parent
+* #400 ^property[=].valueCode = #5104
 * #400 ^designation[0].language = #fr-FR
 * #400 ^designation[=].use.system = "http://snomed.info/sct"
 * #400 ^designation[=].use = $sct#900000000000013009
@@ -5480,10 +5499,10 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #400 ^property[+].code = #status
 * #400 ^property[=].valueCode = #active
 * #401 "D.R.A.S.S."
-* #401 ^property[0].code = #parent
-* #401 ^property[=].valueCode = #0101
-* #401 ^property[+].code = #niveau
+* #401 ^property[0].code = #niveau
 * #401 ^property[=].valueInteger =  4
+* #401 ^property[+].code = #parent
+* #401 ^property[=].valueCode = #0101
 * #401 ^designation[0].language = #fr-FR
 * #401 ^designation[=].use.system = "http://snomed.info/sct"
 * #401 ^designation[=].use = $sct#900000000000013009
@@ -5499,10 +5518,10 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #401 ^property[+].code = #status
 * #401 ^property[=].valueCode = #deprecated
 * #402 "Jardin d'Enfants Spécialisé"
-* #402 ^property[0].code = #parent
-* #402 ^property[=].valueCode = #4101
-* #402 ^property[+].code = #niveau
+* #402 ^property[0].code = #niveau
 * #402 ^property[=].valueInteger =  4
+* #402 ^property[+].code = #parent
+* #402 ^property[=].valueCode = #4101
 * #402 ^designation[0].language = #fr-FR
 * #402 ^designation[=].use.system = "http://snomed.info/sct"
 * #402 ^designation[=].use = $sct#900000000000013009
@@ -5514,10 +5533,10 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #402 ^property[+].code = #status
 * #402 ^property[=].valueCode = #active
 * #403 "Service Social Spécialisé ou Polyvalent de Catégorie"
-* #403 ^property[0].code = #parent
-* #403 ^property[=].valueCode = #5104
-* #403 ^property[+].code = #niveau
+* #403 ^property[0].code = #niveau
 * #403 ^property[=].valueInteger =  4
+* #403 ^property[+].code = #parent
+* #403 ^property[=].valueCode = #5104
 * #403 ^designation[0].language = #fr-FR
 * #403 ^designation[=].use.system = "http://snomed.info/sct"
 * #403 ^designation[=].use = $sct#900000000000013009
@@ -5529,10 +5548,10 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #403 ^property[+].code = #status
 * #403 ^property[=].valueCode = #active
 * #404 "Etablissement Acc.Collect.Parental Régulier & Occasionnel"
-* #404 ^property[0].code = #parent
-* #404 ^property[=].valueCode = #5101
-* #404 ^property[+].code = #niveau
+* #404 ^property[0].code = #niveau
 * #404 ^property[=].valueInteger =  4
+* #404 ^property[+].code = #parent
+* #404 ^property[=].valueCode = #5101
 * #404 ^designation[0].language = #fr-FR
 * #404 ^designation[=].use.system = "http://snomed.info/sct"
 * #404 ^designation[=].use = $sct#900000000000013009
@@ -5552,10 +5571,10 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #404 ^property[+].code = #status
 * #404 ^property[=].valueCode = #deprecated
 * #405 "Service Social Polyvalent de Secteur"
-* #405 ^property[0].code = #parent
-* #405 ^property[=].valueCode = #5104
-* #405 ^property[+].code = #niveau
+* #405 ^property[0].code = #niveau
 * #405 ^property[=].valueInteger =  4
+* #405 ^property[+].code = #parent
+* #405 ^property[=].valueCode = #5104
 * #405 ^designation[0].language = #fr-FR
 * #405 ^designation[=].use.system = "http://snomed.info/sct"
 * #405 ^designation[=].use = $sct#900000000000013009
@@ -5567,10 +5586,10 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #405 ^property[+].code = #status
 * #405 ^property[=].valueCode = #active
 * #411 "Intermédiaire de Placement Social"
-* #411 ^property[0].code = #parent
-* #411 ^property[=].valueCode = #4501
-* #411 ^property[+].code = #niveau
+* #411 ^property[0].code = #niveau
 * #411 ^property[=].valueInteger =  4
+* #411 ^property[+].code = #parent
+* #411 ^property[=].valueCode = #4501
 * #411 ^designation[0].language = #fr-FR
 * #411 ^designation[=].use.system = "http://snomed.info/sct"
 * #411 ^designation[=].use = $sct#900000000000013009
@@ -5582,10 +5601,10 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #411 ^property[+].code = #status
 * #411 ^property[=].valueCode = #active
 * #412 "Appartement Thérapeutique"
-* #412 ^property[0].code = #parent
-* #412 ^property[=].valueCode = #1111
-* #412 ^property[+].code = #niveau
+* #412 ^property[0].code = #niveau
 * #412 ^property[=].valueInteger =  4
+* #412 ^property[+].code = #parent
+* #412 ^property[=].valueCode = #1111
 * #412 ^designation[0].language = #fr-FR
 * #412 ^designation[=].use.system = "http://snomed.info/sct"
 * #412 ^designation[=].use = $sct#900000000000013009
@@ -5597,10 +5616,10 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #412 ^property[+].code = #status
 * #412 ^property[=].valueCode = #active
 * #413 "C.E.C.O.S"
-* #413 ^property[0].code = #parent
-* #413 ^property[=].valueCode = #3402
-* #413 ^property[+].code = #niveau
+* #413 ^property[0].code = #niveau
 * #413 ^property[=].valueInteger =  4
+* #413 ^property[+].code = #parent
+* #413 ^property[=].valueCode = #3402
 * #413 ^designation[0].language = #fr-FR
 * #413 ^designation[=].use.system = "http://snomed.info/sct"
 * #413 ^designation[=].use = $sct#900000000000013009
@@ -5616,10 +5635,10 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #413 ^property[+].code = #status
 * #413 ^property[=].valueCode = #deprecated
 * #414 "Centre Anti Poison"
-* #414 ^property[0].code = #parent
-* #414 ^property[=].valueCode = #3403
-* #414 ^property[+].code = #niveau
+* #414 ^property[0].code = #niveau
 * #414 ^property[=].valueInteger =  4
+* #414 ^property[+].code = #parent
+* #414 ^property[=].valueCode = #3403
 * #414 ^designation[0].language = #fr-FR
 * #414 ^designation[=].use.system = "http://snomed.info/sct"
 * #414 ^designation[=].use = $sct#900000000000013009
@@ -5635,10 +5654,10 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #414 ^property[+].code = #status
 * #414 ^property[=].valueCode = #deprecated
 * #415 "Service Médico-Psychologique Régional (S.M.P.R.)"
-* #415 ^property[0].code = #parent
-* #415 ^property[=].valueCode = #1111
-* #415 ^property[+].code = #niveau
+* #415 ^property[0].code = #niveau
 * #415 ^property[=].valueInteger =  4
+* #415 ^property[+].code = #parent
+* #415 ^property[=].valueCode = #1111
 * #415 ^designation[0].language = #fr-FR
 * #415 ^designation[=].use.system = "http://snomed.info/sct"
 * #415 ^designation[=].use = $sct#900000000000013009
@@ -5654,7 +5673,7 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #415 ^property[+].code = #status
 * #415 ^property[=].valueCode = #active
 * #418 "Service d'Enquêtes Sociales (S.E.S.)"
-* #418 ^property[+].code = #niveau
+* #418 ^property[0].code = #niveau
 * #418 ^property[=].valueInteger =  4
 * #418 ^designation[0].language = #fr-FR
 * #418 ^designation[=].use.system = "http://snomed.info/sct"
@@ -5675,10 +5694,10 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #418 ^property[+].code = #status
 * #418 ^property[=].valueCode = #deprecated
 * #419 "Centre d'Accueil Toxicomanes"
-* #419 ^property[0].code = #parent
-* #419 ^property[=].valueCode = #1113
-* #419 ^property[+].code = #niveau
+* #419 ^property[0].code = #niveau
 * #419 ^property[=].valueInteger =  4
+* #419 ^property[+].code = #parent
+* #419 ^property[=].valueCode = #1113
 * #419 ^designation[0].language = #fr-FR
 * #419 ^designation[=].use.system = "http://snomed.info/sct"
 * #419 ^designation[=].use = $sct#900000000000013009
@@ -5694,10 +5713,10 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #419 ^property[+].code = #status
 * #419 ^property[=].valueCode = #deprecated
 * #420 "Entreprise d'Insertion"
-* #420 ^property[0].code = #parent
-* #420 ^property[=].valueCode = #4601
-* #420 ^property[+].code = #niveau
+* #420 ^property[0].code = #niveau
 * #420 ^property[=].valueInteger =  4
+* #420 ^property[+].code = #parent
+* #420 ^property[=].valueCode = #4601
 * #420 ^designation[0].language = #fr-FR
 * #420 ^designation[=].use.system = "http://snomed.info/sct"
 * #420 ^designation[=].use = $sct#900000000000013009
@@ -5713,10 +5732,10 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #420 ^property[+].code = #status
 * #420 ^property[=].valueCode = #deprecated
 * #421 "Centre d'enseignement aux secours d'urgence"
-* #421 ^property[0].code = #parent
-* #421 ^property[=].valueCode = #6103
-* #421 ^property[+].code = #niveau
+* #421 ^property[0].code = #niveau
 * #421 ^property[=].valueInteger =  4
+* #421 ^property[+].code = #parent
+* #421 ^property[=].valueCode = #6103
 * #421 ^designation[0].language = #fr-FR
 * #421 ^designation[=].use.system = "http://snomed.info/sct"
 * #421 ^designation[=].use = $sct#900000000000013009
@@ -5732,10 +5751,10 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #421 ^property[+].code = #status
 * #421 ^property[=].valueCode = #deprecated
 * #422 "Traitements Spécialisés à Domicile"
-* #422 ^property[0].code = #parent
-* #422 ^property[=].valueCode = #1201
-* #422 ^property[+].code = #niveau
+* #422 ^property[0].code = #niveau
 * #422 ^property[=].valueInteger =  4
+* #422 ^property[+].code = #parent
+* #422 ^property[=].valueCode = #1201
 * #422 ^designation[0].language = #fr-FR
 * #422 ^designation[=].use.system = "http://snomed.info/sct"
 * #422 ^designation[=].use = $sct#900000000000013009
@@ -5747,10 +5766,10 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #422 ^property[+].code = #status
 * #422 ^property[=].valueCode = #active
 * #423 "Ecole des cadres de laborantins d'analyses médicales"
-* #423 ^property[0].code = #parent
-* #423 ^property[=].valueCode = #6102
-* #423 ^property[+].code = #niveau
+* #423 ^property[0].code = #niveau
 * #423 ^property[=].valueInteger =  4
+* #423 ^property[+].code = #parent
+* #423 ^property[=].valueCode = #6102
 * #423 ^designation[0].language = #fr-FR
 * #423 ^designation[=].use.system = "http://snomed.info/sct"
 * #423 ^designation[=].use = $sct#900000000000013009
@@ -5766,10 +5785,10 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #423 ^property[+].code = #status
 * #423 ^property[=].valueCode = #deprecated
 * #425 "Centre d'Accueil Thérapeutique à temps partiel (C.A.T.T.P.)"
-* #425 ^property[0].code = #parent
-* #425 ^property[=].valueCode = #1111
-* #425 ^property[+].code = #niveau
+* #425 ^property[0].code = #niveau
 * #425 ^property[=].valueInteger =  4
+* #425 ^property[+].code = #parent
+* #425 ^property[=].valueCode = #1111
 * #425 ^designation[0].language = #fr-FR
 * #425 ^designation[=].use.system = "http://snomed.info/sct"
 * #425 ^designation[=].use = $sct#900000000000013009
@@ -5785,10 +5804,10 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #425 ^property[+].code = #status
 * #425 ^property[=].valueCode = #active
 * #426 "Syndicat Inter Hospitalier (S.I.H.)"
-* #426 ^property[0].code = #parent
-* #426 ^property[=].valueCode = #1205
-* #426 ^property[+].code = #niveau
+* #426 ^property[0].code = #niveau
 * #426 ^property[=].valueInteger =  4
+* #426 ^property[+].code = #parent
+* #426 ^property[=].valueCode = #1205
 * #426 ^designation[0].language = #fr-FR
 * #426 ^designation[=].use.system = "http://snomed.info/sct"
 * #426 ^designation[=].use = $sct#900000000000013009
@@ -5804,7 +5823,7 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #426 ^property[+].code = #status
 * #426 ^property[=].valueCode = #active
 * #427 "Service Educatif Auprès des Tribunaux (S.E.A.T.)"
-* #427 ^property[+].code = #niveau
+* #427 ^property[0].code = #niveau
 * #427 ^property[=].valueInteger =  4
 * #427 ^designation[0].language = #fr-FR
 * #427 ^designation[=].use.system = "http://snomed.info/sct"
@@ -5825,10 +5844,10 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #427 ^property[+].code = #status
 * #427 ^property[=].valueCode = #deprecated
 * #430 "Centre Postcure Malades Mentaux"
-* #430 ^property[0].code = #parent
-* #430 ^property[=].valueCode = #1111
-* #430 ^property[+].code = #niveau
+* #430 ^property[0].code = #niveau
 * #430 ^property[=].valueInteger =  4
+* #430 ^property[+].code = #parent
+* #430 ^property[=].valueCode = #1111
 * #430 ^designation[0].language = #fr-FR
 * #430 ^designation[=].use.system = "http://snomed.info/sct"
 * #430 ^designation[=].use = $sct#900000000000013009
@@ -5844,10 +5863,10 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #430 ^property[+].code = #status
 * #430 ^property[=].valueCode = #active
 * #431 "Centre Postcure pour Alcooliques"
-* #431 ^property[0].code = #parent
-* #431 ^property[=].valueCode = #1113
-* #431 ^property[+].code = #niveau
+* #431 ^property[0].code = #niveau
 * #431 ^property[=].valueInteger =  4
+* #431 ^property[+].code = #parent
+* #431 ^property[=].valueCode = #1113
 * #431 ^designation[0].language = #fr-FR
 * #431 ^designation[=].use.system = "http://snomed.info/sct"
 * #431 ^designation[=].use = $sct#900000000000013009
@@ -5863,10 +5882,10 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #431 ^property[+].code = #status
 * #431 ^property[=].valueCode = #deprecated
 * #432 "Centre Postcure pour Toxicomanes"
-* #432 ^property[0].code = #parent
-* #432 ^property[=].valueCode = #1113
-* #432 ^property[+].code = #niveau
+* #432 ^property[0].code = #niveau
 * #432 ^property[=].valueInteger =  4
+* #432 ^property[+].code = #parent
+* #432 ^property[=].valueCode = #1113
 * #432 ^designation[0].language = #fr-FR
 * #432 ^designation[=].use.system = "http://snomed.info/sct"
 * #432 ^designation[=].use = $sct#900000000000013009
@@ -5882,10 +5901,10 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #432 ^property[+].code = #status
 * #432 ^property[=].valueCode = #deprecated
 * #433 "Etablissement Sanitaire des Prisons"
-* #433 ^property[0].code = #parent
-* #433 ^property[=].valueCode = #2204
-* #433 ^property[+].code = #niveau
+* #433 ^property[0].code = #niveau
 * #433 ^property[=].valueInteger =  4
+* #433 ^property[+].code = #parent
+* #433 ^property[=].valueCode = #2204
 * #433 ^designation[0].language = #fr-FR
 * #433 ^designation[=].use.system = "http://snomed.info/sct"
 * #433 ^designation[=].use = $sct#900000000000013009
@@ -5897,10 +5916,10 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #433 ^property[+].code = #status
 * #433 ^property[=].valueCode = #active
 * #434 "Classe Spéciale en Ecole Maternelle"
-* #434 ^property[0].code = #parent
-* #434 ^property[=].valueCode = #4201
-* #434 ^property[+].code = #niveau
+* #434 ^property[0].code = #niveau
 * #434 ^property[=].valueInteger =  4
+* #434 ^property[+].code = #parent
+* #434 ^property[=].valueCode = #4201
 * #434 ^designation[0].language = #fr-FR
 * #434 ^designation[=].use.system = "http://snomed.info/sct"
 * #434 ^designation[=].use = $sct#900000000000013009
@@ -5920,10 +5939,10 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #434 ^property[+].code = #status
 * #434 ^property[=].valueCode = #deprecated
 * #435 "Centre de formation d'aide à domicile"
-* #435 ^property[0].code = #parent
-* #435 ^property[=].valueCode = #6201
-* #435 ^property[+].code = #niveau
+* #435 ^property[0].code = #niveau
 * #435 ^property[=].valueInteger =  4
+* #435 ^property[+].code = #parent
+* #435 ^property[=].valueCode = #6201
 * #435 ^designation[0].language = #fr-FR
 * #435 ^designation[=].use.system = "http://snomed.info/sct"
 * #435 ^designation[=].use = $sct#900000000000013009
@@ -5939,10 +5958,10 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #435 ^property[+].code = #status
 * #435 ^property[=].valueCode = #deprecated
 * #436 "Ecoles Formant aux Professions Sanitaires et Sociales"
-* #436 ^property[0].code = #parent
-* #436 ^property[=].valueCode = #6301
-* #436 ^property[+].code = #niveau
+* #436 ^property[0].code = #niveau
 * #436 ^property[=].valueInteger =  4
+* #436 ^property[+].code = #parent
+* #436 ^property[=].valueCode = #6301
 * #436 ^designation[0].language = #fr-FR
 * #436 ^designation[=].use.system = "http://snomed.info/sct"
 * #436 ^designation[=].use = $sct#900000000000013009
@@ -5954,10 +5973,10 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #436 ^property[+].code = #status
 * #436 ^property[=].valueCode = #active
 * #437 "Foyer d'Accueil Médicalisé pour Adultes Handicapés (F.A.M.)"
-* #437 ^property[0].code = #parent
-* #437 ^property[=].valueCode = #4301
-* #437 ^property[+].code = #niveau
+* #437 ^property[0].code = #niveau
 * #437 ^property[=].valueInteger =  4
+* #437 ^property[+].code = #parent
+* #437 ^property[=].valueCode = #4301
 * #437 ^designation[0].language = #fr-FR
 * #437 ^designation[=].use.system = "http://snomed.info/sct"
 * #437 ^designation[=].use = $sct#900000000000013009
@@ -5977,10 +5996,10 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #437 ^property[+].code = #status
 * #437 ^property[=].valueCode = #deprecated
 * #438 "Centre de Médecine collective"
-* #438 ^property[0].code = #parent
-* #438 ^property[=].valueCode = #2201
-* #438 ^property[+].code = #niveau
+* #438 ^property[0].code = #niveau
 * #438 ^property[=].valueInteger =  4
+* #438 ^property[+].code = #parent
+* #438 ^property[=].valueCode = #2201
 * #438 ^designation[0].language = #fr-FR
 * #438 ^designation[=].use.system = "http://snomed.info/sct"
 * #438 ^designation[=].use = $sct#900000000000013009
@@ -5992,10 +6011,10 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #438 ^property[+].code = #status
 * #438 ^property[=].valueCode = #active
 * #439 "Centre Santé Polyvalent"
-* #439 ^property[0].code = #parent
-* #439 ^property[=].valueCode = #2206
-* #439 ^property[+].code = #niveau
+* #439 ^property[0].code = #niveau
 * #439 ^property[=].valueInteger =  4
+* #439 ^property[+].code = #parent
+* #439 ^property[=].valueCode = #2206
 * #439 ^designation[0].language = #fr-FR
 * #439 ^designation[=].use.system = "http://snomed.info/sct"
 * #439 ^designation[=].use = $sct#900000000000013009
@@ -6015,10 +6034,10 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #439 ^property[+].code = #status
 * #439 ^property[=].valueCode = #deprecated
 * #440 "Service d’Investigation Educative"
-* #440 ^property[0].code = #parent
-* #440 ^property[=].valueCode = #4502
-* #440 ^property[+].code = #niveau
+* #440 ^property[0].code = #niveau
 * #440 ^property[=].valueInteger =  4
+* #440 ^property[+].code = #parent
+* #440 ^property[=].valueCode = #4502
 * #440 ^property[+].code = #dateValid
 * #440 ^property[=].valueDateTime = "1979-01-01T00:00:00+01:00"
 * #440 ^property[+].code = #dateMaj
@@ -6026,10 +6045,10 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #440 ^property[+].code = #status
 * #440 ^property[=].valueCode = #active
 * #441 "Service d’Intervention Educative en Milieu Ouvert"
-* #441 ^property[0].code = #parent
-* #441 ^property[=].valueCode = #4502
-* #441 ^property[+].code = #niveau
+* #441 ^property[0].code = #niveau
 * #441 ^property[=].valueInteger =  4
+* #441 ^property[+].code = #parent
+* #441 ^property[=].valueCode = #4502
 * #441 ^designation[0].language = #fr-FR
 * #441 ^designation[=].use.system = "http://snomed.info/sct"
 * #441 ^designation[=].use = $sct#900000000000013009
@@ -6041,10 +6060,10 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #441 ^property[+].code = #status
 * #441 ^property[=].valueCode = #active
 * #442 "Centre Provisoire Hébergement (C.P.H.)"
-* #442 ^property[0].code = #parent
-* #442 ^property[=].valueCode = #4601
-* #442 ^property[+].code = #niveau
+* #442 ^property[0].code = #niveau
 * #442 ^property[=].valueInteger =  4
+* #442 ^property[+].code = #parent
+* #442 ^property[=].valueCode = #4601
 * #442 ^designation[0].language = #fr-FR
 * #442 ^designation[=].use.system = "http://snomed.info/sct"
 * #442 ^designation[=].use = $sct#900000000000013009
@@ -6060,10 +6079,10 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #442 ^property[+].code = #status
 * #442 ^property[=].valueCode = #active
 * #443 "Centre Accueil Demandeurs Asile (C.A.D.A.)"
-* #443 ^property[0].code = #parent
-* #443 ^property[=].valueCode = #4601
-* #443 ^property[+].code = #niveau
+* #443 ^property[0].code = #niveau
 * #443 ^property[=].valueInteger =  4
+* #443 ^property[+].code = #parent
+* #443 ^property[=].valueCode = #4601
 * #443 ^designation[0].language = #fr-FR
 * #443 ^designation[=].use.system = "http://snomed.info/sct"
 * #443 ^designation[=].use = $sct#900000000000013009
@@ -6079,10 +6098,10 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #443 ^property[+].code = #status
 * #443 ^property[=].valueCode = #active
 * #444 "Centre Crise Accueil Permanent"
-* #444 ^property[0].code = #parent
-* #444 ^property[=].valueCode = #1111
-* #444 ^property[+].code = #niveau
+* #444 ^property[0].code = #niveau
 * #444 ^property[=].valueInteger =  4
+* #444 ^property[+].code = #parent
+* #444 ^property[=].valueCode = #1111
 * #444 ^designation[0].language = #fr-FR
 * #444 ^designation[=].use.system = "http://snomed.info/sct"
 * #444 ^designation[=].use = $sct#900000000000013009
@@ -6098,10 +6117,10 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #444 ^property[+].code = #status
 * #444 ^property[=].valueCode = #active
 * #445 "Service d'accompagnement médico-social adultes handicapés"
-* #445 ^property[0].code = #parent
-* #445 ^property[=].valueCode = #4305
-* #445 ^property[+].code = #niveau
+* #445 ^property[0].code = #niveau
 * #445 ^property[=].valueInteger =  4
+* #445 ^property[+].code = #parent
+* #445 ^property[=].valueCode = #4305
 * #445 ^designation[0].language = #fr-FR
 * #445 ^designation[=].use.system = "http://snomed.info/sct"
 * #445 ^designation[=].use = $sct#900000000000013009
@@ -6117,10 +6136,10 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #445 ^property[+].code = #status
 * #445 ^property[=].valueCode = #active
 * #446 "Service d'Accompagnement à la Vie Sociale (S.A.V.S.)"
-* #446 ^property[0].code = #parent
-* #446 ^property[=].valueCode = #4305
-* #446 ^property[+].code = #niveau
+* #446 ^property[0].code = #niveau
 * #446 ^property[=].valueInteger =  4
+* #446 ^property[+].code = #parent
+* #446 ^property[=].valueCode = #4305
 * #446 ^designation[0].language = #fr-FR
 * #446 ^designation[=].use.system = "http://snomed.info/sct"
 * #446 ^designation[=].use = $sct#900000000000013009
@@ -6136,10 +6155,10 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #446 ^property[+].code = #status
 * #446 ^property[=].valueCode = #active
 * #447 "Entreprise Intérim Insertion"
-* #447 ^property[0].code = #parent
-* #447 ^property[=].valueCode = #4601
-* #447 ^property[+].code = #niveau
+* #447 ^property[0].code = #niveau
 * #447 ^property[=].valueInteger =  4
+* #447 ^property[+].code = #parent
+* #447 ^property[=].valueCode = #4601
 * #447 ^designation[0].language = #fr-FR
 * #447 ^designation[=].use.system = "http://snomed.info/sct"
 * #447 ^designation[=].use = $sct#900000000000013009
@@ -6155,10 +6174,10 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #447 ^property[+].code = #status
 * #447 ^property[=].valueCode = #deprecated
 * #448 "Etab.Acc.Médicalisé en tout ou partie personnes handicapées"
-* #448 ^property[0].code = #parent
-* #448 ^property[=].valueCode = #4301
-* #448 ^property[+].code = #niveau
+* #448 ^property[0].code = #niveau
 * #448 ^property[=].valueInteger =  4
+* #448 ^property[+].code = #parent
+* #448 ^property[=].valueCode = #4301
 * #448 ^designation[0].language = #fr-FR
 * #448 ^designation[=].use.system = "http://snomed.info/sct"
 * #448 ^designation[=].use = $sct#900000000000013009
@@ -6174,10 +6193,10 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #448 ^property[+].code = #status
 * #448 ^property[=].valueCode = #active
 * #449 "Etab.Accueil Non Médicalisé pour personnes handicapées"
-* #449 ^property[0].code = #parent
-* #449 ^property[=].valueCode = #4301
-* #449 ^property[+].code = #niveau
+* #449 ^property[0].code = #niveau
 * #449 ^property[=].valueInteger =  4
+* #449 ^property[+].code = #parent
+* #449 ^property[=].valueCode = #4301
 * #449 ^designation[0].language = #fr-FR
 * #449 ^designation[=].use.system = "http://snomed.info/sct"
 * #449 ^designation[=].use = $sct#900000000000013009
@@ -6193,10 +6212,10 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #449 ^property[+].code = #status
 * #449 ^property[=].valueCode = #active
 * #450 "Service d'Aide aux Personnes Agées"
-* #450 ^property[0].code = #parent
-* #450 ^property[=].valueCode = #4403
-* #450 ^property[+].code = #niveau
+* #450 ^property[0].code = #niveau
 * #450 ^property[=].valueInteger =  4
+* #450 ^property[+].code = #parent
+* #450 ^property[=].valueCode = #4403
 * #450 ^designation[0].language = #fr-FR
 * #450 ^designation[=].use.system = "http://snomed.info/sct"
 * #450 ^designation[=].use = $sct#900000000000013009
@@ -6216,10 +6235,10 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #450 ^property[+].code = #status
 * #450 ^property[=].valueCode = #deprecated
 * #451 "Service d'Aide aux Familles en Difficulté"
-* #451 ^property[0].code = #parent
-* #451 ^property[=].valueCode = #5104
-* #451 ^property[+].code = #niveau
+* #451 ^property[0].code = #niveau
 * #451 ^property[=].valueInteger =  4
+* #451 ^property[+].code = #parent
+* #451 ^property[=].valueCode = #5104
 * #451 ^designation[0].language = #fr-FR
 * #451 ^designation[=].use.system = "http://snomed.info/sct"
 * #451 ^designation[=].use = $sct#900000000000013009
@@ -6235,10 +6254,10 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #451 ^property[+].code = #status
 * #451 ^property[=].valueCode = #deprecated
 * #452 "Régie de Quartier"
-* #452 ^property[0].code = #parent
-* #452 ^property[=].valueCode = #4601
-* #452 ^property[+].code = #niveau
+* #452 ^property[0].code = #niveau
 * #452 ^property[=].valueInteger =  4
+* #452 ^property[+].code = #parent
+* #452 ^property[=].valueCode = #4601
 * #452 ^property[+].code = #dateValid
 * #452 ^property[=].valueDateTime = "1979-01-01T00:00:00+01:00"
 * #452 ^property[+].code = #dateFin
@@ -6250,7 +6269,7 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #452 ^property[+].code = #status
 * #452 ^property[=].valueCode = #deprecated
 * #453 "Service de Réparation Pénale"
-* #453 ^property[+].code = #niveau
+* #453 ^property[0].code = #niveau
 * #453 ^property[=].valueInteger =  4
 * #453 ^designation[0].language = #fr-FR
 * #453 ^designation[=].use.system = "http://snomed.info/sct"
@@ -6267,10 +6286,10 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #453 ^property[+].code = #status
 * #453 ^property[=].valueCode = #deprecated
 * #460 "Service autonomie aide (SAA)"
-* #460 ^property[0].code = #parent
-* #460 ^property[=].valueCode = #4605
-* #460 ^property[+].code = #niveau
+* #460 ^property[0].code = #niveau
 * #460 ^property[=].valueInteger =  4
+* #460 ^property[+].code = #parent
+* #460 ^property[=].valueCode = #4605
 * #460 ^designation[0].language = #fr-FR
 * #460 ^designation[=].use.system = "http://snomed.info/sct"
 * #460 ^designation[=].use = $sct#900000000000013009
@@ -6286,10 +6305,10 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #460 ^property[+].code = #status
 * #460 ^property[=].valueCode = #active
 * #461 "Centres de Ressources S.A.I. (Sans Aucune Indication)"
-* #461 ^property[0].code = #parent
-* #461 ^property[=].valueCode = #4606
-* #461 ^property[+].code = #niveau
+* #461 ^property[0].code = #niveau
 * #461 ^property[=].valueInteger =  4
+* #461 ^property[+].code = #parent
+* #461 ^property[=].valueCode = #4606
 * #461 ^designation[0].language = #fr-FR
 * #461 ^designation[=].use.system = "http://snomed.info/sct"
 * #461 ^designation[=].use = $sct#900000000000013009
@@ -6305,10 +6324,10 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #461 ^property[+].code = #status
 * #461 ^property[=].valueCode = #active
 * #462 "Lieux de Vie et d’Accueil"
-* #462 ^property[0].code = #parent
-* #462 ^property[=].valueCode = #4605
-* #462 ^property[+].code = #niveau
+* #462 ^property[0].code = #niveau
 * #462 ^property[=].valueInteger =  4
+* #462 ^property[+].code = #parent
+* #462 ^property[=].valueCode = #4605
 * #462 ^property[+].code = #dateValid
 * #462 ^property[=].valueDateTime = "2002-01-01T00:00:00+01:00"
 * #462 ^property[+].code = #dateMaj
@@ -6316,10 +6335,10 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #462 ^property[+].code = #status
 * #462 ^property[=].valueCode = #active
 * #463 "Centres Locaux Information Coordination P.A.(C.L.I.C.)"
-* #463 ^property[0].code = #parent
-* #463 ^property[=].valueCode = #4606
-* #463 ^property[+].code = #niveau
+* #463 ^property[0].code = #niveau
 * #463 ^property[=].valueInteger =  4
+* #463 ^property[+].code = #parent
+* #463 ^property[=].valueCode = #4606
 * #463 ^designation[0].language = #fr-FR
 * #463 ^designation[=].use.system = "http://snomed.info/sct"
 * #463 ^designation[=].use = $sct#900000000000013009
@@ -6335,10 +6354,10 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #463 ^property[+].code = #status
 * #463 ^property[=].valueCode = #active
 * #464 "Unités Evaluation Réentraînement et d'Orient. Soc. et Pro."
-* #464 ^property[0].code = #parent
-* #464 ^property[=].valueCode = #4609
-* #464 ^property[+].code = #niveau
+* #464 ^property[0].code = #niveau
 * #464 ^property[=].valueInteger =  4
+* #464 ^property[+].code = #parent
+* #464 ^property[=].valueCode = #4609
 * #464 ^designation[0].language = #fr-FR
 * #464 ^designation[=].use.system = "http://snomed.info/sct"
 * #464 ^designation[=].use = $sct#900000000000013009
@@ -6354,10 +6373,10 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #464 ^property[+].code = #status
 * #464 ^property[=].valueCode = #active
 * #500 "Etablissement d'hébergement pour personnes âgées dépendantes"
-* #500 ^property[0].code = #parent
-* #500 ^property[=].valueCode = #4401
-* #500 ^property[+].code = #niveau
+* #500 ^property[0].code = #niveau
 * #500 ^property[=].valueInteger =  4
+* #500 ^property[+].code = #parent
+* #500 ^property[=].valueCode = #4401
 * #500 ^designation[0].language = #fr-FR
 * #500 ^designation[=].use.system = "http://snomed.info/sct"
 * #500 ^designation[=].use = $sct#900000000000013009
@@ -6369,10 +6388,10 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #500 ^property[+].code = #status
 * #500 ^property[=].valueCode = #active
 * #501 "EHPA percevant des crédits d'assurance maladie"
-* #501 ^property[0].code = #parent
-* #501 ^property[=].valueCode = #4401
-* #501 ^property[+].code = #niveau
+* #501 ^property[0].code = #niveau
 * #501 ^property[=].valueInteger =  4
+* #501 ^property[+].code = #parent
+* #501 ^property[=].valueCode = #4401
 * #501 ^designation[0].language = #fr-FR
 * #501 ^designation[=].use.system = "http://snomed.info/sct"
 * #501 ^designation[=].use = $sct#900000000000013009
@@ -6384,10 +6403,10 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #501 ^property[+].code = #status
 * #501 ^property[=].valueCode = #active
 * #502 "EHPA ne percevant pas des crédits d'assurance maladie"
-* #502 ^property[0].code = #parent
-* #502 ^property[=].valueCode = #4401
-* #502 ^property[+].code = #niveau
+* #502 ^property[0].code = #niveau
 * #502 ^property[=].valueInteger =  4
+* #502 ^property[+].code = #parent
+* #502 ^property[=].valueCode = #4401
 * #502 ^designation[0].language = #fr-FR
 * #502 ^designation[=].use.system = "http://snomed.info/sct"
 * #502 ^designation[=].use = $sct#900000000000013009
@@ -6399,10 +6418,10 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #502 ^property[+].code = #status
 * #502 ^property[=].valueCode = #active
 * #601 "Cabinet Libéral Médical"
-* #601 ^property[0].code = #parent
-* #601 ^property[=].valueCode = #2101
-* #601 ^property[+].code = #niveau
+* #601 ^property[0].code = #niveau
 * #601 ^property[=].valueInteger =  4
+* #601 ^property[+].code = #parent
+* #601 ^property[=].valueCode = #2101
 * #601 ^designation[0].language = #fr-FR
 * #601 ^designation[=].use.system = "http://snomed.info/sct"
 * #601 ^designation[=].use = $sct#900000000000013009
@@ -6418,10 +6437,10 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #601 ^property[+].code = #status
 * #601 ^property[=].valueCode = #deprecated
 * #602 "Cabinet de Groupe"
-* #602 ^property[0].code = #parent
-* #602 ^property[=].valueCode = #2102
-* #602 ^property[+].code = #niveau
+* #602 ^property[0].code = #niveau
 * #602 ^property[=].valueInteger =  4
+* #602 ^property[+].code = #parent
+* #602 ^property[=].valueCode = #2102
 * #602 ^property[+].code = #dateValid
 * #602 ^property[=].valueDateTime = "1979-01-01T00:00:00+01:00"
 * #602 ^property[+].code = #dateFin
@@ -6433,10 +6452,10 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #602 ^property[+].code = #status
 * #602 ^property[=].valueCode = #deprecated
 * #603 "Maison de santé (L.6223-3)"
-* #603 ^property[0].code = #parent
-* #603 ^property[=].valueCode = #2103
-* #603 ^property[+].code = #niveau
+* #603 ^property[0].code = #niveau
 * #603 ^property[=].valueInteger =  4
+* #603 ^property[+].code = #parent
+* #603 ^property[=].valueCode = #2103
 * #603 ^designation[0].language = #fr-FR
 * #603 ^designation[=].use.system = "http://snomed.info/sct"
 * #603 ^designation[=].use = $sct#900000000000013009
@@ -6452,10 +6471,10 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #603 ^property[+].code = #status
 * #603 ^property[=].valueCode = #active
 * #604 "Communauté Professionnelle Territoriale de Santé (CPTS)" "Les Communautés Professionnelles Territoriales de Santé (CPTS) ont été créées par la loi de modernisation de notre système de santé du 26 janvier 2016 (cf. articles Article L1434-12 et Article L1434-13 du code de la Santé Publique). Leur enregistrement est régi par l'instruction DGOS/DIR/DREES/DMSI/2020/12. Les CPTS sont un espace d'organisation et de coordination entre professionnels de santé et non pas des structures de soins : elles regroupent les professionnels de santé d'un même territoire qui souhaitent s'organiser - à leur initiative - autour d'un projet de santé pour répondre aux besoins de santé de la population. Les CPTS sont constituées entre des professionnels de santé, le cas échéant de maisons de santé, de centres de santé, de réseaux de santé, d'établissements de santé, d'établissements et de services médico-sociaux, des groupements de coopération sanitaire, et des groupements de coopération sociale et médicosociale. Grâce à l'accord conventionnel interprofessionnel (ACI) intervenu en 2019, les CPTS dont le projet de santé est validé par l'ARS sont enregistrés dans FINESS et peuvent bénéficier de financement de l'assurance maladie  Ne sont enregistrés dans FINESS que l'Entité Juridique et le siège social. Les établissements et professionnels constitutif d'une CPTS ne sont pas enregistrés dans FINESS."
-* #604 ^property[0].code = #parent
-* #604 ^property[=].valueCode = #2103
-* #604 ^property[+].code = #niveau
+* #604 ^property[0].code = #niveau
 * #604 ^property[=].valueInteger =  4
+* #604 ^property[+].code = #parent
+* #604 ^property[=].valueCode = #2103
 * #604 ^designation[0].language = #fr-FR
 * #604 ^designation[=].use.system = "http://snomed.info/sct"
 * #604 ^designation[=].use = $sct#900000000000013009
@@ -6467,10 +6486,10 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #604 ^property[+].code = #status
 * #604 ^property[=].valueCode = #active
 * #605 "Cabinet d'Auxiliaires Médicaux"
-* #605 ^property[0].code = #parent
-* #605 ^property[=].valueCode = #2105
-* #605 ^property[+].code = #niveau
+* #605 ^property[0].code = #niveau
 * #605 ^property[=].valueInteger =  4
+* #605 ^property[+].code = #parent
+* #605 ^property[=].valueCode = #2105
 * #605 ^designation[0].language = #fr-FR
 * #605 ^designation[=].use.system = "http://snomed.info/sct"
 * #605 ^designation[=].use = $sct#900000000000013009
@@ -6486,10 +6505,10 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #605 ^property[+].code = #status
 * #605 ^property[=].valueCode = #deprecated
 * #606 "Dispositif d'appui à la coordination (DAC)"
-* #606 ^property[0].code = #parent
-* #606 ^property[=].valueCode = #3408
-* #606 ^property[+].code = #niveau
+* #606 ^property[0].code = #niveau
 * #606 ^property[=].valueInteger =  4
+* #606 ^property[+].code = #parent
+* #606 ^property[=].valueCode = #3408
 * #606 ^designation[0].language = #fr-FR
 * #606 ^designation[=].use.system = "http://snomed.info/sct"
 * #606 ^designation[=].use = $sct#900000000000013009
@@ -6501,10 +6520,10 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #606 ^property[+].code = #status
 * #606 ^property[=].valueCode = #active
 * #607 "Groupement Régional d'Appui au Développement de la e-Santé (GRADeS)"
-* #607 ^property[0].code = #parent
-* #607 ^property[=].valueCode = #3408
-* #607 ^property[+].code = #niveau
+* #607 ^property[0].code = #niveau
 * #607 ^property[=].valueInteger =  4
+* #607 ^property[+].code = #parent
+* #607 ^property[=].valueCode = #3408
 * #607 ^designation[0].language = #fr-FR
 * #607 ^designation[=].use.system = "http://snomed.info/sct"
 * #607 ^designation[=].use = $sct#900000000000013009
@@ -6516,10 +6535,10 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #607 ^property[+].code = #status
 * #607 ^property[=].valueCode = #active
 * #608 "Equipe mobile médico-sociale précarité (EMMSP)"
-* #608 ^property[0].code = #parent
-* #608 ^property[=].valueCode = #4604
-* #608 ^property[+].code = #niveau
+* #608 ^property[0].code = #niveau
 * #608 ^property[=].valueInteger =  4
+* #608 ^property[+].code = #parent
+* #608 ^property[=].valueCode = #4604
 * #608 ^designation[0].language = #fr-FR
 * #608 ^designation[=].use.system = "http://snomed.info/sct"
 * #608 ^designation[=].use = $sct#900000000000013009
@@ -6531,10 +6550,10 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #608 ^property[+].code = #status
 * #608 ^property[=].valueCode = #active
 * #609 "Maison Départementale pour Personnes Handicapées (MDPH)"
-* #609 ^property[0].code = #parent
-* #609 ^property[=].valueCode = #4606
-* #609 ^property[+].code = #niveau
+* #609 ^property[0].code = #niveau
 * #609 ^property[=].valueInteger =  4
+* #609 ^property[+].code = #parent
+* #609 ^property[=].valueCode = #4606
 * #609 ^designation[0].language = #fr-FR
 * #609 ^designation[=].use.system = "http://snomed.info/sct"
 * #609 ^designation[=].use = $sct#900000000000013009
@@ -6546,10 +6565,10 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #609 ^property[+].code = #status
 * #609 ^property[=].valueCode = #active
 * #610 "Laboratoire d'Analyses"
-* #610 ^property[0].code = #parent
-* #610 ^property[=].valueCode = #3101
-* #610 ^property[+].code = #niveau
+* #610 ^property[0].code = #niveau
 * #610 ^property[=].valueInteger =  4
+* #610 ^property[+].code = #parent
+* #610 ^property[=].valueCode = #3101
 * #610 ^designation[0].language = #fr-FR
 * #610 ^designation[=].use.system = "http://snomed.info/sct"
 * #610 ^designation[=].use = $sct#900000000000013009
@@ -6561,10 +6580,10 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #610 ^property[+].code = #status
 * #610 ^property[=].valueCode = #active
 * #611 "Laboratoire de Biologie Médicale"
-* #611 ^property[0].code = #parent
-* #611 ^property[=].valueCode = #3101
-* #611 ^property[+].code = #niveau
+* #611 ^property[0].code = #niveau
 * #611 ^property[=].valueInteger =  4
+* #611 ^property[+].code = #parent
+* #611 ^property[=].valueCode = #3101
 * #611 ^designation[0].language = #fr-FR
 * #611 ^designation[=].use.system = "http://snomed.info/sct"
 * #611 ^designation[=].use = $sct#900000000000013009
@@ -6580,10 +6599,10 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #611 ^property[+].code = #status
 * #611 ^property[=].valueCode = #active
 * #612 "Autre Laboratoire de Biologie Médicale sans FSE"
-* #612 ^property[0].code = #parent
-* #612 ^property[=].valueCode = #3101
-* #612 ^property[+].code = #niveau
+* #612 ^property[0].code = #niveau
 * #612 ^property[=].valueInteger =  4
+* #612 ^property[+].code = #parent
+* #612 ^property[=].valueCode = #3101
 * #612 ^designation[0].language = #fr-FR
 * #612 ^designation[=].use.system = "http://snomed.info/sct"
 * #612 ^designation[=].use = $sct#900000000000013009
@@ -6595,10 +6614,10 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #612 ^property[+].code = #status
 * #612 ^property[=].valueCode = #active
 * #614 "Dispositif Spécifique Régional du Cancer (DSRC)"
-* #614 ^property[0].code = #parent
-* #614 ^property[=].valueCode = #3408
-* #614 ^property[+].code = #niveau
+* #614 ^property[0].code = #niveau
 * #614 ^property[=].valueInteger =  4
+* #614 ^property[+].code = #parent
+* #614 ^property[=].valueCode = #3408
 * #614 ^designation[0].language = #fr-FR
 * #614 ^designation[=].use.system = "http://snomed.info/sct"
 * #614 ^designation[=].use = $sct#900000000000013009
@@ -6610,10 +6629,10 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #614 ^property[+].code = #status
 * #614 ^property[=].valueCode = #active
 * #616 "Services de Prévention et de Santé au Travail (SPST)"
-* #616 ^property[0].code = #parent
-* #616 ^property[=].valueCode = #3409
-* #616 ^property[+].code = #niveau
+* #616 ^property[0].code = #niveau
 * #616 ^property[=].valueInteger =  4
+* #616 ^property[+].code = #parent
+* #616 ^property[=].valueCode = #3409
 * #616 ^designation[0].language = #fr-FR
 * #616 ^designation[=].use.system = "http://snomed.info/sct"
 * #616 ^designation[=].use = $sct#900000000000013009
@@ -6625,10 +6644,10 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #616 ^property[+].code = #status
 * #616 ^property[=].valueCode = #active
 * #617 "Maison médicale de garde (MMG)"
-* #617 ^property[0].code = #parent
-* #617 ^property[=].valueCode = #2103
-* #617 ^property[+].code = #niveau
+* #617 ^property[0].code = #niveau
 * #617 ^property[=].valueInteger =  4
+* #617 ^property[+].code = #parent
+* #617 ^property[=].valueCode = #2103
 * #617 ^designation[0].language = #fr-FR
 * #617 ^designation[=].use.system = "http://snomed.info/sct"
 * #617 ^designation[=].use = $sct#900000000000013009
@@ -6640,10 +6659,10 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #617 ^property[+].code = #status
 * #617 ^property[=].valueCode = #active
 * #618 "Autre structure de soins non programmés (SNP)"
-* #618 ^property[0].code = #parent
-* #618 ^property[=].valueCode = #2103
-* #618 ^property[+].code = #niveau
+* #618 ^property[0].code = #niveau
 * #618 ^property[=].valueInteger =  4
+* #618 ^property[+].code = #parent
+* #618 ^property[=].valueCode = #2103
 * #618 ^designation[0].language = #fr-FR
 * #618 ^designation[=].use.system = "http://snomed.info/sct"
 * #618 ^designation[=].use = $sct#900000000000013009
@@ -6655,10 +6674,10 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #618 ^property[+].code = #status
 * #618 ^property[=].valueCode = #active
 * #620 "Pharmacie d'Officine"
-* #620 ^property[0].code = #parent
-* #620 ^property[=].valueCode = #3201
-* #620 ^property[+].code = #niveau
+* #620 ^property[0].code = #niveau
 * #620 ^property[=].valueInteger =  4
+* #620 ^property[+].code = #parent
+* #620 ^property[=].valueCode = #3201
 * #620 ^property[+].code = #dateValid
 * #620 ^property[=].valueDateTime = "1979-01-01T00:00:00+01:00"
 * #620 ^property[+].code = #dateMaj
@@ -6666,10 +6685,10 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #620 ^property[+].code = #status
 * #620 ^property[=].valueCode = #active
 * #621 "Lunetterie Médicale"
-* #621 ^property[0].code = #parent
-* #621 ^property[=].valueCode = #3202
-* #621 ^property[+].code = #niveau
+* #621 ^property[0].code = #niveau
 * #621 ^property[=].valueInteger =  4
+* #621 ^property[+].code = #parent
+* #621 ^property[=].valueCode = #3202
 * #621 ^property[+].code = #dateValid
 * #621 ^property[=].valueDateTime = "1979-01-01T00:00:00+01:00"
 * #621 ^property[+].code = #dateFin
@@ -6681,10 +6700,10 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #621 ^property[+].code = #status
 * #621 ^property[=].valueCode = #deprecated
 * #622 "Centre d'Appareillage & Prothèse"
-* #622 ^property[0].code = #parent
-* #622 ^property[=].valueCode = #3202
-* #622 ^property[+].code = #niveau
+* #622 ^property[0].code = #niveau
 * #622 ^property[=].valueInteger =  4
+* #622 ^property[+].code = #parent
+* #622 ^property[=].valueCode = #3202
 * #622 ^designation[0].language = #fr-FR
 * #622 ^designation[=].use.system = "http://snomed.info/sct"
 * #622 ^designation[=].use = $sct#900000000000013009
@@ -6704,10 +6723,10 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #622 ^property[+].code = #status
 * #622 ^property[=].valueCode = #deprecated
 * #623 "Herboristerie"
-* #623 ^property[0].code = #parent
-* #623 ^property[=].valueCode = #3202
-* #623 ^property[+].code = #niveau
+* #623 ^property[0].code = #niveau
 * #623 ^property[=].valueInteger =  4
+* #623 ^property[+].code = #parent
+* #623 ^property[=].valueCode = #3202
 * #623 ^property[+].code = #dateValid
 * #623 ^property[=].valueDateTime = "1979-01-01T00:00:00+01:00"
 * #623 ^property[+].code = #dateFin
@@ -6719,10 +6738,10 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #623 ^property[+].code = #status
 * #623 ^property[=].valueCode = #deprecated
 * #624 "Laboratoire pharmaceutique préparant délivrant allergènes"
-* #624 ^property[0].code = #parent
-* #624 ^property[=].valueCode = #3201
-* #624 ^property[+].code = #niveau
+* #624 ^property[0].code = #niveau
 * #624 ^property[=].valueInteger =  4
+* #624 ^property[+].code = #parent
+* #624 ^property[=].valueCode = #3201
 * #624 ^designation[0].language = #fr-FR
 * #624 ^designation[=].use.system = "http://snomed.info/sct"
 * #624 ^designation[=].use = $sct#900000000000013009
@@ -6738,10 +6757,10 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #624 ^property[+].code = #status
 * #624 ^property[=].valueCode = #active
 * #627 "Propharmacie"
-* #627 ^property[0].code = #parent
-* #627 ^property[=].valueCode = #3201
-* #627 ^property[+].code = #niveau
+* #627 ^property[0].code = #niveau
 * #627 ^property[=].valueInteger =  4
+* #627 ^property[+].code = #parent
+* #627 ^property[=].valueCode = #3201
 * #627 ^property[+].code = #dateValid
 * #627 ^property[=].valueDateTime = "1996-09-23T00:00:00+01:00"
 * #627 ^property[+].code = #dateMaj
@@ -6749,10 +6768,10 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #627 ^property[+].code = #status
 * #627 ^property[=].valueCode = #active
 * #628 "Pharmacie Minière"
-* #628 ^property[0].code = #parent
-* #628 ^property[=].valueCode = #3201
-* #628 ^property[+].code = #niveau
+* #628 ^property[0].code = #niveau
 * #628 ^property[=].valueInteger =  4
+* #628 ^property[+].code = #parent
+* #628 ^property[=].valueCode = #3201
 * #628 ^property[+].code = #dateValid
 * #628 ^property[=].valueDateTime = "1996-09-23T00:00:00+01:00"
 * #628 ^property[+].code = #dateMaj
@@ -6760,10 +6779,10 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #628 ^property[+].code = #status
 * #628 ^property[=].valueCode = #active
 * #629 "Pharmacie Mutualiste"
-* #629 ^property[0].code = #parent
-* #629 ^property[=].valueCode = #3201
-* #629 ^property[+].code = #niveau
+* #629 ^property[0].code = #niveau
 * #629 ^property[=].valueInteger =  4
+* #629 ^property[+].code = #parent
+* #629 ^property[=].valueCode = #3201
 * #629 ^property[+].code = #dateValid
 * #629 ^property[=].valueDateTime = "1996-09-23T00:00:00+01:00"
 * #629 ^property[+].code = #dateMaj
@@ -6771,10 +6790,10 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #629 ^property[+].code = #status
 * #629 ^property[=].valueCode = #active
 * #630 "Installation autonome de chirurgie esthétique"
-* #630 ^property[0].code = #parent
-* #630 ^property[=].valueCode = #3405
-* #630 ^property[+].code = #niveau
+* #630 ^property[0].code = #niveau
 * #630 ^property[=].valueInteger =  4
+* #630 ^property[+].code = #parent
+* #630 ^property[=].valueCode = #3405
 * #630 ^designation[0].language = #fr-FR
 * #630 ^designation[=].use.system = "http://snomed.info/sct"
 * #630 ^designation[=].use = $sct#900000000000013009
@@ -6786,10 +6805,10 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #630 ^property[+].code = #status
 * #630 ^property[=].valueCode = #active
 * #631 "Maisons de naissance"
-* #631 ^property[0].code = #parent
-* #631 ^property[=].valueCode = #3406
-* #631 ^property[+].code = #niveau
+* #631 ^property[0].code = #niveau
 * #631 ^property[=].valueInteger =  4
+* #631 ^property[+].code = #parent
+* #631 ^property[=].valueCode = #3406
 * #631 ^property[+].code = #dateValid
 * #631 ^property[=].valueDateTime = "2017-07-07T10:00:00+01:00"
 * #631 ^property[+].code = #dateMaj
@@ -6797,10 +6816,10 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #631 ^property[+].code = #status
 * #631 ^property[=].valueCode = #active
 * #632 "Structure Dispensatrice à domicile d'Oxygène à usage médical"
-* #632 ^property[0].code = #parent
-* #632 ^property[=].valueCode = #3201
-* #632 ^property[+].code = #niveau
+* #632 ^property[0].code = #niveau
 * #632 ^property[=].valueInteger =  4
+* #632 ^property[+].code = #parent
+* #632 ^property[=].valueCode = #3201
 * #632 ^designation[0].language = #fr-FR
 * #632 ^designation[=].use.system = "http://snomed.info/sct"
 * #632 ^designation[=].use = $sct#900000000000013009
@@ -6812,10 +6831,10 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #632 ^property[+].code = #status
 * #632 ^property[=].valueCode = #active
 * #633 "Structure Expérimentale en Santé"
-* #633 ^property[0].code = #parent
-* #633 ^property[=].valueCode = #3407
-* #633 ^property[+].code = #niveau
+* #633 ^property[0].code = #niveau
 * #633 ^property[=].valueInteger =  4
+* #633 ^property[+].code = #parent
+* #633 ^property[=].valueCode = #3407
 * #633 ^designation[0].language = #fr-FR
 * #633 ^designation[=].use.system = "http://snomed.info/sct"
 * #633 ^designation[=].use = $sct#900000000000013009
@@ -6827,10 +6846,10 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #633 ^property[+].code = #status
 * #633 ^property[=].valueCode = #active
 * #636 "Centre de soins et de prévention"
-* #636 ^property[0].code = #parent
-* #636 ^property[=].valueCode = #2206
-* #636 ^property[+].code = #niveau
+* #636 ^property[0].code = #niveau
 * #636 ^property[=].valueInteger =  4
+* #636 ^property[+].code = #parent
+* #636 ^property[=].valueCode = #2206
 * #636 ^designation[0].language = #fr-FR
 * #636 ^designation[=].use.system = "http://snomed.info/sct"
 * #636 ^designation[=].use = $sct#900000000000013009
@@ -6842,10 +6861,10 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #636 ^property[+].code = #status
 * #636 ^property[=].valueCode = #active
 * #637 "Centre de Lutte Antituberculeuse (CLAT)"
-* #637 ^property[0].code = #parent
-* #637 ^property[=].valueCode = #2201
-* #637 ^property[+].code = #niveau
+* #637 ^property[0].code = #niveau
 * #637 ^property[=].valueInteger =  4
+* #637 ^property[+].code = #parent
+* #637 ^property[=].valueCode = #2201
 * #637 ^designation[0].language = #fr-FR
 * #637 ^designation[=].use.system = "http://snomed.info/sct"
 * #637 ^designation[=].use = $sct#900000000000013009
@@ -6861,10 +6880,10 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #637 ^property[+].code = #status
 * #637 ^property[=].valueCode = #active
 * #638 "Centre gratuit d'information de dépistage et de diagnostic (CeGIDD)"
-* #638 ^property[0].code = #parent
-* #638 ^property[=].valueCode = #2201
-* #638 ^property[+].code = #niveau
+* #638 ^property[0].code = #niveau
 * #638 ^property[=].valueInteger =  4
+* #638 ^property[+].code = #parent
+* #638 ^property[=].valueCode = #2201
 * #638 ^designation[0].language = #fr-FR
 * #638 ^designation[=].use.system = "http://snomed.info/sct"
 * #638 ^designation[=].use = $sct#900000000000013009
@@ -6880,10 +6899,10 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #638 ^property[+].code = #status
 * #638 ^property[=].valueCode = #active
 * #639 "Sociétés de téléconsultation (STLC)"
-* #639 ^property[0].code = #parent
-* #639 ^property[=].valueCode = #2206
-* #639 ^property[+].code = #niveau
+* #639 ^property[0].code = #niveau
 * #639 ^property[=].valueInteger =  4
+* #639 ^property[+].code = #parent
+* #639 ^property[=].valueCode = #2206
 * #639 ^designation[0].language = #fr-FR
 * #639 ^designation[=].use.system = "http://snomed.info/sct"
 * #639 ^designation[=].use = $sct#900000000000013009
@@ -6899,10 +6918,10 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #639 ^property[+].code = #status
 * #639 ^property[=].valueCode = #active
 * #640 "Service d'aide et d'accompagnement à domicile aux familles (SAADF)"
-* #640 ^property[0].code = #parent
-* #640 ^property[=].valueCode = #4601
-* #640 ^property[+].code = #niveau
+* #640 ^property[0].code = #niveau
 * #640 ^property[=].valueInteger =  4
+* #640 ^property[+].code = #parent
+* #640 ^property[=].valueCode = #4601
 * #640 ^designation[0].language = #fr-FR
 * #640 ^designation[=].use.system = "http://snomed.info/sct"
 * #640 ^designation[=].use = $sct#900000000000013009
@@ -6918,10 +6937,10 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #640 ^property[+].code = #status
 * #640 ^property[=].valueCode = #active
 * #641 "Antenne de Pharmacie d'officine"
-* #641 ^property[0].code = #parent
-* #641 ^property[=].valueCode = #3201
-* #641 ^property[+].code = #niveau
+* #641 ^property[0].code = #niveau
 * #641 ^property[=].valueInteger =  4
+* #641 ^property[+].code = #parent
+* #641 ^property[=].valueCode = #3201
 * #641 ^designation[0].language = #fr-FR
 * #641 ^designation[=].use.system = "http://snomed.info/sct"
 * #641 ^designation[=].use = $sct#900000000000013009
@@ -6933,10 +6952,10 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #641 ^property[+].code = #status
 * #641 ^property[=].valueCode = #active
 * #642 "Services départementaux d'incendie et de secours"
-* #642 ^property[0].code = #parent
-* #642 ^property[=].valueCode = #3410
-* #642 ^property[+].code = #niveau
+* #642 ^property[0].code = #niveau
 * #642 ^property[=].valueInteger =  4
+* #642 ^property[+].code = #parent
+* #642 ^property[=].valueCode = #3410
 * #642 ^designation[0].language = #fr-FR
 * #642 ^designation[=].use.system = "http://snomed.info/sct"
 * #642 ^designation[=].use = $sct#900000000000013009
@@ -6948,10 +6967,10 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #642 ^property[+].code = #status
 * #642 ^property[=].valueCode = #active
 * #643 "Serv. d'éval de la minorité de l'isolement pour les pers. se déclarant mineures"
-* #643 ^property[0].code = #parent
-* #643 ^property[=].valueCode = #4504
-* #643 ^property[+].code = #niveau
+* #643 ^property[0].code = #niveau
 * #643 ^property[=].valueInteger =  4
+* #643 ^property[+].code = #parent
+* #643 ^property[=].valueCode = #4504
 * #643 ^designation[0].language = #fr-FR
 * #643 ^designation[=].use.system = "http://snomed.info/sct"
 * #643 ^designation[=].use = $sct#900000000000013009
@@ -6967,10 +6986,10 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #643 ^property[+].code = #status
 * #643 ^property[=].valueCode = #active
 * #644 "Etab. de mise à l'abri pour les pers. se déclarant mineures non accompagnées"
-* #644 ^property[0].code = #parent
-* #644 ^property[=].valueCode = #4504
-* #644 ^property[+].code = #niveau
+* #644 ^property[0].code = #niveau
 * #644 ^property[=].valueInteger =  4
+* #644 ^property[+].code = #parent
+* #644 ^property[=].valueCode = #4504
 * #644 ^designation[0].language = #fr-FR
 * #644 ^designation[=].use.system = "http://snomed.info/sct"
 * #644 ^designation[=].use = $sct#900000000000013009
@@ -6986,10 +7005,10 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #644 ^property[+].code = #status
 * #644 ^property[=].valueCode = #active
 * #645 "Centre de Vaccination"
-* #645 ^property[0].code = #parent
-* #645 ^property[=].valueCode = #2201
-* #645 ^property[+].code = #niveau
+* #645 ^property[0].code = #niveau
 * #645 ^property[=].valueInteger =  4
+* #645 ^property[+].code = #parent
+* #645 ^property[=].valueCode = #2201
 * #645 ^designation[0].language = #fr-FR
 * #645 ^designation[=].use.system = "http://snomed.info/sct"
 * #645 ^designation[=].use = $sct#900000000000013009
@@ -7001,10 +7020,10 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #645 ^property[+].code = #status
 * #645 ^property[=].valueCode = #active
 * #646 "Centre de Vaccination Internationale"
-* #646 ^property[0].code = #parent
-* #646 ^property[=].valueCode = #2201
-* #646 ^property[+].code = #niveau
+* #646 ^property[0].code = #niveau
 * #646 ^property[=].valueInteger =  4
+* #646 ^property[+].code = #parent
+* #646 ^property[=].valueCode = #2201
 * #646 ^designation[0].language = #fr-FR
 * #646 ^designation[=].use.system = "http://snomed.info/sct"
 * #646 ^designation[=].use = $sct#900000000000013009
@@ -7016,10 +7035,10 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #646 ^property[+].code = #status
 * #646 ^property[=].valueCode = #active
 * #647 "Equipe de Soins Spécialisés"
-* #647 ^property[0].code = #parent
-* #647 ^property[=].valueCode = #2103
-* #647 ^property[+].code = #niveau
+* #647 ^property[0].code = #niveau
 * #647 ^property[=].valueInteger =  4
+* #647 ^property[+].code = #parent
+* #647 ^property[=].valueCode = #2103
 * #647 ^designation[0].language = #fr-FR
 * #647 ^designation[=].use.system = "http://snomed.info/sct"
 * #647 ^designation[=].use = $sct#900000000000013009
@@ -7031,10 +7050,10 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #647 ^property[+].code = #status
 * #647 ^property[=].valueCode = #active
 * #648 "Structure qui contribue au Service d'Accès aux Soins"
-* #648 ^property[0].code = #parent
-* #648 ^property[=].valueCode = #3408
-* #648 ^property[+].code = #niveau
+* #648 ^property[0].code = #niveau
 * #648 ^property[=].valueInteger =  4
+* #648 ^property[+].code = #parent
+* #648 ^property[=].valueCode = #3408
 * #648 ^designation[0].language = #fr-FR
 * #648 ^designation[=].use.system = "http://snomed.info/sct"
 * #648 ^designation[=].use = $sct#900000000000013009
@@ -7046,10 +7065,10 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #648 ^property[+].code = #status
 * #648 ^property[=].valueCode = #active
 * #690 "Etablissement de Fabrication Annexe à une Officine"
-* #690 ^property[0].code = #parent
-* #690 ^property[=].valueCode = #3201
-* #690  ^property[+].code = #niveau
+* #690  ^property[0].code = #niveau
 * #690 ^property[=].valueInteger =  4
+* #690 ^property[+].code = #parent
+* #690 ^property[=].valueCode = #3201
 * #690 ^designation[0].language = #fr-FR
 * #690 ^designation[=].use.system = "http://snomed.info/sct"
 * #690 ^designation[=].use = $sct#900000000000013009
@@ -7065,10 +7084,10 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #690 ^property[+].code = #status
 * #690 ^property[=].valueCode = #deprecated
 * #695 "Groupement de coopération sanitaire de moyens - Exploitant"
-* #695 ^property[0].code = #parent
-* #695 ^property[=].valueCode = #1205
-* #695  ^property[+].code = #niveau
+* #695  ^property[0].code = #niveau
 * #695 ^property[=].valueInteger =  4
+* #695 ^property[+].code = #parent
+* #695 ^property[=].valueCode = #1205
 * #695 ^designation[0].language = #fr-FR
 * #695 ^designation[=].use.system = "http://snomed.info/sct"
 * #695 ^designation[=].use = $sct#900000000000013009
@@ -7080,10 +7099,10 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #695 ^property[+].code = #status
 * #695 ^property[=].valueCode = #active
 * #696 "Groupement de coopération sanitaire de moyens"
-* #696 ^property[0].code = #parent
-* #696 ^property[=].valueCode = #1205
-* #696  ^property[+].code = #niveau
+* #696  ^property[0].code = #niveau
 * #696 ^property[=].valueInteger =  4
+* #696 ^property[+].code = #parent
+* #696 ^property[=].valueCode = #1205
 * #696 ^designation[0].language = #fr-FR
 * #696 ^designation[=].use.system = "http://snomed.info/sct"
 * #696 ^designation[=].use = $sct#900000000000013009
@@ -7095,10 +7114,10 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #696 ^property[+].code = #status
 * #696 ^property[=].valueCode = #active
 * #697 "Groupement de coopération sanitaire - Etablissement de santé"
-* #697 ^property[0].code = #parent
-* #697 ^property[=].valueCode = #1205
-* #697  ^property[+].code = #niveau
+* #697  ^property[0].code = #niveau
 * #697 ^property[=].valueInteger =  4
+* #697 ^property[+].code = #parent
+* #697 ^property[=].valueCode = #1205
 * #697 ^designation[0].language = #fr-FR
 * #697 ^designation[=].use.system = "http://snomed.info/sct"
 * #697 ^designation[=].use = $sct#900000000000013009
@@ -7114,10 +7133,10 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #697 ^property[+].code = #status
 * #697 ^property[=].valueCode = #active
 * #698 "Autre Etablissement Loi Hospitalière"
-* #698 ^property[0].code = #parent
-* #698 ^property[=].valueCode = #1205
-* #698  ^property[+].code = #niveau
+* #698  ^property[0].code = #niveau
 * #698 ^property[=].valueInteger =  4
+* #698 ^property[+].code = #parent
+* #698 ^property[=].valueCode = #1205
 * #698 ^designation[0].language = #fr-FR
 * #698 ^designation[=].use.system = "http://snomed.info/sct"
 * #698 ^designation[=].use = $sct#900000000000013009
@@ -7132,10 +7151,10 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #698 ^property[+].code = #status
 * #698 ^property[=].valueCode = #active
 * #699 "Entité Ayant Autorisation"
-* #699 ^property[0].code = #parent
-* #699 ^property[=].valueCode = #1205
-* #699  ^property[+].code = #niveau
+* #699  ^property[0].code = #niveau
 * #699 ^property[=].valueInteger =  4
+* #699 ^property[+].code = #parent
+* #699 ^property[=].valueCode = #1205
 * #699 ^designation[0].language = #fr-FR
 * #699 ^designation[=].use.system = "http://snomed.info/sct"
 * #699 ^designation[=].use = $sct#900000000000013009
@@ -7156,7 +7175,7 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #700 ^property[+].code = #status
 * #700 ^property[=].valueCode = #active
 * #701 "Maison des adolescents (MDA)" "Catégorie créée à la demande du ROR. A date aucun enregistrement n'est prévu dans FINESS pour cette catégorie"
-* #701  ^property[+].code = #niveau
+* #701  ^property[0].code = #niveau
 * #701 ^property[=].valueInteger =  4
 * #701 ^designation[0].language = #fr-FR
 * #701 ^designation[=].use.system = "http://snomed.info/sct"
@@ -7193,24 +7212,3 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #703 ^property[=].valueDateTime = "2025-04-25T12:00:00+01:00"
 * #703 ^property[+].code = #status
 * #703 ^property[=].valueCode = #active
-* #0100 ^property[+].code = #domaine
-* #0100 ^property[=].valueCoding.system = "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine/"
-* #0100 ^property[=].valueCoding.code = #ADM
-* #1000 ^property[+].code = #domaine
-* #1000 ^property[=].valueCoding.system = "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine/"
-* #1000 ^property[=].valueCoding.code = #SAN
-* #2000 ^property[+].code = #domaine
-* #2000 ^property[=].valueCoding.system = "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine/"
-* #2000 ^property[=].valueCoding.code = #SAN
-* #3000 ^property[+].code = #domaine
-* #3000 ^property[=].valueCoding.system = "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine/"
-* #3000 ^property[=].valueCoding.code = #SAN
-* #4000 ^property[+].code = #domaine
-* #4000 ^property[=].valueCoding.system = "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine/"
-* #4000 ^property[=].valueCoding.code = #SOC
-* #5000 ^property[+].code = #domaine
-* #5000 ^property[=].valueCoding.system = "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine/"
-* #5000 ^property[=].valueCoding.code = #SOC
-* #6000 ^property[+].code = #domaine
-* #6000 ^property[=].valueCoding.system = "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine/"
-* #6000 ^property[=].valueCoding.code = #ENS
