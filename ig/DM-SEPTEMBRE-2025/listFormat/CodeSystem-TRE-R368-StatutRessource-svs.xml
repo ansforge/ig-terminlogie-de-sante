@@ -54,7 +54,7 @@
                   displayName="Réalisé"
                   longDesignation="Réalisé"
                   shortDesignation="Réalisé"
-                  descriptionMetier="Resoource totalement effectuée. Ce statut s'adresse à la ressource Evenements liés à la prise en charge de l'individu dans une structure ESSMS."/>
+                  descriptionMetier="Ressource totalement effectuée. Ce statut s'adresse à la ressource Evenements liés à la prise en charge de l'individu dans une structure ESSMS."/>
          <Concept code="ANNULE"
                   codeSystem="1.2.250.1.213.3.3.250"
                   dateFin=""
