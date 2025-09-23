@@ -34,13 +34,13 @@
      fhir:system [ fhir:v "urn:ietf:rfc:3986"^^xsd:anyURI ] ;
      fhir:value [ fhir:v "urn:oid:1.2.250.1.213.3.4.33" ]
   ] ) ; # 
-  fhir:version [ fhir:v "20250915120000"] ; # 
+  fhir:version [ fhir:v "20250923120000"] ; # 
   fhir:name [ fhir:v "JDV_J201_TypeFermeture_ROR"] ; # 
   fhir:status [ fhir:v "active"] ; # 
   fhir:experimental [ fhir:v false] ; # 
-  fhir:date [ fhir:v "2025-09-15T12:00:00+01:00"^^xsd:dateTime] ; # 
+  fhir:date [ fhir:v "2025-09-23T12:00:00+01:00"^^xsd:dateTime] ; # 
   fhir:publisher [ fhir:v "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris"] ; # 
-  fhir:description [ fhir:v "Type de fermeture, codes provenant du FINESS pour les EJ et EG"] ; # 
+  fhir:description [ fhir:v "Type de fermeture, codes provenant du FINESS pour les EJ et EG, les différentes valeurs que peuvent nous envoyer FINESS (il en existe davantage)"] ; # 
   fhir:jurisdiction ( [
      fhir:coding ( [
        fhir:system [ fhir:v "urn:iso:std:iso:3166"^^xsd:anyURI ] ;

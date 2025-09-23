@@ -11,7 +11,7 @@
   <name value="Terminologies"/>
   <title value="Terminologies  de Santé"/>
   <status value="active"/>
-  <date value="2025-09-18T15:44:05+00:00"/>
+  <date value="2025-09-23T09:34:38+00:00"/>
   <publisher value="ANS"/>
   <contact>
     <name value="ANS"/>
@@ -24012,7 +24012,7 @@
         <reference value="ValueSet/JDV-J185-TypeFermeture-ROR"/>
       </reference>
       <name value="JDV_J185_TypeFermeture_ROR"/>
-      <description value="Destination d'usage du lieu pour le lieu de réalisation de l'offre."/>
+      <description value="Destination d'usage du lieu pour le lieu de réalisation de l'offre, les seules valeurs acceptées par le ROR pour les Organisations internes et les offres"/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -24210,7 +24210,7 @@
         <reference value="ValueSet/JDV-J201-TypeFermeture-ROR"/>
       </reference>
       <name value="JDV_J201_TypeFermeture_ROR"/>
-      <description value="Type de fermeture, codes provenant du FINESS pour les EJ et EG"/>
+      <description value="Type de fermeture, codes provenant du FINESS pour les EJ et EG, les différentes valeurs que peuvent nous envoyer FINESS (il en existe davantage)"/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>

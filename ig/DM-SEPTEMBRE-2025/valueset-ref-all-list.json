@@ -1061,7 +1061,7 @@
     },
     {
       "url" : "https://mos.esante.gouv.fr/NOS/JDV_J16-ActeSpecifique-ROR/FHIR/JDV-J16-ActeSpecifique-ROR",
-      "version" : "20250625120000",
+      "version" : "20250919120000",
       "status" : "active",
       "name" : "JDV_J16_ActeSpecifique_ROR",
       "title" : null,
@@ -1387,11 +1387,11 @@
     },
     {
       "url" : "https://mos.esante.gouv.fr/NOS/JDV_J185-TypeFermeture-ROR/FHIR/JDV-J185-TypeFermeture-ROR",
-      "version" : "20250915120000",
+      "version" : "20250923120000",
       "status" : "active",
       "name" : "JDV_J185_TypeFermeture_ROR",
       "title" : null,
-      "description" : "Destination d'usage du lieu pour le lieu de réalisation de l'offre.",
+      "description" : "Destination d'usage du lieu pour le lieu de réalisation de l'offre, les seules valeurs acceptées par le ROR pour les Organisations internes et les offres",
       "systems" : [
         "https://mos.esante.gouv.fr/NOS/TRE_R286-TypeFermeture/FHIR/TRE-R286-TypeFermeture"
       ],
@@ -1626,11 +1626,11 @@
     },
     {
       "url" : "https://mos.esante.gouv.fr/NOS/JDV_J201-TypeFermeture-ROR/FHIR/JDV-J201-TypeFermeture-ROR",
-      "version" : "20250915120000",
+      "version" : "20250923120000",
       "status" : "active",
       "name" : "JDV_J201_TypeFermeture_ROR",
       "title" : null,
-      "description" : "Type de fermeture, codes provenant du FINESS pour les EJ et EG",
+      "description" : "Type de fermeture, codes provenant du FINESS pour les EJ et EG, les différentes valeurs que peuvent nous envoyer FINESS (il en existe davantage)",
       "systems" : [
         "https://mos.esante.gouv.fr/NOS/TRE_R286-TypeFermeture/FHIR/TRE-R286-TypeFermeture"
       ],
@@ -9487,8 +9487,8 @@
       "systems" : ["https://smt.esante.gouv.fr/terminologie-nuva"],
       "uses" : {
       },
-      "ConceptMap-alignement-nuva-bdpm.html" : "Aligner les codes CIS et CIP de NUVA avec les codes CIS et CIP du BDPM",
-      "ConceptMap-alignement-nuva-atc.html" : "Aligner les codes ATC de NUVA avec les codes ATC"
+      "ConceptMap-alignement-nuva-atc.html" : "Aligner les codes ATC de NUVA avec les codes ATC",
+      "ConceptMap-alignement-nuva-bdpm.html" : "Aligner les codes CIS et CIP de NUVA avec les codes CIS et CIP du BDPM"
     },
     {
       "url" : "https://smt.esante.gouv.fr/terminologie-sms?vs",

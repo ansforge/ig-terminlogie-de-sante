@@ -21,13 +21,13 @@
     <system value="urn:ietf:rfc:3986"/>
     <value value="urn:oid:1.2.250.1.213.3.4.18"/>
   </identifier>
-  <version value="20250915120000"/>
+  <version value="20250923120000"/>
   <name value="JDV_J185_TypeFermeture_ROR"/>
   <status value="active"/>
   <experimental value="false"/>
-  <date value="2025-09-15T12:00:00+01:00"/>
+  <date value="2025-09-23T12:00:00+01:00"/>
   <publisher value="Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris"/>
-  <description value="Destination d'usage du lieu pour le lieu de réalisation de l'offre."/>
+  <description value="Destination d'usage du lieu pour le lieu de réalisation de l'offre, les seules valeurs acceptées par le ROR pour les Organisations internes et les offres"/>
   <jurisdiction>
     <coding>
       <system value="urn:iso:std:iso:3166"/>

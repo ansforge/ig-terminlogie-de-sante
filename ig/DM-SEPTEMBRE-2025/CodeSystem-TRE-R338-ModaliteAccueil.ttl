@@ -49,7 +49,7 @@
   ] ) ; # 
   fhir:caseSensitive [ fhir:v false] ; # 
   fhir:content [ fhir:v "complete"] ; # 
-  fhir:count [ fhir:v "20"^^xsd:nonNegativeInteger] ; # 
+  fhir:count [ fhir:v "24"^^xsd:nonNegativeInteger] ; # 
   fhir:property ( [
      fhir:code [ fhir:v "dateValid" ] ;
      fhir:description [ fhir:v "date de validité d'un code concept" ] ;

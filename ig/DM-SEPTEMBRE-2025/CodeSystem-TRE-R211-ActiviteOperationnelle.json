@@ -36,7 +36,7 @@
   }],
   "caseSensitive" : false,
   "content" : "complete",
-  "count" : 592,
+  "count" : 597,
   "property" : [{
     "code" : "dateValid",
     "description" : "date de validité d'un code concept",

@@ -551,7 +551,7 @@
     },
     {
       "url" : "https://mos.esante.gouv.fr/NOS/TRE_R210-ActeSpecifique/FHIR/TRE-R210-ActeSpecifique",
-      "version" : "20250918120000",
+      "version" : "20250919120000",
       "status" : "active",
       "name" : "TRE_R210_ActeSpecifique",
       "title" : null,
@@ -1829,7 +1829,7 @@
     },
     {
       "url" : "https://mos.esante.gouv.fr/NOS/TRE_R368-StatutRessource/FHIR/TRE-R368-StatutRessource",
-      "version" : "20250425120000",
+      "version" : "20250919120000",
       "status" : "active",
       "name" : "TRE_R368_StatutRessource",
       "title" : null,
@@ -2198,7 +2198,7 @@
     },
     {
       "url" : "https://mos.esante.gouv.fr/NOS/TRE_R85-RolePriseCharge/FHIR/TRE-R85-RolePriseCharge",
-      "version" : "20250721120000",
+      "version" : "20250919120000",
       "status" : "active",
       "name" : "TRE_R85_RolePriseCharge",
       "title" : null,

@@ -18,7 +18,7 @@
   fhir:name [ fhir:v "Terminologies"] ; # 
   fhir:title [ fhir:v "Terminologies  de Santé"] ; # 
   fhir:status [ fhir:v "active"] ; # 
-  fhir:date [ fhir:v "2025-09-18T15:44:05+00:00"^^xsd:dateTime] ; # 
+  fhir:date [ fhir:v "2025-09-23T09:34:38+00:00"^^xsd:dateTime] ; # 
   fhir:publisher [ fhir:v "ANS"] ; # 
   fhir:contact ( [
      fhir:name [ fhir:v "ANS" ] ;
@@ -43443,7 +43443,7 @@
          fhir:reference [ fhir:v "ValueSet/JDV-J185-TypeFermeture-ROR" ]
        ] ;
        fhir:name [ fhir:v "JDV_J185_TypeFermeture_ROR" ] ;
-       fhir:description [ fhir:v "Destination d'usage du lieu pour le lieu de réalisation de l'offre." ] ;
+       fhir:description [ fhir:v "Destination d'usage du lieu pour le lieu de réalisation de l'offre, les seules valeurs acceptées par le ROR pour les Organisations internes et les offres" ] ;
        fhir:example [
          a fhir:boolean ;
          fhir:v false
@@ -43767,7 +43767,7 @@
          fhir:reference [ fhir:v "ValueSet/JDV-J201-TypeFermeture-ROR" ]
        ] ;
        fhir:name [ fhir:v "JDV_J201_TypeFermeture_ROR" ] ;
-       fhir:description [ fhir:v "Type de fermeture, codes provenant du FINESS pour les EJ et EG" ] ;
+       fhir:description [ fhir:v "Type de fermeture, codes provenant du FINESS pour les EJ et EG, les différentes valeurs que peuvent nous envoyer FINESS (il en existe davantage)" ] ;
        fhir:example [
          a fhir:boolean ;
          fhir:v false
