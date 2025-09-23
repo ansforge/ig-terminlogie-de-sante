@@ -1,6 +1,6 @@
 ValueSet: JDV_J201_TypeFermeture_ROR
 Id: JDV-J201-TypeFermeture-ROR
-Description: "Type de fermeture, codes provenant du FINESS pour les EJ et EG, les différentes valeurs que peuvent nous envoyer FINESS (il en existe davantage)"
+Description: "Différentes valeurs de type de fermeture que peuvent envoyer FINESS au ROR (il en existe davantage)"
 * ^meta.versionId = "4"
 * ^meta.lastUpdated = "2025-07-02T17:05:44.114+00:00"
 * ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablevalueset"
