@@ -9434,8 +9434,6 @@ Description: "Action menée par un ou plusieurs acteur(s) de santé dans le cadr
 * #0731 ^designation[=].value = "731"
 * #0731 ^property[0].code = #dateValid
 * #0731 ^property[=].valueDateTime = "2018-01-26T12:00:00+01:00"
-* #0731 ^property[+].code = #dateFin
-* #0731 ^property[=].valueDateTime = "2025-09-19T12:00:00+01:00"
 * #0731 ^property[+].code = #dateMaj
 * #0731 ^property[=].valueDateTime = "2025-09-19T12:00:00+01:00"
 * #0731 ^property[+].code = #deprecationDate
