@@ -59,7 +59,7 @@ Description: "Caractérise le statut d'une ressource du médico-social au cours 
 * #APPROUVE ^property[=].valueDateTime = "2025-09-19T12:00:00+01:00"
 * #APPROUVE ^property[+].code = #status
 * #APPROUVE ^property[=].valueCode = #active
-* #PLANIFIE "Ressource organisée à l’avance pour une activité. Ce statut s'adresse à la ressource Evenements liés à la prise en charge de l'individu dans une structure ESSMS."
+* #PLANIFIE "Planifié" "Ressource organisée à l’avance pour une activité. Ce statut s'adresse à la ressource Evenements liés à la prise en charge de l'individu dans une structure ESSMS."
 * #PLANIFIE ^property[0].code = #dateValid
 * #PLANIFIE ^property[=].valueDateTime = "2024-09-27T12:00:00+01:00"
 * #PLANIFIE ^property[+].code = #dateMaj
