@@ -9436,10 +9436,8 @@ Description: "Un acte spécifique est une action menée par un ou plusieurs acte
 * #0731 ^property[=].valueDateTime = "2018-01-26T12:00:00+01:00"
 * #0731 ^property[+].code = #dateMaj
 * #0731 ^property[=].valueDateTime = "2025-09-19T12:00:00+01:00"
-* #0731 ^property[+].code = #deprecationDate
-* #0731 ^property[=].valueDateTime = "2025-09-19T12:00:00+01:00"
 * #0731 ^property[+].code = #status
-* #0731 ^property[=].valueCode = #deprecated
+* #0732 ^property[=].valueCode = #active
 * #0732 "Confection d'orthèse du membre supérieur" "Moulage, fabrication, essayage et suivi du dispositif médical adapté, destiné à compenser une fonction absente ou déficitaire au niveau du membre supérieur : épaule, coude, poignet, main."
 * #0732 ^designation[0].language = #fr-FR
 * #0732 ^designation[=].use.system = "http://snomed.info/sct"
