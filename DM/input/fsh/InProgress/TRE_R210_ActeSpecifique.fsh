@@ -16326,6 +16326,10 @@ Description: "Un acte spécifique est une action menée par un ou plusieurs acte
 * #1498 ^property[=].valueDateTime = "2025-07-23T12:00:00+01:00"
 * #1498 ^property[+].code = #status
 * #1498 ^property[=].valueCode = #active
+* #1498 ^designation[0].language = #fr-FR
+* #1498 ^designation[=].use.system = "http://snomed.info/sct"
+* #1498 ^designation[=].use = $sct#900000000000013009
+* #1498 ^designation.value[=] = "Accompagnement ergothérapique auprès des proches aidants (proches et professionnels) : apprentissage de techniques d’accompagnement en Accompagnement ergothérapique auprès des proches aidants"
 * #1499 "Accompagnement ergothérapique dans le cadre de déficiences visuelles" "Intervention de l’ergothérapeute qui vise à optimiser l’autonomie et la participation des personnes atteintes de déficience visuelle. Cela inclut l’évaluation des capacités résiduelles, l’adaptation de l’environnement, l’apprentissage de stratégies compensatoires, et la préconisation d’aides techniques pour faciliter les activités quotidiennes, professionnelles et sociales en toute sécurité. Cette orientation est étayée par la réalisation de formations continues spécifiques auprès de cette population (appuyées de données probantes) et d’une expérience professionnelle"
 * #1499 ^property[0].code = #dateValid
 * #1499 ^property[=].valueDateTime = "2025-03-28T12:00:00+01:00"
