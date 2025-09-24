@@ -4,7 +4,7 @@
    <ValueSet dateFin=""
              dateMaj="20250919120000"
              dateValid="20150408000000"
-             description="Action menée par un ou plusieurs acteur(s) de santé dans le cadre d'une activité. Cet acte peut correspondre à une technique spécialisée ou traduire une expertise discriminante dans le parcours de santé."
+             description="Un acte spécifique est une action menée par un ou plusieurs acteur(s) de santé dans le cadre d’une activité. Cet acte peut correspondre à une technique spécialisée ou traduire une expertise discriminante dans le parcours de santé. Les actes réalisés habituellement par ce type d'organisation ne sont pas des actes spécifiques. Les actes spécifiques décrits sont réalisés avec les ressources propres de l’organisation ou via des ressources mises à disposition dans le cadre d’une convention à la condition que ces ressources interviennent sur site dans la réalisation de la prestation."
              displayName="TRE_R210_ActeSpecifique"
              id="1.2.250.1.213.3.3.11"
              typeFichier="TRE"
@@ -6582,7 +6582,7 @@
                   descriptionMetier=""/>
          <Concept code="0731"
                   codeSystem="1.2.250.1.213.3.3.11"
-                  dateFin="20250919120000"
+                  dateFin=""
                   dateMaj="20250919120000"
                   dateValid="20180126120000"
                   displayName="Surveillance du nouveau-né à risque"
@@ -13950,6 +13950,15 @@
                   displayName="Autodialyse assistée"
                   longDesignation="Autodialyse assistée"
                   shortDesignation="Autodialyse assistée"
+                  descriptionMetier=""/>
+         <Concept code="1551"
+                  codeSystem="1.2.250.1.213.3.3.11"
+                  dateFin=""
+                  dateMaj="20250924120000"
+                  dateValid="20250924120000"
+                  displayName="Accueil en unité protégée"
+                  longDesignation="Accueil en unité protégée"
+                  shortDesignation="Accueil en unité protégée"
                   descriptionMetier=""/>
       </ConceptList>
    </ValueSet>
