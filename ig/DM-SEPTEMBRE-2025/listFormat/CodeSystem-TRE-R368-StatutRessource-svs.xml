@@ -42,10 +42,10 @@
                   dateFin=""
                   dateMaj="20250919120000"
                   dateValid="20240927120000"
-                  displayName="Ressource organisée à l’avance pour une activité. Ce statut s'adresse à la ressource Evenements liés à la prise en charge de l'individu dans une structure ESSMS."
-                  longDesignation="Ressource organisée à l’avance pour une activité. Ce statut s'adresse à la ressource Evenements liés à la prise en charge de l'individu dans une structure ESSMS."
-                  shortDesignation="Ressource organisée à l’avance pour une activité. Ce statut s'adresse à la ressource Evenements liés à la prise en charge de l'individu dans une structure ESSMS."
-                  descriptionMetier=""/>
+                  displayName="Planifié"
+                  longDesignation="Planifié"
+                  shortDesignation="Planifié"
+                  descriptionMetier="Ressource organisée à l’avance pour une activité. Ce statut s'adresse à la ressource Evenements liés à la prise en charge de l'individu dans une structure ESSMS."/>
          <Concept code="REALISE"
                   codeSystem="1.2.250.1.213.3.3.250"
                   dateFin=""
