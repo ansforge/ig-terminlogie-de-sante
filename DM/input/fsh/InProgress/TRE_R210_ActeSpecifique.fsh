@@ -16704,3 +16704,10 @@ Description: "Un acte spécifique est une action menée par un ou plusieurs acte
 * #1550 ^property[=].valueDateTime = "2025-09-19T12:00:00+01:00"
 * #1550 ^property[+].code = #status
 * #1550 ^property[=].valueCode = #active
+* #1551 "Accueil en unité protégée"
+* #1551 ^property[0].code = #dateValid
+* #1551 ^property[=].valueDateTime = "2025-09-24T12:00:00+01:00"
+* #1551 ^property[+].code = #dateMaj
+* #1551 ^property[=].valueDateTime = "2025-09-24T12:00:00+01:00"
+* #1551 ^property[+].code = #status
+* #1551 ^property[=].valueCode = #active
