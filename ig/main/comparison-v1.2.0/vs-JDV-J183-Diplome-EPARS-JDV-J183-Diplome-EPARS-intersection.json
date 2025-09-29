@@ -1,0 +1,43 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "cd208de3-1a77-4f53-a70e-0c2930efccd3-1104",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/cd208de3-1a77-4f53-a70e-0c2930efccd3-1104",
+  "name" : "IntersectionJDV_J183_Diplome_EPARSAndJDV_J183_Diplome_EPARS",
+  "title" : "Intersection of null And null",
+  "status" : "active",
+  "date" : "2025-09-29T15:04:42+00:00",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "FR"
+    }]
+  }],
+  "compose" : {
+    "include" : [{
+      "concept" : [{
+        "code" : "DE28",
+        "display" : "DE Assistant de Service Social"
+      },
+      {
+        "code" : "DE29",
+        "display" : "DE Audioprothésiste"
+      },
+      {
+        "code" : "DE30",
+        "display" : "DE Ergothérapeute"
+      },
+      {
+        "code" : "DE32",
+        "display" : "DE Psychomotricien"
+      },
+      {
+        "code" : "DE38",
+        "display" : "DE Technicien de Laboratoire Médical (DETLM, DETAB ou DELAM)"
+      },
+      {
+        "code" : "DE39",
+        "display" : "DE Manipulateur d'Electro-Radiologie médicale"
+      }]
+    }]
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "cd208de3-1a77-4f53-a70e-0c2930efccd3-1583",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/cd208de3-1a77-4f53-a70e-0c2930efccd3-1583",
+  "name" : "UnionJDV_J95_ModeExercice_RASSAndJDV_J95_ModeExercice_RASS",
+  "title" : "Union of null And null",
+  "status" : "active",
+  "date" : "2025-09-29T15:04:42+00:00",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "FR"
+    }]
+  }],
+  "compose" : {
+    "include" : [{
+      "concept" : [{
+        "code" : "S",
+        "display" : "Salarié"
+      },
+      {
+        "code" : "L",
+        "display" : "Libéral, indépendant, artisan, commerçant"
+      },
+      {
+        "code" : "B",
+        "display" : "Bénévole"
+      }]
+    }]
+  }
+}

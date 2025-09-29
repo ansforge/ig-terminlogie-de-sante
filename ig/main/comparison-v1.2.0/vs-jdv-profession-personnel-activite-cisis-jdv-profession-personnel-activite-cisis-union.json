@@ -1,0 +1,73 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "cd208de3-1a77-4f53-a70e-0c2930efccd3-2471",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/cd208de3-1a77-4f53-a70e-0c2930efccd3-2471",
+  "name" : "UnionJdvProfessionPersonnelActiviteCisisAndJdvProfessionPersonnelActiviteCisis",
+  "title" : "Union of JDV Profession Personnel Activite CISIS And JDV Profession Personnel Activite CISIS",
+  "status" : "active",
+  "date" : "2025-09-29T15:04:42+00:00",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "FR"
+    }]
+  }],
+  "compose" : {
+    "include" : [{
+      "concept" : [{
+        "code" : "G15_10",
+        "display" : "Médecin"
+      },
+      {
+        "code" : "G15_60",
+        "display" : "Infirmier"
+      },
+      {
+        "code" : "G15_70",
+        "display" : "Masseur-Kinésithérapeute"
+      },
+      {
+        "code" : "G15_91",
+        "display" : "Orthophoniste"
+      },
+      {
+        "code" : "G15_94",
+        "display" : "Ergothérapeute"
+      },
+      {
+        "code" : "G15_95",
+        "display" : "Diététicien"
+      },
+      {
+        "code" : "G15_96",
+        "display" : "Psychomotricien"
+      }]
+    },
+    {
+      "concept" : [{
+        "code" : "93",
+        "display" : "Psychologue"
+      }]
+    },
+    {
+      "concept" : [{
+        "code" : "41",
+        "display" : "Assistant de service social"
+      }]
+    },
+    {
+      "concept" : [{
+        "code" : "312",
+        "display" : "Autre professionnel"
+      },
+      {
+        "code" : "326",
+        "display" : "Educateur spécialisé"
+      },
+      {
+        "code" : "329",
+        "display" : "Conseiller en génétique"
+      }]
+    }]
+  }
+}

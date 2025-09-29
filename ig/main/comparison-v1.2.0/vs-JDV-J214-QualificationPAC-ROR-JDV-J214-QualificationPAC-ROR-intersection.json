@@ -1,0 +1,23 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "cd208de3-1a77-4f53-a70e-0c2930efccd3-1203",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/cd208de3-1a77-4f53-a70e-0c2930efccd3-1203",
+  "name" : "IntersectionJDV_J214_QualificationPAC_RORAndJDV_J214_QualificationPAC_ROR",
+  "title" : "Intersection of null And null",
+  "status" : "active",
+  "date" : "2025-09-29T15:04:42+00:00",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "FR"
+    }]
+  }],
+  "compose" : {
+    "include" : [{
+      "concept" : [{
+        "code" : "PAC00",
+        "display" : "Qualification Praticien adjoint contractuel (PAC)"
+      }]
+    }]
+  }
+}

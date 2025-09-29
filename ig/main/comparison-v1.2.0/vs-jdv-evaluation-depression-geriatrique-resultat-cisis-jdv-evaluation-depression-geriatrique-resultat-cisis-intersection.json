@@ -1,0 +1,31 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "cd208de3-1a77-4f53-a70e-0c2930efccd3-1902",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/cd208de3-1a77-4f53-a70e-0c2930efccd3-1902",
+  "name" : "IntersectionJdvEvaluationDepressionGeriatriqueResultatCisisAndJdvEvaluationDepressionGeriatriqueResultatCisis",
+  "title" : "Intersection of JDV Evaluation Depression Geriatrique Resultat CISIS And JDV Evaluation Depression Geriatrique Resultat CISIS",
+  "status" : "active",
+  "date" : "2025-09-29T15:04:42+00:00",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "FR"
+    }]
+  }],
+  "compose" : {
+    "include" : [{
+      "concept" : [{
+        "code" : "17621005",
+        "display" : "normal"
+      },
+      {
+        "code" : "310495003",
+        "display" : "légère dépression"
+      },
+      {
+        "code" : "310497006",
+        "display" : "dépression sévère"
+      }]
+    }]
+  }
+}

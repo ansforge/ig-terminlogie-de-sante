@@ -1,0 +1,31 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "cd208de3-1a77-4f53-a70e-0c2930efccd3-1691",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/cd208de3-1a77-4f53-a70e-0c2930efccd3-1691",
+  "name" : "UnionJdvArtereTroncCisisAndJdvArtereTroncCisis",
+  "title" : "Union of JDV Artere Tronc CISIS And JDV Artere Tronc CISIS",
+  "status" : "active",
+  "date" : "2025-09-29T15:04:42+00:00",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "FR"
+    }]
+  }],
+  "compose" : {
+    "include" : [{
+      "concept" : [{
+        "code" : "61962009",
+        "display" : "mésencéphale"
+      },
+      {
+        "code" : "49557009",
+        "display" : "pont"
+      },
+      {
+        "code" : "26519002",
+        "display" : "moelle allongée"
+      }]
+    }]
+  }
+}

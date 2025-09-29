@@ -1,0 +1,37 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "cd208de3-1a77-4f53-a70e-0c2930efccd3-1824",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/cd208de3-1a77-4f53-a70e-0c2930efccd3-1824",
+  "name" : "IntersectionJdvDateConsultationCisisAndJdvDateConsultationCisis",
+  "title" : "Intersection of JDV Date Consultation CISIS And JDV Date Consultation CISIS",
+  "status" : "active",
+  "date" : "2025-09-29T15:04:42+00:00",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "FR"
+    }]
+  }],
+  "compose" : {
+    "include" : [{
+      "concept" : [{
+        "code" : "GEN-109",
+        "display" : "Non suivie"
+      }]
+    },
+    {
+      "concept" : [{
+        "code" : "57630001",
+        "display" : "premier trimestre de la grossesse"
+      },
+      {
+        "code" : "59466002",
+        "display" : "deuxième trimestre de la grossesse"
+      },
+      {
+        "code" : "41587001",
+        "display" : "troisième trimestre de la grossesse"
+      }]
+    }]
+  }
+}

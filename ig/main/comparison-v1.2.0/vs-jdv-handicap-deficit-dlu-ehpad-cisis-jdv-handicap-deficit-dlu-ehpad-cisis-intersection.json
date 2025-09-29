@@ -1,0 +1,31 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "cd208de3-1a77-4f53-a70e-0c2930efccd3-1998",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/cd208de3-1a77-4f53-a70e-0c2930efccd3-1998",
+  "name" : "IntersectionJdvHandicapDeficitDluEhpadCisisAndJdvHandicapDeficitDluEhpadCisis",
+  "title" : "Intersection of JDV Handicap Deficit Dlu Ehpad CISIS And JDV Handicap Deficit Dlu Ehpad CISIS",
+  "status" : "active",
+  "date" : "2025-09-29T15:04:42+00:00",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "FR"
+    }]
+  }],
+  "compose" : {
+    "include" : [{
+      "concept" : [{
+        "code" : "397540003",
+        "display" : "malvoyance"
+      },
+      {
+        "code" : "15188001",
+        "display" : "perte auditive"
+      },
+      {
+        "code" : "62305002",
+        "display" : "trouble du langage"
+      }]
+    }]
+  }
+}

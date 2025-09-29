@@ -7,11 +7,11 @@
 </div></div>
   </text>
   <url value="https://interop.esante.gouv.fr/terminologies/ImplementationGuide/ans.fr.terminologies"/>
-  <version value="1.2.0"/>
+  <version value="1.3.0"/>
   <name value="Terminologies"/>
   <title value="Terminologies  de Santé"/>
   <status value="active"/>
-  <date value="2025-09-29T04:21:41+00:00"/>
+  <date value="2025-09-29T14:58:28+00:00"/>
   <publisher value="ANS"/>
   <contact>
     <name value="ANS"/>
@@ -23989,7 +23989,7 @@
         <reference value="ValueSet/JDV-J185-TypeFermeture-ROR"/>
       </reference>
       <name value="JDV_J185_TypeFermeture_ROR"/>
-      <description value="Destination d'usage du lieu pour le lieu de réalisation de l'offre."/>
+      <description value="Les seules valeurs acceptées par le ROR pour les Organisations internes et les offres"/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -24187,7 +24187,7 @@
         <reference value="ValueSet/JDV-J201-TypeFermeture-ROR"/>
       </reference>
       <name value="JDV_J201_TypeFermeture_ROR"/>
-      <description value="Type de fermeture, codes provenant du FINESS pour les EJ et EG"/>
+      <description value="Différentes valeurs de type de fermeture que peuvent envoyer FINESS au ROR (il en existe davantage)"/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -26732,7 +26732,7 @@
         <reference value="CodeSystem/TRE-R210-ActeSpecifique"/>
       </reference>
       <name value="TRE_R210_ActeSpecifique"/>
-      <description value="Action menée par un ou plusieurs acteur(s) de santé dans le cadre d'une activité. Cet acte peut correspondre à une technique spécialisée ou traduire une expertise discriminante dans le parcours de santé."/>
+      <description value="Un acte spécifique est une action menée par un ou plusieurs acteur(s) de santé dans le cadre d’une activité. Cet acte peut correspondre à une technique spécialisée ou traduire une expertise discriminante dans le parcours de santé. Les actes réalisés habituellement par ce type d'organisation ne sont pas des actes spécifiques. Les actes spécifiques décrits sont réalisés avec les ressources propres de l’organisation ou via des ressources mises à disposition dans le cadre d’une convention à la condition que ces ressources interviennent sur site dans la réalisation de la prestation."/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>

@@ -1,0 +1,35 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "cd208de3-1a77-4f53-a70e-0c2930efccd3-1769",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/cd208de3-1a77-4f53-a70e-0c2930efccd3-1769",
+  "name" : "UnionJdvCompletudeDispensationCisisAndJdvCompletudeDispensationCisis",
+  "title" : "Union of JDV Completude Dispensation CISIS And JDV Completude Dispensation CISIS",
+  "status" : "active",
+  "date" : "2025-09-29T15:04:42+00:00",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "FR"
+    }]
+  }],
+  "compose" : {
+    "include" : [{
+      "concept" : [{
+        "code" : "FFC",
+        "display" : "Première dispensation - complète"
+      },
+      {
+        "code" : "FFP",
+        "display" : "Première dispensation - partielle"
+      },
+      {
+        "code" : "RFP",
+        "display" : "Dispensation suivante - partielle"
+      },
+      {
+        "code" : "RFC",
+        "display" : "Dispensation suivante - complète"
+      }]
+    }]
+  }
+}

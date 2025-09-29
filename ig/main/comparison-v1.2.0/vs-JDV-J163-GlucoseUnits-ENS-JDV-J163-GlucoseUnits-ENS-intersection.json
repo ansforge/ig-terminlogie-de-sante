@@ -1,0 +1,27 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "cd208de3-1a77-4f53-a70e-0c2930efccd3-1044",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/cd208de3-1a77-4f53-a70e-0c2930efccd3-1044",
+  "name" : "IntersectionJDV_J163_GlucoseUnits_ENSAndJDV_J163_GlucoseUnits_ENS",
+  "title" : "Intersection of null And null",
+  "status" : "active",
+  "date" : "2025-09-29T15:04:42+00:00",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "FR"
+    }]
+  }],
+  "compose" : {
+    "include" : [{
+      "concept" : [{
+        "code" : "mg/dL",
+        "display" : "milligramme par décilitre"
+      },
+      {
+        "code" : "%",
+        "display" : "pourcentage"
+      }]
+    }]
+  }
+}

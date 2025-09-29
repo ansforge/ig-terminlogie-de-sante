@@ -1,0 +1,27 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "cd208de3-1a77-4f53-a70e-0c2930efccd3-2493",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/cd208de3-1a77-4f53-a70e-0c2930efccd3-2493",
+  "name" : "IntersectionJdvRaisonNonRealisationCisisAndJdvRaisonNonRealisationCisis",
+  "title" : "Intersection of JDV Raison Non Realisation CISIS And JDV Raison Non Realisation CISIS",
+  "status" : "active",
+  "date" : "2025-09-29T15:04:42+00:00",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "FR"
+    }]
+  }],
+  "compose" : {
+    "include" : [{
+      "concept" : [{
+        "code" : "MED-534",
+        "display" : "Tissu nécrosé"
+      },
+      {
+        "code" : "MED-535",
+        "display" : "Bloc épuisé"
+      }]
+    }]
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "cd208de3-1a77-4f53-a70e-0c2930efccd3-1914",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/cd208de3-1a77-4f53-a70e-0c2930efccd3-1914",
+  "name" : "IntersectionJdvEvaluationSsiadCisisAndJdvEvaluationSsiadCisis",
+  "title" : "Intersection of JDV Evaluation Ssiad CISIS And JDV Evaluation Ssiad CISIS",
+  "status" : "active",
+  "date" : "2025-09-29T15:04:42+00:00",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "FR"
+    }]
+  }],
+  "compose" : {
+    "include" : [{
+      "concept" : [{
+        "code" : "R32",
+        "display" : "Incontinence urinaire, sans précision"
+      },
+      {
+        "code" : "R15",
+        "display" : "Incontinence des matières fécales"
+      },
+      {
+        "code" : "E66.9",
+        "display" : "Obésité, sans précision"
+      },
+      {
+        "code" : "F06.7",
+        "display" : "Trouble cognitif léger"
+      },
+      {
+        "code" : "F69",
+        "display" : "Trouble de la personnalité et du comportement chez l'adulte, sans précision"
+      }]
+    },
+    {
+      "concept" : [{
+        "code" : "MED-1294",
+        "display" : "Soins IDE pour escarres et autres plaies chroniques"
+      },
+      {
+        "code" : "MED-1295",
+        "display" : "Prise en charge IDE du diabète insulinotraité"
+      },
+      {
+        "code" : "GEN-365",
+        "display" : "Aucun de ces motifs"
+      }]
+    }]
+  }
+}
