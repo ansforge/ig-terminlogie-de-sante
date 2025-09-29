@@ -4656,7 +4656,7 @@ Description: "Activite Operationnelle"
 * #590 ^property[=].valueDateTime = "2025-06-20T12:00:00+01:00"
 * #590 ^property[+].code = #status
 * #590 ^property[=].valueCode = #active
-* #591 "Ostéopathie médicale" "Pratique médicale (réservée aux médecins), utilisant des techniques manuelles de manipulations musculo-squelettiques à visée diagnostique et thérapeutique. L’ostéopathie médicale est reconnue comme acte médical par le Conseil national de l’Ordre des médecins "
+* #591 "Ostéopathie médicale" "Pratique médicale (réservée aux médecins), utilisant des techniques manuelles de manipulations musculo-squelettiques à visée diagnostique et thérapeutique. L’ostéopathie médicale est reconnue comme acte médical par le Conseil national de l’Ordre des médecins"
 * #591 ^property[0].code = #dateValid
 * #591 ^property[=].valueDateTime = "2025-06-20T12:00:00+01:00"
 * #591 ^property[+].code = #dateMaj
