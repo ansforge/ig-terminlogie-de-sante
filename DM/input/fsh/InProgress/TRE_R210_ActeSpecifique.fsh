@@ -16463,7 +16463,7 @@ Description: "Un acte spécifique est une action menée par un ou plusieurs acte
 * #1517 ^property[=].valueDateTime = "2025-06-23T12:00:00+01:00"
 * #1517 ^property[+].code = #status
 * #1517 ^property[=].valueCode = #active
-* #1518 "Participation au dispositif HandiGynéco" "Démarche qui permet à des sages-femmes libérales, volontaires et formées au handicap, d’intervenir directement dans les établissements médico-sociaux (FAM, MAS, EAM),  auprès des résidentes pour réduire les obstacles à l’accès aux soins gynécologiques des femmes en situation de handicap et d'assurer des consultations gynécologiques adaptées, des ateliers de vie affective et sexuelle, ainsi que des actions de prévention des violences faites aux femmes (objective de faciliter l’accès aux soins et à l’information)"
+* #1518 "Participation au dispositif HandiGynéco" "Démarche qui permet à des sages-femmes libérales, volontaires et formées au handicap, d’intervenir directement dans les établissements médico-sociaux (FAM, MAS, EAM),  auprès des résidentes pour réduire les obstacles à l’accès aux soins gynécologiques des femmes en situation de handicap et d'assurer des consultations gynécologiques adaptées, des ateliers de vie affective et sexuelle, ainsi que des actions de prévention des violences faites aux femmes (objectif de faciliter l’accès aux soins et à l’information)"
 * #1518 ^property[0].code = #dateValid
 * #1518 ^property[=].valueDateTime = "2025-06-23T12:00:00+01:00"
 * #1518 ^property[+].code = #dateMaj
