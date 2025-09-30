@@ -1,11 +1,11 @@
 {
   "resourceType" : "ValueSet",
-  "id" : "cd208de3-1a77-4f53-a70e-0c2930efccd3-1110",
-  "url" : "http://hl7.org/fhir/comparison/ValueSet/cd208de3-1a77-4f53-a70e-0c2930efccd3-1110",
+  "id" : "99f8fa72-8e71-43f7-a72a-fcbc89f94709-1110",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/99f8fa72-8e71-43f7-a72a-fcbc89f94709-1110",
   "name" : "IntersectionJDV_J186_ProfessionRessource_RORAndJDV_J186_ProfessionRessource_ROR",
   "title" : "Intersection of null And null",
   "status" : "active",
-  "date" : "2025-09-29T15:04:42+00:00",
+  "date" : "2025-09-30T04:26:48+00:00",
   "jurisdiction" : [{
     "coding" : [{
       "system" : "urn:iso:std:iso:3166",

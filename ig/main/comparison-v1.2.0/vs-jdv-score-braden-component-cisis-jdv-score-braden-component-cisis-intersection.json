@@ -1,11 +1,11 @@
 {
   "resourceType" : "ValueSet",
-  "id" : "cd208de3-1a77-4f53-a70e-0c2930efccd3-2619",
-  "url" : "http://hl7.org/fhir/comparison/ValueSet/cd208de3-1a77-4f53-a70e-0c2930efccd3-2619",
+  "id" : "99f8fa72-8e71-43f7-a72a-fcbc89f94709-2619",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/99f8fa72-8e71-43f7-a72a-fcbc89f94709-2619",
   "name" : "IntersectionJdvScoreBradenComponentCisisAndJdvScoreBradenComponentCisis",
   "title" : "Intersection of JDV Score Braden Component CISIS And JDV Score Braden Component CISIS",
   "status" : "active",
-  "date" : "2025-09-29T15:04:42+00:00",
+  "date" : "2025-09-30T04:26:49+00:00",
   "jurisdiction" : [{
     "coding" : [{
       "system" : "urn:iso:std:iso:3166",

@@ -1,11 +1,11 @@
 {
   "resourceType" : "CodeSystem",
-  "id" : "cd208de3-1a77-4f53-a70e-0c2930efccd3-440",
-  "url" : "http://hl7.org/fhir/comparison/CodeSystem/cd208de3-1a77-4f53-a70e-0c2930efccd3-440",
+  "id" : "99f8fa72-8e71-43f7-a72a-fcbc89f94709-440",
+  "url" : "http://hl7.org/fhir/comparison/CodeSystem/99f8fa72-8e71-43f7-a72a-fcbc89f94709-440",
   "name" : "UnionTRE_R298_AgregatDisciplineEquipSocNiv1AndTRE_R298_AgregatDisciplineEquipSocNiv1",
   "title" : "Union of null And null",
   "status" : "active",
-  "date" : "2025-09-29T15:04:41+00:00",
+  "date" : "2025-09-30T04:26:48+00:00",
   "jurisdiction" : [{
     "coding" : [{
       "system" : "urn:iso:std:iso:3166",
