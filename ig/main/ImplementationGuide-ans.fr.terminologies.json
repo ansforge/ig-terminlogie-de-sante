@@ -10,7 +10,7 @@
   "name" : "Terminologies",
   "title" : "Terminologies  de Santé",
   "status" : "active",
-  "date" : "2025-09-30T04:20:41+00:00",
+  "date" : "2025-09-30T11:52:50+00:00",
   "publisher" : "ANS",
   "contact" : [{
     "name" : "ANS",
@@ -24519,17 +24519,6 @@
         "reference" : "CodeSystem/terminologie-ccam"
       },
       "name" : "Classification Commune des Actes Médicaux",
-      "exampleBoolean" : false
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "CodeSystem"
-      }],
-      "reference" : {
-        "reference" : "CodeSystem/terminologie-cladimed"
-      },
-      "name" : "Classification des dispositifs médicaux",
       "exampleBoolean" : false
     },
     {

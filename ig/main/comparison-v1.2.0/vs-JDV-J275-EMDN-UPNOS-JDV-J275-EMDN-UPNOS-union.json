@@ -1,11 +1,11 @@
 {
   "resourceType" : "ValueSet",
-  "id" : "99f8fa72-8e71-43f7-a72a-fcbc89f94709-1361",
-  "url" : "http://hl7.org/fhir/comparison/ValueSet/99f8fa72-8e71-43f7-a72a-fcbc89f94709-1361",
+  "id" : "82a0bab3-ac4a-4983-83d3-943632a48630-1358",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/82a0bab3-ac4a-4983-83d3-943632a48630-1358",
   "name" : "UnionJDV_J275_EMDN_UPNOSAndJDV_J275_EMDN_UPNOS",
   "title" : "Union of null And null",
   "status" : "active",
-  "date" : "2025-09-30T04:26:48+00:00",
+  "date" : "2025-09-30T11:59:43+00:00",
   "jurisdiction" : [{
     "coding" : [{
       "system" : "urn:iso:std:iso:3166",

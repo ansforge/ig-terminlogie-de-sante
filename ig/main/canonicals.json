@@ -8264,14 +8264,6 @@
     "oids" : ["2.16.840.1.113883.6.139"]
   },
   {
-    "id" : "terminologie-cladimed",
-    "type" : "CodeSystem",
-    "url" : "https://smt.esante.gouv.fr/terminologie-cladimed",
-    "version" : "v15",
-    "name" : "ClaDiMed",
-    "oids" : ["1.2.250.1.213.2.65"]
-  },
-  {
     "id" : "terminologie-emdn",
     "type" : "CodeSystem",
     "url" : "https://smt.esante.gouv.fr/terminologie-emdn",

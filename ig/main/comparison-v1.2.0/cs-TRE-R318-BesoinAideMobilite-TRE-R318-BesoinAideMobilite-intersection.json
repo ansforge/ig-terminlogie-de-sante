@@ -1,11 +1,11 @@
 {
   "resourceType" : "CodeSystem",
-  "id" : "99f8fa72-8e71-43f7-a72a-fcbc89f94709-480",
-  "url" : "http://hl7.org/fhir/comparison/CodeSystem/99f8fa72-8e71-43f7-a72a-fcbc89f94709-480",
+  "id" : "82a0bab3-ac4a-4983-83d3-943632a48630-480",
+  "url" : "http://hl7.org/fhir/comparison/CodeSystem/82a0bab3-ac4a-4983-83d3-943632a48630-480",
   "name" : "IntersectionTRE_R318_BesoinAideMobiliteAndTRE_R318_BesoinAideMobilite",
   "title" : "Intersection of null And null",
   "status" : "active",
-  "date" : "2025-09-30T04:26:48+00:00",
+  "date" : "2025-09-30T11:59:42+00:00",
   "jurisdiction" : [{
     "coding" : [{
       "system" : "urn:iso:std:iso:3166",

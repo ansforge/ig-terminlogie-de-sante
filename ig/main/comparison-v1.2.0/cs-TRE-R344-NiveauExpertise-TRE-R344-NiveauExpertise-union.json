@@ -1,11 +1,11 @@
 {
   "resourceType" : "CodeSystem",
-  "id" : "99f8fa72-8e71-43f7-a72a-fcbc89f94709-563",
-  "url" : "http://hl7.org/fhir/comparison/CodeSystem/99f8fa72-8e71-43f7-a72a-fcbc89f94709-563",
+  "id" : "82a0bab3-ac4a-4983-83d3-943632a48630-563",
+  "url" : "http://hl7.org/fhir/comparison/CodeSystem/82a0bab3-ac4a-4983-83d3-943632a48630-563",
   "name" : "UnionTRE_R344_NiveauExpertiseAndTRE_R344_NiveauExpertise",
   "title" : "Union of null And null",
   "status" : "active",
-  "date" : "2025-09-30T04:26:48+00:00",
+  "date" : "2025-09-30T11:59:42+00:00",
   "jurisdiction" : [{
     "coding" : [{
       "system" : "urn:iso:std:iso:3166",

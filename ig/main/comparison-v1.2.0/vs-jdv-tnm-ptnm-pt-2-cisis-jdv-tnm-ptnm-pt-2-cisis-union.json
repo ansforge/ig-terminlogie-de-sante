@@ -1,11 +1,11 @@
 {
   "resourceType" : "ValueSet",
-  "id" : "99f8fa72-8e71-43f7-a72a-fcbc89f94709-2765",
-  "url" : "http://hl7.org/fhir/comparison/ValueSet/99f8fa72-8e71-43f7-a72a-fcbc89f94709-2765",
+  "id" : "82a0bab3-ac4a-4983-83d3-943632a48630-2762",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/82a0bab3-ac4a-4983-83d3-943632a48630-2762",
   "name" : "UnionJdvTnmPtnmPt2CisisAndJdvTnmPtnmPt2Cisis",
   "title" : "Union of JDV Tnm Ptnm Pt 2 CISIS And JDV Tnm Ptnm Pt 2 CISIS",
   "status" : "active",
-  "date" : "2025-09-30T04:26:49+00:00",
+  "date" : "2025-09-30T11:59:43+00:00",
   "jurisdiction" : [{
     "coding" : [{
       "system" : "urn:iso:std:iso:3166",

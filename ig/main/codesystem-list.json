@@ -2393,15 +2393,6 @@
       "oids" : ["2.16.840.1.113883.6.139"]
     },
     {
-      "url" : "https://smt.esante.gouv.fr/terminologie-cladimed",
-      "version" : "v15",
-      "status" : "active",
-      "name" : "ClaDiMed",
-      "title" : "Classification des dispositifs médicaux",
-      "description" : null,
-      "oids" : ["1.2.250.1.213.2.65"]
-    },
-    {
       "url" : "https://smt.esante.gouv.fr/terminologie-emdn",
       "version" : "v1.2",
       "status" : "active",
