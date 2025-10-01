@@ -1,11 +1,11 @@
 {
   "resourceType" : "ValueSet",
-  "id" : "82a0bab3-ac4a-4983-83d3-943632a48630-2990",
-  "url" : "http://hl7.org/fhir/comparison/ValueSet/82a0bab3-ac4a-4983-83d3-943632a48630-2990",
+  "id" : "4672dadf-9347-40f3-870d-efac6fa4206a-2990",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/4672dadf-9347-40f3-870d-efac6fa4206a-2990",
   "name" : "UnionJdvUfcvVoieAbordCisisAndJdvUfcvVoieAbordCisis",
   "title" : "Union of JDV UFCV Voie Abord CISIS And JDV UFCV Voie Abord CISIS",
   "status" : "active",
-  "date" : "2025-09-30T11:59:43+00:00",
+  "date" : "2025-10-01T04:27:37+00:00",
   "jurisdiction" : [{
     "coding" : [{
       "system" : "urn:iso:std:iso:3166",
