@@ -20,7 +20,7 @@ jurisdiction: urn:iso:std:iso:3166#FR
 
 dependencies:
    hl7.fhir.uv.ips: 1.1.0
-   hl7.fhir.uv.extensions.r4: 5.20
+   hl7.fhir.uv.extensions.r4: 5.2.0
 
 parameters:
     pin-canonicals : pin-multiples
