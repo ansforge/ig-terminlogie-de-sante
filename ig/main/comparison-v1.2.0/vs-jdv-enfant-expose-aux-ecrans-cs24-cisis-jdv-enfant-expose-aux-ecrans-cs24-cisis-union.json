@@ -1,11 +1,11 @@
 {
   "resourceType" : "ValueSet",
-  "id" : "4672dadf-9347-40f3-870d-efac6fa4206a-1871",
-  "url" : "http://hl7.org/fhir/comparison/ValueSet/4672dadf-9347-40f3-870d-efac6fa4206a-1871",
+  "id" : "37f8c1a4-9e64-44f5-b71c-219cb28e90e7-1871",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/37f8c1a4-9e64-44f5-b71c-219cb28e90e7-1871",
   "name" : "UnionJdvEnfantExposeAuxEcransCs24CisisAndJdvEnfantExposeAuxEcransCs24Cisis",
   "title" : "Union of JDV Enfant Expose Aux Ecrans Cs24 CISIS And JDV Enfant Expose Aux Ecrans Cs24 CISIS",
   "status" : "active",
-  "date" : "2025-10-01T04:27:37+00:00",
+  "date" : "2025-10-01T10:17:13+00:00",
   "jurisdiction" : [{
     "coding" : [{
       "system" : "urn:iso:std:iso:3166",

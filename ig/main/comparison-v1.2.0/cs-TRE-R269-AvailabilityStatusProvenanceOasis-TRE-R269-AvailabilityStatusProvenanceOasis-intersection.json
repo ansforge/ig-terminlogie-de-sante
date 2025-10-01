@@ -1,11 +1,11 @@
 {
   "resourceType" : "CodeSystem",
-  "id" : "4672dadf-9347-40f3-870d-efac6fa4206a-357",
-  "url" : "http://hl7.org/fhir/comparison/CodeSystem/4672dadf-9347-40f3-870d-efac6fa4206a-357",
+  "id" : "37f8c1a4-9e64-44f5-b71c-219cb28e90e7-357",
+  "url" : "http://hl7.org/fhir/comparison/CodeSystem/37f8c1a4-9e64-44f5-b71c-219cb28e90e7-357",
   "name" : "IntersectionTRE_R269_AvailabilityStatusProvenanceOasisAndTRE_R269_AvailabilityStatusProvenanceOasis",
   "title" : "Intersection of null And null",
   "status" : "active",
-  "date" : "2025-10-01T04:27:36+00:00",
+  "date" : "2025-10-01T10:17:12+00:00",
   "jurisdiction" : [{
     "coding" : [{
       "system" : "urn:iso:std:iso:3166",

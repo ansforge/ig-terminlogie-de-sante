@@ -1,11 +1,11 @@
 {
   "resourceType" : "ValueSet",
-  "id" : "4672dadf-9347-40f3-870d-efac6fa4206a-843",
-  "url" : "http://hl7.org/fhir/comparison/ValueSet/4672dadf-9347-40f3-870d-efac6fa4206a-843",
+  "id" : "37f8c1a4-9e64-44f5-b71c-219cb28e90e7-843",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/37f8c1a4-9e64-44f5-b71c-219cb28e90e7-843",
   "name" : "IntersectionJDV_J100_FinessStatutJuridique_RASSAndJDV_J100_FinessStatutJuridique_RASS",
   "title" : "Intersection of null And null",
   "status" : "active",
-  "date" : "2025-10-01T04:27:37+00:00",
+  "date" : "2025-10-01T10:17:13+00:00",
   "jurisdiction" : [{
     "coding" : [{
       "system" : "urn:iso:std:iso:3166",
