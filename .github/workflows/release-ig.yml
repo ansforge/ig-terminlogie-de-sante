@@ -23,6 +23,8 @@ jobs:
 
       - name: Init        
         run: |
+          sudo rm -rf "/usr/local/share/boost"
+          sudo rm -rf "$AGENT_TOOLSDIRECTORY"
           cd  IG-terminology-website-release
           git submodule update --init --recursive
           
