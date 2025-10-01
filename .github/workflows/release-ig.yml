@@ -14,12 +14,43 @@ jobs:
     runs-on: ubuntu-latest
     steps:
 
+
+      #Affichage des partitions
+      - name: size    
+        shell: bash     
+        run: |
+          df -h
+
+
+    
+      #Suppression cache ubuntu
+      - name: Free Disk Space (Ubuntu)       
+        uses: insightsengineering/disk-space-reclaimer@v1
+        with:
+          tools-cache: false
+          android: true
+
+      - name: vide cache        
+        run: |
+          sudo rm -rf "/usr/local/share/boost"
+          sudo rm -rf "$AGENT_TOOLSDIRECTORY"
+
+      #Affichage des partitions
+      - name: size    
+        shell: bash     
+        run: |
+          df -h
+
+
+
       - name: Get IG-terminology-website-release
         uses: actions/checkout@main
         with:
           persist-credentials: false
           repository: ansforge/IG-terminology-website-release
           path: IG-terminology-website-release
+
+
 
       - name: Init        
         run: |
