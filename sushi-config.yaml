@@ -24,6 +24,8 @@ dependencies:
 
 parameters:
     version-comparison: n/a
+    excludettl : true
+    
     pin-canonicals : pin-multiples
     apply-version: false
     apply-contact : false
