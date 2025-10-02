@@ -3,8 +3,8 @@
 <ConceptMap xmlns="http://hl7.org/fhir">
   <id value="alignement-nuva-bdpm"/>
   <meta>
-    <versionId value="12"/>
-    <lastUpdated value="2025-09-08T15:09:15.900+02:00"/>
+    <versionId value="13"/>
+    <lastUpdated value="2025-10-02T10:48:06.370+02:00"/>
     <tag>
       <system value="http://terminology.hl7.org/CodeSystem/v3-ObservationValue"/>
       <code value="SUBSETTED"/>
@@ -12,14 +12,14 @@
     </tag>
   </meta>
   <text>
-    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Narratif généré : CarteDeConcepts alignement-nuva-bdpm</b></p><a name="alignement-nuva-bdpm"> </a><a name="hcalignement-nuva-bdpm"> </a><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px">version: 12; Dernière mise à jour : 2025-09-08 15:09:15+0200</p><p style="margin-bottom: 0px">Tag: Resource encoded in summary mode (Details: ObservationValue code SUBSETTED = 'Resource encoded in summary mode')</p></div><p>Mapping from <a href="ValueSet-vs-nuva-all.html">ValueSet_NUVA_All</a> to <a href="ValueSet-vs-bdpm-all.html">ValueSet_BDPM_All</a></p><br/></div>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: ConceptMap alignement-nuva-bdpm</b></p><a name="alignement-nuva-bdpm"> </a><a name="hcalignement-nuva-bdpm"> </a><a name="alignement-nuva-bdpm-fr-FR"> </a><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px">version: 13; Last updated: 2025-10-02 10:48:06+0200</p><p style="margin-bottom: 0px">Tag: Resource encoded in summary mode (Details: ObservationValue code SUBSETTED = 'Resource encoded in summary mode')</p></div><p>Mapping from <a href="ValueSet-vs-nuva-all.html">ValueSet_NUVA_All</a> to <a href="ValueSet-vs-bdpm-all.html">ValueSet_BDPM_All</a></p><br/></div>
   </text>
   <url value="https://smt.esante.gouv.fr/fhir/ConceptMap/alignement-nuva-bdpm"/>
-  <version value="1.0.992"/>
+  <version value="1.0.1009"/>
   <name value="Alignement_Codes_CIP_CIS_NUVA_BDPM"/>
   <title value="Aligner les codes CIS et CIP de NUVA avec les codes CIS et CIP du BDPM"/>
   <status value="active"/>
-  <date value="2025-09-08"/>
+  <date value="2025-10-02"/>
   <publisher value="Agence du numérique en santé"/>
   <contact>
     <telecom>
