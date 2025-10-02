@@ -32,10 +32,10 @@ parameters:
 #    related-ig: ref-impl:convention=ans.fr.documentation   
     logging:
       - tx #tx: Messages describing the use of the terminology server (for debugging)
-      - html #html: Log when validating an html page (troubleshooting only - leave off)
-      - generate #generate: Log when producing an individual resource (troubleshooting only - leave off)
-      - init #init: Messages describing the start up process (for debugging)
-      - progress #progress: Overall progress messages
+ #     - html #html: Log when validating an html page (troubleshooting only - leave off)
+ #     - generate #generate: Log when producing an individual resource (troubleshooting only - leave off)
+ #     - init #init: Messages describing the start up process (for debugging)
+ #     - progress #progress: Overall progress messages
 
     viewDefinition: 
         - input/sql/sql-add-info.json
