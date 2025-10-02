@@ -45,7 +45,7 @@ async def main():
             CodeSystem = await client.reference('CodeSystem', e_codeSystem["id"]).to_resource()
             f = open('../input/ontoserver/TRE/'+ e_codeSystem["name"]   + "_" +  e_codeSystem["id"] + ".json", "w", encoding="utf-8") 
             try:
-                if(( CodeSystem["count"] > 3000) or (e_codeSystem["name"] == "TRE_R13_CommuneOM"))   :
+                if(( CodeSystem["count"] > 3000) or (e_codeSystem["name"] == "TRE_R13_CommuneOM") or (e_codeSystem["name"] == "NUVA") or (e_codeSystem["name"] == "CISP_2") or (e_codeSystem["name"] == "Standard_terms_EDQM")  )   :
                     e_codeSystem["content"] = "not-present"
                     f.write(json.dumps(e_codeSystem))  
                 else :
