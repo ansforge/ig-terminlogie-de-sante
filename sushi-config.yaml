@@ -23,6 +23,7 @@ dependencies:
    hl7.fhir.uv.extensions.r4: 5.2.0
 
 parameters:
+    version-comparison: n/a
     pin-canonicals : pin-multiples
     apply-version: false
     apply-contact : false
