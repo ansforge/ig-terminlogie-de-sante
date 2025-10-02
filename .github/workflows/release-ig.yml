@@ -63,7 +63,7 @@ jobs:
         run:  |
           cd ./igSource
           git gc
-          rm -rf ./.git
+          rm -rf .git
 
       - run: |
           echo 'PACKAGE_JSON<<EOF' >> $GITHUB_ENV
