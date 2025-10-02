@@ -72,6 +72,11 @@ jobs:
         with:      
           path: igSource
 
+      - name: Run GIT GC 
+        run:  |
+          cd ./igSource
+          git gc
+
       - run: |
           echo 'PACKAGE_JSON<<EOF' >> $GITHUB_ENV
           cat ./igSource/publication-request.json >> $GITHUB_ENV
@@ -95,10 +100,7 @@ jobs:
           rm  -rf ./igSource/DM/input/fsh/Template/ontoserver/TRE/*.fsh
           rm  -rf ./igSource/DM/input/fsh/Template/ontoserver/JDV/*.fsh
             
-      - name: Run GIT GC 
-        run:  |
-          cd /igSource
-          git gc
+
     
       - name: Run sushi pour les DM
         run: sushi ./igSource/DM
