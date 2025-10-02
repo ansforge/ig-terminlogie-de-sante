@@ -57,6 +57,7 @@ jobs:
           sudo rm -rf "/usr/local/share/boost"
           sudo rm -rf "$AGENT_TOOLSDIRECTORY"
           cd  IG-terminology-website-release
+          git gc
           git submodule update --init --recursive
           
       - uses: actions/checkout@v4
@@ -86,7 +87,11 @@ jobs:
           rm  -rf ./igSource/DM/input/fsh/Template/ontoserver/TRE/*.fsh
           rm  -rf ./igSource/DM/input/fsh/Template/ontoserver/JDV/*.fsh
             
-        
+      - name: Run GIT GC 
+        run:  |
+          cd /igSource
+          git gc
+    
       - name: Run sushi pour les DM
         run: sushi ./igSource/DM
         
