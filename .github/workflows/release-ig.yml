@@ -27,8 +27,16 @@ jobs:
       - name: Free Disk Space (Ubuntu)       
         uses: insightsengineering/disk-space-reclaimer@v1
         with:
-          tools-cache: false
+
+          # all of these default to true, but feel free to set to
+          # "false" if necessary for your workflow
           android: true
+          dotnet: true
+          haskell: true
+          large-packages: true
+          swap-storage: true
+          docker-images: true
+          tools-cache: true
 
       - name: vide cache        
         run: |
