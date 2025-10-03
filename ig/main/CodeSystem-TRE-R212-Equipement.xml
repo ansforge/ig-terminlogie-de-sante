@@ -3,8 +3,8 @@
 <CodeSystem xmlns="http://hl7.org/fhir">
   <id value="TRE-R212-Equipement"/>
   <meta>
-    <versionId value="20"/>
-    <lastUpdated value="2025-09-29T16:30:09.423+02:00"/>
+    <versionId value="21"/>
+    <lastUpdated value="2025-10-02T20:13:42.712+02:00"/>
     <profile value="http://hl7.org/fhir/StructureDefinition/shareablecodesystem"/>
   </meta>
   <text>

@@ -2,8 +2,8 @@
   "resourceType" : "CodeSystem",
   "id" : "TRE-R213-ModePriseEnCharge",
   "meta" : {
-    "versionId" : "8",
-    "lastUpdated" : "2025-09-29T16:30:11.453+02:00",
+    "versionId" : "9",
+    "lastUpdated" : "2025-10-02T20:13:44.024+02:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablecodesystem"]
   },
   "text" : {

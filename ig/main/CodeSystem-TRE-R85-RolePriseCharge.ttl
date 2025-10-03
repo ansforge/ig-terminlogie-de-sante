@@ -11,8 +11,8 @@
   fhir:nodeRole fhir:treeRoot ;
   fhir:id [ fhir:v "TRE-R85-RolePriseCharge"] ; # 
   fhir:meta [
-     fhir:versionId [ fhir:v "18" ] ;
-     fhir:lastUpdated [ fhir:v "2025-09-29T16:30:31.197+02:00"^^xsd:dateTime ] ;
+     fhir:versionId [ fhir:v "19" ] ;
+     fhir:lastUpdated [ fhir:v "2025-10-02T20:13:56.737+02:00"^^xsd:dateTime ] ;
      fhir:profile ( [
        fhir:v "http://hl7.org/fhir/StructureDefinition/shareablecodesystem"^^xsd:anyURI ;
        fhir:link <http://hl7.org/fhir/StructureDefinition/shareablecodesystem>

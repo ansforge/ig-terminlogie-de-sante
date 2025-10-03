@@ -2,8 +2,8 @@
   "resourceType" : "CodeSystem",
   "id" : "TRE-R368-StatutRessource",
   "meta" : {
-    "versionId" : "5",
-    "lastUpdated" : "2025-09-29T16:30:25.549+02:00",
+    "versionId" : "6",
+    "lastUpdated" : "2025-10-02T20:13:53.616+02:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablecodesystem"]
   },
   "text" : {

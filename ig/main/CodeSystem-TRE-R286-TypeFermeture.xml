@@ -3,8 +3,8 @@
 <CodeSystem xmlns="http://hl7.org/fhir">
   <id value="TRE-R286-TypeFermeture"/>
   <meta>
-    <versionId value="7"/>
-    <lastUpdated value="2025-09-29T16:30:20.860+02:00"/>
+    <versionId value="8"/>
+    <lastUpdated value="2025-10-02T20:13:50.234+02:00"/>
     <profile value="http://hl7.org/fhir/StructureDefinition/shareablecodesystem"/>
   </meta>
   <text>

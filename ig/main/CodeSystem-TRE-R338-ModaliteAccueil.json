@@ -2,8 +2,8 @@
   "resourceType" : "CodeSystem",
   "id" : "TRE-R338-ModaliteAccueil",
   "meta" : {
-    "versionId" : "14",
-    "lastUpdated" : "2025-09-29T16:30:22.576+02:00",
+    "versionId" : "15",
+    "lastUpdated" : "2025-10-02T20:13:51.531+02:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablecodesystem"]
   },
   "text" : {
