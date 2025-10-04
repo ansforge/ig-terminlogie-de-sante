@@ -1,7 +1,7 @@
 Terminologies : Validation Results
 =========================================
 
-err = 115, warn = 816, info = 1001
+err = 115, warn = 817, info = 1001
 $--
 Generated $--. FHIR version $-- for ans.fr.terminologies#$-- (canonical = https://interop.esante.gouv.fr/terminologies)
  Build Errors : 430 / 28 / 0
@@ -38,7 +38,7 @@ Generated $--. FHIR version $-- for ans.fr.terminologies#$-- (canonical = https:
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/DM/fsh-generated/resources/ValueSet-TRE-R222-MediaTypeCorpsCDANonStructure-all : 0 / 0 / 1
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/DM/fsh-generated/resources/ValueSet-jdv-modele-document-cda : 0 / 0 / 1
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/DM/fsh-generated/resources/ValueSet-jdv-tre-r221-modele-document-cda-non-structure-all : 0 / 0 / 1
- /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/fsh-generated/resources/ImplementationGuide-ans.fr.terminologies : 2 / 0 / 2
+ /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/fsh-generated/resources/ImplementationGuide-ans.fr.terminologies : 2 / 1 / 2
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/ASS/Alignement_Codes_CIP_CIS_NUVA_BDPM : 2 / 3 / 1
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/ActEncounterCode_jdv-hl7-v3-ActEncounterCode-cisis : 0 / 1 / 1
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/ActMoodIntent_jdv-hl7-v3-ActMoodIntent-cisis : 0 / 1 / 1
@@ -1589,6 +1589,7 @@ ERROR: ValueSet.where(id = 'JDV-J124-Commune'): Error from https://smt.esante.go
 INFORMATION: ImplementationGuide.dependsOn[0].uri: Pinned the version of http://terminology.hl7.org/ImplementationGuide/hl7.terminology to 6.5.0 from choices of 5.0.0 (hl7.terminology.r4#5.0.0), 6.5.0 (hl7.terminology.r4#6.5.0)
 ERROR: ImplementationGuide/ans.fr.terminologies: ImplementationGuide.definition.extension[4].extension[0].value.ofType(string): The value provided ('pin-canonicals') was not found in the value set 'ig-parameters Codes ValueSet' (http://hl7.org/fhir/tools/ValueSet/ig-parameters|0.4.1), and a code is required from this value set  (error message = The System URI could not be determined for the code 'pin-canonicals' in the ValueSet 'http://hl7.org/fhir/tools/ValueSet/ig-parameters|0.4.1'; The provided code '#pin-canonicals' was not found in the value set 'http://hl7.org/fhir/tools/ValueSet/ig-parameters|0.4.1')
 ERROR: ImplementationGuide/ans.fr.terminologies: ImplementationGuide.definition.extension[1090].extension[0].value.ofType(code): The value provided ('pin-canonicals') was not found in the value set 'ig-parameters Codes ValueSet' (http://hl7.org/fhir/tools/ValueSet/ig-parameters|0.4.1), and a code is required from this value set  (error message = The System URI could not be determined for the code 'pin-canonicals' in the ValueSet 'http://hl7.org/fhir/tools/ValueSet/ig-parameters|0.4.1'; The provided code '#pin-canonicals' was not found in the value set 'http://hl7.org/fhir/tools/ValueSet/ig-parameters|0.4.1')
+WARNING: ImplementationGuide/ans.fr.terminologies: ImplementationGuide.dependsOn[1]: The ImplementationGuide uses package hl7.fhir.uv.ips#1.1.0 released on 2022-11-22, but the most recent appropriate version is 2.0.0. This reference is getting old and the more recent version should be considered
 == input/ontoserver/ASS/Alignement_Codes_CIP_CIS_NUVA_BDPM.json ==
 ERROR: ConceptMap: Unrecognized property 'content'
 ERROR: ConceptMap/alignement-nuva-bdpm: ConceptMap.meta.tag[0].display: Wrong Display Name 'Resource encoded in summary mode' for http://terminology.hl7.org/CodeSystem/v3-ObservationValue#SUBSETTED. There are no valid display names found for language(s) 'fr-FR'. Default display is 'subsetted'
