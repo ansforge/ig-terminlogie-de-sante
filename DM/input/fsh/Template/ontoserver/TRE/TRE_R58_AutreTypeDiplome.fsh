@@ -1,22 +1,23 @@
 CodeSystem: TRE_R58_AutreTypeDiplome
 Id: TRE-R58-AutreTypeDiplome
 Description: "Autre type de diplôme"
-* ^meta.versionId = "8"
-* ^meta.lastUpdated = "2025-07-02T18:18:26.225+00:00"
+* ^meta.versionId = "11"
+* ^meta.lastUpdated = "2025-10-02T20:13:55.363+02:00"
 * ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablecodesystem"
 * ^extension.url = "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod"
 * ^extension.valuePeriod.start = "2013-06-28T00:00:00+01:00"
 * ^url = "https://mos.esante.gouv.fr/NOS/TRE_R58-AutreTypeDiplome/FHIR/TRE-R58-AutreTypeDiplome"
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value = "urn:oid:1.2.250.1.213.1.6.1.53"
-* ^version = "20240927120000"
+* ^version = "20250828120000"
 * ^status = #active
 * ^experimental = false
-* ^date = "2024-09-27T12:00:00+01:00"
+* ^date = "2025-08-28T12:00:00+01:00"
 * ^publisher = "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris"
 * ^jurisdiction = urn:iso:std:iso:3166#FR
 * ^caseSensitive = false
 * ^content = #complete
+* ^count = 92
 * ^property[0].code = #dateValid
 * ^property[=].description = "date de validité d'un code concept"
 * ^property[=].type = #dateTime
@@ -889,15 +890,15 @@ Description: "Autre type de diplôme"
 * #DIP349 ^property[=].valueDateTime = "2023-03-31T12:00:00+01:00"
 * #DIP349 ^property[+].code = #status
 * #DIP349 ^property[=].valueCode = #active
-* #DIP350 "BTS de technicien de laboratoire listé dans l'arrêté du 21/10/1992" "Article L4352-2 2° du code de la santé publique (CSP) ; Arrêté du 21 octobre 1992. Diplôme géré par le ministère de l'Education nationale et délivré par le recteur"
+* #DIP350 "BTS/BTSA de technicien de laboratoire listé dans l'arrêté du 21/10/1992" "Article L4352-2 2° du code de la santé publique (CSP) ; Arrêté du 21 octobre 1992"
 * #DIP350 ^designation[0].language = #fr-FR
 * #DIP350 ^designation[=].use.system = "http://snomed.info/sct"
 * #DIP350 ^designation[=].use = $sct#900000000000013009
-* #DIP350 ^designation[=].value = "BTS tech lab arrêté 21/10/92"
+* #DIP350 ^designation[=].value = "BTS/BTSA tech lab arrêté 21/10/92"
 * #DIP350 ^property[0].code = #dateValid
 * #DIP350 ^property[=].valueDateTime = "2023-03-31T12:00:00+01:00"
 * #DIP350 ^property[+].code = #dateMaj
-* #DIP350 ^property[=].valueDateTime = "2024-06-28T12:00:00+01:00"
+* #DIP350 ^property[=].valueDateTime = "2025-08-28T12:00:00+01:00"
 * #DIP350 ^property[+].code = #status
 * #DIP350 ^property[=].valueCode = #active
 * #DIP352 "Diplôme de Technicien de Laboratoire arrêté du 21/10/92 sauf DETLM/DETAB,DUT,BTS" "Article L4352-2 2° du code de la santé publique (CSP) ; Arrêté du 21 octobre 1992"
@@ -1096,26 +1097,26 @@ Description: "Autre type de diplôme"
 * #DIP409 ^property[=].valueDateTime = "2024-03-29T12:00:00+01:00"
 * #DIP409 ^property[+].code = #status
 * #DIP409 ^property[=].valueCode = #active
-* #DIP412 "Diplôme de premier cycle technique biochimie-biologie CNAM"
+* #DIP412 "Diplôme ou titre ou certification délivré par le CNAM" "Article L4352-2 2° du code de la santé publique (CSP) ; Arrêté du 21 octobre 1992"
 * #DIP412 ^designation[0].language = #fr-FR
 * #DIP412 ^designation[=].use.system = "http://snomed.info/sct"
 * #DIP412 ^designation[=].use = $sct#900000000000013009
-* #DIP412 ^designation[=].value = "Dip biochimie-biologie CNAM"
+* #DIP412 ^designation[=].value = "Dip Bioch. Biol. titre et certif CNAM"
 * #DIP412 ^property[0].code = #dateValid
 * #DIP412 ^property[=].valueDateTime = "2024-06-28T12:00:00+01:00"
 * #DIP412 ^property[+].code = #dateMaj
-* #DIP412 ^property[=].valueDateTime = "2024-06-28T12:00:00+01:00"
+* #DIP412 ^property[=].valueDateTime = "2025-08-28T12:00:00+01:00"
 * #DIP412 ^property[+].code = #status
 * #DIP412 ^property[=].valueCode = #active
-* #DIP414 "Diplôme de technicienne de laboratoire de biochimie-biologie clinique ESTBB Lyon"
+* #DIP414 "Diplôme ou titre délivré par l'AFPICL de Lyon (UCLy - ESTBB)" "Article L4352-2 2° du code de la santé publique (CSP) ; Arrêté du 21 octobre 1992"
 * #DIP414 ^designation[0].language = #fr-FR
 * #DIP414 ^designation[=].use.system = "http://snomed.info/sct"
 * #DIP414 ^designation[=].use = $sct#900000000000013009
-* #DIP414 ^designation[=].value = "Dip tech lab ESTBB Lyon"
+* #DIP414 ^designation[=].value = "Diplôme et titre AFPICL Lyon"
 * #DIP414 ^property[0].code = #dateValid
 * #DIP414 ^property[=].valueDateTime = "2024-06-28T12:00:00+01:00"
 * #DIP414 ^property[+].code = #dateMaj
-* #DIP414 ^property[=].valueDateTime = "2024-06-28T12:00:00+01:00"
+* #DIP414 ^property[=].valueDateTime = "2025-08-28T12:00:00+01:00"
 * #DIP414 ^property[+].code = #status
 * #DIP414 ^property[=].valueCode = #active
 * #DIP415 "Certificat de formation tech supérieur Physicien chimiste ministère travail"

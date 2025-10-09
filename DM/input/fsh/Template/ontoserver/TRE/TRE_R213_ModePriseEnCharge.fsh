@@ -1,22 +1,23 @@
 CodeSystem: TRE_R213_ModePriseEnCharge
 Id: TRE-R213-ModePriseEnCharge
 Description: "Mode de la prise en charge"
-* ^meta.versionId = "6"
-* ^meta.lastUpdated = "2025-07-02T18:16:05.702+00:00"
+* ^meta.versionId = "9"
+* ^meta.lastUpdated = "2025-10-02T20:13:44.024+02:00"
 * ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablecodesystem"
 * ^extension.url = "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod"
 * ^extension.valuePeriod.start = "2015-04-08T00:00:00+01:00"
 * ^url = "https://mos.esante.gouv.fr/NOS/TRE_R213-ModePriseEnCharge/FHIR/TRE-R213-ModePriseEnCharge"
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value = "urn:oid:1.2.250.1.213.3.3.13"
-* ^version = "20240329120000"
+* ^version = "20250828120000"
 * ^status = #active
 * ^experimental = false
-* ^date = "2024-03-29T12:00:00+01:00"
+* ^date = "2025-08-28T12:00:00+01:00"
 * ^publisher = "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris"
 * ^jurisdiction = urn:iso:std:iso:3166#FR
 * ^caseSensitive = false
 * ^content = #complete
+* ^count = 59
 * ^property[0].code = #dateValid
 * ^property[=].description = "date de validité d'un code concept"
 * ^property[=].type = #dateTime
@@ -134,11 +135,11 @@ Description: "Mode de la prise en charge"
 * #08 ^property[=].valueDateTime = "2019-03-29T12:00:00+01:00"
 * #08 ^property[+].code = #status
 * #08 ^property[=].valueCode = #deprecated
-* #09 "Chirurgie ambulatoire"
+* #09 "Chirurgie ambulatoire" "L’unité hospitalise un patient pour une durée de moins de 12 heures dans le cadre d’une intervention chirurgicale."
 * #09 ^property[0].code = #dateValid
 * #09 ^property[=].valueDateTime = "2015-05-04T00:00:00+01:00"
 * #09 ^property[+].code = #dateMaj
-* #09 ^property[=].valueDateTime = "2015-05-04T00:00:00+01:00"
+* #09 ^property[=].valueDateTime = "2025-08-28T00:00:00+01:00"
 * #09 ^property[+].code = #status
 * #09 ^property[=].valueCode = #active
 * #10 "Equipe de liaison et de soins"
@@ -407,15 +408,11 @@ Description: "Mode de la prise en charge"
 * #31 ^property[=].valueDateTime = "2016-09-01T00:00:00+01:00"
 * #31 ^property[+].code = #status
 * #31 ^property[=].valueCode = #active
-* #32 "Consultation (CS)"
-* #32 ^designation.language = #fr-FR
-* #32 ^designation.use.system = "http://snomed.info/sct"
-* #32 ^designation.use = $sct#900000000000013009
-* #32 ^designation.value = "CS"
+* #32 "Consultation (CS) ou Séance" "Rencontre entre un patient non hospitalisé et un praticien qui permet d’initier ou de faire le suivi d’une prise en charge"
 * #32 ^property[0].code = #dateValid
 * #32 ^property[=].valueDateTime = "2016-09-01T00:00:00+01:00"
 * #32 ^property[+].code = #dateMaj
-* #32 ^property[=].valueDateTime = "2019-03-29T12:00:00+01:00"
+* #32 ^property[=].valueDateTime = "2025-08-28T12:00:00+01:00"
 * #32 ^property[+].code = #status
 * #32 ^property[=].valueCode = #active
 * #33 "Accueil des urgences"

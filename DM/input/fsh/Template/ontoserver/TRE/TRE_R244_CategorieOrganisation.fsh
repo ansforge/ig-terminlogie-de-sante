@@ -1,23 +1,23 @@
 CodeSystem: TRE_R244_CategorieOrganisation
 Id: TRE-R244-CategorieOrganisation
 Description: "Catégorie d'organisation"
-* ^meta.versionId = "17"
-* ^meta.lastUpdated = "2025-07-02T18:16:33.914+00:00"
+* ^meta.versionId = "23"
+* ^meta.lastUpdated = "2025-10-02T20:13:49.625+02:00"
 * ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablecodesystem"
 * ^extension.url = "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod"
 * ^extension.valuePeriod.start = "2017-10-13T12:00:00+01:00"
 * ^url = "https://mos.esante.gouv.fr/NOS/TRE_R244-CategorieOrganisation/FHIR/TRE-R244-CategorieOrganisation"
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value = "urn:oid:1.2.250.1.213.3.3.39"
-* ^version = "20250625120000"
+* ^version = "20250828120000"
 * ^status = #active
 * ^experimental = false
-* ^date = "2025-06-25T12:00:00+01:00"
+* ^date = "2025-08-28T12:00:00+01:00"
 * ^publisher = "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris"
 * ^jurisdiction = urn:iso:std:iso:3166#FR
 * ^caseSensitive = false
 * ^content = #complete
-* ^count = 275
+* ^count = 278
 * ^property[0].code = #dateValid
 * ^property[=].description = "date de validité d'un code concept"
 * ^property[=].type = #dateTime
@@ -522,7 +522,7 @@ Description: "Catégorie d'organisation"
 * #45 ^property[=].valueDateTime = "2018-01-26T12:00:00+01:00"
 * #45 ^property[+].code = #status
 * #45 ^property[=].valueCode = #active
-* #46 "Établissements et Services de Pré-Orientation (ESPO)"
+* #46 "Établissement et Service de Pré-Orientation (ESPO)"
 * #46 ^designation[0].language = #fr-FR
 * #46 ^designation[=].use.system = "http://snomed.info/sct"
 * #46 ^designation[=].use = $sct#900000000000013009
@@ -530,7 +530,7 @@ Description: "Catégorie d'organisation"
 * #46 ^property[0].code = #dateValid
 * #46 ^property[=].valueDateTime = "2018-01-26T12:00:00+01:00"
 * #46 ^property[+].code = #dateMaj
-* #46 ^property[=].valueDateTime = "2023-05-26T12:00:00+01:00"
+* #46 ^property[=].valueDateTime = "2025-08-28T12:00:00+01:00"
 * #46 ^property[+].code = #status
 * #46 ^property[=].valueCode = #active
 * #47 "Plateforme Emploi Accompagné (PEA)"
@@ -731,7 +731,7 @@ Description: "Catégorie d'organisation"
 * #64 ^property[=].valueDateTime = "2023-05-26T12:00:00+01:00"
 * #64 ^property[+].code = #status
 * #64 ^property[=].valueCode = #active
-* #65 "Pôles de compétences et de prestations externalisées (PCPE)"
+* #65 "Pôle de compétences et de prestations externalisées (PCPE)"
 * #65 ^designation[0].language = #fr-FR
 * #65 ^designation[=].use.system = "http://snomed.info/sct"
 * #65 ^designation[=].use = $sct#900000000000013009
@@ -739,7 +739,7 @@ Description: "Catégorie d'organisation"
 * #65 ^property[0].code = #dateValid
 * #65 ^property[=].valueDateTime = "2018-01-26T12:00:00+01:00"
 * #65 ^property[+].code = #dateMaj
-* #65 ^property[=].valueDateTime = "2018-01-26T12:00:00+01:00"
+* #65 ^property[=].valueDateTime = "2025-07-10T12:00:00+01:00"
 * #65 ^property[+].code = #status
 * #65 ^property[=].valueCode = #active
 * #66 "Equipe Relai Handicap rare"
@@ -1271,10 +1271,14 @@ Description: "Catégorie d'organisation"
 * #116 "Unité de chirurgie oncologique"
 * #116 ^property[0].code = #dateValid
 * #116 ^property[=].valueDateTime = "2023-10-30T12:00:00+01:00"
+* #116 ^property[+].code = #dateFin
+* #116 ^property[=].valueDateTime = "2025-08-28T12:00:00+01:00"
 * #116 ^property[+].code = #dateMaj
-* #116 ^property[=].valueDateTime = "2023-10-30T12:00:00+01:00"
+* #116 ^property[=].valueDateTime = "2025-08-28T12:00:00+01:00"
+* #116 ^property[+].code = #deprecationDate
+* #116 ^property[=].valueDateTime = "2025-08-28T12:00:00+01:00"
 * #116 ^property[+].code = #status
-* #116 ^property[=].valueCode = #active
+* #116 ^property[=].valueCode = #deprecated
 * #117 "Unité de radiothérapie"
 * #117 ^property[0].code = #dateValid
 * #117 ^property[=].valueDateTime = "2023-10-30T12:00:00+01:00"
@@ -1290,9 +1294,11 @@ Description: "Catégorie d'organisation"
 * #118 ^property[0].code = #dateValid
 * #118 ^property[=].valueDateTime = "2023-10-30T12:00:00+01:00"
 * #118 ^property[+].code = #dateMaj
-* #118 ^property[=].valueDateTime = "2023-10-30T12:00:00+01:00"
+* #118 ^property[=].valueDateTime = "2025-08-28T12:00:00+01:00"
+* #118 ^property[+].code = #deprecationDate
+* #118 ^property[=].valueDateTime = "2025-08-28T12:00:00+01:00"
 * #118 ^property[+].code = #status
-* #118 ^property[=].valueCode = #active
+* #118 ^property[=].valueCode = #deprecated
 * #119 "Unité mère-enfant"
 * #119 ^property[0].code = #dateValid
 * #119 ^property[=].valueDateTime = "2023-10-30T12:00:00+01:00"
@@ -2543,10 +2549,14 @@ Description: "Catégorie d'organisation"
 * #235 ^designation[=].value = "Unité de médecine générale"
 * #235 ^property[0].code = #dateValid
 * #235 ^property[=].valueDateTime = "2025-01-31T12:00:00+01:00"
+* #235 ^property[+].code = #dateFin
+* #235 ^property[=].valueDateTime = "2025-08-28T12:00:00+01:00"
 * #235 ^property[+].code = #dateMaj
-* #235 ^property[=].valueDateTime = "2025-01-31T12:00:00+01:00"
+* #235 ^property[=].valueDateTime = "2025-08-28T12:00:00+01:00"
+* #235 ^property[+].code = #deprecationDate
+* #235 ^property[=].valueDateTime = "2025-08-28T12:00:00+01:00"
 * #235 ^property[+].code = #status
-* #235 ^property[=].valueCode = #active
+* #235 ^property[=].valueCode = #deprecated
 * #236 "Unité hospitalière d'odontologie"
 * #236 ^designation[0].language = #fr-FR
 * #236 ^designation[=].use.system = "http://snomed.info/sct"
@@ -2569,11 +2579,15 @@ Description: "Catégorie d'organisation"
 * #237 ^property[=].valueDateTime = "2025-01-31T12:00:00+01:00"
 * #237 ^property[+].code = #status
 * #237 ^property[=].valueCode = #active
-* #238 "Unité de médecine polyvalente"
+* #238 "Unité hospitalière de médecine polyvalente"
+* #238 ^designation[0].language = #fr-FR
+* #238 ^designation[=].use.system = "http://snomed.info/sct"
+* #238 ^designation[=].use = $sct#900000000000013009
+* #238 ^designation[=].value = "Unité de médecine polyvalente"
 * #238 ^property[0].code = #dateValid
 * #238 ^property[=].valueDateTime = "2025-01-31T12:00:00+01:00"
 * #238 ^property[+].code = #dateMaj
-* #238 ^property[=].valueDateTime = "2025-01-31T12:00:00+01:00"
+* #238 ^property[=].valueDateTime = "2025-08-28T12:00:00+01:00"
 * #238 ^property[+].code = #status
 * #238 ^property[=].valueCode = #active
 * #239 "Unité hospitalière de médecine nucléaire"
@@ -2627,10 +2641,14 @@ Description: "Catégorie d'organisation"
 * #243 ^designation[=].value = "Cabinet de MIR"
 * #243 ^property[0].code = #dateValid
 * #243 ^property[=].valueDateTime = "2025-01-31T12:00:00+01:00"
+* #243 ^property[+].code = #dateFin
+* #243 ^property[=].valueDateTime = "2025-08-28T12:00:00+01:00"
 * #243 ^property[+].code = #dateMaj
-* #243 ^property[=].valueDateTime = "2025-01-31T12:00:00+01:00"
+* #243 ^property[=].valueDateTime = "2025-08-28T12:00:00+01:00"
+* #243 ^property[+].code = #deprecationDate
+* #243 ^property[=].valueDateTime = "2025-08-28T12:00:00+01:00"
 * #243 ^property[+].code = #status
-* #243 ^property[=].valueCode = #active
+* #243 ^property[=].valueCode = #deprecated
 * #244 "Equipe Mobile d'Expertise en Réadaptation (EMER) neuro-locomoteur"
 * #244 ^designation[0].language = #fr-FR
 * #244 ^designation[=].use.system = "http://snomed.info/sct"
@@ -2777,15 +2795,15 @@ Description: "Catégorie d'organisation"
 * #257 ^property[=].valueDateTime = "2025-04-25T12:00:00+01:00"
 * #257 ^property[+].code = #status
 * #257 ^property[=].valueCode = #active
-* #258 "Hébergement Temporaire d'urgence en Sortie d'Hospitalisation"
+* #258 "Hébergement Temporaire d'urgence (dont HT-SH)"
 * #258 ^designation[0].language = #fr-FR
 * #258 ^designation[=].use.system = "http://snomed.info/sct"
 * #258 ^designation[=].use = $sct#900000000000013009
-* #258 ^designation[=].value = "HT-SH"
+* #258 ^designation[=].value = "Héb. Temp. d'urg."
 * #258 ^property[0].code = #dateValid
 * #258 ^property[=].valueDateTime = "2025-04-25T12:00:00+01:00"
 * #258 ^property[+].code = #dateMaj
-* #258 ^property[=].valueDateTime = "2025-04-25T12:00:00+01:00"
+* #258 ^property[=].valueDateTime = "2025-08-28T12:00:00+01:00"
 * #258 ^property[+].code = #status
 * #258 ^property[=].valueCode = #active
 * #259 "Point d'information local dédié aux personnes âgées"
@@ -2950,6 +2968,7 @@ Description: "Catégorie d'organisation"
 * #274 ^property[=].valueCode = #active
 * #275 "Unité de dialyse Médicalisée (UDM)"
 * #275 ^designation[0].language = #fr-FR
+* #275 ^designation[=].use.system = "http://snomed.info/sct"
 * #275 ^designation[=].use = $sct#900000000000013009
 * #275 ^designation[=].value = "UDM"
 * #275 ^property[0].code = #dateValid
@@ -2958,3 +2977,35 @@ Description: "Catégorie d'organisation"
 * #275 ^property[=].valueDateTime = "2025-06-25T12:00:00+01:00"
 * #275 ^property[+].code = #status
 * #275 ^property[=].valueCode = #active
+* #276 "Unité d’Accueil et de Soins pour personnes Sourdes et malentendantes (UASS)"
+* #276 ^designation[0].language = #fr-FR
+* #276 ^designation[=].use.system = "http://snomed.info/sct"
+* #276 ^designation[=].use = $sct#900000000000013009
+* #276 ^designation[=].value = "UASS"
+* #276 ^property[0].code = #dateValid
+* #276 ^property[=].valueDateTime = "2025-07-10T12:00:00+01:00"
+* #276 ^property[+].code = #dateMaj
+* #276 ^property[=].valueDateTime = "2025-07-10T12:00:00+01:00"
+* #276 ^property[+].code = #status
+* #276 ^property[=].valueCode = #active
+* #277 "Equipe de coordination hospitalière de tissus et/ou d’organes"
+* #277 ^designation[0].language = #fr-FR
+* #277 ^designation[=].use.system = "http://snomed.info/sct"
+* #277 ^designation[=].use = $sct#900000000000013009
+* #277 ^designation[=].value = "Equipe organes tissus"
+* #277 ^property[0].code = #dateValid
+* #277 ^property[=].valueDateTime = "2025-07-10T12:00:00+01:00"
+* #277 ^property[+].code = #dateMaj
+* #277 ^property[=].valueDateTime = "2025-07-10T12:00:00+01:00"
+* #277 ^property[+].code = #status
+* #277 ^property[=].valueCode = #active
+* #278 "Unité Hospitalière de Courte Durée (UHCD)"
+* #278 ^designation[0].language = #fr-FR
+* #278 ^designation[=].use = $sct#900000000000013009
+* #278 ^designation[=].value = "UHCD"
+* #278 ^property[0].code = #dateValid
+* #278 ^property[=].valueDateTime = "2025-07-10T12:00:00+01:00"
+* #278 ^property[+].code = #dateMaj
+* #278 ^property[=].valueDateTime = "2025-07-10T12:00:00+01:00"
+* #278 ^property[+].code = #status
+* #278 ^property[=].valueCode = #active

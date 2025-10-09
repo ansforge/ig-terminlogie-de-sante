@@ -1,8 +1,8 @@
 ValueSet: JDV_J01_XdsAuthorSpecialty_CISIS
 Id: JDV-J01-XdsAuthorSpecialty-CISIS
 Description: "XDS authorSpecialty CI-SIS"
-* ^meta.versionId = "9"
-* ^meta.lastUpdated = "2025-07-02T17:04:31.682+00:00"
+* ^meta.versionId = "12"
+* ^meta.lastUpdated = "2025-07-25T09:32:07.019+00:00"
 * ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablevalueset"
 * ^language = #fr-FR
 * ^extension.url = "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod"
@@ -10,10 +10,10 @@ Description: "XDS authorSpecialty CI-SIS"
 * ^url = "https://mos.esante.gouv.fr/NOS/JDV_J01-XdsAuthorSpecialty-CISIS/FHIR/JDV-J01-XdsAuthorSpecialty-CISIS"
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value = "urn:oid:1.2.250.1.213.1.1.5.461"
-* ^version = "20250328120000"
+* ^version = "20250721120000"
 * ^status = #active
 * ^experimental = false
-* ^date = "2025-03-28T12:00:00+01:00"
+* ^date = "2025-07-21T12:00:00+01:00"
 * ^publisher = "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris"
 * ^jurisdiction = urn:iso:std:iso:3166#FR
 * $TRE-A00-ProducteurDocNonPS#ALIM_AM "Alimentation automatique à partir du Système d'Information de l'Assurance Maladie"
@@ -407,3 +407,4 @@ Description: "XDS authorSpecialty CI-SIS"
 * $TRE-R85-RolePriseCharge#370 "Opérateur de Soins Non Programmés"
 * $TRE-R85-RolePriseCharge#371 "Aide à domicile qualifié(e)"
 * $TRE-R85-RolePriseCharge#372 "Aide à domicile"
+* $TRE-R85-RolePriseCharge#373 "Technicien d’études cliniques"
