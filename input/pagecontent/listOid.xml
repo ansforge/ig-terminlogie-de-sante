@@ -1,5 +1,5 @@
 <div xmlns="http://www.w3.org/1999/xhtml" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://hl7.org/fhir ../../input-cache/schemas/r5/fhir-single.xsd">
-    
+        
      Les systèmes d'identification définis ici sont destinés à la commodité des implémenteurs HL7. 
     Ces ressources ont pour objectif particulier de capturer, pour un accès facile, des informations de métadonnées descriptives sur chaque système d'identifiants enregistré ici.
     <br/>
@@ -7,24 +7,27 @@
 
 
     <ul class="nav nav-tabs">
-    <li class="active"><a ref="#">NamingSystem</a></li>
-    <li><a href="listOid.html">Liste des OID</a></li>     
+    <li ><a href="NamingSystem.html">Liste des  NamingSystem</a></li>
+    <li class="active"><a href="#">Liste des OID</a></li>     
   </ul>
 
         <br/>
     <div id="orig">
-    <ul class="columns-3">
-      {% include list-simple-name-namingsystems.xhtml %}
-    </ul>
-    
-    
+
+
+
+   {% sql {
+  "query" : " select  name as Name,url as url,replace(identifier,'urn:oid:','')  as OID from CodeSystemViewOid   order by name ",
+  "class" : "codes",
+  "columns" : [
+    { "name" : "Name", "type" : "markdown", "source" : "Name"},
+    { "name" : "URL", "type" : "markdown", "source" : "url"},    
+    { "name" : "OID", "type" : "markdown", "source" : "OID"} 
+  ]
+} %}
+
+
+
     </div>
   
   </div>
-
-
-
-
-
-
- 

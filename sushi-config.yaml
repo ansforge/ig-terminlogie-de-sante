@@ -35,15 +35,15 @@ parameters:
 #    related-ig: ref-impl:convention=ans.fr.documentation   
     logging:
       - tx #tx: Messages describing the use of the terminology server (for debugging)
- #     - html #html: Log when validating an html page (troubleshooting only - leave off)
- #     - generate #generate: Log when producing an individual resource (troubleshooting only - leave off)
- #     - init #init: Messages describing the start up process (for debugging)
- #     - progress #progress: Overall progress messages
+      - html #html: Log when validating an html page (troubleshooting only - leave off)
+      - generate #generate: Log when producing an individual resource (troubleshooting only - leave off)
+      - init #init: Messages describing the start up process (for debugging)
+      - progress #progress: Overall progress messages
 
     viewDefinition: 
         - input/sql/sql-add-info.json
         - input/sql/sql-add-info-codesystem.sql       
-      
+        - input/sql/sql-add-info-codesystemOid.sql     
     shownav: 'true'
 
     no-validate:
@@ -1143,8 +1143,12 @@ pages:
         title :  Association 
         ass-telechargement.xml:
             title :  Association   
-    namingSystem.xml:
-        title :  Identifiants externes          
+    identifiants.xml:
+        title :  Identifiants           
+        namingSystem.xml:
+            title :  Identifiants externes
+        listOid.xml:
+            title :  Listes des OID           
           
     autres_ressources.md:
         title: Autres Ressources     
@@ -1161,7 +1165,7 @@ menu:
     Accueil: index.html         
     Terminologies  : tre.html
     Jeux de valeurs  : jdv.html
-    Identifiants externes  : namingSystem.html
+    Identifiants  : identifiants.html
     Association  : ass.html    
     
 #    NOS : 
