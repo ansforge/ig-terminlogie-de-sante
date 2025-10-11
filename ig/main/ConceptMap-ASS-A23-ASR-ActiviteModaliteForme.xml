@@ -27,7 +27,7 @@
   <jurisdiction>
     <coding>
       <system value="urn:iso:std:iso:3166"/>
-      <code value="FR"/>
+      <code value="FRA"/>
     </coding>
   </jurisdiction>
   <sourceUri value="https://mos.esante.gouv.fr/NOS/JDV_J133-ActiviteSanitaireRegulee-RASS/FHIR/JDV-J133-ActiviteSanitaireRegulee-RASS"/>

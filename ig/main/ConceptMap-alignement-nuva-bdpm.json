@@ -44,7 +44,7 @@
   "jurisdiction" : [{
     "coding" : [{
       "system" : "urn:iso:std:iso:3166",
-      "code" : "FR"
+      "code" : "FRA"
     }]
   }],
   "sourceCanonical" : "https://smt.esante.gouv.fr/terminologie-nuva?vs",

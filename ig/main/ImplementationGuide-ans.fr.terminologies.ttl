@@ -18,7 +18,7 @@
   fhir:name [ fhir:v "Terminologies"] ; # 
   fhir:title [ fhir:v "Terminologies  de Santé"] ; # 
   fhir:status [ fhir:v "active"] ; # 
-  fhir:date [ fhir:v "2025-10-05T04:19:45+00:00"^^xsd:dateTime] ; # 
+  fhir:date [ fhir:v "2025-10-11T04:20:12+00:00"^^xsd:dateTime] ; # 
   fhir:publisher [ fhir:v "ANS"] ; # 
   fhir:contact ( [
      fhir:name [ fhir:v "ANS" ] ;
@@ -31,7 +31,7 @@
   fhir:jurisdiction ( [
      fhir:coding ( [
        fhir:system [ fhir:v "urn:iso:std:iso:3166"^^xsd:anyURI ] ;
-       fhir:code [ fhir:v "FR" ]
+       fhir:code [ fhir:v "FRA" ]
      ] )
   ] ) ; # 
   fhir:packageId [ fhir:v "ans.fr.terminologies"] ; # 
@@ -33578,23 +33578,6 @@
          fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
          fhir:value [
            a fhir:string ;
-           fhir:v "CodeSystem"
-         ]
-       ] ) ;
-       fhir:reference [
-         fhir:link <https://interop.esante.gouv.fr/terminologies/CodeSystem/terminologie-sms> ;
-         fhir:reference [ fhir:v "CodeSystem/terminologie-sms" ]
-       ] ;
-       fhir:name [ fhir:v "Dictionnaire européen multilingue des substances entrant dans la composition de médicaments" ] ;
-       fhir:example [
-         a fhir:boolean ;
-         fhir:v false
-       ]
-     ] [
-       fhir:extension ( [
-         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
-         fhir:value [
-           a fhir:string ;
            fhir:v "ValueSet"
          ]
        ] ) ;
@@ -46587,26 +46570,8 @@
          ]
        ] ) ;
        fhir:reference [
-         fhir:link <https://interop.esante.gouv.fr/terminologies/CodeSystem/900000000000207008-20250701> ;
-         fhir:reference [ fhir:v "CodeSystem/900000000000207008-20250701" ]
-       ] ;
-       fhir:name [ fhir:v "SNOMED CT core" ] ;
-       fhir:description [ fhir:v "SNOMED CT is the most comprehensive and precise clinical health terminology product in the world, owned and distributed around the world by The International Health Terminology Standards Development Organisation (IHTSDO)." ] ;
-       fhir:example [
-         a fhir:boolean ;
-         fhir:v false
-       ]
-     ] [
-       fhir:extension ( [
-         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
-         fhir:value [
-           a fhir:string ;
-           fhir:v "CodeSystem"
-         ]
-       ] ) ;
-       fhir:reference [
-         fhir:link <https://interop.esante.gouv.fr/terminologies/CodeSystem/900000000000207008-20250901> ;
-         fhir:reference [ fhir:v "CodeSystem/900000000000207008-20250901" ]
+         fhir:link <https://interop.esante.gouv.fr/terminologies/CodeSystem/900000000000207008-20251001> ;
+         fhir:reference [ fhir:v "CodeSystem/900000000000207008-20251001" ]
        ] ;
        fhir:name [ fhir:v "SNOMED CT core" ] ;
        fhir:description [ fhir:v "SNOMED CT is the most comprehensive and precise clinical health terminology product in the world, owned and distributed around the world by The International Health Terminology Standards Development Organisation (IHTSDO)." ] ;
@@ -51412,6 +51377,24 @@
        ] ;
        fhir:name [ fhir:v "ValueSet_SMS_All" ] ;
        fhir:description [ fhir:v "Ce jeu de valeurs inclut tous les codes de la terminologie SMS, Dictionnaire des substances médicamenteuses" ] ;
+       fhir:example [
+         a fhir:boolean ;
+         fhir:v false
+       ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [
+           a fhir:string ;
+           fhir:v "ValueSet"
+         ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <https://interop.esante.gouv.fr/terminologies/ValueSet/VS-test> ;
+         fhir:reference [ fhir:v "ValueSet/VS-test" ]
+       ] ;
+       fhir:name [ fhir:v "VS-test" ] ;
+       fhir:description [ fhir:v "VS-test" ] ;
        fhir:example [
          a fhir:boolean ;
          fhir:v false

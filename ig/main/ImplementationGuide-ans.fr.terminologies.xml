@@ -11,7 +11,7 @@
   <name value="Terminologies"/>
   <title value="Terminologies  de Santé"/>
   <status value="active"/>
-  <date value="2025-10-05T04:19:45+00:00"/>
+  <date value="2025-10-11T04:20:12+00:00"/>
   <publisher value="ANS"/>
   <contact>
     <name value="ANS"/>
@@ -24,7 +24,7 @@
   <jurisdiction>
     <coding>
       <system value="urn:iso:std:iso:3166"/>
-      <code value="FR"/>
+      <code value="FRA"/>
     </coding>
   </jurisdiction>
   <packageId value="ans.fr.terminologies"/>
@@ -17989,16 +17989,6 @@
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="CodeSystem"/>
-      </extension>
-      <reference>
-        <reference value="CodeSystem/terminologie-sms"/>
-      </reference>
-      <name value="Dictionnaire européen multilingue des substances entrant dans la composition de médicaments"/>
-      <exampleBoolean value="false"/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
         <valueString value="ValueSet"/>
       </extension>
       <reference>
@@ -25936,18 +25926,7 @@
         <valueString value="CodeSystem"/>
       </extension>
       <reference>
-        <reference value="CodeSystem/900000000000207008-20250701"/>
-      </reference>
-      <name value="SNOMED CT core"/>
-      <description value="SNOMED CT is the most comprehensive and precise clinical health terminology product in the world, owned and distributed around the world by The International Health Terminology Standards Development Organisation (IHTSDO)."/>
-      <exampleBoolean value="false"/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="CodeSystem"/>
-      </extension>
-      <reference>
-        <reference value="CodeSystem/900000000000207008-20250901"/>
+        <reference value="CodeSystem/900000000000207008-20251001"/>
       </reference>
       <name value="SNOMED CT core"/>
       <description value="SNOMED CT is the most comprehensive and precise clinical health terminology product in the world, owned and distributed around the world by The International Health Terminology Standards Development Organisation (IHTSDO)."/>
@@ -28884,6 +28863,17 @@
       </reference>
       <name value="ValueSet_SMS_All"/>
       <description value="Ce jeu de valeurs inclut tous les codes de la terminologie SMS, Dictionnaire des substances médicamenteuses"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/VS-test"/>
+      </reference>
+      <name value="VS-test"/>
+      <description value="VS-test"/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>

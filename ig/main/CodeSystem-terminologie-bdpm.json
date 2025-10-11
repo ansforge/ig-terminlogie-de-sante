@@ -31,7 +31,7 @@
   "jurisdiction" : [{
     "coding" : [{
       "system" : "urn:iso:std:iso:3166",
-      "code" : "FR"
+      "code" : "FRA"
     }]
   }],
   "valueSet" : "https://smt.esante.gouv.fr/terminologie-bdpm?vs",

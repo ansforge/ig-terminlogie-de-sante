@@ -3569,6 +3569,19 @@
       ]
     },
     {
+      "url" : "https://smt.esante.gouv.fr/fhir/ValueSet/VS-test",
+      "version" : "20210101000000",
+      "status" : "active",
+      "name" : "VS_test",
+      "title" : "VS-test",
+      "description" : "VS-test",
+      "systems" : [
+        "https://smt.esante.gouv.fr/fhir/CodeSystem/1.2.250.1.213.1.1.4.322"
+      ],
+      "oids" : ["1.2.250.1.213.1.1.5.522.777.777"],
+      "sources" : ["1.2.250.1.213.1.1.5.522.777.777"]
+    },
+    {
       "url" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-abord-veineux-central-cisis",
       "version" : "20250624152100",
       "status" : "active",

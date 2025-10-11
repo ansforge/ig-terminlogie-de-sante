@@ -31,12 +31,12 @@
   <title value="Classification internationale des maladies et des problèmes de santé connexes - 11ème révision"/>
   <status value="active"/>
   <experimental value="false"/>
-  <date value="2025-10-05T04:19:45+00:00"/>
+  <date value="2025-10-11T04:20:12+00:00"/>
   <publisher value="Agence du numérique en santé"/>
   <jurisdiction>
     <coding>
       <system value="urn:iso:std:iso:3166"/>
-      <code value="FR"/>
+      <code value="FRA"/>
     </coding>
   </jurisdiction>
   <valueSet value="https://smt.esante.gouv.fr/terminologie-cim11-mms?vs"/>

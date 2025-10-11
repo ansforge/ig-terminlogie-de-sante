@@ -2,7 +2,7 @@
   "package": "ans.fr.terminologies",
   "version": "1.3.0",
   "fhirVersion": "4.0.1",
-  "jurisdiction": "FR",
+  "jurisdiction": "FRA",
   "extensions": [],
   "profiles": {},
   "usage": {

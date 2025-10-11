@@ -36,7 +36,7 @@
   <jurisdiction>
     <coding>
       <system value="urn:iso:std:iso:3166"/>
-      <code value="FR"/>
+      <code value="FRA"/>
     </coding>
   </jurisdiction>
   <valueSet value="https://smt.esante.gouv.fr/terminologie-emdn?vs"/>
