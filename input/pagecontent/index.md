@@ -67,6 +67,33 @@ Les terminologies publiées sur le SMT et les jeux de valeurs sont accessibles a
   * Voir des exemples : [https://smt.esante.gouv.fr/formations/formations-specifiques/consommer-des-terminologies-et-des-jeux-de-valeurs-en-fhir-depuis-le-serveur-multi-terminologies-de-lans/](https://smt.esante.gouv.fr/formations/formations-specifiques/consommer-des-terminologies-et-des-jeux-de-valeurs-en-fhir-depuis-le-serveur-multi-terminologies-de-lans/) 
 * un Implementation Guide (IG) FHIR : [https://ansforge.github.io/IG-terminologie-de-sante/ig/main/](https://ansforge.github.io/IG-terminologie-de-sante/ig/main/)
 
+
+
+<div class="field--item">
+
+  
+        
+    <p>
+            </p><div class="clearfix text-formatted field field--name-field-before-link field--type-text-long field--label-hidden field--item"><p class="mb-1">Testez et explorez directement le service FHIR du Serveur Multi-Terminologies grâce au bouton Postman ci-dessous :</p><div class="postman-run-button" data-postman-action="collection/fork" data-postman-visibility="public" data-postman-var-1="15284786-43ba2026-a7c2-411a-b7d3-d5c86e073c37" data-postman-collection-url="entityId=15284786-43ba2026-a7c2-411a-b7d3-d5c86e073c37&amp;entityType=collection&amp;workspaceId=6daf9b86-7e91-4872-a32d-ca224f121092" data-postman-param="env%5BProduction%5D=W3sia2V5IjoidG9rZW4iLCJ2YWx1ZSI6IiIsInR5cGUiOiJkZWZhdWx0IiwiZW5hYmxlZCI6dHJ1ZX0seyJrZXkiOiJjb2xsZWN0aW9uTmFtZSIsInZhbHVlIjoiIiwidHlwZSI6ImRlZmF1bHQiLCJlbmFibGVkIjp0cnVlfSx7ImtleSI6ImNvbGxlY3Rpb25TY2hlbWFVcmwiLCJ2YWx1ZSI6IiIsInR5cGUiOiJkZWZhdWx0IiwiZW5hYmxlZCI6dHJ1ZX0seyJrZXkiOiJhY2Nlc3NLZXkiLCJ2YWx1ZSI6IiIsInR5cGUiOiJkZWZhdWx0IiwiZW5hYmxlZCI6dHJ1ZX0seyJrZXkiOiJ3b3Jrc3BhY2VJZCIsInZhbHVlIjoiIiwidHlwZSI6ImRlZmF1bHQiLCJlbmFibGVkIjp0cnVlfSx7ImtleSI6ImNvbGxlY3Rpb25JZCIsInZhbHVlIjoiIiwidHlwZSI6ImRlZmF1bHQiLCJlbmFibGVkIjp0cnVlfV0=" data-postman-button-index="0">&nbsp;</div><script type="text/javascript">
+    (function (p, o, s, t, m, a, n) {
+        !p[s] && (p[s] = function () { (p[t] || (p[t] = [])).push(arguments); });
+        !o.getElementById(s + t) && o.getElementsByTagName("head")[0].appendChild((
+            (n = o.createElement("script")),
+            (n.id = s + t), (n.async = 1), (n.src = m), n
+        ));
+    }(window, document, "_pm", "PostmanRunObject", "https://run.pstmn.io/button.js"));
+</script></div>
+      <p></p>
+
+                
+		
+    
+	<p class="mb-0 fz-16 after-link"></p>
+
+  </div>
+
+
+
 ### IP Statements
 
 {% include ip-statements.xhtml %}
