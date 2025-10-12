@@ -7,7 +7,7 @@
 
 
     <ul class="nav nav-tabs">
-    <li ><a href="NamingSystem.html">Liste des  NamingSystem</a></li>
+    <li ><a href="namingSystem.html">Liste des  NamingSystem</a></li>
     <li class="active"><a href="#">Liste des OID</a></li>     
   </ul>
 
