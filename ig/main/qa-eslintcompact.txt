@@ -459,7 +459,7 @@ Generic: line 0, col 0, Error - The link 'CodeSystem-TRE-A11-IheFormatCode.html#
 Generic: line 0, col 0, Error - The link 'CodeSystem-TRE-A11-IheFormatCode.html#TRE-A11-IheFormatCode-ConceptMap-ASS-A11-CorresModeleCDA-XdsFormatCode-CISIS.46html' for "ConceptMap-ASS-A11-CorresModeleCDA-XdsFormatCode-CISIS.html" cannot be resolved (valid targets: 60 targets) (NOTFOUND)
 Generic: line 0, col 0, Error - The link 'CodeSystem-TRE-A11-IheFormatCode.html#TRE-A11-IheFormatCode-ConceptMap-ASS-A11-CorresModeleCDA-XdsFormatCode-CISIS.46html' for "ConceptMap-ASS-A11-CorresModeleCDA-XdsFormatCode-CISIS.html" cannot be resolved (valid targets: 60 targets) (NOTFOUND)
 Generic: line 0, col 0, Error - The link 'CodeSystem-TRE-A11-IheFormatCode.html#TRE-A11-IheFormatCode-ConceptMap-ASS-A11-CorresModeleCDA-XdsFormatCode-CISIS.46html' for "ConceptMap-ASS-A11-CorresModeleCDA-XdsFormatCode-CISIS.html" cannot be resolved (valid targets: 60 targets) (NOTFOUND)
-Generic: line 0, col 0, Error - The link 'NamingSystem.html' for "Liste des NamingSystem" cannot be resolved (NOTFOUND)
+Generic: line 0, col 0, Warning - The <script> containing the javascript '(function (p, o, s, '... is illegal and not allowed on the HL7 ci-build - need to put the script in a  .js file in a trusted template if this IG is to build on the HL7 ci-build (if it is justified and needed) (INVALID)
 /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/DM/fsh-generated/resources/ConceptMap-ASS-A14-FamilleActivite-ActiviteOperationnelle.json: line 1, col 22710, Error - The source code '007' is not valid in the code system https://smt.esante.gouv.fr/terminologie-SERAFINPH|2023.1.0 (REQUIRED)
 /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/DM/fsh-generated/resources/ConceptMap-ASS-A14-FamilleActivite-ActiviteOperationnelle.json: line 1, col 22998, Error - The source code '2.2.1.1' is not valid in the code system https://smt.esante.gouv.fr/terminologie-SERAFINPH|2023.1.0 (REQUIRED)
 /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/DM/fsh-generated/resources/ConceptMap-ASS-A14-FamilleActivite-ActiviteOperationnelle.json: line 1, col 23070, Error - The source code '2.2.1.1' is not valid in the code system https://smt.esante.gouv.fr/terminologie-SERAFINPH|2023.1.0 (REQUIRED)
@@ -2334,5 +2334,5 @@ Generic: line 0, col 0, Error - The link 'NamingSystem.html' for "Liste des Nami
 /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/TRE/TreR394CompetenceMetier_tre-r394-competence-metier.json: line 1, col 8225, Info - This property has only a code ('dateMaj') and not a URI, so it has no clearly defined meaning in the terminology ecosystem (BUSINESSRULE)
 /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/TRE/TreR394CompetenceMetier_tre-r394-competence-metier.json: line 1, col 8225, Info - This property has only a code ('dateFin') and not a URI, so it has no clearly defined meaning in the terminology ecosystem (BUSINESSRULE)
 
-err = 110, warn = 808, info = 980
+err = 110, warn = 809, info = 980
 IG Publisher Version: 1.8.22

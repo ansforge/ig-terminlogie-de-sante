@@ -1,10 +1,10 @@
 Terminologies : Validation Results
 =========================================
 
-err = 110, warn = 808, info = 980
+err = 110, warn = 809, info = 980
 $--
 Generated $--. FHIR version $-- for ans.fr.terminologies#$-- (canonical = https://interop.esante.gouv.fr/terminologies)
- Build Errors : 429 / 25 / 0
+ Build Errors : 428 / 26 / 0
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/DM/fsh-generated/resources/ConceptMap-ASS-A11-CorresModeleCDA-XdsFormatCode-CISIS : 0 / 0 / 1
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/DM/fsh-generated/resources/ConceptMap-ASS-A12-CorresMediaTypeCDANonStructure-XdsFormatCode-CISIS : 0 / 0 / 1
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/DM/fsh-generated/resources/ConceptMap-ASS-A13-TypeEvenement-FluxStandardise : 0 / 0 / 1
@@ -1513,7 +1513,7 @@ ERROR: /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSou
 ERROR: /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/output/ValueSet-jdv-modele-document-cda.html#/html/body/div/div/div/div/div/div/div/input/div/div/table/tr/td/a at Line 367, column 25541: The link 'CodeSystem-TRE-A11-IheFormatCode.html#TRE-A11-IheFormatCode-ConceptMap-ASS-A11-CorresModeleCDA-XdsFormatCode-CISIS.46html' for "ConceptMap-ASS-A11-CorresModeleCDA-XdsFormatCode-CISIS.html" cannot be resolved (valid targets: 60 targets)
 ERROR: /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/output/ValueSet-jdv-modele-document-cda.html#/html/body/div/div/div/div/div/div/div/input/div/div/table/tr/td/a at Line 367, column 25838: The link 'CodeSystem-TRE-A11-IheFormatCode.html#TRE-A11-IheFormatCode-ConceptMap-ASS-A11-CorresModeleCDA-XdsFormatCode-CISIS.46html' for "ConceptMap-ASS-A11-CorresModeleCDA-XdsFormatCode-CISIS.html" cannot be resolved (valid targets: 60 targets)
 ERROR: /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/output/ValueSet-jdv-modele-document-cda.html#/html/body/div/div/div/div/div/div/div/input/div/div/table/tr/td/a at Line 367, column 26134: The link 'CodeSystem-TRE-A11-IheFormatCode.html#TRE-A11-IheFormatCode-ConceptMap-ASS-A11-CorresModeleCDA-XdsFormatCode-CISIS.46html' for "ConceptMap-ASS-A11-CorresModeleCDA-XdsFormatCode-CISIS.html" cannot be resolved (valid targets: 60 targets)
-ERROR: /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/output/listOid.html#/html/body/div/div/div/div/div/div/ul/li/a at Line 188, column 10: The link 'NamingSystem.html' for "Liste des NamingSystem" cannot be resolved
+WARNING: /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/output/index.html#/html/body/div/div/div/div/div/div/div/script at Line 355, column 1225: The <script> containing the javascript '(function (p, o, s, '... is illegal and not allowed on the HL7 ci-build - need to put the script in a  .js file in a trusted template if this IG is to build on the HL7 ci-build (if it is justified and needed)
 == DM/fsh-generated/resources/ConceptMap-ASS-A11-CorresModeleCDA-XdsFormatCode-CISIS.json ==
 == DM/fsh-generated/resources/ConceptMap-ASS-A12-CorresMediaTypeCDANonStructure-XdsFormatCode-CISIS.json ==
 == DM/fsh-generated/resources/ConceptMap-ASS-A13-TypeEvenement-FluxStandardise.json ==
