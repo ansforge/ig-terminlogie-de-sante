@@ -42,8 +42,14 @@
                         <xsl:variable name='truncShortDesignation'>
                             <xsl:choose>
                                 <xsl:when test=" (/f:CodeSystem/f:name/@value  = 'TRE_R210_ActeSpecifique')  and         (string-length(shortDesignation) &gt; 99) ">
-                                        <xsl:value-of select="substring(shortDesignation,99)"/>
+                                        <xsl:value-of select="substring($shortDesignation,0,99)"/>
                                 </xsl:when>
+                                <xsl:when test=" (/f:CodeSystem/f:name/@value  = 'TRE_R211_ActiviteOperationnelle')  and         (string-length(shortDesignation) &gt; 99) ">
+                                        <xsl:value-of select="substring($shortDesignation,0,99)"/>
+                                </xsl:when>
+
+
+
                                 <xsl:otherwise>
                                    <xsl:value-of select="$shortDesignation"/>
                                 </xsl:otherwise>
@@ -72,7 +78,7 @@
                             dateValid="{format-dateTime(f:property/f:code[@value='dateValid']/../f:valueDateTime/@value,'[Y0001][M01][D01][H01][m01][s01]')}"
                             displayName="{f:display/@value}"
                             longDesignation="{$longDesignation}"
-                            shortDesignation="{$shortDesignation}"
+                            shortDesignation="{$truncShortDesignation}"
                             descriptionMetier="{f:definition/@value}"
                             />
                     </xsl:for-each>
