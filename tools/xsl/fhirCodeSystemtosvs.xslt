@@ -41,10 +41,10 @@
 
                         <xsl:variable name='truncShortDesignation'>
                             <xsl:choose>
-                                <xsl:when test=" (/f:CodeSystem/f:name/@value  = 'TRE_R210_ActeSpecifique')  and         (string-length(shortDesignation) &gt; 99) ">
+                                <xsl:when test=" (/f:CodeSystem/f:name/@value  = 'TRE_R210_ActeSpecifique')  and         (string-length($shortDesignation) &gt; 99) ">
                                         <xsl:value-of select="substring($shortDesignation,0,99)"/>
                                 </xsl:when>
-                                <xsl:when test=" (/f:CodeSystem/f:name/@value  = 'TRE_R211_ActiviteOperationnelle')  and         (string-length(shortDesignation) &gt; 99) ">
+                                <xsl:when test=" (/f:CodeSystem/f:name/@value  = 'TRE_R211_ActiviteOperationnelle')  and         (string-length($shortDesignation) &gt; 99) ">
                                         <xsl:value-of select="substring($shortDesignation,0,99)"/>
                                 </xsl:when>
 
