@@ -10,6 +10,15 @@
       "oids" : ["1.2.250.1.213.3.3.257"]
     },
     {
+      "url" : "http://hl7.org/fhir/us/example/CodeSystem/tre-r390-type-projet-personnalise",
+      "version" : "20250422120000",
+      "status" : "active",
+      "name" : "TreR390TypeProjetPersonnalise",
+      "title" : "Tre R390 Type Projet Personnalise",
+      "description" : "Cette nomenclature donne le type de projet personnalisé qui est un document co-construit par l'usager, son entourage familial et professionnel du médico-social.",
+      "oids" : ["1.2.250.1.213.3.3.258"]
+    },
+    {
       "url" : "http://snomed.info/sct",
       "version" : "http://snomed.info/sct/900000000000207008/version/20251001",
       "status" : "active",
@@ -2519,15 +2528,6 @@
       "title" : "Tre R388 Type Logement",
       "description" : "Nomenclature des types de logement associées aux capacités Remarque : cette nomenclature est initialisée avec les besoins FINESS+",
       "oids" : ["1.2.250.1.213.1.6.1.303"]
-    },
-    {
-      "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r390-type-projet-personnalise",
-      "version" : "20250422120000",
-      "status" : "active",
-      "name" : "TreR390TypeProjetPersonnalise",
-      "title" : "Tre R390 Type Projet Personnalise",
-      "description" : "Cette nomenclature donne le type de projet personnalisé qui est un document co-construit par l'usager, son entourage familial et professionnel du médico-social.",
-      "oids" : ["1.2.250.1.213.3.3.258"]
     },
     {
       "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r392-type-act-smsse-regulee",
