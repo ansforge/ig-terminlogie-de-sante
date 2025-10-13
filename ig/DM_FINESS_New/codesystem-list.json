@@ -19,6 +19,15 @@
       "oids" : ["1.2.250.1.213.3.3.258"]
     },
     {
+      "url" : "http://hl7.org/fhir/us/example/CodeSystem/tre-r393-type-contrat-sejour",
+      "version" : "20250521120000",
+      "status" : "active",
+      "name" : "TreR393TypeContratSejour",
+      "title" : "Tre R393 Type Contrat Sejour",
+      "description" : "Type de contrat conclu entre l’établissement/service et la personne/son représentant légal lors de son entrée en établissement",
+      "oids" : ["1.2.250.1.213.3.3.260"]
+    },
+    {
       "url" : "http://snomed.info/sct",
       "version" : "http://snomed.info/sct/900000000000207008/version/20251001",
       "status" : "active",
@@ -2537,15 +2546,6 @@
       "title" : "Tre R392 Type Act Smsse Regulee",
       "description" : "Type activité SMSSE régulée",
       "oids" : ["1.2.250.1.213.1.6.1.374"]
-    },
-    {
-      "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r393-type-contrat-sejour",
-      "version" : "20250521120000",
-      "status" : "active",
-      "name" : "TreR393TypeContratSejour",
-      "title" : "Tre R393 Type Contrat Sejour",
-      "description" : "Type de contrat conclu entre l’établissement/service et la personne/son représentant légal lors de son entrée en établissement",
-      "oids" : ["1.2.250.1.213.3.3.260"]
     },
     {
       "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r394-competence-metier",

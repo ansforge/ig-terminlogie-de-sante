@@ -24,6 +24,14 @@
     "oids" : ["1.2.250.1.213.3.3.258"]
   },
   {
+    "id" : "tre-r393-type-contrat-sejour",
+    "type" : "CodeSystem",
+    "url" : "http://hl7.org/fhir/us/example/CodeSystem/tre-r393-type-contrat-sejour",
+    "version" : "20250521120000",
+    "name" : "TreR393TypeContratSejour",
+    "oids" : ["1.2.250.1.213.3.3.260"]
+  },
+  {
     "id" : "900000000000207008-20251001",
     "type" : "CodeSystem",
     "url" : "http://snomed.info/sct",
@@ -4964,14 +4972,6 @@
     "version" : "20250513120000",
     "name" : "VsTreR392TypeActSmsseReguleeAll",
     "oids" : ["1.2.250.1.213.1.6.1.325"]
-  },
-  {
-    "id" : "tre-r393-type-contrat-sejour",
-    "type" : "CodeSystem",
-    "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r393-type-contrat-sejour",
-    "version" : "20250521120000",
-    "name" : "TreR393TypeContratSejour",
-    "oids" : ["1.2.250.1.213.3.3.260"]
   },
   {
     "id" : "tre-r394-competence-metier",
