@@ -2,7 +2,7 @@
   "codeSystems" : [
     {
       "url" : "http://snomed.info/sct",
-      "version" : "http://snomed.info/sct/900000000000207008/version/20250901",
+      "version" : "http://snomed.info/sct/900000000000207008/version/20251001",
       "status" : "active",
       "name" : "SNOMED_CT",
       "title" : "SNOMED CT core",
@@ -533,7 +533,7 @@
     },
     {
       "url" : "https://mos.esante.gouv.fr/NOS/TRE_R210-ActeSpecifique/FHIR/TRE-R210-ActeSpecifique",
-      "version" : "20250723120000",
+      "version" : "20250919120000",
       "status" : "active",
       "name" : "TRE_R210_ActeSpecifique",
       "title" : null,
@@ -542,7 +542,7 @@
     },
     {
       "url" : "https://mos.esante.gouv.fr/NOS/TRE_R211-ActiviteOperationnelle/FHIR/TRE-R211-ActiviteOperationnelle",
-      "version" : "20250723120000",
+      "version" : "20250918120000",
       "status" : "active",
       "name" : "TRE_R211_ActiviteOperationnelle",
       "title" : null,
@@ -560,7 +560,7 @@
     },
     {
       "url" : "https://mos.esante.gouv.fr/NOS/TRE_R213-ModePriseEnCharge/FHIR/TRE-R213-ModePriseEnCharge",
-      "version" : "20240329120000",
+      "version" : "20250828120000",
       "status" : "active",
       "name" : "TRE_R213_ModePriseEnCharge",
       "title" : null,
@@ -848,7 +848,7 @@
     },
     {
       "url" : "https://mos.esante.gouv.fr/NOS/TRE_R244-CategorieOrganisation/FHIR/TRE-R244-CategorieOrganisation",
-      "version" : "20250710120000",
+      "version" : "20250828120000",
       "status" : "active",
       "name" : "TRE_R244_CategorieOrganisation",
       "title" : null,
@@ -1577,7 +1577,7 @@
     },
     {
       "url" : "https://mos.esante.gouv.fr/NOS/TRE_R332-GenreCapacite/FHIR/TRE-R332-GenreCapacite",
-      "version" : "20231215120000",
+      "version" : "20250828120000",
       "status" : "active",
       "name" : "TRE_R332_GenreCapacite",
       "title" : null,
@@ -1631,7 +1631,7 @@
     },
     {
       "url" : "https://mos.esante.gouv.fr/NOS/TRE_R338-ModaliteAccueil/FHIR/TRE-R338-ModaliteAccueil",
-      "version" : "20250709120000",
+      "version" : "20250828120000",
       "status" : "active",
       "name" : "TRE_R338_ModaliteAccueil",
       "title" : null,
@@ -1766,7 +1766,7 @@
     },
     {
       "url" : "https://mos.esante.gouv.fr/NOS/TRE_R356-ProfessionRessource/FHIR/TRE-R356-ProfessionRessource",
-      "version" : "20250710120000",
+      "version" : "20250918120000",
       "status" : "active",
       "name" : "TRE_R356_ProfessionRessource",
       "title" : null,
@@ -1811,7 +1811,7 @@
     },
     {
       "url" : "https://mos.esante.gouv.fr/NOS/TRE_R368-StatutRessource/FHIR/TRE-R368-StatutRessource",
-      "version" : "20250425120000",
+      "version" : "20250919120000",
       "status" : "active",
       "name" : "TRE_R368_StatutRessource",
       "title" : null,
@@ -2009,7 +2009,7 @@
     },
     {
       "url" : "https://mos.esante.gouv.fr/NOS/TRE_R58-AutreTypeDiplome/FHIR/TRE-R58-AutreTypeDiplome",
-      "version" : "20240927120000",
+      "version" : "20250828120000",
       "status" : "active",
       "name" : "TRE_R58_AutreTypeDiplome",
       "title" : null,
@@ -2180,7 +2180,7 @@
     },
     {
       "url" : "https://mos.esante.gouv.fr/NOS/TRE_R85-RolePriseCharge/FHIR/TRE-R85-RolePriseCharge",
-      "version" : "20250721120000",
+      "version" : "20250919120000",
       "status" : "active",
       "name" : "TRE_R85_RolePriseCharge",
       "title" : null,
@@ -2593,7 +2593,7 @@
     },
     {
       "url" : "https://smt.esante.gouv.fr/terminologie-bdpm",
-      "version" : "2025-09-05",
+      "version" : "2025-10-01",
       "status" : "active",
       "name" : "BDPM",
       "title" : "Base de données publique du médicament",
@@ -2636,15 +2636,6 @@
       "oids" : ["2.16.840.1.113883.6.139"]
     },
     {
-      "url" : "https://smt.esante.gouv.fr/terminologie-cladimed",
-      "version" : "v15",
-      "status" : "active",
-      "name" : "ClaDiMed",
-      "title" : "Classification des dispositifs médicaux",
-      "description" : null,
-      "oids" : ["1.2.250.1.213.2.65"]
-    },
-    {
       "url" : "https://smt.esante.gouv.fr/terminologie-emdn",
       "version" : "v1.2",
       "status" : "active",
@@ -2672,21 +2663,12 @@
     },
     {
       "url" : "https://smt.esante.gouv.fr/terminologie-nuva",
-      "version" : "1.0.992",
+      "version" : "1.0.1009",
       "status" : "active",
       "name" : "NUVA",
       "title" : "Nomenclature Unifiée des Vaccins",
       "description" : null,
       "oids" : ["1.3.6.1.4.1.48601.1"]
-    },
-    {
-      "url" : "https://smt.esante.gouv.fr/terminologie-sms",
-      "version" : "2025-09",
-      "status" : "active",
-      "name" : "Dictionnaire_SMS_Substance_Management_Services_",
-      "title" : "Dictionnaire européen multilingue des substances entrant dans la composition de médicaments",
-      "description" : null,
-      "oids" : ["2.16.840.1.113883.3.6905.2"]
     },
     {
       "url" : "https://smt.esante.gouv.fr/terminologie-standardterms",

@@ -1,11 +1,11 @@
 Terminologies : Validation Results
 =========================================
 
-err = 2723, warn = 1588, info = 1738
+err = 2757, warn = 1582, info = 1839
 $--
 Generated $--. FHIR version $-- for ans.fr.terminologies#$-- (canonical = https://interop.esante.gouv.fr/terminologies)
- Build Errors : 434 / 30 / 0
- /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/DM/fsh-generated/resources/CodeSystem-TRE-G09-DepartementOM : 2 / 3 / 14
+ Build Errors : 436 / 28 / 0
+ /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/DM/fsh-generated/resources/CodeSystem-TRE-G09-DepartementOM : 2 / 5 / 127
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/DM/fsh-generated/resources/CodeSystem-TRE-R209-TypeActivite : 0 / 1 / 4
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/DM/fsh-generated/resources/CodeSystem-TRE-R212-Equipement : 1 / 2 / 4
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/DM/fsh-generated/resources/CodeSystem-TRE-R249-Sexe : 0 / 1 / 5
@@ -80,7 +80,7 @@ Generated $--. FHIR version $-- for ans.fr.terminologies#$-- (canonical = https:
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/DM/fsh-generated/resources/ConceptMap-ASS-A23-ASR-ActiviteModaliteForme : 0 / 37 / 1
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/DM/fsh-generated/resources/ConceptMap-ASS-A24-ModeExercice-TypeActivite-ENREG : 0 / 0 / 1
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/DM/fsh-generated/resources/ConceptMap-ASS-A25-PaysProvenanceISO-PaysProvenanceCOG : 0 / 0 / 1
- /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/DM/fsh-generated/resources/ConceptMap-ASS-A28-TypeDiplome-Diplome-Profession-EPARS : 5 / 6 / 1
+ /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/DM/fsh-generated/resources/ConceptMap-ASS-A28-TypeDiplome-Diplome-Profession-EPARS : 6 / 6 / 1
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/DM/fsh-generated/resources/ConceptMap-ASS-A29-Departement-AE : 103 / 0 / 1
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/DM/fsh-generated/resources/ConceptMap-ASS-A30-TypeAutorisation-Profession-EPARS : 0 / 0 / 1
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/DM/fsh-generated/resources/ConceptMap-ASS-A32-StatutMotifPersonnePriseCharge : 0 / 0 / 1
@@ -223,10 +223,10 @@ Generated $--. FHIR version $-- for ans.fr.terminologies#$-- (canonical = https:
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_J07_XdsTypeCode_CISIS_JDV-J07-XdsTypeCode-CISIS : 0 / 2 / 1
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_J08_XdsConfidentialityCode_CISIS_JDV-J08-XdsConfidentialityCode-CISIS : 0 / 1 / 1
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_J100_FinessStatutJuridique_RASS_JDV-J100-FinessStatutJuridique-RASS : 0 / 1 / 1
- /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_J101_SecteurActivite_RASS_JDV-J101-SecteurActivite-RASS : 0 / 1 / 1
+ /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_J101_SecteurActivite_RASS_JDV-J101-SecteurActivite-RASS : 1 / 1 / 1
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_J103_TypeVoie_RASS_JDV-J103-TypeVoie-RASS : 0 / 1 / 1
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_J104_TypeIdentifiantStructure_RASS_JDV-J104-TypeIdentifiantStructure-RASS : 0 / 1 / 1
- /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_J105_EnsembleDiplome_RASS_JDV-J105-EnsembleDiplome-RASS : 0 / 1 / 1
+ /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_J105_EnsembleDiplome_RASS_JDV-J105-EnsembleDiplome-RASS : 1 / 1 / 1
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_J106_EnsembleProfession_RASS_JDV-J106-EnsembleProfession-RASS : 0 / 1 / 1
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_J107_EnsembleSavoirFaire_RASS_JDV-J107-EnsembleSavoirFaire-RASS : 0 / 1 / 1
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_J108_EnsembleFonction_RASS_JDV-J108-EnsembleFonction-RASS : 0 / 1 / 1
@@ -293,7 +293,7 @@ Generated $--. FHIR version $-- for ans.fr.terminologies#$-- (canonical = https:
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_J167_DepartementOM_EPARS_JDV-J167-DepartementOM-EPARS : 0 / 1 / 1
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_J168_Pays_EPARS_JDV-J168-Pays-EPARS : 0 / 1 / 1
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_J169_MotifFinActivite_EPARS_JDV-J169-MotifFinActivite-EPARS : 0 / 1 / 1
- /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_J16_ActeSpecifique_ROR_JDV-J16-ActeSpecifique-ROR : 1183 / 1 / 3
+ /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_J16_ActeSpecifique_ROR_JDV-J16-ActeSpecifique-ROR : 1190 / 1 / 3
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_J171_TypeAutorisation_EPARS_JDV-J171-TypeAutorisation-EPARS : 0 / 1 / 1
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_J172_SecteurActivite_EPARS_JDV-J172-SecteurActivite-EPARS : 0 / 1 / 1
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_J173_FinessStatutJuridique_EPARS_JDV-J173-FinessStatutJuridique-EPARS : 0 / 1 / 1
@@ -301,18 +301,18 @@ Generated $--. FHIR version $-- for ans.fr.terminologies#$-- (canonical = https:
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_J177_BesoinAideMobilite_MDPH_JDV-J177-BesoinAideMobilite-MDPH : 0 / 1 / 1
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_J178_BesoinAideVieSociale_MDPH_JDV-J178-BesoinAideVieSociale-MDPH : 0 / 1 / 1
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_J179_BesoinCommunication_MDPH_JDV-J179-BesoinCommunication-MDPH : 0 / 1 / 1
- /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_J17_ActiviteOperationnelle_ROR_JDV-J17-ActiviteOperationnelle-ROR : 0 / 1 / 1
+ /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_J17_ActiviteOperationnelle_ROR_JDV-J17-ActiviteOperationnelle-ROR : 1 / 1 / 1
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_J180_BesoinEntretienPersonnel_MDPH_JDV-J180-BesoinEntretienPersonnel-MDPH : 0 / 1 / 1
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_J181_BesoinMobilite_MDPH_JDV-J181-BesoinMobilite-MDPH : 0 / 1 / 1
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_J182_BesoinScolarite_MDPH_JDV-J182-BesoinScolarite-MDPH : 0 / 1 / 1
- /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_J183_Diplome_EPARS_JDV-J183-Diplome-EPARS : 0 / 1 / 1
- /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_J185_TypeFermeture_ROR_JDV-J185-TypeFermeture-ROR : 0 / 1 / 1
+ /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_J183_Diplome_EPARS_JDV-J183-Diplome-EPARS : 1 / 1 / 1
+ /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_J185_TypeFermeture_ROR_JDV-J185-TypeFermeture-ROR : 3 / 1 / 1
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_J186_ProfessionRessource_ROR_JDV-J186-ProfessionRessource-ROR : 0 / 1 / 1
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_J187_NatureCapacite_ROR_JDV-J187-NatureCapacite-ROR : 0 / 1 / 1
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_J188_TypeStatutCapacite_ROR_JDV-J188-TypeStatutCapacite-ROR : 0 / 1 / 1
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_J189_TemporaliteCapacite_ROR_JDV-J189-TemporaliteCapacite-ROR : 0 / 1 / 1
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_J18_EquipementSpecifique_ROR_JDV-J18-EquipementSpecifique-ROR : 0 / 1 / 1
- /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_J190_GenreCapacite_ROR_JDV-J190-GenreCapacite-ROR : 0 / 1 / 1
+ /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_J190_GenreCapacite_ROR_JDV-J190-GenreCapacite-ROR : 1 / 1 / 1
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_J191_TypeFermetureCapacite_ROR_JDV-J191-TypeFermetureCapacite-ROR : 0 / 1 / 1
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_J192_TypeLitSupplementaire_ROR_JDV-J192-TypeLitSupplementaire-ROR : 0 / 1 / 1
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_J193_TypeSourceCapacite_ROR_JDV-J193-TypeSourceCapacite-ROR : 0 / 1 / 1
@@ -322,9 +322,9 @@ Generated $--. FHIR version $-- for ans.fr.terminologies#$-- (canonical = https:
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_J197_XdsTypesIdentifiantsReferenceId_CISIS_JDV-J197-XdsTypesIdentifiantsReferenceId-CISIS : 0 / 1 / 1
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_J198_FonctionLieu_ROR_JDV-J198-FonctionLieu-ROR : 0 / 1 / 1
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_J199_StatutJuridique_ROR_JDV-J199-StatutJuridique-ROR : 0 / 1 / 1
- /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_J19_ModePriseEnCharge_ROR_JDV-J19-ModePriseEnCharge-ROR : 0 / 1 / 1
+ /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_J19_ModePriseEnCharge_ROR_JDV-J19-ModePriseEnCharge-ROR : 1 / 1 / 1
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_J200_SousEnsembleAgregatStatutJuridique_ROR_JDV-J200-SousEnsembleAgregatStatutJuridique-ROR : 0 / 1 / 1
- /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_J201_TypeFermeture_ROR_JDV-J201-TypeFermeture-ROR : 0 / 1 / 1
+ /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_J201_TypeFermeture_ROR_JDV-J201-TypeFermeture-ROR : 3 / 1 / 1
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_J202_ESPIC_ROR_JDV-J202-ESPIC-ROR : 0 / 1 / 1
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_J203_TypeOrganisationInterne_ROR_JDV-J203-TypeOrganisationInterne-ROR : 0 / 1 / 1
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_J204_NiveauRecoursORSAN_ROR_JDV-J204-NiveauRecoursORSAN-ROR : 0 / 1 / 1
@@ -351,7 +351,7 @@ Generated $--. FHIR version $-- for ans.fr.terminologies#$-- (canonical = https:
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_J223_TypeDivisionTerritoriale_ROR_JDV-J223-TypeDivisionTerritoriale-ROR : 0 / 1 / 1
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_J224_StatutLieu_ROR_JDV-J224-StatutLieu-ROR : 0 / 1 / 1
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_J225_CanalCommunication_ROR_JDV-J225-CanalCommunication-ROR : 0 / 1 / 1
- /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_J226_ModaliteAccueil_ROR_JDV-J226-ModaliteAccueil-ROR : 0 / 1 / 1
+ /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_J226_ModaliteAccueil_ROR_JDV-J226-ModaliteAccueil-ROR : 1 / 1 / 1
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_J227_NiveauExpertise_ROR_JDV-J227-NiveauExpertise-ROR : 0 / 1 / 1
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_J228_TypeCaracteristiqueEquipement_ROR_JDV-J228-TypeCaracteristiqueEquipement-ROR : 0 / 1 / 1
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_J229_ProfessionSante_ROR_JDV-J229-ProfessionSante-ROR : 0 / 1 / 1
@@ -363,7 +363,7 @@ Generated $--. FHIR version $-- for ans.fr.terminologies#$-- (canonical = https:
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_J235_LieuFormation_EPARS_JDV-J235-LieuFormation-EPARS : 110 / 2 / 1
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_J236_TypeIdentifiant_ROR_JDV-J236-TypeIdentifiant-ROR : 0 / 1 / 1
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_J237_RegionOM_ROR_JDV-J237-RegionOM-ROR : 0 / 1 / 1
- /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_J238_TypeOffre_ROR_JDV-J238-TypeOffre-ROR : 0 / 1 / 1
+ /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_J238_TypeOffre_ROR_JDV-J238-TypeOffre-ROR : 1 / 1 / 1
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_J239_SpecialitesSNP_SAS_JDV-J239-SpecialitesSNP-SAS : 0 / 1 / 1
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_J23_TypeNoteCahierLiaison_CISIS_JDV-J23-TypeNoteCahierLiaison-CISIS : 0 / 1 / 1
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_J241_ThematiqueAnomalie_ROR_JDV-J241-ThematiqueAnomalie-ROR : 0 / 1 / 1
@@ -409,7 +409,7 @@ Generated $--. FHIR version $-- for ans.fr.terminologies#$-- (canonical = https:
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_J31_AideFinanciere_ROR_JDV-J31-AideFinanciere-ROR : 0 / 1 / 1
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_J32_TypeHabitation_ROR_JDV-J32-TypeHabitation-ROR : 0 / 1 / 1
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_J33_CompetenceSpecifique_ROR_JDV-J33-CompetenceSpecifique-ROR : 0 / 1 / 1
- /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_J34_CategorieOrganisation_ROR_JDV-J34-CategorieOrganisation-ROR : 0 / 1 / 1
+ /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_J34_CategorieOrganisation_ROR_JDV-J34-CategorieOrganisation-ROR : 1 / 1 / 1
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_J35_SpecialisationDePriseEnCharge_ROR_JDV-J35-SpecialisationDePriseEnCharge-ROR : 0 / 1 / 1
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_J369_MotifRestrictionDiffusion_ROR_JDV-J369-MotifRestrictionDiffusion-ROR : 2 / 1 / 1
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_J36_TypeTarif_ROR_JDV-J36-TypeTarif-ROR : 0 / 1 / 1
@@ -472,12 +472,12 @@ Generated $--. FHIR version $-- for ans.fr.terminologies#$-- (canonical = https:
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_J99_InseeNAFrav2Niveau5_RASS_JDV-J99-InseeNAFrav2Niveau5-RASS : 0 / 1 / 1
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JdvAbordVeineuxCentralCisis_jdv-abord-veineux-central-cisis : 2 / 1 / 1
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JdvAbordVeineuxPeripheriqueCisis_jdv-abord-veineux-peripherique-cisis : 2 / 1 / 1
- /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JdvAbsentOrUnknownAllergyCisis_jdv-absent-or-unknown-allergy-cisis : 2 / 0 / 1
- /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JdvAbsentOrUnknownDevicesCisis_jdv-absent-or-unknown-devices-cisis : 2 / 0 / 1
- /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JdvAbsentOrUnknownImmunizationCisis_jdv-absent-or-unknown-immunization-cisis : 2 / 0 / 1
- /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JdvAbsentOrUnknownMedicationCisis_jdv-absent-or-unknown-medication-cisis : 2 / 0 / 1
- /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JdvAbsentOrUnknownProblemCisis_jdv-absent-or-unknown-problem-cisis : 2 / 0 / 1
- /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JdvAbsentOrUnknownProcedureCisis_jdv-absent-or-unknown-procedure-cisis : 2 / 0 / 1
+ /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JdvAbsentOrUnknownAllergyCisis_jdv-absent-or-unknown-allergy-cisis : 3 / 2 / 2
+ /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JdvAbsentOrUnknownDevicesCisis_jdv-absent-or-unknown-devices-cisis : 3 / 2 / 2
+ /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JdvAbsentOrUnknownImmunizationCisis_jdv-absent-or-unknown-immunization-cisis : 3 / 2 / 2
+ /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JdvAbsentOrUnknownMedicationCisis_jdv-absent-or-unknown-medication-cisis : 3 / 2 / 2
+ /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JdvAbsentOrUnknownProblemCisis_jdv-absent-or-unknown-problem-cisis : 3 / 2 / 2
+ /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JdvAbsentOrUnknownProcedureCisis_jdv-absent-or-unknown-procedure-cisis : 3 / 2 / 2
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JdvAccesArtereCisis_jdv-acces-artere-cisis : 2 / 1 / 1
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JdvActeCs8Cisis_jdv-acte-cs8-cisis : 2 / 0 / 1
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JdvActeCseCisis_jdv-acte-cse-cisis : 2 / 0 / 1
@@ -916,12 +916,13 @@ Generated $--. FHIR version $-- for ans.fr.terminologies#$-- (canonical = https:
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/SpecimenAdditiveEntity_jdv-hl7-v3-SpecimenAdditiveEntity-cisis : 2 / 0 / 1
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/SpecimenRoleType_jdv-hl7-v3-SpecimenRoleType-cisis : 2 / 0 / 1
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/TimingEvent_jdv-hl7-v3-TimingEvent-cisis : 2 / 0 / 1
+ /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/VS_test_VS-test : 2 / 3 / 2
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/ValueSet_ATC_All_vs-atc-all : 0 / 1 / 2
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/ValueSet_BDPM_All_vs-bdpm-all : 0 / 1 / 2
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/ValueSet_CIPUCD_All_vs-cipucd-all : 0 / 3 / 1
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/ValueSet_EDQM_All_vs-edqm-all : 0 / 1 / 2
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/ValueSet_NUVA_All_vs-nuva-all : 0 / 1 / 2
- /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/ValueSet_SMS_All_vs-sms-all : 0 / 1 / 2
+ /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/ValueSet_SMS_All_vs-sms-all : 0 / 3 / 1
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/WorkScheduleODH_jdv-hl7-v3-WorkScheduleODH-cisis : 2 / 0 / 1
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/XActMoodDocumentObservation_jdv-hl7-v3-xActMoodDocumentObservation : 2 / 0 / 1
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/XBasicConfidentialityKind_jdv-hl7-v3-xBasicConfidentialityKind-cisis : 2 / 0 / 1
@@ -940,8 +941,6 @@ Generated $--. FHIR version $-- for ans.fr.terminologies#$-- (canonical = https:
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/TRE/CIM11_MMS : 3 / 34 / 20
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/TRE/CIM_10_FR_PMSI : 3 / 21 / 10
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/TRE/CISP_2 : 3 / 18 / 10
- /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/TRE/ClaDiMed : 3 / 7 / 6
- /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/TRE/Dictionnaire_SMS_Substance_Management_Services_ : 3 / 16 / 14
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/TRE/EMDN : 3 / 5 / 6
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/TRE/LAHN : 0 / 11 / 8
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/TRE/NABM : 3 / 22 / 20
@@ -1005,8 +1004,8 @@ Generated $--. FHIR version $-- for ans.fr.terminologies#$-- (canonical = https:
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/TRE/TRE_R208_ClasseAge : 0 / 1 / 4
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/TRE/TRE_R20_Pays : 0 / 1 / 4
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/TRE/TRE_R210_ActeSpecifique : 3 / 2 / 4
- /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/TRE/TRE_R211_ActiviteOperationnelle : 0 / 1 / 4
- /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/TRE/TRE_R213_ModePriseEnCharge : 0 / 1 / 4
+ /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/TRE/TRE_R211_ActiviteOperationnelle : 1 / 1 / 4
+ /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/TRE/TRE_R213_ModePriseEnCharge : 1 / 1 / 4
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/TRE/TRE_R214_SpecialiteUnite : 0 / 1 / 4
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/TRE/TRE_R215_UniteTemps : 0 / 1 / 4
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/TRE/TRE_R216_HL7RoleCode : 0 / 1 / 4
@@ -1038,7 +1037,7 @@ Generated $--. FHIR version $-- for ans.fr.terminologies#$-- (canonical = https:
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/TRE/TRE_R241_AideFinanciere : 0 / 1 / 4
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/TRE/TRE_R242_TypeHabitation : 0 / 1 / 4
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/TRE/TRE_R243_CompetenceSpecifique : 0 / 1 / 4
- /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/TRE/TRE_R244_CategorieOrganisation : 0 / 1 / 4
+ /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/TRE/TRE_R244_CategorieOrganisation : 1 / 1 / 4
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/TRE/TRE_R245_SpecialisationDePriseEnCharge : 0 / 1 / 4
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/TRE/TRE_R246_TypeTarif : 0 / 1 / 4
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/TRE/TRE_R248_ModeAcces : 0 / 1 / 4
@@ -1098,13 +1097,13 @@ Generated $--. FHIR version $-- for ans.fr.terminologies#$-- (canonical = https:
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/TRE/TRE_R328_TypeScolarisation : 0 / 1 / 4
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/TRE/TRE_R32_StatutHospitalier : 0 / 1 / 4
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/TRE/TRE_R331_TemporaliteCapacite : 0 / 1 / 4
- /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/TRE/TRE_R332_GenreCapacite : 0 / 1 / 4
+ /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/TRE/TRE_R332_GenreCapacite : 1 / 1 / 4
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/TRE/TRE_R333_TypeFermetureCapacite : 0 / 1 / 4
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/TRE/TRE_R334_TypeLitSupplementaire : 0 / 1 / 4
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/TRE/TRE_R335_TypeSourceCapacite : 0 / 1 / 4
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/TRE/TRE_R336_TypeCrise : 0 / 1 / 4
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/TRE/TRE_R337_AffectationTemporaire : 0 / 1 / 4
- /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/TRE/TRE_R338_ModaliteAccueil : 0 / 1 / 4
+ /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/TRE/TRE_R338_ModaliteAccueil : 1 / 1 / 4
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/TRE/TRE_R33_StatutInscription : 0 / 1 / 4
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/TRE/TRE_R340_TypeCaracteristiqueEquipement : 0 / 1 / 4
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/TRE/TRE_R341_StatutCommunication : 0 / 1 / 4
@@ -1119,12 +1118,12 @@ Generated $--. FHIR version $-- for ans.fr.terminologies#$-- (canonical = https:
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/TRE/TRE_R352_StatutMetierAnomalie : 0 / 1 / 4
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/TRE/TRE_R354_TypeIdentifiantRessourceOperationnelle : 0 / 1 / 4
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/TRE/TRE_R355_TypeIdentifiantOffre : 0 / 1 / 4
- /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/TRE/TRE_R356_ProfessionRessource : 0 / 1 / 4
+ /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/TRE/TRE_R356_ProfessionRessource : 1 / 1 / 4
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/TRE/TRE_R357_StatutPersonnePriseCharge : 0 / 1 / 4
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/TRE/TRE_R358_MotifStatutPersonnePriseCharge : 0 / 1 / 4
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/TRE/TRE_R359_SurspecialiteTransversale : 0 / 1 / 4
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/TRE/TRE_R35_TypeVoie : 0 / 1 / 4
- /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/TRE/TRE_R368_StatutRessource : 0 / 1 / 4
+ /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/TRE/TRE_R368_StatutRessource : 1 / 1 / 4
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/TRE/TRE_R369_ProfilUtilisateurReferentielNational : 0 / 1 / 4
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/TRE/TRE_R36_AutreDiplomeObtenu : 0 / 1 / 4
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/TRE/TRE_R37_TypeProfessionFonction : 0 / 1 / 4
@@ -1147,7 +1146,7 @@ Generated $--. FHIR version $-- for ans.fr.terminologies#$-- (canonical = https:
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/TRE/TRE_R55_CertificatEtudeSpeciale : 0 / 1 / 4
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/TRE/TRE_R56_Attestation : 0 / 1 / 4
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/TRE/TRE_R57_DiplomeEuropeenEtudeSpecialisee : 0 / 1 / 4
- /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/TRE/TRE_R58_AutreTypeDiplome : 0 / 1 / 4
+ /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/TRE/TRE_R58_AutreTypeDiplome : 1 / 1 / 4
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/TRE/TRE_R60_AutoriteEnregistrement : 0 / 1 / 4
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/TRE/TRE_R67_TypeStructure_EJ_EG : 0 / 1 / 4
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/TRE/TRE_R75_InseeNAFrev2Niveau5 : 0 / 1 / 4
@@ -1155,7 +1154,7 @@ Generated $--. FHIR version $-- for ans.fr.terminologies#$-- (canonical = https:
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/TRE/TRE_R81_Civilite : 0 / 1 / 4
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/TRE/TRE_R82_Ordre : 0 / 1 / 4
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/TRE/TRE_R84_ProfilAccesAnnuaire_MSSante : 0 / 1 / 4
- /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/TRE/TRE_R85_RolePriseCharge : 0 / 1 / 4
+ /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/TRE/TRE_R85_RolePriseCharge : 1 / 1 / 4
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/TRE/TRE_R86_ProfilVIHF : 0 / 1 / 4
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/TRE/TRE_R87_TypeCarte : 0 / 1 / 4
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/TRE/TRE_R88_TerritoireSante : 0 / 1 / 4
@@ -1180,11 +1179,9 @@ WARNING: input/sql/sql-add-info-codesystem.sql$.select[0].select[0].column[0]: T
 WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource CodeSystem/terminologie-bdpm.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
 WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource CodeSystem/terminologie-ccam.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
 WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource CodeSystem/terminologie-atc.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
-WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource CodeSystem/terminologie-cladimed.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
 WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource CodeSystem/terminologie-cim-10.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
 WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource CodeSystem/terminologie-cim11-mms.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
 WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource CodeSystem/terminologie-cisp.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
-WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource CodeSystem/terminologie-sms.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
 WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource CodeSystem/terminologie-emdn.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
 WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource CodeSystem/terminologie-nuva.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
 WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource CodeSystem/terminologie-nabm.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
@@ -1436,6 +1433,10 @@ ERROR: ValueSet-JDV-J133-ActiviteSanitaireRegulee-RASS.html#/html/body/div/div/d
 ERROR: ValueSet-JDV-J133-ActiviteSanitaireRegulee-RASS.html#/html/body/div/div/div/div/div/div/div/input/div/div/table/tr/td/a at Line 378, column 63975: The link 'CodeSystem-TRE-R275-ModaliteActivite.html#TRE-R275-ModaliteActivite-ValueSet-JDV-J132-ModaliteActivite-RASS.46html' for "ValueSet-JDV-J132-ModaliteActivite-RASS.html" cannot be resolved (valid targets: 204 targets)
 ERROR: ValueSet-JDV-J133-ActiviteSanitaireRegulee-RASS.html#/html/body/div/div/div/div/div/div/div/input/div/div/table/tr/td/a at Line 378, column 64610: The link 'CodeSystem-TRE-R275-ModaliteActivite.html#TRE-R275-ModaliteActivite-ValueSet-JDV-J132-ModaliteActivite-RASS.46html' for "ValueSet-JDV-J132-ModaliteActivite-RASS.html" cannot be resolved (valid targets: 204 targets)
 ERROR: ValueSet-JDV-J133-ActiviteSanitaireRegulee-RASS.html#/html/body/div/div/div/div/div/div/div/input/div/div/table/tr/td/a at Line 378, column 64821: The link 'CodeSystem-TRE-R275-ModaliteActivite.html#TRE-R275-ModaliteActivite-ValueSet-JDV-J132-ModaliteActivite-RASS.46html' for "ValueSet-JDV-J132-ModaliteActivite-RASS.html" cannot be resolved (valid targets: 204 targets)
+ERROR: ValueSet-JDV-J185-TypeFermeture-ROR.html#/html/body/div/div/div/div/div/div/div/input/div/div/div/ul/li/table/tr/td/a at Line 371, column 541: The link 'CodeSystem-TRE-R286-TypeFermeture.html#TRE-R286-TypeFermeture-PRE' for "PRE" cannot be resolved (valid targets: [TRE-R286-TypeFermeture-NDI, publish-box, segment-post-footer, hl7-search-lnk, TRE-R286-TypeFermeture-EML, top, TRE-R286-TypeFermeture-DEF, root, stripe, segment-footer, hcTRE-R286-TypeFermeture, segment-content, newissue, ans-nav, TRE-R286-TypeFermeture, segment-header, bottom, hl7-logo, family-nav, ig-status, TRE-R286-TypeFermeture-ERR, orig, TRE-R286-TypeFermeture-CHP, segment-navbar, codesystem-	
+	-tre_r286_typefermeture, TRE-R286-TypeFermeture-PRO, segment-breadcrumb])
+ERROR: ValueSet-JDV-J201-TypeFermeture-ROR.html#/html/body/div/div/div/div/div/div/div/input/div/div/div/ul/li/table/tr/td/a at Line 371, column 1059: The link 'CodeSystem-TRE-R286-TypeFermeture.html#TRE-R286-TypeFermeture-PRE' for "PRE" cannot be resolved (valid targets: [TRE-R286-TypeFermeture-NDI, publish-box, segment-post-footer, hl7-search-lnk, TRE-R286-TypeFermeture-EML, top, TRE-R286-TypeFermeture-DEF, root, stripe, segment-footer, hcTRE-R286-TypeFermeture, segment-content, newissue, ans-nav, TRE-R286-TypeFermeture, segment-header, bottom, hl7-logo, family-nav, ig-status, TRE-R286-TypeFermeture-ERR, orig, TRE-R286-TypeFermeture-CHP, segment-navbar, codesystem-	
+	-tre_r286_typefermeture, TRE-R286-TypeFermeture-PRO, segment-breadcrumb])
 ERROR: ValueSet-JDV-J258-Departement.html#/html/body/div/div/div/div/div/div/div/input/div/div/table/tr/td/a at Line 378, column 1033: The link 'CodeSystem-TRE-R60-AutoriteEnregistrement.html#TRE-R60-AutoriteEnregistrement-ValueSet-JDV-J170-AutoriteEnregistrement-EPARS.46html' for "ValueSet-JDV-J170-AutoriteEnregistrement-EPARS.html" cannot be resolved (valid targets: 66 targets)
 ERROR: ValueSet-JDV-J258-Departement.html#/html/body/div/div/div/div/div/div/div/input/div/div/table/tr/td/a at Line 378, column 1605: The link 'CodeSystem-TRE-R60-AutoriteEnregistrement.html#TRE-R60-AutoriteEnregistrement-ValueSet-JDV-J170-AutoriteEnregistrement-EPARS.46html' for "ValueSet-JDV-J170-AutoriteEnregistrement-EPARS.html" cannot be resolved (valid targets: 66 targets)
 ERROR: ValueSet-JDV-J258-Departement.html#/html/body/div/div/div/div/div/div/div/input/div/div/table/tr/td/a at Line 378, column 2178: The link 'CodeSystem-TRE-R60-AutoriteEnregistrement.html#TRE-R60-AutoriteEnregistrement-ValueSet-JDV-J170-AutoriteEnregistrement-EPARS.46html' for "ValueSet-JDV-J170-AutoriteEnregistrement-EPARS.html" cannot be resolved (valid targets: 66 targets)
@@ -1643,23 +1644,138 @@ ERROR: downloads.html#/html/body/div/div/div/div/div/ul/li/a at Line 207, column
 ERROR: telechargementNos.html#/html/body/div/div/div/div/div/ul/li/a at Line 200, column 8: The link 'Correspondances%20RessourcesFHIR-NOS_0.pdf' for "Correspondance entre les ressources FHIR et les NOS (PDF)" cannot be resolved
 == DM/fsh-generated/resources/CodeSystem-TRE-G09-DepartementOM.json ==
 WARNING: CodeSystem/TRE-G09-DepartementOM: CodeSystem.property[3].uri: No definition could be found for URL value 'https://smt.esante.gouv.fr/fhir/concept-properties#autoriteEpars'
+WARNING: CodeSystem/TRE-G09-DepartementOM: CodeSystem.property[4].uri: No definition could be found for URL value 'https://smt.esante.gouv.fr/fhir/concept-properties#region'
+INFORMATION: CodeSystem/TRE-G09-DepartementOM: CodeSystem.concept[0].property[3].value.ofType(Coding): A definition for CodeSystem 'https://smt.esante.gouv.fr/fhir/CodeSystem/TRE-R30-RegionOM' could not be found, so the code cannot be validated
+INFORMATION: CodeSystem/TRE-G09-DepartementOM: CodeSystem.concept[1].property[3].value.ofType(Coding): A definition for CodeSystem 'https://smt.esante.gouv.fr/fhir/CodeSystem/TRE-R30-RegionOM' could not be found, so the code cannot be validated
+INFORMATION: CodeSystem/TRE-G09-DepartementOM: CodeSystem.concept[2].property[3].value.ofType(Coding): A definition for CodeSystem 'https://smt.esante.gouv.fr/fhir/CodeSystem/TRE-R30-RegionOM' could not be found, so the code cannot be validated
+INFORMATION: CodeSystem/TRE-G09-DepartementOM: CodeSystem.concept[3].property[3].value.ofType(Coding): A definition for CodeSystem 'https://smt.esante.gouv.fr/fhir/CodeSystem/TRE-R30-RegionOM' could not be found, so the code cannot be validated
+INFORMATION: CodeSystem/TRE-G09-DepartementOM: CodeSystem.concept[4].property[3].value.ofType(Coding): A definition for CodeSystem 'https://smt.esante.gouv.fr/fhir/CodeSystem/TRE-R30-RegionOM' could not be found, so the code cannot be validated
+INFORMATION: CodeSystem/TRE-G09-DepartementOM: CodeSystem.concept[5].property[3].value.ofType(Coding): A definition for CodeSystem 'https://smt.esante.gouv.fr/fhir/CodeSystem/TRE-R30-RegionOM' could not be found, so the code cannot be validated
+INFORMATION: CodeSystem/TRE-G09-DepartementOM: CodeSystem.concept[6].property[3].value.ofType(Coding): A definition for CodeSystem 'https://smt.esante.gouv.fr/fhir/CodeSystem/TRE-R30-RegionOM' could not be found, so the code cannot be validated
 INFORMATION: CodeSystem/TRE-G09-DepartementOM: CodeSystem.concept[7].property[2].value.ofType(Coding).code: The code 'ARS-41' is valid but is deprecated
+INFORMATION: CodeSystem/TRE-G09-DepartementOM: CodeSystem.concept[7].property[3].value.ofType(Coding): A definition for CodeSystem 'https://smt.esante.gouv.fr/fhir/CodeSystem/TRE-R30-RegionOM' could not be found, so the code cannot be validated
+INFORMATION: CodeSystem/TRE-G09-DepartementOM: CodeSystem.concept[8].property[3].value.ofType(Coding): A definition for CodeSystem 'https://smt.esante.gouv.fr/fhir/CodeSystem/TRE-R30-RegionOM' could not be found, so the code cannot be validated
 INFORMATION: CodeSystem/TRE-G09-DepartementOM: CodeSystem.concept[9].property[2].value.ofType(Coding).code: The code 'ARS-41' is valid but is deprecated
-ERROR: CodeSystem/TRE-G09-DepartementOM: CodeSystem.concept[31].property[2].value.ofType(Coding).code: Unknown code 'ARS-57' in the CodeSystem 'https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r396-autorite' version '20250825120000'
-INFORMATION: CodeSystem/TRE-G09-DepartementOM: CodeSystem.concept[52].property[2].value.ofType(Coding).code: The code 'ARS-41' is valid but is deprecated
+INFORMATION: CodeSystem/TRE-G09-DepartementOM: CodeSystem.concept[9].property[3].value.ofType(Coding): A definition for CodeSystem 'https://smt.esante.gouv.fr/fhir/CodeSystem/TRE-R30-RegionOM' could not be found, so the code cannot be validated
+INFORMATION: CodeSystem/TRE-G09-DepartementOM: CodeSystem.concept[10].property[3].value.ofType(Coding): A definition for CodeSystem 'https://smt.esante.gouv.fr/fhir/CodeSystem/TRE-R30-RegionOM' could not be found, so the code cannot be validated
+INFORMATION: CodeSystem/TRE-G09-DepartementOM: CodeSystem.concept[11].property[3].value.ofType(Coding): A definition for CodeSystem 'https://smt.esante.gouv.fr/fhir/CodeSystem/TRE-R30-RegionOM' could not be found, so the code cannot be validated
+INFORMATION: CodeSystem/TRE-G09-DepartementOM: CodeSystem.concept[12].property[3].value.ofType(Coding): A definition for CodeSystem 'https://smt.esante.gouv.fr/fhir/CodeSystem/TRE-R30-RegionOM' could not be found, so the code cannot be validated
+INFORMATION: CodeSystem/TRE-G09-DepartementOM: CodeSystem.concept[13].property[3].value.ofType(Coding): A definition for CodeSystem 'https://smt.esante.gouv.fr/fhir/CodeSystem/TRE-R30-RegionOM' could not be found, so the code cannot be validated
+INFORMATION: CodeSystem/TRE-G09-DepartementOM: CodeSystem.concept[14].property[3].value.ofType(Coding): A definition for CodeSystem 'https://smt.esante.gouv.fr/fhir/CodeSystem/TRE-R30-RegionOM' could not be found, so the code cannot be validated
+INFORMATION: CodeSystem/TRE-G09-DepartementOM: CodeSystem.concept[15].property[3].value.ofType(Coding): A definition for CodeSystem 'https://smt.esante.gouv.fr/fhir/CodeSystem/TRE-R30-RegionOM' could not be found, so the code cannot be validated
+INFORMATION: CodeSystem/TRE-G09-DepartementOM: CodeSystem.concept[16].property[3].value.ofType(Coding): A definition for CodeSystem 'https://smt.esante.gouv.fr/fhir/CodeSystem/TRE-R30-RegionOM' could not be found, so the code cannot be validated
+INFORMATION: CodeSystem/TRE-G09-DepartementOM: CodeSystem.concept[17].property[3].value.ofType(Coding): A definition for CodeSystem 'https://smt.esante.gouv.fr/fhir/CodeSystem/TRE-R30-RegionOM' could not be found, so the code cannot be validated
+INFORMATION: CodeSystem/TRE-G09-DepartementOM: CodeSystem.concept[18].property[3].value.ofType(Coding): A definition for CodeSystem 'https://smt.esante.gouv.fr/fhir/CodeSystem/TRE-R30-RegionOM' could not be found, so the code cannot be validated
+INFORMATION: CodeSystem/TRE-G09-DepartementOM: CodeSystem.concept[19].property[3].value.ofType(Coding): A definition for CodeSystem 'https://smt.esante.gouv.fr/fhir/CodeSystem/TRE-R30-RegionOM' could not be found, so the code cannot be validated
+INFORMATION: CodeSystem/TRE-G09-DepartementOM: CodeSystem.concept[20].property[3].value.ofType(Coding): A definition for CodeSystem 'https://smt.esante.gouv.fr/fhir/CodeSystem/TRE-R30-RegionOM' could not be found, so the code cannot be validated
+INFORMATION: CodeSystem/TRE-G09-DepartementOM: CodeSystem.concept[21].property[3].value.ofType(Coding): A definition for CodeSystem 'https://smt.esante.gouv.fr/fhir/CodeSystem/TRE-R30-RegionOM' could not be found, so the code cannot be validated
+INFORMATION: CodeSystem/TRE-G09-DepartementOM: CodeSystem.concept[22].property[3].value.ofType(Coding): A definition for CodeSystem 'https://smt.esante.gouv.fr/fhir/CodeSystem/TRE-R30-RegionOM' could not be found, so the code cannot be validated
+INFORMATION: CodeSystem/TRE-G09-DepartementOM: CodeSystem.concept[23].property[3].value.ofType(Coding): A definition for CodeSystem 'https://smt.esante.gouv.fr/fhir/CodeSystem/TRE-R30-RegionOM' could not be found, so the code cannot be validated
+INFORMATION: CodeSystem/TRE-G09-DepartementOM: CodeSystem.concept[24].property[3].value.ofType(Coding): A definition for CodeSystem 'https://smt.esante.gouv.fr/fhir/CodeSystem/TRE-R30-RegionOM' could not be found, so the code cannot be validated
+INFORMATION: CodeSystem/TRE-G09-DepartementOM: CodeSystem.concept[25].property[3].value.ofType(Coding): A definition for CodeSystem 'https://smt.esante.gouv.fr/fhir/CodeSystem/TRE-R30-RegionOM' could not be found, so the code cannot be validated
+INFORMATION: CodeSystem/TRE-G09-DepartementOM: CodeSystem.concept[26].property[3].value.ofType(Coding): A definition for CodeSystem 'https://smt.esante.gouv.fr/fhir/CodeSystem/TRE-R30-RegionOM' could not be found, so the code cannot be validated
+INFORMATION: CodeSystem/TRE-G09-DepartementOM: CodeSystem.concept[27].property[3].value.ofType(Coding): A definition for CodeSystem 'https://smt.esante.gouv.fr/fhir/CodeSystem/TRE-R30-RegionOM' could not be found, so the code cannot be validated
+INFORMATION: CodeSystem/TRE-G09-DepartementOM: CodeSystem.concept[28].property[3].value.ofType(Coding): A definition for CodeSystem 'https://smt.esante.gouv.fr/fhir/CodeSystem/TRE-R30-RegionOM' could not be found, so the code cannot be validated
+ERROR: CodeSystem/TRE-G09-DepartementOM: CodeSystem.concept[29].property[2].value.ofType(Coding).code: Unknown code 'ARS-57' in the CodeSystem 'https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r396-autorite' version '20250825120000'
+INFORMATION: CodeSystem/TRE-G09-DepartementOM: CodeSystem.concept[29].property[3].value.ofType(Coding): A definition for CodeSystem 'https://smt.esante.gouv.fr/fhir/CodeSystem/TRE-R30-RegionOM' could not be found, so the code cannot be validated
+INFORMATION: CodeSystem/TRE-G09-DepartementOM: CodeSystem.concept[30].property[3].value.ofType(Coding): A definition for CodeSystem 'https://smt.esante.gouv.fr/fhir/CodeSystem/TRE-R30-RegionOM' could not be found, so the code cannot be validated
+INFORMATION: CodeSystem/TRE-G09-DepartementOM: CodeSystem.concept[31].property[3].value.ofType(Coding): A definition for CodeSystem 'https://smt.esante.gouv.fr/fhir/CodeSystem/TRE-R30-RegionOM' could not be found, so the code cannot be validated
+INFORMATION: CodeSystem/TRE-G09-DepartementOM: CodeSystem.concept[32].property[3].value.ofType(Coding): A definition for CodeSystem 'https://smt.esante.gouv.fr/fhir/CodeSystem/TRE-R30-RegionOM' could not be found, so the code cannot be validated
+INFORMATION: CodeSystem/TRE-G09-DepartementOM: CodeSystem.concept[33].property[3].value.ofType(Coding): A definition for CodeSystem 'https://smt.esante.gouv.fr/fhir/CodeSystem/TRE-R30-RegionOM' could not be found, so the code cannot be validated
+INFORMATION: CodeSystem/TRE-G09-DepartementOM: CodeSystem.concept[34].property[3].value.ofType(Coding): A definition for CodeSystem 'https://smt.esante.gouv.fr/fhir/CodeSystem/TRE-R30-RegionOM' could not be found, so the code cannot be validated
+INFORMATION: CodeSystem/TRE-G09-DepartementOM: CodeSystem.concept[35].property[3].value.ofType(Coding): A definition for CodeSystem 'https://smt.esante.gouv.fr/fhir/CodeSystem/TRE-R30-RegionOM' could not be found, so the code cannot be validated
+INFORMATION: CodeSystem/TRE-G09-DepartementOM: CodeSystem.concept[36].property[3].value.ofType(Coding): A definition for CodeSystem 'https://smt.esante.gouv.fr/fhir/CodeSystem/TRE-R30-RegionOM' could not be found, so the code cannot be validated
+INFORMATION: CodeSystem/TRE-G09-DepartementOM: CodeSystem.concept[37].property[3].value.ofType(Coding): A definition for CodeSystem 'https://smt.esante.gouv.fr/fhir/CodeSystem/TRE-R30-RegionOM' could not be found, so the code cannot be validated
+INFORMATION: CodeSystem/TRE-G09-DepartementOM: CodeSystem.concept[38].property[3].value.ofType(Coding): A definition for CodeSystem 'https://smt.esante.gouv.fr/fhir/CodeSystem/TRE-R30-RegionOM' could not be found, so the code cannot be validated
+INFORMATION: CodeSystem/TRE-G09-DepartementOM: CodeSystem.concept[39].property[3].value.ofType(Coding): A definition for CodeSystem 'https://smt.esante.gouv.fr/fhir/CodeSystem/TRE-R30-RegionOM' could not be found, so the code cannot be validated
+INFORMATION: CodeSystem/TRE-G09-DepartementOM: CodeSystem.concept[40].property[3].value.ofType(Coding): A definition for CodeSystem 'https://smt.esante.gouv.fr/fhir/CodeSystem/TRE-R30-RegionOM' could not be found, so the code cannot be validated
+INFORMATION: CodeSystem/TRE-G09-DepartementOM: CodeSystem.concept[41].property[3].value.ofType(Coding): A definition for CodeSystem 'https://smt.esante.gouv.fr/fhir/CodeSystem/TRE-R30-RegionOM' could not be found, so the code cannot be validated
+INFORMATION: CodeSystem/TRE-G09-DepartementOM: CodeSystem.concept[42].property[3].value.ofType(Coding): A definition for CodeSystem 'https://smt.esante.gouv.fr/fhir/CodeSystem/TRE-R30-RegionOM' could not be found, so the code cannot be validated
+INFORMATION: CodeSystem/TRE-G09-DepartementOM: CodeSystem.concept[43].property[3].value.ofType(Coding): A definition for CodeSystem 'https://smt.esante.gouv.fr/fhir/CodeSystem/TRE-R30-RegionOM' could not be found, so the code cannot be validated
+INFORMATION: CodeSystem/TRE-G09-DepartementOM: CodeSystem.concept[44].property[3].value.ofType(Coding): A definition for CodeSystem 'https://smt.esante.gouv.fr/fhir/CodeSystem/TRE-R30-RegionOM' could not be found, so the code cannot be validated
+INFORMATION: CodeSystem/TRE-G09-DepartementOM: CodeSystem.concept[45].property[3].value.ofType(Coding): A definition for CodeSystem 'https://smt.esante.gouv.fr/fhir/CodeSystem/TRE-R30-RegionOM' could not be found, so the code cannot be validated
+INFORMATION: CodeSystem/TRE-G09-DepartementOM: CodeSystem.concept[46].property[3].value.ofType(Coding): A definition for CodeSystem 'https://smt.esante.gouv.fr/fhir/CodeSystem/TRE-R30-RegionOM' could not be found, so the code cannot be validated
+INFORMATION: CodeSystem/TRE-G09-DepartementOM: CodeSystem.concept[47].property[3].value.ofType(Coding): A definition for CodeSystem 'https://smt.esante.gouv.fr/fhir/CodeSystem/TRE-R30-RegionOM' could not be found, so the code cannot be validated
+INFORMATION: CodeSystem/TRE-G09-DepartementOM: CodeSystem.concept[48].property[3].value.ofType(Coding): A definition for CodeSystem 'https://smt.esante.gouv.fr/fhir/CodeSystem/TRE-R30-RegionOM' could not be found, so the code cannot be validated
+INFORMATION: CodeSystem/TRE-G09-DepartementOM: CodeSystem.concept[49].property[3].value.ofType(Coding): A definition for CodeSystem 'https://smt.esante.gouv.fr/fhir/CodeSystem/TRE-R30-RegionOM' could not be found, so the code cannot be validated
+INFORMATION: CodeSystem/TRE-G09-DepartementOM: CodeSystem.concept[50].property[2].value.ofType(Coding).code: The code 'ARS-41' is valid but is deprecated
+INFORMATION: CodeSystem/TRE-G09-DepartementOM: CodeSystem.concept[50].property[3].value.ofType(Coding): A definition for CodeSystem 'https://smt.esante.gouv.fr/fhir/CodeSystem/TRE-R30-RegionOM' could not be found, so the code cannot be validated
+INFORMATION: CodeSystem/TRE-G09-DepartementOM: CodeSystem.concept[51].property[2].value.ofType(Coding).code: The code 'ARS-41' is valid but is deprecated
+INFORMATION: CodeSystem/TRE-G09-DepartementOM: CodeSystem.concept[51].property[3].value.ofType(Coding): A definition for CodeSystem 'https://smt.esante.gouv.fr/fhir/CodeSystem/TRE-R30-RegionOM' could not be found, so the code cannot be validated
+INFORMATION: CodeSystem/TRE-G09-DepartementOM: CodeSystem.concept[52].property[3].value.ofType(Coding): A definition for CodeSystem 'https://smt.esante.gouv.fr/fhir/CodeSystem/TRE-R30-RegionOM' could not be found, so the code cannot be validated
 INFORMATION: CodeSystem/TRE-G09-DepartementOM: CodeSystem.concept[53].property[2].value.ofType(Coding).code: The code 'ARS-41' is valid but is deprecated
-INFORMATION: CodeSystem/TRE-G09-DepartementOM: CodeSystem.concept[55].property[2].value.ofType(Coding).code: The code 'ARS-41' is valid but is deprecated
+INFORMATION: CodeSystem/TRE-G09-DepartementOM: CodeSystem.concept[53].property[3].value.ofType(Coding): A definition for CodeSystem 'https://smt.esante.gouv.fr/fhir/CodeSystem/TRE-R30-RegionOM' could not be found, so the code cannot be validated
+INFORMATION: CodeSystem/TRE-G09-DepartementOM: CodeSystem.concept[54].property[2].value.ofType(Coding).code: The code 'ARS-41' is valid but is deprecated
+INFORMATION: CodeSystem/TRE-G09-DepartementOM: CodeSystem.concept[54].property[3].value.ofType(Coding): A definition for CodeSystem 'https://smt.esante.gouv.fr/fhir/CodeSystem/TRE-R30-RegionOM' could not be found, so the code cannot be validated
+INFORMATION: CodeSystem/TRE-G09-DepartementOM: CodeSystem.concept[55].property[3].value.ofType(Coding): A definition for CodeSystem 'https://smt.esante.gouv.fr/fhir/CodeSystem/TRE-R30-RegionOM' could not be found, so the code cannot be validated
 INFORMATION: CodeSystem/TRE-G09-DepartementOM: CodeSystem.concept[56].property[2].value.ofType(Coding).code: The code 'ARS-41' is valid but is deprecated
-INFORMATION: CodeSystem/TRE-G09-DepartementOM: CodeSystem.concept[58].property[2].value.ofType(Coding).code: The code 'ARS-41' is valid but is deprecated
-INFORMATION: CodeSystem/TRE-G09-DepartementOM: CodeSystem.concept[68].property[2].value.ofType(Coding).code: The code 'ARS-41' is valid but is deprecated
-INFORMATION: CodeSystem/TRE-G09-DepartementOM: CodeSystem.concept[69].property[2].value.ofType(Coding).code: The code 'ARS-41' is valid but is deprecated
-INFORMATION: CodeSystem/TRE-G09-DepartementOM: CodeSystem.concept[89].property[2].value.ofType(Coding).code: The code 'ARS-41' is valid but is deprecated
-ERROR: CodeSystem/TRE-G09-DepartementOM: CodeSystem.concept[102].property[2].value.ofType(Coding).code: Unknown code 'ARS-86' in the CodeSystem 'https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r396-autorite' version '20250825120000'
+INFORMATION: CodeSystem/TRE-G09-DepartementOM: CodeSystem.concept[56].property[3].value.ofType(Coding): A definition for CodeSystem 'https://smt.esante.gouv.fr/fhir/CodeSystem/TRE-R30-RegionOM' could not be found, so the code cannot be validated
+INFORMATION: CodeSystem/TRE-G09-DepartementOM: CodeSystem.concept[57].property[3].value.ofType(Coding): A definition for CodeSystem 'https://smt.esante.gouv.fr/fhir/CodeSystem/TRE-R30-RegionOM' could not be found, so the code cannot be validated
+INFORMATION: CodeSystem/TRE-G09-DepartementOM: CodeSystem.concept[58].property[3].value.ofType(Coding): A definition for CodeSystem 'https://smt.esante.gouv.fr/fhir/CodeSystem/TRE-R30-RegionOM' could not be found, so the code cannot be validated
+INFORMATION: CodeSystem/TRE-G09-DepartementOM: CodeSystem.concept[59].property[3].value.ofType(Coding): A definition for CodeSystem 'https://smt.esante.gouv.fr/fhir/CodeSystem/TRE-R30-RegionOM' could not be found, so the code cannot be validated
+INFORMATION: CodeSystem/TRE-G09-DepartementOM: CodeSystem.concept[60].property[3].value.ofType(Coding): A definition for CodeSystem 'https://smt.esante.gouv.fr/fhir/CodeSystem/TRE-R30-RegionOM' could not be found, so the code cannot be validated
+INFORMATION: CodeSystem/TRE-G09-DepartementOM: CodeSystem.concept[61].property[3].value.ofType(Coding): A definition for CodeSystem 'https://smt.esante.gouv.fr/fhir/CodeSystem/TRE-R30-RegionOM' could not be found, so the code cannot be validated
+INFORMATION: CodeSystem/TRE-G09-DepartementOM: CodeSystem.concept[62].property[3].value.ofType(Coding): A definition for CodeSystem 'https://smt.esante.gouv.fr/fhir/CodeSystem/TRE-R30-RegionOM' could not be found, so the code cannot be validated
+INFORMATION: CodeSystem/TRE-G09-DepartementOM: CodeSystem.concept[63].property[3].value.ofType(Coding): A definition for CodeSystem 'https://smt.esante.gouv.fr/fhir/CodeSystem/TRE-R30-RegionOM' could not be found, so the code cannot be validated
+INFORMATION: CodeSystem/TRE-G09-DepartementOM: CodeSystem.concept[64].property[3].value.ofType(Coding): A definition for CodeSystem 'https://smt.esante.gouv.fr/fhir/CodeSystem/TRE-R30-RegionOM' could not be found, so the code cannot be validated
+INFORMATION: CodeSystem/TRE-G09-DepartementOM: CodeSystem.concept[65].property[3].value.ofType(Coding): A definition for CodeSystem 'https://smt.esante.gouv.fr/fhir/CodeSystem/TRE-R30-RegionOM' could not be found, so the code cannot be validated
+INFORMATION: CodeSystem/TRE-G09-DepartementOM: CodeSystem.concept[66].property[2].value.ofType(Coding).code: The code 'ARS-41' is valid but is deprecated
+INFORMATION: CodeSystem/TRE-G09-DepartementOM: CodeSystem.concept[66].property[3].value.ofType(Coding): A definition for CodeSystem 'https://smt.esante.gouv.fr/fhir/CodeSystem/TRE-R30-RegionOM' could not be found, so the code cannot be validated
+INFORMATION: CodeSystem/TRE-G09-DepartementOM: CodeSystem.concept[67].property[2].value.ofType(Coding).code: The code 'ARS-41' is valid but is deprecated
+INFORMATION: CodeSystem/TRE-G09-DepartementOM: CodeSystem.concept[67].property[3].value.ofType(Coding): A definition for CodeSystem 'https://smt.esante.gouv.fr/fhir/CodeSystem/TRE-R30-RegionOM' could not be found, so the code cannot be validated
+INFORMATION: CodeSystem/TRE-G09-DepartementOM: CodeSystem.concept[68].property[3].value.ofType(Coding): A definition for CodeSystem 'https://smt.esante.gouv.fr/fhir/CodeSystem/TRE-R30-RegionOM' could not be found, so the code cannot be validated
+INFORMATION: CodeSystem/TRE-G09-DepartementOM: CodeSystem.concept[69].property[3].value.ofType(Coding): A definition for CodeSystem 'https://smt.esante.gouv.fr/fhir/CodeSystem/TRE-R30-RegionOM' could not be found, so the code cannot be validated
+INFORMATION: CodeSystem/TRE-G09-DepartementOM: CodeSystem.concept[70].property[3].value.ofType(Coding): A definition for CodeSystem 'https://smt.esante.gouv.fr/fhir/CodeSystem/TRE-R30-RegionOM' could not be found, so the code cannot be validated
+INFORMATION: CodeSystem/TRE-G09-DepartementOM: CodeSystem.concept[71].property[3].value.ofType(Coding): A definition for CodeSystem 'https://smt.esante.gouv.fr/fhir/CodeSystem/TRE-R30-RegionOM' could not be found, so the code cannot be validated
+INFORMATION: CodeSystem/TRE-G09-DepartementOM: CodeSystem.concept[72].property[3].value.ofType(Coding): A definition for CodeSystem 'https://smt.esante.gouv.fr/fhir/CodeSystem/TRE-R30-RegionOM' could not be found, so the code cannot be validated
+INFORMATION: CodeSystem/TRE-G09-DepartementOM: CodeSystem.concept[73].property[3].value.ofType(Coding): A definition for CodeSystem 'https://smt.esante.gouv.fr/fhir/CodeSystem/TRE-R30-RegionOM' could not be found, so the code cannot be validated
+INFORMATION: CodeSystem/TRE-G09-DepartementOM: CodeSystem.concept[74].property[3].value.ofType(Coding): A definition for CodeSystem 'https://smt.esante.gouv.fr/fhir/CodeSystem/TRE-R30-RegionOM' could not be found, so the code cannot be validated
+INFORMATION: CodeSystem/TRE-G09-DepartementOM: CodeSystem.concept[75].property[3].value.ofType(Coding): A definition for CodeSystem 'https://smt.esante.gouv.fr/fhir/CodeSystem/TRE-R30-RegionOM' could not be found, so the code cannot be validated
+INFORMATION: CodeSystem/TRE-G09-DepartementOM: CodeSystem.concept[76].property[3].value.ofType(Coding): A definition for CodeSystem 'https://smt.esante.gouv.fr/fhir/CodeSystem/TRE-R30-RegionOM' could not be found, so the code cannot be validated
+INFORMATION: CodeSystem/TRE-G09-DepartementOM: CodeSystem.concept[77].property[3].value.ofType(Coding): A definition for CodeSystem 'https://smt.esante.gouv.fr/fhir/CodeSystem/TRE-R30-RegionOM' could not be found, so the code cannot be validated
+INFORMATION: CodeSystem/TRE-G09-DepartementOM: CodeSystem.concept[78].property[3].value.ofType(Coding): A definition for CodeSystem 'https://smt.esante.gouv.fr/fhir/CodeSystem/TRE-R30-RegionOM' could not be found, so the code cannot be validated
+INFORMATION: CodeSystem/TRE-G09-DepartementOM: CodeSystem.concept[79].property[3].value.ofType(Coding): A definition for CodeSystem 'https://smt.esante.gouv.fr/fhir/CodeSystem/TRE-R30-RegionOM' could not be found, so the code cannot be validated
+INFORMATION: CodeSystem/TRE-G09-DepartementOM: CodeSystem.concept[80].property[3].value.ofType(Coding): A definition for CodeSystem 'https://smt.esante.gouv.fr/fhir/CodeSystem/TRE-R30-RegionOM' could not be found, so the code cannot be validated
+INFORMATION: CodeSystem/TRE-G09-DepartementOM: CodeSystem.concept[81].property[3].value.ofType(Coding): A definition for CodeSystem 'https://smt.esante.gouv.fr/fhir/CodeSystem/TRE-R30-RegionOM' could not be found, so the code cannot be validated
+INFORMATION: CodeSystem/TRE-G09-DepartementOM: CodeSystem.concept[82].property[3].value.ofType(Coding): A definition for CodeSystem 'https://smt.esante.gouv.fr/fhir/CodeSystem/TRE-R30-RegionOM' could not be found, so the code cannot be validated
+INFORMATION: CodeSystem/TRE-G09-DepartementOM: CodeSystem.concept[83].property[3].value.ofType(Coding): A definition for CodeSystem 'https://smt.esante.gouv.fr/fhir/CodeSystem/TRE-R30-RegionOM' could not be found, so the code cannot be validated
+INFORMATION: CodeSystem/TRE-G09-DepartementOM: CodeSystem.concept[84].property[3].value.ofType(Coding): A definition for CodeSystem 'https://smt.esante.gouv.fr/fhir/CodeSystem/TRE-R30-RegionOM' could not be found, so the code cannot be validated
+INFORMATION: CodeSystem/TRE-G09-DepartementOM: CodeSystem.concept[85].property[3].value.ofType(Coding): A definition for CodeSystem 'https://smt.esante.gouv.fr/fhir/CodeSystem/TRE-R30-RegionOM' could not be found, so the code cannot be validated
+INFORMATION: CodeSystem/TRE-G09-DepartementOM: CodeSystem.concept[86].property[3].value.ofType(Coding): A definition for CodeSystem 'https://smt.esante.gouv.fr/fhir/CodeSystem/TRE-R30-RegionOM' could not be found, so the code cannot be validated
+INFORMATION: CodeSystem/TRE-G09-DepartementOM: CodeSystem.concept[87].property[2].value.ofType(Coding).code: The code 'ARS-41' is valid but is deprecated
+INFORMATION: CodeSystem/TRE-G09-DepartementOM: CodeSystem.concept[87].property[3].value.ofType(Coding): A definition for CodeSystem 'https://smt.esante.gouv.fr/fhir/CodeSystem/TRE-R30-RegionOM' could not be found, so the code cannot be validated
+INFORMATION: CodeSystem/TRE-G09-DepartementOM: CodeSystem.concept[88].property[3].value.ofType(Coding): A definition for CodeSystem 'https://smt.esante.gouv.fr/fhir/CodeSystem/TRE-R30-RegionOM' could not be found, so the code cannot be validated
+INFORMATION: CodeSystem/TRE-G09-DepartementOM: CodeSystem.concept[89].property[3].value.ofType(Coding): A definition for CodeSystem 'https://smt.esante.gouv.fr/fhir/CodeSystem/TRE-R30-RegionOM' could not be found, so the code cannot be validated
+INFORMATION: CodeSystem/TRE-G09-DepartementOM: CodeSystem.concept[90].property[3].value.ofType(Coding): A definition for CodeSystem 'https://smt.esante.gouv.fr/fhir/CodeSystem/TRE-R30-RegionOM' could not be found, so the code cannot be validated
+INFORMATION: CodeSystem/TRE-G09-DepartementOM: CodeSystem.concept[91].property[3].value.ofType(Coding): A definition for CodeSystem 'https://smt.esante.gouv.fr/fhir/CodeSystem/TRE-R30-RegionOM' could not be found, so the code cannot be validated
+INFORMATION: CodeSystem/TRE-G09-DepartementOM: CodeSystem.concept[92].property[3].value.ofType(Coding): A definition for CodeSystem 'https://smt.esante.gouv.fr/fhir/CodeSystem/TRE-R30-RegionOM' could not be found, so the code cannot be validated
+INFORMATION: CodeSystem/TRE-G09-DepartementOM: CodeSystem.concept[93].property[3].value.ofType(Coding): A definition for CodeSystem 'https://smt.esante.gouv.fr/fhir/CodeSystem/TRE-R30-RegionOM' could not be found, so the code cannot be validated
+INFORMATION: CodeSystem/TRE-G09-DepartementOM: CodeSystem.concept[94].property[3].value.ofType(Coding): A definition for CodeSystem 'https://smt.esante.gouv.fr/fhir/CodeSystem/TRE-R30-RegionOM' could not be found, so the code cannot be validated
+INFORMATION: CodeSystem/TRE-G09-DepartementOM: CodeSystem.concept[95].property[3].value.ofType(Coding): A definition for CodeSystem 'https://smt.esante.gouv.fr/fhir/CodeSystem/TRE-R30-RegionOM' could not be found, so the code cannot be validated
+INFORMATION: CodeSystem/TRE-G09-DepartementOM: CodeSystem.concept[96].property[3].value.ofType(Coding): A definition for CodeSystem 'https://smt.esante.gouv.fr/fhir/CodeSystem/TRE-R30-RegionOM' could not be found, so the code cannot be validated
+INFORMATION: CodeSystem/TRE-G09-DepartementOM: CodeSystem.concept[97].property[3].value.ofType(Coding): A definition for CodeSystem 'https://smt.esante.gouv.fr/fhir/CodeSystem/TRE-R30-RegionOM' could not be found, so the code cannot be validated
+INFORMATION: CodeSystem/TRE-G09-DepartementOM: CodeSystem.concept[98].property[3].value.ofType(Coding): A definition for CodeSystem 'https://smt.esante.gouv.fr/fhir/CodeSystem/TRE-R30-RegionOM' could not be found, so the code cannot be validated
+INFORMATION: CodeSystem/TRE-G09-DepartementOM: CodeSystem.concept[99].property[2].value.ofType(Coding): A definition for CodeSystem 'https://smt.esante.gouv.fr/fhir/CodeSystem/TRE-R30-RegionOM' could not be found, so the code cannot be validated
+ERROR: CodeSystem/TRE-G09-DepartementOM: CodeSystem.concept[100].property[2].value.ofType(Coding).code: Unknown code 'ARS-86' in the CodeSystem 'https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r396-autorite' version '20250825120000'
+INFORMATION: CodeSystem/TRE-G09-DepartementOM: CodeSystem.concept[100].property[3].value.ofType(Coding): A definition for CodeSystem 'https://smt.esante.gouv.fr/fhir/CodeSystem/TRE-R30-RegionOM' could not be found, so the code cannot be validated
+INFORMATION: CodeSystem/TRE-G09-DepartementOM: CodeSystem.concept[101].property[3].value.ofType(Coding): A definition for CodeSystem 'https://smt.esante.gouv.fr/fhir/CodeSystem/TRE-R30-RegionOM' could not be found, so the code cannot be validated
+INFORMATION: CodeSystem/TRE-G09-DepartementOM: CodeSystem.concept[102].property[3].value.ofType(Coding): A definition for CodeSystem 'https://smt.esante.gouv.fr/fhir/CodeSystem/TRE-R30-RegionOM' could not be found, so the code cannot be validated
+INFORMATION: CodeSystem/TRE-G09-DepartementOM: CodeSystem.concept[103].property[2].value.ofType(Coding): A definition for CodeSystem 'https://smt.esante.gouv.fr/fhir/CodeSystem/TRE-R30-RegionOM' could not be found, so the code cannot be validated
+INFORMATION: CodeSystem/TRE-G09-DepartementOM: CodeSystem.concept[104].property[3].value.ofType(Coding): A definition for CodeSystem 'https://smt.esante.gouv.fr/fhir/CodeSystem/TRE-R30-RegionOM' could not be found, so the code cannot be validated
+INFORMATION: CodeSystem/TRE-G09-DepartementOM: CodeSystem.concept[105].property[2].value.ofType(Coding): A definition for CodeSystem 'https://smt.esante.gouv.fr/fhir/CodeSystem/TRE-R30-RegionOM' could not be found, so the code cannot be validated
+INFORMATION: CodeSystem/TRE-G09-DepartementOM: CodeSystem.concept[106].property[2].value.ofType(Coding): A definition for CodeSystem 'https://smt.esante.gouv.fr/fhir/CodeSystem/TRE-R30-RegionOM' could not be found, so the code cannot be validated
+INFORMATION: CodeSystem/TRE-G09-DepartementOM: CodeSystem.concept[107].property[2].value.ofType(Coding): A definition for CodeSystem 'https://smt.esante.gouv.fr/fhir/CodeSystem/TRE-R30-RegionOM' could not be found, so the code cannot be validated
+INFORMATION: CodeSystem/TRE-G09-DepartementOM: CodeSystem.concept[108].property[2].value.ofType(Coding): A definition for CodeSystem 'https://smt.esante.gouv.fr/fhir/CodeSystem/TRE-R30-RegionOM' could not be found, so the code cannot be validated
+INFORMATION: CodeSystem/TRE-G09-DepartementOM: CodeSystem.concept[109].property[3].value.ofType(Coding): A definition for CodeSystem 'https://smt.esante.gouv.fr/fhir/CodeSystem/TRE-R30-RegionOM' could not be found, so the code cannot be validated
+INFORMATION: CodeSystem/TRE-G09-DepartementOM: CodeSystem.concept[110].property[2].value.ofType(Coding): A definition for CodeSystem 'https://smt.esante.gouv.fr/fhir/CodeSystem/TRE-R30-RegionOM' could not be found, so the code cannot be validated
+INFORMATION: CodeSystem/TRE-G09-DepartementOM: CodeSystem.concept[111].property[3].value.ofType(Coding): A definition for CodeSystem 'https://smt.esante.gouv.fr/fhir/CodeSystem/TRE-R30-RegionOM' could not be found, so the code cannot be validated
+INFORMATION: CodeSystem/TRE-G09-DepartementOM: CodeSystem.concept[112].property[3].value.ofType(Coding): A definition for CodeSystem 'https://smt.esante.gouv.fr/fhir/CodeSystem/TRE-R30-RegionOM' could not be found, so the code cannot be validated
 WARNING: CodeSystem/TRE-G09-DepartementOM: CodeSystem: Published code systems SHOULD conform to the ShareableCodeSystem profile, which says that the element CodeSystem.title is mandatory, but it is not present
 INFORMATION: CodeSystem/TRE-G09-DepartementOM: CodeSystem.property[0]: This property has only a code ('dateValid') and not a URI, so it has no clearly defined meaning in the terminology ecosystem
 INFORMATION: CodeSystem/TRE-G09-DepartementOM: CodeSystem.property[1]: This property has only a code ('dateMaj') and not a URI, so it has no clearly defined meaning in the terminology ecosystem
 INFORMATION: CodeSystem/TRE-G09-DepartementOM: CodeSystem.property[2]: This property has only a code ('dateFin') and not a URI, so it has no clearly defined meaning in the terminology ecosystem
 WARNING: CodeSystem/TRE-G09-DepartementOM: CodeSystem.property[3]: The base property uri 'https://smt.esante.gouv.fr/fhir/concept-properties' is not known for the property 'autoriteEpars', so the property values can not be validated fully
+WARNING: CodeSystem/TRE-G09-DepartementOM: CodeSystem.property[4]: The base property uri 'https://smt.esante.gouv.fr/fhir/concept-properties' is not known for the property 'region', so the property values can not be validated fully
 == DM/fsh-generated/resources/CodeSystem-TRE-R209-TypeActivite.json ==
 WARNING: CodeSystem/TRE-R209-TypeActivite: CodeSystem: Published code systems SHOULD conform to the ShareableCodeSystem profile, which says that the element CodeSystem.title is mandatory, but it is not present
 INFORMATION: CodeSystem/TRE-R209-TypeActivite: CodeSystem.property[0]: This property has only a code ('dateValid') and not a URI, so it has no clearly defined meaning in the terminology ecosystem
@@ -2890,6 +3006,7 @@ ERROR: ConceptMap/ASS-A28-TypeDiplome-Diplome-Profession-EPARS: ConceptMap.group
 ERROR: ConceptMap/ASS-A28-TypeDiplome-Diplome-Profession-EPARS: ConceptMap.group[0].element[8].target[0].code: The target code 'DIP416' is not valid in the code system https://mos.esante.gouv.fr/NOS/TRE_R48-DiplomeEtatFrancais/FHIR/TRE-R48-DiplomeEtatFrancais|20250425120000
 ERROR: ConceptMap/ASS-A28-TypeDiplome-Diplome-Profession-EPARS: ConceptMap.group[0].element[9].target[0].code: The target code 'DIP320' is not valid in the code system https://mos.esante.gouv.fr/NOS/TRE_R48-DiplomeEtatFrancais/FHIR/TRE-R48-DiplomeEtatFrancais|20250425120000
 ERROR: ConceptMap/ASS-A28-TypeDiplome-Diplome-Profession-EPARS: ConceptMap.group[0].element[10].target[0].code: The target code 'DIP413' is not valid in the code system https://mos.esante.gouv.fr/NOS/TRE_R48-DiplomeEtatFrancais/FHIR/TRE-R48-DiplomeEtatFrancais|20250425120000
+ERROR: ConceptMap/ASS-A28-TypeDiplome-Diplome-Profession-EPARS: ConceptMap.group[1].element[18].target[0].code: The target code 'DIP339' is not valid in the value set https://mos.esante.gouv.fr/NOS/JDV_J183-Diplome-EPARS/FHIR/JDV-J183-Diplome-EPARS|20250917120000
 WARNING: ConceptMap/ASS-A28-TypeDiplome-Diplome-Profession-EPARS: ConceptMap.group[1].element[21].target[0]: A equivalent relationship has already been defined from the code AU to the code DIP340, but this defines a new relationship equivalent
 WARNING: ConceptMap/ASS-A28-TypeDiplome-Diplome-Profession-EPARS: ConceptMap.group[1].element[31].target[0]: A equivalent relationship has already been defined from the code AU to the code DIP323, but this defines a new relationship equivalent
 WARNING: ConceptMap/ASS-A28-TypeDiplome-Diplome-Profession-EPARS: ConceptMap.group[1].element[32].target[0]: A equivalent relationship has already been defined from the code AU to the code DIP324, but this defines a new relationship equivalent
@@ -3520,12 +3637,14 @@ WARNING: ValueSet/JDV-J08-XdsConfidentialityCode-CISIS: ValueSet: Published valu
 == input/ontoserver/JDV/JDV_J100_FinessStatutJuridique_RASS_JDV-J100-FinessStatutJuridique-RASS.json ==
 WARNING: ValueSet/JDV-J100-FinessStatutJuridique-RASS: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.title is mandatory, but it is not present
 == input/ontoserver/JDV/JDV_J101_SecteurActivite_RASS_JDV-J101-SecteurActivite-RASS.json ==
+ERROR: ValueSet.text.div: Resource has provided narrative, but the narrative indicates that it is generated - remove the narrative or fix it up
 WARNING: ValueSet/JDV-J101-SecteurActivite-RASS: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.title is mandatory, but it is not present
 == input/ontoserver/JDV/JDV_J103_TypeVoie_RASS_JDV-J103-TypeVoie-RASS.json ==
 WARNING: ValueSet/JDV-J103-TypeVoie-RASS: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.title is mandatory, but it is not present
 == input/ontoserver/JDV/JDV_J104_TypeIdentifiantStructure_RASS_JDV-J104-TypeIdentifiantStructure-RASS.json ==
 WARNING: ValueSet/JDV-J104-TypeIdentifiantStructure-RASS: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.title is mandatory, but it is not present
 == input/ontoserver/JDV/JDV_J105_EnsembleDiplome_RASS_JDV-J105-EnsembleDiplome-RASS.json ==
+ERROR: ValueSet.text.div: Resource has provided narrative, but the narrative indicates that it is generated - remove the narrative or fix it up
 WARNING: ValueSet/JDV-J105-EnsembleDiplome-RASS: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.title is mandatory, but it is not present
 == input/ontoserver/JDV/JDV_J106_EnsembleProfession_RASS_JDV-J106-EnsembleProfession-RASS.json ==
 WARNING: ValueSet/JDV-J106-EnsembleProfession-RASS: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.title is mandatory, but it is not present
@@ -3613,8 +3732,8 @@ WARNING: ValueSet/JDV-J146-MethodBodyHeight-ENS: ValueSet.compose.include[0].sys
 INFORMATION: ValueSet/JDV-J146-MethodBodyHeight-ENS: ValueSet.compose.include[0].concept[0]: A definition for CodeSystem 'https://smt.esante.gouv.fr/terminologie-ncit' could not be found, so the code cannot be validated
 WARNING: ValueSet/JDV-J146-MethodBodyHeight-ENS: ValueSet.compose.include[1]: The terminology server https://smt.esante.gouv.fr/fhir used for the CodeSystem https://smt.esante.gouv.fr/terminologie-emdn does not support batch validation (tx version Not Known), so the codes have not been validated
 WARNING: ValueSet/JDV-J146-MethodBodyHeight-ENS: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.title is mandatory, but it is not present
-ERROR: ValueSet.where(id = 'JDV-J146-MethodBodyHeight-ENS'): Error from https://smt.esante.gouv.fr/fhir: Error: [4c01601d-79c3-405a-a680-eac0dfffd1b2]: A usable code system with URL https://smt.esante.gouv.fr/terminologie-ncit could not be resolved.
-Information: X-Request-Id: ffe11c97-2294-466a-a1e0-3dc6e8e8c32b
+ERROR: ValueSet.where(id = 'JDV-J146-MethodBodyHeight-ENS'): Error from https://smt.esante.gouv.fr/fhir: Error: [2fd4219e-132f-4bed-9d0c-c56da7d64236]: A usable code system with URL https://smt.esante.gouv.fr/terminologie-ncit could not be resolved.
+Information: X-Request-Id: 33096908-c4f0-411a-a849-2308a873d9ce
 == input/ontoserver/JDV/JDV_J147_MethodHeartrate_ENS_JDV-J147-MethodHeartrate-ENS.json ==
 WARNING: ValueSet/JDV-J147-MethodHeartrate-ENS: ValueSet.compose.include[0]: The terminology server https://smt.esante.gouv.fr/fhir used for the CodeSystem https://smt.esante.gouv.fr/terminologie-emdn does not support batch validation (tx version Not Known), so the codes have not been validated
 WARNING: ValueSet/JDV-J147-MethodHeartrate-ENS: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.title is mandatory, but it is not present
@@ -3686,7 +3805,8 @@ WARNING: ValueSet/JDV-J168-Pays-EPARS: ValueSet: Published value sets SHOULD con
 == input/ontoserver/JDV/JDV_J169_MotifFinActivite_EPARS_JDV-J169-MotifFinActivite-EPARS.json ==
 WARNING: ValueSet/JDV-J169-MotifFinActivite-EPARS: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.title is mandatory, but it is not present
 == input/ontoserver/JDV/JDV_J16_ActeSpecifique_ROR_JDV-J16-ActeSpecifique-ROR.json ==
-INFORMATION: ValueSet/JDV-J16-ActeSpecifique-ROR: ValueSet.compose.include[0]: The value set include has too many codes to validate (1,183), so each individual code has not been checked
+ERROR: ValueSet.text.div: Resource has provided narrative, but the narrative indicates that it is generated - remove the narrative or fix it up
+INFORMATION: ValueSet/JDV-J16-ActeSpecifique-ROR: ValueSet.compose.include[0]: The value set include has too many codes to validate (1,189), so each individual code has not been checked
 WARNING: ValueSet/JDV-J16-ActeSpecifique-ROR: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.title is mandatory, but it is not present
 INFORMATION: ValueSet.where(id = 'JDV-J16-ActeSpecifique-ROR'): The value set expansion is too large, and only a subset has been displayed
 ERROR: ValueSet.text.div: Hyperlink 'CodeSystem-TRE-R210-ActeSpecifique.html#TRE-R210-ActeSpecifique-0001' at 'div/ul/li/table/tr/td/a' for '0001' does not resolve
@@ -3721,7 +3841,6 @@ ERROR: ValueSet.text.div: Hyperlink 'CodeSystem-TRE-R210-ActeSpecifique.html#TRE
 ERROR: ValueSet.text.div: Hyperlink 'CodeSystem-TRE-R210-ActeSpecifique.html#TRE-R210-ActeSpecifique-0047' at 'div/ul/li/table/tr/td/a' for '0047' does not resolve
 ERROR: ValueSet.text.div: Hyperlink 'CodeSystem-TRE-R210-ActeSpecifique.html#TRE-R210-ActeSpecifique-0053' at 'div/ul/li/table/tr/td/a' for '0053' does not resolve
 ERROR: ValueSet.text.div: Hyperlink 'CodeSystem-TRE-R210-ActeSpecifique.html#TRE-R210-ActeSpecifique-0054' at 'div/ul/li/table/tr/td/a' for '0054' does not resolve
-ERROR: ValueSet.text.div: Hyperlink 'CodeSystem-TRE-R210-ActeSpecifique.html#TRE-R210-ActeSpecifique-0055' at 'div/ul/li/table/tr/td/a' for '0055' does not resolve
 ERROR: ValueSet.text.div: Hyperlink 'CodeSystem-TRE-R210-ActeSpecifique.html#TRE-R210-ActeSpecifique-0056' at 'div/ul/li/table/tr/td/a' for '0056' does not resolve
 ERROR: ValueSet.text.div: Hyperlink 'CodeSystem-TRE-R210-ActeSpecifique.html#TRE-R210-ActeSpecifique-0058' at 'div/ul/li/table/tr/td/a' for '0058' does not resolve
 ERROR: ValueSet.text.div: Hyperlink 'CodeSystem-TRE-R210-ActeSpecifique.html#TRE-R210-ActeSpecifique-0059' at 'div/ul/li/table/tr/td/a' for '0059' does not resolve
@@ -3908,7 +4027,6 @@ ERROR: ValueSet.text.div: Hyperlink 'CodeSystem-TRE-R210-ActeSpecifique.html#TRE
 ERROR: ValueSet.text.div: Hyperlink 'CodeSystem-TRE-R210-ActeSpecifique.html#TRE-R210-ActeSpecifique-0405' at 'div/ul/li/table/tr/td/a' for '0405' does not resolve
 ERROR: ValueSet.text.div: Hyperlink 'CodeSystem-TRE-R210-ActeSpecifique.html#TRE-R210-ActeSpecifique-0410' at 'div/ul/li/table/tr/td/a' for '0410' does not resolve
 ERROR: ValueSet.text.div: Hyperlink 'CodeSystem-TRE-R210-ActeSpecifique.html#TRE-R210-ActeSpecifique-0412' at 'div/ul/li/table/tr/td/a' for '0412' does not resolve
-ERROR: ValueSet.text.div: Hyperlink 'CodeSystem-TRE-R210-ActeSpecifique.html#TRE-R210-ActeSpecifique-0413' at 'div/ul/li/table/tr/td/a' for '0413' does not resolve
 ERROR: ValueSet.text.div: Hyperlink 'CodeSystem-TRE-R210-ActeSpecifique.html#TRE-R210-ActeSpecifique-0415' at 'div/ul/li/table/tr/td/a' for '0415' does not resolve
 ERROR: ValueSet.text.div: Hyperlink 'CodeSystem-TRE-R210-ActeSpecifique.html#TRE-R210-ActeSpecifique-0416' at 'div/ul/li/table/tr/td/a' for '0416' does not resolve
 ERROR: ValueSet.text.div: Hyperlink 'CodeSystem-TRE-R210-ActeSpecifique.html#TRE-R210-ActeSpecifique-0417' at 'div/ul/li/table/tr/td/a' for '0417' does not resolve
@@ -3928,7 +4046,6 @@ ERROR: ValueSet.text.div: Hyperlink 'CodeSystem-TRE-R210-ActeSpecifique.html#TRE
 ERROR: ValueSet.text.div: Hyperlink 'CodeSystem-TRE-R210-ActeSpecifique.html#TRE-R210-ActeSpecifique-0435' at 'div/ul/li/table/tr/td/a' for '0435' does not resolve
 ERROR: ValueSet.text.div: Hyperlink 'CodeSystem-TRE-R210-ActeSpecifique.html#TRE-R210-ActeSpecifique-0436' at 'div/ul/li/table/tr/td/a' for '0436' does not resolve
 ERROR: ValueSet.text.div: Hyperlink 'CodeSystem-TRE-R210-ActeSpecifique.html#TRE-R210-ActeSpecifique-0437' at 'div/ul/li/table/tr/td/a' for '0437' does not resolve
-ERROR: ValueSet.text.div: Hyperlink 'CodeSystem-TRE-R210-ActeSpecifique.html#TRE-R210-ActeSpecifique-0440' at 'div/ul/li/table/tr/td/a' for '0440' does not resolve
 ERROR: ValueSet.text.div: Hyperlink 'CodeSystem-TRE-R210-ActeSpecifique.html#TRE-R210-ActeSpecifique-0441' at 'div/ul/li/table/tr/td/a' for '0441' does not resolve
 ERROR: ValueSet.text.div: Hyperlink 'CodeSystem-TRE-R210-ActeSpecifique.html#TRE-R210-ActeSpecifique-0442' at 'div/ul/li/table/tr/td/a' for '0442' does not resolve
 ERROR: ValueSet.text.div: Hyperlink 'CodeSystem-TRE-R210-ActeSpecifique.html#TRE-R210-ActeSpecifique-0443' at 'div/ul/li/table/tr/td/a' for '0443' does not resolve
@@ -4133,7 +4250,6 @@ ERROR: ValueSet.text.div: Hyperlink 'CodeSystem-TRE-R210-ActeSpecifique.html#TRE
 ERROR: ValueSet.text.div: Hyperlink 'CodeSystem-TRE-R210-ActeSpecifique.html#TRE-R210-ActeSpecifique-0728' at 'div/ul/li/table/tr/td/a' for '0728' does not resolve
 ERROR: ValueSet.text.div: Hyperlink 'CodeSystem-TRE-R210-ActeSpecifique.html#TRE-R210-ActeSpecifique-0729' at 'div/ul/li/table/tr/td/a' for '0729' does not resolve
 ERROR: ValueSet.text.div: Hyperlink 'CodeSystem-TRE-R210-ActeSpecifique.html#TRE-R210-ActeSpecifique-0730' at 'div/ul/li/table/tr/td/a' for '0730' does not resolve
-ERROR: ValueSet.text.div: Hyperlink 'CodeSystem-TRE-R210-ActeSpecifique.html#TRE-R210-ActeSpecifique-0731' at 'div/ul/li/table/tr/td/a' for '0731' does not resolve
 ERROR: ValueSet.text.div: Hyperlink 'CodeSystem-TRE-R210-ActeSpecifique.html#TRE-R210-ActeSpecifique-0732' at 'div/ul/li/table/tr/td/a' for '0732' does not resolve
 ERROR: ValueSet.text.div: Hyperlink 'CodeSystem-TRE-R210-ActeSpecifique.html#TRE-R210-ActeSpecifique-0733' at 'div/ul/li/table/tr/td/a' for '0733' does not resolve
 ERROR: ValueSet.text.div: Hyperlink 'CodeSystem-TRE-R210-ActeSpecifique.html#TRE-R210-ActeSpecifique-0734' at 'div/ul/li/table/tr/td/a' for '0734' does not resolve
@@ -4284,7 +4400,6 @@ ERROR: ValueSet.text.div: Hyperlink 'CodeSystem-TRE-R210-ActeSpecifique.html#TRE
 ERROR: ValueSet.text.div: Hyperlink 'CodeSystem-TRE-R210-ActeSpecifique.html#TRE-R210-ActeSpecifique-0890' at 'div/ul/li/table/tr/td/a' for '0890' does not resolve
 ERROR: ValueSet.text.div: Hyperlink 'CodeSystem-TRE-R210-ActeSpecifique.html#TRE-R210-ActeSpecifique-0891' at 'div/ul/li/table/tr/td/a' for '0891' does not resolve
 ERROR: ValueSet.text.div: Hyperlink 'CodeSystem-TRE-R210-ActeSpecifique.html#TRE-R210-ActeSpecifique-0892' at 'div/ul/li/table/tr/td/a' for '0892' does not resolve
-ERROR: ValueSet.text.div: Hyperlink 'CodeSystem-TRE-R210-ActeSpecifique.html#TRE-R210-ActeSpecifique-0893' at 'div/ul/li/table/tr/td/a' for '0893' does not resolve
 ERROR: ValueSet.text.div: Hyperlink 'CodeSystem-TRE-R210-ActeSpecifique.html#TRE-R210-ActeSpecifique-0894' at 'div/ul/li/table/tr/td/a' for '0894' does not resolve
 ERROR: ValueSet.text.div: Hyperlink 'CodeSystem-TRE-R210-ActeSpecifique.html#TRE-R210-ActeSpecifique-0895' at 'div/ul/li/table/tr/td/a' for '0895' does not resolve
 ERROR: ValueSet.text.div: Hyperlink 'CodeSystem-TRE-R210-ActeSpecifique.html#TRE-R210-ActeSpecifique-0896' at 'div/ul/li/table/tr/td/a' for '0896' does not resolve
@@ -4466,7 +4581,6 @@ ERROR: ValueSet.text.div: Hyperlink 'CodeSystem-TRE-R210-ActeSpecifique.html#TRE
 ERROR: ValueSet.text.div: Hyperlink 'CodeSystem-TRE-R210-ActeSpecifique.html#TRE-R210-ActeSpecifique-1109' at 'div/ul/li/table/tr/td/a' for '1109' does not resolve
 ERROR: ValueSet.text.div: Hyperlink 'CodeSystem-TRE-R210-ActeSpecifique.html#TRE-R210-ActeSpecifique-1110' at 'div/ul/li/table/tr/td/a' for '1110' does not resolve
 ERROR: ValueSet.text.div: Hyperlink 'CodeSystem-TRE-R210-ActeSpecifique.html#TRE-R210-ActeSpecifique-1112' at 'div/ul/li/table/tr/td/a' for '1112' does not resolve
-ERROR: ValueSet.text.div: Hyperlink 'CodeSystem-TRE-R210-ActeSpecifique.html#TRE-R210-ActeSpecifique-1113' at 'div/ul/li/table/tr/td/a' for '1113' does not resolve
 ERROR: ValueSet.text.div: Hyperlink 'CodeSystem-TRE-R210-ActeSpecifique.html#TRE-R210-ActeSpecifique-1114' at 'div/ul/li/table/tr/td/a' for '1114' does not resolve
 ERROR: ValueSet.text.div: Hyperlink 'CodeSystem-TRE-R210-ActeSpecifique.html#TRE-R210-ActeSpecifique-1115' at 'div/ul/li/table/tr/td/a' for '1115' does not resolve
 ERROR: ValueSet.text.div: Hyperlink 'CodeSystem-TRE-R210-ActeSpecifique.html#TRE-R210-ActeSpecifique-1116' at 'div/ul/li/table/tr/td/a' for '1116' does not resolve
@@ -4872,6 +4986,18 @@ ERROR: ValueSet.text.div: Hyperlink 'CodeSystem-TRE-R210-ActeSpecifique.html#TRE
 ERROR: ValueSet.text.div: Hyperlink 'CodeSystem-TRE-R210-ActeSpecifique.html#TRE-R210-ActeSpecifique-1536' at 'div/ul/li/table/tr/td/a' for '1536' does not resolve
 ERROR: ValueSet.text.div: Hyperlink 'CodeSystem-TRE-R210-ActeSpecifique.html#TRE-R210-ActeSpecifique-1537' at 'div/ul/li/table/tr/td/a' for '1537' does not resolve
 ERROR: ValueSet.text.div: Hyperlink 'CodeSystem-TRE-R210-ActeSpecifique.html#TRE-R210-ActeSpecifique-1538' at 'div/ul/li/table/tr/td/a' for '1538' does not resolve
+ERROR: ValueSet.text.div: Hyperlink 'CodeSystem-TRE-R210-ActeSpecifique.html#TRE-R210-ActeSpecifique-1539' at 'div/ul/li/table/tr/td/a' for '1539' does not resolve
+ERROR: ValueSet.text.div: Hyperlink 'CodeSystem-TRE-R210-ActeSpecifique.html#TRE-R210-ActeSpecifique-1540' at 'div/ul/li/table/tr/td/a' for '1540' does not resolve
+ERROR: ValueSet.text.div: Hyperlink 'CodeSystem-TRE-R210-ActeSpecifique.html#TRE-R210-ActeSpecifique-1541' at 'div/ul/li/table/tr/td/a' for '1541' does not resolve
+ERROR: ValueSet.text.div: Hyperlink 'CodeSystem-TRE-R210-ActeSpecifique.html#TRE-R210-ActeSpecifique-1542' at 'div/ul/li/table/tr/td/a' for '1542' does not resolve
+ERROR: ValueSet.text.div: Hyperlink 'CodeSystem-TRE-R210-ActeSpecifique.html#TRE-R210-ActeSpecifique-1543' at 'div/ul/li/table/tr/td/a' for '1543' does not resolve
+ERROR: ValueSet.text.div: Hyperlink 'CodeSystem-TRE-R210-ActeSpecifique.html#TRE-R210-ActeSpecifique-1544' at 'div/ul/li/table/tr/td/a' for '1544' does not resolve
+ERROR: ValueSet.text.div: Hyperlink 'CodeSystem-TRE-R210-ActeSpecifique.html#TRE-R210-ActeSpecifique-1545' at 'div/ul/li/table/tr/td/a' for '1545' does not resolve
+ERROR: ValueSet.text.div: Hyperlink 'CodeSystem-TRE-R210-ActeSpecifique.html#TRE-R210-ActeSpecifique-1546' at 'div/ul/li/table/tr/td/a' for '1546' does not resolve
+ERROR: ValueSet.text.div: Hyperlink 'CodeSystem-TRE-R210-ActeSpecifique.html#TRE-R210-ActeSpecifique-1547' at 'div/ul/li/table/tr/td/a' for '1547' does not resolve
+ERROR: ValueSet.text.div: Hyperlink 'CodeSystem-TRE-R210-ActeSpecifique.html#TRE-R210-ActeSpecifique-1548' at 'div/ul/li/table/tr/td/a' for '1548' does not resolve
+ERROR: ValueSet.text.div: Hyperlink 'CodeSystem-TRE-R210-ActeSpecifique.html#TRE-R210-ActeSpecifique-1549' at 'div/ul/li/table/tr/td/a' for '1549' does not resolve
+ERROR: ValueSet.text.div: Hyperlink 'CodeSystem-TRE-R210-ActeSpecifique.html#TRE-R210-ActeSpecifique-1550' at 'div/ul/li/table/tr/td/a' for '1550' does not resolve
 == input/ontoserver/JDV/JDV_J171_TypeAutorisation_EPARS_JDV-J171-TypeAutorisation-EPARS.json ==
 WARNING: ValueSet/JDV-J171-TypeAutorisation-EPARS: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.title is mandatory, but it is not present
 == input/ontoserver/JDV/JDV_J172_SecteurActivite_EPARS_JDV-J172-SecteurActivite-EPARS.json ==
@@ -4887,6 +5013,7 @@ WARNING: ValueSet/JDV-J178-BesoinAideVieSociale-MDPH: ValueSet: Published value 
 == input/ontoserver/JDV/JDV_J179_BesoinCommunication_MDPH_JDV-J179-BesoinCommunication-MDPH.json ==
 WARNING: ValueSet/JDV-J179-BesoinCommunication-MDPH: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.title is mandatory, but it is not present
 == input/ontoserver/JDV/JDV_J17_ActiviteOperationnelle_ROR_JDV-J17-ActiviteOperationnelle-ROR.json ==
+ERROR: ValueSet.text.div: Resource has provided narrative, but the narrative indicates that it is generated - remove the narrative or fix it up
 WARNING: ValueSet/JDV-J17-ActiviteOperationnelle-ROR: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.title is mandatory, but it is not present
 == input/ontoserver/JDV/JDV_J180_BesoinEntretienPersonnel_MDPH_JDV-J180-BesoinEntretienPersonnel-MDPH.json ==
 WARNING: ValueSet/JDV-J180-BesoinEntretienPersonnel-MDPH: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.title is mandatory, but it is not present
@@ -4895,9 +5022,13 @@ WARNING: ValueSet/JDV-J181-BesoinMobilite-MDPH: ValueSet: Published value sets S
 == input/ontoserver/JDV/JDV_J182_BesoinScolarite_MDPH_JDV-J182-BesoinScolarite-MDPH.json ==
 WARNING: ValueSet/JDV-J182-BesoinScolarite-MDPH: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.title is mandatory, but it is not present
 == input/ontoserver/JDV/JDV_J183_Diplome_EPARS_JDV-J183-Diplome-EPARS.json ==
+ERROR: ValueSet.text.div: Resource has provided narrative, but the narrative indicates that it is generated - remove the narrative or fix it up
 WARNING: ValueSet/JDV-J183-Diplome-EPARS: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.title is mandatory, but it is not present
 == input/ontoserver/JDV/JDV_J185_TypeFermeture_ROR_JDV-J185-TypeFermeture-ROR.json ==
+ERROR: ValueSet.text.div: Resource has provided narrative, but the narrative indicates that it is generated - remove the narrative or fix it up
+ERROR: ValueSet/JDV-J185-TypeFermeture-ROR: ValueSet.compose.include[0].concept[2]: The code 'PRE' is not valid in the system https://mos.esante.gouv.fr/NOS/TRE_R286-TypeFermeture/FHIR/TRE-R286-TypeFermeture (Unknown code 'PRE' in the CodeSystem 'https://mos.esante.gouv.fr/NOS/TRE_R286-TypeFermeture/FHIR/TRE-R286-TypeFermeture' version '20231215120000')
 WARNING: ValueSet/JDV-J185-TypeFermeture-ROR: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.title is mandatory, but it is not present
+ERROR: ValueSet.text.div: Hyperlink 'CodeSystem-TRE-R286-TypeFermeture.html#TRE-R286-TypeFermeture-PRE' at 'div/ul/li/table/tr/td/a' for 'PRE' does not resolve
 == input/ontoserver/JDV/JDV_J186_ProfessionRessource_ROR_JDV-J186-ProfessionRessource-ROR.json ==
 WARNING: ValueSet/JDV-J186-ProfessionRessource-ROR: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.title is mandatory, but it is not present
 == input/ontoserver/JDV/JDV_J187_NatureCapacite_ROR_JDV-J187-NatureCapacite-ROR.json ==
@@ -4909,6 +5040,7 @@ WARNING: ValueSet/JDV-J189-TemporaliteCapacite-ROR: ValueSet: Published value se
 == input/ontoserver/JDV/JDV_J18_EquipementSpecifique_ROR_JDV-J18-EquipementSpecifique-ROR.json ==
 WARNING: ValueSet/JDV-J18-EquipementSpecifique-ROR: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.title is mandatory, but it is not present
 == input/ontoserver/JDV/JDV_J190_GenreCapacite_ROR_JDV-J190-GenreCapacite-ROR.json ==
+ERROR: ValueSet.text.div: Resource has provided narrative, but the narrative indicates that it is generated - remove the narrative or fix it up
 WARNING: ValueSet/JDV-J190-GenreCapacite-ROR: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.title is mandatory, but it is not present
 == input/ontoserver/JDV/JDV_J191_TypeFermetureCapacite_ROR_JDV-J191-TypeFermetureCapacite-ROR.json ==
 WARNING: ValueSet/JDV-J191-TypeFermetureCapacite-ROR: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.title is mandatory, but it is not present
@@ -4929,11 +5061,15 @@ WARNING: ValueSet/JDV-J198-FonctionLieu-ROR: ValueSet: Published value sets SHOU
 == input/ontoserver/JDV/JDV_J199_StatutJuridique_ROR_JDV-J199-StatutJuridique-ROR.json ==
 WARNING: ValueSet/JDV-J199-StatutJuridique-ROR: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.title is mandatory, but it is not present
 == input/ontoserver/JDV/JDV_J19_ModePriseEnCharge_ROR_JDV-J19-ModePriseEnCharge-ROR.json ==
+ERROR: ValueSet.text.div: Resource has provided narrative, but the narrative indicates that it is generated - remove the narrative or fix it up
 WARNING: ValueSet/JDV-J19-ModePriseEnCharge-ROR: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.title is mandatory, but it is not present
 == input/ontoserver/JDV/JDV_J200_SousEnsembleAgregatStatutJuridique_ROR_JDV-J200-SousEnsembleAgregatStatutJuridique-ROR.json ==
 WARNING: ValueSet/JDV-J200-SousEnsembleAgregatStatutJuridique-ROR: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.title is mandatory, but it is not present
 == input/ontoserver/JDV/JDV_J201_TypeFermeture_ROR_JDV-J201-TypeFermeture-ROR.json ==
+ERROR: ValueSet.text.div: Resource has provided narrative, but the narrative indicates that it is generated - remove the narrative or fix it up
+ERROR: ValueSet/JDV-J201-TypeFermeture-ROR: ValueSet.compose.include[0].concept[6]: The code 'PRE' is not valid in the system https://mos.esante.gouv.fr/NOS/TRE_R286-TypeFermeture/FHIR/TRE-R286-TypeFermeture (Unknown code 'PRE' in the CodeSystem 'https://mos.esante.gouv.fr/NOS/TRE_R286-TypeFermeture/FHIR/TRE-R286-TypeFermeture' version '20231215120000')
 WARNING: ValueSet/JDV-J201-TypeFermeture-ROR: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.title is mandatory, but it is not present
+ERROR: ValueSet.text.div: Hyperlink 'CodeSystem-TRE-R286-TypeFermeture.html#TRE-R286-TypeFermeture-PRE' at 'div/ul/li/table/tr/td/a' for 'PRE' does not resolve
 == input/ontoserver/JDV/JDV_J202_ESPIC_ROR_JDV-J202-ESPIC-ROR.json ==
 WARNING: ValueSet/JDV-J202-ESPIC-ROR: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.title is mandatory, but it is not present
 == input/ontoserver/JDV/JDV_J203_TypeOrganisationInterne_ROR_JDV-J203-TypeOrganisationInterne-ROR.json ==
@@ -4987,6 +5123,7 @@ WARNING: ValueSet/JDV-J224-StatutLieu-ROR: ValueSet: Published value sets SHOULD
 == input/ontoserver/JDV/JDV_J225_CanalCommunication_ROR_JDV-J225-CanalCommunication-ROR.json ==
 WARNING: ValueSet/JDV-J225-CanalCommunication-ROR: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.title is mandatory, but it is not present
 == input/ontoserver/JDV/JDV_J226_ModaliteAccueil_ROR_JDV-J226-ModaliteAccueil-ROR.json ==
+ERROR: ValueSet.text.div: Resource has provided narrative, but the narrative indicates that it is generated - remove the narrative or fix it up
 WARNING: ValueSet/JDV-J226-ModaliteAccueil-ROR: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.title is mandatory, but it is not present
 == input/ontoserver/JDV/JDV_J227_NiveauExpertise_ROR_JDV-J227-NiveauExpertise-ROR.json ==
 WARNING: ValueSet/JDV-J227-NiveauExpertise-ROR: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.title is mandatory, but it is not present
@@ -5122,6 +5259,7 @@ WARNING: ValueSet/JDV-J236-TypeIdentifiant-ROR: ValueSet: Published value sets S
 == input/ontoserver/JDV/JDV_J237_RegionOM_ROR_JDV-J237-RegionOM-ROR.json ==
 WARNING: ValueSet/JDV-J237-RegionOM-ROR: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.title is mandatory, but it is not present
 == input/ontoserver/JDV/JDV_J238_TypeOffre_ROR_JDV-J238-TypeOffre-ROR.json ==
+ERROR: ValueSet.text.div: Resource has provided narrative, but the narrative indicates that it is generated - remove the narrative or fix it up
 WARNING: ValueSet/JDV-J238-TypeOffre-ROR: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.title is mandatory, but it is not present
 == input/ontoserver/JDV/JDV_J239_SpecialitesSNP_SAS_JDV-J239-SpecialitesSNP-SAS.json ==
 WARNING: ValueSet/JDV-J239-SpecialitesSNP-SAS: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.title is mandatory, but it is not present
@@ -5224,6 +5362,7 @@ WARNING: ValueSet/JDV-J32-TypeHabitation-ROR: ValueSet: Published value sets SHO
 == input/ontoserver/JDV/JDV_J33_CompetenceSpecifique_ROR_JDV-J33-CompetenceSpecifique-ROR.json ==
 WARNING: ValueSet/JDV-J33-CompetenceSpecifique-ROR: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.title is mandatory, but it is not present
 == input/ontoserver/JDV/JDV_J34_CategorieOrganisation_ROR_JDV-J34-CategorieOrganisation-ROR.json ==
+ERROR: ValueSet.text.div: Resource has provided narrative, but the narrative indicates that it is generated - remove the narrative or fix it up
 WARNING: ValueSet/JDV-J34-CategorieOrganisation-ROR: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.title is mandatory, but it is not present
 == input/ontoserver/JDV/JDV_J35_SpecialisationDePriseEnCharge_ROR_JDV-J35-SpecialisationDePriseEnCharge-ROR.json ==
 WARNING: ValueSet/JDV-J35-SpecialisationDePriseEnCharge-ROR: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.title is mandatory, but it is not present
@@ -5259,8 +5398,8 @@ WARNING: ValueSet/JDV-J51-FamilleActiviteOperationnelle-ROR: ValueSet.compose.in
 INFORMATION: ValueSet/JDV-J51-FamilleActiviteOperationnelle-ROR: ValueSet.compose.include[1].concept[0]: A definition for CodeSystem 'https://mos.esante.gouv.fr/NOS/TRE_R265-PrestationPilotageSerafin/FHIR/TRE-R265-PrestationPilotageSerafin' could not be found, so the code cannot be validated
 WARNING: ValueSet/JDV-J51-FamilleActiviteOperationnelle-ROR: ValueSet.compose.include[1]: The terminology server https://tx.fhir.org/r4 used for the CodeSystem https://mos.esante.gouv.fr/NOS/TRE_R265-PrestationPilotageSerafin/FHIR/TRE-R265-PrestationPilotageSerafin does not support batch validation (tx version Not Known), so the codes have not been validated
 WARNING: ValueSet/JDV-J51-FamilleActiviteOperationnelle-ROR: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.title is mandatory, but it is not present
-ERROR: ValueSet.where(id = 'JDV-J51-FamilleActiviteOperationnelle-ROR'): Error from https://smt.esante.gouv.fr/fhir: Error: [70c03a05-b3a8-4baa-badb-724b20c62ece]: A usable code system with URL https://mos.esante.gouv.fr/NOS/TRE_R265-PrestationPilotageSerafin/FHIR/TRE-R265-PrestationPilotageSerafin could not be resolved.
-Information: X-Request-Id: 552d9964-80a8-43a8-80ab-7e6cda835e98
+ERROR: ValueSet.where(id = 'JDV-J51-FamilleActiviteOperationnelle-ROR'): Error from https://smt.esante.gouv.fr/fhir: Error: [87f4a1ea-9d65-4b69-b6ec-29fe75233f99]: A usable code system with URL https://mos.esante.gouv.fr/NOS/TRE_R265-PrestationPilotageSerafin/FHIR/TRE-R265-PrestationPilotageSerafin could not be resolved.
+Information: X-Request-Id: f350f409-1705-4af2-964c-150b7cffad7c
 == input/ontoserver/JDV/JDV_J52_AvailabilityStatus_CISIS_JDV-J52-AvailabilityStatus-CISIS.json ==
 WARNING: ValueSet/JDV-J52-AvailabilityStatus-CISIS: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.title is mandatory, but it is not present
 == input/ontoserver/JDV/JDV_J53_TypeRequeteGestionDossier_CISIS_JDV-J53-TypeRequeteGestionDossier-CISIS.json ==
@@ -5363,21 +5502,45 @@ WARNING: ValueSet/jdv-abord-veineux-peripherique-cisis: ValueSet.compose.include
 ERROR: /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JdvAbordVeineuxPeripheriqueCisis_jdv-abord-veineux-peripherique-cisis: URL Mismatch https://interop.esante.gouv.fr/terminologies/ValueSet/jdv-abord-veineux-peripherique-cisis vs https://smt.esante.gouv.fr/fhir/ValueSet/jdv-abord-veineux-peripherique-cisis
 == input/ontoserver/JDV/JdvAbsentOrUnknownAllergyCisis_jdv-absent-or-unknown-allergy-cisis.json ==
 ERROR: ValueSet.where(url = 'https://smt.esante.gouv.fr/fhir/ValueSet/jdv-absent-or-unknown-allergy-cisis'): Conformance resource /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JdvAbsentOrUnknownAllergyCisis_jdv-absent-or-unknown-allergy-cisis.json - the canonical URL (https://interop.esante.gouv.fr/terminologies/ValueSet/jdv-absent-or-unknown-allergy-cisis) does not match the URL (https://smt.esante.gouv.fr/fhir/ValueSet/jdv-absent-or-unknown-allergy-cisis)
+ERROR: ValueSet/jdv-absent-or-unknown-allergy-cisis: ValueSet.compose.include[0].system: No definition could be found for URL value 'http://hl7.org/fhir/uv/ips/CodeSystem/absent-unknown-uv-ips'
+INFORMATION: ValueSet/jdv-absent-or-unknown-allergy-cisis: ValueSet.compose.include[0].concept[0]: A definition for CodeSystem 'http://hl7.org/fhir/uv/ips/CodeSystem/absent-unknown-uv-ips' could not be found, so the code cannot be validated
+WARNING: ValueSet/jdv-absent-or-unknown-allergy-cisis: ValueSet.compose.include[0]: The terminology server https://tx.fhir.org/r4 used for the CodeSystem http://hl7.org/fhir/uv/ips/CodeSystem/absent-unknown-uv-ips does not support batch validation (tx version Not Known), so the codes have not been validated
+WARNING: ValueSet.where(id = 'jdv-absent-or-unknown-allergy-cisis'): Error from https://tx.fhir.org/r4: Unable to provide support for code system http://hl7.org/fhir/uv/ips/CodeSystem/absent-unknown-uv-ips
 ERROR: /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JdvAbsentOrUnknownAllergyCisis_jdv-absent-or-unknown-allergy-cisis: URL Mismatch https://interop.esante.gouv.fr/terminologies/ValueSet/jdv-absent-or-unknown-allergy-cisis vs https://smt.esante.gouv.fr/fhir/ValueSet/jdv-absent-or-unknown-allergy-cisis
 == input/ontoserver/JDV/JdvAbsentOrUnknownDevicesCisis_jdv-absent-or-unknown-devices-cisis.json ==
 ERROR: ValueSet.where(url = 'https://smt.esante.gouv.fr/fhir/ValueSet/jdv-absent-or-unknown-devices-cisis'): Conformance resource /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JdvAbsentOrUnknownDevicesCisis_jdv-absent-or-unknown-devices-cisis.json - the canonical URL (https://interop.esante.gouv.fr/terminologies/ValueSet/jdv-absent-or-unknown-devices-cisis) does not match the URL (https://smt.esante.gouv.fr/fhir/ValueSet/jdv-absent-or-unknown-devices-cisis)
+ERROR: ValueSet/jdv-absent-or-unknown-devices-cisis: ValueSet.compose.include[0].system: No definition could be found for URL value 'http://hl7.org/fhir/uv/ips/CodeSystem/absent-unknown-uv-ips'
+INFORMATION: ValueSet/jdv-absent-or-unknown-devices-cisis: ValueSet.compose.include[0].concept[0]: A definition for CodeSystem 'http://hl7.org/fhir/uv/ips/CodeSystem/absent-unknown-uv-ips' could not be found, so the code cannot be validated
+WARNING: ValueSet/jdv-absent-or-unknown-devices-cisis: ValueSet.compose.include[0]: The terminology server https://tx.fhir.org/r4 used for the CodeSystem http://hl7.org/fhir/uv/ips/CodeSystem/absent-unknown-uv-ips does not support batch validation (tx version Not Known), so the codes have not been validated
+WARNING: ValueSet.where(id = 'jdv-absent-or-unknown-devices-cisis'): Error from https://tx.fhir.org/r4: Unable to provide support for code system http://hl7.org/fhir/uv/ips/CodeSystem/absent-unknown-uv-ips
 ERROR: /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JdvAbsentOrUnknownDevicesCisis_jdv-absent-or-unknown-devices-cisis: URL Mismatch https://interop.esante.gouv.fr/terminologies/ValueSet/jdv-absent-or-unknown-devices-cisis vs https://smt.esante.gouv.fr/fhir/ValueSet/jdv-absent-or-unknown-devices-cisis
 == input/ontoserver/JDV/JdvAbsentOrUnknownImmunizationCisis_jdv-absent-or-unknown-immunization-cisis.json ==
 ERROR: ValueSet.where(url = 'https://smt.esante.gouv.fr/fhir/ValueSet/jdv-absent-or-unknown-immunization-cisis'): Conformance resource /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JdvAbsentOrUnknownImmunizationCisis_jdv-absent-or-unknown-immunization-cisis.json - the canonical URL (https://interop.esante.gouv.fr/terminologies/ValueSet/jdv-absent-or-unknown-immunization-cisis) does not match the URL (https://smt.esante.gouv.fr/fhir/ValueSet/jdv-absent-or-unknown-immunization-cisis)
+ERROR: ValueSet/jdv-absent-or-unknown-immunization-cisis: ValueSet.compose.include[0].system: No definition could be found for URL value 'http://hl7.org/fhir/uv/ips/CodeSystem/absent-unknown-uv-ips'
+INFORMATION: ValueSet/jdv-absent-or-unknown-immunization-cisis: ValueSet.compose.include[0].concept[0]: A definition for CodeSystem 'http://hl7.org/fhir/uv/ips/CodeSystem/absent-unknown-uv-ips' could not be found, so the code cannot be validated
+WARNING: ValueSet/jdv-absent-or-unknown-immunization-cisis: ValueSet.compose.include[0]: The terminology server https://tx.fhir.org/r4 used for the CodeSystem http://hl7.org/fhir/uv/ips/CodeSystem/absent-unknown-uv-ips does not support batch validation (tx version Not Known), so the codes have not been validated
+WARNING: ValueSet.where(id = 'jdv-absent-or-unknown-immunization-cisis'): Error from https://tx.fhir.org/r4: Unable to provide support for code system http://hl7.org/fhir/uv/ips/CodeSystem/absent-unknown-uv-ips
 ERROR: /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JdvAbsentOrUnknownImmunizationCisis_jdv-absent-or-unknown-immunization-cisis: URL Mismatch https://interop.esante.gouv.fr/terminologies/ValueSet/jdv-absent-or-unknown-immunization-cisis vs https://smt.esante.gouv.fr/fhir/ValueSet/jdv-absent-or-unknown-immunization-cisis
 == input/ontoserver/JDV/JdvAbsentOrUnknownMedicationCisis_jdv-absent-or-unknown-medication-cisis.json ==
 ERROR: ValueSet.where(url = 'https://smt.esante.gouv.fr/fhir/ValueSet/jdv-absent-or-unknown-medication-cisis'): Conformance resource /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JdvAbsentOrUnknownMedicationCisis_jdv-absent-or-unknown-medication-cisis.json - the canonical URL (https://interop.esante.gouv.fr/terminologies/ValueSet/jdv-absent-or-unknown-medication-cisis) does not match the URL (https://smt.esante.gouv.fr/fhir/ValueSet/jdv-absent-or-unknown-medication-cisis)
+ERROR: ValueSet/jdv-absent-or-unknown-medication-cisis: ValueSet.compose.include[0].system: No definition could be found for URL value 'http://hl7.org/fhir/uv/ips/CodeSystem/absent-unknown-uv-ips'
+INFORMATION: ValueSet/jdv-absent-or-unknown-medication-cisis: ValueSet.compose.include[0].concept[0]: A definition for CodeSystem 'http://hl7.org/fhir/uv/ips/CodeSystem/absent-unknown-uv-ips' could not be found, so the code cannot be validated
+WARNING: ValueSet/jdv-absent-or-unknown-medication-cisis: ValueSet.compose.include[0]: The terminology server https://tx.fhir.org/r4 used for the CodeSystem http://hl7.org/fhir/uv/ips/CodeSystem/absent-unknown-uv-ips does not support batch validation (tx version Not Known), so the codes have not been validated
+WARNING: ValueSet.where(id = 'jdv-absent-or-unknown-medication-cisis'): Error from https://tx.fhir.org/r4: Unable to provide support for code system http://hl7.org/fhir/uv/ips/CodeSystem/absent-unknown-uv-ips
 ERROR: /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JdvAbsentOrUnknownMedicationCisis_jdv-absent-or-unknown-medication-cisis: URL Mismatch https://interop.esante.gouv.fr/terminologies/ValueSet/jdv-absent-or-unknown-medication-cisis vs https://smt.esante.gouv.fr/fhir/ValueSet/jdv-absent-or-unknown-medication-cisis
 == input/ontoserver/JDV/JdvAbsentOrUnknownProblemCisis_jdv-absent-or-unknown-problem-cisis.json ==
 ERROR: ValueSet.where(url = 'https://smt.esante.gouv.fr/fhir/ValueSet/jdv-absent-or-unknown-problem-cisis'): Conformance resource /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JdvAbsentOrUnknownProblemCisis_jdv-absent-or-unknown-problem-cisis.json - the canonical URL (https://interop.esante.gouv.fr/terminologies/ValueSet/jdv-absent-or-unknown-problem-cisis) does not match the URL (https://smt.esante.gouv.fr/fhir/ValueSet/jdv-absent-or-unknown-problem-cisis)
+ERROR: ValueSet/jdv-absent-or-unknown-problem-cisis: ValueSet.compose.include[0].system: No definition could be found for URL value 'http://hl7.org/fhir/uv/ips/CodeSystem/absent-unknown-uv-ips'
+INFORMATION: ValueSet/jdv-absent-or-unknown-problem-cisis: ValueSet.compose.include[0].concept[0]: A definition for CodeSystem 'http://hl7.org/fhir/uv/ips/CodeSystem/absent-unknown-uv-ips' could not be found, so the code cannot be validated
+WARNING: ValueSet/jdv-absent-or-unknown-problem-cisis: ValueSet.compose.include[0]: The terminology server https://tx.fhir.org/r4 used for the CodeSystem http://hl7.org/fhir/uv/ips/CodeSystem/absent-unknown-uv-ips does not support batch validation (tx version Not Known), so the codes have not been validated
+WARNING: ValueSet.where(id = 'jdv-absent-or-unknown-problem-cisis'): Error from https://tx.fhir.org/r4: Unable to provide support for code system http://hl7.org/fhir/uv/ips/CodeSystem/absent-unknown-uv-ips
 ERROR: /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JdvAbsentOrUnknownProblemCisis_jdv-absent-or-unknown-problem-cisis: URL Mismatch https://interop.esante.gouv.fr/terminologies/ValueSet/jdv-absent-or-unknown-problem-cisis vs https://smt.esante.gouv.fr/fhir/ValueSet/jdv-absent-or-unknown-problem-cisis
 == input/ontoserver/JDV/JdvAbsentOrUnknownProcedureCisis_jdv-absent-or-unknown-procedure-cisis.json ==
 ERROR: ValueSet.where(url = 'https://smt.esante.gouv.fr/fhir/ValueSet/jdv-absent-or-unknown-procedure-cisis'): Conformance resource /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JdvAbsentOrUnknownProcedureCisis_jdv-absent-or-unknown-procedure-cisis.json - the canonical URL (https://interop.esante.gouv.fr/terminologies/ValueSet/jdv-absent-or-unknown-procedure-cisis) does not match the URL (https://smt.esante.gouv.fr/fhir/ValueSet/jdv-absent-or-unknown-procedure-cisis)
+ERROR: ValueSet/jdv-absent-or-unknown-procedure-cisis: ValueSet.compose.include[0].system: No definition could be found for URL value 'http://hl7.org/fhir/uv/ips/CodeSystem/absent-unknown-uv-ips'
+INFORMATION: ValueSet/jdv-absent-or-unknown-procedure-cisis: ValueSet.compose.include[0].concept[0]: A definition for CodeSystem 'http://hl7.org/fhir/uv/ips/CodeSystem/absent-unknown-uv-ips' could not be found, so the code cannot be validated
+WARNING: ValueSet/jdv-absent-or-unknown-procedure-cisis: ValueSet.compose.include[0]: The terminology server https://tx.fhir.org/r4 used for the CodeSystem http://hl7.org/fhir/uv/ips/CodeSystem/absent-unknown-uv-ips does not support batch validation (tx version Not Known), so the codes have not been validated
+WARNING: ValueSet.where(id = 'jdv-absent-or-unknown-procedure-cisis'): Error from https://tx.fhir.org/r4: Unable to provide support for code system http://hl7.org/fhir/uv/ips/CodeSystem/absent-unknown-uv-ips
 ERROR: /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JdvAbsentOrUnknownProcedureCisis_jdv-absent-or-unknown-procedure-cisis: URL Mismatch https://interop.esante.gouv.fr/terminologies/ValueSet/jdv-absent-or-unknown-procedure-cisis vs https://smt.esante.gouv.fr/fhir/ValueSet/jdv-absent-or-unknown-procedure-cisis
 == input/ontoserver/JDV/JdvAccesArtereCisis_jdv-acces-artere-cisis.json ==
 ERROR: ValueSet.where(url = 'https://smt.esante.gouv.fr/fhir/ValueSet/jdv-acces-artere-cisis'): Conformance resource /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JdvAccesArtereCisis_jdv-acces-artere-cisis.json - the canonical URL (https://interop.esante.gouv.fr/terminologies/ValueSet/jdv-acces-artere-cisis) does not match the URL (https://smt.esante.gouv.fr/fhir/ValueSet/jdv-acces-artere-cisis)
@@ -5637,8 +5800,8 @@ WARNING: ValueSet/jdv-defaillance-materielle-cisis: ValueSet.compose.include[0].
 INFORMATION: ValueSet/jdv-defaillance-materielle-cisis: ValueSet.compose.include[0].concept[0]: A definition for CodeSystem 'https://www.imdrf.org' could not be found, so the code cannot be validated
 WARNING: ValueSet/jdv-defaillance-materielle-cisis: ValueSet.compose.include[0]: The terminology server https://tx.fhir.org/r4 used for the CodeSystem https://www.imdrf.org does not support batch validation (tx version Not Known), so the codes have not been validated
 WARNING: ValueSet/jdv-defaillance-materielle-cisis: ValueSet.compose.include[1]: The terminology server https://smt.esante.gouv.fr/fhir used for the CodeSystem https://smt.esante.gouv.fr/terminologie-emdn does not support batch validation (tx version Not Known), so the codes have not been validated
-ERROR: ValueSet.where(id = 'jdv-defaillance-materielle-cisis'): Error from https://smt.esante.gouv.fr/fhir: Error: [b4078501-3f47-400b-bce7-3fba28846f36]: A usable code system with URL https://www.imdrf.org could not be resolved.
-Information: X-Request-Id: 433f67de-7299-479f-8620-b848eac6d606
+ERROR: ValueSet.where(id = 'jdv-defaillance-materielle-cisis'): Error from https://smt.esante.gouv.fr/fhir: Error: [71578da6-aa48-4945-81fc-8baec533edb9]: A usable code system with URL https://www.imdrf.org could not be resolved.
+Information: X-Request-Id: 712ff404-6c70-4175-a2e5-13c4f1cb73d9
 ERROR: /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JdvDefaillanceMaterielleCisis_jdv-defaillance-materielle-cisis: URL Mismatch https://interop.esante.gouv.fr/terminologies/ValueSet/jdv-defaillance-materielle-cisis vs https://smt.esante.gouv.fr/fhir/ValueSet/jdv-defaillance-materielle-cisis
 == input/ontoserver/JDV/JdvDeficiencePhysiqueCisis_jdv-deficience-physique-cisis.json ==
 ERROR: ValueSet.where(url = 'https://smt.esante.gouv.fr/fhir/ValueSet/jdv-deficience-physique-cisis'): Conformance resource /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JdvDeficiencePhysiqueCisis_jdv-deficience-physique-cisis.json - the canonical URL (https://interop.esante.gouv.fr/terminologies/ValueSet/jdv-deficience-physique-cisis) does not match the URL (https://smt.esante.gouv.fr/fhir/ValueSet/jdv-deficience-physique-cisis)
@@ -5823,8 +5986,8 @@ ERROR: /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSou
 ERROR: ValueSet.where(url = 'https://smt.esante.gouv.fr/fhir/ValueSet/jdv-gene-cisis'): Conformance resource /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JdvGeneCisis_jdv-gene-cisis.json - the canonical URL (https://interop.esante.gouv.fr/terminologies/ValueSet/jdv-gene-cisis) does not match the URL (https://smt.esante.gouv.fr/fhir/ValueSet/jdv-gene-cisis)
 INFORMATION: ValueSet/jdv-gene-cisis: ValueSet.compose.include[0].concept[0]: A definition for CodeSystem 'http://www.genenames.org/geneId' could not be found, so the code cannot be validated
 WARNING: ValueSet/jdv-gene-cisis: ValueSet.compose.include[0]: The terminology server https://tx.fhir.org/r4 used for the CodeSystem http://www.genenames.org/geneId does not support batch validation (tx version Not Known), so the codes have not been validated
-ERROR: ValueSet.where(id = 'jdv-gene-cisis'): Error from https://smt.esante.gouv.fr/fhir: Error: [f876cde8-bc1f-4d99-a9d6-cca9f2f94d9c]: A usable code system with URL http://www.genenames.org/geneId could not be resolved.
-Information: X-Request-Id: feb95f4e-f692-4118-9914-071c1e248798
+ERROR: ValueSet.where(id = 'jdv-gene-cisis'): Error from https://smt.esante.gouv.fr/fhir: Error: [f742910f-ed92-496e-b1fa-28481fe24f8d]: A usable code system with URL http://www.genenames.org/geneId could not be resolved.
+Information: X-Request-Id: 8594b675-3e18-44b7-acef-7e3de6487f29
 ERROR: /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JdvGeneCisis_jdv-gene-cisis: URL Mismatch https://interop.esante.gouv.fr/terminologies/ValueSet/jdv-gene-cisis vs https://smt.esante.gouv.fr/fhir/ValueSet/jdv-gene-cisis
 == input/ontoserver/JDV/JdvGesteReanimationNouveauNeCisis_jdv-geste-reanimation-nouveau-ne-cisis.json ==
 ERROR: ValueSet.where(url = 'https://smt.esante.gouv.fr/fhir/ValueSet/jdv-geste-reanimation-nouveau-ne-cisis'): Conformance resource /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JdvGesteReanimationNouveauNeCisis_jdv-geste-reanimation-nouveau-ne-cisis.json - the canonical URL (https://interop.esante.gouv.fr/terminologies/ValueSet/jdv-geste-reanimation-nouveau-ne-cisis) does not match the URL (https://smt.esante.gouv.fr/fhir/ValueSet/jdv-geste-reanimation-nouveau-ne-cisis)
@@ -5834,8 +5997,8 @@ ERROR: /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSou
 ERROR: ValueSet.where(url = 'https://smt.esante.gouv.fr/fhir/ValueSet/jdv-gestion-effet-secondaire-cisis'): Conformance resource /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JdvGestionEffetSecondaireCisis_jdv-gestion-effet-secondaire-cisis.json - the canonical URL (https://interop.esante.gouv.fr/terminologies/ValueSet/jdv-gestion-effet-secondaire-cisis) does not match the URL (https://smt.esante.gouv.fr/fhir/ValueSet/jdv-gestion-effet-secondaire-cisis)
 WARNING: ValueSet/jdv-gestion-effet-secondaire-cisis: ValueSet.compose.include[0].system: No definition could be found for URL value 'https://smt.esante.gouv.fr/terminologie-ncit'
 INFORMATION: ValueSet/jdv-gestion-effet-secondaire-cisis: ValueSet.compose.include[0].concept[0]: A definition for CodeSystem 'https://smt.esante.gouv.fr/terminologie-ncit' could not be found, so the code cannot be validated
-ERROR: ValueSet.where(id = 'jdv-gestion-effet-secondaire-cisis'): Error from https://smt.esante.gouv.fr/fhir: Error: [8088b794-001e-4e54-aa09-79f49745757f]: A usable code system with URL https://smt.esante.gouv.fr/terminologie-ncit could not be resolved.
-Information: X-Request-Id: d5936eb4-2203-4bfa-9508-9333c2b9dbf4
+ERROR: ValueSet.where(id = 'jdv-gestion-effet-secondaire-cisis'): Error from https://smt.esante.gouv.fr/fhir: Error: [877e5bf5-f052-43ef-8d63-aea5017785b9]: A usable code system with URL https://smt.esante.gouv.fr/terminologie-ncit could not be resolved.
+Information: X-Request-Id: 18ab51af-97d2-43fd-8a1e-8290458f421e
 ERROR: /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JdvGestionEffetSecondaireCisis_jdv-gestion-effet-secondaire-cisis: URL Mismatch https://interop.esante.gouv.fr/terminologies/ValueSet/jdv-gestion-effet-secondaire-cisis vs https://smt.esante.gouv.fr/fhir/ValueSet/jdv-gestion-effet-secondaire-cisis
 == input/ontoserver/JDV/JdvGirCisis_jdv-gir-cisis.json ==
 ERROR: ValueSet.where(url = 'https://smt.esante.gouv.fr/fhir/ValueSet/jdv-gir-cisis'): Conformance resource /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JdvGirCisis_jdv-gir-cisis.json - the canonical URL (https://interop.esante.gouv.fr/terminologies/ValueSet/jdv-gir-cisis) does not match the URL (https://smt.esante.gouv.fr/fhir/ValueSet/jdv-gir-cisis)
@@ -6098,8 +6261,8 @@ ERROR: /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSou
 ERROR: ValueSet.where(url = 'https://smt.esante.gouv.fr/fhir/ValueSet/jdv-modalite-demande-acte-imagerie-cisis'): Conformance resource /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JdvModaliteDemandeActeImagerieCisis_jdv-modalite-demande-acte-imagerie-cisis.json - the canonical URL (https://interop.esante.gouv.fr/terminologies/ValueSet/jdv-modalite-demande-acte-imagerie-cisis) does not match the URL (https://smt.esante.gouv.fr/fhir/ValueSet/jdv-modalite-demande-acte-imagerie-cisis)
 WARNING: ValueSet/jdv-modalite-demande-acte-imagerie-cisis: ValueSet.compose.include[0].system: No definition could be found for URL value 'https://smt.esante.gouv.fr/terminologie-ncit'
 INFORMATION: ValueSet/jdv-modalite-demande-acte-imagerie-cisis: ValueSet.compose.include[0].concept[0]: A definition for CodeSystem 'https://smt.esante.gouv.fr/terminologie-ncit' could not be found, so the code cannot be validated
-ERROR: ValueSet.where(id = 'jdv-modalite-demande-acte-imagerie-cisis'): Error from https://smt.esante.gouv.fr/fhir: Error: [32d51586-ea08-40d5-9e35-2d180a763db1]: A usable code system with URL https://smt.esante.gouv.fr/terminologie-ncit could not be resolved.
-Information: X-Request-Id: d1e590df-1ce6-4ca5-82ac-1902315e1524
+ERROR: ValueSet.where(id = 'jdv-modalite-demande-acte-imagerie-cisis'): Error from https://smt.esante.gouv.fr/fhir: Error: [8f395f3a-ff0d-4683-80ec-9d3fddb5198c]: A usable code system with URL https://smt.esante.gouv.fr/terminologie-ncit could not be resolved.
+Information: X-Request-Id: 99b201f6-6db2-4917-a796-fa5c4f6b11e5
 ERROR: /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JdvModaliteDemandeActeImagerieCisis_jdv-modalite-demande-acte-imagerie-cisis: URL Mismatch https://interop.esante.gouv.fr/terminologies/ValueSet/jdv-modalite-demande-acte-imagerie-cisis vs https://smt.esante.gouv.fr/fhir/ValueSet/jdv-modalite-demande-acte-imagerie-cisis
 == input/ontoserver/JDV/JdvModaliteEntreeCisis_jdv-modalite-entree-cisis.json ==
 ERROR: ValueSet.where(url = 'https://smt.esante.gouv.fr/fhir/ValueSet/jdv-modalite-entree-cisis'): Conformance resource /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JdvModaliteEntreeCisis_jdv-modalite-entree-cisis.json - the canonical URL (https://interop.esante.gouv.fr/terminologies/ValueSet/jdv-modalite-entree-cisis) does not match the URL (https://smt.esante.gouv.fr/fhir/ValueSet/jdv-modalite-entree-cisis)
@@ -6752,8 +6915,8 @@ ERROR: ValueSet.where(url = 'https://smt.esante.gouv.fr/fhir/ValueSet/jdv-traite
 WARNING: ValueSet/jdv-traitement-soins-frcp-cisis: ValueSet.compose.include[0].system: No definition could be found for URL value 'https://smt.esante.gouv.fr/terminologie-ncit'
 INFORMATION: ValueSet/jdv-traitement-soins-frcp-cisis: ValueSet.compose.include[0].concept[0]: A definition for CodeSystem 'https://smt.esante.gouv.fr/terminologie-ncit' could not be found, so the code cannot be validated
 WARNING: ValueSet/jdv-traitement-soins-frcp-cisis: ValueSet.compose.include[0]: The terminology server https://tx.fhir.org/r4 used for the CodeSystem https://smt.esante.gouv.fr/terminologie-ncit does not support batch validation (tx version Not Known), so the codes have not been validated
-ERROR: ValueSet.where(id = 'jdv-traitement-soins-frcp-cisis'): Error from https://smt.esante.gouv.fr/fhir: Error: [9eb9d8e5-7120-476c-9c29-5b22f9415230]: A usable code system with URL https://smt.esante.gouv.fr/terminologie-ncit could not be resolved.
-Information: X-Request-Id: c2522d9a-87fc-4901-abdc-585c8d352997
+ERROR: ValueSet.where(id = 'jdv-traitement-soins-frcp-cisis'): Error from https://smt.esante.gouv.fr/fhir: Error: [75959aaf-f50c-40b5-adc0-8fe61e1056be]: A usable code system with URL https://smt.esante.gouv.fr/terminologie-ncit could not be resolved.
+Information: X-Request-Id: 388ca042-fac5-47b3-bcb5-efa94e180f4b
 ERROR: /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JdvTraitementSoinsFrcpCisis_jdv-traitement-soins-frcp-cisis: URL Mismatch https://interop.esante.gouv.fr/terminologies/ValueSet/jdv-traitement-soins-frcp-cisis vs https://smt.esante.gouv.fr/fhir/ValueSet/jdv-traitement-soins-frcp-cisis
 == input/ontoserver/JDV/JdvTraitementSuiviCisis_jdv-traitement-suivi-cisis.json ==
 ERROR: ValueSet.where(url = 'https://smt.esante.gouv.fr/fhir/ValueSet/jdv-traitement-suivi-cisis'): Conformance resource /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JdvTraitementSuiviCisis_jdv-traitement-suivi-cisis.json - the canonical URL (https://interop.esante.gouv.fr/terminologies/ValueSet/jdv-traitement-suivi-cisis) does not match the URL (https://smt.esante.gouv.fr/fhir/ValueSet/jdv-traitement-suivi-cisis)
@@ -6771,8 +6934,8 @@ ERROR: ValueSet.where(url = 'https://smt.esante.gouv.fr/fhir/ValueSet/jdv-trouss
 WARNING: ValueSet/jdv-trousse-ccu-cisis: ValueSet.compose.include[1].system: No definition could be found for URL value 'https://smt.esante.gouv.fr/terminologie-tccr'
 INFORMATION: ValueSet/jdv-trousse-ccu-cisis: ValueSet.compose.include[1].concept[0]: A definition for CodeSystem 'https://smt.esante.gouv.fr/terminologie-tccr' could not be found, so the code cannot be validated
 WARNING: ValueSet/jdv-trousse-ccu-cisis: ValueSet.compose.include[1]: The terminology server https://tx.fhir.org/r4 used for the CodeSystem https://smt.esante.gouv.fr/terminologie-tccr does not support batch validation (tx version Not Known), so the codes have not been validated
-ERROR: ValueSet.where(id = 'jdv-trousse-ccu-cisis'): Error from https://smt.esante.gouv.fr/fhir: Error: [76f96a88-fe39-4e22-96e0-f249560ee136]: A usable code system with URL https://smt.esante.gouv.fr/terminologie-tccr could not be resolved.
-Information: X-Request-Id: 3097ea94-a07f-4906-b235-8bb82dbf4329
+ERROR: ValueSet.where(id = 'jdv-trousse-ccu-cisis'): Error from https://smt.esante.gouv.fr/fhir: Error: [28a19272-5313-4817-ae2b-9839a935a790]: A usable code system with URL https://smt.esante.gouv.fr/terminologie-tccr could not be resolved.
+Information: X-Request-Id: a7456966-2929-47de-a26a-1a4619cfd171
 ERROR: /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JdvTrousseCcuCisis_jdv-trousse-ccu-cisis: URL Mismatch https://interop.esante.gouv.fr/terminologies/ValueSet/jdv-trousse-ccu-cisis vs https://smt.esante.gouv.fr/fhir/ValueSet/jdv-trousse-ccu-cisis
 == input/ontoserver/JDV/JdvTumeurCisis_jdv-tumeur-cisis.json ==
 ERROR: ValueSet.where(url = 'https://smt.esante.gouv.fr/fhir/ValueSet/jdv-tumeur-cisis'): Conformance resource /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JdvTumeurCisis_jdv-tumeur-cisis.json - the canonical URL (https://interop.esante.gouv.fr/terminologies/ValueSet/jdv-tumeur-cisis) does not match the URL (https://smt.esante.gouv.fr/fhir/ValueSet/jdv-tumeur-cisis)
@@ -6929,8 +7092,8 @@ ERROR: ValueSet.where(url = 'https://smt.esante.gouv.fr/fhir/ValueSet/jdv-type-p
 WARNING: ValueSet/jdv-type-produit-sanguin-labile-cisis: ValueSet.compose.include[0].system: No definition could be found for URL value 'https://smt.esante.gouv.fr/terminologie-ncit'
 INFORMATION: ValueSet/jdv-type-produit-sanguin-labile-cisis: ValueSet.compose.include[0].concept[0]: A definition for CodeSystem 'https://smt.esante.gouv.fr/terminologie-ncit' could not be found, so the code cannot be validated
 WARNING: ValueSet/jdv-type-produit-sanguin-labile-cisis: ValueSet.compose.include[0]: The terminology server https://tx.fhir.org/r4 used for the CodeSystem https://smt.esante.gouv.fr/terminologie-ncit does not support batch validation (tx version Not Known), so the codes have not been validated
-ERROR: ValueSet.where(id = 'jdv-type-produit-sanguin-labile-cisis'): Error from https://smt.esante.gouv.fr/fhir: Error: [9d579a7e-8d0b-43c5-907f-ad45704ff7c4]: A usable code system with URL https://smt.esante.gouv.fr/terminologie-ncit could not be resolved.
-Information: X-Request-Id: 16369122-1db1-4b83-81cc-8ab27d6844c1
+ERROR: ValueSet.where(id = 'jdv-type-produit-sanguin-labile-cisis'): Error from https://smt.esante.gouv.fr/fhir: Error: [5aa4e7fa-61cc-48de-a753-006a63995ca4]: A usable code system with URL https://smt.esante.gouv.fr/terminologie-ncit could not be resolved.
+Information: X-Request-Id: 43b77064-dc55-4dd0-b978-08c37061d1ee
 ERROR: /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JdvTypeProduitSanguinLabileCisis_jdv-type-produit-sanguin-labile-cisis: URL Mismatch https://interop.esante.gouv.fr/terminologies/ValueSet/jdv-type-produit-sanguin-labile-cisis vs https://smt.esante.gouv.fr/fhir/ValueSet/jdv-type-produit-sanguin-labile-cisis
 == input/ontoserver/JDV/JdvTypeRencontreCisis_jdv-type-rencontre-cisis.json ==
 ERROR: ValueSet.where(url = 'https://smt.esante.gouv.fr/fhir/ValueSet/jdv-type-rencontre-cisis'): Conformance resource /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JdvTypeRencontreCisis_jdv-type-rencontre-cisis.json - the canonical URL (https://interop.esante.gouv.fr/terminologies/ValueSet/jdv-type-rencontre-cisis) does not match the URL (https://smt.esante.gouv.fr/fhir/ValueSet/jdv-type-rencontre-cisis)
@@ -7099,6 +7262,13 @@ ERROR: /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSou
 == input/ontoserver/JDV/TimingEvent_jdv-hl7-v3-TimingEvent-cisis.json ==
 ERROR: ValueSet.where(url = 'https://smt.esante.gouv.fr/fhir/ValueSet/jdv-hl7-v3-TimingEvent-cisis'): Conformance resource /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/TimingEvent_jdv-hl7-v3-TimingEvent-cisis.json - the canonical URL (https://interop.esante.gouv.fr/terminologies/ValueSet/jdv-hl7-v3-TimingEvent-cisis) does not match the URL (https://smt.esante.gouv.fr/fhir/ValueSet/jdv-hl7-v3-TimingEvent-cisis)
 ERROR: /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/TimingEvent_jdv-hl7-v3-TimingEvent-cisis: URL Mismatch https://interop.esante.gouv.fr/terminologies/ValueSet/jdv-hl7-v3-TimingEvent-cisis vs https://smt.esante.gouv.fr/fhir/ValueSet/jdv-hl7-v3-TimingEvent-cisis
+== input/ontoserver/JDV/VS_test_VS-test.json ==
+ERROR: ValueSet.where(url = 'https://smt.esante.gouv.fr/fhir/ValueSet/VS-test'): Conformance resource /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/VS_test_VS-test.json - the canonical URL (https://interop.esante.gouv.fr/terminologies/ValueSet/VS-test) does not match the URL (https://smt.esante.gouv.fr/fhir/ValueSet/VS-test)
+WARNING: ValueSet/VS-test: ValueSet.compose.include[0].system: No definition could be found for URL value 'https://smt.esante.gouv.fr/fhir/CodeSystem/1.2.250.1.213.1.1.4.322'
+INFORMATION: ValueSet/VS-test: ValueSet.compose.include[0].concept[0]: A definition for CodeSystem 'https://smt.esante.gouv.fr/fhir/CodeSystem/1.2.250.1.213.1.1.4.322' could not be found, so the code cannot be validated
+WARNING: ValueSet/VS-test: ValueSet.compose.include[0]: The terminology server https://tx.fhir.org/r4 used for the CodeSystem https://smt.esante.gouv.fr/fhir/CodeSystem/1.2.250.1.213.1.1.4.322 does not support batch validation (tx version Not Known), so the codes have not been validated
+WARNING: ValueSet.where(id = 'VS-test'): Error from https://tx.fhir.org/r4: Unable to provide support for code system https://smt.esante.gouv.fr/fhir/CodeSystem/1.2.250.1.213.1.1.4.322
+ERROR: /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/VS_test_VS-test: URL Mismatch https://interop.esante.gouv.fr/terminologies/ValueSet/VS-test vs https://smt.esante.gouv.fr/fhir/ValueSet/VS-test
 == input/ontoserver/JDV/ValueSet_ATC_All_vs-atc-all.json ==
 WARNING: ValueSet/vs-atc-all: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.title is mandatory, but it is not present
 INFORMATION: ValueSet.where(id = 'vs-atc-all'): The value set expansion is too large, and only a subset has been displayed
@@ -7116,8 +7286,9 @@ INFORMATION: ValueSet.where(id = 'vs-edqm-all'): The value set expansion is too 
 WARNING: ValueSet/vs-nuva-all: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.title is mandatory, but it is not present
 INFORMATION: ValueSet.where(id = 'vs-nuva-all'): The value set expansion is too large, and only a subset has been displayed
 == input/ontoserver/JDV/ValueSet_SMS_All_vs-sms-all.json ==
+WARNING: ValueSet/vs-sms-all: ValueSet.compose.include[0].system: No definition could be found for URL value 'https://smt.esante.gouv.fr/terminologie-sms'
 WARNING: ValueSet/vs-sms-all: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.title is mandatory, but it is not present
-INFORMATION: ValueSet.where(id = 'vs-sms-all'): The value set expansion is too large, and only a subset has been displayed
+WARNING: ValueSet.where(id = 'vs-sms-all'): Error from https://tx.fhir.org/r4: Unable to provide support for code system https://smt.esante.gouv.fr/terminologie-sms
 == input/ontoserver/JDV/WorkScheduleODH_jdv-hl7-v3-WorkScheduleODH-cisis.json ==
 ERROR: ValueSet.where(url = 'https://smt.esante.gouv.fr/fhir/ValueSet/jdv-hl7-v3-WorkScheduleODH-cisis'): Conformance resource /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/WorkScheduleODH_jdv-hl7-v3-WorkScheduleODH-cisis.json - the canonical URL (https://interop.esante.gouv.fr/terminologies/ValueSet/jdv-hl7-v3-WorkScheduleODH-cisis) does not match the URL (https://smt.esante.gouv.fr/fhir/ValueSet/jdv-hl7-v3-WorkScheduleODH-cisis)
 ERROR: /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/WorkScheduleODH_jdv-hl7-v3-WorkScheduleODH-cisis: URL Mismatch https://interop.esante.gouv.fr/terminologies/ValueSet/jdv-hl7-v3-WorkScheduleODH-cisis vs https://smt.esante.gouv.fr/fhir/ValueSet/jdv-hl7-v3-WorkScheduleODH-cisis
@@ -7438,55 +7609,6 @@ WARNING: CodeSystem/terminologie-cisp: CodeSystem.property[6]: The base property
 WARNING: CodeSystem/terminologie-cisp: CodeSystem.property[7]: The base property uri 'https://data.esante.gouv.fr/terminologies/cisp' is not known for the property 'criteria', so the property values can not be validated fully
 INFORMATION: CodeSystem/terminologie-cisp: CodeSystem.property[10]: This property has only a code ('imported') and not a URI, so it has no clearly defined meaning in the terminology ecosystem
 INFORMATION: CodeSystem/terminologie-cisp: CodeSystem.property[11]: This property has only a code ('root') and not a URI, so it has no clearly defined meaning in the terminology ecosystem
-== input/ontoserver/TRE/ClaDiMed.json ==
-ERROR: CodeSystem/terminologie-cladimed: CodeSystem: CodeSystem.description: minimum required = 1, but only found 0 (from http://hl7.org/fhir/StructureDefinition/shareablecodesystem|4.0.1)
-ERROR: CodeSystem/terminologie-cladimed: CodeSystem: CodeSystem.concept: minimum required = 1, but only found 0 (from http://hl7.org/fhir/StructureDefinition/shareablecodesystem|4.0.1)
-ERROR: CodeSystem/terminologie-cladimed: CodeSystem.meta.tag[0].display: Wrong Display Name 'Resource encoded in summary mode' for http://terminology.hl7.org/CodeSystem/v3-ObservationValue#SUBSETTED. There are no valid display names found for language(s) 'fr-FR'. Default display is 'subsetted'
-WARNING: CodeSystem/terminologie-cladimed: CodeSystem.identifier[1].system: No definition could be found for URL value 'https://smt.esante.gouv.fr/'
-WARNING: CodeSystem/terminologie-cladimed: CodeSystem.valueSet: A definition could not be found for Canonical URL 'https://smt.esante.gouv.fr/terminologie-cladimed?vs'
-WARNING: CodeSystem/terminologie-cladimed: CodeSystem.property[0].uri: No definition could be found for URL value 'http://purl.org/dc/elements/1.1/type'
-WARNING: CodeSystem/terminologie-cladimed: CodeSystem.property[1].uri: No definition could be found for URL value 'http://www.w3.org/2000/01/rdf-schema#comment'
-INFORMATION: CodeSystem/terminologie-cladimed: CodeSystem: CodeSystems SHOULD have a stated value for the caseSensitive element so that users know the status and meaning of the code system clearly
-INFORMATION: CodeSystem/terminologie-cladimed: CodeSystem: Review the All Codes Value Set - incomplete CodeSystems generally should not have an all codes value set specified
-WARNING: CodeSystem/terminologie-cladimed: CodeSystem: Published code systems SHOULD conform to the ShareableCodeSystem profile, which says that the element CodeSystem.description is mandatory, but it is not present
-WARNING: CodeSystem/terminologie-cladimed: CodeSystem: Published code systems SHOULD conform to the ShareableCodeSystem profile, which says that the element CodeSystem.caseSensitive is mandatory, but it is not present
-INFORMATION: CodeSystem/terminologie-cladimed: CodeSystem.property[0]: The property uri 'http://purl.org/dc/elements/1.1/type' is not known, so the property values can not be validated fully
-WARNING: CodeSystem/terminologie-cladimed: CodeSystem.property[1]: The base property uri 'http://www.w3.org/2000/01/rdf-schema' is not known for the property 'comment', so the property values can not be validated fully
-INFORMATION: CodeSystem/terminologie-cladimed: CodeSystem.property[4]: This property has only a code ('imported') and not a URI, so it has no clearly defined meaning in the terminology ecosystem
-INFORMATION: CodeSystem/terminologie-cladimed: CodeSystem.property[5]: This property has only a code ('root') and not a URI, so it has no clearly defined meaning in the terminology ecosystem
-== input/ontoserver/TRE/Dictionnaire_SMS_Substance_Management_Services_.json ==
-ERROR: CodeSystem/terminologie-sms: CodeSystem: CodeSystem.description: minimum required = 1, but only found 0 (from http://hl7.org/fhir/StructureDefinition/shareablecodesystem|4.0.1)
-ERROR: CodeSystem/terminologie-sms: CodeSystem: CodeSystem.concept: minimum required = 1, but only found 0 (from http://hl7.org/fhir/StructureDefinition/shareablecodesystem|4.0.1)
-ERROR: CodeSystem/terminologie-sms: CodeSystem.meta.tag[0].display: Wrong Display Name 'Resource encoded in summary mode' for http://terminology.hl7.org/CodeSystem/v3-ObservationValue#SUBSETTED. There are no valid display names found for language(s) 'fr-FR'. Default display is 'subsetted'
-WARNING: CodeSystem/terminologie-sms: CodeSystem.identifier[1].system: No definition could be found for URL value 'https://smt.esante.gouv.fr/'
-WARNING: CodeSystem/terminologie-sms: CodeSystem.property[0].uri: No definition could be found for URL value 'http://purl.org/dc/terms/created'
-WARNING: CodeSystem/terminologie-sms: CodeSystem.property[1].uri: No definition could be found for URL value 'http://www.w3.org/ns/adms#status'
-WARNING: CodeSystem/terminologie-sms: CodeSystem.property[2].uri: No definition could be found for URL value 'http://purl.org/dc/terms/modified'
-WARNING: CodeSystem/terminologie-sms: CodeSystem.property[3].uri: No definition could be found for URL value 'http://purl.org/dc/elements/1.1/type'
-WARNING: CodeSystem/terminologie-sms: CodeSystem.property[4].uri: No definition could be found for URL value 'http://data.esante.gouv.fr/ema/sms/domain'
-WARNING: CodeSystem/terminologie-sms: CodeSystem.property[5].uri: No definition could be found for URL value 'http://data.esante.gouv.fr/ema/sms/nameSource'
-WARNING: CodeSystem/terminologie-sms: CodeSystem.property[6].uri: No definition could be found for URL value 'http://data.esante.gouv.fr/ema/sms/extarnalCodeXEVMPD'
-WARNING: CodeSystem/terminologie-sms: CodeSystem.property[7].uri: No definition could be found for URL value 'http://data.esante.gouv.fr/ema/sms/inchikey'
-WARNING: CodeSystem/terminologie-sms: CodeSystem.property[8].uri: No definition could be found for URL value 'http://data.esante.gouv.fr/ema/sms/molecularFormula'
-WARNING: CodeSystem/terminologie-sms: CodeSystem.property[9].uri: No definition could be found for URL value 'http://data.esante.gouv.fr/ema/sms/molecularWeight'
-WARNING: CodeSystem/terminologie-sms: CodeSystem.property[10].uri: No definition could be found for URL value 'http://www.w3.org/2000/01/rdf-schema#comment'
-INFORMATION: CodeSystem/terminologie-sms: CodeSystem: CodeSystems SHOULD have a stated value for the caseSensitive element so that users know the status and meaning of the code system clearly
-INFORMATION: CodeSystem/terminologie-sms: CodeSystem: Review the All Codes Value Set - incomplete CodeSystems generally should not have an all codes value set specified
-WARNING: CodeSystem/terminologie-sms: CodeSystem: Published code systems SHOULD conform to the ShareableCodeSystem profile, which says that the element CodeSystem.description is mandatory, but it is not present
-WARNING: CodeSystem/terminologie-sms: CodeSystem: Published code systems SHOULD conform to the ShareableCodeSystem profile, which says that the element CodeSystem.caseSensitive is mandatory, but it is not present
-INFORMATION: CodeSystem/terminologie-sms: CodeSystem.property[0]: The property uri 'http://purl.org/dc/terms/created' is not known, so the property values can not be validated fully
-WARNING: CodeSystem/terminologie-sms: CodeSystem.property[1]: The base property uri 'http://www.w3.org/ns/adms' is not known for the property 'status', so the property values can not be validated fully
-INFORMATION: CodeSystem/terminologie-sms: CodeSystem.property[2]: The property uri 'http://purl.org/dc/terms/modified' is not known, so the property values can not be validated fully
-INFORMATION: CodeSystem/terminologie-sms: CodeSystem.property[3]: The property uri 'http://purl.org/dc/elements/1.1/type' is not known, so the property values can not be validated fully
-INFORMATION: CodeSystem/terminologie-sms: CodeSystem.property[4]: The property uri 'http://data.esante.gouv.fr/ema/sms/domain' is not known, so the property values can not be validated fully
-INFORMATION: CodeSystem/terminologie-sms: CodeSystem.property[5]: The property uri 'http://data.esante.gouv.fr/ema/sms/nameSource' is not known, so the property values can not be validated fully
-INFORMATION: CodeSystem/terminologie-sms: CodeSystem.property[6]: The property uri 'http://data.esante.gouv.fr/ema/sms/extarnalCodeXEVMPD' is not known, so the property values can not be validated fully
-INFORMATION: CodeSystem/terminologie-sms: CodeSystem.property[7]: The property uri 'http://data.esante.gouv.fr/ema/sms/inchikey' is not known, so the property values can not be validated fully
-INFORMATION: CodeSystem/terminologie-sms: CodeSystem.property[8]: The property uri 'http://data.esante.gouv.fr/ema/sms/molecularFormula' is not known, so the property values can not be validated fully
-INFORMATION: CodeSystem/terminologie-sms: CodeSystem.property[9]: The property uri 'http://data.esante.gouv.fr/ema/sms/molecularWeight' is not known, so the property values can not be validated fully
-WARNING: CodeSystem/terminologie-sms: CodeSystem.property[10]: The base property uri 'http://www.w3.org/2000/01/rdf-schema' is not known for the property 'comment', so the property values can not be validated fully
-INFORMATION: CodeSystem/terminologie-sms: CodeSystem.property[13]: This property has only a code ('imported') and not a URI, so it has no clearly defined meaning in the terminology ecosystem
-INFORMATION: CodeSystem/terminologie-sms: CodeSystem.property[14]: This property has only a code ('root') and not a URI, so it has no clearly defined meaning in the terminology ecosystem
 == input/ontoserver/TRE/EMDN.json ==
 ERROR: CodeSystem/terminologie-emdn: CodeSystem: CodeSystem.description: minimum required = 1, but only found 0 (from http://hl7.org/fhir/StructureDefinition/shareablecodesystem|4.0.1)
 ERROR: CodeSystem/terminologie-emdn: CodeSystem: CodeSystem.concept: minimum required = 1, but only found 0 (from http://hl7.org/fhir/StructureDefinition/shareablecodesystem|4.0.1)
@@ -7618,20 +7740,20 @@ WARNING: CodeSystem/terminologie-SERAFINPH: CodeSystem.property[5]: The base pro
 INFORMATION: CodeSystem/terminologie-SERAFINPH: CodeSystem.property[8]: This property has only a code ('imported') and not a URI, so it has no clearly defined meaning in the terminology ecosystem
 INFORMATION: CodeSystem/terminologie-SERAFINPH: CodeSystem.property[9]: This property has only a code ('root') and not a URI, so it has no clearly defined meaning in the terminology ecosystem
 == input/ontoserver/TRE/SNOMED_CT.json ==
-ERROR: CodeSystem/900000000000207008-20250901: CodeSystem.contained[0]/*Provenance/1*/.target[0]: Unable to resolve resource with reference '900000000000207008-20250901'
-INFORMATION: CodeSystem/900000000000207008-20250901: CodeSystem.contained[0]/*Provenance/1*/.activity: Reference to experimental CodeSystem http://hl7.org/fhir/w3c-provenance-activity-type|4.0.1
-INFORMATION: CodeSystem/900000000000207008-20250901: CodeSystem.contained[0]/*Provenance/1*/.agent[0].role[0]: Reference to experimental CodeSystem http://terminology.hl7.org/CodeSystem/extra-security-role-type|1.0.1
-ERROR: CodeSystem/900000000000207008-20250901: CodeSystem.extension[0]: The extension http://ontoserver.csiro.au/profiles/cs-provenance could not be found so is not allowed here
-WARNING: CodeSystem/900000000000207008-20250901: CodeSystem.extension[0].url: No definition could be found for URL value 'http://ontoserver.csiro.au/profiles/cs-provenance'
-INFORMATION: CodeSystem/900000000000207008-20250901: CodeSystem: Review the All Codes Value Set - incomplete CodeSystems generally should not have an all codes value set specified
-WARNING: CodeSystem/900000000000207008-20250901: CodeSystem.property[0]: This property has only the standard code ('inactive') but not the standard URI 'http://hl7.org/fhir/concept-properties#inactive', so it has no clearly defined meaning in the terminology ecosystem
-INFORMATION: CodeSystem/900000000000207008-20250901: CodeSystem.property[1]: This property has only a code ('sufficientlyDefined') and not a URI, so it has no clearly defined meaning in the terminology ecosystem
-INFORMATION: CodeSystem/900000000000207008-20250901: CodeSystem.property[2]: The type of property 'code' is 'code', but no ValueSet information was found, so the codes will be validated as internal codes
-WARNING: CodeSystem/900000000000207008-20250901: CodeSystem.property[2]: This property has only the standard code ('parent') but not the standard URI 'http://hl7.org/fhir/concept-properties#parent', so it has no clearly defined meaning in the terminology ecosystem
-INFORMATION: CodeSystem/900000000000207008-20250901: CodeSystem.property[3]: The type of property 'code' is 'code', but no ValueSet information was found, so the codes will be validated as internal codes
-WARNING: CodeSystem/900000000000207008-20250901: CodeSystem.property[3]: This property has only the standard code ('child') but not the standard URI 'http://hl7.org/fhir/concept-properties#child', so it has no clearly defined meaning in the terminology ecosystem
-INFORMATION: CodeSystem/900000000000207008-20250901: CodeSystem.property[4]: The type of property 'code' is 'code', but no ValueSet information was found, so the codes will be validated as internal codes
-INFORMATION: CodeSystem/900000000000207008-20250901: CodeSystem.property[4]: This property has only a code ('moduleId') and not a URI, so it has no clearly defined meaning in the terminology ecosystem
+ERROR: CodeSystem/900000000000207008-20251001: CodeSystem.contained[0]/*Provenance/1*/.target[0]: Unable to resolve resource with reference '900000000000207008-20251001'
+INFORMATION: CodeSystem/900000000000207008-20251001: CodeSystem.contained[0]/*Provenance/1*/.activity: Reference to experimental CodeSystem http://hl7.org/fhir/w3c-provenance-activity-type|4.0.1
+INFORMATION: CodeSystem/900000000000207008-20251001: CodeSystem.contained[0]/*Provenance/1*/.agent[0].role[0]: Reference to experimental CodeSystem http://terminology.hl7.org/CodeSystem/extra-security-role-type|1.0.1
+ERROR: CodeSystem/900000000000207008-20251001: CodeSystem.extension[0]: The extension http://ontoserver.csiro.au/profiles/cs-provenance could not be found so is not allowed here
+WARNING: CodeSystem/900000000000207008-20251001: CodeSystem.extension[0].url: No definition could be found for URL value 'http://ontoserver.csiro.au/profiles/cs-provenance'
+INFORMATION: CodeSystem/900000000000207008-20251001: CodeSystem: Review the All Codes Value Set - incomplete CodeSystems generally should not have an all codes value set specified
+WARNING: CodeSystem/900000000000207008-20251001: CodeSystem.property[0]: This property has only the standard code ('inactive') but not the standard URI 'http://hl7.org/fhir/concept-properties#inactive', so it has no clearly defined meaning in the terminology ecosystem
+INFORMATION: CodeSystem/900000000000207008-20251001: CodeSystem.property[1]: This property has only a code ('sufficientlyDefined') and not a URI, so it has no clearly defined meaning in the terminology ecosystem
+INFORMATION: CodeSystem/900000000000207008-20251001: CodeSystem.property[2]: The type of property 'code' is 'code', but no ValueSet information was found, so the codes will be validated as internal codes
+WARNING: CodeSystem/900000000000207008-20251001: CodeSystem.property[2]: This property has only the standard code ('parent') but not the standard URI 'http://hl7.org/fhir/concept-properties#parent', so it has no clearly defined meaning in the terminology ecosystem
+INFORMATION: CodeSystem/900000000000207008-20251001: CodeSystem.property[3]: The type of property 'code' is 'code', but no ValueSet information was found, so the codes will be validated as internal codes
+WARNING: CodeSystem/900000000000207008-20251001: CodeSystem.property[3]: This property has only the standard code ('child') but not the standard URI 'http://hl7.org/fhir/concept-properties#child', so it has no clearly defined meaning in the terminology ecosystem
+INFORMATION: CodeSystem/900000000000207008-20251001: CodeSystem.property[4]: The type of property 'code' is 'code', but no ValueSet information was found, so the codes will be validated as internal codes
+INFORMATION: CodeSystem/900000000000207008-20251001: CodeSystem.property[4]: This property has only a code ('moduleId') and not a URI, so it has no clearly defined meaning in the terminology ecosystem
 == input/ontoserver/TRE/ServiceType.json ==
 == input/ontoserver/TRE/Standard_terms_EDQM.json ==
 ERROR: CodeSystem/terminologie-standardterms: CodeSystem: CodeSystem.description: minimum required = 1, but only found 0 (from http://hl7.org/fhir/StructureDefinition/shareablecodesystem|4.0.1)
@@ -8001,11 +8123,13 @@ INFORMATION: CodeSystem/TRE-R210-ActeSpecifique: CodeSystem.property[0]: This pr
 INFORMATION: CodeSystem/TRE-R210-ActeSpecifique: CodeSystem.property[1]: This property has only a code ('dateMaj') and not a URI, so it has no clearly defined meaning in the terminology ecosystem
 INFORMATION: CodeSystem/TRE-R210-ActeSpecifique: CodeSystem.property[2]: This property has only a code ('dateFin') and not a URI, so it has no clearly defined meaning in the terminology ecosystem
 == input/ontoserver/TRE/TRE_R211_ActiviteOperationnelle.json ==
+ERROR: CodeSystem.text.div: Resource has provided narrative, but the narrative indicates that it is generated - remove the narrative or fix it up
 WARNING: CodeSystem/TRE-R211-ActiviteOperationnelle: CodeSystem: Published code systems SHOULD conform to the ShareableCodeSystem profile, which says that the element CodeSystem.title is mandatory, but it is not present
 INFORMATION: CodeSystem/TRE-R211-ActiviteOperationnelle: CodeSystem.property[0]: This property has only a code ('dateValid') and not a URI, so it has no clearly defined meaning in the terminology ecosystem
 INFORMATION: CodeSystem/TRE-R211-ActiviteOperationnelle: CodeSystem.property[1]: This property has only a code ('dateMaj') and not a URI, so it has no clearly defined meaning in the terminology ecosystem
 INFORMATION: CodeSystem/TRE-R211-ActiviteOperationnelle: CodeSystem.property[2]: This property has only a code ('dateFin') and not a URI, so it has no clearly defined meaning in the terminology ecosystem
 == input/ontoserver/TRE/TRE_R213_ModePriseEnCharge.json ==
+ERROR: CodeSystem.text.div: Resource has provided narrative, but the narrative indicates that it is generated - remove the narrative or fix it up
 WARNING: CodeSystem/TRE-R213-ModePriseEnCharge: CodeSystem: Published code systems SHOULD conform to the ShareableCodeSystem profile, which says that the element CodeSystem.title is mandatory, but it is not present
 INFORMATION: CodeSystem/TRE-R213-ModePriseEnCharge: CodeSystem.property[0]: This property has only a code ('dateValid') and not a URI, so it has no clearly defined meaning in the terminology ecosystem
 INFORMATION: CodeSystem/TRE-R213-ModePriseEnCharge: CodeSystem.property[1]: This property has only a code ('dateMaj') and not a URI, so it has no clearly defined meaning in the terminology ecosystem
@@ -8166,6 +8290,7 @@ INFORMATION: CodeSystem/TRE-R243-CompetenceSpecifique: CodeSystem.property[0]: T
 INFORMATION: CodeSystem/TRE-R243-CompetenceSpecifique: CodeSystem.property[1]: This property has only a code ('dateMaj') and not a URI, so it has no clearly defined meaning in the terminology ecosystem
 INFORMATION: CodeSystem/TRE-R243-CompetenceSpecifique: CodeSystem.property[2]: This property has only a code ('dateFin') and not a URI, so it has no clearly defined meaning in the terminology ecosystem
 == input/ontoserver/TRE/TRE_R244_CategorieOrganisation.json ==
+ERROR: CodeSystem.text.div: Resource has provided narrative, but the narrative indicates that it is generated - remove the narrative or fix it up
 WARNING: CodeSystem/TRE-R244-CategorieOrganisation: CodeSystem: Published code systems SHOULD conform to the ShareableCodeSystem profile, which says that the element CodeSystem.title is mandatory, but it is not present
 INFORMATION: CodeSystem/TRE-R244-CategorieOrganisation: CodeSystem.property[0]: This property has only a code ('dateValid') and not a URI, so it has no clearly defined meaning in the terminology ecosystem
 INFORMATION: CodeSystem/TRE-R244-CategorieOrganisation: CodeSystem.property[1]: This property has only a code ('dateMaj') and not a URI, so it has no clearly defined meaning in the terminology ecosystem
@@ -8466,6 +8591,7 @@ INFORMATION: CodeSystem/TRE-R331-TemporaliteCapacite: CodeSystem.property[0]: Th
 INFORMATION: CodeSystem/TRE-R331-TemporaliteCapacite: CodeSystem.property[1]: This property has only a code ('dateMaj') and not a URI, so it has no clearly defined meaning in the terminology ecosystem
 INFORMATION: CodeSystem/TRE-R331-TemporaliteCapacite: CodeSystem.property[2]: This property has only a code ('dateFin') and not a URI, so it has no clearly defined meaning in the terminology ecosystem
 == input/ontoserver/TRE/TRE_R332_GenreCapacite.json ==
+ERROR: CodeSystem.text.div: Resource has provided narrative, but the narrative indicates that it is generated - remove the narrative or fix it up
 WARNING: CodeSystem/TRE-R332-GenreCapacite: CodeSystem: Published code systems SHOULD conform to the ShareableCodeSystem profile, which says that the element CodeSystem.title is mandatory, but it is not present
 INFORMATION: CodeSystem/TRE-R332-GenreCapacite: CodeSystem.property[0]: This property has only a code ('dateValid') and not a URI, so it has no clearly defined meaning in the terminology ecosystem
 INFORMATION: CodeSystem/TRE-R332-GenreCapacite: CodeSystem.property[1]: This property has only a code ('dateMaj') and not a URI, so it has no clearly defined meaning in the terminology ecosystem
@@ -8496,6 +8622,7 @@ INFORMATION: CodeSystem/TRE-R337-AffectationTemporaire: CodeSystem.property[0]: 
 INFORMATION: CodeSystem/TRE-R337-AffectationTemporaire: CodeSystem.property[1]: This property has only a code ('dateMaj') and not a URI, so it has no clearly defined meaning in the terminology ecosystem
 INFORMATION: CodeSystem/TRE-R337-AffectationTemporaire: CodeSystem.property[2]: This property has only a code ('dateFin') and not a URI, so it has no clearly defined meaning in the terminology ecosystem
 == input/ontoserver/TRE/TRE_R338_ModaliteAccueil.json ==
+ERROR: CodeSystem.text.div: Resource has provided narrative, but the narrative indicates that it is generated - remove the narrative or fix it up
 WARNING: CodeSystem/TRE-R338-ModaliteAccueil: CodeSystem: Published code systems SHOULD conform to the ShareableCodeSystem profile, which says that the element CodeSystem.title is mandatory, but it is not present
 INFORMATION: CodeSystem/TRE-R338-ModaliteAccueil: CodeSystem.property[0]: This property has only a code ('dateValid') and not a URI, so it has no clearly defined meaning in the terminology ecosystem
 INFORMATION: CodeSystem/TRE-R338-ModaliteAccueil: CodeSystem.property[1]: This property has only a code ('dateMaj') and not a URI, so it has no clearly defined meaning in the terminology ecosystem
@@ -8571,6 +8698,7 @@ INFORMATION: CodeSystem/TRE-R355-TypeIdentifiantOffre: CodeSystem.property[0]: T
 INFORMATION: CodeSystem/TRE-R355-TypeIdentifiantOffre: CodeSystem.property[1]: This property has only a code ('dateMaj') and not a URI, so it has no clearly defined meaning in the terminology ecosystem
 INFORMATION: CodeSystem/TRE-R355-TypeIdentifiantOffre: CodeSystem.property[2]: This property has only a code ('dateFin') and not a URI, so it has no clearly defined meaning in the terminology ecosystem
 == input/ontoserver/TRE/TRE_R356_ProfessionRessource.json ==
+ERROR: CodeSystem.text.div: Resource has provided narrative, but the narrative indicates that it is generated - remove the narrative or fix it up
 WARNING: CodeSystem/TRE-R356-ProfessionRessource: CodeSystem: Published code systems SHOULD conform to the ShareableCodeSystem profile, which says that the element CodeSystem.title is mandatory, but it is not present
 INFORMATION: CodeSystem/TRE-R356-ProfessionRessource: CodeSystem.property[0]: This property has only a code ('dateValid') and not a URI, so it has no clearly defined meaning in the terminology ecosystem
 INFORMATION: CodeSystem/TRE-R356-ProfessionRessource: CodeSystem.property[1]: This property has only a code ('dateMaj') and not a URI, so it has no clearly defined meaning in the terminology ecosystem
@@ -8596,6 +8724,7 @@ INFORMATION: CodeSystem/TRE-R35-TypeVoie: CodeSystem.property[0]: This property 
 INFORMATION: CodeSystem/TRE-R35-TypeVoie: CodeSystem.property[1]: This property has only a code ('dateMaj') and not a URI, so it has no clearly defined meaning in the terminology ecosystem
 INFORMATION: CodeSystem/TRE-R35-TypeVoie: CodeSystem.property[2]: This property has only a code ('dateFin') and not a URI, so it has no clearly defined meaning in the terminology ecosystem
 == input/ontoserver/TRE/TRE_R368_StatutRessource.json ==
+ERROR: CodeSystem.text.div: Resource has provided narrative, but the narrative indicates that it is generated - remove the narrative or fix it up
 WARNING: CodeSystem/TRE-R368-StatutRessource: CodeSystem: Published code systems SHOULD conform to the ShareableCodeSystem profile, which says that the element CodeSystem.title is mandatory, but it is not present
 INFORMATION: CodeSystem/TRE-R368-StatutRessource: CodeSystem.property[0]: This property has only a code ('dateValid') and not a URI, so it has no clearly defined meaning in the terminology ecosystem
 INFORMATION: CodeSystem/TRE-R368-StatutRessource: CodeSystem.property[1]: This property has only a code ('dateMaj') and not a URI, so it has no clearly defined meaning in the terminology ecosystem
@@ -8713,6 +8842,7 @@ INFORMATION: CodeSystem/TRE-R57-DiplomeEuropeenEtudeSpecialisee: CodeSystem.prop
 INFORMATION: CodeSystem/TRE-R57-DiplomeEuropeenEtudeSpecialisee: CodeSystem.property[1]: This property has only a code ('dateMaj') and not a URI, so it has no clearly defined meaning in the terminology ecosystem
 INFORMATION: CodeSystem/TRE-R57-DiplomeEuropeenEtudeSpecialisee: CodeSystem.property[2]: This property has only a code ('dateFin') and not a URI, so it has no clearly defined meaning in the terminology ecosystem
 == input/ontoserver/TRE/TRE_R58_AutreTypeDiplome.json ==
+ERROR: CodeSystem.text.div: Resource has provided narrative, but the narrative indicates that it is generated - remove the narrative or fix it up
 WARNING: CodeSystem/TRE-R58-AutreTypeDiplome: CodeSystem: Published code systems SHOULD conform to the ShareableCodeSystem profile, which says that the element CodeSystem.title is mandatory, but it is not present
 INFORMATION: CodeSystem/TRE-R58-AutreTypeDiplome: CodeSystem.property[0]: This property has only a code ('dateValid') and not a URI, so it has no clearly defined meaning in the terminology ecosystem
 INFORMATION: CodeSystem/TRE-R58-AutreTypeDiplome: CodeSystem.property[1]: This property has only a code ('dateMaj') and not a URI, so it has no clearly defined meaning in the terminology ecosystem
@@ -8753,6 +8883,7 @@ INFORMATION: CodeSystem/TRE-R84-ProfilAccesAnnuaire-MSSante: CodeSystem.property
 INFORMATION: CodeSystem/TRE-R84-ProfilAccesAnnuaire-MSSante: CodeSystem.property[1]: This property has only a code ('dateMaj') and not a URI, so it has no clearly defined meaning in the terminology ecosystem
 INFORMATION: CodeSystem/TRE-R84-ProfilAccesAnnuaire-MSSante: CodeSystem.property[2]: This property has only a code ('dateFin') and not a URI, so it has no clearly defined meaning in the terminology ecosystem
 == input/ontoserver/TRE/TRE_R85_RolePriseCharge.json ==
+ERROR: CodeSystem.text.div: Resource has provided narrative, but the narrative indicates that it is generated - remove the narrative or fix it up
 WARNING: CodeSystem/TRE-R85-RolePriseCharge: CodeSystem: Published code systems SHOULD conform to the ShareableCodeSystem profile, which says that the element CodeSystem.title is mandatory, but it is not present
 INFORMATION: CodeSystem/TRE-R85-RolePriseCharge: CodeSystem.property[0]: This property has only a code ('dateValid') and not a URI, so it has no clearly defined meaning in the terminology ecosystem
 INFORMATION: CodeSystem/TRE-R85-RolePriseCharge: CodeSystem.property[1]: This property has only a code ('dateMaj') and not a URI, so it has no clearly defined meaning in the terminology ecosystem

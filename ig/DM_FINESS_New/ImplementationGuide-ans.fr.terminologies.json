@@ -33212,17 +33212,6 @@
         "valueString" : "CodeSystem"
       }],
       "reference" : {
-        "reference" : "CodeSystem/terminologie-cladimed"
-      },
-      "name" : "Classification des dispositifs médicaux",
-      "exampleBoolean" : false
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "CodeSystem"
-      }],
-      "reference" : {
         "reference" : "CodeSystem/terminologie-cim-10"
       },
       "name" : "Classification internationale des maladies et des problèmes de santé connexes - 10ème révision - Version française à usage PMSI (Programme Médicalisé des Systèmes d'Information)",
@@ -33308,17 +33297,6 @@
       },
       "name" : "Designation Use",
       "description" : "Details of how a designation would be used",
-      "exampleBoolean" : false
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "CodeSystem"
-      }],
-      "reference" : {
-        "reference" : "CodeSystem/terminologie-sms"
-      },
-      "name" : "Dictionnaire européen multilingue des substances entrant dans la composition de médicaments",
       "exampleBoolean" : false
     },
     {
@@ -40312,7 +40290,7 @@
         "reference" : "ValueSet/JDV-J185-TypeFermeture-ROR"
       },
       "name" : "JDV_J185_TypeFermeture_ROR",
-      "description" : "Destination d'usage du lieu pour le lieu de réalisation de l'offre.",
+      "description" : "Les seules valeurs acceptées par le ROR pour les Organisations internes et les offres",
       "exampleBoolean" : false
     },
     {
@@ -40528,7 +40506,7 @@
         "reference" : "ValueSet/JDV-J201-TypeFermeture-ROR"
       },
       "name" : "JDV_J201_TypeFermeture_ROR",
-      "description" : "Type de fermeture, codes provenant du FINESS pour les EJ et EG",
+      "description" : "Différentes valeurs de type de fermeture que peuvent envoyer FINESS au ROR (il en existe davantage)",
       "exampleBoolean" : false
     },
     {
@@ -42486,7 +42464,7 @@
         "valueString" : "CodeSystem"
       }],
       "reference" : {
-        "reference" : "CodeSystem/900000000000207008-20250901"
+        "reference" : "CodeSystem/900000000000207008-20251001"
       },
       "name" : "SNOMED CT core",
       "description" : "SNOMED CT is the most comprehensive and precise clinical health terminology product in the world, owned and distributed around the world by The International Health Terminology Standards Development Organisation (IHTSDO).",
@@ -46564,6 +46542,18 @@
       },
       "name" : "Vs Tre R74 Mode Fixation Tarifaire All",
       "description" : "Jeu de valeurs ALL contenant les modes de fixation tarifaire",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      }],
+      "reference" : {
+        "reference" : "ValueSet/VS-test"
+      },
+      "name" : "VS-test",
+      "description" : "VS-test",
       "exampleBoolean" : false
     },
     {

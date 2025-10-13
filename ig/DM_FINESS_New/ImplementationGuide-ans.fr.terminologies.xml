@@ -24269,16 +24269,6 @@
         <valueString value="CodeSystem"/>
       </extension>
       <reference>
-        <reference value="CodeSystem/terminologie-cladimed"/>
-      </reference>
-      <name value="Classification des dispositifs médicaux"/>
-      <exampleBoolean value="false"/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="CodeSystem"/>
-      </extension>
-      <reference>
         <reference value="CodeSystem/terminologie-cim-10"/>
       </reference>
       <name value="Classification internationale des maladies et des problèmes de santé connexes - 10ème révision - Version française à usage PMSI (Programme Médicalisé des Systèmes d'Information)"/>
@@ -24357,16 +24347,6 @@
       </reference>
       <name value="Designation Use"/>
       <description value="Details of how a designation would be used"/>
-      <exampleBoolean value="false"/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="CodeSystem"/>
-      </extension>
-      <reference>
-        <reference value="CodeSystem/terminologie-sms"/>
-      </reference>
-      <name value="Dictionnaire européen multilingue des substances entrant dans la composition de médicaments"/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -30777,7 +30757,7 @@
         <reference value="ValueSet/JDV-J185-TypeFermeture-ROR"/>
       </reference>
       <name value="JDV_J185_TypeFermeture_ROR"/>
-      <description value="Destination d'usage du lieu pour le lieu de réalisation de l'offre."/>
+      <description value="Les seules valeurs acceptées par le ROR pour les Organisations internes et les offres"/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -30975,7 +30955,7 @@
         <reference value="ValueSet/JDV-J201-TypeFermeture-ROR"/>
       </reference>
       <name value="JDV_J201_TypeFermeture_ROR"/>
-      <description value="Type de fermeture, codes provenant du FINESS pour les EJ et EG"/>
+      <description value="Différentes valeurs de type de fermeture que peuvent envoyer FINESS au ROR (il en existe davantage)"/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -32769,7 +32749,7 @@
         <valueString value="CodeSystem"/>
       </extension>
       <reference>
-        <reference value="CodeSystem/900000000000207008-20250901"/>
+        <reference value="CodeSystem/900000000000207008-20251001"/>
       </reference>
       <name value="SNOMED CT core"/>
       <description value="SNOMED CT is the most comprehensive and precise clinical health terminology product in the world, owned and distributed around the world by The International Health Terminology Standards Development Organisation (IHTSDO)."/>
@@ -36507,6 +36487,17 @@
       </reference>
       <name value="Vs Tre R74 Mode Fixation Tarifaire All"/>
       <description value="Jeu de valeurs ALL contenant les modes de fixation tarifaire"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/VS-test"/>
+      </reference>
+      <name value="VS-test"/>
+      <description value="VS-test"/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
