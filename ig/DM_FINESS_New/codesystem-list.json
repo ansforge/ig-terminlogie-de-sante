@@ -1,6 +1,15 @@
 {
   "codeSystems" : [
     {
+      "url" : "http://hl7.org/fhir/us/example/CodeSystem/tre-r389-statut-bilan-projet-personnalise",
+      "version" : "20250418120000",
+      "status" : "active",
+      "name" : "TreR389StatutBilanProjetPersonnalise",
+      "title" : "Tre R389 Statut Bilan Projet Personnalise",
+      "description" : "Statut du bilan du projet personnalisé.",
+      "oids" : ["1.2.250.1.213.3.3.257"]
+    },
+    {
       "url" : "http://snomed.info/sct",
       "version" : "http://snomed.info/sct/900000000000207008/version/20251001",
       "status" : "active",
@@ -2510,15 +2519,6 @@
       "title" : "Tre R388 Type Logement",
       "description" : "Nomenclature des types de logement associées aux capacités Remarque : cette nomenclature est initialisée avec les besoins FINESS+",
       "oids" : ["1.2.250.1.213.1.6.1.303"]
-    },
-    {
-      "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r389-statut-bilan-projet-personnalise",
-      "version" : "20250418120000",
-      "status" : "active",
-      "name" : "TreR389StatutBilanProjetPersonnalise",
-      "title" : "Tre R389 Statut Bilan Projet Personnalise",
-      "description" : "Statut du bilan du projet personnalisé.",
-      "oids" : ["1.2.250.1.213.3.3.257"]
     },
     {
       "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r390-type-projet-personnalise",

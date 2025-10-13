@@ -8,6 +8,14 @@
     "oids" : ["2.16.840.1.113883.4.642.3.264"]
   },
   {
+    "id" : "tre-r389-statut-bilan-projet-personnalise",
+    "type" : "CodeSystem",
+    "url" : "http://hl7.org/fhir/us/example/CodeSystem/tre-r389-statut-bilan-projet-personnalise",
+    "version" : "20250418120000",
+    "name" : "TreR389StatutBilanProjetPersonnalise",
+    "oids" : ["1.2.250.1.213.3.3.257"]
+  },
+  {
     "id" : "900000000000207008-20251001",
     "type" : "CodeSystem",
     "url" : "http://snomed.info/sct",
@@ -4932,14 +4940,6 @@
     "version" : "20250222120000",
     "name" : "VsTreR388TypeLogementAll",
     "oids" : ["1.2.250.1.213.1.6.1.364"]
-  },
-  {
-    "id" : "tre-r389-statut-bilan-projet-personnalise",
-    "type" : "CodeSystem",
-    "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r389-statut-bilan-projet-personnalise",
-    "version" : "20250418120000",
-    "name" : "TreR389StatutBilanProjetPersonnalise",
-    "oids" : ["1.2.250.1.213.3.3.257"]
   },
   {
     "id" : "tre-r390-type-projet-personnalise",
