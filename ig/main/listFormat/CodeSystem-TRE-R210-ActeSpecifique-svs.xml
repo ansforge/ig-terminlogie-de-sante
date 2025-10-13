@@ -13481,7 +13481,7 @@
                   dateValid="20250328120000"
                   displayName="Accompagnement ergothérapique auprès des proches aidants (proches et professionnels) : apprentissage de techniques d'accompagnement"
                   longDesignation="Accompagnement ergothérapique auprès des proches aidants (proches et professionnels) : apprentissage de techniques d’accompagnement en Accompagnement ergothérapique auprès des proches aidants"
-                  shortDesignation="Accompagnement ergothérapique auprès des proches aidants (proches et professionnels) : apprentissage de techniques d'accompagnement"
+                  shortDesignation="Accompagnement ergothérapique auprès des proches aidants (proches et professionnels) : apprentissa"
                   descriptionMetier="Apprentissage de techniques d’accompagnement ergothérapique qui vise à améliorer la compréhension de l’impact de la pathologie dans le quotidien et à mettre en place des stratégies d’adaptation visant l’amélioration de la qualité de vie et la participation.  Cet accompagnement inclut l’évaluation des compétences, l’orientation professionnelle, la formation, l’adaptation des postes de travail et la coordination avec les acteurs médico-sociaux, afin de favoriser une intégration professionnelle durable et adaptée aux capacités de la personne.Cette orientation est étayée par la réalisation de formations continues spécifiques auprès de cette population (appuyées de données probantes) et d’une expérience professionnelle"/>
          <Concept code="1499"
                   codeSystem="1.2.250.1.213.3.3.11"
@@ -13499,7 +13499,7 @@
                   dateValid="20250328120000"
                   displayName="Accompagnement ergothérapique dans le cadre de maladies neuro-évolutives (SLA, SEP, Parkinson, Alzheimer, PNM)"
                   longDesignation="Accompagnement ergothérapique dans le cadre de maladies neuro-évolutives (SLA, SEP, Parkinson, Alzheimer, PNM)"
-                  shortDesignation="Accompagnement ergothérapique dans le cadre de maladies neuro-évolutives (SLA, SEP, Parkinson, Alzheimer, PNM)"
+                  shortDesignation="Accompagnement ergothérapique dans le cadre de maladies neuro-évolutives (SLA, SEP, Parkinson, Alz"
                   descriptionMetier="Accompagnement ergothérapeutique qui vise à maintenir l’autonomie et la qualité de vie des patients en adaptant leur environnement, en proposant des aides techniques et en compensant les déficits fonctionnels. Cet accompagnement inclut l’évaluation des compétences, l’orientation professionnelle, la formation, l’adaptation des postes de travail et la coordination avec les acteurs médico-sociaux, afin de favoriser une intégration professionnelle durable et adaptée aux capacités de la personne."/>
          <Concept code="1501"
                   codeSystem="1.2.250.1.213.3.3.11"
@@ -13526,7 +13526,7 @@
                   dateValid="20250328120000"
                   displayName="Accompagnement ergothérapique de rééducation/réadaptation en situation de vie quotidienne post-hospitalisation (RAD)"
                   longDesignation="Accompagnement ergothérapique de rééducation/réadaptation en situation de vie quotidienne post-hospitalisation (RAD)"
-                  shortDesignation="Accompagnement ergothérapique de rééducation/réadaptation en situation de vie quotidienne post-hospitalisation (RAD)"
+                  shortDesignation="Accompagnement ergothérapique de rééducation/réadaptation en situation de vie quotidienne post-hos"
                   descriptionMetier="Intervention d’un ergothérapeute visant à favoriser l’autonomie et la sécurité du patient dans ses activités quotidiennes après une hospitalisation. Il inclut l’évaluation des capacités et besoins, l’adaptation de l’environnement, la rééducation fonctionnelle et l’apprentissage de stratégies compensatoires, en concertation avec l’entourage et les professionnels de santé.Cette orientation est étayée par la réalisation de formations continues spécifiques auprès de cette population (appuyées de données probantes) et d’une expérience professionnelle"/>
          <Concept code="1504"
                   codeSystem="1.2.250.1.213.3.3.11"
@@ -13544,7 +13544,7 @@
                   dateValid="20250328120000"
                   displayName="Accompagnement ergothérapique pour la prévention de la chute et ses conséquences : désadaptation psychomotrice"
                   longDesignation="Accompagnement ergothérapique pour la prévention de la chute et ses conséquences : désadaptation psychomotrice"
-                  shortDesignation="Accompagnement ergothérapique pour la prévention de la chute et ses conséquences : désadaptation psychomotrice"
+                  shortDesignation="Accompagnement ergothérapique pour la prévention de la chute et ses conséquences : désadaptation p"
                   descriptionMetier="Dans le cadre de la prévention secondaire ou tertiaire des chutes, le facteur “peur de chuter” est systématiquement pris en compte par l’ergothérapeute. L’accompagnement ergothérapique de la Désadaptation PsychoMotrice (DPM) inclue les dimensions psychologiques (dont la peur) ; motrices et posturales. Cet accompagnement vise la prévention des risques de perte d’autonomie, les risques de grabatisation et les risques de l’alitement prolongé (risques d’escarres, prévention des déformations par le positionnement au lit, etc)."/>
          <Concept code="1506"
                   codeSystem="1.2.250.1.213.3.3.11"
@@ -13589,7 +13589,7 @@
                   dateValid="20250328120000"
                   displayName="Evaluation et accompagnement ergothérapique au positionnement au fauteuil roulant (MCPAA) et positionnement au lit"
                   longDesignation="Evaluation et accompagnement ergothérapique au positionnement au fauteuil roulant (MCPAA) et positionnement au lit"
-                  shortDesignation="Evaluation et accompagnement ergothérapique au positionnement au fauteuil roulant (MCPAA) et positionnement au lit"
+                  shortDesignation="Evaluation et accompagnement ergothérapique au positionnement au fauteuil roulant (MCPAA) et posit"
                   descriptionMetier="Consiste à analyser et ajuster la posture des personnes en situation de handicap pour prévenir les complications liées à une mauvaise position. Cela inclut l'utilisation de fauteuils roulants adaptés et de dispositifs de positionnement au lit pour assurer confort, sécurité et autonomie. Cette démarche est réalisée par des ergothérapeutes et est encadrée par des recommandations professionnelles. Le positionnement au fauteuil roulant au travers de la MCPAA nécessite l’acquisition de compétences spécifiques en ergothérapie par des formations complémentaires, cela est également valable concernant le positionnement au lit à visée préventive (douleurs, inconfort, risque de déformation, risques d’escarres)"/>
          <Concept code="1511"
                   codeSystem="1.2.250.1.213.3.3.11"
@@ -13742,7 +13742,7 @@
                   dateValid="20250623120000"
                   displayName="Soin diététique et nutritionnel pour la gestion des troubles hormonaux (hypothyroïdie, SOPK, endométriose)"
                   longDesignation="Soin diététique et nutritionnel pour la gestion des troubles hormonaux"
-                  shortDesignation="Soin diététique et nutritionnel pour la gestion des troubles hormonaux (hypothyroïdie, SOPK, endométriose)"
+                  shortDesignation="Soin diététique et nutritionnel pour la gestion des troubles hormonaux (hypothyroïdie, SOPK, endom"
                   descriptionMetier="Suivi personnalisé visant à améliorer les symptômes, limiter les complications métaboliques, contribuer à l’équilibre hormonal et à la réduction des symptômes associés. et accompagner le vécu des patientes."/>
          <Concept code="1528"
                   codeSystem="1.2.250.1.213.3.3.11"
