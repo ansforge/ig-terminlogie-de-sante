@@ -38,6 +38,18 @@
                                 </xsl:otherwise>
                             </xsl:choose>
                         </xsl:variable> 
+
+                        <xsl:variable name='truncShortDesignation'>
+                            <xsl:choose>
+                                <xsl:when test=" (/f:CodeSystem/f:name/@value  = 'TRE_R210_ActeSpecifique')  and         (string-length(shortDesignation) &gt; 99) ">
+                                        <xsl:value-of select="substring(shortDesignation,99)"/>
+                                </xsl:when>
+                                <xsl:otherwise>
+                                   <xsl:value-of select="$shortDesignation"/>
+                                </xsl:otherwise>
+                            </xsl:choose>
+                        </xsl:variable> 
+
                         <xsl:variable name='longDesignation'>
                             <xsl:choose>
                                 <xsl:when test="string-length(f:designation[1]/f:use/f:code[@value='900000000000013009']/../../f:value/@value) &gt; 30 ">
