@@ -2,17 +2,17 @@ CodeSystem: TRE_R64_AgregatCategorieEtablissementNiv2
 Id: TRE-R64-AgregatCategorieEtablissementNiv2
 Description: "Agrégats de catégories d'établissements niveau 2"
 * ^meta.versionId = "4"
-* ^meta.lastUpdated = "2024-08-28T05:14:04.028+00:00"
+* ^meta.lastUpdated = "2025-10-14T05:14:04.028+00:00"
 * ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablecodesystem"
 * ^extension.url = "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod"
 * ^extension.valuePeriod.start = "1979-01-01T00:00:00+01:00"
 * ^url = "https://mos.esante.gouv.fr/NOS/TRE_R64-AgregatCategorieEtablissementNiv2/FHIR/TRE-R64-AgregatCategorieEtablissementNiv2"
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value = "urn:oid:1.2.250.1.213.1.6.1.6"
-* ^version = "20231215120000"
-* ^status = #active
+* ^version = "20251014120000"
+* ^status = #deprecated
 * ^experimental = false
-* ^date = "2023-12-15T12:00:00+01:00"
+* ^date = "2025-10-14T12:00:00+01:00"
 * ^publisher = "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris"
 * ^caseSensitive = false
 * ^valueSet = "https://mos.esante.gouv.fr/NOS/TRE_R64-AgregatCategorieEtablissementNiv2/FHIR/TRE-R64-AgregatCategorieEtablissementNiv2?vs"
