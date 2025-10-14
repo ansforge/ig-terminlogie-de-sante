@@ -12,7 +12,7 @@
 </head>
 <body style="margin: 20px; background-color: #ffffff">
  <h1>Terminology Server Report for Terminologies</h1>
- <p>Generated Tue Oct 14 10:15:24 UTC 2025, FHIR version 4.0.1 for ans.fr.terminologies#0.1.0 (canonical = <a href="https://interop.esante.gouv.fr/terminologies">https://interop.esante.gouv.fr/terminologies</a> (<a href="https://interop.esante.gouv.fr/terminologies/history.html">history</a>))</p>
+ <p>Generated Tue Oct 14 12:10:09 UTC 2025, FHIR version 4.0.1 for ans.fr.terminologies#0.1.0 (canonical = <a href="https://interop.esante.gouv.fr/terminologies">https://interop.esante.gouv.fr/terminologies</a> (<a href="https://interop.esante.gouv.fr/terminologies/history.html">history</a>))</p>
 <p>This page provides a report on which terminology servers were used while publishing this IG. Note that terminology caching reduces the server hit count - this page only reports content that wasn't cached</p>
 <h2>Terminology Parameters</h2>
 <ul>
@@ -2694,16 +2694,9 @@
     <td>auth = https://smt.esante.gouv.fr/fhir, candidates=http://tx.fhir.org/r4|https://tx.ontoserver.csiro.au/fhir|https://terminologystandardsservice.ca/tx/fhir|https://apps.health.belgium.be/ontoserver/fhir|http://tx.hl7europe.eu/r4|https://tx.fhir.ch/r4</td>
   </tr>
   <tr>
-    <td>Found candidate server https://tx.fhir.org/r4</td>
-    <td>https://tx.fhir.org/r4</td>
-    <td></td>
-    <td>http://snomed.info/sct</td>
-    <td>auth = , candidates=https://tx.fhir.org/r4</td>
-  </tr>
-  <tr>
     <td>Found authoritative server https://smt.esante.gouv.fr/fhir</td>
     <td>https://smt.esante.gouv.fr/fhir</td>
-    <td>https://smt.esante.gouv.fr/fhir/ValueSet/jdv-severite-observation-cisis-inc-0</td>
+    <td></td>
     <td>http://snomed.info/sct</td>
     <td>auth = https://smt.esante.gouv.fr/fhir, candidates=http://tx.fhir.org/r4|https://tx.ontoserver.csiro.au/fhir|https://terminologystandardsservice.ca/tx/fhir|https://apps.health.belgium.be/ontoserver/fhir|http://tx.hl7europe.eu/r4|https://tx.fhir.ch/r4</td>
   </tr>
@@ -2932,16 +2925,9 @@
     <td>auth = https://smt.esante.gouv.fr/fhir, candidates=http://tx.fhir.org/r4|https://tx.ontoserver.csiro.au/fhir|https://terminologystandardsservice.ca/tx/fhir|https://apps.health.belgium.be/ontoserver/fhir|http://tx.hl7europe.eu/r4|https://tx.fhir.ch/r4</td>
   </tr>
   <tr>
-    <td>Found candidate server https://tx.fhir.org/r4</td>
-    <td>https://tx.fhir.org/r4</td>
-    <td></td>
-    <td>https://smt.esante.gouv.fr/terminologie-ccam</td>
-    <td>auth = , candidates=https://tx.fhir.org/r4</td>
-  </tr>
-  <tr>
     <td>Found authoritative server https://smt.esante.gouv.fr/fhir</td>
     <td>https://smt.esante.gouv.fr/fhir</td>
-    <td>https://smt.esante.gouv.fr/fhir/ValueSet/jdv-type-acte-post-partum-cisis-inc-0</td>
+    <td></td>
     <td>https://smt.esante.gouv.fr/terminologie-ccam</td>
     <td>auth = https://smt.esante.gouv.fr/fhir, candidates=</td>
   </tr>
@@ -9239,40 +9225,9 @@
     <td>[auth = , candidates=http://tx.fhir.org/r4|http://tx.hl7europe.eu/r4|https://tx.fhir.ch/r4, auth = , candidates=http://tx.fhir.org/r4|http://tx.hl7europe.eu/r4|https://tx.fhir.ch/r4, auth = , candidates=http://tx.fhir.org/r4|http://tx.hl7europe.eu/r4]</td>
   </tr>
 </table>
-<p>
-  <b>Errors</b>
-</p>
-<table class="grid">
-  <tr>
-    <td>
-      <b>URL</b>
-    </td>
-    <td>
-      <b>Message</b>
-    </td>
-  </tr>
-  <tr>
-    <td>http://snomed.info/sct|http://snomed.info/sct/11000315107</td>
-    <td style="background-color: #ffe3e3">
-      <span title="https://tx.fhir.org/tx-reg/resolve?fhirVersion=4.0&amp;url=http%3A%2F%2Fsnomed.info%2Fsct%7Chttp%3A%2F%2Fsnomed.info%2Fsct%2F11000315107&amp;usage=publication">Error resolving system http://snomed.info/sct|http://snomed.info/sct/11000315107: Read timed out</span>
-    </td>
-  </tr>
-  <tr>
-    <td>http://unstats.un.org/unsd/methods/m49/m49.htm|null</td>
-    <td style="background-color: #ffe3e3">
-      <span title="https://tx.fhir.org/tx-reg/resolve?fhirVersion=4.0&amp;url=http%3A%2F%2Funstats.un.org%2Funsd%2Fmethods%2Fm49%2Fm49.htm%7Cnull&amp;usage=publication">Error resolving CodeSystem http://unstats.un.org/unsd/methods/m49/m49.htm|null: Error fetching the server's capability statement: timeout</span>
-    </td>
-  </tr>
-  <tr>
-    <td>https://smt.esante.gouv.fr/terminologie-ccam</td>
-    <td style="background-color: #ffe3e3">
-      <span title="https://tx.fhir.org/tx-reg/resolve?fhirVersion=4.0&amp;url=https%3A%2F%2Fsmt.esante.gouv.fr%2Fterminologie-ccam&amp;usage=publication">Error resolving system https://smt.esante.gouv.fr/terminologie-ccam: Read timed out</span>
-    </td>
-  </tr>
-</table>
 <h2>Primary Server: https://tx.fhir.org/r4</h2>
 <a href="https://tx.fhir.org/r4"></a>
-<p>Use Count: 515. Code Systems used: </p>
+<p>Use Count: 513. Code Systems used: </p>
 <table class="grid">
   <tr>
     <th>
@@ -9308,14 +9263,6 @@
     <td>154</td>
     <td>
       <a href="http://terminology.hl7.org/6.5.0/CodeSystem-v3-loinc.html">Logical Observation Identifiers, Names and Codes (LOINC)</a>
-    </td>
-  </tr>
-  <tr>
-    <td>http://snomed.info/sct</td>
-    <td>1</td>
-    <td>0</td>
-    <td>
-      <a href="CodeSystem-900000000000207008-20251001.html">SNOMED CT core</a>
     </td>
   </tr>
   <tr>
@@ -9407,14 +9354,6 @@
     <td></td>
   </tr>
   <tr>
-    <td>https://smt.esante.gouv.fr/terminologie-ccam</td>
-    <td>1</td>
-    <td>0</td>
-    <td>
-      <a href="CodeSystem-terminologie-ccam.html">Classification Commune des Actes Médicaux</a>
-    </td>
-  </tr>
-  <tr>
     <td>https://smt.esante.gouv.fr/terminologie-cip_ucd</td>
     <td>2</td>
     <td>0</td>
@@ -9492,6 +9431,25 @@
   <li>https://www.imdrf.org|null</li>
   <li>ttps://smt.esante.gouv.fr/fhir/CodeSystem/tre-r374-nature-activite-smsse-regulee?vs</li>
 </ul>
+<h2>Server: https://tx.fhir.org/r4</h2>
+<a href="https://tx.fhir.org/r4"></a>
+<p>Use Count: 2. Code Systems used: </p>
+<table class="grid">
+  <tr>
+    <th>
+      <b>System</b>
+    </th>
+    <th>
+      <b>#Exp.</b>
+    </th>
+    <th>
+      <b>#Val.</b>
+    </th>
+    <th>
+      <b>Details</b>
+    </th>
+  </tr>
+</table>
 <h2>Server: https://smt.esante.gouv.fr/fhir</h2>
 <a href="https://smt.esante.gouv.fr/fhir"></a>
 <p>Use Count: 787. Code Systems used: </p>

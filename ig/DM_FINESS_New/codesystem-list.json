@@ -2584,6 +2584,15 @@
       "oids" : ["1.2.250.1.213.1.6.1.378"]
     },
     {
+      "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r400-finess-statut-juridique",
+      "version" : "20250923120000",
+      "status" : "active",
+      "name" : "TreR400FinessStatutJuridique",
+      "title" : null,
+      "description" : "Statuts juridiques de FINESS",
+      "oids" : ["1.2.250.1.213.1.6.1.379"]
+    },
+    {
       "url" : "https://smt.esante.gouv.fr/terminologie-SERAFINPH",
       "version" : "2023.1.0",
       "status" : "active",
