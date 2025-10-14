@@ -42942,6 +42942,18 @@
         "valueString" : "CodeSystem"
       }],
       "reference" : {
+        "reference" : "CodeSystem/TRE-R400-FinessStatutJuridique"
+      },
+      "name" : "Tre R400 Finess Statut Juridique",
+      "description" : "Statuts juridiques de FINESS",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "CodeSystem"
+      }],
+      "reference" : {
         "reference" : "CodeSystem/tre-r397-categorie-entite-geographique-exercice"
       },
       "name" : "TreR397CategorieEntiteGeographiqueExercice",

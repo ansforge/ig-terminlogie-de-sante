@@ -33187,6 +33187,17 @@
         <valueString value="CodeSystem"/>
       </extension>
       <reference>
+        <reference value="CodeSystem/TRE-R400-FinessStatutJuridique"/>
+      </reference>
+      <name value="Tre R400 Finess Statut Juridique"/>
+      <description value="Statuts juridiques de FINESS"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="CodeSystem"/>
+      </extension>
+      <reference>
         <reference value="CodeSystem/tre-r397-categorie-entite-geographique-exercice"/>
       </reference>
       <name value="TreR397CategorieEntiteGeographiqueExercice"/>

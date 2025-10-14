@@ -49,7 +49,7 @@
          <concept code="ACI"
                   codeSystem="1.2.250.1.213.1.6.1.376"
                   dateFin=""
-                  dateMaj=""
+                  dateMaj="20200529120000"
                   dateValid="20200529120000"
                   displayName="Contrat tripartie CPTS/AM/ARS pour rémunération ACI"
                   longDesignation="Contrat tripartie CPTS/AM/ARS pour rémunération ACI"
