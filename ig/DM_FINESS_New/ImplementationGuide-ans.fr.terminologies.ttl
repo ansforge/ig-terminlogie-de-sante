@@ -59971,6 +59971,24 @@
          ]
        ] ) ;
        fhir:reference [
+         fhir:link <https://interop.esante.gouv.fr/terminologies/CodeSystem/tre-r397-categorie-entite-geographique-exercice> ;
+         fhir:reference [ fhir:v "CodeSystem/tre-r397-categorie-entite-geographique-exercice" ]
+       ] ;
+       fhir:name [ fhir:v "TreR397CategorieEntiteGeographiqueExercice" ] ;
+       fhir:description [ fhir:v "Catégorie d'établissements - TRE Hierarchique qui remplace la TRE R66" ] ;
+       fhir:example [
+         a fhir:boolean ;
+         fhir:v false
+       ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [
+           a fhir:string ;
+           fhir:v "CodeSystem"
+         ]
+       ] ) ;
+       fhir:reference [
          fhir:link <https://interop.esante.gouv.fr/terminologies/CodeSystem/TRE-A00-ProducteurDocNonPS> ;
          fhir:reference [ fhir:v "CodeSystem/TRE-A00-ProducteurDocNonPS" ]
        ] ;

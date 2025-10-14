@@ -2575,6 +2575,15 @@
       "oids" : ["1.2.250.1.213.1.6.1.378"]
     },
     {
+      "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r397-categorie-entite-geographique-exercice",
+      "version" : "20250922120000",
+      "status" : "active",
+      "name" : "TreR397CategorieEntiteGeographiqueExercice",
+      "title" : "TreR397CategorieEntiteGeographiqueExercice",
+      "description" : "Catégorie d'établissements - TRE Hierarchique qui remplace la TRE R66",
+      "oids" : ["1.2.250.1.213.1.6.1.378"]
+    },
+    {
       "url" : "https://smt.esante.gouv.fr/terminologie-SERAFINPH",
       "version" : "2023.1.0",
       "status" : "active",

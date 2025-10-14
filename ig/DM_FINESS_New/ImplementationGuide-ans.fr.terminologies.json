@@ -42942,6 +42942,18 @@
         "valueString" : "CodeSystem"
       }],
       "reference" : {
+        "reference" : "CodeSystem/tre-r397-categorie-entite-geographique-exercice"
+      },
+      "name" : "TreR397CategorieEntiteGeographiqueExercice",
+      "description" : "Catégorie d'établissements - TRE Hierarchique qui remplace la TRE R66",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "CodeSystem"
+      }],
+      "reference" : {
         "reference" : "CodeSystem/TRE-A00-ProducteurDocNonPS"
       },
       "name" : "TRE_A00_ProducteurDocNonPS",
