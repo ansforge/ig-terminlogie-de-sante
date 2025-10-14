@@ -59,8 +59,6 @@ Description: "Nomenclature des engagements associés dans FINESS+ aux Personnes 
 * #ARRT ^property[=].valueDateTime = "1900-01-01T00:00:00+01:00"
 * #ARRT ^property[+].code = #status
 * #ARRT ^property[=].valueCode = #active
-* #ARRT ^property[+].code = #finess
-* #ARRT ^property[=].valueBoolean = true
 * #ARRT ^property[+].code = #niveau
 * #ARRT ^property[=].valueInteger = 1
 * #CONV "Convention"
@@ -70,8 +68,6 @@ Description: "Nomenclature des engagements associés dans FINESS+ aux Personnes 
 * #CONV ^property[=].valueDateTime = "1900-01-01T00:00:00+01:00"
 * #CONV ^property[+].code = #status
 * #CONV ^property[=].valueCode = #active
-* #CONV ^property[+].code = #finess
-* #CONV ^property[=].valueBoolean = true
 * #CONV ^property[+].code = #niveau
 * #CONV ^property[=].valueInteger = 1
 * #DISP "Dispositif"
@@ -81,8 +77,6 @@ Description: "Nomenclature des engagements associés dans FINESS+ aux Personnes 
 * #DISP ^property[=].valueDateTime = "1900-01-01T00:00:00+01:00"
 * #DISP ^property[+].code = #status
 * #DISP ^property[=].valueCode = #active
-* #DISP ^property[+].code = #finess
-* #DISP ^property[=].valueBoolean = true
 * #DISP ^property[+].code = #niveau
 * #DISP ^property[=].valueInteger = 1
 * #LABL "Label"
@@ -92,8 +86,6 @@ Description: "Nomenclature des engagements associés dans FINESS+ aux Personnes 
 * #LABL ^property[=].valueDateTime = "1900-01-01T00:00:00+01:00"
 * #LABL ^property[+].code = #status
 * #LABL ^property[=].valueCode = #active
-* #LABL ^property[+].code = #finess
-* #LABL ^property[=].valueBoolean = true
 * #LABL ^property[+].code = #niveau
 * #LABL ^property[=].valueInteger = 1
 * #ACI "Contrat tripartie CPTS/AM/ARS pour rémunération ACI" "ACI pour Accord Conventionnel Interprofessionnel. Cette convention est associée aux établissements Communauté Professionnelle Territoriale de Santé (CPTS) ayant signé un contrat tripartite avec l'Assurance Maladie (AM) et l'Agence Régionale de Santé (ARS)."
@@ -104,6 +96,8 @@ Description: "Nomenclature des engagements associés dans FINESS+ aux Personnes 
 * #ACI ^property[0].code = #parent
 * #ACI ^property[=].valueCode = #CONV
 * #ACI ^property[+].code = #dateValid
+* #ACI ^property[=].valueDateTime = "2020-05-29T12:00:00+01:00"
+* #ACI ^property[+].code = #dateMaj
 * #ACI ^property[=].valueDateTime = "2020-05-29T12:00:00+01:00"
 * #ACI ^property[+].code = #niveau
 * #ACI ^property[=].valueInteger = 2
