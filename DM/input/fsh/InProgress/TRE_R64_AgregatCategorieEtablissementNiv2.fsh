@@ -10,7 +10,7 @@ Description: "Agrégats de catégories d'établissements niveau 2"
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value = "urn:oid:1.2.250.1.213.1.6.1.6"
 * ^version = "20251014120000"
-* ^status = #deprecated
+* ^status = #retired
 * ^experimental = false
 * ^date = "2025-10-14T12:00:00+01:00"
 * ^publisher = "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris"
