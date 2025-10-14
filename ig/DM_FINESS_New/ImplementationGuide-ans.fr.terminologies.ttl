@@ -59989,24 +59989,6 @@
          ]
        ] ) ;
        fhir:reference [
-         fhir:link <https://interop.esante.gouv.fr/terminologies/CodeSystem/TRE-R400-FinessStatutJuridique> ;
-         fhir:reference [ fhir:v "CodeSystem/TRE-R400-FinessStatutJuridique" ]
-       ] ;
-       fhir:name [ fhir:v "TreR400FinessStatutJuridique" ] ;
-       fhir:description [ fhir:v "Statuts juridiques de FINESS" ] ;
-       fhir:example [
-         a fhir:boolean ;
-         fhir:v false
-       ]
-     ] [
-       fhir:extension ( [
-         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
-         fhir:value [
-           a fhir:string ;
-           fhir:v "CodeSystem"
-         ]
-       ] ) ;
-       fhir:reference [
          fhir:link <https://interop.esante.gouv.fr/terminologies/CodeSystem/TRE-A00-ProducteurDocNonPS> ;
          fhir:reference [ fhir:v "CodeSystem/TRE-A00-ProducteurDocNonPS" ]
        ] ;

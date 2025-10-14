@@ -42954,18 +42954,6 @@
         "valueString" : "CodeSystem"
       }],
       "reference" : {
-        "reference" : "CodeSystem/TRE-R400-FinessStatutJuridique"
-      },
-      "name" : "TreR400FinessStatutJuridique",
-      "description" : "Statuts juridiques de FINESS",
-      "exampleBoolean" : false
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "CodeSystem"
-      }],
-      "reference" : {
         "reference" : "CodeSystem/TRE-A00-ProducteurDocNonPS"
       },
       "name" : "TRE_A00_ProducteurDocNonPS",

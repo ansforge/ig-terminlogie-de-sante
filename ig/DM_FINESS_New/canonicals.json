@@ -5022,14 +5022,6 @@
     "oids" : ["1.2.250.1.213.1.6.1.999"]
   },
   {
-    "id" : "TRE-R400-FinessStatutJuridique",
-    "type" : "CodeSystem",
-    "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r400-finess-statut-juridique",
-    "version" : "20250923120000",
-    "name" : "TreR400FinessStatutJuridique",
-    "oids" : ["1.2.250.1.213.1.6.1.379"]
-  },
-  {
     "id" : "alignement-nuva-bdpm",
     "type" : "ConceptMap",
     "url" : "https://smt.esante.gouv.fr/fhir/ConceptMap/alignement-nuva-bdpm",
