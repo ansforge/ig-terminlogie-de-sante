@@ -60,7 +60,7 @@ Description: "Statuts juridiques de FINESS"
 * ^property[=].description = "Date de fin d'exploitation d'un code concept"
 * ^property[=].type = #dateTime
 * #1000 "Organismes et Etablissements Publics"
-* #1000 ^property[0].code = #codeNiveau
+* #1000 ^property[0].code = #niveau
 * #1000 ^property[=].valueInteger = 1
 * #1000 ^property[+].code = #finess
 * #1000 ^property[=].valueBoolean = true
@@ -77,7 +77,7 @@ Description: "Statuts juridiques de FINESS"
 * #1000 ^property[+].code = #dateMaj
 * #1000 ^property[=].valueDateTime = "1994-10-18T00:00:00+01:00"
 * #2000 "Organismes Privés"
-* #2000 ^property[0].code = #codeNiveau
+* #2000 ^property[0].code = #niveau
 * #2000 ^property[=].valueInteger = 1
 * #2000 ^property[+].code = #finess
 * #2000 ^property[=].valueBoolean = true
@@ -90,7 +90,7 @@ Description: "Statuts juridiques de FINESS"
 * #2000 ^property[+].code = #dateMaj
 * #2000 ^property[=].valueDateTime = "1994-10-18T00:00:00+01:00"
 * #3000 "Personne Morale de Droit Etranger"
-* #3000 ^property[0].code = #codeNiveau
+* #3000 ^property[0].code = #niveau
 * #3000 ^property[=].valueInteger = 1
 * #3000 ^property[+].code = #finess
 * #3000 ^property[=].valueBoolean = true
@@ -109,7 +109,7 @@ Description: "Statuts juridiques de FINESS"
 * #3000 ^property[+].code = #dateMaj
 * #3000 ^property[=].valueDateTime = "1994-10-18T00:00:00+01:00"
 * #1100 "Etat et Collectivités Territoriales"
-* #1100 ^property[0].code = #codeNiveau
+* #1100 ^property[0].code = #niveau
 * #1100 ^property[=].valueInteger = 1
 * #1100 ^property[+].code = #codeParent
 * #1100 ^property[=].valueInteger = 1000
@@ -128,7 +128,7 @@ Description: "Statuts juridiques de FINESS"
 * #1100 ^property[+].code = #dateMaj
 * #1100 ^property[=].valueDateTime = "1979-01-01T00:00:00+01:00"
 * #1200 "Etablissement Public"
-* #1200 ^property[0].code = #codeNiveau
+* #1200 ^property[0].code = #niveau
 * #1200 ^property[=].valueInteger = 1
 * #1200 ^property[+].code = #codeParent
 * #1200 ^property[=].valueInteger = 1000
@@ -143,7 +143,7 @@ Description: "Statuts juridiques de FINESS"
 * #1200 ^property[+].code = #dateMaj
 * #1200 ^property[=].valueDateTime = "1979-01-01T00:00:00+01:00"
 * #2100 "Organisme Privé à But non Lucratif"
-* #2100 ^property[0].code = #codeNiveau
+* #2100 ^property[0].code = #niveau
 * #2100 ^property[=].valueInteger = 1
 * #2100 ^property[+].code = #codeParent
 * #2100 ^property[=].valueInteger = 2000
@@ -162,7 +162,7 @@ Description: "Statuts juridiques de FINESS"
 * #2100 ^property[+].code = #dateMaj
 * #2100 ^property[=].valueDateTime = "1979-01-01T00:00:00+01:00"
 * #2200 "Organisme Privé à Caractère Commercial"
-* #2200 ^property[0].code = #codeNiveau
+* #2200 ^property[0].code = #niveau
 * #2200 ^property[=].valueInteger = 1
 * #2200 ^property[+].code = #codeParent
 * #2200 ^property[=].valueInteger = 2000
@@ -181,7 +181,7 @@ Description: "Statuts juridiques de FINESS"
 * #2200 ^property[+].code = #dateMaj
 * #2200 ^property[=].valueDateTime = "1979-01-01T00:00:00+01:00"
 * #3100 "Personne Morale de Droit Etranger"
-* #3100 ^property[0].code = #codeNiveau
+* #3100 ^property[0].code = #niveau
 * #3100 ^property[=].valueInteger = 1
 * #3100 ^property[+].code = #codeParent
 * #3100 ^property[=].valueInteger = 3000
@@ -202,7 +202,7 @@ Description: "Statuts juridiques de FINESS"
 * #3100 ^property[+].code = #dateMaj
 * #3100 ^property[=].valueDateTime = "1979-01-01T00:00:00+01:00"
 * #1110 "Etat"
-* #1110 ^property[0].code = #codeNiveau
+* #1110 ^property[0].code = #niveau
 * #1110 ^property[=].valueInteger = 1
 * #1110 ^property[+].code = #codeParent
 * #1110 ^property[=].valueInteger = 1100
@@ -217,7 +217,7 @@ Description: "Statuts juridiques de FINESS"
 * #1110 ^property[+].code = #dateMaj
 * #1110 ^property[=].valueDateTime = "1979-01-01T00:00:00+01:00"
 * #1120 "Collectivité Territoriale"
-* #1120 ^property[0].code = #codeNiveau
+* #1120 ^property[0].code = #niveau
 * #1120 ^property[=].valueInteger = 1
 * #1120 ^property[+].code = #codeParent
 * #1120 ^property[=].valueInteger = 1100
@@ -236,7 +236,7 @@ Description: "Statuts juridiques de FINESS"
 * #1120 ^property[+].code = #dateMaj
 * #1120 ^property[=].valueDateTime = "1979-01-01T00:00:00+01:00"
 * #1210 "Etablissement Public à Caractère Administratif"
-* #1210 ^property[0].code = #codeNiveau
+* #1210 ^property[0].code = #niveau
 * #1210 ^property[=].valueInteger = 1
 * #1210 ^property[+].code = #codeParent
 * #1210 ^property[=].valueInteger = 1200
@@ -255,7 +255,7 @@ Description: "Statuts juridiques de FINESS"
 * #1210 ^property[+].code = #dateMaj
 * #1210 ^property[=].valueDateTime = "1979-01-01T00:00:00+01:00"
 * #1220 "Etablissement Public à Caractère Industriel et Commercial"
-* #1220 ^property[0].code = #codeNiveau
+* #1220 ^property[0].code = #niveau
 * #1220 ^property[=].valueInteger = 1
 * #1220 ^property[+].code = #codeParent
 * #1220 ^property[=].valueInteger = 1200
@@ -274,7 +274,7 @@ Description: "Statuts juridiques de FINESS"
 * #1220 ^property[+].code = #dateMaj
 * #1220 ^property[=].valueDateTime = "1979-01-01T00:00:00+01:00"
 * #2110 "Organisme Gérant un Régime de Protection Sociale à Adhésion"
-* #2110 ^property[0].code = #codeNiveau
+* #2110 ^property[0].code = #niveau
 * #2110 ^property[=].valueInteger = 1
 * #2110 ^property[+].code = #codeParent
 * #2110 ^property[=].valueInteger = 2100
@@ -293,7 +293,7 @@ Description: "Statuts juridiques de FINESS"
 * #2110 ^property[+].code = #dateMaj
 * #2110 ^property[=].valueDateTime = "1979-01-01T00:00:00+01:00"
 * #2120 "Organisme Mutualiste"
-* #2120 ^property[0].code = #codeNiveau
+* #2120 ^property[0].code = #niveau
 * #2120 ^property[=].valueInteger = 1
 * #2120 ^property[+].code = #codeParent
 * #2120 ^property[=].valueInteger = 2100
@@ -312,7 +312,7 @@ Description: "Statuts juridiques de FINESS"
 * #2120 ^property[+].code = #dateMaj
 * #2120 ^property[=].valueDateTime = "1979-01-01T00:00:00+01:00"
 * #2130 "Comité d'Entreprise et Comité d'Etablissement"
-* #2130 ^property[0].code = #codeNiveau
+* #2130 ^property[0].code = #niveau
 * #2130 ^property[=].valueInteger = 1
 * #2130 ^property[+].code = #codeParent
 * #2130 ^property[=].valueInteger = 2100
@@ -335,7 +335,7 @@ Description: "Statuts juridiques de FINESS"
 * #2130 ^property[+].code = #dateMaj
 * #2130 ^property[=].valueDateTime = "1979-01-01T00:00:00+01:00"
 * #2140 "Organisme Professionnel"
-* #2140 ^property[0].code = #codeNiveau
+* #2140 ^property[0].code = #niveau
 * #2140 ^property[=].valueInteger = 1
 * #2140 ^property[+].code = #codeParent
 * #2140 ^property[=].valueInteger = 2100
@@ -354,7 +354,7 @@ Description: "Statuts juridiques de FINESS"
 * #2140 ^property[+].code = #dateMaj
 * #2140 ^property[=].valueDateTime = "1979-01-01T00:00:00+01:00"
 * #2150 "Syndicat de Propriétaires"
-* #2150 ^property[0].code = #codeNiveau
+* #2150 ^property[0].code = #niveau
 * #2150 ^property[=].valueInteger = 1
 * #2150 ^property[+].code = #codeParent
 * #2150 ^property[=].valueInteger = 2100
@@ -373,7 +373,7 @@ Description: "Statuts juridiques de FINESS"
 * #2150 ^property[+].code = #dateMaj
 * #2150 ^property[=].valueDateTime = "1979-01-01T00:00:00+01:00"
 * #2160 "Association"
-* #2160 ^property[0].code = #codeNiveau
+* #2160 ^property[0].code = #niveau
 * #2160 ^property[=].valueInteger = 1
 * #2160 ^property[+].code = #codeParent
 * #2160 ^property[=].valueInteger = 2100
@@ -388,7 +388,7 @@ Description: "Statuts juridiques de FINESS"
 * #2160 ^property[+].code = #dateMaj
 * #2160 ^property[=].valueDateTime = "1979-01-01T00:00:00+01:00"
 * #2170 "Fondation"
-* #2170 ^property[0].code = #codeNiveau
+* #2170 ^property[0].code = #niveau
 * #2170 ^property[=].valueInteger = 1
 * #2170 ^property[+].code = #codeParent
 * #2170 ^property[=].valueInteger = 2100
@@ -403,7 +403,7 @@ Description: "Statuts juridiques de FINESS"
 * #2170 ^property[+].code = #dateMaj
 * #2170 ^property[=].valueDateTime = "1979-01-01T00:00:00+01:00"
 * #2180 "Congrégation"
-* #2180 ^property[0].code = #codeNiveau
+* #2180 ^property[0].code = #niveau
 * #2180 ^property[=].valueInteger = 1
 * #2180 ^property[+].code = #codeParent
 * #2180 ^property[=].valueInteger = 2100
@@ -418,7 +418,7 @@ Description: "Statuts juridiques de FINESS"
 * #2180 ^property[+].code = #dateMaj
 * #2180 ^property[=].valueDateTime = "1979-01-01T00:00:00+01:00"
 * #2190 "Autre Organisme Privé à But non Lucratif"
-* #2190 ^property[0].code = #codeNiveau
+* #2190 ^property[0].code = #niveau
 * #2190 ^property[=].valueInteger = 1
 * #2190 ^property[+].code = #codeParent
 * #2190 ^property[=].valueInteger = 2100
@@ -437,7 +437,7 @@ Description: "Statuts juridiques de FINESS"
 * #2190 ^property[+].code = #dateMaj
 * #2190 ^property[=].valueDateTime = "1979-01-01T00:00:00+01:00"
 * #2210 "Personne Physique"
-* #2210 ^property[0].code = #codeNiveau
+* #2210 ^property[0].code = #niveau
 * #2210 ^property[=].valueInteger = 1
 * #2210 ^property[+].code = #codeParent
 * #2210 ^property[=].valueInteger = 2200
@@ -452,7 +452,7 @@ Description: "Statuts juridiques de FINESS"
 * #2210 ^property[+].code = #dateMaj
 * #2210 ^property[=].valueDateTime = "1979-01-01T00:00:00+01:00"
 * #2220 "Société en Nom Collectif (S.N.C.)"
-* #2220 ^property[0].code = #codeNiveau
+* #2220 ^property[0].code = #niveau
 * #2220 ^property[=].valueInteger = 1
 * #2220 ^property[+].code = #codeParent
 * #2220 ^property[=].valueInteger = 2200
@@ -475,7 +475,7 @@ Description: "Statuts juridiques de FINESS"
 * #2220 ^property[+].code = #dateMaj
 * #2220 ^property[=].valueDateTime = "1979-01-01T00:00:00+01:00"
 * #2230 "Société A Responsabilité Limitée (S.A.R.L.)"
-* #2230 ^property[0].code = #codeNiveau
+* #2230 ^property[0].code = #niveau
 * #2230 ^property[=].valueInteger = 1
 * #2230 ^property[+].code = #codeParent
 * #2230 ^property[=].valueInteger = 2200
@@ -498,7 +498,7 @@ Description: "Statuts juridiques de FINESS"
 * #2230 ^property[+].code = #dateMaj
 * #2230 ^property[=].valueDateTime = "1979-01-01T00:00:00+01:00"
 * #2240 "Société Anonyme (S.A.)"
-* #2240 ^property[0].code = #codeNiveau
+* #2240 ^property[0].code = #niveau
 * #2240 ^property[=].valueInteger = 1
 * #2240 ^property[+].code = #codeParent
 * #2240 ^property[=].valueInteger = 2200
@@ -521,7 +521,7 @@ Description: "Statuts juridiques de FINESS"
 * #2240 ^property[+].code = #dateMaj
 * #2240 ^property[=].valueDateTime = "1979-01-01T00:00:00+01:00"
 * #2250 "Société Civile"
-* #2250 ^property[0].code = #codeNiveau
+* #2250 ^property[0].code = #niveau
 * #2250 ^property[=].valueInteger = 1
 * #2250 ^property[+].code = #codeParent
 * #2250 ^property[=].valueInteger = 2200
@@ -536,7 +536,7 @@ Description: "Statuts juridiques de FINESS"
 * #2250 ^property[+].code = #dateMaj
 * #2250 ^property[=].valueDateTime = "1979-01-01T00:00:00+01:00"
 * #2260 "Autre Société"
-* #2260 ^property[0].code = #codeNiveau
+* #2260 ^property[0].code = #niveau
 * #2260 ^property[=].valueInteger = 1
 * #2260 ^property[+].code = #codeParent
 * #2260 ^property[=].valueInteger = 2200
@@ -551,7 +551,7 @@ Description: "Statuts juridiques de FINESS"
 * #2260 ^property[+].code = #dateMaj
 * #2260 ^property[=].valueDateTime = "1979-01-01T00:00:00+01:00"
 * #2270 "Groupement Privé à Caractère Commercial"
-* #2270 ^property[0].code = #codeNiveau
+* #2270 ^property[0].code = #niveau
 * #2270 ^property[=].valueInteger = 1
 * #2270 ^property[+].code = #codeParent
 * #2270 ^property[=].valueInteger = 2200
@@ -570,7 +570,7 @@ Description: "Statuts juridiques de FINESS"
 * #2270 ^property[+].code = #dateMaj
 * #2270 ^property[=].valueDateTime = "1979-01-01T00:00:00+01:00"
 * #2280 "Autre Organisme Privé à Caractère Commercial"
-* #2280 ^property[0].code = #codeNiveau
+* #2280 ^property[0].code = #niveau
 * #2280 ^property[=].valueInteger = 1
 * #2280 ^property[+].code = #codeParent
 * #2280 ^property[=].valueInteger = 2200
@@ -589,7 +589,7 @@ Description: "Statuts juridiques de FINESS"
 * #2280 ^property[+].code = #dateMaj
 * #2280 ^property[=].valueDateTime = "1979-01-01T00:00:00+01:00"
 * #3110 "Personne Morale de Droit Etranger"
-* #3110 ^property[0].code = #codeNiveau
+* #3110 ^property[0].code = #niveau
 * #3110 ^property[=].valueInteger = 1
 * #3110 ^property[+].code = #codeParent
 * #3110 ^property[=].valueInteger = 3100
@@ -610,7 +610,7 @@ Description: "Statuts juridiques de FINESS"
 * #3110 ^property[+].code = #dateMaj
 * #3110 ^property[=].valueDateTime = "1979-01-01T00:00:00+01:00"
 * #000 "En cours de vérification" "Code ne provenant pas du FINESS, ajouté pour des usages RPPS."
-* #000 ^property[0].code = #codeNiveau
+* #000 ^property[0].code = #niveau
 * #000 ^property[=].valueInteger = 1
 * #000 ^property[+].code = #codeParent
 * #000 ^property[=].valueInteger = 1
@@ -625,7 +625,7 @@ Description: "Statuts juridiques de FINESS"
 * #000 ^property[+].code = #dateMaj
 * #000 ^property[=].valueDateTime = "2017-10-13T12:00:00+01:00"
 * #01 "Etat"
-* #01 ^property[0].code = #codeNiveau
+* #01 ^property[0].code = #niveau
 * #01 ^property[=].valueInteger = 1
 * #01 ^property[+].code = #codeParent
 * #01 ^property[=].valueInteger = 1110
@@ -640,7 +640,7 @@ Description: "Statuts juridiques de FINESS"
 * #01 ^property[+].code = #dateMaj
 * #01 ^property[=].valueDateTime = "1979-01-01T00:00:00+01:00"
 * #02 "Département"
-* #02 ^property[0].code = #codeNiveau
+* #02 ^property[0].code = #niveau
 * #02 ^property[=].valueInteger = 1
 * #02 ^property[+].code = #codeParent
 * #02 ^property[=].valueInteger = 1120
@@ -655,7 +655,7 @@ Description: "Statuts juridiques de FINESS"
 * #02 ^property[+].code = #dateMaj
 * #02 ^property[=].valueDateTime = "1979-01-01T00:00:00+01:00"
 * #03 "Commune"
-* #03 ^property[0].code = #codeNiveau
+* #03 ^property[0].code = #niveau
 * #03 ^property[=].valueInteger = 1
 * #03 ^property[+].code = #codeParent
 * #03 ^property[=].valueInteger = 1120
@@ -670,7 +670,7 @@ Description: "Statuts juridiques de FINESS"
 * #03 ^property[+].code = #dateMaj
 * #03 ^property[=].valueDateTime = "1979-01-01T00:00:00+01:00"
 * #04 "Région"
-* #04 ^property[0].code = #codeNiveau
+* #04 ^property[0].code = #niveau
 * #04 ^property[=].valueInteger = 1
 * #04 ^property[+].code = #codeParent
 * #04 ^property[=].valueInteger = 1120
@@ -685,7 +685,7 @@ Description: "Statuts juridiques de FINESS"
 * #04 ^property[+].code = #dateMaj
 * #04 ^property[=].valueDateTime = "1979-01-01T00:00:00+01:00"
 * #05 "Territoire d'Outre Mer"
-* #05 ^property[0].code = #codeNiveau
+* #05 ^property[0].code = #niveau
 * #05 ^property[=].valueInteger = 1
 * #05 ^property[+].code = #codeParent
 * #05 ^property[=].valueInteger = 1120
@@ -704,7 +704,7 @@ Description: "Statuts juridiques de FINESS"
 * #05 ^property[+].code = #dateMaj
 * #05 ^property[=].valueDateTime = "1979-01-01T00:00:00+01:00"
 * #06 "Autre Collectivité Territoriale"
-* #06 ^property[0].code = #codeNiveau
+* #06 ^property[0].code = #niveau
 * #06 ^property[=].valueInteger = 1
 * #06 ^property[+].code = #codeParent
 * #06 ^property[=].valueInteger = 1120
@@ -723,7 +723,7 @@ Description: "Statuts juridiques de FINESS"
 * #06 ^property[+].code = #dateMaj
 * #06 ^property[=].valueDateTime = "1979-01-01T00:00:00+01:00"
 * #07 "Métropole ou pôle métropolitain"
-* #07 ^property[0].code = #codeNiveau
+* #07 ^property[0].code = #niveau
 * #07 ^property[=].valueInteger = 1
 * #07 ^property[+].code = #codeParent
 * #07 ^property[=].valueInteger = 1210
@@ -742,7 +742,7 @@ Description: "Statuts juridiques de FINESS"
 * #07 ^property[+].code = #dateMaj
 * #07 ^property[=].valueDateTime = "2016-02-17T00:00:00+01:00"
 * #08 "Centre Intercommunal d'Action Sociale"
-* #08 ^property[0].code = #codeNiveau
+* #08 ^property[0].code = #niveau
 * #08 ^property[=].valueInteger = 1
 * #08 ^property[+].code = #codeParent
 * #08 ^property[=].valueInteger = 1210
@@ -761,7 +761,7 @@ Description: "Statuts juridiques de FINESS"
 * #08 ^property[+].code = #dateMaj
 * #08 ^property[=].valueDateTime = "2019-05-29T12:00:00+01:00"
 * #10 "Etablissement Public National d'Hospitalisation"
-* #10 ^property[0].code = #codeNiveau
+* #10 ^property[0].code = #niveau
 * #10 ^property[=].valueInteger = 1
 * #10 ^property[+].code = #codeParent
 * #10 ^property[=].valueInteger = 1210
@@ -780,7 +780,7 @@ Description: "Statuts juridiques de FINESS"
 * #10 ^property[+].code = #dateMaj
 * #10 ^property[=].valueDateTime = "1979-01-01T00:00:00+01:00"
 * #100 "Société d'exercice libéral à responsabilité limitée unipersonnelle (SELURL)" "Code ne provenant pas du FINESS, ajouté pour des usages RPPS."
-* #100 ^property[0].code = #codeNiveau
+* #100 ^property[0].code = #niveau
 * #100 ^property[=].valueInteger = 1
 * #100 ^property[+].code = #codeParent
 * #100 ^property[=].valueInteger = 2230
@@ -799,7 +799,7 @@ Description: "Statuts juridiques de FINESS"
 * #100 ^property[+].code = #dateMaj
 * #100 ^property[=].valueDateTime = "2017-10-13T12:00:00+01:00"
 * #101 "Société d'exercice libéral par actions simplifiée (SELAS)" "Code ne provenant pas du FINESS, ajouté pour des usages RPPS."
-* #101 ^property[0].code = #codeNiveau
+* #101 ^property[0].code = #niveau
 * #101 ^property[=].valueInteger = 1
 * #101 ^property[+].code = #codeParent
 * #101 ^property[=].valueInteger = 2260
@@ -818,7 +818,7 @@ Description: "Statuts juridiques de FINESS"
 * #101 ^property[+].code = #dateMaj
 * #101 ^property[=].valueDateTime = "2017-10-13T12:00:00+01:00"
 * #102 "Société d'exercice libéral par actions simplifiée unipersonnelle (SELASU)" "Code ne provenant pas du FINESS, ajouté pour des usages RPPS."
-* #102 ^property[0].code = #codeNiveau
+* #102 ^property[0].code = #niveau
 * #102 ^property[=].valueInteger = 1
 * #102 ^property[+].code = #codeParent
 * #102 ^property[=].valueInteger = 2260
@@ -837,7 +837,7 @@ Description: "Statuts juridiques de FINESS"
 * #102 ^property[+].code = #dateMaj
 * #102 ^property[=].valueDateTime = "2017-10-13T12:00:00+01:00"
 * #103 "Société en commandite simple (SCS)" "Code ne provenant pas du FINESS, ajouté pour des usages RPPS."
-* #103 ^property[0].code = #codeNiveau
+* #103 ^property[0].code = #niveau
 * #103 ^property[=].valueInteger = 1
 * #103 ^property[+].code = #codeParent
 * #103 ^property[=].valueInteger = 2260
@@ -856,7 +856,7 @@ Description: "Statuts juridiques de FINESS"
 * #103 ^property[+].code = #dateMaj
 * #103 ^property[=].valueDateTime = "2017-10-13T12:00:00+01:00"
 * #104 "Société en commandite par actions (SCA)" "Code ne provenant pas du FINESS, ajouté pour des usages RPPS."
-* #104 ^property[0].code = #codeNiveau
+* #104 ^property[0].code = #niveau
 * #104 ^property[=].valueInteger = 1
 * #104 ^property[+].code = #codeParent
 * #104 ^property[=].valueInteger = 2260
@@ -875,7 +875,7 @@ Description: "Statuts juridiques de FINESS"
 * #104 ^property[+].code = #dateMaj
 * #104 ^property[=].valueDateTime = "2017-10-13T12:00:00+01:00"
 * #105 "Société par actions simplifiée (SAS)" "Code ne provenant pas du FINESS, ajouté pour des usages RPPS."
-* #105 ^property[0].code = #codeNiveau
+* #105 ^property[0].code = #niveau
 * #105 ^property[=].valueInteger = 1
 * #105 ^property[+].code = #codeParent
 * #105 ^property[=].valueInteger = 2260
@@ -894,7 +894,7 @@ Description: "Statuts juridiques de FINESS"
 * #105 ^property[+].code = #dateMaj
 * #105 ^property[=].valueDateTime = "2017-10-13T12:00:00+01:00"
 * #106 "Société anonyme à directoire (SADI)" "Code ne provenant pas du FINESS, ajouté pour des usages RPPS."
-* #106 ^property[0].code = #codeNiveau
+* #106 ^property[0].code = #niveau
 * #106 ^property[=].valueInteger = 1
 * #106 ^property[+].code = #codeParent
 * #106 ^property[=].valueInteger = 2240
@@ -913,7 +913,7 @@ Description: "Statuts juridiques de FINESS"
 * #106 ^property[+].code = #dateMaj
 * #106 ^property[=].valueDateTime = "2017-10-13T12:00:00+01:00"
 * #107 "Société Anonyme à conseil d'administration (SACA)" "Code ne provenant pas du FINESS, ajouté pour des usages RPPS."
-* #107 ^property[0].code = #codeNiveau
+* #107 ^property[0].code = #niveau
 * #107 ^property[=].valueInteger = 1
 * #107 ^property[+].code = #codeParent
 * #107 ^property[=].valueInteger = 2240
@@ -932,7 +932,7 @@ Description: "Statuts juridiques de FINESS"
 * #107 ^property[+].code = #dateMaj
 * #107 ^property[=].valueDateTime = "2017-10-13T12:00:00+01:00"
 * #11 "Etablissement Public Départemental d'Hospitalisation"
-* #11 ^property[0].code = #codeNiveau
+* #11 ^property[0].code = #niveau
 * #11 ^property[=].valueInteger = 1
 * #11 ^property[+].code = #codeParent
 * #11 ^property[=].valueInteger = 1210
@@ -951,7 +951,7 @@ Description: "Statuts juridiques de FINESS"
 * #11 ^property[+].code = #dateMaj
 * #11 ^property[=].valueDateTime = "1979-01-01T00:00:00+01:00"
 * #110 "Société en participation (SEP)" "Code ne provenant pas du FINESS, ajouté pour des usages RPPS."
-* #110 ^property[0].code = #codeNiveau
+* #110 ^property[0].code = #niveau
 * #110 ^property[=].valueInteger = 1
 * #110 ^property[+].code = #codeParent
 * #110 ^property[=].valueInteger = 2260
@@ -969,7 +969,7 @@ Description: "Statuts juridiques de FINESS"
 * #110 ^property[+].code = #dateMaj
 * #110 ^property[=].valueDateTime = "2017-10-13T12:00:00+01:00"
 * #12 "Etablissement Public Interdépartemental d'Hospitalisation"
-* #12 ^property[0].code = #codeNiveau
+* #12 ^property[0].code = #niveau
 * #12 ^property[=].valueInteger = 1
 * #12 ^property[+].code = #codeParent
 * #12 ^property[=].valueInteger = 1210
@@ -988,7 +988,7 @@ Description: "Statuts juridiques de FINESS"
 * #12 ^property[+].code = #dateMaj
 * #12 ^property[=].valueDateTime = "1979-01-01T00:00:00+01:00"
 * #13 "Etablissement Public Communal d'Hospitalisation"
-* #13 ^property[0].code = #codeNiveau
+* #13 ^property[0].code = #niveau
 * #13 ^property[=].valueInteger = 1
 * #13 ^property[+].code = #codeParent
 * #13 ^property[=].valueInteger = 1210
@@ -1007,7 +1007,7 @@ Description: "Statuts juridiques de FINESS"
 * #13 ^property[+].code = #dateMaj
 * #13 ^property[=].valueDateTime = "1979-01-01T00:00:00+01:00"
 * #14 "Etablissement Public Intercommunal d'Hospitalisation"
-* #14 ^property[0].code = #codeNiveau
+* #14 ^property[0].code = #niveau
 * #14 ^property[=].valueInteger = 1
 * #14 ^property[+].code = #codeParent
 * #14 ^property[=].valueInteger = 1210
@@ -1026,7 +1026,7 @@ Description: "Statuts juridiques de FINESS"
 * #14 ^property[+].code = #dateMaj
 * #14 ^property[=].valueDateTime = "1979-01-01T00:00:00+01:00"
 * #15 "Etablissement Public Régional d'Hospitalisation"
-* #15 ^property[0].code = #codeNiveau
+* #15 ^property[0].code = #niveau
 * #15 ^property[=].valueInteger = 1
 * #15 ^property[+].code = #codeParent
 * #15 ^property[=].valueInteger = 1210
@@ -1045,7 +1045,7 @@ Description: "Statuts juridiques de FINESS"
 * #15 ^property[+].code = #dateMaj
 * #15 ^property[=].valueDateTime = "1979-01-01T00:00:00+01:00"
 * #16 "Syndicat Inter Hospitalier"
-* #16 ^property[0].code = #codeNiveau
+* #16 ^property[0].code = #niveau
 * #16 ^property[=].valueInteger = 1
 * #16 ^property[+].code = #codeParent
 * #16 ^property[=].valueInteger = 1210
@@ -1068,7 +1068,7 @@ Description: "Statuts juridiques de FINESS"
 * #16 ^property[+].code = #dateMaj
 * #16 ^property[=].valueDateTime = "1979-01-01T00:00:00+01:00"
 * #17 "Centre Communal d'Action Sociale"
-* #17 ^property[0].code = #codeNiveau
+* #17 ^property[0].code = #niveau
 * #17 ^property[=].valueInteger = 1
 * #17 ^property[+].code = #codeParent
 * #17 ^property[=].valueInteger = 1210
@@ -1087,7 +1087,7 @@ Description: "Statuts juridiques de FINESS"
 * #17 ^property[+].code = #dateMaj
 * #17 ^property[=].valueDateTime = "1979-01-01T00:00:00+01:00"
 * #18 "Etablissement Social et Médico-Social National"
-* #18 ^property[0].code = #codeNiveau
+* #18 ^property[0].code = #niveau
 * #18 ^property[=].valueInteger = 1
 * #18 ^property[+].code = #codeParent
 * #18 ^property[=].valueInteger = 1210
@@ -1106,7 +1106,7 @@ Description: "Statuts juridiques de FINESS"
 * #18 ^property[+].code = #dateMaj
 * #18 ^property[=].valueDateTime = "1979-01-01T00:00:00+01:00"
 * #19 "Etablissement Social et Médico-Social Départemental"
-* #19 ^property[0].code = #codeNiveau
+* #19 ^property[0].code = #niveau
 * #19 ^property[=].valueInteger = 1
 * #19 ^property[+].code = #codeParent
 * #19 ^property[=].valueInteger = 1210
@@ -1125,7 +1125,7 @@ Description: "Statuts juridiques de FINESS"
 * #19 ^property[+].code = #dateMaj
 * #19 ^property[=].valueDateTime = "1979-01-01T00:00:00+01:00"
 * #20 "Etablissement Social et Médico-Social Interdépartemental"
-* #20 ^property[0].code = #codeNiveau
+* #20 ^property[0].code = #niveau
 * #20 ^property[=].valueInteger = 1
 * #20 ^property[+].code = #codeParent
 * #20 ^property[=].valueInteger = 1210
@@ -1144,7 +1144,7 @@ Description: "Statuts juridiques de FINESS"
 * #20 ^property[+].code = #dateMaj
 * #20 ^property[=].valueDateTime = "1979-01-01T00:00:00+01:00"
 * #21 "Etablissement Social et Médico-Social Communal"
-* #21 ^property[0].code = #codeNiveau
+* #21 ^property[0].code = #niveau
 * #21 ^property[=].valueInteger = 1
 * #21 ^property[+].code = #codeParent
 * #21 ^property[=].valueInteger = 1210
@@ -1163,7 +1163,7 @@ Description: "Statuts juridiques de FINESS"
 * #21 ^property[+].code = #dateMaj
 * #21 ^property[=].valueDateTime = "1979-01-01T00:00:00+01:00"
 * #22 "Etablissement Social et Médico-Social Intercommunal"
-* #22 ^property[0].code = #codeNiveau
+* #22 ^property[0].code = #niveau
 * #22 ^property[=].valueInteger = 1
 * #22 ^property[+].code = #codeParent
 * #22 ^property[=].valueInteger = 1210
@@ -1182,7 +1182,7 @@ Description: "Statuts juridiques de FINESS"
 * #22 ^property[+].code = #dateMaj
 * #22 ^property[=].valueDateTime = "1979-01-01T00:00:00+01:00"
 * #23 "Etablissement Social et Médico-Social Régional"
-* #23 ^property[0].code = #codeNiveau
+* #23 ^property[0].code = #niveau
 * #23 ^property[=].valueInteger = 1
 * #23 ^property[+].code = #codeParent
 * #23 ^property[=].valueInteger = 1210
@@ -1201,7 +1201,7 @@ Description: "Statuts juridiques de FINESS"
 * #23 ^property[+].code = #dateMaj
 * #23 ^property[=].valueDateTime = "1979-01-01T00:00:00+01:00"
 * #24 "Office Public d'H.L.M."
-* #24 ^property[0].code = #codeNiveau
+* #24 ^property[0].code = #niveau
 * #24 ^property[=].valueInteger = 1
 * #24 ^property[+].code = #codeParent
 * #24 ^property[=].valueInteger = 1210
@@ -1224,7 +1224,7 @@ Description: "Statuts juridiques de FINESS"
 * #24 ^property[+].code = #dateMaj
 * #24 ^property[=].valueDateTime = "1979-01-01T00:00:00+01:00"
 * #25 "Caisse des Ecoles"
-* #25 ^property[0].code = #codeNiveau
+* #25 ^property[0].code = #niveau
 * #25 ^property[=].valueInteger = 1
 * #25 ^property[+].code = #codeParent
 * #25 ^property[=].valueInteger = 1210
@@ -1243,7 +1243,7 @@ Description: "Statuts juridiques de FINESS"
 * #25 ^property[+].code = #dateMaj
 * #25 ^property[=].valueDateTime = "1979-01-01T00:00:00+01:00"
 * #26 "Autre Etablissement Public à Caractère Administratif"
-* #26 ^property[0].code = #codeNiveau
+* #26 ^property[0].code = #niveau
 * #26 ^property[=].valueInteger = 1
 * #26 ^property[+].code = #codeParent
 * #26 ^property[=].valueInteger = 1210
@@ -1266,7 +1266,7 @@ Description: "Statuts juridiques de FINESS"
 * #26 ^property[+].code = #dateMaj
 * #26 ^property[=].valueDateTime = "1979-01-01T00:00:00+01:00"
 * #27 "Etablissement Public à Caractère Industriel ou Commercial"
-* #27 ^property[0].code = #codeNiveau
+* #27 ^property[0].code = #niveau
 * #27 ^property[=].valueInteger = 1
 * #27 ^property[+].code = #codeParent
 * #27 ^property[=].valueInteger = 1220
@@ -1285,7 +1285,7 @@ Description: "Statuts juridiques de FINESS"
 * #27 ^property[+].code = #dateMaj
 * #27 ^property[=].valueDateTime = "1979-01-01T00:00:00+01:00"
 * #28 "Groupement d'Intérêt Public (G.I.P.)"
-* #28 ^property[0].code = #codeNiveau
+* #28 ^property[0].code = #niveau
 * #28 ^property[=].valueInteger = 1
 * #28 ^property[+].code = #codeParent
 * #28 ^property[=].valueInteger = 1210
@@ -1308,7 +1308,7 @@ Description: "Statuts juridiques de FINESS"
 * #28 ^property[+].code = #dateMaj
 * #28 ^property[=].valueDateTime = "1979-01-01T00:00:00+01:00"
 * #29 "Groupement de Coopération Sanitaire public"
-* #29 ^property[0].code = #codeNiveau
+* #29 ^property[0].code = #niveau
 * #29 ^property[=].valueInteger = 1
 * #29 ^property[+].code = #codeParent
 * #29 ^property[=].valueInteger = 1210
@@ -1331,7 +1331,7 @@ Description: "Statuts juridiques de FINESS"
 * #29 ^property[+].code = #dateMaj
 * #29 ^property[=].valueDateTime = "1999-06-17T00:00:00+01:00"
 * #30 "Groupement de Coopération Sociale ou Médico-Sociale public"
-* #30 ^property[0].code = #codeNiveau
+* #30 ^property[0].code = #niveau
 * #30 ^property[=].valueInteger = 1
 * #30 ^property[+].code = #codeParent
 * #30 ^property[=].valueInteger = 1210
@@ -1354,7 +1354,7 @@ Description: "Statuts juridiques de FINESS"
 * #30 ^property[+].code = #dateMaj
 * #30 ^property[=].valueDateTime = "2014-02-12T00:00:00+01:00"
 * #40 "Régime Général de Sécurité Sociale"
-* #40 ^property[0].code = #codeNiveau
+* #40 ^property[0].code = #niveau
 * #40 ^property[=].valueInteger = 1
 * #40 ^property[+].code = #codeParent
 * #40 ^property[=].valueInteger = 2110
@@ -1373,7 +1373,7 @@ Description: "Statuts juridiques de FINESS"
 * #40 ^property[+].code = #dateMaj
 * #40 ^property[=].valueDateTime = "1979-01-01T00:00:00+01:00"
 * #41 "Régime Spécial de Sécurité Sociale"
-* #41 ^property[0].code = #codeNiveau
+* #41 ^property[0].code = #niveau
 * #41 ^property[=].valueInteger = 1
 * #41 ^property[+].code = #codeParent
 * #41 ^property[=].valueInteger = 2110
@@ -1392,7 +1392,7 @@ Description: "Statuts juridiques de FINESS"
 * #41 ^property[+].code = #dateMaj
 * #41 ^property[=].valueDateTime = "1979-01-01T00:00:00+01:00"
 * #42 "Institution de Prévoyance"
-* #42 ^property[0].code = #codeNiveau
+* #42 ^property[0].code = #niveau
 * #42 ^property[=].valueInteger = 1
 * #42 ^property[+].code = #codeParent
 * #42 ^property[=].valueInteger = 2110
@@ -1411,7 +1411,7 @@ Description: "Statuts juridiques de FINESS"
 * #42 ^property[+].code = #dateMaj
 * #42 ^property[=].valueDateTime = "1979-01-01T00:00:00+01:00"
 * #43 "Mutualité Sociale Agricole (M.S.A.)"
-* #43 ^property[0].code = #codeNiveau
+* #43 ^property[0].code = #niveau
 * #43 ^property[=].valueInteger = 1
 * #43 ^property[+].code = #codeParent
 * #43 ^property[=].valueInteger = 2110
@@ -1434,7 +1434,7 @@ Description: "Statuts juridiques de FINESS"
 * #43 ^property[+].code = #dateMaj
 * #43 ^property[=].valueDateTime = "1979-01-01T00:00:00+01:00"
 * #44 "Régime Maladie des non Salariés non Agricole"
-* #44 ^property[0].code = #codeNiveau
+* #44 ^property[0].code = #niveau
 * #44 ^property[=].valueInteger = 1
 * #44 ^property[+].code = #codeParent
 * #44 ^property[=].valueInteger = 2110
@@ -1457,7 +1457,7 @@ Description: "Statuts juridiques de FINESS"
 * #44 ^property[+].code = #dateMaj
 * #44 ^property[=].valueDateTime = "1979-01-01T00:00:00+01:00"
 * #45 "Régime Vieillesse Particulier"
-* #45 ^property[0].code = #codeNiveau
+* #45 ^property[0].code = #niveau
 * #45 ^property[=].valueInteger = 1
 * #45 ^property[+].code = #codeParent
 * #45 ^property[=].valueInteger = 2110
@@ -1476,7 +1476,7 @@ Description: "Statuts juridiques de FINESS"
 * #45 ^property[+].code = #dateMaj
 * #45 ^property[=].valueDateTime = "1979-01-01T00:00:00+01:00"
 * #46 "Autre Régime de Prévoyance Sociale"
-* #46 ^property[0].code = #codeNiveau
+* #46 ^property[0].code = #niveau
 * #46 ^property[=].valueInteger = 1
 * #46 ^property[+].code = #codeParent
 * #46 ^property[=].valueInteger = 2110
@@ -1495,7 +1495,7 @@ Description: "Statuts juridiques de FINESS"
 * #46 ^property[+].code = #dateMaj
 * #46 ^property[=].valueDateTime = "1979-01-01T00:00:00+01:00"
 * #47 "Société Mutualiste"
-* #47 ^property[0].code = #codeNiveau
+* #47 ^property[0].code = #niveau
 * #47 ^property[=].valueInteger = 1
 * #47 ^property[+].code = #codeParent
 * #47 ^property[=].valueInteger = 2120
@@ -1510,7 +1510,7 @@ Description: "Statuts juridiques de FINESS"
 * #47 ^property[+].code = #dateMaj
 * #47 ^property[=].valueDateTime = "1979-01-01T00:00:00+01:00"
 * #48 "Assurance Mutuelle Agricole"
-* #48 ^property[0].code = #codeNiveau
+* #48 ^property[0].code = #niveau
 * #48 ^property[=].valueInteger = 1
 * #48 ^property[+].code = #codeParent
 * #48 ^property[=].valueInteger = 2120
@@ -1529,7 +1529,7 @@ Description: "Statuts juridiques de FINESS"
 * #48 ^property[+].code = #dateMaj
 * #48 ^property[=].valueDateTime = "1979-01-01T00:00:00+01:00"
 * #49 "Autre Organisme Mutualiste"
-* #49 ^property[0].code = #codeNiveau
+* #49 ^property[0].code = #niveau
 * #49 ^property[=].valueInteger = 1
 * #49 ^property[+].code = #codeParent
 * #49 ^property[=].valueInteger = 2120
@@ -1548,7 +1548,7 @@ Description: "Statuts juridiques de FINESS"
 * #49 ^property[+].code = #dateMaj
 * #49 ^property[=].valueDateTime = "1979-01-01T00:00:00+01:00"
 * #50 "Comité d'Entreprise ou Comité d'Etablissement"
-* #50 ^property[0].code = #codeNiveau
+* #50 ^property[0].code = #niveau
 * #50 ^property[=].valueInteger = 1
 * #50 ^property[+].code = #codeParent
 * #50 ^property[=].valueInteger = 2130
@@ -1571,7 +1571,7 @@ Description: "Statuts juridiques de FINESS"
 * #50 ^property[+].code = #dateMaj
 * #50 ^property[=].valueDateTime = "1979-01-01T00:00:00+01:00"
 * #51 "Syndicat"
-* #51 ^property[0].code = #codeNiveau
+* #51 ^property[0].code = #niveau
 * #51 ^property[=].valueInteger = 1
 * #51 ^property[+].code = #codeParent
 * #51 ^property[=].valueInteger = 2140
@@ -1586,7 +1586,7 @@ Description: "Statuts juridiques de FINESS"
 * #51 ^property[+].code = #dateMaj
 * #51 ^property[=].valueDateTime = "1979-01-01T00:00:00+01:00"
 * #52 "Syndicat de Propriétaires"
-* #52 ^property[0].code = #codeNiveau
+* #52 ^property[0].code = #niveau
 * #52 ^property[=].valueInteger = 1
 * #52 ^property[+].code = #codeParent
 * #52 ^property[=].valueInteger = 2150
@@ -1605,7 +1605,7 @@ Description: "Statuts juridiques de FINESS"
 * #52 ^property[+].code = #dateMaj
 * #52 ^property[=].valueDateTime = "1979-01-01T00:00:00+01:00"
 * #60 "Association Loi 1901 non Reconnue d'Utilité Publique"
-* #60 ^property[0].code = #codeNiveau
+* #60 ^property[0].code = #niveau
 * #60 ^property[=].valueInteger = 1
 * #60 ^property[+].code = #codeParent
 * #60 ^property[=].valueInteger = 2160
@@ -1624,7 +1624,7 @@ Description: "Statuts juridiques de FINESS"
 * #60 ^property[+].code = #dateMaj
 * #60 ^property[=].valueDateTime = "1979-01-01T00:00:00+01:00"
 * #61 "Association Loi 1901 Reconnue d'Utilité Publique"
-* #61 ^property[0].code = #codeNiveau
+* #61 ^property[0].code = #niveau
 * #61 ^property[=].valueInteger = 1
 * #61 ^property[+].code = #codeParent
 * #61 ^property[=].valueInteger = 2160
@@ -1643,7 +1643,7 @@ Description: "Statuts juridiques de FINESS"
 * #61 ^property[+].code = #dateMaj
 * #61 ^property[=].valueDateTime = "1979-01-01T00:00:00+01:00"
 * #62 "Association de Droit Local"
-* #62 ^property[0].code = #codeNiveau
+* #62 ^property[0].code = #niveau
 * #62 ^property[=].valueInteger = 1
 * #62 ^property[+].code = #codeParent
 * #62 ^property[=].valueInteger = 2160
@@ -1662,7 +1662,7 @@ Description: "Statuts juridiques de FINESS"
 * #62 ^property[+].code = #dateMaj
 * #62 ^property[=].valueDateTime = "1979-01-01T00:00:00+01:00"
 * #63 "Fondation"
-* #63 ^property[0].code = #codeNiveau
+* #63 ^property[0].code = #niveau
 * #63 ^property[=].valueInteger = 1
 * #63 ^property[+].code = #codeParent
 * #63 ^property[=].valueInteger = 2170
@@ -1677,7 +1677,7 @@ Description: "Statuts juridiques de FINESS"
 * #63 ^property[+].code = #dateMaj
 * #63 ^property[=].valueDateTime = "1979-01-01T00:00:00+01:00"
 * #64 "Congrégation"
-* #64 ^property[0].code = #codeNiveau
+* #64 ^property[0].code = #niveau
 * #64 ^property[=].valueInteger = 1
 * #64 ^property[+].code = #codeParent
 * #64 ^property[=].valueInteger = 2180
@@ -1692,7 +1692,7 @@ Description: "Statuts juridiques de FINESS"
 * #64 ^property[+].code = #dateMaj
 * #64 ^property[=].valueDateTime = "1979-01-01T00:00:00+01:00"
 * #65 "Autre Organisme Privé à But non Lucratif"
-* #65 ^property[0].code = #codeNiveau
+* #65 ^property[0].code = #niveau
 * #65 ^property[=].valueInteger = 1
 * #65 ^property[+].code = #codeParent
 * #65 ^property[=].valueInteger = 2190
@@ -1711,7 +1711,7 @@ Description: "Statuts juridiques de FINESS"
 * #65 ^property[+].code = #dateMaj
 * #65 ^property[=].valueDateTime = "1979-01-01T00:00:00+01:00"
 * #66 "Groupement de Coopération Sociale ou Médico-Sociale privé"
-* #66 ^property[0].code = #codeNiveau
+* #66 ^property[0].code = #niveau
 * #66 ^property[=].valueInteger = 1
 * #66 ^property[+].code = #codeParent
 * #66 ^property[=].valueInteger = 2190
@@ -1734,7 +1734,7 @@ Description: "Statuts juridiques de FINESS"
 * #66 ^property[+].code = #dateMaj
 * #66 ^property[=].valueDateTime = "2014-02-12T00:00:00+01:00"
 * #70 "Personne Physique"
-* #70 ^property[0].code = #codeNiveau
+* #70 ^property[0].code = #niveau
 * #70 ^property[=].valueInteger = 1
 * #70 ^property[+].code = #codeParent
 * #70 ^property[=].valueInteger = 2210
@@ -1749,7 +1749,7 @@ Description: "Statuts juridiques de FINESS"
 * #70 ^property[+].code = #dateMaj
 * #70 ^property[=].valueDateTime = "1979-01-01T00:00:00+01:00"
 * #71 "Société en Nom Collectif (S.N.C.)"
-* #71 ^property[0].code = #codeNiveau
+* #71 ^property[0].code = #niveau
 * #71 ^property[=].valueInteger = 1
 * #71 ^property[+].code = #codeParent
 * #71 ^property[=].valueInteger = 2220
@@ -1772,7 +1772,7 @@ Description: "Statuts juridiques de FINESS"
 * #71 ^property[+].code = #dateMaj
 * #71 ^property[=].valueDateTime = "1979-01-01T00:00:00+01:00"
 * #72 "Société A Responsabilité Limitée (S.A.R.L.)"
-* #72 ^property[0].code = #codeNiveau
+* #72 ^property[0].code = #niveau
 * #72 ^property[=].valueInteger = 1
 * #72 ^property[+].code = #codeParent
 * #72 ^property[=].valueInteger = 2230
@@ -1795,7 +1795,7 @@ Description: "Statuts juridiques de FINESS"
 * #72 ^property[+].code = #dateMaj
 * #72 ^property[=].valueDateTime = "1979-01-01T00:00:00+01:00"
 * #73 "Société Anonyme (S.A.)"
-* #73 ^property[0].code = #codeNiveau
+* #73 ^property[0].code = #niveau
 * #73 ^property[=].valueInteger = 1
 * #73 ^property[+].code = #codeParent
 * #73 ^property[=].valueInteger = 2240
@@ -1818,7 +1818,7 @@ Description: "Statuts juridiques de FINESS"
 * #73 ^property[+].code = #dateMaj
 * #73 ^property[=].valueDateTime = "1979-01-01T00:00:00+01:00"
 * #74 "Société Civile"
-* #74 ^property[0].code = #codeNiveau
+* #74 ^property[0].code = #niveau
 * #74 ^property[=].valueInteger = 1
 * #74 ^property[+].code = #codeParent
 * #74 ^property[=].valueInteger = 2250
@@ -1833,7 +1833,7 @@ Description: "Statuts juridiques de FINESS"
 * #74 ^property[+].code = #dateMaj
 * #74 ^property[=].valueDateTime = "1979-01-01T00:00:00+01:00"
 * #75 "Autre Société"
-* #75 ^property[0].code = #codeNiveau
+* #75 ^property[0].code = #niveau
 * #75 ^property[=].valueInteger = 1
 * #75 ^property[+].code = #codeParent
 * #75 ^property[=].valueInteger = 2260
@@ -1848,7 +1848,7 @@ Description: "Statuts juridiques de FINESS"
 * #75 ^property[+].code = #dateMaj
 * #75 ^property[=].valueDateTime = "1979-01-01T00:00:00+01:00"
 * #76 "Groupement d'Intérêt Economique (G.I.E.)"
-* #76 ^property[0].code = #codeNiveau
+* #76 ^property[0].code = #niveau
 * #76 ^property[=].valueInteger = 1
 * #76 ^property[+].code = #codeParent
 * #76 ^property[=].valueInteger = 2270
@@ -1871,7 +1871,7 @@ Description: "Statuts juridiques de FINESS"
 * #76 ^property[+].code = #dateMaj
 * #76 ^property[=].valueDateTime = "2008-02-28T00:00:00+01:00"
 * #77 "Autre Organisme Privé à Caractère Commercial"
-* #77 ^property[0].code = #codeNiveau
+* #77 ^property[0].code = #niveau
 * #77 ^property[=].valueInteger = 1
 * #77 ^property[+].code = #codeParent
 * #77 ^property[=].valueInteger = 2280
@@ -1890,7 +1890,7 @@ Description: "Statuts juridiques de FINESS"
 * #77 ^property[+].code = #dateMaj
 * #77 ^property[=].valueDateTime = "2008-02-28T00:00:00+01:00"
 * #78 "Entreprise Unipersonnelle Responsabilité Limitée (E.U.R.L.)"
-* #78 ^property[0].code = #codeNiveau
+* #78 ^property[0].code = #niveau
 * #78 ^property[=].valueInteger = 1
 * #78 ^property[+].code = #codeParent
 * #78 ^property[=].valueInteger = 2230
@@ -1913,7 +1913,7 @@ Description: "Statuts juridiques de FINESS"
 * #78 ^property[+].code = #dateMaj
 * #78 ^property[=].valueDateTime = "1979-01-01T00:00:00+01:00"
 * #79 "Société Civile de Moyens (S.C.M.)"
-* #79 ^property[0].code = #codeNiveau
+* #79 ^property[0].code = #niveau
 * #79 ^property[=].valueInteger = 1
 * #79 ^property[+].code = #codeParent
 * #79 ^property[=].valueInteger = 2250
@@ -1936,7 +1936,7 @@ Description: "Statuts juridiques de FINESS"
 * #79 ^property[+].code = #dateMaj
 * #79 ^property[=].valueDateTime = "1979-01-01T00:00:00+01:00"
 * #80 "Société Interprofessionnelle Soins Ambulatoires (S.I.S.A.)"
-* #80 ^property[0].code = #codeNiveau
+* #80 ^property[0].code = #niveau
 * #80 ^property[=].valueInteger = 1
 * #80 ^property[+].code = #codeParent
 * #80 ^property[=].valueInteger = 2250
@@ -1959,7 +1959,7 @@ Description: "Statuts juridiques de FINESS"
 * #80 ^property[+].code = #dateMaj
 * #80 ^property[=].valueDateTime = "2012-04-03T00:00:00+01:00"
 * #85 "Soc. Exercice Libéral Responsabilité Limitée (S.E.L.A.R.L.)"
-* #85 ^property[0].code = #codeNiveau
+* #85 ^property[0].code = #niveau
 * #85 ^property[=].valueInteger = 1
 * #85 ^property[+].code = #codeParent
 * #85 ^property[=].valueInteger = 2230
@@ -1982,7 +1982,7 @@ Description: "Statuts juridiques de FINESS"
 * #85 ^property[+].code = #dateMaj
 * #85 ^property[=].valueDateTime = "1979-01-01T00:00:00+01:00"
 * #86 "Société d'Exercice Libéral à Forme Anonyme (S.E.L.A.F.A.)"
-* #86 ^property[0].code = #codeNiveau
+* #86 ^property[0].code = #niveau
 * #86 ^property[=].valueInteger = 1
 * #86 ^property[+].code = #codeParent
 * #86 ^property[=].valueInteger = 2240
@@ -2005,7 +2005,7 @@ Description: "Statuts juridiques de FINESS"
 * #86 ^property[+].code = #dateMaj
 * #86 ^property[=].valueDateTime = "1979-01-01T00:00:00+01:00"
 * #87 "Société Exercice Libéral Commandite par Actions (S.E.L.C.A.)"
-* #87 ^property[0].code = #codeNiveau
+* #87 ^property[0].code = #niveau
 * #87 ^property[=].valueInteger = 1
 * #87 ^property[+].code = #codeParent
 * #87 ^property[=].valueInteger = 2260
@@ -2026,7 +2026,7 @@ Description: "Statuts juridiques de FINESS"
 * #87 ^property[+].code = #dateMaj
 * #87 ^property[=].valueDateTime = "1979-01-01T00:00:00+01:00"
 * #88 "Société Civile Professionnelle (S.C.P.)"
-* #88 ^property[0].code = #codeNiveau
+* #88 ^property[0].code = #niveau
 * #88 ^property[=].valueInteger = 1
 * #88 ^property[+].code = #codeParent
 * #88 ^property[=].valueInteger = 2250
@@ -2047,7 +2047,7 @@ Description: "Statuts juridiques de FINESS"
 * #88 ^property[+].code = #dateMaj
 * #88 ^property[=].valueDateTime = "1996-10-24T00:00:00+01:00"
 * #89 "Groupement de Coopération Sanitaire Privé"
-* #89 ^property[0].code = #codeNiveau
+* #89 ^property[0].code = #niveau
 * #89 ^property[=].valueInteger = 1
 * #89 ^property[+].code = #codeParent
 * #89 ^property[=].valueInteger = 2190
@@ -2068,7 +2068,7 @@ Description: "Statuts juridiques de FINESS"
 * #89 ^property[+].code = #dateMaj
 * #89 ^property[=].valueDateTime = "1999-06-17T00:00:00+01:00"
 * #90 "Organisme de Droit Etranger"
-* #90 ^property[0].code = #codeNiveau
+* #90 ^property[0].code = #niveau
 * #90 ^property[=].valueInteger = 1
 * #90 ^property[+].code = #codeParent
 * #90 ^property[=].valueInteger = 3110
@@ -2089,7 +2089,7 @@ Description: "Statuts juridiques de FINESS"
 * #90 ^property[+].code = #dateMaj
 * #90 ^property[=].valueDateTime = "2008-02-28T00:00:00+01:00"
 * #91 "Société Exercice Libéral par Actions Simplifiée (S.E.L.A.S.)"
-* #91 ^property[0].code = #codeNiveau
+* #91 ^property[0].code = #niveau
 * #91 ^property[=].valueInteger = 1
 * #91 ^property[+].code = #codeParent
 * #91 ^property[=].valueInteger = 2260
@@ -2110,7 +2110,7 @@ Description: "Statuts juridiques de FINESS"
 * #91 ^property[+].code = #dateMaj
 * #91 ^property[=].valueDateTime = "2014-02-12T00:00:00+01:00"
 * #93 "Société en commandite"
-* #93 ^property[0].code = #codeNiveau
+* #93 ^property[0].code = #niveau
 * #93 ^property[=].valueInteger = 1
 * #93 ^property[+].code = #codeParent
 * #93 ^property[=].valueInteger = 2260
@@ -2127,7 +2127,7 @@ Description: "Statuts juridiques de FINESS"
 * #93 ^property[+].code = #dateMaj
 * #93 ^property[=].valueDateTime = "2014-02-12T00:00:00+01:00"
 * #95 "Société par Actions Simplifiée (S.A.S.)"
-* #95 ^property[0].code = #codeNiveau
+* #95 ^property[0].code = #niveau
 * #95 ^property[=].valueInteger = 1
 * #95 ^property[+].code = #codeParent
 * #95 ^property[=].valueInteger = 2260
