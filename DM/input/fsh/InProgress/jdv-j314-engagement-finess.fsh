@@ -17,4 +17,4 @@ Description: "Jeu de valeurs FINESS contenant les engagements, de tous les types
 * ^experimental = false
 * ^date = "2025-06-19T18:02:28.249+00:00"
 * ^publisher = "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris"
-* include codes from system $tre-r395-engagement where niveau = "2"
+* include codes from system $tre-r395-engagement where niveau = "1"
