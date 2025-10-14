@@ -4152,6 +4152,19 @@
       "sources" : ["1.2.250.1.213.1.6.1.322"]
     },
     {
+      "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r397-categorie-entite-geographique-exercice?vs",
+      "version" : "20251014120000",
+      "status" : "active",
+      "name" : "VsTreR397CategorieEntiteGeographiqueExerciceAll",
+      "title" : "Vs Tre R397 Categorie Entite Geographique Exercice All",
+      "description" : "Jeu de valeurs ALL contenant les catégories d'établissement",
+      "systems" : [
+        "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r397-categorie-entite-geographique-exercice"
+      ],
+      "oids" : ["1.2.250.1.213.1.6.1.999"],
+      "sources" : ["1.2.250.1.213.1.6.1.999"]
+    },
+    {
       "url" : "https://smt.esante.gouv.fr/fhir/ValueSet/VS-test",
       "version" : "20210101000000",
       "status" : "active",
@@ -6731,7 +6744,7 @@
       "title" : "Jdv J310 Categorie Entite Geographique Exercice Finess",
       "description" : "Jeu de valeurs FINESS contenant les catégories d'entité géographique d'exercice spécifiques à FINESS",
       "systems" : [
-        "https://mos.esante.gouv.fr/NOS/TRE_R66-CategorieEtablissement/FHIR/TRE-R66-CategorieEtablissement"
+        "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r397-categorie-entite-geographique-exercice"
       ],
       "oids" : ["1.2.250.1.213.1.6.1.318"],
       "sources" : ["1.2.250.1.213.1.6.1.318"]

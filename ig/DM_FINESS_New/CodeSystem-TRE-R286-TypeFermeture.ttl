@@ -20,7 +20,7 @@
   ] ; # 
   fhir:text [
      fhir:status [ fhir:v "generated" ] ;
-     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Narratif généré : CodeSystem TRE-R286-TypeFermeture</b></p><a name=\"TRE-R286-TypeFermeture\"> </a><a name=\"hcTRE-R286-TypeFermeture\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">version: 4; Dernière mise à jour : 2024-08-28 05:13:08+0000</p><p style=\"margin-bottom: 0px\">Profil: <a href=\"http://hl7.org/fhir/R4/shareablecodesystem.html\">Shareable CodeSystem</a></p></div><p><b>Propriétés</b></p><p><b>Cette terminologie de référence (CodeSystem) définit les propriétés suivantes pour ses concepts</b></p><table class=\"grid\"><tr><td><b>Nom</b></td><td><b>Code</b></td><td><b>URI</b></td><td><b>Type</b></td><td><b>Description</b></td></tr><tr><td>dateValid</td><td>dateValid</td><td/><td>dateTime</td><td>date de validité d'un code concept</td></tr><tr><td>dateMaj</td><td>dateMaj</td><td/><td>dateTime</td><td>Date de mise à jour d'un code concept</td></tr><tr><td>dateFin</td><td>dateFin</td><td/><td>dateTime</td><td>Date de fin d'exploitation d'un code concept</td></tr><tr><td>status</td><td>status</td><td>http://hl7.org/fhir/concept-properties#status</td><td>code</td><td>Statut d'un code concept</td></tr><tr><td>deprecationDate</td><td>deprecationDate</td><td>http://hl7.org/fhir/concept-properties#deprecationDate</td><td>dateTime</td><td>Date de dépréciation du code</td></tr><tr><td>retirementDate</td><td>retirementDate</td><td>http://hl7.org/fhir/concept-properties#retirementDate</td><td>dateTime</td><td>Date de retrait du code</td></tr><tr><td>BTypeFermeturePmFiness</td><td>BTypeFermeturePmFiness</td><td>http://hl7.org/fhir/concept-properties#BTypeFermeturePmFiness</td><td>boolean</td><td>Permet de définir les codes à inclure dans le JdvJ364TypeFermeturePmFiness</td></tr><tr><td>BTypeFermetureEgeFiness</td><td>BTypeFermetureEgeFiness</td><td>http://hl7.org/fhir/concept-properties#BTypeFermetureEgeFiness</td><td>boolean</td><td>Permet de définir les codes à inclure dans le JdvJ365TypeFermetureEgeFiness</td></tr></table><p><b>Concepts</b></p><p>This case-insensitive code system <code>https://mos.esante.gouv.fr/NOS/TRE_R286-TypeFermeture/FHIR/TRE-R286-TypeFermeture</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>dateValid</b></td><td><b>dateMaj</b></td><td><b>status</b></td><td><b>BTypeFermeturePmFiness</b></td><td><b>BTypeFermetureEgeFiness</b></td><td><b>French (France) (fr)</b></td></tr><tr><td style=\"white-space:nowrap\">DEF<a name=\"TRE-R286-TypeFermeture-DEF\"> </a></td><td>Définitive</td><td>2019-01-25T12:00:00+01:00</td><td>2019-01-25T12:00:00+01:00</td><td>active</td><td>true</td><td>true</td><td/></tr><tr><td style=\"white-space:nowrap\">ERR<a name=\"TRE-R286-TypeFermeture-ERR\"> </a></td><td>Erreur</td><td>2019-01-25T12:00:00+01:00</td><td>2019-01-25T12:00:00+01:00</td><td>active</td><td>true</td><td>true</td><td/></tr><tr><td style=\"white-space:nowrap\">NDI<a name=\"TRE-R286-TypeFermeture-NDI\"> </a></td><td>Non défini</td><td>2019-01-25T12:00:00+01:00</td><td>2019-01-25T12:00:00+01:00</td><td>active</td><td>true</td><td/><td/></tr><tr><td style=\"white-space:nowrap\">CHP<a name=\"TRE-R286-TypeFermeture-CHP\"> </a></td><td>Sortie du champ FINESS</td><td>2019-01-25T12:00:00+01:00</td><td>2019-01-25T12:00:00+01:00</td><td>active</td><td/><td>true</td><td/></tr><tr><td style=\"white-space:nowrap\">EML<a name=\"TRE-R286-TypeFermeture-EML\"> </a></td><td>Ancienne autorisation fonctionnement EML</td><td>2019-01-25T12:00:00+01:00</td><td>2019-01-25T12:00:00+01:00</td><td>active</td><td/><td>true</td><td>Anc autor fonct EML</td></tr><tr><td style=\"white-space:nowrap\">PRO<a name=\"TRE-R286-TypeFermeture-PRO\"> </a></td><td>Provisoire</td><td>2019-01-25T12:00:00+01:00</td><td>2019-01-25T12:00:00+01:00</td><td>active</td><td/><td>true</td><td/></tr></table></div>"^^rdf:XMLLiteral
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Narratif généré : CodeSystem TRE-R286-TypeFermeture</b></p><a name=\"TRE-R286-TypeFermeture\"> </a><a name=\"hcTRE-R286-TypeFermeture\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">version: 4; Dernière mise à jour : 2024-08-28 05:13:08+0000</p><p style=\"margin-bottom: 0px\">Profil: <a href=\"http://hl7.org/fhir/R4/shareablecodesystem.html\">Shareable CodeSystem</a></p></div><p><b>Propriétés</b></p><p><b>Cette terminologie de référence (CodeSystem) définit les propriétés suivantes pour ses concepts</b></p><table class=\"grid\"><tr><td><b>Nom</b></td><td><b>Code</b></td><td><b>URI</b></td><td><b>Type</b></td><td><b>Description</b></td></tr><tr><td>dateValid</td><td>dateValid</td><td/><td>dateTime</td><td>date de validité d'un code concept</td></tr><tr><td>dateMaj</td><td>dateMaj</td><td/><td>dateTime</td><td>Date de mise à jour d'un code concept</td></tr><tr><td>dateFin</td><td>dateFin</td><td/><td>dateTime</td><td>Date de fin d'exploitation d'un code concept</td></tr><tr><td>status</td><td>status</td><td>http://hl7.org/fhir/concept-properties#status</td><td>code</td><td>Statut d'un code concept</td></tr><tr><td>deprecationDate</td><td>deprecationDate</td><td>http://hl7.org/fhir/concept-properties#deprecationDate</td><td>dateTime</td><td>Date de dépréciation du code</td></tr><tr><td>retirementDate</td><td>retirementDate</td><td>http://hl7.org/fhir/concept-properties#retirementDate</td><td>dateTime</td><td>Date de retrait du code</td></tr><tr><td>TypeFermeturePmFiness</td><td>TypeFermeturePmFiness</td><td>http://hl7.org/fhir/concept-properties#TypeFermeturePmFiness</td><td>boolean</td><td>Permet de définir les codes à inclure dans le JdvJ364TypeFermeturePmFiness</td></tr><tr><td>TypeFermetureEgeFiness</td><td>TypeFermetureEgeFiness</td><td>http://hl7.org/fhir/concept-properties#TypeFermetureEgeFiness</td><td>boolean</td><td>Permet de définir les codes à inclure dans le JdvJ365TypeFermetureEgeFiness</td></tr></table><p><b>Concepts</b></p><p>This case-insensitive code system <code>https://mos.esante.gouv.fr/NOS/TRE_R286-TypeFermeture/FHIR/TRE-R286-TypeFermeture</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>dateValid</b></td><td><b>dateMaj</b></td><td><b>status</b></td><td><b>TypeFermeturePmFiness</b></td><td><b>TypeFermetureEgeFiness</b></td><td><b>French (France) (fr)</b></td></tr><tr><td style=\"white-space:nowrap\">DEF<a name=\"TRE-R286-TypeFermeture-DEF\"> </a></td><td>Définitive</td><td>2019-01-25T12:00:00+01:00</td><td>2019-01-25T12:00:00+01:00</td><td>active</td><td>true</td><td>true</td><td/></tr><tr><td style=\"white-space:nowrap\">ERR<a name=\"TRE-R286-TypeFermeture-ERR\"> </a></td><td>Erreur</td><td>2019-01-25T12:00:00+01:00</td><td>2019-01-25T12:00:00+01:00</td><td>active</td><td>true</td><td>true</td><td/></tr><tr><td style=\"white-space:nowrap\">NDI<a name=\"TRE-R286-TypeFermeture-NDI\"> </a></td><td>Non défini</td><td>2019-01-25T12:00:00+01:00</td><td>2019-01-25T12:00:00+01:00</td><td>active</td><td>true</td><td/><td/></tr><tr><td style=\"white-space:nowrap\">CHP<a name=\"TRE-R286-TypeFermeture-CHP\"> </a></td><td>Sortie du champ FINESS</td><td>2019-01-25T12:00:00+01:00</td><td>2019-01-25T12:00:00+01:00</td><td>active</td><td/><td>true</td><td/></tr><tr><td style=\"white-space:nowrap\">EML<a name=\"TRE-R286-TypeFermeture-EML\"> </a></td><td>Ancienne autorisation fonctionnement EML</td><td>2019-01-25T12:00:00+01:00</td><td>2019-01-25T12:00:00+01:00</td><td>active</td><td/><td>true</td><td>Anc autor fonct EML</td></tr><tr><td style=\"white-space:nowrap\">PRO<a name=\"TRE-R286-TypeFermeture-PRO\"> </a></td><td>Provisoire</td><td>2019-01-25T12:00:00+01:00</td><td>2019-01-25T12:00:00+01:00</td><td>active</td><td/><td>true</td><td/></tr></table></div>"^^rdf:XMLLiteral
   ] ; # 
   fhir:extension ( [
      fhir:url [ fhir:v "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod"^^xsd:anyURI ] ;
@@ -76,13 +76,13 @@
      fhir:description [ fhir:v "Date de retrait du code" ] ;
      fhir:type [ fhir:v "dateTime" ]
   ] [
-     fhir:code [ fhir:v "BTypeFermeturePmFiness" ] ;
-     fhir:uri [ fhir:v "http://hl7.org/fhir/concept-properties#BTypeFermeturePmFiness"^^xsd:anyURI ] ;
+     fhir:code [ fhir:v "TypeFermeturePmFiness" ] ;
+     fhir:uri [ fhir:v "http://hl7.org/fhir/concept-properties#TypeFermeturePmFiness"^^xsd:anyURI ] ;
      fhir:description [ fhir:v "Permet de définir les codes à inclure dans le JdvJ364TypeFermeturePmFiness" ] ;
      fhir:type [ fhir:v "boolean" ]
   ] [
-     fhir:code [ fhir:v "BTypeFermetureEgeFiness" ] ;
-     fhir:uri [ fhir:v "http://hl7.org/fhir/concept-properties#BTypeFermetureEgeFiness"^^xsd:anyURI ] ;
+     fhir:code [ fhir:v "TypeFermetureEgeFiness" ] ;
+     fhir:uri [ fhir:v "http://hl7.org/fhir/concept-properties#TypeFermetureEgeFiness"^^xsd:anyURI ] ;
      fhir:description [ fhir:v "Permet de définir les codes à inclure dans le JdvJ365TypeFermetureEgeFiness" ] ;
      fhir:type [ fhir:v "boolean" ]
   ] ) ; # 
@@ -108,13 +108,13 @@
          fhir:v "active"
        ]
      ] [
-       fhir:code [ fhir:v "BTypeFermeturePmFiness" ] ;
+       fhir:code [ fhir:v "TypeFermeturePmFiness" ] ;
        fhir:value [
          a fhir:boolean ;
          fhir:v true
        ]
      ] [
-       fhir:code [ fhir:v "BTypeFermetureEgeFiness" ] ;
+       fhir:code [ fhir:v "TypeFermetureEgeFiness" ] ;
        fhir:value [
          a fhir:boolean ;
          fhir:v true
@@ -142,13 +142,13 @@
          fhir:v "active"
        ]
      ] [
-       fhir:code [ fhir:v "BTypeFermeturePmFiness" ] ;
+       fhir:code [ fhir:v "TypeFermeturePmFiness" ] ;
        fhir:value [
          a fhir:boolean ;
          fhir:v true
        ]
      ] [
-       fhir:code [ fhir:v "BTypeFermetureEgeFiness" ] ;
+       fhir:code [ fhir:v "TypeFermetureEgeFiness" ] ;
        fhir:value [
          a fhir:boolean ;
          fhir:v true
@@ -176,7 +176,7 @@
          fhir:v "active"
        ]
      ] [
-       fhir:code [ fhir:v "BTypeFermeturePmFiness" ] ;
+       fhir:code [ fhir:v "TypeFermeturePmFiness" ] ;
        fhir:value [
          a fhir:boolean ;
          fhir:v true
@@ -204,7 +204,7 @@
          fhir:v "active"
        ]
      ] [
-       fhir:code [ fhir:v "BTypeFermetureEgeFiness" ] ;
+       fhir:code [ fhir:v "TypeFermetureEgeFiness" ] ;
        fhir:value [
          a fhir:boolean ;
          fhir:v true
@@ -241,7 +241,7 @@
          fhir:v "active"
        ]
      ] [
-       fhir:code [ fhir:v "BTypeFermetureEgeFiness" ] ;
+       fhir:code [ fhir:v "TypeFermetureEgeFiness" ] ;
        fhir:value [
          a fhir:boolean ;
          fhir:v true
@@ -269,7 +269,7 @@
          fhir:v "active"
        ]
      ] [
-       fhir:code [ fhir:v "BTypeFermetureEgeFiness" ] ;
+       fhir:code [ fhir:v "TypeFermetureEgeFiness" ] ;
        fhir:value [
          a fhir:boolean ;
          fhir:v true

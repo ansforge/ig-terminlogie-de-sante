@@ -2072,8 +2072,8 @@
     },
     {
       "url" : "https://mos.esante.gouv.fr/NOS/TRE_R63-AgregatCategorieEtablissementNiv1/FHIR/TRE-R63-AgregatCategorieEtablissementNiv1",
-      "version" : "20231215120000",
-      "status" : "active",
+      "version" : "20251014120000",
+      "status" : "retired",
       "name" : "TRE_R63_AgregatCategorieEtablissementNiv1",
       "title" : null,
       "description" : "Agrégats de catégories d'établissements niveau 1",
@@ -2081,8 +2081,8 @@
     },
     {
       "url" : "https://mos.esante.gouv.fr/NOS/TRE_R64-AgregatCategorieEtablissementNiv2/FHIR/TRE-R64-AgregatCategorieEtablissementNiv2",
-      "version" : "20231215120000",
-      "status" : "active",
+      "version" : "20251014120000",
+      "status" : "retired",
       "name" : "TRE_R64_AgregatCategorieEtablissementNiv2",
       "title" : null,
       "description" : "Agrégats de catégories d'établissements niveau 2",
@@ -2090,8 +2090,8 @@
     },
     {
       "url" : "https://mos.esante.gouv.fr/NOS/TRE_R65-AgregatCategorieEtablissement/FHIR/TRE-R65-AgregatCategorieEtablissement",
-      "version" : "20240628120000",
-      "status" : "active",
+      "version" : "20251014120000",
+      "status" : "retired",
       "name" : "TRE_R65_AgregatCategorieEtablissement",
       "title" : null,
       "description" : "Agrégat de catégories d'établissements",
@@ -2099,8 +2099,8 @@
     },
     {
       "url" : "https://mos.esante.gouv.fr/NOS/TRE_R66-CategorieEtablissement/FHIR/TRE-R66-CategorieEtablissement",
-      "version" : "20250425120000",
-      "status" : "active",
+      "version" : "20251014120000",
+      "status" : "retired",
       "name" : "TRE_R66_CategorieEtablissement",
       "title" : null,
       "description" : "Catégorie d'établissements",

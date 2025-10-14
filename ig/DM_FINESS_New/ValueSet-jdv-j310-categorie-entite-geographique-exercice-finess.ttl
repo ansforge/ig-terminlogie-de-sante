@@ -19,7 +19,7 @@
   ] ; # 
   fhir:text [
      fhir:status [ fhir:v "generated" ] ;
-     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Narratif généré : EnsembleValeurs jdv-j310-categorie-entite-geographique-exercice-finess</b></p><a name=\"jdv-j310-categorie-entite-geographique-exercice-finess\"> </a><a name=\"hcjdv-j310-categorie-entite-geographique-exercice-finess\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">version: 1; Dernière mise à jour : 2025-06-11 18:02:28+0000</p><p style=\"margin-bottom: 0px\">Profil: <a href=\"http://hl7.org/fhir/R4/shareablevalueset.html\">Shareable ValueSet</a></p></div><ul><li>Include codes provenant de<a href=\"CodeSystem-TRE-R66-CategorieEtablissement.html\"><code>https://mos.esante.gouv.fr/NOS/TRE_R66-CategorieEtablissement/FHIR/TRE-R66-CategorieEtablissement</code></a> où code  matches (by regex) ^([0-6][0-9]{2})$</li></ul></div>"^^rdf:XMLLiteral
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Narratif généré : EnsembleValeurs jdv-j310-categorie-entite-geographique-exercice-finess</b></p><a name=\"jdv-j310-categorie-entite-geographique-exercice-finess\"> </a><a name=\"hcjdv-j310-categorie-entite-geographique-exercice-finess\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">version: 1; Dernière mise à jour : 2025-06-11 18:02:28+0000</p><p style=\"margin-bottom: 0px\">Profil: <a href=\"http://hl7.org/fhir/R4/shareablevalueset.html\">Shareable ValueSet</a></p></div><ul><li>Include codes provenant de<a href=\"CodeSystem-tre-r397-categorie-entite-geographique-exercice.html\"><code>https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r397-categorie-entite-geographique-exercice</code></a> où code  matches (by regex) ^([0-6][0-9]{2})$</li></ul></div>"^^rdf:XMLLiteral
   ] ; # 
   fhir:extension ( [
      fhir:url [ fhir:v "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod"^^xsd:anyURI ] ;
@@ -43,7 +43,7 @@
   fhir:description [ fhir:v "Jeu de valeurs FINESS contenant les catégories d'entité géographique d'exercice spécifiques à FINESS"] ; # 
   fhir:compose [
      fhir:include ( [
-       fhir:system [ fhir:v "https://mos.esante.gouv.fr/NOS/TRE_R66-CategorieEtablissement/FHIR/TRE-R66-CategorieEtablissement"^^xsd:anyURI ] ;
+       fhir:system [ fhir:v "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r397-categorie-entite-geographique-exercice"^^xsd:anyURI ] ;
        fhir:filter ( [
          fhir:property [ fhir:v "code" ] ;
          fhir:op [ fhir:v "regex" ] ;

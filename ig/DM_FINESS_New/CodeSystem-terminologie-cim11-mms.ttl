@@ -41,7 +41,7 @@
   fhir:title [ fhir:v "Classification internationale des maladies et des problèmes de santé connexes - 11ème révision"] ; # 
   fhir:status [ fhir:v "active"] ; # 
   fhir:experimental [ fhir:v false] ; # 
-  fhir:date [ fhir:v "2025-10-14T07:40:12+00:00"^^xsd:dateTime] ; # 
+  fhir:date [ fhir:v "2025-10-14T09:41:04+00:00"^^xsd:dateTime] ; # 
   fhir:publisher [ fhir:v "Agence du numérique en santé"] ; # 
   fhir:valueSet [
      fhir:v "https://smt.esante.gouv.fr/terminologie-cim11-mms?vs"^^xsd:anyURI ;

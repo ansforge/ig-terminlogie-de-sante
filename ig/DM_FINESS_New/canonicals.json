@@ -4369,7 +4369,7 @@
     "id" : "TRE-R63-AgregatCategorieEtablissementNiv1",
     "type" : "CodeSystem",
     "url" : "https://mos.esante.gouv.fr/NOS/TRE_R63-AgregatCategorieEtablissementNiv1/FHIR/TRE-R63-AgregatCategorieEtablissementNiv1",
-    "version" : "20231215120000",
+    "version" : "20251014120000",
     "name" : "TRE_R63_AgregatCategorieEtablissementNiv1",
     "oids" : ["1.2.250.1.213.1.6.1.5"]
   },
@@ -4385,7 +4385,7 @@
     "id" : "TRE-R64-AgregatCategorieEtablissementNiv2",
     "type" : "CodeSystem",
     "url" : "https://mos.esante.gouv.fr/NOS/TRE_R64-AgregatCategorieEtablissementNiv2/FHIR/TRE-R64-AgregatCategorieEtablissementNiv2",
-    "version" : "20231215120000",
+    "version" : "20251014120000",
     "name" : "TRE_R64_AgregatCategorieEtablissementNiv2",
     "oids" : ["1.2.250.1.213.1.6.1.6"]
   },
@@ -4401,7 +4401,7 @@
     "id" : "TRE-R65-AgregatCategorieEtablissement",
     "type" : "CodeSystem",
     "url" : "https://mos.esante.gouv.fr/NOS/TRE_R65-AgregatCategorieEtablissement/FHIR/TRE-R65-AgregatCategorieEtablissement",
-    "version" : "20240628120000",
+    "version" : "20251014120000",
     "name" : "TRE_R65_AgregatCategorieEtablissement",
     "oids" : ["1.2.250.1.213.1.6.1.7"]
   },
@@ -4417,7 +4417,7 @@
     "id" : "TRE-R66-CategorieEtablissement",
     "type" : "CodeSystem",
     "url" : "https://mos.esante.gouv.fr/NOS/TRE_R66-CategorieEtablissement/FHIR/TRE-R66-CategorieEtablissement",
-    "version" : "20250425120000",
+    "version" : "20251014120000",
     "name" : "TRE_R66_CategorieEtablissement",
     "oids" : ["1.2.250.1.213.1.6.1.8"]
   },
@@ -5012,6 +5012,14 @@
     "version" : "20250922120000",
     "name" : "TreR397CategorieEntiteGeographiqueExercice",
     "oids" : ["1.2.250.1.213.1.6.1.378"]
+  },
+  {
+    "id" : "vs-tre-r397-categorie-entite-geographique-exercice-all",
+    "type" : "ValueSet",
+    "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r397-categorie-entite-geographique-exercice?vs",
+    "version" : "20251014120000",
+    "name" : "VsTreR397CategorieEntiteGeographiqueExerciceAll",
+    "oids" : ["1.2.250.1.213.1.6.1.999"]
   },
   {
     "id" : "alignement-nuva-bdpm",

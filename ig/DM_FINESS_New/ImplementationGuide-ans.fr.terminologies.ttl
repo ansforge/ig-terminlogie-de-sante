@@ -65223,6 +65223,24 @@
          ]
        ] ) ;
        fhir:reference [
+         fhir:link <https://interop.esante.gouv.fr/terminologies/ValueSet/vs-tre-r397-categorie-entite-geographique-exercice-all> ;
+         fhir:reference [ fhir:v "ValueSet/vs-tre-r397-categorie-entite-geographique-exercice-all" ]
+       ] ;
+       fhir:name [ fhir:v "Vs Tre R397 Categorie Entite Geographique Exercice All" ] ;
+       fhir:description [ fhir:v "Jeu de valeurs ALL contenant les catégories d'établissement" ] ;
+       fhir:example [
+         a fhir:boolean ;
+         fhir:v false
+       ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [
+           a fhir:string ;
+           fhir:v "ValueSet"
+         ]
+       ] ) ;
+       fhir:reference [
          fhir:link <https://interop.esante.gouv.fr/terminologies/ValueSet/vs-tre-r62-domaine-all> ;
          fhir:reference [ fhir:v "ValueSet/vs-tre-r62-domaine-all" ]
        ] ;

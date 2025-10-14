@@ -30,6 +30,7 @@
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "description" : "Catégorie d'établissements - TRE Hierarchique qui remplace la TRE R66",
   "caseSensitive" : false,
+  "valueSet" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r397-categorie-entite-geographique-exercice?vs",
   "hierarchyMeaning" : "is-a",
   "content" : "complete",
   "count" : 425,

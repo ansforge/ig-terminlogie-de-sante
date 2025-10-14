@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ValueSet xmlns="http://hl7.org/fhir">
+  <id value="vs-tre-r397-categorie-entite-geographique-exercice-all"/>
+  <meta>
+    <versionId value="1"/>
+    <lastUpdated value="2025-10-14T18:02:28.249+00:00"/>
+    <profile value="http://hl7.org/fhir/StructureDefinition/shareablevalueset"/>
+  </meta>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Narratif généré : EnsembleValeurs vs-tre-r397-categorie-entite-geographique-exercice-all</b></p><a name="vs-tre-r397-categorie-entite-geographique-exercice-all"> </a><a name="hcvs-tre-r397-categorie-entite-geographique-exercice-all"> </a><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px">version: 1; Dernière mise à jour : 2025-10-14 18:02:28+0000</p><p style="margin-bottom: 0px">Profil: <a href="http://hl7.org/fhir/R4/shareablevalueset.html">Shareable ValueSet</a></p></div><ul><li>Include tous les codes définis dans <a href="CodeSystem-tre-r397-categorie-entite-geographique-exercice.html"><code>https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r397-categorie-entite-geographique-exercice</code></a></li></ul></div>
+  </text>
+  <extension url="http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod">
+    <valuePeriod>
+      <start value="2025-10-14T18:02:28.249+00:00"/>
+    </valuePeriod>
+  </extension>
+  <url value="https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r397-categorie-entite-geographique-exercice?vs"/>
+  <identifier>
+    <system value="urn:ietf:rfc:3986"/>
+    <value value="urn:oid:1.2.250.1.213.1.6.1.999"/>
+  </identifier>
+  <version value="20251014120000"/>
+  <name value="VsTreR397CategorieEntiteGeographiqueExerciceAll"/>
+  <title value="Vs Tre R397 Categorie Entite Geographique Exercice All"/>
+  <status value="active"/>
+  <experimental value="false"/>
+  <date value="2025-10-14T18:02:28.249+00:00"/>
+  <publisher value="Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris"/>
+  <description value="Jeu de valeurs ALL contenant les catégories d'établissement"/>
+  <compose>
+    <include>
+      <system value="https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r397-categorie-entite-geographique-exercice"/>
+    </include>
+  </compose>
+</ValueSet>

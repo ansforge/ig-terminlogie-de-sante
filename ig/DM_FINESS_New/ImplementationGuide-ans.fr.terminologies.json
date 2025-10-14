@@ -46442,6 +46442,18 @@
         "valueString" : "ValueSet"
       }],
       "reference" : {
+        "reference" : "ValueSet/vs-tre-r397-categorie-entite-geographique-exercice-all"
+      },
+      "name" : "Vs Tre R397 Categorie Entite Geographique Exercice All",
+      "description" : "Jeu de valeurs ALL contenant les catégories d'établissement",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      }],
+      "reference" : {
         "reference" : "ValueSet/vs-tre-r62-domaine-all"
       },
       "name" : "Vs Tre R62 Domaine All",
