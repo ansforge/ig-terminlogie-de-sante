@@ -26,21 +26,25 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * ^property[=].description = "Permet d'indiquer le niveau hiérarchique du code"
 * ^property[=].type = #integer
 * ^property[+].code = #parent
-* ^property[=].description = "An immediate parent of the concept in the hierarchy"
 * ^property[=].uri = "http://hl7.org/fhir/concept-properties#parent"
+* ^property[=].description = "An immediate parent of the concept in the hierarchy"
 * ^property[=].type = #code
 * ^property[+].code = #domaine
 * ^property[=].uri = "https://smt.esante.gouv.fr/fhir/concept-properties#domaine"
 * ^property[=].description = "Domaine de la categorie d etablissement"
 * ^property[=].type = #Coding
 * ^property[+].code = #dateValid
+* ^property[=].uri = "https://smt.esante.gouv.fr/fhir/concept-properties#dateValid"
 * ^property[=].description = "date de validité d'un code concept"
 * ^property[=].type = #dateTime
 * ^property[+].code = #dateMaj
+* ^property[=].uri = "https://smt.esante.gouv.fr/fhir/concept-properties#dateMaj"
 * ^property[=].description = "Date de mise à jour d'un code concept"
 * ^property[=].type = #dateTime
 * ^property[+].code = #dateFin
+* ^property[=].uri = "https://smt.esante.gouv.fr/fhir/concept-properties#dateFin"
 * ^property[=].description = "Date de fin d'exploitation d'un code concept"
+* ^property[=].type = #dateTime
 * ^property[+].code = #status
 * ^property[=].uri = "http://hl7.org/fhir/concept-properties#status"
 * ^property[=].description = "A property that indicates the status of the concept."
@@ -49,7 +53,6 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * ^property[=].uri = "http://hl7.org/fhir/concept-properties#deprecationDate"
 * ^property[=].description = "Date Concept was deprecated"
 * ^property[=].type = #dateTime
-* ^property[=].type = #code
 * ^property[+].code = #retirementDate
 * ^property[=].uri = "http://hl7.org/fhir/concept-properties#retirementDate"
 * ^property[=].description = "Date Concept was retired"
