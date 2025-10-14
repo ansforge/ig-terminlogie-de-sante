@@ -38,12 +38,12 @@ Description: "Type de fermeture, codes provenant du FINESS pour les EJ et EG"
 * ^property[=].uri = "http://hl7.org/fhir/concept-properties#retirementDate"
 * ^property[=].description = "Date de retrait du code"
 * ^property[=].type = #dateTime
-* ^property[+].code = #BTypeFermeturePmFiness
-* ^property[=].uri = "http://hl7.org/fhir/concept-properties#BTypeFermeturePmFiness"
+* ^property[+].code = #TypeFermeturePmFiness
+* ^property[=].uri = "http://hl7.org/fhir/concept-properties#TypeFermeturePmFiness"
 * ^property[=].description = "Permet de définir les codes à inclure dans le JdvJ364TypeFermeturePmFiness"
 * ^property[=].type = #boolean
-* ^property[+].code = #BTypeFermetureEgeFiness
-* ^property[=].uri = "http://hl7.org/fhir/concept-properties#BTypeFermetureEgeFiness"
+* ^property[+].code = #TypeFermetureEgeFiness
+* ^property[=].uri = "http://hl7.org/fhir/concept-properties#TypeFermetureEgeFiness"
 * ^property[=].description = "Permet de définir les codes à inclure dans le JdvJ365TypeFermetureEgeFiness"
 * ^property[=].type = #boolean
 * #DEF "Définitive"
@@ -53,9 +53,9 @@ Description: "Type de fermeture, codes provenant du FINESS pour les EJ et EG"
 * #DEF ^property[=].valueDateTime = "2019-01-25T12:00:00+01:00"
 * #DEF ^property[+].code = #status
 * #DEF ^property[=].valueCode = #active
-* #DEF ^property[+].code = #BTypeFermeturePmFiness
+* #DEF ^property[+].code = #TypeFermeturePmFiness
 * #DEF ^property[=].valueBoolean = true
-* #DEF ^property[+].code = #BTypeFermetureEgeFiness
+* #DEF ^property[+].code = #TypeFermetureEgeFiness
 * #DEF ^property[=].valueBoolean = true
 * #ERR "Erreur"
 * #ERR ^property[0].code = #dateValid
@@ -64,9 +64,9 @@ Description: "Type de fermeture, codes provenant du FINESS pour les EJ et EG"
 * #ERR ^property[=].valueDateTime = "2019-01-25T12:00:00+01:00"
 * #ERR ^property[+].code = #status
 * #ERR ^property[=].valueCode = #active
-* #ERR ^property[+].code = #BTypeFermeturePmFiness
+* #ERR ^property[+].code = #TypeFermeturePmFiness
 * #ERR ^property[=].valueBoolean = true
-* #ERR ^property[+].code = #BTypeFermetureEgeFiness
+* #ERR ^property[+].code = #TypeFermetureEgeFiness
 * #ERR ^property[=].valueBoolean = true
 * #NDI "Non défini"
 * #NDI ^property[0].code = #dateValid
@@ -75,7 +75,7 @@ Description: "Type de fermeture, codes provenant du FINESS pour les EJ et EG"
 * #NDI ^property[=].valueDateTime = "2019-01-25T12:00:00+01:00"
 * #NDI ^property[+].code = #status
 * #NDI ^property[=].valueCode = #active
-* #NDI ^property[+].code = #BTypeFermeturePmFiness
+* #NDI ^property[+].code = #TypeFermeturePmFiness
 * #NDI ^property[=].valueBoolean = true
 * #CHP "Sortie du champ FINESS"
 * #CHP ^property[0].code = #dateValid
@@ -84,7 +84,7 @@ Description: "Type de fermeture, codes provenant du FINESS pour les EJ et EG"
 * #CHP ^property[=].valueDateTime = "2019-01-25T12:00:00+01:00"
 * #CHP ^property[+].code = #status
 * #CHP ^property[=].valueCode = #active
-* #CHP ^property[+].code = #BTypeFermetureEgeFiness
+* #CHP ^property[+].code = #TypeFermetureEgeFiness
 * #CHP ^property[=].valueBoolean = true
 * #EML "Ancienne autorisation fonctionnement EML"
 * #EML ^designation.language = #fr-FR
@@ -96,7 +96,7 @@ Description: "Type de fermeture, codes provenant du FINESS pour les EJ et EG"
 * #EML ^property[=].valueDateTime = "2019-01-25T12:00:00+01:00"
 * #EML ^property[+].code = #status
 * #EML ^property[=].valueCode = #active
-* #EML ^property[+].code = #BTypeFermetureEgeFiness
+* #EML ^property[+].code = #TypeFermetureEgeFiness
 * #EML ^property[=].valueBoolean = true
 * #PRO "Provisoire"
 * #PRO ^property[0].code = #dateValid
@@ -105,5 +105,5 @@ Description: "Type de fermeture, codes provenant du FINESS pour les EJ et EG"
 * #PRO ^property[=].valueDateTime = "2019-01-25T12:00:00+01:00"
 * #PRO ^property[+].code = #status
 * #PRO ^property[=].valueCode = #active
-* #PRO ^property[+].code = #BTypeFermetureEgeFiness
+* #PRO ^property[+].code = #TypeFermetureEgeFiness
 * #PRO ^property[=].valueBoolean = true
