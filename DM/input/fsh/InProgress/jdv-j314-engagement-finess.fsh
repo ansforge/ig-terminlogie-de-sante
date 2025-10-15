@@ -9,7 +9,7 @@ Description: "Jeu de valeurs FINESS contenant les engagements, de tous les types
 * ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablevalueset"
 * ^extension.url = "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod"
 * ^extension.valuePeriod.start = "2025-06-19T18:02:28.249+00:00"
-* ^url = "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j293-type-engagement-finess"
+* ^url = "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j314-engagement-finess"
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value = "urn:oid:OID:1.2.250.1.213.1.6.1.322"
 * ^version = "20250619120000"
