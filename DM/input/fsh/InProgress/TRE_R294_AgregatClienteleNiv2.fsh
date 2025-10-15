@@ -1,21 +1,21 @@
-CodeSystem: TRE_R294_AgregatClienteleNiv3
-Id: TRE-R294-AgregatClienteleNiv3
-Description: "Agrégats de clientèle niveau 3"
+CodeSystem: TRE_R294_AgregatClienteleNiv2
+Id: TRE-R294-AgregatClienteleNiv2
+Description: "Agrégats de clientèle niveau 2"
 * ^meta.versionId = "4"
-* ^meta.lastUpdated = "2024-08-28T05:13:13.383+00:00"
+* ^meta.lastUpdated = "2025-10-15T05:13:13.383+00:00"
 * ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablecodesystem"
 * ^extension.url = "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod"
-* ^extension.valuePeriod.start = "2020-06-26T12:00:00+01:00"
-* ^url = "https://mos.esante.gouv.fr/NOS/TRE_R294-AgregatClienteleNiv3/FHIR/TRE-R294-AgregatClienteleNiv3"
+* ^extension.valuePeriod.start = "2025-10-15T12:00:00+01:00"
+* ^url = "https://mos.esante.gouv.fr/NOS/TRE_R294-AgregatClienteleNiv2/FHIR/TRE-R294-AgregatClienteleNiv2"
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value = "urn:oid:1.2.250.1.213.1.6.1.193"
-* ^version = "20231215120000"
+* ^version = "20251015120000"
 * ^status = #active
 * ^experimental = false
-* ^date = "2023-12-15T12:00:00+01:00"
+* ^date = "2025-10-15T12:00:00+01:00"
 * ^publisher = "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris"
 * ^caseSensitive = false
-* ^valueSet = "https://mos.esante.gouv.fr/NOS/TRE_R294-AgregatClienteleNiv3/FHIR/TRE-R294-AgregatClienteleNiv3?vs"
+* ^valueSet = "https://mos.esante.gouv.fr/NOS/TRE_R294-AgregatClienteleNiv2/FHIR/TRE-R294-AgregatClienteleNiv2?vs"
 * ^content = #complete
 * ^property[0].code = #dateValid
 * ^property[=].description = "date de validité d'un code concept"

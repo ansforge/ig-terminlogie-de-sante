@@ -17,4 +17,4 @@ Description: "Liste des appareils AMM vus de FINESS"
 * ^experimental = false
 * ^date = "2025-07-17T18:02:28.249+00:00"
 * ^publisher = "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris"
-* include codes from system $tre-r212-equipement where finess = "true"
+* include codes from system $tre-r212-equipement where appareilAmm = "true"

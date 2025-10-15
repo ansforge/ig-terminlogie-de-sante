@@ -20,12 +20,15 @@ Description: "Type de fermeture, codes provenant du FINESS pour les EJ et EG"
 * ^valueSet = "https://mos.esante.gouv.fr/NOS/TRE_R286-TypeFermeture/FHIR/TRE-R286-TypeFermeture?vs"
 * ^content = #complete
 * ^property[0].code = #dateValid
+* ^property[=].uri = "https://smt.esante.gouv.fr/fhir/concept-properties#dateValid"
 * ^property[=].description = "date de validité d'un code concept"
 * ^property[=].type = #dateTime
 * ^property[+].code = #dateMaj
+* ^property[=].uri = "https://smt.esante.gouv.fr/fhir/concept-properties#dateMaj"
 * ^property[=].description = "Date de mise à jour d'un code concept"
 * ^property[=].type = #dateTime
 * ^property[+].code = #dateFin
+* ^property[=].uri = "https://smt.esante.gouv.fr/fhir/concept-properties#dateFin"
 * ^property[=].description = "Date de fin d'exploitation d'un code concept"
 * ^property[=].type = #dateTime
 * ^property[+].code = #status
@@ -41,11 +44,11 @@ Description: "Type de fermeture, codes provenant du FINESS pour les EJ et EG"
 * ^property[=].description = "Date de retrait du code"
 * ^property[=].type = #dateTime
 * ^property[+].code = #TypeFermeturePmFiness
-* ^property[=].uri = "http://hl7.org/fhir/concept-properties#TypeFermeturePmFiness"
+* ^property[=].uri = "https://smt.esante.gouv.fr/fhir/concept-properties#TypeFermeturePmFiness"
 * ^property[=].description = "Permet de définir les codes à inclure dans le JdvJ364TypeFermeturePmFiness"
 * ^property[=].type = #boolean
 * ^property[+].code = #TypeFermetureEgeFiness
-* ^property[=].uri = "http://hl7.org/fhir/concept-properties#TypeFermetureEgeFiness"
+* ^property[=].uri = "https://smt.esante.gouv.fr/fhir/concept-properties#TypeFermetureEgeFiness"
 * ^property[=].description = "Permet de définir les codes à inclure dans le JdvJ365TypeFermetureEgeFiness"
 * ^property[=].type = #boolean
 * #DEF "Définitive"

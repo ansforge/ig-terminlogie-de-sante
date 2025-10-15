@@ -1,3 +1,5 @@
+Alias: $sct = http://snomed.info/sct
+
 CodeSystem: TRE_R212_Equipement
 Id: TRE-R212-Equipement
 Description: "Equipement"
@@ -18,12 +20,15 @@ Description: "Equipement"
 * ^caseSensitive = false
 * ^content = #complete
 * ^property[0].code = #dateValid
+* ^property[=].uri = "https://smt.esante.gouv.fr/fhir/concept-properties#dateValid"
 * ^property[=].description = "date de validité d'un code concept"
 * ^property[=].type = #dateTime
 * ^property[+].code = #dateMaj
+* ^property[=].uri = "https://smt.esante.gouv.fr/fhir/concept-properties#dateMaj"
 * ^property[=].description = "Date de mise à jour d'un code concept"
 * ^property[=].type = #dateTime
 * ^property[+].code = #dateFin
+* ^property[=].uri = "https://smt.esante.gouv.fr/fhir/concept-properties#dateFin"
 * ^property[=].description = "Date de fin d'exploitation d'un code concept"
 * ^property[=].type = #dateTime
 * ^property[+].code = #deprecationDate
@@ -38,9 +43,9 @@ Description: "Equipement"
 * ^property[=].uri = "http://hl7.org/fhir/concept-properties#retirementDate"
 * ^property[=].description = "Date Concept was retired"
 * ^property[=].type = #dateTime
-* ^property[+].code = #finess
-* ^property[=].uri = "http://hl7.org/fhir/concept-properties#finess"
-* ^property[=].description = "Permet de définir les codes concepts utilisés par FINESS+"
+* ^property[+].code = #appareilAmm
+* ^property[=].uri = "https://smt.esante.gouv.fr/fhir/concept-properties#appareilAmm"
+* ^property[=].description = "Permet de définir les codes concepts utilisés dans le JdvJ351AppareilAmmFiness"
 * ^property[=].type = #boolean
 * #001 "Angiographie biplan rotationnelle (reconstruction scanner integrée)"
 * #001 ^property[0].code = #dateValid
@@ -2011,7 +2016,7 @@ Description: "Equipement"
 * #230 ^property[=].valueDateTime = "2025-07-17T00:00:00+01:00"
 * #230 ^property[+].code = #status
 * #230 ^property[=].valueCode = #active
-* #230 ^property[+].code = #finess
+* #230 ^property[+].code = #appareilAMM
 * #230 ^property[=].valueBoolean = true
 * #231 "Scanner"
 * #231 ^designation.language = #fr-FR
@@ -2024,7 +2029,7 @@ Description: "Equipement"
 * #231 ^property[=].valueDateTime = "2025-07-17T00:00:00+01:00"
 * #231 ^property[+].code = #status
 * #231 ^property[=].valueCode = #active
-* #231 ^property[+].code = #finess
+* #231 ^property[+].code = #appareilAmm
 * #231 ^property[=].valueBoolean = true
 * #232 "Tomographie par Émission Monophotonique"
 * #232 ^designation.language = #fr-FR
@@ -2037,7 +2042,7 @@ Description: "Equipement"
 * #232 ^property[=].valueDateTime = "2025-07-17T00:00:00+01:00"
 * #232 ^property[+].code = #status
 * #232 ^property[=].valueCode = #active
-* #232 ^property[+].code = #finess
+* #232 ^property[+].code = #appareilAmm
 * #232 ^property[=].valueBoolean = true
 * #233 "Tomographie par Émission de Positons"
 * #233 ^designation.language = #fr-FR
@@ -2050,5 +2055,5 @@ Description: "Equipement"
 * #233 ^property[=].valueDateTime = "2025-07-17T00:00:00+01:00"
 * #233 ^property[+].code = #status
 * #233 ^property[=].valueCode = #active
-* #233 ^property[+].code = #finess
+* #233 ^property[+].code = #appareilAmm
 * #233 ^property[=].valueBoolean = true

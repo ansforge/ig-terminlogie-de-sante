@@ -33,7 +33,7 @@ Description: "Statuts juridiques de FINESS"
 * ^property[=].description = "Permet de définir les codes concepts utilisés par FINESS+"
 * ^property[=].type = #boolean
 * ^property[+].code = #rpps
-* ^property[=].uri = "https://smt.esante.gouv.fr/fhir/concept-properties#finess"
+* ^property[=].uri = "https://smt.esante.gouv.fr/fhir/concept-properties#rpps"
 * ^property[=].description = "Permet de définir les codes concepts définis par le RPPS"
 * ^property[=].type = #boolean
 * ^property[+].code = #enreg
