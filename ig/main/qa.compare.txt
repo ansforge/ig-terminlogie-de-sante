@@ -1,10 +1,10 @@
 Terminologies : Validation Results
 =========================================
 
-err = 110, warn = 809, info = 980
+err = 125, warn = 824, info = 984
 $--
 Generated $--. FHIR version $-- for ans.fr.terminologies#$-- (canonical = https://interop.esante.gouv.fr/terminologies)
- Build Errors : 428 / 26 / 0
+ Build Errors : 443 / 26 / 0
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/DM/fsh-generated/resources/ConceptMap-ASS-A11-CorresModeleCDA-XdsFormatCode-CISIS : 0 / 0 / 1
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/DM/fsh-generated/resources/ConceptMap-ASS-A12-CorresMediaTypeCDANonStructure-XdsFormatCode-CISIS : 0 / 0 / 1
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/DM/fsh-generated/resources/ConceptMap-ASS-A13-TypeEvenement-FluxStandardise : 0 / 0 / 1
@@ -330,7 +330,7 @@ Generated $--. FHIR version $-- for ans.fr.terminologies#$-- (canonical = https:
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JdvActeCs8Cisis_jdv-acte-cs8-cisis : 0 / 0 / 1
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JdvActeCseCisis_jdv-acte-cse-cisis : 0 / 0 / 1
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JdvActeObpCisis_jdv-acte-obp-cisis : 0 / 0 / 1
- /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JdvActiviteCisis_jdv-activite-cisis : 0 / 0 / 1
+ /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JdvActiviteCisis_jdv-activite-cisis : 5 / 5 / 2
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JdvAddictionCisis_jdv-addiction-cisis : 0 / 0 / 1
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JdvAdditionGrandeurCisis_jdv-addition-grandeur-cisis : 0 / 0 / 1
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JdvAgeCisis_jdv-age-cisis : 0 / 0 / 2
@@ -355,7 +355,7 @@ Generated $--. FHIR version $-- for ans.fr.terminologies#$-- (canonical = https:
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JdvAutreSymptomeExNeuroCisis_jdv-autre-symptome-ex-neuro-cisis : 0 / 0 / 1
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JdvAvisMedicalComplementaireCisis_jdv-avis-medical-complementaire-cisis : 0 / 0 / 1
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JdvAxamenComplementaireCisis_jdv-examen-complementaire-cisis : 0 / 1 / 1
- /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JdvBatterieExamenCisis_jdv-batterie-examen-cisis : 0 / 0 / 1
+ /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JdvBatterieExamenCisis_jdv-batterie-examen-cisis : 1 / 1 / 2
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JdvBilanTechniqueCisis_jdv-bilan-technique-cisis : 0 / 1 / 1
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JdvBioInstructionPatientCisis_jdv-bio-instruction-patient-cisis : 0 / 0 / 1
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JdvCasSporadiqueFamilialCisis_jdv-cas-sporadique-familial-cisis : 0 / 0 / 1
@@ -363,7 +363,7 @@ Generated $--. FHIR version $-- for ans.fr.terminologies#$-- (canonical = https:
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JdvCauseCesarienneCisis_jdv-cause-cesarienne-cisis : 0 / 0 / 1
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JdvCddFaCisis_jdv-cdd-fa-cisis : 0 / 0 / 1
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JdvCerveletLocalisationCisis_jdv-cervelet-localisation-cisis : 0 / 0 / 1
- /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JdvChecklistDluCisis_jdv-checklist-dlu-cisis : 0 / 0 / 1
+ /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JdvChecklistDluCisis_jdv-checklist-dlu-cisis : 5 / 5 / 2
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JdvChecklistFludrCisis_jdv-checklist-fludr-cisis : 0 / 0 / 1
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JdvCirconstanceDecesCisis_jdv-circonstance-deces-cisis : 0 / 0 / 1
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JdvClasseTherapieCisis_jdv-classe-therapie-cisis : 0 / 0 / 1
@@ -379,7 +379,7 @@ Generated $--. FHIR version $-- for ans.fr.terminologies#$-- (canonical = https:
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JdvComplicationCisis_jdv-complication-cisis : 0 / 0 / 1
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JdvComplicationDigestiveCisis_jdv-complication-digestive-cisis : 0 / 0 / 1
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JdvComplicationNeurologiqueCisis_jdv-complication-neurologique-cisis : 0 / 0 / 1
- /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JdvComplicationNeuropsychiatriqueCisis_jdv-complication-neuropsychiatrique-cisis : 0 / 0 / 1
+ /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JdvComplicationNeuropsychiatriqueCisis_jdv-complication-neuropsychiatrique-cisis : 1 / 1 / 1
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JdvComplicationPulmonaireCisis_jdv-complication-pulmonaire-cisis : 0 / 0 / 1
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JdvComplicationThromboemboliqueCisis_jdv-complication-thromboembolique-cisis : 0 / 0 / 1
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JdvComplicationUrinaireCisis_jdv-complication-urinaire-cisis : 0 / 0 / 1
@@ -395,7 +395,7 @@ Generated $--. FHIR version $-- for ans.fr.terminologies#$-- (canonical = https:
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JdvCouvertureSocialeCisis_jdv-couverture-sociale-cisis : 0 / 0 / 1
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JdvDateConsultationCisis_jdv-date-consultation-cisis : 0 / 0 / 1
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JdvDefaillanceMaterielleCisis_jdv-defaillance-materielle-cisis : 0 / 2 / 1
- /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JdvDeficiencePhysiqueCisis_jdv-deficience-physique-cisis : 0 / 0 / 1
+ /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JdvDeficiencePhysiqueCisis_jdv-deficience-physique-cisis : 2 / 2 / 1
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JdvDelimitationActiviteCisis_jdv-delimitation-activite-cisis : 0 / 0 / 1
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JdvDensiteMammaireCisis_jdv-densite-mammaire-cisis : 0 / 0 / 1
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JdvDepistageNeonatalCisis_jdv-depistage-neonatal-cisis : 0 / 0 / 2
@@ -609,7 +609,7 @@ Generated $--. FHIR version $-- for ans.fr.terminologies#$-- (canonical = https:
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JdvResultatDepistageNitriturieCisis_jdv-resultat-depistage-nitriturie-cisis : 0 / 0 / 2
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JdvResultatDepistageProteinurieCisis_jdv-resultat-depistage-proteinurie-cisis : 0 / 0 / 1
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JdvResultatDepistageRuptureMembranePhCisis_jdv-resultat-depistage-rupture-membrane-ph-cisis : 0 / 0 / 2
- /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JdvResultatDepistageSurditeCisis_jdv-resultat-depistage-surdite-cisis : 0 / 0 / 1
+ /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JdvResultatDepistageSurditeCisis_jdv-resultat-depistage-surdite-cisis : 1 / 1 / 2
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JdvResultatDepistageUrobilinogenurieCisis_jdv-resultat-depistage-urobilinogenurie-cisis : 0 / 0 / 2
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JdvResultatEvaluationCisis_jdv-resultat-evaluation-cisis : 0 / 3 / 2
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JdvResultatExamenCytologiqueCcuCisis_jdv-resultat-examen-cytologique-ccu-cisis : 0 / 0 / 1
@@ -1430,6 +1430,20 @@ ERROR: /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSou
 ERROR: /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/output/ValueSet-TRE-R222-MediaTypeCorpsCDANonStructure-all.html#/html/body/div/div/div/div/div/div/div/input/div/div/table/tr/td/a at Line 362, column 2537: The link 'CodeSystem-TRE-A11-IheFormatCode.html#TRE-A11-IheFormatCode-ValueSet-JDV-J10-XdsFormatCode-CISIS.46html' for "ValueSet-JDV-J10-XdsFormatCode-CISIS.html" cannot be resolved (valid targets: 60 targets)
 ERROR: /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/output/ValueSet-TRE-R222-MediaTypeCorpsCDANonStructure-all.html#/html/body/div/div/div/div/div/div/div/input/div/div/table/tr/td/a at Line 362, column 3203: The link 'CodeSystem-TRE-A11-IheFormatCode.html#TRE-A11-IheFormatCode-ValueSet-JDV-J10-XdsFormatCode-CISIS.46html' for "ValueSet-JDV-J10-XdsFormatCode-CISIS.html" cannot be resolved (valid targets: 60 targets)
 ERROR: /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/output/ValueSet-TRE-R222-MediaTypeCorpsCDANonStructure-all.html#/html/body/div/div/div/div/div/div/div/input/div/div/table/tr/td/a at Line 362, column 3869: The link 'CodeSystem-TRE-A11-IheFormatCode.html#TRE-A11-IheFormatCode-ValueSet-JDV-J10-XdsFormatCode-CISIS.46html' for "ValueSet-JDV-J10-XdsFormatCode-CISIS.html" cannot be resolved (valid targets: 60 targets)
+ERROR: /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/output/ValueSet-jdv-activite-cisis.html#/html/body/div/div/div/div/div/div/div/input/div/div/div/ul/li/table/tr/td/a at Line 368, column 277: The link 'CodeSystem-terminologie-cisis.html#terminologie-cisis-PAT-040' for "PAT-040" cannot be resolved (valid targets: 1541 targets)
+ERROR: /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/output/ValueSet-jdv-activite-cisis.html#/html/body/div/div/div/div/div/div/div/input/div/div/div/ul/li/table/tr/td/a at Line 368, column 404: The link 'CodeSystem-terminologie-cisis.html#terminologie-cisis-PAT-042' for "PAT-042" cannot be resolved (valid targets: 1541 targets)
+ERROR: /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/output/ValueSet-jdv-activite-cisis.html#/html/body/div/div/div/div/div/div/div/input/div/div/div/ul/li/table/tr/td/a at Line 368, column 640: The link 'CodeSystem-terminologie-cisis.html#terminologie-cisis-PAT-044' for "PAT-044" cannot be resolved (valid targets: 1541 targets)
+ERROR: /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/output/ValueSet-jdv-activite-cisis.html#/html/body/div/div/div/div/div/div/div/input/div/div/div/ul/li/table/tr/td/a at Line 368, column 764: The link 'CodeSystem-terminologie-cisis.html#terminologie-cisis-PAT-045' for "PAT-045" cannot be resolved (valid targets: 1541 targets)
+ERROR: /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/output/ValueSet-jdv-activite-cisis.html#/html/body/div/div/div/div/div/div/div/input/div/div/div/ul/li/table/tr/td/a at Line 368, column 881: The link 'CodeSystem-terminologie-cisis.html#terminologie-cisis-PAT-046' for "PAT-046" cannot be resolved (valid targets: 1541 targets)
+ERROR: /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/output/ValueSet-jdv-batterie-examen-cisis.html#/html/body/div/div/div/div/div/div/div/input/div/div/div/ul/li/table/tr/td/a at Line 368, column 277: The link 'CodeSystem-terminologie-cisis.html#terminologie-cisis-GEN-078' for "GEN-078" cannot be resolved (valid targets: 1541 targets)
+ERROR: /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/output/ValueSet-jdv-checklist-dlu-cisis.html#/html/body/div/div/div/div/div/div/div/input/div/div/div/ul/li/table/tr/td/a at Line 368, column 277: The link 'CodeSystem-terminologie-cisis.html#terminologie-cisis-DLU_006' for "DLU_006" cannot be resolved (valid targets: 1541 targets)
+ERROR: /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/output/ValueSet-jdv-checklist-dlu-cisis.html#/html/body/div/div/div/div/div/div/div/input/div/div/div/ul/li/table/tr/td/a at Line 368, column 417: The link 'CodeSystem-terminologie-cisis.html#terminologie-cisis-DLU_007' for "DLU_007" cannot be resolved (valid targets: 1541 targets)
+ERROR: /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/output/ValueSet-jdv-checklist-dlu-cisis.html#/html/body/div/div/div/div/div/div/div/input/div/div/div/ul/li/table/tr/td/a at Line 368, column 550: The link 'CodeSystem-terminologie-cisis.html#terminologie-cisis-DLU_008' for "DLU_008" cannot be resolved (valid targets: 1541 targets)
+ERROR: /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/output/ValueSet-jdv-checklist-dlu-cisis.html#/html/body/div/div/div/div/div/div/div/input/div/div/div/ul/li/table/tr/td/a at Line 368, column 693: The link 'CodeSystem-terminologie-cisis.html#terminologie-cisis-DLU_009' for "DLU_009" cannot be resolved (valid targets: 1541 targets)
+ERROR: /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/output/ValueSet-jdv-checklist-dlu-cisis.html#/html/body/div/div/div/div/div/div/div/input/div/div/div/ul/li/table/tr/td/a at Line 368, column 833: The link 'CodeSystem-terminologie-cisis.html#terminologie-cisis-DLU_010' for "DLU_010" cannot be resolved (valid targets: 1541 targets)
+ERROR: /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/output/ValueSet-jdv-complication-neuropsychiatrique-cisis.html#/html/body/div/div/div/div/div/div/div/input/div/div/div/ul/li/table/tr/td/a at Line 375, column 11: The link 'CodeSystem-terminologie-cisis.html#terminologie-cisis-MED-525' for "MED-525" cannot be resolved (valid targets: 1541 targets)
+ERROR: /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/output/ValueSet-jdv-deficience-physique-cisis.html#/html/body/div/div/div/div/div/div/div/input/div/div/div/ul/li/table/tr/td/a at Line 379, column 11: The link 'CodeSystem-terminologie-cisis.html#terminologie-cisis-MED-333' for "MED-333" cannot be resolved (valid targets: 1541 targets)
+ERROR: /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/output/ValueSet-jdv-deficience-physique-cisis.html#/html/body/div/div/div/div/div/div/div/input/div/div/div/ul/li/table/tr/td/a at Line 381, column 11: The link 'CodeSystem-terminologie-cisis.html#terminologie-cisis-MED-334' for "MED-334" cannot be resolved (valid targets: 1541 targets)
 ERROR: /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/output/ValueSet-jdv-modele-document-cda.html#/html/body/div/div/div/div/div/div/div/input/div/div/table/tr/td/a at Line 363, column 1607: The link 'CodeSystem-TRE-A06-FormatCodeComplementaire.html#TRE-A06-FormatCodeComplementaire-ConceptMap-ASS-A11-CorresModeleCDA-XdsFormatCode-CISIS.46html' for "ConceptMap-ASS-A11-CorresModeleCDA-XdsFormatCode-CISIS.html" cannot be resolved (valid targets: 85 targets)
 ERROR: /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/output/ValueSet-jdv-modele-document-cda.html#/html/body/div/div/div/div/div/div/div/input/div/div/table/tr/td/a at Line 363, column 2389: The link 'CodeSystem-TRE-A06-FormatCodeComplementaire.html#TRE-A06-FormatCodeComplementaire-ConceptMap-ASS-A11-CorresModeleCDA-XdsFormatCode-CISIS.46html' for "ConceptMap-ASS-A11-CorresModeleCDA-XdsFormatCode-CISIS.html" cannot be resolved (valid targets: 85 targets)
 ERROR: /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/output/ValueSet-jdv-modele-document-cda.html#/html/body/div/div/div/div/div/div/div/input/div/div/table/tr/td/a at Line 363, column 3171: The link 'CodeSystem-TRE-A06-FormatCodeComplementaire.html#TRE-A06-FormatCodeComplementaire-ConceptMap-ASS-A11-CorresModeleCDA-XdsFormatCode-CISIS.46html' for "ConceptMap-ASS-A11-CorresModeleCDA-XdsFormatCode-CISIS.html" cannot be resolved (valid targets: 85 targets)
@@ -1513,6 +1527,7 @@ ERROR: /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSou
 ERROR: /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/output/ValueSet-jdv-modele-document-cda.html#/html/body/div/div/div/div/div/div/div/input/div/div/table/tr/td/a at Line 367, column 25541: The link 'CodeSystem-TRE-A11-IheFormatCode.html#TRE-A11-IheFormatCode-ConceptMap-ASS-A11-CorresModeleCDA-XdsFormatCode-CISIS.46html' for "ConceptMap-ASS-A11-CorresModeleCDA-XdsFormatCode-CISIS.html" cannot be resolved (valid targets: 60 targets)
 ERROR: /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/output/ValueSet-jdv-modele-document-cda.html#/html/body/div/div/div/div/div/div/div/input/div/div/table/tr/td/a at Line 367, column 25838: The link 'CodeSystem-TRE-A11-IheFormatCode.html#TRE-A11-IheFormatCode-ConceptMap-ASS-A11-CorresModeleCDA-XdsFormatCode-CISIS.46html' for "ConceptMap-ASS-A11-CorresModeleCDA-XdsFormatCode-CISIS.html" cannot be resolved (valid targets: 60 targets)
 ERROR: /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/output/ValueSet-jdv-modele-document-cda.html#/html/body/div/div/div/div/div/div/div/input/div/div/table/tr/td/a at Line 367, column 26134: The link 'CodeSystem-TRE-A11-IheFormatCode.html#TRE-A11-IheFormatCode-ConceptMap-ASS-A11-CorresModeleCDA-XdsFormatCode-CISIS.46html' for "ConceptMap-ASS-A11-CorresModeleCDA-XdsFormatCode-CISIS.html" cannot be resolved (valid targets: 60 targets)
+ERROR: /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/output/ValueSet-jdv-resultat-depistage-surdite-cisis.html#/html/body/div/div/div/div/div/div/div/input/div/div/div/ul/li/table/tr/td/a at Line 368, column 277: The link 'CodeSystem-terminologie-cisis.html#terminologie-cisis-MED-178' for "MED-178" cannot be resolved (valid targets: 1541 targets)
 WARNING: /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/output/index.html#/html/body/div/div/div/div/div/div/div/script at Line 355, column 1225: The <script> containing the javascript '(function (p, o, s, '... is illegal and not allowed on the HL7 ci-build - need to put the script in a  .js file in a trusted template if this IG is to build on the HL7 ci-build (if it is justified and needed)
 == DM/fsh-generated/resources/ConceptMap-ASS-A11-CorresModeleCDA-XdsFormatCode-CISIS.json ==
 == DM/fsh-generated/resources/ConceptMap-ASS-A12-CorresMediaTypeCDANonStructure-XdsFormatCode-CISIS.json ==
@@ -2184,6 +2199,17 @@ WARNING: ValueSet/JDV-J99-InseeNAFrav2Niveau5-RASS: ValueSet: Published value se
 == input/ontoserver/JDV/JdvActeCseCisis_jdv-acte-cse-cisis.json ==
 == input/ontoserver/JDV/JdvActeObpCisis_jdv-acte-obp-cisis.json ==
 == input/ontoserver/JDV/JdvActiviteCisis_jdv-activite-cisis.json ==
+WARNING: ValueSet/jdv-activite-cisis: ValueSet.compose.include[0].concept[0]: The code 'PAT-040' is not valid in the system https://smt.esante.gouv.fr/fhir/CodeSystem/terminologie-cisis (Unknown code 'PAT-040' in the CodeSystem 'https://smt.esante.gouv.fr/fhir/CodeSystem/terminologie-cisis' version '202510130000')
+INFORMATION: ValueSet/jdv-activite-cisis: ValueSet.compose.include[0].concept[0]: Unknown code 'PAT-040' in the CodeSystem 'https://smt.esante.gouv.fr/fhir/CodeSystem/terminologie-cisis' version '202510130000'
+WARNING: ValueSet/jdv-activite-cisis: ValueSet.compose.include[0].concept[1]: The code 'PAT-042' is not valid in the system https://smt.esante.gouv.fr/fhir/CodeSystem/terminologie-cisis (Unknown code 'PAT-042' in the CodeSystem 'https://smt.esante.gouv.fr/fhir/CodeSystem/terminologie-cisis' version '202510130000')
+WARNING: ValueSet/jdv-activite-cisis: ValueSet.compose.include[0].concept[3]: The code 'PAT-044' is not valid in the system https://smt.esante.gouv.fr/fhir/CodeSystem/terminologie-cisis (Unknown code 'PAT-044' in the CodeSystem 'https://smt.esante.gouv.fr/fhir/CodeSystem/terminologie-cisis' version '202510130000')
+WARNING: ValueSet/jdv-activite-cisis: ValueSet.compose.include[0].concept[4]: The code 'PAT-045' is not valid in the system https://smt.esante.gouv.fr/fhir/CodeSystem/terminologie-cisis (Unknown code 'PAT-045' in the CodeSystem 'https://smt.esante.gouv.fr/fhir/CodeSystem/terminologie-cisis' version '202510130000')
+WARNING: ValueSet/jdv-activite-cisis: ValueSet.compose.include[0].concept[5]: The code 'PAT-046' is not valid in the system https://smt.esante.gouv.fr/fhir/CodeSystem/terminologie-cisis (Unknown code 'PAT-046' in the CodeSystem 'https://smt.esante.gouv.fr/fhir/CodeSystem/terminologie-cisis' version '202510130000')
+ERROR: ValueSet.text.div: Hyperlink 'CodeSystem-terminologie-cisis.html#terminologie-cisis-PAT-040' at 'div/ul/li/table/tr/td/a' for 'PAT-040' does not resolve
+ERROR: ValueSet.text.div: Hyperlink 'CodeSystem-terminologie-cisis.html#terminologie-cisis-PAT-042' at 'div/ul/li/table/tr/td/a' for 'PAT-042' does not resolve
+ERROR: ValueSet.text.div: Hyperlink 'CodeSystem-terminologie-cisis.html#terminologie-cisis-PAT-044' at 'div/ul/li/table/tr/td/a' for 'PAT-044' does not resolve
+ERROR: ValueSet.text.div: Hyperlink 'CodeSystem-terminologie-cisis.html#terminologie-cisis-PAT-045' at 'div/ul/li/table/tr/td/a' for 'PAT-045' does not resolve
+ERROR: ValueSet.text.div: Hyperlink 'CodeSystem-terminologie-cisis.html#terminologie-cisis-PAT-046' at 'div/ul/li/table/tr/td/a' for 'PAT-046' does not resolve
 == input/ontoserver/JDV/JdvAddictionCisis_jdv-addiction-cisis.json ==
 == input/ontoserver/JDV/JdvAdditionGrandeurCisis_jdv-addition-grandeur-cisis.json ==
 == input/ontoserver/JDV/JdvAgeCisis_jdv-age-cisis.json ==
@@ -2211,6 +2237,9 @@ INFORMATION: ValueSet/jdv-age-cisis: ValueSet.compose.include[1]: This SNOMED-CT
 == input/ontoserver/JDV/JdvAxamenComplementaireCisis_jdv-examen-complementaire-cisis.json ==
 WARNING: ValueSet/jdv-examen-complementaire-cisis: ValueSet.compose.include[1]: There are multiple different potential matches for the url 'http://dicom.nema.org/resources/ontology/DCM'. It might be a good idea to fix to the correct version to reduce the likelihood of a wrong version being selected by an implementation/implementer. Using version '2022.4.20221006', found versions: 01, 2022.4.20221006. Suggested fix: change the canonical reference from 'http://dicom.nema.org/resources/ontology/DCM' to 'http://dicom.nema.org/resources/ontology/DCM|2022.4.20221006'
 == input/ontoserver/JDV/JdvBatterieExamenCisis_jdv-batterie-examen-cisis.json ==
+WARNING: ValueSet/jdv-batterie-examen-cisis: ValueSet.compose.include[0].concept[0]: The code 'GEN-078' is not valid in the system https://smt.esante.gouv.fr/fhir/CodeSystem/terminologie-cisis (Unknown code 'GEN-078' in the CodeSystem 'https://smt.esante.gouv.fr/fhir/CodeSystem/terminologie-cisis' version '202510130000')
+INFORMATION: ValueSet/jdv-batterie-examen-cisis: ValueSet.compose.include[0].concept[0]: Unknown code 'GEN-078' in the CodeSystem 'https://smt.esante.gouv.fr/fhir/CodeSystem/terminologie-cisis' version '202510130000'
+ERROR: ValueSet.text.div: Hyperlink 'CodeSystem-terminologie-cisis.html#terminologie-cisis-GEN-078' at 'div/ul/li/table/tr/td/a' for 'GEN-078' does not resolve
 == input/ontoserver/JDV/JdvBilanTechniqueCisis_jdv-bilan-technique-cisis.json ==
 WARNING: ValueSet/jdv-bilan-technique-cisis: ValueSet.compose.include[2]: There are multiple different potential matches for the url 'http://dicom.nema.org/resources/ontology/DCM'. It might be a good idea to fix to the correct version to reduce the likelihood of a wrong version being selected by an implementation/implementer. Using version '2022.4.20221006', found versions: 01, 2022.4.20221006. Suggested fix: change the canonical reference from 'http://dicom.nema.org/resources/ontology/DCM' to 'http://dicom.nema.org/resources/ontology/DCM|2022.4.20221006'
 == input/ontoserver/JDV/JdvBioInstructionPatientCisis_jdv-bio-instruction-patient-cisis.json ==
@@ -2220,6 +2249,17 @@ WARNING: ValueSet/jdv-bilan-technique-cisis: ValueSet.compose.include[2]: There 
 == input/ontoserver/JDV/JdvCddFaCisis_jdv-cdd-fa-cisis.json ==
 == input/ontoserver/JDV/JdvCerveletLocalisationCisis_jdv-cervelet-localisation-cisis.json ==
 == input/ontoserver/JDV/JdvChecklistDluCisis_jdv-checklist-dlu-cisis.json ==
+WARNING: ValueSet/jdv-checklist-dlu-cisis: ValueSet.compose.include[0].concept[0]: The code 'DLU_006' is not valid in the system https://smt.esante.gouv.fr/fhir/CodeSystem/terminologie-cisis (Unknown code 'DLU_006' in the CodeSystem 'https://smt.esante.gouv.fr/fhir/CodeSystem/terminologie-cisis' version '202510130000')
+INFORMATION: ValueSet/jdv-checklist-dlu-cisis: ValueSet.compose.include[0].concept[0]: Unknown code 'DLU_006' in the CodeSystem 'https://smt.esante.gouv.fr/fhir/CodeSystem/terminologie-cisis' version '202510130000'
+WARNING: ValueSet/jdv-checklist-dlu-cisis: ValueSet.compose.include[0].concept[1]: The code 'DLU_007' is not valid in the system https://smt.esante.gouv.fr/fhir/CodeSystem/terminologie-cisis (Unknown code 'DLU_007' in the CodeSystem 'https://smt.esante.gouv.fr/fhir/CodeSystem/terminologie-cisis' version '202510130000')
+WARNING: ValueSet/jdv-checklist-dlu-cisis: ValueSet.compose.include[0].concept[2]: The code 'DLU_008' is not valid in the system https://smt.esante.gouv.fr/fhir/CodeSystem/terminologie-cisis (Unknown code 'DLU_008' in the CodeSystem 'https://smt.esante.gouv.fr/fhir/CodeSystem/terminologie-cisis' version '202510130000')
+WARNING: ValueSet/jdv-checklist-dlu-cisis: ValueSet.compose.include[0].concept[3]: The code 'DLU_009' is not valid in the system https://smt.esante.gouv.fr/fhir/CodeSystem/terminologie-cisis (Unknown code 'DLU_009' in the CodeSystem 'https://smt.esante.gouv.fr/fhir/CodeSystem/terminologie-cisis' version '202510130000')
+WARNING: ValueSet/jdv-checklist-dlu-cisis: ValueSet.compose.include[0].concept[4]: The code 'DLU_010' is not valid in the system https://smt.esante.gouv.fr/fhir/CodeSystem/terminologie-cisis (Unknown code 'DLU_010' in the CodeSystem 'https://smt.esante.gouv.fr/fhir/CodeSystem/terminologie-cisis' version '202510130000')
+ERROR: ValueSet.text.div: Hyperlink 'CodeSystem-terminologie-cisis.html#terminologie-cisis-DLU_006' at 'div/ul/li/table/tr/td/a' for 'DLU_006' does not resolve
+ERROR: ValueSet.text.div: Hyperlink 'CodeSystem-terminologie-cisis.html#terminologie-cisis-DLU_007' at 'div/ul/li/table/tr/td/a' for 'DLU_007' does not resolve
+ERROR: ValueSet.text.div: Hyperlink 'CodeSystem-terminologie-cisis.html#terminologie-cisis-DLU_008' at 'div/ul/li/table/tr/td/a' for 'DLU_008' does not resolve
+ERROR: ValueSet.text.div: Hyperlink 'CodeSystem-terminologie-cisis.html#terminologie-cisis-DLU_009' at 'div/ul/li/table/tr/td/a' for 'DLU_009' does not resolve
+ERROR: ValueSet.text.div: Hyperlink 'CodeSystem-terminologie-cisis.html#terminologie-cisis-DLU_010' at 'div/ul/li/table/tr/td/a' for 'DLU_010' does not resolve
 == input/ontoserver/JDV/JdvChecklistFludrCisis_jdv-checklist-fludr-cisis.json ==
 == input/ontoserver/JDV/JdvCirconstanceDecesCisis_jdv-circonstance-deces-cisis.json ==
 == input/ontoserver/JDV/JdvClasseTherapieCisis_jdv-classe-therapie-cisis.json ==
@@ -2238,6 +2278,8 @@ WARNING: ValueSet/jdv-completude-dispensation-cisis: ValueSet.compose.include[0]
 == input/ontoserver/JDV/JdvComplicationDigestiveCisis_jdv-complication-digestive-cisis.json ==
 == input/ontoserver/JDV/JdvComplicationNeurologiqueCisis_jdv-complication-neurologique-cisis.json ==
 == input/ontoserver/JDV/JdvComplicationNeuropsychiatriqueCisis_jdv-complication-neuropsychiatrique-cisis.json ==
+WARNING: ValueSet/jdv-complication-neuropsychiatrique-cisis: ValueSet.compose.include[1].concept[2]: The code 'MED-525' is not valid in the system https://smt.esante.gouv.fr/fhir/CodeSystem/terminologie-cisis (Unknown code 'MED-525' in the CodeSystem 'https://smt.esante.gouv.fr/fhir/CodeSystem/terminologie-cisis' version '202510130000')
+ERROR: ValueSet.text.div: Hyperlink 'CodeSystem-terminologie-cisis.html#terminologie-cisis-MED-525' at 'div/ul/li/table/tr/td/a' for 'MED-525' does not resolve
 == input/ontoserver/JDV/JdvComplicationPulmonaireCisis_jdv-complication-pulmonaire-cisis.json ==
 == input/ontoserver/JDV/JdvComplicationThromboemboliqueCisis_jdv-complication-thromboembolique-cisis.json ==
 == input/ontoserver/JDV/JdvComplicationUrinaireCisis_jdv-complication-urinaire-cisis.json ==
@@ -2260,6 +2302,10 @@ WARNING: ValueSet/jdv-conduite-a-tenir-3-cisis: ValueSet.compose.include[1]: The
 WARNING: ValueSet/jdv-defaillance-materielle-cisis: ValueSet.compose.include[0]: Unknown System 'https://www.imdrf.org' specified, so Concepts and Filters can't be checked (Details: A definition for CodeSystem 'https://www.imdrf.org' could not be found, so the code cannot be validated)
 WARNING: ValueSet.where(id = 'jdv-defaillance-materielle-cisis'): Error from http://tx.fhir.org/r4: Unable to provide support for code system https://www.imdrf.org
 == input/ontoserver/JDV/JdvDeficiencePhysiqueCisis_jdv-deficience-physique-cisis.json ==
+WARNING: ValueSet/jdv-deficience-physique-cisis: ValueSet.compose.include[1].concept[4]: The code 'MED-333' is not valid in the system https://smt.esante.gouv.fr/fhir/CodeSystem/terminologie-cisis (Unknown code 'MED-333' in the CodeSystem 'https://smt.esante.gouv.fr/fhir/CodeSystem/terminologie-cisis' version '202510130000')
+WARNING: ValueSet/jdv-deficience-physique-cisis: ValueSet.compose.include[1].concept[5]: The code 'MED-334' is not valid in the system https://smt.esante.gouv.fr/fhir/CodeSystem/terminologie-cisis (Unknown code 'MED-334' in the CodeSystem 'https://smt.esante.gouv.fr/fhir/CodeSystem/terminologie-cisis' version '202510130000')
+ERROR: ValueSet.text.div: Hyperlink 'CodeSystem-terminologie-cisis.html#terminologie-cisis-MED-333' at 'div/ul/li/table/tr/td/a' for 'MED-333' does not resolve
+ERROR: ValueSet.text.div: Hyperlink 'CodeSystem-terminologie-cisis.html#terminologie-cisis-MED-334' at 'div/ul/li/table/tr/td/a' for 'MED-334' does not resolve
 == input/ontoserver/JDV/JdvDelimitationActiviteCisis_jdv-delimitation-activite-cisis.json ==
 == input/ontoserver/JDV/JdvDensiteMammaireCisis_jdv-densite-mammaire-cisis.json ==
 == input/ontoserver/JDV/JdvDepistageNeonatalCisis_jdv-depistage-neonatal-cisis.json ==
@@ -2538,6 +2584,9 @@ INFORMATION: ValueSet/jdv-resultat-depistage-nitriturie-cisis: ValueSet.compose.
 == input/ontoserver/JDV/JdvResultatDepistageRuptureMembranePhCisis_jdv-resultat-depistage-rupture-membrane-ph-cisis.json ==
 INFORMATION: ValueSet/jdv-resultat-depistage-rupture-membrane-ph-cisis: ValueSet.compose.include[0]: This SNOMED-CT based include has some concepts with semantic tags (FSN terms) and some without (preferred terms) - check that this is what is intended (examples for FSN: [indéterminé(e)] and examples for no FSN: [membranes amniotiques intactes, rupture prématurée des membranes])
 == input/ontoserver/JDV/JdvResultatDepistageSurditeCisis_jdv-resultat-depistage-surdite-cisis.json ==
+WARNING: ValueSet/jdv-resultat-depistage-surdite-cisis: ValueSet.compose.include[0].concept[0]: The code 'MED-178' is not valid in the system https://smt.esante.gouv.fr/fhir/CodeSystem/terminologie-cisis (Unknown code 'MED-178' in the CodeSystem 'https://smt.esante.gouv.fr/fhir/CodeSystem/terminologie-cisis' version '202510130000')
+INFORMATION: ValueSet/jdv-resultat-depistage-surdite-cisis: ValueSet.compose.include[0].concept[0]: Unknown code 'MED-178' in the CodeSystem 'https://smt.esante.gouv.fr/fhir/CodeSystem/terminologie-cisis' version '202510130000'
+ERROR: ValueSet.text.div: Hyperlink 'CodeSystem-terminologie-cisis.html#terminologie-cisis-MED-178' at 'div/ul/li/table/tr/td/a' for 'MED-178' does not resolve
 == input/ontoserver/JDV/JdvResultatDepistageUrobilinogenurieCisis_jdv-resultat-depistage-urobilinogenurie-cisis.json ==
 INFORMATION: ValueSet/jdv-resultat-depistage-urobilinogenurie-cisis: ValueSet.compose.include[0]: This SNOMED-CT based include has some concepts with semantic tags (FSN terms) and some without (preferred terms) - check that this is what is intended (examples for FSN: [positif(-ive)] and examples for no FSN: [normal])
 == input/ontoserver/JDV/JdvResultatEvaluationCisis_jdv-resultat-evaluation-cisis.json ==
