@@ -114,6 +114,19 @@ Description: "Nomenclature des activités sanitaires utilisée pour décrire les
 * #0600 ^property[=].valueCode = #active
 * #0600 ^property[+].code = #niveau
 * #0600 ^property[=].valueInteger = 1
+* #0800 "Lutte contre les Toxicomanies"
+* #0800 ^designation.language = #fr-FR
+* #0800 ^designation.use.system = "http://snomed.info/sct"
+* #0800 ^designation.use = $sct#900000000000013009
+* #0800 ^designation.value = "Lutte Toxicomanies"
+* #0800 ^property[0].code = #dateValid
+* #0800 ^property[=].valueDateTime = "1995-06-01T00:00:00+01:00"
+* #0800 ^property[+].code = #dateMaj
+* #0800 ^property[=].valueDateTime = "1995-06-01T00:00:00+01:00"
+* #0800 ^property[+].code = #status
+* #0800 ^property[=].valueCode = #active
+* #0800 ^property[+].code = #niveau
+* #0800 ^property[=].valueInteger = 1
 * #0210 "Médecine"
 * #0210 ^property[0].code = #parent
 * #0210 ^property[=].valueCode = #0200
@@ -586,6 +599,36 @@ Description: "Nomenclature des activités sanitaires utilisée pour décrire les
 * #0660 ^property[=].valueDateTime = "2017-06-07T00:00:00+01:00"
 * #0660 ^property[+].code = #niveau
 * #0660 ^property[=].valueInteger = 2
+* #0810 "Lutte contre les Toxicomanies"
+* #0810 ^designation.language = #fr-FR
+* #0810 ^designation.use.system = "http://snomed.info/sct"
+* #0810 ^designation.use = $sct#900000000000013009
+* #0810 ^designation.value = "Lutte Toxicomanies"
+* #0810 ^property[0].code = #parent
+* #0810 ^property[=].valueCode = #0800
+* #0810 ^property[+].code = #dateValid
+* #0810 ^property[=].valueDateTime = "1995-06-01T00:00:00+01:00"
+* #0810 ^property[+].code = #dateMaj
+* #0810 ^property[=].valueDateTime = "1995-06-01T00:00:00+01:00"
+* #0810 ^property[+].code = #status
+* #0810 ^property[=].valueCode = #active
+* #0810 ^property[+].code = #niveau
+* #0810 ^property[=].valueInteger = 2
+* #0820 "Lutte contre l'Alcoolisme"
+* #0820 ^designation.language = #fr-FR
+* #0820 ^designation.use.system = "http://snomed.info/sct"
+* #0820 ^designation.use = $sct#900000000000013009
+* #0820 ^designation.value = "Lutte Alcoolisme"
+* #0820 ^property[0].code = #parent
+* #0820 ^property[=].valueCode = #0800
+* #0820 ^property[+].code = #dateValid
+* #0820 ^property[=].valueDateTime = "1995-06-01T00:00:00+01:00"
+* #0820 ^property[+].code = #dateMaj
+* #0820 ^property[=].valueDateTime = "1995-06-01T00:00:00+01:00"
+* #0820 ^property[+].code = #status
+* #0820 ^property[=].valueCode = #active
+* #0820 ^property[+].code = #niveau
+* #0820 ^property[=].valueInteger = 2
 * #0211 "Médecine Générale"
 * #0211 ^property[0].code = #parent
 * #0211 ^property[=].valueCode = #0210
@@ -1332,6 +1375,36 @@ Description: "Nomenclature des activités sanitaires utilisée pour décrire les
 * #0661 ^property[=].valueDateTime = "2017-06-07T00:00:00+01:00"
 * #0661 ^property[+].code = #niveau
 * #0661 ^property[=].valueInteger = 3
+* #0811 "Lutte contre les Toxicomanies"
+* #0811 ^designation.language = #fr-FR
+* #0811 ^designation.use.system = "http://snomed.info/sct"
+* #0811 ^designation.use = $sct#900000000000013009
+* #0811 ^designation.value = "Lutte Toxicomanies"
+* #0811 ^property[0].code = #parent
+* #0811 ^property[=].valueCode = #0810
+* #0811 ^property[+].code = #dateValid
+* #0811 ^property[=].valueDateTime = "1979-01-01T00:00:00+01:00"
+* #0811 ^property[+].code = #dateMaj
+* #0811 ^property[=].valueDateTime = "1979-01-01T00:00:00+01:00"
+* #0811 ^property[+].code = #status
+* #0811 ^property[=].valueCode = #active
+* #0811 ^property[+].code = #niveau
+* #0811 ^property[=].valueInteger = 3
+* #0821 "Lutte contre l'Alcoolisme"
+* #0821 ^designation.language = #fr-FR
+* #0821 ^designation.use.system = "http://snomed.info/sct"
+* #0821 ^designation.use = $sct#900000000000013009
+* #0821 ^designation.value = "Lutte Alcoolisme"
+* #0821 ^property[0].code = #parent
+* #0821 ^property[=].valueCode = #0820
+* #0821 ^property[+].code = #dateValid
+* #0821 ^property[=].valueDateTime = "1979-01-01T00:00:00+01:00"
+* #0821 ^property[+].code = #dateMaj
+* #0821 ^property[=].valueDateTime = "1979-01-01T00:00:00+01:00"
+* #0821 ^property[+].code = #status
+* #0821 ^property[=].valueCode = #active
+* #0821 ^property[+].code = #niveau
+* #0821 ^property[=].valueInteger = 3
 * #023 "Stérilisation"
 * #023 ^property[0].code = #parent
 * #023 ^property[=].valueCode = #0661
@@ -3427,7 +3500,9 @@ Description: "Nomenclature des activités sanitaires utilisée pour décrire les
 * #195 ^designation.language = #fr-FR
 * #195 ^designation.use = $sct#900000000000013009
 * #195 ^designation.value = "Soins Toxicomanes"
-* #195 ^property[0].code = #dateValid
+* #195 ^property[0].code = #parent
+* #195 ^property[=].valueCode = #0811
+* #195 ^property[+].code = #dateValid
 * #195 ^property[=].valueDateTime = "1979-01-01T00:00:00+01:00"
 * #195 ^property[+].code = #dateMaj
 * #195 ^property[=].valueDateTime = "2003-09-10T00:00:00+01:00"
@@ -3441,7 +3516,9 @@ Description: "Nomenclature des activités sanitaires utilisée pour décrire les
 * #196 ^designation.language = #fr-FR
 * #196 ^designation.use = $sct#900000000000013009
 * #196 ^designation.value = "Lutte Contre Alcool."
-* #196 ^property[0].code = #dateValid
+* #196 ^property[0].code = #parent
+* #196 ^property[=].valueCode = #0821
+* #196 ^property[+].code = #dateValid
 * #196 ^property[=].valueDateTime = "1979-01-01T00:00:00+01:00"
 * #196 ^property[+].code = #dateMaj
 * #196 ^property[=].valueDateTime = "2003-09-10T00:00:00+01:00"
