@@ -175,7 +175,7 @@ Description: "liste des autorités structurée en plusieurs types d'autorités :
 * #08 ^designation[0].language = #fr-FR
 * #08 ^designation[=].use.system = "http://snomed.info/sct"
 * #08 ^designation[=].use = $sct#900000000000003001
-* #08 ^designation[=].value = "ARMEE"
+* #08 ^designation[=].value = "Armées"
 * #08 ^property[0].code = #dateValid
 * #08 ^property[=].valueDateTime = "2016-03-22T00:00:00+01:00"
 * #08 ^property[+].code = #dateMaj
