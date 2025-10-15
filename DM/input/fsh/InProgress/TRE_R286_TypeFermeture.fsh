@@ -1,3 +1,5 @@
+Alias: $sct = http://snomed.info/sct
+
 CodeSystem: TRE_R286_TypeFermeture
 Id: TRE-R286-TypeFermeture
 Description: "Type de fermeture, codes provenant du FINESS pour les EJ et EG"
