@@ -58,8 +58,8 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * ^property[=].uri = "http://hl7.org/fhir/concept-properties#retirementDate"
 * ^property[=].description = "Date Concept was retired"
 * ^property[=].type = #dateTime
-* ^property[+].code = #specialisationROR
-* ^property[=].uri = "https://smt.esante.gouv.fr/fhir/concept-properties#retirementDate"
+* ^property[+].code = #specialisationRor
+* ^property[=].uri = "https://smt.esante.gouv.fr/fhir/concept-properties#specialisationRor"
 * ^property[=].description = "Propriété permettant de spécifier les codes exclusifs appartenant au ROR"
 * ^property[=].type = #boolean
 * #0100 "Etablissements d'administration"
@@ -7442,7 +7442,7 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #700 ^property[=].valueDateTime = "2024-10-25T12:00:00+01:00"
 * #700 ^property[+].code = #status
 * #700 ^property[=].valueCode = #active
-* #700 ^property[+].code = #specialisationROR
+* #700 ^property[+].code = #specialisationRor
 * #700 ^property[=].valueBoolean = true
 * #701 "Maison des adolescents (MDA)" "Catégorie créée à la demande du ROR. A date aucun enregistrement n'est prévu dans FINESS pour cette catégorie"
 * #701  ^property[0].code = #niveau
@@ -7457,7 +7457,7 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #701 ^property[=].valueDateTime = "2024-10-25T12:00:00+01:00"
 * #701 ^property[+].code = #status
 * #701 ^property[=].valueCode = #active
-* #701 ^property[+].code = #specialisationROR
+* #701 ^property[+].code = #specialisationRor
 * #701 ^property[=].valueBoolean = true
 * #702 "Point Accueil Ecoute Jeunes (PAEJ)" "Catégorie créée à la demande du ROR. A date aucun enregistrement n'est prévu dans FINESS pour cette catégorie"
 * #702  ^property[0].code = #niveau
@@ -7472,7 +7472,7 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #702 ^property[=].valueDateTime = "2024-10-25T12:00:00+01:00"
 * #702 ^property[+].code = #status
 * #702 ^property[=].valueCode = #active
-* #702 ^property[+].code = #specialisationROR
+* #702 ^property[+].code = #specialisationRor
 * #702 ^property[=].valueBoolean = true
 * #703 "Espace Santé Jeunes (ESJ)"
 * #703  ^property[0].code = #niveau
@@ -7486,5 +7486,5 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #703 ^property[=].valueDateTime = "2025-04-25T12:00:00+01:00"
 * #703 ^property[+].code = #status
 * #703 ^property[=].valueCode = #active
-* #703 ^property[+].code = #specialisationROR
+* #703 ^property[+].code = #specialisationRor
 * #703 ^property[=].valueBoolean = true
