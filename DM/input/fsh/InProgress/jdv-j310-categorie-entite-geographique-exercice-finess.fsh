@@ -17,4 +17,5 @@ Description: "Jeu de valeurs FINESS contenant les catégories d'entité géograp
 * ^experimental = false
 * ^date = "2025-06-11T18:02:28.249+00:00"
 * ^publisher = "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris"
-* include codes from system $tre-r397-categorie-entite-geographique-exercice where code regex /^([0-6][0-9]{2})$/
+* include codes from system $tre-r397-categorie-entite-geographique-exercice where niveau = "4"
+* exclude codes from system $tre-r397-categorie-entite-geographique-exercice where specialisationROR = "true"
