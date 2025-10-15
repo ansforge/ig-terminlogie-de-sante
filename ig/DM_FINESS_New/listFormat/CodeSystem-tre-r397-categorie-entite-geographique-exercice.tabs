@@ -2,14 +2,14 @@
 1.2.250.1.213.1.6.1.378;TRE;TreR397CategorieEntiteGeographiqueExercice.tabs;Catégorie d'établissements - TRE Hierarchique qui remplace la TRE R66;;19790101000000;;20250425120000
 <OID>;<Code>;<Libellé adapté>;<Libellé court>;<Libellé long>;<Date valid>;<Date fin>;<Date MAJ> 
 1.2.250.1.213.1.6.1.378;0100;Etablissements d'administration;Etab.Administration;Etablissements d'administration;19790101000000;20210326120000;20210326120000
-1.2.250.1.213.1.6.1.378;0110;Etablissements d'Administration;Etab.Administration;Etablissements d'Administration;20230127120000;20230127120000;20230127120000
 1.2.250.1.213.1.6.1.378;1000;Etablissements Relevant de la Loi Hospitalière;Etab.Loi Hospital.;Etablissements Relevant de la Loi Hospitalière;19790101000000;;19790101000000
-1.2.250.1.213.1.6.1.378;110;Etablissements d'Administration;Etab.Administration;Etablissements d'Administration;19790101000000;20191001120000;20191001120000
 1.2.250.1.213.1.6.1.378;2000;Autres Etablissements de Soins et Prévention;Autres Etab.de Soins;Autres établissements de soins et prévention;19790101000000;;19790101000000
 1.2.250.1.213.1.6.1.378;3000;Autres Etablissements à Caractère Sanitaire;Autres Etab.Sanit.;Autres établissements à caractère sanitaire;19790101000000;;19790101000000
 1.2.250.1.213.1.6.1.378;4000;Etab.Serv.Soc.d'Accueil Hébergement Assistance Réadaptation;Accueil Héberg.Assis;Etablissements et Services sociaux d'accueil, d'hébergement, d'assistance et de réadaptation;19790101000000;;19790101000000
 1.2.250.1.213.1.6.1.378;5000;Etablissements et Services Sociaux d'Aide à la Famille;Etab.Aide à Famille;Etablissements et Services Sociaux d'Aide à la Famille;19790101000000;;19790101000000
 1.2.250.1.213.1.6.1.378;6000;Etab.de Formation des Personnels Sanitaires et Sociaux;Etab.Form.San & Soc;Etablissements de formation des personnels sanitaires et sociaux;19790101000000;;19790101000000
+1.2.250.1.213.1.6.1.378;110;Etablissements d'Administration;Etab.Administration;Etablissements d'Administration;19790101000000;20191001120000;20191001120000
+1.2.250.1.213.1.6.1.378;0110;Etablissements d'Administration;Etab.Administration;Etablissements d'Administration;20230127120000;20230127120000;20230127120000
 1.2.250.1.213.1.6.1.378;1100;Etablissements Hospitaliers;Etab.Hospitaliers;Etablissements Hospitaliers;19790101000000;;19790101000000
 1.2.250.1.213.1.6.1.378;1200;Autres Etablissements Relevant de la Loi Hospitalière;Autres Etab.Loi Hosp;Autres Etablissements Relevant de la Loi Hospitalière;19790101000000;;19790101000000
 1.2.250.1.213.1.6.1.378;2100;Cabinets Libéraux;Cabinets Libéraux;Cabinets Libéraux;19790101000000;;19790101000000
