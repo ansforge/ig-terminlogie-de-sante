@@ -1306,6 +1306,15 @@
       "oids" : ["1.2.250.1.213.1.6.1.181"]
     },
     {
+      "url" : "https://mos.esante.gouv.fr/NOS/TRE_R293-AgregatClienteleNiv1/FHIR/TRE-R293-AgregatClienteleNiv1",
+      "version" : "20251015120000",
+      "status" : "active",
+      "name" : "TRE_R293_AgregatClienteleNiv1",
+      "title" : null,
+      "description" : "Agrégats de clientèle niveau 1",
+      "oids" : ["1.2.250.1.213.1.6.1.192"]
+    },
+    {
       "url" : "https://mos.esante.gouv.fr/NOS/TRE_R293-AgregatClienteleNiv2/FHIR/TRE-R293-AgregatClienteleNiv2",
       "version" : "20231215120000",
       "status" : "active",
@@ -1313,6 +1322,15 @@
       "title" : null,
       "description" : "Agrégats de clientèle niveau 2",
       "oids" : ["1.2.250.1.213.1.6.1.192"]
+    },
+    {
+      "url" : "https://mos.esante.gouv.fr/NOS/TRE_R294-AgregatClienteleNiv2/FHIR/TRE-R294-AgregatClienteleNiv2",
+      "version" : "20251015120000",
+      "status" : "active",
+      "name" : "TRE_R294_AgregatClienteleNiv2",
+      "title" : null,
+      "description" : "Agrégats de clientèle niveau 2",
+      "oids" : ["1.2.250.1.213.1.6.1.193"]
     },
     {
       "url" : "https://mos.esante.gouv.fr/NOS/TRE_R294-AgregatClienteleNiv3/FHIR/TRE-R294-AgregatClienteleNiv3",

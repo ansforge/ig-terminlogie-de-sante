@@ -34735,9 +34735,31 @@
         <valueString value="CodeSystem"/>
       </extension>
       <reference>
+        <reference value="CodeSystem/TRE-R293-AgregatClienteleNiv1"/>
+      </reference>
+      <name value="TRE_R293_AgregatClienteleNiv1"/>
+      <description value="Agrégats de clientèle niveau 1"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="CodeSystem"/>
+      </extension>
+      <reference>
         <reference value="CodeSystem/TRE-R293-AgregatClienteleNiv2"/>
       </reference>
       <name value="TRE_R293_AgregatClienteleNiv2"/>
+      <description value="Agrégats de clientèle niveau 2"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="CodeSystem"/>
+      </extension>
+      <reference>
+        <reference value="CodeSystem/TRE-R294-AgregatClienteleNiv2"/>
+      </reference>
+      <name value="TRE_R294_AgregatClienteleNiv2"/>
       <description value="Agrégats de clientèle niveau 2"/>
       <exampleBoolean value="false"/>
     </resource>
@@ -36131,10 +36153,10 @@
         <valueString value="ValueSet"/>
       </extension>
       <reference>
-        <reference value="ValueSet/vs-tre-r286-type-fermeture-all"/>
+        <reference value="ValueSet/vs-tre-r293-agregat-public-activite-smsse-regulee-niv1-all"/>
       </reference>
-      <name value="Vs Tre R286 Type Fermeture All"/>
-      <description value="Jeu de valeurs ALL contenant les types de fermeture, codes provenant du FINESS pour les EJ et EG"/>
+      <name value="Vs Tre R293 Agregat Public Activite Smsse Regulee Niv1 All"/>
+      <description value="Jeu de valeurs ALL contenant les agrégats des activitées SMSSE régulées pour le public niveau 1"/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -36142,21 +36164,10 @@
         <valueString value="ValueSet"/>
       </extension>
       <reference>
-        <reference value="ValueSet/vs-tre-r293-agregat-public-activite-smsse-regulee-niv2-all"/>
+        <reference value="ValueSet/vs-tre-r294-public-activite-smsse-regulee-niv2-all"/>
       </reference>
-      <name value="Vs Tre R293 Agregat Public Activite Smsse Regulee Niv2 All"/>
-      <description value="Jeu de valeurs ALL contenant les agrégats des activitées SMSSE régulées pour le public niveau 2"/>
-      <exampleBoolean value="false"/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="ValueSet"/>
-      </extension>
-      <reference>
-        <reference value="ValueSet/vs-tre-r294-public-activite-smsse-regulee-niv3-all"/>
-      </reference>
-      <name value="Vs Tre R294 Public Activite Smsse Regulee Niv3 All"/>
-      <description value="Jeu de valeurs ALL contenant les activités SMSSE régulées pour le public de niveau 3"/>
+      <name value="Vs Tre R294 Public Activite Smsse Regulee Niv2 All"/>
+      <description value="Jeu de valeurs ALL contenant les activités SMSSE régulées pour le public de niveau 2"/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>

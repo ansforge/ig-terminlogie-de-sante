@@ -62506,10 +62506,46 @@
          ]
        ] ) ;
        fhir:reference [
+         fhir:link <https://interop.esante.gouv.fr/terminologies/CodeSystem/TRE-R293-AgregatClienteleNiv1> ;
+         fhir:reference [ fhir:v "CodeSystem/TRE-R293-AgregatClienteleNiv1" ]
+       ] ;
+       fhir:name [ fhir:v "TRE_R293_AgregatClienteleNiv1" ] ;
+       fhir:description [ fhir:v "Agrégats de clientèle niveau 1" ] ;
+       fhir:example [
+         a fhir:boolean ;
+         fhir:v false
+       ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [
+           a fhir:string ;
+           fhir:v "CodeSystem"
+         ]
+       ] ) ;
+       fhir:reference [
          fhir:link <https://interop.esante.gouv.fr/terminologies/CodeSystem/TRE-R293-AgregatClienteleNiv2> ;
          fhir:reference [ fhir:v "CodeSystem/TRE-R293-AgregatClienteleNiv2" ]
        ] ;
        fhir:name [ fhir:v "TRE_R293_AgregatClienteleNiv2" ] ;
+       fhir:description [ fhir:v "Agrégats de clientèle niveau 2" ] ;
+       fhir:example [
+         a fhir:boolean ;
+         fhir:v false
+       ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [
+           a fhir:string ;
+           fhir:v "CodeSystem"
+         ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <https://interop.esante.gouv.fr/terminologies/CodeSystem/TRE-R294-AgregatClienteleNiv2> ;
+         fhir:reference [ fhir:v "CodeSystem/TRE-R294-AgregatClienteleNiv2" ]
+       ] ;
+       fhir:name [ fhir:v "TRE_R294_AgregatClienteleNiv2" ] ;
        fhir:description [ fhir:v "Agrégats de clientèle niveau 2" ] ;
        fhir:example [
          a fhir:boolean ;
@@ -64791,11 +64827,11 @@
          ]
        ] ) ;
        fhir:reference [
-         fhir:link <https://interop.esante.gouv.fr/terminologies/ValueSet/vs-tre-r286-type-fermeture-all> ;
-         fhir:reference [ fhir:v "ValueSet/vs-tre-r286-type-fermeture-all" ]
+         fhir:link <https://interop.esante.gouv.fr/terminologies/ValueSet/vs-tre-r293-agregat-public-activite-smsse-regulee-niv1-all> ;
+         fhir:reference [ fhir:v "ValueSet/vs-tre-r293-agregat-public-activite-smsse-regulee-niv1-all" ]
        ] ;
-       fhir:name [ fhir:v "Vs Tre R286 Type Fermeture All" ] ;
-       fhir:description [ fhir:v "Jeu de valeurs ALL contenant les types de fermeture, codes provenant du FINESS pour les EJ et EG" ] ;
+       fhir:name [ fhir:v "Vs Tre R293 Agregat Public Activite Smsse Regulee Niv1 All" ] ;
+       fhir:description [ fhir:v "Jeu de valeurs ALL contenant les agrégats des activitées SMSSE régulées pour le public niveau 1" ] ;
        fhir:example [
          a fhir:boolean ;
          fhir:v false
@@ -64809,29 +64845,11 @@
          ]
        ] ) ;
        fhir:reference [
-         fhir:link <https://interop.esante.gouv.fr/terminologies/ValueSet/vs-tre-r293-agregat-public-activite-smsse-regulee-niv2-all> ;
-         fhir:reference [ fhir:v "ValueSet/vs-tre-r293-agregat-public-activite-smsse-regulee-niv2-all" ]
+         fhir:link <https://interop.esante.gouv.fr/terminologies/ValueSet/vs-tre-r294-public-activite-smsse-regulee-niv2-all> ;
+         fhir:reference [ fhir:v "ValueSet/vs-tre-r294-public-activite-smsse-regulee-niv2-all" ]
        ] ;
-       fhir:name [ fhir:v "Vs Tre R293 Agregat Public Activite Smsse Regulee Niv2 All" ] ;
-       fhir:description [ fhir:v "Jeu de valeurs ALL contenant les agrégats des activitées SMSSE régulées pour le public niveau 2" ] ;
-       fhir:example [
-         a fhir:boolean ;
-         fhir:v false
-       ]
-     ] [
-       fhir:extension ( [
-         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
-         fhir:value [
-           a fhir:string ;
-           fhir:v "ValueSet"
-         ]
-       ] ) ;
-       fhir:reference [
-         fhir:link <https://interop.esante.gouv.fr/terminologies/ValueSet/vs-tre-r294-public-activite-smsse-regulee-niv3-all> ;
-         fhir:reference [ fhir:v "ValueSet/vs-tre-r294-public-activite-smsse-regulee-niv3-all" ]
-       ] ;
-       fhir:name [ fhir:v "Vs Tre R294 Public Activite Smsse Regulee Niv3 All" ] ;
-       fhir:description [ fhir:v "Jeu de valeurs ALL contenant les activités SMSSE régulées pour le public de niveau 3" ] ;
+       fhir:name [ fhir:v "Vs Tre R294 Public Activite Smsse Regulee Niv2 All" ] ;
+       fhir:description [ fhir:v "Jeu de valeurs ALL contenant les activités SMSSE régulées pour le public de niveau 2" ] ;
        fhir:example [
          a fhir:boolean ;
          fhir:v false

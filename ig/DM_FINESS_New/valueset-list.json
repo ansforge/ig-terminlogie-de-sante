@@ -3638,40 +3638,27 @@
       "sources" : ["1.2.250.1.213.1.6.1.326"]
     },
     {
-      "url" : "https://mos.esante.gouv.fr/NOS/TRE_R286-TypeFermeture/FHIR/TRE-R286-TypeFermeture?vs",
+      "url" : "https://mos.esante.gouv.fr/NOS/TRE_R293-AgregatClienteleNiv1/FHIR/TRE-R293-AgregatClienteleNiv1?vs",
       "version" : "20250222120000",
       "status" : "active",
-      "name" : "VsTreR286TypeFermetureAll",
-      "title" : "Vs Tre R286 Type Fermeture All",
-      "description" : "Jeu de valeurs ALL contenant les types de fermeture, codes provenant du FINESS pour les EJ et EG",
+      "name" : "VsTreR293AgregatPublicActiviteSmsseReguleeNiv1All",
+      "title" : "Vs Tre R293 Agregat Public Activite Smsse Regulee Niv1 All",
+      "description" : "Jeu de valeurs ALL contenant les agrégats des activitées SMSSE régulées pour le public niveau 1",
       "systems" : [
-        "https://mos.esante.gouv.fr/NOS/TRE_R286-TypeFermeture/FHIR/TRE-R286-TypeFermeture"
-      ],
-      "oids" : ["1.2.250.1.213.1.6.1.371"],
-      "sources" : ["1.2.250.1.213.1.6.1.371"]
-    },
-    {
-      "url" : "https://mos.esante.gouv.fr/NOS/TRE_R293-AgregatClienteleNiv2/FHIR/TRE-R293-AgregatClienteleNiv2?vs",
-      "version" : "20250222120000",
-      "status" : "active",
-      "name" : "VsTreR293AgregatPublicActiviteSmsseReguleeNiv2All",
-      "title" : "Vs Tre R293 Agregat Public Activite Smsse Regulee Niv2 All",
-      "description" : "Jeu de valeurs ALL contenant les agrégats des activitées SMSSE régulées pour le public niveau 2",
-      "systems" : [
-        "https://mos.esante.gouv.fr/NOS/TRE_R293-AgregatClienteleNiv2/FHIR/TRE-R293-AgregatClienteleNiv2"
+        "https://mos.esante.gouv.fr/NOS/TRE_R293-AgregatClienteleNiv1/FHIR/TRE-R293-AgregatClienteleNiv1"
       ],
       "oids" : ["1.2.250.1.213.1.6.1.337"],
       "sources" : ["1.2.250.1.213.1.6.1.337"]
     },
     {
-      "url" : "https://mos.esante.gouv.fr/NOS/TRE_R294-AgregatClienteleNiv3/FHIR/TRE-R294-AgregatClienteleNiv3?vs",
+      "url" : "https://mos.esante.gouv.fr/NOS/TRE_R294-AgregatClienteleNiv2/FHIR/TRE-R294-AgregatClienteleNiv2?vs",
       "version" : "20250222120000",
       "status" : "active",
-      "name" : "VsTreR294PublicActiviteSmsseReguleeNiv3All",
-      "title" : "Vs Tre R294 Public Activite Smsse Regulee Niv3 All",
-      "description" : "Jeu de valeurs ALL contenant les activités SMSSE régulées pour le public de niveau 3",
+      "name" : "VsTreR294PublicActiviteSmsseReguleeNiv2All",
+      "title" : "Vs Tre R294 Public Activite Smsse Regulee Niv2 All",
+      "description" : "Jeu de valeurs ALL contenant les activités SMSSE régulées pour le public de niveau 2",
       "systems" : [
-        "https://mos.esante.gouv.fr/NOS/TRE_R294-AgregatClienteleNiv3/FHIR/TRE-R294-AgregatClienteleNiv3"
+        "https://mos.esante.gouv.fr/NOS/TRE_R294-AgregatClienteleNiv2/FHIR/TRE-R294-AgregatClienteleNiv2"
       ],
       "oids" : ["1.2.250.1.213.1.6.1.338"],
       "sources" : ["1.2.250.1.213.1.6.1.338"]

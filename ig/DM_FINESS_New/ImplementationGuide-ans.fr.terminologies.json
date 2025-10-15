@@ -44631,9 +44631,33 @@
         "valueString" : "CodeSystem"
       }],
       "reference" : {
+        "reference" : "CodeSystem/TRE-R293-AgregatClienteleNiv1"
+      },
+      "name" : "TRE_R293_AgregatClienteleNiv1",
+      "description" : "Agrégats de clientèle niveau 1",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "CodeSystem"
+      }],
+      "reference" : {
         "reference" : "CodeSystem/TRE-R293-AgregatClienteleNiv2"
       },
       "name" : "TRE_R293_AgregatClienteleNiv2",
+      "description" : "Agrégats de clientèle niveau 2",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "CodeSystem"
+      }],
+      "reference" : {
+        "reference" : "CodeSystem/TRE-R294-AgregatClienteleNiv2"
+      },
+      "name" : "TRE_R294_AgregatClienteleNiv2",
       "description" : "Agrégats de clientèle niveau 2",
       "exampleBoolean" : false
     },
@@ -46154,10 +46178,10 @@
         "valueString" : "ValueSet"
       }],
       "reference" : {
-        "reference" : "ValueSet/vs-tre-r286-type-fermeture-all"
+        "reference" : "ValueSet/vs-tre-r293-agregat-public-activite-smsse-regulee-niv1-all"
       },
-      "name" : "Vs Tre R286 Type Fermeture All",
-      "description" : "Jeu de valeurs ALL contenant les types de fermeture, codes provenant du FINESS pour les EJ et EG",
+      "name" : "Vs Tre R293 Agregat Public Activite Smsse Regulee Niv1 All",
+      "description" : "Jeu de valeurs ALL contenant les agrégats des activitées SMSSE régulées pour le public niveau 1",
       "exampleBoolean" : false
     },
     {
@@ -46166,22 +46190,10 @@
         "valueString" : "ValueSet"
       }],
       "reference" : {
-        "reference" : "ValueSet/vs-tre-r293-agregat-public-activite-smsse-regulee-niv2-all"
+        "reference" : "ValueSet/vs-tre-r294-public-activite-smsse-regulee-niv2-all"
       },
-      "name" : "Vs Tre R293 Agregat Public Activite Smsse Regulee Niv2 All",
-      "description" : "Jeu de valeurs ALL contenant les agrégats des activitées SMSSE régulées pour le public niveau 2",
-      "exampleBoolean" : false
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "ValueSet"
-      }],
-      "reference" : {
-        "reference" : "ValueSet/vs-tre-r294-public-activite-smsse-regulee-niv3-all"
-      },
-      "name" : "Vs Tre R294 Public Activite Smsse Regulee Niv3 All",
-      "description" : "Jeu de valeurs ALL contenant les activités SMSSE régulées pour le public de niveau 3",
+      "name" : "Vs Tre R294 Public Activite Smsse Regulee Niv2 All",
+      "description" : "Jeu de valeurs ALL contenant les activités SMSSE régulées pour le public de niveau 2",
       "exampleBoolean" : false
     },
     {
