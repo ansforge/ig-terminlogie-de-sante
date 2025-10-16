@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RetrieveValueSetResponse xmlns="urn:ihe:iti:svs:2008"
+                          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+   <ValueSet dateFin=""
+             dateMaj="20250624152100"
+             dateValid="20100101000000"
+             description="ActEncounterCode"
+             displayName="ActEncounterCode"
+             id="2.16.840.1.113883.1.11.13955"
+             typeFichier="JDV"
+             urlFichier="">
+      <ConceptList>
+         <Concept code="AMB"
+                  codeSystem="http://terminology.hl7.org/CodeSystem/v3-ActCode"
+                  displayName="Ambulatoire (hors établissement)"/>
+         <Concept code="EMER"
+                  codeSystem="http://terminology.hl7.org/CodeSystem/v3-ActCode"
+                  displayName="Passage aux urgences (établissement)"/>
+         <Concept code="FLD"
+                  codeSystem="http://terminology.hl7.org/CodeSystem/v3-ActCode"
+                  displayName="Terrain (voie publique, hélicoptère, ambulance, etc.)"/>
+         <Concept code="HH"
+                  codeSystem="http://terminology.hl7.org/CodeSystem/v3-ActCode"
+                  displayName="Soins à domicile (hors établissement)"/>
+         <Concept code="IMP"
+                  codeSystem="http://terminology.hl7.org/CodeSystem/v3-ActCode"
+                  displayName="Hospitalisation (établissement, y compris HAD)"/>
+         <Concept code="OBSENC"
+                  codeSystem="http://terminology.hl7.org/CodeSystem/v3-ActCode"
+                  displayName="Observation"/>
+         <Concept code="PRENC"
+                  codeSystem="http://terminology.hl7.org/CodeSystem/v3-ActCode"
+                  displayName="Pré-admission"/>
+         <Concept code="SS"
+                  codeSystem="http://terminology.hl7.org/CodeSystem/v3-ActCode"
+                  displayName="Hospitalisation de jour"/>
+         <Concept code="VR"
+                  codeSystem="http://terminology.hl7.org/CodeSystem/v3-ActCode"
+                  displayName="Virtuelle (exemple : RCP en l'absence du patient)"/>
+      </ConceptList>
+   </ValueSet>
+</RetrieveValueSetResponse>
