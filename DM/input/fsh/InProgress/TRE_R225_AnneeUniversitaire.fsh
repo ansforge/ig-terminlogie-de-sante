@@ -2,7 +2,7 @@ CodeSystem: TRE_R225_AnneeUniversitaire
 Id: TRE-R225-AnneeUniversitaire
 Description: "Année universitaire"
 * ^meta.versionId = "5"
-* ^meta.lastUpdated = "2025-07-02T18:16:16.894+00:00"
+* ^meta.lastUpdated = "2025-10-09T18:16:16.894+00:00"
 * ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablecodesystem"
 * ^extension.url = "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod"
 * ^extension.valuePeriod.start = "2017-03-22T12:00:00+01:00"
