@@ -16,7 +16,7 @@ Description: "Années universitaires des professionnels du RASS"
 * ^date = "2025-10-16T12:00:00+01:00"
 * ^publisher = "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris"
 * ^jurisdiction = urn:iso:std:iso:3166#FR
-* $TRE-R225-AnneeUniversitaire#AU0809 "2008-2009"
+* $TRE-R225-AnneeUniversitaire#AU0809 "2008-2009" 
 * $TRE-R225-AnneeUniversitaire#AU0910 "2009-2010"
 * $TRE-R225-AnneeUniversitaire#AU1011 "2010-2011"
 * $TRE-R225-AnneeUniversitaire#AU1112 "2011-2012"
