@@ -1,5 +1,3 @@
-Alias: $sct = http://snomed.info/sct
-
 CodeSystem: TRE_R225_AnneeUniversitaire
 Id: TRE-R225-AnneeUniversitaire
 Description: "Année universitaire"

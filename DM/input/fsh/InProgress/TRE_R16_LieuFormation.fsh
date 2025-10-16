@@ -1,5 +1,3 @@
-Alias: $sct = http://snomed.info/sct
-
 CodeSystem: TRE_R16_LieuFormation
 Id: TRE-R16-LieuFormation
 Description: "Lieu de formation"
