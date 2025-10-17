@@ -16,7 +16,7 @@ Description: "Type de savoir-faire"
 * ^date = "2025-10-16T12:00:00+01:00"
 * ^publisher = "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris"
 * ^jurisdiction = urn:iso:std:iso:3166#FR
-* $TRE-R04-TypeSavoirFaire#C "Compétence"
+* $TRE-R04-TypeSavoirFaire#C "Compétence de médecine"
 * $TRE-R04-TypeSavoirFaire#CAPA "Capacité"
 * $TRE-R04-TypeSavoirFaire#CEX "Compétence exclusive"
 * $TRE-R04-TypeSavoirFaire#CM "Compétence métier"
