@@ -19,7 +19,6 @@ Description: "Un acte spécifique est une action menée par un ou plusieurs acte
 * ^jurisdiction = urn:iso:std:iso:3166#FRA
 * ^caseSensitive = false
 * ^content = #complete
-* ^count = 1550
 * ^property[0].code = #dateValid
 * ^property[=].description = "date de validité d'un code concept"
 * ^property[=].type = #dateTime

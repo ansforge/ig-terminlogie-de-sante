@@ -17,7 +17,6 @@ Description: "Type de fermeture, codes provenant du FINESS pour les EJ et EG"
 * ^jurisdiction = urn:iso:std:iso:3166#FR
 * ^caseSensitive = false
 * ^content = #complete
-* ^count = 7
 * ^property[0].code = #dateValid
 * ^property[=].description = "date de validité d'un code concept"
 * ^property[=].type = #dateTime
