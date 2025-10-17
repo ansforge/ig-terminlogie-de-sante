@@ -60,7 +60,7 @@ Description: "Nature de qualification ADELI"
 * #01 ^property[=].valueDateTime = "2025-10-16T00:00:00+01:00"
 * #01 ^property[+].code = #status
 * #01 ^property[=].valueCode = #active
-* #02 "Compétence de médecine (C)" "Compétence acquise par le professionnel. "
+* #02 "Compétence de médecine (C)" "Compétence acquise par le professionnel."
 * #02 ^designation.language = #fr-FR
 * #02 ^designation.use.system = "http://snomed.info/sct"
 * #02 ^designation.use = $sct#900000000000013009
