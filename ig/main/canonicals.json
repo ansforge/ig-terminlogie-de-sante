@@ -4426,7 +4426,14 @@
     "type" : "ConceptMap",
     "url" : "https://smt.esante.gouv.fr/fhir/ConceptMap/alignement-nuva-bdpm",
     "version" : "1.0.1009",
-    "name" : "Alignement_Codes_CIP_CIS_NUVA_BDPM"
+    "name" : "Alignement_Codes_NUVA_CIS_CIP_BDMP"
+  },
+  {
+    "id" : "alignement-nuva-cipucd",
+    "type" : "ConceptMap",
+    "url" : "https://smt.esante.gouv.fr/fhir/ConceptMap/alignement-nuva-cipucd",
+    "version" : "1.0.1009",
+    "name" : "Alignement_Codes_NUVA_CIP_CIPUCD"
   },
   {
     "id" : "VS-test",
@@ -8276,7 +8283,8 @@
     "type" : "CodeSystem",
     "url" : "https://smt.esante.gouv.fr/terminologie-lahn",
     "version" : "2024 v1.0",
-    "name" : "LAHN"
+    "name" : "LAHN",
+    "oids" : ["1.2.250.1.213.2.79"]
   },
   {
     "id" : "terminologie-nabm",

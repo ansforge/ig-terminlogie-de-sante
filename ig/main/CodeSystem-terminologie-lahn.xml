@@ -3,14 +3,19 @@
 <CodeSystem xmlns="http://hl7.org/fhir">
   <id value="terminologie-lahn"/>
   <meta>
-    <versionId value="2"/>
-    <lastUpdated value="2025-03-17T12:59:14.485+00:00"/>
+    <versionId value="3"/>
+    <lastUpdated value="2025-10-16T10:46:39.308+02:00"/>
     <profile value="http://hl7.org/fhir/StructureDefinition/shareablecodesystem"/>
   </meta>
   <text>
     <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml">La liste des actes innovants hors nomenclature (LAHN) a été mise en place par la direction générale de l’offre de soins (DGOS) en 2024, dans le cadre du développement de l’innovation en santé. Elle est la fusion du RIHN et de la Liste Complémentaire (LC). L’objectif est de soutenir l’innovation et de la dynamiser par une prise en charge et une évaluation rapide des actes innovants. La LAHN contient une liste d’actes innovants (biologie et anatomocytopathologie) pris en charge à titre transitoire moyennant un recueil de données pour leur évaluation.</div>
   </text>
   <url value="https://smt.esante.gouv.fr/terminologie-lahn"/>
+  <identifier>
+    <use value="usual"/>
+    <system value="urn:ietf:rfc:3986"/>
+    <value value="urn:oid:1.2.250.1.213.2.79"/>
+  </identifier>
   <identifier>
     <use value="secondary"/>
     <system value="https://smt.esante.gouv.fr/"/>

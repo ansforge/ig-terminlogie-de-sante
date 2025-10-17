@@ -60,7 +60,7 @@
     "name" : "LAHN",
     "title" : "Liste des Actes Inovants Hors Nomenclature",
     "url" : "https://smt.esante.gouv.fr/terminologie-lahn",
-    "identifier" : null,
+    "identifier" : "urn:oid:1.2.250.1.213.2.79",
     "status" : "active"
   },
   {
