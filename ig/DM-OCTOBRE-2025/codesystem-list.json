@@ -236,7 +236,7 @@
     },
     {
       "url" : "https://mos.esante.gouv.fr/NOS/TRE_G11-NatureQualificationADELI/FHIR/TRE-G11-NatureQualificationADELI",
-      "version" : "20231215120000",
+      "version" : "20251016120000",
       "status" : "active",
       "name" : "TRE_G11_NatureQualificationADELI",
       "title" : null,
