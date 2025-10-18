@@ -37,7 +37,7 @@
   </jurisdiction>
   <copyright value="SYADEM"/>
   <valueSet value="https://smt.esante.gouv.fr/terminologie-nuva?vs"/>
-  <content value="complete"/>
+  <content value="not-present"/>
   <count value="1889"/>
   <filter>
     <code value="root"/>

@@ -37,7 +37,7 @@
   </jurisdiction>
   <copyright value="[LOv2](https://github.com/etalab/licence-ouverte/blob/master/LO.md)"/>
   <valueSet value="https://smt.esante.gouv.fr/terminologie-ccam?vs"/>
-  <content value="complete"/>
+  <content value="not-present"/>
   <count value="38191"/>
   <filter>
     <code value="root"/>

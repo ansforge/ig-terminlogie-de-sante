@@ -37,7 +37,7 @@
   }],
   "copyright" : "SYADEM",
   "valueSet" : "https://smt.esante.gouv.fr/terminologie-nuva?vs",
-  "content" : "complete",
+  "content" : "not-present",
   "count" : 1889,
   "filter" : [{
     "code" : "root",

@@ -37,7 +37,7 @@
   }],
   "copyright" : "[LOv2](https://github.com/etalab/licence-ouverte/blob/master/LO.md)",
   "valueSet" : "https://smt.esante.gouv.fr/terminologie-ccam?vs",
-  "content" : "complete",
+  "content" : "not-present",
   "count" : 38191,
   "filter" : [{
     "code" : "root",

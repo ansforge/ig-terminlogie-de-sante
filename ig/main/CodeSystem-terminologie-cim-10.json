@@ -37,7 +37,7 @@
   }],
   "copyright" : "[CC BY-NC-ND 3.0 IGO](https://creativecommons.org/licenses/by-nc-nd/3.0/igo/legalcode)",
   "valueSet" : "https://smt.esante.gouv.fr/terminologie-cim-10?vs",
-  "content" : "complete",
+  "content" : "not-present",
   "count" : 19161,
   "filter" : [{
     "code" : "root",
