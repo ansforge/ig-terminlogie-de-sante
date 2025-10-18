@@ -44,6 +44,7 @@ parameters:
         - input/sql/sql-add-info.json
         - input/sql/sql-add-info-codesystem.sql       
         - input/sql/sql-add-info-codesystemOid.sql     
+        -  input/sql/sql-add-info-codesystem-property.sql 
     shownav: 'true'
 
     no-validate:
