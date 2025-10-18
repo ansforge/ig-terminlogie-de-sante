@@ -1,10 +1,10 @@
 Terminologies : Validation Results
 =========================================
 
-err = 1181, warn = 1909, info = 1043
+err = 1177, warn = 1909, info = 1043
 $--
 Generated $--. FHIR version $-- for ans.fr.terminologies#$-- (canonical = https://interop.esante.gouv.fr/terminologies)
- Build Errors : 1537 / 18 / 0
+ Build Errors : 1533 / 18 / 0
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/DM/fsh-generated/resources/ConceptMap-ASS-A11-CorresModeleCDA-XdsFormatCode-CISIS : 0 / 0 / 1
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/DM/fsh-generated/resources/ConceptMap-ASS-A12-CorresMediaTypeCDANonStructure-XdsFormatCode-CISIS : 0 / 0 / 1
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/DM/fsh-generated/resources/ConceptMap-ASS-A13-TypeEvenement-FluxStandardise : 0 / 0 / 1
@@ -1062,10 +1062,6 @@ WARNING: input/sql/sql-add-info.json$.select[0].select[0].select[0].column[0]: T
 WARNING: input/sql/sql-add-info-codesystem.sql$.select[0].select[0].column[0]: This column is not defined as a collection, but the path statement 'code' might return multiple values for the column 'code' for some inputs
 WARNING: input/sql/sql-add-info-codesystem.sql$.select[0].select[0].column[0]: This column is not defined as a collection, but the path statement 'display' might return multiple values for the column 'display' for some inputs
 ERROR: input/sql/sql-add-info-codesystem-property.sql: Error Processing ViewDefinition: File /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/sql/sql-add-info-codesystem-property.sql not found
-ERROR: input/sql/sql-add-info-namingSystemOid.sql: Error Processing ViewDefinition: View Definition is not valid
-ERROR: input/sql/sql-add-info-namingSystemOid.sql$.select[0].column[0]: Error evaluating FHIRPath expression: The name 'title' is not valid for any of the possible types: [http://hl7.org/fhir/StructureDefinition/NamingSystem] (@char 1)
-ERROR: input/sql/sql-add-info-namingSystemOid.sql$.select[0].column[0]: Error evaluating FHIRPath expression: The name 'url' is not valid for any of the possible types: [http://hl7.org/fhir/StructureDefinition/NamingSystem] (@char 1)
-ERROR: input/sql/sql-add-info-namingSystemOid.sql$.select[0].column[0].type: The path expression ('status') does not return a value of the type 'string' - found [http://hl7.org/fhir/StructureDefinition/code]
 WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource CodeSystem/TRE-R13-CommuneOM.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
 WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource NamingSystem/ADICAP.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
 WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource NamingSystem/IHERoleCodeVocabulary.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.

@@ -11,7 +11,7 @@
 </head>
 <body style="margin: 20px; background-color: #ffffff">
  <h1>Terminology Server Report for Terminologies</h1>
- <p>Generated Sat Oct 18 12:37:21 UTC 2025, FHIR version 4.0.1 for ans.fr.terminologies#1.3.0 (canonical = <a href="https://interop.esante.gouv.fr/terminologies">https://interop.esante.gouv.fr/terminologies</a> (<a href="https://interop.esante.gouv.fr/terminologies/history.html">history</a>))</p>
+ <p>Generated Sat Oct 18 13:23:31 UTC 2025, FHIR version 4.0.1 for ans.fr.terminologies#1.3.0 (canonical = <a href="https://interop.esante.gouv.fr/terminologies">https://interop.esante.gouv.fr/terminologies</a> (<a href="https://interop.esante.gouv.fr/terminologies/history.html">history</a>))</p>
 <p>This page provides a report on which terminology servers were used while publishing this IG. Note that terminology caching reduces the server hit count - this page only reports content that wasn't cached</p>
 <h2>Terminology Parameters</h2>
 <ul>
@@ -1608,11 +1608,11 @@
     <td>auth = , candidates=</td>
   </tr>
   <tr>
-    <td>System not handled by any servers. Using primary server</td>
+    <td>Found candidate server http://tx.fhir.org/r4</td>
     <td>http://tx.fhir.org/r4</td>
     <td>https://smt.esante.gouv.fr/fhir/ValueSet/jdv-mesure-type-verre-delivre-cisis-inc-0</td>
     <td>https://smt.esante.gouv.fr/terminologie-ncit</td>
-    <td>auth = , candidates=</td>
+    <td>auth = , candidates=http://tx.fhir.org/r4</td>
   </tr>
   <tr>
     <td>Found candidate server http://tx.fhir.org/r4</td>
@@ -7976,6 +7976,25 @@
     <td></td>
     <td>urn:iso:std:iso:3166:-2</td>
     <td>auth = , candidates=http://tx.fhir.org/r4|http://tx.hl7europe.eu/r4</td>
+  </tr>
+</table>
+<p>
+  <b>Errors</b>
+</p>
+<table class="grid">
+  <tr>
+    <td>
+      <b>URL</b>
+    </td>
+    <td>
+      <b>Message</b>
+    </td>
+  </tr>
+  <tr>
+    <td>https://smt.esante.gouv.fr/terminologie-ncit</td>
+    <td style="background-color: #ffe3e3">
+      <span title="http://tx.fhir.org/tx-reg/resolve?fhirVersion=4.0&amp;url=https%3A%2F%2Fsmt.esante.gouv.fr%2Fterminologie-ncit&amp;usage=publication">Error resolving system https://smt.esante.gouv.fr/terminologie-ncit: Connect timed out</span>
+    </td>
   </tr>
 </table>
 <h2>Primary Server: http://tx.fhir.org/r4</h2>

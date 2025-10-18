@@ -7,10 +7,6 @@ Generic: line 0, col 0, Warning - This column is not defined as a collection, bu
 Generic: line 0, col 0, Warning - This column is not defined as a collection, but the path statement 'code' might return multiple values for the column 'code' for some inputs (BUSINESSRULE)
 Generic: line 0, col 0, Warning - This column is not defined as a collection, but the path statement 'display' might return multiple values for the column 'display' for some inputs (BUSINESSRULE)
 Generic: line 0, col 0, Error - Error Processing ViewDefinition: File /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/sql/sql-add-info-codesystem-property.sql not found (REQUIRED)
-Generic: line 0, col 0, Error - Error Processing ViewDefinition: View Definition is not valid (REQUIRED)
-Generic: line 0, col 0, Error - Error evaluating FHIRPath expression: The name 'title' is not valid for any of the possible types: [http://hl7.org/fhir/StructureDefinition/NamingSystem] (@char 1) (INVALID)
-Generic: line 0, col 0, Error - Error evaluating FHIRPath expression: The name 'url' is not valid for any of the possible types: [http://hl7.org/fhir/StructureDefinition/NamingSystem] (@char 1) (INVALID)
-Generic: line 0, col 0, Error - The path expression ('status') does not return a value of the type 'string' - found [http://hl7.org/fhir/StructureDefinition/code] (VALUE)
 Generic: line 0, col 0, Warning - Unable to find ImplementationGuide.definition.resource.description for the resource CodeSystem/TRE-R13-CommuneOM.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list. (INVARIANT)
 Generic: line 0, col 0, Warning - Unable to find ImplementationGuide.definition.resource.description for the resource NamingSystem/ADICAP.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list. (INVARIANT)
 Generic: line 0, col 0, Warning - Unable to find ImplementationGuide.definition.resource.description for the resource NamingSystem/IHERoleCodeVocabulary.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list. (INVARIANT)
@@ -6775,5 +6771,5 @@ Generic: line 0, col 0, Warning - The <script> containing the javascript '(funct
 /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/TRE/TreR394CompetenceMetier_tre-r394-competence-metier.json: line 1, col 8225, Info - This property has only a code ('dateMaj') and not a URI, so it has no clearly defined meaning in the terminology ecosystem (BUSINESSRULE)
 /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/TRE/TreR394CompetenceMetier_tre-r394-competence-metier.json: line 1, col 8225, Info - This property has only a code ('dateFin') and not a URI, so it has no clearly defined meaning in the terminology ecosystem (BUSINESSRULE)
 
-err = 1181, warn = 1909, info = 1043
+err = 1177, warn = 1909, info = 1043
 IG Publisher Version: 1.8.22
