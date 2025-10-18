@@ -9,6 +9,7 @@ import os.path
 import getpass
 import requests
 import sys
+import urllib.request
 
 
 async def main():
@@ -46,8 +47,11 @@ async def main():
             f = open('../input/ontoserver/TRE/'+ e_codeSystem["name"]   + "_" +  e_codeSystem["id"] + ".json", "w", encoding="utf-8") 
             try:
                 if(( CodeSystem["count"] > 3000) or (e_codeSystem["name"] == "TRE_R13_CommuneOM") or (e_codeSystem["name"] == "NUVA") or (e_codeSystem["name"] == "CISP_2") or (e_codeSystem["name"] == "Standard_terms_EDQM")  )   :
-                    e_codeSystem["content"] = "not-present"
-                    f.write(json.dumps(e_codeSystem))  
+                   
+                    #e_codeSystemName = urllib.request.urlopen( "https://smt.esante.gouv.fr/fhir/CodeSystem/" + e_codeSystem["id"]+ "?_summary=true" ).read()
+                    print ("https://smt.esante.gouv.fr/fhir/CodeSystem/" + e_codeSystem["id"]+ "?_summary=true")
+                    del CodeSystem["concept"] 
+                    f.write(json.dumps(CodeSystem))  
                 else :
                     f.write(json.dumps(CodeSystem))                   
             except :
