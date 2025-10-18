@@ -1,5 +1,5 @@
 {
-  "name" : "CodeSystemPopertyView",
+  "name" : "CodeSystemPropertyView",
   "resource" : "CodeSystem",
   "select": [
     {

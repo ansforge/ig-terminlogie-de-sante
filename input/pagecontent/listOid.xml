@@ -17,7 +17,7 @@
 
 
    {% sql {
-  "query" : " select  name as Name,url as url,replace(identifier,'urn:oid:','')  as OID from CodeSystemViewOid   order by name ",
+  "query" : " select  name as Name,url as url,replace(identifier,'urn:oid:','')  as OID from CodeSystemViewOid  union  select name, uniqueIdURI,uniqueIdOid from NamingSystemOIDview  order by name ",
   "class" : "codes",
   "columns" : [
     { "name" : "Name", "type" : "markdown", "source" : "Name"},

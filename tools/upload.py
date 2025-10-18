@@ -50,6 +50,7 @@ async def main():
                    
                     #e_codeSystemName = urllib.request.urlopen( "https://smt.esante.gouv.fr/fhir/CodeSystem/" + e_codeSystem["id"]+ "?_summary=true" ).read()
                     print ("https://smt.esante.gouv.fr/fhir/CodeSystem/" + e_codeSystem["id"]+ "?_summary=true")
+                    CodeSystem["content"] = "not-present"
                     del CodeSystem["concept"] 
                     f.write(json.dumps(CodeSystem))  
                 else :
