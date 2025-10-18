@@ -4,7 +4,7 @@
    <ValueSet dateFin=""
              dateMaj="20250711000000"
              dateValid=""
-             description=""
+             description="Les standard terms (ou listes de termes normalisés) ont été établis en réponse à une demande de la Commission européenne. Ils contiennent les formes pharmaceutiques, les voies et/ou les méthodes d’administration, les unités de présentation, ainsi que les conditionnements, les systèmes de fermeture et les dispositifs d’administration des médicaments à usage humain et/ou vétérinaire."
              displayName="Standard_terms_EDQM"
              id="0.4.0.127.0.16.1.1.2.1"
              typeFichier="TRE"
