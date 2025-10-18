@@ -11,7 +11,7 @@
   <name value="Terminologies"/>
   <title value="Terminologies  de Santé"/>
   <status value="active"/>
-  <date value="2025-10-18T10:20:11+00:00"/>
+  <date value="2025-10-18T12:22:52+00:00"/>
   <publisher value="ANS"/>
   <contact>
     <name value="ANS"/>
@@ -191,6 +191,22 @@
       </extension>
       <extension url="value">
         <valueString value="input/sql/sql-add-info-codesystemOid.sql"/>
+      </extension>
+    </extension>
+    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
+      <extension url="code">
+        <valueString value="viewDefinition"/>
+      </extension>
+      <extension url="value">
+        <valueString value="input/sql/sql-add-info-codesystem-property.sql"/>
+      </extension>
+    </extension>
+    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
+      <extension url="code">
+        <valueString value="viewDefinition"/>
+      </extension>
+      <extension url="value">
+        <valueString value="input/sql/sql-add-info-namingSystemOid.sql"/>
       </extension>
     </extension>
     <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
@@ -8914,6 +8930,22 @@
       </extension>
       <extension url="value">
         <valueString value="input/sql/sql-add-info-codesystemOid.sql"/>
+      </extension>
+    </extension>
+    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
+      <extension url="code">
+        <valueCode value="viewDefinition"/>
+      </extension>
+      <extension url="value">
+        <valueString value="input/sql/sql-add-info-codesystem-property.sql"/>
+      </extension>
+    </extension>
+    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
+      <extension url="code">
+        <valueCode value="viewDefinition"/>
+      </extension>
+      <extension url="value">
+        <valueString value="input/sql/sql-add-info-namingSystemOid.sql"/>
       </extension>
     </extension>
     <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">

@@ -10,7 +10,7 @@
   "name" : "Terminologies",
   "title" : "Terminologies  de Santé",
   "status" : "active",
-  "date" : "2025-10-18T10:20:11+00:00",
+  "date" : "2025-10-18T12:22:52+00:00",
   "publisher" : "ANS",
   "contact" : [{
     "name" : "ANS",
@@ -247,6 +247,28 @@
       {
         "url" : "value",
         "valueString" : "input/sql/sql-add-info-codesystemOid.sql"
+      }],
+      "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
+    },
+    {
+      "extension" : [{
+        "url" : "code",
+        "valueString" : "viewDefinition"
+      },
+      {
+        "url" : "value",
+        "valueString" : "input/sql/sql-add-info-codesystem-property.sql"
+      }],
+      "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
+    },
+    {
+      "extension" : [{
+        "url" : "code",
+        "valueString" : "viewDefinition"
+      },
+      {
+        "url" : "value",
+        "valueString" : "input/sql/sql-add-info-namingSystemOid.sql"
       }],
       "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
     },
@@ -12241,6 +12263,28 @@
       {
         "url" : "value",
         "valueString" : "input/sql/sql-add-info-codesystemOid.sql"
+      }],
+      "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
+    },
+    {
+      "extension" : [{
+        "url" : "code",
+        "valueCode" : "viewDefinition"
+      },
+      {
+        "url" : "value",
+        "valueString" : "input/sql/sql-add-info-codesystem-property.sql"
+      }],
+      "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
+    },
+    {
+      "extension" : [{
+        "url" : "code",
+        "valueCode" : "viewDefinition"
+      },
+      {
+        "url" : "value",
+        "valueString" : "input/sql/sql-add-info-namingSystemOid.sql"
       }],
       "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
     },
