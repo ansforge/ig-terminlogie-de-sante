@@ -1,10 +1,10 @@
 Terminologies : Validation Results
 =========================================
 
-err = 99, warn = 797, info = 980
+err = 99, warn = 800, info = 980
 $--
 Generated $--. FHIR version $-- for ans.fr.terminologies#$-- (canonical = https://interop.esante.gouv.fr/terminologies)
- Build Errors : 430 / 18 / 0
+ Build Errors : 430 / 22 / 0
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/DM/fsh-generated/resources/ConceptMap-ASS-A11-CorresModeleCDA-XdsFormatCode-CISIS : 0 / 0 / 1
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/DM/fsh-generated/resources/ConceptMap-ASS-A12-CorresMediaTypeCDANonStructure-XdsFormatCode-CISIS : 0 / 0 / 1
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/DM/fsh-generated/resources/ConceptMap-ASS-A13-TypeEvenement-FluxStandardise : 0 / 0 / 1
@@ -38,7 +38,7 @@ Generated $--. FHIR version $-- for ans.fr.terminologies#$-- (canonical = https:
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/DM/fsh-generated/resources/ValueSet-TRE-R222-MediaTypeCorpsCDANonStructure-all : 0 / 0 / 1
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/DM/fsh-generated/resources/ValueSet-jdv-modele-document-cda : 0 / 0 / 1
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/DM/fsh-generated/resources/ValueSet-jdv-tre-r221-modele-document-cda-non-structure-all : 0 / 0 / 1
- /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/fsh-generated/resources/ImplementationGuide-ans.fr.terminologies : 2 / 2 / 2
+ /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/fsh-generated/resources/ImplementationGuide-ans.fr.terminologies : 2 / 1 / 2
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/ASS/Alignement_Codes_NUVA_CIP_CIPUCD : 5 / 3 / 1
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/ASS/Alignement_Codes_NUVA_CIS_CIP_BDMP : 2 / 3 / 1
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/ActEncounterCode_jdv-hl7-v3-ActEncounterCode-cisis : 0 / 1 / 1
@@ -1061,7 +1061,11 @@ WARNING: input/sql/sql-add-info.json$.select[0].select[0].select[0].column[0]: T
 WARNING: input/sql/sql-add-info.json$.select[0].select[0].select[0].column[0]: This column is not defined as a collection, but the path statement 'display' might return multiple values for the column 'display' for some inputs
 WARNING: input/sql/sql-add-info-codesystem.sql$.select[0].select[0].column[0]: This column is not defined as a collection, but the path statement 'code' might return multiple values for the column 'code' for some inputs
 WARNING: input/sql/sql-add-info-codesystem.sql$.select[0].select[0].column[0]: This column is not defined as a collection, but the path statement 'display' might return multiple values for the column 'display' for some inputs
-ERROR: input/sql/sql-add-info-codesystem-property.sql: Error Processing ViewDefinition: File /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/sql/sql-add-info-codesystem-property.sql not found
+ERROR: input/sql/sql-add-info-codesystem-property.sql: Error Processing ViewDefinition: java.lang.NullPointerException: Cannot invoke "org.hl7.fhir.r5.utils.sql.Value.getValueString()" because the return value of "java.util.List.get(int)" is null
+WARNING: input/sql/sql-add-info-codesystem-property.sql$.select[0].select[0].column[0]: This column is not defined as a collection, but the path statement 'code' might return multiple values for the column 'codeProperty' for some inputs
+WARNING: input/sql/sql-add-info-codesystem-property.sql$.select[0].select[0].column[0]: This column is not defined as a collection, but the path statement 'uri' might return multiple values for the column 'uriProperty' for some inputs
+WARNING: input/sql/sql-add-info-codesystem-property.sql$.select[0].select[0].column[0]: This column is not defined as a collection, but the path statement 'type' might return multiple values for the column 'typeProperty' for some inputs
+WARNING: input/sql/sql-add-info-codesystem-property.sql$.select[0].select[0].column[0]: This column is not defined as a collection, but the path statement 'description' might return multiple values for the column 'descriptionProperty' for some inputs
 WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource CodeSystem/TRE-R13-CommuneOM.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
 WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource NamingSystem/ADICAP.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
 WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource NamingSystem/IHERoleCodeVocabulary.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
@@ -1580,7 +1584,6 @@ INFORMATION: ImplementationGuide.dependsOn[0].uri: Pinned the version of http://
 ERROR: ImplementationGuide/ans.fr.terminologies: ImplementationGuide.definition.extension[4].extension[0].value.ofType(string): The value provided ('pin-canonicals') was not found in the value set 'ig-parameters Codes ValueSet' (http://hl7.org/fhir/tools/ValueSet/ig-parameters|0.4.1), and a code is required from this value set  (error message = The System URI could not be determined for the code 'pin-canonicals' in the ValueSet 'http://hl7.org/fhir/tools/ValueSet/ig-parameters|0.4.1'; The provided code '#pin-canonicals' was not found in the value set 'http://hl7.org/fhir/tools/ValueSet/ig-parameters|0.4.1')
 ERROR: ImplementationGuide/ans.fr.terminologies: ImplementationGuide.definition.extension[1097].extension[0].value.ofType(code): The value provided ('pin-canonicals') was not found in the value set 'ig-parameters Codes ValueSet' (http://hl7.org/fhir/tools/ValueSet/ig-parameters|0.4.1), and a code is required from this value set  (error message = The System URI could not be determined for the code 'pin-canonicals' in the ValueSet 'http://hl7.org/fhir/tools/ValueSet/ig-parameters|0.4.1'; The provided code '#pin-canonicals' was not found in the value set 'http://hl7.org/fhir/tools/ValueSet/ig-parameters|0.4.1')
 WARNING: ImplementationGuide/ans.fr.terminologies: ImplementationGuide.dependsOn[1]: The ImplementationGuide uses package hl7.fhir.uv.ips#1.1.0 released on 2022-11-22, but the most recent appropriate version is 2.0.0. This reference is getting old and the more recent version should be considered
-WARNING: ImplementationGuide/ans.fr.terminologies: ImplementationGuide.dependsOn[2]: The ImplementationGuide uses package hl7.fhir.uv.extensions.r4#5.2.0 released on 2025-02-10, but the most recent appropriate version is 5.3.0-ballot-tc1. This reference is getting old and the more recent version should be considered
 == input/ontoserver/ASS/Alignement_Codes_NUVA_CIP_CIPUCD.json ==
 ERROR: ConceptMap: Unrecognized property 'content'
 ERROR: ConceptMap.where(url = 'https://smt.esante.gouv.fr/fhir/ConceptMap/alignement-nuva-cipucd'): Conformance resource /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/ASS/Alignement_Codes_NUVA_CIP_CIPUCD.json - the canonical URL (https://interop.esante.gouv.fr/terminologies/ConceptMap/alignement-nuva-cipucd) does not match the URL (https://smt.esante.gouv.fr/fhir/ConceptMap/alignement-nuva-cipucd)
