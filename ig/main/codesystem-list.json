@@ -393,7 +393,7 @@
       "status" : "active",
       "name" : "TRE_R13_CommuneOM",
       "title" : null,
-      "description" : null,
+      "description" : "",
       "oids" : ["1.2.250.1.213.2.23"]
     },
     {

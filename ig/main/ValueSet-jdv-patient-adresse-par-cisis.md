@@ -1,0 +1,185 @@
+# JDV Patient adresse par CISIS - Terminologies de Santé v1.3.0
+
+* [**Table of Contents**](toc.md)
+* [**Artifacts Summary**](artifacts.md)
+* **JDV Patient adresse par CISIS**
+
+## ValueSet: JDV Patient adresse par CISIS 
+
+| | | |
+| :--- | :--- | :--- |
+| *Official URL*:https://smt.esante.gouv.fr/fhir/ValueSet/jdv-patient-adresse-par-cisis | *Version*:20250624152100 | |
+| Active as of 2025-06-24 | *Responsible:*Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:JdvPatientAdresseParCisis |
+| *Other Identifiers:*OID:1.2.250.1.213.1.1.5.38 | | |
+
+ 
+JDV Patient adresse par CISIS 
+
+ **References** 
+
+Ce jeu de valeurs nest pas utilisé ici ; il peut être utilisé autre part (par exemple dans les spécifications et / ou implémentations qui utilisent ce contenu)
+
+###  Recherche en live sur le SMT 
+
+Indiquer un mot clé puis taper sur "enter" :
+
+```
+Requête sur le SMT
+```
+
+### Logical Definition (CLD)
+
+version: 4; Dernière mise à jour : 2025-06-25 09:15:27+0000; Langue : fr-FR
+
+Profil: [Shareable ValueSet](http://hl7.org/fhir/R4/shareablevalueset.html)
+
+Ce jeu de valeur (ValueSet) inclut les codes selon les règles suivantes :
+
+* Inclut ce(s) code(s) tel quil(s) est (sont) défini(s) dans [`https://mos.esante.gouv.fr/NOS/TRE_A02-ProfessionSavFaire-CISIS/FHIR/TRE-A02-ProfessionSavFaire-CISIS`](CodeSystem-TRE-A02-ProfessionSavFaire-CISIS.md)version 📦20241213120000
+* Inclut ce(s) code(s) tel quil(s) est (sont) défini(s) dans [`https://smt.esante.gouv.fr/fhir/CodeSystem/terminologie-cisis`](CodeSystem-terminologie-cisis.md)version 📦202510200000 
+* Inclut ce(s) code(s) tel quil(s) est (sont) défini(s) dans [`https://mos.esante.gouv.fr/NOS/TRE_R66-CategorieEtablissement/FHIR/TRE-R66-CategorieEtablissement`](CodeSystem-TRE-R66-CategorieEtablissement.md)version 📦20250425120000 
+
+ 
+
+### Expansion
+
+Ce jeu de valeur (ValueSet) contient 14 concepts
+
+-------
+
+ Explanation of the columns that may appear on this page: 
+
+| | |
+| :--- | :--- |
+| Level | A few code lists that FHIR defines are hierarchical - each code is assigned a level. In this scheme, some codes are under other codes, and imply that the code they are under also applies |
+| System | The source of the definition of the code (when the value set draws in codes defined elsewhere) |
+| Code | The code (used as the code in the resource instance) |
+| Display | The display (used in the*display*element of a[Coding](http://hl7.org/fhir/R4/datatypes.html#Coding)). If there is no display, implementers should not simply display the code, but map the concept into their application |
+| Definition | An explanation of the meaning of the concept |
+| Comments | Additional notes about how to use the code |
+
+
+
+## Resource Content
+
+```json
+{
+  "resourceType" : "ValueSet",
+  "id" : "jdv-patient-adresse-par-cisis",
+  "meta" : {
+    "versionId" : "4",
+    "lastUpdated" : "2025-06-25T09:15:27.891+00:00",
+    "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset"]
+  },
+  "language" : "fr-FR",
+  "extension" : [
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod",
+      "valuePeriod" : {
+        "start" : "2010-01-01T00:00:00+01:00"
+      }
+    }
+  ],
+  "url" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-patient-adresse-par-cisis",
+  "identifier" : [
+    {
+      "system" : "urn:ietf:rfc:3986",
+      "value" : "urn:oid:1.2.250.1.213.1.1.5.38"
+    }
+  ],
+  "version" : "20250624152100",
+  "name" : "JdvPatientAdresseParCisis",
+  "title" : "JDV Patient adresse par CISIS",
+  "status" : "active",
+  "experimental" : false,
+  "date" : "2025-06-24T15:21:00+01:00",
+  "publisher" : "Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris",
+  "description" : "JDV Patient adresse par CISIS",
+  "jurisdiction" : [
+    {
+      "coding" : [
+        {
+          "system" : "urn:iso:std:iso:3166",
+          "code" : "FRA"
+        }
+      ]
+    }
+  ],
+  "compose" : {
+    "include" : [
+      {
+        "system" : "https://mos.esante.gouv.fr/NOS/TRE_A02-ProfessionSavFaire-CISIS/FHIR/TRE-A02-ProfessionSavFaire-CISIS",
+        "concept" : [
+          {
+            "code" : "G15_10/C23",
+            "display" : "Médecin - Gynécologie médicale et Obstétrique (C)"
+          },
+          {
+            "code" : "G15_10/C72",
+            "display" : "Médecin - Génétique médicale (C)"
+          },
+          {
+            "code" : "G15_10/SM54",
+            "display" : "Médecin - Médecine Générale (SM)"
+          }
+        ]
+      },
+      {
+        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/terminologie-cisis",
+        "concept" : [
+          {
+            "code" : "ORG-019",
+            "display" : "Venu de lui-même"
+          },
+          {
+            "code" : "ORG-020",
+            "display" : "Association de patients"
+          },
+          {
+            "code" : "ORG-021",
+            "display" : "Pédiatre ville"
+          },
+          {
+            "code" : "ORG-022",
+            "display" : "Pédiatre hôpital"
+          },
+          {
+            "code" : "GEN-092.05.02",
+            "display" : "Autre spécialiste"
+          },
+          {
+            "code" : "ORG-025",
+            "display" : "Site de prise en charge"
+          },
+          {
+            "code" : "ORG-026",
+            "display" : "Centre pluridisciplinaire de diagnostic prénatal"
+          },
+          {
+            "code" : "ORG-182",
+            "display" : "Centre de référence maladies rares (CRM)"
+          },
+          {
+            "code" : "ORG-183",
+            "display" : "Centre de compétences maladies rares (CCM)"
+          },
+          {
+            "code" : "GEN-092.05.01",
+            "display" : "Autre personne"
+          }
+        ]
+      },
+      {
+        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R66-CategorieEtablissement/FHIR/TRE-R66-CategorieEtablissement",
+        "concept" : [
+          {
+            "code" : "223",
+            "display" : "Protection Maternelle et Infantile (P.M.I.)"
+          }
+        ]
+      }
+    ]
+  }
+}
+
+```

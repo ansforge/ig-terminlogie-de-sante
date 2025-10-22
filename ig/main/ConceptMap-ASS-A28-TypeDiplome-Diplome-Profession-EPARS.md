@@ -1,0 +1,1581 @@
+# ASS_A28_TypeDiplome_Diplome_Profession_EPARS - Terminologies de Santé v1.3.0
+
+* [**Table of Contents**](toc.md)
+* [**Artifacts Summary**](artifacts.md)
+* **ASS_A28_TypeDiplome_Diplome_Profession_EPARS**
+
+## ConceptMap: ASS_A28_TypeDiplome_Diplome_Profession_EPARS 
+
+| | |
+| :--- | :--- |
+| *Official URL*:https://mos.esante.gouv.fr/NOS/ASS_A28-TypeDiplome-Diplome-Profession-EPARS/FHIR/ASS-A28-TypeDiplome-Diplome-Profession-EPARS | *Version*:20240726120000 |
+| Active as of 2024-07-26 | *Computable Name*:ASS_A28_TypeDiplome_Diplome_Profession_EPARS |
+| *Other Identifiers:*urn:oid:1.2.250.1.213.1.6.1.241 | |
+
+ 
+Table d’association entre les types de diplômes, les diplômes et les professions de santé, médico-sociales ou sociales 
+
+Mapping from (non spécifié) to [JDV_J183_Diplome_EPARS](ValueSet-JDV-J183-Diplome-EPARS.md)
+
+**Group 1**Mapping from [TRE_R14_TypeDiplome](CodeSystem-TRE-R14-TypeDiplome.md) to [TRE_R48_DiplomeEtatFrancais](CodeSystem-TRE-R48-DiplomeEtatFrancais.md)
+
+* **Codes**from[TRE_R14_TypeDiplome](CodeSystem-TRE-R14-TypeDiplome.md): DE
+  * **JDVJ166ProfessionEPARS**: Diplôme d'Etat français
+  * : 26
+  * **Codes**from[TRE_R48_DiplomeEtatFrancais](CodeSystem-TRE-R48-DiplomeEtatFrancais.md): [is equivalent to](http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent)
+  * ?: DE29
+  * ?: 
+* **Codes**from[TRE_R14_TypeDiplome](CodeSystem-TRE-R14-TypeDiplome.md): DE
+  * **JDVJ166ProfessionEPARS**: Diplôme d'Etat français
+  * : 41
+  * **Codes**from[TRE_R48_DiplomeEtatFrancais](CodeSystem-TRE-R48-DiplomeEtatFrancais.md): [is equivalent to](http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent)
+  * ?: DE28
+  * ?: 
+* **Codes**from[TRE_R14_TypeDiplome](CodeSystem-TRE-R14-TypeDiplome.md): DE
+  * **JDVJ166ProfessionEPARS**: Diplôme d'Etat français
+  * : 96
+  * **Codes**from[TRE_R48_DiplomeEtatFrancais](CodeSystem-TRE-R48-DiplomeEtatFrancais.md): [is equivalent to](http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent)
+  * ?: DE32
+  * ?: 
+* **Codes**from[TRE_R14_TypeDiplome](CodeSystem-TRE-R14-TypeDiplome.md): DE
+  * **JDVJ166ProfessionEPARS**: Diplôme d'Etat français
+  * : 98
+  * **Codes**from[TRE_R48_DiplomeEtatFrancais](CodeSystem-TRE-R48-DiplomeEtatFrancais.md): [is equivalent to](http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent)
+  * ?: DE39
+  * ?: 
+* **Codes**from[TRE_R14_TypeDiplome](CodeSystem-TRE-R14-TypeDiplome.md): DE
+  * **JDVJ166ProfessionEPARS**: Diplôme d'Etat français
+  * : 86
+  * **Codes**from[TRE_R48_DiplomeEtatFrancais](CodeSystem-TRE-R48-DiplomeEtatFrancais.md): [is equivalent to](http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent)
+  * ?: DE38
+  * ?: 
+* **Codes**from[TRE_R14_TypeDiplome](CodeSystem-TRE-R14-TypeDiplome.md): DE
+  * **JDVJ166ProfessionEPARS**: Diplôme d'Etat français
+  * : 94
+  * **Codes**from[TRE_R48_DiplomeEtatFrancais](CodeSystem-TRE-R48-DiplomeEtatFrancais.md): [is equivalent to](http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent)
+  * ?: DE30
+  * ?: 
+* **Codes**from[TRE_R14_TypeDiplome](CodeSystem-TRE-R14-TypeDiplome.md): DU
+  * **JDVJ166ProfessionEPARS**: Diplôme d'université (DU) ou inter-universitaire (DIU)
+  * : 86
+  * **Codes**from[TRE_R48_DiplomeEtatFrancais](CodeSystem-TRE-R48-DiplomeEtatFrancais.md): [is equivalent to](http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent)
+  * ?: DIP410
+  * ?: 
+* **Codes**from[TRE_R14_TypeDiplome](CodeSystem-TRE-R14-TypeDiplome.md): DU
+  * **JDVJ166ProfessionEPARS**: Diplôme d'université (DU) ou inter-universitaire (DIU)
+  * : 86
+  * **Codes**from[TRE_R48_DiplomeEtatFrancais](CodeSystem-TRE-R48-DiplomeEtatFrancais.md): [is equivalent to](http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent)
+  * ?: DIP411
+  * ?: 
+* **Codes**from[TRE_R14_TypeDiplome](CodeSystem-TRE-R14-TypeDiplome.md): DU
+  * **JDVJ166ProfessionEPARS**: Diplôme d'université (DU) ou inter-universitaire (DIU)
+  * : 95
+  * **Codes**from[TRE_R48_DiplomeEtatFrancais](CodeSystem-TRE-R48-DiplomeEtatFrancais.md): [is equivalent to](http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent)
+  * ?: DIP416
+  * ?: 
+* **Codes**from[TRE_R14_TypeDiplome](CodeSystem-TRE-R14-TypeDiplome.md): DU
+  * **JDVJ166ProfessionEPARS**: Diplôme d'université (DU) ou inter-universitaire (DIU)
+  * : 71
+  * **Codes**from[TRE_R48_DiplomeEtatFrancais](CodeSystem-TRE-R48-DiplomeEtatFrancais.md): [is equivalent to](http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent)
+  * ?: DIP320
+  * ?: 
+* **Codes**from[TRE_R14_TypeDiplome](CodeSystem-TRE-R14-TypeDiplome.md): DU
+  * **JDVJ166ProfessionEPARS**: Diplôme d'université (DU) ou inter-universitaire (DIU)
+  * : 86
+  * **Codes**from[TRE_R48_DiplomeEtatFrancais](CodeSystem-TRE-R48-DiplomeEtatFrancais.md): [is equivalent to](http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent)
+  * ?: DIP413
+  * ?: 
+
+-------
+
+**Group 2**Mapping from [TRE_R14_TypeDiplome](CodeSystem-TRE-R14-TypeDiplome.md) to [TRE_R58_AutreTypeDiplome](CodeSystem-TRE-R58-AutreTypeDiplome.md)
+
+* **Codes**from[TRE_R14_TypeDiplome](CodeSystem-TRE-R14-TypeDiplome.md): AU
+  * **JDVJ166ProfessionEPARS**: Autre type de diplôme
+  * : 26
+  * **Codes**from[TRE_R58_AutreTypeDiplome](CodeSystem-TRE-R58-AutreTypeDiplome.md): [is equivalent to](http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent)
+  * ?: DIP331
+  * ?: 
+* **Codes**from[TRE_R14_TypeDiplome](CodeSystem-TRE-R14-TypeDiplome.md): AU
+  * **JDVJ166ProfessionEPARS**: Autre type de diplôme
+  * : 26
+  * **Codes**from[TRE_R58_AutreTypeDiplome](CodeSystem-TRE-R58-AutreTypeDiplome.md): [is equivalent to](http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent)
+  * ?: DIP332
+  * ?: 
+* **Codes**from[TRE_R14_TypeDiplome](CodeSystem-TRE-R14-TypeDiplome.md): AU
+  * **JDVJ166ProfessionEPARS**: Autre type de diplôme
+  * : 28
+  * **Codes**from[TRE_R58_AutreTypeDiplome](CodeSystem-TRE-R58-AutreTypeDiplome.md): [is equivalent to](http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent)
+  * ?: DIP333
+  * ?: 
+* **Codes**from[TRE_R14_TypeDiplome](CodeSystem-TRE-R14-TypeDiplome.md): AU
+  * **JDVJ166ProfessionEPARS**: Autre type de diplôme
+  * : 28
+  * **Codes**from[TRE_R58_AutreTypeDiplome](CodeSystem-TRE-R58-AutreTypeDiplome.md): [is equivalent to](http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent)
+  * ?: DIP334
+  * ?: 
+* **Codes**from[TRE_R14_TypeDiplome](CodeSystem-TRE-R14-TypeDiplome.md): AU
+  * **JDVJ166ProfessionEPARS**: Autre type de diplôme
+  * : 28
+  * **Codes**from[TRE_R58_AutreTypeDiplome](CodeSystem-TRE-R58-AutreTypeDiplome.md): [is equivalent to](http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent)
+  * ?: DIP335
+  * ?: 
+* **Codes**from[TRE_R14_TypeDiplome](CodeSystem-TRE-R14-TypeDiplome.md): AU
+  * **JDVJ166ProfessionEPARS**: Autre type de diplôme
+  * : 28
+  * **Codes**from[TRE_R58_AutreTypeDiplome](CodeSystem-TRE-R58-AutreTypeDiplome.md): [is equivalent to](http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent)
+  * ?: DIP336
+  * ?: 
+* **Codes**from[TRE_R14_TypeDiplome](CodeSystem-TRE-R14-TypeDiplome.md): AU
+  * **JDVJ166ProfessionEPARS**: Autre type de diplôme
+  * : 28
+  * **Codes**from[TRE_R58_AutreTypeDiplome](CodeSystem-TRE-R58-AutreTypeDiplome.md): [is equivalent to](http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent)
+  * ?: DIP337
+  * ?: 
+* **Codes**from[TRE_R14_TypeDiplome](CodeSystem-TRE-R14-TypeDiplome.md): AU
+  * **JDVJ166ProfessionEPARS**: Autre type de diplôme
+  * : 28
+  * **Codes**from[TRE_R58_AutreTypeDiplome](CodeSystem-TRE-R58-AutreTypeDiplome.md): [is equivalent to](http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent)
+  * ?: DIP338
+  * ?: 
+* **Codes**from[TRE_R14_TypeDiplome](CodeSystem-TRE-R14-TypeDiplome.md): AU
+  * **JDVJ166ProfessionEPARS**: Autre type de diplôme
+  * : 31
+  * **Codes**from[TRE_R58_AutreTypeDiplome](CodeSystem-TRE-R58-AutreTypeDiplome.md): [is equivalent to](http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent)
+  * ?: DIP319
+  * ?: 
+* **Codes**from[TRE_R14_TypeDiplome](CodeSystem-TRE-R14-TypeDiplome.md): AU
+  * **JDVJ166ProfessionEPARS**: Autre type de diplôme
+  * : 71
+  * **Codes**from[TRE_R58_AutreTypeDiplome](CodeSystem-TRE-R58-AutreTypeDiplome.md): [is equivalent to](http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent)
+  * ?: DIP321
+  * ?: 
+* **Codes**from[TRE_R14_TypeDiplome](CodeSystem-TRE-R14-TypeDiplome.md): AU
+  * **JDVJ166ProfessionEPARS**: Autre type de diplôme
+  * : 72
+  * **Codes**from[TRE_R58_AutreTypeDiplome](CodeSystem-TRE-R58-AutreTypeDiplome.md): [is equivalent to](http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent)
+  * ?: DIP322
+  * ?: 
+* **Codes**from[TRE_R14_TypeDiplome](CodeSystem-TRE-R14-TypeDiplome.md): AU
+  * **JDVJ166ProfessionEPARS**: Autre type de diplôme
+  * : 72
+  * **Codes**from[TRE_R58_AutreTypeDiplome](CodeSystem-TRE-R58-AutreTypeDiplome.md): [is equivalent to](http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent)
+  * ?: DIP323
+  * ?: 
+* **Codes**from[TRE_R14_TypeDiplome](CodeSystem-TRE-R14-TypeDiplome.md): AU
+  * **JDVJ166ProfessionEPARS**: Autre type de diplôme
+  * : 72
+  * **Codes**from[TRE_R58_AutreTypeDiplome](CodeSystem-TRE-R58-AutreTypeDiplome.md): [is equivalent to](http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent)
+  * ?: DIP324
+  * ?: 
+* **Codes**from[TRE_R14_TypeDiplome](CodeSystem-TRE-R14-TypeDiplome.md): AU
+  * **JDVJ166ProfessionEPARS**: Autre type de diplôme
+  * : 72
+  * **Codes**from[TRE_R58_AutreTypeDiplome](CodeSystem-TRE-R58-AutreTypeDiplome.md): [is equivalent to](http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent)
+  * ?: DIP325
+  * ?: 
+* **Codes**from[TRE_R14_TypeDiplome](CodeSystem-TRE-R14-TypeDiplome.md): AU
+  * **JDVJ166ProfessionEPARS**: Autre type de diplôme
+  * : 72
+  * **Codes**from[TRE_R58_AutreTypeDiplome](CodeSystem-TRE-R58-AutreTypeDiplome.md): [is equivalent to](http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent)
+  * ?: DIP326
+  * ?: 
+* **Codes**from[TRE_R14_TypeDiplome](CodeSystem-TRE-R14-TypeDiplome.md): AU
+  * **JDVJ166ProfessionEPARS**: Autre type de diplôme
+  * : 72
+  * **Codes**from[TRE_R58_AutreTypeDiplome](CodeSystem-TRE-R58-AutreTypeDiplome.md): [is equivalent to](http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent)
+  * ?: DIP327
+  * ?: 
+* **Codes**from[TRE_R14_TypeDiplome](CodeSystem-TRE-R14-TypeDiplome.md): AU
+  * **JDVJ166ProfessionEPARS**: Autre type de diplôme
+  * : 72
+  * **Codes**from[TRE_R58_AutreTypeDiplome](CodeSystem-TRE-R58-AutreTypeDiplome.md): [is equivalent to](http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent)
+  * ?: DIP328
+  * ?: 
+* **Codes**from[TRE_R14_TypeDiplome](CodeSystem-TRE-R14-TypeDiplome.md): AU
+  * **JDVJ166ProfessionEPARS**: Autre type de diplôme
+  * : 73
+  * **Codes**from[TRE_R58_AutreTypeDiplome](CodeSystem-TRE-R58-AutreTypeDiplome.md): [is equivalent to](http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent)
+  * ?: DIP329
+  * ?: 
+* **Codes**from[TRE_R14_TypeDiplome](CodeSystem-TRE-R14-TypeDiplome.md): AU
+  * **JDVJ166ProfessionEPARS**: Autre type de diplôme
+  * : 81
+  * **Codes**from[TRE_R58_AutreTypeDiplome](CodeSystem-TRE-R58-AutreTypeDiplome.md): [is equivalent to](http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent)
+  * ?: DIP339
+  * ?: 
+* **Codes**from[TRE_R14_TypeDiplome](CodeSystem-TRE-R14-TypeDiplome.md): AU
+  * **JDVJ166ProfessionEPARS**: Autre type de diplôme
+  * : 81
+  * **Codes**from[TRE_R58_AutreTypeDiplome](CodeSystem-TRE-R58-AutreTypeDiplome.md): [is equivalent to](http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent)
+  * ?: DIP340
+  * ?: 
+* **Codes**from[TRE_R14_TypeDiplome](CodeSystem-TRE-R14-TypeDiplome.md): AU
+  * **JDVJ166ProfessionEPARS**: Autre type de diplôme
+  * : 82
+  * **Codes**from[TRE_R58_AutreTypeDiplome](CodeSystem-TRE-R58-AutreTypeDiplome.md): [is equivalent to](http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent)
+  * ?: DIP341
+  * ?: 
+* **Codes**from[TRE_R14_TypeDiplome](CodeSystem-TRE-R14-TypeDiplome.md): AU
+  * **JDVJ166ProfessionEPARS**: Autre type de diplôme
+  * : 83
+  * **Codes**from[TRE_R58_AutreTypeDiplome](CodeSystem-TRE-R58-AutreTypeDiplome.md): [is equivalent to](http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent)
+  * ?: DIP340
+  * ?: 
+* **Codes**from[TRE_R14_TypeDiplome](CodeSystem-TRE-R14-TypeDiplome.md): AU
+  * **JDVJ166ProfessionEPARS**: Autre type de diplôme
+  * : 83
+  * **Codes**from[TRE_R58_AutreTypeDiplome](CodeSystem-TRE-R58-AutreTypeDiplome.md): [is equivalent to](http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent)
+  * ?: DIP342
+  * ?: 
+* **Codes**from[TRE_R14_TypeDiplome](CodeSystem-TRE-R14-TypeDiplome.md): AU
+  * **JDVJ166ProfessionEPARS**: Autre type de diplôme
+  * : 83
+  * **Codes**from[TRE_R58_AutreTypeDiplome](CodeSystem-TRE-R58-AutreTypeDiplome.md): [is equivalent to](http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent)
+  * ?: DIP343
+  * ?: 
+* **Codes**from[TRE_R14_TypeDiplome](CodeSystem-TRE-R14-TypeDiplome.md): AU
+  * **JDVJ166ProfessionEPARS**: Autre type de diplôme
+  * : 83
+  * **Codes**from[TRE_R58_AutreTypeDiplome](CodeSystem-TRE-R58-AutreTypeDiplome.md): [is equivalent to](http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent)
+  * ?: DIP345
+  * ?: 
+* **Codes**from[TRE_R14_TypeDiplome](CodeSystem-TRE-R14-TypeDiplome.md): AU
+  * **JDVJ166ProfessionEPARS**: Autre type de diplôme
+  * : 86
+  * **Codes**from[TRE_R58_AutreTypeDiplome](CodeSystem-TRE-R58-AutreTypeDiplome.md): [is equivalent to](http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent)
+  * ?: DIP348
+  * ?: 
+* **Codes**from[TRE_R14_TypeDiplome](CodeSystem-TRE-R14-TypeDiplome.md): AU
+  * **JDVJ166ProfessionEPARS**: Autre type de diplôme
+  * : 86
+  * **Codes**from[TRE_R58_AutreTypeDiplome](CodeSystem-TRE-R58-AutreTypeDiplome.md): [is equivalent to](http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent)
+  * ?: DIP349
+  * ?: 
+* **Codes**from[TRE_R14_TypeDiplome](CodeSystem-TRE-R14-TypeDiplome.md): AU
+  * **JDVJ166ProfessionEPARS**: Autre type de diplôme
+  * : 86
+  * **Codes**from[TRE_R58_AutreTypeDiplome](CodeSystem-TRE-R58-AutreTypeDiplome.md): [is equivalent to](http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent)
+  * ?: DIP350
+  * ?: 
+* **Codes**from[TRE_R14_TypeDiplome](CodeSystem-TRE-R14-TypeDiplome.md): AU
+  * **JDVJ166ProfessionEPARS**: Autre type de diplôme
+  * : 91
+  * **Codes**from[TRE_R58_AutreTypeDiplome](CodeSystem-TRE-R58-AutreTypeDiplome.md): [is equivalent to](http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent)
+  * ?: DIP353
+  * ?: 
+* **Codes**from[TRE_R14_TypeDiplome](CodeSystem-TRE-R14-TypeDiplome.md): AU
+  * **JDVJ166ProfessionEPARS**: Autre type de diplôme
+  * : 91
+  * **Codes**from[TRE_R58_AutreTypeDiplome](CodeSystem-TRE-R58-AutreTypeDiplome.md): [is equivalent to](http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent)
+  * ?: DIP354
+  * ?: 
+* **Codes**from[TRE_R14_TypeDiplome](CodeSystem-TRE-R14-TypeDiplome.md): AU
+  * **JDVJ166ProfessionEPARS**: Autre type de diplôme
+  * : 92
+  * **Codes**from[TRE_R58_AutreTypeDiplome](CodeSystem-TRE-R58-AutreTypeDiplome.md): [is equivalent to](http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent)
+  * ?: DIP355
+  * ?: 
+* **Codes**from[TRE_R14_TypeDiplome](CodeSystem-TRE-R14-TypeDiplome.md): AU
+  * **JDVJ166ProfessionEPARS**: Autre type de diplôme
+  * : 93
+  * **Codes**from[TRE_R58_AutreTypeDiplome](CodeSystem-TRE-R58-AutreTypeDiplome.md): [is equivalent to](http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent)
+  * ?: DIP323
+  * ?: 
+* **Codes**from[TRE_R14_TypeDiplome](CodeSystem-TRE-R14-TypeDiplome.md): AU
+  * **JDVJ166ProfessionEPARS**: Autre type de diplôme
+  * : 93
+  * **Codes**from[TRE_R58_AutreTypeDiplome](CodeSystem-TRE-R58-AutreTypeDiplome.md): [is equivalent to](http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent)
+  * ?: DIP324
+  * ?: 
+* **Codes**from[TRE_R14_TypeDiplome](CodeSystem-TRE-R14-TypeDiplome.md): AU
+  * **JDVJ166ProfessionEPARS**: Autre type de diplôme
+  * : 93
+  * **Codes**from[TRE_R58_AutreTypeDiplome](CodeSystem-TRE-R58-AutreTypeDiplome.md): [is equivalent to](http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent)
+  * ?: DIP325
+  * ?: 
+* **Codes**from[TRE_R14_TypeDiplome](CodeSystem-TRE-R14-TypeDiplome.md): AU
+  * **JDVJ166ProfessionEPARS**: Autre type de diplôme
+  * : 93
+  * **Codes**from[TRE_R58_AutreTypeDiplome](CodeSystem-TRE-R58-AutreTypeDiplome.md): [is equivalent to](http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent)
+  * ?: DIP326
+  * ?: 
+* **Codes**from[TRE_R14_TypeDiplome](CodeSystem-TRE-R14-TypeDiplome.md): AU
+  * **JDVJ166ProfessionEPARS**: Autre type de diplôme
+  * : 93
+  * **Codes**from[TRE_R58_AutreTypeDiplome](CodeSystem-TRE-R58-AutreTypeDiplome.md): [is equivalent to](http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent)
+  * ?: DIP327
+  * ?: 
+* **Codes**from[TRE_R14_TypeDiplome](CodeSystem-TRE-R14-TypeDiplome.md): AU
+  * **JDVJ166ProfessionEPARS**: Autre type de diplôme
+  * : 93
+  * **Codes**from[TRE_R58_AutreTypeDiplome](CodeSystem-TRE-R58-AutreTypeDiplome.md): [is equivalent to](http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent)
+  * ?: DIP356
+  * ?: 
+* **Codes**from[TRE_R14_TypeDiplome](CodeSystem-TRE-R14-TypeDiplome.md): AU
+  * **JDVJ166ProfessionEPARS**: Autre type de diplôme
+  * : 93
+  * **Codes**from[TRE_R58_AutreTypeDiplome](CodeSystem-TRE-R58-AutreTypeDiplome.md): [is equivalent to](http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent)
+  * ?: DIP357
+  * ?: 
+* **Codes**from[TRE_R14_TypeDiplome](CodeSystem-TRE-R14-TypeDiplome.md): AU
+  * **JDVJ166ProfessionEPARS**: Autre type de diplôme
+  * : 93
+  * **Codes**from[TRE_R58_AutreTypeDiplome](CodeSystem-TRE-R58-AutreTypeDiplome.md): [is equivalent to](http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent)
+  * ?: DIP358
+  * ?: 
+* **Codes**from[TRE_R14_TypeDiplome](CodeSystem-TRE-R14-TypeDiplome.md): AU
+  * **JDVJ166ProfessionEPARS**: Autre type de diplôme
+  * : 93
+  * **Codes**from[TRE_R58_AutreTypeDiplome](CodeSystem-TRE-R58-AutreTypeDiplome.md): [is equivalent to](http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent)
+  * ?: DIP359
+  * ?: 
+* **Codes**from[TRE_R14_TypeDiplome](CodeSystem-TRE-R14-TypeDiplome.md): AU
+  * **JDVJ166ProfessionEPARS**: Autre type de diplôme
+  * : 93
+  * **Codes**from[TRE_R58_AutreTypeDiplome](CodeSystem-TRE-R58-AutreTypeDiplome.md): [is equivalent to](http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent)
+  * ?: DIP360
+  * ?: 
+* **Codes**from[TRE_R14_TypeDiplome](CodeSystem-TRE-R14-TypeDiplome.md): AU
+  * **JDVJ166ProfessionEPARS**: Autre type de diplôme
+  * : 93
+  * **Codes**from[TRE_R58_AutreTypeDiplome](CodeSystem-TRE-R58-AutreTypeDiplome.md): [is equivalent to](http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent)
+  * ?: DIP361
+  * ?: 
+* **Codes**from[TRE_R14_TypeDiplome](CodeSystem-TRE-R14-TypeDiplome.md): AU
+  * **JDVJ166ProfessionEPARS**: Autre type de diplôme
+  * : 93
+  * **Codes**from[TRE_R58_AutreTypeDiplome](CodeSystem-TRE-R58-AutreTypeDiplome.md): [is equivalent to](http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent)
+  * ?: DIP362
+  * ?: 
+* **Codes**from[TRE_R14_TypeDiplome](CodeSystem-TRE-R14-TypeDiplome.md): AU
+  * **JDVJ166ProfessionEPARS**: Autre type de diplôme
+  * : 95
+  * **Codes**from[TRE_R58_AutreTypeDiplome](CodeSystem-TRE-R58-AutreTypeDiplome.md): [is equivalent to](http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent)
+  * ?: DIP364
+  * ?: 
+* **Codes**from[TRE_R14_TypeDiplome](CodeSystem-TRE-R14-TypeDiplome.md): AU
+  * **JDVJ166ProfessionEPARS**: Autre type de diplôme
+  * : 98
+  * **Codes**from[TRE_R58_AutreTypeDiplome](CodeSystem-TRE-R58-AutreTypeDiplome.md): [is equivalent to](http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent)
+  * ?: DIP367
+  * ?: 
+* **Codes**from[TRE_R14_TypeDiplome](CodeSystem-TRE-R14-TypeDiplome.md): AU
+  * **JDVJ166ProfessionEPARS**: Autre type de diplôme
+  * : 98
+  * **Codes**from[TRE_R58_AutreTypeDiplome](CodeSystem-TRE-R58-AutreTypeDiplome.md): [is equivalent to](http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent)
+  * ?: DIP368
+  * ?: 
+* **Codes**from[TRE_R14_TypeDiplome](CodeSystem-TRE-R14-TypeDiplome.md): AU
+  * **JDVJ166ProfessionEPARS**: Autre type de diplôme
+  * : 32
+  * **Codes**from[TRE_R58_AutreTypeDiplome](CodeSystem-TRE-R58-AutreTypeDiplome.md): [is equivalent to](http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent)
+  * ?: DIP409
+  * ?: 
+* **Codes**from[TRE_R14_TypeDiplome](CodeSystem-TRE-R14-TypeDiplome.md): AU
+  * **JDVJ166ProfessionEPARS**: Autre type de diplôme
+  * : 86
+  * **Codes**from[TRE_R58_AutreTypeDiplome](CodeSystem-TRE-R58-AutreTypeDiplome.md): [is equivalent to](http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent)
+  * ?: DIP414
+  * ?: 
+* **Codes**from[TRE_R14_TypeDiplome](CodeSystem-TRE-R14-TypeDiplome.md): AU
+  * **JDVJ166ProfessionEPARS**: Autre type de diplôme
+  * : 86
+  * **Codes**from[TRE_R58_AutreTypeDiplome](CodeSystem-TRE-R58-AutreTypeDiplome.md): [is equivalent to](http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent)
+  * ?: DIP415
+  * ?: 
+* **Codes**from[TRE_R14_TypeDiplome](CodeSystem-TRE-R14-TypeDiplome.md): AU
+  * **JDVJ166ProfessionEPARS**: Autre type de diplôme
+  * : 86
+  * **Codes**from[TRE_R58_AutreTypeDiplome](CodeSystem-TRE-R58-AutreTypeDiplome.md): [is equivalent to](http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent)
+  * ?: DIP412
+  * ?: 
+
+-------
+
+**Group 3**Mapping from [TRE_R14_TypeDiplome](CodeSystem-TRE-R14-TypeDiplome.md) to [TRE_R56_Attestation](CodeSystem-TRE-R56-Attestation.md)
+
+* **Codes**from[TRE_R14_TypeDiplome](CodeSystem-TRE-R14-TypeDiplome.md): ATT
+  * **JDVJ166ProfessionEPARS**: Attestation
+  * : 98
+  * **Codes**from[TRE_R56_Attestation](CodeSystem-TRE-R56-Attestation.md): [is equivalent to](http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent)
+  * ?: DIP370
+  * ?: 
+* **Codes**from[TRE_R14_TypeDiplome](CodeSystem-TRE-R14-TypeDiplome.md): ATT
+  * **JDVJ166ProfessionEPARS**: Attestation
+  * : 96
+  * **Codes**from[TRE_R56_Attestation](CodeSystem-TRE-R56-Attestation.md): [is equivalent to](http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent)
+  * ?: DIP366
+  * ?: 
+
+-------
+
+**Group 4**Mapping from [TRE_R14_TypeDiplome](CodeSystem-TRE-R14-TypeDiplome.md) to [TRE_R54_DiplomeUniversiteInterUniversitaire](CodeSystem-TRE-R54-DiplomeUniversiteInterUniversitaire.md)
+
+* **Codes**from[TRE_R14_TypeDiplome](CodeSystem-TRE-R14-TypeDiplome.md): DU
+  * **JDVJ166ProfessionEPARS**: Diplôme d'université (DU) ou inter-universitaire (DIU)
+  * : 86
+  * **Codes**from[TRE_R54_DiplomeUniversiteInterUniversitaire](CodeSystem-TRE-R54-DiplomeUniversiteInterUniversitaire.md): [is equivalent to](http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent)
+  * ?: DIP351
+  * ?: 
+* **Codes**from[TRE_R14_TypeDiplome](CodeSystem-TRE-R14-TypeDiplome.md): DU
+  * **JDVJ166ProfessionEPARS**: Diplôme d'université (DU) ou inter-universitaire (DIU)
+  * : 83
+  * **Codes**from[TRE_R54_DiplomeUniversiteInterUniversitaire](CodeSystem-TRE-R54-DiplomeUniversiteInterUniversitaire.md): [is equivalent to](http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent)
+  * ?: DIP344
+  * ?: 
+* **Codes**from[TRE_R14_TypeDiplome](CodeSystem-TRE-R14-TypeDiplome.md): DU
+  * **JDVJ166ProfessionEPARS**: Diplôme d'université (DU) ou inter-universitaire (DIU)
+  * : 95
+  * **Codes**from[TRE_R54_DiplomeUniversiteInterUniversitaire](CodeSystem-TRE-R54-DiplomeUniversiteInterUniversitaire.md): [is equivalent to](http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent)
+  * ?: DIP369
+  * ?: 
+* **Codes**from[TRE_R14_TypeDiplome](CodeSystem-TRE-R14-TypeDiplome.md): DU
+  * **JDVJ166ProfessionEPARS**: Diplôme d'université (DU) ou inter-universitaire (DIU)
+  * : 95
+  * **Codes**from[TRE_R54_DiplomeUniversiteInterUniversitaire](CodeSystem-TRE-R54-DiplomeUniversiteInterUniversitaire.md): [is equivalent to](http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent)
+  * ?: DIP365
+  * ?: 
+* **Codes**from[TRE_R14_TypeDiplome](CodeSystem-TRE-R14-TypeDiplome.md): DU
+  * **JDVJ166ProfessionEPARS**: Diplôme d'université (DU) ou inter-universitaire (DIU)
+  * : 73
+  * **Codes**from[TRE_R54_DiplomeUniversiteInterUniversitaire](CodeSystem-TRE-R54-DiplomeUniversiteInterUniversitaire.md): [is equivalent to](http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent)
+  * ?: DIP330
+  * ?: 
+* **Codes**from[TRE_R14_TypeDiplome](CodeSystem-TRE-R14-TypeDiplome.md): DU
+  * **JDVJ166ProfessionEPARS**: Diplôme d'université (DU) ou inter-universitaire (DIU)
+  * : 85
+  * **Codes**from[TRE_R54_DiplomeUniversiteInterUniversitaire](CodeSystem-TRE-R54-DiplomeUniversiteInterUniversitaire.md): [is equivalent to](http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent)
+  * ?: DIP347
+  * ?: 
+* **Codes**from[TRE_R14_TypeDiplome](CodeSystem-TRE-R14-TypeDiplome.md): DU
+  * **JDVJ166ProfessionEPARS**: Diplôme d'université (DU) ou inter-universitaire (DIU)
+  * : 84
+  * **Codes**from[TRE_R54_DiplomeUniversiteInterUniversitaire](CodeSystem-TRE-R54-DiplomeUniversiteInterUniversitaire.md): [is equivalent to](http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent)
+  * ?: DIP346
+  * ?: 
+
+
+
+## Resource Content
+
+```json
+{
+  "resourceType" : "ConceptMap",
+  "id" : "ASS-A28-TypeDiplome-Diplome-Profession-EPARS",
+  "extension" : [
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod",
+      "valuePeriod" : {
+        "start" : "2021-11-26T12:00:00+01:00"
+      }
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/concept-bidirectional",
+      "valueBoolean" : false
+    }
+  ],
+  "url" : "https://mos.esante.gouv.fr/NOS/ASS_A28-TypeDiplome-Diplome-Profession-EPARS/FHIR/ASS-A28-TypeDiplome-Diplome-Profession-EPARS",
+  "identifier" : {
+    "value" : "urn:oid:1.2.250.1.213.1.6.1.241"
+  },
+  "version" : "20240726120000",
+  "name" : "ASS_A28_TypeDiplome_Diplome_Profession_EPARS",
+  "title" : "ASS_A28_TypeDiplome_Diplome_Profession_EPARS",
+  "status" : "active",
+  "experimental" : false,
+  "date" : "2024-07-26T12:00:00+01:00",
+  "description" : "Table d'association entre les types de diplômes, les diplômes et les professions de santé, médico-sociales ou sociales",
+  "jurisdiction" : [
+    {
+      "coding" : [
+        {
+          "system" : "urn:iso:std:iso:3166",
+          "code" : "FRA"
+        }
+      ]
+    }
+  ],
+  "targetUri" : "https://mos.esante.gouv.fr/NOS/JDV_J183-Diplome-EPARS/FHIR/JDV-J183-Diplome-EPARS",
+  "group" : [
+    {
+      "source" : "https://mos.esante.gouv.fr/NOS/TRE_R14-TypeDiplome/FHIR/TRE-R14-TypeDiplome",
+      "target" : "https://mos.esante.gouv.fr/NOS/TRE_R48-DiplomeEtatFrancais/FHIR/TRE-R48-DiplomeEtatFrancais",
+      "element" : [
+        {
+          "code" : "DE",
+          "target" : [
+            {
+              "code" : "DE29",
+              "equivalence" : "equivalent",
+              "dependsOn" : [
+                {
+                  "property" : "https://mos.esante.gouv.fr/NOS/JDV_J166-Profession-EPARS/FHIR/JDV-J166-Profession-EPARS",
+                  "value" : "26"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "code" : "DE",
+          "target" : [
+            {
+              "code" : "DE28",
+              "equivalence" : "equivalent",
+              "dependsOn" : [
+                {
+                  "property" : "https://mos.esante.gouv.fr/NOS/JDV_J166-Profession-EPARS/FHIR/JDV-J166-Profession-EPARS",
+                  "value" : "41"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "code" : "DE",
+          "target" : [
+            {
+              "code" : "DE32",
+              "equivalence" : "equivalent",
+              "dependsOn" : [
+                {
+                  "property" : "https://mos.esante.gouv.fr/NOS/JDV_J166-Profession-EPARS/FHIR/JDV-J166-Profession-EPARS",
+                  "value" : "96"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "code" : "DE",
+          "target" : [
+            {
+              "code" : "DE39",
+              "equivalence" : "equivalent",
+              "dependsOn" : [
+                {
+                  "property" : "https://mos.esante.gouv.fr/NOS/JDV_J166-Profession-EPARS/FHIR/JDV-J166-Profession-EPARS",
+                  "value" : "98"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "code" : "DE",
+          "target" : [
+            {
+              "code" : "DE38",
+              "equivalence" : "equivalent",
+              "dependsOn" : [
+                {
+                  "property" : "https://mos.esante.gouv.fr/NOS/JDV_J166-Profession-EPARS/FHIR/JDV-J166-Profession-EPARS",
+                  "value" : "86"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "code" : "DE",
+          "target" : [
+            {
+              "code" : "DE30",
+              "equivalence" : "equivalent",
+              "dependsOn" : [
+                {
+                  "property" : "https://mos.esante.gouv.fr/NOS/JDV_J166-Profession-EPARS/FHIR/JDV-J166-Profession-EPARS",
+                  "value" : "94"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "code" : "DU",
+          "target" : [
+            {
+              "code" : "DIP410",
+              "equivalence" : "equivalent",
+              "dependsOn" : [
+                {
+                  "property" : "https://mos.esante.gouv.fr/NOS/JDV_J166-Profession-EPARS/FHIR/JDV-J166-Profession-EPARS",
+                  "value" : "86"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "code" : "DU",
+          "target" : [
+            {
+              "code" : "DIP411",
+              "equivalence" : "equivalent",
+              "dependsOn" : [
+                {
+                  "property" : "https://mos.esante.gouv.fr/NOS/JDV_J166-Profession-EPARS/FHIR/JDV-J166-Profession-EPARS",
+                  "value" : "86"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "code" : "DU",
+          "target" : [
+            {
+              "code" : "DIP416",
+              "equivalence" : "equivalent",
+              "dependsOn" : [
+                {
+                  "property" : "https://mos.esante.gouv.fr/NOS/JDV_J166-Profession-EPARS/FHIR/JDV-J166-Profession-EPARS",
+                  "value" : "95"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "code" : "DU",
+          "target" : [
+            {
+              "code" : "DIP320",
+              "equivalence" : "equivalent",
+              "dependsOn" : [
+                {
+                  "property" : "https://mos.esante.gouv.fr/NOS/JDV_J166-Profession-EPARS/FHIR/JDV-J166-Profession-EPARS",
+                  "value" : "71"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "code" : "DU",
+          "target" : [
+            {
+              "code" : "DIP413",
+              "equivalence" : "equivalent",
+              "dependsOn" : [
+                {
+                  "property" : "https://mos.esante.gouv.fr/NOS/JDV_J166-Profession-EPARS/FHIR/JDV-J166-Profession-EPARS",
+                  "value" : "86"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "code" : "ATT"
+        }
+      ]
+    },
+    {
+      "source" : "https://mos.esante.gouv.fr/NOS/TRE_R14-TypeDiplome/FHIR/TRE-R14-TypeDiplome",
+      "target" : "https://mos.esante.gouv.fr/NOS/TRE_R58-AutreTypeDiplome/FHIR/TRE-R58-AutreTypeDiplome",
+      "element" : [
+        {
+          "code" : "AU",
+          "target" : [
+            {
+              "code" : "DIP331",
+              "equivalence" : "equivalent",
+              "dependsOn" : [
+                {
+                  "property" : "https://mos.esante.gouv.fr/NOS/JDV_J166-Profession-EPARS/FHIR/JDV-J166-Profession-EPARS",
+                  "value" : "26"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "code" : "AU",
+          "target" : [
+            {
+              "code" : "DIP332",
+              "equivalence" : "equivalent",
+              "dependsOn" : [
+                {
+                  "property" : "https://mos.esante.gouv.fr/NOS/JDV_J166-Profession-EPARS/FHIR/JDV-J166-Profession-EPARS",
+                  "value" : "26"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "code" : "AU",
+          "target" : [
+            {
+              "code" : "DIP333",
+              "equivalence" : "equivalent",
+              "dependsOn" : [
+                {
+                  "property" : "https://mos.esante.gouv.fr/NOS/JDV_J166-Profession-EPARS/FHIR/JDV-J166-Profession-EPARS",
+                  "value" : "28"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "code" : "AU",
+          "target" : [
+            {
+              "code" : "DIP334",
+              "equivalence" : "equivalent",
+              "dependsOn" : [
+                {
+                  "property" : "https://mos.esante.gouv.fr/NOS/JDV_J166-Profession-EPARS/FHIR/JDV-J166-Profession-EPARS",
+                  "value" : "28"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "code" : "AU",
+          "target" : [
+            {
+              "code" : "DIP335",
+              "equivalence" : "equivalent",
+              "dependsOn" : [
+                {
+                  "property" : "https://mos.esante.gouv.fr/NOS/JDV_J166-Profession-EPARS/FHIR/JDV-J166-Profession-EPARS",
+                  "value" : "28"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "code" : "AU",
+          "target" : [
+            {
+              "code" : "DIP336",
+              "equivalence" : "equivalent",
+              "dependsOn" : [
+                {
+                  "property" : "https://mos.esante.gouv.fr/NOS/JDV_J166-Profession-EPARS/FHIR/JDV-J166-Profession-EPARS",
+                  "value" : "28"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "code" : "AU",
+          "target" : [
+            {
+              "code" : "DIP337",
+              "equivalence" : "equivalent",
+              "dependsOn" : [
+                {
+                  "property" : "https://mos.esante.gouv.fr/NOS/JDV_J166-Profession-EPARS/FHIR/JDV-J166-Profession-EPARS",
+                  "value" : "28"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "code" : "AU",
+          "target" : [
+            {
+              "code" : "DIP338",
+              "equivalence" : "equivalent",
+              "dependsOn" : [
+                {
+                  "property" : "https://mos.esante.gouv.fr/NOS/JDV_J166-Profession-EPARS/FHIR/JDV-J166-Profession-EPARS",
+                  "value" : "28"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "code" : "AU",
+          "target" : [
+            {
+              "code" : "DIP319",
+              "equivalence" : "equivalent",
+              "dependsOn" : [
+                {
+                  "property" : "https://mos.esante.gouv.fr/NOS/JDV_J166-Profession-EPARS/FHIR/JDV-J166-Profession-EPARS",
+                  "value" : "31"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "code" : "AU",
+          "target" : [
+            {
+              "code" : "DIP321",
+              "equivalence" : "equivalent",
+              "dependsOn" : [
+                {
+                  "property" : "https://mos.esante.gouv.fr/NOS/JDV_J166-Profession-EPARS/FHIR/JDV-J166-Profession-EPARS",
+                  "value" : "71"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "code" : "AU",
+          "target" : [
+            {
+              "code" : "DIP322",
+              "equivalence" : "equivalent",
+              "dependsOn" : [
+                {
+                  "property" : "https://mos.esante.gouv.fr/NOS/JDV_J166-Profession-EPARS/FHIR/JDV-J166-Profession-EPARS",
+                  "value" : "72"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "code" : "AU",
+          "target" : [
+            {
+              "code" : "DIP323",
+              "equivalence" : "equivalent",
+              "dependsOn" : [
+                {
+                  "property" : "https://mos.esante.gouv.fr/NOS/JDV_J166-Profession-EPARS/FHIR/JDV-J166-Profession-EPARS",
+                  "value" : "72"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "code" : "AU",
+          "target" : [
+            {
+              "code" : "DIP324",
+              "equivalence" : "equivalent",
+              "dependsOn" : [
+                {
+                  "property" : "https://mos.esante.gouv.fr/NOS/JDV_J166-Profession-EPARS/FHIR/JDV-J166-Profession-EPARS",
+                  "value" : "72"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "code" : "AU",
+          "target" : [
+            {
+              "code" : "DIP325",
+              "equivalence" : "equivalent",
+              "dependsOn" : [
+                {
+                  "property" : "https://mos.esante.gouv.fr/NOS/JDV_J166-Profession-EPARS/FHIR/JDV-J166-Profession-EPARS",
+                  "value" : "72"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "code" : "AU",
+          "target" : [
+            {
+              "code" : "DIP326",
+              "equivalence" : "equivalent",
+              "dependsOn" : [
+                {
+                  "property" : "https://mos.esante.gouv.fr/NOS/JDV_J166-Profession-EPARS/FHIR/JDV-J166-Profession-EPARS",
+                  "value" : "72"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "code" : "AU",
+          "target" : [
+            {
+              "code" : "DIP327",
+              "equivalence" : "equivalent",
+              "dependsOn" : [
+                {
+                  "property" : "https://mos.esante.gouv.fr/NOS/JDV_J166-Profession-EPARS/FHIR/JDV-J166-Profession-EPARS",
+                  "value" : "72"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "code" : "AU",
+          "target" : [
+            {
+              "code" : "DIP328",
+              "equivalence" : "equivalent",
+              "dependsOn" : [
+                {
+                  "property" : "https://mos.esante.gouv.fr/NOS/JDV_J166-Profession-EPARS/FHIR/JDV-J166-Profession-EPARS",
+                  "value" : "72"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "code" : "AU",
+          "target" : [
+            {
+              "code" : "DIP329",
+              "equivalence" : "equivalent",
+              "dependsOn" : [
+                {
+                  "property" : "https://mos.esante.gouv.fr/NOS/JDV_J166-Profession-EPARS/FHIR/JDV-J166-Profession-EPARS",
+                  "value" : "73"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "code" : "AU",
+          "target" : [
+            {
+              "code" : "DIP339",
+              "equivalence" : "equivalent",
+              "dependsOn" : [
+                {
+                  "property" : "https://mos.esante.gouv.fr/NOS/JDV_J166-Profession-EPARS/FHIR/JDV-J166-Profession-EPARS",
+                  "value" : "81"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "code" : "AU",
+          "target" : [
+            {
+              "code" : "DIP340",
+              "equivalence" : "equivalent",
+              "dependsOn" : [
+                {
+                  "property" : "https://mos.esante.gouv.fr/NOS/JDV_J166-Profession-EPARS/FHIR/JDV-J166-Profession-EPARS",
+                  "value" : "81"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "code" : "AU",
+          "target" : [
+            {
+              "code" : "DIP341",
+              "equivalence" : "equivalent",
+              "dependsOn" : [
+                {
+                  "property" : "https://mos.esante.gouv.fr/NOS/JDV_J166-Profession-EPARS/FHIR/JDV-J166-Profession-EPARS",
+                  "value" : "82"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "code" : "AU",
+          "target" : [
+            {
+              "code" : "DIP340",
+              "equivalence" : "equivalent",
+              "dependsOn" : [
+                {
+                  "property" : "https://mos.esante.gouv.fr/NOS/JDV_J166-Profession-EPARS/FHIR/JDV-J166-Profession-EPARS",
+                  "value" : "83"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "code" : "AU",
+          "target" : [
+            {
+              "code" : "DIP342",
+              "equivalence" : "equivalent",
+              "dependsOn" : [
+                {
+                  "property" : "https://mos.esante.gouv.fr/NOS/JDV_J166-Profession-EPARS/FHIR/JDV-J166-Profession-EPARS",
+                  "value" : "83"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "code" : "AU",
+          "target" : [
+            {
+              "code" : "DIP343",
+              "equivalence" : "equivalent",
+              "dependsOn" : [
+                {
+                  "property" : "https://mos.esante.gouv.fr/NOS/JDV_J166-Profession-EPARS/FHIR/JDV-J166-Profession-EPARS",
+                  "value" : "83"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "code" : "AU",
+          "target" : [
+            {
+              "code" : "DIP345",
+              "equivalence" : "equivalent",
+              "dependsOn" : [
+                {
+                  "property" : "https://mos.esante.gouv.fr/NOS/JDV_J166-Profession-EPARS/FHIR/JDV-J166-Profession-EPARS",
+                  "value" : "83"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "code" : "AU",
+          "target" : [
+            {
+              "code" : "DIP348",
+              "equivalence" : "equivalent",
+              "dependsOn" : [
+                {
+                  "property" : "https://mos.esante.gouv.fr/NOS/JDV_J166-Profession-EPARS/FHIR/JDV-J166-Profession-EPARS",
+                  "value" : "86"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "code" : "AU",
+          "target" : [
+            {
+              "code" : "DIP349",
+              "equivalence" : "equivalent",
+              "dependsOn" : [
+                {
+                  "property" : "https://mos.esante.gouv.fr/NOS/JDV_J166-Profession-EPARS/FHIR/JDV-J166-Profession-EPARS",
+                  "value" : "86"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "code" : "AU",
+          "target" : [
+            {
+              "code" : "DIP350",
+              "equivalence" : "equivalent",
+              "dependsOn" : [
+                {
+                  "property" : "https://mos.esante.gouv.fr/NOS/JDV_J166-Profession-EPARS/FHIR/JDV-J166-Profession-EPARS",
+                  "value" : "86"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "code" : "AU",
+          "target" : [
+            {
+              "code" : "DIP353",
+              "equivalence" : "equivalent",
+              "dependsOn" : [
+                {
+                  "property" : "https://mos.esante.gouv.fr/NOS/JDV_J166-Profession-EPARS/FHIR/JDV-J166-Profession-EPARS",
+                  "value" : "91"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "code" : "AU",
+          "target" : [
+            {
+              "code" : "DIP354",
+              "equivalence" : "equivalent",
+              "dependsOn" : [
+                {
+                  "property" : "https://mos.esante.gouv.fr/NOS/JDV_J166-Profession-EPARS/FHIR/JDV-J166-Profession-EPARS",
+                  "value" : "91"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "code" : "AU",
+          "target" : [
+            {
+              "code" : "DIP355",
+              "equivalence" : "equivalent",
+              "dependsOn" : [
+                {
+                  "property" : "https://mos.esante.gouv.fr/NOS/JDV_J166-Profession-EPARS/FHIR/JDV-J166-Profession-EPARS",
+                  "value" : "92"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "code" : "AU",
+          "target" : [
+            {
+              "code" : "DIP323",
+              "equivalence" : "equivalent",
+              "dependsOn" : [
+                {
+                  "property" : "https://mos.esante.gouv.fr/NOS/JDV_J166-Profession-EPARS/FHIR/JDV-J166-Profession-EPARS",
+                  "value" : "93"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "code" : "AU",
+          "target" : [
+            {
+              "code" : "DIP324",
+              "equivalence" : "equivalent",
+              "dependsOn" : [
+                {
+                  "property" : "https://mos.esante.gouv.fr/NOS/JDV_J166-Profession-EPARS/FHIR/JDV-J166-Profession-EPARS",
+                  "value" : "93"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "code" : "AU",
+          "target" : [
+            {
+              "code" : "DIP325",
+              "equivalence" : "equivalent",
+              "dependsOn" : [
+                {
+                  "property" : "https://mos.esante.gouv.fr/NOS/JDV_J166-Profession-EPARS/FHIR/JDV-J166-Profession-EPARS",
+                  "value" : "93"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "code" : "AU",
+          "target" : [
+            {
+              "code" : "DIP326",
+              "equivalence" : "equivalent",
+              "dependsOn" : [
+                {
+                  "property" : "https://mos.esante.gouv.fr/NOS/JDV_J166-Profession-EPARS/FHIR/JDV-J166-Profession-EPARS",
+                  "value" : "93"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "code" : "AU",
+          "target" : [
+            {
+              "code" : "DIP327",
+              "equivalence" : "equivalent",
+              "dependsOn" : [
+                {
+                  "property" : "https://mos.esante.gouv.fr/NOS/JDV_J166-Profession-EPARS/FHIR/JDV-J166-Profession-EPARS",
+                  "value" : "93"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "code" : "AU",
+          "target" : [
+            {
+              "code" : "DIP356",
+              "equivalence" : "equivalent",
+              "dependsOn" : [
+                {
+                  "property" : "https://mos.esante.gouv.fr/NOS/JDV_J166-Profession-EPARS/FHIR/JDV-J166-Profession-EPARS",
+                  "value" : "93"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "code" : "AU",
+          "target" : [
+            {
+              "code" : "DIP357",
+              "equivalence" : "equivalent",
+              "dependsOn" : [
+                {
+                  "property" : "https://mos.esante.gouv.fr/NOS/JDV_J166-Profession-EPARS/FHIR/JDV-J166-Profession-EPARS",
+                  "value" : "93"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "code" : "AU",
+          "target" : [
+            {
+              "code" : "DIP358",
+              "equivalence" : "equivalent",
+              "dependsOn" : [
+                {
+                  "property" : "https://mos.esante.gouv.fr/NOS/JDV_J166-Profession-EPARS/FHIR/JDV-J166-Profession-EPARS",
+                  "value" : "93"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "code" : "AU",
+          "target" : [
+            {
+              "code" : "DIP359",
+              "equivalence" : "equivalent",
+              "dependsOn" : [
+                {
+                  "property" : "https://mos.esante.gouv.fr/NOS/JDV_J166-Profession-EPARS/FHIR/JDV-J166-Profession-EPARS",
+                  "value" : "93"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "code" : "AU",
+          "target" : [
+            {
+              "code" : "DIP360",
+              "equivalence" : "equivalent",
+              "dependsOn" : [
+                {
+                  "property" : "https://mos.esante.gouv.fr/NOS/JDV_J166-Profession-EPARS/FHIR/JDV-J166-Profession-EPARS",
+                  "value" : "93"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "code" : "AU",
+          "target" : [
+            {
+              "code" : "DIP361",
+              "equivalence" : "equivalent",
+              "dependsOn" : [
+                {
+                  "property" : "https://mos.esante.gouv.fr/NOS/JDV_J166-Profession-EPARS/FHIR/JDV-J166-Profession-EPARS",
+                  "value" : "93"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "code" : "AU",
+          "target" : [
+            {
+              "code" : "DIP362",
+              "equivalence" : "equivalent",
+              "dependsOn" : [
+                {
+                  "property" : "https://mos.esante.gouv.fr/NOS/JDV_J166-Profession-EPARS/FHIR/JDV-J166-Profession-EPARS",
+                  "value" : "93"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "code" : "AU",
+          "target" : [
+            {
+              "code" : "DIP364",
+              "equivalence" : "equivalent",
+              "dependsOn" : [
+                {
+                  "property" : "https://mos.esante.gouv.fr/NOS/JDV_J166-Profession-EPARS/FHIR/JDV-J166-Profession-EPARS",
+                  "value" : "95"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "code" : "AU",
+          "target" : [
+            {
+              "code" : "DIP367",
+              "equivalence" : "equivalent",
+              "dependsOn" : [
+                {
+                  "property" : "https://mos.esante.gouv.fr/NOS/JDV_J166-Profession-EPARS/FHIR/JDV-J166-Profession-EPARS",
+                  "value" : "98"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "code" : "AU",
+          "target" : [
+            {
+              "code" : "DIP368",
+              "equivalence" : "equivalent",
+              "dependsOn" : [
+                {
+                  "property" : "https://mos.esante.gouv.fr/NOS/JDV_J166-Profession-EPARS/FHIR/JDV-J166-Profession-EPARS",
+                  "value" : "98"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "code" : "AU",
+          "target" : [
+            {
+              "code" : "DIP409",
+              "equivalence" : "equivalent",
+              "dependsOn" : [
+                {
+                  "property" : "https://mos.esante.gouv.fr/NOS/JDV_J166-Profession-EPARS/FHIR/JDV-J166-Profession-EPARS",
+                  "value" : "32"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "code" : "AU",
+          "target" : [
+            {
+              "code" : "DIP414",
+              "equivalence" : "equivalent",
+              "dependsOn" : [
+                {
+                  "property" : "https://mos.esante.gouv.fr/NOS/JDV_J166-Profession-EPARS/FHIR/JDV-J166-Profession-EPARS",
+                  "value" : "86"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "code" : "AU",
+          "target" : [
+            {
+              "code" : "DIP415",
+              "equivalence" : "equivalent",
+              "dependsOn" : [
+                {
+                  "property" : "https://mos.esante.gouv.fr/NOS/JDV_J166-Profession-EPARS/FHIR/JDV-J166-Profession-EPARS",
+                  "value" : "86"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "code" : "AU",
+          "target" : [
+            {
+              "code" : "DIP412",
+              "equivalence" : "equivalent",
+              "dependsOn" : [
+                {
+                  "property" : "https://mos.esante.gouv.fr/NOS/JDV_J166-Profession-EPARS/FHIR/JDV-J166-Profession-EPARS",
+                  "value" : "86"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "source" : "https://mos.esante.gouv.fr/NOS/TRE_R14-TypeDiplome/FHIR/TRE-R14-TypeDiplome",
+      "target" : "https://mos.esante.gouv.fr/NOS/TRE_R56-Attestation/FHIR/TRE-R56-Attestation",
+      "element" : [
+        {
+          "code" : "ATT",
+          "target" : [
+            {
+              "code" : "DIP370",
+              "equivalence" : "equivalent",
+              "dependsOn" : [
+                {
+                  "property" : "https://mos.esante.gouv.fr/NOS/JDV_J166-Profession-EPARS/FHIR/JDV-J166-Profession-EPARS",
+                  "value" : "98"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "code" : "ATT",
+          "target" : [
+            {
+              "code" : "DIP366",
+              "equivalence" : "equivalent",
+              "dependsOn" : [
+                {
+                  "property" : "https://mos.esante.gouv.fr/NOS/JDV_J166-Profession-EPARS/FHIR/JDV-J166-Profession-EPARS",
+                  "value" : "96"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "source" : "https://mos.esante.gouv.fr/NOS/TRE_R14-TypeDiplome/FHIR/TRE-R14-TypeDiplome",
+      "target" : "https://mos.esante.gouv.fr/NOS/TRE_R54-DiplomeUniversiteInterUniversitaire/FHIR/TRE-R54-DiplomeUniversiteInterUniversitaire",
+      "element" : [
+        {
+          "code" : "DU",
+          "target" : [
+            {
+              "code" : "DIP351",
+              "equivalence" : "equivalent",
+              "dependsOn" : [
+                {
+                  "property" : "https://mos.esante.gouv.fr/NOS/JDV_J166-Profession-EPARS/FHIR/JDV-J166-Profession-EPARS",
+                  "value" : "86"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "code" : "DU",
+          "target" : [
+            {
+              "code" : "DIP344",
+              "equivalence" : "equivalent",
+              "dependsOn" : [
+                {
+                  "property" : "https://mos.esante.gouv.fr/NOS/JDV_J166-Profession-EPARS/FHIR/JDV-J166-Profession-EPARS",
+                  "value" : "83"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "code" : "DU",
+          "target" : [
+            {
+              "code" : "DIP369",
+              "equivalence" : "equivalent",
+              "dependsOn" : [
+                {
+                  "property" : "https://mos.esante.gouv.fr/NOS/JDV_J166-Profession-EPARS/FHIR/JDV-J166-Profession-EPARS",
+                  "value" : "95"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "code" : "DU",
+          "target" : [
+            {
+              "code" : "DIP365",
+              "equivalence" : "equivalent",
+              "dependsOn" : [
+                {
+                  "property" : "https://mos.esante.gouv.fr/NOS/JDV_J166-Profession-EPARS/FHIR/JDV-J166-Profession-EPARS",
+                  "value" : "95"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "code" : "DU",
+          "target" : [
+            {
+              "code" : "DIP330",
+              "equivalence" : "equivalent",
+              "dependsOn" : [
+                {
+                  "property" : "https://mos.esante.gouv.fr/NOS/JDV_J166-Profession-EPARS/FHIR/JDV-J166-Profession-EPARS",
+                  "value" : "73"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "code" : "DU",
+          "target" : [
+            {
+              "code" : "DIP347",
+              "equivalence" : "equivalent",
+              "dependsOn" : [
+                {
+                  "property" : "https://mos.esante.gouv.fr/NOS/JDV_J166-Profession-EPARS/FHIR/JDV-J166-Profession-EPARS",
+                  "value" : "85"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "code" : "DU",
+          "target" : [
+            {
+              "code" : "DIP346",
+              "equivalence" : "equivalent",
+              "dependsOn" : [
+                {
+                  "property" : "https://mos.esante.gouv.fr/NOS/JDV_J166-Profession-EPARS/FHIR/JDV-J166-Profession-EPARS",
+                  "value" : "84"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
+
+```
