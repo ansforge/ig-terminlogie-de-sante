@@ -3749,7 +3749,7 @@
     {
       "url" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-addiction-cisis",
       "version" : "20250624152100",
-      "status" : "active",
+      "status" : "retired",
       "name" : "JdvAddictionCisis",
       "title" : "JDV Addiction CISIS",
       "description" : "JDV Addiction CISIS",
@@ -8239,7 +8239,7 @@
     {
       "url" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-structure-de-soins-cisis",
       "version" : "20250624152100",
-      "status" : "active",
+      "status" : "retired",
       "name" : "JdvStructureDeSoinsCisis",
       "title" : "JDV Structure De Soins CISIS",
       "description" : "JDV Structure De Soins CISIS",

@@ -9,7 +9,7 @@
 | | | |
 | :--- | :--- | :--- |
 | *Official URL*:https://smt.esante.gouv.fr/fhir/ValueSet/jdv-structure-de-soins-cisis | *Version*:20250624152100 | |
-| Active as of 2025-06-24 | *Responsible:*Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:JdvStructureDeSoinsCisis |
+| Retired as of 2025-06-24 | *Responsible:*Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:JdvStructureDeSoinsCisis |
 | *Other Identifiers:*OID:1.2.250.1.213.1.1.5.82 | | |
 
  
@@ -29,7 +29,7 @@ Requête sur le SMT
 
 ### Logical Definition (CLD)
 
-version: 4; Dernière mise à jour : 2025-06-25 09:16:16+0000; Langue : fr-FR
+version: 5; Dernière mise à jour : 2025-10-22 17:22:41+0200; Langue : fr-FR
 
 Profil: [Shareable ValueSet](http://hl7.org/fhir/R4/shareablevalueset.html)
 
@@ -42,7 +42,7 @@ Ce jeu de valeur (ValueSet) inclut les codes selon les règles suivantes :
 
 ### Expansion
 
-Ce jeu de valeur (ValueSet) contient 15 concepts
+Expansions are not generated for retired value sets
 
 -------
 
@@ -66,8 +66,8 @@ Ce jeu de valeur (ValueSet) contient 15 concepts
   "resourceType" : "ValueSet",
   "id" : "jdv-structure-de-soins-cisis",
   "meta" : {
-    "versionId" : "4",
-    "lastUpdated" : "2025-06-25T09:16:16.093+00:00",
+    "versionId" : "5",
+    "lastUpdated" : "2025-10-22T17:22:41.234+02:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset"]
   },
   "language" : "fr-FR",
@@ -89,7 +89,7 @@ Ce jeu de valeur (ValueSet) contient 15 concepts
   "version" : "20250624152100",
   "name" : "JdvStructureDeSoinsCisis",
   "title" : "JDV Structure De Soins CISIS",
-  "status" : "active",
+  "status" : "retired",
   "experimental" : false,
   "date" : "2025-06-24T15:21:00+01:00",
   "publisher" : "Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris",

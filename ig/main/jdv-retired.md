@@ -28,5 +28,7 @@ Vous touverez ici la liste des JDV à l'etat "retired".
 | [JDV_J74_Pays_RASS](ValueSet-JDV-J74-Pays-RASS.md) | Pays (codes INSEE) du RASS |
 | [JDV_J84_DepartementOM_RASS](ValueSet-JDV-J84-DepartementOM-RASS.md) | Départements (outre-mer et Monaco inclus) pour le RASS |
 | [JDV_J93_RegionOM_RASS](ValueSet-JDV-J93-RegionOM-RASS.md) | Régions (outre-mer et Monaco inclus) dans le RASS |
+| [JdvAddictionCisis](ValueSet-jdv-addiction-cisis.md) | JDV Addiction CISIS |
 | [JdvIndicateurAnormaliteCisis](ValueSet-jdv-indicateur-anormalite-cisis.md) | JDV Indicateur Anormalite CISIS |
+| [JdvStructureDeSoinsCisis](ValueSet-jdv-structure-de-soins-cisis.md) | JDV Structure De Soins CISIS |
 

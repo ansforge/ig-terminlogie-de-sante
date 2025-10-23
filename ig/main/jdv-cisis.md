@@ -57,7 +57,6 @@ Vous touverez ici la liste des JDV du CI-SIS.
 | [JdvActeCseCisis](ValueSet-jdv-acte-cse-cisis.md) | JDV Acte Cse CISIS | 24/06/2025 |
 | [JdvActeObpCisis](ValueSet-jdv-acte-obp-cisis.md) | JDV Acte Obp CISIS | 24/06/2025 |
 | [JdvActiviteCisis](ValueSet-jdv-activite-cisis.md) | JDV Activite CISIS | 24/06/2025 |
-| [JdvAddictionCisis](ValueSet-jdv-addiction-cisis.md) | JDV Addiction CISIS | 24/06/2025 |
 | [JdvAdditionGrandeurCisis](ValueSet-jdv-addition-grandeur-cisis.md) | JDV Addition Grandeur CISIS | 24/06/2025 |
 | [JdvAgeCisis](ValueSet-jdv-age-cisis.md) | JDV Age CISIS | 24/06/2025 |
 | [JdvAgeDeSurvenueCisis](ValueSet-jdv-age-de-survenue-cisis.md) | JDV Age De Survenue CISIS | 24/06/2025 |
@@ -379,7 +378,6 @@ Vous touverez ici la liste des JDV du CI-SIS.
 | [JdvStatutQuorumCisis](ValueSet-jdv-statut-quorum-cisis.md) | JDV Statut Quorum CISIS | 24/06/2025 |
 | [JdvStatutResultatCisis](ValueSet-jdv-statut-resultat-cisis.md) | JDV Statut Resultat CISIS | 24/06/2025 |
 | [JdvStatutTabagiqueCisis](ValueSet-jdv-statut-tabagique-cisis.md) | JDV Statut Tabagique CISIS | 24/06/2025 |
-| [JdvStructureDeSoinsCisis](ValueSet-jdv-structure-de-soins-cisis.md) | JDV Structure De Soins CISIS | 24/06/2025 |
 | [JdvSupportNutritionnelCisis](ValueSet-jdv-support-nutritionnel-cisis.md) | JDV Support Nutritionnel CISIS | 24/06/2025 |
 | [JdvSymptomeAvcCisis](ValueSet-jdv-symptome-avc-cisis.md) | JDV Symptome Avc CISIS | 24/06/2025 |
 | [JdvTailleCisis](ValueSet-jdv-taille-cisis.md) | JDV Taille CISIS | 24/06/2025 |

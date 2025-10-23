@@ -9,7 +9,7 @@
 | | | |
 | :--- | :--- | :--- |
 | *Official URL*:https://smt.esante.gouv.fr/fhir/ValueSet/jdv-addiction-cisis | *Version*:20250624152100 | |
-| Active as of 2025-06-24 | *Responsible:*Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:JdvAddictionCisis |
+| Retired as of 2025-06-24 | *Responsible:*Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:JdvAddictionCisis |
 | *Other Identifiers:*OID:1.2.250.1.213.1.1.5.80 | | |
 
  
@@ -29,7 +29,7 @@ Requête sur le SMT
 
 ### Logical Definition (CLD)
 
-version: 4; Dernière mise à jour : 2025-06-25 09:12:36+0000; Langue : fr-FR
+version: 5; Dernière mise à jour : 2025-10-22 17:12:12+0200; Langue : fr-FR
 
 Profil: [Shareable ValueSet](http://hl7.org/fhir/R4/shareablevalueset.html)
 
@@ -42,12 +42,7 @@ Ce jeu de valeur (ValueSet) inclut les codes selon les règles suivantes :
 
 ### Expansion
 
-Expansion from tx.fhir.org based on:
-
-* Loinc v2.81
-* [codesystem TerminologieCISIS - Terminologie des concepts non trouvés dans les autres terminologies v202510200000 (CodeSystem)](CodeSystem-terminologie-cisis.md)
-
-Ce jeu de valeur (ValueSet) contient 4 concepts
+Expansions are not generated for retired value sets
 
 -------
 
@@ -71,8 +66,8 @@ Ce jeu de valeur (ValueSet) contient 4 concepts
   "resourceType" : "ValueSet",
   "id" : "jdv-addiction-cisis",
   "meta" : {
-    "versionId" : "4",
-    "lastUpdated" : "2025-06-25T09:12:36.254+00:00",
+    "versionId" : "5",
+    "lastUpdated" : "2025-10-22T17:12:12.302+02:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset"]
   },
   "language" : "fr-FR",
@@ -94,7 +89,7 @@ Ce jeu de valeur (ValueSet) contient 4 concepts
   "version" : "20250624152100",
   "name" : "JdvAddictionCisis",
   "title" : "JDV Addiction CISIS",
-  "status" : "active",
+  "status" : "retired",
   "experimental" : false,
   "date" : "2025-06-24T15:21:00+01:00",
   "publisher" : "Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris",
