@@ -1,13 +1,14 @@
 Terminologies : Validation Results
 =========================================
 
-err = 110, warn = 815, info = 980
+err = 110, warn = 818, info = 980
 $--
 Generated $--. FHIR version $-- for ans.fr.terminologies#$-- (canonical = https://interop.esante.gouv.fr/terminologies)
  Build Errors : 539 / 28 / 0
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/DM/fsh-generated/resources/CodeSystem-TRE-G11-NatureQualificationADELI : 0 / 1 / 4
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/DM/fsh-generated/resources/CodeSystem-TRE-R04-TypeSavoirFaire : 0 / 1 / 4
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/DM/fsh-generated/resources/CodeSystem-TRE-R16-LieuFormation : 0 / 1 / 4
+ /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/DM/fsh-generated/resources/CodeSystem-TRE-R21-Fonction : 0 / 1 / 4
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/DM/fsh-generated/resources/CodeSystem-TRE-R210-ActeSpecifique : 0 / 1 / 4
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/DM/fsh-generated/resources/CodeSystem-TRE-R211-ActiviteOperationnelle : 0 / 1 / 4
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/DM/fsh-generated/resources/CodeSystem-TRE-R225-AnneeUniversitaire : 0 / 1 / 4
@@ -342,7 +343,7 @@ Generated $--. FHIR version $-- for ans.fr.terminologies#$-- (canonical = https:
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JdvActeCseCisis_jdv-acte-cse-cisis : 0 / 0 / 1
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JdvActeObpCisis_jdv-acte-obp-cisis : 0 / 0 / 1
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JdvActiviteCisis_jdv-activite-cisis : 0 / 0 / 1
- /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JdvAddictionCisis_jdv-addiction-cisis : 0 / 0 / 1
+ /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JdvAddictionCisis_jdv-addiction-cisis : 0 / 1 / 1
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JdvAdditionGrandeurCisis_jdv-addition-grandeur-cisis : 0 / 0 / 1
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JdvAgeCisis_jdv-age-cisis : 0 / 0 / 2
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JdvAgeDeSurvenueCisis_jdv-age-de-survenue-cisis : 0 / 0 / 1
@@ -668,7 +669,7 @@ Generated $--. FHIR version $-- for ans.fr.terminologies#$-- (canonical = https:
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JdvStatutQuorumCisis_jdv-statut-quorum-cisis : 0 / 0 / 1
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JdvStatutResultatCisis_jdv-statut-resultat-cisis : 0 / 0 / 1
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JdvStatutTabagiqueCisis_jdv-statut-tabagique-cisis : 0 / 0 / 2
- /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JdvStructureDeSoinsCisis_jdv-structure-de-soins-cisis : 0 / 0 / 1
+ /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JdvStructureDeSoinsCisis_jdv-structure-de-soins-cisis : 0 / 1 / 1
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JdvSupportNutritionnelCisis_jdv-support-nutritionnel-cisis : 0 / 0 / 1
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JdvSymptomeAvcCisis_jdv-symptome-avc-cisis : 0 / 0 / 1
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JdvTailleCisis_jdv-taille-cisis : 0 / 0 / 1
@@ -870,7 +871,6 @@ Generated $--. FHIR version $-- for ans.fr.terminologies#$-- (canonical = https:
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/TRE/TRE_R217_ProtectionJuridique_TRE-R217-ProtectionJuridique : 0 / 1 / 4
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/TRE/TRE_R218_ModeAuthentification_TRE-R218-ModeAuthentification : 0 / 1 / 4
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/TRE/TRE_R219_AutreResponsableConsent_TRE-R219-AutreResponsableConsent : 0 / 1 / 4
- /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/TRE/TRE_R21_Fonction_TRE-R21-Fonction : 0 / 1 / 4
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/TRE/TRE_R220_ModeleDocumentCDAStructure_TRE-R220-ModeleDocumentCDAStructure : 0 / 1 / 4
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/TRE/TRE_R221_ModeleDocumentCDANonStructure_TRE-R221-ModeleDocumentCDANonStructure : 0 / 1 / 4
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/TRE/TRE_R222_MediaTypeCorpsCDANonStructure_TRE-R222-MediaTypeCorpsCDANonStructure : 0 / 1 / 4
@@ -1049,7 +1049,7 @@ Generated $--. FHIR version $-- for ans.fr.terminologies#$-- (canonical = https:
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/TRE/TRE_R95_UsagerTitre_TRE-R95-UsagerTitre : 0 / 1 / 4
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/TRE/TRE_R96_AutreFonctionSanitaire_TRE-R96-AutreFonctionSanitaire : 0 / 1 / 4
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/TRE/TRE_R97_DroitExerciceCompl_TRE-R97-DroitExerciceCompl : 0 / 1 / 4
- /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/TRE/TerminologieCISIS_terminologie-cisis : 0 / 1 / 1
+ /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/TRE/TerminologieCISIS_terminologie-cisis : 0 / 2 / 1
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/TRE/TreR389StatutBilanProjetPersonnalise_tre-r389-statut-bilan-projet-personnalise : 0 / 0 / 4
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/TRE/TreR390TypeProjetPersonnalise_tre-r390-type-projet-personnalise : 0 / 0 / 4
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/TRE/TreR393TypeContratSejour_tre-r393-type-contrat-sejour : 0 / 0 / 4
@@ -1751,6 +1751,11 @@ WARNING: CodeSystem/TRE-R16-LieuFormation: CodeSystem: Published code systems SH
 INFORMATION: CodeSystem/TRE-R16-LieuFormation: CodeSystem.property[0]: This property has only a code ('dateValid') and not a URI, so it has no clearly defined meaning in the terminology ecosystem
 INFORMATION: CodeSystem/TRE-R16-LieuFormation: CodeSystem.property[1]: This property has only a code ('dateMaj') and not a URI, so it has no clearly defined meaning in the terminology ecosystem
 INFORMATION: CodeSystem/TRE-R16-LieuFormation: CodeSystem.property[2]: This property has only a code ('dateFin') and not a URI, so it has no clearly defined meaning in the terminology ecosystem
+== DM/fsh-generated/resources/CodeSystem-TRE-R21-Fonction.json ==
+WARNING: CodeSystem/TRE-R21-Fonction: CodeSystem: Published code systems SHOULD conform to the ShareableCodeSystem profile, which says that the element CodeSystem.title is mandatory, but it is not present
+INFORMATION: CodeSystem/TRE-R21-Fonction: CodeSystem.property[0]: This property has only a code ('dateValid') and not a URI, so it has no clearly defined meaning in the terminology ecosystem
+INFORMATION: CodeSystem/TRE-R21-Fonction: CodeSystem.property[1]: This property has only a code ('dateMaj') and not a URI, so it has no clearly defined meaning in the terminology ecosystem
+INFORMATION: CodeSystem/TRE-R21-Fonction: CodeSystem.property[2]: This property has only a code ('dateFin') and not a URI, so it has no clearly defined meaning in the terminology ecosystem
 == DM/fsh-generated/resources/CodeSystem-TRE-R210-ActeSpecifique.json ==
 WARNING: CodeSystem/TRE-R210-ActeSpecifique: CodeSystem: Published code systems SHOULD conform to the ShareableCodeSystem profile, which says that the element CodeSystem.title is mandatory, but it is not present
 INFORMATION: CodeSystem/TRE-R210-ActeSpecifique: CodeSystem.property[0]: This property has only a code ('dateValid') and not a URI, so it has no clearly defined meaning in the terminology ecosystem
@@ -2463,6 +2468,7 @@ WARNING: ValueSet/JDV-J99-InseeNAFrav2Niveau5-RASS: ValueSet: Published value se
 == input/ontoserver/JDV/JdvActeObpCisis_jdv-acte-obp-cisis.json ==
 == input/ontoserver/JDV/JdvActiviteCisis_jdv-activite-cisis.json ==
 == input/ontoserver/JDV/JdvAddictionCisis_jdv-addiction-cisis.json ==
+WARNING: ValueSet/jdv-addiction-cisis: ValueSet: Resource has a language, but the XHTML does not have an lang or an xml:lang tag (needs both - see https://www.w3.org/TR/i18n-html-tech-lang/#langvalues)
 == input/ontoserver/JDV/JdvAdditionGrandeurCisis_jdv-addition-grandeur-cisis.json ==
 == input/ontoserver/JDV/JdvAgeCisis_jdv-age-cisis.json ==
 INFORMATION: ValueSet/jdv-age-cisis: ValueSet.compose.include[1]: This SNOMED-CT based include has some concepts with semantic tags (FSN terms) and some without (preferred terms) - check that this is what is intended (examples for FSN: [indéterminé(e)] and examples for no FSN: [néonatal, période de la vie entre la naissance et la mort, période fœtale, période postmortem])
@@ -2516,7 +2522,7 @@ WARNING: ValueSet/jdv-completude-dispensation-cisis: ValueSet.compose.include[0]
 == input/ontoserver/JDV/JdvComplicationDigestiveCisis_jdv-complication-digestive-cisis.json ==
 == input/ontoserver/JDV/JdvComplicationNeurologiqueCisis_jdv-complication-neurologique-cisis.json ==
 == input/ontoserver/JDV/JdvComplicationNeuropsychiatriqueCisis_jdv-complication-neuropsychiatrique-cisis.json ==
-WARNING: ValueSet/jdv-complication-neuropsychiatrique-cisis: ValueSet.compose.include[1].concept[2]: The code 'MED-525' is not valid in the system https://smt.esante.gouv.fr/fhir/CodeSystem/terminologie-cisis (Unknown code 'MED-525' in the CodeSystem 'https://smt.esante.gouv.fr/fhir/CodeSystem/terminologie-cisis' version '202510150000')
+WARNING: ValueSet/jdv-complication-neuropsychiatrique-cisis: ValueSet.compose.include[1].concept[2]: The code 'MED-525' is not valid in the system https://smt.esante.gouv.fr/fhir/CodeSystem/terminologie-cisis (Unknown code 'MED-525' in the CodeSystem 'https://smt.esante.gouv.fr/fhir/CodeSystem/terminologie-cisis' version '202510230000')
 ERROR: ValueSet.text.div: Hyperlink 'CodeSystem-terminologie-cisis.html#terminologie-cisis-MED-525' at 'div/ul/li/table/tr/td/a' for 'MED-525' does not resolve
 == input/ontoserver/JDV/JdvComplicationPulmonaireCisis_jdv-complication-pulmonaire-cisis.json ==
 == input/ontoserver/JDV/JdvComplicationThromboemboliqueCisis_jdv-complication-thromboembolique-cisis.json ==
@@ -2881,6 +2887,7 @@ INFORMATION: ValueSet/jdv-statut-grossesse-cisis: ValueSet.compose.include[0]: T
 == input/ontoserver/JDV/JdvStatutTabagiqueCisis_jdv-statut-tabagique-cisis.json ==
 INFORMATION: ValueSet/jdv-statut-tabagique-cisis: ValueSet.compose.include[0]: This SNOMED-CT based include has some concepts with semantic tags (FSN terms) and some without (preferred terms) - check that this is what is intended (examples for FSN: [fumeur(-euse) quotidien(ne), fumeur(-euse) occasionnel(le), ancien(ne) fumeur(-euse)] and examples for no FSN: [n'a jamais fumé, Tobacco smoking consumption unknown, gros(se) fumeur(-euse) (plus de 20 cigarettes par jour), fumeur(-euse) modéré(e) (20 cigarettes ou moins par jour)])
 == input/ontoserver/JDV/JdvStructureDeSoinsCisis_jdv-structure-de-soins-cisis.json ==
+WARNING: ValueSet/jdv-structure-de-soins-cisis: ValueSet: Resource has a language, but the XHTML does not have an lang or an xml:lang tag (needs both - see https://www.w3.org/TR/i18n-html-tech-lang/#langvalues)
 == input/ontoserver/JDV/JdvSupportNutritionnelCisis_jdv-support-nutritionnel-cisis.json ==
 == input/ontoserver/JDV/JdvSymptomeAvcCisis_jdv-symptome-avc-cisis.json ==
 == input/ontoserver/JDV/JdvTailleCisis_jdv-taille-cisis.json ==
@@ -3742,11 +3749,6 @@ WARNING: CodeSystem/TRE-R219-AutreResponsableConsent: CodeSystem: Published code
 INFORMATION: CodeSystem/TRE-R219-AutreResponsableConsent: CodeSystem.property[0]: This property has only a code ('dateValid') and not a URI, so it has no clearly defined meaning in the terminology ecosystem
 INFORMATION: CodeSystem/TRE-R219-AutreResponsableConsent: CodeSystem.property[1]: This property has only a code ('dateMaj') and not a URI, so it has no clearly defined meaning in the terminology ecosystem
 INFORMATION: CodeSystem/TRE-R219-AutreResponsableConsent: CodeSystem.property[2]: This property has only a code ('dateFin') and not a URI, so it has no clearly defined meaning in the terminology ecosystem
-== input/ontoserver/TRE/TRE_R21_Fonction_TRE-R21-Fonction.json ==
-WARNING: CodeSystem/TRE-R21-Fonction: CodeSystem: Published code systems SHOULD conform to the ShareableCodeSystem profile, which says that the element CodeSystem.title is mandatory, but it is not present
-INFORMATION: CodeSystem/TRE-R21-Fonction: CodeSystem.property[0]: This property has only a code ('dateValid') and not a URI, so it has no clearly defined meaning in the terminology ecosystem
-INFORMATION: CodeSystem/TRE-R21-Fonction: CodeSystem.property[1]: This property has only a code ('dateMaj') and not a URI, so it has no clearly defined meaning in the terminology ecosystem
-INFORMATION: CodeSystem/TRE-R21-Fonction: CodeSystem.property[2]: This property has only a code ('dateFin') and not a URI, so it has no clearly defined meaning in the terminology ecosystem
 == input/ontoserver/TRE/TRE_R220_ModeleDocumentCDAStructure_TRE-R220-ModeleDocumentCDAStructure.json ==
 WARNING: CodeSystem/TRE-R220-ModeleDocumentCDAStructure: CodeSystem: Published code systems SHOULD conform to the ShareableCodeSystem profile, which says that the element CodeSystem.title is mandatory, but it is not present
 INFORMATION: CodeSystem/TRE-R220-ModeleDocumentCDAStructure: CodeSystem.property[0]: This property has only a code ('dateValid') and not a URI, so it has no clearly defined meaning in the terminology ecosystem
@@ -4644,6 +4646,7 @@ INFORMATION: CodeSystem/TRE-R97-DroitExerciceCompl: CodeSystem.property[1]: This
 INFORMATION: CodeSystem/TRE-R97-DroitExerciceCompl: CodeSystem.property[2]: This property has only a code ('dateFin') and not a URI, so it has no clearly defined meaning in the terminology ecosystem
 == input/ontoserver/TRE/TerminologieCISIS_terminologie-cisis.json ==
 WARNING: CodeSystem/terminologie-cisis: CodeSystem.property[3]: The base property uri 'https://smt.esante.gouv.fr/fhir/concept-properties' is not known for the property 'creationDate', so the property values can not be validated fully
+WARNING: CodeSystem/terminologie-cisis: CodeSystem.property[4]: The base property uri 'https://smt.esante.gouv.fr/fhir/concept-properties' is not known for the property 'dateValid', so the property values can not be validated fully
 == input/ontoserver/TRE/TreR389StatutBilanProjetPersonnalise_tre-r389-statut-bilan-projet-personnalise.json ==
 INFORMATION: CodeSystem/tre-r389-statut-bilan-projet-personnalise: CodeSystem.property[0]: This property has only a code ('dateValid') and not a URI, so it has no clearly defined meaning in the terminology ecosystem
 INFORMATION: CodeSystem/tre-r389-statut-bilan-projet-personnalise: CodeSystem.property[1]: This property has only a code ('dateMaj') and not a URI, so it has no clearly defined meaning in the terminology ecosystem
