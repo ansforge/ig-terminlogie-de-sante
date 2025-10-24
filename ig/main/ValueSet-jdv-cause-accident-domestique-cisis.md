@@ -35,7 +35,7 @@ Profil: [Shareable ValueSet](http://hl7.org/fhir/R4/shareablevalueset.html)
 
 Ce jeu de valeur (ValueSet) inclut les codes selon les règles suivantes :
 
-* Inclut ce(s) code(s) tel quil(s) est (sont) défini(s) dans [`https://smt.esante.gouv.fr/fhir/CodeSystem/terminologie-cisis`](CodeSystem-terminologie-cisis.md)version 📦202510200000
+* Inclut ce(s) code(s) tel quil(s) est (sont) défini(s) dans [`https://smt.esante.gouv.fr/fhir/CodeSystem/terminologie-cisis`](CodeSystem-terminologie-cisis.md)version 📦202510230000
 * Inclut ce(s) code(s) tel quil(s) est (sont) défini(s) dans [`https://smt.esante.gouv.fr/terminologie-cim11-mms`](CodeSystem-terminologie-cim11-mms.md)version Not Stated (use latest from terminology server) 
 
  
@@ -44,7 +44,7 @@ Ce jeu de valeur (ValueSet) inclut les codes selon les règles suivantes :
 
 Expansion from smt.esante.gouv.fr based on:
 
-* [codesystem TerminologieCISIS - Terminologie des concepts non trouvés dans les autres terminologies v202510200000 (CodeSystem)](CodeSystem-terminologie-cisis.md)
+* [codesystem TerminologieCISIS - Terminologie des concepts non trouvés dans les autres terminologies v202510230000 (CodeSystem)](CodeSystem-terminologie-cisis.md)
 * [system Classification internationale des maladies et des problèmes de santé connexes - 11ème révision v2025-01 (CodeSystem)](CodeSystem-terminologie-cim11-mms.md)
 
 Ce jeu de valeur (ValueSet) contient 4 concepts

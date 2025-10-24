@@ -8,8 +8,8 @@
 
 | | | |
 | :--- | :--- | :--- |
-| *Official URL*:https://smt.esante.gouv.fr/fhir/CodeSystem/terminologie-cisis | *Version*:202510200000 | |
-| Active as of 2025-10-15 | *Responsible:*Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:TerminologieCISIS |
+| *Official URL*:https://smt.esante.gouv.fr/fhir/CodeSystem/terminologie-cisis | *Version*:202510230000 | |
+| Active as of 2025-10-23 | *Responsible:*Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:TerminologieCISIS |
 | *Other Identifiers:*OID:1.2.250.1.213.1.1.4.322 | | |
 
  
@@ -258,8 +258,8 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
   "resourceType" : "CodeSystem",
   "id" : "terminologie-cisis",
   "meta" : {
-    "versionId" : "5",
-    "lastUpdated" : "2025-10-20T14:03:04.216+02:00",
+    "versionId" : "6",
+    "lastUpdated" : "2025-10-23T15:11:51.139+02:00",
     "profile" : [
       "http://hl7.org/fhir/StructureDefinition/shareablecodesystem"
     ]
@@ -279,12 +279,12 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
       "value" : "urn:oid:1.2.250.1.213.1.1.4.322"
     }
   ],
-  "version" : "202510200000",
+  "version" : "202510230000",
   "name" : "TerminologieCISIS",
   "title" : "TerminologieCISIS - Terminologie des concepts non trouvés dans les autres terminologies",
   "status" : "active",
   "experimental" : false,
-  "date" : "2025-10-15T16:37:17-00:00",
+  "date" : "2025-10-23T14:59:35-00:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "description" : "Terminologie multi-domaines créée et maintenue par l'ANS contenant les termes non trouvés dans les autres terminologies internationales ou nationales.",
   "jurisdiction" : [
@@ -323,6 +323,12 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
       "uri" : "https://smt.esante.gouv.fr/fhir/concept-properties#creationDate",
       "description" : "Date Concept was created in this terminology",
       "type" : "dateTime"
+    },
+    {
+      "code" : "dateValid",
+      "uri" : "https://smt.esante.gouv.fr/fhir/concept-properties#dateValid",
+      "description" : "Date Concept was created in this terminology",
+      "type" : "dateTime"
     }
   ],
   "concept" : [
@@ -332,6 +338,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
       "property" : [
         {
           "code" : "creationDate",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
+          "code" : "dateValid",
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
@@ -353,6 +363,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
+          "code" : "dateValid",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
           "code" : "deprecationDate",
           "valueDateTime" : "2025-02-25T00:00:00+01:00"
         },
@@ -368,6 +382,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
       "property" : [
         {
           "code" : "creationDate",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
+          "code" : "dateValid",
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
@@ -389,6 +407,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
+          "code" : "dateValid",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
           "code" : "deprecationDate",
           "valueDateTime" : "2025-02-25T00:00:00+01:00"
         },
@@ -404,6 +426,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
       "property" : [
         {
           "code" : "creationDate",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
+          "code" : "dateValid",
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
@@ -425,6 +451,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
+          "code" : "dateValid",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
           "code" : "deprecationDate",
           "valueDateTime" : "2025-02-25T00:00:00+01:00"
         },
@@ -443,6 +473,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
+          "code" : "dateValid",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -454,6 +488,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
       "property" : [
         {
           "code" : "creationDate",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
+          "code" : "dateValid",
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
@@ -475,6 +513,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
+          "code" : "dateValid",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -486,6 +528,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
       "property" : [
         {
           "code" : "creationDate",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
+          "code" : "dateValid",
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
@@ -503,6 +549,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
+          "code" : "dateValid",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -514,6 +564,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
       "property" : [
         {
           "code" : "creationDate",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
+          "code" : "dateValid",
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
@@ -531,6 +585,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
+          "code" : "dateValid",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -542,6 +600,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
       "property" : [
         {
           "code" : "creationDate",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
+          "code" : "dateValid",
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
@@ -559,6 +621,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
+          "code" : "dateValid",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -570,6 +636,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
       "property" : [
         {
           "code" : "creationDate",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
+          "code" : "dateValid",
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
@@ -587,6 +657,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
+          "code" : "dateValid",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -598,6 +672,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
       "property" : [
         {
           "code" : "creationDate",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
+          "code" : "dateValid",
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
@@ -615,6 +693,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
+          "code" : "dateValid",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -626,6 +708,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
       "property" : [
         {
           "code" : "creationDate",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
+          "code" : "dateValid",
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
@@ -647,6 +733,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
+          "code" : "dateValid",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -658,6 +748,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
       "property" : [
         {
           "code" : "creationDate",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
+          "code" : "dateValid",
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
@@ -675,6 +769,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
+          "code" : "dateValid",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -686,6 +784,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
       "property" : [
         {
           "code" : "creationDate",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
+          "code" : "dateValid",
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
@@ -703,6 +805,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
+          "code" : "dateValid",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -714,6 +820,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
       "property" : [
         {
           "code" : "creationDate",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
+          "code" : "dateValid",
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
@@ -731,6 +841,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
+          "code" : "dateValid",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -742,6 +856,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
       "property" : [
         {
           "code" : "creationDate",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
+          "code" : "dateValid",
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
@@ -759,6 +877,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
+          "code" : "dateValid",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -770,6 +892,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
       "property" : [
         {
           "code" : "creationDate",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
+          "code" : "dateValid",
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
@@ -787,6 +913,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
+          "code" : "dateValid",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -798,6 +928,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
       "property" : [
         {
           "code" : "creationDate",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
+          "code" : "dateValid",
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
@@ -815,6 +949,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
+          "code" : "dateValid",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -826,6 +964,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
       "property" : [
         {
           "code" : "creationDate",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
+          "code" : "dateValid",
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
@@ -843,6 +985,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
+          "code" : "dateValid",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -854,6 +1000,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
       "property" : [
         {
           "code" : "creationDate",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
+          "code" : "dateValid",
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
@@ -875,6 +1025,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
+          "code" : "dateValid",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -886,6 +1040,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
       "property" : [
         {
           "code" : "creationDate",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
+          "code" : "dateValid",
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
@@ -903,6 +1061,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
+          "code" : "dateValid",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -914,6 +1076,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
       "property" : [
         {
           "code" : "creationDate",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
+          "code" : "dateValid",
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
@@ -931,6 +1097,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
+          "code" : "dateValid",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -945,6 +1115,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
+          "code" : "dateValid",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -956,6 +1130,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
       "property" : [
         {
           "code" : "creationDate",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
+          "code" : "dateValid",
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
@@ -977,6 +1155,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
+          "code" : "dateValid",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -988,6 +1170,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
       "property" : [
         {
           "code" : "creationDate",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
+          "code" : "dateValid",
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
@@ -1005,6 +1191,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
+          "code" : "dateValid",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -1016,6 +1206,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
       "property" : [
         {
           "code" : "creationDate",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
+          "code" : "dateValid",
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
@@ -1033,6 +1227,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
+          "code" : "dateValid",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -1044,6 +1242,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
       "property" : [
         {
           "code" : "creationDate",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
+          "code" : "dateValid",
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
@@ -1061,6 +1263,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
+          "code" : "dateValid",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -1072,6 +1278,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
       "property" : [
         {
           "code" : "creationDate",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
+          "code" : "dateValid",
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
@@ -1089,6 +1299,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
+          "code" : "dateValid",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -1100,6 +1314,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
       "property" : [
         {
           "code" : "creationDate",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
+          "code" : "dateValid",
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
@@ -1117,6 +1335,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
+          "code" : "dateValid",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -1128,6 +1350,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
       "property" : [
         {
           "code" : "creationDate",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
+          "code" : "dateValid",
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
@@ -1145,6 +1371,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
+          "code" : "dateValid",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -1156,6 +1386,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
       "property" : [
         {
           "code" : "creationDate",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
+          "code" : "dateValid",
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
@@ -1173,6 +1407,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
+          "code" : "dateValid",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -1184,6 +1422,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
       "property" : [
         {
           "code" : "creationDate",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
+          "code" : "dateValid",
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
@@ -1201,6 +1443,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
+          "code" : "dateValid",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -1212,6 +1458,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
       "property" : [
         {
           "code" : "creationDate",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
+          "code" : "dateValid",
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
@@ -1229,6 +1479,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
+          "code" : "dateValid",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -1240,6 +1494,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
       "property" : [
         {
           "code" : "creationDate",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
+          "code" : "dateValid",
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
@@ -1261,6 +1519,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
+          "code" : "dateValid",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -1272,6 +1534,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
       "property" : [
         {
           "code" : "creationDate",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
+          "code" : "dateValid",
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
@@ -1289,6 +1555,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
+          "code" : "dateValid",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -1300,6 +1570,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
       "property" : [
         {
           "code" : "creationDate",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
+          "code" : "dateValid",
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
@@ -1317,6 +1591,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
+          "code" : "dateValid",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -1328,6 +1606,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
       "property" : [
         {
           "code" : "creationDate",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
+          "code" : "dateValid",
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
@@ -1345,6 +1627,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
+          "code" : "dateValid",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -1356,6 +1642,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
       "property" : [
         {
           "code" : "creationDate",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
+          "code" : "dateValid",
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
@@ -1373,6 +1663,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
+          "code" : "dateValid",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -1384,6 +1678,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
       "property" : [
         {
           "code" : "creationDate",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
+          "code" : "dateValid",
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
@@ -1401,6 +1699,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
+          "code" : "dateValid",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -1412,6 +1714,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
       "property" : [
         {
           "code" : "creationDate",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
+          "code" : "dateValid",
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
@@ -1429,6 +1735,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
+          "code" : "dateValid",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -1440,6 +1750,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
       "property" : [
         {
           "code" : "creationDate",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
+          "code" : "dateValid",
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
@@ -1457,6 +1771,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
+          "code" : "dateValid",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -1468,6 +1786,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
       "property" : [
         {
           "code" : "creationDate",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
+          "code" : "dateValid",
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
@@ -1485,6 +1807,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
+          "code" : "dateValid",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -1496,6 +1822,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
       "property" : [
         {
           "code" : "creationDate",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
+          "code" : "dateValid",
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
@@ -1513,6 +1843,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
+          "code" : "dateValid",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -1524,6 +1858,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
       "property" : [
         {
           "code" : "creationDate",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
+          "code" : "dateValid",
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
@@ -1541,6 +1879,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
+          "code" : "dateValid",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -1552,6 +1894,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
       "property" : [
         {
           "code" : "creationDate",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
+          "code" : "dateValid",
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
@@ -1569,6 +1915,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
+          "code" : "dateValid",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -1580,6 +1930,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
       "property" : [
         {
           "code" : "creationDate",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
+          "code" : "dateValid",
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
@@ -1597,6 +1951,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
+          "code" : "dateValid",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -1608,6 +1966,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
       "property" : [
         {
           "code" : "creationDate",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
+          "code" : "dateValid",
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
@@ -1625,6 +1987,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
+          "code" : "dateValid",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -1636,6 +2002,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
       "property" : [
         {
           "code" : "creationDate",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
+          "code" : "dateValid",
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
@@ -1653,6 +2023,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
+          "code" : "dateValid",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -1664,6 +2038,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
       "property" : [
         {
           "code" : "creationDate",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
+          "code" : "dateValid",
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
@@ -1681,6 +2059,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
+          "code" : "dateValid",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -1692,6 +2074,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
       "property" : [
         {
           "code" : "creationDate",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
+          "code" : "dateValid",
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
@@ -1709,6 +2095,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
+          "code" : "dateValid",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -1720,6 +2110,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
       "property" : [
         {
           "code" : "creationDate",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
+          "code" : "dateValid",
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
@@ -1737,6 +2131,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
+          "code" : "dateValid",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -1748,6 +2146,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
       "property" : [
         {
           "code" : "creationDate",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
+          "code" : "dateValid",
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
@@ -1765,6 +2167,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
+          "code" : "dateValid",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -1776,6 +2182,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
       "property" : [
         {
           "code" : "creationDate",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
+          "code" : "dateValid",
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
@@ -1793,6 +2203,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
+          "code" : "dateValid",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -1804,6 +2218,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
       "property" : [
         {
           "code" : "creationDate",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
+          "code" : "dateValid",
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
@@ -1821,6 +2239,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
+          "code" : "dateValid",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -1832,6 +2254,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
       "property" : [
         {
           "code" : "creationDate",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
+          "code" : "dateValid",
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
@@ -1849,6 +2275,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
+          "code" : "dateValid",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -1860,6 +2290,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
       "property" : [
         {
           "code" : "creationDate",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
+          "code" : "dateValid",
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
@@ -1877,6 +2311,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
+          "code" : "dateValid",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -1888,6 +2326,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
       "property" : [
         {
           "code" : "creationDate",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
+          "code" : "dateValid",
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
@@ -1905,6 +2347,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
+          "code" : "dateValid",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -1916,6 +2362,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
       "property" : [
         {
           "code" : "creationDate",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
+          "code" : "dateValid",
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
@@ -1933,6 +2383,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
+          "code" : "dateValid",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -1944,6 +2398,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
       "property" : [
         {
           "code" : "creationDate",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
+          "code" : "dateValid",
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
@@ -1961,6 +2419,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
+          "code" : "dateValid",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -1972,6 +2434,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
       "property" : [
         {
           "code" : "creationDate",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
+          "code" : "dateValid",
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
@@ -1989,6 +2455,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
+          "code" : "dateValid",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -2000,6 +2470,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
       "property" : [
         {
           "code" : "creationDate",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
+          "code" : "dateValid",
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
@@ -2017,6 +2491,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
+          "code" : "dateValid",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -2028,6 +2506,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
       "property" : [
         {
           "code" : "creationDate",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
+          "code" : "dateValid",
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
@@ -2045,6 +2527,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
+          "code" : "dateValid",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -2056,6 +2542,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
       "property" : [
         {
           "code" : "creationDate",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
+          "code" : "dateValid",
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
@@ -2073,6 +2563,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
+          "code" : "dateValid",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -2084,6 +2578,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
       "property" : [
         {
           "code" : "creationDate",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
+          "code" : "dateValid",
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
@@ -2101,6 +2599,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
+          "code" : "dateValid",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -2112,6 +2614,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
       "property" : [
         {
           "code" : "creationDate",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
+          "code" : "dateValid",
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
@@ -2129,6 +2635,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
+          "code" : "dateValid",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -2140,6 +2650,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
       "property" : [
         {
           "code" : "creationDate",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
+          "code" : "dateValid",
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
@@ -2157,6 +2671,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
+          "code" : "dateValid",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -2168,6 +2686,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
       "property" : [
         {
           "code" : "creationDate",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
+          "code" : "dateValid",
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
@@ -2185,6 +2707,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
+          "code" : "dateValid",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -2196,6 +2722,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
       "property" : [
         {
           "code" : "creationDate",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
+          "code" : "dateValid",
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
@@ -2213,6 +2743,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
+          "code" : "dateValid",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -2224,6 +2758,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
       "property" : [
         {
           "code" : "creationDate",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
+          "code" : "dateValid",
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
@@ -2241,6 +2779,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
+          "code" : "dateValid",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -2252,6 +2794,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
       "property" : [
         {
           "code" : "creationDate",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
+          "code" : "dateValid",
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
@@ -2269,6 +2815,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
+          "code" : "dateValid",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -2280,6 +2830,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
       "property" : [
         {
           "code" : "creationDate",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
+          "code" : "dateValid",
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
@@ -2297,6 +2851,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
+          "code" : "dateValid",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -2308,6 +2866,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
       "property" : [
         {
           "code" : "creationDate",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
+          "code" : "dateValid",
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
@@ -2325,6 +2887,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
+          "code" : "dateValid",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -2336,6 +2902,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
       "property" : [
         {
           "code" : "creationDate",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
+          "code" : "dateValid",
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
@@ -2353,6 +2923,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
+          "code" : "dateValid",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -2364,6 +2938,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
       "property" : [
         {
           "code" : "creationDate",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
+          "code" : "dateValid",
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
@@ -2381,6 +2959,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
+          "code" : "dateValid",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -2392,6 +2974,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
       "property" : [
         {
           "code" : "creationDate",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
+          "code" : "dateValid",
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
@@ -2409,6 +2995,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
+          "code" : "dateValid",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -2420,6 +3010,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
       "property" : [
         {
           "code" : "creationDate",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
+          "code" : "dateValid",
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
@@ -2437,6 +3031,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
+          "code" : "dateValid",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -2448,6 +3046,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
       "property" : [
         {
           "code" : "creationDate",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
+          "code" : "dateValid",
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
@@ -2465,6 +3067,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
+          "code" : "dateValid",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -2476,6 +3082,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
       "property" : [
         {
           "code" : "creationDate",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
+          "code" : "dateValid",
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
@@ -2493,6 +3103,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
+          "code" : "dateValid",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -2504,6 +3118,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
       "property" : [
         {
           "code" : "creationDate",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
+          "code" : "dateValid",
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
@@ -2521,6 +3139,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
+          "code" : "dateValid",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -2532,6 +3154,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
       "property" : [
         {
           "code" : "creationDate",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
+          "code" : "dateValid",
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
@@ -2549,6 +3175,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
+          "code" : "dateValid",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -2560,6 +3190,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
       "property" : [
         {
           "code" : "creationDate",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
+          "code" : "dateValid",
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
@@ -2577,6 +3211,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
+          "code" : "dateValid",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -2588,6 +3226,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
       "property" : [
         {
           "code" : "creationDate",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
+          "code" : "dateValid",
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
@@ -2605,6 +3247,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
+          "code" : "dateValid",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -2616,6 +3262,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
       "property" : [
         {
           "code" : "creationDate",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
+          "code" : "dateValid",
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
@@ -2633,6 +3283,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
+          "code" : "dateValid",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -2644,6 +3298,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
       "property" : [
         {
           "code" : "creationDate",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
+          "code" : "dateValid",
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
@@ -2661,6 +3319,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
+          "code" : "dateValid",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -2672,6 +3334,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
       "property" : [
         {
           "code" : "creationDate",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
+          "code" : "dateValid",
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
@@ -2689,6 +3355,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
+          "code" : "dateValid",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -2700,6 +3370,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
       "property" : [
         {
           "code" : "creationDate",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
+          "code" : "dateValid",
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
@@ -2717,6 +3391,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
+          "code" : "dateValid",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -2728,6 +3406,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
       "property" : [
         {
           "code" : "creationDate",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
+          "code" : "dateValid",
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
@@ -2745,6 +3427,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
+          "code" : "dateValid",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -2756,6 +3442,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
       "property" : [
         {
           "code" : "creationDate",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
+          "code" : "dateValid",
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
@@ -2773,6 +3463,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
+          "code" : "dateValid",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -2784,6 +3478,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
       "property" : [
         {
           "code" : "creationDate",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
+          "code" : "dateValid",
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
@@ -2801,6 +3499,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
+          "code" : "dateValid",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -2812,6 +3514,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
       "property" : [
         {
           "code" : "creationDate",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
+          "code" : "dateValid",
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
@@ -2829,6 +3535,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
+          "code" : "dateValid",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -2840,6 +3550,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
       "property" : [
         {
           "code" : "creationDate",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
+          "code" : "dateValid",
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
@@ -2857,6 +3571,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
+          "code" : "dateValid",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -2868,6 +3586,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
       "property" : [
         {
           "code" : "creationDate",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
+          "code" : "dateValid",
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
@@ -2885,6 +3607,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
+          "code" : "dateValid",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -2896,6 +3622,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
       "property" : [
         {
           "code" : "creationDate",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
+          "code" : "dateValid",
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
@@ -2913,6 +3643,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
+          "code" : "dateValid",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -2924,6 +3658,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
       "property" : [
         {
           "code" : "creationDate",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
+          "code" : "dateValid",
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
@@ -2941,6 +3679,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
+          "code" : "dateValid",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -2952,6 +3694,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
       "property" : [
         {
           "code" : "creationDate",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
+          "code" : "dateValid",
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
@@ -2969,6 +3715,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
+          "code" : "dateValid",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -2980,6 +3730,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
       "property" : [
         {
           "code" : "creationDate",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
+          "code" : "dateValid",
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
@@ -2997,6 +3751,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
+          "code" : "dateValid",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -3008,6 +3766,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
       "property" : [
         {
           "code" : "creationDate",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
+          "code" : "dateValid",
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
@@ -3025,6 +3787,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
+          "code" : "dateValid",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -3036,6 +3802,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
       "property" : [
         {
           "code" : "creationDate",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
+          "code" : "dateValid",
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
@@ -3053,6 +3823,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
+          "code" : "dateValid",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -3064,6 +3838,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
       "property" : [
         {
           "code" : "creationDate",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
+          "code" : "dateValid",
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
@@ -3081,6 +3859,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
+          "code" : "dateValid",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -3092,6 +3874,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
       "property" : [
         {
           "code" : "creationDate",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
+          "code" : "dateValid",
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
@@ -3109,6 +3895,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
+          "code" : "dateValid",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -3120,6 +3910,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
       "property" : [
         {
           "code" : "creationDate",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
+          "code" : "dateValid",
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
@@ -3137,6 +3931,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
+          "code" : "dateValid",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -3148,6 +3946,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
       "property" : [
         {
           "code" : "creationDate",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
+          "code" : "dateValid",
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
@@ -3165,6 +3967,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
+          "code" : "dateValid",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -3176,6 +3982,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
       "property" : [
         {
           "code" : "creationDate",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
+          "code" : "dateValid",
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
@@ -3193,6 +4003,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
+          "code" : "dateValid",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -3204,6 +4018,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
       "property" : [
         {
           "code" : "creationDate",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
+          "code" : "dateValid",
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
@@ -3221,6 +4039,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
+          "code" : "dateValid",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -3232,6 +4054,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
       "property" : [
         {
           "code" : "creationDate",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
+          "code" : "dateValid",
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
@@ -3249,6 +4075,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
+          "code" : "dateValid",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -3260,6 +4090,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
       "property" : [
         {
           "code" : "creationDate",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
+          "code" : "dateValid",
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
@@ -3277,6 +4111,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
+          "code" : "dateValid",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -3288,6 +4126,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
       "property" : [
         {
           "code" : "creationDate",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
+          "code" : "dateValid",
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
@@ -3305,6 +4147,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
+          "code" : "dateValid",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -3316,6 +4162,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
       "property" : [
         {
           "code" : "creationDate",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
+          "code" : "dateValid",
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
@@ -3333,6 +4183,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
+          "code" : "dateValid",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -3344,6 +4198,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
       "property" : [
         {
           "code" : "creationDate",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
+          "code" : "dateValid",
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
@@ -3361,6 +4219,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
+          "code" : "dateValid",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -3372,6 +4234,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
       "property" : [
         {
           "code" : "creationDate",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
+          "code" : "dateValid",
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
@@ -3389,6 +4255,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
+          "code" : "dateValid",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -3400,6 +4270,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
       "property" : [
         {
           "code" : "creationDate",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
+          "code" : "dateValid",
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
@@ -3417,6 +4291,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
+          "code" : "dateValid",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -3428,6 +4306,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
       "property" : [
         {
           "code" : "creationDate",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
+          "code" : "dateValid",
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
@@ -3445,6 +4327,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
+          "code" : "dateValid",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -3456,6 +4342,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
       "property" : [
         {
           "code" : "creationDate",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
+          "code" : "dateValid",
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
@@ -3473,6 +4363,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
+          "code" : "dateValid",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -3484,6 +4378,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
       "property" : [
         {
           "code" : "creationDate",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
+          "code" : "dateValid",
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
@@ -3501,6 +4399,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
+          "code" : "dateValid",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -3512,6 +4414,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
       "property" : [
         {
           "code" : "creationDate",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
+          "code" : "dateValid",
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
@@ -3529,6 +4435,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
+          "code" : "dateValid",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -3540,6 +4450,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
       "property" : [
         {
           "code" : "creationDate",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
+          "code" : "dateValid",
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
@@ -3557,6 +4471,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
+          "code" : "dateValid",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -3571,6 +4489,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
+          "code" : "dateValid",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -3582,6 +4504,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
       "property" : [
         {
           "code" : "creationDate",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
+          "code" : "dateValid",
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
@@ -3603,6 +4529,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
+          "code" : "dateValid",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -3614,6 +4544,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
       "property" : [
         {
           "code" : "creationDate",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
+          "code" : "dateValid",
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
@@ -3631,6 +4565,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
+          "code" : "dateValid",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -3645,6 +4583,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
+          "code" : "dateValid",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -3656,6 +4598,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
       "property" : [
         {
           "code" : "creationDate",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
+          "code" : "dateValid",
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
@@ -3677,6 +4623,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
+          "code" : "dateValid",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -3688,6 +4638,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
       "property" : [
         {
           "code" : "creationDate",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
+          "code" : "dateValid",
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
@@ -3705,6 +4659,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
+          "code" : "dateValid",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -3716,6 +4674,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
       "property" : [
         {
           "code" : "creationDate",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
+          "code" : "dateValid",
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
@@ -3733,6 +4695,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
+          "code" : "dateValid",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -3744,6 +4710,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
       "property" : [
         {
           "code" : "creationDate",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
+          "code" : "dateValid",
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
@@ -3761,6 +4731,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
+          "code" : "dateValid",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -3772,6 +4746,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
       "property" : [
         {
           "code" : "creationDate",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
+          "code" : "dateValid",
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
@@ -3789,6 +4767,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
+          "code" : "dateValid",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -3800,6 +4782,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
       "property" : [
         {
           "code" : "creationDate",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
+          "code" : "dateValid",
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
@@ -3817,6 +4803,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
+          "code" : "dateValid",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -3828,6 +4818,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
       "property" : [
         {
           "code" : "creationDate",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
+          "code" : "dateValid",
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
@@ -3845,6 +4839,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
+          "code" : "dateValid",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -3859,6 +4857,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
+          "code" : "dateValid",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -3870,6 +4872,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
       "property" : [
         {
           "code" : "creationDate",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
+          "code" : "dateValid",
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
@@ -3891,6 +4897,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
+          "code" : "dateValid",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
           "code" : "deprecationDate",
           "valueDateTime" : "2025-02-25T00:00:00+01:00"
         },
@@ -3906,6 +4916,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
       "property" : [
         {
           "code" : "creationDate",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
+          "code" : "dateValid",
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
@@ -3927,6 +4941,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
+          "code" : "dateValid",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -3941,6 +4959,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
+          "code" : "dateValid",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -3952,6 +4974,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
       "property" : [
         {
           "code" : "creationDate",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
+          "code" : "dateValid",
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
@@ -3973,6 +4999,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
+          "code" : "dateValid",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
           "code" : "deprecationDate",
           "valueDateTime" : "2025-02-25T00:00:00+01:00"
         },
@@ -3991,6 +5021,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
+          "code" : "dateValid",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -4002,6 +5036,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
       "property" : [
         {
           "code" : "creationDate",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
+          "code" : "dateValid",
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
@@ -4019,6 +5057,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
+          "code" : "dateValid",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -4030,6 +5072,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
       "property" : [
         {
           "code" : "creationDate",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
+          "code" : "dateValid",
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
@@ -4047,6 +5093,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
+          "code" : "dateValid",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -4058,6 +5108,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
       "property" : [
         {
           "code" : "creationDate",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
+          "code" : "dateValid",
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
@@ -4075,6 +5129,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
+          "code" : "dateValid",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -4086,6 +5144,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
       "property" : [
         {
           "code" : "creationDate",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
+          "code" : "dateValid",
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
@@ -4103,6 +5165,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
+          "code" : "dateValid",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -4114,6 +5180,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
       "property" : [
         {
           "code" : "creationDate",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
+          "code" : "dateValid",
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
@@ -4131,6 +5201,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
+          "code" : "dateValid",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -4142,6 +5216,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
       "property" : [
         {
           "code" : "creationDate",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
+          "code" : "dateValid",
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
@@ -4159,6 +5237,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
+          "code" : "dateValid",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -4170,6 +5252,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
       "property" : [
         {
           "code" : "creationDate",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
+          "code" : "dateValid",
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
@@ -4187,6 +5273,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
+          "code" : "dateValid",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -4198,6 +5288,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
       "property" : [
         {
           "code" : "creationDate",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
+          "code" : "dateValid",
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
@@ -4215,6 +5309,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
+          "code" : "dateValid",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -4226,6 +5324,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
       "property" : [
         {
           "code" : "creationDate",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
+          "code" : "dateValid",
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
@@ -4243,6 +5345,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
+          "code" : "dateValid",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -4254,6 +5360,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
       "property" : [
         {
           "code" : "creationDate",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
+          "code" : "dateValid",
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
@@ -4271,6 +5381,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
+          "code" : "dateValid",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -4282,6 +5396,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
       "property" : [
         {
           "code" : "creationDate",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
+          "code" : "dateValid",
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
@@ -4299,6 +5417,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
+          "code" : "dateValid",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -4310,6 +5432,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
       "property" : [
         {
           "code" : "creationDate",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
+          "code" : "dateValid",
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
@@ -4327,6 +5453,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
+          "code" : "dateValid",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -4338,6 +5468,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
       "property" : [
         {
           "code" : "creationDate",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
+          "code" : "dateValid",
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
@@ -4355,6 +5489,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
+          "code" : "dateValid",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -4366,6 +5504,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
       "property" : [
         {
           "code" : "creationDate",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
+          "code" : "dateValid",
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
@@ -4383,6 +5525,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
+          "code" : "dateValid",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -4394,6 +5540,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
       "property" : [
         {
           "code" : "creationDate",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
+          "code" : "dateValid",
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
@@ -4411,6 +5561,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
+          "code" : "dateValid",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -4422,6 +5576,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
       "property" : [
         {
           "code" : "creationDate",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
+          "code" : "dateValid",
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
@@ -4439,6 +5597,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
+          "code" : "dateValid",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -4450,6 +5612,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
       "property" : [
         {
           "code" : "creationDate",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
+          "code" : "dateValid",
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
@@ -4467,6 +5633,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
+          "code" : "dateValid",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -4478,6 +5648,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
       "property" : [
         {
           "code" : "creationDate",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
+          "code" : "dateValid",
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
@@ -4495,6 +5669,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
+          "code" : "dateValid",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -4506,6 +5684,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
       "property" : [
         {
           "code" : "creationDate",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
+          "code" : "dateValid",
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
@@ -4523,6 +5705,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
+          "code" : "dateValid",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -4534,6 +5720,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
       "property" : [
         {
           "code" : "creationDate",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
+          "code" : "dateValid",
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
@@ -4551,6 +5741,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
+          "code" : "dateValid",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -4562,6 +5756,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
       "property" : [
         {
           "code" : "creationDate",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
+          "code" : "dateValid",
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
@@ -4579,6 +5777,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
+          "code" : "dateValid",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -4590,6 +5792,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
       "property" : [
         {
           "code" : "creationDate",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
+          "code" : "dateValid",
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
@@ -4607,6 +5813,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
+          "code" : "dateValid",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -4618,6 +5828,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
       "property" : [
         {
           "code" : "creationDate",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
+          "code" : "dateValid",
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
@@ -4635,6 +5849,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
+          "code" : "dateValid",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -4646,6 +5864,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
       "property" : [
         {
           "code" : "creationDate",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
+          "code" : "dateValid",
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
@@ -4663,6 +5885,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
+          "code" : "dateValid",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -4674,6 +5900,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
       "property" : [
         {
           "code" : "creationDate",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
+          "code" : "dateValid",
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
@@ -4691,6 +5921,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
+          "code" : "dateValid",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -4702,6 +5936,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
       "property" : [
         {
           "code" : "creationDate",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
+          "code" : "dateValid",
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
@@ -4719,6 +5957,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
+          "code" : "dateValid",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -4730,6 +5972,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
       "property" : [
         {
           "code" : "creationDate",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
+          "code" : "dateValid",
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
@@ -4747,6 +5993,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
+          "code" : "dateValid",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -4758,6 +6008,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
       "property" : [
         {
           "code" : "creationDate",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
+          "code" : "dateValid",
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
@@ -4775,6 +6029,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
+          "code" : "dateValid",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -4786,6 +6044,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
       "property" : [
         {
           "code" : "creationDate",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
+          "code" : "dateValid",
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
@@ -4803,6 +6065,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
+          "code" : "dateValid",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -4814,6 +6080,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
       "property" : [
         {
           "code" : "creationDate",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
+          "code" : "dateValid",
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
@@ -4831,6 +6101,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
+          "code" : "dateValid",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -4842,6 +6116,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
       "property" : [
         {
           "code" : "creationDate",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
+          "code" : "dateValid",
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
@@ -4859,6 +6137,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
+          "code" : "dateValid",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -4870,6 +6152,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
       "property" : [
         {
           "code" : "creationDate",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
+          "code" : "dateValid",
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
@@ -4887,6 +6173,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
+          "code" : "dateValid",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -4898,6 +6188,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
       "property" : [
         {
           "code" : "creationDate",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
+          "code" : "dateValid",
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
@@ -4915,6 +6209,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
+          "code" : "dateValid",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -4926,6 +6224,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
       "property" : [
         {
           "code" : "creationDate",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
+          "code" : "dateValid",
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
@@ -4943,6 +6245,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
+          "code" : "dateValid",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -4954,6 +6260,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
       "property" : [
         {
           "code" : "creationDate",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
+          "code" : "dateValid",
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
@@ -4971,6 +6281,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
+          "code" : "dateValid",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -4982,6 +6296,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
       "property" : [
         {
           "code" : "creationDate",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
+          "code" : "dateValid",
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
@@ -4999,6 +6317,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
+          "code" : "dateValid",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -5010,6 +6332,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
       "property" : [
         {
           "code" : "creationDate",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
+          "code" : "dateValid",
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
@@ -5027,6 +6353,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
+          "code" : "dateValid",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -5038,6 +6368,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
       "property" : [
         {
           "code" : "creationDate",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
+          "code" : "dateValid",
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
@@ -5055,6 +6389,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
+          "code" : "dateValid",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -5066,6 +6404,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
       "property" : [
         {
           "code" : "creationDate",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
+          "code" : "dateValid",
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
@@ -5083,6 +6425,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
+          "code" : "dateValid",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -5094,6 +6440,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
       "property" : [
         {
           "code" : "creationDate",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
+          "code" : "dateValid",
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
@@ -5111,6 +6461,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
+          "code" : "dateValid",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -5122,6 +6476,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
       "property" : [
         {
           "code" : "creationDate",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
+          "code" : "dateValid",
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
@@ -5139,6 +6497,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
+          "code" : "dateValid",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -5150,6 +6512,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
       "property" : [
         {
           "code" : "creationDate",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
+          "code" : "dateValid",
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
@@ -5167,6 +6533,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
+          "code" : "dateValid",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -5178,6 +6548,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
       "property" : [
         {
           "code" : "creationDate",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
+          "code" : "dateValid",
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
@@ -5195,6 +6569,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
+          "code" : "dateValid",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -5206,6 +6584,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
       "property" : [
         {
           "code" : "creationDate",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
+          "code" : "dateValid",
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
@@ -5223,6 +6605,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
+          "code" : "dateValid",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -5234,6 +6620,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
       "property" : [
         {
           "code" : "creationDate",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
+          "code" : "dateValid",
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
@@ -5251,6 +6641,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
+          "code" : "dateValid",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -5262,6 +6656,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
       "property" : [
         {
           "code" : "creationDate",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
+          "code" : "dateValid",
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
@@ -5279,6 +6677,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
+          "code" : "dateValid",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -5290,6 +6692,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
       "property" : [
         {
           "code" : "creationDate",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
+          "code" : "dateValid",
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
@@ -5307,6 +6713,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
+          "code" : "dateValid",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -5318,6 +6728,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
       "property" : [
         {
           "code" : "creationDate",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
+          "code" : "dateValid",
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
@@ -5335,6 +6749,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
+          "code" : "dateValid",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -5346,6 +6764,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
       "property" : [
         {
           "code" : "creationDate",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
+          "code" : "dateValid",
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
@@ -5363,6 +6785,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
+          "code" : "dateValid",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -5374,6 +6800,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
       "property" : [
         {
           "code" : "creationDate",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
+          "code" : "dateValid",
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
@@ -5391,6 +6821,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
           "valueDateTime" : "2025-03-13T00:00:00+01:00"
         },
         {
+          "code" : "dateValid",
+          "valueDateTime" : "2025-03-13T00:00:00+01:00"
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -5402,6 +6836,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
       "property" : [
         {
           "code" : "creationDate",
+          "valueDateTime" : "2025-03-13T00:00:00+01:00"
+        },
+        {
+          "code" : "dateValid",
           "valueDateTime" : "2025-03-13T00:00:00+01:00"
         },
         {
@@ -5419,6 +6857,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
           "valueDateTime" : "2025-03-13T00:00:00+01:00"
         },
         {
+          "code" : "dateValid",
+          "valueDateTime" : "2025-03-13T00:00:00+01:00"
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -5430,6 +6872,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
       "property" : [
         {
           "code" : "creationDate",
+          "valueDateTime" : "2025-03-13T00:00:00+01:00"
+        },
+        {
+          "code" : "dateValid",
           "valueDateTime" : "2025-03-13T00:00:00+01:00"
         },
         {
@@ -5447,6 +6893,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
           "valueDateTime" : "2025-03-13T00:00:00+01:00"
         },
         {
+          "code" : "dateValid",
+          "valueDateTime" : "2025-03-13T00:00:00+01:00"
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -5458,6 +6908,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
       "property" : [
         {
           "code" : "creationDate",
+          "valueDateTime" : "2025-03-13T00:00:00+01:00"
+        },
+        {
+          "code" : "dateValid",
           "valueDateTime" : "2025-03-13T00:00:00+01:00"
         },
         {
@@ -5475,6 +6929,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
           "valueDateTime" : "2025-03-13T00:00:00+01:00"
         },
         {
+          "code" : "dateValid",
+          "valueDateTime" : "2025-03-13T00:00:00+01:00"
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -5486,6 +6944,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
       "property" : [
         {
           "code" : "creationDate",
+          "valueDateTime" : "2025-03-13T00:00:00+01:00"
+        },
+        {
+          "code" : "dateValid",
           "valueDateTime" : "2025-03-13T00:00:00+01:00"
         },
         {
@@ -5503,6 +6965,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
           "valueDateTime" : "2025-03-13T00:00:00+01:00"
         },
         {
+          "code" : "dateValid",
+          "valueDateTime" : "2025-03-13T00:00:00+01:00"
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -5514,6 +6980,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
       "property" : [
         {
           "code" : "creationDate",
+          "valueDateTime" : "2025-03-13T00:00:00+01:00"
+        },
+        {
+          "code" : "dateValid",
           "valueDateTime" : "2025-03-13T00:00:00+01:00"
         },
         {
@@ -5531,6 +7001,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
           "valueDateTime" : "2025-03-13T00:00:00+01:00"
         },
         {
+          "code" : "dateValid",
+          "valueDateTime" : "2025-03-13T00:00:00+01:00"
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -5542,6 +7016,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
       "property" : [
         {
           "code" : "creationDate",
+          "valueDateTime" : "2025-03-13T00:00:00+01:00"
+        },
+        {
+          "code" : "dateValid",
           "valueDateTime" : "2025-03-13T00:00:00+01:00"
         },
         {
@@ -5559,6 +7037,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
           "valueDateTime" : "2025-03-13T00:00:00+01:00"
         },
         {
+          "code" : "dateValid",
+          "valueDateTime" : "2025-03-13T00:00:00+01:00"
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -5570,6 +7052,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
       "property" : [
         {
           "code" : "creationDate",
+          "valueDateTime" : "2025-03-13T00:00:00+01:00"
+        },
+        {
+          "code" : "dateValid",
           "valueDateTime" : "2025-03-13T00:00:00+01:00"
         },
         {
@@ -5587,6 +7073,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
           "valueDateTime" : "2025-03-13T00:00:00+01:00"
         },
         {
+          "code" : "dateValid",
+          "valueDateTime" : "2025-03-13T00:00:00+01:00"
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -5598,6 +7088,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
       "property" : [
         {
           "code" : "creationDate",
+          "valueDateTime" : "2025-03-13T00:00:00+01:00"
+        },
+        {
+          "code" : "dateValid",
           "valueDateTime" : "2025-03-13T00:00:00+01:00"
         },
         {
@@ -5615,6 +7109,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
           "valueDateTime" : "2025-03-13T00:00:00+01:00"
         },
         {
+          "code" : "dateValid",
+          "valueDateTime" : "2025-03-13T00:00:00+01:00"
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -5626,6 +7124,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
       "property" : [
         {
           "code" : "creationDate",
+          "valueDateTime" : "2025-03-13T00:00:00+01:00"
+        },
+        {
+          "code" : "dateValid",
           "valueDateTime" : "2025-03-13T00:00:00+01:00"
         },
         {
@@ -5643,6 +7145,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
           "valueDateTime" : "2025-03-13T00:00:00+01:00"
         },
         {
+          "code" : "dateValid",
+          "valueDateTime" : "2025-03-13T00:00:00+01:00"
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -5654,6 +7160,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
       "property" : [
         {
           "code" : "creationDate",
+          "valueDateTime" : "2025-03-13T00:00:00+01:00"
+        },
+        {
+          "code" : "dateValid",
           "valueDateTime" : "2025-03-13T00:00:00+01:00"
         },
         {
@@ -5671,6 +7181,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
           "valueDateTime" : "2025-03-13T00:00:00+01:00"
         },
         {
+          "code" : "dateValid",
+          "valueDateTime" : "2025-03-13T00:00:00+01:00"
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -5682,6 +7196,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
       "property" : [
         {
           "code" : "creationDate",
+          "valueDateTime" : "2025-03-13T00:00:00+01:00"
+        },
+        {
+          "code" : "dateValid",
           "valueDateTime" : "2025-03-13T00:00:00+01:00"
         },
         {
@@ -5699,6 +7217,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
           "valueDateTime" : "2025-03-13T00:00:00+01:00"
         },
         {
+          "code" : "dateValid",
+          "valueDateTime" : "2025-03-13T00:00:00+01:00"
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -5710,6 +7232,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
       "property" : [
         {
           "code" : "creationDate",
+          "valueDateTime" : "2025-03-13T00:00:00+01:00"
+        },
+        {
+          "code" : "dateValid",
           "valueDateTime" : "2025-03-13T00:00:00+01:00"
         },
         {
@@ -5727,6 +7253,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
           "valueDateTime" : "2025-03-13T00:00:00+01:00"
         },
         {
+          "code" : "dateValid",
+          "valueDateTime" : "2025-03-13T00:00:00+01:00"
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -5738,6 +7268,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
       "property" : [
         {
           "code" : "creationDate",
+          "valueDateTime" : "2025-03-13T00:00:00+01:00"
+        },
+        {
+          "code" : "dateValid",
           "valueDateTime" : "2025-03-13T00:00:00+01:00"
         },
         {
@@ -5755,6 +7289,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
           "valueDateTime" : "2025-03-13T00:00:00+01:00"
         },
         {
+          "code" : "dateValid",
+          "valueDateTime" : "2025-03-13T00:00:00+01:00"
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -5766,6 +7304,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
       "property" : [
         {
           "code" : "creationDate",
+          "valueDateTime" : "2025-03-13T00:00:00+01:00"
+        },
+        {
+          "code" : "dateValid",
           "valueDateTime" : "2025-03-13T00:00:00+01:00"
         },
         {
@@ -5783,6 +7325,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
           "valueDateTime" : "2025-03-13T00:00:00+01:00"
         },
         {
+          "code" : "dateValid",
+          "valueDateTime" : "2025-03-13T00:00:00+01:00"
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -5794,6 +7340,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
       "property" : [
         {
           "code" : "creationDate",
+          "valueDateTime" : "2025-03-13T00:00:00+01:00"
+        },
+        {
+          "code" : "dateValid",
           "valueDateTime" : "2025-03-13T00:00:00+01:00"
         },
         {
@@ -5811,6 +7361,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
           "valueDateTime" : "2025-03-13T00:00:00+01:00"
         },
         {
+          "code" : "dateValid",
+          "valueDateTime" : "2025-03-13T00:00:00+01:00"
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -5822,6 +7376,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
       "property" : [
         {
           "code" : "creationDate",
+          "valueDateTime" : "2025-03-13T00:00:00+01:00"
+        },
+        {
+          "code" : "dateValid",
           "valueDateTime" : "2025-03-13T00:00:00+01:00"
         },
         {
@@ -5839,6 +7397,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
           "valueDateTime" : "2025-03-13T00:00:00+01:00"
         },
         {
+          "code" : "dateValid",
+          "valueDateTime" : "2025-03-13T00:00:00+01:00"
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -5850,6 +7412,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
       "property" : [
         {
           "code" : "creationDate",
+          "valueDateTime" : "2025-03-13T00:00:00+01:00"
+        },
+        {
+          "code" : "dateValid",
           "valueDateTime" : "2025-03-13T00:00:00+01:00"
         },
         {
@@ -5867,6 +7433,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
           "valueDateTime" : "2025-03-13T00:00:00+01:00"
         },
         {
+          "code" : "dateValid",
+          "valueDateTime" : "2025-03-13T00:00:00+01:00"
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -5878,6 +7448,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
       "property" : [
         {
           "code" : "creationDate",
+          "valueDateTime" : "2025-03-13T00:00:00+01:00"
+        },
+        {
+          "code" : "dateValid",
           "valueDateTime" : "2025-03-13T00:00:00+01:00"
         },
         {
@@ -5895,6 +7469,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
           "valueDateTime" : "2025-03-13T00:00:00+01:00"
         },
         {
+          "code" : "dateValid",
+          "valueDateTime" : "2025-03-13T00:00:00+01:00"
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -5906,6 +7484,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
       "property" : [
         {
           "code" : "creationDate",
+          "valueDateTime" : "2025-03-13T00:00:00+01:00"
+        },
+        {
+          "code" : "dateValid",
           "valueDateTime" : "2025-03-13T00:00:00+01:00"
         },
         {
@@ -5923,6 +7505,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
           "valueDateTime" : "2025-05-14T00:00:00+01:00"
         },
         {
+          "code" : "dateValid",
+          "valueDateTime" : "2025-05-14T00:00:00+01:00"
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -5934,6 +7520,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
       "property" : [
         {
           "code" : "creationDate",
+          "valueDateTime" : "2025-07-21T00:00:00+01:00"
+        },
+        {
+          "code" : "dateValid",
           "valueDateTime" : "2025-07-21T00:00:00+01:00"
         },
         {
@@ -5951,6 +7541,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
           "valueDateTime" : "2025-07-22T00:00:00+01:00"
         },
         {
+          "code" : "dateValid",
+          "valueDateTime" : "2025-07-22T00:00:00+01:00"
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -5962,6 +7556,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
       "property" : [
         {
           "code" : "creationDate",
+          "valueDateTime" : "2025-07-22T00:00:00+01:00"
+        },
+        {
+          "code" : "dateValid",
           "valueDateTime" : "2025-07-22T00:00:00+01:00"
         },
         {
@@ -5979,6 +7577,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
+          "code" : "dateValid",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -5990,6 +7592,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
       "property" : [
         {
           "code" : "creationDate",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
+          "code" : "dateValid",
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
@@ -6007,6 +7613,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
+          "code" : "dateValid",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -6018,6 +7628,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
       "property" : [
         {
           "code" : "creationDate",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
+          "code" : "dateValid",
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
@@ -6035,6 +7649,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
+          "code" : "dateValid",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -6046,6 +7664,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
       "property" : [
         {
           "code" : "creationDate",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
+          "code" : "dateValid",
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
@@ -6063,6 +7685,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
+          "code" : "dateValid",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -6074,6 +7700,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
       "property" : [
         {
           "code" : "creationDate",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
+          "code" : "dateValid",
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
@@ -6091,6 +7721,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
+          "code" : "dateValid",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -6102,6 +7736,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
       "property" : [
         {
           "code" : "creationDate",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
+          "code" : "dateValid",
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
@@ -6119,6 +7757,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
+          "code" : "dateValid",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -6130,6 +7772,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
       "property" : [
         {
           "code" : "creationDate",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
+          "code" : "dateValid",
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
@@ -6147,6 +7793,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
+          "code" : "dateValid",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -6158,6 +7808,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
       "property" : [
         {
           "code" : "creationDate",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
+          "code" : "dateValid",
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
@@ -6175,6 +7829,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
+          "code" : "dateValid",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -6186,6 +7844,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
       "property" : [
         {
           "code" : "creationDate",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
+          "code" : "dateValid",
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
@@ -6203,6 +7865,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
+          "code" : "dateValid",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -6214,6 +7880,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
       "property" : [
         {
           "code" : "creationDate",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
+          "code" : "dateValid",
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
@@ -6231,6 +7901,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
+          "code" : "dateValid",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -6242,6 +7916,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
       "property" : [
         {
           "code" : "creationDate",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
+          "code" : "dateValid",
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
@@ -6259,6 +7937,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
+          "code" : "dateValid",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -6270,6 +7952,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
       "property" : [
         {
           "code" : "creationDate",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
+          "code" : "dateValid",
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
@@ -6287,6 +7973,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
+          "code" : "dateValid",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -6298,6 +7988,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
       "property" : [
         {
           "code" : "creationDate",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
+          "code" : "dateValid",
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
@@ -6315,6 +8009,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
+          "code" : "dateValid",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -6326,6 +8024,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
       "property" : [
         {
           "code" : "creationDate",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
+          "code" : "dateValid",
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
@@ -6343,6 +8045,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
+          "code" : "dateValid",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -6354,6 +8060,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
       "property" : [
         {
           "code" : "creationDate",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
+          "code" : "dateValid",
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
@@ -6371,6 +8081,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
+          "code" : "dateValid",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -6382,6 +8096,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
       "property" : [
         {
           "code" : "creationDate",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
+          "code" : "dateValid",
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
@@ -6399,6 +8117,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
+          "code" : "dateValid",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -6410,6 +8132,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
       "property" : [
         {
           "code" : "creationDate",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
+          "code" : "dateValid",
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
@@ -6427,6 +8153,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
+          "code" : "dateValid",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -6438,6 +8168,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
       "property" : [
         {
           "code" : "creationDate",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
+          "code" : "dateValid",
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
@@ -6455,6 +8189,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
+          "code" : "dateValid",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -6466,6 +8204,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
       "property" : [
         {
           "code" : "creationDate",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
+          "code" : "dateValid",
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
@@ -6483,6 +8225,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
+          "code" : "dateValid",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -6494,6 +8240,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
       "property" : [
         {
           "code" : "creationDate",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
+          "code" : "dateValid",
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
@@ -6511,6 +8261,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
+          "code" : "dateValid",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -6522,6 +8276,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
       "property" : [
         {
           "code" : "creationDate",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
+          "code" : "dateValid",
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
@@ -6539,6 +8297,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
+          "code" : "dateValid",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -6550,6 +8312,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
       "property" : [
         {
           "code" : "creationDate",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
+          "code" : "dateValid",
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
@@ -6567,6 +8333,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
+          "code" : "dateValid",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -6578,6 +8348,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
       "property" : [
         {
           "code" : "creationDate",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
+          "code" : "dateValid",
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
@@ -6595,6 +8369,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
+          "code" : "dateValid",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -6606,6 +8384,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
       "property" : [
         {
           "code" : "creationDate",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
+          "code" : "dateValid",
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
@@ -6623,6 +8405,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
+          "code" : "dateValid",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -6634,6 +8420,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
       "property" : [
         {
           "code" : "creationDate",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
+          "code" : "dateValid",
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
@@ -6651,6 +8441,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
+          "code" : "dateValid",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -6662,6 +8456,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
       "property" : [
         {
           "code" : "creationDate",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
+          "code" : "dateValid",
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
@@ -6679,6 +8477,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
+          "code" : "dateValid",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -6690,6 +8492,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
       "property" : [
         {
           "code" : "creationDate",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
+          "code" : "dateValid",
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
@@ -6707,6 +8513,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
+          "code" : "dateValid",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -6718,6 +8528,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
       "property" : [
         {
           "code" : "creationDate",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
+          "code" : "dateValid",
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
@@ -6735,6 +8549,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
+          "code" : "dateValid",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -6746,6 +8564,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
       "property" : [
         {
           "code" : "creationDate",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
+          "code" : "dateValid",
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
@@ -6763,6 +8585,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
+          "code" : "dateValid",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -6774,6 +8600,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
       "property" : [
         {
           "code" : "creationDate",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
+          "code" : "dateValid",
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
@@ -6791,6 +8621,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
+          "code" : "dateValid",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -6802,6 +8636,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
       "property" : [
         {
           "code" : "creationDate",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
+          "code" : "dateValid",
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
@@ -6819,6 +8657,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
+          "code" : "dateValid",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -6833,6 +8675,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
+          "code" : "dateValid",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -6844,6 +8690,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
       "property" : [
         {
           "code" : "creationDate",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
+          "code" : "dateValid",
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
@@ -6865,6 +8715,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
+          "code" : "dateValid",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -6876,6 +8730,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
       "property" : [
         {
           "code" : "creationDate",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
+          "code" : "dateValid",
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
@@ -6893,6 +8751,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
+          "code" : "dateValid",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -6904,6 +8766,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
       "property" : [
         {
           "code" : "creationDate",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
+          "code" : "dateValid",
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
@@ -6921,6 +8787,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
+          "code" : "dateValid",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -6932,6 +8802,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
       "property" : [
         {
           "code" : "creationDate",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
+          "code" : "dateValid",
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
@@ -6949,6 +8823,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
+          "code" : "dateValid",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -6960,6 +8838,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
       "property" : [
         {
           "code" : "creationDate",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
+          "code" : "dateValid",
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
@@ -6977,6 +8859,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
+          "code" : "dateValid",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -6988,6 +8874,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
       "property" : [
         {
           "code" : "creationDate",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
+          "code" : "dateValid",
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
@@ -7005,6 +8895,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
+          "code" : "dateValid",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -7016,6 +8910,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
       "property" : [
         {
           "code" : "creationDate",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
+          "code" : "dateValid",
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
@@ -7033,6 +8931,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
+          "code" : "dateValid",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -7044,6 +8946,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
       "property" : [
         {
           "code" : "creationDate",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
+          "code" : "dateValid",
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
@@ -7061,6 +8967,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
+          "code" : "dateValid",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -7072,6 +8982,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
       "property" : [
         {
           "code" : "creationDate",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
+          "code" : "dateValid",
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
@@ -7089,6 +9003,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
+          "code" : "dateValid",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -7100,6 +9018,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
       "property" : [
         {
           "code" : "creationDate",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
+          "code" : "dateValid",
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
@@ -7117,6 +9039,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
+          "code" : "dateValid",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -7128,6 +9054,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
       "property" : [
         {
           "code" : "creationDate",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
+          "code" : "dateValid",
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
@@ -7145,6 +9075,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
+          "code" : "dateValid",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -7156,6 +9090,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
       "property" : [
         {
           "code" : "creationDate",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
+          "code" : "dateValid",
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
@@ -7173,6 +9111,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
+          "code" : "dateValid",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -7184,6 +9126,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
       "property" : [
         {
           "code" : "creationDate",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
+          "code" : "dateValid",
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
@@ -7205,6 +9151,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
+          "code" : "dateValid",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -7216,6 +9166,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
       "property" : [
         {
           "code" : "creationDate",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
+          "code" : "dateValid",
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
@@ -7233,6 +9187,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
+          "code" : "dateValid",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -7244,6 +9202,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
       "property" : [
         {
           "code" : "creationDate",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
+          "code" : "dateValid",
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
@@ -7261,6 +9223,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
+          "code" : "dateValid",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -7272,6 +9238,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
       "property" : [
         {
           "code" : "creationDate",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
+          "code" : "dateValid",
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
@@ -7289,6 +9259,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
+          "code" : "dateValid",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -7300,6 +9274,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
       "property" : [
         {
           "code" : "creationDate",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
+          "code" : "dateValid",
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
@@ -7317,6 +9295,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
+          "code" : "dateValid",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -7328,6 +9310,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
       "property" : [
         {
           "code" : "creationDate",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
+          "code" : "dateValid",
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
@@ -7345,6 +9331,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
+          "code" : "dateValid",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -7356,6 +9346,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
       "property" : [
         {
           "code" : "creationDate",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
+          "code" : "dateValid",
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
@@ -7373,6 +9367,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
+          "code" : "dateValid",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -7384,6 +9382,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
       "property" : [
         {
           "code" : "creationDate",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
+          "code" : "dateValid",
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
@@ -7401,6 +9403,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
+          "code" : "dateValid",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -7412,6 +9418,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
       "property" : [
         {
           "code" : "creationDate",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
+          "code" : "dateValid",
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
@@ -7433,6 +9443,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
+          "code" : "dateValid",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -7444,6 +9458,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
       "property" : [
         {
           "code" : "creationDate",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
+          "code" : "dateValid",
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
@@ -7461,6 +9479,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
+          "code" : "dateValid",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -7472,6 +9494,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
       "property" : [
         {
           "code" : "creationDate",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
+          "code" : "dateValid",
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
@@ -7489,6 +9515,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
+          "code" : "dateValid",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -7500,6 +9530,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
       "property" : [
         {
           "code" : "creationDate",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
+          "code" : "dateValid",
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
@@ -7517,6 +9551,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
+          "code" : "dateValid",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -7528,6 +9566,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
       "property" : [
         {
           "code" : "creationDate",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
+          "code" : "dateValid",
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
@@ -7545,6 +9587,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
+          "code" : "dateValid",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -7556,6 +9602,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
       "property" : [
         {
           "code" : "creationDate",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
+          "code" : "dateValid",
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
@@ -7573,6 +9623,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
+          "code" : "dateValid",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -7584,6 +9638,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
       "property" : [
         {
           "code" : "creationDate",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
+          "code" : "dateValid",
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
@@ -7601,6 +9659,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
+          "code" : "dateValid",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -7612,6 +9674,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
       "property" : [
         {
           "code" : "creationDate",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
+          "code" : "dateValid",
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
@@ -7629,6 +9695,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
+          "code" : "dateValid",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -7640,6 +9710,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
       "property" : [
         {
           "code" : "creationDate",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
+          "code" : "dateValid",
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
@@ -7657,6 +9731,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
+          "code" : "dateValid",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -7668,6 +9746,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
       "property" : [
         {
           "code" : "creationDate",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
+          "code" : "dateValid",
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
@@ -7685,6 +9767,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
+          "code" : "dateValid",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -7699,6 +9785,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
+          "code" : "dateValid",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -7710,6 +9800,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
       "property" : [
         {
           "code" : "creationDate",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
+          "code" : "dateValid",
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
@@ -7731,6 +9825,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
+          "code" : "dateValid",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -7742,6 +9840,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
       "property" : [
         {
           "code" : "creationDate",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
+          "code" : "dateValid",
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
@@ -7759,6 +9861,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
+          "code" : "dateValid",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -7770,6 +9876,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
       "property" : [
         {
           "code" : "creationDate",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
+          "code" : "dateValid",
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
@@ -7787,6 +9897,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
+          "code" : "dateValid",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -7798,6 +9912,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
       "property" : [
         {
           "code" : "creationDate",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
+          "code" : "dateValid",
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
@@ -7815,6 +9933,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
+          "code" : "dateValid",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -7826,6 +9948,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
       "property" : [
         {
           "code" : "creationDate",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
+          "code" : "dateValid",
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
@@ -7843,6 +9969,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
+          "code" : "dateValid",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -7854,6 +9984,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
       "property" : [
         {
           "code" : "creationDate",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
+          "code" : "dateValid",
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
@@ -7871,6 +10005,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
+          "code" : "dateValid",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -7882,6 +10020,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
       "property" : [
         {
           "code" : "creationDate",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
+          "code" : "dateValid",
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
@@ -7903,6 +10045,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
+          "code" : "dateValid",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -7914,6 +10060,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
       "property" : [
         {
           "code" : "creationDate",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
+          "code" : "dateValid",
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
@@ -7931,6 +10081,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
+          "code" : "dateValid",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -7942,6 +10096,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
       "property" : [
         {
           "code" : "creationDate",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
+          "code" : "dateValid",
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
@@ -7959,6 +10117,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
+          "code" : "dateValid",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -7970,6 +10132,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
       "property" : [
         {
           "code" : "creationDate",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
+          "code" : "dateValid",
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
@@ -7987,6 +10153,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
+          "code" : "dateValid",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -7998,6 +10168,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
       "property" : [
         {
           "code" : "creationDate",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
+          "code" : "dateValid",
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
@@ -8015,6 +10189,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
+          "code" : "dateValid",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -8026,6 +10204,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
       "property" : [
         {
           "code" : "creationDate",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
+          "code" : "dateValid",
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
@@ -8043,6 +10225,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
+          "code" : "dateValid",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -8054,6 +10240,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
       "property" : [
         {
           "code" : "creationDate",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
+          "code" : "dateValid",
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
@@ -8075,6 +10265,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
+          "code" : "dateValid",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -8086,6 +10280,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
       "property" : [
         {
           "code" : "creationDate",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
+          "code" : "dateValid",
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
@@ -8107,6 +10305,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
+          "code" : "dateValid",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
           "code" : "deprecationDate",
           "valueDateTime" : "2025-02-25T00:00:00+01:00"
         },
@@ -8122,6 +10324,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
       "property" : [
         {
           "code" : "creationDate",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
+          "code" : "dateValid",
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
@@ -8143,6 +10349,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
+          "code" : "dateValid",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -8154,6 +10364,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
       "property" : [
         {
           "code" : "creationDate",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
+          "code" : "dateValid",
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
@@ -8171,6 +10385,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
+          "code" : "dateValid",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -8182,6 +10400,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
       "property" : [
         {
           "code" : "creationDate",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
+          "code" : "dateValid",
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
@@ -8203,6 +10425,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
+          "code" : "dateValid",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -8214,6 +10440,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
       "property" : [
         {
           "code" : "creationDate",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
+          "code" : "dateValid",
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
@@ -8231,6 +10461,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
+          "code" : "dateValid",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -8242,6 +10476,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
       "property" : [
         {
           "code" : "creationDate",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
+          "code" : "dateValid",
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
@@ -8259,6 +10497,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
+          "code" : "dateValid",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -8270,6 +10512,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
       "property" : [
         {
           "code" : "creationDate",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
+          "code" : "dateValid",
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
@@ -8287,6 +10533,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
+          "code" : "dateValid",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -8298,6 +10548,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
       "property" : [
         {
           "code" : "creationDate",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
+          "code" : "dateValid",
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
@@ -8315,6 +10569,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
+          "code" : "dateValid",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -8326,6 +10584,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
       "property" : [
         {
           "code" : "creationDate",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
+          "code" : "dateValid",
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
@@ -8343,6 +10605,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
+          "code" : "dateValid",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -8354,6 +10620,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
       "property" : [
         {
           "code" : "creationDate",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
+          "code" : "dateValid",
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
@@ -8375,6 +10645,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
+          "code" : "dateValid",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
           "code" : "deprecationDate",
           "valueDateTime" : "2025-02-25T00:00:00+01:00"
         },
@@ -8390,6 +10664,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
       "property" : [
         {
           "code" : "creationDate",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
+          "code" : "dateValid",
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
@@ -8411,6 +10689,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
+          "code" : "dateValid",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
           "code" : "deprecationDate",
           "valueDateTime" : "2025-02-25T00:00:00+01:00"
         },
@@ -8429,6 +10711,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
+          "code" : "dateValid",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -8440,6 +10726,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
       "property" : [
         {
           "code" : "creationDate",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
+          "code" : "dateValid",
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
@@ -8457,6 +10747,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
+          "code" : "dateValid",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -8468,6 +10762,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
       "property" : [
         {
           "code" : "creationDate",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
+          "code" : "dateValid",
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
@@ -8485,6 +10783,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
+          "code" : "dateValid",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -8496,6 +10798,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
       "property" : [
         {
           "code" : "creationDate",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
+          "code" : "dateValid",
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
@@ -8517,6 +10823,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
+          "code" : "dateValid",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
           "code" : "deprecationDate",
           "valueDateTime" : "2025-02-25T00:00:00+01:00"
         },
@@ -8535,6 +10845,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
+          "code" : "dateValid",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -8546,6 +10860,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
       "property" : [
         {
           "code" : "creationDate",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
+          "code" : "dateValid",
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
@@ -8563,6 +10881,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
+          "code" : "dateValid",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -8574,6 +10896,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
       "property" : [
         {
           "code" : "creationDate",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
+          "code" : "dateValid",
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
@@ -8591,6 +10917,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
+          "code" : "dateValid",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -8602,6 +10932,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
       "property" : [
         {
           "code" : "creationDate",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
+          "code" : "dateValid",
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
@@ -8619,6 +10953,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
+          "code" : "dateValid",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -8630,6 +10968,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
       "property" : [
         {
           "code" : "creationDate",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
+          "code" : "dateValid",
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
@@ -8647,6 +10989,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
+          "code" : "dateValid",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -8658,6 +11004,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
       "property" : [
         {
           "code" : "creationDate",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
+          "code" : "dateValid",
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
@@ -8675,6 +11025,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
+          "code" : "dateValid",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -8686,6 +11040,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
       "property" : [
         {
           "code" : "creationDate",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
+          "code" : "dateValid",
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
@@ -8703,6 +11061,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
+          "code" : "dateValid",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -8714,6 +11076,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
       "property" : [
         {
           "code" : "creationDate",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
+          "code" : "dateValid",
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
@@ -8731,6 +11097,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
+          "code" : "dateValid",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -8742,6 +11112,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
       "property" : [
         {
           "code" : "creationDate",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
+          "code" : "dateValid",
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
@@ -8759,6 +11133,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
+          "code" : "dateValid",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -8770,6 +11148,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
       "property" : [
         {
           "code" : "creationDate",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
+          "code" : "dateValid",
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
@@ -8787,6 +11169,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
+          "code" : "dateValid",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -8798,6 +11184,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
       "property" : [
         {
           "code" : "creationDate",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
+          "code" : "dateValid",
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
@@ -8815,6 +11205,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
+          "code" : "dateValid",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -8826,6 +11220,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
       "property" : [
         {
           "code" : "creationDate",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
+          "code" : "dateValid",
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
@@ -8843,6 +11241,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
+          "code" : "dateValid",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -8854,6 +11256,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
       "property" : [
         {
           "code" : "creationDate",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
+          "code" : "dateValid",
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
@@ -8871,6 +11277,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
+          "code" : "dateValid",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -8882,6 +11292,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
       "property" : [
         {
           "code" : "creationDate",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
+          "code" : "dateValid",
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
@@ -8899,6 +11313,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
+          "code" : "dateValid",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -8910,6 +11328,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
       "property" : [
         {
           "code" : "creationDate",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
+          "code" : "dateValid",
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
@@ -8927,6 +11349,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
+          "code" : "dateValid",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -8938,6 +11364,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
       "property" : [
         {
           "code" : "creationDate",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
+          "code" : "dateValid",
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
@@ -8955,6 +11385,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
+          "code" : "dateValid",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -8966,6 +11400,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
       "property" : [
         {
           "code" : "creationDate",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
+          "code" : "dateValid",
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
@@ -8983,6 +11421,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
+          "code" : "dateValid",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -8994,6 +11436,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
       "property" : [
         {
           "code" : "creationDate",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
+          "code" : "dateValid",
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
@@ -9011,6 +11457,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
+          "code" : "dateValid",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -9022,6 +11472,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
       "property" : [
         {
           "code" : "creationDate",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
+          "code" : "dateValid",
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
@@ -9039,6 +11493,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
+          "code" : "dateValid",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -9050,6 +11508,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
       "property" : [
         {
           "code" : "creationDate",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
+          "code" : "dateValid",
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
@@ -9067,6 +11529,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
+          "code" : "dateValid",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -9078,6 +11544,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
       "property" : [
         {
           "code" : "creationDate",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
+          "code" : "dateValid",
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
@@ -9095,6 +11565,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
+          "code" : "dateValid",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -9109,6 +11583,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
+          "code" : "dateValid",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -9120,6 +11598,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
       "property" : [
         {
           "code" : "creationDate",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
+          "code" : "dateValid",
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
@@ -9141,6 +11623,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
+          "code" : "dateValid",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
           "code" : "deprecationDate",
           "valueDateTime" : "2025-02-25T00:00:00+01:00"
         },
@@ -9159,6 +11645,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
+          "code" : "dateValid",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -9170,6 +11660,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
       "property" : [
         {
           "code" : "creationDate",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
+          "code" : "dateValid",
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
@@ -9187,6 +11681,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
+          "code" : "dateValid",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -9198,6 +11696,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
       "property" : [
         {
           "code" : "creationDate",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
+          "code" : "dateValid",
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
@@ -9215,6 +11717,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
+          "code" : "dateValid",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -9226,6 +11732,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
       "property" : [
         {
           "code" : "creationDate",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
+          "code" : "dateValid",
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
@@ -9243,6 +11753,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
+          "code" : "dateValid",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -9254,6 +11768,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
       "property" : [
         {
           "code" : "creationDate",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
+          "code" : "dateValid",
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
@@ -9271,6 +11789,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
+          "code" : "dateValid",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -9282,6 +11804,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
       "property" : [
         {
           "code" : "creationDate",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
+          "code" : "dateValid",
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
@@ -9299,6 +11825,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
+          "code" : "dateValid",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -9310,6 +11840,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
       "property" : [
         {
           "code" : "creationDate",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
+          "code" : "dateValid",
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
@@ -9327,6 +11861,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
+          "code" : "dateValid",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -9338,6 +11876,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
       "property" : [
         {
           "code" : "creationDate",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
+          "code" : "dateValid",
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
@@ -9355,6 +11897,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
+          "code" : "dateValid",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -9366,6 +11912,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
       "property" : [
         {
           "code" : "creationDate",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
+          "code" : "dateValid",
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
@@ -9383,6 +11933,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
+          "code" : "dateValid",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -9394,6 +11948,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
       "property" : [
         {
           "code" : "creationDate",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
+          "code" : "dateValid",
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
@@ -9411,6 +11969,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
+          "code" : "dateValid",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -9422,6 +11984,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
       "property" : [
         {
           "code" : "creationDate",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
+          "code" : "dateValid",
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
@@ -9439,6 +12005,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
+          "code" : "dateValid",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -9450,6 +12020,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
       "property" : [
         {
           "code" : "creationDate",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
+          "code" : "dateValid",
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
@@ -9467,6 +12041,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
+          "code" : "dateValid",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -9478,6 +12056,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
       "property" : [
         {
           "code" : "creationDate",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
+          "code" : "dateValid",
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
@@ -9495,6 +12077,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
+          "code" : "dateValid",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -9506,6 +12092,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
       "property" : [
         {
           "code" : "creationDate",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
+          "code" : "dateValid",
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
@@ -9523,6 +12113,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
+          "code" : "dateValid",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -9534,6 +12128,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
       "property" : [
         {
           "code" : "creationDate",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
+          "code" : "dateValid",
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
@@ -9551,6 +12149,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
+          "code" : "dateValid",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -9562,6 +12164,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
       "property" : [
         {
           "code" : "creationDate",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
+          "code" : "dateValid",
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
@@ -9579,6 +12185,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
+          "code" : "dateValid",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -9590,6 +12200,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
       "property" : [
         {
           "code" : "creationDate",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
+          "code" : "dateValid",
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
@@ -9607,6 +12221,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
+          "code" : "dateValid",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -9618,6 +12236,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
       "property" : [
         {
           "code" : "creationDate",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
+          "code" : "dateValid",
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
@@ -9635,6 +12257,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
+          "code" : "dateValid",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -9646,6 +12272,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
       "property" : [
         {
           "code" : "creationDate",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
+          "code" : "dateValid",
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
@@ -9663,6 +12293,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
+          "code" : "dateValid",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -9674,6 +12308,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
       "property" : [
         {
           "code" : "creationDate",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
+          "code" : "dateValid",
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
@@ -9691,6 +12329,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
+          "code" : "dateValid",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -9702,6 +12344,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
       "property" : [
         {
           "code" : "creationDate",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
+          "code" : "dateValid",
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
@@ -9719,6 +12365,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
+          "code" : "dateValid",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -9730,6 +12380,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
       "property" : [
         {
           "code" : "creationDate",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
+          "code" : "dateValid",
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
@@ -9747,6 +12401,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
+          "code" : "dateValid",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -9758,6 +12416,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
       "property" : [
         {
           "code" : "creationDate",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
+          "code" : "dateValid",
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
@@ -9775,6 +12437,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
+          "code" : "dateValid",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -9786,6 +12452,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
       "property" : [
         {
           "code" : "creationDate",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
+          "code" : "dateValid",
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
@@ -9803,6 +12473,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
+          "code" : "dateValid",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -9814,6 +12488,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
       "property" : [
         {
           "code" : "creationDate",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
+          "code" : "dateValid",
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
@@ -9831,6 +12509,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
+          "code" : "dateValid",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -9842,6 +12524,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
       "property" : [
         {
           "code" : "creationDate",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
+          "code" : "dateValid",
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
@@ -9859,6 +12545,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
+          "code" : "dateValid",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -9870,6 +12560,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
       "property" : [
         {
           "code" : "creationDate",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
+          "code" : "dateValid",
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
@@ -9887,6 +12581,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
+          "code" : "dateValid",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -9898,6 +12596,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
       "property" : [
         {
           "code" : "creationDate",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
+          "code" : "dateValid",
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
@@ -9915,6 +12617,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
+          "code" : "dateValid",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -9926,6 +12632,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
       "property" : [
         {
           "code" : "creationDate",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
+          "code" : "dateValid",
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
@@ -9943,6 +12653,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
+          "code" : "dateValid",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -9954,6 +12668,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
       "property" : [
         {
           "code" : "creationDate",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
+          "code" : "dateValid",
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
@@ -9971,6 +12689,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
+          "code" : "dateValid",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -9982,6 +12704,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
       "property" : [
         {
           "code" : "creationDate",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
+          "code" : "dateValid",
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
@@ -9999,6 +12725,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
+          "code" : "dateValid",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -10010,6 +12740,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
       "property" : [
         {
           "code" : "creationDate",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
+          "code" : "dateValid",
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
@@ -10027,6 +12761,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
+          "code" : "dateValid",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -10038,6 +12776,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
       "property" : [
         {
           "code" : "creationDate",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
+          "code" : "dateValid",
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
@@ -10055,6 +12797,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
+          "code" : "dateValid",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -10066,6 +12812,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
       "property" : [
         {
           "code" : "creationDate",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
+          "code" : "dateValid",
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
@@ -10083,6 +12833,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
+          "code" : "dateValid",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -10094,6 +12848,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
       "property" : [
         {
           "code" : "creationDate",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
+          "code" : "dateValid",
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
@@ -10111,6 +12869,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
+          "code" : "dateValid",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -10122,6 +12884,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
       "property" : [
         {
           "code" : "creationDate",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
+          "code" : "dateValid",
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
@@ -10139,6 +12905,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
+          "code" : "dateValid",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -10150,6 +12920,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
       "property" : [
         {
           "code" : "creationDate",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
+          "code" : "dateValid",
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
@@ -10167,6 +12941,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
+          "code" : "dateValid",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -10178,6 +12956,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
       "property" : [
         {
           "code" : "creationDate",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
+          "code" : "dateValid",
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
@@ -10195,6 +12977,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
+          "code" : "dateValid",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -10206,6 +12992,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
       "property" : [
         {
           "code" : "creationDate",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
+          "code" : "dateValid",
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
@@ -10223,6 +13013,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
+          "code" : "dateValid",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -10234,6 +13028,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
       "property" : [
         {
           "code" : "creationDate",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
+          "code" : "dateValid",
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
@@ -10251,6 +13049,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
+          "code" : "dateValid",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -10262,6 +13064,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
       "property" : [
         {
           "code" : "creationDate",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
+          "code" : "dateValid",
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
@@ -10279,6 +13085,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
+          "code" : "dateValid",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -10290,6 +13100,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
       "property" : [
         {
           "code" : "creationDate",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
+          "code" : "dateValid",
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
@@ -10307,6 +13121,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
+          "code" : "dateValid",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -10318,6 +13136,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
       "property" : [
         {
           "code" : "creationDate",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
+          "code" : "dateValid",
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
@@ -10335,6 +13157,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
+          "code" : "dateValid",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -10346,6 +13172,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
       "property" : [
         {
           "code" : "creationDate",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
+          "code" : "dateValid",
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
@@ -10363,6 +13193,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
+          "code" : "dateValid",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -10374,6 +13208,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
       "property" : [
         {
           "code" : "creationDate",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
+          "code" : "dateValid",
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
@@ -10391,6 +13229,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
+          "code" : "dateValid",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -10402,6 +13244,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
       "property" : [
         {
           "code" : "creationDate",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
+          "code" : "dateValid",
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
@@ -10419,6 +13265,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
+          "code" : "dateValid",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -10430,6 +13280,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
       "property" : [
         {
           "code" : "creationDate",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
+          "code" : "dateValid",
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
@@ -10447,6 +13301,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
+          "code" : "dateValid",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -10458,6 +13316,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
       "property" : [
         {
           "code" : "creationDate",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
+          "code" : "dateValid",
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
@@ -10475,6 +13337,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
+          "code" : "dateValid",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -10486,6 +13352,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
       "property" : [
         {
           "code" : "creationDate",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
+          "code" : "dateValid",
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
@@ -10503,6 +13373,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
+          "code" : "dateValid",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -10514,6 +13388,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
       "property" : [
         {
           "code" : "creationDate",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
+          "code" : "dateValid",
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
@@ -10531,6 +13409,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
+          "code" : "dateValid",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -10542,6 +13424,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
       "property" : [
         {
           "code" : "creationDate",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
+          "code" : "dateValid",
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
@@ -10559,6 +13445,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
+          "code" : "dateValid",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -10570,6 +13460,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
       "property" : [
         {
           "code" : "creationDate",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
+          "code" : "dateValid",
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
@@ -10587,6 +13481,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
+          "code" : "dateValid",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -10598,6 +13496,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
       "property" : [
         {
           "code" : "creationDate",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
+          "code" : "dateValid",
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
@@ -10615,6 +13517,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
+          "code" : "dateValid",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -10626,6 +13532,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
       "property" : [
         {
           "code" : "creationDate",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
+          "code" : "dateValid",
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
@@ -10643,6 +13553,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
+          "code" : "dateValid",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -10654,6 +13568,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
       "property" : [
         {
           "code" : "creationDate",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
+          "code" : "dateValid",
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
@@ -10671,6 +13589,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
+          "code" : "dateValid",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -10682,6 +13604,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
       "property" : [
         {
           "code" : "creationDate",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
+          "code" : "dateValid",
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
@@ -10699,6 +13625,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
+          "code" : "dateValid",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -10710,6 +13640,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
       "property" : [
         {
           "code" : "creationDate",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
+          "code" : "dateValid",
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
@@ -10727,6 +13661,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
+          "code" : "dateValid",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -10738,6 +13676,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
       "property" : [
         {
           "code" : "creationDate",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
+          "code" : "dateValid",
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
@@ -10755,6 +13697,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
+          "code" : "dateValid",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -10766,6 +13712,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
       "property" : [
         {
           "code" : "creationDate",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
+          "code" : "dateValid",
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
@@ -10783,6 +13733,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
+          "code" : "dateValid",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -10794,6 +13748,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
       "property" : [
         {
           "code" : "creationDate",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
+          "code" : "dateValid",
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
@@ -10811,6 +13769,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
+          "code" : "dateValid",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -10822,6 +13784,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
       "property" : [
         {
           "code" : "creationDate",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
+          "code" : "dateValid",
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
@@ -10839,6 +13805,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
+          "code" : "dateValid",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -10850,6 +13820,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
       "property" : [
         {
           "code" : "creationDate",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
+          "code" : "dateValid",
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
@@ -10867,6 +13841,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
+          "code" : "dateValid",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -10878,6 +13856,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
       "property" : [
         {
           "code" : "creationDate",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
+          "code" : "dateValid",
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
@@ -10895,6 +13877,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
+          "code" : "dateValid",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -10906,6 +13892,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
       "property" : [
         {
           "code" : "creationDate",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
+          "code" : "dateValid",
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
@@ -10923,6 +13913,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
+          "code" : "dateValid",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -10934,6 +13928,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
       "property" : [
         {
           "code" : "creationDate",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
+          "code" : "dateValid",
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
@@ -10951,6 +13949,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
+          "code" : "dateValid",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -10962,6 +13964,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
       "property" : [
         {
           "code" : "creationDate",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
+          "code" : "dateValid",
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
@@ -10979,6 +13985,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
+          "code" : "dateValid",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -10990,6 +14000,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
       "property" : [
         {
           "code" : "creationDate",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
+          "code" : "dateValid",
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
@@ -11007,6 +14021,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
+          "code" : "dateValid",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -11018,6 +14036,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
       "property" : [
         {
           "code" : "creationDate",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
+          "code" : "dateValid",
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
@@ -11035,6 +14057,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
+          "code" : "dateValid",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -11046,6 +14072,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
       "property" : [
         {
           "code" : "creationDate",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
+          "code" : "dateValid",
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
@@ -11063,6 +14093,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
+          "code" : "dateValid",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -11077,6 +14111,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
+          "code" : "dateValid",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -11088,6 +14126,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
       "property" : [
         {
           "code" : "creationDate",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
+          "code" : "dateValid",
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
@@ -11109,6 +14151,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
+          "code" : "dateValid",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
           "code" : "deprecationDate",
           "valueDateTime" : "2025-02-25T00:00:00+01:00"
         },
@@ -11124,6 +14170,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
       "property" : [
         {
           "code" : "creationDate",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
+          "code" : "dateValid",
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
@@ -11145,6 +14195,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
+          "code" : "dateValid",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
           "code" : "deprecationDate",
           "valueDateTime" : "2025-02-25T00:00:00+01:00"
         },
@@ -11163,6 +14217,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
+          "code" : "dateValid",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -11174,6 +14232,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
       "property" : [
         {
           "code" : "creationDate",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
+          "code" : "dateValid",
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
@@ -11191,6 +14253,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
+          "code" : "dateValid",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -11202,6 +14268,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
       "property" : [
         {
           "code" : "creationDate",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
+          "code" : "dateValid",
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
@@ -11219,6 +14289,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
+          "code" : "dateValid",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -11230,6 +14304,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
       "property" : [
         {
           "code" : "creationDate",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
+          "code" : "dateValid",
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
@@ -11247,6 +14325,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
+          "code" : "dateValid",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -11258,6 +14340,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
       "property" : [
         {
           "code" : "creationDate",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
+          "code" : "dateValid",
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
@@ -11275,6 +14361,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
+          "code" : "dateValid",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -11286,6 +14376,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
       "property" : [
         {
           "code" : "creationDate",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
+          "code" : "dateValid",
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
@@ -11303,6 +14397,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
+          "code" : "dateValid",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -11314,6 +14412,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
       "property" : [
         {
           "code" : "creationDate",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
+          "code" : "dateValid",
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
@@ -11331,6 +14433,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
+          "code" : "dateValid",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -11342,6 +14448,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
       "property" : [
         {
           "code" : "creationDate",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
+          "code" : "dateValid",
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
@@ -11359,6 +14469,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
+          "code" : "dateValid",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -11370,6 +14484,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
       "property" : [
         {
           "code" : "creationDate",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
+          "code" : "dateValid",
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
@@ -11391,6 +14509,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
+          "code" : "dateValid",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -11402,6 +14524,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
       "property" : [
         {
           "code" : "creationDate",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
+          "code" : "dateValid",
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
@@ -11419,6 +14545,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
+          "code" : "dateValid",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -11430,6 +14560,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
       "property" : [
         {
           "code" : "creationDate",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
+          "code" : "dateValid",
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
@@ -11447,6 +14581,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
+          "code" : "dateValid",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -11458,6 +14596,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
       "property" : [
         {
           "code" : "creationDate",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
+          "code" : "dateValid",
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
@@ -11475,6 +14617,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
+          "code" : "dateValid",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -11486,6 +14632,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
       "property" : [
         {
           "code" : "creationDate",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
+          "code" : "dateValid",
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
@@ -11503,6 +14653,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
+          "code" : "dateValid",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -11514,6 +14668,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
       "property" : [
         {
           "code" : "creationDate",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
+          "code" : "dateValid",
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
@@ -11531,6 +14689,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
+          "code" : "dateValid",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -11542,6 +14704,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
       "property" : [
         {
           "code" : "creationDate",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
+          "code" : "dateValid",
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
@@ -11559,6 +14725,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
+          "code" : "dateValid",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -11570,6 +14740,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
       "property" : [
         {
           "code" : "creationDate",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
+          "code" : "dateValid",
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
@@ -11587,6 +14761,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
+          "code" : "dateValid",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -11598,6 +14776,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
       "property" : [
         {
           "code" : "creationDate",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
+          "code" : "dateValid",
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
@@ -11615,6 +14797,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
+          "code" : "dateValid",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -11626,6 +14812,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
       "property" : [
         {
           "code" : "creationDate",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
+          "code" : "dateValid",
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
@@ -11643,6 +14833,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
+          "code" : "dateValid",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -11654,6 +14848,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
       "property" : [
         {
           "code" : "creationDate",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
+          "code" : "dateValid",
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
@@ -11671,6 +14869,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
+          "code" : "dateValid",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -11682,6 +14884,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
       "property" : [
         {
           "code" : "creationDate",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
+          "code" : "dateValid",
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
@@ -11699,6 +14905,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
+          "code" : "dateValid",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -11710,6 +14920,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
       "property" : [
         {
           "code" : "creationDate",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
+          "code" : "dateValid",
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
@@ -11727,6 +14941,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
+          "code" : "dateValid",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -11741,6 +14959,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
+          "code" : "dateValid",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -11752,6 +14974,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
       "property" : [
         {
           "code" : "creationDate",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
+          "code" : "dateValid",
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
@@ -11773,6 +14999,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
+          "code" : "dateValid",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
           "code" : "deprecationDate",
           "valueDateTime" : "2025-05-06T00:00:00+01:00"
         },
@@ -11788,6 +15018,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
       "property" : [
         {
           "code" : "creationDate",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
+          "code" : "dateValid",
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
@@ -11809,6 +15043,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
+          "code" : "dateValid",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
           "code" : "deprecationDate",
           "valueDateTime" : "2025-05-06T00:00:00+01:00"
         },
@@ -11824,6 +15062,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
       "property" : [
         {
           "code" : "creationDate",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
+          "code" : "dateValid",
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
@@ -11845,6 +15087,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
+          "code" : "dateValid",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -11856,6 +15102,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
       "property" : [
         {
           "code" : "creationDate",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
+          "code" : "dateValid",
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
@@ -11873,6 +15123,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
+          "code" : "dateValid",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -11884,6 +15138,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
       "property" : [
         {
           "code" : "creationDate",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
+          "code" : "dateValid",
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
@@ -11901,6 +15159,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
+          "code" : "dateValid",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -11912,6 +15174,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
       "property" : [
         {
           "code" : "creationDate",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
+          "code" : "dateValid",
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
@@ -11929,6 +15195,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
+          "code" : "dateValid",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -11940,6 +15210,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
       "property" : [
         {
           "code" : "creationDate",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
+          "code" : "dateValid",
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
@@ -11957,6 +15231,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
+          "code" : "dateValid",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -11968,6 +15246,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
       "property" : [
         {
           "code" : "creationDate",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
+          "code" : "dateValid",
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
@@ -11985,6 +15267,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
+          "code" : "dateValid",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -11996,6 +15282,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
       "property" : [
         {
           "code" : "creationDate",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
+          "code" : "dateValid",
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
@@ -12013,6 +15303,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
+          "code" : "dateValid",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -12024,6 +15318,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
       "property" : [
         {
           "code" : "creationDate",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
+          "code" : "dateValid",
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
@@ -12041,6 +15339,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
+          "code" : "dateValid",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -12052,6 +15354,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
       "property" : [
         {
           "code" : "creationDate",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
+          "code" : "dateValid",
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
@@ -12073,6 +15379,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
+          "code" : "dateValid",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -12084,6 +15394,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
       "property" : [
         {
           "code" : "creationDate",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
+          "code" : "dateValid",
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
@@ -12101,6 +15415,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
+          "code" : "dateValid",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -12112,6 +15430,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
       "property" : [
         {
           "code" : "creationDate",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
+          "code" : "dateValid",
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
@@ -12129,6 +15451,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
+          "code" : "dateValid",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -12140,6 +15466,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
       "property" : [
         {
           "code" : "creationDate",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
+          "code" : "dateValid",
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
@@ -12157,6 +15487,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
+          "code" : "dateValid",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -12168,6 +15502,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
       "property" : [
         {
           "code" : "creationDate",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
+          "code" : "dateValid",
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
@@ -12185,6 +15523,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
+          "code" : "dateValid",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -12196,6 +15538,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
       "property" : [
         {
           "code" : "creationDate",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
+          "code" : "dateValid",
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
@@ -12213,6 +15559,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
+          "code" : "dateValid",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -12224,6 +15574,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
       "property" : [
         {
           "code" : "creationDate",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
+          "code" : "dateValid",
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
@@ -12241,6 +15595,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
+          "code" : "dateValid",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -12255,6 +15613,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
+          "code" : "dateValid",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -12266,6 +15628,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
       "property" : [
         {
           "code" : "creationDate",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
+          "code" : "dateValid",
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
@@ -12287,6 +15653,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
+          "code" : "dateValid",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -12298,6 +15668,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
       "property" : [
         {
           "code" : "creationDate",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
+          "code" : "dateValid",
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
@@ -12315,6 +15689,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
+          "code" : "dateValid",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -12326,6 +15704,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
       "property" : [
         {
           "code" : "creationDate",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
+          "code" : "dateValid",
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
@@ -12343,6 +15725,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
+          "code" : "dateValid",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -12354,6 +15740,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
       "property" : [
         {
           "code" : "creationDate",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
+          "code" : "dateValid",
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
@@ -12371,6 +15761,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
+          "code" : "dateValid",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -12382,6 +15776,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
       "property" : [
         {
           "code" : "creationDate",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
+          "code" : "dateValid",
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
@@ -12399,6 +15797,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
+          "code" : "dateValid",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -12410,6 +15812,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
       "property" : [
         {
           "code" : "creationDate",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
+          "code" : "dateValid",
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
@@ -12427,6 +15833,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
+          "code" : "dateValid",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -12438,6 +15848,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
       "property" : [
         {
           "code" : "creationDate",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
+          "code" : "dateValid",
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
@@ -12455,6 +15869,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
+          "code" : "dateValid",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -12466,6 +15884,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
       "property" : [
         {
           "code" : "creationDate",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
+          "code" : "dateValid",
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
@@ -12483,6 +15905,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
+          "code" : "dateValid",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -12494,6 +15920,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
       "property" : [
         {
           "code" : "creationDate",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
+          "code" : "dateValid",
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
@@ -12511,6 +15941,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
+          "code" : "dateValid",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -12522,6 +15956,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
       "property" : [
         {
           "code" : "creationDate",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
+          "code" : "dateValid",
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
@@ -12539,6 +15977,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
+          "code" : "dateValid",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -12550,6 +15992,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
       "property" : [
         {
           "code" : "creationDate",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
+          "code" : "dateValid",
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
@@ -12567,6 +16013,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
+          "code" : "dateValid",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -12578,6 +16028,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
       "property" : [
         {
           "code" : "creationDate",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
+          "code" : "dateValid",
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
@@ -12595,6 +16049,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
+          "code" : "dateValid",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -12606,6 +16064,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
       "property" : [
         {
           "code" : "creationDate",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
+          "code" : "dateValid",
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
@@ -12623,6 +16085,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
+          "code" : "dateValid",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -12634,6 +16100,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
       "property" : [
         {
           "code" : "creationDate",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
+          "code" : "dateValid",
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
@@ -12651,6 +16121,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
+          "code" : "dateValid",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -12662,6 +16136,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
       "property" : [
         {
           "code" : "creationDate",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
+          "code" : "dateValid",
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
@@ -12679,6 +16157,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
+          "code" : "dateValid",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -12690,6 +16172,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
       "property" : [
         {
           "code" : "creationDate",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
+          "code" : "dateValid",
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
@@ -12707,6 +16193,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
+          "code" : "dateValid",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -12718,6 +16208,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
       "property" : [
         {
           "code" : "creationDate",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
+          "code" : "dateValid",
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
@@ -12735,6 +16229,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
+          "code" : "dateValid",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -12746,6 +16244,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
       "property" : [
         {
           "code" : "creationDate",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
+          "code" : "dateValid",
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
@@ -12763,6 +16265,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
+          "code" : "dateValid",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -12774,6 +16280,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
       "property" : [
         {
           "code" : "creationDate",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
+          "code" : "dateValid",
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
@@ -12791,6 +16301,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
+          "code" : "dateValid",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -12802,6 +16316,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
       "property" : [
         {
           "code" : "creationDate",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
+          "code" : "dateValid",
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
@@ -12819,6 +16337,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
+          "code" : "dateValid",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -12830,6 +16352,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
       "property" : [
         {
           "code" : "creationDate",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
+          "code" : "dateValid",
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
@@ -12847,6 +16373,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
+          "code" : "dateValid",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -12858,6 +16388,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
       "property" : [
         {
           "code" : "creationDate",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
+          "code" : "dateValid",
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
@@ -12875,6 +16409,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
+          "code" : "dateValid",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -12886,6 +16424,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
       "property" : [
         {
           "code" : "creationDate",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
+          "code" : "dateValid",
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
@@ -12903,6 +16445,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
+          "code" : "dateValid",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -12914,6 +16460,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
       "property" : [
         {
           "code" : "creationDate",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
+          "code" : "dateValid",
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
@@ -12931,6 +16481,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
+          "code" : "dateValid",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -12942,6 +16496,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
       "property" : [
         {
           "code" : "creationDate",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
+          "code" : "dateValid",
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
@@ -12959,6 +16517,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
+          "code" : "dateValid",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -12970,6 +16532,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
       "property" : [
         {
           "code" : "creationDate",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
+          "code" : "dateValid",
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
@@ -12987,6 +16553,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
+          "code" : "dateValid",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -12998,6 +16568,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
       "property" : [
         {
           "code" : "creationDate",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
+          "code" : "dateValid",
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
@@ -13015,6 +16589,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
+          "code" : "dateValid",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -13026,6 +16604,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
       "property" : [
         {
           "code" : "creationDate",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
+          "code" : "dateValid",
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
@@ -13043,6 +16625,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
+          "code" : "dateValid",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -13054,6 +16640,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
       "property" : [
         {
           "code" : "creationDate",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
+          "code" : "dateValid",
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
@@ -13071,6 +16661,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
+          "code" : "dateValid",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -13082,6 +16676,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
       "property" : [
         {
           "code" : "creationDate",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
+          "code" : "dateValid",
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
@@ -13099,6 +16697,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
+          "code" : "dateValid",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -13110,6 +16712,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
       "property" : [
         {
           "code" : "creationDate",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
+          "code" : "dateValid",
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
@@ -13127,6 +16733,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
+          "code" : "dateValid",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -13138,6 +16748,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
       "property" : [
         {
           "code" : "creationDate",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
+          "code" : "dateValid",
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
@@ -13155,6 +16769,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
+          "code" : "dateValid",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -13166,6 +16784,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
       "property" : [
         {
           "code" : "creationDate",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
+          "code" : "dateValid",
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
@@ -13183,6 +16805,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
+          "code" : "dateValid",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -13194,6 +16820,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
       "property" : [
         {
           "code" : "creationDate",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
+          "code" : "dateValid",
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
@@ -13211,6 +16841,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
+          "code" : "dateValid",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -13222,6 +16856,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
       "property" : [
         {
           "code" : "creationDate",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
+          "code" : "dateValid",
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
@@ -13239,6 +16877,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
+          "code" : "dateValid",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -13250,6 +16892,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
       "property" : [
         {
           "code" : "creationDate",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
+          "code" : "dateValid",
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
@@ -13267,6 +16913,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
+          "code" : "dateValid",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -13278,6 +16928,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
       "property" : [
         {
           "code" : "creationDate",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
+          "code" : "dateValid",
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
@@ -13295,6 +16949,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
+          "code" : "dateValid",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -13306,6 +16964,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
       "property" : [
         {
           "code" : "creationDate",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
+          "code" : "dateValid",
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
@@ -13323,6 +16985,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
+          "code" : "dateValid",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -13334,6 +17000,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
       "property" : [
         {
           "code" : "creationDate",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
+          "code" : "dateValid",
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
@@ -13351,6 +17021,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
+          "code" : "dateValid",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -13362,6 +17036,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
       "property" : [
         {
           "code" : "creationDate",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
+          "code" : "dateValid",
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
@@ -13379,6 +17057,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
+          "code" : "dateValid",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -13390,6 +17072,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
       "property" : [
         {
           "code" : "creationDate",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
+          "code" : "dateValid",
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
@@ -13407,6 +17093,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
+          "code" : "dateValid",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -13418,6 +17108,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
       "property" : [
         {
           "code" : "creationDate",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
+          "code" : "dateValid",
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
@@ -13435,6 +17129,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
+          "code" : "dateValid",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -13446,6 +17144,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
       "property" : [
         {
           "code" : "creationDate",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
+          "code" : "dateValid",
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
@@ -13463,6 +17165,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
+          "code" : "dateValid",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -13474,6 +17180,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
       "property" : [
         {
           "code" : "creationDate",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
+          "code" : "dateValid",
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
@@ -13491,6 +17201,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
+          "code" : "dateValid",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -13502,6 +17216,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
       "property" : [
         {
           "code" : "creationDate",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
+          "code" : "dateValid",
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
@@ -13519,6 +17237,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
+          "code" : "dateValid",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -13530,6 +17252,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
       "property" : [
         {
           "code" : "creationDate",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
+          "code" : "dateValid",
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
@@ -13547,6 +17273,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
+          "code" : "dateValid",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -13558,6 +17288,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
       "property" : [
         {
           "code" : "creationDate",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
+          "code" : "dateValid",
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
@@ -13575,6 +17309,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
+          "code" : "dateValid",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -13586,6 +17324,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
       "property" : [
         {
           "code" : "creationDate",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
+          "code" : "dateValid",
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
@@ -13603,6 +17345,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
+          "code" : "dateValid",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -13614,6 +17360,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
       "property" : [
         {
           "code" : "creationDate",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
+          "code" : "dateValid",
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
@@ -13631,6 +17381,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
+          "code" : "dateValid",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -13642,6 +17396,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
       "property" : [
         {
           "code" : "creationDate",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
+          "code" : "dateValid",
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
@@ -13659,6 +17417,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
+          "code" : "dateValid",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -13670,6 +17432,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
       "property" : [
         {
           "code" : "creationDate",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
+          "code" : "dateValid",
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
@@ -13687,6 +17453,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
+          "code" : "dateValid",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -13698,6 +17468,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
       "property" : [
         {
           "code" : "creationDate",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
+          "code" : "dateValid",
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
@@ -13715,6 +17489,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
+          "code" : "dateValid",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -13726,6 +17504,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
       "property" : [
         {
           "code" : "creationDate",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
+          "code" : "dateValid",
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
@@ -13743,6 +17525,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
+          "code" : "dateValid",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -13754,6 +17540,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
       "property" : [
         {
           "code" : "creationDate",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
+          "code" : "dateValid",
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
@@ -13771,6 +17561,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
+          "code" : "dateValid",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -13782,6 +17576,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
       "property" : [
         {
           "code" : "creationDate",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
+          "code" : "dateValid",
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
@@ -13799,6 +17597,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
+          "code" : "dateValid",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -13810,6 +17612,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
       "property" : [
         {
           "code" : "creationDate",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
+          "code" : "dateValid",
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
@@ -13827,6 +17633,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
+          "code" : "dateValid",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -13838,6 +17648,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
       "property" : [
         {
           "code" : "creationDate",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
+          "code" : "dateValid",
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
@@ -13855,6 +17669,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
+          "code" : "dateValid",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -13866,6 +17684,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
       "property" : [
         {
           "code" : "creationDate",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
+          "code" : "dateValid",
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
@@ -13883,6 +17705,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
+          "code" : "dateValid",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -13894,6 +17720,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
       "property" : [
         {
           "code" : "creationDate",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
+          "code" : "dateValid",
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
@@ -13911,6 +17741,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
+          "code" : "dateValid",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -13922,6 +17756,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
       "property" : [
         {
           "code" : "creationDate",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
+          "code" : "dateValid",
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
@@ -13939,6 +17777,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
+          "code" : "dateValid",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -13950,6 +17792,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
       "property" : [
         {
           "code" : "creationDate",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
+          "code" : "dateValid",
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
@@ -13967,6 +17813,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
+          "code" : "dateValid",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -13978,6 +17828,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
       "property" : [
         {
           "code" : "creationDate",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
+          "code" : "dateValid",
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
@@ -13995,6 +17849,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
+          "code" : "dateValid",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -14006,6 +17864,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
       "property" : [
         {
           "code" : "creationDate",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
+          "code" : "dateValid",
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
@@ -14023,6 +17885,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
+          "code" : "dateValid",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -14034,6 +17900,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
       "property" : [
         {
           "code" : "creationDate",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
+          "code" : "dateValid",
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
@@ -14051,6 +17921,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
+          "code" : "dateValid",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -14062,6 +17936,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
       "property" : [
         {
           "code" : "creationDate",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
+          "code" : "dateValid",
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
@@ -14079,6 +17957,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
+          "code" : "dateValid",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -14090,6 +17972,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
       "property" : [
         {
           "code" : "creationDate",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
+          "code" : "dateValid",
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
@@ -14107,6 +17993,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
+          "code" : "dateValid",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -14118,6 +18008,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
       "property" : [
         {
           "code" : "creationDate",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
+          "code" : "dateValid",
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
@@ -14135,6 +18029,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
+          "code" : "dateValid",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -14146,6 +18044,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
       "property" : [
         {
           "code" : "creationDate",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
+          "code" : "dateValid",
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
@@ -14163,6 +18065,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
+          "code" : "dateValid",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -14174,6 +18080,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
       "property" : [
         {
           "code" : "creationDate",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
+          "code" : "dateValid",
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
@@ -14191,6 +18101,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
+          "code" : "dateValid",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -14202,6 +18116,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
       "property" : [
         {
           "code" : "creationDate",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
+          "code" : "dateValid",
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
@@ -14219,6 +18137,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
+          "code" : "dateValid",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -14230,6 +18152,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
       "property" : [
         {
           "code" : "creationDate",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
+          "code" : "dateValid",
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
@@ -14247,6 +18173,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
+          "code" : "dateValid",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -14258,6 +18188,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
       "property" : [
         {
           "code" : "creationDate",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
+          "code" : "dateValid",
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
@@ -14275,6 +18209,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
+          "code" : "dateValid",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -14286,6 +18224,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
       "property" : [
         {
           "code" : "creationDate",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
+          "code" : "dateValid",
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
@@ -14303,6 +18245,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
+          "code" : "dateValid",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -14314,6 +18260,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
       "property" : [
         {
           "code" : "creationDate",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
+          "code" : "dateValid",
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
@@ -14331,6 +18281,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
+          "code" : "dateValid",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -14342,6 +18296,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
       "property" : [
         {
           "code" : "creationDate",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
+          "code" : "dateValid",
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
@@ -14359,6 +18317,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
+          "code" : "dateValid",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -14370,6 +18332,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
       "property" : [
         {
           "code" : "creationDate",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
+          "code" : "dateValid",
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
@@ -14387,6 +18353,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
+          "code" : "dateValid",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -14398,6 +18368,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
       "property" : [
         {
           "code" : "creationDate",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
+          "code" : "dateValid",
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
@@ -14415,6 +18389,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
+          "code" : "dateValid",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -14426,6 +18404,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
       "property" : [
         {
           "code" : "creationDate",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
+          "code" : "dateValid",
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
@@ -14443,6 +18425,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
+          "code" : "dateValid",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -14454,6 +18440,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
       "property" : [
         {
           "code" : "creationDate",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
+          "code" : "dateValid",
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
@@ -14471,6 +18461,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
+          "code" : "dateValid",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -14482,6 +18476,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
       "property" : [
         {
           "code" : "creationDate",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
+          "code" : "dateValid",
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
@@ -14499,6 +18497,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
+          "code" : "dateValid",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -14510,6 +18512,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
       "property" : [
         {
           "code" : "creationDate",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
+          "code" : "dateValid",
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
@@ -14527,6 +18533,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
+          "code" : "dateValid",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -14538,6 +18548,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
       "property" : [
         {
           "code" : "creationDate",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
+          "code" : "dateValid",
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
@@ -14555,6 +18569,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
+          "code" : "dateValid",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -14566,6 +18584,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
       "property" : [
         {
           "code" : "creationDate",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
+          "code" : "dateValid",
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
@@ -14583,6 +18605,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
+          "code" : "dateValid",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -14594,6 +18620,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
       "property" : [
         {
           "code" : "creationDate",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
+          "code" : "dateValid",
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
@@ -14611,6 +18641,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
+          "code" : "dateValid",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -14622,6 +18656,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
       "property" : [
         {
           "code" : "creationDate",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
+          "code" : "dateValid",
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
@@ -14639,6 +18677,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
+          "code" : "dateValid",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -14650,6 +18692,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
       "property" : [
         {
           "code" : "creationDate",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
+          "code" : "dateValid",
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
@@ -14667,6 +18713,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
+          "code" : "dateValid",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -14678,6 +18728,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
       "property" : [
         {
           "code" : "creationDate",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
+          "code" : "dateValid",
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
@@ -14695,6 +18749,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
+          "code" : "dateValid",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -14706,6 +18764,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
       "property" : [
         {
           "code" : "creationDate",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
+          "code" : "dateValid",
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
@@ -14723,6 +18785,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
+          "code" : "dateValid",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -14734,6 +18800,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
       "property" : [
         {
           "code" : "creationDate",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
+          "code" : "dateValid",
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
@@ -14751,6 +18821,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
+          "code" : "dateValid",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -14762,6 +18836,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
       "property" : [
         {
           "code" : "creationDate",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
+          "code" : "dateValid",
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
@@ -14779,6 +18857,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
+          "code" : "dateValid",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -14790,6 +18872,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
       "property" : [
         {
           "code" : "creationDate",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
+          "code" : "dateValid",
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
@@ -14807,6 +18893,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
+          "code" : "dateValid",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -14818,6 +18908,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
       "property" : [
         {
           "code" : "creationDate",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
+          "code" : "dateValid",
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
@@ -14835,6 +18929,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
+          "code" : "dateValid",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -14846,6 +18944,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
       "property" : [
         {
           "code" : "creationDate",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
+          "code" : "dateValid",
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
@@ -14863,6 +18965,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
+          "code" : "dateValid",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -14874,6 +18980,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
       "property" : [
         {
           "code" : "creationDate",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
+          "code" : "dateValid",
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
@@ -14891,6 +19001,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
+          "code" : "dateValid",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -14902,6 +19016,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
       "property" : [
         {
           "code" : "creationDate",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
+          "code" : "dateValid",
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
@@ -14919,6 +19037,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
+          "code" : "dateValid",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -14930,6 +19052,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
       "property" : [
         {
           "code" : "creationDate",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
+          "code" : "dateValid",
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
@@ -14947,6 +19073,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
+          "code" : "dateValid",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -14958,6 +19088,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
       "property" : [
         {
           "code" : "creationDate",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
+          "code" : "dateValid",
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
@@ -14975,6 +19109,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
+          "code" : "dateValid",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -14986,6 +19124,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
       "property" : [
         {
           "code" : "creationDate",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
+          "code" : "dateValid",
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
@@ -15003,6 +19145,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
+          "code" : "dateValid",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -15014,6 +19160,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
       "property" : [
         {
           "code" : "creationDate",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
+          "code" : "dateValid",
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
@@ -15031,6 +19181,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
+          "code" : "dateValid",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -15042,6 +19196,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
       "property" : [
         {
           "code" : "creationDate",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
+          "code" : "dateValid",
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
@@ -15059,6 +19217,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
+          "code" : "dateValid",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -15070,6 +19232,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
       "property" : [
         {
           "code" : "creationDate",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
+          "code" : "dateValid",
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
@@ -15087,6 +19253,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
+          "code" : "dateValid",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -15098,6 +19268,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
       "property" : [
         {
           "code" : "creationDate",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
+          "code" : "dateValid",
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
@@ -15115,6 +19289,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
+          "code" : "dateValid",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -15126,6 +19304,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
       "property" : [
         {
           "code" : "creationDate",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
+          "code" : "dateValid",
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
@@ -15143,6 +19325,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
+          "code" : "dateValid",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -15154,6 +19340,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
       "property" : [
         {
           "code" : "creationDate",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
+          "code" : "dateValid",
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
@@ -15171,6 +19361,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
+          "code" : "dateValid",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -15182,6 +19376,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
       "property" : [
         {
           "code" : "creationDate",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
+          "code" : "dateValid",
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
@@ -15199,6 +19397,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
+          "code" : "dateValid",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -15210,6 +19412,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
       "property" : [
         {
           "code" : "creationDate",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
+          "code" : "dateValid",
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
@@ -15227,6 +19433,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
+          "code" : "dateValid",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -15238,6 +19448,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
       "property" : [
         {
           "code" : "creationDate",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
+          "code" : "dateValid",
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
@@ -15255,6 +19469,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
+          "code" : "dateValid",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -15266,6 +19484,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
       "property" : [
         {
           "code" : "creationDate",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
+          "code" : "dateValid",
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
@@ -15283,6 +19505,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
+          "code" : "dateValid",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -15294,6 +19520,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
       "property" : [
         {
           "code" : "creationDate",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
+          "code" : "dateValid",
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
@@ -15311,6 +19541,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
+          "code" : "dateValid",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -15322,6 +19556,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
       "property" : [
         {
           "code" : "creationDate",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
+          "code" : "dateValid",
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
@@ -15339,6 +19577,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
+          "code" : "dateValid",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -15350,6 +19592,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
       "property" : [
         {
           "code" : "creationDate",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
+          "code" : "dateValid",
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
@@ -15367,6 +19613,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
+          "code" : "dateValid",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -15378,6 +19628,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
       "property" : [
         {
           "code" : "creationDate",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
+          "code" : "dateValid",
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
@@ -15395,6 +19649,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
+          "code" : "dateValid",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -15406,6 +19664,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
       "property" : [
         {
           "code" : "creationDate",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
+          "code" : "dateValid",
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
@@ -15423,6 +19685,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
+          "code" : "dateValid",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -15434,6 +19700,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
       "property" : [
         {
           "code" : "creationDate",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
+          "code" : "dateValid",
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
@@ -15451,6 +19721,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
+          "code" : "dateValid",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -15462,6 +19736,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
       "property" : [
         {
           "code" : "creationDate",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
+          "code" : "dateValid",
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
@@ -15479,6 +19757,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
+          "code" : "dateValid",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -15490,6 +19772,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
       "property" : [
         {
           "code" : "creationDate",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
+          "code" : "dateValid",
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
@@ -15507,6 +19793,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
+          "code" : "dateValid",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -15518,6 +19808,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
       "property" : [
         {
           "code" : "creationDate",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
+          "code" : "dateValid",
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
@@ -15535,6 +19829,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
+          "code" : "dateValid",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -15546,6 +19844,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
       "property" : [
         {
           "code" : "creationDate",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
+          "code" : "dateValid",
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
@@ -15563,6 +19865,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
+          "code" : "dateValid",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -15574,6 +19880,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
       "property" : [
         {
           "code" : "creationDate",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
+          "code" : "dateValid",
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
@@ -15591,6 +19901,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
+          "code" : "dateValid",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -15602,6 +19916,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
       "property" : [
         {
           "code" : "creationDate",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
+          "code" : "dateValid",
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
@@ -15619,6 +19937,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
+          "code" : "dateValid",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -15630,6 +19952,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
       "property" : [
         {
           "code" : "creationDate",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
+          "code" : "dateValid",
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
@@ -15647,6 +19973,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
+          "code" : "dateValid",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -15658,6 +19988,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
       "property" : [
         {
           "code" : "creationDate",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
+          "code" : "dateValid",
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
@@ -15675,6 +20009,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
+          "code" : "dateValid",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -15686,6 +20024,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
       "property" : [
         {
           "code" : "creationDate",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
+          "code" : "dateValid",
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
@@ -15703,6 +20045,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
+          "code" : "dateValid",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -15714,6 +20060,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
       "property" : [
         {
           "code" : "creationDate",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
+          "code" : "dateValid",
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
@@ -15731,6 +20081,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
+          "code" : "dateValid",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -15742,6 +20096,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
       "property" : [
         {
           "code" : "creationDate",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
+          "code" : "dateValid",
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
@@ -15759,6 +20117,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
+          "code" : "dateValid",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -15770,6 +20132,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
       "property" : [
         {
           "code" : "creationDate",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
+          "code" : "dateValid",
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
@@ -15787,6 +20153,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
+          "code" : "dateValid",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -15798,6 +20168,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
       "property" : [
         {
           "code" : "creationDate",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
+          "code" : "dateValid",
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
@@ -15815,6 +20189,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
+          "code" : "dateValid",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -15826,6 +20204,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
       "property" : [
         {
           "code" : "creationDate",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
+          "code" : "dateValid",
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
@@ -15843,6 +20225,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
+          "code" : "dateValid",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -15854,6 +20240,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
       "property" : [
         {
           "code" : "creationDate",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
+          "code" : "dateValid",
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
@@ -15871,6 +20261,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
+          "code" : "dateValid",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -15882,6 +20276,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
       "property" : [
         {
           "code" : "creationDate",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
+          "code" : "dateValid",
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
@@ -15899,6 +20297,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
+          "code" : "dateValid",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -15910,6 +20312,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
       "property" : [
         {
           "code" : "creationDate",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
+          "code" : "dateValid",
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
@@ -15927,6 +20333,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
+          "code" : "dateValid",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -15938,6 +20348,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
       "property" : [
         {
           "code" : "creationDate",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
+          "code" : "dateValid",
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
@@ -15955,6 +20369,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
+          "code" : "dateValid",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -15966,6 +20384,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
       "property" : [
         {
           "code" : "creationDate",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
+          "code" : "dateValid",
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
@@ -15983,6 +20405,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
+          "code" : "dateValid",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -15994,6 +20420,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
       "property" : [
         {
           "code" : "creationDate",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
+          "code" : "dateValid",
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
@@ -16011,6 +20441,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
+          "code" : "dateValid",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -16022,6 +20456,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
       "property" : [
         {
           "code" : "creationDate",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
+          "code" : "dateValid",
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
@@ -16039,6 +20477,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
+          "code" : "dateValid",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -16050,6 +20492,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
       "property" : [
         {
           "code" : "creationDate",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
+          "code" : "dateValid",
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
@@ -16067,6 +20513,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
+          "code" : "dateValid",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -16078,6 +20528,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
       "property" : [
         {
           "code" : "creationDate",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
+          "code" : "dateValid",
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
@@ -16095,6 +20549,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
+          "code" : "dateValid",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -16106,6 +20564,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
       "property" : [
         {
           "code" : "creationDate",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
+          "code" : "dateValid",
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
@@ -16123,6 +20585,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
+          "code" : "dateValid",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -16134,6 +20600,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
       "property" : [
         {
           "code" : "creationDate",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
+          "code" : "dateValid",
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
@@ -16151,6 +20621,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
+          "code" : "dateValid",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -16162,6 +20636,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
       "property" : [
         {
           "code" : "creationDate",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
+          "code" : "dateValid",
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
@@ -16179,6 +20657,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
+          "code" : "dateValid",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -16190,6 +20672,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
       "property" : [
         {
           "code" : "creationDate",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
+          "code" : "dateValid",
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
@@ -16207,6 +20693,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
+          "code" : "dateValid",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -16218,6 +20708,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
       "property" : [
         {
           "code" : "creationDate",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
+          "code" : "dateValid",
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
@@ -16235,6 +20729,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
+          "code" : "dateValid",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -16246,6 +20744,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
       "property" : [
         {
           "code" : "creationDate",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
+          "code" : "dateValid",
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
@@ -16263,6 +20765,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
+          "code" : "dateValid",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -16274,6 +20780,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
       "property" : [
         {
           "code" : "creationDate",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
+          "code" : "dateValid",
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
@@ -16291,6 +20801,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
+          "code" : "dateValid",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -16302,6 +20816,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
       "property" : [
         {
           "code" : "creationDate",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
+          "code" : "dateValid",
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
@@ -16319,6 +20837,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
+          "code" : "dateValid",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -16330,6 +20852,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
       "property" : [
         {
           "code" : "creationDate",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
+          "code" : "dateValid",
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
@@ -16347,6 +20873,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
+          "code" : "dateValid",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -16358,6 +20888,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
       "property" : [
         {
           "code" : "creationDate",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
+          "code" : "dateValid",
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
@@ -16375,6 +20909,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
+          "code" : "dateValid",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -16386,6 +20924,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
       "property" : [
         {
           "code" : "creationDate",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
+          "code" : "dateValid",
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
@@ -16403,6 +20945,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
+          "code" : "dateValid",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -16414,6 +20960,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
       "property" : [
         {
           "code" : "creationDate",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
+          "code" : "dateValid",
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
@@ -16431,6 +20981,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
+          "code" : "dateValid",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -16442,6 +20996,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
       "property" : [
         {
           "code" : "creationDate",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
+          "code" : "dateValid",
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
@@ -16459,6 +21017,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
+          "code" : "dateValid",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -16470,6 +21032,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
       "property" : [
         {
           "code" : "creationDate",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
+          "code" : "dateValid",
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
@@ -16487,6 +21053,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
+          "code" : "dateValid",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -16498,6 +21068,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
       "property" : [
         {
           "code" : "creationDate",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
+          "code" : "dateValid",
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
@@ -16515,6 +21089,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
+          "code" : "dateValid",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -16526,6 +21104,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
       "property" : [
         {
           "code" : "creationDate",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
+          "code" : "dateValid",
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
@@ -16543,6 +21125,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
+          "code" : "dateValid",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -16554,6 +21140,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
       "property" : [
         {
           "code" : "creationDate",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
+          "code" : "dateValid",
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
@@ -16571,6 +21161,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
+          "code" : "dateValid",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -16582,6 +21176,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
       "property" : [
         {
           "code" : "creationDate",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
+          "code" : "dateValid",
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
@@ -16599,6 +21197,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
+          "code" : "dateValid",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -16610,6 +21212,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
       "property" : [
         {
           "code" : "creationDate",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
+          "code" : "dateValid",
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
@@ -16627,6 +21233,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
+          "code" : "dateValid",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -16638,6 +21248,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
       "property" : [
         {
           "code" : "creationDate",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
+          "code" : "dateValid",
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
@@ -16655,6 +21269,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
+          "code" : "dateValid",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -16666,6 +21284,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
       "property" : [
         {
           "code" : "creationDate",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
+          "code" : "dateValid",
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
@@ -16683,6 +21305,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
+          "code" : "dateValid",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -16694,6 +21320,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
       "property" : [
         {
           "code" : "creationDate",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
+          "code" : "dateValid",
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
@@ -16711,6 +21341,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
+          "code" : "dateValid",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -16722,6 +21356,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
       "property" : [
         {
           "code" : "creationDate",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
+          "code" : "dateValid",
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
@@ -16739,6 +21377,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
+          "code" : "dateValid",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -16750,6 +21392,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
       "property" : [
         {
           "code" : "creationDate",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
+          "code" : "dateValid",
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
@@ -16767,6 +21413,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
+          "code" : "dateValid",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -16778,6 +21428,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
       "property" : [
         {
           "code" : "creationDate",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
+          "code" : "dateValid",
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
@@ -16795,6 +21449,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
+          "code" : "dateValid",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -16806,6 +21464,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
       "property" : [
         {
           "code" : "creationDate",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
+          "code" : "dateValid",
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
@@ -16823,6 +21485,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
+          "code" : "dateValid",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -16834,6 +21500,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
       "property" : [
         {
           "code" : "creationDate",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
+          "code" : "dateValid",
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
@@ -16851,6 +21521,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
+          "code" : "dateValid",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -16862,6 +21536,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
       "property" : [
         {
           "code" : "creationDate",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
+          "code" : "dateValid",
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
@@ -16879,6 +21557,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
+          "code" : "dateValid",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -16890,6 +21572,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
       "property" : [
         {
           "code" : "creationDate",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
+          "code" : "dateValid",
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
@@ -16907,6 +21593,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
+          "code" : "dateValid",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -16918,6 +21608,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
       "property" : [
         {
           "code" : "creationDate",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
+          "code" : "dateValid",
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
@@ -16935,6 +21629,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
+          "code" : "dateValid",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -16946,6 +21644,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
       "property" : [
         {
           "code" : "creationDate",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
+          "code" : "dateValid",
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
@@ -16963,6 +21665,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
+          "code" : "dateValid",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -16974,6 +21680,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
       "property" : [
         {
           "code" : "creationDate",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
+          "code" : "dateValid",
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
@@ -16991,6 +21701,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
+          "code" : "dateValid",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -17002,6 +21716,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
       "property" : [
         {
           "code" : "creationDate",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
+          "code" : "dateValid",
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
@@ -17019,6 +21737,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
+          "code" : "dateValid",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -17030,6 +21752,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
       "property" : [
         {
           "code" : "creationDate",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
+          "code" : "dateValid",
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
@@ -17047,6 +21773,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
+          "code" : "dateValid",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -17058,6 +21788,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
       "property" : [
         {
           "code" : "creationDate",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
+          "code" : "dateValid",
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
@@ -17075,6 +21809,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
+          "code" : "dateValid",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -17086,6 +21824,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
       "property" : [
         {
           "code" : "creationDate",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
+          "code" : "dateValid",
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
@@ -17103,6 +21845,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
+          "code" : "dateValid",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -17114,6 +21860,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
       "property" : [
         {
           "code" : "creationDate",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
+          "code" : "dateValid",
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
@@ -17131,6 +21881,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
+          "code" : "dateValid",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -17142,6 +21896,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
       "property" : [
         {
           "code" : "creationDate",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
+          "code" : "dateValid",
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
@@ -17159,6 +21917,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
+          "code" : "dateValid",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -17170,6 +21932,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
       "property" : [
         {
           "code" : "creationDate",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
+          "code" : "dateValid",
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
@@ -17187,6 +21953,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
+          "code" : "dateValid",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -17198,6 +21968,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
       "property" : [
         {
           "code" : "creationDate",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
+          "code" : "dateValid",
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
@@ -17215,6 +21989,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
+          "code" : "dateValid",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -17226,6 +22004,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
       "property" : [
         {
           "code" : "creationDate",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
+          "code" : "dateValid",
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
@@ -17243,6 +22025,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
+          "code" : "dateValid",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -17254,6 +22040,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
       "property" : [
         {
           "code" : "creationDate",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
+          "code" : "dateValid",
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
@@ -17271,6 +22061,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
+          "code" : "dateValid",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -17282,6 +22076,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
       "property" : [
         {
           "code" : "creationDate",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
+          "code" : "dateValid",
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
@@ -17299,6 +22097,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
+          "code" : "dateValid",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -17310,6 +22112,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
       "property" : [
         {
           "code" : "creationDate",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
+          "code" : "dateValid",
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
@@ -17327,6 +22133,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
+          "code" : "dateValid",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -17338,6 +22148,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
       "property" : [
         {
           "code" : "creationDate",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
+          "code" : "dateValid",
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
@@ -17355,6 +22169,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
+          "code" : "dateValid",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -17366,6 +22184,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
       "property" : [
         {
           "code" : "creationDate",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
+          "code" : "dateValid",
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
@@ -17383,6 +22205,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
+          "code" : "dateValid",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -17394,6 +22220,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
       "property" : [
         {
           "code" : "creationDate",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
+          "code" : "dateValid",
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
@@ -17411,6 +22241,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
+          "code" : "dateValid",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -17422,6 +22256,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
       "property" : [
         {
           "code" : "creationDate",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
+          "code" : "dateValid",
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
@@ -17439,6 +22277,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
+          "code" : "dateValid",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -17450,6 +22292,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
       "property" : [
         {
           "code" : "creationDate",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
+          "code" : "dateValid",
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
@@ -17467,6 +22313,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
+          "code" : "dateValid",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -17478,6 +22328,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
       "property" : [
         {
           "code" : "creationDate",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
+          "code" : "dateValid",
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
@@ -17495,6 +22349,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
+          "code" : "dateValid",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -17506,6 +22364,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
       "property" : [
         {
           "code" : "creationDate",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
+          "code" : "dateValid",
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
@@ -17523,6 +22385,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
+          "code" : "dateValid",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -17534,6 +22400,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
       "property" : [
         {
           "code" : "creationDate",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
+          "code" : "dateValid",
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
@@ -17551,6 +22421,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
+          "code" : "dateValid",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -17562,6 +22436,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
       "property" : [
         {
           "code" : "creationDate",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
+          "code" : "dateValid",
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
@@ -17579,6 +22457,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
+          "code" : "dateValid",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -17590,6 +22472,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
       "property" : [
         {
           "code" : "creationDate",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
+          "code" : "dateValid",
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
@@ -17607,6 +22493,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
+          "code" : "dateValid",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -17618,6 +22508,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
       "property" : [
         {
           "code" : "creationDate",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
+          "code" : "dateValid",
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
@@ -17635,6 +22529,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
+          "code" : "dateValid",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -17646,6 +22544,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
       "property" : [
         {
           "code" : "creationDate",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
+          "code" : "dateValid",
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
@@ -17663,6 +22565,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
+          "code" : "dateValid",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -17674,6 +22580,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
       "property" : [
         {
           "code" : "creationDate",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
+          "code" : "dateValid",
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
@@ -17691,6 +22601,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
+          "code" : "dateValid",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -17702,6 +22616,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
       "property" : [
         {
           "code" : "creationDate",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
+          "code" : "dateValid",
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
@@ -17719,6 +22637,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
+          "code" : "dateValid",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -17730,6 +22652,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
       "property" : [
         {
           "code" : "creationDate",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
+          "code" : "dateValid",
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
@@ -17747,6 +22673,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
+          "code" : "dateValid",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -17758,6 +22688,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
       "property" : [
         {
           "code" : "creationDate",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
+          "code" : "dateValid",
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
@@ -17775,6 +22709,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
+          "code" : "dateValid",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -17786,6 +22724,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
       "property" : [
         {
           "code" : "creationDate",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
+          "code" : "dateValid",
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
@@ -17803,6 +22745,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
+          "code" : "dateValid",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -17814,6 +22760,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
       "property" : [
         {
           "code" : "creationDate",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
+          "code" : "dateValid",
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
@@ -17831,6 +22781,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
+          "code" : "dateValid",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -17842,6 +22796,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
       "property" : [
         {
           "code" : "creationDate",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
+          "code" : "dateValid",
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
@@ -17859,6 +22817,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
+          "code" : "dateValid",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -17870,6 +22832,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
       "property" : [
         {
           "code" : "creationDate",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
+          "code" : "dateValid",
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
@@ -17887,6 +22853,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
+          "code" : "dateValid",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -17898,6 +22868,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
       "property" : [
         {
           "code" : "creationDate",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
+          "code" : "dateValid",
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
@@ -17915,6 +22889,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
+          "code" : "dateValid",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -17926,6 +22904,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
       "property" : [
         {
           "code" : "creationDate",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
+          "code" : "dateValid",
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
@@ -17943,6 +22925,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
+          "code" : "dateValid",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -17954,6 +22940,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
       "property" : [
         {
           "code" : "creationDate",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
+          "code" : "dateValid",
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
@@ -17971,6 +22961,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
+          "code" : "dateValid",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -17982,6 +22976,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
       "property" : [
         {
           "code" : "creationDate",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
+          "code" : "dateValid",
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
@@ -17999,6 +22997,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
+          "code" : "dateValid",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -18010,6 +23012,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
       "property" : [
         {
           "code" : "creationDate",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
+          "code" : "dateValid",
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
@@ -18027,6 +23033,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
+          "code" : "dateValid",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -18038,6 +23048,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
       "property" : [
         {
           "code" : "creationDate",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
+          "code" : "dateValid",
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
@@ -18055,6 +23069,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
+          "code" : "dateValid",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -18066,6 +23084,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
       "property" : [
         {
           "code" : "creationDate",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
+          "code" : "dateValid",
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
@@ -18083,6 +23105,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
+          "code" : "dateValid",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -18094,6 +23120,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
       "property" : [
         {
           "code" : "creationDate",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
+          "code" : "dateValid",
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
@@ -18111,6 +23141,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
+          "code" : "dateValid",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -18122,6 +23156,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
       "property" : [
         {
           "code" : "creationDate",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
+          "code" : "dateValid",
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
@@ -18139,6 +23177,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
+          "code" : "dateValid",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -18150,6 +23192,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
       "property" : [
         {
           "code" : "creationDate",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
+          "code" : "dateValid",
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
@@ -18167,6 +23213,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
+          "code" : "dateValid",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -18178,6 +23228,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
       "property" : [
         {
           "code" : "creationDate",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
+          "code" : "dateValid",
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
@@ -18195,6 +23249,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
+          "code" : "dateValid",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -18206,6 +23264,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
       "property" : [
         {
           "code" : "creationDate",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
+          "code" : "dateValid",
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
@@ -18223,6 +23285,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
+          "code" : "dateValid",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -18234,6 +23300,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
       "property" : [
         {
           "code" : "creationDate",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
+          "code" : "dateValid",
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
@@ -18251,6 +23321,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
+          "code" : "dateValid",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -18262,6 +23336,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
       "property" : [
         {
           "code" : "creationDate",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
+          "code" : "dateValid",
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
@@ -18279,6 +23357,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
+          "code" : "dateValid",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -18290,6 +23372,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
       "property" : [
         {
           "code" : "creationDate",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
+          "code" : "dateValid",
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
@@ -18307,6 +23393,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
+          "code" : "dateValid",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -18318,6 +23408,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
       "property" : [
         {
           "code" : "creationDate",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
+          "code" : "dateValid",
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
@@ -18335,6 +23429,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
+          "code" : "dateValid",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -18346,6 +23444,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
       "property" : [
         {
           "code" : "creationDate",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
+          "code" : "dateValid",
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
@@ -18363,6 +23465,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
+          "code" : "dateValid",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -18374,6 +23480,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
       "property" : [
         {
           "code" : "creationDate",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
+          "code" : "dateValid",
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
@@ -18391,6 +23501,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
+          "code" : "dateValid",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -18402,6 +23516,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
       "property" : [
         {
           "code" : "creationDate",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
+          "code" : "dateValid",
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
@@ -18419,6 +23537,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
+          "code" : "dateValid",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -18430,6 +23552,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
       "property" : [
         {
           "code" : "creationDate",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
+          "code" : "dateValid",
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
@@ -18447,6 +23573,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
+          "code" : "dateValid",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -18458,6 +23588,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
       "property" : [
         {
           "code" : "creationDate",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
+          "code" : "dateValid",
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
@@ -18475,6 +23609,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
+          "code" : "dateValid",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -18486,6 +23624,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
       "property" : [
         {
           "code" : "creationDate",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
+          "code" : "dateValid",
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
@@ -18503,6 +23645,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
+          "code" : "dateValid",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -18514,6 +23660,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
       "property" : [
         {
           "code" : "creationDate",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
+          "code" : "dateValid",
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
@@ -18531,6 +23681,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
+          "code" : "dateValid",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -18542,6 +23696,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
       "property" : [
         {
           "code" : "creationDate",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
+          "code" : "dateValid",
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
@@ -18559,6 +23717,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
+          "code" : "dateValid",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -18570,6 +23732,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
       "property" : [
         {
           "code" : "creationDate",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
+          "code" : "dateValid",
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
@@ -18587,6 +23753,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
+          "code" : "dateValid",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -18598,6 +23768,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
       "property" : [
         {
           "code" : "creationDate",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
+          "code" : "dateValid",
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
@@ -18615,6 +23789,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
+          "code" : "dateValid",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -18626,6 +23804,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
       "property" : [
         {
           "code" : "creationDate",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
+          "code" : "dateValid",
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
@@ -18643,6 +23825,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
+          "code" : "dateValid",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -18654,6 +23840,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
       "property" : [
         {
           "code" : "creationDate",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
+          "code" : "dateValid",
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
@@ -18671,6 +23861,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
+          "code" : "dateValid",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -18682,6 +23876,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
       "property" : [
         {
           "code" : "creationDate",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
+          "code" : "dateValid",
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
@@ -18699,6 +23897,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
+          "code" : "dateValid",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -18710,6 +23912,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
       "property" : [
         {
           "code" : "creationDate",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
+          "code" : "dateValid",
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
@@ -18727,6 +23933,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
+          "code" : "dateValid",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -18738,6 +23948,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
       "property" : [
         {
           "code" : "creationDate",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
+          "code" : "dateValid",
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
@@ -18755,6 +23969,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
+          "code" : "dateValid",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -18766,6 +23984,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
       "property" : [
         {
           "code" : "creationDate",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
+          "code" : "dateValid",
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
@@ -18783,6 +24005,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
+          "code" : "dateValid",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -18794,6 +24020,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
       "property" : [
         {
           "code" : "creationDate",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
+          "code" : "dateValid",
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
@@ -18811,6 +24041,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
+          "code" : "dateValid",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -18822,6 +24056,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
       "property" : [
         {
           "code" : "creationDate",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
+          "code" : "dateValid",
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
@@ -18839,6 +24077,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
+          "code" : "dateValid",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -18850,6 +24092,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
       "property" : [
         {
           "code" : "creationDate",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
+          "code" : "dateValid",
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
@@ -18867,6 +24113,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
+          "code" : "dateValid",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -18878,6 +24128,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
       "property" : [
         {
           "code" : "creationDate",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
+          "code" : "dateValid",
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
@@ -18895,6 +24149,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
+          "code" : "dateValid",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -18906,6 +24164,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
       "property" : [
         {
           "code" : "creationDate",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
+          "code" : "dateValid",
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
@@ -18923,6 +24185,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
+          "code" : "dateValid",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -18934,6 +24200,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
       "property" : [
         {
           "code" : "creationDate",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
+          "code" : "dateValid",
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
@@ -18951,6 +24221,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
+          "code" : "dateValid",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -18962,6 +24236,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
       "property" : [
         {
           "code" : "creationDate",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
+          "code" : "dateValid",
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
@@ -18979,6 +24257,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
+          "code" : "dateValid",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -18990,6 +24272,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
       "property" : [
         {
           "code" : "creationDate",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
+          "code" : "dateValid",
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
@@ -19007,6 +24293,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
+          "code" : "dateValid",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -19018,6 +24308,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
       "property" : [
         {
           "code" : "creationDate",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
+          "code" : "dateValid",
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
@@ -19035,6 +24329,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
+          "code" : "dateValid",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -19046,6 +24344,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
       "property" : [
         {
           "code" : "creationDate",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
+          "code" : "dateValid",
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
@@ -19063,6 +24365,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
+          "code" : "dateValid",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -19074,6 +24380,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
       "property" : [
         {
           "code" : "creationDate",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
+          "code" : "dateValid",
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
@@ -19091,6 +24401,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
+          "code" : "dateValid",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -19102,6 +24416,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
       "property" : [
         {
           "code" : "creationDate",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
+          "code" : "dateValid",
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
@@ -19119,6 +24437,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
+          "code" : "dateValid",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -19130,6 +24452,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
       "property" : [
         {
           "code" : "creationDate",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
+          "code" : "dateValid",
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
@@ -19147,6 +24473,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
+          "code" : "dateValid",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -19158,6 +24488,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
       "property" : [
         {
           "code" : "creationDate",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
+          "code" : "dateValid",
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
@@ -19175,6 +24509,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
+          "code" : "dateValid",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -19186,6 +24524,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
       "property" : [
         {
           "code" : "creationDate",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
+          "code" : "dateValid",
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
@@ -19203,6 +24545,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
+          "code" : "dateValid",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -19214,6 +24560,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
       "property" : [
         {
           "code" : "creationDate",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
+          "code" : "dateValid",
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
@@ -19231,6 +24581,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
+          "code" : "dateValid",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -19242,6 +24596,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
       "property" : [
         {
           "code" : "creationDate",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
+          "code" : "dateValid",
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
@@ -19259,6 +24617,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
+          "code" : "dateValid",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -19270,6 +24632,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
       "property" : [
         {
           "code" : "creationDate",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
+          "code" : "dateValid",
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
@@ -19287,6 +24653,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
+          "code" : "dateValid",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -19298,6 +24668,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
       "property" : [
         {
           "code" : "creationDate",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
+          "code" : "dateValid",
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
@@ -19315,6 +24689,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
+          "code" : "dateValid",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -19326,6 +24704,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
       "property" : [
         {
           "code" : "creationDate",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
+          "code" : "dateValid",
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
@@ -19343,6 +24725,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
+          "code" : "dateValid",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -19354,6 +24740,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
       "property" : [
         {
           "code" : "creationDate",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
+          "code" : "dateValid",
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
@@ -19371,6 +24761,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
+          "code" : "dateValid",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -19382,6 +24776,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
       "property" : [
         {
           "code" : "creationDate",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
+          "code" : "dateValid",
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
@@ -19399,6 +24797,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
+          "code" : "dateValid",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -19410,6 +24812,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
       "property" : [
         {
           "code" : "creationDate",
+          "valueDateTime" : "2025-03-13T00:00:00+01:00"
+        },
+        {
+          "code" : "dateValid",
           "valueDateTime" : "2025-03-13T00:00:00+01:00"
         },
         {
@@ -19427,6 +24833,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
           "valueDateTime" : "2025-03-13T00:00:00+01:00"
         },
         {
+          "code" : "dateValid",
+          "valueDateTime" : "2025-03-13T00:00:00+01:00"
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -19438,6 +24848,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
       "property" : [
         {
           "code" : "creationDate",
+          "valueDateTime" : "2025-03-13T00:00:00+01:00"
+        },
+        {
+          "code" : "dateValid",
           "valueDateTime" : "2025-03-13T00:00:00+01:00"
         },
         {
@@ -19455,6 +24869,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
           "valueDateTime" : "2025-03-13T00:00:00+01:00"
         },
         {
+          "code" : "dateValid",
+          "valueDateTime" : "2025-03-13T00:00:00+01:00"
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -19466,6 +24884,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
       "property" : [
         {
           "code" : "creationDate",
+          "valueDateTime" : "2025-03-13T00:00:00+01:00"
+        },
+        {
+          "code" : "dateValid",
           "valueDateTime" : "2025-03-13T00:00:00+01:00"
         },
         {
@@ -19483,6 +24905,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
           "valueDateTime" : "2025-03-13T00:00:00+01:00"
         },
         {
+          "code" : "dateValid",
+          "valueDateTime" : "2025-03-13T00:00:00+01:00"
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -19494,6 +24920,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
       "property" : [
         {
           "code" : "creationDate",
+          "valueDateTime" : "2025-03-13T00:00:00+01:00"
+        },
+        {
+          "code" : "dateValid",
           "valueDateTime" : "2025-03-13T00:00:00+01:00"
         },
         {
@@ -19511,6 +24941,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
           "valueDateTime" : "2025-03-13T00:00:00+01:00"
         },
         {
+          "code" : "dateValid",
+          "valueDateTime" : "2025-03-13T00:00:00+01:00"
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -19522,6 +24956,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
       "property" : [
         {
           "code" : "creationDate",
+          "valueDateTime" : "2025-03-20T00:00:00+01:00"
+        },
+        {
+          "code" : "dateValid",
           "valueDateTime" : "2025-03-20T00:00:00+01:00"
         },
         {
@@ -19539,6 +24977,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
           "valueDateTime" : "2025-03-20T00:00:00+01:00"
         },
         {
+          "code" : "dateValid",
+          "valueDateTime" : "2025-03-20T00:00:00+01:00"
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -19550,6 +24992,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
       "property" : [
         {
           "code" : "creationDate",
+          "valueDateTime" : "2025-03-20T00:00:00+01:00"
+        },
+        {
+          "code" : "dateValid",
           "valueDateTime" : "2025-03-20T00:00:00+01:00"
         },
         {
@@ -19567,6 +25013,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
           "valueDateTime" : "2025-04-25T00:00:00+01:00"
         },
         {
+          "code" : "dateValid",
+          "valueDateTime" : "2025-04-25T00:00:00+01:00"
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -19578,6 +25028,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
       "property" : [
         {
           "code" : "creationDate",
+          "valueDateTime" : "2025-04-25T00:00:00+01:00"
+        },
+        {
+          "code" : "dateValid",
           "valueDateTime" : "2025-04-25T00:00:00+01:00"
         },
         {
@@ -19595,6 +25049,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
           "valueDateTime" : "2025-04-25T00:00:00+01:00"
         },
         {
+          "code" : "dateValid",
+          "valueDateTime" : "2025-04-25T00:00:00+01:00"
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -19606,6 +25064,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
       "property" : [
         {
           "code" : "creationDate",
+          "valueDateTime" : "2025-04-25T00:00:00+01:00"
+        },
+        {
+          "code" : "dateValid",
           "valueDateTime" : "2025-04-25T00:00:00+01:00"
         },
         {
@@ -19623,6 +25085,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
           "valueDateTime" : "2025-04-25T00:00:00+01:00"
         },
         {
+          "code" : "dateValid",
+          "valueDateTime" : "2025-04-25T00:00:00+01:00"
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -19634,6 +25100,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
       "property" : [
         {
           "code" : "creationDate",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
+          "code" : "dateValid",
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
@@ -19651,6 +25121,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
+          "code" : "dateValid",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -19662,6 +25136,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
       "property" : [
         {
           "code" : "creationDate",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
+          "code" : "dateValid",
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
@@ -19679,6 +25157,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
+          "code" : "dateValid",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -19690,6 +25172,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
       "property" : [
         {
           "code" : "creationDate",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
+          "code" : "dateValid",
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
@@ -19707,6 +25193,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
+          "code" : "dateValid",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -19718,6 +25208,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
       "property" : [
         {
           "code" : "creationDate",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
+          "code" : "dateValid",
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
@@ -19735,6 +25229,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
+          "code" : "dateValid",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -19746,6 +25244,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
       "property" : [
         {
           "code" : "creationDate",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
+          "code" : "dateValid",
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
@@ -19763,6 +25265,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
+          "code" : "dateValid",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -19774,6 +25280,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
       "property" : [
         {
           "code" : "creationDate",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
+          "code" : "dateValid",
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
@@ -19791,6 +25301,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
+          "code" : "dateValid",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -19802,6 +25316,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
       "property" : [
         {
           "code" : "creationDate",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
+          "code" : "dateValid",
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
@@ -19819,6 +25337,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
+          "code" : "dateValid",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -19830,6 +25352,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
       "property" : [
         {
           "code" : "creationDate",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
+          "code" : "dateValid",
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
@@ -19847,6 +25373,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
+          "code" : "dateValid",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -19858,6 +25388,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
       "property" : [
         {
           "code" : "creationDate",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
+          "code" : "dateValid",
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
@@ -19875,6 +25409,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
+          "code" : "dateValid",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -19886,6 +25424,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
       "property" : [
         {
           "code" : "creationDate",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
+          "code" : "dateValid",
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
@@ -19903,6 +25445,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
+          "code" : "dateValid",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -19914,6 +25460,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
       "property" : [
         {
           "code" : "creationDate",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
+          "code" : "dateValid",
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
@@ -19931,6 +25481,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
+          "code" : "dateValid",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -19942,6 +25496,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
       "property" : [
         {
           "code" : "creationDate",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
+          "code" : "dateValid",
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
@@ -19959,6 +25517,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
+          "code" : "dateValid",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -19970,6 +25532,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
       "property" : [
         {
           "code" : "creationDate",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
+          "code" : "dateValid",
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
@@ -19987,6 +25553,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
+          "code" : "dateValid",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -19998,6 +25568,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
       "property" : [
         {
           "code" : "creationDate",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
+          "code" : "dateValid",
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
@@ -20015,6 +25589,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
+          "code" : "dateValid",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -20026,6 +25604,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
       "property" : [
         {
           "code" : "creationDate",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
+          "code" : "dateValid",
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
@@ -20043,6 +25625,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
+          "code" : "dateValid",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -20054,6 +25640,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
       "property" : [
         {
           "code" : "creationDate",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
+          "code" : "dateValid",
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
@@ -20071,6 +25661,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
+          "code" : "dateValid",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -20082,6 +25676,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
       "property" : [
         {
           "code" : "creationDate",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
+          "code" : "dateValid",
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
@@ -20099,6 +25697,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
+          "code" : "dateValid",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -20110,6 +25712,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
       "property" : [
         {
           "code" : "creationDate",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
+          "code" : "dateValid",
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
@@ -20127,6 +25733,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
+          "code" : "dateValid",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -20138,6 +25748,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
       "property" : [
         {
           "code" : "creationDate",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
+          "code" : "dateValid",
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
@@ -20155,6 +25769,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
+          "code" : "dateValid",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -20166,6 +25784,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
       "property" : [
         {
           "code" : "creationDate",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
+          "code" : "dateValid",
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
@@ -20183,6 +25805,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
+          "code" : "dateValid",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -20194,6 +25820,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
       "property" : [
         {
           "code" : "creationDate",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
+          "code" : "dateValid",
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
@@ -20211,6 +25841,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
+          "code" : "dateValid",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -20222,6 +25856,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
       "property" : [
         {
           "code" : "creationDate",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
+          "code" : "dateValid",
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
@@ -20239,6 +25877,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
+          "code" : "dateValid",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -20250,6 +25892,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
       "property" : [
         {
           "code" : "creationDate",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
+          "code" : "dateValid",
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
@@ -20267,6 +25913,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
+          "code" : "dateValid",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -20278,6 +25928,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
       "property" : [
         {
           "code" : "creationDate",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
+          "code" : "dateValid",
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
@@ -20295,6 +25949,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
+          "code" : "dateValid",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -20306,6 +25964,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
       "property" : [
         {
           "code" : "creationDate",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
+          "code" : "dateValid",
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
@@ -20323,6 +25985,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
+          "code" : "dateValid",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -20334,6 +26000,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
       "property" : [
         {
           "code" : "creationDate",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
+          "code" : "dateValid",
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
@@ -20351,6 +26021,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
+          "code" : "dateValid",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -20362,6 +26036,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
       "property" : [
         {
           "code" : "creationDate",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
+          "code" : "dateValid",
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
@@ -20379,6 +26057,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
+          "code" : "dateValid",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -20390,6 +26072,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
       "property" : [
         {
           "code" : "creationDate",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
+          "code" : "dateValid",
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
@@ -20407,6 +26093,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
+          "code" : "dateValid",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -20418,6 +26108,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
       "property" : [
         {
           "code" : "creationDate",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
+          "code" : "dateValid",
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
@@ -20435,6 +26129,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
+          "code" : "dateValid",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -20446,6 +26144,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
       "property" : [
         {
           "code" : "creationDate",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
+          "code" : "dateValid",
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
@@ -20463,6 +26165,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
+          "code" : "dateValid",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -20474,6 +26180,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
       "property" : [
         {
           "code" : "creationDate",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
+          "code" : "dateValid",
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
@@ -20491,6 +26201,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
+          "code" : "dateValid",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -20502,6 +26216,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
       "property" : [
         {
           "code" : "creationDate",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
+          "code" : "dateValid",
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
@@ -20519,6 +26237,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
+          "code" : "dateValid",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -20530,6 +26252,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
       "property" : [
         {
           "code" : "creationDate",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
+          "code" : "dateValid",
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
@@ -20547,6 +26273,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
+          "code" : "dateValid",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -20558,6 +26288,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
       "property" : [
         {
           "code" : "creationDate",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
+          "code" : "dateValid",
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
@@ -20575,6 +26309,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
+          "code" : "dateValid",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -20586,6 +26324,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
       "property" : [
         {
           "code" : "creationDate",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
+          "code" : "dateValid",
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
@@ -20603,6 +26345,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
+          "code" : "dateValid",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -20614,6 +26360,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
       "property" : [
         {
           "code" : "creationDate",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
+          "code" : "dateValid",
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
@@ -20631,6 +26381,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
+          "code" : "dateValid",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -20642,6 +26396,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
       "property" : [
         {
           "code" : "creationDate",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
+          "code" : "dateValid",
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
@@ -20659,6 +26417,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
+          "code" : "dateValid",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -20670,6 +26432,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
       "property" : [
         {
           "code" : "creationDate",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
+          "code" : "dateValid",
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
@@ -20687,6 +26453,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
+          "code" : "dateValid",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -20698,6 +26468,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
       "property" : [
         {
           "code" : "creationDate",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
+          "code" : "dateValid",
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
@@ -20715,6 +26489,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
+          "code" : "dateValid",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -20726,6 +26504,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
       "property" : [
         {
           "code" : "creationDate",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
+          "code" : "dateValid",
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
@@ -20743,6 +26525,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
+          "code" : "dateValid",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -20754,6 +26540,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
       "property" : [
         {
           "code" : "creationDate",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
+          "code" : "dateValid",
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
@@ -20771,6 +26561,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
+          "code" : "dateValid",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -20782,6 +26576,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
       "property" : [
         {
           "code" : "creationDate",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
+          "code" : "dateValid",
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
@@ -20799,6 +26597,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
+          "code" : "dateValid",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -20810,6 +26612,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
       "property" : [
         {
           "code" : "creationDate",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
+          "code" : "dateValid",
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
@@ -20827,6 +26633,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
+          "code" : "dateValid",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -20838,6 +26648,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
       "property" : [
         {
           "code" : "creationDate",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
+          "code" : "dateValid",
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
@@ -20855,6 +26669,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
+          "code" : "dateValid",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -20866,6 +26684,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
       "property" : [
         {
           "code" : "creationDate",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
+          "code" : "dateValid",
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
@@ -20883,6 +26705,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
+          "code" : "dateValid",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -20894,6 +26720,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
       "property" : [
         {
           "code" : "creationDate",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
+          "code" : "dateValid",
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
@@ -20911,6 +26741,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
+          "code" : "dateValid",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -20922,6 +26756,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
       "property" : [
         {
           "code" : "creationDate",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
+          "code" : "dateValid",
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
@@ -20939,6 +26777,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
+          "code" : "dateValid",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -20950,6 +26792,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
       "property" : [
         {
           "code" : "creationDate",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
+          "code" : "dateValid",
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
@@ -20967,6 +26813,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
+          "code" : "dateValid",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -20978,6 +26828,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
       "property" : [
         {
           "code" : "creationDate",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
+          "code" : "dateValid",
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
@@ -20995,6 +26849,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
+          "code" : "dateValid",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -21006,6 +26864,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
       "property" : [
         {
           "code" : "creationDate",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
+          "code" : "dateValid",
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
@@ -21023,6 +26885,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
+          "code" : "dateValid",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -21034,6 +26900,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
       "property" : [
         {
           "code" : "creationDate",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
+          "code" : "dateValid",
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
@@ -21051,6 +26921,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
+          "code" : "dateValid",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -21062,6 +26936,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
       "property" : [
         {
           "code" : "creationDate",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
+          "code" : "dateValid",
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
@@ -21079,6 +26957,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
+          "code" : "dateValid",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -21090,6 +26972,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
       "property" : [
         {
           "code" : "creationDate",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
+          "code" : "dateValid",
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
@@ -21107,6 +26993,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
+          "code" : "dateValid",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -21118,6 +27008,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
       "property" : [
         {
           "code" : "creationDate",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
+          "code" : "dateValid",
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
@@ -21135,6 +27029,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
+          "code" : "dateValid",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -21146,6 +27044,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
       "property" : [
         {
           "code" : "creationDate",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
+          "code" : "dateValid",
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
@@ -21163,6 +27065,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
+          "code" : "dateValid",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -21174,6 +27080,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
       "property" : [
         {
           "code" : "creationDate",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
+          "code" : "dateValid",
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
@@ -21191,6 +27101,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
+          "code" : "dateValid",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -21202,6 +27116,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
       "property" : [
         {
           "code" : "creationDate",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
+          "code" : "dateValid",
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
@@ -21219,6 +27137,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
+          "code" : "dateValid",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -21230,6 +27152,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
       "property" : [
         {
           "code" : "creationDate",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
+          "code" : "dateValid",
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
@@ -21247,6 +27173,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
+          "code" : "dateValid",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -21258,6 +27188,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
       "property" : [
         {
           "code" : "creationDate",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
+          "code" : "dateValid",
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
@@ -21275,6 +27209,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
+          "code" : "dateValid",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -21286,6 +27224,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
       "property" : [
         {
           "code" : "creationDate",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
+          "code" : "dateValid",
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
@@ -21303,6 +27245,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
+          "code" : "dateValid",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -21314,6 +27260,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
       "property" : [
         {
           "code" : "creationDate",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
+          "code" : "dateValid",
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
@@ -21331,6 +27281,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
+          "code" : "dateValid",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -21342,6 +27296,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
       "property" : [
         {
           "code" : "creationDate",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
+          "code" : "dateValid",
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
@@ -21359,6 +27317,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
+          "code" : "dateValid",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -21370,6 +27332,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
       "property" : [
         {
           "code" : "creationDate",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
+          "code" : "dateValid",
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
@@ -21387,6 +27353,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
+          "code" : "dateValid",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -21398,6 +27368,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
       "property" : [
         {
           "code" : "creationDate",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
+          "code" : "dateValid",
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
@@ -21415,6 +27389,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
+          "code" : "dateValid",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -21426,6 +27404,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
       "property" : [
         {
           "code" : "creationDate",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
+          "code" : "dateValid",
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
@@ -21443,6 +27425,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
+          "code" : "dateValid",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -21454,6 +27440,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
       "property" : [
         {
           "code" : "creationDate",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
+          "code" : "dateValid",
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
@@ -21471,6 +27461,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
+          "code" : "dateValid",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -21482,6 +27476,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
       "property" : [
         {
           "code" : "creationDate",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
+          "code" : "dateValid",
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
@@ -21499,6 +27497,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
+          "code" : "dateValid",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -21510,6 +27512,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
       "property" : [
         {
           "code" : "creationDate",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
+          "code" : "dateValid",
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
@@ -21527,6 +27533,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
+          "code" : "dateValid",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -21538,6 +27548,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
       "property" : [
         {
           "code" : "creationDate",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
+          "code" : "dateValid",
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
@@ -21555,6 +27569,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
+          "code" : "dateValid",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -21566,6 +27584,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
       "property" : [
         {
           "code" : "creationDate",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
+          "code" : "dateValid",
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
@@ -21583,6 +27605,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
+          "code" : "dateValid",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -21594,6 +27620,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
       "property" : [
         {
           "code" : "creationDate",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
+          "code" : "dateValid",
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
@@ -21611,6 +27641,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
+          "code" : "dateValid",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -21622,6 +27656,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
       "property" : [
         {
           "code" : "creationDate",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
+          "code" : "dateValid",
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
@@ -21639,6 +27677,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
+          "code" : "dateValid",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -21650,6 +27692,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
       "property" : [
         {
           "code" : "creationDate",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
+          "code" : "dateValid",
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
@@ -21667,6 +27713,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
+          "code" : "dateValid",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -21678,6 +27728,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
       "property" : [
         {
           "code" : "creationDate",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
+          "code" : "dateValid",
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
@@ -21695,6 +27749,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
+          "code" : "dateValid",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -21706,6 +27764,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
       "property" : [
         {
           "code" : "creationDate",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
+          "code" : "dateValid",
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
@@ -21723,6 +27785,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
+          "code" : "dateValid",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -21734,6 +27800,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
       "property" : [
         {
           "code" : "creationDate",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
+          "code" : "dateValid",
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
@@ -21751,6 +27821,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
           "valueDateTime" : "2025-03-11T00:00:00+01:00"
         },
         {
+          "code" : "dateValid",
+          "valueDateTime" : "2025-03-11T00:00:00+01:00"
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -21762,6 +27836,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
       "property" : [
         {
           "code" : "creationDate",
+          "valueDateTime" : "2025-05-07T00:00:00+01:00"
+        },
+        {
+          "code" : "dateValid",
           "valueDateTime" : "2025-05-07T00:00:00+01:00"
         },
         {
@@ -21779,6 +27857,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
           "valueDateTime" : "2025-07-22T00:00:00+01:00"
         },
         {
+          "code" : "dateValid",
+          "valueDateTime" : "2025-07-22T00:00:00+01:00"
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -21790,6 +27872,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
       "property" : [
         {
           "code" : "creationDate",
+          "valueDateTime" : "2025-07-22T00:00:00+01:00"
+        },
+        {
+          "code" : "dateValid",
           "valueDateTime" : "2025-07-22T00:00:00+01:00"
         },
         {
@@ -21807,6 +27893,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
           "valueDateTime" : "2025-07-23T00:00:00+01:00"
         },
         {
+          "code" : "dateValid",
+          "valueDateTime" : "2025-07-23T00:00:00+01:00"
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -21818,6 +27908,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
       "property" : [
         {
           "code" : "creationDate",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
+          "code" : "dateValid",
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
@@ -21835,6 +27929,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
+          "code" : "dateValid",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -21846,6 +27944,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
       "property" : [
         {
           "code" : "creationDate",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
+          "code" : "dateValid",
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
@@ -21863,6 +27965,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
+          "code" : "dateValid",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -21874,6 +27980,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
       "property" : [
         {
           "code" : "creationDate",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
+          "code" : "dateValid",
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
@@ -21891,6 +28001,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
+          "code" : "dateValid",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -21902,6 +28016,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
       "property" : [
         {
           "code" : "creationDate",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
+          "code" : "dateValid",
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
@@ -21919,6 +28037,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
+          "code" : "dateValid",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -21930,6 +28052,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
       "property" : [
         {
           "code" : "creationDate",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
+          "code" : "dateValid",
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
@@ -21947,6 +28073,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
+          "code" : "dateValid",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -21958,6 +28088,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
       "property" : [
         {
           "code" : "creationDate",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
+          "code" : "dateValid",
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
@@ -21975,6 +28109,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
+          "code" : "dateValid",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -21986,6 +28124,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
       "property" : [
         {
           "code" : "creationDate",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
+          "code" : "dateValid",
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
@@ -22003,6 +28145,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
+          "code" : "dateValid",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -22014,6 +28160,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
       "property" : [
         {
           "code" : "creationDate",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
+          "code" : "dateValid",
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
@@ -22031,6 +28181,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
+          "code" : "dateValid",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -22042,6 +28196,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
       "property" : [
         {
           "code" : "creationDate",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
+          "code" : "dateValid",
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
@@ -22059,6 +28217,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
+          "code" : "dateValid",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -22070,6 +28232,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
       "property" : [
         {
           "code" : "creationDate",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
+          "code" : "dateValid",
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
@@ -22087,6 +28253,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
+          "code" : "dateValid",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -22098,6 +28268,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
       "property" : [
         {
           "code" : "creationDate",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
+          "code" : "dateValid",
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
@@ -22115,6 +28289,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
+          "code" : "dateValid",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -22126,6 +28304,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
       "property" : [
         {
           "code" : "creationDate",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
+          "code" : "dateValid",
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
@@ -22143,6 +28325,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
+          "code" : "dateValid",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -22154,6 +28340,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
       "property" : [
         {
           "code" : "creationDate",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
+          "code" : "dateValid",
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
@@ -22171,6 +28361,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
+          "code" : "dateValid",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -22182,6 +28376,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
       "property" : [
         {
           "code" : "creationDate",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
+          "code" : "dateValid",
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
@@ -22199,6 +28397,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
+          "code" : "dateValid",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -22210,6 +28412,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
       "property" : [
         {
           "code" : "creationDate",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
+          "code" : "dateValid",
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
@@ -22227,6 +28433,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
+          "code" : "dateValid",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -22241,6 +28451,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
+          "code" : "dateValid",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -22252,6 +28466,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
       "property" : [
         {
           "code" : "creationDate",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
+          "code" : "dateValid",
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
@@ -22273,6 +28491,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
+          "code" : "dateValid",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
           "code" : "deprecationDate",
           "valueDateTime" : "2025-02-25T00:00:00+01:00"
         },
@@ -22291,6 +28513,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
+          "code" : "dateValid",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -22302,6 +28528,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
       "property" : [
         {
           "code" : "creationDate",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
+          "code" : "dateValid",
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
@@ -22323,6 +28553,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
+          "code" : "dateValid",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
           "code" : "deprecationDate",
           "valueDateTime" : "2025-02-25T00:00:00+01:00"
         },
@@ -22338,6 +28572,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
       "property" : [
         {
           "code" : "creationDate",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
+          "code" : "dateValid",
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
@@ -22359,6 +28597,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
+          "code" : "dateValid",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -22370,6 +28612,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
       "property" : [
         {
           "code" : "creationDate",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
+          "code" : "dateValid",
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
@@ -22387,6 +28633,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
+          "code" : "dateValid",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -22398,6 +28648,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
       "property" : [
         {
           "code" : "creationDate",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
+          "code" : "dateValid",
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
@@ -22415,6 +28669,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
+          "code" : "dateValid",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -22426,6 +28684,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
       "property" : [
         {
           "code" : "creationDate",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
+          "code" : "dateValid",
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
@@ -22443,6 +28705,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
+          "code" : "dateValid",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -22454,6 +28720,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
       "property" : [
         {
           "code" : "creationDate",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
+          "code" : "dateValid",
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
@@ -22471,6 +28741,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
+          "code" : "dateValid",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -22482,6 +28756,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
       "property" : [
         {
           "code" : "creationDate",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
+          "code" : "dateValid",
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
@@ -22499,6 +28777,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
+          "code" : "dateValid",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -22510,6 +28792,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
       "property" : [
         {
           "code" : "creationDate",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
+          "code" : "dateValid",
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
@@ -22527,6 +28813,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
+          "code" : "dateValid",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -22541,6 +28831,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
+          "code" : "dateValid",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -22552,6 +28846,10 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
       "property" : [
         {
           "code" : "creationDate",
+          "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
+          "code" : "dateValid",
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
         },
         {
