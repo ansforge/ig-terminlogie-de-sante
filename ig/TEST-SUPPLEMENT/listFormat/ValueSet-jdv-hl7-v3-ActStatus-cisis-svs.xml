@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RetrieveValueSetResponse xmlns="urn:ihe:iti:svs:2008"
+                          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+   <ValueSet dateFin=""
+             dateMaj="20250624152100"
+             dateValid="20100101000000"
+             description="ActStatus"
+             displayName="ActStatus"
+             id="2.16.840.1.113883.1.11.15933"
+             typeFichier="JDV"
+             urlFichier="">
+      <ConceptList>
+         <Concept code="aborted"
+                  codeSystem="http://terminology.hl7.org/CodeSystem/v3-ActStatus"
+                  displayName="Arrêté (après son lancement)"/>
+         <Concept code="active"
+                  codeSystem="http://terminology.hl7.org/CodeSystem/v3-ActStatus"
+                  displayName="Actif (en cours ou à venir)"/>
+         <Concept code="cancelled"
+                  codeSystem="http://terminology.hl7.org/CodeSystem/v3-ActStatus"
+                  displayName="Annulé (avant son lancement)"/>
+         <Concept code="completed"
+                  codeSystem="http://terminology.hl7.org/CodeSystem/v3-ActStatus"
+                  displayName="Terminé"/>
+         <Concept code="held"
+                  codeSystem="http://terminology.hl7.org/CodeSystem/v3-ActStatus"
+                  displayName="En attente (avant son lancement)"/>
+         <Concept code="new"
+                  codeSystem="http://terminology.hl7.org/CodeSystem/v3-ActStatus"
+                  displayName="En préparation"/>
+         <Concept code="suspended"
+                  codeSystem="http://terminology.hl7.org/CodeSystem/v3-ActStatus"
+                  displayName="Suspendu (au cours de sa réalisation)"/>
+      </ConceptList>
+   </ValueSet>
+</RetrieveValueSetResponse>

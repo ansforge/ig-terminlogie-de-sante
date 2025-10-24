@@ -1,0 +1,2995 @@
+# ASS_X13_AgregatClientele - Terminologies de Santé v1.3.0
+
+* [**Table of Contents**](toc.md)
+* [**Artifacts Summary**](artifacts.md)
+* **ASS_X13_AgregatClientele**
+
+## ConceptMap: ASS_X13_AgregatClientele 
+
+| | |
+| :--- | :--- |
+| *Official URL*:https://mos.esante.gouv.fr/NOS/ASS_X13-AgregatClientele/FHIR/ASS-X13-AgregatClientele | *Version*:20240628120000 |
+| Active as of 2024-06-28 | *Computable Name*:ASS_X13_AgregatClientele |
+| *Other Identifiers:*urn:oid:1.2.250.1.213.1.6.1.194 | |
+
+ 
+Association d’agrégats de clientèle 
+
+Mapping from (non spécifié) to (non spécifié)
+
+**Group 1**Mapping from [TRE_R293_AgregatClienteleNiv2](CodeSystem-TRE-R293-AgregatClienteleNiv2.md) to [TRE_R294_AgregatClienteleNiv3](CodeSystem-TRE-R294-AgregatClienteleNiv3.md)
+
+* **Codes**from[TRE_R293_AgregatClienteleNiv2](CodeSystem-TRE-R293-AgregatClienteleNiv2.md): 1000
+  * **TRER279Clientele**: Personnes Handicapées
+  * : 010
+  * **Codes**from[TRE_R294_AgregatClienteleNiv3](CodeSystem-TRE-R294-AgregatClienteleNiv3.md): [narrower](http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#narrower)
+  * : 1100
+  * ?: 
+  * ?: TO DO
+* **Codes**from[TRE_R293_AgregatClienteleNiv2](CodeSystem-TRE-R293-AgregatClienteleNiv2.md): 1000
+  * **TRER279Clientele**: Personnes Handicapées
+  * : 011
+  * **Codes**from[TRE_R294_AgregatClienteleNiv3](CodeSystem-TRE-R294-AgregatClienteleNiv3.md): [narrower](http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#narrower)
+  * : 1100
+  * ?: 
+  * ?: TO DO
+* **Codes**from[TRE_R293_AgregatClienteleNiv2](CodeSystem-TRE-R293-AgregatClienteleNiv2.md): 1000
+  * **TRER279Clientele**: Personnes Handicapées
+  * : 020
+  * **Codes**from[TRE_R294_AgregatClienteleNiv3](CodeSystem-TRE-R294-AgregatClienteleNiv3.md): [narrower](http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#narrower)
+  * : 1100
+  * ?: 
+  * ?: TO DO
+* **Codes**from[TRE_R293_AgregatClienteleNiv2](CodeSystem-TRE-R293-AgregatClienteleNiv2.md): 1000
+  * **TRER279Clientele**: Personnes Handicapées
+  * : 030
+  * **Codes**from[TRE_R294_AgregatClienteleNiv3](CodeSystem-TRE-R294-AgregatClienteleNiv3.md): [narrower](http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#narrower)
+  * : 1100
+  * ?: 
+  * ?: TO DO
+* **Codes**from[TRE_R293_AgregatClienteleNiv2](CodeSystem-TRE-R293-AgregatClienteleNiv2.md): 1000
+  * **TRER279Clientele**: Personnes Handicapées
+  * : 437
+  * **Codes**from[TRE_R294_AgregatClienteleNiv3](CodeSystem-TRE-R294-AgregatClienteleNiv3.md): [narrower](http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#narrower)
+  * : 1100
+  * ?: 
+  * ?: TO DO
+* **Codes**from[TRE_R293_AgregatClienteleNiv2](CodeSystem-TRE-R293-AgregatClienteleNiv2.md): 1000
+  * **TRER279Clientele**: Personnes Handicapées
+  * : 438
+  * **Codes**from[TRE_R294_AgregatClienteleNiv3](CodeSystem-TRE-R294-AgregatClienteleNiv3.md): [narrower](http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#narrower)
+  * : 1100
+  * ?: 
+  * ?: TO DO
+* **Codes**from[TRE_R293_AgregatClienteleNiv2](CodeSystem-TRE-R293-AgregatClienteleNiv2.md): 1000
+  * **TRER279Clientele**: Personnes Handicapées
+  * : 441
+  * **Codes**from[TRE_R294_AgregatClienteleNiv3](CodeSystem-TRE-R294-AgregatClienteleNiv3.md): [narrower](http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#narrower)
+  * : 1100
+  * ?: 
+  * ?: TO DO
+* **Codes**from[TRE_R293_AgregatClienteleNiv2](CodeSystem-TRE-R293-AgregatClienteleNiv2.md): 1000
+  * **TRER279Clientele**: Personnes Handicapées
+  * : 999
+  * **Codes**from[TRE_R294_AgregatClienteleNiv3](CodeSystem-TRE-R294-AgregatClienteleNiv3.md): [narrower](http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#narrower)
+  * : 1100
+  * ?: 
+  * ?: TO DO
+* **Codes**from[TRE_R293_AgregatClienteleNiv2](CodeSystem-TRE-R293-AgregatClienteleNiv2.md): 1000
+  * **TRER279Clientele**: Personnes Handicapées
+  * : 110
+  * **Codes**from[TRE_R294_AgregatClienteleNiv3](CodeSystem-TRE-R294-AgregatClienteleNiv3.md): [narrower](http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#narrower)
+  * : 1200
+  * ?: 
+  * ?: TO DO
+* **Codes**from[TRE_R293_AgregatClienteleNiv2](CodeSystem-TRE-R293-AgregatClienteleNiv2.md): 1000
+  * **TRER279Clientele**: Personnes Handicapées
+  * : 111
+  * **Codes**from[TRE_R294_AgregatClienteleNiv3](CodeSystem-TRE-R294-AgregatClienteleNiv3.md): [narrower](http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#narrower)
+  * : 1200
+  * ?: 
+  * ?: TO DO
+* **Codes**from[TRE_R293_AgregatClienteleNiv2](CodeSystem-TRE-R293-AgregatClienteleNiv2.md): 1000
+  * **TRER279Clientele**: Personnes Handicapées
+  * : 112
+  * **Codes**from[TRE_R294_AgregatClienteleNiv3](CodeSystem-TRE-R294-AgregatClienteleNiv3.md): [narrower](http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#narrower)
+  * : 1200
+  * ?: 
+  * ?: TO DO
+* **Codes**from[TRE_R293_AgregatClienteleNiv2](CodeSystem-TRE-R293-AgregatClienteleNiv2.md): 1000
+  * **TRER279Clientele**: Personnes Handicapées
+  * : 113
+  * **Codes**from[TRE_R294_AgregatClienteleNiv3](CodeSystem-TRE-R294-AgregatClienteleNiv3.md): [narrower](http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#narrower)
+  * : 1200
+  * ?: 
+  * ?: TO DO
+* **Codes**from[TRE_R293_AgregatClienteleNiv2](CodeSystem-TRE-R293-AgregatClienteleNiv2.md): 1000
+  * **TRER279Clientele**: Personnes Handicapées
+  * : 114
+  * **Codes**from[TRE_R294_AgregatClienteleNiv3](CodeSystem-TRE-R294-AgregatClienteleNiv3.md): [narrower](http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#narrower)
+  * : 1200
+  * ?: 
+  * ?: TO DO
+* **Codes**from[TRE_R293_AgregatClienteleNiv2](CodeSystem-TRE-R293-AgregatClienteleNiv2.md): 1000
+  * **TRER279Clientele**: Personnes Handicapées
+  * : 115
+  * **Codes**from[TRE_R294_AgregatClienteleNiv3](CodeSystem-TRE-R294-AgregatClienteleNiv3.md): [narrower](http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#narrower)
+  * : 1200
+  * ?: 
+  * ?: TO DO
+* **Codes**from[TRE_R293_AgregatClienteleNiv2](CodeSystem-TRE-R293-AgregatClienteleNiv2.md): 1000
+  * **TRER279Clientele**: Personnes Handicapées
+  * : 116
+  * **Codes**from[TRE_R294_AgregatClienteleNiv3](CodeSystem-TRE-R294-AgregatClienteleNiv3.md): [narrower](http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#narrower)
+  * : 1200
+  * ?: 
+  * ?: TO DO
+* **Codes**from[TRE_R293_AgregatClienteleNiv2](CodeSystem-TRE-R293-AgregatClienteleNiv2.md): 1000
+  * **TRER279Clientele**: Personnes Handicapées
+  * : 117
+  * **Codes**from[TRE_R294_AgregatClienteleNiv3](CodeSystem-TRE-R294-AgregatClienteleNiv3.md): [narrower](http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#narrower)
+  * : 1200
+  * ?: 
+  * ?: TO DO
+* **Codes**from[TRE_R293_AgregatClienteleNiv2](CodeSystem-TRE-R293-AgregatClienteleNiv2.md): 1000
+  * **TRER279Clientele**: Personnes Handicapées
+  * : 118
+  * **Codes**from[TRE_R294_AgregatClienteleNiv3](CodeSystem-TRE-R294-AgregatClienteleNiv3.md): [narrower](http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#narrower)
+  * : 1200
+  * ?: 
+  * ?: TO DO
+* **Codes**from[TRE_R293_AgregatClienteleNiv2](CodeSystem-TRE-R293-AgregatClienteleNiv2.md): 1000
+  * **TRER279Clientele**: Personnes Handicapées
+  * : 120
+  * **Codes**from[TRE_R294_AgregatClienteleNiv3](CodeSystem-TRE-R294-AgregatClienteleNiv3.md): [narrower](http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#narrower)
+  * : 1200
+  * ?: 
+  * ?: TO DO
+* **Codes**from[TRE_R293_AgregatClienteleNiv2](CodeSystem-TRE-R293-AgregatClienteleNiv2.md): 1000
+  * **TRER279Clientele**: Personnes Handicapées
+  * : 121
+  * **Codes**from[TRE_R294_AgregatClienteleNiv3](CodeSystem-TRE-R294-AgregatClienteleNiv3.md): [narrower](http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#narrower)
+  * : 1200
+  * ?: 
+  * ?: TO DO
+* **Codes**from[TRE_R293_AgregatClienteleNiv2](CodeSystem-TRE-R293-AgregatClienteleNiv2.md): 1000
+  * **TRER279Clientele**: Personnes Handicapées
+  * : 125
+  * **Codes**from[TRE_R294_AgregatClienteleNiv3](CodeSystem-TRE-R294-AgregatClienteleNiv3.md): [narrower](http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#narrower)
+  * : 1200
+  * ?: 
+  * ?: TO DO
+* **Codes**from[TRE_R293_AgregatClienteleNiv2](CodeSystem-TRE-R293-AgregatClienteleNiv2.md): 1000
+  * **TRER279Clientele**: Personnes Handicapées
+  * : 128
+  * **Codes**from[TRE_R294_AgregatClienteleNiv3](CodeSystem-TRE-R294-AgregatClienteleNiv3.md): [narrower](http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#narrower)
+  * : 1200
+  * ?: 
+  * ?: TO DO
+* **Codes**from[TRE_R293_AgregatClienteleNiv2](CodeSystem-TRE-R293-AgregatClienteleNiv2.md): 1000
+  * **TRER279Clientele**: Personnes Handicapées
+  * : 200
+  * **Codes**from[TRE_R294_AgregatClienteleNiv3](CodeSystem-TRE-R294-AgregatClienteleNiv3.md): [narrower](http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#narrower)
+  * : 1300
+  * ?: 
+  * ?: TO DO
+* **Codes**from[TRE_R293_AgregatClienteleNiv2](CodeSystem-TRE-R293-AgregatClienteleNiv2.md): 1000
+  * **TRER279Clientele**: Personnes Handicapées
+  * : 201
+  * **Codes**from[TRE_R294_AgregatClienteleNiv3](CodeSystem-TRE-R294-AgregatClienteleNiv3.md): [narrower](http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#narrower)
+  * : 1300
+  * ?: 
+  * ?: TO DO
+* **Codes**from[TRE_R293_AgregatClienteleNiv2](CodeSystem-TRE-R293-AgregatClienteleNiv2.md): 1000
+  * **TRER279Clientele**: Personnes Handicapées
+  * : 202
+  * **Codes**from[TRE_R294_AgregatClienteleNiv3](CodeSystem-TRE-R294-AgregatClienteleNiv3.md): [narrower](http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#narrower)
+  * : 1300
+  * ?: 
+  * ?: TO DO
+* **Codes**from[TRE_R293_AgregatClienteleNiv2](CodeSystem-TRE-R293-AgregatClienteleNiv2.md): 1000
+  * **TRER279Clientele**: Personnes Handicapées
+  * : 203
+  * **Codes**from[TRE_R294_AgregatClienteleNiv3](CodeSystem-TRE-R294-AgregatClienteleNiv3.md): [narrower](http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#narrower)
+  * : 1300
+  * ?: 
+  * ?: TO DO
+* **Codes**from[TRE_R293_AgregatClienteleNiv2](CodeSystem-TRE-R293-AgregatClienteleNiv2.md): 1000
+  * **TRER279Clientele**: Personnes Handicapées
+  * : 204
+  * **Codes**from[TRE_R294_AgregatClienteleNiv3](CodeSystem-TRE-R294-AgregatClienteleNiv3.md): [narrower](http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#narrower)
+  * : 1300
+  * ?: 
+  * ?: TO DO
+* **Codes**from[TRE_R293_AgregatClienteleNiv2](CodeSystem-TRE-R293-AgregatClienteleNiv2.md): 1000
+  * **TRER279Clientele**: Personnes Handicapées
+  * : 205
+  * **Codes**from[TRE_R294_AgregatClienteleNiv3](CodeSystem-TRE-R294-AgregatClienteleNiv3.md): [narrower](http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#narrower)
+  * : 1300
+  * ?: 
+  * ?: TO DO
+* **Codes**from[TRE_R293_AgregatClienteleNiv2](CodeSystem-TRE-R293-AgregatClienteleNiv2.md): 1000
+  * **TRER279Clientele**: Personnes Handicapées
+  * : 206
+  * **Codes**from[TRE_R294_AgregatClienteleNiv3](CodeSystem-TRE-R294-AgregatClienteleNiv3.md): [narrower](http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#narrower)
+  * : 1300
+  * ?: 
+  * ?: TO DO
+* **Codes**from[TRE_R293_AgregatClienteleNiv2](CodeSystem-TRE-R293-AgregatClienteleNiv2.md): 1000
+  * **TRER279Clientele**: Personnes Handicapées
+  * : 207
+  * **Codes**from[TRE_R294_AgregatClienteleNiv3](CodeSystem-TRE-R294-AgregatClienteleNiv3.md): [narrower](http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#narrower)
+  * : 1300
+  * ?: 
+  * ?: TO DO
+* **Codes**from[TRE_R293_AgregatClienteleNiv2](CodeSystem-TRE-R293-AgregatClienteleNiv2.md): 1000
+  * **TRER279Clientele**: Personnes Handicapées
+  * : 410
+  * **Codes**from[TRE_R294_AgregatClienteleNiv3](CodeSystem-TRE-R294-AgregatClienteleNiv3.md): [narrower](http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#narrower)
+  * : 1500
+  * ?: 
+  * ?: TO DO
+* **Codes**from[TRE_R293_AgregatClienteleNiv2](CodeSystem-TRE-R293-AgregatClienteleNiv2.md): 1000
+  * **TRER279Clientele**: Personnes Handicapées
+  * : 411
+  * **Codes**from[TRE_R294_AgregatClienteleNiv3](CodeSystem-TRE-R294-AgregatClienteleNiv3.md): [narrower](http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#narrower)
+  * : 1500
+  * ?: 
+  * ?: TO DO
+* **Codes**from[TRE_R293_AgregatClienteleNiv2](CodeSystem-TRE-R293-AgregatClienteleNiv2.md): 1000
+  * **TRER279Clientele**: Personnes Handicapées
+  * : 412
+  * **Codes**from[TRE_R294_AgregatClienteleNiv3](CodeSystem-TRE-R294-AgregatClienteleNiv3.md): [narrower](http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#narrower)
+  * : 1500
+  * ?: 
+  * ?: TO DO
+* **Codes**from[TRE_R293_AgregatClienteleNiv2](CodeSystem-TRE-R293-AgregatClienteleNiv2.md): 1000
+  * **TRER279Clientele**: Personnes Handicapées
+  * : 413
+  * **Codes**from[TRE_R294_AgregatClienteleNiv3](CodeSystem-TRE-R294-AgregatClienteleNiv3.md): [narrower](http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#narrower)
+  * : 1500
+  * ?: 
+  * ?: TO DO
+* **Codes**from[TRE_R293_AgregatClienteleNiv2](CodeSystem-TRE-R293-AgregatClienteleNiv2.md): 1000
+  * **TRER279Clientele**: Personnes Handicapées
+  * : 414
+  * **Codes**from[TRE_R294_AgregatClienteleNiv3](CodeSystem-TRE-R294-AgregatClienteleNiv3.md): [narrower](http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#narrower)
+  * : 1500
+  * ?: 
+  * ?: TO DO
+* **Codes**from[TRE_R293_AgregatClienteleNiv2](CodeSystem-TRE-R293-AgregatClienteleNiv2.md): 1000
+  * **TRER279Clientele**: Personnes Handicapées
+  * : 420
+  * **Codes**from[TRE_R294_AgregatClienteleNiv3](CodeSystem-TRE-R294-AgregatClienteleNiv3.md): [narrower](http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#narrower)
+  * : 1500
+  * ?: 
+  * ?: TO DO
+* **Codes**from[TRE_R293_AgregatClienteleNiv2](CodeSystem-TRE-R293-AgregatClienteleNiv2.md): 1000
+  * **TRER279Clientele**: Personnes Handicapées
+  * : 500
+  * **Codes**from[TRE_R294_AgregatClienteleNiv3](CodeSystem-TRE-R294-AgregatClienteleNiv3.md): [narrower](http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#narrower)
+  * : 1600
+  * ?: 
+  * ?: TO DO
+* **Codes**from[TRE_R293_AgregatClienteleNiv2](CodeSystem-TRE-R293-AgregatClienteleNiv2.md): 1000
+  * **TRER279Clientele**: Personnes Handicapées
+  * : 501
+  * **Codes**from[TRE_R294_AgregatClienteleNiv3](CodeSystem-TRE-R294-AgregatClienteleNiv3.md): [narrower](http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#narrower)
+  * : 1600
+  * ?: 
+  * ?: TO DO
+* **Codes**from[TRE_R293_AgregatClienteleNiv2](CodeSystem-TRE-R293-AgregatClienteleNiv2.md): 1000
+  * **TRER279Clientele**: Personnes Handicapées
+  * : 502
+  * **Codes**from[TRE_R294_AgregatClienteleNiv3](CodeSystem-TRE-R294-AgregatClienteleNiv3.md): [narrower](http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#narrower)
+  * : 1600
+  * ?: 
+  * ?: TO DO
+* **Codes**from[TRE_R293_AgregatClienteleNiv2](CodeSystem-TRE-R293-AgregatClienteleNiv2.md): 1000
+  * **TRER279Clientele**: Personnes Handicapées
+  * : 503
+  * **Codes**from[TRE_R294_AgregatClienteleNiv3](CodeSystem-TRE-R294-AgregatClienteleNiv3.md): [narrower](http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#narrower)
+  * : 1600
+  * ?: 
+  * ?: TO DO
+* **Codes**from[TRE_R293_AgregatClienteleNiv2](CodeSystem-TRE-R293-AgregatClienteleNiv2.md): 1000
+  * **TRER279Clientele**: Personnes Handicapées
+  * : 506
+  * **Codes**from[TRE_R294_AgregatClienteleNiv3](CodeSystem-TRE-R294-AgregatClienteleNiv3.md): [narrower](http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#narrower)
+  * : 1600
+  * ?: 
+  * ?: TO DO
+* **Codes**from[TRE_R293_AgregatClienteleNiv2](CodeSystem-TRE-R293-AgregatClienteleNiv2.md): 1000
+  * **TRER279Clientele**: Personnes Handicapées
+  * : 310
+  * **Codes**from[TRE_R294_AgregatClienteleNiv3](CodeSystem-TRE-R294-AgregatClienteleNiv3.md): [narrower](http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#narrower)
+  * : 1700
+  * ?: 
+  * ?: TO DO
+* **Codes**from[TRE_R293_AgregatClienteleNiv2](CodeSystem-TRE-R293-AgregatClienteleNiv2.md): 1000
+  * **TRER279Clientele**: Personnes Handicapées
+  * : 311
+  * **Codes**from[TRE_R294_AgregatClienteleNiv3](CodeSystem-TRE-R294-AgregatClienteleNiv3.md): [narrower](http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#narrower)
+  * : 1700
+  * ?: 
+  * ?: TO DO
+* **Codes**from[TRE_R293_AgregatClienteleNiv2](CodeSystem-TRE-R293-AgregatClienteleNiv2.md): 1000
+  * **TRER279Clientele**: Personnes Handicapées
+  * : 312
+  * **Codes**from[TRE_R294_AgregatClienteleNiv3](CodeSystem-TRE-R294-AgregatClienteleNiv3.md): [narrower](http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#narrower)
+  * : 1700
+  * ?: 
+  * ?: TO DO
+* **Codes**from[TRE_R293_AgregatClienteleNiv2](CodeSystem-TRE-R293-AgregatClienteleNiv2.md): 1000
+  * **TRER279Clientele**: Personnes Handicapées
+  * : 313
+  * **Codes**from[TRE_R294_AgregatClienteleNiv3](CodeSystem-TRE-R294-AgregatClienteleNiv3.md): [narrower](http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#narrower)
+  * : 1700
+  * ?: 
+  * ?: TO DO
+* **Codes**from[TRE_R293_AgregatClienteleNiv2](CodeSystem-TRE-R293-AgregatClienteleNiv2.md): 1000
+  * **TRER279Clientele**: Personnes Handicapées
+  * : 317
+  * **Codes**from[TRE_R294_AgregatClienteleNiv3](CodeSystem-TRE-R294-AgregatClienteleNiv3.md): [narrower](http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#narrower)
+  * : 1700
+  * ?: 
+  * ?: TO DO
+* **Codes**from[TRE_R293_AgregatClienteleNiv2](CodeSystem-TRE-R293-AgregatClienteleNiv2.md): 1000
+  * **TRER279Clientele**: Personnes Handicapées
+  * : 318
+  * **Codes**from[TRE_R294_AgregatClienteleNiv3](CodeSystem-TRE-R294-AgregatClienteleNiv3.md): [narrower](http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#narrower)
+  * : 1700
+  * ?: 
+  * ?: TO DO
+* **Codes**from[TRE_R293_AgregatClienteleNiv2](CodeSystem-TRE-R293-AgregatClienteleNiv2.md): 1000
+  * **TRER279Clientele**: Personnes Handicapées
+  * : 320
+  * **Codes**from[TRE_R294_AgregatClienteleNiv3](CodeSystem-TRE-R294-AgregatClienteleNiv3.md): [narrower](http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#narrower)
+  * : 1800
+  * ?: 
+  * ?: TO DO
+* **Codes**from[TRE_R293_AgregatClienteleNiv2](CodeSystem-TRE-R293-AgregatClienteleNiv2.md): 1000
+  * **TRER279Clientele**: Personnes Handicapées
+  * : 321
+  * **Codes**from[TRE_R294_AgregatClienteleNiv3](CodeSystem-TRE-R294-AgregatClienteleNiv3.md): [narrower](http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#narrower)
+  * : 1800
+  * ?: 
+  * ?: TO DO
+* **Codes**from[TRE_R293_AgregatClienteleNiv2](CodeSystem-TRE-R293-AgregatClienteleNiv2.md): 1000
+  * **TRER279Clientele**: Personnes Handicapées
+  * : 322
+  * **Codes**from[TRE_R294_AgregatClienteleNiv3](CodeSystem-TRE-R294-AgregatClienteleNiv3.md): [narrower](http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#narrower)
+  * : 1800
+  * ?: 
+  * ?: TO DO
+* **Codes**from[TRE_R293_AgregatClienteleNiv2](CodeSystem-TRE-R293-AgregatClienteleNiv2.md): 1000
+  * **TRER279Clientele**: Personnes Handicapées
+  * : 323
+  * **Codes**from[TRE_R294_AgregatClienteleNiv3](CodeSystem-TRE-R294-AgregatClienteleNiv3.md): [narrower](http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#narrower)
+  * : 1800
+  * ?: 
+  * ?: TO DO
+* **Codes**from[TRE_R293_AgregatClienteleNiv2](CodeSystem-TRE-R293-AgregatClienteleNiv2.md): 1000
+  * **TRER279Clientele**: Personnes Handicapées
+  * : 324
+  * **Codes**from[TRE_R294_AgregatClienteleNiv3](CodeSystem-TRE-R294-AgregatClienteleNiv3.md): [narrower](http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#narrower)
+  * : 1800
+  * ?: 
+  * ?: TO DO
+* **Codes**from[TRE_R293_AgregatClienteleNiv2](CodeSystem-TRE-R293-AgregatClienteleNiv2.md): 1000
+  * **TRER279Clientele**: Personnes Handicapées
+  * : 327
+  * **Codes**from[TRE_R294_AgregatClienteleNiv3](CodeSystem-TRE-R294-AgregatClienteleNiv3.md): [narrower](http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#narrower)
+  * : 1800
+  * ?: 
+  * ?: TO DO
+* **Codes**from[TRE_R293_AgregatClienteleNiv2](CodeSystem-TRE-R293-AgregatClienteleNiv2.md): 1000
+  * **TRER279Clientele**: Personnes Handicapées
+  * : 510
+  * **Codes**from[TRE_R294_AgregatClienteleNiv3](CodeSystem-TRE-R294-AgregatClienteleNiv3.md): [narrower](http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#narrower)
+  * : 1900
+  * ?: 
+  * ?: TO DO
+* **Codes**from[TRE_R293_AgregatClienteleNiv2](CodeSystem-TRE-R293-AgregatClienteleNiv2.md): 1000
+  * **TRER279Clientele**: Personnes Handicapées
+  * : 511
+  * **Codes**from[TRE_R294_AgregatClienteleNiv3](CodeSystem-TRE-R294-AgregatClienteleNiv3.md): [narrower](http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#narrower)
+  * : 1900
+  * ?: 
+  * ?: TO DO
+* **Codes**from[TRE_R293_AgregatClienteleNiv2](CodeSystem-TRE-R293-AgregatClienteleNiv2.md): 1000
+  * **TRER279Clientele**: Personnes Handicapées
+  * : 512
+  * **Codes**from[TRE_R294_AgregatClienteleNiv3](CodeSystem-TRE-R294-AgregatClienteleNiv3.md): [narrower](http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#narrower)
+  * : 1900
+  * ?: 
+  * ?: TO DO
+* **Codes**from[TRE_R293_AgregatClienteleNiv2](CodeSystem-TRE-R293-AgregatClienteleNiv2.md): 2000
+  * **TRER279Clientele**: Personnes Agées
+  * : 700
+  * **Codes**from[TRE_R294_AgregatClienteleNiv3](CodeSystem-TRE-R294-AgregatClienteleNiv3.md): [narrower](http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#narrower)
+  * : 2100
+  * ?: 
+  * ?: TO DO
+* **Codes**from[TRE_R293_AgregatClienteleNiv2](CodeSystem-TRE-R293-AgregatClienteleNiv2.md): 2000
+  * **TRER279Clientele**: Personnes Agées
+  * : 701
+  * **Codes**from[TRE_R294_AgregatClienteleNiv3](CodeSystem-TRE-R294-AgregatClienteleNiv3.md): [narrower](http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#narrower)
+  * : 2100
+  * ?: 
+  * ?: TO DO
+* **Codes**from[TRE_R293_AgregatClienteleNiv2](CodeSystem-TRE-R293-AgregatClienteleNiv2.md): 2000
+  * **TRER279Clientele**: Personnes Agées
+  * : 702
+  * **Codes**from[TRE_R294_AgregatClienteleNiv3](CodeSystem-TRE-R294-AgregatClienteleNiv3.md): [narrower](http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#narrower)
+  * : 2100
+  * ?: 
+  * ?: TO DO
+* **Codes**from[TRE_R293_AgregatClienteleNiv2](CodeSystem-TRE-R293-AgregatClienteleNiv2.md): 2000
+  * **TRER279Clientele**: Personnes Agées
+  * : 703
+  * **Codes**from[TRE_R294_AgregatClienteleNiv3](CodeSystem-TRE-R294-AgregatClienteleNiv3.md): [narrower](http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#narrower)
+  * : 2100
+  * ?: 
+  * ?: TO DO
+* **Codes**from[TRE_R293_AgregatClienteleNiv2](CodeSystem-TRE-R293-AgregatClienteleNiv2.md): 2000
+  * **TRER279Clientele**: Personnes Agées
+  * : 704
+  * **Codes**from[TRE_R294_AgregatClienteleNiv3](CodeSystem-TRE-R294-AgregatClienteleNiv3.md): [narrower](http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#narrower)
+  * : 2100
+  * ?: 
+  * ?: TO DO
+* **Codes**from[TRE_R293_AgregatClienteleNiv2](CodeSystem-TRE-R293-AgregatClienteleNiv2.md): 2000
+  * **TRER279Clientele**: Personnes Agées
+  * : 707
+  * **Codes**from[TRE_R294_AgregatClienteleNiv3](CodeSystem-TRE-R294-AgregatClienteleNiv3.md): [narrower](http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#narrower)
+  * : 2100
+  * ?: 
+  * ?: TO DO
+* **Codes**from[TRE_R293_AgregatClienteleNiv2](CodeSystem-TRE-R293-AgregatClienteleNiv2.md): 2000
+  * **TRER279Clientele**: Personnes Agées
+  * : 710
+  * **Codes**from[TRE_R294_AgregatClienteleNiv3](CodeSystem-TRE-R294-AgregatClienteleNiv3.md): [narrower](http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#narrower)
+  * : 2100
+  * ?: 
+  * ?: TO DO
+* **Codes**from[TRE_R293_AgregatClienteleNiv2](CodeSystem-TRE-R293-AgregatClienteleNiv2.md): 2000
+  * **TRER279Clientele**: Personnes Agées
+  * : 711
+  * **Codes**from[TRE_R294_AgregatClienteleNiv3](CodeSystem-TRE-R294-AgregatClienteleNiv3.md): [narrower](http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#narrower)
+  * : 2100
+  * ?: 
+  * ?: TO DO
+* **Codes**from[TRE_R293_AgregatClienteleNiv2](CodeSystem-TRE-R293-AgregatClienteleNiv2.md): 3000
+  * **TRER279Clientele**: Enfants et Adolescents (Aide Soc Just)
+  * : 800
+  * **Codes**from[TRE_R294_AgregatClienteleNiv3](CodeSystem-TRE-R294-AgregatClienteleNiv3.md): [narrower](http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#narrower)
+  * : 3100
+  * ?: 
+  * ?: TO DO
+* **Codes**from[TRE_R293_AgregatClienteleNiv2](CodeSystem-TRE-R293-AgregatClienteleNiv2.md): 3000
+  * **TRER279Clientele**: Enfants et Adolescents (Aide Soc Just)
+  * : 801
+  * **Codes**from[TRE_R294_AgregatClienteleNiv3](CodeSystem-TRE-R294-AgregatClienteleNiv3.md): [narrower](http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#narrower)
+  * : 3100
+  * ?: 
+  * ?: TO DO
+* **Codes**from[TRE_R293_AgregatClienteleNiv2](CodeSystem-TRE-R293-AgregatClienteleNiv2.md): 3000
+  * **TRER279Clientele**: Enfants et Adolescents (Aide Soc Just)
+  * : 802
+  * **Codes**from[TRE_R294_AgregatClienteleNiv3](CodeSystem-TRE-R294-AgregatClienteleNiv3.md): [narrower](http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#narrower)
+  * : 3100
+  * ?: 
+  * ?: TO DO
+* **Codes**from[TRE_R293_AgregatClienteleNiv2](CodeSystem-TRE-R293-AgregatClienteleNiv2.md): 3000
+  * **TRER279Clientele**: Enfants et Adolescents (Aide Soc Just)
+  * : 803
+  * **Codes**from[TRE_R294_AgregatClienteleNiv3](CodeSystem-TRE-R294-AgregatClienteleNiv3.md): [narrower](http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#narrower)
+  * : 3100
+  * ?: 
+  * ?: TO DO
+* **Codes**from[TRE_R293_AgregatClienteleNiv2](CodeSystem-TRE-R293-AgregatClienteleNiv2.md): 3000
+  * **TRER279Clientele**: Enfants et Adolescents (Aide Soc Just)
+  * : 804
+  * **Codes**from[TRE_R294_AgregatClienteleNiv3](CodeSystem-TRE-R294-AgregatClienteleNiv3.md): [narrower](http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#narrower)
+  * : 3100
+  * ?: 
+  * ?: TO DO
+* **Codes**from[TRE_R293_AgregatClienteleNiv2](CodeSystem-TRE-R293-AgregatClienteleNiv2.md): 3000
+  * **TRER279Clientele**: Enfants et Adolescents (Aide Soc Just)
+  * : 805
+  * **Codes**from[TRE_R294_AgregatClienteleNiv3](CodeSystem-TRE-R294-AgregatClienteleNiv3.md): [narrower](http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#narrower)
+  * : 3100
+  * ?: 
+  * ?: TO DO
+* **Codes**from[TRE_R293_AgregatClienteleNiv2](CodeSystem-TRE-R293-AgregatClienteleNiv2.md): 3000
+  * **TRER279Clientele**: Enfants et Adolescents (Aide Soc Just)
+  * : 806
+  * **Codes**from[TRE_R294_AgregatClienteleNiv3](CodeSystem-TRE-R294-AgregatClienteleNiv3.md): [narrower](http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#narrower)
+  * : 3100
+  * ?: 
+  * ?: TO DO
+* **Codes**from[TRE_R293_AgregatClienteleNiv2](CodeSystem-TRE-R293-AgregatClienteleNiv2.md): 4000
+  * **TRER279Clientele**: Autres Enfants
+  * : 808
+  * **Codes**from[TRE_R294_AgregatClienteleNiv3](CodeSystem-TRE-R294-AgregatClienteleNiv3.md): [narrower](http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#narrower)
+  * : 4100
+  * ?: 
+  * ?: TO DO
+* **Codes**from[TRE_R293_AgregatClienteleNiv2](CodeSystem-TRE-R293-AgregatClienteleNiv2.md): 4000
+  * **TRER279Clientele**: Autres Enfants
+  * : 809
+  * **Codes**from[TRE_R294_AgregatClienteleNiv3](CodeSystem-TRE-R294-AgregatClienteleNiv3.md): [narrower](http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#narrower)
+  * : 4100
+  * ?: 
+  * ?: TO DO
+* **Codes**from[TRE_R293_AgregatClienteleNiv2](CodeSystem-TRE-R293-AgregatClienteleNiv2.md): 5000
+  * **TRER279Clientele**: Personnes et Familles en Difficulté
+  * : 810
+  * **Codes**from[TRE_R294_AgregatClienteleNiv3](CodeSystem-TRE-R294-AgregatClienteleNiv3.md): [narrower](http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#narrower)
+  * : 5100
+  * ?: 
+  * ?: TO DO
+* **Codes**from[TRE_R293_AgregatClienteleNiv2](CodeSystem-TRE-R293-AgregatClienteleNiv2.md): 5000
+  * **TRER279Clientele**: Personnes et Familles en Difficulté
+  * : 811
+  * **Codes**from[TRE_R294_AgregatClienteleNiv3](CodeSystem-TRE-R294-AgregatClienteleNiv3.md): [narrower](http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#narrower)
+  * : 5100
+  * ?: 
+  * ?: TO DO
+* **Codes**from[TRE_R293_AgregatClienteleNiv2](CodeSystem-TRE-R293-AgregatClienteleNiv2.md): 5000
+  * **TRER279Clientele**: Personnes et Familles en Difficulté
+  * : 812
+  * **Codes**from[TRE_R294_AgregatClienteleNiv3](CodeSystem-TRE-R294-AgregatClienteleNiv3.md): [narrower](http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#narrower)
+  * : 5100
+  * ?: 
+  * ?: TO DO
+* **Codes**from[TRE_R293_AgregatClienteleNiv2](CodeSystem-TRE-R293-AgregatClienteleNiv2.md): 5000
+  * **TRER279Clientele**: Personnes et Familles en Difficulté
+  * : 815
+  * **Codes**from[TRE_R294_AgregatClienteleNiv3](CodeSystem-TRE-R294-AgregatClienteleNiv3.md): [narrower](http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#narrower)
+  * : 5100
+  * ?: 
+  * ?: TO DO
+* **Codes**from[TRE_R293_AgregatClienteleNiv2](CodeSystem-TRE-R293-AgregatClienteleNiv2.md): 5000
+  * **TRER279Clientele**: Personnes et Familles en Difficulté
+  * : 816
+  * **Codes**from[TRE_R294_AgregatClienteleNiv3](CodeSystem-TRE-R294-AgregatClienteleNiv3.md): [narrower](http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#narrower)
+  * : 5100
+  * ?: 
+  * ?: TO DO
+* **Codes**from[TRE_R293_AgregatClienteleNiv2](CodeSystem-TRE-R293-AgregatClienteleNiv2.md): 5000
+  * **TRER279Clientele**: Personnes et Familles en Difficulté
+  * : 817
+  * **Codes**from[TRE_R294_AgregatClienteleNiv3](CodeSystem-TRE-R294-AgregatClienteleNiv3.md): [narrower](http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#narrower)
+  * : 5100
+  * ?: 
+  * ?: TO DO
+* **Codes**from[TRE_R293_AgregatClienteleNiv2](CodeSystem-TRE-R293-AgregatClienteleNiv2.md): 5000
+  * **TRER279Clientele**: Personnes et Familles en Difficulté
+  * : 818
+  * **Codes**from[TRE_R294_AgregatClienteleNiv3](CodeSystem-TRE-R294-AgregatClienteleNiv3.md): [narrower](http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#narrower)
+  * : 5100
+  * ?: 
+  * ?: TO DO
+* **Codes**from[TRE_R293_AgregatClienteleNiv2](CodeSystem-TRE-R293-AgregatClienteleNiv2.md): 5000
+  * **TRER279Clientele**: Personnes et Familles en Difficulté
+  * : 819
+  * **Codes**from[TRE_R294_AgregatClienteleNiv3](CodeSystem-TRE-R294-AgregatClienteleNiv3.md): [narrower](http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#narrower)
+  * : 5100
+  * ?: 
+  * ?: TO DO
+* **Codes**from[TRE_R293_AgregatClienteleNiv2](CodeSystem-TRE-R293-AgregatClienteleNiv2.md): 5000
+  * **TRER279Clientele**: Personnes et Familles en Difficulté
+  * : 820
+  * **Codes**from[TRE_R294_AgregatClienteleNiv3](CodeSystem-TRE-R294-AgregatClienteleNiv3.md): [narrower](http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#narrower)
+  * : 5100
+  * ?: 
+  * ?: TO DO
+* **Codes**from[TRE_R293_AgregatClienteleNiv2](CodeSystem-TRE-R293-AgregatClienteleNiv2.md): 5000
+  * **TRER279Clientele**: Personnes et Familles en Difficulté
+  * : 831
+  * **Codes**from[TRE_R294_AgregatClienteleNiv3](CodeSystem-TRE-R294-AgregatClienteleNiv3.md): [narrower](http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#narrower)
+  * : 5100
+  * ?: 
+  * ?: TO DO
+* **Codes**from[TRE_R293_AgregatClienteleNiv2](CodeSystem-TRE-R293-AgregatClienteleNiv2.md): 5000
+  * **TRER279Clientele**: Personnes et Familles en Difficulté
+  * : 832
+  * **Codes**from[TRE_R294_AgregatClienteleNiv3](CodeSystem-TRE-R294-AgregatClienteleNiv3.md): [narrower](http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#narrower)
+  * : 5100
+  * ?: 
+  * ?: TO DO
+* **Codes**from[TRE_R293_AgregatClienteleNiv2](CodeSystem-TRE-R293-AgregatClienteleNiv2.md): 5000
+  * **TRER279Clientele**: Personnes et Familles en Difficulté
+  * : 836
+  * **Codes**from[TRE_R294_AgregatClienteleNiv3](CodeSystem-TRE-R294-AgregatClienteleNiv3.md): [narrower](http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#narrower)
+  * : 5100
+  * ?: 
+  * ?: TO DO
+* **Codes**from[TRE_R293_AgregatClienteleNiv2](CodeSystem-TRE-R293-AgregatClienteleNiv2.md): 5000
+  * **TRER279Clientele**: Personnes et Familles en Difficulté
+  * : 840
+  * **Codes**from[TRE_R294_AgregatClienteleNiv3](CodeSystem-TRE-R294-AgregatClienteleNiv3.md): [narrower](http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#narrower)
+  * : 5100
+  * ?: 
+  * ?: TO DO
+* **Codes**from[TRE_R293_AgregatClienteleNiv2](CodeSystem-TRE-R293-AgregatClienteleNiv2.md): 5000
+  * **TRER279Clientele**: Personnes et Familles en Difficulté
+  * : 899
+  * **Codes**from[TRE_R294_AgregatClienteleNiv3](CodeSystem-TRE-R294-AgregatClienteleNiv3.md): [narrower](http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#narrower)
+  * : 5100
+  * ?: 
+  * ?: TO DO
+* **Codes**from[TRE_R293_AgregatClienteleNiv2](CodeSystem-TRE-R293-AgregatClienteleNiv2.md): 5000
+  * **TRER279Clientele**: Personnes et Familles en Difficulté
+  * : 821
+  * **Codes**from[TRE_R294_AgregatClienteleNiv3](CodeSystem-TRE-R294-AgregatClienteleNiv3.md): [narrower](http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#narrower)
+  * : 5200
+  * ?: 
+  * ?: TO DO
+* **Codes**from[TRE_R293_AgregatClienteleNiv2](CodeSystem-TRE-R293-AgregatClienteleNiv2.md): 5000
+  * **TRER279Clientele**: Personnes et Familles en Difficulté
+  * : 822
+  * **Codes**from[TRE_R294_AgregatClienteleNiv3](CodeSystem-TRE-R294-AgregatClienteleNiv3.md): [narrower](http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#narrower)
+  * : 5200
+  * ?: 
+  * ?: TO DO
+* **Codes**from[TRE_R293_AgregatClienteleNiv2](CodeSystem-TRE-R293-AgregatClienteleNiv2.md): 5000
+  * **TRER279Clientele**: Personnes et Familles en Difficulté
+  * : 824
+  * **Codes**from[TRE_R294_AgregatClienteleNiv3](CodeSystem-TRE-R294-AgregatClienteleNiv3.md): [narrower](http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#narrower)
+  * : 5200
+  * ?: 
+  * ?: TO DO
+* **Codes**from[TRE_R293_AgregatClienteleNiv2](CodeSystem-TRE-R293-AgregatClienteleNiv2.md): 5000
+  * **TRER279Clientele**: Personnes et Familles en Difficulté
+  * : 827
+  * **Codes**from[TRE_R294_AgregatClienteleNiv3](CodeSystem-TRE-R294-AgregatClienteleNiv3.md): [narrower](http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#narrower)
+  * : 5200
+  * ?: 
+  * ?: TO DO
+* **Codes**from[TRE_R293_AgregatClienteleNiv2](CodeSystem-TRE-R293-AgregatClienteleNiv2.md): 5000
+  * **TRER279Clientele**: Personnes et Familles en Difficulté
+  * : 829
+  * **Codes**from[TRE_R294_AgregatClienteleNiv3](CodeSystem-TRE-R294-AgregatClienteleNiv3.md): [narrower](http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#narrower)
+  * : 5200
+  * ?: 
+  * ?: TO DO
+* **Codes**from[TRE_R293_AgregatClienteleNiv2](CodeSystem-TRE-R293-AgregatClienteleNiv2.md): 5000
+  * **TRER279Clientele**: Personnes et Familles en Difficulté
+  * : 830
+  * **Codes**from[TRE_R294_AgregatClienteleNiv3](CodeSystem-TRE-R294-AgregatClienteleNiv3.md): [narrower](http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#narrower)
+  * : 5200
+  * ?: 
+  * ?: TO DO
+* **Codes**from[TRE_R293_AgregatClienteleNiv2](CodeSystem-TRE-R293-AgregatClienteleNiv2.md): 5000
+  * **TRER279Clientele**: Personnes et Familles en Difficulté
+  * : 835
+  * **Codes**from[TRE_R294_AgregatClienteleNiv3](CodeSystem-TRE-R294-AgregatClienteleNiv3.md): [narrower](http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#narrower)
+  * : 5200
+  * ?: 
+  * ?: TO DO
+* **Codes**from[TRE_R293_AgregatClienteleNiv2](CodeSystem-TRE-R293-AgregatClienteleNiv2.md): 5000
+  * **TRER279Clientele**: Personnes et Familles en Difficulté
+  * : 807
+  * **Codes**from[TRE_R294_AgregatClienteleNiv3](CodeSystem-TRE-R294-AgregatClienteleNiv3.md): [narrower](http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#narrower)
+  * : 5300
+  * ?: 
+  * ?: TO DO
+* **Codes**from[TRE_R293_AgregatClienteleNiv2](CodeSystem-TRE-R293-AgregatClienteleNiv2.md): 5000
+  * **TRER279Clientele**: Personnes et Familles en Difficulté
+  * : 860
+  * **Codes**from[TRE_R294_AgregatClienteleNiv3](CodeSystem-TRE-R294-AgregatClienteleNiv3.md): [narrower](http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#narrower)
+  * : 5300
+  * ?: 
+  * ?: TO DO
+* **Codes**from[TRE_R293_AgregatClienteleNiv2](CodeSystem-TRE-R293-AgregatClienteleNiv2.md): 5000
+  * **TRER279Clientele**: Personnes et Familles en Difficulté
+  * : 861
+  * **Codes**from[TRE_R294_AgregatClienteleNiv3](CodeSystem-TRE-R294-AgregatClienteleNiv3.md): [narrower](http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#narrower)
+  * : 5300
+  * ?: 
+  * ?: TO DO
+* **Codes**from[TRE_R293_AgregatClienteleNiv2](CodeSystem-TRE-R293-AgregatClienteleNiv2.md): 5000
+  * **TRER279Clientele**: Personnes et Familles en Difficulté
+  * : 862
+  * **Codes**from[TRE_R294_AgregatClienteleNiv3](CodeSystem-TRE-R294-AgregatClienteleNiv3.md): [narrower](http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#narrower)
+  * : 5300
+  * ?: 
+  * ?: TO DO
+* **Codes**from[TRE_R293_AgregatClienteleNiv2](CodeSystem-TRE-R293-AgregatClienteleNiv2.md): 6000
+  * **TRER279Clientele**: Autres Catégories de Clientèles
+  * : 823
+  * **Codes**from[TRE_R294_AgregatClienteleNiv3](CodeSystem-TRE-R294-AgregatClienteleNiv3.md): [narrower](http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#narrower)
+  * : 6100
+  * ?: 
+  * ?: TO DO
+* **Codes**from[TRE_R293_AgregatClienteleNiv2](CodeSystem-TRE-R293-AgregatClienteleNiv2.md): 6000
+  * **TRER279Clientele**: Autres Catégories de Clientèles
+  * : 825
+  * **Codes**from[TRE_R294_AgregatClienteleNiv3](CodeSystem-TRE-R294-AgregatClienteleNiv3.md): [narrower](http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#narrower)
+  * : 6100
+  * ?: 
+  * ?: TO DO
+* **Codes**from[TRE_R293_AgregatClienteleNiv2](CodeSystem-TRE-R293-AgregatClienteleNiv2.md): 6000
+  * **TRER279Clientele**: Autres Catégories de Clientèles
+  * : 826
+  * **Codes**from[TRE_R294_AgregatClienteleNiv3](CodeSystem-TRE-R294-AgregatClienteleNiv3.md): [narrower](http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#narrower)
+  * : 6100
+  * ?: 
+  * ?: TO DO
+* **Codes**from[TRE_R293_AgregatClienteleNiv2](CodeSystem-TRE-R293-AgregatClienteleNiv2.md): 6000
+  * **TRER279Clientele**: Autres Catégories de Clientèles
+  * : 828
+  * **Codes**from[TRE_R294_AgregatClienteleNiv3](CodeSystem-TRE-R294-AgregatClienteleNiv3.md): [narrower](http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#narrower)
+  * : 6100
+  * ?: 
+  * ?: TO DO
+* **Codes**from[TRE_R293_AgregatClienteleNiv2](CodeSystem-TRE-R293-AgregatClienteleNiv2.md): 6000
+  * **TRER279Clientele**: Autres Catégories de Clientèles
+  * : 833
+  * **Codes**from[TRE_R294_AgregatClienteleNiv3](CodeSystem-TRE-R294-AgregatClienteleNiv3.md): [narrower](http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#narrower)
+  * : 6100
+  * ?: 
+  * ?: TO DO
+* **Codes**from[TRE_R293_AgregatClienteleNiv2](CodeSystem-TRE-R293-AgregatClienteleNiv2.md): 6000
+  * **TRER279Clientele**: Autres Catégories de Clientèles
+  * : 834
+  * **Codes**from[TRE_R294_AgregatClienteleNiv3](CodeSystem-TRE-R294-AgregatClienteleNiv3.md): [narrower](http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#narrower)
+  * : 6100
+  * ?: 
+  * ?: TO DO
+* **Codes**from[TRE_R293_AgregatClienteleNiv2](CodeSystem-TRE-R293-AgregatClienteleNiv2.md): 6000
+  * **TRER279Clientele**: Autres Catégories de Clientèles
+  * : 040
+  * **Codes**from[TRE_R294_AgregatClienteleNiv3](CodeSystem-TRE-R294-AgregatClienteleNiv3.md): [narrower](http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#narrower)
+  * : 6200
+  * ?: 
+  * ?: TO DO
+* **Codes**from[TRE_R293_AgregatClienteleNiv2](CodeSystem-TRE-R293-AgregatClienteleNiv2.md): 6000
+  * **TRER279Clientele**: Autres Catégories de Clientèles
+  * : 041
+  * **Codes**from[TRE_R294_AgregatClienteleNiv3](CodeSystem-TRE-R294-AgregatClienteleNiv3.md): [narrower](http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#narrower)
+  * : 6200
+  * ?: 
+  * ?: TO DO
+* **Codes**from[TRE_R293_AgregatClienteleNiv2](CodeSystem-TRE-R293-AgregatClienteleNiv2.md): 6000
+  * **TRER279Clientele**: Autres Catégories de Clientèles
+  * : 042
+  * **Codes**from[TRE_R294_AgregatClienteleNiv3](CodeSystem-TRE-R294-AgregatClienteleNiv3.md): [narrower](http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#narrower)
+  * : 6200
+  * ?: 
+  * ?: TO DO
+* **Codes**from[TRE_R293_AgregatClienteleNiv2](CodeSystem-TRE-R293-AgregatClienteleNiv2.md): 6000
+  * **TRER279Clientele**: Autres Catégories de Clientèles
+  * : 043
+  * **Codes**from[TRE_R294_AgregatClienteleNiv3](CodeSystem-TRE-R294-AgregatClienteleNiv3.md): [narrower](http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#narrower)
+  * : 6200
+  * ?: 
+  * ?: TO DO
+* **Codes**from[TRE_R293_AgregatClienteleNiv2](CodeSystem-TRE-R293-AgregatClienteleNiv2.md): 7000
+  * **TRER279Clientele**: Toute Population
+  * : 990
+  * **Codes**from[TRE_R294_AgregatClienteleNiv3](CodeSystem-TRE-R294-AgregatClienteleNiv3.md): [narrower](http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#narrower)
+  * : 7100
+  * ?: 
+  * ?: TO DO
+* **Codes**from[TRE_R293_AgregatClienteleNiv2](CodeSystem-TRE-R293-AgregatClienteleNiv2.md): 8000
+  * **TRER279Clientele**: Personnes ayant des pathologies ou difficultés spécifiques
+  * : 600
+  * **Codes**from[TRE_R294_AgregatClienteleNiv3](CodeSystem-TRE-R294-AgregatClienteleNiv3.md): [narrower](http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#narrower)
+  * : 8100
+  * ?: 
+  * ?: TO DO
+* **Codes**from[TRE_R293_AgregatClienteleNiv2](CodeSystem-TRE-R293-AgregatClienteleNiv2.md): 8000
+  * **TRER279Clientele**: Personnes ayant des pathologies ou difficultés spécifiques
+  * : 601
+  * **Codes**from[TRE_R294_AgregatClienteleNiv3](CodeSystem-TRE-R294-AgregatClienteleNiv3.md): [narrower](http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#narrower)
+  * : 8100
+  * ?: 
+  * ?: TO DO
+* **Codes**from[TRE_R293_AgregatClienteleNiv2](CodeSystem-TRE-R293-AgregatClienteleNiv2.md): 8000
+  * **TRER279Clientele**: Personnes ayant des pathologies ou difficultés spécifiques
+  * : 602
+  * **Codes**from[TRE_R294_AgregatClienteleNiv3](CodeSystem-TRE-R294-AgregatClienteleNiv3.md): [narrower](http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#narrower)
+  * : 8100
+  * ?: 
+  * ?: TO DO
+* **Codes**from[TRE_R293_AgregatClienteleNiv2](CodeSystem-TRE-R293-AgregatClienteleNiv2.md): 8000
+  * **TRER279Clientele**: Personnes ayant des pathologies ou difficultés spécifiques
+  * : 620
+  * **Codes**from[TRE_R294_AgregatClienteleNiv3](CodeSystem-TRE-R294-AgregatClienteleNiv3.md): [narrower](http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#narrower)
+  * : 8200
+  * ?: 
+  * ?: TO DO
+* **Codes**from[TRE_R293_AgregatClienteleNiv2](CodeSystem-TRE-R293-AgregatClienteleNiv2.md): 8000
+  * **TRER279Clientele**: Personnes ayant des pathologies ou difficultés spécifiques
+  * : 430
+  * **Codes**from[TRE_R294_AgregatClienteleNiv3](CodeSystem-TRE-R294-AgregatClienteleNiv3.md): [narrower](http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#narrower)
+  * : 8300
+  * ?: 
+  * ?: TO DO
+* **Codes**from[TRE_R293_AgregatClienteleNiv2](CodeSystem-TRE-R293-AgregatClienteleNiv2.md): 8000
+  * **TRER279Clientele**: Personnes ayant des pathologies ou difficultés spécifiques
+  * : 431
+  * **Codes**from[TRE_R294_AgregatClienteleNiv3](CodeSystem-TRE-R294-AgregatClienteleNiv3.md): [narrower](http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#narrower)
+  * : 8300
+  * ?: 
+  * ?: TO DO
+* **Codes**from[TRE_R293_AgregatClienteleNiv2](CodeSystem-TRE-R293-AgregatClienteleNiv2.md): 8000
+  * **TRER279Clientele**: Personnes ayant des pathologies ou difficultés spécifiques
+  * : 432
+  * **Codes**from[TRE_R294_AgregatClienteleNiv3](CodeSystem-TRE-R294-AgregatClienteleNiv3.md): [narrower](http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#narrower)
+  * : 8300
+  * ?: 
+  * ?: TO DO
+* **Codes**from[TRE_R293_AgregatClienteleNiv2](CodeSystem-TRE-R293-AgregatClienteleNiv2.md): 8000
+  * **TRER279Clientele**: Personnes ayant des pathologies ou difficultés spécifiques
+  * : 433
+  * **Codes**from[TRE_R294_AgregatClienteleNiv3](CodeSystem-TRE-R294-AgregatClienteleNiv3.md): [narrower](http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#narrower)
+  * : 8300
+  * ?: 
+  * ?: TO DO
+* **Codes**from[TRE_R293_AgregatClienteleNiv2](CodeSystem-TRE-R293-AgregatClienteleNiv2.md): 8000
+  * **TRER279Clientele**: Personnes ayant des pathologies ou difficultés spécifiques
+  * : 434
+  * **Codes**from[TRE_R294_AgregatClienteleNiv3](CodeSystem-TRE-R294-AgregatClienteleNiv3.md): [narrower](http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#narrower)
+  * : 8300
+  * ?: 
+  * ?: TO DO
+* **Codes**from[TRE_R293_AgregatClienteleNiv2](CodeSystem-TRE-R293-AgregatClienteleNiv2.md): 8000
+  * **TRER279Clientele**: Personnes ayant des pathologies ou difficultés spécifiques
+  * : 435
+  * **Codes**from[TRE_R294_AgregatClienteleNiv3](CodeSystem-TRE-R294-AgregatClienteleNiv3.md): [narrower](http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#narrower)
+  * : 8300
+  * ?: 
+  * ?: TO DO
+* **Codes**from[TRE_R293_AgregatClienteleNiv2](CodeSystem-TRE-R293-AgregatClienteleNiv2.md): 8000
+  * **TRER279Clientele**: Personnes ayant des pathologies ou difficultés spécifiques
+  * : 436
+  * **Codes**from[TRE_R294_AgregatClienteleNiv3](CodeSystem-TRE-R294-AgregatClienteleNiv3.md): [narrower](http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#narrower)
+  * : 8300
+  * ?: 
+  * ?: TO DO
+* **Codes**from[TRE_R293_AgregatClienteleNiv2](CodeSystem-TRE-R293-AgregatClienteleNiv2.md): 8000
+  * **TRER279Clientele**: Personnes ayant des pathologies ou difficultés spécifiques
+  * : 439
+  * **Codes**from[TRE_R294_AgregatClienteleNiv3](CodeSystem-TRE-R294-AgregatClienteleNiv3.md): [narrower](http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#narrower)
+  * : 8300
+  * ?: 
+  * ?: TO DO
+* **Codes**from[TRE_R293_AgregatClienteleNiv2](CodeSystem-TRE-R293-AgregatClienteleNiv2.md): 8000
+  * **TRER279Clientele**: Personnes ayant des pathologies ou difficultés spécifiques
+  * : 440
+  * **Codes**from[TRE_R294_AgregatClienteleNiv3](CodeSystem-TRE-R294-AgregatClienteleNiv3.md): [narrower](http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#narrower)
+  * : 8300
+  * ?: 
+  * ?: TO DO
+* **Codes**from[TRE_R293_AgregatClienteleNiv2](CodeSystem-TRE-R293-AgregatClienteleNiv2.md): 8000
+  * **TRER279Clientele**: Personnes ayant des pathologies ou difficultés spécifiques
+  * : 813
+  * **Codes**from[TRE_R294_AgregatClienteleNiv3](CodeSystem-TRE-R294-AgregatClienteleNiv3.md): [narrower](http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#narrower)
+  * : 8400
+  * ?: 
+  * ?: TO DO
+* **Codes**from[TRE_R293_AgregatClienteleNiv2](CodeSystem-TRE-R293-AgregatClienteleNiv2.md): 8000
+  * **TRER279Clientele**: Personnes ayant des pathologies ou difficultés spécifiques
+  * : 814
+  * **Codes**from[TRE_R294_AgregatClienteleNiv3](CodeSystem-TRE-R294-AgregatClienteleNiv3.md): [narrower](http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#narrower)
+  * : 8400
+  * ?: 
+  * ?: TO DO
+* **Codes**from[TRE_R293_AgregatClienteleNiv2](CodeSystem-TRE-R293-AgregatClienteleNiv2.md): 8000
+  * **TRER279Clientele**: Personnes ayant des pathologies ou difficultés spécifiques
+  * : 850
+  * **Codes**from[TRE_R294_AgregatClienteleNiv3](CodeSystem-TRE-R294-AgregatClienteleNiv3.md): [narrower](http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#narrower)
+  * : 8400
+  * ?: 
+  * ?: TO DO
+* **Codes**from[TRE_R293_AgregatClienteleNiv2](CodeSystem-TRE-R293-AgregatClienteleNiv2.md): 8000
+  * **TRER279Clientele**: Personnes ayant des pathologies ou difficultés spécifiques
+  * : 851
+  * **Codes**from[TRE_R294_AgregatClienteleNiv3](CodeSystem-TRE-R294-AgregatClienteleNiv3.md): [narrower](http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#narrower)
+  * : 8400
+  * ?: 
+  * ?: TO DO
+* **Codes**from[TRE_R293_AgregatClienteleNiv2](CodeSystem-TRE-R293-AgregatClienteleNiv2.md): 8000
+  * **TRER279Clientele**: Personnes ayant des pathologies ou difficultés spécifiques
+  * : 852
+  * **Codes**from[TRE_R294_AgregatClienteleNiv3](CodeSystem-TRE-R294-AgregatClienteleNiv3.md): [narrower](http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#narrower)
+  * : 8400
+  * ?: 
+  * ?: TO DO
+* **Codes**from[TRE_R293_AgregatClienteleNiv2](CodeSystem-TRE-R293-AgregatClienteleNiv2.md): 8000
+  * **TRER279Clientele**: Personnes ayant des pathologies ou difficultés spécifiques
+  * : 853
+  * **Codes**from[TRE_R294_AgregatClienteleNiv3](CodeSystem-TRE-R294-AgregatClienteleNiv3.md): [narrower](http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#narrower)
+  * : 8400
+  * ?: 
+  * ?: TO DO
+
+
+
+## Resource Content
+
+```json
+{
+  "resourceType" : "ConceptMap",
+  "id" : "ASS-X13-AgregatClientele",
+  "extension" : [
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod",
+      "valuePeriod" : {
+        "start" : "2020-06-26T12:00:00+01:00"
+      }
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/concept-bidirectional",
+      "valueBoolean" : false
+    }
+  ],
+  "url" : "https://mos.esante.gouv.fr/NOS/ASS_X13-AgregatClientele/FHIR/ASS-X13-AgregatClientele",
+  "identifier" : {
+    "value" : "urn:oid:1.2.250.1.213.1.6.1.194"
+  },
+  "version" : "20240628120000",
+  "name" : "ASS_X13_AgregatClientele",
+  "title" : "ASS_X13_AgregatClientele",
+  "status" : "active",
+  "experimental" : false,
+  "date" : "2024-06-28T12:00:00+01:00",
+  "description" : "Association d'agrégats de clientèle",
+  "jurisdiction" : [
+    {
+      "coding" : [
+        {
+          "system" : "urn:iso:std:iso:3166",
+          "code" : "FRA"
+        }
+      ]
+    }
+  ],
+  "group" : [
+    {
+      "source" : "https://mos.esante.gouv.fr/NOS/TRE_R293-AgregatClienteleNiv2/FHIR/TRE-R293-AgregatClienteleNiv2",
+      "target" : "https://mos.esante.gouv.fr/NOS/TRE_R294-AgregatClienteleNiv3/FHIR/TRE-R294-AgregatClienteleNiv3",
+      "element" : [
+        {
+          "code" : "1000",
+          "target" : [
+            {
+              "code" : "1100",
+              "equivalence" : "narrower",
+              "comment" : "TO DO",
+              "dependsOn" : [
+                {
+                  "property" : "https://mos.esante.gouv.fr/NOS/TRE_R279-Clientele/FHIR/TRE-R279-Clientele",
+                  "value" : "010"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "code" : "1000",
+          "target" : [
+            {
+              "code" : "1100",
+              "equivalence" : "narrower",
+              "comment" : "TO DO",
+              "dependsOn" : [
+                {
+                  "property" : "https://mos.esante.gouv.fr/NOS/TRE_R279-Clientele/FHIR/TRE-R279-Clientele",
+                  "value" : "011"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "code" : "1000",
+          "target" : [
+            {
+              "code" : "1100",
+              "equivalence" : "narrower",
+              "comment" : "TO DO",
+              "dependsOn" : [
+                {
+                  "property" : "https://mos.esante.gouv.fr/NOS/TRE_R279-Clientele/FHIR/TRE-R279-Clientele",
+                  "value" : "020"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "code" : "1000",
+          "target" : [
+            {
+              "code" : "1100",
+              "equivalence" : "narrower",
+              "comment" : "TO DO",
+              "dependsOn" : [
+                {
+                  "property" : "https://mos.esante.gouv.fr/NOS/TRE_R279-Clientele/FHIR/TRE-R279-Clientele",
+                  "value" : "030"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "code" : "1000",
+          "target" : [
+            {
+              "code" : "1100",
+              "equivalence" : "narrower",
+              "comment" : "TO DO",
+              "dependsOn" : [
+                {
+                  "property" : "https://mos.esante.gouv.fr/NOS/TRE_R279-Clientele/FHIR/TRE-R279-Clientele",
+                  "value" : "437"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "code" : "1000",
+          "target" : [
+            {
+              "code" : "1100",
+              "equivalence" : "narrower",
+              "comment" : "TO DO",
+              "dependsOn" : [
+                {
+                  "property" : "https://mos.esante.gouv.fr/NOS/TRE_R279-Clientele/FHIR/TRE-R279-Clientele",
+                  "value" : "438"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "code" : "1000",
+          "target" : [
+            {
+              "code" : "1100",
+              "equivalence" : "narrower",
+              "comment" : "TO DO",
+              "dependsOn" : [
+                {
+                  "property" : "https://mos.esante.gouv.fr/NOS/TRE_R279-Clientele/FHIR/TRE-R279-Clientele",
+                  "value" : "441"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "code" : "1000",
+          "target" : [
+            {
+              "code" : "1100",
+              "equivalence" : "narrower",
+              "comment" : "TO DO",
+              "dependsOn" : [
+                {
+                  "property" : "https://mos.esante.gouv.fr/NOS/TRE_R279-Clientele/FHIR/TRE-R279-Clientele",
+                  "value" : "999"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "code" : "1000",
+          "target" : [
+            {
+              "code" : "1200",
+              "equivalence" : "narrower",
+              "comment" : "TO DO",
+              "dependsOn" : [
+                {
+                  "property" : "https://mos.esante.gouv.fr/NOS/TRE_R279-Clientele/FHIR/TRE-R279-Clientele",
+                  "value" : "110"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "code" : "1000",
+          "target" : [
+            {
+              "code" : "1200",
+              "equivalence" : "narrower",
+              "comment" : "TO DO",
+              "dependsOn" : [
+                {
+                  "property" : "https://mos.esante.gouv.fr/NOS/TRE_R279-Clientele/FHIR/TRE-R279-Clientele",
+                  "value" : "111"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "code" : "1000",
+          "target" : [
+            {
+              "code" : "1200",
+              "equivalence" : "narrower",
+              "comment" : "TO DO",
+              "dependsOn" : [
+                {
+                  "property" : "https://mos.esante.gouv.fr/NOS/TRE_R279-Clientele/FHIR/TRE-R279-Clientele",
+                  "value" : "112"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "code" : "1000",
+          "target" : [
+            {
+              "code" : "1200",
+              "equivalence" : "narrower",
+              "comment" : "TO DO",
+              "dependsOn" : [
+                {
+                  "property" : "https://mos.esante.gouv.fr/NOS/TRE_R279-Clientele/FHIR/TRE-R279-Clientele",
+                  "value" : "113"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "code" : "1000",
+          "target" : [
+            {
+              "code" : "1200",
+              "equivalence" : "narrower",
+              "comment" : "TO DO",
+              "dependsOn" : [
+                {
+                  "property" : "https://mos.esante.gouv.fr/NOS/TRE_R279-Clientele/FHIR/TRE-R279-Clientele",
+                  "value" : "114"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "code" : "1000",
+          "target" : [
+            {
+              "code" : "1200",
+              "equivalence" : "narrower",
+              "comment" : "TO DO",
+              "dependsOn" : [
+                {
+                  "property" : "https://mos.esante.gouv.fr/NOS/TRE_R279-Clientele/FHIR/TRE-R279-Clientele",
+                  "value" : "115"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "code" : "1000",
+          "target" : [
+            {
+              "code" : "1200",
+              "equivalence" : "narrower",
+              "comment" : "TO DO",
+              "dependsOn" : [
+                {
+                  "property" : "https://mos.esante.gouv.fr/NOS/TRE_R279-Clientele/FHIR/TRE-R279-Clientele",
+                  "value" : "116"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "code" : "1000",
+          "target" : [
+            {
+              "code" : "1200",
+              "equivalence" : "narrower",
+              "comment" : "TO DO",
+              "dependsOn" : [
+                {
+                  "property" : "https://mos.esante.gouv.fr/NOS/TRE_R279-Clientele/FHIR/TRE-R279-Clientele",
+                  "value" : "117"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "code" : "1000",
+          "target" : [
+            {
+              "code" : "1200",
+              "equivalence" : "narrower",
+              "comment" : "TO DO",
+              "dependsOn" : [
+                {
+                  "property" : "https://mos.esante.gouv.fr/NOS/TRE_R279-Clientele/FHIR/TRE-R279-Clientele",
+                  "value" : "118"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "code" : "1000",
+          "target" : [
+            {
+              "code" : "1200",
+              "equivalence" : "narrower",
+              "comment" : "TO DO",
+              "dependsOn" : [
+                {
+                  "property" : "https://mos.esante.gouv.fr/NOS/TRE_R279-Clientele/FHIR/TRE-R279-Clientele",
+                  "value" : "120"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "code" : "1000",
+          "target" : [
+            {
+              "code" : "1200",
+              "equivalence" : "narrower",
+              "comment" : "TO DO",
+              "dependsOn" : [
+                {
+                  "property" : "https://mos.esante.gouv.fr/NOS/TRE_R279-Clientele/FHIR/TRE-R279-Clientele",
+                  "value" : "121"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "code" : "1000",
+          "target" : [
+            {
+              "code" : "1200",
+              "equivalence" : "narrower",
+              "comment" : "TO DO",
+              "dependsOn" : [
+                {
+                  "property" : "https://mos.esante.gouv.fr/NOS/TRE_R279-Clientele/FHIR/TRE-R279-Clientele",
+                  "value" : "125"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "code" : "1000",
+          "target" : [
+            {
+              "code" : "1200",
+              "equivalence" : "narrower",
+              "comment" : "TO DO",
+              "dependsOn" : [
+                {
+                  "property" : "https://mos.esante.gouv.fr/NOS/TRE_R279-Clientele/FHIR/TRE-R279-Clientele",
+                  "value" : "128"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "code" : "1000",
+          "target" : [
+            {
+              "code" : "1300",
+              "equivalence" : "narrower",
+              "comment" : "TO DO",
+              "dependsOn" : [
+                {
+                  "property" : "https://mos.esante.gouv.fr/NOS/TRE_R279-Clientele/FHIR/TRE-R279-Clientele",
+                  "value" : "200"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "code" : "1000",
+          "target" : [
+            {
+              "code" : "1300",
+              "equivalence" : "narrower",
+              "comment" : "TO DO",
+              "dependsOn" : [
+                {
+                  "property" : "https://mos.esante.gouv.fr/NOS/TRE_R279-Clientele/FHIR/TRE-R279-Clientele",
+                  "value" : "201"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "code" : "1000",
+          "target" : [
+            {
+              "code" : "1300",
+              "equivalence" : "narrower",
+              "comment" : "TO DO",
+              "dependsOn" : [
+                {
+                  "property" : "https://mos.esante.gouv.fr/NOS/TRE_R279-Clientele/FHIR/TRE-R279-Clientele",
+                  "value" : "202"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "code" : "1000",
+          "target" : [
+            {
+              "code" : "1300",
+              "equivalence" : "narrower",
+              "comment" : "TO DO",
+              "dependsOn" : [
+                {
+                  "property" : "https://mos.esante.gouv.fr/NOS/TRE_R279-Clientele/FHIR/TRE-R279-Clientele",
+                  "value" : "203"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "code" : "1000",
+          "target" : [
+            {
+              "code" : "1300",
+              "equivalence" : "narrower",
+              "comment" : "TO DO",
+              "dependsOn" : [
+                {
+                  "property" : "https://mos.esante.gouv.fr/NOS/TRE_R279-Clientele/FHIR/TRE-R279-Clientele",
+                  "value" : "204"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "code" : "1000",
+          "target" : [
+            {
+              "code" : "1300",
+              "equivalence" : "narrower",
+              "comment" : "TO DO",
+              "dependsOn" : [
+                {
+                  "property" : "https://mos.esante.gouv.fr/NOS/TRE_R279-Clientele/FHIR/TRE-R279-Clientele",
+                  "value" : "205"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "code" : "1000",
+          "target" : [
+            {
+              "code" : "1300",
+              "equivalence" : "narrower",
+              "comment" : "TO DO",
+              "dependsOn" : [
+                {
+                  "property" : "https://mos.esante.gouv.fr/NOS/TRE_R279-Clientele/FHIR/TRE-R279-Clientele",
+                  "value" : "206"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "code" : "1000",
+          "target" : [
+            {
+              "code" : "1300",
+              "equivalence" : "narrower",
+              "comment" : "TO DO",
+              "dependsOn" : [
+                {
+                  "property" : "https://mos.esante.gouv.fr/NOS/TRE_R279-Clientele/FHIR/TRE-R279-Clientele",
+                  "value" : "207"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "code" : "1000",
+          "target" : [
+            {
+              "code" : "1500",
+              "equivalence" : "narrower",
+              "comment" : "TO DO",
+              "dependsOn" : [
+                {
+                  "property" : "https://mos.esante.gouv.fr/NOS/TRE_R279-Clientele/FHIR/TRE-R279-Clientele",
+                  "value" : "410"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "code" : "1000",
+          "target" : [
+            {
+              "code" : "1500",
+              "equivalence" : "narrower",
+              "comment" : "TO DO",
+              "dependsOn" : [
+                {
+                  "property" : "https://mos.esante.gouv.fr/NOS/TRE_R279-Clientele/FHIR/TRE-R279-Clientele",
+                  "value" : "411"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "code" : "1000",
+          "target" : [
+            {
+              "code" : "1500",
+              "equivalence" : "narrower",
+              "comment" : "TO DO",
+              "dependsOn" : [
+                {
+                  "property" : "https://mos.esante.gouv.fr/NOS/TRE_R279-Clientele/FHIR/TRE-R279-Clientele",
+                  "value" : "412"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "code" : "1000",
+          "target" : [
+            {
+              "code" : "1500",
+              "equivalence" : "narrower",
+              "comment" : "TO DO",
+              "dependsOn" : [
+                {
+                  "property" : "https://mos.esante.gouv.fr/NOS/TRE_R279-Clientele/FHIR/TRE-R279-Clientele",
+                  "value" : "413"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "code" : "1000",
+          "target" : [
+            {
+              "code" : "1500",
+              "equivalence" : "narrower",
+              "comment" : "TO DO",
+              "dependsOn" : [
+                {
+                  "property" : "https://mos.esante.gouv.fr/NOS/TRE_R279-Clientele/FHIR/TRE-R279-Clientele",
+                  "value" : "414"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "code" : "1000",
+          "target" : [
+            {
+              "code" : "1500",
+              "equivalence" : "narrower",
+              "comment" : "TO DO",
+              "dependsOn" : [
+                {
+                  "property" : "https://mos.esante.gouv.fr/NOS/TRE_R279-Clientele/FHIR/TRE-R279-Clientele",
+                  "value" : "420"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "code" : "1000",
+          "target" : [
+            {
+              "code" : "1600",
+              "equivalence" : "narrower",
+              "comment" : "TO DO",
+              "dependsOn" : [
+                {
+                  "property" : "https://mos.esante.gouv.fr/NOS/TRE_R279-Clientele/FHIR/TRE-R279-Clientele",
+                  "value" : "500"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "code" : "1000",
+          "target" : [
+            {
+              "code" : "1600",
+              "equivalence" : "narrower",
+              "comment" : "TO DO",
+              "dependsOn" : [
+                {
+                  "property" : "https://mos.esante.gouv.fr/NOS/TRE_R279-Clientele/FHIR/TRE-R279-Clientele",
+                  "value" : "501"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "code" : "1000",
+          "target" : [
+            {
+              "code" : "1600",
+              "equivalence" : "narrower",
+              "comment" : "TO DO",
+              "dependsOn" : [
+                {
+                  "property" : "https://mos.esante.gouv.fr/NOS/TRE_R279-Clientele/FHIR/TRE-R279-Clientele",
+                  "value" : "502"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "code" : "1000",
+          "target" : [
+            {
+              "code" : "1600",
+              "equivalence" : "narrower",
+              "comment" : "TO DO",
+              "dependsOn" : [
+                {
+                  "property" : "https://mos.esante.gouv.fr/NOS/TRE_R279-Clientele/FHIR/TRE-R279-Clientele",
+                  "value" : "503"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "code" : "1000",
+          "target" : [
+            {
+              "code" : "1600",
+              "equivalence" : "narrower",
+              "comment" : "TO DO",
+              "dependsOn" : [
+                {
+                  "property" : "https://mos.esante.gouv.fr/NOS/TRE_R279-Clientele/FHIR/TRE-R279-Clientele",
+                  "value" : "506"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "code" : "1000",
+          "target" : [
+            {
+              "code" : "1700",
+              "equivalence" : "narrower",
+              "comment" : "TO DO",
+              "dependsOn" : [
+                {
+                  "property" : "https://mos.esante.gouv.fr/NOS/TRE_R279-Clientele/FHIR/TRE-R279-Clientele",
+                  "value" : "310"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "code" : "1000",
+          "target" : [
+            {
+              "code" : "1700",
+              "equivalence" : "narrower",
+              "comment" : "TO DO",
+              "dependsOn" : [
+                {
+                  "property" : "https://mos.esante.gouv.fr/NOS/TRE_R279-Clientele/FHIR/TRE-R279-Clientele",
+                  "value" : "311"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "code" : "1000",
+          "target" : [
+            {
+              "code" : "1700",
+              "equivalence" : "narrower",
+              "comment" : "TO DO",
+              "dependsOn" : [
+                {
+                  "property" : "https://mos.esante.gouv.fr/NOS/TRE_R279-Clientele/FHIR/TRE-R279-Clientele",
+                  "value" : "312"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "code" : "1000",
+          "target" : [
+            {
+              "code" : "1700",
+              "equivalence" : "narrower",
+              "comment" : "TO DO",
+              "dependsOn" : [
+                {
+                  "property" : "https://mos.esante.gouv.fr/NOS/TRE_R279-Clientele/FHIR/TRE-R279-Clientele",
+                  "value" : "313"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "code" : "1000",
+          "target" : [
+            {
+              "code" : "1700",
+              "equivalence" : "narrower",
+              "comment" : "TO DO",
+              "dependsOn" : [
+                {
+                  "property" : "https://mos.esante.gouv.fr/NOS/TRE_R279-Clientele/FHIR/TRE-R279-Clientele",
+                  "value" : "317"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "code" : "1000",
+          "target" : [
+            {
+              "code" : "1700",
+              "equivalence" : "narrower",
+              "comment" : "TO DO",
+              "dependsOn" : [
+                {
+                  "property" : "https://mos.esante.gouv.fr/NOS/TRE_R279-Clientele/FHIR/TRE-R279-Clientele",
+                  "value" : "318"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "code" : "1000",
+          "target" : [
+            {
+              "code" : "1800",
+              "equivalence" : "narrower",
+              "comment" : "TO DO",
+              "dependsOn" : [
+                {
+                  "property" : "https://mos.esante.gouv.fr/NOS/TRE_R279-Clientele/FHIR/TRE-R279-Clientele",
+                  "value" : "320"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "code" : "1000",
+          "target" : [
+            {
+              "code" : "1800",
+              "equivalence" : "narrower",
+              "comment" : "TO DO",
+              "dependsOn" : [
+                {
+                  "property" : "https://mos.esante.gouv.fr/NOS/TRE_R279-Clientele/FHIR/TRE-R279-Clientele",
+                  "value" : "321"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "code" : "1000",
+          "target" : [
+            {
+              "code" : "1800",
+              "equivalence" : "narrower",
+              "comment" : "TO DO",
+              "dependsOn" : [
+                {
+                  "property" : "https://mos.esante.gouv.fr/NOS/TRE_R279-Clientele/FHIR/TRE-R279-Clientele",
+                  "value" : "322"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "code" : "1000",
+          "target" : [
+            {
+              "code" : "1800",
+              "equivalence" : "narrower",
+              "comment" : "TO DO",
+              "dependsOn" : [
+                {
+                  "property" : "https://mos.esante.gouv.fr/NOS/TRE_R279-Clientele/FHIR/TRE-R279-Clientele",
+                  "value" : "323"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "code" : "1000",
+          "target" : [
+            {
+              "code" : "1800",
+              "equivalence" : "narrower",
+              "comment" : "TO DO",
+              "dependsOn" : [
+                {
+                  "property" : "https://mos.esante.gouv.fr/NOS/TRE_R279-Clientele/FHIR/TRE-R279-Clientele",
+                  "value" : "324"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "code" : "1000",
+          "target" : [
+            {
+              "code" : "1800",
+              "equivalence" : "narrower",
+              "comment" : "TO DO",
+              "dependsOn" : [
+                {
+                  "property" : "https://mos.esante.gouv.fr/NOS/TRE_R279-Clientele/FHIR/TRE-R279-Clientele",
+                  "value" : "327"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "code" : "1000",
+          "target" : [
+            {
+              "code" : "1900",
+              "equivalence" : "narrower",
+              "comment" : "TO DO",
+              "dependsOn" : [
+                {
+                  "property" : "https://mos.esante.gouv.fr/NOS/TRE_R279-Clientele/FHIR/TRE-R279-Clientele",
+                  "value" : "510"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "code" : "1000",
+          "target" : [
+            {
+              "code" : "1900",
+              "equivalence" : "narrower",
+              "comment" : "TO DO",
+              "dependsOn" : [
+                {
+                  "property" : "https://mos.esante.gouv.fr/NOS/TRE_R279-Clientele/FHIR/TRE-R279-Clientele",
+                  "value" : "511"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "code" : "1000",
+          "target" : [
+            {
+              "code" : "1900",
+              "equivalence" : "narrower",
+              "comment" : "TO DO",
+              "dependsOn" : [
+                {
+                  "property" : "https://mos.esante.gouv.fr/NOS/TRE_R279-Clientele/FHIR/TRE-R279-Clientele",
+                  "value" : "512"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "code" : "2000",
+          "target" : [
+            {
+              "code" : "2100",
+              "equivalence" : "narrower",
+              "comment" : "TO DO",
+              "dependsOn" : [
+                {
+                  "property" : "https://mos.esante.gouv.fr/NOS/TRE_R279-Clientele/FHIR/TRE-R279-Clientele",
+                  "value" : "700"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "code" : "2000",
+          "target" : [
+            {
+              "code" : "2100",
+              "equivalence" : "narrower",
+              "comment" : "TO DO",
+              "dependsOn" : [
+                {
+                  "property" : "https://mos.esante.gouv.fr/NOS/TRE_R279-Clientele/FHIR/TRE-R279-Clientele",
+                  "value" : "701"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "code" : "2000",
+          "target" : [
+            {
+              "code" : "2100",
+              "equivalence" : "narrower",
+              "comment" : "TO DO",
+              "dependsOn" : [
+                {
+                  "property" : "https://mos.esante.gouv.fr/NOS/TRE_R279-Clientele/FHIR/TRE-R279-Clientele",
+                  "value" : "702"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "code" : "2000",
+          "target" : [
+            {
+              "code" : "2100",
+              "equivalence" : "narrower",
+              "comment" : "TO DO",
+              "dependsOn" : [
+                {
+                  "property" : "https://mos.esante.gouv.fr/NOS/TRE_R279-Clientele/FHIR/TRE-R279-Clientele",
+                  "value" : "703"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "code" : "2000",
+          "target" : [
+            {
+              "code" : "2100",
+              "equivalence" : "narrower",
+              "comment" : "TO DO",
+              "dependsOn" : [
+                {
+                  "property" : "https://mos.esante.gouv.fr/NOS/TRE_R279-Clientele/FHIR/TRE-R279-Clientele",
+                  "value" : "704"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "code" : "2000",
+          "target" : [
+            {
+              "code" : "2100",
+              "equivalence" : "narrower",
+              "comment" : "TO DO",
+              "dependsOn" : [
+                {
+                  "property" : "https://mos.esante.gouv.fr/NOS/TRE_R279-Clientele/FHIR/TRE-R279-Clientele",
+                  "value" : "707"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "code" : "2000",
+          "target" : [
+            {
+              "code" : "2100",
+              "equivalence" : "narrower",
+              "comment" : "TO DO",
+              "dependsOn" : [
+                {
+                  "property" : "https://mos.esante.gouv.fr/NOS/TRE_R279-Clientele/FHIR/TRE-R279-Clientele",
+                  "value" : "710"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "code" : "2000",
+          "target" : [
+            {
+              "code" : "2100",
+              "equivalence" : "narrower",
+              "comment" : "TO DO",
+              "dependsOn" : [
+                {
+                  "property" : "https://mos.esante.gouv.fr/NOS/TRE_R279-Clientele/FHIR/TRE-R279-Clientele",
+                  "value" : "711"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "code" : "3000",
+          "target" : [
+            {
+              "code" : "3100",
+              "equivalence" : "narrower",
+              "comment" : "TO DO",
+              "dependsOn" : [
+                {
+                  "property" : "https://mos.esante.gouv.fr/NOS/TRE_R279-Clientele/FHIR/TRE-R279-Clientele",
+                  "value" : "800"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "code" : "3000",
+          "target" : [
+            {
+              "code" : "3100",
+              "equivalence" : "narrower",
+              "comment" : "TO DO",
+              "dependsOn" : [
+                {
+                  "property" : "https://mos.esante.gouv.fr/NOS/TRE_R279-Clientele/FHIR/TRE-R279-Clientele",
+                  "value" : "801"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "code" : "3000",
+          "target" : [
+            {
+              "code" : "3100",
+              "equivalence" : "narrower",
+              "comment" : "TO DO",
+              "dependsOn" : [
+                {
+                  "property" : "https://mos.esante.gouv.fr/NOS/TRE_R279-Clientele/FHIR/TRE-R279-Clientele",
+                  "value" : "802"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "code" : "3000",
+          "target" : [
+            {
+              "code" : "3100",
+              "equivalence" : "narrower",
+              "comment" : "TO DO",
+              "dependsOn" : [
+                {
+                  "property" : "https://mos.esante.gouv.fr/NOS/TRE_R279-Clientele/FHIR/TRE-R279-Clientele",
+                  "value" : "803"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "code" : "3000",
+          "target" : [
+            {
+              "code" : "3100",
+              "equivalence" : "narrower",
+              "comment" : "TO DO",
+              "dependsOn" : [
+                {
+                  "property" : "https://mos.esante.gouv.fr/NOS/TRE_R279-Clientele/FHIR/TRE-R279-Clientele",
+                  "value" : "804"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "code" : "3000",
+          "target" : [
+            {
+              "code" : "3100",
+              "equivalence" : "narrower",
+              "comment" : "TO DO",
+              "dependsOn" : [
+                {
+                  "property" : "https://mos.esante.gouv.fr/NOS/TRE_R279-Clientele/FHIR/TRE-R279-Clientele",
+                  "value" : "805"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "code" : "3000",
+          "target" : [
+            {
+              "code" : "3100",
+              "equivalence" : "narrower",
+              "comment" : "TO DO",
+              "dependsOn" : [
+                {
+                  "property" : "https://mos.esante.gouv.fr/NOS/TRE_R279-Clientele/FHIR/TRE-R279-Clientele",
+                  "value" : "806"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "code" : "4000",
+          "target" : [
+            {
+              "code" : "4100",
+              "equivalence" : "narrower",
+              "comment" : "TO DO",
+              "dependsOn" : [
+                {
+                  "property" : "https://mos.esante.gouv.fr/NOS/TRE_R279-Clientele/FHIR/TRE-R279-Clientele",
+                  "value" : "808"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "code" : "4000",
+          "target" : [
+            {
+              "code" : "4100",
+              "equivalence" : "narrower",
+              "comment" : "TO DO",
+              "dependsOn" : [
+                {
+                  "property" : "https://mos.esante.gouv.fr/NOS/TRE_R279-Clientele/FHIR/TRE-R279-Clientele",
+                  "value" : "809"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "code" : "5000",
+          "target" : [
+            {
+              "code" : "5100",
+              "equivalence" : "narrower",
+              "comment" : "TO DO",
+              "dependsOn" : [
+                {
+                  "property" : "https://mos.esante.gouv.fr/NOS/TRE_R279-Clientele/FHIR/TRE-R279-Clientele",
+                  "value" : "810"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "code" : "5000",
+          "target" : [
+            {
+              "code" : "5100",
+              "equivalence" : "narrower",
+              "comment" : "TO DO",
+              "dependsOn" : [
+                {
+                  "property" : "https://mos.esante.gouv.fr/NOS/TRE_R279-Clientele/FHIR/TRE-R279-Clientele",
+                  "value" : "811"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "code" : "5000",
+          "target" : [
+            {
+              "code" : "5100",
+              "equivalence" : "narrower",
+              "comment" : "TO DO",
+              "dependsOn" : [
+                {
+                  "property" : "https://mos.esante.gouv.fr/NOS/TRE_R279-Clientele/FHIR/TRE-R279-Clientele",
+                  "value" : "812"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "code" : "5000",
+          "target" : [
+            {
+              "code" : "5100",
+              "equivalence" : "narrower",
+              "comment" : "TO DO",
+              "dependsOn" : [
+                {
+                  "property" : "https://mos.esante.gouv.fr/NOS/TRE_R279-Clientele/FHIR/TRE-R279-Clientele",
+                  "value" : "815"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "code" : "5000",
+          "target" : [
+            {
+              "code" : "5100",
+              "equivalence" : "narrower",
+              "comment" : "TO DO",
+              "dependsOn" : [
+                {
+                  "property" : "https://mos.esante.gouv.fr/NOS/TRE_R279-Clientele/FHIR/TRE-R279-Clientele",
+                  "value" : "816"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "code" : "5000",
+          "target" : [
+            {
+              "code" : "5100",
+              "equivalence" : "narrower",
+              "comment" : "TO DO",
+              "dependsOn" : [
+                {
+                  "property" : "https://mos.esante.gouv.fr/NOS/TRE_R279-Clientele/FHIR/TRE-R279-Clientele",
+                  "value" : "817"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "code" : "5000",
+          "target" : [
+            {
+              "code" : "5100",
+              "equivalence" : "narrower",
+              "comment" : "TO DO",
+              "dependsOn" : [
+                {
+                  "property" : "https://mos.esante.gouv.fr/NOS/TRE_R279-Clientele/FHIR/TRE-R279-Clientele",
+                  "value" : "818"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "code" : "5000",
+          "target" : [
+            {
+              "code" : "5100",
+              "equivalence" : "narrower",
+              "comment" : "TO DO",
+              "dependsOn" : [
+                {
+                  "property" : "https://mos.esante.gouv.fr/NOS/TRE_R279-Clientele/FHIR/TRE-R279-Clientele",
+                  "value" : "819"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "code" : "5000",
+          "target" : [
+            {
+              "code" : "5100",
+              "equivalence" : "narrower",
+              "comment" : "TO DO",
+              "dependsOn" : [
+                {
+                  "property" : "https://mos.esante.gouv.fr/NOS/TRE_R279-Clientele/FHIR/TRE-R279-Clientele",
+                  "value" : "820"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "code" : "5000",
+          "target" : [
+            {
+              "code" : "5100",
+              "equivalence" : "narrower",
+              "comment" : "TO DO",
+              "dependsOn" : [
+                {
+                  "property" : "https://mos.esante.gouv.fr/NOS/TRE_R279-Clientele/FHIR/TRE-R279-Clientele",
+                  "value" : "831"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "code" : "5000",
+          "target" : [
+            {
+              "code" : "5100",
+              "equivalence" : "narrower",
+              "comment" : "TO DO",
+              "dependsOn" : [
+                {
+                  "property" : "https://mos.esante.gouv.fr/NOS/TRE_R279-Clientele/FHIR/TRE-R279-Clientele",
+                  "value" : "832"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "code" : "5000",
+          "target" : [
+            {
+              "code" : "5100",
+              "equivalence" : "narrower",
+              "comment" : "TO DO",
+              "dependsOn" : [
+                {
+                  "property" : "https://mos.esante.gouv.fr/NOS/TRE_R279-Clientele/FHIR/TRE-R279-Clientele",
+                  "value" : "836"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "code" : "5000",
+          "target" : [
+            {
+              "code" : "5100",
+              "equivalence" : "narrower",
+              "comment" : "TO DO",
+              "dependsOn" : [
+                {
+                  "property" : "https://mos.esante.gouv.fr/NOS/TRE_R279-Clientele/FHIR/TRE-R279-Clientele",
+                  "value" : "840"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "code" : "5000",
+          "target" : [
+            {
+              "code" : "5100",
+              "equivalence" : "narrower",
+              "comment" : "TO DO",
+              "dependsOn" : [
+                {
+                  "property" : "https://mos.esante.gouv.fr/NOS/TRE_R279-Clientele/FHIR/TRE-R279-Clientele",
+                  "value" : "899"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "code" : "5000",
+          "target" : [
+            {
+              "code" : "5200",
+              "equivalence" : "narrower",
+              "comment" : "TO DO",
+              "dependsOn" : [
+                {
+                  "property" : "https://mos.esante.gouv.fr/NOS/TRE_R279-Clientele/FHIR/TRE-R279-Clientele",
+                  "value" : "821"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "code" : "5000",
+          "target" : [
+            {
+              "code" : "5200",
+              "equivalence" : "narrower",
+              "comment" : "TO DO",
+              "dependsOn" : [
+                {
+                  "property" : "https://mos.esante.gouv.fr/NOS/TRE_R279-Clientele/FHIR/TRE-R279-Clientele",
+                  "value" : "822"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "code" : "5000",
+          "target" : [
+            {
+              "code" : "5200",
+              "equivalence" : "narrower",
+              "comment" : "TO DO",
+              "dependsOn" : [
+                {
+                  "property" : "https://mos.esante.gouv.fr/NOS/TRE_R279-Clientele/FHIR/TRE-R279-Clientele",
+                  "value" : "824"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "code" : "5000",
+          "target" : [
+            {
+              "code" : "5200",
+              "equivalence" : "narrower",
+              "comment" : "TO DO",
+              "dependsOn" : [
+                {
+                  "property" : "https://mos.esante.gouv.fr/NOS/TRE_R279-Clientele/FHIR/TRE-R279-Clientele",
+                  "value" : "827"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "code" : "5000",
+          "target" : [
+            {
+              "code" : "5200",
+              "equivalence" : "narrower",
+              "comment" : "TO DO",
+              "dependsOn" : [
+                {
+                  "property" : "https://mos.esante.gouv.fr/NOS/TRE_R279-Clientele/FHIR/TRE-R279-Clientele",
+                  "value" : "829"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "code" : "5000",
+          "target" : [
+            {
+              "code" : "5200",
+              "equivalence" : "narrower",
+              "comment" : "TO DO",
+              "dependsOn" : [
+                {
+                  "property" : "https://mos.esante.gouv.fr/NOS/TRE_R279-Clientele/FHIR/TRE-R279-Clientele",
+                  "value" : "830"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "code" : "5000",
+          "target" : [
+            {
+              "code" : "5200",
+              "equivalence" : "narrower",
+              "comment" : "TO DO",
+              "dependsOn" : [
+                {
+                  "property" : "https://mos.esante.gouv.fr/NOS/TRE_R279-Clientele/FHIR/TRE-R279-Clientele",
+                  "value" : "835"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "code" : "5000",
+          "target" : [
+            {
+              "code" : "5300",
+              "equivalence" : "narrower",
+              "comment" : "TO DO",
+              "dependsOn" : [
+                {
+                  "property" : "https://mos.esante.gouv.fr/NOS/TRE_R279-Clientele/FHIR/TRE-R279-Clientele",
+                  "value" : "807"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "code" : "5000",
+          "target" : [
+            {
+              "code" : "5300",
+              "equivalence" : "narrower",
+              "comment" : "TO DO",
+              "dependsOn" : [
+                {
+                  "property" : "https://mos.esante.gouv.fr/NOS/TRE_R279-Clientele/FHIR/TRE-R279-Clientele",
+                  "value" : "860"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "code" : "5000",
+          "target" : [
+            {
+              "code" : "5300",
+              "equivalence" : "narrower",
+              "comment" : "TO DO",
+              "dependsOn" : [
+                {
+                  "property" : "https://mos.esante.gouv.fr/NOS/TRE_R279-Clientele/FHIR/TRE-R279-Clientele",
+                  "value" : "861"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "code" : "5000",
+          "target" : [
+            {
+              "code" : "5300",
+              "equivalence" : "narrower",
+              "comment" : "TO DO",
+              "dependsOn" : [
+                {
+                  "property" : "https://mos.esante.gouv.fr/NOS/TRE_R279-Clientele/FHIR/TRE-R279-Clientele",
+                  "value" : "862"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "code" : "6000",
+          "target" : [
+            {
+              "code" : "6100",
+              "equivalence" : "narrower",
+              "comment" : "TO DO",
+              "dependsOn" : [
+                {
+                  "property" : "https://mos.esante.gouv.fr/NOS/TRE_R279-Clientele/FHIR/TRE-R279-Clientele",
+                  "value" : "823"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "code" : "6000",
+          "target" : [
+            {
+              "code" : "6100",
+              "equivalence" : "narrower",
+              "comment" : "TO DO",
+              "dependsOn" : [
+                {
+                  "property" : "https://mos.esante.gouv.fr/NOS/TRE_R279-Clientele/FHIR/TRE-R279-Clientele",
+                  "value" : "825"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "code" : "6000",
+          "target" : [
+            {
+              "code" : "6100",
+              "equivalence" : "narrower",
+              "comment" : "TO DO",
+              "dependsOn" : [
+                {
+                  "property" : "https://mos.esante.gouv.fr/NOS/TRE_R279-Clientele/FHIR/TRE-R279-Clientele",
+                  "value" : "826"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "code" : "6000",
+          "target" : [
+            {
+              "code" : "6100",
+              "equivalence" : "narrower",
+              "comment" : "TO DO",
+              "dependsOn" : [
+                {
+                  "property" : "https://mos.esante.gouv.fr/NOS/TRE_R279-Clientele/FHIR/TRE-R279-Clientele",
+                  "value" : "828"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "code" : "6000",
+          "target" : [
+            {
+              "code" : "6100",
+              "equivalence" : "narrower",
+              "comment" : "TO DO",
+              "dependsOn" : [
+                {
+                  "property" : "https://mos.esante.gouv.fr/NOS/TRE_R279-Clientele/FHIR/TRE-R279-Clientele",
+                  "value" : "833"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "code" : "6000",
+          "target" : [
+            {
+              "code" : "6100",
+              "equivalence" : "narrower",
+              "comment" : "TO DO",
+              "dependsOn" : [
+                {
+                  "property" : "https://mos.esante.gouv.fr/NOS/TRE_R279-Clientele/FHIR/TRE-R279-Clientele",
+                  "value" : "834"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "code" : "6000",
+          "target" : [
+            {
+              "code" : "6200",
+              "equivalence" : "narrower",
+              "comment" : "TO DO",
+              "dependsOn" : [
+                {
+                  "property" : "https://mos.esante.gouv.fr/NOS/TRE_R279-Clientele/FHIR/TRE-R279-Clientele",
+                  "value" : "040"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "code" : "6000",
+          "target" : [
+            {
+              "code" : "6200",
+              "equivalence" : "narrower",
+              "comment" : "TO DO",
+              "dependsOn" : [
+                {
+                  "property" : "https://mos.esante.gouv.fr/NOS/TRE_R279-Clientele/FHIR/TRE-R279-Clientele",
+                  "value" : "041"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "code" : "6000",
+          "target" : [
+            {
+              "code" : "6200",
+              "equivalence" : "narrower",
+              "comment" : "TO DO",
+              "dependsOn" : [
+                {
+                  "property" : "https://mos.esante.gouv.fr/NOS/TRE_R279-Clientele/FHIR/TRE-R279-Clientele",
+                  "value" : "042"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "code" : "6000",
+          "target" : [
+            {
+              "code" : "6200",
+              "equivalence" : "narrower",
+              "comment" : "TO DO",
+              "dependsOn" : [
+                {
+                  "property" : "https://mos.esante.gouv.fr/NOS/TRE_R279-Clientele/FHIR/TRE-R279-Clientele",
+                  "value" : "043"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "code" : "7000",
+          "target" : [
+            {
+              "code" : "7100",
+              "equivalence" : "narrower",
+              "comment" : "TO DO",
+              "dependsOn" : [
+                {
+                  "property" : "https://mos.esante.gouv.fr/NOS/TRE_R279-Clientele/FHIR/TRE-R279-Clientele",
+                  "value" : "990"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "code" : "8000",
+          "target" : [
+            {
+              "code" : "8100",
+              "equivalence" : "narrower",
+              "comment" : "TO DO",
+              "dependsOn" : [
+                {
+                  "property" : "https://mos.esante.gouv.fr/NOS/TRE_R279-Clientele/FHIR/TRE-R279-Clientele",
+                  "value" : "600"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "code" : "8000",
+          "target" : [
+            {
+              "code" : "8100",
+              "equivalence" : "narrower",
+              "comment" : "TO DO",
+              "dependsOn" : [
+                {
+                  "property" : "https://mos.esante.gouv.fr/NOS/TRE_R279-Clientele/FHIR/TRE-R279-Clientele",
+                  "value" : "601"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "code" : "8000",
+          "target" : [
+            {
+              "code" : "8100",
+              "equivalence" : "narrower",
+              "comment" : "TO DO",
+              "dependsOn" : [
+                {
+                  "property" : "https://mos.esante.gouv.fr/NOS/TRE_R279-Clientele/FHIR/TRE-R279-Clientele",
+                  "value" : "602"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "code" : "8000",
+          "target" : [
+            {
+              "code" : "8200",
+              "equivalence" : "narrower",
+              "comment" : "TO DO",
+              "dependsOn" : [
+                {
+                  "property" : "https://mos.esante.gouv.fr/NOS/TRE_R279-Clientele/FHIR/TRE-R279-Clientele",
+                  "value" : "620"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "code" : "8000",
+          "target" : [
+            {
+              "code" : "8300",
+              "equivalence" : "narrower",
+              "comment" : "TO DO",
+              "dependsOn" : [
+                {
+                  "property" : "https://mos.esante.gouv.fr/NOS/TRE_R279-Clientele/FHIR/TRE-R279-Clientele",
+                  "value" : "430"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "code" : "8000",
+          "target" : [
+            {
+              "code" : "8300",
+              "equivalence" : "narrower",
+              "comment" : "TO DO",
+              "dependsOn" : [
+                {
+                  "property" : "https://mos.esante.gouv.fr/NOS/TRE_R279-Clientele/FHIR/TRE-R279-Clientele",
+                  "value" : "431"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "code" : "8000",
+          "target" : [
+            {
+              "code" : "8300",
+              "equivalence" : "narrower",
+              "comment" : "TO DO",
+              "dependsOn" : [
+                {
+                  "property" : "https://mos.esante.gouv.fr/NOS/TRE_R279-Clientele/FHIR/TRE-R279-Clientele",
+                  "value" : "432"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "code" : "8000",
+          "target" : [
+            {
+              "code" : "8300",
+              "equivalence" : "narrower",
+              "comment" : "TO DO",
+              "dependsOn" : [
+                {
+                  "property" : "https://mos.esante.gouv.fr/NOS/TRE_R279-Clientele/FHIR/TRE-R279-Clientele",
+                  "value" : "433"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "code" : "8000",
+          "target" : [
+            {
+              "code" : "8300",
+              "equivalence" : "narrower",
+              "comment" : "TO DO",
+              "dependsOn" : [
+                {
+                  "property" : "https://mos.esante.gouv.fr/NOS/TRE_R279-Clientele/FHIR/TRE-R279-Clientele",
+                  "value" : "434"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "code" : "8000",
+          "target" : [
+            {
+              "code" : "8300",
+              "equivalence" : "narrower",
+              "comment" : "TO DO",
+              "dependsOn" : [
+                {
+                  "property" : "https://mos.esante.gouv.fr/NOS/TRE_R279-Clientele/FHIR/TRE-R279-Clientele",
+                  "value" : "435"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "code" : "8000",
+          "target" : [
+            {
+              "code" : "8300",
+              "equivalence" : "narrower",
+              "comment" : "TO DO",
+              "dependsOn" : [
+                {
+                  "property" : "https://mos.esante.gouv.fr/NOS/TRE_R279-Clientele/FHIR/TRE-R279-Clientele",
+                  "value" : "436"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "code" : "8000",
+          "target" : [
+            {
+              "code" : "8300",
+              "equivalence" : "narrower",
+              "comment" : "TO DO",
+              "dependsOn" : [
+                {
+                  "property" : "https://mos.esante.gouv.fr/NOS/TRE_R279-Clientele/FHIR/TRE-R279-Clientele",
+                  "value" : "439"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "code" : "8000",
+          "target" : [
+            {
+              "code" : "8300",
+              "equivalence" : "narrower",
+              "comment" : "TO DO",
+              "dependsOn" : [
+                {
+                  "property" : "https://mos.esante.gouv.fr/NOS/TRE_R279-Clientele/FHIR/TRE-R279-Clientele",
+                  "value" : "440"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "code" : "8000",
+          "target" : [
+            {
+              "code" : "8400",
+              "equivalence" : "narrower",
+              "comment" : "TO DO",
+              "dependsOn" : [
+                {
+                  "property" : "https://mos.esante.gouv.fr/NOS/TRE_R279-Clientele/FHIR/TRE-R279-Clientele",
+                  "value" : "813"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "code" : "8000",
+          "target" : [
+            {
+              "code" : "8400",
+              "equivalence" : "narrower",
+              "comment" : "TO DO",
+              "dependsOn" : [
+                {
+                  "property" : "https://mos.esante.gouv.fr/NOS/TRE_R279-Clientele/FHIR/TRE-R279-Clientele",
+                  "value" : "814"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "code" : "8000",
+          "target" : [
+            {
+              "code" : "8400",
+              "equivalence" : "narrower",
+              "comment" : "TO DO",
+              "dependsOn" : [
+                {
+                  "property" : "https://mos.esante.gouv.fr/NOS/TRE_R279-Clientele/FHIR/TRE-R279-Clientele",
+                  "value" : "850"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "code" : "8000",
+          "target" : [
+            {
+              "code" : "8400",
+              "equivalence" : "narrower",
+              "comment" : "TO DO",
+              "dependsOn" : [
+                {
+                  "property" : "https://mos.esante.gouv.fr/NOS/TRE_R279-Clientele/FHIR/TRE-R279-Clientele",
+                  "value" : "851"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "code" : "8000",
+          "target" : [
+            {
+              "code" : "8400",
+              "equivalence" : "narrower",
+              "comment" : "TO DO",
+              "dependsOn" : [
+                {
+                  "property" : "https://mos.esante.gouv.fr/NOS/TRE_R279-Clientele/FHIR/TRE-R279-Clientele",
+                  "value" : "852"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "code" : "8000",
+          "target" : [
+            {
+              "code" : "8400",
+              "equivalence" : "narrower",
+              "comment" : "TO DO",
+              "dependsOn" : [
+                {
+                  "property" : "https://mos.esante.gouv.fr/NOS/TRE_R279-Clientele/FHIR/TRE-R279-Clientele",
+                  "value" : "853"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
+
+```
