@@ -9,7 +9,7 @@
 | | | |
 | :--- | :--- | :--- |
 | *Official URL*:https://smt.esante.gouv.fr/terminologie-sms?vs | *Version*:20241114120000 | |
-| Active as of 2025-10-25 | *Responsible:*Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:ValueSet_SMS_All |
+| Active as of 2025-10-26 | *Responsible:*Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:ValueSet_SMS_All |
 
  
 Ce jeu de valeurs inclut tous les codes de la terminologie SMS, Dictionnaire des substances médicamenteuses 
@@ -72,7 +72,7 @@ No Expansion for this valueset (Unknown Code System)
   "name" : "ValueSet_SMS_All",
   "status" : "active",
   "experimental" : false,
-  "date" : "2025-10-25T04:21:15+00:00",
+  "date" : "2025-10-26T04:21:19+00:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "description" : "Ce jeu de valeurs inclut tous les codes de la terminologie SMS, Dictionnaire des substances médicamenteuses",
   "jurisdiction" : [
