@@ -1168,6 +1168,9 @@
          <Concept code="FON-59"
                   codeSystem="1.2.250.1.213.1.6.1.17"
                   displayName="Gérant d'antenne"/>
+         <Concept code="FON-62"
+                  codeSystem="1.2.250.1.213.1.6.1.17"
+                  displayName="Consultations de solidarité territoriale"/>
          <Concept code="FON-AU"
                   codeSystem="1.2.250.1.213.1.6.1.17"
                   displayName="Fonction non définie"/>

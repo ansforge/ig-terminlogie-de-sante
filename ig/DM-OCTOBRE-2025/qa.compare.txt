@@ -44,6 +44,7 @@ Generated $--. FHIR version $-- for ans.fr.terminologies#$-- (canonical = https:
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/DM/fsh-generated/resources/ConceptMap-ASS-X14-AgregatDisciplineEquipementSocial : 0 / 0 / 1
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/DM/fsh-generated/resources/ConceptMap-ASS-X15-AgregatDisciplineEnseignement : 0 / 0 / 1
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/DM/fsh-generated/resources/ConceptMap-ASS-X16-CorrespondanceType-Classe-DMP : 1 / 0 / 2
+ /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/DM/fsh-generated/resources/ValueSet-JDV-J05-SubjectRole-CISIS : 0 / 1 / 1
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/DM/fsh-generated/resources/ValueSet-JDV-J108-EnsembleFonction-RASS : 0 / 1 / 1
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/DM/fsh-generated/resources/ValueSet-JDV-J120-CommuneHistorisee : 0 / 0 / 0
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/DM/fsh-generated/resources/ValueSet-JDV-J124-Commune : 1 / 0 / 0
@@ -53,6 +54,7 @@ Generated $--. FHIR version $-- for ans.fr.terminologies#$-- (canonical = https:
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/DM/fsh-generated/resources/ValueSet-JDV-J209-TypeSavoirFaire-ROR : 0 / 1 / 1
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/DM/fsh-generated/resources/ValueSet-JDV-J238-TypeOffre-ROR : 0 / 1 / 1
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/DM/fsh-generated/resources/ValueSet-JDV-J34-CategorieOrganisation-ROR : 0 / 1 / 1
+ /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/DM/fsh-generated/resources/ValueSet-JDV-J65-SubjectRole-DMP : 0 / 1 / 1
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/DM/fsh-generated/resources/ValueSet-JDV-J88-AnneeUniversitaire-RASS : 0 / 1 / 1
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/DM/fsh-generated/resources/ValueSet-JDV-J91-TypeSavoirFaire-RASS : 0 / 1 / 1
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/DM/fsh-generated/resources/ValueSet-TRE-R222-MediaTypeCorpsCDANonStructure-all : 0 / 0 / 1
@@ -85,7 +87,6 @@ Generated $--. FHIR version $-- for ans.fr.terminologies#$-- (canonical = https:
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_J02_XdsHealthcareFacilityTypeCode_CISIS_JDV-J02-XdsHealthcareFacilityTypeCode-CISIS : 0 / 1 / 1
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_J03_XdsContentTypeCode_CISIS_JDV-J03-XdsContentTypeCode-CISIS : 0 / 1 / 1
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_J04_XdsPracticeSettingCode_CISIS_JDV-J04-XdsPracticeSettingCode-CISIS : 0 / 1 / 1
- /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_J05_SubjectRole_CISIS_JDV-J05-SubjectRole-CISIS : 0 / 1 / 1
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_J06_XdsClassCode_CISIS_JDV-J06-XdsClassCode-CISIS : 0 / 1 / 1
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_J07_XdsTypeCode_CISIS_JDV-J07-XdsTypeCode-CISIS : 0 / 1 / 1
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_J08_XdsConfidentialityCode_CISIS_JDV-J08-XdsConfidentialityCode-CISIS : 0 / 1 / 1
@@ -297,7 +298,6 @@ Generated $--. FHIR version $-- for ans.fr.terminologies#$-- (canonical = https:
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_J61_HealthcareFacilityTypeCode_DMP_JDV-J61-HealthcareFacilityTypeCode-DMP : 0 / 1 / 1
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_J62_PracticeSettingCode_DMP_JDV-J62-PracticeSettingCode-DMP : 0 / 1 / 1
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_J64_RestrictionAudienceVIHF_DMP_JDV-J64-RestrictionAudienceVIHF-DMP : 0 / 1 / 1
- /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_J65_SubjectRole_DMP_JDV-J65-SubjectRole-DMP : 0 / 1 / 1
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_J66_TypeCode_DMP_JDV-J66-TypeCode-DMP : 0 / 1 / 1
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_J67_TraitementDocument_CISIS_JDV-J67-TraitementDocument-CISIS : 0 / 1 / 1
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_J68_ProfilAccesReferentiel_ROR_JDV-J68-ProfilAccesReferentiel-ROR : 0 / 1 / 1
@@ -1852,6 +1852,8 @@ INFORMATION: ConceptMap/ASS-X04-CorrespondanceType-Classe-CISIS: ConceptMap.grou
 == DM/fsh-generated/resources/ConceptMap-ASS-X16-CorrespondanceType-Classe-DMP.json ==
 INFORMATION: ConceptMap/ASS-X16-CorrespondanceType-Classe-DMP: ConceptMap.group[0].source: Source Code System http://loinc.org is only supported on the terminology server, so the source codes are not validated for performance reasons
 ERROR: ConceptMap/ASS-X16-CorrespondanceType-Classe-DMP: ConceptMap.group[0].element[6].code: The code '11526-1' in the system http://loinc.org is not valid in the value set 'https://mos.esante.gouv.fr/NOS/JDV_J66-TypeCode-DMP/FHIR/JDV-J66-TypeCode-DMP'
+== DM/fsh-generated/resources/ValueSet-JDV-J05-SubjectRole-CISIS.json ==
+WARNING: ValueSet/JDV-J05-SubjectRole-CISIS: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.title is mandatory, but it is not present
 == DM/fsh-generated/resources/ValueSet-JDV-J108-EnsembleFonction-RASS.json ==
 WARNING: ValueSet/JDV-J108-EnsembleFonction-RASS: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.title is mandatory, but it is not present
 == DM/fsh-generated/resources/ValueSet-JDV-J120-CommuneHistorisee.json ==
@@ -1871,6 +1873,8 @@ WARNING: ValueSet/JDV-J209-TypeSavoirFaire-ROR: ValueSet: Published value sets S
 WARNING: ValueSet/JDV-J238-TypeOffre-ROR: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.title is mandatory, but it is not present
 == DM/fsh-generated/resources/ValueSet-JDV-J34-CategorieOrganisation-ROR.json ==
 WARNING: ValueSet/JDV-J34-CategorieOrganisation-ROR: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.title is mandatory, but it is not present
+== DM/fsh-generated/resources/ValueSet-JDV-J65-SubjectRole-DMP.json ==
+WARNING: ValueSet/JDV-J65-SubjectRole-DMP: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.title is mandatory, but it is not present
 == DM/fsh-generated/resources/ValueSet-JDV-J88-AnneeUniversitaire-RASS.json ==
 WARNING: ValueSet/JDV-J88-AnneeUniversitaire-RASS: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.title is mandatory, but it is not present
 == DM/fsh-generated/resources/ValueSet-JDV-J91-TypeSavoirFaire-RASS.json ==
@@ -1946,8 +1950,6 @@ WARNING: ValueSet/JDV-J02-XdsHealthcareFacilityTypeCode-CISIS: ValueSet: Publish
 WARNING: ValueSet/JDV-J03-XdsContentTypeCode-CISIS: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.title is mandatory, but it is not present
 == input/ontoserver/JDV/JDV_J04_XdsPracticeSettingCode_CISIS_JDV-J04-XdsPracticeSettingCode-CISIS.json ==
 WARNING: ValueSet/JDV-J04-XdsPracticeSettingCode-CISIS: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.title is mandatory, but it is not present
-== input/ontoserver/JDV/JDV_J05_SubjectRole_CISIS_JDV-J05-SubjectRole-CISIS.json ==
-WARNING: ValueSet/JDV-J05-SubjectRole-CISIS: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.title is mandatory, but it is not present
 == input/ontoserver/JDV/JDV_J06_XdsClassCode_CISIS_JDV-J06-XdsClassCode-CISIS.json ==
 WARNING: ValueSet/JDV-J06-XdsClassCode-CISIS: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.title is mandatory, but it is not present
 == input/ontoserver/JDV/JDV_J07_XdsTypeCode_CISIS_JDV-J07-XdsTypeCode-CISIS.json ==
@@ -2389,8 +2391,6 @@ WARNING: ValueSet/JDV-J61-HealthcareFacilityTypeCode-DMP: ValueSet: Published va
 WARNING: ValueSet/JDV-J62-PracticeSettingCode-DMP: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.title is mandatory, but it is not present
 == input/ontoserver/JDV/JDV_J64_RestrictionAudienceVIHF_DMP_JDV-J64-RestrictionAudienceVIHF-DMP.json ==
 WARNING: ValueSet/JDV-J64-RestrictionAudienceVIHF-DMP: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.title is mandatory, but it is not present
-== input/ontoserver/JDV/JDV_J65_SubjectRole_DMP_JDV-J65-SubjectRole-DMP.json ==
-WARNING: ValueSet/JDV-J65-SubjectRole-DMP: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.title is mandatory, but it is not present
 == input/ontoserver/JDV/JDV_J66_TypeCode_DMP_JDV-J66-TypeCode-DMP.json ==
 WARNING: ValueSet/JDV-J66-TypeCode-DMP: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.title is mandatory, but it is not present
 == input/ontoserver/JDV/JDV_J67_TraitementDocument_CISIS_JDV-J67-TraitementDocument-CISIS.json ==
