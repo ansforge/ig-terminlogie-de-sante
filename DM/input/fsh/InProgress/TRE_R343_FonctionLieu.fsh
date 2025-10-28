@@ -140,7 +140,7 @@ Description: "Destination d'usage du lieu"
 * #013 ^property[=].valueDateTime = "2025-06-20T12:00:00+01:00"
 * #013 ^property[+].code = #status
 * #013 ^property[=].valueCode = #active
-* #014 "Bloc obstétrical"
+* #014 "Bloc obstétrical" "Lieu hospitalier dédié à la prise en charge des césariennes, disposant des locaux, du matériel et des équipes pluridisciplinaires (sages-femmes, obstétriciens, anesthésistes, pédiatres) nécessaires à toute heure pour assurer la sécurité de la mère et du nouveau-né, y compris en cas de complications obstétricales."
 * #014 ^property[0].code = #dateValid
 * #014 ^property[=].valueDateTime = "2025-10-17T12:00:00+01:00"
 * #014 ^property[+].code = #dateMaj

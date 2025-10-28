@@ -4172,7 +4172,7 @@ Description: "Lieu de formation"
 * #UK11 ^designation[0].language = #fr-FR
 * #UK11 ^designation[=].use.system = "http://snomed.info/sct"
 * #UK11 ^designation[=].use = $sct#900000000000013009
-* #UK11 ^designation[=].value = "Echirolles"
+* #UK11 ^designation[=].value = "Saint-Martin d'Hères"
 * #UK11 ^property[0].code = #dateValid
 * #UK11 ^property[=].valueDateTime = "2016-05-03T00:00:00+01:00"
 * #UK11 ^property[+].code = #dateMaj

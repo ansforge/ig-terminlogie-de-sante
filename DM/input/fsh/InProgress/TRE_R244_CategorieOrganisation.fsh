@@ -3002,7 +3002,7 @@ Description: "Catégorie d'organisation"
 * #277 ^property[=].valueDateTime = "2025-10-17T12:00:00+01:00"
 * #277 ^property[+].code = #status
 * #277 ^property[=].valueCode = #active
-* #278 "Unité Hospitalière de Courte Durée (UHCD)" "Il s'agit une unité rattachée aux urgences qui accueille temporairement des patients nécessitant une surveillance, des examens complémentaires ou des soins avant une décision d’hospitalisation ou de retour à domicile. Elle assure une prise en charge continue, limitée à 24 ou 48 heures."
+* #278 "Unité Hospitalière de Courte Durée (UHCD)" "Il s'agit d'une unité rattachée aux urgences qui accueille temporairement des patients nécessitant une surveillance, des examens complémentaires ou des soins avant une décision d’hospitalisation ou de retour à domicile. Elle assure une prise en charge continue, limitée à 24 ou 48 heures."
 * #278 ^designation[0].language = #fr-FR
 * #278 ^designation[=].use = $sct#900000000000013009
 * #278 ^designation[=].value = "UHCD"
