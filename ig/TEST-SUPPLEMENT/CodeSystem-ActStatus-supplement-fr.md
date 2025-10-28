@@ -31,12 +31,6 @@ This code system supplement `http://hl7.org/fhir/us/example/CodeSystem/ActStatus
   "resourceType" : "CodeSystem",
   "id" : "ActStatus-supplement-fr",
   "language" : "fr-FR",
-  "extension" : [
-    {
-      "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-wg",
-      "valueCode" : "vocab"
-    }
-  ],
   "url" : "http://hl7.org/fhir/us/example/CodeSystem/ActStatus-supplement-fr",
   "version" : "1.0",
   "name" : "ActStatusSupplementFr",

@@ -298,7 +298,7 @@ Mapping de [Jdv Modele Document Cda](ValueSet-jdv-modele-document-cda.md) vers (
   "title" : "ASS_A11-CorresModeleCDA-XdsFormatCode-CISIS",
   "status" : "active",
   "experimental" : false,
-  "date" : "2025-10-28T16:16:24+00:00",
+  "date" : "2025-10-28T18:01:21+00:00",
   "publisher" : "ANS",
   "contact" : [
     {

@@ -31,12 +31,6 @@ This code system supplement `http://hl7.org/fhir/us/example/CodeSystem/RoleClass
   "resourceType" : "CodeSystem",
   "id" : "RoleClass-supplement-fr",
   "language" : "fr-FR",
-  "extension" : [
-    {
-      "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-wg",
-      "valueCode" : "vocab"
-    }
-  ],
   "url" : "http://hl7.org/fhir/us/example/CodeSystem/RoleClass-supplement-fr",
   "version" : "1.0",
   "name" : "RoleClassSupplementFr",

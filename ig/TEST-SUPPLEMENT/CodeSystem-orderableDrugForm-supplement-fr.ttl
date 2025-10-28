@@ -14,16 +14,6 @@
      fhir:status [ fhir:v "generated" ] ;
      fhir:div [ fhir:v "<div xml:lang=\"fr-FR\" xmlns=\"http://www.w3.org/1999/xhtml\" lang=\"fr-FR\"><p class=\"res-header-id\"><b>Narratif généré : CodeSystem orderableDrugForm-supplement-fr</b></p><a name=\"orderableDrugForm-supplement-fr\"> </a><a name=\"hcorderableDrugForm-supplement-fr\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Langue : fr-FR</p></div><p>This code system supplement <code>http://hl7.org/fhir/us/example/CodeSystem/orderableDrugForm-supplement-fr</code> defines labels on the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-orderableDrugForm.html#v3-orderableDrugForm-APPFUL\">APPFUL</a><a name=\"orderableDrugForm-supplement-fr-APPFUL\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-orderableDrugForm.html#v3-orderableDrugForm-PUFF\">PUFF</a><a name=\"orderableDrugForm-supplement-fr-PUFF\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-orderableDrugForm.html#v3-orderableDrugForm-SCOOP\">SCOOP</a><a name=\"orderableDrugForm-supplement-fr-SCOOP\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-orderableDrugForm.html#v3-orderableDrugForm-SPRY\">SPRY</a><a name=\"orderableDrugForm-supplement-fr-SPRY\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-orderableDrugForm.html#v3-orderableDrugForm-DROP\">DROP</a><a name=\"orderableDrugForm-supplement-fr-DROP\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-orderableDrugForm.html#v3-orderableDrugForm-NDROP\">NDROP</a><a name=\"orderableDrugForm-supplement-fr-NDROP\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-orderableDrugForm.html#v3-orderableDrugForm-OPDROP\">OPDROP</a><a name=\"orderableDrugForm-supplement-fr-OPDROP\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-orderableDrugForm.html#v3-orderableDrugForm-ORDROP\">ORDROP</a><a name=\"orderableDrugForm-supplement-fr-ORDROP\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-orderableDrugForm.html#v3-orderableDrugForm-OTDROP\">OTDROP</a><a name=\"orderableDrugForm-supplement-fr-OTDROP\"> </a></td></tr></table></div>"^^rdf:XMLLiteral ]
   ] ; # 
-  fhir:extension ( [
-     fhir:url [
-       fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-wg"^^xsd:anyURI ;
-       fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-wg>
-     ] ;
-     fhir:value [
-       a fhir:Code ;
-       fhir:v "vocab"
-     ]
-  ] ) ; # 
   fhir:url [
      fhir:v "http://hl7.org/fhir/us/example/CodeSystem/orderableDrugForm-supplement-fr"^^xsd:anyURI ;
      fhir:l <http://hl7.org/fhir/us/example/CodeSystem/orderableDrugForm-supplement-fr>

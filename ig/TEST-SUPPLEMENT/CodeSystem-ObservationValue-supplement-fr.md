@@ -31,12 +31,6 @@ This code system supplement `http://hl7.org/fhir/us/example/CodeSystem/Observati
   "resourceType" : "CodeSystem",
   "id" : "ObservationValue-supplement-fr",
   "language" : "fr-FR",
-  "extension" : [
-    {
-      "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-wg",
-      "valueCode" : "vocab"
-    }
-  ],
   "url" : "http://hl7.org/fhir/us/example/CodeSystem/ObservationValue-supplement-fr",
   "version" : "1.0",
   "name" : "ObservationValueSupplementFr",

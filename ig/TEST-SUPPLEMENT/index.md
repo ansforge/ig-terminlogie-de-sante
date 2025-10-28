@@ -239,7 +239,7 @@ This is an R4 IG. None of the features it uses are changed in R4B, so it can be 
   "name" : "Terminologies",
   "title" : "Terminologies  de Santé",
   "status" : "active",
-  "date" : "2025-10-28T16:16:24+00:00",
+  "date" : "2025-10-28T18:01:21+00:00",
   "publisher" : "ANS",
   "contact" : [
     {

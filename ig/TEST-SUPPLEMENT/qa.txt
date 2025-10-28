@@ -1,33 +1,33 @@
 Terminologies : Validation Results
 =========================================
 
-err = 3292, warn = 1333, info = 1411
-IG Publisher Version: 2.0.23
-Generated Tue Oct 28 16:35:26 UTC 2025. FHIR version 4.0.1 for ans.fr.terminologies#1.3.0 (canonical = https://interop.esante.gouv.fr/terminologies)
+err = 3315, warn = 1287, info = 1411
+IG Publisher Version: 2.0.24
+Generated Tue Oct 28 18:16:24 UTC 2025. FHIR version 4.0.1 for ans.fr.terminologies#1.3.0 (canonical = https://interop.esante.gouv.fr/terminologies)
  Build Errors : 70 / 23 / 0
- /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/DM/fsh-generated/resources/CodeSystem-ActCode-supplement-fr : 2 / 4 / 3
- /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/DM/fsh-generated/resources/CodeSystem-ActMood-supplement-fr : 2 / 4 / 3
- /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/DM/fsh-generated/resources/CodeSystem-ActPriority-supplement-fr : 3 / 4 / 3
- /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/DM/fsh-generated/resources/CodeSystem-ActStatus-supplement-fr : 2 / 4 / 3
- /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/DM/fsh-generated/resources/CodeSystem-AdministrativeGender-supplement-fr : 2 / 4 / 3
- /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/DM/fsh-generated/resources/CodeSystem-Confidentiality-supplement-fr : 2 / 4 / 3
- /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/DM/fsh-generated/resources/CodeSystem-ObservationInterpretation-supplement-fr : 2 / 4 / 3
- /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/DM/fsh-generated/resources/CodeSystem-ObservationMethod-supplement-fr : 263 / 4 / 3
- /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/DM/fsh-generated/resources/CodeSystem-ObservationValue-supplement-fr : 2 / 4 / 3
- /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/DM/fsh-generated/resources/CodeSystem-ParticipationFunction-supplement-fr : 2 / 4 / 3
- /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/DM/fsh-generated/resources/CodeSystem-ParticipationType-supplement-fr : 2 / 4 / 3
- /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/DM/fsh-generated/resources/CodeSystem-RoleClass-supplement-fr : 2 / 4 / 3
- /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/DM/fsh-generated/resources/CodeSystem-RoleCode-supplement-fr : 2 / 4 / 3
- /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/DM/fsh-generated/resources/CodeSystem-SpecimenType-supplement-fr : 32 / 5 / 3
- /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/DM/fsh-generated/resources/CodeSystem-TimingEvent-supplement-fr : 2 / 4 / 3
- /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/DM/fsh-generated/resources/CodeSystem-allergy-intolerance-criticality-supplement-fr : 2 / 5 / 2
- /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/DM/fsh-generated/resources/CodeSystem-allergyintolerance-clinical-supplement-fr : 2 / 5 / 3
- /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/DM/fsh-generated/resources/CodeSystem-condition-clinical-supplement-fr : 2 / 5 / 3
- /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/DM/fsh-generated/resources/CodeSystem-condition-ver-status-supplement-fr : 2 / 5 / 3
- /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/DM/fsh-generated/resources/CodeSystem-employmentStatus-supplement-fr : 2 / 5 / 3
- /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/DM/fsh-generated/resources/CodeSystem-mediaType-supplement-fr : 2 / 5 / 3
- /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/DM/fsh-generated/resources/CodeSystem-orderableDrugForm-supplement-fr : 2 / 5 / 3
- /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/DM/fsh-generated/resources/CodeSystem-substanceAdminSubstitution-supplement-fr : 2 / 5 / 3
+ /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/DM/fsh-generated/resources/CodeSystem-ActCode-supplement-fr : 3 / 2 / 3
+ /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/DM/fsh-generated/resources/CodeSystem-ActMood-supplement-fr : 3 / 2 / 3
+ /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/DM/fsh-generated/resources/CodeSystem-ActPriority-supplement-fr : 4 / 2 / 3
+ /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/DM/fsh-generated/resources/CodeSystem-ActStatus-supplement-fr : 3 / 2 / 3
+ /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/DM/fsh-generated/resources/CodeSystem-AdministrativeGender-supplement-fr : 3 / 2 / 3
+ /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/DM/fsh-generated/resources/CodeSystem-Confidentiality-supplement-fr : 3 / 2 / 3
+ /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/DM/fsh-generated/resources/CodeSystem-ObservationInterpretation-supplement-fr : 3 / 2 / 3
+ /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/DM/fsh-generated/resources/CodeSystem-ObservationMethod-supplement-fr : 264 / 2 / 3
+ /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/DM/fsh-generated/resources/CodeSystem-ObservationValue-supplement-fr : 3 / 2 / 3
+ /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/DM/fsh-generated/resources/CodeSystem-ParticipationFunction-supplement-fr : 3 / 2 / 3
+ /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/DM/fsh-generated/resources/CodeSystem-ParticipationType-supplement-fr : 3 / 2 / 3
+ /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/DM/fsh-generated/resources/CodeSystem-RoleClass-supplement-fr : 3 / 2 / 3
+ /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/DM/fsh-generated/resources/CodeSystem-RoleCode-supplement-fr : 3 / 2 / 3
+ /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/DM/fsh-generated/resources/CodeSystem-SpecimenType-supplement-fr : 33 / 3 / 3
+ /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/DM/fsh-generated/resources/CodeSystem-TimingEvent-supplement-fr : 3 / 2 / 3
+ /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/DM/fsh-generated/resources/CodeSystem-allergy-intolerance-criticality-supplement-fr : 3 / 3 / 2
+ /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/DM/fsh-generated/resources/CodeSystem-allergyintolerance-clinical-supplement-fr : 3 / 3 / 3
+ /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/DM/fsh-generated/resources/CodeSystem-condition-clinical-supplement-fr : 3 / 3 / 3
+ /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/DM/fsh-generated/resources/CodeSystem-condition-ver-status-supplement-fr : 3 / 3 / 3
+ /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/DM/fsh-generated/resources/CodeSystem-employmentStatus-supplement-fr : 3 / 3 / 3
+ /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/DM/fsh-generated/resources/CodeSystem-mediaType-supplement-fr : 3 / 3 / 3
+ /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/DM/fsh-generated/resources/CodeSystem-orderableDrugForm-supplement-fr : 3 / 3 / 3
+ /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/DM/fsh-generated/resources/CodeSystem-substanceAdminSubstitution-supplement-fr : 3 / 3 / 3
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/DM/fsh-generated/resources/CodeSystem-v3-ActPriority-supplement-fr : 2 / 5 / 3
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/DM/fsh-generated/resources/ConceptMap-ASS-A11-CorresModeleCDA-XdsFormatCode-CISIS : 0 / 0 / 1
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/DM/fsh-generated/resources/ConceptMap-ASS-A12-CorresMediaTypeCDANonStructure-XdsFormatCode-CISIS : 0 / 0 / 1
@@ -1176,8 +1176,7 @@ WARNING: 5: The HTML fragment 'expansion-params.xhtml' is not included anywhere 
 == DM/fsh-generated/resources/CodeSystem-ActCode-supplement-fr.json ==
 ERROR: CodeSystem.where(url = 'http://hl7.org/fhir/us/example/CodeSystem/ActCode-supplement-fr'): Conformance resource /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/DM/fsh-generated/resources/CodeSystem-ActCode-supplement-fr.json - the canonical URL (https://interop.esante.gouv.fr/terminologies/CodeSystem/ActCode-supplement-fr) does not match the URL (http://hl7.org/fhir/us/example/CodeSystem/ActCode-supplement-fr). Use the special-url parameter if you really mean for it not to match
 INFORMATION: CodeSystem.supplements: Pinned the version of http://terminology.hl7.org/CodeSystem/v3-ActCode to 9.0.0 from choices of 7.0.0 (hl7.terminology.r4#5.0.0), 9.0.0 (hl7.terminology.r4#6.5.0)
-WARNING: CodeSystem/ActCode-supplement-fr: CodeSystem: When HL7 is publishing a resource, the publisher must be provided, and for WG 'vocab' it should be 'HL7 International / Terminology Infrastructure'
-WARNING: CodeSystem/ActCode-supplement-fr: CodeSystem: The nominated WG 'vocab' means that the contact url should be 'http://www.hl7.org/Special/committees/Vocab' but it was not found
+ERROR: CodeSystem/ActCode-supplement-fr: CodeSystem: When HL7 is publishing a resource, the owning committee must be stated using the http://hl7.org/fhir/StructureDefinition/structuredefinition-wg extension
 INFORMATION: CodeSystem/ActCode-supplement-fr: CodeSystem: Most code systems defined in HL7 IGs will need to move to THO later during the process. Consider giving this code system a THO URL now (See https://confluence.hl7.org/display/TSMG/Terminology+Play+Book, and/or talk to TSMG)
 WARNING: CodeSystem/ActCode-supplement-fr: CodeSystem.concept[0]: HL7 Defined CodeSystems should ensure that every concept has a display
 WARNING: CodeSystem/ActCode-supplement-fr: CodeSystem.concept[0]: HL7 Defined CodeSystems should ensure that every concept has a definition
@@ -1185,8 +1184,7 @@ ERROR: /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSou
 == DM/fsh-generated/resources/CodeSystem-ActMood-supplement-fr.json ==
 ERROR: CodeSystem.where(url = 'http://hl7.org/fhir/us/example/CodeSystem/ActMood-supplement-fr'): Conformance resource /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/DM/fsh-generated/resources/CodeSystem-ActMood-supplement-fr.json - the canonical URL (https://interop.esante.gouv.fr/terminologies/CodeSystem/ActMood-supplement-fr) does not match the URL (http://hl7.org/fhir/us/example/CodeSystem/ActMood-supplement-fr). Use the special-url parameter if you really mean for it not to match
 INFORMATION: CodeSystem.supplements: Pinned the version of http://terminology.hl7.org/CodeSystem/v3-ActMood to 3.0.0 from choices of 2.1.0 (hl7.terminology.r4#5.0.0), 3.0.0 (hl7.terminology.r4#6.5.0)
-WARNING: CodeSystem/ActMood-supplement-fr: CodeSystem: When HL7 is publishing a resource, the publisher must be provided, and for WG 'vocab' it should be 'HL7 International / Terminology Infrastructure'
-WARNING: CodeSystem/ActMood-supplement-fr: CodeSystem: The nominated WG 'vocab' means that the contact url should be 'http://www.hl7.org/Special/committees/Vocab' but it was not found
+ERROR: CodeSystem/ActMood-supplement-fr: CodeSystem: When HL7 is publishing a resource, the owning committee must be stated using the http://hl7.org/fhir/StructureDefinition/structuredefinition-wg extension
 INFORMATION: CodeSystem/ActMood-supplement-fr: CodeSystem: Most code systems defined in HL7 IGs will need to move to THO later during the process. Consider giving this code system a THO URL now (See https://confluence.hl7.org/display/TSMG/Terminology+Play+Book, and/or talk to TSMG)
 WARNING: CodeSystem/ActMood-supplement-fr: CodeSystem.concept[0]: HL7 Defined CodeSystems should ensure that every concept has a display
 WARNING: CodeSystem/ActMood-supplement-fr: CodeSystem.concept[0]: HL7 Defined CodeSystems should ensure that every concept has a definition
@@ -1194,8 +1192,7 @@ ERROR: /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSou
 == DM/fsh-generated/resources/CodeSystem-ActPriority-supplement-fr.json ==
 ERROR: CodeSystem.where(url = 'http://hl7.org/fhir/us/example/CodeSystem/ActPriority-supplement-fr'): Conformance resource /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/DM/fsh-generated/resources/CodeSystem-ActPriority-supplement-fr.json - the canonical URL (https://interop.esante.gouv.fr/terminologies/CodeSystem/ActPriority-supplement-fr) does not match the URL (http://hl7.org/fhir/us/example/CodeSystem/ActPriority-supplement-fr). Use the special-url parameter if you really mean for it not to match
 INFORMATION: CodeSystem.supplements: Pinned the version of http://terminology.hl7.org/CodeSystem/v3-ActPriority to 3.0.0 from choices of 2.1.0 (hl7.terminology.r4#5.0.0), 3.0.0 (hl7.terminology.r4#6.5.0)
-WARNING: CodeSystem/ActPriority-supplement-fr: CodeSystem: When HL7 is publishing a resource, the publisher must be provided, and for WG 'vocab' it should be 'HL7 International / Terminology Infrastructure'
-WARNING: CodeSystem/ActPriority-supplement-fr: CodeSystem: The nominated WG 'vocab' means that the contact url should be 'http://www.hl7.org/Special/committees/Vocab' but it was not found
+ERROR: CodeSystem/ActPriority-supplement-fr: CodeSystem: When HL7 is publishing a resource, the owning committee must be stated using the http://hl7.org/fhir/StructureDefinition/structuredefinition-wg extension
 INFORMATION: CodeSystem/ActPriority-supplement-fr: CodeSystem: Most code systems defined in HL7 IGs will need to move to THO later during the process. Consider giving this code system a THO URL now (See https://confluence.hl7.org/display/TSMG/Terminology+Play+Book, and/or talk to TSMG)
 ERROR: CodeSystem/ActPriority-supplement-fr: CodeSystem.concept[5]: The code '&' is not declared in the base CodeSystem http://terminology.hl7.org/CodeSystem/v3-ActPriority|3.0.0 so is not valid in the supplement
 WARNING: CodeSystem/ActPriority-supplement-fr: CodeSystem.concept[0]: HL7 Defined CodeSystems should ensure that every concept has a display
@@ -1204,8 +1201,7 @@ ERROR: /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSou
 == DM/fsh-generated/resources/CodeSystem-ActStatus-supplement-fr.json ==
 ERROR: CodeSystem.where(url = 'http://hl7.org/fhir/us/example/CodeSystem/ActStatus-supplement-fr'): Conformance resource /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/DM/fsh-generated/resources/CodeSystem-ActStatus-supplement-fr.json - the canonical URL (https://interop.esante.gouv.fr/terminologies/CodeSystem/ActStatus-supplement-fr) does not match the URL (http://hl7.org/fhir/us/example/CodeSystem/ActStatus-supplement-fr). Use the special-url parameter if you really mean for it not to match
 INFORMATION: CodeSystem.supplements: Pinned the version of http://terminology.hl7.org/CodeSystem/v3-ActStatus to 3.0.0 from choices of 2.1.0 (hl7.terminology.r4#5.0.0), 3.0.0 (hl7.terminology.r4#6.5.0)
-WARNING: CodeSystem/ActStatus-supplement-fr: CodeSystem: When HL7 is publishing a resource, the publisher must be provided, and for WG 'vocab' it should be 'HL7 International / Terminology Infrastructure'
-WARNING: CodeSystem/ActStatus-supplement-fr: CodeSystem: The nominated WG 'vocab' means that the contact url should be 'http://www.hl7.org/Special/committees/Vocab' but it was not found
+ERROR: CodeSystem/ActStatus-supplement-fr: CodeSystem: When HL7 is publishing a resource, the owning committee must be stated using the http://hl7.org/fhir/StructureDefinition/structuredefinition-wg extension
 INFORMATION: CodeSystem/ActStatus-supplement-fr: CodeSystem: Most code systems defined in HL7 IGs will need to move to THO later during the process. Consider giving this code system a THO URL now (See https://confluence.hl7.org/display/TSMG/Terminology+Play+Book, and/or talk to TSMG)
 WARNING: CodeSystem/ActStatus-supplement-fr: CodeSystem.concept[0]: HL7 Defined CodeSystems should ensure that every concept has a display
 WARNING: CodeSystem/ActStatus-supplement-fr: CodeSystem.concept[0]: HL7 Defined CodeSystems should ensure that every concept has a definition
@@ -1213,8 +1209,7 @@ ERROR: /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSou
 == DM/fsh-generated/resources/CodeSystem-AdministrativeGender-supplement-fr.json ==
 ERROR: CodeSystem.where(url = 'http://hl7.org/fhir/us/example/CodeSystem/AdministrativeGender-supplement-fr'): Conformance resource /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/DM/fsh-generated/resources/CodeSystem-AdministrativeGender-supplement-fr.json - the canonical URL (https://interop.esante.gouv.fr/terminologies/CodeSystem/AdministrativeGender-supplement-fr) does not match the URL (http://hl7.org/fhir/us/example/CodeSystem/AdministrativeGender-supplement-fr). Use the special-url parameter if you really mean for it not to match
 INFORMATION: CodeSystem.supplements: Pinned the version of http://terminology.hl7.org/CodeSystem/v3-AdministrativeGender to 3.0.0 from choices of 2.1.0 (hl7.terminology.r4#5.0.0), 3.0.0 (hl7.terminology.r4#6.5.0)
-WARNING: CodeSystem/AdministrativeGender-supplement-fr: CodeSystem: When HL7 is publishing a resource, the publisher must be provided, and for WG 'vocab' it should be 'HL7 International / Terminology Infrastructure'
-WARNING: CodeSystem/AdministrativeGender-supplement-fr: CodeSystem: The nominated WG 'vocab' means that the contact url should be 'http://www.hl7.org/Special/committees/Vocab' but it was not found
+ERROR: CodeSystem/AdministrativeGender-supplement-fr: CodeSystem: When HL7 is publishing a resource, the owning committee must be stated using the http://hl7.org/fhir/StructureDefinition/structuredefinition-wg extension
 INFORMATION: CodeSystem/AdministrativeGender-supplement-fr: CodeSystem: Most code systems defined in HL7 IGs will need to move to THO later during the process. Consider giving this code system a THO URL now (See https://confluence.hl7.org/display/TSMG/Terminology+Play+Book, and/or talk to TSMG)
 WARNING: CodeSystem/AdministrativeGender-supplement-fr: CodeSystem.concept[0]: HL7 Defined CodeSystems should ensure that every concept has a display
 WARNING: CodeSystem/AdministrativeGender-supplement-fr: CodeSystem.concept[0]: HL7 Defined CodeSystems should ensure that every concept has a definition
@@ -1222,8 +1217,7 @@ ERROR: /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSou
 == DM/fsh-generated/resources/CodeSystem-Confidentiality-supplement-fr.json ==
 ERROR: CodeSystem.where(url = 'http://hl7.org/fhir/us/example/CodeSystem/Confidentiality-supplement-fr'): Conformance resource /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/DM/fsh-generated/resources/CodeSystem-Confidentiality-supplement-fr.json - the canonical URL (https://interop.esante.gouv.fr/terminologies/CodeSystem/Confidentiality-supplement-fr) does not match the URL (http://hl7.org/fhir/us/example/CodeSystem/Confidentiality-supplement-fr). Use the special-url parameter if you really mean for it not to match
 INFORMATION: CodeSystem.supplements: Pinned the version of http://terminology.hl7.org/CodeSystem/v3-Confidentiality to 3.0.0 from choices of 2.2.0 (hl7.terminology.r4#5.0.0), 3.0.0 (hl7.terminology.r4#6.5.0)
-WARNING: CodeSystem/Confidentiality-supplement-fr: CodeSystem: When HL7 is publishing a resource, the publisher must be provided, and for WG 'vocab' it should be 'HL7 International / Terminology Infrastructure'
-WARNING: CodeSystem/Confidentiality-supplement-fr: CodeSystem: The nominated WG 'vocab' means that the contact url should be 'http://www.hl7.org/Special/committees/Vocab' but it was not found
+ERROR: CodeSystem/Confidentiality-supplement-fr: CodeSystem: When HL7 is publishing a resource, the owning committee must be stated using the http://hl7.org/fhir/StructureDefinition/structuredefinition-wg extension
 INFORMATION: CodeSystem/Confidentiality-supplement-fr: CodeSystem: Most code systems defined in HL7 IGs will need to move to THO later during the process. Consider giving this code system a THO URL now (See https://confluence.hl7.org/display/TSMG/Terminology+Play+Book, and/or talk to TSMG)
 WARNING: CodeSystem/Confidentiality-supplement-fr: CodeSystem.concept[0]: HL7 Defined CodeSystems should ensure that every concept has a display
 WARNING: CodeSystem/Confidentiality-supplement-fr: CodeSystem.concept[0]: HL7 Defined CodeSystems should ensure that every concept has a definition
@@ -1231,8 +1225,7 @@ ERROR: /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSou
 == DM/fsh-generated/resources/CodeSystem-ObservationInterpretation-supplement-fr.json ==
 ERROR: CodeSystem.where(url = 'http://hl7.org/fhir/us/example/CodeSystem/ObservationInterpretation-supplement-fr'): Conformance resource /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/DM/fsh-generated/resources/CodeSystem-ObservationInterpretation-supplement-fr.json - the canonical URL (https://interop.esante.gouv.fr/terminologies/CodeSystem/ObservationInterpretation-supplement-fr) does not match the URL (http://hl7.org/fhir/us/example/CodeSystem/ObservationInterpretation-supplement-fr). Use the special-url parameter if you really mean for it not to match
 INFORMATION: CodeSystem.supplements: Pinned the version of http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation to 3.0.0 from choices of 2.1.0 (hl7.terminology.r4#5.0.0), 3.0.0 (hl7.terminology.r4#6.5.0)
-WARNING: CodeSystem/ObservationInterpretation-supplement-fr: CodeSystem: When HL7 is publishing a resource, the publisher must be provided, and for WG 'vocab' it should be 'HL7 International / Terminology Infrastructure'
-WARNING: CodeSystem/ObservationInterpretation-supplement-fr: CodeSystem: The nominated WG 'vocab' means that the contact url should be 'http://www.hl7.org/Special/committees/Vocab' but it was not found
+ERROR: CodeSystem/ObservationInterpretation-supplement-fr: CodeSystem: When HL7 is publishing a resource, the owning committee must be stated using the http://hl7.org/fhir/StructureDefinition/structuredefinition-wg extension
 INFORMATION: CodeSystem/ObservationInterpretation-supplement-fr: CodeSystem: Most code systems defined in HL7 IGs will need to move to THO later during the process. Consider giving this code system a THO URL now (See https://confluence.hl7.org/display/TSMG/Terminology+Play+Book, and/or talk to TSMG)
 WARNING: CodeSystem/ObservationInterpretation-supplement-fr: CodeSystem.concept[0]: HL7 Defined CodeSystems should ensure that every concept has a display
 WARNING: CodeSystem/ObservationInterpretation-supplement-fr: CodeSystem.concept[0]: HL7 Defined CodeSystems should ensure that every concept has a definition
@@ -1240,8 +1233,7 @@ ERROR: /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSou
 == DM/fsh-generated/resources/CodeSystem-ObservationMethod-supplement-fr.json ==
 ERROR: CodeSystem.where(url = 'http://hl7.org/fhir/us/example/CodeSystem/ObservationMethod-supplement-fr'): Conformance resource /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/DM/fsh-generated/resources/CodeSystem-ObservationMethod-supplement-fr.json - the canonical URL (https://interop.esante.gouv.fr/terminologies/CodeSystem/ObservationMethod-supplement-fr) does not match the URL (http://hl7.org/fhir/us/example/CodeSystem/ObservationMethod-supplement-fr). Use the special-url parameter if you really mean for it not to match
 INFORMATION: CodeSystem.supplements: Pinned the version of http://terminology.hl7.org/CodeSystem/v3-ObservationMethod to 3.0.0 from choices of 2.1.0 (hl7.terminology.r4#5.0.0), 3.0.0 (hl7.terminology.r4#6.5.0)
-WARNING: CodeSystem/ObservationMethod-supplement-fr: CodeSystem: When HL7 is publishing a resource, the publisher must be provided, and for WG 'vocab' it should be 'HL7 International / Terminology Infrastructure'
-WARNING: CodeSystem/ObservationMethod-supplement-fr: CodeSystem: The nominated WG 'vocab' means that the contact url should be 'http://www.hl7.org/Special/committees/Vocab' but it was not found
+ERROR: CodeSystem/ObservationMethod-supplement-fr: CodeSystem: When HL7 is publishing a resource, the owning committee must be stated using the http://hl7.org/fhir/StructureDefinition/structuredefinition-wg extension
 INFORMATION: CodeSystem/ObservationMethod-supplement-fr: CodeSystem: Most code systems defined in HL7 IGs will need to move to THO later during the process. Consider giving this code system a THO URL now (See https://confluence.hl7.org/display/TSMG/Terminology+Play+Book, and/or talk to TSMG)
 ERROR: CodeSystem/ObservationMethod-supplement-fr: CodeSystem.concept[0]: The code '1' is not declared in the base CodeSystem http://terminology.hl7.org/CodeSystem/v3-ObservationMethod|3.0.0 so is not valid in the supplement
 ERROR: CodeSystem/ObservationMethod-supplement-fr: CodeSystem.concept[1]: The code '2' is not declared in the base CodeSystem http://terminology.hl7.org/CodeSystem/v3-ObservationMethod|3.0.0 so is not valid in the supplement
@@ -1510,8 +1502,7 @@ ERROR: /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSou
 == DM/fsh-generated/resources/CodeSystem-ObservationValue-supplement-fr.json ==
 ERROR: CodeSystem.where(url = 'http://hl7.org/fhir/us/example/CodeSystem/ObservationValue-supplement-fr'): Conformance resource /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/DM/fsh-generated/resources/CodeSystem-ObservationValue-supplement-fr.json - the canonical URL (https://interop.esante.gouv.fr/terminologies/CodeSystem/ObservationValue-supplement-fr) does not match the URL (http://hl7.org/fhir/us/example/CodeSystem/ObservationValue-supplement-fr). Use the special-url parameter if you really mean for it not to match
 INFORMATION: CodeSystem.supplements: Pinned the version of http://terminology.hl7.org/CodeSystem/v3-ObservationValue to 4.0.0 from choices of 2.1.0 (hl7.terminology.r4#5.0.0), 4.0.0 (hl7.terminology.r4#6.5.0)
-WARNING: CodeSystem/ObservationValue-supplement-fr: CodeSystem: When HL7 is publishing a resource, the publisher must be provided, and for WG 'vocab' it should be 'HL7 International / Terminology Infrastructure'
-WARNING: CodeSystem/ObservationValue-supplement-fr: CodeSystem: The nominated WG 'vocab' means that the contact url should be 'http://www.hl7.org/Special/committees/Vocab' but it was not found
+ERROR: CodeSystem/ObservationValue-supplement-fr: CodeSystem: When HL7 is publishing a resource, the owning committee must be stated using the http://hl7.org/fhir/StructureDefinition/structuredefinition-wg extension
 INFORMATION: CodeSystem/ObservationValue-supplement-fr: CodeSystem: Most code systems defined in HL7 IGs will need to move to THO later during the process. Consider giving this code system a THO URL now (See https://confluence.hl7.org/display/TSMG/Terminology+Play+Book, and/or talk to TSMG)
 WARNING: CodeSystem/ObservationValue-supplement-fr: CodeSystem.concept[0]: HL7 Defined CodeSystems should ensure that every concept has a display
 WARNING: CodeSystem/ObservationValue-supplement-fr: CodeSystem.concept[0]: HL7 Defined CodeSystems should ensure that every concept has a definition
@@ -1519,8 +1510,7 @@ ERROR: /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSou
 == DM/fsh-generated/resources/CodeSystem-ParticipationFunction-supplement-fr.json ==
 ERROR: CodeSystem.where(url = 'http://hl7.org/fhir/us/example/CodeSystem/ParticipationFunction-supplement-fr'): Conformance resource /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/DM/fsh-generated/resources/CodeSystem-ParticipationFunction-supplement-fr.json - the canonical URL (https://interop.esante.gouv.fr/terminologies/CodeSystem/ParticipationFunction-supplement-fr) does not match the URL (http://hl7.org/fhir/us/example/CodeSystem/ParticipationFunction-supplement-fr). Use the special-url parameter if you really mean for it not to match
 INFORMATION: CodeSystem.supplements: Pinned the version of http://terminology.hl7.org/CodeSystem/v3-ParticipationFunction to 3.0.0 from choices of 2.1.0 (hl7.terminology.r4#5.0.0), 3.0.0 (hl7.terminology.r4#6.5.0)
-WARNING: CodeSystem/ParticipationFunction-supplement-fr: CodeSystem: When HL7 is publishing a resource, the publisher must be provided, and for WG 'vocab' it should be 'HL7 International / Terminology Infrastructure'
-WARNING: CodeSystem/ParticipationFunction-supplement-fr: CodeSystem: The nominated WG 'vocab' means that the contact url should be 'http://www.hl7.org/Special/committees/Vocab' but it was not found
+ERROR: CodeSystem/ParticipationFunction-supplement-fr: CodeSystem: When HL7 is publishing a resource, the owning committee must be stated using the http://hl7.org/fhir/StructureDefinition/structuredefinition-wg extension
 INFORMATION: CodeSystem/ParticipationFunction-supplement-fr: CodeSystem: Most code systems defined in HL7 IGs will need to move to THO later during the process. Consider giving this code system a THO URL now (See https://confluence.hl7.org/display/TSMG/Terminology+Play+Book, and/or talk to TSMG)
 WARNING: CodeSystem/ParticipationFunction-supplement-fr: CodeSystem.concept[0]: HL7 Defined CodeSystems should ensure that every concept has a display
 WARNING: CodeSystem/ParticipationFunction-supplement-fr: CodeSystem.concept[0]: HL7 Defined CodeSystems should ensure that every concept has a definition
@@ -1528,8 +1518,7 @@ ERROR: /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSou
 == DM/fsh-generated/resources/CodeSystem-ParticipationType-supplement-fr.json ==
 ERROR: CodeSystem.where(url = 'http://hl7.org/fhir/us/example/CodeSystem/ParticipationType-supplement-fr'): Conformance resource /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/DM/fsh-generated/resources/CodeSystem-ParticipationType-supplement-fr.json - the canonical URL (https://interop.esante.gouv.fr/terminologies/CodeSystem/ParticipationType-supplement-fr) does not match the URL (http://hl7.org/fhir/us/example/CodeSystem/ParticipationType-supplement-fr). Use the special-url parameter if you really mean for it not to match
 INFORMATION: CodeSystem.supplements: Pinned the version of http://terminology.hl7.org/CodeSystem/v3-ParticipationType to 5.0.0 from choices of 3.1.1 (hl7.terminology.r4#5.0.0), 5.0.0 (hl7.terminology.r4#6.5.0)
-WARNING: CodeSystem/ParticipationType-supplement-fr: CodeSystem: When HL7 is publishing a resource, the publisher must be provided, and for WG 'vocab' it should be 'HL7 International / Terminology Infrastructure'
-WARNING: CodeSystem/ParticipationType-supplement-fr: CodeSystem: The nominated WG 'vocab' means that the contact url should be 'http://www.hl7.org/Special/committees/Vocab' but it was not found
+ERROR: CodeSystem/ParticipationType-supplement-fr: CodeSystem: When HL7 is publishing a resource, the owning committee must be stated using the http://hl7.org/fhir/StructureDefinition/structuredefinition-wg extension
 INFORMATION: CodeSystem/ParticipationType-supplement-fr: CodeSystem: Most code systems defined in HL7 IGs will need to move to THO later during the process. Consider giving this code system a THO URL now (See https://confluence.hl7.org/display/TSMG/Terminology+Play+Book, and/or talk to TSMG)
 WARNING: CodeSystem/ParticipationType-supplement-fr: CodeSystem.concept[0]: HL7 Defined CodeSystems should ensure that every concept has a display
 WARNING: CodeSystem/ParticipationType-supplement-fr: CodeSystem.concept[0]: HL7 Defined CodeSystems should ensure that every concept has a definition
@@ -1537,8 +1526,7 @@ ERROR: /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSou
 == DM/fsh-generated/resources/CodeSystem-RoleClass-supplement-fr.json ==
 ERROR: CodeSystem.where(url = 'http://hl7.org/fhir/us/example/CodeSystem/RoleClass-supplement-fr'): Conformance resource /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/DM/fsh-generated/resources/CodeSystem-RoleClass-supplement-fr.json - the canonical URL (https://interop.esante.gouv.fr/terminologies/CodeSystem/RoleClass-supplement-fr) does not match the URL (http://hl7.org/fhir/us/example/CodeSystem/RoleClass-supplement-fr). Use the special-url parameter if you really mean for it not to match
 INFORMATION: CodeSystem.supplements: Pinned the version of http://terminology.hl7.org/CodeSystem/v3-RoleClass to 4.0.0 from choices of 3.1.0 (hl7.terminology.r4#5.0.0), 4.0.0 (hl7.terminology.r4#6.5.0)
-WARNING: CodeSystem/RoleClass-supplement-fr: CodeSystem: When HL7 is publishing a resource, the publisher must be provided, and for WG 'vocab' it should be 'HL7 International / Terminology Infrastructure'
-WARNING: CodeSystem/RoleClass-supplement-fr: CodeSystem: The nominated WG 'vocab' means that the contact url should be 'http://www.hl7.org/Special/committees/Vocab' but it was not found
+ERROR: CodeSystem/RoleClass-supplement-fr: CodeSystem: When HL7 is publishing a resource, the owning committee must be stated using the http://hl7.org/fhir/StructureDefinition/structuredefinition-wg extension
 INFORMATION: CodeSystem/RoleClass-supplement-fr: CodeSystem: Most code systems defined in HL7 IGs will need to move to THO later during the process. Consider giving this code system a THO URL now (See https://confluence.hl7.org/display/TSMG/Terminology+Play+Book, and/or talk to TSMG)
 WARNING: CodeSystem/RoleClass-supplement-fr: CodeSystem.concept[0]: HL7 Defined CodeSystems should ensure that every concept has a display
 WARNING: CodeSystem/RoleClass-supplement-fr: CodeSystem.concept[0]: HL7 Defined CodeSystems should ensure that every concept has a definition
@@ -1546,8 +1534,7 @@ ERROR: /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSou
 == DM/fsh-generated/resources/CodeSystem-RoleCode-supplement-fr.json ==
 ERROR: CodeSystem.where(url = 'http://hl7.org/fhir/us/example/CodeSystem/RoleCode-supplement-fr'): Conformance resource /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/DM/fsh-generated/resources/CodeSystem-RoleCode-supplement-fr.json - the canonical URL (https://interop.esante.gouv.fr/terminologies/CodeSystem/RoleCode-supplement-fr) does not match the URL (http://hl7.org/fhir/us/example/CodeSystem/RoleCode-supplement-fr). Use the special-url parameter if you really mean for it not to match
 INFORMATION: CodeSystem.supplements: Pinned the version of http://terminology.hl7.org/CodeSystem/v3-RoleCode to 3.0.0 from choices of 2.2.0 (hl7.terminology.r4#5.0.0), 3.0.0 (hl7.terminology.r4#6.5.0)
-WARNING: CodeSystem/RoleCode-supplement-fr: CodeSystem: When HL7 is publishing a resource, the publisher must be provided, and for WG 'vocab' it should be 'HL7 International / Terminology Infrastructure'
-WARNING: CodeSystem/RoleCode-supplement-fr: CodeSystem: The nominated WG 'vocab' means that the contact url should be 'http://www.hl7.org/Special/committees/Vocab' but it was not found
+ERROR: CodeSystem/RoleCode-supplement-fr: CodeSystem: When HL7 is publishing a resource, the owning committee must be stated using the http://hl7.org/fhir/StructureDefinition/structuredefinition-wg extension
 INFORMATION: CodeSystem/RoleCode-supplement-fr: CodeSystem: Most code systems defined in HL7 IGs will need to move to THO later during the process. Consider giving this code system a THO URL now (See https://confluence.hl7.org/display/TSMG/Terminology+Play+Book, and/or talk to TSMG)
 WARNING: CodeSystem/RoleCode-supplement-fr: CodeSystem.concept[0]: HL7 Defined CodeSystems should ensure that every concept has a display
 WARNING: CodeSystem/RoleCode-supplement-fr: CodeSystem.concept[0]: HL7 Defined CodeSystems should ensure that every concept has a definition
@@ -1556,8 +1543,7 @@ ERROR: /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSou
 ERROR: CodeSystem.where(url = 'http://hl7.org/fhir/us/example/CodeSystem/SpecimenType-supplement-fr'): Conformance resource /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/DM/fsh-generated/resources/CodeSystem-SpecimenType-supplement-fr.json - the canonical URL (https://interop.esante.gouv.fr/terminologies/CodeSystem/SpecimenType-supplement-fr) does not match the URL (http://hl7.org/fhir/us/example/CodeSystem/SpecimenType-supplement-fr). Use the special-url parameter if you really mean for it not to match
 INFORMATION: CodeSystem.supplements: Pinned the version of http://terminology.hl7.org/CodeSystem/v2-0487 to 2.3.0 from choices of 2.0.0 (hl7.terminology.r4#6.5.0), 2.3.0 (hl7.terminology.r4#5.0.0)
 WARNING: CodeSystem/SpecimenType-supplement-fr: CodeSystem.concept[259].designation[0].value: value should not start or finish with whitespace 'Muscle squelettique '
-WARNING: CodeSystem/SpecimenType-supplement-fr: CodeSystem: When HL7 is publishing a resource, the publisher must be provided, and for WG 'vocab' it should be 'HL7 International / Terminology Infrastructure'
-WARNING: CodeSystem/SpecimenType-supplement-fr: CodeSystem: The nominated WG 'vocab' means that the contact url should be 'http://www.hl7.org/Special/committees/Vocab' but it was not found
+ERROR: CodeSystem/SpecimenType-supplement-fr: CodeSystem: When HL7 is publishing a resource, the owning committee must be stated using the http://hl7.org/fhir/StructureDefinition/structuredefinition-wg extension
 INFORMATION: CodeSystem/SpecimenType-supplement-fr: CodeSystem: Most code systems defined in HL7 IGs will need to move to THO later during the process. Consider giving this code system a THO URL now (See https://confluence.hl7.org/display/TSMG/Terminology+Play+Book, and/or talk to TSMG)
 ERROR: CodeSystem/SpecimenType-supplement-fr: CodeSystem.concept[22]: The code 'BLDC' is not declared in the base CodeSystem http://terminology.hl7.org/CodeSystem/v2-0487|2.3.0 so is not valid in the supplement
 ERROR: CodeSystem/SpecimenType-supplement-fr: CodeSystem.concept[33]: The code 'BRO' is not declared in the base CodeSystem http://terminology.hl7.org/CodeSystem/v2-0487|2.3.0 so is not valid in the supplement
@@ -1595,8 +1581,7 @@ ERROR: /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSou
 == DM/fsh-generated/resources/CodeSystem-TimingEvent-supplement-fr.json ==
 ERROR: CodeSystem.where(url = 'http://hl7.org/fhir/us/example/CodeSystem/TimingEvent-supplement-fr'): Conformance resource /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/DM/fsh-generated/resources/CodeSystem-TimingEvent-supplement-fr.json - the canonical URL (https://interop.esante.gouv.fr/terminologies/CodeSystem/TimingEvent-supplement-fr) does not match the URL (http://hl7.org/fhir/us/example/CodeSystem/TimingEvent-supplement-fr). Use the special-url parameter if you really mean for it not to match
 INFORMATION: CodeSystem.supplements: Pinned the version of http://terminology.hl7.org/CodeSystem/v3-TimingEvent to 3.0.0 from choices of 2.1.0 (hl7.terminology.r4#5.0.0), 3.0.0 (hl7.terminology.r4#6.5.0)
-WARNING: CodeSystem/TimingEvent-supplement-fr: CodeSystem: When HL7 is publishing a resource, the publisher must be provided, and for WG 'vocab' it should be 'HL7 International / Terminology Infrastructure'
-WARNING: CodeSystem/TimingEvent-supplement-fr: CodeSystem: The nominated WG 'vocab' means that the contact url should be 'http://www.hl7.org/Special/committees/Vocab' but it was not found
+ERROR: CodeSystem/TimingEvent-supplement-fr: CodeSystem: When HL7 is publishing a resource, the owning committee must be stated using the http://hl7.org/fhir/StructureDefinition/structuredefinition-wg extension
 INFORMATION: CodeSystem/TimingEvent-supplement-fr: CodeSystem: Most code systems defined in HL7 IGs will need to move to THO later during the process. Consider giving this code system a THO URL now (See https://confluence.hl7.org/display/TSMG/Terminology+Play+Book, and/or talk to TSMG)
 WARNING: CodeSystem/TimingEvent-supplement-fr: CodeSystem.concept[0]: HL7 Defined CodeSystems should ensure that every concept has a display
 WARNING: CodeSystem/TimingEvent-supplement-fr: CodeSystem.concept[0]: HL7 Defined CodeSystems should ensure that every concept has a definition
@@ -1604,8 +1589,7 @@ ERROR: /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSou
 == DM/fsh-generated/resources/CodeSystem-allergy-intolerance-criticality-supplement-fr.json ==
 ERROR: CodeSystem.where(url = 'http://hl7.org/fhir/us/example/CodeSystem/allergy-intolerance-criticality-supplement-fr'): Conformance resource /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/DM/fsh-generated/resources/CodeSystem-allergy-intolerance-criticality-supplement-fr.json - the canonical URL (https://interop.esante.gouv.fr/terminologies/CodeSystem/allergy-intolerance-criticality-supplement-fr) does not match the URL (http://hl7.org/fhir/us/example/CodeSystem/allergy-intolerance-criticality-supplement-fr). Use the special-url parameter if you really mean for it not to match
 WARNING: CodeSystem/allergy-intolerance-criticality-supplement-fr: CodeSystem: Constraint failed: csd-0: 'Name should be usable as an identifier for the module by machine processing applications such as code generation (name.matches('[A-Z]([A-Za-z0-9_]){0,254}'))'
-WARNING: CodeSystem/allergy-intolerance-criticality-supplement-fr: CodeSystem: When HL7 is publishing a resource, the publisher must be provided, and for WG 'vocab' it should be 'HL7 International / Terminology Infrastructure'
-WARNING: CodeSystem/allergy-intolerance-criticality-supplement-fr: CodeSystem: The nominated WG 'vocab' means that the contact url should be 'http://www.hl7.org/Special/committees/Vocab' but it was not found
+ERROR: CodeSystem/allergy-intolerance-criticality-supplement-fr: CodeSystem: When HL7 is publishing a resource, the owning committee must be stated using the http://hl7.org/fhir/StructureDefinition/structuredefinition-wg extension
 INFORMATION: CodeSystem/allergy-intolerance-criticality-supplement-fr: CodeSystem: Most code systems defined in HL7 IGs will need to move to THO later during the process. Consider giving this code system a THO URL now (See https://confluence.hl7.org/display/TSMG/Terminology+Play+Book, and/or talk to TSMG)
 WARNING: CodeSystem/allergy-intolerance-criticality-supplement-fr: CodeSystem.concept[0]: HL7 Defined CodeSystems should ensure that every concept has a display
 WARNING: CodeSystem/allergy-intolerance-criticality-supplement-fr: CodeSystem.concept[0]: HL7 Defined CodeSystems should ensure that every concept has a definition
@@ -1614,8 +1598,7 @@ ERROR: /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSou
 ERROR: CodeSystem.where(url = 'http://hl7.org/fhir/us/example/CodeSystem/allergyintolerance-clinical-supplement-fr'): Conformance resource /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/DM/fsh-generated/resources/CodeSystem-allergyintolerance-clinical-supplement-fr.json - the canonical URL (https://interop.esante.gouv.fr/terminologies/CodeSystem/allergyintolerance-clinical-supplement-fr) does not match the URL (http://hl7.org/fhir/us/example/CodeSystem/allergyintolerance-clinical-supplement-fr). Use the special-url parameter if you really mean for it not to match
 INFORMATION: CodeSystem.supplements: Pinned the version of http://terminology.hl7.org/CodeSystem/allergyintolerance-clinical to 1.0.1 from choices of 0.5.0 (hl7.terminology.r4#5.0.0), 1.0.1 (hl7.terminology.r4#6.5.0)
 WARNING: CodeSystem/allergyintolerance-clinical-supplement-fr: CodeSystem: Constraint failed: csd-0: 'Name should be usable as an identifier for the module by machine processing applications such as code generation (name.matches('[A-Z]([A-Za-z0-9_]){0,254}'))'
-WARNING: CodeSystem/allergyintolerance-clinical-supplement-fr: CodeSystem: When HL7 is publishing a resource, the publisher must be provided, and for WG 'vocab' it should be 'HL7 International / Terminology Infrastructure'
-WARNING: CodeSystem/allergyintolerance-clinical-supplement-fr: CodeSystem: The nominated WG 'vocab' means that the contact url should be 'http://www.hl7.org/Special/committees/Vocab' but it was not found
+ERROR: CodeSystem/allergyintolerance-clinical-supplement-fr: CodeSystem: When HL7 is publishing a resource, the owning committee must be stated using the http://hl7.org/fhir/StructureDefinition/structuredefinition-wg extension
 INFORMATION: CodeSystem/allergyintolerance-clinical-supplement-fr: CodeSystem: Most code systems defined in HL7 IGs will need to move to THO later during the process. Consider giving this code system a THO URL now (See https://confluence.hl7.org/display/TSMG/Terminology+Play+Book, and/or talk to TSMG)
 WARNING: CodeSystem/allergyintolerance-clinical-supplement-fr: CodeSystem.concept[0]: HL7 Defined CodeSystems should ensure that every concept has a display
 WARNING: CodeSystem/allergyintolerance-clinical-supplement-fr: CodeSystem.concept[0]: HL7 Defined CodeSystems should ensure that every concept has a definition
@@ -1624,8 +1607,7 @@ ERROR: /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSou
 ERROR: CodeSystem.where(url = 'http://hl7.org/fhir/us/example/CodeSystem/condition-clinical-supplement-fr'): Conformance resource /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/DM/fsh-generated/resources/CodeSystem-condition-clinical-supplement-fr.json - the canonical URL (https://interop.esante.gouv.fr/terminologies/CodeSystem/condition-clinical-supplement-fr) does not match the URL (http://hl7.org/fhir/us/example/CodeSystem/condition-clinical-supplement-fr). Use the special-url parameter if you really mean for it not to match
 INFORMATION: CodeSystem.supplements: Pinned the version of http://terminology.hl7.org/CodeSystem/condition-clinical to 3.0.0 from choices of 2.0.0 (hl7.terminology.r4#5.0.0), 3.0.0 (hl7.terminology.r4#6.5.0)
 WARNING: CodeSystem/condition-clinical-supplement-fr: CodeSystem: Constraint failed: csd-0: 'Name should be usable as an identifier for the module by machine processing applications such as code generation (name.matches('[A-Z]([A-Za-z0-9_]){0,254}'))'
-WARNING: CodeSystem/condition-clinical-supplement-fr: CodeSystem: When HL7 is publishing a resource, the publisher must be provided, and for WG 'vocab' it should be 'HL7 International / Terminology Infrastructure'
-WARNING: CodeSystem/condition-clinical-supplement-fr: CodeSystem: The nominated WG 'vocab' means that the contact url should be 'http://www.hl7.org/Special/committees/Vocab' but it was not found
+ERROR: CodeSystem/condition-clinical-supplement-fr: CodeSystem: When HL7 is publishing a resource, the owning committee must be stated using the http://hl7.org/fhir/StructureDefinition/structuredefinition-wg extension
 INFORMATION: CodeSystem/condition-clinical-supplement-fr: CodeSystem: Most code systems defined in HL7 IGs will need to move to THO later during the process. Consider giving this code system a THO URL now (See https://confluence.hl7.org/display/TSMG/Terminology+Play+Book, and/or talk to TSMG)
 WARNING: CodeSystem/condition-clinical-supplement-fr: CodeSystem.concept[0]: HL7 Defined CodeSystems should ensure that every concept has a display
 WARNING: CodeSystem/condition-clinical-supplement-fr: CodeSystem.concept[0]: HL7 Defined CodeSystems should ensure that every concept has a definition
@@ -1634,8 +1616,7 @@ ERROR: /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSou
 ERROR: CodeSystem.where(url = 'http://hl7.org/fhir/us/example/CodeSystem/condition-ver-status-supplement-fr'): Conformance resource /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/DM/fsh-generated/resources/CodeSystem-condition-ver-status-supplement-fr.json - the canonical URL (https://interop.esante.gouv.fr/terminologies/CodeSystem/condition-ver-status-supplement-fr) does not match the URL (http://hl7.org/fhir/us/example/CodeSystem/condition-ver-status-supplement-fr). Use the special-url parameter if you really mean for it not to match
 INFORMATION: CodeSystem.supplements: Pinned the version of http://terminology.hl7.org/CodeSystem/condition-ver-status to 2.0.1 from choices of 0.5.0 (hl7.terminology.r4#5.0.0), 2.0.1 (hl7.terminology.r4#6.5.0)
 WARNING: CodeSystem/condition-ver-status-supplement-fr: CodeSystem: Constraint failed: csd-0: 'Name should be usable as an identifier for the module by machine processing applications such as code generation (name.matches('[A-Z]([A-Za-z0-9_]){0,254}'))'
-WARNING: CodeSystem/condition-ver-status-supplement-fr: CodeSystem: When HL7 is publishing a resource, the publisher must be provided, and for WG 'vocab' it should be 'HL7 International / Terminology Infrastructure'
-WARNING: CodeSystem/condition-ver-status-supplement-fr: CodeSystem: The nominated WG 'vocab' means that the contact url should be 'http://www.hl7.org/Special/committees/Vocab' but it was not found
+ERROR: CodeSystem/condition-ver-status-supplement-fr: CodeSystem: When HL7 is publishing a resource, the owning committee must be stated using the http://hl7.org/fhir/StructureDefinition/structuredefinition-wg extension
 INFORMATION: CodeSystem/condition-ver-status-supplement-fr: CodeSystem: Most code systems defined in HL7 IGs will need to move to THO later during the process. Consider giving this code system a THO URL now (See https://confluence.hl7.org/display/TSMG/Terminology+Play+Book, and/or talk to TSMG)
 WARNING: CodeSystem/condition-ver-status-supplement-fr: CodeSystem.concept[0]: HL7 Defined CodeSystems should ensure that every concept has a display
 WARNING: CodeSystem/condition-ver-status-supplement-fr: CodeSystem.concept[0]: HL7 Defined CodeSystems should ensure that every concept has a definition
@@ -1644,8 +1625,7 @@ ERROR: /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSou
 ERROR: CodeSystem.where(url = 'http://hl7.org/fhir/us/example/CodeSystem/employmentStatus-supplement-fr'): Conformance resource /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/DM/fsh-generated/resources/CodeSystem-employmentStatus-supplement-fr.json - the canonical URL (https://interop.esante.gouv.fr/terminologies/CodeSystem/employmentStatus-supplement-fr) does not match the URL (http://hl7.org/fhir/us/example/CodeSystem/employmentStatus-supplement-fr). Use the special-url parameter if you really mean for it not to match
 INFORMATION: CodeSystem.supplements: Pinned the version of http://terminology.hl7.org/CodeSystem/v2-0066 to 2.2.0 from choices of 2.0.0 (hl7.terminology.r4#6.5.0), 2.2.0 (hl7.terminology.r4#5.0.0)
 WARNING: CodeSystem/employmentStatus-supplement-fr: CodeSystem: Constraint failed: csd-0: 'Name should be usable as an identifier for the module by machine processing applications such as code generation (name.matches('[A-Z]([A-Za-z0-9_]){0,254}'))'
-WARNING: CodeSystem/employmentStatus-supplement-fr: CodeSystem: When HL7 is publishing a resource, the publisher must be provided, and for WG 'vocab' it should be 'HL7 International / Terminology Infrastructure'
-WARNING: CodeSystem/employmentStatus-supplement-fr: CodeSystem: The nominated WG 'vocab' means that the contact url should be 'http://www.hl7.org/Special/committees/Vocab' but it was not found
+ERROR: CodeSystem/employmentStatus-supplement-fr: CodeSystem: When HL7 is publishing a resource, the owning committee must be stated using the http://hl7.org/fhir/StructureDefinition/structuredefinition-wg extension
 INFORMATION: CodeSystem/employmentStatus-supplement-fr: CodeSystem: Most code systems defined in HL7 IGs will need to move to THO later during the process. Consider giving this code system a THO URL now (See https://confluence.hl7.org/display/TSMG/Terminology+Play+Book, and/or talk to TSMG)
 WARNING: CodeSystem/employmentStatus-supplement-fr: CodeSystem.concept[0]: HL7 Defined CodeSystems should ensure that every concept has a display
 WARNING: CodeSystem/employmentStatus-supplement-fr: CodeSystem.concept[0]: HL7 Defined CodeSystems should ensure that every concept has a definition
@@ -1654,8 +1634,7 @@ ERROR: /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSou
 ERROR: CodeSystem.where(url = 'http://hl7.org/fhir/us/example/CodeSystem/mediaType-supplement-fr'): Conformance resource /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/DM/fsh-generated/resources/CodeSystem-mediaType-supplement-fr.json - the canonical URL (https://interop.esante.gouv.fr/terminologies/CodeSystem/mediaType-supplement-fr) does not match the URL (http://hl7.org/fhir/us/example/CodeSystem/mediaType-supplement-fr). Use the special-url parameter if you really mean for it not to match
 INFORMATION: CodeSystem.supplements: Pinned the version of http://terminology.hl7.org/CodeSystem/v3-mediaType to 3.0.0 from choices of 2.2.0 (hl7.terminology.r4#5.0.0), 3.0.0 (hl7.terminology.r4#6.5.0)
 WARNING: CodeSystem/mediaType-supplement-fr: CodeSystem: Constraint failed: csd-0: 'Name should be usable as an identifier for the module by machine processing applications such as code generation (name.matches('[A-Z]([A-Za-z0-9_]){0,254}'))'
-WARNING: CodeSystem/mediaType-supplement-fr: CodeSystem: When HL7 is publishing a resource, the publisher must be provided, and for WG 'vocab' it should be 'HL7 International / Terminology Infrastructure'
-WARNING: CodeSystem/mediaType-supplement-fr: CodeSystem: The nominated WG 'vocab' means that the contact url should be 'http://www.hl7.org/Special/committees/Vocab' but it was not found
+ERROR: CodeSystem/mediaType-supplement-fr: CodeSystem: When HL7 is publishing a resource, the owning committee must be stated using the http://hl7.org/fhir/StructureDefinition/structuredefinition-wg extension
 INFORMATION: CodeSystem/mediaType-supplement-fr: CodeSystem: Most code systems defined in HL7 IGs will need to move to THO later during the process. Consider giving this code system a THO URL now (See https://confluence.hl7.org/display/TSMG/Terminology+Play+Book, and/or talk to TSMG)
 WARNING: CodeSystem/mediaType-supplement-fr: CodeSystem.concept[0]: HL7 Defined CodeSystems should ensure that every concept has a display
 WARNING: CodeSystem/mediaType-supplement-fr: CodeSystem.concept[0]: HL7 Defined CodeSystems should ensure that every concept has a definition
@@ -1664,8 +1643,7 @@ ERROR: /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSou
 ERROR: CodeSystem.where(url = 'http://hl7.org/fhir/us/example/CodeSystem/orderableDrugForm-supplement-fr'): Conformance resource /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/DM/fsh-generated/resources/CodeSystem-orderableDrugForm-supplement-fr.json - the canonical URL (https://interop.esante.gouv.fr/terminologies/CodeSystem/orderableDrugForm-supplement-fr) does not match the URL (http://hl7.org/fhir/us/example/CodeSystem/orderableDrugForm-supplement-fr). Use the special-url parameter if you really mean for it not to match
 INFORMATION: CodeSystem.supplements: Pinned the version of http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm to 3.0.0 from choices of 2.1.0 (hl7.terminology.r4#5.0.0), 3.0.0 (hl7.terminology.r4#6.5.0)
 WARNING: CodeSystem/orderableDrugForm-supplement-fr: CodeSystem: Constraint failed: csd-0: 'Name should be usable as an identifier for the module by machine processing applications such as code generation (name.matches('[A-Z]([A-Za-z0-9_]){0,254}'))'
-WARNING: CodeSystem/orderableDrugForm-supplement-fr: CodeSystem: When HL7 is publishing a resource, the publisher must be provided, and for WG 'vocab' it should be 'HL7 International / Terminology Infrastructure'
-WARNING: CodeSystem/orderableDrugForm-supplement-fr: CodeSystem: The nominated WG 'vocab' means that the contact url should be 'http://www.hl7.org/Special/committees/Vocab' but it was not found
+ERROR: CodeSystem/orderableDrugForm-supplement-fr: CodeSystem: When HL7 is publishing a resource, the owning committee must be stated using the http://hl7.org/fhir/StructureDefinition/structuredefinition-wg extension
 INFORMATION: CodeSystem/orderableDrugForm-supplement-fr: CodeSystem: Most code systems defined in HL7 IGs will need to move to THO later during the process. Consider giving this code system a THO URL now (See https://confluence.hl7.org/display/TSMG/Terminology+Play+Book, and/or talk to TSMG)
 WARNING: CodeSystem/orderableDrugForm-supplement-fr: CodeSystem.concept[0]: HL7 Defined CodeSystems should ensure that every concept has a display
 WARNING: CodeSystem/orderableDrugForm-supplement-fr: CodeSystem.concept[0]: HL7 Defined CodeSystems should ensure that every concept has a definition
@@ -1674,8 +1652,7 @@ ERROR: /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSou
 ERROR: CodeSystem.where(url = 'http://hl7.org/fhir/us/example/CodeSystem/substanceAdminSubstitution-supplement-fr'): Conformance resource /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/DM/fsh-generated/resources/CodeSystem-substanceAdminSubstitution-supplement-fr.json - the canonical URL (https://interop.esante.gouv.fr/terminologies/CodeSystem/substanceAdminSubstitution-supplement-fr) does not match the URL (http://hl7.org/fhir/us/example/CodeSystem/substanceAdminSubstitution-supplement-fr). Use the special-url parameter if you really mean for it not to match
 INFORMATION: CodeSystem.supplements: Pinned the version of http://terminology.hl7.org/CodeSystem/v3-substanceAdminSubstitution to 3.0.0 from choices of 2.1.0 (hl7.terminology.r4#5.0.0), 3.0.0 (hl7.terminology.r4#6.5.0)
 WARNING: CodeSystem/substanceAdminSubstitution-supplement-fr: CodeSystem: Constraint failed: csd-0: 'Name should be usable as an identifier for the module by machine processing applications such as code generation (name.matches('[A-Z]([A-Za-z0-9_]){0,254}'))'
-WARNING: CodeSystem/substanceAdminSubstitution-supplement-fr: CodeSystem: When HL7 is publishing a resource, the publisher must be provided, and for WG 'vocab' it should be 'HL7 International / Terminology Infrastructure'
-WARNING: CodeSystem/substanceAdminSubstitution-supplement-fr: CodeSystem: The nominated WG 'vocab' means that the contact url should be 'http://www.hl7.org/Special/committees/Vocab' but it was not found
+ERROR: CodeSystem/substanceAdminSubstitution-supplement-fr: CodeSystem: When HL7 is publishing a resource, the owning committee must be stated using the http://hl7.org/fhir/StructureDefinition/structuredefinition-wg extension
 INFORMATION: CodeSystem/substanceAdminSubstitution-supplement-fr: CodeSystem: Most code systems defined in HL7 IGs will need to move to THO later during the process. Consider giving this code system a THO URL now (See https://confluence.hl7.org/display/TSMG/Terminology+Play+Book, and/or talk to TSMG)
 WARNING: CodeSystem/substanceAdminSubstitution-supplement-fr: CodeSystem.concept[0]: HL7 Defined CodeSystems should ensure that every concept has a display
 WARNING: CodeSystem/substanceAdminSubstitution-supplement-fr: CodeSystem.concept[0]: HL7 Defined CodeSystems should ensure that every concept has a definition
@@ -2882,7 +2859,7 @@ INFORMATION: ValueSet/JDV-J146-MethodBodyHeight-ENS: ValueSet.compose.include[0]
 INFORMATION: ValueSet/JDV-J146-MethodBodyHeight-ENS: ValueSet.compose.include[1]: The concepts in the value set include have not been validated because the terminology server https://smt.esante.gouv.fr/fhir does not support batch validation (tests version < 1.7.8)
 WARNING: ValueSet/JDV-J146-MethodBodyHeight-ENS: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.title is mandatory, but it is not present
 ERROR: ValueSet.where(id = 'JDV-J146-MethodBodyHeight-ENS'): Error from https://smt.esante.gouv.fr/fhir: Error: [7a27d4b2-8fdd-4644-9d31-bcbfba145326]: A usable code system with URL https://smt.esante.gouv.fr/terminologie-ncit could not be resolved.
-Information: X-Request-Id: 7fe48769-bf81-4692-a3cf-2aa84d2f2fe5
+Information: X-Request-Id: d76b9fe4-28eb-4c50-ac56-4f95e52c7a08
 == input/ontoserver/JDV/JDV_J147_MethodHeartrate_ENS_JDV-J147-MethodHeartrate-ENS.json ==
 INFORMATION: ValueSet/JDV-J147-MethodHeartrate-ENS: ValueSet.compose.include[0]: The concepts in the value set include have not been validated because the terminology server https://smt.esante.gouv.fr/fhir does not support batch validation (tests version < 1.7.8)
 WARNING: ValueSet/JDV-J147-MethodHeartrate-ENS: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.title is mandatory, but it is not present
@@ -4147,8 +4124,8 @@ WARNING: ValueSet/JDV-J50-AccessibiliteLieu-ROR: ValueSet: Published value sets 
 WARNING: ValueSet/JDV-J51-FamilleActiviteOperationnelle-ROR: ValueSet.compose.include[1].system: No definition could be found for URL value 'https://mos.esante.gouv.fr/NOS/TRE_R265-PrestationPilotageSerafin/FHIR/TRE-R265-PrestationPilotageSerafin'
 INFORMATION: ValueSet/JDV-J51-FamilleActiviteOperationnelle-ROR: ValueSet.compose.include[1]: The concepts in the value set include have not been validated because the code system is not known, and no terminology service supports it
 WARNING: ValueSet/JDV-J51-FamilleActiviteOperationnelle-ROR: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.title is mandatory, but it is not present
-ERROR: ValueSet.where(id = 'JDV-J51-FamilleActiviteOperationnelle-ROR'): Error from https://smt.esante.gouv.fr/fhir: Error: [c78b34fa-64f0-4606-aedd-bfb5cc51fa0d]: A usable code system with URL https://mos.esante.gouv.fr/NOS/TRE_R265-PrestationPilotageSerafin/FHIR/TRE-R265-PrestationPilotageSerafin could not be resolved.
-Information: X-Request-Id: c69277ad-8bc6-4632-9477-21056f9f3032
+ERROR: ValueSet.where(id = 'JDV-J51-FamilleActiviteOperationnelle-ROR'): Error from https://smt.esante.gouv.fr/fhir: Error: [ea9f667f-3911-4c9e-a457-c64d8286fbd0]: A usable code system with URL https://mos.esante.gouv.fr/NOS/TRE_R265-PrestationPilotageSerafin/FHIR/TRE-R265-PrestationPilotageSerafin could not be resolved.
+Information: X-Request-Id: dc01f3d4-b330-4271-89e5-2a8e683cb068
 == input/ontoserver/JDV/JDV_J52_AvailabilityStatus_CISIS_JDV-J52-AvailabilityStatus-CISIS.json ==
 WARNING: ValueSet/JDV-J52-AvailabilityStatus-CISIS: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.title is mandatory, but it is not present
 == input/ontoserver/JDV/JDV_J53_TypeRequeteGestionDossier_CISIS_JDV-J53-TypeRequeteGestionDossier-CISIS.json ==
@@ -4735,7 +4712,7 @@ WARNING: ValueSet/jdv-defaillance-materielle-cisis: ValueSet.compose.include[0].
 INFORMATION: ValueSet/jdv-defaillance-materielle-cisis: ValueSet.compose.include[0]: The concepts in the value set include have not been validated because the code system is not known, and no terminology service supports it
 INFORMATION: ValueSet/jdv-defaillance-materielle-cisis: ValueSet.compose.include[1]: The concepts in the value set include have not been validated because the terminology server https://smt.esante.gouv.fr/fhir does not support batch validation (tests version < 1.7.8)
 ERROR: ValueSet.where(id = 'jdv-defaillance-materielle-cisis'): Error from https://smt.esante.gouv.fr/fhir: Error: [03325ab3-e421-4cd2-a75d-dc5ee522c7e8]: A usable code system with URL https://www.imdrf.org could not be resolved.
-Information: X-Request-Id: 2d0de43c-f2f6-425c-ba5f-dfcdbba8a419
+Information: X-Request-Id: 59bc34e9-4f1e-4a3d-b242-61ddf2fa9972
 == input/ontoserver/JDV/JdvDeficiencePhysiqueCisis_jdv-deficience-physique-cisis.json ==
 INFORMATION: ValueSet/jdv-deficience-physique-cisis: ValueSet.compose.include[2]: The concepts in the value set include have not been validated because the terminology server https://smt.esante.gouv.fr/fhir does not support batch validation (tests version < 1.7.8)
 == input/ontoserver/JDV/JdvDelimitationActiviteCisis_jdv-delimitation-activite-cisis.json ==
@@ -4841,15 +4818,15 @@ INFORMATION: ValueSet/jdv-fluide-route-code-cisis: ValueSet.compose.include[0]: 
 == input/ontoserver/JDV/JdvFonctionEtudieeTepCisis_jdv-fonction-etudiee-tep-cisis.json ==
 == input/ontoserver/JDV/JdvGeneCisis_jdv-gene-cisis.json ==
 INFORMATION: ValueSet/jdv-gene-cisis: ValueSet.compose.include[0]: The concepts in the value set include have not been validated because the code system is not known, and no terminology service supports it
-ERROR: ValueSet.where(id = 'jdv-gene-cisis'): Error from https://smt.esante.gouv.fr/fhir: Error: [bbcd25f7-b1ad-45c7-a954-475463911296]: A usable code system with URL http://www.genenames.org/geneId could not be resolved.
-Information: X-Request-Id: e5b3f53f-5085-49d2-bc03-cc6a7d7968a0
+ERROR: ValueSet.where(id = 'jdv-gene-cisis'): Error from https://smt.esante.gouv.fr/fhir: Error: [b457de1b-84b5-4084-b525-97c7ad1aef48]: A usable code system with URL http://www.genenames.org/geneId could not be resolved.
+Information: X-Request-Id: 015d2dab-6315-4609-b6e1-e37085f2fa11
 == input/ontoserver/JDV/JdvGesteReanimationNouveauNeCisis_jdv-geste-reanimation-nouveau-ne-cisis.json ==
 INFORMATION: ValueSet/jdv-geste-reanimation-nouveau-ne-cisis: ValueSet.compose.include[1]: The concepts in the value set include have not been validated because the terminology server https://smt.esante.gouv.fr/fhir does not support batch validation (tests version < 1.7.8)
 == input/ontoserver/JDV/JdvGestionEffetSecondaireCisis_jdv-gestion-effet-secondaire-cisis.json ==
 WARNING: ValueSet/jdv-gestion-effet-secondaire-cisis: ValueSet.compose.include[0].system: No definition could be found for URL value 'https://smt.esante.gouv.fr/terminologie-ncit'
 INFORMATION: ValueSet/jdv-gestion-effet-secondaire-cisis: ValueSet.compose.include[0].concept[0]: A definition for CodeSystem 'https://smt.esante.gouv.fr/terminologie-ncit' could not be found, so the code cannot be validated
-ERROR: ValueSet.where(id = 'jdv-gestion-effet-secondaire-cisis'): Error from https://smt.esante.gouv.fr/fhir: Error: [50a080f7-38db-4d7b-a3f7-6b39e025e635]: A usable code system with URL https://smt.esante.gouv.fr/terminologie-ncit could not be resolved.
-Information: X-Request-Id: 292022cd-6c0a-45d5-8504-9fa50652a646
+ERROR: ValueSet.where(id = 'jdv-gestion-effet-secondaire-cisis'): Error from https://smt.esante.gouv.fr/fhir: Error: [6e3a8c6b-ca8b-490b-aef7-1d4f293df97d]: A usable code system with URL https://smt.esante.gouv.fr/terminologie-ncit could not be resolved.
+Information: X-Request-Id: 0eb88371-948f-4bba-9bb9-e168c4147972
 == input/ontoserver/JDV/JdvGirCisis_jdv-gir-cisis.json ==
 == input/ontoserver/JDV/JdvGraviteCisis_jdv-gravite-cisis.json ==
 INFORMATION: ValueSet/jdv-gravite-cisis: ValueSet.compose.include[1]: The concepts in the value set include have not been validated because the terminology server https://smt.esante.gouv.fr/fhir does not support batch validation (tests version < 1.7.8)
@@ -5055,8 +5032,8 @@ ERROR: ValueSet/jdv-modalite-demande-acte-imagerie-cisis: ValueSet.compose.inclu
 ERROR: ValueSet/jdv-modalite-demande-acte-imagerie-cisis: ValueSet.compose.include[2].concept[3]: The code 'OT' is not valid in the system http://dicom.nema.org/resources/ontology/DCM (Wrong Display Name 'Autre technique d'imagerie' for http://dicom.nema.org/resources/ontology/DCM#OT. Valid display is 'Other Modality' (for the language(s) 'en, en-US'))
 ERROR: ValueSet/jdv-modalite-demande-acte-imagerie-cisis: ValueSet.compose.include[2].concept[4]: The code 'NM' is not valid in the system http://dicom.nema.org/resources/ontology/DCM (Wrong Display Name 'Scintigraphie' for http://dicom.nema.org/resources/ontology/DCM#NM. Valid display is 'Nuclear Medicine' (for the language(s) 'en, en-US'))
 ERROR: ValueSet/jdv-modalite-demande-acte-imagerie-cisis: ValueSet.compose.include[2].concept[5]: The code 'PT' is not valid in the system http://dicom.nema.org/resources/ontology/DCM (Wrong Display Name 'TEP : Tomographie par émission de positons' for http://dicom.nema.org/resources/ontology/DCM#PT. Valid display is 'Positron emission tomography' (for the language(s) 'en, en-US'))
-ERROR: ValueSet.where(id = 'jdv-modalite-demande-acte-imagerie-cisis'): Error from https://smt.esante.gouv.fr/fhir: Error: [f0af0065-4e99-495f-8eac-ec9eeac86070]: A usable code system with URL https://smt.esante.gouv.fr/terminologie-ncit could not be resolved.
-Information: X-Request-Id: e331c14c-9d44-4275-a5e3-eb3fc66420d3
+ERROR: ValueSet.where(id = 'jdv-modalite-demande-acte-imagerie-cisis'): Error from https://smt.esante.gouv.fr/fhir: Error: [6763d3b8-cc6a-4d22-b7e1-11555b8bc6d9]: A usable code system with URL https://smt.esante.gouv.fr/terminologie-ncit could not be resolved.
+Information: X-Request-Id: 26cfcf87-30fe-408c-9b30-471ddf678280
 == input/ontoserver/JDV/JdvModaliteEntreeCisis_jdv-modalite-entree-cisis.json ==
 INFORMATION: ValueSet/jdv-modalite-entree-cisis: ValueSet.compose.include[1]: The concepts in the value set include have not been validated because the terminology server https://smt.esante.gouv.fr/fhir does not support batch validation (tests version < 1.7.8)
 == input/ontoserver/JDV/JdvModaliteSortieCisis_jdv-modalite-sortie-cisis.json ==
@@ -5660,10 +5637,10 @@ ERROR: ValueSet/jdv-specimen-type-cisis: ValueSet.compose.include[1].concept[307
 ERROR: ValueSet/jdv-specimen-type-cisis: ValueSet.compose.include[1].concept[308]: The code 'WWO' is not valid in the system http://terminology.hl7.org/CodeSystem/v2-0487 (Wrong Display Name 'Eau (océan)' for http://terminology.hl7.org/CodeSystem/v2-0487#WWO. Valid display is 'Environmental, Water (Ocean)' (for the language(s) 'en, en-US'))
 ERROR: ValueSet/jdv-specimen-type-cisis: ValueSet.compose.include[1].concept[309]: The code 'WWT' is not valid in the system http://terminology.hl7.org/CodeSystem/v2-0487 (Wrong Display Name 'Eau (robinet)' for http://terminology.hl7.org/CodeSystem/v2-0487#WWT. Valid display is 'Environmental, Water  (Tap)' (for the language(s) 'en, en-US'))
 == input/ontoserver/JDV/JdvStaticSemProcedureCisis_jdv-static-sem-procedure-cisis.json ==
-ERROR: ValueSet/jdv-static-sem-procedure-cisis: ValueSet.compose.include[0].concept[0]: The code 'JQQP003' is not valid in the system https://smt.esante.gouv.fr/terminologie-ccam (Error from https://smt.esante.gouv.fr/fhir: Error: Cannot invoke "String.toLowerCase(java.util.Locale)" because "tag" is null
-Information: X-Request-Id: 94e3e5fe-f1e8-42ae-9fd4-4539fe0a6f84)
-INFORMATION: ValueSet/jdv-static-sem-procedure-cisis: ValueSet.compose.include[0].concept[0]: Error from https://smt.esante.gouv.fr/fhir: Error: Cannot invoke "String.toLowerCase(java.util.Locale)" because "tag" is null
-Information: X-Request-Id: 94e3e5fe-f1e8-42ae-9fd4-4539fe0a6f84
+ERROR: ValueSet/jdv-static-sem-procedure-cisis: ValueSet.compose.include[0].concept[0]: The code 'JQQP003' is not valid in the system https://smt.esante.gouv.fr/terminologie-ccam (Error from https://smt.esante.gouv.fr/fhir: Error: NullPointerException
+Information: X-Request-Id: b85fd763-d338-469a-9ad9-8dcb049a0696)
+INFORMATION: ValueSet/jdv-static-sem-procedure-cisis: ValueSet.compose.include[0].concept[0]: Error from https://smt.esante.gouv.fr/fhir: Error: NullPointerException
+Information: X-Request-Id: b85fd763-d338-469a-9ad9-8dcb049a0696
 == input/ontoserver/JDV/JdvStatutActuelDiagnosticCisis_jdv-statut-actuel-diagnostic-cisis.json ==
 INFORMATION: ValueSet/jdv-statut-actuel-diagnostic-cisis: ValueSet.compose.include[1]: The concepts in the value set include have not been validated because the terminology server https://smt.esante.gouv.fr/fhir does not support batch validation (tests version < 1.7.8)
 == input/ontoserver/JDV/JdvStatutCasPresenteCisis_jdv-statut-cas-presente-cisis.json ==
@@ -5714,8 +5691,8 @@ INFORMATION: ValueSet/jdv-traitement-preventif-cisis: ValueSet.compose.include[0
 == input/ontoserver/JDV/JdvTraitementSoinsFrcpCisis_jdv-traitement-soins-frcp-cisis.json ==
 WARNING: ValueSet/jdv-traitement-soins-frcp-cisis: ValueSet.compose.include[0].system: No definition could be found for URL value 'https://smt.esante.gouv.fr/terminologie-ncit'
 INFORMATION: ValueSet/jdv-traitement-soins-frcp-cisis: ValueSet.compose.include[0]: The concepts in the value set include have not been validated because the code system is not known, and no terminology service supports it
-ERROR: ValueSet.where(id = 'jdv-traitement-soins-frcp-cisis'): Error from https://smt.esante.gouv.fr/fhir: Error: [f11cd034-9f8e-4e9a-a473-e1b1046a30d1]: A usable code system with URL https://smt.esante.gouv.fr/terminologie-ncit could not be resolved.
-Information: X-Request-Id: 151dde71-f8c8-4a06-a303-4f3fe4b84edf
+ERROR: ValueSet.where(id = 'jdv-traitement-soins-frcp-cisis'): Error from https://smt.esante.gouv.fr/fhir: Error: [52fda448-81b0-4b22-bc69-415a0ec2f7cd]: A usable code system with URL https://smt.esante.gouv.fr/terminologie-ncit could not be resolved.
+Information: X-Request-Id: 3e7faa7a-8573-4a82-b698-6fc6255fb5c2
 == input/ontoserver/JDV/JdvTraitementSuiviCisis_jdv-traitement-suivi-cisis.json ==
 == input/ontoserver/JDV/JdvTransfertMutationCisis_jdv-transfert-mutation-cisis.json ==
 INFORMATION: ValueSet/jdv-transfert-mutation-cisis: ValueSet.compose.include[1]: The concepts in the value set include have not been validated because the terminology server https://smt.esante.gouv.fr/fhir does not support batch validation (tests version < 1.7.8)
@@ -5724,8 +5701,8 @@ INFORMATION: ValueSet/jdv-trouble-visuel-cisis: ValueSet.compose.include[0]: The
 == input/ontoserver/JDV/JdvTrousseCcuCisis_jdv-trousse-ccu-cisis.json ==
 WARNING: ValueSet/jdv-trousse-ccu-cisis: ValueSet.compose.include[1].system: No definition could be found for URL value 'https://smt.esante.gouv.fr/terminologie-tccr'
 INFORMATION: ValueSet/jdv-trousse-ccu-cisis: ValueSet.compose.include[1]: The concepts in the value set include have not been validated because the code system is not known, and no terminology service supports it
-ERROR: ValueSet.where(id = 'jdv-trousse-ccu-cisis'): Error from https://smt.esante.gouv.fr/fhir: Error: [87c07c44-734d-422e-8e79-6d3fee6e2f01]: A usable code system with URL https://smt.esante.gouv.fr/terminologie-tccr could not be resolved.
-Information: X-Request-Id: ec942cb0-5f48-48f7-abf1-9e29fd9658f6
+ERROR: ValueSet.where(id = 'jdv-trousse-ccu-cisis'): Error from https://smt.esante.gouv.fr/fhir: Error: [b530d309-55ea-419b-bb1c-8af807140458]: A usable code system with URL https://smt.esante.gouv.fr/terminologie-tccr could not be resolved.
+Information: X-Request-Id: ab4035bc-e6c6-4a93-9905-7a11d8a81b3c
 == input/ontoserver/JDV/JdvTumeurCisis_jdv-tumeur-cisis.json ==
 INFORMATION: ValueSet/jdv-tumeur-cisis: ValueSet.compose.include[0]: The concepts in the value set include have not been validated because the terminology server https://smt.esante.gouv.fr/fhir does not support batch validation (tests version < 1.7.8)
 == input/ontoserver/JDV/JdvTypeAccompagnementSocioproCisis_jdv-type-accompagnement-sociopro-cisis.json ==
@@ -5799,8 +5776,8 @@ INFORMATION: ValueSet/jdv-type-presentation-cisis: ValueSet.compose.include[1]: 
 == input/ontoserver/JDV/JdvTypeProduitSanguinLabileCisis_jdv-type-produit-sanguin-labile-cisis.json ==
 WARNING: ValueSet/jdv-type-produit-sanguin-labile-cisis: ValueSet.compose.include[0].system: No definition could be found for URL value 'https://smt.esante.gouv.fr/terminologie-ncit'
 INFORMATION: ValueSet/jdv-type-produit-sanguin-labile-cisis: ValueSet.compose.include[0]: The concepts in the value set include have not been validated because the code system is not known, and no terminology service supports it
-ERROR: ValueSet.where(id = 'jdv-type-produit-sanguin-labile-cisis'): Error from https://smt.esante.gouv.fr/fhir: Error: [45a06e83-71c4-423c-9c4c-c0fc9efec267]: A usable code system with URL https://smt.esante.gouv.fr/terminologie-ncit could not be resolved.
-Information: X-Request-Id: e30faba7-3839-4a6a-92cd-be2d75f296ca
+ERROR: ValueSet.where(id = 'jdv-type-produit-sanguin-labile-cisis'): Error from https://smt.esante.gouv.fr/fhir: Error: [2cb54386-1a44-4c10-b861-5e3e74dd4b83]: A usable code system with URL https://smt.esante.gouv.fr/terminologie-ncit could not be resolved.
+Information: X-Request-Id: f06f200a-0276-48ec-a8a6-11a01df94fed
 == input/ontoserver/JDV/JdvTypeRencontreCisis_jdv-type-rencontre-cisis.json ==
 == input/ontoserver/JDV/JdvTypeRencontreObpCisis_jdv-type-rencontre-obp-cisis.json ==
 == input/ontoserver/JDV/JdvTypeResultatCisis_jdv-type-resultat-cisis.json ==

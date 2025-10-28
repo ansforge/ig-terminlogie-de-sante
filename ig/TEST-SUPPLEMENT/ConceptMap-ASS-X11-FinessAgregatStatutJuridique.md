@@ -38,7 +38,7 @@ Mapping de (non spécifié) vers (non spécifié)
   "title" : "ASS_X11_FinessAgregatStatutJuridique",
   "status" : "active",
   "experimental" : false,
-  "date" : "2025-10-28T16:16:24+00:00",
+  "date" : "2025-10-28T18:01:21+00:00",
   "publisher" : "ANS",
   "contact" : [
     {
