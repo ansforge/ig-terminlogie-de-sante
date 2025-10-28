@@ -16,7 +16,7 @@ Description: "Traduction Francaise"
 * ^content = #supplement
 * ^supplements = "http://terminology.hl7.org/CodeSystem/v3-ActPriority"
 
-
+* #A
 * #A ^designation.language = #fr-FR
 * #A ^designation.use.system = "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"
 * #A ^designation.use = $hl7TermMaintInfra#preferredForLanguage
