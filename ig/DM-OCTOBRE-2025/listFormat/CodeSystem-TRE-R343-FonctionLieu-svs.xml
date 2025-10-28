@@ -135,7 +135,7 @@
                   displayName="Bloc obstétrical"
                   longDesignation="Bloc obstétrical"
                   shortDesignation="Bloc obstétrical"
-                  descriptionMetier=""/>
+                  descriptionMetier="Lieu hospitalier dédié à la prise en charge des césariennes, disposant des locaux, du matériel et des équipes pluridisciplinaires (sages-femmes, obstétriciens, anesthésistes, pédiatres) nécessaires à toute heure pour assurer la sécurité de la mère et du nouveau-né, y compris en cas de complications obstétricales."/>
       </ConceptList>
    </ValueSet>
 </RetrieveValueSetResponse>

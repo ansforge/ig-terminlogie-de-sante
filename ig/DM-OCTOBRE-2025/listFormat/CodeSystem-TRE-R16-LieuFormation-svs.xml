@@ -3464,7 +3464,7 @@
                   dateValid="20160503000000"
                   displayName="IFMK du CHU de Grenoble (Saint-Martin d'Hères)"
                   longDesignation="IFMK du CHU de Grenoble (Saint-Martin d'Hères)"
-                  shortDesignation="Echirolles"
+                  shortDesignation="Saint-Martin d'Hères"
                   descriptionMetier=""/>
          <Concept code="UK12"
                   codeSystem="1.2.250.1.213.1.6.1.35"
