@@ -3175,1535 +3175,1535 @@ Description: "Traduction Francaise"
 * ^supplements = "http://terminology.hl7.org/CodeSystem/v3-ObservationMethod"
 
 
-* #1
-* #1 ^designation.language = #fr-FR
-* #1 ^designation.use.system = "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"
-* #1 ^designation.use = $hl7TermMaintInfra#preferredForLanguage
-* #1 ^designation.value = "Fixation complément"
-
-* #2
-* #2 ^designation.language = #fr-FR
-* #2 ^designation.use.system = "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"
-* #2 ^designation.use = $hl7TermMaintInfra#preferredForLanguage
-* #2 ^designation.value = "Tomographie axiale"
-
-* #3
-* #3 ^designation.language = #fr-FR
-* #3 ^designation.use.system = "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"
-* #3 ^designation.use = $hl7TermMaintInfra#preferredForLanguage
-* #3 ^designation.value = "Test de haut niveau de résistance aux aminosides sur gélose"
-
-* #4
-* #4 ^designation.language = #fr-FR
-* #4 ^designation.use.system = "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"
-* #4 ^designation.use = $hl7TermMaintInfra#preferredForLanguage
-* #4 ^designation.value = "Examen macroscopique"
-
-* #5
-* #5 ^designation.language = #fr-FR
-* #5 ^designation.use.system = "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"
-* #5 ^designation.use = $hl7TermMaintInfra#preferredForLanguage
-* #5 ^designation.value = "Résonnance magnétique"
-
-* #6
-* #6 ^designation.language = #fr-FR
-* #6 ^designation.use.system = "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"
-* #6 ^designation.use = $hl7TermMaintInfra#preferredForLanguage
-* #6 ^designation.value = "Morphométrie"
-
-* #7
-* #7 ^designation.language = #fr-FR
-* #7 ^designation.use.system = "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"
-* #7 ^designation.use = $hl7TermMaintInfra#preferredForLanguage
-* #7 ^designation.value = "Tomographie par émission de positrons"
-
-* #8
-* #8 ^designation.language = #fr-FR
-* #8 ^designation.use.system = "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"
-* #8 ^designation.use = $hl7TermMaintInfra#preferredForLanguage
-* #8 ^designation.value = "SAMHSA confirmation"
-
-* #9
-* #9 ^designation.language = #fr-FR
-* #9 ^designation.use.system = "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"
-* #9 ^designation.use = $hl7TermMaintInfra#preferredForLanguage
-* #9 ^designation.value = "SAMHSA dépistage"
-
-* #10
-* #10 ^designation.language = #fr-FR
-* #10 ^designation.use.system = "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"
-* #10 ^designation.use = $hl7TermMaintInfra#preferredForLanguage
-* #10 ^designation.value = "Neutralisation sérum"
-
-* #11
-* #11 ^designation.language = #fr-FR
-* #11 ^designation.use.system = "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"
-* #11 ^designation.use = $hl7TermMaintInfra#preferredForLanguage
-* #11 ^designation.value = "Titrimétrie"
-
-* #12
-* #12 ^designation.language = #fr-FR
-* #12 ^designation.use.system = "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"
-* #12 ^designation.use = $hl7TermMaintInfra#preferredForLanguage
-* #12 ^designation.value = "Ultrasonographie"
-
-* #13
-* #13 ^designation.language = #fr-FR
-* #13 ^designation.use.system = "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"
-* #13 ^designation.use = $hl7TermMaintInfra#preferredForLanguage
-* #13 ^designation.value = "Cristallographie Rayon X"
-
-* #14
-* #14 ^designation.language = #fr-FR
-* #14 ^designation.use.system = "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"
-* #14 ^designation.use = $hl7TermMaintInfra#preferredForLanguage
-* #14 ^designation.value = "Agglutination"
-
-* #15
-* #15 ^designation.language = #fr-FR
-* #15 ^designation.use.system = "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"
-* #15 ^designation.use = $hl7TermMaintInfra#preferredForLanguage
-* #15 ^designation.value = "Agglutination sur plaque tampon acidifié"
-
-* #16
-* #16 ^designation.language = #fr-FR
-* #16 ^designation.use.system = "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"
-* #16 ^designation.use = $hl7TermMaintInfra#preferredForLanguage
-* #16 ^designation.value = "Agglutination sur carte"
-
-* #17
-* #17 ^designation.language = #fr-FR
-* #17 ^designation.use.system = "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"
-* #17 ^designation.use = $hl7TermMaintInfra#preferredForLanguage
-* #17 ^designation.value = "Hémagglutination"
-
-* #18
-* #18 ^designation.language = #fr-FR
-* #18 ^designation.use.system = "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"
-* #18 ^designation.use = $hl7TermMaintInfra#preferredForLanguage
-* #18 ^designation.value = "Inhibition hémagglutination"
-
-* #19
-* #19 ^designation.language = #fr-FR
-* #19 ^designation.use.system = "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"
-* #19 ^designation.use = $hl7TermMaintInfra#preferredForLanguage
-* #19 ^designation.value = "Agglutination latex"
-
-* #20
-* #20 ^designation.language = #fr-FR
-* #20 ^designation.use.system = "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"
-* #20 ^designation.use = $hl7TermMaintInfra#preferredForLanguage
-* #20 ^designation.value = "Agglutination plaque"
-
-* #21
-* #21 ^designation.language = #fr-FR
-* #21 ^designation.use.system = "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"
-* #21 ^designation.use = $hl7TermMaintInfra#preferredForLanguage
-* #21 ^designation.value = "Agglutination rapide"
-
-* #22
-* #22 ^designation.language = #fr-FR
-* #22 ^designation.use.system = "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"
-* #22 ^designation.use = $hl7TermMaintInfra#preferredForLanguage
-* #22 ^designation.value = "Agglutination érythrocytes"
-
-* #23
-* #23 ^designation.language = #fr-FR
-* #23 ^designation.use.system = "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"
-* #23 ^designation.use = $hl7TermMaintInfra#preferredForLanguage
-* #23 ^designation.value = "Agglutination,rivanol"
-
-* #24
-* #24 ^designation.language = #fr-FR
-* #24 ^designation.use.system = "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"
-* #24 ^designation.use = $hl7TermMaintInfra#preferredForLanguage
-* #24 ^designation.value = "Agglutination en tube"
-
-* #25
-* #25 ^designation.language = #fr-FR
-* #25 ^designation.use.system = "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"
-* #25 ^designation.use = $hl7TermMaintInfra#preferredForLanguage
-* #25 ^designation.value = "Bioanalyse"
-
-* #26
-* #26 ^designation.language = #fr-FR
-* #26 ^designation.use.system = "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"
-* #26 ^designation.use = $hl7TermMaintInfra#preferredForLanguage
-* #26 ^designation.value = "Inoculation animal"
-
-* #27
-* #27 ^designation.language = #fr-FR
-* #27 ^designation.use.system = "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"
-* #27 ^designation.use = $hl7TermMaintInfra#preferredForLanguage
-* #27 ^designation.value = "Cytotoxicité"
-
-* #30
-* #30 ^designation.language = #fr-FR
-* #30 ^designation.use.system = "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"
-* #30 ^designation.use = $hl7TermMaintInfra#preferredForLanguage
-* #30 ^designation.value = "Inoculation intracérébrale à la souris"
-
-* #31
-* #31 ^designation.language = #fr-FR
-* #31 ^designation.use.system = "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"
-* #31 ^designation.use = $hl7TermMaintInfra#preferredForLanguage
-* #31 ^designation.value = "Analyse qualitative"
-
-* #32
-* #32 ^designation.language = #fr-FR
-* #32 ^designation.use.system = "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"
-* #32 ^designation.use = $hl7TermMaintInfra#preferredForLanguage
-* #32 ^designation.value = "Analyse quantitative"
-
-* #33
-* #33 ^designation.language = #fr-FR
-* #33 ^designation.use.system = "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"
-* #33 ^designation.use = $hl7TermMaintInfra#preferredForLanguage
-* #33 ^designation.value = "Méthode chimique"
-
-* #34
-* #34 ^designation.language = #fr-FR
-* #34 ^designation.use.system = "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"
-* #34 ^designation.use = $hl7TermMaintInfra#preferredForLanguage
-* #34 ^designation.value = "Test chimique d'absorption de lumière différentielle"
-
-* #37
-* #37 ^designation.language = #fr-FR
-* #37 ^designation.use.system = "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"
-* #37 ^designation.use = $hl7TermMaintInfra#preferredForLanguage
-* #37 ^designation.value = "Test sur bandelette"
-
-* #38
-* #38 ^designation.language = #fr-FR
-* #38 ^designation.use.system = "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"
-* #38 ^designation.use = $hl7TermMaintInfra#preferredForLanguage
-* #38 ^designation.value = "Chromatographie"
-
-* #39
-* #39 ^designation.language = #fr-FR
-* #39 ^designation.use.system = "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"
-* #39 ^designation.use = $hl7TermMaintInfra#preferredForLanguage
-* #39 ^designation.value = "Chromatographie d'affinité"
-
-* #40
-* #40 ^designation.language = #fr-FR
-* #40 ^designation.use.system = "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"
-* #40 ^designation.use = $hl7TermMaintInfra#preferredForLanguage
-* #40 ^designation.value = "Chromatographie phase gazeuse liquide"
-
-* #41
-* #41 ^designation.language = #fr-FR
-* #41 ^designation.use.system = "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"
-* #41 ^designation.use = $hl7TermMaintInfra#preferredForLanguage
-* #41 ^designation.value = "Chromatographie liquide haute pression"
-
-* #42
-* #42 ^designation.language = #fr-FR
-* #42 ^designation.use.system = "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"
-* #42 ^designation.use = $hl7TermMaintInfra#preferredForLanguage
-* #42 ^designation.value = "Chromatographie liquide"
-
-* #43
-* #43 ^designation.language = #fr-FR
-* #43 ^designation.use.system = "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"
-* #43 ^designation.use = $hl7TermMaintInfra#preferredForLanguage
-* #43 ^designation.value = "Chromatographie d'affinité à la protéine A"
-
-* #44
-* #44 ^designation.language = #fr-FR
-* #44 ^designation.use.system = "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"
-* #44 ^designation.use = $hl7TermMaintInfra#preferredForLanguage
-* #44 ^designation.value = "Coagulation"
-
-* #45
-* #45 ^designation.language = #fr-FR
-* #45 ^designation.use.system = "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"
-* #45 ^designation.use = $hl7TermMaintInfra#preferredForLanguage
-* #45 ^designation.value = "Temps de coagulation en tube"
-
-* #46
-* #46 ^designation.language = #fr-FR
-* #46 ^designation.use.system = "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"
-* #46 ^designation.use = $hl7TermMaintInfra#preferredForLanguage
-* #46 ^designation.value = "Coagulation induite par reptilase en tube"
-
-* #47
-* #47 ^designation.language = #fr-FR
-* #47 ^designation.use.system = "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"
-* #47 ^designation.use = $hl7TermMaintInfra#preferredForLanguage
-* #47 ^designation.value = "Comptage automatisé"
-
-* #48
-* #48 ^designation.language = #fr-FR
-* #48 ^designation.use.system = "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"
-* #48 ^designation.use = $hl7TermMaintInfra#preferredForLanguage
-* #48 ^designation.value = "Comptage manuel"
-
-* #49
-* #49 ^designation.language = #fr-FR
-* #49 ^designation.use.system = "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"
-* #49 ^designation.use = $hl7TermMaintInfra#preferredForLanguage
-* #49 ^designation.value = "Comptage plaquettaire de Rees-Ecker"
-
-* #50
-* #50 ^designation.language = #fr-FR
-* #50 ^designation.use.system = "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"
-* #50 ^designation.use = $hl7TermMaintInfra#preferredForLanguage
-* #50 ^designation.value = "Culture aérobie"
-
-* #51
-* #51 ^designation.language = #fr-FR
-* #51 ^designation.use.system = "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"
-* #51 ^designation.use = $hl7TermMaintInfra#preferredForLanguage
-* #51 ^designation.value = "Culture anaérobie"
-
-* #52
-* #52 ^designation.language = #fr-FR
-* #52 ^designation.use.system = "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"
-* #52 ^designation.use = $hl7TermMaintInfra#preferredForLanguage
-* #52 ^designation.value = "Culture sur embryon de poulet"
-
-* #53
-* #53 ^designation.language = #fr-FR
-* #53 ^designation.use.system = "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"
-* #53 ^designation.use = $hl7TermMaintInfra#preferredForLanguage
-* #53 ^designation.value = "Enrichissement secondaire retardé"
-
-* #54
-* #54 ^designation.language = #fr-FR
-* #54 ^designation.use.system = "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"
-* #54 ^designation.use = $hl7TermMaintInfra#preferredForLanguage
-* #54 ^designation.value = "Culture microaérophile"
-
-* #61
-* #61 ^designation.language = #fr-FR
-* #61 ^designation.use.system = "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"
-* #61 ^designation.use = $hl7TermMaintInfra#preferredForLanguage
-* #61 ^designation.value = "Culture cellulaire somatique"
-
-* #62
-* #62 ^designation.language = #fr-FR
-* #62 ^designation.use.system = "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"
-* #62 ^designation.use = $hl7TermMaintInfra#preferredForLanguage
-* #62 ^designation.value = "Diffusion gel Agar"
-
-* #63
-* #63 ^designation.language = #fr-FR
-* #63 ^designation.use.system = "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"
-* #63 ^designation.use = $hl7TermMaintInfra#preferredForLanguage
-* #63 ^designation.value = "Immunodiffusion"
-
-* #64
-* #64 ^designation.language = #fr-FR
-* #64 ^designation.use.system = "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"
-* #64 ^designation.use = $hl7TermMaintInfra#preferredForLanguage
-* #64 ^designation.value = "Électrophorèse"
-
-* #65
-* #65 ^designation.language = #fr-FR
-* #65 ^designation.use.system = "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"
-* #65 ^designation.use = $hl7TermMaintInfra#preferredForLanguage
-* #65 ^designation.value = "Électrophorèse gel agarose"
-
-* #66
-* #66 ^designation.language = #fr-FR
-* #66 ^designation.use.system = "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"
-* #66 ^designation.use = $hl7TermMaintInfra#preferredForLanguage
-* #66 ^designation.value = "Électrophorèse citrate agar"
-
-* #67
-* #67 ^designation.language = #fr-FR
-* #67 ^designation.use.system = "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"
-* #67 ^designation.use = $hl7TermMaintInfra#preferredForLanguage
-* #67 ^designation.value = "Immunoélectrophorèse"
-
-* #68
-* #68 ^designation.language = #fr-FR
-* #68 ^designation.use.system = "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"
-* #68 ^designation.use = $hl7TermMaintInfra#preferredForLanguage
-* #68 ^designation.value = "Électrophorèse sur gel de polyacrylamide"
-
-* #69
-* #69 ^designation.language = #fr-FR
-* #69 ^designation.use.system = "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"
-* #69 ^designation.use = $hl7TermMaintInfra#preferredForLanguage
-* #69 ^designation.value = "Électrophorèse sur gel d'amidon"
-
-* #70
-* #70 ^designation.language = #fr-FR
-* #70 ^designation.use.system = "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"
-* #70 ^designation.use = $hl7TermMaintInfra#preferredForLanguage
-* #70 ^designation.value = "ELISA"
-
-* #71
-* #71 ^designation.language = #fr-FR
-* #71 ^designation.use.system = "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"
-* #71 ^designation.use = $hl7TermMaintInfra#preferredForLanguage
-* #71 ^designation.value = "ELISA avec captude d'antigène"
-
-* #72
-* #72 ^designation.language = #fr-FR
-* #72 ^designation.use.system = "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"
-* #72 ^designation.use = $hl7TermMaintInfra#preferredForLanguage
-* #72 ^designation.value = "ELISA avec complexe avidine biotine péroxydase"
-
-* #73
-* #73 ^designation.language = #fr-FR
-* #73 ^designation.use.system = "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"
-* #73 ^designation.use = $hl7TermMaintInfra#preferredForLanguage
-* #73 ^designation.value = "ELISA avec cinétique"
-
-* #74
-* #74 ^designation.language = #fr-FR
-* #74 ^designation.use.system = "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"
-* #74 ^designation.use = $hl7TermMaintInfra#preferredForLanguage
-* #74 ^designation.value = "ELISA avec péroxydase-anti-péroxydase"
-
-* #75
-* #75 ^designation.language = #fr-FR
-* #75 ^designation.use.system = "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"
-* #75 ^designation.use = $hl7TermMaintInfra#preferredForLanguage
-* #75 ^designation.value = "Identification par galerie API 20 Strep"
-
-* #76
-* #76 ^designation.language = #fr-FR
-* #76 ^designation.use.system = "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"
-* #76 ^designation.use = $hl7TermMaintInfra#preferredForLanguage
-* #76 ^designation.value = "Identification par galerie API 20A"
-
-* #77
-* #77 ^designation.language = #fr-FR
-* #77 ^designation.use.system = "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"
-* #77 ^designation.use = $hl7TermMaintInfra#preferredForLanguage
-* #77 ^designation.value = "Identification par galerie API 20C AUX"
-
-* #78
-* #78 ^designation.language = #fr-FR
-* #78 ^designation.use.system = "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"
-* #78 ^designation.use = $hl7TermMaintInfra#preferredForLanguage
-* #78 ^designation.value = "Identification par galerie API 20E"
-
-* #79
-* #79 ^designation.language = #fr-FR
-* #79 ^designation.use.system = "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"
-* #79 ^designation.use = $hl7TermMaintInfra#preferredForLanguage
-* #79 ^designation.value = "Identification par galerie API 20NE"
-
-* #80
-* #80 ^designation.language = #fr-FR
-* #80 ^designation.use.system = "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"
-* #80 ^designation.use = $hl7TermMaintInfra#preferredForLanguage
-* #80 ^designation.value = "Identification par galerie API 50 CH"
-
-* #81
-* #81 ^designation.language = #fr-FR
-* #81 ^designation.use.system = "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"
-* #81 ^designation.use = $hl7TermMaintInfra#preferredForLanguage
-* #81 ^designation.value = "Identification par galerie API An-IDENT"
-
-* #82
-* #82 ^designation.language = #fr-FR
-* #82 ^designation.use.system = "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"
-* #82 ^designation.use = $hl7TermMaintInfra#preferredForLanguage
-* #82 ^designation.value = "Identification par galerie API Coryne"
-
-* #83
-* #83 ^designation.language = #fr-FR
-* #83 ^designation.use.system = "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"
-* #83 ^designation.use = $hl7TermMaintInfra#preferredForLanguage
-* #83 ^designation.value = "Identification par galerie API Rapid 20E"
-
-* #84
-* #84 ^designation.language = #fr-FR
-* #84 ^designation.use.system = "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"
-* #84 ^designation.use = $hl7TermMaintInfra#preferredForLanguage
-* #84 ^designation.value = "Identification par galerie API Staph"
-
-* #85
-* #85 ^designation.language = #fr-FR
-* #85 ^designation.use.system = "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"
-* #85 ^designation.use = $hl7TermMaintInfra#preferredForLanguage
-* #85 ^designation.value = "Identification par galerie API 20 Strep"
-
-* #86
-* #86 ^designation.language = #fr-FR
-* #86 ^designation.use.system = "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"
-* #86 ^designation.use = $hl7TermMaintInfra#preferredForLanguage
-* #86 ^designation.value = "Identification bactérienne"
-
-* #87
-* #87 ^designation.language = #fr-FR
-* #87 ^designation.use.system = "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"
-* #87 ^designation.use = $hl7TermMaintInfra#preferredForLanguage
-* #87 ^designation.value = "Identification par mini VIDAS"
-
-* #88
-* #88 ^designation.language = #fr-FR
-* #88 ^designation.use.system = "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"
-* #88 ^designation.use = $hl7TermMaintInfra#preferredForLanguage
-* #88 ^designation.value = "Identification par lysotypie"
-
-* #89
-* #89 ^designation.language = #fr-FR
-* #89 ^designation.use.system = "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"
-* #89 ^designation.use = $hl7TermMaintInfra#preferredForLanguage
-* #89 ^designation.value = "Identification par galerie QuadFERM+"
-
-* #90
-* #90 ^designation.language = #fr-FR
-* #90 ^designation.use.system = "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"
-* #90 ^designation.use = $hl7TermMaintInfra#preferredForLanguage
-* #90 ^designation.value = "Identification par galerie RAPIDEC Staph"
-
-* #91
-* #91 ^designation.language = #fr-FR
-* #91 ^designation.use.system = "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"
-* #91 ^designation.use = $hl7TermMaintInfra#preferredForLanguage
-* #91 ^designation.value = "Identification par agglutination latex Staphaurex"
-
-* #92
-* #92 ^designation.language = #fr-FR
-* #92 ^designation.use.system = "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"
-* #92 ^designation.use = $hl7TermMaintInfra#preferredForLanguage
-* #92 ^designation.value = "Identification par VIDAS"
-
-* #93
-* #93 ^designation.language = #fr-FR
-* #93 ^designation.use.system = "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"
-* #93 ^designation.use = $hl7TermMaintInfra#preferredForLanguage
-* #93 ^designation.value = "Identification par VITEK"
-
-* #94
-* #94 ^designation.language = #fr-FR
-* #94 ^designation.use.system = "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"
-* #94 ^designation.use = $hl7TermMaintInfra#preferredForLanguage
-* #94 ^designation.value = "Identification par VITEK 2"
-
-* #95
-* #95 ^designation.language = #fr-FR
-* #95 ^designation.use.system = "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"
-* #95 ^designation.use = $hl7TermMaintInfra#preferredForLanguage
-* #95 ^designation.value = "Coloration immune"
-
-* #96
-* #96 ^designation.language = #fr-FR
-* #96 ^designation.use.system = "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"
-* #96 ^designation.use = $hl7TermMaintInfra#preferredForLanguage
-* #96 ^designation.value = "Immunofluorescence directe"
-
-* #97
-* #97 ^designation.language = #fr-FR
-* #97 ^designation.use.system = "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"
-* #97 ^designation.use = $hl7TermMaintInfra#preferredForLanguage
-* #97 ^designation.value = "Immunofluorescence indirecte"
-
-* #98
-* #98 ^designation.language = #fr-FR
-* #98 ^designation.use.system = "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"
-* #98 ^designation.use = $hl7TermMaintInfra#preferredForLanguage
-* #98 ^designation.value = "Immunopéroxydase (complexe avidine-Biotine)"
-
-* #99
-* #99 ^designation.language = #fr-FR
-* #99 ^designation.use.system = "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"
-* #99 ^designation.use = $hl7TermMaintInfra#preferredForLanguage
-* #99 ^designation.value = "Immunopéroxydase (complexe péroxydase-antipéroxydase)"
-
-* #100
-* #100 ^designation.language = #fr-FR
-* #100 ^designation.use.system = "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"
-* #100 ^designation.use = $hl7TermMaintInfra#preferredForLanguage
-* #100 ^designation.value = "Immunopéroxydase (complexe Protéine A-péroxydase)"
-
-* #101
-* #101 ^designation.language = #fr-FR
-* #101 ^designation.use.system = "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"
-* #101 ^designation.use = $hl7TermMaintInfra#preferredForLanguage
-* #101 ^designation.value = "Immunoanalyse"
-
-* #102
-* #102 ^designation.language = #fr-FR
-* #102 ^designation.use.system = "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"
-* #102 ^designation.use = $hl7TermMaintInfra#preferredForLanguage
-* #102 ^designation.value = "Immunoanalyse qualitative à plusieurs étapes"
-
-* #103
-* #103 ^designation.language = #fr-FR
-* #103 ^designation.use.system = "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"
-* #103 ^designation.use = $hl7TermMaintInfra#preferredForLanguage
-* #103 ^designation.value = "Immunoanalyse qualitative à une étape"
-
-* #104
-* #104 ^designation.language = #fr-FR
-* #104 ^designation.use.system = "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"
-* #104 ^designation.use = $hl7TermMaintInfra#preferredForLanguage
-* #104 ^designation.value = "Radioimmunologie"
-
-* #105
-* #105 ^designation.language = #fr-FR
-* #105 ^designation.use.system = "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"
-* #105 ^designation.use = $hl7TermMaintInfra#preferredForLanguage
-* #105 ^designation.value = "Immunoanalyse semi-quantitative à plusieurs étapes"
-
-* #106
-* #106 ^designation.language = #fr-FR
-* #106 ^designation.use.system = "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"
-* #106 ^designation.use = $hl7TermMaintInfra#preferredForLanguage
-* #106 ^designation.value = "Immunoanalyse semi-quantitative à une étape"
-
-* #107
-* #107 ^designation.language = #fr-FR
-* #107 ^designation.use.system = "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"
-* #107 ^designation.use = $hl7TermMaintInfra#preferredForLanguage
-* #107 ^designation.value = "Microscopie"
-
-* #108
-* #108 ^designation.language = #fr-FR
-* #108 ^designation.use.system = "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"
-* #108 ^designation.use = $hl7TermMaintInfra#preferredForLanguage
-* #108 ^designation.value = "Microscopie fond noir"
-
-* #109
-* #109 ^designation.language = #fr-FR
-* #109 ^designation.use.system = "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"
-* #109 ^designation.use = $hl7TermMaintInfra#preferredForLanguage
-* #109 ^designation.value = "Microscopie électronique"
-
-* #110
-* #110 ^designation.language = #fr-FR
-* #110 ^designation.use.system = "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"
-* #110 ^designation.use = $hl7TermMaintInfra#preferredForLanguage
-* #110 ^designation.value = "Microscopie électronique, Tomographie numérique"
-
-* #111
-* #111 ^designation.language = #fr-FR
-* #111 ^designation.use.system = "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"
-* #111 ^designation.use = $hl7TermMaintInfra#preferredForLanguage
-* #111 ^designation.value = "Microscopie électronique en contraste de phase"
-
-* #112
-* #112 ^designation.language = #fr-FR
-* #112 ^designation.use.system = "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"
-* #112 ^designation.use = $hl7TermMaintInfra#preferredForLanguage
-* #112 ^designation.value = "Microscopie électronique sur section épaisse"
-
-* #113
-* #113 ^designation.language = #fr-FR
-* #113 ^designation.use.system = "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"
-* #113 ^designation.use = $hl7TermMaintInfra#preferredForLanguage
-* #113 ^designation.value = "Microscopie électronique sur section fine"
-
-* #114
-* #114 ^designation.language = #fr-FR
-* #114 ^designation.use.system = "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"
-* #114 ^designation.use = $hl7TermMaintInfra#preferredForLanguage
-* #114 ^designation.value = "Microscvopie en lumière directe"
-
-* #115
-* #115 ^designation.language = #fr-FR
-* #115 ^designation.use.system = "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"
-* #115 ^designation.use = $hl7TermMaintInfra#preferredForLanguage
-* #115 ^designation.value = "Microscopie à polarisation"
-
-* #116
-* #116 ^designation.language = #fr-FR
-* #116 ^designation.use.system = "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"
-* #116 ^designation.use = $hl7TermMaintInfra#preferredForLanguage
-* #116 ^designation.value = "Microscopie électronique à balayage"
-
-* #117
-* #117 ^designation.language = #fr-FR
-* #117 ^designation.use.system = "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"
-* #117 ^designation.use = $hl7TermMaintInfra#preferredForLanguage
-* #117 ^designation.value = "Microscopie électronique à transmission"
-
-* #120
-* #120 ^designation.language = #fr-FR
-* #120 ^designation.use.system = "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"
-* #120 ^designation.use = $hl7TermMaintInfra#preferredForLanguage
-* #120 ^designation.value = "ADN branché"
-
-* #122
-* #122 ^designation.language = #fr-FR
-* #122 ^designation.use.system = "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"
-* #122 ^designation.use = $hl7TermMaintInfra#preferredForLanguage
-* #122 ^designation.value = "Immunoblot"
-
-* #123
-* #123 ^designation.language = #fr-FR
-* #123 ^designation.use.system = "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"
-* #123 ^designation.use = $hl7TermMaintInfra#preferredForLanguage
-* #123 ^designation.value = "Hybridation moléculaire in situ"
-
-* #127
-* #127 ^designation.language = #fr-FR
-* #127 ^designation.use.system = "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"
-* #127 ^designation.use = $hl7TermMaintInfra#preferredForLanguage
-* #127 ^designation.value = "Sonde acide nucléique"
-
-* #128
-* #128 ^designation.language = #fr-FR
-* #128 ^designation.use.system = "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"
-* #128 ^designation.use = $hl7TermMaintInfra#preferredForLanguage
-* #128 ^designation.value = "Sonde acide nucléique avec amplification"
-
-* #129
-* #129 ^designation.language = #fr-FR
-* #129 ^designation.use.system = "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"
-* #129 ^designation.use = $hl7TermMaintInfra#preferredForLanguage
-* #129 ^designation.value = "Sonde acide nucléique avec amplification ciblée"
-
-* #130
-* #130 ^designation.language = #fr-FR
-* #130 ^designation.use.system = "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"
-* #130 ^designation.use = $hl7TermMaintInfra#preferredForLanguage
-* #130 ^designation.value = "Transcription inverse"
-
-* #131
-* #131 ^designation.language = #fr-FR
-* #131 ^designation.use.system = "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"
-* #131 ^designation.use = $hl7TermMaintInfra#preferredForLanguage
-* #131 ^designation.value = "Séquençage d'acides nucléiques"
-
-* #132
-* #132 ^designation.language = #fr-FR
-* #132 ^designation.use.system = "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"
-* #132 ^designation.use = $hl7TermMaintInfra#preferredForLanguage
-* #132 ^designation.value = "PCR"
-
-* #134
-* #134 ^designation.language = #fr-FR
-* #134 ^designation.use.system = "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"
-* #134 ^designation.use = $hl7TermMaintInfra#preferredForLanguage
-* #134 ^designation.value = "RFLP"
-
-* #135
-* #135 ^designation.language = #fr-FR
-* #135 ^designation.use.system = "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"
-* #135 ^designation.use = $hl7TermMaintInfra#preferredForLanguage
-* #135 ^designation.value = "Southern-blot"
-
-* #138
-* #138 ^designation.language = #fr-FR
-* #138 ^designation.use.system = "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"
-* #138 ^designation.use = $hl7TermMaintInfra#preferredForLanguage
-* #138 ^designation.value = "Western-Blot"
-
-* #139
-* #139 ^designation.language = #fr-FR
-* #139 ^designation.use.system = "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"
-* #139 ^designation.use = $hl7TermMaintInfra#preferredForLanguage
-* #139 ^designation.value = "Floculation"
-
-* #140
-* #140 ^designation.language = #fr-FR
-* #140 ^designation.use.system = "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"
-* #140 ^designation.use = $hl7TermMaintInfra#preferredForLanguage
-* #140 ^designation.value = "Immunoprécipitation"
-
-* #141
-* #141 ^designation.language = #fr-FR
-* #141 ^designation.use.system = "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"
-* #141 ^designation.use = $hl7TermMaintInfra#preferredForLanguage
-* #141 ^designation.value = "Test à l'anneau de lait"
-
-* #142
-* #142 ^designation.language = #fr-FR
-* #142 ^designation.use.system = "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"
-* #142 ^designation.use = $hl7TermMaintInfra#preferredForLanguage
-* #142 ^designation.value = "Précipitine"
-
-* #143
-* #143 ^designation.language = #fr-FR
-* #143 ^designation.use.system = "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"
-* #143 ^designation.use = $hl7TermMaintInfra#preferredForLanguage
-* #143 ^designation.value = "Coloration acide rapide"
-
-* #144
-* #144 ^designation.language = #fr-FR
-* #144 ^designation.use.system = "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"
-* #144 ^designation.use = $hl7TermMaintInfra#preferredForLanguage
-* #144 ^designation.value = "Coloration acide rapide/fluorochrome"
-
-* #145
-* #145 ^designation.language = #fr-FR
-* #145 ^designation.use.system = "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"
-* #145 ^designation.use = $hl7TermMaintInfra#preferredForLanguage
-* #145 ^designation.value = "Coloration acide rapide Kinyoun"
-
-* #146
-* #146 ^designation.language = #fr-FR
-* #146 ^designation.use.system = "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"
-* #146 ^designation.use = $hl7TermMaintInfra#preferredForLanguage
-* #146 ^designation.value = "Coloration acide Ziehl-Neelsen"
-
-* #147
-* #147 ^designation.language = #fr-FR
-* #147 ^designation.use.system = "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"
-* #147 ^designation.use = $hl7TermMaintInfra#preferredForLanguage
-* #147 ^designation.value = "Coloration phosphatase acide"
-
-* #148
-* #148 ^designation.language = #fr-FR
-* #148 ^designation.use.system = "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"
-* #148 ^designation.use = $hl7TermMaintInfra#preferredForLanguage
-* #148 ^designation.value = "Coloration acridine orange"
-
-* #149
-* #149 ^designation.language = #fr-FR
-* #149 ^designation.use.system = "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"
-* #149 ^designation.use = $hl7TermMaintInfra#preferredForLanguage
-* #149 ^designation.value = "Coloration orange brillant KH"
-
-* #150
-* #150 ^designation.language = #fr-FR
-* #150 ^designation.use.system = "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"
-* #150 ^designation.use = $hl7TermMaintInfra#preferredForLanguage
-* #150 ^designation.value = "Coloration rouge alizarine"
-
-* #151
-* #151 ^designation.language = #fr-FR
-* #151 ^designation.use.system = "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"
-* #151 ^designation.use = $hl7TermMaintInfra#preferredForLanguage
-* #151 ^designation.value = "Coloration bleu alcian"
-
-* #152
-* #152 ^designation.language = #fr-FR
-* #152 ^designation.use.system = "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"
-* #152 ^designation.use = $hl7TermMaintInfra#preferredForLanguage
-* #152 ^designation.value = "Coloration bleu alcian+acide périodique-Schiff"
-
-* #153
-* #153 ^designation.language = #fr-FR
-* #153 ^designation.use.system = "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"
-* #153 ^designation.use = $hl7TermMaintInfra#preferredForLanguage
-* #153 ^designation.value = "Coloration argentaffine"
-
-* #154
-* #154 ^designation.language = #fr-FR
-* #154 ^designation.use.system = "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"
-* #154 ^designation.use = $hl7TermMaintInfra#preferredForLanguage
-* #154 ^designation.value = "Coloration argent argentaffine"
-
-* #155
-* #155 ^designation.language = #fr-FR
-* #155 ^designation.use.system = "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"
-* #155 ^designation.use = $hl7TermMaintInfra#preferredForLanguage
-* #155 ^designation.value = "Coloration azur-éosine"
-
-* #156
-* #156 ^designation.language = #fr-FR
-* #156 ^designation.use.system = "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"
-* #156 ^designation.use = $hl7TermMaintInfra#preferredForLanguage
-* #156 ^designation.value = "Coloration fuchsine basique"
-
-* #157
-* #157 ^designation.language = #fr-FR
-* #157 ^designation.use.system = "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"
-* #157 ^designation.use = $hl7TermMaintInfra#preferredForLanguage
-* #157 ^designation.value = "Coloration Bennhold"
-
-* #158
-* #158 ^designation.language = #fr-FR
-* #158 ^designation.use.system = "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"
-* #158 ^designation.use = $hl7TermMaintInfra#preferredForLanguage
-* #158 ^designation.value = "Coloration rouge Congo/Bennhold"
-
-* #159
-* #159 ^designation.language = #fr-FR
-* #159 ^designation.use.system = "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"
-* #159 ^designation.use = $hl7TermMaintInfra#preferredForLanguage
-* #159 ^designation.value = "Coloration Bielschowsky"
-
-* #160
-* #160 ^designation.language = #fr-FR
-* #160 ^designation.use.system = "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"
-* #160 ^designation.use = $hl7TermMaintInfra#preferredForLanguage
-* #160 ^designation.value = "Coloration Argent/Bielschowsky"
-
-* #161
-* #161 ^designation.language = #fr-FR
-* #161 ^designation.use.system = "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"
-* #161 ^designation.use = $hl7TermMaintInfra#preferredForLanguage
-* #161 ^designation.value = "Décoloration"
-
-* #162
-* #162 ^designation.language = #fr-FR
-* #162 ^designation.use.system = "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"
-* #162 ^designation.use = $hl7TermMaintInfra#preferredForLanguage
-* #162 ^designation.value = "Coloration Bodian"
-
-* #163
-* #163 ^designation.language = #fr-FR
-* #163 ^designation.use.system = "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"
-* #163 ^designation.use = $hl7TermMaintInfra#preferredForLanguage
-* #163 ^designation.value = "Coloration Brown et Brenn"
-
-* #164
-* #164 ^designation.language = #fr-FR
-* #164 ^designation.use.system = "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"
-* #164 ^designation.use = $hl7TermMaintInfra#preferredForLanguage
-* #164 ^designation.value = "Coloration butyrate estérase"
-
-* #165
-* #165 ^designation.language = #fr-FR
-* #165 ^designation.use.system = "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"
-* #165 ^designation.use = $hl7TermMaintInfra#preferredForLanguage
-* #165 ^designation.value = "Préparation calcofluor blanc"
-
-* #166
-* #166 ^designation.language = #fr-FR
-* #166 ^designation.use.system = "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"
-* #166 ^designation.use = $hl7TermMaintInfra#preferredForLanguage
-* #166 ^designation.value = "Coloration carbol fuchsine"
-
-* #167
-* #167 ^designation.language = #fr-FR
-* #167 ^designation.use.system = "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"
-* #167 ^designation.use = $hl7TermMaintInfra#preferredForLanguage
-* #167 ^designation.value = "Coloration carmin"
-
-* #168
-* #168 ^designation.language = #fr-FR
-* #168 ^designation.use.system = "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"
-* #168 ^designation.use = $hl7TermMaintInfra#preferredForLanguage
-* #168 ^designation.value = "Coloration Churukian-Schenk"
-
-* #169
-* #169 ^designation.language = #fr-FR
-* #169 ^designation.use.system = "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"
-* #169 ^designation.use = $hl7TermMaintInfra#preferredForLanguage
-* #169 ^designation.value = "Coloration rouge Congo"
-
-* #170
-* #170 ^designation.language = #fr-FR
-* #170 ^designation.use.system = "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"
-* #170 ^designation.use = $hl7TermMaintInfra#preferredForLanguage
-* #170 ^designation.value = "Coloration violet de crésyl acétate"
-
-* #171
-* #171 ^designation.language = #fr-FR
-* #171 ^designation.use.system = "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"
-* #171 ^designation.use = $hl7TermMaintInfra#preferredForLanguage
-* #171 ^designation.value = "Coloration crystal violet"
-
-* #172
-* #172 ^designation.language = #fr-FR
-* #172 ^designation.use.system = "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"
-* #172 ^designation.use = $hl7TermMaintInfra#preferredForLanguage
-* #172 ^designation.value = "Coloration de Galantha"
-
-* #173
-* #173 ^designation.language = #fr-FR
-* #173 ^designation.use.system = "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"
-* #173 ^designation.use = $hl7TermMaintInfra#preferredForLanguage
-* #173 ^designation.value = "Coloration de Dieterle par imprégnation argentique"
-
-* #174
-* #174 ^designation.language = #fr-FR
-* #174 ^designation.use.system = "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"
-* #174 ^designation.use = $hl7TermMaintInfra#preferredForLanguage
-* #174 ^designation.value = "Coloration Fite-Faraco"
-
-* #175
-* #175 ^designation.language = #fr-FR
-* #175 ^designation.use.system = "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"
-* #175 ^designation.use = $hl7TermMaintInfra#preferredForLanguage
-* #175 ^designation.value = "Coloration Fontana-Masson"
-
-* #176
-* #176 ^designation.language = #fr-FR
-* #176 ^designation.use.system = "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"
-* #176 ^designation.use = $hl7TermMaintInfra#preferredForLanguage
-* #176 ^designation.value = "Coloration Fouchet"
-
-* #177
-* #177 ^designation.language = #fr-FR
-* #177 ^designation.use.system = "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"
-* #177 ^designation.use = $hl7TermMaintInfra#preferredForLanguage
-* #177 ^designation.value = "Coloration Gomori"
-
-* #178
-* #178 ^designation.language = #fr-FR
-* #178 ^designation.use.system = "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"
-* #178 ^designation.use = $hl7TermMaintInfra#preferredForLanguage
-* #178 ^designation.value = "Coloration méthénamine argent Gomori"
-
-* #179
-* #179 ^designation.language = #fr-FR
-* #179 ^designation.use.system = "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"
-* #179 ^designation.use = $hl7TermMaintInfra#preferredForLanguage
-* #179 ^designation.value = "Coloration trichrome Gomori-Wheatly"
-
-* #180
-* #180 ^designation.language = #fr-FR
-* #180 ^designation.use.system = "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"
-* #180 ^designation.use = $hl7TermMaintInfra#preferredForLanguage
-* #180 ^designation.value = "Coloration Gridley"
-
-* #181
-* #181 ^designation.language = #fr-FR
-* #181 ^designation.use.system = "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"
-* #181 ^designation.use = $hl7TermMaintInfra#preferredForLanguage
-* #181 ^designation.value = "Coloration argent Grimelius"
-
-* #182
-* #182 ^designation.language = #fr-FR
-* #182 ^designation.use.system = "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"
-* #182 ^designation.use = $hl7TermMaintInfra#preferredForLanguage
-* #182 ^designation.value = "Coloration de Grocott"
-
-* #183
-* #183 ^designation.language = #fr-FR
-* #183 ^designation.use.system = "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"
-* #183 ^designation.use = $hl7TermMaintInfra#preferredForLanguage
-* #183 ^designation.value = "Coloration méthénamine argent Grocott"
-
-* #184
-* #184 ^designation.language = #fr-FR
-* #184 ^designation.use.system = "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"
-* #184 ^designation.use = $hl7TermMaintInfra#preferredForLanguage
-* #184 ^designation.value = "Coloration à l'oxyde ferrique colloïdale de Hale"
-
-* #185
-* #185 ^designation.language = #fr-FR
-* #185 ^designation.use.system = "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"
-* #185 ^designation.use = $hl7TermMaintInfra#preferredForLanguage
-* #185 ^designation.value = "Coloration au fer colloïdale de Hale"
-
-* #186
-* #186 ^designation.language = #fr-FR
-* #186 ^designation.use.system = "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"
-* #186 ^designation.use = $hl7TermMaintInfra#preferredForLanguage
-* #186 ^designation.value = "Coloration Hansel"
-
-* #187
-* #187 ^designation.language = #fr-FR
-* #187 ^designation.use.system = "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"
-* #187 ^designation.use = $hl7TermMaintInfra#preferredForLanguage
-* #187 ^designation.value = "Coloration hématoxylline Harris+éosine"
-
-* #188
-* #188 ^designation.language = #fr-FR
-* #188 ^designation.use.system = "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"
-* #188 ^designation.use = $hl7TermMaintInfra#preferredForLanguage
-* #188 ^designation.value = "Coloration hématoxylline+éosine"
-
-* #189
-* #189 ^designation.language = #fr-FR
-* #189 ^designation.use.system = "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"
-* #189 ^designation.use = $hl7TermMaintInfra#preferredForLanguage
-* #189 ^designation.value = "Coloration Highman"
-
-* #190
-* #190 ^designation.language = #fr-FR
-* #190 ^designation.use.system = "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"
-* #190 ^designation.use = $hl7TermMaintInfra#preferredForLanguage
-* #190 ^designation.value = "Coloration Holzer"
-
-* #191
-* #191 ^designation.language = #fr-FR
-* #191 ^designation.use.system = "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"
-* #191 ^designation.use = $hl7TermMaintInfra#preferredForLanguage
-* #191 ^designation.value = "Coloration fer hématoxylline"
-
-* #192
-* #192 ^designation.language = #fr-FR
-* #192 ^designation.use.system = "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"
-* #192 ^designation.use = $hl7TermMaintInfra#preferredForLanguage
-* #192 ^designation.value = "Coloration Jones"
-
-* #193
-* #193 ^designation.language = #fr-FR
-* #193 ^designation.use.system = "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"
-* #193 ^designation.use = $hl7TermMaintInfra#preferredForLanguage
-* #193 ^designation.value = "Coloration méthénamine argent Jones"
-
-* #194
-* #194 ^designation.language = #fr-FR
-* #194 ^designation.use.system = "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"
-* #194 ^designation.use = $hl7TermMaintInfra#preferredForLanguage
-* #194 ^designation.value = "Coloration Kossa"
-
-* #195
-* #195 ^designation.language = #fr-FR
-* #195 ^designation.use.system = "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"
-* #195 ^designation.use = $hl7TermMaintInfra#preferredForLanguage
-* #195 ^designation.value = "Coloration Lawson-Van Gieson"
-
-* #196
-* #196 ^designation.language = #fr-FR
-* #196 ^designation.use.system = "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"
-* #196 ^designation.use = $hl7TermMaintInfra#preferredForLanguage
-* #196 ^designation.value = "Coloration bleu de méthylène Loeffler"
-
-* #197
-* #197 ^designation.language = #fr-FR
-* #197 ^designation.use.system = "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"
-* #197 ^designation.use = $hl7TermMaintInfra#preferredForLanguage
-* #197 ^designation.value = "Coloration Luxol bleu au violet crésyl"
-
-* #198
-* #198 ^designation.language = #fr-FR
-* #198 ^designation.use.system = "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"
-* #198 ^designation.use = $hl7TermMaintInfra#preferredForLanguage
-* #198 ^designation.value = "Coloration Luxol bleu à l'acide périodique-Schiff"
-
-* #199
-* #199 ^designation.language = #fr-FR
-* #199 ^designation.use.system = "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"
-* #199 ^designation.use = $hl7TermMaintInfra#preferredForLanguage
-* #199 ^designation.value = "Coloration tétrachrome MacNeal"
-
-* #200
-* #200 ^designation.language = #fr-FR
-* #200 ^designation.use.system = "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"
-* #200 ^designation.use = $hl7TermMaintInfra#preferredForLanguage
-* #200 ^designation.value = "Coloration Mallory-Heidenhain"
-
-* #201
-* #201 ^designation.language = #fr-FR
-* #201 ^designation.use.system = "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"
-* #201 ^designation.use = $hl7TermMaintInfra#preferredForLanguage
-* #201 ^designation.value = "Coloration trichrome Masson"
-
-* #202
-* #202 ^designation.language = #fr-FR
-* #202 ^designation.use.system = "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"
-* #202 ^designation.use = $hl7TermMaintInfra#preferredForLanguage
-* #202 ^designation.value = "Coloration Mayer mucicarmine"
-
-* #203
-* #203 ^designation.language = #fr-FR
-* #203 ^designation.use.system = "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"
-* #203 ^designation.use = $hl7TermMaintInfra#preferredForLanguage
-* #203 ^designation.value = "Coloration Mayer hématoxyline éosine"
-
-* #204
-* #204 ^designation.language = #fr-FR
-* #204 ^designation.use.system = "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"
-* #204 ^designation.use = $hl7TermMaintInfra#preferredForLanguage
-* #204 ^designation.value = "Coloration May-Grunwald Giemsa"
-
-* #205
-* #205 ^designation.language = #fr-FR
-* #205 ^designation.use.system = "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"
-* #205 ^designation.use = $hl7TermMaintInfra#preferredForLanguage
-* #205 ^designation.value = "Coloration au vert de méthyl"
-
-* #206
-* #206 ^designation.language = #fr-FR
-* #206 ^designation.use.system = "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"
-* #206 ^designation.use = $hl7TermMaintInfra#preferredForLanguage
-* #206 ^designation.value = "Coloration au vert de méthyl pyronine"
-
-* #207
-* #207 ^designation.language = #fr-FR
-* #207 ^designation.use.system = "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"
-* #207 ^designation.use = $hl7TermMaintInfra#preferredForLanguage
-* #207 ^designation.value = "Coloration trichrome Gomori-Wheatley"
-
-* #208
-* #208 ^designation.language = #fr-FR
-* #208 ^designation.use.system = "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"
-* #208 ^designation.use = $hl7TermMaintInfra#preferredForLanguage
-* #208 ^designation.value = "Coloration trichrome Masson modifié"
-
-* #209
-* #209 ^designation.language = #fr-FR
-* #209 ^designation.use.system = "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"
-* #209 ^designation.use = $hl7TermMaintInfra#preferredForLanguage
-* #209 ^designation.value = "Coloration trichrome modifié"
-
-* #210
-* #210 ^designation.language = #fr-FR
-* #210 ^designation.use.system = "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"
-* #210 ^designation.use = $hl7TermMaintInfra#preferredForLanguage
-* #210 ^designation.value = "Coloration pentachrome Movat"
-
-* #211
-* #211 ^designation.language = #fr-FR
-* #211 ^designation.use.system = "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"
-* #211 ^designation.use = $hl7TermMaintInfra#preferredForLanguage
-* #211 ^designation.value = "Coloration mucicarmine"
-
-* #212
-* #212 ^designation.language = #fr-FR
-* #212 ^designation.use.system = "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"
-* #212 ^designation.use = $hl7TermMaintInfra#preferredForLanguage
-* #212 ^designation.value = "Coloration rouge neutre"
-
-* #213
-* #213 ^designation.language = #fr-FR
-* #213 ^designation.use.system = "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"
-* #213 ^designation.use = $hl7TermMaintInfra#preferredForLanguage
-* #213 ^designation.value = "Coloration bleu nuit"
-
-* #214
-* #214 ^designation.language = #fr-FR
-* #214 ^designation.use.system = "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"
-* #214 ^designation.use = $hl7TermMaintInfra#preferredForLanguage
-* #214 ^designation.value = "Coloration estérase non spécifique"
-
-* #215
-* #215 ^designation.language = #fr-FR
-* #215 ^designation.use.system = "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"
-* #215 ^designation.use = $hl7TermMaintInfra#preferredForLanguage
-* #215 ^designation.value = "Coloration huile rouge O"
-
-* #216
-* #216 ^designation.language = #fr-FR
-* #216 ^designation.use.system = "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"
-* #216 ^designation.use = $hl7TermMaintInfra#preferredForLanguage
-* #216 ^designation.value = "Coloration orcéine"
-
-* #217
-* #217 ^designation.language = #fr-FR
-* #217 ^designation.use.system = "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"
-* #217 ^designation.use = $hl7TermMaintInfra#preferredForLanguage
-* #217 ^designation.value = "Coloration de Perls"
-
-* #218
-* #218 ^designation.language = #fr-FR
-* #218 ^designation.use.system = "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"
-* #218 ^designation.use = $hl7TermMaintInfra#preferredForLanguage
-* #218 ^designation.value = "Coloration hématoxyline phosphotungstique"
-
-* #219
-* #219 ^designation.language = #fr-FR
-* #219 ^designation.use.system = "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"
-* #219 ^designation.use = $hl7TermMaintInfra#preferredForLanguage
-* #219 ^designation.value = "Coloration ferrocyanure de potassium"
-
-* #220
-* #220 ^designation.language = #fr-FR
-* #220 ^designation.use.system = "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"
-* #220 ^designation.use = $hl7TermMaintInfra#preferredForLanguage
-* #220 ^designation.value = "Coloration bleu de Prusse"
-
-* #221
-* #221 ^designation.language = #fr-FR
-* #221 ^designation.use.system = "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"
-* #221 ^designation.use = $hl7TermMaintInfra#preferredForLanguage
-* #221 ^designation.value = "Coloration Bennhold modifiée"
-
-* #222
-* #222 ^designation.language = #fr-FR
-* #222 ^designation.use.system = "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"
-* #222 ^designation.use = $hl7TermMaintInfra#preferredForLanguage
-* #222 ^designation.value = "Coloration quinacrine fluorescente"
-
-* #223
-* #223 ^designation.language = #fr-FR
-* #223 ^designation.use.system = "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"
-* #223 ^designation.use = $hl7TermMaintInfra#preferredForLanguage
-* #223 ^designation.value = "Coloration réticuline"
-
-* #224
-* #224 ^designation.language = #fr-FR
-* #224 ^designation.use.system = "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"
-* #224 ^designation.use = $hl7TermMaintInfra#preferredForLanguage
-* #224 ^designation.value = "Coloration rhodamine"
-
-* #225
-* #225 ^designation.language = #fr-FR
-* #225 ^designation.use.system = "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"
-* #225 ^designation.use = $hl7TermMaintInfra#preferredForLanguage
-* #225 ^designation.value = "Coloration safranée"
-
-* #226
-* #226 ^designation.language = #fr-FR
-* #226 ^designation.use.system = "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"
-* #226 ^designation.use = $hl7TermMaintInfra#preferredForLanguage
-* #226 ^designation.value = "Coloration Schmorl"
-
-* #227
-* #227 ^designation.language = #fr-FR
-* #227 ^designation.use.system = "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"
-* #227 ^designation.use = $hl7TermMaintInfra#preferredForLanguage
-* #227 ^designation.value = "Coloration Sevier-Munger"
-
-* #228
-* #228 ^designation.language = #fr-FR
-* #228 ^designation.use.system = "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"
-* #228 ^designation.use = $hl7TermMaintInfra#preferredForLanguage
-* #228 ^designation.value = "Coloration argentique"
-
-* #229
-* #229 ^designation.language = #fr-FR
-* #229 ^designation.use.system = "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"
-* #229 ^designation.use = $hl7TermMaintInfra#preferredForLanguage
-* #229 ^designation.value = "Coloration estérase spécifique (Butyrate estérase)"
-
-* #230
-* #230 ^designation.language = #fr-FR
-* #230 ^designation.use.system = "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"
-* #230 ^designation.use = $hl7TermMaintInfra#preferredForLanguage
-* #230 ^designation.value = "Coloration Steiner"
-
-* #231
-* #231 ^designation.language = #fr-FR
-* #231 ^designation.use.system = "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"
-* #231 ^designation.use = $hl7TermMaintInfra#preferredForLanguage
-* #231 ^designation.value = "Coloration Soudan III"
-
-* #232
-* #232 ^designation.language = #fr-FR
-* #232 ^designation.use.system = "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"
-* #232 ^designation.use = $hl7TermMaintInfra#preferredForLanguage
-* #232 ^designation.value = "Coloration Soudan IV"
-
-* #233
-* #233 ^designation.language = #fr-FR
-* #233 ^designation.use.system = "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"
-* #233 ^designation.use = $hl7TermMaintInfra#preferredForLanguage
-* #233 ^designation.value = "Coloration bleu alcian sulfaté"
-
-* #234
-* #234 ^designation.language = #fr-FR
-* #234 ^designation.use.system = "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"
-* #234 ^designation.use = $hl7TermMaintInfra#preferredForLanguage
-* #234 ^designation.value = "Coloration supravitale"
-
-* #235
-* #235 ^designation.language = #fr-FR
-* #235 ^designation.use.system = "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"
-* #235 ^designation.use = $hl7TermMaintInfra#preferredForLanguage
-* #235 ^designation.value = "Coloration thioflavine-S"
-
-* #236
-* #236 ^designation.language = #fr-FR
-* #236 ^designation.use.system = "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"
-* #236 ^designation.use = $hl7TermMaintInfra#preferredForLanguage
-* #236 ^designation.value = "Coloration Giemsa 3µ"
-
-* #237
-* #237 ^designation.language = #fr-FR
-* #237 ^designation.use.system = "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"
-* #237 ^designation.use = $hl7TermMaintInfra#preferredForLanguage
-* #237 ^designation.value = "Coloration Vassar-Culling"
-
-* #238
-* #238 ^designation.language = #fr-FR
-* #238 ^designation.use.system = "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"
-* #238 ^designation.use = $hl7TermMaintInfra#preferredForLanguage
-* #238 ^designation.value = "Coloration vitale"
-
-* #239
-* #239 ^designation.language = #fr-FR
-* #239 ^designation.use.system = "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"
-* #239 ^designation.use = $hl7TermMaintInfra#preferredForLanguage
-* #239 ^designation.value = "Coloration Von Kossa"
-
-* #240
-* #240 ^designation.language = #fr-FR
-* #240 ^designation.use.system = "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"
-* #240 ^designation.use = $hl7TermMaintInfra#preferredForLanguage
-* #240 ^designation.value = "Antibiogramme méthode par diffusion"
-
-* #241
-* #241 ^designation.language = #fr-FR
-* #241 ^designation.use.system = "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"
-* #241 ^designation.use = $hl7TermMaintInfra#preferredForLanguage
-* #241 ^designation.value = "Antibiogramme méthode par automate BACTEC"
-
-* #242
-* #242 ^designation.language = #fr-FR
-* #242 ^designation.use.system = "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"
-* #242 ^designation.use = $hl7TermMaintInfra#preferredForLanguage
-* #242 ^designation.value = "Antibiogramme méthode par dilution"
-
-* #243
-* #243 ^designation.language = #fr-FR
-* #243 ^designation.use.system = "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"
-* #243 ^designation.use = $hl7TermMaintInfra#preferredForLanguage
-* #243 ^designation.value = "Concentration minimale bactéricide (CMB) par macrodilution (tube)"
-
-* #244
-* #244 ^designation.language = #fr-FR
-* #244 ^designation.use.system = "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"
-* #244 ^designation.use = $hl7TermMaintInfra#preferredForLanguage
-* #244 ^designation.value = "Concentration minimale bactéricide (CMB) par microdilution (plaque)"
-
-* #245
-* #245 ^designation.language = #fr-FR
-* #245 ^designation.use.system = "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"
-* #245 ^designation.use = $hl7TermMaintInfra#preferredForLanguage
-* #245 ^designation.value = "Concentration minimale inhibitrice (CMI) par macrodilution (tube)"
-
-* #246
-* #246 ^designation.language = #fr-FR
-* #246 ^designation.use.system = "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"
-* #246 ^designation.use = $hl7TermMaintInfra#preferredForLanguage
-* #246 ^designation.value = "Concentration minimale inhibitrice (CMI) par microdilution (plaque)"
-
-* #247
-* #247 ^designation.language = #fr-FR
-* #247 ^designation.use.system = "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"
-* #247 ^designation.use = $hl7TermMaintInfra#preferredForLanguage
-* #247 ^designation.value = "Turbidimétrie"
-
-* #248
-* #248 ^designation.language = #fr-FR
-* #248 ^designation.use.system = "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"
-* #248 ^designation.use = $hl7TermMaintInfra#preferredForLanguage
-* #248 ^designation.value = "Réfractométrie"
-
-* #249
-* #249 ^designation.language = #fr-FR
-* #249 ^designation.use.system = "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"
-* #249 ^designation.use = $hl7TermMaintInfra#preferredForLanguage
-* #249 ^designation.value = "Chromatographie couche mince"
-
-* #250
-* #250 ^designation.language = #fr-FR
-* #250 ^designation.use.system = "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"
-* #250 ^designation.use = $hl7TermMaintInfra#preferredForLanguage
-* #250 ^designation.value = "EMIT"
-
-* #251
-* #251 ^designation.language = #fr-FR
-* #251 ^designation.use.system = "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"
-* #251 ^designation.use = $hl7TermMaintInfra#preferredForLanguage
-* #251 ^designation.value = "Cytométrie de flux"
-
-* #252
-* #252 ^designation.language = #fr-FR
-* #252 ^designation.use.system = "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"
-* #252 ^designation.use = $hl7TermMaintInfra#preferredForLanguage
-* #252 ^designation.value = "Immunodiffusion radiale (RID)"
-
-* #253
-* #253 ^designation.language = #fr-FR
-* #253 ^designation.use.system = "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"
-* #253 ^designation.use = $hl7TermMaintInfra#preferredForLanguage
-* #253 ^designation.value = "PFIA"
-
-* #254
-* #254 ^designation.language = #fr-FR
-* #254 ^designation.use.system = "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"
-* #254 ^designation.use = $hl7TermMaintInfra#preferredForLanguage
-* #254 ^designation.value = "Immunofixation"
-
-* #255
-* #255 ^designation.language = #fr-FR
-* #255 ^designation.use.system = "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"
-* #255 ^designation.use = $hl7TermMaintInfra#preferredForLanguage
-* #255 ^designation.value = "Dialyse à l'équilibre"
-
-* #256
-* #256 ^designation.language = #fr-FR
-* #256 ^designation.use.system = "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"
-* #256 ^designation.use = $hl7TermMaintInfra#preferredForLanguage
-* #256 ^designation.value = "Elution acide de Kleihauer-Betke"
-
-* #257
-* #257 ^designation.language = #fr-FR
-* #257 ^designation.use.system = "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"
-* #257 ^designation.use = $hl7TermMaintInfra#preferredForLanguage
-* #257 ^designation.value = "Immunofluorescence anti-complément (ACIF)"
-
-* #258
-* #258 ^designation.language = #fr-FR
-* #258 ^designation.use.system = "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"
-* #258 ^designation.use = $hl7TermMaintInfra#preferredForLanguage
-* #258 ^designation.value = "Chromatographie phase gazeuse/Spectroscopie de masse (GC/MS)"
-
-* #259
-* #259 ^designation.language = #fr-FR
-* #259 ^designation.use.system = "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"
-* #259 ^designation.use = $hl7TermMaintInfra#preferredForLanguage
-* #259 ^designation.value = "Néphélométrie"
-
-* #261
-* #261 ^designation.language = #fr-FR
-* #261 ^designation.use.system = "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"
-* #261 ^designation.use = $hl7TermMaintInfra#preferredForLanguage
-* #261 ^designation.value = "Test de micro-lymphocytotoxicité"
-
-* #262
-* #262 ^designation.language = #fr-FR
-* #262 ^designation.use.system = "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"
-* #262 ^designation.use = $hl7TermMaintInfra#preferredForLanguage
-* #262 ^designation.value = "Spectrophotométrie"
-
-* #263
-* #263 ^designation.language = #fr-FR
-* #263 ^designation.use.system = "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"
-* #263 ^designation.use = $hl7TermMaintInfra#preferredForLanguage
-* #263 ^designation.value = "Spectrophotométrie d'absorption atomique (SAA)"
-
-* #264
-* #264 ^designation.language = #fr-FR
-* #264 ^designation.use.system = "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"
-* #264 ^designation.use = $hl7TermMaintInfra#preferredForLanguage
-* #264 ^designation.value = "Electrode ionique sélective"
-
-* #265
-* #265 ^designation.language = #fr-FR
-* #265 ^designation.use.system = "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"
-* #265 ^designation.use = $hl7TermMaintInfra#preferredForLanguage
-* #265 ^designation.value = "Chromatographie phase gazeuse (CG)"
-
-* #266
-* #266 ^designation.language = #fr-FR
-* #266 ^designation.use.system = "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"
-* #266 ^designation.use = $hl7TermMaintInfra#preferredForLanguage
-* #266 ^designation.value = "Isoélectrofocalisation (IEF)"
-
-* #267
-* #267 ^designation.language = #fr-FR
-* #267 ^designation.use.system = "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"
-* #267 ^designation.use = $hl7TermMaintInfra#preferredForLanguage
-* #267 ^designation.value = "Chimioluminescence"
-
-* #268
-* #268 ^designation.language = #fr-FR
-* #268 ^designation.use.system = "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"
-* #268 ^designation.use = $hl7TermMaintInfra#preferredForLanguage
-* #268 ^designation.value = "MEIA"
-
-* #269
-* #269 ^designation.language = #fr-FR
-* #269 ^designation.use.system = "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"
-* #269 ^designation.use = $hl7TermMaintInfra#preferredForLanguage
-* #269 ^designation.value = "Spectrométrie de masse à plasma à couplage inductif (ICP/MS)"
-
-* #270
-* #270 ^designation.language = #fr-FR
-* #270 ^designation.use.system = "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"
-* #270 ^designation.use = $hl7TermMaintInfra#preferredForLanguage
-* #270 ^designation.value = "IRMA"
-
-* #271
-* #271 ^designation.language = #fr-FR
-* #271 ^designation.use.system = "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"
-* #271 ^designation.use = $hl7TermMaintInfra#preferredForLanguage
-* #271 ^designation.value = "Coagulation par détection optique du caillot"
-
-* #272
-* #272 ^designation.language = #fr-FR
-* #272 ^designation.use.system = "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"
-* #272 ^designation.use = $hl7TermMaintInfra#preferredForLanguage
-* #272 ^designation.value = "Concentration minimale inhibitrice (CMI)"
-
-* #273
-* #273 ^designation.language = #fr-FR
-* #273 ^designation.use.system = "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"
-* #273 ^designation.use = $hl7TermMaintInfra#preferredForLanguage
-* #273 ^designation.value = "Susceptibilité génotypique virale"
-
-* #274
-* #274 ^designation.language = #fr-FR
-* #274 ^designation.use.system = "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"
-* #274 ^designation.use = $hl7TermMaintInfra#preferredForLanguage
-* #274 ^designation.value = "Susceptibilité phénotypique virale"
-
-* #275
-* #275 ^designation.language = #fr-FR
-* #275 ^designation.use.system = "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"
-* #275 ^designation.use = $hl7TermMaintInfra#preferredForLanguage
-* #275 ^designation.value = "Bandelette à gradient"
+* #0001
+* #0001 ^designation.language = #fr-FR
+* #0001 ^designation.use.system = "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"
+* #0001 ^designation.use = $hl7TermMaintInfra#preferredForLanguage
+* #0001 ^designation.value = "Fixation complément"
+
+* #0002
+* #0002 ^designation.language = #fr-FR
+* #0002 ^designation.use.system = "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"
+* #0002 ^designation.use = $hl7TermMaintInfra#preferredForLanguage
+* #0002 ^designation.value = "Tomographie axiale"
+
+* #0003
+* #0003 ^designation.language = #fr-FR
+* #0003 ^designation.use.system = "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"
+* #0003 ^designation.use = $hl7TermMaintInfra#preferredForLanguage
+* #0003 ^designation.value = "Test de haut niveau de résistance aux aminosides sur gélose"
+
+* #0004
+* #0004 ^designation.language = #fr-FR
+* #0004 ^designation.use.system = "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"
+* #0004 ^designation.use = $hl7TermMaintInfra#preferredForLanguage
+* #0004 ^designation.value = "Examen macroscopique"
+
+* #0005
+* #0005 ^designation.language = #fr-FR
+* #0005 ^designation.use.system = "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"
+* #0005 ^designation.use = $hl7TermMaintInfra#preferredForLanguage
+* #0005 ^designation.value = "Résonnance magnétique"
+
+* #0006
+* #0006 ^designation.language = #fr-FR
+* #0006 ^designation.use.system = "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"
+* #0006 ^designation.use = $hl7TermMaintInfra#preferredForLanguage
+* #0006 ^designation.value = "Morphométrie"
+
+* #0007
+* #0007 ^designation.language = #fr-FR
+* #0007 ^designation.use.system = "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"
+* #0007 ^designation.use = $hl7TermMaintInfra#preferredForLanguage
+* #0007 ^designation.value = "Tomographie par émission de positrons"
+
+* #0008
+* #0008 ^designation.language = #fr-FR
+* #0008 ^designation.use.system = "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"
+* #0008 ^designation.use = $hl7TermMaintInfra#preferredForLanguage
+* #0008 ^designation.value = "SAMHSA confirmation"
+
+* #0009
+* #0009 ^designation.language = #fr-FR
+* #0009 ^designation.use.system = "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"
+* #0009 ^designation.use = $hl7TermMaintInfra#preferredForLanguage
+* #0009 ^designation.value = "SAMHSA dépistage"
+
+* #0010
+* #0010 ^designation.language = #fr-FR
+* #0010 ^designation.use.system = "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"
+* #0010 ^designation.use = $hl7TermMaintInfra#preferredForLanguage
+* #0010 ^designation.value = "Neutralisation sérum"
+
+* #0011
+* #0011 ^designation.language = #fr-FR
+* #0011 ^designation.use.system = "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"
+* #0011 ^designation.use = $hl7TermMaintInfra#preferredForLanguage
+* #0011 ^designation.value = "Titrimétrie"
+
+* #0012
+* #0012 ^designation.language = #fr-FR
+* #0012 ^designation.use.system = "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"
+* #0012 ^designation.use = $hl7TermMaintInfra#preferredForLanguage
+* #0012 ^designation.value = "Ultrasonographie"
+
+* #0013
+* #0013 ^designation.language = #fr-FR
+* #0013 ^designation.use.system = "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"
+* #0013 ^designation.use = $hl7TermMaintInfra#preferredForLanguage
+* #0013 ^designation.value = "Cristallographie Rayon X"
+
+* #0014
+* #0014 ^designation.language = #fr-FR
+* #0014 ^designation.use.system = "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"
+* #0014 ^designation.use = $hl7TermMaintInfra#preferredForLanguage
+* #0014 ^designation.value = "Agglutination"
+
+* #0015
+* #0015 ^designation.language = #fr-FR
+* #0015 ^designation.use.system = "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"
+* #0015 ^designation.use = $hl7TermMaintInfra#preferredForLanguage
+* #0015 ^designation.value = "Agglutination sur plaque tampon acidifié"
+
+* #0016
+* #0016 ^designation.language = #fr-FR
+* #0016 ^designation.use.system = "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"
+* #0016 ^designation.use = $hl7TermMaintInfra#preferredForLanguage
+* #0016 ^designation.value = "Agglutination sur carte"
+
+* #0017
+* #0017 ^designation.language = #fr-FR
+* #0017 ^designation.use.system = "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"
+* #0017 ^designation.use = $hl7TermMaintInfra#preferredForLanguage
+* #0017 ^designation.value = "Hémagglutination"
+
+* #0018
+* #0018 ^designation.language = #fr-FR
+* #0018 ^designation.use.system = "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"
+* #0018 ^designation.use = $hl7TermMaintInfra#preferredForLanguage
+* #0018 ^designation.value = "Inhibition hémagglutination"
+
+* #0019
+* #0019 ^designation.language = #fr-FR
+* #0019 ^designation.use.system = "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"
+* #0019 ^designation.use = $hl7TermMaintInfra#preferredForLanguage
+* #0019 ^designation.value = "Agglutination latex"
+
+* #0020
+* #0020 ^designation.language = #fr-FR
+* #0020 ^designation.use.system = "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"
+* #0020 ^designation.use = $hl7TermMaintInfra#preferredForLanguage
+* #0020 ^designation.value = "Agglutination plaque"
+
+* #0021
+* #0021 ^designation.language = #fr-FR
+* #0021 ^designation.use.system = "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"
+* #0021 ^designation.use = $hl7TermMaintInfra#preferredForLanguage
+* #0021 ^designation.value = "Agglutination rapide"
+
+* #0022
+* #0022 ^designation.language = #fr-FR
+* #0022 ^designation.use.system = "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"
+* #0022 ^designation.use = $hl7TermMaintInfra#preferredForLanguage
+* #0022 ^designation.value = "Agglutination érythrocytes"
+
+* #0023
+* #0023 ^designation.language = #fr-FR
+* #0023 ^designation.use.system = "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"
+* #0023 ^designation.use = $hl7TermMaintInfra#preferredForLanguage
+* #0023 ^designation.value = "Agglutination,rivanol"
+
+* #0024
+* #0024 ^designation.language = #fr-FR
+* #0024 ^designation.use.system = "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"
+* #0024 ^designation.use = $hl7TermMaintInfra#preferredForLanguage
+* #0024 ^designation.value = "Agglutination en tube"
+
+* #0025
+* #0025 ^designation.language = #fr-FR
+* #0025 ^designation.use.system = "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"
+* #0025 ^designation.use = $hl7TermMaintInfra#preferredForLanguage
+* #0025 ^designation.value = "Bioanalyse"
+
+* #0026
+* #0026 ^designation.language = #fr-FR
+* #0026 ^designation.use.system = "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"
+* #0026 ^designation.use = $hl7TermMaintInfra#preferredForLanguage
+* #0026 ^designation.value = "Inoculation animal"
+
+* #0027
+* #0027 ^designation.language = #fr-FR
+* #0027 ^designation.use.system = "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"
+* #0027 ^designation.use = $hl7TermMaintInfra#preferredForLanguage
+* #0027 ^designation.value = "Cytotoxicité"
+
+* #0030
+* #0030 ^designation.language = #fr-FR
+* #0030 ^designation.use.system = "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"
+* #0030 ^designation.use = $hl7TermMaintInfra#preferredForLanguage
+* #0030 ^designation.value = "Inoculation intracérébrale à la souris"
+
+* #0031
+* #0031 ^designation.language = #fr-FR
+* #0031 ^designation.use.system = "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"
+* #0031 ^designation.use = $hl7TermMaintInfra#preferredForLanguage
+* #0031 ^designation.value = "Analyse qualitative"
+
+* #0032
+* #0032 ^designation.language = #fr-FR
+* #0032 ^designation.use.system = "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"
+* #0032 ^designation.use = $hl7TermMaintInfra#preferredForLanguage
+* #0032 ^designation.value = "Analyse quantitative"
+
+* #0033
+* #0033 ^designation.language = #fr-FR
+* #0033 ^designation.use.system = "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"
+* #0033 ^designation.use = $hl7TermMaintInfra#preferredForLanguage
+* #0033 ^designation.value = "Méthode chimique"
+
+* #0034
+* #0034 ^designation.language = #fr-FR
+* #0034 ^designation.use.system = "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"
+* #0034 ^designation.use = $hl7TermMaintInfra#preferredForLanguage
+* #0034 ^designation.value = "Test chimique d'absorption de lumière différentielle"
+
+* #0037
+* #0037 ^designation.language = #fr-FR
+* #0037 ^designation.use.system = "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"
+* #0037 ^designation.use = $hl7TermMaintInfra#preferredForLanguage
+* #0037 ^designation.value = "Test sur bandelette"
+
+* #0038
+* #0038 ^designation.language = #fr-FR
+* #0038 ^designation.use.system = "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"
+* #0038 ^designation.use = $hl7TermMaintInfra#preferredForLanguage
+* #0038 ^designation.value = "Chromatographie"
+
+* #0039
+* #0039 ^designation.language = #fr-FR
+* #0039 ^designation.use.system = "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"
+* #0039 ^designation.use = $hl7TermMaintInfra#preferredForLanguage
+* #0039 ^designation.value = "Chromatographie d'affinité"
+
+* #0040
+* #0040 ^designation.language = #fr-FR
+* #0040 ^designation.use.system = "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"
+* #0040 ^designation.use = $hl7TermMaintInfra#preferredForLanguage
+* #0040 ^designation.value = "Chromatographie phase gazeuse liquide"
+
+* #0041
+* #0041 ^designation.language = #fr-FR
+* #0041 ^designation.use.system = "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"
+* #0041 ^designation.use = $hl7TermMaintInfra#preferredForLanguage
+* #0041 ^designation.value = "Chromatographie liquide haute pression"
+
+* #0042
+* #0042 ^designation.language = #fr-FR
+* #0042 ^designation.use.system = "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"
+* #0042 ^designation.use = $hl7TermMaintInfra#preferredForLanguage
+* #0042 ^designation.value = "Chromatographie liquide"
+
+* #0043
+* #0043 ^designation.language = #fr-FR
+* #0043 ^designation.use.system = "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"
+* #0043 ^designation.use = $hl7TermMaintInfra#preferredForLanguage
+* #0043 ^designation.value = "Chromatographie d'affinité à la protéine A"
+
+* #0044
+* #0044 ^designation.language = #fr-FR
+* #0044 ^designation.use.system = "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"
+* #0044 ^designation.use = $hl7TermMaintInfra#preferredForLanguage
+* #0044 ^designation.value = "Coagulation"
+
+* #0045
+* #0045 ^designation.language = #fr-FR
+* #0045 ^designation.use.system = "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"
+* #0045 ^designation.use = $hl7TermMaintInfra#preferredForLanguage
+* #0045 ^designation.value = "Temps de coagulation en tube"
+
+* #0046
+* #0046 ^designation.language = #fr-FR
+* #0046 ^designation.use.system = "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"
+* #0046 ^designation.use = $hl7TermMaintInfra#preferredForLanguage
+* #0046 ^designation.value = "Coagulation induite par reptilase en tube"
+
+* #0047
+* #0047 ^designation.language = #fr-FR
+* #0047 ^designation.use.system = "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"
+* #0047 ^designation.use = $hl7TermMaintInfra#preferredForLanguage
+* #0047 ^designation.value = "Comptage automatisé"
+
+* #0048
+* #0048 ^designation.language = #fr-FR
+* #0048 ^designation.use.system = "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"
+* #0048 ^designation.use = $hl7TermMaintInfra#preferredForLanguage
+* #0048 ^designation.value = "Comptage manuel"
+
+* #0049
+* #0049 ^designation.language = #fr-FR
+* #0049 ^designation.use.system = "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"
+* #0049 ^designation.use = $hl7TermMaintInfra#preferredForLanguage
+* #0049 ^designation.value = "Comptage plaquettaire de Rees-Ecker"
+
+* #0050
+* #0050 ^designation.language = #fr-FR
+* #0050 ^designation.use.system = "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"
+* #0050 ^designation.use = $hl7TermMaintInfra#preferredForLanguage
+* #0050 ^designation.value = "Culture aérobie"
+
+* #0051
+* #0051 ^designation.language = #fr-FR
+* #0051 ^designation.use.system = "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"
+* #0051 ^designation.use = $hl7TermMaintInfra#preferredForLanguage
+* #0051 ^designation.value = "Culture anaérobie"
+
+* #0052
+* #0052 ^designation.language = #fr-FR
+* #0052 ^designation.use.system = "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"
+* #0052 ^designation.use = $hl7TermMaintInfra#preferredForLanguage
+* #0052 ^designation.value = "Culture sur embryon de poulet"
+
+* #0053
+* #0053 ^designation.language = #fr-FR
+* #0053 ^designation.use.system = "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"
+* #0053 ^designation.use = $hl7TermMaintInfra#preferredForLanguage
+* #0053 ^designation.value = "Enrichissement secondaire retardé"
+
+* #0054
+* #0054 ^designation.language = #fr-FR
+* #0054 ^designation.use.system = "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"
+* #0054 ^designation.use = $hl7TermMaintInfra#preferredForLanguage
+* #0054 ^designation.value = "Culture microaérophile"
+
+* #0061
+* #0061 ^designation.language = #fr-FR
+* #0061 ^designation.use.system = "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"
+* #0061 ^designation.use = $hl7TermMaintInfra#preferredForLanguage
+* #0061 ^designation.value = "Culture cellulaire somatique"
+
+* #0062
+* #0062 ^designation.language = #fr-FR
+* #0062 ^designation.use.system = "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"
+* #0062 ^designation.use = $hl7TermMaintInfra#preferredForLanguage
+* #0062 ^designation.value = "Diffusion gel Agar"
+
+* #0063
+* #0063 ^designation.language = #fr-FR
+* #0063 ^designation.use.system = "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"
+* #0063 ^designation.use = $hl7TermMaintInfra#preferredForLanguage
+* #0063 ^designation.value = "Immunodiffusion"
+
+* #0064
+* #0064 ^designation.language = #fr-FR
+* #0064 ^designation.use.system = "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"
+* #0064 ^designation.use = $hl7TermMaintInfra#preferredForLanguage
+* #0064 ^designation.value = "Électrophorèse"
+
+* #0065
+* #0065 ^designation.language = #fr-FR
+* #0065 ^designation.use.system = "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"
+* #0065 ^designation.use = $hl7TermMaintInfra#preferredForLanguage
+* #0065 ^designation.value = "Électrophorèse gel agarose"
+
+* #0066
+* #0066 ^designation.language = #fr-FR
+* #0066 ^designation.use.system = "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"
+* #0066 ^designation.use = $hl7TermMaintInfra#preferredForLanguage
+* #0066 ^designation.value = "Électrophorèse citrate agar"
+
+* #0067
+* #0067 ^designation.language = #fr-FR
+* #0067 ^designation.use.system = "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"
+* #0067 ^designation.use = $hl7TermMaintInfra#preferredForLanguage
+* #0067 ^designation.value = "Immunoélectrophorèse"
+
+* #0068
+* #0068 ^designation.language = #fr-FR
+* #0068 ^designation.use.system = "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"
+* #0068 ^designation.use = $hl7TermMaintInfra#preferredForLanguage
+* #0068 ^designation.value = "Électrophorèse sur gel de polyacrylamide"
+
+* #0069
+* #0069 ^designation.language = #fr-FR
+* #0069 ^designation.use.system = "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"
+* #0069 ^designation.use = $hl7TermMaintInfra#preferredForLanguage
+* #0069 ^designation.value = "Électrophorèse sur gel d'amidon"
+
+* #0070
+* #0070 ^designation.language = #fr-FR
+* #0070 ^designation.use.system = "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"
+* #0070 ^designation.use = $hl7TermMaintInfra#preferredForLanguage
+* #0070 ^designation.value = "ELISA"
+
+* #0071
+* #0071 ^designation.language = #fr-FR
+* #0071 ^designation.use.system = "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"
+* #0071 ^designation.use = $hl7TermMaintInfra#preferredForLanguage
+* #0071 ^designation.value = "ELISA avec captude d'antigène"
+
+* #0072
+* #0072 ^designation.language = #fr-FR
+* #0072 ^designation.use.system = "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"
+* #0072 ^designation.use = $hl7TermMaintInfra#preferredForLanguage
+* #0072 ^designation.value = "ELISA avec complexe avidine biotine péroxydase"
+
+* #0073
+* #0073 ^designation.language = #fr-FR
+* #0073 ^designation.use.system = "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"
+* #0073 ^designation.use = $hl7TermMaintInfra#preferredForLanguage
+* #0073 ^designation.value = "ELISA avec cinétique"
+
+* #0074
+* #0074 ^designation.language = #fr-FR
+* #0074 ^designation.use.system = "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"
+* #0074 ^designation.use = $hl7TermMaintInfra#preferredForLanguage
+* #0074 ^designation.value = "ELISA avec péroxydase-anti-péroxydase"
+
+* #0075
+* #0075 ^designation.language = #fr-FR
+* #0075 ^designation.use.system = "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"
+* #0075 ^designation.use = $hl7TermMaintInfra#preferredForLanguage
+* #0075 ^designation.value = "Identification par galerie API 20 Strep"
+
+* #0076
+* #0076 ^designation.language = #fr-FR
+* #0076 ^designation.use.system = "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"
+* #0076 ^designation.use = $hl7TermMaintInfra#preferredForLanguage
+* #0076 ^designation.value = "Identification par galerie API 20A"
+
+* #0077
+* #0077 ^designation.language = #fr-FR
+* #0077 ^designation.use.system = "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"
+* #0077 ^designation.use = $hl7TermMaintInfra#preferredForLanguage
+* #0077 ^designation.value = "Identification par galerie API 20C AUX"
+
+* #0078
+* #0078 ^designation.language = #fr-FR
+* #0078 ^designation.use.system = "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"
+* #0078 ^designation.use = $hl7TermMaintInfra#preferredForLanguage
+* #0078 ^designation.value = "Identification par galerie API 20E"
+
+* #0079
+* #0079 ^designation.language = #fr-FR
+* #0079 ^designation.use.system = "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"
+* #0079 ^designation.use = $hl7TermMaintInfra#preferredForLanguage
+* #0079 ^designation.value = "Identification par galerie API 20NE"
+
+* #0080
+* #0080 ^designation.language = #fr-FR
+* #0080 ^designation.use.system = "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"
+* #0080 ^designation.use = $hl7TermMaintInfra#preferredForLanguage
+* #0080 ^designation.value = "Identification par galerie API 50 CH"
+
+* #0081
+* #0081 ^designation.language = #fr-FR
+* #0081 ^designation.use.system = "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"
+* #0081 ^designation.use = $hl7TermMaintInfra#preferredForLanguage
+* #0081 ^designation.value = "Identification par galerie API An-IDENT"
+
+* #0082
+* #0082 ^designation.language = #fr-FR
+* #0082 ^designation.use.system = "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"
+* #0082 ^designation.use = $hl7TermMaintInfra#preferredForLanguage
+* #0082 ^designation.value = "Identification par galerie API Coryne"
+
+* #0083
+* #0083 ^designation.language = #fr-FR
+* #0083 ^designation.use.system = "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"
+* #0083 ^designation.use = $hl7TermMaintInfra#preferredForLanguage
+* #0083 ^designation.value = "Identification par galerie API Rapid 20E"
+
+* #0084
+* #0084 ^designation.language = #fr-FR
+* #0084 ^designation.use.system = "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"
+* #0084 ^designation.use = $hl7TermMaintInfra#preferredForLanguage
+* #0084 ^designation.value = "Identification par galerie API Staph"
+
+* #0085
+* #0085 ^designation.language = #fr-FR
+* #0085 ^designation.use.system = "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"
+* #0085 ^designation.use = $hl7TermMaintInfra#preferredForLanguage
+* #0085 ^designation.value = "Identification par galerie API 20 Strep"
+
+* #0086
+* #0086 ^designation.language = #fr-FR
+* #0086 ^designation.use.system = "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"
+* #0086 ^designation.use = $hl7TermMaintInfra#preferredForLanguage
+* #0086 ^designation.value = "Identification bactérienne"
+
+* #0087
+* #0087 ^designation.language = #fr-FR
+* #0087 ^designation.use.system = "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"
+* #0087 ^designation.use = $hl7TermMaintInfra#preferredForLanguage
+* #0087 ^designation.value = "Identification par mini VIDAS"
+
+* #0088
+* #0088 ^designation.language = #fr-FR
+* #0088 ^designation.use.system = "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"
+* #0088 ^designation.use = $hl7TermMaintInfra#preferredForLanguage
+* #0088 ^designation.value = "Identification par lysotypie"
+
+* #0089
+* #0089 ^designation.language = #fr-FR
+* #0089 ^designation.use.system = "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"
+* #0089 ^designation.use = $hl7TermMaintInfra#preferredForLanguage
+* #0089 ^designation.value = "Identification par galerie QuadFERM+"
+
+* #0090
+* #0090 ^designation.language = #fr-FR
+* #0090 ^designation.use.system = "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"
+* #0090 ^designation.use = $hl7TermMaintInfra#preferredForLanguage
+* #0090 ^designation.value = "Identification par galerie RAPIDEC Staph"
+
+* #0091
+* #0091 ^designation.language = #fr-FR
+* #0091 ^designation.use.system = "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"
+* #0091 ^designation.use = $hl7TermMaintInfra#preferredForLanguage
+* #0091 ^designation.value = "Identification par agglutination latex Staphaurex"
+
+* #0092
+* #0092 ^designation.language = #fr-FR
+* #0092 ^designation.use.system = "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"
+* #0092 ^designation.use = $hl7TermMaintInfra#preferredForLanguage
+* #0092 ^designation.value = "Identification par VIDAS"
+
+* #0093
+* #0093 ^designation.language = #fr-FR
+* #0093 ^designation.use.system = "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"
+* #0093 ^designation.use = $hl7TermMaintInfra#preferredForLanguage
+* #0093 ^designation.value = "Identification par VITEK"
+
+* #0094
+* #0094 ^designation.language = #fr-FR
+* #0094 ^designation.use.system = "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"
+* #0094 ^designation.use = $hl7TermMaintInfra#preferredForLanguage
+* #0094 ^designation.value = "Identification par VITEK 2"
+
+* #0095
+* #0095 ^designation.language = #fr-FR
+* #0095 ^designation.use.system = "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"
+* #0095 ^designation.use = $hl7TermMaintInfra#preferredForLanguage
+* #0095 ^designation.value = "Coloration immune"
+
+* #0096
+* #0096 ^designation.language = #fr-FR
+* #0096 ^designation.use.system = "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"
+* #0096 ^designation.use = $hl7TermMaintInfra#preferredForLanguage
+* #0096 ^designation.value = "Immunofluorescence directe"
+
+* #0097
+* #0097 ^designation.language = #fr-FR
+* #0097 ^designation.use.system = "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"
+* #0097 ^designation.use = $hl7TermMaintInfra#preferredForLanguage
+* #0097 ^designation.value = "Immunofluorescence indirecte"
+
+* #0098
+* #0098 ^designation.language = #fr-FR
+* #0098 ^designation.use.system = "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"
+* #0098 ^designation.use = $hl7TermMaintInfra#preferredForLanguage
+* #0098 ^designation.value = "Immunopéroxydase (complexe avidine-Biotine)"
+
+* #0099
+* #0099 ^designation.language = #fr-FR
+* #0099 ^designation.use.system = "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"
+* #0099 ^designation.use = $hl7TermMaintInfra#preferredForLanguage
+* #0099 ^designation.value = "Immunopéroxydase (complexe péroxydase-antipéroxydase)"
+
+* #0100
+* #0100 ^designation.language = #fr-FR
+* #0100 ^designation.use.system = "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"
+* #0100 ^designation.use = $hl7TermMaintInfra#preferredForLanguage
+* #0100 ^designation.value = "Immunopéroxydase (complexe Protéine A-péroxydase)"
+
+* #0101
+* #0101 ^designation.language = #fr-FR
+* #0101 ^designation.use.system = "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"
+* #0101 ^designation.use = $hl7TermMaintInfra#preferredForLanguage
+* #0101 ^designation.value = "Immunoanalyse"
+
+* #0102
+* #0102 ^designation.language = #fr-FR
+* #0102 ^designation.use.system = "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"
+* #0102 ^designation.use = $hl7TermMaintInfra#preferredForLanguage
+* #0102 ^designation.value = "Immunoanalyse qualitative à plusieurs étapes"
+
+* #0103
+* #0103 ^designation.language = #fr-FR
+* #0103 ^designation.use.system = "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"
+* #0103 ^designation.use = $hl7TermMaintInfra#preferredForLanguage
+* #0103 ^designation.value = "Immunoanalyse qualitative à une étape"
+
+* #0104
+* #0104 ^designation.language = #fr-FR
+* #0104 ^designation.use.system = "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"
+* #0104 ^designation.use = $hl7TermMaintInfra#preferredForLanguage
+* #0104 ^designation.value = "Radioimmunologie"
+
+* #0105
+* #0105 ^designation.language = #fr-FR
+* #0105 ^designation.use.system = "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"
+* #0105 ^designation.use = $hl7TermMaintInfra#preferredForLanguage
+* #0105 ^designation.value = "Immunoanalyse semi-quantitative à plusieurs étapes"
+
+* #0106
+* #0106 ^designation.language = #fr-FR
+* #0106 ^designation.use.system = "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"
+* #0106 ^designation.use = $hl7TermMaintInfra#preferredForLanguage
+* #0106 ^designation.value = "Immunoanalyse semi-quantitative à une étape"
+
+* #0107
+* #0107 ^designation.language = #fr-FR
+* #0107 ^designation.use.system = "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"
+* #0107 ^designation.use = $hl7TermMaintInfra#preferredForLanguage
+* #0107 ^designation.value = "Microscopie"
+
+* #0108
+* #0108 ^designation.language = #fr-FR
+* #0108 ^designation.use.system = "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"
+* #0108 ^designation.use = $hl7TermMaintInfra#preferredForLanguage
+* #0108 ^designation.value = "Microscopie fond noir"
+
+* #0109
+* #0109 ^designation.language = #fr-FR
+* #0109 ^designation.use.system = "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"
+* #0109 ^designation.use = $hl7TermMaintInfra#preferredForLanguage
+* #0109 ^designation.value = "Microscopie électronique"
+
+* #0110
+* #0110 ^designation.language = #fr-FR
+* #0110 ^designation.use.system = "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"
+* #0110 ^designation.use = $hl7TermMaintInfra#preferredForLanguage
+* #0110 ^designation.value = "Microscopie électronique, Tomographie numérique"
+
+* #0111
+* #0111 ^designation.language = #fr-FR
+* #0111 ^designation.use.system = "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"
+* #0111 ^designation.use = $hl7TermMaintInfra#preferredForLanguage
+* #0111 ^designation.value = "Microscopie électronique en contraste de phase"
+
+* #0112
+* #0112 ^designation.language = #fr-FR
+* #0112 ^designation.use.system = "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"
+* #0112 ^designation.use = $hl7TermMaintInfra#preferredForLanguage
+* #0112 ^designation.value = "Microscopie électronique sur section épaisse"
+
+* #0113
+* #0113 ^designation.language = #fr-FR
+* #0113 ^designation.use.system = "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"
+* #0113 ^designation.use = $hl7TermMaintInfra#preferredForLanguage
+* #0113 ^designation.value = "Microscopie électronique sur section fine"
+
+* #0114
+* #0114 ^designation.language = #fr-FR
+* #0114 ^designation.use.system = "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"
+* #0114 ^designation.use = $hl7TermMaintInfra#preferredForLanguage
+* #0114 ^designation.value = "Microscvopie en lumière directe"
+
+* #0115
+* #0115 ^designation.language = #fr-FR
+* #0115 ^designation.use.system = "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"
+* #0115 ^designation.use = $hl7TermMaintInfra#preferredForLanguage
+* #0115 ^designation.value = "Microscopie à polarisation"
+
+* #0116
+* #0116 ^designation.language = #fr-FR
+* #0116 ^designation.use.system = "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"
+* #0116 ^designation.use = $hl7TermMaintInfra#preferredForLanguage
+* #0116 ^designation.value = "Microscopie électronique à balayage"
+
+* #0117
+* #0117 ^designation.language = #fr-FR
+* #0117 ^designation.use.system = "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"
+* #0117 ^designation.use = $hl7TermMaintInfra#preferredForLanguage
+* #0117 ^designation.value = "Microscopie électronique à transmission"
+
+* #0120
+* #0120 ^designation.language = #fr-FR
+* #0120 ^designation.use.system = "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"
+* #0120 ^designation.use = $hl7TermMaintInfra#preferredForLanguage
+* #0120 ^designation.value = "ADN branché"
+
+* #0122
+* #0122 ^designation.language = #fr-FR
+* #0122 ^designation.use.system = "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"
+* #0122 ^designation.use = $hl7TermMaintInfra#preferredForLanguage
+* #0122 ^designation.value = "Immunoblot"
+
+* #0123
+* #0123 ^designation.language = #fr-FR
+* #0123 ^designation.use.system = "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"
+* #0123 ^designation.use = $hl7TermMaintInfra#preferredForLanguage
+* #0123 ^designation.value = "Hybridation moléculaire in situ"
+
+* #0127
+* #0127 ^designation.language = #fr-FR
+* #0127 ^designation.use.system = "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"
+* #0127 ^designation.use = $hl7TermMaintInfra#preferredForLanguage
+* #0127 ^designation.value = "Sonde acide nucléique"
+
+* #0128
+* #0128 ^designation.language = #fr-FR
+* #0128 ^designation.use.system = "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"
+* #0128 ^designation.use = $hl7TermMaintInfra#preferredForLanguage
+* #0128 ^designation.value = "Sonde acide nucléique avec amplification"
+
+* #0129
+* #0129 ^designation.language = #fr-FR
+* #0129 ^designation.use.system = "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"
+* #0129 ^designation.use = $hl7TermMaintInfra#preferredForLanguage
+* #0129 ^designation.value = "Sonde acide nucléique avec amplification ciblée"
+
+* #0130
+* #0130 ^designation.language = #fr-FR
+* #0130 ^designation.use.system = "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"
+* #0130 ^designation.use = $hl7TermMaintInfra#preferredForLanguage
+* #0130 ^designation.value = "Transcription inverse"
+
+* #0131
+* #0131 ^designation.language = #fr-FR
+* #0131 ^designation.use.system = "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"
+* #0131 ^designation.use = $hl7TermMaintInfra#preferredForLanguage
+* #0131 ^designation.value = "Séquençage d'acides nucléiques"
+
+* #0132
+* #0132 ^designation.language = #fr-FR
+* #0132 ^designation.use.system = "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"
+* #0132 ^designation.use = $hl7TermMaintInfra#preferredForLanguage
+* #0132 ^designation.value = "PCR"
+
+* #0134
+* #0134 ^designation.language = #fr-FR
+* #0134 ^designation.use.system = "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"
+* #0134 ^designation.use = $hl7TermMaintInfra#preferredForLanguage
+* #0134 ^designation.value = "RFLP"
+
+* #0135
+* #0135 ^designation.language = #fr-FR
+* #0135 ^designation.use.system = "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"
+* #0135 ^designation.use = $hl7TermMaintInfra#preferredForLanguage
+* #0135 ^designation.value = "Southern-blot"
+
+* #0138
+* #0138 ^designation.language = #fr-FR
+* #0138 ^designation.use.system = "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"
+* #0138 ^designation.use = $hl7TermMaintInfra#preferredForLanguage
+* #0138 ^designation.value = "Western-Blot"
+
+* #0139
+* #0139 ^designation.language = #fr-FR
+* #0139 ^designation.use.system = "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"
+* #0139 ^designation.use = $hl7TermMaintInfra#preferredForLanguage
+* #0139 ^designation.value = "Floculation"
+
+* #0140
+* #0140 ^designation.language = #fr-FR
+* #0140 ^designation.use.system = "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"
+* #0140 ^designation.use = $hl7TermMaintInfra#preferredForLanguage
+* #0140 ^designation.value = "Immunoprécipitation"
+
+* #0141
+* #0141 ^designation.language = #fr-FR
+* #0141 ^designation.use.system = "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"
+* #0141 ^designation.use = $hl7TermMaintInfra#preferredForLanguage
+* #0141 ^designation.value = "Test à l'anneau de lait"
+
+* #0142
+* #0142 ^designation.language = #fr-FR
+* #0142 ^designation.use.system = "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"
+* #0142 ^designation.use = $hl7TermMaintInfra#preferredForLanguage
+* #0142 ^designation.value = "Précipitine"
+
+* #0143
+* #0143 ^designation.language = #fr-FR
+* #0143 ^designation.use.system = "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"
+* #0143 ^designation.use = $hl7TermMaintInfra#preferredForLanguage
+* #0143 ^designation.value = "Coloration acide rapide"
+
+* #0144
+* #0144 ^designation.language = #fr-FR
+* #0144 ^designation.use.system = "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"
+* #0144 ^designation.use = $hl7TermMaintInfra#preferredForLanguage
+* #0144 ^designation.value = "Coloration acide rapide/fluorochrome"
+
+* #0145
+* #0145 ^designation.language = #fr-FR
+* #0145 ^designation.use.system = "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"
+* #0145 ^designation.use = $hl7TermMaintInfra#preferredForLanguage
+* #0145 ^designation.value = "Coloration acide rapide Kinyoun"
+
+* #0146
+* #0146 ^designation.language = #fr-FR
+* #0146 ^designation.use.system = "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"
+* #0146 ^designation.use = $hl7TermMaintInfra#preferredForLanguage
+* #0146 ^designation.value = "Coloration acide Ziehl-Neelsen"
+
+* #0147
+* #0147 ^designation.language = #fr-FR
+* #0147 ^designation.use.system = "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"
+* #0147 ^designation.use = $hl7TermMaintInfra#preferredForLanguage
+* #0147 ^designation.value = "Coloration phosphatase acide"
+
+* #0148
+* #0148 ^designation.language = #fr-FR
+* #0148 ^designation.use.system = "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"
+* #0148 ^designation.use = $hl7TermMaintInfra#preferredForLanguage
+* #0148 ^designation.value = "Coloration acridine orange"
+
+* #0149
+* #0149 ^designation.language = #fr-FR
+* #0149 ^designation.use.system = "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"
+* #0149 ^designation.use = $hl7TermMaintInfra#preferredForLanguage
+* #0149 ^designation.value = "Coloration orange brillant KH"
+
+* #0150
+* #0150 ^designation.language = #fr-FR
+* #0150 ^designation.use.system = "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"
+* #0150 ^designation.use = $hl7TermMaintInfra#preferredForLanguage
+* #0150 ^designation.value = "Coloration rouge alizarine"
+
+* #0151
+* #0151 ^designation.language = #fr-FR
+* #0151 ^designation.use.system = "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"
+* #0151 ^designation.use = $hl7TermMaintInfra#preferredForLanguage
+* #0151 ^designation.value = "Coloration bleu alcian"
+
+* #0152
+* #0152 ^designation.language = #fr-FR
+* #0152 ^designation.use.system = "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"
+* #0152 ^designation.use = $hl7TermMaintInfra#preferredForLanguage
+* #0152 ^designation.value = "Coloration bleu alcian+acide périodique-Schiff"
+
+* #0153
+* #0153 ^designation.language = #fr-FR
+* #0153 ^designation.use.system = "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"
+* #0153 ^designation.use = $hl7TermMaintInfra#preferredForLanguage
+* #0153 ^designation.value = "Coloration argentaffine"
+
+* #0154
+* #0154 ^designation.language = #fr-FR
+* #0154 ^designation.use.system = "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"
+* #0154 ^designation.use = $hl7TermMaintInfra#preferredForLanguage
+* #0154 ^designation.value = "Coloration argent argentaffine"
+
+* #0155
+* #0155 ^designation.language = #fr-FR
+* #0155 ^designation.use.system = "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"
+* #0155 ^designation.use = $hl7TermMaintInfra#preferredForLanguage
+* #0155 ^designation.value = "Coloration azur-éosine"
+
+* #0156
+* #0156 ^designation.language = #fr-FR
+* #0156 ^designation.use.system = "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"
+* #0156 ^designation.use = $hl7TermMaintInfra#preferredForLanguage
+* #0156 ^designation.value = "Coloration fuchsine basique"
+
+* #0157
+* #0157 ^designation.language = #fr-FR
+* #0157 ^designation.use.system = "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"
+* #0157 ^designation.use = $hl7TermMaintInfra#preferredForLanguage
+* #0157 ^designation.value = "Coloration Bennhold"
+
+* #0158
+* #0158 ^designation.language = #fr-FR
+* #0158 ^designation.use.system = "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"
+* #0158 ^designation.use = $hl7TermMaintInfra#preferredForLanguage
+* #0158 ^designation.value = "Coloration rouge Congo/Bennhold"
+
+* #0159
+* #0159 ^designation.language = #fr-FR
+* #0159 ^designation.use.system = "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"
+* #0159 ^designation.use = $hl7TermMaintInfra#preferredForLanguage
+* #0159 ^designation.value = "Coloration Bielschowsky"
+
+* #0160
+* #0160 ^designation.language = #fr-FR
+* #0160 ^designation.use.system = "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"
+* #0160 ^designation.use = $hl7TermMaintInfra#preferredForLanguage
+* #0160 ^designation.value = "Coloration Argent/Bielschowsky"
+
+* #0161
+* #0161 ^designation.language = #fr-FR
+* #0161 ^designation.use.system = "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"
+* #0161 ^designation.use = $hl7TermMaintInfra#preferredForLanguage
+* #0161 ^designation.value = "Décoloration"
+
+* #0162
+* #0162 ^designation.language = #fr-FR
+* #0162 ^designation.use.system = "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"
+* #0162 ^designation.use = $hl7TermMaintInfra#preferredForLanguage
+* #0162 ^designation.value = "Coloration Bodian"
+
+* #0163
+* #0163 ^designation.language = #fr-FR
+* #0163 ^designation.use.system = "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"
+* #0163 ^designation.use = $hl7TermMaintInfra#preferredForLanguage
+* #0163 ^designation.value = "Coloration Brown et Brenn"
+
+* #0164
+* #0164 ^designation.language = #fr-FR
+* #0164 ^designation.use.system = "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"
+* #0164 ^designation.use = $hl7TermMaintInfra#preferredForLanguage
+* #0164 ^designation.value = "Coloration butyrate estérase"
+
+* #0165
+* #0165 ^designation.language = #fr-FR
+* #0165 ^designation.use.system = "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"
+* #0165 ^designation.use = $hl7TermMaintInfra#preferredForLanguage
+* #0165 ^designation.value = "Préparation calcofluor blanc"
+
+* #0166
+* #0166 ^designation.language = #fr-FR
+* #0166 ^designation.use.system = "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"
+* #0166 ^designation.use = $hl7TermMaintInfra#preferredForLanguage
+* #0166 ^designation.value = "Coloration carbol fuchsine"
+
+* #0167
+* #0167 ^designation.language = #fr-FR
+* #0167 ^designation.use.system = "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"
+* #0167 ^designation.use = $hl7TermMaintInfra#preferredForLanguage
+* #0167 ^designation.value = "Coloration carmin"
+
+* #0168
+* #0168 ^designation.language = #fr-FR
+* #0168 ^designation.use.system = "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"
+* #0168 ^designation.use = $hl7TermMaintInfra#preferredForLanguage
+* #0168 ^designation.value = "Coloration Churukian-Schenk"
+
+* #0169
+* #0169 ^designation.language = #fr-FR
+* #0169 ^designation.use.system = "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"
+* #0169 ^designation.use = $hl7TermMaintInfra#preferredForLanguage
+* #0169 ^designation.value = "Coloration rouge Congo"
+
+* #0170
+* #0170 ^designation.language = #fr-FR
+* #0170 ^designation.use.system = "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"
+* #0170 ^designation.use = $hl7TermMaintInfra#preferredForLanguage
+* #0170 ^designation.value = "Coloration violet de crésyl acétate"
+
+* #0171
+* #0171 ^designation.language = #fr-FR
+* #0171 ^designation.use.system = "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"
+* #0171 ^designation.use = $hl7TermMaintInfra#preferredForLanguage
+* #0171 ^designation.value = "Coloration crystal violet"
+
+* #0172
+* #0172 ^designation.language = #fr-FR
+* #0172 ^designation.use.system = "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"
+* #0172 ^designation.use = $hl7TermMaintInfra#preferredForLanguage
+* #0172 ^designation.value = "Coloration de Galantha"
+
+* #0173
+* #0173 ^designation.language = #fr-FR
+* #0173 ^designation.use.system = "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"
+* #0173 ^designation.use = $hl7TermMaintInfra#preferredForLanguage
+* #0173 ^designation.value = "Coloration de Dieterle par imprégnation argentique"
+
+* #0174
+* #0174 ^designation.language = #fr-FR
+* #0174 ^designation.use.system = "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"
+* #0174 ^designation.use = $hl7TermMaintInfra#preferredForLanguage
+* #0174 ^designation.value = "Coloration Fite-Faraco"
+
+* #0175
+* #0175 ^designation.language = #fr-FR
+* #0175 ^designation.use.system = "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"
+* #0175 ^designation.use = $hl7TermMaintInfra#preferredForLanguage
+* #0175 ^designation.value = "Coloration Fontana-Masson"
+
+* #0176
+* #0176 ^designation.language = #fr-FR
+* #0176 ^designation.use.system = "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"
+* #0176 ^designation.use = $hl7TermMaintInfra#preferredForLanguage
+* #0176 ^designation.value = "Coloration Fouchet"
+
+* #0177
+* #0177 ^designation.language = #fr-FR
+* #0177 ^designation.use.system = "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"
+* #0177 ^designation.use = $hl7TermMaintInfra#preferredForLanguage
+* #0177 ^designation.value = "Coloration Gomori"
+
+* #0178
+* #0178 ^designation.language = #fr-FR
+* #0178 ^designation.use.system = "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"
+* #0178 ^designation.use = $hl7TermMaintInfra#preferredForLanguage
+* #0178 ^designation.value = "Coloration méthénamine argent Gomori"
+
+* #0179
+* #0179 ^designation.language = #fr-FR
+* #0179 ^designation.use.system = "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"
+* #0179 ^designation.use = $hl7TermMaintInfra#preferredForLanguage
+* #0179 ^designation.value = "Coloration trichrome Gomori-Wheatly"
+
+* #0180
+* #0180 ^designation.language = #fr-FR
+* #0180 ^designation.use.system = "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"
+* #0180 ^designation.use = $hl7TermMaintInfra#preferredForLanguage
+* #0180 ^designation.value = "Coloration Gridley"
+
+* #0181
+* #0181 ^designation.language = #fr-FR
+* #0181 ^designation.use.system = "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"
+* #0181 ^designation.use = $hl7TermMaintInfra#preferredForLanguage
+* #0181 ^designation.value = "Coloration argent Grimelius"
+
+* #0182
+* #0182 ^designation.language = #fr-FR
+* #0182 ^designation.use.system = "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"
+* #0182 ^designation.use = $hl7TermMaintInfra#preferredForLanguage
+* #0182 ^designation.value = "Coloration de Grocott"
+
+* #0183
+* #0183 ^designation.language = #fr-FR
+* #0183 ^designation.use.system = "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"
+* #0183 ^designation.use = $hl7TermMaintInfra#preferredForLanguage
+* #0183 ^designation.value = "Coloration méthénamine argent Grocott"
+
+* #0184
+* #0184 ^designation.language = #fr-FR
+* #0184 ^designation.use.system = "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"
+* #0184 ^designation.use = $hl7TermMaintInfra#preferredForLanguage
+* #0184 ^designation.value = "Coloration à l'oxyde ferrique colloïdale de Hale"
+
+* #0185
+* #0185 ^designation.language = #fr-FR
+* #0185 ^designation.use.system = "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"
+* #0185 ^designation.use = $hl7TermMaintInfra#preferredForLanguage
+* #0185 ^designation.value = "Coloration au fer colloïdale de Hale"
+
+* #0186
+* #0186 ^designation.language = #fr-FR
+* #0186 ^designation.use.system = "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"
+* #0186 ^designation.use = $hl7TermMaintInfra#preferredForLanguage
+* #0186 ^designation.value = "Coloration Hansel"
+
+* #0187
+* #0187 ^designation.language = #fr-FR
+* #0187 ^designation.use.system = "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"
+* #0187 ^designation.use = $hl7TermMaintInfra#preferredForLanguage
+* #0187 ^designation.value = "Coloration hématoxylline Harris+éosine"
+
+* #0188
+* #0188 ^designation.language = #fr-FR
+* #0188 ^designation.use.system = "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"
+* #0188 ^designation.use = $hl7TermMaintInfra#preferredForLanguage
+* #0188 ^designation.value = "Coloration hématoxylline+éosine"
+
+* #0189
+* #0189 ^designation.language = #fr-FR
+* #0189 ^designation.use.system = "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"
+* #0189 ^designation.use = $hl7TermMaintInfra#preferredForLanguage
+* #0189 ^designation.value = "Coloration Highman"
+
+* #0190
+* #0190 ^designation.language = #fr-FR
+* #0190 ^designation.use.system = "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"
+* #0190 ^designation.use = $hl7TermMaintInfra#preferredForLanguage
+* #0190 ^designation.value = "Coloration Holzer"
+
+* #0191
+* #0191 ^designation.language = #fr-FR
+* #0191 ^designation.use.system = "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"
+* #0191 ^designation.use = $hl7TermMaintInfra#preferredForLanguage
+* #0191 ^designation.value = "Coloration fer hématoxylline"
+
+* #0192
+* #0192 ^designation.language = #fr-FR
+* #0192 ^designation.use.system = "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"
+* #0192 ^designation.use = $hl7TermMaintInfra#preferredForLanguage
+* #0192 ^designation.value = "Coloration Jones"
+
+* #0193
+* #0193 ^designation.language = #fr-FR
+* #0193 ^designation.use.system = "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"
+* #0193 ^designation.use = $hl7TermMaintInfra#preferredForLanguage
+* #0193 ^designation.value = "Coloration méthénamine argent Jones"
+
+* #0194
+* #0194 ^designation.language = #fr-FR
+* #0194 ^designation.use.system = "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"
+* #0194 ^designation.use = $hl7TermMaintInfra#preferredForLanguage
+* #0194 ^designation.value = "Coloration Kossa"
+
+* #0195
+* #0195 ^designation.language = #fr-FR
+* #0195 ^designation.use.system = "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"
+* #0195 ^designation.use = $hl7TermMaintInfra#preferredForLanguage
+* #0195 ^designation.value = "Coloration Lawson-Van Gieson"
+
+* #0196
+* #0196 ^designation.language = #fr-FR
+* #0196 ^designation.use.system = "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"
+* #0196 ^designation.use = $hl7TermMaintInfra#preferredForLanguage
+* #0196 ^designation.value = "Coloration bleu de méthylène Loeffler"
+
+* #0197
+* #0197 ^designation.language = #fr-FR
+* #0197 ^designation.use.system = "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"
+* #0197 ^designation.use = $hl7TermMaintInfra#preferredForLanguage
+* #0197 ^designation.value = "Coloration Luxol bleu au violet crésyl"
+
+* #0198
+* #0198 ^designation.language = #fr-FR
+* #0198 ^designation.use.system = "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"
+* #0198 ^designation.use = $hl7TermMaintInfra#preferredForLanguage
+* #0198 ^designation.value = "Coloration Luxol bleu à l'acide périodique-Schiff"
+
+* #0199
+* #0199 ^designation.language = #fr-FR
+* #0199 ^designation.use.system = "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"
+* #0199 ^designation.use = $hl7TermMaintInfra#preferredForLanguage
+* #0199 ^designation.value = "Coloration tétrachrome MacNeal"
+
+* #0200
+* #0200 ^designation.language = #fr-FR
+* #0200 ^designation.use.system = "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"
+* #0200 ^designation.use = $hl7TermMaintInfra#preferredForLanguage
+* #0200 ^designation.value = "Coloration Mallory-Heidenhain"
+
+* #0201
+* #0201 ^designation.language = #fr-FR
+* #0201 ^designation.use.system = "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"
+* #0201 ^designation.use = $hl7TermMaintInfra#preferredForLanguage
+* #0201 ^designation.value = "Coloration trichrome Masson"
+
+* #0202
+* #0202 ^designation.language = #fr-FR
+* #0202 ^designation.use.system = "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"
+* #0202 ^designation.use = $hl7TermMaintInfra#preferredForLanguage
+* #0202 ^designation.value = "Coloration Mayer mucicarmine"
+
+* #0203
+* #0203 ^designation.language = #fr-FR
+* #0203 ^designation.use.system = "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"
+* #0203 ^designation.use = $hl7TermMaintInfra#preferredForLanguage
+* #0203 ^designation.value = "Coloration Mayer hématoxyline éosine"
+
+* #0204
+* #0204 ^designation.language = #fr-FR
+* #0204 ^designation.use.system = "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"
+* #0204 ^designation.use = $hl7TermMaintInfra#preferredForLanguage
+* #0204 ^designation.value = "Coloration May-Grunwald Giemsa"
+
+* #0205
+* #0205 ^designation.language = #fr-FR
+* #0205 ^designation.use.system = "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"
+* #0205 ^designation.use = $hl7TermMaintInfra#preferredForLanguage
+* #0205 ^designation.value = "Coloration au vert de méthyl"
+
+* #0206
+* #0206 ^designation.language = #fr-FR
+* #0206 ^designation.use.system = "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"
+* #0206 ^designation.use = $hl7TermMaintInfra#preferredForLanguage
+* #0206 ^designation.value = "Coloration au vert de méthyl pyronine"
+
+* #0207
+* #0207 ^designation.language = #fr-FR
+* #0207 ^designation.use.system = "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"
+* #0207 ^designation.use = $hl7TermMaintInfra#preferredForLanguage
+* #0207 ^designation.value = "Coloration trichrome Gomori-Wheatley"
+
+* #0208
+* #0208 ^designation.language = #fr-FR
+* #0208 ^designation.use.system = "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"
+* #0208 ^designation.use = $hl7TermMaintInfra#preferredForLanguage
+* #0208 ^designation.value = "Coloration trichrome Masson modifié"
+
+* #0209
+* #0209 ^designation.language = #fr-FR
+* #0209 ^designation.use.system = "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"
+* #0209 ^designation.use = $hl7TermMaintInfra#preferredForLanguage
+* #0209 ^designation.value = "Coloration trichrome modifié"
+
+* #0210
+* #0210 ^designation.language = #fr-FR
+* #0210 ^designation.use.system = "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"
+* #0210 ^designation.use = $hl7TermMaintInfra#preferredForLanguage
+* #0210 ^designation.value = "Coloration pentachrome Movat"
+
+* #0211
+* #0211 ^designation.language = #fr-FR
+* #0211 ^designation.use.system = "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"
+* #0211 ^designation.use = $hl7TermMaintInfra#preferredForLanguage
+* #0211 ^designation.value = "Coloration mucicarmine"
+
+* #0212
+* #0212 ^designation.language = #fr-FR
+* #0212 ^designation.use.system = "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"
+* #0212 ^designation.use = $hl7TermMaintInfra#preferredForLanguage
+* #0212 ^designation.value = "Coloration rouge neutre"
+
+* #0213
+* #0213 ^designation.language = #fr-FR
+* #0213 ^designation.use.system = "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"
+* #0213 ^designation.use = $hl7TermMaintInfra#preferredForLanguage
+* #0213 ^designation.value = "Coloration bleu nuit"
+
+* #0214
+* #0214 ^designation.language = #fr-FR
+* #0214 ^designation.use.system = "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"
+* #0214 ^designation.use = $hl7TermMaintInfra#preferredForLanguage
+* #0214 ^designation.value = "Coloration estérase non spécifique"
+
+* #0215
+* #0215 ^designation.language = #fr-FR
+* #0215 ^designation.use.system = "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"
+* #0215 ^designation.use = $hl7TermMaintInfra#preferredForLanguage
+* #0215 ^designation.value = "Coloration huile rouge O"
+
+* #0216
+* #0216 ^designation.language = #fr-FR
+* #0216 ^designation.use.system = "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"
+* #0216 ^designation.use = $hl7TermMaintInfra#preferredForLanguage
+* #0216 ^designation.value = "Coloration orcéine"
+
+* #0217
+* #0217 ^designation.language = #fr-FR
+* #0217 ^designation.use.system = "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"
+* #0217 ^designation.use = $hl7TermMaintInfra#preferredForLanguage
+* #0217 ^designation.value = "Coloration de Perls"
+
+* #0218
+* #0218 ^designation.language = #fr-FR
+* #0218 ^designation.use.system = "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"
+* #0218 ^designation.use = $hl7TermMaintInfra#preferredForLanguage
+* #0218 ^designation.value = "Coloration hématoxyline phosphotungstique"
+
+* #0219
+* #0219 ^designation.language = #fr-FR
+* #0219 ^designation.use.system = "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"
+* #0219 ^designation.use = $hl7TermMaintInfra#preferredForLanguage
+* #0219 ^designation.value = "Coloration ferrocyanure de potassium"
+
+* #0220
+* #0220 ^designation.language = #fr-FR
+* #0220 ^designation.use.system = "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"
+* #0220 ^designation.use = $hl7TermMaintInfra#preferredForLanguage
+* #0220 ^designation.value = "Coloration bleu de Prusse"
+
+* #0221
+* #0221 ^designation.language = #fr-FR
+* #0221 ^designation.use.system = "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"
+* #0221 ^designation.use = $hl7TermMaintInfra#preferredForLanguage
+* #0221 ^designation.value = "Coloration Bennhold modifiée"
+
+* #0222
+* #0222 ^designation.language = #fr-FR
+* #0222 ^designation.use.system = "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"
+* #0222 ^designation.use = $hl7TermMaintInfra#preferredForLanguage
+* #0222 ^designation.value = "Coloration quinacrine fluorescente"
+
+* #0223
+* #0223 ^designation.language = #fr-FR
+* #0223 ^designation.use.system = "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"
+* #0223 ^designation.use = $hl7TermMaintInfra#preferredForLanguage
+* #0223 ^designation.value = "Coloration réticuline"
+
+* #0224
+* #0224 ^designation.language = #fr-FR
+* #0224 ^designation.use.system = "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"
+* #0224 ^designation.use = $hl7TermMaintInfra#preferredForLanguage
+* #0224 ^designation.value = "Coloration rhodamine"
+
+* #0225
+* #0225 ^designation.language = #fr-FR
+* #0225 ^designation.use.system = "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"
+* #0225 ^designation.use = $hl7TermMaintInfra#preferredForLanguage
+* #0225 ^designation.value = "Coloration safranée"
+
+* #0226
+* #0226 ^designation.language = #fr-FR
+* #0226 ^designation.use.system = "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"
+* #0226 ^designation.use = $hl7TermMaintInfra#preferredForLanguage
+* #0226 ^designation.value = "Coloration Schmorl"
+
+* #0227
+* #0227 ^designation.language = #fr-FR
+* #0227 ^designation.use.system = "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"
+* #0227 ^designation.use = $hl7TermMaintInfra#preferredForLanguage
+* #0227 ^designation.value = "Coloration Sevier-Munger"
+
+* #0228
+* #0228 ^designation.language = #fr-FR
+* #0228 ^designation.use.system = "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"
+* #0228 ^designation.use = $hl7TermMaintInfra#preferredForLanguage
+* #0228 ^designation.value = "Coloration argentique"
+
+* #0229
+* #0229 ^designation.language = #fr-FR
+* #0229 ^designation.use.system = "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"
+* #0229 ^designation.use = $hl7TermMaintInfra#preferredForLanguage
+* #0229 ^designation.value = "Coloration estérase spécifique (Butyrate estérase)"
+
+* #0230
+* #0230 ^designation.language = #fr-FR
+* #0230 ^designation.use.system = "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"
+* #0230 ^designation.use = $hl7TermMaintInfra#preferredForLanguage
+* #0230 ^designation.value = "Coloration Steiner"
+
+* #0231
+* #0231 ^designation.language = #fr-FR
+* #0231 ^designation.use.system = "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"
+* #0231 ^designation.use = $hl7TermMaintInfra#preferredForLanguage
+* #0231 ^designation.value = "Coloration Soudan III"
+
+* #0232
+* #0232 ^designation.language = #fr-FR
+* #0232 ^designation.use.system = "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"
+* #0232 ^designation.use = $hl7TermMaintInfra#preferredForLanguage
+* #0232 ^designation.value = "Coloration Soudan IV"
+
+* #0233
+* #0233 ^designation.language = #fr-FR
+* #0233 ^designation.use.system = "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"
+* #0233 ^designation.use = $hl7TermMaintInfra#preferredForLanguage
+* #0233 ^designation.value = "Coloration bleu alcian sulfaté"
+
+* #0234
+* #0234 ^designation.language = #fr-FR
+* #0234 ^designation.use.system = "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"
+* #0234 ^designation.use = $hl7TermMaintInfra#preferredForLanguage
+* #0234 ^designation.value = "Coloration supravitale"
+
+* #0235
+* #0235 ^designation.language = #fr-FR
+* #0235 ^designation.use.system = "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"
+* #0235 ^designation.use = $hl7TermMaintInfra#preferredForLanguage
+* #0235 ^designation.value = "Coloration thioflavine-S"
+
+* #0236
+* #0236 ^designation.language = #fr-FR
+* #0236 ^designation.use.system = "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"
+* #0236 ^designation.use = $hl7TermMaintInfra#preferredForLanguage
+* #0236 ^designation.value = "Coloration Giemsa 3µ"
+
+* #0237
+* #0237 ^designation.language = #fr-FR
+* #0237 ^designation.use.system = "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"
+* #0237 ^designation.use = $hl7TermMaintInfra#preferredForLanguage
+* #0237 ^designation.value = "Coloration Vassar-Culling"
+
+* #0238
+* #0238 ^designation.language = #fr-FR
+* #0238 ^designation.use.system = "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"
+* #0238 ^designation.use = $hl7TermMaintInfra#preferredForLanguage
+* #0238 ^designation.value = "Coloration vitale"
+
+* #0239
+* #0239 ^designation.language = #fr-FR
+* #0239 ^designation.use.system = "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"
+* #0239 ^designation.use = $hl7TermMaintInfra#preferredForLanguage
+* #0239 ^designation.value = "Coloration Von Kossa"
+
+* #0240
+* #0240 ^designation.language = #fr-FR
+* #0240 ^designation.use.system = "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"
+* #0240 ^designation.use = $hl7TermMaintInfra#preferredForLanguage
+* #0240 ^designation.value = "Antibiogramme méthode par diffusion"
+
+* #0241
+* #0241 ^designation.language = #fr-FR
+* #0241 ^designation.use.system = "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"
+* #0241 ^designation.use = $hl7TermMaintInfra#preferredForLanguage
+* #0241 ^designation.value = "Antibiogramme méthode par automate BACTEC"
+
+* #0242
+* #0242 ^designation.language = #fr-FR
+* #0242 ^designation.use.system = "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"
+* #0242 ^designation.use = $hl7TermMaintInfra#preferredForLanguage
+* #0242 ^designation.value = "Antibiogramme méthode par dilution"
+
+* #0243
+* #0243 ^designation.language = #fr-FR
+* #0243 ^designation.use.system = "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"
+* #0243 ^designation.use = $hl7TermMaintInfra#preferredForLanguage
+* #0243 ^designation.value = "Concentration minimale bactéricide (CMB) par macrodilution (tube)"
+
+* #0244
+* #0244 ^designation.language = #fr-FR
+* #0244 ^designation.use.system = "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"
+* #0244 ^designation.use = $hl7TermMaintInfra#preferredForLanguage
+* #0244 ^designation.value = "Concentration minimale bactéricide (CMB) par microdilution (plaque)"
+
+* #0245
+* #0245 ^designation.language = #fr-FR
+* #0245 ^designation.use.system = "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"
+* #0245 ^designation.use = $hl7TermMaintInfra#preferredForLanguage
+* #0245 ^designation.value = "Concentration minimale inhibitrice (CMI) par macrodilution (tube)"
+
+* #0246
+* #0246 ^designation.language = #fr-FR
+* #0246 ^designation.use.system = "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"
+* #0246 ^designation.use = $hl7TermMaintInfra#preferredForLanguage
+* #0246 ^designation.value = "Concentration minimale inhibitrice (CMI) par microdilution (plaque)"
+
+* #0247
+* #0247 ^designation.language = #fr-FR
+* #0247 ^designation.use.system = "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"
+* #0247 ^designation.use = $hl7TermMaintInfra#preferredForLanguage
+* #0247 ^designation.value = "Turbidimétrie"
+
+* #0248
+* #0248 ^designation.language = #fr-FR
+* #0248 ^designation.use.system = "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"
+* #0248 ^designation.use = $hl7TermMaintInfra#preferredForLanguage
+* #0248 ^designation.value = "Réfractométrie"
+
+* #0249
+* #0249 ^designation.language = #fr-FR
+* #0249 ^designation.use.system = "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"
+* #0249 ^designation.use = $hl7TermMaintInfra#preferredForLanguage
+* #0249 ^designation.value = "Chromatographie couche mince"
+
+* #0250
+* #0250 ^designation.language = #fr-FR
+* #0250 ^designation.use.system = "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"
+* #0250 ^designation.use = $hl7TermMaintInfra#preferredForLanguage
+* #0250 ^designation.value = "EMIT"
+
+* #0251
+* #0251 ^designation.language = #fr-FR
+* #0251 ^designation.use.system = "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"
+* #0251 ^designation.use = $hl7TermMaintInfra#preferredForLanguage
+* #0251 ^designation.value = "Cytométrie de flux"
+
+* #0252
+* #0252 ^designation.language = #fr-FR
+* #0252 ^designation.use.system = "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"
+* #0252 ^designation.use = $hl7TermMaintInfra#preferredForLanguage
+* #0252 ^designation.value = "Immunodiffusion radiale (RID)"
+
+* #0253
+* #0253 ^designation.language = #fr-FR
+* #0253 ^designation.use.system = "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"
+* #0253 ^designation.use = $hl7TermMaintInfra#preferredForLanguage
+* #0253 ^designation.value = "PFIA"
+
+* #0254
+* #0254 ^designation.language = #fr-FR
+* #0254 ^designation.use.system = "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"
+* #0254 ^designation.use = $hl7TermMaintInfra#preferredForLanguage
+* #0254 ^designation.value = "Immunofixation"
+
+* #0255
+* #0255 ^designation.language = #fr-FR
+* #0255 ^designation.use.system = "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"
+* #0255 ^designation.use = $hl7TermMaintInfra#preferredForLanguage
+* #0255 ^designation.value = "Dialyse à l'équilibre"
+
+* #0256
+* #0256 ^designation.language = #fr-FR
+* #0256 ^designation.use.system = "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"
+* #0256 ^designation.use = $hl7TermMaintInfra#preferredForLanguage
+* #0256 ^designation.value = "Elution acide de Kleihauer-Betke"
+
+* #0257
+* #0257 ^designation.language = #fr-FR
+* #0257 ^designation.use.system = "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"
+* #0257 ^designation.use = $hl7TermMaintInfra#preferredForLanguage
+* #0257 ^designation.value = "Immunofluorescence anti-complément (ACIF)"
+
+* #0258
+* #0258 ^designation.language = #fr-FR
+* #0258 ^designation.use.system = "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"
+* #0258 ^designation.use = $hl7TermMaintInfra#preferredForLanguage
+* #0258 ^designation.value = "Chromatographie phase gazeuse/Spectroscopie de masse (GC/MS)"
+
+* #0259
+* #0259 ^designation.language = #fr-FR
+* #0259 ^designation.use.system = "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"
+* #0259 ^designation.use = $hl7TermMaintInfra#preferredForLanguage
+* #0259 ^designation.value = "Néphélométrie"
+
+* #0261
+* #0261 ^designation.language = #fr-FR
+* #0261 ^designation.use.system = "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"
+* #0261 ^designation.use = $hl7TermMaintInfra#preferredForLanguage
+* #0261 ^designation.value = "Test de micro-lymphocytotoxicité"
+
+* #0262
+* #0262 ^designation.language = #fr-FR
+* #0262 ^designation.use.system = "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"
+* #0262 ^designation.use = $hl7TermMaintInfra#preferredForLanguage
+* #0262 ^designation.value = "Spectrophotométrie"
+
+* #0263
+* #0263 ^designation.language = #fr-FR
+* #0263 ^designation.use.system = "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"
+* #0263 ^designation.use = $hl7TermMaintInfra#preferredForLanguage
+* #0263 ^designation.value = "Spectrophotométrie d'absorption atomique (SAA)"
+
+* #0264
+* #0264 ^designation.language = #fr-FR
+* #0264 ^designation.use.system = "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"
+* #0264 ^designation.use = $hl7TermMaintInfra#preferredForLanguage
+* #0264 ^designation.value = "Electrode ionique sélective"
+
+* #0265
+* #0265 ^designation.language = #fr-FR
+* #0265 ^designation.use.system = "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"
+* #0265 ^designation.use = $hl7TermMaintInfra#preferredForLanguage
+* #0265 ^designation.value = "Chromatographie phase gazeuse (CG)"
+
+* #0266
+* #0266 ^designation.language = #fr-FR
+* #0266 ^designation.use.system = "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"
+* #0266 ^designation.use = $hl7TermMaintInfra#preferredForLanguage
+* #0266 ^designation.value = "Isoélectrofocalisation (IEF)"
+
+* #0267
+* #0267 ^designation.language = #fr-FR
+* #0267 ^designation.use.system = "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"
+* #0267 ^designation.use = $hl7TermMaintInfra#preferredForLanguage
+* #0267 ^designation.value = "Chimioluminescence"
+
+* #0268
+* #0268 ^designation.language = #fr-FR
+* #0268 ^designation.use.system = "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"
+* #0268 ^designation.use = $hl7TermMaintInfra#preferredForLanguage
+* #0268 ^designation.value = "MEIA"
+
+* #0269
+* #0269 ^designation.language = #fr-FR
+* #0269 ^designation.use.system = "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"
+* #0269 ^designation.use = $hl7TermMaintInfra#preferredForLanguage
+* #0269 ^designation.value = "Spectrométrie de masse à plasma à couplage inductif (ICP/MS)"
+
+* #0270
+* #0270 ^designation.language = #fr-FR
+* #0270 ^designation.use.system = "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"
+* #0270 ^designation.use = $hl7TermMaintInfra#preferredForLanguage
+* #0270 ^designation.value = "IRMA"
+
+* #0271
+* #0271 ^designation.language = #fr-FR
+* #0271 ^designation.use.system = "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"
+* #0271 ^designation.use = $hl7TermMaintInfra#preferredForLanguage
+* #0271 ^designation.value = "Coagulation par détection optique du caillot"
+
+* #0272
+* #0272 ^designation.language = #fr-FR
+* #0272 ^designation.use.system = "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"
+* #0272 ^designation.use = $hl7TermMaintInfra#preferredForLanguage
+* #0272 ^designation.value = "Concentration minimale inhibitrice (CMI)"
+
+* #0273
+* #0273 ^designation.language = #fr-FR
+* #0273 ^designation.use.system = "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"
+* #0273 ^designation.use = $hl7TermMaintInfra#preferredForLanguage
+* #0273 ^designation.value = "Susceptibilité génotypique virale"
+
+* #0274
+* #0274 ^designation.language = #fr-FR
+* #0274 ^designation.use.system = "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"
+* #0274 ^designation.use = $hl7TermMaintInfra#preferredForLanguage
+* #0274 ^designation.value = "Susceptibilité phénotypique virale"
+
+* #0275
+* #0275 ^designation.language = #fr-FR
+* #0275 ^designation.use.system = "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"
+* #0275 ^designation.use = $hl7TermMaintInfra#preferredForLanguage
+* #0275 ^designation.value = "Bandelette à gradient"
 
 * #275a
 * #275a ^designation.language = #fr-FR
@@ -4711,35 +4711,35 @@ Description: "Traduction Francaise"
 * #275a ^designation.use = $hl7TermMaintInfra#preferredForLanguage
 * #275a ^designation.value = "Concentration minimale létale (CML)"
 
-* #276
-* #276 ^designation.language = #fr-FR
-* #276 ^designation.use.system = "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"
-* #276 ^designation.use = $hl7TermMaintInfra#preferredForLanguage
-* #276 ^designation.value = "Susceptibilité des mycobactéries à croissance lente"
+* #0276
+* #0276 ^designation.language = #fr-FR
+* #0276 ^designation.use.system = "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"
+* #0276 ^designation.use = $hl7TermMaintInfra#preferredForLanguage
+* #0276 ^designation.value = "Susceptibilité des mycobactéries à croissance lente"
 
-* #277
-* #277 ^designation.language = #fr-FR
-* #277 ^designation.use.system = "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"
-* #277 ^designation.use = $hl7TermMaintInfra#preferredForLanguage
-* #277 ^designation.value = "Titre bactéricide sérique (TBS)"
+* #0277
+* #0277 ^designation.language = #fr-FR
+* #0277 ^designation.use.system = "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"
+* #0277 ^designation.use = $hl7TermMaintInfra#preferredForLanguage
+* #0277 ^designation.value = "Titre bactéricide sérique (TBS)"
 
-* #278
-* #278 ^designation.language = #fr-FR
-* #278 ^designation.use.system = "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"
-* #278 ^designation.use = $hl7TermMaintInfra#preferredForLanguage
-* #278 ^designation.value = "Dépistage sur gélose"
+* #0278
+* #0278 ^designation.language = #fr-FR
+* #0278 ^designation.use.system = "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"
+* #0278 ^designation.use = $hl7TermMaintInfra#preferredForLanguage
+* #0278 ^designation.value = "Dépistage sur gélose"
 
-* #279
-* #279 ^designation.language = #fr-FR
-* #279 ^designation.use.system = "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"
-* #279 ^designation.use = $hl7TermMaintInfra#preferredForLanguage
-* #279 ^designation.value = "Test d'induction par disque"
+* #0279
+* #0279 ^designation.language = #fr-FR
+* #0279 ^designation.use.system = "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"
+* #0279 ^designation.use = $hl7TermMaintInfra#preferredForLanguage
+* #0279 ^designation.value = "Test d'induction par disque"
 
-* #280
-* #280 ^designation.language = #fr-FR
-* #280 ^designation.use.system = "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"
-* #280 ^designation.use = $hl7TermMaintInfra#preferredForLanguage
-* #280 ^designation.value = "Test de sensibilité"
+* #0280
+* #0280 ^designation.language = #fr-FR
+* #0280 ^designation.use.system = "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"
+* #0280 ^designation.use = $hl7TermMaintInfra#preferredForLanguage
+* #0280 ^designation.value = "Test de sensibilité"
 
 * #ALGM
 * #ALGM ^designation.language = #fr-FR
@@ -4782,7 +4782,6 @@ Description: "Traduction Francaise"
 * #VVOICE ^designation.use.system = "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"
 * #VVOICE ^designation.use = $hl7TermMaintInfra#preferredForLanguage
 * #VVOICE ^designation.value = "Vérification par voie orale"
-
 
 CodeSystem: ObservationValueSupplementFr
 Id: ObservationValue-supplement-fr
