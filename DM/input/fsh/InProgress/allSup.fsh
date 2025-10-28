@@ -5,8 +5,8 @@ Id: allergy-intolerance-criticality-supplement-fr
 Title: "allergy-intolerance-criticalitySupplementFr"
 Description: "Traduction Francaise"
 * ^language = #fr-FR
-* ^extension.url = "http://hl7.org/fhir/StructureDefinition/structuredefinition-wg"
-* ^extension.valueCode = #vocab
+
+
 * ^version = "1.0"
 * ^status =  #draft
 * ^experimental = true
@@ -39,8 +39,8 @@ Id: allergyintolerance-clinical-supplement-fr
 Title: "allergyintolerance-clinicalSupplementFr"
 Description: "Traduction Francaise"
 * ^language = #fr-FR
-* ^extension.url = "http://hl7.org/fhir/StructureDefinition/structuredefinition-wg"
-* ^extension.valueCode = #vocab
+
+
 * ^version = "1.0"
 * ^status =  #draft
 * ^experimental = true
@@ -74,8 +74,8 @@ Id: condition-clinical-supplement-fr
 Title: "condition-clinicalSupplementFr"
 Description: "Traduction Francaise"
 * ^language = #fr-FR
-* ^extension.url = "http://hl7.org/fhir/StructureDefinition/structuredefinition-wg"
-* ^extension.valueCode = #vocab
+
+
 * ^version = "1.0"
 * ^status =  #draft
 * ^experimental = true
@@ -125,8 +125,8 @@ Id: condition-ver-status-supplement-fr
 Title: "condition-ver-statusSupplementFr"
 Description: "Traduction Francaise"
 * ^language = #fr-FR
-* ^extension.url = "http://hl7.org/fhir/StructureDefinition/structuredefinition-wg"
-* ^extension.valueCode = #vocab
+
+
 * ^version = "1.0"
 * ^status =  #draft
 * ^experimental = true
@@ -157,8 +157,8 @@ Id: employmentStatus-supplement-fr
 Title: "employmentStatusSupplementFr"
 Description: "Traduction Francaise"
 * ^language = #fr-FR
-* ^extension.url = "http://hl7.org/fhir/StructureDefinition/structuredefinition-wg"
-* ^extension.valueCode = #vocab
+
+
 * ^version = "1.0"
 * ^status =  #draft
 * ^experimental = true
@@ -238,8 +238,8 @@ Id: SpecimenType-supplement-fr
 Title: "SpecimenTypeSupplementFr"
 Description: "Traduction Francaise"
 * ^language = #fr-FR
-* ^extension.url = "http://hl7.org/fhir/StructureDefinition/structuredefinition-wg"
-* ^extension.valueCode = #vocab
+
+
 * ^version = "1.0"
 * ^status =  #draft
 * ^experimental = true
@@ -2311,8 +2311,8 @@ Id: ActCode-supplement-fr
 Title: "ActCodeSupplementFr"
 Description: "Traduction Francaise"
 * ^language = #fr-FR
-* ^extension.url = "http://hl7.org/fhir/StructureDefinition/structuredefinition-wg"
-* ^extension.valueCode = #vocab
+
+
 * ^version = "1.0"
 * ^status =  #draft
 * ^experimental = true
@@ -2465,8 +2465,8 @@ Id: ActMood-supplement-fr
 Title: "ActMoodSupplementFr"
 Description: "Traduction Francaise"
 * ^language = #fr-FR
-* ^extension.url = "http://hl7.org/fhir/StructureDefinition/structuredefinition-wg"
-* ^extension.valueCode = #vocab
+
+
 * ^version = "1.0"
 * ^status =  #draft
 * ^experimental = true
@@ -2593,8 +2593,8 @@ Id: ActPriority-supplement-fr
 Title: "ActPrioritySupplementFr"
 Description: "Traduction Francaise"
 * ^language = #fr-FR
-* ^extension.url = "http://hl7.org/fhir/StructureDefinition/structuredefinition-wg"
-* ^extension.valueCode = #vocab
+
+
 * ^version = "1.0"
 * ^status =  #draft
 * ^experimental = true
@@ -2679,8 +2679,8 @@ Id: ActStatus-supplement-fr
 Title: "ActStatusSupplementFr"
 Description: "Traduction Francaise"
 * ^language = #fr-FR
-* ^extension.url = "http://hl7.org/fhir/StructureDefinition/structuredefinition-wg"
-* ^extension.valueCode = #vocab
+
+
 * ^version = "1.0"
 * ^status =  #draft
 * ^experimental = true
@@ -2736,8 +2736,8 @@ Id: AdministrativeGender-supplement-fr
 Title: "AdministrativeGenderSupplementFr"
 Description: "Traduction Francaise"
 * ^language = #fr-FR
-* ^extension.url = "http://hl7.org/fhir/StructureDefinition/structuredefinition-wg"
-* ^extension.valueCode = #vocab
+
+
 * ^version = "1.0"
 * ^status =  #draft
 * ^experimental = true
@@ -2768,8 +2768,8 @@ Id: Confidentiality-supplement-fr
 Title: "Confidentiality SupplementFr"
 Description: "Traduction Francaise"
 * ^language = #fr-FR
-* ^extension.url = "http://hl7.org/fhir/StructureDefinition/structuredefinition-wg"
-* ^extension.valueCode = #vocab
+
+
 * ^version = "1.0"
 * ^status =  #draft
 * ^experimental = true
@@ -2819,8 +2819,8 @@ Id: mediaType-supplement-fr
 Title: "mediaTypeSupplementFr"
 Description: "Traduction Francaise"
 * ^language = #fr-FR
-* ^extension.url = "http://hl7.org/fhir/StructureDefinition/structuredefinition-wg"
-* ^extension.valueCode = #vocab
+
+
 * ^version = "1.0"
 * ^status =  #draft
 * ^experimental = true
@@ -2917,8 +2917,8 @@ Id: ObservationInterpretation-supplement-fr
 Title: "ObservationInterpretationSupplementFr"
 Description: "Traduction Francaise"
 * ^language = #fr-FR
-* ^extension.url = "http://hl7.org/fhir/StructureDefinition/structuredefinition-wg"
-* ^extension.valueCode = #vocab
+
+
 * ^version = "1.0"
 * ^status =  #draft
 * ^experimental = true
@@ -3165,8 +3165,8 @@ Id: ObservationMethod-supplement-fr
 Title: "ObservationMethodSupplementFr"
 Description: "Traduction Francaise"
 * ^language = #fr-FR
-* ^extension.url = "http://hl7.org/fhir/StructureDefinition/structuredefinition-wg"
-* ^extension.valueCode = #vocab
+
+
 * ^version = "1.0"
 * ^status =  #draft
 * ^experimental = true
@@ -4789,8 +4789,8 @@ Id: ObservationValue-supplement-fr
 Title: "ObservationValueSupplementFr"
 Description: "Traduction Francaise"
 * ^language = #fr-FR
-* ^extension.url = "http://hl7.org/fhir/StructureDefinition/structuredefinition-wg"
-* ^extension.valueCode = #vocab
+
+
 * ^version = "1.0"
 * ^status =  #draft
 * ^experimental = true
@@ -4876,8 +4876,8 @@ Id: orderableDrugForm-supplement-fr
 Title: "orderableDrugFormSupplementFr"
 Description: "Traduction Francaise"
 * ^language = #fr-FR
-* ^extension.url = "http://hl7.org/fhir/StructureDefinition/structuredefinition-wg"
-* ^extension.valueCode = #vocab
+
+
 * ^version = "1.0"
 * ^status =  #draft
 * ^experimental = true
@@ -4944,8 +4944,8 @@ Id: ParticipationFunction-supplement-fr
 Title: "ParticipationFunctionSupplementFr"
 Description: "Traduction Francaise"
 * ^language = #fr-FR
-* ^extension.url = "http://hl7.org/fhir/StructureDefinition/structuredefinition-wg"
-* ^extension.valueCode = #vocab
+
+
 * ^version = "1.0"
 * ^status =  #draft
 * ^experimental = true
@@ -4984,8 +4984,8 @@ Id: ParticipationType-supplement-fr
 Title: "ParticipationTypeSupplementFr"
 Description: "Traduction Francaise"
 * ^language = #fr-FR
-* ^extension.url = "http://hl7.org/fhir/StructureDefinition/structuredefinition-wg"
-* ^extension.valueCode = #vocab
+
+
 * ^version = "1.0"
 * ^status =  #draft
 * ^experimental = true
@@ -5347,8 +5347,8 @@ Id: RoleClass-supplement-fr
 Title: "RoleClassSupplementFr"
 Description: "Traduction Francaise"
 * ^language = #fr-FR
-* ^extension.url = "http://hl7.org/fhir/StructureDefinition/structuredefinition-wg"
-* ^extension.valueCode = #vocab
+
+
 * ^version = "1.0"
 * ^status =  #draft
 * ^experimental = true
@@ -5410,8 +5410,8 @@ Id: RoleCode-supplement-fr
 Title: "RoleCodeSupplementFr"
 Description: "Traduction Francaise"
 * ^language = #fr-FR
-* ^extension.url = "http://hl7.org/fhir/StructureDefinition/structuredefinition-wg"
-* ^extension.valueCode = #vocab
+
+
 * ^version = "1.0"
 * ^status =  #draft
 * ^experimental = true
@@ -6116,8 +6116,8 @@ Id: substanceAdminSubstitution-supplement-fr
 Title: "substanceAdminSubstitutionSupplementFr"
 Description: "Traduction Francaise"
 * ^language = #fr-FR
-* ^extension.url = "http://hl7.org/fhir/StructureDefinition/structuredefinition-wg"
-* ^extension.valueCode = #vocab
+
+
 * ^version = "1.0"
 * ^status =  #draft
 * ^experimental = true
@@ -6143,8 +6143,8 @@ Id: TimingEvent-supplement-fr
 Title: "TimingEventSupplementFr"
 Description: "Traduction Francaise"
 * ^language = #fr-FR
-* ^extension.url = "http://hl7.org/fhir/StructureDefinition/structuredefinition-wg"
-* ^extension.valueCode = #vocab
+
+
 * ^version = "1.0"
 * ^status =  #draft
 * ^experimental = true
