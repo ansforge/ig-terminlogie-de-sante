@@ -2,7 +2,7 @@
 <RetrieveValueSetResponse xmlns="urn:ihe:iti:svs:2008"
                           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
    <ValueSet dateFin=""
-             dateMaj="20240927120000"
+             dateMaj="20251028120000"
              dateValid="20190118120000"
              description="Jeu de valeurs pour subjectRole"
              displayName="JDV_J65_SubjectRole_DMP"

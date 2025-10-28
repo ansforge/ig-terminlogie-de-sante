@@ -86,7 +86,7 @@
     },
     {
       "url" : "https://mos.esante.gouv.fr/NOS/JDV_J05-SubjectRole-CISIS/FHIR/JDV-J05-SubjectRole-CISIS",
-      "version" : "20250721120000",
+      "version" : "20251028120000",
       "status" : "active",
       "name" : "JDV_J05_SubjectRole_CISIS",
       "title" : null,
@@ -3030,7 +3030,7 @@
     },
     {
       "url" : "https://mos.esante.gouv.fr/NOS/JDV_J65-SubjectRole-DMP/FHIR/JDV-J65-SubjectRole-DMP",
-      "version" : "20240927120000",
+      "version" : "20251028120000",
       "status" : "active",
       "name" : "JDV_J65_SubjectRole_DMP",
       "title" : null,

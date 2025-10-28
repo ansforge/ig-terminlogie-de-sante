@@ -330,7 +330,7 @@
     "id" : "JDV-J05-SubjectRole-CISIS",
     "type" : "ValueSet",
     "url" : "https://mos.esante.gouv.fr/NOS/JDV_J05-SubjectRole-CISIS/FHIR/JDV-J05-SubjectRole-CISIS",
-    "version" : "20250721120000",
+    "version" : "20251028120000",
     "name" : "JDV_J05_SubjectRole_CISIS",
     "oids" : ["1.2.250.1.213.1.1.5.470"]
   },
@@ -2098,7 +2098,7 @@
     "id" : "JDV-J65-SubjectRole-DMP",
     "type" : "ValueSet",
     "url" : "https://mos.esante.gouv.fr/NOS/JDV_J65-SubjectRole-DMP/FHIR/JDV-J65-SubjectRole-DMP",
-    "version" : "20240927120000",
+    "version" : "20251028120000",
     "name" : "JDV_J65_SubjectRole_DMP",
     "oids" : ["1.2.250.1.213.1.1.5.5"]
   },
